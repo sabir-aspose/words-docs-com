@@ -27,10 +27,8 @@ fetch-docs-template-job:
   tags:
     - docker
     - words
-  volumes:
-    - /opt/gitlab-words-ci/bins:/opt/gitlab-words-ci/bins
   script:
-    - cat /shared/data/build_output.txt
+    - cat /opt/gitlab-words-ci/bins/test.txt
 
 build-job:       # This job runs in the build stage, which runs first.
   stage: build
