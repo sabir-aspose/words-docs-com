@@ -1,0 +1,177 @@
+# This file is a template, and might need editing before it works on your project.
+# This is a sample GitLab CI/CD configuration file that should run without any modifications.
+# It demonstrates a basic 3 stage CI/CD pipeline. Instead of real tests or scripts,
+# it uses echo commands to simulate the pipeline execution.
+#
+# A pipeline is composed of independent jobs that run scripts, grouped into stages.
+# Stages run in sequential order, but jobs within stages run in parallel.
+#
+# For more information, see: https://docs.gitlab.com/ee/ci/yaml/index.html#stages
+#
+# You can copy and paste this template into a new `.gitlab-ci.yml` file.
+# You should not add this template to an existing `.gitlab-ci.yml` file by using the `include:` keyword.
+#
+# To contribute improvements to CI/CD templates, please follow the Development guide at:
+# https://docs.gitlab.com/ee/development/cicd/templates.html
+# This specific template is located at:
+# https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Getting-Started.gitlab-ci.yml
+image: docker:latest
+
+variables:
+  GIT_DEPTH: 20
+  LANG: C.UTF-8
+  LC_ALL: C.UTF-8
+  COPY_USER_NAME: service_words
+  DOCS_TEMPLATE_BRANCH_NAME: main
+  COPY_SERVER_ADDRESS: 172.20.204.232
+  DOCS_FULL_ARCHIVE_NAME: words-docs.tar.gz
+  DOCS_TAMPLATE_PROJECT_NAME: docs-template
+  CI_HOME_FOLDER: /opt/gitlab-words-ci
+  HUGO_PATH: $CI_HOME_FOLDER/bins/hugo
+  NPM_REGISTRY_CERT_DIR: $CI_HOME_FOLDER/certs
+  DOCS_BUILD_OUTPUT_FOLDER: output-static-docs-words
+  COPY_FOLDER: /home/service_words
+  DOCS_TEMPLATE_CONTAINER_PATH: $CI_HOME_FOLDER/docs-template
+  DOCS_BUILD_OUTPUT: $CI_HOME_FOLDER/$DOCS_BUILD_OUTPUT_FOLDER
+  NPM_REGISTRY_CERT_PATH: $NPM_REGISTRY_CERT_DIR/npm-registry-cert.pem
+  DOCS_BUILD_OUTPUT_ARCHIVE: $CI_PROJECT_DIR/output-static-docs-words-archive
+  SYNC_TYPE: words # "words" (https://docs.aspose.com/words/) or "words-qa" (https://docs.aspose.com/words-qa/)
+  SYNC_FOLDER: /var/www/docs.aspose.com/html/$SYNC_TYPE
+  BRANCH_NAME: master
+
+stages:
+  - build
+  - copy-docs
+  - sync-docs
+
+build-docs-job:
+  stage: build
+  image: node:20.15.1-alpine
+  tags:
+    - docker
+    - words
+  before_script:
+    - echo "$(date '+%Y-%m-%d %H:%M:%S') Tune the environment..."
+    - sed -i 's/https/http/' /etc/apk/repositories
+    - apk update
+    - apk add --no-cache openssl ca-certificates
+    - sed -i 's/http/https/' /etc/apk/repositories
+    - update-ca-certificates --fresh
+    - mkdir -p $NPM_REGISTRY_CERT_DIR
+    - openssl s_client -showcerts -connect registry.npmjs.org:443 </dev/null 2>/dev/null | openssl x509 -outform PEM > $NPM_REGISTRY_CERT_PATH
+    - echo "HostName $(hostname), RunnerDescription $CI_RUNNER_DESCRIPTION, ProjectDirectory $CI_PROJECT_DIR, Git Depth $GIT_DEPTH, Docs template url $DOCS_TEMPLATE_GIT_URL, Docs template path $DOCS_TEMPLATE_CONTAINER_PATH, The current branch is $CI_COMMIT_REF_NAME"
+    - echo "Installing Git..."
+    - apk update && apk add --no-cache git
+    - echo "The current branch is $CI_COMMIT_REF_NAME"
+    - echo "Install glibc for Hugo extended"
+    - apk add --no-cache gcompat libstdc++
+    - apk add --no-cache tar
+    - apk add git-lfs
+    - git lfs install
+    - git --version
+    - git lfs version
+    - node --version
+    - npm --version
+    - tar --version
+    - apk info gcompat
+    - apk info libstdc++
+    - chmod +x $HUGO_PATH
+    - $HUGO_PATH version
+    - echo "$(date '+%Y-%m-%d %H:%M:%S') Tune has finished."
+  script:
+    - echo "Navifate to docs template repository location..."
+    - mkdir -p $DOCS_TEMPLATE_CONTAINER_PATH
+    - cd $DOCS_TEMPLATE_CONTAINER_PATH
+    - echo "$(date '+%Y-%m-%d %H:%M:%S') Fetch docs template repository..."
+    - git clone --depth $GIT_DEPTH https://$DOCS_TAMPLATE_PROJECT_NAME:$DOCS_TEMPLATE_CI_CD_ACCESS_TOKEN@$DOCS_TEMPLATE_GIT_URL .
+    - echo "$(date '+%Y-%m-%d %H:%M:%S') Checkout template $DOCS_TEMPLATE_BRANCH_NAME branch..."
+    - git checkout $DOCS_TEMPLATE_BRANCH_NAME
+    - echo "$(date '+%Y-%m-%d %H:%M:%S') Currently on docs template checked out $(git rev-parse HEAD) revision"
+    - echo "$(date '+%Y-%m-%d %H:%M:%S') Replace content path in the docs.aspose.com-words.toml..."
+    - sed -i "s|../md-words|$CI_PROJECT_DIR|g" ./configs/docs.aspose.com-words.toml
+    - echo "$(date '+%Y-%m-%d %H:%M:%S') Current directory $(pwd)"
+    - echo "$(date '+%Y-%m-%d %H:%M:%S') Intalling project dependencies..."
+    - npm config set strict-ssl false
+    - npm config set registry http://registry.npmjs.org/
+    - npm config set cafile $NPM_REGISTRY_CERT_PATH
+    - npm config set registry https://registry.npmjs.org
+    - npm ci
+    - echo "$(date '+%Y-%m-%d %H:%M:%S') Documentation build started..."
+    - $HUGO_PATH --cleanDestinationDir --source $DOCS_TEMPLATE_CONTAINER_PATH --baseURL https://docs.aspose.com/$SYNC_TYPE --contentDir $CI_PROJECT_DIR --config config.toml,configs/docs.aspose.com-words.toml --destination $DOCS_BUILD_OUTPUT --minify --verbose
+    - echo "$(date '+%Y-%m-%d %H:%M:%S') Documentation build complete, path in the container $DOCS_BUILD_OUTPUT"
+    - echo "$(date '+%Y-%m-%d %H:%M:%S') Compress generated documentation..."
+    - cd $CI_HOME_FOLDER
+    - mkdir -p $DOCS_BUILD_OUTPUT_ARCHIVE
+    - tar --warning=all -czvf $DOCS_FULL_ARCHIVE_NAME ./$DOCS_BUILD_OUTPUT_FOLDER > /dev/null
+    - mv ./$DOCS_FULL_ARCHIVE_NAME $DOCS_BUILD_OUTPUT_ARCHIVE/$DOCS_FULL_ARCHIVE_NAME
+    - echo "$(date '+%Y-%m-%d %H:%M:%S') Documentation compressed."
+  artifacts:
+    paths:
+      - $DOCS_BUILD_OUTPUT_ARCHIVE/$DOCS_FULL_ARCHIVE_NAME
+    expire_in: 10 minutes
+  rules:
+    - if: $CI_COMMIT_BRANCH == $BRANCH_NAME
+
+copy-docs-job:
+  image: alpine:latest
+  stage: copy-docs
+  needs:
+  - job: build-docs-job
+  tags:
+    - docker
+    - words
+  before_script:
+    - echo "$(date '+%Y-%m-%d %H:%M:%S') Adding tools..."
+    - apk add --no-cache openssh-client # Install SSH client
+    - mkdir -p ~/.ssh # Add the private SSH key
+    - echo "$COPY_DOCS_SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+    - chmod 600 ~/.ssh/id_rsa
+    - echo -e "Host *\n\tStrictHostKeyChecking no\n" > ~/.ssh/config # Disable strict host key checking
+    - echo "$(date '+%Y-%m-%d %H:%M:%S') Tools has added and tuned."
+  script:
+    - echo "$(date '+%Y-%m-%d %H:%M:%S') Removing previous docs version..."
+    - ssh $COPY_USER_NAME@$COPY_SERVER_ADDRESS "[ -d $COPY_FOLDER/$DOCS_BUILD_OUTPUT_FOLDER ] && rm -rf $COPY_FOLDER/$DOCS_BUILD_OUTPUT_FOLDER || echo 'Folder does not exist, skipping.'"
+    - echo "$(date '+%Y-%m-%d %H:%M:%S') Start copying generated docs..."
+    - scp $DOCS_BUILD_OUTPUT_ARCHIVE/$DOCS_FULL_ARCHIVE_NAME $COPY_USER_NAME@172.20.204.232:$COPY_FOLDER
+    - echo "$(date '+%Y-%m-%d %H:%M:%S') Docs has copied to the $COPY_FOLDER"
+    - echo "$(date '+%Y-%m-%d %H:%M:%S') Unpack the docs"
+    - ssh $COPY_USER_NAME@$COPY_SERVER_ADDRESS "tar -xzf $COPY_FOLDER/$DOCS_FULL_ARCHIVE_NAME -C $COPY_FOLDER && rm -rf $COPY_FOLDER/$DOCS_FULL_ARCHIVE_NAME"
+    - echo "$(date '+%Y-%m-%d %H:%M:%S') Copy complete"
+  rules:
+    - if: $CI_COMMIT_BRANCH == $BRANCH_NAME
+
+sync-docs-job:
+  image: alpine:latest
+  stage: sync-docs
+  needs:
+  - job: copy-docs-job
+  tags:
+    - docker
+    - words
+  before_script:
+    - echo "$(date '+%Y-%m-%d %H:%M:%S') Adding tools..."
+    - apk add --no-cache openssh-client
+    - mkdir -p ~/.ssh
+    - echo "$COPY_DOCS_SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+    - chmod 600 ~/.ssh/id_rsa
+    - echo -e "Host *\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
+    - echo "$(date '+%Y-%m-%d %H:%M:%S') Tools has added and tuned."
+  script:
+    - |
+      if ssh $COPY_USER_NAME@$COPY_SERVER_ADDRESS "[ -z \"\$(ls -A $COPY_FOLDER/$DOCS_BUILD_OUTPUT_FOLDER)\" ]"; then
+        echo "Directory $COPY_FOLDER/$DOCS_BUILD_OUTPUT_FOLDER is empty on the remote machine, failing the job."
+        exit 1
+      else
+        echo "Directory $COPY_FOLDER/$DOCS_BUILD_OUTPUT_FOLDER has content on the docs machine, proceeding."
+      fi
+    - echo "$(date '+%Y-%m-%d %H:%M:%S') Syncing $SYNC_FOLDER started..."
+    - ssh $COPY_USER_NAME@$COPY_SERVER_ADDRESS "sudo chown -R service_words:service_words $COPY_FOLDER/$DOCS_BUILD_OUTPUT_FOLDER"
+    - ssh $COPY_USER_NAME@$COPY_SERVER_ADDRESS "sudo find $COPY_FOLDER/$DOCS_BUILD_OUTPUT_FOLDER -type f -exec chmod 644 {} \;"
+    - ssh $COPY_USER_NAME@$COPY_SERVER_ADDRESS "sudo find $COPY_FOLDER/$DOCS_BUILD_OUTPUT_FOLDER -type d -exec chmod 755 {} \;"
+    - ssh $COPY_USER_NAME@$COPY_SERVER_ADDRESS "sudo chattr +i $COPY_FOLDER/$DOCS_BUILD_OUTPUT_FOLDER" # lock folder for modifications.
+    - ssh $COPY_USER_NAME@$COPY_SERVER_ADDRESS "sudo rsync -a --delete $COPY_FOLDER/$DOCS_BUILD_OUTPUT_FOLDER/ $SYNC_FOLDER/"
+    - echo "$(date '+%Y-%m-%d %H:%M:%S') Syncing $SYNC_FOLDER has completed..."
+    - ssh $COPY_USER_NAME@$COPY_SERVER_ADDRESS "sudo chattr -i $COPY_FOLDER/$DOCS_BUILD_OUTPUT_FOLDER"
+    - echo "$(date '+%Y-%m-%d %H:%M:%S') Rights have updated for the $SYNC_FOLDER..."
+  rules:
+    - if: $CI_COMMIT_BRANCH == $BRANCH_NAME
