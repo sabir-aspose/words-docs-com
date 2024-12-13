@@ -1,4 +1,4 @@
-﻿---
+---
 title: Co je nového
 second_title: Aspose.Words pro C++
 articleTitle: Co je nového v Aspose.Words pro C++
@@ -7,16 +7,24 @@ type: docs
 description: "Aspose.Words pro C++ rozšiřuje a zvyšuje denně. Na této stránce se můžete dozvědět o obrovských a nejzajímavějších vlastnostech produktu."
 weight: 2
 url: /cs/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2024-10-28-11-53-45
+timestamp: 2024-12-13-10-56-02
 ---
 
 Tato stránka popisuje nejzajímavější nové funkce Aspose.Words představené v posledních verzích.
 
-## Aspose.Words Pro C++ 24.9, 24.10
+## Aspose.Words Pro C++ 24.9, 24.10, 24.11
 
 Aspose.Words 24.9 zavádí group shape vkládání a StructuredDocumentTag vkládání pomocí DocumentBuilder, vylepšuje Vykreslování radiálního grafu s odstupňováním, vylepšuje digitální podpisy s podporou XAdES-EPES, přidává Markdown rozpoznávání podtržení a poskytuje přístup k oddělovačům poznámek pod čarou/vysvětlivek.
 
 Aspose.Words 24.10 zavádí vylepšenou podporu ovládání ActiveX s vytvářením CommandButton, novým ovládáním viditelnosti tvarů, schopností group shapes, vylepšeným exportem Markdown pro tabulky, formátováním grafů pro grafy Pie a Doughnut, lepším zpracováním kódování Big5 a podporou zastaralých tchajwanských písem.
+
+Aspose.Words 24.11 představuje souhrn dokumentů poháněný AI, vylepšené možnosti Vykreslování, vylepšený přístup k vlastnostem dokumentu a titulky ovládacích prvků ActiveX.
+
+### AI - poháněné funkce
+
+#### Sumarizace dokumentů pomocí OpenAI a Google <sup>24.11</sup>
+
+Podpora sumarizace dokumentů pomocí generativních jazykových modelů **OpenAI** a **Google** byla integrována.
 
 ### Vykreslování a tisk
 
@@ -36,6 +44,18 @@ Byla přidána nová veřejná vlastnost [Hidden]() pro řízení viditelnosti o
 
 Do grafů format Pie a Doughnut bylo přidáno několik nových veřejných vlastností.
 
+#### Řízení Vykreslování PDF výběrový formulář ohraničení polí <sup>24.11</sup>
+
+Byla implementována nová možnost pro řízení Vykreslování okrajů polí PDF výběrového formuláře přidáním nové veřejné volby **RenderChoiceFormFieldBorder**.
+
+#### Získejte a nastavte kódy formátu pro data grafu <sup>24.11</sup>
+
+Schopnost získat a nastavit kódy formátu pro data grafu byla přidána implementací vlastnosti **FormatCode** do tříd [ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/) a [BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/).
+
+#### Vykreslení Histogramových grafů s přihrádkami a štítky <sup>24.11</sup>
+
+Vykreslování grafu histogramu bylo vylepšeno umožněním zadaného počtu přihrádek a štítků.
+
 ### Převod, načítání a ukládání dokumentů
 
 #### Při načítání souborů Markdown podtrhněte formátování <sup>24.9</sup>
@@ -45,6 +65,10 @@ Možnost rozpoznat formátování podtržení při načítání dokumentů Markd
 #### Export tabulek jako HTML při ukládání do Markdown <sup>24.10</sup>
 
 Možnost exportovat tabulky jako HTML při ukládání dokumentů do formátu Markdown byla implementována přidáním nové veřejné vlastnosti [ExportAsHtml]() a výčtu [MarkdownExportAsHtml]().
+
+#### Export PDF s aktualizovanou logickou strukturou <sup>24.11</sup>
+
+Export PDF byl vylepšen zahrnutím vlastností názvu tabulky jako názvů prvků logické struktury PDF.
 
 ### Digitální Podpisy
 
@@ -60,12 +84,16 @@ Schopnost podepisovat dokumenty s podpisy XAdES-EPES level XML-DSig byla introdu
 * Schopnost seskupovat jednotlivé tvary group shapes dohromady a přímo seskupovat oba tvary a group shapes byla zavedena přidáním metody [InsertGroupShape](). <sup>24.10</sup>
 * Zpracování kódování Big5 pro TrueType CMAP tabulky bylo vylepšeno. <sup>24.10</sup>
 * Byla rozšířena podpora zastaralých tchajwanských písem. <sup>24.10</sup>
+* Pro přístup k rozšířeným vlastnostem dokumentu byly do třídy **BuiltInDocumentProperties** přidány vlastnosti pouze pro čtení. <sup>24.11</sup>
+* Nastavení titulků pro ovládací prvky ActiveX bylo povoleno přidáním nového veřejného nastavovače do vlastnosti **Forms2OleControl.Caption**. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 Další informace o [Aspose.Words pro C++ 24.9 Poznámky k vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-9-release-notes/).
 
 Další informace o [Aspose.Words pro C++ 24.10 Poznámky k vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-10-release-notes/).
+
+Další informace o [Aspose.Words pro C++ 24.11 Poznámky k vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-11-release-notes/).
 
 {{% /alert %}}
 

@@ -7,42 +7,93 @@ type: docs
 description: "Aspose.Words ل C++ يوسع ويعزز يوميا. في هذه الصفحة، يمكنك التعرف على الميزات الضخمة والأكثر إثارة للاهتمام للمنتج."
 weight: 2
 url: /ar/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2024-10-28-11-53-45
+timestamp: 2024-12-13-10-56-02
 ---
 
 تصف هذه الصفحة الميزات الجديدة الأكثر إثارة للاهتمام Aspose.Words التي تم تقديمها في الإصدارات الأخيرة.
 
-## Aspose.Words ل C++ 24.9
+## Aspose.Words ل C++ 24.9, 24.10, 24.11
 
 Aspose.Words 24.9 يقدم group shape الإدراج و StructuredDocumentTag الإدراج عبر DocumentBuilder، ويعزز عرض الرسم البياني الشعاعي مع التخرج، ويحسن التوقيعات الرقمية مع XAdES-EPES الدعم، ويضيف Markdown الاعتراف التسطير، ويوفر الوصول إلى فواصل حاشية سفلية / حاشية ختامية.
 
+Aspose.Words 24.10 يقدم تعزيز دعم التحكم أكتيفكس مع CommandButton الخلق، جديد تحكم الرؤية الشكل، والقدرة على group shapes، وتحسين Markdown تصدير للجداول، تنسيق الرسم البياني ل Pie و Doughnut الرسوم البيانية، أفضل بيغ 5 معالجة الترميز، ودعم الخطوط التايوانية التي عفا عليها الزمن.
+
+Aspose.Words 24.11 يقدم AI - تلخيص المستند بالطاقة، وخيارات العرض المحسنة، وتحسين الوصول إلى خصائص المستند والتعليقات التوضيحية للتحكم في اكتف.
+
+### ميزات مدعومة بالذكاء الاصطناعي
+
+#### تلخيص المستندات باستخدام OpenAI وGoogle <sup>24.11</sup>
+
+تم دمج دعم تلخيص المستندات باستخدام نماذج اللغة التوليدية **OpenAI** و **Google** عن طريق إضافة مساحة الاسم **Aspose.Words.AI** مع أعضائها العامين.
+
 ### التقديم والطباعة
 
-#### التخرج على المخططات الشعاعية
+#### التخرج على المخططات الشعاعية <sup>24.9</sup>
 
 تم تنفيذ عرض التخرج على الرسوم البيانية الشعاعية.
 
+#### CommandButton عناصر تحكم أكتيفكس <sup>24.10</sup>
+
+القدرة على إنشاء عناصر تحكم أكتيفكس CommandButton تم تقديمه عن طريق إضافة طريقة عامة جديدة [InsertForms2OleControl](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertforms2olecontrol/) وفئة عامة جديدة **Forms2OleControl**.
+
+#### رؤية شكل التحكم <sup>24.10</sup>
+
+تمت إضافة خاصية عامة جديدة [Hidden](https://reference.aspose.com/words/cpp/aspose.words.drawing/shapebase/get_hidden/) للتحكم في رؤية الأشكال.
+
+#### التغييرات في Pie و Doughnut الرسوم البيانية <sup>24.10</sup>
+
+تمت إضافة العديد من الخصائص العامة الجديدة إلى تنسيق Pie و Doughnut الرسوم البيانية.
+
+#### التحكم في عرض PDF اختيار حدود حقل النموذج <sup>24.11</sup>
+
+تم تنفيذ خيار جديد للتحكم في عرض حدود حقل نموذج الاختيار PDF عن طريق إضافة خيار عام جديد **RenderChoiceFormFieldBorder**.
+
+#### الحصول على وتعيين رموز التنسيق لبيانات الرسم البياني <sup>24.11</sup>
+
+تمت إضافة القدرة على الحصول على رموز التنسيق وتعيينها لبيانات المخطط من خلال تنفيذ خاصية **FormatCode** في فئات [ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/) و [ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/) و [BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/).
+
+#### تقديم الرسوم البيانية الرسم البياني مع صناديق والعلامات <sup>24.11</sup>
+
+تم تحسين الرسم البياني الرسم البياني التقديم من خلال السماح لعدد محدد من صناديق والتسميات.
+
 ### تحويل وتحميل وحفظ المستندات
 
-#### تسطير التنسيق عند تحميل Markdown الملفات
+#### تسطير التنسيق عند تحميل Markdown الملفات <sup>24.9</sup>
 
 تم دمج خيار التعرف على تنسيق التسطير عند تحميل Markdown المستندات عن طريق إضافة خاصية عامة جديدة [ImportUnderlineFormatting]().
 
+#### تصدير الجداول كـ HTML عند الحفظ إلى Markdown <sup>24.10</sup>
+
+تم تنفيذ خيار تصدير الجداول كـ HTML عند حفظ المستندات بتنسيق Markdown عن طريق إضافة خاصية عامة جديدة [ExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_exportashtml/) وتعداد [MarkdownExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownexportashtml/).
+
+#### تصدير PDF مع بنية منطقية محدثة <sup>24.11</sup>
+
+PDF تم تحسين التصدير من خلال تضمين خصائص عنوان الجدول كـ PDF عناوين عنصر الهيكل المنطقي.
+
 ### التوقيعات الرقمية
 
-#### توقيع الوثائق مع XAdES-EPES
+#### توقيع الوثائق مع XAdES-EPES <sup>24.9</sup>
 
 القدرة على توقيع الوثائق مع XAdES-EPES المستوى XML - DSig تم إدخال التوقيعات بإضافة ملكية عامة جديدة [XmlDsigLevel]() وتعداد عام جديد [XmlDsigLevel]().
 
 ### أخرى
 
-* تمت إضافة طريقة عامة جديدة [InsertGroupShape]() إلى group shapes.
-* تمت إضافة طريقة عامة جديدة [InsertStructuredDocumentTag]() لإدراج **StructuredDocumentTags** في مستند.
-* تم توفير وصول الجمهور إلى فواصل الحاشية السفلية/التعليقات الختامية عن طريق إضافة عدد قليل من الفئات والخصائص العامة.
+* تمت إضافة طريقة عامة جديدة [InsertGroupShape]() إلى group shapes. <sup>24.9</sup>
+* تمت إضافة طريقة عامة جديدة [InsertStructuredDocumentTag]() لإدراج **StructuredDocumentTags** في مستند. <sup>24.9</sup>
+* تم توفير وصول الجمهور إلى فواصل الحاشية السفلية/التعليقات الختامية عن طريق إضافة عدد قليل من الفئات والخصائص العامة. <sup>24.9</sup>
+* تم تقديم القدرة على تجميع الأشكال الفردية، group shapes معا، وتجميع كلا الشكلين مباشرة و group shapes عن طريق إضافة طريقة [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/). <sup>24.10</sup>
+* تم تحسين معالجة ترميز بيغ 5 لجداول TrueType كماب. <sup>24.10</sup>
+* تم تعزيز دعم الخطوط التايوانية القديمة. <sup>24.10</sup>
+* للوصول إلى خصائص المستند الموسعة، تمت إضافة خصائص للقراءة فقط إلى فئة **BuiltInDocumentProperties**. <sup>24.11</sup>
+* تم تمكين وضع التسميات التوضيحية لعناصر تحكم أكتيفكس عن طريق إضافة أداة ضبط عامة جديدة إلى **Forms2OleControl.Caption** خاصية. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 تعرف على المزيد حول [Aspose.Words لـ C++ 24.9 ملاحظات الإصدار](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-9-release-notes/).
+
+تعرف على المزيد حول [Aspose.Words لـ C++ 24.10 ملاحظات الإصدار](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-10-release-notes/).
+
+تعرف على المزيد حول [Aspose.Words لـ C++ 24.11 ملاحظات الإصدار](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-11-release-notes/).
 
 {{% /alert %}}
 
