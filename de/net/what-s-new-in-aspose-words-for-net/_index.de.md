@@ -7,7 +7,7 @@ type: docs
 description: "Aspose.Words für .NET wird täglich erweitert und verbessert. Auf dieser Seite erfahren Sie mehr über die großen und interessantesten Funktionen des Produkts."
 weight: 10
 url: /de/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2024-12-11-13-48-02
+timestamp: 2024-12-13-10-56-02
 ---
 
 Auf dieser Seite werden die interessantesten neuen Aspose.Words-Funktionen beschrieben, die in den letzten Versionen eingeführt wurden.
@@ -20,7 +20,7 @@ Aspose.Words 24.10 führt eine verbesserte ActiveX-Steuerelementunterstützung m
 
 Aspose.Words 24.11 führt die AI-basierte Dokumentzusammenfassung, erweiterte Renderoptionen, verbesserten Zugriff auf Dokumenteigenschaften und ActiveX-Steuerelementuntertitelung ein.
 
-Aspose.Words 24.8 führt eine anpassbare Platzierung von Datenbeschriftungen, eine von Google AI unterstützte Textübersetzung, verbesserte Optionen zur Serienbriefbereinigung und neue LowCode-Verarbeitungsklassen ein.
+Aspose.Words 24.12 führt eine anpassbare Platzierung von Datenbeschriftungen, eine von Google AI unterstützte Textübersetzung, verbesserte Optionen zur Serienbriefbereinigung und neue LowCode-Verarbeitungsklassen ein.
 
 ### AI-betriebene Funktionen
 
