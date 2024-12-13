@@ -7,42 +7,93 @@ type: docs
 description: "Aspose.Words für C++ erweitert und verbessert sich täglich. Auf dieser Seite erfahren Sie mehr über die großen und interessantesten Funktionen des Produkts."
 weight: 2
 url: /de/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2024-10-28-11-53-45
+timestamp: 2024-12-13-10-56-02
 ---
 
 Diese Seite beschreibt die interessantesten neuen Aspose.Words Funktionen, die in den letzten Versionen eingeführt wurden.
 
-## Aspose.Words für C++ 24.9
+## Aspose.Words für C++ 24.9, 24.10, 24.11
 
 Aspose.Words 24.9 führt die Einfügung von group shape und StructuredDocumentTag über DocumentBuilder ein, verbessert die Darstellung von Radialdiagrammen mit Abstufungen, verbessert die digitalen Signaturen mit XAdES-EPES unterstützung, fügt Markdown Unterstreichungserkennung hinzu und bietet Zugriff auf Fußnoten-/ Endnotentrennzeichen.
 
+Aspose.Words 24.10 führt eine verbesserte ActiveX-Steuerelementunterstützung mit CommandButton-Erstellung, neuer Formsichtbarkeitssteuerung, der Möglichkeit, Formen zu gruppieren, verbesserten Markdown-Export für Tabellen, Diagrammformatierung für Kreis- und Ringdiagramme, bessere Big5-Kodierungshandhabung und Unterstützung für veraltete taiwanesische Schriftarten ein.
+
+Aspose.Words 24.11 führt die AI-basierte Dokumentzusammenfassung, erweiterte Renderoptionen, verbesserten Zugriff auf Dokumenteigenschaften und ActiveX-Steuerelementuntertitelung ein.
+
+### AI-betriebene Funktionen
+
+#### Dokumentzusammenfassung mit OpenAI und Google <sup>24.11</sup>
+
+Unterstützung für die Dokumentzusammenfassung mit generativen **OpenAI**- und **Google**-Sprachmodellen wurde integriert.
+
 ### Rendern und Drucken
 
-#### Graduierungen auf Radialdiagrammen
+#### Graduierungen auf Radialdiagrammen <sup>24.9</sup>
 
 Die Darstellung von Abstufungen auf Radialdiagrammen wurde implementiert.
 
+#### CommandButton ActiveX-Steuerelemente <sup>24.10</sup>
+
+Die Möglichkeit, CommandButton ActiveX-Steuerelemente zu erstellen, wurde durch Hinzufügen einer neuen öffentlichen Methode [InsertForms2OleControl](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertforms2olecontrol/) und einer neuen öffentlichen Klasse **Forms2OleControl** eingeführt.
+
+#### Sichtbarkeit von Formen steuern <sup>24.10</sup>
+
+Eine neue öffentliche Eigenschaft [Hidden](https://reference.aspose.com/words/cpp/aspose.words.drawing/shapebase/get_hidden/) wurde hinzugefügt, um die Sichtbarkeit von Formen zu steuern.
+
+#### Änderungen in Kreis- und Ringdiagrammen <sup>24.10</sup>
+
+Es wurden mehrere neue öffentliche Eigenschaften hinzugefügt, um Kreis- und Ringdiagramme zu formatieren.
+
+#### Steuern Sie das Rendern von PDF-Auswahlformularfeldrändern <sup>24.11</sup>
+
+Eine neue Option zur Steuerung der Darstellung von PDF-Auswahlformularfeldrändern wurde implementiert, indem eine neue öffentliche Option **RenderChoiceFormFieldBorder** hinzugefügt wurde.
+
+#### Formatcodes für Diagrammdaten abrufen und festlegen <sup>24.11</sup>
+
+Die Möglichkeit, Formatcodes für Diagrammdaten abzurufen und festzulegen, wurde hinzugefügt, indem die Eigenschaft [FormatCode](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/formatcode/) in den Klassen [ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/) und [BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/) implementiert wurde.
+
+#### Histogrammdiagramme mit Bins und Beschriftungen rendern <sup>24.11</sup>
+
+Die Darstellung von Histogrammdiagrammen wurde verbessert, indem eine bestimmte Anzahl von Behältern und Beschriftungen zugelassen wurde.
+
 ### Dokumente konvertieren, laden und speichern
 
-#### Formatierung beim Laden von Markdown-Dateien unterstreichen
+#### Formatierung beim Laden von Markdown-Dateien unterstreichen <sup>24.9</sup>
 
 Die Option, Unterstreichungsformatierungen beim Laden von Markdown-Dokumenten zu erkennen, wurde durch Hinzufügen einer neuen öffentlichen Eigenschaft [ImportUnderlineFormatting]() integriert.
 
+#### Exportieren von Tabellen als HTML beim Speichern in Markdown <sup>24.10</sup>
+
+Eine Option zum Exportieren von Tabellen als HTML beim Speichern von Dokumenten im Markdown-Format wurde durch Hinzufügen einer neuen öffentlichen Eigenschaft [ExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_exportashtml/) und einer Aufzählung [MarkdownExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownexportashtml/) implementiert.
+
+#### Export PDF mit aktualisierter logischer Struktur <sup>24.11</sup>
+
+Der PDF-Export wurde verbessert, indem Tabellentiteleigenschaften als Titel für logische PDF-Strukturelemente aufgenommen wurden.
+
 ### Digitale Signaturen
 
-#### Dokumente signieren mit XAdES-EPES
+#### Dokumente signieren mit XAdES-EPES <sup>24.9</sup>
 
 Die Möglichkeit, Dokumente mit zu signieren XAdES-EPES Signaturen der Ebene XML - DSig wurden eingeführt, indem eine neue öffentliche Eigenschaft [XmlDsigLevel]() und eine neue öffentliche Aufzählung [XmlDsigLevel]() hinzugefügt wurden.
 
 ### Andere
 
-* Eine neue öffentliche Methode [InsertGroupShape]() wurde zu group shapes hinzugefügt.
-* Eine neue öffentliche Methode [InsertStructuredDocumentTag]() wurde hinzugefügt, um **StructuredDocumentTags** in ein Dokument einzufügen.
-* Der öffentliche Zugriff auf Fußnoten- / Endnotentrennzeichen wurde durch Hinzufügen einiger öffentlicher Klassen und Eigenschaften ermöglicht.
+* Eine neue öffentliche Methode [InsertGroupShape]() wurde zu group shapes hinzugefügt. <sup>24.9</sup>
+* Eine neue öffentliche Methode [InsertStructuredDocumentTag]() wurde hinzugefügt, um **StructuredDocumentTags** in ein Dokument einzufügen. <sup>24.9</sup>
+* Der öffentliche Zugriff auf Fußnoten- / Endnotentrennzeichen wurde durch Hinzufügen einiger öffentlicher Klassen und Eigenschaften ermöglicht. <sup>24.9</sup>
+* Die Möglichkeit, einzelne Formen zu gruppieren, Formen zusammen zu gruppieren und sowohl Formen als auch Gruppen direkt zu gruppieren, wurde durch Hinzufügen der Methode [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/) eingeführt. <sup>24.10</sup>
+* Die Big5-Kodierungsbehandlung für TrueType-Cmap-Tabellen wurde verbessert. <sup>24.10</sup>
+* Die Unterstützung für veraltete taiwanesische Schriftarten wurde erweitert. <sup>24.10</sup>
+* Um auf erweiterte Dokumenteigenschaften zuzugreifen, wurden der Klasse **BuiltInDocumentProperties** schreibgeschützte Eigenschaften hinzugefügt. <sup>24.11</sup>
+* Das Festlegen von Beschriftungen für ActiveX-Steuerelemente wurde aktiviert, indem der Eigenschaft **Forms2OleControl.Caption** ein neuer öffentlicher Setter hinzugefügt wurde. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 Erfahren Sie mehr über [Aspose.Words für C++ 24.9 Versionshinweise](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-9-release-notes/).
+
+Erfahren Sie mehr über [Aspose.Words für C++ 24.10 Versionshinweise](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-10-release-notes/).
+
+Erfahren Sie mehr über [Aspose.Words für C++ 24.11 Versionshinweise](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-11-release-notes/).
 
 {{% /alert %}}
 

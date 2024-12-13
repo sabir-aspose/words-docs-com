@@ -7,7 +7,7 @@ type: docs
 description: "Aspose.Words vir .NET brei uit en verbeter daagliks. Op hierdie bladsy kan jy leer oor die groot en interessantste kenmerke van die produk."
 weight: 10
 url: /af/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2024-12-11-13-48-02
+timestamp: 2024-12-13-10-56-02
 ---
 
 Hierdie bladsy beskryf die interessantste nuwe Aspose.Words funksies wat in onlangse vrystellings bekendgestel is.
@@ -20,7 +20,7 @@ Aspose.Words 24.10 stel verbeterde ActiveX beheer ondersteuning met CommandButto
 
 Aspose.Words 24.11 stel AI-aangedrewe dokumentopsomming, verbeterde weergawe opsies, verbeterde toegang tot dokument eienskappe en ActiveX beheer onderskrifte.
 
-Aspose.Words 24.8 stel aanpasbare data-etiketplasing, Google KI-aangedrewe teksvertaling, verbeterde Mail Merge-opruimopsies en nuwe LowCode-verwerkingsklasse bekend.
+Aspose.Words 24.12 stel aanpasbare data-etiketplasing, Google KI-aangedrewe teksvertaling, verbeterde Mail Merge-opruimopsies en nuwe LowCode-verwerkingsklasse bekend.
 
 ### AI - aangedrewe Funksies
 
@@ -30,7 +30,7 @@ Ondersteuning vir dokumentopsomming met behulp van **OpenAI** en **Google** gene
 
 #### Teksvertaling met behulp van Google se generatiewe taalmodelle <sup>24.12</sup>
 
-Die vermoë om teks te vertaal deur Google se generatiewe taalmodelle te gebruik, is in Aspose.Words geïmplementeer deur die [Translate](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/translate/)-metode by te voeg en die [Taal](https://reference.aspose.com/words/net/aspose.words.ai/language/) opsomming na die [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) naamruimte.
+Die vermoë om teks te vertaal deur Google se generatiewe taalmodelle te gebruik, is in Aspose.Words geïmplementeer deur die [Translate](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/translate/)-metode by te voeg en die [Language](https://reference.aspose.com/words/net/aspose.words.ai/language/) opsomming na die [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) naamruimte.
 
 ### Lae kode <sup>24.12</sup>
 
