@@ -7,7 +7,7 @@ type: 文档
 weight: 30
 description: "翻译文档。Aspose.Words for .NET 使用 Google AI 模型简化文档翻译，允许您指定目标语言。"
 url: /zh/net/translate-a-document/
-timestamp：2024-12-13-06-40-00
+timestamp: 2024-12-13-06-40-00
 ---
 
 文档翻译是高度数字化时代经常需要的选项。Aspose.Words 使用 *Google* 生成语言模型支持文档翻译，允许开发人员将文本内容翻译成 300 多种语言。
