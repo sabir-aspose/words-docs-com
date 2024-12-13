@@ -7,7 +7,7 @@ type: docs
 description: "Aspose.Words for .NET expands and enhances daily. On this page, you can learn about the huge and most interesting features of the product."
 weight: 10
 url: /net/what-s-new-in-aspose-words-for-net/
-timestamp: 2024-12-11-13-48-02
+timestamp: 2024-12-13-10-56-02
 ---
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
@@ -20,7 +20,7 @@ Aspose.Words 24.10 introduces enhanced ActiveX control support with CommandButto
 
 Aspose.Words 24.11 introduces AI-powered document summarization, enhanced rendering options, improved access to document properties and ActiveX control captioning.
 
-Aspose.Words 24.8 introduces customizable data label placement, Google AI-powered text translation, enhanced Mail Merge cleanup options, and new LowCode processing classes.
+Aspose.Words 24.12 introduces customizable data label placement, Google AI-powered text translation, enhanced Mail Merge cleanup options, and new LowCode processing classes.
 
 ### AI-powered Features
 

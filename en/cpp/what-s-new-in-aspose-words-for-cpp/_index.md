@@ -7,16 +7,24 @@ type: docs
 description: "Aspose.Words for C++ expands and enhances daily. On this page, you can learn about the huge and most interesting features of the product."
 weight: 2
 url: /cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2024-10-28-11-53-45
+timestamp: 2024-12-13-10-56-02
 ---
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for C++ 24.9, 24.10
+## Aspose.Words for C++ 24.9, 24.10, 24.11
 
 Aspose.Words 24.9 introduces group shape insertion and StructuredDocumentTag insertion via DocumentBuilder, enhances radial chart rendering with graduations, improves digital signatures with XAdES-EPES support, adds Markdown underline recognition, and provides access to footnote/endnote separators.
 
 Aspose.Words 24.10 introduces enhanced ActiveX control support with CommandButton creation, new shape visibility control, the ability to group shapes, improved Markdown export for tables, chart formatting for Pie and Doughnut charts, better Big5 encoding handling, and support for outdated Taiwanese fonts.
+
+Aspose.Words 24.11 introduces AI-powered document summarization, enhanced rendering options, improved access to document properties and ActiveX control captioning.
+
+### AI-powered Features
+
+#### Document Summarization Using OpenAI and Google <sup>24.11</sup>
+
+Support for document summarization using **OpenAI** and **Google** generative language models has been integrated.
 
 ### Rendering and Printing
 
@@ -36,6 +44,18 @@ A new public property [Hidden]() has been added to control the visibility of sha
 
 Several new public properties have been added to format Pie and Doughnut charts.
 
+#### Control the Rendering of PDF Choice Form Field Borders <sup>24.11</sup>
+
+A new option to control the rendering of PDF choice form field borders has been implemented by adding a new public option **RenderChoiceFormFieldBorder**.
+
+#### Get and Set Format Codes for Chart Data <sup>24.11</sup>
+
+The ability to get and set format codes for chart data has been added by implementing the **FormatCode** property in the [ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/) and [BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/) classes.
+
+#### Render Histogram Charts with Bins and Labels <sup>24.11</sup>
+
+Histogram chart rendering has been improved by allowing for a specified number of bins and labels.
+
 ### Converting, Loading and Saving Documents
 
 #### Underline Formatting when Loading Markdown Files <sup>24.9</sup>
@@ -45,6 +65,10 @@ The option to recognize underline formatting when loading Markdown documents has
 #### Exporting tables as HTML when saving to Markdown <sup>24.10</sup>
 
 An option to export tables as HTML when saving documents to Markdown format has been implemented by adding a new public property [ExportAsHtml]() and an enumeration [MarkdownExportAsHtml]().
+
+#### Export PDF with Updated Logical Structure <sup>24.11</sup>
+
+PDF export has been enhanced by including table title properties as PDF logical structure element titles.
 
 ### Digital Signatures
 
@@ -60,12 +84,16 @@ The ability to sign documents with XAdES-EPES level XML-DSig signatures has been
 * The ability to group individual shapes, group shapes together, and directly group both shapes and group shapes has been introduced by adding the [InsertGroupShape]() method. <sup>24.10</sup>
 * Big5 encoding handling for TrueType cmap tables has been improved. <sup>24.10</sup>
 * Support for outdated Taiwanese fonts has been enhanced. <sup>24.10</sup>
+* To access extended document properties, read-only properties have been added to the **BuiltInDocumentProperties** class. <sup>24.11</sup>
+* Setting captions for ActiveX controls has been enabled by adding a new public setter to the **Forms2OleControl.Caption** property. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for C++ 24.9 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-9-release-notes/).
 
 Learn more about [Aspose.Words for C++ 24.10 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-10-release-notes/).
+
+Learn more about [Aspose.Words for C++ 24.11 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-11-release-notes/).
 
 {{% /alert %}}
 

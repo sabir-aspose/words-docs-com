@@ -7,14 +7,24 @@ type: docs
 description: "Aspose.Words vir C++ brei en verbeter daagliks. Op hierdie bladsy kan jy leer oor die groot en interessantste kenmerke van die produk."
 weight: 2
 url: /af/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2024-10-28-11-53-45
+timestamp: 2024-12-13-10-56-02
 ---
 
 Hierdie bladsy beskryf die interessantste nuwe Aspose.Words funksies wat in onlangse vrystellings bekendgestel is.
 
-## Aspose.Words vir C++ 24.9
+## Aspose.Words vir C++ 24.9, 24.10, 24.11
 
 Aspose.Words 24.9 stel group shape invoeging en StructuredDocumentTag invoeging via DocumentBuilder, verbeter radiale grafiek weergawe met grade, verbeter digitale handtekeninge met XAdES-EPES ondersteuning, voeg Markdown onderstreep erkenning, en bied toegang tot voetnoot/endnoot skeiers.
+
+Aspose.Words 24.10 stel verbeterde ActiveX beheer ondersteuning met CommandButton skepping, nuwe vorm sigbaarheid beheer, die vermoë om group shapes, verbeterde Markdown uitvoer vir tabelle, grafiek formatering vir Pie en Doughnut kaarte, beter Big5 kodering hantering, en ondersteuning vir verouderde Taiwanese lettertipes.
+
+Aspose.Words 24.11 stel AI-aangedrewe dokumentopsomming, verbeterde weergawe opsies, verbeterde toegang tot dokument eienskappe en ActiveX beheer onderskrifte.
+
+### AI - aangedrewe Funksies
+
+#### Dokumentopsomming met behulp van OpenAI en Google <sup>24.11</sup>
+
+Ondersteuning vir dokumentopsomming met behulp van **OpenAI** en **Google** generatiewe taalmodelle is geïntegreer.
 
 ### Rendering En Drukwerk
 
@@ -22,27 +32,68 @@ Aspose.Words 24.9 stel group shape invoeging en StructuredDocumentTag invoeging 
 
 Die lewering van grade op radiale kaarte is geïmplementeer.
 
+#### CommandButton ActiveX Kontrole <sup>24.10</sup>
+
+Die vermoë om CommandButton ActiveX kontroles te skep is bekendgestel deur die toevoeging van'n nuwe openbare metode [InsertForms2OleControl](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertforms2olecontrol/) en'n nuwe openbare klas **Forms2OleControl**.
+
+#### Beheer Vorm Sigbaarheid <sup>24.10</sup>
+
+'n nuwe openbare eiendom [Hidden](https://reference.aspose.com/words/cpp/aspose.words.drawing/shapebase/get_hidden/) is bygevoeg om die sigbaarheid van vorms te beheer.
+
+#### Veranderinge in Pie En Doughnut Kaarte <sup>24.10</sup>
+
+Verskeie nuwe openbare eiendomme is bygevoeg om Pie en Doughnut kaarte te formateer.
+
+#### Beheer Die Weergawe van PDF Keuse Vorm Veld Grense <sup>24.11</sup>
+
+'n nuwe opsie om die weergawe van PDF keuse vorm veld grense te beheer is geïmplementeer deur die toevoeging van'n nuwe openbare opsie **RenderChoiceFormFieldBorder**.
+
+#### Kry En Stel Formaatkodes Vir Grafiekdata In <sup>24.11</sup>
+
+Die vermoë om formaat kodes vir grafiek data te kry en te stel is bygevoeg deur die implementering van die **FormatCode** eienskap in die [ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/), en [BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/) klasse.
+
+#### Gee Histogramkaarte met Bakkies en Etikette <sup>24.11</sup>
+
+Histogramkaartvertoning is verbeter deur'n spesifieke aantal bakkies en etikette toe te laat.
+
 ### Omskakeling, Laai En Stoor Van Dokumente
 
-#### Onderstreep Formatering wanneer Markdown Lêers Gelaai Word
+#### Onderstreep Formatering wanneer Markdown Lêers Gelaai Word <sup>24.9</sup>
 
-Die opsie om onderstreepte opmaak te herken wanneer Markdown dokumente gelaai word, is opgeneem deur'n nuwe openbare eiendom [ImportUnderlineFormatting]() by te voeg.
+Die opsie om onderstreepte opmaak te herken wanneer Markdown dokumente gelaai word, is opgeneem deur'n nuwe openbare eiendom **ImportUnderlineFormatting** by te voeg.
+
+#### Uitvoer tabelle as HTML wanneer stoor na Markdown <sup>24.10</sup>
+
+'n opsie om tabelle as HTML uit te voer wanneer dokumente in Markdown formaat gestoor word, is geïmplementeer deur'n nuwe openbare eiendom [ExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_exportashtml/) en'n opsomming [MarkdownExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownexportashtml/) by te voeg.
+
+#### Uitvoer PDF met Opgedateerde Logiese Struktuur <sup>24.11</sup>
+
+PDF uitvoer is verbeter deur die insluiting van tabel titel eienskappe as PDF logiese struktuur element titels.
 
 ### Digitale Handtekeninge
 
-#### Teken Dokumente met XAdES-EPES
+#### Teken Dokumente met XAdES-EPES <sup>24.9</sup>
 
 Die vermoë om dokumente te onderteken met XAdES-EPES vlak XML-DSig handtekeninge is introduce deur die toevoeging van'n nuwe openbare eiendom [XmlDsigLevel]() en'n nuwe openbare opsomming [XmlDsigLevel]().
 
 ### Ander
 
-* 'n nuwe openbare metode [InsertGroupShape]() is by group shapes gevoeg.
-* 'n nuwe openbare metode [InsertStructuredDocumentTag]() is bygevoeg om **StructuredDocumentTags** in'n dokument in te voeg.
-* Openbare toegang tot voetnoot/eindnoot skeiers is verskaf deur die toevoeging van'n paar openbare klasse en eiendomme.
+* 'n nuwe openbare metode [InsertGroupShape]() is by group shapes gevoeg. <sup>24.9</sup>
+* 'n nuwe openbare metode [InsertStructuredDocumentTag]() is bygevoeg om **StructuredDocumentTags** in'n dokument in te voeg. <sup>24.9</sup>
+* Openbare toegang tot voetnoot/eindnoot skeiers is verskaf deur die toevoeging van'n paar openbare klasse en eiendomme. <sup>24.9</sup>
+* Die vermoë om individuele vorms, group shapes saam te groepeer en beide vorms en group shapes direk te groepeer, is ingestel deur die [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/) metode by te voeg. <sup>24.10</sup>
+* Big5 kodering hantering vir TrueType cmap tabelle is verbeter. <sup>24.10</sup>
+* Ondersteuning vir verouderde Taiwanese lettertipes is verbeter. <sup>24.10</sup>
+* Om toegang tot uitgebreide dokument eienskappe, lees-alleen eienskappe is bygevoeg om die **BuiltInDocumentProperties** klas. <sup>24.11</sup>
+* Die opstel van onderskrifte vir ActiveX-beheer is geaktiveer deur'n nuwe openbare setter by die **Forms2OleControl.Caption** eienskap te voeg. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 Leer meer oor [Aspose.Words vir C++ 24.9 Vrystelling Notas](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-9-release-notes/).
+
+Leer meer oor [Aspose.Words vir C++ 24.10 Vrystelling Notas](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-10-release-notes/).
+
+Leer meer oor [Aspose.Words vir C++ 24.11 Vrystelling Notas](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-11-release-notes/).
 
 {{% /alert %}}
 

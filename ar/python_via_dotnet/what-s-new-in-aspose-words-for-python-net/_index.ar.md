@@ -7,12 +7,12 @@ type: docs
 description: "يتوسع Aspose.Words for Python via .NET ويتحسن يوميًا. في هذه الصفحة، يمكنك التعرف على الميزات الضخمة والأكثر إثارة للاهتمام للمنتج."
 weight: 10
 url: /ar/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2024-11-18-12-56-02
+timestamp: 2024-12-13-10-56-02
 ---
 
 تصف هذه الصفحة ميزات Aspose.Words الجديدة الأكثر إثارة للاهتمام والتي تم تقديمها في الإصدارات الأخيرة.
 
-## Aspose.Words for Python via .NET 24.9, 24.10, 24.11
+## Aspose.Words for Python via .NET 24.9, 24.10, 24.11, 24.12
 
 يقدم Aspose.Words 24.9 إدراج شكل المجموعة وإدراج StructuredDocumentTag عبر DocumentBuilder، ويعزز عرض المخطط الشعاعي باستخدام التدرجات، ويحسن التوقيعات الرقمية مع دعم XAdES-EPES، ويضيف التعرف على خط Markdown، ويوفر الوصول إلى فواصل الحواشي السفلية/الحواشي النهائية.
 
@@ -20,9 +20,21 @@ timestamp: 2024-11-18-12-56-02
 
 Aspose.Words 24.11 يقدم AI - تلخيص المستند بالطاقة، وخيارات العرض المحسنة، وتحسين الوصول إلى خصائص المستند والتعليقات التوضيحية للتحكم في اكتف.
 
-### AI - ميزات تعمل بالطاقة <sup>24.11</sup>
+يقدم Aspose.Words 24.12 إمكانية تخصيص وضع علامات البيانات، وترجمة النصوص المدعومة بالذكاء الاصطناعي من Google، وخيارات تنظيف دمج المراسلات المحسنة، وفئات معالجة LowCode الجديدة.
+
+### AI - ميزات تعمل بالطاقة
+
+#### تلخيص المستندات باستخدام OpenAI وGoogle <sup>24.11</sup>
 
 تم دمج دعم تلخيص المستندات باستخدام نماذج اللغة التوليدية **OpenAI** و **Google** عن طريق إضافة مساحة الاسم [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) مع أعضائها العامين.
+
+#### ترجمة النصوص باستخدام نماذج اللغة التوليدية من Google <sup>24.12</sup>
+
+تم تنفيذ القدرة على ترجمة النصوص باستخدام نماذج اللغة التوليدية من Google في Aspose.Words عن طريق إضافة طريقة [translate](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/translate/) وتعداد [Language](https://reference.aspose.com/words/python-net/aspose.words.ai/language/) إلى مساحة اسم [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/).
+
+### Low Code <sup>24.12</sup>
+
+تم تقديم فئات LowCode الجديدة مثل [Comparer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/comparer/)و [MailMerger](https://reference.aspose.com/words/python-net/aspose.words.lowcode/mailmerger/)و [Replacer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/replacer/)و [Splitter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/splitter/) وما إلى ذلك، مما يوفر مجموعة من الأساليب التي تحقق التوازن المثالي بين البساطة والمرونة لمعالجة المستندات.
 
 ### العرض والطباعة
 
@@ -53,6 +65,10 @@ Aspose.Words 24.11 يقدم AI - تلخيص المستند بالطاقة، وخ
 #### تقديم الرسوم البيانية الرسم البياني مع صناديق والعلامات <sup>24.11</sup>
 
 تم تحسين الرسم البياني الرسم البياني التقديم من خلال السماح لعدد محدد من صناديق والتسميات.
+
+#### تخصيص موضع تسميات البيانات <sup>24.12</sup>
+
+تمت إضافة القدرة على تخصيص موضع تسميات البيانات من خلال تقديم خصائص جديدة إلى فئتي [ChartDataLabel](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabel/) و  [ChartDataLabelCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/).
 
 ### تحويل المستندات وتحميلها وحفظها
 
@@ -92,6 +108,8 @@ PDF تم تحسين التصدير من خلال تضمين خصائص عنوا�
 تعرف على المزيد حول [Aspose.Words لـ Python عبر ملاحظات الإصدار .NET 24.10](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/).
 
 تعرف على المزيد حول [Aspose.Words لـ Python عبر ملاحظات الإصدار .NET 24.11](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-11-release-notes/).
+
+تعرف على المزيد حول [Aspose.Words لـ Python عبر ملاحظات الإصدار .NET 24.12](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-12-release-notes/).
 
 {{% /alert %}}
 
