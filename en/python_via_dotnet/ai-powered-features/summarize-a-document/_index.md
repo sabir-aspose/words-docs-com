@@ -14,7 +14,7 @@ Summarizing documents is a valuable tool for content review, quick insights, or 
 
 You can specify various options for summarizing document content. Use the [summarize](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/summarize/) method to generate a summary of your document. You can also set summary length using the [summary_length](https://reference.aspose.com/words/python-net/aspose.words.ai/summarizeoptions/summary_length/) property.
 
-With Aspose.Words, implementing document summarization is straightforward. The following code example shows hot to summirize a documet using GPT-4o model:
+With Aspose.Words, implementing document summarization is straightforward. The following code example shows how to summarize a document using GPT-4o model:
 
 {{< highlight python >}}
 first_doc = aw.Document(MyDir + "Big document.docx")
