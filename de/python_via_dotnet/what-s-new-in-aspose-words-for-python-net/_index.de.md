@@ -20,7 +20,7 @@ Aspose.Words 24.10 führt eine verbesserte ActiveX-Steuerelementunterstützung m
 
 Aspose.Words 24.11 führt die AI-basierte Dokumentzusammenfassung, erweiterte Renderoptionen, verbesserten Zugriff auf Dokumenteigenschaften und ActiveX-Steuerelementuntertitelung ein.
 
-Aspose.Words 24.12 führt eine anpassbare Platzierung von Datenbeschriftungen, eine von Google AI unterstützte Textübersetzung, verbesserte Optionen zur Serienbriefbereinigung und neue LowCode-Verarbeitungsklassen ein.
+Aspose.Words 24.12 führt eine anpassbare Platzierung von Datenbeschriftungen, eine von Google KI unterstützte Textübersetzung und verbesserte neue LowCode-Verarbeitungsklassen ein.
 
 ### AI-betriebene Funktionen
 

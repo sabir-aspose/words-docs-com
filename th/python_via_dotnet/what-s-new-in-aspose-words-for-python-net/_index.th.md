@@ -7,12 +7,12 @@ type: docs
 description: "Aspose.Words สำหรับ Python via .NET ขยายและปรับปรุงทุกวัน ในหน้านี้ คุณสามารถเรียนรู้เกี่ยวกับคุณสมบัติที่สำคัญและน่าสนใจที่สุดของผลิตภัณฑ์ได้"
 weight: 10
 url: /th/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2024-11-18-12-56-02
+timestamp: 2024-12-13-10-56-02
 ---
 
 หน้านี้อธิบายคุณสมบัติ Aspose.Words ใหม่ที่น่าสนใจที่สุดที่เปิดตัวในรุ่นล่าสุด
 
-## Aspose.Words สำหรับ Python ผ่าน .NET 24.9, 24.10, 24.11
+## Aspose.Words สำหรับ Python ผ่าน .NET 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 แนะนำการแทรกรูปร่างกลุ่มและการแทรก StructuredDocumentTag ผ่าน DocumentBuilder ปรับปรุงการเรนเดอร์แผนภูมิรัศมีด้วยการไล่ระดับ ปรับปรุงลายเซ็นดิจิทัลด้วยการรองรับ XAdES-EPES เพิ่มการจดจำเส้นใต้มาร์กดาวน์ และให้การเข้าถึงตัวคั่นเชิงอรรถ/ท้ายบท
 
@@ -20,9 +20,21 @@ Aspose.Words 24.10 นำเสนอการสนับสนุนการ�
 
 Aspose.Words24.11แนะนำการสรุปเอกสารที่ขับเคลื่อนAIตัวเลือกการแสดงผลที่เพิ่มขึ้นการเข้าถึงคุณสมบัติของเอกสารที่ดีขึ้นและคำอธิบายการควบคุมแอคทีฟ.
 
-### AI-คุณสมบัติขับเคลื่อน <sup>24.11</sup>
+Aspose.Words 24.12 นำเสนอการจัดวางป้ายข้อมูลที่ปรับแต่งได้ การแปลข้อความที่ขับเคลื่อนโดย Google AI และคลาสการประมวลผล LowCode ใหม่ที่ปรับปรุงแล้ว
+
+### AI-คุณสมบัติขับเคลื่อน
+
+#### การสรุปเอกสารโดยใช้ OpenAI และ Google <sup>24.11</sup>
 
 มีการบูรณาการการสนับสนุนสำหรับการสรุปเอกสารโดยใช้โมเดลภาษากำเนิด **OpenAI** และ **Google** โดยการเพิ่มเนมสเปซ [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) เข้ากับเมมเบอร์สาธารณะ.
+
+#### การแปลข้อความโดยใช้โมเดลภาษากำเนิดของ Google <sup>24.12</sup>
+
+ความสามารถในการแปลข้อความโดยใช้โมเดลภาษากำเนิดของ Google ได้รับการนำไปใช้ใน Aspose.Words โดยการเพิ่มเมธอด [translate](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/translate/) และการแจงนับ [Language](https://reference.aspose.com/words/python-net/aspose.words.ai/language/) ลงในเนมสเปซ [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/)
+
+### Low Code <sup>24.12</sup>
+
+มีการแนะนำคลาส LowCode ใหม่ เช่น [Comparer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/python-net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/splitter/) เป็นต้น ซึ่งนำเสนอชุดวิธีการที่สมดุลระหว่างความเรียบง่ายและความยืดหยุ่นสำหรับการประมวลผลเอกสารได้อย่างลงตัว
 
 ### การเรนเดอร์และการพิมพ์
 
@@ -52,6 +64,10 @@ Aspose.Words24.11แนะนำการสรุปเอกสารที่
 #### แสดงกราฟฮิสโตแกรมที่มีถังขยะและป้ายกำกับ <sup>24.11</sup>
 
 การแสดงผลแผนภูมิฮิสโตแกรมได้รับการปรับปรุงโดยการอนุญาตให้จำนวนที่ระบุของถัง.
+
+#### ปรับแต่งตำแหน่งของป้ายข้อมูล <sup>24.12</sup>
+
+ความสามารถในการปรับแต่งตำแหน่งของป้ายข้อมูลได้รับการเพิ่มเข้ามาโดยการแนะนำคุณสมบัติใหม่ให้กับคลาส [ChartDataLabel](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabel/) และ [ChartDataLabelCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/)
 
 ### การแปลง การโหลด และการบันทึกเอกสาร
 
@@ -91,6 +107,8 @@ PDFเอ็กซ์ปอร์ตได้รับการปรับป�
 เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 24.10](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/)
 
 เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 24.11](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-11-release-notes/)
+
+เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 24.12](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-12-release-notes/)
 
 {{% /alert %}}
 

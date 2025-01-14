@@ -7,16 +7,34 @@ type: docs
 description: "Aspose.Words für Java erweitert und verbessert sich täglich. Auf dieser Seite erfahren Sie mehr über die großen und interessantesten Funktionen des Produkts."
 weight: 2
 url: /de/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2024-10-14-12-53-06
+timestamp: 2024-12-13-10-56-02
 ---
 
 Diese Seite beschreibt die interessantesten neuen Aspose.Words Funktionen, die in den letzten Versionen eingeführt wurden.
 
-## Aspose.Words für Java 24.9, 24.10
+## Aspose.Words für Java 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 führt die Einfügung von group shape und StructuredDocumentTag über DocumentBuilder ein, verbessert die Darstellung von Radialdiagrammen mit Graduierungen, verbessert digitale Signaturen mit XAdES-EPES-Unterstützung, fügt die Unterstreichungserkennung von Markdown hinzu und bietet Zugriff auf Fußnoten-/Endnotentrennzeichen.
 
 Aspose.Words 24.10 führt eine erweiterte ActiveX-Steuerelementunterstützung mit CommandButton -Erstellung, eine neue Formsichtbarkeitssteuerung, die Möglichkeit zu group shapes, einen verbesserten Markdown-Export für Tabellen, Diagrammformatierung für Pie- und Doughnut-Diagramme, eine bessere Big5-Codierungsbehandlung und Unterstützung für veraltete taiwanesische Schriftarten ein.
+
+Aspose.Words 24.11 führt die AI-basierte Dokumentzusammenfassung, erweiterte Renderoptionen, verbesserten Zugriff auf Dokumenteigenschaften und ActiveX-Steuerelementuntertitelung ein.
+
+Aspose.Words 24.12 führt eine anpassbare Platzierung von Datenbeschriftungen, eine von Google AI unterstützte Textübersetzung, verbesserte Optionen zur Serienbriefbereinigung und neue LowCode-Verarbeitungsklassen ein.
+
+### AI-betriebene Funktionen
+
+#### Dokumentzusammenfassung mit OpenAI und Google <sup>24.11</sup>
+
+Unterstützung für die Dokumentzusammenfassung mit generativen **OpenAI**- und **Google**-Sprachmodellen wurde integriert.
+
+#### Textübersetzung mit Googles generativen Sprachmodellen <sup>24.12</sup>
+
+Die Möglichkeit, Text mit Googles generativen Sprachmodellen zu übersetzen, wurde in Aspose.Words implementiert, indem die Methode [Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int) und die Aufzählung [Language](https://reference.aspose.com/words/java/com.aspose.words/language/).
+
+### Low Code <sup>24.12</sup>
+
+Neue LowCode-Klassen wie [Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/), [MailMerger](https://reference.aspose.com/words/java/com.aspose.words/mailmerger/), [Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/), [Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) usw. wurden eingeführt und bieten eine Reihe von Methoden, die die perfekte Balance zwischen Einfachheit und Flexibilität für die Dokumentenverarbeitung herstellen.
 
 ### Rendern und Drucken
 
@@ -36,6 +54,22 @@ Eine neue öffentliche Eigenschaft [Hidden](https://reference.aspose.com/words/j
 
 Dem Formatieren von Pie- und Doughnut-Diagrammen wurden mehrere neue öffentliche Eigenschaften hinzugefügt.
 
+#### Steuern Sie das Rendern von PDF-Auswahlformularfeldrändern <sup>24.11</sup>
+
+Eine neue Option zur Steuerung der Darstellung von PDF-Auswahlformularfeldrändern wurde implementiert, indem eine neue öffentliche Option [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getRenderChoiceFormFieldBorder) hinzugefügt wurde.
+
+#### Formatcodes für Diagrammdaten abrufen und festlegen <sup>24.11</sup>
+
+Die Möglichkeit, Formatcodes für Diagrammdaten abzurufen und festzulegen, wurde hinzugefügt, indem die Eigenschaft [FormatCode](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/#getFormatCode) in den Klassen [ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/) und [BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/) implementiert wurde.
+
+#### Histogrammdiagramme mit Bins und Beschriftungen rendern <sup>24.11</sup>
+
+Die Darstellung von Histogrammdiagrammen wurde verbessert, indem eine bestimmte Anzahl von Behältern und Beschriftungen zugelassen wurde.
+
+#### Platzierung von Datenbeschriftungen anpassen <sup>24.12</sup>
+
+Die Möglichkeit, die Platzierung von Datenbeschriftungen anzupassen, wurde durch die Einführung neuer Eigenschaften in die Klassen [ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) und [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/) hinzugefügt.
+
 ### Dokumente konvertieren, laden und speichern
 
 #### Formatierung beim Laden von Markdown-Dateien unterstreichen <sup>24.9</sup>
@@ -45,6 +79,16 @@ Die Option, Unterstreichungsformatierungen beim Laden von Markdown-Dokumenten zu
 #### Tabellen beim Speichern in Markdown als HTML exportieren <sup>24.10</sup>
 
 Eine Option zum Exportieren von Tabellen als HTML beim Speichern von Dokumenten im Markdown-Format wurde implementiert, indem eine neue öffentliche Eigenschaft [ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml) und eine Aufzählung [MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/) hinzugefügt wurden.
+
+#### Export PDF mit aktualisierter logischer Struktur <sup>24.11</sup>
+
+Der PDF-Export wurde verbessert, indem Tabellentiteleigenschaften als Titel für logische PDF-Strukturelemente aufgenommen wurden.
+
+### Serienbrief und Berichterstellung
+
+#### Leere Tabellen während des Serienbriefs entfernen <sup>24.12</sup>
+
+Der Aufzählung [MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/) wurde eine neue Option **RemoveEmptyTables** hinzugefügt, um die Serienbriefausgabe zu verfeinern.
 
 ### Digitale Signaturen
 
@@ -60,12 +104,18 @@ Die Möglichkeit, Dokumente mit XAdES-EPES Level XML-DSig Signaturen zu signiere
 * Die Möglichkeit, einzelne Formen group shapes zu gruppieren und sowohl Formen als auch group shapes direkt zu gruppieren, wurde durch Hinzufügen der [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...) -Methode eingeführt. <sup>24.10</sup>
 * Die Handhabung der Big5-Codierung für TrueType cmap-Tabellen wurde verbessert. <sup>24.10</sup>
 * Die Unterstützung für veraltete taiwanesische Schriftarten wurde verbessert. <sup>24.10</sup>
+* Um auf erweiterte Dokumenteigenschaften zuzugreifen, wurden der Klasse [BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/) schreibgeschützte Eigenschaften hinzugefügt. <sup>24.11</sup>
+* Das Festlegen von Beschriftungen für ActiveX-Steuerelemente wurde aktiviert, indem der Eigenschaft [Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption) ein neuer öffentlicher Setter hinzugefügt wurde. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 Erfahren Sie mehr über [Aspose.Words für Java 24.9 Versionshinweise](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
 
 Erfahren Sie mehr über [Aspose.Words für Java 24.10 Versionshinweise](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
+
+Erfahren Sie mehr über [Aspose.Words für Java 24.11 Versionshinweise](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-11-release-notes/).
+
+Erfahren Sie mehr über [Aspose.Words für Java 24.12 Versionshinweise](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-12-release-notes/).
 
 {{% /alert %}}
 

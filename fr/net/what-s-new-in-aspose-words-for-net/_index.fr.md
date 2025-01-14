@@ -20,7 +20,7 @@ Aspose.Words 24.10 introduit une prise en charge améliorée des contrôles Acti
 
 Aspose.Words 24.11 introduit la synthèse de documents alimentée par AI, des options de rendu améliorées, un accès amélioré aux propriétés du document et un sous-titrage de contrôle ActiveX.
 
-Aspose.Words 24.8 introduit le placement personnalisable des étiquettes de données, la traduction de texte optimisée par l'IA de Google, des options de nettoyage de publipostage améliorées et de nouvelles classes de traitement LowCode.
+Aspose.Words 24.12 introduit le placement personnalisable des étiquettes de données, la traduction de texte optimisée par l'IA de Google, des options de nettoyage de publipostage améliorées et de nouvelles classes de traitement LowCode.
 
 ### AI - Fonctionnalités alimentées
 

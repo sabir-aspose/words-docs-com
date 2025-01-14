@@ -20,7 +20,7 @@ Aspose.Words 24.10, CommandButton oluşturma, yeni şekil görünürlük denetim
 
 Aspose.Words 24.11, AI destekli belge özetleme, gelişmiş oluşturma seçenekleri, belge özelliklerine geliştirilmiş erişim ve ActiveX denetimi altyazısını sunar.
 
-Aspose.Words 24.8, özelleştirilebilir veri etiketi yerleşimini, Google AI destekli metin çevirisini, gelişmiş Posta Birleştirme temizleme seçeneklerini ve yeni LowCode işleme sınıflarını sunar.
+Aspose.Words 24.12, özelleştirilebilir veri etiketi yerleşimini, Google AI destekli metin çevirisini, gelişmiş Posta Birleştirme temizleme seçeneklerini ve yeni LowCode işleme sınıflarını sunar.
 
 ### AI-güçlendirilmiş Özellikler
 

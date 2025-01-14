@@ -20,7 +20,7 @@ Aspose.Words 24.10 presenta compatibilidad mejorada con el control ActiveX con c
 
 Aspose.Words 24.11 presenta el resumen de documentos impulsado por AI, opciones de representación mejoradas, acceso mejorado a las propiedades del documento y subtítulos de control ActiveX.
 
-Aspose.Words 24.8 presenta la ubicación personalizable de las etiquetas de datos, traducción de texto con tecnología de inteligencia artificial de Google, opciones de limpieza de combinación de correspondencia mejoradas y nuevas clases de procesamiento LowCode.
+Aspose.Words 24.12 presenta la ubicación personalizable de las etiquetas de datos, traducción de texto con tecnología de inteligencia artificial de Google, opciones de limpieza de combinación de correspondencia mejoradas y nuevas clases de procesamiento LowCode.
 
 ### AI - funciones potenciadas
 

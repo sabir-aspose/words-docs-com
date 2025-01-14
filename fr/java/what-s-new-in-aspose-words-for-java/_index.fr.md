@@ -7,16 +7,34 @@ type: docs
 description: "Aspose.Words pour Java s'agrandit et s'améliore quotidiennement. Sur cette page, vous pouvez en apprendre davantage sur les fonctionnalités énormes et les plus intéressantes du produit."
 weight: 2
 url: /fr/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2024-10-14-12-53-06
+timestamp: 2024-12-13-10-56-02
 ---
 
 Cette page décrit les nouvelles fonctionnalités Aspose.Words les plus intéressantes introduites dans les versions récentes.
 
-## Aspose.Words pour Java 24.9, 24.10
+## Aspose.Words pour Java 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 introduit l'insertion group shape et l'insertion StructuredDocumentTag via DocumentBuilder, améliore le rendu radial des graphiques avec des graduations, améliore les signatures numériques avec la prise en charge de XAdES-EPES, ajoute la reconnaissance des soulignements Markdown et donne accès aux séparateurs de notes de bas de page/de fin.
 
 Aspose.Words 24.10 introduit une prise en charge améliorée des contrôles ActiveX avec la création de CommandButton, un nouveau contrôle de visibilité des formes, la possibilité de group shapes, une exportation améliorée de Markdown pour les tableaux, la mise en forme des graphiques pour les graphiques Pie et Doughnut, une meilleure gestion de l'encodage Big5 et la prise en charge des polices taïwanaises obsolètes.
+
+Aspose.Words 24.11 introduit la synthèse de documents alimentée par AI, des options de rendu améliorées, un accès amélioré aux propriétés du document et un sous-titrage de contrôle ActiveX.
+
+Aspose.Words 24.12 introduit le placement personnalisable des étiquettes de données, la traduction de texte optimisée par l'IA de Google, des options de nettoyage de publipostage améliorées et de nouvelles classes de traitement LowCode.
+
+### AI - Fonctionnalités alimentées
+
+#### Résumé de documents à l'aide d'OpenAI et de Google <sup>24.11</sup>
+
+La prise en charge de la synthèse de documents à l'aide des modèles de langage génératif **OpenAI** et **Google** a été intégrée.
+
+#### Traduction de texte à l'aide des modèles de langage génératif de Google <sup>24.12</sup>
+
+La possibilité de traduire du texte à l'aide des modèles de langage génératif de Google a été implémentée dans Aspose.Words en ajoutant la méthode [Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int) et l'énumération [Language](https://reference.aspose.com/words/java/com.aspose.words/language/).
+
+### Low Code <sup>24.12</sup>
+
+De nouvelles classes LowCode comme [Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/), [MailMerger](https://reference.aspose.com/words/java/com.aspose.words/mailmerger/), [Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/), [Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) etc. ont été introduites, offrant un ensemble de méthodes qui trouvent l'équilibre parfait entre simplicité et flexibilité pour le traitement des documents.
 
 ### Rendu et Impression
 
@@ -36,6 +54,22 @@ Une nouvelle propriété publique [Hidden](https://reference.aspose.com/words/ja
 
 Plusieurs nouvelles propriétés publiques ont été ajoutées au format Pie et Doughnut graphiques.
 
+#### Contrôler le rendu des Bordures des Champs de formulaire de choix PDF <sup>24.11</sup>
+
+Une nouvelle option pour contrôler le rendu des bordures de champs de formulaire de choix PDF a été implémentée en ajoutant une nouvelle option publique [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getRenderChoiceFormFieldBorder).
+
+#### Obtenir et définir des Codes de format pour les données de graphique <sup>24.11</sup>
+
+La possibilité d'obtenir et de définir des codes de format pour les données de graphique a été ajoutée en implémentant la propriété [FormatCode](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/#getFormatCode) dans les classes [ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/) et [BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/).
+
+#### Rendu des histogrammes avec des bacs et des étiquettes <sup>24.11</sup>
+
+Le rendu de l'histogramme a été amélioré en autorisant un nombre spécifié de bacs et d'étiquettes.
+
+#### Personnaliser le placement des étiquettes de données <sup>24.12</sup>
+
+La possibilité de personnaliser le placement des étiquettes de données a été ajoutée en introduisant de nouvelles propriétés dans les classes [ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) et [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/).
+
 ### Conversion, Chargement et Enregistrement de Documents
 
 #### Mise en forme soulignée lors du chargement de fichiers Markdown <sup>24.9</sup>
@@ -45,6 +79,16 @@ L'option permettant de reconnaître la mise en forme soulignée lors du chargeme
 #### Exportation des tables sous HTML lors de l'enregistrement dans Markdown <sup>24.10</sup>
 
 Une option pour exporter les tableaux au format HTML lors de l'enregistrement des documents au format Markdown a été implémentée en ajoutant une nouvelle propriété publique [ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml) et une énumération [MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/).
+
+#### Exporter PDF avec une Structure logique mise à jour <sup>24.11</sup>
+
+L'exportation PDF a été améliorée en incluant les propriétés de titre de table en tant que titres d'élément de structure logique PDF.
+
+### Publipostage et création de rapports
+
+#### Supprimer les tables vides pendant le publipostage <sup>24.12</sup>
+
+Une nouvelle option **RemoveEmptyTables** a été ajoutée à l'énumération [MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/) pour affiner la sortie du publipostage.
 
 ### Signatures Numériques
 
@@ -60,12 +104,18 @@ La possibilité de signer des documents avec des signatures de niveau XAdES-EPES
 * La possibilité de regrouper des formes individuelles, group shapes ensemble, et de regrouper directement les deux formes et group shapes a été introduite en ajoutant la méthode [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...). <sup>24.10</sup>
 * La gestion de l'encodage Big5 pour les tables cmap TrueType a été améliorée. <sup>24.10</sup>
 * La prise en charge des polices taïwanaises obsolètes a été améliorée. <sup>24.10</sup>
+* Pour accéder aux propriétés étendues du document, des propriétés en lecture seule ont été ajoutées à la classe [BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/). <sup>24.11</sup>
+* La définition des légendes pour les contrôles ActiveX a été activée en ajoutant un nouveau setter public à la propriété [Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption). <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 En savoir plus sur [Aspose.Words pour Java 24.9 Notes de mise à jour](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
 
 En savoir plus sur [Aspose.Words pour Java 24.10 Notes de mise à jour](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
+
+En savoir plus sur [Aspose.Words pour Java 24.11 Notes de mise à jour](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-11-release-notes/).
+
+En savoir plus sur [Aspose.Words pour Java 24.12 Notes de mise à jour](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-12-release-notes/).
 
 {{% /alert %}}
 

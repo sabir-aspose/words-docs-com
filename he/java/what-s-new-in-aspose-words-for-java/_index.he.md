@@ -7,16 +7,34 @@ type: docs
 description: "Aspose.Words עבור Java מתרחב ומשפר מדי יום. בדף זה, אתה יכול ללמוד על התכונות הענקיות והמעניינות ביותר של המוצר."
 weight: 2
 url: /he/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2024-10-14-12-53-06
+timestamp: 2024-12-13-10-56-02
 ---
 
 דף זה מתאר את החדש המעניין ביותר Aspose.Words תכונות שהוצגו במהדורות האחרונות.
 
-## Aspose.Words עבור Java 24.9, 24.10
+## Aspose.Words עבור Java 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 מציגה הכנסת צורות קבוצתיות והכנסת StructuredDocumentTag באמצעות DocumentBuilder, משפרת את עיבוד התרשים הרדיאלי עם דרגות, משפרת חתימות דיגיטליות עם תמיכה ב-XAdES-EPES, מוסיפה זיהוי קו תחתון של Markdown, ומספקת גישה למפרידי הערות שוליים/הערות סיום.
 
 Aspose.Words 24.10 מציג תמיכה משופרת בבקרת ActiveX עם יצירת CommandButton, בקרת נראות חדשה של צורות, יכולת לקבץ צורות, ייצוא Markdown משופר לטבלאות, עיצוב תרשימים עבור תרשימי עוגה וסופגנייה, טיפול טוב יותר בקידוד Big5 ותמיכה בגופנים טייוואנים מיושנים.
+
+Aspose.Words 24.11 מציג סיכום מסמכים המופעל על AI, אפשרויות עיבוד משופרות, גישה משופרת למאפייני המסמך וכיתוב בקרת אקטיבקס.
+
+Aspose.Words 24.12 מציג מיקום תווית נתונים הניתנים להתאמה אישית, תרגום טקסט מבוסס בינה מלאכותית של Google, אפשרויות משופרות לניקוי מיזוג דואר ושיעורי עיבוד LowCode חדשים.
+
+### AI - מופעל תכונות 
+
+#### סיכום מסמכים באמצעות OpenAI ו-Google <sup>24.11</sup>
+
+שולבה תמיכה בסיכום מסמכים באמצעות מודלים של שפה **OpenAI** ו-**Google**.
+
+#### תרגום טקסט באמצעות מודלים של שפה מחוללת של Google <sup>24.12</sup>
+
+היכולת לתרגם טקסט באמצעות מודלים של שפה גנרטיבית של גוגל הוטמעה ב-Aspose.Words על ידי הוספת שיטת [Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int) ואת הספירה [Language](https://reference.aspose.com/words/java/com.aspose.words/language/).
+
+### קוד נמוך <sup>24.12</sup>
+
+מחלקות LowCode חדשות כמו [Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/), [MailMerger](https://reference.aspose.com/words/net/ aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/), [Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) וכו' הוצג, ומציע אוסף של שיטות המייצרות את האיזון המושלם בין פשטות וגמישות לעיבוד מסמכים .
 
 ### עיבוד והדפסה
 
@@ -36,6 +54,22 @@ Aspose.Words 24.10 מציג תמיכה משופרת בבקרת ActiveX עם יצ
 
 מספר נכסים ציבוריים חדשים נוספו לפורמט תרשימי עוגה וסופגנייה.
 
+#### שלוט בעיבוד של PDF גבולות שדה טופס בחירה <sup>24.11</sup>
+
+אפשרות חדשה לשליטה בעיבוד של PDF גבולות שדה טופס בחירה יושמה על ידי הוספת אפשרות ציבורית חדשה [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getRenderChoiceFormFieldBorder).
+
+#### קבל והגדר קודי פורמט לנתוני תרשים <sup>24.11</sup>
+
+היכולת לקבל ולהגדיר קודי פורמט לנתוני תרשים נוספה על ידי יישום המאפיין [FormatCode](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/#getFormatCode) בכיתות [ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/) ו - [BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/).
+
+#### עיבוד תרשימי היסטוגרמה עם פחים ותוויות <sup>24.11</sup>
+
+עיבוד תרשים היסטוגרמה שופר על ידי מתן אפשרות למספר מוגדר של פחים ותוויות.
+
+#### התאם אישית את המיקום של תוויות נתונים <sup>24.12</sup>
+
+היכולת להתאים אישית את מיקום תוויות הנתונים נוספה על ידי הצגת מאפיינים חדשים ל-[ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) ו-[ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/) שיעורים.
+
 ### המרה, טעינה ושמירה של מסמכים
 
 #### עיצוב קו תחתון בעת ​​טעינת קבצי Markdown <sup>24.9</sup>
@@ -45,6 +79,16 @@ Aspose.Words 24.10 מציג תמיכה משופרת בבקרת ActiveX עם יצ
 #### ייצוא טבלאות כ-HTML בעת שמירה ב-Markdown <sup>24.10</sup>
 
 אפשרות לייצא טבלאות כ-HTML בעת שמירת מסמכים בפורמט Markdown יושמה על ידי הוספת מאפיין ציבורי חדש [ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml) וספירה [MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/).
+
+#### ייצוא PDF עם מבנה לוגי מעודכן <sup>24.11</sup>
+
+PDF הייצוא שופר על ידי הכללת מאפייני כותרת הטבלה כ PDF כותרות אלמנטים של מבנה לוגי.
+
+### מיזוג דואר ודיווח
+
+#### הסר טבלאות ריקות במהלך מיזוג דואר <sup>24.12</sup>
+
+אפשרות חדשה **RemoveEmptyTables** נוספה לספירת [MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/) כדי לחדד את פלט מיזוג הדואר.
 
 ### חתימות דיגיטליות
 
@@ -60,12 +104,18 @@ Aspose.Words 24.10 מציג תמיכה משופרת בבקרת ActiveX עם יצ
 * היכולת לקבץ צורות בודדות, לקבץ צורות יחד ולקבץ ישירות גם צורות וגם צורות קבוצתיות הוצגה על ידי הוספת השיטה [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...). <sup>24.10</sup>
 * טיפול בקידוד Big5 עבור טבלאות cmap TrueType שופר. <sup>24.10</sup>
 * התמיכה בגופנים טייוואנים מיושנים שופרה. <sup>24.10</sup>
+* כדי לגשת למאפייני מסמך מורחבים, נוספו מאפיינים לקריאה בלבד לכיתה [BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/). <sup>24.11</sup>
+* הגדרת כיתובים עבור פקדי אקטיבקס הופעלה על ידי הוספת מגדיר ציבורי חדש למאפיין [Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption). <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 למידע נוסף על [Aspose.Words for Java 24.9 Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
 
 למידע נוסף על [Aspose.Words for Java 24.10 Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
+
+למידע נוסף על [Aspose.Words for Java 24.11 Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-11-release-notes/).
+
+למידע נוסף על [Aspose.Words for Java 24.12 Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-12-release-notes/).
 
 {{% /alert %}}
 

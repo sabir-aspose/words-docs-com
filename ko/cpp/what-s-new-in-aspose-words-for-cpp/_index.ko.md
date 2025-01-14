@@ -7,14 +7,34 @@ type: docs
 description: "Aspose.Words 에 대한 C++ 매일 확장하고 향상시킵니다. 이 페이지에서 제품의 거대하고 가장 흥미로운 기능에 대해 배울 수 있습니다."
 weight: 2
 url: /ko/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2024-10-28-11-53-45
+timestamp: 2024-12-13-10-56-02
 ---
 
 이 페이지는 가장 흥미로운 새로운 Aspose.Words 최근 릴리스에 도입 된 기능.
 
-## Aspose.Words 에 대한 C++ 24.9
+## Aspose.Words 에 대한 C++ 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 소개 group shape 삽입 및 StructuredDocumentTag 통해 삽입 DocumentBuilder,눈금으로 방사형 차트 렌더링을 향상시키고,디지털 서명을 향상시킵니다. XAdES-EPES 지원,추가 Markdown 인식에 밑줄을 긋고 각주/미주 구분 기호에 대한 액세스를 제공합니다.
+
+Aspose.Words 24.10에서는 CommandButton 생성, 새로운 모양 가시성 제어, 모양 그룹화 기능, 표에 대한 개선된 Markdown 내보내기, 파이 및 도넛 차트에 대한 차트 서식 지정, 더 나은 Big5 인코딩 처리, 오래된 대만어 글꼴 지원 등의 향상된 ActiveX 컨트롤 지원이 도입되었습니다.
+
+Aspose.Words24.11AI전원 문서 요약,향상된 렌더링 옵션,문서 속성 및 액티브엑스 제어 캡션에 대한 향상된 액세스를 소개합니다.
+
+Aspose.Words 24.12은 사용자 지정 가능한 데이터 레이블 배치, Google AI 기반 텍스트 번역, 향상된 메일 병합 정리 옵션 및 새로운 LowCode 처리 클래스를 도입합니다.
+
+### AI-전원 기능
+
+#### OpenAI와 Google을 사용한 문서 요약 <sup>24.11</sup>
+
+**OpenAI**및**Google**생성 언어 모델을 사용하는 문서 요약 지원은[Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/)네임스페이스를 공용 멤버와 추가하여 통합되었습니다.
+
+#### Google의 생성 언어 모델을 사용한 텍스트 번역 <sup>24.12</sup>
+
+Google의 생성 언어 모델을 사용하여 텍스트를 번역하는 기능은 Aspose.Words에서 [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/) 메서드와 [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/) 열거형을 [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/) 네임스페이스에 추가하여 구현되었습니다.
+
+### Low Code <sup>24.12</sup>
+
+[Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/cpp/aspose.words.lowcode/merger/), [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) 등과 같은 새로운 LowCode 클래스가 도입되어 문서 처리에 있어 단순성과 유연성 간의 완벽한 균형을 이루는 방법 세트를 제공합니다.
 
 ### 렌더링 및 인쇄
 
@@ -22,27 +42,80 @@ Aspose.Words 24.9 소개 group shape 삽입 및 StructuredDocumentTag 통해 삽
 
 방사형 차트에 눈금의 렌더링이 구현되었습니다.
 
+#### CommandButton ActiveX 컨트롤 <sup>24.10</sup>
+
+CommandButton ActiveX 컨트롤을 생성하는 기능은 새로운 공개 메서드 [InsertForms2OleControl](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertforms2olecontrol/)과 새로운 공개 클래스 **Forms2OleControl**을 추가하여 도입되었습니다.
+
+#### 모양 가시성 제어 <sup>24.10</sup>
+
+모양의 가시성을 제어하기 위해 새로운 공개 속성 [Hidden](https://reference.aspose.com/words/cpp/aspose.words.drawing/shapebase/get_hidden/)이 추가되었습니다.
+
+#### 원형 및 도넛 차트의 변경 사항 <sup>24.10</sup>
+
+원형 및 도넛 차트의 서식을 지정하기 위해 여러 개의 새로운 공개 속성이 추가되었습니다.
+
+#### PDF선택 양식 필드 테두리의 렌더링 제어 <sup>24.11</sup>
+
+PDF선택 양식 필드 테두리의 렌더링을 제어하는 새로운 옵션이 새로운 공개 옵션[RenderChoiceFormFieldBorder](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_renderchoiceformfieldborder/)을 추가하여 구현되었습니다.
+
+#### 차트 데이터에 대한 형식 코드 가져오기 및 설정 <sup>24.11</sup>
+
+[ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/),[ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/)및[BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/)클래스에[FormatCode](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/get_formatcode/)속성을 구현하여 차트 데이터에 대한 형식 코드를 가져오고 설정할 수 있는 기능이 추가되었습니다.
+
+#### 빈 및 레이블이 있는 히스토그램 차트 렌더링 <sup>24.11</sup>
+
+지정된 수의 빈과 레이블을 허용하여 히스토그램 차트 렌더링이 개선되었습니다.
+
+#### 데이터 레이블 배치 사용자 지정 <sup>24.12</sup>
+
+[ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/) 및 [ChartDataLabelCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabelcollection/) 클래스에 새 속성을 도입하여 데이터 레이블 배치를 사용자 지정하는 기능이 추가되었습니다.
+
 ### 문서 변환,로드 및 저장
 
 #### 로드 할 때 밑줄 서식 지정 Markdown 파일
 
-로드 할 때 밑줄 서식을 인식하는 옵션 Markdown 문서는 새로운 공공 재산을 추가하여 통합되었습니다 [ImportUnderlineFormatting]().
+로드 할 때 밑줄 서식을 인식하는 옵션 Markdown 문서는 새로운 공공 재산을 추가하여 통합되었습니다 **ImportUnderlineFormatting**.
+
+#### 마크다운으로 저장할 때 표를 HTML로 내보내기 <sup>24.10</sup>
+
+문서를 마크다운 형식으로 저장할 때 표를 HTML로 내보내는 옵션은 새로운 공개 속성 [ExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_exportashtml/)과 열거형 [MarkdownExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownexportashtml/)을 추가하여 구현되었습니다.
+
+#### 업데이트된 논리 구조로PDF내보내기 <sup>24.11</sup>
+
+PDF내보내기는 테이블 제목 속성을PDF논리 구조 요소 제목으로 포함하여 향상되었습니다.
+
+### 메일 병합 및 보고
+
+#### 메일 병합 중 빈 테이블 제거 <sup>24.12</sup>
+
+[MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/) 열거형에 새로운 **RemoveEmptyTables** 옵션이 추가되어 메일 병합 출력을 정제합니다.
 
 ### 디지털 서명
 
 #### 문서 서명 XAdES-EPES
 
-문서에 서명 할 수있는 능력 XAdES-EPES 레벨 XML-DSig 새 공용 속성을 추가하여 서명이 도입되었습니다 [XmlDsigLevel]() 그리고 새로운 공개 열거 [XmlDsigLevel]().
+문서에 서명 할 수있는 능력 XAdES-EPES 레벨 XML-DSig 새 공용 속성을 추가하여 서명이 도입되었습니다 **XmlDsigLevel** 그리고 새로운 공개 열거 **XmlDsigLevel**.
 
 ### 다른
 
-* 새로운 공개 방법 [InsertGroupShape]() 에 추가되었습니다 group shapes.
-* 새로운 공개 방법 [InsertStructuredDocumentTag]() 삽입에 추가되었습니다 **StructuredDocumentTags** 문서로
+* 새로운 공개 방법 [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/) 에 추가되었습니다 group shapes.
+* 새로운 공개 방법 [InsertStructuredDocumentTag](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertstructureddocumenttag/) 삽입에 추가되었습니다 **StructuredDocumentTags** 문서로
 * 각주/미주 구분 기호에 대한 공개 액세스는 몇 가지 공개 클래스 및 속성을 추가하여 제공되었습니다.
+* 개별 도형을 그룹화하고, 도형을 함께 그룹화하고, 도형과 도형을 직접 그룹화하는 기능은 [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/) 메서드를 추가하여 도입되었습니다. <sup>24.10</sup>
+* TrueType cmap 테이블에 대한 Big5 인코딩 처리가 개선되었습니다. <sup>24.10</sup>
+* 오래된 대만어 글꼴에 대한 지원이 향상되었습니다. <sup>24.10</sup>
+* 확장 문서 속성에 액세스하려면 읽기 전용 속성이[BuiltInDocumentProperties](https://reference.aspose.com/words/cpp/aspose.words.properties/builtindocumentproperties/)클래스에 추가되었습니다. <sup>24.11</sup>
+* **Forms2OleControl.Caption**속성에 새 공용 세터를 추가하여 액티브 컨트롤에 대한 캡션 설정을 사용할 수 있습니다. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 에 대해 자세히 알아보기 [Aspose.Words 에 대한 C++ 24.9 릴리스 노트](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-9-release-notes/).
+
+에 대해 자세히 알아보기 [Aspose.Words 에 대한 C++ 24.10 릴리스 노트](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-10-release-notes/).
+
+에 대해 자세히 알아보기 [Aspose.Words 에 대한 C++ 24.11 릴리스 노트](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-11-release-notes/).
+
+에 대해 자세히 알아보기 [Aspose.Words 에 대한 C++ 24.12 릴리스 노트](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-12-release-notes/).
 
 {{% /alert %}}
 

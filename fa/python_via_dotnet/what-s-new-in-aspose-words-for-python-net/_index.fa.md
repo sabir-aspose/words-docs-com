@@ -7,12 +7,12 @@ type: docs
 description: "Aspose.Words برای Python via .NET روزانه گسترش می یابد و بهبود می یابد. در این صفحه می توانید با ویژگی های عظیم و جالب این محصول آشنا شوید."
 weight: 10
 url: /fa/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2024-11-18-12-56-02
+timestamp: 2024-12-13-10-56-02
 ---
 
 این صفحه جالب ترین ویژگی های جدید Aspose.Words معرفی شده در نسخه های اخیر را شرح می دهد.
 
-## Aspose.Words برای پایتون از طریق .NET 24.9, 24.10, 24.11
+## Aspose.Words برای پایتون از طریق .NET 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 درج شکل گروه و درج StructuredDocumentTag را از طریق DocumentBuilder معرفی می‌کند، رندر نمودار شعاعی را با درجه‌بندی بهبود می‌بخشد، امضاهای دیجیتال را با پشتیبانی XAdES-EPES بهبود می‌بخشد، تشخیص زیر خط Markdown را اضافه می‌کند و دسترسی به جداکننده‌های پانوشت/پایان را فراهم می‌کند.
 
@@ -20,9 +20,19 @@ Aspose.Words 24.10 پشتیبانی از کنترل فعال ActiveX را با �
 
 Aspose.Words 24.11 خلاصه سازی سند با قدرت AI، گزینه های رندر پیشرفته، دسترسی بهتر به ویژگی های سند و زیرنویس کنترل ActiveX را معرفی می کند.
 
+Aspose.Words 24.12 قرار دادن برچسب داده های قابل تنظیم، ترجمه متنی مبتنی بر هوش مصنوعی گوگل و کلاس های پردازش جدید LowCode را معرفی می کند.
+
 ### AI-ویژگی های قدرت <sup>24.11</sup>
 
 پشتیبانی از خلاصه سازی اسناد با استفاده از مدل های زبان مولد **OpenAI** و **Google** با اضافه کردن فضای نام [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) با اعضای عمومی آن ادغام شده است.
+
+#### ترجمه متن با استفاده از مدل‌های زبانی Google <sup>24.12</sup>
+
+قابلیت ترجمه متن با استفاده از مدل‌های زبانی Google در Aspose.Words با افزودن روش [translate](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/translate/) پیاده‌سازی شده است. و [Language](https://reference.aspose.com/words/python-net/aspose.words.ai/language/) شمارش به [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) فضای نام.
+
+### کد پایین <sup>24.12</sup>
+
+کلاس های جدید LowCode مانند [Comparer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/python-net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/splitter/) و غیره معرفی شده است که مجموعه ای از روش ها را ارائه می دهد که تعادل کاملی بین سادگی و انعطاف پذیری برای پردازش اسناد ایجاد می کند.
 
 ### رندر و چاپ
 
@@ -54,11 +64,15 @@ Aspose.Words 24.11 خلاصه سازی سند با قدرت AI، گزینه ها
 
 رندر نمودار هیستوگرام با اجازه دادن به تعداد مشخصی از سطل ها و برچسب ها بهبود یافته است.
 
+#### سفارشی کردن قرار دادن برچسب های داده <sup>24.12</sup>
+
+قابلیت سفارشی‌سازی قرار دادن برچسب‌های داده با معرفی ویژگی‌های جدید به [ChartDataLabel](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabel/) اضافه شده است. کلاس‌های [ChartDataLabelCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/).
+
 ### تبدیل، بارگیری و ذخیره اسناد
 
 #### هنگام بارگیری فایل‌های Markdown، زیر قالب‌بندی خط بکشید <sup>24.9</sup>
 
-گزینه تشخیص قالب بندی زیرخط هنگام بارگیری اسناد Markdown با افزودن یک ویژگی عمومی جدید [ImportUnderlineFormatting]() گنجانده شده است.
+گزینه تشخیص قالب بندی زیرخط هنگام بارگیری اسناد Markdown با افزودن یک ویژگی عمومی جدید **ImportUnderlineFormatting** گنجانده شده است.
 
 #### صادر کردن جداول به صورت HTML هنگام ذخیره در Markdown <sup>24.10</sup>
 
@@ -92,6 +106,8 @@ PDF صادرات با شامل کردن ویژگی های عنوان جدول ب
 درباره [یادداشت‌های انتشار Aspose.Words برای Python via .NET 24.10](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/) بیشتر بدانید.
 
 درباره [یادداشت‌های انتشار Aspose.Words برای Python via .NET 24.11](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-11-release-notes/) بیشتر بدانید.
+
+درباره [یادداشت‌های انتشار Aspose.Words برای Python via .NET 24.12](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-12-release-notes/) بیشتر بدانید.
 
 {{% /alert %}}
 

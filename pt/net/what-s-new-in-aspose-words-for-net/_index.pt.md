@@ -20,7 +20,7 @@ O Aspose.Words 24.10 apresenta um suporte melhorado de controlo ActiveX com cria
 
 Aspose.Words 24.11 introduz o resumo de documentos com AI, opções de renderização aprimoradas, acesso aprimorado às propriedades do documento e legendas de controle ActiveX.
 
-O Aspose.Words 24.8 apresenta um posicionamento de etiquetas de dados personalizável, tradução de texto com tecnologia de IA da Google, opções de limpeza de direct mail melhoradas e novas classes de processamento LowCode.
+O Aspose.Words 24.12 apresenta um posicionamento de etiquetas de dados personalizável, tradução de texto com tecnologia de IA da Google, opções de limpeza de direct mail melhoradas e novas classes de processamento LowCode.
 
 ### AI - recursos alimentados
 

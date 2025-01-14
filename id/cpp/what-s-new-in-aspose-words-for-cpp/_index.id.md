@@ -7,14 +7,34 @@ type: docs
 description: "Aspose.Words untuk C++ memperluas dan meningkatkan setiap hari. Di halaman ini, Anda dapat mempelajari tentang fitur produk yang sangat besar dan paling menarik."
 weight: 2
 url: /id/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2024-10-28-11-53-45
+timestamp: 2024-12-13-10-56-02
 ---
 
 Halaman ini menjelaskan fitur Aspose.Words baru yang paling menarik yang diperkenalkan dalam rilis terbaru.
 
-## Aspose.Words untuk C++ 24.9
+## Aspose.Words untuk C++ 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 memperkenalkan penyisipan group shape dan penyisipan StructuredDocumentTag melalui DocumentBuilder, menyempurnakan rendering bagan radial dengan graduasi, meningkatkan tanda tangan digital dengan XAdES-EPES mendukung, menambahkan pengenalan garis bawah Markdown, dan menyediakan akses ke pemisah catatan kaki / catatan akhir.
+
+Aspose.Words 24.10 memperkenalkan dukungan kontrol ActiveX yang disempurnakan dengan pembuatan CommandButton, kontrol visibilitas bentuk baru, kemampuan untuk mengelompokkan bentuk, peningkatan ekspor Markdown untuk tabel, pemformatan bagan untuk bagan Pie dan Doughnut, penanganan pengodean Big5 yang lebih baik, dan dukungan untuk font Taiwan yang sudah ketinggalan zaman.
+
+Aspose.Words 24.11 memperkenalkan peringkasan dokumen bertenaga AI, opsi rendering yang ditingkatkan, peningkatan akses ke properti dokumen, dan teks kontrol ActiveX.
+
+Aspose.Words 24.12 memperkenalkan penempatan label data yang dapat disesuaikan, penerjemahan teks yang didukung Google AI, opsi pembersihan Mail Merge yang disempurnakan, dan kelas pemrosesan LowCode baru.
+
+### AI-Fitur bertenaga
+
+#### Ringkasan Dokumen Menggunakan OpenAI dan Google <sup>24.11</sup>
+
+Dukungan untuk peringkasan dokumen menggunakan model bahasa generatif **OpenAI** dan **Google** telah diintegrasikan dengan menambahkan namespace [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/) dengan anggota publiknya.
+
+#### Penerjemahan teks menggunakan model bahasa generatif Google <sup>24.12</sup>
+
+Kemampuan menerjemahkan teks menggunakan model bahasa generatif Google telah diimplementasikan di Aspose.Words dengan menambahkan metode [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/) dan enumerasi [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/) ke namespace [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/).
+
+### Low Code <sup>24.12</sup>
+
+Kelas LowCode baru seperti [Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/cpp/aspose.words.lowcode/merger/), [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) dll. telah diperkenalkan, menawarkan serangkaian metode yang menghasilkan keseimbangan sempurna antara kesederhanaan dan fleksibilitas untuk pemrosesan dokumen.
 
 ### Rendering dan Pencetakan
 
@@ -22,27 +42,80 @@ Aspose.Words 24.9 memperkenalkan penyisipan group shape dan penyisipan Structure
 
 Rendering gradasi pada grafik radial telah diterapkan.
 
+#### Kontrol ActiveX CommandButton <sup>24.10</sup>
+
+Kemampuan untuk membuat kontrol ActiveX CommandButton telah diperkenalkan dengan menambahkan metode publik baru [InsertForms2OleControl](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertforms2olecontrol/) dan kelas publik baru **Forms2OleControl**.
+
+#### Kontrol Visibilitas Bentuk <sup>24.10</sup>
+
+Properti publik baru [Tersembunyi](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/hidden/) telah ditambahkan untuk mengontrol visibilitas bentuk.
+
+#### Perubahan pada Bagan Pai dan Donat <sup>24.10</sup>
+
+Beberapa properti publik baru telah ditambahkan untuk memformat bagan Pai dan Donat.
+
+#### Kontrol Rendering Batas Bidang Formulir Pilihan PDF <sup>24.11</sup>
+
+Opsi baru untuk mengontrol rendering batas bidang formulir pilihan PDF telah diterapkan dengan menambahkan opsi publik baru [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_renderchoiceformfieldborder/).
+
+#### Dapatkan dan Atur Kode Format untuk Data Bagan <sup>24.11</sup>
+
+Kemampuan untuk mendapatkan dan mengatur kode format untuk data bagan telah ditambahkan dengan menerapkan properti [FormatCode](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/get_formatcode/) di kelas [ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/), dan [BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/).
+
+#### Render Bagan Histogram dengan Tempat Sampah dan Label <sup>24.11</sup>
+
+Rendering grafik histogram telah ditingkatkan dengan memungkinkan sejumlah tempat sampah dan label tertentu.
+
+#### Menyesuaikan Penempatan Label Data <sup>24.12</sup>
+
+Kemampuan untuk menyesuaikan penempatan label data telah ditambahkan dengan memperkenalkan properti baru ke kelas [ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/) dan [ChartDataLabelCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabelcollection/).
+
 ### Mengonversi, Memuat, dan Menyimpan Dokumen
 
 #### Garis Bawahi Pemformatan saat Memuat File Markdown
 
-Opsi untuk mengenali pemformatan garis bawah saat memuat dokumen Markdown telah digabungkan dengan menambahkan properti publik baru [ImportUnderlineFormatting]().
+Opsi untuk mengenali pemformatan garis bawah saat memuat dokumen Markdown telah digabungkan dengan menambahkan properti publik baru **ImportUnderlineFormatting**.
+
+#### Mengekspor tabel sebagai HTML saat menyimpan ke Markdown <sup>24.10</sup>
+
+Opsi untuk mengekspor tabel sebagai HTML saat menyimpan dokumen ke format Markdown telah diimplementasikan dengan menambahkan properti publik baru [ExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_exportashtml/) dan enumerasi [MarkdownExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownexportashtml/).
+
+#### Ekspor PDF dengan Struktur Logika yang Diperbarui <sup>24.11</sup>
+
+Ekspor PDF telah ditingkatkan dengan menyertakan properti judul tabel sebagai judul elemen struktur logis PDF.
+
+### Gabungan Surat dan Pelaporan
+
+#### Hapus Tabel Kosong selama Gabungan Surat <sup>24.12</sup>
+
+Opsi **RemoveEmptyTables** baru telah ditambahkan ke enumerasi [MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/) untuk menyempurnakan keluaran Gabungan Surat.
 
 ### Tanda Tangan Digital
 
 #### Menandatangani Dokumen dengan XAdES-EPES
 
-Kemampuan untuk menandatangani dokumen dengan XAdES-EPES level XML - Tanda tanganDSig telah diperkenalkan dengan menambahkan properti publik baru [XmlDsigLevel]() dan pencacahan publik baru [XmlDsigLevel]().
+Kemampuan untuk menandatangani dokumen dengan XAdES-EPES level XML - Tanda tanganDSig telah diperkenalkan dengan menambahkan properti publik baru **XmlDsigLevel** dan pencacahan publik baru **XmlDsigLevel**.
 
 ### Lainnya
 
-* Metode publik baru [InsertGroupShape]() telah ditambahkan ke group shapes.
-* Metode publik baru [InsertStructuredDocumentTag]() telah ditambahkan untuk menyisipkan **StructuredDocumentTags** ke dalam dokumen.
+* Metode publik baru [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/) telah ditambahkan ke group shapes.
+* Metode publik baru [InsertStructuredDocumentTag](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertstructureddocumenttag/) telah ditambahkan untuk menyisipkan **StructuredDocumentTags** ke dalam dokumen.
 * Akses publik ke pemisah catatan kaki / catatan akhir telah disediakan dengan menambahkan beberapa kelas dan properti publik.
+* Kemampuan untuk mengelompokkan bentuk individual, mengelompokkan bentuk bersama-sama, dan langsung mengelompokkan kedua bentuk dan mengelompokkan bentuk telah diperkenalkan dengan menambahkan metode [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/). <sup>24.10</sup>
+* Penanganan pengodean Big5 untuk tabel cmap TrueType telah ditingkatkan. <sup>24.10</sup>
+* Dukungan untuk font Taiwan yang sudah ketinggalan zaman telah ditingkatkan. <sup>24.10</sup>
+* Untuk mengakses properti dokumen yang diperluas, properti hanya-baca telah ditambahkan ke kelas [BuiltInDocumentProperties](https://reference.aspose.com/words/cpp/aspose.words.properties/builtindocumentproperties/). <sup>24.11</sup>
+* Menyetel teks untuk kontrol ActiveX telah diaktifkan dengan menambahkan penyetel publik baru ke properti **Forms2OleControl.Caption**. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 Pelajari lebih lanjut tentang [Aspose.Words untuk C++ 24.9 Catatan Rilis](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-9-release-notes/).
+
+Pelajari lebih lanjut tentang [Aspose.Words untuk C++ 24.10 Catatan Rilis](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-10-release-notes/).
+
+Pelajari lebih lanjut tentang [Aspose.Words untuk C++ 24.11 Catatan Rilis](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-11-release-notes/).
+
+Pelajari lebih lanjut tentang [Aspose.Words untuk C++ 24.12 Catatan Rilis](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-12-release-notes/).
 
 {{% /alert %}}
 

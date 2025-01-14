@@ -7,12 +7,12 @@ type: docs
 description: "Python via .NET용 Aspose.Words는 매일 확장되고 향상됩니다. 이 페이지에서는 제품의 가장 크고 흥미로운 기능에 대해 알아볼 수 있습니다."
 weight: 10
 url: /ko/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2024-11-18-12-56-02
+timestamp: 2024-12-13-10-56-02
 ---
 
 이 페이지에서는 최근 릴리스에 도입된 가장 흥미로운 새로운 Aspose.Words 기능을 설명합니다.
 
-## .NET 24.9, 24.10, 24.11 를 통한 Python용 Aspose.Words
+## .NET 24.9, 24.10, 24.11, 24.12 를 통한 Python용 Aspose.Words
 
 Aspose.Words 24.9는 DocumentBuilder를 통한 그룹 모양 삽입 및 StructuredDocumentTag 삽입을 도입하고, 그라데이션을 사용하여 방사형 차트 렌더링을 개선하고, XAdES-EPES 지원을 통해 디지털 서명을 개선하고, Markdown 밑줄 인식을 추가하고, 각주/미주 구분 기호에 대한 액세스를 제공합니다.
 
@@ -20,9 +20,19 @@ Aspose.Words 24.10에서는 CommandButton 생성, 새로운 모양 가시성 제
 
 Aspose.Words24.11AI전원 문서 요약,향상된 렌더링 옵션,문서 속성 및 액티브엑스 제어 캡션에 대한 향상된 액세스를 소개합니다.
 
+Aspose.Words 24.12는 사용자 지정 가능한 데이터 레이블 배치, Google AI 기반 텍스트 번역 및 향상된 새로운 LowCode 처리 클래스를 도입합니다.
+
 ### AI-전원 기능 <sup>24.11</sup>
 
 **OpenAI**및**Google**생성 언어 모델을 사용하는 문서 요약 지원은[Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/)네임스페이스를 공용 멤버와 추가하여 통합되었습니다.
+
+#### Google의 생성 언어 모델을 사용한 텍스트 번역 <sup>24.12</sup>
+
+Google의 생성 언어 모델을 사용하여 텍스트를 번역하는 기능은 Aspose.Words에서 [translate](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/translate/) 메서드와 [Language](https://reference.aspose.com/words/python-net/aspose.words.ai/language/) 열거형을 [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) 네임스페이스에 추가하여 구현되었습니다.
+
+### Low Code <sup>24.12</sup>
+
+[Comparer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/python-net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/splitter/) 등과 같은 새로운 LowCode 클래스가 도입되어 문서 처리에 있어 단순성과 유연성 간의 완벽한 균형을 이루는 방법 세트를 제공합니다.
 
 ### 렌더링 및 인쇄
 
@@ -53,6 +63,10 @@ PDF선택 양식 필드 테두리의 렌더링을 제어하는 새로운 옵션�
 #### 빈 및 레이블이 있는 히스토그램 차트 렌더링 <sup>24.11</sup>
 
 지정된 수의 빈과 레이블을 허용하여 히스토그램 차트 렌더링이 개선되었습니다.
+
+#### 데이터 레이블 배치 사용자 지정 <sup>24.12</sup>
+
+[ChartDataLabel](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabel/) 및 [ChartDataLabelCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/) 클래스에 새 속성을 도입하여 데이터 레이블 배치를 사용자 지정하는 기능이 추가되었습니다.
 
 ### 문서 변환, 로드 및 저장
 
@@ -92,6 +106,8 @@ XAdES-EPES 수준 XML-DSig 서명으로 문서에 서명하는 기능은 새로�
 [Python via .NET 24.10 용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/)에 대해 자세히 알아보세요.
 
 [Python via .NET 24.11 용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-11-release-notes/)에 대해 자세히 알아보세요.
+
+[Python via .NET 24.12 용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-12-release-notes/)에 대해 자세히 알아보세요.
 
 {{% /alert %}}
 
