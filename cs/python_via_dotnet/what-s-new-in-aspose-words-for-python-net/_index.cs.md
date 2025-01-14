@@ -20,7 +20,7 @@ Aspose.Words 24.10 zavádí vylepšenou podporu ovládacích prvků ActiveX s vy
 
 Aspose.Words 24.11 představuje souhrn dokumentů poháněný AI, vylepšené možnosti Vykreslování, vylepšený přístup k vlastnostem dokumentu a titulky ovládacích prvků ActiveX.
 
-Aspose.Words 24.12 zavádí přizpůsobitelné umístění štítků dat, překlad textu s podporou Google AI, vylepšené možnosti čištění hromadné korespondence a nové třídy zpracování LowCode.
+Aspose.Words 24.12 zavádí přizpůsobitelné umístění štítků dat, překlad textu s podporou Google AI a vylepšené nové třídy zpracování LowCode.
 
 ### AI - poháněné funkce
 

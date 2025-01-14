@@ -7,16 +7,34 @@ type: docs
 description: "Aspose.Words untuk Java berkembang dan meningkat setiap hari. Di halaman ini, Anda dapat mempelajari tentang fitur produk yang sangat besar dan paling menarik."
 weight: 2
 url: /id/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2024-10-14-12-53-06
+timestamp: 2024-12-13-10-56-02
 ---
 
 Halaman ini menjelaskan fitur Aspose.Words baru yang paling menarik yang diperkenalkan dalam rilis terbaru.
 
-## Aspose.Words untuk Java 24.9, 24.10
+## Aspose.Words untuk Java 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 memperkenalkan penyisipan group shape dan penyisipan StructuredDocumentTag melalui DocumentBuilder, menyempurnakan rendering bagan radial dengan gradasi, meningkatkan tanda tangan digital dengan dukungan XAdES-EPES, menambahkan pengenalan garis bawah Markdown, dan menyediakan akses ke pemisah catatan kaki / catatan akhir.
 
 Aspose.Words 24.10 memperkenalkan dukungan kontrol ActiveX yang ditingkatkan dengan pembuatan CommandButton, kontrol visibilitas bentuk baru, kemampuan untuk group shapes, peningkatan ekspor Markdown untuk tabel, pemformatan bagan untuk bagan Pie dan Doughnut, penanganan penyandian Big5 yang lebih baik, dan dukungan untuk font Taiwan yang sudah ketinggalan zaman.
+
+Aspose.Words 24.11 memperkenalkan peringkasan dokumen bertenaga AI, opsi rendering yang ditingkatkan, peningkatan akses ke properti dokumen, dan teks kontrol ActiveX.
+
+Aspose.Words 24.12 memperkenalkan penempatan label data yang dapat disesuaikan, penerjemahan teks yang didukung Google AI, opsi pembersihan Mail Merge yang disempurnakan, dan kelas pemrosesan LowCode baru.
+
+### AI-Fitur bertenaga
+
+#### Ringkasan Dokumen Menggunakan OpenAI dan Google <sup>24.11</sup>
+
+Dukungan untuk peringkasan dokumen menggunakan model bahasa generatif **OpenAI** dan **Google** telah diintegrasikan.
+
+#### Penerjemahan teks menggunakan model bahasa generatif Google <sup>24.12</sup>
+
+Kemampuan menerjemahkan teks menggunakan model bahasa generatif Google telah diimplementasikan di Aspose.Words dengan menambahkan metode [Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int) dan enumerasi [Language](https://reference.aspose.com/words/java/com.aspose.words/language/).
+
+### Low Code <sup>24.12</sup>
+
+Kelas LowCode baru seperti [Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/), [MailMerger](https://reference.aspose.com/words/java/com.aspose.words/mailmerger/), [Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/), [Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) dll. telah diperkenalkan, menawarkan serangkaian metode yang menghasilkan keseimbangan sempurna antara kesederhanaan dan fleksibilitas untuk pemrosesan dokumen.
 
 ### Rendering dan Pencetakan
 
@@ -36,6 +54,22 @@ Properti publik baru [Hidden](https://reference.aspose.com/words/java/com.aspose
 
 Beberapa properti publik baru telah ditambahkan ke bagan format Pie dan Doughnut.
 
+#### Kontrol Rendering Batas Bidang Formulir Pilihan PDF <sup>24.11</sup>
+
+Opsi baru untuk mengontrol rendering batas bidang formulir pilihan PDF telah diterapkan dengan menambahkan opsi publik baru [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getRenderChoiceFormFieldBorder).
+
+#### Dapatkan dan Atur Kode Format untuk Data Bagan <sup>24.11</sup>
+
+Kemampuan untuk mendapatkan dan mengatur kode format untuk data bagan telah ditambahkan dengan menerapkan properti [FormatCode](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/#getFormatCode) di kelas [ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/), dan [BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/).
+
+#### Render Bagan Histogram dengan Tempat Sampah dan Label <sup>24.11</sup>
+
+Rendering grafik histogram telah ditingkatkan dengan memungkinkan sejumlah tempat sampah dan label tertentu.
+
+#### Menyesuaikan Penempatan Label Data <sup>24.12</sup>
+
+Kemampuan untuk menyesuaikan penempatan label data telah ditambahkan dengan memperkenalkan properti baru ke kelas [ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) dan [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/).
+
 ### Mengonversi, Memuat, dan Menyimpan Dokumen
 
 #### Garis Bawahi Pemformatan saat Memuat File Markdown <sup>24.9</sup>
@@ -45,6 +79,16 @@ Opsi untuk mengenali pemformatan garis bawah saat memuat dokumen Markdown telah 
 #### Mengekspor tabel sebagai HTML saat menyimpan ke Markdown <sup>24.10</sup>
 
 Opsi untuk mengekspor tabel sebagai HTML saat menyimpan dokumen ke format Markdown telah diterapkan dengan menambahkan properti publik baru [ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml) dan enumerasi [MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/).
+
+#### Ekspor PDF dengan Struktur Logika yang Diperbarui <sup>24.11</sup>
+
+Ekspor PDF telah ditingkatkan dengan menyertakan properti judul tabel sebagai judul elemen struktur logis PDF.
+
+### Gabungan Surat dan Pelaporan
+
+#### Hapus Tabel Kosong selama Gabungan Surat <sup>24.12</sup>
+
+Opsi **RemoveEmptyTables** baru telah ditambahkan ke enumerasi [MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/) untuk menyempurnakan keluaran Gabungan Surat.
 
 ### Tanda Tangan Digital
 
@@ -60,12 +104,18 @@ Kemampuan untuk menandatangani dokumen dengan tanda tangan XAdES-EPES level XML-
 * Kemampuan untuk mengelompokkan masing-masing bentuk, group shapes bersama-sama, dan langsung mengelompokkan kedua bentuk dan group shapes telah diperkenalkan dengan menambahkan metode [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...). <sup>24.10</sup>
 * Penanganan penyandian Big5 untuk tabel cmap TrueType telah ditingkatkan. <sup>24.10</sup>
 * Dukungan untuk font Taiwan yang sudah ketinggalan zaman telah ditingkatkan. <sup>24.10</sup>
+* Untuk mengakses properti dokumen yang diperluas, properti hanya-baca telah ditambahkan ke kelas [BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/). <sup>24.11</sup>
+* Menyetel teks untuk kontrol ActiveX telah diaktifkan dengan menambahkan penyetel publik baru ke properti [Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption). <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 Pelajari lebih lanjut tentang [Aspose.Words untuk Java 24.9 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
 
 Pelajari lebih lanjut tentang [Aspose.Words untuk Java 24.10 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
+
+Pelajari lebih lanjut tentang [Aspose.Words untuk Java 24.11 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-11-release-notes/).
+
+Pelajari lebih lanjut tentang [Aspose.Words untuk Java 24.12 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-12-release-notes/).
 
 {{% /alert %}}
 

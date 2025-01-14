@@ -12,7 +12,7 @@ timestamp: 2024-12-13-10-56-02
 
 تصف هذه الصفحة الميزات الجديدة الأكثر إثارة للاهتمام Aspose.Words التي تم تقديمها في الإصدارات الأخيرة.
 
-## Aspose.Words ل C++ 24.9, 24.10, 24.11
+## Aspose.Words ل C++ 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 يقدم group shape الإدراج و StructuredDocumentTag الإدراج عبر DocumentBuilder، ويعزز عرض الرسم البياني الشعاعي مع التخرج، ويحسن التوقيعات الرقمية مع XAdES-EPES الدعم، ويضيف Markdown الاعتراف التسطير، ويوفر الوصول إلى فواصل حاشية سفلية / حاشية ختامية.
 
@@ -20,11 +20,21 @@ Aspose.Words 24.10 يقدم تعزيز دعم التحكم أكتيفكس مع C
 
 Aspose.Words 24.11 يقدم AI - تلخيص المستند بالطاقة، وخيارات العرض المحسنة، وتحسين الوصول إلى خصائص المستند والتعليقات التوضيحية للتحكم في اكتف.
 
+يقدم Aspose.Words 24.12 إمكانية تخصيص وضع علامات البيانات، وترجمة النصوص المدعومة بالذكاء الاصطناعي من Google، وخيارات تنظيف دمج المراسلات المحسنة، وفئات معالجة LowCode الجديدة.
+
 ### ميزات مدعومة بالذكاء الاصطناعي
 
 #### تلخيص المستندات باستخدام OpenAI وGoogle <sup>24.11</sup>
 
 تم دمج دعم تلخيص المستندات باستخدام نماذج اللغة التوليدية **OpenAI** و **Google** عن طريق إضافة مساحة الاسم **Aspose.Words.AI** مع أعضائها العامين.
+
+#### ترجمة النصوص باستخدام نماذج اللغة التوليدية من Google <sup>24.12</sup>
+
+تم تنفيذ القدرة على ترجمة النصوص باستخدام نماذج اللغة التوليدية من Google في Aspose.Words عن طريق إضافة طريقة [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/) وتعداد [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/) إلى مساحة اسم [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/).
+
+### Low Code <sup>24.12</sup>
+
+تم تقديم فئات LowCode الجديدة مثل [Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/)، [MailMerger](https://reference.aspose.com/words/cpp/aspose.words.lowcode/merger/)، [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/)، [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) وما إلى ذلك، مما يوفر مجموعة من الأساليب التي تحقق التوازن المثالي بين البساطة والمرونة لمعالجة المستندات.
 
 ### التقديم والطباعة
 
@@ -56,11 +66,15 @@ Aspose.Words 24.11 يقدم AI - تلخيص المستند بالطاقة، وخ
 
 تم تحسين الرسم البياني الرسم البياني التقديم من خلال السماح لعدد محدد من صناديق والتسميات.
 
+#### تخصيص موضع تسميات البيانات <sup>24.12</sup>
+
+تمت إضافة القدرة على تخصيص موضع تسميات البيانات من خلال تقديم خصائص جديدة إلى فئتي [ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/)و [ChartDataLabelCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabelcollection/).
+
 ### تحويل وتحميل وحفظ المستندات
 
 #### تسطير التنسيق عند تحميل Markdown الملفات <sup>24.9</sup>
 
-تم دمج خيار التعرف على تنسيق التسطير عند تحميل Markdown المستندات عن طريق إضافة خاصية عامة جديدة [ImportUnderlineFormatting]().
+تم دمج خيار التعرف على تنسيق التسطير عند تحميل Markdown المستندات عن طريق إضافة خاصية عامة جديدة **ImportUnderlineFormatting**.
 
 #### تصدير الجداول كـ HTML عند الحفظ إلى Markdown <sup>24.10</sup>
 
@@ -70,16 +84,20 @@ Aspose.Words 24.11 يقدم AI - تلخيص المستند بالطاقة، وخ
 
 PDF تم تحسين التصدير من خلال تضمين خصائص عنوان الجدول كـ PDF عناوين عنصر الهيكل المنطقي.
 
+#### إزالة الجداول الفارغة أثناء دمج المراسلات <sup>24.12</sup>
+
+تمت إضافة خيار **RemoveEmptyTables** جديد إلى تعداد [MailMergeCleanupOptions](ttps://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/) لتحسين مخرجات دمج المراسلات.
+
 ### التوقيعات الرقمية
 
 #### توقيع الوثائق مع XAdES-EPES <sup>24.9</sup>
 
-القدرة على توقيع الوثائق مع XAdES-EPES المستوى XML - DSig تم إدخال التوقيعات بإضافة ملكية عامة جديدة [XmlDsigLevel]() وتعداد عام جديد [XmlDsigLevel]().
+القدرة على توقيع الوثائق مع XAdES-EPES المستوى XML - DSig تم إدخال التوقيعات بإضافة ملكية عامة جديدة **XmlDsigLevel** وتعداد عام جديد **XmlDsigLevel**.
 
 ### أخرى
 
-* تمت إضافة طريقة عامة جديدة [InsertGroupShape]() إلى group shapes. <sup>24.9</sup>
-* تمت إضافة طريقة عامة جديدة [InsertStructuredDocumentTag]() لإدراج **StructuredDocumentTags** في مستند. <sup>24.9</sup>
+* تمت إضافة طريقة عامة جديدة [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/) إلى group shapes. <sup>24.9</sup>
+* تمت إضافة طريقة عامة جديدة [InsertStructuredDocumentTag](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertstructureddocumenttag/) لإدراج **StructuredDocumentTags** في مستند. <sup>24.9</sup>
 * تم توفير وصول الجمهور إلى فواصل الحاشية السفلية/التعليقات الختامية عن طريق إضافة عدد قليل من الفئات والخصائص العامة. <sup>24.9</sup>
 * تم تقديم القدرة على تجميع الأشكال الفردية، group shapes معا، وتجميع كلا الشكلين مباشرة و group shapes عن طريق إضافة طريقة [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/). <sup>24.10</sup>
 * تم تحسين معالجة ترميز بيغ 5 لجداول TrueType كماب. <sup>24.10</sup>
@@ -94,6 +112,8 @@ PDF تم تحسين التصدير من خلال تضمين خصائص عنوا�
 تعرف على المزيد حول [Aspose.Words لـ C++ 24.10 ملاحظات الإصدار](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-10-release-notes/).
 
 تعرف على المزيد حول [Aspose.Words لـ C++ 24.11 ملاحظات الإصدار](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-11-release-notes/).
+
+تعرف على المزيد حول [Aspose.Words لـ C++ 24.12 ملاحظات الإصدار](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-12-release-notes/).
 
 {{% /alert %}}
 

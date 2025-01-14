@@ -12,7 +12,7 @@ timestamp: 2024-12-13-10-56-02
 
 Diese Seite beschreibt die interessantesten neuen Aspose.Words Funktionen, die in den letzten Versionen eingeführt wurden.
 
-## Aspose.Words für C++ 24.9, 24.10, 24.11
+## Aspose.Words für C++ 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 führt die Einfügung von group shape und StructuredDocumentTag über DocumentBuilder ein, verbessert die Darstellung von Radialdiagrammen mit Abstufungen, verbessert die digitalen Signaturen mit XAdES-EPES unterstützung, fügt Markdown Unterstreichungserkennung hinzu und bietet Zugriff auf Fußnoten-/ Endnotentrennzeichen.
 
@@ -20,11 +20,21 @@ Aspose.Words 24.10 führt eine verbesserte ActiveX-Steuerelementunterstützung m
 
 Aspose.Words 24.11 führt die AI-basierte Dokumentzusammenfassung, erweiterte Renderoptionen, verbesserten Zugriff auf Dokumenteigenschaften und ActiveX-Steuerelementuntertitelung ein.
 
+Aspose.Words 24.12 führt eine anpassbare Platzierung von Datenbeschriftungen, eine von Google AI unterstützte Textübersetzung, verbesserte Optionen zur Serienbriefbereinigung und neue LowCode-Verarbeitungsklassen ein.
+
 ### AI-betriebene Funktionen
 
 #### Dokumentzusammenfassung mit OpenAI und Google <sup>24.11</sup>
 
 Unterstützung für die Dokumentzusammenfassung mit generativen **OpenAI**- und **Google**-Sprachmodellen wurde integriert.
+
+#### Textübersetzung mit Googles generativen Sprachmodellen <sup>24.12</sup>
+
+Die Möglichkeit, Text mit Googles generativen Sprachmodellen zu übersetzen, wurde in Aspose.Words implementiert, indem die Methode [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/) und die Aufzählung [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/) zum Namespace [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/) hinzugefügt wurden.
+
+### Low Code <sup>24.12</sup>
+
+Neue LowCode-Klassen wie [Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/cpp/aspose.words.lowcode/merger/), [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) usw. wurden eingeführt und bieten eine Reihe von Methoden, die die perfekte Balance zwischen Einfachheit und Flexibilität für die Dokumentenverarbeitung herstellen.
 
 ### Rendern und Drucken
 
@@ -50,17 +60,21 @@ Eine neue Option zur Steuerung der Darstellung von PDF-Auswahlformularfeldrände
 
 #### Formatcodes für Diagrammdaten abrufen und festlegen <sup>24.11</sup>
 
-Die Möglichkeit, Formatcodes für Diagrammdaten abzurufen und festzulegen, wurde hinzugefügt, indem die Eigenschaft [FormatCode](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/formatcode/) in den Klassen [ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/) und [BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/) implementiert wurde.
+Die Möglichkeit, Formatcodes für Diagrammdaten abzurufen und festzulegen, wurde hinzugefügt, indem die Eigenschaft [FormatCode](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/get_formatcode/) in den Klassen [ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/) und [BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/) implementiert wurde.
 
 #### Histogrammdiagramme mit Bins und Beschriftungen rendern <sup>24.11</sup>
 
 Die Darstellung von Histogrammdiagrammen wurde verbessert, indem eine bestimmte Anzahl von Behältern und Beschriftungen zugelassen wurde.
 
+#### Platzierung von Datenbeschriftungen anpassen <sup>24.12</sup>
+
+Die Möglichkeit, die Platzierung von Datenbeschriftungen anzupassen, wurde durch die Einführung neuer Eigenschaften in die Klassen [ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/) und [ChartDataLabelCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabelcollection/) hinzugefügt.
+
 ### Dokumente konvertieren, laden und speichern
 
 #### Formatierung beim Laden von Markdown-Dateien unterstreichen <sup>24.9</sup>
 
-Die Option, Unterstreichungsformatierungen beim Laden von Markdown-Dokumenten zu erkennen, wurde durch Hinzufügen einer neuen öffentlichen Eigenschaft [ImportUnderlineFormatting]() integriert.
+Die Option, Unterstreichungsformatierungen beim Laden von Markdown-Dokumenten zu erkennen, wurde durch Hinzufügen einer neuen öffentlichen Eigenschaft **ImportUnderlineFormatting** integriert.
 
 #### Exportieren von Tabellen als HTML beim Speichern in Markdown <sup>24.10</sup>
 
@@ -70,16 +84,22 @@ Eine Option zum Exportieren von Tabellen als HTML beim Speichern von Dokumenten 
 
 Der PDF-Export wurde verbessert, indem Tabellentiteleigenschaften als Titel für logische PDF-Strukturelemente aufgenommen wurden.
 
+### Serienbrief und Berichterstellung
+
+#### Leere Tabellen während des Serienbriefs entfernen <sup>24.12</sup>
+
+Der Aufzählung [MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/) wurde eine neue Option **RemoveEmptyTables** hinzugefügt, um die Serienbriefausgabe zu verfeinern.
+
 ### Digitale Signaturen
 
 #### Dokumente signieren mit XAdES-EPES <sup>24.9</sup>
 
-Die Möglichkeit, Dokumente mit zu signieren XAdES-EPES Signaturen der Ebene XML - DSig wurden eingeführt, indem eine neue öffentliche Eigenschaft [XmlDsigLevel]() und eine neue öffentliche Aufzählung [XmlDsigLevel]() hinzugefügt wurden.
+Die Möglichkeit, Dokumente mit zu signieren XAdES-EPES Signaturen der Ebene XML - DSig wurden eingeführt, indem eine neue öffentliche Eigenschaft **XmlDsigLevel** und eine neue öffentliche Aufzählung **XmlDsigLevel** hinzugefügt wurden.
 
 ### Andere
 
-* Eine neue öffentliche Methode [InsertGroupShape]() wurde zu group shapes hinzugefügt. <sup>24.9</sup>
-* Eine neue öffentliche Methode [InsertStructuredDocumentTag]() wurde hinzugefügt, um **StructuredDocumentTags** in ein Dokument einzufügen. <sup>24.9</sup>
+* Eine neue öffentliche Methode [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/) wurde zu group shapes hinzugefügt. <sup>24.9</sup>
+* Eine neue öffentliche Methode [InsertStructuredDocumentTag](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertstructureddocumenttag/) wurde hinzugefügt, um **StructuredDocumentTags** in ein Dokument einzufügen. <sup>24.9</sup>
 * Der öffentliche Zugriff auf Fußnoten- / Endnotentrennzeichen wurde durch Hinzufügen einiger öffentlicher Klassen und Eigenschaften ermöglicht. <sup>24.9</sup>
 * Die Möglichkeit, einzelne Formen zu gruppieren, Formen zusammen zu gruppieren und sowohl Formen als auch Gruppen direkt zu gruppieren, wurde durch Hinzufügen der Methode [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/) eingeführt. <sup>24.10</sup>
 * Die Big5-Kodierungsbehandlung für TrueType-Cmap-Tabellen wurde verbessert. <sup>24.10</sup>
@@ -94,6 +114,8 @@ Erfahren Sie mehr über [Aspose.Words für C++ 24.9 Versionshinweise](https://re
 Erfahren Sie mehr über [Aspose.Words für C++ 24.10 Versionshinweise](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-10-release-notes/).
 
 Erfahren Sie mehr über [Aspose.Words für C++ 24.11 Versionshinweise](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-11-release-notes/).
+
+Erfahren Sie mehr über [Aspose.Words für C++ 24.12 Versionshinweise](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-12-release-notes/).
 
 {{% /alert %}}
 

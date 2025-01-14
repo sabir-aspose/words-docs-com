@@ -7,14 +7,34 @@ type: docs
 description: "Aspose.Words cho C++ mở rộng và tăng cường hàng ngày. Trên trang này, bạn có thể tìm hiểu về các tính năng khổng lồ và thú vị nhất của sản phẩm."
 weight: 2
 url: /vi/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2024-10-28-11-53-45
+timestamp: 2024-12-13-10-56-02
 ---
 
 Trang này mô tả các tính năng Aspose.Words mới thú vị nhất được giới thiệu trong các bản phát hành gần đây.
 
-## Aspose.Words cho C++ 24.9
+## Aspose.Words cho C++ 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 giới thiệu group shape chèn và StructuredDocumentTag chèn qua DocumentBuilder, tăng cường kết xuất biểu đồ xuyên tâm với độ tốt nghiệp, cải thiện chữ ký số với XAdES-EPES hỗ trợ, thêm nhận dạng gạch chân Markdown và cung cấp quyền truy cập vào dấu phân cách chú thích/cuối chú thích.
+
+Aspose.Words 24.10 giới thiệu hỗ trợ điều khiển ActiveX nâng cao với tính năng tạo CommandButton, điều khiển khả năng hiển thị hình dạng mới, khả năng nhóm hình dạng, cải thiện khả năng xuất Markdown cho bảng, định dạng biểu đồ cho biểu đồ Pie và Doughnut, xử lý mã hóa Big5 tốt hơn và hỗ trợ phông chữ Đài Loan lỗi thời.
+
+Aspose.Words 24.11 giới thiệu AI-tóm tắt tài liệu được hỗ trợ, các tùy chọn kết xuất nâng cao, cải thiện quyền truy cập vào thuộc tính tài liệu và Phụ đề Điều khiển ActiveX.
+
+Aspose.Words 24.12 giới thiệu vị trí nhãn dữ liệu có thể tùy chỉnh, dịch văn bản hỗ trợ AI của Google, tùy chọn dọn dẹp Mail Merge nâng cao và các lớp xử lý LowCode mới.
+
+### AI-các Tính năng được hỗ trợ
+
+#### Tóm tắt tài liệu bằng OpenAI và Google <sup>24.11</sup>
+
+Hỗ trợ tóm tắt tài liệu bằng cách sử dụng các mô hình ngôn ngữ tạo **OpenAI** và **Google** đã được tích hợp bằng cách thêm không gian tên [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/) với các thành viên công cộng của nó.
+
+#### Dịch văn bản bằng mô hình ngôn ngữ tạo sinh của Google <sup>24.12</sup>
+
+Khả năng dịch văn bản bằng mô hình ngôn ngữ tạo sinh của Google đã được triển khai trong Aspose.Words bằng cách thêm phương thức [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/) và phép liệt kê [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/) vào không gian tên [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/)
+
+### Low Code <sup>24.12</sup>
+
+Các lớp LowCode mới như [Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/cpp/aspose.words.lowcode/merger/), [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) v.v. đã được giới thiệu, cung cấp một bộ phương pháp cân bằng hoàn hảo giữa tính đơn giản và tính linh hoạt để xử lý tài liệu.
 
 ### Kết xuất Và In Ấn
 
@@ -22,27 +42,80 @@ Aspose.Words 24.9 giới thiệu group shape chèn và StructuredDocumentTag ch�
 
 Kết xuất tốt nghiệp trên biểu đồ xuyên tâm đã được thực hiện.
 
+#### CommandButton ActiveX Controls <sup>24.10</sup>
+
+Khả năng tạo điều khiển CommandButton ActiveX đã được giới thiệu bằng cách thêm phương thức công khai mới [InsertForms2OleControl](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertforms2olecontrol/) và lớp công khai mới **Forms2OleControl**.
+
+#### Kiểm soát khả năng hiển thị hình dạng <sup>24.10</sup>
+
+Một thuộc tính công khai mới [Hidden](https://reference.aspose.com/words/cpp/aspose.words.drawing/shapebase/get_hidden/) đã được thêm vào để kiểm soát khả năng hiển thị của hình dạng.
+
+#### Thay đổi trong Biểu đồ hình tròn và hình bánh rán <sup>24.10</sup>
+
+Một số thuộc tính công khai mới đã được thêm vào để định dạng biểu đồ hình tròn và hình bánh rán.
+
+#### Kiểm soát Kết xuất Của PDF Biên Giới Trường Biểu mẫu Lựa chọn <sup>24.11</sup>
+
+Một tùy chọn mới để kiểm soát kết xuất các đường viền trường biểu mẫu lựa chọn PDF đã được triển khai bằng cách thêm một tùy chọn công khai mới [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_renderchoiceformfieldborder/).
+
+#### Nhận Và Đặt Mã Định dạng Cho Dữ liệu Biểu đồ <sup>24.11</sup>
+
+Khả năng lấy và đặt mã định dạng cho dữ liệu biểu đồ đã được thêm vào bằng cách triển khai thuộc tính [FormatCode](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/get_formatcode/) trong các lớp [ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/) và [BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/).
+
+#### Hiển thị Biểu đồ Biểu đồ với Thùng và Nhãn <sup>24.11</sup>
+
+Hiển thị biểu đồ biểu đồ đã được cải thiện bằng cách cho phép một số lượng thùng và nhãn được chỉ định.
+
+#### Tùy chỉnh Vị trí Nhãn Dữ liệu <sup>24.12</sup>
+
+Khả năng tùy chỉnh vị trí nhãn dữ liệu đã được thêm vào bằng cách giới thiệu các thuộc tính mới cho các lớp [ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/) và [ChartDataLabelCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabelcollection/).
+
 ### Chuyển đổi, Tải Và Lưu Tài liệu
 
 #### Gạch chân Định dạng Khi Tải Tệp Markdown
 
-Tùy chọn nhận dạng định dạng gạch chân khi tải tài liệu Markdown đã được kết hợp bằng cách thêm thuộc tính công khai mới [ImportUnderlineFormatting]().
+Tùy chọn nhận dạng định dạng gạch chân khi tải tài liệu Markdown đã được kết hợp bằng cách thêm thuộc tính công khai mới **ImportUnderlineFormatting**.
+
+#### Xuất bảng dưới dạng HTML khi lưu vào Markdown <sup>24.10</sup>
+
+Một tùy chọn để xuất bảng dưới dạng HTML khi lưu tài liệu vào định dạng Markdown đã được triển khai bằng cách thêm thuộc tính công khai mới [ExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_exportashtml/) và phép liệt kê [MarkdownExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownexportashtml/).
+
+#### Xuất PDF Với Cấu Trúc Logic Được Cập Nhật <sup>24.11</sup>
+
+PDF xuất khẩu đã được tăng cường bằng cách bao gồm các thuộc tính tiêu đề bảng như PDF tiêu đề phần tử cấu trúc logic.
+
+### Trộn Thư và Báo cáo
+
+#### Xóa Bảng Trống trong khi Trộn Thư <sup>24.12</sup>
+
+Một tùy chọn **RemoveEmptyTables** mới đã được thêm vào phép liệt kê [MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/) để tinh chỉnh đầu ra của Trộn Thư.
 
 ### Chữ Ký Số
 
 #### Ký Tài liệu với XAdES-EPES
 
-Khả năng ký tài liệu với XAdES-EPES chữ ký cấp XML-DSig đã được giới thiệu bằng cách thêm một tài sản công cộng mới [XmlDsigLevel]() và một bảng liệt kê công khai mới [XmlDsigLevel]().
+Khả năng ký tài liệu với XAdES-EPES chữ ký cấp XML-DSig đã được giới thiệu bằng cách thêm một tài sản công cộng mới **XmlDsigLevel** và một bảng liệt kê công khai mới **XmlDsigLevel**.
 
 ### Khác
 
-* Một phương thức công khai mới [InsertGroupShape]() đã được thêm vào group shapes.
-* Một phương thức công khai mới [InsertStructuredDocumentTag]() đã được thêm vào để chèn **StructuredDocumentTags** vào tài liệu.
+* Một phương thức công khai mới [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/) đã được thêm vào group shapes.
+* Một phương thức công khai mới [InsertStructuredDocumentTag](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertstructureddocumenttag/) đã được thêm vào để chèn **StructuredDocumentTags** vào tài liệu.
 * Quyền truy cập công khai vào các dấu phân cách chú thích/cuối chú thích đã được cung cấp bằng cách thêm một vài lớp và thuộc tính công khai.
+* Khả năng nhóm các hình dạng riêng lẻ, nhóm các hình dạng lại với nhau và nhóm trực tiếp cả hai hình dạng và nhóm các hình dạng đã được giới thiệu bằng cách thêm phương thức [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/). <sup>24.10</sup>
+* Xử lý mã hóa Big5 cho bảng cmap TrueType đã được cải thiện. <sup>24.10</sup>
+* Hỗ trợ cho các phông chữ Đài Loan lỗi thời đã được cải thiện. <sup>24.10</sup>
+* Để truy cập các thuộc tính tài liệu mở rộng, các thuộc tính chỉ đọc đã được thêm vào lớp [BuiltInDocumentProperties](https://reference.aspose.com/words/cpp/aspose.words.properties/builtindocumentproperties/). <sup>24.11</sup>
+* Cài đặt chú thích Cho Điều khiển ActiveX đã được bật bằng cách thêm trình thiết lập công khai mới vào thuộc tính **Forms2OleControl.Caption**. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 Tìm hiểu thêm về [Aspose.Words cho C++ 24.9 Ghi Chú Phát Hành](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-9-release-notes/).
+
+Tìm hiểu thêm về [Aspose.Words cho C++ 24.10 Ghi Chú Phát Hành](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-10-release-notes/).
+
+Tìm hiểu thêm về [Aspose.Words cho C++ 24.11 Ghi Chú Phát Hành](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-11-release-notes/).
+
+Tìm hiểu thêm về [Aspose.Words cho C++ 24.12 Ghi Chú Phát Hành](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-12-release-notes/).
 
 {{% /alert %}}
 

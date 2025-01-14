@@ -20,7 +20,7 @@ Aspose.Words 24.10 представляє розширену підтримку 
 
 Aspose.Words 24.11 реалізована функція Узагальнення документів на основі AI, розширені можливості візуалізації, поліпшений доступ до властивостей документа і субтитрів елементів управління ActiveX.
 
-Aspose.Words 24.8 представляє настроюване розміщення міток даних, переклад тексту за допомогою штучного інтелекту Google, покращені параметри очищення злиття та нові класи обробки LowCode.
+Aspose.Words 24.12 представляє настроюване розміщення міток даних, переклад тексту за допомогою штучного інтелекту Google, покращені параметри очищення злиття та нові класи обробки LowCode.
 
 ### AI - функціональні можливості
 
@@ -34,7 +34,7 @@ Aspose.Words 24.8 представляє настроюване розміщен
 
 ### Низький код <sup>24.12</sup>
 
-Нові класи LowCode, такі як [Comparer](https://reference.aspose.com/words/net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/net/aspose.words.lowcode/replacer/), Було представлено [Splitter](https://reference.aspose.com/words/net/aspose.words.lowcode/splitter/) тощо, який пропонує набір методів, які забезпечують ідеальний баланс між простотою та гнучкістю обробки документів .
+Нові класи LowCode, такі як [Comparer](https://reference.aspose.com/words/net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/net/aspose.words.lowcode/replacer/), Було представлено [Splitter](https://reference.aspose.com/words/net/aspose.words.lowcode/splitter/) тощо, який пропонує набір методів, які забезпечують ідеальний баланс між простотою та гнучкістю обробки документів.
 
 ### Візуалізація та друк
 

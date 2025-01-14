@@ -20,7 +20,7 @@ Aspose.Words 24.10 introduce suport îmbunătățit pentru controlul ActiveX cu 
 
 Aspose.Words 24.11 introduce rezumatul documentelor alimentat de AI, opțiuni de redare îmbunătățite, acces îmbunătățit la proprietățile documentului și subtitrarea ActiveX control.
 
-Aspose.Words 24.8 introduce plasarea personalizabilă a etichetelor de date, traducerea textului bazată pe Google AI, opțiuni îmbunătățite de curățare a îmbinării corespondenței și noi clase de procesare LowCode.
+Aspose.Words 24.12 introduce plasarea personalizabilă a etichetelor de date, traducerea textului bazată pe Google AI, opțiuni îmbunătățite de curățare a îmbinării corespondenței și noi clase de procesare LowCode.
 
 ### AI - funcții alimentate
 

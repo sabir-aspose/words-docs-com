@@ -7,16 +7,34 @@ type: docs
 description: "Aspose.Words místo Java denně rozšiřuje a zvyšuje. Na této stránce se můžete dozvědět o obrovských a nejzajímavějších rysech produktu."
 weight: 2
 url: /cs/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2024-10-14-12-53-06
+timestamp: 2024-12-13-10-56-02
 ---
 
 Tato stránka popisuje nejzajímavější nové Aspose.Words funkce zavedené v nedávných vydáních.
 
-## Aspose.Words pro Java 24.9, 24.10
+## Aspose.Words pro Java 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 zavádí vkládání tvarů skupiny a vkládání StructuredDocumentTag prostřednictvím DocumentBuilderu, vylepšuje vykreslování radiálních grafů pomocí gradací, zlepšuje digitální podpisy s podporou XAdES-EPES, přidává rozpoznávání podtržení Markdown a poskytuje přístup k oddělovačům poznámek pod čarou/vysvětlivky.
 
 Aspose.Words 24.10 zavádí vylepšenou podporu ovládacích prvků ActiveX s vytvářením CommandButton, nové ovládání viditelnosti tvarů, možnost seskupovat tvary, vylepšený export Markdown pro tabulky, formátování grafů pro koláčové a prstencové grafy, lepší manipulaci s kódováním Big5 a podporu zastaralých tchajwanských písem.
+
+Aspose.Words 24.11 představuje souhrn dokumentů poháněný AI, vylepšené možnosti Vykreslování, vylepšený přístup k vlastnostem dokumentu a titulky ovládacích prvků ActiveX.
+
+Aspose.Words 24.12 zavádí přizpůsobitelné umístění štítků dat, překlad textu s podporou Google AI, vylepšené možnosti čištění hromadné korespondence a nové třídy zpracování LowCode.
+
+### AI - poháněné funkce
+
+#### Sumarizace dokumentů pomocí OpenAI a Google <sup>24.11</sup>
+
+Podpora sumarizace dokumentů pomocí generativních jazykových modelů **OpenAI** a **Google** byla integrována.
+
+#### Překlad textu pomocí generativních jazykových modelů Google <sup>24.12</sup>
+
+Možnost překládat text pomocí generativních jazykových modelů Google byla implementována do Aspose.Words přidáním metody [Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int) a [Language](https://reference.aspose.com/words/java/com.aspose.words/language/) výčet.
+
+### Nízký kód <sup>24.12</sup>
+
+Nové třídy LowCode jako [Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/), [MailMerger](https://reference.aspose.com/words/java/com.aspose.words/mailmerger/), [Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/), [Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) atd., který nabízí sadu metod, které vytvářejí dokonalou rovnováhu mezi jednoduchostí a flexibilitou pro zpracování dokumentů.
 
 ### Vykreslování a tisk
 
@@ -36,6 +54,22 @@ Byla přidána nová veřejná vlastnost [Hidden](https://reference.aspose.com/w
 
 K formátování výsečových a prstencových grafů bylo přidáno několik nových veřejných vlastností.
 
+#### Řízení Vykreslování PDF výběrový formulář ohraničení polí <sup>24.11</sup>
+
+Byla implementována nová možnost pro řízení Vykreslování okrajů polí PDF výběrového formuláře přidáním nové veřejné volby [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getRenderChoiceFormFieldBorder).
+
+#### Získejte a nastavte kódy formátu pro data grafu <sup>24.11</sup>
+
+Schopnost získat a nastavit kódy formátu pro data grafu byla přidána implementací vlastnosti [FormatCode](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/#getFormatCode) do tříd [ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/) a [BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/).
+
+#### Vykreslení Histogramových grafů s přihrádkami a štítky <sup>24.11</sup>
+
+Vykreslování grafu histogramu bylo vylepšeno umožněním zadaného počtu přihrádek a štítků.
+
+#### Přizpůsobte umístění štítků dat <sup>24.12</sup>
+
+Možnost přizpůsobit umístění štítků dat byla přidána zavedením nových vlastností do [ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) a [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/) třídy.
+
 ### Konverze, načítání a ukládání dokumentů
 
 #### Při načítání souborů Markdown podtrhněte formátování <sup>24.9</sup>
@@ -45,6 +79,16 @@ Možnost rozpoznat podtržené formátování při načítání dokumentů Markd
 #### Export tabulek jako HTML při ukládání do Markdown <sup>24.10</sup>
 
 Možnost exportovat tabulky jako HTML při ukládání dokumentů do formátu Markdown byla implementována přidáním nové veřejné vlastnosti [ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml) a výčtu [MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/).
+
+#### Export PDF s aktualizovanou logickou strukturou <sup>24.11</sup>
+
+Export PDF byl vylepšen zahrnutím vlastností názvu tabulky jako názvů prvků logické struktury PDF.
+
+### Hromadná korespondence a hlášení
+
+#### Odstraňte prázdné tabulky během hromadné korespondence <sup>24.12</sup>
+
+Do výčtu [MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/) byla přidána nová možnost **RemoveEmptyTables**, která zpřesňuje výstup hromadné korespondence.
 
 ### Digitální podpisy
 
@@ -60,12 +104,18 @@ Schopnost podepisovat dokumenty pomocí podpisů XML-DSig na úrovni XAdES-EPES 
 * Přidáním metody [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...) byla zavedena možnost seskupovat jednotlivé tvary, seskupovat tvary a přímo seskupovat tvary i tvary skupin. <sup>24.10</sup>
 * Bylo vylepšeno zpracování kódování Big5 pro tabulky cmap TrueType. <sup>24.10</sup>
 * Byla vylepšena podpora zastaralých tchajwanských písem. <sup>24.10</sup>
+* Pro přístup k rozšířeným vlastnostem dokumentu byly do třídy [BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/) přidány vlastnosti pouze pro čtení. <sup>24.11</sup>
+* Nastavení titulků pro ovládací prvky ActiveX bylo povoleno přidáním nového veřejného nastavovače do vlastnosti [Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption). <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 Další informace o [Aspose.Words for Java 24.9 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
 
-Další informace o [Aspose.Words for Java 24.10 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/)
+Další informace o [Aspose.Words for Java 24.10 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
+
+Další informace o [Aspose.Words for Java 24.11 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-11-release-notes/).
+
+Další informace o [Aspose.Words for Java 24.12 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-12-release-notes/).
 
 {{% /alert %}}
 

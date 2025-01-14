@@ -1,4 +1,4 @@
-﻿---
+---
 title: มีอะไรใหม่
 second_title: Aspose.WordsสำหรับJava
 articleTitle: มีอะไรใหม่ในAspose.WordsสำหรับJava
@@ -7,16 +7,34 @@ type: docs
 description: "Aspose.WordsสำหรับJavaขยายและปรับปรุงทุกวัน ในหน้านี้คุณสามารถเรียนรู้เกี่ยวกับคุณสมบัติขนาดใหญ่และน่าสนใจที่สุดของผลิตภัณฑ์."
 weight: 2
 url: /th/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2024-10-14-12-53-06
+timestamp: 2024-12-13-10-56-02
 ---
 
 หน้านี้อธิบายถึงคุณลักษณะใหม่ที่น่าสนใจที่สุดAspose.Wordsที่นำมาใช้ในรุ่นล่าสุด.
 
-## Aspose.WordsสำหรับJava 24.9, 24.10
+## Aspose.WordsสำหรับJava 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words24.9แนะนำการแทรกgroup shapeและการแทรกStructuredDocumentTagผ่านทางDocumentBuilderช่วยเพิ่มการแสดงผลแผนภูมิรัศมีด้วยการสำเร็จการศึกษาปรับปรุงลายเซ็นดิจิตอลด้วยการสนับสนุนXAdES-EPESเพิ่มการรับรู้ขีดเส้นใต้Markdownและให้การเข้าถึงเชิงอรรถ/ตัวคั่นปลายทาง.
 
 Aspose.Words24.10นำเสนอการสนับสนุนการควบคุมที่เพิ่มขึ้นด้วยการสร้างCommandButtonการควบคุมการมองเห็นรูปร่างใหม่ความสามารถในการgroup shapesปรับปรุงMarkdownการส่งออกสำหรับตาราง,การจัดรูปแบบแผนภูมิสำหรับPieและDoughnutการจัดการการเข้ารหัสขนาดใหญ่ที่ดีขึ้นและการสนับสนุนสำหรับแบบอักษรที่ล้าสมัยของไต้หวัน.
+
+Aspose.Words24.11แนะนำการสรุปเอกสารที่ขับเคลื่อนAIตัวเลือกการแสดงผลที่เพิ่มขึ้นการเข้าถึงคุณสมบัติของเอกสารที่ดีขึ้นและคำอธิบายการควบคุมแอคทีฟ.
+
+Aspose.Words 24.12 นำเสนอการจัดวางป้ายข้อมูลที่ปรับแต่งได้ การแปลข้อความที่ขับเคลื่อนด้วย AI ของ Google ตัวเลือกการล้างข้อมูลจดหมายเวียนที่ได้รับการปรับปรุง และคลาสการประมวลผล LowCode ใหม่
+
+### AI-คุณสมบัติขับเคลื่อน
+
+#### การสรุปเอกสารโดยใช้ OpenAI และ Google <sup>24.11</sup>
+
+มีการบูรณาการการรองรับการสรุปเอกสารโดยใช้โมเดลภาษากำเนิดของ **OpenAI** และ **Google** แล้ว
+
+#### การแปลข้อความโดยใช้โมเดลภาษากำเนิดของ Google <sup>24.12</sup>
+
+ความสามารถในการแปลข้อความโดยใช้โมเดลภาษากำเนิดของ Google ได้รับการนำไปใช้ใน Aspose.Words โดยการเพิ่มเมธอด [Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int) และการแจงนับ [Language](https://reference.aspose.com/words/java/com.aspose.words/language/)
+
+### Low Code <sup>24.12</sup>
+
+ความสามารถในการแปลข้อความโดยใช้โมเดลภาษากำเนิดของ Google ได้รับการนำไปใช้ใน Aspose.Words โดยเพิ่มเมธอด [Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int) และการแจงนับ [Language](https://reference.aspose.com/words/java/com.aspose.words/language/)
 
 ### การแสดงผลและการพิมพ์
 
@@ -36,6 +54,22 @@ Aspose.Words24.10นำเสนอการสนับสนุนการค
 
 คุณสมบัติสาธารณะใหม่หลายแห่งถูกเพิ่มลงในรูปแบบPieและDoughnutแผนภูมิ.
 
+#### ควบคุมการแสดงผลของPDFเส้นขอบเขตฟิลด์ฟอร์มทางเลือก <sup>24.11</sup>
+
+อ็อพชันใหม่ในการควบคุมการแสดงผลของPDFเส้นขอบเขตของฟิลด์ฟอร์มทางเลือกถูกนำมาใช้โดยการเพิ่มอ็อพชันพับลิกใหม่[RenderChoiceFormFieldBorder](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getRenderChoiceFormFieldBorder).
+
+#### รับและตั้งค่ารหัสรูปแบบสำหรับข้อมูลแผนภูมิ <sup>24.11</sup>
+
+มีการเพิ่มความสามารถในการรับและตั้งค่ารหัสรูปแบบสำหรับข้อมูลแผนภูมิโดยการใช้[FormatCode](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/#getFormatCode)คุณสมบัติในชั้นเรียน[ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/),[ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/)และ[BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/).
+
+#### แสดงกราฟฮิสโตแกรมที่มีถังขยะและป้ายกำกับ <sup>24.11</sup>
+
+การแสดงผลแผนภูมิฮิสโตแกรมได้รับการปรับปรุงโดยการอนุญาตให้จำนวนที่ระบุของถัง.
+
+#### ปรับแต่งตำแหน่งของป้ายข้อมูล <sup>24.12</sup>
+
+ความสามารถในการปรับแต่งตำแหน่งของป้ายข้อมูลได้รับการเพิ่มเข้ามาโดยการแนะนำคุณสมบัติใหม่ให้กับคลาส [ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) และ [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/)
+
 ### การแปลงโหลดและบันทึกเอกสาร
 
 #### ขีดเส้นใต้การจัดรูปแบบเมื่อโหลดไฟล์Markdown <sup>24.9</sup>
@@ -45,6 +79,16 @@ Aspose.Words24.10นำเสนอการสนับสนุนการค
 #### ส่งออกตารางเป็นHTMLเมื่อบันทึกเป็นMarkdown <sup>24.10</sup>
 
 ตัวเลือกในการส่งออกตารางเป็นHTMLเมื่อมีการบันทึกเอกสารไปยังรูปแบบMarkdownโดยการเพิ่มคุณสมบัติสาธารณะใหม่[ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml)และการแจงนับ[MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/).
+
+#### ส่งออกPDFด้วยโครงสร้างตรรกะที่ปรับปรุงแล้ว <sup>24.11</sup>
+
+PDFเอ็กซ์ปอร์ตได้รับการปรับปรุงโดยรวมคุณสมบัติชื่อตารางเป็นชื่อองค์ประกอบโครงสร้างตรรกะPDF.
+
+### การผสานจดหมายและการรายงาน
+
+#### ลบตารางว่างระหว่างการผสานจดหมาย <sup>24.12</sup>
+
+มีการเพิ่มตัวเลือก **RemoveEmptyTables** ใหม่ให้กับการแจงนับ [MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/) เพื่อปรับแต่งผลลัพธ์ของการผสานจดหมาย
 
 ### ลายเซ็นดิจิตอล
 
@@ -60,12 +104,18 @@ Aspose.Words24.10นำเสนอการสนับสนุนการค
 * ความสามารถในการจัดกลุ่มรูปร่างของแต่ละบุคคลgroup shapesเข้าด้วยกันและจัดกลุ่มโดยตรงทั้งรูปร่างและgroup shapesได้รับการแนะนำโดยการเพิ่มวิธีการ[InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...) <sup>24.10</sup>
 * การจัดการการเข้ารหัสขนาดใหญ่ 5 สำหรับTrueTypeตารางซีแมปได้รับการปรับปรุง <sup>24.10</sup>
 * การสนับสนุนสำหรับแบบอักษรไต้หวันล้าสมัยได้รับการปรับปรุง <sup>24.10</sup>
+* เพื่อเข้าถึงคุณสมบัติเอกสารขยาย คุณสมบัติแบบอ่านอย่างเดียวได้รับการเพิ่มลงในคลาส [BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/) แล้ว <sup>24.11</sup>
+* มีการเปิดใช้งานการตั้งค่าคำบรรยายสำหรับการควบคุมกิจกรรมโดยการเพิ่มตัวตั้งค่าสาธารณะใหม่ในพร็อพเพอร์ตี้[Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption) <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava24.9บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
 
 เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava24.10บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
+
+เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava24.11บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-11-release-notes/).
+
+เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava24.12บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-12-release-notes/).
 
 {{% /alert %}}
 

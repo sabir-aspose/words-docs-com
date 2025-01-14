@@ -7,16 +7,34 @@ type: docs
 description: "Aspose.Words để Java mở rộng và nâng cao thường ngày. Trên trang này, bạn có thể tìm hiểu về các tính năng lớn và thú vị nhất của sản phẩm."
 weight: 2
 url: /vi/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2024-10-14-12-53-06
+timestamp: 2024-12-13-10-56-02
 ---
 
 Trang này mô tả các tính năng mới thú vị nhất Aspose.Words được đưa vào trong các bản phát hành gần đây.
 
-## Aspose.Words cho Java 24.9, 24.10
+## Aspose.Words cho Java 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 giới thiệu tính năng chèn hình dạng nhóm và chèn StructuredDocumentTag thông qua DocumentBuilder, cải thiện khả năng hiển thị biểu đồ hình tròn với các vạch chia độ, cải thiện chữ ký số với hỗ trợ XAdES-EPES, thêm tính năng nhận dạng gạch chân Markdown và cung cấp quyền truy cập vào các dấu phân cách chú thích cuối trang/chú thích cuối trang.
 
 Aspose.Words 24.10 giới thiệu hỗ trợ điều khiển ActiveX nâng cao với tính năng tạo CommandButton, điều khiển khả năng hiển thị hình dạng mới, khả năng nhóm hình dạng, cải thiện khả năng xuất Markdown cho bảng, định dạng biểu đồ cho biểu đồ Pie và Doughnut, xử lý mã hóa Big5 tốt hơn và hỗ trợ phông chữ Đài Loan lỗi thời.
+
+Aspose.Words 24.11 giới thiệu AI-tóm tắt tài liệu được hỗ trợ, các tùy chọn kết xuất nâng cao, cải thiện quyền truy cập vào thuộc tính tài liệu và Phụ đề Điều khiển ActiveX.
+
+Aspose.Words 24.12 giới thiệu vị trí nhãn dữ liệu có thể tùy chỉnh, dịch văn bản hỗ trợ AI của Google, tùy chọn dọn dẹp Mail Merge nâng cao và các lớp xử lý LowCode mới.
+
+### AI-các Tính năng được hỗ trợ
+
+#### Tóm tắt tài liệu bằng OpenAI và Google <sup>24.11</sup>
+
+Hỗ trợ tóm tắt tài liệu bằng các mô hình ngôn ngữ tạo **OpenAI** và **Google** đã được tích hợp.
+
+#### Dịch văn bản bằng mô hình ngôn ngữ tạo sinh của Google <sup>24.12</sup>
+
+Khả năng dịch văn bản bằng các mô hình ngôn ngữ tạo của Google đã được triển khai trong Aspose.Words bằng cách thêm phương thức [Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int) và phép liệt kê [Language](https://reference.aspose.com/words/java/com.aspose.words/language/).
+
+### Low Code <sup>24.12</sup>
+
+Các lớp LowCode mới như [Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/), [MailMerger](https://reference.aspose.com/words/java/com.aspose.words/mailmerger/), [Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/), [Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) v.v. đã được giới thiệu, cung cấp một bộ phương pháp cân bằng hoàn hảo giữa tính đơn giản và tính linh hoạt để xử lý tài liệu.
 
 ### Hiển thị và in
 
@@ -36,6 +54,22 @@ Một thuộc tính công khai mới [Hidden](https://reference.aspose.com/words
 
 Một số thuộc tính công khai mới đã được thêm vào để định dạng biểu đồ hình tròn và hình bánh rán.
 
+#### Kiểm soát Kết xuất Của PDF Biên Giới Trường Biểu mẫu Lựa chọn <sup>24.11</sup>
+
+Một tùy chọn mới để kiểm soát kết xuất các đường viền trường biểu mẫu lựa chọn PDF đã được triển khai bằng cách thêm một tùy chọn công khai mới [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getRenderChoiceFormFieldBorder).
+
+#### Nhận Và Đặt Mã Định dạng Cho Dữ liệu Biểu đồ <sup>24.11</sup>
+
+Khả năng lấy và đặt mã định dạng cho dữ liệu biểu đồ đã được thêm vào bằng cách triển khai thuộc tính [FormatCode](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/#getFormatCode) trong các lớp [ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/) và [BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/).
+
+#### Hiển thị Biểu đồ Biểu đồ với Thùng và Nhãn <sup>24.11</sup>
+
+Hiển thị biểu đồ biểu đồ đã được cải thiện bằng cách cho phép một số lượng thùng và nhãn được chỉ định.
+
+#### Tùy chỉnh Vị trí Nhãn Dữ liệu <sup>24.12</sup>
+
+Khả năng tùy chỉnh vị trí nhãn dữ liệu đã được thêm vào bằng cách giới thiệu các thuộc tính mới cho các lớp [ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) và [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/).
+
 ### Chuyển đổi, Tải và Lưu Tài liệu
 
 #### Định dạng Gạch chân khi Tải Tệp Markdown <sup>24.9</sup>
@@ -45,6 +79,16 @@ Tùy chọn nhận dạng định dạng gạch chân khi tải tài liệu Mark
 #### Xuất bảng dưới dạng HTML khi lưu vào Markdown <sup>24.10</sup>
 
 Tùy chọn xuất bảng dưới dạng HTML khi lưu tài liệu vào định dạng Markdown đã được triển khai bằng cách thêm thuộc tính công khai mới [ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml) và phép liệt kê [MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/).
+
+#### Xuất PDF Với Cấu Trúc Logic Được Cập Nhật <sup>24.11</sup>
+
+PDF xuất khẩu đã được tăng cường bằng cách bao gồm các thuộc tính tiêu đề bảng như PDF tiêu đề phần tử cấu trúc logic.
+
+### Trộn Thư và Báo cáo
+
+#### Xóa Bảng Trống trong khi Trộn Thư <sup>24.12</sup>
+
+Một tùy chọn **RemoveEmptyTables** mới đã được thêm vào phép liệt kê [MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/) để tinh chỉnh đầu ra của Trộn Thư.
 
 ### Chữ ký số
 
@@ -60,12 +104,18 @@ Khả năng ký tài liệu bằng chữ ký XML-DSig cấp XAdES-EPES đã đư
 * Khả năng nhóm các hình dạng riêng lẻ, nhóm các hình dạng lại với nhau và nhóm trực tiếp cả hai hình dạng và nhóm các hình dạng đã được giới thiệu bằng cách thêm phương thức [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...). <sup>24.10</sup>
 * Xử lý mã hóa Big5 cho các bảng cmap TrueType đã được cải thiện. <sup>24.10</sup>
 * Hỗ trợ cho các phông chữ Đài Loan lỗi thời đã được cải thiện. <sup>24.10</sup>
+* Để truy cập các thuộc tính tài liệu mở rộng, các thuộc tính chỉ đọc đã được thêm vào lớp [BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/). <sup>24.11</sup>
+* Cài đặt chú thích Cho Điều khiển ActiveX đã được bật bằng cách thêm trình thiết lập công khai mới vào thuộc tính [Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption). <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 Học thêm về [Aspose.Words for Java 24.9 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
 
 Học thêm về [Aspose.Words for Java 24.10 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
+
+Học thêm về [Aspose.Words for Java 24.11 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-11-release-notes/).
+
+Học thêm về [Aspose.Words for Java 24.12 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-12-release-notes/).
 
 {{% /alert %}}
 

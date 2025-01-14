@@ -20,7 +20,7 @@ Aspose.Words 24.10 memperkenalkan dukungan kontrol ActiveX yang disempurnakan de
 
 Aspose.Words 24.11 memperkenalkan peringkasan dokumen bertenaga AI, opsi rendering yang ditingkatkan, peningkatan akses ke properti dokumen, dan teks kontrol ActiveX.
 
-Aspose.Words 24.8 memperkenalkan penempatan label data yang dapat disesuaikan, penerjemahan teks yang didukung Google AI, opsi pembersihan Mail Merge yang disempurnakan, dan kelas pemrosesan LowCode baru. 
+Aspose.Words 24.12 memperkenalkan penempatan label data yang dapat disesuaikan, penerjemahan teks yang didukung Google AI, opsi pembersihan Mail Merge yang disempurnakan, dan kelas pemrosesan LowCode baru. 
 
 ### AI-Fitur bertenaga
 

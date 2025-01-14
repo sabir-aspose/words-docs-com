@@ -7,16 +7,34 @@ type: docs
 description: "Aspose.Words برای Java روزانه گسترش می یابد و افزایش می یابد. در این صفحه می توانید با بزرگ ترین و جالب ترین ویژگی های این محصول آشنا شوید."
 weight: 2
 url: /fa/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2024-10-14-12-53-06
+timestamp: 2024-12-13-10-56-02
 ---
 
 این صفحه جالب ترین ویژگی های جدید Aspose.Words را که در نسخه های اخیر معرفی شده است، توصیف می کند.
 
-## Aspose.Words برای Java 24.9, 24.10
+## Aspose.Words برای Java 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 درج group shape و درج StructuredDocumentTag را از طریق DocumentBuilder معرفی می کند، رندر نمودار شعاعی را با فارغ التحصیلی افزایش می دهد، امضاهای دیجیتال را با پشتیبانی XAdES-EPES بهبود می بخشد، تشخیص زیرنویس Markdown را اضافه می کند و دسترسی به جداکننده های حاشیه/حاشیه را فراهم می کند.
 
 Aspose.Words 24.10 پشتیبانی از کنترل ActiveX را با CommandButton ایجاد، کنترل دید شکل جدید، توانایی group shapes، صادرات بهبود یافته Markdown برای جداول، قالب بندی نمودار برای Pie و Doughnut نمودارها، مدیریت بهتر کدگذاری Big5 و پشتیبانی از فونت های قدیمی تایوانی معرفی می کند.
+
+Aspose.Words 24.11 خلاصه سازی سند با قدرت AI، گزینه های رندر پیشرفته، دسترسی بهتر به ویژگی های سند و زیرنویس کنترل ActiveX را معرفی می کند.
+
+Aspose.Words 24.12 قرار دادن برچسب داده های قابل تنظیم، ترجمه متنی مبتنی بر هوش مصنوعی گوگل، گزینه های پاکسازی Mail Merge پیشرفته و کلاس های پردازش LowCode جدید را معرفی می کند.
+
+### AI-ویژگی های قدرت 
+
+#### خلاصه‌سازی اسناد با استفاده از OpenAI و Google <sup>24.11</sup>
+
+پشتیبانی از خلاصه‌سازی اسناد با استفاده از مدل‌های زبان مولد **OpenAI** و **Google** با اعضای عمومی آن یکپارچه شده است.
+
+#### ترجمه متن با استفاده از مدل‌های زبانی Google <sup>24.12</sup>
+
+قابلیت ترجمه متن با استفاده از مدل‌های زبانی Google در Aspose.Words با افزودن روش [Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int) پیاده‌سازی شده است. و [Language](https://reference.aspose.com/words/java/com.aspose.words/language/).
+
+### کد پایین <sup>24.12</sup>
+
+کلاس های جدید LowCode مانند [Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/), [MailMerger](https://reference.aspose.com/words/java/com.aspose.words/mailmerger/), [Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/), [Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) و غیره معرفی شده است که مجموعه ای از روش ها را ارائه می دهد که تعادل کاملی بین سادگی و انعطاف پذیری برای پردازش اسناد ایجاد می کند.
 
 ### رندر و چاپ
 
@@ -36,6 +54,22 @@ Aspose.Words 24.10 پشتیبانی از کنترل ActiveX را با CommandBut
 
 چندین ملک عمومی جدید به نمودارهای فرمت Pie و Doughnut اضافه شده است.
 
+#### کنترل رندر PDF فرم انتخاب مرزهای میدان <sup>24.11</sup>
+
+یک گزینه جدید برای کنترل ارائه PDF انتخاب فرم مرزهای میدان با اضافه کردن یک گزینه عمومی جدید [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getRenderChoiceFormFieldBorder) اجرا شده است.
+
+#### دریافت و تنظیم کدهای فرمت برای داده های نمودار <sup>24.11</sup>
+
+امکان دریافت و تنظیم کدهای فرمت برای داده های نمودار با اجرای ویژگی [FormatCode](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/#getFormatCode) در کلاس های [ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/)، [ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/) و [BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/) اضافه شده است.
+
+#### نمودارهای هیستوگرام را با سطل ها و برچسب ها رندر کنید <sup>24.11</sup>
+
+رندر نمودار هیستوگرام با اجازه دادن به تعداد مشخصی از سطل ها و برچسب ها بهبود یافته است.
+
+#### سفارشی کردن قرار دادن برچسب های داده <sup>24.12</sup>
+
+قابلیت سفارشی‌سازی قرار دادن برچسب‌های داده با معرفی ویژگی‌های جدید به [ChartDataLabel] (https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) اضافه شده است. کلاس‌های [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/).
+
 ### تبدیل، بارگیری و ذخیره اسناد
 
 #### قالب بندی زیرنویس هنگام بارگذاری فایل های Markdown <sup>24.9</sup>
@@ -45,6 +79,16 @@ Aspose.Words 24.10 پشتیبانی از کنترل ActiveX را با CommandBut
 #### جداول صادراتی به صورت HTML هنگام ذخیره به Markdown <sup>24.10</sup>
 
 گزینه ای برای صادرات جداول به عنوان HTML هنگام ذخیره اسناد به Markdown فرمت با اضافه کردن یک ملک عمومی جدید [ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml) و یک شمارش [MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/) اجرا شده است.
+
+#### صادرات PDF با ساختار منطقی به روز شده <sup>24.11</sup>
+
+PDF صادرات با شامل کردن ویژگی های عنوان جدول به عنوان PDF عناوین عنصر ساختار منطقی افزایش یافته است.
+
+### نامه ادغام و گزارش
+
+#### حذف جداول خالی در حین ادغام نامه <sup>24.12</sup>
+
+یک گزینه جدید **RemoveEmptyTables** به فهرست [MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/) اضافه شده است تا خروجی Mail Merge را اصلاح کند.
 
 ### امضای دیجیتال
 
@@ -60,12 +104,18 @@ Aspose.Words 24.10 پشتیبانی از کنترل ActiveX را با CommandBut
 * توانایی گروه بندی اشکال فردی، group shapes با هم و گروه بندی مستقیم هر دو شکل و group shapes با اضافه کردن روش [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...) معرفی شده است. <sup>24.10</sup>
 * مدیریت کدگذاری Big5 برای جداول TrueType cmap بهبود یافته است. <sup>24.10</sup>
 * پشتیبانی از فونت های قدیمی تایوانی افزایش یافته است. <sup>24.10</sup>
+* برای دسترسی به ویژگی های سند گسترده، ویژگی های فقط برای خواندن به کلاس [BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/) اضافه شده است. <sup>24.11</sup>
+* تنظیم زیرنویس برای کنترل های ActiveX با اضافه کردن یک تنظیم کننده عمومی جدید به ویژگی [Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption) فعال شده است. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 اطلاعات بیشتر در مورد [Aspose.Words برای Java 24.9 یادداشت های انتشار](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
 
 اطلاعات بیشتر در مورد [Aspose.Words برای Java 24.10 یادداشت های انتشار](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
+
+اطلاعات بیشتر در مورد [Aspose.Words برای Java 24.11 یادداشت های انتشار](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-11-release-notes/).
+
+اطلاعات بیشتر در مورد [Aspose.Words برای Java 24.12 یادداشت های انتشار](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-12-release-notes/).
 
 {{% /alert %}}
 

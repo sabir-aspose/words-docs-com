@@ -7,12 +7,12 @@ type: docs
 description: "Aspose.Words для Python via .NET Розширює і підсилює щодня. На цій сторінці ви можете дізнатися про величезні і найцікавіші особливості виробу."
 weight: 10
 url: /uk/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2024-11-18-12-56-02
+timestamp: 2024-12-13-10-56-02
 ---
 
 Ця сторінка описує найцікавіше Aspose.Words Особливості, введені в останні релізи.
 
-## Aspose.Words для Python через .NET 24.9, 24.10, 24.11
+## Aspose.Words для Python через .NET 24.9, 24.10, 24.11, 24.12
 
 У Aspose.Words 24.9 представлено вставку групової форми та вставку StructuredDocumentTag через DocumentBuilder, покращено візуалізацію радіальної діаграми з градаціями, покращено цифрові підписи за допомогою підтримки XAdES-EPES, додано розпізнавання підкреслення Markdown і надано доступ до розділювачів виносок і кінцевих виносок.
 
@@ -20,9 +20,21 @@ Aspose.Words 24.10 представляє розширену підтримку 
 
 Aspose.Words 24.11 реалізована функція Узагальнення документів на основі AI, розширені можливості візуалізації, поліпшений доступ до властивостей документа і субтитрів елементів управління ActiveX.
 
-### AI - функціональні можливості <sup>24.11</sup>
+Aspose.Words 24.12 представляє настроюване розміщення міток даних, переклад тексту за допомогою штучного інтелекту Google і вдосконалені нові класи обробки LowCode.
+
+### AI - функціональні можливості
+
+#### Узагальнення документів за допомогою OpenAI і Google <sup>24.11</sup>
 
 Підтримка Узагальнення документів за допомогою моделей генеративної мови **OpenAI** та **Google** була інтегрована шляхом додавання простору імен [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) з його загальнодоступними членами.
+
+#### Переклад тексту за допомогою генеративних мовних моделей Google <sup>24.12</sup>
+
+Можливість перекладу тексту за допомогою генеративних мовних моделей Google реалізована в Aspose.Words шляхом додавання методу [translate](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/translate/) і перелік [Language](https://reference.aspose.com/words/python-net/aspose.words.ai/language/) для простір імен [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/).
+
+### Низький код <sup>24.12</sup>
+
+Нові класи LowCode, такі як [Comparer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/python-net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/replacer/), Було представлено [Splitter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/splitter/) тощо, який пропонує набір методів, які забезпечують ідеальний баланс між простотою та гнучкістю обробки документів.
 
 ### Візуалізація та друк
 
@@ -53,6 +65,10 @@ Aspose.Words 24.11 реалізована функція Узагальненн�
 #### Візуалізація гістограмних графіків з осередками і написами <sup>24.11</sup>
 
 Покращено рендеринг гістограмних діаграм за рахунок використання заданої кількості осередків і міток.
+
+#### Налаштування розміщення міток даних <sup>24.12</sup>
+
+Можливість налаштовувати розміщення міток даних додано завдяки введенню нових властивостей [ChartDataLabel](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabel/) і Класи [ChartDataLabelCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/).
 
 ### Перетворення, завантаження та збереження документів
 
@@ -92,6 +108,8 @@ PDF експорт було покращено, включивши власти�
 Дізнатися більше [Aspose.Words для Python via .NET 24.10 Release Примітки](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/)
 
 Дізнатися більше [Aspose.Words для Python via .NET 24.11 Release Примітки](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-11-release-notes/)
+
+Дізнатися більше [Aspose.Words для Python via .NET 24.12 Release Примітки](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-12-release-notes/)
 
 {{% /alert %}}
 

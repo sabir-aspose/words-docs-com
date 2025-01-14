@@ -12,7 +12,7 @@ timestamp: 2024-12-13-10-56-02
 
 Tato stránka popisuje nejzajímavější nové funkce Aspose.Words představené v posledních verzích.
 
-## Aspose.Words Pro C++ 24.9, 24.10, 24.11
+## Aspose.Words Pro C++ 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 zavádí group shape vkládání a StructuredDocumentTag vkládání pomocí DocumentBuilder, vylepšuje Vykreslování radiálního grafu s odstupňováním, vylepšuje digitální podpisy s podporou XAdES-EPES, přidává Markdown rozpoznávání podtržení a poskytuje přístup k oddělovačům poznámek pod čarou/vysvětlivek.
 
@@ -20,11 +20,21 @@ Aspose.Words 24.10 zavádí vylepšenou podporu ovládání ActiveX s vytvářen
 
 Aspose.Words 24.11 představuje souhrn dokumentů poháněný AI, vylepšené možnosti Vykreslování, vylepšený přístup k vlastnostem dokumentu a titulky ovládacích prvků ActiveX.
 
+Aspose.Words 24.12 zavádí přizpůsobitelné umístění štítků dat, překlad textu s podporou Google AI, vylepšené možnosti čištění hromadné korespondence a nové třídy zpracování LowCode.
+
 ### AI - poháněné funkce
 
 #### Sumarizace dokumentů pomocí OpenAI a Google <sup>24.11</sup>
 
 Podpora sumarizace dokumentů pomocí generativních jazykových modelů **OpenAI** a **Google** byla integrována.
+
+#### Překlad textu pomocí generativních jazykových modelů Google <sup>24.12</sup>
+
+Možnost překládat text pomocí generativních jazykových modelů Google byla implementována do Aspose.Words přidáním metody [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/) a [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/) výčet Jmenný prostor [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/).
+
+### Nízký kód <sup>24.12</sup>
+
+Nové třídy LowCode jako [Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/cpp/aspose.words.lowcode/merger/), [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) atd., který nabízí sadu metod, které vytvářejí dokonalou rovnováhu mezi jednoduchostí a flexibilitou pro zpracování dokumentů.
 
 ### Vykreslování a tisk
 
@@ -34,11 +44,11 @@ Bylo implementováno Vykreslování promocí na radiálních grafech.
 
 #### CommandButton Ovládací Prvky ActiveX <sup>24.10</sup>
 
-Schopnost vytvářet ovládací prvky CommandButton ActiveX byla zavedena přidáním nové veřejné metody [InsertForms2OleControl]() a nové veřejné třídy [Forms2OleControl]().
+Schopnost vytvářet ovládací prvky CommandButton ActiveX byla zavedena přidáním nové veřejné metody [InsertForms2OleControl](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertforms2olecontrol/) a nové veřejné třídy **Forms2OleControl**.
 
 #### Kontrola Viditelnosti Tvaru <sup>24.10</sup>
 
-Byla přidána nová veřejná vlastnost [Hidden]() pro řízení viditelnosti obrazců.
+Byla přidána nová veřejná vlastnost [Hidden](https://reference.aspose.com/words/cpp/aspose.words.drawing/shapebase/get_hidden/) pro řízení viditelnosti obrazců.
 
 #### Změny v grafech Pie a Doughnut <sup>24.10</sup>
 
@@ -56,32 +66,42 @@ Schopnost získat a nastavit kódy formátu pro data grafu byla přidána implem
 
 Vykreslování grafu histogramu bylo vylepšeno umožněním zadaného počtu přihrádek a štítků.
 
+#### Přizpůsobte umístění štítků dat <sup>24.12</sup>
+
+Možnost přizpůsobit umístění štítků dat byla přidána zavedením nových vlastností do [ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/) a [ChartDataLabelCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabelcollection/) třídy.
+
 ### Převod, načítání a ukládání dokumentů
 
 #### Při načítání souborů Markdown podtrhněte formátování <sup>24.9</sup>
 
-Možnost rozpoznat formátování podtržení při načítání dokumentů Markdown byla začleněna přidáním nové veřejné vlastnosti [ImportUnderlineFormatting]().
+Možnost rozpoznat formátování podtržení při načítání dokumentů Markdown byla začleněna přidáním nové veřejné vlastnosti **ImportUnderlineFormatting**.
 
 #### Export tabulek jako HTML při ukládání do Markdown <sup>24.10</sup>
 
-Možnost exportovat tabulky jako HTML při ukládání dokumentů do formátu Markdown byla implementována přidáním nové veřejné vlastnosti [ExportAsHtml]() a výčtu [MarkdownExportAsHtml]().
+Možnost exportovat tabulky jako HTML při ukládání dokumentů do formátu Markdown byla implementována přidáním nové veřejné vlastnosti **ExportAsHtml** a výčtu **MarkdownExportAsHtml**.
 
 #### Export PDF s aktualizovanou logickou strukturou <sup>24.11</sup>
 
 Export PDF byl vylepšen zahrnutím vlastností názvu tabulky jako názvů prvků logické struktury PDF.
 
+### Hromadná korespondence a hlášení
+
+#### Odstraňte prázdné tabulky během hromadné korespondence <sup>24.12</sup>
+
+Do výčtu [MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/) byla přidána nová možnost **RemoveEmptyTables**, která zpřesňuje výstup hromadné korespondence.
+
 ### Digitální Podpisy
 
 #### Podepisujte dokumenty XAdES-EPES <sup>24.9</sup>
 
-Schopnost podepisovat dokumenty s podpisy XAdES-EPES level XML-DSig byla introdused přidáním nového veřejného majetku [XmlDsigLevel]() a nového veřejného výčtu [XmlDsigLevel]().
+Schopnost podepisovat dokumenty s podpisy XAdES-EPES level XML-DSig byla introdused přidáním nového veřejného majetku **XmlDsigLevel** a nového veřejného výčtu **XmlDsigLevel**.
 
 ### Jiný
 
-* Do group shapes byla přidána nová veřejná metoda [InsertGroupShape](). <sup>24.9</sup>
-* Byla přidána nová veřejná metoda [InsertStructuredDocumentTag]() pro vložení **StructuredDocumentTags** do dokumentu. <sup>24.9</sup>
+* Do group shapes byla přidána nová veřejná metoda [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/). <sup>24.9</sup>
+* Byla přidána nová veřejná metoda [InsertStructuredDocumentTag](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertstructureddocumenttag/) pro vložení **StructuredDocumentTags** do dokumentu. <sup>24.9</sup>
 * Veřejný přístup k oddělovačům poznámek pod čarou/vysvětlivek byl poskytnut přidáním několika veřejných tříd a vlastností. <sup>24.9</sup>
-* Schopnost seskupovat jednotlivé tvary group shapes dohromady a přímo seskupovat oba tvary a group shapes byla zavedena přidáním metody [InsertGroupShape](). <sup>24.10</sup>
+* Schopnost seskupovat jednotlivé tvary group shapes dohromady a přímo seskupovat oba tvary a group shapes byla zavedena přidáním metody [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/). <sup>24.10</sup>
 * Zpracování kódování Big5 pro TrueType CMAP tabulky bylo vylepšeno. <sup>24.10</sup>
 * Byla rozšířena podpora zastaralých tchajwanských písem. <sup>24.10</sup>
 * Pro přístup k rozšířeným vlastnostem dokumentu byly do třídy **BuiltInDocumentProperties** přidány vlastnosti pouze pro čtení. <sup>24.11</sup>
@@ -94,6 +114,8 @@ Další informace o [Aspose.Words pro C++ 24.9 Poznámky k vydání](https://rel
 Další informace o [Aspose.Words pro C++ 24.10 Poznámky k vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-10-release-notes/).
 
 Další informace o [Aspose.Words pro C++ 24.11 Poznámky k vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-11-release-notes/).
+
+Další informace o [Aspose.Words pro C++ 24.12 Poznámky k vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-12-release-notes/).
 
 {{% /alert %}}
 

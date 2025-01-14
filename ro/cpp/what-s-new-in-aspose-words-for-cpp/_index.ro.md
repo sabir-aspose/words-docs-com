@@ -7,7 +7,7 @@ type: docs
 description: "Aspose.Words pentru C++ extinde și îmbunătățește zilnic. Pe această pagină, puteți afla despre caracteristicile uriașe și cele mai interesante ale produsului."
 weight: 2
 url: /ro/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2024-10-28-11-53-45
+timestamp: 2024-12-13-10-56-02
 ---
 
 Această pagină descrie cele mai interesante caracteristici noi Aspose.Words introduse în versiunile recente.
@@ -18,6 +18,24 @@ Aspose.Words 24.9 introduce group shape Inserare și StructuredDocumentTag Inser
 
 Aspose.Words 24.10 introduce suport îmbunătățit pentru controlul ActiveX cu crearea CommandButton, Controlul vizibilității formei noi, capacitatea de a group shapes, exportul Markdown îmbunătățit pentru tabele, formatarea diagramelor pentru graficele Pie și Doughnut, o mai bună manipulare a codificării Big5 și suport pentru fonturile taiwaneze învechite.
 
+Aspose.Words 24.11 introduce rezumatul documentelor alimentat de AI, opțiuni de redare îmbunătățite, acces îmbunătățit la proprietățile documentului și subtitrarea ActiveX control.
+
+Aspose.Words 24.12 introduce plasarea personalizabilă a etichetelor de date, traducerea textului bazată pe Google AI, opțiuni îmbunătățite de curățare a îmbinării corespondenței și noi clase de procesare LowCode.
+
+### AI - funcții alimentate
+
+#### Rezumatul documentelor folosind OpenAI și Google <sup>24.11</sup>
+
+Suportul pentru rezumarea documentelor folosind **OpenAI** și **Google** modele de limbaj generativ a fost integrat prin adăugarea spațiului de nume [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/) cu membrii săi publici.
+
+#### Traducerea textului folosind modelele Google de limbaj generativ <sup>24.12</sup>
+
+Capacitatea de a traduce text folosind modelele de limbaj generativ Google a fost implementată în Aspose.Words prin adăugarea metodei [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/) și enumerarea [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/) la [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/) spațiu de nume.
+
+### Low Code <sup>24.12</sup>
+
+Noi clase LowCode, cum ar fi [Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/net/ aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) etc. a fost introdus, oferind un set de metode care realizează echilibrul perfect între simplitate și flexibilitate pentru procesarea documentelor.
+
 ### Redare și imprimare
 
 #### Gradații pe diagrame radiale <sup>24.9</sup>
@@ -26,46 +44,78 @@ A fost implementată redarea gradărilor pe diagrame radiale.
 
 #### CommandButton Controale ActiveX <sup>24.10</sup>
 
-Abilitatea de a crea CommandButton controale ActiveX a fost introdusă prin adăugarea unei noi metode publice [InsertForms2OleControl]() și a unei noi clase publice [Forms2OleControl]().
+Abilitatea de a crea CommandButton controale ActiveX a fost introdusă prin adăugarea unei noi metode publice [InsertForms2OleControl](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertforms2olecontrol/) și a unei noi clase publice **Forms2OleControl**.
 
 #### Controlați Vizibilitatea Formei <sup>24.10</sup>
 
-O nouă proprietate publică [Hidden]() a fost adăugată pentru a controla vizibilitatea formelor.
+O nouă proprietate publică [Hidden](https://reference.aspose.com/words/cpp/aspose.words.drawing/shapebase/get_hidden/) a fost adăugată pentru a controla vizibilitatea formelor.
 
 #### Modificări în graficele Pie și Doughnut <sup>24.10</sup>
 
 Mai multe proprietăți publice noi au fost adăugate la graficele format Pie și Doughnut.
 
+#### Controlați redarea PDF frontiere câmp formular alegere <sup>24.11</sup>
+
+O nouă opțiune pentru a controla redarea PDF choice form field borders a fost implementată prin adăugarea unei noi opțiuni publice [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_renderchoiceformfieldborder/).
+
+#### Obțineți și setați codurile de Format pentru datele grafice <sup>24.11</sup>
+
+Abilitatea de a obține și seta coduri de format pentru datele grafice a fost adăugată prin implementarea proprietății [FormatCode](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/get_formatcode/) în clasele [ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/) și [BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/).
+
+#### Render diagrame histograma cu pubele și etichete <sup>24.11</sup>
+
+Histograma diagramă De redare a fost îmbunătățită prin a permite un anumit număr de containere și etichete.
+
+#### Personalizați plasarea etichetelor de date <sup>24.12</sup>
+
+Capacitatea de a personaliza plasarea etichetelor de date a fost adăugată prin introducerea de noi proprietăți în [ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/) și [ChartDataLabelCollection ](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/) clasele.
+
 ### Conversia, încărcarea și salvarea documentelor
 
 #### Subliniați formatarea la încărcarea fișierelor Markdown <sup>24.9</sup>
 
-Opțiunea de a recunoaște formatarea sublinierii la încărcarea documentelor Markdown a fost încorporată prin adăugarea unei noi proprietăți publice [ImportUnderlineFormatting]().
+Opțiunea de a recunoaște formatarea sublinierii la încărcarea documentelor Markdown a fost încorporată prin adăugarea unei noi proprietăți publice **ImportUnderlineFormatting**.
 
 #### Exportarea tabelelor ca HTML la salvarea în Markdown <sup>24.10</sup>
 
-O opțiune de a exporta tabele ca HTML la salvarea documentelor în format Markdown a fost implementată prin adăugarea unei noi proprietăți publice [ExportAsHtml]() și a unei enumerări [MarkdownExportAsHtml]().
+O opțiune de a exporta tabele ca HTML la salvarea documentelor în format Markdown a fost implementată prin adăugarea unei noi proprietăți publice [ExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_exportashtml/) și a unei enumerări [MarkdownExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownexportashtml/).
+
+#### Export PDF cu structură logică actualizată <sup>24.11</sup>
+
+PDF exportul a fost îmbunătățit prin includerea proprietăților titlului tabelului ca PDF titluri de elemente de structură logică.
+
+### Îmbinare corespondență și raportare
+
+#### Eliminați tabelele goale în timpul îmbinării corespondenței <sup>24.12</sup>
+
+O nouă opțiune **RemoveEmptyTables** a fost adăugată la enumerarea [MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/) pentru a rafina ieșirea Mail Merge.
 
 ### Semnături Digitale
 
 #### Semnați documente cu XAdES-EPES <sup>24.9</sup>
 
-Abilitatea de a semna documente cu XAdES-EPES nivel XML-DSig semnături a fost introdusă prin adăugarea unei noi proprietăți publice [XmlDsigLevel]() și a unei noi enumerări publice [XmlDsigLevel]().
+Abilitatea de a semna documente cu XAdES-EPES nivel XML-DSig semnături a fost introdusă prin adăugarea unei noi proprietăți publice **XmlDsigLevel** și a unei noi enumerări publice **XmlDsigLevel**.
 
 ### Altele
 
-* O nouă metodă publică [InsertGroupShape]() a fost adăugată la group shapes. <sup>24.9</sup>
-* O nouă metodă publică [InsertStructuredDocumentTag]() a fost adăugată pentru a insera **StructuredDocumentTags** într-un document. <sup>24.9</sup>
+* O nouă metodă publică [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/) a fost adăugată la group shapes. <sup>24.9</sup>
+* O nouă metodă publică [InsertStructuredDocumentTag](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertstructureddocumenttag/) a fost adăugată pentru a insera **StructuredDocumentTags** într-un document. <sup>24.9</sup>
 * Accesul Public la separatoarele de note de subsol/note de final a fost asigurat prin adăugarea câtorva clase și proprietăți publice. <sup>24.9</sup>
-* Capacitatea de a grupa forme individuale, group shapes împreună și de a grupa direct ambele forme și group shapes a fost introdusă prin adăugarea metodei [InsertGroupShape](). <sup>24.10</sup>
+* Capacitatea de a grupa forme individuale, group shapes împreună și de a grupa direct ambele forme și group shapes a fost introdusă prin adăugarea metodei [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/). <sup>24.10</sup>
 * Manipularea codificării Big5 pentru TrueType tabele cmap a fost îmbunătățită. <sup>24.10</sup>
 * Suportul pentru fonturile taiwaneze învechite a fost îmbunătățit. <sup>24.10</sup>
+* Pentru a accesa proprietățile extinse ale documentului, proprietățile numai în citire au fost adăugate la clasa [BuiltInDocumentProperties](https://reference.aspose.com/words/cpp/aspose.words.properties/builtindocumentproperties/). <sup>24.11</sup>
+* Setarea subtitrărilor pentru controalele ActiveX a fost activată prin adăugarea unui nou setter public la proprietatea **Forms2OleControl.Caption**. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 Aflați mai multe despre [Aspose.Words pentru C++ 24.9 Note De Lansare](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-9-release-notes/).
 
 Aflați mai multe despre [Aspose.Words pentru C++ 24.10 Note De Lansare](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-10-release-notes/).
+
+Aflați mai multe despre [Aspose.Words pentru C++ 24.11 Note De Lansare](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-11-release-notes/).
+
+Aflați mai multe despre [Aspose.Words pentru C++ 24.12 Note De Lansare](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-12-release-notes/).
 
 {{% /alert %}}
 
