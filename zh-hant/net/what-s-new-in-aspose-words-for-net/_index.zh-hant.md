@@ -20,7 +20,7 @@ Aspose.Words 24.10 引入了增強的ActiveX 控制項支持，包括CommandButt
 
 Aspose.Words 24.11 引入了人工智慧驅動的文件摘要、增強的渲染選項、改進的文件屬性存取和 ActiveX 控制項標題。
 
-Aspose.Words 24.8 引入了可自訂的資料標籤放置、Google AI 支援的文字翻譯、增強的郵件合併清理選項和新的 LowCode 處理類別。
+Aspose.Words 24.12 引入了可自訂的資料標籤放置、Google AI 支援的文字翻譯、增強的郵件合併清理選項和新的 LowCode 處理類別。
 
 ### AI 驅動的功能
 

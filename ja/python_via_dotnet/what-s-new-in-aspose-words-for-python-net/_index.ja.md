@@ -7,12 +7,12 @@ type: docs
 description: "Python via .NET 用 Aspose.Words は日々拡張および機能強化されています。このページでは、製品の巨大で最も興味深い機能について学ぶことができます。"
 weight: 10
 url: /ja/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2024-11-18-12-56-02
+timestamp: 2024-12-13-10-56-02
 ---
 
 このページでは、最近のリリースで導入された最も興味深い新しい Aspose.Words 機能について説明します。
 
-## .NET 24.9、24.10、24.11 経由の Aspose.Words for Python
+## .NET 24.9、24.10、24.11、24.12 経由の Aspose.Words for Python
 
 Aspose.Words 24.9 では、DocumentBuilder 経由のグループ シェイプの挿入と StructuredDocumentTag の挿入が導入され、目盛り付きの放射状グラフのレンダリングが強化され、XAdES-EPES サポートによるデジタル署名が改善され、Markdown の下線認識が追加され、脚注/文末脚注のセパレーターへのアクセスが提供されます。
 
@@ -20,9 +20,19 @@ Aspose.Words 24.10 では、コマンド ボタンの作成、新しい図形の
 
 Aspose.Words24.11では、AIを使用したドキュメントの要約、強化されたレンダリングオプション、ドキュメントプロパティへのアクセスの改善、ActiveXコントロー
 
+Aspose.Words 24.12 では、カスタマイズ可能なデータ ラベルの配置、Google AI を活用したテキスト翻訳、強化された新しい LowCode 処理クラスが導入されています。
+
 ### AI搭載の機能 <sup>24.11</sup>
 
 **OpenAI**および**Google**生成言語モデルを使用した文書要約のサポートは、[Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/)名前空間とそのパブリックメンバーを追加することによって統合されています。
+
+#### Google の生成言語モデルを使用したテキスト翻訳 <sup>24.12</sup>
+
+Google の生成言語モデルを使用してテキストを翻訳する機能は、[translate](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/translate/) メソッドと [Language](https://reference.aspose.com/words/python-net/aspose.words.ai/language/) 列挙を [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) 名前空間に追加することで、Aspose.Words に実装されました。
+
+### ローコード <sup>24.12</sup>
+
+[Comparer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/comparer/)、[MailMerger](https://reference.aspose.com/words/python-net/aspose.words.lowcode/mailmerger/)、[Replacer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/replacer/)、[Splitter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/splitter/) などの新しいローコード クラスが導入され、ドキュメント処理のシンプルさと柔軟性の完璧なバランスを実現する一連のメソッドが提供されます。
 
 ### レンダリングと印刷
 
@@ -53,6 +63,10 @@ Aspose.Words24.11では、AIを使用したドキュメントの要約、強化�
 #### ビンとラベルを使用したヒストグラムチャートのレンダリング <sup>24.11</sup>
 
 ヒストグラムチャートレンダリングは、指定された数のビンとラベルを使用できるようにすることで改善されました。
+
+#### データ ラベルの配置をカスタマイズする <sup>24.12</sup>
+
+[ChartDataLabel](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabel/) クラスと [ChartDataLabelCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/) クラスに新しいプロパティを導入することで、データ ラベルの配置をカスタマイズする機能が追加されました。
 
 ### ドキュメントの変換、読み込み、および保存
 
@@ -92,6 +106,8 @@ PDFエクスポートは、テーブルタイトルプロパティをPDF論理�
 [Aspose.Words for Python via .NET 24.10 リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/) について詳しくは、こちらをご覧ください。
 
 [Aspose.Words for Python via .NET 24.11 リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-11-release-notes/) について詳しくは、こちらをご覧ください。
+
+[Aspose.Words for Python via .NET 24.12 リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-12-release-notes/) について詳しくは、こちらをご覧ください。
 
 {{% /alert %}}
 

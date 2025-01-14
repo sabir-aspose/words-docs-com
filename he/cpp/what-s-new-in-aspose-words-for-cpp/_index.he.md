@@ -7,16 +7,34 @@ type: docs
 description: "Aspose.Words עבור C++ מתרחב ומשפר מדי יום. בדף זה תוכלו ללמוד על התכונות הענקיות והמעניינות ביותר של המוצר."
 weight: 2
 url: /he/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2024-10-28-11-53-45
+timestamp: 2024-12-13-10-56-02
 ---
 
 דף זה מתאר את התכונות החדשות המעניינות ביותר Aspose.Words שהוצגו במהדורות האחרונות.
 
-## Aspose.Words עבור C++ 24.9, 24.10
+## Aspose.Words עבור C++ 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 מציג group shape הכנסה ו StructuredDocumentTag הכנסה באמצעות DocumentBuilder, משפר את עיבוד התרשים הרדיאלי עם סיום הלימודים, משפר חתימות דיגיטליות עם XAdES-EPES תמיכה, מוסיף Markdown זיהוי קו תחתון ומספק גישה למפרידי הערת שוליים/הערת סיום.
 
 Aspose.Words 24.10 מציג תמיכה משופרת בבקרת אקטיבקס עם CommandButton יצירה, בקרת נראות צורה חדשה, יכולת group shapes, שיפור Markdown ייצוא לטבלאות, עיצוב תרשים עבור Pie ו Doughnut תרשימים, טיפול טוב יותר בקידוד ביג 5 ותמיכה בגופנים טייוואניים מיושנים.
+
+Aspose.Words 24.11 מציג סיכום מסמכים המופעל על AI, אפשרויות עיבוד משופרות, גישה משופרת למאפייני המסמך וכיתוב בקרת אקטיבקס.
+
+Aspose.Words 24.12 מציג מיקום תווית נתונים הניתנים להתאמה אישית, תרגום טקסט מבוסס בינה מלאכותית של Google, אפשרויות משופרות לניקוי מיזוג דואר ושיעורי עיבוד LowCode חדשים.
+
+### AI - מופעל תכונות 
+
+#### סיכום מסמכים באמצעות OpenAI ו-Google <sup>24.11</sup>
+
+תמיכה בסיכום מסמכים באמצעות מודלים של שפות גנרטיביות **OpenAI** ו - **Google** הושלבה על ידי הוספת מרחב השמות [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/) עם חבריו הציבוריים.
+
+#### תרגום טקסט באמצעות מודלים של שפה מחוללת של Google <sup>24.12</sup>
+
+היכולת לתרגם טקסט באמצעות מודלים של שפה גנרטיבית של גוגל הוטמעה ב-Aspose.Words על ידי הוספת שיטת [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/) ואת הספירה [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/) ל- מרחב השמות [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/).
+
+### קוד נמוך <sup>24.12</sup>
+
+מחלקות LowCode חדשות כמו [Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/net/ aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) וכו' הוצג, ומציע אוסף של שיטות המייצרות את האיזון המושלם בין פשטות וגמישות לעיבוד מסמכים .
 
 ### עיבוד והדפסה
 
@@ -26,46 +44,78 @@ Aspose.Words 24.10 מציג תמיכה משופרת בבקרת אקטיבקס ע
 
 #### CommandButton בקרות אקטיבקס <sup>24.10</sup>
 
-היכולת ליצור בקרות אקטיביקס CommandButton הוצגה על ידי הוספת שיטה ציבורית חדשה [InsertForms2OleControl]() וכיתה ציבורית חדשה [Forms2OleControl]().
+היכולת ליצור בקרות אקטיביקס CommandButton הוצגה על ידי הוספת שיטה ציבורית חדשה [InsertForms2OleControl](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertforms2olecontrol/) וכיתה ציבורית חדשה **Forms2OleControl**.
 
 #### בקרת צורת נראות <sup>24.10</sup>
 
-נכס ציבורי חדש [Hidden]() נוסף כדי לשלוט בנראות הצורות.
+נכס ציבורי חדש [Hidden](https://reference.aspose.com/words/cpp/aspose.words.drawing/shapebase/get_hidden/) נוסף כדי לשלוט בנראות הצורות.
 
 #### שינויים בתרשימים Pie ו Doughnut <sup>24.10</sup>
 
 מספר נכסים ציבוריים חדשים נוספו לפורמט Pie ו Doughnut תרשימים.
 
+#### שלוט בעיבוד של PDF גבולות שדה טופס בחירה <sup>24.11</sup>
+
+אפשרות חדשה לשליטה בעיבוד של PDF גבולות שדה טופס בחירה יושמה על ידי הוספת אפשרות ציבורית חדשה [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_renderchoiceformfieldborder/).
+
+#### קבל והגדר קודי פורמט לנתוני תרשים <sup>24.11</sup>
+
+היכולת לקבל ולהגדיר קודי פורמט לנתוני תרשים נוספה על ידי יישום המאפיין [FormatCode](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/get_formatcode/) בכיתות [ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/) ו - [BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/).
+
+#### עיבוד תרשימי היסטוגרמה עם פחים ותוויות <sup>24.11</sup>
+
+עיבוד תרשים היסטוגרמה שופר על ידי מתן אפשרות למספר מוגדר של פחים ותוויות.
+
+#### התאם אישית את המיקום של תוויות נתונים <sup>24.12</sup>
+
+היכולת להתאים אישית את מיקום תוויות הנתונים נוספה על ידי הצגת מאפיינים חדשים ל-[ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/) ו-[ChartDataLabelCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabelcollection/) שיעורים.
+
 ### המרה, טעינה ושמירה של מסמכים
 
 #### קו תחתון עיצוב בעת טעינת Markdown קבצים <sup>24.9</sup>
 
-האפשרות לזהות עיצוב קו תחתון בעת טעינת מסמכים Markdown שולבה על ידי הוספת נכס ציבורי חדש [ImportUnderlineFormatting]().
+האפשרות לזהות עיצוב קו תחתון בעת טעינת מסמכים Markdown שולבה על ידי הוספת נכס ציבורי חדש **ImportUnderlineFormatting**.
 
 #### ייצוא טבלאות כ HTML בעת שמירה ל Markdown <sup>24.10</sup>
 
-אפשרות לייצא טבלאות כ HTML בעת שמירת מסמכים בפורמט Markdown יושמה על ידי הוספת נכס ציבורי חדש [ExportAsHtml]() וספירה [MarkdownExportAsHtml]().
+אפשרות לייצא טבלאות כ HTML בעת שמירת מסמכים בפורמט Markdown יושמה על ידי הוספת נכס ציבורי חדש [ExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_exportashtml/) וספירה [MarkdownExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownexportashtml/).
+
+#### ייצוא PDF עם מבנה לוגי מעודכן <sup>24.11</sup>
+
+PDF הייצוא שופר על ידי הכללת מאפייני כותרת הטבלה כ PDF כותרות אלמנטים של מבנה לוגי.
+
+### מיזוג דואר ודיווח
+
+#### הסר טבלאות ריקות במהלך מיזוג דואר <sup>24.12</sup>
+
+אפשרות חדשה **RemoveEmptyTables** נוספה לספירת [MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/) כדי לחדד את פלט מיזוג הדואר.
 
 ### חתימות דיגיטליות
 
 #### חתום על מסמכים עם XAdES-EPES <sup>24.9</sup>
 
-היכולת לחתום על מסמכים עם חתימות XAdES-EPES רמה XML-DSig הוצגה על ידי הוספת נכס ציבורי חדש [XmlDsigLevel]() ומספר ציבורי חדש [XmlDsigLevel]().
+היכולת לחתום על מסמכים עם חתימות XAdES-EPES רמה XML-DSig הוצגה על ידי הוספת נכס ציבורי חדש **XmlDsigLevel** ומספר ציבורי חדש **XmlDsigLevel**.
 
 ### אחרים
 
-* שיטה ציבורית חדשה [InsertGroupShape]() נוספה ל group shapes. <sup>24.9</sup>
-* נוספה שיטה ציבורית חדשה [InsertStructuredDocumentTag]() כדי להוסיף **StructuredDocumentTags** למסמך. <sup>24.9</sup>
+* שיטה ציבורית חדשה [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/) נוספה ל group shapes. <sup>24.9</sup>
+* נוספה שיטה ציבורית חדשה [InsertStructuredDocumentTag](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertstructureddocumenttag/) כדי להוסיף **StructuredDocumentTags** למסמך. <sup>24.9</sup>
 * גישה ציבורית למפרידי הערות שוליים / הערות קצה ניתנה על ידי הוספת כמה כיתות ציבוריות ונכסים. <sup>24.9</sup>
-* היכולת לקבץ צורות בודדות, group shapes יחד, ולקבץ ישירות את שתי הצורות ו group shapes הוצגה על ידי הוספת שיטת [InsertGroupShape](). <sup>24.10</sup>
+* היכולת לקבץ צורות בודדות, group shapes יחד, ולקבץ ישירות את שתי הצורות ו group shapes הוצגה על ידי הוספת שיטת [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/). <sup>24.10</sup>
 * טיפול בקידוד ביג 5 עבור TrueType טבלאות המפה שופר. <sup>24.10</sup>
 * התמיכה בגופנים טייוואניים מיושנים שופרה. <sup>24.10</sup>
+* כדי לגשת למאפייני מסמך מורחבים, נוספו מאפיינים לקריאה בלבד לכיתה [BuiltInDocumentProperties](https://reference.aspose.com/words/cpp/aspose.words.properties/builtindocumentproperties/). <sup>24.11</sup>
+* הגדרת כיתובים עבור פקדי אקטיבקס הופעלה על ידי הוספת מגדיר ציבורי חדש למאפיין **Forms2OleControl.Caption**. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 למידע נוסף על [Aspose.Words עבור C++ 24.9 הערות שחרור](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-9-release-notes/).
 
 למידע נוסף על [Aspose.Words עבור C++ 24.10 הערות שחרור](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-10-release-notes/).
+
+למידע נוסף על [Aspose.Words עבור C++ 24.11 הערות שחרור](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-11-release-notes/).
+
+למידע נוסף על [Aspose.Words עבור C++ 24.12 הערות שחרור](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-12-release-notes/).
 
 {{% /alert %}}
 

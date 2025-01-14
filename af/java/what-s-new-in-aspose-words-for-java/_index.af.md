@@ -7,16 +7,34 @@ type: docs
 description: "Aspose.Words vir Java brei en verbeter daagliks. Op hierdie bladsy kan jy leer oor die groot en interessantste kenmerke van die produk."
 weight: 2
 url: /af/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2024-10-14-12-53-06
+timestamp: 2024-12-13-10-56-02
 ---
 
 Hierdie bladsy beskryf die interessantste nuwe Aspose.Words funksies wat in onlangse vrystellings bekendgestel is.
 
-## Aspose.Words vir Java 24.9, 24.10
+## Aspose.Words vir Java 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 stel group shape invoeging en StructuredDocumentTag invoeging via DocumentBuilder bekend, verbeter radiale kaartweergawe met grade, verbeter digitale handtekeninge met XAdES-EPES ondersteuning, voeg Markdown onderstreepherkenning by en bied toegang tot voetnoot/eindnoot skeiers.
 
 Aspose.Words 24.10 stel verbeterde ActiveX beheer ondersteuning met CommandButton skepping, nuwe vorm sigbaarheid beheer, die vermoë om group shapes, verbeterde Markdown uitvoer vir tabelle, grafiek formatering vir Pie en Doughnut kaarte, beter Big5 kodering hantering, en ondersteuning vir verouderde Taiwanese lettertipes.
+
+Aspose.Words 24.11 stel AI-aangedrewe dokumentopsomming, verbeterde weergawe opsies, verbeterde toegang tot dokument eienskappe en ActiveX beheer onderskrifte.
+
+Aspose.Words 24.12 stel aanpasbare data-etiketplasing, Google KI-aangedrewe teksvertaling, verbeterde Mail Merge-opruimopsies en nuwe LowCode-verwerkingsklasse bekend.
+
+### AI - aangedrewe Funksies
+
+#### Dokumentopsomming met behulp van OpenAI en Google <sup>24.11</sup>
+
+Ondersteuning vir dokumentopsomming met behulp van **OpenAI** en **Google** generatiewe taalmodelle is geïntegreer.
+
+#### Teksvertaling met behulp van Google se generatiewe taalmodelle <sup>24.12</sup>
+
+Die vermoë om teks te vertaal deur Google se generatiewe taalmodelle te gebruik, is in Aspose.Words geïmplementeer deur die [Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int)-metode by te voeg en die [Language](https://reference.aspose.com/words/java/com.aspose.words/language/) opsomming.
+
+### Lae kode <sup>24.12</sup>
+
+Nuwe LowCode-klasse soos [Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/), [MailMerger](https://reference.aspose.com/words/java/com.aspose.words/mailmerger/), [Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/), [Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) ens. is bekendgestel, wat 'n stel metodes bied wat die perfekte balans tussen eenvoud en buigsaamheid vir dokumentverwerking vind.
 
 ### Rendering En Drukwerk
 
@@ -36,6 +54,22 @@ Die vermoë om CommandButton ActiveX kontroles te skep is bekendgestel deur die 
 
 Verskeie nuwe openbare eiendomme is bygevoeg om Pie en Doughnut kaarte te formateer.
 
+#### Beheer Die Weergawe van PDF Keuse Vorm Veld Grense <sup>24.11</sup>
+
+'n nuwe opsie om die weergawe van PDF keuse vorm veld grense te beheer is geïmplementeer deur die toevoeging van'n nuwe openbare opsie [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getRenderChoiceFormFieldBorder).
+
+#### Kry En Stel Formaatkodes Vir Grafiekdata In <sup>24.11</sup>
+
+Die vermoë om formaat kodes vir grafiek data te kry en te stel is bygevoeg deur die implementering van die [FormatCode](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/#getFormatCode) eienskap in die [ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/), en [BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/) klasse.
+
+#### Gee Histogramkaarte met Bakkies en Etikette <sup>24.11</sup>
+
+Histogramkaartvertoning is verbeter deur'n spesifieke aantal bakkies en etikette toe te laat.
+
+#### Pas die plasing van data-etikette aan <sup>24.12</sup>
+
+Die vermoë om die plasing van data-etikette aan te pas is bygevoeg deur nuwe eienskappe aan die [ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) en [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/) bekend te stel klasse.
+
 ### Omskakeling, Laai En Stoor Van Dokumente
 
 #### Onderstreep Formatering wanneer Markdown Lêers Gelaai Word <sup>24.9</sup>
@@ -45,6 +79,16 @@ Die opsie om onderstreepte opmaak te herken wanneer Markdown dokumente gelaai wo
 #### Uitvoer tabelle as HTML wanneer stoor na Markdown <sup>24.10</sup>
 
 'n opsie om tabelle as HTML uit te voer wanneer dokumente in Markdown formaat gestoor word, is geïmplementeer deur'n nuwe openbare eiendom [ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml) en'n opsomming [MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/) by te voeg.
+
+#### Uitvoer PDF met Opgedateerde Logiese Struktuur <sup>24.11</sup>
+
+PDF uitvoer is verbeter deur die insluiting van tabel titel eienskappe as PDF logiese struktuur element titels.
+
+### Possamevoeging en verslagdoening
+
+#### Verwyder leë tabelle tydens possamevoeging <sup>24.12</sup>
+
+'n Nuwe **RemoveEmptyTables**-opsie is bygevoeg by die [MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/)-opsomming om Mail Merge-uitset te verfyn.
 
 ### Digitale Handtekeninge
 
@@ -60,12 +104,18 @@ Die vermoë om dokumente met XAdES-EPES vlak XML-DSig handtekeninge te onderteke
 * Die vermoë om individuele vorms, group shapes saam te groepeer en beide vorms en group shapes direk te groepeer, is ingestel deur die [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...) metode by te voeg. <sup>24.10</sup>
 * Big5 kodering hantering vir TrueType cmap tabelle is verbeter. <sup>24.10</sup>
 * Ondersteuning vir verouderde Taiwanese lettertipes is verbeter. <sup>24.10</sup>
+* Om toegang tot uitgebreide dokument eienskappe, lees-alleen eienskappe is bygevoeg om die [BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/) klas. <sup>24.11</sup>
+* Die opstel van onderskrifte vir ActiveX-beheer is geaktiveer deur'n nuwe openbare setter by die [Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption) eienskap te voeg. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 Leer meer oor [Aspose.Words vir Java 24.9 Vrystelling Notas](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
 
 Leer meer oor [Aspose.Words vir Java 24.10 Vrystelling Notas](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
+
+Leer meer oor [Aspose.Words vir Java 24.11 Vrystelling Notas](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-11-release-notes/).
+
+Leer meer oor [Aspose.Words vir Java 24.12 Vrystelling Notas](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-12-release-notes/).
 
 {{% /alert %}}
 

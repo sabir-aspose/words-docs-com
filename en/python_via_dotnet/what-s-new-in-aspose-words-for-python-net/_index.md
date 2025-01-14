@@ -20,7 +20,7 @@ Aspose.Words 24.10 introduces enhanced ActiveX control support with CommandButto
 
 Aspose.Words 24.11 introduces AI-powered document summarization, enhanced rendering options, improved access to document properties and ActiveX control captioning.
 
-Aspose.Words 24.12 introduces customizable data label placement, Google AI-powered text translation, enhanced Mail Merge cleanup options, and new LowCode processing classes.
+Aspose.Words 24.12 introduces customizable data label placement, Google AI-powered text translation, and enhanced new LowCode processing classes.
 
 ### AI-powered Features
 

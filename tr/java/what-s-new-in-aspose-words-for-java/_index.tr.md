@@ -7,16 +7,34 @@ type: docs
 description: "Aspose.Words Java'i genişletir ve geliştirir. Bu sayfada ürünün en büyük ve en ilginç özelliklerini öğrenebilirsiniz."
 weight: 2
 url: /tr/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2024-10-14-12-53-06
+timestamp: 2024-12-13-10-56-02
 ---
 
 Bu sayfada, son zamanlarda yapılan sürümlerde tanıtılan en ilginç yeni Aspose.Words özelliklerine ilişkin açıklamalar bulunmaktadır.
 
-## Java 24.9, 24.10 için Aspose.Words
+## Java 24.9, 24.10, 24.11, 24.12 için Aspose.Words
 
 Aspose.Words 24.9, DocumentBuilder aracılığıyla grup şekli ekleme ve StructuredDocumentTag eklemeyi sunar, derecelendirmelerle radyal grafik oluşturmayı geliştirir, XAdES-EPES desteğiyle dijital imzaları iyileştirir, Markdown alt çizgi tanıma ekler ve dipnot/sonnot ayırıcılarına erişim sağlar.
 
 Aspose.Words 24.10, CommandButton oluşturma, yeni şekil görünürlük denetimi, şekilleri gruplama yeteneği, tablolar için geliştirilmiş Markdown dışa aktarma, Pasta ve Halka grafikleri için grafik biçimlendirme, daha iyi Big5 kodlama işleme ve güncel olmayan Tayvan yazı tipleri için destek ile gelişmiş ActiveX denetim desteği sunar.
+
+Aspose.Words 24.11, AI destekli belge özetleme, gelişmiş oluşturma seçenekleri, belge özelliklerine geliştirilmiş erişim ve ActiveX denetimi altyazısını sunar.
+
+Aspose.Words 24.12, özelleştirilebilir veri etiketi yerleşimini, Google AI destekli metin çevirisini, gelişmiş Posta Birleştirme temizleme seçeneklerini ve yeni LowCode işleme sınıflarını sunar.
+
+### AI-güçlendirilmiş Özellikler
+
+#### OpenAI ve Google <sup>24.11</sup> Kullanarak Belge Özetleme
+
+**OpenAI** ve **Google** üretken dil modellerini kullanarak belge özetleme desteği entegre edilmiştir.
+
+#### Google'ın üretken dil modellerini kullanarak metin çevirisi <sup>24.12</sup>
+
+Google'ın üretken dil modellerini kullanarak metni çevirme yeteneği, [Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int) yöntemi ve [Language](https://reference.aspose.com/words/java/com.aspose.words/language/) numaralandırması eklenerek Aspose.Words'e uygulanmıştır.
+
+### Low Code <sup>24.12</sup>
+
+Yeni LowCode sınıfları gibi [Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/), [MailMerger](https://reference.aspose.com/words/java/com.aspose.words/mailmerger/), [Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/), [Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) vb. tanıtıldı ve belge işleme için basitlik ve esneklik arasında mükemmel dengeyi sağlayan bir dizi yöntem sunuldu.
 
 ### İşleme ve Yazdırma
 
@@ -36,6 +54,22 @@ CommandButton ActiveX denetimleri oluşturma yeteneği, yeni bir genel yöntem [
 
 Pasta ve Halka grafiklerini biçimlendirmek için birkaç yeni genel özellik eklendi.
 
+#### PDF Seçim Formu Alanı Kenarlıklarının Oluşturulmasını Denetleme <sup>24.11</sup>
+
+PDF seçim formu alanı kenarlıklarının oluşturulmasını denetlemek için yeni bir genel seçenek [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getRenderChoiceFormFieldBorder) eklenerek yeni bir seçenek uygulandı.
+
+#### Grafik Verileri için Biçim Kodlarını Alın ve Ayarlayın <sup>24.11</sup>
+
+Grafik verileri için biçim kodları alma ve ayarlama yeteneği, [ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/) ve [BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/) sınıflarında [FormatCode](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/#getFormatCode) özelliği uygulanarak eklenmiştir.
+
+#### Histogram Grafiklerini Kutular ve Etiketlerle Oluşturma <sup>24.11</sup>
+
+Histogram grafik oluşturma, belirli sayıda kutu ve etikete izin verilerek geliştirilmiştir.
+
+#### Veri Etiketlerinin Yerleşimini Özelleştirme <sup>24.12</sup>
+
+Veri etiketlerinin yerleşimini özelleştirme yeteneği, [ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) ve [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/) sınıflarına yeni özellikler eklenerek eklendi.
+
 ### Belgeleri Dönüştürme, Yükleme ve Kaydetme
 
 #### Markdown Dosyaları Yüklenirken Alt Çizgi Biçimlendirmesi <sup>24.9</sup>
@@ -45,6 +79,16 @@ Markdown belgeleri yüklenirken alt çizgi biçimlendirmesini tanıma seçeneği
 #### Markdown'a kaydederken tabloları HTML olarak dışa aktarma <sup>24.10</sup>
 
 Belgeleri Markdown biçimine kaydederken tabloları HTML olarak dışa aktarma seçeneği, yeni bir genel özellik [ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml) ve bir numaralandırma [MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/) eklenerek uygulandı.
+
+#### Güncellenmiş Mantıksal Yapı <sup>24.11 ile PDF dışa Aktar</sup>
+
+PDF dışa aktarma, tablo başlığı özelliklerini PDF mantıksal yapı öğesi başlıkları olarak ekleyerek geliştirilmiştir.
+
+### Posta Birleştirme ve Raporlama
+
+#### Posta Birleştirme Sırasında Boş Tabloları Kaldır <sup>24.12</sup>
+
+Posta Birleştirme çıktısını iyileştirmek için [MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/) sayımına yeni bir **RemoveEmptyTables** seçeneği eklendi.
 
 ### Dijital İmzalar
 
@@ -60,12 +104,18 @@ Belgeleri XAdES-EPES düzeyinde XML-DSig imzalarıyla imzalama yeteneği, yeni b
 * Tek tek şekilleri gruplama, şekilleri birlikte gruplama ve hem şekilleri hem de grup şekillerini doğrudan gruplama yeteneği [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...) yöntemi eklenerek tanıtıldı. <sup>24.10</sup>
 * TrueType cmap tabloları için Big5 kodlama işleme iyileştirildi. <sup>24.10</sup>
 * Güncel olmayan Tayvan yazı tipleri için destek geliştirildi. <sup>24.10</sup>
+* Genişletilmiş belge özelliklerine erişmek için [BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/) sınıfına salt okunur özellikler eklenmiştir. <sup>24.11</sup>
+* ActiveX denetimleri için resim yazıları ayarlamak, [Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption) özelliğine yeni bir genel ayarlayıcı eklenerek etkinleştirildi. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 Daha fazla bilgi için [Aspose.Words for Java 24.9 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/) hakkında öğrenin.
 
 Daha fazla bilgi için [Aspose.Words for Java 24.10 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/) hakkında öğrenin.
+
+Daha fazla bilgi için [Aspose.Words for Java 24.11 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-11-release-notes/) hakkında öğrenin.
+
+Daha fazla bilgi için [Aspose.Words for Java 24.12 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-12-release-notes/) hakkında öğrenin.
 
 {{% /alert %}}
 

@@ -7,16 +7,34 @@ type: docs
 description: "Aspose.WordsforJava每天扩展和增强。 在这个页面上，您可以了解该产品的巨大和最有趣的功能。"
 weight: 2
 url: /zh/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2024-10-14-12-53-06
+timestamp: 2024-12-13-10-56-02
 ---
 
 本页介绍了最近版本中引入的最有趣的Aspose.Words新特性。
 
-## Aspose.Words为Java 24.9, 24.10
+## Aspose.Words为Java 24.9、24.10、24.11、24.12
 
 Aspose.Words24.9通过DocumentBuilder引入group shape插入和StructuredDocumentTag插入，使用渐变增强径向图表呈现，使用XAdES-EPES支持改进数字签名，添加Markdown下划线识别，并提供对脚注/尾注分隔符的访问。
 
 Aspose.Words24.10引入了增强的ActiveX控件支持CommandButton创建，新的形状可见性控制，group shapes的能力，改进的表格Markdown导出，Pie和Doughnut图表的图表格式，更好的Big5编码处理，以及对过时的台湾字体的支持。
+
+Aspose.Words24.11引入了AI支持的文档摘要、增强的呈现选项、改进的文档属性访问和ActiveX控件字幕。
+
+Aspose.Words 24.12 引入了可自定义的数据标签放置、Google AI 支持的文本翻译、增强的邮件合并清理选项以及新的 LowCode 处理类。
+
+### AI 支持的功能
+
+#### 使用 OpenAI 和 Google 进行文档摘要 <sup>24.11</sup>
+
+已集成对使用 **OpenAI** 和 **Google** 生成语言模型进行文档摘要的支持。
+
+#### 使用 Google 的生成语言模型进行文本翻译 <sup>24.12</sup>
+
+通过添加 [Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int) 方法和 [Language](https://reference.aspose.com/words/java/com.aspose.words/language/) 枚举，在 Aspose.Words 中实现了使用 Google 生成语言模型翻译文本的功能。
+
+### Low Code <sup>24.12</sup>
+
+引入了新的 LowCode 类，如 [Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/)、[MailMerger](https://reference.aspose.com/words/java/com.aspose.words/mailmerger/)、[Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/)、[Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) 等，提供了一套在文档处理的简单性和灵活性之间取得完美平衡的方法。
 
 ### 渲染和打印
 
@@ -36,6 +54,22 @@ Aspose.Words24.10引入了增强的ActiveX控件支持CommandButton创建，新�
 
 为Pie和Doughnut图表的格式添加了几个新的公共属性。
 
+#### 控制PDF选择表单字段边框的呈现 <sup>24.11</sup>
+
+通过添加新的公共选项[RenderChoiceFormFieldBorder](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getRenderChoiceFormFieldBorder)，实现了控制PDF选择表单字段边框呈现的新选项。
+
+#### 获取和设置图表数据的格式代码 <sup>24.11</sup>
+
+通过在[ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/)、[ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/)和[BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/)类中实现[FormatCode](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/#getFormatCode)属性，添加了获取和设置图表数据格式代码的功能。
+
+#### 使用箱和标签渲染直方图图表 <sup>24.11</sup>
+
+通过允许指定数量的容器和标签，直方图图表的呈现得到了改进。
+
+#### 自定义数据标签的位置 <sup>24.12</sup>
+
+通过向 [ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) 和 [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/) 类引入新属性，添加了自定义数据标签位置的功能。
+
 ### 转换、加载和保存文档
 
 #### 加载Markdown文件时的下划线格式 <sup>24.9</sup>
@@ -45,6 +79,16 @@ Aspose.Words24.10引入了增强的ActiveX控件支持CommandButton创建，新�
 #### 保存到Markdown时，将表导出为HTML <sup>24.10</sup>
 
 通过添加新的公共属性[ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml)和枚举[MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/)，实现了在将文档保存为Markdown格式时将表导出为HTML的选项。
+
+#### 使用更新的逻辑结构导出PDF <sup>24.11</sup>
+
+通过将表标题属性包含为PDF逻辑结构元素标题，已增强了PDF导出。
+
+### 邮件合并和报告
+
+#### 在邮件合并期间删除空表 <sup>24.12</sup>
+
+[MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/) 枚举中添加了新的 **RemoveEmptyTables** 选项，以优化邮件合并输出。
 
 ### 数码签署
 
@@ -60,12 +104,18 @@ Aspose.Words24.10引入了增强的ActiveX控件支持CommandButton创建，新�
 * 通过添加[InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...)方法，引入了将单个形状（group shapes组合在一起，以及直接将形状和group shapes组合在一起的功能。 <sup>24.10</sup>
 * 改进了TrueTypecmap表的Big5编码处理。 <sup>24.10</sup>
 * 增强了对过时的台湾字体的支持。 <sup>24.10</sup>
+* 要访问扩展文档属性，已将只读属性添加到[BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/)类。 <sup>24.11</sup>
+* 通过向[Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption)属性添加新的公共setter，已启用ActiveX控件的设置标题。 <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 了解更多关于 [Aspose.Words为Java24.9发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
 
 了解更多关于 [Aspose.Words为Java24.10发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
+
+了解更多关于 [Aspose.Words为Java24.11发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-11-release-notes/).
+
+了解更多关于 [Aspose.Words为Java24.12发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-12-release-notes/).
 
 {{% /alert %}}
 

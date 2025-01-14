@@ -34,7 +34,7 @@ Aspose.Words 24.12 въвежда персонализирано поставя�
 
 ### Нисък код <sup>24.12</sup>
 
-Нови класове LowCode като [Comparer](https://reference.aspose.com/words/net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/net/ aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/net/aspose.words.lowcode/replacer/), Въведен е [Splitter](https://reference.aspose.com/words/net/aspose.words.lowcode/splitter/) и т.н., който предлага набор от методи, които постигат идеалния баланс между простота и гъвкавост за обработка на документи.
+Нови класове LowCode като [Comparer](https://reference.aspose.com/words/net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/net/aspose.words.lowcode/replacer/), Въведен е [Splitter](https://reference.aspose.com/words/net/aspose.words.lowcode/splitter/) и т.н., който предлага набор от методи, които постигат идеалния баланс между простота и гъвкавост за обработка на документи.
 
 ### Изобразяване и печат
 

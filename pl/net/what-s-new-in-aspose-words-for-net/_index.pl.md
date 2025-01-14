@@ -20,7 +20,7 @@ Aspose.Words 24.10 wprowadza ulepszoną obsługę kontrolek ActiveX z tworzeniem
 
 Aspose.Words 24.11 wprowadza AI-powered podsumowania dokumentu, ulepszone opcje renderowania, lepszy dostęp do Właściwości dokumentu i ActiveX napisów kontrolnych.
 
-Aspose.Words 24.8 wprowadza konfigurowalne umieszczanie etykiet danych, tłumaczenie tekstu oparte na sztucznej inteligencji Google, ulepszone opcje czyszczenia korespondencji seryjnej i nowe klasy przetwarzania LowCode.
+Aspose.Words 24.12 wprowadza konfigurowalne umieszczanie etykiet danych, tłumaczenie tekstu oparte na sztucznej inteligencji Google, ulepszone opcje czyszczenia korespondencji seryjnej i nowe klasy przetwarzania LowCode.
 
 ### AI - Funkcje zasilane
 
