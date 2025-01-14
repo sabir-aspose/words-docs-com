@@ -7,16 +7,34 @@ type: docs
 description: "Aspose.WordsはJavaのために毎日拡大し、強化します。 このページでは、製品の巨大で最も興味深い機能について学ぶことができます。"
 weight: 2
 url: /ja/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2024-10-14-12-53-06
+timestamp: 2024-12-13-10-56-02
 ---
 
 このページでは、最近のリリースで導入された最も興味深い新しいAspose.Words機能について説明します。
 
-## Aspose.WordsのためにJava 24.9, 24.10
+## Aspose.WordsのためにJava 24.9、24.10、24.11、24.12
 
 Aspose.Words24.9はDocumentBuilderを介してgroup shape挿入とStructuredDocumentTag挿入を導入し、目盛りによる放射状チャートレンダリングを強化し、XAdES-EPESサポートによるデジタル署名を改善し、Markdown下線認識を追加し、脚注/文末脚注セパレータへのアクセスを提供します。
 
 Aspose.Words24.10は、CommandButtonの作成、新しい形状の可視性コントロール、group shapesへの機能、テーブルの改善されたMarkdownエクスポート、PieとDoughnutチャートのチャートフォーマット、より良いBig5エンコーディング処理、古い台湾のフォントのサポートにより、ActiveXコントロールのサポートが強化されています。
+
+Aspose.Words24.11では、AIを使用したドキュメントの要約、強化されたレンダリングオプション、ドキュメントプロパティへのアクセスの改善、ActiveXコントロー
+
+Aspose.Words 24.12 では、カスタマイズ可能なデータ ラベルの配置、Google AI を活用したテキスト翻訳、強化された差し込み印刷のクリーンアップ オプション、新しい LowCode 処理クラスが導入されています。
+
+### AI を活用した機能
+
+#### OpenAI と Google を使用したドキュメント要約 <sup>24.11</sup>
+
+**OpenAI** および **Google** 生成言語モデルを使用したドキュメント要約のサポートが統合されました。
+
+#### Google の生成言語モデルを使用したテキスト翻訳 <sup>24.12</sup>
+
+Google の生成言語モデルを使用してテキストを翻訳する機能は、[Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int) メソッドと [Language](https://reference.aspose.com/words/java/com.aspose.words/language/) 列挙を追加することで Aspose.Words に実装されました。
+
+### ローコード <sup>24.12</sup>
+
+[Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/)、[MailMerger](https://reference.aspose.com/words/java/com.aspose.words/mailmerger/)、[Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/)、[Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) などの新しいローコード クラスが導入され、ドキュメント処理のシンプルさと柔軟性の完璧なバランスを実現する一連のメソッドが提供されます。
 
 ### レンダリングと印刷
 
@@ -36,6 +54,22 @@ Aspose.Words24.10は、CommandButtonの作成、新しい形状の可視性コ�
 
 書式PieおよびDoughnutチャートにいくつかの新しいパブリックプロパティが追加されました。
 
+#### PDF選択フォームフィールドの境界線のレンダリングを制御します <sup>24.11</sup>
+
+新しいパブリックオプション[RenderChoiceFormFieldBorder](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getRenderChoiceFormFieldBorder)を追加することにより、PDF選択フォームフィールド境界のレンダリングを制御する新しいオプションが実装されました。
+
+#### グラフデータの書式コードの取得と設定 <sup>24.11</sup>
+
+チャートデータの書式コードを取得および設定する機能は、[ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/)、[ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/)、および[BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/)クラスに[FormatCode](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/#getFormatCode)プロパティを実装することによって追加されました。
+
+#### ビンとラベルを使用したヒストグラムチャートのレンダリング <sup>24.11</sup>
+
+ヒストグラムチャートレンダリングは、指定された数のビンとラベルを使用できるようにすることで改善されました。
+
+#### データ ラベルの配置をカスタマイズする <sup>24.12</sup>
+
+[ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) クラスと [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/) クラスに新しいプロパティを導入することで、データ ラベルの配置をカスタマイズする機能が追加されました。
+
 ### 文書の変換、読み込み、保存
 
 #### Markdownファイルを読み込むときの書式設定に下線を引きます <sup>24.9</sup>
@@ -45,6 +79,16 @@ Aspose.Words24.10は、CommandButtonの作成、新しい形状の可視性コ�
 #### Markdownに保存するときにテーブルをHTMLとしてエクスポートする <sup>24.10</sup>
 
 文書をMarkdown形式で保存するときにテーブルをHTMLとしてエクスポートするオプションは、新しいパブリックプロパティ[ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml)と列挙[MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/)を追加することによ
+
+#### 更新された論理構造を使用してPDFをエクスポートする <sup>24.11</sup>
+
+PDFエクスポートは、テーブルタイトルプロパティをPDF論理構造要素のタイトルとして含めることで拡張されました。
+
+### 差し込み印刷とレポート
+
+#### 差し込み印刷中に空のテーブルを削除 <sup>24.12</sup>
+
+差し込み印刷の出力を改良するために、[MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/) 列挙に新しい **RemoveEmptyTables** オプションが追加されました。
 
 ### デジタル署名
 
@@ -60,12 +104,18 @@ Aspose.Words24.10は、CommandButtonの作成、新しい形状の可視性コ�
 * [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...)メソッドを追加することにより、個々の図形group shapesをグループ化し、図形とgroup shapesの両方を直接グループ化する機能が導入されました。 <sup>24.10</sup>
 * TrueTypecmapテーブルのbig5エンコード処理が改善されました。 <sup>24.10</sup>
 * 古い台湾語フォントのサポートが強化されました。 <sup>24.10</sup>
+* 拡張ドキュメントプロパティにアクセスするために、読み取り専用プロパティが[BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/)クラスに追加されました。 <sup>24.11</sup>
+* ActiveXコントロールのキャプションの設定は、[Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption)プロパティに新しいパブリックセッターを追加することで有効になりました。 <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 詳細については、こちらをご覧ください [アスポーズWordsForJava24.9リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
 
 詳細については、こちらをご覧ください [アスポーズWordsForJava24.10リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
+
+詳細については、こちらをご覧ください [アスポーズWordsForJava24.11リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-11-release-notes/).
+
+詳細については、こちらをご覧ください [アスポーズWordsForJava24.12リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-12-release-notes/).
 
 {{% /alert %}}
 

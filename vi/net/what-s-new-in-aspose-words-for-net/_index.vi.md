@@ -20,7 +20,7 @@ Aspose.Words 24.10 giới thiệu hỗ trợ điều khiển ActiveX nâng cao v
 
 Aspose.Words 24.11 giới thiệu AI-tóm tắt tài liệu được hỗ trợ, các tùy chọn kết xuất nâng cao, cải thiện quyền truy cập vào thuộc tính tài liệu và Phụ đề Điều khiển ActiveX.
 
-Aspose.Words 24.8 giới thiệu vị trí nhãn dữ liệu có thể tùy chỉnh, dịch văn bản hỗ trợ AI của Google, tùy chọn dọn dẹp Mail Merge nâng cao và các lớp xử lý LowCode mới.
+Aspose.Words 24.12 giới thiệu vị trí nhãn dữ liệu có thể tùy chỉnh, dịch văn bản hỗ trợ AI của Google, tùy chọn dọn dẹp Mail Merge nâng cao và các lớp xử lý LowCode mới.
 
 ### AI-các Tính năng được hỗ trợ
 

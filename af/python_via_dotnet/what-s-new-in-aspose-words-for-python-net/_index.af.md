@@ -20,7 +20,7 @@ Aspose.Words 24.10 stel verbeterde ActiveX beheer ondersteuning met CommandButto
 
 Aspose.Words 24.11 stel AI-aangedrewe dokumentopsomming, verbeterde weergawe opsies, verbeterde toegang tot dokument eienskappe en ActiveX beheer onderskrifte.
 
-Aspose.Words 24.12 stel aanpasbare data-etiketplasing, Google KI-aangedrewe teksvertaling, verbeterde Mail Merge-opruimopsies en nuwe LowCode-verwerkingsklasse bekend.
+Aspose.Words 24.12 stel aanpasbare data-etiketplasing, Google KI-aangedrewe teksvertaling en verbeterde nuwe LowCode-verwerkingsklasse bekend.
 
 ### AI - aangedrewe Funksies
 

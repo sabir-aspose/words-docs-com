@@ -7,14 +7,34 @@ type: docs
 description: "Aspose.Words для C++ с каждым днем расширяется и усовершенствуется. На этой странице вы можете узнать об основных и наиболее интересных возможностях продукта."
 weight: 2
 url: /ru/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2024-10-28-11-53-45
+timestamp: 2024-12-13-10-56-02
 ---
 
 На этой странице описаны наиболее интересные новые функции Aspose.Words, появившиеся в последних версиях.
 
-## Aspose.Words для C++ 24.9
+## Aspose.Words для C++ 24.9, 24.10, 24.11, 24.12
 
 В Aspose.Words 24.9 введено group shape вставок и StructuredDocumentTag вставок с помощью DocumentBuilder, улучшен рендеринг радиальных диаграмм с градуировкой, улучшены цифровые подписи с поддержкой XAdES-EPES, добавлено распознавание подчеркивания Markdown и предоставлен доступ к разделителям сносок и концевых примечаний.
+
+Aspose.Words 24.10 представляет улучшенную поддержку элементов управления ActiveX с созданием CommandButton, новый элемент управления видимостью фигур, возможность группировать фигуры, улучшенный экспорт Markdown для таблиц, форматирование диаграмм для круговых и кольцевых диаграмм, улучшенную обработку кодировки Big5 и поддержку устаревших тайваньских шрифтов.
+
+Aspose.Words 24.11 реализована функция обобщения документов на основе AI, расширены возможности визуализации, улучшен доступ к свойствам документа и субтитрам элементов управления ActiveX.
+
+Aspose.Words 24.12 представляет настраиваемое размещение меток данных, перевод текста на основе искусственного интеллекта Google, улучшенные параметры очистки почтовых сообщений и новые классы обработки LowCode.
+
+### Функции на базе AI
+
+#### Резюмирование документов с использованием OpenAI и Google <sup>24.11</sup>
+
+Поддержка обобщения документов с использованием моделей порождающего языка **OpenAI** и **Google** была интегрирована путем добавления пространства имен [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/) с его общедоступными членами.
+
+#### Перевод текста с использованием генеративных языковых моделей Google <sup>24.12</sup>
+
+Возможность перевода текста с использованием генеративных языковых моделей Google была реализована в Aspose.Words путем добавления метода [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/) и перечисления [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/) в пространство имен [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/).
+
+### Low Code <sup>24.12</sup>
+
+Введены новые классы LowCode, такие как [Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/cpp/aspose.words.lowcode/merger/), [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) и т. д., предлагающие набор методов, которые обеспечивают идеальный баланс между простотой и гибкостью для обработки документов.
 
 ### Рендеринг и печать
 
@@ -22,27 +42,80 @@ timestamp: 2024-10-28-11-53-45
 
 Реализован рендеринг градаций на радиальных диаграммах.
 
+#### Элементы управления ActiveX CommandButton <sup>24.10</sup>
+
+Возможность создания элементов управления ActiveX CommandButton была введена путем добавления нового открытого метода [InsertForms2OleControl](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertforms2olecontrol/) и нового открытого класса **Forms2OleControl**.
+
+#### Управление видимостью фигур <sup>24.10</sup>
+
+Добавлено новое публичное свойство [Hidden](https://reference.aspose.com/words/cpp/aspose.words.drawing/shapebase/get_hidden/) для управления видимостью фигур.
+
+#### Изменения в круговых и кольцевых диаграммах <sup>24.10</sup>
+
+Добавлено несколько новых публичных свойств для форматирования круговых и кольцевых диаграмм.
+
+#### Управлять отображением границ поля формы выбора PDF <sup>24.11</sup>
+
+Новая опция для управления отображением границ полей формы выбора PDF была реализована путем добавления новой общедоступной опции [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_renderchoiceformfieldborder/).
+
+#### Получение и установка кодов формата для данных диаграммы <sup>24.11</sup>
+
+Возможность получать и устанавливать коды формата для данных диаграммы была добавлена путем реализации свойства [FormatCode](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/get_formatcode/) в классах [ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/) и [BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/).
+
+#### Визуализация гистограммных графиков с ячейками и надписями <sup>24.11</sup>
+
+Улучшен рендеринг гистограммных диаграмм за счет использования заданного количества ячеек и меток.
+
+#### Настройка размещения меток данных <sup>24.12</sup>
+
+Возможность настройки размещения меток данных была добавлена ​​путем введения новых свойств в классы [ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/) и [ChartDataLabelCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabelcollection/).
+
 ### Преобразование, загрузка и сохранение документов
 
 #### Подчеркивание форматирования при загрузке файлов Markdown
 
-Возможность распознавать форматирование с подчеркиванием при загрузке документов Markdown была реализована путем добавления нового общедоступного свойства [ImportUnderlineFormatting]().
+Возможность распознавать форматирование с подчеркиванием при загрузке документов Markdown была реализована путем добавления нового общедоступного свойства **ImportUnderlineFormatting**.
+
+#### Экспорт таблиц в формате HTML при сохранении в Markdown <sup>24.10</sup>
+
+Возможность экспорта таблиц в формате HTML при сохранении документов в формате Markdown была реализована путем добавления нового публичного свойства [ExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_exportashtml/) и перечисления [MarkdownExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownexportashtml/).
+
+#### Экспорт PDF с обновленной логической структурой <sup>24.11</sup>
+
+PDF экспорт был улучшен за счет включения свойств заголовка таблицы в качестве заголовков элементов логической структуры PDF.
+
+### Слияние и отчетность
+
+#### Удаление пустых таблиц во время слияния <sup>24.12</sup>
+
+В перечисление [MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/) добавлен новый параметр **RemoveEmptyTables** для уточнения вывода слияния.
 
 ### Цифровые подписи
 
 #### Подписывайте документы с помощью XAdES-EPES
 
-Возможность подписывать документы с помощью XAdXML-подписей уровня ES-EPES-DSig была реализована путем добавления нового общедоступного свойства [XmlDsigLevel]() и нового общедоступного перечисления [XmlDsigLevel]().
+Возможность подписывать документы с помощью XAdXML-подписей уровня ES-EPES-DSig была реализована путем добавления нового общедоступного свойства **XmlDsigLevel** и нового общедоступного перечисления **XmlDsigLevel**.
 
 ### Другой
 
-* В group shapes был добавлен новый общедоступный метод [InsertGroupShape]().
-* Был добавлен новый общедоступный метод [InsertStructuredDocumentTag]() для вставки **StructuredDocumentTags** в документ.
+* В group shapes был добавлен новый общедоступный метод [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/).
+* Был добавлен новый общедоступный метод [InsertStructuredDocumentTag](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertstructureddocumenttag/) для вставки **StructuredDocumentTags** в документ.
 * Открытый доступ к разделителям сносок и концевых примечаний был обеспечен путем добавления нескольких общедоступных классов и свойств.
+фигуры и группы фигур была введена путем добавления метода [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/). <sup>24.10</sup>
+* Улучшена обработка кодировки Big5 для таблиц TrueType cmap. <sup>24.10</sup>
+* Улучшена поддержка устаревших тайваньских шрифтов. <sup>24.10</sup>
+* Для доступа к расширенным свойствам документа в класс [BuiltInDocumentProperties](https://reference.aspose.com/words/cpp/aspose.words.properties/builtindocumentproperties/) были добавлены свойства, доступные только для чтения. <sup>24.11</sup>
+* Настройка подписей для элементов управления ActiveX была включена путем добавления нового общедоступного параметра настройки к свойству **Forms2OleControl.Caption**. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 Узнайте больше о [Aspose.Words для C++ 24.9 Примечания к выпуску](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-9-release-notes/).
+
+Узнайте больше о [Aspose.Words для C++ 24.10 Примечания к выпуску](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-10-release-notes/).
+
+Узнайте больше о [Aspose.Words для C++ 24.11 Примечания к выпуску](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-11-release-notes/).
+
+Узнайте больше о [Aspose.Words для C++ 24.12 Примечания к выпуску](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-12-release-notes/).
 
 {{% /alert %}}
 

@@ -7,12 +7,12 @@ type: docs
 description: "Aspose.Words cho Python via .NET mở rộng và nâng cao hàng ngày. Trên trang này, bạn có thể tìm hiểu về những tính năng to lớn và thú vị nhất của sản phẩm."
 weight: 10
 url: /vi/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2024-11-18-12-56-02
+timestamp: 2024-12-13-10-56-02
 ---
 
 Trang này mô tả các tính năng Aspose.Words mới thú vị nhất được giới thiệu trong các bản phát hành gần đây.
 
-## Aspose.Words cho Python qua .NET 24.9, 24.10, 24.11
+## Aspose.Words cho Python qua .NET 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 giới thiệu chèn hình dạng nhóm và chèn StructuredDocumentTag qua DocumentBuilder, cải thiện khả năng hiển thị biểu đồ hình tròn với các vạch chia độ, cải thiện chữ ký số với hỗ trợ XAdES-EPES, thêm nhận dạng gạch chân Markdown và cung cấp quyền truy cập vào các dấu phân cách chú thích cuối trang/chú thích cuối trang.
 
@@ -20,9 +20,21 @@ Aspose.Words 24.10 giới thiệu hỗ trợ điều khiển ActiveX nâng cao v
 
 Aspose.Words 24.11 giới thiệu AI-tóm tắt tài liệu được hỗ trợ, các tùy chọn kết xuất nâng cao, cải thiện quyền truy cập vào thuộc tính tài liệu và Phụ đề Điều khiển ActiveX.
 
-### AI-các Tính năng được hỗ trợ <sup>24.11</sup>
+Aspose.Words 24.12 giới thiệu vị trí nhãn dữ liệu tùy chỉnh, dịch văn bản hỗ trợ AI của Google và các lớp xử lý LowCode mới được cải tiến.
+
+### AI-các Tính năng được hỗ trợ
+
+#### Tóm tắt tài liệu bằng OpenAI và Google <sup>24.11</sup>
 
 Hỗ trợ tóm tắt tài liệu bằng cách sử dụng các mô hình ngôn ngữ tạo **OpenAI** và **Google** đã được tích hợp bằng cách thêm không gian tên [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) với các thành viên công cộng của nó.
+
+#### Dịch văn bản bằng mô hình ngôn ngữ tạo sinh của Google <sup>24.12</sup>
+
+Khả năng dịch văn bản bằng mô hình ngôn ngữ tạo sinh của Google đã được triển khai trong Aspose.Words bằng cách thêm phương thức [translate](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/translate/) và phép liệt kê [Language](https://reference.aspose.com/words/python-net/aspose.words.ai/language/) vào không gian tên [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/)
+
+### Low Code <sup>24.12</sup>
+
+Các lớp LowCode mới như [Comparer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/python-net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/splitter/) v.v. đã được giới thiệu, cung cấp một bộ phương pháp cân bằng hoàn hảo giữa tính đơn giản và tính linh hoạt để xử lý tài liệu.
 
 ### Hiển thị và in
 
@@ -53,6 +65,10 @@ Khả năng lấy và đặt mã định dạng cho dữ liệu biểu đồ đ�
 #### Hiển thị Biểu đồ Biểu đồ với Thùng và Nhãn <sup>24.11</sup>
 
 Hiển thị biểu đồ biểu đồ đã được cải thiện bằng cách cho phép một số lượng thùng và nhãn được chỉ định.
+
+#### Tùy chỉnh Vị trí Nhãn Dữ liệu <sup>24.12</sup>
+
+Khả năng tùy chỉnh vị trí nhãn dữ liệu đã được thêm vào bằng cách giới thiệu các thuộc tính mới cho các lớp [ChartDataLabel](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabel/) và [ChartDataLabelCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/).
 
 ### Chuyển đổi, tải và lưu tài liệu
 
@@ -92,6 +108,8 @@ Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 24
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 24.10](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/).
 
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 24.11](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-11-release-notes/).
+
+Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 24.12](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-12-release-notes/).
 
 {{% /alert %}}
 

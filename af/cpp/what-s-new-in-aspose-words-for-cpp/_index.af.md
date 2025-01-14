@@ -12,7 +12,7 @@ timestamp: 2024-12-13-10-56-02
 
 Hierdie bladsy beskryf die interessantste nuwe Aspose.Words funksies wat in onlangse vrystellings bekendgestel is.
 
-## Aspose.Words vir C++ 24.9, 24.10, 24.11
+## Aspose.Words vir C++ 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 stel group shape invoeging en StructuredDocumentTag invoeging via DocumentBuilder, verbeter radiale grafiek weergawe met grade, verbeter digitale handtekeninge met XAdES-EPES ondersteuning, voeg Markdown onderstreep erkenning, en bied toegang tot voetnoot/endnoot skeiers.
 
@@ -20,11 +20,21 @@ Aspose.Words 24.10 stel verbeterde ActiveX beheer ondersteuning met CommandButto
 
 Aspose.Words 24.11 stel AI-aangedrewe dokumentopsomming, verbeterde weergawe opsies, verbeterde toegang tot dokument eienskappe en ActiveX beheer onderskrifte.
 
+Aspose.Words 24.12 stel aanpasbare data-etiketplasing, Google KI-aangedrewe teksvertaling, verbeterde Mail Merge-opruimopsies en nuwe LowCode-verwerkingsklasse bekend.
+
 ### AI - aangedrewe Funksies
 
 #### Dokumentopsomming met behulp van OpenAI en Google <sup>24.11</sup>
 
 Ondersteuning vir dokumentopsomming met behulp van **OpenAI** en **Google** generatiewe taalmodelle is geïntegreer.
+
+#### Teksvertaling met behulp van Google se generatiewe taalmodelle <sup>24.12</sup>
+
+Die vermoë om teks te vertaal deur Google se generatiewe taalmodelle te gebruik, is in Aspose.Words geïmplementeer deur die [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/)-metode by te voeg en die [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/) opsomming na die [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/) naamruimte.
+
+### Lae kode <sup>24.12</sup>
+
+Nuwe LowCode-klasse soos [Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/cpp/aspose.words.lowcode/merger/), [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) ens. is bekendgestel, wat 'n stel metodes bied wat die perfekte balans tussen eenvoud en buigsaamheid vir dokumentverwerking vind.
 
 ### Rendering En Drukwerk
 
@@ -46,15 +56,19 @@ Verskeie nuwe openbare eiendomme is bygevoeg om Pie en Doughnut kaarte te format
 
 #### Beheer Die Weergawe van PDF Keuse Vorm Veld Grense <sup>24.11</sup>
 
-'n nuwe opsie om die weergawe van PDF keuse vorm veld grense te beheer is geïmplementeer deur die toevoeging van'n nuwe openbare opsie **RenderChoiceFormFieldBorder**.
+'n nuwe opsie om die weergawe van PDF keuse vorm veld grense te beheer is geïmplementeer deur die toevoeging van'n nuwe openbare opsie [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_renderchoiceformfieldborder/).
 
 #### Kry En Stel Formaatkodes Vir Grafiekdata In <sup>24.11</sup>
 
-Die vermoë om formaat kodes vir grafiek data te kry en te stel is bygevoeg deur die implementering van die **FormatCode** eienskap in die [ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/), en [BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/) klasse.
+Die vermoë om formaat kodes vir grafiek data te kry en te stel is bygevoeg deur die implementering van die [FormatCode](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/get_formatcode/) eienskap in die [ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/), en [BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/) klasse.
 
 #### Gee Histogramkaarte met Bakkies en Etikette <sup>24.11</sup>
 
 Histogramkaartvertoning is verbeter deur'n spesifieke aantal bakkies en etikette toe te laat.
+
+#### Pas die plasing van data-etikette aan <sup>24.12</sup>
+
+Die vermoë om die plasing van data-etikette aan te pas is bygevoeg deur nuwe eienskappe aan die [ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/) en [ChartDataLabelCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabelcollection/) bekend te stel klasse.
 
 ### Omskakeling, Laai En Stoor Van Dokumente
 
@@ -70,21 +84,27 @@ Die opsie om onderstreepte opmaak te herken wanneer Markdown dokumente gelaai wo
 
 PDF uitvoer is verbeter deur die insluiting van tabel titel eienskappe as PDF logiese struktuur element titels.
 
+### Possamevoeging en verslagdoening
+
+#### Verwyder leë tabelle tydens possamevoeging <sup>24.12</sup>
+
+'n Nuwe **RemoveEmptyTables**-opsie is bygevoeg by die [MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/)-opsomming om Mail Merge-uitset te verfyn.
+
 ### Digitale Handtekeninge
 
 #### Teken Dokumente met XAdES-EPES <sup>24.9</sup>
 
-Die vermoë om dokumente te onderteken met XAdES-EPES vlak XML-DSig handtekeninge is introduce deur die toevoeging van'n nuwe openbare eiendom [XmlDsigLevel]() en'n nuwe openbare opsomming [XmlDsigLevel]().
+Die vermoë om dokumente te onderteken met XAdES-EPES vlak XML-DSig handtekeninge is introduce deur die toevoeging van'n nuwe openbare eiendom **XmlDsigLevel** en'n nuwe openbare opsomming **XmlDsigLevel**.
 
 ### Ander
 
-* 'n nuwe openbare metode [InsertGroupShape]() is by group shapes gevoeg. <sup>24.9</sup>
-* 'n nuwe openbare metode [InsertStructuredDocumentTag]() is bygevoeg om **StructuredDocumentTags** in'n dokument in te voeg. <sup>24.9</sup>
+* 'n nuwe openbare metode [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/) is by group shapes gevoeg. <sup>24.9</sup>
+* 'n nuwe openbare metode [InsertStructuredDocumentTag](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertstructureddocumenttag/) is bygevoeg om **StructuredDocumentTags** in'n dokument in te voeg. <sup>24.9</sup>
 * Openbare toegang tot voetnoot/eindnoot skeiers is verskaf deur die toevoeging van'n paar openbare klasse en eiendomme. <sup>24.9</sup>
 * Die vermoë om individuele vorms, group shapes saam te groepeer en beide vorms en group shapes direk te groepeer, is ingestel deur die [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/) metode by te voeg. <sup>24.10</sup>
 * Big5 kodering hantering vir TrueType cmap tabelle is verbeter. <sup>24.10</sup>
 * Ondersteuning vir verouderde Taiwanese lettertipes is verbeter. <sup>24.10</sup>
-* Om toegang tot uitgebreide dokument eienskappe, lees-alleen eienskappe is bygevoeg om die **BuiltInDocumentProperties** klas. <sup>24.11</sup>
+* Om toegang tot uitgebreide dokument eienskappe, lees-alleen eienskappe is bygevoeg om die [BuiltInDocumentProperties](https://reference.aspose.com/words/cpp/aspose.words.properties/builtindocumentproperties/) klas. <sup>24.11</sup>
 * Die opstel van onderskrifte vir ActiveX-beheer is geaktiveer deur'n nuwe openbare setter by die **Forms2OleControl.Caption** eienskap te voeg. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
@@ -94,6 +114,8 @@ Leer meer oor [Aspose.Words vir C++ 24.9 Vrystelling Notas](https://releases.asp
 Leer meer oor [Aspose.Words vir C++ 24.10 Vrystelling Notas](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-10-release-notes/).
 
 Leer meer oor [Aspose.Words vir C++ 24.11 Vrystelling Notas](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-11-release-notes/).
+
+Leer meer oor [Aspose.Words vir C++ 24.12 Vrystelling Notas](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-12-release-notes/).
 
 {{% /alert %}}
 

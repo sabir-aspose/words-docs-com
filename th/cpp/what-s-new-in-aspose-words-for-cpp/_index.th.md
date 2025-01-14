@@ -7,14 +7,34 @@ type: docs
 description: "Aspose.WordsสำหรับC++ ขยายและปรับปรุงทุกวัน ในหน้านี้คุณสามารถเรียนรู้เกี่ยวกับคุณสมบัติขนาดใหญ่และน่าสนใจที่สุดของผลิตภัณฑ์."
 weight: 2
 url: /th/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2024-10-28-11-53-45
+timestamp: 2024-12-13-10-56-02
 ---
 
 หน้านี้อธิบายถึงคุณลักษณะใหม่ที่น่าสนใจที่สุดAspose.Wordsที่นำมาใช้ในรุ่นล่าสุด.
 
-## Aspose.WordsสำหรับC++ 24.9
+## Aspose.WordsสำหรับC++ 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words24.9แนะนำการแทรกgroup shapeและการแทรกStructuredDocumentTagผ่านทางDocumentBuilderช่วยเพิ่มการแสดงผลแผนภูมิรัศมีด้วยการสำเร็จการศึกษาช่วยเพิ่มลายเซ็นดิจิตอลด้วยXAdES-EPES สนับสนุนเพิ่มการรับรู้Markdownขีดเส้นใต้และให้การเข้าถึงเชิงอรรถ/ตัวคั่นหมายเหตุ.
+
+Aspose.Words24.10นำเสนอการสนับสนุนการควบคุมที่เพิ่มขึ้นด้วยการสร้างCommandButtonการควบคุมการมองเห็นรูปร่างใหม่ความสามารถในการgroup shapesปรับปรุงMarkdownการส่งออกสำหรับตาราง,การจัดรูปแบบแผนภูมิสำหรับPieและDoughnutการจัดการการเข้ารหัสขนาดใหญ่ที่ดีขึ้นและการสนับสนุนสำหรับแบบอักษรที่ล้าสมัยของไต้หวัน.
+
+Aspose.Words24.11แนะนำการสรุปเอกสารที่ขับเคลื่อนAIตัวเลือกการแสดงผลที่เพิ่มขึ้นการเข้าถึงคุณสมบัติของเอกสารที่ดีขึ้นและคำอธิบายการควบคุมแอคทีฟ.
+
+Aspose.Words 24.12 นำเสนอการจัดวางป้ายข้อมูลที่ปรับแต่งได้ การแปลข้อความที่ขับเคลื่อนด้วย AI ของ Google ตัวเลือกการล้างข้อมูลจดหมายเวียนที่ได้รับการปรับปรุง และคลาสการประมวลผล LowCode ใหม่
+
+### AI-คุณสมบัติขับเคลื่อน
+
+#### การสรุปเอกสารโดยใช้ OpenAI และ Google <sup>24.11</sup>
+
+มีการบูรณาการการสนับสนุนสำหรับการสรุปเอกสารโดยใช้โมเดลภาษากำเนิด **OpenAI** และ **Google** โดยการเพิ่มเนมสเปซ [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/) เข้ากับเมมเบอร์สาธารณะ.
+
+#### การแปลข้อความโดยใช้โมเดลภาษากำเนิดของ Google <sup>24.12</sup>
+
+ความสามารถในการแปลข้อความโดยใช้โมเดลภาษากำเนิดของ Google ได้รับการนำไปใช้ใน Aspose.Words โดยการเพิ่มเมธอด [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/) และการแจงนับ [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/) ลงในเนมสเปซ [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/)
+
+### Low Code <sup>24.12</sup>
+
+มีการแนะนำคลาส LowCode ใหม่ เช่น [Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/cpp/aspose.words.lowcode/merger/), [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) เป็นต้น ซึ่งนำเสนอชุดวิธีการที่สมดุลระหว่างความเรียบง่ายและความยืดหยุ่นสำหรับการประมวลผลเอกสารได้อย่างลงตัว
 
 ### การแสดงผลและการพิมพ์
 
@@ -22,27 +42,80 @@ Aspose.Words24.9แนะนำการแทรกgroup shapeและกา�
 
 การแสดงผลของการสำเร็จการศึกษาในแผนภูมิรัศมีได้รับการดำเนินการ.
 
+#### CommandButtonการควบคุมแอคทีฟ <sup>24.10</sup>
+
+มีการแนะนำความสามารถในการสร้างCommandButtonตัวควบคุมแอคทีฟเอ็กซ์โดยการเพิ่มวิธีสาธารณะใหม่[InsertForms2OleControl](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertforms2olecontrol/)และคลาสสาธารณะใหม่**Forms2OleControl**.
+
+#### ควบคุมการมองเห็นรูปร่าง <sup>24.10</sup>
+
+มีการเพิ่มคุณสมบัติสาธารณะใหม่[Hidden](https://reference.aspose.com/words/cpp/aspose.words.drawing/shapebase/get_hidden/)เพื่อควบคุมการมองเห็นของรูปร่าง.
+
+#### การเปลี่ยนแปลงในPieและDoughnutแผนภูมิ <sup>24.10</sup>
+
+คุณสมบัติสาธารณะใหม่หลายแห่งถูกเพิ่มลงในรูปแบบPieและDoughnutแผนภูมิ.
+
+#### ควบคุมการแสดงผลของPDFเส้นขอบเขตฟิลด์ฟอร์มทางเลือก <sup>24.11</sup>
+
+อ็อพชันใหม่ในการควบคุมการแสดงผลของPDFเส้นขอบเขตของฟิลด์ฟอร์มทางเลือกถูกนำมาใช้โดยการเพิ่มอ็อพชันพับลิกใหม่[RenderChoiceFormFieldBorder](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_renderchoiceformfieldborder/).
+
+#### รับและตั้งค่ารหัสรูปแบบสำหรับข้อมูลแผนภูมิ <sup>24.11</sup>
+
+มีการเพิ่มความสามารถในการรับและตั้งค่ารหัสรูปแบบสำหรับข้อมูลแผนภูมิโดยการใช้[FormatCode](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/get_formatcode/)คุณสมบัติในชั้นเรียน[ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/),[ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/)และ[BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/).
+
+#### แสดงกราฟฮิสโตแกรมที่มีถังขยะและป้ายกำกับ <sup>24.11</sup>
+
+การแสดงผลแผนภูมิฮิสโตแกรมได้รับการปรับปรุงโดยการอนุญาตให้จำนวนที่ระบุของถัง.
+
+#### ปรับแต่งตำแหน่งของป้ายข้อมูล <sup>24.12</sup>
+
+ความสามารถในการปรับแต่งตำแหน่งของป้ายข้อมูลได้รับการเพิ่มเข้ามาโดยการแนะนำคุณสมบัติใหม่ให้กับคลาส [ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/) และ [ChartDataLabelCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabelcollection/)
+
 ### การแปลงโหลดและบันทึกเอกสาร
 
 #### ขีดเส้นใต้การจัดรูปแบบเมื่อโหลดไฟล์Markdown
 
-ตัวเลือกในการจดจำการจัดรูปแบบขีดเส้นใต้เมื่อโหลดเอกสารMarkdownได้ถูกรวมไว้โดยการเพิ่มคุณสมบัติสาธารณะใหม่[ImportUnderlineFormatting]().
+ตัวเลือกในการจดจำการจัดรูปแบบขีดเส้นใต้เมื่อโหลดเอกสารMarkdownได้ถูกรวมไว้โดยการเพิ่มคุณสมบัติสาธารณะใหม่**ImportUnderlineFormatting**.
+
+#### ส่งออกตารางเป็นHTMLเมื่อบันทึกเป็นMarkdown <sup>24.10</sup>
+
+ตัวเลือกในการส่งออกตารางเป็นHTMLเมื่อมีการบันทึกเอกสารไปยังรูปแบบMarkdownโดยการเพิ่มคุณสมบัติสาธารณะใหม่[ExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_exportashtml/)และการแจงนับ[MarkdownExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownexportashtml/).
+
+#### ส่งออกPDFด้วยโครงสร้างตรรกะที่ปรับปรุงแล้ว <sup>24.11</sup>
+
+PDFเอ็กซ์ปอร์ตได้รับการปรับปรุงโดยรวมคุณสมบัติชื่อตารางเป็นชื่อองค์ประกอบโครงสร้างตรรกะPDF.
+
+### การผสานจดหมายและการรายงาน
+
+#### ลบตารางว่างระหว่างการผสานจดหมาย <sup>24.12</sup>
+
+มีการเพิ่มตัวเลือก **RemoveEmptyTables** ใหม่ให้กับการแจงนับ [MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/) เพื่อปรับแต่งผลลัพธ์ของการผสานจดหมาย
 
 ### ลายเซ็นดิจิตอล
 
 #### ลงนามในเอกสารด้วยXAdES-EPES
 
-ความสามารถในการลงนามในเอกสารด้วยXAdES-EPES ระดับXML-DSigลายเซ็นได้รับการแนะนำโดยการเพิ่มสถานที่ให้บริการสาธารณะใหม่[XmlDsigLevel]()และการแจงนับสาธารณะใหม่[XmlDsigLevel]().
+ความสามารถในการลงนามในเอกสารด้วยXAdES-EPES ระดับXML-DSigลายเซ็นได้รับการแนะนำโดยการเพิ่มสถานที่ให้บริการสาธารณะใหม่**XmlDsigLevel**และการแจงนับสาธารณะใหม่**XmlDsigLevel**.
 
 ### อื่นๆ
 
-* วิธีการสาธารณะใหม่[InsertGroupShape]()ถูกเพิ่มเข้าไปgroup shapes.
-* มีการเพิ่มวิธีการสาธารณะใหม่[InsertStructuredDocumentTag]()เพื่อแทรก**StructuredDocumentTags**ลงในเอกสาร.
+* วิธีการสาธารณะใหม่[InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/)ถูกเพิ่มเข้าไปgroup shapes.
+* มีการเพิ่มวิธีการสาธารณะใหม่[InsertStructuredDocumentTag](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertstructureddocumenttag/)เพื่อแทรก**StructuredDocumentTags**ลงในเอกสาร.
 * การเข้าถึงสาธารณะเพื่อแยกเชิงอรรถ/สิ้นสุดหมายเหตุได้รับการให้บริการโดยการเพิ่มชั้.
+* ความสามารถในการจัดกลุ่มรูปร่างของแต่ละบุคคลgroup shapesเข้าด้วยกันและจัดกลุ่มโดยตรงทั้งรูปร่างและgroup shapesได้รับการแนะนำโดยการเพิ่มวิธีการ[InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/) <sup>24.10</sup>
+* การจัดการการเข้ารหัสขนาดใหญ่ 5 สำหรับTrueTypeตารางซีแมปได้รับการปรับปรุง <sup>24.10</sup>
+* การสนับสนุนสำหรับแบบอักษรไต้หวันล้าสมัยได้รับการปรับปรุง <sup>24.10</sup>
+* เพื่อเข้าถึงคุณสมบัติเอกสารขยาย คุณสมบัติแบบอ่านอย่างเดียวได้รับการเพิ่มลงในคลาส [BuiltInDocumentProperties](https://reference.aspose.com/words/cpp/aspose.words.properties/builtindocumentproperties/) แล้ว <sup>24.11</sup>
+* มีการเปิดใช้งานการตั้งค่าคำบรรยายสำหรับการควบคุมกิจกรรมโดยการเพิ่มตัวตั้งค่าสาธารณะใหม่ในพร็อพเพอร์ตี้**Forms2OleControl.Caption** <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับC++ 24.9บันทึกย่อ](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-9-release-notes/).
+
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับC++ 24.10บันทึกย่อ](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-10-release-notes/).
+
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับC++ 24.11บันทึกย่อ](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-11-release-notes/).
+
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับC++ 24.12บันทึกย่อ](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-12-release-notes/).
 
 {{% /alert %}}
 

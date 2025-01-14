@@ -20,7 +20,7 @@ Aspose.Words 24.10 introduceert verbeterde ActiveX-besturingselementondersteunin
 
 Aspose.Words 24.11 introduceert AI-aangedreven document samenvatting, verbeterde rendering opties, verbeterde toegang tot document eigenschappen en ActiveX control Ondertiteling.
 
-Aspose.Words 24.8 introduceert aanpasbare plaatsing van gegevenslabels, door Google AI aangestuurde tekstvertaling, verbeterde opties voor het opschonen van Mail Merge en nieuwe LowCode-verwerkingsklassen.
+Aspose.Words 24.12 introduceert aanpasbare plaatsing van gegevenslabels, door Google AI aangestuurde tekstvertaling, verbeterde opties voor het opschonen van Mail Merge en nieuwe LowCode-verwerkingsklassen.
 
 ### AI-aangedreven functies
 
