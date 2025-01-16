@@ -7,10 +7,37 @@ type: docs
 description: "Python via .NET 用 Aspose.Words は日々拡張および機能強化されています。このページでは、製品の巨大で最も興味深い機能について学ぶことができます。"
 weight: 10
 url: /ja/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2024-12-13-10-56-02
+timestamp: 2025-01-15-11-43-05
 ---
 
 このページでは、最近のリリースで導入された最も興味深い新しい Aspose.Words 機能について説明します。
+
+## .NET 25.1 経由の Python 用 Aspose.Words
+
+Aspose.Words 25.1 では、AI を活用した文法チェックが導入され、HTML、SVG、Markdown 形式の高度なオプションによりドキュメントの保存機能が強化されています。
+
+### AIを活用した機能
+
+#### Document AI 文法チェック <sup>25.1</sup>
+
+OpenAI生成モデルを使用して提供されたドキュメントの文法をチェックする機能が、新しい[check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar)を追加することによって導入されました。 方法。
+
+### ドキュメントの変換、読み込み、保存
+
+#### HTML および SVG 形式への保存の改善 <sup>25.1</sup>
+
+HTML および SVG 形式への保存は、 と の両方に **id_prefix** プロパティと **remove_java_script_from_links** プロパティを追加することで強化されました。 [HtmlFixedSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlfixedsaveoptions/) および [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/) クラス。
+
+#### Markdown に保存するときに画像の解像度と OfficeMath 出力モードを設定する <sup>25.1</sup>
+
+* [image_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/image_resolution/) オプションが [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) 画像の解像度を設定するには、クラスを使用します。
+* 新しい [office_math_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/office_math_export_mode/) オプションと [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownofficemathexportmode/) 列挙が [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) に追加されました。 クラスを使用して、OfficeMath 出力モードを設定します。
+
+{{% alert color="primary" %}}
+
+[Aspose.Words for Python via .NET 25.1 リリースノート](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/) について詳しくは、こちらをご覧ください。
+
+{{% /alert %}}
 
 ## .NET 24.9、24.10、24.11、24.12 経由の Aspose.Words for Python
 

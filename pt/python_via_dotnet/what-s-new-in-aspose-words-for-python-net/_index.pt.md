@@ -7,10 +7,37 @@ type: docs
 description: "Aspose.Words para Python via .NET se expande e aprimora diariamente. Nesta página você poderá conhecer os grandes e mais interessantes recursos do produto."
 weight: 10
 url: /pt/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2024-12-13-10-56-02
+timestamp: 2025-01-15-11-43-05
 ---
 
 Esta página descreve os novos recursos Aspose.Words mais interessantes introduzidos em versões recentes.
+
+## Aspose.Words para Python via .NET 25.1
+
+O Aspose.Words 25.1 apresenta a verificação gramatical com tecnologia de IA e melhora a gravação de documentos com opções avançadas para os formatos HTML, SVG e Markdown.
+
+### Recursos com tecnologia de IA
+
+#### Verificação gramatical de IA de documentos <sup>25.1</sup>
+
+A capacidade de verificar a gramática do documento fornecido utilizando modelos generativos OpenAI foi introduzida adicionando um novo método [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/).
+
+### Converter, carregar e guardar documentos
+
+#### Melhoria na escrita nos formatos HTML e SVG <sup>25.1</sup>
+
+O guardar nos formatos HTML e SVG foi melhorado através da adição das propriedades **id_prefix** e **remove_java_script_from_links** às [HtmlFixedSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlfixedsaveoptions/) e [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/) classes.
+
+#### Definir a resolução de imagem e o modo de saída do OfficeMath ao guardar em Markdown <sup>25.1</sup>
+
+* Uma nova opção [image_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/image_resolution/) foi adicionada à classe [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) para definir a resolução da imagem.
+* Uma nova opção [office_math_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/office_math_export_mode/) e [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownofficemathexportmode/) A enumeração foi adicionada à classe [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) para definir o modo de saída do OfficeMath.
+
+{{% alert color="primary" %}}
+
+Saiba mais sobre [Notas de versão do Aspose.Words para Python via .NET 25.1](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+
+{{% /alert %}}
 
 ## Apostar.Words for Python via .NET 24.9, 24.10, 24.11, 24.12
 
