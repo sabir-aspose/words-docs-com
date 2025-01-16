@@ -7,10 +7,37 @@ type: docs
 description: ".NET용 Aspose.Words는 매일 확장되고 향상됩니다. 이 페이지에서는 제품의 가장 크고 흥미로운 기능에 대해 알아볼 수 있습니다."
 weight: 10
 url: /ko/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2024-12-11-13-48-02
+timestamp: 2025-01-15-11-43-05
 ---
 
 이 페이지에서는 최근 릴리스에 도입된 가장 흥미로운 새 Aspose.Words 기능을 설명합니다.
+
+## Aspose.Words for .NET 25.1
+
+Aspose.Words 25.1은 AI 기반 문법 검사를 도입하고 HTML, SVG 및 마크다운 형식에 대한 고급 옵션으로 문서 저장을 개선합니다.
+
+### AI 기반 기능
+
+#### 문서 AI 문법 검사 <sup>25.1</sup>
+
+OpenAI 생성 모델을 사용하여 제공된 문서의 문법을 검사하는 기능은 새로운 [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/) 메서드를 추가하여 도입되었습니다.
+
+### 문서 변환, 로드 및 저장
+
+#### HTML 및 SVG 형식으로 저장 기능 개선 <sup>25.1</sup>
+
+HTML 및 SVG 형식으로 저장하는 기능이 [HtmlFixedSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlfixedsaveoptions/) 및 [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/) 클래스에 **IdPrefix** 및 **RemoveJavaScriptFromLinks** 속성을 추가하여 향상되었습니다.
+
+#### 마크다운으로 저장할 때 이미지 해상도 및 OfficeMath 출력 모드 설정 <sup>25.1</sup>
+
+* 새로운 [ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imageresolution/) 옵션이 [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) 클래스에 추가되어 이미지 해상도를 설정합니다.
+* 새로운 [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) 옵션과 [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) 열거형이 [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) 클래스에 추가되어 OfficeMath 출력 모드를 설정합니다.
+
+{{% alert color="primary" %}}
+
+[.NET 25.1용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/)에 대해 자세히 알아보세요.
+
+{{% /alert %}}
 
 ## Aspose.Words(으)로 .NET 24.9, 24.10, 24.11, 24.12
 

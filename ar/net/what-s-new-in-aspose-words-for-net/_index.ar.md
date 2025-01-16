@@ -7,10 +7,37 @@ type: docs
 description: "Aspose.Words ل .NET يوسع ويعزز يوميا. في هذه الصفحة، يمكنك التعرف على الميزات الضخمة والأكثر إثارة للاهتمام للمنتج."
 weight: 10
 url: /ar/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2024-12-13-10-56-02
+timestamp: 2025-01-15-11-43-05
 ---
 
 تصف هذه الصفحة الميزات الجديدة الأكثر إثارة للاهتمام Aspose.Words التي تم تقديمها في الإصدارات الأخيرة.
+
+## Aspose.Words for .NET 25.1
+
+يقدم Aspose.Words 25.1 فحصًا لغويًا مدعومًا بالذكاء الاصطناعي ويعزز حفظ المستندات بخيارات متقدمة لتنسيقات HTML وSVG وMarkdown.
+
+### ميزات مدعومة بالذكاء الاصطناعي
+
+#### فحص قواعد اللغة للمستندات باستخدام الذكاء الاصطناعي <sup>25.1</sup>
+
+تم تقديم القدرة على فحص قواعد اللغة للمستندات المقدمة باستخدام نماذج توليد OpenAI من خلال إضافة طريقة جديدة [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/)
+
+### تحويل المستندات وتحميلها وحفظها
+
+#### تحسين الحفظ بتنسيقات HTML وSVG <sup>25.1</sup>
+
+تم تحسين الحفظ بتنسيقات HTML وSVG من خلال إضافة الخاصيتين **IdPrefix** و**RemoveJavaScriptFromLinks** إلى كل من فئتي [HtmlFixedSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlfixedsaveoptions/) و[SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/).
+
+#### تعيين دقة الصورة ووضع إخراج OfficeMath عند الحفظ في Markdown <sup>25.1</sup>
+
+* تمت إضافة خيار [ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imageresolution/) جديد إلى فئة [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) لتعيين دقة الصورة.
+* تمت إضافة خيار [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) جديد و[MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) إلى فئة [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) لتعيين وضع إخراج OfficeMath.
+
+{{% alert color="primary" %}}
+
+تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 25.1 ](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words ل .NET 24.9, 24.10, 24.11, 24.12
 

@@ -7,10 +7,37 @@ type: docs
 description: "Aspose.Words pentru .NET se extinde și îmbunătățește zilnic. Pe această pagină, puteți afla despre caracteristicile uriașe și cele mai interesante ale produsului."
 weight: 10
 url: /ro/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2024-12-11-13-48-02
+timestamp: 2025-01-15-11-43-05
 ---
 
 Această pagină descrie cele mai interesante caracteristici noi Aspose.Words introduse în versiunile recente.
+
+## Aspose.Words pentru .NET 25.1
+
+Aspose.Words 25.1 introduce verificarea gramaticală bazată pe inteligență artificială și îmbunătățește salvarea documentelor cu opțiuni avansate pentru formatele HTML, SVG și Markdown.
+
+### Funcții bazate pe inteligență artificială
+
+#### Verificarea gramaticală AI a documentului <sup>25.1</sup>
+
+Abilitatea de a verifica gramatica documentului furnizat folosind modele generative OpenAI a fost introdusă prin adăugarea unui nou [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/) metodă.
+
+### Conversia, încărcarea și salvarea documentelor
+
+#### Salvare îmbunătățită în formatele HTML și SVG <sup>25.1</sup>
+
+Salvarea în formatele HTML și SVG a fost îmbunătățită prin adăugarea proprietăților **IdPrefix** și **RemoveJavaScriptFromLinks** la ambele [HtmlFixedSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlfixedsaveoptions/) și [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/) clase.
+
+#### Setați rezoluția imaginii și modul de ieșire OfficeMath când salvați în Markdown <sup>25.1</sup>
+
+* O nouă opțiune [ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imageresolution/) a fost adăugată la [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) pentru a seta rezoluția imaginii.
+* O nouă opțiune [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) și [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) au fost adăugate la Clasa [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) pentru a seta modul de ieșire OfficeMath.
+
+{{% alert color="primary" %}}
+
+Aflați mai multe despre [Aspose.Words pentru .NET 25.1 Note de lansare](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words pentru .NET 24.9, 24.10, 24.11, 24.12
 

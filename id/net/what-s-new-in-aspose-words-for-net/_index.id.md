@@ -7,10 +7,36 @@ type: docs
 description: "Aspose.Words untuk .NET berkembang dan ditingkatkan setiap hari. Di halaman ini, Anda dapat mempelajari tentang fitur-fitur produk yang besar dan paling menarik."
 weight: 10
 url: /id/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2024-12-11-13-48-02
+timestamp: 2025-01-15-11-43-05
 ---
 
 Halaman ini menjelaskan fitur-fitur Aspose.Words baru yang paling menarik yang diperkenalkan dalam rilis terbaru.
+
+## Aspose.Words untuk .NET 25.1
+
+Aspose.Words 25.1 memperkenalkan pemeriksaan tata bahasa yang didukung AI dan meningkatkan penyimpanan dokumen dengan opsi lanjutan untuk format HTML, SVG, dan Markdown.
+
+### Fitur yang Didukung AI
+
+#### Pemeriksaan Tata Bahasa Dokumen AI <sup>25.1</sup>
+
+Kemampuan untuk memeriksa tata bahasa dokumen yang disediakan menggunakan model generatif OpenAI telah diperkenalkan dengan menambahkan metode [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/) baru.
+
+### Mengonversi, Memuat, dan Menyimpan Dokumen
+
+#### Peningkatan Penyimpanan ke Format HTML dan SVG <sup>25.1</sup>
+
+Penyimpanan ke format HTML dan SVG telah ditingkatkan dengan menambahkan properti **IdPrefix** dan **RemoveJavaScriptFromLinks** ke kelas [HtmlFixedSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlfixedsaveoptions/) dan [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/).
+
+#### Mengatur Resolusi Gambar dan Mode Output OfficeMath Saat Menyimpan ke Markdown <sup>25.1</sup>
+
+* Opsi [ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imageresolution/) baru telah ditambahkan ke kelas [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) untuk mengatur resolusi gambar. * Opsi [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) baru dan enumerasi [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) telah ditambahkan ke kelas [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) untuk menyetel mode keluaran OfficeMath.
+
+{{% alert color="primary" %}}
+
+Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 25.1](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words untuk .NET 24.9, 24.10, 24.11, 24.12
 

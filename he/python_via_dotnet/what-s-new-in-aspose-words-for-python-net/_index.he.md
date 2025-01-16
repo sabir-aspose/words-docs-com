@@ -7,10 +7,37 @@ type: docs
 description: "Aspose.Words עבור Python via .NET מתרחב ומשפר מדי יום. בדף זה, אתה יכול ללמוד על התכונות הענקיות והמעניינות ביותר של המוצר."
 weight: 10
 url: /he/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2024-12-13-10-56-02
+timestamp: 2025-01-15-11-43-05
 ---
 
 דף זה מתאר את החדש המעניין ביותר Aspose.Words תכונות שהוצגו במהדורות האחרונות.
+
+## Aspose.Words עבור Python דרך .NET 25.1
+
+Aspose.Words 25.1 מציג בדיקת דקדוק מבוססת בינה מלאכותית ומשפרת את שמירת המסמכים עם אפשרויות מתקדמות עבור פורמטים HTML, SVG ו-Markdown.
+
+### תכונות המופעלות על ידי AI
+
+#### בדיקת דקדוק בינה מלאכותית של מסמכים <sup>25.1</sup>
+
+היכולת לבדוק את הדקדוק של המסמך שסופק באמצעות מודלים מחוללים של OpenAI הוצגה על ידי הוספת [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/) חדש  שיטת.
+
+### המרה, טעינה ושמירה של מסמכים
+
+#### שמירה משופרת בפורמטים HTML ו-SVG <sup>25.1</sup>
+
+השמירה בפורמטים HTML ו-SVG שופרה על ידי הוספת מאפיינים **id_prefix** ו**remove_java_script_from_links** לשני המאפיינים [HtmlFixedSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlfixedsaveoptions/) ו-[SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/).
+
+#### הגדר רזולוציית תמונה ומצב פלט OfficeMath בעת שמירה ב-Markdown <sup>25.1</sup>
+
+* אפשרות חדשה [image_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/image_resolution/) נוספה ל-[MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) כדי להגדיר את רזולוציית התמונה.
+* אפשרות חדשה [office_math_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/office_math_export_mode/) ו-[MarkdownOfficeMathExportMode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownofficemathexportmode/) נוספה ל-[MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) class כדי להגדיר מצב פלט של OfficeMath.
+
+{{% alert color="primary" %}}
+
+למד עוד על [Aspose.Words עבור Python via .NET 25.1 הודעות](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words עבור Python דרך .NET 24.9, 24.10, 24.11, 24.12
 

@@ -7,10 +7,37 @@ type: docs
 description: "Aspose.Words vir .NET brei uit en verbeter daagliks. Op hierdie bladsy kan jy leer oor die groot en interessantste kenmerke van die produk."
 weight: 10
 url: /af/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2024-12-13-10-56-02
+timestamp: 2025-01-15-11-43-05
 ---
 
 Hierdie bladsy beskryf die interessantste nuwe Aspose.Words funksies wat in onlangse vrystellings bekendgestel is.
+
+## Aspose.Words vir .NET 25.1
+
+Aspose.Words 25.1 stel KI-aangedrewe grammatikakontrole bekend en verbeter dokumentbesparing met gevorderde opsies vir HTML-, SVG- en Markdown-formate.
+
+### KI-aangedrewe kenmerke
+
+#### Dokument KI Grammatikakontrole <sup>25.1</sup>
+
+Die vermoë om die grammatika van die verskafde dokument na te gaan deur gebruik te maak van OpenAI generatiewe modelle is bekendgestel deur 'n nuwe [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/) by te voeg metode.
+
+### Omskakeling, laai en stoor van dokumente
+
+#### Verbeterde stoor na HTML- en SVG-formate <sup>25.1</sup>
+
+Stoor na HTML- en SVG-formate is verbeter deur **IdPrefix** en **RemoveJavaScriptFromLinks** eienskappe by beide die [HtmlFixedSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlfixedsaveoptions/) en [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/) klasse.
+
+#### Stel prentresolusie en OfficeMath-uitvoermodus wanneer u na Markdown stoor <sup>25.1</sup>
+
+* 'n Nuwe [ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imageresolution/) opsie is by die [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) klas om die beeldresolusie te stel.
+* 'n Nuwe [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) opsie en [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) opsomming is en bygevoeg by die [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) klas om OfficeMath-uitvoermodus te stel.
+
+{{% alert color="primary" %}}
+
+Leer meer oor [Aspose.Words vir .NET 25.1 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words vir .NET 24.9, 24.10, 24.11, 24.12
 

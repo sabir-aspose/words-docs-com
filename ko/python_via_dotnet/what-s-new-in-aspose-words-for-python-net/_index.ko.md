@@ -7,10 +7,37 @@ type: docs
 description: "Python via .NET용 Aspose.Words는 매일 확장되고 향상됩니다. 이 페이지에서는 제품의 가장 크고 흥미로운 기능에 대해 알아볼 수 있습니다."
 weight: 10
 url: /ko/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2024-12-13-10-56-02
+timestamp: 2025-01-15-11-43-05
 ---
 
 이 페이지에서는 최근 릴리스에 도입된 가장 흥미로운 새로운 Aspose.Words 기능을 설명합니다.
+
+## .NET 25.1을 통한 Python용 Aspose.Words
+
+Aspose.Words 25.1은 AI 기반 문법 검사 기능을 도입하고 HTML, SVG, 마크다운 형식에 대한 고급 옵션을 통해 문서 저장 기능을 개선했습니다.
+
+### AI 기반 기능
+
+#### 문서 AI 문법 검사 <sup>25.1</sup>
+
+OpenAI 생성 모델을 사용하여 제공된 문서의 문법을 검사하는 기능은 새로운 [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar)를 추가하여 도입되었습니다 방법.
+
+### 문서 변환, 로드 및 저장
+
+#### HTML 및 SVG 형식으로의 저장 기능 개선 <sup>25.1</sup>
+
+**id_prefix** 및 **remove_java_script_from_links** 속성이 [HtmlFixedSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlfixedsaveoptions/) 에 추가되어 HTML 및 SVG 형식으로 저장하는 기능이 향상되었습니다 및 [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/) 클래스.
+
+#### 마크다운으로 저장할 때 이미지 해상도 및 OfficeMath 출력 모드 설정 <sup>25.1</sup>
+
+* 새로운 [image_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/image_resolution/) 옵션이 [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) 에 추가되었습니다 클래스를 사용하여 이미지 해상도를 설정합니다.
+* 새로운 [office_math_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/office_math_export_mode/) 옵션과 [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownofficemathexportmode/) 열거형이 [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) 에 추가되었습니다 클래스를 사용하여 OfficeMath 출력 모드를 설정합니다.
+
+{{% alert color="primary" %}}
+
+[Python via .NET 25.1 용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/) 에 대해 자세히 알아보세요.
+
+{{% /alert %}}
 
 ## .NET 24.9, 24.10, 24.11, 24.12 를 통한 Python용 Aspose.Words
 

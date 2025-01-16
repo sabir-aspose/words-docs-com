@@ -7,10 +7,37 @@ type: docs
 description: "Aspose.Words dla Python via .NET rozwija się i ulepsza każdego dnia. Na tej stronie możesz dowiedzieć się o ogromnych i najciekawszych funkcjach produktu."
 weight: 10
 url: /pl/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2024-12-13-10-56-02
+timestamp: 2025-01-15-11-43-05
 ---
 
 Na tej stronie opisano najciekawsze nowe funkcje Aspose.Words wprowadzone w ostatnich wydaniach.
+
+## Aspose.Words dla Pythona przez .NET 25.1
+
+Aspose.Words 25.1 wprowadza sprawdzanie gramatyki oparte na sztucznej inteligencji i udoskonala zapisywanie dokumentów dzięki zaawansowanym opcjom dla formatów HTML, SVG i Markdown.
+
+### Funkcje oparte na sztucznej inteligencji
+
+#### Sprawdzanie gramatyki dokumentu AI <sup>25.1</sup>
+
+Możliwość sprawdzenia gramatyki dostarczonego dokumentu przy użyciu generatywnych modeli OpenAI została wprowadzona poprzez dodanie nowego parametru [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/) metody.
+
+### Konwertowanie, ładowanie i zapisywanie dokumentów
+
+#### Ulepszone zapisywanie do formatów HTML i SVG <sup>25.1</sup>
+
+Zapisywanie w formatach HTML i SVG zostało ulepszone poprzez dodanie właściwości **id_prefix** i **remove_java_script_from_links** do obu opcji [HtmlFixedSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlfixedsaveoptions/) i [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/) klasy.
+
+#### Ustaw rozdzielczość obrazu i tryb wyjściowy OfficeMath podczas zapisywania do formatu Markdown <sup>25.1</sup>
+
+* Do opcji [image_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/image_resolution/) dodano nową opcję [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) w celu ustawienia rozdzielczości obrazu.
+* Nowa opcja [office_math_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/office_math_export_mode/) i [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownofficemathexportmode/) Wyliczenie zostało dodane do [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) klasa służąca do ustawiania trybu wyjściowego OfficeMath.
+
+{{% alert color="primary" %}}
+
+Dowiedz się więcej o [Aspose.Words dla Python via .NET 25.1 Informacje o wydaniu](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words dla Pythona przez .NET 24.9, 24.10, 24.11, 24.12
 
