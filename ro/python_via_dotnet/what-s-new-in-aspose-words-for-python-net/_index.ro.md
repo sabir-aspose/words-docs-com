@@ -7,12 +7,39 @@ type: docs
 description: "Aspose.Words pentru Python via .NET extinde și îmbunătățește zilnic. Pe această pagină, puteți afla despre caracteristicile uriașe și cele mai interesante ale produsului."
 weight: 10
 url: /ro/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2024-12-13-10-56-02
+timestamp: 2025-01-15-11-43-05
 ---
 
 Această pagină descrie cele mai interesante caracteristici noi Aspose.Words introduse în versiunile recente.
 
-## Aspose.Words pentru Python via .NET 24.9, 24.10, 24.11
+## Aspose.Words pentru Python prin .NET 25.1
+
+Aspose.Words 25.1 introduce verificarea gramaticală bazată pe inteligență artificială și îmbunătățește salvarea documentelor cu opțiuni avansate pentru formatele HTML, SVG și Markdown.
+
+### Funcții bazate pe inteligență artificială
+
+#### Verificarea gramaticală AI a documentului <sup>25.1</sup>
+
+Abilitatea de a verifica gramatica documentului furnizat folosind modele generative OpenAI a fost introdusă prin adăugarea unui nou [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/) metoda.
+
+### Conversia, încărcarea și salvarea documentelor
+
+#### Salvare îmbunătățită în formatele HTML și SVG <sup>25.1</sup>
+
+Salvarea în formatele HTML și SVG a fost îmbunătățită prin adăugarea proprietăților **id_prefix** și **remove_java_script_from_links** la ambele [HtmlFixedSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlfixedsaveoptions/) și [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/).
+
+#### Setați rezoluția imaginii și modul de ieșire OfficeMath când salvați în Markdown <sup>25.1</sup>
+
+* O nouă opțiune [image_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/image_resolution/) a fost adăugată la [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) pentru a seta rezoluția imaginii.
+* O nouă opțiune [office_math_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/office_math_export_mode/) și [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownofficemathexportmode/) enumerarea a fost adăugată la [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) pentru a seta modul de ieșire OfficeMath.
+
+{{% alert color="primary" %}}
+
+Aflați mai multe despre [Aspose.Words pentru Python via .NET 25.1 Note De Lansare](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+
+{{% /alert %}}
+
+## Aspose.Words pentru Python via .NET 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 introduce group shape Inserare și StructuredDocumentTag Inserare prin DocumentBuilder, îmbunătățește randarea diagramelor radiale cu gradații, îmbunătățește semnăturile digitale cu suport XAdES-EPES, adaugă Markdown recunoașterea sublinierii și oferă acces la separatoarele de notă de subsol/notă finală.
 

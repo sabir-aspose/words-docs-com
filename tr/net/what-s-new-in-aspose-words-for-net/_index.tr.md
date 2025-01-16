@@ -7,10 +7,37 @@ type: docs
 description: ".NET için Aspose.Words her gün genişler ve gelişir. Bu sayfada ürünün büyük ve en ilginç özellikleri hakkında bilgi edinebilirsiniz."
 weight: 10
 url: /tr/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2024-12-11-13-48-02
+timestamp: 2025-01-15-11-43-05
 ---
 
 Bu sayfada son sürümlerde tanıtılan en ilginç yeni Aspose.Words özellikleri açıklanmaktadır.
+
+## Aspose.Words for .NET 25.1
+
+Aspose.Words 25.1, AI destekli dil bilgisi denetimini sunar ve HTML, SVG ve Markdown biçimleri için gelişmiş seçeneklerle belge kaydetmeyi geliştirir.
+
+### AI Destekli Özellikler
+
+#### Belge AI Dil Bilgisi Denetimi <sup>25.1</sup>
+
+OpenAI üretken modelleri kullanılarak sağlanan belgenin dil bilgisini denetleme yeteneği, yeni bir [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/) yöntemi eklenerek tanıtıldı.
+
+### Belgeleri Dönüştürme, Yükleme ve Kaydetme
+
+#### HTML ve SVG Biçimlerine Kaydetme Geliştirildi <sup>25.1</sup>
+
+HTML ve SVG biçimlerine kaydetme, hem [HtmlFixedSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlfixedsaveoptions/) hem de [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/) sınıflarına **IdPrefix** ve **RemoveJavaScriptFromLinks** özelliklerinin eklenmesiyle geliştirildi.
+
+#### Markdown <sup>25.1</sup>'e Kaydederken Görüntü Çözünürlüğünü ve OfficeMath Çıktı Modunu Ayarlayın
+
+* Görüntü çözünürlüğünü ayarlamak için [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) sınıfına yeni bir [ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imageresolution/) seçeneği eklendi.
+* OfficeMath çıktı modunu ayarlamak için yeni bir [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) seçeneği ve [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) sayımı [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) sınıfına eklendi.
+
+{{% alert color="primary" %}}
+
+[.NET 25.1 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/) hakkında daha fazla bilgi edinin.
+
+{{% /alert %}}
 
 ## Aspose.Words için .NET 24.9, 24.10, 24.11, 24.12
 

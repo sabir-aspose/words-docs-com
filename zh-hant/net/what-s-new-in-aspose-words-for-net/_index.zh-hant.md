@@ -7,10 +7,37 @@ type: docs
 description: "Aspose.Words for .NET 每天都擴展和提升。 在這個頁面，你可以學習關於產品巨大的和最令人感興趣的特點。"
 weight: 10
 url: /zh-hant/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2024-12-11-13-48-02
+timestamp: 2025-01-15-11-43-05
 ---
 
 本頁面描述最近版本引入的最有趣新 Aspose.Words 功能。
+
+適用於 .NET 25.1 的 Aspose.Words
+
+Aspose.Words 25.1 引入了 AI 驅動的語法檢查，並透過 HTML、SVG 和 Markdown 格式的進階選項增強了文件保存功能。
+
+### 人工智慧功能
+
+#### 文件 AI 語法檢查<sup>25.1</sup>
+
+透過新增 [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/)，引入了使用 OpenAI 產生模型檢查所提供的文件語法的功能。
+
+### 轉換、載入和儲存文檔
+
+#### 改進了儲存為 HTML 和 SVG 格式的功能<sup>25.1</sup>
+
+透過在[HtmlFixedSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlfixedsaveoptions/) 中新增**IdPrefix** 和**RemoveJavaScriptFromLinks** 屬性，增強了儲存為HTML 和SVG 格式的功能 和 [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/) 類別。
+
+#### 儲存為 Markdown 時設定映像解析度和 OfficeMath 輸出模式 <sup>25.1</sup>
+
+* 在 [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) 中新增了新的 [ImageResolution](https://reference.aspose. com/ words/net/aspose.words.saving/markdownsaveoptions/imageresolution/) 類別來設定映像解析度。
+* 新的[OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) 選項和[MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) 枚舉已新增至 [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) 類別以設定 OfficeMath 輸出模式。
+
+{{% alert color="primary" %}}
+
+更多了解[Aspose.Words for .NET 25.1 Release Notes](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/)。
+
+{{% /alert %}}
 
 ## Aspose.Words for .NET 24.9、24.10、24.11、24.12
 

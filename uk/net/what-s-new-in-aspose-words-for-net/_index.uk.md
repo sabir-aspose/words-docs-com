@@ -7,10 +7,37 @@ type: docs
 description: "Aspose.Words для .NET Розширює і підсилює щодня. На цій сторінці ви можете дізнатися про величезні і найцікавіші особливості виробу."
 weight: 10
 url: /uk/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2024-12-11-13-48-02
+timestamp: 2025-01-15-11-43-05
 ---
 
 Ця сторінка описує найцікавіше Aspose.Words Особливості, введені в останні релізи.
+
+## Aspose.Words для .NET 25.1
+
+Aspose.Words 25.1 представляє перевірку граматики за допомогою ШІ та покращує збереження документів за допомогою розширених параметрів для форматів HTML, SVG і Markdown.
+
+### Функції на основі ШІ
+
+#### Перевірка граматики ШІ документа <sup>25.1</sup>
+
+З’явилася можливість перевіряти граматику наданого документа за допомогою генеративних моделей OpenAI, додавши новий [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/) метод.
+
+### Перетворення, завантаження та збереження документів
+
+#### Покращено збереження у форматах HTML і SVG <sup>25.1</sup>
+
+Збереження у форматах HTML і SVG покращено шляхом додавання властивостей **IdPrefix** і **RemoveJavaScriptFromLinks** до обох параметрів [HtmlFixedSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlfixedsaveoptions/) і Класи [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/).
+
+#### Встановити роздільну здатність зображення та режим виведення OfficeMath під час збереження у Markdown <sup>25.1</sup>
+
+* Додано новий параметр [ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imageresolution/) до класу [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/), щоб встановити роздільну здатність зображення.
+* Новий параметр [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) і [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) перерахування було та додано до класу [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/), щоб установити режим виведення OfficeMath.
+
+{{% alert color="primary" %}}
+
+Дізнатися більше [Aspose.Words для .NET 25.1 Release Примітки](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words для .NET 24.9, 24.10, 24.11, 24.12
 
