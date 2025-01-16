@@ -7,10 +7,37 @@ type: docs
 description: "Aspose.Words עבור .NET מתרחב ומשפר מדי יום. בדף זה, אתה יכול ללמוד על התכונות הענקיות והמעניינות ביותר של המוצר."
 weight: 10
 url: /he/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2024-12-11-13-48-02
+timestamp: 2025-01-15-11-43-05
 ---
 
 דף זה מתאר את החדש המעניין ביותר Aspose.Words תכונות שהוצגו במהדורות האחרונות.
+
+## Aspose.Words עבור .NET 25.1
+
+Aspose.Words 25.1 מציג בדיקת דקדוק מבוססת בינה מלאכותית ומשפרת את שמירת המסמכים עם אפשרויות מתקדמות עבור פורמטים HTML, SVG ו-Markdown.
+
+### תכונות המופעלות על ידי AI
+
+#### בדיקת דקדוק בינה מלאכותית של מסמכים <sup>25.1</sup>
+
+היכולת לבדוק את הדקדוק של המסמך שסופק באמצעות מודלים מחוללים של OpenAI הוצגה על ידי הוספת [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/) חדש  שִׁיטָה.
+
+### המרה, טעינה ושמירה של מסמכים
+
+#### שמירה משופרת בפורמטים HTML ו-SVG <sup>25.1</sup>
+
+שמירה בפורמטים HTML ו-SVG שופרה על ידי הוספת מאפיינים **IdPrefix** ו**RemoveJavaScriptFromLinks** לשני המאפיינים [HtmlFixedSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlfixedsaveoptions/) ו [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/) מחלקות.
+
+#### הגדר רזולוציית תמונה ומצב פלט OfficeMath בעת שמירה ב-Markdown <sup>25.1</sup>
+
+* אפשרות חדשה [ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imageresolution/) נוספה ל-[MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) להגדרת רזולוציית התמונה.
+* אפשרות חדשה [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) ו-[MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) הספירה נוספה ל- מחלקה [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) כדי להגדיר מצב פלט של OfficeMath.
+
+{{% alert color="primary" %}}
+
+למידע נוסף על [Aspose.Words for .NET 25.1 Notes](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words עבור .NET 24.9, 24.10, 24.11, 24.12
 

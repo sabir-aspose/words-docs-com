@@ -7,10 +7,37 @@ type: docs
 description: "Aspose.Words for Python via .NET 每天都在扩展和增强。在此页面上，您可以了解该产品的巨大且最有趣的功能。"
 weight: 10
 url: /zh/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2024-12-13-10-56-02
+timestamp: 2025-01-15-11-43-05
 ---
 
 本页描述了最近版本中引入的最有趣的新 Aspose.Words 功能。
+
+## 通过 .NET 25.1 为 Python 提供 Aspose.Words
+
+Aspose.Words 25.1 引入了 AI 驱动的语法检查，并通过 HTML、SVG 和 Markdown 格式的高级选项增强了文档保存功能。
+
+### 人工智能功能
+
+#### 文档 AI 语法检查<sup>25.1</sup>
+
+通过添加新的 [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar)，引入了使用 OpenAI 生成模型检查所提供文档语法的功能/） 方法。
+
+### 转换、加载和保存文档
+
+#### 改进了保存为 HTML 和 SVG 格式的功能<sup>25.1</sup>
+
+通过向 [HtmlFixedSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlfixedsaveoptions/) 添加 **id_prefix** 和 **remove_java_script_from_links** 属性，增强了保存为 HTML 和 SVG 格式的功能。 和 [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/) 类。
+
+#### 保存为 Markdown 时设置图像分辨率和 OfficeMath 输出模式 <sup>25.1</sup>
+
+* 在 [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) 中添加了新的 [image_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/image_resolution/) 类来设置图像分辨率。
+* 新的 [office_math_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/office_math_export_mode/) 选项和 [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownofficemathexportmode/) 枚举已添加到 [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) 类来设置 OfficeMath 输出模式。
+
+{{% alert color="primary" %}}
+
+了解有关 [Aspose.Words for Python via .NET 25.1 发行说明](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/) 的更多信息。
+
+{{% /alert %}}
 
 ## 通过 .NET 24.9、24.10、24.11、24.12 为 Python 提供 Aspose.Words
 
