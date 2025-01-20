@@ -1,0 +1,37 @@
+---
+title: AI Grammar Checking
+second_title: Aspose.Words for .NET
+articleTitle: Grammar Checking
+linktitle: Grammar Checking
+type: docs
+weight: 40
+description: "Check a document grammar. Aspose.Words for .NET allows users to check grammar and detect errors in documents using OpenAI models."
+url: /net/grammar checking/
+timestamp: 2025-01-15-16-40-05
+---
+
+Checking grammar in documents is important to ensure clarity, professionalism, and accuracy. Well-written documents leave a positive impression and avoid misunderstandings. Grammar checks help identify and correct errors quickly, saving time and improving quality.
+
+Aspose.Words allows users to check grammar and detect errors in documents using **OpenAI** generative models. Use the [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/) method, available in the [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) namespace. **CheckGrammar** analyzes the text in a document and highlights grammatical problems.
+
+The following code example shows how to use the GPT-4o mini model in Aspose.Words to check grammar:
+
+{{< highlight csharp >}}
+Document doc = new Document(MyDir + "Big document.docx");
+
+string apiKey = Environment.GetEnvironmentVariable("API_KEY");
+// Use OpenAI generative language models.
+IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
+
+CheckGrammarOptions grammarOptions = new CheckGrammarOptions();
+grammarOptions.ImproveStylistics = true;
+
+Document proofedDoc = model.CheckGrammar(doc, grammarOptions);
+proofedDoc.Save("AI.AiGrammar.docx");
+{{< /highlight >}}
+
+{{% alert color="primary" %}}
+
+Checking grammar with Aspose.Words improves the quality of your work and makes it easy to integrate proofreading into your projects. For more information, check the [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) API documentation.
+
+{{% /alert %}}
