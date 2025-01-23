@@ -6,7 +6,7 @@ linktitle: Join Tables
 description: "Join tables in C#. How to merge two tables into one C#."
 type: docs
 weight: 90
-url: /net/join-tables/
+url: /net/joining-tables/
 aliases: [/net/joining-and-splitting-tables/]
 timestamp: 2024-01-27-14-07-04
 ---
