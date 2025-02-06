@@ -19,7 +19,7 @@ You can use the [AddBidiMarks](https://reference.aspose.com/words/net/aspose.wor
 
 The following code example shows how to use **AddBidiMarks** property. The default value of this property is *false*:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingwithTxt-AddBidiMarks.cs" >}}
+{{< gist "aspose-words-gists" "ddafc3430967fb4f4f70085fa577d01a" "add-bidi-marks.cs" >}}
 
 ## Recognize List Items During Loading TXT
 
@@ -31,7 +31,7 @@ Aspose.Words can import list item of a text file as list numbers or plain text i
 
 The following code example shows how to use this property:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingwithTxt-DetectNumberingWithWhitespaces.cs" >}}
+{{< gist "aspose-words-gists" "ddafc3430967fb4f4f70085fa577d01a" "detect-numbering-with-whitespaces.cs" >}}
 
 ## Handle Leading and Trailing spaces During Loading TXT
 
@@ -39,7 +39,7 @@ You can control the way of handling leading and trailing spaces during loading T
 
 The following code example shows how to trim leading and trailing spaces while importing TXT file:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingwithTxt-HandleSpacesOptions.cs" >}}
+{{< gist "aspose-words-gists" "ddafc3430967fb4f4f70085fa577d01a" "handle-spaces-options.cs" >}}
 
 ## Detect Document Text Direction
 
@@ -47,7 +47,7 @@ Aspose.Words provides the [DocumentDirection](https://reference.aspose.com/words
 
 The following code example shows how to detect text direction of the document while importing TXT file:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingwithTxt-DocumentTextDirection.cs" >}}
+{{< gist "aspose-words-gists" "ddafc3430967fb4f4f70085fa577d01a" "document-text-direction.cs" >}}
 
 ## Export Header and Footer in Output TXT
 
@@ -55,7 +55,7 @@ If you want to export header and footer in output TXT document, you can use the 
 
 The following code example shows how to export headers and footers to plain text format:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingwithTxt-ExportHeadersFootersMode.cs" >}}
+{{< gist "aspose-words-gists" "ddafc3430967fb4f4f70085fa577d01a" "export-headers-footers-mode.cs" >}}
 
 ## Export List Indentation in Output TXT
 
@@ -67,16 +67,10 @@ The default value for character property is '\0' indicating that there is no in
 
 The following code example shows how to export list levels using tab characters:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingwithTxt-UseTabCharacterPerLevelForListIndentation.cs" >}}
+{{< gist "aspose-words-gists" "ddafc3430967fb4f4f70085fa577d01a" "use-tab-for-list-indentation.cs" >}}
 
 ### Using Space Character
 
 The following code example shows how to export list levels using space characters:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingwithTxt-UseSpaceCharacterPerLevelForListIndentation.cs" >}}
-
-### Using Default Indentation
-
-The following code example shows how to export list levels using default indentation:
-
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingwithTxt-DefaultLevelForListIndentation.cs" >}}
+{{< gist "aspose-words-gists" "ddafc3430967fb4f4f70085fa577d01a" "use-space-for-list-indentation.cs" >}}

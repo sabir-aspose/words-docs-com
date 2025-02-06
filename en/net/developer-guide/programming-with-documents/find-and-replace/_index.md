@@ -33,7 +33,7 @@ You can use one of the [Replace](https://reference.aspose.com/words/net/aspose.w
 
 The following code example shows how to find the string “_CustomerName_” and replace it with the string *“James Bond”*:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceWithString-ReplaceWithString.cs" >}}
+{{< gist "aspose-words-gists" "27c3408b2c7fbee8d6dc6a1c8b61c105" "replace-with-string.cs" >}}
 
 You can notice the difference between the document before applying simple string replacement:
 
@@ -51,7 +51,7 @@ Use the other [Replace](https://reference.aspose.com/words/net/aspose.words/rang
 
 The following code example shows how to replace strings that match a regular expression pattern with a specified replacement string:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceWithRegex-ReplaceWithRegex.cs" >}}
+{{< gist "aspose-words-gists" "27c3408b2c7fbee8d6dc6a1c8b61c105" "replace-with-regex.cs" >}}
 
 You can notice the difference between the document before applying string replacement with regular expressions:
 
@@ -73,7 +73,7 @@ Note that the metacharacter **&&** equals to **&**. For example, if you need to 
 
 The following code example shows how to replace text with paragraph and page break:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-FindReplaceUsingMetaCharacters-ReplaceTextContaingMetaCharacters.cs" >}}
+{{< gist "aspose-words-gists" "27c3408b2c7fbee8d6dc6a1c8b61c105" "replace-text-containing-meta-characters.cs" >}}
 
 ## Find and Replace String in Header/Footer of a Document {#find-and-replace-string-in-header-or-footer-of-a-document}
 
@@ -81,30 +81,7 @@ You can find and replace text in the header/footer section of a Word document us
 
 The following code example shows how to replace the text of the header section in your document:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceInHeaderAndFooter-ReplaceTextInFooter.cs" >}}
-
-You can notice the difference between the document before applying header string replacement:
-
-<img src="before-applying-header-string-replacement.png" alt="before-applying-header-string-replacement" style="width:600px"/>
-
-And after applying header string replacement:
-
-<img src="after-applying-header-string-replacement.png" alt="after-applying-header-string-replacement" style="width:600px"/>
-
-The code example to replace the text of the footer section in your document is very similar to the previous header code example. All you need to do is replace the following two lines:
-
-{{< highlight csharp >}}
-HeaderFooter header = headersFooters[HeaderFooterType.HeaderPrimary];
-header.Range.Replace("Aspose.Words", "Remove", options);
-{{< /highlight >}}
-
-With the following:
-
-{{< highlight csharp >}}
-HeaderFooter footer = headersFooters[HeaderFooterType.FooterPrimary];
-int currentYear = System.DateTime.Now.Year;
-footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} by Aspose Pty Ltd.", options);
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "27c3408b2c7fbee8d6dc6a1c8b61c105" "replace-text-in-footer.cs" >}}
 
 You can notice the difference between the document before applying footer string replacement:
 
@@ -122,7 +99,7 @@ Aspose.Words provides many find and replace properties for ignoring text such as
 
 The following code example shows how to ignore text inside delete revisions:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-IgnoreText-IgnoreTextInsideDeleteRevisions.cs" >}}
+{{< gist "aspose-words-gists" "27c3408b2c7fbee8d6dc6a1c8b61c105" "ignore-text-inside-delete-revisions.cs" >}}
 
 ## Customize Find and Replace Operation {#customize-find-and-replace-operation}
 
@@ -130,7 +107,7 @@ Aspose.Words provides many different [properties](https://reference.aspose.com/w
 
 The following code example shows how to highlight a specific word in your document:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceWithString-HighlightColor.cs" >}}
+{{< gist "aspose-words-gists" "27c3408b2c7fbee8d6dc6a1c8b61c105" "highlight-color.cs" >}}
 
 Aspose.Words allows you to use [IReplacingCallback](https://reference.aspose.com/words/net/aspose.words.replacing/ireplacingcallback/) interface to create and call a custom method during a replace operation. You may have some use cases where you need to customize the find and replace operation such as replacing text specified with a regular expression with HTML tags, so basically you will apply replace with inserting HTML.
 
@@ -138,12 +115,8 @@ If you need to replace a string with an HTML tag, apply the **IReplacingCallback
 
 The following code example shows how to replace text specified with HTML:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceWithHTML-ReplaceWithHtml.cs" >}}
-
-The following code example shows how to highlight positive numbers with green color and negative numbers with red color:
-
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceWithHTML-NumberHighlightCallback.cs" >}}
+{{< gist "aspose-words-gists" "27c3408b2c7fbee8d6dc6a1c8b61c105" "replace-with-html.cs" >}}
 
 The following code example shows how to prepend a line number to each line:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceWithHTML-LineCounter.cs" >}}
+{{< gist "aspose-words-gists" "27c3408b2c7fbee8d6dc6a1c8b61c105" "line-counter.cs" >}}

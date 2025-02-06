@@ -18,7 +18,7 @@ In Aspose.Words it is very easy to add a group shape using the [GroupShape](http
 
 The following code example shows how to add a group shape into a Word document:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-AddGroupShapeToDocument-AddGroupShapeToDocument.cs" >}}
+{{< gist "aspose-words-gists" "072edc4bbb0dd0eebf1f61f610bd8d36" "add-group-shape.cs" >}}
 
 {{% alert color="primary" %}}
 

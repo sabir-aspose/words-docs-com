@@ -21,7 +21,7 @@ If you want OLE Object, call the [InsertOleObject](https://reference.aspose.com/
 
 The following code example shows how to insert OLE Object into a document:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertOleObject.cs" >}}
+{{< gist "aspose-words-gists" "4996b573cf231d9f66ab0d1f3f981222" "insert-ole-object.cs" >}}
 
 ### Set File Name and Extension when Inserting OLE Object
 
@@ -31,7 +31,7 @@ Early Windows versions such as Windows 3.1, 95, and 98 had a Packager.exe applic
 
 The following code example shows how to set the file name, extension, and display name for OLE Package:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-InsertOleObjectwithOlePackage.cs" >}}
+{{< gist "aspose-words-gists" "4996b573cf231d9f66ab0d1f3f981222" "insert-ole-objectwith-ole-package.cs" >}}
 
 ### Get Access to OLE Object Raw Data
 
@@ -39,7 +39,7 @@ Users can access OLE object data using various properties and methods of the `Ol
 
 The following code example shows how to get OLE Object raw data using the [GetRawData](https://reference.aspose.com/words/net/aspose.words.drawing/oleformat/getrawdata/) method:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-GetAccessToOLEObjectRawData.cs" >}}
+{{< gist "aspose-words-gists" "4996b573cf231d9f66ab0d1f3f981222" "get-access-to-ole-object-raw-data.cs" >}}
 
 ### Insert OLE Object as an Icon
 
@@ -47,11 +47,11 @@ OLE objects can also be inserted into documents as images.
 
 The following code example shows how to insert OLE Object as an icon. For this purpose, the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) class exposes the [InsertOleObjectAsIcon](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertoleobjectasicon/) method:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-InsertOLEObjectAsIcon.cs" >}}
+{{< gist "aspose-words-gists" "4996b573cf231d9f66ab0d1f3f981222" "insert-ole-object-as-icon.cs" >}}
 
 The following code example shows how to inserts an embedded OLE object as an icon from a stream into the document:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-InsertOLEObjectAsIconUsingStream.cs" >}}
+{{< gist "aspose-words-gists" "4996b573cf231d9f66ab0d1f3f981222" "insert-ole-object-as-icon-using-stream.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -67,7 +67,7 @@ The [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/docume
 
 The following code example shows how to insert an online video from *Vimeo* into a document:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Video-InsertOnlineVideo-InsertOnlineVideo.cs" >}}
+{{< gist "aspose-words-gists" "4996b573cf231d9f66ab0d1f3f981222" "insert-online-video.cs" >}}
 
 The second overload works with all other video resources and takes embedded HTML code as a parameter. The HTML code for embedding a video may vary depending on the provider, so contact the respective provider for details.
 
@@ -79,4 +79,4 @@ Please note that the document will be automatically optimized for MS Word 2013 t
 
 The following code example shows how to insert an online video into a document using such HTML code:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Video-InsertOnlineVideoWithEmbedHtml-InsertOnlineVideoWithEmbedHtml.cs" >}}
+{{< gist "aspose-words-gists" "4996b573cf231d9f66ab0d1f3f981222" "insert-online-video-with-embed-html.cs" >}}

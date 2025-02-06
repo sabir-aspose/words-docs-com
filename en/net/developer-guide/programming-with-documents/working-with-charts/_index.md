@@ -20,7 +20,7 @@ In this section we will learn how to insert a chart into a document.
 
 The following code example shows how to insert column chart:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-CreateColumnChart-InsertSimpleColumnChart.cs" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "insert-simple-column-chart.cs" >}}
 
 The code produces the following result:
 
@@ -29,7 +29,7 @@ The code produces the following result:
 
 There are four different overloads for series Add method, which was exposed to cover all possible variants of data sources for all chart types:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-CreateColumnChart-InsertColumnChart.cs" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "insert-column-chart.cs" >}}
 
 The code produces the following result:
 
@@ -39,7 +39,7 @@ The code produces the following result:
 
 The following code example shows how to insert a scatter chart:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-InsertScatterChart-InsertScatterChart.cs" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "insert-scatter-chart.cs" >}}
 
 The code produces the following result:
 
@@ -49,7 +49,7 @@ The code produces the following result:
 
 The following code example shows how to insert an area chart:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-InsertAreaChart-InsertAreaChart.cs" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "insert-area-chart.cs" >}}
 
 The code produces the following result:
 
@@ -59,7 +59,7 @@ The code produces the following result:
 
 The following code example shows how to insert a bubble chart:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-InsertBubbleChart-InsertBubbleChart.cs" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "insert-bubble-chart.cs" >}}
 
 The code produces the following result:
 
@@ -71,7 +71,7 @@ Once the chart was inserted and filled with data, you are able to change its app
 
 For example, let's change Chart title or legend behavior:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-CreateChartUsingShape-CreateChartUsingShape.cs" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "create-chart-using-shape.cs" >}}
 
 The code generates the followings results:
 
@@ -81,7 +81,7 @@ The code generates the followings results:
 
 Let’s look into [ChartSeries](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseries/) collection. All chart series are available through [chart.Series](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/series/) collection, which is **IEnumerable**:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-CreateColumnChart-ChartSeriesCollection.cs" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "chart-series-collection.cs" >}}
 
 You can remove series one by one or clear all of them as well as add a new one if needed. The newly inserted chart has some default series added to this collection. To remove them you need to call the **chart.Series.Clear()** method.
 
@@ -89,7 +89,7 @@ You can remove series one by one or clear all of them as well as add a new one i
 
 Here is how to work with a particular series:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithSingleChartSeries-WorkWithSingleChartSeries.cs" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "work-with-single-chart-series.cs" >}}
 
 Please see the result below:
 
@@ -98,7 +98,7 @@ Please see the result below:
 
 All single [ChartSeries](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseries/) have default [ChartDataPoint](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapoint/) options, please try using the following code to change them:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithSingleChartSeries-ChartDataPoint.cs" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "chart-data-point.cs" >}}
 
 Please see the result below:
 
@@ -108,7 +108,7 @@ Please see the result below:
 
 Using [ChartDataPoint](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapoint/) you are able to customize the formatting of a single data point of the chart series:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithSingleChartDataPoint-WorkWithSingleChartDataPoint.cs" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "work-with-single-chart-data-point.cs" >}}
 
 Please see the result below:
 
@@ -118,7 +118,7 @@ Please see the result below:
 
 Using [ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/) you are able to specify the formatting of a single data label of the chart series, like show/hide LegendKey, CategoryName, SeriesName, Value etc:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithChartDataLabels-WorkWithChartDataLabel.cs" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "work-with-chart-data-label.cs" >}}
 
 Please see the result below:
 
@@ -128,7 +128,7 @@ Please see the result below:
 
 The [ChartDataLabelCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/) class defines properties which can be used to set default options for **ChartDataLabels** for Chart **Series**. These properties include ShowCategoryName, ShowBubbleSize, ShowPercentage, ShowSeriesName, ShowValue etc:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithChartDataLabels-DefaultOptionsForDataLabels.cs" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "default-options-for-data-labels.cs" >}}
 
 Please see the result below:
 
@@ -140,7 +140,7 @@ Using [NumberFormat](https://reference.aspose.com/words/net/aspose.words.drawing
 
 The following code example shows how to format a number of the data label:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-ChartNumberFormat-FormatNumberofDataLabel.cs" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "format-number-of-data-label.cs" >}}
 
 ## How to Set Chart Axis Properties
 
@@ -148,19 +148,19 @@ If you want to work with chart axis, scaling, and display units for the value ax
 
 The following code example shows how to define X and Y-axis properties:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-DefineXYAxisProperties.cs" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "define-axis-properties.cs" >}}
 
 ### How to Set Date Time Value of Axis
 
 The following code example shows how to set date/time values to axis properties:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-SetDateTimeValuesToAxis.cs" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "date-time-values-to-axis.cs" >}}
 
 ### How to Format Number Value of Axis
 
 The following code example shows how to change the format of numbers on the value axis:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-SetNumberFormatForAxis.cs" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "number-format-for-axis.cs" >}}
 
 ### How to Set Bounds of Axis
 
@@ -168,13 +168,13 @@ The `AxisBound` class represents a minimum or maximum bound of axis values. Boun
 
 The following code example shows how to set bounds of an axis:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-SetboundsOfAxis.cs" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "bounds-of-axis.cs" >}}
 
 ### How to Set Interval Unit Between Labels
 
 The following code example shows how to set the interval unit between labels on an axis:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-SetIntervalUnitBetweenLabelsOnAxis.cs" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "interval-unit-between-labels-on-axis.cs" >}}
 
 ### How to Hide Chart Axis
 
@@ -182,7 +182,7 @@ If you want to show or hide the chart axis, you can simply achieve this by setti
 
 The following code example shows how to hide the Y-axis of the chart:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-HideChartAxis.cs" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "hide-chart-axis.cs" >}}
 
 ### How to Align Chart Label
 
@@ -190,7 +190,7 @@ If you want to set a text alignment for multi-line labels, you can simply achiev
 
 The following code example shows how to tick label alignment:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cs" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "tick-multi-line-label-alignment.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -204,61 +204,8 @@ Fill and stroke formatting can be set for chart series, data points, and markers
 
 The following code example shows how to set series color:
 
-{{< highlight csharp >}}
-
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
-
-Chart chart = shape.Chart;
-ChartSeriesCollection seriesColl = chart.Series;
-
-// Delete default generated series.
-seriesColl.Clear();
-
-// Create category names array.
-string[] categories = new string[] { "AW Category 1", "AW Category 2" };
-
-// Adding new series. Value and category arrays must be the same size.
-ChartSeries series1 = seriesColl.Add("AW Series 1", categories, new double[] { 1, 2 });
-ChartSeries series2 = seriesColl.Add("AW Series 2", categories, new double[] { 3, 4 });
-ChartSeries series3 = seriesColl.Add("AW Series 3", categories, new double[] { 5, 6 });
-
-// Set series color.
-series1.Format.Fill.ForeColor = Color.Red;
-series2.Format.Fill.ForeColor = Color.Yellow;
-series3.Format.Fill.ForeColor = Color.Blue;
-
-doc.Save(dir + "ColumnColor.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "fill-formatting.cs" >}}
 
 The following code example shows how to set line color and weight:
 
-{{< highlight csharp >}}
-
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
-
-Chart chart = shape.Chart;
-ChartSeriesCollection seriesColl = chart.Series;
-
-// Delete default generated series.
-seriesColl.Clear();
-
-// Adding new series.
-ChartSeries series1 = seriesColl.Add("AW Series 1", new double[] { 0.7, 1.8, 2.6 },
-	new double[] { 2.7, 3.2, 0.8 });
-ChartSeries series2 = seriesColl.Add("AW Series 2", new double[] { 0.5, 1.5, 2.5 },
-	new double[] { 3, 1, 2 });
-
-// Set series color.
-series1.Format.Stroke.ForeColor = Color.Red;
-series1.Format.Stroke.Weight = 5;
-series2.Format.Stroke.ForeColor = Color.LightGreen;
-series2.Format.Stroke.Weight = 5;
-
-doc.Save(dir + "LineColorAndWeight.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "stroke-formatting.cs" >}}
