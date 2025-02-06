@@ -16,20 +16,7 @@ You can specify various options for summarizing document content. Use the [Summa
 
 With Aspose.Words, implementing document summarization is straightforward. The following code example shows how to summarize a document using GPT-4o model:
 
-{{< highlight csharp >}}
-Document firstDoc = new Document(MyDir + "Big document.docx");
-Document secondDoc = new Document(MyDir + "Document.docx");
-
-string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-// Use OpenAI or Google generative language models.
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
-
-Document oneDocumentSummary = model.Summarize(firstDoc, new SummarizeOptions() { SummaryLength = SummaryLength.Short });
-oneDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.One.docx");
-
-Document multiDocumentSummary = model.Summarize(new Document[] { firstDoc, secondDoc }, new SummarizeOptions() { SummaryLength = SummaryLength.Long });
-multiDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.Multi.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "1e379bedb2b759c1be24c64aad54d13d" "ai-summarize.cs" >}}
 
 {{% alert color="primary" %}}
 
