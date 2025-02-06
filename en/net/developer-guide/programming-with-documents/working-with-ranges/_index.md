@@ -26,7 +26,7 @@ Use the [Text](https://reference.aspose.com/words/net/aspose.words/range/text/) 
 
 The following code example shows how to get a plain, unformatted text of a range:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Ranges-RangesGetText-RangesGetText.cs" >}}
+{{< gist "aspose-words-gists" "9164e9c0658006e51db723b0742c12fc" "ranges-get-text.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -40,7 +40,7 @@ Range allows the deletion of all characters of the range by calling [Delete](htt
 
 The following code example shows how to delete all characters of a range:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Ranges-RangesDeleteText-RangesDeleteText.cs" >}}
+{{< gist "aspose-words-gists" "9164e9c0658006e51db723b0742c12fc" "ranges-delete-text.cs" >}}
 
 {{% alert color="primary" %}}
 

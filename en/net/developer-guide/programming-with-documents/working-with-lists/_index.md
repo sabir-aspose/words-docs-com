@@ -42,7 +42,7 @@ The list levels are numbered 0 to 8.
 
 The following code example shows how to build a multilevel list:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderSetMultilevelListFormatting.cs" >}}
+{{< gist "aspose-words-gists" "a1dfeba1e0480d5b277a61742c8921af" "multilevel-list-formatting.cs" >}}
 
 ## Specify Formatting for a List Level
 
@@ -54,4 +54,4 @@ You can restart a list for each section using the [IsRestartAtEachSection](https
 
 The following code example shows how to create a list and restart it for each section:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-List-WorkingWithList-SetRestartAtEachSection.cs" >}}
+{{< gist "aspose-words-gists" "a1dfeba1e0480d5b277a61742c8921af" "restart-list-at-each-section.cs" >}}

@@ -24,7 +24,7 @@ Form fields are a particular case of Word fields that allows "interaction" with 
 
 The following code example shows how to insert a combobox form field into a document:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-InsertFormFields-InsertFormFields.cs" >}}
+{{< gist "aspose-words-gists" "b09907fef4643433271e4e0e912921b0" "insert-form-fields.cs" >}}
 
 ### Insert a Text Input
 
@@ -32,7 +32,7 @@ Use the **InsertTextInput** method to insert a textbox into the document.
 
 The following code example shows how to insert a text input form field into a document:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertTextInputFormField.cs" >}}
+{{< gist "aspose-words-gists" "b09907fef4643433271e4e0e912921b0" "insert-text-input-form-field.cs" >}}
 
 ### Insert a Check Box
 
@@ -40,7 +40,7 @@ Call **InsertCheckBox** to insert a checkbox into the document.
 
 The following code example shows how to insert a checkbox form field into a document:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertCheckBoxFormField.cs" >}}
+{{< gist "aspose-words-gists" "b09907fef4643433271e4e0e912921b0" "insert-check-box-form-field.cs" >}}
 
 ### Insert a Combo Box
 
@@ -48,7 +48,7 @@ Call **InsertComboBox** to insert a combobox into the document.
 
 The following code example shows how to insert a Combobox form field into a document:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertComboBoxFormField.cs" >}}
+{{< gist "aspose-words-gists" "b09907fef4643433271e4e0e912921b0" "insert-combo-box-form-field.cs" >}}
 
 ## Obtain Form Fields
 
@@ -62,19 +62,19 @@ You can download the sample file of the following examples from [Aspose.Words Gi
 
 The following code example shows how to get a collection of form fields:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-FormFieldsGetFormFieldsCollection-FormFieldsGetFormFieldsCollection.cs" >}}
+{{< gist "aspose-words-gists" "b09907fef4643433271e4e0e912921b0" "form-fields-get-form-fields-collection.cs" >}}
 
 You can get a particular form field by its index or name.
 
 The following code example shows how to access form fields:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-FormFieldsGetByName-FormFieldsGetByName.cs" >}}
+{{< gist "aspose-words-gists" "b09907fef4643433271e4e0e912921b0" "form-fields-get-by-name.cs" >}}
 
 The **FormField** properties allow you to work with form field name, type, and result.
 
 The following code example shows how to work with form field name, type, and result:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-FormFieldsWorkWithProperties-FormFieldsWorkWithProperties.cs" >}}
+{{< gist "aspose-words-gists" "b09907fef4643433271e4e0e912921b0" "form-fields-work-with-properties.cs" >}}
 
 ## Format Form Fields
 
@@ -82,4 +82,4 @@ The [Font](https://reference.aspose.com/words/net/aspose.words/inline/font/) pro
 
 The following code example shows how to apply font formatting to the **FormField**:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-FormFieldsFontFormatting-FormFieldsFontFormatting.cs" >}}
+{{< gist "aspose-words-gists" "b09907fef4643433271e4e0e912921b0" "form-fields-font-formatting.cs" >}}

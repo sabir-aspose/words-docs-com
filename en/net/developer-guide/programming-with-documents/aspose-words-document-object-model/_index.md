@@ -55,7 +55,7 @@ The type of each node can be obtained using the [NodeType](https://reference.asp
 
 The following example shows how to get a node type using the **NodeType** enumeration:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-UseNodeType.cs" >}}
+{{< gist "aspose-words-gists" "3e9d92093b2f5995f984791bfc10c944" "get-node-type.cs" >}}
 
 ## Document Tree Navigation {#document-tree-navigation}
 
@@ -99,7 +99,7 @@ When creating a new paragraph using [DocumentBuilder](https://reference.aspose.c
 
 The following code example shows that when creating any node, a document that will own the node is always defined:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-OwnerDocument.cs" >}}
+{{< gist "aspose-words-gists" "3e9d92093b2f5995f984791bfc10c944" "owner-document.cs" >}}
 
 #### Parent Node
 
@@ -111,7 +111,7 @@ Each node has a parent specified by the [ParentNode](https://reference.aspose.co
 
 You can remove a node from its parent by calling the [Remove](https://reference.aspose.com/words/net/aspose.words/node/remove/) method.The following code example shows how to access the parent node:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-GetParentNode.cs" >}}
+{{< gist "aspose-words-gists" "3e9d92093b2f5995f984791bfc10c944" "get-parent-node.cs" >}}
 
 #### Child Nodes
 
@@ -123,11 +123,7 @@ If a node has no child, then the **ChildNodes** property returns an empty collec
 
 The following code example shows how to enumerate immediate child nodes of a `CompositeNode` using the enumerator provided by the `ChildNodes` collection:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-EnumerateChildNodes.cs" >}}
-
-The following code example shows how to enumerate immediate child nodes of a `CompositeNode` using indexed access:
-
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-IndexChildNodes.cs" >}}
+{{< gist "aspose-words-gists" "3e9d92093b2f5995f984791bfc10c944" "enumerate-child-nodes.cs" >}}
 
 #### Sibling Nodes
 
@@ -135,7 +131,7 @@ You can obtain the node that immediately precedes or follows a particular node u
 
 The following code example shows how to efficiently visit all direct and indirect child nodes of a composite node:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-RecurseAllNodes.cs" >}}
+{{< gist "aspose-words-gists" "3e9d92093b2f5995f984791bfc10c944" "recurse-all-nodes.cs" >}}
 
 ### Typed Access to Child and Parent Nodes {#typed-access-to-child-and-parent-nodes}
 
@@ -151,4 +147,4 @@ Typed properties are merely useful shortcuts that sometimes provide easier acces
 
 The following code example shows how to use typed properties to access nodes of the document tree:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-TypedAccess.cs" >}}
+{{< gist "aspose-words-gists" "3e9d92093b2f5995f984791bfc10c944" "typed-access.cs" >}}

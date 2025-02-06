@@ -16,7 +16,7 @@ To remove a field inserted into a document using [DocumentBuilder](https://refer
 
 The following code example shows how to remove a field from the document:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-RemoveField-RemoveField.cs" >}}
+{{< gist "aspose-words-gists" "8c604665c1b97795df7a1e665f6b44ce" "remove-field.cs" >}}
 
 {{% alert color="primary" %}}
 

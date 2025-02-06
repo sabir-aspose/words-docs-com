@@ -64,11 +64,11 @@ Note that the `AcceptAllRevisions` method is similar to the “Accept All Change
 
 The following code example shows how to work with tracking changes:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Revisions-AcceptAllRevisions.cs" >}}
+{{< gist "aspose-words-gists" "e8d71fde166d275d0fc9471c56c3ad39" "accept-all-revisions.cs" >}}
 
 The following code example shows how revisions are generated when a node is moved within a tracked document:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Revisions-MoveNodeInTrackedDocument.cs" >}}
+{{< gist "aspose-words-gists" "e8d71fde166d275d0fc9471c56c3ad39" "move-node-in-tracked-document.cs" >}}
 
 ## Manage and Store Changes as Revisions
 
@@ -88,4 +88,4 @@ Note that there is no connection between the revisions themselves and the `Track
 
 The following code example shows how to apply different properties with revisions:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Revisions-ShapeRevision.cs" >}}
+{{< gist "aspose-words-gists" "e8d71fde166d275d0fc9471c56c3ad39" "shape-revision.cs" >}}

@@ -20,7 +20,7 @@ The current font formatting is also specified by the [Font](https://reference.as
 
 The following code example shows how to insert a paragraph into a document:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertParagraph-DocumentBuilderInsertParagraph.cs" >}}
+{{< gist "aspose-words-gists" "ecf2c438314e6c8318ca9833c7f62326" "insert-paragraph.cs" >}}
 
 ## Format Paragraph
 
@@ -28,7 +28,7 @@ Current paragraph formatting is represented by the [ParagraphFormat](https://ref
 
 The following code example shows how to set paragraph formatting:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderSetParagraphFormatting.cs" >}}
+{{< gist "aspose-words-gists" "4b5526c3c0d9cad73e05fb4b18d2c3d2" "paragraph-formatting.cs" >}}
 
 ## Apply Paragraph Style
 
@@ -38,7 +38,7 @@ In addition, the **Style** object exposes the [StyleIdentifier](https://referenc
 
 The following code example shows how to apply a paragraph style:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderApplyParagraphStyle.cs" >}}
+{{< gist "aspose-words-gists" "4b5526c3c0d9cad73e05fb4b18d2c3d2" "apply-paragraph-style.cs" >}}
 
 ### Insert Style Separator to Put Different Paragraph Styles
 
@@ -46,13 +46,13 @@ A style separator can be added to the end of a paragraph using the keyboard shor
 
 The following code example shows how to insert a style separator to accommodate different paragraph styles:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-InsertStyleSeparator-ParagraphInsertStyleSeparator.cs" >}}
+{{< gist "aspose-words-gists" "4b5526c3c0d9cad73e05fb4b18d2c3d2" "insert-style-separator.cs" >}}
 
 ### Identify Paragraph Style Separator
 
 Aspose.Words exposes the [BreakIsStyleSeparator](https://reference.aspose.com/words/net/aspose.words/paragraph/breakisstyleseparator/) public property on the `Paragraph` class to identify a paragraph with a style separator, as shown in the example below:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-ParagraphStyleSeparator-ParagraphStyleSeparator.cs" >}}
+{{< gist "aspose-words-gists" "4b5526c3c0d9cad73e05fb4b18d2c3d2" "get-paragraph-style-separator.cs" >}}
 
 ## Apply Borders and Shading to a Paragraph
 
@@ -70,10 +70,10 @@ Aspose.Words also has the [Shading](https://reference.aspose.com/words/net/aspos
 
 The following code example shows how to apply borders and shading to a paragraph:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderApplyBordersAndShadingToParagraph.cs" >}}
+{{< gist "aspose-words-gists" "4b5526c3c0d9cad73e05fb4b18d2c3d2" "apply-borders-and-shading-to-paragraph.cs" >}}
 
 ## Count Paragraph Lines
 
 If you want to count the number of lines in a paragraph for any Word document, the following code sample can be used:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-CountLinesInParagraphs-CountLinesInParagraph.cs" >}}
+{{< gist "aspose-words-gists" "4b5526c3c0d9cad73e05fb4b18d2c3d2" "get-paragraph-lines.cs" >}}

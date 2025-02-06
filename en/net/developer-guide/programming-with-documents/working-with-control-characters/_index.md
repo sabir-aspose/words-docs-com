@@ -18,4 +18,4 @@ The [ControlChar](https://reference.aspose.com/words/net/aspose.words/controlcha
 
 The following code example shows how to use control characters:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-ConvertUtil-UtilityClasses-UseControlCharacters.cs" >}}/words/net/working-with-content-control-sdt/)
+{{< gist "aspose-words-gists" "6269ddb6427f9ad20623d975774a615e" "use-control-characters.cs" >}}

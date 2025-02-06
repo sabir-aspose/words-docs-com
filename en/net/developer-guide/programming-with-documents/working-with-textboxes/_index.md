@@ -18,7 +18,7 @@ The **TextBox** class provides [IsValidLinkTarget](https://reference.aspose.com/
 
 The following code example shows how to check if the `TextBox` can be linked to the target Textbox:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Linked-Textboxes-WorkingWithLinkedTextboxes-CreateALink.cs" >}}
+{{< gist "aspose-words-gists" "68b6041746b3d6bf5137cff8e6385b5f" "create-link.cs" >}}
 
 ## Check TextBox Sequence
 
@@ -26,7 +26,7 @@ There are several ways to display text in a shape. The [TextBox](https://referen
 
 The following code example shows how to check if **TextBox** is a Head, Tail, or Middle of the sequence:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Linked-Textboxes-WorkingWithLinkedTextboxes-CheckSequence.cs" >}}
+{{< gist "aspose-words-gists" "68b6041746b3d6bf5137cff8e6385b5f" "check-sequence.cs" >}}
 
 ## Breaking a Link
 
@@ -34,4 +34,4 @@ Using the [BreakForwardLink](https://reference.aspose.com/words/net/aspose.words
 
 The following code example shows how to break a link for a **TextBox**:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Linked-Textboxes-WorkingWithLinkedTextboxes-BreakALink.cs" >}}
+{{< gist "aspose-words-gists" "68b6041746b3d6bf5137cff8e6385b5f" "break-link.cs" >}}
