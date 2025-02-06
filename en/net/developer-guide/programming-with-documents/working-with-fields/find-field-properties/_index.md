@@ -14,10 +14,10 @@ A field that is inserted using [DocumentBuilder](https://reference.aspose.com/wo
 
 The following code example shows how to find the field code and field result:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-FieldCode.cs" >}}
+{{< gist "aspose-words-gists" "7c2b7b650a88375b1d438746f78f0d64" "field-code.cs" >}}
 
 Note if you are only looking for the names of merge fields in a document, then you can instead use the built-in [GetFieldNames](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getfieldnames/) method.
 
 The following code example shows how to get names of all merge fields in a document:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-GetFieldNames-GetFieldNames.cs" >}}
+{{< gist "aspose-words-gists" "b4bab1bf22437a86d8062e91cf154494" "get-field-names.cs" >}}

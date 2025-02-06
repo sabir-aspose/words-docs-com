@@ -24,4 +24,4 @@ The **ConvertUtil** class is especially useful when setting various page propert
 
 The following code example shows how to specify page properties in inches:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-ConvertUtil-UtilityClasses-ConvertBetweenMeasurementUnits.cs" >}}
+{{< gist "aspose-words-gists" "f266e937d2c656f9441071e9a7b053c1" "convert-between-measurement-units.cs" >}}

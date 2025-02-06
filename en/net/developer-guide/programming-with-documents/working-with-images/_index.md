@@ -33,13 +33,13 @@ Pass a single string representing a file that contains the image to **InsertIma
 
 The following code example shows how to insert an inline image at the cursor position into a document:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertImage-DocumentBuilderInsertInlineImage.cs" >}}
+{{< gist "aspose-words-gists" "6f849e51240635a6322ab0460938c922" "insert-inline-image.cs" >}}
 
 ### How to Insert a Floating Image  {#insert-a-floating-image}
 
 The following code example shows how to insert a floating image from a file or `URL` at a specified position and size:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertImage-DocumentBuilderInsertFloatingImage.cs" >}}
+{{< gist "aspose-words-gists" "6f849e51240635a6322ab0460938c922" "insert-floating-image.cs" >}}
 
 ## How to Extract Images from a Document {#how-to-extract-images-from-a-document}
 
@@ -53,7 +53,7 @@ All images are stored inside **Shape** nodes in a [Document](https://reference.a
 
 The following code example shows how to extract images from a document and save them as files:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Images-ExtractImagesToFiles-ExtractImagesToFiles.cs" >}}
+{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "extract-images.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -67,9 +67,9 @@ This example demonstrates you to add the same or different barcodes on all or sp
 
 The following code example shows how to insert a barcode image on each page of a document:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Images-InsertBarcodeImage-InsertBarcodeImage.cs" >}}
+{{< gist "aspose-words-gists" "6f849e51240635a6322ab0460938c922" "insert-barcode-image.cs" >}}
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Images-InsertBarcodeImage-InsertBarcodeIntoFooter.cs" >}}
+{{< gist "aspose-words-gists" "6f849e51240635a6322ab0460938c922" "insert-barcode-into-footer.cs" >}}
 
 ## Lock Aspect Ratio of Image {#lock-aspect-ratio-of-image}
 
@@ -77,7 +77,7 @@ The aspect ratio of a geometric shape is the ratio of its sizes in different dim
 
 The following code example shows how to work with aspect ratio:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-SetAspectRatioLocked.cs" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "aspect-ratio-locked.cs" >}}
 
 ## How to Get Actual Bounds of Shape in Points {#how-to-get-actual-bounds-of-shape-in-points}
 
@@ -85,7 +85,7 @@ If you want the actual bounding box of the shape as rendered on the page, you ca
 
 The following code example shows how to use this property:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-GetActualShapeBoundsPoints.cs" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "get-actual-shape-bounds-points.cs" >}}
 
 ## Crop Images {#crop-images}
 
@@ -93,9 +93,7 @@ The cropping of an image usually refers to the removal of the unwanted outer p
 
 The following code example shows how to achieve this using Aspose.Words API:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Images-CropImages-CropImageCall.cs" >}}
-
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Images-CropImages-CropImage.cs" >}}
+{{< gist "aspose-words-gists" "6f849e51240635a6322ab0460938c922" "crop-images.cs" >}}
 
 ## Save Images as WMF {#save-images-as-wmf}
 
@@ -103,4 +101,4 @@ Aspose.Words provides functionality to save all the available images in a docume
 
 The following code example shows how to save images as WMF with RTF save options:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkingWithRtfSaveOptions-SavingImagesAsWmf.cs" >}}
+{{< gist "aspose-words-gists" "6f849e51240635a6322ab0460938c922" "saving-images-as-wmf.cs" >}}

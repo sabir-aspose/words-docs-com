@@ -36,15 +36,15 @@ In this version of Aspose.Words, the following types of SDT or content control c
 
 The following code example shows how to create content control of type checkbox:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-CheckBoxTypeContentControl-CheckBoxTypeContentControl.cs" >}}
+{{< gist "aspose-words-gists" "089defec1b191de967e6099effeabda7" "sdt-check-box.cs" >}}
 
 The following code example shows how to create content control of type rich text box:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-RichTextBoxContentControl-RichTextBoxContentControl.cs" >}}
+{{< gist "aspose-words-gists" "089defec1b191de967e6099effeabda7" "sdt-rich-text-box.cs" >}}
 
 The following code example shows how to create content control of the type combo box:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-ComboBoxContentControl-ComboBoxContentControl.cs" >}}
+{{< gist "aspose-words-gists" "089defec1b191de967e6099effeabda7" "sdt-combo-box.cs" >}}
 
 ## How to Update Content Controls
 
@@ -52,11 +52,11 @@ This section explains how to update the values of SDT or content control program
 
 The following code example shows how to set the current state of the checkbox:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-UpdateContentControls-SetCurrentStateOfCheckBox.cs" >}}
+{{< gist "aspose-words-gists" "089defec1b191de967e6099effeabda7" "current-state-of-check-box.cs" >}}
 
 The following code example shows how to modify content controls of type plain text box, drop-down list and picture:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-UpdateContentControls-ModifyContentControls.cs" >}}
+{{< gist "aspose-words-gists" "089defec1b191de967e6099effeabda7" "modify-sdt.cs" >}}
 
 ## Binding Content Control to Custom XML Parts
 
@@ -64,7 +64,7 @@ You can bind content controls with XML data (*custom XML part*) in Word document
 
 The following code example shows how to bind content control to custom XML parts:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-BindSDTtoCustomXmlPart.cs" >}}
+{{< gist "aspose-words-gists" "089defec1b191de967e6099effeabda7" "bind-sdt-to-custom-xml-part.cs" >}}
 
 ## XMLMapping of Structured Document Tag Range
 
@@ -72,7 +72,7 @@ You can get the mapping of this structured document tag range to XML data in a c
 
 The following code example shows how to set XML mapping:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-StructuredDocumentTagRangeStartXmlMapping.cs" >}}
+{{< gist "aspose-words-gists" "089defec1b191de967e6099effeabda7" "sdt-range-start-xml-mapping.cs" >}}
 
 ## Clear Contents of a Content Control
 
@@ -80,7 +80,7 @@ You can clear the contents of a content control with displaying a placeholder. T
 
 The following code example shows how to clear the content of content control:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-ClearContentsControl.cs" >}}
+{{< gist "aspose-words-gists" "089defec1b191de967e6099effeabda7" "clear-sdt.cs" >}}
 
 ## Change Content Control Background and Border Colors
 
@@ -91,7 +91,7 @@ The `StructuredDocumentTag.Color` property allows you to get or set the color of
 
 The following code example shows how to change the color of content control:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-SetContentControlColor.cs" >}}
+{{< gist "aspose-words-gists" "089defec1b191de967e6099effeabda7" "sdt-color.cs" >}}
 
 ## How to Set Style to Format Text Typed into the Content Control
 
@@ -105,7 +105,7 @@ Note that only Linked and Character styles can be applied to content control. An
 
 The following code example shows how to set the style of content control:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-SetContentControlStyle.cs" >}}
+{{< gist "aspose-words-gists" "089defec1b191de967e6099effeabda7" "sdt-style.cs" >}}
 
 ## Working with Repeating Section Content Control
 
@@ -113,4 +113,4 @@ The repeating section content control allows repeating the content contained wit
 
 The following code example shows how to bind a repeating section content control to a table.
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-CreatingTableRepeatingSectionMappedToCustomXmlPart.cs" >}}
+{{< gist "aspose-words-gists" "089defec1b191de967e6099effeabda7" "repeating-section-mapped-to-custom-xml-part.cs" >}}

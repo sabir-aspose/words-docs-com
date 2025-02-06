@@ -24,7 +24,7 @@ You can use the [UnusedLists](https://reference.aspose.com/words/net/aspose.word
 
 The following code example shows how to remove only unused styles from a document:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Working with document options and settings-CleanupUnusedStylesandLists.cs" >}}
+{{< gist "aspose-words-gists" "669f3d08f45b14f75f9d2cb17fa1056a" "cleanup-unused-styles-and-lists.cs" >}}
 
 ## Remove Duplicate Information from a Document
 
@@ -32,4 +32,4 @@ You can also use the [DuplicateStyle](https://reference.aspose.com/words/net/asp
 
 The following code example shows how to remove duplicate styles from a document:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Working with document options and settings-CleanupDuplicateStyle.cs" >}}
+{{< gist "aspose-words-gists" "669f3d08f45b14f75f9d2cb17fa1056a" "cleanup-duplicate-style.cs" >}}

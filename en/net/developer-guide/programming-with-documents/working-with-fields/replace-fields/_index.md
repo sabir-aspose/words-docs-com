@@ -35,7 +35,7 @@ However, in the header, the `PAGE` field translates well to static run of text. 
 
 The following code example shows how to replace the field with its most recent result:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-UnlinkFields.cs" >}}
+{{< gist "aspose-words-gists" "f3592014d179ecb43905e37b2a68bc92" "unlink-fields.cs" >}}
 
 ## Convert Certain Field Types in Specific Document Parts
 
@@ -53,11 +53,11 @@ The [FieldType](https://reference.aspose.com/words/net/aspose.words.fields/field
 
 The following code example shows how to select fields of a specific type – *targetFieldType* in a specific node – *compositeNode* and then convert them to static text:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-FieldsHelper-FieldsHelper.cs" >}}
+{{< gist "aspose-words-gists" "f3592014d179ecb43905e37b2a68bc92" "convert-fields-to-static-text.cs" >}}
 
 The following code example shows how to convert all `IF` fields in a document to static text:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-ConvertFieldsInDocument-ConvertFieldsInDocument.cs" >}}
+{{< gist "aspose-words-gists" "f3592014d179ecb43905e37b2a68bc92" "unlink-fields-in-document.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -67,8 +67,8 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 The following code  example shows how to convert all `PAGE` fields in a Body of a document to static text:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-ConvertFieldsInBody-ConvertFieldsInBody.cs" >}}
+{{< gist "aspose-words-gists" "f3592014d179ecb43905e37b2a68bc92" "unlink-fields-in-body.cs" >}}
 
 The following code  example shows how to convert all `IF` fields in the last paragraph to static text:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-ConvertFieldsInParagraph-ConvertFieldsInParagraph.cs" >}}
+{{< gist "aspose-words-gists" "f3592014d179ecb43905e37b2a68bc92" "unlink-fields-in-paragraph.cs" >}}

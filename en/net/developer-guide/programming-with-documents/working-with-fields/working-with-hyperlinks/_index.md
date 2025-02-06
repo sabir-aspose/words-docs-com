@@ -30,7 +30,7 @@ Note that you need to specify font formatting for the hyperlink display text exp
 
 The following code example shows how to insert a hyperlink into a document using [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/):
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHyperlink.cs" >}}
+{{< gist "aspose-words-gists" "0213851d47551e83af42233f4d075cf6" "insert-hyperlink.cs" >}}
 
 ## Replace or Modify Hyperlinks
 
@@ -40,4 +40,4 @@ To replace or modify hyperlinks, it is need to find the hyperlinks in the docume
 
 The following code example shows how to find all hyperlinks in Word document and changes their `URL` and display name:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Hyperlink-ReplaceHyperlinks-ReplaceHyperlinks.cs" >}}
+{{< gist "aspose-words-gists" "0213851d47551e83af42233f4d075cf6" "replace-hyperlinks.cs" >}}

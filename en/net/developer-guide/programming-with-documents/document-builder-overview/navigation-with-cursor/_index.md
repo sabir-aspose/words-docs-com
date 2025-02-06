@@ -30,7 +30,7 @@ The main method is to be able to move the cursor position to a specific node in 
 
 The following code example shows how to move the **DocumentBuilder** to different nodes in a document:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Add content using DocumentBuilder-MoveToNode.cs" >}}
+{{< gist "aspose-words-gists" "1a2c340d1a9dde6fe70c2733084d9aab" "move-to-node.cs" >}}
 
 But besides the basic **MoveTo** method, there are more specific ones.
 
@@ -40,7 +40,7 @@ You can go to the beginning or  the end of your document using the [MoveToDocume
 
 The following code example shows how to move the cursor position to the beginning or the end of a document:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Add content using DocumentBuilder-MoveToDocumentStartEnd.cs" >}}
+{{< gist "aspose-words-gists" "1a2c340d1a9dde6fe70c2733084d9aab" "move-to-document-start-end.cs" >}}
 
 ### Navigate With Bookmarks
 
@@ -48,7 +48,7 @@ You can mark a place that you want to find and move to it again easily. You can 
 
 The following code examples shows how to move a cursor position to a bookmark:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Add content using DocumentBuilder-MoveToBookmark.cs" >}}
+{{< gist "aspose-words-gists" "1a2c340d1a9dde6fe70c2733084d9aab" "move-to-bookmark.cs" >}}
 
 ### Navigate to Table Cells
 
@@ -56,7 +56,7 @@ You can move to a table cell by using the [MoveToCell](https://reference.aspose.
 
 The following code example shows how to move a cursor position to a specified table cell:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Add content using DocumentBuilder-MoveToTableCell.cs" >}}
+{{< gist "aspose-words-gists" "1a2c340d1a9dde6fe70c2733084d9aab" "move-to-table-cell.cs" >}}
 
 ### Navigate to a Field
 
@@ -64,7 +64,7 @@ You can move to a specific field in your document by using the [MoveToField](htt
 
 The following code example shows how to move the document builder cursor to a specific field:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Add content using DocumentBuilder-MoveToMergeField.cs" >}}
+{{< gist "aspose-words-gists" "1a2c340d1a9dde6fe70c2733084d9aab" "move-to-merge-field.cs" >}}
 
 ### Navigate to a Header or Footer
 
@@ -72,7 +72,7 @@ You can move to the beginning of a header or footer by using the [MoveToHeaderFo
 
 The following code example shows how to move document builder cursor to a document header or footer:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Add content using DocumentBuilder-MoveToHeadersFooters.cs" >}}
+{{< gist "aspose-words-gists" "1a2c340d1a9dde6fe70c2733084d9aab" "move-to-headers-footers.cs" >}}
 
 ### Navigate to a Section or Paragraph
 
@@ -80,4 +80,4 @@ You can move to a specific section or paragraph by using the [MoveToParagraph](h
 
 The following code example shows how to move to a specific section and a specific paragraph in a document:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Add content using DocumentBuilder-MoveToSection.cs" >}}
+{{< gist "aspose-words-gists" "1a2c340d1a9dde6fe70c2733084d9aab" "move-to-section.cs" >}}

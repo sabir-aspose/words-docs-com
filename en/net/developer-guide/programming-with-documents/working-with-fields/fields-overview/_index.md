@@ -213,7 +213,7 @@ To control the culture used during field calculation, just set the **Thread.Curr
 
 The following code example shows how to change the culture used in formatting fields during update:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-ChangeLocale-ChangeLocale.cs" >}}
+{{< gist "aspose-words-gists" "9e90defe4a7bcafb004f73a2ef236986" "change-locale.cs" >}}
 
 Using the current culture to format fields allows a system to easily and consistently control how all fields in the document are formatted during field update.
 
@@ -225,4 +225,4 @@ The [Document](https://reference.aspose.com/words/net/aspose.words/document/) cl
 
 The following code example shows how to specify where the culture used for date formatting during field update and Mail Merge is chosen from:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-ChangeFieldUpdateCultureSource-ChangeFieldUpdateCultureSource.cs" >}}
+{{< gist "aspose-words-gists" "9e90defe4a7bcafb004f73a2ef236986" "change-field-update-culture-source.cs" >}}

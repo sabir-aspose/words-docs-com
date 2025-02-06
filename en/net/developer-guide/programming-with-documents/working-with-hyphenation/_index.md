@@ -49,7 +49,7 @@ The following features of Aspose.Words algorithms should be taken into account:
 
 To use the hyphenation feature, first register a hyphenation dictionary.The following code example shows how to load hyphenation dictionaries for the specified languages from a file:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Hyphenation-HyphenateWordsOfLanguages.cs" >}}
+{{< gist "aspose-words-gists" "a52aacf87a36f7881ba29d25de92fb83" "hyphenate-words.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -59,7 +59,7 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 The following code example shows how to load hyphenation dictionaries for the specified language from a stream:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Hyphenation-LoadHyphenationDictionaryForLanguage.cs" >}}
+{{< gist "aspose-words-gists" "a52aacf87a36f7881ba29d25de92fb83" "load-hyphenation-dictionary.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -71,7 +71,7 @@ As an alternative to pre-registering hyphenation dictionaries, it is possible to
 
 The following code example shows how to implement the **IHyphenationCallback** interface:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Hyphenation-CustomHyphenation.cs" >}}
+{{< gist "aspose-words-gists" "a52aacf87a36f7881ba29d25de92fb83" "custom-hyphenation.cs" >}}
 
 ## Impact of Hyphenation on Layout
 

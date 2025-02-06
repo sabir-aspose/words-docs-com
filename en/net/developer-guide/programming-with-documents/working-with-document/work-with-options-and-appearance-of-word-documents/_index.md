@@ -19,7 +19,7 @@ You can control how a document will be displayed in Microsoft Word using the [Vi
 
 The following code example shows how to ensure that a document is displayed at 50% when opened in Microsoft Word:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-SetViewOption-SetViewOption.cs" >}}
+{{< gist "aspose-words-gists" "5d2997d42c1f1fad79b18873f170855f" "set-view-option.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -45,7 +45,7 @@ In Microsoft Word, you can set the same parameters using the "Document Grid" tab
 
 The following code example shows how to set the number of characters per line and the number of lines per page for a Microsoft Word document:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentPageSetup-DocumentPageSetup.cs" >}}
+{{< gist "aspose-words-gists" "5d2997d42c1f1fad79b18873f170855f" "document-page-setup.cs" >}}
 
 ## Set Language Preferences
 
@@ -61,11 +61,11 @@ If your Aspose.Words generated document does not look as expected, check the **L
 
 The following code example shows how to add Japanese to editing languages:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-Setuplanguagepreferences-AddJapaneseAsEditinglanguages.cs" >}}
+{{< gist "aspose-com-gists" "40be8275fc43f78f5e5877212e4e1bf3" "add-editing-language.cs" >}}
 
 The following code example shows how to set Russian as the default editing language:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-Setuplanguagepreferences-SetRussianAsDefaultEditingLanguage.cs" >}}
+{{< gist "aspose-words-gists" "5d2997d42c1f1fad79b18873f170855f" "set-russian-as-default-editing-language.cs" >}}
 
 ## Optimize a Document for a Particular Word Version
 
@@ -73,4 +73,4 @@ The [OptimizeFor](https://reference.aspose.com/words/net/aspose.words.settings/c
 
 The following code example shows how to optimize document content for Microsoft Word 2016:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-SetCompatibilityOptions-OptimizeFor.cs" >}}
+{{< gist "aspose-words-gists" "5d2997d42c1f1fad79b18873f170855f" "optimize-for.cs" >}}

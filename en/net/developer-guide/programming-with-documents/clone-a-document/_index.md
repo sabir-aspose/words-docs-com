@@ -34,29 +34,4 @@ Note that when applying the cloning method all document properties will be clone
 
 The following code example shows how to clone a document and create a duplicate of a section in that document:
 
-{{< highlight csharp >}}
-// Create a document.
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.Writeln("This is the original document before applying the clone method"); 
-
-// Clone the document.
-Document clone = doc.Clone();
-
-// Edit the cloned document.
-DocumentBuilder builder = new DocumentBuilder(clone);
-builder.Write("Section 1");
-builder.InsertBreak(BreakType.SectionBreakNewPage);
-builder.Write("Section 2");
-
-// This shows what is in the document originally. The document has two sections.
-Assert.AreEqual("Section 1\x000cSection 2", clone.GetText().Trim());
-
-// Duplicate the last section and append the copy to the end of the document.
-int lastSectionIdx = clone.Sections.Count - 1;
-Section newSection = clone.Sections[lastSectionIdx].Clone();
-clone.Sections.Add(newSection);
-
-// Check what the document contains after we changed it.
-Assert.AreEqual("Section 1\x000cSection 2", clone.GetText().Trim());
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "b2f62f736a2090163de7b0f221cf46d4" "clone-document.cs" >}}

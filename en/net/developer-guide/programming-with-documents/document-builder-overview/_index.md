@@ -26,7 +26,7 @@ Document navigation is based on the concept of a virtual cursor, with which you 
 
 The following code example shows how to navigate to a bookmark:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderMovingCursor-DocumentBuilderMoveToBookmarkEnd.cs" >}}
+{{< gist "aspose-words-gists" "ecf2c438314e6c8318ca9833c7f62326" "move-to-bookmark-end.cs" >}}
 
 ## Document Building and Modifying
 
@@ -44,7 +44,7 @@ To insert a text, pass the string of text you need to insert into the document t
 
 The following code example shows how to create a simple document using a document builder.
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Quick-Start-HelloWorld-HelloWorld.cs" >}}
+{{< gist "aspose-words-gists" "1d626c7186a318d22d022dc96dd91d55" "create-new-document.cs" >}}
 
 ### Specify Document Formatting
 
@@ -52,7 +52,7 @@ The [Font](https://reference.aspose.com/words/net/aspose.words/documentbuilder/f
 
 The following code example shows how to insert a formatted text using **DocumentBuilder**:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertParagraph-DocumentBuilderInsertParagraph.cs" >}}
+{{< gist "aspose-words-gists" "ecf2c438314e6c8318ca9833c7f62326" "insert-paragraph.cs" >}}
 
 {{% alert color="primary" %}}
 

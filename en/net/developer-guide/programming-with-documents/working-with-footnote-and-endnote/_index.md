@@ -20,7 +20,7 @@ If you want to insert footnote or endnote into Word document, please use the [In
 
 The following code example shows how to insert endnote into the document and set its numbering options:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkingWithFootnote-SetEndnoteOptions.cs" >}}
+{{< gist "aspose-words-gists" "3b39c2019380ee905e7d9596494916a4" "set-endnote-options.cs" >}}
 
 ## Set Number of Footnote Layout Columns
 
@@ -28,7 +28,7 @@ You can set the number of footnote layout columns using the [Columns](https://re
 
 The following code example shows how to set the number of columns for footnote layout:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkingWithFootnote-SetFootNoteColumns.cs" >}}
+{{< gist "aspose-words-gists" "3b39c2019380ee905e7d9596494916a4" "set-footnote-columns.cs" >}}
 
 ## Set the Position of Footnote and EndNote
 
@@ -36,4 +36,4 @@ The footnote position can be at the bottom of each page or beneath the text on e
 
 The following code example shows how to set the position of footnote and endnote:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkingWithFootnote-SetFootnoteOptions.cs" >}}
+{{< gist "aspose-words-gists" "3b39c2019380ee905e7d9596494916a4" "set-footnote-and-endnote-position.cs" >}}

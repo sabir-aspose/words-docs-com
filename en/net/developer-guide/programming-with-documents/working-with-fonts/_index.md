@@ -18,7 +18,7 @@ The current font formatting is represented by the **Font** object returned by th
 
 The following code example shows how to set font formatting:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderSetFontFormatting.cs" >}}
+{{< gist "aspose-words-gists" "7cb86f131b74afcbebc153f0039e3947" "set-font-formatting.cs" >}}
 
 Fill properties are also available for fonts to set text fill formatting. This makes it possible to change, for example, the foreground color or the transparency of the text fill.
 
@@ -28,7 +28,7 @@ Font line spacing is the vertical distance between the baselines of two consecut
 
 The [LineSpacing](https://reference.aspose.com/words/net/aspose.words/font/linespacing/) property was introduced to the **Font** class to obtain this value, as shown in the example below:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-GetFontLineSpacing-GetFontLineSpacing.cs" >}}
+{{< gist "aspose-words-gists" "7cb86f131b74afcbebc153f0039e3947" "get-font-line-spacing.cs" >}}
 
 ## Font EmphasisMark
 
@@ -36,4 +36,4 @@ Some East Asian languages use a special emphasis mark to indicate an emphasis. T
 
 The following code example shows how to set the **EphasisMark** property:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderSetFormatting-SetFontEmphasisMark.cs" >}}
+{{< gist "aspose-words-gists" "7cb86f131b74afcbebc153f0039e3947" "set-font-emphasis-mark.cs" >}}

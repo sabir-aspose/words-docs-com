@@ -37,29 +37,24 @@ We use [Font](https://reference.aspose.com/words/net/aspose.words/font/) formatt
 | Markdown feature              | Aspose.Words       |
 | ----------------------------- | ------------------ |
 | **Bold**<br />`**bold text**` | `Font.Bold = true` |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BoldText.cs" >}} |  |
+{{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "bold-text.cs" >}} |  |
 | **Italic**<br />`*italic text*` | `Font.Italic = true` |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}} |  |
+{{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "italic-text.cs" >}} |  |
 | **Strikethrough**<br />`~Strikethrough text~` | `Font.StrikeThrough = true` |
-| {{< highlight csharp >}} // Use a document builder to add content to the document.
-DocumentBuilder builder = new DocumentBuilder();
-
-// Make the text Strikethrough.
-builder.Font.Strikethrough = true;
-builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
+{{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "strikethrough.cs" >}} |  |
 
 We use a character style with a name that starts from the word `InlineCode`, followed by an optional dot `(.)` and a number of backticks ```(`)``` for the `InlineCode` feature. If a number of backticks is missed, then one backtick will be used by default.
 
 | Markdown feature              | Aspose.Words       |
 | ----------------------------- | ------------------ |
 | **InlineCode**<br />`**inline code**` | `Font.StyleName = “InlineCode[.][N]”` |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-InlineCode.cs" >}} |  |
+| {{< gist "aspose-words-gists" "51b4cb9c451832f23527892e19c7bca6" "inline-code.cs" >}} |  |
 | **Autolink**<br />`<scheme://domain.com>`<br />`<email@domain.com>` | The [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) class. |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Autolink.cs" >}} |  |
+{{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "autolink.cs" >}} |  |
 | **Link**<br />`[link text](url)`<br />`[link text](<url> "title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | The [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) class. |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Link.cs" >}} |  |
+{{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "link.cs" >}} |  |
 | **Image**<br />`![](url)`<br />`![alt text](<url> “title”)`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | The [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) class. |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Image.cs" >}} |  |
+{{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "image.cs" >}} |  |
 
 ## Container Blocks
 
@@ -72,46 +67,19 @@ The table below shows examples of using Markdown Leaf blocks in Aspose.Words:
 | Markdown feature                                             | Aspose.Words                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **HorizontalRule**<br />`-----`                              | This is a simple paragraph with a corresponding HorizontalRule shape:<br />`DocumentBuilder.InsertHorizontalRule()` |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}} |                                                              |
+{{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "horizontal-rule.cs" >}} |                                                              |
 | **ATX Heading**<br />`# H1, ## H2, ### H3…`                  | `ParagraphFormat.StyleName = "Heading N"`, where (1<= N <= 9).<br />This is translated into a built-in style and should be exactly of the specified pattern (no suffixes or prefixes are allowed).<br />Otherwise, it will be just a regular paragraph with a corresponding style. |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}} |                                                              |
+{{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "heading.cs" >}} |                                                              |
 | **Setext Heading**<br />`===` (if Heading level 1),<br />`---` (if Heading level 2) | `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, based on 'Heading N' style.<br />If (N >= 2), then 'Heading 2' will be used, otherwise 'Heading 1'.<br />Any suffix is allowed, but Aspose.Words importer uses numbers “1” and “2” respectively. |
-| {{< highlight csharp >}} // Use a document builder to add content to the document.
-DocumentBuilder builder = new DocumentBuilder();
-
-builder.ParagraphFormat.StyleName = "Heading 1";
-builder.Writeln("This is an H1 tag");
-
-// Reset styles from the previous paragraph to not combine styles between paragraphs.
-builder.Font.Bold = false;
-builder.Font.Italic = false;
-
-Style setexHeading1 = builder.Document.Styles.Add(StyleType.Paragraph, "SetextHeading1");
-builder.ParagraphFormat.Style = setexHeading1;
-builder.Document.Styles["SetextHeading1"].BaseStyleName = "Heading 1";
-builder.Writeln("Setext Heading level 1");
-
-builder.ParagraphFormat.Style = builder.Document.Styles["Heading 3"];
-builder.Writeln("This is an H3 tag");
-
-// Reset styles from the previous paragraph to not combine styles between paragraphs.
-builder.Font.Bold = false;
-builder.Font.Italic = false;
-
-Style setexHeading2 = builder.Document.Styles.Add(StyleType.Paragraph, "SetextHeading2");
-builder.ParagraphFormat.Style = setexHeading2;
-builder.Document.Styles["SetextHeading2"].BaseStyleName = "Heading 3";
-
-// Setex heading level will be reset to 2 if the base paragraph has a Heading level greater than 2.
-builder.Writeln("Setext Heading level 2"); {{< /highlight >}} |
+{{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "setext-heading.cs" >}} |
 | **Indented Code**                                            | `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`    |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-IndentedCode.cs" >}} |                                                              |
+{{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "indented-code.cs" >}} |                                                              |
 | **Fenced Code**<br />{{< highlight csharp >}}``` c#
 if ()
 then
 else
 ```{{< /highlight >}} | `ParagraphFormat.StyleName = “FencedCode[.][info string]”`<br />The `[.]` and `[info string]` are optional. |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-FencedCode.cs" >}}  |                                                              |
+{{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "fenced-code.cs" >}} |                                                              |
 
 ### Complex Containers
 
@@ -120,35 +88,11 @@ The table below shows examples of using Markdown Complex Containers in Aspose.Wo
 | Markdown feature                                             | Aspose.Words                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote`             | `ParagraphFormat.StyleName = “Quote[some suffix]”`<br />The suffix in style name is optional, but Aspose.Words importer uses the ordered numbers 1, 2, 3, …. in case of nested quotes.<br />The nesting is defined via the inherited styles. |
-| {{< highlight csharp >}} // Use a document builder to add content to the document.
-DocumentBuilder builder = new DocumentBuilder();
-
-// By default a document stores blockquote style for the first level.
-builder.ParagraphFormat.StyleName = "Quote";
-builder.Writeln("Blockquote");
-
-// Create styles for nested levels through style inheritance.
-Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
-builder.ParagraphFormat.Style = quoteLevel2;
-builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
-builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
+{{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "quote.cs" >}} |
 | **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	`   - Item 2a`<br />	`   - Item 2b` | Bulleted lists are represented using paragraph numbering:<br />`ListFormat.ApplyBulletDefault()`<br />There can be 3 types of bulleted lists. They are only diff in a numbering format of the very first level. These are: `‘-’`, `‘+’` or `‘*’` respectively. |
-| {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}} |                                                              |
+{{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "bulleted-list.cs" >}} |                                                              |
 | **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Ordered lists are represented using paragraph numbering:<br />`ListFormat.ApplyNumberDefault()`<br />There can be 2 number format markers: ‘.’ and ‘)’. The default marker is ‘.’. |
-| {{< highlight csharp >}}Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.ListFormat.ApplyBulletDefault();
-builder.ListFormat.List.ListLevels[0].NumberFormat = $"{(char) 0}.";
-builder.ListFormat.List.ListLevels[1].NumberFormat = $"{(char) 1}.";
-
-builder.Writeln("Item 1");
-builder.Writeln("Item 2");
-
-builder.ListFormat.ListIndent();
-
-builder.Writeln("Item 2a");
-builder.Writeln("Item 2b"); {{< /highlight >}} |                                                              |
+{{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "ordered-list.cs" >}} |                                                              |
 
 ### Tables
 
@@ -157,20 +101,7 @@ Aspose.Words also allows to translate tables into DOM, as shown below:
 | Markdown feature                                             | Aspose.Words                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | `Table`<br />`a|b`<br />`-|-`<br />`c|d`                     | [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) and [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) classes. |
-| {{< highlight csharp >}} // Use a document builder to add content to the document.
-DocumentBuilder builder = new DocumentBuilder();
-
-// Add the first row.
-builder.InsertCell();
-builder.Writeln("a");
-builder.InsertCell();
-builder.Writeln("b");
-
-// Add the second row.
-builder.InsertCell();
-builder.Writeln("c");
-builder.InsertCell();
-builder.Writeln("d"); {{< /highlight >}} |                                                              |
+{{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "table.cs" >}} |                                                              |
 
 ## See Also
 
