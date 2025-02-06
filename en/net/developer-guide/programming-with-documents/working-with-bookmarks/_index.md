@@ -26,7 +26,7 @@ All white spaces in the bookmarks were replaced with underscores. This restricti
 
 The following code example shows how to create a new bookmark:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Bookmarks-CreateBookmark-CreateBookmark.cs" >}}
+{{< gist "aspose-words-gists" "c4555b1a088856e21394104faeb86e51" "create-bookmark.cs" >}}
 
 ## Obtain Bookmarks
 
@@ -34,7 +34,7 @@ Sometimes it is necessary to obtain a bookmark collection to iterate through boo
 
 The following code example shows how to obtain bookmarks from a bookmark collection:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Bookmarks-AccessBookmarks-AccessBookmarks.cs" >}}
+{{< gist "aspose-words-gists" "c4555b1a088856e21394104faeb86e51" "access-bookmarks.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -45,7 +45,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 The following code example shows how to get or set a bookmark name and text:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Bookmarks-BookmarkNameAndText-BookmarkNameAndText.cs" >}}
+{{< gist "aspose-words-gists" "c4555b1a088856e21394104faeb86e51" "update-bookmark-data.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -55,7 +55,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 The following code example shows how to bookmark a table:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Bookmarks-BookmarkTable-BookmarkTable.cs" >}}
+{{< gist "aspose-words-gists" "c4555b1a088856e21394104faeb86e51" "bookmark-table.cs" >}}
 
 If you change the name of a bookmark to a name that already exists in the document, no error will be generated and only the first bookmark will be stored when you save the document.
 
@@ -63,7 +63,7 @@ Note that some bookmarks in the document are assigned to form fields. Moving to 
 
 The following code example shows how to access columns of the bookmarked table:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Bookmarks-BookmarkTable-BookmarkTableColumns.cs" >}}
+{{< gist "aspose-words-gists" "c4555b1a088856e21394104faeb86e51" "bookmark-table-columns.cs" >}}
 
 ## Move to a Bookmark
 
@@ -75,6 +75,6 @@ The entire Bookmark (*including the bookmarked content*) can be encapsulated wit
 
 The following code example shows how to show/ hide bookmarks:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Bookmarks-ShowHideBookmarks-ShowHideBookmarks_call.cs" >}}
+{{< gist "aspose-words-gists" "c4555b1a088856e21394104faeb86e51" "show-hide-bookmarks.cs" >}}
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Bookmarks-ShowHideBookmarks-ShowHideBookmarks.cs" >}}
+{{< gist "aspose-words-gists" "c4555b1a088856e21394104faeb86e51" "show-hide-bookmarked-content.cs" >}}

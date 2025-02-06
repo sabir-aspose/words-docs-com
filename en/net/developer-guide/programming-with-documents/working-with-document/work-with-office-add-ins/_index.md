@@ -32,10 +32,10 @@ Aspose.Words provides the ability to add Web Extensions of the Task Pane type us
 
 The following code example shows how to create task panes and add to web extension task panes with basic properties: 
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-WebExtensions-WorkingWithWebExtension-UsingWebExtensionTaskPanes.cs" >}}
+{{< gist "aspose-words-gists" "8c31c018ea71c92828223776b1a113f7" "web-extension-task-panes.cs" >}}
 
 To see a list of task pane add-ins, use the [WebExtensionTaskPanes](https://reference.aspose.com/words/net/aspose.words/document/webextensiontaskpanes/) property.
 
 The following code example shows how to get such a list of add-ins:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Working with WebExtension-GetListOfAddins.cs" >}}
+{{< gist "aspose-words-gists" "8c31c018ea71c92828223776b1a113f7" "get-list-of-addins.cs" >}}

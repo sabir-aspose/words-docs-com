@@ -39,7 +39,7 @@ The [DocumentProperty](https://reference.aspose.com/words/net/aspose.words.prope
 
 The following code example shows how to enumerate all built-in and custom properties in a document:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocProperties-EnumerateProperties.cs" >}}
+{{< gist "aspose-words-gists" "0593a8803015363f3026f648332e7026" "enumerate-properties.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -61,7 +61,7 @@ To remove custom properties, use the [Remove](https://reference.aspose.com/words
 
 The following code example checks whether a custom property with a given name exists in a document and adds a few more custom document properties:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocProperties-CustomAdd.cs" >}}
+{{< gist "aspose-words-gists" "0593a8803015363f3026f648332e7026" "add-custom-properties.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -71,7 +71,7 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 The following code example shows how to remove a custom document property:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocProperties-CustomRemove.cs" >}}
+{{< gist "aspose-words-gists" "0593a8803015363f3026f648332e7026" "remove-custom-properties.cs" >}}
 
 ## Update Built-In Document Properties
 
@@ -89,7 +89,7 @@ Aspose.Words provides the [AddLinkToContent](https://reference.aspose.com/words/
 
 The following code example shows how to configure a link to a custom property:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocProperties-ConfiguringLinkToContent.cs" >}}
+{{< gist "aspose-words-gists" "0593a8803015363f3026f648332e7026" "configuring-link-to-content.cs" >}}
 
 ## Get Document Variables
 
@@ -97,7 +97,7 @@ You can get a collection of document variables using the [Variables](https://ref
 
 The following code example shows how to enumerate document variables:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-GetVariables-GetVariables.cs" >}}
+{{< gist "aspose-words-gists" "0593a8803015363f3026f648332e7026" "get-variables.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -111,7 +111,7 @@ If you want to share a Word document with other people, you may want to remove p
 
 The following code example shows how to remove personal information:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocProperties-RemovePersonalInformation.cs" >}}
+{{< gist "aspose-words-gists" "0593a8803015363f3026f648332e7026" "remove-personal-information.cs" >}}
 
 {{% alert color="primary" %}}
 

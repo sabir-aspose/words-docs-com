@@ -43,7 +43,7 @@ You can also write ***BoldItalic*** text.
 
 The following code snippet can be used to produce the above given markdown document.
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkingWithMarkdownFeatures-MarkdownDocumentWithEmphases.cs" >}}
+{{< gist "aspose-words-gists" "19de942ef8827201c1dca99f76c59133" "emphases.cs" >}}
 
 ## Markdown Document with Headings
 
@@ -62,48 +62,41 @@ The following produces headings:
 
 The following code snippet can be used to produce the above given markdown document.
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkingWithMarkdownFeatures-MarkdownDocumentWithHeadings.cs" >}}
+{{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "heading.cs" >}}
 
 ## Markdown Document with Block Quotes
 
 This section demonstrates you how to produce a markdown document with block quotes as given below:
 
 {{< highlight csharp >}}
-We support blockquotes in Markdown:
->*Lorem*
->*ipsum*
->The quotes can be of any level and can be nested:
->>>Quote level 3
->>>
->>>>Nested quote level 4
->
->*Back to first level*
->### Headings are allowed inside Quotes
+> *Blockquote*
+>> *1. Nested blockquote*
+>>
 >{{< /highlight >}}
 
 The following code snippet can be used to produce the above given markdown document.
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkingWithMarkdownFeatures-MarkdownDocumentWithBlockQuotes.cs" >}}
+{{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "quote.cs" >}}
 
 ## Markdown Document with Horizontal Rule
 
 This section demonstrates you how to produce a markdown document with Horizontal Rule as given below:
 
 {{< highlight csharp >}}
-We support Horizontal rules (Thematic breaks) in Markdown:
+Insert a horizontal rule shape into the document.
 -----
 
 {{< /highlight >}}
 
 The following code snippet can be used to produce the above given markdown document.
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderHorizontalRule-DocumentBuilderInsertHorizontalRule.cs" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "insert-horizontal-rule.cs" >}}
 
 ## Reading a Markdown Document
 
 The following code snippet shows you how to read a markdown document.
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkingWithMarkdownFeatures-ReadMarkdownDocument.cs" >}}
+{{< gist "aspose-words-gists" "19de942ef8827201c1dca99f76c59133" "read-markdown-document.cs" >}}
 
 ## Specify Markdown Save Options
 
@@ -111,10 +104,10 @@ Aspose.Words API provides [MarkdownSaveOptions](https://reference.aspose.com/wor
 
 The following code example demonstrated how to specify various Markdown save options.
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-SpecifyMarkdownSaveOptions-SaveAsMD.cs" >}}
+{{< gist "aspose-words-gists" "51b4cb9c451832f23527892e19c7bca6" "images-folder.cs" >}}
 
 ## How to Align Content Inside the Table while Exporting into Markdown
 
 Aspose.Words API provides [TableContentAlignment](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/) enumeration which defines alignment directions to align contents in tables while exporting into the Markdown document. The following code example demonstrates how to align content inside the table.
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-SpecifyMarkdownSaveOptions-ExportIntoMarkdownWithTableContentAlignment.cs" >}}
+{{< gist "aspose-words-gists" "19de942ef8827201c1dca99f76c59133" "markdown-table-content-alignment.cs" >}}

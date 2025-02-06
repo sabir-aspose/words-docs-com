@@ -26,13 +26,9 @@ A table of contents in a Word document can be built in a number of ways and form
 
 The default switches that are used in a `TOC` inserted in Microsoft Word are **“\o “1-3 \h \z \u”**. Descriptions of these switches as well as a list of supported switches can be found later in the article. You can either use that guide obtain the correct switches or if you already have a document containing the similar `TOC` that you want you can show field codes (*ALT+F9*) and copy the switches directly from the field.
 
-The following code example  shows how to insert a Table of Contents field into a document:
-
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertTOC-DocumentBuilderInsertTOC.cs" >}}
-
 The following code example shows how to insert a Table of Contents (TOC) into a document using heading styles as entries.
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertTableOfContents.cs" >}}
+{{< gist "aspose-words-gists" "db118a3e1559b9c88355356df9d7ea10" "insert-table-of-contents.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -51,7 +47,7 @@ Please note that these two update methods are required to be called in that orde
 
 The following code example shows how to completely rebuild `TOC` fields in the document by invoking field update:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertTOC-UpdateFields.cs" >}}
+{{< gist "aspose-words-gists" "db118a3e1559b9c88355356df9d7ea10" "update-fields.cs" >}}
 
 The first call to **UpdateFields** will build the `TOC`, all text entries are populated and the `TOC` appears almost complete. The only thing missing is the page numbers which for now are displayed with “?”. The second call to **UpdatePageLayout** will build the layout of the document in memory.  This needs to be done to gather the page numbers of the entries. The correct page numbers calculated from this call are then inserted into the TOC.
 
@@ -95,13 +91,13 @@ You can insert a new TC field at the current position of the [DocumentBuilder](h
 
 The following code example shows how to insert a `TC` field into the document using **DocumentBuilder**:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertTCField-DocumentBuilderInsertTCField.cs" >}}
+{{< gist "aspose-words-gists" "db118a3e1559b9c88355356df9d7ea10" "insert-tc-field.cs" >}}
 
 Often a specific line of text is designated for the `TOC` and is marked with a `TC` field.  The easy way to do this in Microsoft Word is to highlight the text and press *ALT+SHIFT+O*. This automatically creates a `TC` field using the selected text. The same technique can be accomplished through code. The code below will find text matching the input and insert a `TC` field in the same position with the text. The code is based off the same technique used in the article.
 
 The following code example shows how to find and insert a `TC` field at text in a document:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertTCFieldsAtText-DocumentBuilderInsertTCFieldsAtText.cs" >}}
+{{< gist "aspose-words-gists" "db118a3e1559b9c88355356df9d7ea10" "insert-tc-fields-at-text.cs" >}}
 
 ## Modify Table of Contents
 
@@ -111,7 +107,7 @@ Once the appropriate style of the document has been retrieved the formatting for
 
 The following code example changes a formatting property used in the first level `TOC` style:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ChangeStyleOfTOCLevel-ChangeStyleOfTOCLevel.cs" >}}
+{{< gist "aspose-words-gists" "db118a3e1559b9c88355356df9d7ea10" "change-style-of-toc-level.cs" >}}
 
 It is also useful to note that any direct formatting of a paragraph (defined on the paragraph itself and not in the style) marked to be included the `TOC` will be copied over in the entry in the TOC. For example if the Heading 1 style is used to mark content for the `TOC` and this style has Bold formatting while the paragraph also has italic formatting directly applied to it. The resulting `TOC` entry will not be bold as that is part of style formatting however it will be italic as this is directly formatted on the paragraph.
 
@@ -121,7 +117,7 @@ Using the [Style](https://reference.aspose.com/words/net/aspose.words/style/) cl
 
 The following code example shows how to modify the position of the right tab stop in `TOC` related paragraphs:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ChangeTOCTabStops-ChangeTOCTabStops.cs" >}}
+{{< gist "aspose-words-gists" "db118a3e1559b9c88355356df9d7ea10" "change-toc-tab-stops.cs" >}}
 
 ## Remove Table of Contents from the Document
 
@@ -131,10 +127,10 @@ Firstly the [FieldStart](https://reference.aspose.com/words/net/aspose.words.fie
 
 The following code example shows how to remove a specified `TOC` from a document:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-RemoveTOCFromDocument-RemoveTOCFromDocument.cs" >}}
+{{< gist "aspose-words-gists" "db118a3e1559b9c88355356df9d7ea10" "remove-toc.cs" >}}
 
 ## Extract Table of Contents
 
 If you want to extract a table of contents from any Word document, the following code sample can be used:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-ExtractTableOfContents-ExtractTableOfContents.cs" >}}
+{{< gist "aspose-words-gists" "db118a3e1559b9c88355356df9d7ea10" "extract-toc.cs" >}}

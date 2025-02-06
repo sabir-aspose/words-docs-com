@@ -34,7 +34,7 @@ If you want to update all other fields in the document, then you need to call [U
 
 The following code example shows how to update all fields before rendering a document:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-UpdateDocFields-UpdateDocFields.cs" >}}
+{{< gist "aspose-words-gists" "08db64c4d86842c4afd1ecb925ed07c4" "update-doc-fields.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -52,7 +52,7 @@ The w:dirty is a field-level attribute that will refresh only the field you spec
 
 The following code example shows how to update fields having the dirty attribute:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Loading-and-Saving-Load_Options-LoadOptionsUpdateDirtyFields.cs" >}}
+{{< gist "aspose-words-gists" "08db64c4d86842c4afd1ecb925ed07c4" "update-dirty-fields.cs" >}}
 
 ## Update LastSavedTime Property Before Saving
 
@@ -60,4 +60,4 @@ You can use the [UpdateLastSavedTimeProperty](https://reference.aspose.com/words
 
 The following code example shows how to update this property:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-WorkingWithSaveOptions-UpdateLastSavedTimeProperty.cs" >}}
+{{< gist "aspose-words-gists" "83e5c469d0e72b5114fb8a05a1d01977" "update-last-saved-time.cs" >}}

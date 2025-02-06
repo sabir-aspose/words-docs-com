@@ -20,9 +20,9 @@ Aspose.Words provides API for custom formatting of field's result. You can imple
 
 The following code example shows how to apply custom formatting for the field result:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-FormatFieldResult-FormatFieldResult.cs" >}}
+{{< gist "aspose-words-gists" "79b46682fbfd7f02f64783b163ed95fc" "field-result-formatting.cs" >}}
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-FormatFieldResult-FieldResultFormatter.cs" >}}
+{{< gist "aspose-words-gists" "79b46682fbfd7f02f64783b163ed95fc" "field-result-formatter.cs" >}}
 
 ## How to evaluate `IF` condition
 
@@ -30,7 +30,7 @@ If you want to evaluate `IF` condition after mail merge, you can use the [Evalua
 
 The following code example shows how to use this method:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-EvaluateIFCondition-EvaluateIFCondition.cs" >}}
+{{< gist "aspose-words-gists" "79b46682fbfd7f02f64783b163ed95fc" "evaluate-if-condition.cs" >}}
 
 ## How to Apply Custom Formatting to Time Field
 
@@ -38,6 +38,6 @@ By default Aspose.Words updates `TIME` field with current culture short time for
 
 The following code examples shows how to apply custom formatting to the `TIME` field:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-FieldUpdateCulture-FieldUpdateCultureProvider.cs" >}}
+{{< gist "aspose-words-gists" "79b46682fbfd7f02f64783b163ed95fc" "field-update-culture.cs" >}}
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-FieldUpdateCultureProvider-FieldUpdateCultureProviderGetCulture.cs" >}}
+{{< gist "aspose-words-gists" "79b46682fbfd7f02f64783b163ed95fc" "field-update-culture-provider.cs" >}}

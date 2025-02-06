@@ -20,7 +20,7 @@ You can insert inline shape with specified type and size and free-floating shape
 
 The following code example shows how to insert these types of shapes into the document:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-InsertShapeUsingDocumentBuilder.cs" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "insert-shape.cs" >}}
 
 ## Set Aspect Ratio Locked
 
@@ -28,7 +28,7 @@ Using Aspose.Words, you can specify whether the shape’s aspect ratio is locked
 
 The following code example shows how to work with the **AspectRatioLocked** property:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-SetAspectRatioLocked.cs" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "aspect-ratio-locked.cs" >}}
 
 ## Set Shape Layout In Cell
 
@@ -36,7 +36,7 @@ You can also specify whether the shape is displayed inside a table or outside of
 
 The following code example shows how to work with the **IsLayoutInCell** property:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-SetShapeLayoutInCell.cs" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "layout-in-cell.cs" >}}
 
 ## Create Snip Corner Rectangle
 
@@ -46,7 +46,7 @@ The DML shape is created using **InsertShape** method with these shape types. Th
 
 The following code example shows how to insert these type of shapes into the document:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-AddCornersSnipped.cs" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "add-corners-snipped.cs" >}}
 
 ## Get Actual Shape Bounds Points
 
@@ -54,7 +54,7 @@ Using Aspose.Words API, you can get the location and size of the shape containin
 
 The following code example shows how to work with the **BoundsInPoints** property:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-GetActualShapeBoundsPoints.cs" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "get-actual-shape-bounds-points.cs" >}}
 
 ## Specify Vertical Anchor
 
@@ -62,7 +62,7 @@ You can specify the text vertical alignment within a shape using the [VerticalAn
 
 The following code example shows how to work with the **VerticalAnchor** property:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-SpecifyVerticalAnchor.cs" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "vertical-anchor.cs" >}}
 
 ## Detect SmartArt Shape
 
@@ -70,7 +70,7 @@ Aspose.Words also allows to detect if the Shape has a `SmartArt` object. To do t
 
 The following code example shows how to work with the **HasSmartArt** property:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-DetectSmartArtShape.cs" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "detect-smart-art-shape.cs" >}}
 
 ## Insert Horizontal Rule into Document
 
@@ -78,13 +78,13 @@ You can insert horizontal rule shape into a document using the [InsertHorizontal
 
 The following code example shows how to do this:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertHorizontalRule-DocumentBuilderInsertHorizontalRule.cs" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "insert-horizontal-rule.cs" >}}
 
 Aspose.Words API provides the [HorizontalRuleFormat](https://reference.aspose.com/words/net/aspose.words.drawing/shape/horizontalruleformat/) property to access the properties of the horizontal rule shape. The [HorizontalRuleFormat](https://reference.aspose.com/words/net/aspose.words.drawing/horizontalruleformat/) class exposes basic properties like Height, Color, NoShade etc. for the formatting of a horizontal rule.
 
 The following code example shows how to set **HorizontalRuleFormat**:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderHorizontalRule-DocumentBuilderHorizontalRuleFormat.cs" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "horizontal-rule-format.cs" >}}
 
 ## Import Shapes with Math XML as Shapes into DOM
 
@@ -92,4 +92,4 @@ You can use the [ConvertShapeToOfficeMath](https://reference.aspose.com/words/ne
 
 The following code example shows how to convert shapes to Office Math objects:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Load_Options-ConvertShapeToOfficeMath.cs" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "convert-shape-to-office-math.cs" >}}

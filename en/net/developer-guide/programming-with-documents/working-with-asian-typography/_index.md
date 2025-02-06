@@ -20,7 +20,7 @@ If you are designing a template with both East Asian and Latin text and  want to
 
 The following code example shows how to use **AddSpaceBetweenFarEastAndAlpha** and **AddSpaceBetweenFarEastAndDigit** properties:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderSetSpacebetweenAsianandLatintext.cs" >}}
+{{< gist "aspose-words-gists" "4f54ffd5c7580f0d146b53e52d986f38" "space-between-asian-and-latin-text.cs" >}}
 
 ## Set Line Break Options
 
@@ -28,4 +28,4 @@ The Asian Typography tab of the paragraph properties dialog box in Microsoft Wor
 
 The following code example shows how to use these properties:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderSetFormatting-SetAsianTypographyLinebreakGroupProp.cs" >}}
+{{< gist "aspose-words-gists" "4f54ffd5c7580f0d146b53e52d986f38" "asian-typography-line-break-group.cs" >}}
