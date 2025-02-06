@@ -16,19 +16,7 @@ Aspose.Words allows users to check grammar and detect errors in documents using 
 
 The following code example shows how to use the GPT-4o mini model in Aspose.Words to check grammar:
 
-{{< highlight csharp >}}
-Document doc = new Document(MyDir + "Big document.docx");
-
-string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-// Use OpenAI generative language models.
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
-
-CheckGrammarOptions grammarOptions = new CheckGrammarOptions();
-grammarOptions.ImproveStylistics = true;
-
-Document proofedDoc = model.CheckGrammar(doc, grammarOptions);
-proofedDoc.Save("AI.AiGrammar.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "98a646d19cd7708ed0cd3d97b993a053" "ai-grammar.cs" >}}
 
 {{% alert color="primary" %}}
 
