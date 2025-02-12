@@ -108,6 +108,8 @@ The following code example shows how to set metered public and private keys:
 
 {{< gist "aspose-words-gists" "45c97d37bef13067c82e741b922a2d4f" "apply-metered-license.py" >}}
 
+Normally it is enough to apply the metered license once on application start. However, if the metered licensing mechanism fails to communicate with the Aspose servers for 24 hours, Aspose.Words will exit licensed mode and switch to evaluation mode. To avoid such case, you can use the [is_metered_licensed](https://reference.aspose.com/words/python-net/aspose.words/metered/is_metered_licensed/#default) method to check the license status and reapply the metered license if necessary.
+
 {{% alert color="primary" %}}
 
 Please note that you must have a stable Internet connection for the correct use of the Metered license, since the Metered mechanism requires the constant interaction with our services for correct calculations. For more details, refer to the [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered/) section.

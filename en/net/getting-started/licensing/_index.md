@@ -119,7 +119,7 @@ The following code example shows how to set limited public and private keys:
 
 {{< gist "aspose-words-gists" "c762ebd027c53ed61fce5bc5ccac1ca7" "apply-metered-license.cs" >}}
 
-Normally it is enough to apply the metered license once on application start. However, if the metered licensing mechanism fails to communicate with the Aspose servers for 24 hours, Aspose.Words will exit licensed mode and switch to evaluation mode. To avoid such case, you should regularly check the license status – if Aspose.Words turns into evaluation mode, please apply the metered license again.
+Normally it is enough to apply the metered license once on application start. However, if the metered licensing mechanism fails to communicate with the Aspose servers for 24 hours, Aspose.Words will exit licensed mode and switch to evaluation mode. To avoid such case, you can use the [IsMeteredLicensed](https://reference.aspose.com/words/net/aspose.words/metered/ismeteredlicensed/) method to check the license status and reapply the metered license if necessary.
 
 {{% alert color="primary" %}}
 
