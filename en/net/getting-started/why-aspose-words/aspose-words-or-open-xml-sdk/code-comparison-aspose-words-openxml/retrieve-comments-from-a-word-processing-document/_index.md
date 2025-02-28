@@ -22,19 +22,7 @@ In Aspose.Words, use the [Comment](https://reference.aspose.com/words/net/aspose
 
 The following code example shows how to retrieve comments from a Word Document:
 
-{{< highlight csharp >}}
-public void RetrieveCommentsFeature()
-{
-	Document doc = new Document(MyDir + "Comments.docx");
-	ArrayList collectedComments = new ArrayList();
-	NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-	// Look through all comments and gather information about them.
-	foreach (Comment comment in comments)
-	collectedComments.Add(comment.Author + " " + comment.DateTime + " " + comment.ToString(SaveFormat.Text));
-	foreach (string collectedComment in collectedComments)
-		Console.WriteLine(collectedComment);
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "76c981f29087d3f2c59d8756ff16db3a" "retrieve-comments-aspose-words.cs" >}}
 
 {{< /tab >}}
 
@@ -42,29 +30,9 @@ public void RetrieveCommentsFeature()
 
 You can also do the same using the Open XML SDK. At the same time, note that it looks somewhat more complicated and more cumbersome.
 
-Following are the namespaces we need to add:
-
-{{< highlight csharp >}}
-using System;
-using DocumentFormat.OpenXml.Packaging;
-using DocumentFormat.OpenXml.Wordprocessing;
-using NUnit.Framework;
-{{< /highlight >}}
-
 The following code example shows how to retrieve comments from a Word Document:
 
-{{< highlight csharp >}}
-public static void RetrieveCommentsFeature()
-{
-	using (WordprocessingDocument wordDoc = WordprocessingDocument.Open(MyDir + "Comments.docx", false))
-	{
-		WordprocessingCommentsPart commentsPart = wordDoc.MainDocumentPart.WordprocessingCommentsPart;
-		if (commentsPart?.Comments != null)
-			foreach (Comment comment in commentsPart.Comments.Elements<Comment>())
-				Console.WriteLine(comment.InnerText);
-	}
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "76c981f29087d3f2c59d8756ff16db3a" "retrieve-comments-open-xml.cs" >}}
 
 {{< /tab >}}
 

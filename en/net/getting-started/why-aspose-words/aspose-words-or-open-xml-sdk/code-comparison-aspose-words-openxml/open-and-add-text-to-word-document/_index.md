@@ -22,19 +22,7 @@ In Aspose.Words, we normally use the [Document](https://reference.aspose.com/wor
 
 The following code example shows how to open an existing document and add text into it:
 
-{{< highlight csharp >}}
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-// Specify font formatting before adding text.
-Aspose.Words.Font font = builder.Font;
-font.Size = 16;
-font.Bold = true;
-font.Color = Color.Blue;
-font.Name = "Arial";
-font.Underline = Underline.Dash;
-builder.Write("Insert text");
-doc.Save("ModifiedDocument.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "bab40e2c44b7e59094cc177a8d5204d3" "add-text-aspose-words.cs" >}}
 
 {{< /tab >}}
 
@@ -42,30 +30,9 @@ doc.Save("ModifiedDocument.docx");
 
 You can also do the same using the Open XML SDK. At the same time, note that it looks somewhat more complicated and more cumbersome.
 
-Following are the namespace we need to use:
+Below is the code explaining this functionality:
 
-{{< highlight csharp >}}
-using DocumentFormat.OpenXml.Packaging;
-using DocumentFormat.OpenXml.Wordprocessing;
-{{< /highlight >}}
-
-Below is the code explaining this functionality by using **OpenAndAddTextToWordDocument** as a function:
-
-{{< highlight csharp >}}
-public void OpenAndAddTextToWordDocumentFeature()
-{
-	// Open a `WordprocessingDocument` for editing using the filepath.
-	using (WordprocessingDocument wordprocessingDocument = WordprocessingDocument.Open(MyDir + "Document.docx", true))
-	{
-		// Assign a reference to the existing document body.
-		Body body = wordprocessingDocument.MainDocumentPart.Document.Body;
-		// Add new text.
-		Paragraph para = body.AppendChild(new Paragraph());
-		Run run = para.AppendChild(new Run());
-		run.AppendChild(new Text("Append text in body - Open and add text to word document"));
-	}
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "bab40e2c44b7e59094cc177a8d5204d3" "add-text-open-xml.cs" >}}
 
 {{< /tab >}}
 
