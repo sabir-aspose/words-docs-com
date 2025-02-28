@@ -22,22 +22,7 @@ In Aspose.Words text in a table can be normally changed using the [Range.Replace
 
 The following code example shows how to change text in a table:
 
-{{< highlight csharp >}}
-public void ChangeTextInATableFeature()
-{
-	Document doc = new Document(MyDir + "Change text in a table.docx");
-	// Get the first table in the document.
-	Table table = (Table)doc.GetChild(NodeType.Table, 0, true);
-	// Replace any instances of our string in the last cell of the table only.
-	FindReplaceOptions options = new FindReplaceOptions
-	{
-		MatchCase = true, 
-		FindWholeWordsOnly = true
-	};
-	table.Rows[1].Cells[2].Range.Replace("Mr", "test", options);
-	doc.Save(ArtifactsDir + "Change text in a table - Aspose.Words.docx");
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "5c43f00592b523d516037445f9a4bc66" "replace-table-text-aspose-words.cs" >}}
 
 {{< /tab >}}
 
@@ -45,42 +30,9 @@ public void ChangeTextInATableFeature()
 
 You can also do the same using the Open XML SDK. At the same time, note that it looks somewhat more complicated and more cumbersome.
 
-Following are the namespaces we need to add:
-
-{{< highlight csharp >}}
-using System.Linq;
-using DocumentFormat.OpenXml.Packaging;
-using DocumentFormat.OpenXml.Wordprocessing;
-using NUnit.Framework;
-{{< /highlight >}}
-
 The following code example shows how to change text in a table:
 
-{{< highlight csharp >}}
-public void ChangeTextInATableFeature()
-{
-	// Use the file name and path passed in as an argument to 
-	// open an existing document.            
-	using (WordprocessingDocument doc =
-	WordprocessingDocument.Open(MyDir + "Change text in a table.docx", true))
-	{
-		// Find the first table in the document.
-		Table table =
-		doc.MainDocumentPart.Document.Body.Elements<Table>().First();
-		// Find the second row in the table.
-		TableRow row = table.Elements<TableRow>().ElementAt(1);
-		// Find the third cell in the row.
-		TableCell cell = row.Elements<TableCell>().ElementAt(2);
-		// Find the first paragraph in the table cell.
-		Paragraph p = cell.Elements<Paragraph>().First();
-		// Find the first run in the paragraph.
-		Run r = p.Elements<Run>().First();
-		// Set the text for the run.
-		Text t = r.Elements<Text>().First();
-		t.Text = "The text from the OpenXML API example";
-	}
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "5c43f00592b523d516037445f9a4bc66" "replace-table-text-open-xml.cs" >}}
 
 {{< /tab >}}
 

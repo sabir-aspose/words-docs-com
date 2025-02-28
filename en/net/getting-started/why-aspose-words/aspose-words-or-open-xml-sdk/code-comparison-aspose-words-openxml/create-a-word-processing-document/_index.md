@@ -22,12 +22,7 @@ In Aspose.Words, we normally use the [Document](https://reference.aspose.com/wor
 
 The following code example shows how to create a document:
 
-{{< highlight csharp >}}
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.Writeln("Hello World!");
-doc.Save("CreateDocument.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "e75459ad5b9ea7ac4cbea10ab631a491" "create-new-document-aspose-words.cs" >}}
 
 {{< /tab >}}
 
@@ -35,34 +30,9 @@ doc.Save("CreateDocument.docx");
 
 You can also do the same using the Open XML SDK. At the same time, note that it looks somewhat more complicated and more cumbersome.
 
-Following are the namespaces we need to add:
-
-{{< highlight csharp >}}
-using DocumentFormat.OpenXml;
-using DocumentFormat.OpenXml.Packaging;
-using DocumentFormat.OpenXml.Wordprocessing;
-using NUnit.Framework;
-{{< /highlight >}}
-
 The following code example shows how to create a document:
 
-{{< highlight csharp >}}
-public void CreateADocumentFeature()
-{
-	using (WordprocessingDocument wordDocument =
-		WordprocessingDocument.Create(ArtifactsDir + "Create a document - OpenXML.docx",
-			WordprocessingDocumentType.Document))
-	{
-		MainDocumentPart mainPart = wordDocument.AddMainDocumentPart();
-		// Create the document structure and add some text.
-		mainPart.Document = new Document();
-		Body body = mainPart.Document.AppendChild(new Body());
-		Paragraph para = body.AppendChild(new Paragraph());
-		Run run = para.AppendChild(new Run());
-		run.AppendChild(new Text("Create text in body - Create wordprocessing document"));
-	}
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "e75459ad5b9ea7ac4cbea10ab631a491" "create-new-document-open-xml.cs" >}}
 
 {{< /tab >}}
 

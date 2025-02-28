@@ -22,19 +22,7 @@ In Aspose.Words, use the [ParagraphBreakFont](https://reference.aspose.com/words
 
 The following code example shows how to remove hidden text from a Word Document:
 
-{{< highlight csharp >}}
-Document doc = new Document(MyDir + "Remove hidden text.docx");
-foreach (Paragraph par in doc.GetChildNodes(NodeType.Paragraph, true))
-{
-	par.ParagraphBreakFont.Hidden = false;
-	foreach (Run run in par.GetChildNodes(NodeType.Run, true))
-	{
-		if (run.Font.Hidden)
-		run.Font.Hidden = false;
-	}
-}
-doc.Save(ArtifactsDir + "Remove hidden text - Aspose.Words.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "eb67d190c2c419e869e6767d80633985" "remove-hidden-text-aspose-words.cs" >}}
 
 {{< /tab >}}
 
@@ -42,47 +30,9 @@ doc.Save(ArtifactsDir + "Remove hidden text - Aspose.Words.docx");
 
 You can also do the same using the Open XML SDK. At the same time, note that it looks somewhat more complicated and more cumbersome.
 
-Following are the namespaces we need to add:
-
-{{< highlight csharp >}}
-using System.IO;
-using System.Xml;
-using DocumentFormat.OpenXml.Packaging;
-using NUnit.Framework;
-{{< /highlight >}}
-
 The following code example shows how to remove hidden text from a Word document:
 
-{{< highlight csharp >}}
-public void RemoveHiddenTextFeature()
-{
-	const string wordmlNamespace = "https://schemas.openxmlformats.org/wordprocessingml/2006/main";
-	using (WordprocessingDocument wdDoc = WordprocessingDocument.Open(MyDir + "Remove hidden text.docx", true))
-	{
-		// Manage namespaces to perform XPath queries.
-		NameTable nt = new NameTable();
-		XmlNamespaceManager nsManager = new XmlNamespaceManager(nt);
-		nsManager.AddNamespace("w", wordmlNamespace);
-		// Get the document part from the package.
-		// Load the XML in the document part into an XmlDocument instance.
-		XmlDocument xdoc = new XmlDocument(nt);
-		xdoc.Load(wdDoc.MainDocumentPart.GetStream());
-		XmlNodeList hiddenNodes = xdoc.SelectNodes("//w:vanish", nsManager);
-		foreach (XmlNode hiddenNode in hiddenNodes)
-		{
-			XmlNode topNode = hiddenNode.ParentNode.ParentNode;
-			XmlNode topParentNode = topNode.ParentNode;
-			topParentNode.RemoveChild(topNode);
-			if (!(topParentNode.HasChildNodes))
-				topParentNode.ParentNode.RemoveChild(topParentNode);
-		}
-		using (Stream stream = File.Create(ArtifactsDir + "Remove hidden text - OpenXML.docx"))
-		{
-			xdoc.Save(stream);
-		}
-	}
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "eb67d190c2c419e869e6767d80633985" "remove-hidden-text-open-xml.cs" >}}
 
 {{< /tab >}}
 
