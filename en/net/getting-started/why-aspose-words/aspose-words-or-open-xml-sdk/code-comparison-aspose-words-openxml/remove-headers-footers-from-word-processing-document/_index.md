@@ -23,17 +23,7 @@ Aspose.Words provide API for working with headers and footers in Microsoft Word 
 
 The following code example shows how to remove header and footer from a Word document:
 
-{{< highlight csharp >}}
-Document doc = new Document(MyDir + "Document.docx");
-foreach (Section section in doc)
-{
-	section.HeadersFooters.RemoveAt(0);
-	// Odd pages use the primary footer.
-	HeaderFooter footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
-	footer?.Remove();
-}
-doc.Save(ArtifactsDir + "Remove header and footer - Aspose.Words.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "3fbf1435ff3b2e08f9968067e177307d" "remove-header-footer-aspose-words.cs" >}}
 
 {{< /tab >}}
 
@@ -41,22 +31,7 @@ doc.Save(ArtifactsDir + "Remove header and footer - Aspose.Words.docx");
 
 You can also do the same using the Open XML SDK. At the same time, note that it looks somewhat more complicated and more cumbersome.
 
-To use the code example, you must install the Open XML SDK 2.5. Then you must explicitly reference the following assemblies in your project:
-
-- WindowsBase
-- `DocumentFormat.OpenXml` (installed by the Open XML SDK)
-
-Following are the namespaces we need to add:
-
-{{< highlight csharp >}}
-using System.IO;
-using System.Linq;
-using DocumentFormat.OpenXml.Packaging;
-using DocumentFormat.OpenXml.Wordprocessing;
-using NUnit.Framework;
-{{< /highlight >}}
-
-The **RemoveHeadersAndFooters** method works with the document you specify, deleting all of the header and footer parts and references to those parts. The code starts by opening the document, using the `Open` method and indicating that the document should be opened for read/write access (the final true parameter). Given the open document, the code uses the **MainDocumentPart** property to navigate to the main document, storing the reference in a variable named docPart.
+The method works with the document you specify, deleting all of the header and footer parts and references to those parts. The code starts by opening the document, using the `Open` method and indicating that the document should be opened for read/write access (the final true parameter). Given the open document, the code uses the **MainDocumentPart** property to navigate to the main document, storing the reference in a variable named docPart.
 
 Given a reference to the document part, the code next determines if it has any work to do─that is, if the document contains any headers or footers. This simple method **DeleteParts** provides a shortcut for deleting a collection of parts.
 
@@ -64,39 +39,7 @@ To remove the stranded references, the code first retrieves a collection of **He
 
 The following code example shows how to remove header and footer from a Word document:
 
-{{< highlight csharp >}}
-public void RemoveHeaderFooterFeature()
-{
-	using (WordprocessingDocument doc = WordprocessingDocument.Open(MyDir + "Document.docx", true))
-	{
-		var mainDocumentPart = doc.MainDocumentPart;
-		// Count the header and footer parts and continue if there are any.
-		if (mainDocumentPart.HeaderParts.Any() |  | mainDocumentPart.FooterParts.Any())
-		{
-			// Remove the header and footer parts.
-			mainDocumentPart.DeleteParts(mainDocumentPart.HeaderParts);
-			mainDocumentPart.DeleteParts(mainDocumentPart.FooterParts);
-			// Get a reference to the root element of the main document part.
-			Document document = mainDocumentPart.Document;
-			// Remove all references to the headers and footers.
-			// First, create a list of all descendants of type HeaderReference.
-			// Then, navigate the list and call remove on each item to delete the reference.
-			var headers = document.Descendants<HeaderReference>().ToList();
-			foreach (var header in headers)
-				header.Remove();
-			// First, create a list of all descendants of type FooterReference.
-			// Then, navigate the list and call remove on each item to delete the reference.
-			var footers = document.Descendants<FooterReference>().ToList();
-			foreach (var footer in footers)
-				footer.Remove();
-			using (Stream stream = File.Create(ArtifactsDir + "Remove header and footer - OpenXML.docx"))
-			{
-				document.Save(stream);
-			}
-		}
-	}
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "3fbf1435ff3b2e08f9968067e177307d" "remove-header-footer-open-xml.cs" >}}
 
 {{< /tab >}}
 

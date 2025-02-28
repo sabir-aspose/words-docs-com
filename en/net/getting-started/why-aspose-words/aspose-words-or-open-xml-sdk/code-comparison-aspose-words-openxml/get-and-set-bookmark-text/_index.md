@@ -23,7 +23,7 @@ Bookmark](https://reference.aspose.com/words/net/aspose.words/bookmark) to work 
 
 The following code example shows how to get and set bookmark text in a document:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Bookmarks-BookmarkNameAndText-BookmarkNameAndText.cs" >}}
+{{< gist "aspose-words-gists" "a07e9ebecd60b1cbdfc1063ab58e87c6" "bookmark-text-aspose-words.cs" >}}
 
 {{< /tab >}}
 
@@ -31,38 +31,9 @@ The following code example shows how to get and set bookmark text in a document:
 
 You can also do the same using the Open XML SDK. At the same time, note that it looks somewhat more complicated and more cumbersome.
 
-Below is the code example for getting and setting Bookmark text in word document using OpenXML SDK.
-
-Following are the namespaces we need to add:
-
-{{< highlight csharp >}}
-using System.Collections.Generic;
-using DocumentFormat.OpenXml.Packaging;
-using DocumentFormat.OpenXml.Wordprocessing;
-using NUnit.Framework;
-{{< /highlight >}}
-
 The following code example shows how to get and set bookmark text in a document:
 
-{{< highlight csharp >}}
-public void GetAndSetBookmarkTextFeature()
-{
-	IDictionary<string, BookmarkStart> bookmarkMap = new Dictionary<string, BookmarkStart>();
-	using (WordprocessingDocument wordDocument = WordprocessingDocument.Open(MyDir + "Get and set bookmark text.docx", true))
-	{
-		foreach (BookmarkStart bookmarkStart in wordDocument.MainDocumentPart.Document.Body.Descendants<BookmarkStart>())
-		{
-			bookmarkMap[bookmarkStart.Name] = bookmarkStart;
-			foreach (BookmarkStart bookmark in bookmarkMap.Values)
-			{
-				Run bookmarkText = bookmark.NextSibling<Run>()
-				if (bookmarkText != null)
-					bookmarkText.GetFirstChild<Text>().Text = "Test";
-			}
-		}
-	}
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "a07e9ebecd60b1cbdfc1063ab58e87c6" "bookmark-text-open-xml.cs" >}}
 
 {{< /tab >}}
 
