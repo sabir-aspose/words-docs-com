@@ -22,22 +22,7 @@ In Aspose.Words, use the [PageBreak](https://reference.aspose.com/words/net/aspo
 
 The following code example shows how to remove page breaks from a document:
 
-{{< highlight csharp >}}
-Document doc = new Document(MyDir + "Remove page breaks.docx");
-// Retrieve all paragraphs in the document.
-NodeCollection paragraphs = doc.GetChildNodes(NodeType.Paragraph, true);
-foreach (Paragraph para in paragraphs)
-{
-	// If the paragraph has a page break set before, then clear it.
-	if (para.ParagraphFormat.PageBreakBefore)
-		para.ParagraphFormat.PageBreakBefore = false;
-	// Check all runs in the paragraph for page breaks and remove them.
-	foreach (Run run in para.Runs)
-		if (run.Text.Contains(ControlChar.PageBreak))
-			run.Text = run.Text.Replace(ControlChar.PageBreak, string.Empty);
-}
-doc.Save(ArtifactsDir + "Remove page breaks - Aspose.Words.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "8cceaff98abfaa9643169bb00de01e4b" "remove-page-breaks-aspose-words.cs" >}}
 
 {{< /tab >}}
 
@@ -45,35 +30,9 @@ doc.Save(ArtifactsDir + "Remove page breaks - Aspose.Words.docx");
 
 You can also do the same using the Open XML SDK. At the same time, note that it looks somewhat more complicated and more cumbersome.
 
-Following are the namespaces we need to add:
-
-{{< highlight csharp >}}
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using DocumentFormat.OpenXml.Packaging;
-using DocumentFormat.OpenXml.Wordprocessing;
-using NUnit.Framework;
-{{< /highlight >}}
-
 The following code example shows how to remove page breaks from a document:
 
-{{< highlight csharp >}}
-public void RemovePageBreaksFeature()
-{
-	using (WordprocessingDocument myDoc = WordprocessingDocument.Open(MyDir + "Remove page breaks.docx", true))
-	{
-		MainDocumentPart mainPart = myDoc.MainDocumentPart;
-		List<Break> breaks = mainPart.Document.Descendants<Break>().ToList();
-		foreach (Break b in breaks)
-			b.Remove();
-		using (Stream stream = File.Create(ArtifactsDir + "Remove page breaks - OpenXML.docx"))
-		{
-			mainPart.Document.Save(stream);
-		}
-	}
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "8cceaff98abfaa9643169bb00de01e4b" "remove-page-breaks-open-xml.cs" >}}
 
 {{< /tab >}}
 

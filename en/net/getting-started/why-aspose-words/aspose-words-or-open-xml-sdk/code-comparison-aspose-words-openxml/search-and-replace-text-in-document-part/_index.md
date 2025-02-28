@@ -22,15 +22,7 @@ In Aspose.Words, use the [Replace](https://reference.aspose.com/words/net/aspose
 
 The following code example shows how to find and replace text from a document part:
 
-{{< highlight csharp >}}
-public static void SearchAndReplaceTextFeature()
-{
-	Document doc = new Document(MyDir + "Search and replace text.docx");
-	Regex regex = new Regex("Hello World!", RegexOptions.IgnoreCase);
-	doc.Range.Replace(regex, "Hi Everyone!");
-	doc.Save(ArtifactsDir + "Search and replace text - Aspose.Words.docx");
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "6fbc029aba627fab1e3a876f3cb121f8" "find-and-replace-text-aspose-words.cs" >}}
 
 {{< /tab >}}
 
@@ -38,36 +30,9 @@ public static void SearchAndReplaceTextFeature()
 
 You can also do the same using the Open XML SDK. At the same time, note that it looks somewhat more complicated and more cumbersome.
 
-Following are the namespaces we need to add:
-
-{{< highlight csharp >}}
-using System.IO;
-using System.Text.RegularExpressions;
-using DocumentFormat.OpenXml.Packaging;
-using NUnit.Framework;
-{{< /highlight >}}
-
 The following code example shows how to find and replace text from a document part:
 
-{{< highlight csharp >}}
-public static void SearchAndReplaceTextFeature()
-{
-	using (WordprocessingDocument wordDoc = WordprocessingDocument.Open(MyDir + "Search and replace text.docx", true))
-	{
-		string docText;
-		using (StreamReader sr = new StreamReader(wordDoc.MainDocumentPart.GetStream()))
-		{
-			docText = sr.ReadToEnd();
-		}
-		Regex regexText = new Regex("Hello world!");
-		docText = regexText.Replace(docText, "Hi Everyone!");
-		using (StreamWriter sw = new StreamWriter(File.Create(ArtifactsDir + "Search and replace text - OpenXML.docx")))
-		{
-			sw.Write(docText);
-		}
-	}
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "6fbc029aba627fab1e3a876f3cb121f8" "find-and-replace-text-open-xml.cs" >}}
 
 {{< /tab >}}
 

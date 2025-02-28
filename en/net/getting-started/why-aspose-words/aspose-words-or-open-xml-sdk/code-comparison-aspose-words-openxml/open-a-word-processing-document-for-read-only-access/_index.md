@@ -22,7 +22,7 @@ Aspose.Words has the public class [WriteProtection](https://reference.aspose.com
 
 The following code example shows how to make your document read-only:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Protect or Encrypt Document-Document protection-ReadOnlyProtection.cs" >}}
+{{< gist "aspose-words-gists" "702c287894827f3d4ddd2ca4b170ed45" "open-read-only-aspose-words.cs" >}}
 
 {{< /tab >}}
 
@@ -34,26 +34,7 @@ The code sample below shows how you can add some text and attempt to save the ch
 
 The following code example shows how to make your document read-only:
 
-{{< highlight csharp >}}
-public void OpenReadOnlyAccessFeature()
-{
-	// Open a `WordprocessingDocument` based on a filepath.
-	using (WordprocessingDocument wordDocument = WordprocessingDocument.Open(MyDir + "Open readonly access.docx", false))
-	{
-		// Assign a reference to the existing document body.  
-		Body body = wordDocument.MainDocumentPart.Document.Body;
-		// Attempt to add some text.
-		Paragraph para = body.AppendChild(new Paragraph());
-		Run run = para.AppendChild(new Run());
-		run.AppendChild(new Text("Append text in body, but text is not saved - Open wordprocessing document readonly"));
-		// Call the "Save" method to generate an exception and show that access is read-only.
-		using (Stream stream = File.Create(ArtifactsDir + "Open readonly access - OpenXML.docx"))
-		{
-			wordDocument.MainDocumentPart.Document.Save(stream);
-		}
-	}
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "702c287894827f3d4ddd2ca4b170ed45" "open-read-only-open-xml.cs" >}}
 
 {{< /tab >}}
 

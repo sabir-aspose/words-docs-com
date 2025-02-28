@@ -23,10 +23,7 @@ In Aspose.Words, we normally use the [Document](https://reference.aspose.com/wor
 
 The following code example shows how to convert DOCM to DOCX:
 
-{{< highlight csharp >}}
-Document doc = new Document("SourceDocument.docm");
-doc.Save("ResultDocument.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "b70165dae131a133c643d59a4ebd7441" "docm-to-docx-aspose-words.cs" >}}
 
 {{< /tab >}}
 
@@ -34,49 +31,9 @@ doc.Save("ResultDocument.docx");
 
 You can also do the same using the Open XML SDK. At the same time, note that it looks somewhat more complicated and more cumbersome.
 
-Following are the namespaces we need to add:
-
-{{< highlight csharp >}}
-using System.IO;
-using DocumentFormat.OpenXml;
-using DocumentFormat.OpenXml.Packaging;
-using NUnit.Framework;
-{{< /highlight >}}
-
 The following code example modifies the specified document by verifying that the document contains a vbaProject part and removing that part. After the code removes the part, it changes the document type internally and renames the document so that it uses .docx extension.
 
-{{< highlight csharp >}}
-public void ConvertFromDocmToDocxFeature()
-{
-	bool fileChanged = false;
-	using (WordprocessingDocument document =
-	WordprocessingDocument.Open(MyDir + "Convert from docm to docx.docm", true))
-	{
-		var docPart = document.MainDocumentPart;
-		// Look for the vbaProject part. If it is there, delete it.
-		var vbaPart = docPart.VbaProjectPart;
-		if (vbaPart != null)
-		{
-			// Delete the vbaProject part and then save the document.
-			docPart.DeletePart(vbaPart);
-			docPart.Document.Save();
-			// Change the document type to not macro-enabled.
-			document.ChangeDocumentType(
-				WordprocessingDocumentType.Document);
-			fileChanged = true;
-		}
-	}
-	// If anything goes wrong in this file handling,
-	// the code will raise an exception back to the caller.
-	if (fileChanged)
-	{
-		if (File.Exists(ArtifactsDir + "Convert from docm to docx - OpenXML.docm"))
-		File.Delete(ArtifactsDir + "Convert from docm to docx - OpenXML.docm");
-		File.Move(MyDir + "Convert from docm to docx.docm",
-		ArtifactsDir + "Convert from docm to docx - OpenXML.docm");
-	}
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "b70165dae131a133c643d59a4ebd7441" "docm-to-docx-open-xml.cs" >}}
 
 {{< /tab >}}
 {{< /tabs >}}

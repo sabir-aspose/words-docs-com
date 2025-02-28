@@ -22,26 +22,7 @@ In Aspose.Words, use the [Shape](https://reference.aspose.com/words/net/aspose.w
 
 The following code example shows how to extract images from a document and save them as files:
 
-{{< highlight csharp >}}
-Document doc = new Document(MyDir + "Extract image.docx");
-// Save the document to memory and reload it.
-using (MemoryStream stream = new MemoryStream())
-{
-	doc.Save(stream, SaveFormat.Doc);
-	Document doc2 = new Document(stream);
-	// "Shape" nodes that have the "HasImage" flag set contain and display images.
-	IEnumerable<Shape> shapes = doc2.GetChildNodes(NodeType.Shape, true)
-		.OfType<Shape>().Where(s => s.HasImage);
-	int imageIndex = 0;
-	foreach (Shape shape in shapes)
-	{
-		string imageFileName =
-			$"Image.ExportImages.{imageIndex}_Aspose.Words_{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
-		shape.ImageData.Save(ArtifactsDir + imageFileName);
-		imageIndex++;
-	}
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "49853740887e9a787707ab66bb4ec5e2" "extract-document-images-aspose-words.cs" >}}
 
 {{< /tab >}}
 
@@ -49,37 +30,9 @@ using (MemoryStream stream = new MemoryStream())
 
 You can also do the same using the Open XML SDK. At the same time, note that it looks somewhat more complicated and more cumbersome.
 
-Following are the namespaces we need to add:
-
-{{< highlight csharp >}}
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using DocumentFormat.OpenXml.Packaging;
-using NUnit.Framework;
-{{< /highlight >}}
-
 The following code example shows how to extract images from a document and save them as files:
 
-{{< highlight csharp >}}
-public void ExtractImageFromWordDocumentFeature()
-{
-	using (WordprocessingDocument doc = WordprocessingDocument.Open(MyDir + "Extract image.docx", false))
-	{
-		int imgCount = doc.MainDocumentPart.GetPartsOfType<ImagePart>().Count();
-		if (imgCount > 0)
-		{
-			List<ImagePart> imgParts = new List<ImagePart>(doc.MainDocumentPart.ImageParts);
-			foreach (ImagePart imgPart in imgParts)
-			{
-				Image img = Image.FromStream(imgPart.GetStream());
-				string imgfileName = imgPart.Uri.OriginalString.Substring(imgPart.Uri.OriginalString.LastIndexOf("/") + 1);
-				img.Save(ArtifactsDir + imgfileName);
-			}
-		}
-	}
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "49853740887e9a787707ab66bb4ec5e2" "extract-document-images-open-xml.cs" >}}
 
 {{< /tab >}}
 

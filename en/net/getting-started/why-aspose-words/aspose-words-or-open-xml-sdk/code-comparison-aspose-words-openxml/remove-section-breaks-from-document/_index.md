@@ -22,17 +22,7 @@ In Aspose.Words, use the [SectionBreak](https://reference.aspose.com/words/net/a
 
 The following code example shows how to remove page breaks from a document:
 
-{{< highlight csharp >}}
-Document doc = new Document(MyDir + "Remove section breaks.docx");
-// Loop through all sections starting from the section that precedes the last one 
-for (int i = doc.Sections.Count - 2; i >= 0; i--)
-{
-	// Copy the content of the current section to the beginning of the last section.
-	doc.LastSection.PrependContent(doc.Sections[i]);
-	// Remove the copied section.
-	doc.Sections[i].Remove();
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "34df519fbe0b092dd3a430063104a411" "remove-section-breaks-aspose-words.cs" >}}
 
 {{< /tab >}}
 
@@ -40,43 +30,9 @@ for (int i = doc.Sections.Count - 2; i >= 0; i--)
 
 You can also do the same using the Open XML SDK. At the same time, note that it looks somewhat more complicated and more cumbersome.
 
-Following are the namespaces we need to add:
-
-{{< highlight csharp >}}
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using DocumentFormat.OpenXml.Packaging;
-using DocumentFormat.OpenXml.Wordprocessing;
-using NUnit.Framework;
-{{< /highlight >}}
-
 The following code example shows how to remove section breaks from a document:
 
-{{< highlight csharp >}}
-public void RemoveSectionBreaksFeature()
-{
-	using (WordprocessingDocument myDoc = WordprocessingDocument.Open(MyDir + "Remove section breaks.docx", true))
-	{
-		MainDocumentPart mainPart = myDoc.MainDocumentPart;
-		List<ParagraphProperties> paraProps = mainPart.Document.Descendants<ParagraphProperties>()
-			.Where(IsSectionProps).ToList();
-		foreach (ParagraphProperties pPr in paraProps)
-			pPr.RemoveChild(pPr.GetFirstChild<SectionProperties>());
-		using (Stream stream = File.Create(ArtifactsDir + "Remove section breaks - OpenXML.docx"))
-		{
-			mainPart.Document.Save(stream);
-		}
-	}
-}
-private static bool IsSectionProps(ParagraphProperties pPr)
-{
-	SectionProperties sectPr = pPr.GetFirstChild<SectionProperties>();
-	if (sectPr == null)
-		return false;
-		return true;
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "34df519fbe0b092dd3a430063104a411" "remove-section-breaks-open-xml.cs" >}}
 
 {{< /tab >}}
 
