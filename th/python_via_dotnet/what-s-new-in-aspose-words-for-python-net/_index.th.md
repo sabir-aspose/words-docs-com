@@ -1,84 +1,108 @@
 ---
 title: มีอะไรใหม่
-second_title: Aspose.Words สำหรับ Python via .NET
-articleTitle: มีอะไรใหม่ใน Aspose.Words สำหรับ Python via .NET
-linktitle: มีอะไรใหม่ใน Aspose.Words สำหรับ Python via .NET
+second_title: Aspose.WordsสำหรับPython via .NET
+articleTitle: มีอะไรใหม่ใน Aspose.WordsสำหรับPython via .NET
+linktitle: มีอะไรใหม่ใน Aspose.WordsสำหรับPython via .NET
 type: docs
-description: "Aspose.Words สำหรับ Python via .NET ขยายและปรับปรุงทุกวัน ในหน้านี้ คุณสามารถเรียนรู้เกี่ยวกับคุณสมบัติที่สำคัญและน่าสนใจที่สุดของผลิตภัณฑ์ได้"
+description: "Aspose.WordsสำหรับPython via .NET ขยายและปรับปรุงทุกวัน ในหน้านี้คุณสามารถเรียนรู้เกี่ยวกับคุณสมบัติขนาดใหญ่และน่าสนใจที่สุดของผลิตภัณฑ์."
 weight: 10
 url: /th/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-01-15-11-43-05
+timestamp: 2025-02-17-18-02-05
 ---
 
-หน้านี้อธิบายคุณสมบัติ Aspose.Words ใหม่ที่น่าสนใจที่สุดที่เปิดตัวในรุ่นล่าสุด
+หน้านี้อธิบายถึงคุณลักษณะใหม่ที่น่าสนใจที่สุดAspose.Wordsที่นำมาใช้ในรุ่นล่าสุด.
 
-## Aspose.Words สำหรับ Python ผ่าน .NET 25.1
+## Aspose.WordsสำหรับPython via .NET 25.1, 25.2
 
-Aspose.Words 25.1 นำเสนอการตรวจสอบไวยากรณ์ที่ขับเคลื่อนด้วย AI และปรับปรุงการบันทึกเอกสารด้วยตัวเลือกขั้นสูงสำหรับรูปแบบ HTML, SVG และ Markdown
+Aspose.Words25.1แนะนำการตรวจสอบไวยากรณ์ที่ขับเคลื่อนAIและเพิ่มการประหยัดเอกสารด้วยตัวเลือกขั้นสูงสำหรับHTML,SVGและMarkdownรูปแบบ.
 
-### คุณสมบัติที่ขับเคลื่อนด้วย AI
-
-#### การตรวจสอบไวยากรณ์ของเอกสาร AI <sup>25.1</sup>
-
-ความสามารถในการตรวจสอบไวยากรณ์ของเอกสารที่ให้มาโดยใช้โมเดลสร้าง OpenAI ได้รับการนำเสนอโดยการเพิ่ม [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/) ใหม่ วิธี.
-
-### การแปลง การโหลด และการบันทึกเอกสาร
-
-#### ปรับปรุงการบันทึกเป็นรูปแบบ HTML และ SVG <sup>25.1</sup>
-
-การบันทึกเป็นรูปแบบ HTML และ SVG ได้รับการปรับปรุงโดยการเพิ่มคุณสมบัติ **id_prefix** และ **remove_java_script_from_links** ให้กับ [HtmlFixedSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlfixedsaveoptions/) ทั้งสองรายการ คลาส  และ [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/)
-
-#### ตั้งค่าความละเอียดของภาพและโหมดเอาท์พุต OfficeMath เมื่อบันทึกเป็น Markdown <sup>25.1</sup>
-
-* มีการเพิ่มตัวเลือก [image_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/image_resolution/) ใหม่ให้กับ [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) คลาส เพื่อตั้งค่าความละเอียดของภาพ
-* ตัวเลือกใหม่ [office_math_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/office_math_export_mode/) และ [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownofficemathexportmode/) ได้มีการเพิ่มการแจงนับ ลงใน [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) คลาสสำหรับตั้งค่าโหมดเอาท์พุต OfficeMath
-
-{{% alert color="primary" %}}
-
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 25.1](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/)
-
-{{% /alert %}}
-
-## Aspose.Words สำหรับ Python ผ่าน .NET 24.9, 24.10, 24.11, 24.12
-
-Aspose.Words 24.9 แนะนำการแทรกรูปร่างกลุ่มและการแทรก StructuredDocumentTag ผ่าน DocumentBuilder ปรับปรุงการเรนเดอร์แผนภูมิรัศมีด้วยการไล่ระดับ ปรับปรุงลายเซ็นดิจิทัลด้วยการรองรับ XAdES-EPES เพิ่มการจดจำเส้นใต้มาร์กดาวน์ และให้การเข้าถึงตัวคั่นเชิงอรรถ/ท้ายบท
-
-Aspose.Words 24.10 นำเสนอการสนับสนุนการควบคุม ActiveX ที่ได้รับการปรับปรุงด้วยการสร้าง CommandButton การควบคุมการมองเห็นรูปร่างใหม่ ความสามารถในการจัดกลุ่มรูปร่าง การส่งออก Markdown ที่ปรับปรุงใหม่สำหรับตาราง การจัดรูปแบบแผนภูมิสำหรับแผนภูมิวงกลมและโดนัท การจัดการการเข้ารหัส Big5 ที่ดีขึ้น และการรองรับแบบอักษรไต้หวันที่ล้าสมัย
-
-Aspose.Words24.11แนะนำการสรุปเอกสารที่ขับเคลื่อนAIตัวเลือกการแสดงผลที่เพิ่มขึ้นการเข้าถึงคุณสมบัติของเอกสารที่ดีขึ้นและคำอธิบายการควบคุมแอคทีฟ.
-
-Aspose.Words 24.12 นำเสนอการจัดวางป้ายข้อมูลที่ปรับแต่งได้ การแปลข้อความที่ขับเคลื่อนโดย Google AI และคลาสการประมวลผล LowCode ใหม่ที่ปรับปรุงแล้ว
+Aspose.Words25.2นำเสนอการสรุปข้อความด้วยแบบจำลองทางมนุษย์AIเพิ่มการสนับสนุนรูปแบบMsWorksช่วยเพิ่มการควบคุมการพิมพ์และปรับปรุงโครงสร้างและการจัดการรายการPDF.
 
 ### AI-คุณสมบัติขับเคลื่อน
 
-#### การสรุปเอกสารโดยใช้ OpenAI และ Google <sup>24.11</sup>
+#### เอกสารAIการตรวจสอบไวยากรณ์ <sup>25.1</sup>
+
+ความสามารถในการตรวจสอบไวยากรณ์ของเอกสารที่ให้ไว้โดยใช้OpenAIรุ่นกำเนิดได้รับการแนะนำโดยการเพิ่มวิธีการ[check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/)ใหม่.
+
+#### สรุปโดยใช้แบบจำลองภาษากำเนิดมนุษย์ <sup>25.2</sup>
+
+การสรุปข้อความโดยใช้แบบจำลองภาษาสร้างมนุษย์ได้ถูกเปิดใช้งานโดยการแนะนำชั้นเรียนสาธารณะใหม่[AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/).
+
+### รูปแบบที่รองรับ <sup>25.2</sup>
+
+เริ่มต้นจากรุ่น25.2มีการเพิ่มความเข้ากันได้กับรูปแบบใหม่MsWorksโหลดสำหรับMicrosoftเอกสารงาน.
+
+### การแปลงโหลดและบันทึกเอกสาร
+
+#### ปรับปรุงการประหยัดเป็นHTMLและSVGรูปแบบ <sup>25.1</sup>
+
+การบันทึกไปยังHTMLและSVGรูปแบบได้รับการปรับปรุงโดยการเพิ่ม**id_prefix**และ**remove_java_script_from_links**คุณสมบัติทั้ง[HtmlFixedSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlfixedsaveoptions/)และ[SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/)คลาส.
+
+#### ตั้งค่าความละเอียดของภาพและOfficeMathโหมดเอาท์พุทเมื่อบันทึกเป็นMarkdown <sup>25.1</sup>
+
+* มีการเพิ่มตัวเลือก[image_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/image_resolution/)ใหม่ในชั้นเรียน[MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/)เพื่อตั้งค่าความละเอียดของภาพ.
+* ตัวเลือกใหม่[office_math_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/office_math_export_mode/)และ[MarkdownOfficeMathExportMode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownofficemathexportmode/)การแจงนับได้รับและเพิ่มในชั้นเรียน[MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/)เพื่อตั้งOfficeMathโหมดเอาท์พุท.
+
+### การแสดงผล
+
+#### ปรับปรุงการควบคุมการพิมพ์ <sup>25.2</sup>
+
+มีการเพิ่มคุณสมบัติ[number_spacing](https://reference.aspose.com/words/python-net/aspose.words/font/number_spacing/)เพื่อปรับปรุงการควบคุมการพิมพ์.
+
+### อื่นๆ
+
+* PDFโครงสร้างตรรกะได้รับการปรับปรุงด้วยการสนับสนุนสำหรับฟิลด์TOA,BIBLIOGRAPHYและINDEX <sup>25.2</sup>
+* วิธีการ[add_single_level_list](https://reference.aspose.com/words/python-net/aspose.words.lists/listcollection/add_single_level_list/#listtemplate)ได้รับการแนะนำสำหรับการจัดการรายการที่ดีขึ้น <sup>25.2</sup>
+
+{{% alert color="primary" %}}
+
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 25.1บันทึกย่อ](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 25.2บันทึกย่อ](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-2-release-notes/).
+
+{{% /alert %}}
+
+## Aspose.Words สำหรับ Python ผ่านทาง .NET 24.9, 24.10, 24.11, 24.12
+
+Aspose.Words24.9แนะนำการแทรกgroup shapeและการแทรกStructuredDocumentTagผ่านทางDocumentBuilderช่วยเพิ่มการแสดงผลแผนภูมิรัศมีด้วยการสำเร็จการศึกษาปรับปรุงลายเซ็นดิจิตอลด้วยการสนับสนุนXAdES-EPESเพิ่มการรับรู้ขีดเส้นใต้Markdownและให้การเข้าถึงเชิงอรรถ/ตัวคั่นปลายทาง.
+
+Aspose.Words24.10นำเสนอการสนับสนุนการควบคุมที่เพิ่มขึ้นด้วยการสร้างCommandButtonการควบคุมการมองเห็นรูปร่างใหม่ความสามารถในการgroup shapesปรับปรุงMarkdownการส่งออกสำหรับตาราง,การจัดรูปแบบแผนภูมิสำหรับPieและDoughnutการจัดการการเข้ารหัสขนาดใหญ่ที่ดีขึ้นและการสนับสนุนสำหรับแบบอักษรที่ล้าสมัยของไต้หวัน.
+
+Aspose.Words24.11แนะนำการสรุปเอกสารที่ขับเคลื่อนAIตัวเลือกการแสดงผลที่เพิ่มขึ้นการเข้าถึงคุณสมบัติของเอกสารที่ดีขึ้นและคำอธิบายการควบคุมแอคทีฟ.
+
+Aspose.Words24.12แนะนำการจัดวางฉลากข้อมูลที่ปรับแต่งได้,กูเกิลAIแปลข้อความ,และเพิ่มชั้นเรียนการประมวลผลใหม่LowCode.
+
+### AI-คุณสมบัติขับเคลื่อน
+
+#### การสรุปเอกสารโดยใช้OpenAIและกูเกิล <sup>24.11</sup>
 
 มีการบูรณาการการสนับสนุนสำหรับการสรุปเอกสารโดยใช้โมเดลภาษากำเนิด **OpenAI** และ **Google** โดยการเพิ่มเนมสเปซ [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) เข้ากับเมมเบอร์สาธารณะ.
 
-#### การแปลข้อความโดยใช้โมเดลภาษากำเนิดของ Google <sup>24.12</sup>
+#### แปลข้อความโดยใช้แบบจำลองภาษาที่สร้างขึ้นของกูเกิล <sup>24.12</sup>
 
-ความสามารถในการแปลข้อความโดยใช้โมเดลภาษากำเนิดของ Google ได้รับการนำไปใช้ใน Aspose.Words โดยการเพิ่มเมธอด [translate](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/translate/) และการแจงนับ [Language](https://reference.aspose.com/words/python-net/aspose.words.ai/language/) ลงในเนมสเปซ [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/)
+ได้ถูกนำมาใช้ในAspose.Wordsโดยการเพิ่มวิธีการ[translate](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/translate/)และการแจงนับ[Language](https://reference.aspose.com/words/python-net/aspose.words.ai/language/)ไปยังเนมสเปซ[Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/).
 
 ### Low Code <sup>24.12</sup>
 
-มีการแนะนำคลาส LowCode ใหม่ เช่น [Comparer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/python-net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/splitter/) เป็นต้น ซึ่งนำเสนอชุดวิธีการที่สมดุลระหว่างความเรียบง่ายและความยืดหยุ่นสำหรับการประมวลผลเอกสารได้อย่างลงตัว
+ใหม่LowCodeชั้นเรียนเช่น[Comparer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/python-net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/splitter/) ฯลฯ ได้รับการแนะนำนำเสนอชุดของวิธีการที่สมดุลที่สมบูรณ์แบบระหว่างความเรียบง่ายและ.
 
-### การเรนเดอร์และการพิมพ์
+### การแสดงผลและการพิมพ์
 
-#### การไล่ระดับบนแผนภูมิรัศมี <sup>24.9</sup>
+#### จบการศึกษาในแผนภูมิรัศมี <sup>24.9</sup>
 
-การเรนเดอร์การไล่ระดับบนแผนภูมิรัศมีได้รับการนำไปใช้แล้ว
+การแสดงผลของการสำเร็จการศึกษาในแผนภูมิรัศมีได้รับการดำเนินการ.
 
-#### การควบคุม ActiveX ของ CommandButton <sup>24.10</sup>
+#### CommandButtonการควบคุมแอคทีฟ <sup>24.10</sup>
 
-ความสามารถในการสร้างตัวควบคุม ActiveX ของ CommandButton ได้รับการแนะนำโดยการเพิ่มวิธีการสาธารณะใหม่ [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) และคลาสสาธารณะใหม่ [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/)
+มีการแนะนำความสามารถในการสร้างCommandButtonตัวควบคุมแอคทีฟเอ็กซ์โดยการเพิ่มวิธีสาธารณะใหม่[insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/)และคลาสสาธารณะใหม่[Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/).
 
-#### การมองเห็นรูปร่างของตัวควบคุม <sup>24.10</sup>
+#### ควบคุมการมองเห็นรูปร่าง <sup>24.10</sup>
 
-คุณสมบัติสาธารณะใหม่ [hidden](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/hidden/) ได้รับการเพิ่มเข้ามาเพื่อควบคุมการมองเห็นรูปร่าง
-#### การเปลี่ยนแปลงในแผนภูมิวงกลมและโดนัท <sup>24.10</sup>
+มีการเพิ่มคุณสมบัติสาธารณะใหม่[hidden](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/hidden/)เพื่อควบคุมการมองเห็นของรูปร่าง.
 
-มีการเพิ่มคุณสมบัติสาธารณะใหม่หลายรายการให้กับรูปแบบแผนภูมิวงกลมและโดนัท
+#### การเปลี่ยนแปลงในPieและDoughnutแผนภูมิ <sup>24.10</sup>
+
+คุณสมบัติสาธารณะใหม่หลายแห่งถูกเพิ่มลงในรูปแบบPieและDoughnutแผนภูมิ.
 
 #### ควบคุมการแสดงผลของPDFเส้นขอบเขตฟิลด์ฟอร์มทางเลือก <sup>24.11</sup>
 
@@ -92,535 +116,383 @@ Aspose.Words 24.12 นำเสนอการจัดวางป้ายข�
 
 การแสดงผลแผนภูมิฮิสโตแกรมได้รับการปรับปรุงโดยการอนุญาตให้จำนวนที่ระบุของถัง.
 
-#### ปรับแต่งตำแหน่งของป้ายข้อมูล <sup>24.12</sup>
+#### กำหนดตำแหน่งของป้ายกำกับข้อมูลเอง <sup>24.12</sup>
 
-ความสามารถในการปรับแต่งตำแหน่งของป้ายข้อมูลได้รับการเพิ่มเข้ามาโดยการแนะนำคุณสมบัติใหม่ให้กับคลาส [ChartDataLabel](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabel/) และ [ChartDataLabelCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/)
+ความสามารถในการกำหนดตำแหน่งของป้ายชื่อข้อมูลได้ถูกเพิ่มโดยการแนะนำคุณสมบัติใหม่ให้กับชั้นเรียนชั้นที่[ChartDataLabel](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabel/)และ[ChartDataLabelCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/).
 
-### การแปลง การโหลด และการบันทึกเอกสาร
+### การแปลงโหลดและบันทึกเอกสาร
 
-#### การจัดรูปแบบขีดเส้นใต้เมื่อโหลดไฟล์มาร์กดาวน์ <sup>24.9</sup>
+#### ขีดเส้นใต้การจัดรูปแบบเมื่อโหลดไฟล์Markdown <sup>24.9</sup>
 
-ตัวเลือกในการรับรู้การจัดรูปแบบขีดเส้นใต้เมื่อโหลดเอกสารมาร์กดาวน์ได้รับการรวมเข้าไว้ด้วยการเพิ่มคุณสมบัติสาธารณะใหม่ [import_underline_formatting property](https://reference.aspose.com/words/python-net/aspose.words.loading/markdownloadoptions/import_underline_formatting/)
+ตัวเลือกในการจดจำการจัดรูปแบบขีดเส้นใต้เมื่อโหลดเอกสารMarkdownได้ถูกรวมไว้โดยการเพิ่มคุณสมบัติสาธารณะใหม่[import_underline_formatting property](https://reference.aspose.com/words/python-net/aspose.words.loading/markdownloadoptions/import_underline_formatting/).
 
-#### การส่งออกตารางเป็น HTML เมื่อบันทึกเป็นมาร์กดาวน์ <sup>24.10</sup>
+#### ส่งออกตารางเป็นHTMLเมื่อบันทึกเป็นMarkdown <sup>24.10</sup>
 
-มีการนำตัวเลือกในการส่งออกตารางเป็น HTML เมื่อบันทึกเอกสารเป็นรูปแบบมาร์กดาวน์มาใช้โดยการเพิ่มคุณสมบัติสาธารณะใหม่ [export_as_html](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/export_as_html/) และการแจงนับ [MarkdownExportAsHtml](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownexportashtml/)
+ตัวเลือกในการส่งออกตารางเป็นHTMLเมื่อมีการบันทึกเอกสารไปยังรูปแบบMarkdownโดยการเพิ่มคุณสมบัติสาธารณะใหม่[export_as_html](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/export_as_html/)และการแจงนับ[MarkdownExportAsHtml](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownexportashtml/).
 
 #### ส่งออกPDFด้วยโครงสร้างตรรกะที่ปรับปรุงแล้ว <sup>24.11</sup>
 
 PDFเอ็กซ์ปอร์ตได้รับการปรับปรุงโดยรวมคุณสมบัติชื่อตารางเป็นชื่อองค์ประกอบโครงสร้างตรรกะPDF.
 
-### ลายเซ็นดิจิทัล
+### ลายเซ็นดิจิตอล
 
-#### ลงนามในเอกสารด้วย XAdES-EPES <sup>24.9</sup>
+#### ลงนามในเอกสารด้วยXAdES-EPES <sup>24.9</sup>
 
-ความสามารถในการลงนามในเอกสารด้วยลายเซ็น XML-DSig ระดับ XAdES-EPES ได้รับการแนะนำโดยการเพิ่มคุณสมบัติสาธารณะใหม่ [xml_dsig_level](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/xml_dsig_level/) และการแจงนับสาธารณะใหม่ [XmlDsigLevel](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/xmldsiglevel/)
+ความสามารถในการลงนามในเอกสารด้วยXAdES-EPESระดับXML-DSigลายเซ็นได้รับการแนะนำโดยการเพิ่มสถานที่ให้บริการสาธารณะใหม่[xml_dsig_level](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/xml_dsig_level/)และการแจงนับสาธารณะใหม่[XmlDsigLevel](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/xmldsiglevel/).
 
 ### อื่นๆ
 
-* มีการเพิ่มวิธีสาธารณะใหม่ [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) ให้กับรูปร่างของกลุ่ม <sup>24.9</sup>
-* มีการเพิ่มวิธีสาธารณะใหม่ [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) เพื่อแทรก **StructuredDocumentTags** ลงในเอกสาร <sup>24.9</sup>
-* มีการให้สิทธิ์การเข้าถึงแบบสาธารณะสำหรับตัวคั่นเชิงอรรถ/ท้ายบทโดยการเพิ่มคลาสและคุณสมบัติสาธารณะบางส่วน <sup>24.9</sup>
-* มีการนำความสามารถในการจัดกลุ่มรูปร่างแต่ละรูปร่าง จัดกลุ่มรูปร่างเข้าด้วยกัน และจัดกลุ่มทั้งรูปร่างและกลุ่มรูปร่างโดยตรงมาใช้ โดยการเพิ่มวิธีการ [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/#float_float_float_float_shapebaselist) <sup>24.10</sup>
-* ปรับปรุงการจัดการการเข้ารหัส Big5 สำหรับตาราง cmap แบบ TrueType แล้ว <sup>24.10</sup>
-* ปรับปรุงการรองรับฟอนต์ไต้หวันที่ล้าสมัยแล้ว <sup>24.10</sup>
-* เพื่อเข้าถึงคุณสมบัติเอกสารขยาย คุณสมบัติแบบอ่านอย่างเดียวได้รับการเพิ่มลงในคลาส [BuiltInDocumentProperties](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/) แล้ว <sup>24.11</sup>
+* วิธีการสาธารณะใหม่[insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/)ถูกเพิ่มเข้าไปgroup shapes <sup>24.9</sup>
+* มีการเพิ่มวิธีการสาธารณะใหม่[insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/)เพื่อแทรก**StructuredDocumentTags**ลงในเอกสาร <sup>24.9</sup>
+* การเข้าถึงสาธารณะเพื่อแยกเชิงอรรถ/สิ้นสุดหมายเหตุได้รับการให้บริการโดยการเพิ่มชั้ <sup>24.9</sup>
+* ความสามารถในการจัดกลุ่มรูปร่างของแต่ละบุคคลgroup shapesเข้าด้วยกันและจัดกลุ่มโดยตรงทั้งรูปร่างและgroup shapesได้รับการแนะนำโดยการเพิ่มวิธีการ[insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/#float_float_float_float_shapebaselist) <sup>24.10</sup>
+* การจัดการการเข้ารหัสขนาดใหญ่ 5 สำหรับTrueTypeตารางซีแมปได้รับการปรับปรุง <sup>24.10</sup>
+* การสนับสนุนสำหรับแบบอักษรไต้หวันล้าสมัยได้รับการปรับปรุง <sup>24.10</sup>
+* หากต้องการเข้าถึงคุณสมบัติเอกสารที่ขยาย คุณสมบัติแบบอ่านอย่างเดียวได้ถูกเพิ่มลงในคลาส [BuiltInDocumentProperties](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/) แล้ว <sup>24.11</sup>
 * มีการเปิดใช้งานการตั้งค่าคำบรรยายสำหรับการควบคุมกิจกรรมโดยการเพิ่มตัวตั้งค่าสาธารณะใหม่ในพร็อพเพอร์ตี้[Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/) <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 24.9](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/)
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 24.9บันทึกย่อ](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 24.10](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/)
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 24.10บันทึกย่อ](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 24.11](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-11-release-notes/)
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 24.11บันทึกย่อ](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-11-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 24.12](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-12-release-notes/)
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 24.12บันทึกย่อ](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-12-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Words สำหรับ Python via .NET 24.5, 24.6, 24.7, 24.8
+## Aspose.Words สำหรับ Python ผ่านทาง .NET 24.5, 24.6, 24.7, 24.8
 
-Aspose.Words 24.5 ขยายตัวเลือกสำหรับแอสเซมบลี ปรับปรุงความสามารถในการเรนเดอร์ และขยายตัวเลือกอื่นๆ
+Aspose.Words24.5ขยายตัวเลือกสำหรับแอสเซมบลีปรับปรุงความสามารถในการแสดงผลและขยายตัวเลือกอื่นๆ.
 
-Aspose.Words 24.6 ปรับปรุงตัวเลือกการเรนเดอร์ ปรับปรุงการค้นหาและเปรียบเทียบฟังก์ชันการทำงาน และขยายคุณสมบัติอื่นๆ หลายประการ
+Aspose.Words24.6ปรับปรุงตัวเลือกการแสดงผลเพิ่มการค้นหาและเปรียบเทียบฟังก์ชันการทำงานและขย.
 
-Aspose.Words 24.7 เปลี่ยนวิธีการทำงานกับ ActiveX ขยายความสามารถในการเรนเดอร์ รวมถึงส่งออกเป็นรูปแบบ Markdown และ XLSX
+Aspose.Words24.7เปลี่ยนวิธีการทำงานกับแอคทีฟเอ็กซ์ขยายความสามารถในการแสดงผลตลอดจนการส่งออกไปยังรูปแบบMarkdownและXLSX.
 
-Aspose.Words 24.8 ปรับปรุงการปรับแต่งแผนภูมิด้วยการควบคุมที่แม่นยำเหนือป้ายชื่อแกน ขยายการจัดการแบบอักษร ปรับปรุงการจัดการโครงสร้างเอกสาร และเพิ่มความสามารถใหม่สำหรับการส่งออก HTML/XAML ฟังก์ชัน PDF การแปลงเอกสาร และลายเซ็นดิจิทัล
+Aspose.Words24.8ช่วยเพิ่มการปรับแต่งแผนภูมิด้วยการควบคุมที่แม่นยำกว่าฉลากแกนขยายการจัดการแบบอักษรปรับปรุงการจัดการโครงสร้างเอกสารและเพิ่มความสามารถใหม่สำหรับHTML/XAMLการส่งออกPDFฟังก์ชันการแปลงเอกสารและลายเซ็นดิจิทัล.
 
 ### รูปแบบที่รองรับ
 
-ตั้งแต่เวอร์ชัน 24.7 เป็นต้นไป รองรับการส่งออกเป็น PDF/UA-2 เพื่อให้ผู้ใช้ที่มีความพิการสามารถเข้าถึงได้
+เริ่มต้นจากรุ่น24.7ส่งออกไปยังPDF/UA-2ได้รับการสนับสนุนเพื่อให้แน่ใจว่าการเข้าถึงสำหรับผู้ใช้ที่มีค.
 
-### การเรนเดอร์และการพิมพ์
+### การแสดงผลและการพิมพ์
 
-#### การเปลี่ยนแปลงใน Charts Shapes และ DrawingML <sup>24.5</sup>
+#### การเปลี่ยนแปลงในแผนภูมิรูปร่างและDrawingML <sup>24.5</sup>
 
-* มีการใช้เอฟเฟ็กต์ DrawingML สำหรับกราฟิก SVG ซึ่งขยายฟังก์ชันการทำงานก่อนหน้านี้ที่จำกัดเฉพาะรูปภาพแล้ว
-* การสนับสนุนสำหรับการสร้างแผนภูมิผสมและการปรับคุณสมบัติ เช่น ความกว้างของช่องว่าง การทับซ้อนกัน และมาตราส่วนฟองภายในกลุ่มชุดข้อมูล ได้รับการแนะนำโดยการเพิ่มคลาส [ChartSeriesGroup](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroup/) และ [ChartSeriesGroupCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroupcollection/) และคุณสมบัติ [series_groups](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/series_groups/)
-* มีการนำฟังก์ชันการทำงานเพื่อจัดการเอฟเฟกต์ SoftEdge ของรูปร่างมาใช้โดยการเพิ่มคลาส [SoftEdgeFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing/softedgeformat/)
-* ความสามารถในการแก้ไขการปรับค่าของรูปร่างได้ถูกนำมาใช้โดยการเพิ่ม **AdjustmentCollection** และ **Adjustment** คลาสสาธารณะและ [adjustments](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/adjustments/) คุณสมบัติ
+* เอฟเฟกต์DrawingMLแสดงผลสำหรับSVGกราฟิกซึ่งขยายฟังก์ชันการทำงานก่อนหน้านี้จำกัดเฉพาะภาพ.
+* การสนับสนุนสำหรับการสร้างแผนภูมิคำสั่งผสมและการปรับคุณสมบัติเช่นความกว้างช่องว่างทับซ้อนและสเกลฟองภายในกลุ่มซีรีส์ได้รับการแนะนำโดยการเพิ่มชั้นเรียน[ChartSeriesGroup](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroup/)และ[ChartSeriesGroupCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroupcollection/)และคุณสมบัติ[series_groups](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/series_groups/).
+* ฟังก์ชันการทำงานในการจัดการผลSoftEdgeของรูปร่างได้รับการดำเนินการโดยการเพิ่ม[SoftEdgeFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing/softedgeformat/)คลาส.
+* ความสามารถในการปรับเปลี่ยนค่าของรูปร่างได้รับการดำเนินการโดยการเพิ่ม**AdjustmentCollection**และ**Adjustment**ชั้นเรียนสาธารณะและคุณสมบัติ[adjustments](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/adjustments/).
 
-#### การเปลี่ยนแปลงในแผนภูมิ รูปร่าง และรูปวาด <sup>24.6</sup>
+#### การเปลี่ยนแปลงในแผนภูมิรูปร่างและรูปวาด <sup>24.6</sup>
 
-* ความสามารถในการสร้างแผนภูมิได้รับการปรับปรุงแล้ว ตอนนี้คุณสามารถสร้างแผนภูมิได้หลากหลายมากขึ้น รวมถึงแผนภูมิ *ทรีแมป*, *ซันเบิร์สต์*, *ฮิสโตแกรม*, แผนภูมิ *พาเรโต*, แผนภูมิ *กล่องและหนวด*, *น้ำตก* และ *ช่องทาง* สิ่งนี้ช่วยให้คุณเห็นภาพข้อมูลของคุณในรูปแบบที่หลากหลายและให้ข้อมูลมากขึ้น
-* ปรับปรุงการควบคุมสีสำหรับการจัดรูปแบบเงาแล้ว คุณสามารถควบคุมลักษณะที่ปรากฏของเอกสารของคุณได้แม่นยำยิ่งขึ้นโดยการเข้าถึงสีเงา
-* การเพิ่มประสิทธิภาพสำหรับการเรนเดอร์พื้นหลังได้รับการปรับปรุงแล้ว คุณสามารถเพิ่มความเร็วในการเรนเดอร์พื้นหลังที่มีองค์ประกอบขนาดเล็กได้อย่างมาก ด้วยเทคโนโลยีการปูกระเบื้องแบบเนทิฟ
-* เพิ่มการไล่ระดับสีที่สมจริงสำหรับรูปร่างแล้ว ตอนนี้คุณสามารถสร้างรูปร่าง DML ที่มีการไล่ระดับสีแบบไม่เชิงเส้นได้ โดยเลียนแบบสไตล์ภาพของ Microsoft Word เพื่อให้ดูสวยงามยิ่งขึ้น
+- ความสามารถในการสร้างแผนภูมิได้รับการปรับปรุง ตอนนี้คุณสามารถสร้างความหลากหลายของแผนภูมิที่กว้างขึ้นรวมถึง*Treemaps*, *Sunbursts*, *Histograms*, *Pareto* แผนภูมิ*Box & Whisker*แผนภูมิ*Waterfalls*และ*Funnels* ยให้คุณเห็นภาพข้อมูลของคุณในทางที่หลากหลายมากขึ้นและให้ข้อมูล.
+- การควบคุมสีสำหรับการจัดรูปแบบเงาได้รับการปรับปรุง คุณสามารถควบคุมรูปลักษณ์ของเอกสารของคุณได้อย่างแม่นยำยิ่งขึ้นโดยการเข้าถึงสีเงา.
+- เพิ่มประสิทธิภาพการทำงานสำหรับการแสดงผลพื้นหลังได้รับการปรับปรุง คุณอย่างมีนัยสำคัญสามารถเพิ่มความเร็วในการแสดงผลของภูมิหลังที่มีองค์ประกอบขนาด.
+- การไล่ระดับสีที่สมจริงสำหรับรูปร่างได้รับการเพิ่ม ตอนนี้คุณสามารถสร้างDMLรูปทรงที่มีการไล่ระดับสีที่ไม่ใช่เชิงเส้น,เลียนแบบสไตล์ภาพของMicrosoft Wordเพื่อ.
 
-#### การปรับแต่งป้ายกำกับข้อมูลแผนภูมิ <sup>24.7</sup>
+#### การปรับแต่งฉลากข้อมูลแผนภูมิ <sup>24.7</sup>
 
-เพิ่มความสามารถในการปรับแต่งป้ายกำกับข้อมูลแผนภูมิ เช่น **Orientation** และ **Rotation** แล้ว
+ความสามารถในการปรับแต่งป้ายข้อมูลแผนภูมิเช่น**Orientation**และ**Rotation**ได้ถูกเพิ่ม.
 
-#### การจัดรูปแบบตัวเลขแบบกำหนดเองสำหรับระดับรายการ <sup>24.7</sup>
+#### จัดแต่งทรงผมจำนวนที่กำหนดเองสำหรับระดับรายการ <sup>24.7</sup>
 
-เพิ่มตัวตั้งค่าสำหรับทรัพย์สินสาธารณะ [custom_number_style_format](https://reference.aspose.com/words/python-net/aspose.words.lists/listlevel/custom_number_style_format/) แล้ว ตอนนี้คุณสามารถกำหนดรูปแบบตัวเลขที่กำหนดเองสำหรับระดับรายการได้แล้ว
+มีการเพิ่มตัวตั้งค่าสำหรับคุณสมบัติสาธารณะ[custom_number_style_format](https://reference.aspose.com/words/python-net/aspose.words.lists/listlevel/custom_number_style_format/) ตอนนี้คุณสามารถกำหนดจัดแต่งทรงผมจำนวนที่กำหนดเองสำหรับระดับรายการ.
 
-#### การเปลี่ยนแปลงในการทำงานกับ ActiveX <sup>24.7</sup>
+#### การเปลี่ยนแปลงในการทำงาน <sup>24.7</sup>
 
-* คุณสมบัติของวัตถุ ActiveX สามารถแก้ไขได้แล้ว ทำให้คุณควบคุมพฤติกรรมของมันได้มากขึ้น
-* เพิ่มความสามารถในการแก้ไขค่าของปุ่มตัวเลือกตัวควบคุม ActiveX เพื่อเปิดใช้งานการโต้ตอบแบบไดนามิกแล้ว
-* เพิ่มความสามารถในการสลับช่องทำเครื่องหมาย ActiveX เป็น "เลือก" หรือ "ไม่เลือก" แล้ว
+- สามารถปรับเปลี่ยนคุณสมบัติของอ็อบเจ็กต์ของแอคทีฟแอคทีฟได้ในขณะนี้ทำให้คุณสามารถค.
+- มีการเพิ่มความสามารถในการปรับเปลี่ยนค่าของปุ่มตัวควบคุมเพื่อเปิดใช้งานการโต้ตอบ.
+- มีการเพิ่มความสามารถในการสลับกิจกรรมเป็นcheckboxเป็น"ถูกเลือก"หรือ"ไม่ถูกเลือก".
 
-#### การควบคุมทิศทางและการหมุนของป้ายชื่อแกนแผนภูมิ <sup>24.8</sup>
+#### ควบคุมแกนแผนภูมิป้ายติ๊กป้ายการวางแนวทางและการหมุน <sup>24.8</sup>
 
-เพิ่มการควบคุมที่แม่นยำเหนือการวางแนวและการหมุนของป้ายกำกับแกนแผนภูมิเพื่อการปรับแต่งแผนภูมิที่สะดวกยิ่งขึ้น โดยคลาส [AxisTickLabels](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/) ได้รับการขยายด้วยคุณสมบัติ [orientation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/orientation/) และ [rotation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/rotation/) ใหม่
+การควบคุมการวางแนวและการหมุนของฉลากติ๊กแกนแผนภูมิที่แม่นยำสำหรับการปรับแต่งแผนภูมิที่สะดวกยิ่งขึ้น-ชั้น[AxisTickLabels](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/)ได้รับการขยายด้วยคุณสมบัติใหม่[orientation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/orientation/)และ[rotation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/rotation/).
 
-#### การแทนที่แบ็กสแลชด้วยสัญลักษณ์เยน <sup>24.8</sup>
+#### การเปลี่ยนเครื่องหมายทับด้วยป้ายเงินเยน <sup>24.8</sup>
 
-การส่งออก HTML และ XAML ที่เข้ากันได้ย้อนหลังสำหรับการแทนที่อักขระแบ็กสแลชด้วยสัญลักษณ์เยนได้รับการปรับปรุง เพื่อให้บรรลุเป้าหมายนี้ จึงได้เพิ่มคุณสมบัติ **replace_backslash_with_yen_sign** ลงในคลาส [HtmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/) และ [XamlFlowSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xamlflowsaveoptions/)
-#### การใช้แท็ก SDT เป็นชื่อฟิลด์ฟอร์มเมื่อส่งออกไปยัง PDF <sup>24.8</sup>
+ย้อนกลับเข้ากันได้HTMLและXAMLการส่งออกสำหรับการแทนที่อักขระเครื่องหมายเงินเยนได้รับการ เพื่อให้บรรลุนี้คุณสมบัติ**replace_backslash_with_yen_sign**ได้ถูกเพิ่มเข้าไปในชั้นเรียน[HtmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/)และ[XamlFlowSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xamlflowsaveoptions/).
 
-การส่งออก PDF พร้อมการรองรับการใช้แท็ก SDT เป็นชื่อฟิลด์ฟอร์มได้รับการปรับปรุงโดยการเพิ่มคุณสมบัติ [use_sdt_tag_as_form_field_name](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_sdt_tag_as_form_field_name/) ใหม่ลงในคลาส [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/)
+#### การใช้แท็กSDTเป็นชื่อฟิลด์ฟอร์มเมื่อส่งออกไปยังPDF <sup>24.8</sup>
 
-### การแปลง การโหลด และการบันทึกเอกสาร
+การส่งออก PDF พร้อมรองรับการใช้แท็ก SDT เป็นชื่อฟิลด์ฟอร์มได้รับการปรับปรุงโดยการเพิ่มคุณสมบัติ [use_sdt_tag_as_form_field_name](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_sdt_tag_as_form_field_name/) ใหม่ลงในคลาส [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/).
 
-#### การส่งออกลิงก์เป็นรูปแบบ Markdown <sup>24.7</sup>
+### การแปลงโหลดและบันทึกเอกสาร
 
-เพิ่มความสามารถในการควบคุมการส่งออกลิงก์ในรูปแบบ Markdown ผ่านการใช้งานคุณสมบัติ [link_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/link_export_mode/)
+#### กำลังส่งออกลิงก์ไปยังรูปแบบMarkdown <sup>24.7</sup>
 
-#### LowCode <sup>24.8</sup>
+ความสามารถในการควบคุมการส่งออกลิงก์ในรูปแบบMarkdownได้ถูกเพิ่มผ่านการนำคุณสมบัติ[link_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/link_export_mode/)ไปใช้.
 
-ได้มีการแนะนำคลาส [LowCode.Converter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/converter/) ใหม่ ซึ่งออกแบบมาเพื่อให้มีวิธีการแปลงเอกสารประเภทต่างๆ ด้วยโค้ดเพียงบรรทัดเดียว
+#### LowCode 24.8 <sup>24.8</sup>
+
+คลาสใหม่[LowCode.Converter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/converter/)ออกแบบมาเพื่อให้ชุดของวิธีการสำหรับการแปลงชนิดเอกสารต่างๆที่มีบรรทัดเดี.
 
 ### ค้นหาและเปรียบเทียบ
 
 #### ตัวเลือกการเปรียบเทียบขั้นสูง <sup>24.6</sup>
-เพิ่มความสามารถในการปรับปรุงเวิร์กโฟลว์การวิเคราะห์ข้อมูลด้วยฟังก์ชันการเปรียบเทียบที่ได้รับการปรับปรุงแล้ว ซึ่งรวมถึงตัวเลือก [ignore_store_item_id](https://reference.aspose.com/words/python-net/aspose.words.comparing/advancedcompareoptions/ignore_store_item_id/) ใหม่ และอินเทอร์เฟซที่ออกแบบใหม่สำหรับการเปรียบเทียบขั้นสูง
 
-### อื่น
+ความสามารถในการปรับปรุงเวิร์กโฟลว์การวิเคราะห์ข้อมูลที่มีฟังก์ชั่นการเปรียบเทียบที่ อ็อพชัน[ignore_store_item_id](https://reference.aspose.com/words/python-net/aspose.words.comparing/advancedcompareoptions/ignore_store_item_id/)ใหม่และอินเทอร์เฟซที่ออกแบบใหม่สำหรับการเปรียบเทียบขั้นสูง.
 
-* ฟังก์ชั่นกำจัดหน้าว่างออกจากเอกสารได้ถูกนำมาใช้โดยการเพิ่มเมธอด [remove_blank_pages](https://reference.aspose.com/words/python-net/aspose.words/document/remove_blank_pages/) <sup>24.5</sup>
-* ความสามารถในการตรวจสอบการมีอยู่ของมาโคร VBA โดยไม่ต้องโหลดเอกสารนั้นมีให้โดยการเพิ่มคุณสมบัติ [has_macros](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/has_macros/) <sup>24.5</sup>
-* ขณะนี้รองรับการรักษาหมายเลขแหล่งที่มาในขณะที่แทรกเอกสารโดยใช้ LINQ Reporting Engine แล้ว <sup>24.5</sup>
-* มีการเพิ่มคุณสมบัติ [date_time_utc](https://reference.aspose.com/words/python-net/aspose.words/comment/date_time_utc/) ใหม่ ซึ่งให้การประทับเวลาที่แม่นยำยิ่งขึ้นสำหรับความคิดเห็น ปรับปรุงการจัดระเบียบและการตรวจสอบย้อนกลับ <sup>24.6</sup>
-* เครื่องมือการรายงาน LINQ ได้รับการปรับปรุงแล้ว มีการลบย่อหน้าว่างและคำจำกัดความของข้อความแบบกำหนดเองสำหรับสมาชิกของออบเจ็กต์ที่ขาดหายไป ซึ่งนำไปสู่รายงานที่สะอาดตาและให้ข้อมูลมากขึ้น <sup>24.6</sup>
-* ขณะนี้ระบบตรวจพบรูปแบบวันที่และเวลาโดยอัตโนมัติเพื่อการส่งออกเป็นรูปแบบ XLSX ได้อย่างราบรื่น <sup>24.7</sup>
-* เพิ่มทรัพย์สินสาธารณะ [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/) ซึ่งช่วยให้คุณตรวจสอบว่าโปรเจ็กต์ VBA ได้รับการปกป้องหรือไม่ <sup>24.7</sup>
-* ข้อมูลฟอนต์ได้รับการขยายด้วยคุณสมบัติ **embedding_licensing_rights** ที่เพิ่มลงในคลาส [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) และ [PhysicalFontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/physicalfontinfo/) <sup>24.8</sup>
-* ได้เพิ่มวิธีการล้างส่วนหัวและส่วนท้ายของส่วนต่างๆ อย่างมีประสิทธิภาพในขณะที่ยังคงรักษาลายน้ำไว้ เพื่อให้ทำงานกับโครงสร้างเอกสารได้แม่นยำยิ่งขึ้น หากต้องการล้างส่วนหัวและส่วนท้ายของส่วน ให้ใช้วิธีสาธารณะใหม่ [clear_headers_footers](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/#default) <sup>24.8</sup>
-* เปิดใช้งานการลงนามดิจิทัลของเอกสาร XPS โดยใช้ [XpsSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/) แล้ว – ได้เพิ่มคุณสมบัติใหม่ [digital_signature_details](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/digital_signature_details/) ไว้สำหรับจุดประสงค์นี้ <sup>24.8</sup>
+### อื่นๆ
+
+* ฟังก์ชันในการกำจัดหน้าว่างออกจากเอกสารได้ถูกนำมาใช้โดยการเพิ่มวิธีการ[remove_blank_pages](https://reference.aspose.com/words/python-net/aspose.words/document/remove_blank_pages/) <sup>24.5</sup>
+* ความสามารถในการตรวจสอบสถานะของแมโครVBAโดยไม่ต้องโหลดเอกสารได้โดยการเพิ่มคุณสมบัติ[has_macros](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/has_macros/) <sup>24.5</sup>
+* การเก็บหมายเลขแหล่งที่มาในขณะที่แทรกเอกสารโดยใช้เครื่องมือการรายงานLINQได้รับการสนับสนุนในขณะนี้ <sup>24.5</sup>
+* มีการเพิ่มคุณสมบัติใหม่[date_time_utc](https://reference.aspose.com/words/python-net/aspose.words/comment/date_time_utc/)ซึ่งจะช่วยให้การประทับเวลาที่แม่นยำยิ่งขึ้นสำหรับความคิดเห็นปรับปรุงองค์กรและการตรวจสอบย้อนกลับ <sup>24.6</sup>
+* รูปแบบวันที่จะถูกตรวจพบโดยอัตโนมัติสำหรับการส่งออกที่ไร้รอยต่อไปยังรูปแบบXLSX <sup>24.7</sup>
+* คุณสมบัติสาธารณะ[is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/)ซึ่งช่วยให้คุณสามารถตรวจสอบว่าโครงการVBAได้รับการป้องกัน,มีการเ <sup>24.7</sup>
+* ข้อมูลแบบอักษรถูกขยายด้วยคุณสมบัติของ**embedding_licensing_rights**ที่เพิ่มเข้าไปในชั้นเรียน[FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/)และ[PhysicalFontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/physicalfontinfo/) <sup>24.8</sup>
+* วิธีการล้างส่วนหัวและท้ายกระดาษได้อย่างมีประสิทธิภาพในขณะที่เก็บรักษาลายน้ำได้ถูก เมื่อต้องการล้างส่วนหัวและท้ายกระดาษให้ใช้วิธีการสาธารณะใหม่[clear_headers_footers](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/#default) <sup>24.8</sup>
+* การลงลายเซ็นดิจิทัลของXPSเอกสารที่ใช้[XpsSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/)ได้ถูกเปิดใช้งานแล้ว-มีการเพิ่มคุณสมบัติใหม่[digital_signature_details](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/digital_signature_details/)เพื่อจุดประสงค์นี้ <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 24.5](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-5-release-notes/)
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 24.5บันทึกย่อ](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-5-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 24.6](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/)
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 24.6บันทึกย่อ](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 24.7](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-7-release-notes/)
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 24.7บันทึกย่อ](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-7-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 24.8](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-8-release-notes/)
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 24.8บันทึกย่อ](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-8-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Words สำหรับ Python via .NET 24.1, 24.2, 24.3, 24.4.
+## Aspose.Words สำหรับ Python ผ่านทาง .NET 24.1, 24.2, 24.3, 24.4
 
-Aspose.Words 24.1 ปรับปรุงประสบการณ์ในการจัดการสีของเส้นขีด ปรับปรุงวัตถุ OLE รวมถึงแนะนำ API สาธารณะ Bibliography Sources ใหม่
+Aspose.Words24.1ปรับปรุงประสบการณ์การจัดการสีจังหวะช่วยเพิ่มOLEวัตถุ,เช่นเดียวกับการแนะนำใหม่`Bibliography Sources`สาธารณะAPI.
 
-Aspose.Words 24.2 ขยาย Charts API การจัดการสไตล์ และตัวเลือก LINQ Aspose.Words เวอร์ชันนี้ยังแนะนำความสามารถในการระบุ SvgSaveOptions ระหว่างการเรนเดอร์ การควบคุมการโหลดไฟล์ Markdown ที่ยืดหยุ่นมากขึ้น และการทำงานกับข้อความอ้างอิงสำหรับเชิงอรรถและอ้างอิงท้ายเรื่อง
+Aspose.Words24.2แผนภูมิขยายAPIและการจัดการสไตล์. รุ่นของAspose.Wordsนี้ยังแนะนำความสามารถในการระบุSvgSaveOptionsในระหว่างการแสดงผล,การควบคุมที่ยืดหยุ่นมากขึ้นในการโหลดMarkdownไฟล์,และการทำงานกับข้อความอ้างอิงสำหรับเชิงอรรถและหมายเหตุสิ้นสุด.
 
-Aspose.Words 24.3 นำเสนอตัวอ่าน/เขียน TIFF ใหม่และการจำลองการดำเนินการราสเตอร์ทวิไลสำหรับไฟล์ meta WMF อีกด้วย Aspose.Words 24.3 ยังคงขยาย API ของแผนภูมิ
+Aspose.Words24.3แนะนำใหม่TIFFผู้อ่าน/นักเขียนและการจำลองการดำเนินงานแรสเตอร์ไบนารีสำหรับWMFเมต Aspose.Words24.3ยังคงขยายแผนภูมิAPI.
 
-Aspose.Words 24.4 ปรับปรุงการบันทึกรูปแบบ การตั้งค่าการแสดงผลบางอย่าง และปรับปรุงการทำงานกับลายเซ็นดิจิตอล
+Aspose.Words24.4ปรับปรุงรูปแบบการบันทึก,ตัวเลือกการแสดงผลบางอย่าง,เช่นเดียวกับการปรับปรุงการท.
 
 ### รูปแบบที่รองรับ <sup>24.4</sup>
 
-รูปแบบภาพ **WebP** ที่ทันสมัยนี้สนับสนุนใน Aspose.Words for .NET Framework 4.6.2 และสูงกว่า ตอนนี้คุณสามารถอ่านและแทรกรูปภาพ WebP เข้าสู่เอกสารได้และบันทึกภาพในรูปแบบ WebP โปรดทราบว่า WebP ใช้ได้ในขณะนี้เฉพาะใน .NET Standard และ .NET Framework v4.6.2 และสูงกว่าเท่านั้น
+รูปแบบภาพที่ทันสมัย**WebP**ได้รับการสนับสนุนในขณะนี้ใน Aspose.Wordsสำหรับ.NET Framework 4.6.2 และสูงกว่า ขณะนี้คุณสามารถอ่านและแทรกภาพWebPลงในเอกสารรวมทั้งบันทึกภาพในรูปแบบWebP.
 
-### การเรนเดอร์และการพิมพ์
+โปรดทราบว่าWebPปัจจุบันมีให้บริการเฉพาะใน.NET Standardและ.NET Frameworkวี4.6.2ขึ้นไป.
 
-#### การควบคุมสีเส้นโครงร่าง <sup>24.1</sup>
+### การแสดงผลและการพิมพ์
 
-คลาส [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) ได้รับการขยายด้วยชุดคุณสมบัติสาธารณะใหม่ที่เกี่ยวข้องกับการจัดการสีของเส้นขีด: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_theme_color/) และ [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_tint_and_shade/) และ [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_tint_and_shade/)
+#### การควบคุมสีจังหวะ <sup>24.1</sup>
 
-#### ส่วนขยาย API ของ DrawingML Charts API <sup>24.2 / 24.3 / 24.4</sup>
+ชั้น[Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/)ได้รับการขยายด้วยชุดของคุณสมบัติสาธารณะใหม่ที่เกี่ยวข้องกับการจัดการสีจังหวะ:[fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_theme_color/)และ[back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_theme_color/),[fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_tint_and_shade/)และ[back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_tint_and_shade/).
 
-**DrawingML Charts API** ยังคงได้รับการขยายต่อไป
+#### DrawingMLแผนภูมิAPIส่วนขยาย <sup>24.2 / 24.3 / 24.4</sup>
 
-#### ฟอนต์ที่ประกาศในกฎ @font-face <sup>24.4</sup>
+ขยาย**DrawingML Charts API**ต่อไป.
 
-เพิ่มความสามารถในการฝังฟอนต์ที่ประกาศในกฎ @font-face เข้าในการกำหนดแบบอักษรของเอกสารผลลัพธ์โดยเพิ่มคุณสมบัติใหม่ที่ชื่อว่า [support_font_face_rules](https://reference.aspose.com/words/python-net/aspose.words.loading/htmlloadoptions/support_font_face_rules/)
+#### ฝังแบบอักษรที่ประกาศในกฎ@font-face <sup>24.4</sup>
 
-#### การทำงานกับการจัดรูปแบบการเรียกแสงและการสะท้อน <sup>24.4</sup>
+เพิ่มความสามารถในการฝังแบบอักษรที่ประกาศในกฎ@font-faceลงในคำจำกัดความแบบอักษรของเอกสารที่ได้ถูกนำมาใช้โดยการเพิ่มคุณสมบัติใหม่[support_font_face_rules](https://reference.aspose.com/words/python-net/aspose.words.loading/htmlloadoptions/support_font_face_rules/).
 
-ได้ทำการนำฟีเจอร์การจัดรูปแบบการเรียกแสงและการสะท้อนสำหรับวัตถุการวาดในการทำงาน
+#### ทำงานร่วมกับเรืองแสงและการสะท้อนรูปแบบ <sup>24.4</sup>
 
-### กำลังโหลดและบันทึกเอกสาร
+ความสามารถในการทำงานร่วมกับการเรืองแสงและการสะท้อนการจัดรูปแบบสำหรับวั.
 
-#### ระบุ SvgSaveOptions ระหว่างการเรนเดอร์ <sup>24.2</sup>
+### การโหลดและบันทึกเอกสาร
 
-เพิ่มความสามารถในการระบุ [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/) ระหว่างการเรนเดอร์โดยใช้เมธอด [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/).[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions) และ [OfficeMathRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/officemathrenderer/).[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions)
+#### ระบุSvgSaveOptionsระหว่างการแสดงผล <sup>24.2</sup>
 
-#### รักษาบรรทัดว่างเมื่อโหลดไฟล์ Markdown <sup>24.2</sup>
+ความสามารถในการระบุ[SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/)ระหว่างการแสดงผลถูกเพิ่มโดยใช้[ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/)[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions)และ[OfficeMathRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/officemathrenderer/)[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions)วิธีการ.
 
-เพิ่มความสามารถในการรักษาบรรทัดว่างเมื่อโหลดไฟล์ Markdown แล้ว
+#### เก็บบรรทัดว่างไว้เมื่อโหลดไฟล์Markdown <sup>24.2</sup>
 
-#### ตัวอ่าน/เขียน TIFF ใหม่ <sup>24.3</sup>
+ความสามารถในการรักษาบรรทัดว่างเมื่อโหลดMarkdownไฟล์ถูกเพิ่ม.
 
-โปรแกรมอ่าน/เขียน TIFF ใหม่ได้รับการพัฒนาสำหรับ Aspose.Words Aspose.Words สำหรับ .NET 24.3 เพิ่มการรองรับการอ่านภาพ TIFF ด้วยรูปแบบการบีบอัด JPEG และเก่า JPEG และปรับปรุงคุณภาพการอ่านและการเขียนอย่างมาก
+#### ใหม่TIFFผู้อ่าน/นักเขียน <sup>24.3</sup>
 
-### อื่น
+มีการพัฒนาโปรแกรมอ่าน/นักเขียนใหม่TIFFสำหรับAspose.Words Aspose.Wordsสำหรับ.NET 24.3 เพิ่มการสนับสนุนสำหรับการอ่านTIFFภาพที่มีJPEGและเก่าJPEGชนิดการบีบอัดและยังปรับปรุงคุณภาพ.
 
-* ความสามารถในการปรับเปลี่ยนข้อความของตัวควบคุม `TextBox` OLE ได้รับการแนะนำโดยการเพิ่มคุณสมบัติ **Text** ใหม่ให้กับคลาส **TextBoxControl** ใหม่ <sup>24.1</sup>
-* API สาธารณะของ Bibliography Sources ถูกนำมาใช้ผ่านการเพิ่ม [Aspose.Words.Bibliography](https://reference.aspose.com/words/python-net/aspose.words.bibliography/) เนมสเปซใหม่ด้วยคลาสและการแจงนับใหม่ และผ่านการเพิ่มคุณสมบัติ [bibliography](https://reference.aspose.com/words/python-net/aspose.words/document/bibliography/) ใหม่ให้กับคลาส  [Document](https://reference.aspose.com/words/python-net/aspose.words/document/)  <sup>24.1</sup>
-* เพิ่มคุณสมบัติสาธารณะใหม่ [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/), [unhide_when_used](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/), และ [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) สำหรับการจัดการสไตล์ที่ได้รับการปรับปรุงในคลาส [Style](https://reference.aspose.com/words/python-net/aspose.words/style/) แล้ว <sup>24.2</sup>
-* ฟังก์ชันการทำงานในการดึงข้อความเครื่องหมายอ้างอิงจริงสำหรับเชิงอรรถและอ้างอิงท้ายเรื่องได้รับการปรับปรุงด้วยคุณสมบัติ [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) และเมธอด [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default)  <sup>24.2</sup>
-* ได้ดำเนินการจำลองการดำเนินการราสเตอร์ทวิไลสองจำพวกสำหรับไฟล์ meta WMF <sup>24.3</sup>
-* ได้เปิดใช้งานความสามารถในการกำหนดตัวเลือกการลงลายเซ็นสำหรับเอกสารภายใน **SaveOptions** โดยเพิ่มคลาสใหม่ที่ชื่อว่า [DigitalSignatureDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/digitalsignaturedetails/) พร้อมกับสมาชิกที่เป็นสาธารณะใหม่ และเพิ่มคุณสมบัติใหม่ในคลาส [OoxmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/) และ [OdtSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/odtsaveoptions/) <sup>24.4</sup>
+### อื่นๆ
+
+* ความสามารถในการปรับเปลี่ยนข้อความของ`TextBox`OLEตัวควบคุมได้รับการแนะนำโดยการเพิ่มคุณสมบัติ**Text**ใหม่ไปยังคลาสใหม่**TextBoxControl** <sup>24.1</sup>
+* แหล่งบรรณานุกรมสาธารณะAPIถูกนำมาใช้ผ่านการเพิ่มเนมสเปซใหม่[Aspose.Words.Bibliography](https://reference.aspose.com/words/python-net/aspose.words.bibliography/)กับชั้นเรียนใหม่และการแจงนับและผ่านการเพิ่มคุณสมบัติใหม่[bibliography](https://reference.aspose.com/words/python-net/aspose.words/document/bibliography/)ลงในชั้นเรียน[Document](https://reference.aspose.com/words/python-net/aspose.words/document/) <sup>24.1</sup>
+* คุณสมบัติสาธารณะใหม่[priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/),[unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/)และ[semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/)สำหรับการจัดการสไตล์ที่เพิ่มขึ้นได้รับการเพิ่มในชั้นเรียน[Style](https://reference.aspose.com/words/python-net/aspose.words/style/) <sup>24.2</sup>
+* งหมายอ้างอิงจริงสำหรับเชิงอรรถและหมายเหตุสิ้นสุดได้รับการปรับปรุงด้วยคุณสมบัติ[actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/)และ[update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default) <sup>24.2</sup>
+* มีการดำเนินการจำลองการดำเนินงานแรสเตอร์ไบนารีสำหรับWMFเมตาไฟล์ <sup>24.3</sup>
+* ความสามารถในการกำหนดตัวเลือกลายเซ็นสำหรับเอกสารภายใน**SaveOptions**ถูกเปิดใช้งานโดยการเพิ่มคลาสใหม่[DigitalSignatureDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/digitalsignaturedetails/)กับสมาชิกสาธารณะใหม่รวมทั้งการเพิ่มคุณสมบัติใหม่ในคลาส[OoxmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/),[DocSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/)และ[OdtSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/odtsaveoptions/) <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 24.1](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-1-release-notes/)
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 24.1บันทึกย่อ](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-1-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 24.2](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/)
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 24.2บันทึกย่อ](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 24.3](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-3-release-notes/)
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 24.3บันทึกย่อ](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-3-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 24.4](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-4-release-notes/)
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 24.4บันทึกย่อ](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-4-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Words สำหรับ Python via .NET 23.9, 23.10, 23.11, 23.12
+## Aspose.Words สำหรับ Python ผ่านทาง .NET 23.9, 23.10, 23.11, 23.12
 
-Aspose.Words 23.9 ขยายตัวเลือกการเรนเดอร์ การจำลองการเรนเดอร์ metafile และตัวเลือกการบันทึก markdown
+Aspose.Words23.9ขยายตัวเลือกการแสดงผล,การจำลองการแสดงผลเมตาไฟล์,และmarkdownบันทึกตัวเลือก.
 
-Aspose.Words 23.10 ปรับปรุงการเรนเดอร์ ขยายตัวเลือกสำหรับการโหลดและบันทึกเอกสาร และอนุญาตให้ผู้ใช้รวมเอกสารในรูปแบบใหม่
+Aspose.Words23.10ปรับปรุงการแสดงผล,ขยายตัวเลือกสำหรับการโหลดและบันทึกเอกสาร,และช่วยให้ผู้ใช้สามารถผสานเอกสารในรูปแบบใหม่.
 
-Aspose.Words 23.11 ปรับปรุงการทำงานด้วยการแก้ไข รูปแบบ XLSX และแบบอักษรบนคำอธิบายแผนภูมิพร้อมตัวเลือกเพิ่มเติม
+Aspose.Words23.11ช่วยเพิ่มการทำงานที่มีการแก้ไขXLSXรูปแบบและแบบอักษรในตำนานแผนภูมิที่มีตัวเลือกเพิ่ม.
 
-Aspose.Words 23.12 นำเสนอคุณสมบัติและการแจงนับใหม่สำหรับการทำงานกับเอกสาร PDF และ OOXML รวมถึงการรองรับอิมเมจ WebP
+Aspose.Words23.12แนะนำคุณสมบัติใหม่และการแจงนับสำหรับการทำงานกับPDFและOOXMLเอกสารเช่นเดียวกับการสนับสนุนสำหรับWebPภาพ.
 
-### การเรนเดอร์และการพิมพ์
+### การแสดงผลและการพิมพ์
 
-#### การปรับแต่งชื่อแกนใน DrawingML Charts <sup>23.9</sup>
+#### การปรับแต่งชื่อแกนในDrawingMLแผนภูมิ <sup>23.9</sup>
 
-ความสามารถในการกำหนดชื่อแกนในแผนภูมิ DrawingML ได้รับการแนะนำโดยการใช้คุณสมบัติ [ChartAxisTitle](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxistitle/) และ [title](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/title/) คลาสสาธารณะใหม่
+ความสามารถในการปรับแต่งชื่อแกนในDrawingMLแผนภูมิได้ถูกนำมาใช้โดยการใช้คุณสมบัติสาธารณะใหม่[ChartAxisTitle](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxistitle/)และ[title](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/title/).
 
 ####  การกำหนดตำแหน่งแนวตั้งของแบบอักษรภายในย่อหน้า <sup>23.9</sup>
 
-ขณะนี้สามารถกำหนดตำแหน่งแนวตั้งของแบบอักษรภายในย่อหน้าได้โดยใช้คุณสมบัติ [baseline_alignment](https://reference.aspose.com/words/python-net/aspose.words/paragraphformat/baseline_alignment/) สาธารณะใหม่และการแจงนับ [BaselineAlignment](https://reference.aspose.com/words/python-net/aspose.words/baselinealignment/) ใหม่
+ขณะนี้สามารถกำหนดตำแหน่งแนวตั้งของแบบอักษรภายในย่อหน้าโดยใช้คุณสมบัติสาธารณะ[baseline_alignment](https://reference.aspose.com/words/python-net/aspose.words/paragraphformat/baseline_alignment/)ใหม่และการแจงนับใหม่[BaselineAlignment](https://reference.aspose.com/words/python-net/aspose.words/baselinealignment/).
 
 #### การควบคุมสีพื้นหน้า <sup>23.10</sup>
 
-เพิ่มความสามารถในการดึงข้อมูลสีพื้นหน้าโดยไม่มีตัวปรับแต่งลงในคลาส [Fill](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/) และ [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) ผ่านคุณสมบัติ **BaseForeColor**
+ความสามารถในการดึงสีพื้นหน้าโดยไม่มีการปรับเปลี่ยนได้ถูกเพิ่มเข้าไปในชั้นเรียน[Fill](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/)และ[Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/)ผ่านคุณสมบัติของ**BaseForeColor**.
 
-#### การขยายฟังก์ชันการทำงานของแผนภูมิ <sup>23.10</sup>
+#### ขยายฟังก์ชันการทำงานของแผนภูมิ <sup>23.10</sup>
 
-ฟังก์ชันการทำงานของคลาส [ChartDataPointCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatapointcollection/), [ChartSeries](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseries/) และ [ChartFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartformat/) ได้รับการขยายด้วยวิธีและคุณสมบัติใหม่
+ฟังก์ชันการทำงานของ[ChartDataPointCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatapointcollection/),[ChartSeries](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseries/)และ[ChartFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartformat/)คลาสได้รับการขยายด้วยวิธีการและคุณสมบัติใหม่.
 
-#### ปรับและปรับรูปภาพให้พอดีกับรูปร่างโดยอัตโนมัติ <sup>23.10</sup>
+#### ปรับและพอดีกับภาพเป็นรูปร่างโดยอัตโนมัติ <sup>23.10</sup>
 
-วิธีง่ายๆ ในการปรับและปรับรูปภาพให้พอดีภายในรูปร่างเฉพาะโดยอัตโนมัติทำได้ผ่านวิธี [fit_image_to_shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/imagedata/fit_image_to_shape/#default) ใหม่
+วิธีง่ายๆในการปรับและปรับให้พอดีกับรูปภาพภายในรูปร่างเฉพาะได้ผ่านทางวิธีใหม่[fit_image_to_shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/imagedata/fit_image_to_shape/#default).
 
-#### การจัดรูปแบบแบบอักษรเริ่มต้นสำหรับรายการคำอธิบายแผนภูมิ DrawingML <sup>23.11</sup>
+#### การจัดรูปแบบแบบอักษรปริยายสำหรับรายการตำนานแผนภูมิDrawingML <sup>23.11</sup>
 
-เพิ่มความสามารถในการระบุการจัดรูปแบบแบบอักษรเริ่มต้นสำหรับรายการคำอธิบายแผนภูมิของแผนภูมิ DrawingML ผ่านทางคุณสมบัติ [font](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartlegend/font/) คุณสมบัตินี้ช่วยให้องค์ประกอบแผนภูมิมีรูปลักษณ์ที่คล่องตัวและสม่ำเสมอยิ่งขึ้น ปรับปรุงความสวยงามโดยรวมของเอกสาร
+ความสามารถในการระบุการจัดรูปแบบฟอนต์ดีฟอลต์สำหรับรายการตำนานของDrawingMLแผนภูมิถูกเพิ่มผ่านคุณสมบัติของ[font](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartlegend/font/) นและสอดคล้องกันมากขึ้นสำหรับองค์ประกอบแผนภูมิ,การปรับปรุงความสวยงามของเอกสา.
 
-#### ระบุเค้าโครงหน้าเมื่อเปิด PDF ใน Reader <sup>23.12</sup>
+#### ระบุเค้าโครงหน้าเมื่อเปิดPDFในตัวอ่าน <sup>23.12</sup>
 
-ความสามารถในการระบุเค้าโครงหน้าที่จะใช้เมื่อเปิดเอกสารในตัวอ่าน PDF ได้รับการเพิ่มผ่านการแนะนำคุณสมบัติ [page_layout](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/page_layout/) ใหม่ให้กับคลาส [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) และการแนะนำการแจงนับ [PdfPageLayout](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfpagelayout/) ใหม่
+ความสามารถในการระบุเค้าโครงหน้าเว็บที่จะใช้เมื่อเปิดเอกสารในเครื่องอ่านPDFได้ถูกเพิ่มผ่านการแนะนำคุณสมบัติใหม่[page_layout](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/page_layout/)ให้กับคลาสของ[PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/)และการแนะนำการแจงนับใหม่[PdfPageLayout](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfpagelayout/).
 
-### กำลังโหลดและบันทึกเอกสาร
+### การโหลดและบันทึกเอกสาร
 
-#### การระบุชื่อโฟลเดอร์เพื่อสร้าง URI รูปภาพใน Markdown <sup>23.9</sup>
+#### การระบุชื่อโฟลเดอร์ที่จะสร้างภาพURIsในMarkdown <sup>23.9</sup>
 
-คลาส [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) ได้รับการขยายโดยรวมคุณสมบัติ [images_folder_alias](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/images_folder_alias/) ซึ่งอนุญาตให้ระบุชื่อของโฟลเดอร์ที่ใช้ในการสร้าง URI ภาพที่เขียนลงในเอกสาร Markdown
+คลาส[MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/)ถูกขยายโดยรวมคุณสมบัติ[images_folder_alias](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/images_folder_alias/)ซึ่งอนุญาตให้ระบุชื่อของโฟลเดอร์ที่ใช้สร้างภาพURIsเขียนลงในเอกสารMarkdown.
 
-#### ลดขนาดเอาต์พุต PDF <sup>23.10</sup>
+#### ลดขนาดเอาท์พุทPDF <sup>23.10</sup>
 
-มีการเพิ่มประสิทธิภาพการเรนเดอร์ PDF ต่างๆ เพื่อลดขนาดเอาต์พุตเมื่อใช้การตั้งค่า [optimize_output](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/optimize_output/)
+การเพิ่มประสิทธิภาพการแสดงผลต่างๆPDFเพื่อลดขนาดเอาต์พุตเมื่อใช้การตั้งค่า[optimize_output](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/optimize_output/)ถูกนำมาใช้.
 
-#### จดจำไฮเปอร์ลิงก์เมื่อโหลดเอกสาร TXT <sup>23.10</sup>
+#### รู้จักการเชื่อมโยงหลายมิติเมื่อโหลดเอกสารTXT <sup>23.10</sup>
 
-คุณลักษณะในการจดจำไฮเปอร์ลิงก์เมื่อโหลดเอกสาร TXT ได้รับการปรับใช้โดยการเพิ่มคุณสมบัติ [detect_hyperlinks](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/detect_hyperlinks/) ใหม่
+คุณลักษณะในการจดจำการเชื่อมโยงหลายมิติเมื่อโหลดเอกสารTXTถูกนำมาใช้โดยการเพิ่มคุณสมบัติ[detect_hyperlinks](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/detect_hyperlinks/)ใหม่.
 
-### อื่น
+### อื่นๆ
 
-- มีการใช้การจำลองการเรนเดอร์ Metafile เพื่อกำหนดขนาดการแรสเตอร์ โดยเฉพาะสำหรับความกว้างของปากกา WMF และความกว้างของปากกาเครื่องสำอาง EMF เพื่อให้บรรลุเป้าหมายนี้ คุณสมบัติ **ScaleWmfFontsToMetafileSize** จึงถูกแทนที่ด้วยคุณสมบัติ [emulate_rendering_to_size_on_page](https://reference.aspose.com/words/python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page/) และเพิ่มคุณสมบัติ [emulate_rendering_to_size_on_page_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page_resolution/) <sup>23.9</sup>
-- มีการแนะนำวิธีการที่เรียบง่ายสำหรับการแทรกเอกสารหนึ่งไปยังเอกสารอื่นที่ตำแหน่งเคอร์เซอร์ปัจจุบันโดยใช้วิธี [insert_document_inline](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_document_inline/#document_importformatmode_importformatoptions) <sup>23.10</sup>
-- เพิ่มความสามารถในการเข้าถึงและแก้ไขคุณสมบัติสไตล์ผ่านการแนะนำคุณสมบัติ [locked](https://reference.aspose.com/words/python-net/aspose.words/style/locked/) ใหม่ <sup>23.10</sup>
-- มีการเพิ่มพารามิเตอร์ประเภททั่วไปให้กับวิธีการของคลาส [CompositeNode](https://reference.aspose.com/words/python-net/aspose.words/compositenode/) <sup>23.10</sup>
-- ความสามารถในการเขียนทุกส่วนของเอกสารลงในแผ่นงาน XLSX เดียวกันนั้นได้มาจากประเภทการแจงนับ [XlsxSectionMode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsectionmode/) ใหม่และคุณสมบัติ [section_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/section_mode/) ใหม่ <sup>23.11</sup>
-* วิธีการควบคุมวิธีการใช้ส่วนขยายรูปแบบ ZIP64 สำหรับเอกสาร OOXML ผ่านคุณสมบัติ Zip64Mode ใหม่ของคลาส `OoxmlSaveOptions` และการแจงนับ Zip64Mode ใหม่ <sup>23.12</sup>
-* มีการรองรับอิมเมจ WebP แล้ว โปรดทราบว่าฟีเจอร์นี้ใช้ได้เฉพาะกับเวอร์ชัน .NetStandart และ .NET6+ เท่านั้น <sup>23.12</sup>
+- รับWMFความกว้างของปากกาและความกว้างของปากกาเครื่องสำอางEMF เพื่อให้บรรลุนี้ทรัพย์สิน**ScaleWmfFontsToMetafileSize**ถูกแทนที่ด้วยทรัพย์สิน[emulate_rendering_to_size_on_page](https://reference.aspose.com/words/python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page/)และทรัพย์สิน[emulate_rendering_to_size_on_page_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page_resolution/)ถูกเพิ่มเข้ามา <sup>23.9</sup>
+- วิธีที่ง่ายสำหรับการแทรกเอกสารหนึ่งลงในเอกสารอื่นที่ตำแหน่งเคอร์เซอร์ปัจจุบันได้ถูกนำมาใช้วิธีการ[insert_document_inline](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_document_inline/#document_importformatmode_importformatoptions) <sup>23.10</sup>
+- มีการเพิ่มความสามารถในการเข้าถึงและแก้ไขคุณสมบัติลักษณะผ่านการแนะนำคุณสมบัติใหม่[locked](https://reference.aspose.com/words/python-net/aspose.words/style/locked/) <sup>23.10</sup>
+- พารามิเตอร์ชนิดทั่วไปถูกเพิ่มเข้าไปในวิธีการของคลาสของ[CompositeNode](https://reference.aspose.com/words/python-net/aspose.words/compositenode/) <sup>23.10</sup>
+- ความสามารถในการเขียนทุกส่วนของเอกสารลงในเวิร์กชีทXLSXเดียวกันได้รับการจัดให้ผ่านประเภทการแจงนับใหม่[XlsxSectionMode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsectionmode/)และคุณสมบัติใหม่[section_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/section_mode/) <sup>23.11</sup>
+* วิธีการควบคุมวิธีใช้ส่วนขยายรูปแบบZIP64สำหรับเอกสารOOXMLผ่านคุณสมบัติใหม่Zip64Modeของคลาส`OoxmlSaveOptions`และการแจงนับใหม่Zip64Mode <sup>23.12</sup>
+* การสนับสนุนสำหรับWebPภาพที่ได้รับการแนะนำ โปรดทราบว่าคุณลักษณะนี้ใช้ได้เฉพาะสำหรับNetStandartและ.NET6+เวอร์ชัน <sup>23.12</sup>
 
 {{% alert color="primary" %}}
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 23.9](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-9-release-notes/)
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 23.9บันทึกย่อ](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-9-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 23.10](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-10-release-notes/)
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 23.10บันทึกย่อ](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-10-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.Words สำหรับบันทึกประจำรุ่น Python via .NET 23.11](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-11-release-notes/)
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 23.11บันทึกย่อ](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-11-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกประจำรุ่น Aspose.Words สำหรับ .NET 23.12](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-12-release-notes/)
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.Wordsสำหรับ.NET 23.12 บันทึกย่อ](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-12-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Words สำหรับ Python via .NET 23.5, 23.6, 23.7, 23.8
+## Aspose.Words สำหรับ Python ผ่านทาง .NET 23.5, 23.6, 23.7, 23.8
 
-Aspose.Words 23.5 ปรับปรุงความสามารถในการทำงานกับข้อมูลชุดแผนภูมิ และความสามารถในการทำงานกับเอกสาร ODT รวมถึงปรับปรุงส่วนหัว/ส่วนท้าย และการตัดข้อความ
+Aspose.Words23.5ช่วยเพิ่มความสามารถในการทำงานกับข้อมูลชุดแผนภูมิและความสามารถในการทำงานกับODTเอกสารเช่นเดียวกับการปรับปรุงส่วนหัว/ท้ายกระดาษและการตัดข้อความของพวกเขา.
 
-Aspose.Words 23.6 ขยายตัวเลือกการเรนเดอร์ เพิ่มรูปแบบการส่งออกใหม่ ปรับปรุงการรายงาน LINQ และเครื่องมือ LowCode
+Aspose.Words23.6ขยายตัวเลือกการแสดงผลเพิ่มรูปแบบการส่งออกใหม่ปรับปรุงการรายงานLINQและเครื่องมือLowCode.
 
-Aspose.Words 23.7 ปรับปรุงความสามารถในการรายงาน เพิ่มรูปแบบการส่งออกใหม่ และแนะนำการเปลี่ยนแปลงในการทำงานกับตารางและลายเซ็นดิจิทัล
+Aspose.Words23.7ช่วยเพิ่มความสามารถในการรายงานเพิ่มรูปแบบการส่งออกใหม่และแนะนำการเปลี่ยน.
 
-Aspose.Words 23.8 ขยายความสามารถของรูปแบบต่างๆ ปรับปรุงการเรนเดอร์ และเพิ่มตัวเลือกใหม่สำหรับการทำงานกับฟิลด์
+Aspose.Words23.8ขยายความสามารถของรูปแบบต่างๆปรับปรุงการแสดงผลและเพิ่มตัวเลือกใหม่สำหรับกา
 
 ### รูปแบบที่รองรับ
 
-* ตั้งแต่เวอร์ชัน 23.6 เป็นต้นไป คุณสามารถบันทึกเอกสารในรูปแบบ XLSX ได้ ตอนนี้คุณสามารถแปลงเอกสารของคุณเป็นรูปแบบ Excel ได้แล้ว <sup>23.6</sup>
+* เริ่มต้นด้วยเวอร์ชัน23.6คุณสามารถบันทึกเอกสารในรูปแบบXLSX ตอนนี้คุณสามารถแปลงเอกสารของคุณให้เป็นรูปแบบเก่ง <sup>23.6</sup>
 
-* ตั้งแต่เวอร์ชัน 23.7 เป็นต้นไป คุณสามารถบันทึกหน้าเอกสารหรือรูปร่างในรูปแบบ EPS ได้ <sup>23.7</sup>
+* เริ่มต้นด้วยเวอร์ชัน23.7คุณสามารถบันทึกหน้าเอกสารหรือรูปร่างในรูปแบบEPS <sup>23.7</sup>
 
-### คุณสมบัติรูปแบบใหม่
+### คุณลักษณะรูปแบบใหม่
 
-- มีการแนะนำฟังก์ชันการสร้างสารบัญ (TOC) โดยอัตโนมัติสำหรับเอกสาร MOBI <sup>23.8</sup>
-- ตัวสร้าง [PdfEncryptionDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions) ได้รับการขยายด้วย [PdfPermissions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions) <sup>23.8</sup>
-- ปรับรูปร่างข้อความแนวตั้งสำหรับเมตาไฟล์ EMF แล้ว <sup>23.8</sup>
+- ฟังก์ชันการทำงานที่สร้างสารบัญโดยอัตโนมัติ(TOC)สำหรับMOBIเอกสารได้รับการแนะนำ <sup>23.8</sup>
+- ตัวสร้าง[PdfEncryptionDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions)ถูกขยายด้วย[PdfPermissions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions) <sup>23.8</sup>
+- มีการสร้างข้อความแนวตั้งสำหรับEMFเมตาไฟล์แล้ว <sup>23.8</sup>
 
-### กำลังแสดงผล
+### การแสดงผล
 
-#### รับและแก้ไขข้อมูลชุดแผนภูมิ <sup>23.5</sup>
+#### รับและปรับเปลี่ยนข้อมูลชุดแผนภูมิ <sup>23.5</sup>
 
-คุณลักษณะในการรับและแก้ไขข้อมูลชุดแผนภูมิมีให้โดยการเพิ่ม:
+คุณลักษณะที่จะได้รับและปรับเปลี่ยนข้อมูลชุดแผนภูมิที่มีให้โดยการเพิ่ม:
 
 - คลาสใหม่: [ChartXValue](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartmultilevelvalue/)
-- ประเภท enum ใหม่: [ChartXValueType](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvaluetype/)
+- ประเภทเอนัมใหม่:[ChartXValueType](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluetype/),[ChartYValueType](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvaluetype/)
 
-#### รองรับการพิมพ์ขั้นสูง <sup>23.6</sup>
+#### การสนับสนุนสำหรับการพิมพ์ขั้นสูง <sup>23.6</sup>
 
-เพิ่มการสนับสนุนการพิมพ์ขั้นสูงในการเรนเดอร์ WMF, EMF และ EMF+ แล้ว
+การสนับสนุนสำหรับการพิมพ์ขั้นสูงในWMF,EMFและEMF+การแสดงผลได้รับการเพิ่ม.
 
-#### เนื้อหาสีในหน้า <sup>23.6</sup>
+#### เนื้อหาสีบนหน้าเว็บ <sup>23.6</sup>
 
-เพิ่มทรัพย์สินสาธารณะ [PageInfo.colored](https://reference.aspose.com/words/python-net/aspose.words.rendering/pageinfo/colored/) ซึ่งระบุว่าหน้านั้นเป็นสีหรือไม่ ได้ถูกเพิ่มแล้ว
+คุณสมบัติสาธารณะ[PageInfo.colored](https://reference.aspose.com/words/python-net/aspose.words.rendering/pageinfo/colored/)ซึ่งบ่งชี้ว่าเพจเป็นสีหรือไม่มีการเพิ่มเพจ.
 
-#### การจัดรูปแบบสำหรับป้ายข้อมูลแผนภูมิ <sup>23.6</sup>
+#### การจัดรูปแบบสำหรับป้ายกำกับข้อมูลแผนภูมิ <sup>23.6</sup>
 
-ความสามารถในการตั้งค่าการเติม เส้นขีด และการจัดรูปแบบคำบรรยายสำหรับป้ายกำกับข้อมูลแผนภูมิได้ถูกนำมาใช้แล้ว
+ความสามารถในการตั้งค่าการเติม,จังหวะ,และการจัดรูปแบบคำบรรยายภาพสำหรับฉลากข้.
 
-### Mail Merge และการรายงาน
+### Mail Mergeและการรายงาน
 
-#### การแทรก HTML แบบไดนามิกสำหรับ LINQ Reporting Engine <sup>23.6</sup>
+#### แทรกแบบไดนามิกHTMLสำหรับLINQเครื่องมือการรายงาน <sup>23.6</sup>
 
-เพิ่มวิธีใหม่ในการแทรก HTML แบบไดนามิกสำหรับ LINQ Reporting Engine แล้ว
+มีการเพิ่มวิธีการใหม่ของการแทรกแบบไดนามิกHTMLสำหรับLINQเครื่องมือการรายงาน.
 
-#### รองรับแท็ก Mustache <sup>23.7</sup>
+#### Mustacheแท็กสนับสนุน <sup>23.7</sup>
 
-ขณะนี้แท็ก Mustache ได้รับการสนับสนุนในวิธี [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/get_regions_hierarchy/) และ [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/get_field_names_for_region/)
+ขณะนี้รองรับแท็กMustacheในวิธีการ[MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/get_regions_hierarchy/)และ[MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/get_field_names_for_region/).
 
 #### การระบุขนาดของภาพที่แสดงผล <sup>23.8</sup>
 
-มีการแนะนำ [image_size](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/image_size/) ทรัพย์สินสาธารณะใหม่สำหรับการระบุขนาดของภาพที่แสดงผลในหน่วยพิกเซล
+มีการแนะนำคุณสมบัติสาธารณะใหม่[image_size](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/image_size/)สำหรับการระบุขนาดของภาพที่แสดงผลเป็นพิกเซล.
 
-#### รักษาช่องว่างสำหรับค่าสตริง JSON – LINQ <sup>23.8</sup>
+#### รักษาช่องว่างสำหรับค่าสตริงJSON–LINQ <sup>23.8</sup>
 
-เพิ่มตัวเลือกใน LINQ Reporting Engine เพื่อรักษาช่องว่างสำหรับค่าสตริง JSON
+มีการเพิ่มตัวเลือกลงในโปรแกรมการรายงานLINQเพื่อรักษาช่องว่างสำหรับค่าสตริงJSON.
 
 ### LowCode <sup>23.6</sup>
 
-มีการเพิ่มวิธีการ LowCode ใหม่ที่มีวัตถุประสงค์เพื่อรวมเอกสารประเภทต่างๆ ให้เป็นเอกสารเอาต์พุตเดียว
+มีการเพิ่มวิธีการใหม่LowCodeเพื่อผสานเอกสารประเภทต่างๆลงในเอกสารที่ส่งออกเดียว.
 
-### อื่น
+### อื่นๆ
 
-- มีการรองรับการตัดข้อความในส่วนหัว/ส่วนท้ายแล้ว <sup>23.5</sup>
-- เพิ่มความสามารถในการลบลายเซ็นดิจิทัลออกจากเอกสาร ODT ด้วยวิธี [RemoveAllSignatures](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignatureutil/remove_all_signatures/#str_str) <sup>23.5</sup>
-- เพิ่ม [phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/phonetic_guide/) ทรัพย์สินสาธารณะเพื่อรับฐานและข้อความทับทิมของ [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) คู่มือการออกเสียงแล้ว <sup>23.5</sup>
-- ความสามารถในการดึงค่าลายเซ็นดิจิทัลจากเอกสารที่เซ็นชื่อแบบดิจิทัลเป็นอาร์เรย์ไบต์ได้รับการเพิ่มโดยการแนะนำคุณสมบัติ [signature_value](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/signature_value/) ใหม่ <sup>23.7</sup>
-- คลาส [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) และ [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) ได้รับการขยายด้วยสมาชิกสาธารณะใหม่ - [Row.next_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/next_row/), [Row.previous_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/previous_row/), [Cell.next_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/next_cell/) และ [Cell.previous_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/previous_cell/) <sup>23.7</sup>
+- การสนับสนุนสำหรับการตัดข้อความในส่วนหัว/ส่วนท้ายได้รับการดำเนินการ <sup>23.5</sup>
+- ความสามารถในการลบลายเซ็นดิจิทัลออกจากเอกสารODTได้ถูกเพิ่มผ่านวิธีการ[RemoveAllSignatures](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignatureutil/remove_all_signatures/#str_str) <sup>23.5</sup>
+- ทรัพย์สินสาธารณะ[phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/phonetic_guide/)ที่จะได้รับข้อความฐานและทับทิมของคู่มือการออกเสียง[Run](https://reference.aspose.com/words/python-net/aspose.words/run/)ได้รับการเพิ่ม <sup>23.5</sup>
+- ความสามารถในการดึงค่าลายเซ็นดิจิทัลจากเอกสารที่ลงนามแบบดิจิทัลเป็นอาร์เรย์ไบต์ถูกเพิ่มโดยการแนะนำคุณสมบัติใหม่[signature_value](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/signature_value/) <sup>23.7</sup>
+- ชั้นเรียน[Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/)และ[Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/)ได้รับการขยายไปพร้อมกับสมาชิกสาธารณะใหม่– [Row.next_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/next_row/), [Row.previous_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/previous_row/), [Cell.next_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/next_cell/), และ[Cell.previous_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/previous_cell/) <sup>23.7</sup>
 
 {{% alert color="primary" %}}
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกประจำรุ่น Aspose.Words สำหรับ Python via .NET 23.5](/words/python-net/aspose-words-for-python-via-dotnet-23-5-release-notes/)
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 23.5บันทึกย่อ](/words/python-net/aspose-words-for-python-via-dotnet-23-5-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 23.6](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/)
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 23.6บันทึกย่อ](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 23.7](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/)
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 23.7บันทึกย่อ](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกประจำรุ่น Aspose.Words สำหรับ Python via .NET 23.8](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/)
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 23.8บันทึกย่อ](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Words สำหรับ Python via .NET 23.1, 23.2, 23.3, 23.4
-
-Aspose.Words 23.1 ปรับปรุงประสิทธิภาพของการจำลองการดำเนินการแรสเตอร์ รวมถึงปรับปรุงคุณภาพการส่งออกและการเรนเดอร์เอกสาร
-
-Aspose.Words 23.2 แนะนำการบันทึกเอกสารในรูปแบบ MOBI ปรับปรุงการแสดงแผนภูมิ และทำการเปลี่ยนแปลงรายละเอียดลักษณะที่ปรากฏของเอกสารที่โดดเด่น
-
-Aspose.Words 23.3 ปรับปรุงการนำเข้าและบันทึกเอกสารด้วยคุณสมบัติใหม่ และยังปรับปรุงคุณภาพงานด้วยสีพื้นหลังและพื้นหน้า และการไล่ระดับสีแบบรัศมี
-
-Aspose.Words 23.4 ปรับปรุงการคำนวณพารามิเตอร์บางตัวและการวางตำแหน่งของตารางและข้อความโดยรอบ
-
-### การปรับปรุงประสิทธิภาพ
-
-#### การจำลองการดำเนินงานแรสเตอร์ <sup>23.1</sup>
-
-ประสิทธิภาพและคุณภาพของการจำลองการดำเนินการแรสเตอร์ด้วยเมตาไฟล์ได้รับการปรับปรุงอย่างมีนัยสำคัญ
-
-### รูปแบบที่รองรับ
-
-#### ส่งออกเป็น MOBI <sup>23.2</sup>
-
-ตั้งแต่เวอร์ชัน 23.2 เป็นต้นไป คุณสามารถบันทึกเอกสารในรูปแบบ MOBI ได้ (หรือที่เรียกว่า PRC, AZW – รูปแบบไฟล์ e-book ของ Amazon Kindle) ตอนนี้คุณไม่เพียงแต่สามารถโหลดเอกสาร MOBI เท่านั้น แต่ยังส่งออกไฟล์ของคุณเป็นรูปแบบ MOBI ได้อีกด้วย
-
-### กำลังแสดงผล
-
-#### ทำงานกับสีธีมแรเงา <sup>23.1</sup>
-
-มีการใช้ความสามารถในการทำงานกับสีของธีมแรเงาแล้ว
-
-#### การสนับสนุนค่าสัมประสิทธิ์ R-squared ในแผนภูมิ DML <sup>23.1</sup>
-
-รองรับค่าสัมประสิทธิ์ R-squared ในป้ายกำกับเส้นแนวโน้มแผนภูมิ DML เมื่อเพิ่มการเรนเดอร์แล้ว
-
-#### การปรับปรุงการเรนเดอร์แผนภูมิ <sup>23.2</sup>
-
-ตั้งแต่ 23.2 การแสดงกราฟได้รับการปรับปรุงอย่างมาก
-
-#### การควบคุมสีพื้นหลังและพื้นหน้า <sup>23.3</sup>
-
-คลาส [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) ได้รับการขยายด้วยชุดคุณสมบัติสาธารณะใหม่ที่เกี่ยวข้องกับสีพื้นหลังและพื้นหน้า: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_theme_color/) และ [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_tint_and_shade/) และ [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_tint_and_shade/)
-
-#### การไล่ระดับสีแบบเรเดียลด้วย `SkiaSharp` Native Shader <sup>23.3</sup>
-
-มีการใช้การเรนเดอร์การไล่ระดับสีแบบรัศมีด้วยเชเดอร์ดั้งเดิมของ `SkiaSharp` สำหรับ .NET Standard แล้ว
-
-#### ระยะห่างระหว่างตารางและข้อความล้อมรอบ <sup>23.4</sup>
-
-เพิ่มความสามารถในการกำหนดระยะห่างระหว่างตารางและข้อความโดยรอบโดยการแนะนำคุณสมบัติใหม่ให้กับคลาส [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/): [distance_left](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_left/), [distance_right](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_right/), [distance_top](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_top/) และ [distance_bottom](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_bottom/)
-
-### กำลังโหลดและบันทึกเอกสาร
-
-#### สร้าง `TOC` สำหรับเอกสาร AZW3 <sup>23.1</sup>
-
-เพิ่มความสามารถในการสร้าง `TOC` (สารบัญ) สำหรับเอกสาร AZW3 ผ่านการใช้คุณสมบัติ **epub_navigation_map_level**
-
-#### การส่งออกรายการไปยัง Markdown <sup>23.1</sup>
-
-มีการจัดเตรียมวิธีการควบคุมการส่งออกรายการเป็นรูปแบบ Markdown โดยการเพิ่มคุณสมบัติ [list_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/list_export_mode/) ลงในคลาส [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/)
-
-#### แจ้งความคืบหน้าการบันทึกเอกสาร <sup>23.3</sup>
-
-การบันทึกการแจ้งเตือนความคืบหน้าสำหรับรูปแบบ MOBI และ AZW3 ได้ถูกนำมาใช้แล้ว
-
-#### การปรับระยะห่างระหว่างประโยคและคำ <sup>23.3</sup>
-
-เพิ่มความสามารถในการระบุว่าจะปรับประโยคและระยะห่างระหว่างคำโดยอัตโนมัติเมื่อนำเข้าเอกสารหรือไม่ โดยการแนะนำคุณสมบัติ [adjust_sentence_and_word_spacing](https://reference.aspose.com/words/python-net/aspose.words/importformatoptions/adjust_sentence_and_word_spacing/)
-
-### อื่น
-
-- เพิ่มความสามารถในการระบุการปรับระยะห่างอักขระของเอกสารผ่านการใช้คุณสมบัติ [justification_mode](https://reference.aspose.com/words/python-net/aspose.words/document/justification_mode/) <sup>23.2</sup>
-- วิธีการสั่ง Aspose.Words ว่าจะรวมกล่องข้อความ เชิงอรรถ และอ้างอิงท้ายเรื่องในสถิติการนับคำนั้นได้จัดเตรียมไว้หรือไม่ โดยการเพิ่มคุณสมบัติ [include_textboxes_footnotes_endnotes_in_stat](https://reference.aspose.com/words/python-net/aspose.words/document/include_textboxes_footnotes_endnotes_in_stat/) <sup>23.2</sup>
-- ตัวเลือกใหม่สำหรับสไตล์เอกสาร ซึ่งอนุญาตให้ระบุว่าสไตล์นั้นถูกกำหนดใหม่โดยอัตโนมัติตามค่าที่เหมาะสมหรือไม่ ได้รับการแนะนำผ่านคุณสมบัติ [automatically_update](https://reference.aspose.com/words/python-net/aspose.words/style/automatically_update/) <sup>23.2</sup>
-- เพิ่มความสามารถในการตรวจสอบว่า [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) เป็นการเรียกใช้คู่มือการออกเสียงหรือไม่โดยใช้คุณสมบัติ [is_phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/is_phonetic_guide/) <sup>23.4</sup>
-- วิธีง่ายๆ ในการทำงานกับอนุกรมและแกนของแผนภูมิผสมได้ถูกนำมาใช้โดยการแนะนำคลาส [ChartAxisCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxiscollection/) และเพิ่มคุณสมบัติ [Chart.axes](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/axes/) <sup>23.4</sup>
-- มีการเพิ่มคุณสมบัติสาธารณะใหม่ที่เชื่อมต่อกับตำแหน่งและขนาดที่สัมพันธ์กับรูปร่างในคลาส [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) <sup>23.4</sup>
-- ความแม่นยำและประสิทธิภาพของการคำนวณความสว่างสีสำหรับความละเอียดสีข้อความอัตโนมัติได้รับการปรับปรุงให้สอดคล้องกับ Microsoft Word <sup>23.4</sup> เวอร์ชันล่าสุด
+## ดูเพิ่มเติม
 
 {{% alert color="primary" %}}
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 23.1](/words/python-net/aspose-words-for-python-via-dotnet-23-1-release-notes/)
-
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกประจำรุ่น Aspose.Words สำหรับ Python via .NET 23.2](/words/python-net/aspose-words-for-python-via-dotnet-23-2-release-notes/)
-
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 23.3](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-3-release-notes/)
-
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 23.4](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/)
-
-{{% /alert %}}
-
-## Aspose.Words สำหรับ Python via .NET 22.9, 22.10, 22.11, 22.12
-
-Aspose.Words 22.9 ขยายตัวเลือกสำหรับการโหลดและบันทึกเอกสาร และปรับปรุงการโต้ตอบกับตัวเลือกอื่นๆ
-
-Aspose.Words 22.10 ปรับปรุงตัวเลือกการค้นหาและแทนที่ ปรับปรุงวัตถุ OLE และขยายฟังก์ชันการทำงานของรายการ
-
-Aspose.Words 22.11 ขยายฟังก์ชันการทำงานด้วยตัวเลือกใหม่เพื่อการทำงานที่สะดวกยิ่งขึ้นกับออบเจ็กต์ที่คุ้นเคยอยู่แล้ว: OLE และแท็กเอกสารที่มีโครงสร้าง
-
-Aspose.Words 22.12 ปรับปรุงความสามารถในการเรนเดอร์และแนะนำตัวเลือกสำหรับการทำงานกับระยะขอบเมื่อโหลด/บันทึกเอกสาร
-
-### การปรับปรุงประสิทธิภาพ <sup>22.12</sup>
-
-การเพิ่มประสิทธิภาพที่ช่วยลดความลึกของสถานะกราฟิกที่ซ้อนอยู่อย่างมากเมื่อเรนเดอร์เป็น PDF เพื่อรักษาการปฏิบัติตามข้อกำหนด ได้รับการแนะนำ
-
-### การเรนเดอร์และการพิมพ์
-
-#### คุณสมบัติการเรนเดอร์เส้นขอบใหม่ <sup>22.12</sup>
-
-มีการแนะนำคุณสมบัติสาธารณะใหม่ [theme_color](https://reference.aspose.com/words/python-net/aspose.words/border/theme_color/) และ [tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words/border/tint_and_shade/)
-
-#### สูตรเส้นแนวโน้มเชิงเส้นสำหรับ DrawingML Rendering <sup>22.12</sup>
-
-มีการใช้การเรนเดอร์สูตรเส้นแนวโน้มเชิงเส้นสำหรับแผนภูมิ DrawingML
-
-#### การตั้งค่าทางเลือกแบบอักษรสำหรับแบบอักษร Google Noto <sup>22.12</sup>
-
-การตั้งค่าทางเลือกแบบอักษรที่กำหนดไว้ล่วงหน้าสำหรับแบบอักษร Google Noto ได้รับการอัปเดตแล้ว
-
-### กำลังโหลดและบันทึกเอกสาร
-
-#### รูปร่างส่วนหัวหรือส่วนท้ายของแคชเพื่อลดขนาด PDF <sup>22.9</sup>
-
-ความสามารถในการแคชรูปร่างส่วนหัว/ส่วนท้ายเพื่อลดขนาดของไฟล์ PDF เอาต์พุตได้ถูกนำมาใช้โดยการเพิ่มคุณสมบัติ **CacheHeaderFooterShapes** ใหม่
-
-#### การตรวจจับการกำหนดหมายเลขอัตโนมัติเมื่อโหลดเอกสาร <sup>22.9</sup>
-
-ความสามารถในการระบุคุณสมบัติ [auto_numbering_detection](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/auto_numbering_detection/) เมื่อโหลดข้อความได้ถูกนำมาใช้ผ่านส่วนขยายของคลาส [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/)
-
-#### การระบุประเภทมาร์จิ้นเฉพาะ <sup>22.12</sup>
-
-ความสามารถในการระบุประเภท **Margin** เฉพาะสำหรับส่วนที่กำหนดได้ถูกนำมาใช้แล้ว
-
-### ค้นหาและเปรียบเทียบ <sup>22.10</sup>
-
-ความสามารถในการละเว้น [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) เมื่อค้นหาและแทนที่ตัวเลือกได้ถูกนำมาใช้โดยการเพิ่มคุณสมบัติ [ignore_structured_document_tags](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/ignore_structured_document_tags/) ใหม่ให้กับคลาส [FindReplaceOptions](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/)
-
-### อื่น
-
-- เพิ่มฟีเจอร์ใหม่เพื่อรับ FieldEQ เป็น OfficeMath แล้ว <sup>22.9</sup>
-- อนุญาตให้สร้างแท็กเอกสารที่มีโครงสร้างประเภท Group ในระดับแถวได้ <sup>22.9</sup>
-- ขณะนี้วัตถุและตัวควบคุม OLE ถือเป็นรูปภาพ metafile เมื่อแปลงเอกสารเป็น HTML <sup>22.10</sup>
-- คุณลักษณะใหม่ในการตรวจสอบว่ารายการเฉพาะถูกสร้างขึ้นจากเทมเพลตเดียวกันกับรายการเปรียบเทียบที่ได้รับการเพิ่มโดยการแนะนำวิธี **HasSameTemplate** ใหม่ลงในคลาส [List](https://reference.aspose.com/words/python-net/aspose.words.lists/list/) <sup>22.10</sup>
-- เพิ่มความสามารถในการสร้างแท็กเอกสารที่มีโครงสร้างใหม่ของประเภท [Citation](https://reference.aspose.com/words/python-net/aspose.words.markup/sdttype/) แล้ว <sup>22.11</sup>
-- คุณสมบัติ **EmbedAttachments** ใหม่ที่ช่วยให้ผู้ใช้สามารถฝังไฟล์แนบ OLE จากเอกสารต้นฉบับลงในเอกสาร PDF เอาท์พุตได้ถูกนำมาใช้แล้ว <sup>22.11</sup>
-
-{{% alert color="primary" %}}
-
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 22.9](/words/python-net/aspose-words-for-python-via-dotnet-22-9-release-notes/)
-
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 22.10](https://releases.aspose.com/words/python/release-notes/2022/aspose-words-for-python-via-dotnet-22-10-release-notes/)
-
-เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.Words สำหรับบันทึกประจำรุ่น Python via .NET 22.11](https://releases.aspose.com/words/python/release-notes/2022/aspose-words-for-python-via-dotnet-22-11-release-notes/)
-
-เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 22.12](https://releases.aspose.com/words/python/release-notes/2022/aspose-words-for-python-via-dotnet-22-12-release-notes/)
-
-{{% /alert %}}
-
-## ดูสิ่งนี้ด้วย
-
-{{% alert color="primary" %}}
-
-หน้านี้มีข่าวประชาสัมพันธ์ล่าสุดในช่วง 2 ปีที่ผ่านมา สำหรับรายละเอียดเกี่ยวกับรุ่นก่อนหน้านี้ โปรดดูหน้า [บันทึกประจำรุ่น'](https://releases.aspose.com/words/python/release-notes/) ในส่วนที่เกี่ยวข้อง
+หน้านี้ประกอบด้วยข่าวล่าสุดสำหรับที่ผ่านมา 2 ปี สำหรับรายละเอียดเกี่ยวกับรุ่นก่อนหน้านี้ให้ดูที่ [บันทึกย่อ'](https://releases.aspose.com/words/python/release-notes/) หน้าในส่วนที่เกี่ยวข้อง.
 
 {{% /alert %}}

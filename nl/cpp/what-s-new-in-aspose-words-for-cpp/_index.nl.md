@@ -1,4 +1,4 @@
-﻿---
+---
 title: Wat is er nieuw
 second_title: Aspose.Words voor C++
 articleTitle: Wat is er nieuw in Aspose.Words voor C++
@@ -7,7 +7,7 @@ type: docs
 description: "Aspose.Words voor C++ breidt zich dagelijks uit en verbetert. Op deze pagina kunt u meer te weten komen over de enorme en meest interessante functies van het product."
 weight: 2
 url: /nl/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2024-12-13-10-56-02
+timestamp: 2025-01-14-17-38-46
 ---
 
 Deze pagina beschrijft de meest interessante nieuwe Aspose.Words - functies die zijn geïntroduceerd in recente releases.

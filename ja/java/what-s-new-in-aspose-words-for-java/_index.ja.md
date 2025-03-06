@@ -1,18 +1,68 @@
-﻿---
+---
 title: 新着情報
 second_title: Aspose.WordsのためのJava
-articleTitle: What's new inAspose.WordsのためのJava
-linktitle: What's new inAspose.WordsのためのJava
+articleTitle: What's new in Aspose.WordsのためのJava
+linktitle: What's new in Aspose.WordsのためのJava
 type: docs
-description: "Aspose.WordsはJavaのために毎日拡大し、強化します。 このページでは、製品の巨大で最も興味深い機能について学ぶことができます。"
+description: "Aspose.WordsのためのJava 毎日拡大し、強化します。 このページでは、製品の巨大で最も興味深い機能について学ぶことができます。"
 weight: 2
 url: /ja/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2024-12-13-10-56-02
+timestamp: 2025-17-02-18-02-05
 ---
 
 このページでは、最近のリリースで導入された最も興味深い新しいAspose.Words機能について説明します。
 
-## Aspose.WordsのためにJava 24.9、24.10、24.11、24.12
+## Aspose.WordsのためのJava 25.1, 25.2
+
+Aspose.Words25.1はAIを使用した文法チェックを導入し、HTML、SVG、Markdown形式の高度なオプションを使用して文書の保存を強化します。
+
+Aspose.Words25.2は、AnthropicAIモデルによるテキスト要約を導入し、MsWorks形式のサポートを追加し、タイポグラフィ制御を強化し、PDF構造とリストの処理を改善します。
+
+### AI搭載の機能
+
+#### 文書AI文法チェック <sup>25.1</sup>
+
+新しい[CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions)メソッドを追加することにより、OpenAI生成モデルを使用して提供された文書の文法をチェックする機能が導入されました。
+
+#### 人類的生成言語モデルを用いた要約 <sup>25.2</sup>
+
+新しいパブリッククラス[AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/)を導入することにより、人類生成言語モデルを使用したテキスト要約が可能になりました。
+
+### サポートされている形式 <sup>25.2</sup>
+
+バージョン25.2から、MicrosoftWorksドキュメントの新しいMsWorksロード形式との互換性が追加されました。
+
+### ドキュメントの変換、読み込み、保存
+
+#### HTML形式とSVG形式への保存を改善しました <sup>25.1</sup>
+
+[HtmlFixedSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlfixedsaveoptions/)クラスと[SvgSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/svgsaveoptions/)クラスの両方に**IdPrefix**プロパティと**RemoveJavaScriptFromLinks**プロパティを追加することで、HTML形式とSVG形式への保存が強化されました。
+
+#### 保存時の画像解像度とOfficeMath出力モードをMarkdownに設定します <sup>25.1</sup>
+
+* 画像の解像度を設定するための新しい[ImageResolution](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageResolution)オプションが[MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/)クラスに追加されました。
+* 新しい[OfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getOfficeMathExportMode)オプションと[MarkdownOfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownofficemathexportmode/)列挙体が[MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/)クラスに追加され、OfficeMath出力モードを設定しました。
+
+### レンダリング
+
+#### 改善されたタイポグラフィ制御 <sup>25.2</sup>
+
+[NumberSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getNumberSpacing)プロパティは、タイポグラフィ制御を改善するために追加されました。
+
+### その他
+
+* PDF論理構造が改善され、TOA、BIBLIOGRAPHY、INDEXフィールドがサポートされました。 <sup>25.2</sup>
+* リストの処理を改善するために[AddSingleLevelList](https://reference.aspose.com/words/java/com.aspose.words/listcollection/#addSingleLevelList-int)メソッドが導入されました。 <sup>25.2</sup>
+
+{{% alert color="primary" %}}
+
+詳細については、こちらをご覧ください [Aspose.WordsのためのJava 25.1リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-1-release-notes/).
+
+詳細については、こちらをご覧ください [Aspose.WordsのためのJava 25.2リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-2-release-notes/).
+
+{{% /alert %}}
+
+## Aspose.WordsのためのJava 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words24.9はDocumentBuilderを介してgroup shape挿入とStructuredDocumentTag挿入を導入し、目盛りによる放射状チャートレンダリングを強化し、XAdES-EPESサポートによるデジタル署名を改善し、Markdown下線認識を追加し、脚注/文末脚注セパレータへのアクセスを提供します。
 
@@ -20,21 +70,21 @@ Aspose.Words24.10は、CommandButtonの作成、新しい形状の可視性コ�
 
 Aspose.Words24.11では、AIを使用したドキュメントの要約、強化されたレンダリングオプション、ドキュメントプロパティへのアクセスの改善、ActiveXコントロー
 
-Aspose.Words 24.12 では、カスタマイズ可能なデータ ラベルの配置、Google AI を活用したテキスト翻訳、強化された差し込み印刷のクリーンアップ オプション、新しい LowCode 処理クラスが導入されています。
+Aspose.Words24.12では、カスタマイズ可能なデータラベルの配置、GoogleAIによるテキスト翻訳、強化されたMail Mergeクリーンアップオプション、新しいLowCode処理クラスが導入されま
 
-### AI を活用した機能
+### AI搭載の機能
 
-#### OpenAI と Google を使用したドキュメント要約 <sup>24.11</sup>
+#### OpenAIとGoogleを使用した文書の要約 <sup>24.11</sup>
 
-**OpenAI** および **Google** 生成言語モデルを使用したドキュメント要約のサポートが統合されました。
+**OpenAI**および**Google**生成言語モデルを使用した文書要約のサポートが統合されました。
 
-#### Google の生成言語モデルを使用したテキスト翻訳 <sup>24.12</sup>
+#### Googleの生成言語モデルを使用したテキスト翻訳 <sup>24.12</sup>
 
-Google の生成言語モデルを使用してテキストを翻訳する機能は、[Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int) メソッドと [Language](https://reference.aspose.com/words/java/com.aspose.words/language/) 列挙を追加することで Aspose.Words に実装されました。
+Googleの生成言語モデルを使用してテキストを翻訳する機能は、[Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int)メソッドと[Language](https://reference.aspose.com/words/java/com.aspose.words/language/)列挙体を追加することによってAspose.Wordsに実装されています。
 
-### ローコード <sup>24.12</sup>
+### Low Code <sup>24.12</sup>
 
-[Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/)、[MailMerger](https://reference.aspose.com/words/java/com.aspose.words/mailmerger/)、[Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/)、[Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) などの新しいローコード クラスが導入され、ドキュメント処理のシンプルさと柔軟性の完璧なバランスを実現する一連のメソッドが提供されます。
+新しいLowCodeクラスのような[Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/), [MailMerger](https://reference.aspose.com/words/java/com.aspose.words/mailmerger/), [Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/), [Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) など。 文書処理のための簡易性と柔軟性間の完全なバランスを打つ一組の方法を提供する導入された。
 
 ### レンダリングと印刷
 
@@ -66,10 +116,6 @@ Google の生成言語モデルを使用してテキストを翻訳する機能�
 
 ヒストグラムチャートレンダリングは、指定された数のビンとラベルを使用できるようにすることで改善されました。
 
-#### データ ラベルの配置をカスタマイズする <sup>24.12</sup>
-
-[ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) クラスと [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/) クラスに新しいプロパティを導入することで、データ ラベルの配置をカスタマイズする機能が追加されました。
-
 ### 文書の変換、読み込み、保存
 
 #### Markdownファイルを読み込むときの書式設定に下線を引きます <sup>24.9</sup>
@@ -84,11 +130,11 @@ Google の生成言語モデルを使用してテキストを翻訳する機能�
 
 PDFエクスポートは、テーブルタイトルプロパティをPDF論理構造要素のタイトルとして含めることで拡張されました。
 
-### 差し込み印刷とレポート
+### Mail Mergeと報告
 
-#### 差し込み印刷中に空のテーブルを削除 <sup>24.12</sup>
+#### Mail Merge中に空のテーブルを削除する <sup>24.12</sup>
 
-差し込み印刷の出力を改良するために、[MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/) 列挙に新しい **RemoveEmptyTables** オプションが追加されました。
+新しい**RemoveEmptyTables**オプションが[MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/)列挙体に追加され、Mail Merge出力を調整しました。
 
 ### デジタル署名
 
@@ -109,17 +155,17 @@ PDFエクスポートは、テーブルタイトルプロパティをPDF論理�
 
 {{% alert color="primary" %}}
 
-詳細については、こちらをご覧ください [アスポーズWordsForJava24.9リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
+詳細については、こちらをご覧ください [Aspose.WordsのためのJava 24.9リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
 
-詳細については、こちらをご覧ください [アスポーズWordsForJava24.10リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
+詳細については、こちらをご覧ください [Aspose.WordsのためのJava 24.10リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
 
-詳細については、こちらをご覧ください [アスポーズWordsForJava24.11リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-11-release-notes/).
+詳細については、こちらをご覧ください [Aspose.WordsのためのJava 24.11リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-11-release-notes/).
 
-詳細については、こちらをご覧ください [アスポーズWordsForJava24.12リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-12-release-notes/).
+詳細については、こちらをご覧ください [Aspose.WordsのためのJava 24.12リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-12-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Wordsの場合Java 24.5, 24.6, 24.7, 24.8
+## Aspose.WordsのためのJava 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words24.5アセンブリのオプションを展開し、レンダリング機能を向上させ、その他のオプションを展開します。
 
@@ -206,17 +252,17 @@ Aspose.Words24.8軸ラベルを正確に制御してグラフのカスタマイ�
 
 {{% alert color="primary" %}}
 
-詳細については、こちらをご覧ください [アスポーズWordsForJava24.5リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/).
+詳細については、こちらをご覧ください [Aspose.WordsのためのJava 24.5リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/).
 
-詳細については、こちらをご覧ください [アスポーズWordsForJava24.6リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/).
+詳細については、こちらをご覧ください [Aspose.WordsのためのJava 24.6リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/).
 
-詳細については、こちらをご覧ください [アスポーズWordsForJava24.7リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-7-release-notes/).
+詳細については、こちらをご覧ください [Aspose.WordsのためのJava 24.7リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-7-release-notes/).
 
-詳細については、こちらをご覧ください [アスポーズWordsForJava24.8リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-8-release-notes/).
+詳細については、こちらをご覧ください [Aspose.WordsのためのJava 24.8リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-8-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Wordsの場合Java 24.1, 24.2, 24.3, 24.4
+## Aspose.WordsのためのJava 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words24.1は、ストロークの色の管理に関する経験を向上させ、OLEオブジェクトとLINQレポートを強化し、新しい参考文献ソースpublicAPIを導入します。
 
@@ -260,7 +306,7 @@ Markdownファイルの読み込み時に空行を保持する機能が追加さ
 
 #### 新しいTIFFリーダー/ライター <sup>24.3</sup>
 
-.NET Standard、.NET6以降のAspose.Words用の新しいTIFFリーダ/ライタが開発されました。 Aspose.Wordsfor.NET 24.3は、JPEGおよび古いJPEG圧縮タイプのTIFFイメージの読み取りのサポートを追加し、読み取りおよび書き込み操作の品質も大幅に改善しました。
+.NET Standard、.NET6以降のAspose.Words用の新しいTIFFリーダ/ライタが開発されました。 Aspose.Wordsのための.NET 24.3 JPEGおよび古いJPEG圧縮タイプのTIFF画像の読み取りのサポートが追加され、読み取りおよび書き込み操作の品質も大幅に改善されました。
 
 ### その他
 
@@ -275,13 +321,13 @@ Markdownファイルの読み込み時に空行を保持する機能が追加さ
 
 {{% alert color="primary" %}}
 
-詳細については、こちらをご覧ください [アスポーズWordsForJava24.1リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-1-release-notes/).
+詳細については、こちらをご覧ください [Aspose.WordsのためのJava 24.1リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-1-release-notes/).
 
-詳細については、こちらをご覧ください [アスポーズWordsForJava24.2リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/).
+詳細については、こちらをご覧ください [Aspose.WordsのためのJava 24.2リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/).
 
-詳細については、こちらをご覧ください [アスポーズWordsForJava24.3リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/).
+詳細については、こちらをご覧ください [Aspose.WordsのためのJava 24.3リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/).
 
-詳細については、こちらをご覧ください [アスポーズWordsForJava24.4リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-4-release-notes/).
+詳細については、こちらをご覧ください [Aspose.WordsのためのJava 24.4リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-4-release-notes/).
 
 {{% /alert %}}
 
@@ -351,17 +397,17 @@ TXT文書の読み込み時にハイパーリンクを認識する機能は、�
 
 {{% alert color="primary" %}}
 
-詳細については、こちらをご覧ください [アスポーズWordsForJava23.9リリースノート](/words/java/aspose-words-for-java-23-9-release-notes/).
+詳細については、こちらをご覧ください [Aspose.WordsのためのJava 23.9リリースノート](/words/java/aspose-words-for-java-23-9-release-notes/).
 
-詳細については、こちらをご覧ください [アスポーズWordsForJava23.10リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
+詳細については、こちらをご覧ください [Aspose.WordsのためのJava 23.10リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 
-詳細については、こちらをご覧ください [アスポーズWordsForJava23.11リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-11-release-notes/).
+詳細については、こちらをご覧ください [Aspose.WordsのためのJava 23.11リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-11-release-notes/).
 
-詳細については、こちらをご覧ください [アスポーズWordsForJava23.12リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-12-release-notes/).
+詳細については、こちらをご覧ください [Aspose.WordsのためのJava 23.12リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-12-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Wordsの場合Java 23.5, 23.6, 23.7, 23.8
+## Aspose.WordsのためのJava 23.5, 23.6, 23.7, 23.8
 
 Aspose.Words23.5は、グラフ系列データを操作する機能とODTドキュメントを操作する機能を強化し、ヘッダー/フッターとそのテキストの折り返しを改善します。Aspose.Words23.5は、グラフ系列データを操作する機能とODTドキュメントを操作する機能を強化します。
 
@@ -441,101 +487,13 @@ LINQレポートエンジンに、JSON文字列値の空白を保持するオプ
 
 {{% alert color="primary" %}}
 
-詳細については、こちらをご覧ください [アスポーズWordsForJava23.5リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/).
+詳細については、こちらをご覧ください [Aspose.WordsのためのJava 23.5リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/).
 
-詳細については、こちらをご覧ください [アスポーズWordsForJava23.6リリースノート](/words/java/aspose-words-for-java-23-6-release-notes/).
+詳細については、こちらをご覧ください [Aspose.WordsのためのJava 23.6リリースノート](/words/java/aspose-words-for-java-23-6-release-notes/).
 
-詳細については、こちらをご覧ください [アスポーズWordsForJava23.7リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
+詳細については、こちらをご覧ください [Aspose.WordsのためのJava 23.7リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
 
-詳細については、こちらをご覧ください [アスポーズWordsForJava23.8リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Wordsの場合Java 23.1, 23.2, 23.3, 23.4
-
-Aspose.Words23.1ラスタ操作エミュレーションのパフォーマンスが向上し、ドキュメントのエクスポートとレンダリングの品質が向上します。
-
-Aspose.Words23.2は、MOBI形式で文書を保存することを導入し、チャートレンダリングを改善し、文書の外観の詳細に顕著な変更を加えます。
-
-Aspose.Words23.3新しいプロパティでドキュメントのインポートと保存が強化され、背景色と前景色と放射状のグラデーションでの作業の品質も向上します。Aspose.Words23.3
-
-Aspose.Words23.4は、いくつかのパラメータの計算と、テーブルと周囲のテキストの位置を改善します。
-
-### パフォーマンスの向上
-
-#### ラスター操作のエミュレーション <sup>23.1</sup>
-
-メタファイルを使用したラスタ操作のエミュレーションのパフォーマンスと品質が大幅に改善されました。
-
-### サポートされている形式
-
-#### MOBIにエクスポート <sup>23.2</sup>
-
-バージョン23.2以降では、文書をMOBI形式で保存することができます(別名:PRC, AZW – Amazon Kindle独自の電子書籍ファイル形式）。 これで、MOBIドキュメントを読み込むだけでなく、ファイルをMOBI形式にエクスポートすることもできます。
-
-### レンダリング
-
-#### シェーディングテーマの色を使用する <sup>23.1</sup>
-
-シェーディングテーマの色で作業する機能が実装されています。
-
-#### DMLチャートでのR二乗係数のサポート <sup>23.1</sup>
-
-レンダリングが追加されたときのDMLチャートトレンドラインラベルのR二乗係数のサポート。
-
-#### チャートレンダリングの改善 <sup>23.2</sup>
-
-23.2以降、チャートレンダリングが大幅に改善されました。
-
-#### 背景色と前景色のコントロール <sup>23.3</sup>
-
-[Fill](https://reference.aspose.com/words/java/com.aspose.words/fill/)クラスは、背景色と前景色に関連する一連の新しいパブリックプロパティ**ForeThemeColor**と**BackThemeColor**、**ForeTintAndShade**と**BackTintAndShade**で拡張されました。
-
-#### `SkiaSharp`ネイティブシェーダーを使用したラジアルグラディエント <sup>23.3</sup>
-
-.NET Standardの`SkiaSharp`ネイティブシェーダーを使用した放射状グラデーションのレンダリングが実装されています。
-
-#### 表と周囲のテキスト間の距離 <sup>23.4</sup>
-
-[Table](https://reference.aspose.com/words/java/com.aspose.words/table/)クラスに新しいプロパティを導入することで、テーブルと周囲のテキスト間の距離を設定する機能が追加されました: [DistanceLeft](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceLeft), [DistanceRight](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceRight), [DistanceTop](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceTop), と[DistanceBottom](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceBottom)。
-
-### 文書の読み込みと保存
-
-#### AZW3文書に対して`TOC`を生成する <sup>23.1</sup>
-
-[EpubNavigationMapLevel](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getEpubNavigationMapLevel)プロパティを使用して、AZW3文書の`TOC`(目次)を生成する機能が追加されました。[EpubNavigationMapLevel](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getEpubNavigationMapLevel)プロパティを使用して、AZW3文書の`TOC`(目次)を生成する機能が追加されました。
-
-#### リスト項目をMarkdownにエクスポートする <sup>23.1</sup>
-
-リスト項目のMarkdown形式へのエクスポートを制御する方法は、[ListExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getListExportMode)プロパティを[MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/)クラスに追加することによって提供されています。
-
-#### 文書保存の進行状況通知 <sup>23.3</sup>
-
-MOBIおよびAZW3形式の進行状況通知の保存が実装されました。
-
-#### 文と単語の間隔の調整 <sup>23.3</sup>
-
-**AdjustSentenceAndWordSpacing**プロパティを導入することにより、文書のインポート時に文と単語の間隔を自動的に調整するかどうかを指定する機能が追加されました。
-
-### その他
-
-- ドキュメントの文字間隔の調整を指定する機能は、[JustificationMode](https://reference.aspose.com/words/java/com.aspose.words/document/#getJustificationMode)プロパティの実装によって追加されました <sup>23.2</sup>
-- 単語数統計にテキストボックス、脚注、文末脚注を含めるかどうかをAspose.Wordsに指示する方法は、[IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/java/com.aspose.words/document/#getIncludeTextboxesFootnotesEndnotesInStat)プロパティを追加することによって提供されています <sup>23.2</sup>
-- 適切な値に基づいてスタイルを自動的に再定義するかどうかを指定できるドキュメントスタイルの新しいオプションが、[AutomaticallyUpdate](https://reference.aspose.com/words/java/com.aspose.words/style/#getAutomaticallyUpdate)プロパティを介して導入 <sup>23.2</sup>
-- [Run](https://reference.aspose.com/words/java/com.aspose.words/run/)が音声ガイド実行であるかどうかを判断する機能が**IsPhoneticGuide**プロパティを使用して追加されました <sup>23.4</sup>
-- コンボチャートの系列と軸を操作する簡単な方法は、**ChartAxisCollection**クラスを導入し、**Chart.Axes**プロパティを追加することによって実装されています <sup>23.4</sup>
-- Shape relative positioningとsizingに接続された新しいパブリックプロパティが[Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)クラスに追加されました <sup>23.4</sup>
-- 自動テキストの色の解像度のための色の明るさの計算の正確さとパフォーマンスは、Microsoft Wordの最新バージョンに応じて改善されました <sup>23.4</sup>
-
-{{% alert color="primary" %}}
-
-詳細については、こちらをご覧ください [アスポーズWordsForJava23.1リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-1-release-notes/).
-
-詳細については、こちらをご覧ください [アスポーズWordsForJava23.2リリースノート](/words/java/aspose-words-for-java-23-2-release-notes/).
-
-詳細については、こちらをご覧ください [アスポーズWordsForJava23.3リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-3-release-notes/).
-
-詳細については、こちらをご覧ください [アスポーズWordsForJava23.4リリースノート](/words/java/aspose-words-for-java-23-4-release-notes/).
+詳細については、こちらをご覧ください [Aspose.WordsのためのJava 23.8リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
 
 {{% /alert %}}
 

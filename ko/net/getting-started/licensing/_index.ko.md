@@ -7,7 +7,7 @@ description: ".NET용 Aspose.Words는 다양한 구매 계획을 제공하거나
 type: docs
 weight: 55
 url: /ko/net/licensing/
-timestamp: 2024-10-24-11-44-28
+timestamp: 2025-02-12-16-18-40
 ---
 
 때로는 시스템을 더 잘 연구하기 위해 가능한 한 빨리 코드를 살펴보고 싶을 때가 있습니다. 이를 더 쉽게 하기 위해 Aspose.Words는 다양한 구매 계획을 제공하거나 무료 평가판 및 평가용 30일 임시 라이센스를 제공합니다.
@@ -119,7 +119,7 @@ Aspose.Words를 사용하면 개발자가 계량 키를 적용할 수 있습니�
 
 {{< gist "aspose-words-gists" "c762ebd027c53ed61fce5bc5ccac1ca7" "apply-metered-license.cs" >}}
 
-일반적으로 애플리케이션 시작 시 계량 라이센스를 한 번 적용하면 충분합니다. 그러나 계량 라이선스 메커니즘이 24시간 동안 Aspose 서버와 통신하지 못하면 Aspose.Words는 라이선스 모드를 종료하고 평가 모드로 전환합니다. 이러한 상황을 방지하려면 라이센스 상태를 정기적으로 확인해야 합니다. Aspose.Words가 평가 모드로 전환되면 계량 라이센스를 다시 적용하십시오.
+일반적으로 응용 프로그램 시작에 한 번 미터링 된 라이센스를 적용하는 것으로 충분합니다. 그러나 계량된 라이선스 메커니즘이 24 시간 동안 아스 포스 서버와 통신하지 못하면Aspose.Words은 라이선스 모드를 종료하고 평가 모드로 전환합니다. 이러한 경우를 방지하기 위해[IsMeteredLicensed](https://reference.aspose.com/words/net/aspose.words/metered/ismeteredlicensed/)방법을 사용하여 라이센스 상태를 확인하고 필요한 경우 계량된 라이센스를 다시 적용할 수 있습니다.
 
 {{% alert color="primary" %}}
 

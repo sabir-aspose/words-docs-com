@@ -7,7 +7,7 @@ description: "Python via .NET용 Aspose.Words는 다양한 구매 계획을 제�
 type: docs
 weight: 40
 url: /ko/python-net/licensing/
-timestamp: 2024-01-31-14-23-37
+timestamp: 2025-02-12-16-18-40
 ---
 
 때로는 시스템을 더 잘 연구하기 위해 가능한 한 빨리 코드를 살펴보고 싶을 때가 있습니다. 이를 더 쉽게 하기 위해 Aspose.Words는 다양한 구매 계획을 제공하거나 무료 평가판 및 평가용 30일 임시 라이센스를 제공합니다.
@@ -106,6 +106,8 @@ Aspose.Words를 사용하면 개발자가 계량 키를 적용할 수 있습니�
 다음 코드 예제에서는 측정된 공개 키와 개인 키를 설정하는 방법을 보여줍니다
 
 {{< gist "aspose-words-gists" "45c97d37bef13067c82e741b922a2d4f" "apply-metered-license.py" >}}
+
+일반적으로 응용 프로그램 시작에 한 번 미터링 된 라이센스를 적용하는 것으로 충분합니다. 그러나 계량된 라이선스 메커니즘이 24 시간 동안 아스 포스 서버와 통신하지 못하면Aspose.Words은 라이선스 모드를 종료하고 평가 모드로 전환합니다. 이러한 경우를 방지하기 위해[is_metered_licensed](https://reference.aspose.com/words/python-net/aspose.words/metered/is_metered_licensed/#default)방법을 사용하여 라이센스 상태를 확인하고 필요한 경우 계량된 라이센스를 다시 적용할 수 있습니다.
 
 {{% alert color="primary" %}}
 

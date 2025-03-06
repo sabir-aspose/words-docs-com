@@ -7,7 +7,7 @@ description: "Aspose.Words cho Java cung cấp các gói khác nhau để mua s�
 type: docs
 weight: 60
 url: /vi/java/licensing/
-timestamp: 2024-01-31-14-23-37
+timestamp: 2025-02-12-16-18-40
 ---
 
 Đôi khi, để nghiên cứu hệ thống tốt hơn, bạn muốn lặn vào mã nhanh nhất có thể. Để giúp việc này dễ dàng hơn, Aspose.Words cung cấp các gói khác nhau để mua hoặc đề nghị một bản dùng thử miễn phí và Giấy phép tạm thời 30 ngày cho việc đánh giá.
@@ -129,6 +129,8 @@ Sau khi hoàn thành các bước cần thiết để có được loại giấy
 Mã ví dụ sau cho thấy cách thiết lập khóa công khai và tư nhân có thể đo lường được:
 
 {{< gist "aspose-words-gists" "aae6b7a56c4792497614b4ee8f6f8eec" "apply-metered-license.java" >}}
+
+Thông thường nó là đủ để áp dụng giấy phép đo một lần khi bắt đầu ứng dụng. Tuy nhiên, nếu cơ chế cấp phép được đo lường không giao tiếp với Các Máy chủ Aspose trong 24 giờ, Aspose.Words sẽ thoát khỏi chế độ được cấp phép và chuyển sang chế độ đánh giá. Để tránh trường hợp như vậy, bạn có thể sử dụng phương thức [IsMeteredLicensed](https://reference.aspose.com/words/java/com.aspose.words/metered/#isMeteredLicensed) để kiểm tra trạng thái giấy phép và áp dụng lại giấy phép được đo nếu cần.
 
 {{% alert color="primary" %}}
 

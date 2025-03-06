@@ -7,20 +7,30 @@ type: docs
 description: "Aspose.Words עבור .NET מתרחב ומשפר מדי יום. בדף זה, אתה יכול ללמוד על התכונות הענקיות והמעניינות ביותר של המוצר."
 weight: 10
 url: /he/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2025-01-15-11-43-05
+timestamp: 2025-02-17-18-02-05
 ---
 
 דף זה מתאר את החדש המעניין ביותר Aspose.Words תכונות שהוצגו במהדורות האחרונות.
 
-## Aspose.Words עבור .NET 25.1
+## Aspose.Words עבור .NET 25.1, 25.2
 
 Aspose.Words 25.1 מציג בדיקת דקדוק מבוססת בינה מלאכותית ומשפרת את שמירת המסמכים עם אפשרויות מתקדמות עבור פורמטים HTML, SVG ו-Markdown.
+
+Aspose.Words 25.2 מציג סיכום טקסט עם מודלים אנתרופיים AI, מוסיף תמיכה בפורמט MsWorks, משפר את השליטה הטיפוגרפית ומשפר PDF מבנה וטיפול ברשימה.
 
 ### תכונות המופעלות על ידי AI
 
 #### בדיקת דקדוק בינה מלאכותית של מסמכים <sup>25.1</sup>
 
 היכולת לבדוק את הדקדוק של המסמך שסופק באמצעות מודלים מחוללים של OpenAI הוצגה על ידי הוספת [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/) חדש  שִׁיטָה.
+
+#### סיכום באמצעות מודלים של שפה גנראטיבית אנתרופית <sup>25.2</sup>
+
+סיכום טקסט באמצעות מודלים של שפה גנראטיבית אנתרופית התאפשר על ידי הצגת מעמד ציבורי חדש [AnthropicAiModel](https://reference.aspose.com/words/net/aspose.words.ai/anthropicaimodel/).
+
+### פורמטים נתמכים <sup>25.2</sup>
+
+החל מהגרסה 25.2, נוספה תאימות לפורמט הטעינה החדש MsWorks עבור מסמכי עבודות Microsoft.
 
 ### המרה, טעינה ושמירה של מסמכים
 
@@ -33,9 +43,22 @@ Aspose.Words 25.1 מציג בדיקת דקדוק מבוססת בינה מלאכ�
 * אפשרות חדשה [ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imageresolution/) נוספה ל-[MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) להגדרת רזולוציית התמונה.
 * אפשרות חדשה [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) ו-[MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) הספירה נוספה ל- מחלקה [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) כדי להגדיר מצב פלט של OfficeMath.
 
+### Rendering
+
+#### שליטה טיפוגרפית משופרת <sup>25.2</sup>
+
+המאפיין [NumberSpacing](https://reference.aspose.com/words/net/aspose.words/font/numberspacing/) נוסף לשליטה טיפוגרפית משופרת.
+
+### אחר
+
+* PDF המבנה הלוגי שופר עם תמיכה בשדות TOA, BIBLIOGRAPHY ו INDEX. <sup>25.2</sup>
+* שיטת [AddSingleLevelList](https://reference.aspose.com/words/net/aspose.words.lists/listcollection/addsinglelevellist/) הוצגה לטיפול ברשימה משופרת. <sup>25.2</sup>
+
 {{% alert color="primary" %}}
 
 למידע נוסף על [Aspose.Words for .NET 25.1 Notes](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/).
+
+למידע נוסף על [Aspose.Words עבור .NET 25.2 הערות שחרור](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-2-release-notes/).
 
 {{% /alert %}}
 
@@ -221,7 +244,7 @@ Aspose.Words 24.8 משפר התאמה אישית של תרשים עם שליטה
 #### אפשרויות השוואה מתקדמות <sup>24.6</sup>
 נוספה היכולת לייעל את זרימות העבודה של ניתוח נתונים עם פונקציונליות משופרת של השוואה. זה כולל אפשרות חדשה [IgnoreStoreItemId](https://reference.aspose.com/words/net/aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/) וממשק שעוצב מחדש להשוואות מתקדמות.
 
-### אחר
+### אחרים
 
 * הפונקציה להעלמת דפים ריקים ממסמך יושמה על ידי הוספת השיטה [RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/). <sup>24.5</sup>
 * היכולת לבדוק נוכחות של פקודות מאקרו VBA מבלי לטעון מסמך ניתנה על ידי הוספת המאפיין [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/). <sup>24.5</sup>
@@ -480,94 +503,6 @@ LINQ Reporting Engine syntax תומך כעת `ElementAt` שיטות הרחבה �
 למד עוד על [Aspose.Words עבור .NET 23.7 הודעות](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
 
 למד עוד על [Aspose.Words עבור .NET 23.8 הערות](/words/net/aspose-words-for-net-23-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words עבור .NET 23.1, 23.2, 23.3, 23.4
-
-Aspose.Words 23.1 משפר את הביצועים של raster ניתוח חיקוי, כמו גם משפר את המסמך ייצוא והוספת איכות.
-
-Aspose.Words 23.2 מציג שמירת מסמכים בפורמט MOBI, משפר את עריכת התרשים, ועושה שינויים בולטים כדי לתעד פרטים.
-
-Aspose.Words 23.3 משפר את יבוא המסמכים והצלתם עם נכסים חדשים, וגם משפר את איכות העבודה עם רקע וצבע קדמת וקודמת רדיו.
-
-Aspose.Words 23.4 משפר את חישוב כמה פרמטרים ואת המיקום של השולחן וטקסט שמסביב.
-
-### שיפור ביצועים
-
-#### עקבו אחרי Raster Operations <sup>23.1</sup>
-
-ביצועים ואיכות של חיקוי של פעולות raster עם metafiles השתפרו באופן משמעותי.
-
-### פורמטים תומכים
-
-#### ייצוא ל-MOBI <sup>23.2</sup>
-
-החל מגרסה 23.2, ניתן לחסוך מסמך בפורמט MOBI (נקרא גם PRC, AZW - Amazon פורמט קובץ הספרים האלקטרוני של קינדל). עכשיו אתה לא יכול רק לטעון מסמכי MOBI, אלא גם לייצא את הקבצים שלך לתבנית MOBI.
-
-### Rendering
-
-#### תגית: Shading Theme Colors <sup>23.1</sup>
-
-היכולת לעבוד עם צבעי ערכת נושא מושרש.
-
-#### R-squared Coefficient in DML Charts <sup>23.1</sup>
-
-תמיכה של R-squared coefficient in DML תרשים טרנדיות בעת הוספה.
-
-#### טבלה Rendering שיפורים <sup>23.2</sup>
-
-מאז 23.2 התרשים השתפר באופן משמעותי.
-
-#### המונחים: Foreground Color control <sup>23.3</sup>
-
-The The The [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) הכיתה הורחבה עם קבוצה של נכסים ציבוריים חדשים הקשורים רקע וצבעי רקע: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/forethemecolor/) ו [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/foretintandshade/) ו [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backtintandshade/).
-
-#### Redal Gradients with the `SkiaSharp` תגית: Shader <sup>23.3</sup>
-
-המונחים: radioal gradients with the `SkiaSharp` צל מקומי .NET Standard הוא כבר מיושם.
-
-#### מרחק בין השולחן לבין טקסט מקיף <sup>23.4</sup>
-
-היכולת להגדיר את המרחק בין השולחן לטקסט שמסביב נוספה על ידי הצגת תכונות חדשות ל [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/) קטגוריה: [DistanceLeft](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceleft/), [DistanceRight](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceright/), [DistanceTop](https://reference.aspose.com/words/net/aspose.words.tables/table/distancetop/), ו [DistanceBottom](https://reference.aspose.com/words/net/aspose.words.tables/table/distancebottom/).
-
-### לטעון ולחסוך מסמכים
-
-#### ייצור `TOC` AZW3 Documents <sup>23.1</sup>
-
-היכולת לייצר `TOC` (שולחן התוכן) למסמכים AZW3 נוספה באמצעות השימוש [NavigationMapLevel](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/navigationmaplevel/) רכוש.
-
-#### ייצוא פריטים לרשימה Markdown <sup>23.1</sup>
-
-דרך לשלוט בייצוא של פריטים לרשימה Markdown פורמט ניתן על ידי הוספת [ListExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/listexportmode/) רכוש [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) מעמד.
-
-#### מסמך חיסכון ביצורים <sup>23.3</sup>
-
-שמירת הודעות מתקדמות עבור פורמטים MOBI ו-AZW3 יושמו.
-
-#### משפט ומילה מכוונן <sup>23.3</sup>
-
-היכולת לציין אם להתאים את המשפט ואת המילה ספאק באופן אוטומטי על יבוא מסמך נוספה על ידי הצגת הסימון. [AdjustSentenceAndWordSpacing](https://reference.aspose.com/words/net/aspose.words/importformatoptions/adjustsentenceandwordspacing/) רכוש.
-
-### אחרים
-
-* היכולת לציין את התאמת האופי של מסמך נוספה דרך [JustificationMode](https://reference.aspose.com/words/net/aspose.words/document/justificationmode/) יישום הנכס <sup>23.2</sup>
-* הדרך להורות Aspose.Words בין אם לכלול תיבות טקסט, הערות שוליים, והערות בנתוני ספירת מילים מסופקות על ידי הוספת [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/) רכוש <sup>23.2</sup>
-* אפשרות חדשה לסגנון מסמך, המאפשרת לציין האם הסגנון מוגדר מחדש באופן אוטומטי בהתבסס על הערך המתאים, הוצגה דרך [AutomaticallyUpdate](https://reference.aspose.com/words/net/aspose.words/style/automaticallyupdate/) רכוש <sup>23.2</sup>
-* היכולת לקבוע אם [Run](https://reference.aspose.com/words/net/aspose.words/run/) הוא מדריך טלפוני נוסף באמצעות [IsPhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/isphoneticguide/) רכוש <sup>23.4</sup>
-* דרך פשוטה לעבוד עם סדרה ואקסים של charts combo מיושמת על ידי הצגת [ChartAxisCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxiscollection/) שיעור והוספת [Chart.Axes](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/axes/) רכוש <sup>23.4</sup>
-* נכסים ציבוריים חדשים המחוברים לצורה יחסית של מיקום ונפיחות נוספו לצורה [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) הכיתה <sup>23.4</sup>
-* דיוק וביצוע חישוב בהירות צבע עבור פתרון צבע טקסט אוטומטי השתפר בהתאם לגרסאות האחרונות של הגרסאות האחרונות של Microsoft Word <sup>23.4</sup>
-
-{{% alert color="primary" %}}
-
-למד עוד על [Aspose.Words עבור .NET 23.1 הערות](/words/net/aspose-words-for-net-23-1-release-notes/).
-
-למד עוד על [Aspose.Words עבור .NET 23.2 הודעות](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/).
-
-למד עוד על [Aspose.Words עבור .NET 23.3 הערות](/words/net/aspose-words-for-net-23-3-release-notes/).
-
-למד עוד על [Aspose.Words עבור .NET 23.4 הערות](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/).
 
 {{% /alert %}}
 

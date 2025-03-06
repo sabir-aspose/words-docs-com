@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lizenzierung und Abonnement
 second_title: Aspose.Words für Java
 articleTitle: Lizenzierung und Abonnement
@@ -7,7 +7,7 @@ description: "Aspose.Words für Java bietet verschiedene Pläne zum Kauf an oder
 type: docs
 weight: 60
 url: /de/java/licensing/
-timestamp: 2024-01-31-14-23-37
+timestamp: 2025-02-12-16-18-40
 ---
 
 Manchmal möchte man, um das System besser zu studieren, so schnell wie möglich in den Code eintauchen. Um dies zu vereinfachen, bietet Aspose.Words verschiedene Pläne zum Kauf an oder bietet eine kostenlose Testversion und eine temporäre 30-Tage-Lizenz zur Evaluierung an.
@@ -129,6 +129,8 @@ Rufen Sie die **SetMeteredKey** -Methode nicht häufig auf, damit diese Lizenzie
 Das folgende Codebeispiel zeigt, wie gemessene öffentliche und private Schlüssel festgelegt werden:
 
 {{< gist "aspose-words-gists" "aae6b7a56c4792497614b4ee8f6f8eec" "apply-metered-license.java" >}}
+
+Normalerweise reicht es aus, die getaktete Lizenz einmalig beim Start der Anwendung anzuwenden. Wenn der gemessene Lizenzierungsmechanismus jedoch 24 Stunden lang nicht mit den Aspose-Servern kommuniziert, verlässt Aspose.Words den Lizenzmodus und wechselt in den Evaluierungsmodus. Um einen solchen Fall zu vermeiden, können Sie die [IsMeteredLicensed](https://reference.aspose.com/words/java/com.aspose.words/metered/#isMeteredLicensed) -Methode verwenden, um den Lizenzstatus zu überprüfen und die gemessene Lizenz bei Bedarf erneut anzuwenden.
 
 {{% alert color="primary" %}}
 

@@ -7,7 +7,7 @@ description: "Aspose.Words místo Python via .NET poskytuje různé plány na n�
 type: docs
 weight: 40
 url: /cs/python-net/licensing/
-timestamp: 2024-01-31-14-23-37
+timestamp: 2025-02-12-16-18-40
 ---
 
 Někdy, za účelem lepšího studia systému, chcete ponořit do kódu tak rychle, jak je to možné. Aby to bylo jednodušší, Aspose.Words poskytuje různé plány na nákup nebo nabízí zdarma zkušební a 30-denní dočasné licence na hodnocení.
@@ -106,6 +106,8 @@ Nevolejte **SetMeteredKey** metoda často tak, aby tato licenční metoda řádn
 Následující příklad kódu ukazuje, jak nastavit naměřené veřejné a soukromé klíče:
 
 {{< gist "aspose-words-gists" "45c97d37bef13067c82e741b922a2d4f" "apply-metered-license.py" >}}
+
+Normálně stačí použít odměřenou licenci jednou při spuštění aplikace. Pokud však měřený licenční mechanismus nedokáže komunikovat se servery Aspose po dobu 24 hodin, Aspose.Words ukončí licencovaný režim a přepne se do režimu hodnocení. Chcete-li se tomuto případu vyhnout, můžete použít metodu [is_metered_licensed](https://reference.aspose.com/words/python-net/aspose.words/metered/is_metered_licensed/#default) ke kontrole stavu licence a v případě potřeby znovu použít odměřenou licenci.
 
 {{% alert color="primary" %}}
 

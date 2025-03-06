@@ -7,7 +7,7 @@ description: "Aspose.Words místo .NET poskytuje různé plány na nákup nebo n
 type: docs
 weight: 55
 url: /cs/net/licensing/
-timestamp: 2024-10-24-11-44-28
+timestamp: 2025-02-12-16-18-40
 ---
 
 Někdy, za účelem lepšího studia systému, chcete ponořit do kódu tak rychle, jak je to možné. Aby to bylo jednodušší, Aspose.Words poskytuje různé plány na nákup nebo nabízí zdarma zkušební a 30-denní dočasné licence na hodnocení.
@@ -119,7 +119,7 @@ Následující příklad kódu ukazuje, jak nastavit omezené veřejné a soukro
 
 {{< gist "aspose-words-gists" "c762ebd027c53ed61fce5bc5ccac1ca7" "apply-metered-license.cs" >}}
 
-Normálně stačí použít měřenou licenci při startu aplikace. Pokud však mechanizmus měřených licencí nekomunikuje se servery Aspose po dobu 24 hodin, Aspose.Words ukončí licenční režim a přepne do režimu hodnocení. Abyste se takovému případu vyhnuli, měli byste pravidelně kontrolovat stav licence, pokud Aspose.Words promění v režim hodnocení, použijte prosím znovu měřenou licenci.
+Normálně stačí použít odměřenou licenci jednou při spuštění aplikace. Pokud však měřený licenční mechanismus nedokáže komunikovat se servery Aspose po dobu 24 hodin, Aspose.Words ukončí licencovaný režim a přepne se do režimu hodnocení. Chcete-li se tomuto případu vyhnout, můžete použít metodu [IsMeteredLicensed](https://reference.aspose.com/words/net/aspose.words/metered/ismeteredlicensed/) ke kontrole stavu licence a v případě potřeby znovu použít odměřenou licenci.
 
 {{% alert color="primary" %}}
 

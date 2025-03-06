@@ -1,16 +1,66 @@
 ---
 title: มีอะไรใหม่
 second_title: Aspose.WordsสำหรับJava
-articleTitle: มีอะไรใหม่ในAspose.WordsสำหรับJava
-linktitle: มีอะไรใหม่ในAspose.WordsสำหรับJava
+articleTitle: มีอะไรใหม่ใน Aspose.WordsสำหรับJava
+linktitle: มีอะไรใหม่ใน Aspose.WordsสำหรับJava
 type: docs
-description: "Aspose.WordsสำหรับJavaขยายและปรับปรุงทุกวัน ในหน้านี้คุณสามารถเรียนรู้เกี่ยวกับคุณสมบัติขนาดใหญ่และน่าสนใจที่สุดของผลิตภัณฑ์."
+description: "Aspose.WordsสำหรับJava ขยายและปรับปรุงทุกวัน ในหน้านี้คุณสามารถเรียนรู้เกี่ยวกับคุณสมบัติขนาดใหญ่และน่าสนใจที่สุดของผลิตภัณฑ์."
 weight: 2
 url: /th/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2024-12-13-10-56-02
+timestamp: 2025-17-02-18-02-05
 ---
 
 หน้านี้อธิบายถึงคุณลักษณะใหม่ที่น่าสนใจที่สุดAspose.Wordsที่นำมาใช้ในรุ่นล่าสุด.
+
+## Aspose.WordsสำหรับJava 25.1, 25.2
+
+Aspose.Words25.1แนะนำการตรวจสอบไวยากรณ์ที่ขับเคลื่อนAIและเพิ่มการประหยัดเอกสารด้วยตัวเลือกขั้นสูงสำหรับHTML,SVGและMarkdownรูปแบบ.
+
+Aspose.Words25.2นำเสนอการสรุปข้อความด้วยแบบจำลองทางมนุษย์AIเพิ่มการสนับสนุนรูปแบบMsWorksช่วยเพิ่มการควบคุมการพิมพ์และปรับปรุงโครงสร้างและการจัดการรายการPDF.
+
+### AI-คุณสมบัติขับเคลื่อน
+
+#### เอกสารAIการตรวจสอบไวยากรณ์ <sup>25.1</sup>
+
+ความสามารถในการตรวจสอบไวยากรณ์ของเอกสารที่ให้ไว้โดยใช้OpenAIรุ่นกำเนิดได้รับการแนะนำโดยการเพิ่มวิธีการ[CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions)ใหม่.
+
+#### สรุปโดยใช้แบบจำลองภาษากำเนิดมนุษย์ <sup>25.2</sup>
+
+การสรุปข้อความโดยใช้แบบจำลองภาษาสร้างมนุษย์ได้ถูกเปิดใช้งานโดยการแนะนำชั้นเรียนสาธารณะใหม่[AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/).
+
+### รูปแบบที่รองรับ <sup>25.2</sup>
+
+เริ่มต้นจากรุ่น25.2มีการเพิ่มความเข้ากันได้กับรูปแบบใหม่MsWorksโหลดสำหรับMicrosoftเอกสารงาน.
+
+### การแปลงโหลดและบันทึกเอกสาร
+
+#### ปรับปรุงการประหยัดเป็นHTMLและSVGรูปแบบ <sup>25.1</sup>
+
+การบันทึกไปยังHTMLและSVGรูปแบบได้รับการปรับปรุงโดยการเพิ่ม**IdPrefix**และ**RemoveJavaScriptFromLinks**คุณสมบัติทั้ง[HtmlFixedSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlfixedsaveoptions/)และ[SvgSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/svgsaveoptions/)คลาส.
+
+#### ตั้งค่าความละเอียดของภาพและOfficeMathโหมดเอาท์พุทเมื่อบันทึกเป็นMarkdown <sup>25.1</sup>
+
+* มีการเพิ่มตัวเลือก[ImageResolution](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageResolution)ใหม่ในชั้นเรียน[MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/)เพื่อตั้งค่าความละเอียดของภาพ.
+* ตัวเลือกใหม่[OfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getOfficeMathExportMode)และ[MarkdownOfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownofficemathexportmode/)การแจงนับได้รับและเพิ่มในชั้นเรียน[MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/)เพื่อตั้งOfficeMathโหมดเอาท์พุท.
+
+### การแสดงผล
+
+#### ปรับปรุงการควบคุมการพิมพ์ <sup>25.2</sup>
+
+มีการเพิ่มคุณสมบัติ[NumberSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getNumberSpacing)เพื่อปรับปรุงการควบคุมการพิมพ์.
+
+### อื่นๆ
+
+* PDFโครงสร้างตรรกะได้รับการปรับปรุงด้วยการสนับสนุนสำหรับฟิลด์TOA,BIBLIOGRAPHYและINDEX <sup>25.2</sup>
+* วิธีการ[AddSingleLevelList](https://reference.aspose.com/words/java/com.aspose.words/listcollection/#addSingleLevelList-int)ได้รับการแนะนำสำหรับการจัดการรายการที่ดีขึ้น <sup>25.2</sup>
+
+{{% alert color="primary" %}}
+
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับJava 25.1บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-1-release-notes/).
+
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับJava 25.2บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-2-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.WordsสำหรับJava 24.9, 24.10, 24.11, 24.12
 
@@ -20,21 +70,21 @@ Aspose.Words24.10นำเสนอการสนับสนุนการค
 
 Aspose.Words24.11แนะนำการสรุปเอกสารที่ขับเคลื่อนAIตัวเลือกการแสดงผลที่เพิ่มขึ้นการเข้าถึงคุณสมบัติของเอกสารที่ดีขึ้นและคำอธิบายการควบคุมแอคทีฟ.
 
-Aspose.Words 24.12 นำเสนอการจัดวางป้ายข้อมูลที่ปรับแต่งได้ การแปลข้อความที่ขับเคลื่อนด้วย AI ของ Google ตัวเลือกการล้างข้อมูลจดหมายเวียนที่ได้รับการปรับปรุง และคลาสการประมวลผล LowCode ใหม่
+Aspose.Words24.12แนะนำการจัดวางฉลากข้อมูลที่ปรับแต่งได้,กูเกิลAIแปลข้อความที่ขับเคลื่อน,ปรับปรุงMail Mergeตัวเลือกการล้างข้อมูล,และใหม่LowCodeชั้นเรียนการประมวลผล.
 
 ### AI-คุณสมบัติขับเคลื่อน
 
-#### การสรุปเอกสารโดยใช้ OpenAI และ Google <sup>24.11</sup>
+#### การสรุปเอกสารโดยใช้OpenAIและกูเกิล <sup>24.11</sup>
 
-มีการบูรณาการการรองรับการสรุปเอกสารโดยใช้โมเดลภาษากำเนิดของ **OpenAI** และ **Google** แล้ว
+การสนับสนุนสำหรับการสรุปเอกสารโดยใช้**OpenAI**และ**Google**รูปแบบภาษาสร้างได้รับการบูรณาการ.
 
-#### การแปลข้อความโดยใช้โมเดลภาษากำเนิดของ Google <sup>24.12</sup>
+#### แปลข้อความโดยใช้แบบจำลองภาษาที่สร้างขึ้นของกูเกิล <sup>24.12</sup>
 
-ความสามารถในการแปลข้อความโดยใช้โมเดลภาษากำเนิดของ Google ได้รับการนำไปใช้ใน Aspose.Words โดยการเพิ่มเมธอด [Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int) และการแจงนับ [Language](https://reference.aspose.com/words/java/com.aspose.words/language/)
+ในAspose.Wordsโดยการเพิ่มวิธีการ[Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int)และการแจงนับ[Language](https://reference.aspose.com/words/java/com.aspose.words/language/).
 
 ### Low Code <sup>24.12</sup>
 
-ความสามารถในการแปลข้อความโดยใช้โมเดลภาษากำเนิดของ Google ได้รับการนำไปใช้ใน Aspose.Words โดยเพิ่มเมธอด [Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int) และการแจงนับ [Language](https://reference.aspose.com/words/java/com.aspose.words/language/)
+ใหม่LowCodeชั้นเรียนเช่น[Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/), [MailMerger](https://reference.aspose.com/words/java/com.aspose.words/mailmerger/), [Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/), [Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) ฯลฯ ได้รับการแนะนำนำเสนอชุดของวิธีการที่สมดุลที่สมบูรณ์แบบระหว่างความเรียบง่ายและ.
 
 ### การแสดงผลและการพิมพ์
 
@@ -66,10 +116,6 @@ Aspose.Words 24.12 นำเสนอการจัดวางป้ายข�
 
 การแสดงผลแผนภูมิฮิสโตแกรมได้รับการปรับปรุงโดยการอนุญาตให้จำนวนที่ระบุของถัง.
 
-#### ปรับแต่งตำแหน่งของป้ายข้อมูล <sup>24.12</sup>
-
-ความสามารถในการปรับแต่งตำแหน่งของป้ายข้อมูลได้รับการเพิ่มเข้ามาโดยการแนะนำคุณสมบัติใหม่ให้กับคลาส [ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) และ [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/)
-
 ### การแปลงโหลดและบันทึกเอกสาร
 
 #### ขีดเส้นใต้การจัดรูปแบบเมื่อโหลดไฟล์Markdown <sup>24.9</sup>
@@ -84,11 +130,11 @@ Aspose.Words 24.12 นำเสนอการจัดวางป้ายข�
 
 PDFเอ็กซ์ปอร์ตได้รับการปรับปรุงโดยรวมคุณสมบัติชื่อตารางเป็นชื่อองค์ประกอบโครงสร้างตรรกะPDF.
 
-### การผสานจดหมายและการรายงาน
+### Mail Mergeและการรายงาน
 
-#### ลบตารางว่างระหว่างการผสานจดหมาย <sup>24.12</sup>
+#### ลบตารางว่างระหว่างMail Merge <sup>24.12</sup>
 
-มีการเพิ่มตัวเลือก **RemoveEmptyTables** ใหม่ให้กับการแจงนับ [MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/) เพื่อปรับแต่งผลลัพธ์ของการผสานจดหมาย
+ตัวเลือกใหม่**RemoveEmptyTables**ถูกเพิ่มเข้ากับการแจงนับ[MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/)เพื่อปรับแต่งผลลัพธ์Mail Merge.
 
 ### ลายเซ็นดิจิตอล
 
@@ -104,18 +150,18 @@ PDFเอ็กซ์ปอร์ตได้รับการปรับป�
 * ความสามารถในการจัดกลุ่มรูปร่างของแต่ละบุคคลgroup shapesเข้าด้วยกันและจัดกลุ่มโดยตรงทั้งรูปร่างและgroup shapesได้รับการแนะนำโดยการเพิ่มวิธีการ[InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...) <sup>24.10</sup>
 * การจัดการการเข้ารหัสขนาดใหญ่ 5 สำหรับTrueTypeตารางซีแมปได้รับการปรับปรุง <sup>24.10</sup>
 * การสนับสนุนสำหรับแบบอักษรไต้หวันล้าสมัยได้รับการปรับปรุง <sup>24.10</sup>
-* เพื่อเข้าถึงคุณสมบัติเอกสารขยาย คุณสมบัติแบบอ่านอย่างเดียวได้รับการเพิ่มลงในคลาส [BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/) แล้ว <sup>24.11</sup>
+* หากต้องการเข้าถึงคุณสมบัติเอกสารขยาย คุณสมบัติแบบอ่านอย่างเดียวได้รับการเพิ่มลงในคลาส [BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/) แล้ว <sup>24.11</sup>
 * มีการเปิดใช้งานการตั้งค่าคำบรรยายสำหรับการควบคุมกิจกรรมโดยการเพิ่มตัวตั้งค่าสาธารณะใหม่ในพร็อพเพอร์ตี้[Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption) <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava24.9บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับJava 24.9บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava24.10บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับJava 24.10บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava24.11บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-11-release-notes/).
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับJava 24.11บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-11-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava24.12บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-12-release-notes/).
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับJava 24.12บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-12-release-notes/).
 
 {{% /alert %}}
 
@@ -206,13 +252,13 @@ PDFส่งออกด้วยการสนับสนุนสำหร�
 
 {{% alert color="primary" %}}
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava24.5บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/).
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับJava 24.5บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava24.6บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/).
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับJava 24.6บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava24.7บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-7-release-notes/).
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับJava 24.7บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-7-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava24.8บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-8-release-notes/).
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับJava 24.8บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-8-release-notes/).
 
 {{% /alert %}}
 
@@ -260,7 +306,7 @@ Aspose.Words24.4ปรับปรุงรูปแบบการบันท�
 
 #### ใหม่TIFFผู้อ่าน/นักเขียน <sup>24.3</sup>
 
-ผู้อ่าน/นักเขียนใหม่TIFFสำหรับAspose.Wordsสำหรับ.NET Standard,.NET6 และต่อมาได้รับการพัฒนา Aspose.Wordsสำหรับ.NET 24.3เพิ่มการสนับสนุนสำหรับการอ่านTIFFภาพที่มีJPEGและเก่าJPEGชนิดการบีบอัดและยังปรับปรุงคุณภาพของการอ่านและเขียนอย่างมีนัยสำคัญ.
+ใหม่TIFFผู้อ่าน/นักเขียนAspose.Wordsสำหรับ.NET Standard,.NET6 และต่อมาได้รับการพัฒนา Aspose.Wordsสำหรับ.NET 24.3 เพิ่มการสนับสนุนสำหรับการอ่านTIFFภาพที่มีJPEGและเก่าJPEGประเภทการบีบอัดและยังปรับปรุงคุณภาพ.
 
 ### อื่นๆ
 
@@ -275,13 +321,13 @@ Aspose.Words24.4ปรับปรุงรูปแบบการบันท�
 
 {{% alert color="primary" %}}
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava24.1บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-1-release-notes/).
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับJava 24.1บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-1-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava24.2บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/).
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับJava 24.2บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava24.3บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/).
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับJava 24.3บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava24.4บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-4-release-notes/).
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับJava 24.4บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-4-release-notes/).
 
 {{% /alert %}}
 
@@ -351,13 +397,13 @@ Aspose.Words23.12แนะนำคุณสมบัติใหม่และ
 
 {{% alert color="primary" %}}
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava23.9บันทึกย่อ](/words/java/aspose-words-for-java-23-9-release-notes/).
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับJava 23.9บันทึกย่อ](/words/java/aspose-words-for-java-23-9-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava23.10บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับJava 23.10บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava23.11บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-11-release-notes/).
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับJava 23.11บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-11-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava23.12บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-12-release-notes/).
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับJava 23.12บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-12-release-notes/).
 
 {{% /alert %}}
 
@@ -390,7 +436,7 @@ Aspose.Words23.8ขยายความสามารถของรูปแ�
 คุณลักษณะที่จะได้รับและปรับเปลี่ยนข้อมูลชุดแผนภูมิที่มีให้โดยการเพิ่ม:
 
 - คลาสใหม่: [ChartXValue](https://reference.aspose.com/words/java/com.aspose.words/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/java/com.aspose.words/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/java/com.aspose.words/chartmultilevelvalue/)
-- ชนิดอนัมใหม่:[ChartXValueType](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluetype/),[ChartYValueType](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluetype/)
+- ประเภทเอนัมใหม่:[ChartXValueType](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluetype/),[ChartYValueType](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluetype/)
 
 #### การสนับสนุนสำหรับการพิมพ์ขั้นสูง <sup>23.6</sup>
 
@@ -441,101 +487,13 @@ Aspose.Words23.8ขยายความสามารถของรูปแ�
 
 {{% alert color="primary" %}}
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava23.5บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/).
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับJava 23.5บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava23.6บันทึกย่อ](/words/java/aspose-words-for-java-23-6-release-notes/).
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับJava 23.6บันทึกย่อ](/words/java/aspose-words-for-java-23-6-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava23.7บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับJava 23.7บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava23.8บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.WordsสำหรับJava 23.1, 23.2, 23.3, 23.4
-
-Aspose.Words23.1ปรับปรุงประสิทธิภาพการทำงานของการจำลองการทำงานของแรสเตอร์เช่นเดียวกับ.
-
-Aspose.Words23.2นำเสนอการบันทึกเอกสารในรูปแบบMOBIปรับปรุงการแสดงผลแผนภูมิและทำให้การเปลี่ยนแปลงที่โดดเด่นในรายละเอียดลักษณะที่ปรากฏของเอกสาร.
-
-Aspose.Words23.3ช่วยเพิ่มการนำเข้าและประหยัดเอกสารด้วยคุณสมบัติใหม่และยังช่วยปรับปรุงคุณภาพของงานที่มีพื้นหลังและสีเบื้องหน้าและการไล่ระดับสีแบบรัศมี.
-
-Aspose.Words23.4ปรับปรุงการคำนวณพารามิเตอร์บางอย่างและการวางตำแหน่งของตารางและข้อความ.
-
-### การปรับปรุงประสิทธิภาพ
-
-#### การจำลองการดำเนินงานแรสเตอร์ <sup>23.1</sup>
-
-ประสิทธิภาพการทำงานและคุณภาพของการจำลองของการดำเนินงานแรสเตอร์กับเมต.
-
-### รูปแบบที่รองรับ
-
-#### ส่งออกไปยังMOBI <sup>23.2</sup>
-
-เริ่มต้นด้วยรุ่น23.2,มันเป็นไปได้ที่จะบันทึกเอกสารในMOBIรูปแบบ(เรียกอีกอย่างว่าPRC, AZW – Amazon บไฟล์หนังสืออิเล็กทรอนิกส์) ตอนนี้คุณไม่เพียงแต่สามารถโหลดเอกสารMOBIแต่ยังส่งออกไฟล์ของคุณไปยังรูปแบบMOBI.
-
-### การแสดงผล
-
-#### ทำงานร่วมกับสีธีมแรเงา <sup>23.1</sup>
-
-ความสามารถในการทำงานร่วมกับสีธีมแรเงาได้รับการดำเนินการ.
-
-#### สนับสนุนสัมประสิทธิ์อาร์กำลังสองในDMLแผนภูมิ <sup>23.1</sup>
-
-สนับสนุนค่าสัมประสิทธิ์อาร์กำลังสองในDMLป้ายเส้นแนวโน้มแผนภูมิเมื่อมีการเพิ่มการแสดงผล.
-
-#### การปรับปรุงการแสดงผลแผนภูมิ <sup>23.2</sup>
-
-ตั้งแต่23.2การแสดงผลแผนภูมิได้รับการปรับปรุงอย่างมีนัยสำคัญ.
-
-#### พื้นหลังและการควบคุมสีเบื้องหน้า <sup>23.3</sup>
-
-ชั้น[Fill](https://reference.aspose.com/words/java/com.aspose.words/fill/)ได้ขยายออกไปพร้อมกับชุดของคุณสมบัติสาธารณะใหม่ที่เกี่ยวข้องกับพื้นหลังและสีพื้นหน้า:**ForeThemeColor**และ**BackThemeColor**,**ForeTintAndShade**และ**BackTintAndShade**.
-
-#### การไล่ระดับสีแบบรัศมีด้วยแรเงาพื้นเมือง`SkiaSharp` <sup>23.3</sup>
-
-มีการแสดงผลของการไล่ระดับสีแบบรัศมีด้วย`SkiaSharp`ตัวแรเงาแบบพื้นเมืองสำหรับ.NET Standard.
-
-#### ระยะห่างระหว่างตารางและข้อความโดยรอบ <sup>23.4</sup>
-
-ความสามารถในการกำหนดระยะห่างระหว่างตารางและข้อความโดยรอบได้รับการเพิ่มโดยการแนะนำคุณสมบัติใหม่ในชั้นเรียน[Table](https://reference.aspose.com/words/java/com.aspose.words/table/): [DistanceLeft](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceLeft), [DistanceRight](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceRight), [DistanceTop](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceTop), และ[DistanceBottom](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceBottom).
-
-### การโหลดและบันทึกเอกสาร
-
-#### สร้าง`TOC`สำหรับAZW3เอกสาร <sup>23.1</sup>
-
-ความสามารถในการสร้าง`TOC`(สารบัญ)สำหรับAZW3เอกสารได้รับการเพิ่มผ่านการใช้ทรัพย์สิน[EpubNavigationMapLevel](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getEpubNavigationMapLevel).
-
-#### ส่งออกรายการไปยังMarkdown <sup>23.1</sup>
-
-วิธีการควบคุมการส่งออกของรายการไปยังรูปแบบMarkdownได้โดยการเพิ่มคุณสมบัติ[ListExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getListExportMode)ลงในคลาสของ[MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/).
-
-#### การแจ้งเตือนความคืบหน้าการบันทึกเอกสาร <sup>23.3</sup>
-
-มีการบันทึกการแจ้งเตือนความคืบหน้าสำหรับMOBIและAZW3รูปแบบ.
-
-#### การปรับระยะห่างของประโยคและคำ <sup>23.3</sup>
-
-ความสามารถในการระบุว่าจะปรับประโยคและระยะห่างของคำโดยอัตโนมัติเมื่อมีการนำเข้าเอกสารโดยการแนะนำคุณสมบัติ**AdjustSentenceAndWordSpacing**.
-
-### อื่นๆ
-
-- ความสามารถในการระบุการปรับระยะห่างอักขระของเอกสารได้ถูกเพิ่มผ่านการใช้งานคุณสมบัติ[JustificationMode](https://reference.aspose.com/words/java/com.aspose.words/document/#getJustificationMode) <sup>23.2</sup>
-- วิธีการสั่งการAspose.Wordsว่าจะรวมกล่องข้อความเชิงอรรถและหมายเหตุสิ้นสุดลงในสถิติการนับคำได้โดยการเพิ่มคุณสมบัติ[IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/java/com.aspose.words/document/#getIncludeTextboxesFootnotesEndnotesInStat) <sup>23.2</sup>
-- ตัวเลือกใหม่สำหรับสไตล์เอกสารซึ่งอนุญาตให้ระบุว่าสไตล์ถูกนิยามใหม่โดยอัตโนมัติตามค่าที่เหมาะสมถูกนำมาใช้ผ่านคุณสมบัติของ[AutomaticallyUpdate](https://reference.aspose.com/words/java/com.aspose.words/style/#getAutomaticallyUpdate) <sup>23.2</sup>
-- ความสามารถในการตรวจสอบว่า[Run](https://reference.aspose.com/words/java/com.aspose.words/run/)เป็นคู่มือการออกเสียงเรียกใช้ได้รับการเพิ่มโดยใช้คุณสมบัติ**IsPhoneticGuide** <sup>23.4</sup>
-- วิธีง่ายๆในการทำงานกับชุดและแกนของแผนภูมิคำสั่งผสมได้ถูกนำมาใช้โดยการแนะนำชั้นเรียน**ChartAxisCollection**และเพิ่มคุณสมบัติ**Chart.Axes** <sup>23.4</sup>
-- คุณสมบัติสาธารณะใหม่ที่เชื่อมต่อกับรูปร่างการวางตำแหน่งสัมพัทธ์และการปรับขนาดได้ถูกเพิ่มเข้าไปในชั้น[Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) <sup>23.4</sup>
-- ความถูกต้องและประสิทธิภาพของการคำนวณความสว่างของสีสำหรับความละเอียดของสีข้อความอัตโนมัติได้รับการปรับปรุงให้สอดคล้องกับรุ่นล่าสุดของMicrosoft Word <sup>23.4</sup>
-
-{{% alert color="primary" %}}
-
-เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava23.1บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-1-release-notes/).
-
-เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava23.2บันทึกย่อ](/words/java/aspose-words-for-java-23-2-release-notes/).
-
-เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava23.3บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-3-release-notes/).
-
-เรียนรู้เพิ่มเติมเกี่ยวกับ [แอสโปสWordsสำหรับJava23.4บันทึกย่อ](/words/java/aspose-words-for-java-23-4-release-notes/).
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับJava 23.8บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
 
 {{% /alert %}}
 

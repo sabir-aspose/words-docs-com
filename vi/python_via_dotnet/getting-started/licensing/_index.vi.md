@@ -7,7 +7,7 @@ description: "Aspose.Words cho Python via .NET cung cấp các gói mua khác nh
 type: docs
 weight: 40
 url: /vi/python-net/licensing/
-timestamp: 2024-01-31-14-23-37
+timestamp: 2025-02-12-16-18-40
 ---
 
 Đôi khi, để nghiên cứu hệ thống tốt hơn, bạn muốn đi sâu vào mã càng nhanh càng tốt. Để thực hiện việc này dễ dàng hơn, Aspose.Words cung cấp các gói mua khác nhau hoặc cung cấp Bản dùng thử miễn phí và Giấy phép tạm thời 30 ngày để đánh giá.
@@ -106,6 +106,8 @@ Sau khi hoàn thành tất cả các bước cần thiết để có được lo
 Ví dụ về mã sau đây cho thấy cách đặt khóa công khai và khóa riêng tư được đo:
 
 {{< gist "aspose-words-gists" "45c97d37bef13067c82e741b922a2d4f" "apply-metered-license.py" >}}
+
+Thông thường nó là đủ để áp dụng giấy phép đo một lần khi bắt đầu ứng dụng. Tuy nhiên, nếu cơ chế cấp phép được đo lường không giao tiếp với Các Máy chủ Aspose trong 24 giờ, Aspose.Words sẽ thoát khỏi chế độ được cấp phép và chuyển sang chế độ đánh giá. Để tránh trường hợp như vậy, bạn có thể sử dụng phương thức [is_metered_licensed](https://reference.aspose.com/words/python-net/aspose.words/metered/is_metered_licensed/#default) để kiểm tra trạng thái giấy phép và áp dụng lại giấy phép được đo nếu cần.
 
 {{% alert color="primary" %}}
 
