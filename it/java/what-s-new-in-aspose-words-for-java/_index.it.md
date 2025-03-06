@@ -1,18 +1,68 @@
-﻿---
+---
 title: Cosa c'è di nuovo
-second_title: Aspose.Words per Java
-articleTitle: Novità in Aspose.Words per Java
-linktitle: Novità in Aspose.Words per Java
+second_title: Aspose.Wordsper Java
+articleTitle: Cosa c'è di nuovo in Aspose.Wordsper Java
+linktitle: Cosa c'è di nuovo in Aspose.Wordsper Java
 type: docs
-description: "Aspose.Words per Java si espande e migliora ogni giorno. In questa pagina, puoi conoscere le caratteristiche enormi e più interessanti del prodotto."
+description: "Aspose.Wordsper Java si espande e migliora ogni giorno. In questa pagina, puoi conoscere le caratteristiche enormi e più interessanti del prodotto."
 weight: 2
 url: /it/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2024-12-13-10-56-02
+timestamp: 2025-17-02-18-02-05
 ---
 
 Questa pagina descrive le nuove funzionalità Aspose.Words più interessanti introdotte nelle ultime versioni.
 
-## Aspose.Words per Java 24.9, 24.10, 24.11, 24.12
+## Aspose.Wordsper Java 25.1, 25.2
+
+Aspose.Words 25.1 introduce il controllo grammaticale basato su AI e migliora il salvataggio dei documenti con opzioni avanzate per i formati HTML, SVG e Markdown.
+
+Aspose.Words 25.2 introduce la sintesi del testo con i modelli Anthropic AI, aggiunge il supporto al formato MsWorks, migliora il controllo tipografico e migliora la struttura PDF e la gestione degli elenchi.
+
+### AI-Funzioni alimentate
+
+#### Controllo grammaticale del documento AI <sup>25.1</sup>
+
+La possibilità di controllare la grammatica del documento fornito utilizzando i modelli generativi OpenAI è stata introdotta aggiungendo un nuovo metodo [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions).
+
+#### Riassunto utilizzando modelli linguistici antropici generativi <sup>25.2</sup>
+
+La sintesi del testo utilizzando modelli di linguaggio antropico generativo è stata abilitata introducendo una nuova classe pubblica [AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/).
+
+### Formati supportati <sup>25.2</sup>
+
+A partire dalla versione 25.2, è stata aggiunta la compatibilità con il nuovo formato di caricamento MsWorks per i documenti Works Microsoft.
+
+### Conversione, caricamento e salvataggio di documenti
+
+#### Migliorato il salvataggio nei formati HTML e SVG <sup>25.1</sup>
+
+Il salvataggio nei formati HTML e SVG è stato migliorato aggiungendo le proprietà **IdPrefix** e **RemoveJavaScriptFromLinks** a entrambe le classi [HtmlFixedSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlfixedsaveoptions/) e [SvgSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/svgsaveoptions/).
+
+#### Impostare la risoluzione dell'immagine e la modalità di uscita OfficeMath Quando si salva su Markdown <sup>25.1</sup>
+
+* Una nuova opzione [ImageResolution](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageResolution) è stata aggiunta alla classe [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) per impostare la risoluzione dell'immagine.
+* Una nuova opzione [OfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getOfficeMathExportMode) e l'enumerazione [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownofficemathexportmode/) sono state aggiunte alla classe [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) per impostare la modalità di output OfficeMath.
+
+### Rendering
+
+#### Controllo tipografico migliorato <sup>25.2</sup>
+
+La proprietà [NumberSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getNumberSpacing) è stata aggiunta per migliorare il controllo tipografico.
+
+### Altri
+
+* La struttura logica di PDF è stata migliorata con il supporto per i campi TOA, BIBLIOGRAPHY e INDEX. <sup>25.2</sup>
+* Il metodo [AddSingleLevelList](https://reference.aspose.com/words/java/com.aspose.words/listcollection/#addSingleLevelList-int) è stato introdotto per una migliore gestione delle liste. <sup>25.2</sup>
+
+{{% alert color="primary" %}}
+
+Scopri di più su [Aspose.Wordsper Java 25.1 Note di rilascio](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-1-release-notes/).
+
+Scopri di più su [Aspose.Wordsper Java 25.2 Note di rilascio](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-2-release-notes/).
+
+{{% /alert %}}
+
+## Aspose.Wordsper Java 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 introduce l'inserimento group shape e l'inserimento StructuredDocumentTag tramite DocumentBuilder, migliora il rendering dei grafici radiali con graduazioni, migliora le firme digitali con il supporto XAdES-EPES, aggiunge il riconoscimento della sottolineatura Markdown e fornisce l'accesso ai separatori di note a piè di pagina/note di chiusura.
 
@@ -20,21 +70,21 @@ Aspose.Words 24.10 introduce il supporto avanzato del controllo ActiveX con la c
 
 Aspose.Words 24.11 introduce il riepilogo del documento basato su AI, opzioni di rendering avanzate, accesso migliorato alle proprietà del documento e sottotitoli del controllo ActiveX.
 
-Aspose.Words 24.12 introduce il posizionamento personalizzabile delle etichette dati, la traduzione del testo basata su Google AI, opzioni di pulizia avanzate di Mail Merge e nuove classi di elaborazione LowCode.
+Aspose.Words 24.12 introduce il posizionamento personalizzabile delle etichette dei dati, la traduzione del testo basata su Google AI, le opzioni di pulizia Mail Merge migliorate e le nuove classi di elaborazione LowCode.
 
-### AI - Funzioni alimentate
+### AI-Funzioni alimentate
 
-#### Riepilogo dei documenti tramite OpenAI e Google <sup>24.11</sup>
+#### Riepilogo dei documenti utilizzando OpenAI e Google <sup>24.11</sup>
 
-Il supporto per il riepilogo dei documenti utilizzando i modelli di linguaggio generativo **OpenAI** e **Google** è stato integrato.
+È stato integrato il supporto per la sintesi dei documenti utilizzando modelli linguistici generativi **OpenAI** e **Google**.
 
-#### Traduzione del testo tramite i modelli linguistici generativi di Google <sup>24.12</sup>
+#### Traduzione del testo utilizzando i modelli linguistici generativi di Google <sup>24.12</sup>
 
-La possibilità di tradurre il testo tramite i modelli linguistici generativi di Google è stata implementata in Aspose.Words aggiungendo il metodo [Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int) e l'enumerazione [Language](https://reference.aspose.com/words/java/com.aspose.words/language/).
+La capacità di tradurre il testo utilizzando i modelli linguistici generativi di Google è stata implementata in Aspose.Words aggiungendo il metodo [Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int) e l'enumerazione [Language](https://reference.aspose.com/words/java/com.aspose.words/language/).
 
 ### Low Code <sup>24.12</sup>
 
-Sono state introdotte nuove classi LowCode come [Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/), [MailMerger](https://reference.aspose.com/words/java/com.aspose.words/mailmerger/), [Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/), [Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) ecc., che offrono un set di metodi che creano il perfetto equilibrio tra semplicità e flessibilità per l'elaborazione dei documenti.
+Nuove classi LowCode come [Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/), [MailMerger](https://reference.aspose.com/words/java/com.aspose.words/mailmerger/), [Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/), [Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) ecc. è stato introdotto, offrendo una serie di metodi che colpiscono il perfetto equilibrio tra semplicità e flessibilità per l'elaborazione dei documenti.
 
 ### Rendering e stampa
 
@@ -66,10 +116,6 @@ La possibilità di ottenere e impostare i codici di formato per i dati del grafi
 
 Il rendering del grafico istogramma è stato migliorato consentendo un numero specificato di contenitori ed etichette.
 
-#### Personalizza il posizionamento delle etichette dati <sup>24.12</sup>
-
-La possibilità di personalizzare il posizionamento delle etichette dati è stata aggiunta introducendo nuove proprietà nelle classi [ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) e [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/).
-
 ### Conversione, caricamento e salvataggio di documenti
 
 #### Formattazione sottolineata durante il caricamento dei file Markdown <sup>24.9</sup>
@@ -84,11 +130,11 @@ Un'opzione per esportare tabelle come HTML quando si salvano documenti in format
 
 L'esportazione PDF è stata migliorata includendo le proprietà del titolo della tabella come titoli degli elementi della struttura logica PDF.
 
-### Unione di posta e reportistica
+### Mail Merge e rapporti
 
-#### Rimuovi tabelle vuote durante l'unione di posta <sup>24.12</sup>
+#### Rimuovere le tabelle vuote durante Mail Merge <sup>24.12</sup>
 
-Una nuova opzione **RemoveEmptyTables** è stata aggiunta all'enumerazione [MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/) per perfezionare l'output dell'unione di posta.
+Una nuova opzione **RemoveEmptyTables** è stata aggiunta all'enumerazione [MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/) per perfezionare l'output Mail Merge.
 
 ### Firme digitali
 
@@ -109,17 +155,17 @@ La possibilità di firmare documenti con firme di livello XAdES-EPES XML-DSig è
 
 {{% alert color="primary" %}}
 
-Scopri di più su [Aspose.Words per Java 24.9 Nota di rilascio](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
+Scopri di più su [Aspose.Wordsper Java 24.9 Note di rilascio](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
 
-Scopri di più su [Aspose.Words per Java 24.10 Nota di rilascio](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
+Scopri di più su [Aspose.Wordsper Java 24.10 Note di rilascio](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
 
-Scopri di più su [Aspose.Words per Java 24.11 Nota di rilascio](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-11-release-notes/).
+Scopri di più su [Aspose.Wordsper Java 24.11 Note di rilascio](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-11-release-notes/).
 
-Scopri di più su [Aspose.Words per Java 24.12 Nota di rilascio](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-12-release-notes/).
+Scopri di più su [Aspose.Wordsper Java 24.12 Note di rilascio](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-12-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Words per Java 24.5, 24.6, 24.7, 24.8
+## Aspose.Wordsper Java 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 espande le opzioni per gli assembly, migliora le capacità di rendering ed espande alcune altre opzioni.
 
@@ -206,17 +252,17 @@ La possibilità di controllare l'esportazione dei collegamenti in formato Markdo
 
 {{% alert color="primary" %}}
 
-Scopri di più su [Aspose.Words per Java 24.5 Nota di rilascio](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/).
+Scopri di più su [Aspose.Wordsper Java 24.5 Note di rilascio](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/).
 
-Scopri di più su [Aspose.Words per Java 24.6 Nota di rilascio](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/).
+Scopri di più su [Aspose.Wordsper Java 24.6 Note di rilascio](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/).
 
-Scopri di più su [Aspose.Words per Java 24.7 Nota di rilascio](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-7-release-notes/).
+Scopri di più su [Aspose.Wordsper Java 24.7 Note di rilascio](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-7-release-notes/).
 
-Scopri di più su [Aspose.Words per Java 24.8 Nota di rilascio](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-8-release-notes/).
+Scopri di più su [Aspose.Wordsper Java 24.8 Note di rilascio](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-8-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Words per Java 24.1, 24.2, 24.3, 24.4
+## Aspose.Wordsper Java 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 migliora l'esperienza di gestione dei colori dei tratti, migliora gli oggetti OLE e il reporting LINQ, oltre a introdurre una nuova bibliografia Fonti pubbliche API.
 
@@ -260,7 +306,7 @@ La capacità di specificare [SvgSaveOptions](https://reference.aspose.com/words/
 
 #### Un nuovo TIFF Lettore / scrittore <sup>24.3</sup>
 
-È stato sviluppato un nuovo lettore/scrittore TIFF per Aspose.Words per .NET Standard, .NET 6 e versioni successive. Aspose.Words per .NET 24.3 ha aggiunto il supporto per la lettura di immagini TIFF con tipi di compressione JPEG e vecchi JPEG e ha anche migliorato significativamente la qualità delle operazioni di lettura e scrittura.
+È stato sviluppato un nuovo lettore/scrittore TIFF per Aspose.Words per .NET Standard, .NET 6 e versioni successive. Aspose.Wordsper .NET 24.3 aggiunto il supporto per la lettura di immagini TIFF con tipi di compressione JPEG e vecchi JPEG e anche migliorato significativamente la qualità delle operazioni di lettura e scrittura.
 
 ### Altri
 
@@ -275,17 +321,17 @@ La capacità di specificare [SvgSaveOptions](https://reference.aspose.com/words/
 
 {{% alert color="primary" %}}
 
-Scopri di più su [Aspose.Words per Java 24.1 Nota di rilascio](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-1-release-notes/).
+Scopri di più su [Aspose.Wordsper Java 24.1 Note di rilascio](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-1-release-notes/).
 
-Scopri di più su [Aspose.Words per Java 24.2 Nota di rilascio](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/).
+Scopri di più su [Aspose.Wordsper Java 24.2 Note di rilascio](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/).
 
-Scopri di più su [Aspose.Words per Java 24.3 Nota di rilascio](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/).
+Scopri di più su [Aspose.Wordsper Java 24.3 Note di rilascio](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/).
 
-Scopri di più su [Aspose.Words per Java 24.4 Nota di rilascio](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-4-release-notes/).
+Scopri di più su [Aspose.Wordsper Java 24.4 Note di rilascio](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-4-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Words per Java 23.9, 23.10, 23.11, 23.12
+## Aspose.Wordsper Java 23.9, 23.10, 23.11, 23.12
 
 Aspose.Words 23.9 espande le opzioni di rendering, l'emulazione di rendering metafile e le opzioni di salvataggio markdown.
 
@@ -351,17 +397,17 @@ La funzione per riconoscere i collegamenti ipertestuali durante il caricamento d
 
 {{% alert color="primary" %}}
 
-Scopri di più su [Aspose.Words per Java 23.9 Nota di rilascio](/words/java/aspose-words-for-java-23-9-release-notes/).
+Scopri di più su [Aspose.Wordsper Java 23.9 Note di rilascio](/words/java/aspose-words-for-java-23-9-release-notes/).
 
-Scopri di più su [Aspose.Words per Java 23.10 Nota di rilascio](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
+Scopri di più su [Aspose.Wordsper Java 23.10 Note di rilascio](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 
-Scopri di più su [Aspose.Words per Java 23.11 Nota di rilascio](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-11-release-notes/).
+Scopri di più su [Aspose.Wordsper Java 23.11 Note di rilascio](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-11-release-notes/).
 
-Scopri di più su [Aspose.Words per Java 23.12 Nota di rilascio](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-12-release-notes/).
+Scopri di più su [Aspose.Wordsper Java 23.12 Note di rilascio](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-12-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Words per Java 23.5, 23.6, 23.7, 23.8
+## Aspose.Wordsper Java 23.5, 23.6, 23.7, 23.8
 
 Aspose.Words 23.5 migliora la capacità di lavorare con i dati delle serie di grafici e la capacità di lavorare con i documenti ODT, oltre a migliorare le intestazioni/piè di pagina e il loro spostamento del testo.
 
@@ -441,101 +487,13 @@ Sono stati aggiunti nuovi metodi LowCode destinati a unire diversi tipi di docum
 
 {{% alert color="primary" %}}
 
-Scopri di più su [Aspose.Words per Java 23.5 Nota di rilascio](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/).
+Scopri di più su [Aspose.Wordsper Java 23.5 Note di rilascio](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/).
 
-Scopri di più su [Aspose.Words per Java 23.6 Nota di rilascio](/words/java/aspose-words-for-java-23-6-release-notes/).
+Scopri di più su [Aspose.Wordsper Java 23.6 Note di rilascio](/words/java/aspose-words-for-java-23-6-release-notes/).
 
-Scopri di più su [Aspose.Words per Java 23.7 Nota di rilascio](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
+Scopri di più su [Aspose.Wordsper Java 23.7 Note di rilascio](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
 
-Scopri di più su [Aspose.Words per Java 23.8 Nota di rilascio](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words per Java 23.1, 23.2, 23.3, 23.4
-
-Aspose.Words 23.1 migliora le prestazioni dell'emulazione delle operazioni raster e migliora la qualità dell'esportazione e del rendering dei documenti.
-
-Aspose.Words 23.2 introduce il salvataggio dei documenti nel formato MOBI, migliora il rendering dei grafici e apporta notevoli modifiche ai dettagli dell'aspetto del documento.
-
-Aspose.Words 23.3 migliora l'importazione e il salvataggio dei documenti con nuove proprietà e migliora anche la qualità del lavoro con il colore di sfondo e di primo piano e il gradiente radiale.
-
-Aspose.Words 23.4 migliora il calcolo di alcuni parametri e il posizionamento della tabella e del testo circostante.
-
-### Miglioramenti delle prestazioni
-
-#### Emulazione di operazioni Raster <sup>23.1</sup>
-
-Le prestazioni e la qualità dell'emulazione delle operazioni raster con metafile sono state notevolmente migliorate.
-
-### Formati supportati
-
-#### Esporta in MOBI <sup>23.2</sup>
-
-A partire dalla versione 23.2, è possibile salvare un documento in formato MOBI (chiamato anche PRC, AZW – Amazon Formato di file e-book di Kindle). Ora è possibile non solo caricare i documenti MOBI, ma anche esportare i file in formato MOBI.
-
-### Rendering
-
-#### Lavorare con i colori del tema di ombreggiatura <sup>23.1</sup>
-
-È stata implementata la possibilità di lavorare con i colori dei temi di ombreggiatura.
-
-#### Supporto del coefficiente R-quadrato nei grafici DML <sup>23.1</sup>
-
-Supporto del coefficiente R-quadrato nelle etichette della linea di tendenza del grafico DML quando è stato aggiunto il rendering.
-
-#### Miglioramenti del rendering grafico <sup>23.2</sup>
-
-Da 23.2 il rendering del grafico è stato notevolmente migliorato.
-
-#### Controllo del colore di sfondo e di primo piano <sup>23.3</sup>
-
-La classe [Fill](https://reference.aspose.com/words/java/com.aspose.words/fill/) è stata estesa con una serie di nuove proprietà pubbliche relative ai colori di sfondo e di primo piano: **ForeThemeColor** e **BackThemeColor**, **ForeTintAndShade** e **BackTintAndShade**.
-
-#### Gradienti radiali con lo Shader nativo `SkiaSharp` <sup>23.3</sup>
-
-È stato implementato il rendering dei gradienti radiali con lo shader nativo `SkiaSharp` per .NET Standard.
-
-#### Distanza tra la tabella e il testo circostante <sup>23.4</sup>
-
-La possibilità di impostare la distanza tra la tabella e il testo circostante è stata aggiunta introducendo nuove proprietà nella classe [Table](https://reference.aspose.com/words/java/com.aspose.words/table/): [DistanceLeft](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceLeft), [DistanceRight](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceRight), [DistanceTop](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceTop), e [DistanceBottom](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceBottom).
-
-### Caricamento e salvataggio dei documenti
-
-#### Genera `TOC` per AZW3 Documenti <sup>23.1</sup>
-
-La possibilità di generare `TOC` (sommario) per i documenti AZW3 è stata aggiunta tramite l'uso della proprietà [EpubNavigationMapLevel](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getEpubNavigationMapLevel).
-
-#### Esportazione di elementi di elenco in Markdown <sup>23.1</sup>
-
-È stato fornito un modo per controllare l'esportazione delle voci di elenco nel formato Markdown aggiungendo la proprietà [ListExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getListExportMode) alla classe [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/).
-
-#### Notifiche di avanzamento del salvataggio del documento <sup>23.3</sup>
-
-È stato implementato il salvataggio delle notifiche di avanzamento per i formati MOBI e AZW3.
-
-#### Frase e parola di regolazione spaziatura <sup>23.3</sup>
-
-La possibilità di specificare se regolare automaticamente la spaziatura di frasi e parole all'importazione del documento è stata aggiunta introducendo la proprietà **AdjustSentenceAndWordSpacing**.
-
-### Altri
-
-- La possibilità di specificare la regolazione della spaziatura dei caratteri di un documento è stata aggiunta tramite l'implementazione della proprietà [JustificationMode](https://reference.aspose.com/words/java/com.aspose.words/document/#getJustificationMode) <sup>23.2</sup>
-- Il modo per indicare a Aspose.Words se includere caselle di testo, note a piè di pagina e note di chiusura nelle statistiche di conteggio parole è stato fornito aggiungendo la proprietà [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/java/com.aspose.words/document/#getIncludeTextboxesFootnotesEndnotesInStat) <sup>23.2</sup>
-- Una nuova opzione per uno stile di documento, che consente di specificare se lo stile viene ridefinito automaticamente in base al valore appropriato, è stata introdotta tramite la proprietà [AutomaticallyUpdate](https://reference.aspose.com/words/java/com.aspose.words/style/#getAutomaticallyUpdate) <sup>23.2</sup>
-- La possibilità di determinare se [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) è un'esecuzione di guida fonetica è stata aggiunta utilizzando la proprietà **IsPhoneticGuide** <sup>23.4</sup>
-- È stato implementato un modo semplice per lavorare con serie e assi di grafici combinati introducendo la classe **ChartAxisCollection** e aggiungendo la proprietà **Chart.Axes** <sup>23.4</sup>
-- Alla classe [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) sono state aggiunte nuove proprietà pubbliche collegate alla forma posizionamento relativo e dimensionamento <sup>23.4</sup>
-- La precisione e le prestazioni del calcolo della luminosità del colore per la risoluzione automatica del colore del testo sono state migliorate in conformità con le ultime versioni di Microsoft Word <sup>23.4</sup>
-
-{{% alert color="primary" %}}
-
-Scopri di più su [Aspose.Words per Java 23.1 Nota di rilascio](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-1-release-notes/).
-
-Scopri di più su [Aspose.Words per Java 23.2 Nota di rilascio](/words/java/aspose-words-for-java-23-2-release-notes/).
-
-Scopri di più su [Aspose.Words per Java 23.3 Nota di rilascio](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-3-release-notes/).
-
-Scopri di più su [Aspose.Words per Java 23.4 Nota di rilascio](/words/java/aspose-words-for-java-23-4-release-notes/).
+Scopri di più su [Aspose.Wordsper Java 23.8 Note di rilascio](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
 
 {{% /alert %}}
 

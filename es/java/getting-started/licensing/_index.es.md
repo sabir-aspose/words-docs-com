@@ -1,4 +1,4 @@
-﻿---
+---
 title: Licencias y Suscripción
 second_title: Aspose.Words por Java
 articleTitle: Licencias y Suscripción
@@ -7,7 +7,7 @@ description: "Aspose.Words para Java ofrece diferentes planes de compra u ofrece
 type: docs
 weight: 60
 url: /es/java/licensing/
-timestamp: 2024-01-31-14-23-37
+timestamp: 2025-02-12-16-18-40
 ---
 
 A veces, para estudiar mejor el sistema, desea sumergirse en el código lo más rápido posible. Para facilitar esto, Aspose.Words ofrece diferentes planes de compra u ofrece una prueba gratuita y una Licencia Temporal de 30 días para su evaluación.
@@ -129,6 +129,8 @@ No llame al método **SetMeteredKey** con frecuencia para que este método de li
 El siguiente ejemplo de código muestra cómo establecer claves públicas y privadas medidas:
 
 {{< gist "aspose-words-gists" "aae6b7a56c4792497614b4ee8f6f8eec" "apply-metered-license.java" >}}
+
+Normalmente, basta con aplicar la licencia medida una vez al inicio de la aplicación. Sin embargo, si el mecanismo de licencias medidas no logra comunicarse con los servidores Aspose durante 24 horas, Aspose.Words saldrá del modo con licencia y cambiará al modo de evaluación. Para evitar este caso, puede utilizar el método [IsMeteredLicensed](https://reference.aspose.com/words/java/com.aspose.words/metered/#isMeteredLicensed) para comprobar el estado de la licencia y volver a aplicar la licencia medida si es necesario.
 
 {{% alert color="primary" %}}
 

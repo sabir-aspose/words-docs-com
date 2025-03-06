@@ -7,7 +7,7 @@ description: "Aspose.Words für .NET bietet verschiedene Kaufpläne oder eine ko
 type: docs
 weight: 55
 url: /de/net/licensing/
-timestamp: 2024-10-24-11-44-28
+timestamp: 2025-02-12-16-18-40
 ---
 
 Um das System besser zu studieren, möchte man manchmal so schnell wie möglich in den Code eintauchen. Um dies zu vereinfachen, bietet Aspose.Words verschiedene Kaufpläne oder eine kostenlose Testversion und eine 30-tägige temporäre Lizenz zur Evaluierung an.
@@ -119,7 +119,7 @@ Das folgende Codebeispiel zeigt, wie begrenzte öffentliche und private Schlüss
 
 {{< gist "aspose-words-gists" "c762ebd027c53ed61fce5bc5ccac1ca7" "apply-metered-license.cs" >}}
 
-Normalerweise reicht es aus, die gemessene Lizenz einmalig beim Anwendungsstart anzuwenden. Wenn der gemessene Lizenzierungsmechanismus jedoch 24 Stunden lang nicht mit den Aspose-Servern kommuniziert, verlässt Aspose.Words den Lizenzmodus und wechselt in den Testmodus. Um einen solchen Fall zu vermeiden, sollten Sie regelmäßig den Lizenzstatus überprüfen – wenn Aspose.Words in den Testmodus wechselt, wenden Sie bitte die gemessene Lizenz erneut an.
+Normalerweise reicht es aus, die getaktete Lizenz einmalig beim Start der Anwendung anzuwenden. Wenn der gemessene Lizenzierungsmechanismus jedoch 24 Stunden lang nicht mit den Aspose-Servern kommuniziert, verlässt Aspose.Words den Lizenzmodus und wechselt in den Evaluierungsmodus. Um einen solchen Fall zu vermeiden, können Sie die [IsMeteredLicensed](https://reference.aspose.com/words/net/aspose.words/metered/ismeteredlicensed/) -Methode verwenden, um den Lizenzstatus zu überprüfen und die gemessene Lizenz bei Bedarf erneut anzuwenden.
 
 {{% alert color="primary" %}}
 

@@ -7,20 +7,30 @@ type: docs
 description: "Aspose.Words místo .NET denně rozšiřuje a zvyšuje. Na této stránce se můžete dozvědět o obrovských a nejzajímavějších rysech produktu."
 weight: 10
 url: /cs/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2025-01-15-11-43-05
+timestamp: 2025-02-17-18-02-05
 ---
 
 Tato stránka popisuje nejzajímavější nový Aspose.Words funkce zavedené v nedávných vydáních.
 
-## Aspose.Words pro .NET 25.1
+## Aspose.Words Pro .NET 25.1, 25.2
 
 Aspose.Words 25.1 zavádí kontrolu gramatiky využívající umělou inteligenci a vylepšuje ukládání dokumentů pomocí pokročilých možností pro formáty HTML, SVG a Markdown.
+
+Aspose.Words 25.2 zavádí shrnutí textu pomocí Antropických modelů AI, přidává podporu formátu MsWorks, vylepšuje typografické ovládání a zlepšuje strukturu a zpracování seznamu PDF.
 
 ### Funkce poháněné umělou inteligencí
 
 #### Kontrola gramatiky AI dokumentů <sup>25.1</sup>
 
 Schopnost kontrolovat gramatiku poskytnutého dokumentu pomocí generativních modelů OpenAI byla zavedena přidáním nového [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/) metoda.
+
+#### Shrnutí Pomocí Antropických Generativních Jazykových Modelů <sup>25.2</sup>
+
+Shrnutí textu pomocí Antropických generativních jazykových modelů bylo umožněno zavedením nové veřejné třídy [AnthropicAiModel](https://reference.aspose.com/words/net/aspose.words.ai/anthropicaimodel/).
+
+### Podporované Formáty <sup>25.2</sup>
+
+Od verze 25.2 byla přidána kompatibilita s novým formátem načítání MsWorks pro pracovní dokumenty Microsoft.
 
 ### Konverze, načítání a ukládání dokumentů
 
@@ -33,9 +43,22 @@ Ukládání do formátů HTML a SVG bylo vylepšeno přidáním vlastností **Id
 * Do [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) byla přidána nová možnost [ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imageresolution/)  pro nastavení rozlišení obrázku.
 * Nová možnost [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) a [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) byly a přidáno do třídy [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) pro nastavení výstupního režimu OfficeMath.
 
+### Renderování
+
+#### Vylepšené Typografické Ovládání <sup>25.2</sup>
+
+Vlastnost [NumberSpacing](https://reference.aspose.com/words/net/aspose.words/font/numberspacing/) byla přidána pro lepší typografické ovládání.
+
+### Jiné
+
+* Logická struktura PDF byla vylepšena podporou polí TOA, BIBLIOGRAPHY a INDEX. <sup>25.2</sup>
+* Pro lepší zpracování seznamu byla zavedena metoda [AddSingleLevelList](https://reference.aspose.com/words/net/aspose.words.lists/listcollection/addsinglelevellist/). <sup>25.2</sup>
+
 {{% alert color="primary" %}}
 
 Další informace o [Aspose.Words for .NET 25.1 Release Notes](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/).
+
+Další informace o [Aspose.Words pro .NET 25.2 Poznámka](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-2-release-notes/).
 
 {{% /alert %}}
 
@@ -123,7 +146,7 @@ Do výčtu [MailMergeCleanupOptions](https://reference.aspose.com/words/net/aspo
 
 Možnost podepisovat dokumenty pomocí podpisů XML-DSig na úrovni XAdES-EPES byla zavedena přidáním nové veřejné vlastnosti [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) a nový veřejný výčet [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/).
 
-### Jiné
+### Jiný
 
 * Do skupinových tvarů byla přidána nová veřejná metoda [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/). <sup>24.9</sup>
 * Byla přidána nová veřejná metoda [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) pro vkládání **StructuredDocumentTags** do dokumentu. <sup>24.9</sup>
@@ -221,7 +244,7 @@ Nová třída [LowCode.Converter](https://reference.aspose.com/words/net/aspose.
 #### Pokročilé možnosti porovnání <sup>24.6</sup>
 Byla přidána možnost zefektivnit pracovní postupy analýzy dat pomocí vylepšené funkce porovnání. To zahrnuje novou možnost [IgnoreStoreItemId](https://reference.aspose.com/words/net/aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/) a přepracované rozhraní pro pokročilá porovnávání.
 
-### Jiný
+### Ostatní
 
 * Funkce odstranění prázdných stránek z dokumentu byla implementována přidáním metody [RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/). <sup>24.5</sup>
 * Možnost kontrolovat přítomnost maker VBA bez načítání dokumentu byla poskytnuta přidáním vlastnosti [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/). <sup>24.5</sup>
@@ -480,94 +503,6 @@ Více informací o [Aspose.Words místo .NET 23.6 Poznámky k vydání](/words/n
 Více informací o [Aspose.Words místo .NET 23.7 Poznámky k vydání](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
 
 Více informací o [Aspose.Words místo .NET 23.8 Poznámky k vydání](/words/net/aspose-words-for-net-23-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words místo .NET 23.1, 23.2, 23.3, 23.4
-
-Aspose.Words 23.1 zlepšuje výkon emulace rastrového provozu a zvyšuje kvalitu exportu a zobrazování dokumentů.
-
-Aspose.Words 23.2 zavádí uložení dokumentů ve formátu MOBI, zlepšuje vykreslování grafu a provádí významné změny v detailech vzhledu dokumentu.
-
-Aspose.Words 23.3 zvyšuje import a úsporu dokumentů s novými vlastnostmi a také zlepšuje kvalitu práce s pozadím a barvami popředí a radiálním gradientem.
-
-Aspose.Words 23.4 zlepšuje výpočet některých parametrů a umístění tabulky a okolního textu.
-
-### Zlepšení výkonnosti
-
-#### Emulace rastrových operací <sup>23.1</sup>
-
-Výkon a kvalita emulace rastrových operací s metafily byly významně zlepšeny.
-
-### Podporované formáty
-
-#### Vývoz do MOBI <sup>23.2</sup>
-
-Počínaje verzí 23.2, je možné uložit dokument ve formátu MOBI (také nazývaný ČLR, AZW ÁZ Amazon Kindle vlastní formát souboru e-knihy). Nyní můžete nejen načíst MOBI dokumenty, ale také exportovat své soubory do formátu MOBI.
-
-### Renderování
-
-#### Práce se Shading Téma Barvy <sup>23.1</sup>
-
-Schopnost pracovat s tematikou stínování barev byla provedena.
-
-#### Podpora R-čtvercového koeficientu v DML grafech <sup>23.1</sup>
-
-Podpora R-čtvercového koeficientu v DML grafových trendových etiketách při renderování byla přidána.
-
-#### Vylepšení grafu <sup>23.2</sup>
-
-Od 23.2 se grafové vykreslování výrazně zlepšilo.
-
-#### Pozadí a přední kontrola barev <sup>23.3</sup>
-
-• [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) třída byla rozšířena o soubor nových veřejných nemovitostí souvisejících s pozadím a barvy popředí: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/forethemecolor/) a [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/foretintandshade/) a [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backtintandshade/).
-
-#### Radiální radiátory s `SkiaSharp` Indián Shader <sup>23.3</sup>
-
-Renderování radiálních gradientů `SkiaSharp` nativní odstín pro .NET Standard bylo provedeno.
-
-#### Vzdálenost mezi tabulkou a okolním textem <sup>23.4</sup>
-
-Schopnost nastavit vzdálenost mezi tabulkou a okolním textem byla přidána zavedením nových vlastností do [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/) třída: [DistanceLeft](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceleft/), [DistanceRight](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceright/), [DistanceTop](https://reference.aspose.com/words/net/aspose.words.tables/table/distancetop/), a [DistanceBottom](https://reference.aspose.com/words/net/aspose.words.tables/table/distancebottom/).
-
-### Načítání a ukládání dokumentů
-
-#### Generovat `TOC` pro AZW3 Dokumenty <sup>23.1</sup>
-
-Schopnost generovat `TOC` (obsah) pro dokumenty AZW3 bylo přidáno pomocí [NavigationMapLevel](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/navigationmaplevel/) majetek.
-
-#### Exportovat položky seznamu do Markdown <sup>23.1</sup>
-
-Způsob kontroly vývozu položek seznamu do Markdown formát byl poskytnut přidáním [ListExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/listexportmode/) majetek [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) třída.
-
-#### Dokument šetří oznámení o pokroku <sup>23.3</sup>
-
-Byla provedena úspora oznámení o pokroku pro formáty MOBI a AZW3.
-
-#### Věta a přizpůsobení slov <sup>23.3</sup>
-
-Možnost určit, zda při importu dokumentu automaticky upravit věty a rozestup slov byla přidána zavedením [AdjustSentenceAndWordSpacing](https://reference.aspose.com/words/net/aspose.words/importformatoptions/adjustsentenceandwordspacing/) majetek.
-
-### Ostatní
-
-* Schopnost určit nastavení odstupu znaků dokumentu byla přidána prostřednictvím [JustificationMode](https://reference.aspose.com/words/net/aspose.words/document/justificationmode/) provádění majetku <sup>23.2</sup>
-* Způsob, jak poučovat Aspose.Words zda zahrnout textboxy, poznámky pod čarou a poznámky ke slovům statistiky počítání bylo poskytnuto přidáním [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/) majetek <sup>23.2</sup>
-* Nová volba pro styl dokumentu, která umožňuje určit, zda je styl automaticky nastaven na základě příslušné hodnoty, byla zavedena prostřednictvím [AutomaticallyUpdate](https://reference.aspose.com/words/net/aspose.words/style/automaticallyupdate/) majetek <sup>23.2</sup>
-* Schopnost určit, zda [Run](https://reference.aspose.com/words/net/aspose.words/run/) je fonetická příručka byla přidána pomocí [IsPhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/isphoneticguide/) majetek <sup>23.4</sup>
-* Jednoduchý způsob, jak pracovat se sériemi a osami kombo grafy byl realizován zavedením [ChartAxisCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxiscollection/) třída a přidání [Chart.Axes](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/axes/) majetek <sup>23.4</sup>
-* Nové veřejné vlastnosti spojené s tvarem relativní polohy a velikosti byly přidány do [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) třída <sup>23.4</sup>
-* Přesnost a výkon výpočtu jasu barev pro automatické rozlišení barev textu byl vylepšen v souladu s nejnovějšími verzemi Microsoft Word <sup>23.4</sup>
-
-{{% alert color="primary" %}}
-
-Více informací o [Aspose.Words místo .NET 23.1 Poznámky k vydání](/words/net/aspose-words-for-net-23-1-release-notes/).
-
-Více informací o [Aspose.Words místo .NET 23.2 Poznámky k vydání](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/).
-
-Více informací o [Aspose.Words místo .NET 23.3 Poznámky k vydání](/words/net/aspose-words-for-net-23-3-release-notes/).
-
-Více informací o [Aspose.Words místo .NET 23.4 Poznámky k vydání](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/).
 
 {{% /alert %}}
 

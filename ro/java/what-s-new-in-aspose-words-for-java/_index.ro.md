@@ -7,12 +7,62 @@ type: docs
 description: "Aspose.Words pentru Java extinde și îmbunătățește zilnic. Pe această pagină, puteți afla despre caracteristicile uriașe și cele mai interesante ale produsului."
 weight: 2
 url: /ro/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2024-12-13-10-56-02
+timestamp: 2025-17-02-18-02-05
 ---
 
 Această pagină descrie cele mai interesante caracteristici noi Aspose.Words introduse în versiunile recente.
 
-## Aspose.Words pentru Java 24.9, 24.10
+## Aspose.Words pentru Java 25.1, 25.2
+
+Aspose.Words 25.1 introduce verificarea gramaticală bazată pe AI și îmbunătățește salvarea documentelor cu opțiuni avansate pentru formatele HTML, SVG și Markdown.
+
+Aspose.Words 25.2 introduce rezumarea textului cu modele antropice AI, adaugă suport pentru formatul MsWorks, îmbunătățește controlul tipografic și îmbunătățește structura PDF și manipularea listei.
+
+### AI - funcții alimentate
+
+#### Document AI Verificarea Gramaticii <sup>25.1</sup>
+
+Capacitatea de a verifica gramatica documentului furnizat folosind OpenAI modele generative a fost introdusă prin adăugarea unei noi metode [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions).
+
+#### Rezumarea Folosind Modele De Limbaj Generativ Antropic <sup>25.2</sup>
+
+Rezumatul textului folosind modele de limbaj generativ antropic a fost permis prin introducerea unei noi clase publice [AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/).
+
+### Formate Acceptate <sup>25.2</sup>
+
+Începând cu versiunea 25.2, a fost adăugată compatibilitatea cu noul format de încărcare MsWorks pentru documentele de lucru Microsoft.
+
+### Conversia, încărcarea și salvarea documentelor
+
+#### Salvarea îmbunătățită în formatele HTML și SVG <sup>25.1</sup>
+
+Salvarea în formatele HTML și SVG a fost îmbunătățită prin adăugarea proprietăților **IdPrefix** și **RemoveJavaScriptFromLinks** atât la clasele [HtmlFixedSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlfixedsaveoptions/), cât și la [SvgSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/svgsaveoptions/).
+
+#### Setați rezoluția imaginii și OfficeMath modul de ieșire la salvarea în Markdown <sup>25.1</sup>
+
+* O nouă opțiune [ImageResolution](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageResolution) a fost adăugată la clasa [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) pentru a seta rezoluția imaginii.
+* O nouă opțiune [OfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getOfficeMathExportMode) și [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownofficemathexportmode/) enumerare au fost și adăugate la clasa [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) pentru a seta OfficeMath modul de ieșire.
+
+### Redare
+
+#### Control Tipografic Îmbunătățit <sup>25.2</sup>
+
+Proprietatea [NumberSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getNumberSpacing) a fost adăugată pentru un control tipografic îmbunătățit.
+
+### Altele
+
+* PDF structura logică a fost îmbunătățită cu suport pentru câmpurile TOA, BIBLIOGRAPHY și INDEX. <sup>25.2</sup>
+* Metoda [AddSingleLevelList](https://reference.aspose.com/words/java/com.aspose.words/listcollection/#addSingleLevelList-int) a fost introdusă pentru o mai bună gestionare a listelor. <sup>25.2</sup>
+
+{{% alert color="primary" %}}
+
+Aflați mai multe despre [Aspose.Words pentru Java 25.1 Note De Lansare](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-1-release-notes/).
+
+Aflați mai multe despre [Aspose.Words pentru Java 25.2 Note De Lansare](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-2-release-notes/).
+
+{{% /alert %}}
+
+## Aspose.Words pentru Java 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 introduce group shape Inserare și StructuredDocumentTag Inserare prin DocumentBuilder, îmbunătățește randarea diagramelor radiale cu gradații, îmbunătățește semnăturile digitale cu suport XAdES-EPES, adaugă Markdown recunoașterea sublinierii și oferă acces la separatoarele de notă de subsol/notă finală.
 
@@ -20,21 +70,21 @@ Aspose.Words 24.10 introduce suport îmbunătățit pentru controlul ActiveX cu 
 
 Aspose.Words 24.11 introduce rezumatul documentelor alimentat de AI, opțiuni de redare îmbunătățite, acces îmbunătățit la proprietățile documentului și subtitrarea ActiveX control.
 
-Aspose.Words 24.12 introduce plasarea personalizabilă a etichetelor de date, traducerea textului bazată pe Google AI, opțiuni îmbunătățite de curățare a îmbinării corespondenței și noi clase de procesare LowCode.
+Aspose.Words 24.12 introduce plasarea personalizabilă a etichetelor de date, traducerea textului Google AI, opțiunile îmbunătățite de curățare Mail Merge și noile clase de procesare LowCode.
 
 ### AI - funcții alimentate
 
 #### Rezumatul documentelor folosind OpenAI și Google <sup>24.11</sup>
 
-A fost integrată compatibilitatea pentru rezumarea documentelor folosind modelele de limbaj generativ **OpenAI** și **Google**.
+A fost integrat suportul pentru rezumarea documentelor folosind **OpenAI** și **Google** modele de limbaj generativ.
 
-#### Traducerea textului folosind modelele Google de limbaj generativ <sup>24.12</sup>
+#### Traducerea textului folosind modelele de limbaj generativ Google <sup>24.12</sup>
 
-Capacitatea de a traduce text folosind modelele de limbaj generative ale Google a fost implementată în Aspose.Words prin adăugarea [Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com .aspose.words.Document-int) metoda și cea [Language](https://reference.aspose.com/words/java/com.aspose.words/language/) enumerare.
+Capacitatea de a traduce text folosind modelele de limbaj generativ Google a fost implementată în Aspose.Words prin adăugarea metodei [Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int) și a enumerării [Language](https://reference.aspose.com/words/java/com.aspose.words/language/).
 
 ### Low Code <sup>24.12</sup>
 
-Noi clase LowCode, cum ar fi [Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/), [MailMerger](https://reference.aspose.com/words/net/ aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/), [Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) etc. a fost introdus, oferind un set de metode care realizează echilibrul perfect între simplitate și flexibilitate pentru procesarea documentelor.
+Noi LowCode clase ca [Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/), [MailMerger](https://reference.aspose.com/words/java/com.aspose.words/mailmerger/), [Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/), [Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) etc. a fost introdus, oferind un set de metode care ating echilibrul perfect între simplitate și flexibilitate pentru procesarea documentelor.
 
 ### Redare și imprimare
 
@@ -66,10 +116,6 @@ Abilitatea de a obține și seta coduri de format pentru datele grafice a fost a
 
 Histograma diagramă De redare a fost îmbunătățită prin a permite un anumit număr de containere și etichete.
 
-#### Personalizați plasarea etichetelor de date <sup>24.12</sup>
-
-Capacitatea de a personaliza plasarea etichetelor de date a fost adăugată prin introducerea de noi proprietăți în [ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) și [ChartDataLabelCollection ](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/) clasele.
-
 ### Conversia, încărcarea și salvarea documentelor
 
 #### Subliniați formatarea la încărcarea fișierelor Markdown <sup>24.9</sup>
@@ -84,9 +130,9 @@ O opțiune de a exporta tabele ca HTML la salvarea documentelor în format Markd
 
 PDF exportul a fost îmbunătățit prin includerea proprietăților titlului tabelului ca PDF titluri de elemente de structură logică.
 
-### Îmbinare corespondență și raportare
+### Mail Merge și raportare
 
-#### Eliminați tabelele goale în timpul îmbinării corespondenței <sup>24.12</sup>
+#### Eliminați tabelele goale în timpul Mail Merge <sup>24.12</sup>
 
 O nouă opțiune **RemoveEmptyTables** a fost adăugată la enumerarea [MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/) pentru a rafina ieșirea Mail Merge.
 
@@ -195,7 +241,7 @@ A fost adăugată capacitatea de a eficientiza fluxurile de lucru de analiză a 
 
 * Funcția de eliminare a paginilor goale dintr-un document a fost implementată prin adăugarea metodei [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages). <sup>24.5</sup>
 * Capacitatea de a verifica prezența macrocomenzilor VBA fără a încărca un document a fost furnizată prin adăugarea proprietății [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros). <sup>24.5</sup>
-* Păstrarea numerotare sursă în timp ce inserarea unui document folosind motorul de raportare LINQ este acum susținută. <sup>24.5</sup>
+* Păstrarea numerotare sursă în timp ce inserarea unui document folosind LINQ motor de raportare este acum susținută. <sup>24.5</sup>
 * A fost adăugată o nouă proprietate [DateTimeUtc](https://reference.aspose.com/words/java/com.aspose.words/comment/#getDateTimeUtc) - Aceasta oferă un marcaj de timp mai precis pentru comentarii, îmbunătățind organizarea și trasabilitatea. <sup>24.6</sup>
 * Motorul de raportare LINQ a fost îmbunătățit. S-a făcut eliminarea selectivă a paragrafelor goale și definirea mesajelor personalizate pentru membrii obiectelor lipsă, ceea ce a dus la rapoarte mai curate și mai informative. <sup>24.6</sup>
 * Formatul datetime este acum detectat automat pentru export fără sudură în format XLSX. <sup>24.7</sup>
@@ -260,7 +306,7 @@ A fost adăugată posibilitatea de a păstra liniile goale la încărcarea fiși
 
 #### Un Nou TIFF Cititor / Scriitor <sup>24.3</sup>
 
-Un nou TIFF cititor / scriitor pentru Aspose.Words pentru .NET Standard, .NET 6 și mai târziu a fost dezvoltat. Aspose.Words pentru .NET 24.3 s-a adăugat suport pentru citirea imaginilor TIFF cu tipurile de compresie JPEG și vechi JPEG și, de asemenea, a îmbunătățit semnificativ calitatea operațiilor de citire și scriere.
+A fost dezvoltat un nou cititor/scriitor TIFF pentru Aspose.Words pentru .NET Standard, .NET 6 și mai târziu. Aspose.Words pentru .NET 24.3 s-a adăugat suport pentru citirea imaginilor TIFF cu tipurile de compresie JPEG și vechi JPEG și, de asemenea, a îmbunătățit semnificativ calitatea operațiilor de citire și scriere.
 
 ### Altele
 
@@ -361,7 +407,7 @@ Aflați mai multe despre [Aspose.Words pentru Java 23.12 Note De Lansare](https:
 
 {{% /alert %}}
 
-## Aspose.Words pentru Java 23.5, 23.6, 23.7, 23.8
+## Aspose.Words Pentru Java 23.5, 23.6, 23.7, 23.8
 
 Aspose.Words 23.5 îmbunătățește capacitatea de a lucra cu date din seria de diagrame și capacitatea de a lucra cu documente ODT, precum și de a îmbunătăți anteturile/subsolurile și împachetarea textului acestora.
 
@@ -422,7 +468,7 @@ Sintaxa șablonului motorului de raportare LINQ acceptă acum metodele de extens
 
 A fost introdusă o nouă proprietate publică **ImageSize** pentru specificarea dimensiunii imaginilor redate în pixeli.
 
-#### Păstrați spațiile albe pentru valorile șirului JSON – LINQ <sup>23.8</sup>
+#### Păstrați spațiile albe pentru valorile șirului JSON - LINQ <sup>23.8</sup>
 
 O opțiune a fost adăugată la motorul de raportare LINQ pentru a păstra spațiile albe pentru valorile șirului JSON.
 
@@ -448,94 +494,6 @@ Aflați mai multe despre [Aspose.Words pentru Java 23.6 Note De Lansare](/words/
 Aflați mai multe despre [Aspose.Words pentru Java 23.7 Note De Lansare](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
 
 Aflați mai multe despre [Aspose.Words pentru Java 23.8 Note De Lansare](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words pentru Java 23.1, 23.2, 23.3, 23.4
-
-Aspose.Words 23.1 îmbunătățește performanța emulării operațiilor raster, precum și îmbunătățește exportul și calitatea redării documentelor.
-
-Aspose.Words 23.2 introduce salvarea documentelor în formatul MOBI, îmbunătățește redarea diagramei și face modificări notabile la detaliile aspectului documentului.
-
-Aspose.Words 23.3 îmbunătățește importul și salvarea documentelor cu proprietăți noi și, de asemenea, îmbunătățește calitatea muncii cu culoarea de fundal și prim plan și gradientul radial.
-
-Aspose.Words 23.4 îmbunătățește calculul unor parametri și poziționarea tabelului și a textului înconjurător.
-
-### Îmbunătățiri Ale Performanței
-
-#### Emularea operațiilor Raster <sup>23.1</sup>
-
-Performanța și calitatea emulării operațiilor raster cu Metafile au fost îmbunătățite semnificativ.
-
-### Formate Acceptate
-
-#### Export în MOBI <sup>23.2</sup>
-
-Începând cu versiunea 23.2, este posibil să salvați un document în format MOBI (numit șiPRC, AZW – Amazon formatul de fișier al cărții electronice Kindle). Acum Puteți nu numai să încărcați documente MOBI, ci și să exportați fișierele în format MOBI.
-
-### Redare
-
-#### Lucrați cu culori tematice de umbrire <sup>23.1</sup>
-
-A fost implementată capacitatea de a lucra cu culori tematice de umbrire.
-
-#### Suport pentru coeficientul R-pătrat în DML diagrame <sup>23.1</sup>
-
-Suport de coeficient R-pătrat în DML etichete Trendline diagramă atunci când a fost adăugat De redare.
-
-#### Îmbunătățiri De Redare A Diagramelor <sup>23.2</sup>
-
-De la 23.2 redarea graficului a fost îmbunătățită semnificativ.
-
-#### Controlul culorilor de fundal și prim plan <sup>23.3</sup>
-
-Clasa [Fill](https://reference.aspose.com/words/java/com.aspose.words/fill/) a fost extinsă cu un set de noi proprietăți publice legate de culorile de fundal și prim plan: **ForeThemeColor** și **BackThemeColor**, **ForeTintAndShade** și **BackTintAndShade**.
-
-#### Gradienți radiali cu Shader-ul nativ `SkiaSharp` <sup>23.3</sup>
-
-A fost implementată redarea gradienților radiali cu shader-ul nativ `SkiaSharp` Pentru .NET Standard.
-
-#### Distanța dintre tabel și textul înconjurător <sup>23.4</sup>
-
-Capacitatea de a seta distanța dintre tabel și textul înconjurător a fost adăugată prin introducerea de noi proprietăți în clasa [Table](https://reference.aspose.com/words/java/com.aspose.words/table/): [DistanceLeft](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceLeft), [DistanceRight](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceRight), [DistanceTop](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceTop), și [DistanceBottom](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceBottom).
-
-### Încărcarea și salvarea documentelor
-
-#### Generați `TOC` pentru AZW3 documente <sup>23.1</sup>
-
-Capacitatea de a genera `TOC` (Cuprins) pentru documentele AZW3 a fost adăugată prin utilizarea proprietății [EpubNavigationMapLevel](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getEpubNavigationMapLevel).
-
-#### Exportarea articolelor din listă în Markdown <sup>23.1</sup>
-
-O modalitate de a controla exportul articolelor din listă în formatul Markdown a fost furnizată prin adăugarea proprietății [ListExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getListExportMode) la clasa [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/).
-
-#### Notificări Privind Progresul Salvării Documentelor <sup>23.3</sup>
-
-Salvarea notificărilor de progres pentru formatele MOBI și AZW3 a fost implementată.
-
-#### Ajustarea spațiului dintre propoziții și cuvinte <sup>23.3</sup>
-
-Capacitatea de a specifica dacă se ajustează automat propoziția și spațierea cuvintelor la importul documentului a fost adăugată prin introducerea proprietății **AdjustSentenceAndWordSpacing**.
-
-### Altele
-
-- Capacitatea de a specifica ajustarea spațierea caracterelor unui document a fost adăugat prin [JustificationMode](https://reference.aspose.com/words/java/com.aspose.words/document/#getJustificationMode) implementarea proprietății <sup>23.2</sup>
-- Modul de a instrui Aspose.Words dacă să includă casete de text, note de subsol și note de final în Statisticile numărului de cuvinte a fost furnizat prin adăugarea proprietății [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/java/com.aspose.words/document/#getIncludeTextboxesFootnotesEndnotesInStat) <sup>23.2</sup>
-- O nouă opțiune pentru un stil de document, care permite specificarea dacă stilul este redefinit automat pe baza valorii corespunzătoare, a fost introdusă prin proprietatea [AutomaticallyUpdate](https://reference.aspose.com/words/java/com.aspose.words/style/#getAutomaticallyUpdate) <sup>23.2</sup>
-- Abilitatea de a determina dacă [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) este o rulare a ghidului fonetic a fost adăugată folosind proprietatea **IsPhoneticGuide** <sup>23.4</sup>
-- O modalitate simplă de a lucra cu serii și axe de diagrame combinate a fost implementată prin introducerea clasei **ChartAxisCollection** și adăugarea proprietății **Chart.Axes** <sup>23.4</sup>
-- Noi proprietăți publice conectate la poziționarea relativă a formei și dimensionarea au fost adăugate la clasa [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) <sup>23.4</sup>
-- Precizia și performanța calculului luminozității culorii pentru rezoluția automată a culorilor textului au fost îmbunătățite în conformitate cu cele mai recente versiuni ale Microsoft Word <sup>23.4</sup>
-
-{{% alert color="primary" %}}
-
-Aflați mai multe despre [Aspose.Words pentru Java 23.1 Note De Lansare](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-1-release-notes/).
-
-Aflați mai multe despre [Aspose.Words pentru Java 23.2 Note De Lansare](/words/java/aspose-words-for-java-23-2-release-notes/).
-
-Aflați mai multe despre [Aspose.Words pentru Java 23.3 Note De Lansare](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-3-release-notes/).
-
-Aflați mai multe despre [Aspose.Words pentru Java 23.4 Note De Lansare](/words/java/aspose-words-for-java-23-4-release-notes/).
 
 {{% /alert %}}
 

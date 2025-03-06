@@ -1,4 +1,4 @@
-﻿---
+---
 title: 许可和订阅
 second_title: Aspose.Words为Java
 articleTitle: 许可和订阅
@@ -7,7 +7,7 @@ description: "Aspose.WordsforJava提供不同的购买计划或提供免费试�
 type: docs
 weight: 60
 url: /zh/java/licensing/
-timestamp: 2024-01-31-14-23-37
+timestamp: 2025-02-12-16-18-40
 ---
 
 有时，为了更好地研究系统，您希望尽可能快地深入研究代码。 为了使这更容易，Aspose.Words提供不同的购买计划或提供免费试用和30天的临时许可证进行评估。
@@ -129,6 +129,8 @@ Aspose.Words允许开发人员应用计量密钥。 这是一种新的许可机�
 下面的代码示例演示如何设置计量公钥和私钥:
 
 {{< gist "aspose-words-gists" "aae6b7a56c4792497614b4ee8f6f8eec" "apply-metered-license.java" >}}
+
+通常，在应用程序启动时应用计量许可证就足够了。 但是，如果计量许可机制在24小时内无法与Aspose服务器通信，Aspose.Words将退出许可模式并切换到评估模式。 为了避免这种情况，您可以使用[IsMeteredLicensed](https://reference.aspose.com/words/java/com.aspose.words/metered/#isMeteredLicensed)方法检查许可证状态，并在必要时重新应用计量许可证。
 
 {{% alert color="primary" %}}
 

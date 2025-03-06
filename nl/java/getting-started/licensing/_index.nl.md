@@ -7,7 +7,7 @@ description: "Aspose.Words voor Java biedt verschillende plannen voor aankoop of
 type: docs
 weight: 60
 url: /nl/java/licensing/
-timestamp: 2024-01-31-14-23-37
+timestamp: 2025-02-12-16-18-40
 ---
 
 Soms, om het systeem beter te bestuderen, wil je zo snel mogelijk in de code duiken. Om dit makkelijker te maken, Aspose.Words biedt verschillende plannen voor aankoop of biedt een gratis proefperiode en een 30-daagse tijdelijke licentie voor evaluatie.
@@ -129,6 +129,8 @@ Niet bellen **SetMeteredKey** methode vaak, zodat deze licentiemethode correct a
 Het volgende voorbeeld van code laat zien hoe je gemeterde publieke en private sleutels kunt instellen:
 
 {{< gist "aspose-words-gists" "aae6b7a56c4792497614b4ee8f6f8eec" "apply-metered-license.java" >}}
+
+Normaal gesproken volstaat het om de gemeten Licentie Eenmaal toe te passen bij het starten van de aanvraag. Als het gemeten licentiemechanisme echter 24 uur niet communiceert met de Aspose-servers, zal Aspose.Words de gelicentieerde modus verlaten en overschakelen naar de evaluatiemodus. Om een dergelijk geval te voorkomen, kunt u de methode [IsMeteredLicensed](https://reference.aspose.com/words/java/com.aspose.words/metered/#isMeteredLicensed) gebruiken om de licentiestatus te controleren en indien nodig de gemeten licentie opnieuw toe te passen.
 
 {{% alert color="primary" %}}
 

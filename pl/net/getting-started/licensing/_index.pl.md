@@ -7,7 +7,7 @@ description: "Aspose.Words dla .NET oferuje różne plany zakupu lub bezpłatną
 type: docs
 weight: 55
 url: /pl/net/licensing/
-timestamp: 2024-10-24-11-44-28
+timestamp: 2025-02-12-16-18-40
 ---
 
 Czasami, aby lepiej przestudiować system, chcesz jak najszybciej zagłębić się w kod. Aby to ułatwić, Aspose.Words oferuje różne plany zakupu lub bezpłatną wersję próbną i 30-dniową licencję tymczasową do oceny.
@@ -119,7 +119,7 @@ Poniższy przykład kodu pokazuje, jak ustawić ograniczone klucze publiczne i p
 
 {{< gist "aspose-words-gists" "c762ebd027c53ed61fce5bc5ccac1ca7" "apply-metered-license.cs" >}}
 
-Zwykle wystarczy jednorazowo zastosować licencję licznikową przy uruchomieniu aplikacji. Jeśli jednak mechanizm licencjonowania licznikowego nie skomunikuje się z serwerami Aspose przez 24 godziny, Aspose.Words wyjdzie z trybu licencjonowanego i przejdzie do trybu ewaluacyjnego. Aby uniknąć takiego przypadku, należy regularnie sprawdzać status licencji – jeśli Aspose.Words przejdzie w tryb ewaluacyjny, należy ponownie zastosować licencję licznikową.
+Zwykle wystarczy zastosować licencję odmierzoną po uruchomieniu aplikacji. Jeśli jednak mechanizm licencjonowania z pomiarem nie będzie komunikował się z serwerami Aspose przez 24 godziny, Aspose.Words wyjdzie z trybu licencjonowanego i przejdzie w tryb oceny. Aby uniknąć takiego przypadku, możesz użyć metody [IsMeteredLicensed](https://reference.aspose.com/words/net/aspose.words/metered/ismeteredlicensed/), aby sprawdzić status licencji i w razie potrzeby ponownie zastosować licencję odmierzoną.
 
 {{% alert color="primary" %}}
 

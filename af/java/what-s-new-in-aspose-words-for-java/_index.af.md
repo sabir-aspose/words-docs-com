@@ -7,10 +7,60 @@ type: docs
 description: "Aspose.Words vir Java brei en verbeter daagliks. Op hierdie bladsy kan jy leer oor die groot en interessantste kenmerke van die produk."
 weight: 2
 url: /af/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2024-12-13-10-56-02
+timestamp: 2025-17-02-18-02-05
 ---
 
 Hierdie bladsy beskryf die interessantste nuwe Aspose.Words funksies wat in onlangse vrystellings bekendgestel is.
+
+## Aspose.Words vir Java 25.1, 25.2
+
+Aspose.Words 25.1 stel AI-aangedrewe grammatika-kontrole bekend en verbeter dokumentbesparing met gevorderde opsies vir HTML, SVG en Markdown formate.
+
+Aspose.Words 25.2 stel teksopsomming bekend met Antropiese AI modelle, voeg MsWorks formaatondersteuning by, verbeter tipografiese beheer en verbeter PDF struktuur en lyshantering.
+
+### AI - aangedrewe Funksies
+
+#### Dokument AI Grammatika Kontrole <sup>25.1</sup>
+
+Die vermoë om die grammatika van die verskaf dokument te kontroleer met behulp van OpenAI generatiewe modelle is ingestel deur die toevoeging van'n nuwe [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions) metode.
+
+#### Opsomming Met Behulp Van Antropiese Generatiewe Taalmodelle <sup>25.2</sup>
+
+Teksopsomming met Behulp van Antropiese generatiewe taalmodelle is moontlik gemaak deur'n nuwe openbare klas [AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/) in te voer.
+
+### Ondersteunde Formate <sup>25.2</sup>
+
+Vanaf weergawe 25.2 is verenigbaarheid met die nuwe MsWorks laai formaat vir Microsoft Werk dokumente bygevoeg.
+
+### Omskakeling, Laai En Stoor Van Dokumente
+
+#### Verbeterde Stoor na HTML En SVG Formate <sup>25.1</sup>
+
+Stoor na HTML en SVG formate is verbeter deur die toevoeging van **IdPrefix** en **RemoveJavaScriptFromLinks** eienskappe aan beide die [HtmlFixedSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlfixedsaveoptions/) en [SvgSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/svgsaveoptions/) klasse.
+
+#### Stel Beeldresolusie en OfficeMath Afvoermodus Wanneer Gestoor word na Markdown <sup>25.1</sup>
+
+* 'n nuwe [ImageResolution](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageResolution) opsie is bygevoeg om die [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) klas om die beeld resolusie stel.
+* 'n nuwe [OfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getOfficeMathExportMode) opsie en [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownofficemathexportmode/) opsomming is en bygevoeg om die [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) klas OfficeMath uitset af te stel.
+
+### Lewering
+
+#### Verbeterde Tipografiese Beheer <sup>25.2</sup>
+
+Die [NumberSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getNumberSpacing) eienskap is bygevoeg vir verbeterde tipografiese beheer.
+
+### Ander
+
+* PDF logiese struktuur is verbeter met ondersteuning vir TOA, BIBLIOGRAPHY, en INDEX velde. <sup>25.2</sup>
+* Die [AddSingleLevelList](https://reference.aspose.com/words/java/com.aspose.words/listcollection/#addSingleLevelList-int) metode is bekendgestel vir verbeterde lys hantering. <sup>25.2</sup>
+
+{{% alert color="primary" %}}
+
+Leer meer oor [Aspose.Words vir Java 25.1 Vrystelling Notas](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-1-release-notes/).
+
+Leer meer oor [Aspose.Words vir Java 25.2 Vrystelling Notas](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-2-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words vir Java 24.9, 24.10, 24.11, 24.12
 
@@ -20,21 +70,21 @@ Aspose.Words 24.10 stel verbeterde ActiveX beheer ondersteuning met CommandButto
 
 Aspose.Words 24.11 stel AI-aangedrewe dokumentopsomming, verbeterde weergawe opsies, verbeterde toegang tot dokument eienskappe en ActiveX beheer onderskrifte.
 
-Aspose.Words 24.12 stel aanpasbare data-etiketplasing, Google KI-aangedrewe teksvertaling, verbeterde Mail Merge-opruimopsies en nuwe LowCode-verwerkingsklasse bekend.
+Aspose.Words 24.12 stel aanpasbare data etiket plasing, Google AI-aangedrewe teks vertaling, verbeterde Mail Merge skoonmaak opsies, en nuwe LowCode verwerking klasse.
 
 ### AI - aangedrewe Funksies
 
-#### Dokumentopsomming met behulp van OpenAI en Google <sup>24.11</sup>
+#### Dokumentopsomming met behulp van OpenAI En Google <sup>24.11</sup>
 
 Ondersteuning vir dokumentopsomming met behulp van **OpenAI** en **Google** generatiewe taalmodelle is geïntegreer.
 
-#### Teksvertaling met behulp van Google se generatiewe taalmodelle <sup>24.12</sup>
+#### Teksvertaling met Behulp Van Google se generatiewe taalmodelle <sup>24.12</sup>
 
-Die vermoë om teks te vertaal deur Google se generatiewe taalmodelle te gebruik, is in Aspose.Words geïmplementeer deur die [Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int)-metode by te voeg en die [Language](https://reference.aspose.com/words/java/com.aspose.words/language/) opsomming.
+Die vermoë om teks te vertaal met Behulp van Google se generatiewe taalmodelle is geïmplementeer in Aspose.Words deur die [Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int) metode en die [Language](https://reference.aspose.com/words/java/com.aspose.words/language/) opsomming by te voeg.
 
-### Lae kode <sup>24.12</sup>
+### Low Code <sup>24.12</sup>
 
-Nuwe LowCode-klasse soos [Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/), [MailMerger](https://reference.aspose.com/words/java/com.aspose.words/mailmerger/), [Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/), [Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) ens. is bekendgestel, wat 'n stel metodes bied wat die perfekte balans tussen eenvoud en buigsaamheid vir dokumentverwerking vind.
+Nuwe LowCode klasse soos [Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/), [MailMerger](https://reference.aspose.com/words/java/com.aspose.words/mailmerger/), [Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/), [Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) en so aan. is bekendgestel, wat'n stel metodes bied wat die perfekte balans tussen eenvoud en buigsaamheid vir dokumentverwerking vind.
 
 ### Rendering En Drukwerk
 
@@ -66,10 +116,6 @@ Die vermoë om formaat kodes vir grafiek data te kry en te stel is bygevoeg deur
 
 Histogramkaartvertoning is verbeter deur'n spesifieke aantal bakkies en etikette toe te laat.
 
-#### Pas die plasing van data-etikette aan <sup>24.12</sup>
-
-Die vermoë om die plasing van data-etikette aan te pas is bygevoeg deur nuwe eienskappe aan die [ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) en [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/) bekend te stel klasse.
-
 ### Omskakeling, Laai En Stoor Van Dokumente
 
 #### Onderstreep Formatering wanneer Markdown Lêers Gelaai Word <sup>24.9</sup>
@@ -84,11 +130,11 @@ Die opsie om onderstreepte opmaak te herken wanneer Markdown dokumente gelaai wo
 
 PDF uitvoer is verbeter deur die insluiting van tabel titel eienskappe as PDF logiese struktuur element titels.
 
-### Possamevoeging en verslagdoening
+### Mail Merge En Verslagdoening
 
-#### Verwyder leë tabelle tydens possamevoeging <sup>24.12</sup>
+#### Verwyder Leë Tabelle tydens Mail Merge <sup>24.12</sup>
 
-'n Nuwe **RemoveEmptyTables**-opsie is bygevoeg by die [MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/)-opsomming om Mail Merge-uitset te verfyn.
+'n nuwe **RemoveEmptyTables** opsie is by die [MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/) opsomming gevoeg om Mail Merge uitset te verfyn.
 
 ### Digitale Handtekeninge
 
@@ -260,7 +306,7 @@ Die vermoë om leë lyne te bewaar wanneer Markdown lêers gelaai word, is bygev
 
 #### 'n Nuwe TIFF Leser / Skrywer <sup>24.3</sup>
 
-'n nuwe TIFF leser / skrywer vir Aspose.Words vir .NET Standard, .NET 6 en later ontwikkel is. Aspose.Words vir .NET 24.3 bygevoeg ondersteuning vir die lees van TIFF beelde met JPEG en Ou JPEG kompressie tipes, en ook aansienlik verbeter die gehalte van lees en skryf bedrywighede.
+'n nuwe TIFF leser/skrywer vir Aspose.Words vir .NET Standard, .NET 6 en later is ontwikkel. Aspose.Words vir .NET 24.3 bygevoeg ondersteuning vir die lees van TIFF beelde met JPEG en Ou JPEG kompressie tipes, en ook aansienlik verbeter die gehalte van lees en skryf bedrywighede.
 
 ### Ander
 
@@ -347,7 +393,7 @@ Die funksie om hiperskakels te herken wanneer TXT dokumente gelaai word, is geï
 - 'n generiese tipe parameter is bygevoeg om die metodes van die [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) klas. <sup>23.10</sup>
 - 'n manier om te beheer wanneer'n sekere hersiening aanvaar/verwerp moet word of nie, is geïmplementeer deur die [Accept](https://reference.aspose.com/words/java/com.aspose.words/revisioncollection/#accept-com.aspose.words.IRevisionCriteria) en [Reject](https://reference.aspose.com/words/java/com.aspose.words/revisioncollection/#reject-com.aspose.words.IRevisionCriteria) metodes te gebruik. Hierdie verbetering gee gebruikers fyner beheer oor die hersiening proses. <sup>23.11</sup>
 - Die vermoë om alle afdelings van'n dokument op dieselfde XLSX werkblad te skryf is verskaf deur die nuwe [XlsxSectionMode](https://reference.aspose.com/words/java/com.aspose.words/xlsxsectionmode/) opsomming tipe en die nuwe [SectionMode](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/#getSectionMode) eienskap. <sup>23.11</sup>
-- Ondersteuning vir WebP beeld is ingestel. Let asseblief daarop dat hierdie funksie slegs beskikbaar is vir.NetStandart en .NET6 + weergawes. <sup>23.12</sup>
+- Ondersteuning vir WebP beeld is ingestel. Let asseblief daarop dat hierdie funksie slegs beskikbaar is vir.NetStandart en .NET6+ weergawes. <sup>23.12</sup>
 
 {{% alert color="primary" %}}
 
@@ -448,94 +494,6 @@ Leer meer oor [Aspose.Words vir Java 23.6 Vrystelling Notas](/words/java/aspose-
 Leer meer oor [Aspose.Words vir Java 23.7 Vrystelling Notas](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
 
 Leer meer oor [Aspose.Words vir Java 23.8 Vrystelling Notas](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words vir Java 23.1, 23.2, 23.3, 23.4
-
-Aspose.Words 23.1 verbeter die prestasie van raster operasie emulasie, sowel as verbeter dokument uitvoer en lewering gehalte.
-
-Aspose.Words 23.2 stel stoor dokumente in die MOBI formaat, verbeter grafiek weergawe, en maak noemenswaardige veranderinge aan dokument voorkoms besonderhede.
-
-Aspose.Words 23.3 verbeter die invoer en stoor van dokumente met nuwe eienskappe, en verbeter ook die kwaliteit van werk met agtergrond-en voorgrondkleur en radiale gradiënt.
-
-Aspose.Words 23.4 verbeter die berekening van sommige parameters en die posisionering van die tabel en omliggende teks.
-
-### Prestasieverbeterings
-
-#### Emulasie Van Raster Bedrywighede <sup>23.1</sup>
-
-Prestasie en kwaliteit van emulasie van raster bedrywighede met metafiles is aansienlik verbeter.
-
-### Ondersteunde Formate
-
-#### Voer uit na MOBI <sup>23.2</sup>
-
-Begin met weergawe 23.2, is dit moontlik om'n dokument in MOBI formaat (ook genoem PRC, AZW – Amazon Kindle se eie e-boek lêer formaat). Nou kan jy nie net MOBI dokumente laai nie, maar ook jou lêers na MOBI formaat uitvoer.
-
-### Lewering
-
-#### Werk Met Skadu Tema Kleure <sup>23.1</sup>
-
-Die vermoë om te werk met skadu tema kleure is geïmplementeer.
-
-#### Ondersteuning Van R-kwadraat Koëffisiënt in DML Kaarte <sup>23.1</sup>
-
-Ondersteuning van R-kwadraat koëffisiënt in DML grafiek trendline etikette wanneer weergawe bygevoeg is.
-
-#### Grafiese Weergawe Verbeterings <sup>23.2</sup>
-
-Sedert 23.2 is die grafiese weergawe aansienlik verbeter.
-
-#### Agtergrond En Voorgrond Kleur Beheer <sup>23.3</sup>
-
-Die [Fill](https://reference.aspose.com/words/java/com.aspose.words/fill/) klas is uitgebrei met'n stel van nuwe openbare eienskappe wat verband hou met agtergrond en voorgrond kleure: **ForeThemeColor** en **BackThemeColor**, **ForeTintAndShade** en **BackTintAndShade**.
-
-#### Radiële Gradiënte met die `SkiaSharp` Inheemse Skaduwee <sup>23.3</sup>
-
-Rendering van radiale gradiënte met die `SkiaSharp` inheemse skaduwee vir .NET Standard is geïmplementeer.
-
-#### Afstand tussen Die Tabel En Die Omliggende Teks <sup>23.4</sup>
-
-Die vermoë om die afstand tussen die tabel en omliggende teks stel is bygevoeg deur die bekendstelling van nuwe eienskappe aan die [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) klas: [DistanceLeft](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceLeft), [DistanceRight](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceRight), [DistanceTop](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceTop), en [DistanceBottom](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceBottom).
-
-### Laai En Stoor Dokumente
-
-#### Genereer `TOC` Vir AZW3 Dokumente <sup>23.1</sup>
-
-Die vermoë om `TOC` (inhoudsopgawe) vir AZW3 dokumente te genereer is bygevoeg deur die gebruik van die [EpubNavigationMapLevel](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getEpubNavigationMapLevel) eienskap.
-
-#### Uitvoer Van Lys Items na Markdown <sup>23.1</sup>
-
-'n manier om die uitvoer van lys items te beheer na Markdown formaat is verskaf deur die toevoeging van die [ListExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getListExportMode) eiendom om die [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) klas.
-
-#### Dokument Stoor Vordering Kennisgewings <sup>23.3</sup>
-
-Stoor vordering kennisgewings vir MOBI en AZW3 formate is geïmplementeer.
-
-#### Aanpassing van sin - En Woordspasiëring <sup>23.3</sup>
-
-Die vermoë om te spesifiseer of om sin en woord spasiëring outomaties aan te pas by dokument invoer is bygevoeg deur die bekendstelling van die **AdjustSentenceAndWordSpacing** eiendom.
-
-### Ander
-
-- Die vermoë om die karakter spasiëring aanpassing van'n dokument spesifiseer is bygevoeg deur die [JustificationMode](https://reference.aspose.com/words/java/com.aspose.words/document/#getJustificationMode) eienskap implementering <sup>23.2</sup>
-- Die manier om Aspose.Words te leer of teksbokse, voetnotas en eindnotas in woordtellingstatistieke ingesluit moet word, is verskaf deur die [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/java/com.aspose.words/document/#getIncludeTextboxesFootnotesEndnotesInStat) eienskap by te voeg <sup>23.2</sup>
-- 'n nuwe opsie vir'n dokument styl, wat toelaat dat spesifiseer of die styl outomaties herdefinieer op grond van die toepaslike waarde, is ingestel deur die [AutomaticallyUpdate](https://reference.aspose.com/words/java/com.aspose.words/style/#getAutomaticallyUpdate) eiendom <sup>23.2</sup>
-- Die vermoë om te bepaal of [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) 'n fonetiese gids is, is bygevoeg met behulp van die **IsPhoneticGuide** eienskap <sup>23.4</sup>
-- 'n eenvoudige manier om te werk met reeks en asse van kombinasie kaarte is geïmplementeer deur die bekendstelling van die **ChartAxisCollection** klas en die toevoeging van die **Chart.Axes** eiendom <sup>23.4</sup>
-- Nuwe openbare eiendomme wat verband hou met die vorm relatiewe posisionering en grootte is bygevoeg om die [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) klas <sup>23.4</sup>
-- Akkuraatheid en prestasie van kleurhelderheidsberekening vir outomatiese tekskleurresolusie is verbeter in ooreenstemming met die nuutste weergawes van Microsoft Word <sup>23.4</sup>
-
-{{% alert color="primary" %}}
-
-Leer meer oor [Aspose.Words vir Java 23.1 Vrystelling Notas](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-1-release-notes/).
-
-Leer meer oor [Aspose.Words vir Java 23.2 Vrystelling Notas](/words/java/aspose-words-for-java-23-2-release-notes/).
-
-Leer meer oor [Aspose.Words vir Java 23.3 Vrystelling Notas](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-3-release-notes/).
-
-Leer meer oor [Aspose.Words vir Java 23.4 Vrystelling Notas](/words/java/aspose-words-for-java-23-4-release-notes/).
 
 {{% /alert %}}
 

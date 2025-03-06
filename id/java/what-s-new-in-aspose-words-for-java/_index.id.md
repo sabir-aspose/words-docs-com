@@ -1,16 +1,66 @@
-﻿---
+---
 title: Apa yang baru
 second_title: Aspose.Words untuk Java
 articleTitle: Apa yang baru di Aspose.Words untuk Java
 linktitle: Apa yang baru di Aspose.Words untuk Java
 type: docs
-description: "Aspose.Words untuk Java berkembang dan meningkat setiap hari. Di halaman ini, Anda dapat mempelajari tentang fitur produk yang sangat besar dan paling menarik."
+description: "Aspose.Words untuk Java memperluas dan meningkatkan setiap hari. Di halaman ini, Anda dapat mempelajari tentang fitur produk yang sangat besar dan paling menarik."
 weight: 2
 url: /id/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2024-12-13-10-56-02
+timestamp: 2025-17-02-18-02-05
 ---
 
 Halaman ini menjelaskan fitur Aspose.Words baru yang paling menarik yang diperkenalkan dalam rilis terbaru.
+
+## Aspose.Words untuk Java 25.1, 25.2
+
+Aspose.Words 25.1 memperkenalkan pemeriksaan tata bahasa bertenaga AI dan menyempurnakan penyimpanan dokumen dengan opsi lanjutan untuk format HTML, SVG, dan Markdown.
+
+Aspose.Words 25.2 memperkenalkan peringkasan teks dengan model Antropik AI, menambahkan dukungan format MsWorks, meningkatkan kontrol tipografi, dan meningkatkan struktur PDF dan penanganan daftar.
+
+### AI-Fitur bertenaga
+
+#### Dokumen AI Pemeriksaan Tata Bahasa <sup>25.1</sup>
+
+Kemampuan untuk memeriksa tata bahasa dokumen yang disediakan menggunakan model generatif OpenAI telah diperkenalkan dengan menambahkan metode [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions) baru.
+
+#### Ringkasan Menggunakan Model Bahasa Generatif Antropik <sup>25.2</sup>
+
+Peringkasan teks menggunakan model bahasa generatif Antropik telah diaktifkan dengan memperkenalkan kelas publik baru [AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/).
+
+### Format yang Didukung <sup>25.2</sup>
+
+Mulai dari versi 25.2, kompatibilitas dengan format pemuatan MsWorks baru untuk dokumen Karya Microsoft telah ditambahkan.
+
+### Mengonversi, Memuat, dan Menyimpan Dokumen
+
+#### Peningkatan Penyimpanan ke Format HTML dan SVG <sup>25.1</sup>
+
+Menyimpan ke format HTML dan SVG telah ditingkatkan dengan menambahkan properti **IdPrefix** dan **RemoveJavaScriptFromLinks** ke kelas [HtmlFixedSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlfixedsaveoptions/) dan [SvgSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/svgsaveoptions/).
+
+#### Setel Resolusi Gambar dan Mode Keluaran OfficeMath Saat Menyimpan ke Markdown <sup>25.1</sup>
+
+* Opsi [ImageResolution](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageResolution) baru telah ditambahkan ke kelas [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) untuk mengatur resolusi gambar.
+* Opsi [OfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getOfficeMathExportMode) baru dan enumerasi [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownofficemathexportmode/) telah dan ditambahkan ke kelas [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) untuk menyetel mode keluaran OfficeMath.
+
+### Rendering
+
+#### Kontrol Tipografi yang Ditingkatkan <sup>25.2</sup>
+
+Properti [NumberSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getNumberSpacing) telah ditambahkan untuk kontrol tipografi yang lebih baik.
+
+### Lainnya
+
+* PDF struktur logika telah ditingkatkan dengan dukungan untuk bidang TOA, BIBLIOGRAPHY, dan INDEX. <sup>25.2</sup>
+* Metode [AddSingleLevelList](https://reference.aspose.com/words/java/com.aspose.words/listcollection/#addSingleLevelList-int) telah diperkenalkan untuk penanganan daftar yang lebih baik. <sup>25.2</sup>
+
+{{% alert color="primary" %}}
+
+Pelajari lebih lanjut tentang [Aspose.Words untuk Java 25.1 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-1-release-notes/).
+
+Pelajari lebih lanjut tentang [Aspose.Words untuk Java 25.2 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-2-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words untuk Java 24.9, 24.10, 24.11, 24.12
 
@@ -20,21 +70,21 @@ Aspose.Words 24.10 memperkenalkan dukungan kontrol ActiveX yang ditingkatkan den
 
 Aspose.Words 24.11 memperkenalkan peringkasan dokumen bertenaga AI, opsi rendering yang ditingkatkan, peningkatan akses ke properti dokumen, dan teks kontrol ActiveX.
 
-Aspose.Words 24.12 memperkenalkan penempatan label data yang dapat disesuaikan, penerjemahan teks yang didukung Google AI, opsi pembersihan Mail Merge yang disempurnakan, dan kelas pemrosesan LowCode baru.
+Aspose.Words 24.12 memperkenalkan penempatan label data yang dapat disesuaikan, terjemahan teks bertenaga Google AI, opsi pembersihan Mail Merge yang disempurnakan, dan kelas pemrosesan LowCode baru.
 
 ### AI-Fitur bertenaga
 
 #### Ringkasan Dokumen Menggunakan OpenAI dan Google <sup>24.11</sup>
 
-Dukungan untuk peringkasan dokumen menggunakan model bahasa generatif **OpenAI** dan **Google** telah diintegrasikan.
+Dukungan untuk peringkasan dokumen menggunakan model bahasa generatif **OpenAI** dan **Google** telah terintegrasi.
 
-#### Penerjemahan teks menggunakan model bahasa generatif Google <sup>24.12</sup>
+#### Terjemahan teks menggunakan model bahasa generatif Google <sup>24.12</sup>
 
-Kemampuan menerjemahkan teks menggunakan model bahasa generatif Google telah diimplementasikan di Aspose.Words dengan menambahkan metode [Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int) dan enumerasi [Language](https://reference.aspose.com/words/java/com.aspose.words/language/).
+Kemampuan untuk menerjemahkan teks menggunakan model bahasa generatif Google telah diterapkan di Aspose.Words dengan menambahkan metode [Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int) dan pencacahan [Language](https://reference.aspose.com/words/java/com.aspose.words/language/).
 
 ### Low Code <sup>24.12</sup>
 
-Kelas LowCode baru seperti [Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/), [MailMerger](https://reference.aspose.com/words/java/com.aspose.words/mailmerger/), [Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/), [Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) dll. telah diperkenalkan, menawarkan serangkaian metode yang menghasilkan keseimbangan sempurna antara kesederhanaan dan fleksibilitas untuk pemrosesan dokumen.
+Kelas LowCode baru seperti [Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/), [MailMerger](https://reference.aspose.com/words/java/com.aspose.words/mailmerger/), [Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/), [Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) dll. telah diperkenalkan, menawarkan serangkaian metode yang memberikan keseimbangan sempurna antara kesederhanaan dan fleksibilitas untuk pemrosesan dokumen.
 
 ### Rendering dan Pencetakan
 
@@ -66,10 +116,6 @@ Kemampuan untuk mendapatkan dan mengatur kode format untuk data bagan telah dita
 
 Rendering grafik histogram telah ditingkatkan dengan memungkinkan sejumlah tempat sampah dan label tertentu.
 
-#### Menyesuaikan Penempatan Label Data <sup>24.12</sup>
-
-Kemampuan untuk menyesuaikan penempatan label data telah ditambahkan dengan memperkenalkan properti baru ke kelas [ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) dan [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/).
-
 ### Mengonversi, Memuat, dan Menyimpan Dokumen
 
 #### Garis Bawahi Pemformatan saat Memuat File Markdown <sup>24.9</sup>
@@ -84,11 +130,11 @@ Opsi untuk mengekspor tabel sebagai HTML saat menyimpan dokumen ke format Markdo
 
 Ekspor PDF telah ditingkatkan dengan menyertakan properti judul tabel sebagai judul elemen struktur logis PDF.
 
-### Gabungan Surat dan Pelaporan
+### Mail Merge dan Pelaporan
 
-#### Hapus Tabel Kosong selama Gabungan Surat <sup>24.12</sup>
+#### Hapus Tabel Kosong selama Mail Merge <sup>24.12</sup>
 
-Opsi **RemoveEmptyTables** baru telah ditambahkan ke enumerasi [MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/) untuk menyempurnakan keluaran Gabungan Surat.
+Opsi **RemoveEmptyTables** baru telah ditambahkan ke enumerasi [MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/) untuk menyempurnakan keluaran Mail Merge.
 
 ### Tanda Tangan Digital
 
@@ -448,94 +494,6 @@ Pelajari lebih lanjut tentang [Aspose.Words untuk Java 23.6 Catatan Rilis](/word
 Pelajari lebih lanjut tentang [Aspose.Words untuk Java 23.7 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
 
 Pelajari lebih lanjut tentang [Aspose.Words untuk Java 23.8 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words untuk Java 23.1, 23.2, 23.3, 23.4
-
-Aspose.Words 23.1 meningkatkan kinerja emulasi operasi raster, serta meningkatkan kualitas ekspor dan rendering dokumen.
-
-Aspose.Words 23.2 memperkenalkan penyimpanan dokumen dalam format MOBI, meningkatkan rendering bagan, dan membuat perubahan penting pada detail tampilan dokumen.
-
-Aspose.Words 23.3 menyempurnakan impor dan penyimpanan dokumen dengan properti baru, dan juga meningkatkan kualitas pekerjaan dengan warna latar belakang dan latar depan serta gradien radial.
-
-Aspose.Words 23.4 meningkatkan penghitungan beberapa parameter dan pemosisian tabel serta teks di sekitarnya.
-
-### Peningkatan Kinerja
-
-#### Emulasi Operasi Raster <sup>23.1</sup>
-
-Kinerja dan kualitas emulasi operasi raster dengan metafile telah ditingkatkan secara signifikan.
-
-### Format yang Didukung
-
-#### Ekspor ke MOBI <sup>23.2</sup>
-
-Dimulai dengan versi 23.2, dimungkinkan untuk menyimpan dokumen dalam format MOBI (juga disebut PRC, AZW – Amazon Format file e-book Kindle sendiri). Sekarang Anda tidak hanya dapat memuat dokumen MOBI, tetapi juga mengekspor file Anda ke format MOBI.
-
-### Rendering
-
-#### Bekerja dengan Warna Tema Bayangan <sup>23.1</sup>
-
-Kemampuan untuk bekerja dengan warna tema bayangan telah diterapkan.
-
-#### Dukungan Koefisien kuadrat-R dalam Grafik DML <sup>23.1</sup>
-
-Dukungan koefisien kuadrat-R dalam label garis tren bagan DML saat rendering telah ditambahkan.
-
-#### Peningkatan Rendering Bagan <sup>23.2</sup>
-
-Sejak 23.2 rendering bagan telah ditingkatkan secara signifikan.
-
-#### Kontrol Warna Latar Belakang dan Latar Depan <sup>23.3</sup>
-
-Kelas [Fill](https://reference.aspose.com/words/java/com.aspose.words/fill/) telah diperluas dengan sekumpulan properti publik baru yang terkait dengan warna latar belakang dan latar depan: **ForeThemeColor** dan **BackThemeColor**, **ForeTintAndShade** dan **BackTintAndShade**.
-
-#### Gradien Radial dengan Shader Asli `SkiaSharp` <sup>23.3</sup>
-
-Rendering gradien radial dengan shader asli `SkiaSharp` untuk .NET Standard telah diterapkan.
-
-#### Jarak Antara Tabel dan Teks di Sekitarnya <sup>23.4</sup>
-
-Kemampuan untuk mengatur jarak antara tabel dan teks di sekitarnya telah ditambahkan dengan memperkenalkan properti baru ke kelas [Table](https://reference.aspose.com/words/java/com.aspose.words/table/): [DistanceLeft](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceLeft), [DistanceRight](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceRight), [DistanceTop](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceTop), dan [DistanceBottom](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceBottom).
-
-### Memuat dan Menyimpan Dokumen
-
-#### Hasilkan `TOC` untuk Dokumen AZW3 <sup>23.1</sup>
-
-Kemampuan untuk menghasilkan `TOC` (daftar isi) untuk dokumen AZW3 telah ditambahkan melalui penggunaan properti [EpubNavigationMapLevel](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getEpubNavigationMapLevel).
-
-#### Mengekspor Item Daftar ke Markdown <sup>23.1</sup>
-
-Cara untuk mengontrol ekspor item daftar ke format Markdown telah disediakan dengan menambahkan properti [ListExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getListExportMode) ke kelas [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/).
-
-#### Pemberitahuan Kemajuan Penyimpanan Dokumen <sup>23.3</sup>
-
-Menyimpan pemberitahuan kemajuan untuk format MOBI dan AZW3 telah diterapkan.
-
-#### Penyesuaian Spasi Kalimat dan Word <sup>23.3</sup>
-
-Kemampuan untuk menentukan apakah akan menyesuaikan spasi kalimat dan kata secara otomatis setelah impor dokumen telah ditambahkan dengan memperkenalkan properti **AdjustSentenceAndWordSpacing**.
-
-### Lainnya
-
-- Kemampuan untuk menentukan penyesuaian spasi karakter dokumen telah ditambahkan melalui implementasi properti [JustificationMode](https://reference.aspose.com/words/java/com.aspose.words/document/#getJustificationMode) <sup>23.2</sup>
-- Cara untuk menginstruksikan Aspose.Words apakah akan menyertakan kotak teks, catatan kaki, dan catatan akhir dalam statistik jumlah kata telah disediakan dengan menambahkan properti [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/java/com.aspose.words/document/#getIncludeTextboxesFootnotesEndnotesInStat) <sup>23.2</sup>
-- Opsi baru untuk gaya dokumen, yang memungkinkan penentuan apakah gaya didefinisikan ulang secara otomatis berdasarkan nilai yang sesuai, telah diperkenalkan melalui properti [AutomaticallyUpdate](https://reference.aspose.com/words/java/com.aspose.words/style/#getAutomaticallyUpdate) <sup>23.2</sup>
-- Kemampuan untuk menentukan apakah [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) adalah panduan fonetik yang dijalankan telah ditambahkan menggunakan properti **IsPhoneticGuide** <sup>23.4</sup>
-- Cara sederhana untuk bekerja dengan deret dan sumbu bagan kombo telah diterapkan dengan memperkenalkan kelas **ChartAxisCollection** dan menambahkan properti **Chart.Axes** <sup>23.4</sup>
-- Properti publik baru yang terhubung ke pemosisian relatif bentuk dan ukuran telah ditambahkan ke kelas [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) <sup>23.4</sup>
-- Akurasi dan kinerja perhitungan kecerahan warna untuk resolusi warna teks otomatis telah ditingkatkan sesuai dengan versi terbaru Microsoft Word <sup>23.4</sup>
-
-{{% alert color="primary" %}}
-
-Pelajari lebih lanjut tentang [Aspose.Words untuk Java 23.1 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-1-release-notes/).
-
-Pelajari lebih lanjut tentang [Aspose.Words untuk Java 23.2 Catatan Rilis](/words/java/aspose-words-for-java-23-2-release-notes/).
-
-Pelajari lebih lanjut tentang [Aspose.Words untuk Java 23.3 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-3-release-notes/).
-
-Pelajari lebih lanjut tentang [Aspose.Words untuk Java 23.4 Catatan Rilis](/words/java/aspose-words-for-java-23-4-release-notes/).
 
 {{% /alert %}}
 

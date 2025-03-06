@@ -7,7 +7,7 @@ description: "Aspose.Words for .NET 提供不同的购买计划，或提供免�
 type: docs
 weight: 55
 url: /zh/net/licensing/
-timestamp: 2024-10-24-11-44-28
+timestamp: 2025-02-12-16-18-40
 ---
 
 有时，为了更好地研究系统，您希望尽快深入代码。为了使这一过程变得更容易，Aspose.Words 提供了不同的购买计划或提供免费试用版和 30 天临时评估许可证。
@@ -119,7 +119,7 @@ Aspose.Words 允许开发人员应用计量密钥。这是一种新的许可机�
 
 {{< gist "aspose-words-gists" "c762ebd027c53ed61fce5bc5ccac1ca7" "apply-metered-license.cs" >}}
 
-通常，在应用程序启动后应用计量许可证就足够了。但是，如果计量许可机制在 24 小时内无法与 Aspose 服务器通信，Aspose.Words 将退出许可模式并切换到评估模式。为避免这种情况，您应定期检查许可证状态 - 如果 Aspose.Words 转为评估模式，请重新申请计量许可证。
+通常，在应用程序启动时应用计量许可证就足够了。 但是，如果计量许可机制在24小时内无法与Aspose服务器通信，Aspose.Words将退出许可模式并切换到评估模式。 为了避免这种情况，您可以使用[IsMeteredLicensed](https://reference.aspose.com/words/net/aspose.words/metered/ismeteredlicensed/)方法检查许可证状态，并在必要时重新应用计量许可证。
 
 {{% alert color="primary" %}}
 

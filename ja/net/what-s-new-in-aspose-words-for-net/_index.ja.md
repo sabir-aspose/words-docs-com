@@ -7,20 +7,30 @@ type: docs
 description: "Aspose.Wordsは.NETのために毎日拡大し、強化します。 このページでは、製品の巨大で最も興味深い機能について学ぶことができます。"
 weight: 10
 url: /ja/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2025-01-15-11-43-05
+timestamp: 2025-02-17-18-02-05
 ---
 
 このページでは、最近のリリースで導入された最も興味深い新しいAspose.Words機能について説明します。
 
-## Aspose.Words for .NET 25.1
+## Aspose.Wordsのための.NET 25.1, 25.2
 
 Aspose.Words 25.1 では、AI を利用した文法チェックが導入され、HTML、SVG、Markdown 形式の詳細オプションによってドキュメントの保存が強化されています。
+
+Aspose.Words25.2は、AnthropicAIモデルによるテキスト要約を導入し、MsWorks形式のサポートを追加し、タイポグラフィ制御を強化し、PDF構造とリストの処理を改善します。
 
 ### AI を利用した機能
 
 #### ドキュメント AI 文法チェック <sup>25.1</sup>
 
 新しい [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/) メソッドを追加することで、OpenAI 生成モデルを使用して提供されたドキュメントの文法をチェックする機能が導入されました。
+
+#### 人類的生成言語モデルを用いた要約 <sup>25.2</sup>
+
+新しいパブリッククラス[AnthropicAiModel](https://reference.aspose.com/words/net/aspose.words.ai/anthropicaimodel/)を導入することにより、人類生成言語モデルを使用したテキスト要約が可能になりました。
+
+### サポートされている形式 <sup>25.2</sup>
+
+バージョン25.2から、MicrosoftWorksドキュメントの新しいMsWorksロード形式との互換性が追加されました。
 
 ### ドキュメントの変換、読み込み、保存
 
@@ -33,9 +43,22 @@ Aspose.Words 25.1 では、AI を利用した文法チェックが導入され�
 * 画像解像度を設定するための新しい [ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imageresolution/) オプションが [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) クラスに追加されました。
 * OfficeMath 出力モードを設定するために、新しい [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) オプションと [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) 列挙が [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) クラスに追加されました。
 
+### レンダリング
+
+#### 改善されたタイポグラフィ制御 <sup>25.2</sup>
+
+[NumberSpacing](https://reference.aspose.com/words/net/aspose.words/font/numberspacing/)プロパティは、タイポグラフィ制御を改善するために追加されました。
+
+### その他
+
+* PDF論理構造が改善され、TOA、BIBLIOGRAPHY、INDEXフィールドがサポートされました。 <sup>25.2</sup>
+* リストの処理を改善するために[AddSingleLevelList](https://reference.aspose.com/words/net/aspose.words.lists/listcollection/addsinglelevellist/)メソッドが導入されました。 <sup>25.2</sup>
+
 {{% alert color="primary" %}}
 
 詳細については、こちらをご覧ください [Aspose.WordsFor.NET 25.1リリースノート](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/).
+
+詳細については、こちらをご覧ください [Aspose.Wordsのための.NET 25.2 リリースノート](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-2-release-notes/).
 
 {{% /alert %}}
 
@@ -480,94 +503,6 @@ LINQレポートエンジンに、JSON文字列値の空白を保持するオプ
 詳細については、こちらをご覧ください [Aspose.WordsFor.NET 23.7リリースノート](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
 
 詳細については、こちらをご覧ください [Aspose.WordsFor.NET 23.8リリースノート](/words/net/aspose-words-for-net-23-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Wordsは.NET 23.1, 23.2, 23.3, 23.4に対してAspose.Wordsを意味します。
-
-Aspose.Words23.1ラスタ操作エミュレーションのパフォーマンスが向上し、ドキュメントのエクスポートとレンダリングの品質が向上します。
-
-Aspose.Words23.2は、MOBI形式で文書を保存することを導入し、チャートレンダリングを改善し、文書の外観の詳細に顕著な変更を加えます。
-
-Aspose.Words23.3新しいプロパティでドキュメントのインポートと保存が強化され、背景色と前景色と放射状のグラデーションでの作業の品質も向上します。Aspose.Words23.3
-
-Aspose.Words23.4は、いくつかのパラメータの計算と、テーブルと周囲のテキストの位置を改善します。
-
-### パフォーマンスの向上
-
-#### ラスター操作のエミュレーション <sup>23.1</sup>
-
-メタファイルを使用したラスタ操作のエミュレーションのパフォーマンスと品質が大幅に改善されました。
-
-### サポートされている形式
-
-#### MOBIにエクスポート <sup>23.2</sup>
-
-バージョン23.2以降では、文書をMOBI形式で保存することができます(別名:PRC, AZW – Amazon Kindle独自の電子書籍ファイル形式）。 これで、MOBIドキュメントを読み込むだけでなく、ファイルをMOBI形式にエクスポートすることもできます。
-
-### レンダリング
-
-#### シェーディングテーマの色を使用する <sup>23.1</sup>
-
-シェーディングテーマの色で作業する機能が実装されています。
-
-#### DMLチャートでのR二乗係数のサポート <sup>23.1</sup>
-
-レンダリングが追加されたときのDMLチャートトレンドラインラベルのR二乗係数のサポート。
-
-#### チャートレンダリングの改善 <sup>23.2</sup>
-
-23.2以降、チャートレンダリングが大幅に改善されました。
-
-#### 背景色と前景色のコントロール <sup>23.3</sup>
-
-[Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/)クラスは、背景色と前景色に関連する一連の新しいパブリックプロパティ[ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/forethemecolor/)と[BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backthemecolor/)、[ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/foretintandshade/)と[BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backtintandshade/)で拡張されました。
-
-#### `SkiaSharp`ネイティブシェーダーを使用したラジアルグラディエント <sup>23.3</sup>
-
-.NET Standardの`SkiaSharp`ネイティブシェーダーを使用した放射状グラデーションのレンダリングが実装されています。
-
-#### 表と周囲のテキスト間の距離 <sup>23.4</sup>
-
-[Table](https://reference.aspose.com/words/net/aspose.words.tables/table/)クラスに新しいプロパティを導入することで、テーブルと周囲のテキスト間の距離を設定する機能が追加されました: [DistanceLeft](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceleft/), [DistanceRight](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceright/), [DistanceTop](https://reference.aspose.com/words/net/aspose.words.tables/table/distancetop/), と[DistanceBottom](https://reference.aspose.com/words/net/aspose.words.tables/table/distancebottom/)。
-
-### 文書の読み込みと保存
-
-#### AZW3文書に対して`TOC`を生成する <sup>23.1</sup>
-
-[NavigationMapLevel](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/navigationmaplevel/)プロパティを使用して、AZW3文書の`TOC`(目次)を生成する機能が追加されました。[NavigationMapLevel](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/navigationmaplevel/)プロパティを使用して、AZW3文書の`TOC`(目次)を生成する機能が追加されました。
-
-#### リスト項目をMarkdownにエクスポートする <sup>23.1</sup>
-
-リスト項目のMarkdown形式へのエクスポートを制御する方法は、[ListExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/listexportmode/)プロパティを[MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/)クラスに追加することによって提供されています。
-
-#### 文書保存の進行状況通知 <sup>23.3</sup>
-
-MOBIおよびAZW3形式の進行状況通知の保存が実装されました。
-
-#### 文と単語の間隔の調整 <sup>23.3</sup>
-
-[AdjustSentenceAndWordSpacing](https://reference.aspose.com/words/net/aspose.words/importformatoptions/adjustsentenceandwordspacing/)プロパティを導入することにより、文書のインポート時に文と単語の間隔を自動的に調整するかどうかを指定する機能が追加されました。
-
-### その他
-
-* ドキュメントの文字間隔の調整を指定する機能は、[JustificationMode](https://reference.aspose.com/words/net/aspose.words/document/justificationmode/)プロパティの実装によって追加されました <sup>23.2</sup>
-* 単語数統計にテキストボックス、脚注、文末脚注を含めるかどうかをAspose.Wordsに指示する方法は、[IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/)プロパティを追加することによって提供されています <sup>23.2</sup>
-* 適切な値に基づいてスタイルを自動的に再定義するかどうかを指定できるドキュメントスタイルの新しいオプションが、[AutomaticallyUpdate](https://reference.aspose.com/words/net/aspose.words/style/automaticallyupdate/)プロパティを介して導入 <sup>23.2</sup>
-* [Run](https://reference.aspose.com/words/net/aspose.words/run/)が音声ガイド実行であるかどうかを判断する機能が[IsPhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/isphoneticguide/)プロパティを使用して追加されました <sup>23.4</sup>
-* コンボチャートの系列と軸を操作する簡単な方法は、[ChartAxisCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxiscollection/)クラスを導入し、[Chart.Axes](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/axes/)プロパティを追加することによって実装されています <sup>23.4</sup>
-* Shape relative positioningとsizingに接続された新しいパブリックプロパティが[Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/)クラスに追加されました <sup>23.4</sup>
-* 自動テキストの色の解像度のための色の明るさの計算の正確さとパフォーマンスは、Microsoft Wordの最新バージョンに応じて改善されました <sup>23.4</sup>
-
-{{% alert color="primary" %}}
-
-詳細については、こちらをご覧ください [Aspose.WordsFor.NET 23.1リリースノート](/words/net/aspose-words-for-net-23-1-release-notes/).
-
-詳細については、こちらをご覧ください [Aspose.WordsFor.NET 23.2リリースノート](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/).
-
-詳細については、こちらをご覧ください [Aspose.WordsFor.NET 23.3リリースノート](/words/net/aspose-words-for-net-23-3-release-notes/).
-
-詳細については、こちらをご覧ください [Aspose.WordsFor.NET 23.4リリースノート](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/).
 
 {{% /alert %}}
 

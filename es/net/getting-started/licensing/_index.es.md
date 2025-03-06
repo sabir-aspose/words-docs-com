@@ -7,7 +7,7 @@ description: "Aspose.Words para .NET ofrece diferentes planes de compra u ofrece
 type: docs
 weight: 55
 url: /es/net/licensing/
-timestamp: 2024-10-24-11-44-28
+timestamp: 2025-02-12-16-18-40
 ---
 
 A veces, para estudiar mejor el sistema, es necesario profundizar en el código lo más rápido posible. Para facilitar esto, Aspose.Words ofrece diferentes planes de compra u ofrece una prueba gratuita y una licencia temporal de 30 días para evaluación.
@@ -119,7 +119,7 @@ El siguiente ejemplo de código muestra cómo configurar claves públicas y priv
 
 {{< gist "aspose-words-gists" "c762ebd027c53ed61fce5bc5ccac1ca7" "apply-metered-license.cs" >}}
 
-Normalmente es suficiente aplicar la licencia medida una vez al inicio de la solicitud. Sin embargo, si el mecanismo de licencia medida no logra comunicarse con los servidores de Aspose durante 24 horas, Aspose.Words saldrá del modo de licencia y cambiará al modo de evaluación. Para evitar este caso, debe verificar periódicamente el estado de la licencia; si Aspose.Words entra en modo de evaluación, aplique nuevamente la licencia medida.
+Normalmente, basta con aplicar la licencia medida una vez al inicio de la aplicación. Sin embargo, si el mecanismo de licencias medidas no logra comunicarse con los servidores Aspose durante 24 horas, Aspose.Words saldrá del modo con licencia y cambiará al modo de evaluación. Para evitar este caso, puede utilizar el método [IsMeteredLicensed](https://reference.aspose.com/words/net/aspose.words/metered/ismeteredlicensed/) para comprobar el estado de la licencia y volver a aplicar la licencia medida si es necesario.
 
 {{% alert color="primary" %}}
 

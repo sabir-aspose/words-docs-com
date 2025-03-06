@@ -7,7 +7,7 @@ description: "Aspose.Words for Python via .NET 提供不同的购买计划，或
 type: docs
 weight: 40
 url: /zh/python-net/licensing/
-timestamp: 2024-01-31-14-23-37
+timestamp: 2025-02-12-16-18-40
 ---
 
 有时，为了更好地研究系统，您希望尽快深入代码。为了使这一过程变得更容易，Aspose.Words 提供了不同的购买计划或提供免费试用和 30 天临时评估许可证。
@@ -106,6 +106,8 @@ Aspose.Words 允许开发人员应用计量密钥。这是一种新的许可机�
 以下代码示例展示了如何设置计量公钥和私钥：
 
 {{< gist "aspose-words-gists" "45c97d37bef13067c82e741b922a2d4f" "apply-metered-license.py" >}}
+
+通常，在应用程序启动时应用计量许可证就足够了。 但是，如果计量许可机制在24小时内无法与Aspose服务器通信，Aspose.Words将退出许可模式并切换到评估模式。 为了避免这种情况，您可以使用[is_metered_licensed](https://reference.aspose.com/words/python-net/aspose.words/metered/is_metered_licensed/#default)方法检查许可证状态，并在必要时重新应用计量许可证。
 
 {{% alert color="primary" %}}
 

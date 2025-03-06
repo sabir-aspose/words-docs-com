@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lisensi dan Langganan
 second_title: Aspose.Words untuk Java
 articleTitle: Lisensi dan Langganan
@@ -7,7 +7,7 @@ description: "Aspose.Words untuk Java menyediakan paket berbeda untuk pembelian 
 type: docs
 weight: 60
 url: /id/java/licensing/
-timestamp: 2024-01-31-14-23-37
+timestamp: 2025-02-12-16-18-40
 ---
 
 Terkadang, untuk mempelajari sistem dengan lebih baik, Anda ingin mempelajari kodenya secepat mungkin. Untuk mempermudah ini, Aspose.Words menyediakan paket berbeda untuk pembelian atau menawarkan Uji Coba Gratis dan Lisensi Sementara 30 hari untuk evaluasi.
@@ -129,6 +129,8 @@ Jangan sering memanggil metode **SetMeteredKey** agar metode perizinan ini menga
 Contoh kode berikut menunjukkan cara menyetel kunci publik dan pribadi terukur:
 
 {{< gist "aspose-words-gists" "aae6b7a56c4792497614b4ee8f6f8eec" "apply-metered-license.java" >}}
+
+Biasanya cukup menerapkan lisensi terukur satu kali saat aplikasi dimulai. Namun, jika mekanisme perizinan terukur gagal berkomunikasi dengan server Aspose selama 24 jam, Aspose.Words akan keluar dari mode berlisensi dan beralih ke mode evaluasi. Untuk menghindari kasus seperti itu, Anda dapat menggunakan metode [IsMeteredLicensed](https://reference.aspose.com/words/java/com.aspose.words/metered/#isMeteredLicensed) untuk memeriksa status lisensi dan menerapkan kembali lisensi terukur jika perlu.
 
 {{% alert color="primary" %}}
 

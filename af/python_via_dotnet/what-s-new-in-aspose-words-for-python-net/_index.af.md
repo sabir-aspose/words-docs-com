@@ -7,35 +7,58 @@ type: docs
 description: "Aspose.Words vir Python via .NET brei en verbeter daagliks. Op hierdie bladsy kan jy leer oor die groot en interessantste kenmerke van die produk."
 weight: 10
 url: /af/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-01-15-11-43-05
+timestamp: 2025-02-17-18-02-05
 ---
 
 Hierdie bladsy beskryf die interessantste nuwe Aspose.Words funksies wat in onlangse vrystellings bekendgestel is.
 
-## Aspose.Words vir Python via .NET 25.1
+## Aspose.Words vir Python via .NET 25.1, 25.2
 
-Aspose.Words 25.1 stel KI-aangedrewe grammatikakontrole bekend en verbeter dokumentbesparing met gevorderde opsies vir HTML-, SVG- en Markdown-formate.
+Aspose.Words 25.1 stel AI-aangedrewe grammatika-kontrole bekend en verbeter dokumentbesparing met gevorderde opsies vir HTML, SVG en Markdown formate.
 
-### KI-aangedrewe kenmerke
+Aspose.Words 25.2 stel teksopsomming bekend met Antropiese AI modelle, voeg MsWorks formaatondersteuning by, verbeter tipografiese beheer en verbeter PDF struktuur en lyshantering.
 
-#### Dokument KI Grammatikakontrole <sup>25.1</sup>
+### AI - aangedrewe Funksies
 
-Die vermoë om die grammatika van die verskafde dokument na te gaan deur gebruik te maak van OpenAI generatiewe modelle is bekendgestel deur 'n nuwe [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/) by te voeg metode.
+#### Dokument AI Grammatika Kontrole <sup>25.1</sup>
 
-### Omskakeling, laai en stoor van dokumente
+Die vermoë om die grammatika van die verskaf dokument te kontroleer met behulp van OpenAI generatiewe modelle is ingestel deur die toevoeging van'n nuwe [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/) metode.
 
-#### Verbeterde stoor na HTML- en SVG-formate <sup>25.1</sup>
+#### Opsomming Met Behulp Van Antropiese Generatiewe Taalmodelle <sup>25.2</sup>
 
-Stoor na HTML- en SVG-formate is verbeter deur **id_prefix** en **remove_java_script_from_links** eienskappe by beide die [HtmlFixedSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlfixedsaveoptions/) en [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/) klasse.
+Teksopsomming met Behulp van Antropiese generatiewe taalmodelle is moontlik gemaak deur'n nuwe openbare klas [AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/) in te voer.
 
-#### Stel prentresolusie en OfficeMath-uitvoermodus wanneer u na Markdown stoor <sup>25.1</sup>
+### Ondersteunde Formate <sup>25.2</sup>
 
-* 'n Nuwe [image_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/image_resolution/) opsie is by die [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) klas om die beeldresolusie te stel.
-* 'n Nuwe [office_math_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/office_math_export_mode/) opsie en [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownofficemathexportmode/) opsomming is en bygevoeg by die [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) klas om OfficeMath-uitvoermodus te stel.
+Vanaf weergawe 25.2 is verenigbaarheid met die nuwe MsWorks laai formaat vir Microsoft Werk dokumente bygevoeg.
+
+### Omskakeling, Laai En Stoor Van Dokumente
+
+#### Verbeterde Stoor na HTML En SVG Formate <sup>25.1</sup>
+
+Stoor na HTML en SVG formate is verbeter deur die toevoeging van **id_prefix** en **remove_java_script_from_links** eienskappe aan beide die [HtmlFixedSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlfixedsaveoptions/) en [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/) klasse.
+
+#### Stel Beeldresolusie en OfficeMath Afvoermodus Wanneer Gestoor word na Markdown <sup>25.1</sup>
+
+* 'n nuwe [image_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/image_resolution/) opsie is bygevoeg om die [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) klas om die beeld resolusie stel.
+* 'n nuwe [office_math_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/office_math_export_mode/) opsie en [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownofficemathexportmode/) opsomming is en bygevoeg om die [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) klas OfficeMath uitset af te stel.
+
+### Lewering
+
+#### Verbeterde Tipografiese Beheer <sup>25.2</sup>
+
+Die [number_spacing](https://reference.aspose.com/words/python-net/aspose.words/font/number_spacing/) eienskap is bygevoeg vir verbeterde tipografiese beheer.
+
+### Ander
+
+* PDF logiese struktuur is verbeter met ondersteuning vir TOA, BIBLIOGRAPHY, en INDEX velde. <sup>25.2</sup>
+* Die [add_single_level_list](https://reference.aspose.com/words/python-net/aspose.words.lists/listcollection/add_single_level_list/#listtemplate) metode is bekendgestel vir verbeterde lys hantering. <sup>25.2</sup>
 
 {{% alert color="primary" %}}
 
-Leer meer oor [Aspose.Words vir Python via .NET 25.1 Vrystelling Notas](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+Leer meer oor [Aspose.Words vir Python via .NET 25.1 Vrystelling Notas](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+
+Leer meer oor [Aspose.Words vir Python via .NET 25.2 Vrystelling Notas](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
 {{% /alert %}}
 
@@ -47,21 +70,21 @@ Aspose.Words 24.10 stel verbeterde ActiveX beheer ondersteuning met CommandButto
 
 Aspose.Words 24.11 stel AI-aangedrewe dokumentopsomming, verbeterde weergawe opsies, verbeterde toegang tot dokument eienskappe en ActiveX beheer onderskrifte.
 
-Aspose.Words 24.12 stel aanpasbare data-etiketplasing, Google KI-aangedrewe teksvertaling en verbeterde nuwe LowCode-verwerkingsklasse bekend.
+Aspose.Words 24.12 stel aanpasbare data etiket plasing, Google AI-aangedrewe teks vertaling, en verbeterde nuwe LowCode verwerking klasse.
 
 ### AI - aangedrewe Funksies
 
-#### Dokumentopsomming met behulp van OpenAI en Google <sup>24.11</sup>
+#### Dokumentopsomming met behulp van OpenAI En Google <sup>24.11</sup>
 
 Ondersteuning vir dokumentopsomming met behulp van **OpenAI** en **Google** generatiewe taalmodelle is geïntegreer deur die [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) naamruimte by sy openbare lede te voeg.
 
-#### Teksvertaling met behulp van Google se generatiewe taalmodelle <sup>24.12</sup>
+#### Teksvertaling met Behulp Van Google se generatiewe taalmodelle <sup>24.12</sup>
 
-Die vermoë om teks te vertaal deur Google se generatiewe taalmodelle te gebruik, is in Aspose.Words geïmplementeer deur die [translate](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/translate/)-metode by te voeg en die [Language](https://reference.aspose.com/words/python-net/aspose.words.ai/language/) opsomming na die [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) naamruimte.
+Die vermoë om teks te vertaal met Behulp van Google se generatiewe taalmodelle is geïmplementeer in Aspose.Words deur die [translate](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/translate/) metode en die [Language](https://reference.aspose.com/words/python-net/aspose.words.ai/language/) opsomming by die [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) naamruimte te voeg.
 
-### Lae kode <sup>24.12</sup>
+### Low Code <sup>24.12</sup>
 
-Nuwe LowCode-klasse soos [Comparer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/python-net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/splitter/) ens. is bekendgestel, wat 'n stel metodes bied wat die perfekte balans tussen eenvoud en buigsaamheid vir dokumentverwerking vind.
+Nuwe LowCode klasse soos [Comparer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/python-net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/splitter/) en so aan. is bekendgestel, wat'n stel metodes bied wat die perfekte balans tussen eenvoud en buigsaamheid vir dokumentverwerking vind.
 
 ### Rendering En Drukwerk
 
@@ -93,9 +116,9 @@ Die vermoë om formaat kodes vir grafiek data te kry en te stel is bygevoeg deur
 
 Histogramkaartvertoning is verbeter deur'n spesifieke aantal bakkies en etikette toe te laat.
 
-#### Pas die plasing van data-etikette aan <sup>24.12</sup>
+#### Pas Die Plasing Van Datatikette aan <sup>24.12</sup>
 
-Die vermoë om die plasing van data-etikette aan te pas is bygevoeg deur nuwe eienskappe aan die [ChartDataLabel](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabel/) en [ChartDataLabelCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/) bekend te stel klasse.
+Die vermoë om die plasing van data etikette aan te pas is bygevoeg deur die bekendstelling van nuwe eienskappe om th [ChartDataLabel](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabel/) en [ChartDataLabelCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/) klasse.
 
 ### Omskakeling, Laai En Stoor Van Dokumente
 
@@ -140,7 +163,7 @@ Leer meer oor [Aspose.Words vir Python via .NET 24.12 Vrystelling Notas](https:/
 
 {{% /alert %}}
 
-## Aspose.Words vir Python via .NET 24.5, 24.6, 24.7, 24.8
+## Aspose.Words vir Python via .NET 24,5, 24,6, 24,7, 24,8
 
 Aspose.Words 24.5 brei opsies vir samestellings uit, verbeter weergawevermoëns en brei'n paar ander opsies uit.
 
@@ -282,7 +305,7 @@ Die vermoë om leë lyne te bewaar wanneer Markdown lêers gelaai word, is bygev
 
 #### 'n Nuwe TIFF Leser / Skrywer <sup>24.3</sup>
 
-'n Nuwe TIFF leser/skrywer vir Aspose.Words is ontwikkel. Aspose.Words vir .NET 24.3 het ondersteuning bygevoeg vir die lees van TIFF beelde met JPEG en Ou JPEG kompressietipes, en het ook die kwaliteit van lees- en skryfbewerkings aansienlik verbeter.
+'n nuwe TIFF leser/skrywer vir Aspose.Words is ontwikkel. Aspose.Words vir .NET 24.3 bygevoeg ondersteuning vir die lees van TIFF beelde met JPEG en Ou JPEG kompressie tipes, en ook aansienlik verbeter die gehalte van lees en skryf bedrywighede.
 
 ### Ander
 
@@ -367,7 +390,7 @@ Die funksie om hiperskakels te herken wanneer TXT dokumente gelaai word, is geï
 - 'n generiese tipe parameter is bygevoeg om die metodes van die [CompositeNode](https://reference.aspose.com/words/python-net/aspose.words/compositenode/) klas. <sup>23.10</sup>
 - Die vermoë om alle afdelings van'n dokument op dieselfde XLSX werkblad te skryf is verskaf deur die nuwe [XlsxSectionMode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsectionmode/) opsomming tipe en die nuwe [section_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/section_mode/) eienskap. <sup>23.11</sup>
 * 'n manier om te beheer hoe ZIP64 formaat uitbreidings gebruik sal word vir OOXML dokumente is geïmplementeer deur die nuwe Zip64Mode eienskap van die `OoxmlSaveOptions` klas en die nuwe Zip64Mode opsomming. <sup>23.12</sup>
-* Ondersteuning vir WebP beeld is ingestel. Let asseblief daarop dat hierdie funksie slegs beskikbaar is vir.NetStandart en .NET6 + weergawes. <sup>23.12</sup>
+* Ondersteuning vir WebP beeld is ingestel. Let asseblief daarop dat hierdie funksie slegs beskikbaar is vir.NetStandart en .NET6+ weergawes. <sup>23.12</sup>
 
 {{% alert color="primary" %}}
 
@@ -377,11 +400,11 @@ Leer meer oor [Aspose.Words vir Python via .NET 23.10 Vrystelling Notas](https:/
 
 Leer meer oor [Aspose.Words vir Python via .NET 23.11 Vrystelling Notas](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-11-release-notes/).
 
-Kom meer te wete oor[ Aspose.Words vir .NET 23.12 Vrystellingnotas](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-12-release-notes/).
+Leer meer oor [Aspose.Words vir .NET 23.12 Vrystelling Notas](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-12-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Words vir Python via .NET 23.5, 23.6, 23.7, 23.8
+## Aspose.Words vir Python via .NET 23,5, 23,6, 23,7, 23,8
 
 Aspose.Words 23.5 verbeter die vermoë om met grafiekreeksdata te werk en die vermoë om met ODT dokumente te werk, asook om koptekste/voetskrifte en hul teksverpakking te verbeter.
 
@@ -463,94 +486,6 @@ Leer meer oor [Aspose.Words vir Python via .NET 23.6 Vrystelling Notas](/words/p
 Leer meer oor [Aspose.Words vir Python via .NET 23.7 Vrystelling Notas](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
 Leer meer oor [Aspose.Words vir Python via .NET 23.8 Vrystelling Notas](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words vir Python via .NET 23.1, 23.2, 23.3, 23.4
-
-Aspose.Words 23.1 verbeter die prestasie van raster operasie emulasie, sowel as verbeter dokument uitvoer en lewering gehalte.
-
-Aspose.Words 23.2 stel stoor dokumente in die MOBI formaat, verbeter grafiek weergawe, en maak noemenswaardige veranderinge aan dokument voorkoms besonderhede.
-
-Aspose.Words 23.3 verbeter die invoer en stoor van dokumente met nuwe eienskappe, en verbeter ook die kwaliteit van werk met agtergrond-en voorgrondkleur en radiale gradiënt.
-
-Aspose.Words 23.4 verbeter die berekening van sommige parameters en die posisionering van die tabel en omliggende teks.
-
-### Prestasieverbeterings
-
-#### Emulasie Van Raster Bedrywighede <sup>23.1</sup>
-
-Prestasie en kwaliteit van emulasie van raster bedrywighede met metafiles is aansienlik verbeter.
-
-### Ondersteunde Formate
-
-#### Voer uit na MOBI <sup>23.2</sup>
-
-Begin met weergawe 23.2, is dit moontlik om'n dokument in MOBI formaat (ook genoem PRC, AZW – Amazon Kindle se eie e-boek lêer formaat). Nou kan jy nie net MOBI dokumente laai nie, maar ook jou lêers na MOBI formaat uitvoer.
-
-### Lewering
-
-#### Werk Met Skadu Tema Kleure <sup>23.1</sup>
-
-Die vermoë om te werk met skadu tema kleure is geïmplementeer.
-
-#### Ondersteuning Van R-kwadraat Koëffisiënt in DML Kaarte <sup>23.1</sup>
-
-Ondersteuning van R-kwadraat koëffisiënt in DML grafiek trendline etikette wanneer weergawe bygevoeg is.
-
-#### Grafiese Weergawe Verbeterings <sup>23.2</sup>
-
-Sedert 23.2 is die grafiese weergawe aansienlik verbeter.
-
-#### Agtergrond En Voorgrond Kleur Beheer <sup>23.3</sup>
-
-Die [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) klas is uitgebrei met'n stel van nuwe openbare eienskappe wat verband hou met agtergrond en voorgrond kleure: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_theme_color/) en [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_tint_and_shade/) en [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_tint_and_shade/).
-
-#### Radiële Gradiënte met die `SkiaSharp` Inheemse Skaduwee <sup>23.3</sup>
-
-Rendering van radiale gradiënte met die `SkiaSharp` inheemse skaduwee vir .NET Standard is geïmplementeer.
-
-#### Afstand tussen Die Tabel En Die Omliggende Teks <sup>23.4</sup>
-
-Die vermoë om die afstand tussen die tabel en omliggende teks stel is bygevoeg deur die bekendstelling van nuwe eienskappe aan die [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) klas: [distance_left](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_left/), [distance_right](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_right/), [distance_top](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_top/), en [distance_bottom](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_bottom/).
-
-### Laai En Stoor Dokumente
-
-#### Genereer `TOC` Vir AZW3 Dokumente <sup>23.1</sup>
-
-Die vermoë om `TOC` (inhoudsopgawe) vir AZW3 dokumente te genereer is bygevoeg deur die gebruik van die **epub_navigation_map_level** eienskap.
-
-#### Uitvoer Van Lys Items na Markdown <sup>23.1</sup>
-
-'n manier om die uitvoer van lys items te beheer na Markdown formaat is verskaf deur die toevoeging van die [list_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/list_export_mode/) eiendom om die [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) klas.
-
-#### Dokument Stoor Vordering Kennisgewings <sup>23.3</sup>
-
-Stoor vordering kennisgewings vir MOBI en AZW3 formate is geïmplementeer.
-
-#### Aanpassing van sin - En Woordspasiëring <sup>23.3</sup>
-
-Die vermoë om te spesifiseer of om sin en woord spasiëring outomaties aan te pas by dokument invoer is bygevoeg deur die bekendstelling van die [adjust_sentence_and_word_spacing](https://reference.aspose.com/words/python-net/aspose.words/importformatoptions/adjust_sentence_and_word_spacing/) eiendom.
-
-### Ander
-
-- Die vermoë om die karakter spasiëring aanpassing van'n dokument spesifiseer is bygevoeg deur die [justification_mode](https://reference.aspose.com/words/python-net/aspose.words/document/justification_mode/) eienskap implementering <sup>23.2</sup>
-- Die manier om Aspose.Words te leer of teksbokse, voetnotas en eindnotas in woordtellingstatistieke ingesluit moet word, is verskaf deur die [include_textboxes_footnotes_endnotes_in_stat](https://reference.aspose.com/words/python-net/aspose.words/document/include_textboxes_footnotes_endnotes_in_stat/) eienskap by te voeg <sup>23.2</sup>
-- 'n nuwe opsie vir'n dokument styl, wat toelaat dat spesifiseer of die styl outomaties herdefinieer op grond van die toepaslike waarde, is ingestel deur die [automatically_update](https://reference.aspose.com/words/python-net/aspose.words/style/automatically_update/) eiendom <sup>23.2</sup>
-- Die vermoë om te bepaal of [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) 'n fonetiese gids is, is bygevoeg met behulp van die [is_phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/is_phonetic_guide/) eienskap <sup>23.4</sup>
-- 'n eenvoudige manier om te werk met reeks en asse van kombinasie kaarte is geïmplementeer deur die bekendstelling van die [ChartAxisCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxiscollection/) klas en die toevoeging van die [Chart.axes](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/axes/) eiendom <sup>23.4</sup>
-- Nuwe openbare eiendomme wat verband hou met die vorm relatiewe posisionering en grootte is bygevoeg om die [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) klas <sup>23.4</sup>
-- Akkuraatheid en prestasie van kleurhelderheidsberekening vir outomatiese tekskleurresolusie is verbeter in ooreenstemming met die nuutste weergawes van Microsoft Word <sup>23.4</sup>
-
-{{% alert color="primary" %}}
-
-Leer meer oor [Aspose.Words vir Python via .NET 23.1 Vrystelling Notas](/words/python-net/aspose-words-for-python-via-dotnet-23-1-release-notes/).
-
-Leer meer oor [Aspose.Words vir Python via .NET 23.2 Vrystelling Notas](/words/python-net/aspose-words-for-python-via-dotnet-23-2-release-notes/).
-
-Leer meer oor [Aspose.Words vir Python via .NET 23.3 Vrystelling Notas](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-3-release-notes/).
-
-Leer meer oor [Aspose.Words vir Python via .NET 23.4 Vrystelling Notas](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/).
 
 {{% /alert %}}
 

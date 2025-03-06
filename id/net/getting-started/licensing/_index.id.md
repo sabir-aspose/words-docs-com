@@ -7,7 +7,7 @@ description: "Aspose.Words untuk .NET memberikan paket pembelian yang berbeda at
 type: docs
 weight: 55
 url: /id/net/licensing/
-timestamp: 2024-10-24-11-44-28
+timestamp: 2025-02-12-16-18-40
 ---
 
 Terkadang, untuk mempelajari sistem dengan lebih baik, Anda ingin mendalami kodenya secepat mungkin. Untuk mempermudahnya, Aspose.Words menyediakan paket pembelian yang berbeda atau menawarkan Uji Coba Gratis dan Lisensi Sementara 30 hari untuk evaluasi.
@@ -119,7 +119,7 @@ Contoh kode berikut menunjukkan cara menyetel kunci publik dan privat terbatas:
 
 {{< gist "aspose-words-gists" "c762ebd027c53ed61fce5bc5ccac1ca7" "apply-metered-license.cs" >}}
 
-Biasanya cukup menerapkan lisensi terukur satu kali pada saat aplikasi dimulai. Namun, jika mekanisme lisensi terukur gagal berkomunikasi dengan server Aspose selama 24 jam, Aspose.Words akan keluar dari mode berlisensi dan beralih ke mode evaluasi. Untuk menghindari hal tersebut, Anda harus memeriksa status lisensi secara berkala – jika Aspose.Words berubah menjadi mode evaluasi, harap terapkan kembali lisensi terukur.
+Biasanya cukup menerapkan lisensi terukur satu kali saat aplikasi dimulai. Namun, jika mekanisme perizinan terukur gagal berkomunikasi dengan server Aspose selama 24 jam, Aspose.Words akan keluar dari mode berlisensi dan beralih ke mode evaluasi. Untuk menghindari kasus seperti itu, Anda dapat menggunakan metode [IsMeteredLicensed](https://reference.aspose.com/words/net/aspose.words/metered/ismeteredlicensed/) untuk memeriksa status lisensi dan menerapkan kembali lisensi terukur jika perlu.
 
 {{% alert color="primary" %}}
 
