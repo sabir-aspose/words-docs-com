@@ -7,7 +7,7 @@ description: "Python via .NET için Aspose.Words, farklı satın alma planları 
 type: docs
 weight: 40
 url: /tr/python-net/licensing/
-timestamp: 2024-01-31-14-23-37
+timestamp: 2025-02-12-16-18-40
 ---
 
 Bazen sistemi daha iyi incelemek için kodun derinliklerine mümkün olduğunca çabuk dalmak istersiniz. Bunu kolaylaştırmak için Aspose.Words, farklı satın alma planları sunar veya değerlendirme için Ücretsiz Deneme ve 30 günlük Geçici Lisans sunar.
@@ -106,6 +106,8 @@ Bu lisanslama yönteminin tüketimi düzgün bir şekilde biriktirmesi ve bize r
 Aşağıdaki kod örneği, ölçülü genel ve özel anahtarların nasıl ayarlanacağını gösterir:
 
 {{< gist "aspose-words-gists" "45c97d37bef13067c82e741b922a2d4f" "apply-metered-license.py" >}}
+
+Normalde ölçülü lisansı başvuru başlangıcında bir kez uygulamak yeterlidir. Ancak ölçülü lisans mekanizması Aspose sunucularıyla 24 saat iletişim kuramazsa Aspose.Words lisanslı moddan çıkar ve değerlendirme moduna geçer. Böyle bir durumdan kaçınmak için, lisans durumunu kontrol etmek ve gerekirse ölçülü lisansı yeniden uygulamak için [is_metered_licensed](https://reference.aspose.com/words/python-net/aspose.words/metered/is_metered_licensed/#default) yöntemini kullanabilirsiniz.
 
 {{% alert color="primary" %}}
 

@@ -7,20 +7,30 @@ type: docs
 description: "Aspose.Words ل .NET يوسع ويعزز يوميا. في هذه الصفحة، يمكنك التعرف على الميزات الضخمة والأكثر إثارة للاهتمام للمنتج."
 weight: 10
 url: /ar/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2025-01-15-11-43-05
+timestamp: 2025-02-17-18-02-05
 ---
 
 تصف هذه الصفحة الميزات الجديدة الأكثر إثارة للاهتمام Aspose.Words التي تم تقديمها في الإصدارات الأخيرة.
 
-## Aspose.Words for .NET 25.1
+## Aspose.Words ل .NET 25.1, 25.2
 
 يقدم Aspose.Words 25.1 فحصًا لغويًا مدعومًا بالذكاء الاصطناعي ويعزز حفظ المستندات بخيارات متقدمة لتنسيقات HTML وSVG وMarkdown.
+
+Aspose.Words 25.2 يقدم تلخيصا للنص باستخدام نماذج AI الأنثروبولوجية، ويضيف MsWorks دعم التنسيق، ويعزز التحكم المطبعي، ويحسن PDF الهيكل ومعالجة القائمة.
 
 ### ميزات مدعومة بالذكاء الاصطناعي
 
 #### فحص قواعد اللغة للمستندات باستخدام الذكاء الاصطناعي <sup>25.1</sup>
 
 تم تقديم القدرة على فحص قواعد اللغة للمستندات المقدمة باستخدام نماذج توليد OpenAI من خلال إضافة طريقة جديدة [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/)
+
+#### التلخيص باستخدام نماذج اللغة التوليدية البشرية <sup>25.2</sup>
+
+تم تمكين تلخيص النص باستخدام نماذج اللغة التوليدية البشرية من خلال تقديم فئة عامة جديدة [AnthropicAiModel](https://reference.aspose.com/words/net/aspose.words.ai/anthropicaimodel/).
+
+### التنسيقات المدعومة <sup>25.2</sup>
+
+بدءا من الإصدار 25.2، تمت إضافة التوافق مع تنسيق تحميل MsWorks الجديد لوثائق العمل Microsoft.
 
 ### تحويل المستندات وتحميلها وحفظها
 
@@ -33,9 +43,22 @@ timestamp: 2025-01-15-11-43-05
 * تمت إضافة خيار [ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imageresolution/) جديد إلى فئة [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) لتعيين دقة الصورة.
 * تمت إضافة خيار [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) جديد و[MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) إلى فئة [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) لتعيين وضع إخراج OfficeMath.
 
+### تقديم
+
+#### تحسين التحكم المطبعي <sup>25.2</sup>
+
+تمت إضافة الخاصية [NumberSpacing](https://reference.aspose.com/words/net/aspose.words/font/numberspacing/) لتحسين التحكم المطبعي.
+
+### أخرى
+
+* PDF تم تحسين البنية المنطقية بدعم من TOA و BIBLIOGRAPHY و INDEX الحقول. <sup>25.2</sup>
+* تم تقديم طريقة [AddSingleLevelList](https://reference.aspose.com/words/net/aspose.words.lists/listcollection/addsinglelevellist/) لتحسين معالجة القائمة. <sup>25.2</sup>
+
 {{% alert color="primary" %}}
 
 تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 25.1 ](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/).
+
+تعرف على المزيد حول [Aspose.Words ل .NET 25.2 ملاحظات الإصدار](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-2-release-notes/).
 
 {{% /alert %}}
 
@@ -480,94 +503,6 @@ Mustache يتم دعم العلامات الآن في طرق [MailMerge.GetRegio
 تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 23.7 ](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
 
 تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 23.8 ](/words/net/aspose-words-for-net-23-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words ل .NET 23.1, 23.2, 23.3, 23.4
-
-Aspose.Words 23.1 يحسن أداء مضاهاة العمليات النقطية، وكذلك يعزز جودة تصدير المستندات وعرضها.
-
-Aspose.Words 23.2 يقدم حفظ المستندات بتنسيق MOBI، ويحسن عرض المخطط، ويقوم بإجراء تغييرات ملحوظة على تفاصيل مظهر المستند.
-
-Aspose.Words 23.3 يعزز استيراد المستندات وحفظها بخصائص جديدة، ويحسن أيضا جودة العمل مع الخلفية ولون المقدمة والتدرج الشعاعي.
-
-Aspose.Words 23.4 يحسن حساب بعض المعلمات وتحديد المواقع من الجدول والنص المحيط بها.
-
-### تحسينات في الأداء
-
-#### محاكاة العمليات النقطية <sup>23.1</sup>
-
-تم تحسين أداء وجودة محاكاة العمليات النقطية مع ملفات التعريف بشكل كبير.
-
-### التنسيقات المدعومة
-
-#### تصدير إلى MOBI <sup>23.2</sup>
-
-بدءا من الإصدار 23.2، من الممكن حفظ مستند بتنسيق MOBI (يسمى أيضاPRC, AZW – Amazon أوقد الخاصة تنسيق ملف الكتاب الإلكتروني). الآن لا يمكنك تحميل المستندات MOBI فحسب، بل يمكنك أيضا تصدير ملفاتك إلى تنسيق MOBI.
-
-### تقديم
-
-#### العمل مع ألوان موضوع التظليل <sup>23.1</sup>
-
-تم تنفيذ القدرة على العمل مع ألوان سمة التظليل.
-
-#### دعم معامل ص التربيعي في DML الرسوم البيانية <sup>23.1</sup>
-
-دعم معامل التربيع ص في DML تسميات خط الاتجاه الرسم البياني عند إضافة التقديم.
-
-#### تحسينات عرض الرسم البياني <sup>23.2</sup>
-
-منذ 23.2 تم تحسين عرض الرسم البياني بشكل ملحوظ.
-
-#### الخلفية والتحكم في لون المقدمة <sup>23.3</sup>
-
-تم تمديد فئة [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) بمجموعة من الخصائص العامة الجديدة المتعلقة بألوان الخلفية والمقدمة: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/forethemecolor/) و [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backthemecolor/) و [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/foretintandshade/) و [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backtintandshade/).
-
-#### التدرجات شعاعي مع `SkiaSharp` تظليل الأصلي <sup>23.3</sup>
-
-تم تنفيذ عرض التدرجات الشعاعية باستخدام التظليل الأصلي `SkiaSharp` لـ .NET Standard.
-
-#### المسافة بين الجدول والنص المحيط <sup>23.4</sup>
-
-تمت إضافة القدرة على تعيين المسافة بين الجدول والنص المحيط عن طريق إدخال خصائص جديدة إلى فئة [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/): [DistanceLeft](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceleft/), [DistanceRight](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceright/), [DistanceTop](https://reference.aspose.com/words/net/aspose.words.tables/table/distancetop/), و [DistanceBottom](https://reference.aspose.com/words/net/aspose.words.tables/table/distancebottom/).
-
-### تحميل وحفظ المستندات
-
-#### إنشاء `TOC` للمستندات AZW3 <sup>23.1</sup>
-
-تمت إضافة القدرة على إنشاء `TOC` (جدول المحتويات) للمستندات AZW3 من خلال استخدام خاصية [NavigationMapLevel](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/navigationmaplevel/).
-
-#### تصدير عناصر القائمة إلى Markdown <sup>23.1</sup>
-
-تم توفير طريقة للتحكم في تصدير عناصر القائمة إلى تنسيق Markdown عن طريق إضافة خاصية [ListExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/listexportmode/) إلى فئة [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/).
-
-#### إشعارات تقدم حفظ المستندات <sup>23.3</sup>
-
-تم تنفيذ حفظ إشعارات التقدم لتنسيقات MOBI و AZW3.
-
-#### تعديل تباعد الجملة والكلمات <sup>23.3</sup>
-
-تمت إضافة القدرة على تحديد ما إذا كان سيتم ضبط تباعد الجملة والكلمات تلقائيا عند استيراد المستند عن طريق إدخال خاصية [AdjustSentenceAndWordSpacing](https://reference.aspose.com/words/net/aspose.words/importformatoptions/adjustsentenceandwordspacing/).
-
-### أخرى
-
-* تمت إضافة القدرة على تحديد تعديل تباعد الأحرف للمستند من خلال تنفيذ خاصية [JustificationMode](https://reference.aspose.com/words/net/aspose.words/document/justificationmode/) <sup>23.2</sup>
-* تم توفير طريقة إرشاد Aspose.Words ما إذا كان سيتم تضمين مربعات النص والحواشي السفلية والتعليقات الختامية في إحصائيات عدد الكلمات عن طريق إضافة خاصية [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/) <sup>23.2</sup>
-* تم تقديم خيار جديد لنمط المستند، والذي يسمح بتحديد ما إذا كان النمط يتم إعادة تعريفه تلقائيا بناء على القيمة المناسبة، من خلال خاصية [AutomaticallyUpdate](https://reference.aspose.com/words/net/aspose.words/style/automaticallyupdate/) <sup>23.2</sup>
-* تمت إضافة القدرة على تحديد ما إذا كان [Run](https://reference.aspose.com/words/net/aspose.words/run/) هو تشغيل دليل صوتي باستخدام خاصية [IsPhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/isphoneticguide/) <sup>23.4</sup>
-* تم تنفيذ طريقة بسيطة للعمل مع سلسلة ومحاور مخططات التحرير والسرد من خلال تقديم فئة [ChartAxisCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxiscollection/) وإضافة خاصية [Chart.Axes](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/axes/) <sup>23.4</sup>
-* تمت إضافة خصائص عامة جديدة متصلة بالموضع النسبي للشكل والتحجيم إلى فئة [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) <sup>23.4</sup>
-* تم تحسين دقة وأداء حساب سطوع اللون لدقة لون النص التلقائي وفقا لأحدث إصدارات Microsoft Word <sup>23.4</sup>
-
-{{% alert color="primary" %}}
-
-تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 23.1 ](/words/net/aspose-words-for-net-23-1-release-notes/).
-
-تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 23.2 ](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/).
-
-تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 23.3 ](/words/net/aspose-words-for-net-23-3-release-notes/).
-
-تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 23.4 ](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/).
 
 {{% /alert %}}
 

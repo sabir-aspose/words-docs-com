@@ -7,20 +7,30 @@ type: docs
 description: "Aspose.Words vir .NET brei uit en verbeter daagliks. Op hierdie bladsy kan jy leer oor die groot en interessantste kenmerke van die produk."
 weight: 10
 url: /af/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2025-01-15-11-43-05
+timestamp: 2025-02-17-18-02-05
 ---
 
 Hierdie bladsy beskryf die interessantste nuwe Aspose.Words funksies wat in onlangse vrystellings bekendgestel is.
 
-## Aspose.Words vir .NET 25.1
+## Aspose.Words vir .NET 25.1, 25.2
 
 Aspose.Words 25.1 stel KI-aangedrewe grammatikakontrole bekend en verbeter dokumentbesparing met gevorderde opsies vir HTML-, SVG- en Markdown-formate.
+
+Aspose.Words 25.2 stel teksopsomming bekend met Antropiese AI modelle, voeg MsWorks formaatondersteuning by, verbeter tipografiese beheer en verbeter PDF struktuur en lyshantering.
 
 ### KI-aangedrewe kenmerke
 
 #### Dokument KI Grammatikakontrole <sup>25.1</sup>
 
 Die vermoë om die grammatika van die verskafde dokument na te gaan deur gebruik te maak van OpenAI generatiewe modelle is bekendgestel deur 'n nuwe [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/) by te voeg metode.
+
+#### Opsomming Met Behulp Van Antropiese Generatiewe Taalmodelle <sup>25.2</sup>
+
+Teksopsomming met Behulp van Antropiese generatiewe taalmodelle is moontlik gemaak deur'n nuwe openbare klas [AnthropicAiModel](https://reference.aspose.com/words/net/aspose.words.ai/anthropicaimodel/) in te voer.
+
+### Ondersteunde Formate <sup>25.2</sup>
+
+Vanaf weergawe 25.2 is verenigbaarheid met die nuwe MsWorks laai formaat vir Microsoft Werk dokumente bygevoeg.
 
 ### Omskakeling, laai en stoor van dokumente
 
@@ -33,9 +43,22 @@ Stoor na HTML- en SVG-formate is verbeter deur **IdPrefix** en **RemoveJavaScrip
 * 'n Nuwe [ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imageresolution/) opsie is by die [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) klas om die beeldresolusie te stel.
 * 'n Nuwe [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) opsie en [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) opsomming is en bygevoeg by die [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) klas om OfficeMath-uitvoermodus te stel.
 
+### Lewering
+
+#### Verbeterde Tipografiese Beheer <sup>25.2</sup>
+
+Die [NumberSpacing](https://reference.aspose.com/words/net/aspose.words/font/numberspacing/) eienskap is bygevoeg vir verbeterde tipografiese beheer.
+
+### Ander
+
+* PDF logiese struktuur is verbeter met ondersteuning vir TOA, BIBLIOGRAPHY, en INDEX velde. <sup>25.2</sup>
+* Die [AddSingleLevelList](https://reference.aspose.com/words/net/aspose.words.lists/listcollection/addsinglelevellist/) metode is bekendgestel vir verbeterde lys hantering. <sup>25.2</sup>
+
 {{% alert color="primary" %}}
 
 Leer meer oor [Aspose.Words vir .NET 25.1 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/).
+
+Leer meer oor [Aspose.Words vir .NET 25.2 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-2-release-notes/).
 
 {{% /alert %}}
 
@@ -480,94 +503,6 @@ Leer meer oor [Aspose.Words vir .NET 23.6 Vrystelling Notas](/words/net/aspose-w
 Leer meer oor [Aspose.Words vir .NET 23.7 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
 
 Leer meer oor [Aspose.Words vir .NET 23.8 Vrystelling Notas](/words/net/aspose-words-for-net-23-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words vir .NET 23.1, 23.2, 23.3, 23.4
-
-Aspose.Words 23.1 verbeter die prestasie van raster operasie emulasie, sowel as verbeter dokument uitvoer en lewering gehalte.
-
-Aspose.Words 23.2 stel stoor dokumente in die MOBI formaat, verbeter grafiek weergawe, en maak noemenswaardige veranderinge aan dokument voorkoms besonderhede.
-
-Aspose.Words 23.3 verbeter die invoer en stoor van dokumente met nuwe eienskappe, en verbeter ook die kwaliteit van werk met agtergrond-en voorgrondkleur en radiale gradiënt.
-
-Aspose.Words 23.4 verbeter die berekening van sommige parameters en die posisionering van die tabel en omliggende teks.
-
-### Prestasieverbeterings
-
-#### Emulasie Van Raster Bedrywighede <sup>23.1</sup>
-
-Prestasie en kwaliteit van emulasie van raster bedrywighede met metafiles is aansienlik verbeter.
-
-### Ondersteunde Formate
-
-#### Voer uit na MOBI <sup>23.2</sup>
-
-Begin met weergawe 23.2, is dit moontlik om'n dokument in MOBI formaat (ook genoem PRC, AZW – Amazon Kindle se eie e-boek lêer formaat). Nou kan jy nie net MOBI dokumente laai nie, maar ook jou lêers na MOBI formaat uitvoer.
-
-### Lewering
-
-#### Werk Met Skadu Tema Kleure <sup>23.1</sup>
-
-Die vermoë om te werk met skadu tema kleure is geïmplementeer.
-
-#### Ondersteuning Van R-kwadraat Koëffisiënt in DML Kaarte <sup>23.1</sup>
-
-Ondersteuning van R-kwadraat koëffisiënt in DML grafiek trendline etikette wanneer weergawe bygevoeg is.
-
-#### Grafiese Weergawe Verbeterings <sup>23.2</sup>
-
-Sedert 23.2 is die grafiese weergawe aansienlik verbeter.
-
-#### Agtergrond En Voorgrond Kleur Beheer <sup>23.3</sup>
-
-Die [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) klas is uitgebrei met'n stel van nuwe openbare eienskappe wat verband hou met agtergrond en voorgrond kleure: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/forethemecolor/) en [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/foretintandshade/) en [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backtintandshade/).
-
-#### Radiële Gradiënte met die `SkiaSharp` Inheemse Skaduwee <sup>23.3</sup>
-
-Rendering van radiale gradiënte met die `SkiaSharp` inheemse skaduwee vir .NET Standard is geïmplementeer.
-
-#### Afstand tussen Die Tabel En Die Omliggende Teks <sup>23.4</sup>
-
-Die vermoë om die afstand tussen die tabel en omliggende teks stel is bygevoeg deur die bekendstelling van nuwe eienskappe aan die [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/) klas: [DistanceLeft](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceleft/), [DistanceRight](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceright/), [DistanceTop](https://reference.aspose.com/words/net/aspose.words.tables/table/distancetop/), en [DistanceBottom](https://reference.aspose.com/words/net/aspose.words.tables/table/distancebottom/).
-
-### Laai En Stoor Dokumente
-
-#### Genereer `TOC` Vir AZW3 Dokumente <sup>23.1</sup>
-
-Die vermoë om `TOC` (inhoudsopgawe) vir AZW3 dokumente te genereer is bygevoeg deur die gebruik van die [NavigationMapLevel](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/navigationmaplevel/) eienskap.
-
-#### Uitvoer Van Lys Items na Markdown <sup>23.1</sup>
-
-'n manier om die uitvoer van lys items te beheer na Markdown formaat is verskaf deur die toevoeging van die [ListExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/listexportmode/) eiendom om die [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) klas.
-
-#### Dokument Stoor Vordering Kennisgewings <sup>23.3</sup>
-
-Stoor vordering kennisgewings vir MOBI en AZW3 formate is geïmplementeer.
-
-#### Aanpassing van sin - En Woordspasiëring <sup>23.3</sup>
-
-Die vermoë om te spesifiseer of om sin en woord spasiëring outomaties aan te pas by dokument invoer is bygevoeg deur die bekendstelling van die [AdjustSentenceAndWordSpacing](https://reference.aspose.com/words/net/aspose.words/importformatoptions/adjustsentenceandwordspacing/) eiendom.
-
-### Ander
-
-* Die vermoë om die karakter spasiëring aanpassing van'n dokument spesifiseer is bygevoeg deur die [JustificationMode](https://reference.aspose.com/words/net/aspose.words/document/justificationmode/) eienskap implementering <sup>23.2</sup>
-* Die manier om Aspose.Words te leer of teksbokse, voetnotas en eindnotas in woordtellingstatistieke ingesluit moet word, is verskaf deur die [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/) eienskap by te voeg <sup>23.2</sup>
-* 'n nuwe opsie vir'n dokument styl, wat toelaat dat spesifiseer of die styl outomaties herdefinieer op grond van die toepaslike waarde, is ingestel deur die [AutomaticallyUpdate](https://reference.aspose.com/words/net/aspose.words/style/automaticallyupdate/) eiendom <sup>23.2</sup>
-* Die vermoë om te bepaal of [Run](https://reference.aspose.com/words/net/aspose.words/run/) 'n fonetiese gids is, is bygevoeg met behulp van die [IsPhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/isphoneticguide/) eienskap <sup>23.4</sup>
-* 'n eenvoudige manier om te werk met reeks en asse van kombinasie kaarte is geïmplementeer deur die bekendstelling van die [ChartAxisCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxiscollection/) klas en die toevoeging van die [Chart.Axes](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/axes/) eiendom <sup>23.4</sup>
-* Nuwe openbare eiendomme wat verband hou met die vorm relatiewe posisionering en grootte is bygevoeg om die [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) klas <sup>23.4</sup>
-* Akkuraatheid en prestasie van kleurhelderheidsberekening vir outomatiese tekskleurresolusie is verbeter in ooreenstemming met die nuutste weergawes van Microsoft Word <sup>23.4</sup>
-
-{{% alert color="primary" %}}
-
-Leer meer oor [Aspose.Words vir .NET 23.1 Vrystelling Notas](/words/net/aspose-words-for-net-23-1-release-notes/).
-
-Leer meer oor [Aspose.Words vir .NET 23.2 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/).
-
-Leer meer oor [Aspose.Words vir .NET 23.3 Vrystelling Notas](/words/net/aspose-words-for-net-23-3-release-notes/).
-
-Leer meer oor [Aspose.Words Vir .NET 23.4 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/).
 
 {{% /alert %}}
 

@@ -7,7 +7,7 @@ description: "Aspose.Words עבור Python via .NET מספק תוכניות שו
 type: docs
 weight: 40
 url: /he/python-net/licensing/
-timestamp: 2024-01-31-14-23-37
+timestamp: 2025-02-12-16-18-40
 ---
 
 לפעמים, כדי ללמוד את המערכת בצורה טובה יותר, אתה רוצה לצלול לתוך הקוד מהר ככל האפשר. כדי להקל על זה, Aspose.Words מספק תוכניות שונות לרכישת או מציע משפט חינם ורישיון זמני של 30 יום להערכה.
@@ -106,6 +106,8 @@ Aspose.Words מאפשר למפתחים ליישם מפתח מטר. זהו מנג
 דוגמה לקוד הבא מראה כיצד להגדיר מפתחות ציבוריים ופרטיים:
 
 {{< gist "aspose-words-gists" "45c97d37bef13067c82e741b922a2d4f" "apply-metered-license.py" >}}
+
+בדרך כלל זה מספיק כדי להחיל את הרישיון מודד האויר פעם אחת על תחילת יישום. עם זאת, אם מנגנון הרישוי המדוד לא מצליח לתקשר עם שרתי האספוז למשך 24 שעות, Aspose.Words ייצא ממצב מורשה ויעבור למצב הערכה. כדי להימנע ממקרה כזה, באפשרותך להשתמש בשיטת [is_metered_licensed](https://reference.aspose.com/words/python-net/aspose.words/metered/is_metered_licensed/#default) כדי לבדוק את מצב הרישיון ולהחיל מחדש את הרישיון המודד במידת הצורך.
 
 {{% alert color="primary" %}}
 

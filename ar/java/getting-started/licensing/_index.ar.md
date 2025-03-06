@@ -1,4 +1,4 @@
-﻿---
+---
 title: الترخيص والاشتراك
 second_title: Aspose.Words ل Java
 articleTitle: الترخيص والاشتراك
@@ -7,7 +7,7 @@ description: "Aspose.Words إلى عن على Java يوفر خططا مختلف�
 type: docs
 weight: 60
 url: /ar/java/licensing/
-timestamp: 2024-01-31-14-23-37
+timestamp: 2025-02-12-16-18-40
 ---
 
 في بعض الأحيان، من أجل دراسة النظام بشكل أفضل، تريد الغوص في الكود في أسرع وقت ممكن. لتسهيل ذلك، Aspose.Words يوفر خططا مختلفة للشراء أو يقدم نسخة تجريبية مجانية وترخيصا مؤقتا لمدة 30 يوما للتقييم.
@@ -129,6 +129,8 @@ Aspose.Words يسمح للمطورين لتطبيق مفتاح المقننة. �
 يوضح مثال الكود التالي كيفية تعيين المفاتيح العامة والخاصة المقننة:
 
 {{< gist "aspose-words-gists" "aae6b7a56c4792497614b4ee8f6f8eec" "apply-metered-license.java" >}}
+
+عادة ما يكفي لتطبيق الترخيص المقنن مرة واحدة على بدء التطبيق. ومع ذلك، إذا فشلت آلية الترخيص المقننة في التواصل مع خوادم أسبوس لمدة 24 ساعة، Aspose.Words سيخرج من الوضع المرخص ويتحول إلى وضع التقييم. لتجنب مثل هذه الحالة، يمكنك استخدام طريقة [IsMeteredLicensed](https://reference.aspose.com/words/java/com.aspose.words/metered/#isMeteredLicensed) للتحقق من حالة الترخيص وإعادة تطبيق الترخيص المقنن إذا لزم الأمر.
 
 {{% alert color="primary" %}}
 

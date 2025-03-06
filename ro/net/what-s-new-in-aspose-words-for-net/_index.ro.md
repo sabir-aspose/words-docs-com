@@ -7,20 +7,30 @@ type: docs
 description: "Aspose.Words pentru .NET se extinde și îmbunătățește zilnic. Pe această pagină, puteți afla despre caracteristicile uriașe și cele mai interesante ale produsului."
 weight: 10
 url: /ro/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2025-01-15-11-43-05
+timestamp: 2025-02-17-18-02-05
 ---
 
 Această pagină descrie cele mai interesante caracteristici noi Aspose.Words introduse în versiunile recente.
 
-## Aspose.Words pentru .NET 25.1
+## Aspose.Words pentru .NET 25.1, 25.2
 
 Aspose.Words 25.1 introduce verificarea gramaticală bazată pe inteligență artificială și îmbunătățește salvarea documentelor cu opțiuni avansate pentru formatele HTML, SVG și Markdown.
+
+Aspose.Words 25.2 introduce rezumarea textului cu modele antropice AI, adaugă suport pentru formatul MsWorks, îmbunătățește controlul tipografic și îmbunătățește structura PDF și manipularea listei.
 
 ### Funcții bazate pe inteligență artificială
 
 #### Verificarea gramaticală AI a documentului <sup>25.1</sup>
 
 Abilitatea de a verifica gramatica documentului furnizat folosind modele generative OpenAI a fost introdusă prin adăugarea unui nou [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/) metodă.
+
+#### Rezumarea Folosind Modele De Limbaj Generativ Antropic <sup>25.2</sup>
+
+Rezumatul textului folosind modele de limbaj generativ antropic a fost permis prin introducerea unei noi clase publice [AnthropicAiModel](https://reference.aspose.com/words/net/aspose.words.ai/anthropicaimodel/).
+
+### Formate Acceptate <sup>25.2</sup>
+
+Începând cu versiunea 25.2, a fost adăugată compatibilitatea cu noul format de încărcare MsWorks pentru documentele de lucru Microsoft.
 
 ### Conversia, încărcarea și salvarea documentelor
 
@@ -33,9 +43,22 @@ Salvarea în formatele HTML și SVG a fost îmbunătățită prin adăugarea pro
 * O nouă opțiune [ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imageresolution/) a fost adăugată la [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) pentru a seta rezoluția imaginii.
 * O nouă opțiune [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) și [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) au fost adăugate la Clasa [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) pentru a seta modul de ieșire OfficeMath.
 
+### Redare
+
+#### Control Tipografic Îmbunătățit <sup>25.2</sup>
+
+Proprietatea [NumberSpacing](https://reference.aspose.com/words/net/aspose.words/font/numberspacing/) a fost adăugată pentru un control tipografic îmbunătățit.
+
+### Altele
+
+* PDF structura logică a fost îmbunătățită cu suport pentru câmpurile TOA, BIBLIOGRAPHY și INDEX. <sup>25.2</sup>
+* Metoda [AddSingleLevelList](https://reference.aspose.com/words/net/aspose.words.lists/listcollection/addsinglelevellist/) a fost introdusă pentru o mai bună gestionare a listelor. <sup>25.2</sup>
+
 {{% alert color="primary" %}}
 
 Aflați mai multe despre [Aspose.Words pentru .NET 25.1 Note de lansare](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/).
+
+Aflați mai multe despre [Aspose.Words pentru .NET 25.2 Notă De Lansare](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-2-release-notes/).
 
 {{% /alert %}}
 
@@ -480,94 +503,6 @@ Aflați mai multe despre [Aspose.Words Pentru .NET 23.6 Note de lansare](/words/
 Aflați mai multe despre [Aspose.Words pentru .NET 23.7 Note de lansare](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
 
 Aflați mai multe despre [Aspose.Words Pentru .NET 23.8 Note de lansare](/words/net/aspose-words-for-net-23-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words Pentru .NET 23.1, 23.2, 23.3, 23.4
-
-Aspose.Words 23.1 îmbunătățește performanța emulării operațiilor raster, precum și îmbunătățește exportul și calitatea redării documentelor.
-
-Aspose.Words 23.2 introduce salvarea documentelor în formatul MOBI, îmbunătățește redarea diagramei și face modificări notabile la detaliile aspectului documentului.
-
-Aspose.Words 23.3 îmbunătățește importul și salvarea documentelor cu proprietăți noi și, de asemenea, îmbunătățește calitatea muncii cu culoarea de fundal și prim plan și gradientul radial.
-
-Aspose.Words 23.4 îmbunătățește calculul unor parametri și poziționarea tabelului și a textului înconjurător.
-
-### Îmbunătățiri Ale Performanței
-
-#### Emularea operațiilor Raster <sup>23.1</sup>
-
-Performanța și calitatea emulării operațiilor raster cu Metafile au fost îmbunătățite semnificativ.
-
-### Formate Acceptate
-
-#### Export în MOBI <sup>23.2</sup>
-
-Începând cu versiunea 23.2, este posibil să salvați un document în format MOBI (numit șiPRC, AZW – Amazon formatul de fișier al cărții electronice Kindle). Acum Puteți nu numai să încărcați documente MOBI, ci și să exportați fișierele în format MOBI.
-
-### Redare
-
-#### Lucrați cu culori tematice de umbrire <sup>23.1</sup>
-
-A fost implementată capacitatea de a lucra cu culori tematice de umbrire.
-
-#### Suport pentru coeficientul R-pătrat în DML diagrame <sup>23.1</sup>
-
-Suport de coeficient R-pătrat în DML etichete Trendline diagramă atunci când a fost adăugat De redare.
-
-#### Îmbunătățiri De Redare A Diagramelor <sup>23.2</sup>
-
-De la 23.2 redarea graficului a fost îmbunătățită semnificativ.
-
-#### Controlul culorilor de fundal și prim plan <sup>23.3</sup>
-
-Clasa [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) a fost extinsă cu un set de noi proprietăți publice legate de culorile de fundal și prim plan: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/forethemecolor/) și [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/foretintandshade/) și [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backtintandshade/).
-
-#### Gradienți radiali cu Shader-ul nativ `SkiaSharp` <sup>23.3</sup>
-
-A fost implementată redarea gradienților radiali cu shader-ul nativ `SkiaSharp` Pentru .NET Standard.
-
-#### Distanța dintre tabel și textul înconjurător <sup>23.4</sup>
-
-Capacitatea de a seta distanța dintre tabel și textul înconjurător a fost adăugată prin introducerea de noi proprietăți în clasa [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/): [DistanceLeft](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceleft/), [DistanceRight](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceright/), [DistanceTop](https://reference.aspose.com/words/net/aspose.words.tables/table/distancetop/), și [DistanceBottom](https://reference.aspose.com/words/net/aspose.words.tables/table/distancebottom/).
-
-### Încărcarea și salvarea documentelor
-
-#### Generați `TOC` pentru AZW3 documente <sup>23.1</sup>
-
-Capacitatea de a genera `TOC` (Cuprins) pentru documentele AZW3 a fost adăugată prin utilizarea proprietății [NavigationMapLevel](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/navigationmaplevel/).
-
-#### Exportarea articolelor din listă în Markdown <sup>23.1</sup>
-
-O modalitate de a controla exportul articolelor din listă în formatul Markdown a fost furnizată prin adăugarea proprietății [ListExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/listexportmode/) la clasa [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/).
-
-#### Notificări Privind Progresul Salvării Documentelor <sup>23.3</sup>
-
-Salvarea notificărilor de progres pentru formatele MOBI și AZW3 a fost implementată.
-
-#### Ajustarea spațiului dintre propoziții și cuvinte <sup>23.3</sup>
-
-Capacitatea de a specifica dacă se ajustează automat propoziția și spațierea cuvintelor la importul documentului a fost adăugată prin introducerea proprietății [AdjustSentenceAndWordSpacing](https://reference.aspose.com/words/net/aspose.words/importformatoptions/adjustsentenceandwordspacing/).
-
-### Altele
-
-* Capacitatea de a specifica ajustarea spațierea caracterelor unui document a fost adăugat prin [JustificationMode](https://reference.aspose.com/words/net/aspose.words/document/justificationmode/) implementarea proprietății <sup>23.2</sup>
-* Modul de a instrui Aspose.Words dacă să includă casete de text, note de subsol și note de final în Statisticile numărului de cuvinte a fost furnizat prin adăugarea proprietății [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/) <sup>23.2</sup>
-* O nouă opțiune pentru un stil de document, care permite specificarea dacă stilul este redefinit automat pe baza valorii corespunzătoare, a fost introdusă prin proprietatea [AutomaticallyUpdate](https://reference.aspose.com/words/net/aspose.words/style/automaticallyupdate/) <sup>23.2</sup>
-* Abilitatea de a determina dacă [Run](https://reference.aspose.com/words/net/aspose.words/run/) este o rulare a ghidului fonetic a fost adăugată folosind proprietatea [IsPhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/isphoneticguide/) <sup>23.4</sup>
-* O modalitate simplă de a lucra cu serii și axe de diagrame combinate a fost implementată prin introducerea clasei [ChartAxisCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxiscollection/) și adăugarea proprietății [Chart.Axes](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/axes/) <sup>23.4</sup>
-* Noi proprietăți publice conectate la poziționarea relativă a formei și dimensionarea au fost adăugate la clasa [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) <sup>23.4</sup>
-* Precizia și performanța calculului luminozității culorii pentru rezoluția automată a culorilor textului au fost îmbunătățite în conformitate cu cele mai recente versiuni ale Microsoft Word <sup>23.4</sup>
-
-{{% alert color="primary" %}}
-
-Aflați mai multe despre [Aspose.Words pentru .NET 23.1 Note de lansare](/words/net/aspose-words-for-net-23-1-release-notes/).
-
-Aflați mai multe despre [Aspose.Words pentru .NET 23.2 Note de lansare](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/).
-
-Aflați mai multe despre [Aspose.Words Pentru .NET 23.3 Note de lansare](/words/net/aspose-words-for-net-23-3-release-notes/).
-
-Aflați mai multe despre [Aspose.Words pentru .NET 23.4 Note de lansare](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/).
 
 {{% /alert %}}
 

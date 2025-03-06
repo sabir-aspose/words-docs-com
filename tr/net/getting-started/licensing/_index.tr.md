@@ -7,7 +7,7 @@ description: ".NET için Aspose.Words, farklı satın alma planları sağlar vey
 type: docs
 weight: 55
 url: /tr/net/licensing/
-timestamp: 2024-10-24-11-44-28
+timestamp: 2025-02-12-16-18-40
 ---
 
 Bazen sistemi daha iyi incelemek için kodun içine mümkün olduğunca hızlı dalmak istersiniz. Bunu kolaylaştırmak için Aspose.Words, farklı satın alma planları sunar veya değerlendirme için Ücretsiz Deneme ve 30 günlük Geçici Lisans sunar.
@@ -119,7 +119,7 @@ Aşağıdaki kod örneği, sınırlı genel ve özel anahtarların nasıl ayarla
 
 {{< gist "aspose-words-gists" "c762ebd027c53ed61fce5bc5ccac1ca7" "apply-metered-license.cs" >}}
 
-Normalde, uygulama başlangıcında ölçülü lisansı bir kez uygulamak yeterlidir. Ancak ölçülü lisanslama mekanizmasının Aspose sunucularıyla 24 saat boyunca iletişim kuramaması durumunda Aspose.Words lisanslı moddan çıkıp değerlendirme moduna geçecektir. Bu tür bir durumu önlemek için lisans durumunu düzenli olarak kontrol etmelisiniz; Aspose.Words değerlendirme moduna geçerse lütfen ölçülü lisansı tekrar uygulayın.
+Normalde ölçülü lisansı başvuru başlangıcında bir kez uygulamak yeterlidir. Ancak ölçülü lisans mekanizması Aspose sunucularıyla 24 saat iletişim kuramazsa Aspose.Words lisanslı moddan çıkar ve değerlendirme moduna geçer. Böyle bir durumdan kaçınmak için, lisans durumunu kontrol etmek ve gerekirse ölçülü lisansı yeniden uygulamak için [IsMeteredLicensed](https://reference.aspose.com/words/net/aspose.words/metered/ismeteredlicensed/) yöntemini kullanabilirsiniz.
 
 {{% alert color="primary" %}}
 

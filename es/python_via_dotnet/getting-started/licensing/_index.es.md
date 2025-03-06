@@ -7,7 +7,7 @@ description: "Aspose.Words para Python via .NET ofrece diferentes planes de comp
 type: docs
 weight: 40
 url: /es/python-net/licensing/
-timestamp: 2024-01-31-14-23-37
+timestamp: 2025-02-12-16-18-40
 ---
 
 A veces, para estudiar mejor el sistema, es necesario profundizar en el código lo más rápido posible. Para facilitar esto, Aspose.Words ofrece diferentes planes de compra u ofrece una prueba gratuita y una licencia temporal de 30 días para evaluación.
@@ -106,6 +106,8 @@ No llame al método **SetMeteredKey** con frecuencia para que este método de li
 El siguiente ejemplo de código muestra cómo configurar claves públicas y privadas medidas:
 
 {{< gist "aspose-words-gists" "45c97d37bef13067c82e741b922a2d4f" "apply-metered-license.py" >}}
+
+Normalmente, basta con aplicar la licencia medida una vez al inicio de la aplicación. Sin embargo, si el mecanismo de licencias medidas no logra comunicarse con los servidores Aspose durante 24 horas, Aspose.Words saldrá del modo con licencia y cambiará al modo de evaluación. Para evitar este caso, puede utilizar el método [is_metered_licensed](https://reference.aspose.com/words/python-net/aspose.words/metered/is_metered_licensed/#default) para comprobar el estado de la licencia y volver a aplicar la licencia medida si es necesario.
 
 {{% alert color="primary" %}}
 

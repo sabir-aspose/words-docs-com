@@ -7,7 +7,7 @@ description: "Aspose.Words pentru Java oferă diferite planuri de cumpărare sau
 type: docs
 weight: 60
 url: /ro/java/licensing/
-timestamp: 2024-01-31-14-23-37
+timestamp: 2025-02-12-16-18-40
 ---
 
 Uneori, pentru a studia mai bine sistemul, doriți să vă scufundați în cod cât mai repede posibil. Pentru a face acest lucru mai ușor, Aspose.Words oferă diferite planuri de cumpărare sau oferă o încercare gratuită și o licență temporară de 30 pentru evaluare.
@@ -129,6 +129,8 @@ Nu apelați frecvent metoda **SetMeteredKey**, astfel încât această metodă d
 Următorul exemplu de cod arată cum să setați cheile publice și private măsurate:
 
 {{< gist "aspose-words-gists" "aae6b7a56c4792497614b4ee8f6f8eec" "apply-metered-license.java" >}}
+
+În mod normal, este suficient să aplicați licența măsurată o dată la începerea cererii. Cu toate acestea, dacă mecanismul de licențiere măsurat nu reușește să comunice cu serverele Aspose timp de 24 de ore, Aspose.Words va ieși din modul licențiat și va trece la modul de evaluare. Pentru a evita un astfel de caz, puteți utiliza metoda [IsMeteredLicensed](https://reference.aspose.com/words/java/com.aspose.words/metered/#isMeteredLicensed) pentru a verifica starea licenței și pentru a aplica din nou licența măsurată, dacă este necesar.
 
 {{% alert color="primary" %}}
 

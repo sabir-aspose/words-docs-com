@@ -7,20 +7,30 @@ type: docs
 description: ".NET용 Aspose.Words는 매일 확장되고 향상됩니다. 이 페이지에서는 제품의 가장 크고 흥미로운 기능에 대해 알아볼 수 있습니다."
 weight: 10
 url: /ko/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2025-01-15-11-43-05
+timestamp: 2025-02-17-18-02-05
 ---
 
 이 페이지에서는 최근 릴리스에 도입된 가장 흥미로운 새 Aspose.Words 기능을 설명합니다.
 
-## Aspose.Words for .NET 25.1
+## Aspose.Words(으)로 .NET 25.1, 25.2
 
 Aspose.Words 25.1은 AI 기반 문법 검사를 도입하고 HTML, SVG 및 마크다운 형식에 대한 고급 옵션으로 문서 저장을 개선합니다.
+
+Aspose.Words25.2은 인성AI모델로 텍스트 요약을 도입하고,MsWorks형식 지원을 추가하고,타이포그래피 제어를 향상시키고,PDF구조와 목록 처리를 향상시킵니다.
 
 ### AI 기반 기능
 
 #### 문서 AI 문법 검사 <sup>25.1</sup>
 
 OpenAI 생성 모델을 사용하여 제공된 문서의 문법을 검사하는 기능은 새로운 [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/) 메서드를 추가하여 도입되었습니다.
+
+#### 인성 생성 언어 모델을 사용한 요약 <sup>25.2</sup>
+
+인성 생성 언어 모델을 사용하는 텍스트 요약은 새로운 공개 클래스[AnthropicAiModel](https://reference.aspose.com/words/net/aspose.words.ai/anthropicaimodel/)을 도입함으로써 가능해졌습니다.
+
+### 지원되는 형식 <sup>25.2</sup>
+
+버전25.2에서 시작하여Microsoft작업 문서에 대한 새로운MsWorks로드 형식과의 호환성이 추가되었습니다.
 
 ### 문서 변환, 로드 및 저장
 
@@ -33,9 +43,22 @@ HTML 및 SVG 형식으로 저장하는 기능이 [HtmlFixedSaveOptions](https://
 * 새로운 [ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imageresolution/) 옵션이 [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) 클래스에 추가되어 이미지 해상도를 설정합니다.
 * 새로운 [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) 옵션과 [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) 열거형이 [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) 클래스에 추가되어 OfficeMath 출력 모드를 설정합니다.
 
+### 표현
+
+#### 향상된 타이포그래피 제어 <sup>25.2</sup>
+
+향상된 타이포그래피 제어를 위해[NumberSpacing](https://reference.aspose.com/words/net/aspose.words/font/numberspacing/)속성이 추가되었습니다.
+
+### 기타
+
+* PDF논리 구조는TOA,BIBLIOGRAPHY및INDEX필드를 지원하여 개선되었습니다. <sup>25.2</sup>
+* [AddSingleLevelList](https://reference.aspose.com/words/net/aspose.words.lists/listcollection/addsinglelevellist/)메서드는 향상된 목록 처리를 위해 도입되었습니다. <sup>25.2</sup>
+
 {{% alert color="primary" %}}
 
 [.NET 25.1용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/)에 대해 자세히 알아보세요.
+
+에 대해 자세히 알아보기 [Aspose.Words.NET 25.2릴리스 노트](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-2-release-notes/).
 
 {{% /alert %}}
 
@@ -123,7 +146,7 @@ PDF내보내기는 테이블 제목 속성을PDF논리 구조 요소 제목으�
 
 XAdES-EPES 레벨 XML-DSig 서명으로 문서에 서명하는 기능은 새로운 공개 속성 [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/)과 새로운 공개 열거형 [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/)을 추가하여 도입되었습니다.
 
-### 기타
+### 다른
 
 * 새로운 공개 메서드 [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/)가 셰이프를 그룹화하는 데 추가되었습니다. <sup>24.9</sup>
 * 새로운 공개 메서드 [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/)가 추가되어 **StructuredDocumentTags**를 문서에 삽입할 수 있습니다. <sup>24.9</sup>
@@ -480,94 +503,6 @@ JSON 문자열 값의 공백을 보존하기 위해 LINQ 보고 엔진에 옵션
 [.NET 23.7용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/)에 대해 자세히 알아보세요.
 
 [.NET 23.8용 Aspose.Words 릴리스 노트](/words/net/aspose-words-for-net-23-8-release-notes/)에 대해 자세히 알아보세요.
-
-{{% /alert %}}
-
-## .NET 23.1, 23.2, 23.3, 23.4용 Aspose.Words
-
-Aspose.Words 23.1은 래스터 작업 에뮬레이션 성능을 향상시킬 뿐만 아니라 문서 내보내기 및 렌더링 품질도 향상시킵니다.
-
-Aspose.Words 23.2에서는 MOBI 형식으로 문서를 저장하고 차트 렌더링을 개선하며 문서 모양 세부 사항을 눈에 띄게 변경했습니다.
-
-Aspose.Words 23.3은 새로운 속성으로 문서 가져오기 및 저장 기능을 향상시키고 배경색과 전경색, 방사형 그라데이션으로 작업 품질도 향상시킵니다.
-
-Aspose.Words 23.4는 일부 매개변수의 계산과 테이블 및 주변 텍스트의 위치 지정을 개선합니다.
-
-### 성능 개선
-
-#### 래스터 작업 에뮬레이션 <sup>23.1</sup>
-
-메타파일을 사용한 래스터 작업 에뮬레이션의 성능과 품질이 크게 향상되었습니다.
-
-### 지원되는 형식
-
-#### MOBI <sup>23.2</sup> 로 내보내기
-
-버전 23.2부터 MOBI 형식(PRC, AZW - Amazon Kindle의 자체 전자책 파일 형식이라고도 함)으로 문서를 저장할 수 있습니다. 이제 MOBI 문서를 로드할 수 있을 뿐만 아니라 파일을 MOBI 형식으로 내보낼 수도 있습니다.
-
-### 표현
-
-#### 음영 테마 색상 작업 <sup>23.1</sup>
-
-음영 테마 색상으로 작업하는 기능이 구현되었습니다.
-
-#### DML 차트에서 R 제곱 계수 지원 <sup>23.1</sup>
-
-렌더링 시 DML 차트 추세선 레이블에 R 제곱 계수 지원이 추가되었습니다.
-
-#### 차트 렌더링 개선 사항 <sup>23.2</sup>
-
-23.2부터 차트 렌더링이 크게 개선되었습니다.
-
-#### 배경색과 전경색 제어 <sup>23.3</sup>
-
-[Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) 클래스는 배경색 및 전경색과 관련된 새로운 공용 속성 세트([ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/forethemecolor/) 및 [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/foretintandshade/) 및 [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backtintandshade/))로 확장되었습니다.
-
-#### `SkiaSharp` 네이티브 셰이더 <sup>23.3을</sup> 사용한 방사형 그라디언트
-
-.NET Standard용 `SkiaSharp` 기본 셰이더를 사용한 방사형 그래디언트 렌더링이 구현되었습니다.
-
-#### 표와 주변 텍스트 사이의 거리 <sup>23.4</sup>
-
-[Table](https://reference.aspose.com/words/net/aspose.words.tables/table/) 클래스에 [DistanceLeft](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceleft/), [DistanceRight](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceright/), [DistanceTop](https://reference.aspose.com/words/net/aspose.words.tables/table/distancetop/) 및 [DistanceBottom](https://reference.aspose.com/words/net/aspose.words.tables/table/distancebottom/)과 같은 새로운 속성을 도입하여 테이블과 주변 텍스트 사이의 거리를 설정하는 기능이 추가되었습니다.
-
-### 문서 로드 및 저장
-
-#### AZW3 문서 <sup>23.1</sup> 용 `TOC` 생성
-
-[NavigationMapLevel](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/navigationmaplevel/) 속성을 사용하여 AZW3 문서에 대한 `TOC`(목차)를 생성하는 기능이 추가되었습니다.
-
-#### 목록 항목을 Markdown <sup>23.1</sup> 로 내보내기
-
-[MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) 클래스에 [ListExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/listexportmode/) 속성을 추가하여 목록 항목을 Markdown 형식으로 내보내기를 제어하는 방법이 제공되었습니다.
-
-#### 문서 저장 진행 알림 <sup>23.3</sup>
-
-MOBI 및 AZW3 형식에 대한 진행 알림 저장이 구현되었습니다.
-
-#### 문장 및 단어 간격 조정 <sup>23.3</sup>
-
-[AdjustSentenceAndWordSpacing](https://reference.aspose.com/words/net/aspose.words/importformatoptions/adjustsentenceandwordspacing/) 속성을 도입하여 문서 가져오기 시 문장 및 단어 간격을 자동으로 조정할지 여부를 지정하는 기능이 추가되었습니다.
-
-### 다른
-
-* [JustificationMode](https://reference.aspose.com/words/net/aspose.words/document/justificationmode/) 속성 구현 <sup>23.2를</sup> 통해 문서의 문자 간격 조정을 지정하는 기능이 추가되었습니다
-* 단어수 통계에 텍스트박스, 각주, 미주 포함 여부를 Aspose.Words에 지시하는 방법을 [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/) 속성 추가로 제공 <sup>23.2</sup>
-* 적절한 값에 따라 스타일이 자동으로 재정의되는지 여부를 지정할 수 있는 문서 스타일에 대한 새로운 옵션이 [AutomaticallyUpdate](https://reference.aspose.com/words/net/aspose.words/style/automaticallyupdate/) 속성 <sup>23.2</sup> 를 통해 도입되었습니다
-* [IsPhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/isphoneticguide/) 속성 <sup>23.4를</sup> 사용하여 [Run](https://reference.aspose.com/words/net/aspose.words/run/)가 발음 안내 실행인지 확인하는 기능이 추가되었습니다
-* [ChartAxisCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxiscollection/) 클래스를 도입하고 [Chart.Axes](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/axes/) 속성을 추가하여 콤보 차트의 시리즈 및 축을 사용하는 간단한 방법이 구현되었습니다 <sup>. 23.4</sup>
-* 모양 상대 위치 지정 및 크기 조정과 연결된 새로운 공용 속성이 [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) 클래스 <sup>23.4</sup> 에 추가되었습니다
-* Microsoft Word <sup>23.4</sup> 최신 버전에 따라 자동 텍스트 색상 해상도에 대한 색상 밝기 계산의 정확성과 성능이 향상되었습니다
-
-{{% alert color="primary" %}}
-
-[.NET 23.1용 Aspose.Words 릴리스 노트](/words/net/aspose-words-for-net-23-1-release-notes/)에 대해 자세히 알아보세요.
-
-[.NET 23.2용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/)에 대해 자세히 알아보세요.
-
-[.NET 23.3용 Aspose.Words 릴리스 노트](/words/net/aspose-words-for-net-23-3-release-notes/)에 대해 자세히 알아보세요.
-
-[.NET 23.4용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/)에 대해 자세히 알아보세요.
 
 {{% /alert %}}
 

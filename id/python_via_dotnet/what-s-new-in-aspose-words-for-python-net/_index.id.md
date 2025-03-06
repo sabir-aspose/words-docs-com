@@ -4,66 +4,95 @@ second_title: Aspose.Words untuk Python via .NET
 articleTitle: Apa yang baru di Aspose.Words untuk Python via .NET
 linktitle: Apa yang baru di Aspose.Words untuk Python via .NET
 type: docs
-description: "Aspose.Words untuk Python via .NET berkembang dan ditingkatkan setiap hari. Di halaman ini, Anda dapat mempelajari tentang fitur-fitur produk yang besar dan paling menarik."
+description: "Aspose.Words untuk Python via .NET memperluas dan meningkatkan setiap hari. Di halaman ini, Anda dapat mempelajari tentang fitur produk yang sangat besar dan paling menarik."
 weight: 10
 url: /id/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-01-15-11-43-05
+timestamp: 2025-02-17-18-02-05
 ---
 
-Halaman ini menjelaskan fitur-fitur Aspose.Words baru yang paling menarik yang diperkenalkan dalam rilis terbaru.
+Halaman ini menjelaskan fitur Aspose.Words baru yang paling menarik yang diperkenalkan dalam rilis terbaru.
 
-## Aspose.Words untuk Python melalui .NET 25.1
+## Aspose.Words untuk Python via .NET 25.1, 25.2
 
 Aspose.Words 25.1 memperkenalkan pemeriksaan tata bahasa bertenaga AI dan menyempurnakan penyimpanan dokumen dengan opsi lanjutan untuk format HTML, SVG, dan Markdown.
 
-### Fitur Bertenaga AI
+Aspose.Words 25.2 memperkenalkan peringkasan teks dengan model Antropik AI, menambahkan dukungan format MsWorks, meningkatkan kontrol tipografi, dan meningkatkan struktur PDF dan penanganan daftar.
 
-#### Pemeriksaan Tata Bahasa AI Dokumen <sup>25.1</sup>
+### AI-Fitur bertenaga
 
-Kemampuan untuk memeriksa tata bahasa dokumen yang disediakan menggunakan model generatif OpenAI telah diperkenalkan dengan menambahkan [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/) metode.
+#### Dokumen AI Pemeriksaan Tata Bahasa <sup>25.1</sup>
+
+Kemampuan untuk memeriksa tata bahasa dokumen yang disediakan menggunakan model generatif OpenAI telah diperkenalkan dengan menambahkan metode [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/) baru.
+
+#### Ringkasan Menggunakan Model Bahasa Generatif Antropik <sup>25.2</sup>
+
+Peringkasan teks menggunakan model bahasa generatif Antropik telah diaktifkan dengan memperkenalkan kelas publik baru [AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/).
+
+### Format yang Didukung <sup>25.2</sup>
+
+Mulai dari versi 25.2, kompatibilitas dengan format pemuatan MsWorks baru untuk dokumen Karya Microsoft telah ditambahkan.
 
 ### Mengonversi, Memuat, dan Menyimpan Dokumen
 
 #### Peningkatan Penyimpanan ke Format HTML dan SVG <sup>25.1</sup>
 
-Penyimpanan ke format HTML dan SVG telah ditingkatkan dengan menambahkan properti **id_prefix** dan **remove_java_script_from_links** ke [HtmlFixedSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlfixedsaveoptions/) dan [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/) kelas.
+Menyimpan ke format HTML dan SVG telah ditingkatkan dengan menambahkan properti **id_prefix** dan **remove_java_script_from_links** ke kelas [HtmlFixedSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlfixedsaveoptions/) dan [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/).
 
-#### Mengatur Resolusi Gambar dan Mode Output OfficeMath Saat Menyimpan ke Markdown <sup>25.1</sup>
+#### Setel Resolusi Gambar dan Mode Keluaran OfficeMath Saat Menyimpan ke Markdown <sup>25.1</sup>
 
-* Opsi [image_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/image_resolution/) baru telah ditambahkan ke [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) untuk mengatur resolusi gambar.
-* Opsi [office_math_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/office_math_export_mode/) baru dan [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownofficemathexportmode/) enumerasi telah dan ditambahkan ke [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) untuk mengatur mode keluaran OfficeMath.
+* Opsi [image_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/image_resolution/) baru telah ditambahkan ke kelas [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) untuk mengatur resolusi gambar.
+* Opsi [office_math_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/office_math_export_mode/) baru dan enumerasi [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownofficemathexportmode/) telah dan ditambahkan ke kelas [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) untuk menyetel mode keluaran OfficeMath.
+
+### Rendering
+
+#### Kontrol Tipografi yang Ditingkatkan <sup>25.2</sup>
+
+Properti [number_spacing](https://reference.aspose.com/words/python-net/aspose.words/font/number_spacing/) telah ditambahkan untuk kontrol tipografi yang lebih baik.
+
+### Lainnya
+
+* PDF struktur logika telah ditingkatkan dengan dukungan untuk bidang TOA, BIBLIOGRAPHY, dan INDEX. <sup>25.2</sup>
+* Metode [add_single_level_list](https://reference.aspose.com/words/python-net/aspose.words.lists/listcollection/add_single_level_list/#listtemplate) telah diperkenalkan untuk penanganan daftar yang lebih baik. <sup>25.2</sup>
 
 {{% alert color="primary" %}}
 
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 25.1](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 25.1 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 25.2 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Words untuk Python via .NET 24.9, 24.10, 24.11, 24.12
+## Aspose.Words untuk Python melalui .NET 24.9, 24.10, 24.11, 24.12
 
-Aspose.Words 24.9 memperkenalkan penyisipan bentuk grup dan penyisipan StructuredDocumentTag via DocumentBuilder, menyempurnakan perenderan bagan radial dengan gradasi, menyempurnakan tanda tangan digital dengan dukungan XAdES-EPES, menambahkan pengenalan garis bawah Markdown, dan menyediakan akses ke pemisah catatan kaki/catatan akhir.
+Aspose.Words 24.9 memperkenalkan penyisipan group shape dan penyisipan StructuredDocumentTag melalui DocumentBuilder, menyempurnakan rendering bagan radial dengan gradasi, meningkatkan tanda tangan digital dengan dukungan XAdES-EPES, menambahkan pengenalan garis bawah Markdown, dan menyediakan akses ke pemisah catatan kaki / catatan akhir.
 
-Aspose.Words 24.10 memperkenalkan dukungan kontrol ActiveX yang disempurnakan dengan pembuatan CommandButton, kontrol visibilitas bentuk baru, kemampuan untuk mengelompokkan bentuk, peningkatan ekspor Markdown untuk tabel, pemformatan bagan untuk bagan Pie dan Donat, penanganan pengodean Big5 yang lebih baik, dan dukungan untuk font Taiwan yang sudah ketinggalan zaman.
+Aspose.Words 24.10 memperkenalkan dukungan kontrol ActiveX yang ditingkatkan dengan pembuatan CommandButton, kontrol visibilitas bentuk baru, kemampuan untuk group shapes, peningkatan ekspor Markdown untuk tabel, pemformatan bagan untuk bagan Pie dan Doughnut, penanganan penyandian Big5 yang lebih baik, dan dukungan untuk font Taiwan yang sudah ketinggalan zaman.
 
 Aspose.Words 24.11 memperkenalkan peringkasan dokumen bertenaga AI, opsi rendering yang ditingkatkan, peningkatan akses ke properti dokumen, dan teks kontrol ActiveX.
 
-Aspose.Words 24.12 memperkenalkan penempatan label data yang dapat disesuaikan, penerjemahan teks yang didukung Google AI, dan kelas pemrosesan LowCode baru yang disempurnakan.
+Aspose.Words 24.12 memperkenalkan penempatan label data yang dapat disesuaikan, terjemahan teks bertenaga Google AI, dan kelas pemrosesan LowCode baru yang disempurnakan.
 
-### Low Code <sup>24.12</sup>
+### AI-Fitur bertenaga
 
-Kelas LowCode baru seperti [Comparer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/python-net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/splitter/) dll. telah diperkenalkan, menawarkan serangkaian metode yang menghasilkan keseimbangan sempurna antara kesederhanaan dan fleksibilitas untuk pemrosesan dokumen.
-
-### AI-Fitur bertenaga <sup>24.11</sup>
+#### Ringkasan Dokumen Menggunakan OpenAI dan Google <sup>24.11</sup>
 
 Dukungan untuk peringkasan dokumen menggunakan model bahasa generatif **OpenAI** dan **Google** telah diintegrasikan dengan menambahkan namespace [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) dengan anggota publiknya.
 
-### Perenderan dan Pencetakan
+#### Terjemahan teks menggunakan model bahasa generatif Google <sup>24.12</sup>
 
-#### Graduasi pada Bagan Radial <sup>24.9</sup>
+Kemampuan untuk menerjemahkan teks menggunakan model bahasa generatif Google telah diterapkan di Aspose.Words dengan menambahkan metode [translate](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/translate/) dan pencacahan [Language](https://reference.aspose.com/words/python-net/aspose.words.ai/language/) ke namespace [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/).
 
-Perenderan gradasi pada bagan radial telah diimplementasikan.
+### Low Code <sup>24.12</sup>
 
-#### Kontrol ActiveX CommandButton <sup>24.10</sup>
+Kelas LowCode baru seperti [Comparer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/python-net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/splitter/) dll. telah diperkenalkan, menawarkan serangkaian metode yang memberikan keseimbangan sempurna antara kesederhanaan dan fleksibilitas untuk pemrosesan dokumen.
+
+### Rendering dan Pencetakan
+
+#### Kelulusan pada Grafik Radial <sup>24.9</sup>
+
+Rendering gradasi pada grafik radial telah diterapkan.
+
+#### CommandButton Kontrol ActiveX <sup>24.10</sup>
 
 Kemampuan untuk membuat kontrol ActiveX CommandButton telah diperkenalkan dengan menambahkan metode publik baru [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) dan kelas publik baru [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/).
 
@@ -71,9 +100,9 @@ Kemampuan untuk membuat kontrol ActiveX CommandButton telah diperkenalkan dengan
 
 Properti publik baru [hidden](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/hidden/) telah ditambahkan untuk mengontrol visibilitas bentuk.
 
-#### Perubahan pada Bagan Pai dan Donat <sup>24.10</sup>
+#### Perubahan pada Bagan Pie dan Doughnut <sup>24.10</sup>
 
-Beberapa properti publik baru telah ditambahkan untuk memformat bagan Pai dan Donat.
+Beberapa properti publik baru telah ditambahkan ke bagan format Pie dan Doughnut.
 
 #### Kontrol Rendering Batas Bidang Formulir Pilihan PDF <sup>24.11</sup>
 
@@ -87,19 +116,19 @@ Kemampuan untuk mendapatkan dan mengatur kode format untuk data bagan telah dita
 
 Rendering grafik histogram telah ditingkatkan dengan memungkinkan sejumlah tempat sampah dan label tertentu.
 
-#### Menyesuaikan Penempatan Label Data <sup>24.12</sup>
+#### Sesuaikan Penempatan Label Data <sup>24.12</sup>
 
-Kemampuan untuk menyesuaikan penempatan label data telah ditambahkan dengan memperkenalkan properti baru ke kelas [ChartDataLabel](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabel/) dan [ChartDataLabelCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/).
+Kemampuan untuk menyesuaikan penempatan label data telah ditambahkan dengan memperkenalkan properti baru ke kelas th [ChartDataLabel](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabel/) dan [ChartDataLabelCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/).
 
 ### Mengonversi, Memuat, dan Menyimpan Dokumen
 
-#### Pemformatan Garis Bawah saat Memuat File Markdown <sup>24.9</sup>
+#### Garis Bawahi Pemformatan saat Memuat File Markdown <sup>24.9</sup>
 
-Opsi untuk mengenali pemformatan garis bawah saat memuat dokumen Markdown telah disertakan dengan menambahkan properti publik baru [import_underline_formatting property](https://reference.aspose.com/words/python-net/aspose.words.loading/markdownloadoptions/import_underline_formatting/).
+Opsi untuk mengenali pemformatan garis bawah saat memuat dokumen Markdown telah digabungkan dengan menambahkan properti publik baru [import_underline_formatting property](https://reference.aspose.com/words/python-net/aspose.words.loading/markdownloadoptions/import_underline_formatting/).
 
 #### Mengekspor tabel sebagai HTML saat menyimpan ke Markdown <sup>24.10</sup>
 
-Opsi untuk mengekspor tabel sebagai HTML saat menyimpan dokumen ke format Markdown telah diimplementasikan dengan menambahkan properti publik baru [export_as_html](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/export_as_html/) dan enumerasi [MarkdownExportAsHtml](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownexportashtml/).
+Opsi untuk mengekspor tabel sebagai HTML saat menyimpan dokumen ke format Markdown telah diterapkan dengan menambahkan properti publik baru [export_as_html](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/export_as_html/) dan enumerasi [MarkdownExportAsHtml](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownexportashtml/).
 
 #### Ekspor PDF dengan Struktur Logika yang Diperbarui <sup>24.11</sup>
 
@@ -107,42 +136,42 @@ Ekspor PDF telah ditingkatkan dengan menyertakan properti judul tabel sebagai ju
 
 ### Tanda Tangan Digital
 
-#### Menandatangani Dokumen dengan XAdES-EPES <sup>24.9</sup>
+#### Tanda tangani Dokumen dengan XAdES-EPES <sup>24.9</sup>
 
-Kemampuan untuk menandatangani dokumen dengan tanda tangan XML-DSig level XAdES-EPES telah diperkenalkan dengan menambahkan properti publik baru [xml_dsig_level](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/xml_dsig_level/) dan enumerasi publik baru [XmlDsigLevel](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/xmldsiglevel/).
+Kemampuan untuk menandatangani dokumen dengan tanda tangan XAdES-EPES level XML-DSig telah diperkenalkan dengan menambahkan properti publik baru [xml_dsig_level](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/xml_dsig_level/) dan pencacahan publik baru [XmlDsigLevel](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/xmldsiglevel/).
 
 ### Lainnya
 
-* Metode publik baru [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) telah ditambahkan untuk mengelompokkan bentuk. <sup>24.9</sup>
-* Metode publik baru [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) telah ditambahkan untuk memasukkan **StructuredDocumentTags** ke dalam dokumen. <sup>24.9</sup>
-* Akses publik ke pemisah catatan kaki/catatan akhir telah disediakan dengan menambahkan beberapa kelas dan properti publik. <sup>24.9</sup>
-* Kemampuan untuk mengelompokkan bentuk individual, mengelompokkan bentuk bersama-sama, dan langsung mengelompokkan kedua bentuk dan mengelompokkan bentuk telah diperkenalkan dengan menambahkan metode [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/#float_float_float_float_shapebaselist). <sup>24.10</sup>
-* Penanganan pengodean Big5 untuk tabel cmap TrueType telah ditingkatkan. <sup>24.10</sup>
+* Metode publik baru [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) telah ditambahkan ke group shapes. <sup>24.9</sup>
+* Metode publik baru [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) telah ditambahkan untuk menyisipkan **StructuredDocumentTags** ke dalam dokumen. <sup>24.9</sup>
+* Akses publik ke pemisah catatan kaki / catatan akhir telah disediakan dengan menambahkan beberapa kelas dan properti publik. <sup>24.9</sup>
+* Kemampuan untuk mengelompokkan masing-masing bentuk, group shapes bersama-sama, dan langsung mengelompokkan kedua bentuk dan group shapes telah diperkenalkan dengan menambahkan metode [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/#float_float_float_float_shapebaselist). <sup>24.10</sup>
+* Penanganan penyandian Big5 untuk tabel cmap TrueType telah ditingkatkan. <sup>24.10</sup>
 * Dukungan untuk font Taiwan yang sudah ketinggalan zaman telah ditingkatkan. <sup>24.10</sup>
 * Untuk mengakses properti dokumen yang diperluas, properti hanya-baca telah ditambahkan ke kelas [BuiltInDocumentProperties](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/). <sup>24.11</sup>
 * Menyetel teks untuk kontrol ActiveX telah diaktifkan dengan menambahkan penyetel publik baru ke properti [Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/). <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 24.9](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 24.9 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/).
 
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 24.10](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 24.10 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/).
 
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 24.11](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-11-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 24.11 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-11-release-notes/).
 
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 24.12](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-12-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 24.12 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-12-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Words untuk Python via .NET 24.5, 24.6, 24.7, 24.8
+## Aspose.Words untuk Python melalui .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 memperluas opsi untuk rakitan, meningkatkan kemampuan rendering, dan memperluas beberapa opsi lainnya.
 
-Aspose.Words 24.6 meningkatkan opsi rendering, meningkatkan fungsionalitas pencarian dan perbandingan, dan memperluas beberapa fitur lainnya.
+Aspose.Words 24.6 meningkatkan opsi rendering, meningkatkan fungsionalitas penelusuran dan perbandingan, dan memperluas beberapa fitur lainnya.
 
 Aspose.Words 24.7 mengubah cara Anda bekerja dengan ActiveX, memperluas kemampuan rendering, serta mengekspor ke format Markdown dan XLSX.
 
-Aspose.Words 24.8 menyempurnakan kustomisasi bagan dengan kontrol yang tepat atas label sumbu, memperluas manajemen font, meningkatkan penanganan struktur dokumen, dan menambahkan kapabilitas baru untuk ekspor HTML/XAML, fungsionalitas PDF, konversi dokumen, dan tanda tangan digital.
+Aspose.Words 24.8 meningkatkan penyesuaian bagan dengan kontrol presisi atas label sumbu, memperluas manajemen font, meningkatkan penanganan struktur dokumen, dan menambahkan kemampuan baru untuk ekspor HTML / XAML, fungsionalitas PDF, konversi dokumen, dan tanda tangan digital.
 
 ### Format yang Didukung
 
@@ -150,45 +179,45 @@ Mulai dari versi 24.7, ekspor ke PDF/UA-2 didukung untuk memastikan aksesibilita
 
 ### Rendering dan Pencetakan
 
-#### Perubahan Charts, Shapes dan DrawingML <sup>24.5</sup>
+#### Perubahan Bagan, Bentuk, dan DrawingML <sup>24.5</sup>
 
-* Render efek DrawingML untuk grafik SVG, memperluas fungsionalitas sebelumnya yang terbatas pada gambar, telah diterapkan.
-* Dukungan untuk membuat bagan kombo dan menyesuaikan properti seperti lebar celah, tumpang tindih, dan skala gelembung dalam grup seri telah diperkenalkan dengan menambahkan kelas [ChartSeriesGroup](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroup/) dan [ChartSeriesGroupCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroupcollection/) serta properti [series_groups](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/series_groups/).
-* Fungsionalitas untuk memanipulasi efek SoftEdge bentuk telah diterapkan dengan menambahkan kelas [SoftEdgeFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing/softedgeformat/).
-* Kemampuan untuk mengubah nilai penyesuaian bentuk telah diterapkan dengan menambahkan **AdjustmentCollection** dan **Adjustment** kelas umum dan [adjustments](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/adjustments/) Properti.
+* DrawingML rendering efek untuk grafik SVG, memperluas fungsionalitas sebelumnya yang terbatas pada gambar, telah diterapkan.
+* Dukungan untuk membuat bagan kombo dan menyesuaikan properti seperti lebar celah, tumpang tindih, dan skala gelembung dalam grup deret telah diperkenalkan dengan menambahkan kelas [ChartSeriesGroup](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroup/) dan [ChartSeriesGroupCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroupcollection/) serta properti [series_groups](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/series_groups/).
+* Fungsionalitas untuk memanipulasi efek SoftEdge dari bentuk telah diimplementasikan dengan menambahkan kelas [SoftEdgeFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing/softedgeformat/).
+* Kemampuan untuk memodifikasi nilai adjust dari bentuk telah diterapkan dengan menambahkan kelas publik **AdjustmentCollection** dan **Adjustment** dan properti [adjustments](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/adjustments/).
 
 #### Perubahan Bagan, Bentuk, dan Gambar <sup>24.6</sup>
 
-* Kemampuan pembuatan grafik telah ditingkatkan. Kini Anda dapat membuat lebih banyak variasi bagan, termasuk *Peta Pohon*, *Sunburst*, *Histogram*, bagan *Pareto*, bagan *Kotak & Kumis*, *Air Terjun*, dan *Corong*. Hal ini memungkinkan Anda memvisualisasikan data dengan cara yang lebih beragam dan informatif.
-* Kontrol warna untuk pemformatan bayangan telah ditingkatkan. Anda bisa mendapatkan kontrol yang lebih tepat atas tampilan dokumen Anda dengan mengakses warna bayangan.
-* Peningkatan kinerja untuk rendering latar belakang telah ditingkatkan. Anda dapat mempercepat rendering latar belakang yang berisi elemen kecil secara signifikan berkat teknologi ubin asli.
-* Gradien realistis untuk bentuk telah ditambahkan. Anda sekarang dapat membuat bentuk DML dengan gradien non-linier, meniru gaya visual Microsoft Word untuk tampilan yang lebih halus.
+- Kemampuan pembuatan bagan telah ditingkatkan. Anda sekarang dapat membuat variasi bagan yang lebih luas, termasuk *Treemaps*, *Sunbursts*, *Histograms*, *Pareto* bagan, bagan *Box & Whisker*, *Waterfalls*, dan *Funnels*. Ini memungkinkan Anda untuk memvisualisasikan data Anda dengan cara yang lebih beragam dan informatif.
+- Kontrol warna untuk pemformatan bayangan telah ditingkatkan. Anda dapat memperoleh kontrol yang lebih tepat atas tampilan dokumen Anda dengan mengakses warna bayangan.
+- Peningkatan kinerja untuk rendering latar belakang telah ditingkatkan. Anda dapat mempercepat rendering latar belakang yang berisi elemen kecil secara signifikan berkat teknologi ubin asli.
+- Gradien realistis untuk bentuk telah ditambahkan. Anda sekarang dapat membuat bentuk DML dengan gradien non-linier, meniru gaya visual Microsoft Word untuk tampilan yang lebih halus.
 
-#### Penyesuaian Label Data Bagan <sup>24.7</sup>
+#### Kustomisasi Label Data Bagan <sup>24.7</sup>
 
 Kemampuan untuk menyesuaikan label data bagan seperti **Orientation** dan **Rotation** telah ditambahkan.
 
-#### Gaya Nomor Khusus untuk Tingkat Daftar <sup>24.7</sup>
+#### Gaya Nomor Khusus untuk Level Daftar <sup>24.7</sup>
 
-Penyetel untuk properti publik [custom_number_style_format](https://reference.aspose.com/words/python-net/aspose.words.lists/listlevel/custom_number_style_format/) telah ditambahkan. Anda sekarang dapat menentukan gaya nomor khusus untuk tingkat daftar.
+Penyetel untuk properti publik [custom_number_style_format](https://reference.aspose.com/words/python-net/aspose.words.lists/listlevel/custom_number_style_format/) telah ditambahkan. Anda sekarang dapat menentukan gaya angka khusus untuk level daftar.
 
 #### Perubahan dalam bekerja dengan ActiveX <sup>24.7</sup>
 
-* Properti objek ActiveX sekarang dapat dimodifikasi, memberi Anda kontrol lebih besar atas perilakunya.
-* Kemampuan untuk mengubah nilai tombol radio kontrol ActiveX untuk mengaktifkan interaksi dinamis telah ditambahkan.
-* Kemampuan untuk mengubah kotak centang ActiveX menjadi "dicentang" atau "tidak dicentang" telah ditambahkan.
+- Properti objek ActiveX sekarang dapat dimodifikasi, memberi Anda kontrol lebih besar atas perilakunya.
+- Kemampuan untuk mengubah nilai kontrol ActiveX tombol radio untuk mengaktifkan interaksi dinamis telah ditambahkan.
+- Kemampuan untuk mengubah ActiveX checkbox menjadi "dicentang " atau" tidak dicentang " telah ditambahkan.
 
-#### Kontrol Atas Orientasi dan Rotasi Label Centang Sumbu Bagan <sup>24.8</sup>
+#### Kontrol Atas Sumbu Bagan Centang Label Orientasi dan Rotasi <sup>24.8</sup>
 
-Kontrol yang tepat atas orientasi dan rotasi label centang sumbu bagan telah ditambahkan untuk kustomisasi bagan yang lebih mudah – kelas [AxisTickLabels](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/) telah diperluas dengan properti [orientation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/orientation/) dan [rotation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/rotation/) yang baru.
+Kontrol yang tepat atas orientasi dan rotasi label centang sumbu bagan telah ditambahkan untuk penyesuaian bagan yang lebih nyaman-kelas [AxisTickLabels](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/) telah diperluas dengan properti [orientation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/orientation/) dan [rotation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisticklabels/rotation/) yang baru.
 
 #### Mengganti Garis Miring Terbalik dengan Tanda Yen <sup>24.8</sup>
 
-Ekspor HTML dan XAML yang kompatibel dengan versi sebelumnya untuk mengganti karakter garis miring terbalik dengan tanda Yen telah ditingkatkan. Untuk mencapai hal ini, properti **replace_backslash_with_yen_sign** telah ditambahkan ke kelas [HtmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/) dan [XamlFlowSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xamlflowsaveoptions/).
+Ekspor HTML dan XAML yang kompatibel ke belakang untuk mengganti karakter garis miring terbalik dengan tanda Yen telah ditingkatkan. Untuk mencapai hal ini, properti **replace_backslash_with_yen_sign** telah ditambahkan ke kelas [HtmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/) dan [XamlFlowSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xamlflowsaveoptions/).
 
 #### Menggunakan Tag SDT sebagai Nama Bidang Formulir saat Mengekspor ke PDF <sup>24.8</sup>
 
-Ekspor PDF dengan dukungan penggunaan tag SDT sebagai nama bidang formulir telah ditingkatkan dengan menambahkan properti [use_sdt_tag_as_form_field_name](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_sdt_tag_as_form_field_name/) baru ke kelas [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/).
+Ekspor PDF dengan dukungan untuk menggunakan tag SDT sebagai nama bidang formulir telah ditingkatkan dengan menambahkan properti [use_sdt_tag_as_form_field_name](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_sdt_tag_as_form_field_name/) baru ke kelas [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/).
 
 ### Mengonversi, Memuat, dan Menyimpan Dokumen
 
@@ -196,110 +225,110 @@ Ekspor PDF dengan dukungan penggunaan tag SDT sebagai nama bidang formulir telah
 
 Kemampuan untuk mengontrol ekspor tautan dalam format Markdown telah ditambahkan melalui penerapan properti [link_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/link_export_mode/).
 
-#### LowCode <sup>24.8</sup>
+#### LowCode 24.8 <sup>24.8</sup>
 
-Kelas [LowCode.Converter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/converter/) baru, yang dirancang untuk menyediakan serangkaian metode guna mengonversi berbagai jenis dokumen dengan satu baris kode, telah diperkenalkan.
+Kelas [LowCode.Converter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/converter/) baru, yang dirancang untuk menyediakan serangkaian metode untuk mengonversi berbagai jenis dokumen dengan satu baris kode, telah diperkenalkan.
 
 ### Cari dan Bandingkan
 
 #### Opsi Perbandingan Lanjutan <sup>24.6</sup>
-Kemampuan untuk menyederhanakan alur kerja analisis data dengan fungsionalitas perbandingan yang ditingkatkan telah ditambahkan. Ini mencakup opsi [ignore_store_item_id](https://reference.aspose.com/words/python-net/aspose.words.comparing/advancedcompareoptions/ignore_store_item_id/) baru dan antarmuka yang didesain ulang untuk perbandingan lanjutan.
+
+Kemampuan untuk merampingkan alur kerja analisis data dengan fungsionalitas perbandingan yang ditingkatkan telah ditambahkan. Ini termasuk opsi [ignore_store_item_id](https://reference.aspose.com/words/python-net/aspose.words.comparing/advancedcompareoptions/ignore_store_item_id/) baru dan antarmuka yang didesain ulang untuk perbandingan lanjutan.
 
 ### Lainnya
 
-* Fungsi untuk menghilangkan halaman kosong dari dokumen telah diterapkan dengan menambahkan metode [remove_blank_pages](https://reference.aspose.com/words/python-net/aspose.words/document/remove_blank_pages/). <sup>24.5</sup>
+* Fungsi untuk menghilangkan halaman kosong dari dokumen telah diimplementasikan dengan menambahkan metode [remove_blank_pages](https://reference.aspose.com/words/python-net/aspose.words/document/remove_blank_pages/). <sup>24.5</sup>
 * Kemampuan untuk memeriksa keberadaan makro VBA tanpa memuat dokumen telah disediakan dengan menambahkan properti [has_macros](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/has_macros/). <sup>24.5</sup>
-* Menyimpan penomoran sumber saat memasukkan dokumen menggunakan Mesin Pelaporan LINQ kini didukung. <sup>24.5</sup>
-* Properti [date_time_utc](https://reference.aspose.com/words/python-net/aspose.words/comment/date_time_utc/) baru telah ditambahkan – ini memberikan stempel waktu yang lebih tepat untuk komentar, meningkatkan pengorganisasian, dan ketertelusuran. <sup>24.6</sup>
-* Mesin Pelaporan LINQ telah ditingkatkan. Penghapusan selektif paragraf kosong dan definisi pesan khusus untuk anggota objek yang hilang telah dilakukan, menghasilkan laporan yang lebih bersih dan informatif. <sup>24.6</sup>
-* Format tanggalwaktu sekarang secara otomatis terdeteksi untuk ekspor tanpa batas ke format XLSX. <sup>24.7</sup>
+* Mempertahankan penomoran sumber saat menyisipkan dokumen menggunakan Mesin Pelaporan LINQ sekarang didukung. <sup>24.5</sup>
+* Properti [date_time_utc](https://reference.aspose.com/words/python-net/aspose.words/comment/date_time_utc/) baru telah ditambahkan – ini memberikan stempel waktu yang lebih tepat untuk komentar, meningkatkan organisasi, dan keterlacakan. <sup>24.6</sup>
+* Format datetime sekarang secara otomatis terdeteksi untuk ekspor tanpa batas ke format XLSX. <sup>24.7</sup>
 * Properti publik [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/), yang memungkinkan Anda memverifikasi apakah proyek VBA dilindungi, telah ditambahkan. <sup>24.7</sup>
-* Informasi font telah diperluas dengan properti **embedding_licensing_rights** yang ditambahkan ke kelas [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) dan [PhysicalFontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/physicalfontinfo/). <sup>24.8</sup>
-* Cara untuk menghapus header dan footer bagian secara efisien sambil mempertahankan tanda air telah ditambahkan agar dapat bekerja dengan struktur dokumen secara lebih akurat. Untuk menghapus header dan footer bagian, gunakan metode publik baru [clear_headers_footers](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/#default). <sup>24.8</sup>
-* Penandatanganan digital dokumen XPS menggunakan [XpsSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/) telah diaktifkan – properti baru [digital_signature_details](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/digital_signature_details/) telah ditambahkan untuk tujuan ini. <sup>24.8</sup>
+* Informasi font telah diperluas dengan properti **embedding_licensing_rights** ditambahkan ke kelas [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) dan [PhysicalFontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/physicalfontinfo/). <sup>24.8</sup>
+* Cara untuk menghapus header dan footer bagian secara efisien sambil mempertahankan tanda air telah ditambahkan untuk bekerja lebih akurat dengan struktur dokumen. Untuk menghapus header dan footer bagian, gunakan metode publik baru [clear_headers_footers](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/#default). <sup>24.8</sup>
+* Penandatanganan digital dokumen XPS menggunakan [XpsSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/) telah diaktifkan-properti baru [digital_signature_details](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/digital_signature_details/) telah ditambahkan untuk tujuan ini. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 24.5](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-5-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 24.5 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-5-release-notes/).
 
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 24.6](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 24.6 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/).
 
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 24.7](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-7-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 24.7 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-7-release-notes/).
 
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 24.8](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-8-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 24.8 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-8-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Words untuk Python via .NET 24.1, 24.2, 24.3, 24.4
+## Aspose.Words untuk Python melalui .NET 24.1, 24.2, 24.3, 24.4
 
-Aspose.Words 24.1 meningkatkan pengalaman dalam mengelola warna guratan, menyempurnakan objek OLE, serta memperkenalkan API publik Sumber Bibliografi baru.
+Aspose.Words 24.1 meningkatkan pengalaman seputar pengelolaan warna guratan, menyempurnakan objek OLE, serta memperkenalkan publik `Bibliography Sources` baru API.
 
-Aspose.Words 24.2 memperluas API Charts, dan manajemen gaya. Versi Aspose.Words ini juga memperkenalkan kemampuan untuk menentukan SvgSaveOptions selama rendering, kontrol yang lebih fleksibel dalam memuat file Markdown, dan bekerja dengan teks referensi untuk catatan kaki dan catatan akhir.
+Aspose.Words 24.2 Bagan yang diperluas API dan manajemen gaya. Versi Aspose.Words ini juga memperkenalkan kemampuan untuk menentukan SvgSaveOptions selama rendering, kontrol yang lebih fleksibel saat memuat file Markdown, dan bekerja dengan teks referensi untuk catatan kaki dan catatan akhir.
 
-Aspose.Words 24.3 memperkenalkan pembaca/pemutar TIFF baru dan emulasi operasi raster biner untuk metafile WMF. Aspose.Words 24.3 juga terus memperluas API Grafik.
+Aspose.Words 24.3 memperkenalkan Pembaca/Penulis TIFF baru dan Meniru operasi raster biner untuk WMF metafile. Aspose.Words 24.3 juga terus memperluas Bagan API.
 
-Aspose.Words 24.4 meningkatkan penyimpanan format, beberapa opsi rendering, serta meningkatkan kerja dengan tanda tangan digital.
+Aspose.Words 24.4 meningkatkan format penyimpanan, beberapa opsi rendering, serta meningkatkan pekerjaan dengan tanda tangan digital.
 
 ### Format yang Didukung <sup>24.4</sup>
 
-Format gambar **WebP** modern kini didukung di Aspose.Words untuk .NET Framework 4.6.2 dan yang lebih tinggi. Anda sekarang dapat membaca dan menyisipkan gambar WebP ke dalam dokumen, serta menyimpan gambar dalam format WebP.
+Format gambar **WebP** modern sekarang didukung di Aspose.Words untuk .NET Framework 4.6.2 dan lebih tinggi. Anda sekarang dapat membaca dan menyisipkan gambar WebP ke dalam dokumen, serta menyimpan gambar dalam format WebP.
 
-Harap dicatat bahwa WebP saat ini hanya tersedia di .NET Standard dan .NET Framework v4.6.2 dan di atasnya.
+Harap perhatikan bahwa WebP saat ini hanya tersedia di .NET Standard dan .NET Framework v4.6.2 ke atas.
 
 ### Rendering dan Pencetakan
 
 #### Kontrol Warna Goresan <sup>24.1</sup>
 
-Kelas [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) telah diperluas dengan serangkaian properti publik baru yang terkait dengan pengelolaan warna guratan: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_theme_color/) dan [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_tint_and_shade/) dan [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_tint_and_shade/).
+Kelas [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) telah diperluas dengan sekumpulan properti publik baru yang terkait dengan pengelolaan warna guratan: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_theme_color/) dan [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_tint_and_shade/) dan [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_tint_and_shade/).
 
-#### Ekstensi DrawingML Charts API <sup>24.2 / 24.3 / 24.4</sup>
+#### DrawingML Bagan API Ekstensi <sup>24.2 / 24.3 / 24.4</sup>
 
 **DrawingML Charts API** terus diperluas.
 
-#### Menyematkan Font yang Dideklarasikan dalam Aturan @font-face <sup>24.4</sup>
+#### Sematkan Font yang Dideklarasikan dalam Aturan @font-face <sup>24.4</sup>
 
-Ditambahkan kemampuan untuk menyematkan font yang dideklarasikan dalam aturan @font-face ke dalam definisi font dokumen yang dihasilkan dengan menambahkan properti baru bernama [support_font_face_rules](https://reference.aspose.com/words/python-net/aspose.words.loading/htmlloadoptions/support_font_face_rules/).
+Menambahkan kemampuan untuk menyematkan font yang dideklarasikan dalam aturan @font-face ke dalam definisi font dokumen yang dihasilkan telah diperkenalkan dengan menambahkan properti [support_font_face_rules](https://reference.aspose.com/words/python-net/aspose.words.loading/htmlloadoptions/support_font_face_rules/) baru.
 
-#### Bekerja dengan Format Cahaya dan Pantulan <sup>24.4</sup>
+#### Bekerja dengan Pemformatan Cahaya dan Refleksi <sup>24.4</sup>
 
-Kemampuan untuk bekerja dengan format cahaya dan pantulan untuk objek gambar telah diimplementasikan.
+Kemampuan untuk bekerja dengan pemformatan cahaya dan refleksi untuk objek gambar telah diterapkan.
 
 ### Memuat dan Menyimpan Dokumen
 
 #### Tentukan SvgSaveOptions Selama Rendering <sup>24.2</sup>
 
-Kemampuan untuk menentukan [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/) selama rendering telah ditambahkan menggunakan metode [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/).[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions) dan [OfficeMathRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/officemathrenderer/).[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions).
+Kemampuan untuk menentukan [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/) selama rendering telah ditambahkan menggunakan [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/).[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions) dan [OfficeMathRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/officemathrenderer/).[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions) metode.
 
 #### Pertahankan Baris Kosong saat Memuat file Markdown <sup>24.2</sup>
 
 Kemampuan untuk mempertahankan baris kosong saat memuat file Markdown telah ditambahkan.
 
-#### Pembaca/Pemutar TIFF Baru <sup>24.3</sup>
+#### Pembaca/Penulis TIFF Baru <sup>24.3</sup>
 
-Pembaca/pemutar TIFF baru telah dikembangkan untuk Aspose.Words. Aspose.Words untuk .NET 24.3 menambahkan dukungan untuk membaca gambar TIFF dengan tipe kompresi JPEG dan Old JPEG, dan juga secara signifikan meningkatkan kualitas operasi baca dan tulis.
+Pembaca/penulis TIFF baru untuk Aspose.Words telah dikembangkan. Aspose.Words untuk .NET 24.3 menambahkan dukungan untuk membaca gambar TIFF dengan tipe kompresi JPEG dan JPEG Lama, dan juga meningkatkan kualitas operasi baca dan tulis secara signifikan.
 
 ### Lainnya
 
-* Kemampuan untuk memodifikasi teks kontrol `TextBox` OLE telah diperkenalkan dengan menambahkan properti **Text** baru ke kelas **TextBoxControl** baru. <sup>24.1</sup>
-* API publik Sumber Bibliografi diimplementasikan melalui penambahan namespace [Aspose.Words.Bibliography](https://reference.aspose.com/words/python-net/aspose.words.bibliography/) baru dengan kelas dan enumerasi baru, dan melalui penambahan properti [bibliography](https://reference.aspose.com/words/python-net/aspose.words/document/bibliography/) baru ke kelas [Document](https://reference.aspose.com/words/python-net/aspose.words/document/). <sup>24.1</sup>
-* Properti publik baru [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/), [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/), dan [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) untuk manajemen gaya yang ditingkatkan telah ditambahkan ke kelas [Style](https://reference.aspose.com/words/python-net/aspose.words/style/). <sup>24.2</sup>
-* Fungsi untuk mengambil teks tanda referensi sebenarnya untuk catatan kaki dan catatan akhir telah ditingkatkan dengan properti [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) dan metode [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default). <sup>24.2</sup>
-* Emulasi operasi raster biner untuk metafile WMF telah diimplementasikan. <sup>24.3</sup>
-* Kemampuan untuk menentukan opsi tanda tangan untuk dokumen dalam SaveOptions telah diaktifkan dengan menambahkan kelas baru bernama [DigitalSignatureDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/digitalsignaturedetails/) dengan anggota publik baru, serta menambahkan properti baru ke dalam kelas-kelas [OoxmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/), dan [OdtSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/odtsaveoptions/). <sup>24.4</sup>
+* Kemampuan untuk memodifikasi teks dari kontrol `TextBox` OLE telah diperkenalkan dengan menambahkan properti **Text** baru ke kelas **TextBoxControl** yang baru. <sup>24.1</sup>
+* Bibliography Sources public API diimplementasikan melalui penambahan namespace baru [Aspose.Words.Bibliography](https://reference.aspose.com/words/python-net/aspose.words.bibliography/) dengan kelas dan enumerasi barunya, dan melalui penambahan properti [bibliography](https://reference.aspose.com/words/python-net/aspose.words/document/bibliography/) baru ke kelas [Document](https://reference.aspose.com/words/python-net/aspose.words/document/). <sup>24.1</sup>
+* Properti publik baru [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/), [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/), dan [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) untuk manajemen gaya yang disempurnakan telah ditambahkan ke kelas [Style](https://reference.aspose.com/words/python-net/aspose.words/style/). <sup>24.2</sup>
+* Fungsionalitas untuk mengambil teks tanda referensi aktual untuk catatan kaki dan catatan akhir telah ditingkatkan dengan properti [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) dan metode [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default). <sup>24.2</sup>
+* Emulasi operasi raster biner untuk WMF metafile telah diterapkan. <sup>24.3</sup>
+* Kemampuan untuk menentukan opsi tanda tangan untuk dokumen dalam **SaveOptions** telah diaktifkan dengan menambahkan kelas [DigitalSignatureDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/digitalsignaturedetails/) baru dengan anggota publik baru, serta menambahkan properti baru ke kelas [OoxmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/), dan [OdtSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/odtsaveoptions/). <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 24.1](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-1-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 24.1 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-1-release-notes/).
 
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 24.2](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 24.2 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/).
 
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 24.3](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-3-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 24.3 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-3-release-notes/).
 
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 24.4](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-4-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 24.4 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-4-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Words untuk Python via .NET 23.9, 23.10, 23.11, 23.12
+## Aspose.Words untuk Python melalui .NET 23.9, 23.10, 23.11, 23.12
 
 Aspose.Words 23.9 memperluas opsi rendering, emulasi rendering metafile, dan opsi penyimpanan markdown.
 
@@ -307,47 +336,47 @@ Aspose.Words 23.10 meningkatkan rendering, memperluas opsi untuk memuat dan meny
 
 Aspose.Words 23.11 menyempurnakan pekerjaan dengan revisi, format XLSX, dan font pada legenda bagan dengan opsi tambahan.
 
-Aspose.Words 23.12 memperkenalkan properti dan enumerasi baru untuk bekerja dengan dokumen PDF dan OOXML, serta dukungan untuk gambar WebP.
+Aspose.Words 23.12 memperkenalkan properti dan pencacahan baru untuk bekerja dengan dokumen PDF dan OOXML, serta dukungan untuk gambar WebP.
 
 ### Rendering dan Pencetakan
 
-#### Menyesuaikan Judul Sumbu di DrawingML Charts <sup>23.9</sup>
+#### Menyesuaikan Judul Sumbu dalam Bagan DrawingML <sup>23.9</sup>
 
-Kemampuan untuk menyesuaikan judul sumbu dalam bagan DrawingML telah diperkenalkan melalui penerapan properti [ChartAxisTitle](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxistitle/) dan [title](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/title/) kelas publik baru.
+Kemampuan untuk menyesuaikan judul sumbu dalam bagan DrawingML telah diperkenalkan dengan penerapan properti kelas publik baru [ChartAxisTitle](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxistitle/) dan [title](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/title/).
 
-####  Menentukan Posisi Vertikal Font dalam Paragraf <sup>23.9</sup>
+####  Menentukan Posisi Vertikal Font dalam sebuah Paragraf <sup>23.9</sup>
 
-Sekarang dimungkinkan untuk menentukan posisi vertikal font dalam paragraf menggunakan properti [baseline_alignment](https://reference.aspose.com/words/python-net/aspose.words/paragraphformat/baseline_alignment/) publik baru dan enumerasi [BaselineAlignment](https://reference.aspose.com/words/python-net/aspose.words/baselinealignment/) baru.
+Sekarang dimungkinkan untuk menentukan posisi vertikal font dalam paragraf menggunakan properti public [baseline_alignment](https://reference.aspose.com/words/python-net/aspose.words/paragraphformat/baseline_alignment/) baru dan enumerasi [BaselineAlignment](https://reference.aspose.com/words/python-net/aspose.words/baselinealignment/) baru.
 
 #### Kontrol Warna Latar Depan <sup>23.10</sup>
 
 Kemampuan untuk mengambil warna latar depan tanpa pengubah telah ditambahkan ke kelas [Fill](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/) dan [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) melalui properti **BaseForeColor**.
 
-#### Memperluas Fungsi Grafik <sup>23.10</sup>
+#### Memperluas Fungsionalitas Bagan <sup>23.10</sup>
 
 Fungsionalitas kelas [ChartDataPointCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatapointcollection/), [ChartSeries](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseries/), dan [ChartFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartformat/) telah diperluas dengan metode dan properti baru.
 
-#### Secara Otomatis Menyesuaikan dan Menyesuaikan Gambar ke dalam Bentuk <sup>23.10</sup>
+#### Secara Otomatis Menyesuaikan dan Menyesuaikan Gambar menjadi Bentuk <sup>23.10</sup>
 
-Cara sederhana untuk secara otomatis menyesuaikan dan menyesuaikan gambar dalam bentuk tertentu telah disediakan melalui metode [fit_image_to_shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/imagedata/fit_image_to_shape/#default) baru.
+Cara sederhana untuk menyesuaikan dan menyesuaikan gambar secara otomatis dalam bentuk tertentu telah disediakan melalui metode [fit_image_to_shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/imagedata/fit_image_to_shape/#default) yang baru.
 
 #### Pemformatan Font Default untuk Entri Legenda Bagan DrawingML <sup>23.11</sup>
 
-Kemampuan untuk menentukan format font default untuk entri legenda diagram DrawingML telah ditambahkan melalui properti [font](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartlegend/font/). Fitur ini memfasilitasi tampilan elemen bagan yang lebih ramping dan konsisten, sehingga meningkatkan estetika dokumen secara keseluruhan.
+Kemampuan untuk menentukan pemformatan font default untuk entri legenda bagan DrawingML telah ditambahkan melalui properti [font](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartlegend/font/). Fitur ini memfasilitasi tampilan yang lebih ramping dan konsisten untuk elemen bagan, meningkatkan estetika dokumen secara keseluruhan.
 
 #### Tentukan Tata Letak Halaman saat Membuka PDF di Pembaca <sup>23.12</sup>
 
-Kemampuan untuk menentukan tata letak halaman yang akan digunakan saat membuka dokumen di pembaca PDF telah ditambahkan melalui pengenalan properti [page_layout](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/page_layout/) baru ke kelas [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) dan pengenalan enumerasi [PdfPageLayout](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfpagelayout/) baru.
+Kemampuan untuk menentukan tata letak halaman yang akan digunakan saat membuka dokumen di pembaca PDF telah ditambahkan melalui pengenalan properti [page_layout](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/page_layout/) baru ke kelas [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) dan pengenalan pencacahan [PdfPageLayout](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfpagelayout/) baru.
 
 ### Memuat dan Menyimpan Dokumen
 
-#### Menentukan Nama Folder untuk Membuat URI Gambar di Markdown <sup>23.9</sup>
+#### Menentukan Nama Folder untuk Membuat Image URIs dalam Markdown <sup>23.9</sup>
 
-Kelas [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) telah diperluas dengan menyertakan properti [images_folder_alias](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/images_folder_alias/), yang memungkinkan untuk menentukan nama folder yang digunakan untuk membuat URI gambar yang ditulis ke dalam dokumen Markdown.
+Kelas [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) telah diperluas dengan menyertakan properti [images_folder_alias](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/images_folder_alias/), yang memungkinkan untuk menentukan nama folder yang digunakan untuk membuat gambar URIs yang ditulis ke dalam dokumen Markdown.
 
-#### Kurangi Ukuran Output PDF <sup>23.10</sup>
+#### Kurangi Ukuran Keluaran PDF <sup>23.10</sup>
 
-Berbagai optimasi rendering PDF untuk mengurangi ukuran keluaran saat menggunakan pengaturan [optimize_output](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/optimize_output/) telah diterapkan.
+Berbagai pengoptimalan rendering PDF untuk mengurangi ukuran keluaran saat menggunakan pengaturan [optimize_output](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/optimize_output/) telah diterapkan.
 
 #### Mengenali Hyperlink saat Memuat Dokumen TXT <sup>23.10</sup>
 
@@ -356,52 +385,52 @@ Fitur untuk mengenali hyperlink saat memuat dokumen TXT telah diterapkan dengan 
 ### Lainnya
 
 - Emulasi rendering metafile untuk menentukan ukuran rasterisasi telah diterapkan, khususnya untuk lebar pena WMF dan lebar pena kosmetik EMF. Untuk mencapai hal ini, properti **ScaleWmfFontsToMetafileSize** diganti dengan properti [emulate_rendering_to_size_on_page](https://reference.aspose.com/words/python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page/) dan properti [emulate_rendering_to_size_on_page_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page_resolution/) ditambahkan. <sup>23.9</sup>
-- Metode sederhana untuk menyisipkan satu dokumen ke dokumen lain pada posisi kursor saat ini telah diperkenalkan menggunakan metode [insert_document_inline](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_document_inline/#document_importformatmode_importformatoptions). <sup>23.10</sup>
-- Kemampuan untuk mengakses dan memodifikasi properti gaya telah ditambahkan melalui pengenalan properti [locked](https://reference.aspose.com/words/python-net/aspose.words/style/locked/) baru. <sup>23.10</sup>
+- Metode yang disederhanakan untuk menyisipkan satu dokumen ke dokumen lain pada posisi kursor saat ini telah diperkenalkan menggunakan metode [insert_document_inline](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_document_inline/#document_importformatmode_importformatoptions). <sup>23.10</sup>
+- Kemampuan untuk mengakses dan memodifikasi properti gaya telah ditambahkan melalui pengenalan properti [locked](https://reference.aspose.com/words/python-net/aspose.words/style/locked/) yang baru. <sup>23.10</sup>
 - Parameter tipe generik telah ditambahkan ke metode kelas [CompositeNode](https://reference.aspose.com/words/python-net/aspose.words/compositenode/). <sup>23.10</sup>
-- Kemampuan untuk menulis semua bagian dokumen ke lembar kerja XLSX yang sama telah disediakan melalui tipe enumerasi [XlsxSectionMode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsectionmode/) baru dan properti [section_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/section_mode/) baru. <sup>23.11</sup>
-* Cara untuk mengontrol bagaimana ekstensi format ZIP64 akan digunakan untuk dokumen OOXML telah diterapkan melalui properti Zip64Mode baru dari kelas `OoxmlSaveOptions` dan enumerasi Zip64Mode baru. <sup>23.12</sup>
-* Dukungan untuk gambar WebP telah diperkenalkan. Harap diperhatikan bahwa fitur ini hanya tersedia untuk versi .NetStandart dan .NET6+. <sup>23.12</sup>
+- Kemampuan untuk menulis semua bagian dokumen ke lembar kerja XLSX yang sama telah disediakan melalui tipe enumerasi [XlsxSectionMode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsectionmode/) yang baru dan properti [section_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/section_mode/) yang baru. <sup>23.11</sup>
+* Cara untuk mengontrol bagaimana ekstensi format ZIP64 akan digunakan untuk dokumen OOXML telah diterapkan melalui properti Zip64Mode baru dari kelas `OoxmlSaveOptions` dan enumerasi Zip64Mode yang baru. <sup>23.12</sup>
+* Dukungan untuk gambar WebP telah diperkenalkan. Harap dicatat bahwa fitur ini hanya tersedia untuk .versi NetStandart dan .NET6+. <sup>23.12</sup>
 
 {{% alert color="primary" %}}
 
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 23.9](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-9-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 23.9 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-9-release-notes/).
 
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 23.10](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-10-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 23.10 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-10-release-notes/).
 
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 23.11](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-11-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 23.11 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-11-release-notes/).
 
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 23.12](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-12-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk .NET 23.12 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-12-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Words untuk Python via .NET 23.5, 23.6, 23.7, 23.8
+## Aspose.Words untuk Python melalui .NET 23.5, 23.6, 23.7, 23.8
 
-Aspose.Words 23.5 meningkatkan kemampuan untuk bekerja dengan data seri bagan dan kemampuan untuk bekerja dengan dokumen ODT, serta meningkatkan header/footer dan pembungkusan teksnya.
+Aspose.Words 23.5 meningkatkan kemampuan untuk bekerja dengan data deret bagan dan kemampuan untuk bekerja dengan dokumen ODT, serta meningkatkan header/footer dan pembungkusan teksnya.
 
-Aspose.Words 23.6 memperluas opsi rendering, menambahkan format ekspor baru, meningkatkan pelaporan LINQ dan alat LowCode.
+Aspose.Words 23.6 memperluas opsi rendering, menambahkan format ekspor baru, meningkatkan pelaporan LINQ, dan alat LowCode.
 
-Aspose.Words 23.7 meningkatkan kemampuan pelaporan, menambahkan format ekspor baru, dan memperkenalkan perubahan dalam bekerja dengan tabel dan tanda tangan digital.
+Aspose.Words 23.7 meningkatkan kemampuan pelaporan, menambahkan format ekspor baru, dan memperkenalkan perubahan untuk bekerja dengan tabel dan tanda tangan digital.
 
-Aspose.Words 23.8 memperluas kemampuan berbagai format, meningkatkan rendering, dan menambahkan opsi baru untuk bekerja dengan bidang
+Aspose.Words 23.8 memperluas kemampuan format yang berbeda, meningkatkan rendering, dan menambahkan opsi baru untuk bekerja dengan bidang.
 
 ### Format yang Didukung
 
-* Mulai versi 23.6, dimungkinkan untuk menyimpan dokumen dalam format XLSX. Sekarang Anda dapat mengonversi dokumen Anda ke format Excel. <sup>23.6</sup>
+* Dimulai dengan versi 23.6, dimungkinkan untuk menyimpan dokumen dalam format XLSX. Sekarang Anda dapat mengonversi dokumen Anda ke format Excel. <sup>23.6</sup>
 
-* Mulai versi 23.7, halaman atau bentuk dokumen dapat disimpan dalam format EPS. <sup>23.7</sup>
+* Dimulai dengan versi 23.7, dimungkinkan untuk menyimpan halaman atau bentuk dokumen dalam format EPS. <sup>23.7</sup>
 
 ### Fitur Format Baru
 
-- Fungsi untuk secara otomatis menghasilkan Daftar Isi (TOC) untuk dokumen MOBI telah diperkenalkan. <sup>23.8</sup>
+- Fungsionalitas untuk membuat Daftar Isi (TOC) secara otomatis untuk dokumen MOBI telah diperkenalkan. <sup>23.8</sup>
 - Konstruktor [PdfEncryptionDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions) telah diperluas dengan [PdfPermissions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions). <sup>23.8</sup>
-- Pembentukan teks vertikal untuk metafile EMF telah diterapkan. <sup>23.8</sup>
+- Pembentukan teks vertikal untuk EMF metafile telah diterapkan. <sup>23.8</sup>
 
-### Render
+### Rendering
 
-#### Mendapatkan dan Memodifikasi Data Seri Bagan <sup>23.5</sup>
+#### Dapatkan dan Modifikasi Data Deret Bagan <sup>23.5</sup>
 
-Fitur untuk mendapatkan dan mengubah data rangkaian grafik disediakan dengan menambahkan:
+Fitur untuk mendapatkan dan memodifikasi data deret bagan disediakan dengan menambahkan:
 
 - kelas baru: [ChartXValue](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartmultilevelvalue/)
 - tipe enum baru: [ChartXValueType](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvaluetype/)
@@ -410,13 +439,13 @@ Fitur untuk mendapatkan dan mengubah data rangkaian grafik disediakan dengan men
 
 Dukungan untuk Tipografi Tingkat Lanjut dalam rendering WMF, EMF dan EMF+ telah ditambahkan.
 
-#### Konten Berwarna di Halaman <sup>23.6</sup>
+#### Konten Berwarna pada Halaman <sup>23.6</sup>
 
-[PageInfo.colored](https://reference.aspose.com/words/python-net/aspose.words.rendering/pageinfo/colored/) milik publik, yang menunjukkan apakah halaman tersebut berwarna atau tidak, telah ditambahkan.
+Properti publik [PageInfo.colored](https://reference.aspose.com/words/python-net/aspose.words.rendering/pageinfo/colored/), yang menunjukkan apakah halaman diwarnai atau tidak, telah ditambahkan.
 
-#### Pemformatan Label Data Bagan <sup>23.6</sup>
+#### Pemformatan untuk Label Data Bagan <sup>23.6</sup>
 
-Kemampuan untuk mengatur format isi, guratan, dan info untuk label data bagan telah diterapkan.
+Kemampuan untuk mengatur pemformatan isian, guratan, dan info untuk label data bagan telah diterapkan.
 
 ### Mail Merge dan Pelaporan
 
@@ -426,15 +455,15 @@ Cara baru penyisipan HTML dinamis untuk Mesin Pelaporan LINQ telah ditambahkan.
 
 #### Dukungan Tag Mustache <sup>23.7</sup>
 
-Tag Mustache kini didukung dalam metode [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/get_regions_hierarchy/) dan [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/get_field_names_for_region/).
+Tag Mustache sekarang didukung dalam metode [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/get_regions_hierarchy/) dan [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/get_field_names_for_region/).
 
 #### Menentukan Ukuran Gambar yang Dirender <sup>23.8</sup>
 
-[image_size](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/image_size/) milik publik baru untuk menentukan ukuran gambar yang dirender dalam piksel telah diperkenalkan.
+Properti publik baru [image_size](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/image_size/) untuk menentukan ukuran gambar yang dirender dalam piksel telah diperkenalkan.
 
-#### Pertahankan Spasi untuk Nilai String JSON – LINQ <sup>23.8</sup>
+#### Pertahankan Spasi Kosong untuk Nilai String JSON - LINQ <sup>23.8</sup>
 
-Opsi telah ditambahkan ke Mesin Pelaporan LINQ untuk mempertahankan spasi putih untuk nilai string JSON.
+Opsi telah ditambahkan ke Mesin Pelaporan LINQ untuk mempertahankan spasi kosong untuk nilai string JSON.
 
 ### LowCode <sup>23.6</sup>
 
@@ -442,116 +471,28 @@ Metode LowCode baru yang dimaksudkan untuk menggabungkan berbagai jenis dokumen 
 
 ### Lainnya
 
-- Dukungan untuk pembungkusan teks di header/footer telah diterapkan. <sup>23.5</sup>
+- Dukungan untuk pembungkusan teks di header / footer telah diterapkan. <sup>23.5</sup>
 - Kemampuan untuk menghapus tanda tangan digital dari dokumen ODT telah ditambahkan melalui metode [RemoveAllSignatures](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignatureutil/remove_all_signatures/#str_str). <sup>23.5</sup>
-- [phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/phonetic_guide/) milik publik untuk mendapatkan teks dasar dan rubi dari panduan fonetik [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) telah ditambahkan. <sup>23.5</sup>
-- Kemampuan untuk mengambil nilai tanda tangan digital dari dokumen yang ditandatangani secara digital sebagai array byte telah ditambahkan dengan memperkenalkan properti [signature_value](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/signature_value/) baru. <sup>23.7</sup>
-- Kelas [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) dan [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) telah diperluas dengan anggota publik baru – [Row.next_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/next_row/), [Row.previous_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/previous_row/), [Cell.next_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/next_cell/), dan [Cell.previous_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/previous_cell/). <sup>23.7</sup>
+- Properti publik [phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/phonetic_guide/) untuk mendapatkan teks dasar dan rubi dari panduan fonetik [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) telah ditambahkan. <sup>23.5</sup>
+- Kemampuan untuk mengambil nilai tanda tangan digital dari dokumen yang ditandatangani secara digital sebagai larik byte telah ditambahkan dengan memperkenalkan properti [signature_value](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/signature_value/) baru. <sup>23.7</sup>
+- Kelas [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) dan [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) telah diperpanjang dengan anggota publik baru– [Row.next_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/next_row/), [Row.previous_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/previous_row/), [Cell.next_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/next_cell/), dan [Cell.previous_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/previous_cell/). <sup>23.7</sup>
 
 {{% alert color="primary" %}}
 
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 23.5](/words/python-net/aspose-words-for-python-via-dotnet-23-5-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 23.5 Catatan Rilis](/words/python-net/aspose-words-for-python-via-dotnet-23-5-release-notes/).
 
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 23.6](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 23.6 Catatan Rilis](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 23.7](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 23.7 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 23.8](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 23.8 Catatan Rilis](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Words untuk Python via .NET 23.1, 23.2, 23.3, 23.4
-
-Aspose.Words 23.1 meningkatkan kinerja emulasi operasi raster, serta meningkatkan kualitas ekspor dan rendering dokumen.
-
-Aspose.Words 23.2 memperkenalkan penyimpanan dokumen dalam format MOBI, meningkatkan rendering bagan, dan membuat perubahan penting pada detail tampilan dokumen.
-
-Aspose.Words 23.3 meningkatkan impor dan penyimpanan dokumen dengan properti baru, dan juga meningkatkan kualitas pekerjaan dengan warna latar belakang dan latar depan serta gradien radial.
-
-Aspose.Words 23.4 meningkatkan penghitungan beberapa parameter dan posisi tabel dan teks di sekitarnya.
-
-### Peningkatan Kinerja
-
-#### Emulasi Operasi Raster <sup>23.1</sup>
-
-Kinerja dan kualitas emulasi operasi raster dengan metafile telah meningkat secara signifikan.
-
-### Format yang Didukung
-
-#### Ekspor ke MOBI <sup>23.2</sup>
-
-Dimulai dengan versi 23.2, dimungkinkan untuk menyimpan dokumen dalam format MOBI (juga disebut RRC, AZW – format file e-book Amazon Kindle sendiri). Sekarang Anda tidak hanya dapat memuat dokumen MOBI, tetapi juga mengekspor file Anda ke format MOBI.
-
-### Render
-
-#### Bekerja dengan Warna Tema Shading <sup>23.1</sup>
-
-Kemampuan untuk bekerja dengan warna tema penetasan telah diterapkan.
-
-#### Dukungan Koefisien R-squared pada Grafik DML <sup>23.1</sup>
-
-Dukungan koefisien R-kuadrat pada label garis tren bagan DML saat rendering telah ditambahkan.
-
-#### Peningkatan Rendering Bagan <sup>23.2</sup>
-
-Sejak versi 23.2, rendering grafik telah ditingkatkan secara signifikan.
-
-#### Kontrol Warna Latar Belakang dan Latar Depan <sup>23.3</sup>
-
-Kelas [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) telah diperluas dengan serangkaian properti publik baru yang terkait dengan warna latar belakang dan latar depan: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_theme_color/) dan [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_tint_and_shade/) dan [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_tint_and_shade/).
-
-#### Gradien Radial dengan `SkiaSharp` Native Shader <sup>23.3</sup>
-
-Rendering gradien radial dengan shader asli `SkiaSharp` untuk .NET Standard telah diterapkan.
-
-#### Jarak Antara Tabel dan Teks di Sekitarnya <sup>23.4</sup>
-
-Kemampuan untuk mengatur jarak antara tabel dan teks di sekitarnya telah ditambahkan dengan memperkenalkan properti baru ke kelas [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/): [distance_left](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_left/), [distance_right](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_right/), [distance_top](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_top/), dan [distance_bottom](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_bottom/).
-
-### Memuat dan Menyimpan Dokumen
-
-#### Hasilkan `TOC` untuk Dokumen AZW3 <sup>23.1</sup>
-
-Kemampuan untuk menghasilkan `TOC` (daftar isi) untuk dokumen AZW3 telah ditambahkan melalui penggunaan properti **epub_navigation_map_level**.
-
-#### Mengekspor Item Daftar ke Markdown <sup>23.1</sup>
-
-Cara untuk mengontrol ekspor item daftar ke format Markdown telah disediakan dengan menambahkan properti [list_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/list_export_mode/) ke kelas [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/).
-
-#### Pemberitahuan Kemajuan Penyimpanan Dokumen <sup>23.3</sup>
-
-Menyimpan pemberitahuan kemajuan untuk format MOBI dan AZW3 telah diterapkan.
-
-#### Penyesuaian Kalimat dan Spasi Kata <sup>23.3</sup>
-
-Kemampuan untuk menentukan apakah akan menyesuaikan spasi kalimat dan kata secara otomatis saat dokumen diimpor telah ditambahkan dengan memperkenalkan properti [adjust_sentence_and_word_spacing](https://reference.aspose.com/words/python-net/aspose.words/importformatoptions/adjust_sentence_and_word_spacing/).
-
-### Lainnya
-
-- Kemampuan untuk menentukan penyesuaian spasi karakter dokumen telah ditambahkan melalui implementasi properti [justification_mode](https://reference.aspose.com/words/python-net/aspose.words/document/justification_mode/) <sup>23.2</sup>
-- Cara untuk menginstruksikan Aspose.Words apakah akan menyertakan kotak teks, catatan kaki, dan catatan akhir dalam statistik jumlah kata telah disediakan dengan menambahkan properti [include_textboxes_footnotes_endnotes_in_stat](https://reference.aspose.com/words/python-net/aspose.words/document/include_textboxes_footnotes_endnotes_in_stat/) <sup>23.2</sup>
-- Opsi baru untuk gaya dokumen, yang memungkinkan menentukan apakah gaya didefinisikan ulang secara otomatis berdasarkan nilai yang sesuai, telah diperkenalkan melalui properti [automatically_update](https://reference.aspose.com/words/python-net/aspose.words/style/automatically_update/) <sup>23.2</sup>
-- Kemampuan untuk menentukan apakah [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) adalah panduan fonetik yang dijalankan telah ditambahkan menggunakan properti [is_phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/is_phonetic_guide/) <sup>23.4</sup>
-- Cara sederhana untuk bekerja dengan rangkaian dan sumbu diagram kombo telah diterapkan dengan memperkenalkan kelas [ChartAxisCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxiscollection/) dan menambahkan properti [Chart.axes](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/axes/) <sup>23.4</sup>
-- Properti publik baru yang terhubung dengan posisi dan ukuran relatif bentuk telah ditambahkan ke kelas [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) <sup>23.4</sup>
-- Akurasi dan kinerja penghitungan kecerahan warna untuk resolusi warna teks otomatis telah ditingkatkan sesuai dengan versi terbaru Microsoft Word <sup>23.4</sup>
+## Lihat Juga
 
 {{% alert color="primary" %}}
 
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 23.1](/words/python-net/aspose-words-for-python-via-dotnet-23-1-release-notes/).
-
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 23.2](/words/python-net/aspose-words-for-python-via-dotnet-23-2-release-notes/).
-
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 23.3](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-3-release-notes/).
-
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 23.4](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/).
-
-{{% /alert %}}
-
-## Lihat juga
-
-{{% alert color="primary" %}}
-
-Halaman ini berisi berita rilis terbaru selama 2 tahun terakhir. Untuk rincian tentang rilis sebelumnya, lihat halaman [Catatan Rilis'](https://releases.aspose.com/words/python/release-notes/) di bagian yang relevan.
+Halaman ini berisi berita rilis terbaru selama 2 tahun terakhir. Untuk detail tentang rilis sebelumnya, lihat [Catatan Rilis'](https://releases.aspose.com/words/python/release-notes/) halaman di bagian yang relevan.
 
 {{% /alert %}}

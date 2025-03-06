@@ -7,20 +7,30 @@ type: docs
 description: "Aspose.Words pour .NET se développe et s'améliore quotidiennement. Sur cette page, vous pouvez découvrir les fonctionnalités les plus importantes et les plus intéressantes du produit."
 weight: 10
 url: /fr/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2025-01-15-11-43-05
+timestamp: 2025-02-17-18-02-05
 ---
 
 Cette page décrit les nouvelles fonctionnalités Aspose.Words les plus intéressantes introduites dans les versions récentes.
 
-## Aspose.Words pour .NET 25.1
+## Aspose.Words pour .NET 25.1, 25.2
 
 Aspose.Words 25.1 introduit la vérification grammaticale basée sur l'IA et améliore l'enregistrement des documents avec des options avancées pour les formats HTML, SVG et Markdown.
+
+Aspose.Words 25.2 introduit la synthèse de texte avec des modèles anthropiques AI, ajoute la prise en charge du format MsWorks, améliore le contrôle typographique et améliore la structure PDF et la gestion des listes.
 
 ### Fonctionnalités basées sur l'IA
 
 #### Vérification grammaticale du document par l'IA <sup>25.1</sup>
 
 La possibilité de vérifier la grammaire du document fourni à l'aide de modèles génératifs OpenAI a été introduite en ajoutant une nouvelle méthode [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/).
+
+#### Synthèse À L'Aide De Modèles De Langage Génératif Anthropique <sup>25.2</sup>
+
+La synthèse de texte à l'aide de modèles de langage génératif anthropique a été activée en introduisant une nouvelle classe publique [AnthropicAiModel](https://reference.aspose.com/words/net/aspose.words.ai/anthropicaimodel/).
+
+### Formats Pris En Charge <sup>25.2</sup>
+
+À partir de la version 25.2, la compatibilité avec le nouveau format de chargement MsWorks pour les documents Microsoft Works a été ajoutée.
 
 ### Conversion, chargement et enregistrement de documents
 
@@ -33,12 +43,24 @@ L'enregistrement aux formats HTML et SVG a été amélioré en ajoutant les prop
 * Une nouvelle option [ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imageresolution/) a été ajoutée à la classe [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) pour définir la résolution de l'image.
 * Une nouvelle option [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) et une énumération [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) ont été ajoutées à la classe [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) pour définir le mode de sortie OfficeMath.
 
+### Le rendu
+
+#### Contrôle Typographique Amélioré <sup>25.2</sup>
+
+La propriété [NumberSpacing](https://reference.aspose.com/words/net/aspose.words/font/numberspacing/) a été ajoutée pour un meilleur contrôle typographique.
+
+### Autre
+
+* La structure logique PDF a été améliorée avec la prise en charge des champs TOA, BIBLIOGRAPHY et INDEX. <sup>25.2</sup>
+* La méthode [AddSingleLevelList](https://reference.aspose.com/words/net/aspose.words.lists/listcollection/addsinglelevellist/) a été introduite pour améliorer la gestion des listes. <sup>25.2</sup>
+
 {{% alert color="primary" %}}
 
 En savoir plus sur [Notes de version Aspose.Words pour .NET 25.1](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/).
 
-{{% /alert %}}
+En savoir plus sur [Aspose.Words pour .NET 25.2 Notes de Version](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-2-release-notes/).
 
+{{% /alert %}}
 
 ## Aspose.Words pour .NET 24.9, 24.10, 24.11, 24.12
 
@@ -481,94 +503,6 @@ En savoir plus sur [Notes de version de Aspose.Words pour .NET 23.6](/words/net/
 En savoir plus sur [Notes de version de Aspose.Words pour .NET 23.7](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
 
 En savoir plus sur [Notes de version Aspose.Words pour .NET 23.8](/words/net/aspose-words-for-net-23-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words pour .NET 23.1, 23.2, 23.3, 23.4
-
-Aspose.Words 23.1 améliore les performances de l'émulation des opérations raster, ainsi que la qualité de l'exportation et du rendu des documents.
-
-Aspose.Words 23.2 introduit l'enregistrement des documents au format MOBI, améliore le rendu des graphiques et apporte des modifications notables aux détails de l'apparence du document.
-
-Aspose.Words 23.3 améliore l'importation et l'enregistrement des documents avec de nouvelles propriétés, et améliore également la qualité du travail avec les couleurs d'arrière-plan et de premier plan et le dégradé radial.
-
-Aspose.Words 23.4 améliore le calcul de certains paramètres et le positionnement du tableau et du texte environnant.
-
-### Amélioration des performances
-
-#### Émulation des opérations raster <sup>23.1</sup>
-
-Les performances et la qualité de l'émulation des opérations raster avec les métafichiers ont été considérablement améliorées.
-
-### Formats pris en charge
-
-#### Exporter vers MOBI <sup>23.2</sup>
-
-À partir de la version 23.2, il est possible d'enregistrer un document au format MOBI (également appelé PRC, AZW – le format de fichier de livre électronique Amazon Kindle). Vous pouvez désormais non seulement charger des documents MOBI, mais également exporter vos fichiers au format MOBI.
-
-### Le rendu
-
-#### Travailler avec les couleurs du thème d'ombrage <sup>23.1</sup>
-
-La possibilité de travailler avec les couleurs du thème d'ombrage a été implémentée.
-
-#### Prise en charge du coefficient R au carré dans les graphiques DML <sup>23.1</sup>
-
-Prise en charge du coefficient R au carré dans les étiquettes de courbe de tendance des graphiques DML lors de l'ajout du rendu.
-
-#### Améliorations du rendu des graphiques <sup>23.2</sup>
-
-Depuis la version 23.2, le rendu des graphiques a été considérablement amélioré.
-
-#### Contrôle des couleurs d'arrière-plan et de premier plan <sup>23.3</sup>
-
-La classe [Fill](https://reference.aspose.com/words/fr/net/aspose.words.drawing/fill/) a été étendue avec un ensemble de nouvelles propriétés publiques liées aux couleurs d'arrière-plan et de premier plan: [ForeThemeColor](https://reference.aspose.com/words/fr/net/aspose.words.drawing/fill/forethemecolor/) et [BackThemeColor](https://reference.aspose.com/words/fr/net/aspose.words.drawing/fill/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/fr/net/aspose.words.drawing/fill/foretintandshade/) et [BackTintAndShade](https://reference.aspose.com/words/fr/net/aspose.words.drawing/fill/backtintandshade/).
-
-#### Dégradés radiaux avec le `SkiaSharp` Native Shader <sup>23.3</sup>
-
-Le rendu des dégradés radiaux avec le shader natif `SkiaSharp` pour .NET Standard a été implémenté.
-
-#### Distance entre le tableau et le texte environnant <sup>23.4</sup>
-
-La possibilité de définir la distance entre le tableau et le texte environnant a été ajoutée en introduisant de nouvelles propriétés dans la classe [Table](https://reference.aspose.com/words/fr/net/aspose.words.tables/table/): [DistanceLeft](https://reference.aspose.com/words/fr/net/aspose.words.tables/table/distanceleft/), [DistanceRight](https://reference.aspose.com/words/fr/net/aspose.words.tables/table/distanceright/), [DistanceTop](https://reference.aspose.com/words/fr/net/aspose.words.tables/table/distancetop/) et [DistanceBottom](https://reference.aspose.com/words/fr/net/aspose.words.tables/table/distancebottom/).
-
-### Chargement et enregistrement de documents
-
-#### Générer `TOC` pour les documents AZW3 <sup>23.1</sup>
-
-La possibilité de générer des `TOC` (table des matières) pour les documents AZW3 a été ajoutée grâce à l'utilisation de la propriété [NavigationMapLevel](https://reference.aspose.com/words/fr/net/aspose.words.saving/htmlsaveoptions/navigationmaplevel/).
-
-#### Exportation d'éléments de liste vers Markdown <sup>23.1</sup>
-
-Un moyen de contrôler l'exportation des éléments de liste au format Markdown a été fourni en ajoutant la propriété [ListExportMode](https://reference.aspose.com/words/fr/net/aspose.words.saving/markdownsaveoptions/listexportmode/) à la classe [MarkdownSaveOptions](https://reference.aspose.com/words/fr/net/aspose.words.saving/markdownsaveoptions/).
-
-#### Notifications de progression de l'enregistrement des documents <sup>23.3</sup>
-
-L'enregistrement des notifications de progression pour les formats MOBI et AZW3 a été implémenté.
-
-#### Ajustement de l'espacement des phrases et des mots <sup>23.3</sup>
-
-La possibilité de spécifier s'il faut ajuster automatiquement l'espacement des phrases et des mots lors de l'importation du document a été ajoutée en introduisant la propriété [AdjustSentenceAndWordSpacing](https://reference.aspose.com/words/fr/net/aspose.words/importformatoptions/adjustsentenceandwordspacing/).
-
-### Autre
-
-* La possibilité de spécifier l'ajustement de l'espacement des caractères d'un document a été ajoutée via l'implémentation de la propriété [JustificationMode](https://reference.aspose.com/words/fr/net/aspose.words/document/justificationmode/) <sup>23.2</sup>
-* La manière d'indiquer à Aspose.Words s'il doit inclure des zones de texte, des notes de bas de page et des notes de fin dans les statistiques du nombre de mots a été fournie en ajoutant la propriété [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/fr/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/) <sup>23.2.</sup>
-* Une nouvelle option pour un style de document, qui permet de spécifier si le style est automatiquement redéfini en fonction de la valeur appropriée, a été introduite via la propriété [AutomaticallyUpdate](https://reference.aspose.com/words/fr/net/aspose.words/style/automaticallyupdate/) <sup>23.2</sup>
-* La possibilité de déterminer si [Run](https://reference.aspose.com/words/fr/net/aspose.words/run/) est un guide phonétique a été ajoutée à l'aide de la propriété [IsPhoneticGuide](https://reference.aspose.com/words/fr/net/aspose.words/run/isphoneticguide/) <sup>23.4</sup>
-* Un moyen simple de travailler avec des séries et des axes de graphiques combinés a été implémenté en introduisant la classe [ChartAxisCollection](https://reference.aspose.com/words/fr/net/aspose.words.drawing.charts/chartaxiscollection/) et en ajoutant la propriété [Chart.Axes](https://reference.aspose.com/words/fr/net/aspose.words.drawing.charts/chart/axes/) <sup>23.4</sup>
-* De nouvelles propriétés publiques liées au positionnement et au dimensionnement relatifs de la forme ont été ajoutées à la classe [Shape](https://reference.aspose.com/words/fr/net/aspose.words.drawing/shape/) <sup>23.4</sup>
-* La précision et les performances du calcul de la luminosité des couleurs pour la résolution automatique des couleurs du texte ont été améliorées conformément aux dernières versions de Microsoft Word <sup>23.4</sup> 
-
-{{% alert color="primary" %}}
-
-En savoir plus sur [Notes de version Aspose.Words pour .NET 23.1](/words/net/aspose-words-for-net-23-1-release-notes/).
-
-En savoir plus sur [Notes de version Aspose.Words pour .NET 23.2](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/).
-
-En savoir plus sur [Notes de version de Aspose.Words pour .NET 23.3](/words/net/aspose-words-for-net-23-3-release-notes/).
-
-En savoir plus sur [Notes de version de Aspose.Words pour .NET 23.4](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/).
 
 {{% /alert %}}
 

@@ -7,7 +7,7 @@ description: "Aspose.Words zamiast Java zapewnia różne plany zakupu lub oferuj
 type: docs
 weight: 60
 url: /pl/java/licensing/
-timestamp: 2024-01-31-14-23-37
+timestamp: 2025-02-12-16-18-40
 ---
 
 Czasami, aby lepiej zbadać system, chcesz zanurzyć się w kodzie jak najszybciej. Żeby to ułatwić, Aspose.Words oferuje różne plany zakupu lub oferuje Bezpłatne Próbne i 30-dniowa Tymczasowa Licencja do oceny.
@@ -129,6 +129,8 @@ Nie wzywaj **SetMeteredKey** metoda często tak, aby ta metoda licencjonowania w
 Poniższy przykład kodu pokazuje jak ustawić mierzone klucze publiczne i prywatne:
 
 {{< gist "aspose-words-gists" "aae6b7a56c4792497614b4ee8f6f8eec" "apply-metered-license.java" >}}
+
+Zwykle wystarczy zastosować licencję odmierzoną po uruchomieniu aplikacji. Jeśli jednak mechanizm licencjonowania z pomiarem nie będzie komunikował się z serwerami Aspose przez 24 godziny, Aspose.Words wyjdzie z trybu licencjonowanego i przejdzie w tryb oceny. Aby uniknąć takiego przypadku, możesz użyć metody [IsMeteredLicensed](https://reference.aspose.com/words/java/com.aspose.words/metered/#isMeteredLicensed), aby sprawdzić status licencji i w razie potrzeby ponownie zastosować licencję odmierzoną.
 
 {{% alert color="primary" %}}
 

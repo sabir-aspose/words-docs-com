@@ -7,7 +7,7 @@ description: "Aspose.Words for .NET は、さまざまな購入プランを提�
 type: docs
 weight: 55
 url: /ja/net/licensing/
-timestamp: 2024-10-24-11-44-28
+timestamp: 2025-02-12-16-18-40
 ---
 
 システムをよりよく研究するために、できるだけ早くコードを詳しく調べたい場合があります。これを容易にするために、Aspose.Words ではさまざまな購入プランを提供したり、評価用の無料トライアルと 30 日間の一時ライセンスを提供したりできます。
@@ -119,7 +119,7 @@ Aspose.Words を使用すると、開発者は従量制キーを適用できま�
 
 {{< gist "aspose-words-gists" "c762ebd027c53ed61fce5bc5ccac1ca7" "apply-metered-license.cs" >}}
 
-通常は、アプリケーションの起動時に従量制ライセンスを 1 回適用するだけで十分です。ただし、従量制ライセンス メカニズムが 24 時間にわたって Aspose サーバーと通信できない場合、Aspose.Words はライセンス モードを終了し、評価モードに切り替わります。このようなケースを回避するには、ライセンスのステータスを定期的に確認する必要があります。Aspose.Words が評価モードになった場合は、従量制ライセンスを再度適用してください。
+通常は、アプリケーションの起動時に一度従量制ライセンスを適用するだけで十分です。 ただし、従量制ライセンスメカニズムがAsposeサーバと24時間通信に失敗した場合、Aspose.Wordsはライセンスモードを終了し、評価モードに切り替わります。 このようなケースを回避するには、[IsMeteredLicensed](https://reference.aspose.com/words/net/aspose.words/metered/ismeteredlicensed/)メソッドを使用してライセンスのステータスを確認し、必要に応じて従量制ライセンスを再適用します。
 
 {{% alert color="primary" %}}
 

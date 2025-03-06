@@ -7,20 +7,30 @@ type: docs
 description: "Aspose.Words cho .NET mở rộng và nâng cao hàng ngày. Trên trang này, bạn có thể tìm hiểu về những tính năng to lớn và thú vị nhất của sản phẩm."
 weight: 10
 url: /vi/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2025-01-15-11-43-05
+timestamp: 2025-02-17-18-02-05
 ---
 
 Trang này mô tả các tính năng Aspose.Words mới thú vị nhất được giới thiệu trong các bản phát hành gần đây.
 
-## Aspose.Words cho .NET 25.1
+## Aspose.Words cho .NET 25.1, 25.2
 
 Aspose.Words 25.1 giới thiệu tính năng kiểm tra ngữ pháp do AI cung cấp và cải thiện khả năng lưu tài liệu với các tùy chọn nâng cao cho các định dạng HTML, SVG và Markdown.
+
+Aspose.Words 25.2 giới thiệu tóm tắt văn bản với Các mô hình AI Nhân Học, thêm hỗ trợ định dạng MsWorks, tăng cường kiểm soát kiểu chữ và cải thiện PDF cấu trúc và xử lý danh sách.
 
 ### Tính năng do AI cung cấp
 
 #### Kiểm tra ngữ pháp AI của tài liệu <sup>25.1</sup>
 
 Khả năng kiểm tra ngữ pháp của tài liệu được cung cấp bằng các mô hình tạo OpenAI đã được giới thiệu bằng cách thêm phương thức [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/) mới.
+
+#### Tóm Tắt Bằng Cách Sử Dụng Các Mô Hình Ngôn Ngữ Nhân Học <sup>25.2</sup>
+
+Tóm tắt văn bản bằng Cách sử dụng Các mô hình ngôn ngữ nhân Học đã được kích hoạt bằng cách giới thiệu một lớp công khai mới [AnthropicAiModel](https://reference.aspose.com/words/net/aspose.words.ai/anthropicaimodel/).
+
+### Các Định Dạng Được Hỗ Trợ <sup>25.2</sup>
+
+Bắt đầu từ phiên bản 25.2, khả năng tương thích với định dạng tải MsWorks mới cho Các tài liệu Microsoft Works đã được thêm vào.
 
 ### Chuyển đổi, Tải và Lưu Tài liệu
 
@@ -33,9 +43,22 @@ Lưu sang định dạng HTML và SVG đã được cải thiện bằng cách t
 * Một tùy chọn [ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imageresolution/) mới đã được thêm vào lớp [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) để đặt độ phân giải hình ảnh.
 * Một tùy chọn [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) mới và phép liệt kê [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) đã được thêm vào lớp [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) để đặt chế độ đầu ra OfficeMath.
 
+### Kết xuất
+
+#### Cải Thiện Kiểm Soát Typographic <sup>25.2</sup>
+
+Thuộc tính [NumberSpacing](https://reference.aspose.com/words/net/aspose.words/font/numberspacing/) đã được thêm vào để cải thiện kiểm soát kiểu chữ.
+
+### Khác
+
+* Cấu trúc logic PDF đã được cải thiện với sự hỗ trợ cho các trường TOA, BIBLIOGRAPHY và INDEX. <sup>25.2</sup>
+* Phương pháp [AddSingleLevelList](https://reference.aspose.com/words/net/aspose.words.lists/listcollection/addsinglelevellist/) đã được giới thiệu để xử lý danh sách được cải thiện. <sup>25.2</sup>
+
 {{% alert color="primary" %}}
 
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 25.1](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/).
+
+Tìm hiểu thêm về [Aspose.Words cho .NET 25.2 Ghi Chú Phát Hành](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-2-release-notes/).
 
 {{% /alert %}}
 
@@ -123,7 +146,7 @@ Một tùy chọn **RemoveEmptyTables** mới đã được thêm vào phép li�
 
 Khả năng ký tài liệu bằng chữ ký XML-DSig cấp XAdES-EPES đã được giới thiệu bằng cách thêm thuộc tính công khai mới [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) và phép liệt kê công khai mới [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/).
 
-### Khác
+#### Khác
 
 * Một phương thức công khai mới [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) đã được thêm vào nhóm hình dạng. <sup>24.9</sup>
 * Một phương thức công khai mới [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) đã được thêm vào để chèn **StructuredDocumentTags** vào một tài liệu. <sup>24.9</sup>
@@ -221,7 +244,7 @@ Một lớp [LowCode.Converter](https://reference.aspose.com/words/net/aspose.wo
 #### Tùy chọn so sánh nâng cao <sup>24.6</sup>
 Khả năng hợp lý hóa quy trình phân tích dữ liệu với chức năng so sánh được cải thiện đã được thêm vào. Điều này bao gồm tùy chọn [IgnoreStoreItemId](https://reference.aspose.com/words/net/aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/) mới và giao diện được thiết kế lại để so sánh nâng cao.
 
-#### Khác
+### Khác
 
 * Chức năng loại bỏ các trang trống khỏi tài liệu đã được triển khai bằng cách thêm phương thức [RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/). <sup>24.5</sup>
 * Khả năng kiểm tra sự hiện diện của macro VBA mà không cần tải tài liệu đã được cung cấp bằng cách thêm thuộc tính [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/). <sup>24.5</sup>
@@ -480,94 +503,6 @@ Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 23.6](/words/
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 23.7](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
 
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 23.8](/words/net/aspose-words-for-net-23-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words cho .NET 23.1, 23.2, 23.3, 23.4
-
-Aspose.Words 23.1 cải thiện hiệu suất mô phỏng hoạt động raster, cũng như nâng cao chất lượng xuất và hiển thị tài liệu.
-
-Aspose.Words 23.2 giới thiệu tính năng lưu tài liệu ở định dạng MOBI, cải thiện khả năng hiển thị biểu đồ và thực hiện các thay đổi đáng chú ý đối với chi tiết giao diện tài liệu.
-
-Aspose.Words 23.3 tăng cường nhập và lưu tài liệu với các thuộc tính mới, đồng thời cải thiện chất lượng công việc với màu nền và màu nền trước cũng như độ dốc xuyên tâm.
-
-Aspose.Words 23.4 cải thiện việc tính toán một số tham số cũng như vị trí của bảng và văn bản xung quanh.
-
-### Cải tiến hiệu suất
-
-#### Mô phỏng các hoạt động raster <sup>23.1</sup>
-
-Hiệu suất và chất lượng mô phỏng các hoạt động raster với siêu tệp đã được cải thiện đáng kể.
-
-### Các định dạng được hỗ trợ
-
-#### Xuất sang MOBI <sup>23.2</sup>
-
-Bắt đầu từ phiên bản 23.2, có thể lưu tài liệu ở định dạng MOBI (còn gọi là PRC, AZW – định dạng tệp sách điện tử riêng của Amazon Kindle). Giờ đây, bạn không chỉ có thể tải tài liệu MOBI mà còn có thể xuất các tệp của mình sang định dạng MOBI.
-
-### Kết xuất
-
-#### Làm việc với Màu chủ đề tô bóng <sup>23.1</sup>
-
-Khả năng làm việc với màu chủ đề tô bóng đã được triển khai.
-
-#### Hỗ trợ hệ số bình phương R trong biểu đồ DML <sup>23.1</sup>
-
-Hỗ trợ hệ số bình phương R trong nhãn đường xu hướng của biểu đồ DML khi kết xuất đã được thêm vào.
-
-#### Cải tiến hiển thị biểu đồ <sup>23.2</sup>
-
-Kể từ phiên bản 23.2, việc hiển thị biểu đồ đã được cải thiện đáng kể.
-
-#### Kiểm soát màu nền và tiền cảnh <sup>23.3</sup>
-
-Lớp [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) đã được mở rộng với một tập hợp các thuộc tính công khai mới liên quan đến màu nền và màu nền trước: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/forethemecolor/) và [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/foretintandshade/) và [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backtintandshade/).
-
-#### Chuyển màu xuyên tâm với `SkiaSharp` Native Shader <sup>23.3</sup>
-
-Việc hiển thị các gradient xuyên tâm bằng trình đổ bóng gốc `SkiaSharp` cho .NET Standard đã được triển khai.
-
-#### Khoảng cách giữa bảng và văn bản xung quanh <sup>23.4</sup>
-
-Khả năng đặt khoảng cách giữa bảng và văn bản xung quanh đã được thêm bằng cách giới thiệu các thuộc tính mới cho lớp [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/): [DistanceLeft](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceleft/), [DistanceRight](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceright/), [DistanceTop](https://reference.aspose.com/words/net/aspose.words.tables/table/distancetop/) và [DistanceBottom](https://reference.aspose.com/words/net/aspose.words.tables/table/distancebottom/).
-
-### Tải và lưu tài liệu
-
-#### Tạo `TOC` cho tài liệu AZW3 <sup>23.1</sup>
-
-Khả năng tạo `TOC` (mục lục) cho tài liệu AZW3 đã được thêm thông qua việc sử dụng thuộc tính [NavigationMapLevel](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/navigationmaplevel/).
-
-#### Xuất các mục danh sách sang Markdown <sup>23.1</sup>
-
-Một cách để kiểm soát việc xuất các mục danh sách sang định dạng Markdown đã được cung cấp bằng cách thêm thuộc tính [ListExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/listexportmode/) vào lớp [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/).
-
-#### Thông báo tiến trình lưu tài liệu <sup>23.3</sup>
-
-Lưu thông báo tiến trình cho các định dạng MOBI và AZW3 đã được triển khai.
-
-#### Điều chỉnh khoảng cách câu và từ <sup>23.3</sup>
-
-Khả năng chỉ định xem có tự động điều chỉnh khoảng cách giữa các câu và từ khi nhập tài liệu hay không đã được thêm vào bằng cách giới thiệu thuộc tính [AdjustSentenceAndWordSpacing](https://reference.aspose.com/words/net/aspose.words/importformatoptions/adjustsentenceandwordspacing/).
-
-### Khác
-
-* Khả năng chỉ định điều chỉnh khoảng cách ký tự của tài liệu đã được thêm thông qua triển khai thuộc tính [JustificationMode](https://reference.aspose.com/words/net/aspose.words/document/justificationmode/) <sup>23.2</sup>
-* Cách hướng dẫn Aspose.Words có bao gồm hộp văn bản, chú thích cuối trang và chú thích cuối trong thống kê số từ đã được cung cấp bằng cách thêm thuộc tính [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/) <sup>23.2</sup>
-* Một tùy chọn mới cho kiểu tài liệu, cho phép chỉ định xem kiểu đó có được xác định lại tự động hay không dựa trên giá trị thích hợp, đã được giới thiệu thông qua thuộc tính [AutomaticallyUpdate](https://reference.aspose.com/words/net/aspose.words/style/automaticallyupdate/) <sup>23.2</sup>
-* Khả năng xác định xem [Run](https://reference.aspose.com/words/net/aspose.words/run/) có phải là hướng dẫn ngữ âm hay không đã được thêm bằng thuộc tính [IsPhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/isphoneticguide/) <sup>23.4</sup>
-* Một cách đơn giản để làm việc với chuỗi và trục của biểu đồ kết hợp đã được triển khai bằng cách giới thiệu lớp [ChartAxisCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxiscollection/) và thêm thuộc tính [Chart.Axes](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/axes/) <sup>23.4</sup>
-* Các thuộc tính công khai mới được kết nối với định vị và kích thước tương đối của hình dạng đã được thêm vào lớp [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) <sup>23.4</sup>
-* Độ chính xác và hiệu suất tính toán độ sáng màu cho độ phân giải màu văn bản tự động đã được cải thiện theo phiên bản Microsoft Word <sup>23.4</sup> mới nhất
-
-{{% alert color="primary" %}}
-
-Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 23.1](/words/net/aspose-words-for-net-23-1-release-notes/).
-
-Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 23.2](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/).
-
-Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 23.3](/words/net/aspose-words-for-net-23-3-release-notes/).
-
-Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 23.4](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/).
 
 {{% /alert %}}
 

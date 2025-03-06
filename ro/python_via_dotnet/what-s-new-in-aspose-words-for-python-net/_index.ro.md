@@ -7,39 +7,62 @@ type: docs
 description: "Aspose.Words pentru Python via .NET extinde și îmbunătățește zilnic. Pe această pagină, puteți afla despre caracteristicile uriașe și cele mai interesante ale produsului."
 weight: 10
 url: /ro/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-01-15-11-43-05
+timestamp: 2025-02-17-18-02-05
 ---
 
 Această pagină descrie cele mai interesante caracteristici noi Aspose.Words introduse în versiunile recente.
 
-## Aspose.Words pentru Python prin .NET 25.1
+## Aspose.Words pentru Python via .NET 25.1, 25.2
 
-Aspose.Words 25.1 introduce verificarea gramaticală bazată pe inteligență artificială și îmbunătățește salvarea documentelor cu opțiuni avansate pentru formatele HTML, SVG și Markdown.
+Aspose.Words 25.1 introduce verificarea gramaticală bazată pe AI și îmbunătățește salvarea documentelor cu opțiuni avansate pentru formatele HTML, SVG și Markdown.
 
-### Funcții bazate pe inteligență artificială
+Aspose.Words 25.2 introduce rezumarea textului cu modele antropice AI, adaugă suport pentru formatul MsWorks, îmbunătățește controlul tipografic și îmbunătățește structura PDF și manipularea listei.
 
-#### Verificarea gramaticală AI a documentului <sup>25.1</sup>
+### AI - funcții alimentate
 
-Abilitatea de a verifica gramatica documentului furnizat folosind modele generative OpenAI a fost introdusă prin adăugarea unui nou [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/) metoda.
+#### Document AI Verificarea Gramaticii <sup>25.1</sup>
+
+Capacitatea de a verifica gramatica documentului furnizat folosind OpenAI modele generative a fost introdusă prin adăugarea unei noi metode [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/).
+
+#### Rezumarea Folosind Modele De Limbaj Generativ Antropic <sup>25.2</sup>
+
+Rezumatul textului folosind modele de limbaj generativ antropic a fost permis prin introducerea unei noi clase publice [AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/).
+
+### Formate Acceptate <sup>25.2</sup>
+
+Începând cu versiunea 25.2, a fost adăugată compatibilitatea cu noul format de încărcare MsWorks pentru documentele de lucru Microsoft.
 
 ### Conversia, încărcarea și salvarea documentelor
 
-#### Salvare îmbunătățită în formatele HTML și SVG <sup>25.1</sup>
+#### Salvarea îmbunătățită în formatele HTML și SVG <sup>25.1</sup>
 
-Salvarea în formatele HTML și SVG a fost îmbunătățită prin adăugarea proprietăților **id_prefix** și **remove_java_script_from_links** la ambele [HtmlFixedSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlfixedsaveoptions/) și [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/).
+Salvarea în formatele HTML și SVG a fost îmbunătățită prin adăugarea proprietăților **id_prefix** și **remove_java_script_from_links** atât la clasele [HtmlFixedSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlfixedsaveoptions/), cât și la [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/).
 
-#### Setați rezoluția imaginii și modul de ieșire OfficeMath când salvați în Markdown <sup>25.1</sup>
+#### Setați rezoluția imaginii și OfficeMath modul de ieșire la salvarea în Markdown <sup>25.1</sup>
 
-* O nouă opțiune [image_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/image_resolution/) a fost adăugată la [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) pentru a seta rezoluția imaginii.
-* O nouă opțiune [office_math_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/office_math_export_mode/) și [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownofficemathexportmode/) enumerarea a fost adăugată la [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) pentru a seta modul de ieșire OfficeMath.
+* O nouă opțiune [image_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/image_resolution/) a fost adăugată la clasa [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) pentru a seta rezoluția imaginii.
+* O nouă opțiune [office_math_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/office_math_export_mode/) și [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownofficemathexportmode/) enumerare au fost și adăugate la clasa [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) pentru a seta OfficeMath modul de ieșire.
+
+### Redare
+
+#### Control Tipografic Îmbunătățit <sup>25.2</sup>
+
+Proprietatea [number_spacing](https://reference.aspose.com/words/python-net/aspose.words/font/number_spacing/) a fost adăugată pentru un control tipografic îmbunătățit.
+
+### Altele
+
+* PDF structura logică a fost îmbunătățită cu suport pentru câmpurile TOA, BIBLIOGRAPHY și INDEX. <sup>25.2</sup>
+* Metoda [add_single_level_list](https://reference.aspose.com/words/python-net/aspose.words.lists/listcollection/add_single_level_list/#listtemplate) a fost introdusă pentru o mai bună gestionare a listelor. <sup>25.2</sup>
 
 {{% alert color="primary" %}}
 
-Aflați mai multe despre [Aspose.Words pentru Python via .NET 25.1 Note De Lansare](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+Aflați mai multe despre [Aspose.Words pentru Python via .NET 25.1 Note De Lansare](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+
+Aflați mai multe despre [Aspose.Words pentru Python via .NET 25.2 Note De Lansare](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Words pentru Python via .NET 24.9, 24.10, 24.11, 24.12
+## Aspose.Words pentru Python prin .NET 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 introduce group shape Inserare și StructuredDocumentTag Inserare prin DocumentBuilder, îmbunătățește randarea diagramelor radiale cu gradații, îmbunătățește semnăturile digitale cu suport XAdES-EPES, adaugă Markdown recunoașterea sublinierii și oferă acces la separatoarele de notă de subsol/notă finală.
 
@@ -47,7 +70,7 @@ Aspose.Words 24.10 introduce suport îmbunătățit pentru controlul ActiveX cu 
 
 Aspose.Words 24.11 introduce rezumatul documentelor alimentat de AI, opțiuni de redare îmbunătățite, acces îmbunătățit la proprietățile documentului și subtitrarea ActiveX control.
 
-Aspose.Words 24.12 introduce plasarea personalizabilă a etichetelor de date, traducerea textului bazată pe Google AI și noi clase îmbunătățite de procesare LowCode.
+Aspose.Words 24.12 introduce plasarea personalizabilă a etichetelor de date, traducerea textului Google AI și noile clase de procesare LowCode îmbunătățite.
 
 ### AI - funcții alimentate
 
@@ -55,13 +78,13 @@ Aspose.Words 24.12 introduce plasarea personalizabilă a etichetelor de date, tr
 
 Suportul pentru rezumarea documentelor folosind **OpenAI** și **Google** modele de limbaj generativ a fost integrat prin adăugarea spațiului de nume [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) cu membrii săi publici.
 
-#### Traducerea textului folosind modelele Google de limbaj generativ <sup>24.12</sup>
+#### Traducerea textului folosind modelele de limbaj generativ Google <sup>24.12</sup>
 
-Capacitatea de a traduce text folosind modelele de limbaj generativ Google a fost implementată în Aspose.Words prin adăugarea metodei [translate](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/translate/) și enumerarea [Language](https://reference.aspose.com/words/python-net/aspose.words.ai/language/) la [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) spațiu de nume.
+Abilitatea de a traduce text folosind modelele de limbaj generativ Google a fost implementată în Aspose.Words prin adăugarea metodei [translate](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/translate/) și a enumerării [Language](https://reference.aspose.com/words/python-net/aspose.words.ai/language/) la spațiul de nume [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/).
 
 ### Low Code <sup>24.12</sup>
 
-Noi clase LowCode, cum ar fi [Comparer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/net/ aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/splitter/) etc. a fost introdus, oferind un set de metode care realizează echilibrul perfect între simplitate și flexibilitate pentru procesarea documentelor.
+Noi LowCode clase ca [Comparer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/python-net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/splitter/) etc. a fost introdus, oferind un set de metode care ating echilibrul perfect între simplitate și flexibilitate pentru procesarea documentelor.
 
 ### Redare și imprimare
 
@@ -95,7 +118,7 @@ Histograma diagramă De redare a fost îmbunătățită prin a permite un anumit
 
 #### Personalizați plasarea etichetelor de date <sup>24.12</sup>
 
-Capacitatea de a personaliza plasarea etichetelor de date a fost adăugată prin introducerea de noi proprietăți în [ChartDataLabel](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabel/) și [ChartDataLabelCollection ](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/) clasele.
+Abilitatea de a personaliza plasarea etichetelor de date a fost adăugată prin introducerea de noi proprietăți în clasele th [ChartDataLabel](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabel/) și [ChartDataLabelCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/).
 
 ### Conversia, încărcarea și salvarea documentelor
 
@@ -140,7 +163,7 @@ Aflați mai multe despre [Aspose.Words pentru Python via .NET 24.12 Note De Lans
 
 {{% /alert %}}
 
-## Aspose.Words pentru Python via .NET 24.5, 24.6, 24.7, 24.8
+## Aspose.Words pentru Python prin .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 extinde opțiunile pentru ansambluri, îmbunătățește capacitățile de redare și extinde alte opțiuni.
 
@@ -216,7 +239,7 @@ A fost adăugată capacitatea de a eficientiza fluxurile de lucru de analiză a 
 
 * Funcția de eliminare a paginilor goale dintr-un document a fost implementată prin adăugarea metodei [remove_blank_pages](https://reference.aspose.com/words/python-net/aspose.words/document/remove_blank_pages/). <sup>24.5</sup>
 * Capacitatea de a verifica prezența macrocomenzilor VBA fără a încărca un document a fost furnizată prin adăugarea proprietății [has_macros](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/has_macros/). <sup>24.5</sup>
-* Păstrarea numerotare sursă în timp ce inserarea unui document folosind motorul de raportare LINQ este acum susținută. <sup>24.5</sup>
+* Păstrarea numerotare sursă în timp ce inserarea unui document folosind LINQ motor de raportare este acum susținută. <sup>24.5</sup>
 * A fost adăugată o nouă proprietate [date_time_utc](https://reference.aspose.com/words/python-net/aspose.words/comment/date_time_utc/) - Aceasta oferă un marcaj de timp mai precis pentru comentarii, îmbunătățind organizarea și trasabilitatea. <sup>24.6</sup>
 * Formatul datetime este acum detectat automat pentru export fără sudură în format XLSX. <sup>24.7</sup>
 * Proprietatea publică [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/), care vă permite să verificați dacă un proiect VBA este protejat, a fost adăugat. <sup>24.7</sup>
@@ -236,7 +259,7 @@ Aflați mai multe despre [Aspose.Words pentru Python via .NET 24.8 Note De Lansa
 
 {{% /alert %}}
 
-## Aspose.Words pentru Python via .NET 24.1, 24.2, 24.3, 24.4
+## Aspose.Words pentru Python prin .NET 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 îmbunătățește experiența în ceea ce privește gestionarea culorilor cursei, îmbunătățește obiectele OLE, precum și introduce un nou `Bibliography Sources` public API.
 
@@ -282,7 +305,7 @@ A fost adăugată posibilitatea de a păstra liniile goale la încărcarea fiși
 
 #### Un Nou TIFF Cititor / Scriitor <sup>24.3</sup>
 
-A fost dezvoltat un nou cititor/scriitor TIFF pentru Aspose.Words. Aspose.Words pentru. NET 24.3 a adăugat suport pentru citirea imaginilor TIFF cu tipurile de compresie JPEG și vechi JPEG și, de asemenea, a îmbunătățit semnificativ calitatea operațiilor de citire și scriere.
+A fost dezvoltat un nou cititor/scriitor TIFF pentru Aspose.Words. Aspose.Words pentru .NET 24.3 s-a adăugat suport pentru citirea imaginilor TIFF cu tipurile de compresie JPEG și vechi JPEG și, de asemenea, a îmbunătățit semnificativ calitatea operațiilor de citire și scriere.
 
 ### Altele
 
@@ -305,7 +328,7 @@ Aflați mai multe despre [Aspose.Words pentru Python via .NET 24.4 Note De Lansa
 
 {{% /alert %}}
 
-## Aspose.Words pentru Python via .NET 23.9, 23.10, 23.11, 23.12
+## Aspose.Words pentru Python prin .NET 23.9, 23.10, 23.11, 23.12
 
 Aspose.Words 23.9 extinde opțiunile de redare, emularea De redare metafile și markdown opțiuni de salvare.
 
@@ -377,11 +400,11 @@ Aflați mai multe despre [Aspose.Words pentru Python via .NET 23.10 Note De Lans
 
 Aflați mai multe despre [Aspose.Words pentru Python via .NET 23.11 Note De Lansare](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-11-release-notes/).
 
-Aflați mai multe despre [Aspose.Words pentru. NET 23.12 Note De Lansare](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-12-release-notes/).
+Aflați mai multe despre [Aspose.Words pentru .NET 23.12 Notă De Lansare](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-12-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Words pentru Python via .NET 23.5, 23.6, 23.7, 23.8
+## Aspose.Words Pentru Python prin .NET 23.5, 23.6, 23.7, 23.8
 
 Aspose.Words 23.5 îmbunătățește capacitatea de a lucra cu date din seria de diagrame și capacitatea de a lucra cu documente ODT, precum și de a îmbunătăți anteturile/subsolurile și împachetarea textului acestora.
 
@@ -438,7 +461,7 @@ Etichetele Mustache sunt acum acceptate în metodele [MailMerge.GetRegionsHierar
 
 A fost introdusă o nouă proprietate publică [image_size](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/image_size/) pentru specificarea dimensiunii imaginilor redate în pixeli.
 
-#### Păstrați spațiile albe pentru valorile șirului JSON – LINQ <sup>23.8</sup>
+#### Păstrați spațiile albe pentru valorile șirului JSON - LINQ <sup>23.8</sup>
 
 O opțiune a fost adăugată la motorul de raportare LINQ pentru a păstra spațiile albe pentru valorile șirului JSON.
 
@@ -463,94 +486,6 @@ Aflați mai multe despre [Aspose.Words pentru Python via .NET 23.6 Note De Lansa
 Aflați mai multe despre [Aspose.Words pentru Python via .NET 23.7 Note De Lansare](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
 Aflați mai multe despre [Aspose.Words pentru Python via .NET 23.8 Note De Lansare](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words pentru Python via .NET 23.1, 23.2, 23.3, 23.4
-
-Aspose.Words 23.1 îmbunătățește performanța emulării operațiilor raster, precum și îmbunătățește exportul și calitatea redării documentelor.
-
-Aspose.Words 23.2 introduce salvarea documentelor în formatul MOBI, îmbunătățește redarea diagramei și face modificări notabile la detaliile aspectului documentului.
-
-Aspose.Words 23.3 îmbunătățește importul și salvarea documentelor cu proprietăți noi și, de asemenea, îmbunătățește calitatea muncii cu culoarea de fundal și prim plan și gradientul radial.
-
-Aspose.Words 23.4 îmbunătățește calculul unor parametri și poziționarea tabelului și a textului înconjurător.
-
-### Îmbunătățiri Ale Performanței
-
-#### Emularea operațiilor Raster <sup>23.1</sup>
-
-Performanța și calitatea emulării operațiilor raster cu Metafile au fost îmbunătățite semnificativ.
-
-### Formate Acceptate
-
-#### Export în MOBI <sup>23.2</sup>
-
-Începând cu versiunea 23.2, este posibil să salvați un document în format MOBI (numit șiPRC, AZW – Amazon formatul de fișier al cărții electronice Kindle). Acum Puteți nu numai să încărcați documente MOBI, ci și să exportați fișierele în format MOBI.
-
-### Redare
-
-#### Lucrați cu culori tematice de umbrire <sup>23.1</sup>
-
-A fost implementată capacitatea de a lucra cu culori tematice de umbrire.
-
-#### Suport pentru coeficientul R-pătrat în DML diagrame <sup>23.1</sup>
-
-Suport de coeficient R-pătrat în DML etichete Trendline diagramă atunci când a fost adăugat De redare.
-
-#### Îmbunătățiri De Redare A Diagramelor <sup>23.2</sup>
-
-De la 23.2 redarea graficului a fost îmbunătățită semnificativ.
-
-#### Controlul culorilor de fundal și prim plan <sup>23.3</sup>
-
-Clasa [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) a fost extinsă cu un set de noi proprietăți publice legate de culorile de fundal și prim plan: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_theme_color/) și [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_tint_and_shade/) și [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_tint_and_shade/).
-
-#### Gradienți radiali cu Shader-ul nativ `SkiaSharp` <sup>23.3</sup>
-
-A fost implementată redarea gradienților radiali cu shader-ul nativ `SkiaSharp` Pentru .NET Standard.
-
-#### Distanța dintre tabel și textul înconjurător <sup>23.4</sup>
-
-Capacitatea de a seta distanța dintre tabel și textul înconjurător a fost adăugată prin introducerea de noi proprietăți în clasa [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/): [distance_left](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_left/), [distance_right](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_right/), [distance_top](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_top/), și [distance_bottom](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_bottom/).
-
-### Încărcarea și salvarea documentelor
-
-#### Generați `TOC` pentru AZW3 documente <sup>23.1</sup>
-
-Capacitatea de a genera `TOC` (Cuprins) pentru documentele AZW3 a fost adăugată prin utilizarea proprietății **epub_navigation_map_level**.
-
-#### Exportarea articolelor din listă în Markdown <sup>23.1</sup>
-
-O modalitate de a controla exportul articolelor din listă în formatul Markdown a fost furnizată prin adăugarea proprietății [list_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/list_export_mode/) la clasa [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/).
-
-#### Notificări Privind Progresul Salvării Documentelor <sup>23.3</sup>
-
-Salvarea notificărilor de progres pentru formatele MOBI și AZW3 a fost implementată.
-
-#### Ajustarea spațiului dintre propoziții și cuvinte <sup>23.3</sup>
-
-Capacitatea de a specifica dacă se ajustează automat propoziția și spațierea cuvintelor la importul documentului a fost adăugată prin introducerea proprietății [adjust_sentence_and_word_spacing](https://reference.aspose.com/words/python-net/aspose.words/importformatoptions/adjust_sentence_and_word_spacing/).
-
-### Altele
-
-- Capacitatea de a specifica ajustarea spațierea caracterelor unui document a fost adăugat prin [justification_mode](https://reference.aspose.com/words/python-net/aspose.words/document/justification_mode/) implementarea proprietății <sup>23.2</sup>
-- Modul de a instrui Aspose.Words dacă să includă casete de text, note de subsol și note de final în Statisticile numărului de cuvinte a fost furnizat prin adăugarea proprietății [include_textboxes_footnotes_endnotes_in_stat](https://reference.aspose.com/words/python-net/aspose.words/document/include_textboxes_footnotes_endnotes_in_stat/) <sup>23.2</sup>
-- O nouă opțiune pentru un stil de document, care permite specificarea dacă stilul este redefinit automat pe baza valorii corespunzătoare, a fost introdusă prin proprietatea [automatically_update](https://reference.aspose.com/words/python-net/aspose.words/style/automatically_update/) <sup>23.2</sup>
-- Abilitatea de a determina dacă [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) este o rulare a ghidului fonetic a fost adăugată folosind proprietatea [is_phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/is_phonetic_guide/) <sup>23.4</sup>
-- O modalitate simplă de a lucra cu serii și axe de diagrame combinate a fost implementată prin introducerea clasei [ChartAxisCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxiscollection/) și adăugarea proprietății [Chart.axes](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/axes/) <sup>23.4</sup>
-- Noi proprietăți publice conectate la poziționarea relativă a formei și dimensionarea au fost adăugate la clasa [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) <sup>23.4</sup>
-- Precizia și performanța calculului luminozității culorii pentru rezoluția automată a culorilor textului au fost îmbunătățite în conformitate cu cele mai recente versiuni ale Microsoft Word <sup>23.4</sup>
-
-{{% alert color="primary" %}}
-
-Aflați mai multe despre [Aspose.Words pentru Python via .NET 23.1 Note De Lansare](/words/python-net/aspose-words-for-python-via-dotnet-23-1-release-notes/).
-
-Aflați mai multe despre [Aspose.Words pentru Python via .NET 23.2 Note De Lansare](/words/python-net/aspose-words-for-python-via-dotnet-23-2-release-notes/).
-
-Aflați mai multe despre [Aspose.Words pentru Python via .NET 23.3 Note De Lansare](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-3-release-notes/).
-
-Aflați mai multe despre [Aspose.Words pentru Python via .NET 23.4 Note De Lansare](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/).
 
 {{% /alert %}}
 

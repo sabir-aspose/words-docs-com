@@ -7,7 +7,7 @@ description: "Aspose.Words untuk Python via .NET memberikan paket pembelian yang
 type: docs
 weight: 40
 url: /id/python-net/licensing/
-timestamp: 2024-01-31-14-23-37
+timestamp: 2025-02-12-16-18-40
 ---
 
 Terkadang, untuk mempelajari sistem dengan lebih baik, Anda ingin mendalami kodenya secepat mungkin. Untuk mempermudahnya, Aspose.Words menyediakan paket pembelian yang berbeda atau menawarkan Uji Coba Gratis dan Lisensi Sementara 30 hari untuk evaluasi.
@@ -106,6 +106,8 @@ Jangan sering-sering memanggil metode **SetMeteredKey** agar metode perizinan in
 Contoh kode berikut menunjukkan cara menyetel kunci publik dan privat terukur:
 
 {{< gist "aspose-words-gists" "45c97d37bef13067c82e741b922a2d4f" "apply-metered-license.py" >}}
+
+Biasanya cukup menerapkan lisensi terukur satu kali saat aplikasi dimulai. Namun, jika mekanisme perizinan terukur gagal berkomunikasi dengan server Aspose selama 24 jam, Aspose.Words akan keluar dari mode berlisensi dan beralih ke mode evaluasi. Untuk menghindari kasus seperti itu, Anda dapat menggunakan metode [is_metered_licensed](https://reference.aspose.com/words/python-net/aspose.words/metered/is_metered_licensed/#default) untuk memeriksa status lisensi dan menerapkan kembali lisensi terukur jika perlu.
 
 {{% alert color="primary" %}}
 
