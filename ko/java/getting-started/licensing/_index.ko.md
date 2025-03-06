@@ -1,4 +1,4 @@
-﻿---
+---
 title: 라이선스 및 구독
 second_title: Aspose.WordsJava
 articleTitle: 라이선스 및 구독
@@ -7,7 +7,7 @@ description: "Aspose.WordsJava의 경우 다른 구매 계획을 제공하거나
 type: docs
 weight: 60
 url: /ko/java/licensing/
-timestamp: 2024-01-31-14-23-37
+timestamp: 2025-02-12-16-18-40
 ---
 
 때로는 시스템을 더 잘 연구하기 위해 가능한 한 빨리 코드에 뛰어 들기를 원합니다. 이를 더 쉽게하기 위해Aspose.Words은 다른 구매 계획을 제공하거나 무료 평가판 및 평가를위한 30 일 임시 라이센스를 제공합니다.
@@ -129,6 +129,8 @@ Aspose.Words개발자가 계량 된 키를 적용 할 수 있습니다. 이 새�
 다음 코드 예제에서는 계량된 공개 키와 개인 키를 설정하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "aae6b7a56c4792497614b4ee8f6f8eec" "apply-metered-license.java" >}}
+
+일반적으로 응용 프로그램 시작에 한 번 미터링 된 라이센스를 적용하는 것으로 충분합니다. 그러나 계량된 라이선스 메커니즘이 24 시간 동안 아스 포스 서버와 통신하지 못하면Aspose.Words은 라이선스 모드를 종료하고 평가 모드로 전환합니다. 이러한 경우를 방지하기 위해[IsMeteredLicensed](https://reference.aspose.com/words/java/com.aspose.words/metered/#isMeteredLicensed)방법을 사용하여 라이센스 상태를 확인하고 필요한 경우 계량된 라이센스를 다시 적용할 수 있습니다.
 
 {{% alert color="primary" %}}
 

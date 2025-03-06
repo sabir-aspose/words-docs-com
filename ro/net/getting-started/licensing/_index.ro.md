@@ -7,7 +7,7 @@ description: "Aspose.Words pentru .NET oferă planuri diferite de achiziție sau
 type: docs
 weight: 55
 url: /ro/net/licensing/
-timestamp: 2024-10-24-11-44-28
+timestamp: 2025-02-12-16-18-40
 ---
 
 Uneori, pentru a studia sistemul mai bine, vrei să te scufunzi în cod cât mai repede posibil. Pentru a face acest lucru mai ușor Aspose.Words oferă diferite planuri pentru achiziție sau oferă o încercare gratuită și o licență temporară de 30 de zile pentru evaluare.
@@ -119,7 +119,7 @@ Exemplul următor de cod arată cum se setează cheile publice și private limit
 
 {{< gist "aspose-words-gists" "c762ebd027c53ed61fce5bc5ccac1ca7" "apply-metered-license.cs" >}}
 
-De obicei, este suficient să aplici licenţa cu taxă o singură dată la pornirea aplicaţiei. Totuși, dacă mecanismul de licențiere cu tarifare eșuează să comunice cu serverele Aspose timp de 24 de ore, Aspose.Words va ieși din modul licențiat și va comuta în modul de evaluare. Pentru a evita astfel de caz, ar trebui să verificați în mod regulat statutul licenței – dacă Aspose.Words se transformă în modul de evaluare, vă rugăm să aplicați din nou licența plătită.
+În mod normal, este suficient să aplicați licența măsurată o dată la începerea cererii. Cu toate acestea, dacă mecanismul de licențiere măsurat nu reușește să comunice cu serverele Aspose timp de 24 de ore, Aspose.Words va ieși din modul licențiat și va trece la modul de evaluare. Pentru a evita un astfel de caz, puteți utiliza metoda [IsMeteredLicensed](https://reference.aspose.com/words/net/aspose.words/metered/ismeteredlicensed/) pentru a verifica starea licenței și pentru a aplica din nou licența măsurată, dacă este necesar.
 
 {{% alert color="primary" %}}
 

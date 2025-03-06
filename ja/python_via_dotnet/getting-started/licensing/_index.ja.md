@@ -7,7 +7,7 @@ description: "Aspose.Words for Python via .NET は、さまざまな購入プラ
 type: docs
 weight: 40
 url: /ja/python-net/licensing/
-timestamp: 2024-01-31-14-23-37
+timestamp: 2025-02-12-16-18-40
 ---
 
 システムをよりよく研究するために、できるだけ早くコードを詳しく調べたい場合があります。これを容易にするために、Aspose.Words ではさまざまな購入プランを提供したり、評価用の無料トライアルと 30 日間の一時ライセンスを提供したりできます。
@@ -106,6 +106,8 @@ Aspose.Words を使用すると、開発者は従量制キーを適用できま�
 次のコード例は、従量制の公開キーと秘密キーを設定する方法を示しています。
 
 {{< gist "aspose-words-gists" "45c97d37bef13067c82e741b922a2d4f" "apply-metered-license.py" >}}
+
+通常は、アプリケーションの起動時に一度従量制ライセンスを適用するだけで十分です。 ただし、従量制ライセンスメカニズムがAsposeサーバと24時間通信に失敗した場合、Aspose.Wordsはライセンスモードを終了し、評価モードに切り替わります。 このようなケースを回避するには、[is_metered_licensed](https://reference.aspose.com/words/python-net/aspose.words/metered/is_metered_licensed/#default)メソッドを使用してライセンスのステータスを確認し、必要に応じて従量制ライセンスを再適用します。
 
 {{% alert color="primary" %}}
 

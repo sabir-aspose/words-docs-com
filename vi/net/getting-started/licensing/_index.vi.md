@@ -7,7 +7,7 @@ description: "Aspose.Words cho .NET cung cấp các gói mua khác nhau hoặc c
 type: docs
 weight: 55
 url: /vi/net/licensing/
-timestamp: 2024-10-24-11-44-28
+timestamp: 2025-02-12-16-18-40
 ---
 
 Đôi khi, để nghiên cứu hệ thống tốt hơn, bạn muốn đi sâu vào mã càng nhanh càng tốt. Để thực hiện việc này dễ dàng hơn, Aspose.Words cung cấp các gói mua khác nhau hoặc cung cấp Bản dùng thử miễn phí và Giấy phép tạm thời 30 ngày để đánh giá.
@@ -119,7 +119,7 @@ Ví dụ mã sau đây cho thấy cách đặt khóa chung và khóa riêng tư 
 
 {{< gist "aspose-words-gists" "c762ebd027c53ed61fce5bc5ccac1ca7" "apply-metered-license.cs" >}}
 
-Thông thường, chỉ cần áp dụng giấy phép đo một lần khi bắt đầu ứng dụng là đủ. Tuy nhiên, nếu cơ chế cấp phép đo lường không giao tiếp với máy chủ Aspose trong 24 giờ, Aspose.Words sẽ thoát chế độ được cấp phép và chuyển sang chế độ đánh giá. Để tránh trường hợp như vậy, bạn nên thường xuyên kiểm tra trạng thái giấy phép – nếu Aspose.Words chuyển sang chế độ đánh giá, vui lòng áp dụng lại giấy phép đo.
+Thông thường nó là đủ để áp dụng giấy phép đo một lần khi bắt đầu ứng dụng. Tuy nhiên, nếu cơ chế cấp phép được đo lường không giao tiếp với Các Máy chủ Aspose trong 24 giờ, Aspose.Words sẽ thoát khỏi chế độ được cấp phép và chuyển sang chế độ đánh giá. Để tránh trường hợp như vậy, bạn có thể sử dụng phương thức [IsMeteredLicensed](https://reference.aspose.com/words/net/aspose.words/metered/ismeteredlicensed/) để kiểm tra trạng thái giấy phép và áp dụng lại giấy phép được đo nếu cần.
 
 {{% alert color="primary" %}}
 

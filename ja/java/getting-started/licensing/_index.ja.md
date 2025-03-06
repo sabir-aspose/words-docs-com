@@ -1,4 +1,4 @@
-﻿---
+---
 title: ライセンスとサブスクリプション
 second_title: Aspose.WordsのためのJava
 articleTitle: ライセンスとサブスクリプション
@@ -7,7 +7,7 @@ description: "Aspose.WordsforJavaは、購入のための異なるプランを�
 type: docs
 weight: 60
 url: /ja/java/licensing/
-timestamp: 2024-01-31-14-23-37
+timestamp: 2025-02-12-16-18-40
 ---
 
 場合によっては、システムをよりよく研究するために、できるだけ早くコードに飛び込みたいと思うことがあります。 これを容易にするために、Aspose.Wordsは購入のための異なる計画を提供するか、または評価のための無料試用版と30日間の一時的なライセンスを提供します。
@@ -129,6 +129,8 @@ Aspose.Wordsは、開発者が従量制課金キーを適用できるように�
 次のコード例は、従量制公開キーと秘密キーを設定する方法を示しています:
 
 {{< gist "aspose-words-gists" "aae6b7a56c4792497614b4ee8f6f8eec" "apply-metered-license.java" >}}
+
+通常は、アプリケーションの起動時に一度従量制ライセンスを適用するだけで十分です。 ただし、従量制ライセンスメカニズムがAsposeサーバと24時間通信に失敗した場合、Aspose.Wordsはライセンスモードを終了し、評価モードに切り替わります。 このようなケースを回避するには、[IsMeteredLicensed](https://reference.aspose.com/words/java/com.aspose.words/metered/#isMeteredLicensed)メソッドを使用してライセンスのステータスを確認し、必要に応じて従量制ライセンスを再適用します。
 
 {{% alert color="primary" %}}
 

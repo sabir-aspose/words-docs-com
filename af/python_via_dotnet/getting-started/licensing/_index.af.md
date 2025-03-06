@@ -7,7 +7,7 @@ description: "Aspose.Words vir Python via .NET bied verskillende planne vir aank
 type: docs
 weight: 40
 url: /af/python-net/licensing/
-timestamp: 2024-01-31-14-23-37
+timestamp: 2025-02-12-16-18-40
 ---
 
 Soms, om die stelsel beter te bestudeer, wil jy so vinnig as moontlik in die kode duik. Om dit makliker te maak, bied Aspose.Words verskillende planne vir aankoop of bied'n Gratis Proeflopie en'n 30-Dag Tydelike Lisensie vir evaluering.
@@ -106,6 +106,8 @@ Moenie die **SetMeteredKey** - metode gereeld bel sodat hierdie lisensiëringsme
 Die volgende kode voorbeeld toon hoe om gemeet openbare en private sleutels stel:
 
 {{< gist "aspose-words-gists" "45c97d37bef13067c82e741b922a2d4f" "apply-metered-license.py" >}}
+
+Gewoonlik is dit genoeg om die meterlisensie een keer toe te pas wanneer die aansoek begin. As die meetlisensie-meganisme egter nie 24 uur lank met die Aspose-bedieners kommunikeer nie, sal Aspose.Words die gelisensieerde modus verlaat en oorskakel na die evalueringsmodus. Om so'n geval te vermy, kan u die [is_metered_licensed](https://reference.aspose.com/words/python-net/aspose.words/metered/is_metered_licensed/#default) - metode gebruik om die lisensiestatus na te gaan en die gemete lisensie weer toe te pas indien nodig.
 
 {{% alert color="primary" %}}
 

@@ -7,7 +7,7 @@ description: "Aspose.Words vir .NET bied verskillende planne vir aankoop of bied
 type: docs
 weight: 55
 url: /af/net/licensing/
-timestamp: 2024-10-24-11-44-28
+timestamp: 2025-02-12-16-18-40
 ---
 
 Soms, om die stelsel beter te bestudeer, wil jy so vinnig as moontlik in die kode duik. Om dit makliker te maak, bied Aspose.Words verskillende planne vir aankoop of bied'n Gratis Proeflopie en'n 30-Dag Tydelike Lisensie vir evaluering.
@@ -119,7 +119,7 @@ Die volgende kode voorbeeld toon hoe om beperkte openbare en private sleutels st
 
 {{< gist "aspose-words-gists" "c762ebd027c53ed61fce5bc5ccac1ca7" "apply-metered-license.cs" >}}
 
-Gewoonlik is dit genoeg om die meterlisensie een keer toe te pas wanneer die aansoek begin. As die meetlisensie-meganisme egter nie vir 24 ure met die Aspose-bedieners kommunikeer nie, sal Aspose.Words die gelisensieerde modus verlaat en oorskakel na die evalueringsmodus. Om so'n geval te vermy, moet jy gereeld die lisensiestatus nagaan – as Aspose.Words in evalueringsmodus verander, pas asseblief die gemete lisensie weer toe.
+Gewoonlik is dit genoeg om die meterlisensie een keer toe te pas wanneer die aansoek begin. As die meetlisensie-meganisme egter nie 24 uur lank met die Aspose-bedieners kommunikeer nie, sal Aspose.Words die gelisensieerde modus verlaat en oorskakel na die evalueringsmodus. Om so'n geval te vermy, kan u die [IsMeteredLicensed](https://reference.aspose.com/words/net/aspose.words/metered/ismeteredlicensed/) - metode gebruik om die lisensiestatus na te gaan en die gemete lisensie weer toe te pas indien nodig.
 
 {{% alert color="primary" %}}
 

@@ -7,7 +7,7 @@ description: "Aspose.Words dla Python via .NET oferuje różne plany zakupu lub 
 type: docs
 weight: 40
 url: /pl/python-net/licensing/
-timestamp: 2024-01-31-14-23-37
+timestamp: 2025-02-12-16-18-40
 ---
 
 Czasami, aby lepiej przestudiować system, chcesz jak najszybciej zagłębić się w kod. Aby to ułatwić, Aspose.Words oferuje różne plany zakupu lub bezpłatną wersję próbną i 30-dniową licencję tymczasową do oceny.
@@ -106,6 +106,8 @@ Nie wywołuj często metody **SetMeteredKey**, aby ta metoda licencjonowania pra
 Poniższy przykład kodu pokazuje, jak ustawić mierzone klucze publiczne i prywatne:
 
 {{< gist "aspose-words-gists" "45c97d37bef13067c82e741b922a2d4f" "apply-metered-license.py" >}}
+
+Zwykle wystarczy zastosować licencję odmierzoną po uruchomieniu aplikacji. Jeśli jednak mechanizm licencjonowania z pomiarem nie będzie komunikował się z serwerami Aspose przez 24 godziny, Aspose.Words wyjdzie z trybu licencjonowanego i przejdzie w tryb oceny. Aby uniknąć takiego przypadku, możesz użyć metody [is_metered_licensed](https://reference.aspose.com/words/python-net/aspose.words/metered/is_metered_licensed/#default), aby sprawdzić status licencji i w razie potrzeby ponownie zastosować licencję odmierzoną.
 
 {{% alert color="primary" %}}
 

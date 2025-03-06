@@ -7,20 +7,30 @@ type: docs
 description: "Aspose.Words for .NET 每天都在扩展和增强。在此页面上，您可以了解该产品的巨大且最有趣的功能。"
 weight: 10
 url: /zh/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2025-01-15-11-43-05
+timestamp: 2025-02-17-18-02-05
 ---
 
 本页描述了最近版本中引入的最有趣的新 Aspose.Words 功能。
 
-## Aspose.Words for .NET 25.1
+## Aspose.Words为.NET 25.1, 25.2
 
 Aspose.Words 25.1 引入了 AI 驱动的语法检查，并通过 HTML、SVG 和 Markdown 格式的高级选项增强了文档保存功能。
+
+Aspose.Words25.2使用AnthropicAI模型引入文本摘要，添加MsWorks格式支持，增强排版控制，并改进PDF结构和列表处理。
 
 ### AI 驱动的功能
 
 #### 文档 AI 语法检查 <sup>25.1</sup>
 
 通过添加新的 [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/) 方法，引入了使用 OpenAI 生成模型检查所提供文档语法的功能。
+
+#### 使用人类生成语言模型进行总结 <sup>25.2</sup>
+
+通过引入一个新的公共类[AnthropicAiModel](https://reference.aspose.com/words/net/aspose.words.ai/anthropicaimodel/)，启用了使用人类生成语言模型的文本摘要。
+
+### 支持的格式 <sup>25.2</sup>
+
+从版本25.2开始，添加了与MicrosoftWorks文档的新MsWorks加载格式的兼容性。
 
 ### 转换、加载和保存文档
 
@@ -33,9 +43,22 @@ Aspose.Words 25.1 引入了 AI 驱动的语法检查，并通过 HTML、SVG 和 
 * [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) 选项已添加到 [ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imageresolution/) 类，用于设置图像分辨率。
 * 新的 [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) 选项和 [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) 枚举已添加到 [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) 类，以设置 OfficeMath 输出模式。
 
+### 渲染
+
+#### 改进的排版控制 <sup>25.2</sup>
+
+已添加[NumberSpacing](https://reference.aspose.com/words/net/aspose.words/font/numberspacing/)属性以改进排版控制。
+
+### 其他
+
+* PDF逻辑结构得到了改进，支持TOA、BIBLIOGRAPHY和INDEX字段。 <sup>25.2</sup>
+* 为了改进列表处理，引入了[AddSingleLevelList](https://reference.aspose.com/words/net/aspose.words.lists/listcollection/addsinglelevellist/)方法。 <sup>25.2</sup>
+
 {{% alert color="primary" %}}
 
 了解有关 [Aspose.Words for .NET 25.1 发行说明](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/) 的更多信息。
+
+了解更多关于 [Aspose.Words为.NET 25.2 发行通知书](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-2-release-notes/).
 
 {{% /alert %}}
 
@@ -480,94 +503,6 @@ LINQ 报告引擎中添加了一个选项来保留 JSON 字符串值的空格。
 了解有关 [Aspose.Words for .NET 23.7 发行说明](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/) 的更多信息。
 
 了解有关 [Aspose.Words for .NET 23.8 发行说明](/words/net/aspose-words-for-net-23-8-release-notes/) 的更多信息。
-
-{{% /alert %}}
-
-## .NET 23.1、23.2、23.3、23.4 的 Aspose.Words
-
-Aspose.Words 23.1 提高了光栅操作模拟的性能，并增强了文档导出和渲染质量。
-
-Aspose.Words 23.2 引入了以 MOBI 格式保存文档、改进了图表渲染并对文档外观细节进行了显着更改。
-
-Aspose.Words 23.3 通过新属性增强了文档导入和保存，并且还提高了背景和前景色以及径向渐变的工作质量。
-
-Aspose.Words 23.4 改进了一些参数的计算以及表格和周围文本的定位。
-
-### 性能改进
-
-#### <sup>23.1</sup>光栅操作的仿真
-
-使用图元文件模拟光栅操作的性能和质量已得到显着提高。
-
-### 支持的格式
-
-#### 导出到 MOBI <sup>23.2</sup>
-
-从版本 23.2 开始，可以将文档保存为 MOBI 格式（也称为 PRC、AZW – Amazon Kindle 自己的电子书文件格式）。现在您不仅可以加载 MOBI 文档，还可以将文件导出为 MOBI 格式。
-
-### 渲染
-
-#### 使用着色主题颜色<sup>23.1</sup>
-
-已实现使用阴影主题颜色的功能。
-
-#### DML 图表中 R 平方系数的支持<sup>23.1</sup>
-
-添加了渲染时 DML 图表趋势线标签中 R 平方系数的支持。
-
-#### 图表渲染改进<sup>23.2</sup>
-
-自 23.2 以来，图表渲染得到了显着改进。
-
-#### 背景和前景颜色控制<sup>23.3</sup>
-
-[Fill](https://reference.aspose.com/words/zh/net/aspose.words.drawing/fill/) 类已扩展为一组与背景和前景色相关的新公共属性：[ForeThemeColor](https://reference.aspose.com/words/zh/net/aspose.words.drawing/fill/forethemecolor/) 和 [BackThemeColor](https://reference.aspose.com/words/zh/net/aspose.words.drawing/fill/backthemecolor/)、[ForeTintAndShade](https://reference.aspose.com/words/zh/net/aspose.words.drawing/fill/foretintandshade/) 和 [BackTintAndShade](https://reference.aspose.com/words/zh/net/aspose.words.drawing/fill/backtintandshade/)。
-
-#### 使用 `SkiaSharp` Native Shader <sup>23.3 的</sup>径向渐变
-
-已实现使用 .NET Standard 的 `SkiaSharp` 本机着色器渲染径向渐变。
-
-#### 表格与周围文字之间的距离<sup>23.4</sup>
-
-通过向 [Table](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/) 类引入新属性，添加了设置表格与周围文本之间距离的功能：[DistanceLeft](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/distanceleft/)、[DistanceRight](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/distanceright/)、[DistanceTop](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/distancetop/) 和 [DistanceBottom](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/distancebottom/)。
-
-### 加载和保存文档
-
-#### 为 AZW3 文档生成 `TOC` <sup>23.1</sup>
-
-通过使用 [NavigationMapLevel](https://reference.aspose.com/words/zh/net/aspose.words.saving/htmlsaveoptions/navigationmaplevel/) 属性，添加了为 AZW3 文档生成 `TOC`（目录）的功能。
-
-#### 将列表项导出到 Markdown <sup>23.1</sup>
-
-通过将 [ListExportMode](https://reference.aspose.com/words/zh/net/aspose.words.saving/markdownsaveoptions/listexportmode/) 属性添加到 [MarkdownSaveOptions](https://reference.aspose.com/words/zh/net/aspose.words.saving/markdownsaveoptions/) 类，提供了一种控制将列表项导出为 Markdown 格式的方法。
-
-#### 文档保存进度通知<sup>23.3</sup>
-
-已实现 MOBI 和 AZW3 格式的保存进度通知。
-
-#### 句子和字距调整<sup>23.3</sup>
-
-通过引入 [AdjustSentenceAndWordSpacing](https://reference.aspose.com/words/zh/net/aspose.words/importformatoptions/adjustsentenceandwordspacing/) 属性，添加了指定是否在文档导入时自动调整句子和单词间距的功能。
-
-### 其他
-
-* 通过 [JustificationMode](https://reference.aspose.com/words/zh/net/aspose.words/document/justificationmode/) 属性实现<sup>23.2</sup>添加了指定文档字符间距调整的功能
-* 通过添加 [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/zh/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/) 属性，提供了指示 Aspose.Words 字数统计中是否包含文本框、脚注和尾注的方法<sup>23.2</sup>
-* 文档样式的新选项，允许指定是否根据适当的值自动重新定义样式，已通过 [AutomaticallyUpdate](https://reference.aspose.com/words/zh/net/aspose.words/style/automaticallyupdate/) 属性<sup>23.2</sup>引入
-* 已添加使用 [IsPhoneticGuide](https://reference.aspose.com/words/zh/net/aspose.words/run/isphoneticguide/) 属性确定 [Run](https://reference.aspose.com/words/zh/net/aspose.words/run/) 是否为语音指南运行的功能<sup>23.4</sup>
-* 通过引入 [ChartAxisCollection](https://reference.aspose.com/words/zh/net/aspose.words.drawing.charts/chartaxiscollection/) 类并添加 [Chart.Axes](https://reference.aspose.com/words/zh/net/aspose.words.drawing.charts/chart/axes/) 属性，实现了使用组合图表的系列和轴的简单方法<sup>23.4</sup>
-* 与形状相对定位和大小相关的新公共属性已添加到 [Shape](https://reference.aspose.com/words/zh/net/aspose.words.drawing/shape/) 类<sup>23.4</sup>中
-* 根据最新版本的 Microsoft Word <sup>23.4</sup>改进了自动文本颜色分辨率的颜色亮度计算的准确性和性能
-
-{{% alert color="primary" %}}
-
-了解有关 [Aspose.Words for .NET 23.1 发行说明](/words/net/aspose-words-for-net-23-1-release-notes/) 的更多信息。
-
-了解有关 [Aspose.Words for .NET 23.2 发行说明](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/) 的更多信息。
-
-了解有关 [Aspose.Words for .NET 23.3 发行说明](/words/net/aspose-words-for-net-23-3-release-notes/) 的更多信息。
-
-了解有关 [Aspose.Words for .NET 23.4 发行说明](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/) 的更多信息。
 
 {{% /alert %}}
 

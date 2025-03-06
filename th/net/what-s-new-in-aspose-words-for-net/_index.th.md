@@ -7,20 +7,30 @@ type: docs
 description: "Aspose.Wordsสำหรับ.NETขยายและปรับปรุงทุกวัน ในหน้านี้คุณสามารถเรียนรู้เกี่ยวกับคุณสมบัติขนาดใหญ่และน่าสนใจที่สุดของผลิตภัณฑ์."
 weight: 10
 url: /th/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2025-01-15-11-43-05
+timestamp: 2025-02-17-18-02-05
 ---
 
 หน้านี้อธิบายถึงคุณลักษณะใหม่ที่น่าสนใจที่สุดAspose.Wordsที่นำมาใช้ในรุ่นล่าสุด.
 
-## Aspose.Words สำหรับ .NET 25.1
+## Aspose.Wordsสำหรับ.NET 25.1, 25.2
 
 Aspose.Words 25.1 แนะนำการตรวจสอบไวยากรณ์ที่ขับเคลื่อนด้วย AI และปรับปรุงการบันทึกเอกสารด้วยตัวเลือกขั้นสูงสำหรับรูปแบบ HTML, SVG และ Markdown
+
+Aspose.Words25.2นำเสนอการสรุปข้อความด้วยแบบจำลองทางมนุษย์AIเพิ่มการสนับสนุนรูปแบบMsWorksช่วยเพิ่มการควบคุมการพิมพ์และปรับปรุงโครงสร้างและการจัดการรายการPDF.
 
 ### ฟีเจอร์ที่ขับเคลื่อนด้วย AI
 
 #### การตรวจสอบไวยากรณ์ด้วย AI ของเอกสาร <sup>25.1</sup>
 
 ความสามารถในการตรวจสอบไวยากรณ์ของเอกสารที่ให้มาโดยใช้โมเดลสร้าง OpenAI ได้รับการแนะนำโดยการเพิ่มวิธีการ [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/) ใหม่
+
+#### สรุปโดยใช้แบบจำลองภาษากำเนิดมนุษย์ <sup>25.2</sup>
+
+การสรุปข้อความโดยใช้แบบจำลองภาษาสร้างมนุษย์ได้ถูกเปิดใช้งานโดยการแนะนำชั้นเรียนสาธารณะใหม่[AnthropicAiModel](https://reference.aspose.com/words/net/aspose.words.ai/anthropicaimodel/).
+
+### รูปแบบที่รองรับ <sup>25.2</sup>
+
+เริ่มต้นจากรุ่น25.2มีการเพิ่มความเข้ากันได้กับรูปแบบใหม่MsWorksโหลดสำหรับMicrosoftเอกสารงาน.
 
 ### การแปลง การโหลด และการบันทึกเอกสาร
 
@@ -33,9 +43,22 @@ Aspose.Words 25.1 แนะนำการตรวจสอบไวยาก�
 * เพิ่มตัวเลือก [ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imageresolution/) ใหม่ลงในคลาส [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) เพื่อตั้งค่าความละเอียดของภาพ
 * ตัวเลือก [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) ใหม่และการแจงนับ [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) ได้รับการเพิ่มและเพิ่มลงในคลาส [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) เพื่อตั้งค่าโหมดเอาต์พุตของ OfficeMath
 
+### การแสดงผล
+
+#### ปรับปรุงการควบคุมการพิมพ์ <sup>25.2</sup>
+
+มีการเพิ่มคุณสมบัติ[NumberSpacing](https://reference.aspose.com/words/net/aspose.words/font/numberspacing/)เพื่อปรับปรุงการควบคุมการพิมพ์.
+
+### อื่นๆ
+
+* PDFโครงสร้างตรรกะได้รับการปรับปรุงด้วยการสนับสนุนสำหรับฟิลด์TOA,BIBLIOGRAPHYและINDEX <sup>25.2</sup>
+* วิธีการ[AddSingleLevelList](https://reference.aspose.com/words/net/aspose.words.lists/listcollection/addsinglelevellist/)ได้รับการแนะนำสำหรับการจัดการรายการที่ดีขึ้น <sup>25.2</sup>
+
 {{% alert color="primary" %}}
 
 เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.Wordsสำหรับ.NET 25.1บันทึกย่อ](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/)
+
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.Wordsสำหรับ.NET 25.2 บันทึกย่อ](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-2-release-notes/).
 
 {{% /alert %}}
 
@@ -480,94 +503,6 @@ Aspose.Words23.8ขยายความสามารถของรูปแ�
 เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.Wordsสำหรับ.NET 23.7บันทึกย่อ](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
 
 เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.Wordsสำหรับ.NET 23.8บันทึกย่อ](/words/net/aspose-words-for-net-23-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Wordsสำหรับ.NET 23.1, 23.2, 23.3, 23.4
-
-Aspose.Words23.1ปรับปรุงประสิทธิภาพการทำงานของการจำลองการทำงานของแรสเตอร์เช่นเดียวกับ.
-
-Aspose.Words23.2นำเสนอการบันทึกเอกสารในรูปแบบMOBIปรับปรุงการแสดงผลแผนภูมิและทำให้การเปลี่ยนแปลงที่โดดเด่นในรายละเอียดลักษณะที่ปรากฏของเอกสาร.
-
-Aspose.Words23.3ช่วยเพิ่มการนำเข้าและประหยัดเอกสารด้วยคุณสมบัติใหม่และยังช่วยปรับปรุงคุณภาพของงานที่มีพื้นหลังและสีเบื้องหน้าและการไล่ระดับสีแบบรัศมี.
-
-Aspose.Words23.4ปรับปรุงการคำนวณพารามิเตอร์บางอย่างและการวางตำแหน่งของตารางและข้อความ.
-
-### การปรับปรุงประสิทธิภาพ
-
-#### การจำลองการดำเนินงานแรสเตอร์ <sup>23.1</sup>
-
-ประสิทธิภาพการทำงานและคุณภาพของการจำลองของการดำเนินงานแรสเตอร์กับเมต.
-
-### รูปแบบที่รองรับ
-
-#### ส่งออกไปยังMOBI <sup>23.2</sup>
-
-เริ่มต้นด้วยรุ่น23.2,มันเป็นไปได้ที่จะบันทึกเอกสารในMOBIรูปแบบ(เรียกอีกอย่างว่าPRC, AZW – Amazon บไฟล์หนังสืออิเล็กทรอนิกส์) ตอนนี้คุณไม่เพียงแต่สามารถโหลดเอกสารMOBIแต่ยังส่งออกไฟล์ของคุณไปยังรูปแบบMOBI.
-
-### การแสดงผล
-
-#### ทำงานร่วมกับสีธีมแรเงา <sup>23.1</sup>
-
-ความสามารถในการทำงานร่วมกับสีธีมแรเงาได้รับการดำเนินการ.
-
-#### สนับสนุนสัมประสิทธิ์อาร์กำลังสองในDMLแผนภูมิ <sup>23.1</sup>
-
-สนับสนุนค่าสัมประสิทธิ์อาร์กำลังสองในDMLป้ายเส้นแนวโน้มแผนภูมิเมื่อมีการเพิ่มการแสดงผล.
-
-#### การปรับปรุงการแสดงผลแผนภูมิ <sup>23.2</sup>
-
-ตั้งแต่23.2การแสดงผลแผนภูมิได้รับการปรับปรุงอย่างมีนัยสำคัญ.
-
-#### พื้นหลังและการควบคุมสีเบื้องหน้า <sup>23.3</sup>
-
-ชั้น[Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/)ได้รับการขยายออกไปพร้อมกับชุดของคุณสมบัติสาธารณะใหม่ที่เกี่ยวข้องกับพื้นหลังและสีพื้นหน้า:[ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/forethemecolor/)และ[BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backthemecolor/),[ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/foretintandshade/)และ[BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backtintandshade/).
-
-#### การไล่ระดับสีแบบรัศมีด้วยแรเงาพื้นเมือง`SkiaSharp` <sup>23.3</sup>
-
-มีการแสดงผลของการไล่ระดับสีแบบรัศมีด้วย`SkiaSharp`ตัวแรเงาแบบพื้นเมืองสำหรับ.NET Standard.
-
-#### ระยะห่างระหว่างตารางและข้อความโดยรอบ <sup>23.4</sup>
-
-ความสามารถในการกำหนดระยะห่างระหว่างตารางและข้อความโดยรอบได้รับการเพิ่มโดยการแนะนำคุณสมบัติใหม่ในชั้นเรียน[Table](https://reference.aspose.com/words/net/aspose.words.tables/table/): [DistanceLeft](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceleft/), [DistanceRight](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceright/), [DistanceTop](https://reference.aspose.com/words/net/aspose.words.tables/table/distancetop/), และ[DistanceBottom](https://reference.aspose.com/words/net/aspose.words.tables/table/distancebottom/).
-
-### การโหลดและบันทึกเอกสาร
-
-#### สร้าง`TOC`สำหรับAZW3เอกสาร <sup>23.1</sup>
-
-ความสามารถในการสร้าง`TOC`(สารบัญ)สำหรับAZW3เอกสารได้รับการเพิ่มผ่านการใช้ทรัพย์สิน[NavigationMapLevel](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/navigationmaplevel/).
-
-#### ส่งออกรายการไปยังMarkdown <sup>23.1</sup>
-
-วิธีการควบคุมการส่งออกของรายการไปยังรูปแบบMarkdownได้โดยการเพิ่มคุณสมบัติ[ListExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/listexportmode/)ลงในคลาสของ[MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/).
-
-#### การแจ้งเตือนความคืบหน้าการบันทึกเอกสาร <sup>23.3</sup>
-
-มีการบันทึกการแจ้งเตือนความคืบหน้าสำหรับMOBIและAZW3รูปแบบ.
-
-#### การปรับระยะห่างของประโยคและคำ <sup>23.3</sup>
-
-ความสามารถในการระบุว่าจะปรับประโยคและระยะห่างของคำโดยอัตโนมัติเมื่อมีการนำเข้าเอกสารโดยการแนะนำคุณสมบัติ[AdjustSentenceAndWordSpacing](https://reference.aspose.com/words/net/aspose.words/importformatoptions/adjustsentenceandwordspacing/).
-
-### อื่นๆ
-
-* ความสามารถในการระบุการปรับระยะห่างอักขระของเอกสารได้ถูกเพิ่มผ่านการใช้งานคุณสมบัติ[JustificationMode](https://reference.aspose.com/words/net/aspose.words/document/justificationmode/) <sup>23.2</sup>
-* วิธีการสั่งการAspose.Wordsว่าจะรวมกล่องข้อความเชิงอรรถและหมายเหตุสิ้นสุดลงในสถิติการนับคำได้โดยการเพิ่มคุณสมบัติ[IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/) <sup>23.2</sup>
-* ตัวเลือกใหม่สำหรับสไตล์เอกสารซึ่งอนุญาตให้ระบุว่าสไตล์ถูกนิยามใหม่โดยอัตโนมัติตามค่าที่เหมาะสมถูกนำมาใช้ผ่านคุณสมบัติของ[AutomaticallyUpdate](https://reference.aspose.com/words/net/aspose.words/style/automaticallyupdate/) <sup>23.2</sup>
-* ความสามารถในการตรวจสอบว่า[Run](https://reference.aspose.com/words/net/aspose.words/run/)เป็นคู่มือการออกเสียงเรียกใช้ได้รับการเพิ่มโดยใช้คุณสมบัติ[IsPhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/isphoneticguide/) <sup>23.4</sup>
-* วิธีง่ายๆในการทำงานกับชุดและแกนของแผนภูมิคำสั่งผสมได้ถูกนำมาใช้โดยการแนะนำชั้นเรียน[ChartAxisCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxiscollection/)และเพิ่มคุณสมบัติ[Chart.Axes](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/axes/) <sup>23.4</sup>
-* คุณสมบัติสาธารณะใหม่ที่เชื่อมต่อกับรูปร่างการวางตำแหน่งสัมพัทธ์และการปรับขนาดได้ถูกเพิ่มเข้าไปในชั้น[Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) <sup>23.4</sup>
-* ความถูกต้องและประสิทธิภาพของการคำนวณความสว่างของสีสำหรับความละเอียดของสีข้อความอัตโนมัติได้รับการปรับปรุงให้สอดคล้องกับรุ่นล่าสุดของMicrosoft Word <sup>23.4</sup>
-
-{{% alert color="primary" %}}
-
-เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.Wordsสำหรับ.NET 23.1บันทึกย่อ](/words/net/aspose-words-for-net-23-1-release-notes/).
-
-เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.Wordsสำหรับ.NET 23.2บันทึกย่อ](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/).
-
-เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.Wordsสำหรับ.NET 23.3บันทึกย่อ](/words/net/aspose-words-for-net-23-3-release-notes/).
-
-เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.Wordsสำหรับ.NET 23.4บันทึกย่อ](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/).
 
 {{% /alert %}}
 

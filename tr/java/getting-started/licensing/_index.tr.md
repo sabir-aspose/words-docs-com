@@ -7,7 +7,7 @@ description: "Aspose.Words for Java farklı satın alma planları sunar veya bir
 type: docs
 weight: 60
 url: /tr/java/licensing/
-timestamp: 2024-01-31-14-23-37
+timestamp: 2025-02-12-16-18-40
 ---
 
 Bazen sistemin daha iyi çalışmasını sağlamak için kodun içine dalmak istersiniz ve bunu mümkün olduğunca çabuk yapmak istersiniz. Bunu kolaylaştırmak için, Aspose.Words farklı satın alma planları sunar veya bir Deneme Sürümü ve değerlendirme için 30 günlük Geçici Lisans sunar.
@@ -129,6 +129,8 @@ Bu lisanslama yönteminin tüketimi doğru bir şekilde biriktirmek ve bize bild
 Aşağıdaki kod örneği, genel ve özel anahtarları nasıl ayarlayacağınızı gösterir:
 
 {{< gist "aspose-words-gists" "aae6b7a56c4792497614b4ee8f6f8eec" "apply-metered-license.java" >}}
+
+Normalde ölçülü lisansı başvuru başlangıcında bir kez uygulamak yeterlidir. Ancak ölçülü lisans mekanizması Aspose sunucularıyla 24 saat iletişim kuramazsa Aspose.Words lisanslı moddan çıkar ve değerlendirme moduna geçer. Böyle bir durumdan kaçınmak için, lisans durumunu kontrol etmek ve gerekirse ölçülü lisansı yeniden uygulamak için [IsMeteredLicensed](https://reference.aspose.com/words/java/com.aspose.words/metered/#isMeteredLicensed) yöntemini kullanabilirsiniz.
 
 {{% alert color="primary" %}}
 

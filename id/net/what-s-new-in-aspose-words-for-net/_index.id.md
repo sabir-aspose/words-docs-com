@@ -7,20 +7,30 @@ type: docs
 description: "Aspose.Words untuk .NET berkembang dan ditingkatkan setiap hari. Di halaman ini, Anda dapat mempelajari tentang fitur-fitur produk yang besar dan paling menarik."
 weight: 10
 url: /id/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2025-01-15-11-43-05
+timestamp: 2025-02-17-18-02-05
 ---
 
 Halaman ini menjelaskan fitur-fitur Aspose.Words baru yang paling menarik yang diperkenalkan dalam rilis terbaru.
 
-## Aspose.Words untuk .NET 25.1
+## Aspose.Words untuk .NET 25.1, 25.2
 
 Aspose.Words 25.1 memperkenalkan pemeriksaan tata bahasa yang didukung AI dan meningkatkan penyimpanan dokumen dengan opsi lanjutan untuk format HTML, SVG, dan Markdown.
+
+Aspose.Words 25.2 memperkenalkan peringkasan teks dengan model Antropik AI, menambahkan dukungan format MsWorks, meningkatkan kontrol tipografi, dan meningkatkan struktur PDF dan penanganan daftar.
 
 ### Fitur yang Didukung AI
 
 #### Pemeriksaan Tata Bahasa Dokumen AI <sup>25.1</sup>
 
 Kemampuan untuk memeriksa tata bahasa dokumen yang disediakan menggunakan model generatif OpenAI telah diperkenalkan dengan menambahkan metode [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/) baru.
+
+#### Ringkasan Menggunakan Model Bahasa Generatif Antropik <sup>25.2</sup>
+
+Peringkasan teks menggunakan model bahasa generatif Antropik telah diaktifkan dengan memperkenalkan kelas publik baru [AnthropicAiModel](https://reference.aspose.com/words/net/aspose.words.ai/anthropicaimodel/).
+
+### Format yang Didukung <sup>25.2</sup>
+
+Mulai dari versi 25.2, kompatibilitas dengan format pemuatan MsWorks baru untuk dokumen Karya Microsoft telah ditambahkan.
 
 ### Mengonversi, Memuat, dan Menyimpan Dokumen
 
@@ -30,11 +40,25 @@ Penyimpanan ke format HTML dan SVG telah ditingkatkan dengan menambahkan propert
 
 #### Mengatur Resolusi Gambar dan Mode Output OfficeMath Saat Menyimpan ke Markdown <sup>25.1</sup>
 
-* Opsi [ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imageresolution/) baru telah ditambahkan ke kelas [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) untuk mengatur resolusi gambar. * Opsi [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) baru dan enumerasi [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) telah ditambahkan ke kelas [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) untuk menyetel mode keluaran OfficeMath.
+* Opsi [ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imageresolution/) baru telah ditambahkan ke kelas [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) untuk mengatur resolusi gambar.
+* Opsi [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) baru dan enumerasi [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) telah ditambahkan ke kelas [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) untuk menyetel mode keluaran OfficeMath.
+
+### Render
+
+#### Kontrol Tipografi yang Ditingkatkan <sup>25.2</sup>
+
+Properti [NumberSpacing](https://reference.aspose.com/words/net/aspose.words/font/numberspacing/) telah ditambahkan untuk kontrol tipografi yang lebih baik.
+
+### Lainnya
+
+* PDF struktur logika telah ditingkatkan dengan dukungan untuk bidang TOA, BIBLIOGRAPHY, dan INDEX. <sup>25.2</sup>
+* Metode [AddSingleLevelList](https://reference.aspose.com/words/net/aspose.words.lists/listcollection/addsinglelevellist/) telah diperkenalkan untuk penanganan daftar yang lebih baik. <sup>25.2</sup>
 
 {{% alert color="primary" %}}
 
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 25.1](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/).
+
+Pelajari lebih lanjut tentang [Aspose.Words untuk .NET 25.2 Catatan Rilis](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-2-release-notes/).
 
 {{% /alert %}}
 
@@ -479,94 +503,6 @@ Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 23.6](/word
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 23.7](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
 
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 23.8](/words/net/aspose-words-for-net-23-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words untuk .NET 23.1, 23.2, 23.3, 23.4
-
-Aspose.Words 23.1 meningkatkan kinerja emulasi operasi raster, serta meningkatkan kualitas ekspor dan rendering dokumen.
-
-Aspose.Words 23.2 memperkenalkan penyimpanan dokumen dalam format MOBI, meningkatkan rendering bagan, dan membuat perubahan penting pada detail tampilan dokumen.
-
-Aspose.Words 23.3 menyempurnakan impor dan penyimpanan dokumen dengan properti baru, dan juga meningkatkan kualitas pekerjaan dengan warna latar belakang dan latar depan serta gradien radial.
-
-Aspose.Words 23.4 meningkatkan penghitungan beberapa parameter dan posisi tabel dan teks di sekitarnya.
-
-### Peningkatan Kinerja
-
-#### Emulasi Operasi Raster <sup>23.1</sup>
-
-Kinerja dan kualitas emulasi operasi raster dengan metafile telah meningkat secara signifikan.
-
-### Format yang Didukung
-
-#### Ekspor ke MOBI <sup>23.2</sup>
-
-Dimulai dengan versi 23.2, dimungkinkan untuk menyimpan dokumen dalam format MOBI (juga disebut RRC, AZW – format file e-book Amazon Kindle sendiri). Sekarang Anda tidak hanya dapat memuat dokumen MOBI, tetapi juga mengekspor file Anda ke format MOBI.
-
-### Render
-
-#### Bekerja dengan Warna Tema Shading <sup>23.1</sup>
-
-Kemampuan untuk bekerja dengan warna tema penetasan telah diterapkan.
-
-#### Dukungan Koefisien R-squared pada Grafik DML <sup>23.1</sup>
-
-Dukungan koefisien R-kuadrat pada label garis tren bagan DML saat rendering telah ditambahkan.
-
-#### Peningkatan Rendering Bagan <sup>23.2</sup>
-
-Sejak versi 23.2, rendering grafik telah ditingkatkan secara signifikan.
-
-#### Kontrol Warna Latar Belakang dan Latar Depan <sup>23.3</sup>
-
-Kelas [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) telah diperluas dengan serangkaian properti publik baru yang terkait dengan warna latar belakang dan latar depan: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/forethemecolor/) dan [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/foretintandshade/) dan [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backtintandshade/).
-
-#### Gradien Radial dengan `SkiaSharp` Native Shader <sup>23.3</sup>
-
-Rendering gradien radial dengan shader asli `SkiaSharp` untuk .NET Standard telah diterapkan.
-
-#### Jarak Antara Tabel dan Teks di Sekitarnya <sup>23.4</sup>
-
-Kemampuan untuk mengatur jarak antara tabel dan teks di sekitarnya telah ditambahkan dengan memperkenalkan properti baru ke kelas [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/): [DistanceLeft](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceleft/), [DistanceRight](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceright/), [DistanceTop](https://reference.aspose.com/words/net/aspose.words.tables/table/distancetop/), dan [DistanceBottom](https://reference.aspose.com/words/net/aspose.words.tables/table/distancebottom/).
-
-### Memuat dan Menyimpan Dokumen
-
-#### Hasilkan `TOC` untuk Dokumen AZW3 <sup>23.1</sup>
-
-Kemampuan untuk menghasilkan `TOC` (daftar isi) untuk dokumen AZW3 telah ditambahkan melalui penggunaan properti [NavigationMapLevel](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/navigationmaplevel/).
-
-#### Mengekspor Item Daftar ke Markdown <sup>23.1</sup>
-
-Cara untuk mengontrol ekspor item daftar ke format Markdown telah disediakan dengan menambahkan properti [ListExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/listexportmode/) ke kelas [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/).
-
-#### Pemberitahuan Kemajuan Penyimpanan Dokumen <sup>23.3</sup>
-
-Menyimpan pemberitahuan kemajuan untuk format MOBI dan AZW3 telah diterapkan.
-
-#### Penyesuaian Kalimat dan Spasi Kata <sup>23.3</sup>
-
-Kemampuan untuk menentukan apakah akan menyesuaikan spasi kalimat dan kata secara otomatis saat dokumen diimpor telah ditambahkan dengan memperkenalkan properti [AdjustSentenceAndWordSpacing](https://reference.aspose.com/words/net/aspose.words/importformatoptions/adjustsentenceandwordspacing/).
-
-### Lainnya
-
-* Kemampuan untuk menentukan penyesuaian spasi karakter dokumen telah ditambahkan melalui implementasi properti [JustificationMode](https://reference.aspose.com/words/net/aspose.words/document/justificationmode/) <sup>23.2</sup>
-* Cara untuk menginstruksikan Aspose.Words apakah akan menyertakan kotak teks, catatan kaki, dan catatan akhir dalam statistik jumlah kata telah disediakan dengan menambahkan properti [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/) <sup>23.2</sup>
-* Opsi baru untuk gaya dokumen, yang memungkinkan menentukan apakah gaya didefinisikan ulang secara otomatis berdasarkan nilai yang sesuai, telah diperkenalkan melalui properti [AutomaticallyUpdate](https://reference.aspose.com/words/net/aspose.words/style/automaticallyupdate/) <sup>23.2</sup>
-* Kemampuan untuk menentukan apakah [Run](https://reference.aspose.com/words/net/aspose.words/run/) merupakan panduan fonetik yang dijalankan telah ditambahkan menggunakan properti [IsPhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/isphoneticguide/) <sup>23.4</sup>
-* Cara sederhana untuk bekerja dengan rangkaian dan sumbu diagram kombo telah diterapkan dengan memperkenalkan kelas [ChartAxisCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxiscollection/) dan menambahkan properti [Chart.Axes](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/axes/) <sup>23.4</sup>
-* Properti publik baru yang terhubung dengan posisi dan ukuran relatif bentuk telah ditambahkan ke kelas [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) <sup>23.4</sup>
-* Akurasi dan kinerja penghitungan kecerahan warna untuk resolusi warna teks otomatis telah ditingkatkan sesuai dengan versi terbaru Microsoft Word <sup>23.4</sup>
-
-{{% alert color="primary" %}}
-
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 23.1](/words/net/aspose-words-for-net-23-1-release-notes/).
-
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 23.2](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-2-release-notes/).
-
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 23.3](/words/net/aspose-words-for-net-23-3-release-notes/).
-
-Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 23.4](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-4-release-notes/).
 
 {{% /alert %}}
 

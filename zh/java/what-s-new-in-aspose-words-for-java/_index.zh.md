@@ -1,18 +1,68 @@
-﻿---
+---
 title: 最新消息
 second_title: Aspose.Words为Java
-articleTitle: Aspose.WordsJava有什么新消息？
-linktitle: Aspose.WordsJava有什么新消息？
+articleTitle: 最新消息 Aspose.Words为Java
+linktitle: 最新消息 Aspose.Words为Java
 type: docs
-description: "Aspose.WordsforJava每天扩展和增强。 在这个页面上，您可以了解该产品的巨大和最有趣的功能。"
+description: "Aspose.Words为Java 每天扩展和增强。 在这个页面上，您可以了解该产品的巨大和最有趣的功能。"
 weight: 2
 url: /zh/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2024-12-13-10-56-02
+timestamp: 2025-17-02-18-02-05
 ---
 
 本页介绍了最近版本中引入的最有趣的Aspose.Words新特性。
 
-## Aspose.Words为Java 24.9、24.10、24.11、24.12
+## Aspose.Words为Java 25.1, 25.2
+
+Aspose.Words25.1引入了AI支持的语法检查，并通过HTML、SVG和Markdown格式的高级选项增强了文档保存。
+
+Aspose.Words25.2使用AnthropicAI模型引入文本摘要，添加MsWorks格式支持，增强排版控制，并改进PDF结构和列表处理。
+
+### AI功能
+
+#### 文档AI语法检查 <sup>25.1</sup>
+
+通过添加一个新的[CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions)方法，引入了使用OpenAI生成模型检查所提供文档语法的能力。
+
+#### 使用人类生成语言模型进行总结 <sup>25.2</sup>
+
+通过引入一个新的公共类[AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/)，启用了使用人类生成语言模型的文本摘要。
+
+### 支持的格式 <sup>25.2</sup>
+
+从版本25.2开始，添加了与MicrosoftWorks文档的新MsWorks加载格式的兼容性。
+
+### 转换、加载和保存文档
+
+#### 改进保存为HTML和SVG格式 <sup>25.1</sup>
+
+通过向[HtmlFixedSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlfixedsaveoptions/)和[SvgSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/svgsaveoptions/)类添加**IdPrefix**和**RemoveJavaScriptFromLinks**属性，已增强了保存为HTML和SVG格式的功能。
+
+#### 保存为Markdown时设置图像分辨率和OfficeMath输出模式 <sup>25.1</sup>
+
+* 在[MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/)类中添加了一个新的[ImageResolution](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageResolution)选项来设置图像分辨率。
+* 一个新的[OfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getOfficeMathExportMode)选项和[MarkdownOfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownofficemathexportmode/)枚举已添加到[MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/)类中以设置OfficeMath输出模式。
+
+### 渲染图
+
+#### 改进的排版控制 <sup>25.2</sup>
+
+已添加[NumberSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getNumberSpacing)属性以改进排版控制。
+
+### 其他
+
+* PDF逻辑结构得到了改进，支持TOA、BIBLIOGRAPHY和INDEX字段。 <sup>25.2</sup>
+* 为了改进列表处理，引入了[AddSingleLevelList](https://reference.aspose.com/words/java/com.aspose.words/listcollection/#addSingleLevelList-int)方法。 <sup>25.2</sup>
+
+{{% alert color="primary" %}}
+
+了解更多关于 [Aspose.Words为Java 25.1发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-1-release-notes/).
+
+了解更多关于 [Aspose.Words为Java 25.2发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-2-release-notes/).
+
+{{% /alert %}}
+
+## Aspose.Words为Java 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words24.9通过DocumentBuilder引入group shape插入和StructuredDocumentTag插入，使用渐变增强径向图表呈现，使用XAdES-EPES支持改进数字签名，添加Markdown下划线识别，并提供对脚注/尾注分隔符的访问。
 
@@ -20,21 +70,21 @@ Aspose.Words24.10引入了增强的ActiveX控件支持CommandButton创建，新�
 
 Aspose.Words24.11引入了AI支持的文档摘要、增强的呈现选项、改进的文档属性访问和ActiveX控件字幕。
 
-Aspose.Words 24.12 引入了可自定义的数据标签放置、Google AI 支持的文本翻译、增强的邮件合并清理选项以及新的 LowCode 处理类。
+Aspose.Words24.12引入了可自定义的数据标签放置，GoogleAI支持的文本翻译，增强的Mail Merge清理选项和新的LowCode处理类。
 
-### AI 支持的功能
+### AI功能
 
-#### 使用 OpenAI 和 Google 进行文档摘要 <sup>24.11</sup>
+#### 使用OpenAI和Google进行文档摘要 <sup>24.11</sup>
 
-已集成对使用 **OpenAI** 和 **Google** 生成语言模型进行文档摘要的支持。
+集成了使用**OpenAI**和**Google**生成语言模型对文档摘要的支持。
 
-#### 使用 Google 的生成语言模型进行文本翻译 <sup>24.12</sup>
+#### 使用Google生成语言模型进行文本翻译 <sup>24.12</sup>
 
-通过添加 [Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int) 方法和 [Language](https://reference.aspose.com/words/java/com.aspose.words/language/) 枚举，在 Aspose.Words 中实现了使用 Google 生成语言模型翻译文本的功能。
+通过添加[Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int)方法和[Language](https://reference.aspose.com/words/java/com.aspose.words/language/)枚举，在Aspose.Words中实现了使用Google生成语言模型翻译文本的功能。
 
 ### Low Code <sup>24.12</sup>
 
-引入了新的 LowCode 类，如 [Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/)、[MailMerger](https://reference.aspose.com/words/java/com.aspose.words/mailmerger/)、[Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/)、[Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) 等，提供了一套在文档处理的简单性和灵活性之间取得完美平衡的方法。
+新的LowCode类，如[Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/), [MailMerger](https://reference.aspose.com/words/java/com.aspose.words/mailmerger/), [Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/), [Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) 等。 已经引入，提供了一组方法，在文档处理的简单性和灵活性之间取得完美的平衡。
 
 ### 渲染和打印
 
@@ -66,10 +116,6 @@ Aspose.Words 24.12 引入了可自定义的数据标签放置、Google AI 支持
 
 通过允许指定数量的容器和标签，直方图图表的呈现得到了改进。
 
-#### 自定义数据标签的位置 <sup>24.12</sup>
-
-通过向 [ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) 和 [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/) 类引入新属性，添加了自定义数据标签位置的功能。
-
 ### 转换、加载和保存文档
 
 #### 加载Markdown文件时的下划线格式 <sup>24.9</sup>
@@ -84,13 +130,13 @@ Aspose.Words 24.12 引入了可自定义的数据标签放置、Google AI 支持
 
 通过将表标题属性包含为PDF逻辑结构元素标题，已增强了PDF导出。
 
-### 邮件合并和报告
+### Mail Merge和报告
 
-#### 在邮件合并期间删除空表 <sup>24.12</sup>
+#### 在Mail Merge期间删除空表 <sup>24.12</sup>
 
-[MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/) 枚举中添加了新的 **RemoveEmptyTables** 选项，以优化邮件合并输出。
+一个新的**RemoveEmptyTables**选项已添加到[MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/)枚举以细化Mail Merge输出。
 
-### 数码签署
+### 数字签名
 
 #### 用XAdES-EPES签署文件 <sup>24.9</sup>
 
@@ -109,13 +155,13 @@ Aspose.Words 24.12 引入了可自定义的数据标签放置、Google AI 支持
 
 {{% alert color="primary" %}}
 
-了解更多关于 [Aspose.Words为Java24.9发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
+了解更多关于 [Aspose.Words为Java 24.9发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
 
-了解更多关于 [Aspose.Words为Java24.10发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
+了解更多关于 [Aspose.Words为Java 24.10发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
 
-了解更多关于 [Aspose.Words为Java24.11发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-11-release-notes/).
+了解更多关于 [Aspose.Words为Java 24.11发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-11-release-notes/).
 
-了解更多关于 [Aspose.Words为Java24.12发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-12-release-notes/).
+了解更多关于 [Aspose.Words为Java 24.12发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-12-release-notes/).
 
 {{% /alert %}}
 
@@ -139,7 +185,7 @@ Aspose.Words24.8通过对轴标签的精确控制来增强图表自定义，扩�
 
 - 已经实现了SVG图形的DrawingML效果渲染，扩展了以前仅限于图像的功能。
 - 通过添加[ChartSeriesGroup](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroup/)和[ChartSeriesGroupCollection](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroupcollection/)类以及[SeriesGroups](https://reference.aspose.com/words/java/com.aspose.words/chart/#getSeriesGroups)属性，支持在序列组中创建组合图和调整间隙宽度、重叠和气泡比例等属性。
-- 通过添加[SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/)类实现了操作形状SoftEdge效果的功能。
+- 操作形状的SoftEdge效果的功能已经通过添加[SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/)类来实现。
 - 通过添加[AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/)和[Adjustment](https://reference.aspose.com/words/java/com.aspose.words/adjustment/)公共类以及[Adjustments](https://reference.aspose.com/words/java/com.aspose.words/shape/#getAdjustments)属性，实现了修改形状调整值的功能。
 
 #### 图表、形状和绘图的变化 <sup>24.6</sup>
@@ -206,19 +252,19 @@ Aspose.Words24.8通过对轴标签的精确控制来增强图表自定义，扩�
 
 {{% alert color="primary" %}}
 
-了解更多关于 [Aspose.Words为Java24.5发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/).
+了解更多关于 [Aspose.Words为Java 24.5发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/).
 
-了解更多关于 [Aspose.Words为Java24.6发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/).
+了解更多关于 [Aspose.Words为Java 24.6发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/).
 
-了解更多关于 [Aspose.Words为Java24.7发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-7-release-notes/).
+了解更多关于 [Aspose.Words为Java 24.7发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-7-release-notes/).
 
-了解更多关于 [Aspose.Words为Java24.8发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-8-release-notes/).
+了解更多关于 [Aspose.Words为Java 24.8发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-8-release-notes/).
 
 {{% /alert %}}
 
 ## Aspose.Words为Java 24.1, 24.2, 24.3, 24.4
 
-Aspose.Words24.1改进了管理笔划颜色的体验，增强了OLE对象和LINQ报告，并引入了新的参考书目来源publicAPI。
+Aspose.Words24.1改进了管理笔划颜色的体验，增强了OLE对象和LINQ报告，以及引入了新的参考书目来源publicAPI。
 
 Aspose.Words24.2展开图表API、样式管理和LINQ选项。 此版本的Aspose.Words还引入了在渲染期间指定SvgSaveOptions的功能，更灵活地控制加载Markdown文件，以及处理脚注和尾注的参考文本。
 
@@ -260,12 +306,12 @@ Aspose.Words现在支持现代**WebP**图像格式。 您现在可以读取WebP�
 
 #### 一个新的TIFF读者/作家 <sup>24.3</sup>
 
-一个新的TIFF读者/作家为Aspose.Words为.NET Standard，.NET6及以后已经开发。 Aspose.Wordsfor.NET 24.3增加了对使用JPEG和旧的JPEG压缩类型读取TIFF图像的支持，并且还显着提高了读写操作的质量。
+一个新的TIFF读者/作家为Aspose.Words为.NET Standard，.NET6及以后已经开发。 Aspose.Words为.NET 24.3 增加了对使用JPEG和旧的JPEG压缩类型读取TIFF图像的支持，并且还显着提高了读写操作的质量。
 
 ### 其他
 
 * 通过向新的[TextBoxControl](https://reference.aspose.com/words/java/com.aspose.words/textboxcontrol/)类添加新的[Text](https://reference.aspose.com/words/java/com.aspose.words/textboxcontrol/#getText)属性，引入了修改`TextBox`OLE控件文本的功能。 24.1 <sup>24.1</sup>
-* 参考书目来源公共API是通过添加一些新的[Bibliography](https://reference.aspose.com/words/java/com.aspose.words/bibliography/), [Source](https://reference.aspose.com/words/java/com.aspose.words/source/), [ContributorCollection](https://reference.aspose.com/words/java/com.aspose.words/contributorcollection/), [Contributor](https://reference.aspose.com/words/java/com.aspose.words/contributor/), [Corporate](https://reference.aspose.com/words/java/com.aspose.words/corporate/), [PersonCollection](https://reference.aspose.com/words/java/com.aspose.words/personcollection/) 和[Person](https://reference.aspose.com/words/java/com.aspose.words/person/)类和[SourceType](https://reference.aspose.com/words/java/com.aspose.words/sourcetype/)枚举，以及通过向[Document](https://reference.aspose.com/words/java/com.aspose.words/document/)类添加新的[Bibliography](https://reference.aspose.com/words/java/com.aspose.words/document/#getBibliography)属性。 <sup>24.1</sup>
+* 参考书目来源公共API是通过添加一些新的实现的[Bibliography](https://reference.aspose.com/words/java/com.aspose.words/bibliography/), [Source](https://reference.aspose.com/words/java/com.aspose.words/source/), [ContributorCollection](https://reference.aspose.com/words/java/com.aspose.words/contributorcollection/), [Contributor](https://reference.aspose.com/words/java/com.aspose.words/contributor/), [Corporate](https://reference.aspose.com/words/java/com.aspose.words/corporate/), [PersonCollection](https://reference.aspose.com/words/java/com.aspose.words/personcollection/) 和[Person](https://reference.aspose.com/words/java/com.aspose.words/person/)类和[SourceType](https://reference.aspose.com/words/java/com.aspose.words/sourcetype/)枚举，以及通过向[Document](https://reference.aspose.com/words/java/com.aspose.words/document/)类添加新的[Bibliography](https://reference.aspose.com/words/java/com.aspose.words/document/#getBibliography)属性。 <sup>24.1</sup>
 * 为LINQ报告引擎提供了使用模板语法限制对类型成员的访问的API。 <sup>24.1</sup>
 * 已将用于增强样式管理的新公共属性[Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/)、[UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/)和[SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/)添加到[Style](https://reference.aspose.com/words/net/aspose.words/style/)类中。 <sup>24.2</sup>
 * 使用[ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/)属性和[UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/)方法增强了检索脚注和尾注的实际参考标记文本的功能。 <sup>24.2</sup>
@@ -275,13 +321,13 @@ Aspose.Words现在支持现代**WebP**图像格式。 您现在可以读取WebP�
 
 {{% alert color="primary" %}}
 
-了解更多关于 [Aspose.Words为Java24.1发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-1-release-notes/).
+了解更多关于 [Aspose.Words为Java 24.1发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-1-release-notes/).
 
-了解更多关于 [Aspose.Words为Java24.2发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/).
+了解更多关于 [Aspose.Words为Java 24.2发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/).
 
-了解更多关于 [Aspose.Words为Java24.3发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/).
+了解更多关于 [Aspose.Words为Java 24.3发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/).
 
-了解更多关于 [Aspose.Words为Java24.4发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-4-release-notes/).
+了解更多关于 [Aspose.Words为Java 24.4发行说明](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-4-release-notes/).
 
 {{% /alert %}}
 
@@ -329,7 +375,7 @@ Aspose.Words23.12引入了新的属性和枚举，用于处理PDF文档，支持
 
 #### 在Markdown中指定要构造ImageURIs的文件夹名称 <sup>23.9</sup>
 
-通过包含[ImagesFolderAlias](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImagesFolderAlias)属性扩展了[MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/)类，该属性允许指定用于构造写入Markdown文档的图像URIs的文件夹的名称。
+通过包含[ImagesFolderAlias](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImagesFolderAlias)属性扩展了[MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/)类，该属性允许指定用于构造写入Markdown文档中的图像URIs的文件夹的名称。
 
 #### 减小PDF输出大小 <sup>23.10</sup>
 
@@ -337,7 +383,7 @@ Aspose.Words23.12引入了新的属性和枚举，用于处理PDF文档，支持
 
 #### 加载TXT文档时识别超链接 <sup>23.10</sup>
 
-加载TXT文档时识别超链接的功能已通过添加新的[DetectHyperlinks](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getDetectHyperlinks)属性来实现。
+加载TXT文档时识别超链接的功能已通过添加新的[DetectHyperlinks](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getDetectHyperlinks)属性实现。
 
 ### 其他
 
@@ -351,13 +397,13 @@ Aspose.Words23.12引入了新的属性和枚举，用于处理PDF文档，支持
 
 {{% alert color="primary" %}}
 
-了解更多关于 [Aspose.Words为Java23.9发行说明](/words/java/aspose-words-for-java-23-9-release-notes/).
+了解更多关于 [Aspose.Words为Java 23.9发行说明](/words/java/aspose-words-for-java-23-9-release-notes/).
 
-了解更多关于 [Aspose.Words为Java23.10发行说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
+了解更多关于 [Aspose.Words为Java 23.10发行说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 
-了解更多关于 [Aspose.Words为Java23.11发行说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-11-release-notes/).
+了解更多关于 [Aspose.Words为Java 23.11发行说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-11-release-notes/).
 
-了解更多关于 [Aspose.Words为Java23.12发行说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-12-release-notes/).
+了解更多关于 [Aspose.Words为Java 23.12发行说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-12-release-notes/).
 
 {{% /alert %}}
 
@@ -367,7 +413,7 @@ Aspose.Words23.5增强了处理图表系列数据的能力和处理ODT文档的�
 
 Aspose.Words23.6扩展渲染选项，添加新的导出格式，改进LINQ报告和LowCode工具。
 
-Aspose.Words23.7增强了报告功能，添加了新的导出格式，并引入了对表和数字签名的处理更改。
+Aspose.Words23.7增强了报告功能，添加了新的导出格式，并引入了对表和数字签名的处理的更改。
 
 Aspose.Words23.8扩展了不同格式的功能，改进了渲染，并添加了用于处理字段的新选项。
 
@@ -441,101 +487,13 @@ LINQ报告引擎模板语法现在支持`ElementAt`和ElementAtOrDefault扩展�
 
 {{% alert color="primary" %}}
 
-了解更多关于 [Aspose.Words为Java23.5发行说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/).
+了解更多关于 [Aspose.Words为Java 23.5发行说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/).
 
-了解更多关于 [Aspose.Words为Java23.6发行说明](/words/java/aspose-words-for-java-23-6-release-notes/).
+了解更多关于 [Aspose.Words为Java 23.6发行说明](/words/java/aspose-words-for-java-23-6-release-notes/).
 
-了解更多关于 [Aspose.Words为Java23.7发行说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
+了解更多关于 [Aspose.Words为Java 23.7发行说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
 
-了解更多关于 [Aspose.Words为Java23.8发行说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words为Java 23.1, 23.2, 23.3, 23.4
-
-Aspose.Words23.1提高了栅格操作仿真的性能，并增强了文档导出和呈现质量。
-
-Aspose.Words23.2引入以MOBI格式保存文档，改进图表呈现，并对文档外观细节进行显着更改。
-
-Aspose.Words23.3使用新属性增强了文档的导入和保存，并且还提高了背景和前景颜色以及径向渐变的工作质量。
-
-Aspose.Words23.4改进了一些参数的计算以及表格和周围文本的定位。
-
-### 改善工作表现
-
-#### 模拟栅格操作 <sup>23.1</sup>
-
-使用元文件模拟栅格操作的性能和质量得到了显着提高。
-
-### 支持的格式
-
-#### 导出到MOBI <sup>23.2</sup>
-
-从版本23.2开始，可以以MOBI格式保存文档（也称为PRC, AZW – Amazon Kindle自己的电子书文件格式）。 现在，您不仅可以加载MOBI文档，还可以将文件导出为MOBI格式。
-
-### 渲染图
-
-#### 使用底纹主题颜色 <sup>23.1</sup>
-
-已经实现了使用阴影主题颜色的能力。
-
-#### 在DML图表中支持R平方系数 <sup>23.1</sup>
-
-在添加渲染时,支持DML图表趋势线标签中的R平方系数.
-
-#### 图表渲染改进 <sup>23.2</sup>
-
-自23.2以来，图表渲染得到了显着改善。
-
-#### 背景和前景颜色控制 <sup>23.3</sup>
-
-[Fill](https://reference.aspose.com/words/java/com.aspose.words/fill/)类已扩展为一组与背景和前景颜色相关的新公共属性：**ForeThemeColor**和**BackThemeColor**，**ForeTintAndShade**和**BackTintAndShade**。
-
-#### 带有`SkiaSharp`本机着色器的径向渐变 <sup>23.3</sup>
-
-已经实现了使用.NET Standard的`SkiaSharp`本机着色器渲染径向渐变。
-
-#### 表格与周围文本之间的距离 <sup>23.4</sup>
-
-通过向[Table](https://reference.aspose.com/words/java/com.aspose.words/table/)类引入新属性，增加了设置表格与周围文本之间距离的功能: [DistanceLeft](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceLeft), [DistanceRight](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceRight), [DistanceTop](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceTop), 和[DistanceBottom](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceBottom)。
-
-### 加载和保存文档
-
-#### 为AZW3文档生成`TOC` <sup>23.1</sup>
-
-通过使用[EpubNavigationMapLevel](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getEpubNavigationMapLevel)属性添加了为AZW3文档生成`TOC`（目录）的功能。
-
-#### 将列表项导出到Markdown <sup>23.1</sup>
-
-通过将[ListExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getListExportMode)属性添加到[MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/)类，提供了一种控制列表项导出为Markdown格式的方法。
-
-#### 文档保存进度通知 <sup>23.3</sup>
-
-已实现MOBI和AZW3格式的保存进度通知。
-
-#### 句子和Word间距调整 <sup>23.3</sup>
-
-通过引入**AdjustSentenceAndWordSpacing**属性，可以指定是否在文档导入时自动调整句子和单词间距。
-
-### 其他
-
-- 通过[JustificationMode](https://reference.aspose.com/words/java/com.aspose.words/document/#getJustificationMode)属性实现添加了指定文档字符间距调整的功能 <sup>23.2</sup>
-- 通过添加[IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/java/com.aspose.words/document/#getIncludeTextboxesFootnotesEndnotesInStat)属性，提供了指示Aspose.Words是否在字数统计中包含文本框、脚注和尾注的方法 <sup>23.2</sup>
-- 通过[AutomaticallyUpdate](https://reference.aspose.com/words/java/com.aspose.words/style/#getAutomaticallyUpdate)属性引入了文档样式的新选项，该选项允许指定是否根据适当的值自动重新定义样式 <sup>23.2</sup>
-- 使用**IsPhoneticGuide**属性添加了确定[Run](https://reference.aspose.com/words/java/com.aspose.words/run/)是否为语音指南运行的功能 <sup>23.4</sup>
-- 通过引入**ChartAxisCollection**类并添加**Chart.Axes**属性，实现了使用组合图系列和轴的简单方法 <sup>23.4</sup>
-- 连接到形状相对定位和大小调整的新公共属性已添加到[Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)类 <sup>23.4</sup>
-- 根据Microsoft Word的最新版本，自动文本颜色分辨率的颜色亮度计算的准确性和性能得到了改进 <sup>23.4</sup>
-
-{{% alert color="primary" %}}
-
-了解更多关于 [Aspose.Words为Java23.1发行说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-1-release-notes/).
-
-了解更多关于 [Aspose.Words为Java23.2发行说明](/words/java/aspose-words-for-java-23-2-release-notes/).
-
-了解更多关于 [Aspose.Words为Java23.3发行说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-3-release-notes/).
-
-了解更多关于 [Aspose.Words为Java23.4发行说明](/words/java/aspose-words-for-java-23-4-release-notes/).
+了解更多关于 [Aspose.Words为Java 23.8发行说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
 
 {{% /alert %}}
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 새로운 기능
 second_title: Aspose.WordsJava
 articleTitle: Java에 대한Aspose.Words의 새로운 기능
@@ -7,10 +7,60 @@ type: docs
 description: "Aspose.Words에 대한Java매일 확장하고 향상시킵니다. 이 페이지에서 제품의 거대하고 가장 흥미로운 기능에 대해 배울 수 있습니다."
 weight: 2
 url: /ko/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2024-12-13-10-56-02
+timestamp: 2025-17-02-18-02-05
 ---
 
 이 페이지는 최근 릴리스에서 소개 된 가장 흥미로운 새로운Aspose.Words기능에 대해 설명합니다.
+
+## Aspose.WordsJava 25.1, 25.2
+
+Aspose.Words25.1AI전원 문법 검사를 도입하고HTML,SVG및Markdown형식에 대한 고급 옵션을 사용하여 문서 저장을 향상시킵니다.
+
+Aspose.Words25.2은 인성AI모델로 텍스트 요약을 도입하고,MsWorks형식 지원을 추가하고,타이포그래피 제어를 향상시키고,PDF구조와 목록 처리를 향상시킵니다.
+
+### AI-전원 기능
+
+#### 문서AI문법 검사 <sup>25.1</sup>
+
+OpenAI생성 모델을 사용하여 제공된 문서의 문법을 확인하는 기능은 새로운[CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions)방법을 추가하여 도입되었습니다.
+
+#### 인성 생성 언어 모델을 사용한 요약 <sup>25.2</sup>
+
+인성 생성 언어 모델을 사용하는 텍스트 요약은 새로운 공개 클래스[AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/)을 도입함으로써 가능해졌습니다.
+
+### 지원되는 형식 <sup>25.2</sup>
+
+버전25.2에서 시작하여Microsoft작업 문서에 대한 새로운MsWorks로드 형식과의 호환성이 추가되었습니다.
+
+### 문서 변환,로드 및 저장
+
+#### HTML및SVG형식으로 저장 개선 <sup>25.1</sup>
+
+[HtmlFixedSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlfixedsaveoptions/)및[SvgSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/svgsaveoptions/)클래스 모두에**IdPrefix**및**RemoveJavaScriptFromLinks**속성을 추가하여HTML및SVG형식으로 저장하는 것이 향상되었습니다.
+
+#### Markdown에 저장할 때 이미지 해상도 및OfficeMath출력 모드 설정 <sup>25.1</sup>
+
+* [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/)클래스에 새로운[ImageResolution](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageResolution)옵션이 추가되어 이미지 해상도를 설정합니다.
+* 새로운[OfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getOfficeMathExportMode)옵션과[MarkdownOfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownofficemathexportmode/)열거형이[MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/)클래스에 추가되어OfficeMath출력 모드를 설정합니다.
+
+### 렌더링
+
+#### 향상된 타이포그래피 제어 <sup>25.2</sup>
+
+향상된 타이포그래피 제어를 위해[NumberSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getNumberSpacing)속성이 추가되었습니다.
+
+### 다른
+
+* PDF논리 구조는TOA,BIBLIOGRAPHY및INDEX필드를 지원하여 개선되었습니다. <sup>25.2</sup>
+* [AddSingleLevelList](https://reference.aspose.com/words/java/com.aspose.words/listcollection/#addSingleLevelList-int)메서드는 향상된 목록 처리를 위해 도입되었습니다. <sup>25.2</sup>
+
+{{% alert color="primary" %}}
+
+에 대해 자세히 알아보기 [Aspose.WordsJava25.1릴리스 노트](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-1-release-notes/).
+
+에 대해 자세히 알아보기 [Aspose.WordsJava25.2릴리스 노트](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-2-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.WordsJava 24.9, 24.10, 24.11, 24.12
 
@@ -20,21 +70,21 @@ Aspose.Words24.10CommandButton생성,새로운 모양 가시성 제어,group sha
 
 Aspose.Words24.11AI전원 문서 요약,향상된 렌더링 옵션,문서 속성 및 액티브엑스 제어 캡션에 대한 향상된 액세스를 소개합니다.
 
-Aspose.Words 24.12은 사용자 지정 가능한 데이터 레이블 배치, Google AI 기반 텍스트 번역, 향상된 메일 병합 정리 옵션 및 새로운 LowCode 처리 클래스를 도입합니다.
+Aspose.Words24.12사용자 정의 데이터 레이블 배치,구글AI전원 텍스트 번역,향상된Mail Merge정리 옵션 및 새로운LowCode처리 클래스를 소개합니다.
 
 ### AI-전원 기능
 
-#### OpenAI와 Google을 사용한 문서 요약 <sup>24.11</sup>
+#### OpenAI및 구글을 사용한 문서 요약 <sup>24.11</sup>
 
-**OpenAI** 및 **Google** 생성 언어 모델을 사용한 문서 요약 지원이 통합되었습니다.
+**OpenAI**및**Google**생성 언어 모델을 사용한 문서 요약 지원이 통합되었습니다.
 
-#### Google의 생성 언어 모델을 사용한 텍스트 번역 <sup>24.12</sup>
+#### 구글의 생성 언어 모델을 사용하여 텍스트 번역 <sup>24.12</sup>
 
-Google의 생성 언어 모델을 사용하여 텍스트를 번역하는 기능은 Aspose.Words에서 [Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int) 메서드와 [Language](https://reference.aspose.com/words/java/com.aspose.words/language/) 열거형을 추가하여 구현되었습니다.
+구글의 생성 언어 모델을 사용하여 텍스트를 번역하는 기능은Aspose.Words에서[Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int)방법과[Language](https://reference.aspose.com/words/java/com.aspose.words/language/)열거를 추가하여 구현되었습니다.
 
 ### Low Code <sup>24.12</sup>
 
-[Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/), [MailMerger](https://reference.aspose.com/words/java/com.aspose.words/mailmerger/), [Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/), [Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) 등과 같은 새로운 LowCode 클래스가 도입되어 문서 처리에 있어 단순성과 유연성 간의 완벽한 균형을 이루는 방법 세트를 제공합니다.
+같은 새로운LowCode클래스[Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/), [MailMerger](https://reference.aspose.com/words/java/com.aspose.words/mailmerger/), [Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/), [Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) 그 밖의 문서 처리에 대한 단순성과 유연성 사이의 완벽한 균형을 이루는 일련의 방법을 제공하여 도입되었습니다.
 
 ### 렌더링 및 인쇄
 
@@ -60,15 +110,11 @@ PDF선택 양식 필드 테두리의 렌더링을 제어하는 새로운 옵션�
 
 #### 차트 데이터에 대한 형식 코드 가져오기 및 설정 <sup>24.11</sup>
 
-[ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/),[ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/)및[BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/)클래스에[FormatCode](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/#getFormatCode)속성을 구현하여 차트 데이터에 대한 형식 코드를 가져오고 설정할 수 있는 기능이 추가되었습니다.
+[ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/),[ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/)및[BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/)클래스에서[FormatCode](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/#getFormatCode)속성을 구현하여 차트 데이터에 대한 형식 코드를 가져오고 설정할 수 있는 기능이 추가되었습니다.
 
 #### 빈 및 레이블이 있는 히스토그램 차트 렌더링 <sup>24.11</sup>
 
 지정된 수의 빈과 레이블을 허용하여 히스토그램 차트 렌더링이 개선되었습니다.
-
-#### 데이터 레이블 배치 사용자 지정 <sup>24.12</sup>
-
-[ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) 및 [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/) 클래스에 새 속성을 도입하여 데이터 레이블 배치를 사용자 지정하는 기능이 추가되었습니다.
 
 ### 문서 변환,로드 및 저장
 
@@ -84,11 +130,11 @@ Markdown문서를 로드할 때 밑줄 서식을 인식하는 옵션은 새 공�
 
 PDF내보내기는 테이블 제목 속성을PDF논리 구조 요소 제목으로 포함하여 향상되었습니다.
 
-### 메일 병합 및 보고
+### Mail Merge및 보고
 
-#### 메일 병합 중 빈 테이블 제거 <sup>24.12</sup>
+#### Mail Merge동안 빈 테이블 제거 <sup>24.12</sup>
 
-[MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/) 열거형에 새로운 **RemoveEmptyTables** 옵션이 추가되어 메일 병합 출력을 정제합니다.
+Mail Merge출력을 구체화하기 위해[MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/)열거형에 새로운**RemoveEmptyTables**옵션이 추가되었습니다.
 
 ### 디지털 서명
 
@@ -448,94 +494,6 @@ LINQ보고 엔진에JSON문자열 값의 공백을 유지하는 옵션이 추가
 에 대해 자세히 알아보기 [Aspose.WordsJava23.7릴리스 노트](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
 
 에 대해 자세히 알아보기 [Aspose.WordsJava23.8릴리스 노트](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.WordsJava 23.1, 23.2, 23.3, 23.4
-
-Aspose.Words23.1는 래스터 작업 에뮬레이션의 성능을 향상시키고 문서 내보내기 및 렌더링 품질을 향상시킵니다.
-
-Aspose.Words23.2MOBI형식으로 문서 저장을 도입하고 차트 렌더링을 개선하며 문서 모양 세부 사항을 크게 변경합니다.
-
-Aspose.Words23.3새 속성으로 문서 가져오기 및 저장을 향상시키고 배경 및 전경색 및 방사형 그라데이션으로 작업 품질을 향상시킵니다.
-
-Aspose.Words23.4는 일부 매개 변수의 계산과 테이블 및 주변 텍스트의 위치를 향상시킵니다.
-
-### 성능 향상
-
-#### 래스터 작업 에뮬레이션 <sup>23.1</sup>
-
-메타 파일을 사용한 래스터 작업의 성능 및 에뮬레이션 품질이 크게 향상되었습니다.
-
-### 지원되는 형식
-
-#### MOBI으로 내보내기 <sup>23.2</sup>
-
-버전23.2부터 문서를MOBI형식으로 저장할 수 있습니다.PRC, AZW – Amazon 킨들의 전자책 파일 형식) 이제MOBI문서를로드 할 수있을뿐만 아니라 파일을MOBI형식으로 내보낼 수 있습니다.
-
-### 렌더링
-
-#### 음영 테마 색상으로 작업 <sup>23.1</sup>
-
-음영 테마 색상으로 작업 할 수있는 기능이 구현되었습니다.
-
-#### DML차트에서 아르 자형 제곱 계수 지원 <sup>23.1</sup>
-
-렌더링 시DML차트 추세선 레이블의 제곱 계수 지원이 추가되었습니다.
-
-#### 차트 렌더링 개선 <sup>23.2</sup>
-
-23.2이후 차트 렌더링이 크게 개선되었습니다.
-
-#### 배경 및 전경색 제어 <sup>23.3</sup>
-
-[Fill](https://reference.aspose.com/words/java/com.aspose.words/fill/)클래스는 배경 및 전경 색상과 관련된 새로운 공용 속성 세트로 확장되었습니다:**ForeThemeColor**및**BackThemeColor**,**ForeTintAndShade**및**BackTintAndShade**.
-
-#### `SkiaSharp`기본 셰이더가 있는 방사형 그라디언트 <sup>23.3</sup>
-
-.NET Standard에 대한`SkiaSharp`네이티브 셰이더로 방사형 그라디언트의 렌더링이 구현되었습니다.
-
-#### 표와 주변 텍스트 사이의 거리 <sup>23.4</sup>
-
-[Table](https://reference.aspose.com/words/java/com.aspose.words/table/)클래스에 새 속성을 도입하여 테이블과 주변 텍스트 사이의 거리를 설정하는 기능이 추가되었습니다: [DistanceLeft](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceLeft), [DistanceRight](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceRight), [DistanceTop](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceTop), 그리고[DistanceBottom](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceBottom)
-
-### 문서 로드 및 저장
-
-#### AZW3문서에 대해`TOC`생성 <sup>23.1</sup>
-
-[EpubNavigationMapLevel](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getEpubNavigationMapLevel)속성을 사용하여AZW3문서에 대해`TOC`(목차)를 생성하는 기능이 추가되었습니다.
-
-#### 목록 항목을Markdown로 내보내기 <sup>23.1</sup>
-
-[MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/)클래스에[ListExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getListExportMode)속성을 추가하여 목록 항목을Markdown형식으로 내보내는 방법을 제공했습니다.
-
-#### 문서 저장 진행률 알림 <sup>23.3</sup>
-
-MOBI및AZW3형식에 대한 진행률 알림 저장이 구현되었습니다.
-
-#### 문장 및 단어 간격 조정 <sup>23.3</sup>
-
-**AdjustSentenceAndWordSpacing**속성을 도입하여 문서 가져오기 시 문장 및 단어 간격을 자동으로 조정할지 여부를 지정하는 기능이 추가되었습니다.
-
-### 다른
-
-- [JustificationMode](https://reference.aspose.com/words/java/com.aspose.words/document/#getJustificationMode)속성 구현을 통해 문서의 문자 간격 조정을 지정할 수 있는 기능이 추가되었습니다 <sup>23.2</sup>
-- [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/java/com.aspose.words/document/#getIncludeTextboxesFootnotesEndnotesInStat)속성을 추가하여 단어 수 통계에 텍스트 상자,각주 및 미주를 포함할지 여부를Aspose.Words에 지시하는 방법을 제공했습니다 <sup>23.2</sup>
-- [AutomaticallyUpdate](https://reference.aspose.com/words/java/com.aspose.words/style/#getAutomaticallyUpdate)속성을 통해 적절한 값을 기반으로 스타일이 자동으로 재정의되는지 여부를 지정할 수 있는 문서 스타일에 대한 새로운 옵션이 도입되었습니다 <sup>23.2</sup>
-- **IsPhoneticGuide**속성을 사용하여[Run](https://reference.aspose.com/words/java/com.aspose.words/run/)이 음성 안내 실행인지 여부를 결정하는 기능이 추가되었습니다 <sup>23.4</sup>
-- **ChartAxisCollection**클래스를 도입하고**Chart.Axes**속성을 추가하여 콤보 차트의 계열 및 축을 사용하는 간단한 방법이 구현되었습니다 <sup>23.4</sup>
-- 도형 상대 위치 지정 및 크기 조정에 연결된 새 공용 속성이[Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)클래스에 추가되었습니다 <sup>23.4</sup>
-- Microsoft Word의 최신 버전에 따라 자동 텍스트 색상 해상도에 대한 색상 밝기 계산의 정확도 및 성능이 향상되었습니다 <sup>23.4</sup>
-
-{{% alert color="primary" %}}
-
-에 대해 자세히 알아보기 [Aspose.WordsJava23.1릴리스 노트](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-1-release-notes/).
-
-에 대해 자세히 알아보기 [Aspose.WordsJava23.2릴리스 노트](/words/java/aspose-words-for-java-23-2-release-notes/).
-
-에 대해 자세히 알아보기 [Aspose.WordsJava23.3릴리스 노트](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-3-release-notes/).
-
-에 대해 자세히 알아보기 [Aspose.WordsJava23.4릴리스 노트](/words/java/aspose-words-for-java-23-4-release-notes/).
 
 {{% /alert %}}
 

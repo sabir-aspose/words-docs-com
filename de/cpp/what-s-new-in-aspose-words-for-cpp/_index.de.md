@@ -7,7 +7,7 @@ type: docs
 description: "Aspose.Words für C++ erweitert und verbessert sich täglich. Auf dieser Seite erfahren Sie mehr über die großen und interessantesten Funktionen des Produkts."
 weight: 2
 url: /de/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2024-12-13-10-56-02
+timestamp: 2025-01-14-17-38-46
 ---
 
 Diese Seite beschreibt die interessantesten neuen Aspose.Words Funktionen, die in den letzten Versionen eingeführt wurden.

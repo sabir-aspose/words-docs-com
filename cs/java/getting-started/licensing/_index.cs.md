@@ -7,7 +7,7 @@ description: "Aspose.Words místo Java poskytuje různé plány na nákup nebo n
 type: docs
 weight: 60
 url: /cs/java/licensing/
-timestamp: 2024-01-31-14-23-37
+timestamp: 2025-02-12-16-18-40
 ---
 
 Někdy, abyste mohli lépe studovat systém, chcete se co nejrychleji ponořit do kódu. Aby to bylo jednodušší, Aspose.Words poskytuje různé plány na nákup nebo nabízí Free Trial a 30-denní dočasnou licenci na hodnocení.
@@ -129,6 +129,8 @@ Nevolejte **SetMeteredKey** metoda často tak, aby tato licenční metoda řádn
 Následující příklad kódu ukazuje, jak nastavit naměřené veřejné a soukromé klíče:
 
 {{< gist "aspose-words-gists" "aae6b7a56c4792497614b4ee8f6f8eec" "apply-metered-license.java" >}}
+
+Normálně stačí použít odměřenou licenci jednou při spuštění aplikace. Pokud však měřený licenční mechanismus nedokáže komunikovat se servery Aspose po dobu 24 hodin, Aspose.Words ukončí licencovaný režim a přepne se do režimu hodnocení. Chcete-li se tomuto případu vyhnout, můžete použít metodu [IsMeteredLicensed](https://reference.aspose.com/words/java/com.aspose.words/metered/#isMeteredLicensed) ke kontrole stavu licence a v případě potřeby znovu použít odměřenou licenci.
 
 {{% alert color="primary" %}}
 

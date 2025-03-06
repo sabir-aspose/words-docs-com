@@ -1,67 +1,90 @@
-﻿---
+---
 title: Что нового
 second_title: Aspose.Words для Python via .NET
 articleTitle: Что нового в Aspose.Words для Python via .NET
 linktitle: Что нового в Aspose.Words для Python via .NET
 type: docs
-description: "Aspose.Words для Python via .NET с каждым днем расширяется и усовершенствуется. На этой странице вы можете узнать об основных и наиболее интересных возможностях продукта."
+description: "Aspose.Words для Python via .NET с каждым днем ассортимент расширяется. На этой странице вы можете узнать о самых важных и интересных возможностях продукта."
 weight: 10
 url: /ru/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-01-15-11-43-05
+timestamp: 2025-02-17-18-02-05
 ---
 
 На этой странице описаны наиболее интересные новые функции Aspose.Words, появившиеся в последних версиях.
 
-## Aspose.Words для Python через .NET 25.1
+## Aspose.Words для Python via .NET 25.1, 25.2
 
-Aspose.Words 25.1 представляет проверку грамматики на основе искусственного интеллекта и улучшает сохранение документов с помощью расширенных параметров для форматов HTML, SVG и Markdown.
+Aspose.Words 25.1 реализована проверка грамматики на основе AI и улучшено сохранение документов благодаря расширенным параметрам для форматов HTML, SVG и Markdown.
 
-### Функции на базе искусственного интеллекта
+Aspose.Words 25.2 введено обобщение текста с помощью антропных моделей AI, добавлена поддержка форматов MsWorks, улучшен контроль типографики и улучшена структура PDF и обработка списков.
 
-#### Проверка грамматики документа с помощью ИИ <sup>25.1</sup>
+### AI -функциональные возможности
 
-Возможность проверки грамматики предоставленного документа с использованием генеративных моделей OpenAI была введена путем добавления нового [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/) метод.
+#### Документ AI Проверка грамматики <sup>25.1</sup>
+
+Возможность проверки грамматики предоставленного документа с использованием порождающих моделей OpenAI была реализована путем добавления нового метода [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/).
+
+#### Обобщение с использованием антропных порождающих языковых моделей <sup>25.2</sup>
+
+Обобщение текста с использованием моделей антропного порождающего языка стало возможным благодаря введению нового общедоступного класса [AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/).
+
+### Поддерживаемые форматы <sup>25.2</sup>
+
+Начиная с версии 25.2, добавлена совместимость с новым форматом загрузки MsWorks для рабочих документов Microsoft.
 
 ### Преобразование, загрузка и сохранение документов
 
-#### Улучшенное сохранение в форматах HTML и SVG <sup>25.1</sup>
+#### Улучшено сохранение в форматах HTML и SVG <sup>25.1</sup>
 
-Сохранение в форматах HTML и SVG было улучшено за счет добавления свойств **id_prefix** и **remove_java_script_from_links** в [HtmlFixedSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlfixedsaveoptions/) и [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/) классы.
+Сохранение в форматах HTML и SVG было улучшено за счет добавления свойств **id_prefix** и **remove_java_script_from_links** как к классам [HtmlFixedSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlfixedsaveoptions/), так и [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/).
 
-#### Установка разрешения изображения и режима вывода OfficeMath при сохранении в Markdown <sup>25.1</sup>
+#### Установите разрешение изображения и режим вывода OfficeMath При сохранении в Markdown <sup>25.1</sup>
 
-* В [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) класс добавлена ​​новая опция [image_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/image_resolution/) для установки разрешения изображения.
-* Новый параметр [office_math_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/office_math_export_mode/) и [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownofficemathexportmode/) перечисление было добавлено в [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) класс для установки режима вывода OfficeMath.
+* В класс [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) добавлена новая опция [image_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/image_resolution/) для настройки разрешения изображения.
+* В класс [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) были добавлены новая опция [office_math_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/office_math_export_mode/) и перечисление [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownofficemathexportmode/), чтобы задать режим вывода OfficeMath.
+
+### Визуализация
+
+#### Улучшенный типографский контроль <sup>25.2</sup>
+
+Свойство [number_spacing](https://reference.aspose.com/words/python-net/aspose.words/font/number_spacing/) было добавлено для улучшения управления типографикой.
+
+### Другой
+
+* PDF логическая структура была улучшена за счет поддержки полей TOA, BIBLIOGRAPHY и INDEX. <sup>25.2</sup>
+* Метод [add_single_level_list](https://reference.aspose.com/words/python-net/aspose.words.lists/listcollection/add_single_level_list/#listtemplate) был введен для улучшения работы со списками. <sup>25.2</sup>
 
 {{% alert color="primary" %}}
 
-Узнайте больше о [Aspose.Words для Python via .NET 25.1 Примечаний к выпуску](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+Узнайте больше о [Aspose.Words для Python via .NET 25.1 Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+
+Узнайте больше о [Aspose.Words для Python via .NET 25.2 Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
 {{% /alert %}}
 
 ## Aspose.Words для Python через .NET 24.9, 24.10, 24.11, 24.12
 
-Aspose.Words 24.9 добавляет вставку group shape и вставку StructuredDocumentTag с помощью DocumentBuilder, улучшает отображение радиальных диаграмм с помощью градуировок, улучшает цифровые подписи с поддержкой XAdES-EPES, добавляет распознавание подчеркивания Markdown и предоставляет доступ к разделителям сносок/концевых примечаний.
+Aspose.Words 24.9 реализована вставка group shape и вставка StructuredDocumentTag с помощью DocumentBuilder, улучшен рендеринг радиальных диаграмм с градуировкой, улучшены цифровые подписи с поддержкой XAdES-EPES, добавлено распознавание подчеркивания Markdown и предоставлен доступ к разделителям сносок и концевых примечаний.
 
 Aspose.Words 24.10 добавлена расширенная поддержка элементов управления ActiveX с возможностью создания CommandButton, новый элемент управления видимостью фигур, возможность group shapes, улучшенный Markdown экспорт таблиц, форматирование диаграмм для Pie и Doughnut графиков, улучшенная обработка кодировки Big5 и поддержка устаревших тайваньских шрифтов..
 
 Aspose.Words 24.11 реализована функция обобщения документов на основе AI, расширены возможности визуализации, улучшен доступ к свойствам документа и субтитрам элементов управления ActiveX.
 
-Aspose.Words 24.12 представляет настраиваемое размещение меток данных, перевод текста на основе Google AI и улучшенные новые классы обработки LowCode.
+Aspose.Words 24.12 представлены настраиваемое размещение меток данных, перевод текста с помощью Google AI и расширенные новые классы обработки LowCode.
 
-### Функции на базе AI
+### AI -функциональные возможности
 
-#### Резюмирование документов с использованием OpenAI и Google <sup>24.11</sup>
+#### Обобщение документов с помощью OpenAI и Google <sup>24.11</sup>
 
 Поддержка обобщения документов с использованием моделей порождающего языка **OpenAI** и **Google** была интегрирована путем добавления пространства имен [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) с его общедоступными членами.
 
-#### Перевод текста с использованием генеративных языковых моделей Google <sup>24.12</sup>
+#### Перевод текста с использованием порождающих языковых моделей Google <sup>24.12</sup>
 
-Возможность перевода текста с использованием генеративных языковых моделей Google была реализована в Aspose.Words путем добавления метода [translate](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/translate/) и перечисления [Language](https://reference.aspose.com/words/python-net/aspose.words.ai/language/) в пространство имен [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/).
+Возможность перевода текста с использованием моделей порождающего языка Google была реализована в Aspose.Words путем добавления метода [translate](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/translate/) и перечисления [Language](https://reference.aspose.com/words/python-net/aspose.words.ai/language/) в пространство имен [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/).
 
 ### Low Code <sup>24.12</sup>
 
-Введены новые классы LowCode, такие как [Comparer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/python-net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/splitter/) и т. д., предлагающие набор методов, которые обеспечивают идеальный баланс между простотой и гибкостью для обработки документов.
+Были введены новые классы LowCode, такие как [Comparer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/python-net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/python-net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/python-net/aspose.words.lowcode/splitter/) и т.д., которые предлагают набор методов, обеспечивающих идеальный баланс между простотой и гибкостью обработки документов.
 
 ### Рендеринг и печать
 
@@ -95,7 +118,7 @@ Aspose.Words 24.12 представляет настраиваемое разм�
 
 #### Настройка размещения меток данных <sup>24.12</sup>
 
-Возможность настройки размещения меток данных была добавлена ​​путем введения новых свойств в классы [ChartDataLabel](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabel/) и [ChartDataLabelCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/).
+Добавлена возможность настройки размещения меток данных путем добавления новых свойств к классам [ChartDataLabel](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabel/) и [ChartDataLabelCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/).
 
 ### Преобразование, загрузка и сохранение документов
 
@@ -130,13 +153,13 @@ PDF экспорт был улучшен за счет включения сво
 
 {{% alert color="primary" %}}
 
-Узнайте больше о [Aspose.Words для Python via .NET 24.9 Примечаний к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/).
+Узнайте больше о [Aspose.Words для Python via .NET 24.9 Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-9-release-notes/).
 
-Узнайте больше о [Aspose.Words для Python via .NET 24.10 Примечаний к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/).
+Узнайте больше о [Aspose.Words для Python via .NET 24.10 Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-10-release-notes/).
 
-Узнайте больше о [Aspose.Words для Python via .NET 24.11 Примечаний к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-11-release-notes/).
+Узнайте больше о [Aspose.Words для Python via .NET 24.11 Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-11-release-notes/).
 
-Узнайте больше о [Aspose.Words для Python via .NET 24.12 Примечаний к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-12-release-notes/).
+Узнайте больше о [Aspose.Words для Python via .NET 24.12 Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-12-release-notes/).
 
 {{% /alert %}}
 
@@ -159,7 +182,7 @@ Aspose.Words 24.8 расширяет возможности настройки �
 #### Изменения в графиках, фигурах и DrawingML <sup>24.5</sup>
 
 * DrawingML реализован рендеринг эффектов для SVG графики, расширяющий предыдущую функциональность, ограниченную изображениями.
-* Поддержка создания комбинированных диаграмм и настройки таких свойств, как ширина промежутка, перекрытие и пузырьковый масштаб, в группах рядов была реализована путем добавления классов [ChartSeriesGroup](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroup/) и [ChartSeriesGroupCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroupcollection/), а также свойства [series_groups](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/series_groups/).
+* Поддержка создания комбинированных диаграмм и настройки таких свойств, как ширина промежутка, перекрытие и пузырьковый масштаб, в группах рядов была реализована путем добавления классов [ChartSeriesGroup](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroup/) и [ChartSeriesGroupCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroupcollection/) и свойства [series_groups](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/series_groups/).
 * Функциональность для управления эффектом SoftEdge фигур была реализована путем добавления класса [SoftEdgeFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing/softedgeformat/).
 * Возможность изменять корректирующие значения фигур была реализована путем добавления общедоступных классов **AdjustmentCollection** и **Adjustment** и свойства [adjustments](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/adjustments/).
 
@@ -215,7 +238,7 @@ PDF экспорт с поддержкой использования тегов
 ### Другой
 
 * Функция удаления пустых страниц из документа была реализована путем добавления метода [remove_blank_pages](https://reference.aspose.com/words/python-net/aspose.words/document/remove_blank_pages/). <sup>24.5</sup>
-* Возможность проверки наличия VBA макросов без загрузки документа была предоставлена путем добавления свойства [has_macros](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/has_macros/). <sup>24.5</sup>
+* Возможность проверки наличия макросов VBA без загрузки документа была предоставлена путем добавления свойства [has_macros](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/has_macros/). <sup>24.5</sup>
 * Теперь поддерживается сохранение нумерации источников при вставке документа с помощью механизма создания отчетов LINQ. <sup>24.5</sup>
 * Добавлено новое свойство [date_time_utc](https://reference.aspose.com/words/python-net/aspose.words/comment/date_time_utc/) – оно обеспечивает более точную временную метку для комментариев, улучшая организацию и отслеживаемость. <sup>24.6</sup>
 * Формат даты и времени теперь автоматически определяется для беспрепятственного экспорта в формат XLSX. <sup>24.7</sup>
@@ -226,13 +249,13 @@ PDF экспорт с поддержкой использования тегов
 
 {{% alert color="primary" %}}
 
-Узнайте больше о [Aspose.Words для Python via .NET 24.5 Примечаний к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-5-release-notes/).
+Узнайте больше о [Aspose.Words для Python via .NET 24.5 Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-5-release-notes/).
 
-Узнайте больше о [Aspose.Words для Python via .NET 24.6 Примечаний к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/).
+Узнайте больше о [Aspose.Words для Python via .NET 24.6 Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-6-release-notes/).
 
-Узнайте больше о [Aspose.Words для Python via .NET 24.7 Примечаний к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-7-release-notes/).
+Узнайте больше о [Aspose.Words для Python via .NET 24.7 Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-7-release-notes/).
 
-Узнайте больше о [Aspose.Words для Python via .NET 24.8 Примечаний к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-8-release-notes/).
+Узнайте больше о [Aspose.Words для Python via .NET 24.8 Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-8-release-notes/).
 
 {{% /alert %}}
 
@@ -248,7 +271,7 @@ Aspose.Words 24.4 расширены форматы сохранения, нек
 
 ### Поддерживаемые форматы <sup>24.4</sup>
 
-Современный формат изображений **WebP** теперь поддерживается в Aspose.Words для .NET Framework 4.6.2 и более поздних версий. Теперь вы можете читать и вставлять изображения WebP в документы, а также сохранять изображения в формате WebP.
+Современный формат изображения **WebP** теперь поддерживается в Aspose.Words для .NET Framework 4.6.2 и выше. Теперь вы можете читать и вставлять WebP изображения в документы, а также сохранять изображения в формате WebP.
 
 Пожалуйста, обратите внимание, что WebP в настоящее время доступно только в версиях .NET Standard и .NET Framework v4.6.2 и выше.
 
@@ -282,7 +305,7 @@ Aspose.Words 24.4 расширены форматы сохранения, нек
 
 #### Новый пользователь TIFF для чтения/записи <sup>24.3</sup>
 
-Был разработан новый TIFF режим чтения/записи для Aspose.Words. Aspose.Words для .NET 24.3 добавлена поддержка чтения TIFF изображений с JPEG и старыми типами сжатия JPEG, а также значительно улучшено качество операций чтения и записи.
+Был разработан новый режим чтения/записи TIFF для Aspose.Words. Aspose.Words для .NET 24.3 добавлена поддержка чтения TIFF изображений с JPEG и старыми типами сжатия JPEG, а также значительно улучшено качество операций чтения и записи.
 
 ### Другой
 
@@ -295,13 +318,13 @@ Aspose.Words 24.4 расширены форматы сохранения, нек
 
 {{% alert color="primary" %}}
 
-Узнайте больше о [Aspose.Words для Python via .NET 24.1 Примечаний к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-1-release-notes/).
+Узнайте больше о [Aspose.Words для Python via .NET 24.1 Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-1-release-notes/).
 
-Узнайте больше о [Aspose.Words для Python via .NET 24.2 Примечаний к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/).
+Узнайте больше о [Aspose.Words для Python via .NET 24.2 Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/).
 
-Узнайте больше о [Aspose.Words для Python via .NET 24.3 Примечаний к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-3-release-notes/).
+Узнайте больше о [Aspose.Words для Python via .NET 24.3 Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-3-release-notes/).
 
-Узнайте больше о [Aspose.Words для Python via .NET 24.4 Примечаний к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-4-release-notes/).
+Узнайте больше о [Aspose.Words для Python via .NET 24.4 Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-4-release-notes/).
 
 {{% /alert %}}
 
@@ -362,7 +385,7 @@ Aspose.Words 23.12 добавлены новые свойства и переч�
 ### Другой
 
 - Реализована эмуляция рендеринга метафайлов для определения размера растеризации, в частности, для WMF ширины пера и EMF косметической ширины пера. Для достижения этой цели свойство **ScaleWmfFontsToMetafileSize** было заменено свойством [emulate_rendering_to_size_on_page](https://reference.aspose.com/words/python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page/) и добавлено свойство [emulate_rendering_to_size_on_page_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page_resolution/). <sup>23.9</sup>
-- С использованием метода [insert_document_inline](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_document_inline/#document_importformatmode_importformatoptions) был представлен упрощенный метод вставки одного документа в другой в текущем положении курсора. <sup>23.10</sup>
+- С помощью метода [insert_document_inline](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_document_inline/#document_importformatmode_importformatoptions) был представлен упрощенный метод вставки одного документа в другой в текущем положении курсора. <sup>23.10</sup>
 - Возможность доступа к свойствам стиля и их изменения была добавлена благодаря введению нового свойства [locked](https://reference.aspose.com/words/python-net/aspose.words/style/locked/). <sup>23.10</sup>
 - К методам класса [CompositeNode](https://reference.aspose.com/words/python-net/aspose.words/compositenode/) был добавлен параметр универсального типа. <sup>23.10</sup>
 - Возможность записывать все разделы документа на один и тот же рабочий лист XLSX была предоставлена благодаря новому типу перечисления [XlsxSectionMode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsectionmode/) и новому свойству [section_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/section_mode/). <sup>23.11</sup>
@@ -371,13 +394,13 @@ Aspose.Words 23.12 добавлены новые свойства и переч�
 
 {{% alert color="primary" %}}
 
-Узнайте больше о [Aspose.Words для Python via .NET 23.9 Примечаний к выпуску](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-9-release-notes/).
+Узнайте больше о [Aspose.Words для Python via .NET 23.9 Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-9-release-notes/).
 
-Узнайте больше о [Aspose.Words для Python via .NET 23.10 Примечаний к выпуску](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-10-release-notes/).
+Узнайте больше о [Aspose.Words для Python via .NET 23.10 Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-10-release-notes/).
 
-Узнайте больше о [Aspose.Words для Python via .NET 23.11 Примечаний к выпуску](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-11-release-notes/).
+Узнайте больше о [Aspose.Words для Python via .NET 23.11 Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-11-release-notes/).
 
-Узнайте больше о [Aspose.Words для .NET 23.12 Примечаний к выпуску](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-12-release-notes/).
+Узнайте больше о [Aspose.Words для .NET 23.12 примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-12-release-notes/).
 
 {{% /alert %}}
 
@@ -456,101 +479,13 @@ Mustache теги теперь поддерживаются в методах [M
 
 {{% alert color="primary" %}}
 
-Узнайте больше о [Aspose.Words для Python via .NET 23.5 Примечаний к выпуску](/words/python-net/aspose-words-for-python-via-dotnet-23-5-release-notes/).
+Узнайте больше о [Aspose.Words для Python via .NET 23.5 Примечания к выпуску](/words/python-net/aspose-words-for-python-via-dotnet-23-5-release-notes/).
 
-Узнайте больше о [Aspose.Words для Python via .NET 23.6 Примечаний к выпуску](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
+Узнайте больше о [Aspose.Words для Python via .NET 23.6 Примечания к выпуску](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
-Узнайте больше о [Aspose.Words для Python via .NET 23.7 Примечаний к выпуску](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
+Узнайте больше о [Aspose.Words для Python via .NET 23.7 Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
-Узнайте больше о [Aspose.Words для Python via .NET 23.8 Примечаний к выпуску](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words для Python через .NET 23.1, 23.2, 23.3, 23.4
-
-Aspose.Words 23.1 повышает производительность эмуляции растровых операций, а также улучшает экспорт документов и качество рендеринга.
-
-Aspose.Words 23.2 позволяет сохранять документы в формате MOBI, улучшает отображение диаграмм и вносит заметные изменения в детали внешнего вида документа.
-
-Aspose.Words 23.3 расширяет возможности импорта и сохранения документов благодаря новым свойствам, а также улучшает качество работы с цветом фона и переднего плана и радиальным градиентом.
-
-Aspose.Words 23.4 улучшен расчет некоторых параметров и расположение таблицы и окружающего текста.
-
-### Повышение производительности
-
-#### Эмуляция растровых операций <sup>23.1</sup>
-
-Значительно улучшена производительность и качество эмуляции растровых операций с метафайлами.
-
-### Поддерживаемые форматы
-
-#### Экспорт в MOBI <sup>23.2</sup>
-
-Начиная с версии 23.2, можно сохранять документы в формате MOBI (который также называется PRC, AZW – Amazon Собственный формат файлов электронных книг Kindle). Теперь вы можете не только загружать документы MOBI, но и экспортировать свои файлы в формат MOBI.
-
-### Визуализация
-
-#### Работа с цветами темы затенения <sup>23.1</sup>
-
-Реализована возможность работы с затеняющими цветами темы.
-
-#### Поддержка коэффициента R-квадрат в графиках DML <sup>23.1</sup>
-
-Добавлена поддержка R-квадратичного коэффициента в надписях линий тренда на графике DML при рендеринге.
-
-#### Улучшения в отображении диаграмм <sup>23.2</sup>
-
-Начиная с 23.2, рендеринг диаграмм был значительно улучшен.
-
-#### Управление цветом фона и переднего плана <sup>23.3</sup>
-
-Класс [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) был расширен набором новых общедоступных свойств, связанных с цветами фона и переднего плана: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_theme_color/) и [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_tint_and_shade/) и [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_tint_and_shade/).
-
-#### Радиальные градиенты с использованием собственного шейдера `SkiaSharp` <sup>23.3</sup>
-
-Реализован рендеринг радиальных градиентов с использованием встроенного шейдера `SkiaSharp` для .NET Standard.
-
-#### Расстояние между таблицей и окружающим текстом <sup>23.4</sup>
-
-Возможность устанавливать расстояние между таблицей и окружающим текстом была добавлена путем добавления новых свойств в классы [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/): [distance_left](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_left/), [distance_right](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_right/), [distance_top](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_top/), и [distance_bottom](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_bottom/).
-
-### Загрузка и сохранение документов
-
-#### Сгенерировать `TOC` для AZW3 документов <sup>23.1</sup>
-
-Благодаря использованию свойства **epub_navigation_map_level** была добавлена возможность генерировать `TOC` (оглавление) для AZW3 документов.
-
-#### Экспорт элементов списка в Markdown <sup>23.1</sup>
-
-Способ управления экспортом элементов списка в формат Markdown был предоставлен путем добавления свойства [list_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/list_export_mode/) к классу [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/).
-
-#### Уведомления о ходе сохранения документов <sup>23.3</sup>
-
-Реализовано сохранение уведомлений о ходе выполнения в форматах MOBI и AZW3.
-
-#### Настройка интервалов между предложениями и словами <sup>23.3</sup>
-
-Добавлена возможность указать, следует ли автоматически корректировать интервалы между предложениями и словами при импорте документа, введя свойство [adjust_sentence_and_word_spacing](https://reference.aspose.com/words/python-net/aspose.words/importformatoptions/adjust_sentence_and_word_spacing/).
-
-### Другой
-
-- Благодаря реализации свойства [justification_mode](https://reference.aspose.com/words/python-net/aspose.words/document/justification_mode/) <sup>23.2 добавлена возможность настройки интервала между символами в документе</sup>
-- Способ указать Aspose.Words, следует ли включать текстовые поля, сноски и концевые сноски в статистику количества слов, был предоставлен путем добавления свойства [include_textboxes_footnotes_endnotes_in_stat](https://reference.aspose.com/words/python-net/aspose.words/document/include_textboxes_footnotes_endnotes_in_stat/) <sup>23.2</sup>
-- Новая опция для стиля документа, которая позволяет указать, будет ли стиль автоматически переопределяться на основе соответствующего значения, была введена через свойство [automatically_update](https://reference.aspose.com/words/python-net/aspose.words/style/automatically_update/) <sup>23.2</sup>
-- Добавлена возможность определять, является ли [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) прогоном фонетического руководства, используя свойство [is_phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/is_phonetic_guide/) <sup>23.4</sup>
-- Простой способ работы с рядами и осями комбинированных диаграмм был реализован путем введения класса [ChartAxisCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxiscollection/) и добавления свойства [Chart.axes](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/axes/) <sup>23.4</sup>
-- В класс <sup>[Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) 23.4 добавлены новые общедоступные свойства, связанные с относительным расположением и размером фигуры</sup>
-- Точность и производительность расчета яркости цвета для автоматического разрешения цвета текста были улучшены в соответствии с последними версиями Microsoft Word <sup>23.4</sup>
-
-{{% alert color="primary" %}}
-
-Узнайте больше о [Aspose.Words для Python via .NET 23.1 Примечаний к выпуску](/words/python-net/aspose-words-for-python-via-dotnet-23-1-release-notes/).
-
-Узнайте больше о [Aspose.Words для Python via .NET 23.2 Примечаний к выпуску](/words/python-net/aspose-words-for-python-via-dotnet-23-2-release-notes/).
-
-Узнайте больше о [Aspose.Words для Python via .NET 23.3 Примечаний к выпуску](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-3-release-notes/).
-
-Узнайте больше о [Aspose.Words для Python via .NET 23.4 Примечаний к выпуску](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/).
+Узнайте больше о [Aspose.Words для Python via .NET 23.8 Примечания к выпуску](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
 {{% /alert %}}
 

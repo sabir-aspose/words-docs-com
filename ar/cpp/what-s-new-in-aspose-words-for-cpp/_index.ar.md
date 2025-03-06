@@ -7,34 +7,34 @@ type: docs
 description: "Aspose.Words ل C++ يوسع ويعزز يوميا. في هذه الصفحة، يمكنك التعرف على الميزات الضخمة والأكثر إثارة للاهتمام للمنتج."
 weight: 2
 url: /ar/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2024-12-13-10-56-02
+timestamp: 2025-01-14-17-38-46
 ---
 
 تصف هذه الصفحة الميزات الجديدة الأكثر إثارة للاهتمام Aspose.Words التي تم تقديمها في الإصدارات الأخيرة.
 
 ## Aspose.Words ل C++ 24.9, 24.10, 24.11, 24.12
 
-Aspose.Words 24.9 يقدم group shape الإدراج و StructuredDocumentTag الإدراج عبر DocumentBuilder، ويعزز عرض الرسم البياني الشعاعي مع التخرج، ويحسن التوقيعات الرقمية مع XAdES-EPES الدعم، ويضيف Markdown الاعتراف التسطير، ويوفر الوصول إلى فواصل حاشية سفلية / حاشية ختامية.
+Aspose.Words 24.9 يقدم group shape الإدراج و StructuredDocumentTag الإدراج عبر DocumentBuilder، ويعزز عرض المخطط الشعاعي مع التخرج، ويحسن التوقيعات الرقمية بدعم XAdES-EPES، ويضيف Markdown التعرف على التسطير، ويوفر الوصول إلى فواصل الحاشية السفلية / التعليقات الختامية.
 
 Aspose.Words 24.10 يقدم تعزيز دعم التحكم أكتيفكس مع CommandButton الخلق، جديد تحكم الرؤية الشكل، والقدرة على group shapes، وتحسين Markdown تصدير للجداول، تنسيق الرسم البياني ل Pie و Doughnut الرسوم البيانية، أفضل بيغ 5 معالجة الترميز، ودعم الخطوط التايوانية التي عفا عليها الزمن.
 
 Aspose.Words 24.11 يقدم AI - تلخيص المستند بالطاقة، وخيارات العرض المحسنة، وتحسين الوصول إلى خصائص المستند والتعليقات التوضيحية للتحكم في اكتف.
 
-يقدم Aspose.Words 24.12 إمكانية تخصيص وضع علامات البيانات، وترجمة النصوص المدعومة بالذكاء الاصطناعي من Google، وخيارات تنظيف دمج المراسلات المحسنة، وفئات معالجة LowCode الجديدة.
+Aspose.Words 24.12 يقدم تخصيص وضع تسمية البيانات، جوجل AI - تعمل بالطاقة ترجمة النص، وتعزيز Mail Merge خيارات التنظيف، والجديدة LowCode فئات المعالجة.
 
-### ميزات مدعومة بالذكاء الاصطناعي
+### AI - ميزات تعمل بالطاقة
 
-#### تلخيص المستندات باستخدام OpenAI وGoogle <sup>24.11</sup>
+#### تلخيص المستند باستخدام OpenAI وجوجل <sup>24.11</sup>
 
-تم دمج دعم تلخيص المستندات باستخدام نماذج اللغة التوليدية **OpenAI** و **Google** عن طريق إضافة مساحة الاسم **Aspose.Words.AI** مع أعضائها العامين.
+تم دمج دعم تلخيص المستندات باستخدام نماذج اللغة التوليدية **OpenAI** و **Google**.
 
-#### ترجمة النصوص باستخدام نماذج اللغة التوليدية من Google <sup>24.12</sup>
+#### ترجمة النصوص باستخدام نماذج اللغة التوليدية من جوجل <sup>24.12</sup>
 
-تم تنفيذ القدرة على ترجمة النصوص باستخدام نماذج اللغة التوليدية من Google في Aspose.Words عن طريق إضافة طريقة [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/) وتعداد [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/) إلى مساحة اسم [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/).
+وقد تم تنفيذ القدرة على ترجمة النص باستخدام نماذج اللغة التوليدية جوجل في Aspose.Words بإضافة طريقة [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/) و [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/) التعداد إلى [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/) مساحة الاسم.
 
 ### Low Code <sup>24.12</sup>
 
-تم تقديم فئات LowCode الجديدة مثل [Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/)، [MailMerger](https://reference.aspose.com/words/cpp/aspose.words.lowcode/merger/)، [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/)، [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) وما إلى ذلك، مما يوفر مجموعة من الأساليب التي تحقق التوازن المثالي بين البساطة والمرونة لمعالجة المستندات.
+جديد LowCode فئات مثل [Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/cpp/aspose.words.lowcode/merger/), [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) الخ. تم تقديمه، حيث يقدم مجموعة من الأساليب التي تحقق التوازن المثالي بين البساطة والمرونة لمعالجة المستندات.
 
 ### التقديم والطباعة
 
@@ -66,9 +66,9 @@ Aspose.Words 24.11 يقدم AI - تلخيص المستند بالطاقة، وخ
 
 تم تحسين الرسم البياني الرسم البياني التقديم من خلال السماح لعدد محدد من صناديق والتسميات.
 
-#### تخصيص موضع تسميات البيانات <sup>24.12</sup>
+#### تخصيص وضع تسميات البيانات <sup>24.12</sup>
 
-تمت إضافة القدرة على تخصيص موضع تسميات البيانات من خلال تقديم خصائص جديدة إلى فئتي [ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/)و [ChartDataLabelCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabelcollection/).
+تمت إضافة القدرة على تخصيص موضع تسميات البيانات عن طريق إدخال خصائص جديدة إلى [ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/) و [ChartDataLabelCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabelcollection/) الطبقات.
 
 ### تحويل وتحميل وحفظ المستندات
 
@@ -84,15 +84,17 @@ Aspose.Words 24.11 يقدم AI - تلخيص المستند بالطاقة، وخ
 
 PDF تم تحسين التصدير من خلال تضمين خصائص عنوان الجدول كـ PDF عناوين عنصر الهيكل المنطقي.
 
-#### إزالة الجداول الفارغة أثناء دمج المراسلات <sup>24.12</sup>
+### Mail Merge والإبلاغ
 
-تمت إضافة خيار **RemoveEmptyTables** جديد إلى تعداد [MailMergeCleanupOptions](ttps://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/) لتحسين مخرجات دمج المراسلات.
+#### إزالة الجداول الفارغة خلال Mail Merge <sup>24.12</sup>
+
+تمت إضافة خيار **RemoveEmptyTables** جديد إلى تعداد [MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/) لتحسين إخراج Mail Merge.
 
 ### التوقيعات الرقمية
 
 #### توقيع الوثائق مع XAdES-EPES <sup>24.9</sup>
 
-القدرة على توقيع الوثائق مع XAdES-EPES المستوى XML - DSig تم إدخال التوقيعات بإضافة ملكية عامة جديدة **XmlDsigLevel** وتعداد عام جديد **XmlDsigLevel**.
+تم إدخال القدرة على توقيع المستندات بتوقيعات XAdES-EPES المستوى XML-DSig عن طريق إضافة ملكية عامة جديدة **XmlDsigLevel** وتعداد عام جديد **XmlDsigLevel**.
 
 ### أخرى
 
@@ -109,15 +111,15 @@ PDF تم تحسين التصدير من خلال تضمين خصائص عنوا�
 
 تعرف على المزيد حول [Aspose.Words لـ C++ 24.9 ملاحظات الإصدار](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-9-release-notes/).
 
-تعرف على المزيد حول [Aspose.Words لـ C++ 24.10 ملاحظات الإصدار](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-10-release-notes/).
+تعرف على المزيد حول [Aspose.Words ل C++ 24.10 ملاحظات الإصدار](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-10-release-notes/).
 
-تعرف على المزيد حول [Aspose.Words لـ C++ 24.11 ملاحظات الإصدار](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-11-release-notes/).
+تعرف على المزيد حول [Aspose.Words ل C++ 24.11 ملاحظات الإصدار](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-11-release-notes/).
 
-تعرف على المزيد حول [Aspose.Words لـ C++ 24.12 ملاحظات الإصدار](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-12-release-notes/).
+تعرف على المزيد حول [Aspose.Words ل C++ 24.12 ملاحظات الإصدار](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-12-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Words لـ C++ 24.5, 24.6, 24.7
+## Aspose.Words ل C++ 24.5, 24.6, 24.7
 
 Aspose.Words 24.5 يوسع خيارات التجميعات، ويحسن قدرات العرض، ويوسع بعض الخيارات الأخرى.
 
@@ -131,9 +133,9 @@ Aspose.Words 24.7 يغير طريقة عملك مع اكتف، ويوسع قدر
 
 ### التقديم والطباعة
 
-#### التغييرات في الرسوم البيانية والأشكال والرسم <sup>24.5</sup>
+#### التغييرات في الرسوم البيانية والأشكال و DrawingML <sup>24.5</sup>
 
-- وقد تم تنفيذ آثار دراوينغمل تقديم ل SVG الرسومات، وتوسيع وظائف السابقة تقتصر على الصور.
+- DrawingML آثار تقديم ل SVG الرسومات، وتوسيع وظائف السابقة تقتصر على الصور، وقد تم تنفيذها.
 - تم تقديم الدعم لإنشاء مخططات التحرير والسرد وتعديل الخصائص مثل عرض الفجوة والتداخل ومقياس الفقاعة داخل مجموعات السلسلة عن طريق إضافة الفئتين **ChartSeriesGroup** و **ChartSeriesGroupCollection** والخاصية **SeriesGroups**.
 - تم تنفيذ وظيفة معالجة تأثير SoftEdge للأشكال عن طريق إضافة فئة **SoftEdgeFormat**.
 - وقد تم تنفيذ القدرة على تعديل قيم ضبط الأشكال عن طريق إضافة **AdjustmentCollection** و **Adjustment** الطبقات العامة و **Adjustments** الممتلكات.
@@ -157,7 +159,7 @@ Aspose.Words 24.7 يغير طريقة عملك مع اكتف، ويوسع قدر
 
 - يمكن الآن تعديل خصائص الكائنات اكتف، مما يتيح لك المزيد من السيطرة على سلوكهم.
 - تمت إضافة القدرة على تعديل قيمة زر الاختيار أكتيفكس التحكم لتمكين التفاعل الديناميكي.
-- تمت إضافة القدرة على تبديل مربع اختيار أكتيفكس إلى "محدد" أو "غير محدد".
+- تمت إضافة القدرة على تبديل اكتف checkbox إلى "محدد" أو "غير محدد".
 
 ### تحميل وحفظ المستندات
 
@@ -183,7 +185,7 @@ Aspose.Words 24.7 يغير طريقة عملك مع اكتف، ويوسع قدر
 
 تعرف على المزيد حول [Aspose.Words ل C++ 24.5 ملاحظات الإصدار](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-5-release-notes/).
 
-تعرف على المزيد حول [Aspose.Words لـ C++ 24.6 ملاحظات الإصدار](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-6-release-notes/).
+تعرف على المزيد حول [Aspose.Words ل C++ 24.6 ملاحظات الإصدار](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-6-release-notes/).
 
 تعرف على المزيد حول [Aspose.Words لـ C++ 24.7 ملاحظات الإصدار](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-7-release-notes/).
 
@@ -205,11 +207,11 @@ Aspose.Words 24.4 يعزز بعض خيارات العرض، وكذلك يحسن 
 
 تم تمديد فئة [Stroke](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/) بمجموعة من الخصائص العامة الجديدة المتعلقة بإدارة ألوان الحد: [ForeThemeColor](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/get_forethemecolor/) و [BackThemeColor](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/get_backthemecolor/) و [ForeTintAndShade](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/get_foretintandshade/) و [BackTintAndShade](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/get_backtintandshade/).
 
-#### رسممل الرسوم البيانية API تمديد <sup>24.2 / 24.3 / 24.4</sup>
+#### DrawingML الرسوم البيانية API تمديد <sup>24.2 / 24.3 / 24.4</sup>
 
 يستمر توسيع **DrawingML Charts API**.
 
-#### تضمين الخطوط المعلنة في @font-face قواعد <sup>24.4</sup>
+#### تضمين الخطوط المعلنة في @font-face القواعد <sup>24.4</sup>
 
 تمت إضافة إمكانية تضمين الخطوط المعلنة في قواعد @font-face في تعريفات خطوط المستند الناتج عن طريق إضافة خاصية [SupportFontFaceRules](https://reference.aspose.com/words/cpp/aspose.words.loading/htmlloadoptions/get_supportfontfacerules/) جديدة.
 
@@ -260,9 +262,9 @@ Aspose.Words 23.12 يقدم خصائص وتعدادات جديدة للعمل م
 
 ### التقديم والطباعة
 
-#### تخصيص عناوين المحاور في مخططات الرسم <sup>23.9</sup>
+#### تخصيص عناوين المحاور في DrawingML الرسوم البيانية <sup>23.9</sup>
 
-تم تقديم القدرة على تخصيص عناوين المحور في مخططات الرسم من خلال تنفيذ فئة عامة جديدة **ChartAxisTitle** و [Title](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxis/get_title/) خاصية.
+القدرة على تخصيص عناوين المحور في DrawingML تم تقديم المخططات من خلال تنفيذ فئة عامة جديدة **ChartAxisTitle** و [Title](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxis/get_title/) خاصية.
 
 #### تحديد الموضع الرأسي للخطوط داخل فقرة <sup>23.9</sup>
 
@@ -280,9 +282,9 @@ Aspose.Words 23.12 يقدم خصائص وتعدادات جديدة للعمل م
 
 تم توفير طريقة بسيطة لضبط وتناسب صورة داخل شكل معين تلقائيا من خلال طريقة [FitImageToShape](https://reference.aspose.com/words/cpp/aspose.words.drawing/imagedata/fitimagetoshape/) الجديدة.
 
-#### تنسيق الخط الافتراضي لإدخالات أسطورة الرسم البياني <sup>23.11</sup>
+#### تنسيق الخط الافتراضي لإدخالات أسطورة المخطط DrawingML <sup>23.11</sup>
 
-تمت إضافة القدرة على تحديد تنسيق الخط الافتراضي لإدخالات وسيلة الإيضاح لمخططات الرسم عبر خاصية [Font](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartlegend/get_font/). تسهل هذه الميزة مظهرا أكثر انسيابية واتساقا لعناصر المخطط، مما يحسن جماليات المستندات بشكل عام.
+تمت إضافة القدرة على تحديد تنسيق الخط الافتراضي لإدخالات وسيلة الإيضاح لمخططات DrawingML عبر خاصية [Font](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartlegend/get_font/). تسهل هذه الميزة مظهرا أكثر انسيابية واتساقا لعناصر المخطط، مما يحسن جماليات المستندات بشكل عام.
 
 #### حدد تخطيط الصفحة عند الفتح PDF في القارئ <sup>23.12</sup>
 
@@ -310,8 +312,8 @@ Aspose.Words 23.12 يقدم خصائص وتعدادات جديدة للعمل م
 * تمت إضافة معلمة نوع عام إلى طرق فئة [CompositeNode](https://reference.aspose.com/words/cpp/aspose.words/compositenode/). <sup>23.10</sup>
 * تم تنفيذ طريقة للتحكم في وقت قبول/رفض مراجعة معينة أو عدم تنفيذها باستخدام طرق [Accept](https://reference.aspose.com/words/cpp/aspose.words/revisioncollection/accept/) و [Reject](https://reference.aspose.com/words/cpp/aspose.words/revisioncollection/reject/). يمنح هذا التحسين المستخدمين تحكما أدق في عملية المراجعة. <sup>23.11</sup>
 * تم توفير القدرة على كتابة جميع أقسام المستند على نفس ورقة العمل XLSX من خلال نوع التعداد الجديد [XlsxSectionMode](https://reference.aspose.com/words/cpp/aspose.words.saving/xlsxsectionmode/) وخاصية [SectionMode](https://reference.aspose.com/words/cpp/aspose.words.saving/xlsxsaveoptions/get_sectionmode/) الجديدة. <sup>23.11</sup>
-* تم تنفيذ طريقة للتحكم في كيفية استخدام ملحقات التنسيق ZIP64 للمستندات OOXML من خلال خاصية زيب 64 مود الجديدة لفئة `OoxmlSaveOptions` وتعداد زيب 64 مود الجديد. <sup>23.12</sup>
-* تم تقديم الدعم ل WebP صورة. يرجى ملاحظة أن هذه الميزة متاحة فقط ل .NetStandart و .NET6 + الإصدارات. <sup>23.12</sup>
+* تم تنفيذ طريقة للتحكم في كيفية استخدام ملحقات التنسيق ZIP64 للمستندات OOXML من خلال خاصية Zip64Mode الجديدة لفئة `OoxmlSaveOptions` والتعداد Zip64Mode الجديد. <sup>23.12</sup>
+* تم تقديم الدعم ل WebP صورة. يرجى ملاحظة أن هذه الميزة متاحة فقط ل .NetStandart و .NET6+ الإصدارات. <sup>23.12</sup>
 
 {{% alert color="primary" %}}
 
@@ -326,6 +328,6 @@ Aspose.Words 23.12 يقدم خصائص وتعدادات جديدة للعمل م
 
 {{% alert color="primary" %}}
 
-تحتوي هذه الصفحة على آخر أخبار الإصدار للسنوات الماضية 2. للحصول على تفاصيل حول الإصدارات السابقة، راجع [ملاحظات الإصدار](/words/cpp/release-notes/) الصفحات في الأقسام ذات الصلة.
+تحتوي هذه الصفحة على أحدث أخبار الإصدار للماضي 2 سنوات. للحصول على تفاصيل حول الإصدارات السابقة، راجع [ملاحظات الإصدار](/words/cpp/release-notes/) الصفحات في الأقسام ذات الصلة.
 
 {{% /alert %}}
