@@ -50,7 +50,7 @@ to use it as a template.
   alt="Table template for LINQ Reporting Engine in C#."
   style="width:625px"/>
 
-8. Build your table using LINQ Reporting Engine by running the following C# code:\
+6. Build your table using LINQ Reporting Engine by running the following C# code:\
 {{< gist "aspose-words-gists" "1db755b118593b067e1de46ad5fbe550" "building-table.cs" >}}
 
 ## Table Report Example
