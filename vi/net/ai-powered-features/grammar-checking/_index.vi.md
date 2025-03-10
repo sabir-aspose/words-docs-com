@@ -1,4 +1,4 @@
-﻿---
+---
 title: AI Kiểm Tra Ngữ Pháp
 second_title: Aspose.Words cho .NET
 articleTitle: Kiểm Tra Ngữ Pháp
@@ -6,8 +6,8 @@ linktitle: Kiểm Tra Ngữ Pháp
 type: docs
 weight: 40
 description: "Kiểm tra ngữ pháp tài liệu. Aspose.Words cho .NET cho phép người dùng kiểm tra ngữ pháp và phát hiện lỗi trong tài liệu bằng mô hình OpenAI."
-url: /vi/net/grammar checking/
-timestamp: 2025-01-15-16-40-05
+url: /vi/net/grammar-checking/
+timestamp: 2025-03-09-15-00-00
 ---
 
 Kiểm tra ngữ pháp trong tài liệu là rất quan trọng để đảm bảo sự rõ ràng, chuyên nghiệp và chính xác. Các tài liệu được viết tốt để lại ấn tượng tích cực và tránh hiểu lầm. Kiểm tra ngữ pháp giúp xác định và sửa lỗi nhanh chóng, tiết kiệm thời gian và cải thiện chất lượng.
@@ -16,19 +16,7 @@ Aspose.Words cho phép người dùng kiểm tra ngữ pháp và phát hiện l�
 
 Ví dụ mã sau đây cho thấy cách sử dụng mô hình GPT-4o mini trong Aspose.Words để kiểm tra ngữ pháp:
 
-{{< highlight csharp >}}
-Document doc = new Document(MyDir + "Big document.docx");
-
-string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-// Use OpenAI generative language models.
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
-
-CheckGrammarOptions grammarOptions = new CheckGrammarOptions();
-grammarOptions.ImproveStylistics = true;
-
-Document proofedDoc = model.CheckGrammar(doc, grammarOptions);
-proofedDoc.Save("AI.AiGrammar.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "98a646d19cd7708ed0cd3d97b993a053" "ai-grammar.cs" >}}
 
 {{% alert color="primary" %}}
 

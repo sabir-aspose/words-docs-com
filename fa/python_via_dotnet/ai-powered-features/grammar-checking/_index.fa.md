@@ -6,7 +6,7 @@ linktitle: بررسی دستور زبان
 type: docs
 weight: 40
 description: "یک دستور زبان سند را بررسی کنید. Aspose.Words برای Python به کاربران اجازه می دهد تا گرامر را بررسی کنند و خطاهای اسناد را با استفاده از مدل های OpenAI تشخیص دهند."
-url: /fa/python-net/grammar checking/
+url: /fa/python-net/grammar-checking/
 timestamp: 2025-01-15-16-40-05
 ---
 

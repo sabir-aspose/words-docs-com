@@ -6,7 +6,7 @@ linktitle: Controllo grammaticale
 type: docs
 weight: 40
 description: "Controllare la grammatica di un documento. Aspose.Wordsper Python consente agli utenti di controllare la grammatica e rilevare errori nei documenti utilizzando i modelli OpenAI."
-url: /it/python-net/grammar checking/
+url: /it/python-net/grammar-checking/
 timestamp: 2025-01-15-16-40-05
 ---
 

@@ -6,7 +6,7 @@ linktitle: Dilbilgisi Denetimi
 type: docs
 weight: 40
 description: "Bir belge dilbilgisini kontrol edin. Aspose.Words için Python kullanıcıların OpenAI modellerini kullanarak dilbilgisini kontrol etmelerine ve belgelerdeki hataları tespit etmelerine olanak tanır."
-url: /tr/python-net/grammar checking/
+url: /tr/python-net/grammar-checking/
 timestamp: 2025-01-15-16-40-05
 ---
 

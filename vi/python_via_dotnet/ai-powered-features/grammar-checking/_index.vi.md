@@ -6,7 +6,7 @@ linktitle: Kiểm Tra Ngữ Pháp
 type: docs
 weight: 40
 description: "Kiểm tra ngữ pháp tài liệu. Aspose.Words cho Python cho phép người dùng kiểm tra ngữ pháp và phát hiện lỗi trong tài liệu bằng mô hình OpenAI."
-url: /vi/python-net/grammar checking/
+url: /vi/python-net/grammar-checking/
 timestamp: 2025-01-15-16-40-05
 ---
 

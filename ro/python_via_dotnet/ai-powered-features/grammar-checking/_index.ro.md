@@ -6,7 +6,7 @@ linktitle: Verificarea Gramaticii
 type: docs
 weight: 40
 description: "Verificați gramatica unui document. Aspose.Words pentru Python permite utilizatorilor să verifice gramatica și să detecteze erorile din documente folosind OpenAI modele."
-url: /ro/python-net/grammar checking/
+url: /ro/python-net/grammar-checking/
 timestamp: 2025-01-15-16-40-05
 ---
 

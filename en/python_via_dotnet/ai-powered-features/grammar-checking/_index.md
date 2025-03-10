@@ -6,7 +6,7 @@ linktitle: Grammar Checking
 type: docs
 weight: 40
 description: "Check a document grammar. Aspose.Words for Python allows users to check grammar and detect errors in documents using OpenAI models."
-url: /python-net/grammar checking/
+url: /python-net/grammar-checking/
 timestamp: 2025-01-15-16-40-05
 ---
 

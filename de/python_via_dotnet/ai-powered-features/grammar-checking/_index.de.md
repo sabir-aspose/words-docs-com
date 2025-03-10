@@ -6,7 +6,7 @@ linktitle: Grammatikprüfung
 type: docs
 weight: 40
 description: "Überprüfen Sie die Grammatik eines Dokuments. Aspose.Words für Python ermöglicht Benutzern das Überprüfen der Grammatik und das Erkennen von Fehlern in Dokumenten mithilfe von OpenAI -Modellen."
-url: /de/python-net/grammar checking/
+url: /de/python-net/grammar-checking/
 timestamp: 2025-01-15-16-40-05
 ---
 
