@@ -1,4 +1,4 @@
-﻿---
+---
 title: AI文法チェック
 second_title: Aspose.Wordsのための.NET
 articleTitle: 文法チェック
@@ -6,8 +6,8 @@ linktitle: 文法チェック
 type: docs
 weight: 40
 description: "文書の文法を確認してください。 Aspose.Wordsのための.NET ユーザーはOpenAIモデルを使用して文法をチェックし、文書のエラーを検出できます。"
-url: /ja/net/grammar checking/
-timestamp: 2025-01-15-16-40-05
+url: /ja/net/grammar-checking/
+timestamp: 2025-03-09-15-00-00
 ---
 
 文書の文法をチェックすることは、明快さ、プロ意識、正確さを確保するために重要です。 よく書かれた文書は肯定的な印象を残し、誤解を避ける。 文法チェックは、エラーを迅速に特定して修正するのに役立ち、時間を節約し、品質を向上させます。
@@ -16,19 +16,7 @@ Aspose.Wordsは、文法をチェックし、**OpenAI**生成モデルを使用�
 
 次のコード例は、Aspose.WordsのGPT-4o miniモデルを使用して文法をチェックする方法を示しています:
 
-{{< highlight csharp >}}
-Document doc = new Document(MyDir + "Big document.docx");
-
-string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-// Use OpenAI generative language models.
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
-
-CheckGrammarOptions grammarOptions = new CheckGrammarOptions();
-grammarOptions.ImproveStylistics = true;
-
-Document proofedDoc = model.CheckGrammar(doc, grammarOptions);
-proofedDoc.Save("AI.AiGrammar.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "98a646d19cd7708ed0cd3d97b993a053" "ai-grammar.cs" >}}
 
 {{% alert color="primary" %}}
 

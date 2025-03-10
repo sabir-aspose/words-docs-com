@@ -6,7 +6,7 @@ linktitle: การตรวจสอบไวยากรณ์
 type: docs
 weight: 40
 description: "ตรวจสอบไวยากรณ์เอกสาร Aspose.WordsสำหรับPython อนุญาตให้ผู้ใช้สามารถตรวจสอบไวยากรณ์และตรวจจับข้อผิดพลาดในเอกสารโดยใช้รุ่นOpenAI."
-url: /th/python-net/grammar checking/
+url: /th/python-net/grammar-checking/
 timestamp: 2025-01-15-16-40-05
 ---
 

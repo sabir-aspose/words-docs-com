@@ -6,7 +6,7 @@ linktitle: Grammaticacontrole
 type: docs
 weight: 40
 description: "Controleer de grammatica van een document. Aspose.Words voor Python hiermee kunnen gebruikers grammatica controleren en fouten in documenten detecteren met behulp van OpenAI - modellen."
-url: /nl/python-net/grammar checking/
+url: /nl/python-net/grammar-checking/
 timestamp: 2025-01-15-16-40-05
 ---
 

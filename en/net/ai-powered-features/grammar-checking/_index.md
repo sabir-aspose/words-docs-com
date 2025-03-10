@@ -6,8 +6,8 @@ linktitle: Grammar Checking
 type: docs
 weight: 40
 description: "Check a document grammar. Aspose.Words for .NET allows users to check grammar and detect errors in documents using OpenAI models."
-url: /net/grammar checking/
-timestamp: 2025-01-15-16-40-05
+url: /net/grammar-checking/
+timestamp: 2025-03-09-15-00-00
 ---
 
 Checking grammar in documents is important to ensure clarity, professionalism, and accuracy. Well-written documents leave a positive impression and avoid misunderstandings. Grammar checks help identify and correct errors quickly, saving time and improving quality.

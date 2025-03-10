@@ -1,4 +1,4 @@
-﻿---
+---
 title: AI بررسی گرامر
 second_title: Aspose.Words برای .NET
 articleTitle: بررسی دستور زبان
@@ -6,8 +6,8 @@ linktitle: بررسی دستور زبان
 type: docs
 weight: 40
 description: "یک دستور زبان سند را بررسی کنید. Aspose.Words برای .NET به کاربران اجازه می دهد تا گرامر را بررسی کنند و خطاهای اسناد را با استفاده از مدل های OpenAI تشخیص دهند."
-url: /fa/net/grammar checking/
-timestamp: 2025-01-15-16-40-05
+url: /fa/net/grammar-checking/
+timestamp: 2025-03-09-15-00-00
 ---
 
 بررسی دستور زبان در اسناد برای اطمینان از وضوح، حرفه ای بودن و دقت مهم است. اسناد خوب نوشته شده تأثیر مثبتی بر جای می گذارند و از سوء تفاهم جلوگیری می کنند. بررسی گرامر به شناسایی و اصلاح سریع خطاها، صرفه جویی در زمان و بهبود کیفیت کمک می کند.
@@ -16,19 +16,7 @@ Aspose.Words به کاربران اجازه می دهد تا گرامر را ب�
 
 مثال کد زیر نشان می دهد که چگونه از مدل GPT-4o mini در Aspose.Words برای بررسی گرامر استفاده کنید:
 
-{{< highlight csharp >}}
-Document doc = new Document(MyDir + "Big document.docx");
-
-string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-// Use OpenAI generative language models.
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
-
-CheckGrammarOptions grammarOptions = new CheckGrammarOptions();
-grammarOptions.ImproveStylistics = true;
-
-Document proofedDoc = model.CheckGrammar(doc, grammarOptions);
-proofedDoc.Save("AI.AiGrammar.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "98a646d19cd7708ed0cd3d97b993a053" "ai-grammar.cs" >}}
 
 {{% alert color="primary" %}}
 

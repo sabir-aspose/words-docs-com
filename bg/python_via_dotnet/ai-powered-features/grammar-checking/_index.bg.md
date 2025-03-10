@@ -6,7 +6,7 @@ linktitle: Проверка На Граматиката
 type: docs
 weight: 40
 description: "Проверете граматиката на документа. Aspose.Words за Python позволява на потребителите да проверяват граматиката и да откриват грешки в документите, използвайки OpenAI модели."
-url: /bg/python-net/grammar checking/
+url: /bg/python-net/grammar-checking/
 timestamp: 2025-01-15-16-40-05
 ---
 

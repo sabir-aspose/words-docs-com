@@ -6,7 +6,7 @@ linktitle: 语法检查
 type: docs
 weight: 40
 description: "检查文档语法。 Aspose.Words为Python 允许用户使用OpenAI模型检查语法并检测文档中的错误。"
-url: /zh/python-net/grammar checking/
+url: /zh/python-net/grammar-checking/
 timestamp: 2025-01-15-16-40-05
 ---
 

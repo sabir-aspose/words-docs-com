@@ -6,7 +6,7 @@ linktitle: Verificação Gramatical
 type: docs
 weight: 40
 description: "Verifique a gramática de um documento. Aspose.Words para Python permite aos utilizadores verificar a gramática e detetar erros em documentos utilizando modelos OpenAI."
-url: /pt/python-net/grammar checking/
+url: /pt/python-net/grammar-checking/
 timestamp: 2025-01-15-16-40-05
 ---
 

@@ -6,7 +6,7 @@ linktitle: 文法チェック
 type: docs
 weight: 40
 description: "文書の文法を確認してください。 Aspose.WordsのためのPython ユーザーはOpenAIモデルを使用して文法をチェックし、文書のエラーを検出できます。"
-url: /ja/python-net/grammar checking/
+url: /ja/python-net/grammar-checking/
 timestamp: 2025-01-15-16-40-05
 ---
 
