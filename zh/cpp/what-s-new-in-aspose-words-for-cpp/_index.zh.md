@@ -7,10 +7,60 @@ type: docs
 description: "Aspose.Words为C++ 每天扩展和增强。 在这个页面上，您可以了解该产品的巨大和最有趣的功能。"
 weight: 2
 url: /zh/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2025-01-14-17-38-46
+timestamp: 2025-03-09-12-38-00
 ---
 
 本页介绍了最近版本中引入的最有趣的Aspose.Words新特性。
+
+## Aspose.Words为C++ 25.1, 25.2
+
+Aspose.Words25.1引入了AI支持的语法检查，并通过HTML、SVG和Markdown格式的高级选项增强了文档保存。
+
+Aspose.Words25.2使用AnthropicAI模型引入文本摘要，添加MsWorks格式支持，增强排版控制，并改进PDF结构和列表处理。
+
+### AI 支持的功能
+
+#### 文档AI语法检查 <sup>25.1</sup>
+
+通过添加一个新的[CheckGrammar](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/checkgrammar/)方法，引入了使用OpenAI生成模型检查所提供文档语法的能力。
+
+#### 使用人类生成语言模型进行总结 <sup>25.2</sup>
+
+通过引入一个新的公共类[AnthropicAiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/)，启用了使用人类生成语言模型的文本摘要。
+
+### 支持的格式 <sup>25.2</sup>
+
+从版本25.2开始，添加了与MicrosoftWorks文档的新MsWorks加载格式的兼容性。
+
+### 转换、加载和保存文档
+
+#### 改进保存为HTML和SVG格式 <sup>25.1</sup>
+
+通过向[HtmlFixedSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/htmlfixedsaveoptions/)和[SvgSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/svgsaveoptions/)类添加**IdPrefix**和**RemoveJavaScriptFromLinks**属性，已增强了保存为HTML和SVG格式的功能。
+
+#### 保存为Markdown时设置图像分辨率和OfficeMath输出模式 <sup>25.1</sup>
+
+- 在[MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/)类中添加了一个新的[ImageResolution](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_imageresolution/)选项来设置图像分辨率。
+- 一个新的[OfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_officemathexportmode/)选项和[MarkdownOfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownofficemathexportmode/)枚举已添加到[MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/)类中以设置OfficeMath输出模式。
+
+### 渲染图
+
+#### 改进的排版控制 <sup>25.2</sup>
+
+已添加[NumberSpacing](https://reference.aspose.com/words/cpp/aspose.words/font/get_numberspacing/)属性以改进排版控制。
+
+### 其他
+
+- PDF逻辑结构得到了改进，支持TOA、BIBLIOGRAPHY和INDEX字段。 <sup>25.2</sup>
+- 为了改进列表处理，引入了[AddSingleLevelList](https://reference.aspose.com/words/cpp/aspose.words.lists/listcollection/addsinglelevellist/)方法。 <sup>25.2</sup>
+
+{{% alert color="primary" %}}
+
+了解更多关于 [Aspose.Words为C++ 25.1发行说明](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-1-release-notes/).
+
+了解更多关于 [Aspose.Words为C++ 25.2发行说明](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-2-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words为C++ 24.9、24.10、24.11、24.12
 

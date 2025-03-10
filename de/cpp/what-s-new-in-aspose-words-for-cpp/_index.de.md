@@ -7,10 +7,60 @@ type: docs
 description: "Aspose.Words für C++ erweitert und verbessert sich täglich. Auf dieser Seite erfahren Sie mehr über die großen und interessantesten Funktionen des Produkts."
 weight: 2
 url: /de/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2025-01-14-17-38-46
+timestamp: 2025-03-09-12-38-00
 ---
 
 Diese Seite beschreibt die interessantesten neuen Aspose.Words Funktionen, die in den letzten Versionen eingeführt wurden.
+
+## Aspose.Words für C++ 25.1, 25.2
+
+Aspose.Words 25.1 führt eine AI-basierte Grammatikprüfung ein und verbessert das Speichern von Dokumenten mit erweiterten Optionen für die Formate HTML, SVG und Markdown.
+
+Aspose.Words 25.2 führt die Textzusammenfassung mit anthropischen AI-Modellen ein, fügt MsWorks-Formatunterstützung hinzu, verbessert die typografische Steuerung und verbessert die PDF-Struktur und die Listenbehandlung.
+
+### AI-betriebene Funktionen
+
+#### Dokument AI Grammatikprüfung <sup>25.1</sup>
+
+Die Möglichkeit, die Grammatik des bereitgestellten Dokuments mithilfe generativer OpenAI -Modelle zu überprüfen, wurde durch Hinzufügen einer neuen [CheckGrammar](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/checkgrammar/) -Methode eingeführt.
+
+#### Zusammenfassung mit anthropischen generativen Sprachmodellen <sup>25.2</sup>
+
+Die Textzusammenfassung mit anthropischen generativen Sprachmodellen wurde durch die Einführung einer neuen öffentlichen Klasse [AnthropicAiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/) ermöglicht.
+
+### Unterstützte Formate <sup>25.2</sup>
+
+Ab Version 25.2 wurde die Kompatibilität mit dem neuen MsWorks Ladeformat für Microsoft Werksdokumente hinzugefügt.
+
+### Dokumente konvertieren, laden und speichern
+
+#### Verbessertes Speichern in den Formaten HTML und SVG <sup>25.1</sup>
+
+Das Speichern in den Formaten HTML und SVG wurde verbessert, indem den Klassen [HtmlFixedSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/htmlfixedsaveoptions/) und [SvgSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/svgsaveoptions/) Eigenschaften **IdPrefix** und **RemoveJavaScriptFromLinks** hinzugefügt wurden.
+
+#### Stellen Sie die Bildauflösung und den OfficeMath -Ausgabemodus beim Speichern auf Markdown ein <sup>25.1</sup>
+
+- Der Klasse [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) wurde eine neue Option [ImageResolution](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_imageresolution/) hinzugefügt, um die Bildauflösung festzulegen.
+- Eine neue [OfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_officemathexportmode/) -Option und [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownofficemathexportmode/) -Aufzählung wurden der [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) -Klasse hinzugefügt, um den OfficeMath -Ausgabemodus festzulegen.
+
+### Rendering
+
+#### Verbesserte typografische Kontrolle <sup>25.2</sup>
+
+Die Eigenschaft [NumberSpacing](https://reference.aspose.com/words/cpp/aspose.words/font/get_numberspacing/) wurde für eine verbesserte typografische Kontrolle hinzugefügt.
+
+### Andere
+
+- PDF logische Struktur wurde mit Unterstützung für TOA, BIBLIOGRAPHY und INDEX Felder verbessert. <sup>25.2</sup>
+- Die [AddSingleLevelList](https://reference.aspose.com/words/cpp/aspose.words.lists/listcollection/addsinglelevellist/) -Methode wurde für eine verbesserte Listenbehandlung eingeführt. <sup>25.2</sup>
+
+{{% alert color="primary" %}}
+
+Erfahren Sie mehr über [Aspose.Words für C++ 25.1 Versionshinweise](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-1-release-notes/).
+
+Erfahren Sie mehr über [Aspose.Words für C++ 25.2 Versionshinweise](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-2-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words für C++ 24.9, 24.10, 24.11, 24.12
 

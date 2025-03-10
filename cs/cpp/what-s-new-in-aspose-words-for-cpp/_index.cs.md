@@ -7,10 +7,60 @@ type: docs
 description: "Aspose.Words pro C++ rozšiřuje a zvyšuje denně. Na této stránce se můžete dozvědět o obrovských a nejzajímavějších vlastnostech produktu."
 weight: 2
 url: /cs/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2025-01-14-17-38-46
+timestamp: 2025-03-09-12-38-00
 ---
 
 Tato stránka popisuje nejzajímavější nové funkce Aspose.Words představené v posledních verzích.
+
+## Aspose.Words Pro C++ 25.1, 25.2
+
+Aspose.Words 25.1 zavádí kontrolu gramatiky pomocí AI a vylepšuje ukládání dokumentů pomocí pokročilých možností pro formáty HTML, SVG a Markdown.
+
+Aspose.Words 25.2 zavádí shrnutí textu pomocí Antropických modelů AI, přidává podporu formátu MsWorks, vylepšuje typografické ovládání a zlepšuje strukturu a zpracování seznamu PDF.
+
+### AI - poháněné funkce
+
+#### Kontrola Gramatiky AI <sup>25.1</sup>
+
+Schopnost kontrolovat gramatiku poskytnutého dokumentu pomocí OpenAI generativních modelů byla zavedena přidáním nové metody [CheckGrammar](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/checkgrammar/).
+
+#### Shrnutí Pomocí Antropických Generativních Jazykových Modelů <sup>25.2</sup>
+
+Shrnutí textu pomocí Antropických generativních jazykových modelů bylo umožněno zavedením nové veřejné třídy [AnthropicAiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/).
+
+### Podporované Formáty <sup>25.2</sup>
+
+Od verze 25.2 byla přidána kompatibilita s novým formátem načítání MsWorks pro pracovní dokumenty Microsoft.
+
+### Převod, načítání a ukládání dokumentů
+
+#### Vylepšené ukládání do formátů HTML a SVG <sup>25.1</sup>
+
+Ukládání do formátů HTML a SVG bylo vylepšeno přidáním vlastností **IdPrefix** a **RemoveJavaScriptFromLinks** do tříd [HtmlFixedSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/htmlfixedsaveoptions/) a [SvgSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/svgsaveoptions/).
+
+#### Nastavte rozlišení obrazu a výstupní režim OfficeMath při ukládání do Markdown <sup>25.1</sup>
+
+- Do třídy [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) byla přidána nová možnost [ImageResolution](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_imageresolution/) pro nastavení rozlišení obrazu.
+- Do třídy [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) byla přidána nová volba [OfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_officemathexportmode/) a výčet [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownofficemathexportmode/) pro nastavení výstupního režimu OfficeMath.
+
+### Vykreslování
+
+#### Vylepšené Typografické Ovládání <sup>25.2</sup>
+
+Vlastnost [NumberSpacing](https://reference.aspose.com/words/cpp/aspose.words/font/get_numberspacing/) byla přidána pro lepší typografické ovládání.
+
+### Jiný
+
+- Logická struktura PDF byla vylepšena podporou polí TOA, BIBLIOGRAPHY a INDEX. <sup>25.2</sup>
+- Pro lepší zpracování seznamu byla zavedena metoda [AddSingleLevelList](https://reference.aspose.com/words/cpp/aspose.words.lists/listcollection/addsinglelevellist/). <sup>25.2</sup>
+
+{{% alert color="primary" %}}
+
+Další informace o [Aspose.Words Pro C++ 25.1 Poznámky K Vydání](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-1-release-notes/).
+
+Další informace o [Aspose.Words Pro C++ 25.2 Poznámky K Vydání](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-2-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words Pro C++ 24.9, 24.10, 24.11, 24.12
 

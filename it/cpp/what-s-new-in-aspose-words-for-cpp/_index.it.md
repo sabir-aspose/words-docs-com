@@ -7,10 +7,60 @@ type: docs
 description: "Aspose.Words per C++ si espande e migliora ogni giorno. In questa pagina, puoi conoscere le caratteristiche enormi e più interessanti del prodotto."
 weight: 2
 url: /it/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2025-01-14-17-38-46
+timestamp: 2025-03-09-12-38-00
 ---
 
 Questa pagina descrive le nuove funzionalità Aspose.Words più interessanti introdotte nelle ultime versioni.
+
+## Aspose.Wordsper C++ 25.1, 25.2
+
+Aspose.Words 25.1 introduce il controllo grammaticale basato su AI e migliora il salvataggio dei documenti con opzioni avanzate per i formati HTML, SVG e Markdown.
+
+Aspose.Words 25.2 introduce la sintesi del testo con i modelli Anthropic AI, aggiunge il supporto al formato MsWorks, migliora il controllo tipografico e migliora la struttura PDF e la gestione degli elenchi.
+
+### AI - Funzioni alimentate
+
+#### Controllo grammaticale del documento AI <sup>25.1</sup>
+
+La possibilità di controllare la grammatica del documento fornito utilizzando i modelli generativi OpenAI è stata introdotta aggiungendo un nuovo metodo [CheckGrammar](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/checkgrammar/).
+
+#### Riassunto utilizzando modelli linguistici antropici generativi <sup>25.2</sup>
+
+La sintesi del testo utilizzando modelli di linguaggio antropico generativo è stata abilitata introducendo una nuova classe pubblica [AnthropicAiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/).
+
+### Formati supportati <sup>25.2</sup>
+
+A partire dalla versione 25.2, è stata aggiunta la compatibilità con il nuovo formato di caricamento MsWorks per i documenti Works Microsoft.
+
+### Conversione, caricamento e salvataggio di documenti
+
+#### Migliorato il salvataggio nei formati HTML e SVG <sup>25.1</sup>
+
+Il salvataggio nei formati HTML e SVG è stato migliorato aggiungendo le proprietà **IdPrefix** e **RemoveJavaScriptFromLinks** a entrambe le classi [HtmlFixedSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/htmlfixedsaveoptions/) e [SvgSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/svgsaveoptions/).
+
+#### Impostare la risoluzione dell'immagine e la modalità di uscita OfficeMath Quando si salva su Markdown <sup>25.1</sup>
+
+- Una nuova opzione [ImageResolution](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_imageresolution/) è stata aggiunta alla classe [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) per impostare la risoluzione dell'immagine.
+- Una nuova opzione [OfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_officemathexportmode/) e l'enumerazione [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownofficemathexportmode/) sono state aggiunte alla classe [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) per impostare la modalità di output OfficeMath.
+
+### Rendering
+
+#### Controllo tipografico migliorato <sup>25.2</sup>
+
+La proprietà [NumberSpacing](https://reference.aspose.com/words/cpp/aspose.words/font/get_numberspacing/) è stata aggiunta per migliorare il controllo tipografico.
+
+### Altri
+
+- La struttura logica di PDF è stata migliorata con il supporto per i campi TOA, BIBLIOGRAPHY e INDEX. <sup>25.2</sup>
+- Il metodo [AddSingleLevelList](https://reference.aspose.com/words/cpp/aspose.words.lists/listcollection/addsinglelevellist/) è stato introdotto per una migliore gestione delle liste. <sup>25.2</sup>
+
+{{% alert color="primary" %}}
+
+Scopri di più su [Aspose.Wordsper C++ 25.1 Note di rilascio](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-1-release-notes/).
+
+Scopri di più su [Aspose.Wordsper C++ 25.2 Note di rilascio](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-2-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words per C++ 24.9, 24.10, 24.11, 24.12
 
