@@ -6,7 +6,7 @@ linktitle: Pemeriksaan Tata Bahasa
 type: docs
 weight: 40
 description: "Periksa tata bahasa dokumen. Aspose.Words untuk Python memungkinkan pengguna memeriksa tata bahasa dan mendeteksi kesalahan dalam dokumen menggunakan model OpenAI."
-url: /id/python-net/grammar checking/
+url: /id/python-net/grammar-checking/
 timestamp: 2025-01-15-16-40-05
 ---
 

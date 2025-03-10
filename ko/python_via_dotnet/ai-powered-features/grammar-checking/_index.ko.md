@@ -6,7 +6,7 @@ linktitle: 문법 검사
 type: docs
 weight: 40
 description: "문서 문법을 확인하십시오. Aspose.WordsPython의 경우 사용자가OpenAI모델을 사용하여 문법을 확인하고 문서의 오류를 감지할 수 있습니다."
-url: /ko/python-net/grammar checking/
+url: /ko/python-net/grammar-checking/
 timestamp: 2025-01-15-16-40-05
 ---
 
