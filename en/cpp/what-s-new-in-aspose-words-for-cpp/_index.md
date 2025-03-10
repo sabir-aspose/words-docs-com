@@ -7,10 +7,60 @@ type: docs
 description: "Aspose.Words for C++ expands and enhances daily. On this page, you can learn about the huge and most interesting features of the product."
 weight: 2
 url: /cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2025-01-14-17-38-46
+timestamp: 2025-03-09-12-38-00
 ---
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
+
+## Aspose.Words for C++ 25.1, 25.2
+
+Aspose.Words 25.1 introduces AI-powered grammar checking and enhances document saving with advanced options for HTML, SVG, and Markdown formats.
+
+Aspose.Words 25.2 introduces text summarization with Anthropic AI models, adds MsWorks format support, enhances typographic control, and improves PDF structure and list handling.
+
+### AI-powered Features
+
+#### Document AI Grammar Checking <sup>25.1</sup>
+
+The ability to check the grammar of the provided document using OpenAI generative models has been introduced by adding a new [CheckGrammar](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/checkgrammar/) method.
+
+#### Summarization Using Anthropic Generative Language Models <sup>25.2</sup>
+
+Text summarization using Anthropic generative language models has been enabled by introducing a new public class [AnthropicAiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/).
+
+### Supported Formats <sup>25.2</sup>
+
+Starting from version 25.2, compatibility with the new MsWorks load format for Microsoft Works documents has been added.
+
+### Converting, Loading, and Saving Documents
+
+#### Improved Saving to HTML and SVG Formats <sup>25.1</sup>
+
+Saving to HTML and SVG formats has been enhanced by adding **IdPrefix** and **RemoveJavaScriptFromLinks** properties to both the [HtmlFixedSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/htmlfixedsaveoptions/) and [SvgSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/svgsaveoptions/) classes.
+
+#### Set Image Resolution and OfficeMath Output Mode When Saving to Markdown <sup>25.1</sup>
+
+- A new [ImageResolution](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_imageresolution/) option has been added to the [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) class to set the image resolution.
+- A new [OfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_officemathexportmode/) option and [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownofficemathexportmode/) enumeration have been and added to the [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) class to set OfficeMath output mode.
+
+### Rendering
+
+#### Improved Typographic Control <sup>25.2</sup>
+
+The [NumberSpacing](https://reference.aspose.com/words/cpp/aspose.words/font/get_numberspacing/) property has been added for improved typographic control.
+
+### Other
+
+- PDF logical structure has been improved with support for TOA, BIBLIOGRAPHY, and INDEX fields. <sup>25.2</sup>
+- The [AddSingleLevelList](https://reference.aspose.com/words/cpp/aspose.words.lists/listcollection/addsinglelevellist/) method has been introduced for improved list handling. <sup>25.2</sup>
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for C++ 25.1 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-1-release-notes/).
+
+Learn more about [Aspose.Words for C++ 25.2 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-2-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words for C++ 24.9, 24.10, 24.11, 24.12
 

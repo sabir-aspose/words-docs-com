@@ -7,10 +7,60 @@ type: docs
 description: "Aspose.Words pentru C++ extinde și îmbunătățește zilnic. Pe această pagină, puteți afla despre caracteristicile uriașe și cele mai interesante ale produsului."
 weight: 2
 url: /ro/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2025-01-14-17-38-46
+timestamp: 2025-03-09-12-38-00
 ---
 
 Această pagină descrie cele mai interesante caracteristici noi Aspose.Words introduse în versiunile recente.
+
+## Aspose.Words pentru C++ 25.1, 25.2
+
+Aspose.Words 25.1 introduce verificarea gramaticală bazată pe AI și îmbunătățește salvarea documentelor cu opțiuni avansate pentru formatele HTML, SVG și Markdown.
+
+Aspose.Words 25.2 introduce rezumarea textului cu modele antropice AI, adaugă suport pentru formatul MsWorks, îmbunătățește controlul tipografic și îmbunătățește structura PDF și manipularea listei.
+
+### AI - funcții alimentate
+
+#### Document AI Verificarea Gramaticii <sup>25.1</sup>
+
+Capacitatea de a verifica gramatica documentului furnizat folosind OpenAI modele generative a fost introdusă prin adăugarea unei noi metode [CheckGrammar](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/checkgrammar/).
+
+#### Rezumarea Folosind Modele De Limbaj Generativ Antropic <sup>25.2</sup>
+
+Rezumatul textului folosind modele de limbaj generativ antropic a fost permis prin introducerea unei noi clase publice [AnthropicAiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/).
+
+### Formate Acceptate <sup>25.2</sup>
+
+Începând cu versiunea 25.2, a fost adăugată compatibilitatea cu noul format de încărcare MsWorks pentru documentele de lucru Microsoft.
+
+### Conversia, încărcarea și salvarea documentelor
+
+#### Salvarea îmbunătățită în formatele HTML și SVG <sup>25.1</sup>
+
+Salvarea în formatele HTML și SVG a fost îmbunătățită prin adăugarea proprietăților **IdPrefix** și **RemoveJavaScriptFromLinks** atât la clasele [HtmlFixedSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/htmlfixedsaveoptions/), cât și la [SvgSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/svgsaveoptions/).
+
+#### Setați rezoluția imaginii și OfficeMath modul de ieșire la salvarea în Markdown <sup>25.1</sup>
+
+- O nouă opțiune [ImageResolution](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_imageresolution/) a fost adăugată la clasa [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) pentru a seta rezoluția imaginii.
+- O nouă opțiune [OfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_officemathexportmode/) și [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownofficemathexportmode/) enumerare au fost și adăugate la clasa [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) pentru a seta OfficeMath modul de ieșire.
+
+### Redare
+
+#### Control Tipografic Îmbunătățit <sup>25.2</sup>
+
+Proprietatea [NumberSpacing](https://reference.aspose.com/words/cpp/aspose.words/font/get_numberspacing/) a fost adăugată pentru un control tipografic îmbunătățit.
+
+### Altele
+
+- PDF structura logică a fost îmbunătățită cu suport pentru câmpurile TOA, BIBLIOGRAPHY și INDEX. <sup>25.2</sup>
+- Metoda [AddSingleLevelList](https://reference.aspose.com/words/cpp/aspose.words.lists/listcollection/addsinglelevellist/) a fost introdusă pentru o mai bună gestionare a listelor. <sup>25.2</sup>
+
+{{% alert color="primary" %}}
+
+Aflați mai multe despre [Aspose.Words pentru C++ 25.1 Note De Lansare](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-1-release-notes/).
+
+Aflați mai multe despre [Aspose.Words pentru C++ 25.2 Note De Lansare](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-2-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words pentru C++ 24.9, 24.10
 

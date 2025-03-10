@@ -7,10 +7,60 @@ type: docs
 description: "Aspose.Words vir C++ brei en verbeter daagliks. Op hierdie bladsy kan jy leer oor die groot en interessantste kenmerke van die produk."
 weight: 2
 url: /af/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2025-01-14-17-38-46
+timestamp: 2025-03-09-12-38-00
 ---
 
 Hierdie bladsy beskryf die interessantste nuwe Aspose.Words funksies wat in onlangse vrystellings bekendgestel is.
+
+## Aspose.Words vir C++ 25.1, 25.2
+
+Aspose.Words 25.1 stel AI-aangedrewe grammatika-kontrole bekend en verbeter dokumentbesparing met gevorderde opsies vir HTML, SVG en Markdown formate.
+
+Aspose.Words 25.2 stel teksopsomming bekend met Antropiese AI modelle, voeg MsWorks formaatondersteuning by, verbeter tipografiese beheer en verbeter PDF struktuur en lyshantering.
+
+### AI - aangedrewe Funksies
+
+#### Dokument AI Grammatika Kontrole <sup>25.1</sup>
+
+Die vermoë om die grammatika van die verskaf dokument te kontroleer met behulp van OpenAI generatiewe modelle is ingestel deur die toevoeging van'n nuwe [CheckGrammar](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/checkgrammar/) metode.
+
+#### Opsomming Met Behulp Van Antropiese Generatiewe Taalmodelle <sup>25.2</sup>
+
+Teksopsomming met Behulp van Antropiese generatiewe taalmodelle is moontlik gemaak deur'n nuwe openbare klas [AnthropicAiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/) in te voer.
+
+### Ondersteunde Formate <sup>25.2</sup>
+
+Vanaf weergawe 25.2 is verenigbaarheid met die nuwe MsWorks laai formaat vir Microsoft Werk dokumente bygevoeg.
+
+### Omskakeling, Laai En Stoor Van Dokumente
+
+#### Verbeterde Stoor na HTML En SVG Formate <sup>25.1</sup>
+
+Stoor na HTML en SVG formate is verbeter deur die toevoeging van **IdPrefix** en **RemoveJavaScriptFromLinks** eienskappe aan beide die [HtmlFixedSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/htmlfixedsaveoptions/) en [SvgSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/svgsaveoptions/) klasse.
+
+#### Stel Beeldresolusie en OfficeMath Afvoermodus Wanneer Gestoor word na Markdown <sup>25.1</sup>
+
+- 'n nuwe [ImageResolution](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_imageresolution/) opsie is bygevoeg om die [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) klas om die beeld resolusie stel.
+- 'n nuwe [OfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_officemathexportmode/) opsie en [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownofficemathexportmode/) opsomming is en bygevoeg om die [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) klas OfficeMath uitset af te stel.
+
+### Lewering
+
+#### Verbeterde Tipografiese Beheer <sup>25.2</sup>
+
+Die [NumberSpacing](https://reference.aspose.com/words/cpp/aspose.words/font/get_numberspacing/) eienskap is bygevoeg vir verbeterde tipografiese beheer.
+
+### Ander
+
+- PDF logiese struktuur is verbeter met ondersteuning vir TOA, BIBLIOGRAPHY, en INDEX velde. <sup>25.2</sup>
+- Die [AddSingleLevelList](https://reference.aspose.com/words/cpp/aspose.words.lists/listcollection/addsinglelevellist/) metode is bekendgestel vir verbeterde lys hantering. <sup>25.2</sup>
+
+{{% alert color="primary" %}}
+
+Leer meer oor [Aspose.Words vir C++ 25.1 Vrystelling Notas](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-1-release-notes/).
+
+Leer meer oor [Aspose.Words vir C++ 25.2 Vrystelling Notas](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-2-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words vir C++ 24.9, 24.10, 24.11, 24.12
 
