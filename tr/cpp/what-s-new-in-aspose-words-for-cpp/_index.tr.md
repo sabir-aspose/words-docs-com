@@ -7,10 +7,60 @@ type: docs
 description: "Aspose.Words için C++ her gün genişler ve gelişir. Bu sayfada, ürünün devasa ve en ilginç özellikleri hakkında bilgi edinebilirsiniz."
 weight: 2
 url: /tr/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2025-01-14-17-38-46
+timestamp: 2025-03-09-12-38-00
 ---
 
 Bu sayfa, son sürümlerde tanıtılan en ilginç yeni Aspose.Words özellikleri açıklamaktadır.
+
+## Aspose.Words için C++ 25.1, 25.2
+
+Aspose.Words 25.1, AI destekli dilbilgisi denetimini sunar ve HTML, SVG ve Markdown biçimleri için gelişmiş seçeneklerle belge kaydetmeyi geliştirir.
+
+Aspose.Words 25.2 Antropik AI modellerle metin özetlemeyi tanıtır, MsWorks biçim desteği ekler, tipografik kontrolü geliştirir ve PDF yapı ve liste işlemeyi geliştirir.
+
+### AI-güçlendirilmiş Özellikler
+
+#### Belge AI Dilbilgisi Denetimi <sup>25.1</sup>
+
+Sağlanan belgenin dilbilgisini OpenAI üretici modelleri kullanarak kontrol etme yeteneği, yeni bir [CheckGrammar](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/checkgrammar/) yöntemi eklenerek tanıtıldı.
+
+#### Antropik Üretken Dil Modellerini Kullanarak Özetleme <sup>25.2</sup>
+
+Antropik üretken dil modellerini kullanarak metin özetlemesi, yeni bir genel sınıf [AnthropicAiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/) getirilerek etkinleştirildi.
+
+### Desteklenen Biçimler <sup>25.2</sup>
+
+25.2 sürümünden başlayarak, Microsoft Works belgeleri için yeni MsWorks yükleme biçimiyle uyumluluk eklendi.
+
+### Belgeleri Dönüştürme, Yükleme ve Kaydetme
+
+#### HTML ve SVG Biçimlerine Geliştirilmiş Kaydetme <sup>25.1</sup>
+
+HTML ve SVG biçimlerine kaydetme, hem [HtmlFixedSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/htmlfixedsaveoptions/) hem de [SvgSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/svgsaveoptions/) sınıflarına **IdPrefix** ve **RemoveJavaScriptFromLinks** özellikleri eklenerek geliştirilmiştir.
+
+#### Kaydederken Görüntü Çözünürlüğünü ve OfficeMath Çıkış Modunu Markdown <sup>25.1 olarak Ayarlayın</sup>
+
+- Görüntü çözünürlüğünü ayarlamak için [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) sınıfına yeni bir [ImageResolution](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_imageresolution/) seçeneği eklendi.
+- OfficeMath çıktı modunu ayarlamak için [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) sınıfına yeni bir [OfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_officemathexportmode/) seçeneği ve [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownofficemathexportmode/) numaralandırması eklendi ve eklendi.
+
+### İşleme
+
+#### Geliştirilmiş Tipografik Kontrol <sup>25.2</sup>
+
+Geliştirilmiş tipografik kontrol için [NumberSpacing](https://reference.aspose.com/words/cpp/aspose.words/font/get_numberspacing/) özelliği eklendi.
+
+### Diğer
+
+- PDF mantıksal yapı TOA, BIBLIOGRAPHY ve INDEX alanları desteği ile geliştirilmiştir. <sup>25.2</sup>
+- Geliştirilmiş liste işleme için [AddSingleLevelList](https://reference.aspose.com/words/cpp/aspose.words.lists/listcollection/addsinglelevellist/) yöntemi tanıtıldı. <sup>25.2</sup>
+
+{{% alert color="primary" %}}
+
+Hakkında daha fazla bilgi edinin [Aspose.Words için C++ 25.1 Sürüm Notları](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-1-release-notes/).
+
+Hakkında daha fazla bilgi edinin [Aspose.Words için C++ 25.2 Sürüm Notları](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-2-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words için C++ 24.9, 24.10, 24.11, 24.12
 

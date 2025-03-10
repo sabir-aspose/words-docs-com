@@ -7,10 +7,60 @@ type: docs
 description: "Aspose.Words cho C++ mở rộng và tăng cường hàng ngày. Trên trang này, bạn có thể tìm hiểu về các tính năng khổng lồ và thú vị nhất của sản phẩm."
 weight: 2
 url: /vi/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2025-01-14-17-38-46
+timestamp: 2025-03-09-12-38-00
 ---
 
 Trang này mô tả các tính năng Aspose.Words mới thú vị nhất được giới thiệu trong các bản phát hành gần đây.
+
+## Aspose.Words cho C++ 25.1, 25.2
+
+Aspose.Words 25.1 giới thiệu kiểm tra ngữ pháp AI-powered và tăng cường lưu tài liệu với các tùy chọn nâng cao cho các định dạng HTML, SVG và Markdown.
+
+Aspose.Words 25.2 giới thiệu tóm tắt văn bản với Các mô hình AI Nhân Học, thêm hỗ trợ định dạng MsWorks, tăng cường kiểm soát kiểu chữ và cải thiện PDF cấu trúc và xử lý danh sách.
+
+### AI-các Tính năng được hỗ trợ
+
+#### Tài Liệu AI Kiểm Tra Ngữ Pháp <sup>25.1</sup>
+
+Khả năng kiểm tra ngữ pháp của tài liệu được cung cấp bằng cách sử dụng các mô hình tạo OpenAI đã được giới thiệu bằng cách thêm phương thức [CheckGrammar](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/checkgrammar/) mới.
+
+#### Tóm Tắt Bằng Cách Sử Dụng Các Mô Hình Ngôn Ngữ Nhân Học <sup>25.2</sup>
+
+Tóm tắt văn bản bằng Cách sử dụng Các mô hình ngôn ngữ nhân Học đã được kích hoạt bằng cách giới thiệu một lớp công khai mới [AnthropicAiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/).
+
+### Các Định Dạng Được Hỗ Trợ <sup>25.2</sup>
+
+Bắt đầu từ phiên bản 25.2, khả năng tương thích với định dạng tải MsWorks mới cho Các tài liệu Microsoft Works đã được thêm vào.
+
+### Chuyển đổi, Tải và Lưu Tài liệu
+
+#### Cải Thiện Tiết Kiệm đến HTML và SVG Định dạng <sup>25.1</sup>
+
+Lưu vào các định dạng HTML và SVG đã được tăng cường bằng cách thêm các thuộc tính **IdPrefix** và **RemoveJavaScriptFromLinks** vào cả các lớp [HtmlFixedSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/htmlfixedsaveoptions/) và [SvgSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/svgsaveoptions/).
+
+#### Đặt Độ Phân Giải Hình ảnh Và Chế độ Đầu ra OfficeMath Khi Lưu thành Markdown <sup>25.1</sup>
+
+- Một tùy chọn [ImageResolution](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_imageresolution/) mới đã được thêm vào lớp [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) để đặt độ phân giải hình ảnh.
+- Một tùy chọn [OfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_officemathexportmode/) mới và liệt kê [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownofficemathexportmode/) đã được thêm vào lớp [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) để đặt chế độ đầu ra OfficeMath.
+
+### Kết xuất
+
+#### Cải Thiện Kiểm Soát Typographic <sup>25.2</sup>
+
+Thuộc tính [NumberSpacing](https://reference.aspose.com/words/cpp/aspose.words/font/get_numberspacing/) đã được thêm vào để cải thiện kiểm soát kiểu chữ.
+
+### Khác
+
+- Cấu trúc logic PDF đã được cải thiện với sự hỗ trợ cho các trường TOA, BIBLIOGRAPHY và INDEX. <sup>25.2</sup>
+- Phương pháp [AddSingleLevelList](https://reference.aspose.com/words/cpp/aspose.words.lists/listcollection/addsinglelevellist/) đã được giới thiệu để xử lý danh sách được cải thiện. <sup>25.2</sup>
+
+{{% alert color="primary" %}}
+
+Tìm hiểu thêm về [Aspose.Words cho C++ 25.1 Ghi Chú Phát Hành](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-1-release-notes/).
+
+Tìm hiểu thêm về [Aspose.Words cho C++ 25.2 Ghi Chú Phát Hành](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-2-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words cho C++ 24.9, 24.10, 24.11, 24.12
 
