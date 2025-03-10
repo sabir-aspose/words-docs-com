@@ -1,4 +1,4 @@
-﻿---
+---
 title: AI Проверка На Граматиката
 second_title: Aspose.Words за .NET
 articleTitle: Проверка На Граматиката
@@ -6,8 +6,8 @@ linktitle: Проверка На Граматиката
 type: docs
 weight: 40
 description: "Проверете граматиката на документа. Aspose.Words за .NET позволява на потребителите да проверяват граматиката и да откриват грешки в документите, използвайки OpenAI модели."
-url: /bg/net/grammar checking/
-timestamp: 2025-01-15-16-40-05
+url: /bg/net/grammar-checking/
+timestamp: 2025-03-09-15-00-00
 ---
 
 Проверката на граматиката в документите е важна, за да се гарантира яснота, професионализъм и точност. Добре написаните документи оставят положително впечатление и избягват недоразумения. Проверките на граматиката помагат бързо да се идентифицират и коригират грешките, спестявайки време и подобрявайки качеството.
@@ -16,19 +16,7 @@ Aspose.Words позволява на потребителите да прове�
 
 Следващият пример за код показва как да използвате модела GPT-4o mini в Aspose.Words, за да проверите граматиката:
 
-{{< highlight csharp >}}
-Document doc = new Document(MyDir + "Big document.docx");
-
-string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-// Use OpenAI generative language models.
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
-
-CheckGrammarOptions grammarOptions = new CheckGrammarOptions();
-grammarOptions.ImproveStylistics = true;
-
-Document proofedDoc = model.CheckGrammar(doc, grammarOptions);
-proofedDoc.Save("AI.AiGrammar.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "98a646d19cd7708ed0cd3d97b993a053" "ai-grammar.cs" >}}
 
 {{% alert color="primary" %}}
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: AI Grammaticacontrole
 second_title: Aspose.Words voor .NET
 articleTitle: Grammaticacontrole
@@ -6,8 +6,8 @@ linktitle: Grammaticacontrole
 type: docs
 weight: 40
 description: "Controleer de grammatica van een document. Aspose.Words voor .NET hiermee kunnen gebruikers grammatica controleren en fouten in documenten detecteren met behulp van OpenAI - modellen."
-url: /nl/net/grammar checking/
-timestamp: 2025-01-15-16-40-05
+url: /nl/net/grammar-checking/
+timestamp: 2025-03-09-15-00-00
 ---
 
 Het controleren van grammatica in documenten is belangrijk om duidelijkheid, professionaliteit en nauwkeurigheid te garanderen. Goed geschreven documenten laten een positieve indruk achter en voorkomen misverstanden. Grammaticacontroles helpen fouten snel te identificeren en te corrigeren, waardoor tijd wordt bespaard en de kwaliteit wordt verbeterd.
@@ -16,19 +16,7 @@ Aspose.Words stelt gebruikers in staat om grammatica te controleren en fouten in
 
 Het volgende codevoorbeeld laat zien hoe u het GPT-4o mini model in Aspose.Words gebruikt om grammatica te controleren:
 
-{{< highlight csharp >}}
-Document doc = new Document(MyDir + "Big document.docx");
-
-string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-// Use OpenAI generative language models.
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
-
-CheckGrammarOptions grammarOptions = new CheckGrammarOptions();
-grammarOptions.ImproveStylistics = true;
-
-Document proofedDoc = model.CheckGrammar(doc, grammarOptions);
-proofedDoc.Save("AI.AiGrammar.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "98a646d19cd7708ed0cd3d97b993a053" "ai-grammar.cs" >}}
 
 {{% alert color="primary" %}}
 

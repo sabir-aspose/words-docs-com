@@ -6,7 +6,7 @@ linktitle: التدقيق النحوي
 type: docs
 weight: 40
 description: "تحقق من قواعد المستند. Aspose.Words ل Python يسمح للمستخدمين بالتحقق من القواعد واكتشاف الأخطاء في المستندات باستخدام نماذج OpenAI."
-url: /ar/python-net/grammar checking/
+url: /ar/python-net/grammar-checking/
 timestamp: 2025-01-15-16-40-05
 ---
 

@@ -6,7 +6,7 @@ linktitle: בדיקת דקדוק
 type: docs
 weight: 40
 description: "בדוק דקדוק מסמך. Aspose.Words עבור Python מאפשר למשתמשים לבדוק דקדוק ולזהות שגיאות במסמכים באמצעות מודלים OpenAI."
-url: /he/python-net/grammar checking/
+url: /he/python-net/grammar-checking/
 timestamp: 2025-01-15-16-40-05
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: AI Dilbilgisi Denetimi
 second_title: Aspose.Words için .NET
 articleTitle: Dilbilgisi Denetimi
@@ -6,8 +6,8 @@ linktitle: Dilbilgisi Denetimi
 type: docs
 weight: 40
 description: "Bir belge dilbilgisini kontrol edin. Aspose.Words için .NET kullanıcıların OpenAI modellerini kullanarak dilbilgisini kontrol etmelerine ve belgelerdeki hataları tespit etmelerine olanak tanır."
-url: /tr/net/grammar checking/
-timestamp: 2025-01-15-16-40-05
+url: /tr/net/grammar-checking/
+timestamp: 2025-03-09-15-00-00
 ---
 
 Belgelerdeki dilbilgisini kontrol etmek netlik, profesyonellik ve doğruluk sağlamak için önemlidir. İyi yazılmış belgeler olumlu bir izlenim bırakır ve yanlış anlaşılmalardan kaçınır. Dilbilgisi denetimleri, hataları hızlı bir şekilde tanımlamaya ve düzeltmeye yardımcı olarak zamandan tasarruf sağlar ve kaliteyi artırır.
@@ -16,19 +16,7 @@ Aspose.Words kullanıcıların **OpenAI** üretici modelleri kullanarak dilbilgi
 
 Aşağıdaki kod örneği, dilbilgisini denetlemek için Aspose.Words içindeki GPT-4o mini modelinin nasıl kullanılacağını gösterir:
 
-{{< highlight csharp >}}
-Document doc = new Document(MyDir + "Big document.docx");
-
-string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-// Use OpenAI generative language models.
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
-
-CheckGrammarOptions grammarOptions = new CheckGrammarOptions();
-grammarOptions.ImproveStylistics = true;
-
-Document proofedDoc = model.CheckGrammar(doc, grammarOptions);
-proofedDoc.Save("AI.AiGrammar.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "98a646d19cd7708ed0cd3d97b993a053" "ai-grammar.cs" >}}
 
 {{% alert color="primary" %}}
 

@@ -6,7 +6,7 @@ linktitle: Revisión Gramatical
 type: docs
 weight: 40
 description: "Revisa la gramática de un documento. Aspose.Words por Python permite a los usuarios verificar la gramática y detectar errores en los documentos utilizando modelos OpenAI."
-url: /es/python-net/grammar checking/
+url: /es/python-net/grammar-checking/
 timestamp: 2025-01-15-16-40-05
 ---
 

@@ -6,7 +6,7 @@ linktitle: Gramatik
 type: docs
 weight: 40
 description: "Zkontrolujte gramatiku dokumentu. Aspose.Words pro Python umožňuje uživatelům kontrolovat gramatiku a detekovat chyby v dokumentech pomocí modelů OpenAI."
-url: /cs/python-net/grammar checking/
+url: /cs/python-net/grammar-checking/
 timestamp: 2025-01-15-16-40-05
 ---
 
