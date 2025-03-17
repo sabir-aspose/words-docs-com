@@ -7,7 +7,7 @@ description: "Before you start working with Aspose.Words for .NET, ensure that y
 type: docs
 weight: 70
 url: /net/system-requirements/
-timestamp: 2024-02-01-16-17-05
+timestamp: 2025-03-17-19-00-00
 ---
 
 Aspose.Words for .NET does not require any third party product such as Microsoft Word to be installed. Aspose.Words itself is an engine for creating, modifying, converting, and rendering of documents in various formats, including Microsoft Word document formats.
@@ -81,7 +81,7 @@ Aspose.Words for .NET also supports .NET Standard 2.0 specification and its impl
 		</tr>
   <tr>
 			<td>.NET Standard 2.0</td>
-			<td><ul><li>.NET Core 2.0</li><li>.NET Core 2.1</li><li>.NET Core 2.2</li><li>.NET Core 3.0</li><li>.NET Core 3.1</li><li>.NET 5.0</li><li>.NET 6.0</li><li>.NET 7.0</li><li>.NET 8.0</li></ul></td>
+			<td><ul><li>.NET Core 2.0</li><li>.NET Core 2.1</li><li>.NET Core 2.2</li><li>.NET Core 3.0</li><li>.NET Core 3.1</li><li>.NET 5.0</li><li>.NET 6.0</li><li>.NET 7.0</li><li>.NET 8.0</li><li>.NET 9.0+</li></ul></td>
 			</tr>
 </table>
 
