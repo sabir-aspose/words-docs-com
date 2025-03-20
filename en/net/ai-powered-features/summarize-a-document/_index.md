@@ -7,10 +7,10 @@ type: docs
 weight: 20
 description: "Summarize a document. Aspose.Words for .NET simplifies document summarization using OpenAI and Google AI models by allowing you to specify the summary length."
 url: /net/summarize-a-document/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
-Summarizing documents is a valuable tool for content review, quick insights, or preparing abstracts. Aspose.Words supports document summarization using AI-powered models, making it easier to process long text. This feature, available in the [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) namespace, integrates advanced generative language models from *OpenAI* and *Google*. 
+Summarizing documents is a valuable tool for content review, quick insights, or preparing abstracts. Aspose.Words supports document summarization using AI-powered models, making it easier to process long text. This feature, available in the [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) namespace, integrates advanced generative language models from *OpenAI* and *Google*, as well as *Claude's* anthropic generative language models. The list of supported models is available in the [AiModelType](https://reference.aspose.com/words/net/aspose.words.ai/aimodeltype/) enumeration. 
 
 You can specify various options for summarizing document content. Use the [Summarize](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/summarize/) method to generate a summary of your document. You can also set summary length using the [SummaryLength](https://reference.aspose.com/words/net/aspose.words.ai/summarizeoptions/summarylength/) property.
 
