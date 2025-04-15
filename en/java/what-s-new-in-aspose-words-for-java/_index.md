@@ -7,22 +7,25 @@ type: docs
 description: "Aspose.Words for Java expands and enhances daily. On this page, you can learn about the huge and most interesting features of the product."
 weight: 2
 url: /java/what-s-new-in-aspose-words-for-java/
-timestamp: 2025-17-02-18-02-05
+timestamp: 2025-04-15-08-02-05
 ---
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Java 25.1, 25.2
+## Aspose.Words for Java 25.1, 25.2, 25.3
 
 Aspose.Words 25.1 introduces AI-powered grammar checking and enhances document saving with advanced options for HTML, SVG, and Markdown formats.
 
 Aspose.Words 25.2 introduces text summarization with Anthropic AI models, adds MsWorks format support, enhances typographic control, and improves PDF structure and list handling.
 
+Aspose.Words 25.3 enhances an AI-powered grammar checker and font selection with the UpdateAmbiguousTextFont property, as well as improves PDF attachments export.
+
 ### AI-powered Features
 
-#### Document AI Grammar Checking <sup>25.1</sup>
+#### Document AI Grammar Checking
 
-The ability to check the grammar of the provided document using OpenAI generative models has been introduced by adding a new [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions) method.
+* The ability to check the grammar of the provided document using OpenAI generative models has been introduced by adding a new [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions) method. <sup>25.1</sup>
+* The AI-powered Grammar Checking feature has been updated to support all models available in the [AiModelType](https://reference.aspose.com/words/java/com.aspose.words/aimodeltype/) enumeration. <sup>25.3</sup>
 
 #### Summarization Using Anthropic Generative Language Models <sup>25.2</sup>
 
@@ -49,16 +52,23 @@ Saving to HTML and SVG formats has been enhanced by adding **IdPrefix** and **Re
 
 The [NumberSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getNumberSpacing) property has been added for improved typographic control.
 
+#### Controlling Font Selection for Ambiguous Characters <sup>25.3</sup>
+
+A new public property [UpdateAmbiguousTextFont](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateAmbiguousTextFont) has been added to the [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) class to control the font selection according to the character code used.
+
 ### Other
 
 * PDF logical structure has been improved with support for TOA, BIBLIOGRAPHY, and INDEX fields. <sup>25.2</sup>
 * The [AddSingleLevelList](https://reference.aspose.com/words/java/com.aspose.words/listcollection/#addSingleLevelList-int) method has been introduced for improved list handling. <sup>25.2</sup>
+* A new property [AttachmentsEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getAttachmentsEmbeddingMode) has been added to replace **EmbedAttachments** to improve PDF attachments' export. Also, new values have been added to the [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) enumeration to support PDF/A version attachments. Additionally, attachments are now supported with encryption. <sup>25.3</sup>
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for Java 25.1 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-1-release-notes/).
 
 Learn more about [Aspose.Words for Java 25.2 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-2-release-notes/).
+
+Learn more about [Aspose.Words for Java 25.3 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-3-release-notes/).
 
 {{% /alert %}}
 
