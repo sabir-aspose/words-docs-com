@@ -46,7 +46,7 @@ Aspose.Words cho Java tính năng có thể chia thành bốn lĩnh vực chính
 
 Khả năng chuyển đổi tài liệu một cách dễ dàng và đáng tin cậy là một trong những tính năng chính của Aspose.Words.
 
-Chuyển đổi [nhập và xuất tài liệu](/từ-khoá/java/load-save-and-convert/) với [hơn 35 định dạng tệp được hỗ trợ](/từ-khoá/java/supported-document-formats/) cho phép người dùng chuyển đổi các tài liệu từ [một định dạng phổ biến](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) sang [một khác](https://reference.aspose.com/words/java/com.aspose.words/saveformat/), ví dụ như từ DOCX sang PDF, JPEG hoặc Markdown.
+Chuyển đổi [nhập và xuất tài liệu](/words/java/load-save-and-convert/) với [hơn 35 định dạng tệp được hỗ trợ](/words/java/supported-document-formats/) cho phép người dùng chuyển đổi các tài liệu từ [một định dạng phổ biến](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) sang [một khác](https://reference.aspose.com/words/java/com.aspose.words/saveformat/), ví dụ như từ DOCX sang PDF, JPEG hoặc Markdown.
 
 #### Document Object Model (DOM)
 

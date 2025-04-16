@@ -26,7 +26,7 @@ Aspose.Words يدعم أنواع مختلفة من الباركود. يتم تم
 
 {{% /alert %}}
 
-عند حفظ تنسيقات "ورد" التي تدعم الباركود، يمكنك استخدام أي نوع من أنواع الباركود هو [supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3). إذا تم تمرير نوع خاطئ من الباركود، سيقوم "ورد" بعرض خطأ.
+عند حفظ تنسيقات "ورد" التي تدعم الباركود، يمكنك استخدام أي نوع من أنواع الباركود هو [supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3-4b44-ae81-f9d3d9e07be3). إذا تم تمرير نوع خاطئ من الباركود، سيقوم "ورد" بعرض خطأ.
 
 عند حفظ إلى تنسيقات أخرى، مثل PDF، Aspose.Words تفويض عرض الشفرة الشريطية للمستخدم التعليمات البرمجية، لذلك يحد المستخدم إلى أنواع الشفرة الشريطية من تنفيذهم أو المكتبة المستخدمة.
 

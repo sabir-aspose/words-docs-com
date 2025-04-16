@@ -56,9 +56,9 @@ Aspose.Words25.2は、AnthropicAIモデルによるテキスト要約を導入�
 
 {{% alert color="primary" %}}
 
-詳細については、こちらをご覧ください [Aspose.WordsのためのPython via .NET 25.1リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+詳細については、こちらをご覧ください [Aspose.WordsのためのPython via .NET 25.1リリースノート](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/).
 
-詳細については、こちらをご覧ください [Aspose.WordsのためのPython via .NET 25.2リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-2-release-notes/).
+詳細については、こちらをご覧ください [Aspose.WordsのためのPython via .NET 25.2リリースノート](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
 {{% /alert %}}
 

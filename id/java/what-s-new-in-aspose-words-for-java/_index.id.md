@@ -56,9 +56,9 @@ Properti [NumberSpacing](https://reference.aspose.com/words/java/com.aspose.word
 
 {{% alert color="primary" %}}
 
-Pelajari lebih lanjut tentang [Aspose.Words untuk Java 25.1 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-1-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Java 25.1 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-1-release-notes/).
 
-Pelajari lebih lanjut tentang [Aspose.Words untuk Java 25.2 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-2-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Java 25.2 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-2-release-notes/).
 
 {{% /alert %}}
 

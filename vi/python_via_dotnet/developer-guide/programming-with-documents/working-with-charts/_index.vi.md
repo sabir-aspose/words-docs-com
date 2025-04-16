@@ -186,7 +186,7 @@ Ví dụ mã sau đây cho biết cách ẩn trục Y của biểu đồ:
 
 ### Cách căn chỉnh nhãn biểu đồ
 
-Nếu bạn muốn đặt căn chỉnh văn bản cho nhãn nhiều dòng, bạn chỉ cần đạt được điều này bằng cách đặt giá trị của thuộc tính [ChartAxis.tick_label_alignment](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/tick_label_alignment/).
+Nếu bạn muốn đặt căn chỉnh văn bản cho nhãn nhiều dòng, bạn chỉ cần đạt được điều này bằng cách đặt giá trị của thuộc tính **ChartAxis.tick_label_alignment**.
 
 Ví dụ mã sau đây cho thấy cách đánh dấu căn chỉnh nhãn:
 

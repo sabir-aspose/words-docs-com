@@ -26,7 +26,7 @@ Aspose.Wordsの機能内でバーコードを操作することは制限され�
 
 {{% /alert %}}
 
-バーコードをサポートするWord形式に保存する場合は、次のような任意のタイプのバーコードを使用できます。 [Microsoft Wordによってサポートされています](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3). 誤った種類のバーコードが渡された場合、Wordはエラーを表示します。
+バーコードをサポートするWord形式に保存する場合は、次のような任意のタイプのバーコードを使用できます。 [Microsoft Wordによってサポートされています](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3-4b44-ae81-f9d3d9e07be3). 誤った種類のバーコードが渡された場合、Wordはエラーを表示します。
 
 PDFなどの他の形式に保存する場合、Aspose.Wordsはバーコードレンダリングをユーザーコードに委譲するため、ユーザーは使用される実装またはライブラリのバーコードタイプに
 

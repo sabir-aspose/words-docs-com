@@ -6,7 +6,7 @@ linktitle: 保存オプションの指定
 description: "保存プロセスをより正確に制御します。"
 type: docs
 weight: 10
-url: /ja/cpp/specify-save-options/
+url: cpp-Loading-and-Saving-
 timestamp: 2024-01-27-14-07-04
 ---
 
@@ -67,7 +67,7 @@ Aspose.Wordsは、[UpdateLastSavedTimeProperty](https://reference.aspose.com/wor
 次のコード例は、このプロパティを設定してドキュメントを保存する方法を示しています:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" 
-"cpp-Loading-And-Saving-WorkingWithOoxml-UpdateLastSavedTimeProperty.cpp">}}
+"cpp-Loading-and-Saving-WorkingWithOoxml-UpdateLastSavedTimeProperty.cpp">}}
 
 ## 白黒画像を1ピクセルあたり1ビットの形式で保存する
 

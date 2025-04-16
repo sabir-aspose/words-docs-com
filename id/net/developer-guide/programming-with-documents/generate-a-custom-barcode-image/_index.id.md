@@ -26,7 +26,7 @@ Karena bekerja dengan barcode dalam fungsionalitas dari Aspose.Words terbatas, p
 
 {{% /alert %}}
 
-Saat menyimpan dalam format Word yang mendukung barcode, anda dapat menggunakan setiap jenis barcode yang adalah [supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3). Jika salah satu jenis barcode yang tidak benar dilewatkan, Word akan menampilkan sebuah kesalahan.
+Saat menyimpan dalam format Word yang mendukung barcode, anda dapat menggunakan setiap jenis barcode yang adalah [supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3-4b44-ae81-f9d3d9e07be3). Jika salah satu jenis barcode yang tidak benar dilewatkan, Word akan menampilkan sebuah kesalahan.
 
 Saat menyimpan dalam format lain seperti PDF, Aspose.Words mendelegasikan rendering barcode ke kode pengguna sehingga pengguna terbatas pada tipe barcode dari implementasi atau perpustakaan yang digunakan.
 

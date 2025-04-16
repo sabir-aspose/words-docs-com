@@ -56,9 +56,9 @@ Proprietatea [number_spacing](https://reference.aspose.com/words/python-net/aspo
 
 {{% alert color="primary" %}}
 
-Aflați mai multe despre [Aspose.Words pentru Python via .NET 25.1 Note De Lansare](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+Aflați mai multe despre [Aspose.Words pentru Python via .NET 25.1 Note De Lansare](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/).
 
-Aflați mai multe despre [Aspose.Words pentru Python via .NET 25.2 Note De Lansare](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-2-release-notes/).
+Aflați mai multe despre [Aspose.Words pentru Python via .NET 25.2 Note De Lansare](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
 {{% /alert %}}
 

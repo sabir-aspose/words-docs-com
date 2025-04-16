@@ -26,7 +26,7 @@ Omdat werken met streepjescodes binnen de functionaliteit van Aspose.Words beper
 
 {{% /alert %}}
 
-Wanneer opslaan naar woordformaten die streepjescodes ondersteunen, kun je elk type streepjescode gebruiken dat [supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3) is. Als een verkeerd type streepjescode werd doorgegeven, zal Word een fout weergeven.
+Wanneer opslaan naar woordformaten die streepjescodes ondersteunen, kun je elk type streepjescode gebruiken dat [supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3-4b44-ae81-f9d3d9e07be3) is. Als een verkeerd type streepjescode werd doorgegeven, zal Word een fout weergeven.
 
 Bij het opslaan in andere formaten, zoals PDF, Aspose.Words delegeert het renderen van barcodes naar de gebruikerscode, zodat de gebruiker beperkt is tot de barcode-typen van hun implementatie of bibliotheek die wordt gebruikt.
 

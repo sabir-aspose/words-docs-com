@@ -52,6 +52,6 @@ Următorul exemplu de cod arată cum să ascundeți axa Y a diagramei:
 
 ## Cum să aliniați eticheta diagramei
 
-Dacă doriți să setați o aliniere a textului pentru etichete cu mai multe linii, puteți realiza acest lucru pur și simplu setând valoarea proprietății [TickLabelAlignment](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxis/get_ticklabelalignment/). Următorul exemplu de cod arată cum să bifați alinierea etichetelor.
+Dacă doriți să setați o aliniere a textului pentru etichete cu mai multe linii, puteți realiza acest lucru pur și simplu setând valoarea proprietății **TickLabelAlignment**. Următorul exemplu de cod arată cum să bifați alinierea etichetelor.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cpp" >}}

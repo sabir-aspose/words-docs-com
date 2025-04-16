@@ -52,6 +52,6 @@ timestamp: 2024-01-27-14-07-04
 
 ## Как да подравните етикета на диаграмата
 
-Ако искате да зададете подравняване на текст за многоредови етикети, можете просто да постигнете това, като зададете стойността на свойството [TickLabelAlignment](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxis/get_ticklabelalignment/). Следващият пример за код показва как да маркирате подравняването на етикета.
+Ако искате да зададете подравняване на текст за многоредови етикети, можете просто да постигнете това, като зададете стойността на свойството **TickLabelAlignment**. Следващият пример за код показва как да маркирате подравняването на етикета.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cpp" >}}

@@ -26,7 +26,7 @@ Aspose.Words 支援各種類型的條碼。 條碼類型是作為一個字串值
 
 {{% /alert %}}
 
-儲存到支援條碼的Word格式時，您可以用任何類型的條碼，它是 [supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3)。 如果傳入字元不正確的條碼，Word 會顯示錯誤訊息。
+儲存到支援條碼的Word格式時，您可以用任何類型的條碼，它是 [supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3-4b44-ae81-f9d3d9e07be3)。 如果傳入字元不正確的條碼，Word 會顯示錯誤訊息。
 
 儲存至其他格式，例如 PDF 時，Aspose.Words 將列印條碼的權限交給使用者程式碼，因此使用者只能使用他們實作或使用的程式庫所支援的條碼類型。
 

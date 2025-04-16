@@ -26,7 +26,7 @@ Od práce s čárovými kódy v rámci funkcí Aspose.Words je omezená, uživat
 
 {{% /alert %}}
 
-Při ukládání do formátů Wordu podporujících kódy, můžete použít jakýkoliv typ kódu, že je [supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3). Pokud byl předán nesprávný typ kódu, Word zobrazí chybu.
+Při ukládání do formátů Wordu podporujících kódy, můžete použít jakýkoliv typ kódu, že je [supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3-4b44-ae81-f9d3d9e07be3). Pokud byl předán nesprávný typ kódu, Word zobrazí chybu.
 
 Při ukládání do jiných formátů, jako je PDF, Aspose.Words deleguje vykreslování čárového kódu na kód uživatele, takže se uživatel omezí na čárové kódy své implementace nebo knihovny použité.
 

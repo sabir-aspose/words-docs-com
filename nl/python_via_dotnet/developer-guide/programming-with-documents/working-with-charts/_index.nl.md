@@ -186,7 +186,7 @@ Het volgende voorbeeld van code laat zien hoe de Y-as van de grafiek te verberge
 
 ### Hoe kaartlabel uitlijnen
 
-Als u een tekstuitlijning voor multi-line labels wilt instellen, kunt u dit gewoon bereiken door de waarde van [ChartAxis.tick_label_alignment](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/tick_label_alignment/) eigendom.
+Als u een tekstuitlijning voor multi-line labels wilt instellen, kunt u dit gewoon bereiken door de waarde van **ChartAxis.tick_label_alignment** eigendom.
 
 Het volgende voorbeeld van code laat zien hoe u label uitlijning aankruist:
 

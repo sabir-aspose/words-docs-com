@@ -52,6 +52,6 @@ Het volgende codevoorbeeld laat zien hoe u de Y-as van de grafiek kunt verbergen
 
 ## Hoe te Chart Label uitlijnen
 
-Als u een tekstuitlijning wilt instellen voor labels met meerdere regels, kunt u dit eenvoudig bereiken door de waarde van de eigenschap [TickLabelAlignment](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxis/get_ticklabelalignment/) in te stellen. Het volgende codevoorbeeld laat zien hoe u labeluitlijning aanvinkt.
+Als u een tekstuitlijning wilt instellen voor labels met meerdere regels, kunt u dit eenvoudig bereiken door de waarde van de eigenschap **TickLabelAlignment** in te stellen. Het volgende codevoorbeeld laat zien hoe u labeluitlijning aanvinkt.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cpp" >}}

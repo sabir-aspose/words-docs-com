@@ -52,6 +52,6 @@ Poniższy przykład kodu pokazuje, jak ukryć oś Y wykresu:
 
 ## Jak wyrównać Etykietę wykresu
 
-Jeśli chcesz ustawić wyrównanie tekstu dla etykiet wielowierszowych, możesz to po prostu osiągnąć, ustawiając wartość właściwości [TickLabelAlignment](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxis/get_ticklabelalignment/). Poniższy przykład kodu pokazuje, jak zaznaczyć wyrównanie etykiet.
+Jeśli chcesz ustawić wyrównanie tekstu dla etykiet wielowierszowych, możesz to po prostu osiągnąć, ustawiając wartość właściwości **TickLabelAlignment**. Poniższy przykład kodu pokazuje, jak zaznaczyć wyrównanie etykiet.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cpp" >}}

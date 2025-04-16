@@ -52,6 +52,6 @@ Die volgende kode voorbeeld toon hoe om die Y-as van die grafiek te verberg:
 
 ## Hoe Om Grafiek Etiket In Lyn Te Bring
 
-As jy'n teks belyning vir multi-lyn etikette wil stel, kan jy dit eenvoudig bereik deur die waarde van die [TickLabelAlignment](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxis/get_ticklabelalignment/) eienskap te stel. Die volgende kode voorbeeld toon hoe om etiket uitlijning te merk.
+As jy'n teks belyning vir multi-lyn etikette wil stel, kan jy dit eenvoudig bereik deur die waarde van die **TickLabelAlignment** eienskap te stel. Die volgende kode voorbeeld toon hoe om etiket uitlijning te merk.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cpp" >}}

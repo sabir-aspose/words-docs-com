@@ -186,7 +186,7 @@ Următorul exemplu de cod arată cum să ascundeți axa Y a diagramei:
 
 ### Cum să aliniați eticheta diagramei
 
-Dacă doriți să setați o aliniere a textului pentru etichete cu mai multe linii, puteți realiza acest lucru pur și simplu setând valoarea proprietății [ChartAxis.tick_label_alignment](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/tick_label_alignment/).
+Dacă doriți să setați o aliniere a textului pentru etichete cu mai multe linii, puteți realiza acest lucru pur și simplu setând valoarea proprietății **ChartAxis.tick_label_alignment**.
 
 Următorul exemplu de cod arată cum să bifați alinierea etichetelor:
 

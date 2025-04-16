@@ -56,9 +56,9 @@ Aspose.Words 25.2 מציג סיכום טקסט עם מודלים אנתרופי�
 
 {{% alert color="primary" %}}
 
-למידע נוסף על [Aspose.Words עבור Java 25.1 הערות שחרור](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-1-release-notes/).
+למידע נוסף על [Aspose.Words עבור Java 25.1 הערות שחרור](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-1-release-notes/).
 
-למידע נוסף על [Aspose.Words עבור Java 25.2 הערות שחרור](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-2-release-notes/).
+למידע נוסף על [Aspose.Words עבור Java 25.2 הערות שחרור](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-2-release-notes/).
 
 {{% /alert %}}
 

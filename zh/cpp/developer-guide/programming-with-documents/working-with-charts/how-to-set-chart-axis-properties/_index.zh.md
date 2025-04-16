@@ -52,6 +52,6 @@ timestamp: 2024-01-27-14-07-04
 
 ## 如何对齐图表标签
 
-如果要为多行标签设置文本对齐方式，可以通过设置[TickLabelAlignment](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxis/get_ticklabelalignment/)属性的值来简单地实现这一点。 下面的代码示例演示如何勾选标签对齐。
+如果要为多行标签设置文本对齐方式，可以通过设置**TickLabelAlignment**属性的值来简单地实现这一点。 下面的代码示例演示如何勾选标签对齐。
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cpp" >}}

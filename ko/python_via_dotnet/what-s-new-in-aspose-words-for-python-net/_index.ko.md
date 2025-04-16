@@ -56,9 +56,9 @@ OpenAI생성 모델을 사용하여 제공된 문서의 문법을 확인하는 �
 
 {{% alert color="primary" %}}
 
-에 대해 자세히 알아보기 [Aspose.WordsPython via .NET25.1릴리스 노트](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+에 대해 자세히 알아보기 [Aspose.WordsPython via .NET25.1릴리스 노트](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/).
 
-에 대해 자세히 알아보기 [Aspose.WordsPython via .NET25.2릴리스 노트](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-2-release-notes/).
+에 대해 자세히 알아보기 [Aspose.WordsPython via .NET25.2릴리스 노트](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
 {{% /alert %}}
 

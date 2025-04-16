@@ -52,6 +52,6 @@ timestamp: 2024-01-27-14-07-04
 
 ## כיצד ליישר תווית תרשים
 
-אם ברצונך להגדיר יישור טקסט עבור תוויות מרובות שורות, תוכל פשוט להשיג זאת על ידי הגדרת הערך של המאפיין [TickLabelAlignment](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxis/get_ticklabelalignment/). דוגמת הקוד הבאה מראה כיצד לסמן יישור תוויות.
+אם ברצונך להגדיר יישור טקסט עבור תוויות מרובות שורות, תוכל פשוט להשיג זאת על ידי הגדרת הערך של המאפיין **TickLabelAlignment**. דוגמת הקוד הבאה מראה כיצד לסמן יישור תוויות.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cpp" >}}

@@ -26,7 +26,7 @@ Aspose.Words支持多种类型的条形码。条形码类型通过字符串值�
 
 {{% /alert %}}
 
-在为支持条形码的ワード格式保存文件时，你可以使用任意类型的条形码，如[supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3)。如果传递了不正确类型的条形码，则Word会显示错误。
+在为支持条形码的ワード格式保存文件时，你可以使用任意类型的条形码，如[supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3-4b44-ae81-f9d3d9e07be3)。如果传递了不正确类型的条形码，则Word会显示错误。
 
 当以其他格式（如PDF）保存，Aspose.Words将条形码渲染委托给用户代码，因此用户只能使用他们使用的实现或库的条形码类型。
 

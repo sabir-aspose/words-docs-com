@@ -52,6 +52,6 @@ timestamp: 2024-01-27-14-07-04
 
 ## كيفية محاذاة تسمية المخطط
 
-إذا كنت ترغب في تعيين محاذاة نص للتسميات متعددة الأسطر، يمكنك ببساطة تحقيق ذلك عن طريق تعيين قيمة الخاصية [TickLabelAlignment](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxis/get_ticklabelalignment/). يوضح مثال التعليمات البرمجية التالية كيفية وضع علامة محاذاة التسمية.
+إذا كنت ترغب في تعيين محاذاة نص للتسميات متعددة الأسطر، يمكنك ببساطة تحقيق ذلك عن طريق تعيين قيمة الخاصية **TickLabelAlignment**. يوضح مثال التعليمات البرمجية التالية كيفية وضع علامة محاذاة التسمية.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cpp" >}}
