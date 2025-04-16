@@ -186,7 +186,7 @@ timestamp: 2024-01-27-14-07-04
 
 ### كيفية محاذاة تسمية المخطط
 
-إذا كنت تريد تعيين محاذاة النص للتسميات متعددة الأسطر، فيمكنك ببساطة تحقيق ذلك عن طريق تعيين قيمة خاصية [ChartAxis.tick_label_alignment](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/tick_label_alignment/).
+إذا كنت تريد تعيين محاذاة النص للتسميات متعددة الأسطر، فيمكنك ببساطة تحقيق ذلك عن طريق تعيين قيمة خاصية **ChartAxis.tick_label_alignment**.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تحديد محاذاة التسمية:
 

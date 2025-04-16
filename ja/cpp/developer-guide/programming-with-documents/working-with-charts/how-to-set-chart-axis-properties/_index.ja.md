@@ -52,6 +52,6 @@ timestamp: 2024-01-27-14-07-04
 
 ## グラフのラベルを揃える方法
 
-複数行のラベルにテキストの配置を設定する場合は、[TickLabelAlignment](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxis/get_ticklabelalignment/)プロパティの値を設定するだけでこれを実現できます。 次のコード例は、ラベルの配置をチェックする方法を示しています。
+複数行のラベルにテキストの配置を設定する場合は、**TickLabelAlignment**プロパティの値を設定するだけでこれを実現できます。 次のコード例は、ラベルの配置をチェックする方法を示しています。
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cpp" >}}

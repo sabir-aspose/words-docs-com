@@ -186,7 +186,7 @@ Das folgende Codebeispiel zeigt, wie Sie die Y-Achse des Diagramms ausblenden:
 
 ### So richten Sie die Diagrammbeschriftung aus
 
-Wenn Sie eine Textausrichtung für mehrzeilige Etiketten festlegen möchten, können Sie dies einfach erreichen, indem Sie den Wert der [ChartAxis.tick_label_alignment](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/tick_label_alignment/)-Eigenschaft festlegen.
+Wenn Sie eine Textausrichtung für mehrzeilige Etiketten festlegen möchten, können Sie dies einfach erreichen, indem Sie den Wert der **ChartAxis.tick_label_alignment**-Eigenschaft festlegen.
 
 Das folgende Codebeispiel zeigt, wie die Beschriftungsausrichtung aktiviert wird:
 

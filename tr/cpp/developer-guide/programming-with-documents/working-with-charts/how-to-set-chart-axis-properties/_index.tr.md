@@ -52,6 +52,6 @@ Aşağıdaki kod örneği, grafiğin Y ekseninin nasıl gizleneceğini gösterir
 
 ## Grafik Etiketi Nasıl Hizalanır
 
-Çok satırlı etiketler için bir metin hizalaması ayarlamak istiyorsanız, bunu [TickLabelAlignment](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxis/get_ticklabelalignment/) özelliğinin değerini ayarlayarak gerçekleştirebilirsiniz. Aşağıdaki kod örneği, etiket hizalamasının nasıl işaretleneceğini gösterir.
+Çok satırlı etiketler için bir metin hizalaması ayarlamak istiyorsanız, bunu **TickLabelAlignment** özelliğinin değerini ayarlayarak gerçekleştirebilirsiniz. Aşağıdaki kod örneği, etiket hizalamasının nasıl işaretleneceğini gösterir.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cpp" >}}

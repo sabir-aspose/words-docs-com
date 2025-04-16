@@ -186,7 +186,7 @@ Contoh kode berikut menunjukkan cara menyembunyikan sumbu Y pada bagan:
 
 ### Cara Menyelaraskan Label Bagan
 
-Jika Anda ingin menyetel perataan teks untuk label multi-baris, Anda cukup melakukannya dengan menyetel nilai properti [ChartAxis.tick_label_alignment](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/tick_label_alignment/).
+Jika Anda ingin menyetel perataan teks untuk label multi-baris, Anda cukup melakukannya dengan menyetel nilai properti **ChartAxis.tick_label_alignment**.
 
 Contoh kode berikut menunjukkan cara mencentang perataan label:
 

@@ -56,9 +56,9 @@ La propriété [NumberSpacing](https://reference.aspose.com/words/java/com.aspos
 
 {{% alert color="primary" %}}
 
-En savoir plus sur [Aspose.Words pour Java 25.1 Notes de version](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-1-release-notes/).
+En savoir plus sur [Aspose.Words pour Java 25.1 Notes de version](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-1-release-notes/).
 
-En savoir plus sur [Aspose.Words pour Java 25.2 Notes de version](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-2-release-notes/).
+En savoir plus sur [Aspose.Words pour Java 25.2 Notes de version](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-2-release-notes/).
 
 {{% /alert %}}
 

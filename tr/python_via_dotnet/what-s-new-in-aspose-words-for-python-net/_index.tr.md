@@ -56,9 +56,9 @@ Geliştirilmiş tipografik kontrol için [number_spacing](https://reference.aspo
 
 {{% alert color="primary" %}}
 
-Hakkında daha fazla bilgi edinin [Aspose.Words için Python via .NET 25.1 Sürüm Notları](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+Hakkında daha fazla bilgi edinin [Aspose.Words için Python via .NET 25.1 Sürüm Notları](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/).
 
-Hakkında daha fazla bilgi edinin [Aspose.Words için Python via .NET 25.2 Sürüm Notları](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-2-release-notes/).
+Hakkında daha fazla bilgi edinin [Aspose.Words için Python via .NET 25.2 Sürüm Notları](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
 {{% /alert %}}
 

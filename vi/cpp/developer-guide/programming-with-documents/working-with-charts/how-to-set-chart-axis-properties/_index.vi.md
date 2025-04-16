@@ -52,6 +52,6 @@ Ví dụ mã sau đây cho thấy cách ẩn trục Y của biểu đồ:
 
 ## Cách Căn Chỉnh Nhãn Biểu Đồ
 
-Nếu bạn muốn đặt căn chỉnh văn bản cho nhãn nhiều dòng, bạn chỉ cần đạt được điều này bằng cách đặt giá trị của thuộc tính [TickLabelAlignment](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxis/get_ticklabelalignment/). Ví dụ mã sau đây cho thấy cách đánh dấu căn chỉnh nhãn.
+Nếu bạn muốn đặt căn chỉnh văn bản cho nhãn nhiều dòng, bạn chỉ cần đạt được điều này bằng cách đặt giá trị của thuộc tính **TickLabelAlignment**. Ví dụ mã sau đây cho thấy cách đánh dấu căn chỉnh nhãn.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cpp" >}}

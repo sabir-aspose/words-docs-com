@@ -26,7 +26,7 @@ Como o trabalho com códigos de barras dentro da funcionalidade de Aspose.Words 
 
 {{% /alert %}}
 
-Ao salvar em formatos do Word que suportam códigos de barras, você pode usar qualquer tipo de código de barras que seja [apoiado por Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3). Se um tipo incorreto de código de barras foi passado, o Word exibirá um erro.
+Ao salvar em formatos do Word que suportam códigos de barras, você pode usar qualquer tipo de código de barras que seja [apoiado por Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3-4b44-ae81-f9d3d9e07be3). Se um tipo incorreto de código de barras foi passado, o Word exibirá um erro.
 
 Ao salvar em outros formatos, como PDF, Aspose.Words delega a renderização do código de barras ao código do usuário, de modo que o usuário está limitado aos tipos de código de barras de sua implementação ou biblioteca usada.
 

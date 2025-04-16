@@ -56,9 +56,9 @@ Die [number_spacing](https://reference.aspose.com/words/python-net/aspose.words/
 
 {{% alert color="primary" %}}
 
-Leer meer oor [Aspose.Words vir Python via .NET 25.1 Vrystelling Notas](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+Leer meer oor [Aspose.Words vir Python via .NET 25.1 Vrystelling Notas](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/).
 
-Leer meer oor [Aspose.Words vir Python via .NET 25.2 Vrystelling Notas](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-2-release-notes/).
+Leer meer oor [Aspose.Words vir Python via .NET 25.2 Vrystelling Notas](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
 {{% /alert %}}
 

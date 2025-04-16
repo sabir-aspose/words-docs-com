@@ -59,7 +59,7 @@ Bảng bên dưới cho biết định dạng tập tin đầu vào và đầu r
 | [`TIFF`](https://docs.fileformat.com/image/tiff/) | Hiển thị trang hoặc các trang của tài liệu và lưu chúng vào một tệp TIFF đơn hoặc đa trang |  | {{< emoticons/tick >}} |  |
 | [`PNG`](https://docs.fileformat.com/image/png/) | Đưa ra một trang của tài liệu và lưu nó dưới dạng tập tin PNG |  | {{< emoticons/tick >}} |  |
 | [`BMP`](https://docs.fileformat.com/image/bmp/) | Đánh giá một trang của tài liệu và lưu nó dưới dạng tệp BMP |  | {{< emoticons/tick >}} |  |
-| [`EMF`](https://docs.fileformat.com/image/mdf/)" | Làm mới trang của tài liệu và lưu nó dưới dạng tập tin EMF (Enhanced Meta File) |  | {< emoticons/tick >}} |  |
+| [`EMF`](https://docs.fileformat.com/image/emf/)" | Làm mới trang của tài liệu và lưu nó dưới dạng tập tin EMF (Enhanced Meta File) |  | {< emoticons/tick >}} |  |
 | [JPEG](https://docs.fileformat.com/image/jpeg/) | Tạo một trang của tài liệu và lưu nó dưới dạng tập tin JPEG |  | {{< emoticons/tick >}} |  |
 | [ GIF ] ( https://docs.fileformat.com/image/gif/ ) | Đánh giá một trang của tài liệu và lưu nó là tập tin GIF |  | {{< emoticons/tick >}} |  |
 | WebP | Định dạng nén hình ảnh của Google |  | {<emoticons/tick >}} |  |

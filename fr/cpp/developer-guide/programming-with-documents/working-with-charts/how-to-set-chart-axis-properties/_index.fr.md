@@ -52,6 +52,6 @@ L'exemple de code suivant montre comment masquer l'axe des ordonnées du graphiq
 
 ## Comment Aligner l'Étiquette du Graphique
 
-Si vous souhaitez définir un alignement de texte pour les étiquettes multilignes,vous pouvez simplement y parvenir en définissant la valeur de la propriété [TickLabelAlignment](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxis/get_ticklabelalignment/). L'exemple de code suivant montre comment cocher l'alignement des étiquettes.
+Si vous souhaitez définir un alignement de texte pour les étiquettes multilignes,vous pouvez simplement y parvenir en définissant la valeur de la propriété **TickLabelAlignment**. L'exemple de code suivant montre comment cocher l'alignement des étiquettes.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cpp" >}}

@@ -26,7 +26,7 @@ Aspose.Words çeşitli türlerde barkodları destekler. Barkod türü [BarcodeTy
 
 {{% /alert %}}
 
-Bir belgeyi, barkodları destekleyen Word biçimlerinde kaydetirken, herhangi bir türde bir barkodu kullanabilirsiniz [supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3). Yanlış bir barkod türü geçirilirse, Word bir hata görüntüleyecektir.
+Bir belgeyi, barkodları destekleyen Word biçimlerinde kaydetirken, herhangi bir türde bir barkodu kullanabilirsiniz [supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3-4b44-ae81-f9d3d9e07be3). Yanlış bir barkod türü geçirilirse, Word bir hata görüntüleyecektir.
 
 Diğer formatlara kaydetme yaparken, PDF gibi Aspose.Words bar kodunuzu kullanıcı koduna devreder, bu nedenle kullanıcı kendi uygulamasından veya kullandıkları kütüphaneden kaynaklanan bar kod türlerine sınırlıdır.
 

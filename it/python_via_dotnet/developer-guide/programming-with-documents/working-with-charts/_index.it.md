@@ -186,7 +186,7 @@ L'esempio di codice seguente mostra come nascondere l'asse Y del grafico:
 
 ### Come allineare l'etichetta del grafico
 
-Se desideri impostare un allineamento del testo per le etichette su più righe, puoi semplicemente ottenerlo impostando il valore della proprietà [ChartAxis.tick_label_alignment](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/tick_label_alignment/).
+Se desideri impostare un allineamento del testo per le etichette su più righe, puoi semplicemente ottenerlo impostando il valore della proprietà **ChartAxis.tick_label_alignment**.
 
 L'esempio di codice seguente mostra come selezionare l'allineamento dell'etichetta:
 

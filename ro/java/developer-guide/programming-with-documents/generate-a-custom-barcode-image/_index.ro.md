@@ -26,7 +26,7 @@ Deoarece lucrul cu coduri de bare în cadrul funcționalității Aspose.Words es
 
 {{% /alert %}}
 
-Când salvați în formate Word care acceptă coduri de bare, puteți utiliza orice tip de cod de bare care este [suportat de Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3). Dacă a fost transmis un tip incorect de cod de bare, Word va afișa o eroare.
+Când salvați în formate Word care acceptă coduri de bare, puteți utiliza orice tip de cod de bare care este [suportat de Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3-4b44-ae81-f9d3d9e07be3). Dacă a fost transmis un tip incorect de cod de bare, Word va afișa o eroare.
 
 Când salvați în alte formate, cum ar fi PDF, Aspose.Words deleagă redarea codurilor de bare codului de utilizator, astfel încât utilizatorul este limitat la tipurile de coduri de bare ale implementării sau bibliotecii utilizate.
 

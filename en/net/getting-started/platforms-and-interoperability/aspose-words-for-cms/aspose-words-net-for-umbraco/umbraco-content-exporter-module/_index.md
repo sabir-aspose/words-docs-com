@@ -47,7 +47,7 @@ You can download Export to Word and Export to PDF modules from one of the follow
 
 Once downloaded, please follow these steps to install this package into your Umbraco website:
 
-1. Log in to the Umbraco **Developer** section, see `https://umbraco.com/umbraco-for-developers/` for details
+1. Log in to the Umbraco **Developer** section, see `https://umbraco.com/training/certified-developers/` for details
 1. From the tree, expand the **Packages** folder.
 1. From here there are two ways to install a package: select **Install local package** or browse the **Umbraco Package Repository.**
 1. If you install **local package**, do not unzip the package but load the zip into Umbraco.
@@ -65,7 +65,7 @@ Once downloaded, please follow these steps to install this package into your Umb
 
 After you have installed the Export to Word macro it is really simple to start using it on your website. Please follow these simple steps to get started:
 
-1. Make sure you are logged-in to Umbraco **Developer** section, see `https://umbraco.com/umbraco-for-developers/` for details
+1. Make sure you are logged-in to Umbraco **Developer** section, see `https://umbraco.com/training/certified-developers/` for details
 1. Click **Settings** in the list of sections in bottom left of the screen.
 1. Expand the **Templates** node and select the template that you want to add the Export to Word feature to, for example Blog post.
 1. Select the position in the selected template where you want to export button to be added. Usually you probably want to add it to the top right of the page, or the bottom of the page.
@@ -79,7 +79,7 @@ You have successfully added Export to Word to the template. A button titled **Ex
 
 After you have installed the Export to Pdf macro it is really simple to start using it on your website. Please follow these simple steps to get started:
 
-1. Make sure you are logged in to the Umbraco **Developer** section, for example <https://umbraco.com/umbraco-for-developers/>
+1. Make sure you are logged in to the Umbraco **Developer** section, for example <https://umbraco.com/training/certified-developers/>
 1. Click **Settings** in the list of sections in  the bottom left of the screen.
 1. Expand the **Templates** node and select the template that you want to add the Export to Pdf feature to, for example Blog post.
 1. Select the position in the selected template where you want to export button to be added. Usually you want to add it to the top right of the page, or the bottom of the page.

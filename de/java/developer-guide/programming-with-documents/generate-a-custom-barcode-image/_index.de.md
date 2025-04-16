@@ -26,7 +26,7 @@ Da die Arbeit mit Barcodes innerhalb der Funktionalität von Aspose.Words einges
 
 {{% /alert %}}
 
-Beim Speichern in Word-Formaten, die Barcodes unterstützen, können Sie jeden beliebigen Barcodetyp verwenden [unterstützt von Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3). Wenn ein falscher Barcode-Typ übergeben wurde, zeigt Word einen Fehler an.
+Beim Speichern in Word-Formaten, die Barcodes unterstützen, können Sie jeden beliebigen Barcodetyp verwenden [unterstützt von Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3-4b44-ae81-f9d3d9e07be3). Wenn ein falscher Barcode-Typ übergeben wurde, zeigt Word einen Fehler an.
 
 Beim Speichern in anderen Formaten, z. B. PDF, delegiert Aspose.Words das Rendern von Barcodes an den Benutzercode, sodass der Benutzer auf die Barcodetypen seiner Implementierung oder Bibliothek beschränkt ist.
 

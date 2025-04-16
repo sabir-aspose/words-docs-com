@@ -15,7 +15,7 @@ Lors de l'enregistrement d'un document, vous pouvez définir certaines propriét
 L'exemple de code suivant montre comment définir les options d'enregistrement avant d'enregistrer le document au format HTML:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" 
-"cpp-Chargement-et-Sauvegarde - SpecifySaveOption - SpecifySaveOption.rpc">}}
+"cpp-Loading-and-Saving-SpecifySaveOption-SpecifySaveOption.cpp">}}
 
 {{% alert color="primary" %}}
 
@@ -34,14 +34,14 @@ Par exemple, lors de l'enregistrement d'un document au format DOC ou DOT, utilis
 L'exemple de code suivant montre comment définir un mot de passe pour chiffrer un document à l'aide de la méthode de chiffrement RC4:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" 
-"cpp-Chargement-et-Sauvegarde - WorkingWithDoc - EncryptDocumentWithPassword.rpc">}}
+"cpp-Loading-and-Saving-WorkingWithDoc-EncryptDocumentWithPassword.cpp">}}
 
 Lors de l'enregistrement d'un document au format ODT, utilisez la propriété [Password](https://reference.aspose.com/words/cpp/aspose.words.saving/odtsaveoptions/get_password/) de la classe [OdtSaveOptions](https://reference.aspose.com/words/cpp/class/aspose.words.saving.odt_save_options).
 
 L'exemple de code suivant montre comment charger et enregistrer OpenDocument crypté avec un mot de passe:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" 
-"Options de chargement et d'enregistrement cpp-Load_Options-LoadAndSaveEncrypted ODT.rpc">}}
+"cpp-Loading-and-Saving-Load_Options-LoadAndSaveEncryptedODT.cpp">}}
 
 Tous les formats ne prennent pas en charge le cryptage et l'utilisation de la propriété **Password**.
 
@@ -58,7 +58,7 @@ Aspose.Words permet d'utiliser la propriété [CreatedTime](https://reference.as
 L'exemple de code suivant montre comment mettre à jour l'heure de création du document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" 
-"cpp-Rendu-Impression - WorkingWithPdfSaveOptions - UpdateIfLastPrinted.rpc">}}
+"cpp-Rendering-Printing-WorkingWithPdfSaveOptions-UpdateIfLastPrinted.cpp">}}
 
 ## Mettre À Jour La Dernière Propriété Enregistrée
 
@@ -67,7 +67,7 @@ Aspose.Words permet d'utiliser la propriété [UpdateLastSavedTimeProperty](http
 L'exemple de code suivant montre comment définir cette propriété et enregistrer le document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" 
-"cpp-Chargement-et-Sauvegarde - WorkingWithOoxml - UpdateLastSavedTimeProperty.rpc">}}
+"cpp-Loading-and-Saving-WorkingWithOoxml-UpdateLastSavedTimeProperty.cpp">}}
 
 ## Enregistrez l'image en Noir et Blanc avec Un Bit Par Format de Pixel
 

@@ -56,9 +56,9 @@ Thuộc tính [number_spacing](https://reference.aspose.com/words/python-net/asp
 
 {{% alert color="primary" %}}
 
-Tìm hiểu thêm về [Aspose.Words cho Python via .NET 25.1 Ghi Chú Phát Hành](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+Tìm hiểu thêm về [Aspose.Words cho Python via .NET 25.1 Ghi Chú Phát Hành](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/).
 
-Tìm hiểu thêm về [Aspose.Words cho Python via .NET 25.2 Ghi Chú Phát Hành](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-2-release-notes/).
+Tìm hiểu thêm về [Aspose.Words cho Python via .NET 25.2 Ghi Chú Phát Hành](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
 {{% /alert %}}
 

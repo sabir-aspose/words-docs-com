@@ -26,7 +26,7 @@ Ponieważ praca z kodami kreskowymi w ramach funkcjonalności Aspose.Words jest 
 
 {{% /alert %}}
 
-Podczas zapisywania do formatu Word obsługującego kody kreskowe możesz użyć dowolnego typu kodu [supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3). Jeśli niepoprawny typ kodu został przekazany, Word wyświetli błąd.
+Podczas zapisywania do formatu Word obsługującego kody kreskowe możesz użyć dowolnego typu kodu [supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3-4b44-ae81-f9d3d9e07be3). Jeśli niepoprawny typ kodu został przekazany, Word wyświetli błąd.
 
 Podczas zapisywania do innych formatów, takich jak PDF, Aspose.Words deleguje renderowanie kodu kreskowego do kodu użytkownika, więc użytkownik jest ograniczony do typów kodów kreskowych swojej implementacji lub biblioteki używaną.
 

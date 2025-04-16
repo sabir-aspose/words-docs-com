@@ -56,9 +56,9 @@ Aspose.Words 25.2 введено обобщение текста с помощь
 
 {{% alert color="primary" %}}
 
-Узнайте больше о [Aspose.Words для Python via .NET 25.1 Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+Узнайте больше о [Aspose.Words для Python via .NET 25.1 Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/).
 
-Узнайте больше о [Aspose.Words для Python via .NET 25.2 Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-2-release-notes/).
+Узнайте больше о [Aspose.Words для Python via .NET 25.2 Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
 {{% /alert %}}
 

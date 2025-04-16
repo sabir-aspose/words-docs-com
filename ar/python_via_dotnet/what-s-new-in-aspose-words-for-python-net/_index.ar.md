@@ -56,9 +56,9 @@ Aspose.Words 25.2 يقدم تلخيصا للنص باستخدام نماذج AI 
 
 {{% alert color="primary" %}}
 
-تعرف على المزيد حول [Aspose.Words لـ Python via .NET 25.1 ملاحظات الإصدار](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+تعرف على المزيد حول [Aspose.Words لـ Python via .NET 25.1 ملاحظات الإصدار](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/).
 
-تعرف على المزيد حول [Aspose.Words ل Python via .NET 25.2 ملاحظات الإصدار](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-2-release-notes/).
+تعرف على المزيد حول [Aspose.Words ل Python via .NET 25.2 ملاحظات الإصدار](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
 {{% /alert %}}
 

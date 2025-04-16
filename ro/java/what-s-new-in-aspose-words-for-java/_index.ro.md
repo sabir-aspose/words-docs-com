@@ -56,9 +56,9 @@ Proprietatea [NumberSpacing](https://reference.aspose.com/words/java/com.aspose.
 
 {{% alert color="primary" %}}
 
-Aflați mai multe despre [Aspose.Words pentru Java 25.1 Note De Lansare](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-1-release-notes/).
+Aflați mai multe despre [Aspose.Words pentru Java 25.1 Note De Lansare](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-1-release-notes/).
 
-Aflați mai multe despre [Aspose.Words pentru Java 25.2 Note De Lansare](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-2-release-notes/).
+Aflați mai multe despre [Aspose.Words pentru Java 25.2 Note De Lansare](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-2-release-notes/).
 
 {{% /alert %}}
 

@@ -26,7 +26,7 @@ Aspose.Words תומך בסוגים שונים של ברקודים. סוג הבר
 
 {{% /alert %}}
 
-כשחוסכים בפורמטים של וורד התומכים בברקודים ניתן להשתמש בכל סוג ברקוד שהוא [supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3) אם סוגי הברקוד הלא נכונים הועברו מ-Word יציג שגיאה.
+כשחוסכים בפורמטים של וורד התומכים בברקודים ניתן להשתמש בכל סוג ברקוד שהוא [supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3-4b44-ae81-f9d3d9e07be3) אם סוגי הברקוד הלא נכונים הועברו מ-Word יציג שגיאה.
 
 כאשר שומרים לפורמטים אחרים, כגון PDF, Aspose.Words מקצים את עיבוד ברקודים לקוד המשתמש, כך שהמשתמש מוגבל לסוגי הברוקוד של היישום או הספרייה שלו.
 
