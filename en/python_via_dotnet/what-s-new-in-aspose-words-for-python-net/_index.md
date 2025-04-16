@@ -7,18 +7,20 @@ type: docs
 description: "Aspose.Words for Python via .NET expands and enhances daily. On this page, you can learn about the huge and most interesting features of the product."
 weight: 10
 url: /python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-03-17-18-02-05
+timestamp: 2025-04-16-07-02-05
 ---
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Python via .NET 25.1, 25.2, 25.3
+## Aspose.Words for Python via .NET 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 introduces AI-powered grammar checking and enhances document saving with advanced options for HTML, SVG, and Markdown formats.
 
 Aspose.Words 25.2 introduces text summarization with Anthropic AI models, adds MsWorks format support, enhances typographic control, and improves PDF structure and list handling.
 
 Aspose.Words 25.3 enhances an AI-powered grammar checker and font selection with the UpdateAmbiguousTextFont property, as well as improves PDF attachments export.
+
+Aspose.Words 25.4 introduces support for new paper sizes, enables advanced HTML export control, and improves watermark handling.
 
 ### AI-powered Features
 
@@ -56,11 +58,20 @@ The [number_spacing](https://reference.aspose.com/words/python-net/aspose.words/
 
 A new public property [update_ambiguous_text_font](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/update_ambiguous_text_font/) has been added to the [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) class to control the font selection according to the character code used.
 
+#### Paper Size Options <sup>25.4</sup>
+
+The ability to use JIS B4 and JIS B5 paper sizes has been introduced by adding new values to the [PaperSize](https://reference.aspose.com/words/python-net/aspose.words/papersize/) enumeration.
+
+#### HTML Output Control <sup>25.4</sup>
+
+The ability to remove JavaScript from hyperlink URLs during HTML export has been introduced by adding the [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/remove_java_script_from_links/) property.
+
 ### Other
 
 * PDF logical structure has been improved with support for TOA, BIBLIOGRAPHY, and INDEX fields. <sup>25.2</sup>
 * The [add_single_level_list](https://reference.aspose.com/words/python-net/aspose.words.lists/listcollection/add_single_level_list/#listtemplate) method has been introduced for improved list handling. <sup>25.2</sup>
 * A new property [attachments_embedding_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/attachments_embedding_mode/) has been added to replace **EmbedAttachments** to improve PDF attachments' export. Also, new values have been added to the [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) enumeration to support PDF/A version attachments. Additionally, attachments are now supported with encryption. <sup>25.3</sup>
+* The ability to set an image watermark from a stream has been introduced by adding a new overload to the [SetImage](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_image/#bytesio_imagewatermarkoptions) method. <sup>25.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -69,6 +80,8 @@ Learn more about [Aspose.Words for Python via .NET 25.1 Release Notes](https://r
 Learn more about [Aspose.Words for Python via .NET 25.2 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
 Learn more about [Aspose.Words for Python via .NET 25.3 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-3-release-notes/).
+
+Learn more about [Aspose.Words for Python via .NET 25.4 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-4-release-notes/).
 
 {{% /alert %}}
 
