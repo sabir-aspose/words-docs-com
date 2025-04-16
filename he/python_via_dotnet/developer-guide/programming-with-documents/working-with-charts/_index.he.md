@@ -186,7 +186,7 @@ The The The [AxisBound](https://reference.aspose.com/words/python-net/aspose.wor
 
 ### איך להגות Align Chart
 
-אם אתה רוצה להגדיר היערכות טקסט עבור תוויות מרובות באינטרנט, אתה יכול פשוט להשיג את זה על ידי הגדרת הערך של [ChartAxis.tick_label_alignment](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/tick_label_alignment/) רכוש.
+אם אתה רוצה להגדיר היערכות טקסט עבור תוויות מרובות באינטרנט, אתה יכול פשוט להשיג את זה על ידי הגדרת הערך של **ChartAxis.tick_label_alignment** רכוש.
 
 הדוגמה הבאה של הקוד מראה כיצד לתכנת תוויות:
 

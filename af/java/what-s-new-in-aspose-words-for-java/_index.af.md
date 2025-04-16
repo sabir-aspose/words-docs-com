@@ -56,9 +56,9 @@ Die [NumberSpacing](https://reference.aspose.com/words/java/com.aspose.words/fon
 
 {{% alert color="primary" %}}
 
-Leer meer oor [Aspose.Words vir Java 25.1 Vrystelling Notas](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-1-release-notes/).
+Leer meer oor [Aspose.Words vir Java 25.1 Vrystelling Notas](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-1-release-notes/).
 
-Leer meer oor [Aspose.Words vir Java 25.2 Vrystelling Notas](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-2-release-notes/).
+Leer meer oor [Aspose.Words vir Java 25.2 Vrystelling Notas](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-2-release-notes/).
 
 {{% /alert %}}
 

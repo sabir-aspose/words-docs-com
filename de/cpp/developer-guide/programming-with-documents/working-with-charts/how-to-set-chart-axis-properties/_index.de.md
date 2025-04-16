@@ -52,6 +52,6 @@ Das folgende Codebeispiel zeigt, wie die Y-Achse des Diagramms ausgeblendet wird
 
 ## So richten Sie die Diagrammbeschriftung aus
 
-Wenn Sie eine Textausrichtung für mehrzeilige Beschriftungen festlegen möchten, können Sie dies einfach erreichen, indem Sie den Wert der Eigenschaft [TickLabelAlignment](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxis/get_ticklabelalignment/) festlegen. Das folgende Codebeispiel zeigt, wie die Etikettenausrichtung angekreuzt wird.
+Wenn Sie eine Textausrichtung für mehrzeilige Beschriftungen festlegen möchten, können Sie dies einfach erreichen, indem Sie den Wert der Eigenschaft **TickLabelAlignment** festlegen. Das folgende Codebeispiel zeigt, wie die Etikettenausrichtung angekreuzt wird.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cpp" >}}

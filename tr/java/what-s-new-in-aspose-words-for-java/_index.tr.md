@@ -56,9 +56,9 @@ Geliştirilmiş tipografik kontrol için [NumberSpacing](https://reference.aspos
 
 {{% alert color="primary" %}}
 
-Hakkında daha fazla bilgi edinin [Aspose.Words için Java 25.1 Sürüm Notları](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-1-release-notes/).
+Hakkında daha fazla bilgi edinin [Aspose.Words için Java 25.1 Sürüm Notları](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-1-release-notes/).
 
-Hakkında daha fazla bilgi edinin [Aspose.Words için Java 25.2 Sürüm Notları](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-2-release-notes/).
+Hakkında daha fazla bilgi edinin [Aspose.Words için Java 25.2 Sürüm Notları](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-2-release-notes/).
 
 {{% /alert %}}
 

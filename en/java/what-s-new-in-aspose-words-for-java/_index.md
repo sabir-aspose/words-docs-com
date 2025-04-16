@@ -64,9 +64,9 @@ A new public property [UpdateAmbiguousTextFont](https://reference.aspose.com/wor
 
 {{% alert color="primary" %}}
 
-Learn more about [Aspose.Words for Java 25.1 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-1-release-notes/).
+Learn more about [Aspose.Words for Java 25.1 Release Notes](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-1-release-notes/).
 
-Learn more about [Aspose.Words for Java 25.2 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-2-release-notes/).
+Learn more about [Aspose.Words for Java 25.2 Release Notes](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-2-release-notes/).
 
 Learn more about [Aspose.Words for Java 25.3 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-3-release-notes/).
 

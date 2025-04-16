@@ -56,9 +56,9 @@ Aspose.Words 25.2 въвежда обобщаване на текст с Ант�
 
 {{% alert color="primary" %}}
 
-Научете повече за [Aspose.Words за Python via .NET 25.1 Бележки За Издаване](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+Научете повече за [Aspose.Words за Python via .NET 25.1 Бележки За Издаване](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/).
 
-Научете повече за [Aspose.Words за Python via .NET 25.2 Бележки За Издаване](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-2-release-notes/).
+Научете повече за [Aspose.Words за Python via .NET 25.2 Бележки За Издаване](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
 {{% /alert %}}
 

@@ -15,7 +15,7 @@ Al guardar un documento, puede establecer algunas propiedades avanzadas. Aspose.
 El siguiente ejemplo de código muestra cómo configurar las opciones de guardado antes de guardar el documento en HTML:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" 
-"cpp-Cargando-y-Guardando-SpecifySaveOption-SpecifySaveOption.cpp">}}
+"cpp-Loading-and-Saving-SpecifySaveOption-SpecifySaveOption.cpp">}}
 
 {{% alert color="primary" %}}
 
@@ -34,7 +34,7 @@ Por ejemplo, al guardar un documento en formato DOC o DOT, use la propiedad [Pas
 El siguiente ejemplo de código muestra cómo establecer una contraseña para cifrar un documento utilizando el método de cifrado RC4:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" 
-"cpp-Cargando-y-Guardando-WorkingWithDoc-EncryptDocumentWithPassword.cpp">}}
+"cpp-Loading-and-Saving-WorkingWithDoc-EncryptDocumentWithPassword.cpp">}}
 
 Al guardar un documento en formato ODT, use la propiedad [Password](https://reference.aspose.com/words/cpp/aspose.words.saving/odtsaveoptions/get_password/) de la clase [OdtSaveOptions](https://reference.aspose.com/words/cpp/class/aspose.words.saving.odt_save_options).
 
@@ -67,7 +67,7 @@ Aspose.Words proporciona la capacidad de usar la propiedad [UpdateLastSavedTimeP
 El siguiente ejemplo de código muestra cómo establecer esta propiedad y guardar el documento:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" 
-"cpp-Cargando-y-Guardando-WorkingWithOoxml-UpdateLastSavedTimeProperty.cpp">}}
+"cpp-Loading-and-Saving-WorkingWithOoxml-UpdateLastSavedTimeProperty.cpp">}}
 
 ## Guarde la Imagen en Blanco y Negro con un Formato de Bit Por Píxel
 

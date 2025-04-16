@@ -52,6 +52,6 @@ timestamp: 2024-01-27-14-07-04
 
 ## Как выровнять метку диаграммы
 
-Если вы хотите настроить выравнивание текста для многострочных надписей, вы можете просто добиться этого, установив значение свойства [TickLabelAlignment](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxis/get_ticklabelalignment/). В следующем примере кода показано, как установить флажок выравнивания надписей.
+Если вы хотите настроить выравнивание текста для многострочных надписей, вы можете просто добиться этого, установив значение свойства **TickLabelAlignment**. В следующем примере кода показано, как установить флажок выравнивания надписей.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cpp" >}}

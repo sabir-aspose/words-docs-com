@@ -56,9 +56,9 @@ Aspose.Words 25.2 خلاصه متن را با مدل های Anthropic AI معر�
 
 {{% alert color="primary" %}}
 
-اطلاعات بیشتر در مورد [Aspose.Words برای Java 25.1 یادداشت های انتشار](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-1-release-notes/).
+اطلاعات بیشتر در مورد [Aspose.Words برای Java 25.1 یادداشت های انتشار](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-1-release-notes/).
 
-اطلاعات بیشتر در مورد [Aspose.Words برای Java 25.2 یادداشت های انتشار](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-2-release-notes/).
+اطلاعات بیشتر در مورد [Aspose.Words برای Java 25.2 یادداشت های انتشار](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-2-release-notes/).
 
 {{% /alert %}}
 

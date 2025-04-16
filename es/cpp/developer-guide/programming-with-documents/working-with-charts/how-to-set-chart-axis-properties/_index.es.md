@@ -52,6 +52,6 @@ El siguiente ejemplo de código muestra cómo ocultar el eje Y del gráfico:
 
 ## Cómo Alinear la Etiqueta del Gráfico
 
-Si desea establecer una alineación de texto para etiquetas multilínea, simplemente puede lograrlo estableciendo el valor de la propiedad [TickLabelAlignment](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxis/get_ticklabelalignment/). El siguiente ejemplo de código muestra cómo marcar la alineación de la etiqueta.
+Si desea establecer una alineación de texto para etiquetas multilínea, simplemente puede lograrlo estableciendo el valor de la propiedad **TickLabelAlignment**. El siguiente ejemplo de código muestra cómo marcar la alineación de la etiqueta.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cpp" >}}

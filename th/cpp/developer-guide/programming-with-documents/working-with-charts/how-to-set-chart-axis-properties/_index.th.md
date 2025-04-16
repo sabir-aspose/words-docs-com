@@ -52,6 +52,6 @@ timestamp: 2024-01-27-14-07-04
 
 ## วิธีการจัดแนวป้ายชื่อแผนภูมิ
 
-หากต้องการตั้งค่าการจัดตำแหน่งข้อความสำหรับป้ายชื่อหลายบรรทัด คุณสามารถทำได้ง่ายๆ โดยตั้งค่าคุณสมบัติ [TickLabelAlignment](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxis/get_ticklabelalignment/) ตัวอย่างโค้ดต่อไปนี้จะแสดงวิธีการเลือกการจัดตำแหน่งป้ายชื่อ.
+หากต้องการตั้งค่าการจัดตำแหน่งข้อความสำหรับป้ายชื่อหลายบรรทัด คุณสามารถทำได้ง่ายๆ โดยตั้งค่าคุณสมบัติ **TickLabelAlignment** ตัวอย่างโค้ดต่อไปนี้จะแสดงวิธีการเลือกการจัดตำแหน่งป้ายชื่อ.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cpp" >}}

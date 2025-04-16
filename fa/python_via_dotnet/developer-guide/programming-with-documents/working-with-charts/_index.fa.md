@@ -186,7 +186,7 @@ timestamp: 2024-01-27-14-07-04
 
 ### نحوه تراز کردن برچسب نمودار
 
-اگر می‌خواهید یک هم‌ترازی متن برای برچسب‌های چند خطی تنظیم کنید، می‌توانید به سادگی با تنظیم مقدار ویژگی [ChartAxis.tick_label_alignment](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/tick_label_alignment/) به این هدف برسید.
+اگر می‌خواهید یک هم‌ترازی متن برای برچسب‌های چند خطی تنظیم کنید، می‌توانید به سادگی با تنظیم مقدار ویژگی **ChartAxis.tick_label_alignment** به این هدف برسید.
 
 مثال کد زیر نحوه تیک زدن تراز برچسب را نشان می دهد:
 

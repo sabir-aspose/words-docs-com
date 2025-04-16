@@ -26,7 +26,7 @@ Aspose.Words의 기능 내에서 바코드로 작업하는 것은 제한되어 �
 
 {{% /alert %}}
 
-바코드를 지원하는 단어 형식으로 저장할 때,당신은 바코드의 모든 유형을 사용할 수 있습니다 [지원Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3). 바코드의 잘못된 유형이 전달 된 경우,워드 오류가 표시됩니다.
+바코드를 지원하는 단어 형식으로 저장할 때,당신은 바코드의 모든 유형을 사용할 수 있습니다 [지원Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3-4b44-ae81-f9d3d9e07be3). 바코드의 잘못된 유형이 전달 된 경우,워드 오류가 표시됩니다.
 
 PDF와 같은 다른 형식으로 저장할 때Aspose.Words은 바코드 렌더링을 사용자 코드에 위임하므로 사용자는 사용 된 구현 또는 라이브러리의 바코드 유형으로 제한됩니다.
 

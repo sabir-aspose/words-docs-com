@@ -144,12 +144,12 @@ Foi adicionada uma nova opção **RemoveEmptyTables** à enumeração [MailMerge
 
 #### Assinar documentos com XAdES-EPES <sup>24.9</sup>
 
-A capacidade de assinar documentos com assinaturas XML-DSig de nível XAdES-EPES foi introduzida pela adição de uma nova propriedade pública [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevellevel/) e uma nova enumeração pública [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsigleve/).
+A capacidade de assinar documentos com assinaturas XML-DSig de nível XAdES-EPES foi introduzida pela adição de uma nova propriedade pública [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) e uma nova enumeração pública [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/).
 
 ### Outro
 
-* Um novo método público [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inertgroupshape/) foi adicionado a formas de grupo. <sup>24.9</sup>
-* Um novo método público [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserstruturddocumenttag/) foi adicionado para inserir **StructuredDocumentTags** num documento. <sup>24.9</sup>
+* Um novo método público [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) foi adicionado a formas de grupo. <sup>24.9</sup>
+* Um novo método público [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) foi adicionado para inserir **StructuredDocumentTags** num documento. <sup>24.9</sup>
 * O acesso público aos separadores de notas de rodapé/nota final foi fornecido pela adição de algumas classes e propriedades públicas. <sup>24.9</sup>
 * A capacidade de agrupar formas individuais, agrupar formas e agrupar directamente formas e formas de grupo foi introduzida adicionando o método [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1). <sup>24.10</sup>
 * O manuseamento da codificação Big5 para tabelas cmap TrueType foi melhorado. <sup>24.10</sup>

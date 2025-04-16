@@ -56,9 +56,9 @@ Aspose.Words25.2使用AnthropicAI模型引入文本摘要，添加MsWorks格式�
 
 {{% alert color="primary" %}}
 
-了解更多关于 [Aspose.Words为Python via .NET 25.1发行说明](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+了解更多关于 [Aspose.Words为Python via .NET 25.1发行说明](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/).
 
-了解更多关于 [Aspose.Words为Python via .NET 25.2发行说明](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-2-release-notes/).
+了解更多关于 [Aspose.Words为Python via .NET 25.2发行说明](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
 {{% /alert %}}
 

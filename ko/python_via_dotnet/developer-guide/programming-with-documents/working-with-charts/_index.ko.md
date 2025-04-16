@@ -186,7 +186,7 @@ timestamp: 2024-01-27-14-07-04
 
 ### 차트 레이블을 정렬하는 방법
 
-여러 줄 레이블에 대한 텍스트 정렬을 설정하려면 [ChartAxis.tick_label_alignment](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/tick_label_alignment/) 속성 값을 설정하면 됩니다.
+여러 줄 레이블에 대한 텍스트 정렬을 설정하려면 **ChartAxis.tick_label_alignment** 속성 값을 설정하면 됩니다.
 
 다음 코드 예제에서는 레이블 정렬을 선택하는 방법을 보여줍니다
 
