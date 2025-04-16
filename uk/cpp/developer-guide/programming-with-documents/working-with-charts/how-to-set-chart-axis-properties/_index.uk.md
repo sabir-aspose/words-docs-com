@@ -52,6 +52,6 @@ timestamp: 2024-01-27-14-07-04
 
 ## Як вирівняти мітку діаграми
 
-Якщо ви хочете налаштувати вирівнювання тексту для багаторядкових міток, ви можете просто досягти цього, встановивши значення властивості [TickLabelAlignment](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxis/get_ticklabelalignment/). У наступному прикладі коду показано, як встановити прапорець вирівнювання написів.
+Якщо ви хочете налаштувати вирівнювання тексту для багаторядкових міток, ви можете просто досягти цього, встановивши значення властивості **TickLabelAlignment**. У наступному прикладі коду показано, як встановити прапорець вирівнювання написів.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cpp" >}}

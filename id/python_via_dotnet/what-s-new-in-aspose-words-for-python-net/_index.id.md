@@ -56,9 +56,9 @@ Properti [number_spacing](https://reference.aspose.com/words/python-net/aspose.w
 
 {{% alert color="primary" %}}
 
-Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 25.1 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 25.1 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/).
 
-Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 25.2 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-2-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 25.2 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
 {{% /alert %}}
 

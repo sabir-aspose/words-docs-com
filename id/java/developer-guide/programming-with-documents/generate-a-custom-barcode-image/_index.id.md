@@ -26,7 +26,7 @@ Karena bekerja dengan kode batang dalam fungsionalitas Aspose.Words terbatas, pe
 
 {{% /alert %}}
 
-Saat menyimpan ke format Word yang mendukung kode batang, Anda dapat menggunakan semua jenis kode batang yang didukung [diambil oleh Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3). Jika jenis kode batang yang diteruskan salah, Word akan menampilkan kesalahan.
+Saat menyimpan ke format Word yang mendukung kode batang, Anda dapat menggunakan semua jenis kode batang yang didukung [diambil oleh Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3-4b44-ae81-f9d3d9e07be3). Jika jenis kode batang yang diteruskan salah, Word akan menampilkan kesalahan.
 
 Saat menyimpan ke format lain, seperti PDF, Aspose.Words mendelegasikan rendering kode batang ke kode pengguna, sehingga pengguna dibatasi pada jenis kode batang dari implementasi atau pustaka yang digunakan.
 

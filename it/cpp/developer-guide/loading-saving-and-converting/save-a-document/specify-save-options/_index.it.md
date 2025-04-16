@@ -15,7 +15,7 @@ Quando si salva un documento, è possibile impostare alcune proprietà avanzate.
 Il seguente esempio di codice mostra come impostare le opzioni di salvataggio prima di salvare il documento in HTML:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" 
-"cpp-Caricamento-e-Salvataggio-SpecifySaveOption - SpecifySaveOption.cpp">}}
+"cpp-Loading-and-Saving-SpecifySaveOption-SpecifySaveOption.cpp">}}
 
 {{% alert color="primary" %}}
 
@@ -34,14 +34,14 @@ Ad esempio, quando si salva un documento nel formato DOC o DOT, utilizzare la pr
 Il seguente esempio di codice mostra come impostare una password per crittografare un documento utilizzando il metodo di crittografia RC4:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" 
-"cpp-Loading-and-Saving - WorkingWithDoc - EncryptDocumentWithPassword.cpp">}}
+"cpp-Loading-and-Saving-WorkingWithDoc-EncryptDocumentWithPassword.cpp">}}
 
 Quando si salva un documento nel formato ODT, utilizzare la proprietà [Password](https://reference.aspose.com/words/cpp/aspose.words.saving/odtsaveoptions/get_password/) della classe [OdtSaveOptions](https://reference.aspose.com/words/cpp/class/aspose.words.saving.odt_save_options).
 
 Il seguente esempio di codice mostra come caricare e salvare OpenDocument crittografato con una password:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" 
-"cpp-Loading-and-Saving-Load_Options-LoadAndSaveEncrypted ODT.cpp">}}
+"cpp-Loading-and-Saving-Load_Options-LoadAndSaveEncryptedODT.cpp">}}
 
 Non tutti i formati supportano la crittografia e l'uso della proprietà **Password**.
 
@@ -58,7 +58,7 @@ Aspose.Words fornisce la possibilità di utilizzare la proprietà [CreatedTime](
 Il seguente esempio di codice mostra come aggiornare il tempo di creazione del documento:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" 
-"cpp-Rendering-Stampa-WorkingWithPdfSaveOptions - UpdateIfLastPrinted.cpp">}}
+"cpp-Rendering-Printing-WorkingWithPdfSaveOptions-UpdateIfLastPrinted.cpp">}}
 
 ## Aggiorna l'ultima proprietà salvata
 
@@ -67,7 +67,7 @@ Aspose.Words fornisce la possibilità di utilizzare la proprietà [UpdateLastSav
 L'esempio di codice seguente mostra come impostare questa proprietà e salvare il documento:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" 
-"cpp-Loading-and-Saving - WorkingWithOoxml - UpdateLastSavedTimeProperty.cpp">}}
+"cpp-Loading-and-Saving-WorkingWithOoxml-UpdateLastSavedTimeProperty.cpp">}}
 
 ## Salva l'immagine in bianco e nero con un bit per pixel
 

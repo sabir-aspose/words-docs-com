@@ -26,7 +26,7 @@ Microsoft Word מאפשר למשתמשים להטביע ברקודים ישיר�
 
 {{% /alert %}}
 
-כאשר שומרים בפורמטים של וורד התומכים בברקודים, ניתן להשתמש בכל סוג ברקוד שמתאים ל-[supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3). אם סופק סוג שגוי של ברקוד, וורד יציג הודעת שגיאה.
+כאשר שומרים בפורמטים של וורד התומכים בברקודים, ניתן להשתמש בכל סוג ברקוד שמתאים ל-[supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3-4b44-ae81-f9d3d9e07be3). אם סופק סוג שגוי של ברקוד, וורד יציג הודעת שגיאה.
 
 כאשר שומרים לפורמטים אחרים, כגון PDF, Aspose.Words מעביר את הדמיית הבר-קוד לקוד המשתמש, כך שהמשתמש מוגבל לסוגי הבר-קוד של היישום או הספרייה בהם משתמש.
 

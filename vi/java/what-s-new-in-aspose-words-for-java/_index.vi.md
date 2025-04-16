@@ -56,9 +56,9 @@ Thuộc tính [NumberSpacing](https://reference.aspose.com/words/java/com.aspose
 
 {{% alert color="primary" %}}
 
-Tìm hiểu thêm về [Aspose.Words cho Java 25.1 Ghi Chú Phát Hành](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-1-release-notes/).
+Tìm hiểu thêm về [Aspose.Words cho Java 25.1 Ghi Chú Phát Hành](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-1-release-notes/).
 
-Tìm hiểu thêm về [Aspose.Words cho Java 25.2 Ghi Chú Phát Hành](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-2-release-notes/).
+Tìm hiểu thêm về [Aspose.Words cho Java 25.2 Ghi Chú Phát Hành](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-2-release-notes/).
 
 {{% /alert %}}
 

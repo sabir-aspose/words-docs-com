@@ -56,9 +56,9 @@ A propriedade [number_spacing](https://reference.aspose.com/words/python-net/asp
 
 {{% alert color="primary" %}}
 
-Saiba mais sobre [Aspose.Words para Python via .NET 25.1 Notas De Lançamento](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+Saiba mais sobre [Aspose.Words para Python via .NET 25.1 Notas De Lançamento](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/).
 
-Saiba mais sobre [Aspose.Words para Python via .NET 25.2 Notas De Lançamento](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-2-release-notes/).
+Saiba mais sobre [Aspose.Words para Python via .NET 25.2 Notas De Lançamento](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
 {{% /alert %}}
 

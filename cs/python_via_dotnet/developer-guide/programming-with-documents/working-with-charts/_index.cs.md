@@ -186,7 +186,7 @@ Následující příklad kódu ukazuje, jak skrýt osu Y grafu:
 
 ### Jak zarovnat štítek grafu
 
-Pokud chcete nastavit nastavení textu pro víceřádkové etikety, můžete toho jednoduše dosáhnout nastavením hodnoty [ChartAxis.tick_label_alignment](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/tick_label_alignment/) majetek.
+Pokud chcete nastavit nastavení textu pro víceřádkové etikety, můžete toho jednoduše dosáhnout nastavením hodnoty **ChartAxis.tick_label_alignment** majetek.
 
 Následující příklad kódu ukazuje, jak zaškrtnout zarovnání štítků:
 

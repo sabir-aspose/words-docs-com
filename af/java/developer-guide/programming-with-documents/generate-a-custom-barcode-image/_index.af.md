@@ -26,7 +26,7 @@ Aangesien die werk met strepieskode binne die funksionaliteit van Aspose.Words b
 
 {{% /alert %}}
 
-Wanneer jy stoor Na Woordformate wat strepieskode ondersteun, kan jy enige tipe strepieskode gebruik wat is [ondersteun deur Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3). As'n verkeerde tipe strepieskode geslaag is, sal Word'n fout vertoon.
+Wanneer jy stoor Na Woordformate wat strepieskode ondersteun, kan jy enige tipe strepieskode gebruik wat is [ondersteun deur Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3-4b44-ae81-f9d3d9e07be3). As'n verkeerde tipe strepieskode geslaag is, sal Word'n fout vertoon.
 
 Wanneer stoor na ander formate, soos PDF, Aspose.Words delegeer barcode weergawe aan die gebruiker kode, sodat die gebruiker is beperk tot die barcode tipes van hul implementering of biblioteek gebruik.
 

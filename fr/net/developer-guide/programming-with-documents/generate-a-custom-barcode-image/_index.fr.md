@@ -26,7 +26,7 @@ Aspose.Words prend en charge divers types de codes-barres. Le type de code-barre
 
 {{% /alert %}}
 
-Lors de l'enregistrement dans des formats Word qui prennent en charge les codes-barres, vous pouvez utiliser tout type de code-barre qui est [supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3). Si un mauvais type de code-barre a été passé, Word affichera une erreur.
+Lors de l'enregistrement dans des formats Word qui prennent en charge les codes-barres, vous pouvez utiliser tout type de code-barre qui est [supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3-4b44-ae81-f9d3d9e07be3). Si un mauvais type de code-barre a été passé, Word affichera une erreur.
 
 Lorsqu'ils sont enregistrés dans d'autres formats comme PDF, Aspose.Words délègue la rendu du code-barres au code utilisateur, de sorte que l'utilisateur est limité aux types de code-barres de leur implémentation ou bibliothèque utilisée.
 

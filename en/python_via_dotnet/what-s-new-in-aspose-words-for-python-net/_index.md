@@ -75,11 +75,11 @@ The ability to remove JavaScript from hyperlink URLs during HTML export has been
 
 {{% alert color="primary" %}}
 
-Learn more about [Aspose.Words for Python via .NET 25.1 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+Learn more about [Aspose.Words for Python via .NET 25.1 Release Notes](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/).
 
-Learn more about [Aspose.Words for Python via .NET 25.2 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-2-release-notes/).
+Learn more about [Aspose.Words for Python via .NET 25.2 Release Notes](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
-Learn more about [Aspose.Words for Python via .NET 25.3 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-3-release-notes/).
+Learn more about [Aspose.Words for Python via .NET 25.3 Release Notes](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-3-release-notes/).
 
 Learn more about [Aspose.Words for Python via .NET 25.4 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-4-release-notes/).
 

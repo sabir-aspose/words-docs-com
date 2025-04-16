@@ -26,7 +26,7 @@ Since working with barcodes within the functionality of Aspose.Words is limited,
 
 {{% /alert %}}
 
-When saving to Word formats that support barcodes, you can use any type of barcode that is [supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3). If an incorrect type of barcode was passed, Word will display an error.
+When saving to Word formats that support barcodes, you can use any type of barcode that is [supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3-4b44-ae81-f9d3d9e07be3). If an incorrect type of barcode was passed, Word will display an error.
 
 When saving to other formats, such as PDF, Aspose.Words delegates barcode rendering to the user code, so the user is limited to the barcode types of their implementation or library used.
 

@@ -56,9 +56,9 @@ Vlastnost [NumberSpacing](https://reference.aspose.com/words/java/com.aspose.wor
 
 {{% alert color="primary" %}}
 
-Další informace o [Aspose.Words Pro Java 25.1 Poznámky K Vydání](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-1-release-notes/).
+Další informace o [Aspose.Words Pro Java 25.1 Poznámky K Vydání](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-1-release-notes/).
 
-Další informace o [Aspose.Words pro Java 25.2 Poznámky K Vydání](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-2-release-notes/).
+Další informace o [Aspose.Words pro Java 25.2 Poznámky K Vydání](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-2-release-notes/).
 
 {{% /alert %}}
 

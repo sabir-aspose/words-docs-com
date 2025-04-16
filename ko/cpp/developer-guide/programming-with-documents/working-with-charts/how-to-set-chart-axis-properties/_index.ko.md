@@ -52,6 +52,6 @@ timestamp: 2024-01-27-14-07-04
 
 ## 차트 레이블을 정렬하는 방법
 
-여러 줄 레이블에 대한 텍스트 정렬을 설정하려면 이 값을 설정하면 됩니다 [TickLabelAlignment](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxis/get_ticklabelalignment/) 재산. 다음 코드 예제에서는 레이블 정렬을 체크하는 방법을 보여 줍니다.
+여러 줄 레이블에 대한 텍스트 정렬을 설정하려면 이 값을 설정하면 됩니다 **TickLabelAlignment** 재산. 다음 코드 예제에서는 레이블 정렬을 체크하는 방법을 보여 줍니다.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cpp" >}}

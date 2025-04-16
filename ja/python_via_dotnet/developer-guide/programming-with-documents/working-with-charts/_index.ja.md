@@ -186,7 +186,7 @@ timestamp: 2024-01-27-14-07-04
 
 ### グラフのラベルを揃える方法
 
-複数行ラベルのテキスト配置を設定したい場合は、[ChartAxis.tick_label_alignment](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/tick_label_alignment/) プロパティの値を設定するだけでこれを実現できます。
+複数行ラベルのテキスト配置を設定したい場合は、**ChartAxis.tick_label_alignment** プロパティの値を設定するだけでこれを実現できます。
 
 次のコード例は、ラベルの配置をチェックする方法を示しています。
 

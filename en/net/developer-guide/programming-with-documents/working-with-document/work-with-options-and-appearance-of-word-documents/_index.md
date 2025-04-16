@@ -61,7 +61,7 @@ If your Aspose.Words generated document does not look as expected, check the **L
 
 The following code example shows how to add Japanese to editing languages:
 
-{{< gist "aspose-com-gists" "40be8275fc43f78f5e5877212e4e1bf3" "add-editing-language.cs" >}}
+{{< gist "aspose-words-gists" "40be8275fc43f78f5e5877212e4e1bf3" "add-editing-language.cs" >}}
 
 The following code example shows how to set Russian as the default editing language:
 

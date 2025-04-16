@@ -52,6 +52,6 @@ Následující příklad kódu ukazuje, jak skrýt osu Y grafu:
 
 ## Jak zarovnat štítek grafu
 
-Pokud chcete nastavit zarovnání textu pro víceřádkové štítky, můžete toho jednoduše dosáhnout nastavením hodnoty vlastnosti [TickLabelAlignment](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxis/get_ticklabelalignment/). Následující příklad kódu ukazuje, jak zaškrtnout zarovnání štítků.
+Pokud chcete nastavit zarovnání textu pro víceřádkové štítky, můžete toho jednoduše dosáhnout nastavením hodnoty vlastnosti **TickLabelAlignment**. Následující příklad kódu ukazuje, jak zaškrtnout zarovnání štítků.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cpp" >}}

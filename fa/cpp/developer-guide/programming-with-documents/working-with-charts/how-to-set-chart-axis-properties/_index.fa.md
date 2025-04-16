@@ -52,6 +52,6 @@ timestamp: 2024-01-27-14-07-04
 
 ## چگونه برچسب نمودار را تراز کنیم
 
-اگر می خواهید یک تراز متن برای برچسب های چند خطی تنظیم کنید، می توانید به سادگی با تنظیم مقدار ویژگی [TickLabelAlignment](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxis/get_ticklabelalignment/) به این هدف برسید. مثال کد زیر نشان می دهد که چگونه تراز برچسب را تیک بزنید.
+اگر می خواهید یک تراز متن برای برچسب های چند خطی تنظیم کنید، می توانید به سادگی با تنظیم مقدار ویژگی **TickLabelAlignment** به این هدف برسید. مثال کد زیر نشان می دهد که چگونه تراز برچسب را تیک بزنید.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cpp" >}}

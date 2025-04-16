@@ -186,7 +186,7 @@ timestamp: 2024-01-27-14-07-04
 
 ### 如何对齐图表标签
 
-如果要设置多行标签的文本对齐方式，只需设置 [ChartAxis.tick_label_alignment](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/tick_label_alignment/) 属性的值即可实现。
+如果要设置多行标签的文本对齐方式，只需设置 **ChartAxis.tick_label_alignment** 属性的值即可实现。
 
 以下代码示例展示了如何勾选标签对齐：
 

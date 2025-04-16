@@ -26,7 +26,7 @@ Poiché il lavoro con i codici a barre all'interno della funzionalità di Aspose
 
 {{% /alert %}}
 
-Quando si salva in formati Word che supportano i codici a barre, è possibile utilizzare qualsiasi tipo di codice a barre [supportato da Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3). Se è stato passato un tipo di codice a barre errato, Word visualizzerà un errore.
+Quando si salva in formati Word che supportano i codici a barre, è possibile utilizzare qualsiasi tipo di codice a barre [supportato da Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3-4b44-ae81-f9d3d9e07be3). Se è stato passato un tipo di codice a barre errato, Word visualizzerà un errore.
 
 Quando si salva in altri formati, ad esempio PDF, Aspose.Words delega il rendering del codice a barre al codice utente, in modo che l'utente sia limitato ai tipi di codice a barre della loro implementazione o libreria utilizzata.
 

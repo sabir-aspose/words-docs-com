@@ -186,7 +186,7 @@ Poniższy przykład kodu pokazuje, jak ukryć oś Y wykresu:
 
 ### Jak wyrównać etykietę wykresu
 
-Jeśli chcesz ustawić wyrównanie tekstu dla etykiet wielowierszowych, możesz to po prostu osiągnąć, ustawiając wartość właściwości [ChartAxis.tick_label_alignment](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/tick_label_alignment/).
+Jeśli chcesz ustawić wyrównanie tekstu dla etykiet wielowierszowych, możesz to po prostu osiągnąć, ustawiając wartość właściwości **ChartAxis.tick_label_alignment**.
 
 Poniższy przykład kodu pokazuje, jak zaznaczyć wyrównanie etykiet:
 

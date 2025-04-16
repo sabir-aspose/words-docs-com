@@ -56,9 +56,9 @@ Aspose.Words 25.2 يقدم تلخيصا للنص باستخدام نماذج AI 
 
 {{% alert color="primary" %}}
 
-تعرف على المزيد حول [Aspose.Words لـ Java 25.1 ملاحظات الإصدار](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-1-release-notes/).
+تعرف على المزيد حول [Aspose.Words لـ Java 25.1 ملاحظات الإصدار](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-1-release-notes/).
 
-تعرف على المزيد حول [Aspose.Words ل Java 25.2 ملاحظات الإصدار](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-25-2-release-notes/).
+تعرف على المزيد حول [Aspose.Words ل Java 25.2 ملاحظات الإصدار](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-2-release-notes/).
 
 {{% /alert %}}
 

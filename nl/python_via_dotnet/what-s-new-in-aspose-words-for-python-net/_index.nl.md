@@ -56,9 +56,9 @@ De eigenschap [number_spacing](https://reference.aspose.com/words/python-net/asp
 
 {{% alert color="primary" %}}
 
-Lees meer over [Aspose.Words voor Python via .NET 25.1 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-1-release-notes/).
+Lees meer over [Aspose.Words voor Python via .NET 25.1 Release Notes](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/).
 
-Lees meer over [Aspose.Words voor Python via .NET 25.2 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-2-release-notes/).
+Lees meer over [Aspose.Words voor Python via .NET 25.2 Release Notes](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
 {{% /alert %}}
 

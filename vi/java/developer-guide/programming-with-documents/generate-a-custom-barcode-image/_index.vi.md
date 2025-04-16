@@ -26,7 +26,7 @@ Vì việc làm việc với mã vạch trong chức năng của Aspose.Words l�
 
 {{% /alert %}}
 
-Khi lưu sang các định dạng Word hỗ trợ mã vạch, bạn có thể sử dụng mọi loại mã vạch là [supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3). Nếu một loại mã vạch không chính xác được truyền, Word sẽ hiển thị lỗi.
+Khi lưu sang các định dạng Word hỗ trợ mã vạch, bạn có thể sử dụng mọi loại mã vạch là [supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3-4b44-ae81-f9d3d9e07be3). Nếu một loại mã vạch không chính xác được truyền, Word sẽ hiển thị lỗi.
 
 Khi lưu sang các định dạng khác, như PDF, Aspose.Words ủy quyền cho mã người dùng xử lý mã vạch, vì vậy người dùng bị giới hạn với loại mã vạch của thực hiện hoặc thư viện của họ.
 

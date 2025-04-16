@@ -186,7 +186,7 @@ Die volgende kode voorbeeld toon hoe om die Y-as van die grafiek te verberg:
 
 ### Hoe Om Grafiek Etiket In Lyn Te Bring
 
-As jy'n teks belyning vir multi-lyn etikette wil stel, kan jy dit eenvoudig bereik deur die waarde van [ChartAxis.tick_label_alignment](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/tick_label_alignment/) eiendom te stel.
+As jy'n teks belyning vir multi-lyn etikette wil stel, kan jy dit eenvoudig bereik deur die waarde van **ChartAxis.tick_label_alignment** eiendom te stel.
 
 Die volgende kode voorbeeld toon hoe om etiket belyning merk:
 
