@@ -8,7 +8,7 @@ type: docs
 weight: 340
 url: /python-net/working-with-watermark/
 aliases: [/python/working-with-watermark/]
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-04-16-07-02-05
 ---
 
 This topic discusses how to work programmatically with watermark using Aspose.Words. A watermark is a background image that displays behind the text in a document. A watermark can contain a text or an image represented by the [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/) class.
@@ -27,7 +27,7 @@ In Microsoft Word, a watermark can easily be inserted in a document using the In
 
 ### Add Text Watermark
 
-The following code example demonstrates how to insert a text watermark in a document by defining [TextWatermarkOptions](https://reference.aspose.com/words/python-net/aspose.words/textwatermarkoptions/) using the [set_text](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_text/) method.
+The following code example demonstrates how to insert a text watermark in a document by defining [TextWatermarkOptions](https://reference.aspose.com/words/python-net/aspose.words/textwatermarkoptions/) using the [set_text](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_text/) method:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_watermark-AddTextWatermarkWithSpecificOptions.py" >}}
 
@@ -36,6 +36,8 @@ The following code example demonstrates how to insert a text watermark in a docu
 The following code example demonstrates how to insert an image watermark in a document by defining [ImageWatermarkOptions](https://reference.aspose.com/words/python-net/aspose.words/imagewatermarkoptions/) using the [set_image](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_image/) method:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_watermark-AddImageWatermarkWithSpecificOptions.py" >}}
+
+Image watermark can be inserted as image, string, or stream.
 
 The watermark can also be inserted using shape class as well. It is very easy to insert any shape or image into a header or footer and thus create a watermark of any imaginable type.
 
