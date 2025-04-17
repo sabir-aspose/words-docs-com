@@ -6,6 +6,8 @@ linktitle: Aspose.Words Document Object Model (DOM)
 type: docs
 description: "Document Object Model (DOM) is an in-memory representation of a Word document. Read, manipulate, and modify the content and formatting of a Word document using C#."
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/aspose-words-document-object-model/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Accessing Type Members
 description: "Access public (static and instance) members of accessible types in template expressions when building a report in C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/accessing-type-members-linq/
 timestamp: 2024-02-16-10-54-23
 ---

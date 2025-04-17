@@ -6,6 +6,8 @@ linktitle: Enable OpenType Features
 description: "Advanced typography features using C#."
 type: docs
 weight: 25
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/enable-opentype-features/
 timestamp: 2024-07-10-14-38-57
 ---

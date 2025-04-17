@@ -6,6 +6,8 @@ linktitle: How to Run the Examples
 description: "Download Aspose.Words for .NET examples from our GitHub repository and learn how to run them to become more familiar with the Aspose.Words possibilities and features using C#."
 type: docs
 weight: 110
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/how-to-run-the-examples/
 timestamp: 2024-10-24-11-44-28
 ---

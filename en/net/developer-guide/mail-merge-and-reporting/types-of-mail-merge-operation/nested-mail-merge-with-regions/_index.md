@@ -10,6 +10,8 @@ type: docs
 description: "Perform a Mail Merge operation with nested regions using C#. Nested merge is a feature that enables you to merge hierarchical data from your data source into your merge template."
 keywords: "mail merge with nested regions c#"
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/nested-mail-merge-with-regions/
 timestamp: 2024-07-11-08-07-06
 ---

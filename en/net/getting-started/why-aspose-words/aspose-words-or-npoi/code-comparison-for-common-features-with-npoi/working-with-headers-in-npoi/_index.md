@@ -6,6 +6,8 @@ linktitle: Working with Headers in NPOI
 description: "Work with headers in a document easily and fast instead of using NPOI in C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/working-with-headers-in-npoi/
 timestamp: 2024-10-21-11-17-44
 ---

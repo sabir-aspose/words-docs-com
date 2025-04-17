@@ -6,6 +6,8 @@ linktitle: About Aspose.Words and SharePoint
 description: "Using Aspose.Words for .NET in a Microsoft SharePoint environment in C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/about-aspose-words-and-sharepoint/
 timestamp: 2024-10-21-11-17-44
 ---

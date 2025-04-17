@@ -4,6 +4,8 @@ second_title: Aspose.Words for .NET
 articleTitle: Convert a Document
 linktitle: Convert a Document
 type: docs
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/convert-a-document/
 weight: 30
 aliases: [/net/converting-a-document/]

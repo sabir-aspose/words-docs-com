@@ -6,6 +6,8 @@ linktitle: Add Watermark
 description: "Add a watermark into a document. NPOI does not provide an opportunity to add a watermark using C#."
 type: docs
 weight: 90
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/add-watermark/
 timestamp: 2024-01-31-14-23-37
 ---

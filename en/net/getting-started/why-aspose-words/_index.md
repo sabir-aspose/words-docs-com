@@ -6,6 +6,8 @@ linktitle: Why Aspose.Words
 type: docs
 description: "Why do users choose Aspose.Words for .NET to work with documents? Because it has a huge set of features and covers a wide variety of tasks using C#."
 weight: 60
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/aspose-words-or-other-solutions/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Changing Page Setup for Whole Document
 description: "Change page setup for a whole document easily and fast instead of using VSTO in C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/changing-page-setup-for-whole-document-using-aspose-words/
 timestamp: 2024-01-27-14-07-04
 ---

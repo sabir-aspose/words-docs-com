@@ -6,6 +6,8 @@ linktitle: Add bullets or numbers to a list in NPOI
 description: "Add bullets or numbers to a list within a document easily and fast instead of using NPOI in C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/add-bullets-or-numbers-to-a-list-in-npoi/
 timestamp: 2024-01-27-14-07-04
 ---

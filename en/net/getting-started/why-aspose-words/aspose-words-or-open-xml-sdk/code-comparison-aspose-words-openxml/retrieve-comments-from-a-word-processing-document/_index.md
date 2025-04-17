@@ -6,6 +6,8 @@ linktitle: Retrieve Comments from a Document
 description: "Retrieve comments from a word processing  document easily and fast instead of using Open XML SDK in C#."
 type: docs
 weight: 190
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/retrieve-comments-from-a-word-processing-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Format Table in Document in NPOI
 description: "Format table in a document easily and fast instead of using NPOI in C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/format-table-in-document-in-npoi/
 timestamp: 2024-01-27-14-07-04
 ---

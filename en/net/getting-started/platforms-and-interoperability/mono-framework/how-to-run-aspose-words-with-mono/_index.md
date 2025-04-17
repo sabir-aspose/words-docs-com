@@ -6,6 +6,8 @@ linktitle: How to  Run Aspose.Words with Mono
 description: "Using Aspose.Words for .NET with Mono on Linux or Mac OS to generate DOC files, convert DOC and DOCX to PDF and much more in C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/how-to-run-aspose-words-with-mono/
 timestamp: 2024-10-21-11-17-44
 ---

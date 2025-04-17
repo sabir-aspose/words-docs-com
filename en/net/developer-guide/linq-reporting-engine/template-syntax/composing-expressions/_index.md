@@ -6,6 +6,8 @@ linktitle: Composing Expressions
 description: "Compose expressions when building a report using C#. The complexity of expressions in templates is not restricted."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/composing-expressions/
 aliases: [/net/template-syntax/#composing-expressions]
 timestamp: 2024-09-25-11-08-55

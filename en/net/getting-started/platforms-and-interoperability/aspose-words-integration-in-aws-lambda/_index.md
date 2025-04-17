@@ -7,6 +7,8 @@ type: docs
 description: "You might be interested in using Aspose.Words in AWS Lambda if you are targeting to create an application in the cloud, need Aspose.Words functionality, and probably integration with other Amazon services. Learn more about using Aspose.Words for .NET when building applications for Amazon Web Services in C#."
 keywords: "use Aspose.Words in AWS Lambda c#"
 weight: 120
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/integration-in-aws-lambda/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,8 @@ linktitle: Sitefinity Word Import Module
 description: "Read contents of any Word processing document using Aspose.Words Sitefinity Word Import Module in C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/sitefinity-word-import-module/
 timestamp: 2024-10-24-11-44-28
 ---

@@ -4,6 +4,8 @@ second_title: Aspose.Words for .NET
 articleTitle: Create or Load a Document
 linktitle: Create or Load a Document
 type: docs
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/create-or-load-a-document/
 aliases: [/net/creating-or-loading-a-document/]
 description: "Create a blank document or to load it from a file or stream using C#."

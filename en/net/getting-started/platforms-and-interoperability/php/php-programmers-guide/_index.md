@@ -6,6 +6,8 @@ linktitle: PHP Programmers Guide
 description: "Aspose.Words for .NET PHP Programmers Guide using C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/php-programmers-guide/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Outputting Sequential Data
 description: "Output a sequence of elements with the same type when building a report using C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/outputting-sequential-data/
 aliases: [/net/template-syntax/#outputting-sequential-data]
 timestamp: 2024-01-27-14-07-04

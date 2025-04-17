@@ -6,6 +6,8 @@ linktitle: Working with Table-Column Conditional Blocks
 description: "Use table-column conditional blocks within single document table to represent the same data depending on a condition using C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/working-with-table-column-conditional-blocks/
 timestamp: 2024-01-27-14-07-04
 ---

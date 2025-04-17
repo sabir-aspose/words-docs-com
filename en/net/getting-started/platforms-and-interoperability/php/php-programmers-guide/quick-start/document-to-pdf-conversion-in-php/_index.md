@@ -6,6 +6,8 @@ linktitle: Document to PDF Conversion in PHP
 description: "Converting documents using Aspose.Words for .NET in PHP using COM in C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/document-to-pdf-conversion-in-php/
 timestamp: 2024-01-27-14-07-04
 ---

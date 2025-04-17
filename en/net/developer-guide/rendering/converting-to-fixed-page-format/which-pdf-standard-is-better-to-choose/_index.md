@@ -6,6 +6,8 @@ linktitle: Which PDF Standard Is Better to Choose
 description: "Choose the best PDF standard to export the result of your programming task in C#. Which PDF standard is better – PDF 1.7, PDF 2.0, PDF/A-1, PDF/A-2, or PDF/UA."
 type: docs
 weight: 27
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/which-pdf-standard-is-better-to-choose/
 timestamp: 2024-01-27-14-07-04
 ---

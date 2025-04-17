@@ -6,6 +6,8 @@ linktitle: Supported Document Formats
 type: docs
 description: "Edit source documents in many popular formats, as well as freely convert files from one format to another using C#."
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/supported-document-formats/
 timestamp: 2024-10-21-11-17-44
 ---

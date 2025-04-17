@@ -6,6 +6,8 @@ linktitle: Quote Generator for Dynamics CRM
 description: "The Aspose .NET Quote Generator is open source add-on used to generate and export quotation from CRM using C#."
 type: docs
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/quote-generator-for-dynamics-crm/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Convert a Document to Excel
 description: "Convert PDF to Excel, XML to Excel, DOCX to Excel C#. Save a document in various formats to XLSX using C#."
 type: docs
 weight: 15
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/convert-a-document-to-excel/
 timestamp: 2024-07-09-19-00-42
 ---

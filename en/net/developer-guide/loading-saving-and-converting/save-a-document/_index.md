@@ -8,6 +8,8 @@ type: docs
 description: "Save a document in any supported format using C#."
 keywords: "save a document c#, save a document to file c#, save a document to stream c#, save a document Aspose .NET, save formats supported by Aspose.Words .NET"
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/save-a-document/
 timestamp: 2024-07-09-19-00-42
 ---

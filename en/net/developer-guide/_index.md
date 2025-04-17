@@ -6,6 +6,8 @@ linktitle: Developer Guide
 description: "This Developer Guide describes practical scenarios and tips to help you use specific Aspose.Words for .NET features, achieve a certain document appearance, or make a use case possible."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

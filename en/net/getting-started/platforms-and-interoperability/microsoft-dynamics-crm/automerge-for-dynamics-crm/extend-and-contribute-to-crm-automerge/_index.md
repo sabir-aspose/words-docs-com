@@ -6,6 +6,8 @@ linktitle: Extend and Contribute to CRM AutoMerge
 description: "How to defined a custom workflow using Aspose AutoMerge add-on that can be used with Workflows and Dialogs in CRM in C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/extend-and-contribute-to-crm-automerge/
 timestamp: 2024-10-24-11-44-28
 ---

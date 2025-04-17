@@ -6,6 +6,8 @@ linktitle: Using Variables
 description: "Use variables to calculate an expensive value just once and access it multiple times in template documents using C#."
 type: docs
 weight: 130
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/using-variables/
 aliases: [/net/template-syntax/#using-variables]
 timestamp: 2024-10-21-11-17-44

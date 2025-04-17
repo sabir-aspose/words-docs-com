@@ -6,6 +6,8 @@ linktitle: Work with a Document Marked by a Sensitivity Label
 description: "Convert Word with applied sensitivity label to PDF using C#. Work with documents marked by a sensitivity labels – various input formats, including Word, OpenOffice, Image and eBook."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/work-with-document-market-by-sensitivity-label/
 timestamp: 2024-01-31-14-23-37
 ---

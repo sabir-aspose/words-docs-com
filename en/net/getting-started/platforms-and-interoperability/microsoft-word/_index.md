@@ -6,6 +6,8 @@ linktitle: Microsoft Word
 description: "Aspose.Words plugins for Microsoft Word using C#."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/aspose-words-net-for-word/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Specify Default Fonts
 description: "Specify default fonts. NPOI does not provide an opportunity to specify default fonts using C#."
 type: docs
 weight: 25
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/specify-default-fonts/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -9,6 +9,8 @@ type: docs
 description: "Aspose.Words for .NET provides some advanced Mail Merge features that allow you to perform further Mail Merge customization using C#. For example, obtaining information about template structure, setting rules, cleaning up after a Mail Merge operation, and others."
 keywords: "use advanced Mail Merge features c#"
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/advanced-mail-merge-features/
 timestamp: 2024-07-11-08-07-06
 ---

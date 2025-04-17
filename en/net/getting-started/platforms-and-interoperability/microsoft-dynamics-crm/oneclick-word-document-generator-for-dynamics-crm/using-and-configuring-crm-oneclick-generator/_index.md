@@ -6,6 +6,8 @@ linktitle: Using and Configuring CRM OneClick Word Document Generator
 description: "How to use and configure Aspose OneClick Word Document Generator add-on using C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/using-and-configuring-crm-oneclick-generator/
 aliases: [/net/using-and-configuring-crm-oneclick-word-document-generator/]
 timestamp: 2024-10-21-11-17-44

@@ -9,6 +9,8 @@ type: docs
 description: "Apply different cleaning and removing options such as deleting merge fields before performing a Mail Merge operation or removing unused regions during a Mail Merge operation using C#."
 keywords: "cleanup options Mail Merge c#"
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/clean-up-before-or-during-mail-merge/
 timestamp: 2024-07-11-08-07-06
 ---

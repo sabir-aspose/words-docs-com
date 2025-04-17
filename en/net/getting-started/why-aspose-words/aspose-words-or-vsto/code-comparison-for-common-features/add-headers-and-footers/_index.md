@@ -6,6 +6,8 @@ linktitle: Add Headers and Footers
 type: docs
 description: "Add headers or footers into a document easily and fast instead of using VSTO in C#."
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/add-headers-and-footers/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Working with Footers in NPOI
 description: "Work with footers in a document easily and fast instead of using NPOI in C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/working-with-footers-in-npoi/
 timestamp: 2024-10-21-11-17-44
 ---

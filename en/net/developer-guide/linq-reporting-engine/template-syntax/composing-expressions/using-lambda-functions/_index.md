@@ -6,6 +6,8 @@ linktitle: Using Lambda Functions
 description: "Use lambda functions in template expressions when building a report in C#."
 type: docs
 weight: 60
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/using-lambda-functions/
 timestamp: 2024-01-27-14-07-04
 ---

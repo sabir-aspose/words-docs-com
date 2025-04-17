@@ -6,6 +6,8 @@ linktitle: Clean Up a Document
 description: "Remove unused or duplicate information to reduce output size and processing time using C#. Remove unused styles, unused built-in styles, duplicate styles, or unused lists."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

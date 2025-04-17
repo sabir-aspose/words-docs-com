@@ -6,6 +6,8 @@ linktitle: DNN Content Exporter Module
 description: "Export online contents into a Word Document using Aspose.Words DNN Content Exporter Module in C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/dnn-content-exporter-module/
 timestamp: 2024-01-27-14-07-04
 ---

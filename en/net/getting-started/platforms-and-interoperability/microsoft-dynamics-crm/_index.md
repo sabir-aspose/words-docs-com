@@ -6,6 +6,8 @@ linktitle: Microsoft Dynamics CRM
 description: "How to use Aspose.Words with Microsoft Dynamics CRM to perform a wide variety of document processing tasks using C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/aspose-words-net-for-crm/
 timestamp: 2024-01-27-14-07-04
 ---

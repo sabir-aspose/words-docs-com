@@ -6,6 +6,8 @@ linktitle: Protect Documents and Parts of Documents
 description: "Protect a document or parts of a document easily and fast instead of using VSTO in C#."
 type: docs
 weight: 120
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/protect-documents-and-parts-of-documents/
 timestamp: 2024-01-27-14-07-04
 ---

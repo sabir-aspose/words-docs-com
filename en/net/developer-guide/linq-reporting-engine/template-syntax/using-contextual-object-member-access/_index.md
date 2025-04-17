@@ -6,6 +6,8 @@ linktitle: Using Contextual Object Member Access
 description: "Use contextual object member to access some objects without specifying the objects id in template expressions using C#."
 type: docs
 weight: 120
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/using-contextual-object-member-access/
 aliases: [/net/template-syntax/#using-contextual-object-member-access]
 timestamp: 2024-01-27-14-07-04

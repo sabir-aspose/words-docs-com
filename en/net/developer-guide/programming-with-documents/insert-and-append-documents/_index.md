@@ -6,6 +6,8 @@ linktitle: Insert and Append Documents
 description: "Combine documents into one: insert or append a document into a new or existing one using find and replace, merge field, bookmark, or simply at the document end in C#."
 type: docs
 weight: 80
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/insert-and-append-documents/
 aliases: [/net/join-and-append-documents/]
 timestamp: 2024-01-27-14-07-04

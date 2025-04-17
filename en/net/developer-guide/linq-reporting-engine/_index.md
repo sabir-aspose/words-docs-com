@@ -6,6 +6,8 @@ linktitle: LINQ Reporting Engine
 description: "Create reports from template documents using the LINQ Reporting Engine in C#. Learn more about the supported features."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/linq-reporting-engine/
 timestamp: 2024-09-25-11-08-55
 ---
