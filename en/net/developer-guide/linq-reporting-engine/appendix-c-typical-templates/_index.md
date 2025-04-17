@@ -6,6 +6,8 @@ linktitle: Appendix C. Typical Templates
 description: "Learn the typical templates of LINQ Reporting Engine to build a report in C#."
 type: docs
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/typical-templates/
 timestamp: 2024-10-21-11-17-44
 ---

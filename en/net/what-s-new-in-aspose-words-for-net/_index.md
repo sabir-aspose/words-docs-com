@@ -6,6 +6,8 @@ linktitle: What's new in Aspose.Words for .NET
 type: docs
 description: "Aspose.Words for .NET expands and enhances daily. On this page, you can learn about the huge and most interesting features of the product."
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/what-s-new-in-aspose-words-for-net/
 timestamp: 2025-04-16-07-02-05
 ---

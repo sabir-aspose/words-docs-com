@@ -6,6 +6,8 @@ linktitle: Aspose.Words for CMS
 description: "Integrating Aspose.Words for .NET with content management systems using C#."
 type: docs
 weight: 110
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/aspose-words-for-cms/
 timestamp: 2024-01-27-14-07-04
 ---

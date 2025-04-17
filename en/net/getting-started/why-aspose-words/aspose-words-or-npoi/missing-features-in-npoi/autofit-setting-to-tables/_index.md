@@ -6,6 +6,8 @@ linktitle: Autofit Setting to Tables
 description: "Autofit settings to tables. NPOI does not provide an opportunity to autofit settings to tables using C#."
 type: docs
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/autofit-setting-to-tables/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,8 @@ linktitle: Open and Modify a Document
 description: "Open and modify an existing Word document easily and fast instead of using Open XML SDK in C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/open-and-add-text-to-word-document/
 timestamp: 2024-01-30-16-22-34
 ---

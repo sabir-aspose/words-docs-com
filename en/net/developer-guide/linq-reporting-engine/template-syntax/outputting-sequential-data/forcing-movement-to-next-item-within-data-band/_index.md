@@ -6,6 +6,8 @@ linktitle: Forcing Movement to Next Item within Data Band
 description: "Force movement to the next item within a data band when building a report in C#."
 type: docs
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/forcing-movement-to-next-item-within-data-band/
 timestamp: 2024-01-27-14-07-04
 ---

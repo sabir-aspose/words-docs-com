@@ -6,6 +6,8 @@ linktitle: Working with Content Controls
 description: "Perform certain operations on content controls dynamically while building a report using C#."
 type: docs
 weight: 83
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/working-with-content-controls/
 aliases: [/net/template-syntax/#working-with-content-controls]
 timestamp: 2024-01-27-14-07-04

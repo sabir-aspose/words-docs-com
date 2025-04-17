@@ -6,6 +6,8 @@ linktitle: Working with Sections
 description: "Understanding document section concepts and manipulation practices using C#. Insert section into a document C#. Remove section C#. Copy sections between Documents."
 type: docs
 weight: 120
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/working-with-sections/
 timestamp: 2024-09-25-11-08-55
 ---

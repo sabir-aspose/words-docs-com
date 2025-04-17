@@ -6,6 +6,8 @@ linktitle: Umbraco Export Members to Word
 description: "Export members from your Umbraco CMS to a Word Document using Aspose.Words Umbraco Export Members Module in C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/umbraco-export-members-to-word/
 timestamp: 2024-01-27-14-07-04
 ---

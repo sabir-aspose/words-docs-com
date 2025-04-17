@@ -6,6 +6,8 @@ linktitle: Aspose.Words for .NET for DNN
 description: "Integrating Aspose.Words for .NET with DNN content management systems using C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/aspose-words-net-for-dnn/
 timestamp: 2024-01-27-14-07-04
 ---

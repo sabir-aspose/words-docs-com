@@ -6,6 +6,8 @@ linktitle: Windows Azure Platform
 type: docs
 description: "Use Aspose.Words for .NET when building applications for the Windows Azure Platform. Learn how Aspose.Words works well in the cloud using C#."
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/windows-azure-platform/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,8 @@ linktitle: Converting to Fixed-page Format
 description: "Save documents to PDF, XPS, HTML, XAML, PostScript, and PCL formats using C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/converting-to-fixed-page-format/
 timestamp: 2024-07-10-08-10-45
 ---

@@ -6,6 +6,8 @@ linktitle: Working with Cross (Pivot) Tables
 description: "Output a Cross (Pivot) Tables when building a report in C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/working-with-cross-pivot-tables/
 timestamp: 2024-01-27-14-07-04
 ---

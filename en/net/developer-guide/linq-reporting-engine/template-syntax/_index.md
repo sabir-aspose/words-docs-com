@@ -6,6 +6,8 @@ linktitle: Template Syntax
 description: "How to create a template for LINQ Reporting Engine to build a report in C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/template-syntax/
 timestamp: 2024-09-25-11-08-55
 ---

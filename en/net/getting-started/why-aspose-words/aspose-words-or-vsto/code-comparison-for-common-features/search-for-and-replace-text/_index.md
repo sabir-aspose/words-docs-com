@@ -6,6 +6,8 @@ linktitle: Find and Replace Text
 description: "Find and replace text from a document part easily and fast instead of using VSTO in C#."
 type: docs
 weight: 90
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/search-for-and-replace-text/
 timestamp: 2024-01-27-14-07-04
 ---

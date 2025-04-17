@@ -6,6 +6,8 @@ linktitle: Display Word Documents in Silverlight
 description: "Using Aspose.Words for .NET in a Microsoft Silverlight to display Word documents in C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/display-word-documents-in-silverlight/
 timestamp: 2024-01-27-14-07-04
 ---

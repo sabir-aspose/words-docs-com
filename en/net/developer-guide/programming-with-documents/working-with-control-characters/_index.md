@@ -6,6 +6,8 @@ linktitle: Working With Control Characters
 description: "Introduction to working with control characters in Aspose.Words for .NET."
 type: docs
 weight: 400
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/working-with-control-characters/
 timestamp: 2024-01-27-14-07-04
 ---

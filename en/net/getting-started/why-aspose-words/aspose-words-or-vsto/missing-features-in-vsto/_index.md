@@ -6,6 +6,8 @@ linktitle: Aspose.Words Features Missing in VSTO
 description: "Perform some operations with documents faster and more conveniently than VSTO. In addition, there are operations that are not supported by VSTO using C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/missing-features-in-vsto/
 aliases:
   - /net/conversion-from-docx-to-doc-format/

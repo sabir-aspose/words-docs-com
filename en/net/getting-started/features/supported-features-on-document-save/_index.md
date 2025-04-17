@@ -6,6 +6,8 @@ linktitle: Supported Features on Document Save
 description: "Save a document in most of popular formats and supports lots of Microsoft Word features using C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/supported-features-on-document-save/
 aliases:
 - /net/document-saving-overview/

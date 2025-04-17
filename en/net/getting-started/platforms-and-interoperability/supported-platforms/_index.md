@@ -6,6 +6,8 @@ linktitle: Supported Platforms Overview
 description: "Aspose.Words for .NET supports a wide range of platforms to work with documents using C#."
 type: docs
 weight: 5
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/supported-platforms/
 timestamp: 2024-10-24-11-44-28
 ---

@@ -6,6 +6,8 @@ linktitle: Load Text File in PHP
 description: "Loading text document using Aspose.Words for .NET in PHP using COM in C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/load-text-file-in-php/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Appendix A. Enumeration Extension Methods
 description: "Use built-in extension methods to perform common manipulations on a sequential data when building a report using C#."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/appendix-a-enumeration-extension-methods/
 timestamp: 2024-10-21-11-17-44
 ---

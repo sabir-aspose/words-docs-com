@@ -6,6 +6,8 @@ linktitle: Specify Save Options
 description: "More accurately control the save process using C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/specify-save-options/
 timestamp: 2024-07-09-19-00-42
 ---

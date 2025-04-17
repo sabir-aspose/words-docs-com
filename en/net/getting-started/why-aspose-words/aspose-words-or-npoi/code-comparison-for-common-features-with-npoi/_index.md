@@ -6,6 +6,8 @@ linktitle: Code Comparison for common features with NPOI
 description: "Take a look at code comparison of some features implemented in Aspose.Words for .NET and NPOI using C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/code-comparison-for-common-features-with-npoi/
 aliases:
   - /net/working-with-tables-aspose-vs-npoi/

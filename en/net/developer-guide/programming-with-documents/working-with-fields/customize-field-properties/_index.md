@@ -6,6 +6,8 @@ linktitle: Customize Field Properties
 description: "Learn how to customize field properties in C#. Rename merge fields or obtain results for fields without separator node in .NET."
 type: docs
 weight: 27
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

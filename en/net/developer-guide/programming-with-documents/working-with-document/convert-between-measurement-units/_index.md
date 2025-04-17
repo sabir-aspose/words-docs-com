@@ -6,6 +6,8 @@ linktitle: Convert Between Measurement Units
 description: "Aspose.Words for .NET can help you with how to convert between measurement units, for example, inches to points and points to inches, pixels to points, points to pixels using C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/convert-between-measurement-units/
 timestamp: 2024-01-27-14-07-04
 ---

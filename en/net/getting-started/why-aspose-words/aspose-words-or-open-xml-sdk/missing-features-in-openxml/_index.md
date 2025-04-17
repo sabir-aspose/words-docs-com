@@ -6,6 +6,8 @@ linktitle: Aspose.Words Features Missing in Open XML SDK
 description: "Perform some operations with documents faster and more conveniently than Open XML SDK. In addition, there are operations that are not supported by OpenXML using C#."
 type: docs
 weight: 60
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/missing-features-in-openxml/
 aliases:
   - /net/assemble-documents/

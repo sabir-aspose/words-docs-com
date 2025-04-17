@@ -6,6 +6,8 @@ linktitle: Remove Section Breaks from a Document
 description: "Remove section breaks from a document easily and fast instead of using Open XML SDK in C#."
 type: docs
 weight: 170
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/remove-section-breaks-from-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Work with a Document Stored in a SharePoint Online
 description: "Convert Word shared in SharePoint to PDF using C#. Work with documents stored in SharePoint – various input formats, including Word, OpenOffice, Image and eBook."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/work-with-document-stored-in-sharepoint/
 timestamp: 2024-10-21-11-17-44
 ---

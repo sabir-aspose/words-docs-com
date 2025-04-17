@@ -6,6 +6,8 @@ linktitle: Working with Content Control SDT
 description: "Advanced document content management, how to create and manipulate content controls (Structured Document Tags) using C#."
 type: docs
 weight: 390
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---

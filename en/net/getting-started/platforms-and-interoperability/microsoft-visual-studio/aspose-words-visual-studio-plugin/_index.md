@@ -6,6 +6,8 @@ linktitle: Aspose.Words Visual Studio Plugin
 description: "How to use Aspose Visual Studio Plugin to quickly download and explore Aspose.Words for .NET API examples using C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/aspose-words-visual-studio-plugin/
 timestamp: 2024-10-21-11-17-44
 ---

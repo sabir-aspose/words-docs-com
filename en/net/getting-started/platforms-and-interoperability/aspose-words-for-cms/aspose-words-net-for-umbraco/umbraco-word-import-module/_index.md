@@ -6,6 +6,8 @@ linktitle: Umbraco Word Import Module
 description: "Read contents of any Word processing document using Aspose.Words Umbraco Word Import Module in C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/umbraco-word-import-module/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Code Comparison of Features Implemented in Aspose.Words and Open XML 
 description: "Take a look at code comparison of some features implemented in Aspose.Words for .NET and Open XML SDK using C#."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/code-comparison-aspose-words-openxml/
 aliases: [/net/code-comparison-for-common-features-with-openxml/]
 timestamp: 2024-01-27-14-07-04

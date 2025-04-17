@@ -6,6 +6,8 @@ linktitle: Track Changes in a Document
 description: "Track changes to content and formatting made by you or others using C#. Access individual revisions in a document and apply various properties to them."
 type: docs
 weight: 270
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

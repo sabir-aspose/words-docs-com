@@ -6,6 +6,8 @@ linktitle: How to Use Aspose.Words Instead of VSTO
 description: "How to download and install Aspose.Words for .NET and what prerequisites have to be met to work with Aspose.Words instead of VSTO using C#."
 type: docs
 weight: 5
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/aspose-words-instead-of-vsto
 aliases: 
 - /net/aspose-words-net-for-vsto/

@@ -6,6 +6,8 @@ linktitle: Umbraco Quote Generator Module
 description: "Generate Quotes in your Umbraco site using Aspose.Words Umbraco Quote Generator Module in C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/umbraco-quote-generator-module/
 timestamp: 2024-01-27-14-07-04
 ---

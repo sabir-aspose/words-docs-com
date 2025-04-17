@@ -6,6 +6,8 @@ linktitle: LINQ Reporting Engine or Mail Merge
 type: docs
 description: "What is the difference between Mail Merge and LINQ Reporting Engine in Aspose.Words for .NET and which solution is better to choose?"
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/linq-reporting-engine-or-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

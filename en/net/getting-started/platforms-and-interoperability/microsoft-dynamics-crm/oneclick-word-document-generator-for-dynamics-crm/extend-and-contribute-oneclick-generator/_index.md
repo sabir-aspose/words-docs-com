@@ -6,6 +6,8 @@ linktitle: Extend and Contribute to CRM OneClick Word Document Generator
 description: "How to defined a custom workflow using Aspose.Words to generate document from template in C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/extend-and-contribute-oneclick-generator/
 aliases: [/net/extend-and-contribute-to-crm-oneclick-word-document-generator/]
 timestamp: 2024-01-27-14-07-04

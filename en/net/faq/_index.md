@@ -9,6 +9,8 @@ type: docs
 description: "Aspose.Words for .NET answers the most frequently asked questions. Learn this page to quickly solve your problem on general questions or specific topics."
 doc_version: 2024-11-18-19-55
 weight: 75
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/faq/
 timestamp: 2024-11-18-12-56-02
 ---
