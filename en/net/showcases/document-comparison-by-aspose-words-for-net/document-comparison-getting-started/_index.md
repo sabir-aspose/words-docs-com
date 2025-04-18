@@ -6,6 +6,8 @@ linktitle: Document Comparison Getting Started
 description: "To get started with Document Comparison by Aspose.Words for .NET learn the information on System Requirements, Technical Support, Download, and Installation."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/document-comparison-getting-started/
 timestamp: 2024-01-27-14-07-04
 ---

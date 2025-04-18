@@ -6,6 +6,8 @@ linktitle: Working with Charts
 description: "Use charts to represent your sequential data when building a report in C#."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/linq-working-with-charts/
 timestamp: 2024-02-16-10-54-23
 ---

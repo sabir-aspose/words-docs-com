@@ -6,6 +6,8 @@ linktitle: Insert Picture into a Document
 description: "Insert picture into a document. NPOI does not provide an opportunity to insert picture into a document using C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/insert-picture-in-document/
 timestamp: 2024-01-31-14-23-37
 ---

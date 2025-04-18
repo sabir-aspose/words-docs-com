@@ -6,6 +6,8 @@ linktitle: Introduction to LINQ Reporting Engine
 description: "Overview LINQ Reporting Engine to build a report in C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/introduction-to-linq-reporting-engine/
 timestamp: 2024-01-27-14-07-04
 ---

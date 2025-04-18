@@ -6,6 +6,8 @@ linktitle: Using TrueType Fonts
 description: "Aspose.Words for .NET can find the right font or its suitable replacement for correct document rendering using C#. This ensures that the difference between the displayed document and the original is minimal when there is not enough information about a font."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Display Documents in Print Preview
 description: "Display documents in print preview easily and fast instead of using VSTO in C#."
 type: docs
 weight: 110
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/display-documents-in-print-preview/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Using and Video Demo for Umbraco Quote Generator
 description: "Generate Quotes in your Umbraco site using the powerful features of Aspose.Words for .NET in C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/how-to-use-umbraco-quote-generator/
 aliases: [/net/using-and-video-demo-for-umbraco-quote-generator/]
 timestamp: 2024-01-27-14-07-04

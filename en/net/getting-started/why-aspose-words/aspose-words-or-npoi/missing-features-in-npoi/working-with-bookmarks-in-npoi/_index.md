@@ -6,6 +6,8 @@ linktitle: Work with Bookmarks
 description: "Add a bookmark into a document. NPOI does not provide an opportunity to work with bookmarks using C#."
 type: docs
 weight: 80
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/working-with-bookmarks-in-npoi/
 timestamp: 2024-01-31-14-23-37
 ---

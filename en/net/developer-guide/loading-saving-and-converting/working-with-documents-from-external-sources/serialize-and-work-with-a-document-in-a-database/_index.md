@@ -6,6 +6,8 @@ linktitle: Serialize and Work with a Document in a Database
 description: "Convert a document into a byte array for work with this document in a database using C#. You can store and retrieve a document to and from the database."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-07-09-19-00-42
 ---

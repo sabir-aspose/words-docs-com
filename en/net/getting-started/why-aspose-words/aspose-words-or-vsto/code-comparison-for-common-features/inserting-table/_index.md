@@ -6,6 +6,8 @@ linktitle: Inserting Table
 description: "Insert a table into a document and modify it easily and fast instead of using VSTO in C#."
 type: docs
 weight: 80
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/inserting-table/
 timestamp: 2024-01-27-14-07-04
 ---

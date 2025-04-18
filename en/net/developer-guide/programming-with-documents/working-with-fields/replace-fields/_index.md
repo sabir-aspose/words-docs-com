@@ -6,6 +6,8 @@ linktitle: Replace Fields with Static Text
 description: "Learn how to replace fields with text in C#. Replace fields with static data using the .NET API."
 type: docs
 weight: 37
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/replace-fields/
 timestamp: 2024-01-27-14-07-04
 ---

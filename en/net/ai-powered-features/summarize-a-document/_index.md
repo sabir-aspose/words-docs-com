@@ -6,6 +6,8 @@ linktitle: Summarize a Document
 type: docs
 weight: 20
 description: "Summarize a document. Aspose.Words for .NET simplifies document summarization using OpenAI and Google AI models by allowing you to specify the summary length."
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/summarize-a-document/
 timestamp: 2025-03-17-19-00-00
 ---

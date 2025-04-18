@@ -6,6 +6,8 @@ linktitle: Insert a Comment into a Word Processing Document
 description: "Insert a comment into a word document easily and fast instead of using Open XML SDK in C#."
 type: docs
 weight: 180
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/insert-a-comment-into-a-word-processing-document/
 timestamp: 2024-01-27-14-07-04
 ---

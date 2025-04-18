@@ -6,6 +6,8 @@ linktitle: Create a Document
 description: "Create a Word Processing document easily and fast instead of using Open XML SDK in C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/create-a-word-processing-document/
 timestamp: 2024-01-30-16-22-34
 ---

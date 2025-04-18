@@ -6,6 +6,8 @@ linktitle: Insert Image into a Word document
 description: "Insert image into a Word document easily and fast instead of using Open XML SDK in C#."
 type: docs
 weight: 80
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/insert-picture-in-word-document/
 timestamp: 2024-01-27-14-07-04
 ---

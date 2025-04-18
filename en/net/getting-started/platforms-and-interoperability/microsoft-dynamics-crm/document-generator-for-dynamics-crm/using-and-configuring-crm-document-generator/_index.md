@@ -6,6 +6,8 @@ linktitle: Using and Configuring CRM Document Generator
 description: "How to use and configure Aspose Document Generator add-on using C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/using-and-configuring-crm-document-generator/
 timestamp: 2024-01-27-14-07-04
 ---

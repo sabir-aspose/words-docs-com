@@ -6,6 +6,8 @@ linktitle: Sitefinity Export Users to Word
 description: "Export Sitefinity users into Microsoft Word or OpenOffice document using Aspose.Words Sitefinity Export Users to Word in C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/sitefinity-export-users-to-word/
 timestamp: 2024-10-24-11-44-28
 ---

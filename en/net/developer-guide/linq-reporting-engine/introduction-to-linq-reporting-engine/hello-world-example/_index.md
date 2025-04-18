@@ -6,6 +6,8 @@ linktitle: Hello World Example
 description: "Create Hello world example to start working with LINQ Reporting Engine to build a report in C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/hello-world-example/
 timestamp: 2024-01-27-14-07-04
 ---

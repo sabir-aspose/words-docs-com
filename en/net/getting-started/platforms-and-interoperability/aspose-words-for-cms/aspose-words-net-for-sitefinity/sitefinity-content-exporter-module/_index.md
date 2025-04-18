@@ -6,6 +6,8 @@ linktitle: Sitefinity Content Exporter Module
 description: "Export online content into Word Processing or PDF document using Aspose.Words Sitefinity Content Exporter Module in C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/sitefinity-content-exporter-module/
 timestamp: 2024-10-24-11-44-28
 ---

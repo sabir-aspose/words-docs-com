@@ -6,6 +6,8 @@ linktitle: Using Extension Methods
 description: "Use extension methods in template expressions when building a report in C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/using-extension-methods-linq/
 timestamp: 2024-02-16-10-54-23
 ---

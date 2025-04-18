@@ -6,6 +6,8 @@ linktitle: Showcases
 description: "We show you examples of projects that use some of the Aspose.Words features. Such projects demonstrate more complex interactions between these features."
 type: docs
 weight: 60
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/showcases/
 timestamp: 2024-01-27-14-07-04
 ---

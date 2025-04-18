@@ -6,6 +6,8 @@ linktitle: DNN Word Import Module
 description: "Read contents of Word documents using Aspose.Words DNN Word Import Module in C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/dnn-word-import-module/
 timestamp: 2024-01-30-16-22-34
 ---

@@ -6,6 +6,8 @@ linktitle: Aspose.Words Features Missing in NPOI
 description: "Perform some operations with documents faster and more conveniently than NPOI. In addition, there are operations that are not supported by NPOI using C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/missing-features-in-npoi/
 aliases:
   - /net/mail-merge-in-aspose-words/

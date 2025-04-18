@@ -6,6 +6,8 @@ linktitle: Supported Features on Document Load
 description: "Load and convert a document in most of popular formats and supports lots of Microsoft Word features using C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/supported-features-on-document-load/
 aliases:
 - /net/document-loading-overview/

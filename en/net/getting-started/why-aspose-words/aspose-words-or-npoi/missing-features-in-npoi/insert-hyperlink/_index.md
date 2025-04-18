@@ -6,6 +6,8 @@ linktitle: Insert a Hyperlink
 description: "Insert a hyperlink into a document. NPOI does not provide an opportunity to insert a hyperlink using C#."
 type: docs
 weight: 110
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/insert-hyperlink/
 timestamp: 2024-09-25-11-08-55
 ---

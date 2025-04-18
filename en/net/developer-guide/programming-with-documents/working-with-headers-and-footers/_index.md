@@ -6,6 +6,8 @@ linktitle: Working with Headers and Footers
 description: "How to manipulate headers and footers using C#. Create headers and footers C#. Remove headers or footers C#."
 type: docs
 weight: 150
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/working-with-headers-and-footers/
 timestamp: 2024-01-27-14-07-04
 ---

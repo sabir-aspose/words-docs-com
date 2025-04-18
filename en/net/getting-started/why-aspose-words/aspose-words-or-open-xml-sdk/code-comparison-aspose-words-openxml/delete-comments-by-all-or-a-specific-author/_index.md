@@ -6,6 +6,8 @@ linktitle: Remove Comments of All or a Specific Author
 description: "Remove comments of all or a specific author easily and fast instead of using Open XML SDK in C#."
 type: docs
 weight: 200
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/delete-comments-by-all-or-a-specific-author/
 timestamp: 2024-01-27-14-07-04
 ---

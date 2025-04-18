@@ -6,6 +6,8 @@ linktitle: Fitting all Tables to the Page Width
 description: "Fit a table into a document by page width easily and fast instead of using VSTO in C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/fitting-all-tables-to-the-page-width/
 timestamp: 2024-01-27-14-07-04
 ---

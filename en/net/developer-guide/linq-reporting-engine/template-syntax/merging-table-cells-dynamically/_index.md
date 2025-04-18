@@ -6,6 +6,8 @@ linktitle: Merging Table Cells Dynamically
 description: "Merge table cells with equal textual contents when building a report using C#."
 type: docs
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/merging-table-cells-dynamically/
 aliases: [/net/template-syntax/#merging-table-cells-dynamically]
 timestamp: 2024-01-27-14-07-04

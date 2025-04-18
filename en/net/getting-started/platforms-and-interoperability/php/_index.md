@@ -6,6 +6,8 @@ linktitle: PHP
 description: "How to utilise Aspose.Words for .NET in PHP Projects using C#."
 type: docs
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/aspose-words-net-for-php/
 timestamp: 2024-10-24-11-44-28
 ---

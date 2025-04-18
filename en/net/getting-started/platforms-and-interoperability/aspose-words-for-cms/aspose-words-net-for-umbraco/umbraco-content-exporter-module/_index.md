@@ -6,6 +6,8 @@ linktitle: Umbraco Content Exporter Module
 description: "Export online content into Word Processing or PDF document using Aspose.Words Umbraco Content Exporter Module in C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/umbraco-content-exporter-module/
 timestamp: 2024-01-27-14-07-04
 ---

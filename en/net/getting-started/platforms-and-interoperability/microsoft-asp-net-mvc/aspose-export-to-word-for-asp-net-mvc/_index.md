@@ -6,6 +6,8 @@ linktitle: Aspose Export to Word for ASP.NET MVC
 description: "Using Aspose Export to Word for ASP.NET MVC addon in C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/aspose-export-to-word-for-asp-net-mvc/
 timestamp: 2024-10-24-11-44-28
 ---

@@ -6,6 +6,8 @@ linktitle: Translate a Document
 type: docs
 weight: 30
 description: "Translate a document. Aspose.Words for .NET simplifies document translation using Google AI models, allowing you to specify the target language."
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/translate-a-document/
 timestamp: 2024-12-13-06-40-00
 ---

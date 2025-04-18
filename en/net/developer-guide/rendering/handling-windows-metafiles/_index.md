@@ -6,6 +6,8 @@ linktitle: Handling Windows Metafiles
 description: "Aspose.Words for .NET implements its own Windows Metafile player to play Metafile format on all platforms and supports the handling of the basic metafile features and can perform fallback to a different type of metafile player using C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/handling-windows-metafiles/
 timestamp: 2024-07-10-14-38-57
 ---
