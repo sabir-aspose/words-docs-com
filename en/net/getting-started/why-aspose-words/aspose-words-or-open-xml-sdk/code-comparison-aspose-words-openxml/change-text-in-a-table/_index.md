@@ -6,6 +6,8 @@ linktitle: Change Text in a Table
 description: "Change text in a table easily and fast instead of using Open XML SDK in C#."
 type: docs
 weight: 110
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/change-text-in-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Print Documents
 description: "Print a document easily and fast instead of using VSTO in C#."
 type: docs
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/print-documents/
 timestamp: 2024-01-27-14-07-04
 ---

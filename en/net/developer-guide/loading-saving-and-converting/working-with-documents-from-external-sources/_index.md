@@ -6,6 +6,8 @@ linktitle: Working with Documents from External Sources
 description: "How to load documents from external sources in C#. Load PDF, DOCX, DOC, RTF, ODT, EPUB, HTML and other files from SharePoint or database for further processing using C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/working-with-documents-from-external-sources/
 timestamp: 2024-01-27-14-07-04
 ---

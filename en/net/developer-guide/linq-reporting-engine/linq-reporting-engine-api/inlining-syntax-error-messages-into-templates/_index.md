@@ -6,6 +6,8 @@ linktitle: Inlining Syntax Error Messages into Templates
 description: "Learn how to enable inline syntax error message into the template document at the exact position using LINQ in C#."
 type: docs
 weight: 80
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/inlining-syntax-error-messages-into-templates/
 timestamp: 2024-10-21-11-17-44
 ---

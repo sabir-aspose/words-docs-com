@@ -6,6 +6,8 @@ linktitle: Working with Charts
 description: "Introduction to Chart feature, how to create and manipulate charts using C#."
 type: docs
 weight: 310
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/working-with-charts/
 timestamp: 2024-02-05-15-07-18
 ---

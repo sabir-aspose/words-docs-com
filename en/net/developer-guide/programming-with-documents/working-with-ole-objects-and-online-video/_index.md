@@ -6,6 +6,8 @@ linktitle: Working with OLE Objects and Online Video
 description: "Create and modify OLE embedding in your document using C#."
 type: docs
 weight: 360
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/working-with-ole-objects/
 aliases: [/net/working-with-ole-objects-and-online-video/]
 timestamp: 2024-01-27-14-07-04

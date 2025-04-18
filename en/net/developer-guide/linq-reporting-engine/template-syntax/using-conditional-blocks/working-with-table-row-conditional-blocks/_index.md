@@ -6,6 +6,8 @@ linktitle: Working with Table-Row Conditional Blocks
 description: "Use table-row conditional blocks within single document table to represent the same data depending on a condition using C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/working-with-table-row-conditional-blocks-linq/
 timestamp: 2024-10-21-11-17-44
 ---

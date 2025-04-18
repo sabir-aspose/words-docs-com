@@ -6,6 +6,8 @@ linktitle: Remove Headers and Footers from a Word Document
 description: "Remove headers or footers from a word processing document easily and fast instead of using Open XML SDK in C#."
 type: docs
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/remove-headers-footers-from-word-processing-document/
 aliases: [/net/remove-the-headers-and-footers-from-a-word-processing-document/]
 timestamp: 2024-10-21-11-17-44

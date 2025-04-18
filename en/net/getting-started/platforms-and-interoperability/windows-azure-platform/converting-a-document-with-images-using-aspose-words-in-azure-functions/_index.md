@@ -6,6 +6,8 @@ linktitle: Converting a Document with Images using Aspose.Words in Azure Functio
 type: docs
 description: "In Aspose.Words for .NET, we solved the problem of converting documents with images to fixed page formats – just make native assets copied properly using C#."
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/converting-a-document-with-images-using-aspose-words-in-azure-functions/
 timestamp: 2024-01-27-14-07-04
 ---

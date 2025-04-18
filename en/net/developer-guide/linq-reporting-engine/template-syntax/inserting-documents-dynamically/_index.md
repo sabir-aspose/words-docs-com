@@ -6,6 +6,8 @@ linktitle: Inserting Documents Dynamically
 description: "Insert contents of outer documents into your document dynamically when building a report using C#."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/inserting-documents-dynamically/
 aliases: [/net/template-syntax/#inserting-documents-dynamically]
 timestamp: 2024-05-08-14-20-48

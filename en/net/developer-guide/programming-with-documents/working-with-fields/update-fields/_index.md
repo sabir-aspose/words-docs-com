@@ -6,6 +6,8 @@ linktitle: Update Fields
 description: "Learn how to update fields in C#. Update fields programmatically or use automatic field update using .NET API."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/update-fields/
 aliases: [/net/updating-and-removing-a-field/]
 timestamp: 2024-01-27-14-07-04

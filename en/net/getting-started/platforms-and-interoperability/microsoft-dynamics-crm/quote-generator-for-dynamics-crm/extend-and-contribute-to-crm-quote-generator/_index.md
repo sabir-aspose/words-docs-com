@@ -6,6 +6,8 @@ linktitle: Extend and Contribute to CRM Quote Generator
 description: "How to defined a custom workflow using Aspose.Words to convert HTML to word and Attach Generated Quotation with Quote in C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/extend-and-contribute-to-crm-quote-generator/
 timestamp: 2024-01-30-16-22-34
 ---

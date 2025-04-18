@@ -7,6 +7,8 @@ type: docs
 description: "Aspose.Words can be integrated with Azure Data Lake Analytics and Azure Data Lake Storage. This allows you to combine the big data analytics capabilities of the Azure Data Lake cloud storage solution with the power of Aspose.Words using C#."
 keywords: "Aspose.Words to create a user-defined outputter, outputs data from ADLS in MS Word and other formats, Aspose.Words with Azure Data Lake"
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/integrating-aspose-words-with-azure-data-lake/
 timestamp: 2024-01-27-14-07-04
 ---

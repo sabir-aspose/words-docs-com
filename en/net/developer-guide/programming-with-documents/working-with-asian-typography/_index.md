@@ -6,6 +6,8 @@ linktitle: Working with Asian Typography
 description: "Work with Asian typography using C#. Adjust Space between Asian and Latin text in C#."
 type: docs
 weight: 240
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/working-with-asian-typography/
 timestamp: 2024-02-01-16-17-05
 ---

@@ -6,6 +6,8 @@ linktitle: DNN Users and Roles Export Module
 description: "Export DNN Users along with their roles into Microsoft Word using Aspose.Words DNN Users and Roles Export Module in C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/dnn-users-and-roles-export-module/
 timestamp: 2024-01-30-16-22-34
 ---

@@ -6,6 +6,8 @@ linktitle: Get Document Properties in NPOI
 description: "Get document properties easily and fast instead of using NPOI in C#."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/get-document-properties-in-npoi/
 timestamp: 2024-01-27-14-07-04
 ---

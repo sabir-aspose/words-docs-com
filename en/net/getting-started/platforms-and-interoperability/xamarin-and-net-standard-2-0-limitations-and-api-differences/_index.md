@@ -6,6 +6,8 @@ linktitle: Xamarin and .NET Standard 2.0 Limitations and API Differences
 description: "Aspose.Words for .NET Standard 2.0 API differences comparing to regular .NET version using C#."
 type: docs
 weight: 130
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/xamarin-and-net-standard-2-0-limitations-and-api-differences/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Extend and Contribute to CRM Duplicate Detection
 description: "How to defined a custom workflow using Aspose.Words to detect duplicated documents in C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/extend-and-contribute-to-crm-duplicate-detection/
 timestamp: 2024-10-24-11-44-28
 ---

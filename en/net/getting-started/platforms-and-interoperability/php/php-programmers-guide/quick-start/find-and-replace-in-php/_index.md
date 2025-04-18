@@ -6,6 +6,8 @@ linktitle: Find and Replace in PHP
 description: "Using Aspose.Words for .NET in PHP via COM to find and replace text in MS Word documents in C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/find-and-replace-in-php/
 timestamp: 2024-01-27-14-07-04
 ---

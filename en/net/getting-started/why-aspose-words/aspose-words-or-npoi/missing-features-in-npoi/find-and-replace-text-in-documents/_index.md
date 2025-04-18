@@ -6,6 +6,8 @@ linktitle: Find and Replace Text in Documents
 description: "Find and replace text or strings. NPOI does not provide an opportunity to find and replace using C#."
 type: docs
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/find-and-replace-text-in-documents/
 aliases: [/net/using-find-and-replace-in-npoi/]
 timestamp: 2024-10-21-11-17-44

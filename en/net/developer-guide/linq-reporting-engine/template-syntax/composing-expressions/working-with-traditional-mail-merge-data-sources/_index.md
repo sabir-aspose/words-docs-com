@@ -6,6 +6,8 @@ linktitle: Working with Traditional Mail Merge Data Sources
 description: "Use simplified syntax in template expressions to work with traditional Aspose.Words Mail Merge data source objects when building a report in C#."
 type: docs
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/working-with-mail-merge-data-sources/
 timestamp: 2024-10-21-11-17-44
 ---

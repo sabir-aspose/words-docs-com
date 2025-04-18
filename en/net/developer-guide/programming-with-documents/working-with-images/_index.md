@@ -6,6 +6,8 @@ linktitle: Working with Images
 description: "Image shapes in details and advanced features provided by Aspose.Words for .NET."
 type: docs
 weight: 300
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/working-with-images/
 aliases:
 - /net/working-with-graphic-elements/

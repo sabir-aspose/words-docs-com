@@ -6,6 +6,8 @@ linktitle: Working with Common Conditional Blocks
 description: "Use common conditional blocks within paragraphs to represent the same data depending on a condition using C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/working-with-common-conditional-blocks/
 timestamp: 2024-01-27-14-07-04
 ---

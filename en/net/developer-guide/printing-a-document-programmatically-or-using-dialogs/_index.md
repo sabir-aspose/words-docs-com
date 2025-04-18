@@ -6,6 +6,8 @@ linktitle: Printing a Document Programmatically or Using Dialogs
 description: "Print a document on a Server using the unmanaged XpsPrint API or via a selected printer with Settings and Print Preview Dialogs in C#."
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-31-14-23-37
 ---

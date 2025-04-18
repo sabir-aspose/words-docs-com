@@ -6,6 +6,8 @@ linktitle: Microsoft Visual Studio
 description: "How to integrate Aspose.Words with Visual Studio to perform a wide variety of document processing tasks using C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/aspose-words-net-for-visualstudio/
 timestamp: 2024-01-27-14-07-04
 ---

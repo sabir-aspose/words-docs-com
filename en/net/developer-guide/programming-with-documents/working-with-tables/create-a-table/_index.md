@@ -6,6 +6,8 @@ linktitle: Create a Table
 description: "A guide on how to make a table in C# in various ways. Create table in C# for your document."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/create-a-table/
 aliases: [/net/introduction-and-creating-tables/]
 timestamp: 2024-10-21-11-17-44

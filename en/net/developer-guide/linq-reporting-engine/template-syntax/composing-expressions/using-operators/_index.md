@@ -6,6 +6,8 @@ linktitle: Using Operators
 description: "Use predefined operators in template expressions when building a report in C#."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/using-operators-linq/
 timestamp: 2024-10-21-11-17-44
 ---

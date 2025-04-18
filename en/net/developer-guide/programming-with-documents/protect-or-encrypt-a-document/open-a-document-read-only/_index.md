@@ -6,6 +6,8 @@ linktitle: Open a Document Read-Only
 description: "Make your document read-only so that the content can be copied or read, but not modified using C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/open-a-document-read-only/
 aliases: [/net/document-protection/]
 timestamp: 2024-01-27-14-07-04

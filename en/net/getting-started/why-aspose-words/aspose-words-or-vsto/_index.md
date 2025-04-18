@@ -6,6 +6,8 @@ linktitle: Aspose.Words or VSTO
 description: "Aspose.Words for .NET is an advanced document processing library that provides great support for all Microsoft Word and other document formats. VSTO and Aspose.Words do not compete with each other because they solve slightly different user tasks using C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/aspose-words-or-vsto/
 aliases: [/net/aspose-words-net-for-vsto/]
 timestamp: 2024-01-27-14-07-04
