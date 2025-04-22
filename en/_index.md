@@ -10,7 +10,7 @@ timestamp: 2024-02-27-09-34-16
 
 Aspose.Words is a class library available on the most popular platforms that allows your applications to perform a wide range of document processing tasks. You can create, edit, render, print your document, as well as convert it to almost any format, such as DOC, DOCX, RTF, HTML, Markdown, PDF, XPS, EPUB and more. And all this without the use of additional libraries and applications.
 
-{{< tabs tabTotal="8" tabID="1" tabName1="Aspose.Words for .NET" tabName2="Aspose.Words for Java" tabName3="Aspose.Words for C++" tabName4="Aspose.Words for Python via .NET" tabName5="Aspose.Words for JasperReports" tabName6="Aspose.Words for SharePoint" tabName7="Aspose.Words for Reporting Services" tabName8="Aspose.Words for Android via Java" >}}
+{{< tabs tabTotal="9" tabID="1" tabName1="Aspose.Words for .NET" tabName2="Aspose.Words for Java" tabName3="Aspose.Words for C++" tabName4="Aspose.Words for Python via .NET" tabName5="Aspose.Words for Node.js via .NET" tabName6="Aspose.Words for JasperReports" tabName7="Aspose.Words for SharePoint" tabName8="Aspose.Words for Reporting Services" tabName8="Aspose.Words for Android via Java" >}}
 {{< tab tabNum="1" >}}
 
 <div class="row">
@@ -102,6 +102,28 @@ Aspose.Words is a class library available on the most popular platforms that all
 
 <div class="row">
     <div class="col-md-6">
+        <img src="home_7" alt="Aspose.Words for Node.js Product Logo" style="width:50px"/>
+        <p>Aspose.Words for Node.js via .NET is a class library that enables your applications to perform a great range of document processing tasks. Aspose.Words supports DOC, DOCX, RTF, HTML, OpenDocument, PDF, XPS, EPUB, and other formats. With Aspose.Words you can generate, modify, convert, render, and print documents without utilizing Microsoft Word.</p>
+        <p>Below are quick links to some useful resources you may need to get started with Aspose.Words for Node.js via .NET:</p>
+        <ul>
+            <li><a href="https://products.aspose.com/words/nodejs-net/">Aspose.Words for Node.js via .NET product page</a></li>
+            <li><a href="/words/nodejs-net/product-overview/">Aspose.Words for Node.js via .NET overview</a></li>
+            <li><a href="/words/nodejs-net/developer-guide/">Aspose.Words for Node.js via .NET features</a></li>
+            <li><a href="https://reference.aspose.com/words/nodejs-net/">Aspose.Words for Node.js via .NET – API Reference guide</a></li>
+            <li><a href="https://releases.aspose.com/words/nodejs/release-notes/">Aspose.Words for Node.js via .NET release notes</a></li>
+            <li><a href="https://releases.aspose.com/words/nodejs/">Aspose.Words for Node.js via .NET download</a></li>
+            <li><a href="https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET">Aspose.Words for Node.js via .NET examples, plugins and showcases</a></li>
+            <li><a href="https://forum.aspose.com/c/words/8">Aspose.Words for Node.js via .NET Free Support Forum</a></li>
+            <li><a href="https://helpdesk.aspose.com/">Aspose.Words for Node.js via .NET Paid Support Helpdesk</a></li>
+        </ul>
+    </div>
+</div>
+
+{{< /tab >}}
+{{< tab tabNum="6" >}}
+
+<div class="row">
+    <div class="col-md-6">
         <img src="home_6" alt="Aspose.Words for JasperReports Product Logo" style="width:50px"/>
         <p>Aspose.Words for JasperReports is the only well-known market solution that makes possible export reports from JasperReports and JasperServer to Microsoft Word document formats. All report features are converted with a high degree of accuracy to Microsoft Word documents.</p>
         <p>Below are quick links to some useful resources you may need to get started with Aspose.Words for JasperReports:</p>
@@ -117,7 +139,7 @@ Aspose.Words is a class library available on the most popular platforms that all
     </div>
 </div>
 {{< /tab >}}
-{{< tab tabNum="6" >}}
+{{< tab tabNum="7" >}}
 
 <div class="row">
     <div class="col-md-6">
@@ -136,7 +158,7 @@ Aspose.Words is a class library available on the most popular platforms that all
     </div>
 </div>
 {{< /tab >}}
-{{< tab tabNum="7" >}}
+{{< tab tabNum="8" >}}
 
 <div class="row">
     <div class="col-md-6">
@@ -155,7 +177,7 @@ Aspose.Words is a class library available on the most popular platforms that all
     </div>
 </div>
 {{< /tab >}}
-{{< tab tabNum="8" >}}
+{{< tab tabNum="9" >}}
 
 <div class="row">
     <div class="col-md-6">
