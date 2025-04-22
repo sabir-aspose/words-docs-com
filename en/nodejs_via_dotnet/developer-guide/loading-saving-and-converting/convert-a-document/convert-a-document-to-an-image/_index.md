@@ -1,0 +1,36 @@
+---
+title: Convert a Document to an Image
+second_title: Aspose.Words for Node.js via .NET
+articleTitle: Convert a Document to an Image
+linktitle: Convert a Document to an Image
+type: docs
+description: "Convert a document to image format (JPG, PNG, etc). Create a document preview or create a document scan to send an invoice using Node.js."
+weight: 43
+url: /nodejs-net/convert-a-document-to-an-image/
+aliases: [/nodejs/convert-a-document-to-an-image/]
+timestamp: 2025-04-21-14-07-04
+---
+
+Sometimes it is required to get an image instead of documents in other formats, such as DOCX or PDF. For example, you need to add a preview of any document page to your website or application, or create a "scan" of a document to send an invoice. This is when you may need to convert a document in any [supported load format](https://reference.aspose.com/words/nodejs-net/aspose.words/loadformat/) to an image, again, in any [supported save format](https://reference.aspose.com/words/nodejs-net/aspose.words/saveformat/).
+
+## Convert to Image Format {#convert-to-image-format}
+
+As with all conversion examples already described, you need to create a new document or load an existing one in any supported format, make the necessary changes, and save it in any available image format, for example, JPEG, PNG, or BMP.
+
+The following code example shows how to convert PDF to JPEG:
+
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-base_conversions-PdfToJpeg.py" >}}
+
+## Specify Save Options when Converting to an Image {#specify-save-options-when-converting-to-an-image}
+
+Aspose.Words provides you with the [ImageSaveOptions](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/imagesaveoptions/) class, which gives more control over how documents are saved in various image formats. Some properties of this class inherit or overload properties of base classes such as [FixedPageSaveOptions](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/fixedpagesaveoptions/) or [SaveOptions](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/saveoptions/), but there are also options specific to saving images.
+
+It is possible to specify the pages to be converted to image format using the [pageSet](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/imagesaveoptions/pageset/) property. For example, it can be applied if you only need a preview for the first or for a definite page.
+
+It is also possible to control the output image quality and pixel format using the following properties – [horizontalResolution](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/imagesaveoptions/horizontalresolution/), [verticalResolution](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/imagesaveoptions/verticalresolution/), [scale](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/imagesaveoptions/scale/), [pixelFormat](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/imagesaveoptions/pixelformat/), as well as set up image color settings, using the following properties – [imageBrightness](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/imagesaveoptions/imagebrightness/), [imageColorMode](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/imagesaveoptions/imagecolormode/), [imageContrast](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/imagesaveoptions/imagecontrast/), [paperColor](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/imagesaveoptions/papercolor/).
+
+There are also properties that apply to a certain format, for example, [jpegQuality](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/imagesaveoptions/jpegquality/) or [tiffCompression](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/imagesaveoptions/tiffcompression/).
+
+The following code example shows how to create a preview of the first document page with applying some additional settings:
+
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_image_save_options-GetJpegPageRange.py" >}}

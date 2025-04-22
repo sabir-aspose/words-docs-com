@@ -6,6 +6,8 @@
 
 [Aspose.Words for C++ Documentation](cpp)
 
+[Aspose.Words for Node.js via .NET Documentation](nodejs_via_dotnet)
+
 [Aspose.Words for Android via Java Documentation](androidjava)
 
 [Aspose.Words for Reporting Services Documentation](reportingservices)
