@@ -25,4 +25,4 @@ Below code snippet follows these steps:
 
 The following code snippet is a "Hello, World!" example to exhibit working of "Aspose.Words for Node.js via .NET" API:
 
-{{< gist "aspose-words-gists" "ff869587c650d2a27785d5cd598ae0b4" "hello-world.py" >}}
+{{< gist "aspose-words-gists" "ff869587c650d2a27785d5cd598ae0b4" "SimpleHelloWorld.js" >}}

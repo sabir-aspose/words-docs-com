@@ -34,9 +34,11 @@ Converting from the DOC or DOCX document format into the PDF format in Aspose.Wo
 
 The following code example shows how to convert a document from DOCX into PDF using the [save](https://reference.aspose.com/words/nodejs-net/aspose.words/document/save/#string) method:
 
-{{< gist "aspose-words-gists" "36a49a29062268dc5e6d3134163f8d99" "docx-to-pdf.py" >}}
-
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/blob/master/Examples/Data/Rendering.docx).
+{{< highlight js >}}
+const aw = require('@aspose/words');
+let doc = new aw.Document("Document.docx");
+doc.save("BaseConversions.docx_to_pdf.pdf");
+{{< /highlight >}}
 
 {{% alert color="primary" %}}
 
@@ -52,7 +54,16 @@ Aspose.Words provides the [PdfCompliace](https://reference.aspose.com/words/nod
 
 The following code example demonstrates how to convert a document to PDF 1.7 using [PdfSaveOptions](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/pdfsaveoptions/) with compliance to [PDF17](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/pdfcompliance/#pdf17):
 
-{{< gist "aspose-words-gists" "36a49a29062268dc5e6d3134163f8d99" "conversion-to-pdf17.py" >}}
+
+{{< highlight js >}}
+const aw = require('@aspose/words');
+
+let doc = new aw.Document("Rendering.docx");
+let saveOptions = aw.saving.PdfSaveOptions();
+saveOptions.compliance = aw.saving.PdfCompliance.Pdf17;
+
+doc.save("WorkingWithPdfSaveOptions.conversion_to_pdf_17.pdf", save_options);
+{{< /highlight >}}
 
 ## Convert Images to PDF
 
@@ -60,11 +71,10 @@ Converting to PDF is not restricted by Microsoft Word document formats. Any for
 
 The following code example shows how to convert JPEG and TIFF images to PDF:
 
-{{< gist "aspose-words-gists" "36a49a29062268dc5e6d3134163f8d99" "image-to-pdf.py" >}}
+{{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "ImageToPdf.js" >}}
 
-{{< gist "aspose-words-gists" "36a49a29062268dc5e6d3134163f8d99" "convert-image-to-pdf.py" >}}
+{{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "ConvertImageToPdf.js" >}}
 
-To make this code work, you need to add references to Aspose.Words and `aspose.pydrawing` to your project.
 
 ## Reduce PDF Output Size
 
@@ -76,7 +86,7 @@ Using the **OptimizeOutput** property may affect the accuracy of content display
 
 {{% /alert %}}
 
-{{< gist "aspose-words-gists" "36a49a29062268dc5e6d3134163f8d99" "optimize-output.py" >}}
+{{< gist "aspose-words-gists" "36a49a29062268dc5e6d3134163f8d99" "OptimizeOutput.js" >}}
 
 ## Reduce PDF Output Size
 
