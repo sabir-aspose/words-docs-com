@@ -6,6 +6,8 @@ linktitle: System Requirements and Supported Platforms
 description: "System requirements and supported platforms for Aspose.Words for Java on PHP in Details."
 type: docs
 weight: 5
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/system-requirements-for-php/
 aliases: /java/aspose-words-java-for-php/
 timestamp: 2024-01-27-14-07-04

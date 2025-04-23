@@ -6,6 +6,8 @@ linktitle: Working with Content Control SDT
 type: docs
 description: "Advanced document content management, how to create and manipulate content controls (Structured Document Tags) using Java."
 weight: 390
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---

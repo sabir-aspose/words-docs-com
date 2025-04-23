@@ -7,6 +7,8 @@ type: docs
 description: "Save a document in any supported format using C++."
 keywords: "save a document c++, save a document to file c++, save a document to stream c++, save a document Aspose C++, save formats supported by Aspose.Words C++"
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/save-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

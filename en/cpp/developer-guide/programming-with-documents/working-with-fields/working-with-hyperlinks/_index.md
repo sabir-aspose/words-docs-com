@@ -9,6 +9,8 @@ aliases:
     - /cpp/how-to-replace-or-modify-hyperlinks-and-replace-fields-with-static-text/
     - /cpp/working-with-hyperlinks-and-html/
 weight: 180
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/working-with-hyperlinks/
 timestamp: 2024-01-27-14-07-04
 ---

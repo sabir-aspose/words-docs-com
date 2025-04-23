@@ -6,6 +6,8 @@ linktitle: Working With Styles in Python
 description: "Working With Styles using Python."
 type: docs
 weight: 90
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/working-with-styles-in-python/
 timestamp: 2024-01-27-14-07-04
 ---

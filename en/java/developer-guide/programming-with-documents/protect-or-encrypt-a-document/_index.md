@@ -6,6 +6,8 @@ linktitle: Protect or Encrypt a Document
 description: "Encrypt a document, restrict editing, use digital signatures for document protection. Aspose.Words supports most Word protection options using Java."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

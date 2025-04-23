@@ -6,6 +6,8 @@ linktitle: Restrict Document Editing
 description: "Restrict editing a document by setting a restriction type using C++. You can also remove protection and make unrestricted editable regions."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---

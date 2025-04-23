@@ -6,6 +6,8 @@ linktitle: Merge Documents
 description: "Merge documents easily and fast instead of using docx4j."
 type: docs
 weight: 90
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/merge-documents/
 timestamp: 2024-01-27-14-07-04
 ---

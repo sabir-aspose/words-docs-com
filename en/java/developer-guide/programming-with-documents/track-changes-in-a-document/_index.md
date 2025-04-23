@@ -6,6 +6,8 @@ linktitle: Track Changes in a Document
 description: "Track changes to content and formatting made by you or others. Access individual revisions in a document and apply various properties to them using Java."
 type: docs
 weight: 270
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

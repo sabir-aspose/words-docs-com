@@ -6,6 +6,8 @@ linktitle: Convert Document to HTML
 description: "Convert a document in any supported format to HTML easily and fast instead of using docx4j in Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/convert-document-to-html/
 timestamp: 2024-01-27-14-07-04
 ---

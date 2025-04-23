@@ -6,6 +6,8 @@ linktitle: Merge Table Cells
 description: "How to merge table cells in C++. Check if cells in a table are merged using C++."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/merge-table-cells/
 timestamp: 2024-01-27-14-07-04
 ---

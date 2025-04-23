@@ -6,6 +6,8 @@ linktitle: Export to Word Plugin for dotCMS
 description: "Export to Word Plugin for dotCMS using Java."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/export-to-word-plugin-for-dotcms/
 timestamp: 2024-05-02-11-51-44
 ---

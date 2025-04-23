@@ -6,6 +6,8 @@ linktitle: Clone a Document
 type: docs
 description: "Clone a document to get its identical copy. When creating a copy, nodes and properties of the original document are cloned using Java."
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/clone-a-document/
 aliases: [/java/clone-and-combine-documents/]
 timestamp: 2024-01-27-14-07-04

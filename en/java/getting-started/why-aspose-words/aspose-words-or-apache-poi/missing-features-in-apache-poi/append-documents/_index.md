@@ -6,6 +6,8 @@ linktitle: Append Documents
 description: "Combine documents and append one document to another. Apache POI does not provide an opportunity to merge or append documents."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/append-documents/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,8 @@ linktitle: Build a Table from a DataTable
 description: "Example of filling document table from external database using Java."
 type: docs
 weight: 130
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/how-to-build-a-table-from-a-datatable/
 timestamp: 2024-01-27-14-07-04
 ---

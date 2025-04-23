@@ -6,6 +6,8 @@ linktitle: Usage Examples
 description: "Examples of using Aspose.Words Java for PHP."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/usage-examples-for-php/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Working with Fonts
 description: "Font formatting in details using Java."
 type: docs
 weight: 230
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/working-with-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Specify TrueType Fonts Location
 description: "Specify various TrueType font sources: system folder, user sources, loading fonts from a stream, a file system, or memory using Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/specify-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

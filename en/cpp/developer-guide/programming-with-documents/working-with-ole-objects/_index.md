@@ -8,6 +8,8 @@ type: docs
 aliases:
  - /cpp/working-with-ole-objects-and-online-video/
 weight: 360
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/working-with-ole-objects/
 timestamp: 2024-01-27-14-07-04
 ---

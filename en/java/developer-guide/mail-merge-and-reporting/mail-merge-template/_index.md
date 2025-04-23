@@ -7,6 +7,8 @@ type: docs
 description: "Create a Mail Merge template to define fixed content in output documents, and then generate merge documents using the merge fields in Java."
 keywords: "create Mail Merge template Java, Mail Merge Java"
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/mail-merge-template/
 timestamp: 2024-01-31-14-23-37
 ---

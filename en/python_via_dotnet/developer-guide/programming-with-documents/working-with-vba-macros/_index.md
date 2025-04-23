@@ -6,6 +6,8 @@ linktitle: Working with VBA Macros
 description: "Create, read, write, clone, and manage VBA macros in a document using Python."
 type: docs
 weight: 410
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/working-with-vba-macros/
 aliases: [/python/working-with-vba-macros/]
 timestamp: 2024-01-27-14-07-04

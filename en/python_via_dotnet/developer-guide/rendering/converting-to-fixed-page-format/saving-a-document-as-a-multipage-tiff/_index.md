@@ -6,6 +6,8 @@ linktitle: Saving a Document as a Multipage TIFF
 description: "Convert a document to a multi-page TIFF using Python. To determine how the document is displayed on the image you need to specify additional options: resolution, number of pages, image binarization, etc."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/saving-a-document-as-a-multipage-tiff/
 aliases: [/python/saving-a-document-as-a-multipage-tiff/]
 timestamp: 2024-01-27-14-07-04

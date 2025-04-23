@@ -6,6 +6,8 @@ linktitle: Add or Modify Hyperlinks
 description: "How to add a hyperlink into your document using Java."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/working-with-hyperlinks/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Convert a Document to HTML, MHTML or EPUB
 description: "Convert a document from almost any format to HTML or MHTML, as well as to EPUB format using Python. You can also specify save options for managing the output document."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/convert-a-document-to-html-mhtml-or-epub/
 aliases: [/python/convert-a-document-to-html-mhtml-or-epub/]
 timestamp: 2024-01-27-14-07-04

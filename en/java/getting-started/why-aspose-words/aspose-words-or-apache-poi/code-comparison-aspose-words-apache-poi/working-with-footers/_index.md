@@ -6,6 +6,8 @@ linktitle: Working with Footers
 description: "Remove footers from a document easily and fast instead of using Apache POI."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/working-with-footers/
 timestamp: 2024-01-27-14-07-04
 ---

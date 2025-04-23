@@ -6,6 +6,8 @@ linktitle: Working with Ranges
 description: "Introduction to Range feature in Aspose.Words for C++."
 type: docs
 weight: 130
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/working-with-ranges/
 timestamp: 2024-01-27-14-07-04
 ---

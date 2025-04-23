@@ -6,6 +6,8 @@ linktitle: Hello World in Python
 description: "Write 'hello' to the Word Document using Python."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/hello-world-in-python/
 timestamp: 2024-01-27-14-07-04
 ---

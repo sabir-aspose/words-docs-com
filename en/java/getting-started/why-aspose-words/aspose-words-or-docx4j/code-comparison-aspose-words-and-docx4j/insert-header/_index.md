@@ -6,6 +6,8 @@ linktitle: Insert Header
 description: "Insert a header into a document easily and fast instead of using docx4j."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/insert-header/
 timestamp: 2024-01-27-14-07-04
 ---

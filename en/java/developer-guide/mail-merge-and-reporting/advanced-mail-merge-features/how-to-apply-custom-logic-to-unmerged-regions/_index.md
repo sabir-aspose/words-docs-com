@@ -6,6 +6,8 @@ linktitle: How to  Apply Custom Logic to Unmerged Regions
 type: docs
 description: "Apply custom logic to unmerged regions during a Mail Merge operation using Java."
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/how-to-apply-custom-logic-to-unmerged-regions/
 timestamp: 2024-01-27-14-07-04
 ---

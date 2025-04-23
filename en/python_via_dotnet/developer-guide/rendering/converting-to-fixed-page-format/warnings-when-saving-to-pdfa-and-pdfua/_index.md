@@ -6,6 +6,8 @@ linktitle: Accessibility Issue Warnings When Saving to PDF/A and PDF/UA
 description: "PDF/A and PDF/UA impose accessibility requirements related to document content. When saving to PDF/A or PDF/UA in Python and the issue violates compliance, a warning is issued."
 type: docs
 weight: 29
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

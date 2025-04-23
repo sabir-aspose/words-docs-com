@@ -6,6 +6,8 @@ linktitle: How to build Aspose.Words for Python via Java
 description: "How to build Aspose.Words for Java on Python."
 type: docs
 weight: 5
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/how-to-build-aspose-words-for-python-via-java/
 timestamp: 2024-01-27-14-07-04
 ---

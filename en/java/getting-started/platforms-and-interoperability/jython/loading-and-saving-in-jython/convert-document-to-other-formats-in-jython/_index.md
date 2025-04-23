@@ -6,6 +6,8 @@ linktitle: Convert Document to Other Formats in Jython
 description: "Convert Document to Other Formats using Jython in Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/convert-document-to-other-formats-in-jython/
 timestamp: 2024-01-27-14-07-04
 ---

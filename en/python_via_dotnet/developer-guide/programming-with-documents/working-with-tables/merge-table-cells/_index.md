@@ -6,6 +6,8 @@ linktitle: Merge Table Cells
 description: "How to merge table cells in Python. Check if cells in a table are merged using Python."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/working-with-merged-cells/
 timestamp: 2024-01-27-14-07-04
 ---

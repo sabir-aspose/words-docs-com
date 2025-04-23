@@ -6,6 +6,8 @@ linktitle: Create a Table
 description: "Different ways to create tables using C++. Create table in C++ for your document. Add a table in C++."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/create-a-table/
 aliases: [/cpp/introduction-and-creating-tables/]
 timestamp: 2024-10-21-11-17-44

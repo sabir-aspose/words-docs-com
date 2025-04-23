@@ -6,6 +6,8 @@ linktitle: Convert Document to PDF
 description: "Convert a document in any supported format to PDF easily and fast instead of using docx4j in Java."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/convert-document-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

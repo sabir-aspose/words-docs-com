@@ -6,6 +6,8 @@ linktitle: Summarize a Document
 type: docs
 weight: 20
 description: "Summarize a document. Aspose.Words for Java simplifies document summarization using OpenAI and Google AI models by allowing you to specify the summary length."
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/summarize-a-document/
 timestamp: 2025-03-17-19-00-00
 ---

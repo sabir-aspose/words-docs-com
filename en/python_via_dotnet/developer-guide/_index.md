@@ -6,6 +6,8 @@ linktitle: Developer Guide
 description: "This Developer Guide describes practical scenarios and tips to help you use specific Aspose.Words for Python via .NET features, achieve a certain document appearance, or make a use case possible."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/developer-guide/
 aliases: [/python/developer-guide/]
 timestamp: 2024-09-25-11-08-55

@@ -6,6 +6,8 @@ linktitle: Aspose.Words Features Missing in Apache POI
 description: "Perform some operations with documents faster and more conveniently than Apache POI. In addition, there are operations that are not supported by Apache POI."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/missing-features-in-apache-poi/
 aliases:
   - /java/missing-features-in-apache-poi-hwpf-and-xwpf/

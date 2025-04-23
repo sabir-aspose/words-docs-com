@@ -6,6 +6,8 @@ linktitle: Working with Bookmarks
 description: "Understanding bookmark concepts and how bookmark can be used in your program using C++."
 type: docs
 weight: 180
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/working-with-bookmarks/
 timestamp: 2024-01-27-14-07-04
 ---

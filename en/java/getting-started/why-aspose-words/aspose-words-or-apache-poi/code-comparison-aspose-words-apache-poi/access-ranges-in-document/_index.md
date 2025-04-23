@@ -6,6 +6,8 @@ linktitle: Access Ranges in Document
 description: "Access ranges in a document easily and fast instead of using Apache POI."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/access-ranges-in-document/
 timestamp: 2024-01-27-14-07-04
 ---

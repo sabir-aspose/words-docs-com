@@ -6,6 +6,8 @@ linktitle: Hello World in Ruby
 description: "Write 'Hello' to a Word Document using Ruby."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/hello-world-in-ruby/
 timestamp: 2024-01-27-14-07-04
 ---

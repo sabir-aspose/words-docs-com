@@ -6,6 +6,8 @@ linktitle: Split a Document
 description: "Aspose.Words for Java provides you with an efficient way to split one document into multiple documents by headings or sections, as well as pages or page ranges."
 type: docs
 weight: 90
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

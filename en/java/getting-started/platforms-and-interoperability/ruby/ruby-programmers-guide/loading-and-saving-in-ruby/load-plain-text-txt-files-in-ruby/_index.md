@@ -6,6 +6,8 @@ linktitle: Load Plain Text (TXT) Files in Ruby
 description: "Load TXT file and save as Word document using Ruby."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/load-plain-text-txt-files-in-ruby/
 timestamp: 2024-01-27-14-07-04
 ---

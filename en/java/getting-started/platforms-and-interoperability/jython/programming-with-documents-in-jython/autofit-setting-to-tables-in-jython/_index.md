@@ -6,6 +6,8 @@ linktitle: Autofit Setting to Tables in Jython
 description: "Autofit Setting to Tables using Jython."
 type: docs
 weight: 63
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/autofit-setting-to-tables-in-jython/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Insert Barcode on Each Page in Jython
 description: "Insert Barcode on Each Page using Jython."
 type: docs
 weight: 34
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/insert-barcode-on-each-page-in-jython/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Insert Fields
 description: "Insert fields into a document in Python in different ways: using `DocumentBuilder` or DOM (Document Object Model)."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/inserting-fields/
 aliases: [/python/inserting-fields/]
 timestamp: 2024-09-25-11-08-55

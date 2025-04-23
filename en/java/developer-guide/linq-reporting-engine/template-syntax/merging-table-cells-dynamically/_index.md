@@ -6,6 +6,8 @@ linktitle: Merging Table Cells Dynamically
 description: "Merge table cells with equal textual contents when building a report in Java."
 type: docs
 weight: 100
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/merging-table-cells-dynamically/
 timestamp: 2024-01-27-14-07-04
 ---

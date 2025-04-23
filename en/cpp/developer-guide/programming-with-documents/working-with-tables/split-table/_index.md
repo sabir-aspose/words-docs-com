@@ -6,6 +6,8 @@ linktitle: Split Table
 description: "Split table in C++. How to split one table into two separate tables C++."
 type: docs
 weight: 100
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/split-table/
 timestamp: 2024-01-27-14-07-04
 ---

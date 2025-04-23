@@ -6,6 +6,8 @@ linktitle: How to use the Examples
 description: "How to run Aspose.Words for Android via Java examples."
 type: docs
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/how-to-use-the-examples/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Aspose.Words or Open XML SDK
 description: "Aspose.Words for Java is a very useful document processing library that provides great support for all Microsoft Word and other document formats. Open XML SDK and Aspose.Words do not compete with each other because they address quite different needs."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/aspose-words-or-open-xml-sdk/
 aliases: [/java/why-not-open-xml-sdk/]
 timestamp: 2024-01-31-14-23-37

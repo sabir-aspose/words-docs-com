@@ -6,6 +6,8 @@ linktitle: Update Fields in PHP
 description: "Update fields of Word Document using PHP."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/update-fields-in-php/
 timestamp: 2024-01-27-14-07-04
 ---

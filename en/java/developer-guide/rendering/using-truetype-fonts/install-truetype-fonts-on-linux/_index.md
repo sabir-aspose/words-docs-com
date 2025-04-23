@@ -6,6 +6,8 @@ linktitle: Install TrueType Fonts on Linux
 description: "Aspose.Words for Java enables rendering a document created using Microsoft Word on a Linux machine with the best accuracy."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/install-truetype-fonts-on-linux/
 aliases: [/java/installing-truetype-fonts-on-linux/]
 timestamp: 2024-01-27-14-07-04

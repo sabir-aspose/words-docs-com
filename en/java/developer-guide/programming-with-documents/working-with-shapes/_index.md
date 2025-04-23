@@ -6,6 +6,8 @@ linktitle: Working with Shapes
 type: docs
 description: "Introduction to shape markup language, creating shapes of different types using Java."
 weight: 280
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/working-with-shapes/
 aliases:
 - /java/working-with-graphic-elements/

@@ -6,6 +6,8 @@ linktitle: Aspose.Words Features Missing in Docx4j
 description: "Perform some operations with documents faster and more conveniently than docx4j. In addition, there are operations that are not supported by docx4j."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/missing-features-of-docx4j-in-aspose-words/
 aliases:
   - /java/working-with-documents-using-aspose-words/

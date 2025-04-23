@@ -6,6 +6,8 @@ linktitle: Working with Paragraphs
 description: "Paragraph node manipulation practices using C++."
 type: docs
 weight: 210
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/working-with-paragraphs/
 timestamp: 2024-01-30-16-22-34
 ---

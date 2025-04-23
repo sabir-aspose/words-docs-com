@@ -6,6 +6,8 @@ linktitle: Open a Document Read-Only
 description: "Make your document read-only so that the content can be copied or read, but not modified using Python."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/open-a-document-read-only/
 aliases:
  - /python/document-protection/

@@ -6,6 +6,8 @@ linktitle: Working with Fields
 description: "How to work with fields in a documents using Python."
 type: docs
 weight: 370
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/working-with-fields/
 aliases: [/python/working-with-fields/]
 timestamp: 2024-01-27-14-07-04

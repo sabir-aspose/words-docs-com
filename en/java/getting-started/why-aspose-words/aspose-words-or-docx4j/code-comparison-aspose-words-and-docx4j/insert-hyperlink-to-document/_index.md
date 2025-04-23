@@ -6,6 +6,8 @@ linktitle: Insert Hyperlink to Document
 description: "Insert a hyperlink to a document easily and fast instead of using docx4j."
 type: docs
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/insert-hyperlink-to-document/
 timestamp: 2024-09-25-11-08-55
 ---

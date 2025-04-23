@@ -6,6 +6,8 @@ linktitle: Loading And Saving in Ruby
 description: "Loading And Saving Documents using Ruby."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/loading-and-saving-in-ruby/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Replace Fields with Static Text
 description: "Learn how to replace fields with text in Java. Replace fields with static data using the Java API."
 type: docs
 weight: 37
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/replace-fields/
 aliases: [/java/how-to-replace-or-modify-hyperlinks-and-replace-fields-with-static-text/]
 timestamp: 2024-01-27-14-07-04

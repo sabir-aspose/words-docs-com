@@ -6,6 +6,8 @@ linktitle: Convert Document to Other Formats
 description: "Convert a document from one format to another and fast instead of using Apache POI in Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/convert-document-to-other-formats/
 timestamp: 2024-01-27-14-07-04
 ---

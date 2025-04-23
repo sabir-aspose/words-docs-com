@@ -6,6 +6,8 @@ linktitle: Document Builder Overview
 type: docs
 description: "DocumentBuilder allows you to build dynamic documents from scratch or add new elements to existing ones using Python. DocumentBuilder provides methods to insert text, checkboxes, tables, images, and other content elements in Python."
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/document-builder-overview/
 aliases: [/python/document-builder-overview/]
 timestamp: 2024-01-27-14-07-04

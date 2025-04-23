@@ -6,6 +6,8 @@ linktitle: Printing a Document Programmatically or Using Dialogs
 description: "Print a document using Java through Settings, Print Preview, and Print progress dialogs."
 type: docs
 weight: 55
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-27-14-07-04
 ---

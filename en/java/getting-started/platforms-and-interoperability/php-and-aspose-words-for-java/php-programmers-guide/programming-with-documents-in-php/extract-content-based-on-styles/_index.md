@@ -6,6 +6,8 @@ linktitle: Extract Content Based On Styles in PHP
 description: "Extract Content Based On Styles using PHP."
 type: docs
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/extract-content-based-on-styles-in-php/
 aliases: [/java/extract-content-based-on-styles-in-php/]
 timestamp: 2024-01-27-14-07-04

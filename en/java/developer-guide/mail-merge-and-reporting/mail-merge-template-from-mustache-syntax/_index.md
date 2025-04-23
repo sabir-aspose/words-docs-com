@@ -7,6 +7,8 @@ type: docs
 description: "Create templates with Mustache syntax. Mustache syntax is the only option to use with templates that do not contain fields (HTML or TXT). With Word templates, you have two options: fields or Mustache syntax using Java."
 keywords: "mail merge template mustache syntax java, Mail Merge java, mustache syntax java"
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/mail-merge-template-from-mustache-syntax/
 timestamp: 2024-01-27-14-07-04
 ---

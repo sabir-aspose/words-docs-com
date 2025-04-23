@@ -6,6 +6,8 @@ linktitle: Translate Markdown to Document Object Model (DOM)
 type: docs
 description: "Tarnslate a Markdown document to Document Object Model and back. So you can work with complex existing Markdown and programmatically create a Markdown document from scratch using Java."
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/translate-markdown-to-document-object-model/
 timestamp: 2024-10-21-11-17-44
 ---

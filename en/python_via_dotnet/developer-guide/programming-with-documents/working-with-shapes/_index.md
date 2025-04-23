@@ -6,6 +6,8 @@ linktitle: Working with Shapes
 description: "Create and manage shapes, ole objects in a document using Python."
 type: docs
 weight: 280
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/working-with-shapes/
 aliases:
 - /python/working-with-shapes/

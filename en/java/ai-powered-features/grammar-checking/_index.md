@@ -6,6 +6,8 @@ linktitle: Grammar Checking
 type: docs
 weight: 40
 description: "Check a document grammar. Aspose.Words for Java allows users to check grammar and detect errors in documents using OpenAI, Google, and Claude models."
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/grammar-checking/
 timestamp: 2025-03-17-19-00-00
 ---

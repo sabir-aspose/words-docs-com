@@ -6,6 +6,8 @@ linktitle: Removing Paragraphs Containing Only Template Syntax Tags
 description: "Learn how remove paragraphs containing only template tags using LINQ in Java."
 type: docs
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/removing-paragraphs-containing-only-template-syntax-tags/
 timestamp: 2024-07-02-05-47-58
 ---
