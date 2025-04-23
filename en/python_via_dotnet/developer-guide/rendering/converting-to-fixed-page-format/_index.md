@@ -6,6 +6,8 @@ linktitle: Converting to Fixed-page Format
 description: "Save documents to PDF, XPS, HTML, XAML, PostScript, and PCL formats using Python."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/converting-to-fixed-page-format/
 aliases: [/python/converting-to-fixed-page-format/]
 timestamp: 2024-01-31-14-23-37

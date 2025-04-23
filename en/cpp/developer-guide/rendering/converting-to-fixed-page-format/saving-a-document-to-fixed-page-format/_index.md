@@ -6,6 +6,8 @@ linktitle: Saving a Document to Fixed-page Format
 description: "How to save a document to a fixed-page format – PDF, XPS, HTML, XAML, PostScript, and PCL? See the instructions."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/saving-a-document-to-fixed-page-format/
 timestamp: 2024-09-24-14-35-44
 ---

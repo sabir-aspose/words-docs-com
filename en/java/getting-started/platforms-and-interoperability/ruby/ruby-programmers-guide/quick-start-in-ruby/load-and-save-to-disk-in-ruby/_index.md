@@ -6,6 +6,8 @@ linktitle: Load And Save To Disk in Ruby
 description: "Load and save MS Word document to disk using Ruby."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/load-and-save-to-disk-in-ruby/
 timestamp: 2024-01-27-14-07-04
 ---

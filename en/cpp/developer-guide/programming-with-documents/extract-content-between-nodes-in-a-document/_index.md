@@ -6,6 +6,8 @@ linktitle: Extract Content Between Nodes
 type: docs
 description: "Extracting document content in different using C++."
 weight: 140
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/how-to-extract-selected-content-between-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

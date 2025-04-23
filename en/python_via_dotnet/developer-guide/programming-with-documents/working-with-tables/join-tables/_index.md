@@ -6,6 +6,8 @@ linktitle: Join Tables
 description: "Join tables in a document using Python. How to merge two tables into one in Python."
 type: docs
 weight: 90
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/join-tables/
 aliases: 
 - /python/joining-and-splitting-tables/

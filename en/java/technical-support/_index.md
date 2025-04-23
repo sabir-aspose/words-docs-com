@@ -6,6 +6,8 @@ linktitle: Technical Support
 type: docs
 description: "Aspose.Words for Java provides free technical support available to all users. Please report your question, issue, or feature request using Aspose Free Support Forum."
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/technical-support/
 aliases: [/java/known-issues-in-aspose-words-for-java/]
 timestamp: 2024-01-27-14-07-04

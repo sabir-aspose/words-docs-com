@@ -6,6 +6,8 @@ linktitle: Working With Styles in Jython
 description: "Working With Styles in Documents using Jython."
 type: docs
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/working-with-styles-in-jython/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Encrypt a Document
 description: "Encrypt your document using appropriate encryption algorithms for specific document formats."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/encrypt-a-document/
 timestamp: 2024-10-21-11-17-44
 ---

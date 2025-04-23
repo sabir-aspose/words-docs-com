@@ -6,6 +6,8 @@ linktitle: Introduction to Fields
 description: "Fields feature in details, field codes and field results explained in Aspose.Words for Java."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/introduction-to-fields/
 timestamp: 2024-09-25-11-08-55
 ---

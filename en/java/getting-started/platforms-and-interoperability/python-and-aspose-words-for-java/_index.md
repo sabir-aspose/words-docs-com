@@ -6,6 +6,8 @@ linktitle: Python and Aspose.Words for Java
 description: "Python: how to use Aspose.Words for Java."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/python-and-aspose-words-for-java/
 aliases:
   - /java/aspose-words-java-for-python/

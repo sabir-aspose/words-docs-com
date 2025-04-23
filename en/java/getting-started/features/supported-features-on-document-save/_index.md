@@ -6,6 +6,8 @@ linktitle: Supported Features on Document Save
 description: "Save a document in most of popular formats and supports lots of Microsoft Word features."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/supported-features-on-document-save/
 aliases:
 - /java/document-saving-overview/

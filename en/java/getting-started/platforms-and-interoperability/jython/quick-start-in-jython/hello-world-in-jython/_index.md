@@ -6,6 +6,8 @@ linktitle: Hello World in Jython
 description: "Create Hello World document using Jython."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/hello-world-in-jython/
 timestamp: 2024-01-27-14-07-04
 ---

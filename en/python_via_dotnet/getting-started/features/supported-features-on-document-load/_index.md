@@ -6,6 +6,8 @@ linktitle: Supported Features on Document Load
 description: "Load your document in any supported format using Python. Import and convert a document of any size."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/supported-features-on-document-load/
 aliases:
   - /python/document-loading-overview/

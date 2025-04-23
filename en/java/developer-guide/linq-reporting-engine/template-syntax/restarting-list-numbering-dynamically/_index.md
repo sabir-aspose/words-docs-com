@@ -6,6 +6,8 @@ linktitle: Restarting List Numbering Dynamically
 description: "Restart list numbering within your documents dynamically when building a report in Java."
 type: docs
 weight: 110
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/restarting-list-numbering-dynamically/
 timestamp: 2024-02-16-10-54-23
 ---

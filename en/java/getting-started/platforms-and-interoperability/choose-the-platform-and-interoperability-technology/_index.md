@@ -6,6 +6,8 @@ linktitle: Choose the Platform and Interoperability Technology
 description: "Choose the Platform for Aspose.Words."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/choose-the-platform-and-interoperability-technology/
 timestamp: 2024-10-21-11-17-44
 ---

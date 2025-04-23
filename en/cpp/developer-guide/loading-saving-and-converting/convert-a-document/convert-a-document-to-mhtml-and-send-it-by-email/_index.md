@@ -6,6 +6,8 @@ linktitle: Convert a Document to MHTML and Send It by Email
 description: "Convert a document from almost any format to the MHTML format and send the result document by e-mail."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/convert-a-document-to-mhtml-and-send-it-by-email/
 timestamp: 2024-01-27-14-07-04
 ---

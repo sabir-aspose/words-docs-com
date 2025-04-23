@@ -6,6 +6,8 @@ linktitle: Working with Hyphenation
 description: "Use hyphenation for a more compact arrangement of text using C++. It provides advanced algorithms to work with hyphenation dictionaries, uses OpenOffice dictionaries."
 type: docs
 weight: 220
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/working-with-hyphenation/
 timestamp: 2024-01-30-16-22-34
 ---

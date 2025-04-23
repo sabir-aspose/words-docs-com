@@ -6,6 +6,8 @@ linktitle: How to Mail Merge PDF to Word Conversion
 type: docs
 description: "Aspose.Words for Java provides some advanced Mail Merge features that allow you to merge PDF to Word conversion."
 weight: 100
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/how-to-mail-merge-pdf-to-word-conversion/
 timestamp: 2024-01-27-14-07-04
 ---

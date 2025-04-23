@@ -6,6 +6,8 @@ linktitle: Inserting Documents Dynamically
 description: "Insert contents of outer documents into your document dynamically when building a report in Java."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/inserting-documents-dynamically/
 timestamp: 2024-05-08-14-20-48
 ---

@@ -8,6 +8,8 @@ aliases:
     - /java/converting-a-microsoft-word-document-using-save-method/
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/convert-a-document-to-pdf/
 timestamp: 2024-01-31-14-23-37
 ---

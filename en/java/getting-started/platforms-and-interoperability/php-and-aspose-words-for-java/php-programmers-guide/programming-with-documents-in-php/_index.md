@@ -6,6 +6,8 @@ linktitle: Programming With Documents in PHP
 description: "Programming Word Documents using PHP."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/programming-with-documents-in-php/
 aliases:
   - /java/working-with-bookmarks-in-php/

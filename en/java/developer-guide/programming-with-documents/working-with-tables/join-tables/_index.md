@@ -6,6 +6,8 @@ linktitle: Join Tables
 description: "Join Tables in Java. Advanced table manipulations, join and split using Java."
 type: docs
 weight: 90
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/join-tables/
 aliases: [/java/joining-and-splitting-tables/]
 timestamp: 2024-01-27-14-07-04

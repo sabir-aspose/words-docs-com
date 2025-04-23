@@ -6,6 +6,8 @@ linktitle: Autofit Setting to Tables
 description: "Autofit settings to tables. Apache POI does not provide an opportunity to autofit settings to tables."
 type: docs
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/autofit-setting-to-tables/
 timestamp: 2024-01-31-14-23-37
 ---

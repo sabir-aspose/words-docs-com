@@ -6,6 +6,8 @@ linktitle: Learn Features of Conversion to PDF/A and PDF/UA
 description: "Convert to PDF/A-1, PDF/A-2, PDF/A-4 and PDF/UA using Python. Choose the best PDF standard to convert a document using Python via .NET."
 type: docs
 weight: 25
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/learn-features-of-conversion-to-pdf-a/
 aliases: [/python/learn-features-of-conversion-to-pdf-a/]
 timestamp: 2024-01-31-14-23-37

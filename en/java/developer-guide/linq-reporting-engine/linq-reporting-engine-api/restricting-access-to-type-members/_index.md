@@ -6,6 +6,8 @@ linktitle: Restricting Access to Type Members
 description: "Learn how to restrict access of a template author to members of types sensitive using LINQ in Java."
 type: docs
 weight: 90
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/restricting-access-to-type-members/
 timestamp: 2024-01-27-14-07-04
 ---

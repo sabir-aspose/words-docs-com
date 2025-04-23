@@ -5,6 +5,8 @@ articleTitle: Create or Load a Document
 linktitle: Create or Load a Document
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/create-or-load-a-document/
 aliases: [/java/creating-or-loading-a-document/]
 description: "Aspose.Words enables you to create a blank document or to load it from a file or stream using Java."

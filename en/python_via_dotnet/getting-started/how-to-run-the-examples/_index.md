@@ -6,6 +6,8 @@ linktitle: How to Run the Examples
 description: "Download Aspose.Words for Python via .NET examples from our GitHub repository and learn how to run them to become more familiar with the Aspose.Words possibilities and features."
 type: docs
 weight: 110
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/how-to-run-the-examples/
 aliases: [/python/how-to-run-the-examples/]
 timestamp: 2024-01-27-14-07-04

@@ -6,6 +6,8 @@ linktitle: Work with Columns and Rows
 description: "Working with parts of a table – rows, columns, and cells using Java. Specify Header Row Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/working-with-columns-and-rows/
 timestamp: 2024-01-27-14-07-04
 ---

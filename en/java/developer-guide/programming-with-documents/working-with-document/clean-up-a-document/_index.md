@@ -6,6 +6,8 @@ linktitle: Clean Up a Document
 description: "Remove unused or duplicate information to reduce output size and processing time. Remove unused styles, unused built-in styles, duplicate styles, or unused lists using Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Update Fields
 description: "Learn how to update fields in Java. Update fields programmatically or use automatic field update using Java API"
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/update-field/
 timestamp: 2024-01-27-14-07-04
 ---

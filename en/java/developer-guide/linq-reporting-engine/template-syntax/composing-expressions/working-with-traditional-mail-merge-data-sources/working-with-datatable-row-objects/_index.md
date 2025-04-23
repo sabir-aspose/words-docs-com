@@ -6,6 +6,8 @@ linktitle: Working with DataTable Row Objects
 description: "Use simplified syntax in template expressions to work with DataTable row objects when building a report in Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/working-with-datatable-row-objects/
 timestamp: 2024-10-21-11-17-44
 ---

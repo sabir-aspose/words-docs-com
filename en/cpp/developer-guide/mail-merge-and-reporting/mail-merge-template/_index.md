@@ -7,6 +7,8 @@ type: docs
 description: "Create a Mail Merge template to define fixed content in output documents, and then generate merge documents using the merge fields."
 keywords: "create Mail Merge template с++"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/mail-merge-template/
 timestamp: 2024-01-31-14-23-37
 ---

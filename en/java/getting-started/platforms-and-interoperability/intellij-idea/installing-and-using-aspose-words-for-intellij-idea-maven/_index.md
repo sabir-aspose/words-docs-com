@@ -6,6 +6,8 @@ linktitle: Installing and Using Aspose.Words for IntelliJ IDEA - Maven
 description: "IntelliJ IDEA: Installing and Using Aspose.Words for Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/installing-and-using-aspose-words-for-intellij-idea-maven/
 timestamp: 2024-05-02-11-51-44
 ---

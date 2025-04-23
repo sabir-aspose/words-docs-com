@@ -6,6 +6,8 @@ linktitle: What's new in Aspose.Words for Python via .NET
 type: docs
 description: "Aspose.Words for Python via .NET expands and enhances daily. On this page, you can learn about the huge and most interesting features of the product."
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/what-s-new-in-aspose-words-for-python-net/
 timestamp: 2025-04-16-07-02-05
 ---

@@ -6,6 +6,8 @@ linktitle: Working with Footnote and Endnote
 description: "Insert ffotnotes or endnotes into a document and specify its options using Python."
 type: docs
 weight: 160
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/working-with-footnote-and-endnote/
 aliases: [/python/working-with-footnote-and-endnote/]
 timestamp: 2024-01-27-14-07-04

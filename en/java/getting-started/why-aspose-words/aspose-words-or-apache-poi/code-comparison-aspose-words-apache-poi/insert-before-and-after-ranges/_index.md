@@ -6,6 +6,8 @@ linktitle: Insert Before and After Ranges
 description: "Insert before and after ranges within a document easily and fast instead of using Apache POI."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/insert-before-and-after-ranges/
 timestamp: 2024-01-27-14-07-04
 ---

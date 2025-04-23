@@ -6,6 +6,8 @@ linktitle: Extract Content Between Nodes
 type: docs
 description: "Extracting document content in different using Java."
 weight: 140
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/extract-selected-content-between-nodes/
 timestamp: 2024-01-27-14-07-04
 ---

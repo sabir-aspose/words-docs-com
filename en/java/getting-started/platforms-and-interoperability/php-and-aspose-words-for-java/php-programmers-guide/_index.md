@@ -6,6 +6,8 @@ linktitle: PHP Programmers Guide
 description: "PHP + Aspose.Words for Java: Programmers Guide."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/php-programmers-guide/
 aliases:
 - /words/java/mail-merge-and-reporting-in-php/

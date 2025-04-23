@@ -6,6 +6,8 @@ linktitle: Aspose.Words Features Missing in Open XML SDK
 description: "Perform some operations with documents faster and more conveniently than Open XML SDK. In addition, there are operations that are not supported by OpenXML."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/missing-features-in-openxml/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,8 @@ linktitle: Aspose.Words or Apache POI
 description: "Perform a large number of tasks with documents faster and more conveniently than POI."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/aspose-words-java-for-apache-poi/
 aliases: [/java/aspose-words-java-for-apache-poi-hwpf-and-xwpf/]
 timestamp: 2024-01-31-14-23-37

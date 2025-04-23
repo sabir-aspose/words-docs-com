@@ -6,6 +6,8 @@ linktitle: Configure Aspose.Words for C++ in Visual Studio
 description: "Manually configure Aspose.Words for C++ in Visual Studio."
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/configure-aspose-words-for-cpp-in-visual-studio/
 timestamp: 2024-09-24-14-35-44
 ---

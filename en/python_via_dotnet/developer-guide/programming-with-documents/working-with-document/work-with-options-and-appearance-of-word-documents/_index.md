@@ -6,6 +6,8 @@ linktitle: Work with Options and Appearance of Word Documents
 description: "Control the appearance of Word documents taking into account the difference between various Microsoft Word versions using Python."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/work-with-word-document-options-and-appearance/
 aliases:
  - /python/work-with-document-options-and-settings/

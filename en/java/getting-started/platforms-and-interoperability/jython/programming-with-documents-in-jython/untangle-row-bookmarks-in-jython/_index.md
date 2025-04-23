@@ -6,6 +6,8 @@ linktitle: Untangle Row Bookmarks in Jython
 description: "Untangle Row Bookmarks using Jython."
 type: docs
 weight: 17
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/untangle-row-bookmarks-in-jython/
 timestamp: 2024-01-27-14-07-04
 ---

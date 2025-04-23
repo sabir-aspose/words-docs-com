@@ -6,6 +6,8 @@ linktitle: Check Format in PHP
 description: "Check Document Format using PHP."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/check-format-in-php/
 timestamp: 2024-01-27-14-07-04
 ---

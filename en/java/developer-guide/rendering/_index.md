@@ -6,6 +6,8 @@ linktitle: Rendering
 description: "Use Aspose.Words for Java rendering feature to format a flow-layout document into pages and convert such a document or selected pages to another document (PDF, HTML, XPS, etc.) or image (TIFF, PNG, SVG, etc.) formats for viewing, further conversions, or printing."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/rendering/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Simple Mail Merge in Python
 description: "Simple Mail Merge using Python."
 type: docs
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/simple-mail-merge-in-python/
 timestamp: 2024-01-27-14-07-04
 ---

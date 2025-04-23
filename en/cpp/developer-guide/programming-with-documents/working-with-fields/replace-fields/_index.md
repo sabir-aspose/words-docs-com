@@ -6,6 +6,8 @@ linktitle: Replace Fields with Static Text
 description: "Learn how to replace fields with text in C++. Replace fields with static data using the C++ API."
 type: docs
 weight: 37
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/replace-fields/
 timestamp: 2024-01-27-14-07-04
 ---

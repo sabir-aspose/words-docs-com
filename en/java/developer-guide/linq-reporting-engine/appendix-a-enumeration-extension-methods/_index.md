@@ -6,6 +6,8 @@ linktitle: Appendix A. Enumeration Extension Methods
 description: "Use built-in extension methods to perform common manipulations on a sequential data when building a report in Java."
 type: docs
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/appendix-a-enumeration-extension-methods/
 timestamp: 2024-10-21-11-17-44
 ---

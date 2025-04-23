@@ -6,6 +6,8 @@ linktitle: Working with Tables
 description: "How to work with tables in Java. Introducing to Table node concepts in Aspose.Words for Java."
 type: docs
 weight: 190
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/working-with-tables/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Protect Documents in Jython
 description: "Protect Documents using Jython."
 type: docs
 weight: 37
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/protect-documents-in-jython/
 timestamp: 2024-01-27-14-07-04
 ---

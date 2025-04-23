@@ -6,6 +6,8 @@ linktitle: Working with Fonts
 description: "Font formatting in details using C++."
 type: docs
 weight: 230
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/working-with-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

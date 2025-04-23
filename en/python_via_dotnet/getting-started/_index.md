@@ -6,6 +6,8 @@ linktitle: Getting Started
 type: docs
 description: "Use this introduction to Aspose.Words for Python via .NET fundamentals to start realizing the value of Aspose.Words for your business."
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/getting-started/
 aliases: [/python/getting-started/]
 timestamp: 2024-09-25-11-08-55

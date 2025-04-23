@@ -6,6 +6,8 @@ linktitle: Using Extension Methods of Iteration Variables
 description: "Use extension methods for iteration variables of any type when building a report in Java."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/using-extension-methods-of-iteration-variables/
 timestamp: 2024-10-21-11-17-44
 ---

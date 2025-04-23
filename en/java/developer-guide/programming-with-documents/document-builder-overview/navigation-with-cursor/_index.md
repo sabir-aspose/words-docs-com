@@ -6,6 +6,8 @@ linktitle: Navigation with Cursor
 description: "Navigate between different nodes within a document, such as a paragraph, bookmark, or a specific character using Java."
 type: docs
 weight: 5
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/navigation-with-cursor/
 timestamp: 2024-01-27-14-07-04
 ---

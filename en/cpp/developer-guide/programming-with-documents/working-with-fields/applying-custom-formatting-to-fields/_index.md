@@ -6,6 +6,8 @@ linktitle: Apply Custom Formatting to Fields
 description: "Format and evaluate fields result using C++."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/applying-custom-formatting-to-fields/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Open Existing Documents in Apache POI and Aspose.Words
 description: "Open an existing document easily and fast instead of using Apache POI."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/open-existing-documents-in-apache-poi-and-aspose-words/
 timestamp: 2024-01-27-14-07-04
 ---

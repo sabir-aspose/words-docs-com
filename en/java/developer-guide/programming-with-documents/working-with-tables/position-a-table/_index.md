@@ -6,6 +6,8 @@ linktitle: Position a Table
 description: "Specify table position in Java. Get a table alignment, get and set floating table position using Java."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/position-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

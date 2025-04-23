@@ -6,6 +6,8 @@ linktitle: Template Syntax
 description: "How to create a template for LINQ Reporting Engine to build a report in Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/template-syntax/
 timestamp: 2024-07-05-11-53-24
 ---
