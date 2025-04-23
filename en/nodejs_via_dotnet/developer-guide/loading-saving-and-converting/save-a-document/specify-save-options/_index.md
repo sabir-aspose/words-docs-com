@@ -15,7 +15,7 @@ When saving a document, you can set some advanced properties. Aspose.Words provi
 
 The following code example shows how to set the save options before saving the document into HTML:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_html_save_options-ExportRoundtripInformation.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "ExportRoundtripInformation.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -33,13 +33,13 @@ For example, when saving a document to DOC or DOT format, use the [password](ht
 
 The following code example shows how to set a password to encrypt a document using the RC4 encryption method:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_doc_save_options-EncryptDocumentWithPassword.py" >}}
+{{< gist "aspose-words-s" "e9d8f984dac599756ccb4a64b8c79768" "EncryptDocumentWithPassword.js" >}}
 
 When saving a document to Docx format, use the [password](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/ooxmlsaveoptions/password/) property of the [OoxmlSaveOptions](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/ooxmlsaveoptions/) class.
 
 The following code example shows how to load and save Docx encrypted with a password:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_ooxml_save_options-EncryptDocxWithPassword.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "EncryptDocxWithPassword.js" >}}
 
 Not all formats support encryption and the use of **password** property.
 
@@ -49,7 +49,7 @@ Aspose.Words provides an ability to use the [createdTime](https://reference.aspo
 
 The following code example shows how to update the document creation time:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_pdf_save_options-UpdateIfLastPrinted.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "UpdateLastPrinted.js" >}}
 
 ## Update Last Saved Property
 
@@ -57,7 +57,7 @@ Aspose.Words provides an ability to use the [updateLastSavedTimeProperty](http
 
 The following code example shows how to set this property and save the document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_ooxml_save_options-UpdateLastSavedTimeProperty.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "UpdateLastSavedTime.js" >}}
 
 ## Save Black and White Image with One Bit Per Pixel Format
 
@@ -65,4 +65,4 @@ To control image saving options, the [ImageSaveOptions](https://reference.aspose
 
 The following code example shows how to save a black and white image with one bit per pixel format:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_image_save_options-Format1BppIndexed.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Format1BppIndexed.js" >}}

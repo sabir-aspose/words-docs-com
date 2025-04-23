@@ -20,7 +20,7 @@ The most popular conversion from PDF is conversion to Microsoft Word formats suc
 
 The following code example shows how to convert a document from PDF to DOCX:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-base_conversions-PdfToDocx.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" PdfToDocx.js" >}}
 
 ## Specify Load Options when Importing PDF {#specify-load-options-when-importing-pdf}
 

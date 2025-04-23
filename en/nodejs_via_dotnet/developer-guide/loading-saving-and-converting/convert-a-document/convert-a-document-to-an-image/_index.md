@@ -19,7 +19,7 @@ As with all conversion examples already described, you need to create a new docu
 
 The following code example shows how to convert PDF to JPEG:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-base_conversions-PdfToJpeg.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "PdfToJpeg.js" >}}
 
 ## Specify Save Options when Converting to an Image {#specify-save-options-when-converting-to-an-image}
 
@@ -33,4 +33,4 @@ There are also properties that apply to a certain format, for example, [jpegQual
 
 The following code example shows how to create a preview of the first document page with applying some additional settings:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_image_save_options-GetJpegPageRange.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "GetJpegPageRange.js" >}}

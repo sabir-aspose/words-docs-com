@@ -24,7 +24,7 @@ To convert a document to Markdown, you just need to load a document in any suppo
 
 The following code example shows how to convert DOCX to Markdown:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-base_conversions-SaveToMarkdownDocument.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "SaveToMarkdownDocument.js" >}}
 
 You can also specify the physical folder in which you want to save images when exporting a document to Markdown format. By default, Aspose.Words saves images in the same folder where the document file is saved, but you can override this behavior using the [imagesFolder](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/markdownsaveoptions/imagesfolder/) property.
 
@@ -34,7 +34,7 @@ If the specified [imagesFolder](https://reference.aspose.com/words/nodejs-net/as
 
 The following code example shows how to specify a folder for images when saving a document to a stream:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_markdown_save_options-SetImagesFolder.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "SetImagesFolder.js" >}}
 
 ## Specify Save Options when Converting to Markdown
 
@@ -59,7 +59,7 @@ Aspose.Words currently supports the following Markdown features, which mostly fo
 
 The following example shows how to create a document with some styles and save it to Markdown:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-CreateMarkdownDocument.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "CreateMarkdownDocument.js" >}}
 
 The result of this code example is shown below.
 

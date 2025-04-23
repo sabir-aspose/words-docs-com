@@ -86,13 +86,13 @@ Using the [setLicense](https://reference.aspose.com/words/nodejs-net/aspose.word
 
 The following code example shows how to initialize a license from a folder:
 
-{{< gist "aspose-words-gists" "45c97d37bef13067c82e741b922a2d4f" "apply-license-from-file.py" >}}
+{{< gist "aspose-words-gists" "45c97d37bef13067c82e741b922a2d4f" "ApplyLicenseFromFile.js" >}}
 
 ##### Load a License from a `Buffer` Object
 
 The following code example shows how to initialize a license from a buffer using another [setLicense](https://reference.aspose.com/words/nodejs-net/aspose.words/license/setLicense/) method:
 
-{{< gist "aspose-words-gists" "45c97d37bef13067c82e741b922a2d4f" "apply-license-from-stream.py" >}}
+{{< gist "aspose-words-gists" "45c97d37bef13067c82e741b922a2d4f" "ApplyLicenseFromStream.js" >}}
 
 #### Apply Metered License
 
@@ -106,7 +106,7 @@ Do not call the **setMeteredKey** method frequently so that this licensing metho
 
 The following code example shows how to set metered public and private keys:
 
-{{< gist "aspose-words-gists" "45c97d37bef13067c82e741b922a2d4f" "apply-metered-license.py" >}}
+{{< gist "aspose-words-gists" "45c97d37bef13067c82e741b922a2d4f" "ApplyMeteredLicense.js" >}}
 
 {{% alert color="primary" %}}
 

@@ -44,7 +44,7 @@ The default value is *true* for HTML and *false* for MHTML and EPUB:
 
 The following code example shows how to export round-trip information when converting a document from DOCX into HTML:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_html_save_options-ExportRoundtripInformation.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "ExportRoundtripInformation.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -66,7 +66,7 @@ In this example, [resourceFolder](https://reference.aspose.com/words/nodejs-net
 
 The following code example shows how to work with these properties:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_html_save_options-ExportResources.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "ExportResources.js" >}}
 
 Using the [resourceFolderAlias](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/htmlsaveoptions/resourcefolderalias/) property, we can also specify the name of the folder used to construct URIs of all resources written into an HTML document. This is the simplest way to specify how URIs should be generated for all resource files. The same information can be specified for images and fonts separately via [imagesFolderAlias](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/htmlsaveoptions/imagesfolderalias/) and [fontsFolderAlias](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/htmlsaveoptions/fontsfolderalias/) properties, respectively.
 
@@ -81,7 +81,7 @@ Aspose.Words provides an ability to specify whether font resources should be em
 
 The following code example shows how to export Base64-encoded fonts to HTML:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_html_save_options-ExportFontsAsBase64.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "ExportFontsAsBase64.js" >}}
 
 ## Specify Save Options when Conversion to EPUB
 

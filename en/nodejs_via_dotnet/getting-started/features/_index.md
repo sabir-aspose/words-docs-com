@@ -115,7 +115,7 @@ You can use Aspose.Words as a reporting solution on its own. Design your reports
 | Populate documents from any data source such as a LINQ query, XML file or business objects by implementing the [IMailMergeDataSource](https://reference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource/) interface. | {{< emoticons/cross >}} |
 | Take precise control, such as number formatting, over how your data is merged using events. | {{< emoticons/cross >}} |
 | Insert images during mail merge. | {{< emoticons/cross >}} |
-| Programmatically create or modify a Microsoft Word Mail Merge data source for a document. Preserve Mail Merge settings and data sources. | {{< emoticons/tick >}} |
+| Programmatically create or modify a Microsoft Word Mail Merge data source for a document. Preserve Mail Merge settings and data sources. | {{< emoticons/cross >}} |
 | Retrieve Mail Merge field names. | {{< emoticons/cross >}} |
 
 ## Reporting Features

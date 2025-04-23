@@ -50,7 +50,7 @@ Pass a file name as string to the [Document](https://reference.aspose.com/words/
 
 The following code example shows how to open a document from a file:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-base_conversions-OpenDocument.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "OpenDocument.js" >}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/blob/master/Data/Document.docx).
 
@@ -60,7 +60,7 @@ To open a document from an Array or Buffer, simply pass an Array or Buffer objec
 
 The following code example shows how to open a document from an Array or Buffer:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-base_conversions-OpeningFromStream.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "OpeningFromStream.js" >}}
 
 {{% alert color="primary" %}}
 
