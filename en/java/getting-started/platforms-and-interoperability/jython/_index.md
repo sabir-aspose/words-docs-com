@@ -6,6 +6,8 @@ linktitle: Jython
 description: "Using Aspose.Words for Java from Jython."
 type: docs
 weight: 55
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/aspose-words-java-for-jython/
 aliases: [/java/jython-programmers-guide/]
 timestamp: 2024-01-27-14-07-04

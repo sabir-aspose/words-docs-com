@@ -6,6 +6,8 @@ linktitle: How to Recognize That the Font Was Replaced
 description: "If you're not sure why a document's layout has changed or why a certain font doesn't look as expected, font substitution warnings messages can help."
 type: docs
 weight: 13
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/how-to-recognize-that-the-font-was-replaced/
 timestamp: 2024-09-24-14-35-44
 ---

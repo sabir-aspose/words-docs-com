@@ -6,6 +6,8 @@ linktitle: Introduction and Creating Tables
 description: "Create and manage tables in a document using Python."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/create-a-table/
 aliases:
 - /python/introduction-and-creating-tables/

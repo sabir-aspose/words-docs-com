@@ -6,6 +6,8 @@ linktitle: Split a Document
 description: "Split a document into several files using Python. Use the split feature to effectively split a document by headings or sections, as well as by pages or by page ranges."
 type: docs
 weight: 90
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/split-a-document/
 aliases: [/python/split-a-document/]
 timestamp: 2024-01-27-14-07-04

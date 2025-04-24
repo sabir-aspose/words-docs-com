@@ -6,6 +6,8 @@ linktitle: Inserting Images Dynamically
 description: "Insert images into your document dynamically when building a report in Java."
 type: docs
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/inserting-images-dynamically/
 timestamp: 2024-01-27-14-07-04
 ---

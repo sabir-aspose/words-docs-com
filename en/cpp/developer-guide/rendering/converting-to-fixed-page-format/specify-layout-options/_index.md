@@ -6,6 +6,8 @@ linktitle: Specify Layout Options
 description: "Specify Layout Options for various document layouts."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/specify-layout-options/
 timestamp: 2024-01-27-14-07-04
 ---

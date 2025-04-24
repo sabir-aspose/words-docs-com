@@ -6,6 +6,8 @@ linktitle: Developer Guide
 description: "This Developer Guide describes practical scenarios and tips to help you use specific Aspose.Words for C++ features, achieve a certain document appearance, or make a use case possible."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

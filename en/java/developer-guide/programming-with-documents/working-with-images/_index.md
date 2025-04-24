@@ -6,6 +6,8 @@ linktitle: Working with Images
 type: docs
 description: "Image shapes in details and advanced features provided by Aspose.Words for Java."
 weight: 300
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/working-with-images/
 timestamp: 2024-01-27-14-07-04
 ---

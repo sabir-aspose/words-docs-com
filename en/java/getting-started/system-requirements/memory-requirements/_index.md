@@ -6,6 +6,8 @@ linktitle: Memory Requirements
 description: "How much memory does Aspose.Words for Java require to work with documents? Learn the details."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/memory-requirements/
 timestamp: 2024-09-25-11-08-55
 ---

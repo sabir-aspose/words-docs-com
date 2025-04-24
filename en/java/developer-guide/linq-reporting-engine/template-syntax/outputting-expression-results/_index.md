@@ -6,6 +6,8 @@ linktitle: Outputting Expression Results
 description: "Output expression results using placeholder within a template when building a report in Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/outputting-expression-results/
 timestamp: 2024-10-21-11-17-44
 ---

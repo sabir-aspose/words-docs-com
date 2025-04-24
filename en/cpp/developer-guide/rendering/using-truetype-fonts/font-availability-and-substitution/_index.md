@@ -6,6 +6,8 @@ linktitle: Font Availability and Substitution
 description: "When the exact substitution font cannot be found, Aspose.Words must substitute it for a similar font instead. This article describes the process of finding the most suitable font."
 type: docs
 weight: 12
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/font-availability-and-substitution/
 timestamp: 2024-09-24-14-35-44
 ---

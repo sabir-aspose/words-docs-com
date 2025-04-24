@@ -6,6 +6,8 @@ linktitle: Track Changes in Documents
 description: "Track changes in documents. Apache POI does not provide an opportunity to track changes in a document."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/track-changes-in-documents/
 timestamp: 2024-01-31-14-23-37
 ---

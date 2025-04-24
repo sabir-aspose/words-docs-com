@@ -6,6 +6,8 @@ linktitle: Product Overview
 description: "Aspose.Words for C++ is a software library designed to create, modify, convert, render, and print documents without relying on any other software."
 type: docs
 weight: 5
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/product-overview/
 timestamp: 2024-06-05-14-43-57
 ---

@@ -6,6 +6,8 @@ linktitle: Working with Shapes
 type: docs
 description: "Introduction to shape markup language, creating shapes of different types using C++."
 weight: 280
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/working-with-shapes/
 aliases:
 - /cpp/working-with-graphic-elements/

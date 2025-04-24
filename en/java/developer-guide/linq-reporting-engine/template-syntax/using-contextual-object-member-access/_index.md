@@ -6,6 +6,8 @@ linktitle: Using Contextual Object Member Access
 description: "Use contextual object member to access some objects without specifying the objects id in template expressions using Java."
 type: docs
 weight: 120
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/using-contextual-object-member-access/
 timestamp: 2024-01-27-14-07-04
 ---

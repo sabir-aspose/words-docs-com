@@ -6,6 +6,8 @@ linktitle: Extract Content Between Nodes
 description: "How to extract specific content from a range within the document easily using Python."
 type: docs
 weight: 140
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/how-to-extract-selected-content-between-nodes-in-a-document/
 aliases: [/python/how-to-extract-selected-content-between-nodes-in-a-document/]
 timestamp: 2024-01-27-14-07-04

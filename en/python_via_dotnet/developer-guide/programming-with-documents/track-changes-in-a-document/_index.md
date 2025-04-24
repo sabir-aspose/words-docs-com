@@ -6,6 +6,8 @@ linktitle: Track Changes in a Document
 description: "Track changes to content and formatting made by you or others using Python. Access individual revisions in a document and apply various properties to them."
 type: docs
 weight: 270
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/track-changes-in-a-document/
 aliases: [/python/track-changes-in-a-document/]
 timestamp: 2024-01-27-14-07-04

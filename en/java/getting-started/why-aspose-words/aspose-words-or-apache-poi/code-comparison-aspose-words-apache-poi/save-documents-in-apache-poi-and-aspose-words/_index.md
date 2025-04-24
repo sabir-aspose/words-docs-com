@@ -6,6 +6,8 @@ linktitle: Save Documents in Apache POI and Aspose.Words
 description: "Save documents easily and fast instead of using Apache POI."
 type: docs
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/save-documents-in-apache-poi-and-aspose-words/
 timestamp: 2024-01-27-14-07-04
 ---

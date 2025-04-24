@@ -8,6 +8,8 @@ aliases:
   - /cpp/working-with-styles/
 type: docs
 weight: 110
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/working-with-styles-and-themes/
 timestamp: 2024-01-30-16-22-34
 ---

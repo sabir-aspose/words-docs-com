@@ -6,6 +6,8 @@ linktitle: Accessing Missing Members of Data Objects
 description: "Learn how to treat missing members of data objects as null literals using LINQ in Java."
 type: docs
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/accessing-missing-members-of-data-objects/
 timestamp: 2024-07-05-16-45-23
 ---

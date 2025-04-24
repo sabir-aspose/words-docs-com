@@ -6,6 +6,8 @@ linktitle: Working with Charts
 description: "Introduction to Chart feature, how to create and manipulate charts using Java."
 type: docs
 weight: 310
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/working-with-charts/
 timestamp: 2024-01-27-14-07-04
 ---

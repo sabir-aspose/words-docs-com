@@ -6,6 +6,8 @@ linktitle: Update Fields
 description: "Update fields in a document in different ways and using different option in Python."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/update-fields/
 aliases:
 - /python/updating-and-removing-a-field/

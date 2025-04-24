@@ -6,6 +6,8 @@ linktitle: Creating OOXML Charts from Scratch
 description: "How to create different charts in your document using C++."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/creating-ooxml-charts-from-scratch-using-aspose-words/
 timestamp: 2024-01-27-14-07-04
 ---

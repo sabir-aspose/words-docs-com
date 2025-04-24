@@ -6,6 +6,8 @@ linktitle: Handling Windows Metafiles
 description: "Aspose.Words for Java implements its own Windows Metafile player to play Metafile format on all platforms and supports the handling of the basic metafile features and can perform fallback to a different type of metafile player."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

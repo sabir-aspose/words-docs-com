@@ -6,6 +6,8 @@ linktitle: Working with Headers and Footers
 description: "Create, manage, and remove headers and footers in a document using Python."
 type: docs
 weight: 150
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/working-with-headers-and-footers/
 aliases: [/python/working-with-headers-and-footers/]
 timestamp: 2024-01-27-14-07-04

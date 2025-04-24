@@ -6,6 +6,8 @@ linktitle: Code Comparison for Common Features in Aspose.Words and docx4j
 description: "Take a look at code comparison of some features implemented in Aspose.Words for Java and docx4j."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/code-comparison-aspose-words-and-docx4j/
 aliases:
   - /java/code-comparison-for-common-features-in-aspose-words-and-docx4j/

@@ -6,6 +6,8 @@ linktitle: Working with Cross (Pivot) Tables
 description: "Output a Cross (Pivot) Tables when building a report in Java."
 type: docs
 weight: 25
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/working-with-cross-pivot-tables/
 timestamp: 2024-01-27-14-07-04
 ---

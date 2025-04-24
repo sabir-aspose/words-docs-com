@@ -6,6 +6,8 @@ linktitle: Work with Text in a Table
 description: "Replace text in a table in Python. Extract Plain Text from Table or Cell using Python."
 type: docs
 weight: 60
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/work-with-text-in-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

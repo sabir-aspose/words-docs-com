@@ -7,6 +7,8 @@ description: "Aspose.Words for C++ allows rendering a document created using Mic
 type: docs
 weight: 20
 aliases: [/cpp/installing-truetype-fonts-on-linux/]
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/install-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

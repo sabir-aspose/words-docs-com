@@ -6,6 +6,8 @@ linktitle: Working with Footnote and Endnote
 description: "How to manipulate footnotes and endnotes using Java."
 type: docs
 weight: 160
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/working-with-footnote-and-endnote/
 timestamp: 2024-01-27-14-07-04
 ---

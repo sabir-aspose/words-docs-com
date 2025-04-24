@@ -6,6 +6,8 @@ linktitle: Rendering Shapes Separately from a Document
 description: "Extract various graphic objects, such as images, text box containing paragraphs, or arrow shapes, when processing a document, and export them to an external location using Python."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/rendering-shapes-separately-from-a-document/
 aliases: [/python/rendering-shapes-separately-from-a-document/]
 timestamp: 2024-01-27-14-07-04

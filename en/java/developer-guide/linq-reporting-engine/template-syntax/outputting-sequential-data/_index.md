@@ -6,6 +6,8 @@ linktitle: Outputting Sequential Data
 description: "Output a sequence of elements with the same type when building a report in Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/outputting-sequential-data/
 timestamp: 2024-10-21-11-17-44
 ---

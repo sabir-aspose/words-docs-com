@@ -6,6 +6,8 @@ linktitle: Find Field Properties
 description: "How to find some field properties like field code and field result in Java"
 type: docs
 weight: 25
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/find-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

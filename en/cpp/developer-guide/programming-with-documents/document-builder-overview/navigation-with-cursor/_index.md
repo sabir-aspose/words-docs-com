@@ -6,6 +6,8 @@ linktitle: Navigation with Cursor
 description: "Navigate between different nodes within a document, such as a paragraph, bookmark, or a specific character using C++."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/navigation-with-cursor/
 timestamp: 2024-01-27-14-07-04
 ---

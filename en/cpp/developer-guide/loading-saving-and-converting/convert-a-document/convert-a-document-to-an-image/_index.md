@@ -6,6 +6,8 @@ linktitle: Convert a Document to an Image
 type: docs
 description: "Convert a document to image format (JPG, PNG, etc). Create a document preview or create a document scan to send an invoice."
 weight: 43
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/convert-a-document-to-an-image/
 timestamp: 2024-01-30-16-22-34
 ---

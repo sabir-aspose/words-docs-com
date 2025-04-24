@@ -6,6 +6,8 @@ linktitle: Convert Between Measurement Units
 description: "Aspose.Words for C++ can help you with how to convert between measurement units, for example, inches to points and points to inches, pixels to points, points to pixels."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/convert-between-measurement-units/
 timestamp: 2024-01-27-14-07-04
 ---

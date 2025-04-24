@@ -9,6 +9,8 @@ aliases:
 description: "Perform two different types of Mail Merge operations: simple Mail Merge and Mail Merge with regions using C++. Simple Mail Merge repeats the entire document per each data source record, whereas Mail Merge with regions repeats only designated regions per record."
 keywords: "how to execute Mail Merge c++"
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/types-of-mail-merge-operations/
 timestamp: 2024-09-24-14-35-44
 ---

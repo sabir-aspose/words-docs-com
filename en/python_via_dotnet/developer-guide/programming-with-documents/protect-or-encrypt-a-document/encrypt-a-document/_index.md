@@ -6,6 +6,8 @@ linktitle: Encrypt a Document
 description: "Encrypt your document using appropriate encryption algorithms for specific document formats in Python."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/encrypt-a-document/
 aliases: [/python/encrypt-a-document/]
 timestamp: 2024-10-21-11-17-44

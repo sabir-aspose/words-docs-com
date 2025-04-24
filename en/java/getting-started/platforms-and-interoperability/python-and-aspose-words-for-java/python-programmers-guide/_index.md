@@ -6,6 +6,8 @@ linktitle: Python Programmers Guide
 description: "Examples of Aspose.Words.Java API in Python using JPype."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/python-programmers-guide/
 aliases: 
 - /java/mail-merge-and-reporting-in-python/

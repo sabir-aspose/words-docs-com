@@ -8,6 +8,8 @@ type: docs
 description: "Save a document in any supported format using Python."
 keywords: "save a document python, save a document to file python, save a document to stream python, save a document Aspose python, save formats supported by Aspose.Words python"
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/save-a-document/
 aliases: [/python/save-a-document/]
 timestamp: 2024-01-27-14-07-04

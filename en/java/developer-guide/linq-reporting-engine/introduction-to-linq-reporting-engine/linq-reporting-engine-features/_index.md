@@ -6,6 +6,8 @@ linktitle: LINQ Reporting Engine Features
 description: "Learn the powerful LINQ Reporting Engine features to build a report in Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/linq-reporting-engine-features/
 timestamp: 2024-01-27-14-07-04
 ---

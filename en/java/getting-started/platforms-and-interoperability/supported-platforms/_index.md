@@ -6,6 +6,8 @@ linktitle: Supported Platforms Overview
 description: "Aspose.Words for Java can be used by any Java application on any platform supported by Java."
 type: docs
 weight: 5
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/supported-platforms/
 aliases: [/java/java/]
 timestamp: 2024-01-27-14-07-04

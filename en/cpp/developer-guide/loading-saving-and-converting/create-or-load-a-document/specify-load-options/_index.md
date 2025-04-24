@@ -6,6 +6,8 @@ linktitle: Specify Load Options
 description: "More accurately control the load process."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/specify-load-options/
 timestamp: 2024-01-30-16-22-34
 ---

@@ -6,6 +6,8 @@ linktitle: Font Manipulation and Performance Issues
 description: "Aspose.Words for C++ uses font full name, family name, version, style to find the required font data or a suitable replacement for the requested font. FontSettings allows you to speed up the loading of the documents."
 type: docs
 weight: 11
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/font-manipulation-and-performance-issues/
 timestamp: 2024-09-24-14-35-44
 ---

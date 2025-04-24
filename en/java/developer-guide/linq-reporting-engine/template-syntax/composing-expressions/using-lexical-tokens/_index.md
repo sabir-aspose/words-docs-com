@@ -6,6 +6,8 @@ linktitle: Using Lexical Tokens
 description: "Use lexical tokens in template expressions when building a report in Java."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/using-lexical-tokens/
 timestamp: 2024-10-21-11-17-44
 ---

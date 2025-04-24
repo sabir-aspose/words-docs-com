@@ -6,6 +6,8 @@ linktitle: Using DocumentBuilder to Modify a Document Easily
 type: docs
 description: "Use the document builder to modify a document easily in C++."
 weight: 190
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/using-documentbuilder-to-modify-a-document-easily/
 timestamp: 2024-01-27-14-07-04
 ---

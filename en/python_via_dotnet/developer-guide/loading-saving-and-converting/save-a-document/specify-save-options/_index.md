@@ -6,6 +6,8 @@ linktitle: Specify Save Options
 description: "More accurately control the save process using Python."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/specify-save-options/
 aliases: [/python/specify-save-options/]
 timestamp: 2024-01-27-14-07-04

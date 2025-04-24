@@ -6,6 +6,8 @@ linktitle: Insert and Append Documents
 description: "Combine documents into one: insert or append a document into a new or existing one using find and replace, merge field, bookmark, or simply at the document end in Java."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/insert-and-append-documents/
 aliases: 
  - /java/joining-and-appending-documents/

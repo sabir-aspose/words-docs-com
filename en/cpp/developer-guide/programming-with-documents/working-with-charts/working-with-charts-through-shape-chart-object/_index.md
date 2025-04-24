@@ -6,6 +6,8 @@ linktitle: Working with Charts through Shape.Chart Object
 description: "Charts in details, how chart linked with Shape node in Aspose.Words for C++."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/working-with-charts-through-shape-chart-object/
 timestamp: 2024-01-27-14-07-04
 ---

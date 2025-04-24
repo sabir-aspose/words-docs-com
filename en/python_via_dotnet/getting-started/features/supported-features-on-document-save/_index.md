@@ -6,6 +6,8 @@ linktitle: Supported Features on Document Save
 description: "Save your document to any supported format using Python. Convert and export a document of any size."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/supported-features-on-document-save/
 aliases: 
   - /python/document-saving-overview/

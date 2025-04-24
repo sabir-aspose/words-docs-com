@@ -6,6 +6,8 @@ linktitle: Installation
 description: "Install Aspose.Words for C++ using Manage NuGet Packages or Package Manager Console, as well as manual installer."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/installation/
 timestamp: 2024-09-24-14-35-44
 ---

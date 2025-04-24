@@ -6,6 +6,8 @@ linktitle: Working with Text Document
 description: "Work with a text document and modify its objects using Python."
 type: docs
 weight: 430
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/working-with-text-document/
 aliases:
 - /python/work-with-text-document/

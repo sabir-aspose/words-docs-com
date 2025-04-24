@@ -6,6 +6,8 @@ linktitle: Aspose.Words for Android via Java Supported Platforms
 description: "Aspose.Words for Android via Java Supported Platforms."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/aspose-words-for-android-via-java-supported-platforms/
 timestamp: 2024-01-27-14-07-04
 ---

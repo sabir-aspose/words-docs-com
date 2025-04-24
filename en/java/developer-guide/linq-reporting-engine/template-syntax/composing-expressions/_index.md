@@ -6,6 +6,8 @@ linktitle: Composing Expressions
 description: "Compose expressions when building a report in Java. The complexity of expressions in templates is not restricted."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/composing-expressions/
 timestamp: 2024-01-27-14-07-04
 ---

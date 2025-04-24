@@ -6,6 +6,8 @@ linktitle: Working with OfficeMath
 type: docs
 description: "Introduction to Office Math feature in Aspose.Words for Java."
 weight: 320
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/working-with-officemath/
 timestamp: 2024-01-27-14-07-04
 ---

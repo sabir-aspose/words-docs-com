@@ -6,6 +6,8 @@ linktitle: Support, Extend and Contribute to Aspose.Words in PHP
 description: "PHP: Support, Extend and Contribute to Aspose.Words for Java."
 type: docs
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/support-extend-and-contribute-to-aspose-words-in-php/
 timestamp: 2024-01-27-14-07-04
 ---

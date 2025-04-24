@@ -6,6 +6,8 @@ linktitle: Working with Sections
 description: "Understanding document section concepts and manipulation practices using C++. Insert section into a document C++. Remove section C++. Copy sections between Documents."
 type: docs
 weight: 120
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/working-with-sections/
 aliases: [/cpp/how-to-remove-page-and-section-breaks/]
 timestamp: 2024-01-31-14-23-37

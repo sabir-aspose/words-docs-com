@@ -6,6 +6,8 @@ linktitle: Extract Content in PHP
 description: "Extract Content from Document using PHP."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/extract-content-in-php/
 timestamp: 2024-10-21-11-17-44
 ---

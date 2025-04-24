@@ -6,6 +6,8 @@ linktitle: Convert a Document to Excel
 description: "Convert PDF to Excel, XML to Excel, DOCX to Excel Java. Save a document in various formats to XLSX using Java."
 type: docs
 weight: 15
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/convert-a-document-to-excel/
 timestamp: 2024-01-31-14-23-37
 ---

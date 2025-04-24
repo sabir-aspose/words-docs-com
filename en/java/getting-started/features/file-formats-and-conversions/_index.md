@@ -6,6 +6,8 @@ linktitle: File Formats and Conversions
 description: "Convert documents from any supported load to save format with just two lines of Java code. It provides high-quality conversions using Java."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/file-formats-and-conversions/
 aliases:
  - /java/high-quality-conversions/

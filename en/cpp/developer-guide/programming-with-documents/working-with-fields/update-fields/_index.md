@@ -6,6 +6,8 @@ linktitle: Update Fields
 description: "Learn how to update fields in C++. Update fields programmatically or use automatic field update using C++ API."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/update-fields/
 aliases: [/cpp/updating-and-removing-a-field/]
 timestamp: 2024-01-27-14-07-04

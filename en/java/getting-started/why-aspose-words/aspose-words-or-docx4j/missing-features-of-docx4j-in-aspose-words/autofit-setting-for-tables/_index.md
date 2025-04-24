@@ -6,6 +6,8 @@ linktitle: Autofit Setting for Tables
 description: "Autofit settings to tables. Docx4j does not provide an opportunity to autofit settings to tables."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/autofit-setting-for-tables/
 timestamp: 2024-01-31-14-23-37
 ---

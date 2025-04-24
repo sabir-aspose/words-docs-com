@@ -6,6 +6,8 @@ linktitle: Restrict Document Editing
 description: "Restrict editing a document by setting a restriction type. You can also remove protection and make unrestricted editable regions using Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---

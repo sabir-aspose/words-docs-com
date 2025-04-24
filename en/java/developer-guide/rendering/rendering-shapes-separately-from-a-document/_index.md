@@ -6,6 +6,8 @@ linktitle: Rendering Shapes Separately from a Document
 description: "Extract various graphic objects, such as images, text box containing paragraphs, or arrow shapes, when processing a document, and export them to an external location using Java."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

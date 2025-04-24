@@ -6,6 +6,8 @@ linktitle: Code Comparison for Common Features in Aspose.Words and Apache POI - 
 description: "Take a look at code comparison of some features implemented in Aspose.Words for Java and Apache POI."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/code-comparison-aspose-words-apache-poi/
 aliases: [/java/code-comparison-for-common-features-in-aspose-words-and-apache-poi-hwpf-and-xwpf/]
 timestamp: 2024-01-27-14-07-04

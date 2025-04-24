@@ -6,6 +6,8 @@ linktitle: Learn Features of Conversion to PDF/A and PDF/UA
 description: "Convert to PDF/A-1, PDF/A-2, PDF/A-4 and PDF/UA using Java. Choose the best PDF standard to convert a document using Java."
 type: docs
 weight: 25
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/learn-features-of-conversion-to-pdf-a-pdf-ua/
 aliases: [/java/learn-features-of-conversion-to-pdf-a/]
 timestamp: 2024-01-31-14-23-37

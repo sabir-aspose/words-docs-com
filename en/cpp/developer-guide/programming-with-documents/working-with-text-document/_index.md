@@ -6,6 +6,8 @@ linktitle: Working with Text Document
 description: "Advanced TXT document processing, lists, BiDi, headers/footer, using C++."
 type: docs
 weight: 430
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/working-with-text-document/
 timestamp: 2024-01-27-14-07-04
 ---

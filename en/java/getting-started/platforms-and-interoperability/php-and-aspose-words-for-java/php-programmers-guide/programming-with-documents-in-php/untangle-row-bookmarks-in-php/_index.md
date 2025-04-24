@@ -6,6 +6,8 @@ linktitle: Untangle Row Bookmarks in PHP
 description: "Untangle Row Bookmarks using PHP."
 type: docs
 weight: 25
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/untangle-row-bookmarks-in-php/
 timestamp: 2024-01-27-14-07-04
 ---

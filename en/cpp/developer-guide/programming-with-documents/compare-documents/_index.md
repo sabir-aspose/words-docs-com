@@ -6,6 +6,8 @@ linktitle: Compare Documents
 type: docs
 description: "Compare two documents in any supported formats and shows content changes using C++. You can apply advanced options when comparing."
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/compare-documents/
 timestamp: 2024-01-27-14-07-04
 ---

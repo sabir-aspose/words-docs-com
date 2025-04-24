@@ -6,6 +6,8 @@ linktitle: LINQ Reporting Engine API
 description: "LINQ Reporting Engine allows you to build a report from a template is assembled within the class using Python."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/linq-reporting-engine-api/
 aliases: [/python/linq-reporting-engine-api/]
 timestamp: 2024-10-21-11-17-44

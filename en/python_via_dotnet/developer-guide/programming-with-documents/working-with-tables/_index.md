@@ -6,6 +6,8 @@ linktitle: Working with Tables
 description: "Work with tables in a document using Python. Introducing to work with tables and Table node concepts in Aspose.Words for Python."
 type: docs
 weight: 190
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/working-with-tables/
 aliases: [/python/working-with-tables/]
 timestamp: 2024-01-27-14-07-04

@@ -6,6 +6,8 @@ linktitle: Open a Document Read-Only
 description: "Make your document read-only so that the content can be copied or read, but not modified using Java."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/open-a-document-read-only/
 aliases: [/java/document-protection/]
 timestamp: 2024-01-27-14-07-04

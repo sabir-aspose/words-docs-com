@@ -7,6 +7,8 @@ type: docs
 description: "Create a Mail Merge template to define fixed content in output documents, and then generate merge documents using the merge fields in Python."
 keywords: "create Mail Merge template python"
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/mail-merge-template/
 aliases: [/python/mail-merge-template/]
 timestamp: 2024-01-31-14-23-37

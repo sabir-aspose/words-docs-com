@@ -6,6 +6,8 @@ linktitle: Working with Table of Contents
 description: "Table of Content field in details. How to create and modify `TOC` field using Java."
 type: docs
 weight: 170
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/working-with-table-of-contents/
 aliases: [/java/how-to-insert-and-work-with-the-table-of-contents-field/]
 timestamp: 2024-10-21-11-17-44

@@ -6,6 +6,8 @@ linktitle: Table Overview
 description: "Work with tables and their components such as cells, rows, columns in Aspose.Words for Python. How to work with tables in Python."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---
