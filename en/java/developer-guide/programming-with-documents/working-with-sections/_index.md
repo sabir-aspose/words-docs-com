@@ -6,6 +6,8 @@ linktitle: Working with Sections
 description: "Understanding document section concepts and manipulation practices using Java. Insert section into a document Java. Remove section Java. Copy sections between Documents."
 type: docs
 weight: 120
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/working-with-sections/
 aliases: [/java/how-to-remove-page-and-section-breaks/]
 timestamp: 2024-01-31-14-23-37

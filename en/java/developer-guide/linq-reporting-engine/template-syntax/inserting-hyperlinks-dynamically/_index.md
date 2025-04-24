@@ -6,6 +6,8 @@ linktitle: Inserting Hyperlinks Dynamically
 description: "Insert hyperlinks into your document dynamically when building a report in Java."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/inserting-hyperlinks-dynamically/
 timestamp: 2024-01-27-14-07-04
 ---

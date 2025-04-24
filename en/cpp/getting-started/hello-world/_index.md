@@ -6,6 +6,8 @@ linktitle: Hello World
 description: "Create, edit and save your first document in any supported format using Aspose.Words for C++ to experience its simplicity and power in C++."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/hello-world/
 timestamp: 2024-01-27-14-07-04
 ---

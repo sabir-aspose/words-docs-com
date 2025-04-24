@@ -6,6 +6,8 @@ linktitle: Replace Fields With Static Text in PHP
 description: "Replace Fields With Static Text using PHP."
 type: docs
 weight: 43
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/replace-fields-with-static-text/
 aliases: [/java/replace-fields-with-static-text-in-php/]
 timestamp: 2024-01-27-14-07-04

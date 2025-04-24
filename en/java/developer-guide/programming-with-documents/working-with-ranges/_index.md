@@ -6,6 +6,8 @@ linktitle: Working with Ranges
 description: "Introduction to Range feature in Aspose.Words for Java."
 type: docs
 weight: 130
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/working-with-ranges/
 timestamp: 2024-01-27-14-07-04
 ---

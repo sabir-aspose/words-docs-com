@@ -6,6 +6,8 @@ linktitle: Work with Columns and Rows
 description: "Working with parts of a table – rows, columns, and cells using C++. Specify Header Row C++."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/working-with-columns-and-rows/
 timestamp: 2024-01-27-14-07-04
 ---

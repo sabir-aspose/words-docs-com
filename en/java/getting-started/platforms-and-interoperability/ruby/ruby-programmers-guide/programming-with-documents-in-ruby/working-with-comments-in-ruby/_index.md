@@ -6,6 +6,8 @@ linktitle: Working With Comments in Ruby
 description: "Working with comments using Ruby."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/working-with-comments-in-ruby/
 timestamp: 2024-10-21-11-17-44
 ---

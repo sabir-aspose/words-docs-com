@@ -6,6 +6,8 @@ linktitle: LINQ Reporting Engine API
 description: "Learn LINQ Reporting Engine API to build a report in Java."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/linq-reporting-engine-api/
 timestamp: 2024-01-27-14-07-04
 ---

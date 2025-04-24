@@ -6,6 +6,8 @@ linktitle: Using Extension Methods
 description: "Use extension methods in template expressions when building a report in Java."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/using-extension-methods/
 timestamp: 2024-01-27-14-07-04
 ---

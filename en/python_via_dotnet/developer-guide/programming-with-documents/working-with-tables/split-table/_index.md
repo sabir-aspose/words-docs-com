@@ -6,6 +6,8 @@ linktitle: Split Table
 description: "Split table in Python. How to split one table into two separate tables Python."
 type: docs
 weight: 100
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/split-table/
 timestamp: 2024-01-27-14-07-04
 ---

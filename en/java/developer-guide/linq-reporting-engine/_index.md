@@ -9,6 +9,8 @@ weight: 50
 aliases:
   - /java/linq-reporting-engine-programmers-guide/
   - /java/about-this-guide/
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/linq-reporting-engine/
 aliases:
  - /java/linq-reporting-engine-programmers-guide/

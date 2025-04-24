@@ -6,6 +6,8 @@ linktitle: Installing and Using Aspose.Words Java for Eclipse - Maven
 description: "Installing and Using Aspose.Words Java for Eclipse."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/installing-and-using-aspose-words-java-for-eclipse-maven/
 timestamp: 2024-01-27-14-07-04
 ---

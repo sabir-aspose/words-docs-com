@@ -6,6 +6,8 @@ linktitle: Add Bookmarks
 description: "Add bookmarks to a document easily and fast instead of using docx4j."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/add-bookmarks/
 timestamp: 2024-01-27-14-07-04
 ---

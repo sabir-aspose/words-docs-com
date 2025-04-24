@@ -6,6 +6,8 @@ linktitle: Apply Formatting
 description: "Table formatting in details using Python. Use Python to format every part of table."
 type: docs
 weight: 70
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/applying-formatting/
 aliases: [/python/applying-formatting/]
 timestamp: 2024-01-27-14-07-04

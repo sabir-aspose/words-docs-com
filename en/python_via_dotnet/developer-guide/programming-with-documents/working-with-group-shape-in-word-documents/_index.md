@@ -6,6 +6,8 @@ linktitle: Working with Group Shape in Word Documents
 description: "Add group shape into a document using Python."
 type: docs
 weight: 290
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/how-to-add-group-shape-into-a-word-document/
 aliases: [/python/how-to-add-group-shape-into-a-word-document/]
 timestamp: 2024-01-27-14-07-04

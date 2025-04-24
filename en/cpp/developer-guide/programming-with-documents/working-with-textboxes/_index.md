@@ -8,6 +8,8 @@ type: docs
 aliases:
  - /cpp/working-with-linked-textboxes/
 weight: 250
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/working-with-textboxes/
 timestamp: 2024-01-27-14-07-04
 ---

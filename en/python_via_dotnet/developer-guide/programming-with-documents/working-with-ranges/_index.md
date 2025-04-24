@@ -6,6 +6,8 @@ linktitle: Working with Ranges
 description: "Work with ranges in a document using Python."
 type: docs
 weight: 130
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/working-with-ranges/
 aliases: [/python/working-with-ranges/]
 timestamp: 2024-01-27-14-07-04

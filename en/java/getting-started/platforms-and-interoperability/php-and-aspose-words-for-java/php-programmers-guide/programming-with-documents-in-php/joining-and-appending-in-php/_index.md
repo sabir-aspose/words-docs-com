@@ -6,6 +6,8 @@ linktitle: Joining And Appending in PHP
 description: "Joining And Appending Documents using PHP."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/joining-and-appending-in-php/
 timestamp: 2024-01-27-14-07-04
 ---

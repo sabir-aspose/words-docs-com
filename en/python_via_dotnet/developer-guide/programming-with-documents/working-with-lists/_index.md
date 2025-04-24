@@ -6,6 +6,8 @@ linktitle: Working with Lists
 description: "Create, specify formatting and restart lists in a document using Python."
 type: docs
 weight: 200
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/working-with-lists/
 aliases: [/python/working-with-lists/]
 timestamp: 2024-01-27-14-07-04

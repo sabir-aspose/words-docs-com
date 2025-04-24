@@ -6,6 +6,8 @@ linktitle: Working with Digital Signatures
 description: "Digitally sign documents and detect, count, verify, and remove existing digital signatures using Python."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/working-with-digital-signatures/
 aliases: [/python/working-with-digital-signatures/]
 timestamp: 2024-01-27-14-07-04

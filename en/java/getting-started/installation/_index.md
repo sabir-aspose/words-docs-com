@@ -6,6 +6,8 @@ linktitle: Installation
 description: "Install Aspose.Words for Java from Maven repository. Define the Aspose.Words for Java dependency in your pom.xml"
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/installation/
 timestamp: 2024-01-27-14-07-04
 ---

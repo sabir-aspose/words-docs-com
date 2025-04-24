@@ -8,6 +8,8 @@ aliases: [/cpp/creating-or-loading-a-document/]
 description: "Create a blank document or to load it from a file or stream using C++."
 keywords: "create a document c++, load a document c++, create a blank document c++, load a document from file c++, load a document from stream c++, create a document Aspose C++, load a document Aspose C++, load formats supported by Aspose.Words C++"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/create-or-load-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

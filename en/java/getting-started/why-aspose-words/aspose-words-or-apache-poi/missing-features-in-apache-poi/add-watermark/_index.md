@@ -6,6 +6,8 @@ linktitle: Add Watermark
 description: "Add a watermark into a document. Apache POI does not provide an opportunity to add a watermark."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/add-watermark/
 timestamp: 2024-01-31-14-23-37
 ---

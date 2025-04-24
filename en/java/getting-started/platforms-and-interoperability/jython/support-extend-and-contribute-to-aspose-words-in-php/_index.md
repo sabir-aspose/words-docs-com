@@ -6,6 +6,8 @@ linktitle: Support, Extend and Contribute
 description: "Support, Extend and Contribute to Aspose.Words for Java from Jython."
 type: docs
 weight: 55
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/support-extend-and-contribute-aspose-words-for-jython/
 timestamp: 2024-01-27-14-07-04
 ---

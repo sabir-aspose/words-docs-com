@@ -6,6 +6,8 @@ linktitle: Working with VBA Macros
 description: "Working with document VBA projects using C++."
 type: docs
 weight: 410
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/working-with-vba-macros/
 timestamp: 2024-01-30-16-22-34
 ---

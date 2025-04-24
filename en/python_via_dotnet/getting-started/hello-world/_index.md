@@ -6,6 +6,8 @@ linktitle: Hello World
 description: "Create, edit and save your first document in any supported format using Aspose.Words for Python via .NET to experience its simplicity and power in Python."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/hello-world/
 timestamp: 2024-01-27-14-07-04
 ---

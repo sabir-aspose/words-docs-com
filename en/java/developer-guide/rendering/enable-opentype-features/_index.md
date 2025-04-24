@@ -6,6 +6,8 @@ linktitle: Enable OpenType Features
 description: "Advanced typography features in Aspose.Words for Java."
 type: docs
 weight: 25
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/enable-opentype-features/
 aliases: [/java/how-to-use-opentype-features/]
 timestamp: 2024-01-27-14-07-04

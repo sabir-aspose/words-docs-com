@@ -6,6 +6,8 @@ linktitle: Extract Content in Jython
 description: "Extract Content from document using Jython."
 type: docs
 weight: 33
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/extract-content-in-jython/
 timestamp: 2024-01-27-14-07-04
 ---

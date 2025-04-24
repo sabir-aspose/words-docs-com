@@ -6,6 +6,8 @@ linktitle: Developer Guide
 description: "Learn Aspose.Words for Java Developer Guide to get more use cases, tips, and technical details."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/developer-guide/
 aliases: [/java/about-this-programmers-guide/]
 timestamp: 2024-09-25-11-08-55

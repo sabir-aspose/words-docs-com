@@ -6,6 +6,8 @@ linktitle: Working with Content Controls
 description: "Perform certain operations on content controls dynamically while building a report in Java."
 type: docs
 weight: 83
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/working-with-content-controls/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -9,6 +9,8 @@ aliases:
 description: "Create different regions in your template to have special areas that you can simply fill with your data. Use the Mail Merge with regions if you want to insert tables, rows with repeating data to make your documents dynamically grow."
 keywords: "how to execute Mail Merge c++"
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/mail-merge-with-regions/
 timestamp: 2024-09-24-14-35-44
 ---

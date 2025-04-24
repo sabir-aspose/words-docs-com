@@ -10,6 +10,8 @@ type: docs
 description: "Perform a Mail Merge operation with nested regions. Nested merge is a feature that enables you to merge hierarchical data from your data source into your merge template using Java."
 keywords: "mail merge with nested regions Java, Nested Mail Merge Regions"
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/nested-mail-merge-with-regions/
 timestamp: 2024-01-27-14-07-04
 ---

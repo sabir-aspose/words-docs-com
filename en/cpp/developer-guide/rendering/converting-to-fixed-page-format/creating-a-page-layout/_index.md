@@ -6,6 +6,8 @@ linktitle: Creating a Page Layout
 description: "Creating a page layout can be a costly procedure. Aspose.Words will create a page layout only when it is necessary: to render document pages, to obtain a field value, to export a document to HTML, etc."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/creating-a-page-layout/
 timestamp: 2024-09-24-14-35-44
 ---

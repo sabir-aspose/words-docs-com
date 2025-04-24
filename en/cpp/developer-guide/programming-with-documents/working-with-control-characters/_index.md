@@ -6,6 +6,8 @@ linktitle: Working With Control Characters
 description: "Introduction to working with control characters in Aspose.Words for C++."
 type: docs
 weight: 400
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/working-with-control-characters/
 timestamp: 2024-01-27-14-07-04
 ---

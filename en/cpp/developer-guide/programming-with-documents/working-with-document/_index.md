@@ -6,6 +6,8 @@ linktitle: Working with Document
 type: docs
 description: "The `Document` class provides various document properties and methods using C++. You use the `Document` class as the starting point for whatever you want to perform with Aspose.Words for C++. The `Document` object can be saved to a file or stream and also sent to a browser."
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/working-with-document/
 timestamp: 2024-01-30-16-22-34
 ---

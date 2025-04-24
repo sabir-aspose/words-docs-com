@@ -6,6 +6,8 @@ linktitle: Setting Background Color Dynamically
 description: "Set text background color for document contents dynamically when building a report in Java."
 type: docs
 weight: 90
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/setting-background-color-dynamically/
 timestamp: 2024-01-27-14-07-04
 ---

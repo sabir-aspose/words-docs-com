@@ -6,6 +6,8 @@ linktitle: Aspose.Words for Android via Java Features
 description: "This section provides a comparison of availability of features between Aspose.Words for Java and Aspose.Words for Android via Java."
 type: docs
 weight: 90
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/aspose-words-for-android-via-java-features/
 timestamp: 2024-10-21-11-17-44
 ---

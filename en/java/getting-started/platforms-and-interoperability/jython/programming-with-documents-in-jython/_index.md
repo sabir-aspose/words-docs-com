@@ -6,6 +6,8 @@ linktitle: Programming With Documents in Jython
 description: "Programming With Documents using Jython."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/programming-with-documents-in-jython/
 aliases:
   - /java/working-with-bookmarks-in-jython/

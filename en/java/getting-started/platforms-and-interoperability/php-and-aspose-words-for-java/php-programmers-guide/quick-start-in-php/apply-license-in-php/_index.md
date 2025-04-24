@@ -6,6 +6,8 @@ linktitle: Apply License in PHP
 description: "PHP: Apply License to Aspose.Words for Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/apply-license-in-php/
 timestamp: 2024-01-27-14-07-04
 ---

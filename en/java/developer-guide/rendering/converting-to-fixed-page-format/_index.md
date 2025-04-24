@@ -6,6 +6,8 @@ linktitle: Converting to Fixed-page Format
 description: "Aspose.Words for Java implements its own page layout engine enabling it to produce all of the fixed page formats, such as PDF, XPS, and various image formats."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/converting-to-fixed-page-format/
 timestamp: 2024-01-31-14-23-37
 ---

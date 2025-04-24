@@ -6,6 +6,8 @@ linktitle: Product Overview
 description: "Aspose.Words for Java is a software library designed to create, modify, convert, render, and print documents without relying on any other software."
 type: docs
 weight: 5
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/product-overview/
 aliases:
  - /java/overview-of-aspose-words-in-java/

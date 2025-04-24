@@ -6,6 +6,8 @@ linktitle: ColdFusion and Aspose.Words for Java
 description: "Using Aspose.Words for Java in ColdFusion applications."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/coldfusion-and-aspose-words-for-java/
 timestamp: 2024-01-27-14-07-04
 ---

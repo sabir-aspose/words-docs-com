@@ -6,6 +6,8 @@ linktitle: Working with Charts
 description: "Use charts to represent your sequential data when building a report in Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/using-charts-to-represent-sequential-data/
 timestamp: 2024-02-21-06-29-57
 ---

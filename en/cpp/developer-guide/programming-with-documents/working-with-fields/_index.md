@@ -6,6 +6,8 @@ linktitle: Working with Fields
 description: "Introduction to field feature in Aspose.Words for C++."
 type: docs
 weight: 370
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/working-with-fields/
 timestamp: 2024-01-30-16-22-34
 ---

@@ -8,6 +8,8 @@ description: "Document watermark manipulation using C++."
 aliases:
  - /cpp/how-to-add-a-watermark-to-a-document/
 weight: 340
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/working-with-watermark/
 timestamp: 2024-01-30-16-22-34
 ---

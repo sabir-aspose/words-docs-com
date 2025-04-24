@@ -6,6 +6,8 @@ linktitle: Remove Header and Footer from Documents
 description: "Remove headers or footers in a document easily and fast instead of using docx4j."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/remove-header-and-footer-from-documents/
 timestamp: 2024-10-21-11-17-44
 ---

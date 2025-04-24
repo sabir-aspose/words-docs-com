@@ -6,6 +6,8 @@ linktitle: Working with Sections
 description: "Create and manage sections and section breaks in a document using Python. Insert section into a document Python. Remove section Python. Copy sections between Documents."
 type: docs
 weight: 120
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/working-with-sections/
 aliases: [/python/working-with-sections/]
 timestamp: 2024-09-25-11-08-55

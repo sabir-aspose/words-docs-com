@@ -6,6 +6,8 @@ linktitle: What's new in Aspose.Words for Java
 type: docs
 description: "Aspose.Words for Java expands and enhances daily. On this page, you can learn about the huge and most interesting features of the product."
 weight: 2
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/what-s-new-in-aspose-words-for-java/
 timestamp: 2025-04-22-08-02-05
 ---

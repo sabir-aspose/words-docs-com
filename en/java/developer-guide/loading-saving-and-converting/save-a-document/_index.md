@@ -7,6 +7,8 @@ aliases: [/java/saving-a-document/]
 type: docs
 description: "Save a document in any supported format using Java."
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/save-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Working With Lists
 description: "Introduction to numbering formatting feature in Aspose.Words for C++."
 type: docs
 weight: 200
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/working-with-lists/
 timestamp: 2024-01-30-16-22-34
 ---

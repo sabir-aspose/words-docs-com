@@ -6,6 +6,8 @@ linktitle: Working with Bookmarks
 description: "How to insert, obtain, move, show or hide bookmarks using Python."
 type: docs
 weight: 180
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/working-with-bookmarks/
 aliases: [/python/working-with-bookmarks/]
 timestamp: 2024-01-27-14-07-04

@@ -6,6 +6,8 @@ linktitle: Working with Hyphenation
 description: "Use hyphenation for a more compact arrangement of text. It provides advanced algorithms to work with hyphenation dictionaries, uses OpenOffice dictionaries using Java."
 type: docs
 weight: 220
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---

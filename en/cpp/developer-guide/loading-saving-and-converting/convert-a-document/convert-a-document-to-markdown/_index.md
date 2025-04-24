@@ -7,6 +7,8 @@ type: docs
 description: "Convert a document in any supported load format to Markdown and vice versa using C++."
 keywords: how to convert a document to markdown c++, Convert doc to MD C++, convert DOCX to Markdown C++
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/convert-a-document-to-markdown/
 timestamp: 2024-10-21-08-52-03
 ---

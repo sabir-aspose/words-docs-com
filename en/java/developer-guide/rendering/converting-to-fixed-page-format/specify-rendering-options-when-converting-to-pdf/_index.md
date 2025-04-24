@@ -6,6 +6,8 @@ linktitle: Specify Rendering Options When Converting to PDF
 description: "Convert a document to PDF with advanced options. Use PdfSaveOptions to change the result of saving a document to PDF format using Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

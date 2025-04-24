@@ -6,6 +6,8 @@ linktitle: Support, Extend and Contribute Aspose.Words in Struts 1.3
 description: "Support, Extend and Contribute Aspose.Words for Struts."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/support-extend-and-contribute-aspose-words-in-struts-1-3/
 timestamp: 2024-01-27-14-07-04
 ---

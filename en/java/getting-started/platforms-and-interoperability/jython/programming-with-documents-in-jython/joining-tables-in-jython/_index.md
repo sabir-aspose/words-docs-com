@@ -6,6 +6,8 @@ linktitle: Joining Tables in Jython
 description: "Joining Tables using Jython."
 type: docs
 weight: 65
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/joining-tables-in-jython/
 timestamp: 2024-01-27-14-07-04
 ---

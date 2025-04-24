@@ -6,6 +6,8 @@ linktitle: Find And Replace in Ruby
 description: "Find and/or replace text in MS Word document using Ruby."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/find-and-replace-in-ruby/
 timestamp: 2024-01-27-14-07-04
 ---

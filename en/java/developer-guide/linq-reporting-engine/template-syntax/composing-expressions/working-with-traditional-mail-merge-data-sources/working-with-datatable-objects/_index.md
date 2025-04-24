@@ -6,6 +6,8 @@ linktitle: Working with DataTable Objects
 description: "Treat DataTable row objects in template expressions as enumerations of their rows when building a report in Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/working-with-datatable-objects/
 timestamp: 2024-01-27-14-07-04
 ---

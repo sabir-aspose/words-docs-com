@@ -6,6 +6,8 @@ linktitle: Your First Application
 description: "Installing Aspose.Words for Android via Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/your-first-application/
 timestamp: 2024-01-27-14-07-04
 ---

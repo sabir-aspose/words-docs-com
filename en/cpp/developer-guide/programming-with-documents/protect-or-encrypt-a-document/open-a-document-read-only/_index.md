@@ -6,6 +6,8 @@ linktitle: Open a Document Read-Only
 description: "Make your document read-only so that the content can be copied or read, but not modified."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/open-a-document-read-only/
 aliases: [/cpp/document-protection/]
 timestamp: 2024-01-27-14-07-04

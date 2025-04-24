@@ -6,6 +6,8 @@ linktitle: Working With Bookmarks in Ruby
 description: "Work with bookmarks using Ruby."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/working-with-bookmarks-ruby/
 aliases: [/java/working-with-bookmarks-in-ruby/]
 timestamp: 2024-01-27-14-07-04

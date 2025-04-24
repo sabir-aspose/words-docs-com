@@ -6,6 +6,8 @@ linktitle: Insert Picture into a Document
 description: "Insert picture into a document. Apache POI does not provide an opportunity to insert picture into a document."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/insert-picture-in-document/
 timestamp: 2024-01-31-14-23-37
 ---

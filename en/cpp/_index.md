@@ -5,6 +5,8 @@ linktitle: Aspose.Words for C++
 description: "Generate, modify, convert, render, and print documents using C++."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/
 is_root: true
 timestamp: 2024-09-25-11-08-55

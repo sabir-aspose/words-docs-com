@@ -6,6 +6,8 @@ linktitle: Add Watermark in Ruby
 description: "Add watermark to MS Word documents using Ruby."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/add-watermark-in-ruby/
 timestamp: 2024-10-21-11-17-44
 ---

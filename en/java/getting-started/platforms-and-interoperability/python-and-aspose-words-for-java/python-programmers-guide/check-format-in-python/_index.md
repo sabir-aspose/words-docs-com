@@ -6,6 +6,8 @@ linktitle: Check Format in Python
 description: "Check Document Format using Python."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/check-format-in-python/
 timestamp: 2024-01-27-14-07-04
 ---

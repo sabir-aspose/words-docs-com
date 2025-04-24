@@ -6,6 +6,8 @@ linktitle: Working with Form Fields
 description: "Insert, obtain, or format a form field in a document using Python."
 type: docs
 weight: 380
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/working-with-form-fields/
 aliases: [/python/working-with-form-fields/]
 timestamp: 2024-01-27-14-07-04

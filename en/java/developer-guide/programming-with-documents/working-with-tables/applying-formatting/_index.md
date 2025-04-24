@@ -6,6 +6,8 @@ linktitle: Apply Table Formatting
 description: "Table formatting in details. Using Java to format every part of table."
 type: docs
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/applying-formatting/
 aliases: [/java/applying-formatting-to-table-row-and-cell/]
 timestamp: 2024-01-27-14-07-04

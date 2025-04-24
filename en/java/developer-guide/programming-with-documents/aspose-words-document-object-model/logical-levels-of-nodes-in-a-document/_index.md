@@ -6,6 +6,8 @@ linktitle: Logical Levels of Nodes in a Document
 type: docs
 description: "In Aspose.Words for Java documentation mentioned logical levels of nodes – block level, inline-level, or row level. The node level is used to describe the location in the document tree where the node is typically occur."
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

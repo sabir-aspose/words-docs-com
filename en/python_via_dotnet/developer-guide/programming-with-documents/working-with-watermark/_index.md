@@ -6,6 +6,8 @@ linktitle: Working with Watermark
 description: "Create and manage watermarks in a document using Python."
 type: docs
 weight: 340
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/working-with-watermark/
 aliases: [/python/working-with-watermark/]
 timestamp: 2025-04-16-07-02-05

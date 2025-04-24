@@ -6,6 +6,8 @@ linktitle: Setting Text Color Dynamically
 description: "Set font text color for document contents dynamically when building a report in Java."
 type: docs
 weight: 85
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/setting-text-color-dynamically/
 timestamp: 2024-01-27-14-07-04
 ---

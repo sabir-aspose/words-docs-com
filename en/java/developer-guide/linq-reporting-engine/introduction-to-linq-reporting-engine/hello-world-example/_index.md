@@ -6,6 +6,8 @@ linktitle: Hello World Example
 description: "Create Hello world example to start working with LINQ Reporting Engine to build a report in Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/hello-world-example/
 timestamp: 2024-01-27-14-07-04
 ---

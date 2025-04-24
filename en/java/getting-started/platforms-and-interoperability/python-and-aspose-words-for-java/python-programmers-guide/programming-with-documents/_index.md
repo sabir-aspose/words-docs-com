@@ -6,6 +6,8 @@ linktitle: Programming With Documents in Python
 description: "Programming Documents using Python."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/programming-with-documents-python/
 aliases:
   - /java/programming-with-documents-in-python/
