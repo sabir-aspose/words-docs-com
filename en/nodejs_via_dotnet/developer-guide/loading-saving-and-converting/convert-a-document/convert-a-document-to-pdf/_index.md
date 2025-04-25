@@ -71,9 +71,9 @@ Converting to PDF is not restricted by Microsoft Word document formats. Any for
 
 The following code example shows how to convert JPEG and TIFF images to PDF:
 
-{{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "ImageToPdf.js" >}}
+{{< gist "aspose-words-gists" "38c6608baa855f951a4e117a721bdaae" "image-to-pdf.js" >}}
 
-{{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "ConvertImageToPdf.js" >}}
+{{< gist "aspose-words-gists" "38c6608baa855f951a4e117a721bdaae" "convert-image-to-pdf.js" >}}
 
 
 ## Reduce PDF Output Size
@@ -86,7 +86,7 @@ Using the **OptimizeOutput** property may affect the accuracy of content display
 
 {{% /alert %}}
 
-{{< gist "aspose-words-gists" "36a49a29062268dc5e6d3134163f8d99" "OptimizeOutput.js" >}}
+{{< gist "aspose-words-gists" "38c6608baa855f951a4e117a721bdaae" "optimize-output.js" >}}
 
 ## Reduce PDF Output Size
 
