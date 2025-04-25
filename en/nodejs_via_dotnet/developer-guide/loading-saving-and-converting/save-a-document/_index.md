@@ -21,7 +21,7 @@ Simply use the [save](https://reference.aspose.com/words/nodejs-net/aspose.word
 
 The following code example shows how to load and save a document to a file:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "LoadAndSave.js" >}}
+{{< gist "aspose-words-gists" "757cf7d3534a39730cf3290d418681ab" "load-and-save.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -35,7 +35,7 @@ Pass a stream object to the [save](https://reference.aspose.com/words/nodejs-net
 
 The following code example shows how to load and save a document to a stream:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "LoadAndSaveToStream.js" >}}
+{{< gist "aspose-words-gists" "757cf7d3534a39730cf3290d418681ab" "load-and-save-to-stream.js" >}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/blob/master/Data/Document.docx).
 
@@ -45,5 +45,5 @@ Aspose.Words supports saving a document into PCL (Printer Command Language). Asp
 
 The following code example shows how to save a document to PCL using save options:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "RasterizeTransformedElements.js" >}}
+{{< gist "aspose-words-gists" "757cf7d3534a39730cf3290d418681ab" "rasterize-transformed-elements.js" >}}
 
