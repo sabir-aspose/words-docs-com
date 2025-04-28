@@ -35,13 +35,13 @@ Since we are dealing with contents in a folder, the first thing we need to do is
 
 The following code example shows how to get a list of all the files in the folder:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "GetFiles.js" >}}
+{{< gist "aspose-words-gists" "eabbcbd1e117d4d628dfe4fd7c30321c" "get-files.js" >}}
 
 When all the files are collected, the rest of the work is done by the [detectFileFormat](https://reference.aspose.com/words/nodejs-net/aspose.words/fileformatutil/detectfileformat/) method, which checks the file format.
 
 The following code example shows how to iterate over the collected list of files, check the format of each file, and moves each file to the appropriate folder:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "CheckFormatCompatibility.js" >}}
+{{< gist "aspose-words-gists" "eabbcbd1e117d4d628dfe4fd7c30321c" "check-format-compatibility.js" >}}
 
 The files are moved into appropriate subfolders using the **copyFile** method of the **fs** module.
 
