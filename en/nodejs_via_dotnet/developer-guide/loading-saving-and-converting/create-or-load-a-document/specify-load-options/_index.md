@@ -21,7 +21,7 @@ By default Aspose.Words opens documents using Microsoft Word 2019 rules. If you 
 
 The following code example shows how to set the Microsoft Word version with load options:
 
-{{< gist "aspose-words-s" "e9d8f984dac599756ccb4a64b8c79768" "SetMSWordVersion.оы" >}}
+{{< gist "aspose-words-gists" "9298958b7a6872536299cd7e3f3ab24b" "set-ms-word-version.js" >}}
 
 ## Set Language Preferences to Change the Appearance
 

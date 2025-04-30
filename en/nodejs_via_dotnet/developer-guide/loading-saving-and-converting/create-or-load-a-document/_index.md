@@ -36,7 +36,7 @@ doc.save("out.docx")
 Note the default values:
 
 - A blank document contains one section with default parameters, one empty paragraph, some document styles. Actually this document is the same as the result of creating the “New document” in Microsoft Word.
-- The document paper size is [PaperSize.LETTER](https://reference.aspose.com/words/nodejs-net/aspose.words/papersize/#letter).
+- The document paper size is [PaperSize.Letter](https://reference.aspose.com/words/nodejs-net/aspose.words/papersize/#letter).
 
 {{% /alert %}}
 
@@ -50,7 +50,7 @@ Pass a file name as string to the [Document](https://reference.aspose.com/words/
 
 The following code example shows how to open a document from a file:
 
-{{< gist "aspose-words-gists" "757cf7d3534a39730cf3290d418681ab" "open-document.js" >}}
+{{< gist "aspose-words-gists" "96e42cb4a611465927f8e7b1b3d546d3" "open-document.js" >}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/blob/master/Data/Document.docx).
 
