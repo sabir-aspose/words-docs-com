@@ -59,7 +59,7 @@ Aspose.Words currently supports the following Markdown features, which mostly fo
 
 The following example shows how to create a document with some styles and save it to Markdown:
 
-{{< gist "aspose-words-gists" "4c234fd146c89eff1d2f0d769c03fef4" "create-markdown-document-with-styles.js" >}}
+{{< gist "aspose-words-gists" "7929f6f818221a9aad44db2039313210" "create-markdown-document-with-styles-js" >}}
 
 The result of this code example is shown below.
 

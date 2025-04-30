@@ -33,7 +33,7 @@ For example, when saving a document to DOC or DOT format, use the [password](ht
 
 The following code example shows how to set a password to encrypt a document using the RC4 encryption method:
 
-{{< gist "aspose-words-s" "e9d8f984dac599756ccb4a64b8c79768" "EncryptDocumentWithPassword.js" >}}
+{{< gist "aspose-words-gists" "50a58d2d88c2177a9a4888b5d0e4de81" "encrypt-document-with-password.js" >}}
 
 When saving a document to Docx format, use the [password](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/ooxmlsaveoptions/password/) property of the [OoxmlSaveOptions](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/ooxmlsaveoptions/) class.
 
