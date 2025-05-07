@@ -14,6 +14,28 @@ timestamp: 2025-04-16-07-02-05
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
+## Aspose.Words for Python via .NET 25.5
+
+Aspose.Words 25.5 enhances chart customization with new styling options and improves Markdown export by offering control over how empty paragraphs are handled.
+
+### Converting, Loading, and Saving Documents
+
+#### Export Empty Paragraphs to Markdown <sup>25.5</sup>
+
+The ability to control how empty paragraphs are exported to Markdown has been introduced by adding the **MarkdownEmptyParagraphExportMode** enumeration and the **empty_paragraph_export_mode** property.
+
+### Rendering
+
+#### Setting the Chart Style <sup>25.5</sup>
+
+The ability to set the chart style has been introduced by adding the **ChartStyle** enumeration and the **style** property.
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for Python via .NET 25.4 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-4-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words for Python via .NET 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 introduces AI-powered grammar checking and enhances document saving with advanced options for HTML, SVG, and Markdown formats.
