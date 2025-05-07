@@ -14,13 +14,15 @@ timestamp: 2025-04-15-08-02-05
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for C++ 25.1, 25.2, 25.3
+## Aspose.Words for C++ 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 introduces AI-powered grammar checking and enhances document saving with advanced options for HTML, SVG, and Markdown formats.
 
 Aspose.Words 25.2 introduces text summarization with Anthropic AI models, adds MsWorks format support, enhances typographic control, and improves PDF structure and list handling.
 
 Aspose.Words 25.3 enhances an AI-powered grammar checker and font selection with the UpdateAmbiguousTextFont property, as well as improves PDF attachments export.
+
+Aspose.Words 25.4 introduces support for new paper sizes, enables advanced HTML export control, improves watermark handling, and enhances the usability of the LowCode API.
 
 ### AI-powered Features
 
@@ -32,6 +34,12 @@ Aspose.Words 25.3 enhances an AI-powered grammar checker and font selection with
 #### Summarization Using Anthropic Generative Language Models <sup>25.2</sup>
 
 Text summarization using Anthropic generative language models has been enabled by introducing a new public class [AnthropicAiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/).
+
+### Low Code
+
+#### Low Code API Usability <sup>25.4</sup>
+
+Significant improvements to the usability of the **LowCode API** have been introduced, simplifying document processing and reducing the need for repetitive code.
 
 ### Supported Formats <sup>25.2</sup>
 
@@ -47,6 +55,7 @@ Saving to HTML and SVG formats has been enhanced by adding **IdPrefix** and **Re
 
 - A new [ImageResolution](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_imageresolution/) option has been added to the [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) class to set the image resolution.
 - A new [OfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_officemathexportmode/) option and [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownofficemathexportmode/) enumeration have been and added to the [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) class to set OfficeMath output mode.
+- The ability to set an image watermark from a stream has been introduced by adding a new overload to the [SetImage](https://reference.aspose.com/words/cpp/aspose.words/watermark/setimage/#watermarksetimageconst-systemsharedptrsystemiostream-const-systemsharedptrasposewordsimagewatermarkoptions-method) method. <sup>25.4</sup>
 
 ### Rendering
 
@@ -57,6 +66,14 @@ The [NumberSpacing](https://reference.aspose.com/words/cpp/aspose.words/font/get
 #### Controlling Font Selection for Ambiguous Characters <sup>25.3</sup>
 
 A new public property [UpdateAmbiguousTextFont](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_updateambiguoustextfont/) has been added to the [SaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/) class to control the font selection according to the character code used.
+
+#### Paper Size Options <sup>25.4</sup>
+
+The ability to use JIS B4 and JIS B5 paper sizes has been introduced by adding new values to the [PaperSize](https://reference.aspose.com/words/cpp/aspose.words/papersize/) enumeration.
+
+#### HTML Output Control <sup>25.4</sup>
+
+The ability to remove JavaScript from hyperlink URLs during HTML export has been introduced by adding the [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/cpp/aspose.words.saving/htmlsaveoptions/get_removejavascriptfromlinks/) property.
 
 ### Other
 
@@ -71,6 +88,8 @@ Learn more about [Aspose.Words for C++ 25.1 Release Notes](https://releases.aspo
 Learn more about [Aspose.Words for C++ 25.2 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-2-release-notes/).
 
 Learn more about [Aspose.Words for C++ 25.3 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-3-release-notes/).
+
+Learn more about [Aspose.Words for C++ 25.4 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-4-release-notes/).
 
 {{% /alert %}}
 

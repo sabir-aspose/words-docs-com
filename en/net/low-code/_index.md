@@ -56,7 +56,7 @@ In the Fluent API, operations can be configured and executed through a context (
 
 Use `LowCode` to compare two Word documents and save the result.
 
-**non-non-fluent api example:**
+**non-fluent api example:**
 
 {{< highlight csharp >}}
 string firstDoc = "Document1.docx";
