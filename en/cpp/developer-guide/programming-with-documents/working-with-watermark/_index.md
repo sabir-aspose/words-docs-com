@@ -11,10 +11,18 @@ weight: 340
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/working-with-watermark/
-timestamp: 2024-01-30-16-22-34
+timestamp: 2025-05-07-07-22-34
 ---
 
 This topic discusses how to work programmatically with watermark using Aspose.Words. A watermark is a background image that displays behind the text in a document. A watermark can contain a text or an image represented by the [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/) class.
+
+{{% alert color="primary" %}}
+
+**Try online**
+
+You can try this functionality with our [Free online document watermark](https://products.aspose.app/words/watermark).
+
+{{% /alert %}}
 
 ## Add a Watermark to a Document
 
@@ -32,7 +40,11 @@ The following code example demonstrates how to insert an image watermark in a do
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cpp" >}}
 
-The watermark can also be inserted using shape class as well. It is very easy to insert any shape or image into a header or footer and thus create a watermark of any imaginable type. The following code example inserts a watermark into a Word document.
+Image watermark can be inserted as image, string, or stream.
+
+The watermark can also be inserted using shape class as well. It is very easy to insert any shape or image into a header or footer and thus create a watermark of any imaginable type. 
+
+The following code example inserts a watermark into a Word document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Images-AddWatermark-AddWatermark.cpp" >}}
 
