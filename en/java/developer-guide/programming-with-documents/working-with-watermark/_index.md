@@ -10,7 +10,7 @@ ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/working-with-watermark/
 aliases: [/java/how-to-add-a-watermark-to-a-document/]
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-04-22-08-07-04
 ---
 
 This topic discusses how to work programmatically with a watermark using Aspose.Words. A watermark is a background image that displays behind the text in a document. A watermark can contain a text or an image represented by the [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) class.
@@ -38,6 +38,8 @@ The following code example demonstrates how to insert a text watermark in a docu
 The following code example demonstrates how to insert an image watermark in a document by defining [ImageWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/imagewatermarkoptions/) using the [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.awt.image.BufferedImage) method:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.java" >}}
+
+Image watermark can be inserted as image, string, or stream.
 
 The watermark can also be inserted using shape class as well. It is very easy to insert any shape or image into a header or footer and thus create a watermark of any imaginable type.
 
