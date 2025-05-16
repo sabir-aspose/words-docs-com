@@ -3,44 +3,48 @@ title: Praca ze znakiem wodnym w C#
 second_title: Aspose.Words dla .NET
 articleTitle: Praca ze znakiem wodnym
 linktitle: Praca ze znakiem wodnym
-description: "Dokumentuj manipulację znakiem wodnym za pomocą C#."
+description: "Manipulacja znakiem wodnym dokumentu przy użyciu C#."
 type: docs
 weight: 340
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /pl/net/working-with-watermark/
-timestamp: 2024-05-02-11-51-44
+timestamp: 2025-04-16-07-02-05
 ---
 
-W tym temacie omówiono sposób programowej pracy ze znakiem wodnym przy użyciu formatu Aspose.Words. Znak wodny to obraz tła wyświetlany za tekstem w dokumencie. Znak wodny może zawierać tekst lub obraz reprezentowany przez klasę [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/).
+W tym temacie omówiono programową pracę ze znakiem wodnym przy użyciu Aspose.Words. Znak wodny to obraz tła wyświetlany za tekstem w dokumencie. Znak wodny może zawierać tekst lub obraz reprezentowany przez klasę [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/).
 
 {{% alert color="primary" %}}
 
 **Spróbuj online**
 
-Możesz wypróbować tę funkcjonalność w naszym [Bezpłatny znak wodny dokumentu online](https://products.aspose.app/words/watermark).
+Możesz wypróbować tę funkcjonalność z naszym [Darmowy znak wodny dokumentu online](https://products.aspose.app/words/watermark).
 
 {{% /alert %}}
 
-## Dodaj znak wodny do dokumentu
+## Dodawanie znaku wodnego do dokumentu
 
-W Microsoft Word znak wodny można łatwo wstawić do dokumentu za pomocą polecenia Wstaw znak wodny. Aspose.Words udostępnia klasę [watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) do dodawania lub usuwania znaku wodnego w dokumentach. Aspose.Words udostępnia [Typ znaku wodnego](https://reference.aspose.com/words/net/aspose.words/watermark/type/)enumeration definiujący trzy możliwe typy znaków wodnych (tekst, obraz i brak), z którymi można pracować
+W Microsoft Word Znak wodny można łatwo wstawić do dokumentu za pomocą polecenia Wstaw Znak wodny. Aspose.Words zapewnia klasę [watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) do dodawania lub usuwania znaku wodnego w dokumentach. Aspose.Words zapewnia wyliczenie [WatermarkType](https://reference.aspose.com/words/net/aspose.words/watermark/type/)definiujące trzy możliwe typy znaków wodnych (tekst, obraz i brak) do pracy.
 
-### Dodaj tekstowy znak wodny
+### Dodaj Tekstowy Znak Wodny
 
-Poniższy przykład kodu demonstruje, jak wstawić tekstowy znak wodny do dokumentu, definiując [TextWatermarkOptions](https://reference.aspose.com/words/net/aspose.words/textwatermarkoptions/) przy użyciu metody [SetText](https://reference.aspose.com/words/net/aspose.words/watermark/settext/#settext):
+Poniższy przykład kodu pokazuje, jak wstawić tekstowy znak wodny do dokumentu, definiując [TextWatermarkOptions](https://reference.aspose.com/words/net/aspose.words/textwatermarkoptions/) przy użyciu metody [SetText](https://reference.aspose.com/words/net/aspose.words/watermark/settext/#settext):
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkWithWatermark-AddTextWatermarkWithSpecificOptions.cs" >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "add-text-watermark.cs" >}}
 
-### Dodaj znak wodny obrazu
+### Dodaj Znak Wodny Obrazu
 
-Poniższy przykład kodu demonstruje, jak wstawić obrazowy znak wodny do dokumentu, definiując [ImageWatermarkOptions](https://reference.aspose.com/words/net/aspose.words/imagewatermarkoptions/) przy użyciu metody [SetImage](https://reference.aspose.com/words/net/aspose.words/watermark/setimage/#setimage):
+Poniższy przykład kodu pokazuje, jak wstawić znak wodny obrazu do dokumentu, definiując [ImageWatermarkOptions](https://reference.aspose.com/words/net/aspose.words/imagewatermarkoptions/) przy użyciu metody [SetImage](https://reference.aspose.com/words/net/aspose.words/watermark/setimage/#setimage):
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cs" >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "add-image-watermark.cs" >}}
 
-Znak wodny można również wstawić za pomocą klasy kształtu. Bardzo łatwo jest wstawić dowolny kształt lub obraz do nagłówka lub stopki i w ten sposób utworzyć znak wodny dowolnego możliwego typu.
+Znak wodny obrazu można wstawić jako obraz, ciąg lub strumień.
 
-Poniższy przykład kodu wstawia znak wodny do dokumentu programu Word:
+Znak wodny można również wstawić za pomocą klasy kształtu. Bardzo łatwo jest wstawić dowolny kształt lub obraz do nagłówka lub stopki, a tym samym utworzyć znak wodny dowolnego możliwego typu.
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Images-AddWatermark-AddWatermark.cs" >}}
+Poniższy przykład kodu wstawia znak wodny do dokumentu Word:
+
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "add-document-watermark.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -51,28 +55,24 @@ Możesz pobrać przykładowy plik tego przykładu z [Aspose.Words GitHub](https:
 
 ## Usuń znak wodny z dokumentu
 
-Klasa [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) udostępnia metodę usuwania służącą do usuwania znaku wodnego z dokumentu.
+Klasa [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) zapewnia metodę usuwania, aby usunąć znak wodny z dokumentu.
 
 Poniższy przykład kodu pokazuje, jak usunąć znak wodny z dokumentów:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkWithWatermark-RemoveWatermarkFromDocument.cs" >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "remove-document-watermark.cs" >}}
 
-Jeżeli znaki wodne dodawane są przy pomocy obiektu klasy [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) to aby usunąć znak wodny z dokumentu należy podczas wstawiania ustawić jedynie nazwę kształtu znaku wodnego i następnie usunąć kształt znaku wodnego o przypisaną nazwę.
+Jeśli znaki wodne są dodawane za pomocą obiektu klasy [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/), aby usunąć znak wodny z dokumentu, musisz ustawić tylko nazwę kształtu znaku wodnego podczas wstawiania, a następnie usunąć kształt znaku wodnego za pomocą przypisanej nazwy.
 
 Poniższy przykład kodu pokazuje, jak ustawić nazwę kształtu znaku wodnego i usunąć go z dokumentu:
 
-{{< highlight csharp >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "set-shape-name.cs" >}}
 
-// Set name to be able to remove it afterwards
-watermark.Name("WaterMark");
-{{< /highlight >}}
-
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Images-RemoveWatermark-RemoveWatermark.cs" >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "remove-watermark-shape.cs" >}}
 
 ## Dodaj znak wodny do komórki tabeli
 
-Czasami trzeba wstawić znak wodny/obrazek do komórki tabeli i wyświetlić go poza tabelą, można użyć właściwości [IsLayoutInCell](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/islayoutincell/). Ta właściwość pobiera lub ustawia flagę wskazującą, czy kształt jest wyświetlany wewnątrz tabeli, czy poza nią. Należy pamiętać, że ta właściwość działa tylko w przypadku optymalizacji dokumentu dla formatu Microsoft Word 2010 przy użyciu metody [OptimizeFor](https://reference.aspose.com/words/net/aspose.words.settings/compatibilityoptions/optimizefor/).
+Czasami musisz wstawić znak wodny / obraz do komórki tabeli i wyświetlić go poza tabelą, możesz użyć właściwości [IsLayoutInCell](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/islayoutincell/). Ta Właściwość pobiera lub ustawia flagę wskazującą, czy kształt jest wyświetlany wewnątrz tabeli, czy poza nią. Zauważ, że ta właściwość działa tylko wtedy, gdy zoptymalizujesz dokument dla Microsoft Word 2010 przy użyciu metody [OptimizeFor](https://reference.aspose.com/words/net/aspose.words.settings/compatibilityoptions/optimizefor/).
 
-Poniższy przykład kodu pokazuje, jak używać tej właściwości:
+Poniższy przykład kodu pokazuje, jak korzystać z tej właściwości:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-SetShapeLayoutInCell.cs" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "layout-in-cell.cs" >}}

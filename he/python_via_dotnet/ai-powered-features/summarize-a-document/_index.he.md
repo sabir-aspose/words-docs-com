@@ -1,20 +1,22 @@
-﻿---
+---
 title: לסכם מסמך
 second_title: Aspose.Words עבור Python via .NET
 articleTitle: לסכם מסמך
 linktitle: לסכם מסמך
 type: docs
 weight: 20
-description: "סכם מסמך. Aspose.Words עבור Python מפשט את סיכום המסמכים באמצעות OpenAI וגוגל AI מודלים בכך שהוא מאפשר לך לציין את אורך הסיכום."
+description: "סכם מסמך. Aspose.Words עבור Python מפשט את סיכום המסמכים באמצעות מודלים OpenAI וגוגל AI בכך שהוא מאפשר לך לציין את אורך הסיכום."
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /he/python-net/summarize-a-document/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
-סיכום מסמכים הוא כלי רב ערך לבדיקת תוכן, תובנות מהירות או הכנת תקצירים. Aspose.Words תומך בסיכום מסמכים באמצעות מודלים המופעלים על AI, מה שמקל על עיבוד טקסט ארוך. תכונה זו, הזמינה במודול [aspose.words.ai](https://reference.aspose.com/words/python-net/aspose.words.ai/), משלבת מודלים מתקדמים של שפות גנרטיביות מ *OpenAI* ו *Google*.
+סיכום מסמכים הוא כלי רב ערך לבדיקת תוכן, תובנות מהירות או הכנת תקצירים. Aspose.Words תומך בסיכום מסמכים באמצעות מודלים המופעלים על AI, מה שמקל על עיבוד טקסט ארוך. תכונה זו, הזמינה במודול [aspose.words.ai](https://reference.aspose.com/words/python-net/aspose.words.ai/), משלבת מודלים מתקדמים של שפה גנראטיבית מ *OpenAI* ו *Google*, כמו גם *Claude's* מודלים של שפה גנראטיבית אנתרופית. רשימת הדגמים הנתמכים זמינה בספירה [AiModelType](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodeltype/).
 
 ניתן לציין אפשרויות שונות לסיכום תוכן המסמך. השתמש בשיטה [summarize](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/summarize/) כדי ליצור סיכום של המסמך שלך. ניתן גם להגדיר אורך סיכום באמצעות המאפיין [summary_length](https://reference.aspose.com/words/python-net/aspose.words.ai/summarizeoptions/summary_length/).
 
-עם Aspose.Words, יישום סיכום מסמכים הוא פשוט. דוגמת הקוד הבאה מראה חם לסיכום מסמך באמצעות GPT-4או דֶגֶם:
+עם Aspose.Words, יישום סיכום מסמכים הוא פשוט. דוגמת הקוד הבאה מראה כיצד לסכם מסמך באמצעות מודל GPT-4o:
 
 {{< highlight python >}}
 first_doc = aw.Document(MyDir + "Big document.docx")

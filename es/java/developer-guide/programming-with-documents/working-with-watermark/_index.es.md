@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabajar con marca de agua en Java
 second_title: Aspose.Words por Java
 articleTitle: Trabajar con Marca de Agua
@@ -6,8 +6,10 @@ linktitle: Trabajar con Marca de Agua
 type: docs
 description: "Manipulación de marcas de agua de documentos usando Java."
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /es/java/working-with-watermark/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-04-22-08-07-04
 ---
 
 En este tema se analiza cómo trabajar mediante programación con una marca de agua utilizando Aspose.Words. Una marca de agua es una imagen de fondo que se muestra detrás del texto de un documento. Una marca de agua puede contener un texto o una imagen representada por la clase [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/).
@@ -22,7 +24,7 @@ Puede probar esta funcionalidad con nuestro [Marca de agua gratuita para documen
 
 ## Agregar una marca de agua a un Documento
 
-En Microsoft Word, se puede insertar fácilmente una marca de agua en un documento mediante el comando Insertar marca de agua. Aspose.Words proporciona la clase [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) para agregar o eliminar marcas de agua en documentos. Aspose.Words proporciona la enumeración [WatermarkType](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)que define tres tipos posibles de marcas de agua (Texto, Imagen y Ninguna) con las que trabajar.
+En Microsoft Word, se puede insertar fácilmente una marca de agua en un documento mediante el comando Insertar marca de agua. Aspose.Words proporciona la clase [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) para agregar o eliminar marcas de agua en documentos. Aspose.Words proporciona la enumeración [WatermarkType ](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)que define tres tipos posibles de marcas de agua (Texto, Imagen y Ninguna) con las que trabajar.
 
 ### Agregar Marca de Agua de Texto
 
@@ -36,9 +38,11 @@ El siguiente ejemplo de código demuestra cómo insertar una marca de agua de im
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.java" >}}
 
+La marca de agua de la imagen se puede insertar como imagen, cadena o secuencia.
+
 La marca de agua también se puede insertar usando la clase shape. Es muy fácil insertar cualquier forma o imagen en un encabezado o pie de página y así crear una marca de agua de cualquier tipo imaginable.
 
-El siguiente ejemplo de código inserta una marca de agua en un documento de Word:
+El siguiente ejemplo de código inserta una marca de agua en un documento Word:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-AddWatermarkToADocument-AddWatermarkToADocument.java" >}}
 

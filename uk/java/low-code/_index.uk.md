@@ -1,0 +1,59 @@
+---
+title: Low Code
+second_title: Aspose.Words для Java
+articleTitle: Робота з документами за допомогою LowCode API
+linktitle: Low Code
+type: docs
+description: "Спростіть такі завдання обробки документів, як порівняння, перетворення, розділення, злиття, пошук та заміна, серед інших, використовуючи Low Code API. Aspose.Words LowCode API завдяки простому синтаксису, швидким результатам та мінімальним витратам на кодування."
+weight: 23
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+url: /uk/java/low-code/
+timestamp: 2025-04-22-07-08-55
+---
+
+Aspose.Words для Java надає функцію **Aspose.Words LowCode API**, яка спрощує звичайні завдання обробки документів. Ця функція API призначена для розробників, які хочуть виконувати операції високого рівня, такі як порівняння документів, вилучення вмісту, перетворення зображень та заміна тексту, з мінімальними зусиллями.
+
+LowCode API ідеально підходить для сценаріїв, де швидке впровадження важливіше, ніж ретельний контроль. Давайте детальніше розглянемо можливості LowCode Aspose.Words для Java.
+
+{{% alert color="primary" %}}
+
+Важливо зазначити, що параметр LowCode API не дозволяє змінювати структуру документа.
+
+{{% /alert %}}
+
+## Доступні функції в LowCode API
+
+`Aspose.Words LowCode API` наразі підтримує:
+
+* **Converting** документи з одного формату в інший-клас [Converter](https://reference.aspose.com/words/java/com.aspose.words/converter/)
+* **Comparing** документи-клас [Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/)
+* **Mail merging** – клас [MailMerger](https://reference.aspose.com/words/java/com.aspose.words/mailmerger/)
+* **Reporting** заснований на синтаксисі LINQ – класі [ReportBuilder](https://reference.aspose.com/words/java/com.aspose.words/reportbuilder/)
+* **Merging** документи-клас [Merger](https://reference.aspose.com/words/java/com.aspose.words/merger/)
+* **Search and replace** – клас [Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/)
+* **Digital signing** документів-клас [DigitalSignature](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/)
+* **Splitting** розділення документа за допомогою різних критеріїв-клас [Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/)
+* Додавання **watermark** – класу [Watermarker](https://reference.aspose.com/words/java/com.aspose.words/watermarker/)
+
+{{% alert color="primary" %}}
+
+Зверніть увагу, що детальний опис кожної функції, крім Low Code, можна знайти в розділі "Посібник розробника".
+
+{{% /alert %}}
+
+## Побіжний і не дуже побіжний API
+
+Aspose.Words для Java підтримує як Fluent, так і Non-Fluent APIs, дозволяючи розробникам вибирати стиль, який найкраще відповідає їхнім уподобанням у програмуванні та потребам проекту. Давайте розглянемо кілька прикладів, щоб зрозуміти, чим відрізняються ці два типи API.
+
+{{% alert color="primary" %}}
+
+У Fluent API операції можна налаштувати та виконати за допомогою контексту (наприклад, ComparerContext або ReplacerContext). Цей контекст містить загальні параметри. Це гарантує, що всі пов'язані методи працюють з послідовною конфігурацією, що робить API потужним і простим в управлінні в складних сценаріях.
+
+{{% /alert %}}
+
+## Навіщо використовувати Aspose.Words Low Code
+
+**Aspose.Words LowCode API** дозволяє швидко виконувати завдання обробки документів високого рівня за допомогою зрозумілого синтаксису. Це особливо корисно для розробників, яким при роботі з документами Word потрібні швидкість, простота і зручність супроводу коду.
+
+Щоб вивчити більш складні варіанти, ви завжди можете поєднати LowCode APIs з повною об'єктною моделлю Aspose.Words. Дивіться інші приклади Low Code у розділі [API documentation](https://reference.aspose.com/words/java/com.aspose.words/).

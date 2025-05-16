@@ -1,20 +1,22 @@
-﻿---
+---
 title: สรุปเอกสาร
 second_title: Aspose.WordsสำหรับPython via .NET
 articleTitle: สรุปเอกสาร
 linktitle: สรุปเอกสาร
 type: docs
 weight: 20
-description: "สรุปเอกสาร Aspose.WordsสำหรับPythonช่วยลดความยุ่งยากในการสรุปเอกสารโดยใช้รุ่นOpenAIและกูเกิลAIโดยให้คุณระบุความ."
+description: "สรุปเอกสาร Aspose.WordsสำหรับPython ช่วยลดความยุ่งยากในการสรุปเอกสารโดยใช้รุ่นOpenAIและกูเกิลAIโดยให้คุณระบุความยาวสรุป."
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /th/python-net/summarize-a-document/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
-การสรุปเอกสารเป็นเครื่องมือที่มีคุณค่าสำหรับการตรวจทานเนื้อหาข้อมูลเชิงลึกอย่างรว Aspose.Wordsรองรับการสรุปเอกสารโดยใช้รุ่นขับเคลื่อนAIทำให้ง่ายต่อการประมวลผลข้อความยาว คุณลักษณะนี้พร้อมใช้งานในโมดูล[aspose.words.ai](https://reference.aspose.com/words/python-net/aspose.words.ai/)รวมโมเดลภาษาขั้นสูงจาก*OpenAI*และ*Google*
+การสรุปเอกสารเป็นเครื่องมือที่มีค่าสำหรับการตรวจสอบเนื้อหา ข้อมูลเชิงลึกอย่างรวดเร็ว หรือการเตรียมบทคัดย่อ Aspose.Words รองรับการสรุปเอกสารโดยใช้โมเดลที่ขับเคลื่อนด้วย AI ทำให้ประมวลผลข้อความยาวๆ ได้ง่ายขึ้น ฟีเจอร์นี้ซึ่งมีอยู่ในโมดูล [aspose.words.ai](https://reference.aspose.com/words/python-net/aspose.words.ai/) จะผสานรวมโมเดลภาษากำเนิดขั้นสูงจาก *OpenAI* และ *Google* รวมถึงโมเดลภาษากำเนิดแบบแอนโธรปิก *Claude's* รายชื่อโมเดลที่รองรับมีอยู่ในข้อมูลแจงนับ [AiModelType](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodeltype/).
 
 คุณสามารถระบุตัวเลือกต่างๆสำหรับการสรุปเนื้อหาเอกสาร ใช้วิธีการ[summarize](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/summarize/)เพื่อสร้างสรุปเอกสารของคุณ คุณยังสามารถตั้งค่าความยาวสรุปโดยใช้คุณสมบัติ[summary_length](https://reference.aspose.com/words/python-net/aspose.words.ai/summarizeoptions/summary_length/).
 
-ด้วยAspose.Wordsการดำเนินการสรุปเอกสารจะตรงไปตรงมา ตัวอย่างรหัสต่อไปนี้แสดงร้อนเพื่อสรุปเอกสารโดยใช้GPT-4โอโมเดล:
+ด้วยAspose.Wordsการดำเนินการสรุปเอกสารจะตรงไปตรงมา ตัวอย่างรหัสต่อไปนี้แสดงวิธีการสรุปเอกสารโดยใช้รูปแบบGPT-4o:
 
 {{< highlight python >}}
 first_doc = aw.Document(MyDir + "Big document.docx")

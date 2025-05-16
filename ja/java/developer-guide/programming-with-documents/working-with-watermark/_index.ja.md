@@ -1,4 +1,4 @@
-﻿---
+---
 title: Javaでの透かしの操作
 second_title: Aspose.WordsのためのJava
 articleTitle: 透かしの操作
@@ -6,8 +6,10 @@ linktitle: 透かしの操作
 type: docs
 description: "Javaを使用した文書の透かし操作。"
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ja/java/working-with-watermark/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-04-22-08-07-04
 ---
 
 このトピックでは、Aspose.Wordsを使用して透かしをプログラムで操作する方法について説明します。 透かしは、ドキュメント内のテキストの後ろに表示される背景画像です。 透かしには、[Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/)クラスで表されるテキストまたは画像を含めることができます。
@@ -22,7 +24,7 @@ timestamp: 2024-01-27-14-07-04
 
 ## 文書に透かしを追加する
 
-Microsoft Wordでは、[透かしの挿入]コマンドを使用して、文書に透かしを簡単に挿入できます。 Aspose.Wordsは、ドキュメント内の透かしを追加または削除するための[watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/)クラスを提供します。 Aspose.Wordsは[WatermarkType](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)列挙体を提供し、使用する透かしの3つのタイプ(テキスト、イメージ、およびなし)を定義します。
+Microsoft Wordでは、[透かしの挿入]コマンドを使用して、文書に透かしを簡単に挿入できます。 Aspose.Wordsは、ドキュメント内の透かしを追加または削除するための[watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/)クラスを提供します。 Aspose.Wordsは[WatermarkType ](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)列挙体を提供し、使用する透かしの3つのタイプ(テキスト、イメージ、およびなし)を定義します。
 
 ### テキスト透かしを追加
 
@@ -36,9 +38,11 @@ Microsoft Wordでは、[透かしの挿入]コマンドを使用して、文書�
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.java" >}}
 
+画像の透かしは、画像、文字列、またはストリームとして挿入できます。
+
 透かしは、shapeクラスを使用して挿入することもできます。 ヘッダーやフッターに任意の形状や画像を挿入し、したがって、任意の想像できるタイプの透かしを作成することは非常に簡単です。
 
-Word文書に透かしを挿入するコード例を次に示します:
+次のコード例では、Wordドキュメントに透かしを挿入します:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-AddWatermarkToADocument-AddWatermarkToADocument.java" >}}
 

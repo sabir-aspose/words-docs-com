@@ -1,4 +1,4 @@
-﻿---
+---
 title: Dịch Một Tài liệu
 second_title: Aspose.Words cho Python via .NET
 articleTitle: Dịch Một Tài liệu
@@ -6,6 +6,8 @@ linktitle: Dịch Một Tài liệu
 type: docs
 weight: 30
 description: "Dịch một tài liệu. Aspose.Words cho Python đơn giản hóa dịch tài liệu bằng Các mô hình Google AI, cho phép bạn chỉ định ngôn ngữ đích."
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /vi/python-net/translate-a-document/
 timestamp: 2025-01-15-16-40-05
 ---

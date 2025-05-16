@@ -1,4 +1,4 @@
-﻿---
+---
 title: 文書を翻訳する
 second_title: Aspose.Wordsのための.NET
 articleTitle: 文書を翻訳する
@@ -6,6 +6,8 @@ linktitle: 文書を翻訳する
 type: docs
 weight: 30
 description: "文書を翻訳します。 Aspose.Wordsのための.NET GoogleAIモデルを使用して文書翻訳を簡素化し、ターゲット言語を指定できるようにします。"
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ja/net/translate-a-document/
 timestamp: 2024-12-13-06-40-00
 ---
@@ -16,16 +18,7 @@ timestamp: 2024-12-13-06-40-00
 
 次のコード例は、Aspose.Wordsの*Gemini 1.5 Flash*モデルを使用して文書をアラビア語に翻訳する方法を示しています:
 
-{{< highlight csharp >}}
-Document doc = new Document(MyDir + "Document.docx");
-
-string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-// Use Google generative language models.
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gemini15Flash).WithApiKey(apiKey);
-
-Document translatedDoc = model.Translate(doc, Language.Arabic);
-translatedDoc.Save(ArtifactsDir + "AI.AiTranslate.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "ea14b3e44c0233eecd663f783a21c4f6" "ai-translate.cs" >}}
 
 {{% alert color="primary" %}}
 

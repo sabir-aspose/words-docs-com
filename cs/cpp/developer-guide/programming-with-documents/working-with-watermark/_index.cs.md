@@ -1,4 +1,4 @@
-﻿---
+---
 title: Práce s vodoznakem v C++
 second_title: Aspose.Words pro C++
 articleTitle: Práce s vodoznakem
@@ -6,11 +6,21 @@ linktitle: Práce s vodoznakem
 type: docs
 description: "Manipulace s vodoznakem dokumentu pomocí C++."
 weight: 340
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cs/cpp/working-with-watermark/
-timestamp: 2024-01-30-16-22-34
+timestamp: 2025-05-07-07-22-34
 ---
 
 Toto téma pojednává o tom, jak programově pracovat s vodoznakem pomocí Aspose.Words. Vodoznak je obrázek na pozadí, který se zobrazuje za textem v dokumentu. Vodoznak může obsahovat text nebo obrázek reprezentovaný třídou [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/).
+
+{{% alert color="primary" %}}
+
+**Vyzkoušejte online**
+
+Tuto funkci můžete vyzkoušet pomocí našeho [Zdarma online vodoznak dokumentu](https://products.aspose.app/words/watermark).
+
+{{% /alert %}}
 
 ## Přidání vodoznaku do dokumentu
 
@@ -28,7 +38,11 @@ Následující příklad kódu ukazuje, jak vložit vodoznak obrázku do dokumen
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cpp" >}}
 
-Vodoznak lze také vložit pomocí třídy tvarů. Je velmi snadné vložit jakýkoli tvar nebo obrázek do záhlaví nebo zápatí a vytvořit tak vodoznak jakéhokoli představitelného typu. Následující příklad kódu vloží vodoznak do dokumentu Word.
+Vodoznak obrázku lze vložit jako obrázek, řetězec nebo stream.
+
+Vodoznak lze také vložit pomocí třídy tvarů. Je velmi snadné vložit jakýkoli tvar nebo obrázek do záhlaví nebo zápatí a vytvořit tak vodoznak jakéhokoli představitelného typu.
+
+Následující příklad kódu vloží vodoznak do dokumentu Word.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Images-AddWatermark-AddWatermark.cpp" >}}
 

@@ -6,11 +6,21 @@ linktitle: العمل مع العلامة المائية
 type: docs
 description: "وثيقة التلاعب العلامة المائية باستخدام C++."
 weight: 340
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ar/cpp/working-with-watermark/
-timestamp: 2024-01-30-16-22-34
+timestamp: 2025-05-07-07-22-34
 ---
 
 يناقش هذا الموضوع كيفية العمل برمجيا باستخدام العلامة المائية Aspose.Words. العلامة المائية هي صورة خلفية تعرض خلف النص في المستند. يمكن أن تحتوي العلامة المائية على نص أو صورة ممثلة بفئة [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/).
+
+{{% alert color="primary" %}}
+
+**جرب عبر الإنترنت**
+
+يمكنك تجربة هذه الوظيفة من خلال [علامة مائية مجانية للمستندات عبر الإنترنت](https://products.aspose.app/words/watermark).
+
+{{% /alert %}}
 
 ## أضف علامة مائية إلى مستند
 
@@ -28,7 +38,11 @@ timestamp: 2024-01-30-16-22-34
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cpp" >}}
 
-يمكن أيضا إدراج العلامة المائية باستخدام فئة الشكل أيضا. من السهل جدا إدراج أي شكل أو صورة في رأس أو تذييل وبالتالي إنشاء علامة مائية من أي نوع يمكن تخيله. يقوم مثال الكود التالي بإدراج علامة مائية في مستند ورد.
+يمكن إدراج العلامة المائية للصورة كصورة أو سلسلة أو دفق.
+
+يمكن أيضا إدراج العلامة المائية باستخدام فئة الشكل أيضا. من السهل جدا إدراج أي شكل أو صورة في رأس أو تذييل وبالتالي إنشاء علامة مائية من أي نوع يمكن تخيله.
+
+يقوم مثال الكود التالي بإدراج علامة مائية في مستند Word.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Images-AddWatermark-AddWatermark.cpp" >}}
 

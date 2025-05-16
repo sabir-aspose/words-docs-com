@@ -6,11 +6,21 @@ linktitle: Werk Met Watermerk
 type: docs
 description: "Dokument watermerk manipulasie met behulp van C++."
 weight: 340
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /af/cpp/working-with-watermark/
-timestamp: 2024-01-30-16-22-34
+timestamp: 2025-05-07-07-22-34
 ---
 
 Hierdie onderwerp bespreek hoe om programmaties te werk met watermerk met behulp van Aspose.Words. 'n watermerk is'n agtergrondbeeld wat agter die teks in'n dokument vertoon word. 'n watermerk kan'n teks of'n beeld bevat wat deur die [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/) klas verteenwoordig word.
+
+{{% alert color="primary" %}}
+
+**Probeer online**
+
+Jy kan hierdie funksie probeer met ons [Gratis aanlyn dokument watermerk](https://products.aspose.app/words/watermark).
+
+{{% /alert %}}
 
 ## Voeg'n Watermerk By'n Dokument
 
@@ -28,7 +38,11 @@ Die volgende kode voorbeeld demonstreer hoe om'n beeld watermerk in'n dokument d
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cpp" >}}
 
-Die watermerk kan ook ingevoeg word met behulp van vorm klas sowel. Dit is baie maklik om enige vorm of beeld in'n kop of voetskrif in te voeg en sodoende'n watermerk van enige denkbare tipe te skep. Die volgende kode voorbeeld voeg'n watermerk in'n Word dokument.
+Beeld watermerk kan ingevoeg word as beeld, string, of stroom.
+
+Die watermerk kan ook ingevoeg word met behulp van vorm klas sowel. Dit is baie maklik om enige vorm of beeld in'n kop of voetskrif in te voeg en sodoende'n watermerk van enige denkbare tipe te skep.
+
+Die volgende kode voorbeeld voeg'n watermerk in'n Word dokument.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Images-AddWatermark-AddWatermark.cpp" >}}
 

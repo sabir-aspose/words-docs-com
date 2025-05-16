@@ -1,13 +1,15 @@
-﻿---
+---
 title: Trabalhando com marca D'água em Java
-second_title: Aspose.Words para Java
+second_title: Aspose.Words Para Java
 articleTitle: Trabalhando com marca D'água
 linktitle: Trabalhando com marca D'água
 type: docs
 description: "Manipulação da marca d'água do documento usando Java."
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /pt/java/working-with-watermark/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-04-22-08-07-04
 ---
 
 Este tópico discute como trabalhar programaticamente com uma marca d'água usando Aspose.Words. Uma marca d'água é uma imagem de fundo que é exibida atrás do texto em um documento. Uma marca d'água pode conter um texto ou uma imagem representada pela classe [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/).
@@ -16,13 +18,13 @@ Este tópico discute como trabalhar programaticamente com uma marca d'água usan
 
 **Experimente online**
 
-Pode experimentar esta funcionalidade com o nosso [Marca d'supérflua de Documento on-line gratuito](https://products.aspose.app/words/watermark).
+Pode experimentar esta funcionalidade com o nosso [Marca d'água de Documento on-line gratuita](https://products.aspose.app/words/watermark).
 
 {{% /alert %}}
 
 ## Adicionar uma marca D'água a um documento
 
-Em Microsoft Word, uma marca d'água pode ser facilmente inserida em um documento usando o comando Inserir marca d'água. Aspose.Words fornece a classe [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) para adicionar ou remover marca d'água em documentos. Aspose.Words fornece a enumeração [WatermarkType](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)definindo três tipos possíveis de marcas d'água (texto, imagem e nenhum) para trabalhar.
+Em Microsoft Word, uma marca d'água pode ser facilmente inserida em um documento usando o comando Inserir marca d'água. Aspose.Words fornece a classe [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) para adicionar ou remover marca d'água em documentos. Aspose.Words fornece a enumeração [WatermarkType ](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)definindo três tipos possíveis de marcas d'água (texto, imagem e nenhum) para trabalhar.
 
 ### Adicionar Marca D'Água De Texto
 
@@ -36,9 +38,11 @@ O exemplo de código a seguir demonstra como inserir uma marca d'água de imagem
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.java" >}}
 
+A marca d'água da imagem pode ser inserida como imagem, string ou fluxo.
+
 A marca d'água também pode ser inserida usando a classe shape. É muito fácil inserir qualquer forma ou imagem em um cabeçalho ou rodapé e, assim, criar uma marca d'água de qualquer tipo imaginável.
 
-O exemplo de código a seguir insere uma marca d'água em um documento do Word:
+O exemplo de código a seguir insere uma marca d'água em um documento Word:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-AddWatermarkToADocument-AddWatermarkToADocument.java" >}}
 

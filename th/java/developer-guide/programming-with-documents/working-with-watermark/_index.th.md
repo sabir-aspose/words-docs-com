@@ -1,4 +1,4 @@
-﻿---
+---
 title: การทำงานกับลายน้ำในJava
 second_title: Aspose.WordsสำหรับJava
 articleTitle: การทำงานกับลายน้ำ
@@ -6,8 +6,10 @@ linktitle: การทำงานกับลายน้ำ
 type: docs
 description: "การจัดการลายน้ำเอกสารโดยใช้Java."
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /th/java/working-with-watermark/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-04-22-08-07-04
 ---
 
 หัวข้อนี้กล่าวถึงวิธีการทำงานตามโปรแกรมด้วยลายน้ำโดยใช้Aspose.Words ลายน้ำเป็นภาพพื้นหลังที่แสดงอยู่เบื้องหลังข้อความในเอกสาร ลายน้ำสามารถประกอบด้วยข้อความหรือรูปภาพที่แสดงโดยคลาสของ[Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/).
@@ -22,7 +24,7 @@ timestamp: 2024-01-27-14-07-04
 
 ## เพิ่มลายน้ำในเอกสาร
 
-ในMicrosoft Wordลายน้ำสามารถแทรกลงในเอกสารโดยใช้คำสั่งแทรกลายน้ำ Aspose.Wordsให้[watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/)คลาสที่จะเพิ่มหรือลบลายน้ำในเอกสาร. Aspose.Wordsให้การแจงนับ[WatermarkType](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)กำหนดสามประเภทที่เป็นไปได้ของลายน้ำ(ข้อความ,ภาพ,และไม่มี)ที่จะทำงา
+ในMicrosoft Wordลายน้ำสามารถแทรกลงในเอกสารโดยใช้คำสั่งแทรกลายน้ำ Aspose.Wordsให้[watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/)คลาสที่จะเพิ่มหรือลบลายน้ำในเอกสาร. Aspose.Wordsให้การแจงนับ[WatermarkType ](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)กำหนดสามประเภทที่เป็นไปได้ของลายน้ำ(ข้อความ,ภาพ,และไม่มี)ที่จะทำงา
 
 ### เพิ่มลายน้ำข้อความ
 
@@ -36,9 +38,11 @@ timestamp: 2024-01-27-14-07-04
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.java" >}}
 
+ลายน้ำภาพสามารถแทรกเป็นภาพสตริงหรือสตรีม.
+
 ลายน้ำยังสามารถแทรกโดยใช้ชั้นเรียนรูปร่างได้เป็นอย่างดี มันเป็นเรื่องง่ายมากที่จะแทรกรูปร่างหรือภาพใดๆลงในส่วนหัวหรือส่วนท้ายและทำให้การส.
 
-ตัวอย่างรหัสต่อไปนี้แทรกลงในเอกสารคำ:
+ตัวอย่างรหัสต่อไปนี้แทรกลงในเอกสารWord:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-AddWatermarkToADocument-AddWatermarkToADocument.java" >}}
 

@@ -1,18 +1,20 @@
-﻿---
+---
 title: AI Проверка грамматики
 second_title: Aspose.Words для Python via .NET
 articleTitle: Проверка грамматики
 linktitle: Проверка грамматики
 type: docs
 weight: 40
-description: "Проверка грамматики документа. Aspose.Words для Python позволяет пользователям проверять грамматику и обнаруживать ошибки в документах, используя модели OpenAI."
+description: "Проверьте грамматику документа. Aspose.Words для Python позволяет пользователям проверять грамматику и обнаруживать ошибки в документах, используя модели OpenAI, Google и Claude."
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ru/python-net/grammar-checking/
-timestamp: 2025-01-15-16-40-05
+timestamp: 2025-03-17-19-00-00
 ---
 
 Проверка грамматики в документах важна для обеспечения ясности, профессионализма и точности. Грамотно составленные документы оставляют положительное впечатление и позволяют избежать недоразумений. Проверка грамматики помогает быстро выявлять и исправлять ошибки, экономя время и повышая качество.
 
-Aspose.Words позволяет пользователям проверять грамматику и выявлять ошибки в документах, используя **OpenAI** порождающие модели. Используйте метод [CheckGrammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/#document_checkgrammaroptions), доступный в пространстве имен [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/). **CheckGrammar** анализирует текст в документе и выявляет грамматические проблемы.
+Aspose.Words позволяет пользователям проверять грамматику и обнаруживать ошибки в документах, используя семейства моделей OpenAI, Google и Claude, перечисленные в списке [AiModelType](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodeltype/). Используйте метод [CheckGrammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/#document_checkgrammaroptions), доступный в пространстве имен [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/). **CheckGrammar** анализирует текст в документе и выявляет грамматические проблемы.
 
 В следующем примере кода показано, как использовать модель GPT-4o mini в Aspose.Words для проверки грамматики:
 

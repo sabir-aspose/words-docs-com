@@ -1,0 +1,58 @@
+---
+title: Low Code
+second_title: Aspose.Words pour C++
+articleTitle: Travailler avec des Documents en utilisant LowCode API
+linktitle: Low Code
+type: docs
+description: "Simplifiez les tâches de traitement de documents telles que comparer, convertir, diviser, fusionner, rechercher et remplacer, et d'autres en utilisant Low Code API. Aspose.Words LowCode API avec une syntaxe claire, des résultats rapides et un effort de codage minimal."
+weight: 23
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+url: /fr/cpp/low-code/
+timestamp: 2025-05-07-07-08-55
+---
+
+Aspose.Words pour C++ fournit l'espace de noms [Aspose.Words.LowCode](https://reference.aspose.com/words/cpp/aspose.words.lowcode/), qui simplifie les tâches courantes de traitement des documents. Ce API est conçu pour les développeurs qui souhaitent effectuer des opérations de haut niveau telles que la comparaison de documents, l'extraction de contenu, la conversion d'images et le remplacement de texte avec un minimum d'effort.
+
+Le LowCode API est idéal pour les scénarios où une mise en œuvre rapide est plus importante qu'un contrôle précis. Examinons de plus près les LowCode capacités de Aspose.Words pour C++.
+
+{{% alert color="primary" %}}
+
+Il est important de noter que le LowCode API ne vous permet pas de modifier la structure du document.
+
+{{% /alert %}}
+
+## Fonctionnalités disponibles dans LowCode API
+
+L'espace de noms `Aspose.Words.LowCode` prend actuellement en charge:
+
+* **Converting** documents d'un format à l'autre
+* **Comparing** documents
+* **Mail merging**
+* **Merging** documents
+* **Search and replace**
+* **Digital signing** de documents
+* **Splitting** un document en plusieurs parties utilisant différents critères
+* Ajout d'un **watermark**
+
+{{% alert color="primary" %}}
+
+Veuillez noter qu'une description détaillée de chaque fonction en dehors de Low Code se trouve dans la section Guide du développeur.
+
+{{% /alert %}}
+
+## Courant et Non courant API
+
+Aspose.Words pour C++ prend en charge à la fois Couramment et Non couramment APIs, permettant aux développeurs de choisir le style qui correspond le mieux à leurs préférences de codage et aux besoins de leur projet. Regardons quelques exemples pour voir en quoi ces deux types de API diffèrent.
+
+{{% alert color="primary" %}}
+
+Dans le courant API, les opérations peuvent être configurées et exécutées via un contexte (tel que ComparerContext ou ReplacerContext). Ce contexte contient des options communes. Il garantit que toutes les méthodes associées fonctionnent avec une configuration cohérente, ce qui rend le API puissant et facile à gérer dans des scénarios complexes.
+
+{{% /alert %}}
+
+## Pourquoi utiliser Aspose.Words Low Code
+
+L'espace de noms **Aspose.Words.LowCode** vous aide à implémenter rapidement des tâches de traitement de documents de haut niveau avec une syntaxe claire et lisible. Il est particulièrement utile pour les développeurs qui ont besoin de rapidité, de simplicité et de code maintenable lorsqu'ils travaillent avec des documents Word.
+
+Pour explorer des options plus avancées, vous pouvez toujours combiner LowCode APIs avec le modèle d'objet Aspose.Words complet. Voir plus d'exemples Low Code dans le [API documentation](https://reference.aspose.com/words/cpp/aspose.words.lowcode/).

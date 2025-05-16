@@ -1,16 +1,26 @@
 ---
 title: C++での透かしの操作
-second_title: C++の場合Aspose.Words
+second_title: Aspose.WordsのためのC++
 articleTitle: 透かしの操作
 linktitle: 透かしの操作
 type: docs
 description: "C++を使用した文書の透かし操作。"
 weight: 340
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ja/cpp/working-with-watermark/
-timestamp: 2024-01-30-16-22-34
+timestamp: 2025-05-07-07-22-34
 ---
 
 このトピックでは、Aspose.Wordsを使用してwatermarkをプログラムで操作する方法について説明します。 透かしは、ドキュメント内のテキストの後ろに表示される背景画像です。 透かしには、[Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/)クラスで表されるテキストまたは画像を含めることができます。
+
+{{% alert color="primary" %}}
+
+**オンラインで試す**
+
+あなたは私たちのこの機能を試すことができます [無料のオンライン文書透かし](https://products.aspose.app/words/watermark).
+
+{{% /alert %}}
 
 ## 文書に透かしを追加する
 
@@ -28,7 +38,11 @@ Microsoft Wordでは、[透かしの挿入]コマンドを使用して、文書�
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cpp" >}}
 
-透かしは、shapeクラスを使用して挿入することもできます。 ヘッダーやフッターに任意の形状や画像を挿入し、したがって、任意の想像できるタイプの透かしを作成することは非常に簡単です。 次のコード例では、word文書に透かしを挿入します。
+画像の透かしは、画像、文字列、またはストリームとして挿入できます。
+
+透かしは、shapeクラスを使用して挿入することもできます。 ヘッダーやフッターに任意の形状や画像を挿入し、したがって、任意の想像できるタイプの透かしを作成することは非常に簡単です。
+
+次のコード例では、Wordドキュメントに透かしを挿入します。
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Images-AddWatermark-AddWatermark.cpp" >}}
 

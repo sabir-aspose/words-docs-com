@@ -1,16 +1,26 @@
 ---
-title: Trabajar con Marca de agua en C++
-second_title: Aspose.Words para C++
+title: Trabajar con marca de agua en C++
+second_title: Aspose.Words por C++
 articleTitle: Trabajar con Marca de Agua
 linktitle: Trabajar con Marca de Agua
 type: docs
 description: "Manipulación de marcas de agua de documentos usando C++."
 weight: 340
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /es/cpp/working-with-watermark/
-timestamp: 2024-01-30-16-22-34
+timestamp: 2025-05-07-07-22-34
 ---
 
 En este tema se analiza cómo trabajar mediante programación con watermark usando Aspose.Words. Una marca de agua es una imagen de fondo que se muestra detrás del texto de un documento. Una marca de agua puede contener un texto o una imagen representada por la clase [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/).
+
+{{% alert color="primary" %}}
+
+**Pruébalo en línea**
+
+Puede probar esta funcionalidad con nuestro [Marca de agua gratuita para documentos en línea](https://products.aspose.app/words/watermark).
+
+{{% /alert %}}
 
 ## Agregar una marca de agua a un Documento
 
@@ -28,7 +38,11 @@ El siguiente ejemplo de código demuestra cómo insertar una marca de agua de im
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cpp" >}}
 
-La marca de agua también se puede insertar usando la clase shape. Es muy fácil insertar cualquier forma o imagen en un encabezado o pie de página y así crear una marca de agua de cualquier tipo imaginable. El siguiente ejemplo de código inserta una marca de agua en un documento de Word.
+La marca de agua de la imagen se puede insertar como imagen, cadena o secuencia.
+
+La marca de agua también se puede insertar usando la clase shape. Es muy fácil insertar cualquier forma o imagen en un encabezado o pie de página y así crear una marca de agua de cualquier tipo imaginable.
+
+El siguiente ejemplo de código inserta una marca de agua en un documento Word.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Images-AddWatermark-AddWatermark.cpp" >}}
 
@@ -62,7 +76,7 @@ watermark->set_Name(u"WaterMark");
 
 ## Agregar una Marca de Agua en la Celda de la Tabla
 
-A veces necesita insertar una marca de agua/imagen en la celda de una tabla y mostrarla fuera de la tabla, puede usar la propiedad [IsLayoutInCell](https://reference.aspose.com/words/cpp/aspose.words.drawing/shapebase/get_islayoutincell/). Esta propiedad obtiene o establece un indicador que indica si la forma se muestra dentro de una tabla o fuera de ella. Tenga en cuenta que esta propiedad solo funciona cuando optimiza el documento para Microsoft Word 2010 mediante el método [OptimizeFor](https://reference.aspose.com/words/cpp/aspose.words.settings/compatibilityoptions/optimizefor/).
+A veces necesita insertar una marca de agua/imagen en la celda de una tabla y mostrarla fuera de la tabla, puede usar la propiedad [IsLayoutInCell](https://reference.aspose.com/words/cpp/aspose.words.drawing/shapebase/get_islayoutincell/). Esta propiedad obtiene o establece un indicador que indica si la forma se muestra dentro de una tabla o fuera de ella. Tenga en cuenta que esta propiedad solo funciona cuando optimiza el documento para Microsoft Word 2010 utilizando el método [OptimizeFor](https://reference.aspose.com/words/cpp/aspose.words.settings/compatibilityoptions/optimizefor/).
 
 El siguiente ejemplo de código muestra cómo usar esta propiedad:
 

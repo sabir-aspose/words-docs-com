@@ -1,4 +1,4 @@
-﻿---
+---
 title: Przetłumacz dokument
 second_title: Aspose.Words dla Python via .NET
 articleTitle: Przetłumacz dokument
@@ -6,6 +6,8 @@ linktitle: Przetłumacz dokument
 type: docs
 weight: 30
 description: "Przetłumacz dokument. Aspose.Words dla Python upraszcza tłumaczenie dokumentów za pomocą modeli Google AI, umożliwiając określenie języka docelowego."
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /pl/python-net/translate-a-document/
 timestamp: 2025-01-15-16-40-05
 ---

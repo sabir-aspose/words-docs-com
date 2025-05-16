@@ -6,27 +6,40 @@ linktitle: Ce este nou în Aspose.Words pentru C++
 type: docs
 description: "Aspose.Words pentru C++ extinde și îmbunătățește zilnic. Pe această pagină, puteți afla despre caracteristicile uriașe și cele mai interesante ale produsului."
 weight: 2
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ro/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2025-03-09-12-38-00
+timestamp: 2025-04-15-08-02-05
 ---
 
 Această pagină descrie cele mai interesante caracteristici noi Aspose.Words introduse în versiunile recente.
 
-## Aspose.Words pentru C++ 25.1, 25.2
+## Aspose.Words pentru C++ 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 introduce verificarea gramaticală bazată pe AI și îmbunătățește salvarea documentelor cu opțiuni avansate pentru formatele HTML, SVG și Markdown.
 
-Aspose.Words 25.2 introduce rezumarea textului cu modele antropice AI, adaugă suport pentru formatul MsWorks, îmbunătățește controlul tipografic și îmbunătățește structura PDF și manipularea listei.
+Aspose.Words 25.2 introduce rezumarea textului cu modele Anthropic AI, adaugă suport pentru formatul MsWorks, îmbunătățește controlul tipografic și îmbunătățește structura PDF și manipularea listei.
+
+Aspose.Words 25.3 îmbunătățește un verificator gramatical alimentat de AI și selecția fontului cu proprietatea UpdateAmbiguousTextFont, precum și îmbunătățește exportul de atașamente PDF.
+
+Aspose.Words 25.4 introduce suport pentru noi dimensiuni de hârtie, permite controlul avansat al exporturilor HTML, îmbunătățește manipularea filigranului și îmbunătățește capacitatea de utilizare a LowCode API.
 
 ### AI - funcții alimentate
 
-#### Document AI Verificarea Gramaticii <sup>25.1</sup>
+#### Document AI Verificarea Gramaticii
 
-Capacitatea de a verifica gramatica documentului furnizat folosind OpenAI modele generative a fost introdusă prin adăugarea unei noi metode [CheckGrammar](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/checkgrammar/).
+* Capacitatea de a verifica gramatica documentului furnizat folosind OpenAI modele generative a fost introdusă prin adăugarea unei noi metode [CheckGrammar](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/checkgrammar/). <sup>25.1</sup>
+* Funcția de verificare a gramaticii alimentată de AI a fost actualizată pentru a sprijini toate modelele disponibile în enumerarea [AiModelType](https://reference.aspose.com/words/cpp/aspose.words.ai/aimodeltype/). <sup>25.3</sup>
 
-#### Rezumarea Folosind Modele De Limbaj Generativ Antropic <sup>25.2</sup>
+#### Rezumarea Folosind Anthropic Modele De Limbaj Generativ <sup>25.2</sup>
 
-Rezumatul textului folosind modele de limbaj generativ antropic a fost permis prin introducerea unei noi clase publice [AnthropicAiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/).
+Rezumarea textului folosind Anthropic modele de limbaj generativ a fost activată prin introducerea unei noi clase publice [AnthropicAiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/).
+
+### Low Code
+
+#### Low Code API Utilizare <sup>25.4</sup>
+
+Au fost introduse îmbunătățiri semnificative ale utilizabilității **LowCode API**, simplificând procesarea documentelor și reducând nevoia de cod repetitiv.
 
 ### Formate Acceptate <sup>25.2</sup>
 
@@ -42,6 +55,7 @@ Salvarea în formatele HTML și SVG a fost îmbunătățită prin adăugarea pro
 
 - O nouă opțiune [ImageResolution](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_imageresolution/) a fost adăugată la clasa [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) pentru a seta rezoluția imaginii.
 - O nouă opțiune [OfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_officemathexportmode/) și [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownofficemathexportmode/) enumerare au fost și adăugate la clasa [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) pentru a seta OfficeMath modul de ieșire.
+- Capacitatea de a seta un filigran de imagine dintr-un flux a fost introdusă prin adăugarea unei noi supraîncărcări la metoda [SetImage](https://reference.aspose.com/words/cpp/aspose.words/watermark/setimage/#watermarksetimageconst-systemsharedptrsystemiostream-const-systemsharedptrasposewordsimagewatermarkoptions-method). <sup>25.4</sup>
 
 ### Redare
 
@@ -49,10 +63,23 @@ Salvarea în formatele HTML și SVG a fost îmbunătățită prin adăugarea pro
 
 Proprietatea [NumberSpacing](https://reference.aspose.com/words/cpp/aspose.words/font/get_numberspacing/) a fost adăugată pentru un control tipografic îmbunătățit.
 
+#### Controlul selecției fonturilor pentru caractere ambigue <sup>25.3</sup>
+
+O nouă proprietate publică [UpdateAmbiguousTextFont](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_updateambiguoustextfont/) a fost adăugată la clasa [SaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/) pentru a controla selecția fontului în funcție de codul de caractere utilizat.
+
+#### Opțiuni Pentru Dimensiunea Hârtiei <sup>25.4</sup>
+
+Capacitatea de a utiliza dimensiunile hârtiei JIS B4 și JIS B5 a fost introdusă prin adăugarea de noi valori la enumerarea [PaperSize](https://reference.aspose.com/words/cpp/aspose.words/papersize/).
+
+#### HTML Controlul Ieșirii <sup>25.4</sup>
+
+Abilitatea de a elimina JavaScript din hyperlink URLs în timpul exportului HTML a fost introdusă prin adăugarea proprietății [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/cpp/aspose.words.saving/htmlsaveoptions/get_removejavascriptfromlinks/).
+
 ### Altele
 
-- PDF structura logică a fost îmbunătățită cu suport pentru câmpurile TOA, BIBLIOGRAPHY și INDEX. <sup>25.2</sup>
-- Metoda [AddSingleLevelList](https://reference.aspose.com/words/cpp/aspose.words.lists/listcollection/addsinglelevellist/) a fost introdusă pentru o mai bună gestionare a listelor. <sup>25.2</sup>
+* PDF structura logică a fost îmbunătățită cu suport pentru câmpurile TOA, BIBLIOGRAPHY și INDEX. <sup>25.2</sup>
+* Metoda [AddSingleLevelList](https://reference.aspose.com/words/cpp/aspose.words.lists/listcollection/addsinglelevellist/) a fost introdusă pentru o mai bună gestionare a listelor. <sup>25.2</sup>
+* O nouă proprietate [AttachmentsEmbeddingMode](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_attachmentsembeddingmode/) a fost adăugată pentru a înlocui **EmbedAttachments** pentru a îmbunătăți exportul de atașamente PDF. De asemenea, au fost adăugate noi valori la enumerarea [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfcompliance/) pentru a sprijini atașamentele versiunii PDF/A. În plus, atașamentele sunt acum acceptate cu criptare. <sup>25.3</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,31 +87,35 @@ Aflați mai multe despre [Aspose.Words pentru C++ 25.1 Note De Lansare](https://
 
 Aflați mai multe despre [Aspose.Words pentru C++ 25.2 Note De Lansare](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-2-release-notes/).
 
+Aflați mai multe despre [Aspose.Words pentru C++ 25.3 Note De Lansare](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-3-release-notes/).
+
+Aflați mai multe despre [Aspose.Words pentru C++ 25.4 Note De Lansare](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-4-release-notes/).
+
 {{% /alert %}}
 
-## Aspose.Words pentru C++ 24.9, 24.10
+## Aspose.Words pentru C++ 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 introduce group shape Inserare și StructuredDocumentTag Inserare prin DocumentBuilder, îmbunătățește randarea diagramelor radiale cu gradații, îmbunătățește semnăturile digitale cu suport XAdES-EPES, adaugă Markdown recunoașterea sublinierii și oferă acces la separatoarele de notă de subsol/notă finală.
 
-Aspose.Words 24.10 introduce suport îmbunătățit pentru controlul ActiveX cu crearea CommandButton, Controlul vizibilității formei noi, capacitatea de a group shapes, exportul Markdown îmbunătățit pentru tabele, formatarea diagramelor pentru graficele Pie și Doughnut, o mai bună manipulare a codificării Big5 și suport pentru fonturile taiwaneze învechite.
+Aspose.Words 24.10 introduce suport îmbunătățit pentru controlul ActiveX cu crearea CommandButton, Controlul vizibilității formei noi, capacitatea de a group shapes, export îmbunătățit Markdown pentru tabele, formatarea diagramelor pentru graficele Pie și Doughnut, o mai bună manipulare a codificării Big5 și suport pentru fonturile taiwaneze învechite.
 
-Aspose.Words 24.11 introduce rezumatul documentelor alimentat de AI, opțiuni de redare îmbunătățite, acces îmbunătățit la proprietățile documentului și subtitrarea ActiveX control.
+Aspose.Words 24.11 introduce rezumatul documentelor alimentat de AI, opțiuni de redare îmbunătățite, acces îmbunătățit la proprietățile documentului și subtitrarea controlului ActiveX.
 
-Aspose.Words 24.12 introduce plasarea personalizabilă a etichetelor de date, traducerea textului bazată pe Google AI, opțiuni îmbunătățite de curățare a îmbinării corespondenței și noi clase de procesare LowCode.
+Aspose.Words 24.12 introduce plasarea personalizabilă a etichetelor de date, traducerea textului Google AI, opțiunile îmbunătățite de curățare Mail Merge și noile clase de procesare LowCode.
 
 ### AI - funcții alimentate
 
 #### Rezumatul documentelor folosind OpenAI și Google <sup>24.11</sup>
 
-Suportul pentru rezumarea documentelor folosind **OpenAI** și **Google** modele de limbaj generativ a fost integrat prin adăugarea spațiului de nume [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/) cu membrii săi publici.
+A fost integrat suportul pentru rezumarea documentelor folosind **OpenAI** și **Google** modele de limbaj generativ.
 
-#### Traducerea textului folosind modelele Google de limbaj generativ <sup>24.12</sup>
+#### Traducerea textului folosind modelele de limbaj generativ Google <sup>24.12</sup>
 
-Capacitatea de a traduce text folosind modelele de limbaj generativ Google a fost implementată în Aspose.Words prin adăugarea metodei [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/) și enumerarea [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/) la [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/) spațiu de nume.
+Abilitatea de a traduce text folosind modelele de limbaj generativ Google a fost implementată în Aspose.Words prin adăugarea metodei [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/) și a enumerării [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/) la spațiul de nume [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/).
 
 ### Low Code <sup>24.12</sup>
 
-Noi clase LowCode, cum ar fi [Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/net/ aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) etc. a fost introdus, oferind un set de metode care realizează echilibrul perfect între simplitate și flexibilitate pentru procesarea documentelor.
+Noi LowCode clase ca [Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/cpp/aspose.words.lowcode/merger/), [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) etc. a fost introdus, oferind un set de metode care ating echilibrul perfect între simplitate și flexibilitate pentru procesarea documentelor.
 
 ### Redare și imprimare
 
@@ -92,9 +123,9 @@ Noi clase LowCode, cum ar fi [Comparer](https://reference.aspose.com/words/cpp/a
 
 A fost implementată redarea gradărilor pe diagrame radiale.
 
-#### CommandButton Controale ActiveX <sup>24.10</sup>
+#### CommandButton ActiveX controale <sup>24.10</sup>
 
-Abilitatea de a crea CommandButton controale ActiveX a fost introdusă prin adăugarea unei noi metode publice [InsertForms2OleControl](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertforms2olecontrol/) și a unei noi clase publice **Forms2OleControl**.
+Abilitatea de a crea controale CommandButton ActiveX a fost introdusă prin adăugarea unei noi metode publice [InsertForms2OleControl](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertforms2olecontrol/) și a unei noi clase publice **Forms2OleControl**.
 
 #### Controlați Vizibilitatea Formei <sup>24.10</sup>
 
@@ -106,11 +137,11 @@ Mai multe proprietăți publice noi au fost adăugate la graficele format Pie ș
 
 #### Controlați redarea PDF frontiere câmp formular alegere <sup>24.11</sup>
 
-O nouă opțiune pentru a controla redarea PDF choice form field borders a fost implementată prin adăugarea unei noi opțiuni publice [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_renderchoiceformfieldborder/).
+O nouă opțiune pentru a controla redarea PDF choice form field borders a fost implementată prin adăugarea unei noi opțiuni publice **RenderChoiceFormFieldBorder**.
 
 #### Obțineți și setați codurile de Format pentru datele grafice <sup>24.11</sup>
 
-Abilitatea de a obține și seta coduri de format pentru datele grafice a fost adăugată prin implementarea proprietății [FormatCode](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/get_formatcode/) în clasele [ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/) și [BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/).
+Abilitatea de a obține și seta coduri de format pentru datele grafice a fost adăugată prin implementarea proprietății **FormatCode** în clasele [ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/) și [BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/).
 
 #### Render diagrame histograma cu pubele și etichete <sup>24.11</sup>
 
@@ -118,7 +149,7 @@ Histograma diagramă De redare a fost îmbunătățită prin a permite un anumit
 
 #### Personalizați plasarea etichetelor de date <sup>24.12</sup>
 
-Capacitatea de a personaliza plasarea etichetelor de date a fost adăugată prin introducerea de noi proprietăți în [ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/) și [ChartDataLabelCollection ](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/) clasele.
+Abilitatea de a personaliza plasarea etichetelor de date a fost adăugată prin introducerea de noi proprietăți în clasele [ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/) și [ChartDataLabelCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabelcollection/).
 
 ### Conversia, încărcarea și salvarea documentelor
 
@@ -134,9 +165,9 @@ O opțiune de a exporta tabele ca HTML la salvarea documentelor în format Markd
 
 PDF exportul a fost îmbunătățit prin includerea proprietăților titlului tabelului ca PDF titluri de elemente de structură logică.
 
-### Îmbinare corespondență și raportare
+### Mail Merge și raportare
 
-#### Eliminați tabelele goale în timpul îmbinării corespondenței <sup>24.12</sup>
+#### Eliminați tabelele goale în timpul Mail Merge <sup>24.12</sup>
 
 O nouă opțiune **RemoveEmptyTables** a fost adăugată la enumerarea [MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/) pentru a rafina ieșirea Mail Merge.
 
@@ -154,8 +185,8 @@ Abilitatea de a semna documente cu XAdES-EPES nivel XML-DSig semnături a fost i
 * Capacitatea de a grupa forme individuale, group shapes împreună și de a grupa direct ambele forme și group shapes a fost introdusă prin adăugarea metodei [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/). <sup>24.10</sup>
 * Manipularea codificării Big5 pentru TrueType tabele cmap a fost îmbunătățită. <sup>24.10</sup>
 * Suportul pentru fonturile taiwaneze învechite a fost îmbunătățit. <sup>24.10</sup>
-* Pentru a accesa proprietățile extinse ale documentului, proprietățile numai în citire au fost adăugate la clasa [BuiltInDocumentProperties](https://reference.aspose.com/words/cpp/aspose.words.properties/builtindocumentproperties/). <sup>24.11</sup>
-* Setarea subtitrărilor pentru controalele ActiveX a fost activată prin adăugarea unui nou setter public la proprietatea **Forms2OleControl.Caption**. <sup>24.11</sup>
+* Pentru a accesa proprietățile extinse ale documentului, proprietățile numai în citire au fost adăugate la clasa **BuiltInDocumentProperties**. <sup>24.11</sup>
+* Setarea subtitrărilor pentru controalele ActiveX a fost activată prin adăugarea unui nou setator public la proprietatea **Forms2OleControl.Caption**. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
@@ -208,7 +239,7 @@ A fost adăugat un setter pentru proprietatea publică [CustomNumberStyleFormat]
 #### Modificări în lucrul cu ActiveX <sup>24.7</sup>
 
 - Proprietățile obiectelor ActiveX pot fi acum modificate, oferindu-vă mai mult control asupra comportamentului lor.
-- A fost adăugată posibilitatea de a modifica valoarea butonului Radio ActiveX control pentru a permite interacțiunea dinamică.
+- A fost adăugată posibilitatea de a modifica valoarea controlului butonului radio ActiveX pentru a activa interacțiunea dinamică.
 - A fost adăugată posibilitatea de a comuta un ActiveX checkbox la "verificat" sau "debifat".
 
 ### Încărcarea și salvarea documentelor

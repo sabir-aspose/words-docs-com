@@ -1,16 +1,26 @@
 ---
-title: Lavorare con la filigrana in C++
-second_title: Aspose.Words per C++
+title: Utilizzo della filigrana in C++
+second_title: Aspose.Wordsper C++
 articleTitle: Lavorare con Watermark
 linktitle: Lavorare con Watermark
 type: docs
 description: "Manipolazione filigrana documento utilizzando C++."
 weight: 340
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /it/cpp/working-with-watermark/
-timestamp: 2024-01-30-16-22-34
+timestamp: 2025-05-07-07-22-34
 ---
 
 In questo argomento viene illustrato come lavorare a livello di programmazione con la filigrana utilizzando Aspose.Words. Una filigrana è un'immagine di sfondo che viene visualizzata dietro il testo di un documento. Una filigrana può contenere un testo o un'immagine rappresentata dalla classe [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/).
+
+{{% alert color="primary" %}}
+
+**Prova online**
+
+Puoi provare questa funzionalità con il nostro [Filigrana di documenti online gratuita](https://products.aspose.app/words/watermark).
+
+{{% /alert %}}
 
 ## Aggiungere una filigrana a un documento
 
@@ -28,7 +38,11 @@ Nell'esempio di codice seguente viene illustrato come inserire una filigrana di 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cpp" >}}
 
-La filigrana può anche essere inserita usando la classe shape. È molto facile inserire qualsiasi forma o immagine in un'intestazione o piè di pagina e quindi creare una filigrana di qualsiasi tipo immaginabile. L'esempio di codice seguente inserisce una filigrana in un documento di Word.
+La filigrana dell'immagine può essere inserita come immagine, stringa o flusso.
+
+La filigrana può anche essere inserita usando la classe shape. È molto facile inserire qualsiasi forma o immagine in un'intestazione o piè di pagina e quindi creare una filigrana di qualsiasi tipo immaginabile.
+
+L'esempio di codice seguente inserisce una filigrana in un documento Word.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Images-AddWatermark-AddWatermark.cpp" >}}
 

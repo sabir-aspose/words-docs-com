@@ -6,27 +6,40 @@ linktitle: Cosa c'è di nuovo in Aspose.Wordsper Java
 type: docs
 description: "Aspose.Wordsper Java si espande e migliora ogni giorno. In questa pagina, puoi conoscere le caratteristiche enormi e più interessanti del prodotto."
 weight: 2
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /it/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2025-17-02-18-02-05
+timestamp: 2025-04-22-08-02-05
 ---
 
 Questa pagina descrive le nuove funzionalità Aspose.Words più interessanti introdotte nelle ultime versioni.
 
-## Aspose.Wordsper Java 25.1, 25.2
+## Aspose.Wordsper Java 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 introduce il controllo grammaticale basato su AI e migliora il salvataggio dei documenti con opzioni avanzate per i formati HTML, SVG e Markdown.
 
-Aspose.Words 25.2 introduce la sintesi del testo con i modelli Anthropic AI, aggiunge il supporto al formato MsWorks, migliora il controllo tipografico e migliora la struttura PDF e la gestione degli elenchi.
+Aspose.Words 25.2 introduce il riepilogo del testo con i modelli Anthropic AI, aggiunge il supporto al formato MsWorks, migliora il controllo tipografico e migliora la struttura e la gestione degli elenchi PDF.
+
+Aspose.Words 25.3 migliora un correttore grammaticale alimentato da AI e la selezione dei caratteri con la proprietà UpdateAmbiguousTextFont, oltre a migliorare l'esportazione degli allegati PDF.
+
+Aspose.Words 25.4 introduce il supporto per nuovi formati di carta, abilita il controllo avanzato delle esportazioni HTML, migliora la gestione della filigrana e migliora l'usabilità del LowCode API.
 
 ### AI-Funzioni alimentate
 
-#### Controllo grammaticale del documento AI <sup>25.1</sup>
+#### Controllo grammaticale del documento AI
 
-La possibilità di controllare la grammatica del documento fornito utilizzando i modelli generativi OpenAI è stata introdotta aggiungendo un nuovo metodo [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions).
+* La possibilità di controllare la grammatica del documento fornito utilizzando i modelli generativi OpenAI è stata introdotta aggiungendo un nuovo metodo [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions). <sup>25.1</sup>
+* La funzione di controllo grammaticale alimentata da AI è stata aggiornata per supportare tutti i modelli disponibili nell'enumerazione [AiModelType](https://reference.aspose.com/words/java/com.aspose.words/aimodeltype/). <sup>25.3</sup>
 
-#### Riassunto utilizzando modelli linguistici antropici generativi <sup>25.2</sup>
+#### Riassunto utilizzando Anthropic Modelli di linguaggio generativo <sup>25.2</sup>
 
-La sintesi del testo utilizzando modelli di linguaggio antropico generativo è stata abilitata introducendo una nuova classe pubblica [AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/).
+Il riepilogo del testo utilizzando i modelli di linguaggio generativo Anthropic è stato abilitato introducendo una nuova classe pubblica [AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/).
+
+### Low Code
+
+#### Low Code API Usabilità <sup>25.4</sup>
+
+Sono stati introdotti miglioramenti significativi all'usabilità del **LowCode API**, semplificando l'elaborazione dei documenti e riducendo la necessità di codice ripetitivo.
 
 ### Formati supportati <sup>25.2</sup>
 
@@ -42,6 +55,7 @@ Il salvataggio nei formati HTML e SVG è stato migliorato aggiungendo le proprie
 
 * Una nuova opzione [ImageResolution](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageResolution) è stata aggiunta alla classe [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) per impostare la risoluzione dell'immagine.
 * Una nuova opzione [OfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getOfficeMathExportMode) e l'enumerazione [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownofficemathexportmode/) sono state aggiunte alla classe [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) per impostare la modalità di output OfficeMath.
+* La possibilità di impostare una filigrana di immagine da un flusso è stata introdotta aggiungendo un nuovo sovraccarico al metodo [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.io.InputStream-com.aspose.words.ImageWatermarkOptions). <sup>25.4</sup>
 
 ### Rendering
 
@@ -49,10 +63,23 @@ Il salvataggio nei formati HTML e SVG è stato migliorato aggiungendo le proprie
 
 La proprietà [NumberSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getNumberSpacing) è stata aggiunta per migliorare il controllo tipografico.
 
+#### Controllo della selezione dei caratteri per caratteri ambigui <sup>25.3</sup>
+
+Una nuova proprietà pubblica [UpdateAmbiguousTextFont](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateAmbiguousTextFont) è stata aggiunta alla classe [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) per controllare la selezione del carattere in base al codice del carattere utilizzato.
+
+#### Opzioni formato carta <sup>25.4</sup>
+
+La possibilità di utilizzare i formati carta JIS B4 e JIS B5 è stata introdotta aggiungendo nuovi valori all'enumerazione [PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/).
+
+#### HTML Controllo dell'uscita <sup>25.4</sup>
+
+La possibilità di rimuovere JavaScript dal collegamento ipertestuale URLs durante l'esportazione HTML è stata introdotta aggiungendo la proprietà [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getRemoveJavaScriptFromLinks).
+
 ### Altri
 
 * La struttura logica di PDF è stata migliorata con il supporto per i campi TOA, BIBLIOGRAPHY e INDEX. <sup>25.2</sup>
 * Il metodo [AddSingleLevelList](https://reference.aspose.com/words/java/com.aspose.words/listcollection/#addSingleLevelList-int) è stato introdotto per una migliore gestione delle liste. <sup>25.2</sup>
+* Una nuova proprietà [AttachmentsEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getAttachmentsEmbeddingMode) è stata aggiunta per sostituire **EmbedAttachments** per migliorare l'esportazione degli allegati PDF. Inoltre, sono stati aggiunti nuovi valori all'enumerazione [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) per supportare gli allegati alla versione PDF/A. Inoltre, gli allegati sono ora supportati con crittografia. <sup>25.3</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,15 +87,19 @@ Scopri di più su [Aspose.Wordsper Java 25.1 Note di rilascio](https://releases.
 
 Scopri di più su [Aspose.Wordsper Java 25.2 Note di rilascio](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-2-release-notes/).
 
+Scopri di più su [Aspose.Wordsper Java 25.3 Note di rilascio](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-3-release-notes/).
+
+Scopri di più su [Aspose.Wordsper Java 25.4 Note di rilascio](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-4-release-notes/).
+
 {{% /alert %}}
 
 ## Aspose.Wordsper Java 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 introduce l'inserimento group shape e l'inserimento StructuredDocumentTag tramite DocumentBuilder, migliora il rendering dei grafici radiali con graduazioni, migliora le firme digitali con il supporto XAdES-EPES, aggiunge il riconoscimento della sottolineatura Markdown e fornisce l'accesso ai separatori di note a piè di pagina/note di chiusura.
 
-Aspose.Words 24.10 introduce il supporto avanzato del controllo ActiveX con la creazione di CommandButton, il nuovo controllo della visibilità delle forme, la possibilità di esportare group shapes, una migliore esportazione Markdown per le tabelle, la formattazione dei grafici per i grafici Pie e Doughnut, una migliore gestione della codifica Big5 e il supporto per i font taiwanesi obsoleti.
+Aspose.Words 24.10 introduce il supporto migliorato del controllo ActiveX con la creazione di CommandButton, il nuovo controllo della visibilità delle forme, la possibilità di esportare group shapes, una migliore esportazione Markdown per le tabelle, la formattazione dei grafici per i grafici Pie e Doughnut, una migliore gestione della codifica Big5 e il supporto per i font taiwanesi obsoleti.
 
-Aspose.Words 24.11 introduce il riepilogo del documento basato su AI, opzioni di rendering avanzate, accesso migliorato alle proprietà del documento e sottotitoli del controllo ActiveX.
+Aspose.Words 24.11 introduce il riepilogo del documento basato su AI, opzioni di rendering avanzate, accesso migliorato alle proprietà del documento e sottotitoli di controllo ActiveX.
 
 Aspose.Words 24.12 introduce il posizionamento personalizzabile delle etichette dei dati, la traduzione del testo basata su Google AI, le opzioni di pulizia Mail Merge migliorate e le nuove classi di elaborazione LowCode.
 
@@ -92,9 +123,9 @@ Nuove classi LowCode come [Comparer](https://reference.aspose.com/words/java/com
 
 È stato implementato il rendering delle graduazioni su grafici radiali.
 
-#### CommandButton Controlli ActiveX <sup>24.10</sup>
+#### CommandButton ActiveX Controlli <sup>24.10</sup>
 
-La possibilità di creare controlli ActiveX CommandButton è stata introdotta aggiungendo un nuovo metodo pubblico [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) e una nuova classe pubblica [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/).
+La possibilità di creare controlli CommandButton ActiveX è stata introdotta aggiungendo un nuovo metodo pubblico [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) e una nuova classe pubblica [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/).
 
 #### Visibilità della forma di controllo <sup>24.10</sup>
 
@@ -151,7 +182,7 @@ La possibilità di firmare documenti con firme di livello XAdES-EPES XML-DSig è
 * La gestione della codifica Big5 per le tabelle cmap TrueType è stata migliorata. <sup>24.10</sup>
 * Il supporto per i font taiwanesi obsoleti è stato migliorato. <sup>24.10</sup>
 * Per accedere alle proprietà estese del documento, alla classe [BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/) sono state aggiunte proprietà di sola lettura. <sup>24.11</sup>
-* L'impostazione dei sottotitoli per i controlli ActiveX è stata abilitata aggiungendo un nuovo setter pubblico alla proprietà [Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption). <sup>24.11</sup>
+* L'impostazione delle didascalie per i controlli ActiveX è stata abilitata aggiungendo un nuovo setter pubblico alla proprietà [Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption). <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
@@ -205,9 +236,9 @@ A partire dalla versione 24.7, l'esportazione a PDF/UA-2 è supportata per garan
 
 #### Cambiamenti nel lavoro con ActiveX <sup>24.7</sup>
 
-* Le proprietà degli oggetti ActiveX possono ora essere modificate, offrendo un maggiore controllo sul loro comportamento.
-* È stata aggiunta la possibilità di modificare il valore del controllo ActiveX del pulsante di opzione per abilitare l'interazione dinamica.
-* È stata aggiunta la possibilità di attivare un ActiveX checkbox su "controllato" o "deselezionato".
+* Le proprietà degli oggetti ActiveX possono ora essere modificate, dandoti un maggiore controllo sul loro comportamento.
+* È stata aggiunta la possibilità di modificare il valore del controllo del pulsante di opzione ActiveX per abilitare l'interazione dinamica.
+* È stata aggiunta la possibilità di attivare un ActiveX checkbox su "selezionato" o "deselezionato".
 
 #### Controllo sull'asse del grafico Etichette di spunta Orientamento e rotazione <sup>24.8</sup>
 

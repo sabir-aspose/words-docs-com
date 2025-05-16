@@ -6,27 +6,40 @@ linktitle: Java에 대한Aspose.Words의 새로운 기능
 type: docs
 description: "Aspose.Words에 대한Java매일 확장하고 향상시킵니다. 이 페이지에서 제품의 거대하고 가장 흥미로운 기능에 대해 배울 수 있습니다."
 weight: 2
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ko/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2025-17-02-18-02-05
+timestamp: 2025-04-22-08-02-05
 ---
 
 이 페이지는 최근 릴리스에서 소개 된 가장 흥미로운 새로운Aspose.Words기능에 대해 설명합니다.
 
-## Aspose.WordsJava 25.1, 25.2
+## Aspose.WordsJava 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words25.1AI전원 문법 검사를 도입하고HTML,SVG및Markdown형식에 대한 고급 옵션을 사용하여 문서 저장을 향상시킵니다.
 
-Aspose.Words25.2은 인성AI모델로 텍스트 요약을 도입하고,MsWorks형식 지원을 추가하고,타이포그래피 제어를 향상시키고,PDF구조와 목록 처리를 향상시킵니다.
+Aspose.Words25.2는AnthropicAI모델로 텍스트 요약을 도입하고,MsWorks형식 지원을 추가하고,타이포그래피 제어를 향상시키고,PDF구조 및 목록 처리를 향상시킵니다.
+
+Aspose.Words25.3는UpdateAmbiguousTextFont속성으로AI전원 문법 검사기 및 글꼴 선택을 향상시키고PDF첨부 파일 내보내기를 향상시킵니다.
+
+Aspose.Words25.4새 용지 크기에 대한 지원을 도입하고 고급HTML내보내기 제어를 활성화하고 워터마크 처리를 개선하며LowCodeAPI의 유용성을 향상시킵니다.
 
 ### AI-전원 기능
 
-#### 문서AI문법 검사 <sup>25.1</sup>
+#### 문서AI문법 검사
 
-OpenAI생성 모델을 사용하여 제공된 문서의 문법을 확인하는 기능은 새로운[CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions)방법을 추가하여 도입되었습니다.
+* OpenAI생성 모델을 사용하여 제공된 문서의 문법을 확인하는 기능은 새로운[CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions)방법을 추가하여 도입되었습니다. <sup>25.1</sup>
+* AI전원 문법 검사 기능은[AiModelType](https://reference.aspose.com/words/java/com.aspose.words/aimodeltype/)열거형에서 사용할 수 있는 모든 모델을 지원하도록 업데이트되었습니다. <sup>25.3</sup>
 
-#### 인성 생성 언어 모델을 사용한 요약 <sup>25.2</sup>
+#### Anthropic생성 언어 모델을 사용한 요약 <sup>25.2</sup>
 
-인성 생성 언어 모델을 사용하는 텍스트 요약은 새로운 공개 클래스[AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/)을 도입함으로써 가능해졌습니다.
+Anthropic생성 언어 모델을 사용하는 텍스트 요약은 새로운 공용 클래스[AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/)을 도입하여 활성화되었습니다.
+
+### Low Code
+
+#### Low CodeAPI유용성 <sup>25.4</sup>
+
+**LowCode API**의 사용성에 상당한 개선이 도입되어 문서 처리를 단순화하고 반복적인 코드의 필요성을 줄였습니다.
 
 ### 지원되는 형식 <sup>25.2</sup>
 
@@ -42,6 +55,7 @@ OpenAI생성 모델을 사용하여 제공된 문서의 문법을 확인하는 �
 
 * [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/)클래스에 새로운[ImageResolution](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageResolution)옵션이 추가되어 이미지 해상도를 설정합니다.
 * 새로운[OfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getOfficeMathExportMode)옵션과[MarkdownOfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownofficemathexportmode/)열거형이[MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/)클래스에 추가되어OfficeMath출력 모드를 설정합니다.
+* 스트림에서 이미지 워터마크를 설정하는 기능은[SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.io.InputStream-com.aspose.words.ImageWatermarkOptions)메서드에 새로운 오버로드를 추가하여 도입되었습니다. <sup>25.4</sup>
 
 ### 렌더링
 
@@ -49,10 +63,23 @@ OpenAI생성 모델을 사용하여 제공된 문서의 문법을 확인하는 �
 
 향상된 타이포그래피 제어를 위해[NumberSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getNumberSpacing)속성이 추가되었습니다.
 
+#### 모호한 문자에 대한 글꼴 선택 제어 <sup>25.3</sup>
+
+사용 된 문자 코드에 따라 글꼴 선택을 제어하기 위해[SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/)클래스에 새 공용 속성[UpdateAmbiguousTextFont](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateAmbiguousTextFont)이 추가되었습니다.
+
+#### 용지 크기 옵션 <sup>25.4</sup>
+
+[PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/)열거형에 새 값을 추가하여JISB4및JISB5용지 크기를 사용할 수 있는 기능이 도입되었습니다.
+
+#### HTML출력 제어 <sup>25.4</sup>
+
+HTML내보내기 중에 하이퍼링크URLs에서JavaScript을 제거하는 기능은[RemoveJavaScriptFromLinks](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getRemoveJavaScriptFromLinks)속성을 추가하여 도입되었습니다.
+
 ### 다른
 
 * PDF논리 구조는TOA,BIBLIOGRAPHY및INDEX필드를 지원하여 개선되었습니다. <sup>25.2</sup>
 * [AddSingleLevelList](https://reference.aspose.com/words/java/com.aspose.words/listcollection/#addSingleLevelList-int)메서드는 향상된 목록 처리를 위해 도입되었습니다. <sup>25.2</sup>
+* PDF첨부 파일의 내보내기를 개선하기 위해**EmbedAttachments**를 대체할 새 속성[AttachmentsEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getAttachmentsEmbeddingMode)이 추가되었습니다. 또한PDF/A버전 첨부 파일을 지원하기 위해[PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)열거형에 새 값이 추가되었습니다. 또한 첨부 파일은 이제 암호화로 지원됩니다. <sup>25.3</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,15 +87,19 @@ OpenAI생성 모델을 사용하여 제공된 문서의 문법을 확인하는 �
 
 에 대해 자세히 알아보기 [Aspose.WordsJava25.2릴리스 노트](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-2-release-notes/).
 
+에 대해 자세히 알아보기 [Aspose.WordsJava25.3릴리스 노트](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-3-release-notes/).
+
+에 대해 자세히 알아보기 [Aspose.WordsJava25.4릴리스 노트](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-4-release-notes/).
+
 {{% /alert %}}
 
 ## Aspose.WordsJava 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words24.9DocumentBuilder을 통한group shape삽입 및StructuredDocumentTag삽입을 도입하고,눈금으로 방사형 차트 렌더링을 향상시키고,XAdES-EPES지원을 통해 디지털 서명을 개선하고,Markdown밑줄 인식을 추가하고,각주/미주 구분 기호에 대한 액세스를 제공합니다.
 
-Aspose.Words24.10CommandButton생성,새로운 모양 가시성 제어,group shapes기능,향상된Markdown테이블 내보내기,Pie및Doughnut차트에 대한 차트 서식 지정,더 나은 빅 5 인코딩 처리 및 오래된 대만 글꼴 지원을 통해 향상된 액티브엑스 제어 지원을 소개합니다.
+Aspose.Words24.10CommandButton생성,새로운 모양 가시성 제어,group shapes기능,향상된Markdown테이블 내보내기,Pie및Doughnut차트에 대한 차트 서식 지정,더 나은 빅 5 인코딩 처리 및 오래된 대만 글꼴 지원을 통해 향상된ActiveX제어 지원을 소개합니다.
 
-Aspose.Words24.11AI전원 문서 요약,향상된 렌더링 옵션,문서 속성 및 액티브엑스 제어 캡션에 대한 향상된 액세스를 소개합니다.
+Aspose.Words24.11는AI전원이 공급되는 문서 요약,향상된 렌더링 옵션,문서 속성에 대한 향상된 액세스 및ActiveX제어 캡션을 소개합니다.
 
 Aspose.Words24.12사용자 정의 데이터 레이블 배치,구글AI전원 텍스트 번역,향상된Mail Merge정리 옵션 및 새로운LowCode처리 클래스를 소개합니다.
 
@@ -92,9 +123,9 @@ Aspose.Words24.12사용자 정의 데이터 레이블 배치,구글AI전원 텍�
 
 방사형 차트에 눈금의 렌더링이 구현되었습니다.
 
-#### CommandButton액티브 컨트롤 <sup>24.10</sup>
+#### CommandButtonActiveX컨트롤 <sup>24.10</sup>
 
-CommandButton액티브엑스 컨트롤을 만드는 기능은 새로운 공개 메소드[InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl)과 새로운 공개 클래스[Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/)을 추가하여 도입되었습니다.
+CommandButtonActiveX컨트롤을 만드는 기능은 새로운 공용 메서드[InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl)과 새로운 공용 클래스[Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/)을 추가하여 도입되었습니다.
 
 #### 형상 가시성 제어 <sup>24.10</sup>
 
@@ -151,7 +182,7 @@ XAdES-EPES수준XML-DSig서명으로 문서에 서명하는 기능은 새 공용
 * TrueType에 대한 빅 5 인코딩 처리가 개선되었습니다. <sup>24.10</sup>
 * 오래된 대만 글꼴에 대한 지원이 향상되었습니다. <sup>24.10</sup>
 * 확장 문서 속성에 액세스하려면 읽기 전용 속성이[BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/)클래스에 추가되었습니다. <sup>24.11</sup>
-* [Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption)속성에 새 공용 세터를 추가하여 액티브 컨트롤에 대한 캡션 설정을 사용할 수 있습니다. <sup>24.11</sup>
+* [Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption)속성에 새 공용 세터를 추가하여ActiveX컨트롤에 대한 캡션 설정이 활성화되었습니다. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
@@ -171,7 +202,7 @@ Aspose.Words24.5어셈블리에 대한 옵션을 확장하고 렌더링 기능�
 
 Aspose.Words24.6렌더링 옵션을 개선하고 검색 및 비교 기능을 향상시키며 다른 여러 기능을 확장합니다.
 
-Aspose.Words24.7는 액티브엑스 작업 방식을 변경하고 렌더링 기능을 확장하며Markdown및XLSX형식으로 내보냅니다.
+Aspose.Words24.7ActiveX작업 방식을 변경하고 렌더링 기능을 확장하며Markdown및XLSX형식으로 내보냅니다.
 
 Aspose.Words24.8축 레이블을 정밀하게 제어하여 차트 사용자 정의를 강화하고 글꼴 관리를 확장하며 문서 구조 처리를 개선하고HTML/XAML내보내기,PDF기능,문서 변환 및 디지털 서명을 위한 새로운 기능을 추가합니다.
 
@@ -203,11 +234,11 @@ Aspose.Words24.8축 레이블을 정밀하게 제어하여 차트 사용자 정�
 
 공용 재산[CustomNumberStyleFormat](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getCustomNumberStyleFormat)에 대한 세터가 추가되었습니다. 이제 목록 수준에 대한 사용자 지정 숫자 스타일을 정의할 수 있습니다.
 
-#### 액티브엑스 작업의 변화 <sup>24.7</sup>
+#### ActiveX작업 변경 <sup>24.7</sup>
 
-* 액티브 객체의 속성은 이제 당신에게 자신의 동작을 더 제어 할 수 있도록 수정할 수 있습니다.
-* 동적 상호 작용을 활성화하기 위해 라디오 버튼 액티브 컨트롤의 값을 수정하는 기능이 추가되었습니다.
-* 액티브엑스checkbox을"체크"또는"체크되지 않은"으로 전환할 수 있는 기능이 추가되었습니다.
+* 이제ActiveX개체의 속성을 수정할 수 있으므로 동작을 더 잘 제어할 수 있습니다.
+* 동적 상호 작용을 활성화하기 위해 라디오 버튼ActiveX컨트롤의 값을 수정하는 기능이 추가되었습니다.
+* ActiveXcheckbox을"선택"또는"선택 취소"로 전환 할 수있는 기능이 추가되었습니다.
 
 #### 차트 축 눈금 레이블 방향 및 회전 제어 <sup>24.8</sup>
 

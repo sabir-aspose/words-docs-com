@@ -6,27 +6,34 @@ linktitle: İçerideki yenilikler Aspose.Words için Python via .NET
 type: docs
 description: "Aspose.Words için Python via .NET her gün genişler ve gelişir. Bu sayfada, ürünün devasa ve en ilginç özellikleri hakkında bilgi edinebilirsiniz."
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /tr/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-02-17-18-02-05
+timestamp: 2025-04-16-07-02-05
 ---
 
 Bu sayfa, son sürümlerde tanıtılan en ilginç yeni Aspose.Words özellikleri açıklamaktadır.
 
-## Aspose.Words için Python via .NET 25.1, 25.2
+## Aspose.Words .NET üzerinden Python için 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1, AI destekli dilbilgisi denetimini sunar ve HTML, SVG ve Markdown biçimleri için gelişmiş seçeneklerle belge kaydetmeyi geliştirir.
 
-Aspose.Words 25.2 Antropik AI modellerle metin özetlemeyi tanıtır, MsWorks biçim desteği ekler, tipografik kontrolü geliştirir ve PDF yapı ve liste işlemeyi geliştirir.
+Aspose.Words 25.2 Anthropic AI modellerle metin özetlemeyi tanıtır, MsWorks biçim desteği ekler, tipografik kontrolü geliştirir ve PDF yapı ve liste işlemeyi geliştirir.
+
+Aspose.Words 25.3 UpdateAmbiguousTextFont özelliğine sahip AI destekli bir dilbilgisi denetleyicisini ve yazı tipi seçimini geliştirir ve ayrıca PDF eklerin dışa aktarılmasını geliştirir.
+
+Aspose.Words 25.4 yeni kağıt boyutları için destek sunar, gelişmiş HTML dışa aktarma kontrolünü etkinleştirir ve filigran işlemeyi geliştirir.
 
 ### AI -güçlendirilmiş Özellikler
 
-#### Belge AI Dilbilgisi Denetimi <sup>25.1</sup>
+#### Belge AI Dilbilgisi Denetimi
 
-Sağlanan belgenin dilbilgisini OpenAI üretici modelleri kullanarak kontrol etme yeteneği, yeni bir [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/) yöntemi eklenerek tanıtıldı.
+* Sağlanan belgenin dilbilgisini OpenAI üretici modelleri kullanarak kontrol etme yeteneği, yeni bir [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/) yöntemi eklenerek tanıtıldı. <sup>25.1</sup>
+* AI destekli Dilbilgisi Denetimi özelliği, [AiModelType](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodeltype/) numaralandırmasında bulunan tüm modelleri destekleyecek şekilde güncellendi. <sup>25.3</sup>
 
-#### Antropik Üretken Dil Modellerini Kullanarak Özetleme <sup>25.2</sup>
+#### Anthropic Üretici Dil Modellerini Kullanarak Özetleme <sup>25.2</sup>
 
-Antropik üretken dil modellerini kullanarak metin özetlemesi, yeni bir genel sınıf [AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/) getirilerek etkinleştirildi.
+Anthropic üretici dil modellerini kullanarak metin özetlemesi, yeni bir genel sınıf [AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/) getirilerek etkinleştirildi.
 
 ### Desteklenen Biçimler <sup>25.2</sup>
 
@@ -49,10 +56,24 @@ HTML ve SVG biçimlerine kaydetme, hem [HtmlFixedSaveOptions](https://reference.
 
 Geliştirilmiş tipografik kontrol için [number_spacing](https://reference.aspose.com/words/python-net/aspose.words/font/number_spacing/) özelliği eklendi.
 
+#### Belirsiz Karakterler için Yazı Tipi Seçimini Denetleme <sup>25.3</sup>
+
+Kullanılan karakter koduna göre yazı tipi seçimini denetlemek için [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) sınıfına yeni bir genel özellik [update_ambiguous_text_font](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/update_ambiguous_text_font/) eklendi.
+
+#### Kağıt Boyutu Seçenekleri <sup>25.4</sup>
+
+JIS B4 ve JIS B5 kağıt boyutlarını kullanma yeteneği, [PaperSize](https://reference.aspose.com/words/python-net/aspose.words/papersize/) numaralandırmasına yeni değerler eklenerek tanıtıldı.
+
+#### HTML Çıkış Kontrolü <sup>25.4</sup>
+
+HTML dışa aktarma sırasında JavaScript köprüsünden URLs kaldırma özelliği, [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/remove_java_script_from_links/) özelliği eklenerek tanıtıldı.
+
 ### Diğer
 
 * PDF mantıksal yapı TOA, BIBLIOGRAPHY ve INDEX alanları desteği ile geliştirilmiştir. <sup>25.2</sup>
 * Geliştirilmiş liste işleme için [add_single_level_list](https://reference.aspose.com/words/python-net/aspose.words.lists/listcollection/add_single_level_list/#listtemplate) yöntemi tanıtıldı. <sup>25.2</sup>
+* PDF eklerin dışa aktarımını iyileştirmek için **EmbedAttachments** yerine [attachments_embedding_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/attachments_embedding_mode/) yeni bir özellik eklendi. Ayrıca, PDF/A sürüm eklerini desteklemek için [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) numaralandırmasına yeni değerler eklenmiştir. Ek olarak, ekler artık şifreleme ile desteklenmektedir. <sup>25.3</sup>
+* [SetImage](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_image/#bytesio_imagewatermarkoptions) yöntemine yeni bir aşırı yük eklenerek bir akıştan görüntü filigranı ayarlama özelliği tanıtıldı. <sup>25.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,15 +81,19 @@ Hakkında daha fazla bilgi edinin [Aspose.Words için Python via .NET 25.1 Sür�
 
 Hakkında daha fazla bilgi edinin [Aspose.Words için Python via .NET 25.2 Sürüm Notları](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
+Hakkında daha fazla bilgi edinin [Aspose.Words için Python via .NET 25.3 Sürüm Notları](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-3-release-notes/).
+
+Hakkında daha fazla bilgi edinin [Aspose.Words için Python via .NET 25.4 Sürüm Notları](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-4-release-notes/).
+
 {{% /alert %}}
 
 ## Aspose.Words Python için .NET üzerinden 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 group shape ekleme ve StructuredDocumentTag ekleme işlemlerini DocumentBuilder aracılığıyla tanıtır, mezuniyetlerle radyal grafik oluşturmayı geliştirir, XAdES-EPES desteğiyle dijital imzaları geliştirir, Markdown altı çizili tanıma ekler ve dipnot / sonnot ayırıcılarına erişim sağlar.
 
-Aspose.Words 24.10 CommandButton oluşturma, yeni şekil görünürlüğü kontrolü, group shapes yeteneği, tablolar için geliştirilmiş Markdown dışa aktarma, Pie ve Doughnut grafikler için grafik biçimlendirme, daha iyi Big5 kodlama işleme ve eski Tayvan yazı tipleri desteği ile gelişmiş ActiveX denetimi desteği sunar.
+Aspose.Words 24.10, CommandButton oluşturma, yeni şekil görünürlüğü kontrolü, group shapes yeteneği, tablolar için geliştirilmiş Markdown dışa aktarma, Pie ve Doughnut grafikler için grafik biçimlendirme, daha iyi Bıg5 kodlama işleme ve eski sürümler için destek ile gelişmiş ActiveX kontrol desteği sunar Tayvanlı yazı tipleri.
 
-Aspose.Words 24.11, AI destekli belge özetleme, gelişmiş oluşturma seçenekleri, belge özelliklerine geliştirilmiş erişim ve ActiveX denetimi altyazısını sunar.
+Aspose.Words 24.11, AI destekli belge özetleme, gelişmiş oluşturma seçenekleri, belge özelliklerine geliştirilmiş erişim ve ActiveX altyazı denetimini sunar.
 
 Aspose.Words 24.12 özelleştirilebilir veri etiketi yerleşimi, Google AI destekli metin çevirisi ve geliştirilmiş yeni LowCode işleme sınıfları sunar.
 
@@ -92,7 +117,7 @@ Yeni LowCode sınıflar gibi [Comparer](https://reference.aspose.com/words/pytho
 
 Radyal grafiklerde mezuniyetlerin oluşturulması uygulanmıştır.
 
-#### CommandButton ActiveX Denetimleri <sup>24.10</sup>
+#### CommandButton ActiveX Kontroller <sup>24.10</sup>
 
 CommandButton ActiveX denetimleri oluşturma yeteneği, yeni bir genel yöntem [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) ve yeni bir genel sınıf [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/) eklenerek tanıtıldı.
 
@@ -149,7 +174,7 @@ XAdES-EPES düzey XML-DSig imzalı belgeleri imzalama yeteneği, yeni bir genel 
 * TrueType cmap tabloları için Bıg5 kodlama işlemi geliştirildi. <sup>24.10</sup>
 * Eski Tayvanlı yazı tipleri için destek geliştirildi. <sup>24.10</sup>
 * Genişletilmiş belge özelliklerine erişmek için [BuiltInDocumentProperties](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/) sınıfına salt okunur özellikler eklenmiştir. <sup>24.11</sup>
-* ActiveX denetimleri için resim yazıları ayarlamak, [Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/) özelliğine yeni bir genel ayarlayıcı eklenerek etkinleştirildi. <sup>24.11</sup>
+* ActiveX denetimleri için altyazı ayarlama, [Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/) özelliğine yeni bir genel ayarlayıcı eklenerek etkinleştirildi. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
@@ -201,10 +226,10 @@ Aspose.Words 24.8 eksen etiketleri üzerinde hassas kontrolle grafik özelleşti
 
 [custom_number_style_format](https://reference.aspose.com/words/python-net/aspose.words.lists/listlevel/custom_number_style_format/) genel mülkü için bir ayarlayıcı eklendi. Artık liste seviyeleri için özel bir numara stili tanımlayabilirsiniz.
 
-#### ActiveX ile çalışmadaki değişiklikler <sup>24.7</sup>
+#### ActiveX <sup>24.7 ile çalışmadaki değişiklikler</sup>
 
-- ActiveX nesnelerinin özellikleri artık değiştirilebilir ve davranışları üzerinde daha fazla denetim sağlar.
-- Dinamik etkileşimi etkinleştirmek için radyo düğmesi ActiveX denetiminin değerini değiştirme yeteneği eklendi.
+- ActiveX nesnelerinin özellikleri artık değiştirilebilir, böylece davranışları üzerinde daha fazla kontrol sahibi olursunuz.
+- Dinamik etkileşimi etkinleştirmek için radyo düğmesi ActiveX kontrolünün değerini değiştirme yeteneği eklendi.
 - Bir ActiveX checkbox öğesini "işaretli" veya "işaretlenmemiş" olarak değiştirme yeteneği eklendi.
 
 #### Grafik Ekseni Üzerinde Kontrol İşaret Etiketleri Yönlendirme ve Döndürme <sup>24.8</sup>
@@ -389,8 +414,8 @@ TXT belgeleri yüklerken köprüleri tanıma özelliği, yeni bir [detect_hyperl
 - Stil özelliklerine erişme ve bunları değiştirme yeteneği, yeni [locked](https://reference.aspose.com/words/python-net/aspose.words/style/locked/) özelliğinin eklenmesiyle eklenmiştir. <sup>23.10</sup>
 - [CompositeNode](https://reference.aspose.com/words/python-net/aspose.words/compositenode/) sınıfının yöntemlerine genel bir tür parametresi eklenmiştir. <sup>23.10</sup>
 - Bir belgenin tüm bölümlerini aynı XLSX çalışma sayfasına yazma yeteneği, yeni [XlsxSectionMode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsectionmode/) numaralandırma türü ve yeni [section_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/section_mode/) özelliği aracılığıyla sağlanmıştır. <sup>23.11</sup>
-* ZIP64 biçim uzantılarının OOXML belgeler için nasıl kullanılacağını kontrol etmenin bir yolu, `OoxmlSaveOptions` sınıfının yeni Zip64Mode özelliği ve yeni Zip64Mode numaralandırması aracılığıyla uygulanmıştır. <sup>23.12</sup>
-* WebP görüntüsü için destek sunuldu. Lütfen bu özelliğin yalnızca .NetStandart ve .NET6+ sürümleri için geçerli olduğunu unutmayın. <sup>23.12</sup>
+* ZIP64 biçim uzantılarının OOXML belgeler için nasıl kullanılacağını denetlemenin bir yolu, `OoxmlSaveOptions` sınıfının yeni Zip64Mode özelliği ve yeni Zip64Mode numaralandırması aracılığıyla uygulanmıştır. <sup>23.12</sup>
+* WebP görüntüsü için destek sunuldu. Lütfen bu özelliğin yalnızca .NetStandart ve .NET6+ sürümleri için mevcut olduğunu unutmayın. <sup>23.12</sup>
 
 {{% alert color="primary" %}}
 

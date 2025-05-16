@@ -1,20 +1,22 @@
-﻿---
+---
 title: Rezumați un Document
-second_title: Aspose.Words Pentru Python via .NET
+second_title: Aspose.Words pentru Python via .NET
 articleTitle: Rezumați un Document
 linktitle: Rezumați un Document
 type: docs
 weight: 20
 description: "Rezumați un document. Aspose.Words pentru Python simplifică rezumarea documentelor folosind modelele OpenAI și Google AI, permițându-vă să specificați lungimea rezumatului."
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ro/python-net/summarize-a-document/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
-Rezumarea documentelor este un instrument valoros pentru revizuirea conținutului, informații rapide sau pregătirea rezumatelor. Aspose.Words acceptă rezumarea documentelor folosind modele alimentate cu AI, facilitând procesarea textului lung. Această caracteristică, disponibilă în modulul [aspose.words.ai](https://reference.aspose.com/words/python-net/aspose.words.ai/), integrează modele avansate de limbaj generativ din *OpenAI* și *Google*.
+Rezumarea documentelor este un instrument valoros pentru revizuirea conținutului, informații rapide sau pregătirea rezumatelor. Aspose.Words acceptă rezumarea documentelor folosind modele alimentate cu AI, facilitând procesarea textului lung. Această caracteristică, disponibilă în modulul [aspose.words.ai](https://reference.aspose.com/words/python-net/aspose.words.ai/), integrează modele avansate de limbaj generativ din *OpenAI* și *Google*, precum și *Claude's* modele de limbaj generativ antropic. Lista modelelor acceptate este disponibilă în enumerarea [AiModelType](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodeltype/).
 
 Puteți specifica diverse opțiuni pentru rezumarea conținutului documentului. Utilizați metoda [summarize](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/summarize/) pentru a genera un rezumat al documentului. De asemenea, puteți seta lungimea rezumatului folosind proprietatea [summary_length](https://reference.aspose.com/words/python-net/aspose.words.ai/summarizeoptions/summary_length/).
 
-Cu Aspose.Words, implementarea rezumării documentelor este simplă. Următorul exemplu de cod arată hot pentru a rezuma un document folosind modelul GPT - 4o:
+Cu Aspose.Words, implementarea rezumării documentelor este simplă. Următorul exemplu de cod arată cum se rezumă un document folosind GPT-4o model:
 
 {{< highlight python >}}
 first_doc = aw.Document(MyDir + "Big document.docx")

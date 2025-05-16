@@ -1,4 +1,4 @@
-﻿---
+---
 title: Traduire un Document
 second_title: Aspose.Words pour Python via .NET
 articleTitle: Traduire un Document
@@ -6,6 +6,8 @@ linktitle: Traduire un Document
 type: docs
 weight: 30
 description: "Traduire un document. Aspose.Words pour Python simplifie la traduction de documents à l'aide des modèles Google AI, vous permettant de spécifier la langue cible."
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /fr/python-net/translate-a-document/
 timestamp: 2025-01-15-16-40-05
 ---

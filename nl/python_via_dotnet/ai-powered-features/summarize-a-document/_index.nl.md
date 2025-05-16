@@ -1,20 +1,22 @@
-﻿---
+---
 title: Een Document samenvatten
-second_title: Aspose.Words Voor Python via .NET
+second_title: Aspose.Words voor Python via .NET
 articleTitle: Een Document samenvatten
 linktitle: Een Document samenvatten
 type: docs
 weight: 20
-description: "Een document samenvatten. Aspose.Words voor Python vereenvoudigt het samenvatten van documenten met behulp van OpenAI - en Google AI - modellen door u toe te staan de lengte van de samenvatting op te geven."
+description: "Een document samenvatten. Aspose.Words voor Python vereenvoudigt het samenvatten van documenten met behulp van OpenAI - en Google AI - modellen door u in staat te stellen de lengte van de samenvatting op te geven."
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nl/python-net/summarize-a-document/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
-Het samenvatten van documenten is een waardevol hulpmiddel voor het beoordelen van inhoud, Snelle inzichten of het opstellen van samenvattingen. Aspose.Words ondersteunt documentsamenvatting met behulp van AI-aangedreven modellen, waardoor het gemakkelijker wordt om lange tekst te verwerken. Deze functie, beschikbaar in de module [aspose.words.ai](https://reference.aspose.com/words/python-net/aspose.words.ai/), integreert geavanceerde generatieve taalmodellen van *OpenAI* en *Google*.
+Het samenvatten van documenten is een waardevol hulpmiddel voor het beoordelen van inhoud, Snelle inzichten of het opstellen van samenvattingen. Aspose.Words ondersteunt documentsamenvatting met behulp van AI-aangedreven modellen, waardoor het gemakkelijker wordt om lange tekst te verwerken. Deze functie, beschikbaar in de [aspose.words.ai](https://reference.aspose.com/words/python-net/aspose.words.ai/) module, integreert geavanceerde generatieve taalmodellen van *OpenAI* en *Google*, evenals *Claude's* antropische generatieve taalmodellen. De lijst met ondersteunde modellen is beschikbaar in de [AiModelType](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodeltype/) - opsomming.
 
 U kunt verschillende opties opgeven voor het samenvatten van documentinhoud. Gebruik de methode [summarize](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/summarize/) om een samenvatting van uw document te genereren. U kunt ook de lengte van de samenvatting instellen met de eigenschap [summary_length](https://reference.aspose.com/words/python-net/aspose.words.ai/summarizeoptions/summary_length/).
 
-Met Aspose.Words is het implementeren van documentsamenvatting eenvoudig. Het volgende code voorbeeld toont hot om een document te summirizen met behulp van GPT-4o model:
+Met Aspose.Words is het implementeren van documentsamenvatting eenvoudig. Het volgende codevoorbeeld laat zien hoe u een document samenvat met behulp van GPT-4o model:
 
 {{< highlight python >}}
 first_doc = aw.Document(MyDir + "Big document.docx")

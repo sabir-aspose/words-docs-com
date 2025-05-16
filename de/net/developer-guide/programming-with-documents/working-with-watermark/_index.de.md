@@ -3,76 +3,76 @@ title: Arbeiten mit Wasserzeichen in C#
 second_title: Aspose.Words für .NET
 articleTitle: Arbeiten mit Wasserzeichen
 linktitle: Arbeiten mit Wasserzeichen
-description: "Manipulation von Dokumentwasserzeichen mit C#."
+description: "Manipulation des Dokumentwasserzeichens mit C#."
 type: docs
 weight: 340
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /de/net/working-with-watermark/
-timestamp: 2024-05-02-11-51-44
+timestamp: 2025-04-16-07-02-05
 ---
 
-In diesem Thema wird erläutert, wie Sie mithilfe von Aspose.Words programmgesteuert mit Wasserzeichen arbeiten. Ein Wasserzeichen ist ein Hintergrundbild, das hinter dem Text in einem Dokument angezeigt wird. Ein Wasserzeichen kann einen Text oder ein Bild enthalten, das durch die [Watermark](https://reference.aspose.com/words/de/net/aspose.words/watermark/)-Klasse dargestellt wird.
+In diesem Thema wird erläutert, wie Sie mit Aspose.Words programmgesteuert mit Wasserzeichen arbeiten. Ein Wasserzeichen ist ein Hintergrundbild, das hinter dem Text in einem Dokument angezeigt wird. Ein Wasserzeichen kann einen Text oder ein Bild enthalten, das durch die Klasse [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) dargestellt wird.
 
 {{% alert color="primary" %}}
 
-**Versuchen Sie es online**
+**Online ausprobieren**
 
-Sie können diese Funktionalität mit unserem [Kostenloses Wasserzeichen für Online Dokumente](https://products.aspose.app/words/watermark) ausprobieren.
+Sie können diese Funktionalität mit unserem ausprobieren [Kostenloses Online Wasserzeichen für Dokumente](https://products.aspose.app/words/watermark).
 
 {{% /alert %}}
 
-## Fügen Sie einem Dokument ein Wasserzeichen hinzu
+## Hinzufügen eines Wasserzeichens zu einem Dokument
 
-In Microsoft Word kann mit dem Befehl "Wasserzeichen einfügen" ganz einfach ein Wasserzeichen in ein Dokument eingefügt werden. Aspose.Words stellt die [watermark](https://reference.aspose.com/words/de/net/aspose.words/watermark/)-Klasse zum Hinzufügen oder Entfernen von Wasserzeichen in Dokumenten bereit. Aspose.Words stellt die [Wasserzeichentyp](https://reference.aspose.com/words/de/net/aspose.words/watermark/type/)-Aufzählung bereit, die drei mögliche Arten von Wasserzeichen (Text, Bild und Keine) definiert, mit denen gearbeitet werden kann
+In Microsoft Word kann ein Wasserzeichen einfach mit dem Befehl Wasserzeichen einfügen in ein Dokument eingefügt werden. Aspose.Words stellt die Klasse [watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) zum Hinzufügen oder Entfernen von Wasserzeichen in Dokumenten bereit. Aspose.Words stellt die [WatermarkType](https://reference.aspose.com/words/net/aspose.words/watermark/type/)-Aufzählung bereit, die drei mögliche Arten von Wasserzeichen (Text, Bild und Keine) definiert, mit denen gearbeitet werden soll.
 
-### Textwasserzeichen hinzufügen
+### Text-Wasserzeichen hinzufügen
 
-Das folgende Codebeispiel zeigt, wie Sie ein Textwasserzeichen in ein Dokument einfügen, indem Sie [TextWatermarkOptions](https://reference.aspose.com/words/de/net/aspose.words/textwatermarkoptions/) mithilfe der [SetText](https://reference.aspose.com/words/de/net/aspose.words/watermark/settext/#settext)-Methode definieren:
+Das folgende Codebeispiel zeigt, wie Sie ein Textwasserzeichen in ein Dokument einfügen, indem Sie [TextWatermarkOptions](https://reference.aspose.com/words/net/aspose.words/textwatermarkoptions/) mit der Methode [SetText](https://reference.aspose.com/words/net/aspose.words/watermark/settext/#settext) definieren:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkWithWatermark-AddTextWatermarkWithSpecificOptions.cs" >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "add-text-watermark.cs" >}}
 
-### Bildwasserzeichen hinzufügen
+### Bild-Wasserzeichen hinzufügen
 
-Das folgende Codebeispiel zeigt, wie Sie ein Bildwasserzeichen in ein Dokument einfügen, indem Sie [ImageWatermarkOptions](https://reference.aspose.com/words/de/net/aspose.words/imagewatermarkoptions/) mithilfe der [SetImage](https://reference.aspose.com/words/de/net/aspose.words/watermark/setimage/#setimage)-Methode definieren:
+Das folgende Codebeispiel zeigt, wie Sie ein Bildwasserzeichen in ein Dokument einfügen, indem Sie [ImageWatermarkOptions](https://reference.aspose.com/words/net/aspose.words/imagewatermarkoptions/) mit der Methode [SetImage](https://reference.aspose.com/words/net/aspose.words/watermark/setimage/#setimage) definieren:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cs" >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "add-image-watermark.cs" >}}
 
-Das Wasserzeichen kann auch mithilfe der Formklasse eingefügt werden. Es ist sehr einfach, beliebige Formen oder Bilder in eine Kopf- oder Fußzeile einzufügen und so ein Wasserzeichen jeder erdenklichen Art zu erstellen.
+Bildwasserzeichen können als Bild, Zeichenfolge oder Stream eingefügt werden.
 
-Das folgende Codebeispiel fügt ein Wasserzeichen in ein Word-Dokument ein:
+Das Wasserzeichen kann auch mit der Formklasse eingefügt werden. Es ist sehr einfach, eine beliebige Form oder ein beliebiges Bild in eine Kopf- oder Fußzeile einzufügen und so ein Wasserzeichen jeder erdenklichen Art zu erstellen.
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Images-AddWatermark-AddWatermark.cs" >}}
+Das folgende Codebeispiel fügt ein Wasserzeichen in ein Word -Dokument ein:
+
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "add-document-watermark.cs" >}}
 
 {{% alert color="primary" %}}
 
-Sie können die Beispieldatei dieses Beispiels von [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx) herunterladen.
+Sie können die Beispieldatei dieses Beispiels herunterladen von [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 {{% /alert %}}
 
 
 ## Wasserzeichen aus einem Dokument entfernen
 
-Die [Watermark](https://reference.aspose.com/words/de/net/aspose.words/watermark/)-Klasse stellt die Methode "remove" bereit, um das Wasserzeichen aus einem Dokument zu entfernen.
+Die Klasse [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) stellt die Methode remove bereit, um das Wasserzeichen aus einem Dokument zu entfernen.
 
 Das folgende Codebeispiel zeigt, wie Sie ein Wasserzeichen aus Dokumenten entfernen:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkWithWatermark-RemoveWatermarkFromDocument.cs" >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "remove-document-watermark.cs" >}}
 
-Wenn die Wasserzeichen mithilfe des [Shape](https://reference.aspose.com/words/de/net/aspose.words.drawing/shape/)-Klassenobjekts hinzugefügt werden, müssen Sie zum Entfernen des Wasserzeichens aus einem Dokument beim Einfügen nur den Namen der Wasserzeichenform festlegen und dann die Wasserzeichenform über einen zugewiesenen Namen entfernen.
+Wenn die Wasserzeichen mit dem Klassenobjekt [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) hinzugefügt werden, müssen Sie zum Entfernen des Wasserzeichens aus einem Dokument beim Einfügen nur den Namen der Wasserzeichenform festlegen und dann die Wasserzeichenform mit einem zugewiesenen Namen entfernen.
 
-Das folgende Codebeispiel zeigt Ihnen, wie Sie den Namen der Wasserzeichenform festlegen und diese aus dem Dokument entfernen:
+Das folgende Codebeispiel zeigt Ihnen, wie Sie den Namen der Wasserzeichenform festlegen und aus dem Dokument entfernen:
 
-{{< highlight csharp >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "set-shape-name.cs" >}}
 
-// Set name to be able to remove it afterwards
-watermark.Name("WaterMark");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "remove-watermark-shape.cs" >}}
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Images-RemoveWatermark-RemoveWatermark.cs" >}}
+## Fügen Sie ein Wasserzeichen in eine Tabellenzelle ein
 
-## Fügen Sie einer Tabellenzelle ein Wasserzeichen hinzu
-
-Manchmal müssen Sie ein Wasserzeichen/Bild in die Zelle einer Tabelle einfügen und es außerhalb der Tabelle anzeigen. Dazu können Sie die [IsLayoutInCell](https://reference.aspose.com/words/de/net/aspose.words.drawing/shapebase/islayoutincell/)-Eigenschaft verwenden. Diese Eigenschaft ruft ein Flag ab oder legt es fest, das angibt, ob die Form innerhalb oder außerhalb einer Tabelle angezeigt wird. Beachten Sie, dass diese Eigenschaft nur funktioniert, wenn Sie das Dokument für Microsoft Word 2010 mithilfe der [OptimizeFor](https://reference.aspose.com/words/de/net/aspose.words.settings/compatibilityoptions/optimizefor/)-Methode optimieren.
+Manchmal müssen Sie ein Wasserzeichen / Bild in die Zelle einer Tabelle einfügen und es außerhalb der Tabelle anzeigen. Sie können die Eigenschaft [IsLayoutInCell](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/islayoutincell/) verwenden. Diese Eigenschaft ruft ein Flag ab oder legt es fest, das angibt, ob das Shape innerhalb oder außerhalb einer Tabelle angezeigt wird. Beachten Sie, dass diese Eigenschaft nur funktioniert, wenn Sie das Dokument für Microsoft Word 2010 mit der Methode [OptimizeFor](https://reference.aspose.com/words/net/aspose.words.settings/compatibilityoptions/optimizefor/) optimieren.
 
 Das folgende Codebeispiel zeigt, wie diese Eigenschaft verwendet wird:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-SetShapeLayoutInCell.cs" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "layout-in-cell.cs" >}}

@@ -1,4 +1,4 @@
-﻿---
+---
 title: کار با واترمارک در Java
 second_title: Aspose.Words برای Java
 articleTitle: کار با واترمارک
@@ -6,8 +6,10 @@ linktitle: کار با واترمارک
 type: docs
 description: "دستکاری علامت آبی سند با استفاده از Java."
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /fa/java/working-with-watermark/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-04-22-08-07-04
 ---
 
 این موضوع در مورد چگونگی کار برنامه نویسی با یک علامت آبی با استفاده از Aspose.Words بحث می کند. علامت آبی یک تصویر پس زمینه است که در پشت متن در یک سند نمایش داده می شود. یک علامت آبی می تواند حاوی یک متن یا یک تصویر باشد که توسط کلاس [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) نشان داده شده است.
@@ -22,7 +24,7 @@ timestamp: 2024-01-27-14-07-04
 
 ## یک علامت آبی به یک سند اضافه کنید
 
-در Microsoft Word، یک علامت آبی را می توان به راحتی در یک سند با استفاده از دستور Insert Watermark وارد کرد. Aspose.Words کلاس [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) را برای اضافه کردن یا حذف علامت آبی در اسناد فراهم می کند. Aspose.Words شمارش [WatermarkType](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)را فراهم می کند که سه نوع ممکن از علامت های آبی (متن، تصویر و هیچ) را برای کار با آن تعریف می کند.
+در Microsoft Word، یک علامت آبی را می توان به راحتی در یک سند با استفاده از دستور Insert Watermark وارد کرد. Aspose.Words کلاس [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) را برای اضافه کردن یا حذف علامت آبی در اسناد فراهم می کند. Aspose.Words شمارش [WatermarkType ](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)را فراهم می کند که سه نوع ممکن از علامت های آبی (متن، تصویر و هیچ) را برای کار با آن تعریف می کند.
 
 ### اضافه کردن علامت آبی متن
 
@@ -36,9 +38,11 @@ timestamp: 2024-01-27-14-07-04
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.java" >}}
 
+علامت آبی تصویر را می توان به عنوان تصویر، رشته یا جریان وارد کرد.
+
 علامت آبی را می توان با استفاده از کلاس شکل نیز وارد کرد. بسیار آسان است که هر شکل یا تصویر را در یک سر یا پای صفحه قرار دهید و بنابراین یک علامت آبی از هر نوع قابل تصور ایجاد کنید.
 
-مثال کد زیر یک علامت آبی را در یک سند ورد قرار می دهد:
+مثال کد زیر یک علامت آبی را در یک سند Word قرار می دهد:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-AddWatermarkToADocument-AddWatermarkToADocument.java" >}}
 

@@ -1,18 +1,20 @@
-﻿---
+---
 title: AI Grammaticacontrole
 second_title: Aspose.Words voor Python via .NET
 articleTitle: Grammaticacontrole
 linktitle: Grammaticacontrole
 type: docs
 weight: 40
-description: "Controleer de grammatica van een document. Aspose.Words voor Python hiermee kunnen gebruikers grammatica controleren en fouten in documenten detecteren met behulp van OpenAI - modellen."
+description: "Controleer de grammatica van een document. Aspose.Words voor Python hiermee kunnen gebruikers grammatica controleren en fouten in documenten detecteren met behulp van OpenAI, Google en Claude modellen."
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nl/python-net/grammar-checking/
-timestamp: 2025-01-15-16-40-05
+timestamp: 2025-03-17-19-00-00
 ---
 
 Het controleren van grammatica in documenten is belangrijk om duidelijkheid, professionaliteit en nauwkeurigheid te garanderen. Goed geschreven documenten laten een positieve indruk achter en voorkomen misverstanden. Grammaticacontroles helpen fouten snel te identificeren en te corrigeren, waardoor tijd wordt bespaard en de kwaliteit wordt verbeterd.
 
-Aspose.Words stelt gebruikers in staat om grammatica te controleren en fouten in documenten te detecteren met behulp van **OpenAI** generatieve modellen. Gebruik de methode [CheckGrammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/#document_checkgrammaroptions), Beschikbaar in de [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) naamruimte. **CheckGrammar** analyseert de tekst in een document en wijst op grammaticale problemen.
+Aspose.Words stelt gebruikers in staat om grammatica te controleren en fouten in documenten te detecteren met behulp van de families van de OpenAI, Google en Claude modellen die in de [AiModelType](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodeltype/) - opsomming worden vermeld. Gebruik de methode [CheckGrammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/#document_checkgrammaroptions), Beschikbaar in de [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) naamruimte. **CheckGrammar** analyseert de tekst in een document en wijst op grammaticale problemen.
 
 Het volgende codevoorbeeld laat zien hoe u het GPT-4o mini model in Aspose.Words gebruikt om grammatica te controleren:
 

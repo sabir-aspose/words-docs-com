@@ -1,18 +1,20 @@
-﻿---
+---
 title: AI modellen ondersteund door Aspose.Words
-second_title: Aspose.Words Voor Python via .NET
+second_title: Aspose.Words voor Python via .NET
 articleTitle: Ondersteunde AI Modellen
 linktitle: Ondersteunde AI Modellen
 type: docs
 weight: 10
-description: "Aspose.Words voor Python ondersteunt OpenAI en Google AI modellen voor samenvattings-en vertaaldocumenten. Gebruik Aspose.Words met Gpt-4o, GPT-4o mini, GPT-4 Turbo, GPT-3.5 Turbo, Gemini 1.5 Flash, Gemini 1.5 Flash-8b, Gemini 1.5 Pro."
+description: "Aspose.Words voor Python ondersteunt OpenAI en Google AI modellen voor samenvattings-en vertaaldocumenten. Gebruik Aspose.Words met Gpt-4o, Gpt-4o mini, Gpt-4 Turbo, GPT-3.5 Turbo, Gemini 1.5 Flash, Gemini 1.5 Flash-8b, Gemini 1.5 Pro."
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nl/python-net/supported-ai-models/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
-Aspose.Words maakt nu gebruik van geavanceerde AI - modellen om de verwerking en analyse van documenten te verbeteren. Met de Aspose.Words.AI namespace, ontwikkelaars kunnen toegang krijgen tot functies die AI gebruiken voor taken zoals het samenvatten en analyseren van documenten, waarbij generatieve taalmodellen van marktleiders worden geïntegreerd.
+Aspose.Words maakt nu gebruik van geavanceerde AI modellen om de verwerking en analyse van documenten te verbeteren. Met de naamruimte Aspose.Words.AI hebben ontwikkelaars toegang tot functies die AI gebruiken voor taken zoals documentsamenvatting en-analyse, waarbij generatieve taalmodellen van marktleiders worden geïntegreerd.
 
-Aspose.Words bibliotheek ondersteunt momenteel integratie met OpenAI en Google generatieve taalmodellen. Deze modellen bieden krachtige mogelijkheden voor het werken met documenten. Door naadloze interactie met deze AI tools mogelijk te maken, vereenvoudigt Aspose.Words complexe taken en verbetert de productiviteit voor ontwikkelaars.
+Aspose.Words bibliotheek ondersteunt momenteel integratie met OpenAI, Google en Claude modelfamilies. Deze modellen bieden krachtige mogelijkheden voor het werken met documenten. Door naadloze interactie met deze AI tools mogelijk te maken, vereenvoudigt Aspose.Words complexe taken en verbetert de productiviteit voor ontwikkelaars.
 
 U kunt een modelinstantie maken met behulp van de methode [create](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodel/create/) van de klasse [AiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodel/). De volledige lijst van ondersteunde modeltypen wordt vermeld in de [AiModelType](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodeltype/) - opsomming.
 

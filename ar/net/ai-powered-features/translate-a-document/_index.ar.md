@@ -1,4 +1,4 @@
-﻿---
+---
 title: ترجمة وثيقة
 second_title: Aspose.Words ل .NET
 articleTitle: ترجمة وثيقة
@@ -6,6 +6,8 @@ linktitle: ترجمة وثيقة
 type: docs
 weight: 30
 description: "ترجمة وثيقة. Aspose.Words ل .NET يبسط ترجمة المستندات باستخدام نماذج جوجل AI، مما يسمح لك بتحديد اللغة الهدف."
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ar/net/translate-a-document/
 timestamp: 2024-12-13-06-40-00
 ---
@@ -16,16 +18,7 @@ timestamp: 2024-12-13-06-40-00
 
 يوضح مثال الكود التالي كيفية استخدام نموذج *Gemini 1.5 Flash* في Aspose.Words لترجمة مستند إلى اللغة العربية:
 
-{{< highlight csharp >}}
-Document doc = new Document(MyDir + "Document.docx");
-
-string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-// Use Google generative language models.
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gemini15Flash).WithApiKey(apiKey);
-
-Document translatedDoc = model.Translate(doc, Language.Arabic);
-translatedDoc.Save(ArtifactsDir + "AI.AiTranslate.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "ea14b3e44c0233eecd663f783a21c4f6" "ai-translate.cs" >}}
 
 {{% alert color="primary" %}}
 

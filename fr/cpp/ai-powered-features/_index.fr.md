@@ -1,0 +1,22 @@
+---
+title: AI - Fonctionnalités alimentées
+second_title: Aspose.Words pour C++
+articleTitle: AI - Fonctionnalités alimentées
+linktitle: AI - Fonctionnalités alimentées
+type: docs
+weight: 25
+description: "Aspose.Words pour C++ introduit des outils alimentés par AI comme la synthèse de documents pour améliorer l'efficacité. Apprenez à utiliser les fonctionnalités alimentées par AI avec des astuces et des conseils détaillés."
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+url: /fr/cpp/ai-powered-features/
+timestamp: 2025-03-17-19-00-00
+---
+
+Aspose.Words inclut désormais des fonctionnalités alimentées par AI conçues pour rendre le traitement des documents plus intelligent et plus efficace. Ces outils exploitent l'apprentissage automatique avancé pour effectuer des tâches telles que la synthèse de documents, offrant aux développeurs des fonctionnalités plus puissantes pour rationaliser leurs flux de travail.
+
+Dans cette section, nous couvrirons tout ce que vous devez savoir sur l'utilisation des fonctionnalités AI prises en charge dans Aspose.Words. Des conseils pratiques aux instructions détaillées, notre objectif est de vous aider à tirer le meilleur parti de ces améliorations.
+
+* [Modèles AI pris en charge](/words/cpp/supported-ai-models/)
+* [Résumer un document](/words/cpp/summarize-a-document/)
+* [Traduire un Document](/words/cpp/translate-a-document/)
+* [Vérification Grammaticale](/words/cpp/grammar-checking/)

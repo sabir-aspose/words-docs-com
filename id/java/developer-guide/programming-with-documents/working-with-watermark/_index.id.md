@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Tanda Air dalam Java
 second_title: Aspose.Words untuk Java
 articleTitle: Bekerja dengan Tanda Air
@@ -6,8 +6,10 @@ linktitle: Bekerja dengan Tanda Air
 type: docs
 description: "Manipulasi tanda air dokumen menggunakan Java."
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /id/java/working-with-watermark/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-04-22-08-07-04
 ---
 
 Topik ini membahas cara bekerja secara terprogram dengan tanda air menggunakan Aspose.Words. Tanda air adalah gambar latar belakang yang ditampilkan di belakang teks dalam dokumen. Tanda air dapat berisi teks atau gambar yang diwakili oleh kelas [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/).
@@ -22,7 +24,7 @@ Anda dapat mencoba fungsi ini dengan kami [Tanda air dokumen online gratis](http
 
 ## Menambahkan Tanda Air ke Dokumen
 
-Di Microsoft Word, tanda air dapat dengan mudah disisipkan ke dalam dokumen menggunakan perintah Sisipkan Tanda Air. Aspose.Words menyediakan kelas [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) untuk menambah atau menghapus tanda air dalam dokumen. Aspose.Words menyediakan pencacahan [WatermarkType](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)yang mendefinisikan tiga kemungkinan jenis tanda air (Teks, Gambar, dan Tidak Ada) untuk digunakan.
+Di Microsoft Word, tanda air dapat dengan mudah disisipkan ke dalam dokumen menggunakan perintah Sisipkan Tanda Air. Aspose.Words menyediakan kelas [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) untuk menambah atau menghapus tanda air dalam dokumen. Aspose.Words menyediakan pencacahan [WatermarkType ](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)yang mendefinisikan tiga kemungkinan jenis tanda air (Teks, Gambar, dan Tidak Ada) untuk digunakan.
 
 ### Tambahkan Tanda Air Teks
 
@@ -35,6 +37,8 @@ Contoh kode berikut mendemonstrasikan cara menyisipkan tanda air teks dalam doku
 Contoh kode berikut mendemonstrasikan cara menyisipkan tanda air gambar dalam dokumen dengan mendefinisikan [ImageWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/imagewatermarkoptions/) menggunakan metode [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.awt.image.BufferedImage):
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.java" >}}
+
+Tanda air gambar dapat disisipkan sebagai gambar, string, atau aliran.
 
 Tanda air juga dapat disisipkan menggunakan kelas bentuk juga. Sangat mudah untuk menyisipkan bentuk atau gambar apa pun ke dalam header atau footer dan dengan demikian membuat tanda air dari jenis apa pun yang dapat dibayangkan.
 

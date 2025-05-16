@@ -6,27 +6,34 @@ linktitle: What's new in Aspose.WordsのためのPython via .NET
 type: docs
 description: "Aspose.WordsのためのPython via .NET 毎日拡大し、強化します。 このページでは、製品の巨大で最も興味深い機能について学ぶことができます。"
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ja/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-02-17-18-02-05
+timestamp: 2025-04-16-07-02-05
 ---
 
 このページでは、最近のリリースで導入された最も興味深い新しいAspose.Words機能について説明します。
 
-## Aspose.WordsのためのPython via .NET 25.1, 25.2
+## .NET 経由の Python の Aspose.Words 25.1、25.2、25.3、25.4
 
 Aspose.Words25.1はAIを使用した文法チェックを導入し、HTML、SVG、Markdown形式の高度なオプションを使用して文書の保存を強化します。
 
-Aspose.Words25.2は、AnthropicAIモデルによるテキスト要約を導入し、MsWorks形式のサポートを追加し、タイポグラフィ制御を強化し、PDF構造とリストの処理を改善します。
+Aspose.Words25.2はAnthropicAIモデルによるテキスト要約を導入し、MsWorks形式のサポートを追加し、タイポグラフィ制御を強化し、PDF構造とリストの処理を改善します。
+
+Aspose.Words25.3AIを使用した文法チェッカーとフォントの選択をUpdateAmbiguousTextFontプロパティで強化し、PDF添付ファイルのエクスポートを改善しました。
+
+Aspose.Words25.4は新しい用紙サイズのサポートを導入し、高度なHTMLエクスポート制御を有効にし、透かしの処理を改善します。
 
 ### AI搭載の機能
 
-#### 文書AI文法チェック <sup>25.1</sup>
+#### 文書AI文法チェック
 
-新しい[check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/)メソッドを追加することにより、OpenAI生成モデルを使用して提供された文書の文法をチェックする機能が導入されました。
+* OpenAI生成モデルを使用して提供された文書の文法をチェックする機能は、新しい[check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/)メソッドを追加することによって導入されました。 <sup>25.1</sup>
+* AIを使用した文法チェック機能が更新され、[AiModelType](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodeltype/)列挙体で使用可能なすべてのモデルがサポートされました。 <sup>25.3</sup>
 
-#### 人類的生成言語モデルを用いた要約 <sup>25.2</sup>
+#### Anthropic生成言語モデルを使用した要約 <sup>25.2</sup>
 
-新しいパブリッククラス[AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/)を導入することにより、人類生成言語モデルを使用したテキスト要約が可能になりました。
+新しいパブリッククラス[AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/)を導入することにより、Anthropic生成言語モデルを使用したテキスト要約が可能になりました。
 
 ### サポートされている形式 <sup>25.2</sup>
 
@@ -49,10 +56,24 @@ Aspose.Words25.2は、AnthropicAIモデルによるテキスト要約を導入�
 
 [number_spacing](https://reference.aspose.com/words/python-net/aspose.words/font/number_spacing/)プロパティは、タイポグラフィ制御を改善するために追加されました。
 
+#### あいまいな文字のフォント選択の制御 <sup>25.3</sup>
+
+新しいパブリックプロパティ[update_ambiguous_text_font](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/update_ambiguous_text_font/)が[SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/)クラスに追加され、使用される文字コードに従ってフォントの選択を制御します。
+
+#### 用紙サイズオプション <sup>25.4</sup>
+
+JISB4とJISB5用紙サイズを使用する機能は、[PaperSize](https://reference.aspose.com/words/python-net/aspose.words/papersize/)列挙体に新しい値を追加することによって導入されました。
+
+#### HTML出力制御 <sup>25.4</sup>
+
+HTMLエクスポート中にJavaScriptをハイパーリンクURLsから削除する機能は、[RemoveJavaScriptFromLinks](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/remove_java_script_from_links/)プロパティを追加することによって導入されました。
+
 ### その他
 
 * PDF論理構造が改善され、TOA、BIBLIOGRAPHY、INDEXフィールドがサポートされました。 <sup>25.2</sup>
 * リストの処理を改善するために[add_single_level_list](https://reference.aspose.com/words/python-net/aspose.words.lists/listcollection/add_single_level_list/#listtemplate)メソッドが導入されました。 <sup>25.2</sup>
+* PDF添付ファイルのエクスポートを改善するために**EmbedAttachments**を置き換える新しいプロパティ[attachments_embedding_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/attachments_embedding_mode/)が追加されました。 また、PDF/Aバージョンの添付ファイルをサポートするために、[PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/)列挙体に新しい値が追加されました。 さらに、添付ファイルは暗号化でサポートされるようになりました。 <sup>25.3</sup>
+* ストリームから画像の透かしを設定する機能は、[SetImage](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_image/#bytesio_imagewatermarkoptions)メソッドに新しいオーバーロードを追加することによって導入されました。 <sup>25.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,15 +81,19 @@ Aspose.Words25.2は、AnthropicAIモデルによるテキスト要約を導入�
 
 詳細については、こちらをご覧ください [Aspose.WordsのためのPython via .NET 25.2リリースノート](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
+詳細については、こちらをご覧ください [Aspose.WordsのためのPython via .NET 25.3リリースノート](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-3-release-notes/).
+
+詳細については、こちらをご覧ください [Aspose.WordsのためのPython via .NET 25.4リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-4-release-notes/).
+
 {{% /alert %}}
 
 ## .NET 経由の Python の Aspose.Words 24.9、24.10、24.11、24.12
 
 Aspose.Words24.9はDocumentBuilderを介してgroup shape挿入とStructuredDocumentTag挿入を導入し、目盛りによる放射状チャートレンダリングを強化し、XAdES-EPESサポートによるデジタル署名を改善し、Markdown下線認識を追加し、脚注/文末脚注セパレータへのアクセスを提供します。
 
-Aspose.Words24.10は、CommandButtonの作成、新しい形状の可視性コントロール、group shapesへの機能、テーブルの改善されたMarkdownエクスポート、PieとDoughnutチャートのチャートフォーマット、より良いBig5エンコーディング処理、古い台湾のフォントのサポートにより、ActiveXコントロールのサポートが強化されています。
+Aspose.Words24.10はCommandButton作成による強化されたActiveXコントロールサポート、新しい形状の可視性コントロール、group shapesへの機能、テーブルの改善されたMarkdownエクスポート、PieとDoughnutチャートのチャー
 
-Aspose.Words24.11では、AIを使用したドキュメントの要約、強化されたレンダリングオプション、ドキュメントプロパティへのアクセスの改善、ActiveXコントロー
+Aspose.Words24.11はAIを活用した文書の要約、強化されたレンダリングオプション、文書のプロパティへのアクセスの改善、ActiveXコントロールキャプションを導入します。Aspose.Words24.11はAI
 
 Aspose.Words24.12では、カスタマイズ可能なデータラベルの配置、GoogleAIによるテキスト翻訳、および強化された新しいLowCode処理クラスが導入されました。
 
@@ -94,7 +119,7 @@ Googleの生成言語モデルを使用してテキストを翻訳する機能�
 
 #### CommandButtonActiveXコントロール <sup>24.10</sup>
 
-新しいパブリックメソッド[insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/)と新しいパブリッククラス[Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/)を追加することにより、CommandButtonActiveXコントロールを作成する機能が導入されました。
+CommandButtonActiveXコントロールを作成する機能は、新しいパブリックメソッド[insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/)と新しいパブリッククラス[Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/)を追加することによって導入されました。
 
 #### 形状の可視性を制御する <sup>24.10</sup>
 
@@ -149,7 +174,7 @@ PDFエクスポートは、テーブルタイトルプロパティをPDF論理�
 * TrueTypecmapテーブルのbig5エンコード処理が改善されました。 <sup>24.10</sup>
 * 古い台湾語フォントのサポートが強化されました。 <sup>24.10</sup>
 * 拡張ドキュメントプロパティにアクセスするために、読み取り専用プロパティが[BuiltInDocumentProperties](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/)クラスに追加されました。 <sup>24.11</sup>
-* ActiveXコントロールのキャプションの設定は、[Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/)プロパティに新しいパブリックセッターを追加することで有効になりました。 <sup>24.11</sup>
+* ActiveXコントロールのキャプションの設定は、[Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/)プロパティに新しいpublicセッターを追加することで有効になりました。 <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
@@ -169,7 +194,7 @@ Aspose.Words24.5アセンブリのオプションを展開し、レンダリン�
 
 Aspose.Words24.6レンダリングオプションが改善され、検索と比較機能が強化され、他のいくつかの機能が拡張されました。
 
-Aspose.Words24.7ActiveXの操作方法を変更し、レンダリング機能を拡張し、Markdown形式とXLSX形式にエクスポートします。
+Aspose.Words24.7はActiveXの操作方法を変更し、レンダリング機能を拡張し、Markdown形式とXLSX形式にエクスポートします。
 
 Aspose.Words24.8軸ラベルを正確に制御してグラフのカスタマイズを強化し、フォント管理を拡張し、文書構造の処理を改善し、HTML/XAMLエクスポート、PDF機能、文書変換、デジタ
 
@@ -204,7 +229,7 @@ Aspose.Words24.8軸ラベルを正確に制御してグラフのカスタマイ�
 #### ActiveXでの作業の変更点 <sup>24.7</sup>
 
 - ActiveXオブジェクトのプロパティを変更できるようになり、その動作をより詳細に制御できるようになりました。
-- 動的相互作用を有効にするために、ラジオボタンのActiveXコントロールの値を変更する機能が追加されました。
+- ラジオボタンActiveXコントロールの値を変更して動的相互作用を有効にする機能が追加されました。
 - ActiveXcheckboxを"checked"または"unchecked"に切り替える機能が追加されました。
 
 #### チャート軸の目盛りラベルの向きと回転の制御 <sup>24.8</sup>

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Перекласти документ
 second_title: Aspose.Words для Python via .NET
 articleTitle: Перекласти документ
@@ -6,6 +6,8 @@ linktitle: Перекласти документ
 type: docs
 weight: 30
 description: "Перекладіть документ. Aspose.Words для Python спрощує Переклад документів за допомогою моделей Google AI, дозволяючи вказати мову перекладу."
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /uk/python-net/translate-a-document/
 timestamp: 2025-01-15-16-40-05
 ---

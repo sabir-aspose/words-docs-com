@@ -1,4 +1,4 @@
-﻿---
+---
 title: Menerjemahkan Dokumen
 second_title: Aspose.Words untuk .NET
 articleTitle: Menerjemahkan Dokumen
@@ -6,6 +6,8 @@ linktitle: Menerjemahkan Dokumen
 type: docs
 weight: 30
 description: "Terjemahkan dokumen. Aspose.Words untuk .NET menyederhanakan terjemahan dokumen menggunakan model Google AI, memungkinkan Anda menentukan bahasa target."
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /id/net/translate-a-document/
 timestamp: 2024-12-13-06-40-00
 ---
@@ -16,16 +18,7 @@ Gunakan metode [Translate](https://reference.aspose.com/words/net/aspose.words.a
 
 Contoh kode berikut menunjukkan cara menggunakan model *Gemini 1.5 Flash* dalam Aspose.Words untuk menerjemahkan dokumen ke dalam bahasa Arab:
 
-{{< highlight csharp >}}
-Document doc = new Document(MyDir + "Document.docx");
-
-string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-// Use Google generative language models.
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gemini15Flash).WithApiKey(apiKey);
-
-Document translatedDoc = model.Translate(doc, Language.Arabic);
-translatedDoc.Save(ArtifactsDir + "AI.AiTranslate.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "ea14b3e44c0233eecd663f783a21c4f6" "ai-translate.cs" >}}
 
 {{% alert color="primary" %}}
 

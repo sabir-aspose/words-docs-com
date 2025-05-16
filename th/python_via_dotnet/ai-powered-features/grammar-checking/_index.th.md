@@ -1,18 +1,20 @@
-﻿---
+---
 title: AIการตรวจสอบไวยากรณ์
 second_title: Aspose.WordsสำหรับPython via .NET
 articleTitle: การตรวจสอบไวยากรณ์
 linktitle: การตรวจสอบไวยากรณ์
 type: docs
 weight: 40
-description: "ตรวจสอบไวยากรณ์เอกสาร Aspose.WordsสำหรับPython อนุญาตให้ผู้ใช้สามารถตรวจสอบไวยากรณ์และตรวจจับข้อผิดพลาดในเอกสารโดยใช้รุ่นOpenAI."
+description: "ตรวจสอบไวยากรณ์เอกสาร Aspose.WordsสำหรับPython อนุญาตให้ผู้ใช้ตรวจสอบไวยากรณ์และตรวจจับข้อผิดพลาดในเอกสารโดยใช้รุ่นOpenAIกูเกิลและClaude."
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /th/python-net/grammar-checking/
-timestamp: 2025-01-15-16-40-05
+timestamp: 2025-03-17-19-00-00
 ---
 
 การตรวจสอบไวยากรณ์ในเอกสารเป็นสิ่งสำคัญเพื่อให้แน่ใจว่าชัดเจนความเป็นมืออาชีพและความถูกต้อง เอกสารที่เขียนได้ดีทำให้เกิดความประทับใจในเชิงบวกและหลีกเลี่ยงความเข้าใจผิด การตรวจสอบไวยากรณ์ช่วยระบุและแก้ไขข้อผิดพลาดได้อย่างรวดเร็วช่วยประหยัดเวลาและปรับปรุงคุณภาพ.
 
-Aspose.Wordsช่วยให้ผู้ใช้สามารถตรวจสอบไวยากรณ์และตรวจจับข้อผิดพลาดในเอกสารโดยใช้แบบจำลอง**OpenAI** ใช้วิธีการ[CheckGrammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/#document_checkgrammaroptions)ที่มีอยู่ในเนมสเปซ[Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) **CheckGrammar**วิเคราะห์ข้อความในเอกสารและเน้นปัญหาทางไวยากรณ์.
+Aspose.Wordsอนุญาตให้ผู้ใช้ตรวจสอบไวยากรณ์และตรวจจับข้อผิดพลาดในเอกสารโดยใช้ครอบครัวOpenAI,กูเกิล,และClaudeรุ่นที่ระบุไว้ในการแจงนับ[AiModelType](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodeltype/) ใช้วิธีการ[CheckGrammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/#document_checkgrammaroptions)ที่มีอยู่ในเนมสเปซ[Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) **CheckGrammar**วิเคราะห์ข้อความในเอกสารและเน้นปัญหาทางไวยากรณ์.
 
 ตัวอย่างรหัสต่อไปนี้แสดงวิธีใช้GPT-4o miniรุ่นในAspose.Wordsเพื่อตรวจสอบไวยากรณ์:
 

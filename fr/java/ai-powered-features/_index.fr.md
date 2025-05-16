@@ -1,4 +1,4 @@
-﻿---
+---
 title: AI - Fonctionnalités alimentées
 second_title: Aspose.Words pour Java
 articleTitle: AI - Fonctionnalités alimentées
@@ -6,8 +6,10 @@ linktitle: AI - Fonctionnalités alimentées
 type: docs
 weight: 25
 description: "Aspose.Words pour Java introduit des outils alimentés par AI comme la synthèse de documents pour améliorer l'efficacité. Apprenez à utiliser les fonctionnalités alimentées par AI avec des astuces et des conseils détaillés."
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /fr/java/ai-powered-features/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
 Aspose.Words inclut désormais des fonctionnalités alimentées par AI conçues pour rendre le traitement des documents plus intelligent et plus efficace. Ces outils exploitent l'apprentissage automatique avancé pour effectuer des tâches telles que la synthèse de documents, offrant aux développeurs des fonctionnalités plus puissantes pour rationaliser leurs flux de travail.
@@ -16,4 +18,5 @@ Dans cette section, nous couvrirons tout ce que vous devez savoir sur l'utilisat
 
 * [Modèles AI pris en charge](/words/java/supported-ai-models/)
 * [Résumer un document](/words/java/summarize-a-document/)
-
+* [Traduire un Document](/words/java/translate-a-document/)
+* [Vérification Grammaticale](/words/java/grammar-checking/)
