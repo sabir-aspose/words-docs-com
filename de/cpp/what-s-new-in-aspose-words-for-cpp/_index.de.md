@@ -6,27 +6,40 @@ linktitle: Was ist neu in Aspose.Words für C++
 type: docs
 description: "Aspose.Words für C++ erweitert und verbessert sich täglich. Auf dieser Seite erfahren Sie mehr über die großen und interessantesten Funktionen des Produkts."
 weight: 2
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /de/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2025-03-09-12-38-00
+timestamp: 2025-04-15-08-02-05
 ---
 
 Diese Seite beschreibt die interessantesten neuen Aspose.Words Funktionen, die in den letzten Versionen eingeführt wurden.
 
-## Aspose.Words für C++ 25.1, 25.2
+## Aspose.Words für C++ 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 führt eine AI-basierte Grammatikprüfung ein und verbessert das Speichern von Dokumenten mit erweiterten Optionen für die Formate HTML, SVG und Markdown.
 
-Aspose.Words 25.2 führt die Textzusammenfassung mit anthropischen AI-Modellen ein, fügt MsWorks-Formatunterstützung hinzu, verbessert die typografische Steuerung und verbessert die PDF-Struktur und die Listenbehandlung.
+Aspose.Words 25.2 führt die Textzusammenfassung mit Anthropic AI-Modellen ein, fügt MsWorks-Formatunterstützung hinzu, verbessert die typografische Steuerung und verbessert die PDF-Struktur und die Listenbehandlung.
+
+Aspose.Words 25.3 verbessert eine AI-basierte Grammatikprüfung und Schriftauswahl mit der UpdateAmbiguousTextFont-Eigenschaft sowie den Export von PDF-Anhängen.
+
+Aspose.Words 25.4 bietet Unterstützung für neue Papierformate, ermöglicht eine erweiterte HTML Exportkontrolle, verbessert die Handhabung von Wasserzeichen und verbessert die Benutzerfreundlichkeit von LowCode API.
 
 ### AI-betriebene Funktionen
 
-#### Dokument AI Grammatikprüfung <sup>25.1</sup>
+#### Dokument AI Grammatikprüfung
 
-Die Möglichkeit, die Grammatik des bereitgestellten Dokuments mithilfe generativer OpenAI -Modelle zu überprüfen, wurde durch Hinzufügen einer neuen [CheckGrammar](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/checkgrammar/) -Methode eingeführt.
+* Die Möglichkeit, die Grammatik des bereitgestellten Dokuments mithilfe generativer OpenAI -Modelle zu überprüfen, wurde durch Hinzufügen einer neuen [CheckGrammar](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/checkgrammar/) -Methode eingeführt. <sup>25.1</sup>
+* Die AI-basierte Grammatikprüfungsfunktion wurde aktualisiert, um alle in der [AiModelType](https://reference.aspose.com/words/cpp/aspose.words.ai/aimodeltype/) -Aufzählung verfügbaren Modelle zu unterstützen. <sup>25.3</sup>
 
-#### Zusammenfassung mit anthropischen generativen Sprachmodellen <sup>25.2</sup>
+#### Zusammenfassung mit Anthropic generativen Sprachmodellen <sup>25.2</sup>
 
-Die Textzusammenfassung mit anthropischen generativen Sprachmodellen wurde durch die Einführung einer neuen öffentlichen Klasse [AnthropicAiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/) ermöglicht.
+Die Textzusammenfassung mit Anthropic generativen Sprachmodellen wurde durch die Einführung einer neuen öffentlichen Klasse [AnthropicAiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/) ermöglicht.
+
+### Low Code
+
+#### Low Code API Benutzerfreundlichkeit <sup>25.4</sup>
+
+Die Benutzerfreundlichkeit von **LowCode API** wurde erheblich verbessert, wodurch die Dokumentenverarbeitung vereinfacht und der Bedarf an sich wiederholendem Code verringert wird.
 
 ### Unterstützte Formate <sup>25.2</sup>
 
@@ -42,6 +55,7 @@ Das Speichern in den Formaten HTML und SVG wurde verbessert, indem den Klassen [
 
 - Der Klasse [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) wurde eine neue Option [ImageResolution](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_imageresolution/) hinzugefügt, um die Bildauflösung festzulegen.
 - Eine neue [OfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_officemathexportmode/) -Option und [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownofficemathexportmode/) -Aufzählung wurden der [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) -Klasse hinzugefügt, um den OfficeMath -Ausgabemodus festzulegen.
+- Die Möglichkeit, ein Bildwasserzeichen aus einem Stream zu setzen, wurde eingeführt, indem der [SetImage](https://reference.aspose.com/words/cpp/aspose.words/watermark/setimage/#watermarksetimageconst-systemsharedptrsystemiostream-const-systemsharedptrasposewordsimagewatermarkoptions-method) -Methode eine neue Überladung hinzugefügt wurde. <sup>25.4</sup>
 
 ### Rendering
 
@@ -49,10 +63,23 @@ Das Speichern in den Formaten HTML und SVG wurde verbessert, indem den Klassen [
 
 Die Eigenschaft [NumberSpacing](https://reference.aspose.com/words/cpp/aspose.words/font/get_numberspacing/) wurde für eine verbesserte typografische Kontrolle hinzugefügt.
 
+#### Steuern der Schriftauswahl für mehrdeutige Zeichen <sup>25.3</sup>
+
+Der Klasse [SaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/) wurde eine neue öffentliche Eigenschaft [UpdateAmbiguousTextFont](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_updateambiguoustextfont/) hinzugefügt, um die Schriftauswahl entsprechend dem verwendeten Zeichencode zu steuern.
+
+#### Optionen für das Papierformat <sup>25.4</sup>
+
+Die Möglichkeit, die Papierformate JIS B4 und JIS B5 zu verwenden, wurde eingeführt, indem der [PaperSize](https://reference.aspose.com/words/cpp/aspose.words/papersize/)-Aufzählung neue Werte hinzugefügt wurden.
+
+#### HTML Ausgabesteuerung <sup>25.4</sup>
+
+Die Möglichkeit, JavaScript während des HTML-Exports aus dem Hyperlink URLs zu entfernen, wurde durch Hinzufügen der Eigenschaft [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/cpp/aspose.words.saving/htmlsaveoptions/get_removejavascriptfromlinks/) eingeführt.
+
 ### Andere
 
-- PDF logische Struktur wurde mit Unterstützung für TOA, BIBLIOGRAPHY und INDEX Felder verbessert. <sup>25.2</sup>
-- Die [AddSingleLevelList](https://reference.aspose.com/words/cpp/aspose.words.lists/listcollection/addsinglelevellist/) -Methode wurde für eine verbesserte Listenbehandlung eingeführt. <sup>25.2</sup>
+* PDF logische Struktur wurde mit Unterstützung für TOA, BIBLIOGRAPHY und INDEX Felder verbessert. <sup>25.2</sup>
+* Die [AddSingleLevelList](https://reference.aspose.com/words/cpp/aspose.words.lists/listcollection/addsinglelevellist/) -Methode wurde für eine verbesserte Listenbehandlung eingeführt. <sup>25.2</sup>
+* Eine neue Eigenschaft [AttachmentsEmbeddingMode](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_attachmentsembeddingmode/) wurde hinzugefügt, um **EmbedAttachments** zu ersetzen, um den Export von PDF-Anhängen zu verbessern. Außerdem wurden der [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfcompliance/) -Aufzählung neue Werte hinzugefügt, um Anhänge der PDF/A -Version zu unterstützen. Außerdem werden Anhänge jetzt mit Verschlüsselung unterstützt. <sup>25.3</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,31 +87,35 @@ Erfahren Sie mehr über [Aspose.Words für C++ 25.1 Versionshinweise](https://re
 
 Erfahren Sie mehr über [Aspose.Words für C++ 25.2 Versionshinweise](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-2-release-notes/).
 
+Erfahren Sie mehr über [Aspose.Words für C++ 25.3 Versionshinweise](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-3-release-notes/).
+
+Erfahren Sie mehr über [Aspose.Words für C++ 25.4 Versionshinweise](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-4-release-notes/).
+
 {{% /alert %}}
 
 ## Aspose.Words für C++ 24.9, 24.10, 24.11, 24.12
 
-Aspose.Words 24.9 führt die Einfügung von group shape und StructuredDocumentTag über DocumentBuilder ein, verbessert die Darstellung von Radialdiagrammen mit Abstufungen, verbessert die digitalen Signaturen mit XAdES-EPES unterstützung, fügt Markdown Unterstreichungserkennung hinzu und bietet Zugriff auf Fußnoten-/ Endnotentrennzeichen.
+Aspose.Words 24.9 führt die Einfügung von group shape und StructuredDocumentTag über DocumentBuilder ein, verbessert die Darstellung von Radialdiagrammen mit Graduierungen, verbessert digitale Signaturen mit XAdES-EPES-Unterstützung, fügt die Unterstreichungserkennung von Markdown hinzu und bietet Zugriff auf Fußnoten-/Endnotentrennzeichen.
 
-Aspose.Words 24.10 führt eine verbesserte ActiveX-Steuerelementunterstützung mit CommandButton-Erstellung, neuer Formsichtbarkeitssteuerung, der Möglichkeit, Formen zu gruppieren, verbesserten Markdown-Export für Tabellen, Diagrammformatierung für Kreis- und Ringdiagramme, bessere Big5-Kodierungshandhabung und Unterstützung für veraltete taiwanesische Schriftarten ein.
+Aspose.Words 24.10 führt eine erweiterte ActiveX-Steuerungsunterstützung mit CommandButton -Erstellung, eine neue Steuerung der Formsichtbarkeit, die Möglichkeit zu group shapes, einen verbesserten Markdown-Export für Tabellen, Diagrammformatierung für Pie- und Doughnut-Diagramme, eine bessere Big5-Codierungsbehandlung und Unterstützung für veraltete taiwanesische Schriftarten ein.
 
-Aspose.Words 24.11 führt die AI-basierte Dokumentzusammenfassung, erweiterte Renderoptionen, verbesserten Zugriff auf Dokumenteigenschaften und ActiveX-Steuerelementuntertitelung ein.
+Aspose.Words 24.11 führt die AI-basierte Dokumentzusammenfassung, erweiterte Renderoptionen, verbesserten Zugriff auf Dokumenteigenschaften und ActiveX-Steueruntertitelung ein.
 
-Aspose.Words 24.12 führt eine anpassbare Platzierung von Datenbeschriftungen, eine von Google AI unterstützte Textübersetzung, verbesserte Optionen zur Serienbriefbereinigung und neue LowCode-Verarbeitungsklassen ein.
+Aspose.Words 24.12 führt eine anpassbare Platzierung von Datenetiketten, eine von Google AI unterstützte Textübersetzung, erweiterte Mail Merge Bereinigungsoptionen und neue LowCode Verarbeitungsklassen ein.
 
 ### AI-betriebene Funktionen
 
 #### Dokumentzusammenfassung mit OpenAI und Google <sup>24.11</sup>
 
-Unterstützung für die Dokumentzusammenfassung mit generativen **OpenAI**- und **Google**-Sprachmodellen wurde integriert.
+Unterstützung für Dokumentzusammenfassungen mit generativen Sprachmodellen **OpenAI** und **Google** wurde integriert.
 
-#### Textübersetzung mit Googles generativen Sprachmodellen <sup>24.12</sup>
+#### Textübersetzung mit den generativen Sprachmodellen von Google <sup>24.12</sup>
 
-Die Möglichkeit, Text mit Googles generativen Sprachmodellen zu übersetzen, wurde in Aspose.Words implementiert, indem die Methode [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/) und die Aufzählung [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/) zum Namespace [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/) hinzugefügt wurden.
+Die Möglichkeit, Text mit den generativen Sprachmodellen von Google zu übersetzen, wurde in Aspose.Words implementiert, indem die [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/)-Methode und die [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/)-Aufzählung zum [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/)-Namespace hinzugefügt wurden.
 
 ### Low Code <sup>24.12</sup>
 
-Neue LowCode-Klassen wie [Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/cpp/aspose.words.lowcode/merger/), [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) usw. wurden eingeführt und bieten eine Reihe von Methoden, die die perfekte Balance zwischen Einfachheit und Flexibilität für die Dokumentenverarbeitung herstellen.
+Neue LowCode Klassen wie [Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/cpp/aspose.words.lowcode/merger/), [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) usw. wurde eingeführt und bietet eine Reihe von Methoden, die die perfekte Balance zwischen Einfachheit und Flexibilität für die Dokumentenverarbeitung finden.
 
 ### Rendern und Drucken
 
@@ -92,17 +123,17 @@ Neue LowCode-Klassen wie [Comparer](https://reference.aspose.com/words/cpp/aspos
 
 Die Darstellung von Abstufungen auf Radialdiagrammen wurde implementiert.
 
-#### CommandButton ActiveX-Steuerelemente <sup>24.10</sup>
+#### CommandButton ActiveX Bedienelemente <sup>24.10</sup>
 
 Die Möglichkeit, CommandButton ActiveX-Steuerelemente zu erstellen, wurde durch Hinzufügen einer neuen öffentlichen Methode [InsertForms2OleControl](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertforms2olecontrol/) und einer neuen öffentlichen Klasse **Forms2OleControl** eingeführt.
 
-#### Sichtbarkeit von Formen steuern <sup>24.10</sup>
+#### Sichtbarkeit der Form steuern <sup>24.10</sup>
 
 Eine neue öffentliche Eigenschaft [Hidden](https://reference.aspose.com/words/cpp/aspose.words.drawing/shapebase/get_hidden/) wurde hinzugefügt, um die Sichtbarkeit von Formen zu steuern.
 
-#### Änderungen in Kreis- und Ringdiagrammen <sup>24.10</sup>
+#### Änderungen in den Diagrammen Pie und Doughnut <sup>24.10</sup>
 
-Es wurden mehrere neue öffentliche Eigenschaften hinzugefügt, um Kreis- und Ringdiagramme zu formatieren.
+Dem Formatieren von Pie- und Doughnut-Diagrammen wurden mehrere neue öffentliche Eigenschaften hinzugefügt.
 
 #### Steuern Sie das Rendern von PDF-Auswahlformularfeldrändern <sup>24.11</sup>
 
@@ -110,15 +141,15 @@ Eine neue Option zur Steuerung der Darstellung von PDF-Auswahlformularfeldrände
 
 #### Formatcodes für Diagrammdaten abrufen und festlegen <sup>24.11</sup>
 
-Die Möglichkeit, Formatcodes für Diagrammdaten abzurufen und festzulegen, wurde hinzugefügt, indem die Eigenschaft [FormatCode](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/get_formatcode/) in den Klassen [ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/) und [BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/) implementiert wurde.
+Die Möglichkeit, Formatcodes für Diagrammdaten abzurufen und festzulegen, wurde hinzugefügt, indem die Eigenschaft **FormatCode** in den Klassen [ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/) und [BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/) implementiert wurde.
 
 #### Histogrammdiagramme mit Bins und Beschriftungen rendern <sup>24.11</sup>
 
 Die Darstellung von Histogrammdiagrammen wurde verbessert, indem eine bestimmte Anzahl von Behältern und Beschriftungen zugelassen wurde.
 
-#### Platzierung von Datenbeschriftungen anpassen <sup>24.12</sup>
+#### Anpassen der Platzierung von Datenbeschriftungen <sup>24.12</sup>
 
-Die Möglichkeit, die Platzierung von Datenbeschriftungen anzupassen, wurde durch die Einführung neuer Eigenschaften in die Klassen [ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/) und [ChartDataLabelCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabelcollection/) hinzugefügt.
+Die Möglichkeit, die Platzierung von Datenbeschriftungen anzupassen, wurde hinzugefügt, indem den Klassen [ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/) und [ChartDataLabelCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabelcollection/) neue Eigenschaften hinzugefügt wurden.
 
 ### Dokumente konvertieren, laden und speichern
 
@@ -126,34 +157,34 @@ Die Möglichkeit, die Platzierung von Datenbeschriftungen anzupassen, wurde durc
 
 Die Option, Unterstreichungsformatierungen beim Laden von Markdown-Dokumenten zu erkennen, wurde durch Hinzufügen einer neuen öffentlichen Eigenschaft **ImportUnderlineFormatting** integriert.
 
-#### Exportieren von Tabellen als HTML beim Speichern in Markdown <sup>24.10</sup>
+#### Tabellen beim Speichern in Markdown als HTML exportieren <sup>24.10</sup>
 
-Eine Option zum Exportieren von Tabellen als HTML beim Speichern von Dokumenten im Markdown-Format wurde durch Hinzufügen einer neuen öffentlichen Eigenschaft [ExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_exportashtml/) und einer Aufzählung [MarkdownExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownexportashtml/) implementiert.
+Eine Option zum Exportieren von Tabellen als HTML beim Speichern von Dokumenten im Markdown-Format wurde implementiert, indem eine neue öffentliche Eigenschaft [ExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_exportashtml/) und eine Aufzählung [MarkdownExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownexportashtml/) hinzugefügt wurden.
 
 #### Export PDF mit aktualisierter logischer Struktur <sup>24.11</sup>
 
 Der PDF-Export wurde verbessert, indem Tabellentiteleigenschaften als Titel für logische PDF-Strukturelemente aufgenommen wurden.
 
-### Serienbrief und Berichterstellung
+### Mail Merge und Berichterstattung
 
-#### Leere Tabellen während des Serienbriefs entfernen <sup>24.12</sup>
+#### Leere Tabellen während Mail Merge entfernen <sup>24.12</sup>
 
-Der Aufzählung [MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/) wurde eine neue Option **RemoveEmptyTables** hinzugefügt, um die Serienbriefausgabe zu verfeinern.
+Der [MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/)-Aufzählung wurde eine neue **RemoveEmptyTables**-Option hinzugefügt, um die Mail Merge-Ausgabe zu verfeinern.
 
 ### Digitale Signaturen
 
-#### Dokumente signieren mit XAdES-EPES <sup>24.9</sup>
+#### Dokumente mit XAdES-EPES signieren <sup>24.9</sup>
 
-Die Möglichkeit, Dokumente mit zu signieren XAdES-EPES Signaturen der Ebene XML - DSig wurden eingeführt, indem eine neue öffentliche Eigenschaft **XmlDsigLevel** und eine neue öffentliche Aufzählung **XmlDsigLevel** hinzugefügt wurden.
+Die Möglichkeit, Dokumente mit XAdES-EPES Level XML-DSig Signaturen zu signieren, wurde eingeführt, indem eine neue öffentliche Eigenschaft **XmlDsigLevel** und eine neue öffentliche Aufzählung **XmlDsigLevel** hinzugefügt wurden.
 
 ### Andere
 
 * Eine neue öffentliche Methode [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/) wurde zu group shapes hinzugefügt. <sup>24.9</sup>
 * Eine neue öffentliche Methode [InsertStructuredDocumentTag](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertstructureddocumenttag/) wurde hinzugefügt, um **StructuredDocumentTags** in ein Dokument einzufügen. <sup>24.9</sup>
 * Der öffentliche Zugriff auf Fußnoten- / Endnotentrennzeichen wurde durch Hinzufügen einiger öffentlicher Klassen und Eigenschaften ermöglicht. <sup>24.9</sup>
-* Die Möglichkeit, einzelne Formen zu gruppieren, Formen zusammen zu gruppieren und sowohl Formen als auch Gruppen direkt zu gruppieren, wurde durch Hinzufügen der Methode [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/) eingeführt. <sup>24.10</sup>
-* Die Big5-Kodierungsbehandlung für TrueType-Cmap-Tabellen wurde verbessert. <sup>24.10</sup>
-* Die Unterstützung für veraltete taiwanesische Schriftarten wurde erweitert. <sup>24.10</sup>
+* Die Möglichkeit, einzelne Formen group shapes zu gruppieren und sowohl Formen als auch group shapes direkt zu gruppieren, wurde durch Hinzufügen der [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/) -Methode eingeführt. <sup>24.10</sup>
+* Die Handhabung der Big5-Codierung für TrueType cmap-Tabellen wurde verbessert. <sup>24.10</sup>
+* Die Unterstützung für veraltete taiwanesische Schriftarten wurde verbessert. <sup>24.10</sup>
 * Um auf erweiterte Dokumenteigenschaften zuzugreifen, wurden der Klasse **BuiltInDocumentProperties** schreibgeschützte Eigenschaften hinzugefügt. <sup>24.11</sup>
 * Das Festlegen von Beschriftungen für ActiveX-Steuerelemente wurde aktiviert, indem der Eigenschaft **Forms2OleControl.Caption** ein neuer öffentlicher Setter hinzugefügt wurde. <sup>24.11</sup>
 
@@ -175,7 +206,7 @@ Aspose.Words 24.5 erweitert die Optionen für Assemblys, verbessert die Renderfu
 
 Aspose.Words 24.6 verbessert die Renderoptionen, erweitert die Such- und Vergleichsfunktionen und erweitert mehrere andere Funktionen.
 
-Aspose.Words 24.7 ändert die Art und Weise, wie Sie mit ActiveX arbeiten, erweitert die Renderfunktionen sowie den Export in die Formate Markdown und XLSX.
+Aspose.Words 24.7 ändert die Arbeitsweise mit ActiveX, erweitert die Renderfunktionen sowie den Export in die Formate Markdown und XLSX.
 
 ### Unterstützte Formate
 
@@ -183,9 +214,9 @@ Ab Version 24.7 wird der Export nach PDF/UA-2 unterstützt, um die Zugänglichke
 
 ### Rendern und Drucken
 
-#### Änderungen in Diagrammen, Formen und Zeichnungsml <sup>24.5</sup>
+#### Änderungen in Diagrammen, Formen und DrawingML <sup>24.5</sup>
 
-- Das Rendern von DrawingML-Effekten für SVG -Grafiken wurde implementiert, um die bisherige Funktionalität zu erweitern, die auf Bilder beschränkt war.
+- DrawingML Effektrendering für SVG Grafiken, das die bisherige, auf Bilder beschränkte Funktionalität erweitert, wurde implementiert.
 - Unterstützung für das Erstellen von Kombinationsdiagrammen und das Anpassen von Eigenschaften wie Spaltenbreite, Überlappung und Blasenskalierung innerhalb von Reihengruppen wurde eingeführt, indem die Klassen **ChartSeriesGroup** und **ChartSeriesGroupCollection** sowie die Eigenschaft **SeriesGroups** hinzugefügt wurden.
 - Die Funktionalität zum Manipulieren des SoftEdge -Effekts von Formen wurde durch Hinzufügen der **SoftEdgeFormat** -Klasse implementiert.
 - Die Möglichkeit, Anpassungswerte von Formen zu ändern, wurde durch Hinzufügen der öffentlichen Klassen **AdjustmentCollection** und **Adjustment** und der Eigenschaft **Adjustments** implementiert.
@@ -208,8 +239,8 @@ Ein Setter für die öffentliche Eigenschaft [CustomNumberStyleFormat](https://r
 #### Änderungen bei der Arbeit mit ActiveX <sup>24.7</sup>
 
 - Die Eigenschaften von ActiveX-Objekten können jetzt geändert werden, sodass Sie mehr Kontrolle über ihr Verhalten haben.
-- Die Möglichkeit, den Wert des Optionsfelds ActiveX Control zu ändern, um eine dynamische Interaktion zu ermöglichen, wurde hinzugefügt.
-- Die Möglichkeit, ein ActiveX-Kontrollkästchen auf "aktiviert" oder "deaktiviert" umzuschalten, wurde hinzugefügt.
+- Die Möglichkeit, den Wert des Optionsfelds ActiveX zu ändern, um eine dynamische Interaktion zu ermöglichen, wurde hinzugefügt.
+- Die Möglichkeit, eine ActiveX checkbox auf "aktiviert" oder "deaktiviert" umzuschalten, wurde hinzugefügt.
 
 ### Laden und Speichern von Dokumenten
 
@@ -257,7 +288,7 @@ Aspose.Words 24.4 verbessert einige Renderoptionen sowie die Arbeit mit digitale
 
 Die Klasse [Stroke](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/) wurde um eine Reihe neuer öffentlicher Eigenschaften erweitert, die sich auf die Verwaltung von Strichfarben beziehen: [ForeThemeColor](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/get_forethemecolor/) und [BackThemeColor](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/get_backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/get_foretintandshade/) und [BackTintAndShade](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/get_backtintandshade/).
 
-#### Zeichnungml Charts API Erweiterung <sup>24.2 / 24.3 / 24.4</sup>
+#### DrawingML Diagramme API Erweiterung <sup>24.2 / 24.3 / 24.4</sup>
 
 Die **DrawingML Charts API** wird weiterhin erweitert.
 
@@ -312,7 +343,7 @@ Aspose.Words 23.12 führt neue Eigenschaften und Aufzählungen für die Arbeit m
 
 ### Rendern und Drucken
 
-#### Anpassen von Achsentiteln in DrawingML-Diagrammen <sup>23.9</sup>
+#### Achsentitel in DrawingML-Diagrammen anpassen <sup>23.9</sup>
 
 Die Möglichkeit, Achsentitel in DrawingML-Diagrammen anzupassen, wurde durch die Implementierung einer neuen öffentlichen Klasse **ChartAxisTitle** und [Title](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxis/get_title/) eingeführt.
 
@@ -332,9 +363,9 @@ Die Funktionalität der Klassen [ChartDataPointCollection](https://reference.asp
 
 Eine einfache Möglichkeit, ein Bild automatisch anzupassen und in eine bestimmte Form einzupassen, wurde durch die neue [FitImageToShape](https://reference.aspose.com/words/cpp/aspose.words.drawing/imagedata/fitimagetoshape/) -Methode bereitgestellt.
 
-#### Standardschriftartformatierung für DrawingML-Diagrammlegenden-Einträge <sup>23.11</sup>
+#### Standardschriftartformatierung für DrawingML Diagrammlegenden-Einträge <sup>23.11</sup>
 
-Die Möglichkeit, Standardschriftformatierungen für Legendeneinträge von DrawingML-Diagrammen festzulegen, wurde über die Eigenschaft [Font](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartlegend/get_font/) hinzugefügt. Diese Funktion ermöglicht ein schlankeres und einheitlicheres Erscheinungsbild für Diagrammelemente und verbessert die Gesamtästhetik des Dokuments.
+Die Möglichkeit, die Standardschriftformatierung für Legendeneinträge von DrawingML-Diagrammen festzulegen, wurde über die Eigenschaft [Font](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartlegend/get_font/) hinzugefügt. Diese Funktion ermöglicht ein schlankeres und einheitlicheres Erscheinungsbild für Diagrammelemente und verbessert die Gesamtästhetik des Dokuments.
 
 #### Seitenlayout beim Öffnen von PDF in Reader angeben <sup>23.12</sup>
 

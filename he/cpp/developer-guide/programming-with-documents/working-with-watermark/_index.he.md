@@ -1,4 +1,4 @@
-﻿---
+---
 title: עבודה עם סימן מים ב C++
 second_title: Aspose.Words עבור C++
 articleTitle: עבודה עם סימן מים
@@ -6,11 +6,21 @@ linktitle: עבודה עם סימן מים
 type: docs
 description: "מסמך מניפולציה סימן מים באמצעות C++."
 weight: 340
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /he/cpp/working-with-watermark/
-timestamp: 2024-01-30-16-22-34
+timestamp: 2025-05-07-07-22-34
 ---
 
 נושא זה דן כיצד לעבוד באופן פרוגרמטי עם סימן מים באמצעות Aspose.Words. סימן מים הוא תמונת רקע המוצגת מאחורי הטקסט במסמך. סימן מים יכול להכיל טקסט או תמונה המיוצגת על ידי הכיתה [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/).
+
+{{% alert color="primary" %}}
+
+**נסה באינטרנט**
+
+אתה יכול לנסות את הפונקציונליות הזו עם שלנו [סימן מים למסמכים מקוונים בחינם](https://products.aspose.app/words/watermark).
+
+{{% /alert %}}
 
 ## הוסף סימן מים למסמך
 
@@ -28,7 +38,11 @@ timestamp: 2024-01-30-16-22-34
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cpp" >}}
 
-ניתן להכניס את סימן המים גם באמצעות מחלקת צורה. קל מאוד להכניס כל צורה או תמונה לכותרת עליונה או תחתונה וכך ליצור סימן מים מכל סוג שניתן להעלות על הדעת. דוגמת הקוד הבאה מכניסה סימן מים למסמך Word.
+ניתן להוסיף סימן מים לתמונה כתמונה, מחרוזת או זרם.
+
+ניתן להכניס את סימן המים גם באמצעות מחלקת צורה. קל מאוד להכניס כל צורה או תמונה לכותרת עליונה או תחתונה וכך ליצור סימן מים מכל סוג שניתן להעלות על הדעת.
+
+דוגמת הקוד הבאה מכניסה סימן מים למסמך Word.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Images-AddWatermark-AddWatermark.cpp" >}}
 

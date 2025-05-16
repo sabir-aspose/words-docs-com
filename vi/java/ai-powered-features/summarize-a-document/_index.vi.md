@@ -1,20 +1,22 @@
-﻿---
+---
 title: Tóm tắt Một Tài liệu
 second_title: Aspose.Words cho Java
 articleTitle: Tóm tắt Một Tài liệu
 linktitle: Tóm tắt Một Tài liệu
 type: docs
 weight: 20
-description: "Tóm tắt một tài liệu. Aspose.Words cho Java đơn giản hóa việc tóm tắt tài liệu bằng cách sử dụng các mô hình OpenAI Và Google AI bằng cách cho phép bạn chỉ định độ dài tóm tắt."
+description: "Tóm tắt một tài liệu. Aspose.Words cho Java đơn giản hóa việc tóm tắt tài liệu bằng cách sử dụng Các mô hình OpenAI Và Google AI bằng cách cho phép bạn chỉ định độ dài tóm tắt."
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /vi/java/summarize-a-document/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
-Tóm tắt tài liệu là một công cụ có giá trị để xem xét nội dung, hiểu biết nhanh hoặc chuẩn bị tóm tắt. Aspose.Words hỗ trợ tóm tắt tài liệu bằng cách sử dụng các mô hình được hỗ trợ AI, giúp xử lý văn bản dài dễ dàng hơn. Tính năng này, có sẵn trong chức năng AI-based Aspose.Words, tích hợp các mô hình ngôn ngữ tạo nâng cao từ *OpenAI* và *Google*.
+Tóm tắt tài liệu là một công cụ có giá trị để xem xét nội dung, hiểu biết nhanh hoặc chuẩn bị tóm tắt. Aspose.Words hỗ trợ tóm tắt tài liệu bằng cách sử dụng các mô hình được hỗ trợ AI, giúp xử lý văn bản dài dễ dàng hơn. Tính năng này, có sẵn trong chức năng AI dựa trên Aspose.Words, tích hợp các mô hình ngôn ngữ tạo nâng cao từ *OpenAI* và *Google*, cũng như *Claude's* mô hình ngôn ngữ tạo nhân học. Danh sách các mô hình được hỗ trợ có sẵn trong bảng liệt kê [AiModelType](https://reference.aspose.com/words/java/com.aspose.words/aimodeltype/).
 
 Bạn có thể chỉ định các tùy chọn khác nhau để tóm tắt nội dung tài liệu. Sử dụng phương thức [Summarize](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#summarize-com.aspose.words.Document-com.aspose.words.SummarizeOptions) để tạo bản tóm tắt tài liệu của bạn. Bạn cũng có thể đặt độ dài tóm tắt bằng thuộc tính [SummaryLength](https://reference.aspose.com/words/java/com.aspose.words/summarizeoptions/#getSummaryLength).
 
-Với Aspose.Words, việc thực hiện tóm tắt tài liệu rất đơn giản. Ví dụ mã sau đây hiển thị nóng để tóm tắt tài liệu bằng cách sử dụng mô hình GPT-4o:
+Với Aspose.Words, việc thực hiện tóm tắt tài liệu rất đơn giản. Ví dụ mã sau đây cho thấy cách tóm tắt tài liệu bằng mô hình GPT-4o:
 
 {{< highlight java >}}
 Document firstDoc = new Document(getMyDir() + "Big document.docx");

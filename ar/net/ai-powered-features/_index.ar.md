@@ -1,13 +1,15 @@
-﻿---
+---
 title: AI - ميزات تعمل بالطاقة
 second_title: Aspose.Words ل .NET
 articleTitle: AI - ميزات تعمل بالطاقة
 linktitle: AI - ميزات تعمل بالطاقة
 type: docs
 weight: 35
-description: "Aspose.Words إلى عن على .NET يقدم أدوات تعمل بالطاقة AI مثل تلخيص المستندات لتعزيز الكفاءة. تعرف على كيفية استخدام الميزات التي تعمل بالطاقة AI مع النصائح والإرشادات التفصيلية."
+description: "Aspose.Words ل .NET يقدم أدوات تعمل بالطاقة AI مثل تلخيص المستندات لتعزيز الكفاءة. تعرف على كيفية استخدام الميزات التي تعمل بالطاقة AI مع النصائح والإرشادات التفصيلية."
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ar/net/ai-powered-features/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
 Aspose.Words يتضمن الآن ميزات تعمل بالطاقة AI مصممة لجعل معالجة المستندات أكثر ذكاء وكفاءة. تستفيد هذه الأدوات من التعلم الآلي المتقدم لأداء مهام مثل تلخيص المستندات، مما يوفر للمطورين قدرات أكثر قوة لتبسيط سير عملهم.
@@ -16,4 +18,5 @@ Aspose.Words يتضمن الآن ميزات تعمل بالطاقة AI مصمم�
 
 * [معتمدة AI نماذج](/words/net/supported-ai-models/)
 * [تلخيص وثيقة](/words/net/summarize-a-document/)
-
+* [ترجمة وثيقة](/words/net/translate-a-document/)
+* [التدقيق النحوي](/words/net/grammar-checking/)

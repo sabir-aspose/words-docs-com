@@ -1,16 +1,26 @@
 ---
 title: 在C++中使用水印
-second_title: Aspose.Words对于C++
+second_title: Aspose.Words为C++
 articleTitle: 使用水印
 linktitle: 使用水印
 type: docs
-description: "使用C++进行文档水印操作。"
+description: "文档水印操作使用C++。"
 weight: 340
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /zh/cpp/working-with-watermark/
-timestamp: 2024-01-30-16-22-34
+timestamp: 2025-05-07-07-22-34
 ---
 
 本主题讨论如何使用Aspose.Words以编程方式处理水印。 水印是在文档中的文本后面显示的背景图像。 水印可以包含由[Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/)类表示的文本或图像。
+
+{{% alert color="primary" %}}
+
+**在线试用**
+
+您可以使用我们的 [免费在线文档水印](https://products.aspose.app/words/watermark).
+
+{{% /alert %}}
 
 ## 为文档添加水印
 
@@ -28,7 +38,11 @@ timestamp: 2024-01-30-16-22-34
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cpp" >}}
 
-水印也可以使用形状类插入。 将任何形状或图像插入页眉或页脚非常容易，从而创建任何可以想象的类型的水印。 下面的代码示例将水印插入到Word文档中。
+图像水印可以作为图像、字符串或流插入.
+
+水印也可以使用形状类插入。 将任何形状或图像插入页眉或页脚非常容易，从而创建任何可以想象的类型的水印。
+
+下面的代码示例将水印插入到Word文档中。
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Images-AddWatermark-AddWatermark.cpp" >}}
 

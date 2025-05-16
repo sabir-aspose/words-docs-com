@@ -1,4 +1,4 @@
-﻿---
+---
 title: Работа с воден знак C++
 second_title: Aspose.Words за C++
 articleTitle: Работа с воден знак
@@ -6,11 +6,21 @@ linktitle: Работа с воден знак
 type: docs
 description: "Документ воден знак манипулация с C++."
 weight: 340
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /bg/cpp/working-with-watermark/
-timestamp: 2024-01-30-16-22-34
+timestamp: 2025-05-07-07-22-34
 ---
 
 Тази тема обсъжда как да се работи програмно с воден знак, използвайки Aspose.Words. Водният знак е фоново изображение, което се показва зад текста в документ. Водният знак може да съдържа текст или изображение, представлявано от класа [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/).
+
+{{% alert color="primary" %}}
+
+**Опитайте онлайн**
+
+Можете да опитате тази функционалност с нашата [Безплатен онлайн воден знак за документ](https://products.aspose.app/words/watermark).
+
+{{% /alert %}}
 
 ## Добавяне на воден знак към документ
 
@@ -28,7 +38,11 @@ timestamp: 2024-01-30-16-22-34
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cpp" >}}
 
-Водният знак също може да бъде вмъкнат, като се използва и клас на формата. Много е лесно да вмъкнете всяка форма или изображение в горен или долен колонтитул и по този начин да създадете воден знак от всякакъв вид. Следващият пример за код вмъква воден знак в документ Word.
+Водният знак на изображението може да бъде вмъкнат като изображение, низ или поток.
+
+Водният знак също може да бъде вмъкнат, като се използва и клас на формата. Много е лесно да вмъкнете всяка форма или изображение в горен или долен колонтитул и по този начин да създадете воден знак от всякакъв вид.
+
+Следващият пример за код вмъква воден знак в документ Word.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Images-AddWatermark-AddWatermark.cpp" >}}
 

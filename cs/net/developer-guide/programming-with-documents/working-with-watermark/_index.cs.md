@@ -1,78 +1,78 @@
 ---
-title: Práce s Watermark v C#
-second_title: Aspose.Words místo .NET
+title: Práce s vodoznakem v C#
+second_title: Aspose.Words pro .NET
 articleTitle: Práce s vodoznakem
 linktitle: Práce s vodoznakem
-description: "Dokument vodoznak manipulace pomocí C#."
+description: "Manipulace s vodoznakem dokumentu pomocí C#."
 type: docs
 weight: 340
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cs/net/working-with-watermark/
-timestamp: 2024-05-02-11-51-44
+timestamp: 2025-04-16-07-02-05
 ---
 
-Toto téma pojednává o tom, jak pracovat programově s vodoznakem pomocí Aspose.Words. Vodoznak je obrázek pozadí, který se zobrazí za textem v dokumentu. Vodoznak může obsahovat text nebo obraz reprezentovaný [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) třída.
+Toto téma pojednává o tom, jak programově pracovat s vodoznakem pomocí Aspose.Words. Vodoznak je obrázek na pozadí, který se zobrazuje za textem v dokumentu. Vodoznak může obsahovat text nebo obrázek reprezentovaný třídou [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/).
 
 {{% alert color="primary" %}}
 
-**Zkuste online**
+**Vyzkoušejte online**
 
-Tuto funkci můžete zkusit s naší [Zdarma online dokument vodoznak](https://products.aspose.app/words/watermark).
+Tuto funkci můžete vyzkoušet pomocí našeho [Zdarma online vodoznak dokumentu](https://products.aspose.app/words/watermark).
 
 {{% /alert %}}
 
-## Přidat vodoznak do dokumentu
+## Přidání vodoznaku do dokumentu
 
-In Microsoft Word, vodoznak lze snadno vložit do dokumentu pomocí příkazu Insert Watermark. Aspose.Words poskytuje [watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) třída přidat nebo odstranit vodoznak v dokumentech. Aspose.Words poskytuje [Vodoznak Typ](https://reference.aspose.com/words/net/aspose.words/watermark/type/)číslice definující tři možné typy vodoznaků (Text, Image a None) pro práci
+V Microsoft Word lze vodoznak snadno vložit do dokumentu pomocí příkazu Vložit vodoznak. Aspose.Words poskytuje třídu [watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) pro přidání nebo odebrání vodoznaku v dokumentech. Aspose.Words poskytuje výčet [WatermarkType](https://reference.aspose.com/words/net/aspose.words/watermark/type/)definující tři možné typy vodoznaků (Text, obrázek a žádný), se kterými lze pracovat.
 
-### Přidat text vodoznak
+### Přidat Vodoznak Textu
 
-Následující příklad kódu ukazuje, jak vložit textový vodoznak do dokumentu definováním [TextWatermarkOptions](https://reference.aspose.com/words/net/aspose.words/textwatermarkoptions/) s použitím [SetText](https://reference.aspose.com/words/net/aspose.words/watermark/settext/#settext) metoda:
+Následující příklad kódu ukazuje, jak vložit textový vodoznak do dokumentu definováním [TextWatermarkOptions](https://reference.aspose.com/words/net/aspose.words/textwatermarkoptions/) pomocí metody [SetText](https://reference.aspose.com/words/net/aspose.words/watermark/settext/#settext):
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkWithWatermark-AddTextWatermarkWithSpecificOptions.cs" >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "add-text-watermark.cs" >}}
 
-### Přidat obrázek vodoznak
+### Přidat Vodoznak Obrázku
 
-Následující příklad kódu ukazuje, jak vložit vodoznak obrázku do dokumentu definováním [ImageWatermarkOptions](https://reference.aspose.com/words/net/aspose.words/imagewatermarkoptions/) s použitím [SetImage](https://reference.aspose.com/words/net/aspose.words/watermark/setimage/#setimage) metoda:
+Následující příklad kódu ukazuje, jak vložit vodoznak obrázku do dokumentu definováním [ImageWatermarkOptions](https://reference.aspose.com/words/net/aspose.words/imagewatermarkoptions/) pomocí metody [SetImage](https://reference.aspose.com/words/net/aspose.words/watermark/setimage/#setimage):
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cs" >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "add-image-watermark.cs" >}}
 
-Vodoznak lze také vložit pomocí tvarové třídy. Je velmi snadné vložit jakýkoliv tvar nebo obraz do hlavičky nebo zápatí a vytvořit tak vodoznak jakéhokoliv představitelného typu.
+Vodoznak obrázku lze vložit jako obrázek, řetězec nebo stream.
+
+Vodoznak lze také vložit pomocí třídy tvarů. Je velmi snadné vložit jakýkoli tvar nebo obrázek do záhlaví nebo zápatí a vytvořit tak vodoznak jakéhokoli představitelného typu.
 
 Následující příklad kódu vloží vodoznak do dokumentu Word:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Images-AddWatermark-AddWatermark.cs" >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "add-document-watermark.cs" >}}
 
 {{% alert color="primary" %}}
 
-Soubor vzorku tohoto příkladu si můžete stáhnout z [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
+Ukázkový soubor tohoto příkladu si můžete stáhnout z [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 {{% /alert %}}
 
 
-## Odstranit vodoznak z dokumentu
+## Odstranění vodoznaku z dokumentu
 
-• [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) třída poskytuje metodu odstranění vodoznaku z dokumentu.
+Třída [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) poskytuje metodu remove pro odstranění vodoznaku z dokumentu.
 
 Následující příklad kódu ukazuje, jak odstranit vodoznak z dokumentů:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkWithWatermark-RemoveWatermarkFromDocument.cs" >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "remove-document-watermark.cs" >}}
 
-Pokud jsou vodoznaky přidány pomocí [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) třídní objekt pak odstranit vodoznak z dokumentu musíte nastavit pouze název vodoznaku tvaru při vkládání a poté odstranit tvar vodoznaku přiřazeným názvem.
+Pokud jsou vodoznaky přidány pomocí objektu třídy [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/), pak pro odstranění vodoznaku z dokumentu musíte během vkládání nastavit pouze název tvaru vodoznaku a poté odstranit tvar vodoznaku přiřazeným názvem.
 
-Následující příklad kódu vám ukáže, jak nastavit název tvaru vodoznaku a odstranit jej z dokumentu:
+Následující příklad kódu ukazuje, jak nastavit název tvaru vodoznaku a odstranit jej z dokumentu:
 
-{{< highlight csharp >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "set-shape-name.cs" >}}
 
-// Set name to be able to remove it afterwards
-watermark.Name("WaterMark");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "remove-watermark-shape.cs" >}}
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Images-RemoveWatermark-RemoveWatermark.cs" >}}
+## Přidání vodoznaku do buňky tabulky
 
-## Přidat vodoznak do stolní buňky
+Někdy je třeba vložit vodoznak / obrázek do buňky tabulky a zobrazit jej mimo tabulku, můžete použít vlastnost [IsLayoutInCell](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/islayoutincell/). Tato vlastnost získá nebo nastaví příznak označující, zda je obrazec zobrazen uvnitř tabulky nebo mimo ni. Všimněte si, že tato vlastnost funguje pouze při optimalizaci dokumentu pro Microsoft Word 2010 pomocí metody [OptimizeFor](https://reference.aspose.com/words/net/aspose.words.settings/compatibilityoptions/optimizefor/).
 
-Někdy je třeba vložit vodoznak/obraz do buňky stolu a zobrazit jej mimo stůl, můžete použít [IsLayoutInCell](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/islayoutincell/) majetek. Tato vlastnost dostane nebo nastaví vlajku udávající, zda je tvar zobrazen uvnitř tabulky nebo mimo ni. Všimněte si, že tato vlastnost funguje pouze při optimalizaci dokumentu pro Microsoft Word 2010 pomocí [OptimizeFor](https://reference.aspose.com/words/net/aspose.words.settings/compatibilityoptions/optimizefor/) metoda.
+Následující příklad kódu ukazuje, jak tuto vlastnost používat:
 
-Následující příklad kódu ukazuje, jak používat tuto vlastnost:
-
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-SetShapeLayoutInCell.cs" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "layout-in-cell.cs" >}}

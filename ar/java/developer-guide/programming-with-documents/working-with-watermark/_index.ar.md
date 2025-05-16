@@ -1,4 +1,4 @@
-﻿---
+---
 title: العمل مع العلامة المائية في Java
 second_title: Aspose.Words ل Java
 articleTitle: العمل مع العلامة المائية
@@ -6,8 +6,10 @@ linktitle: العمل مع العلامة المائية
 type: docs
 description: "وثيقة التلاعب العلامة المائية باستخدام Java."
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ar/java/working-with-watermark/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-04-22-08-07-04
 ---
 
 يناقش هذا الموضوع كيفية العمل برمجيا باستخدام علامة مائية باستخدام Aspose.Words. العلامة المائية هي صورة خلفية تعرض خلف النص في المستند. يمكن أن تحتوي العلامة المائية على نص أو صورة ممثلة بفئة [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/).
@@ -22,7 +24,7 @@ timestamp: 2024-01-27-14-07-04
 
 ## أضف علامة مائية إلى مستند
 
-في Microsoft Word، يمكن بسهولة إدراج علامة مائية في مستند باستخدام أمر إدراج علامة مائية. Aspose.Words يوفر فئة [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) لإضافة أو إزالة العلامة المائية في المستندات. Aspose.Words يوفر [WatermarkType](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)التعداد الذي يحدد ثلاثة أنواع ممكنة من العلامات المائية (نص وصورة ولا شيء) للعمل معها.
+في Microsoft Word، يمكن بسهولة إدراج علامة مائية في مستند باستخدام أمر إدراج علامة مائية. Aspose.Words يوفر فئة [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) لإضافة أو إزالة العلامة المائية في المستندات. Aspose.Words يوفر [WatermarkType ](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)التعداد الذي يحدد ثلاثة أنواع ممكنة من العلامات المائية (نص وصورة ولا شيء) للعمل معها.
 
 ### إضافة نص العلامة المائية
 
@@ -36,9 +38,11 @@ timestamp: 2024-01-27-14-07-04
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.java" >}}
 
+يمكن إدراج العلامة المائية للصورة كصورة أو سلسلة أو دفق.
+
 يمكن أيضا إدراج العلامة المائية باستخدام فئة الشكل أيضا. من السهل جدا إدراج أي شكل أو صورة في رأس أو تذييل وبالتالي إنشاء علامة مائية من أي نوع يمكن تخيله.
 
-يقوم مثال الكود التالي بإدراج علامة مائية في مستند ورد:
+يقوم مثال الكود التالي بإدراج علامة مائية في مستند Word:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-AddWatermarkToADocument-AddWatermarkToADocument.java" >}}
 

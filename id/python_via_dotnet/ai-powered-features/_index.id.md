@@ -1,4 +1,4 @@
-﻿---
+---
 title: AI-Fitur bertenaga
 second_title: Aspose.Words untuk Python via .NET
 articleTitle: AI-Fitur bertenaga
@@ -6,8 +6,10 @@ linktitle: AI-Fitur bertenaga
 type: docs
 weight: 35
 description: "Aspose.Words untuk Python memperkenalkan alat bertenaga AI seperti peringkasan dokumen untuk meningkatkan efisiensi. Pelajari cara menggunakan fitur bertenaga AI dengan kiat dan panduan mendetail."
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /id/python-net/ai-powered-features/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
 Aspose.Words sekarang menyertakan fitur bertenaga AI yang dirancang untuk membuat pemrosesan dokumen menjadi lebih cerdas dan efisien. Alat ini memanfaatkan pembelajaran mesin tingkat lanjut untuk melakukan tugas seperti peringkasan dokumen, menawarkan kemampuan yang lebih canggih kepada pengembang untuk merampingkan alur kerja mereka.
@@ -16,3 +18,5 @@ Di bagian ini, kami akan membahas semua yang perlu Anda ketahui tentang pengguna
 
 * [Model AI yang didukung](/words/python-net/supported-ai-models/)
 * [Meringkas Dokumen](/words/python-net/summarize-a-document/)
+* [Menerjemahkan Dokumen](/words/python-net/translate-a-document/)
+* [Pemeriksaan Tata Bahasa](/words/python-net/grammar-checking/)

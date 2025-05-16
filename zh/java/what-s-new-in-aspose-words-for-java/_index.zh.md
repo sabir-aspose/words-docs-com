@@ -6,27 +6,40 @@ linktitle: 最新消息 Aspose.Words为Java
 type: docs
 description: "Aspose.Words为Java 每天扩展和增强。 在这个页面上，您可以了解该产品的巨大和最有趣的功能。"
 weight: 2
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /zh/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2025-17-02-18-02-05
+timestamp: 2025-04-22-08-02-05
 ---
 
 本页介绍了最近版本中引入的最有趣的Aspose.Words新特性。
 
-## Aspose.Words为Java 25.1, 25.2
+## Aspose.Words为Java 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words25.1引入了AI支持的语法检查，并通过HTML、SVG和Markdown格式的高级选项增强了文档保存。
 
-Aspose.Words25.2使用AnthropicAI模型引入文本摘要，添加MsWorks格式支持，增强排版控制，并改进PDF结构和列表处理。
+Aspose.Words25.2引入了带有AnthropicAI模型的文本摘要，增加了MsWorks格式支持，增强了排版控制，并改进了PDF结构和列表处理。
+
+Aspose.Words25.3使用UpdateAmbiguousTextFont属性增强了AI支持的语法检查器和字体选择，并改进了PDF附件导出。
+
+Aspose.Words25.4引入对新纸张尺寸的支持，启用高级HTML导出控制，改进水印处理，并增强LowCodeAPI的可用性。
 
 ### AI功能
 
-#### 文档AI语法检查 <sup>25.1</sup>
+#### 文档AI语法检查
 
-通过添加一个新的[CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions)方法，引入了使用OpenAI生成模型检查所提供文档语法的能力。
+* 通过添加一个新的[CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions)方法，引入了使用OpenAI生成模型检查所提供文档语法的能力。 <sup>25.1</sup>
+* 更新了AI支持的语法检查功能，以支持[AiModelType](https://reference.aspose.com/words/java/com.aspose.words/aimodeltype/)枚举中可用的所有模型。 <sup>25.3</sup>
 
-#### 使用人类生成语言模型进行总结 <sup>25.2</sup>
+#### 使用Anthropic生成语言模型进行总结 <sup>25.2</sup>
 
-通过引入一个新的公共类[AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/)，启用了使用人类生成语言模型的文本摘要。
+通过引入一个新的公共类[AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/)，启用了使用Anthropic生成语言模型的文本摘要。
+
+### Low Code
+
+#### Low CodeAPI可用性 <sup>25.4</sup>
+
+对**LowCode API**的可用性进行了重大改进，简化了文档处理并减少了对重复代码的需求。
 
 ### 支持的格式 <sup>25.2</sup>
 
@@ -42,6 +55,7 @@ Aspose.Words25.2使用AnthropicAI模型引入文本摘要，添加MsWorks格式�
 
 * 在[MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/)类中添加了一个新的[ImageResolution](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageResolution)选项来设置图像分辨率。
 * 一个新的[OfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getOfficeMathExportMode)选项和[MarkdownOfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownofficemathexportmode/)枚举已添加到[MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/)类中以设置OfficeMath输出模式。
+* 通过向[SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.io.InputStream-com.aspose.words.ImageWatermarkOptions)方法添加新的重载，引入了从流中设置图像水印的功能。 <sup>25.4</sup>
 
 ### 渲染图
 
@@ -49,10 +63,23 @@ Aspose.Words25.2使用AnthropicAI模型引入文本摘要，添加MsWorks格式�
 
 已添加[NumberSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getNumberSpacing)属性以改进排版控制。
 
+#### 控制模糊字符的字体选择 <sup>25.3</sup>
+
+在[SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/)类中添加了一个新的公共属性[UpdateAmbiguousTextFont](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateAmbiguousTextFont)，以根据使用的字符代码控制字体选择。
+
+#### 纸张尺寸选项 <sup>25.4</sup>
+
+通过向[PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/)枚举添加新值，引入了使用JISB4和JISB5纸张大小的功能。
+
+#### HTML输出控制 <sup>25.4</sup>
+
+通过添加[RemoveJavaScriptFromLinks](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getRemoveJavaScriptFromLinks)属性，可以在HTML导出期间从超链接URLs中删除JavaScript。
+
 ### 其他
 
 * PDF逻辑结构得到了改进，支持TOA、BIBLIOGRAPHY和INDEX字段。 <sup>25.2</sup>
 * 为了改进列表处理，引入了[AddSingleLevelList](https://reference.aspose.com/words/java/com.aspose.words/listcollection/#addSingleLevelList-int)方法。 <sup>25.2</sup>
+* 添加了一个新属性[AttachmentsEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getAttachmentsEmbeddingMode)来替换**EmbedAttachments**以改进PDF附件的导出。 此外，新值已添加到[PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)枚举以支持PDF/A版本附件。 此外，附件现在支持加密。 <sup>25.3</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,15 +87,19 @@ Aspose.Words25.2使用AnthropicAI模型引入文本摘要，添加MsWorks格式�
 
 了解更多关于 [Aspose.Words为Java 25.2发行说明](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-2-release-notes/).
 
+了解更多关于 [Aspose.Words为Java 25.3发行说明](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-3-release-notes/).
+
+了解更多关于 [Aspose.Words为Java 25.4发行说明](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-4-release-notes/).
+
 {{% /alert %}}
 
 ## Aspose.Words为Java 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words24.9通过DocumentBuilder引入group shape插入和StructuredDocumentTag插入，使用渐变增强径向图表呈现，使用XAdES-EPES支持改进数字签名，添加Markdown下划线识别，并提供对脚注/尾注分隔符的访问。
 
-Aspose.Words24.10引入了增强的ActiveX控件支持CommandButton创建，新的形状可见性控制，group shapes的能力，改进的表格Markdown导出，Pie和Doughnut图表的图表格式，更好的Big5编码处理，以及对过时的台湾字体的支持。
+Aspose.Words24.10引入了增强的ActiveX控件支持CommandButton创建，新的形状可见性控制，group shapes的能力，改进的Markdown表格导出，Pie和Doughnut图表的图表格式，更好的Big5编码处理，以及对过时的台湾字体的支持。
 
-Aspose.Words24.11引入了AI支持的文档摘要、增强的呈现选项、改进的文档属性访问和ActiveX控件字幕。
+Aspose.Words24.11引入了AI支持的文档摘要，增强的呈现选项，改进了对文档属性的访问和ActiveX控制字幕。
 
 Aspose.Words24.12引入了可自定义的数据标签放置，GoogleAI支持的文本翻译，增强的Mail Merge清理选项和新的LowCode处理类。
 
@@ -92,7 +123,7 @@ Aspose.Words24.12引入了可自定义的数据标签放置，GoogleAI支持的�
 
 已经实现了在径向图表上绘制毕业图。
 
-#### CommandButtonActiveX控件 <sup>24.10</sup>
+#### CommandButton ActiveX 控件<sup>24.10</sup>
 
 通过添加新的公共方法[InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl)和新的公共类[Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/)，引入了创建CommandButtonActiveX控件的功能。
 
@@ -136,7 +167,7 @@ Aspose.Words24.12引入了可自定义的数据标签放置，GoogleAI支持的�
 
 一个新的**RemoveEmptyTables**选项已添加到[MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/)枚举以细化Mail Merge输出。
 
-### 数字签名
+### 数码签署
 
 #### 用XAdES-EPES签署文件 <sup>24.9</sup>
 
@@ -151,7 +182,7 @@ Aspose.Words24.12引入了可自定义的数据标签放置，GoogleAI支持的�
 * 改进了TrueTypecmap表的Big5编码处理。 <sup>24.10</sup>
 * 增强了对过时的台湾字体的支持。 <sup>24.10</sup>
 * 要访问扩展文档属性，已将只读属性添加到[BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/)类。 <sup>24.11</sup>
-* 通过向[Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption)属性添加新的公共setter，已启用ActiveX控件的设置标题。 <sup>24.11</sup>
+* 通过向[Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption)属性添加一个新的公共setter，已启用ActiveX控件的标题设置。 <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
@@ -171,9 +202,9 @@ Aspose.Words24.5扩展了程序集的选项，改进了呈现功能，并扩展�
 
 Aspose.Words24.6改进了渲染选项，增强了搜索和比较功能，并扩展了其他几个功能。
 
-Aspose.Words24.7更改您使用ActiveX的方式，扩展渲染功能，以及导出为Markdown和XLSX格式。
+Aspose.Words24.7更改ActiveX的工作方式，扩展渲染功能，以及导出为Markdown和XLSX格式。
 
-Aspose.Words24.8通过对轴标签的精确控制来增强图表自定义，扩展字体管理，改进文档结构处理，并为HTML/XAML导出、PDF功能、文档转换和数字签名添加新功能。
+Aspose.Words24.8通过对轴标签的精确控制增强了图表自定义，扩展了字体管理，改进了文档结构处理，并为HTML/XAML导出、PDF功能、文档转换和数字签名添加了新功能。
 
 ### 支持的格式
 
@@ -185,7 +216,7 @@ Aspose.Words24.8通过对轴标签的精确控制来增强图表自定义，扩�
 
 - 已经实现了SVG图形的DrawingML效果渲染，扩展了以前仅限于图像的功能。
 - 通过添加[ChartSeriesGroup](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroup/)和[ChartSeriesGroupCollection](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroupcollection/)类以及[SeriesGroups](https://reference.aspose.com/words/java/com.aspose.words/chart/#getSeriesGroups)属性，支持在序列组中创建组合图和调整间隙宽度、重叠和气泡比例等属性。
-- 操作形状的SoftEdge效果的功能已经通过添加[SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/)类来实现。
+- 通过添加[SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/)类实现了操作形状SoftEdge效果的功能。
 - 通过添加[AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/)和[Adjustment](https://reference.aspose.com/words/java/com.aspose.words/adjustment/)公共类以及[Adjustments](https://reference.aspose.com/words/java/com.aspose.words/shape/#getAdjustments)属性，实现了修改形状调整值的功能。
 
 #### 图表、形状和绘图的变化 <sup>24.6</sup>
@@ -193,7 +224,7 @@ Aspose.Words24.8通过对轴标签的精确控制来增强图表自定义，扩�
 - 制图能力得到了增强。 您现在可以创建更多种类的图表，包括*Treemaps*, *Sunbursts*, *Histograms*, *Pareto* 图表，*Box & Whisker*图表，*Waterfalls*和*Funnels*。 这使您能够以更加多样化和信息丰富的方式可视化数据。
 - 阴影格式的颜色控制已得到改进。 通过访问阴影颜色，您可以更精确地控制文档的外观。
 - 改进了后台渲染的性能提升。 借助原生平铺技术，您可以显着加快包含小元素的背景的渲染速度。
-- 添加了形状的逼真渐变。 您现在可以创建具有非线性渐变的DML形状，模仿Microsoft Word的视觉样式以获得更抛光的外观。
+- 已添加形状的逼真渐变。 您现在可以创建具有非线性渐变的DML形状，模仿Microsoft Word的视觉样式以获得更抛光的外观。
 
 #### 图表数据标签定制 <sup>24.7</sup>
 
@@ -203,7 +234,7 @@ Aspose.Words24.8通过对轴标签的精确控制来增强图表自定义，扩�
 
 已添加公共属性[CustomNumberStyleFormat](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getCustomNumberStyleFormat)的setter。 您现在可以为列表级别定义自定义数字样式。
 
-#### 使用ActiveX的变化 <sup>24.7</sup>
+#### 使用ActiveX的更改 <sup>24.7</sup>
 
 * 现在可以修改ActiveX对象的属性，使您可以更好地控制其行为。
 * 添加了修改单选按钮ActiveX控件的值以启用动态交互的功能。
@@ -211,7 +242,7 @@ Aspose.Words24.8通过对轴标签的精确控制来增强图表自定义，扩�
 
 #### 控制图表轴刻度标签的方向和旋转 <sup>24.8</sup>
 
-添加了对图表轴刻度标签的方向和旋转的精确控制，以便更方便的图表自定义-[AxisTickLabels](https://reference.aspose.com/words/java/com.aspose.words/axisticklabels/)类已扩展为新的**Orientation**和**Rotation**属性。
+添加了对图表轴刻度标签的方向和旋转的精确控制，以便于更方便的图表定制-[AxisTickLabels](https://reference.aspose.com/words/java/com.aspose.words/axisticklabels/)类已扩展为新的**Orientation**和**Rotation**属性。
 
 #### 用日元符号替换反斜杠 <sup>24.8</sup>
 
@@ -264,7 +295,7 @@ Aspose.Words24.8通过对轴标签的精确控制来增强图表自定义，扩�
 
 ## Aspose.Words为Java 24.1, 24.2, 24.3, 24.4
 
-Aspose.Words24.1改进了管理笔划颜色的体验，增强了OLE对象和LINQ报告，以及引入了新的参考书目来源publicAPI。
+Aspose.Words24.1改进了管理笔划颜色的体验，增强了OLE对象和LINQ报告，并引入了新的参考书目来源publicAPI。
 
 Aspose.Words24.2展开图表API、样式管理和LINQ选项。 此版本的Aspose.Words还引入了在渲染期间指定SvgSaveOptions的功能，更灵活地控制加载Markdown文件，以及处理脚注和尾注的参考文本。
 
@@ -383,7 +414,7 @@ Aspose.Words23.12引入了新的属性和枚举，用于处理PDF文档，支持
 
 #### 加载TXT文档时识别超链接 <sup>23.10</sup>
 
-加载TXT文档时识别超链接的功能已通过添加新的[DetectHyperlinks](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getDetectHyperlinks)属性实现。
+加载TXT文档时识别超链接的功能已通过添加新的[DetectHyperlinks](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getDetectHyperlinks)属性来实现。
 
 ### 其他
 

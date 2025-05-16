@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit Wasserzeichen in Java
 second_title: Aspose.Words für Java
 articleTitle: Arbeiten mit Wasserzeichen
@@ -6,8 +6,10 @@ linktitle: Arbeiten mit Wasserzeichen
 type: docs
 description: "Manipulation des Dokumentwasserzeichens mit Java."
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /de/java/working-with-watermark/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-04-22-08-07-04
 ---
 
 In diesem Thema wird erläutert, wie Sie mit Aspose.Words programmgesteuert mit einem Wasserzeichen arbeiten. Ein Wasserzeichen ist ein Hintergrundbild, das hinter dem Text in einem Dokument angezeigt wird. Ein Wasserzeichen kann einen Text oder ein Bild enthalten, das durch die Klasse [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) dargestellt wird.
@@ -22,7 +24,7 @@ Sie können diese Funktionalität mit unserem ausprobieren [Kostenloses Online W
 
 ## Hinzufügen eines Wasserzeichens zu einem Dokument
 
-In Microsoft Word kann ein Wasserzeichen einfach mit dem Befehl Wasserzeichen einfügen in ein Dokument eingefügt werden. Aspose.Words stellt die Klasse [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) zum Hinzufügen oder Entfernen von Wasserzeichen in Dokumenten bereit. Aspose.Words stellt die [WatermarkType](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)-Aufzählung bereit, die drei mögliche Arten von Wasserzeichen (Text, Bild und Keine) definiert, mit denen gearbeitet werden soll.
+In Microsoft Word kann ein Wasserzeichen einfach mit dem Befehl Wasserzeichen einfügen in ein Dokument eingefügt werden. Aspose.Words stellt die Klasse [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) zum Hinzufügen oder Entfernen von Wasserzeichen in Dokumenten bereit. Aspose.Words stellt die [WatermarkType ](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)-Aufzählung bereit, die drei mögliche Arten von Wasserzeichen (Text, Bild und Keine) definiert, mit denen gearbeitet werden soll.
 
 ### Text-Wasserzeichen hinzufügen
 
@@ -36,9 +38,11 @@ Das folgende Codebeispiel zeigt, wie Sie ein Bildwasserzeichen in ein Dokument e
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.java" >}}
 
+Bildwasserzeichen können als Bild, Zeichenfolge oder Stream eingefügt werden.
+
 Das Wasserzeichen kann auch mit der Formklasse eingefügt werden. Es ist sehr einfach, eine beliebige Form oder ein beliebiges Bild in eine Kopf- oder Fußzeile einzufügen und so ein Wasserzeichen jeder erdenklichen Art zu erstellen.
 
-Das folgende Codebeispiel fügt ein Wasserzeichen in ein Word-Dokument ein:
+Das folgende Codebeispiel fügt ein Wasserzeichen in ein Word -Dokument ein:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-AddWatermarkToADocument-AddWatermarkToADocument.java" >}}
 

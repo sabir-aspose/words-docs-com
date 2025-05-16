@@ -6,27 +6,34 @@ linktitle: Co nowego w Aspose.Words dla Python via .NET
 type: docs
 description: "Aspose.Words dla Python via .NET rozszerza się i zwiększa codziennie. Na tej stronie możesz dowiedzieć się o ogromnych i najciekawszych funkcjach produktu."
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /pl/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-02-17-18-02-05
+timestamp: 2025-04-16-07-02-05
 ---
 
 Ta strona opisuje najciekawsze nowe funkcje Aspose.Words wprowadzone w ostatnich wydaniach.
 
-## Aspose.Words dla Python via .NET 25.1, 25.2
+## Aspose.Words dla Python przez .NET 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 wprowadza sprawdzanie gramatyki z napędem AI i ulepsza zapisywanie dokumentów dzięki zaawansowanym opcjom formatów HTML, SVG i Markdown.
 
-Aspose.Words 25.2 wprowadza podsumowanie tekstu za pomocą modeli antropicznych AI, dodaje obsługę formatu MsWorks, poprawia kontrolę typograficzną oraz poprawia strukturę i obsługę list PDF.
+Aspose.Words 25.2 wprowadza podsumowanie tekstu za pomocą modeli Anthropic AI, dodaje obsługę formatu MsWorks, poprawia kontrolę typograficzną oraz poprawia strukturę i obsługę list PDF.
+
+Aspose.Words 25.3 ulepsza sprawdzanie gramatyki i wybór czcionek z AI za pomocą właściwości UpdateAmbiguousTextFont, a także ulepsza eksport załączników PDF.
+
+Aspose.Words 25.4 wprowadza obsługę nowych rozmiarów papieru, umożliwia zaawansowaną kontrolę eksportu HTML i poprawia obsługę znaków wodnych.
 
 ### AI - funkcje zasilane
 
-#### Sprawdzanie Gramatyki Dokumentu AI <sup>25.1</sup>
+#### Sprawdzanie Gramatyki Dokumentu AI
 
-Możliwość sprawdzenia gramatyki dostarczonego dokumentu przy użyciu OpenAI modeli generatywnych została wprowadzona poprzez dodanie nowej metody [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/).
+* Możliwość sprawdzenia gramatyki dostarczonego dokumentu przy użyciu OpenAI modeli generatywnych została wprowadzona poprzez dodanie nowej metody [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/). <sup>25.1</sup>
+* Funkcja sprawdzania gramatyki obsługiwana przez AI została zaktualizowana, aby obsługiwać wszystkie modele dostępne w wyliczeniu [AiModelType](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodeltype/). <sup>25.3</sup>
 
-#### Podsumowanie Za Pomocą Antropicznych Generatywnych Modeli Językowych <sup>25.2</sup>
+#### Podsumowanie Przy Użyciu Generatywnych Modeli Językowych Anthropic <sup>25.2</sup>
 
-Podsumowanie tekstu przy użyciu antropicznych generatywnych modeli językowych zostało włączone poprzez wprowadzenie nowej klasy publicznej [AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/).
+Podsumowanie tekstu przy użyciu generatywnych modeli języka Anthropic zostało włączone poprzez wprowadzenie nowej klasy publicznej [AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/).
 
 ### Obsługiwane Formaty <sup>25.2</sup>
 
@@ -49,10 +56,24 @@ Zapisywanie w formatach HTML i SVG zostało ulepszone poprzez dodanie właściwo
 
 Właściwość [number_spacing](https://reference.aspose.com/words/python-net/aspose.words/font/number_spacing/) została dodana w celu poprawy kontroli typograficznej.
 
+#### Kontrolowanie wyboru czcionki dla znaków niejednoznacznych <sup>25.3</sup>
+
+Nowa właściwość publiczna [update_ambiguous_text_font](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/update_ambiguous_text_font/) została dodana do klasy [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/), aby kontrolować wybór czcionki zgodnie z użytym kodem znaku.
+
+#### Opcje Rozmiaru Papieru <sup>25.4</sup>
+
+Możliwość użycia JIS B4 i JIS B5 rozmiarów papieru została wprowadzona poprzez dodanie nowych wartości do wyliczenia [PaperSize](https://reference.aspose.com/words/python-net/aspose.words/papersize/).
+
+#### HTML Kontrola Wyjścia <sup>25.4</sup>
+
+Możliwość usunięcia JavaScript z hiperłącza URLs podczas eksportu HTML została wprowadzona przez dodanie właściwości [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/remove_java_script_from_links/).
+
 ### Inne
 
 * PDF struktura logiczna została ulepszona dzięki obsłudze pól TOA, BIBLIOGRAPHY i INDEX. <sup>25.2</sup>
 * Metoda [add_single_level_list](https://reference.aspose.com/words/python-net/aspose.words.lists/listcollection/add_single_level_list/#listtemplate) została wprowadzona w celu poprawy obsługi listy. <sup>25.2</sup>
+* Dodano nową właściwość [attachments_embedding_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/attachments_embedding_mode/) w celu zastąpienia **EmbedAttachments** w celu ulepszenia eksportu PDF załączników. Ponadto do wyliczenia [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) Dodano nowe wartości, aby obsługiwać załączniki wersji PDF/A. Ponadto załączniki są teraz obsługiwane za pomocą szyfrowania. <sup>25.3</sup>
+* Możliwość ustawienia znaku wodnego obrazu ze strumienia została wprowadzona przez dodanie nowego przeciążenia do metody [SetImage](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_image/#bytesio_imagewatermarkoptions). <sup>25.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,15 +81,19 @@ Dowiedz się więcej o [Aspose.Words dla Python via .NET 25.1 Informacje O Wydan
 
 Dowiedz się więcej o [Aspose.Words dla Python via .NET 25.2 Informacje O Wydaniu](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
+Dowiedz się więcej o [Aspose.Words dla Python via .NET 25.3 Informacje O Wydaniu](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-3-release-notes/).
+
+Dowiedz się więcej o [Aspose.Words dla Python via .NET 25.4 Informacje O Wydaniu](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-4-release-notes/).
+
 {{% /alert %}}
 
 ## Aspose.Words dla Python przez .NET 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 wprowadza group shape wstawianie i StructuredDocumentTag wstawianie przez DocumentBuilder, poprawia renderowanie Wykresów promieniowych z podziałką, poprawia podpisy cyfrowe z obsługą XAdES-EPES, dodaje rozpoznawanie podkreśleń Markdown i zapewnia dostęp do separatorów przypisów/przypisów końcowych.
 
-Aspose.Words 24.10 wprowadza ulepszoną obsługę kontroli ActiveX z tworzeniem CommandButton, nową kontrolą widoczności kształtu, możliwością group shapes, ulepszonym eksportem Markdown dla tabel, formatowaniem wykresów dla Wykresów Pie i Doughnut, lepszą obsługą kodowania Big5 i obsługą przestarzałych czcionek tajwańskich.
+Aspose.Words 24.10 wprowadza ulepszoną obsługę sterowania ActiveX z tworzeniem CommandButton, nową kontrolę widoczności kształtu, możliwość group shapes, ulepszony eksport Markdown dla tabel, formatowanie wykresów dla Wykresów Pie i Doughnut, lepszą obsługę kodowania Big5 i obsługę przestarzałych czcionek tajwańskich.
 
-Aspose.Words 24.11 wprowadza AI-powered podsumowania dokumentu, ulepszone opcje renderowania, lepszy dostęp do Właściwości dokumentu i ActiveX napisów kontrolnych.
+Aspose.Words 24.11 wprowadza AI-powered podsumowania dokumentu, ulepszone opcje renderowania, lepszy dostęp do Właściwości dokumentu i ActiveX napisów sterowania.
 
 Aspose.Words 24.12 wprowadza konfigurowalne umieszczanie etykiet danych, tłumaczenie tekstu oparte na Google AI i ulepszone nowe klasy przetwarzania LowCode.
 
@@ -92,9 +117,9 @@ Nowe LowCode klasy, takie jak[Comparer](https://reference.aspose.com/words/pytho
 
 Zaimplementowano renderowanie podziałek na wykresach promieniowych.
 
-#### CommandButton Formanty ActiveX <sup>24.10</sup>
+#### CommandButton ActiveX sterowanie <sup>24.10</sup>
 
-Możliwość tworzenia CommandButton formantów ActiveX została wprowadzona przez dodanie nowej metody publicznej [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) i nowej klasy publicznej [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/).
+Możliwość tworzenia kontrolek CommandButton ActiveX została wprowadzona przez dodanie nowej metody publicznej [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) i nowej klasy publicznej [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/).
 
 #### Kontrola Widoczności Kształtu <sup>24.10</sup>
 
@@ -149,7 +174,7 @@ Możliwość podpisywania dokumentów z podpisami XAdES-EPES poziomu XML-DSig zo
 * Poprawiono obsługę kodowania Big5 dla tabel CMAP TrueType. <sup>24.10</sup>
 * Ulepszono obsługę przestarzałych czcionek tajwańskich. <sup>24.10</sup>
 * Aby uzyskać dostęp do rozszerzonych właściwości dokumentu, właściwości tylko do odczytu zostały dodane do klasy [BuiltInDocumentProperties](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/). <sup>24.11</sup>
-* Ustawianie napisów dla formantów ActiveX zostało włączone przez dodanie nowego publicznego setera do właściwości [Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/). <sup>24.11</sup>
+* Ustawianie napisów dla kontrolek ActiveX zostało włączone przez dodanie nowego setera publicznego do właściwości [Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/). <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
@@ -204,8 +229,8 @@ Dodano seter dla własności publicznej [custom_number_style_format](https://ref
 #### Zmiany w pracy z ActiveX <sup>24.7</sup>
 
 - Właściwości obiektów ActiveX można teraz modyfikować, co daje większą kontrolę nad ich zachowaniem.
-- Dodano możliwość modyfikacji wartości kontrolki ActiveX przycisku radiowego w celu umożliwienia dynamicznej interakcji.
-- Dodano możliwość przełączania ActiveX checkbox Na "zaznaczone" lub "niezaznaczone".
+- Dodano możliwość modyfikacji wartości przycisku opcji ActiveX w celu włączenia dynamicznej interakcji.
+- Dodano możliwość przełączania ActiveX checkbox Na "zaznaczone" lub "odznaczone".
 
 #### Kontrola nad osią wykresu zaznacz etykiety Orientacja i obrót <sup>24.8</sup>
 
@@ -389,7 +414,7 @@ Funkcja rozpoznawania hiperłączy podczas ładowania dokumentów TXT została z
 - Możliwość dostępu i modyfikowania właściwości stylu została dodana poprzez wprowadzenie nowej właściwości [locked](https://reference.aspose.com/words/python-net/aspose.words/style/locked/). <sup>23.10</sup>
 - Ogólny parametr typu został dodany do metod klasy [CompositeNode](https://reference.aspose.com/words/python-net/aspose.words/compositenode/). <sup>23.10</sup>
 - Możliwość zapisania wszystkich sekcji dokumentu w tym samym arkuszu XLSX została zapewniona przez nowy typ wyliczenia [XlsxSectionMode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsectionmode/) i właściwość new [section_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/section_mode/). <sup>23.11</sup>
-* Sposób kontrolowania sposobu użycia rozszerzeń formatu ZIP64 dla dokumentów OOXML został zaimplementowany za pomocą właściwości new Zip64Mode klasy `OoxmlSaveOptions` i wyliczenia new Zip64Mode. <sup>23.12</sup>
+* Sposób kontrolowania sposobu użycia rozszerzeń formatu ZIP64 dla dokumentów OOXML został zaimplementowany za pomocą nowej właściwości Zip64Mode klasy `OoxmlSaveOptions` i nowego wyliczenia Zip64Mode. <sup>23.12</sup>
 * Wprowadzono obsługę obrazu WebP. Należy pamiętać, że ta funkcja jest dostępna tylko dla .NetStandart i .NET6+ wersji. <sup>23.12</sup>
 
 {{% alert color="primary" %}}

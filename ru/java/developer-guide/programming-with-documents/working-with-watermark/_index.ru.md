@@ -1,4 +1,4 @@
-﻿---
+---
 title: Работа с водяным знаком в Java
 second_title: Aspose.Words для Java
 articleTitle: Работа с водяными знаками
@@ -6,8 +6,10 @@ linktitle: Работа с водяными знаками
 type: docs
 description: "Манипулирование водяными знаками документа с помощью Java."
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ru/java/working-with-watermark/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-04-22-08-07-04
 ---
 
 В этом разделе обсуждается, как программно работать с водяным знаком с помощью Aspose.Words. Водяной знак - это фоновое изображение, которое отображается за текстом в документе. Водяной знак может содержать текст или изображение, представленные классом [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/).
@@ -22,7 +24,7 @@ timestamp: 2024-01-27-14-07-04
 
 ## Добавление водяного знака к документу
 
-В Microsoft Word водяной знак можно легко вставить в документ с помощью команды Вставить водяной знак. Aspose.Words предоставляет класс [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) для добавления или удаления водяных знаков в документах. Aspose.Words содержит перечисление [WatermarkType](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/), определяющее три возможных типа водяных знаков (текст, изображение и без водяных знаков) для работы.
+В Microsoft Word водяной знак можно легко вставить в документ с помощью команды Вставить водяной знак. Aspose.Words предоставляет класс [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) для добавления или удаления водяных знаков в документах. Aspose.Words содержит перечисление [WatermarkType ](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/), определяющее три возможных типа водяных знаков (текст, изображение и без водяных знаков) для работы.
 
 ### Добавить текстовый водяной знак
 
@@ -30,15 +32,17 @@ timestamp: 2024-01-27-14-07-04
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddTextWatermarkWithSpecificOptions.java" >}}
 
-### Добавить водяной знак на изображение
+### Добавление водяного знака на изображение
 
 В следующем примере кода показано, как вставить водяной знак изображения в документ, определив [ImageWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/imagewatermarkoptions/) с помощью метода [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.awt.image.BufferedImage):
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.java" >}}
 
+Водяной знак изображения может быть вставлен в виде изображения, строки или потока.
+
 Водяной знак также можно вставить с помощью класса shape. Очень легко вставить любую фигуру или изображение в верхний или нижний колонтитул и, таким образом, создать водяной знак любого мыслимого типа.
 
-В следующем примере кода водяной знак вставляется в документ Word:
+Следующий пример кода вставляет водяной знак в документ Word:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-AddWatermarkToADocument-AddWatermarkToADocument.java" >}}
 
@@ -69,7 +73,7 @@ watermark.Name("WaterMark");
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-RemoveWatermark-RemoveWatermark.java" >}}
 
-## Добавление водяного знака в ячейку таблицы
+## Добавьте водяной знак в ячейку таблицы
 
 Иногда вам нужно вставить водяной знак/изображение в ячейку таблицы и отобразить его за пределами таблицы, вы можете использовать свойство [IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell-boolean). Это свойство возвращает или устанавливает флаг, указывающий, отображается ли фигура внутри таблицы или за ее пределами. Обратите внимание, что это свойство работает только при оптимизации документа для Microsoft Word 2010 года с использованием метода [OptimizeFor](https://reference.aspose.com/words/java/com.aspose.words/compatibilityoptions/#optimizeFor-int).
 

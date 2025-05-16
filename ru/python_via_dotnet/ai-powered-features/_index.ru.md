@@ -1,13 +1,15 @@
-﻿---
+---
 title: AI -функциональные возможности
 second_title: Aspose.Words для Python via .NET
 articleTitle: AI -функциональные возможности
 linktitle: AI -функциональные возможности
 type: docs
 weight: 35
-description: "В Aspose.Words for Python представлены инструменты, основанные на AI, такие как обобщение документов для повышения эффективности. Узнайте, как использовать функции, основанные на AI, с советами и подробным руководством."
+description: "Aspose.Words для Python представлены инструменты, основанные на AI, такие как обобщение документов для повышения эффективности. Узнайте, как использовать функции, основанные на AI, с советами и подробным руководством."
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ru/python-net/ai-powered-features/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
 Aspose.Words теперь включает функции на базе AI, предназначенные для повышения эффективности обработки документов. Эти инструменты используют передовые методы машинного обучения для выполнения таких задач, как обобщение документов, предлагая разработчикам более мощные возможности для оптимизации их рабочих процессов.
@@ -16,3 +18,5 @@ Aspose.Words теперь включает функции на базе AI, пр
 
 * [Поддерживаемые модели AI](/words/python-net/supported-ai-models/)
 * [Обобщение документа](/words/python-net/summarize-a-document/)
+* [Перевести документ](/words/python-net/translate-a-document/)
+* [Проверка грамматики](/words/python-net/grammar-checking/)

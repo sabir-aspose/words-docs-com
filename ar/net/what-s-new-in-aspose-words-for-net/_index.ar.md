@@ -1,32 +1,45 @@
 ---
 title: ما الجديد
 second_title: Aspose.Words ل .NET
-articleTitle: ما هو الجديد في Aspose.Words ل .NET
-linktitle: ما هو الجديد في Aspose.Words ل .NET
+articleTitle: ما الجديد في Aspose.Words ل .NET
+linktitle: ما الجديد في Aspose.Words ل .NET
 type: docs
 description: "Aspose.Words ل .NET يوسع ويعزز يوميا. في هذه الصفحة، يمكنك التعرف على الميزات الضخمة والأكثر إثارة للاهتمام للمنتج."
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ar/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2025-02-17-18-02-05
+timestamp: 2025-04-16-07-02-05
 ---
 
 تصف هذه الصفحة الميزات الجديدة الأكثر إثارة للاهتمام Aspose.Words التي تم تقديمها في الإصدارات الأخيرة.
 
-## Aspose.Words ل .NET 25.1, 25.2
+## Aspose.Words لـ .NET 25.1, 25.2, 25.3, 25.4
 
-يقدم Aspose.Words 25.1 فحصًا لغويًا مدعومًا بالذكاء الاصطناعي ويعزز حفظ المستندات بخيارات متقدمة لتنسيقات HTML وSVG وMarkdown.
+Aspose.Words 25.1 يقدم AI - تدقيق نحوي مدعوم ويعزز حفظ المستندات بخيارات متقدمة لتنسيقات HTML و SVG و Markdown.
 
-Aspose.Words 25.2 يقدم تلخيصا للنص باستخدام نماذج AI الأنثروبولوجية، ويضيف MsWorks دعم التنسيق، ويعزز التحكم المطبعي، ويحسن PDF الهيكل ومعالجة القائمة.
+Aspose.Words 25.2 يقدم تلخيصا للنص بنماذج Anthropic AI، ويضيف MsWorks دعم التنسيق، ويعزز التحكم المطبعي، ويحسن PDF الهيكل ومعالجة القائمة.
 
-### ميزات مدعومة بالذكاء الاصطناعي
+Aspose.Words 25.3 يعزز مدقق نحوي مدعوم بـ AI واختيار الخط بخاصية UpdateAmbiguousTextFont، بالإضافة إلى تحسين تصدير المرفقات PDF.
 
-#### فحص قواعد اللغة للمستندات باستخدام الذكاء الاصطناعي <sup>25.1</sup>
+Aspose.Words 25.4 يقدم دعما لأحجام الورق الجديدة، ويتيح التحكم المتقدم في الصادرات HTML، ويحسن معالجة العلامة المائية، ويعزز قابلية استخدام LowCode API.
 
-تم تقديم القدرة على فحص قواعد اللغة للمستندات المقدمة باستخدام نماذج توليد OpenAI من خلال إضافة طريقة جديدة [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/)
+### AI - ميزات تعمل بالطاقة
 
-#### التلخيص باستخدام نماذج اللغة التوليدية البشرية <sup>25.2</sup>
+#### وثيقة AI التدقيق النحوي
 
-تم تمكين تلخيص النص باستخدام نماذج اللغة التوليدية البشرية من خلال تقديم فئة عامة جديدة [AnthropicAiModel](https://reference.aspose.com/words/net/aspose.words.ai/anthropicaimodel/).
+* تم تقديم القدرة على التحقق من قواعد المستند المقدم باستخدام OpenAI النماذج التوليدية بإضافة طريقة [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/) جديدة. <sup>25.1</sup>
+* تم تحديث ميزة التدقيق النحوي التي تعمل بالطاقة AI لدعم جميع الطرز المتوفرة في [AiModelType](https://reference.aspose.com/words/net/aspose.words.ai/aimodeltype/) تعداد. <sup>25.3</sup>
+
+#### التلخيص باستخدام Anthropic نماذج اللغة التوليدية <sup>25.2</sup>
+
+تم تمكين تلخيص النص باستخدام نماذج اللغة التوليدية Anthropic من خلال تقديم فئة عامة جديدة [AnthropicAiModel](https://reference.aspose.com/words/net/aspose.words.ai/anthropicaimodel/).
+
+### Low Code
+
+#### Low Code API سهولة الاستخدام <sup>25.4</sup>
+
+تم إدخال تحسينات كبيرة على قابلية استخدام **LowCode API**، مما أدى إلى تبسيط معالجة المستندات وتقليل الحاجة إلى التعليمات البرمجية المتكررة.
 
 ### التنسيقات المدعومة <sup>25.2</sup>
 
@@ -34,14 +47,15 @@ Aspose.Words 25.2 يقدم تلخيصا للنص باستخدام نماذج AI 
 
 ### تحويل المستندات وتحميلها وحفظها
 
-#### تحسين الحفظ بتنسيقات HTML وSVG <sup>25.1</sup>
+#### تحسين الادخار إلى HTML و SVG الأشكال <sup>25.1</sup>
 
-تم تحسين الحفظ بتنسيقات HTML وSVG من خلال إضافة الخاصيتين **IdPrefix** و**RemoveJavaScriptFromLinks** إلى كل من فئتي [HtmlFixedSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlfixedsaveoptions/) و[SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/).
+تم تحسين الحفظ في التنسيقين HTML و SVG بإضافة خصائص **IdPrefix** و **RemoveJavaScriptFromLinks** إلى كل من فئتي [HtmlFixedSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlfixedsaveoptions/) و [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/).
 
-#### تعيين دقة الصورة ووضع إخراج OfficeMath عند الحفظ في Markdown <sup>25.1</sup>
+#### تعيين دقة الصورة و OfficeMath وضع الإخراج عند الحفظ إلى Markdown <sup>25.1</sup>
 
 * تمت إضافة خيار [ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imageresolution/) جديد إلى فئة [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) لتعيين دقة الصورة.
-* تمت إضافة خيار [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) جديد و[MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) إلى فئة [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) لتعيين وضع إخراج OfficeMath.
+* تم إضافة خيار [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) جديد و [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) تعداد إلى فئة [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) لتعيين وضع الإخراج OfficeMath.
+* تم تقديم القدرة على تعيين علامة مائية للصورة من دفق عن طريق إضافة حمل زائد جديد إلى طريقة [SetImage](https://reference.aspose.com/words/net/aspose.words/watermark/setimage/#setimage_2). <sup>25.4</sup>
 
 ### تقديم
 
@@ -49,16 +63,33 @@ Aspose.Words 25.2 يقدم تلخيصا للنص باستخدام نماذج AI 
 
 تمت إضافة الخاصية [NumberSpacing](https://reference.aspose.com/words/net/aspose.words/font/numberspacing/) لتحسين التحكم المطبعي.
 
+#### التحكم في اختيار الخط للأحرف الغامضة <sup>25.3</sup>
+
+تمت إضافة خاصية عامة جديدة [UpdateAmbiguousTextFont](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/updateambiguoustextfont/) إلى فئة [SaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/) للتحكم في اختيار الخط وفقا لرمز الحرف المستخدم.
+
+#### خيارات حجم الورق <sup>25.4</sup>
+
+تم إدخال القدرة على استخدام JIS B4 و JIS B5 أحجام الورق عن طريق إضافة قيم جديدة إلى [PaperSize](https://reference.aspose.com/words/net/aspose.words/papersize/) التعداد.
+
+#### HTML التحكم في الإخراج <sup>25.4</sup>
+
+القدرة على إزالة JavaScript من الارتباط التشعبي URLs خلال HTML تم إدخال التصدير عن طريق إضافة خاصية [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/removejavascriptfromlinks/).
+
 ### أخرى
 
 * PDF تم تحسين البنية المنطقية بدعم من TOA و BIBLIOGRAPHY و INDEX الحقول. <sup>25.2</sup>
 * تم تقديم طريقة [AddSingleLevelList](https://reference.aspose.com/words/net/aspose.words.lists/listcollection/addsinglelevellist/) لتحسين معالجة القائمة. <sup>25.2</sup>
+* تمت إضافة خاصية جديدة [AttachmentsEmbeddingMode](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/attachmentsembeddingmode/) لتحل محل **EmbedAttachments** لتحسين تصدير PDF المرفقات. أيضا، تمت إضافة قيم جديدة إلى [PdfCompliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) تعداد لدعم PDF/A مرفقات الإصدار. بالإضافة إلى ذلك، يتم دعم المرفقات الآن بالتشفير. <sup>25.3</sup>
 
 {{% alert color="primary" %}}
 
-تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 25.1 ](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/).
+تعرف على المزيد حول [Aspose.Words لـ .NET 25.1 ملاحظات الإصدار](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/).
 
 تعرف على المزيد حول [Aspose.Words ل .NET 25.2 ملاحظات الإصدار](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-2-release-notes/).
+
+تعرف على المزيد حول [Aspose.Words لـ .NET 25.3 ملاحظات الإصدار](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-3-release-notes/).
+
+تعرف على المزيد حول [Aspose.Words لـ .NET 25.4 ملاحظات الإصدار](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-4-release-notes/).
 
 {{% /alert %}}
 
@@ -66,25 +97,25 @@ Aspose.Words 25.2 يقدم تلخيصا للنص باستخدام نماذج AI 
 
 Aspose.Words 24.9 يقدم group shape الإدراج و StructuredDocumentTag الإدراج عبر DocumentBuilder، ويعزز عرض المخطط الشعاعي مع التخرج، ويحسن التوقيعات الرقمية بدعم XAdES-EPES، ويضيف Markdown التعرف على التسطير، ويوفر الوصول إلى فواصل الحاشية السفلية / التعليقات الختامية.
 
-Aspose.Words 24.10 يقدم تعزيز دعم التحكم أكتيفكس مع CommandButton الخلق، جديد تحكم الرؤية الشكل، والقدرة على group shapes، وتحسين Markdown تصدير للجداول، تنسيق الرسم البياني ل Pie و Doughnut الرسوم البيانية، أفضل بيغ 5 معالجة الترميز، ودعم الخطوط التايوانية التي عفا عليها الزمن.
+Aspose.Words 24.10 يقدم تعزيز ActiveX دعم التحكم مع CommandButton خلق، جديد تحكم الرؤية الشكل، والقدرة على group shapes، وتحسين Markdown تصدير للجداول، تنسيق الرسم البياني ل Pie و Doughnut الرسوم البيانية، أفضل بيغ 5 معالجة الترميز، ودعم الخطوط التايوانية التي عفا عليها الزمن.
 
-Aspose.Words 24.11 يقدم AI - تلخيص المستند بالطاقة، وخيارات العرض المحسنة، وتحسين الوصول إلى خصائص المستند والتعليقات التوضيحية للتحكم في اكتف.
+Aspose.Words 24.11 يقدم AI - تلخيص مستند مدعوم، وخيارات عرض محسنة، وتحسين الوصول إلى خصائص المستند و ActiveX تعليق توضيحي للتحكم.
 
-يقدم Aspose.Words 24.12 إمكانية تخصيص وضع علامات البيانات، وترجمة النصوص المدعومة بالذكاء الاصطناعي من Google، وخيارات تنظيف دمج المراسلات المحسنة، وفئات معالجة LowCode الجديدة.
+Aspose.Words 24.12 يقدم تخصيص وضع تسمية البيانات، جوجل AI - تعمل بالطاقة ترجمة النص، وتعزيز Mail Merge خيارات التنظيف، والجديدة LowCode فئات المعالجة.
 
 ### AI - ميزات تعمل بالطاقة
 
-#### تلخيص المستندات باستخدام OpenAI وGoogle <sup>24.11</sup>
+#### تلخيص المستند باستخدام OpenAI وجوجل <sup>24.11</sup>
 
 تم دمج دعم تلخيص المستندات باستخدام نماذج اللغة التوليدية **OpenAI** و **Google** عن طريق إضافة مساحة الاسم [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) مع أعضائها العامين.
 
-#### ترجمة النصوص باستخدام نماذج اللغة التوليدية من Google <sup>24.12</sup>
+#### ترجمة النصوص باستخدام نماذج اللغة التوليدية من جوجل <sup>24.12</sup>
 
-تم تنفيذ القدرة على ترجمة النصوص باستخدام نماذج اللغة التوليدية من Google في Aspose.Words عن طريق إضافة طريقة [Translate](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/translate/) وتعداد [Language](https://reference.aspose.com/words/net/aspose.words.ai/language/) إلى مساحة اسم [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/).
+وقد تم تنفيذ القدرة على ترجمة النص باستخدام نماذج اللغة التوليدية جوجل في Aspose.Words بإضافة طريقة [Translate](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/translate/) و [Language](https://reference.aspose.com/words/net/aspose.words.ai/language/) التعداد إلى [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) مساحة الاسم.
 
 ### Low Code <sup>24.12</sup>
 
-تم تقديم فئات LowCode الجديدة مثل [Comparer](https://reference.aspose.com/words/net/aspose.words.lowcode/comparer/)، [MailMerger](https://reference.aspose.com/words/net/aspose.words.lowcode/mailmerger/)، [Replacer](https://reference.aspose.com/words/net/aspose.words.lowcode/replacer/)، [Splitter](https://reference.aspose.com/words/net/aspose.words.lowcode/splitter/) وما إلى ذلك، مما يوفر مجموعة من الأساليب التي تحقق التوازن المثالي بين البساطة والمرونة لمعالجة المستندات.
+جديد LowCode فئات مثل [Comparer](https://reference.aspose.com/words/net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/net/aspose.words.lowcode/splitter/) الخ. تم تقديمه، حيث يقدم مجموعة من الأساليب التي تحقق التوازن المثالي بين البساطة والمرونة لمعالجة المستندات.
 
 ### التقديم والطباعة
 
@@ -92,9 +123,9 @@ Aspose.Words 24.11 يقدم AI - تلخيص المستند بالطاقة، وخ
 
 تم تنفيذ عرض التخرج على الرسوم البيانية الشعاعية.
 
-#### CommandButton عناصر تحكم أكتيفكس <sup>24.10</sup>
+#### CommandButton ActiveX الضوابط <sup>24.10</sup>
 
-القدرة على إنشاء عناصر تحكم أكتيفكس CommandButton تم تقديمه عن طريق إضافة طريقة عامة جديدة [InsertForms2OleControl](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertforms2olecontrol/) وفئة عامة جديدة [Forms2OleControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/).
+تم تقديم القدرة على إنشاء عناصر تحكم CommandButton ActiveX عن طريق إضافة طريقة عامة جديدة [InsertForms2OleControl](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertforms2olecontrol/) وفئة عامة جديدة [Forms2OleControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/).
 
 #### رؤية شكل التحكم <sup>24.10</sup>
 
@@ -116,9 +147,9 @@ Aspose.Words 24.11 يقدم AI - تلخيص المستند بالطاقة، وخ
 
 تم تحسين الرسم البياني الرسم البياني التقديم من خلال السماح لعدد محدد من صناديق والتسميات.
 
-#### تخصيص موضع تسميات البيانات <sup>24.12</sup>
+#### تخصيص وضع تسميات البيانات <sup>24.12</sup>
 
-تمت إضافة القدرة على تخصيص موضع تسميات البيانات من خلال تقديم خصائص جديدة إلى فئتي [ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/) و[ChartDataLabelCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/).
+تمت إضافة القدرة على تخصيص موضع تسميات البيانات عن طريق إدخال خصائص جديدة إلى [ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/) و [ChartDataLabelCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/) الطبقات.
 
 ### تحويل وتحميل وحفظ المستندات
 
@@ -134,11 +165,11 @@ Aspose.Words 24.11 يقدم AI - تلخيص المستند بالطاقة، وخ
 
 PDF تم تحسين التصدير من خلال تضمين خصائص عنوان الجدول كـ PDF عناوين عنصر الهيكل المنطقي.
 
-### دمج المراسلات وإعداد التقارير
+### Mail Merge والإبلاغ
 
-#### إزالة الجداول الفارغة أثناء دمج المراسلات <sup>24.12</sup>
+#### إزالة الجداول الفارغة خلال Mail Merge <sup>24.12</sup>
 
-تمت إضافة خيار **RemoveEmptyTables** جديد إلى تعداد [MailMergeCleanupOptions](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmergecleanupoptions/) لتحسين مخرجات دمج المراسلات.
+تمت إضافة خيار **RemoveEmptyTables** جديد إلى تعداد [MailMergeCleanupOptions](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmergecleanupoptions/) لتحسين إخراج Mail Merge.
 
 ### التوقيعات الرقمية
 
@@ -155,17 +186,17 @@ PDF تم تحسين التصدير من خلال تضمين خصائص عنوا�
 * تم تحسين معالجة ترميز بيغ 5 لجداول TrueType كماب. <sup>24.10</sup>
 * تم تعزيز دعم الخطوط التايوانية القديمة. <sup>24.10</sup>
 * للوصول إلى خصائص المستند الموسعة، تمت إضافة خصائص للقراءة فقط إلى فئة [BuiltInDocumentProperties](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/). <sup>24.11</sup>
-* تم تمكين وضع التسميات التوضيحية لعناصر تحكم أكتيفكس عن طريق إضافة أداة ضبط عامة جديدة إلى [Forms2OleControl.Caption](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/caption/) خاصية. <sup>24.11</sup>
+* تم تمكين تعيين التسميات التوضيحية لعناصر التحكم ActiveX عن طريق إضافة أداة ضبط عامة جديدة إلى الخاصية [Forms2OleControl.Caption](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/caption/). <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
-تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 24.9 ](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
+تعرف على المزيد حول [Aspose.Words ل .NET 24.9 ملاحظات الإصدار](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
 
-تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 24.10 ](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
+تعرف على المزيد حول [Aspose.Words لـ .NET 24.10 ملاحظات الإصدار](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
 
-تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 24.11 ](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
+تعرف على المزيد حول [Aspose.Words لـ .NET 24.11 ملاحظات الإصدار](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
 
-تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 24.12 ](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-12-release-notes/).
+تعرف على المزيد حول [Aspose.Words لـ .NET 24.12 ملاحظات الإصدار](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-12-release-notes/).
 
 {{% /alert %}}
 
@@ -175,7 +206,7 @@ Aspose.Words 24.5 يوسع خيارات التجميعات، ويحسن قدرا
 
 Aspose.Words 24.6 يحسن خيارات العرض، ويعزز وظائف البحث والمقارنة، ويوسع العديد من الميزات الأخرى.
 
-Aspose.Words 24.7 يغير طريقة عملك مع اكتف، ويوسع قدرات العرض، وكذلك التصدير إلى Markdown و XLSX التنسيقات.
+Aspose.Words 24.7 يغير طريقة عملك مع ActiveX، ويوسع إمكانيات العرض، بالإضافة إلى التصدير إلى Markdown و XLSX التنسيقات.
 
 Aspose.Words 24.8 يعزز تخصيص المخطط من خلال التحكم الدقيق في تسميات المحور، ويوسع إدارة الخطوط، ويحسن معالجة بنية المستند، ويضيف إمكانات جديدة لـ HTML/XAML تصدير، PDF وظائف، تحويل المستند، والتوقيعات الرقمية.
 
@@ -211,11 +242,11 @@ Aspose.Words 24.8 يعزز تخصيص المخطط من خلال التحكم ا
 
 تمت إضافة أداة ضبط للممتلكات العامة [CustomNumberStyleFormat](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/customnumberstyleformat/). يمكنك الآن تحديد نمط رقم مخصص لمستويات القائمة.
 
-#### التغييرات في العمل مع اكتف <sup>24.7</sup>
+#### التغييرات في العمل مع ActiveX <sup>24.7</sup>
 
-* يمكن الآن تعديل خصائص الكائنات اكتف، مما يتيح لك المزيد من السيطرة على سلوكهم.
-* تمت إضافة القدرة على تعديل قيمة زر الاختيار أكتيفكس التحكم لتمكين التفاعل الديناميكي.
-* تمت إضافة القدرة على تبديل اكتف checkbox إلى "محدد" أو "غير محدد".
+* يمكن الآن تعديل خصائص ActiveX الكائنات، مما يمنحك مزيدا من التحكم في سلوكها.
+* تمت إضافة القدرة على تعديل قيمة زر الاختيار ActiveX التحكم لتمكين التفاعل الديناميكي.
+* تمت إضافة القدرة على تبديل ActiveX checkbox إلى "محدد" أو "غير محدد".
 
 #### السيطرة على الرسم البياني محور التسميات القراد التوجه والتناوب <sup>24.8</sup>
 
@@ -259,13 +290,13 @@ Aspose.Words 24.8 يعزز تخصيص المخطط من خلال التحكم ا
 
 {{% alert color="primary" %}}
 
-تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 24.5 ](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
+تعرف على المزيد حول [Aspose.Words لـ .NET 24.5 ملاحظات الإصدار](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
 
-تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 24.6 ](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
+تعرف على المزيد حول [Aspose.Words لـ .NET 24.6 ملاحظات الإصدار](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
 
-تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 24.7 ](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-7-release-notes/).
+تعرف على المزيد حول [Aspose.Words ل .NET 24.7 ملاحظات الإصدار](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-7-release-notes/).
 
-تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 24.8 ](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-8-release-notes/).
+تعرف على المزيد حول [Aspose.Words ل .NET 24.8 ملاحظات الإصدار](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-8-release-notes/).
 
 {{% /alert %}}
 
@@ -281,7 +312,7 @@ Aspose.Words 24.4 يعزز حفظ التنسيقات، وبعض خيارات ا�
 
 ### التنسيقات المدعومة <sup>24.4</sup>
 
-تنسيق الصورة **WebP** الحديث مدعوم الآن في Aspose.Words لـ .NET Framework 4.6.2 وأعلى. يمكنك الآن قراءة وإدراج WebP الصور في المستندات، وكذلك حفظ الصور بتنسيق WebP.
+تنسيق الصورة **WebP** الحديث مدعوم الآن في Aspose.Words ل .NET Framework 4.6.2 وأعلى. يمكنك الآن قراءة وإدراج WebP الصور في المستندات، وكذلك حفظ الصور بتنسيق WebP.
 
 يرجى ملاحظة أن WebP متاح حاليا فقط في .NET Standard و .NET Framework الخامس4.6.2 وما فوق.
 
@@ -315,7 +346,7 @@ Aspose.Words 24.4 يعزز حفظ التنسيقات، وبعض خيارات ا�
 
 #### جديد TIFF قارئ / كاتب <sup>24.3</sup>
 
-تم تطوير قارئ/كاتب TIFF جديد لـ Aspose.Words لـ .NET Standard و .NET 6 وما بعده. Aspose.Words ل .NET 24.3 واضاف لدعم القراءة TIFF الصور مع JPEG والقديمة JPEG أنواع الضغط، وأيضا تحسن كبير في نوعية عمليات القراءة والكتابة.
+تم تطوير قارئ/كاتب TIFF جديد لـ Aspose.Words لـ .NET Standard و .NET 6 وما بعده. Aspose.Words لـ .NET 24.3 واضاف لدعم القراءة TIFF الصور مع JPEG والقديمة JPEG أنواع الضغط، وأيضا تحسن كبير في نوعية عمليات القراءة والكتابة.
 
 ### أخرى
 
@@ -330,13 +361,13 @@ Aspose.Words 24.4 يعزز حفظ التنسيقات، وبعض خيارات ا�
 
 {{% alert color="primary" %}}
 
-تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 24.1 ](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-1-release-notes/).
+تعرف على المزيد حول [Aspose.Words لـ .NET 24.1 ملاحظات الإصدار](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-1-release-notes/).
 
-تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 24.2 ](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/).
+تعرف على المزيد حول [Aspose.Words ل .NET 24.2 ملاحظات الإصدار](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/).
 
-تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 24.3 ](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-3-release-notes/).
+تعرف على المزيد حول [Aspose.Words لـ .NET 24.3 ملاحظات الإصدار](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-3-release-notes/).
 
-تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 24.4 ](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-4-release-notes/).
+تعرف على المزيد حول [Aspose.Words ل .NET 24.4 ملاحظات الإصدار](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-4-release-notes/).
 
 {{% /alert %}}
 
@@ -402,18 +433,18 @@ Aspose.Words 23.12 يقدم خصائص وتعدادات جديدة للعمل م
 * تمت إضافة معلمة نوع عام إلى طرق فئة [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/). <sup>23.10</sup>
 * تم تنفيذ طريقة للتحكم في وقت قبول/رفض مراجعة معينة أو عدم تنفيذها باستخدام طرق [Accept](https://reference.aspose.com/words/net/aspose.words/revisioncollection/accept/) و [Reject](https://reference.aspose.com/words/net/aspose.words/revisioncollection/reject/). يمنح هذا التحسين المستخدمين تحكما أدق في عملية المراجعة. <sup>23.11</sup>
 * تم توفير القدرة على كتابة جميع أقسام المستند على نفس ورقة العمل XLSX من خلال نوع التعداد الجديد [XlsxSectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsectionmode/) وخاصية [SectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/sectionmode/) الجديدة. <sup>23.11</sup>
-* تم تنفيذ طريقة للتحكم في كيفية استخدام ملحقات التنسيق ZIP64 للمستندات OOXML من خلال خاصية Zip64Mode الجديدة لفئة `OoxmlSaveOptions` والتعداد Zip64Mode الجديد. <sup>23.12</sup>
+* تم تنفيذ طريقة للتحكم في كيفية استخدام ملحقات التنسيق ZIP64 للمستندات OOXML من خلال خاصية زيب 64 مود الجديدة لفئة `OoxmlSaveOptions` وتعداد زيب 64 مود الجديد. <sup>23.12</sup>
 * تم تقديم الدعم ل WebP صورة. يرجى ملاحظة أن هذه الميزة متاحة فقط ل .NetStandart و .NET6+ الإصدارات. <sup>23.12</sup>
 
 {{% alert color="primary" %}}
 
-تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 23.9 ](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/).
+تعرف على المزيد حول [Aspose.Words ل .NET 23.9 ملاحظات الإصدار](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/).
 
-تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 23.10 ](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/).
+تعرف على المزيد حول [Aspose.Words لـ .NET 23.10 ملاحظات الإصدار](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/).
 
-تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 23.11 ](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-11-release-notes/).
+تعرف على المزيد حول [Aspose.Words لـ .NET 23.11 ملاحظات الإصدار](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-11-release-notes/).
 
-تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 23.12 ](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-12-release-notes/).
+تعرف على المزيد حول [Aspose.Words لـ .NET 23.12 ملاحظات الإصدار](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-12-release-notes/).
 
 {{% /alert %}}
 
@@ -496,13 +527,13 @@ Mustache يتم دعم العلامات الآن في طرق [MailMerge.GetRegio
 
 {{% alert color="primary" %}}
 
-تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 23.5 ](/words/net/aspose-words-for-net-23-5-release-notes/).
+تعرف على المزيد حول [Aspose.Words ل .NET 23.5 ملاحظات الإصدار](/words/net/aspose-words-for-net-23-5-release-notes/).
 
-تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 23.6 ](/words/net/aspose-words-for-net-23-6-release-notes/).
+تعرف على المزيد حول [Aspose.Words ل .NET 23.6 ملاحظات الإصدار](/words/net/aspose-words-for-net-23-6-release-notes/).
 
-تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 23.7 ](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
+تعرف على المزيد حول [Aspose.Words ل .NET 23.7 ملاحظات الإصدار](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
 
-تعرف على المزيد حول [Aspose.Words لملاحظات الإصدار .NET 23.8 ](/words/net/aspose-words-for-net-23-8-release-notes/).
+تعرف على المزيد حول [Aspose.Words ل .NET 23.8 ملاحظات الإصدار](/words/net/aspose-words-for-net-23-8-release-notes/).
 
 {{% /alert %}}
 

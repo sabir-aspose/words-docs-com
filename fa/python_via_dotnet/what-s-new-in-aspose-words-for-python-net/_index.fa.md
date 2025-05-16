@@ -6,27 +6,34 @@ linktitle: چه چیز جدیدی در Aspose.Words برای Python via .NET
 type: docs
 description: "Aspose.Words برای Python via .NET روزانه گسترش می یابد و افزایش می یابد. در این صفحه می توانید با بزرگ ترین و جالب ترین ویژگی های این محصول آشنا شوید."
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /fa/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-02-17-18-02-05
+timestamp: 2025-04-16-07-02-05
 ---
 
 این صفحه جالب ترین ویژگی های جدید Aspose.Words را که در نسخه های اخیر معرفی شده است، توصیف می کند.
 
-## Aspose.Words برای Python via .NET 25.1, 25.2
+## Aspose.Words برای Python از طریق .NET 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 بررسی گرامر با قدرت AI را معرفی می کند و صرفه جویی در اسناد را با گزینه های پیشرفته برای فرمت های HTML، SVG و Markdown افزایش می دهد.
 
 Aspose.Words 25.2 خلاصه متن را با مدل های Anthropic AI معرفی می کند، پشتیبانی از فرمت MsWorks را اضافه می کند، کنترل تایپوگرافی را افزایش می دهد و ساختار و مدیریت لیست PDF را بهبود می بخشد.
 
+Aspose.Words 25.3 با استفاده از ویژگی UpdateAmbiguousTextFont، بررسی‌کننده گرامر و انتخاب فونت مبتنی بر AI را بهبود می‌بخشد و همچنین خروجی پیوست‌های PDF را بهبود می‌بخشد.
+
+Aspose.Words 25.4 پشتیبانی از اندازه های جدید کاغذ را معرفی می کند، کنترل صادرات پیشرفته HTML را امکان پذیر می کند و کنترل علامت آبی را بهبود می بخشد.
+
 ### AI-ویژگی های قدرت
 
-#### سند AI بررسی گرامر <sup>25.1</sup>
+#### سند AI بررسی گرامر
 
-امکان بررسی دستور زبان سند ارائه شده با استفاده از مدل های تولید کننده OpenAI با اضافه کردن یک روش جدید [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/) معرفی شده است.
+* امکان بررسی دستور زبان سند ارائه شده با استفاده از مدل های تولید کننده OpenAI با اضافه کردن یک روش جدید [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/) معرفی شده است. <sup>25.1</sup>
+* ویژگی بررسی گرامر با قدرت AI به روز شده است تا از تمام مدل های موجود در شمارش [AiModelType](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodeltype/) پشتیبانی کند. <sup>25.3</sup>
 
-#### خلاصه سازی با استفاده از مدل های زبان تولید کننده انسان <sup>25.2</sup>
+#### خلاصه سازی با استفاده از مدل های زبان مولد Anthropic <sup>25.2</sup>
 
-خلاصه متن با استفاده از مدل های زبان تولید کننده انسان با معرفی یک کلاس عمومی جدید [AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/) فعال شده است.
+خلاصه متن با استفاده از مدل های زبان مولد Anthropic با معرفی یک کلاس عمومی جدید [AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/) فعال شده است.
 
 ### فرمت های پشتیبانی شده <sup>25.2</sup>
 
@@ -49,10 +56,24 @@ Aspose.Words 25.2 خلاصه متن را با مدل های Anthropic AI معر�
 
 ویژگی [number_spacing](https://reference.aspose.com/words/python-net/aspose.words/font/number_spacing/) برای کنترل تایپوگرافی بهبود یافته اضافه شده است.
 
+#### کنترل انتخاب فونت برای کاراکترهای مبهم <sup>25.3</sup>
+
+یک ملک عمومی جدید [update_ambiguous_text_font](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/update_ambiguous_text_font/) به کلاس [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) اضافه شده است تا انتخاب فونت را با توجه به کد کاراکتر مورد استفاده کنترل کند.
+
+#### گزینه های اندازه کاغذ <sup>25.4</sup>
+
+قابلیت استفاده از اندازه های کاغذی JIS B4 و JIS B5 با اضافه کردن مقادیر جدید به شمارش [PaperSize](https://reference.aspose.com/words/python-net/aspose.words/papersize/) معرفی شده است.
+
+#### HTML کنترل خروجی <sup>25.4</sup>
+
+امکان حذف JavaScript از hyperlink URLs در طول HTML export با اضافه کردن ویژگی [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/remove_java_script_from_links/) معرفی شده است.
+
 ### سایر
 
 * ساختار منطقی PDF با پشتیبانی از فیلدهای TOA، BIBLIOGRAPHY و INDEX بهبود یافته است. <sup>25.2</sup>
 * روش [add_single_level_list](https://reference.aspose.com/words/python-net/aspose.words.lists/listcollection/add_single_level_list/#listtemplate) برای بهبود مدیریت لیست معرفی شده است. <sup>25.2</sup>
+* یک ویژگی جدید [attachments_embedding_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/attachments_embedding_mode/) برای جایگزینی **EmbedAttachments** برای بهبود صادرات PDF پیوست ها اضافه شده است. همچنین، مقادیر جدیدی به شمارش [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) اضافه شده است تا از پیوست های نسخه PDF/A پشتیبانی کند. علاوه بر این، پیوست ها اکنون با رمزگذاری پشتیبانی می شوند. <sup>25.3</sup>
+* قابلیت تنظیم یک علامت آبی تصویر از یک جریان با اضافه کردن یک اضافه بار جدید به روش [SetImage](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_image/#bytesio_imagewatermarkoptions) معرفی شده است. <sup>25.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,15 +81,19 @@ Aspose.Words 25.2 خلاصه متن را با مدل های Anthropic AI معر�
 
 اطلاعات بیشتر در مورد [Aspose.Words برای Python via .NET 25.2 یادداشت های انتشار](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
+اطلاعات بیشتر در مورد [Aspose.Words برای Python via .NET 25.3 یادداشت های انتشار](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-3-release-notes/).
+
+اطلاعات بیشتر در مورد [Aspose.Words برای Python via .NET 25.4 یادداشت های انتشار](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-4-release-notes/).
+
 {{% /alert %}}
 
 ## Aspose.Words برای Python از طریق .NET 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 درج group shape و درج StructuredDocumentTag را از طریق DocumentBuilder معرفی می کند، رندر نمودار شعاعی را با فارغ التحصیلی افزایش می دهد، امضاهای دیجیتال را با پشتیبانی XAdES-EPES بهبود می بخشد، تشخیص زیرنویس Markdown را اضافه می کند و دسترسی به جداکننده های حاشیه/حاشیه را فراهم می کند.
 
-Aspose.Words 24.10 پشتیبانی از کنترل ActiveX را با CommandButton ایجاد، کنترل دید شکل جدید، توانایی group shapes، صادرات بهبود یافته Markdown برای جداول، قالب بندی نمودار برای Pie و Doughnut نمودارها، مدیریت بهتر کدگذاری Big5 و پشتیبانی از فونت های قدیمی تایوانی معرفی می کند.
+Aspose.Words 24.10 پشتیبانی از کنترل پیشرفته ActiveX را با CommandButton ایجاد، کنترل دید شکل جدید، توانایی group shapes، صادرات بهبود یافته Markdown برای جداول، قالب بندی نمودار برای Pie و Doughnut نمودارها، مدیریت بهتر کدگذاری Big5 و پشتیبانی از فونت های قدیمی تایوانی معرفی می کند.
 
-Aspose.Words 24.11 خلاصه سازی سند با قدرت AI، گزینه های رندر پیشرفته، دسترسی بهتر به ویژگی های سند و زیرنویس کنترل ActiveX را معرفی می کند.
+Aspose.Words 24.11 خلاصه سازی سند با قدرت AI، گزینه های رندر پیشرفته، دسترسی بهتر به ویژگی های سند و ActiveX زیرنویس کنترل را معرفی می کند.
 
 Aspose.Words 24.12 قرار دادن برچسب داده های قابل تنظیم، ترجمه متن Google AI و کلاس های پردازش جدید LowCode را بهبود می بخشد.
 
@@ -92,7 +117,7 @@ Aspose.Words 24.12 قرار دادن برچسب داده های قابل تنظ�
 
 ارائه فارغ التحصیلی در نمودارهای شعاعی اجرا شده است.
 
-#### CommandButton کنترل های ActiveX <sup>24.10</sup>
+#### CommandButton ActiveX کنترل <sup>24.10</sup>
 
 امکان ایجاد کنترل های CommandButton ActiveX با اضافه کردن یک روش عمومی جدید [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) و یک کلاس عمومی جدید [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/) معرفی شده است.
 
@@ -203,9 +228,9 @@ Aspose.Words 24.8 سفارشی سازی نمودار را با کنترل دقی
 
 #### تغییرات در کار با ActiveX <sup>24.7</sup>
 
-- خواص اشیاء ActiveX اکنون می تواند اصلاح شود، به شما کنترل بیشتری بر رفتار آنها می دهد.
-- قابلیت تغییر مقدار دکمه رادیویی ActiveX control برای فعال کردن تعامل پویا اضافه شده است.
-- قابلیت تغییر ActiveX checkbox به" checked "یا" unchecked " اضافه شده است.
+- خواص اشیاء ActiveX اکنون می تواند اصلاح شود، که به شما کنترل بیشتری بر رفتار آنها می دهد.
+- امکان تغییر مقدار دکمه رادیویی ActiveX کنترل برای فعال کردن تعامل پویا اضافه شده است.
+- قابلیت تغییر یک ActiveX checkbox به" checked "یا" unchecked " اضافه شده است.
 
 #### کنترل بر محور نمودار برچسب های تیک جهت گیری و چرخش <sup>24.8</sup>
 
@@ -303,9 +328,9 @@ Aspose.Words 24.4 باعث افزایش فرمت های ذخیره سازی، ب
 
 امکان حفظ خطوط خالی در هنگام بارگذاری فایل های Markdown اضافه شده است.
 
-#### یک TIFF خواننده/نویسنده جدید <sup>24.3</sup>
+#### یک خواننده/نویسنده جدید TIFF <sup>24.3</sup>
 
-یک TIFF خواننده/نویسنده جدید برای Aspose.Words ایجاد شده است. Aspose.Words برای .NET 24.3 پشتیبانی از خواندن تصاویر TIFF با انواع فشرده سازی JPEG و قدیمی JPEG را اضافه کرد و همچنین کیفیت عملیات خواندن و نوشتن را به میزان قابل توجهی بهبود بخشید.
+یک خواننده/نویسنده جدید TIFF برای Aspose.Words توسعه داده شده است. Aspose.Words برای .NET 24.3 پشتیبانی از خواندن تصاویر TIFF با انواع فشرده‌سازی JPEG و قدیمی JPEG اضافه شد و همچنین کیفیت عملیات خواندن و نوشتن به طور قابل توجهی بهبود یافت.
 
 ### سایر
 
@@ -376,7 +401,7 @@ Aspose.Words 23.12 ویژگی ها و شمارش های جدید برای کار
 
 #### کاهش PDF اندازه خروجی <sup>23.10</sup>
 
-بهینه‌سازی‌های مختلف رندر PDF برای کاهش اندازه خروجی هنگام استفاده از تنظیمات [optimize_output](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/optimize_output/) پیاده‌سازی شده‌اند.
+بهینه‌سازی‌های رندرینگ متنوعی PDF برای کاهش حجم خروجی هنگام استفاده از تنظیمات [optimize_output](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/optimize_output/) پیاده‌سازی شده‌اند.
 
 #### تشخیص هایپر لینک ها هنگام بارگذاری TXT اسناد <sup>23.10</sup>
 
@@ -389,7 +414,7 @@ Aspose.Words 23.12 ویژگی ها و شمارش های جدید برای کار
 - امکان دسترسی و تغییر ویژگی های سبک از طریق معرفی ویژگی جدید [locked](https://reference.aspose.com/words/python-net/aspose.words/style/locked/) اضافه شده است. <sup>23.10</sup>
 - یک پارامتر نوع عمومی به روش های کلاس [CompositeNode](https://reference.aspose.com/words/python-net/aspose.words/compositenode/) اضافه شده است. <sup>23.10</sup>
 - توانایی نوشتن تمام بخش های یک سند بر روی همان ورق کار XLSX از طریق نوع جدید [XlsxSectionMode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsectionmode/) شمارش و ویژگی جدید [section_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/section_mode/) ارائه شده است. <sup>23.11</sup>
-* راهی برای کنترل نحوه استفاده از فرمت های ZIP64 برای OOXML اسناد از طریق ویژگی جدید Zip64Mode کلاس `OoxmlSaveOptions` و شمارش جدید Zip64Mode اجرا شده است. <sup>23.12</sup>
+* راهی برای کنترل نحوه استفاده از پسوند های فرمت ZIP64 برای اسناد OOXML از طریق ویژگی جدید Zip64Mode کلاس `OoxmlSaveOptions` و شمارش جدید Zip64Mode اجرا شده است. <sup>23.12</sup>
 * پشتیبانی از WebP تصویر معرفی شده است. لطفا توجه داشته باشید که این ویژگی فقط برای .NetStandart و .NET6+ نسخه. <sup>23.12</sup>
 
 {{% alert color="primary" %}}

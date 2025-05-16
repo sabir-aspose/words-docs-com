@@ -1,4 +1,4 @@
-﻿---
+---
 title: AI - захранващи функции
 second_title: Aspose.Words за Python via .NET
 articleTitle: AI - захранващи функции
@@ -6,8 +6,10 @@ linktitle: AI - захранващи функции
 type: docs
 weight: 35
 description: "Aspose.Words за Python въвежда AI - захранвани инструменти като обобщаване на документи за повишаване на ефективността. Научете как да използвате AI - захранвани функции със съвети и подробни указания."
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /bg/python-net/ai-powered-features/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
 Aspose.Words сега включва AI - захранвани функции, предназначени да направят обработката на документи по-интелигентна и по-ефективна. Тези инструменти използват усъвършенстваното машинно обучение, за да изпълняват задачи като обобщаване на документи, предлагайки на разработчиците по-мощни възможности за рационализиране на техните работни потоци.
@@ -16,3 +18,5 @@ Aspose.Words сега включва AI - захранвани функции, �
 
 * [Поддържани Модели AI ](/words/python-net/supported-ai-models/)
 * [Обобщаване на документ](/words/python-net/summarize-a-document/)
+* [Превод на документ](/words/python-net/translate-a-document/)
+* [Проверка На Граматиката](/words/python-net/grammar-checking/)

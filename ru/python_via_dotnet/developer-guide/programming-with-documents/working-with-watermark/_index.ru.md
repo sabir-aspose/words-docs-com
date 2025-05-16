@@ -1,4 +1,4 @@
-﻿---
+---
 title: Работа с водяным знаком в Python
 second_title: Aspose.Words для Python via .NET
 articleTitle: Работа с водяными знаками
@@ -6,8 +6,10 @@ linktitle: Работа с водяными знаками
 description: "Создавайте водяные знаки в документе и управляйте ими с помощью Python."
 type: docs
 weight: 340
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ru/python-net/working-with-watermark/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-04-16-07-02-05
 ---
 
 В этом разделе обсуждается, как программно работать с водяными знаками с помощью Aspose.Words. Водяной знак - это фоновое изображение, которое отображается за текстом в документе. Водяной знак может содержать текст или изображение, представленные классом [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/).
@@ -26,7 +28,7 @@ timestamp: 2024-01-27-14-07-04
 
 ### Добавить текстовый водяной знак
 
-В следующем примере кода показано, как вставить текстовый водяной знак в документ, определив [TextWatermarkOptions](https://reference.aspose.com/words/python-net/aspose.words/textwatermarkoptions/) с помощью метода [set_text](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_text/).
+В следующем примере кода показано, как вставить текстовый водяной знак в документ, определив [TextWatermarkOptions](https://reference.aspose.com/words/python-net/aspose.words/textwatermarkoptions/) с помощью метода [set_text](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_text/):
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_watermark-AddTextWatermarkWithSpecificOptions.py" >}}
 
@@ -36,9 +38,11 @@ timestamp: 2024-01-27-14-07-04
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_watermark-AddImageWatermarkWithSpecificOptions.py" >}}
 
+Водяной знак изображения может быть вставлен в виде изображения, строки или потока.
+
 Водяной знак также можно вставить с помощью класса shape. Очень легко вставить любую фигуру или изображение в верхний или нижний колонтитул и, таким образом, создать водяной знак любого мыслимого типа.
 
-В следующем примере кода водяной знак вставляется в документ Word:
+Следующий пример кода вставляет водяной знак в документ Word:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_watermark-AddWatermark.py" >}}
 

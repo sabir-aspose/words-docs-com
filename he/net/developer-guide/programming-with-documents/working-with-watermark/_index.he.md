@@ -1,78 +1,78 @@
 ---
-title: עבודה עם Watermark C#
+title: עבודה עם סימן מים ב C#
 second_title: Aspose.Words עבור .NET
-articleTitle: עבודה עם Watermark
-linktitle: עבודה עם Watermark
-description: "מניפולציות סימן מים באמצעות C#."
+articleTitle: עבודה עם סימן מים
+linktitle: עבודה עם סימן מים
+description: "מסמך מניפולציה סימן מים באמצעות C#."
 type: docs
 weight: 340
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /he/net/working-with-watermark/
-timestamp: 2024-05-02-11-51-44
+timestamp: 2025-04-16-07-02-05
 ---
 
-נושא זה דן כיצד לעבוד באופן יזום עם סימן מים באמצעות סימן מים Aspose.Words. סימן מים הוא תמונת רקע המציגה מאחורי הטקסט במסמך. סימן מים יכול להכיל טקסט או תמונה המיוצגת על ידי [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) מעמד.
+נושא זה דן כיצד לעבוד באופן פרוגרמטי עם סימן מים באמצעות Aspose.Words. סימן מים הוא תמונת רקע המוצגת מאחורי הטקסט במסמך. סימן מים יכול להכיל טקסט או תמונה המיוצגת על ידי הכיתה [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/).
 
 {{% alert color="primary" %}}
 
 **נסה באינטרנט**
 
-אתה יכול לנסות את הפונקציונליות שלנו [Free online Document Watermark](https://products.aspose.app/words/watermark).
+אתה יכול לנסות את הפונקציונליות הזו עם שלנו [סימן מים למסמכים מקוונים בחינם](https://products.aspose.app/words/watermark).
 
 {{% /alert %}}
 
-## הוסף סימן מים לתעודה
+## הוסף סימן מים למסמך
 
-In In In Microsoft Word, סימן מים יכול להיות מוכנס בקלות במסמך באמצעות הפקודה הכנס Watermark. Aspose.Words מספק [watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) שיעור להוסיף או להסיר סימן מים במסמכים. Aspose.Words מספק [סימן מים סוג](https://reference.aspose.com/words/net/aspose.words/watermark/type/)הגדרה של שלושה סוגים אפשריים של סימני מים (Text, Image, and None) לעבוד עם
+ב Microsoft Word, ניתן להכניס בקלות סימן מים למסמך באמצעות הפקודה הוסף סימן מים. Aspose.Words מספק את הכיתה [watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) כדי להוסיף או להסיר סימן מים במסמכים. Aspose.Words מספק את הספירה [WatermarkType](https://reference.aspose.com/words/net/aspose.words/watermark/type/)המגדירה שלושה סוגים אפשריים של סימני מים (טקסט, תמונה ואף אחד) לעבוד איתם.
 
-### תגית: Text Watermark
+### הוסף סימן מים טקסט
 
-הדוגמה הבאה של הקוד ממחישה כיצד להוסיף סימן מים בטקסט במסמך על ידי הגדרה [TextWatermarkOptions](https://reference.aspose.com/words/net/aspose.words/textwatermarkoptions/) באמצעות [SetText](https://reference.aspose.com/words/net/aspose.words/watermark/settext/#settext) שיטה:
+דוגמת הקוד הבאה מראה כיצד להוסיף סימן מים טקסט במסמך על ידי הגדרת [TextWatermarkOptions](https://reference.aspose.com/words/net/aspose.words/textwatermarkoptions/) באמצעות שיטת [SetText](https://reference.aspose.com/words/net/aspose.words/watermark/settext/#settext):
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkWithWatermark-AddTextWatermarkWithSpecificOptions.cs" >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "add-text-watermark.cs" >}}
 
-### תגית: Bloodmark
+### הוסף סימן מים לתמונה
 
-הדוגמה הבאה של הקוד מראה כיצד להוסיף סימן מים בתמונה במסמך על ידי הגדרה [ImageWatermarkOptions](https://reference.aspose.com/words/net/aspose.words/imagewatermarkoptions/) באמצעות [SetImage](https://reference.aspose.com/words/net/aspose.words/watermark/setimage/#setimage) שיטה:
+דוגמת הקוד הבאה מראה כיצד להוסיף סימן מים לתמונה במסמך על ידי הגדרת [ImageWatermarkOptions](https://reference.aspose.com/words/net/aspose.words/imagewatermarkoptions/) באמצעות שיטת [SetImage](https://reference.aspose.com/words/net/aspose.words/watermark/setimage/#setimage):
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cs" >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "add-image-watermark.cs" >}}
 
-סימן המים ניתן גם להיות מוכנס באמצעות כיתה צורה. זה מאוד קל להכניס כל צורה או תמונה לתוך ראש או רגל ובכך ליצור סימן מים מכל סוג שניתן להעלות על הדעת.
+ניתן להוסיף סימן מים לתמונה כתמונה, מחרוזת או זרם.
 
-הדוגמה הבאה לקוד מציגה סימן מים במסמך Word:
+ניתן להכניס את סימן המים גם באמצעות מחלקת צורה. קל מאוד להכניס כל צורה או תמונה לכותרת עליונה או תחתונה וכך ליצור סימן מים מכל סוג שניתן להעלות על הדעת.
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Images-AddWatermark-AddWatermark.cs" >}}
+הדוגמה הבאה של הקוד מכניסה סימן מים למסמך Word:
+
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "add-document-watermark.cs" >}}
 
 {{% alert color="primary" %}}
 
-ניתן להוריד את קובץ הדגימה של דוגמה זו [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
+ניתן להוריד את קובץ המדגם של דוגמה זו מ [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 {{% /alert %}}
 
 
-## הסרת סימן מים ממכתב
+## הסר סימן מים ממסמך
 
-The The The [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) הכיתה מספקת את שיטת מסירת סימן המים ממסמכים.
+המחלקה [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) מספקת את שיטת ההסרה להסרת סימן המים ממסמך.
 
-דוגמה לקוד הבא מראה כיצד להסיר סימן מים ממסמכים:
+דוגמת הקוד הבאה מראה כיצד להסיר סימן מים ממסמכים:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkWithWatermark-RemoveWatermarkFromDocument.cs" >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "remove-document-watermark.cs" >}}
 
-אם מוסיפים סימני מים באמצעות [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) אובייקט הכיתה לאחר מכן כדי להסיר את סימן המים מ מסמך שאתה צריך להגדיר רק את השם של צורת סימן מים במהלך הכנס ולאחר מכן להסיר את צורת סימן המים על ידי שם מוקצה.
+אם סימני המים מתווספים באמצעות אובייקט הכיתה [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/), כדי להסיר את סימן המים ממסמך, עליך להגדיר רק את שם צורת סימן המים במהלך ההכנסה ולאחר מכן להסיר את צורת סימן המים בשם שהוקצה.
 
-דוגמה הקוד הבא מראה לך כיצד להגדיר את השם של צורת סימן המים ולהסיר אותו מן המסמך:
+דוגמת הקוד הבאה מראה לך כיצד להגדיר את שם צורת סימן המים ולהסיר אותה מהמסמך:
 
-{{< highlight csharp >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "set-shape-name.cs" >}}
 
-// Set name to be able to remove it afterwards
-watermark.Name("WaterMark");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "remove-watermark-shape.cs" >}}
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Images-RemoveWatermark-RemoveWatermark.cs" >}}
+## הוסף סימן מים לתא טבלה
 
-## הוסף סימן מים לתוך תא שולחן
+לפעמים אתה צריך להכניס סימן מים/תמונה לתא של טבלה ולהציג אותה מחוץ לטבלה, אתה יכול להשתמש במאפיין [IsLayoutInCell](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/islayoutincell/). מאפיין זה מקבל או קובע דגל המציין אם הצורה מוצגת בתוך שולחן או מחוצה לו. שים לב שמאפיין זה פועל רק כאשר אתה מבצע אופטימיזציה של המסמך עבור Microsoft Word 2010 בשיטת [OptimizeFor](https://reference.aspose.com/words/net/aspose.words.settings/compatibilityoptions/optimizefor/).
 
-לפעמים אתה צריך להוסיף סימן מים / תמונה לתוך תא השולחן ולהציג אותו מחוץ לשולחן, אתה יכול להשתמש [IsLayoutInCell](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/islayoutincell/) רכוש. נכס זה מקבל או קובע דגל המציין אם הצורה מוצגת בתוך שולחן או מחוץ לו. שים לב כי הנכס עובד רק כאשר אתה מייעל את המסמך Microsoft Word 2010 שימוש [OptimizeFor](https://reference.aspose.com/words/net/aspose.words.settings/compatibilityoptions/optimizefor/) שיטה.
+דוגמת הקוד הבאה מראה כיצד להשתמש במאפיין זה:
 
-דוגמה לקוד הבא מראה כיצד להשתמש בנכס זה:
-
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-SetShapeLayoutInCell.cs" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "layout-in-cell.cs" >}}

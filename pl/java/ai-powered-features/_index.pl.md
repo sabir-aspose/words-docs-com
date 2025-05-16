@@ -1,13 +1,15 @@
-﻿---
+---
 title: AI - funkcje zasilane
 second_title: Aspose.Words dla Java
 articleTitle: AI - funkcje zasilane
 linktitle: AI - funkcje zasilane
 type: docs
 weight: 25
-description: "Aspose.Words for Java wprowadza narzędzia oparte na AI, takie jak podsumowywanie dokumentów, w celu zwiększenia wydajności. Dowiedz się, jak korzystać z funkcji obsługiwanych przez AI, korzystając ze wskazówek i szczegółowych wskazówek."
+description: "Aspose.Words dla Java wprowadza narzędzia oparte na AI, takie jak podsumowywanie dokumentów, aby zwiększyć wydajność. Dowiedz się, jak korzystać z funkcji obsługiwanych przez AI, korzystając ze wskazówek i szczegółowych wskazówek."
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /pl/java/ai-powered-features/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
 Aspose.Words zawiera teraz funkcje oparte na AI, które mają na celu usprawnienie i usprawnienie przetwarzania dokumentów. Narzędzia te wykorzystują zaawansowane uczenie maszynowe do wykonywania zadań, takich jak podsumowywanie dokumentów, oferując programistom bardziej zaawansowane możliwości usprawnienia przepływów pracy.
@@ -16,4 +18,5 @@ W tej sekcji omówimy wszystko, co musisz wiedzieć o korzystaniu z obsługiwany
 
 * [Obsługiwane Modele AI ](/words/java/supported-ai-models/)
 * [Podsumuj dokument](/words/java/summarize-a-document/)
-
+* [Przetłumacz dokument](/words/java/translate-a-document/)
+* [Sprawdzanie Gramatyki](/words/java/grammar-checking/)

@@ -6,27 +6,40 @@ linktitle: Apa yang baru di Aspose.Words untuk Java
 type: docs
 description: "Aspose.Words untuk Java memperluas dan meningkatkan setiap hari. Di halaman ini, Anda dapat mempelajari tentang fitur produk yang sangat besar dan paling menarik."
 weight: 2
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /id/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2025-17-02-18-02-05
+timestamp: 2025-04-22-08-02-05
 ---
 
 Halaman ini menjelaskan fitur Aspose.Words baru yang paling menarik yang diperkenalkan dalam rilis terbaru.
 
-## Aspose.Words untuk Java 25.1, 25.2
+## Aspose.Words untuk Java 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 memperkenalkan pemeriksaan tata bahasa bertenaga AI dan menyempurnakan penyimpanan dokumen dengan opsi lanjutan untuk format HTML, SVG, dan Markdown.
 
-Aspose.Words 25.2 memperkenalkan peringkasan teks dengan model Antropik AI, menambahkan dukungan format MsWorks, meningkatkan kontrol tipografi, dan meningkatkan struktur PDF dan penanganan daftar.
+Aspose.Words 25.2 memperkenalkan peringkasan teks dengan model Anthropic AI, menambahkan dukungan format MsWorks, meningkatkan kontrol tipografi, dan meningkatkan struktur PDF dan penanganan daftar.
+
+Aspose.Words 25.3 menyempurnakan pemeriksa tata bahasa dan pemilihan font bertenaga AI dengan properti UpdateAmbiguousTextFont, serta meningkatkan ekspor lampiran PDF.
+
+Aspose.Words 25.4 memperkenalkan dukungan untuk ukuran kertas baru, memungkinkan kontrol ekspor HTML tingkat lanjut, meningkatkan penanganan tanda air, dan meningkatkan kegunaan LowCode API.
 
 ### AI-Fitur bertenaga
 
-#### Dokumen AI Pemeriksaan Tata Bahasa <sup>25.1</sup>
+#### Dokumen AI Pemeriksaan Tata Bahasa
 
-Kemampuan untuk memeriksa tata bahasa dokumen yang disediakan menggunakan model generatif OpenAI telah diperkenalkan dengan menambahkan metode [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions) baru.
+* Kemampuan untuk memeriksa tata bahasa dokumen yang disediakan menggunakan model generatif OpenAI telah diperkenalkan dengan menambahkan metode [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions) baru. <sup>25.1</sup>
+* Fitur Pemeriksaan Tata Bahasa bertenaga AI telah diperbarui untuk mendukung semua model yang tersedia dalam pencacahan [AiModelType](https://reference.aspose.com/words/java/com.aspose.words/aimodeltype/). <sup>25.3</sup>
 
-#### Ringkasan Menggunakan Model Bahasa Generatif Antropik <sup>25.2</sup>
+#### Ringkasan Menggunakan Model Bahasa Generatif Anthropic <sup>25.2</sup>
 
-Peringkasan teks menggunakan model bahasa generatif Antropik telah diaktifkan dengan memperkenalkan kelas publik baru [AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/).
+Peringkasan teks menggunakan model bahasa generatif Anthropic telah diaktifkan dengan memperkenalkan kelas publik baru [AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/).
+
+### Low Code
+
+#### Low Code API Kegunaan <sup>25.4</sup>
+
+Peningkatan signifikan pada kegunaan **LowCode API** telah diperkenalkan, menyederhanakan pemrosesan dokumen dan mengurangi kebutuhan akan kode yang berulang.
 
 ### Format yang Didukung <sup>25.2</sup>
 
@@ -42,6 +55,7 @@ Menyimpan ke format HTML dan SVG telah ditingkatkan dengan menambahkan properti 
 
 * Opsi [ImageResolution](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageResolution) baru telah ditambahkan ke kelas [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) untuk mengatur resolusi gambar.
 * Opsi [OfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getOfficeMathExportMode) baru dan enumerasi [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownofficemathexportmode/) telah dan ditambahkan ke kelas [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) untuk menyetel mode keluaran OfficeMath.
+* Kemampuan untuk menyetel tanda air gambar dari aliran telah diperkenalkan dengan menambahkan kelebihan beban baru ke metode [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.io.InputStream-com.aspose.words.ImageWatermarkOptions). <sup>25.4</sup>
 
 ### Rendering
 
@@ -49,16 +63,33 @@ Menyimpan ke format HTML dan SVG telah ditingkatkan dengan menambahkan properti 
 
 Properti [NumberSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getNumberSpacing) telah ditambahkan untuk kontrol tipografi yang lebih baik.
 
+#### Mengontrol Pemilihan Font untuk Karakter Ambigu <sup>25.3</sup>
+
+Properti publik baru [UpdateAmbiguousTextFont](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateAmbiguousTextFont) telah ditambahkan ke kelas [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) untuk mengontrol pemilihan font sesuai dengan kode karakter yang digunakan.
+
+#### Opsi Ukuran Kertas <sup>25.4</sup>
+
+Kemampuan untuk menggunakan ukuran kertas JIS B4 dan JIS B5 telah diperkenalkan dengan menambahkan nilai baru ke enumerasi [PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/).
+
+#### HTML Kontrol Keluaran <sup>25.4</sup>
+
+Kemampuan untuk menghapus JavaScript dari hyperlink URLs selama ekspor HTML telah diperkenalkan dengan menambahkan properti [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getRemoveJavaScriptFromLinks).
+
 ### Lainnya
 
 * PDF struktur logika telah ditingkatkan dengan dukungan untuk bidang TOA, BIBLIOGRAPHY, dan INDEX. <sup>25.2</sup>
 * Metode [AddSingleLevelList](https://reference.aspose.com/words/java/com.aspose.words/listcollection/#addSingleLevelList-int) telah diperkenalkan untuk penanganan daftar yang lebih baik. <sup>25.2</sup>
+* Properti baru [AttachmentsEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getAttachmentsEmbeddingMode) telah ditambahkan untuk menggantikan **EmbedAttachments** untuk meningkatkan ekspor lampiran PDF. Selain itu, nilai baru telah ditambahkan ke enumerasi [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) untuk mendukung lampiran versi PDF/A. Selain itu, lampiran sekarang didukung dengan enkripsi. <sup>25.3</sup>
 
 {{% alert color="primary" %}}
 
 Pelajari lebih lanjut tentang [Aspose.Words untuk Java 25.1 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-1-release-notes/).
 
 Pelajari lebih lanjut tentang [Aspose.Words untuk Java 25.2 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-2-release-notes/).
+
+Pelajari lebih lanjut tentang [Aspose.Words untuk Java 25.3 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-3-release-notes/).
+
+Pelajari lebih lanjut tentang [Aspose.Words untuk Java 25.4 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-4-release-notes/).
 
 {{% /alert %}}
 
@@ -92,9 +123,9 @@ Kelas LowCode baru seperti [Comparer](https://reference.aspose.com/words/java/co
 
 Rendering gradasi pada grafik radial telah diterapkan.
 
-#### CommandButton Kontrol ActiveX <sup>24.10</sup>
+#### CommandButton ActiveX Kontrol <sup>24.10</sup>
 
-Kemampuan untuk membuat kontrol ActiveX CommandButton telah diperkenalkan dengan menambahkan metode publik baru [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) dan kelas publik baru [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/).
+Kemampuan untuk membuat kontrol CommandButton ActiveX telah diperkenalkan dengan menambahkan metode publik baru [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) dan kelas publik baru [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/).
 
 #### Kontrol Visibilitas Bentuk <sup>24.10</sup>
 
@@ -206,7 +237,7 @@ Penyetel untuk properti publik [CustomNumberStyleFormat](https://reference.aspos
 #### Perubahan dalam bekerja dengan ActiveX <sup>24.7</sup>
 
 * Properti objek ActiveX sekarang dapat dimodifikasi, memberi Anda kontrol lebih besar atas perilakunya.
-* Kemampuan untuk mengubah nilai kontrol ActiveX tombol radio untuk mengaktifkan interaksi dinamis telah ditambahkan.
+* Kemampuan untuk mengubah nilai kontrol tombol radio ActiveX untuk mengaktifkan interaksi dinamis telah ditambahkan.
 * Kemampuan untuk mengubah ActiveX checkbox menjadi "dicentang " atau" tidak dicentang " telah ditambahkan.
 
 #### Kontrol Atas Sumbu Bagan Centang Label Orientasi dan Rotasi <sup>24.8</sup>

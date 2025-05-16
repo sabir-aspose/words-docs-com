@@ -1,4 +1,4 @@
-﻿---
+---
 title: AI - aangedrewe Funksies
 second_title: Aspose.Words vir .NET
 articleTitle: AI - aangedrewe Funksies
@@ -6,8 +6,10 @@ linktitle: AI - aangedrewe Funksies
 type: docs
 weight: 35
 description: "Aspose.Words vir .NET stel AI-aangedrewe gereedskap soos dokumentopsomming bekend om doeltreffendheid te verhoog. Leer hoe om AI-aangedrewe funksies te gebruik met wenke en gedetailleerde leiding."
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /af/net/ai-powered-features/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
 Aspose.Words sluit nou AI-aangedrewe funksies in wat ontwerp is om dokumentverwerking slimmer en doeltreffender te maak. Hierdie gereedskap gebruik gevorderde masjienleer om take soos dokumentopsomming uit te voer, wat ontwikkelaars kragtiger vermoëns bied om hul werkstrome te stroomlyn.
@@ -16,4 +18,5 @@ In hierdie afdeling dek ons alles wat u moet weet oor die gebruik van ondersteun
 
 * [Ondersteunde AI Modelle](/words/net/supported-ai-models/)
 * [Som'n Dokument op](/words/net/summarize-a-document/)
-
+* [Vertaal'n Dokument](/words/net/translate-a-document/)
+* [Grammatika-Kontrole](/words/net/grammar-checking/)

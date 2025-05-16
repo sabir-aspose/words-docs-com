@@ -1,20 +1,22 @@
-﻿---
+---
 title: 文書を要約する
 second_title: Aspose.WordsのためのJava
 articleTitle: 文書を要約する
 linktitle: 文書を要約する
 type: docs
 weight: 20
-description: "文書を要約します。 Aspose.WordsforJavaは、要約の長さを指定できるようにすることで、OpenAIモデルとGoogleAIモデルを使用して文書の要約を簡素化します。"
+description: "文書を要約します。 Aspose.WordsのためのJava 要約の長さを指定できるようにすることで、OpenAIモデルとGoogleAIモデルを使用して文書の要約を簡素化します。"
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ja/java/summarize-a-document/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
-文書の要約は、コンテンツのレビュー、迅速な洞察、または抄録の準備のための貴重なツールです。 Aspose.WordsはAI搭載モデルを使用した文書の要約をサポートし、長いテキストの処理を容易にします。 この機能はAIベースのAspose.Words機能で利用でき、*OpenAI*と*Google*の高度な生成言語モデルを統合しています。
+文書の要約は、コンテンツのレビュー、迅速な洞察、または抄録の準備のための貴重なツールです。 Aspose.WordsはAI搭載モデルを使用した文書の要約をサポートし、長いテキストの処理を容易にします。 この機能はAIベースのAspose.Words機能で利用可能で、*OpenAI*と*Google*の高度な生成言語モデルと*Claude's*人類の生成言語モデルを統合しています。 サポートされているモデルのリストは[AiModelType](https://reference.aspose.com/words/java/com.aspose.words/aimodeltype/)列挙体で利用できます。
 
 文書の内容を要約するためのさまざまなオプションを指定できます。 ドキュメントの概要を生成するには、[Summarize](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#summarize-com.aspose.words.Document-com.aspose.words.SummarizeOptions)メソッドを使用します。 また、[SummaryLength](https://reference.aspose.com/words/java/com.aspose.words/summarizeoptions/#getSummaryLength)プロパティを使用して要約の長さを設定することもできます。
 
-Aspose.Wordsを使用すると、文書の要約を実装するのは簡単です。 次のコード例は、GPT-4oモデルを使用してドキュメントを合計するhotを示しています:
+Aspose.Wordsを使用すると、文書の要約を実装するのは簡単です。 次のコード例は、GPT-4oモデルを使用して文書を要約する方法を示しています:
 
 {{< highlight java >}}
 Document firstDoc = new Document(getMyDir() + "Big document.docx");

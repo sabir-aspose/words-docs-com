@@ -6,27 +6,40 @@ linktitle: Ce este nou în Aspose.Words pentru Java
 type: docs
 description: "Aspose.Words pentru Java extinde și îmbunătățește zilnic. Pe această pagină, puteți afla despre caracteristicile uriașe și cele mai interesante ale produsului."
 weight: 2
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ro/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2025-17-02-18-02-05
+timestamp: 2025-04-22-08-02-05
 ---
 
 Această pagină descrie cele mai interesante caracteristici noi Aspose.Words introduse în versiunile recente.
 
-## Aspose.Words pentru Java 25.1, 25.2
+## Aspose.Words pentru Java 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 introduce verificarea gramaticală bazată pe AI și îmbunătățește salvarea documentelor cu opțiuni avansate pentru formatele HTML, SVG și Markdown.
 
-Aspose.Words 25.2 introduce rezumarea textului cu modele antropice AI, adaugă suport pentru formatul MsWorks, îmbunătățește controlul tipografic și îmbunătățește structura PDF și manipularea listei.
+Aspose.Words 25.2 introduce rezumarea textului cu modele Anthropic AI, adaugă suport pentru formatul MsWorks, îmbunătățește controlul tipografic și îmbunătățește structura PDF și manipularea listei.
+
+Aspose.Words 25.3 îmbunătățește un verificator gramatical alimentat de AI și selecția fontului cu proprietatea UpdateAmbiguousTextFont, precum și îmbunătățește exportul de atașamente PDF.
+
+Aspose.Words 25.4 introduce suport pentru noi dimensiuni de hârtie, permite controlul avansat al exporturilor HTML, îmbunătățește manipularea filigranului și îmbunătățește capacitatea de utilizare a LowCode API.
 
 ### AI - funcții alimentate
 
-#### Document AI Verificarea Gramaticii <sup>25.1</sup>
+#### Document AI Verificarea Gramaticii
 
-Capacitatea de a verifica gramatica documentului furnizat folosind OpenAI modele generative a fost introdusă prin adăugarea unei noi metode [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions).
+* Capacitatea de a verifica gramatica documentului furnizat folosind OpenAI modele generative a fost introdusă prin adăugarea unei noi metode [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions). <sup>25.1</sup>
+* Funcția de verificare a gramaticii alimentată de AI a fost actualizată pentru a sprijini toate modelele disponibile în enumerarea [AiModelType](https://reference.aspose.com/words/java/com.aspose.words/aimodeltype/). <sup>25.3</sup>
 
-#### Rezumarea Folosind Modele De Limbaj Generativ Antropic <sup>25.2</sup>
+#### Rezumarea Folosind Anthropic Modele De Limbaj Generativ <sup>25.2</sup>
 
-Rezumatul textului folosind modele de limbaj generativ antropic a fost permis prin introducerea unei noi clase publice [AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/).
+Rezumarea textului folosind Anthropic modele de limbaj generativ a fost activată prin introducerea unei noi clase publice [AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/).
+
+### Low Code
+
+#### Low Code API Utilizare <sup>25.4</sup>
+
+Au fost introduse îmbunătățiri semnificative ale utilizabilității **LowCode API**, simplificând procesarea documentelor și reducând nevoia de cod repetitiv.
 
 ### Formate Acceptate <sup>25.2</sup>
 
@@ -42,6 +55,7 @@ Salvarea în formatele HTML și SVG a fost îmbunătățită prin adăugarea pro
 
 * O nouă opțiune [ImageResolution](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageResolution) a fost adăugată la clasa [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) pentru a seta rezoluția imaginii.
 * O nouă opțiune [OfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getOfficeMathExportMode) și [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownofficemathexportmode/) enumerare au fost și adăugate la clasa [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) pentru a seta OfficeMath modul de ieșire.
+* Capacitatea de a seta un filigran de imagine dintr-un flux a fost introdusă prin adăugarea unei noi supraîncărcări la metoda [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.io.InputStream-com.aspose.words.ImageWatermarkOptions). <sup>25.4</sup>
 
 ### Redare
 
@@ -49,10 +63,23 @@ Salvarea în formatele HTML și SVG a fost îmbunătățită prin adăugarea pro
 
 Proprietatea [NumberSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getNumberSpacing) a fost adăugată pentru un control tipografic îmbunătățit.
 
+#### Controlul selecției fonturilor pentru caractere ambigue <sup>25.3</sup>
+
+O nouă proprietate publică [UpdateAmbiguousTextFont](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateAmbiguousTextFont) a fost adăugată la clasa [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) pentru a controla selecția fontului în funcție de codul de caractere utilizat.
+
+#### Opțiuni Pentru Dimensiunea Hârtiei <sup>25.4</sup>
+
+Capacitatea de a utiliza dimensiunile hârtiei JIS B4 și JIS B5 a fost introdusă prin adăugarea de noi valori la enumerarea [PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/).
+
+#### HTML Controlul Ieșirii <sup>25.4</sup>
+
+Abilitatea de a elimina JavaScript din hyperlink URLs în timpul exportului HTML a fost introdusă prin adăugarea proprietății [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getRemoveJavaScriptFromLinks).
+
 ### Altele
 
 * PDF structura logică a fost îmbunătățită cu suport pentru câmpurile TOA, BIBLIOGRAPHY și INDEX. <sup>25.2</sup>
 * Metoda [AddSingleLevelList](https://reference.aspose.com/words/java/com.aspose.words/listcollection/#addSingleLevelList-int) a fost introdusă pentru o mai bună gestionare a listelor. <sup>25.2</sup>
+* O nouă proprietate [AttachmentsEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getAttachmentsEmbeddingMode) a fost adăugată pentru a înlocui **EmbedAttachments** pentru a îmbunătăți exportul de atașamente PDF. De asemenea, au fost adăugate noi valori la enumerarea [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) pentru a sprijini atașamentele versiunii PDF/A. În plus, atașamentele sunt acum acceptate cu criptare. <sup>25.3</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,15 +87,19 @@ Aflați mai multe despre [Aspose.Words pentru Java 25.1 Note De Lansare](https:/
 
 Aflați mai multe despre [Aspose.Words pentru Java 25.2 Note De Lansare](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-2-release-notes/).
 
+Aflați mai multe despre [Aspose.Words pentru Java 25.3 Note De Lansare](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-3-release-notes/).
+
+Aflați mai multe despre [Aspose.Words pentru Java 25.4 Note De Lansare](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-4-release-notes/).
+
 {{% /alert %}}
 
 ## Aspose.Words pentru Java 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 introduce group shape Inserare și StructuredDocumentTag Inserare prin DocumentBuilder, îmbunătățește randarea diagramelor radiale cu gradații, îmbunătățește semnăturile digitale cu suport XAdES-EPES, adaugă Markdown recunoașterea sublinierii și oferă acces la separatoarele de notă de subsol/notă finală.
 
-Aspose.Words 24.10 introduce suport îmbunătățit pentru controlul ActiveX cu crearea CommandButton, Controlul vizibilității formei noi, capacitatea de a group shapes, exportul Markdown îmbunătățit pentru tabele, formatarea diagramelor pentru graficele Pie și Doughnut, o mai bună manipulare a codificării Big5 și suport pentru fonturile taiwaneze învechite.
+Aspose.Words 24.10 introduce suport îmbunătățit pentru controlul ActiveX cu crearea CommandButton, Controlul vizibilității formei noi, capacitatea de a group shapes, export îmbunătățit Markdown pentru tabele, formatarea diagramelor pentru graficele Pie și Doughnut, o mai bună manipulare a codificării Big5 și suport pentru fonturile taiwaneze învechite.
 
-Aspose.Words 24.11 introduce rezumatul documentelor alimentat de AI, opțiuni de redare îmbunătățite, acces îmbunătățit la proprietățile documentului și subtitrarea ActiveX control.
+Aspose.Words 24.11 introduce rezumatul documentelor alimentat de AI, opțiuni de redare îmbunătățite, acces îmbunătățit la proprietățile documentului și subtitrarea controlului ActiveX.
 
 Aspose.Words 24.12 introduce plasarea personalizabilă a etichetelor de date, traducerea textului Google AI, opțiunile îmbunătățite de curățare Mail Merge și noile clase de procesare LowCode.
 
@@ -92,9 +123,9 @@ Noi LowCode clase ca [Comparer](https://reference.aspose.com/words/java/com.aspo
 
 A fost implementată redarea gradărilor pe diagrame radiale.
 
-#### CommandButton Controale ActiveX <sup>24.10</sup>
+#### CommandButton ActiveX controale <sup>24.10</sup>
 
-Abilitatea de a crea CommandButton controale ActiveX a fost introdusă prin adăugarea unei noi metode publice [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) și a unei noi clase publice [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/).
+Abilitatea de a crea controale CommandButton ActiveX a fost introdusă prin adăugarea unei noi metode publice [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) și a unei noi clase publice [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/).
 
 #### Controlați Vizibilitatea Formei <sup>24.10</sup>
 
@@ -151,7 +182,7 @@ Abilitatea de a semna documente cu XAdES-EPES Nivel XML-DSig semnături a fost i
 * Manipularea codificării Big5 pentru TrueType tabele cmap a fost îmbunătățită. <sup>24.10</sup>
 * Suportul pentru fonturile taiwaneze învechite a fost îmbunătățit. <sup>24.10</sup>
 * Pentru a accesa proprietățile extinse ale documentului, proprietățile numai în citire au fost adăugate la clasa [BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/). <sup>24.11</sup>
-* Setarea subtitrărilor pentru controalele ActiveX a fost activată prin adăugarea unui nou setter public la proprietatea [Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption). <sup>24.11</sup>
+* Setarea subtitrărilor pentru controalele ActiveX a fost activată prin adăugarea unui nou setator public la proprietatea [Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption). <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
@@ -206,7 +237,7 @@ A fost adăugat un setter pentru proprietatea publică [CustomNumberStyleFormat]
 #### Modificări în lucrul cu ActiveX <sup>24.7</sup>
 
 * Proprietățile obiectelor ActiveX pot fi acum modificate, oferindu-vă mai mult control asupra comportamentului lor.
-* A fost adăugată posibilitatea de a modifica valoarea butonului Radio ActiveX control pentru a permite interacțiunea dinamică.
+* A fost adăugată posibilitatea de a modifica valoarea controlului butonului radio ActiveX pentru a activa interacțiunea dinamică.
 * A fost adăugată posibilitatea de a comuta un ActiveX checkbox la "verificat" sau "debifat".
 
 #### Controlul asupra axei diagramei bifați etichetele orientare și rotație <sup>24.8</sup>

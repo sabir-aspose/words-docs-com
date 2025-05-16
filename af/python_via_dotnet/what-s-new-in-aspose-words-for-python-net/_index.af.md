@@ -6,27 +6,34 @@ linktitle: Wat is nuut in Aspose.Words vir Python via .NET
 type: docs
 description: "Aspose.Words vir Python via .NET brei en verbeter daagliks. Op hierdie bladsy kan jy leer oor die groot en interessantste kenmerke van die produk."
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /af/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-02-17-18-02-05
+timestamp: 2025-04-16-07-02-05
 ---
 
 Hierdie bladsy beskryf die interessantste nuwe Aspose.Words funksies wat in onlangse vrystellings bekendgestel is.
 
-## Aspose.Words vir Python via .NET 25.1, 25.2
+## Aspose.Words vir Python via .NET 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 stel AI-aangedrewe grammatika-kontrole bekend en verbeter dokumentbesparing met gevorderde opsies vir HTML, SVG en Markdown formate.
 
-Aspose.Words 25.2 stel teksopsomming bekend met Antropiese AI modelle, voeg MsWorks formaatondersteuning by, verbeter tipografiese beheer en verbeter PDF struktuur en lyshantering.
+Aspose.Words 25.2 stel teksopsomming bekend met Anthropic AI modelle, voeg MsWorks formaatondersteuning by, verbeter tipografiese beheer en verbeter PDF struktuur en lyshantering.
+
+Aspose.Words 25.3 verbeter'n AI-aangedrewe grammatika-kontroleerder en lettertipe-keuse met die UpdateAmbiguousTextFont eienskap, sowel as verbeter PDF aanhangsels uitvoer.
+
+Aspose.Words 25.4 stel ondersteuning vir nuwe papier groottes, in staat stel om gevorderde HTML uitvoer beheer, en verbeter watermerk hantering.
 
 ### AI - aangedrewe Funksies
 
-#### Dokument AI Grammatika Kontrole <sup>25.1</sup>
+#### Dokument AI Grammatika Kontrole
 
-Die vermoë om die grammatika van die verskaf dokument te kontroleer met behulp van OpenAI generatiewe modelle is ingestel deur die toevoeging van'n nuwe [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/) metode.
+* Die vermoë om die grammatika van die verskaf dokument te kontroleer met behulp van OpenAI generatiewe modelle is ingestel deur die toevoeging van'n nuwe [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/) metode. <sup>25.1</sup>
+* Die AI-aangedrewe Grammatika-Kontrolefunksie is opgedateer om alle modelle beskikbaar in die [AiModelType](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodeltype/) - opsomming te ondersteun. <sup>25.3</sup>
 
-#### Opsomming Met Behulp Van Antropiese Generatiewe Taalmodelle <sup>25.2</sup>
+#### Opsomming Met Behulp Van Anthropic Generatiewe Taalmodelle <sup>25.2</sup>
 
-Teksopsomming met Behulp van Antropiese generatiewe taalmodelle is moontlik gemaak deur'n nuwe openbare klas [AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/) in te voer.
+Teks opsomming met behulp van Anthropic generatiewe taal modelle is in staat gestel deur die bekendstelling van'n nuwe openbare klas [AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/).
 
 ### Ondersteunde Formate <sup>25.2</sup>
 
@@ -49,16 +56,34 @@ Stoor na HTML en SVG formate is verbeter deur die toevoeging van **id_prefix** e
 
 Die [number_spacing](https://reference.aspose.com/words/python-net/aspose.words/font/number_spacing/) eienskap is bygevoeg vir verbeterde tipografiese beheer.
 
+#### Beheer Font Seleksie vir Dubbelsinnige Karakters <sup>25.3</sup>
+
+'n nuwe openbare eiendom [update_ambiguous_text_font](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/update_ambiguous_text_font/) is by die [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) klas gevoeg om die lettertipe te kies volgens die gebruikte karakterkode.
+
+#### Papiergrootte Opsies <sup>25.4</sup>
+
+Die vermoë om JIS B4 en JIS B5 papier groottes te gebruik is ingestel deur nuwe waardes by die [PaperSize](https://reference.aspose.com/words/python-net/aspose.words/papersize/) opsomming te voeg.
+
+#### HTML Uitset Beheer <sup>25.4</sup>
+
+Die vermoë om JavaScript uit hiperskakel URLs te verwyder tydens HTML uitvoer is ingestel deur die [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/remove_java_script_from_links/) eienskap by te voeg.
+
 ### Ander
 
 * PDF logiese struktuur is verbeter met ondersteuning vir TOA, BIBLIOGRAPHY, en INDEX velde. <sup>25.2</sup>
 * Die [add_single_level_list](https://reference.aspose.com/words/python-net/aspose.words.lists/listcollection/add_single_level_list/#listtemplate) metode is bekendgestel vir verbeterde lys hantering. <sup>25.2</sup>
+* 'n nuwe eienskap [attachments_embedding_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/attachments_embedding_mode/) is bygevoeg om **EmbedAttachments** te vervang om PDF aanhangsels se uitvoer te verbeter. Nuwe waardes is ook by die [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) opsomming gevoeg om PDF/A weergawe aanhangsels te ondersteun. Daarbenewens word aanhangsels nou ondersteun met kodering. <sup>25.3</sup>
+* Die vermoë om'n beeld watermerk van'n stroom stel is ingestel deur die toevoeging van'n nuwe oorlading om die [SetImage](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_image/#bytesio_imagewatermarkoptions) metode. <sup>25.4</sup>
 
 {{% alert color="primary" %}}
 
 Leer meer oor [Aspose.Words vir Python via .NET 25.1 Vrystelling Notas](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/).
 
 Leer meer oor [Aspose.Words vir Python via .NET 25.2 Vrystelling Notas](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-2-release-notes/).
+
+Leer meer oor [Aspose.Words vir Python via .NET 25.3 Vrystelling Notas](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-3-release-notes/).
+
+Leer meer oor [Aspose.Words vir Python via .NET 25.4 Vrystelling Notas](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-4-release-notes/).
 
 {{% /alert %}}
 
@@ -92,9 +117,9 @@ Nuwe LowCode klasse soos [Comparer](https://reference.aspose.com/words/python-ne
 
 Die lewering van grade op radiale kaarte is geïmplementeer.
 
-#### CommandButton ActiveX Kontrole <sup>24.10</sup>
+#### CommandButton ActiveX Beheer <sup>24.10</sup>
 
-Die vermoë om CommandButton ActiveX kontroles te skep is bekendgestel deur die toevoeging van'n nuwe openbare metode [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) en'n nuwe openbare klas [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/).
+Die vermoë om CommandButton ActiveX kontroles te skep is ingestel deur die toevoeging van'n nuwe openbare metode [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) en'n nuwe openbare klas [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/).
 
 #### Beheer Vorm Sigbaarheid <sup>24.10</sup>
 
@@ -149,7 +174,7 @@ Die vermoë om dokumente met XAdES-EPES vlak XML-DSig handtekeninge te onderteke
 * Big5 kodering hantering vir TrueType cmap tabelle is verbeter. <sup>24.10</sup>
 * Ondersteuning vir verouderde Taiwanese lettertipes is verbeter. <sup>24.10</sup>
 * Om toegang tot uitgebreide dokument eienskappe, lees-alleen eienskappe is bygevoeg om die [BuiltInDocumentProperties](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/) klas. <sup>24.11</sup>
-* Die opstel van onderskrifte vir ActiveX-beheer is geaktiveer deur'n nuwe openbare setter by die [Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/) eienskap te voeg. <sup>24.11</sup>
+* Die opstel van onderskrifte vir ActiveX kontroles is geaktiveer deur'n nuwe openbare setter by die [Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/) eienskap te voeg. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
@@ -163,13 +188,13 @@ Leer meer oor [Aspose.Words vir Python via .NET 24.12 Vrystelling Notas](https:/
 
 {{% /alert %}}
 
-## Aspose.Words vir Python via .NET 24,5, 24,6, 24,7, 24,8
+## Aspose.Words vir Python via .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 brei opsies vir samestellings uit, verbeter weergawevermoëns en brei'n paar ander opsies uit.
 
 Aspose.Words 24.6 verbeter weergawe opsies, verbeter soek en vergelyk funksionaliteit, en brei verskeie ander funksies uit.
 
-Aspose.Words 24.7 verander hoe jy met ActiveX werk, brei weergawes uit, sowel as uitvoer na Markdown en XLSX formate.
+Aspose.Words 24.7 verander hoe jy met ActiveX werk, brei weergawevermoëns uit, sowel as uitvoer na Markdown en XLSX formate.
 
 Aspose.Words 24.8 verbeter grafiek aanpassing met presiese beheer oor as etikette, brei lettertipe bestuur, verbeter dokument struktuur hantering, en voeg nuwe vermoëns vir HTML/XAML uitvoer, PDF funksionaliteit, dokument omskakeling, en digitale handtekeninge.
 
@@ -201,10 +226,10 @@ Die vermoë om grafiek data etikette soos **Orientation** en **Rotation** aan te
 
 'n stel vir die openbare eiendom [custom_number_style_format](https://reference.aspose.com/words/python-net/aspose.words.lists/listlevel/custom_number_style_format/) is bygevoeg. U kan nou'n pasgemaakte nommerstilering vir lysvlakke definieer.
 
-#### Veranderinge in Die werk Met ActiveX <sup>24.7</sup>
+#### Veranderinge in die werk met ActiveX <sup>24.7</sup>
 
-- Die eienskappe van ActiveX voorwerpe kan nou verander word, gee jou meer beheer oor hul gedrag.
-- Die vermoë om die waarde van die Radio knoppie ActiveX beheer te verander om dinamiese interaksie in staat te stel is bygevoeg.
+- Die eienskappe van ActiveX voorwerpe kan nou verander word, wat jou meer beheer oor hul gedrag gee.
+- Die vermoë om die waarde van die radio knoppie ActiveX beheer te verander om dinamiese interaksie in staat te stel is bygevoeg.
 - Die vermoë om'n ActiveX checkbox te skakel na "gekontroleer" of "ongekontroleerd" is bygevoeg.
 
 #### Beheer Oor Die Grafiek As Merk Etikette Oriëntasie En Rotasie <sup>24.8</sup>
@@ -404,7 +429,7 @@ Leer meer oor [Aspose.Words vir .NET 23.12 Vrystelling Notas](https://releases.a
 
 {{% /alert %}}
 
-## Aspose.Words vir Python via .NET 23,5, 23,6, 23,7, 23,8
+## Aspose.Words vir Python via .NET 23.5, 23.6, 23.7, 23.8
 
 Aspose.Words 23.5 verbeter die vermoë om met grafiekreeksdata te werk en die vermoë om met ODT dokumente te werk, asook om koptekste/voetskrifte en hul teksverpakking te verbeter.
 

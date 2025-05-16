@@ -1,16 +1,26 @@
 ---
-title: Travailler avec un filigrane en C++
+title: Utilisation du filigrane dans C++
 second_title: Aspose.Words pour C++
 articleTitle: Travailler avec un filigrane
 linktitle: Travailler avec un filigrane
 type: docs
-description: "Manipulation de filigrane de document à l'aide de C++."
+description: "Manipulation du filigrane du document à l'aide de C++."
 weight: 340
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /fr/cpp/working-with-watermark/
-timestamp: 2024-01-30-16-22-34
+timestamp: 2025-05-07-07-22-34
 ---
 
 Cette rubrique explique comment travailler par programmation avec un filigrane à l'aide de Aspose.Words. Un filigrane est une image d'arrière-plan qui s'affiche derrière le texte d'un document. Un filigrane peut contenir un texte ou une image représentée par la classe [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/).
+
+{{% alert color="primary" %}}
+
+**Essayez en ligne**
+
+Vous pouvez essayer cette fonctionnalité avec notre [Filigrane de document en ligne gratuit](https://products.aspose.app/words/watermark).
+
+{{% /alert %}}
 
 ## Ajouter un filigrane à un document
 
@@ -28,7 +38,11 @@ L'exemple de code suivant montre comment insérer un filigrane d'image dans un d
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cpp" >}}
 
-Le filigrane peut également être inséré à l'aide de la classe de forme. Il est très facile d'insérer n'importe quelle forme ou image dans un en-tête ou un pied de page et ainsi créer un filigrane de n'importe quel type imaginable. L'exemple de code suivant insère un filigrane dans un document Word.
+Le filigrane d'image peut être inséré en tant qu'image, chaîne ou flux.
+
+Le filigrane peut également être inséré à l'aide de la classe de forme. Il est très facile d'insérer n'importe quelle forme ou image dans un en-tête ou un pied de page et ainsi créer un filigrane de n'importe quel type imaginable.
+
+L'exemple de code suivant insère un filigrane dans un document Word.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Images-AddWatermark-AddWatermark.cpp" >}}
 

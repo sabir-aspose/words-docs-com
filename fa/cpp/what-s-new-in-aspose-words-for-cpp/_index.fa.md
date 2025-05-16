@@ -6,27 +6,40 @@ linktitle: چه چیز جدیدی در Aspose.Words برای C++
 type: docs
 description: "Aspose.Words برای C++ روزانه گسترش می یابد و افزایش می یابد. در این صفحه می توانید با بزرگ ترین و جالب ترین ویژگی های این محصول آشنا شوید."
 weight: 2
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /fa/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2025-03-09-12-38-00
+timestamp: 2025-04-15-08-02-05
 ---
 
 این صفحه جالب ترین ویژگی های جدید Aspose.Words را که در نسخه های اخیر معرفی شده است، توصیف می کند.
 
-## Aspose.Words برای C++ 25.1, 25.2
+## Aspose.Words برای C++ 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 بررسی گرامر با قدرت AI را معرفی می کند و صرفه جویی در اسناد را با گزینه های پیشرفته برای فرمت های HTML، SVG و Markdown افزایش می دهد.
 
 Aspose.Words 25.2 خلاصه متن را با مدل های Anthropic AI معرفی می کند، پشتیبانی از فرمت MsWorks را اضافه می کند، کنترل تایپوگرافی را افزایش می دهد و ساختار و مدیریت لیست PDF را بهبود می بخشد.
 
-### AI-ویژگی های قدرت 
+Aspose.Words 25.3 با استفاده از ویژگی UpdateAmbiguousTextFont، بررسی‌کننده گرامر و انتخاب فونت مبتنی بر AI را بهبود می‌بخشد و همچنین خروجی پیوست‌های PDF را بهبود می‌بخشد.
 
-#### سند AI بررسی گرامر <sup>25.1</sup>
+Aspose.Words 25.4 پشتیبانی از اندازه های جدید کاغذ را معرفی می کند، کنترل صادرات پیشرفته HTML را امکان پذیر می کند، کنترل علامت آبی را بهبود می بخشد و قابلیت استفاده از LowCode API را افزایش می دهد.
 
-امکان بررسی دستور زبان سند ارائه شده با استفاده از مدل های تولید کننده OpenAI با اضافه کردن یک روش جدید [CheckGrammar](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/checkgrammar/) معرفی شده است.
+### AI-ویژگی های قدرت
 
-#### خلاصه سازی با استفاده از مدل های زبان تولید کننده انسان <sup>25.2</sup>
+#### سند AI بررسی گرامر
 
-خلاصه متن با استفاده از مدل های زبان تولید کننده انسان با معرفی یک کلاس عمومی جدید [AnthropicAiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/) فعال شده است.
+* امکان بررسی دستور زبان سند ارائه شده با استفاده از مدل های تولید کننده OpenAI با اضافه کردن یک روش جدید [CheckGrammar](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/checkgrammar/) معرفی شده است. <sup>25.1</sup>
+* ویژگی بررسی گرامر با قدرت AI به روز شده است تا از تمام مدل های موجود در شمارش [AiModelType](https://reference.aspose.com/words/cpp/aspose.words.ai/aimodeltype/) پشتیبانی کند. <sup>25.3</sup>
+
+#### خلاصه سازی با استفاده از مدل های زبان مولد Anthropic <sup>25.2</sup>
+
+خلاصه متن با استفاده از مدل های زبان مولد Anthropic با معرفی یک کلاس عمومی جدید [AnthropicAiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/) فعال شده است.
+
+### Low Code
+
+#### قابلیت استفاده Low Code API <sup>25.4</sup>
+
+پیشرفت های قابل توجهی در قابلیت استفاده از **LowCode API** معرفی شده است، ساده سازی پردازش اسناد و کاهش نیاز به کد تکراری.
 
 ### فرمت های پشتیبانی شده <sup>25.2</sup>
 
@@ -42,6 +55,7 @@ Aspose.Words 25.2 خلاصه متن را با مدل های Anthropic AI معر�
 
 - یک گزینه جدید [ImageResolution](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_imageresolution/) به کلاس [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) اضافه شده است تا وضوح تصویر را تنظیم کند.
 - یک گزینه جدید [OfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_officemathexportmode/) و [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownofficemathexportmode/) شمارش شده و به کلاس [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) اضافه شده است تا حالت خروجی OfficeMath را تنظیم کند.
+- قابلیت تنظیم یک علامت آبی تصویر از یک جریان با اضافه کردن یک اضافه بار جدید به روش [SetImage](https://reference.aspose.com/words/cpp/aspose.words/watermark/setimage/#watermarksetimageconst-systemsharedptrsystemiostream-const-systemsharedptrasposewordsimagewatermarkoptions-method) معرفی شده است. <sup>25.4</sup>
 
 ### رندر کردن
 
@@ -49,10 +63,23 @@ Aspose.Words 25.2 خلاصه متن را با مدل های Anthropic AI معر�
 
 ویژگی [NumberSpacing](https://reference.aspose.com/words/cpp/aspose.words/font/get_numberspacing/) برای کنترل تایپوگرافی بهبود یافته اضافه شده است.
 
+#### کنترل انتخاب فونت برای کاراکترهای مبهم <sup>25.3</sup>
+
+یک ملک عمومی جدید [UpdateAmbiguousTextFont](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_updateambiguoustextfont/) به کلاس [SaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/) اضافه شده است تا انتخاب فونت را با توجه به کد کاراکتر مورد استفاده کنترل کند.
+
+#### گزینه های اندازه کاغذ <sup>25.4</sup>
+
+قابلیت استفاده از اندازه های کاغذی JIS B4 و JIS B5 با اضافه کردن مقادیر جدید به شمارش [PaperSize](https://reference.aspose.com/words/cpp/aspose.words/papersize/) معرفی شده است.
+
+#### HTML کنترل خروجی <sup>25.4</sup>
+
+امکان حذف JavaScript از hyperlink URLs در طول HTML export با اضافه کردن ویژگی [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/cpp/aspose.words.saving/htmlsaveoptions/get_removejavascriptfromlinks/) معرفی شده است.
+
 ### سایر
 
-- ساختار منطقی PDF با پشتیبانی از فیلدهای TOA، BIBLIOGRAPHY و INDEX بهبود یافته است. <sup>25.2</sup>
-- روش [AddSingleLevelList](https://reference.aspose.com/words/cpp/aspose.words.lists/listcollection/addsinglelevellist/) برای بهبود مدیریت لیست معرفی شده است. <sup>25.2</sup>
+* ساختار منطقی PDF با پشتیبانی از فیلدهای TOA، BIBLIOGRAPHY و INDEX بهبود یافته است. <sup>25.2</sup>
+* روش [AddSingleLevelList](https://reference.aspose.com/words/cpp/aspose.words.lists/listcollection/addsinglelevellist/) برای بهبود مدیریت لیست معرفی شده است. <sup>25.2</sup>
+* یک ویژگی جدید [AttachmentsEmbeddingMode](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_attachmentsembeddingmode/) برای جایگزینی **EmbedAttachments** برای بهبود صادرات PDF پیوست ها اضافه شده است. همچنین، مقادیر جدیدی به شمارش [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfcompliance/) اضافه شده است تا از پیوست های نسخه PDF/A پشتیبانی کند. علاوه بر این، پیوست ها اکنون با رمزگذاری پشتیبانی می شوند. <sup>25.3</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,101 +87,105 @@ Aspose.Words 25.2 خلاصه متن را با مدل های Anthropic AI معر�
 
 اطلاعات بیشتر در مورد [Aspose.Words برای C++ 25.2 یادداشت های انتشار](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-2-release-notes/).
 
+اطلاعات بیشتر در مورد [Aspose.Words برای C++ 25.3 یادداشت های انتشار](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-3-release-notes/).
+
+اطلاعات بیشتر در مورد [Aspose.Words برای C++ 25.4 یادداشت های انتشار](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-4-release-notes/).
+
 {{% /alert %}}
 
 ## Aspose.Words برای C++ 24.9, 24.10, 24.11, 24.12
 
-Aspose.Words 24.9 درج group shape و درج StructuredDocumentTag از طریق DocumentBuilder را معرفی می کند، رندر نمودار شعاعی را با فارغ التحصیلی افزایش می دهد، امضاهای دیجیتال را با XAdES-EPES پشتیبانی، Markdown underline recognition را اضافه می کند و دسترسی به جدا کننده های حاشیه/حاشیه را فراهم می کند.
+Aspose.Words 24.9 درج group shape و درج StructuredDocumentTag را از طریق DocumentBuilder معرفی می کند، رندر نمودار شعاعی را با فارغ التحصیلی افزایش می دهد، امضاهای دیجیتال را با پشتیبانی XAdES-EPES بهبود می بخشد، تشخیص زیرنویس Markdown را اضافه می کند و دسترسی به جداکننده های حاشیه/حاشیه را فراهم می کند.
 
-Aspose.Words 24.10 پشتیبانی از کنترل فعال ActiveX را با ایجاد CommandButton، کنترل دید شکل جدید، توانایی گروه بندی اشکال، صادرات Markdown بهبود یافته برای جداول، قالب بندی نمودار برای نمودارهای Pie و Donut، مدیریت بهتر کدگذاری Big5 و پشتیبانی از فونت های قدیمی تایوانی را معرفی می کند.
+Aspose.Words 24.10 پشتیبانی از کنترل پیشرفته ActiveX را با CommandButton ایجاد، کنترل دید شکل جدید، توانایی group shapes، صادرات بهبود یافته Markdown برای جداول، قالب بندی نمودار برای Pie و Doughnut نمودارها، مدیریت بهتر کدگذاری Big5 و پشتیبانی از فونت های قدیمی تایوانی معرفی می کند.
 
-Aspose.Words 24.11 خلاصه سازی سند با قدرت AI، گزینه های رندر پیشرفته، دسترسی بهتر به ویژگی های سند و زیرنویس کنترل ActiveX را معرفی می کند.
+Aspose.Words 24.11 خلاصه سازی سند با قدرت AI، گزینه های رندر پیشرفته، دسترسی بهتر به ویژگی های سند و ActiveX زیرنویس کنترل را معرفی می کند.
 
-Aspose.Words 24.12 قرار دادن برچسب داده های قابل تنظیم، ترجمه متنی مبتنی بر هوش مصنوعی گوگل، گزینه های پاکسازی Mail Merge پیشرفته و کلاس های پردازش LowCode جدید را معرفی می کند.
+Aspose.Words 24.12 قرار دادن برچسب داده های قابل تنظیم، ترجمه متن Google AI، گزینه های پاکسازی پیشرفته Mail Merge و کلاس های پردازش جدید LowCode را معرفی می کند.
 
-### AI-ویژگی های قدرت 
+### AI-ویژگی های قدرت
 
-#### خلاصه‌سازی اسناد با استفاده از OpenAI و Google <sup>24.11</sup>
+#### خلاصه سازی اسناد با استفاده از OpenAI و گوگل <sup>24.11</sup>
 
-پشتیبانی از خلاصه سازی اسناد با استفاده از مدل های زبان مولد **OpenAI** و **Google** با اضافه کردن فضای نام [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/) با اعضای عمومی آن ادغام شده است.
+پشتیبانی از خلاصه سازی اسناد با استفاده از مدل های زبان مولد **OpenAI** و **Google** یکپارچه شده است.
 
-#### ترجمه متن با استفاده از مدل‌های زبانی Google <sup>24.12</sup>
+#### ترجمه متون با استفاده از مدل های زبان مولد گوگل <sup>24.12</sup>
 
-قابلیت ترجمه متن با استفاده از مدل‌های زبانی Google در Aspose.Words با افزودن روش [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/) پیاده‌سازی شده است. و [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/) شمارش به [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/) فضای نام.
+امکان ترجمه متن با استفاده از مدل های زبان مولد گوگل در Aspose.Words با اضافه کردن روش [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/) و شمارش [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/) به فضای نام [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/) اجرا شده است.
 
-### کد پایین <sup>24.12</sup>
+### Low Code <sup>24.12</sup>
 
-کلاس های جدید LowCode مانند [Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/cpp/aspose.words.lowcode/merger/), [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) و غیره معرفی شده است که مجموعه ای از روش ها را ارائه می دهد که تعادل کاملی بین سادگی و انعطاف پذیری برای پردازش اسناد ایجاد می کند.
+کلاس های جدید LowCode مانند [Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/cpp/aspose.words.lowcode/merger/), [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) و غیره معرفی شده است، ارائه مجموعه ای از روش هایی که تعادل کامل بین سادگی و انعطاف پذیری برای پردازش اسناد را ایجاد می کند.
 
 ### رندر و چاپ
 
-#### فارغ التحصیلی در نمودارهای شعاعی
+#### فارغ التحصیلی در نمودارهای شعاعی <sup>24.9</sup>
 
 ارائه فارغ التحصیلی در نمودارهای شعاعی اجرا شده است.
 
-#### CommandButton ActiveX Controls <sup>24.10</sup>
+#### CommandButton ActiveX کنترل <sup>24.10</sup>
 
-توانایی ایجاد کنترل‌های CommandButton ActiveX با افزودن یک روش عمومی جدید [InsertForms2OleControl](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertforms2olecontrol/) و یک کلاس عمومی جدید **Forms2OleControl** معرفی شده است.
+امکان ایجاد کنترل های CommandButton ActiveX با اضافه کردن یک روش عمومی جدید [InsertForms2OleControl](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertforms2olecontrol/) و یک کلاس عمومی جدید **Forms2OleControl** معرفی شده است.
 
-#### کنترل شکل مشاهده <sup>24.10</sup>
+#### کنترل دید شکل <sup>24.10</sup>
 
-یک ویژگی عمومی جدید [Hidden](https://reference.aspose.com/words/cpp/aspose.words.drawing/shapebase/get_hidden/) برای کنترل نمایان بودن اشکال اضافه شده است.
+یک ملک عمومی جدید [Hidden](https://reference.aspose.com/words/cpp/aspose.words.drawing/shapebase/get_hidden/) برای کنترل دید اشکال اضافه شده است.
 
-#### تغییرات در نمودارهای پای و دونات <sup>24.10</sup>
+#### تغییرات در نمودارهای Pie و Doughnut <sup>24.10</sup>
 
-چندین ویژگی عمومی جدید برای قالب بندی نمودارهای Pie و Donut اضافه شده است.
+چندین ملک عمومی جدید به نمودارهای فرمت Pie و Doughnut اضافه شده است.
 
 #### کنترل رندر PDF فرم انتخاب مرزهای میدان <sup>24.11</sup>
 
-یک گزینه جدید برای کنترل ارائه PDF انتخاب فرم مرزهای میدان با اضافه کردن یک گزینه عمومی جدید [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_renderchoiceformfieldborder/) اجرا شده است.
+یک گزینه جدید برای کنترل ارائه PDF انتخاب فرم مرزهای میدان با اضافه کردن یک گزینه عمومی جدید **RenderChoiceFormFieldBorder** اجرا شده است.
 
 #### دریافت و تنظیم کدهای فرمت برای داده های نمودار <sup>24.11</sup>
 
-امکان دریافت و تنظیم کدهای فرمت برای داده های نمودار با اجرای ویژگی [FormatCode](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/get_formatcode/) در کلاس های [ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/)، [ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/) و [BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/) اضافه شده است.
+امکان دریافت و تنظیم کدهای فرمت برای داده های نمودار با پیاده سازی ویژگی **FormatCode** در کلاس های [ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/)، [ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/) و [BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/) اضافه شده است.
 
 #### نمودارهای هیستوگرام را با سطل ها و برچسب ها رندر کنید <sup>24.11</sup>
 
 رندر نمودار هیستوگرام با اجازه دادن به تعداد مشخصی از سطل ها و برچسب ها بهبود یافته است.
 
-#### سفارشی کردن قرار دادن برچسب های داده <sup>24.12</sup>
+#### قرار دادن برچسب های داده را سفارشی کنید <sup>24.12</sup>
 
-قابلیت سفارشی‌سازی قرار دادن برچسب‌های داده با معرفی ویژگی‌های جدید به [ChartDataLabel] (https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/) اضافه شده است. کلاس‌های [ChartDataLabelCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabelcollection/).
+امکان سفارشی سازی قرار دادن برچسب های داده با معرفی ویژگی های جدید به کلاس های [ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/) و [ChartDataLabelCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabelcollection/) اضافه شده است.
 
 ### تبدیل، بارگیری و ذخیره اسناد
 
-#### قالب بندی زیرنویس هنگام بارگذاری فایل های Markdown
+#### قالب بندی زیرنویس هنگام بارگذاری فایل های Markdown <sup>24.9</sup>
 
 گزینه تشخیص قالب بندی زیرنویس هنگام بارگذاری Markdown اسناد با اضافه کردن یک ملک عمومی جدید **ImportUnderlineFormatting** گنجانده شده است.
 
-#### صادر کردن جداول به صورت HTML هنگام ذخیره در Markdown <sup>24.10</sup>
+#### جداول صادراتی به صورت HTML هنگام ذخیره به Markdown <sup>24.10</sup>
 
-با افزودن یک ویژگی عمومی جدید [ExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_exportashtml/) گزینه ای برای صادر کردن جداول به عنوان HTML هنگام ذخیره اسناد به فرمت Markdown اجرا شده است.  و یک شمارش [MarkdownExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownexportashtml/).
+گزینه ای برای صادرات جداول به عنوان HTML هنگام ذخیره اسناد به Markdown فرمت با اضافه کردن یک ملک عمومی جدید [ExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_exportashtml/) و یک شمارش [MarkdownExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownexportashtml/) اجرا شده است.
 
 #### صادرات PDF با ساختار منطقی به روز شده <sup>24.11</sup>
 
 PDF صادرات با شامل کردن ویژگی های عنوان جدول به عنوان PDF عناوین عنصر ساختار منطقی افزایش یافته است.
 
-### نامه ادغام و گزارش
+### Mail Merge و گزارش
 
-#### حذف جداول خالی در حین ادغام نامه <sup>24.12</sup>
+#### حذف جداول خالی در طول Mail Merge <sup>24.12</sup>
 
-یک گزینه جدید **RemoveEmptyTables** به فهرست [MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/) اضافه شده است تا خروجی Mail Merge را اصلاح کند.
+یک گزینه جدید **RemoveEmptyTables** به شمارش [MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/) اضافه شده است تا خروجی Mail Merge را اصلاح کند.
 
 ### امضای دیجیتال
 
-#### ثبت اسناد با XAdES-EPES
+#### ثبت اسناد با XAdES-EPES <sup>24.9</sup>
 
-امکان امضای اسناد با XAdES-EPES سطحXML-DSig امضا با اضافه کردن یک ملک عمومی جدید **XmlDsigLevel** و یک فهرست عمومی جدید **XmlDsigLevel** معرفی شده است.
+امکان امضای اسناد با امضای سطح XAdES-EPES XML-DSig با اضافه کردن یک ملک عمومی جدید **XmlDsigLevel** و یک فهرست عمومی جدید **XmlDsigLevel** معرفی شده است.
 
 ### سایر
 
-* یک روش عمومی جدید [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/) به group shapes اضافه شده است.
-* یک روش عمومی جدید [InsertStructuredDocumentTag](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertstructureddocumenttag/) برای قرار دادن **StructuredDocumentTags** در یک سند اضافه شده است.
-* دسترسی عمومی به جداکننده های زیرنویس/پایان نامه با اضافه کردن چند کلاس و ملک عمومی فراهم شده است.
-* با افزودن [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/) امکان گروه‌بندی اشکال فردی، گروه‌بندی اشکال با هم و گروه‌بندی مستقیم شکل‌ها و شکل‌های گروهی ارائه شده است. روش . <sup>24.10</sup>
-* مدیریت رمزگذاری Big5 برای جداول cmap TrueType بهبود یافته است. <sup>24.10</sup>
+* یک روش عمومی جدید [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/) به group shapes اضافه شده است. <sup>24.9</sup>
+* یک روش عمومی جدید [InsertStructuredDocumentTag](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertstructureddocumenttag/) برای قرار دادن **StructuredDocumentTags** در یک سند اضافه شده است. <sup>24.9</sup>
+* دسترسی عمومی به جداکننده های زیرنویس/پایان نامه با اضافه کردن چند کلاس و ملک عمومی فراهم شده است. <sup>24.9</sup>
+* توانایی گروه بندی اشکال فردی، group shapes با هم و گروه بندی مستقیم هر دو شکل و group shapes با اضافه کردن روش [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/) معرفی شده است. <sup>24.10</sup>
+* مدیریت کدگذاری Big5 برای جداول TrueType cmap بهبود یافته است. <sup>24.10</sup>
 * پشتیبانی از فونت های قدیمی تایوانی افزایش یافته است. <sup>24.10</sup>
-* برای دسترسی به ویژگی های سند گسترده، ویژگی های فقط برای خواندن به کلاس [BuiltInDocumentProperties](https://reference.aspose.com/words/cpp/aspose.words.properties/builtindocumentproperties/) اضافه شده است. <sup>24.11</sup>
+* برای دسترسی به ویژگی های سند گسترده، ویژگی های فقط برای خواندن به کلاس **BuiltInDocumentProperties** اضافه شده است. <sup>24.11</sup>
 * تنظیم زیرنویس برای کنترل های ActiveX با اضافه کردن یک تنظیم کننده عمومی جدید به ویژگی **Forms2OleControl.Caption** فعال شده است. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
@@ -185,7 +216,7 @@ Aspose.Words 24.7 نحوه کار شما با ActiveX را تغییر می ده�
 
 #### تغییرات در نمودارها، اشکال و DrawingML <sup>24.5</sup>
 
-- Drawingml effects rendering for SVG graphics، گسترش قابلیت های قبلی محدود به تصاویر، اجرا شده است.
+- DrawingML افکت رندر برای SVG گرافیک، گسترش قابلیت های قبلی محدود به تصاویر، اجرا شده است.
 - پشتیبانی از ایجاد نمودارهای ترکیبی و تنظیم ویژگی هایی مانند عرض شکاف، همپوشانی و مقیاس حباب در گروه های سری با اضافه کردن کلاس های **ChartSeriesGroup** و **ChartSeriesGroupCollection** و ویژگی **SeriesGroups** معرفی شده است.
 - قابلیت دستکاری اثر SoftEdge شکل ها با اضافه کردن کلاس **SoftEdgeFormat** اجرا شده است.
 - قابلیت تغییر مقادیر تنظیم شکل ها با اضافه کردن کلاس های عمومی **AdjustmentCollection** و **Adjustment** و ویژگی **Adjustments** اجرا شده است.
@@ -207,9 +238,9 @@ Aspose.Words 24.7 نحوه کار شما با ActiveX را تغییر می ده�
 
 #### تغییرات در کار با ActiveX <sup>24.7</sup>
 
-- خواص اشیاء ActiveX اکنون می تواند اصلاح شود، به شما کنترل بیشتری بر رفتار آنها می دهد.
-- قابلیت تغییر مقدار دکمه رادیویی ActiveX control برای فعال کردن تعامل پویا اضافه شده است.
-- قابلیت تغییر یک جعبه چک ActiveX به" checked "یا" unchecked " اضافه شده است.
+- خواص اشیاء ActiveX اکنون می تواند اصلاح شود، که به شما کنترل بیشتری بر رفتار آنها می دهد.
+- امکان تغییر مقدار دکمه رادیویی ActiveX کنترل برای فعال کردن تعامل پویا اضافه شده است.
+- قابلیت تغییر یک ActiveX checkbox به" checked "یا" unchecked " اضافه شده است.
 
 ### بارگذاری و ذخیره اسناد
 
@@ -257,7 +288,7 @@ Aspose.Words 24.4 برخی از گزینه های رندر را بهبود می 
 
 کلاس [Stroke](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/) با مجموعه ای از املاک عمومی جدید مربوط به مدیریت رنگ های سکته مغزی گسترش یافته است: [ForeThemeColor](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/get_forethemecolor/) و [BackThemeColor](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/get_backthemecolor/)، [ForeTintAndShade](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/get_foretintandshade/) و [BackTintAndShade](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/get_backtintandshade/).
 
-#### نمودار DrawingML API پسوند <sup>24.2 / 24.3 / 24.4</sup>
+#### DrawingML نمودار API پسوند <sup>24.2 / 24.3 / 24.4</sup>
 
 **DrawingML Charts API** همچنان گسترش می یابد.
 
@@ -275,7 +306,7 @@ Aspose.Words 24.4 برخی از گزینه های رندر را بهبود می 
 
 قابلیت مشخص کردن [SvgSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/svgsaveoptions/) در طول رندر با استفاده از [ShapeRenderer](https://reference.aspose.com/words/cpp/aspose.words.rendering/shaperenderer/) اضافه شده است.[Save](https://reference.aspose.com/words/cpp/aspose.words.rendering/noderendererbase/save/) و [OfficeMathRenderer](https://reference.aspose.com/words/cpp/aspose.words.rendering/officemathrenderer/).[Save](https://reference.aspose.com/words/cpp/aspose.words.rendering/noderendererbase/save/) روش ها.
 
-#### حفظ خطوط خالی هنگام بارگذاری Markdown فایل ها <sup>24.2</sup>
+#### حفظ خطوط خالی هنگام بارگذاری فایل های Markdown <sup>24.2</sup>
 
 امکان حفظ خطوط خالی در هنگام بارگذاری فایل های Markdown اضافه شده است.
 
@@ -302,7 +333,7 @@ Aspose.Words 24.4 برخی از گزینه های رندر را بهبود می 
 
 ## Aspose.Words برای C++ 23.9, 23.10, 23.11, 23.12
 
-Aspose.Words 23.9 گزینه های رندر، شبیه سازی رندر metafile و markdown گزینه های ذخیره را گسترش می دهد.
+Aspose.Words 23.9 گزینه های رندر، شبیه سازی رندر متافیل و markdown گزینه های ذخیره را گسترش می دهد.
 
 Aspose.Words 23.10 رندر را بهبود می بخشد، گزینه های بارگذاری و ذخیره اسناد را گسترش می دهد و به کاربران اجازه می دهد تا اسناد را به روش های جدید ادغام کنند.
 
@@ -312,9 +343,9 @@ Aspose.Words 23.12 ویژگی ها و شمارش های جدید برای کار
 
 ### رندر و چاپ
 
-#### سفارشی کردن عناوین محورها در نمودارهای DrawingML <sup>23.9</sup>
+#### سفارشی سازی عناوین محورها در نمودارهای DrawingML <sup>23.9</sup>
 
-قابلیت سفارشی کردن عناوین محور در نمودارهای DrawingML با اجرای یک ویژگی جدید کلاس عمومی **ChartAxisTitle** و [Title](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxis/get_title/) معرفی شده است.
+قابلیت سفارشی سازی عناوین محور در نمودارهای DrawingML با اجرای یک ویژگی جدید کلاس عمومی **ChartAxisTitle** و [Title](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxis/get_title/) معرفی شده است.
 
 #### تعیین موقعیت عمودی فونت ها در یک پاراگراف <sup>23.9</sup>
 
@@ -332,9 +363,9 @@ Aspose.Words 23.12 ویژگی ها و شمارش های جدید برای کار
 
 یک راه ساده برای تنظیم و قرار دادن خودکار یک تصویر در یک شکل خاص از طریق روش جدید [FitImageToShape](https://reference.aspose.com/words/cpp/aspose.words.drawing/imagedata/fitimagetoshape/) ارائه شده است.
 
-#### قالب بندی فونت پیش فرض برای ورودی های افسانه نمودار DrawingML <sup>23.11</sup>
+#### قالب بندی پیش فرض فونت برای DrawingML ورودی های افسانه نمودار <sup>23.11</sup>
 
-قابلیت مشخص کردن قالب بندی فونت پیش فرض برای ورودی های افسانه ای نمودارهای DrawingML از طریق ویژگی [Font](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartlegend/get_font/) اضافه شده است. این ویژگی ظاهر ساده تر و سازگار تری را برای عناصر نمودار تسهیل می کند و زیبایی کلی سند را بهبود می بخشد.
+قابلیت مشخص کردن قالب بندی فونت پیش فرض برای ورودی های افسانه ای از نمودارهای DrawingML از طریق ویژگی [Font](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartlegend/get_font/) اضافه شده است. این ویژگی ظاهر ساده تر و سازگار تری را برای عناصر نمودار تسهیل می کند و زیبایی کلی سند را بهبود می بخشد.
 
 #### مشخص کردن طرح صفحه هنگام باز کردن PDF در Reader <sup>23.12</sup>
 
@@ -348,7 +379,7 @@ Aspose.Words 23.12 ویژگی ها و شمارش های جدید برای کار
 
 #### کاهش PDF اندازه خروجی <sup>23.10</sup>
 
-بهینه‌سازی‌های مختلف رندر PDF برای کاهش اندازه خروجی هنگام استفاده از تنظیمات [OptimizeOutput](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_optimizeoutput/) پیاده‌سازی شده‌اند.
+بهینه‌سازی‌های رندرینگ متنوعی PDF برای کاهش حجم خروجی هنگام استفاده از تنظیمات [OptimizeOutput](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_optimizeoutput/) پیاده‌سازی شده‌اند.
 
 #### تشخیص هایپر لینک ها هنگام بارگذاری TXT اسناد <sup>23.10</sup>
 
@@ -362,8 +393,8 @@ Aspose.Words 23.12 ویژگی ها و شمارش های جدید برای کار
 * یک پارامتر نوع عمومی به روش های کلاس [CompositeNode](https://reference.aspose.com/words/cpp/aspose.words/compositenode/) اضافه شده است. <sup>23.10</sup>
 * راهی برای کنترل زمانی که یک تجدید نظر خاص باید پذیرفته شود/رد شود یا نه با استفاده از روش های [Accept](https://reference.aspose.com/words/cpp/aspose.words/revisioncollection/accept/) و [Reject](https://reference.aspose.com/words/cpp/aspose.words/revisioncollection/reject/) اجرا شده است. این پیشرفت به کاربران کنترل دقیق تری بر روند تجدید نظر می دهد. <sup>23.11</sup>
 * توانایی نوشتن تمام بخش های یک سند بر روی همان ورق کار XLSX از طریق نوع جدید [XlsxSectionMode](https://reference.aspose.com/words/cpp/aspose.words.saving/xlsxsectionmode/) شمارش و ویژگی جدید [SectionMode](https://reference.aspose.com/words/cpp/aspose.words.saving/xlsxsaveoptions/get_sectionmode/) ارائه شده است. <sup>23.11</sup>
-* راهی برای کنترل نحوه استفاده از افزونه های فرمت ZIP64 برای اسناد OOXML از طریق ویژگی جدید Zip64Mode کلاس `OoxmlSaveOptions` و شمارش جدید Zip64Mode اجرا شده است. <sup>23.12</sup>
-* پشتیبانی از WebP تصویر معرفی شده است. لطفا توجه داشته باشید که این ویژگی فقط برای .NetStandart و .NET6 + نسخه. <sup>23.12</sup>
+* راهی برای کنترل نحوه استفاده از پسوند های فرمت ZIP64 برای اسناد OOXML از طریق ویژگی جدید Zip64Mode کلاس `OoxmlSaveOptions` و شمارش جدید Zip64Mode اجرا شده است. <sup>23.12</sup>
+* پشتیبانی از WebP تصویر معرفی شده است. لطفا توجه داشته باشید که این ویژگی فقط برای .NetStandart و .NET6+ نسخه. <sup>23.12</sup>
 
 {{% alert color="primary" %}}
 
@@ -378,6 +409,6 @@ Aspose.Words 23.12 ویژگی ها و شمارش های جدید برای کار
 
 {{% alert color="primary" %}}
 
-این صفحه حاوی آخرین اخبار انتشار در 2 سال گذشته است. برای جزئیات بیشتر در مورد نسخه های قبلی، نگاه کنید[ یادداشت های انتشار](/words/cpp/release-notes/) صفحات در بخش های مربوطه
+این صفحه شامل آخرین اخبار انتشار در 2 سال گذشته است. برای جزئیات بیشتر در مورد انتشارات قبلی، به [یادداشت های انتشار'](/words/cpp/release-notes/) صفحات در بخش های مربوطه.
 
 {{% /alert %}}

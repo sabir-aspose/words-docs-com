@@ -1,4 +1,4 @@
-﻿---
+---
 title: 翻译文档
 second_title: Aspose.Words为.NET
 articleTitle: 翻译文档
@@ -6,6 +6,8 @@ linktitle: 翻译文档
 type: docs
 weight: 30
 description: "翻译文档。 Aspose.Words为.NET 使用GoogleAI模型简化文档翻译，允许您指定目标语言。"
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /zh/net/translate-a-document/
 timestamp: 2024-12-13-06-40-00
 ---
@@ -16,16 +18,7 @@ timestamp: 2024-12-13-06-40-00
 
 下面的代码示例演示如何使用Aspose.Words中的*Gemini 1.5 Flash*模型将文档翻译成阿拉伯语:
 
-{{< highlight csharp >}}
-Document doc = new Document(MyDir + "Document.docx");
-
-string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-// Use Google generative language models.
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gemini15Flash).WithApiKey(apiKey);
-
-Document translatedDoc = model.Translate(doc, Language.Arabic);
-translatedDoc.Save(ArtifactsDir + "AI.AiTranslate.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "ea14b3e44c0233eecd663f783a21c4f6" "ai-translate.cs" >}}
 
 {{% alert color="primary" %}}
 

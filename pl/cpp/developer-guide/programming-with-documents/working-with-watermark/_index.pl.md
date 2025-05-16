@@ -1,4 +1,4 @@
-﻿---
+---
 title: Praca ze znakiem wodnym w C++
 second_title: Aspose.Words dla C++
 articleTitle: Praca ze znakiem wodnym
@@ -6,11 +6,21 @@ linktitle: Praca ze znakiem wodnym
 type: docs
 description: "Manipulacja znakiem wodnym dokumentu przy użyciu C++."
 weight: 340
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /pl/cpp/working-with-watermark/
-timestamp: 2024-01-30-16-22-34
+timestamp: 2025-05-07-07-22-34
 ---
 
 W tym temacie omówiono programową pracę ze znakiem wodnym przy użyciu Aspose.Words. Znak wodny to obraz tła wyświetlany za tekstem w dokumencie. Znak wodny może zawierać tekst lub obraz reprezentowany przez klasę [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/).
+
+{{% alert color="primary" %}}
+
+**Spróbuj online**
+
+Możesz wypróbować tę funkcjonalność z naszym [Darmowy znak wodny dokumentu online](https://products.aspose.app/words/watermark).
+
+{{% /alert %}}
 
 ## Dodawanie znaku wodnego do dokumentu
 
@@ -28,7 +38,11 @@ Poniższy przykład kodu pokazuje, jak wstawić znak wodny obrazu do dokumentu, 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cpp" >}}
 
-Znak wodny można również wstawić za pomocą klasy kształtu. Bardzo łatwo jest wstawić dowolny kształt lub obraz do nagłówka lub stopki, a tym samym utworzyć znak wodny dowolnego możliwego typu. Poniższy przykład kodu wstawia znak wodny do dokumentu Word.
+Znak wodny obrazu można wstawić jako obraz, ciąg lub strumień.
+
+Znak wodny można również wstawić za pomocą klasy kształtu. Bardzo łatwo jest wstawić dowolny kształt lub obraz do nagłówka lub stopki, a tym samym utworzyć znak wodny dowolnego możliwego typu.
+
+Poniższy przykład kodu wstawia znak wodny do dokumentu Word.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Images-AddWatermark-AddWatermark.cpp" >}}
 

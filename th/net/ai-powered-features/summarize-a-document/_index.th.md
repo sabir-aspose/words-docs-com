@@ -1,35 +1,24 @@
-﻿---
+---
 title: สรุปเอกสาร
 second_title: Aspose.Wordsสำหรับ.NET
 articleTitle: สรุปเอกสาร
 linktitle: สรุปเอกสาร
 type: docs
 weight: 20
-description: "สรุปเอกสาร Aspose.Wordsสำหรับ.NETช่วยลดความยุ่งยากในการสรุปเอกสารโดยใช้รุ่นOpenAIและกูเกิลAIโดยให้คุณระบุความ."
+description: "สรุปเอกสาร Aspose.Wordsสำหรับ.NET ช่วยลดความยุ่งยากในการสรุปเอกสารโดยใช้รุ่นOpenAIและกูเกิลAIโดยให้คุณระบุความยาวสรุป."
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /th/net/summarize-a-document/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
-การสรุปเอกสารเป็นเครื่องมือที่มีคุณค่าสำหรับการตรวจทานเนื้อหาข้อมูลเชิงลึกอย่างรว Aspose.Wordsรองรับการสรุปเอกสารโดยใช้รุ่นขับเคลื่อนAIทำให้ง่ายต่อการประมวลผลข้อความยาว คุณลักษณะนี้พร้อมใช้งานในเนมสเปซ[Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/)จะรวมโมเดลภาษาขั้นสูงจาก*OpenAI*และ*Google*
+การสรุปเอกสารเป็นเครื่องมือที่มีคุณค่าสำหรับการตรวจทานเนื้อหาข้อมูลเชิงลึกอย่างรว Aspose.Wordsรองรับการสรุปเอกสารโดยใช้รุ่นAIขับเคลื่อน,ทำให้ง่ายต่อการประมวลผลข้อความยาว. คุณลักษณะนี้สามารถใช้ได้ใน[Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/)เนมสเปซรวมโมเดลภาษาสืบพันธุ์ขั้นสูงจาก*OpenAI*และ*Google*รวมทั้งโมเดลภาษาสืบพันธุ์ของมนุษย์ด้วย*Claude's* รายการรุ่นที่รองรับมีอยู่ในการแจงนับ[AiModelType](https://reference.aspose.com/words/net/aspose.words.ai/aimodeltype/)
 
 คุณสามารถระบุตัวเลือกต่างๆสำหรับการสรุปเนื้อหาเอกสาร ใช้วิธีการ[Summarize](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/summarize/)เพื่อสร้างสรุปเอกสารของคุณ คุณยังสามารถตั้งค่าความยาวสรุปโดยใช้คุณสมบัติ[SummaryLength](https://reference.aspose.com/words/net/aspose.words.ai/summarizeoptions/summarylength/).
 
-ด้วยAspose.Wordsการดำเนินการสรุปเอกสารจะตรงไปตรงมา ตัวอย่างรหัสต่อไปนี้แสดงร้อนเพื่อสรุปเอกสารโดยใช้GPT-4โอโมเดล:
+ด้วยAspose.Wordsการดำเนินการสรุปเอกสารจะตรงไปตรงมา ตัวอย่างรหัสต่อไปนี้แสดงวิธีการสรุปเอกสารโดยใช้รูปแบบGPT-4o:
 
-{{< highlight csharp >}}
-Document firstDoc = new Document(MyDir + "Big document.docx");
-Document secondDoc = new Document(MyDir + "Document.docx");
-
-string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-// Use OpenAI or Google generative language models.
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
-
-Document oneDocumentSummary = model.Summarize(firstDoc, new SummarizeOptions() { SummaryLength = SummaryLength.Short });
-oneDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.One.docx");
-
-Document multiDocumentSummary = model.Summarize(new Document[] { firstDoc, secondDoc }, new SummarizeOptions() { SummaryLength = SummaryLength.Long });
-multiDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.Multi.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "1e379bedb2b759c1be24c64aad54d13d" "ai-summarize.cs" >}}
 
 {{% alert color="primary" %}}
 

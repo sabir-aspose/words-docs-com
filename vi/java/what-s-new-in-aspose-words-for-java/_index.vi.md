@@ -6,27 +6,40 @@ linktitle: Có gì mới trong Aspose.Words cho Java
 type: docs
 description: "Aspose.Words cho Java mở rộng và tăng cường hàng ngày. Trên trang này, bạn có thể tìm hiểu về các tính năng khổng lồ và thú vị nhất của sản phẩm."
 weight: 2
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /vi/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2025-17-02-18-02-05
+timestamp: 2025-04-22-08-02-05
 ---
 
 Trang này mô tả các tính năng Aspose.Words mới thú vị nhất được giới thiệu trong các bản phát hành gần đây.
 
-## Aspose.Words cho Java 25.1, 25.2
+## Aspose.Words cho Java 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 giới thiệu kiểm tra ngữ pháp AI-powered và tăng cường lưu tài liệu với các tùy chọn nâng cao cho các định dạng HTML, SVG và Markdown.
 
-Aspose.Words 25.2 giới thiệu tóm tắt văn bản với Các mô hình AI Nhân Học, thêm hỗ trợ định dạng MsWorks, tăng cường kiểm soát kiểu chữ và cải thiện PDF cấu trúc và xử lý danh sách.
+Aspose.Words 25.2 giới thiệu tóm tắt văn bản với các mô hình Anthropic AI, thêm hỗ trợ định dạng MsWorks, tăng cường kiểm soát kiểu chữ và cải thiện cấu trúc PDF và xử lý danh sách.
+
+Aspose.Words 25.3 tăng cường kiểm tra ngữ pháp AI-powered và lựa chọn phông chữ với thuộc tính UpdateAmbiguousTextFont, cũng như cải thiện PDF file đính kèm xuất khẩu.
+
+Aspose.Words 25.4 giới thiệu hỗ trợ cho kích thước giấy mới, cho phép kiểm soát xuất khẩu HTML nâng cao, cải thiện xử lý hình mờ và tăng cường khả năng sử dụng của LowCode API.
 
 ### AI-các Tính năng được hỗ trợ
 
-#### Tài Liệu AI Kiểm Tra Ngữ Pháp <sup>25.1</sup>
+#### Tài Liệu AI Kiểm Tra Ngữ Pháp
 
-Khả năng kiểm tra ngữ pháp của tài liệu được cung cấp bằng cách sử dụng các mô hình tạo OpenAI đã được giới thiệu bằng cách thêm phương thức [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions) mới.
+* Khả năng kiểm tra ngữ pháp của tài liệu được cung cấp bằng cách sử dụng các mô hình tạo OpenAI đã được giới thiệu bằng cách thêm phương thức [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions) mới. <sup>25.1</sup>
+* Tính năng kiểm tra Ngữ pháp được hỗ trợ AI đã được cập nhật để hỗ trợ tất cả các mô hình có sẵn trong bảng liệt kê [AiModelType](https://reference.aspose.com/words/java/com.aspose.words/aimodeltype/). <sup>25.3</sup>
 
-#### Tóm Tắt Bằng Cách Sử Dụng Các Mô Hình Ngôn Ngữ Nhân Học <sup>25.2</sup>
+#### Tóm Tắt Sử Dụng Anthropic Mô Hình Ngôn Ngữ Chung <sup>25.2</sup>
 
-Tóm tắt văn bản bằng Cách sử dụng Các mô hình ngôn ngữ nhân Học đã được kích hoạt bằng cách giới thiệu một lớp công khai mới [AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/).
+Tóm tắt văn bản bằng cách sử dụng các mô hình ngôn ngữ tạo Anthropic đã được bật bằng cách giới thiệu một lớp công khai mới [AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/).
+
+### Low Code
+
+#### Low Code API Khả năng Sử dụng <sup>25.4</sup>
+
+Những cải tiến đáng kể về khả năng sử dụng của **LowCode API** đã được giới thiệu, đơn giản hóa việc xử lý tài liệu và giảm nhu cầu về mã lặp đi lặp lại.
 
 ### Các Định Dạng Được Hỗ Trợ <sup>25.2</sup>
 
@@ -42,6 +55,7 @@ Lưu vào các định dạng HTML và SVG đã được tăng cường bằng c
 
 * Một tùy chọn [ImageResolution](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageResolution) mới đã được thêm vào lớp [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) để đặt độ phân giải hình ảnh.
 * Một tùy chọn [OfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getOfficeMathExportMode) mới và liệt kê [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownofficemathexportmode/) đã được thêm vào lớp [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) để đặt chế độ đầu ra OfficeMath.
+* Khả năng đặt hình mờ hình ảnh từ luồng đã được giới thiệu bằng cách thêm quá tải mới vào phương thức [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.io.InputStream-com.aspose.words.ImageWatermarkOptions). <sup>25.4</sup>
 
 ### Kết xuất
 
@@ -49,10 +63,23 @@ Lưu vào các định dạng HTML và SVG đã được tăng cường bằng c
 
 Thuộc tính [NumberSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getNumberSpacing) đã được thêm vào để cải thiện kiểm soát kiểu chữ.
 
+#### Kiểm Soát Lựa chọn Phông Chữ Cho Các Ký Tự Mơ hồ <sup>25.3</sup>
+
+Một thuộc tính công khai mới [UpdateAmbiguousTextFont](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateAmbiguousTextFont) đã được thêm vào lớp [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) để kiểm soát lựa chọn phông chữ theo mã ký tự được sử dụng.
+
+#### Tùy Chọn Kích Thước Giấy <sup>25.4</sup>
+
+Khả năng sử dụng kích thước giấy JIS B4 và JIS B5 đã được giới thiệu bằng cách thêm các giá trị mới vào bảng liệt kê [PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/).
+
+#### HTML Kiểm Soát Đầu Ra <sup>25.4</sup>
+
+Khả năng xóa JavaScript khỏi siêu liên kết URLs trong quá trình xuất HTML đã được giới thiệu bằng cách thêm thuộc tính [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getRemoveJavaScriptFromLinks).
+
 ### Khác
 
 * Cấu trúc logic PDF đã được cải thiện với sự hỗ trợ cho các trường TOA, BIBLIOGRAPHY và INDEX. <sup>25.2</sup>
 * Phương pháp [AddSingleLevelList](https://reference.aspose.com/words/java/com.aspose.words/listcollection/#addSingleLevelList-int) đã được giới thiệu để xử lý danh sách được cải thiện. <sup>25.2</sup>
+* Một thuộc tính mới [AttachmentsEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getAttachmentsEmbeddingMode) đã được thêm vào để thay thế **EmbedAttachments** để cải thiện PDF xuất tệp đính kèm. Ngoài ra, các giá trị mới đã được thêm vào bảng liệt kê [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) để hỗ trợ tệp đính kèm phiên bản PDF/A. Ngoài ra, các tệp đính kèm hiện được hỗ trợ mã hóa. <sup>25.3</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,15 +87,19 @@ Tìm hiểu thêm về [Aspose.Words cho Java 25.1 Ghi Chú Phát Hành](https:/
 
 Tìm hiểu thêm về [Aspose.Words cho Java 25.2 Ghi Chú Phát Hành](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-2-release-notes/).
 
+Tìm hiểu thêm về [Aspose.Words cho Java 25.3 Ghi Chú Phát Hành](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-3-release-notes/).
+
+Tìm hiểu thêm về [Aspose.Words cho Java 25.4 Ghi Chú Phát Hành](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-4-release-notes/).
+
 {{% /alert %}}
 
 ## Aspose.Words cho Java 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 giới thiệu group shape chèn và StructuredDocumentTag chèn qua DocumentBuilder, tăng cường kết xuất biểu đồ xuyên tâm với độ tốt nghiệp, cải thiện chữ ký số với hỗ trợ XAdES-EPES, thêm nhận dạng gạch chân Markdown và cung cấp quyền truy cập vào dấu phân cách chú thích/cuối chú thích.
 
-Aspose.Words 24.10 giới thiệu Hỗ trợ Điều khiển ActiveX nâng cao với CommandButton tạo, kiểm soát khả năng hiển thị hình dạng mới, khả năng group shapes, cải thiện Markdown xuất cho bảng, định dạng biểu đồ cho Pie và Doughnut biểu đồ, Xử lý Mã Hóa Big5 Tốt hơn và hỗ trợ phông Chữ đài Loan lỗi thời.
+Aspose.Words 24.10 giới thiệu hỗ trợ kiểm soát ActiveX nâng cao với việc tạo CommandButton, kiểm soát khả năng hiển thị hình dạng mới, khả năng group shapes, cải thiện Markdown xuất cho bảng, định dạng biểu đồ cho Pie và Doughnut biểu đồ, Xử lý Mã Hóa Big5 Tốt hơn và hỗ trợ phông Chữ đài Loan lỗi thời.
 
-Aspose.Words 24.11 giới thiệu AI-tóm tắt tài liệu được hỗ trợ, các tùy chọn kết xuất nâng cao, cải thiện quyền truy cập vào thuộc tính tài liệu và Phụ đề Điều khiển ActiveX.
+Aspose.Words 24.11 giới thiệu AI-tóm tắt tài liệu được hỗ trợ, các tùy chọn kết xuất nâng cao, cải thiện quyền truy cập vào thuộc tính tài liệu và phụ đề kiểm soát ActiveX.
 
 Aspose.Words 24.12 giới thiệu vị trí nhãn dữ liệu có thể tùy chỉnh, Google AI-dịch văn bản được hỗ trợ, các tùy chọn dọn dẹp Mail Merge nâng cao và các lớp xử lý LowCode mới.
 
@@ -92,9 +123,9 @@ Các lớp LowCode mới như [Comparer](https://reference.aspose.com/words/java
 
 Kết xuất tốt nghiệp trên biểu đồ xuyên tâm đã được thực hiện.
 
-#### CommandButton Điều Khiển ActiveX <sup>24.10</sup>
+#### CommandButton ActiveX Kiểm Soát <sup>24.10</sup>
 
-Khả năng tạo các điều khiển ActiveX CommandButton Đã được giới thiệu bằng cách thêm một phương thức công khai mới [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) và một lớp công khai mới [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/).
+Khả năng tạo các điều khiển CommandButton ActiveX đã được giới thiệu bằng cách thêm một phương thức công khai mới [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) và một lớp công khai mới [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/).
 
 #### Kiểm Soát Hình Dạng Khả Năng Hiển Thị <sup>24.10</sup>
 
@@ -151,7 +182,7 @@ Khả năng ký các tài liệu có chữ ký XAdES-EPES cấp độ XML-DSig �
 * Xử lý mã hóa Big5 cho các bảng cmap TrueType đã được cải thiện. <sup>24.10</sup>
 * Hỗ trợ cho các phông Chữ đài Loan đã lỗi thời đã được tăng cường. <sup>24.10</sup>
 * Để truy cập các thuộc tính tài liệu mở rộng, các thuộc tính chỉ đọc đã được thêm vào lớp [BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/). <sup>24.11</sup>
-* Cài đặt chú thích Cho Điều khiển ActiveX đã được bật bằng cách thêm trình thiết lập công khai mới vào thuộc tính [Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption). <sup>24.11</sup>
+* Đặt chú thích cho các điều khiển ActiveX đã được bật bằng cách thêm trình thiết lập công khai mới vào thuộc tính [Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption). <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
@@ -171,7 +202,7 @@ Aspose.Words 24.5 mở rộng các tùy chọn cho hội đồng, cải thiện 
 
 Aspose.Words 24.6 cải thiện các tùy chọn kết xuất, tăng cường chức năng tìm kiếm và so sánh và mở rộng một số tính năng khác.
 
-Aspose.Words 24.7 thay đổi cách Bạn làm việc Với ActiveX, mở rộng khả năng kết xuất, cũng như xuất sang các định dạng Markdown và XLSX.
+Aspose.Words 24.7 thay đổi cách bạn làm việc với ActiveX, mở rộng khả năng kết xuất, cũng như xuất sang các định dạng Markdown và XLSX.
 
 Aspose.Words 24.8 tăng cường tùy chỉnh biểu đồ với sự kiểm soát chính xác đối với nhãn trục, mở rộng quản lý phông chữ, cải thiện xử lý cấu trúc tài liệu và thêm các khả năng mới choHTML/XAML xuất, PDF chức năng, chuyển đổi tài liệu và chữ ký số.
 
@@ -203,11 +234,11 @@ Khả năng tùy chỉnh các nhãn dữ liệu biểu đồ như **Orientation*
 
 Một setter cho tài sản công cộng [CustomNumberStyleFormat](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getCustomNumberStyleFormat) đã được thêm vào. Bây giờ bạn có thể xác định kiểu dáng số tùy chỉnh cho các cấp danh sách.
 
-#### Những thay đổi khi làm Việc Với ActiveX <sup>24.7</sup>
+#### Những thay đổi khi làm việc với ActiveX <sup>24.7</sup>
 
-* Các thuộc tính Của Các đối tượng ActiveX hiện có thể được sửa đổi, giúp bạn kiểm soát nhiều hơn hành vi của chúng.
-* Khả năng sửa đổi giá trị của nút radio Điều khiển ActiveX để cho phép tương tác động đã được thêm vào.
-* Khả năng chuyển Đổi ActiveX checkbox thành "đã kiểm tra" hoặc "không được kiểm tra" đã được thêm vào.
+* Các thuộc tính của các đối tượng ActiveX hiện có thể được sửa đổi, giúp bạn kiểm soát nhiều hơn hành vi của chúng.
+* Khả năng sửa đổi giá trị của nút radio ActiveX điều khiển để cho phép tương tác động đã được thêm vào.
+* Khả năng chuyển đổi ActiveX checkbox thành "đã kiểm tra" hoặc "không được kiểm tra" đã được thêm vào.
 
 #### Kiểm soát Trục Biểu Đồ Đánh Dấu Nhãn Định hướng Và Xoay <sup>24.8</sup>
 

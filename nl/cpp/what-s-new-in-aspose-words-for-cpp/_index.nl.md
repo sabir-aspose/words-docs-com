@@ -4,29 +4,42 @@ second_title: Aspose.Words voor C++
 articleTitle: Wat is er nieuw in Aspose.Words voor C++
 linktitle: Wat is er nieuw in Aspose.Words voor C++
 type: docs
-description: "Aspose.Words voor C++ breidt zich dagelijks uit en verbetert. Op deze pagina kunt u meer te weten komen over de enorme en meest interessante functies van het product."
+description: "Aspose.Words voor C++ breidt en verbetert dagelijks. Op deze pagina kunt u meer te weten komen over de enorme en meest interessante functies van het product."
 weight: 2
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nl/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2025-03-09-12-38-00
+timestamp: 2025-04-15-08-02-05
 ---
 
 Deze pagina beschrijft de meest interessante nieuwe Aspose.Words - functies die zijn geïntroduceerd in recente releases.
 
-## Aspose.Words voor C++ 25.1, 25.2
+## Aspose.Words voor C++ 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 introduceert grammaticacontrole op basis van AI en verbetert het opslaan van documenten met geavanceerde opties voor HTML, SVG en Markdown formaten.
 
-Aspose.Words 25.2 introduceert tekstsamenvatting met antropische AI modellen, voegt MsWorks formaatondersteuning toe, verbetert typografische controle en verbetert PDF structuur en lijstverwerking.
+Aspose.Words 25.2 introduceert tekstsamenvatting met Anthropic AI modellen, voegt MsWorks formaatondersteuning toe, verbetert typografische controle en verbetert PDF structuur en lijstverwerking.
+
+Aspose.Words 25.3 verbetert een door AI aangedreven grammaticacontrole en lettertypeselectie met de eigenschap UpdateAmbiguousTextFont, en verbetert de export van PDF bijlagen.
+
+Aspose.Words 25.4 introduceert ondersteuning voor nieuwe papierformaten, maakt geavanceerde HTML exportcontrole mogelijk, verbetert de behandeling van watermerken en verbetert de bruikbaarheid van de LowCode API.
 
 ### AI-aangedreven functies
 
-#### Document AI Grammaticacontrole <sup>25.1</sup>
+#### Document AI Grammaticacontrole
 
-De mogelijkheid om de grammatica van het verstrekte document te controleren met behulp van OpenAI generatieve modellen is geïntroduceerd door een nieuwe [CheckGrammar](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/checkgrammar/) methode toe te voegen.
+* De mogelijkheid om de grammatica van het verstrekte document te controleren met behulp van OpenAI generatieve modellen is geïntroduceerd door een nieuwe [CheckGrammar](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/checkgrammar/) methode toe te voegen. <sup>25.1</sup>
+* De door AI aangedreven Grammaticacontrolefunctie is bijgewerkt om alle modellen te ondersteunen die beschikbaar zijn in de [AiModelType](https://reference.aspose.com/words/cpp/aspose.words.ai/aimodeltype/)-opsomming. <sup>25.3</sup>
 
-#### Samenvatting Met Behulp Van Antropische Generatieve Taalmodellen <sup>25.2</sup>
+#### Samenvatting Met Behulp Van Anthropic Generatieve Taalmodellen <sup>25.2</sup>
 
-Tekstsamenvatting met behulp van antropische generatieve taalmodellen is mogelijk gemaakt door de introductie van een nieuwe openbare klasse [AnthropicAiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/).
+Tekstsamenvatting met behulp van Anthropic generatieve taalmodellen is mogelijk gemaakt door een nieuwe openbare klasse [AnthropicAiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/) in te voeren.
+
+### Low Code
+
+#### Low Code API bruikbaarheid <sup>25.4</sup>
+
+De bruikbaarheid van **LowCode API** is aanzienlijk verbeterd, waardoor de documentverwerking wordt vereenvoudigd en de noodzaak van herhalende code wordt verminderd.
 
 ### Ondersteunde Formaten <sup>25.2</sup>
 
@@ -42,6 +55,7 @@ Opslaan in HTML en SVG formaten is verbeterd door **IdPrefix** en **RemoveJavaSc
 
 - Er is een nieuwe optie [ImageResolution](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_imageresolution/) toegevoegd aan de klasse [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) om de afbeeldingsresolutie in te stellen.
 - Een nieuwe [OfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_officemathexportmode/) optie en [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownofficemathexportmode/) opsomming zijn toegevoegd aan de [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) klasse om OfficeMath output mode in te stellen.
+- De mogelijkheid om een beeldwatermerk van een stroom in te stellen is geïntroduceerd door een nieuwe overbelasting toe te voegen aan de methode [SetImage](https://reference.aspose.com/words/cpp/aspose.words/watermark/setimage/#watermarksetimageconst-systemsharedptrsystemiostream-const-systemsharedptrasposewordsimagewatermarkoptions-method). <sup>25.4</sup>
 
 ### Rendering
 
@@ -49,10 +63,23 @@ Opslaan in HTML en SVG formaten is verbeterd door **IdPrefix** en **RemoveJavaSc
 
 De eigenschap [NumberSpacing](https://reference.aspose.com/words/cpp/aspose.words/font/get_numberspacing/) is toegevoegd voor verbeterde typografische controle.
 
+#### Controle van de lettertypeselectie voor dubbelzinnige tekens <sup>25.3</sup>
+
+Er is een nieuwe openbare eigenschap [UpdateAmbiguousTextFont](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_updateambiguoustextfont/) toegevoegd aan de klasse [SaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/) om de lettertypeselectie te regelen volgens de gebruikte tekencode.
+
+#### Opties Voor Papierformaat <sup>25.4</sup>
+
+De mogelijkheid om JIS B4 en JIS B5 papierformaten te gebruiken is geïntroduceerd door nieuwe waarden toe te voegen aan de [PaperSize](https://reference.aspose.com/words/cpp/aspose.words/papersize/) opsomming.
+
+#### HTML Uitvoercontrole <sup>25.4</sup>
+
+De mogelijkheid om JavaScript van hyperlink URLs te verwijderen tijdens HTML export is geïntroduceerd door de eigenschap [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/cpp/aspose.words.saving/htmlsaveoptions/get_removejavascriptfromlinks/) toe te voegen.
+
 ### Ander
 
-- PDF logische structuur is verbeterd met ondersteuning voor TOA, BIBLIOGRAPHY en INDEX velden. <sup>25.2</sup>
-- De [AddSingleLevelList](https://reference.aspose.com/words/cpp/aspose.words.lists/listcollection/addsinglelevellist/) methode is geïntroduceerd voor verbeterde lijstverwerking. <sup>25.2</sup>
+* PDF logische structuur is verbeterd met ondersteuning voor TOA, BIBLIOGRAPHY en INDEX velden. <sup>25.2</sup>
+* De [AddSingleLevelList](https://reference.aspose.com/words/cpp/aspose.words.lists/listcollection/addsinglelevellist/) methode is geïntroduceerd voor verbeterde lijstverwerking. <sup>25.2</sup>
+* Er is een nieuwe eigenschap [AttachmentsEmbeddingMode](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_attachmentsembeddingmode/) toegevoegd om **EmbedAttachments** te vervangen om de export van PDF bijlagen te verbeteren. Ook zijn er nieuwe waarden toegevoegd aan de [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfcompliance/) opsomming om PDF/A versiebijlagen te ondersteunen. Bovendien worden bijlagen nu ondersteund met encryptie. <sup>25.3</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,31 +87,35 @@ Lees meer over [Aspose.Words voor C++ 25.1 Release Notes](https://releases.aspos
 
 Lees meer over [Aspose.Words voor C++ 25.2 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-2-release-notes/).
 
+Lees meer over [Aspose.Words voor C++ 25.3 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-3-release-notes/).
+
+Lees meer over [Aspose.Words voor C++ 25.4 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-4-release-notes/).
+
 {{% /alert %}}
 
 ## Aspose.Words voor C++ 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 introduceert group shape invoeging en StructuredDocumentTag invoeging via DocumentBuilder, verbetert de weergave van radiale grafieken met graduaties, verbetert digitale handtekeningen met XAdES-EPES ondersteuning, voegt Markdown onderstrepingherkenning toe en biedt toegang tot voetnoot/eindnoot scheidingstekens.
 
-Aspose.Words 24.10 introduceert verbeterde ondersteuning voor ActiveX control met CommandButton creatie, nieuwe shape visibility control, de mogelijkheid om group shapes, verbeterde Markdown export voor tabellen, grafiekopmaak voor Pie en Doughnut grafieken, betere Big5-codering en ondersteuning voor verouderde Taiwanese lettertypen.
+Aspose.Words 24.10 introduceert verbeterde ActiveX control-ondersteuning met CommandButton creatie, nieuwe shape visibility control, de mogelijkheid om group shapes, verbeterde Markdown export voor tabellen, grafiekopmaak voor Pie en Doughnut grafieken, betere Big5-codering en ondersteuning voor verouderde Taiwanese lettertypen.
 
 Aspose.Words 24.11 introduceert AI-aangedreven document samenvatting, verbeterde rendering opties, verbeterde toegang tot document eigenschappen en ActiveX control Ondertiteling.
 
-Aspose.Words 24.12 introduceert aanpasbare plaatsing van gegevenslabels, door Google AI aangestuurde tekstvertaling, verbeterde opties voor het opschonen van Mail Merge en nieuwe LowCode-verwerkingsklassen.
+Aspose.Words 24.12 introduceert aanpasbare data label plaatsing, Google AI-aangedreven tekstvertaling, verbeterde Mail Merge opschoonopties en nieuwe LowCode verwerkingsklassen.
 
 ### AI-aangedreven functies
 
-#### Documentsamenvatting met OpenAI en Google <sup>24.11</sup>
+#### Samenvatting van documenten met behulp van OpenAI en Google <sup>24.11</sup>
 
-Ondersteuning voor documentsamenvatting met behulp van **OpenAI** en **Google** generatieve taalmodellen is geïntegreerd door de [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/) naamruimte toe te voegen aan zijn openbare leden.
+Ondersteuning voor documentsamenvatting met behulp van **OpenAI** en **Google** generatieve taalmodellen is geïntegreerd.
 
-#### Tekstvertaling met behulp van Google's generatieve taalmodellen <sup>24.12</sup>
+#### Tekstvertaling met behulp van Google ' s generatieve taalmodellen <sup>24.12</sup>
 
-De mogelijkheid om tekst te vertalen met behulp van Google's generatieve taalmodellen is geïmplementeerd in Aspose.Words door de methode [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/) en de [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/) en de opsomming toe te voegen aan de [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/)-naamruimte.
+De mogelijkheid om tekst te vertalen met behulp van Google ' s generatieve taalmodellen is geïmplementeerd in Aspose.Words door de [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/) methode en de [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/) opsomming toe te voegen aan de [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/) naamruimte.
 
 ### Low Code <sup>24.12</sup>
 
-Nieuwe LowCode-klassen zoals [Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/cpp/aspose.words.lowcode/merger/), [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) etc. zijn geïntroduceerd en bieden een reeks methoden die de perfecte balans vormen tussen eenvoud en flexibiliteit voor documentverwerking.
+Nieuwe LowCode klassen zoals [Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/cpp/aspose.words.lowcode/merger/), [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) enz. is geïntroduceerd en biedt een reeks methoden die de perfecte balans vinden tussen eenvoud en flexibiliteit voor documentverwerking.
 
 ### Rendering en afdrukken
 
@@ -92,9 +123,9 @@ Nieuwe LowCode-klassen zoals [Comparer](https://reference.aspose.com/words/cpp/a
 
 De weergave van graduaties op radiale grafieken is geïmplementeerd.
 
-#### CommandButton ActiveX-Besturingselementen <sup>24.10</sup>
+#### CommandButton ActiveX besturingselementen <sup>24.10</sup>
 
-De mogelijkheid om CommandButton ActiveX-besturingselementen te maken is geïntroduceerd door een nieuwe openbare methode [InsertForms2OleControl](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertforms2olecontrol/) en een nieuwe openbare klasse **Forms2OleControl** toe te voegen.
+De mogelijkheid om CommandButton ActiveX besturingselementen te maken is geïntroduceerd door een nieuwe openbare methode [InsertForms2OleControl](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertforms2olecontrol/) en een nieuwe openbare klasse **Forms2OleControl** toe te voegen.
 
 #### Control Shape Visibility <sup>24.10</sup>
 
@@ -106,19 +137,19 @@ Er zijn verschillende nieuwe openbare eigenschappen toegevoegd om Pie en Doughnu
 
 #### De weergave van PDF Keuzeveldranden bepalen <sup>24.11</sup>
 
-Er is een nieuwe optie geïmplementeerd om de weergave van PDF keuzeveldranden voor formuliervelden te beheren door een nieuwe openbare optie [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_renderchoiceformfieldborder/) toe te voegen.
+Er is een nieuwe optie geïmplementeerd om de weergave van PDF keuzeveldranden voor formuliervelden te beheren door een nieuwe openbare optie **RenderChoiceFormFieldBorder** toe te voegen.
 
 #### Formaatcodes voor Grafiekgegevens ophalen en instellen <sup>24.11</sup>
 
-De mogelijkheid om formaatcodes voor grafiekgegevens te verkrijgen en in te stellen is toegevoegd door de eigenschap [FormatCode](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/get_formatcode/) in de klassen [ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/) en [BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/) te implementeren.
+De mogelijkheid om formaatcodes voor grafiekgegevens te verkrijgen en in te stellen is toegevoegd door de eigenschap **FormatCode** in de klassen [ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/) en [BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/) te implementeren.
 
 #### Histogramdiagrammen weergeven met bakken en Labels <sup>24.11</sup>
 
 De weergave van histogrammen is verbeterd door een bepaald aantal bakken en labels toe te staan.
 
-#### Pas de plaatsing van gegevenslabels aan <sup>24.12</sup>
+#### De plaatsing van Gegevenslabels aanpassen <sup>24.12</sup>
 
-De mogelijkheid om de plaatsing van gegevenslabels aan te passen is toegevoegd door nieuwe eigenschappen te introduceren in de klassen [ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/) en [ChartDataLabelCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabelcollection/).
+De mogelijkheid om de plaatsing van gegevenslabels aan te passen is toegevoegd door nieuwe eigenschappen toe te voegen aan de klassen [ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/) en [ChartDataLabelCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabelcollection/).
 
 ### Documenten converteren, laden en opslaan
 
@@ -128,7 +159,7 @@ De optie om onderstreping te herkennen bij het laden van Markdown documenten is 
 
 #### Tabellen exporteren als HTML bij opslaan naar Markdown <sup>24.10</sup>
 
-Een optie om tabellen als HTML te exporteren bij het opslaan van documenten in Markdown - indeling is geïmplementeerd door een nieuwe openbare Eigenschap [ExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_exportashtml/) en een opsomming [MarkdownExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownexportashtml/) toe te voegen.
+Een optie om tabellen als HTML te exporteren bij het opslaan van documenten in Markdown - indeling is geïmplementeerd door een nieuwe openbare eigenschap [ExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_exportashtml/) en een opsomming [MarkdownExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownexportashtml/) toe te voegen.
 
 #### PDF exporteren met bijgewerkte logische structuur <sup>24.11</sup>
 
@@ -138,7 +169,7 @@ De export van PDF is verbeterd door eigenschappen van tabeltitels op te nemen al
 
 #### Lege tabellen verwijderen tijdens Mail Merge <sup>24.12</sup>
 
-Er is een nieuwe optie **RemoveEmptyTables** toegevoegd aan de [MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/)-enumeratie om de Mail Merge-uitvoer te verfijnen.
+Een nieuwe **RemoveEmptyTables** optie is toegevoegd aan de [MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/) opsomming om Mail Merge output te verfijnen.
 
 ### Digitale Handtekeningen
 
@@ -154,8 +185,8 @@ De mogelijkheid om documenten te ondertekenen met handtekeningen van XAdES-EPES 
 * De mogelijkheid om afzonderlijke vormen, group shapes samen te groeperen en beide vormen en group shapes rechtstreeks te groeperen, is geïntroduceerd door de methode [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/) toe te voegen. <sup>24.10</sup>
 * Big5 encoding handling voor TrueType cmap tabellen is verbeterd. <sup>24.10</sup>
 * Ondersteuning voor verouderde Taiwanese lettertypen is verbeterd. <sup>24.10</sup>
-* Voor toegang tot uitgebreide Documenteigenschappen zijn alleen-lezen eigenschappen toegevoegd aan de klasse [BuiltInDocumentProperties](https://reference.aspose.com/words/cpp/aspose.words.properties/builtindocumentproperties/). <sup>24.11</sup>
-* Bijschriften instellen voor ActiveX-besturingselementen is ingeschakeld door een nieuwe openbare setter toe te voegen aan de eigenschap **Forms2OleControl.Caption**. <sup>24.11</sup>
+* Voor toegang tot uitgebreide Documenteigenschappen zijn alleen-lezen eigenschappen toegevoegd aan de klasse **BuiltInDocumentProperties**. <sup>24.11</sup>
+* Het instellen van bijschriften voor ActiveX besturingselementen is ingeschakeld door een nieuwe openbare setter toe te voegen aan de eigenschap **Forms2OleControl.Caption**. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
@@ -169,13 +200,13 @@ Lees meer over [Aspose.Words voor C++ 24.12 Release Notes](https://releases.aspo
 
 {{% /alert %}}
 
-## Aspose.Words voor C++ 24.5, 24.6, 24.7
+## Aspose.Words Voor C++ 24.5, 24.6, 24.7
 
 Aspose.Words 24.5 breidt opties voor assemblies uit, verbetert de rendermogelijkheden en breidt enkele andere opties uit.
 
 Aspose.Words 24.6 verbetert de weergaveopties, verbetert de Zoek-en vergelijkingsfunctionaliteit en breidt verschillende andere functies uit.
 
-Aspose.Words 24.7 wijzigt de manier waarop u met ActiveX werkt, breidt de weergavemogelijkheden uit en exporteert naar de indelingen Markdown en XLSX.
+Aspose.Words 24.7 wijzigt de manier waarop u met ActiveX werkt, breidt de weergavemogelijkheden uit en exporteert naar Markdown en XLSX indelingen.
 
 ### Ondersteunde Formaten
 
@@ -207,8 +238,8 @@ Er is een setter voor de openbare eigenschap [CustomNumberStyleFormat](https://r
 
 #### Wijzigingen in het werken met ActiveX <sup>24.7</sup>
 
-- De eigenschappen van ActiveX-objecten kunnen nu worden gewijzigd, zodat u meer controle hebt over hun gedrag.
-- De mogelijkheid om de waarde van het ActiveX-besturingselement keuzerondje te wijzigen om dynamische interactie mogelijk te maken, is toegevoegd.
+- De eigenschappen van ActiveX objecten kunnen nu worden gewijzigd, waardoor u meer controle over hun gedrag krijgt.
+- De mogelijkheid om de waarde van het keuzerondje ActiveX te wijzigen om dynamische interactie mogelijk te maken, is toegevoegd.
 - De mogelijkheid om een ActiveX checkbox om te schakelen naar "aangevinkt" of "niet aangevinkt" is toegevoegd.
 
 ### Documenten laden en opslaan
@@ -233,7 +264,7 @@ De mogelijkheid om data-analyse workflows te stroomlijnen met verbeterde vergeli
 
 {{% alert color="primary" %}}
 
-Lees meer over [Aspose.Words Voor C++ 24.5 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-5-release-notes/).
+Lees meer over [Aspose.Words voor C++ 24.5 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-5-release-notes/).
 
 Lees meer over [Aspose.Words voor C++ 24.6 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-6-release-notes/).
 
@@ -362,7 +393,7 @@ De functie om hyperlinks te herkennen bij het laden van TXT documenten is geïmp
 * Een generieke type parameter is toegevoegd aan de methoden van de [CompositeNode](https://reference.aspose.com/words/cpp/aspose.words/compositenode/) klasse. <sup>23.10</sup>
 * Een manier om te controleren wanneer een bepaalde herziening moet worden geaccepteerd / afgewezen of niet is geïmplementeerd met behulp van de [Accept](https://reference.aspose.com/words/cpp/aspose.words/revisioncollection/accept/) en [Reject](https://reference.aspose.com/words/cpp/aspose.words/revisioncollection/reject/) methoden. Deze verbetering geeft gebruikers een betere controle over het revisieproces. <sup>23.11</sup>
 * De mogelijkheid om alle secties van een document op hetzelfde XLSX werkblad te schrijven is beschikbaar via het nieuwe [XlsxSectionMode](https://reference.aspose.com/words/cpp/aspose.words.saving/xlsxsectionmode/) opsommingstype en de nieuwe [SectionMode](https://reference.aspose.com/words/cpp/aspose.words.saving/xlsxsaveoptions/get_sectionmode/) eigenschap. <sup>23.11</sup>
-* Een manier om te bepalen hoe ZIP64 format extensies zullen worden gebruikt voor OOXML documenten is geïmplementeerd via de nieuwe Zip64Mode eigenschap van de `OoxmlSaveOptions` klasse en de nieuwe Zip64Mode opsomming. <sup>23.12</sup>
+* Een manier om te bepalen hoe ZIP64 - opmaakextensies worden gebruikt voor OOXML - documenten is geïmplementeerd via de nieuwe Zip64Mode-eigenschap van de `OoxmlSaveOptions` - klasse en de nieuwe Zip64Mode-opsomming. <sup>23.12</sup>
 * Ondersteuning voor WebP image is geïntroduceerd. Houd er rekening mee dat deze functie alleen beschikbaar is voor .NetStandart en .NET6+ versies. <sup>23.12</sup>
 
 {{% alert color="primary" %}}

@@ -1,16 +1,26 @@
-﻿---
-title: Робота з водяним знаком в C++
+---
+title: Робота з водяними знаками в C++
 second_title: Aspose.Words для C++
 articleTitle: Робота з водяними знаками
 linktitle: Робота з водяними знаками
 type: docs
 description: "Маніпулювання водяними знаками документа за допомогою C++."
 weight: 340
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /uk/cpp/working-with-watermark/
-timestamp: 2024-01-30-16-22-34
+timestamp: 2025-05-07-07-22-34
 ---
 
 У цьому розділі обговорюється, як програмно працювати з водяними знаками за допомогою Aspose.Words. Водяний знак-це фонове зображення, яке відображається за текстом у документі. Водяний знак може містити текст або зображення, представлені класом [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/).
+
+{{% alert color="primary" %}}
+
+**Спробуйте онлайн**
+
+Ви можете випробувати цю функцію з нашим [Безкоштовний онлайн документ водяного знака](https://products.aspose.app/words/watermark).
+
+{{% /alert %}}
 
 ## Додавання водяного знака до документа
 
@@ -28,7 +38,11 @@ Microsoft Word водяний знак можна легко вставити в
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cpp" >}}
 
-Водяний знак також можна вставити за допомогою класу shape. Дуже просто вставити будь-яку фігуру чи зображення у верхній або нижній колонтитул і таким чином створити водяний знак будь-якого мислимого типу. Наступний приклад коду вставляє водяний знак у документ Word.
+Водяний знак зображення може бути вставлений у вигляді зображення, рядка або потоку.
+
+Водяний знак також можна вставити за допомогою класу shape. Дуже легко вставити будь-яку фігуру чи зображення у верхній або нижній колонтитул і таким чином створити водяний знак будь-якого типу, який можна уявити.
+
+У наступному прикладі коду водяний знак вставляється в документ Word.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Images-AddWatermark-AddWatermark.cpp" >}}
 

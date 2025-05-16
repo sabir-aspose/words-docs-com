@@ -6,27 +6,40 @@ linktitle: Co je nového v Aspose.Words pro Java
 type: docs
 description: "Aspose.Words pro Java rozšiřuje a zvyšuje denně. Na této stránce se můžete dozvědět o obrovských a nejzajímavějších vlastnostech produktu."
 weight: 2
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cs/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2025-17-02-18-02-05
+timestamp: 2025-04-22-08-02-05
 ---
 
 Tato stránka popisuje nejzajímavější nové funkce Aspose.Words představené v posledních verzích.
 
-## Aspose.Words pro Java 25.1, 25.2
+## Aspose.Words Pro Java 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 zavádí kontrolu gramatiky pomocí AI a vylepšuje ukládání dokumentů pomocí pokročilých možností pro formáty HTML, SVG a Markdown.
 
-Aspose.Words 25.2 zavádí shrnutí textu pomocí Antropických modelů AI, přidává podporu formátu MsWorks, vylepšuje typografické ovládání a zlepšuje strukturu a zpracování seznamu PDF.
+Aspose.Words 25.2 zavádí shrnutí textu pomocí modelů Anthropic AI, přidává podporu formátu MsWorks, vylepšuje typografické ovládání a zlepšuje strukturu a zpracování seznamu PDF.
+
+Aspose.Words 25.3 vylepšuje kontrolu gramatiky a výběr písma pomocí AI s vlastností UpdateAmbiguousTextFont a také vylepšuje export příloh PDF.
+
+Aspose.Words 25.4 zavádí podporu pro nové velikosti papíru, umožňuje pokročilé řízení exportu HTML, zlepšuje manipulaci s vodoznakem a zvyšuje použitelnost LowCode API.
 
 ### AI - poháněné funkce
 
-#### Kontrola Gramatiky AI <sup>25.1</sup>
+#### Kontrola Gramatiky AI
 
-Schopnost kontrolovat gramatiku poskytnutého dokumentu pomocí OpenAI generativních modelů byla zavedena přidáním nové metody [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions).
+* Schopnost kontrolovat gramatiku poskytnutého dokumentu pomocí OpenAI generativních modelů byla zavedena přidáním nové metody [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions). <sup>25.1</sup>
+* Funkce kontroly gramatiky založená na AI byla aktualizována tak, aby podporovala všechny modely dostupné ve výčtu [AiModelType](https://reference.aspose.com/words/java/com.aspose.words/aimodeltype/). <sup>25.3</sup>
 
-#### Shrnutí Pomocí Antropických Generativních Jazykových Modelů <sup>25.2</sup>
+#### Shrnutí Pomocí Anthropic Generativních Jazykových Modelů <sup>25.2</sup>
 
-Shrnutí textu pomocí Antropických generativních jazykových modelů bylo umožněno zavedením nové veřejné třídy [AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/).
+Shrnutí textu pomocí Anthropic generativních jazykových modelů bylo povoleno zavedením nové veřejné třídy [AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/).
+
+### Low Code
+
+#### Low Code API použitelnost <sup>25.4</sup>
+
+Byla zavedena významná vylepšení použitelnosti **LowCode API**, která zjednodušují zpracování dokumentů a snižují potřebu opakovaného kódu.
 
 ### Podporované Formáty <sup>25.2</sup>
 
@@ -42,6 +55,7 @@ Ukládání do formátů HTML a SVG bylo vylepšeno přidáním vlastností **Id
 
 * Do třídy [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) byla přidána nová možnost [ImageResolution](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageResolution) pro nastavení rozlišení obrazu.
 * Do třídy [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) byla přidána nová volba [OfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getOfficeMathExportMode) a výčet [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownofficemathexportmode/) pro nastavení výstupního režimu OfficeMath.
+* Možnost nastavit vodoznak obrázku ze streamu byla zavedena přidáním nového přetížení do metody [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.io.InputStream-com.aspose.words.ImageWatermarkOptions). <sup>25.4</sup>
 
 ### Vykreslování
 
@@ -49,10 +63,23 @@ Ukládání do formátů HTML a SVG bylo vylepšeno přidáním vlastností **Id
 
 Vlastnost [NumberSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getNumberSpacing) byla přidána pro lepší typografické ovládání.
 
+#### Ovládání výběru písma pro nejednoznačné znaky <sup>25.3</sup>
+
+Do třídy [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) byla přidána nová veřejná vlastnost [UpdateAmbiguousTextFont](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateAmbiguousTextFont), která řídí výběr písma podle použitého znakového kódu.
+
+#### Možnosti Velikosti Papíru <sup>25.4</sup>
+
+Schopnost používat JIS B4 a JIS B5 velikosti papíru byla zavedena přidáním nových hodnot do výčtu [PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/).
+
+#### HTML Výstupní Řízení <sup>25.4</sup>
+
+Možnost odebrat JavaScript z hypertextového odkazu URLs během exportu HTML byla zavedena přidáním vlastnosti [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getRemoveJavaScriptFromLinks).
+
 ### Jiný
 
 * Logická struktura PDF byla vylepšena podporou polí TOA, BIBLIOGRAPHY a INDEX. <sup>25.2</sup>
 * Pro lepší zpracování seznamu byla zavedena metoda [AddSingleLevelList](https://reference.aspose.com/words/java/com.aspose.words/listcollection/#addSingleLevelList-int). <sup>25.2</sup>
+* Byla přidána nová vlastnost [AttachmentsEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getAttachmentsEmbeddingMode), která nahradí **EmbedAttachments** a zlepší export příloh PDF. Do výčtu [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) byly také přidány nové hodnoty, které podporují přílohy verze PDF/A. Kromě toho jsou přílohy nyní podporovány šifrováním. <sup>25.3</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,15 +87,19 @@ Další informace o [Aspose.Words Pro Java 25.1 Poznámky K Vydání](https://re
 
 Další informace o [Aspose.Words pro Java 25.2 Poznámky K Vydání](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-2-release-notes/).
 
+Další informace o [Aspose.Words Pro Java 25.3 Poznámky K Vydání](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-3-release-notes/).
+
+Další informace o [Aspose.Words Pro Java 25.4 Poznámky K Vydání](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-4-release-notes/).
+
 {{% /alert %}}
 
 ## Aspose.Words pro Java 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 zavádí group shape vkládání a StructuredDocumentTag vkládání pomocí DocumentBuilder, vylepšuje Vykreslování radiálního grafu s odstupňováním, vylepšuje digitální podpisy s podporou XAdES-EPES, přidává Markdown rozpoznávání podtržení a poskytuje přístup k oddělovačům poznámek pod čarou/vysvětlivek.
 
-Aspose.Words 24.10 zavádí vylepšenou podporu ovládání ActiveX s vytvářením CommandButton, novým ovládáním viditelnosti tvarů, schopností group shapes, vylepšeným exportem Markdown pro tabulky, formátováním grafů pro grafy Pie a Doughnut, lepším zpracováním kódování Big5 a podporou zastaralých tchajwanských písem.
+Aspose.Words 24.10 zavádí vylepšenou podporu řízení ActiveX s vytvářením CommandButton, novým ovládáním viditelnosti tvarů, schopností group shapes, vylepšeným exportem Markdown pro tabulky, formátováním grafů pro grafy Pie a Doughnut, lepší manipulací s kódováním Big5 a podporou zastaralých tchajwanských písem.
 
-Aspose.Words 24.11 představuje souhrn dokumentů poháněný AI, vylepšené možnosti Vykreslování, vylepšený přístup k vlastnostem dokumentu a titulky ovládacích prvků ActiveX.
+Aspose.Words 24.11 představuje souhrn dokumentů poháněný AI, vylepšené možnosti Vykreslování, vylepšený přístup k vlastnostem dokumentu a ActiveX Ovládání titulků.
 
 Aspose.Words 24.12 zavádí přizpůsobitelné umístění datových štítků, překlad textu pomocí Google AI, vylepšené možnosti vyčištění Mail Merge a nové třídy zpracování LowCode.
 
@@ -92,7 +123,7 @@ Nové LowCode třídy jako [Comparer](https://reference.aspose.com/words/java/co
 
 Bylo implementováno Vykreslování promocí na radiálních grafech.
 
-#### CommandButton Ovládací Prvky ActiveX <sup>24.10</sup>
+#### CommandButton ActiveX ovládací prvky <sup>24.10</sup>
 
 Schopnost vytvářet ovládací prvky CommandButton ActiveX byla zavedena přidáním nové veřejné metody [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) a nové veřejné třídy [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/).
 
@@ -206,7 +237,7 @@ Byl přidán setr pro veřejný majetek [CustomNumberStyleFormat](https://refere
 #### Změny v práci s ActiveX <sup>24.7</sup>
 
 * Vlastnosti objektů ActiveX lze nyní upravit, což vám dává větší kontrolu nad jejich chováním.
-* Byla přidána možnost upravit hodnotu přepínače ActiveX control Pro povolení dynamické interakce.
+* Byla přidána možnost upravit hodnotu ovládacího prvku přepínače ActiveX, aby byla povolena dynamická interakce.
 * Byla přidána možnost přepnout ActiveX checkbox na "zaškrtnuto" nebo "nezaškrtnuto".
 
 #### Kontrola nad osou grafu klíště popisky orientace a rotace <sup>24.8</sup>

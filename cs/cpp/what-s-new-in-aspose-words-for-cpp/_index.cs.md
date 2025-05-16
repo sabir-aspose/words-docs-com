@@ -6,27 +6,40 @@ linktitle: Co je nového v Aspose.Words pro C++
 type: docs
 description: "Aspose.Words pro C++ rozšiřuje a zvyšuje denně. Na této stránce se můžete dozvědět o obrovských a nejzajímavějších vlastnostech produktu."
 weight: 2
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cs/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2025-03-09-12-38-00
+timestamp: 2025-04-15-08-02-05
 ---
 
 Tato stránka popisuje nejzajímavější nové funkce Aspose.Words představené v posledních verzích.
 
-## Aspose.Words Pro C++ 25.1, 25.2
+## Aspose.Words Pro C++ 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 zavádí kontrolu gramatiky pomocí AI a vylepšuje ukládání dokumentů pomocí pokročilých možností pro formáty HTML, SVG a Markdown.
 
-Aspose.Words 25.2 zavádí shrnutí textu pomocí Antropických modelů AI, přidává podporu formátu MsWorks, vylepšuje typografické ovládání a zlepšuje strukturu a zpracování seznamu PDF.
+Aspose.Words 25.2 zavádí shrnutí textu pomocí modelů Anthropic AI, přidává podporu formátu MsWorks, vylepšuje typografické ovládání a zlepšuje strukturu a zpracování seznamu PDF.
+
+Aspose.Words 25.3 vylepšuje kontrolu gramatiky a výběr písma pomocí AI s vlastností UpdateAmbiguousTextFont a také vylepšuje export příloh PDF.
+
+Aspose.Words 25.4 zavádí podporu pro nové velikosti papíru, umožňuje pokročilé řízení exportu HTML, zlepšuje manipulaci s vodoznakem a zvyšuje použitelnost LowCode API.
 
 ### AI - poháněné funkce
 
-#### Kontrola Gramatiky AI <sup>25.1</sup>
+#### Kontrola Gramatiky AI
 
-Schopnost kontrolovat gramatiku poskytnutého dokumentu pomocí OpenAI generativních modelů byla zavedena přidáním nové metody [CheckGrammar](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/checkgrammar/).
+* Schopnost kontrolovat gramatiku poskytnutého dokumentu pomocí OpenAI generativních modelů byla zavedena přidáním nové metody [CheckGrammar](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/checkgrammar/). <sup>25.1</sup>
+* Funkce kontroly gramatiky založená na AI byla aktualizována tak, aby podporovala všechny modely dostupné ve výčtu [AiModelType](https://reference.aspose.com/words/cpp/aspose.words.ai/aimodeltype/). <sup>25.3</sup>
 
-#### Shrnutí Pomocí Antropických Generativních Jazykových Modelů <sup>25.2</sup>
+#### Shrnutí Pomocí Anthropic Generativních Jazykových Modelů <sup>25.2</sup>
 
-Shrnutí textu pomocí Antropických generativních jazykových modelů bylo umožněno zavedením nové veřejné třídy [AnthropicAiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/).
+Shrnutí textu pomocí Anthropic generativních jazykových modelů bylo povoleno zavedením nové veřejné třídy [AnthropicAiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/).
+
+### Low Code
+
+#### Low Code API použitelnost <sup>25.4</sup>
+
+Byla zavedena významná vylepšení použitelnosti **LowCode API**, která zjednodušují zpracování dokumentů a snižují potřebu opakovaného kódu.
 
 ### Podporované Formáty <sup>25.2</sup>
 
@@ -42,6 +55,7 @@ Ukládání do formátů HTML a SVG bylo vylepšeno přidáním vlastností **Id
 
 - Do třídy [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) byla přidána nová možnost [ImageResolution](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_imageresolution/) pro nastavení rozlišení obrazu.
 - Do třídy [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) byla přidána nová volba [OfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_officemathexportmode/) a výčet [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownofficemathexportmode/) pro nastavení výstupního režimu OfficeMath.
+- Možnost nastavit vodoznak obrázku ze streamu byla zavedena přidáním nového přetížení do metody [SetImage](https://reference.aspose.com/words/cpp/aspose.words/watermark/setimage/#watermarksetimageconst-systemsharedptrsystemiostream-const-systemsharedptrasposewordsimagewatermarkoptions-method). <sup>25.4</sup>
 
 ### Vykreslování
 
@@ -49,10 +63,23 @@ Ukládání do formátů HTML a SVG bylo vylepšeno přidáním vlastností **Id
 
 Vlastnost [NumberSpacing](https://reference.aspose.com/words/cpp/aspose.words/font/get_numberspacing/) byla přidána pro lepší typografické ovládání.
 
+#### Ovládání výběru písma pro nejednoznačné znaky <sup>25.3</sup>
+
+Do třídy [SaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/) byla přidána nová veřejná vlastnost [UpdateAmbiguousTextFont](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_updateambiguoustextfont/), která řídí výběr písma podle použitého znakového kódu.
+
+#### Možnosti Velikosti Papíru <sup>25.4</sup>
+
+Schopnost používat JIS B4 a JIS B5 velikosti papíru byla zavedena přidáním nových hodnot do výčtu [PaperSize](https://reference.aspose.com/words/cpp/aspose.words/papersize/).
+
+#### HTML Výstupní Řízení <sup>25.4</sup>
+
+Možnost odebrat JavaScript z hypertextového odkazu URLs během exportu HTML byla zavedena přidáním vlastnosti [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/cpp/aspose.words.saving/htmlsaveoptions/get_removejavascriptfromlinks/).
+
 ### Jiný
 
-- Logická struktura PDF byla vylepšena podporou polí TOA, BIBLIOGRAPHY a INDEX. <sup>25.2</sup>
-- Pro lepší zpracování seznamu byla zavedena metoda [AddSingleLevelList](https://reference.aspose.com/words/cpp/aspose.words.lists/listcollection/addsinglelevellist/). <sup>25.2</sup>
+* Logická struktura PDF byla vylepšena podporou polí TOA, BIBLIOGRAPHY a INDEX. <sup>25.2</sup>
+* Pro lepší zpracování seznamu byla zavedena metoda [AddSingleLevelList](https://reference.aspose.com/words/cpp/aspose.words.lists/listcollection/addsinglelevellist/). <sup>25.2</sup>
+* Byla přidána nová vlastnost [AttachmentsEmbeddingMode](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_attachmentsembeddingmode/), která nahradí **EmbedAttachments** a zlepší export příloh PDF. Do výčtu [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfcompliance/) byly také přidány nové hodnoty, které podporují přílohy verze PDF/A. Kromě toho jsou přílohy nyní podporovány šifrováním. <sup>25.3</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,31 +87,35 @@ Další informace o [Aspose.Words Pro C++ 25.1 Poznámky K Vydání](https://rel
 
 Další informace o [Aspose.Words Pro C++ 25.2 Poznámky K Vydání](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-2-release-notes/).
 
+Další informace o [Aspose.Words Pro C++ 25.3 Poznámky K Vydání](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-3-release-notes/).
+
+Další informace o [Aspose.Words Pro C++ 25.4 Poznámky K Vydání](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-4-release-notes/).
+
 {{% /alert %}}
 
 ## Aspose.Words Pro C++ 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 zavádí group shape vkládání a StructuredDocumentTag vkládání pomocí DocumentBuilder, vylepšuje Vykreslování radiálního grafu s odstupňováním, vylepšuje digitální podpisy s podporou XAdES-EPES, přidává Markdown rozpoznávání podtržení a poskytuje přístup k oddělovačům poznámek pod čarou/vysvětlivek.
 
-Aspose.Words 24.10 zavádí vylepšenou podporu ovládání ActiveX s vytvářením CommandButton, novým ovládáním viditelnosti tvarů, schopností group shapes, vylepšeným exportem Markdown pro tabulky, formátováním grafů pro grafy Pie a Doughnut, lepším zpracováním kódování Big5 a podporou zastaralých tchajwanských písem.
+Aspose.Words 24.10 zavádí vylepšenou podporu řízení ActiveX s vytvářením CommandButton, novým ovládáním viditelnosti tvarů, schopností group shapes, vylepšeným exportem Markdown pro tabulky, formátováním grafů pro grafy Pie a Doughnut, lepší manipulací s kódováním Big5 a podporou zastaralých tchajwanských písem.
 
-Aspose.Words 24.11 představuje souhrn dokumentů poháněný AI, vylepšené možnosti Vykreslování, vylepšený přístup k vlastnostem dokumentu a titulky ovládacích prvků ActiveX.
+Aspose.Words 24.11 představuje souhrn dokumentů poháněný AI, vylepšené možnosti Vykreslování, vylepšený přístup k vlastnostem dokumentu a ActiveX Ovládání titulků.
 
-Aspose.Words 24.12 zavádí přizpůsobitelné umístění štítků dat, překlad textu s podporou Google AI, vylepšené možnosti čištění hromadné korespondence a nové třídy zpracování LowCode.
+Aspose.Words 24.12 zavádí přizpůsobitelné umístění datových štítků, překlad textu pomocí Google AI, vylepšené možnosti vyčištění Mail Merge a nové třídy zpracování LowCode.
 
 ### AI - poháněné funkce
 
-#### Sumarizace dokumentů pomocí OpenAI a Google <sup>24.11</sup>
+#### Shrnutí dokumentu pomocí OpenAI a Google <sup>24.11</sup>
 
-Podpora sumarizace dokumentů pomocí generativních jazykových modelů **OpenAI** a **Google** byla integrována.
+Byla integrována podpora sumarizace dokumentů pomocí generativních jazykových modelů **OpenAI** a **Google**.
 
 #### Překlad textu pomocí generativních jazykových modelů Google <sup>24.12</sup>
 
-Možnost překládat text pomocí generativních jazykových modelů Google byla implementována do Aspose.Words přidáním metody [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/) a [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/) výčet Jmenný prostor [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/).
+Schopnost překládat text pomocí generativních jazykových modelů Google byla implementována v Aspose.Words přidáním metody [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/) a výčtu [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/) do oboru názvů [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/).
 
-### Nízký kód <sup>24.12</sup>
+### Low Code <sup>24.12</sup>
 
-Nové třídy LowCode jako [Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/cpp/aspose.words.lowcode/merger/), [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) atd., který nabízí sadu metod, které vytvářejí dokonalou rovnováhu mezi jednoduchostí a flexibilitou pro zpracování dokumentů.
+Nové LowCode třídy jako [Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/cpp/aspose.words.lowcode/merger/), [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) atd. byl představen a nabízí sadu metod, které vytvářejí dokonalou rovnováhu mezi jednoduchostí a flexibilitou pro zpracování dokumentů.
 
 ### Vykreslování a tisk
 
@@ -92,7 +123,7 @@ Nové třídy LowCode jako [Comparer](https://reference.aspose.com/words/cpp/asp
 
 Bylo implementováno Vykreslování promocí na radiálních grafech.
 
-#### CommandButton Ovládací Prvky ActiveX <sup>24.10</sup>
+#### CommandButton ActiveX ovládací prvky <sup>24.10</sup>
 
 Schopnost vytvářet ovládací prvky CommandButton ActiveX byla zavedena přidáním nové veřejné metody [InsertForms2OleControl](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertforms2olecontrol/) a nové veřejné třídy **Forms2OleControl**.
 
@@ -116,9 +147,9 @@ Schopnost získat a nastavit kódy formátu pro data grafu byla přidána implem
 
 Vykreslování grafu histogramu bylo vylepšeno umožněním zadaného počtu přihrádek a štítků.
 
-#### Přizpůsobte umístění štítků dat <sup>24.12</sup>
+#### Přizpůsobení umístění datových štítků <sup>24.12</sup>
 
-Možnost přizpůsobit umístění štítků dat byla přidána zavedením nových vlastností do [ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/) a [ChartDataLabelCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabelcollection/) třídy.
+Možnost přizpůsobit umístění datových štítků byla přidána zavedením nových vlastností do tříd [ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/) a [ChartDataLabelCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabelcollection/).
 
 ### Převod, načítání a ukládání dokumentů
 
@@ -128,17 +159,17 @@ Možnost rozpoznat formátování podtržení při načítání dokumentů Markd
 
 #### Export tabulek jako HTML při ukládání do Markdown <sup>24.10</sup>
 
-Možnost exportovat tabulky jako HTML při ukládání dokumentů do formátu Markdown byla implementována přidáním nové veřejné vlastnosti **ExportAsHtml** a výčtu **MarkdownExportAsHtml**.
+Možnost exportovat tabulky jako HTML při ukládání dokumentů do formátu Markdown byla implementována přidáním nové veřejné vlastnosti [ExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_exportashtml/) a výčtu [MarkdownExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownexportashtml/).
 
 #### Export PDF s aktualizovanou logickou strukturou <sup>24.11</sup>
 
 Export PDF byl vylepšen zahrnutím vlastností názvu tabulky jako názvů prvků logické struktury PDF.
 
-### Hromadná korespondence a hlášení
+### Mail Merge a podávání zpráv
 
-#### Odstraňte prázdné tabulky během hromadné korespondence <sup>24.12</sup>
+#### Odstraňte prázdné tabulky během Mail Merge <sup>24.12</sup>
 
-Do výčtu [MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/) byla přidána nová možnost **RemoveEmptyTables**, která zpřesňuje výstup hromadné korespondence.
+Do výčtu [MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/) byla přidána nová možnost **RemoveEmptyTables** pro upřesnění výstupu Mail Merge.
 
 ### Digitální Podpisy
 
@@ -159,17 +190,17 @@ Schopnost podepisovat dokumenty s podpisy XAdES-EPES level XML-DSig byla introdu
 
 {{% alert color="primary" %}}
 
-Další informace o [Aspose.Words pro C++ 24.9 Poznámky k vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-9-release-notes/).
+Další informace o [Aspose.Words pro C++ 24.9 Poznámky K Vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-9-release-notes/).
 
-Další informace o [Aspose.Words pro C++ 24.10 Poznámky k vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-10-release-notes/).
+Další informace o [Aspose.Words Pro C++ 24.10 Poznámky K Vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-10-release-notes/).
 
-Další informace o [Aspose.Words pro C++ 24.11 Poznámky k vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-11-release-notes/).
+Další informace o [Aspose.Words Pro C++ 24.11 Poznámky K Vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-11-release-notes/).
 
-Další informace o [Aspose.Words pro C++ 24.12 Poznámky k vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-12-release-notes/).
+Další informace o [Aspose.Words Pro C++ 24.12 Poznámky K Vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-12-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Words pro C++ 24.5, 24.6, 24.7
+## Aspose.Words Pro C++ 24.5, 24.6, 24.7
 
 Aspose.Words 24.5 rozšiřuje možnosti sestav, zlepšuje možnosti Vykreslování a rozšiřuje některé další možnosti.
 
@@ -208,7 +239,7 @@ Byl přidán setr pro veřejný majetek [CustomNumberStyleFormat](https://refere
 #### Změny v práci s ActiveX <sup>24.7</sup>
 
 - Vlastnosti objektů ActiveX lze nyní upravit, což vám dává větší kontrolu nad jejich chováním.
-- Byla přidána možnost upravit hodnotu přepínače ActiveX control Pro povolení dynamické interakce.
+- Byla přidána možnost upravit hodnotu ovládacího prvku přepínače ActiveX, aby byla povolena dynamická interakce.
 - Byla přidána možnost přepnout ActiveX checkbox na "zaškrtnuto" nebo "nezaškrtnuto".
 
 ### Načítání a ukládání dokumentů
@@ -233,11 +264,11 @@ Byla přidána možnost zefektivnit pracovní postupy analýzy dat s vylepšenou
 
 {{% alert color="primary" %}}
 
-Další informace o [Aspose.Words Pro C++ 24.5 Poznámky k vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-5-release-notes/).
+Další informace o [Aspose.Words Pro C++ 24.5 Poznámky K Vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-5-release-notes/).
 
-Další informace o [Aspose.Words pro C++ 24.6 Poznámky k vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-6-release-notes/).
+Další informace o [Aspose.Words pro C++ 24.6 Poznámky K Vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-6-release-notes/).
 
-Další informace o [Aspose.Words pro C++ 24.7 Poznámky k vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-7-release-notes/).
+Další informace o [Aspose.Words pro C++ 24.7 Poznámky K Vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-7-release-notes/).
 
 {{% /alert %}}
 
@@ -290,13 +321,13 @@ Byla přidána možnost zachovat prázdné řádky při načítání souborů Ma
 
 {{% alert color="primary" %}}
 
-Další informace o [Aspose.Words pro C++ 24.1 Poznámky k vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-1-release-notes/).
+Další informace o [Aspose.Words Pro C++ 24.1 Poznámky K Vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-1-release-notes/).
 
-Další informace o [Aspose.Words pro C++ 24.2 Poznámky k vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-2-release-notes/).
+Další informace o [Aspose.Words pro C++ 24.2 Poznámky K Vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-2-release-notes/).
 
-Další informace o [Aspose.Words pro C++ 24.3 Poznámky k vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-3-release-notes/).
+Další informace o [Aspose.Words Pro C++ 24.3 Poznámky K Vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-3-release-notes/).
 
-Další informace o [Aspose.Words pro C++ 24.4 Poznámky k vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-4-release-notes/).
+Další informace o [Aspose.Words pro C++ 24.4 Poznámky K Vydání](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-4-release-notes/).
 
 {{% /alert %}}
 
@@ -367,10 +398,10 @@ Funkce rozpoznání hypertextových odkazů při načítání dokumentů TXT byl
 
 {{% alert color="primary" %}}
 
-Další informace o [Aspose.Words pro C++ 23.9 Poznámky k vydání](/words/cpp/aspose-words-for-cpp-23-9-release-notes/).
-Další informace o [Aspose.Words pro C++ 23.10 Poznámky k vydání](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-10-release-notes/).
-Další informace o [Aspose.Words pro C++ 23.11 Poznámky k vydání](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-11-release-notes/).
-Další informace o [Aspose.Words pro C++ 23.12 Poznámky k vydání](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-12-release-notes/).
+Další informace o [Aspose.Words pro C++ 23.9 Poznámky K Vydání](/words/cpp/aspose-words-for-cpp-23-9-release-notes/).
+Další informace o [Aspose.Words Pro C++ 23.10 Poznámky K Vydání](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-10-release-notes/).
+Další informace o [Aspose.Words Pro C++ 23.11 Poznámky K Vydání](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-11-release-notes/).
+Další informace o [Aspose.Words Pro C++ 23.12 Poznámky K Vydání](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-12-release-notes/).
 
 {{% /alert %}}
 
