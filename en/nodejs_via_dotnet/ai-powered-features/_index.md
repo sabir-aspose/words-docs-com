@@ -16,3 +16,5 @@ In this section, we will cover everything you need to know about using supported
 
 * [Supported AI Models](/words/nodejs-net/supported-ai-models/)
 * [Summarize a Document](/words/nodejs-net/summarize-a-document/)
+* [Translate a Document](/words/nodejs-net/translate-a-document/)
+* [Grammar Checking](/words/nodejs-net/grammar-checking/)
