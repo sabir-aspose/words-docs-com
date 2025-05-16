@@ -1,42 +1,46 @@
 ---
-title: Práce s Watermark v Java
-second_title: Aspose.Words místo Java
+title: Práce s vodoznakem v Java
+second_title: Aspose.Words pro Java
 articleTitle: Práce s vodoznakem
 linktitle: Práce s vodoznakem
 type: docs
-description: "Manipulace s vodoznakem pomocí dokumentu Java."
+description: "Manipulace s vodoznakem dokumentu pomocí Java."
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cs/java/working-with-watermark/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-04-22-08-07-04
 ---
 
-Toto téma pojednává o tom, jak pracovat programově s vodoznakem pomocí Aspose.Words. Vodoznak je obrázek pozadí, který se zobrazí za textem v dokumentu. Vodoznak může obsahovat text nebo obraz reprezentovaný [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) třída.
+Toto téma pojednává o tom, jak programově pracovat s vodoznakem pomocí Aspose.Words. Vodoznak je obrázek na pozadí, který se zobrazuje za textem v dokumentu. Vodoznak může obsahovat text nebo obrázek reprezentovaný třídou [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/).
 
 {{% alert color="primary" %}}
 
-**Zkuste online**
+**Vyzkoušejte online**
 
-Tuto funkci můžete zkusit s naší [Zderma online dokument vodoznak](https://products.aspose.app/words/watermark).
+Tuto funkci můžete vyzkoušet pomocí našeho [Zdarma online vodoznak dokumentu](https://products.aspose.app/words/watermark).
 
 {{% /alert %}}
 
-## Přidat vodoznak do dokumentu
+## Přidání vodoznaku do dokumentu
 
-In Microsoft Word, vodoznak lze snadno vložit do dokumentu pomocí příkazu Insert Watermark. Aspose.Words poskytuje [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) třída přidat nebo odstranit vodoznak v dokumentech. Aspose.Words poskytuje [Vodoznak Typ](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)číslice definující tři možné typy vodoznaků (Text, Image a None) pro práci
+V Microsoft Word lze vodoznak snadno vložit do dokumentu pomocí příkazu Vložit vodoznak. Aspose.Words poskytuje třídu [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) pro přidání nebo odebrání vodoznaku v dokumentech. Aspose.Words poskytuje výčet [WatermarkType ](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)definující tři možné typy vodoznaků (Text, obrázek a žádný), se kterými lze pracovat.
 
-### Přidat text vodoznak
+### Přidat Vodoznak Textu
 
-Následující příklad kódu ukazuje, jak vložit textový vodoznak do dokumentu definováním [TextWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/textwatermarkoptions/) s použitím [SetText](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setText-java.lang.String) metoda:
+Následující příklad kódu ukazuje, jak vložit textový vodoznak do dokumentu definováním [TextWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/textwatermarkoptions/) pomocí metody [SetText](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setText-java.lang.String):
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddTextWatermarkWithSpecificOptions.java" >}}
 
-### Přidat obrázek vodoznak
+### Přidat Vodoznak Obrázku
 
-Následující příklad kódu ukazuje, jak vložit vodoznak obrázku do dokumentu definováním [ImageWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/imagewatermarkoptions/) s použitím [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.awt.image.BufferedImage) metoda:
+Následující příklad kódu ukazuje, jak vložit vodoznak obrázku do dokumentu definováním [ImageWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/imagewatermarkoptions/) pomocí metody [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.awt.image.BufferedImage):
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.java" >}}
 
-Vodoznak lze také vložit pomocí tvarové třídy. Je velmi snadné vložit jakýkoliv tvar nebo obraz do hlavičky nebo zápatí a vytvořit tak vodoznak jakéhokoliv představitelného typu.
+Vodoznak obrázku lze vložit jako obrázek, řetězec nebo stream.
+
+Vodoznak lze také vložit pomocí třídy tvarů. Je velmi snadné vložit jakýkoli tvar nebo obrázek do záhlaví nebo zápatí a vytvořit tak vodoznak jakéhokoli představitelného typu.
 
 Následující příklad kódu vloží vodoznak do dokumentu Word:
 
@@ -44,22 +48,22 @@ Následující příklad kódu vloží vodoznak do dokumentu Word:
 
 {{% alert color="primary" %}}
 
-Soubor vzorku tohoto příkladu si můžete stáhnout z [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
+Ukázkový soubor tohoto příkladu si můžete stáhnout z [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
 
 {{% /alert %}}
 
 
-## Odstranit vodoznak z dokumentu
+## Odstranění vodoznaku z dokumentu
 
-The [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) třída poskytuje `Remove` způsob odstranění vodoznaku z dokumentu.
+Třída [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) poskytuje metodu `Remove` k odstranění vodoznaku z dokumentu.
 
-Následující příklady kódů ukazují, jak odstranit vodoznak z dokumentů:
+Následující příklady kódu ukazují, jak odstranit vodoznak z dokumentů:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-RemoveWatermarkFromDocument.java" >}}
 
-Pro odstranění vodoznaku z dokumentu musíte při vkládání nastavit pouze název vodoznaku a poté odstranit tvar vodoznaku přiřazeným názvem.
+Chcete-li odstranit vodoznak z dokumentu, musíte během vkládání nastavit pouze název obrazce vodoznaku a poté odebrat obrazec vodoznaku přiřazeným názvem.
 
-Následující příklad kódu vám ukáže, jak nastavit název tvaru vodoznaku a odstranit jej z dokumentu:
+Následující příklad kódu ukazuje, jak nastavit název tvaru vodoznaku a odstranit jej z dokumentu:
 
 {{< highlight csharp >}}
 
@@ -69,10 +73,10 @@ watermark.Name("WaterMark");
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-RemoveWatermark-RemoveWatermark.java" >}}
 
-## Přidat vodoznak do stolní buňky
+## Přidání vodoznaku do buňky tabulky
 
-Někdy je třeba vložit vodoznak/obraz do buňky stolu a zobrazit jej mimo stůl, můžete použít [IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell-boolean) majetek. Tato vlastnost dostane nebo nastaví vlajku udávající, zda je tvar zobrazen uvnitř tabulky nebo mimo ni. Všimněte si, že tato vlastnost funguje pouze při optimalizaci dokumentu pro Microsoft Word 2010 pomocí [OptimizeFor](https://reference.aspose.com/words/java/com.aspose.words/compatibilityoptions/#optimizeFor-int) metoda
+Někdy je třeba vložit vodoznak / obrázek do buňky tabulky a zobrazit jej mimo tabulku, můžete použít vlastnost [IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell-boolean). Tato vlastnost získá nebo nastaví příznak označující, zda je obrazec zobrazen uvnitř tabulky nebo mimo ni. Všimněte si, že tato vlastnost funguje pouze při optimalizaci dokumentu pro Microsoft Word 2010 pomocí metody [OptimizeFor](https://reference.aspose.com/words/java/com.aspose.words/compatibilityoptions/#optimizeFor-int).
 
-Následující příklad kódu ukazuje, jak používat tuto vlastnost:
+Následující příklad kódu ukazuje, jak tuto vlastnost používat:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-SetShapeLayoutInCell.java" >}}

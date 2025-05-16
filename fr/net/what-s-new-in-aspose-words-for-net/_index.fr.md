@@ -4,29 +4,42 @@ second_title: Aspose.Words pour .NET
 articleTitle: Quoi de neuf dans Aspose.Words pour .NET
 linktitle: Quoi de neuf dans Aspose.Words pour .NET
 type: docs
-description: "Aspose.Words pour .NET se développe et s'améliore quotidiennement. Sur cette page, vous pouvez découvrir les fonctionnalités les plus importantes et les plus intéressantes du produit."
+description: "Aspose.Words pour .NET s'agrandit et s'améliore quotidiennement. Sur cette page, vous pouvez en apprendre davantage sur les fonctionnalités énormes et les plus intéressantes du produit."
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /fr/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2025-02-17-18-02-05
+timestamp: 2025-04-16-07-02-05
 ---
 
 Cette page décrit les nouvelles fonctionnalités Aspose.Words les plus intéressantes introduites dans les versions récentes.
 
-## Aspose.Words pour .NET 25.1, 25.2
+## Aspose.Words pour .NET 25.1, 25.2, 25.3, 25.4
 
-Aspose.Words 25.1 introduit la vérification grammaticale basée sur l'IA et améliore l'enregistrement des documents avec des options avancées pour les formats HTML, SVG et Markdown.
+Aspose.Words 25.1 introduit la vérification grammaticale alimentée par AI et améliore l'enregistrement des documents avec des options avancées pour les formats HTML, SVG et Markdown.
 
-Aspose.Words 25.2 introduit la synthèse de texte avec des modèles anthropiques AI, ajoute la prise en charge du format MsWorks, améliore le contrôle typographique et améliore la structure PDF et la gestion des listes.
+Aspose.Words 25.2 introduit la synthèse de texte avec Anthropic AI modèles, ajoute la prise en charge du format MsWorks, améliore le contrôle typographique et améliore PDF la structure et la gestion des listes.
 
-### Fonctionnalités basées sur l'IA
+Aspose.Words 25.3 améliore un vérificateur de grammaire et une sélection de polices alimentés par AI avec la propriété UpdateAmbiguousTextFont, ainsi qu'améliore l'exportation des pièces jointes PDF.
 
-#### Vérification grammaticale du document par l'IA <sup>25.1</sup>
+Aspose.Words 25.4 introduit la prise en charge de nouveaux formats de papier, active le contrôle avancé des exportations HTML, améliore la gestion des filigranes et améliore la convivialité du LowCode API.
 
-La possibilité de vérifier la grammaire du document fourni à l'aide de modèles génératifs OpenAI a été introduite en ajoutant une nouvelle méthode [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/).
+### AI - Fonctionnalités alimentées
 
-#### Synthèse À L'Aide De Modèles De Langage Génératif Anthropique <sup>25.2</sup>
+#### Document AI Vérification grammaticale
 
-La synthèse de texte à l'aide de modèles de langage génératif anthropique a été activée en introduisant une nouvelle classe publique [AnthropicAiModel](https://reference.aspose.com/words/net/aspose.words.ai/anthropicaimodel/).
+* La possibilité de vérifier la grammaire du document fourni à l'aide de modèles génératifs OpenAI a été introduite en ajoutant une nouvelle méthode [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/). <sup>25.1</sup>
+* La fonctionnalité de vérification grammaticale alimentée par AI a été mise à jour pour prendre en charge tous les modèles disponibles dans l'énumération [AiModelType](https://reference.aspose.com/words/net/aspose.words.ai/aimodeltype/). <sup>25.3</sup>
+
+#### Synthèse À L'Aide De Anthropic Modèles De Langage Génératifs <sup>25.2</sup>
+
+La synthèse de texte à l'aide de modèles de langage génératifs Anthropic a été activée en introduisant une nouvelle classe publique [AnthropicAiModel](https://reference.aspose.com/words/net/aspose.words.ai/anthropicaimodel/).
+
+### Low Code
+
+#### Low Code API Facilité d'utilisation <sup>25.4</sup>
+
+Des améliorations significatives de la convivialité du **LowCode API** ont été introduites, simplifiant le traitement des documents et réduisant le besoin de code répétitif.
 
 ### Formats Pris En Charge <sup>25.2</sup>
 
@@ -34,47 +47,65 @@ La synthèse de texte à l'aide de modèles de langage génératif anthropique a
 
 ### Conversion, chargement et enregistrement de documents
 
-#### Amélioration de l'enregistrement aux formats HTML et SVG <sup>25.1</sup>
+#### Enregistrement amélioré aux formats HTML et SVG <sup>25.1</sup>
 
-L'enregistrement aux formats HTML et SVG a été amélioré en ajoutant les propriétés **IdPrefix** et **RemoveJavaScriptFromLinks** aux classes [HtmlFixedSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlfixedsaveoptions/) et [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/).
+L'enregistrement aux formats HTML et SVG a été amélioré en ajoutant des propriétés **IdPrefix** et **RemoveJavaScriptFromLinks** aux classes [HtmlFixedSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlfixedsaveoptions/) et [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/).
 
-#### Définir la résolution de l'image et le mode de sortie OfficeMath lors de l'enregistrement dans Markdown <sup>25.1</sup>
+#### Réglez la Résolution de l'image et le Mode de sortie OfficeMath Lors de l'enregistrement sur Markdown <sup>25.1</sup>
 
 * Une nouvelle option [ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imageresolution/) a été ajoutée à la classe [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) pour définir la résolution de l'image.
 * Une nouvelle option [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) et une énumération [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) ont été ajoutées à la classe [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) pour définir le mode de sortie OfficeMath.
+* La possibilité de définir un filigrane d'image à partir d'un flux a été introduite en ajoutant une nouvelle surcharge à la méthode [SetImage](https://reference.aspose.com/words/net/aspose.words/watermark/setimage/#setimage_2). <sup>25.4</sup>
 
-### Le rendu
+### Rendu
 
 #### Contrôle Typographique Amélioré <sup>25.2</sup>
 
 La propriété [NumberSpacing](https://reference.aspose.com/words/net/aspose.words/font/numberspacing/) a été ajoutée pour un meilleur contrôle typographique.
 
-### Autre
+#### Contrôle de la Sélection des Polices pour les Caractères ambigus <sup>25.3</sup>
+
+Une nouvelle propriété publique [UpdateAmbiguousTextFont](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/updateambiguoustextfont/) a été ajoutée à la classe [SaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/) pour contrôler la sélection de la police en fonction du code de caractère utilisé.
+
+#### Options De Format de Papier <sup>25.4</sup>
+
+La possibilité d'utiliser les formats de papier JIS B4 et JIS B5 a été introduite en ajoutant de nouvelles valeurs à l'énumération [PaperSize](https://reference.aspose.com/words/net/aspose.words/papersize/).
+
+#### HTML Contrôle de sortie <sup>25.4</sup>
+
+La possibilité de supprimer JavaScript du lien hypertexte URLs lors de l'exportation HTML a été introduite en ajoutant la propriété [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/removejavascriptfromlinks/).
+
+### Autres
 
 * La structure logique PDF a été améliorée avec la prise en charge des champs TOA, BIBLIOGRAPHY et INDEX. <sup>25.2</sup>
 * La méthode [AddSingleLevelList](https://reference.aspose.com/words/net/aspose.words.lists/listcollection/addsinglelevellist/) a été introduite pour améliorer la gestion des listes. <sup>25.2</sup>
+* Une nouvelle propriété [AttachmentsEmbeddingMode](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/attachmentsembeddingmode/) a été ajoutée pour remplacer **EmbedAttachments** afin d'améliorer l'exportation des pièces jointes PDF. De plus, de nouvelles valeurs ont été ajoutées à l'énumération [PdfCompliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) pour prendre en charge les pièces jointes de version PDF/A. De plus, les pièces jointes sont désormais prises en charge avec cryptage. <sup>25.3</sup>
 
 {{% alert color="primary" %}}
 
-En savoir plus sur [Notes de version Aspose.Words pour .NET 25.1](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/).
+En savoir plus sur [Aspose.Words pour .NET 25.1 Notes de Version](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/).
 
 En savoir plus sur [Aspose.Words pour .NET 25.2 Notes de Version](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-2-release-notes/).
+
+En savoir plus sur [Aspose.Words pour .NET 25.3 Notes de Version](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-3-release-notes/).
+
+En savoir plus sur [Aspose.Words pour .NET 25.4 Notes de Version](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-4-release-notes/).
 
 {{% /alert %}}
 
 ## Aspose.Words pour .NET 24.9, 24.10, 24.11, 24.12
 
-Aspose.Words 24.9 introduit l'insertion de formes de groupe et l'insertion de StructuredDocumentTag via DocumentBuilder, améliore le rendu des graphiques radiaux avec des graduations, améliore les signatures numériques avec la prise en charge de XAdES-EPES, ajoute la reconnaissance du soulignement Markdown et donne accès aux séparateurs de notes de bas de page/de fin.
+Aspose.Words 24.9 introduit l'insertion group shape et l'insertion StructuredDocumentTag via DocumentBuilder, améliore le rendu radial des graphiques avec des graduations, améliore les signatures numériques avec la prise en charge de XAdES-EPES, ajoute la reconnaissance des soulignements Markdown et donne accès aux séparateurs de notes de bas de page/de fin.
 
-Aspose.Words 24.10 introduit une prise en charge améliorée des contrôles ActiveX avec la création de boutons de commande, un nouveau contrôle de visibilité des formes, la possibilité de regrouper des formes, une exportation Markdown améliorée pour les tableaux, une mise en forme des graphiques à secteurs et en anneau, une meilleure gestion de l'encodage Big5 et la prise en charge des polices taïwanaises obsolètes.
+Aspose.Words 24.10 introduit une prise en charge améliorée des contrôles ActiveX avec la création CommandButton, un nouveau contrôle de visibilité des formes, la possibilité de group shapes, une exportation Markdown améliorée pour les tableaux, une mise en forme des graphiques pour les graphiques Pie et Doughnut, une meilleure gestion de l'encodage Big5 et la prise en charge des polices taïwanaises obsolètes.
 
-Aspose.Words 24.11 introduit la synthèse de documents alimentée par AI, des options de rendu améliorées, un accès amélioré aux propriétés du document et un sous-titrage de contrôle ActiveX.
+Aspose.Words 24.11 introduit la synthèse de documents alimentée par AI, des options de rendu améliorées, un accès amélioré aux propriétés du document et ActiveX le sous-titrage de contrôle.
 
-Aspose.Words 24.12 introduit le placement personnalisable des étiquettes de données, la traduction de texte optimisée par l'IA de Google, des options de nettoyage de publipostage améliorées et de nouvelles classes de traitement LowCode.
+Aspose.Words 24.12 introduit le placement personnalisable des étiquettes de données, la traduction de texte optimisée par Google AI, des options de nettoyage améliorées Mail Merge et de nouvelles classes de traitement LowCode.
 
 ### AI - Fonctionnalités alimentées
 
-#### Résumé de documents à l'aide d'OpenAI et de Google <sup>24.11</sup>
+#### Synthèse de documents à l'aide de OpenAI et de Google <sup>24.11</sup>
 
 La prise en charge de la synthèse de documents à l'aide des modèles de langage génératif **OpenAI** et **Google** a été intégrée en ajoutant l'espace de noms [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) à ses membres publics.
 
@@ -84,25 +115,25 @@ La possibilité de traduire du texte à l'aide des modèles de langage générat
 
 ### Low Code <sup>24.12</sup>
 
-De nouvelles classes LowCode comme [Comparer](https://reference.aspose.com/words/net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/net/aspose.words.lowcode/splitter/) etc. ont été introduites, offrant un ensemble de méthodes qui trouvent l'équilibre parfait entre simplicité et flexibilité pour le traitement des documents.
+Nouvelles LowCode classes comme [Comparer](https://reference.aspose.com/words/net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/net/aspose.words.lowcode/splitter/) etc. a été introduit, offrant un ensemble de méthodes qui trouvent l'équilibre parfait entre simplicité et flexibilité pour le traitement des documents.
 
-### Rendu et impression
+### Rendu et Impression
 
-#### Graduations sur les graphiques radiaux <sup>24.9</sup>
+#### Graduations sur les Diagrammes Radiaux <sup>24.9</sup>
 
 Le rendu des graduations sur les graphiques radiaux a été implémenté.
 
-#### Contrôles ActiveX CommandButton <sup>24.10</sup>
+#### CommandButton ActiveX Contrôles <sup>24.10</sup>
 
-La possibilité de créer des contrôles ActiveX CommandButton a été introduite en ajoutant une nouvelle méthode publique [InsertForms2OleControl](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertforms2olecontrol/) et une nouvelle classe publique [Forms2OleControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/).
+La possibilité de créer des contrôles CommandButton ActiveX a été introduite en ajoutant une nouvelle méthode publique [InsertForms2OleControl](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertforms2olecontrol/) et une nouvelle classe publique [Forms2OleControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/).
 
-#### Contrôler la visibilité des formes <sup>24.10</sup>
+#### Visibilité de la Forme de Contrôle <sup>24.10</sup>
 
 Une nouvelle propriété publique [Hidden](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/hidden/) a été ajoutée pour contrôler la visibilité des formes.
 
-#### Modifications dans les graphiques à secteurs et en anneau <sup>24.10</sup>
+#### Changements dans les graphiques Pie et Doughnut <sup>24.10</sup>
 
-Plusieurs nouvelles propriétés publiques ont été ajoutées pour formater les graphiques à secteurs et en anneau.
+Plusieurs nouvelles propriétés publiques ont été ajoutées au format Pie et Doughnut graphiques.
 
 #### Contrôler le rendu des Bordures des Champs de formulaire de choix PDF <sup>24.11</sup>
 
@@ -120,38 +151,38 @@ Le rendu de l'histogramme a été amélioré en autorisant un nombre spécifié 
 
 La possibilité de personnaliser le placement des étiquettes de données a été ajoutée en introduisant de nouvelles propriétés dans les classes [ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/) et [ChartDataLabelCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/).
 
-### Conversion, chargement et enregistrement de documents
+### Conversion, Chargement et Enregistrement de Documents
 
-#### Formatage du soulignement lors du chargement de fichiers Markdown <sup>24.9</sup>
+#### Mise en forme soulignée lors du chargement de fichiers Markdown <sup>24.9</sup>
 
-L'option de reconnaissance du formatage du soulignement lors du chargement de documents Markdown a été incorporée en ajoutant une nouvelle propriété publique [ImportUnderlineFormatting](https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/importunderlineformatting/).
+L'option permettant de reconnaître la mise en forme soulignée lors du chargement de documents Markdown a été incorporée en ajoutant une nouvelle propriété publique [ImportUnderlineFormatting](https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/importunderlineformatting/).
 
-#### Exportation de tableaux au format HTML lors de l'enregistrement au format Markdown <sup>24.10</sup>
+#### Exportation des tables sous HTML lors de l'enregistrement dans Markdown <sup>24.10</sup>
 
-Une option permettant d'exporter des tableaux au format HTML lors de l'enregistrement de documents au format Markdown a été implémentée en ajoutant une nouvelle propriété publique [ExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/exportashtml/) et une énumération [MarkdownExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownexportashtml/).
+Une option pour exporter les tableaux au format HTML lors de l'enregistrement des documents au format Markdown a été implémentée en ajoutant une nouvelle propriété publique [ExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/exportashtml/) et une énumération [MarkdownExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownexportashtml/).
 
 #### Exporter PDF avec une Structure logique mise à jour <sup>24.11</sup>
 
 L'exportation PDF a été améliorée en incluant les propriétés de titre de table en tant que titres d'élément de structure logique PDF.
 
-### Publipostage et création de rapports
+### Mail Merge et rapports
 
-#### Supprimer les tables vides pendant le publipostage <sup>24.12</sup>
+#### Supprimer les Tables vides pendant Mail Merge <sup>24.12</sup>
 
-Une nouvelle option **RemoveEmptyTables** a été ajoutée à l'énumération [MailMergeCleanupOptions](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmergecleanupoptions/) pour affiner la sortie du publipostage.
+Une nouvelle option **RemoveEmptyTables** a été ajoutée à l'énumération [MailMergeCleanupOptions](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmergecleanupoptions/) pour affiner la sortie Mail Merge.
 
-### Signatures numériques
+### Signatures Numériques
 
 #### Signer des documents avec XAdES-EPES <sup>24.9</sup>
 
-La possibilité de signer des documents avec des signatures XML-DSig de niveau XAdES-EPES a été introduite en ajoutant une nouvelle propriété publique [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) et une nouvelle énumération publique [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/).
+La possibilité de signer des documents avec des signatures de niveau XAdES-EPES XML-DSig a été introduite en ajoutant une nouvelle propriété publique [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) et une nouvelle énumération publique [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/).
 
-### Autre
+### Autres
 
-* Une nouvelle méthode publique [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) a été ajoutée pour regrouper les formes. <sup>24.9</sup>
-* Une nouvelle méthode publique [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) a été ajoutée pour insérer des **StructuredDocumentTags** dans un document. <sup>24.9</sup>
-* L'accès public aux séparateurs de notes de bas de page/de fin de document a été fourni en ajoutant quelques classes et propriétés publiques. <sup>24.9</sup>
-* La possibilité de regrouper des formes individuelles, de regrouper des formes ensemble et de regrouper directement les deux formes et de regrouper des formes a été introduite en ajoutant la méthode [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1). <sup>24.10</sup>
+* Une nouvelle méthode publique [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) a été ajoutée à group shapes. <sup>24.9</sup>
+* Une nouvelle méthode publique [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) a été ajoutée pour insérer **StructuredDocumentTags** dans un document. <sup>24.9</sup>
+* L'accès public aux séparateurs de notes de bas de page / de fin a été fourni en ajoutant quelques classes et propriétés publiques. <sup>24.9</sup>
+* La possibilité de regrouper des formes individuelles, group shapes ensemble, et de regrouper directement les deux formes et group shapes a été introduite en ajoutant la méthode [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1). <sup>24.10</sup>
 * La gestion de l'encodage Big5 pour les tables cmap TrueType a été améliorée. <sup>24.10</sup>
 * La prise en charge des polices taïwanaises obsolètes a été améliorée. <sup>24.10</sup>
 * Pour accéder aux propriétés étendues du document, des propriétés en lecture seule ont été ajoutées à la classe [BuiltInDocumentProperties](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/). <sup>24.11</sup>
@@ -159,357 +190,357 @@ La possibilité de signer des documents avec des signatures XML-DSig de niveau X
 
 {{% alert color="primary" %}}
 
-En savoir plus sur [Notes de version Aspose.Words pour .NET 24.9](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
+En savoir plus sur [Aspose.Words pour .NET 24.9 Notes de Version](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
 
-En savoir plus sur [Notes de version Aspose.Words pour .NET 24.10](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
+En savoir plus sur [Aspose.Words pour .NET 24.10 Notes de Version](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
 
-En savoir plus sur [Aspose.Words pour .NET 24.11 Notes de version](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
+En savoir plus sur [Aspose.Words pour .NET 24.11 Notes de Version](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
 
-En savoir plus sur [Aspose.Words pour .NET 24.12 Notes de version](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-12-release-notes/).
+En savoir plus sur [Aspose.Words pour .NET 24.12 Notes de Version](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-12-release-notes/).
 
 {{% /alert %}}
 
 ## Aspose.Words pour .NET 24.5, 24.6, 24.7, 24.8
 
-Aspose.Words 24.5 étend les options pour les assemblages, améliore les capacités de rendu et étend d'autres options.
+Aspose.Words 24.5 étend les options pour les assemblys, améliore les capacités de rendu et étend certaines autres options.
 
 Aspose.Words 24.6 améliore les options de rendu, améliore les fonctionnalités de recherche et de comparaison et étend plusieurs autres fonctionnalités.
 
-Aspose.Words 24.7 modifie la façon dont vous travaillez avec ActiveX, étend les capacités de rendu, ainsi que l'exportation aux formats Markdown et XLSX.
+Aspose.Words 24.7 modifie la façon dont vous travaillez avec ActiveX, étend les capacités de rendu et exporte vers les formats Markdown et XLSX.
 
-Aspose.Words 24.8 améliore la personnalisation des graphiques avec un contrôle précis des étiquettes des axes, étend la gestion des polices, améliore la gestion de la structure des documents et ajoute de nouvelles fonctionnalités pour l'exportation HTML/XAML, la fonctionnalité PDF, la conversion de documents et les signatures numériques.
+Aspose.Words 24.8 améliore la personnalisation des graphiques avec un contrôle précis sur les étiquettes des axes, étend la gestion des polices, améliore la gestion de la structure des documents et ajoute de nouvelles fonctionnalités pour l'exportation HTML/XAML, la fonctionnalité PDF, la conversion de documents et les signatures numériques.
 
-### Formats pris en charge
+### Formats Pris En Charge
 
-À partir de la version 24.7, l'exportation au format PDF/UA-2 est prise en charge pour garantir l'accessibilité aux utilisateurs handicapés.
+À partir de la version 24.7, l'exportation vers PDF/UA-2 est prise en charge pour garantir l'accessibilité aux utilisateurs handicapés.
 
 ### Plateformes <sup>24.5</sup>
 
-Les assemblys .NET 7.0/8.0 ont été inclus dans le package Aspose.Words NuGet.
+.NET 7.0/8.0 assemblages ont été inclus dans le package Aspose.Words NuGet.
 
-### Rendu et impression
+### Rendu et Impression
 
-#### Modifications dans les Charts, les Shapes et DrawingML <sup>24.5</sup>
+#### Modifications des graphiques, des formes et de DrawingML <sup>24.5</sup>
 
 * Le rendu des effets DrawingML pour les graphiques SVG, étendant les fonctionnalités précédentes limitées aux images, a été implémenté.
-* La prise en charge de la création de graphiques combinés et de l'ajustement des propriétés telles que la largeur de l'espace, le chevauchement et l'échelle des bulles au sein des groupes de séries a été introduite en ajoutant le [ChartSeriesGroup](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroup/)  et les classes [ChartSeriesGroupCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroupcollection/) et les classes [SeriesGroups](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/seriesgroups/).
+* La prise en charge de la création de graphiques combinés et de l'ajustement des propriétés telles que la largeur de l'écart, le chevauchement et l'échelle des bulles dans les groupes de séries a été introduite en ajoutant les classes [ChartSeriesGroup](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroup/) et [ChartSeriesGroupCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroupcollection/) et la propriété [SeriesGroups](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/seriesgroups/).
 * La fonctionnalité permettant de manipuler l'effet SoftEdge des formes a été implémentée en ajoutant la classe [SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/).
-* La possibilité de modifier les valeurs d'ajustement des formes a été implémentée en ajoutant [AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) et [Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) classes publiques et [Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) propriété.
+* La possibilité de modifier les valeurs d'ajustement des formes a été implémentée en ajoutant les classes publiques [AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) et [Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) et la propriété [Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/).
 
-#### Modifications des graphiques, des formes et des dessins <sup>24.6</sup>
+#### Modifications des Graphiques, des Formes et des dessins <sup>24.6</sup>
 
-* Les capacités de cartographie ont été améliorées. Vous pouvez désormais créer une plus grande variété de graphiques, notamment *Treemaps*, *Sunbursts*, *Histograms*, *Pareto*, *Box & Whisker*, *Waterfalls* et *Funnels*. Cela vous permet de visualiser vos données de manière plus diversifiée et informative.
-* Le contrôle des couleurs pour le formatage des ombres a été amélioré. Vous pouvez obtenir un contrôle plus précis sur l'apparence de vos documents en accédant aux couleurs des ombres.
-* L'amélioration des performances pour le rendu en arrière-plan a été améliorée. Vous pouvez accélérer considérablement le rendu des arrière-plans contenant de petits éléments grâce à la technologie de carrelage native.
-* Des dégradés réalistes pour les formes ont été ajoutés. Vous pouvez désormais créer des formes DML avec des dégradés non linéaires, imitant le style visuel de Microsoft Word pour un aspect plus soigné.
+* Les capacités de cartographie ont été améliorées. Vous pouvez désormais créer une plus grande variété de graphiques, notamment *Treemaps*, *Sunbursts*, *Histograms*, *Pareto* graphiques, *Box & Whisker* graphiques, *Waterfalls* et *Funnels*. Cela vous permet de visualiser vos données de manière plus diversifiée et informative.
+* Le contrôle des couleurs pour la mise en forme des ombres a été amélioré. Vous pouvez obtenir un contrôle plus précis sur l'apparence de vos documents en accédant aux couleurs des ombres.
+* L'amélioration des performances pour le rendu en arrière-plan a été améliorée. Vous pouvez considérablement accélérer le rendu des arrière-plans contenant de petits éléments grâce à la technologie de mosaïque native.
+* Des dégradés réalistes pour les formes ont été ajoutés. Vous pouvez maintenant créer des formes DML avec des dégradés non linéaires, imitant le style visuel de Microsoft Word pour un aspect plus raffiné.
 
-#### Personnalisation des étiquettes de données de graphique <sup>24.7</sup>
+#### Personnalisation des Étiquettes de Données de Graphique <sup>24.7</sup>
 
-La possibilité de personnaliser les étiquettes de données graphiques telles que **Orientation** et **Rotation** a été ajoutée.
+La possibilité de personnaliser les étiquettes de données de graphique telles que **Orientation** et **Rotation** a été ajoutée.
 
-#### Style de numéro personnalisé pour les niveaux de liste <sup>24.7</sup>
+#### Style de nombre personnalisé pour les niveaux de liste <sup>24.7</sup>
 
-Un setter pour la propriété publique [CustomNumberStyleFormat](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/customnumberstyleformat/) a été ajouté. Vous pouvez désormais définir un style de numéro personnalisé pour les niveaux de liste.
+Un setter pour la propriété publique [CustomNumberStyleFormat](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/customnumberstyleformat/) a été ajouté. Vous pouvez maintenant définir un style de nombre personnalisé pour les niveaux de liste.
 
-#### Modifications apportées à l'utilisation d'ActiveX <sup>24.7</sup>
+#### Changements dans le travail avec ActiveX <sup>24.7</sup>
 
-* Les propriétés des objets ActiveX peuvent désormais être modifiées, vous donnant plus de contrôle sur leur comportement.
-* La possibilité de modifier la valeur du contrôle ActiveX du bouton radio pour activer l'interaction dynamique a été ajoutée.
-* La possibilité de cocher une case ActiveX sur « cochée » ou « décochée » a été ajoutée.
+* Les propriétés des objets ActiveX peuvent maintenant être modifiées, vous donnant plus de contrôle sur leur comportement.
+* La possibilité de modifier la valeur du contrôle du bouton radio ActiveX pour activer l'interaction dynamique a été ajoutée.
+* La possibilité de basculer un ActiveX checkbox sur "coché" ou "décoché" a été ajoutée.
 
-#### Contrôle de l'orientation et de la rotation des graduations des axes du graphique <sup>24.8</sup>
+#### Contrôle de l'Orientation et de la Rotation des Étiquettes de Graduation De l'Axe du Graphique <sup>24.8</sup>
 
-Un contrôle précis de l'orientation et de la rotation des graduations des axes du graphique a été ajouté pour une personnalisation plus pratique du graphique. La classe [AxisTickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/) a été étendue avec les nouvelles propriétés [Orientation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/orientation/) et [Rotation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/rotation/).
+Un contrôle précis de l'orientation et de la rotation des étiquettes de graduation de l'axe du graphique a été ajouté pour une personnalisation plus pratique du graphique – la classe [AxisTickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/) a été étendue avec de nouvelles propriétés [Orientation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/orientation/) et [Rotation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/rotation/).
 
-#### Remplacement de la barre oblique inverse par le signe yen <sup>24.8</sup>
+#### Remplacement de la barre oblique inverse par le signe Yen <sup>24.8</sup>
 
-L'exportation HTML et XAML rétrocompatible pour le remplacement du caractère barre oblique inverse par le signe yen a été améliorée. Pour ce faire, la propriété **ReplaceBackslashWithYenSign** a été ajoutée aux classes [HtmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/) et [XamlFlowSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xamlflowsaveoptions/).
+L'exportation rétrocompatible HTML et XAML pour remplacer la barre oblique inverse par le signe Yen a été améliorée. Pour ce faire, la propriété **ReplaceBackslashWithYenSign** a été ajoutée aux classes [HtmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/) et [XamlFlowSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xamlflowsaveoptions/).
 
-#### Utilisation des balises SDT comme noms de champs de formulaire lors de l'exportation au format PDF <sup>24.8</sup>
+#### Utilisation des balises SDT comme noms de champs de formulaire lors de l'exportation vers PDF <sup>24.8</sup>
 
-L'exportation PDF avec prise en charge de l'utilisation des balises SDT comme noms de champs de formulaire a été améliorée en ajoutant une nouvelle propriété [UseSdtTagAsFormFieldName](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usesdttagasformfieldname/) à la classe [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/).
+L'exportation PDF avec la prise en charge de l'utilisation des balises SDT comme noms de champs de formulaire a été améliorée en ajoutant une nouvelle propriété [UseSdtTagAsFormFieldName](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usesdttagasformfieldname/) à la classe [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/).
 
-### Conversion, chargement et enregistrement de documents
+### Conversion, Chargement et Enregistrement de Documents
 
 #### Exportation de liens au format Markdown <sup>24.7</sup>
 
-La possibilité de contrôler l'export des liens au format Markdown a été ajoutée grâce à l'implémentation de la propriété [LinkExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/linkexportmode/).
+La possibilité de contrôler l'exportation des liens au format Markdown a été ajoutée grâce à l'implémentation de la propriété [LinkExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/linkexportmode/).
 
-#### LowCode <sup>24.8</sup>
+#### LowCode 24.8 <sup>24.8</sup>
 
-Une nouvelle classe [LowCode.Converter](https://reference.aspose.com/words/net/aspose.words.lowcode/converter/), conçue pour fournir un ensemble de méthodes permettant de convertir différents types de documents avec une seule ligne de code, a été introduite.
+Une nouvelle classe [LowCode.Converter](https://reference.aspose.com/words/net/aspose.words.lowcode/converter/), conçue pour fournir un ensemble de méthodes pour convertir divers types de documents avec une seule ligne de code, a été introduite.
 
-### Rechercher et comparer
+### Rechercher et Comparer
 
-#### Options de comparaison avancées <sup>24.6</sup>
-La possibilité de rationaliser les flux de travail d'analyse des données avec une fonctionnalité de comparaison améliorée a été ajoutée. Cela inclut une nouvelle option [IgnoreStoreItemId](https://reference.aspose.com/words/net/aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/) et une interface repensée pour les comparaisons avancées.
+#### Options de Comparaison Avancées <sup>24.6</sup>
+La possibilité de rationaliser les flux de travail d'analyse des données avec une fonctionnalité de comparaison améliorée a été ajoutée. Cela inclut une nouvelle option [IgnoreStoreItemId](https://reference.aspose.com/words/net/aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/) et une interface repensée pour des comparaisons avancées.
 
-### Autre
+### Autres
 
-* La fonction permettant d'éliminer les pages vides d'un document a été implémentée en ajoutant la méthode [RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/). <sup>24,5</sup>
-* La possibilité de vérifier la présence de macros VBA sans charger de document a été fournie en ajoutant la propriété [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/). <sup>24,5</sup>
-* Conserver la numérotation des sources lors de l'insertion d'un document à l'aide du moteur de reporting LINQ est désormais pris en charge. <sup>24,5</sup>
-* Une nouvelle propriété [DateTimeUtc](https://reference.aspose.com/words/net/aspose.words/comment/datetimeutc/) a été ajoutée – elle fournit un horodatage plus précis pour les commentaires, améliorant ainsi l'organisation et la traçabilité. <sup>24.6</sup>
-* Le moteur de reporting LINQ a été amélioré. La suppression sélective des paragraphes vides et la définition de messages personnalisés pour les membres d'objet manquants ont été effectuées, conduisant à des rapports plus propres et plus informatifs. <sup>24.6</sup>
-* Le format datetime est désormais automatiquement détecté pour une exportation transparente au format XLSX. <sup>24.7</sup>
-* La propriété publique [IsProtected](https://reference.aspose.com/words/net/aspose.words.vba/vbaproject/isprotected/), qui permet de vérifier si un projet VBA est protégé, a été ajoutée. <sup>24.7</sup>
-* Les informations sur les polices ont été étendues avec la propriété **EmbeddingLicensingRights** ajoutée aux classes [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) et [PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/). <sup>24.8</sup>
-* Un moyen d'effacer efficacement les en-têtes et les pieds de page de section tout en préservant les filigranes a été ajouté pour travailler plus précisément avec la structure du document. Pour effacer les en-têtes et pieds de page des sections, utilisez la nouvelle méthode publique [ClearHeadersFooters](https://reference.aspose.com/words/net/aspose.words/section/clearheadersfooters/). <sup>24.8</sup>
-* La signature numérique des documents XPS à l'aide de [XpsSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/) a été activée - une nouvelle propriété [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/digitalsignaturedetails/) a été ajoutée à cet effet. <sup>24.8</sup>
+* La fonction d'élimination des pages vides d'un document a été implémentée en ajoutant la méthode [RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/). <sup>24.5</sup>
+* La possibilité de vérifier la présence de VBA macros sans charger un document a été fournie en ajoutant la propriété [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/). <sup>24.5</sup>
+* Le maintien de la numérotation des sources lors de l'insertion d'un document à l'aide du moteur de création de rapports LINQ est désormais pris en charge. <sup>24.5</sup>
+* Une nouvelle propriété [DateTimeUtc](https://reference.aspose.com/words/net/aspose.words/comment/datetimeutc/) a été ajoutée – cela fournit un horodatage plus précis pour les commentaires, améliorant l'organisation et la traçabilité. <sup>24.6</sup>
+* Le moteur de rapports LINQ a été amélioré. La suppression sélective des paragraphes vides et la définition de messages personnalisés pour les membres d'objets manquants ont été effectuées, ce qui conduit à des rapports plus propres et plus informatifs. <sup>24.6</sup>
+* Le format datetime est maintenant automatiquement détecté pour une exportation transparente au format XLSX. <sup>24.7</sup>
+* La propriété publique [IsProtected](https://reference.aspose.com/words/net/aspose.words.vba/vbaproject/isprotected/), qui vous permet de vérifier si un projet VBA est protégé, a été ajoutée. <sup>24.7</sup>
+* Les informations de police ont été étendues avec la propriété **EmbeddingLicensingRights** ajoutée aux classes [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) et [PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/). <sup>24.8</sup>
+* Un moyen d'effacer efficacement les en-têtes et les pieds de page des sections tout en préservant les filigranes a été ajouté pour travailler plus précisément avec la structure du document. Pour effacer les en-têtes et les pieds de page de section, utilisez la nouvelle méthode publique [ClearHeadersFooters](https://reference.aspose.com/words/net/aspose.words/section/clearheadersfooters/). <sup>24.8</sup>
+* La signature numérique de XPS documents utilisant [XpsSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/) a été activée – une nouvelle propriété [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/digitalsignaturedetails/) a été ajoutée à cet effet. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
-En savoir plus sur [Notes de version Aspose.Words pour .NET 24.5](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
+En savoir plus sur [Aspose.Words pour .NET 24.5 Notes de Version](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
 
-En savoir plus sur [Notes de version Aspose.Words pour .NET 24.6](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
+En savoir plus sur [Aspose.Words pour .NET 24.6 Notes de Version](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
 
-En savoir plus sur [Notes de version Aspose.Words pour .NET 24.7](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-7-release-notes/).
+En savoir plus sur [Aspose.Words pour .NET 24.7 Notes de Version](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-7-release-notes/).
 
-En savoir plus sur [Notes de version Aspose.Words pour .NET 24.8](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-8-release-notes/).
+En savoir plus sur [Aspose.Words pour .NET 24.8 Notes de Version](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-8-release-notes/).
 
 {{% /alert %}}
 
 ## Aspose.Words pour .NET 24.1, 24.2, 24.3, 24.4
 
-Aspose.Words 24.1 améliore l'expérience de gestion des couleurs de trait, améliore les objets OLE et les rapports LINQ, et introduit un nouveau API public de sources bibliographiques.
+Aspose.Words 24.1 améliore l'expérience de gestion des couleurs de trait, améliore OLE objets et LINQ rapports, ainsi qu'introduit un nouveau `Bibliography Sources` public API.
 
-Aspose.Words 24.2 a étendu les options Charts API, de gestion des styles et LINQ. Cette version d'Aspose.Words a également introduit la possibilité de spécifier des SvgSaveOptions lors du rendu, un contrôle plus flexible du chargement des fichiers Markdown et l'utilisation du texte de référence pour les notes de bas de page et de fin.
+Aspose.Words 24.2 graphiques étendus API, gestion des styles et LINQ options. Cette version de Aspose.Words a également introduit la possibilité de spécifier SvgSaveOptions pendant le rendu, un contrôle plus flexible chargeant les fichiers Markdown et travaillant avec du texte de référence pour les notes de bas de page et de fin.
 
-Aspose.Words 24.3 introduit un nouveau lecteur/écrivain TIFF et une émulation des opérations binaires raster pour les métafichiers WMF. Aspose.Words 24.3 continue également d'étendre l'API des graphiques.
+Aspose.Words 24.3 introduit un nouveau lecteur/graveur TIFF et une émulation des opérations raster binaires pour WMF métafichiers. Aspose.Words 24.3 continue également d'étendre les graphiques API.
 
-Aspose.Words 24.4 améliore l'enregistrement des formats, certaines options de rendu, ainsi que le travail avec les signatures numériques.
+Aspose.Words 24.4 améliore les formats d'enregistrement, certaines options de rendu, ainsi que le travail avec les signatures numériques.
 
-### Formats pris en charge <sup>24.4</sup>
+### Formats Pris En Charge <sup>24.4</sup>
 
-Le format d'image moderne **WebP** est désormais pris en charge dans Aspose.Words pour .NET Framework 4.6.2 et versions supérieures. Vous pouvez désormais lire et insérer des images WebP dans des documents, ainsi que sauvegarder des images au format WebP. 
+Le format d'image moderne **WebP** est désormais pris en charge dans Aspose.Words pour .NET Framework 4.6.2 et plus haut. Vous pouvez maintenant lire et insérer WebP images dans des documents, ainsi qu'enregistrer des images au format WebP.
 
-Veuillez noter que WebP est actuellement disponible uniquement dans .NET Standard et .NET Framework v4.6.2 et versions supérieures.
+Veuillez noter que WebP n'est actuellement disponible que dans .NET Standard et .NET Framework v4.6.2 et au-dessus.
 
-### Rendu et impression
+### Rendu et Impression
 
-#### Contrôle des couleurs de trait <sup>24.1</sup>
+#### Contrôle de la Couleur des Traits <sup>24.1</sup>
 
-La classe [Stroke](https://reference.aspose.com/words/fr/net/aspose.words.drawing/stroke/) a été étendue avec un ensemble de nouvelles propriétés publiques liées à la gestion des couleurs de trait: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) et [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) et [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/).
+La classe [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) a été étendue avec un ensemble de nouvelles propriétés publiques liées à la gestion des couleurs de trait: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) et [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) et [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/).
 
-#### DrawingML Charts API Extension <sup>24.2 / 24.3 / 24.4</sup>
+#### DrawingML Cartes API Extension <sup>24.2 / 24.3 / 24.4</sup>
 
-Le **DrawingML Charts API** continue de s’étoffer.
+Le **DrawingML Charts API** continue d'être étendu.
 
 #### Incorporer les polices déclarées dans les règles @font-face <sup>24.4</sup>
 
-Il est désormais possible d'incorporer les polices déclarées dans les règles @font-face dans les définitions de polices du document résultant en ajoutant une nouvelle propriété appelée [SupportFontFaceRules](https://reference.aspose.com/words/net/aspose.words.loading/htmlloadoptions/supportfontfacerules/).
+Ajout d'une possibilité d'incorporer des polices déclarées dans les règles @font-face dans les définitions de polices du document résultant a été introduite en ajoutant une nouvelle propriété [SupportFontFaceRules](https://reference.aspose.com/words/net/aspose.words.loading/htmlloadoptions/supportfontfacerules/).
 
-#### Travailler avec la mise en forme des effets de lumière et de réflexion <sup>24.4</sup>
+#### Travailler avec la mise en forme de Lueur et de réflexion <sup>24.4</sup>
 
-La possibilité de travailler avec la mise en forme des effets de lumière et de réflexion pour un objet de dessin a été implémentée.
+La possibilité de travailler avec la mise en forme de lueur et de réflexion pour un objet de dessin a été implémentée.
 
-### Chargement et enregistrement de documents
+### Chargement et Enregistrement de Documents
 
-#### Spécifier les options SvgSaveOptions lors du rendu <sup>24.2</sup>
+#### Spécifiez SvgSaveOptions Pendant Le Rendu <sup>24.2</sup>
 
-La possibilité de spécifier des [SvgSaveOptions](https://reference.aspose.com/words/fr/net/aspose.words.saving/svgsaveoptions/) lors du rendu a été ajoutée à l'aide des méthodes [ShapeRenderer](https://reference.aspose.com/words/fr/net/aspose.words.rendering/shaperenderer/).[Save](https://reference.aspose.com/words/fr/net/aspose.words.rendering/noderendererbase/save/) et [OfficeMathRenderer](https://reference.aspose.com/words/fr/net/aspose.words.rendering/officemathrenderer/).[Save](https://reference.aspose.com/words/fr/net/aspose.words.rendering/noderendererbase/save/).
+La possibilité de spécifier [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/) pendant le rendu a été ajoutée à l'aide de [ShapeRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/shaperenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/) et [OfficeMathRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/officemathrenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/) méthodes.
 
 #### Conserver les lignes vides lors du chargement des fichiers Markdown <sup>24.2</sup>
 
 La possibilité de conserver les lignes vides lors du chargement des fichiers Markdown a été ajoutée.
 
-#### Un nouveau lecteur/écrivain TIFF <sup>24.3</sup>
+#### Un nouveau TIFF Lecteur / Écrivain <sup>24.3</sup>
 
-Un nouveau lecteur/écrivain TIFF a été développé pour Aspose.Words pour .NET Standard, .NET 6 et les versions ultérieures. Aspose.Words for .NET 24.3 prend en charge la lecture des images TIFF avec les types de compression JPEG et Old JPEG, et améliore également significativement la qualité des opérations de lecture et d'écriture.
+Un nouveau lecteur/graveur TIFF pour Aspose.Words pour .NET Standard, .NET 6 et versions ultérieures a été développé. Aspose.Words pour .NET 24.3 ajout de la prise en charge de la lecture d'images TIFF avec des types de compression JPEG et anciens JPEG, et amélioration significative de la qualité des opérations de lecture et d'écriture.
 
-### Autre
+### Autres
 
-* La possibilité de modifier le texte du contrôle OLE `TextBox` a été introduite en ajoutant une nouvelle propriété [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) à la nouvelle classe [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/). <sup>24.1</sup>
-* Le API public Sources bibliographiques a été implémenté via l'ajout d'un nouvel espace de noms [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) avec ses nouvelles classes et énumérations, et via l'ajout d'une nouvelle propriété [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) à la classe [Document](https://reference.aspose.com/words/fr/net/aspose.words/document/). <sup>24.1</sup>
-* Un API pour limiter l'accès aux membres de type utilisant la syntaxe de modèle pour le moteur de reporting LINQ a été fourni. <sup>24.1</sup>
-* De nouvelles propriétés publiques [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/) et [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) pour une gestion améliorée des styles ont été ajoutées à la classe [Style](https://reference.aspose.com/words/fr/net/aspose.words/style/). <sup>24.2</sup>
-* La fonctionnalité permettant de récupérer le texte réel de la marque de référence pour les notes de bas de page et les notes de fin a été améliorée avec la propriété [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) et la méthode [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/). <sup>24.2</sup>
-* La compatibilité avec les graphiques `Word 2016` pour le `LINQ Reporting Engine` a été activée. <sup>24.2</sup>
-* L'émulation des opérations binaires raster pour les métafichiers WMF a été implémentée. <sup>24.3</sup>
-* La possibilité de définir des options de signature pour les documents dans SaveOptions a été activée en ajoutant une nouvelle classe appelée [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/digitalsignaturedetails/) avec de nouveaux membres publics, ainsi qu'en ajoutant de nouvelles propriétés aux classes [OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) et [OdtSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/). <sup>24.4</sup>
+* La possibilité de modifier le texte du contrôle `TextBox` OLE a été introduite en ajoutant une nouvelle propriété [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) à la nouvelle classe [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/). <sup>24.1</sup>
+* Les Sources bibliographiques publiques API ont été implémentées en ajoutant un nouvel espace de noms [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) avec ses nouvelles classes et énumérations, et en ajoutant une nouvelle propriété [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) à la classe [Document](https://reference.aspose.com/words/net/aspose.words/document/). <sup>24.1</sup>
+* Un API pour limiter l'accès aux membres de type en utilisant la syntaxe de modèle pour le `LINQ Reporting Engine` a été fourni. <sup>24.1</sup>
+* De nouvelles propriétés publiques [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/) et [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) pour une gestion améliorée des styles ont été ajoutées à la classe [Style](https://reference.aspose.com/words/net/aspose.words/style/). <sup>24.2</sup>
+* La fonctionnalité permettant de récupérer le texte de la marque de référence réelle pour les notes de bas de page et de fin a été améliorée avec la propriété [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) et la méthode [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/). <sup>24.2</sup>
+* La compatibilité avec `Word 2016` graphiques pour le `LINQ Reporting Engine` a été activée. <sup>24.2</sup>
+* L'émulation des opérations raster binaires pour WMF métafichiers a été implémentée. <sup>24.3</sup>
+* La possibilité de définir des options de signature pour les documents au sein de **SaveOptions** a été activée en ajoutant une nouvelle classe [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/digitalsignaturedetails/) avec de nouveaux membres publics, ainsi qu'en ajoutant de nouvelles propriétés aux classes [OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) et [OdtSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/). <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
-En savoir plus sur [Notes de version Aspose.Words pour .NET 24.1](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-1-release-notes/).
+En savoir plus sur [Aspose.Words pour .NET 24.1 Notes de Version](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-1-release-notes/).
 
-En savoir plus sur [Notes de version Aspose.Words pour .NET 24.2](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/).
+En savoir plus sur [Aspose.Words pour .NET 24.2 Notes de Version](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/).
 
-En savoir plus sur [Notes de version Aspose.Words pour .NET 24.3](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-3-release-notes/).
+En savoir plus sur [Aspose.Words pour .NET 24.3 Notes de Version](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-3-release-notes/).
 
-En savoir plus sur [Notes de version Aspose.Words pour .NET 24.4](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-4-release-notes/).
+En savoir plus sur [Aspose.Words pour .NET 24.4 Notes de Version](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-4-release-notes/).
 
 {{% /alert %}}
 
 ## Aspose.Words pour .NET 23.9, 23.10, 23.11, 23.12
 
-Aspose.Words 23.9 étend les options de rendu, l'émulation de rendu des métafichiers et les options d'enregistrement markdown.
+Aspose.Words 23.9 développe les options de rendu, l'émulation de rendu de métafichier et les options d'enregistrement markdown.
 
-Aspose.Words 23.10 améliore le rendu, étend les options de chargement et d'enregistrement des documents et permet aux utilisateurs de fusionner des documents de nouvelles manières.
+Aspose.Words 23.10 améliore le rendu, élargit les options de chargement et d'enregistrement des documents et permet aux utilisateurs de fusionner des documents de nouvelles manières.
 
-Aspose.Words 23.11 améliore le travail avec les révisions, le format XLSX et les polices sur la légende des graphiques avec des options supplémentaires.
+Aspose.Words 23.11 améliore le travail avec les révisions, XLSX le format et les polices sur la légende du graphique avec des options supplémentaires.
 
-Aspose.Words 23.12 introduit de nouvelles propriétés et énumérations pour travailler avec des documents PDF et OOXML, ainsi que la prise en charge des images WebP.
+Aspose.Words 23.12 introduit de nouvelles propriétés et énumérations pour travailler avec les documents PDF et OOXML, ainsi que la prise en charge des images WebP.
 
-### Rendu et impression
+### Rendu et Impression
 
-#### Personnalisation des titres des axes dans DrawingML Charts <sup>23.9</sup>
+#### Personnalisation des titres d'axes dans DrawingML Graphiques <sup>23.9</sup>
 
-La possibilité de personnaliser les titres des axes dans les graphiques DrawingML a été introduite par l'implémentation d'une nouvelle propriété de classe publique [ChartAxisTitle](https://reference.aspose.com/words/fr/net/aspose.words.drawing.charts/chartaxistitle/) et [Title](https://reference.aspose.com/words/fr/net/aspose.words.drawing.charts/chartaxis/title/).
+La possibilité de personnaliser les titres des axes dans les graphiques DrawingML a été introduite par l'implémentation d'une nouvelle propriété de classe publique [ChartAxisTitle](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxistitle/) et [Title](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/title/).
 
-#### Détermination de la position verticale des polices dans un paragraphe <sup>23.9</sup>
+#### Déterminer la position verticale des polices dans un Paragraphe <sup>23.9</sup>
 
-Il est désormais possible de définir la position verticale des polices au sein d'un paragraphe grâce à la nouvelle propriété publique [BaselineAlignment](https://reference.aspose.com/words/fr/net/aspose.words/paragraphformat/baselinealignment/) et à la nouvelle énumération [BaselineAlignment](https://reference.aspose.com/words/fr/net/aspose.words/baselinealignment/).
+Il est maintenant possible de définir la position verticale des polices dans un paragraphe en utilisant la nouvelle propriété public [BaselineAlignment](https://reference.aspose.com/words/net/aspose.words/paragraphformat/baselinealignment/) et la nouvelle énumération [BaselineAlignment](https://reference.aspose.com/words/net/aspose.words/baselinealignment/).
 
-#### Contrôle des couleurs de premier plan <sup>23.10</sup>
+#### Contrôle des Couleurs De Premier Plan <sup>23.10</sup>
 
-La possibilité de récupérer la couleur de premier plan sans modificateurs a été ajoutée aux classes [Fill](https://reference.aspose.com/words/fr/net/aspose.words.drawing/fill/) et [Stroke](https://reference.aspose.com/words/fr/net/aspose.words.drawing/stroke/) via la propriété **BaseForeColor**.
+La possibilité de récupérer la couleur de premier plan sans modificateurs a été ajoutée aux classes [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) et [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) via la propriété **BaseForeColor**.
 
-#### Extension des fonctionnalités des graphiques <sup>23.10</sup>
+#### Extension de la fonctionnalité des graphiques <sup>23.10</sup>
 
-Les fonctionnalités des classes [ChartDataPointCollection](https://reference.aspose.com/words/fr/net/aspose.words.drawing.charts/chartdatapointcollection/), [ChartSeries](https://reference.aspose.com/words/fr/net/aspose.words.drawing.charts/chartseries/) et [ChartFormat](https://reference.aspose.com/words/fr/net/aspose.words.drawing.charts/chartformat/) ont été étendues avec de nouvelles méthodes et propriétés.
+La fonctionnalité des classes [ChartDataPointCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapointcollection/), [ChartSeries](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseries/) et [ChartFormat](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartformat/) a été étendue avec de nouvelles méthodes et propriétés.
 
-#### Ajuster et adapter automatiquement une image à une forme <sup>23.10</sup>
+#### Ajuster et ajuster automatiquement une image dans une forme <sup>23.10</sup>
 
-Un moyen simple d'ajuster et d'ajuster automatiquement une image dans une forme particulière a été fourni grâce à la nouvelle méthode [FitImageToShape](https://reference.aspose.com/words/fr/net/aspose.words.drawing/imagedata/fitimagetoshape/).
+Un moyen simple d'ajuster et d'ajuster automatiquement une image dans une forme particulière a été fourni par la nouvelle méthode [FitImageToShape](https://reference.aspose.com/words/net/aspose.words.drawing/imagedata/fitimagetoshape/).
 
 #### Formatage de police par défaut pour les entrées de légende de graphique DrawingML <sup>23.11</sup>
 
-La possibilité de spécifier le formatage de police par défaut pour les entrées de légende des graphiques DrawingML a été ajoutée via la propriété [Font](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartlegend/font/). Cette fonctionnalité facilite une apparence plus rationalisée et cohérente des éléments du graphique, améliorant ainsi l’esthétique globale du document.
+La possibilité de spécifier le formatage de police par défaut pour les entrées de légende des graphiques DrawingML a été ajoutée via la propriété [Font](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartlegend/font/). Cette fonctionnalité facilite une apparence plus simplifiée et cohérente des éléments de graphique, améliorant ainsi l'esthétique globale du document.
 
-#### Spécifier la mise en page lors de l'ouverture d'un PDF dans Reader <sup>23.12</sup>
+#### Spécifier la mise en page lors de l'ouverture de PDF dans Reader <sup>23.12</sup>
 
-La possibilité de spécifier la mise en page à utiliser lors de l'ouverture d'un document dans un lecteur PDF a été ajoutée grâce à l'introduction d'une nouvelle propriété [PageLayout](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/pagelayout/) dans la classe [PdfSaveOptions](https://reference.aspose.com/words/fr/net/aspose.words.saving/pdfsaveoptions/) et à l'introduction d'une nouvelle énumération [PdfPageLayout](https://reference.aspose.com/words/net/aspose.words.saving/pdfpagelayout/).
+La possibilité de spécifier la mise en page à utiliser lors de l'ouverture d'un document dans un lecteur PDF a été ajoutée grâce à l'introduction d'une nouvelle propriété [PageLayout](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/pagelayout/) dans la classe [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) et à l'introduction d'une nouvelle énumération [PdfPageLayout](https://reference.aspose.com/words/net/aspose.words.saving/pdfpagelayout/).
 
-### Chargement et enregistrement de documents
+### Chargement et Enregistrement de Documents
 
-#### Spécification d'un nom de dossier pour construire des URI d'image dans Markdown <sup>23.9</sup>
+#### Spécification d'un nom de dossier pour Construire l'Image URIs dans Markdown <sup>23.9</sup>
 
-La classe [MarkdownSaveOptions](https://reference.aspose.com/words/fr/net/aspose.words.saving/markdownsaveoptions/) a été étendue en incluant la propriété [ImagesFolderAlias](https://reference.aspose.com/words/fr/net/aspose.words.saving/markdownsaveoptions/imagesfolderalias/), qui permet de spécifier le nom du dossier utilisé pour construire les URI d'image écrites dans le document Markdown.
+La classe [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) a été étendue en incluant la propriété [ImagesFolderAlias](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imagesfolderalias/), qui permet de spécifier le nom du dossier utilisé pour construire l'image URIs écrite dans le document Markdown.
 
-#### Réduire la taille de sortie PDF <sup>23.10</sup>
+#### Réduire la Taille de sortie PDF <sup>23.10</sup>
 
-Diverses optimisations de rendu PDF pour réduire la taille de sortie lors de l'utilisation des paramètres [OptimizeOutput](https://reference.aspose.com/words/fr/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) ont été mises en œuvre.
+Diverses optimisations de rendu PDF pour réduire la taille de sortie lors de l'utilisation des paramètres [OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) ont été implémentées.
 
-#### Reconnaître les hyperliens lors du chargement de documents TXT <sup>23.10</sup>
+#### Reconnaître les hyperliens lors du Chargement de TXT Documents <sup>23.10</sup>
 
-La fonctionnalité permettant de reconnaître les hyperliens lors du chargement de documents TXT a été implémentée en ajoutant une nouvelle propriété [DetectHyperlinks](https://reference.aspose.com/words/fr/net/aspose.words.loading/txtloadoptions/detecthyperlinks/).
+La fonctionnalité de reconnaissance des hyperliens lors du chargement de documents TXT a été implémentée en ajoutant une nouvelle propriété [DetectHyperlinks](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/detecthyperlinks/).
 
-### Autre
+### Autres
 
-* L'émulation de rendu de métafichier pour déterminer la taille de rastérisation a été implémentée, en particulier pour la largeur du stylo WMF et la largeur du stylo cosmétique EMF. Pour y parvenir, la propriété **ScaleWmfFontsToMetafileSize** a été remplacée par la propriété [EmulateRenderingToSizeOnPage](https://reference.aspose.com/words/fr/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/) et la propriété [EmulateRenderingToSizeOnPageResolution](https://reference.aspose.com/words/fr/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/) a été ajoutée. <sup>23.9</sup>
-* Une méthode simplifiée pour insérer un document dans un autre document à la position actuelle du curseur a été introduite en utilisant la méthode [InsertDocumentInline](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/insertdocumentinline/). <sup>23h10</sup>
-* La possibilité d'accéder et de modifier les propriétés de style a été ajoutée grâce à l'introduction de la nouvelle propriété [Locked](https://reference.aspose.com/words/fr/net/aspose.words/style/locked/). <sup>23h10</sup>
-* Un paramètre de type générique a été ajouté aux méthodes de la classe [CompositeNode](https://reference.aspose.com/words/fr/net/aspose.words/compositenode/). <sup>23h10</sup>
-* Un moyen de contrôler quand une certaine révision doit être acceptée/rejetée ou non a été implémenté en utilisant les méthodes [Accept](https://reference.aspose.com/words/net/aspose.words/revisioncollection/accept/) et [Reject](https://reference.aspose.com/words/net/aspose.words/revisioncollection/reject/). Cette amélioration offre aux utilisateurs un contrôle plus précis sur le processus de révision. <sup>23.11</sup>
-* La possibilité d'écrire toutes les sections d'un document sur la même feuille de calcul XLSX a été fournie grâce au nouveau type d'énumération [XlsxSectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsectionmode/) et à la nouvelle propriété [SectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/sectionmode/). <sup>23.11</sup>
-* Un moyen de contrôler la manière dont les extensions au format ZIP64 seront utilisées pour les documents OOXML a été implémenté via la nouvelle propriété Zip64Mode de la classe `OoxmlSaveOptions` et la nouvelle énumération Zip64Mode. <sup>23.12</sup>
-* La prise en charge de l'image WebP a été introduite. Veuillez noter que cette fonctionnalité n'est disponible que pour les versions .NetStandart et .NET6+. <sup>23.12</sup>
+* Une émulation de rendu de métafichier pour déterminer la taille de pixellisation a été implémentée, spécifiquement pour la largeur de stylo WMF et la largeur de stylo cosmétique EMF. Pour ce faire, la propriété **ScaleWmfFontsToMetafileSize** a été remplacée par la propriété [EmulateRenderingToSizeOnPage](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/) et la propriété [EmulateRenderingToSizeOnPageResolution](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/) a été ajoutée. <sup>23.9</sup>
+* Une méthode simplifiée pour insérer un document dans un autre document à la position actuelle du curseur a été introduite à l'aide de la méthode [InsertDocumentInline](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertdocumentinline/). <sup>23.10</sup>
+* La possibilité d'accéder et de modifier les propriétés de style a été ajoutée grâce à l'introduction de la nouvelle propriété [Locked](https://reference.aspose.com/words/net/aspose.words/style/locked/). <sup>23.10</sup>
+* Un paramètre de type générique a été ajouté aux méthodes de la classe [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/). <sup>23.10</sup>
+* Un moyen de contrôler quand une certaine révision doit être acceptée / rejetée ou non a été implémenté en utilisant les méthodes [Accept](https://reference.aspose.com/words/net/aspose.words/revisioncollection/accept/) et [Reject](https://reference.aspose.com/words/net/aspose.words/revisioncollection/reject/). Cette amélioration donne aux utilisateurs un contrôle plus fin sur le processus de révision. <sup>23.11</sup>
+* La possibilité d'écrire toutes les sections d'un document sur la même feuille de calcul XLSX a été fournie via le nouveau type d'énumération [XlsxSectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsectionmode/) et la nouvelle propriété [SectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/sectionmode/). <sup>23.11</sup>
+* Un moyen de contrôler comment les extensions de format ZIP64 seront utilisées pour les documents OOXML a été implémenté via la nouvelle propriété Zip64Mode de la classe `OoxmlSaveOptions` et la nouvelle énumération Zip64Mode. <sup>23.12</sup>
+* La prise en charge de l'image WebP a été introduite. Veuillez noter que cette fonctionnalité n'est disponible que pour .versions NetStandart et .NET6+. <sup>23.12</sup>
 
 {{% alert color="primary" %}}
 
-En savoir plus sur [Notes de version de Aspose.Words pour .NET 23.9](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/).
+En savoir plus sur [Aspose.Words pour .NET 23.9 Notes de Version](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/).
 
-En savoir plus sur [Notes de version Aspose.Words pour .NET 23.10](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/).
+En savoir plus sur [Aspose.Words pour .NET 23.10 Notes de Version](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/).
 
-En savoir plus sur [Notes de version Aspose.Words pour .NET 23.11](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-11-release-notes/).
+En savoir plus sur [Aspose.Words pour .NET 23.11 Notes de Version](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-11-release-notes/).
 
-En savoir plus sur [Notes de version Aspose.Words pour .NET 23.12](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-12-release-notes/).
+En savoir plus sur [Aspose.Words pour .NET 23.12 Notes de Version](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-12-release-notes/).
 
 {{% /alert %}}
 
 ## Aspose.Words pour .NET 23.5, 23.6, 23.7, 23.8
 
-Aspose.Words 23.5 améliore la capacité de travailler avec des données de séries de graphiques et la capacité de travailler avec des documents ODT, ainsi que d'améliorer les en-têtes/pieds de page et leur habillage de texte.
+Aspose.Words 23.5 améliore la possibilité de travailler avec des données de séries de graphiques et la possibilité de travailler avec ODT documents, ainsi que d'améliorer les en-têtes/pieds de page et leur habillage de texte.
 
-Aspose.Words 23.6 étend les options de rendu, ajoute un nouveau format d'exportation, améliore les outils de reporting LINQ et LowCode.
+Aspose.Words 23.6 étend les options de rendu, ajoute un nouveau format d'exportation, améliore les outils LINQ reporting et LowCode.
 
-Aspose.Words 23.7 améliore les capacités de reporting, ajoute un nouveau format d'exportation et introduit des modifications dans l'utilisation des tableaux et des signatures numériques.
+Aspose.Words 23.7 améliore les fonctionnalités de création de rapports, ajoute un nouveau format d'exportation et apporte des modifications à l'utilisation des tables et des signatures numériques.
 
-Aspose.Words 23.8 étend les capacités de différents formats, améliore le rendu et ajoute de nouvelles options pour travailler avec les champs
+Aspose.Words 23.8 étend les capacités de différents formats, améliore le rendu et ajoute de nouvelles options pour travailler avec les champs.
 
-### Formats pris en charge
+### Formats Pris En Charge
 
-* A partir de la version 23.6, il est possible d'enregistrer un document au format XLSX. Vous pouvez désormais convertir vos documents au format Excel. <sup>23.6</sup>
+* À partir de la version 23.6, il est possible d'enregistrer un document au format XLSX. Maintenant, vous pouvez convertir vos documents au format Excel. <sup>23.6</sup>
 * À partir de la version 23.7, il est possible d'enregistrer une page ou une forme de document au format EPS. <sup>23.7</sup>
 
-### Nouvelles fonctionnalités de format
+### Nouvelles Fonctionnalités de Format
 
-* La fonctionnalité permettant de générer automatiquement une table des matières (TOC) pour les documents MOBI a été introduite. <sup>23.8</sup>
-* Le constructeur [PdfEncryptionDetails](https://reference.aspose.com/words/fr/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/) a été étendu avec [PdfPermissions](https://reference.aspose.com/words/fr/net/aspose.words.saving/pdfpermissions/). <sup>23.8</sup>
+* La fonctionnalité de génération automatique de la Table des matières (TOC) pour les documents MOBI a été introduite. <sup>23.8</sup>
+* Le constructeur [PdfEncryptionDetails](https://reference.aspose.com/words/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/) a été étendu avec [PdfPermissions](https://reference.aspose.com/words/net/aspose.words.saving/pdfpermissions/). <sup>23.8</sup>
 * La mise en forme du texte vertical pour les métafichiers EMF a été implémentée. <sup>23.8</sup>
 
-### Rendu et impression
+### Rendu et Impression
 
-#### Obtenir et modifier les données d'une série de graphiques <sup>23.5</sup>
+#### Obtenir et modifier les Données des Séries de Graphiques <sup>23.5</sup>
 
-La fonctionnalité permettant d'obtenir et de modifier les données des séries de graphiques a été fournie en ajoutant:
+La fonctionnalité permettant d'obtenir et de modifier les données de la série de graphiques a été fournie en ajoutant:
 
-* nouvelles classes: [ChartXValue](https://reference.aspose.com/words/fr/net/aspose.words.drawing.charts/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/fr/net/aspose.words.drawing.charts/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/fr/net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/fr/net/aspose.words.drawing.charts/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/fr/net/aspose.words.drawing.charts/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/fr/net/aspose.words.drawing.charts/chartmultilevelvalue/)
-* nouveaux types d'énumérations: [ChartXValueType](https://reference.aspose.com/words/fr/net/aspose.words.drawing.charts/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/fr/net/aspose.words.drawing.charts/chartyvaluetype/)
+* nouvelles classes: [ChartXValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartmultilevelvalue/)
+* nouveaux types d'énumération: [ChartXValueType](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluetype/)
 
 #### Prise en charge de la typographie avancée <sup>23.6</sup>
 
-La prise en charge de la typographie avancée dans les rendus WMF, EMF et EMF+ a été ajoutée.
+La prise en charge de la typographie avancée dans le rendu WMF, EMF et EMF+ a été ajoutée.
 
-#### Contenu coloré sur la page <sup>23.6</sup>
+#### Contenu coloré sur la Page <sup>23.6</sup>
 
-La propriété publique [PageInfo.Colored](https://reference.aspose.com/words/fr/net/aspose.words.rendering/pageinfo/colored/), indiquant si la page est colorée ou non, a été ajoutée.
+La propriété publique [PageInfo.Colored](https://reference.aspose.com/words/net/aspose.words.rendering/pageinfo/colored/), indiquant si la page est colorée ou non, a été ajoutée.
 
 #### Formatage des étiquettes de données de graphique <sup>23.6</sup>
 
-La possibilité de définir le formatage du remplissage, du contour et des légendes pour les étiquettes de données de graphique a été implémentée.
+La possibilité de définir le remplissage, le contour et le formatage des légendes pour les étiquettes de données de graphique a été implémentée.
 
 ### Mail Merge et rapports
 
-#### Insertion HTML dynamique pour le moteur de reporting LINQ <sup>23.6</sup>
+#### Insertion dynamique HTML pour le moteur de reporting LINQ <sup>23.6</sup>
 
-Une nouvelle méthode d'insertion HTML dynamique pour LINQ Reporting Engine a été ajoutée.
+Une nouvelle méthode d'insertion dynamique HTML pour le moteur de reporting LINQ a été ajoutée.
 
-#### Prise en charge des balises Mustache <sup>23.7</sup>
+#### Mustache Prise en charge des balises <sup>23.7</sup>
 
-Les balises Mustache sont désormais prises en charge dans les méthodes [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/fr/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/) et [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/fr/net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion).
+Les balises Mustache sont désormais prises en charge dans les méthodes [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/) et [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion).
 
-#### Mises à jour de la syntaxe du modèle du moteur de reporting LINQ <sup>23.7</sup>
+#### LINQ Mises à jour de la syntaxe du Modèle de Moteur de rapports <sup>23.7</sup>
 
 La syntaxe du modèle LINQ Reporting Engine prend désormais en charge les méthodes d'extension `ElementAt` et ElementAtOrDefault.
 
 #### Spécification de la taille des images rendues <sup>23.8</sup>
 
-Un nouveau [ImageSize](https://reference.aspose.com/words/fr/net/aspose.words.saving/imagesaveoptions/imagesize/) de propriété publique permettant de spécifier la taille des images rendues en pixels a été introduit.
+Une nouvelle propriété publique [ImageSize](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/imagesize/) pour spécifier la taille des images rendues en pixels a été introduite.
 
-#### Conserver les espaces pour les valeurs de chaîne JSON – LINQ <sup>23.8</sup>
+#### Conserver les espaces pour les valeurs de chaîne JSON - LINQ <sup>23.8</sup>
 
-Une option a été ajoutée au moteur de reporting LINQ pour conserver les espaces pour les valeurs de chaîne JSON.
+Une option a été ajoutée au moteur de création de rapports LINQ pour conserver les espaces blancs pour les valeurs de chaîne JSON.
 
-### <sup>LowCode23.6</sup>
+### LowCode <sup>23.6</sup>
 
 De nouvelles méthodes LowCode destinées à fusionner différents types de documents en un seul document de sortie ont été ajoutées.
 
-### Autre
+### Autres
 
-* La prise en charge du retour à la ligne du texte dans les en-têtes/pieds de page a été implémentée. <sup>23.5</sup>
-* La possibilité de supprimer les signatures numériques des documents ODT a été ajoutée via la méthode [RemoveAllSignatures](https://reference.aspose.com/words/fr/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/). <sup>23.5</sup>
-* Le [PhoneticGuide](https://reference.aspose.com/words/fr/net/aspose.words/run/phoneticguide/) de propriété publique pour obtenir le texte de base et rubis du guide phonétique [Run](https://reference.aspose.com/words/fr/net/aspose.words/run/) a été ajouté. <sup>23.5</sup>
-* La possibilité de récupérer une valeur de signature numérique à partir d'un document signé numériquement sous forme de tableau d'octets a été ajoutée en introduisant une nouvelle propriété [SignatureValue](https://reference.aspose.com/words/fr/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/). <sup>23.7</sup>
-* Les classes [Row](https://reference.aspose.com/words/fr/net/aspose.words.tables/row/) et [Cell](https://reference.aspose.com/words/fr/net/aspose.words.tables/cell/) ont été étendues avec de nouveaux membres publics: [Row.NextRow](https://reference.aspose.com/words/fr/net/aspose.words.tables/row/nextrow/), [Row.PreviousRow](https://reference.aspose.com/words/fr/net/aspose.words.tables/row/previousrow/), [Cell.NextCell](https://reference.aspose.com/words/fr/net/aspose.words.tables/cell/nextcell/) et [Cell.PreviousCell](https://reference.aspose.com/words/fr/net/aspose.words.tables/cell/previouscell/). <sup>23.7</sup>
-* La prise en charge des champs CITATION et BIBLIOGRAPHIE a été ajoutée. <sup>23.8</sup>
+* La prise en charge de l'habillage du texte dans les en-têtes/pieds de page a été implémentée. <sup>23.5</sup>
+* La possibilité de supprimer les signatures numériques de ODT documents a été ajoutée via la méthode [RemoveAllSignatures](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/). <sup>23.5</sup>
+* La propriété publique [PhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/phoneticguide/) pour obtenir la base et le texte rubis du guide phonétique [Run](https://reference.aspose.com/words/net/aspose.words/run/) a été ajoutée. <sup>23.5</sup>
+* La possibilité de récupérer une valeur de signature numérique à partir d'un document signé numériquement sous la forme d'un tableau d'octets a été ajoutée en introduisant une nouvelle propriété [SignatureValue](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/). <sup>23.7</sup>
+* Les classes [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) et [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) ont été étendues avec de nouveaux membres publics– [Row.NextRow](https://reference.aspose.com/words/net/aspose.words.tables/row/nextrow/), [Row.PreviousRow](https://reference.aspose.com/words/net/aspose.words.tables/row/previousrow/), [Cell.NextCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/nextcell/), et [Cell.PreviousCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/previouscell/). <sup>23.7</sup>
+* La prise en charge des champs CITATION et BIBLIOGRAPHY a été ajoutée. <sup>23.8</sup>
 
 {{% alert color="primary" %}}
 
-En savoir plus sur [Notes de version Aspose.Words pour .NET 23.5](/words/net/aspose-words-for-net-23-5-release-notes/).
+En savoir plus sur [Aspose.Words pour .NET 23.5 Notes de Version](/words/net/aspose-words-for-net-23-5-release-notes/).
 
-En savoir plus sur [Notes de version de Aspose.Words pour .NET 23.6](/words/net/aspose-words-for-net-23-6-release-notes/).
+En savoir plus sur [Aspose.Words pour .NET 23.6 Notes de Version](/words/net/aspose-words-for-net-23-6-release-notes/).
 
-En savoir plus sur [Notes de version de Aspose.Words pour .NET 23.7](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
+En savoir plus sur [Aspose.Words pour .NET 23.7 Notes de Version](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
 
-En savoir plus sur [Notes de version Aspose.Words pour .NET 23.8](/words/net/aspose-words-for-net-23-8-release-notes/).
+En savoir plus sur [Aspose.Words pour .NET 23.8 Notes de Version](/words/net/aspose-words-for-net-23-8-release-notes/).
 
 {{% /alert %}}
 
-## Voir également
+## Voir Aussi
 
 {{% alert color="primary" %}}
 
-Cette page contient les dernières nouvelles sur les versions des 2 dernières années. Pour plus de détails sur les versions antérieures, consultez les pages [Notes de version'](/words/net/release-notes/) dans les sections correspondantes.
+Cette page contient les dernières nouvelles sur les versions des 2 dernières années. Pour plus de détails sur les versions antérieures, voir le [Notes de mise à jour'](https://releases.aspose.com/words/net/release-notes/) pages dans les sections pertinentes.
 
 {{% /alert %}}

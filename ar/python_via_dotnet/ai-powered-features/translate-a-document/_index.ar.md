@@ -1,4 +1,4 @@
-﻿---
+---
 title: ترجمة وثيقة
 second_title: Aspose.Words ل Python via .NET
 articleTitle: ترجمة وثيقة
@@ -6,6 +6,8 @@ linktitle: ترجمة وثيقة
 type: docs
 weight: 30
 description: "ترجمة وثيقة. Aspose.Words ل Python يبسط ترجمة المستندات باستخدام نماذج جوجل AI، مما يسمح لك بتحديد اللغة الهدف."
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ar/python-net/translate-a-document/
 timestamp: 2025-01-15-16-40-05
 ---

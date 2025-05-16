@@ -1,4 +1,4 @@
-﻿---
+---
 title: Przetłumacz dokument
 second_title: Aspose.Words dla .NET
 articleTitle: Przetłumacz dokument
@@ -6,6 +6,8 @@ linktitle: Przetłumacz dokument
 type: docs
 weight: 30
 description: "Przetłumacz dokument. Aspose.Words dla .NET upraszcza tłumaczenie dokumentów za pomocą modeli Google AI, umożliwiając określenie języka docelowego."
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /pl/net/translate-a-document/
 timestamp: 2024-12-13-06-40-00
 ---
@@ -16,16 +18,7 @@ Użyj metody [Translate](https://reference.aspose.com/words/net/aspose.words.ai/
 
 Poniższy przykład kodu pokazuje, jak użyć modelu *Gemini 1.5 Flash* w Aspose.Words do przetłumaczenia dokumentu na język arabski:
 
-{{< highlight csharp >}}
-Document doc = new Document(MyDir + "Document.docx");
-
-string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-// Use Google generative language models.
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gemini15Flash).WithApiKey(apiKey);
-
-Document translatedDoc = model.Translate(doc, Language.Arabic);
-translatedDoc.Save(ArtifactsDir + "AI.AiTranslate.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "ea14b3e44c0233eecd663f783a21c4f6" "ai-translate.cs" >}}
 
 {{% alert color="primary" %}}
 

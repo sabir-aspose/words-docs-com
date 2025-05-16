@@ -6,8 +6,10 @@ linktitle: Lucrul cu filigran
 description: "Creați și gestionați filigranele într-un document folosind Python."
 type: docs
 weight: 340
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ro/python-net/working-with-watermark/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-04-16-07-02-05
 ---
 
 Acest subiect discută cum să lucrați programatic cu filigran folosind Aspose.Words. Un filigran este o imagine de fundal care se afișează în spatele textului dintr-un document. Un filigran poate conține un text sau o imagine reprezentată de clasa [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/).
@@ -26,7 +28,7 @@ Puteți încerca această funcționalitate cu [Filigran online gratuit pentru do
 
 ### Adăugați Filigran Text
 
-Următorul exemplu de cod demonstrează cum să inserați un filigran text într-un document definind [TextWatermarkOptions](https://reference.aspose.com/words/python-net/aspose.words/textwatermarkoptions/) folosind metoda [set_text](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_text/).
+Următorul exemplu de cod demonstrează cum să inserați un filigran text într-un document definind [TextWatermarkOptions](https://reference.aspose.com/words/python-net/aspose.words/textwatermarkoptions/) folosind metoda [set_text](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_text/):
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_watermark-AddTextWatermarkWithSpecificOptions.py" >}}
 
@@ -35,6 +37,8 @@ Următorul exemplu de cod demonstrează cum să inserați un filigran text într
 Următorul exemplu de cod demonstrează cum să inserați un filigran de imagine într-un document definind [ImageWatermarkOptions](https://reference.aspose.com/words/python-net/aspose.words/imagewatermarkoptions/) folosind metoda [set_image](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_image/):
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_watermark-AddImageWatermarkWithSpecificOptions.py" >}}
+
+Filigranul imaginii poate fi inserat ca imagine, șir sau flux.
 
 Filigranul poate fi, de asemenea, inserat folosind clasa de formă. Este foarte ușor să inserați orice formă sau imagine într-un antet sau subsol și astfel să creați un filigran de orice tip imaginabil.
 

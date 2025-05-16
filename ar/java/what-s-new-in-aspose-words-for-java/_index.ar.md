@@ -6,27 +6,40 @@ linktitle: ما الجديد في Aspose.Words ل Java
 type: docs
 description: "Aspose.Words ل Java يوسع ويعزز يوميا. في هذه الصفحة، يمكنك التعرف على الميزات الضخمة والأكثر إثارة للاهتمام للمنتج."
 weight: 2
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ar/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2025-17-02-18-02-05
+timestamp: 2025-04-22-08-02-05
 ---
 
 تصف هذه الصفحة الميزات الجديدة الأكثر إثارة للاهتمام Aspose.Words التي تم تقديمها في الإصدارات الأخيرة.
 
-## Aspose.Words ل Java 25.1, 25.2
+## Aspose.Words لـ Java 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 يقدم AI - تدقيق نحوي مدعوم ويعزز حفظ المستندات بخيارات متقدمة لتنسيقات HTML و SVG و Markdown.
 
-Aspose.Words 25.2 يقدم تلخيصا للنص باستخدام نماذج AI الأنثروبولوجية، ويضيف MsWorks دعم التنسيق، ويعزز التحكم المطبعي، ويحسن PDF الهيكل ومعالجة القائمة.
+Aspose.Words 25.2 يقدم تلخيصا للنص بنماذج Anthropic AI، ويضيف MsWorks دعم التنسيق، ويعزز التحكم المطبعي، ويحسن PDF الهيكل ومعالجة القائمة.
+
+Aspose.Words 25.3 يعزز مدقق نحوي مدعوم بـ AI واختيار الخط بخاصية UpdateAmbiguousTextFont، بالإضافة إلى تحسين تصدير المرفقات PDF.
+
+Aspose.Words 25.4 يقدم دعما لأحجام الورق الجديدة، ويتيح التحكم المتقدم في الصادرات HTML، ويحسن معالجة العلامة المائية، ويعزز قابلية استخدام LowCode API.
 
 ### AI - ميزات تعمل بالطاقة
 
-#### وثيقة AI التدقيق النحوي <sup>25.1</sup>
+#### وثيقة AI التدقيق النحوي
 
-تم تقديم القدرة على التحقق من قواعد المستند المقدم باستخدام OpenAI النماذج التوليدية بإضافة طريقة [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions) جديدة.
+* تم تقديم القدرة على التحقق من قواعد المستند المقدم باستخدام OpenAI النماذج التوليدية بإضافة طريقة [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions) جديدة. <sup>25.1</sup>
+* تم تحديث ميزة التدقيق النحوي التي تعمل بالطاقة AI لدعم جميع الطرز المتوفرة في [AiModelType](https://reference.aspose.com/words/java/com.aspose.words/aimodeltype/) تعداد. <sup>25.3</sup>
 
-#### التلخيص باستخدام نماذج اللغة التوليدية البشرية <sup>25.2</sup>
+#### التلخيص باستخدام Anthropic نماذج اللغة التوليدية <sup>25.2</sup>
 
-تم تمكين تلخيص النص باستخدام نماذج اللغة التوليدية البشرية من خلال تقديم فئة عامة جديدة [AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/).
+تم تمكين تلخيص النص باستخدام نماذج اللغة التوليدية Anthropic من خلال تقديم فئة عامة جديدة [AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/).
+
+### Low Code
+
+#### Low Code API سهولة الاستخدام <sup>25.4</sup>
+
+تم إدخال تحسينات كبيرة على قابلية استخدام **LowCode API**، مما أدى إلى تبسيط معالجة المستندات وتقليل الحاجة إلى التعليمات البرمجية المتكررة.
 
 ### التنسيقات المدعومة <sup>25.2</sup>
 
@@ -42,6 +55,7 @@ Aspose.Words 25.2 يقدم تلخيصا للنص باستخدام نماذج AI 
 
 * تمت إضافة خيار [ImageResolution](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageResolution) جديد إلى فئة [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) لتعيين دقة الصورة.
 * تم إضافة خيار [OfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getOfficeMathExportMode) جديد و [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownofficemathexportmode/) تعداد إلى فئة [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) لتعيين وضع الإخراج OfficeMath.
+* تم تقديم القدرة على تعيين علامة مائية للصورة من دفق عن طريق إضافة حمل زائد جديد إلى طريقة [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.io.InputStream-com.aspose.words.ImageWatermarkOptions). <sup>25.4</sup>
 
 ### تقديم
 
@@ -49,10 +63,23 @@ Aspose.Words 25.2 يقدم تلخيصا للنص باستخدام نماذج AI 
 
 تمت إضافة الخاصية [NumberSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getNumberSpacing) لتحسين التحكم المطبعي.
 
+#### التحكم في اختيار الخط للأحرف الغامضة <sup>25.3</sup>
+
+تمت إضافة خاصية عامة جديدة [UpdateAmbiguousTextFont](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateAmbiguousTextFont) إلى فئة [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) للتحكم في اختيار الخط وفقا لرمز الحرف المستخدم.
+
+#### خيارات حجم الورق <sup>25.4</sup>
+
+تم إدخال القدرة على استخدام JIS B4 و JIS B5 أحجام الورق عن طريق إضافة قيم جديدة إلى [PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/) التعداد.
+
+#### HTML التحكم في الإخراج <sup>25.4</sup>
+
+القدرة على إزالة JavaScript من الارتباط التشعبي URLs خلال HTML تم إدخال التصدير عن طريق إضافة خاصية [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getRemoveJavaScriptFromLinks).
+
 ### أخرى
 
 * PDF تم تحسين البنية المنطقية بدعم من TOA و BIBLIOGRAPHY و INDEX الحقول. <sup>25.2</sup>
 * تم تقديم طريقة [AddSingleLevelList](https://reference.aspose.com/words/java/com.aspose.words/listcollection/#addSingleLevelList-int) لتحسين معالجة القائمة. <sup>25.2</sup>
+* تمت إضافة خاصية جديدة [AttachmentsEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getAttachmentsEmbeddingMode) لتحل محل **EmbedAttachments** لتحسين تصدير PDF المرفقات. أيضا، تمت إضافة قيم جديدة إلى [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) تعداد لدعم PDF/A مرفقات الإصدار. بالإضافة إلى ذلك، يتم دعم المرفقات الآن بالتشفير. <sup>25.3</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,15 +87,19 @@ Aspose.Words 25.2 يقدم تلخيصا للنص باستخدام نماذج AI 
 
 تعرف على المزيد حول [Aspose.Words ل Java 25.2 ملاحظات الإصدار](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-2-release-notes/).
 
+تعرف على المزيد حول [Aspose.Words لـ Java 25.3 ملاحظات الإصدار](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-3-release-notes/).
+
+تعرف على المزيد حول [Aspose.Words لـ Java 25.4 ملاحظات الإصدار](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-4-release-notes/).
+
 {{% /alert %}}
 
 ## Aspose.Words ل Java 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 يقدم group shape الإدراج و StructuredDocumentTag الإدراج عبر DocumentBuilder، ويعزز عرض المخطط الشعاعي مع التخرج، ويحسن التوقيعات الرقمية بدعم XAdES-EPES، ويضيف Markdown التعرف على التسطير، ويوفر الوصول إلى فواصل الحاشية السفلية / التعليقات الختامية.
 
-Aspose.Words 24.10 يقدم تعزيز دعم التحكم أكتيفكس مع CommandButton الخلق، جديد تحكم الرؤية الشكل، والقدرة على group shapes، وتحسين Markdown تصدير للجداول، تنسيق الرسم البياني ل Pie و Doughnut الرسوم البيانية، أفضل بيغ 5 معالجة الترميز، ودعم الخطوط التايوانية التي عفا عليها الزمن.
+Aspose.Words 24.10 يقدم تعزيز ActiveX دعم التحكم مع CommandButton خلق، جديد تحكم الرؤية الشكل، والقدرة على group shapes، وتحسين Markdown تصدير للجداول، تنسيق الرسم البياني ل Pie و Doughnut الرسوم البيانية، أفضل بيغ 5 معالجة الترميز، ودعم الخطوط التايوانية التي عفا عليها الزمن.
 
-Aspose.Words 24.11 يقدم AI - تلخيص المستند بالطاقة، وخيارات العرض المحسنة، وتحسين الوصول إلى خصائص المستند والتعليقات التوضيحية للتحكم في اكتف.
+Aspose.Words 24.11 يقدم AI - تلخيص مستند مدعوم، وخيارات عرض محسنة، وتحسين الوصول إلى خصائص المستند و ActiveX تعليق توضيحي للتحكم.
 
 Aspose.Words 24.12 يقدم تخصيص وضع تسمية البيانات، جوجل AI - تعمل بالطاقة ترجمة النص، وتعزيز Mail Merge خيارات التنظيف، والجديدة LowCode فئات المعالجة.
 
@@ -92,9 +123,9 @@ Aspose.Words 24.12 يقدم تخصيص وضع تسمية البيانات، جو
 
 تم تنفيذ عرض التخرج على الرسوم البيانية الشعاعية.
 
-#### CommandButton عناصر تحكم أكتيفكس <sup>24.10</sup>
+#### CommandButton ActiveX الضوابط <sup>24.10</sup>
 
-القدرة على إنشاء عناصر تحكم أكتيفكس CommandButton تم تقديمه عن طريق إضافة طريقة عامة جديدة [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) وفئة عامة جديدة [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/).
+تم تقديم القدرة على إنشاء عناصر تحكم CommandButton ActiveX عن طريق إضافة طريقة عامة جديدة [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) وفئة عامة جديدة [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/).
 
 #### رؤية شكل التحكم <sup>24.10</sup>
 
@@ -151,7 +182,7 @@ PDF تم تحسين التصدير من خلال تضمين خصائص عنوا�
 * تم تحسين معالجة ترميز بيغ 5 لجداول TrueType كماب. <sup>24.10</sup>
 * تم تعزيز دعم الخطوط التايوانية القديمة. <sup>24.10</sup>
 * للوصول إلى خصائص المستند الموسعة، تمت إضافة خصائص للقراءة فقط إلى فئة [BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/). <sup>24.11</sup>
-* تم تمكين وضع التسميات التوضيحية لعناصر تحكم أكتيفكس عن طريق إضافة أداة ضبط عامة جديدة إلى [Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption) خاصية. <sup>24.11</sup>
+* تم تمكين تعيين التسميات التوضيحية لعناصر التحكم ActiveX عن طريق إضافة أداة ضبط عامة جديدة إلى الخاصية [Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption). <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
@@ -171,7 +202,7 @@ Aspose.Words 24.5 يوسع خيارات التجميعات، ويحسن قدرا
 
 Aspose.Words 24.6 يحسن خيارات العرض، ويعزز وظائف البحث والمقارنة، ويوسع العديد من الميزات الأخرى.
 
-Aspose.Words 24.7 يغير طريقة عملك مع اكتف، ويوسع قدرات العرض، وكذلك التصدير إلى Markdown و XLSX التنسيقات.
+Aspose.Words 24.7 يغير طريقة عملك مع ActiveX، ويوسع إمكانيات العرض، بالإضافة إلى التصدير إلى Markdown و XLSX التنسيقات.
 
 Aspose.Words 24.8 يعزز تخصيص المخطط من خلال التحكم الدقيق في تسميات المحور، ويوسع إدارة الخطوط، ويحسن معالجة بنية المستند، ويضيف إمكانات جديدة لـ HTML/XAML تصدير، PDF وظائف، تحويل المستند، والتوقيعات الرقمية.
 
@@ -203,11 +234,11 @@ Aspose.Words 24.8 يعزز تخصيص المخطط من خلال التحكم ا
 
 تمت إضافة أداة ضبط للممتلكات العامة [CustomNumberStyleFormat](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getCustomNumberStyleFormat). يمكنك الآن تحديد نمط رقم مخصص لمستويات القائمة.
 
-#### التغييرات في العمل مع اكتف <sup>24.7</sup>
+#### التغييرات في العمل مع ActiveX <sup>24.7</sup>
 
-* يمكن الآن تعديل خصائص الكائنات اكتف، مما يتيح لك المزيد من السيطرة على سلوكهم.
-* تمت إضافة القدرة على تعديل قيمة زر الاختيار أكتيفكس التحكم لتمكين التفاعل الديناميكي.
-* تمت إضافة القدرة على تبديل اكتف checkbox إلى "محدد" أو "غير محدد".
+* يمكن الآن تعديل خصائص ActiveX الكائنات، مما يمنحك مزيدا من التحكم في سلوكها.
+* تمت إضافة القدرة على تعديل قيمة زر الاختيار ActiveX التحكم لتمكين التفاعل الديناميكي.
+* تمت إضافة القدرة على تبديل ActiveX checkbox إلى "محدد" أو "غير محدد".
 
 #### السيطرة على الرسم البياني محور التسميات القراد التوجه والتناوب <sup>24.8</sup>
 

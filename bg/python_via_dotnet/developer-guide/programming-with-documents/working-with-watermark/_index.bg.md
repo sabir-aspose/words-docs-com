@@ -1,65 +1,69 @@
 ---
-title: Работа с воден знак в Python
-second_title: Aspose.Words вместо Python via .NET
+title: Работа с воден знак Python
+second_title: Aspose.Words за Python via .NET
 articleTitle: Работа с воден знак
 linktitle: Работа с воден знак
-description: "Създаване и управление на водни знаци в документ, използвайки Python."
+description: "Създаване и управление на водни знаци в документ с Python."
 type: docs
 weight: 340
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /bg/python-net/working-with-watermark/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-04-16-07-02-05
 ---
 
-Тази тема обсъжда как да се работи програмично с воден знак използване Aspose.Words. Воден знак е фоново изображение, което показва зад текста в документ. Воден знак може да съдържа текст или изображение, представено от [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/) Клас.
+Тази тема обсъжда как да се работи програмно с воден знак, използвайки Aspose.Words. Водният знак е фоново изображение, което се показва зад текста в документ. Водният знак може да съдържа текст или изображение, представлявано от класа [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/).
 
 {{% alert color="primary" %}}
 
-**Опитай онлайн**
+**Опитайте онлайн**
 
-Можете да опитате тази функционалност с нашия [Безплатен онлайн документ воден знак](https://products.aspose.app/words/watermark).
+Можете да опитате тази функционалност с нашата [Безплатен онлайн воден знак за документ](https://products.aspose.app/words/watermark).
 
 {{% /alert %}}
 
 ## Как да добавите воден знак към документ
 
-В Microsoft Word, може лесно да се постави воден знак в документ, като се използва командата "Вмъкни воден знак." Aspose.Words осигурява [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/) клас за добавяне или премахване на воден знак в документи. Aspose.Words осигурява [WatermarkType](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/) изброяване, определящо три възможни вида водни знаци ([TEXT](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/#text), [IMAGE](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/#image), както и [NONE](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/#none)) да работи с
+В Microsoft Word воден знак може лесно да се вмъкне в документ с помощта на командата Вмъкване на воден знак. Aspose.Words осигурява класа [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/) за добавяне или премахване на воден знак в документи. Aspose.Words осигурява [WatermarkType](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/) изброяване, дефиниращо три възможни типа водни знаци ([TEXT](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/#text), [IMAGE](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/#image) и [NONE](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/#none)), с които да се работи.
 
-### Добавяне на текстов воден знак
+### Добавяне На Текстов Воден Знак
 
-Следният пример за код показва как да се постави текстов воден знак в документ чрез определяне [TextWatermarkOptions](https://reference.aspose.com/words/python-net/aspose.words/textwatermarkoptions/) с помощта на [set_text](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_text/) метод.
+Следващият пример за код показва как да вмъкнете текстов воден знак в документ, като дефинирате [TextWatermarkOptions](https://reference.aspose.com/words/python-net/aspose.words/textwatermarkoptions/), като използвате метода [set_text](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_text/):
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_watermark-AddTextWatermarkWithSpecificOptions.py" >}}
 
-### Добавяне на изображение воден знак
+### Добавяне На Воден Знак За Изображение
 
-Следният пример за код показва как да се постави изображение воден знак в документ чрез определяне [ImageWatermarkOptions](https://reference.aspose.com/words/python-net/aspose.words/imagewatermarkoptions/) с помощта на [set_image](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_image/) метод:
+Следващият пример за код показва как да вмъкнете воден знак на изображение в документ, като дефинирате [ImageWatermarkOptions](https://reference.aspose.com/words/python-net/aspose.words/imagewatermarkoptions/), като използвате метода [set_image](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_image/):
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_watermark-AddImageWatermarkWithSpecificOptions.py" >}}
 
-Водният знак може да бъде поставен и с помощта на клас форма. Много е лесно да вмъкнете всяка форма или изображение в заглавна част или стъпало и по този начин да създадете воден знак от всеки въображаем тип.
+Водният знак на изображението може да бъде вмъкнат като изображение, низ или поток.
 
-Следният пример за код вмъква воден знак в Word документ:
+Водният знак също може да бъде вмъкнат, като се използва и клас на формата. Много е лесно да вмъкнете всяка форма или изображение в горен или долен колонтитул и по този начин да създадете воден знак от всякакъв вид.
+
+Следващият пример за код вмъква воден знак в документ Word:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_watermark-AddWatermark.py" >}}
 
 {{% alert color="primary" %}}
 
-Можете да изтеглите шаблонния файл на този пример от [Тук](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx)
+Можете да изтеглите шаблонния файл на този пример от [ето](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx).
 
 {{% /alert %}}
 
 
 ## Премахване на воден знак от документ
 
-На [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/) клас осигурява метода за премахване на водния знак от документ.
+Клас [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/) предоставя метод за премахване, за да премахнете водния знак от документ.
 
-Следният пример с код показва как да се премахне воден знак от документите:
+Следният пример за код показва как да премахнете воден знак от документи:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_watermark-RemoveWatermarkFromDocument.py" >}}
 
-Ако водните знаци се добавят с помощта на [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) обект клас след това, за да премахнете водния знак от документ, трябва да зададете само името на формата на воден знак по време на вмъкване и след това да премахнете формата на воден знак с определено име.
+Ако водните знаци се добавят с помощта на обект [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) клас, тогава за да премахнете водния знак от документ, трябва да зададете само името на фигурата на водния знак по време на вмъкването и след това да премахнете фигурата на водния знак с зададено име.
 
-Следният пример с код ви показва как да зададете името на формата на водния знак и да го премахнете от документа:
+Следващият пример за код ви показва как да зададете името на фигурата на водния знак и да я премахнете от документа:
 
 {{< highlight python >}}
 # Set name to be able to remove it afterwards
@@ -68,9 +72,9 @@ watermark.name = "WaterMark"
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_watermark-RemoveWatermark.py" >}}
 
-## Добавяне на воден знак в клетка на таблицата
+## Добавяне на воден знак в клетка на таблица
 
-Понякога трябва да поставите воден знак / изображение в клетка на масата и да го покажете извън масата, можете да използвате [is_layout_in_cell](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/is_layout_in_cell/) собственост. Това свойство получава или поставя флаг, показващ дали формата се показва в таблица или извън нея. Имайте предвид, че този имот работи само когато оптимизирате документа за Microsoft Word 2010 с помощта на [optimize_for](https://reference.aspose.com/words/python-net/aspose.words.settings/compatibilityoptions/optimize_for/) метод.
+Понякога трябва да вмъкнете воден знак/изображение в клетката на таблицата и да го покажете извън таблицата, можете да използвате свойството [is_layout_in_cell](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/is_layout_in_cell/). Това свойство получава или задава флаг, показващ дали фигурата се показва в таблица или извън нея. Обърнете внимание, че това свойство работи само когато оптимизирате документа за Microsoft Word 2010 г., като използвате метода [optimize_for](https://reference.aspose.com/words/python-net/aspose.words.settings/compatibilityoptions/optimize_for/).
 
 Следният пример за код показва как да използвате това свойство:
 

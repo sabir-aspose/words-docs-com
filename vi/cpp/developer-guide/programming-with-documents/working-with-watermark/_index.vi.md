@@ -6,11 +6,21 @@ linktitle: Làm việc Với Watermark
 type: docs
 description: "Thao tác hình mờ tài liệu bằng C++."
 weight: 340
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /vi/cpp/working-with-watermark/
-timestamp: 2024-01-30-16-22-34
+timestamp: 2025-05-07-07-22-34
 ---
 
 Chủ đề này thảo luận về cách làm việc theo chương trình với watermark bằng Aspose.Words. Hình mờ là hình nền hiển thị phía sau văn bản trong tài liệu. Hình mờ có thể chứa văn bản hoặc hình ảnh được biểu thị bằng lớp [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/).
+
+{{% alert color="primary" %}}
+
+**Thử trực tuyến**
+
+Bạn có thể thử chức năng này với chúng tôi [Hình mờ tài liệu trực tuyến miễn phí](https://products.aspose.app/words/watermark).
+
+{{% /alert %}}
 
 ## Thêm Hình Mờ Vào Tài liệu
 
@@ -28,7 +38,11 @@ Ví dụ mã sau đây trình bày cách chèn hình mờ hình ảnh trong tài
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cpp" >}}
 
-Hình mờ cũng có thể được chèn bằng lớp hình dạng. Rất dễ dàng để chèn bất kỳ hình dạng hoặc hình ảnh nào vào đầu trang hoặc chân trang và do đó tạo ra một hình mờ thuộc bất kỳ loại nào có thể tưởng tượng được. Ví dụ mã sau đây chèn hình mờ vào Tài liệu Word.
+Hình mờ hình ảnh có thể được chèn dưới dạng hình ảnh, chuỗi hoặc luồng.
+
+Hình mờ cũng có thể được chèn bằng lớp hình dạng. Rất dễ dàng để chèn bất kỳ hình dạng hoặc hình ảnh nào vào đầu trang hoặc chân trang và do đó tạo ra một hình mờ thuộc bất kỳ loại nào có thể tưởng tượng được.
+
+Ví dụ mã sau đây chèn hình mờ vào tài liệu Word.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Images-AddWatermark-AddWatermark.cpp" >}}
 

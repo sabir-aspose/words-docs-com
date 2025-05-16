@@ -1,4 +1,4 @@
-﻿---
+---
 title: ترجمه یک سند
 second_title: Aspose.Words برای .NET
 articleTitle: ترجمه یک سند
@@ -6,6 +6,8 @@ linktitle: ترجمه یک سند
 type: docs
 weight: 30
 description: "ترجمه یک سند. Aspose.Words برای .NET ترجمه سند را با استفاده از مدل های Google AI ساده می کند و به شما امکان می دهد زبان هدف را مشخص کنید."
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /fa/net/translate-a-document/
 timestamp: 2024-12-13-06-40-00
 ---
@@ -16,16 +18,7 @@ timestamp: 2024-12-13-06-40-00
 
 مثال کد زیر نشان می دهد که چگونه از مدل *Gemini 1.5 Flash* در Aspose.Words برای ترجمه یک سند به عربی استفاده کنیم:
 
-{{< highlight csharp >}}
-Document doc = new Document(MyDir + "Document.docx");
-
-string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-// Use Google generative language models.
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gemini15Flash).WithApiKey(apiKey);
-
-Document translatedDoc = model.Translate(doc, Language.Arabic);
-translatedDoc.Save(ArtifactsDir + "AI.AiTranslate.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "ea14b3e44c0233eecd663f783a21c4f6" "ai-translate.cs" >}}
 
 {{% alert color="primary" %}}
 

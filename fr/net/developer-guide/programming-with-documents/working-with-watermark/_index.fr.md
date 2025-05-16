@@ -1,16 +1,18 @@
 ---
-title: Travailler avec un filigrane dans C#
+title: Utilisation du filigrane dans C#
 second_title: Aspose.Words pour .NET
 articleTitle: Travailler avec un filigrane
 linktitle: Travailler avec un filigrane
-description: "Manipulation du filigrane de document à l'aide de C#."
+description: "Manipulation du filigrane du document à l'aide de C#."
 type: docs
 weight: 340
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /fr/net/working-with-watermark/
-timestamp: 2024-05-02-11-51-44
+timestamp: 2025-04-16-07-02-05
 ---
 
-Cette rubrique explique comment utiliser par programmation un filigrane à l'aide de Aspose.Words. Un filigrane est une image d'arrière-plan qui s'affiche derrière le texte d'un document. Un filigrane peut contenir un texte ou une image représentée par la classe [Watermark](https://reference.aspose.com/words/fr/net/aspose.words/watermark/).
+Cette rubrique explique comment travailler par programmation avec un filigrane à l'aide de Aspose.Words. Un filigrane est une image d'arrière-plan qui s'affiche derrière le texte d'un document. Un filigrane peut contenir un texte ou une image représentée par la classe [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/).
 
 {{% alert color="primary" %}}
 
@@ -22,57 +24,55 @@ Vous pouvez essayer cette fonctionnalité avec notre [Filigrane de document en l
 
 ## Ajouter un filigrane à un document
 
-Dans Microsoft Word, un filigrane peut facilement être inséré dans un document à l'aide de la commande Insérer un filigrane. Aspose.Words fournit la classe [watermark](https://reference.aspose.com/words/fr/net/aspose.words/watermark/) pour ajouter ou supprimer un filigrane dans les documents. Aspose.Words fournit la liste [Type de filigrane](https://reference.aspose.com/words/fr/net/aspose.words/watermark/type/) définissant trois types possibles de filigranes (Texte, Image et Aucun) avec lesquels travailler
+Dans Microsoft Word, un filigrane peut facilement être inséré dans un document à l'aide de la commande Insérer un filigrane. Aspose.Words fournit la classe [watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) pour ajouter ou supprimer un filigrane dans les documents. Aspose.Words fournit l'énumération [WatermarkType](https://reference.aspose.com/words/net/aspose.words/watermark/type/)définissant trois types de filigranes possibles (Texte, Image et Aucun) avec lesquels travailler.
 
-### Ajouter un filigrane de texte
+### Ajouter Un Filigrane De Texte
 
-L'exemple de code suivant montre comment insérer un filigrane de texte dans un document en définissant [TextWatermarkOptions](https://reference.aspose.com/words/fr/net/aspose.words/textwatermarkoptions/) à l'aide de la méthode [SetText](https://reference.aspose.com/words/fr/net/aspose.words/watermark/settext/#settext):
+L'exemple de code suivant montre comment insérer un filigrane de texte dans un document en définissant [TextWatermarkOptions](https://reference.aspose.com/words/net/aspose.words/textwatermarkoptions/) à l'aide de la méthode [SetText](https://reference.aspose.com/words/net/aspose.words/watermark/settext/#settext):
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkWithWatermark-AddTextWatermarkWithSpecificOptions.cs" >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "add-text-watermark.cs" >}}
 
-### Ajouter un filigrane d'image
+### Ajouter Un Filigrane D'Image
 
-L'exemple de code suivant montre comment insérer un filigrane d'image dans un document en définissant [ImageWatermarkOptions](https://reference.aspose.com/words/fr/net/aspose.words/imagewatermarkoptions/) à l'aide de la méthode [SetImage](https://reference.aspose.com/words/fr/net/aspose.words/watermark/setimage/#setimage):
+L'exemple de code suivant montre comment insérer un filigrane d'image dans un document en définissant [ImageWatermarkOptions](https://reference.aspose.com/words/net/aspose.words/imagewatermarkoptions/) à l'aide de la méthode [SetImage](https://reference.aspose.com/words/net/aspose.words/watermark/setimage/#setimage):
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cs" >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "add-image-watermark.cs" >}}
 
-Le filigrane peut également être inséré à l’aide de la classe de forme. Il est très simple d'insérer n'importe quelle forme ou image dans un en-tête ou un pied de page et ainsi de créer un filigrane de tout type imaginable.
+Le filigrane d'image peut être inséré en tant qu'image, chaîne ou flux.
+
+Le filigrane peut également être inséré à l'aide de la classe de forme. Il est très facile d'insérer n'importe quelle forme ou image dans un en-tête ou un pied de page et ainsi créer un filigrane de n'importe quel type imaginable.
 
 L'exemple de code suivant insère un filigrane dans un document Word:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Images-AddWatermark-AddWatermark.cs" >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "add-document-watermark.cs" >}}
 
 {{% alert color="primary" %}}
 
-Vous pouvez télécharger le fichier exemple de cet exemple à partir de [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
+Vous pouvez télécharger le fichier d'exemple de cet exemple à partir de [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 {{% /alert %}}
 
 
 ## Supprimer le filigrane d'un document
 
-La classe [Watermark](https://reference.aspose.com/words/fr/net/aspose.words/watermark/) fournit la méthode Remove pour supprimer le filigrane d'un document.
+La classe [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) fournit la méthode remove pour supprimer le filigrane d'un document.
 
 L'exemple de code suivant montre comment supprimer un filigrane des documents:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkWithWatermark-RemoveWatermarkFromDocument.cs" >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "remove-document-watermark.cs" >}}
 
-Si les filigranes sont ajoutés à l'aide de l'objet de classe [Shape](https://reference.aspose.com/words/fr/net/aspose.words.drawing/shape/), pour supprimer le filigrane d'un document, vous devez définir uniquement le nom de la forme du filigrane lors de l'insertion, puis supprimer la forme du filigrane en lui attribuant un nom.
+Si les filigranes sont ajoutés à l'aide de l'objet de classe [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/), pour supprimer le filigrane d'un document, vous devez définir uniquement le nom de la forme du filigrane lors de l'insertion, puis supprimer la forme du filigrane par un nom attribué.
 
-L'exemple de code suivant vous montre comment définir le nom de la forme du filigrane et la supprimer du document:
+L'exemple de code suivant vous montre comment définir le nom de la forme de filigrane et la supprimer du document:
 
-{{< highlight csharp >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "set-shape-name.cs" >}}
 
-// Set name to be able to remove it afterwards
-watermark.Name("WaterMark");
-{{< /highlight >}}
-
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Images-RemoveWatermark-RemoveWatermark.cs" >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "remove-watermark-shape.cs" >}}
 
 ## Ajouter un filigrane dans une cellule de tableau
 
-Parfois, vous devez insérer un filigrane/une image dans la cellule d'un tableau et l'afficher en dehors du tableau, vous pouvez utiliser la propriété [IsLayoutInCell](https://reference.aspose.com/words/fr/net/aspose.words.drawing/shapebase/islayoutincell/). Cette propriété obtient ou définit un indicateur indiquant si la forme est affichée à l'intérieur ou à l'extérieur d'un tableau. Notez que cette propriété ne fonctionne que lorsque vous optimisez le document pour Microsoft Word 2010 à l'aide de la méthode [OptimizeFor](https://reference.aspose.com/words/fr/net/aspose.words.settings/compatibilityoptions/optimizefor/).
+Parfois, vous devez insérer un filigrane/une image dans la cellule d'un tableau et l'afficher en dehors du tableau, vous pouvez utiliser la propriété [IsLayoutInCell](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/islayoutincell/). Cette propriété obtient ou définit un indicateur indiquant si la forme est affichée à l'intérieur ou à l'extérieur d'un tableau. Notez que cette propriété ne fonctionne que lorsque vous optimisez le document pour Microsoft Word 2010 à l'aide de la méthode [OptimizeFor](https://reference.aspose.com/words/net/aspose.words.settings/compatibilityoptions/optimizefor/).
 
 L'exemple de code suivant montre comment utiliser cette propriété:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-SetShapeLayoutInCell.cs" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "layout-in-cell.cs" >}}

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Java의 워터마크 작업
 second_title: Aspose.WordsJava
 articleTitle: 워터마크 작업
@@ -6,8 +6,10 @@ linktitle: 워터마크 작업
 type: docs
 description: "Java을 사용한 문서 워터마크 조작."
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ko/java/working-with-watermark/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-04-22-08-07-04
 ---
 
 이 항목에서는Aspose.Words을 사용하여 워터마크로 프로그래밍 방식으로 작업하는 방법에 대해 설명합니다. 워터마크는 문서의 텍스트 뒤에 표시되는 배경 이미지입니다. 워터마크는[Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/)클래스로 표시되는 텍스트나 이미지를 포함할 수 있습니다.
@@ -22,7 +24,7 @@ timestamp: 2024-01-27-14-07-04
 
 ## 문서에 워터마크 추가
 
-Microsoft Word에서 워터마크 삽입 명령을 사용하여 문서에 워터마크를 쉽게 삽입할 수 있습니다. Aspose.Words는 문서에서 워터마크를 추가하거나 제거할[watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/)클래스를 제공합니다. Aspose.Words는 사용할 수 있는 세 가지 유형의 워터마크(텍스트,이미지 및 없음)를 정의하는[WatermarkType](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)열거형을 제공합니다.
+Microsoft Word에서 워터마크 삽입 명령을 사용하여 문서에 워터마크를 쉽게 삽입할 수 있습니다. Aspose.Words는 문서에서 워터마크를 추가하거나 제거할[watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/)클래스를 제공합니다. Aspose.Words는 사용할 수 있는 세 가지 유형의 워터마크(텍스트,이미지 및 없음)를 정의하는[WatermarkType ](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)열거형을 제공합니다.
 
 ### 텍스트 워터마크 추가
 
@@ -36,9 +38,11 @@ Microsoft Word에서 워터마크 삽입 명령을 사용하여 문서에 워터
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.java" >}}
 
+이미지 워터 마크는 이미지,문자열 또는 스트림으로 삽입 할 수 있습니다.
+
 워터 마크는 또한 모양 클래스를 사용하여 삽입 할 수 있습니다. 머리글이나 바닥 글에 어떤 모양이나 이미지를 삽입하여 상상할 수있는 유형의 워터 마크를 만드는 것은 매우 쉽습니다.
 
-다음 코드 예제에서는 워드 문서에 워터마크를 삽입합니다:
+다음 코드 예제에서는Word문서에 워터마크를 삽입합니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-AddWatermarkToADocument-AddWatermarkToADocument.java" >}}
 

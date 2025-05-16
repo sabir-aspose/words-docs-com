@@ -1,16 +1,26 @@
 ---
-title: Bekerja dengan Tanda Air di C++
+title: Bekerja dengan Tanda Air dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Tanda Air
 linktitle: Bekerja dengan Tanda Air
 type: docs
 description: "Manipulasi tanda air dokumen menggunakan C++."
 weight: 340
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /id/cpp/working-with-watermark/
-timestamp: 2024-01-30-16-22-34
+timestamp: 2025-05-07-07-22-34
 ---
 
 Topik ini membahas cara bekerja secara terprogram dengan tanda air menggunakan Aspose.Words. Tanda air adalah gambar latar belakang yang ditampilkan di belakang teks dalam dokumen. Tanda air dapat berisi teks atau gambar yang diwakili oleh kelas [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/).
+
+{{% alert color="primary" %}}
+
+**Coba online**
+
+Anda dapat mencoba fungsi ini dengan kami [Tanda air dokumen online gratis](https://products.aspose.app/words/watermark).
+
+{{% /alert %}}
 
 ## Menambahkan Tanda Air ke Dokumen
 
@@ -28,7 +38,11 @@ Contoh kode berikut mendemonstrasikan cara menyisipkan tanda air gambar dalam do
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cpp" >}}
 
-Tanda air juga dapat disisipkan menggunakan kelas bentuk juga. Sangat mudah untuk menyisipkan bentuk atau gambar apa pun ke dalam header atau footer dan dengan demikian membuat tanda air dari jenis apa pun yang dapat dibayangkan. Contoh kode berikut menyisipkan tanda air ke dalam dokumen Word.
+Tanda air gambar dapat disisipkan sebagai gambar, string, atau aliran.
+
+Tanda air juga dapat disisipkan menggunakan kelas bentuk juga. Sangat mudah untuk menyisipkan bentuk atau gambar apa pun ke dalam header atau footer dan dengan demikian membuat tanda air dari jenis apa pun yang dapat dibayangkan.
+
+Contoh kode berikut menyisipkan tanda air ke dalam dokumen Word.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Images-AddWatermark-AddWatermark.cpp" >}}
 

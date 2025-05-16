@@ -1,4 +1,4 @@
-﻿---
+---
 title: Een Document vertalen
 second_title: Aspose.Words voor .NET
 articleTitle: Een Document vertalen
@@ -6,6 +6,8 @@ linktitle: Een Document vertalen
 type: docs
 weight: 30
 description: "Vertaal een document. Aspose.Words voor .NET vereenvoudigt documentvertaling met behulp van Google AI - modellen, zodat u de doeltaal kunt opgeven."
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nl/net/translate-a-document/
 timestamp: 2024-12-13-06-40-00
 ---
@@ -16,16 +18,7 @@ Gebruik de methode [Translate](https://reference.aspose.com/words/net/aspose.wor
 
 Het volgende codevoorbeeld laat zien hoe u het *Gemini 1.5 Flash* - model in Aspose.Words gebruikt om een document naar het Arabisch te vertalen:
 
-{{< highlight csharp >}}
-Document doc = new Document(MyDir + "Document.docx");
-
-string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-// Use Google generative language models.
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gemini15Flash).WithApiKey(apiKey);
-
-Document translatedDoc = model.Translate(doc, Language.Arabic);
-translatedDoc.Save(ArtifactsDir + "AI.AiTranslate.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "ea14b3e44c0233eecd663f783a21c4f6" "ai-translate.cs" >}}
 
 {{% alert color="primary" %}}
 

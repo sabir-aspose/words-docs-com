@@ -6,27 +6,40 @@ linktitle: מה חדש ב Aspose.Words עבור Java
 type: docs
 description: "Aspose.Words עבור Java מתרחב ומשפר מדי יום. בדף זה תוכלו ללמוד על התכונות הענקיות והמעניינות ביותר של המוצר."
 weight: 2
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /he/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2025-17-02-18-02-05
+timestamp: 2025-04-22-08-02-05
 ---
 
 דף זה מתאר את התכונות החדשות המעניינות ביותר Aspose.Words שהוצגו במהדורות האחרונות.
 
-## Aspose.Words עבור Java 25.1, 25.2
+## Aspose.Words עבור Java 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 מציג AI - בדיקת דקדוק מופעלת ומשפר את שמירת המסמכים עם אפשרויות מתקדמות לפורמטים HTML, SVG ו Markdown.
 
-Aspose.Words 25.2 מציג סיכום טקסט עם מודלים אנתרופיים AI, מוסיף תמיכה בפורמט MsWorks, משפר את השליטה הטיפוגרפית ומשפר PDF מבנה וטיפול ברשימה.
+Aspose.Words 25.2 מציג סיכום טקסט עם Anthropic AI מודלים, מוסיף MsWorks תמיכה בפורמט, משפר את השליטה הטיפוגרפית ומשפר PDF מבנה וטיפול ברשימה.
+
+Aspose.Words 25.3 משפר בודק דקדוק מופעל AI ובחירת גופנים עם המאפיין UpdateAmbiguousTextFont, כמו גם משפר PDF ייצוא קבצים מצורפים.
+
+Aspose.Words 25.4 מציג תמיכה בגדלי נייר חדשים, מאפשר בקרת ייצוא מתקדמת HTML, משפר את הטיפול בסימני מים ומשפר את השימושיות של LowCode API.
 
 ### AI - מופעל תכונות
 
-#### מסמך AI בדיקת דקדוק <sup>25.1</sup>
+#### מסמך AI בדיקת דקדוק
 
-היכולת לבדוק את הדקדוק של המסמך שסופק באמצעות מודלים גנראטיביים OpenAI הוצגה על ידי הוספת שיטה חדשה [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions).
+* היכולת לבדוק את הדקדוק של המסמך שסופק באמצעות מודלים גנראטיביים OpenAI הוצגה על ידי הוספת שיטה חדשה [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions). <sup>25.1</sup>
+* תכונת בדיקת הדקדוק המופעלת AI עודכנה כדי לתמוך בכל הדגמים הזמינים בספירה [AiModelType](https://reference.aspose.com/words/java/com.aspose.words/aimodeltype/). <sup>25.3</sup>
 
-#### סיכום באמצעות מודלים של שפה גנראטיבית אנתרופית <sup>25.2</sup>
+#### סיכום באמצעות מודלים של שפה גנראטיבית Anthropic <sup>25.2</sup>
 
-סיכום טקסט באמצעות מודלים של שפה גנראטיבית אנתרופית התאפשר על ידי הצגת מעמד ציבורי חדש [AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/).
+סיכום טקסט באמצעות מודלים של שפה גנראטיבית Anthropic הופעל על ידי הצגת כיתה ציבורית חדשה [AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/).
+
+### Low Code
+
+#### Low Code API שימושיות <sup>25.4</sup>
+
+שיפורים משמעותיים בשימוש של **LowCode API** הוצגו, הפשטו את עיבוד המסמכים והפחיתו את הצורך בקוד חוזר.
 
 ### פורמטים נתמכים <sup>25.2</sup>
 
@@ -42,6 +55,7 @@ Aspose.Words 25.2 מציג סיכום טקסט עם מודלים אנתרופי�
 
 * אפשרות [ImageResolution](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageResolution) חדשה נוספה לכיתה [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) כדי להגדיר את רזולוציית התמונה.
 * אפשרות [OfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getOfficeMathExportMode) חדשה ו [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownofficemathexportmode/) ספירה נוספה ונוספה לכיתה [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) כדי להגדיר OfficeMath מצב פלט.
+* היכולת להגדיר סימן מים של תמונה מהזרם הוצגה על ידי הוספת עומס יתר חדש לשיטה [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.io.InputStream-com.aspose.words.ImageWatermarkOptions). <sup>25.4</sup>
 
 ### עיבוד
 
@@ -49,10 +63,23 @@ Aspose.Words 25.2 מציג סיכום טקסט עם מודלים אנתרופי�
 
 המאפיין [NumberSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getNumberSpacing) נוסף לשליטה טיפוגרפית משופרת.
 
+#### בחירת גופן שליטה עבור תווים מעורפלים <sup>25.3</sup>
+
+נכס ציבורי חדש [UpdateAmbiguousTextFont](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateAmbiguousTextFont) נוסף לכיתה [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) כדי לשלוט בבחירת הגופן בהתאם לקוד התווים בו נעשה שימוש.
+
+#### אפשרויות גודל נייר <sup>25.4</sup>
+
+היכולת להשתמש בגדלי נייר JIS B4 ו JIS B5 הוצגה על ידי הוספת ערכים חדשים לספירה [PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/).
+
+#### HTML פלט שליטה <sup>25.4</sup>
+
+היכולת להסיר JavaScript מההיפר-קישור URLs במהלך HTML ייצוא הוצגה על ידי הוספת המאפיין [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getRemoveJavaScriptFromLinks).
+
 ### אחרים
 
 * PDF המבנה הלוגי שופר עם תמיכה בשדות TOA, BIBLIOGRAPHY ו INDEX. <sup>25.2</sup>
 * שיטת [AddSingleLevelList](https://reference.aspose.com/words/java/com.aspose.words/listcollection/#addSingleLevelList-int) הוצגה לטיפול ברשימה משופרת. <sup>25.2</sup>
+* נכס חדש [AttachmentsEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getAttachmentsEmbeddingMode) נוסף כדי להחליף **EmbedAttachments** כדי לשפר את הייצוא של הקבצים המצורפים PDF. כמו כן, ערכים חדשים נוספו לספירה [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) כדי לתמוך בקבצים מצורפים של גירסאות PDF/A. בנוסף, קבצים מצורפים נתמכים כעת בהצפנה. <sup>25.3</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,15 +87,19 @@ Aspose.Words 25.2 מציג סיכום טקסט עם מודלים אנתרופי�
 
 למידע נוסף על [Aspose.Words עבור Java 25.2 הערות שחרור](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-2-release-notes/).
 
+למידע נוסף על [Aspose.Words עבור Java 25.3 הערות שחרור](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-3-release-notes/).
+
+למידע נוסף על [Aspose.Words עבור Java 25.4 הערות שחרור](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-4-release-notes/).
+
 {{% /alert %}}
 
 ## Aspose.Words עבור Java 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 מציג group shape הכנסה ו StructuredDocumentTag הכנסה באמצעות DocumentBuilder, משפר את עיבוד התרשים הרדיאלי עם סיום הלימודים, משפר חתימות דיגיטליות עם XAdES-EPES תמיכה, מוסיף Markdown זיהוי קו תחתון ומספק גישה למפרידי הערת שוליים/הערת סיום.
 
-Aspose.Words 24.10 מציג תמיכה משופרת בבקרת אקטיבקס עם CommandButton יצירה, בקרת נראות צורה חדשה, יכולת group shapes, שיפור Markdown ייצוא לטבלאות, עיצוב תרשים עבור Pie ו Doughnut תרשימים, טיפול טוב יותר בקידוד ביג 5 ותמיכה בגופנים טייוואניים מיושנים.
+Aspose.Words 24.10 מציג תמיכה משופרת ActiveX עם CommandButton יצירה, בקרת נראות צורה חדשה, יכולת group shapes, שיפור Markdown ייצוא לטבלאות, עיצוב תרשים עבור Pie ו Doughnut תרשימים, טיפול טוב יותר בקידוד ביג 5 ותמיכה בגופנים טייוואניים מיושנים.
 
-Aspose.Words 24.11 מציג סיכום מסמכים המופעל על AI, אפשרויות עיבוד משופרות, גישה משופרת למאפייני המסמך וכיתוב בקרת אקטיבקס.
+Aspose.Words 24.11 מציג AI - סיכום מסמכים מופעל, אפשרויות עיבוד משופרות, גישה משופרת למאפייני מסמך ו ActiveX כיתוב בקרה.
 
 Aspose.Words 24.12 מציג מיקום תווית נתונים הניתן להתאמה אישית, תרגום טקסט מופעל על ידי גוגל AI, אפשרויות ניקוי משופרות Mail Merge ושיעורי עיבוד חדשים LowCode.
 
@@ -92,9 +123,9 @@ Aspose.Words 24.12 מציג מיקום תווית נתונים הניתן להת
 
 עיבוד של סיום הלימודים על תרשימים רדיאליים יושם.
 
-#### CommandButton בקרות אקטיבקס <sup>24.10</sup>
+#### CommandButton ActiveX פקדים <sup>24.10</sup>
 
-היכולת ליצור בקרות אקטיביקס CommandButton הוצגה על ידי הוספת שיטה ציבורית חדשה [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) וכיתה ציבורית חדשה [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/).
+היכולת ליצור בקרות CommandButton ActiveX הוצגה על ידי הוספת שיטה ציבורית חדשה [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) וכיתה ציבורית חדשה [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/).
 
 #### בקרת צורת נראות <sup>24.10</sup>
 
@@ -151,7 +182,7 @@ PDF הייצוא שופר על ידי הכללת מאפייני כותרת הט�
 * טיפול בקידוד ביג 5 עבור TrueType טבלאות המפה שופר. <sup>24.10</sup>
 * התמיכה בגופנים טייוואניים מיושנים שופרה. <sup>24.10</sup>
 * כדי לגשת למאפייני מסמך מורחבים, נוספו מאפיינים לקריאה בלבד לכיתה [BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/). <sup>24.11</sup>
-* הגדרת כיתובים עבור פקדי אקטיבקס הופעלה על ידי הוספת מגדיר ציבורי חדש למאפיין [Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption). <sup>24.11</sup>
+* הגדרת כיתובים עבור בקרות ActiveX הופעלה על ידי הוספת מגדיר ציבורי חדש למאפיין [Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption). <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
@@ -171,7 +202,7 @@ Aspose.Words 24.5 מרחיב אפשרויות למכלולים, משפר את י
 
 Aspose.Words 24.6 משפר את אפשרויות העיבוד, משפר את פונקציונליות החיפוש וההשוואה ומרחיב מספר תכונות אחרות.
 
-Aspose.Words 24.7 משנה את אופן העבודה עם אקטיבקס, מרחיב את יכולות העיבוד, כמו גם ייצוא לפורמטים Markdown ו - XLSX.
+Aspose.Words 24.7 משנה את אופן העבודה שלך עם ActiveX, מרחיב את יכולות העיבוד, כמו גם ייצוא לפורמטים Markdown ו - XLSX.
 
 Aspose.Words 24.8 משפר את ההתאמה האישית של התרשים עם שליטה מדויקת על תוויות הציר, מרחיב את ניהול הגופנים, משפר את הטיפול במבנה המסמך ומוסיף יכולות חדשות עבור HTML/XAML ייצוא, PDF פונקציונליות, המרת מסמכים וחתימות דיגיטליות.
 
@@ -203,11 +234,11 @@ Aspose.Words 24.8 משפר את ההתאמה האישית של התרשים עם
 
 הוסף סטר לרכוש הציבורי [CustomNumberStyleFormat](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getCustomNumberStyleFormat). עכשיו אתה יכול להגדיר סגנון מספר מותאם אישית עבור רמות רשימה.
 
-#### שינויים בעבודה עם אקטיבקס <sup>24.7</sup>
+#### שינויים בעבודה עם ActiveX <sup>24.7</sup>
 
-* כעת ניתן לשנות את המאפיינים של אובייקטי אקטיבקס, מה שנותן לך שליטה רבה יותר בהתנהגותם.
-* נוספה היכולת לשנות את הערך של בקרת אקטיבקס של לחצן הבחירה כדי לאפשר אינטראקציה דינמית.
-* נוספה היכולת להחליף אקטיבקס checkbox ל "מסומן" או "לא מסומן".
+* כעת ניתן לשנות את המאפיינים של ActiveX אובייקטים, מה שנותן לך שליטה רבה יותר על התנהגותם.
+* היכולת לשנות את הערך של לחצן הבחירה ActiveX שליטה כדי לאפשר אינטראקציה דינמית נוספה.
+* נוספה היכולת להחליף ActiveX checkbox ל "מסומן" או "לא מסומן".
 
 #### שליטה על ציר התרשים סמן תוויות כיוון וסיבוב <sup>24.8</sup>
 

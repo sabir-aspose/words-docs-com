@@ -1,18 +1,20 @@
-﻿---
+---
 title: AI Mô Hình Được Hỗ trợ bởi Aspose.Words
 second_title: Aspose.Words cho Python via .NET
 articleTitle: Mô Hình AI Được Hỗ Trợ
 linktitle: Mô Hình AI Được Hỗ Trợ
 type: docs
 weight: 10
-description: "Aspose.Words đối với Python hỗ trợ các mô hình OpenAI Và Google AI để tóm tắt và dịch tài liệu. Sử dụng Aspose.Words Với gpt-4o, gpt-4o mini, Gpt-4 Turbo, GPT-3.5 Turbo, Song Tử 1.5 Flash, Song tử 1.5 Flash-8b, Song tử 1.5 Pro."
+description: "Aspose.Words cho Python hỗ trợ Các mô hình OpenAI Và Google AI để tóm tắt và dịch tài liệu. Sử dụng Aspose.Words với Gpt-4o, Gpt-4o mini, Gpt-4 Turbo, GPT-3.5 Turbo, Gemini 1.5 Flash, Gemini 1.5 Flash-8b, Gemini 1.5 Pro."
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /vi/python-net/supported-ai-models/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
-Aspose.Words bây giờ tận dụng các mô hình AI nâng cao để tăng cường xử lý và phân tích tài liệu. Với Aspose.Words.AI không gian tên, nhà phát triển có thể truy cập các tính năng sử dụng AI cho các tác vụ như tóm tắt và phân tích tài liệu, tích hợp các mô hình ngôn ngữ tạo từ các nhà lãnh đạo ngành.
+Aspose.Words bây giờ tận dụng các mô hình AI nâng cao để tăng cường xử lý và phân tích tài liệu. Với không gian tên Aspose.Words.AI, các nhà phát triển có thể truy cập các tính năng sử dụng AI cho các tác vụ như tóm tắt và phân tích tài liệu, tích hợp các mô hình ngôn ngữ tạo từ các nhà lãnh đạo ngành.
 
-Thư viện Aspose.Words hiện hỗ trợ tích hợp với các mô hình ngôn ngữ OpenAI Và Google generative. Những mô hình này mang lại khả năng mạnh mẽ để làm việc với các tài liệu. Bằng cách cho phép tương tác liền mạch với các công cụ AI này, Aspose.Words đơn giản hóa các tác vụ phức tạp và nâng cao năng suất cho các nhà phát triển.
+Thư viện Aspose.Words hiện hỗ trợ tích hợp với các họ OpenAI, Google và Claude model. Những mô hình này mang lại khả năng mạnh mẽ để làm việc với các tài liệu. Bằng cách cho phép tương tác liền mạch với các công cụ AI này, Aspose.Words đơn giản hóa các tác vụ phức tạp và nâng cao năng suất cho các nhà phát triển.
 
 Bạn có thể tạo một thể hiện mô hình bằng phương thức [create](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodel/create/) của lớp [AiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodel/). Danh sách đầy đủ các loại mô hình được hỗ trợ được liệt kê trong bảng liệt kê [AiModelType](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodeltype/).
 

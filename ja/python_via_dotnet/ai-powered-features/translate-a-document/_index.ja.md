@@ -1,4 +1,4 @@
-﻿---
+---
 title: 文書を翻訳する
 second_title: Aspose.WordsのためのPython via .NET
 articleTitle: 文書を翻訳する
@@ -6,6 +6,8 @@ linktitle: 文書を翻訳する
 type: docs
 weight: 30
 description: "文書を翻訳します。 Aspose.WordsのためのPython GoogleAIモデルを使用して文書翻訳を簡素化し、ターゲット言語を指定できるようにします。"
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ja/python-net/translate-a-document/
 timestamp: 2025-01-15-16-40-05
 ---

@@ -6,27 +6,34 @@ linktitle: Có gì mới trong Aspose.Words cho Python via .NET
 type: docs
 description: "Aspose.Words cho Python via .NET mở rộng và tăng cường hàng ngày. Trên trang này, bạn có thể tìm hiểu về các tính năng khổng lồ và thú vị nhất của sản phẩm."
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /vi/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-02-17-18-02-05
+timestamp: 2025-04-16-07-02-05
 ---
 
 Trang này mô tả các tính năng Aspose.Words mới thú vị nhất được giới thiệu trong các bản phát hành gần đây.
 
-## Aspose.Words cho Python via .NET 25.1, 25.2
+## Aspose.Words cho Python qua .NET 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 giới thiệu kiểm tra ngữ pháp AI-powered và tăng cường lưu tài liệu với các tùy chọn nâng cao cho các định dạng HTML, SVG và Markdown.
 
-Aspose.Words 25.2 giới thiệu tóm tắt văn bản với Các mô hình AI Nhân Học, thêm hỗ trợ định dạng MsWorks, tăng cường kiểm soát kiểu chữ và cải thiện PDF cấu trúc và xử lý danh sách.
+Aspose.Words 25.2 giới thiệu tóm tắt văn bản với các mô hình Anthropic AI, thêm hỗ trợ định dạng MsWorks, tăng cường kiểm soát kiểu chữ và cải thiện cấu trúc PDF và xử lý danh sách.
+
+Aspose.Words 25.3 tăng cường kiểm tra ngữ pháp AI-powered và lựa chọn phông chữ với thuộc tính UpdateAmbiguousTextFont, cũng như cải thiện PDF file đính kèm xuất khẩu.
+
+Aspose.Words 25.4 giới thiệu hỗ trợ cho kích thước giấy mới, cho phép kiểm soát xuất khẩu HTML nâng cao và cải thiện xử lý hình mờ.
 
 ### AI-các Tính năng được hỗ trợ
 
-#### Tài Liệu AI Kiểm Tra Ngữ Pháp <sup>25.1</sup>
+#### Tài Liệu AI Kiểm Tra Ngữ Pháp
 
-Khả năng kiểm tra ngữ pháp của tài liệu được cung cấp bằng cách sử dụng các mô hình tạo OpenAI đã được giới thiệu bằng cách thêm phương thức [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/) mới.
+* Khả năng kiểm tra ngữ pháp của tài liệu được cung cấp bằng cách sử dụng các mô hình tạo OpenAI đã được giới thiệu bằng cách thêm phương thức [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/) mới. <sup>25.1</sup>
+* Tính năng kiểm tra Ngữ pháp được hỗ trợ AI đã được cập nhật để hỗ trợ tất cả các mô hình có sẵn trong bảng liệt kê [AiModelType](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodeltype/). <sup>25.3</sup>
 
-#### Tóm Tắt Bằng Cách Sử Dụng Các Mô Hình Ngôn Ngữ Nhân Học <sup>25.2</sup>
+#### Tóm Tắt Sử Dụng Anthropic Mô Hình Ngôn Ngữ Chung <sup>25.2</sup>
 
-Tóm tắt văn bản bằng Cách sử dụng Các mô hình ngôn ngữ nhân Học đã được kích hoạt bằng cách giới thiệu một lớp công khai mới [AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/).
+Tóm tắt văn bản bằng cách sử dụng các mô hình ngôn ngữ tạo Anthropic đã được bật bằng cách giới thiệu một lớp công khai mới [AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/).
 
 ### Các Định Dạng Được Hỗ Trợ <sup>25.2</sup>
 
@@ -49,10 +56,24 @@ Lưu vào các định dạng HTML và SVG đã được tăng cường bằng c
 
 Thuộc tính [number_spacing](https://reference.aspose.com/words/python-net/aspose.words/font/number_spacing/) đã được thêm vào để cải thiện kiểm soát kiểu chữ.
 
+#### Kiểm Soát Lựa chọn Phông Chữ Cho Các Ký Tự Mơ hồ <sup>25.3</sup>
+
+Một thuộc tính công khai mới [update_ambiguous_text_font](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/update_ambiguous_text_font/) đã được thêm vào lớp [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) để kiểm soát lựa chọn phông chữ theo mã ký tự được sử dụng.
+
+#### Tùy Chọn Kích Thước Giấy <sup>25.4</sup>
+
+Khả năng sử dụng kích thước giấy JIS B4 và JIS B5 đã được giới thiệu bằng cách thêm các giá trị mới vào bảng liệt kê [PaperSize](https://reference.aspose.com/words/python-net/aspose.words/papersize/).
+
+#### HTML Kiểm Soát Đầu Ra <sup>25.4</sup>
+
+Khả năng xóa JavaScript khỏi siêu liên kết URLs trong quá trình xuất HTML đã được giới thiệu bằng cách thêm thuộc tính [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/remove_java_script_from_links/).
+
 ### Khác
 
 * Cấu trúc logic PDF đã được cải thiện với sự hỗ trợ cho các trường TOA, BIBLIOGRAPHY và INDEX. <sup>25.2</sup>
 * Phương pháp [add_single_level_list](https://reference.aspose.com/words/python-net/aspose.words.lists/listcollection/add_single_level_list/#listtemplate) đã được giới thiệu để xử lý danh sách được cải thiện. <sup>25.2</sup>
+* Một thuộc tính mới [attachments_embedding_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/attachments_embedding_mode/) đã được thêm vào để thay thế **EmbedAttachments** để cải thiện PDF xuất tệp đính kèm. Ngoài ra, các giá trị mới đã được thêm vào bảng liệt kê [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) để hỗ trợ tệp đính kèm phiên bản PDF/A. Ngoài ra, các tệp đính kèm hiện được hỗ trợ mã hóa. <sup>25.3</sup>
+* Khả năng đặt hình mờ hình ảnh từ luồng đã được giới thiệu bằng cách thêm quá tải mới vào phương thức [SetImage](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_image/#bytesio_imagewatermarkoptions). <sup>25.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,15 +81,19 @@ Tìm hiểu thêm về [Aspose.Words cho Python via .NET 25.1 Ghi Chú Phát Hà
 
 Tìm hiểu thêm về [Aspose.Words cho Python via .NET 25.2 Ghi Chú Phát Hành](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
+Tìm hiểu thêm về [Aspose.Words cho Python via .NET 25.3 Ghi Chú Phát Hành](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-3-release-notes/).
+
+Tìm hiểu thêm về [Aspose.Words cho Python via .NET 25.4 Ghi Chú Phát Hành](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-4-release-notes/).
+
 {{% /alert %}}
 
 ## Aspose.Words cho Python qua .NET 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 giới thiệu group shape chèn và StructuredDocumentTag chèn qua DocumentBuilder, tăng cường kết xuất biểu đồ xuyên tâm với độ tốt nghiệp, cải thiện chữ ký số với hỗ trợ XAdES-EPES, thêm nhận dạng gạch chân Markdown và cung cấp quyền truy cập vào dấu phân cách chú thích/cuối chú thích.
 
-Aspose.Words 24.10 giới thiệu Hỗ trợ Điều khiển ActiveX nâng cao với CommandButton tạo, kiểm soát khả năng hiển thị hình dạng mới, khả năng group shapes, cải thiện Markdown xuất cho bảng, định dạng biểu đồ cho Pie và Doughnut biểu đồ, Xử lý Mã Hóa Big5 Tốt hơn và hỗ trợ phông Chữ đài Loan lỗi thời.
+Aspose.Words 24.10 giới thiệu hỗ trợ kiểm soát ActiveX nâng cao với việc tạo CommandButton, kiểm soát khả năng hiển thị hình dạng mới, khả năng group shapes, cải thiện Markdown xuất cho bảng, định dạng biểu đồ cho Pie và Doughnut biểu đồ, Xử lý Mã Hóa Big5 Tốt hơn và hỗ trợ phông Chữ đài Loan lỗi thời.
 
-Aspose.Words 24.11 giới thiệu AI-tóm tắt tài liệu được hỗ trợ, các tùy chọn kết xuất nâng cao, cải thiện quyền truy cập vào thuộc tính tài liệu và Phụ đề Điều khiển ActiveX.
+Aspose.Words 24.11 giới thiệu AI-tóm tắt tài liệu được hỗ trợ, các tùy chọn kết xuất nâng cao, cải thiện quyền truy cập vào thuộc tính tài liệu và phụ đề kiểm soát ActiveX.
 
 Aspose.Words 24.12 giới thiệu vị trí nhãn dữ liệu có thể tùy chỉnh, Google AI-dịch văn bản được hỗ trợ và các lớp xử lý LowCode mới được nâng cao.
 
@@ -92,9 +117,9 @@ Các lớp LowCode mới như [Comparer](https://reference.aspose.com/words/pyth
 
 Kết xuất tốt nghiệp trên biểu đồ xuyên tâm đã được thực hiện.
 
-#### CommandButton Điều Khiển ActiveX <sup>24.10</sup>
+#### CommandButton ActiveX Kiểm Soát <sup>24.10</sup>
 
-Khả năng tạo các điều khiển ActiveX CommandButton Đã được giới thiệu bằng cách thêm một phương thức công khai mới [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) và một lớp công khai mới [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/).
+Khả năng tạo các điều khiển CommandButton ActiveX đã được giới thiệu bằng cách thêm một phương thức công khai mới [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) và một lớp công khai mới [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/).
 
 #### Kiểm Soát Hình Dạng Khả Năng Hiển Thị <sup>24.10</sup>
 
@@ -149,7 +174,7 @@ Khả năng ký các tài liệu có chữ ký XAdES-EPES cấp độ XML-DSig �
 * Xử lý mã hóa Big5 cho các bảng cmap TrueType đã được cải thiện. <sup>24.10</sup>
 * Hỗ trợ cho các phông Chữ đài Loan đã lỗi thời đã được tăng cường. <sup>24.10</sup>
 * Để truy cập các thuộc tính tài liệu mở rộng, các thuộc tính chỉ đọc đã được thêm vào lớp [BuiltInDocumentProperties](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/). <sup>24.11</sup>
-* Cài đặt chú thích Cho Điều khiển ActiveX đã được bật bằng cách thêm trình thiết lập công khai mới vào thuộc tính [Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/). <sup>24.11</sup>
+* Đặt chú thích cho các điều khiển ActiveX đã được bật bằng cách thêm trình thiết lập công khai mới vào thuộc tính [Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/). <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
@@ -169,7 +194,7 @@ Aspose.Words 24.5 mở rộng các tùy chọn cho hội đồng, cải thiện 
 
 Aspose.Words 24.6 cải thiện các tùy chọn kết xuất, tăng cường chức năng tìm kiếm và so sánh và mở rộng một số tính năng khác.
 
-Aspose.Words 24.7 thay đổi cách Bạn làm việc Với ActiveX, mở rộng khả năng kết xuất, cũng như xuất sang các định dạng Markdown và XLSX.
+Aspose.Words 24.7 thay đổi cách bạn làm việc với ActiveX, mở rộng khả năng kết xuất, cũng như xuất sang các định dạng Markdown và XLSX.
 
 Aspose.Words 24.8 tăng cường tùy chỉnh biểu đồ với sự kiểm soát chính xác đối với nhãn trục, mở rộng quản lý phông chữ, cải thiện xử lý cấu trúc tài liệu và thêm các khả năng mới choHTML/XAML xuất, PDF chức năng, chuyển đổi tài liệu và chữ ký số.
 
@@ -201,11 +226,11 @@ Khả năng tùy chỉnh các nhãn dữ liệu biểu đồ như **Orientation*
 
 Một setter cho tài sản công cộng [custom_number_style_format](https://reference.aspose.com/words/python-net/aspose.words.lists/listlevel/custom_number_style_format/) đã được thêm vào. Bây giờ bạn có thể xác định kiểu dáng số tùy chỉnh cho các cấp danh sách.
 
-#### Những thay đổi khi làm Việc Với ActiveX <sup>24.7</sup>
+#### Những thay đổi khi làm việc với ActiveX <sup>24.7</sup>
 
-- Các thuộc tính Của Các đối tượng ActiveX hiện có thể được sửa đổi, giúp bạn kiểm soát nhiều hơn hành vi của chúng.
-- Khả năng sửa đổi giá trị của nút radio Điều khiển ActiveX để cho phép tương tác động đã được thêm vào.
-- Khả năng chuyển Đổi ActiveX checkbox thành "đã kiểm tra" hoặc "không được kiểm tra" đã được thêm vào.
+- Các thuộc tính của các đối tượng ActiveX hiện có thể được sửa đổi, giúp bạn kiểm soát nhiều hơn hành vi của chúng.
+- Khả năng sửa đổi giá trị của nút radio ActiveX điều khiển để cho phép tương tác động đã được thêm vào.
+- Khả năng chuyển đổi ActiveX checkbox thành "đã kiểm tra" hoặc "không được kiểm tra" đã được thêm vào.
 
 #### Kiểm soát Trục Biểu Đồ Đánh Dấu Nhãn Định hướng Và Xoay <sup>24.8</sup>
 

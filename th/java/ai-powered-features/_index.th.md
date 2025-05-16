@@ -1,13 +1,15 @@
-﻿---
+---
 title: AI-คุณสมบัติขับเคลื่อน
 second_title: Aspose.WordsสำหรับJava
 articleTitle: AI-คุณสมบัติขับเคลื่อน
 linktitle: AI-คุณสมบัติขับเคลื่อน
 type: docs
 weight: 25
-description: "Aspose.WordsสำหรับJavaแนะนำเครื่องมือขับเคลื่อนAIเช่นการสรุปเอกสารเพื่อเพิ่มประสิทธิภาพ เรียนรู้วิธีการใช้คุณลักษณะที่ขับเคลื่อนAIพร้อมเคล็ดลับและคำแนะนำโดยละเอียด."
+description: "Aspose.WordsสำหรับJava แนะนำเครื่องมือที่ใช้พลังงานAIเช่นการสรุปเอกสารเพื่อเพิ่มประสิทธิภาพ เรียนรู้วิธีการใช้คุณลักษณะขับเคลื่อนAIพร้อมเคล็ดลับและคำแนะนำโดยละเอียด."
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /th/java/ai-powered-features/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
 Aspose.Wordsขณะนี้มีคุณสมบัติAIที่ออกแบบมาเพื่อให้การประมวลผลเอกสารอย่างชาญฉลาดและมีประสิท เครื่องมือเหล่านี้ใช้ประโยชน์จากการเรียนรู้เครื่องขั้นสูงเพื่อทำงานเช่นการสรุปเอกสา.
@@ -16,4 +18,5 @@ Aspose.Wordsขณะนี้มีคุณสมบัติAIที่ออ
 
 * [รองรับรุ่นAI](/words/java/supported-ai-models/)
 * [สรุปเอกสาร](/words/java/summarize-a-document/)
-
+* [การแปลภาษา,อังกฤษ(สหราชอาณาจักร)](/words/java/translate-a-document/)
+* [การตรวจสอบไวยากรณ์](/words/java/grammar-checking/)

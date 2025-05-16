@@ -1,13 +1,15 @@
-﻿---
+---
 title: AI-các Tính năng được hỗ trợ
 second_title: Aspose.Words cho Python via .NET
 articleTitle: AI-các Tính năng được hỗ trợ
 linktitle: AI-các Tính năng được hỗ trợ
 type: docs
 weight: 35
-description: "Aspose.Words đối với Python giới thiệu AI-các công cụ được hỗ trợ như tóm tắt tài liệu để tăng hiệu quả. Tìm hiểu cách sử dụng AI-các tính năng được hỗ trợ với các mẹo và hướng dẫn chi tiết."
+description: "Aspose.Words cho Python giới thiệu các công cụ AI-powered như tóm tắt tài liệu để tăng hiệu quả. Tìm hiểu cách sử dụng các tính năng được hỗ trợ AI với các mẹo và hướng dẫn chi tiết."
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /vi/python-net/ai-powered-features/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
 Aspose.Words bây giờ bao gồm các tính năng AI-powered được thiết kế để làm cho xử lý tài liệu thông minh hơn và hiệu quả hơn. Những công cụ này tận dụng học máy nâng cao để thực hiện các tác vụ như tóm tắt tài liệu, cung cấp cho các nhà phát triển khả năng mạnh mẽ hơn để hợp lý hóa quy trình làm việc của họ.
@@ -16,3 +18,5 @@ Trong phần này, chúng tôi sẽ đề cập đến mọi thứ bạn cần b
 
 * [Mô Hình AI Được Hỗ Trợ](/words/python-net/supported-ai-models/)
 * [Tóm tắt Một Tài liệu](/words/python-net/summarize-a-document/)
+* [Dịch Một Tài liệu](/words/python-net/translate-a-document/)
+* [Kiểm Tra Ngữ Pháp](/words/python-net/grammar-checking/)

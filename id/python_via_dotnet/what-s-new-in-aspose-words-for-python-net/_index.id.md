@@ -6,27 +6,34 @@ linktitle: Apa yang baru di Aspose.Words untuk Python via .NET
 type: docs
 description: "Aspose.Words untuk Python via .NET memperluas dan meningkatkan setiap hari. Di halaman ini, Anda dapat mempelajari tentang fitur produk yang sangat besar dan paling menarik."
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /id/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-02-17-18-02-05
+timestamp: 2025-04-16-07-02-05
 ---
 
 Halaman ini menjelaskan fitur Aspose.Words baru yang paling menarik yang diperkenalkan dalam rilis terbaru.
 
-## Aspose.Words untuk Python via .NET 25.1, 25.2
+## Aspose.Words untuk Python melalui .NET 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 memperkenalkan pemeriksaan tata bahasa bertenaga AI dan menyempurnakan penyimpanan dokumen dengan opsi lanjutan untuk format HTML, SVG, dan Markdown.
 
-Aspose.Words 25.2 memperkenalkan peringkasan teks dengan model Antropik AI, menambahkan dukungan format MsWorks, meningkatkan kontrol tipografi, dan meningkatkan struktur PDF dan penanganan daftar.
+Aspose.Words 25.2 memperkenalkan peringkasan teks dengan model Anthropic AI, menambahkan dukungan format MsWorks, meningkatkan kontrol tipografi, dan meningkatkan struktur PDF dan penanganan daftar.
+
+Aspose.Words 25.3 menyempurnakan pemeriksa tata bahasa dan pemilihan font bertenaga AI dengan properti UpdateAmbiguousTextFont, serta meningkatkan ekspor lampiran PDF.
+
+Aspose.Words 25.4 memperkenalkan dukungan untuk ukuran kertas baru, memungkinkan kontrol ekspor HTML tingkat lanjut, dan meningkatkan penanganan tanda air.
 
 ### AI-Fitur bertenaga
 
-#### Dokumen AI Pemeriksaan Tata Bahasa <sup>25.1</sup>
+#### Dokumen AI Pemeriksaan Tata Bahasa
 
-Kemampuan untuk memeriksa tata bahasa dokumen yang disediakan menggunakan model generatif OpenAI telah diperkenalkan dengan menambahkan metode [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/) baru.
+* Kemampuan untuk memeriksa tata bahasa dokumen yang disediakan menggunakan model generatif OpenAI telah diperkenalkan dengan menambahkan metode [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/) baru. <sup>25.1</sup>
+* Fitur Pemeriksaan Tata Bahasa bertenaga AI telah diperbarui untuk mendukung semua model yang tersedia dalam pencacahan [AiModelType](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodeltype/). <sup>25.3</sup>
 
-#### Ringkasan Menggunakan Model Bahasa Generatif Antropik <sup>25.2</sup>
+#### Ringkasan Menggunakan Model Bahasa Generatif Anthropic <sup>25.2</sup>
 
-Peringkasan teks menggunakan model bahasa generatif Antropik telah diaktifkan dengan memperkenalkan kelas publik baru [AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/).
+Peringkasan teks menggunakan model bahasa generatif Anthropic telah diaktifkan dengan memperkenalkan kelas publik baru [AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/).
 
 ### Format yang Didukung <sup>25.2</sup>
 
@@ -49,16 +56,34 @@ Menyimpan ke format HTML dan SVG telah ditingkatkan dengan menambahkan properti 
 
 Properti [number_spacing](https://reference.aspose.com/words/python-net/aspose.words/font/number_spacing/) telah ditambahkan untuk kontrol tipografi yang lebih baik.
 
+#### Mengontrol Pemilihan Font untuk Karakter Ambigu <sup>25.3</sup>
+
+Properti publik baru [update_ambiguous_text_font](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/update_ambiguous_text_font/) telah ditambahkan ke kelas [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) untuk mengontrol pemilihan font sesuai dengan kode karakter yang digunakan.
+
+#### Opsi Ukuran Kertas <sup>25.4</sup>
+
+Kemampuan untuk menggunakan ukuran kertas JIS B4 dan JIS B5 telah diperkenalkan dengan menambahkan nilai baru ke enumerasi [PaperSize](https://reference.aspose.com/words/python-net/aspose.words/papersize/).
+
+#### HTML Kontrol Keluaran <sup>25.4</sup>
+
+Kemampuan untuk menghapus JavaScript dari hyperlink URLs selama ekspor HTML telah diperkenalkan dengan menambahkan properti [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/remove_java_script_from_links/).
+
 ### Lainnya
 
 * PDF struktur logika telah ditingkatkan dengan dukungan untuk bidang TOA, BIBLIOGRAPHY, dan INDEX. <sup>25.2</sup>
 * Metode [add_single_level_list](https://reference.aspose.com/words/python-net/aspose.words.lists/listcollection/add_single_level_list/#listtemplate) telah diperkenalkan untuk penanganan daftar yang lebih baik. <sup>25.2</sup>
+* Properti baru [attachments_embedding_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/attachments_embedding_mode/) telah ditambahkan untuk menggantikan **EmbedAttachments** untuk meningkatkan ekspor lampiran PDF. Selain itu, nilai baru telah ditambahkan ke enumerasi [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) untuk mendukung lampiran versi PDF/A. Selain itu, lampiran sekarang didukung dengan enkripsi. <sup>25.3</sup>
+* Kemampuan untuk menyetel tanda air gambar dari aliran telah diperkenalkan dengan menambahkan kelebihan beban baru ke metode [SetImage](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_image/#bytesio_imagewatermarkoptions). <sup>25.4</sup>
 
 {{% alert color="primary" %}}
 
 Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 25.1 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-1-release-notes/).
 
 Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 25.2 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-2-release-notes/).
+
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 25.3 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-3-release-notes/).
+
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 25.4 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-4-release-notes/).
 
 {{% /alert %}}
 
@@ -92,9 +117,9 @@ Kelas LowCode baru seperti [Comparer](https://reference.aspose.com/words/python-
 
 Rendering gradasi pada grafik radial telah diterapkan.
 
-#### CommandButton Kontrol ActiveX <sup>24.10</sup>
+#### CommandButton ActiveX Kontrol <sup>24.10</sup>
 
-Kemampuan untuk membuat kontrol ActiveX CommandButton telah diperkenalkan dengan menambahkan metode publik baru [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) dan kelas publik baru [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/).
+Kemampuan untuk membuat kontrol CommandButton ActiveX telah diperkenalkan dengan menambahkan metode publik baru [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) dan kelas publik baru [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/).
 
 #### Kontrol Visibilitas Bentuk <sup>24.10</sup>
 
@@ -204,7 +229,7 @@ Penyetel untuk properti publik [custom_number_style_format](https://reference.as
 #### Perubahan dalam bekerja dengan ActiveX <sup>24.7</sup>
 
 - Properti objek ActiveX sekarang dapat dimodifikasi, memberi Anda kontrol lebih besar atas perilakunya.
-- Kemampuan untuk mengubah nilai kontrol ActiveX tombol radio untuk mengaktifkan interaksi dinamis telah ditambahkan.
+- Kemampuan untuk mengubah nilai kontrol tombol radio ActiveX untuk mengaktifkan interaksi dinamis telah ditambahkan.
 - Kemampuan untuk mengubah ActiveX checkbox menjadi "dicentang " atau" tidak dicentang " telah ditambahkan.
 
 #### Kontrol Atas Sumbu Bagan Centang Label Orientasi dan Rotasi <sup>24.8</sup>
@@ -389,7 +414,7 @@ Fitur untuk mengenali hyperlink saat memuat dokumen TXT telah diterapkan dengan 
 - Kemampuan untuk mengakses dan memodifikasi properti gaya telah ditambahkan melalui pengenalan properti [locked](https://reference.aspose.com/words/python-net/aspose.words/style/locked/) yang baru. <sup>23.10</sup>
 - Parameter tipe generik telah ditambahkan ke metode kelas [CompositeNode](https://reference.aspose.com/words/python-net/aspose.words/compositenode/). <sup>23.10</sup>
 - Kemampuan untuk menulis semua bagian dokumen ke lembar kerja XLSX yang sama telah disediakan melalui tipe enumerasi [XlsxSectionMode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsectionmode/) yang baru dan properti [section_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/section_mode/) yang baru. <sup>23.11</sup>
-* Cara untuk mengontrol bagaimana ekstensi format ZIP64 akan digunakan untuk dokumen OOXML telah diterapkan melalui properti Zip64Mode baru dari kelas `OoxmlSaveOptions` dan enumerasi Zip64Mode yang baru. <sup>23.12</sup>
+* Cara untuk mengontrol bagaimana ekstensi format ZIP64 akan digunakan untuk dokumen OOXML telah diterapkan melalui properti Zip64Mode baru dari kelas `OoxmlSaveOptions` dan pencacahan Zip64Mode baru. <sup>23.12</sup>
 * Dukungan untuk gambar WebP telah diperkenalkan. Harap dicatat bahwa fitur ini hanya tersedia untuk .versi NetStandart dan .NET6+. <sup>23.12</sup>
 
 {{% alert color="primary" %}}

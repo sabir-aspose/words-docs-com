@@ -1,4 +1,4 @@
-﻿---
+---
 title: תרגום מסמך
 second_title: Aspose.Words עבור Python via .NET
 articleTitle: תרגום מסמך
@@ -6,6 +6,8 @@ linktitle: תרגום מסמך
 type: docs
 weight: 30
 description: "תרגם מסמך. Aspose.Words עבור Python מפשט תרגום מסמכים באמצעות מודלים של גוגל AI, ומאפשר לך לציין את שפת היעד."
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /he/python-net/translate-a-document/
 timestamp: 2025-01-15-16-40-05
 ---

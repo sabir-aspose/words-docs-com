@@ -1,16 +1,26 @@
 ---
-title: Trabalhando com marca D'Água Em C++
-second_title: Aspose.Words para C++
+title: Trabalhando com marca D'água em C++
+second_title: Aspose.Words Para C++
 articleTitle: Trabalhando com marca D'água
 linktitle: Trabalhando com marca D'água
 type: docs
-description: "Manipulação de marca d'água de documentos usando C++."
+description: "Manipulação da marca d'água do documento usando C++."
 weight: 340
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /pt/cpp/working-with-watermark/
-timestamp: 2024-01-30-16-22-34
+timestamp: 2025-05-07-07-22-34
 ---
 
 Este tópico discute como trabalhar programaticamente com marca d'água usando Aspose.Words. Uma marca d'água é uma imagem de fundo que é exibida atrás do texto em um documento. Uma marca d'água pode conter um texto ou uma imagem representada pela classe [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/).
+
+{{% alert color="primary" %}}
+
+**Experimente online**
+
+Pode experimentar esta funcionalidade com o nosso [Marca d'água de Documento on-line gratuita](https://products.aspose.app/words/watermark).
+
+{{% /alert %}}
 
 ## Adicionar uma marca D'água a um documento
 
@@ -28,7 +38,11 @@ O exemplo de código a seguir demonstra como inserir uma marca d'água de imagem
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cpp" >}}
 
-A marca d'água também pode ser inserida usando a classe shape. É muito fácil inserir qualquer forma ou imagem em um cabeçalho ou rodapé e, assim, criar uma marca d'água de qualquer tipo imaginável. O exemplo de código a seguir insere uma marca d'água em um documento do Word.
+A marca d'água da imagem pode ser inserida como imagem, string ou fluxo.
+
+A marca d'água também pode ser inserida usando a classe shape. É muito fácil inserir qualquer forma ou imagem em um cabeçalho ou rodapé e, assim, criar uma marca d'água de qualquer tipo imaginável.
+
+O exemplo de código a seguir insere uma marca d'água em um documento Word.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Images-AddWatermark-AddWatermark.cpp" >}}
 

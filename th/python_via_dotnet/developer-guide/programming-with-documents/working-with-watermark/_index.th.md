@@ -1,65 +1,69 @@
 ---
-title: การทำงานกับลายน้ำใน Python
-second_title: Aspose.Words สำหรับ Python via .NET
+title: การทำงานกับลายน้ำในPython
+second_title: Aspose.WordsสำหรับPython via .NET
 articleTitle: การทำงานกับลายน้ำ
 linktitle: การทำงานกับลายน้ำ
-description: "สร้างและจัดการลายน้ำในเอกสารโดยใช้ Python"
+description: "สร้างและจัดการลายน้ำในเอกสารโดยใช้Python."
 type: docs
 weight: 340
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /th/python-net/working-with-watermark/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-04-16-07-02-05
 ---
 
-หัวข้อนี้อธิบายวิธีการทำงานโดยทางโปรแกรมด้วยลายน้ำโดยใช้ Aspose.Words ลายน้ำคือภาพพื้นหลังที่แสดงอยู่ด้านหลังข้อความในเอกสาร ลายน้ำอาจมีข้อความหรือรูปภาพที่แสดงโดยคลาส [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/)
+หัวข้อนี้กล่าวถึงวิธีการทำงานตามโปรแกรมด้วยลายน้ำโดยใช้Aspose.Words ลายน้ำเป็นภาพพื้นหลังที่แสดงอยู่เบื้องหลังข้อความในเอกสาร ลายน้ำสามารถประกอบด้วยข้อความหรือรูปภาพที่แสดงโดยคลาสของ[Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/).
 
 {{% alert color="primary" %}}
 
 **ลองออนไลน์**
 
-คุณสามารถลองใช้ฟังก์ชันนี้กับ [ลายน้ำเอกสารออนไลน์ฟรี](https://products.aspose.app/words/watermark) ของเราได้
+คุณสามารถลองฟังก์ชั่นนี้กับเรา [ลายน้ำเอกสารออนไลน์ฟรี](https://products.aspose.app/words/watermark).
 
 {{% /alert %}}
 
-## วิธีเพิ่มลายน้ำให้กับเอกสาร
+## วิธีการเพิ่มลายน้ำในเอกสาร
 
-ใน Microsoft Word คุณสามารถแทรกลายน้ำในเอกสารได้อย่างง่ายดายโดยใช้คำสั่งแทรกลายน้ำ Aspose.Words จัดเตรียมคลาส [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/) เพื่อเพิ่มหรือลบลายน้ำในเอกสาร Aspose.Words จัดให้มีการแจงนับ [WatermarkType](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/) ซึ่งกำหนดลายน้ำที่เป็นไปได้สามประเภท ([TEXT](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/#text), [IMAGE](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/#image) และ [NONE](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/#none)) ที่จะใช้งาน
+ในMicrosoft Wordลายน้ำสามารถแทรกลงในเอกสารโดยใช้คำสั่งแทรกลายน้ำ Aspose.Wordsมีชั้นเรียน[Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/)เพื่อเพิ่มหรือลบลายน้ำในเอกสาร Aspose.Wordsให้การแจงนับ[WatermarkType](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/)กำหนดสามประเภทที่เป็นไปได้ของลายน้ำ([TEXT](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/#text),[IMAGE](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/#image)และ[NONE](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/#none))ที่จะทำงานกับ.
 
 ### เพิ่มลายน้ำข้อความ
 
-ตัวอย่างโค้ดต่อไปนี้สาธิตวิธีการแทรกลายน้ำข้อความในเอกสารโดยการกำหนด [TextWatermarkOptions](https://reference.aspose.com/words/python-net/aspose.words/textwatermarkoptions/) โดยใช้วิธี [set_text](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_text/)
+ตัวอย่างรหัสต่อไปนี้แสดงให้เห็นถึงวิธีการแทรกลายน้ำข้อความในเอกสารโดยการกำหนด[TextWatermarkOptions](https://reference.aspose.com/words/python-net/aspose.words/textwatermarkoptions/)โดยใช้วิธีการ[set_text](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_text/):
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_watermark-AddTextWatermarkWithSpecificOptions.py" >}}
 
-### เพิ่มลายน้ำรูปภาพ
+### เพิ่มลายน้ำภาพ
 
-ตัวอย่างโค้ดต่อไปนี้สาธิตวิธีการแทรกลายน้ำรูปภาพในเอกสารโดยการกำหนด [ImageWatermarkOptions](https://reference.aspose.com/words/python-net/aspose.words/imagewatermarkoptions/) โดยใช้วิธี [set_image](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_image/):
+ตัวอย่างรหัสต่อไปนี้แสดงให้เห็นถึงวิธีการแทรกลายน้ำภาพในเอกสารโดยการกำหนด[ImageWatermarkOptions](https://reference.aspose.com/words/python-net/aspose.words/imagewatermarkoptions/)โดยใช้วิธีการ[set_image](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_image/):
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_watermark-AddImageWatermarkWithSpecificOptions.py" >}}
 
-ลายน้ำสามารถแทรกได้โดยใช้คลาสรูปร่างเช่นกัน มันง่ายมากที่จะแทรกรูปร่างหรือรูปภาพใด ๆ ลงในส่วนหัวหรือส่วนท้ายและสร้างลายน้ำประเภทใดก็ได้เท่าที่จะจินตนาการได้
+ลายน้ำภาพสามารถแทรกเป็นภาพสตริงหรือสตรีม.
 
-ตัวอย่างรหัสต่อไปนี้แทรกลายน้ำลงในเอกสาร Word:
+ลายน้ำยังสามารถแทรกโดยใช้ชั้นเรียนรูปร่างได้เป็นอย่างดี มันเป็นเรื่องง่ายมากที่จะแทรกรูปร่างหรือภาพใดๆลงในส่วนหัวหรือส่วนท้ายและทำให้การส.
+
+ตัวอย่างรหัสต่อไปนี้แทรกลงในเอกสารWord:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_watermark-AddWatermark.py" >}}
 
 {{% alert color="primary" %}}
 
-คุณสามารถดาวน์โหลดไฟล์เทมเพลตของตัวอย่างนี้ได้จาก [ที่นี่](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx)
+คุณสามารถดาวน์โหลดไฟล์แม่แบบของตัวอย่างนี้ได้จาก [ที่นี่](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx).
 
 {{% /alert %}}
 
 
 ## ลบลายน้ำออกจากเอกสาร
 
-คลาส [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/) จัดเตรียมวิธีการลบเพื่อลบลายน้ำออกจากเอกสาร
+คลาส[Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/)มีวิธีการเอาออกเพื่อลบลายน้ำออกจากเอกสาร.
 
-ตัวอย่างโค้ดต่อไปนี้แสดงวิธีการลบลายน้ำออกจากเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการลบลายน้ำจากเอกสาร:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_watermark-RemoveWatermarkFromDocument.py" >}}
 
-หากเพิ่มลายน้ำโดยใช้วัตถุคลาส [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) หากต้องการลบลายน้ำออกจากเอกสาร คุณต้องตั้งชื่อรูปร่างลายน้ำเท่านั้นในระหว่างการแทรก จากนั้นจึงลบรูปร่างลายน้ำตามชื่อที่กำหนด
+หากมีการเพิ่มลายน้ำโดยใช้วัตถุระดับ[Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/)จากนั้นในการลบลายน้ำออกจากเอกสารที่คุณต้องตั้งเฉพาะชื่อของรูปร่างลายน้ำในระหว่างการแทรกแล้วลบรูปร่างลายน้ำด้วยชื่อที่กำหนดไว้.
 
-ตัวอย่างโค้ดต่อไปนี้แสดงวิธีตั้งชื่อรูปร่างลายน้ำและลบออกจากเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการตั้งค่าชื่อของรูปร่างลายน้ำและลบออกจากเอกสาร:
 
 {{< highlight python >}}
 # Set name to be able to remove it afterwards
@@ -70,8 +74,8 @@ watermark.name = "WaterMark"
 
 ## เพิ่มลายน้ำในเซลล์ตาราง
 
-บางครั้งคุณจำเป็นต้องแทรกลายน้ำ/รูปภาพลงในเซลล์ของตารางและแสดงไว้นอกตาราง คุณสามารถใช้คุณสมบัติ [is_layout_in_cell](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/is_layout_in_cell/) ได้ คุณสมบัตินี้ได้รับหรือตั้งค่าสถานะที่ระบุว่ารูปร่างจะแสดงภายในตารางหรือภายนอก โปรดทราบว่าคุณสมบัตินี้ใช้งานได้เฉพาะเมื่อคุณปรับเอกสารให้เหมาะสมสำหรับ Microsoft Word 2010 โดยใช้วิธี [optimize_for](https://reference.aspose.com/words/python-net/aspose.words.settings/compatibilityoptions/optimize_for/)
+บางครั้งคุณต้องใส่ลายน้ำ/รูปภาพลงในเซลล์ของตารางและแสดงนอกโต๊ะคุณสามารถใช้คุณสมบัติ[is_layout_in_cell](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/is_layout_in_cell/) คุณสมบัตินี้ได้รับหรือตั้งค่าสถานะที่ระบุว่ารูปร่างจะแสดงภายในตารางหรือภายนอกของมัน โปรดทราบว่าคุณสมบัตินี้ทำงานเฉพาะเมื่อคุณเพิ่มประสิทธิภาพเอกสารสำหรับMicrosoft Word2010 โดยใช้วิธี[optimize_for](https://reference.aspose.com/words/python-net/aspose.words.settings/compatibilityoptions/optimize_for/).
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการใช้คุณสมบัตินี้:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีใช้คุณสมบัตินี้:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_shapes-LayoutInCell.py" >}}

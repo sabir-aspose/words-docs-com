@@ -1,20 +1,22 @@
-﻿---
+---
 title: לסכם מסמך
 second_title: Aspose.Words עבור Java
 articleTitle: לסכם מסמך
 linktitle: לסכם מסמך
 type: docs
 weight: 20
-description: "סכם מסמך. Aspose.Words עבור Java מפשט את סיכום המסמכים באמצעות OpenAI וגוגל AI מודלים בכך שהוא מאפשר לך לציין את אורך הסיכום."
+description: "סכם מסמך. Aspose.Words עבור Java מפשט את סיכום המסמכים באמצעות מודלים OpenAI וגוגל AI בכך שהוא מאפשר לך לציין את אורך הסיכום."
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /he/java/summarize-a-document/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
-סיכום מסמכים הוא כלי רב ערך לבדיקת תוכן, תובנות מהירות או הכנת תקצירים. Aspose.Words תומך בסיכום מסמכים באמצעות מודלים המופעלים על ידי AI, מה שמקל על עיבוד טקסט ארוך. תכונה זו, הזמינה בפונקציונליות AI מבוססת Aspose.Words, משלבת מודלים מתקדמים של שפה גנראטיבית מ *OpenAI* ו *Google*.
+סיכום מסמכים הוא כלי רב ערך לבדיקת תוכן, תובנות מהירות או הכנת תקצירים. Aspose.Words תומך בסיכום מסמכים באמצעות מודלים המופעלים על AI, מה שמקל על עיבוד טקסט ארוך. תכונה זו, הזמינה בפונקציונליות AI מבוססת Aspose.Words, משלבת מודלים מתקדמים של שפה גנראטיבית מ *OpenAI* ו *Google*, כמו גם *Claude's* מודלים של שפה גנראטיבית אנתרופית. רשימת הדגמים הנתמכים זמינה בספירה [AiModelType](https://reference.aspose.com/words/java/com.aspose.words/aimodeltype/).
 
 ניתן לציין אפשרויות שונות לסיכום תוכן המסמך. השתמש בשיטת [Summarize](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#summarize-com.aspose.words.Document-com.aspose.words.SummarizeOptions) כדי ליצור סיכום של המסמך שלך. ניתן גם להגדיר אורך סיכום באמצעות המאפיין [SummaryLength](https://reference.aspose.com/words/java/com.aspose.words/summarizeoptions/#getSummaryLength).
 
-עם Aspose.Words, יישום סיכום מסמכים הוא פשוט. דוגמת הקוד הבאה מראה חם לסיכום מסמך באמצעות GPT-4או דֶגֶם:
+עם Aspose.Words, יישום סיכום מסמכים הוא פשוט. דוגמת הקוד הבאה מראה כיצד לסכם מסמך באמצעות מודל GPT-4o:
 
 {{< highlight java >}}
 Document firstDoc = new Document(getMyDir() + "Big document.docx");

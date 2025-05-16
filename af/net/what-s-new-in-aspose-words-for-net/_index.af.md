@@ -4,44 +4,58 @@ second_title: Aspose.Words vir .NET
 articleTitle: Wat is nuut in Aspose.Words vir .NET
 linktitle: Wat is nuut in Aspose.Words vir .NET
 type: docs
-description: "Aspose.Words vir .NET brei uit en verbeter daagliks. Op hierdie bladsy kan jy leer oor die groot en interessantste kenmerke van die produk."
+description: "Aspose.Words vir .NET brei en verbeter daagliks. Op hierdie bladsy kan jy leer oor die groot en interessantste kenmerke van die produk."
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /af/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2025-02-17-18-02-05
+timestamp: 2025-04-16-07-02-05
 ---
 
 Hierdie bladsy beskryf die interessantste nuwe Aspose.Words funksies wat in onlangse vrystellings bekendgestel is.
 
-## Aspose.Words vir .NET 25.1, 25.2
+## Aspose.Words vir .NET 25.1, 25.2, 25.3, 25.4
 
-Aspose.Words 25.1 stel KI-aangedrewe grammatikakontrole bekend en verbeter dokumentbesparing met gevorderde opsies vir HTML-, SVG- en Markdown-formate.
+Aspose.Words 25.1 stel AI-aangedrewe grammatika-kontrole bekend en verbeter dokumentbesparing met gevorderde opsies vir HTML, SVG en Markdown formate.
 
-Aspose.Words 25.2 stel teksopsomming bekend met Antropiese AI modelle, voeg MsWorks formaatondersteuning by, verbeter tipografiese beheer en verbeter PDF struktuur en lyshantering.
+Aspose.Words 25.2 stel teksopsomming bekend met Anthropic AI modelle, voeg MsWorks formaatondersteuning by, verbeter tipografiese beheer en verbeter PDF struktuur en lyshantering.
 
-### KI-aangedrewe kenmerke
+Aspose.Words 25.3 verbeter'n AI-aangedrewe grammatika-kontroleerder en lettertipe-keuse met die UpdateAmbiguousTextFont eienskap, sowel as verbeter PDF aanhangsels uitvoer.
 
-#### Dokument KI Grammatikakontrole <sup>25.1</sup>
+Aspose.Words 25.4 stel ondersteuning vir nuwe papiergroottes in, maak gevorderde HTML uitvoerbeheer moontlik, verbeter watermerkhantering en verbeter die bruikbaarheid van die LowCode API.
 
-Die vermoë om die grammatika van die verskafde dokument na te gaan deur gebruik te maak van OpenAI generatiewe modelle is bekendgestel deur 'n nuwe [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/) by te voeg metode.
+### AI - aangedrewe Funksies
 
-#### Opsomming Met Behulp Van Antropiese Generatiewe Taalmodelle <sup>25.2</sup>
+#### Dokument AI Grammatika Kontrole
 
-Teksopsomming met Behulp van Antropiese generatiewe taalmodelle is moontlik gemaak deur'n nuwe openbare klas [AnthropicAiModel](https://reference.aspose.com/words/net/aspose.words.ai/anthropicaimodel/) in te voer.
+* Die vermoë om die grammatika van die verskaf dokument te kontroleer met behulp van OpenAI generatiewe modelle is ingestel deur die toevoeging van'n nuwe [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/) metode. <sup>25.1</sup>
+* Die AI-aangedrewe Grammatika-Kontrolefunksie is opgedateer om alle modelle beskikbaar in die [AiModelType](https://reference.aspose.com/words/net/aspose.words.ai/aimodeltype/) - opsomming te ondersteun. <sup>25.3</sup>
+
+#### Opsomming Met Behulp Van Anthropic Generatiewe Taalmodelle <sup>25.2</sup>
+
+Teks opsomming met behulp van Anthropic generatiewe taal modelle is in staat gestel deur die bekendstelling van'n nuwe openbare klas [AnthropicAiModel](https://reference.aspose.com/words/net/aspose.words.ai/anthropicaimodel/).
+
+### Low Code
+
+#### Low Code API Bruikbaarheid <sup>25.4</sup>
+
+Betekenisvolle verbeterings aan die bruikbaarheid van die **LowCode API** is ingestel, wat die verwerking van dokumente vereenvoudig en die behoefte aan herhalende kode verminder.
 
 ### Ondersteunde Formate <sup>25.2</sup>
 
 Vanaf weergawe 25.2 is verenigbaarheid met die nuwe MsWorks laai formaat vir Microsoft Werk dokumente bygevoeg.
 
-### Omskakeling, laai en stoor van dokumente
+### Omskakeling, Laai En Stoor Van Dokumente
 
-#### Verbeterde stoor na HTML- en SVG-formate <sup>25.1</sup>
+#### Verbeterde Stoor na HTML En SVG Formate <sup>25.1</sup>
 
-Stoor na HTML- en SVG-formate is verbeter deur **IdPrefix** en **RemoveJavaScriptFromLinks** eienskappe by beide die [HtmlFixedSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlfixedsaveoptions/) en [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/) klasse.
+Stoor na HTML en SVG formate is verbeter deur die toevoeging van **IdPrefix** en **RemoveJavaScriptFromLinks** eienskappe aan beide die [HtmlFixedSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlfixedsaveoptions/) en [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/) klasse.
 
-#### Stel prentresolusie en OfficeMath-uitvoermodus wanneer u na Markdown stoor <sup>25.1</sup>
+#### Stel Beeldresolusie en OfficeMath Afvoermodus Wanneer Gestoor word na Markdown <sup>25.1</sup>
 
-* 'n Nuwe [ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imageresolution/) opsie is by die [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) klas om die beeldresolusie te stel.
-* 'n Nuwe [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) opsie en [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) opsomming is en bygevoeg by die [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) klas om OfficeMath-uitvoermodus te stel.
+* 'n nuwe [ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imageresolution/) opsie is bygevoeg om die [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) klas om die beeld resolusie stel.
+* 'n nuwe [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) opsie en [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) opsomming is en bygevoeg om die [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) klas OfficeMath uitset af te stel.
+* Die vermoë om'n beeld watermerk van'n stroom stel is ingestel deur die toevoeging van'n nuwe oorlading om die [SetImage](https://reference.aspose.com/words/net/aspose.words/watermark/setimage/#setimage_2) metode. <sup>25.4</sup>
 
 ### Lewering
 
@@ -49,16 +63,33 @@ Stoor na HTML- en SVG-formate is verbeter deur **IdPrefix** en **RemoveJavaScrip
 
 Die [NumberSpacing](https://reference.aspose.com/words/net/aspose.words/font/numberspacing/) eienskap is bygevoeg vir verbeterde tipografiese beheer.
 
+#### Beheer Font Seleksie vir Dubbelsinnige Karakters <sup>25.3</sup>
+
+'n nuwe openbare eiendom [UpdateAmbiguousTextFont](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/updateambiguoustextfont/) is by die [SaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/) klas gevoeg om die lettertipe te kies volgens die gebruikte karakterkode.
+
+#### Papiergrootte Opsies <sup>25.4</sup>
+
+Die vermoë om JIS B4 en JIS B5 papier groottes te gebruik is ingestel deur nuwe waardes by die [PaperSize](https://reference.aspose.com/words/net/aspose.words/papersize/) opsomming te voeg.
+
+#### HTML Uitset Beheer <sup>25.4</sup>
+
+Die vermoë om JavaScript uit hiperskakel URLs te verwyder tydens HTML uitvoer is ingestel deur die [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/removejavascriptfromlinks/) eienskap by te voeg.
+
 ### Ander
 
 * PDF logiese struktuur is verbeter met ondersteuning vir TOA, BIBLIOGRAPHY, en INDEX velde. <sup>25.2</sup>
 * Die [AddSingleLevelList](https://reference.aspose.com/words/net/aspose.words.lists/listcollection/addsinglelevellist/) metode is bekendgestel vir verbeterde lys hantering. <sup>25.2</sup>
+* 'n nuwe eienskap [AttachmentsEmbeddingMode](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/attachmentsembeddingmode/) is bygevoeg om **EmbedAttachments** te vervang om PDF aanhangsels se uitvoer te verbeter. Nuwe waardes is ook by die [PdfCompliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) opsomming gevoeg om PDF/A weergawe aanhangsels te ondersteun. Daarbenewens word aanhangsels nou ondersteun met kodering. <sup>25.3</sup>
 
 {{% alert color="primary" %}}
 
 Leer meer oor [Aspose.Words vir .NET 25.1 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/).
 
 Leer meer oor [Aspose.Words vir .NET 25.2 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-2-release-notes/).
+
+Leer meer oor [Aspose.Words vir .NET 25.3 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-3-release-notes/).
+
+Leer meer oor [Aspose.Words vir .NET 25.4 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-4-release-notes/).
 
 {{% /alert %}}
 
@@ -70,21 +101,21 @@ Aspose.Words 24.10 stel verbeterde ActiveX beheer ondersteuning met CommandButto
 
 Aspose.Words 24.11 stel AI-aangedrewe dokumentopsomming, verbeterde weergawe opsies, verbeterde toegang tot dokument eienskappe en ActiveX beheer onderskrifte.
 
-Aspose.Words 24.12 stel aanpasbare data-etiketplasing, Google KI-aangedrewe teksvertaling, verbeterde Mail Merge-opruimopsies en nuwe LowCode-verwerkingsklasse bekend.
+Aspose.Words 24.12 stel aanpasbare data etiket plasing, Google AI-aangedrewe teks vertaling, verbeterde Mail Merge skoonmaak opsies, en nuwe LowCode verwerking klasse.
 
 ### AI - aangedrewe Funksies
 
-#### Dokumentopsomming met behulp van OpenAI en Google <sup>24.11</sup>
+#### Dokumentopsomming met behulp van OpenAI En Google <sup>24.11</sup>
 
 Ondersteuning vir dokumentopsomming met behulp van **OpenAI** en **Google** generatiewe taalmodelle is geïntegreer deur die [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) naamruimte by sy openbare lede te voeg.
 
-#### Teksvertaling met behulp van Google se generatiewe taalmodelle <sup>24.12</sup>
+#### Teksvertaling met Behulp Van Google se generatiewe taalmodelle <sup>24.12</sup>
 
-Die vermoë om teks te vertaal deur Google se generatiewe taalmodelle te gebruik, is in Aspose.Words geïmplementeer deur die [Translate](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/translate/)-metode by te voeg en die [Language](https://reference.aspose.com/words/net/aspose.words.ai/language/) opsomming na die [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) naamruimte.
+Die vermoë om teks te vertaal met Behulp van Google se generatiewe taalmodelle is geïmplementeer in Aspose.Words deur die [Translate](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/translate/) metode en die [Language](https://reference.aspose.com/words/net/aspose.words.ai/language/) opsomming by die [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) naamruimte te voeg.
 
-### Lae kode <sup>24.12</sup>
+### Low Code <sup>24.12</sup>
 
-Nuwe LowCode-klasse soos [Comparer](https://reference.aspose.com/words/net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/net/ aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/net/aspose.words.lowcode/splitter/) ens. is bekendgestel, wat 'n stel metodes bied wat die perfekte balans tussen eenvoud en buigsaamheid vir dokumentverwerking vind.
+Nuwe LowCode klasse soos [Comparer](https://reference.aspose.com/words/net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/net/aspose.words.lowcode/splitter/) en so aan. is bekendgestel, wat'n stel metodes bied wat die perfekte balans tussen eenvoud en buigsaamheid vir dokumentverwerking vind.
 
 ### Rendering En Drukwerk
 
@@ -92,9 +123,9 @@ Nuwe LowCode-klasse soos [Comparer](https://reference.aspose.com/words/net/aspos
 
 Die lewering van grade op radiale kaarte is geïmplementeer.
 
-#### CommandButton ActiveX Kontrole <sup>24.10</sup>
+#### CommandButton ActiveX Beheer <sup>24.10</sup>
 
-Die vermoë om CommandButton ActiveX kontroles te skep is bekendgestel deur die toevoeging van'n nuwe openbare metode [InsertForms2OleControl](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertforms2olecontrol/) en'n nuwe openbare klas [Forms2OleControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/).
+Die vermoë om CommandButton ActiveX kontroles te skep is ingestel deur die toevoeging van'n nuwe openbare metode [InsertForms2OleControl](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertforms2olecontrol/) en'n nuwe openbare klas [Forms2OleControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/).
 
 #### Beheer Vorm Sigbaarheid <sup>24.10</sup>
 
@@ -116,9 +147,9 @@ Die vermoë om formaat kodes vir grafiek data te kry en te stel is bygevoeg deur
 
 Histogramkaartvertoning is verbeter deur'n spesifieke aantal bakkies en etikette toe te laat.
 
-#### Pas die plasing van data-etikette aan <sup>24.12</sup>
+#### Pas Die Plasing Van Datatikette aan <sup>24.12</sup>
 
-Die vermoë om die plasing van data-etikette aan te pas is bygevoeg deur nuwe eienskappe aan die [ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/) en [ChartDataLabelCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/) bekend te stel klasse.
+Die vermoë om die plasing van data etikette aan te pas is bygevoeg deur die bekendstelling van nuwe eienskappe aan die [ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/) en [ChartDataLabelCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/) klasse.
 
 ### Omskakeling, Laai En Stoor Van Dokumente
 
@@ -134,11 +165,11 @@ Die opsie om onderstreepte opmaak te herken wanneer Markdown dokumente gelaai wo
 
 PDF uitvoer is verbeter deur die insluiting van tabel titel eienskappe as PDF logiese struktuur element titels.
 
-### Possamevoeging en verslagdoening
+### Mail Merge En Verslagdoening
 
-#### Verwyder leë tabelle tydens possamevoeging <sup>24.12</sup>
+#### Verwyder Leë Tabelle tydens Mail Merge <sup>24.12</sup>
 
-'n Nuwe **RemoveEmptyTables**-opsie is bygevoeg by die [MailMergeCleanupOptions](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmergecleanupoptions/)-opsomming om Mail Merge-uitset te verfyn.
+'n nuwe **RemoveEmptyTables** opsie is by die [MailMergeCleanupOptions](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmergecleanupoptions/) opsomming gevoeg om Mail Merge uitset te verfyn.
 
 ### Digitale Handtekeninge
 
@@ -155,17 +186,17 @@ Die vermoë om dokumente met XAdES-EPES vlak XML-DSig handtekeninge te onderteke
 * Big5 kodering hantering vir TrueType cmap tabelle is verbeter. <sup>24.10</sup>
 * Ondersteuning vir verouderde Taiwanese lettertipes is verbeter. <sup>24.10</sup>
 * Om toegang tot uitgebreide dokument eienskappe, lees-alleen eienskappe is bygevoeg om die [BuiltInDocumentProperties](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/) klas. <sup>24.11</sup>
-* Die opstel van onderskrifte vir ActiveX-beheer is geaktiveer deur'n nuwe openbare setter by die [Forms2OleControl.Caption](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/caption/) eienskap te voeg. <sup>24.11</sup>
+* Die opstel van onderskrifte vir ActiveX kontroles is geaktiveer deur'n nuwe openbare setter by die [Forms2OleControl.Caption](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/caption/) eienskap te voeg. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 Leer meer oor [Aspose.Words vir .NET 24.9 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
 
-Leer meer oor [Aspose.Words Vir .NET 24.10 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
+Leer meer oor [Aspose.Words vir .NET 24.10 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
 
-Leer meer oor [Aspose.Words Vir .NET 24.11 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
+Leer meer oor [Aspose.Words vir .NET 24.11 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
 
-Leer meer oor [Aspose.Words Vir .NET 24.12 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-12-release-notes/).
+Leer meer oor [Aspose.Words vir .NET 24.12 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-12-release-notes/).
 
 {{% /alert %}}
 
@@ -175,7 +206,7 @@ Aspose.Words 24.5 brei opsies vir samestellings uit, verbeter weergawevermoëns 
 
 Aspose.Words 24.6 verbeter weergawe opsies, verbeter soek en vergelyk funksionaliteit, en brei verskeie ander funksies uit.
 
-Aspose.Words 24.7 verander hoe jy met ActiveX werk, brei weergawes uit, sowel as uitvoer na Markdown en XLSX formate.
+Aspose.Words 24.7 verander hoe jy met ActiveX werk, brei weergawevermoëns uit, sowel as uitvoer na Markdown en XLSX formate.
 
 Aspose.Words 24.8 verbeter grafiek aanpassing met presiese beheer oor as etikette, brei lettertipe bestuur, verbeter dokument struktuur hantering, en voeg nuwe vermoëns vir HTML/XAML uitvoer, PDF funksionaliteit, dokument omskakeling, en digitale handtekeninge.
 
@@ -211,10 +242,10 @@ Die vermoë om grafiek data etikette soos **Orientation** en **Rotation** aan te
 
 'n stel vir die openbare eiendom [CustomNumberStyleFormat](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/customnumberstyleformat/) is bygevoeg. U kan nou'n pasgemaakte nommerstilering vir lysvlakke definieer.
 
-#### Veranderinge in Die werk Met ActiveX <sup>24.7</sup>
+#### Veranderinge in die werk met ActiveX <sup>24.7</sup>
 
-* Die eienskappe van ActiveX voorwerpe kan nou verander word, gee jou meer beheer oor hul gedrag.
-* Die vermoë om die waarde van die Radio knoppie ActiveX beheer te verander om dinamiese interaksie in staat te stel is bygevoeg.
+* Die eienskappe van ActiveX voorwerpe kan nou verander word, wat jou meer beheer oor hul gedrag gee.
+* Die vermoë om die waarde van die radio knoppie ActiveX beheer te verander om dinamiese interaksie in staat te stel is bygevoeg.
 * Die vermoë om'n ActiveX checkbox te skakel na "gekontroleer" of "ongekontroleerd" is bygevoeg.
 
 #### Beheer Oor Die Grafiek As Merk Etikette Oriëntasie En Rotasie <sup>24.8</sup>
@@ -281,7 +312,7 @@ Aspose.Words 24.4 verbeter stoorformate, sommige weergawes, sowel as verbeter we
 
 ### Ondersteunde Formate <sup>24.4</sup>
 
-Die moderne **WebP** beeldformaat word nou ondersteun in Aspose.Words vir .NET Framework 4.6.2 en hoër. Jy kan nou WebP beelde in dokumente lees en invoeg, asook beelde in WebP formaat stoor.
+Die moderne **WebP** beeld formaat word nou ondersteun in Aspose.Words vir .NET Framework 4.6.2 en hoër. Jy kan nou WebP beelde in dokumente lees en invoeg, asook beelde in WebP formaat stoor.
 
 Let asseblief daarop dat WebP tans slegs beskikbaar is in .NET Standard en .NET Framework v4.6.2 en hoër.
 
@@ -330,11 +361,11 @@ Die vermoë om leë lyne te bewaar wanneer Markdown lêers gelaai word, is bygev
 
 {{% alert color="primary" %}}
 
-Leer meer oor [Aspose.Words Vir .NET 24.1 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-1-release-notes/).
+Leer meer oor [Aspose.Words vir .NET 24.1 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-1-release-notes/).
 
 Leer meer oor [Aspose.Words vir .NET 24.2 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/).
 
-Leer meer oor [Aspose.Words Vir .NET 24.3 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-3-release-notes/).
+Leer meer oor [Aspose.Words vir .NET 24.3 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-3-release-notes/).
 
 Leer meer oor [Aspose.Words vir .NET 24.4 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-4-release-notes/).
 
@@ -409,11 +440,11 @@ Die funksie om hiperskakels te herken wanneer TXT dokumente gelaai word, is geï
 
 Leer meer oor [Aspose.Words vir .NET 23.9 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/).
 
-Leer meer oor [Aspose.Words Vir .NET 23.10 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/).
+Leer meer oor [Aspose.Words vir .NET 23.10 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/).
 
-Leer meer oor [Aspose.Words Vir .NET 23.11 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-11-release-notes/).
+Leer meer oor [Aspose.Words vir .NET 23.11 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-11-release-notes/).
 
-Leer meer oor [Aspose.Words Vir .NET 23.12 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-12-release-notes/).
+Leer meer oor [Aspose.Words vir .NET 23.12 Vrystelling Notas](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-12-release-notes/).
 
 {{% /alert %}}
 

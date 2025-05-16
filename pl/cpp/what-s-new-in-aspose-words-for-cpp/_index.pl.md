@@ -6,27 +6,40 @@ linktitle: Co nowego w Aspose.Words dla C++
 type: docs
 description: "Aspose.Words dla C++ rozszerza się i zwiększa codziennie. Na tej stronie możesz dowiedzieć się o ogromnych i najciekawszych funkcjach produktu."
 weight: 2
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /pl/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2025-03-09-12-38-00
+timestamp: 2025-04-15-08-02-05
 ---
 
 Ta strona opisuje najciekawsze nowe funkcje Aspose.Words wprowadzone w ostatnich wydaniach.
 
-## Aspose.Words dla C++ 25.1, 25.2
+## Aspose.Words dla C++ 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 wprowadza sprawdzanie gramatyki z napędem AI i ulepsza zapisywanie dokumentów dzięki zaawansowanym opcjom formatów HTML, SVG i Markdown.
 
-Aspose.Words 25.2 wprowadza podsumowanie tekstu za pomocą modeli antropicznych AI, dodaje obsługę formatu MsWorks, poprawia kontrolę typograficzną oraz poprawia strukturę i obsługę list PDF.
+Aspose.Words 25.2 wprowadza podsumowanie tekstu za pomocą modeli Anthropic AI, dodaje obsługę formatu MsWorks, poprawia kontrolę typograficzną oraz poprawia strukturę i obsługę list PDF.
 
-### AI - Funkcje zasilane
+Aspose.Words 25.3 ulepsza sprawdzanie gramatyki i wybór czcionek z AI za pomocą właściwości UpdateAmbiguousTextFont, a także ulepsza eksport załączników PDF.
 
-#### Sprawdzanie Gramatyki Dokumentu AI <sup>25.1</sup>
+Aspose.Words 25.4 wprowadza obsługę nowych rozmiarów papieru, umożliwia zaawansowaną kontrolę eksportu HTML, poprawia obsługę znaków wodnych i zwiększa użyteczność LowCode API.
 
-Możliwość sprawdzenia gramatyki dostarczonego dokumentu przy użyciu OpenAI modeli generatywnych została wprowadzona poprzez dodanie nowej metody [CheckGrammar](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/checkgrammar/).
+### AI - funkcje zasilane
 
-#### Podsumowanie Za Pomocą Antropicznych Generatywnych Modeli Językowych <sup>25.2</sup>
+#### Sprawdzanie Gramatyki Dokumentu AI
 
-Podsumowanie tekstu przy użyciu antropicznych generatywnych modeli językowych zostało włączone poprzez wprowadzenie nowej klasy publicznej [AnthropicAiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/).
+* Możliwość sprawdzenia gramatyki dostarczonego dokumentu przy użyciu OpenAI modeli generatywnych została wprowadzona poprzez dodanie nowej metody [CheckGrammar](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/checkgrammar/). <sup>25.1</sup>
+* Funkcja sprawdzania gramatyki obsługiwana przez AI została zaktualizowana, aby obsługiwać wszystkie modele dostępne w wyliczeniu [AiModelType](https://reference.aspose.com/words/cpp/aspose.words.ai/aimodeltype/). <sup>25.3</sup>
+
+#### Podsumowanie Przy Użyciu Generatywnych Modeli Językowych Anthropic <sup>25.2</sup>
+
+Podsumowanie tekstu przy użyciu generatywnych modeli języka Anthropic zostało włączone poprzez wprowadzenie nowej klasy publicznej [AnthropicAiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/).
+
+### Low Code
+
+#### Low Code API użyteczność <sup>25.4</sup>
+
+Wprowadzono znaczące ulepszenia użyteczności **LowCode API**, upraszczając przetwarzanie dokumentów i zmniejszając potrzebę powtarzalnego kodu.
 
 ### Obsługiwane Formaty <sup>25.2</sup>
 
@@ -42,6 +55,7 @@ Zapisywanie w formatach HTML i SVG zostało ulepszone poprzez dodanie właściwo
 
 - Nowa opcja [ImageResolution](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_imageresolution/) została dodana do klasy [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/), aby ustawić rozdzielczość obrazu.
 - Nowa opcja [OfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_officemathexportmode/) i [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownofficemathexportmode/) wyliczenie zostały dodane do klasy [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/), aby ustawić OfficeMath Tryb wyjściowy.
+- Możliwość ustawienia znaku wodnego obrazu ze strumienia została wprowadzona przez dodanie nowego przeciążenia do metody [SetImage](https://reference.aspose.com/words/cpp/aspose.words/watermark/setimage/#watermarksetimageconst-systemsharedptrsystemiostream-const-systemsharedptrasposewordsimagewatermarkoptions-method). <sup>25.4</sup>
 
 ### Rendering
 
@@ -49,10 +63,23 @@ Zapisywanie w formatach HTML i SVG zostało ulepszone poprzez dodanie właściwo
 
 Właściwość [NumberSpacing](https://reference.aspose.com/words/cpp/aspose.words/font/get_numberspacing/) została dodana w celu poprawy kontroli typograficznej.
 
+#### Kontrolowanie wyboru czcionki dla znaków niejednoznacznych <sup>25.3</sup>
+
+Nowa właściwość publiczna [UpdateAmbiguousTextFont](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_updateambiguoustextfont/) została dodana do klasy [SaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/), aby kontrolować wybór czcionki zgodnie z użytym kodem znaku.
+
+#### Opcje Rozmiaru Papieru <sup>25.4</sup>
+
+Możliwość użycia JIS B4 i JIS B5 rozmiarów papieru została wprowadzona poprzez dodanie nowych wartości do wyliczenia [PaperSize](https://reference.aspose.com/words/cpp/aspose.words/papersize/).
+
+#### HTML Kontrola Wyjścia <sup>25.4</sup>
+
+Możliwość usunięcia JavaScript z hiperłącza URLs podczas eksportu HTML została wprowadzona przez dodanie właściwości [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/cpp/aspose.words.saving/htmlsaveoptions/get_removejavascriptfromlinks/).
+
 ### Inne
 
-- PDF struktura logiczna została ulepszona dzięki obsłudze pól TOA, BIBLIOGRAPHY i INDEX. <sup>25.2</sup>
-- Metoda [AddSingleLevelList](https://reference.aspose.com/words/cpp/aspose.words.lists/listcollection/addsinglelevellist/) została wprowadzona w celu poprawy obsługi listy. <sup>25.2</sup>
+* PDF struktura logiczna została ulepszona dzięki obsłudze pól TOA, BIBLIOGRAPHY i INDEX. <sup>25.2</sup>
+* Metoda [AddSingleLevelList](https://reference.aspose.com/words/cpp/aspose.words.lists/listcollection/addsinglelevellist/) została wprowadzona w celu poprawy obsługi listy. <sup>25.2</sup>
+* Dodano nową właściwość [AttachmentsEmbeddingMode](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_attachmentsembeddingmode/) w celu zastąpienia **EmbedAttachments** w celu ulepszenia eksportu PDF załączników. Ponadto do wyliczenia [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfcompliance/) Dodano nowe wartości, aby obsługiwać załączniki wersji PDF/A. Ponadto załączniki są teraz obsługiwane za pomocą szyfrowania. <sup>25.3</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,31 +87,35 @@ Dowiedz się więcej o [Aspose.Words dla C++ 25.1 Informacje O Wydaniu](https://
 
 Dowiedz się więcej o [Aspose.Words dla C++ 25.2 Informacje O Wydaniu](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-2-release-notes/).
 
+Dowiedz się więcej o [Aspose.Words dla C++ 25.3 Informacje O Wydaniu](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-3-release-notes/).
+
+Dowiedz się więcej o [Aspose.Words dla C++ 25.4 Informacje O Wydaniu](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-4-release-notes/).
+
 {{% /alert %}}
 
 ## Aspose.Words dla C++ 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 wprowadza group shape wstawianie i StructuredDocumentTag wstawianie przez DocumentBuilder, poprawia renderowanie Wykresów promieniowych z podziałką, poprawia podpisy cyfrowe z obsługą XAdES-EPES, dodaje rozpoznawanie podkreśleń Markdown i zapewnia dostęp do separatorów przypisów/przypisów końcowych.
 
-Aspose.Words 24.10 wprowadza ulepszoną obsługę kontroli ActiveX z tworzeniem CommandButton, nową kontrolą widoczności kształtu, możliwością group shapes, ulepszonym eksportem Markdown dla tabel, formatowaniem wykresów dla Wykresów Pie i Doughnut, lepszą obsługą kodowania Big5 i obsługą przestarzałych czcionek tajwańskich.
+Aspose.Words 24.10 wprowadza ulepszoną obsługę sterowania ActiveX z tworzeniem CommandButton, nową kontrolę widoczności kształtu, możliwość group shapes, ulepszony eksport Markdown dla tabel, formatowanie wykresów dla Wykresów Pie i Doughnut, lepszą obsługę kodowania Big5 i obsługę przestarzałych czcionek tajwańskich.
 
-Aspose.Words 24.11 wprowadza AI-powered podsumowania dokumentu, ulepszone opcje renderowania, lepszy dostęp do Właściwości dokumentu i ActiveX napisów kontrolnych.
+Aspose.Words 24.11 wprowadza AI-powered podsumowania dokumentu, ulepszone opcje renderowania, lepszy dostęp do Właściwości dokumentu i ActiveX napisów sterowania.
 
-Aspose.Words 24.12 wprowadza konfigurowalne umieszczanie etykiet danych, tłumaczenie tekstu oparte na sztucznej inteligencji Google, ulepszone opcje czyszczenia korespondencji seryjnej i nowe klasy przetwarzania LowCode.
+Aspose.Words 24.12 wprowadza konfigurowalne umieszczanie etykiet danych, tłumaczenie tekstu oparte na Google AI, ulepszone opcje czyszczenia Mail Merge i nowe klasy przetwarzania LowCode.
 
-### AI - Funkcje zasilane
+### AI - funkcje zasilane
 
-#### Podsumowanie dokumentu przy użyciu OpenAI i Google <sup>24.11</sup>
+#### Podsumowanie dokumentów za pomocą OpenAI i Google <sup>24.11</sup>
 
-Obsługa podsumowania dokumentów przy użyciu generatywnych modeli językowych **OpenAI** i **Google** została zintegrowana poprzez dodanie przestrzeni nazw [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/) wraz z jej publicznymi członkami.
+Zintegrowano obsługę podsumowania dokumentów przy użyciu generatywnych modeli językowych **OpenAI** i **Google**.
 
 #### Tłumaczenie tekstu przy użyciu generatywnych modeli językowych Google <sup>24.12</sup>
 
-Możliwość tłumaczenia tekstu przy użyciu generatywnych modeli językowych Google została zaimplementowana w Aspose.Words poprzez dodanie metody [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/) i wyliczenia [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/) do przestrzeni nazw [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/).
+Możliwość tłumaczenia tekstu za pomocą generatywnych modeli językowych Google została zaimplementowana w Aspose.Words poprzez dodanie metody [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/) i wyliczenia [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/) do przestrzeni nazw [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/).
 
 ### Low Code <sup>24.12</sup>
 
-Wprowadzono nowe klasy LowCode, takie jak [Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/cpp/aspose.words.lowcode/merger/), [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) itp., oferując zestaw metod, które zapewniają idealną równowagę między prostotą a elastycznością przetwarzania dokumentów.
+Nowe LowCode klasy, takie jak[Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/cpp/aspose.words.lowcode/merger/), [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) itp. został wprowadzony, oferując zestaw metod, które zapewniają idealną równowagę między prostotą a elastycznością przetwarzania dokumentów.
 
 ### Renderowanie i drukowanie
 
@@ -92,9 +123,9 @@ Wprowadzono nowe klasy LowCode, takie jak [Comparer](https://reference.aspose.co
 
 Zaimplementowano renderowanie podziałek na wykresach promieniowych.
 
-#### CommandButton Formanty ActiveX <sup>24.10</sup>
+#### CommandButton ActiveX sterowanie <sup>24.10</sup>
 
-Możliwość tworzenia CommandButton formantów ActiveX została wprowadzona przez dodanie nowej metody publicznej [InsertForms2OleControl](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertforms2olecontrol/) i nowej klasy publicznej **Forms2OleControl**.
+Możliwość tworzenia kontrolek CommandButton ActiveX została wprowadzona przez dodanie nowej metody publicznej [InsertForms2OleControl](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertforms2olecontrol/) i nowej klasy publicznej **Forms2OleControl**.
 
 #### Kontrola Widoczności Kształtu <sup>24.10</sup>
 
@@ -106,11 +137,11 @@ Dodano kilka nowych właściwości publicznych do Wykresów format Pie i Doughnu
 
 #### Kontroluj renderowanie granic pól formularza wyboru PDF <sup>24.11</sup>
 
-Nowa opcja kontrolowania renderowania granic pól formularza wyboru PDF została zaimplementowana przez dodanie nowej opcji publicznej [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_renderchoiceformfieldborder/).
+Nowa opcja kontrolowania renderowania granic pól formularza wyboru PDF została zaimplementowana przez dodanie nowej opcji publicznej **RenderChoiceFormFieldBorder**.
 
 #### Pobierz i ustaw kody formatu dla danych wykresu <sup>24.11</sup>
 
-Możliwość pobierania i ustawiania kodów formatu dla danych wykresu została dodana poprzez implementację właściwości [FormatCode](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/get_formatcode/) w klasach [ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/) i [BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/).
+Możliwość pobierania i ustawiania kodów formatu dla danych wykresu została dodana poprzez implementację właściwości **FormatCode** w klasach [ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/) i [BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/).
 
 #### Renderuj wykresy histogramu z pojemnikami i etykietami <sup>24.11</sup>
 
@@ -118,7 +149,7 @@ Renderowanie wykresu histogramu zostało ulepszone, umożliwiając określoną l
 
 #### Dostosuj rozmieszczenie etykiet danych <sup>24.12</sup>
 
-Możliwość dostosowania rozmieszczenia etykiet danych została dodana poprzez wprowadzenie nowych właściwości do klas [ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/) i [ChartDataLabelCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabelcollection/).
+Dodano możliwość dostosowania rozmieszczenia etykiet danych poprzez wprowadzenie nowych właściwości do klas [ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/) i [ChartDataLabelCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabelcollection/).
 
 ### Konwertowanie, ładowanie i zapisywanie dokumentów
 
@@ -134,11 +165,11 @@ Opcja eksportu tabel jako HTML podczas zapisywania dokumentów do formatu Markdo
 
 PDF eksport został wzmocniony przez włączenie właściwości tytułu tabeli jako PDF tytułów elementów struktury logicznej.
 
-### Korespondencja seryjna i raportowanie
+### Mail Merge i raportowanie
 
-#### Usuwanie pustych tabel podczas korespondencji seryjnej <sup>24.12</sup>
+#### Usuń puste tabele podczas Mail Merge <sup>24.12</sup>
 
-Do wyliczenia [MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/) dodano nową opcję **RemoveEmptyTables** w celu udoskonalenia wyników korespondencji seryjnej.
+Nowa opcja **RemoveEmptyTables** została dodana do wyliczenia [MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/), aby udoskonalić Mail Merge wyjście.
 
 ### Podpisy Cyfrowe
 
@@ -154,18 +185,18 @@ Możliwość podpisywania dokumentów z podpisami XAdES-EPES poziomu XML-DSig zo
 * Możliwość grupowania poszczególnych kształtów, group shapes Razem i bezpośredniego grupowania zarówno kształtów, jak i group shapes została wprowadzona przez dodanie metody [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/). <sup>24.10</sup>
 * Poprawiono obsługę kodowania Big5 dla tabel CMAP TrueType. <sup>24.10</sup>
 * Ulepszono obsługę przestarzałych czcionek tajwańskich. <sup>24.10</sup>
-* Aby uzyskać dostęp do rozszerzonych właściwości dokumentu, właściwości tylko do odczytu zostały dodane do klasy [BuiltInDocumentProperties](https://reference.aspose.com/words/cpp/aspose.words.properties/builtindocumentproperties/). <sup>24.11</sup>
-* Ustawianie napisów dla formantów ActiveX zostało włączone przez dodanie nowego publicznego setera do właściwości **Forms2OleControl.Caption**. <sup>24.11</sup>
+* Aby uzyskać dostęp do rozszerzonych właściwości dokumentu, właściwości tylko do odczytu zostały dodane do klasy **BuiltInDocumentProperties**. <sup>24.11</sup>
+* Ustawianie napisów dla kontrolek ActiveX zostało włączone przez dodanie nowego setera publicznego do właściwości **Forms2OleControl.Caption**. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
-Dowiedz się więcej o [Aspose.Words dla C++ 24.9 informacje o wydaniu](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-9-release-notes/).
+Dowiedz się więcej o [Aspose.Words dla C++ 24.9 Informacje O Wydaniu](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-9-release-notes/).
 
-Dowiedz się więcej o [Aspose.Words dla C++ 24.10 informacje o wydaniu](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-10-release-notes/).
+Dowiedz się więcej o [Aspose.Words dla C++ 24.10 Informacje O Wydaniu](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-10-release-notes/).
 
-Dowiedz się więcej o [Aspose.Words dla C++ 24.11 informacje o wydaniu](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-11-release-notes/).
+Dowiedz się więcej o [Aspose.Words dla C++ 24.11 Informacje O Wydaniu](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-11-release-notes/).
 
-Dowiedz się więcej o [Aspose.Words dla C++ 24.12 informacje o wydaniu](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-12-release-notes/).
+Dowiedz się więcej o [Aspose.Words dla C++ 24.12 Informacje O Wydaniu](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-12-release-notes/).
 
 {{% /alert %}}
 
@@ -208,8 +239,8 @@ Dodano seter dla własności publicznej [CustomNumberStyleFormat](https://refere
 #### Zmiany w pracy z ActiveX <sup>24.7</sup>
 
 - Właściwości obiektów ActiveX można teraz modyfikować, co daje większą kontrolę nad ich zachowaniem.
-- Dodano możliwość modyfikacji wartości kontrolki ActiveX przycisku radiowego w celu umożliwienia dynamicznej interakcji.
-- Dodano możliwość przełączania ActiveX checkbox Na "zaznaczone" lub "niezaznaczone".
+- Dodano możliwość modyfikacji wartości przycisku opcji ActiveX w celu włączenia dynamicznej interakcji.
+- Dodano możliwość przełączania ActiveX checkbox Na "zaznaczone" lub "odznaczone".
 
 ### Ładowanie i zapisywanie dokumentów
 
@@ -233,11 +264,11 @@ Dodano możliwość usprawnienia przepływów pracy analizy danych dzięki uleps
 
 {{% alert color="primary" %}}
 
-Dowiedz się więcej o [Aspose.Words dla C++ 24.5 informacje o wydaniu](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-5-release-notes/).
+Dowiedz się więcej o [Aspose.Words dla C++ 24.5 Informacje O Wydaniu](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-5-release-notes/).
 
-Dowiedz się więcej o [Aspose.Words dla C++ 24.6 informacje o wydaniu](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-6-release-notes/).
+Dowiedz się więcej o [Aspose.Words dla C++ 24.6 Informacje O Wydaniu](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-6-release-notes/).
 
-Dowiedz się więcej o [Aspose.Words dla C++ 24.7 informacje o wydaniu](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-7-release-notes/).
+Dowiedz się więcej o [Aspose.Words dla C++ 24.7 Informacje O Wydaniu](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-7-release-notes/).
 
 {{% /alert %}}
 
@@ -290,13 +321,13 @@ Dodano możliwość zachowania pustych linii podczas ładowania plików Markdown
 
 {{% alert color="primary" %}}
 
-Dowiedz się więcej o [Aspose.Words dla C++ 24.1 informacje o wydaniu](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-1-release-notes/).
+Dowiedz się więcej o [Aspose.Words dla C++ 24.1 Informacje O Wydaniu](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-1-release-notes/).
 
-Dowiedz się więcej o [Aspose.Words dla C++ 24.2 informacje o wydaniu](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-2-release-notes/).
+Dowiedz się więcej o [Aspose.Words dla C++ 24.2 Informacje O Wydaniu](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-2-release-notes/).
 
-Dowiedz się więcej o [Aspose.Words dla C++ 24.3 informacje o wydaniu](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-3-release-notes/).
+Dowiedz się więcej o [Aspose.Words dla C++ 24.3 Informacje O Wydaniu](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-3-release-notes/).
 
-Dowiedz się więcej o [Aspose.Words dla C++ 24.4 informacje o wydaniu](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-4-release-notes/).
+Dowiedz się więcej o [Aspose.Words dla C++ 24.4 Informacje O Wydaniu](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-4-release-notes/).
 
 {{% /alert %}}
 
@@ -362,15 +393,15 @@ Funkcja rozpoznawania hiperłączy podczas ładowania dokumentów TXT została z
 * Ogólny parametr typu został dodany do metod klasy [CompositeNode](https://reference.aspose.com/words/cpp/aspose.words/compositenode/). <sup>23.10</sup>
 * Sposób kontrolowania, kiedy pewna wersja powinna zostać zaakceptowana/odrzucona lub nie została zaimplementowana przy użyciu metod [Accept](https://reference.aspose.com/words/cpp/aspose.words/revisioncollection/accept/) i [Reject](https://reference.aspose.com/words/cpp/aspose.words/revisioncollection/reject/). To ulepszenie zapewnia użytkownikom lepszą kontrolę nad procesem weryfikacji. <sup>23.11</sup>
 * Możliwość zapisania wszystkich sekcji dokumentu w tym samym arkuszu XLSX została zapewniona przez nowy typ wyliczenia [XlsxSectionMode](https://reference.aspose.com/words/cpp/aspose.words.saving/xlsxsectionmode/) i właściwość new [SectionMode](https://reference.aspose.com/words/cpp/aspose.words.saving/xlsxsaveoptions/get_sectionmode/). <sup>23.11</sup>
-* Sposób kontrolowania sposobu użycia rozszerzeń formatu ZIP64 dla dokumentów OOXML został zaimplementowany za pomocą właściwości new Zip64Mode klasy `OoxmlSaveOptions` i wyliczenia new Zip64Mode. <sup>23.12</sup>
+* Sposób kontrolowania sposobu użycia rozszerzeń formatu ZIP64 dla dokumentów OOXML został zaimplementowany za pomocą nowej właściwości Zip64Mode klasy `OoxmlSaveOptions` i nowego wyliczenia Zip64Mode. <sup>23.12</sup>
 * Wprowadzono obsługę obrazu WebP. Należy pamiętać, że ta funkcja jest dostępna tylko dla .NetStandart i .NET6+ wersji. <sup>23.12</sup>
 
 {{% alert color="primary" %}}
 
-Dowiedz się więcej o [Aspose.Words dla C++ 23.9 Informacje o wydaniu](/words/cpp/aspose-words-for-cpp-23-9-release-notes/).
-Dowiedz się więcej o [Aspose.Words dla C++ 23.10 informacje o wydaniu](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-10-release-notes/).
-Dowiedz się więcej o [Aspose.Words dla C++ 23.11 informacje o wydaniu](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-11-release-notes/).
-Dowiedz się więcej o [Aspose.Words dla C++ 23.12 informacje o wydaniu](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-12-release-notes/).
+Dowiedz się więcej o [Aspose.Words dla C++ 23.9 Informacje O Wydaniu](/words/cpp/aspose-words-for-cpp-23-9-release-notes/).
+Dowiedz się więcej o [Aspose.Words dla C++ 23.10 Informacje O Wydaniu](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-10-release-notes/).
+Dowiedz się więcej o [Aspose.Words dla C++ 23.11 Informacje O Wydaniu](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-11-release-notes/).
+Dowiedz się więcej o [Aspose.Words dla C++ 23.12 Informacje O Wydaniu](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-12-release-notes/).
 
 {{% /alert %}}
 
