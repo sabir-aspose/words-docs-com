@@ -12,27 +12,11 @@ timestamp: 2025-05-12-12-00-00
 
 Summarizing documents is a valuable tool for content review, quick insights, or preparing abstracts. Aspose.Words supports document summarization using AI-powered models, making it easier to process long text. This feature, available in the [aspose.words.ai](https://reference.aspose.com/words/nodejs-net/aspose.words.ai/) module, integrates advanced generative language models from *OpenAI*, *Google* and *Anthropic*. 
 
-You can specify various options for summarizing document content. Use the [summarize](https://reference.aspose.com/words/nodejs-net/aspose.words.ai/iaimodeltext/summarize/) method to generate a summary of your document. You can also set summary length using the [summary_length](https://reference.aspose.com/words/nodejs-net/aspose.words.ai/summarizeoptions/summarylength/) property.
+You can specify various options for summarizing document content. Use the [summarize](https://reference.aspose.com/words/nodejs-net/aspose.words.ai/iaimodeltext/summarize/) method to generate a summary of your document. You can also set summary length using the [summaryLength](https://reference.aspose.com/words/nodejs-net/aspose.words.ai/summarizeoptions/summarylength/) property.
 
 With Aspose.Words, implementing document summarization is straightforward. The following code example shows hot to summirize a documet using GPT-4o model:
 
-{{< highlight js >}}
-let firstDoc = new aw.Document("Big document.docx");
-let secondDoc = new aw.Document("Document.docx");
-const apiKey = process.env.API_KEY;
-// Use OpenAI or Google generative language models.
-let model = aw.AI.AiModel.createGpt4OMini();
-model.setApiKey(apiKey);
-model.setOrganization("Organization");
-model.setProject("Project");
-let options = new aw.AI.SummarizeOptions();
-options.summaryLength = aw.AI.SummaryLength.Short;
-let oneDocumentSummary = model.summarize(firstDoc, options);
-oneDocumentSummary.save("AI.AiSummarize.one.docx");
-options.summaryLength = aw.AI.SummaryLength.Long;
-let multiDocumentSummary = model.summarize([firstDoc, secondDoc], options);
-multiDocumentSummary.save("AI.AiSummarize.multi.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "757cf7d3534a39730cf3290d418681ab" "ai-summarize.js" >}}
 
 {{% alert color="primary" %}}
 
