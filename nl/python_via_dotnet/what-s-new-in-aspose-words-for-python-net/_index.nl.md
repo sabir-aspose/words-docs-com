@@ -6,27 +6,34 @@ linktitle: Wat is er nieuw in Aspose.Words voor Python via .NET
 type: docs
 description: "Aspose.Words voor Python via .NET breidt en verbetert dagelijks. Op deze pagina kunt u meer te weten komen over de enorme en meest interessante functies van het product."
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nl/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-02-17-18-02-05
+timestamp: 2025-04-16-07-02-05
 ---
 
 Deze pagina beschrijft de meest interessante nieuwe Aspose.Words - functies die zijn geïntroduceerd in recente releases.
 
-## Aspose.Words voor Python via .NET 25.1, 25.2
+## Aspose.Words voor Python via .NET 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 introduceert grammaticacontrole op basis van AI en verbetert het opslaan van documenten met geavanceerde opties voor HTML, SVG en Markdown formaten.
 
-Aspose.Words 25.2 introduceert tekstsamenvatting met antropische AI modellen, voegt MsWorks formaatondersteuning toe, verbetert typografische controle en verbetert PDF structuur en lijstverwerking.
+Aspose.Words 25.2 introduceert tekstsamenvatting met Anthropic AI modellen, voegt MsWorks formaatondersteuning toe, verbetert typografische controle en verbetert PDF structuur en lijstverwerking.
+
+Aspose.Words 25.3 verbetert een door AI aangedreven grammaticacontrole en lettertypeselectie met de eigenschap UpdateAmbiguousTextFont, en verbetert de export van PDF bijlagen.
+
+Aspose.Words 25.4 introduceert ondersteuning voor nieuwe papierformaten, maakt geavanceerde HTML exportcontrole mogelijk en verbetert de behandeling van watermerken.
 
 ### AI-aangedreven functies
 
-#### Document AI Grammaticacontrole <sup>25.1</sup>
+#### Document AI Grammaticacontrole
 
-De mogelijkheid om de grammatica van het verstrekte document te controleren met behulp van OpenAI generatieve modellen is geïntroduceerd door een nieuwe [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/) methode toe te voegen.
+* De mogelijkheid om de grammatica van het verstrekte document te controleren met behulp van OpenAI generatieve modellen is geïntroduceerd door een nieuwe [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/) methode toe te voegen. <sup>25.1</sup>
+* De door AI aangedreven Grammaticacontrolefunctie is bijgewerkt om alle modellen te ondersteunen die beschikbaar zijn in de [AiModelType](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodeltype/)-opsomming. <sup>25.3</sup>
 
-#### Samenvatting Met Behulp Van Antropische Generatieve Taalmodellen <sup>25.2</sup>
+#### Samenvatting Met Behulp Van Anthropic Generatieve Taalmodellen <sup>25.2</sup>
 
-Tekstsamenvatting met behulp van antropische generatieve taalmodellen is mogelijk gemaakt door de introductie van een nieuwe openbare klasse [AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/).
+Tekstsamenvatting met behulp van Anthropic generatieve taalmodellen is mogelijk gemaakt door een nieuwe openbare klasse [AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/) in te voeren.
 
 ### Ondersteunde Formaten <sup>25.2</sup>
 
@@ -49,10 +56,24 @@ Opslaan in HTML en SVG formaten is verbeterd door **id_prefix** en **remove_java
 
 De eigenschap [number_spacing](https://reference.aspose.com/words/python-net/aspose.words/font/number_spacing/) is toegevoegd voor verbeterde typografische controle.
 
+#### Controle van de lettertypeselectie voor dubbelzinnige tekens <sup>25.3</sup>
+
+Er is een nieuwe openbare eigenschap [update_ambiguous_text_font](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/update_ambiguous_text_font/) toegevoegd aan de klasse [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) om de lettertypeselectie te regelen volgens de gebruikte tekencode.
+
+#### Opties Voor Papierformaat <sup>25.4</sup>
+
+De mogelijkheid om JIS B4 en JIS B5 papierformaten te gebruiken is geïntroduceerd door nieuwe waarden toe te voegen aan de [PaperSize](https://reference.aspose.com/words/python-net/aspose.words/papersize/) opsomming.
+
+#### HTML Uitvoercontrole <sup>25.4</sup>
+
+De mogelijkheid om JavaScript van hyperlink URLs te verwijderen tijdens HTML export is geïntroduceerd door de eigenschap [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/remove_java_script_from_links/) toe te voegen.
+
 ### Ander
 
 * PDF logische structuur is verbeterd met ondersteuning voor TOA, BIBLIOGRAPHY en INDEX velden. <sup>25.2</sup>
 * De [add_single_level_list](https://reference.aspose.com/words/python-net/aspose.words.lists/listcollection/add_single_level_list/#listtemplate) methode is geïntroduceerd voor verbeterde lijstverwerking. <sup>25.2</sup>
+* Er is een nieuwe eigenschap [attachments_embedding_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/attachments_embedding_mode/) toegevoegd om **EmbedAttachments** te vervangen om de export van PDF bijlagen te verbeteren. Ook zijn er nieuwe waarden toegevoegd aan de [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) opsomming om PDF/A versiebijlagen te ondersteunen. Bovendien worden bijlagen nu ondersteund met encryptie. <sup>25.3</sup>
+* De mogelijkheid om een beeldwatermerk van een stroom in te stellen is geïntroduceerd door een nieuwe overbelasting toe te voegen aan de methode [SetImage](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_image/#bytesio_imagewatermarkoptions). <sup>25.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,13 +81,17 @@ Lees meer over [Aspose.Words voor Python via .NET 25.1 Release Notes](https://re
 
 Lees meer over [Aspose.Words voor Python via .NET 25.2 Release Notes](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
+Lees meer over [Aspose.Words voor Python via .NET 25.3 Release Notes](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-3-release-notes/).
+
+Lees meer over [Aspose.Words voor Python via .NET 25.4 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-4-release-notes/).
+
 {{% /alert %}}
 
 ## Aspose.Words voor Python via .NET 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 introduceert group shape invoeging en StructuredDocumentTag invoeging via DocumentBuilder, verbetert de weergave van radiale grafieken met graduaties, verbetert digitale handtekeningen met XAdES-EPES ondersteuning, voegt Markdown onderstrepingherkenning toe en biedt toegang tot voetnoot/eindnoot scheidingstekens.
 
-Aspose.Words 24.10 introduceert verbeterde ondersteuning voor ActiveX control met CommandButton creatie, nieuwe shape visibility control, de mogelijkheid om group shapes, verbeterde Markdown export voor tabellen, grafiekopmaak voor Pie en Doughnut grafieken, betere Big5-codering en ondersteuning voor verouderde Taiwanese lettertypen.
+Aspose.Words 24.10 introduceert verbeterde ActiveX control-ondersteuning met CommandButton creatie, nieuwe shape visibility control, de mogelijkheid om group shapes, verbeterde Markdown export voor tabellen, grafiekopmaak voor Pie en Doughnut grafieken, betere Big5-codering en ondersteuning voor verouderde Taiwanese lettertypen.
 
 Aspose.Words 24.11 introduceert AI-aangedreven document samenvatting, verbeterde rendering opties, verbeterde toegang tot document eigenschappen en ActiveX control Ondertiteling.
 
@@ -92,9 +117,9 @@ Nieuwe LowCode klassen zoals [Comparer](https://reference.aspose.com/words/pytho
 
 De weergave van graduaties op radiale grafieken is geïmplementeerd.
 
-#### CommandButton ActiveX-Besturingselementen <sup>24.10</sup>
+#### CommandButton ActiveX besturingselementen <sup>24.10</sup>
 
-De mogelijkheid om CommandButton ActiveX-besturingselementen te maken is geïntroduceerd door een nieuwe openbare methode [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) en een nieuwe openbare klasse [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/) toe te voegen.
+De mogelijkheid om CommandButton ActiveX besturingselementen te maken is geïntroduceerd door een nieuwe openbare methode [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) en een nieuwe openbare klasse [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/) toe te voegen.
 
 #### Control Shape Visibility <sup>24.10</sup>
 
@@ -149,7 +174,7 @@ De mogelijkheid om documenten te ondertekenen met XAdES-EPES Niveau XML-DSig han
 * Big5 encoding handling voor TrueType cmap tabellen is verbeterd. <sup>24.10</sup>
 * Ondersteuning voor verouderde Taiwanese lettertypen is verbeterd. <sup>24.10</sup>
 * Voor toegang tot uitgebreide Documenteigenschappen zijn alleen-lezen eigenschappen toegevoegd aan de klasse [BuiltInDocumentProperties](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/). <sup>24.11</sup>
-* Bijschriften instellen voor ActiveX-besturingselementen is ingeschakeld door een nieuwe openbare setter toe te voegen aan de eigenschap [Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/). <sup>24.11</sup>
+* Het instellen van bijschriften voor ActiveX besturingselementen is ingeschakeld door een nieuwe openbare setter toe te voegen aan de eigenschap [Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/). <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
@@ -169,7 +194,7 @@ Aspose.Words 24.5 breidt opties voor assemblies uit, verbetert de rendermogelijk
 
 Aspose.Words 24.6 verbetert de weergaveopties, verbetert de Zoek-en vergelijkingsfunctionaliteit en breidt verschillende andere functies uit.
 
-Aspose.Words 24.7 wijzigt de manier waarop u met ActiveX werkt, breidt de weergavemogelijkheden uit en exporteert naar de indelingen Markdown en XLSX.
+Aspose.Words 24.7 wijzigt de manier waarop u met ActiveX werkt, breidt de weergavemogelijkheden uit en exporteert naar Markdown en XLSX indelingen.
 
 Aspose.Words 24.8 verbetert de aanpassing van grafieken met nauwkeurige controle over aslabels, breidt het lettertypebeheer uit, verbetert de afhandeling van documentstructuren en voegt nieuwe mogelijkheden toe voor HTML/XAML export, PDF functionaliteit, documentconversie en digitale handtekeningen.
 
@@ -203,8 +228,8 @@ Er is een setter voor de openbare eigenschap [custom_number_style_format](https:
 
 #### Wijzigingen in het werken met ActiveX <sup>24.7</sup>
 
-- De eigenschappen van ActiveX-objecten kunnen nu worden gewijzigd, zodat u meer controle hebt over hun gedrag.
-- De mogelijkheid om de waarde van het ActiveX-besturingselement keuzerondje te wijzigen om dynamische interactie mogelijk te maken, is toegevoegd.
+- De eigenschappen van ActiveX objecten kunnen nu worden gewijzigd, waardoor u meer controle over hun gedrag krijgt.
+- De mogelijkheid om de waarde van het keuzerondje ActiveX te wijzigen om dynamische interactie mogelijk te maken, is toegevoegd.
 - De mogelijkheid om een ActiveX checkbox om te schakelen naar "aangevinkt" of "niet aangevinkt" is toegevoegd.
 
 #### Controle over de Grafiekas Tick Labels oriëntatie en rotatie <sup>24.8</sup>
@@ -389,7 +414,7 @@ De functie om hyperlinks te herkennen bij het laden van TXT documenten is geïmp
 - De mogelijkheid om stijleigenschappen te openen en te wijzigen is toegevoegd door de introductie van de nieuwe eigenschap [locked](https://reference.aspose.com/words/python-net/aspose.words/style/locked/). <sup>23.10</sup>
 - Een generieke type parameter is toegevoegd aan de methoden van de [CompositeNode](https://reference.aspose.com/words/python-net/aspose.words/compositenode/) klasse. <sup>23.10</sup>
 - De mogelijkheid om alle secties van een document op hetzelfde XLSX werkblad te schrijven is beschikbaar via het nieuwe [XlsxSectionMode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsectionmode/) opsommingstype en de nieuwe [section_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/section_mode/) eigenschap. <sup>23.11</sup>
-* Een manier om te bepalen hoe ZIP64 format extensies zullen worden gebruikt voor OOXML documenten is geïmplementeerd via de nieuwe Zip64Mode eigenschap van de `OoxmlSaveOptions` klasse en de nieuwe Zip64Mode opsomming. <sup>23.12</sup>
+* Een manier om te bepalen hoe ZIP64 - opmaakextensies worden gebruikt voor OOXML - documenten is geïmplementeerd via de nieuwe Zip64Mode-eigenschap van de `OoxmlSaveOptions` - klasse en de nieuwe Zip64Mode-opsomming. <sup>23.12</sup>
 * Ondersteuning voor WebP image is geïntroduceerd. Houd er rekening mee dat deze functie alleen beschikbaar is voor .NetStandart en .NET6+ versies. <sup>23.12</sup>
 
 {{% alert color="primary" %}}

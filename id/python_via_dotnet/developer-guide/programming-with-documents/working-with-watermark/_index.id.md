@@ -1,42 +1,46 @@
 ---
-title: Bekerja dengan Tanda Air di Python
+title: Bekerja dengan Tanda Air dalam Python
 second_title: Aspose.Words untuk Python via .NET
 articleTitle: Bekerja dengan Tanda Air
 linktitle: Bekerja dengan Tanda Air
-description: "Buat dan kelola tanda air dalam dokumen menggunakan Python."
+description: "Membuat dan mengelola tanda air dalam dokumen menggunakan Python."
 type: docs
 weight: 340
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /id/python-net/working-with-watermark/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-04-16-07-02-05
 ---
 
-Topik ini membahas cara bekerja secara terprogram dengan watermark menggunakan Aspose.Words. Tanda air adalah gambar latar belakang yang ditampilkan di belakang teks dalam dokumen. Tanda air dapat berisi teks atau gambar yang diwakili oleh kelas [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/).
+Topik ini membahas cara bekerja secara terprogram dengan tanda air menggunakan Aspose.Words. Tanda air adalah gambar latar belakang yang ditampilkan di belakang teks dalam dokumen. Tanda air dapat berisi teks atau gambar yang diwakili oleh kelas [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/).
 
 {{% alert color="primary" %}}
 
-**Coba daring**
+**Coba online**
 
-Anda dapat mencoba fungsi ini dengan [Tanda air dokumen online gratis](https://products.aspose.app/words/watermark) kami.
+Anda dapat mencoba fungsi ini dengan kami [Tanda air dokumen online gratis](https://products.aspose.app/words/watermark).
 
 {{% /alert %}}
 
 ## Cara Menambahkan Tanda Air ke Dokumen
 
-Di Microsoft Word, tanda air dapat dengan mudah disisipkan ke dalam dokumen menggunakan perintah Sisipkan Tanda Air. Aspose.Words menyediakan kelas [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/) untuk menambah atau menghapus tanda air di dokumen. Aspose.Words menyediakan enumerasi [WatermarkType](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/) yang mendefinisikan tiga kemungkinan jenis tanda air ([TEXT](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/#text), [IMAGE](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/#image), dan [NONE](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/#none)) untuk digunakan
+Dalam Microsoft Word, tanda air dapat dengan mudah disisipkan ke dalam dokumen menggunakan perintah Sisipkan Tanda Air. Aspose.Words menyediakan kelas [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/) untuk menambah atau menghapus tanda air dalam dokumen. Aspose.Words menyediakan pencacahan [WatermarkType](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/) yang mendefinisikan tiga kemungkinan jenis tanda air ([TEXT](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/#text), [IMAGE](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/#image), dan [NONE](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/#none)) untuk dikerjakan.
 
 ### Tambahkan Tanda Air Teks
 
-Contoh kode berikut menunjukkan cara menyisipkan tanda air teks ke dalam dokumen dengan mendefinisikan [TextWatermarkOptions](https://reference.aspose.com/words/python-net/aspose.words/textwatermarkoptions/) menggunakan metode [set_text](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_text/).
+Contoh kode berikut mendemonstrasikan cara menyisipkan tanda air teks dalam dokumen dengan mendefinisikan [TextWatermarkOptions](https://reference.aspose.com/words/python-net/aspose.words/textwatermarkoptions/) menggunakan metode [set_text](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_text/):
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_watermark-AddTextWatermarkWithSpecificOptions.py" >}}
 
 ### Tambahkan Tanda Air Gambar
 
-Contoh kode berikut menunjukkan cara menyisipkan tanda air gambar ke dalam dokumen dengan mendefinisikan [ImageWatermarkOptions](https://reference.aspose.com/words/python-net/aspose.words/imagewatermarkoptions/) menggunakan metode [set_image](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_image/):
+Contoh kode berikut mendemonstrasikan cara menyisipkan tanda air gambar dalam dokumen dengan mendefinisikan [ImageWatermarkOptions](https://reference.aspose.com/words/python-net/aspose.words/imagewatermarkoptions/) menggunakan metode [set_image](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_image/):
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_watermark-AddImageWatermarkWithSpecificOptions.py" >}}
 
-Watermark juga dapat disisipkan menggunakan kelas bentuk juga. Sangat mudah untuk menyisipkan bentuk atau gambar apa pun ke dalam header atau footer dan dengan demikian membuat tanda air jenis apa pun yang bisa dibayangkan.
+Tanda air gambar dapat disisipkan sebagai gambar, string, atau aliran.
+
+Tanda air juga dapat disisipkan menggunakan kelas bentuk juga. Sangat mudah untuk menyisipkan bentuk atau gambar apa pun ke dalam header atau footer dan dengan demikian membuat tanda air dari jenis apa pun yang dapat dibayangkan.
 
 Contoh kode berikut menyisipkan tanda air ke dalam dokumen Word:
 
@@ -44,7 +48,7 @@ Contoh kode berikut menyisipkan tanda air ke dalam dokumen Word:
 
 {{% alert color="primary" %}}
 
-Anda dapat mengunduh file template contoh ini dari [Di Sini](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx)
+Anda dapat mengunduh file templat contoh ini dari [di sini](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx).
 
 {{% /alert %}}
 
@@ -57,7 +61,7 @@ Contoh kode berikut menunjukkan cara menghapus tanda air dari dokumen:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_watermark-RemoveWatermarkFromDocument.py" >}}
 
-Jika tanda air ditambahkan menggunakan objek kelas [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) maka untuk menghapus tanda air dari dokumen Anda harus mengatur hanya nama bentuk tanda air saat menyisipkan dan kemudian menghapus bentuk tanda air dengan nama yang ditetapkan.
+Jika tanda air ditambahkan menggunakan objek kelas [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/), maka untuk menghapus tanda air dari dokumen, Anda hanya perlu menyetel nama bentuk tanda air selama penyisipan, lalu menghapus bentuk tanda air dengan nama yang ditetapkan.
 
 Contoh kode berikut menunjukkan cara mengatur nama bentuk tanda air dan menghapusnya dari dokumen:
 
@@ -70,7 +74,7 @@ watermark.name = "WaterMark"
 
 ## Tambahkan Tanda Air di Sel Tabel
 
-Terkadang Anda perlu memasukkan tanda air/gambar ke dalam sel tabel dan menampilkannya di luar tabel, Anda dapat menggunakan properti [is_layout_in_cell](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/is_layout_in_cell/). Properti ini mendapatkan atau menyetel tanda yang menunjukkan apakah bentuk ditampilkan di dalam atau di luar tabel. Perhatikan bahwa properti ini hanya berfungsi ketika Anda mengoptimalkan dokumen untuk Microsoft Word 2010 menggunakan metode [optimize_for](https://reference.aspose.com/words/python-net/aspose.words.settings/compatibilityoptions/optimize_for/).
+Terkadang Anda perlu menyisipkan tanda air / gambar ke dalam sel tabel dan menampilkannya di luar tabel, Anda dapat menggunakan properti [is_layout_in_cell](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/is_layout_in_cell/). Properti ini mendapatkan atau menetapkan tanda yang menunjukkan apakah bentuk ditampilkan di dalam tabel atau di luarnya. Perhatikan bahwa properti ini hanya berfungsi saat Anda mengoptimalkan dokumen untuk Microsoft Word 2010 menggunakan metode [optimize_for](https://reference.aspose.com/words/python-net/aspose.words.settings/compatibilityoptions/optimize_for/).
 
 Contoh kode berikut menunjukkan cara menggunakan properti ini:
 

@@ -6,11 +6,21 @@ linktitle: Filigran ile çalışma
 type: docs
 description: "C++ kullanarak filigran manipülasyonunu belgeleyin."
 weight: 340
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /tr/cpp/working-with-watermark/
-timestamp: 2024-01-30-16-22-34
+timestamp: 2025-05-07-07-22-34
 ---
 
 Bu konuda Aspose.Words kullanarak filigranla programlı olarak nasıl çalışılacağı anlatılmaktadır. Filigran, belgedeki metnin arkasında görüntülenen bir arka plan görüntüsüdür. Filigran, [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/) sınıfı tarafından temsil edilen bir metin veya resim içerebilir.
+
+{{% alert color="primary" %}}
+
+**Çevrimiçi deneyin**
+
+Bu işlevselliği bizim ile deneyebilirsiniz [Ücretsiz çevrimiçi belge filigranı](https://products.aspose.app/words/watermark).
+
+{{% /alert %}}
 
 ## Belgeye Filigran Ekleme
 
@@ -28,7 +38,11 @@ Aşağıdaki kod örneği, [SetImage](https://reference.aspose.com/words/cpp/asp
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cpp" >}}
 
-Filigran, shape sınıfı kullanılarak da eklenebilir. Bir üstbilgi veya altbilgiye herhangi bir şekil veya görüntü eklemek ve böylece akla gelebilecek herhangi bir türde bir filigran oluşturmak çok kolaydır. Aşağıdaki kod örneği, bir Word belgesine filigran ekler.
+Görüntü filigranı görüntü, dize veya akış olarak eklenebilir.
+
+Filigran, shape sınıfı kullanılarak da eklenebilir. Bir üstbilgi veya altbilgiye herhangi bir şekil veya görüntü eklemek ve böylece akla gelebilecek herhangi bir türde bir filigran oluşturmak çok kolaydır.
+
+Aşağıdaki kod örneği, Word belgesine filigran ekler.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Images-AddWatermark-AddWatermark.cpp" >}}
 

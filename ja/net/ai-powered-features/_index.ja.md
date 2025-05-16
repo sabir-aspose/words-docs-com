@@ -1,13 +1,15 @@
-﻿---
+---
 title: AI搭載の機能
 second_title: Aspose.Wordsのための.NET
 articleTitle: AI搭載の機能
 linktitle: AI搭載の機能
 type: docs
 weight: 35
-description: "Aspose.Wordsfor.NETは、効率を高めるために文書の要約のようなAIを搭載したツールを導入しました。 ヒントと詳細なガイダンスでAI搭載の機能の使用方法を学びます。"
+description: "Aspose.Wordsのための.NET 効率を高めるために文書の要約のようなAIを搭載したツールを導入します。 ヒントと詳細なガイダンスでAI搭載の機能の使用方法を学びます。"
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ja/net/ai-powered-features/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
 Aspose.Wordsには、文書処理をよりスマートかつ効率的にするために設計されたAIを搭載した機能が含まれています。 これらのツールは、高度な機械学習を活用して文書の要約などのタスクを実行し、開発者がワークフローを合理化するためのより強力な機能を提供します。
@@ -16,4 +18,5 @@ Aspose.Wordsには、文書処理をよりスマートかつ効率的にする�
 
 * [サポートされているAIモデル](/words/net/supported-ai-models/)
 * [文書を要約する](/words/net/summarize-a-document/)
-
+* [文書を翻訳する](/words/net/translate-a-document/)
+* [文法チェック](/words/net/grammar-checking/)

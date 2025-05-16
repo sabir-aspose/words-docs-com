@@ -1,20 +1,22 @@
-﻿---
+---
 title: 文書を要約する
-second_title: Aspose.WordsはPython via .NETに対してAspose.Wordsを意味します。
+second_title: Aspose.WordsのためのPython via .NET
 articleTitle: 文書を要約する
 linktitle: 文書を要約する
 type: docs
 weight: 20
-description: "文書を要約します。 Aspose.WordsforPythonは、要約の長さを指定できるようにすることで、OpenAIモデルとGoogleAIモデルを使用して文書の要約を簡素化します。"
+description: "文書を要約します。 Aspose.WordsのためのPython 要約の長さを指定できるようにすることで、OpenAIモデルとGoogleAIモデルを使用して文書の要約を簡素化します。"
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ja/python-net/summarize-a-document/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
-文書の要約は、コンテンツのレビュー、迅速な洞察、または抄録の準備のための貴重なツールです。 Aspose.WordsはAI搭載モデルを使用した文書の要約をサポートし、長いテキストの処理を容易にします。 この機能は[aspose.words.ai](https://reference.aspose.com/words/python-net/aspose.words.ai/)モジュールで利用可能で、*OpenAI*と*Google*の高度な生成言語モデルを統合しています。
+文書の要約は、コンテンツのレビュー、迅速な洞察、または抄録の準備のための貴重なツールです。 Aspose.WordsはAI搭載モデルを使用した文書の要約をサポートし、長いテキストの処理を容易にします。 この機能は[aspose.words.ai](https://reference.aspose.com/words/python-net/aspose.words.ai/)モジュールで利用可能で、*OpenAI*と*Google*の高度な生成言語モデルと*Claude's*の人類的生成言語モデルを統合しています。 サポートされているモデルのリストは[AiModelType](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodeltype/)列挙体で利用できます。
 
 文書の内容を要約するためのさまざまなオプションを指定できます。 ドキュメントの概要を生成するには、[summarize](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/summarize/)メソッドを使用します。 また、[summary_length](https://reference.aspose.com/words/python-net/aspose.words.ai/summarizeoptions/summary_length/)プロパティを使用して要約の長さを設定することもできます。
 
-Aspose.Wordsを使用すると、文書の要約を実装するのは簡単です。 次のコード例は、GPT-4oモデルを使用してドキュメントを合計するhotを示しています:
+Aspose.Wordsを使用すると、文書の要約を実装するのは簡単です。 次のコード例は、GPT-4oモデルを使用して文書を要約する方法を示しています:
 
 {{< highlight python >}}
 first_doc = aw.Document(MyDir + "Big document.docx")

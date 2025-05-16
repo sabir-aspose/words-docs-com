@@ -6,8 +6,10 @@ linktitle: Werk Met Watermerk
 description: "Dokument watermerk manipulasie met behulp van C#."
 type: docs
 weight: 340
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /af/net/working-with-watermark/
-timestamp: 2024-05-02-11-51-44
+timestamp: 2025-04-16-07-02-05
 ---
 
 Hierdie onderwerp bespreek hoe om programmaties te werk met watermerk met behulp van Aspose.Words. 'n watermerk is'n agtergrondbeeld wat agter die teks in'n dokument vertoon word. 'n watermerk kan'n teks of'n beeld bevat wat deur die [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) klas verteenwoordig word.
@@ -28,19 +30,21 @@ In Microsoft Word kan'n watermerk maklik in'n dokument ingevoeg word met behulp 
 
 Die volgende kode voorbeeld demonstreer hoe om'n teks watermerk in'n dokument deur die definisie van [TextWatermarkOptions](https://reference.aspose.com/words/net/aspose.words/textwatermarkoptions/) met behulp van die [SetText](https://reference.aspose.com/words/net/aspose.words/watermark/settext/#settext) metode:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkWithWatermark-AddTextWatermarkWithSpecificOptions.cs" >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "add-text-watermark.cs" >}}
 
 ### Voeg By Beeld Watermerk
 
 Die volgende kode voorbeeld demonstreer hoe om'n beeld watermerk in'n dokument deur die definisie van [ImageWatermarkOptions](https://reference.aspose.com/words/net/aspose.words/imagewatermarkoptions/) met behulp van die [SetImage](https://reference.aspose.com/words/net/aspose.words/watermark/setimage/#setimage) metode:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cs" >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "add-image-watermark.cs" >}}
+
+Beeld watermerk kan ingevoeg word as beeld, string, of stroom.
 
 Die watermerk kan ook ingevoeg word met behulp van vorm klas sowel. Dit is baie maklik om enige vorm of beeld in'n kop of voetskrif in te voeg en sodoende'n watermerk van enige denkbare tipe te skep.
 
 Die volgende kode voorbeeld voeg'n watermerk in'n Word dokument:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Images-AddWatermark-AddWatermark.cs" >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "add-document-watermark.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -55,24 +59,20 @@ Die [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) 
 
 Die volgende kode voorbeeld toon hoe om'n watermerk van dokumente te verwyder:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkWithWatermark-RemoveWatermarkFromDocument.cs" >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "remove-document-watermark.cs" >}}
 
 As die watermerke bygevoeg word met behulp van die [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) klas voorwerp dan om die watermerk van'n dokument te verwyder moet jy net die naam van watermerk vorm stel tydens die invoeging en dan verwyder watermerk vorm deur'n toegewys naam.
 
 Die volgende kode voorbeeld wys jou hoe om die naam van die watermerk vorm stel en verwyder dit uit die dokument:
 
-{{< highlight csharp >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "set-shape-name.cs" >}}
 
-// Set name to be able to remove it afterwards
-watermark.Name("WaterMark");
-{{< /highlight >}}
-
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Images-RemoveWatermark-RemoveWatermark.cs" >}}
+{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "remove-watermark-shape.cs" >}}
 
 ## Voeg'n Watermerk in'n Tabel Sel
 
-Soms moet jy'n watermerk/beeld in'n tabel se sel plaas en dit buite die tabel vertoon, jy kan die [IsLayoutInCell](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/islayoutincell/) eienskap gebruik. Hierdie eienskap kry of stel'n vlag wat aandui of die vorm binne'n tafel of buite dit vertoon word. Let daarop dat hierdie eienskap slegs werk wanneer jy die dokument vir Microsoft Word 2010 optimaliseer deur die [OptimizeFor](https://reference.aspose.com/words/net/aspose.words.settings/compatibilityoptions/optimizefor/) metode te gebruik.
+Soms moet jy'n watermerk/beeld in'n tabel se sel plaas en dit buite die tabel vertoon, jy kan die [IsLayoutInCell](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/islayoutincell/) eienskap gebruik. Hierdie eienskap kry of stel'n vlag wat aandui of die vorm binne'n tafel of buite dit vertoon word. Let daarop dat hierdie eienskap werk slegs wanneer jy die dokument vir Microsoft Word 2010 optimaliseer met behulp van die [OptimizeFor](https://reference.aspose.com/words/net/aspose.words.settings/compatibilityoptions/optimizefor/) metode.
 
 Die volgende kode voorbeeld toon hoe om hierdie eiendom te gebruik:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-SetShapeLayoutInCell.cs" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "layout-in-cell.cs" >}}

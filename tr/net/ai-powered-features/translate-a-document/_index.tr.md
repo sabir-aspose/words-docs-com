@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bir Belgeyi Çevirme
 second_title: Aspose.Words için .NET
 articleTitle: Bir Belgeyi Çevirme
@@ -6,6 +6,8 @@ linktitle: Bir Belgeyi Çevirme
 type: docs
 weight: 30
 description: "Bir belgeyi çevirin. Aspose.Words için .NET Google AI modellerini kullanarak belge çevirisini basitleştirerek hedef dili belirlemenizi sağlar."
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /tr/net/translate-a-document/
 timestamp: 2024-12-13-06-40-00
 ---
@@ -16,16 +18,7 @@ Belgelerinizi [Language](https://reference.aspose.com/words/net/aspose.words.ai/
 
 Aşağıdaki kod örneği, bir belgeyi Arapça'ya çevirmek için Aspose.Words içindeki *Gemini 1.5 Flash* modelinin nasıl kullanılacağını gösterir:
 
-{{< highlight csharp >}}
-Document doc = new Document(MyDir + "Document.docx");
-
-string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-// Use Google generative language models.
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gemini15Flash).WithApiKey(apiKey);
-
-Document translatedDoc = model.Translate(doc, Language.Arabic);
-translatedDoc.Save(ArtifactsDir + "AI.AiTranslate.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "ea14b3e44c0233eecd663f783a21c4f6" "ai-translate.cs" >}}
 
 {{% alert color="primary" %}}
 

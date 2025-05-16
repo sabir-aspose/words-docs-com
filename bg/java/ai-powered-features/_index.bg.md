@@ -1,4 +1,4 @@
-﻿---
+---
 title: AI - захранващи функции
 second_title: Aspose.Words за Java
 articleTitle: AI - захранващи функции
@@ -6,8 +6,10 @@ linktitle: AI - захранващи функции
 type: docs
 weight: 25
 description: "Aspose.Words за Java въвежда AI - захранвани инструменти като обобщаване на документи за повишаване на ефективността. Научете как да използвате AI - захранвани функции със съвети и подробни указания."
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /bg/java/ai-powered-features/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
 Aspose.Words сега включва AI - захранвани функции, предназначени да направят обработката на документи по-интелигентна и по-ефективна. Тези инструменти използват усъвършенстваното машинно обучение, за да изпълняват задачи като обобщаване на документи, предлагайки на разработчиците по-мощни възможности за рационализиране на техните работни потоци.
@@ -16,4 +18,5 @@ Aspose.Words сега включва AI - захранвани функции, �
 
 * [Поддържани Модели AI ](/words/java/supported-ai-models/)
 * [Обобщаване на документ](/words/java/summarize-a-document/)
-
+* [Превод на документ](/words/java/translate-a-document/)
+* [Проверка На Граматиката](/words/java/grammar-checking/)

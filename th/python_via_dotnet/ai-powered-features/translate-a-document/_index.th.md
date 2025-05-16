@@ -1,4 +1,4 @@
-﻿---
+---
 title: การแปลภาษา,อังกฤษ(สหราชอาณาจักร)
 second_title: Aspose.WordsสำหรับPython via .NET
 articleTitle: การแปลภาษา,อังกฤษ(สหราชอาณาจักร)
@@ -6,6 +6,8 @@ linktitle: การแปลภาษา,อังกฤษ(สหราชอ�
 type: docs
 weight: 30
 description: "แปลเอกสาร Aspose.WordsสำหรับPython ช่วยลดความยุ่งยากในการแปลเอกสารโดยใช้รุ่นของกูเกิลAIช่วยให้คุณสามารถระบุภาษาเป้าหมาย."
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /th/python-net/translate-a-document/
 timestamp: 2025-01-15-16-40-05
 ---

@@ -1,20 +1,22 @@
-﻿---
+---
 title: Узагальнення документа
 second_title: Aspose.Words для Python via .NET
 articleTitle: Узагальнення документа
 linktitle: Узагальнення документа
 type: docs
 weight: 20
-description: "Узагальнення документа. Aspose.Words для Python полегшує Узагальнення документа за допомогою моделей OpenAI та Google AI, дозволяючи вказати довжину резюме."
+description: "Узагальніть документ. Aspose.Words для Python спрощує Узагальнення документа за допомогою моделей OpenAI і Google AI, дозволяючи вказати довжину резюме."
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /uk/python-net/summarize-a-document/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
-Узагальнення документів-це цінний інструмент для аналізу змісту, швидкого аналізу інформації або підготовки тез. Aspose.Words підтримує Узагальнення документів за допомогою моделей на основі AI, що полегшує обробку довгого тексту. Ця функція, доступна в модулі [aspose.words.ai](https://reference.aspose.com/words/python-net/aspose.words.ai/), поєднує розширені моделі мови генераторів з *OpenAI* та *Google*.
+Узагальнення документів-це цінний інструмент для аналізу змісту, швидкого аналізу інформації або підготовки тез. Aspose.Words підтримує Узагальнення документів за допомогою моделей на основі AI, що полегшує обробку довгого тексту. Ця функція, доступна в модулі [aspose.words.ai](https://reference.aspose.com/words/python-net/aspose.words.ai/), поєднує розширені моделі генеративної мови з *OpenAI* та *Google*, а також антропні моделі генеративної мови *Claude's*. Список підтримуваних моделей доступний у списку [AiModelType](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodeltype/).
 
 Ви можете вказати різні параметри для узагальнення вмісту документа. Використовуйте метод [summarize](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/summarize/) для створення короткої інформації про ваш документ. Ви також можете задати довжину короткої інформації, використовуючи властивість [summary_length](https://reference.aspose.com/words/python-net/aspose.words.ai/summarizeoptions/summary_length/).
 
-За допомогою Aspose.Words спрощується реалізація Узагальнення документа. Наступний приклад коду показує, як узагальнити документ за допомогою моделі GPT - 4o:
+За допомогою Aspose.Words спрощується реалізація Узагальнення документа. Наступний приклад коду показує, як узагальнити документ за допомогою моделі GPT-4o.:
 
 {{< highlight python >}}
 first_doc = aw.Document(MyDir + "Big document.docx")

@@ -1,65 +1,69 @@
 ---
-title: Su damgası ile çalışmak Java üzerinde
+title: Java içinde Filigranla çalışma
 second_title: Aspose.Words için Java
-articleTitle: Su damgasıyla Çalışmak
-linktitle: Su damgasıyla Çalışmak
+articleTitle: Filigran ile çalışma
+linktitle: Filigran ile çalışma
 type: docs
-description: "Belge su damgası manipülasyonu Java kullanarak yapılır."
+description: "Java kullanarak filigran manipülasyonunu belgeleyin."
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /tr/java/working-with-watermark/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-04-22-08-07-04
 ---
 
-Bu konu bir su damgası ile programatik olarak nasıl çalışılacağını tartışır Aspose.Words. Su damgası bir belgedeki metnin arkasından görünen arka plan görüntüsüdür. Bir filigran bir [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) sınıfı tarafından temsil edilen bir metin veya bir resim içerebilir.
+Bu konuda Aspose.Words kullanarak filigranla programlı olarak nasıl çalışılacağı anlatılmaktadır. Filigran, belgedeki metnin arkasında görüntülenen bir arka plan görüntüsüdür. Filigran, [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) sınıfı tarafından temsil edilen bir metin veya resim içerebilir.
 
 {{% alert color="primary" %}}
 
-**On-line dene**
+**Çevrimiçi deneyin**
 
-Bu işlevselliği [Free online document watermark](https://products.aspose.app/words/watermark) ile deneyebilirsiniz.
+Bu işlevselliği bizim ile deneyebilirsiniz [Ücretsiz çevrimiçi belge filigranı](https://products.aspose.app/words/watermark).
 
 {{% /alert %}}
 
-## Bir Belgeye Su İşareti Ekle
+## Belgeye Filigran Ekleme
 
-Microsoft Word 'da bir belgeye su izlemesi eklemek için Insert Watermark komutunu kullanabilirsiniz. [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) sınıfı Aspose.Words 'de belgelere su izlemesi eklemek veya kaldırmak için kullanılabilir. Aspose.Words ayrıca üç olası su izleme türü (Metin, Görüntü ve Yok) tanımlayan bir [WatermarkType ](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/) numaralandırması sağlar
+Microsoft Word 'de Filigran Ekle komutunu kullanarak bir belgeye kolayca filigran eklenebilir. Aspose.Words belgelere filigran eklemek veya kaldırmak için [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) sınıfını sağlar. Aspose.Words çalışmak için üç olası filigran türünü (Metin, Resim ve Hiçbiri) tanımlayan [WatermarkType ](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/) numaralandırmasını sağlar.
 
-### Metin Suartı Ekle
+### Metin Filigranı Ekle
 
-Aşağıdaki kod örneği bir belgeye metin su damgası eklemenin nasıl yapılacağını göstermektedir tanımlayarak [TextWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/textwatermarkoptions/) kullanarak yöntem [SetText](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setText-java.lang.String):
+Aşağıdaki kod örneği, [SetText](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setText-java.lang.String) yöntemini kullanarak [TextWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/textwatermarkoptions/) tanımlayarak bir belgeye nasıl metin filigranı ekleneceğini gösterir:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddTextWatermarkWithSpecificOptions.java" >}}
 
-### Görüntü Su İşareti Ekle
+### Resim Filigranı Ekle
 
-Aşağıdaki kod örneği, bir belgeye nasıl görüntü damgası ekleyeceğinizi gösterir [ImageWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/imagewatermarkoptions/) yöntemini kullanarak [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.awt.image.BufferedImage)'i tanımlayarak:
+Aşağıdaki kod örneği, [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.awt.image.BufferedImage) yöntemini kullanarak [ImageWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/imagewatermarkoptions/) tanımlayarak bir belgeye resim filigranının nasıl ekleneceğini gösterir:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.java" >}}
 
-Su damgası ayrıca şekil sınıfı kullanılarak da eklenebilir. Herhangi bir şekil veya görüntüyi kolayca bir başlık veya altbilgiye ekleyebilir ve böylece hayal edilebilecek herhangi bir tür su damgası oluşturabilirsiniz.
+Görüntü filigranı görüntü, dize veya akış olarak eklenebilir.
 
-Aşağıdaki kod örneği bir Word belgesine su damgası ekler:
+Filigran, shape sınıfı kullanılarak da eklenebilir. Bir üstbilgi veya altbilgiye herhangi bir şekil veya görüntü eklemek ve böylece akla gelebilecek herhangi bir türde bir filigran oluşturmak çok kolaydır.
+
+Aşağıdaki kod örneği Word belgesine filigran ekler:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-AddWatermarkToADocument-AddWatermarkToADocument.java" >}}
 
 {{% alert color="primary" %}}
 
-Örnek dosyanın örnek dosyasını [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc)'dan indirebilirsiniz.
+Bu örneğin örnek dosyasını şu adresten indirebilirsiniz [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
 
 {{% /alert %}}
 
 
-## Bir Belgeye Damga Kaldır
+## Bir Belgeden Filigranı Kaldırma
 
-The [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) sınıfı bir belgeden damgayı kaldırmak için `Remove` yöntemini sağlar.
+[Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) sınıfı, filigranı bir belgeden kaldırmak için `Remove` yöntemini sağlar.
 
-Aşağıdaki kod örnekleri bir belgeden su damgası kaldırmak için nasıl yapılacağını göstermektedir:
+Aşağıdaki kod örnekleri, belgelerden filigranın nasıl kaldırılacağını gösterir:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-RemoveWatermarkFromDocument.java" >}}
 
-Bir belgeden su damgası kaldırmak için sadece su damgası şeklinin adını eklerken ayarlamanız gerekir ve ardından atanan bir isimle su damgası şeklini kaldırın.
+Filigranı bir belgeden kaldırmak için, ekleme sırasında yalnızca filigran şeklinin adını ayarlamanız ve ardından filigran şeklini atanmış bir adla kaldırmanız gerekir.
 
-Aşağıdaki kod örneği su damgası şeklinin adını nasıl ayarlayacağını ve bunu belgeden nasıl kaldıracağını gösterir:
+Aşağıdaki kod örneği, filigran şeklinin adını nasıl ayarlayacağınızı ve belgeden nasıl kaldıracağınızı gösterir:
 
 {{< highlight csharp >}}
 
@@ -69,10 +73,10 @@ watermark.Name("WaterMark");
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-RemoveWatermark-RemoveWatermark.java" >}}
 
-## Bir Tablo Hücresine Su Damgası Ekle
+## Tablo Hücresine Filigran Ekleme
 
-Bazen bir su damgası / görüntüyü bir tablonun hücresine eklemeniz ve onu tablo dışında görüntülemeniz gerekir, [IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell-boolean) özelliğini kullanabilirsiniz. Bu özellik bir bayrak alır veya ayarlar, şeklin bir tabloda mı yoksa onun dışında mı görüntülendiğini gösterir. Bu özelliğin yalnızca sizin Microsoft Word 2010 için belgeyi [OptimizeFor](https://reference.aspose.com/words/java/com.aspose.words/compatibilityoptions/#optimizeFor-int) yöntemle optimize ettiğinizde çalıştığını unutmayın
+Bazen bir tablonun hücresine filigran / resim eklemeniz ve tablonun dışında görüntülemeniz gerekir, [IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell-boolean) özelliğini kullanabilirsiniz. Bu özellik, şeklin bir tablonun içinde mi yoksa dışında mı görüntülendiğini gösteren bir bayrak alır veya ayarlar. Bu özelliğin yalnızca [OptimizeFor](https://reference.aspose.com/words/java/com.aspose.words/compatibilityoptions/#optimizeFor-int) yöntemini kullanarak belgeyi Microsoft Word 2010 için en iyileştirdiğinizde çalıştığını unutmayın.
 
-Aşağıdaki kod örneği bu özelliğin nasıl kullanılacağını göstermektedir:
+Aşağıdaki kod örneği, bu özelliğin nasıl kullanılacağını gösterir:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-SetShapeLayoutInCell.java" >}}

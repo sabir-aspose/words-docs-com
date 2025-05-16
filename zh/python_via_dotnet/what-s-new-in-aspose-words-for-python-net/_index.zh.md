@@ -6,27 +6,34 @@ linktitle: 最新消息 Aspose.Words为Python via .NET
 type: docs
 description: "Aspose.Words为Python via .NET 每天扩展和增强。 在这个页面上，您可以了解该产品的巨大和最有趣的功能。"
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /zh/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-02-17-18-02-05
+timestamp: 2025-04-16-07-02-05
 ---
 
 本页介绍了最近版本中引入的最有趣的Aspose.Words新特性。
 
-## Aspose.Words为Python via .NET 25.1, 25.2
+## Aspose.Words对于Python通过.NET 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words25.1引入了AI支持的语法检查，并通过HTML、SVG和Markdown格式的高级选项增强了文档保存。
 
-Aspose.Words25.2使用AnthropicAI模型引入文本摘要，添加MsWorks格式支持，增强排版控制，并改进PDF结构和列表处理。
+Aspose.Words25.2引入了带有AnthropicAI模型的文本摘要，增加了MsWorks格式支持，增强了排版控制，并改进了PDF结构和列表处理。
+
+Aspose.Words25.3使用UpdateAmbiguousTextFont属性增强了AI支持的语法检查器和字体选择，并改进了PDF附件导出。
+
+Aspose.Words25.4引入对新纸张尺寸的支持，启用高级HTML导出控制，并改进水印处理。
 
 ### AI功能
 
-#### 文档AI语法检查 <sup>25.1</sup>
+#### 文档AI语法检查
 
-通过添加一个新的[check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/)方法，引入了使用OpenAI生成模型检查所提供文档语法的能力。
+* 通过添加一个新的[check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/)方法，引入了使用OpenAI生成模型检查所提供文档语法的能力。 <sup>25.1</sup>
+* 更新了AI支持的语法检查功能，以支持[AiModelType](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodeltype/)枚举中可用的所有模型。 <sup>25.3</sup>
 
-#### 使用人类生成语言模型进行总结 <sup>25.2</sup>
+#### 使用Anthropic生成语言模型进行总结 <sup>25.2</sup>
 
-通过引入一个新的公共类[AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/)，启用了使用人类生成语言模型的文本摘要。
+通过引入一个新的公共类[AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/)，启用了使用Anthropic生成语言模型的文本摘要。
 
 ### 支持的格式 <sup>25.2</sup>
 
@@ -49,10 +56,24 @@ Aspose.Words25.2使用AnthropicAI模型引入文本摘要，添加MsWorks格式�
 
 已添加[number_spacing](https://reference.aspose.com/words/python-net/aspose.words/font/number_spacing/)属性以改进排版控制。
 
+#### 控制模糊字符的字体选择 <sup>25.3</sup>
+
+在[SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/)类中添加了一个新的公共属性[update_ambiguous_text_font](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/update_ambiguous_text_font/)，以根据使用的字符代码控制字体选择。
+
+#### 纸张尺寸选项 <sup>25.4</sup>
+
+通过向[PaperSize](https://reference.aspose.com/words/python-net/aspose.words/papersize/)枚举添加新值，引入了使用JISB4和JISB5纸张大小的功能。
+
+#### HTML输出控制 <sup>25.4</sup>
+
+通过添加[RemoveJavaScriptFromLinks](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/remove_java_script_from_links/)属性，可以在HTML导出期间从超链接URLs中删除JavaScript。
+
 ### 其他
 
 * PDF逻辑结构得到了改进，支持TOA、BIBLIOGRAPHY和INDEX字段。 <sup>25.2</sup>
 * 为了改进列表处理，引入了[add_single_level_list](https://reference.aspose.com/words/python-net/aspose.words.lists/listcollection/add_single_level_list/#listtemplate)方法。 <sup>25.2</sup>
+* 添加了一个新属性[attachments_embedding_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/attachments_embedding_mode/)来替换**EmbedAttachments**以改进PDF附件的导出。 此外，新值已添加到[PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/)枚举以支持PDF/A版本附件。 此外，附件现在支持加密。 <sup>25.3</sup>
+* 通过向[SetImage](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_image/#bytesio_imagewatermarkoptions)方法添加新的重载，引入了从流中设置图像水印的功能。 <sup>25.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,15 +81,19 @@ Aspose.Words25.2使用AnthropicAI模型引入文本摘要，添加MsWorks格式�
 
 了解更多关于 [Aspose.Words为Python via .NET 25.2发行说明](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
+了解更多关于 [Aspose.Words为Python via .NET 25.3发行说明](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-3-release-notes/).
+
+了解更多关于 [Aspose.Words为Python via .NET 25.4发行说明](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-4-release-notes/).
+
 {{% /alert %}}
 
 ## Aspose.Words对于Python通过.NET 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words24.9通过DocumentBuilder引入group shape插入和StructuredDocumentTag插入，使用渐变增强径向图表呈现，使用XAdES-EPES支持改进数字签名，添加Markdown下划线识别，并提供对脚注/尾注分隔符的访问。
 
-Aspose.Words24.10引入了增强的ActiveX控件支持CommandButton创建，新的形状可见性控制，group shapes的能力，改进的表格Markdown导出，Pie和Doughnut图表的图表格式，更好的Big5编码处理，以及对过时的台湾字体的支持。
+Aspose.Words24.10引入了增强的ActiveX控件支持CommandButton创建，新的形状可见性控制，group shapes的能力，改进的Markdown表格导出，Pie和Doughnut图表的图表格式，更好的Big5编码处理，以及对过时的台湾字体的支持。
 
-Aspose.Words24.11引入了AI支持的文档摘要、增强的呈现选项、改进的文档属性访问和ActiveX控件字幕。
+Aspose.Words24.11引入了AI支持的文档摘要，增强的呈现选项，改进了对文档属性的访问和ActiveX控制字幕。
 
 Aspose.Words24.12引入了可自定义的数据标签放置，GoogleAI支持的文本翻译和增强的新LowCode处理类。
 
@@ -92,7 +117,7 @@ Aspose.Words24.12引入了可自定义的数据标签放置，GoogleAI支持的�
 
 已经实现了在径向图表上绘制毕业图。
 
-#### CommandButtonActiveX控件 <sup>24.10</sup>
+#### CommandButton ActiveX 控件<sup>24.10</sup>
 
 通过添加新的公共方法[insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/)和新的公共类[Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/)，引入了创建CommandButtonActiveX控件的功能。
 
@@ -149,7 +174,7 @@ Aspose.Words24.12引入了可自定义的数据标签放置，GoogleAI支持的�
 * 改进了TrueTypecmap表的Big5编码处理。 <sup>24.10</sup>
 * 增强了对过时的台湾字体的支持。 <sup>24.10</sup>
 * 要访问扩展文档属性，已将只读属性添加到[BuiltInDocumentProperties](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/)类。 <sup>24.11</sup>
-* 通过向[Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/)属性添加新的公共setter，已启用ActiveX控件的设置标题。 <sup>24.11</sup>
+* 通过向[Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/)属性添加一个新的公共setter，已启用ActiveX控件的标题设置。 <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
@@ -169,7 +194,7 @@ Aspose.Words24.5扩展了程序集的选项，改进了呈现功能，并扩展�
 
 Aspose.Words24.6改进了渲染选项，增强了搜索和比较功能，并扩展了其他几个功能。
 
-Aspose.Words24.7更改您使用ActiveX的方式，扩展渲染功能，以及导出为Markdown和XLSX格式。
+Aspose.Words24.7更改ActiveX的工作方式，扩展渲染功能，以及导出为Markdown和XLSX格式。
 
 Aspose.Words24.8通过对轴标签的精确控制来增强图表自定义，扩展字体管理，改进文档结构处理，并为HTML/XAML导出、PDF功能、文档转换和数字签名添加新功能。
 
@@ -184,14 +209,14 @@ Aspose.Words24.8通过对轴标签的精确控制来增强图表自定义，扩�
 * 已经实现了SVG图形的DrawingML效果渲染，扩展了以前仅限于图像的功能。
 * 通过添加[ChartSeriesGroup](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroup/)和[ChartSeriesGroupCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriesgroupcollection/)类以及[series_groups](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/series_groups/)属性，支持在序列组中创建组合图和调整间隙宽度、重叠和气泡比例等属性。
 * 通过添加[SoftEdgeFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing/softedgeformat/)类实现了操作形状SoftEdge效果的功能。
-* 通过添加**AdjustmentCollection**和**Adjustment**公共类和[adjustments](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/adjustments/)属性，实现了修改形状调整值的能力。
+* 通过添加**AdjustmentCollection**和**Adjustment**公共类以及[adjustments](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/adjustments/)属性，实现了修改形状调整值的功能。
 
 #### 图表、形状和绘图的变化 <sup>24.6</sup>
 
 - 制图能力得到了增强。 您现在可以创建更多种类的图表，包括*Treemaps*, *Sunbursts*, *Histograms*, *Pareto* 图表，*Box & Whisker*图表，*Waterfalls*和*Funnels*。 这使您能够以更加多样化和信息丰富的方式可视化数据。
 - 阴影格式的颜色控制已得到改进。 通过访问阴影颜色，您可以更精确地控制文档的外观。
 - 改进了后台渲染的性能提升。 借助原生平铺技术，您可以显着加快包含小元素的背景的渲染速度。
-- 已添加形状的逼真渐变。 您现在可以创建具有非线性渐变的DML形状，模仿Microsoft Word的视觉样式以获得更抛光的外观。
+- 添加了形状的逼真渐变。 您现在可以创建具有非线性渐变的DML形状，模仿Microsoft Word的视觉样式以获得更抛光的外观。
 
 #### 图表数据标签定制 <sup>24.7</sup>
 
@@ -201,7 +226,7 @@ Aspose.Words24.8通过对轴标签的精确控制来增强图表自定义，扩�
 
 已添加公共属性[custom_number_style_format](https://reference.aspose.com/words/python-net/aspose.words.lists/listlevel/custom_number_style_format/)的setter。 您现在可以为列表级别定义自定义数字样式。
 
-#### 使用ActiveX的变化 <sup>24.7</sup>
+#### 使用ActiveX的更改 <sup>24.7</sup>
 
 - 现在可以修改ActiveX对象的属性，使您可以更好地控制其行为。
 - 添加了修改单选按钮ActiveX控件的值以启用动态交互的功能。
@@ -305,7 +330,7 @@ Aspose.Words24.4增强了保存格式，一些渲染选项，以及改进了数�
 
 #### 一个新的TIFF读者/作家 <sup>24.3</sup>
 
-已开发出适用于 Aspose.Words 的新型 TIFF 读取器/写入器。 Aspose.Words 对应 .NET 24.3增加了对读取具有 JPEG 和旧 JPEG 压缩类型的 TIFF 图像的支持，并且显著提高了读写操作的质量。
+已开发出适用于 Aspose.Words 的新 TIFF 读取器/写入器。针对 .NET 24.3 的 Aspose.Words增加了对读取 TIFF 压缩类型为 JPEG 和旧 JPEG 的图像的支持，并且显著提高了读写操作的质量。
 
 ### 其他
 
@@ -362,7 +387,7 @@ Aspose.Words23.12引入了用于处理PDF和OOXML文档的新属性和枚举，�
 
 #### DrawingML图表图例条目的默认字体格式 <sup>23.11</sup>
 
-通过[font](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartlegend/font/)属性添加了为DrawingML图表的图例条目指定默认字体格式的功能。 此功能有助于为图表元素提供更精简和一致的外观，从而提高整体文档美观度。
+通过[font](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartlegend/font/)属性添加了为DrawingML图表的图例条目指定默认字体格式的功能。 此功能有助于为图表元素提供更加精简和一致的外观，从而提高整体文档美观度。
 
 #### 在Reader中打开PDF时指定页面布局 <sup>23.12</sup>
 
@@ -380,7 +405,7 @@ Aspose.Words23.12引入了用于处理PDF和OOXML文档的新属性和枚举，�
 
 #### 加载TXT文档时识别超链接 <sup>23.10</sup>
 
-加载TXT文档时识别超链接的功能已通过添加新的[detect_hyperlinks](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/detect_hyperlinks/)属性实现。
+加载TXT文档时识别超链接的功能已通过添加新的[detect_hyperlinks](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/detect_hyperlinks/)属性来实现。
 
 ### 其他
 
@@ -389,7 +414,7 @@ Aspose.Words23.12引入了用于处理PDF和OOXML文档的新属性和枚举，�
 - 通过引入新的[locked](https://reference.aspose.com/words/python-net/aspose.words/style/locked/)属性，添加了访问和修改样式属性的功能。 <sup>23.10</sup>
 - 泛型类型参数已添加到[CompositeNode](https://reference.aspose.com/words/python-net/aspose.words/compositenode/)类的方法中。 <sup>23.10</sup>
 - 通过新的[XlsxSectionMode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsectionmode/)枚举类型和新的[section_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/section_mode/)属性提供了将文档的所有部分写入同一个XLSX工作表的能力。 <sup>23.11</sup>
-* 一种控制ZIP64格式扩展如何用于OOXML文档的方法已经通过`OoxmlSaveOptions`类的新Zip64Mode属性和新的Zip64Mode枚举实现。 <sup>23.12</sup>
+* 通过`OoxmlSaveOptions`类的新Zip64Mode属性和新的Zip64Mode枚举实现了一种控制ZIP64格式扩展如何用于OOXML文档的方法。 <sup>23.12</sup>
 * 已经引入了对WebP图像的支持。 请注意，此功能仅适用于。NetStandart和.NET6+版本。 <sup>23.12</sup>
 
 {{% alert color="primary" %}}
@@ -410,7 +435,7 @@ Aspose.Words23.5增强了处理图表系列数据的能力和处理ODT文档的�
 
 Aspose.Words23.6扩展渲染选项，添加新的导出格式，改进LINQ报告和LowCode工具。
 
-Aspose.Words23.7增强了报告功能，添加了新的导出格式，并引入了对表和数字签名的处理更改。
+Aspose.Words23.7增强了报告功能，添加了新的导出格式，并引入了对表和数字签名的处理的更改。
 
 Aspose.Words23.8扩展了不同格式的功能，改进了渲染，并添加了用于处理字段的新选项。
 

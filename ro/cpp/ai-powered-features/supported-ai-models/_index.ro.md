@@ -1,0 +1,31 @@
+---
+title: AI modele acceptate de Aspose.Words
+second_title: Aspose.Words pentru C++
+articleTitle: Modele Suportate AI
+linktitle: Modele Suportate AI
+type: docs
+weight: 10
+description: "Aspose.Words pentru C++ suportă modelele OpenAI și Google AI pentru rezumarea și traducerea documentelor. Utilizați Aspose.Words cu Gpt-4o, Gpt-4o mini, Gpt-4 Turbo, GPT-3.5 Turbo, Gemini 1.5 Flash, Gemini 1.5 Flash-8B, Gemini 1.5 Pro."
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+url: /ro/cpp/supported-ai-models/
+timestamp: 2025-03-17-19-00-00
+---
+
+Aspose.Words folosește acum modele avansate AI pentru a îmbunătăți procesarea și analiza documentelor. Cu spațiul de nume Aspose.Words.AI, dezvoltatorii pot accesa funcții care utilizează AI pentru sarcini precum rezumarea și analiza documentelor, integrând modele de limbaj generativ de la liderii din industrie.
+
+Biblioteca Aspose.Words acceptă în prezent integrarea cu familiile modelelor OpenAI, Google și Claude. Aceste modele aduc capabilități puternice pentru lucrul cu documente. Permițând interacțiunea perfectă cu aceste instrumente AI, Aspose.Words simplifică sarcinile complexe și îmbunătățește productivitatea pentru dezvoltatori.
+
+Puteți crea o instanță de model folosind metoda [Create](https://reference.aspose.com/words/cpp/aspose.words.ai/aimodel/create/) a clasei [AiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/aimodel/). Lista completă a tipurilor de modele acceptate este listată în enumerarea [AiModelType](https://reference.aspose.com/words/cpp/aspose.words.ai/aimodeltype/).
+
+Următorul exemplu de cod arată cum se creează o nouă instanță a clasei **AiModel**.
+
+{{< highlight cpp >}}
+static System::SharedPtr<Aspose::Words::AI::AiModel> Aspose::Words::AI::AiModel::Create(Aspose::Words::AI::AiModelType modelType)
+{{< /highlight >}}
+
+{{% alert color="primary" %}}
+
+Pentru mai multe informații, verificați documentația [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/) API.
+
+{{% /alert %}}

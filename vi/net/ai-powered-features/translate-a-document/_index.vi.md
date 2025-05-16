@@ -1,4 +1,4 @@
-﻿---
+---
 title: Dịch Một Tài liệu
 second_title: Aspose.Words cho .NET
 articleTitle: Dịch Một Tài liệu
@@ -6,6 +6,8 @@ linktitle: Dịch Một Tài liệu
 type: docs
 weight: 30
 description: "Dịch một tài liệu. Aspose.Words cho .NET đơn giản hóa dịch tài liệu bằng Các mô hình Google AI, cho phép bạn chỉ định ngôn ngữ đích."
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /vi/net/translate-a-document/
 timestamp: 2024-12-13-06-40-00
 ---
@@ -16,16 +18,7 @@ Sử dụng phương thức [Translate](https://reference.aspose.com/words/net/a
 
 Ví dụ mã sau đây cho thấy cách sử dụng mô hình *Gemini 1.5 Flash* trong Aspose.Words để dịch tài liệu sang tiếng ả rập:
 
-{{< highlight csharp >}}
-Document doc = new Document(MyDir + "Document.docx");
-
-string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-// Use Google generative language models.
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gemini15Flash).WithApiKey(apiKey);
-
-Document translatedDoc = model.Translate(doc, Language.Arabic);
-translatedDoc.Save(ArtifactsDir + "AI.AiTranslate.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "ea14b3e44c0233eecd663f783a21c4f6" "ai-translate.cs" >}}
 
 {{% alert color="primary" %}}
 

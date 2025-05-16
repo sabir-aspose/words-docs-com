@@ -1,20 +1,22 @@
-﻿---
+---
 title: Ein Dokument zusammenfassen
 second_title: Aspose.Words für Java
 articleTitle: Ein Dokument zusammenfassen
 linktitle: Ein Dokument zusammenfassen
 type: docs
 weight: 20
-description: "Fassen Sie ein Dokument zusammen. Aspose.Words für Java vereinfacht die Dokumentzusammenfassung mit OpenAI- und Google AI-Modellen, indem Sie die Länge der Zusammenfassung angeben können."
+description: "Fassen Sie ein Dokument zusammen. Aspose.Words für Java vereinfacht die Dokumentzusammenfassung mit OpenAI- und Google AI -Modellen, indem Sie die Länge der Zusammenfassung angeben können."
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /de/java/summarize-a-document/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
-Das Zusammenfassen von Dokumenten ist ein wertvolles Werkzeug für die Inhaltsprüfung, schnelle Einblicke oder das Erstellen von Abstracts. Aspose.Words unterstützt die Dokumentzusammenfassung mit AI-basierten Modellen, wodurch die Verarbeitung von Langtext erleichtert wird. Diese Funktion, die in der AI-basierten Aspose.Words-Funktionalität verfügbar ist, integriert erweiterte generative Sprachmodelle aus *OpenAI* und *Google*.
+Das Zusammenfassen von Dokumenten ist ein wertvolles Werkzeug für die Inhaltsprüfung, schnelle Einblicke oder das Erstellen von Abstracts. Aspose.Words unterstützt die Dokumentzusammenfassung mit AI-basierten Modellen, wodurch die Verarbeitung von Langtext erleichtert wird. Diese Funktion, die in der AI-basierten Aspose.Words-Funktionalität verfügbar ist, integriert erweiterte generative Sprachmodelle aus *OpenAI* und *Google* sowie *Claude's* anthropische generative Sprachmodelle. Die Liste der unterstützten Modelle ist in der [AiModelType](https://reference.aspose.com/words/java/com.aspose.words/aimodeltype/)-Aufzählung verfügbar.
 
 Sie können verschiedene Optionen für die Zusammenfassung von Dokumentinhalten angeben. Verwenden Sie die [Summarize](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#summarize-com.aspose.words.Document-com.aspose.words.SummarizeOptions)-Methode, um eine Zusammenfassung Ihres Dokuments zu generieren. Sie können die Länge der Zusammenfassung auch mit der Eigenschaft [SummaryLength](https://reference.aspose.com/words/java/com.aspose.words/summarizeoptions/#getSummaryLength) festlegen.
 
-Mit Aspose.Words ist die Implementierung der Dokumentzusammenfassung unkompliziert. Das folgende Codebeispiel zeigt, wie schnell ein Dokument mit dem GPT -4o-Modell summiert werden kann:
+Mit Aspose.Words ist die Implementierung der Dokumentzusammenfassung unkompliziert. Das folgende Codebeispiel zeigt, wie Sie ein Dokument mit dem Modell GPT-4o zusammenfassen:
 
 {{< highlight java >}}
 Document firstDoc = new Document(getMyDir() + "Big document.docx");

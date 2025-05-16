@@ -1,4 +1,4 @@
-﻿---
+---
 title: AI-Fitur bertenaga
 second_title: Aspose.Words untuk Java
 articleTitle: AI-Fitur bertenaga
@@ -6,8 +6,10 @@ linktitle: AI-Fitur bertenaga
 type: docs
 weight: 25
 description: "Aspose.Words untuk Java memperkenalkan alat bertenaga AI seperti peringkasan dokumen untuk meningkatkan efisiensi. Pelajari cara menggunakan fitur bertenaga AI dengan kiat dan panduan mendetail."
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /id/java/ai-powered-features/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
 Aspose.Words sekarang menyertakan fitur bertenaga AI yang dirancang untuk membuat pemrosesan dokumen menjadi lebih cerdas dan efisien. Alat ini memanfaatkan pembelajaran mesin tingkat lanjut untuk melakukan tugas seperti peringkasan dokumen, menawarkan kemampuan yang lebih canggih kepada pengembang untuk merampingkan alur kerja mereka.
@@ -16,4 +18,5 @@ Di bagian ini, kami akan membahas semua yang perlu Anda ketahui tentang pengguna
 
 * [Model AI yang didukung](/words/java/supported-ai-models/)
 * [Meringkas Dokumen](/words/java/summarize-a-document/)
-
+* [Menerjemahkan Dokumen](/words/java/translate-a-document/)
+* [Pemeriksaan Tata Bahasa](/words/java/grammar-checking/)

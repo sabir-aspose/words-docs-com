@@ -1,35 +1,24 @@
-﻿---
+---
 title: Узагальнення документа
 second_title: Aspose.Words для .NET
 articleTitle: Узагальнення документа
 linktitle: Узагальнення документа
 type: docs
 weight: 20
-description: "Узагальнення документа. Aspose.Words для .NET полегшує Узагальнення документа за допомогою моделей OpenAI та Google AI, дозволяючи вказати довжину резюме."
+description: "Узагальніть документ. Aspose.Words для .NET спрощує Узагальнення документа за допомогою моделей OpenAI і Google AI, дозволяючи вказати довжину резюме."
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /uk/net/summarize-a-document/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
-Узагальнення документів-це цінний інструмент для аналізу змісту, швидкого аналізу інформації або підготовки тез. Aspose.Words підтримує Узагальнення документів за допомогою моделей на основі AI, що полегшує обробку довгого тексту. Ця функція, доступна в просторі імен [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/), поєднує розширені моделі генеративної мови з *OpenAI* та *Google*.
+Узагальнення документів-це цінний інструмент для аналізу змісту, швидкого аналізу інформації або підготовки тез. Aspose.Words підтримує Узагальнення документів за допомогою моделей на основі AI, що полегшує обробку довгого тексту. Ця функція, доступна в просторі імен [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/), поєднує розширені моделі генеративної мови з *OpenAI* та *Google*, а також антропні моделі генеративної мови *Claude's*. Список підтримуваних моделей доступний у списку [AiModelType](https://reference.aspose.com/words/net/aspose.words.ai/aimodeltype/).
 
 Ви можете вказати різні параметри для узагальнення вмісту документа. Використовуйте метод [Summarize](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/summarize/) для створення короткої інформації про ваш документ. Ви також можете задати довжину короткої інформації, використовуючи властивість [SummaryLength](https://reference.aspose.com/words/net/aspose.words.ai/summarizeoptions/summarylength/).
 
-За допомогою Aspose.Words спрощується реалізація Узагальнення документа. Наступний приклад коду показує, як узагальнити документ за допомогою моделі GPT - 4o:
+За допомогою Aspose.Words спрощується реалізація Узагальнення документа. Наступний приклад коду показує, як узагальнити документ за допомогою моделі GPT-4o.:
 
-{{< highlight csharp >}}
-Document firstDoc = new Document(MyDir + "Big document.docx");
-Document secondDoc = new Document(MyDir + "Document.docx");
-
-string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-// Use OpenAI or Google generative language models.
-IAiModelText model = (IAiModelText)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
-
-Document oneDocumentSummary = model.Summarize(firstDoc, new SummarizeOptions() { SummaryLength = SummaryLength.Short });
-oneDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.One.docx");
-
-Document multiDocumentSummary = model.Summarize(new Document[] { firstDoc, secondDoc }, new SummarizeOptions() { SummaryLength = SummaryLength.Long });
-multiDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.Multi.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "1e379bedb2b759c1be24c64aad54d13d" "ai-summarize.cs" >}}
 
 {{% alert color="primary" %}}
 

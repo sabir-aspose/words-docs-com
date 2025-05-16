@@ -6,27 +6,34 @@ linktitle: מה חדש ב Aspose.Words עבור Python via .NET
 type: docs
 description: "Aspose.Words עבור Python via .NET מתרחב ומשפר מדי יום. בדף זה תוכלו ללמוד על התכונות הענקיות והמעניינות ביותר של המוצר."
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /he/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-02-17-18-02-05
+timestamp: 2025-04-16-07-02-05
 ---
 
 דף זה מתאר את התכונות החדשות המעניינות ביותר Aspose.Words שהוצגו במהדורות האחרונות.
 
-## Aspose.Words עבור Python via .NET 25.1, 25.2
+## Aspose.Words עבור Python דרך .NET 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 מציג AI - בדיקת דקדוק מופעלת ומשפר את שמירת המסמכים עם אפשרויות מתקדמות לפורמטים HTML, SVG ו Markdown.
 
-Aspose.Words 25.2 מציג סיכום טקסט עם מודלים אנתרופיים AI, מוסיף תמיכה בפורמט MsWorks, משפר את השליטה הטיפוגרפית ומשפר PDF מבנה וטיפול ברשימה.
+Aspose.Words 25.2 מציג סיכום טקסט עם Anthropic AI מודלים, מוסיף MsWorks תמיכה בפורמט, משפר את השליטה הטיפוגרפית ומשפר PDF מבנה וטיפול ברשימה.
+
+Aspose.Words 25.3 משפר בודק דקדוק מופעל AI ובחירת גופנים עם המאפיין UpdateAmbiguousTextFont, כמו גם משפר PDF ייצוא קבצים מצורפים.
+
+Aspose.Words 25.4 מציג תמיכה בגדלי נייר חדשים, מאפשר בקרת ייצוא מתקדמת HTML ומשפר את הטיפול בסימני מים.
 
 ### AI - מופעל תכונות
 
-#### מסמך AI בדיקת דקדוק <sup>25.1</sup>
+#### מסמך AI בדיקת דקדוק
 
-היכולת לבדוק את הדקדוק של המסמך שסופק באמצעות מודלים גנראטיביים OpenAI הוצגה על ידי הוספת שיטה חדשה [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/).
+* היכולת לבדוק את הדקדוק של המסמך שסופק באמצעות מודלים גנראטיביים OpenAI הוצגה על ידי הוספת שיטה חדשה [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/). <sup>25.1</sup>
+* תכונת בדיקת הדקדוק המופעלת AI עודכנה כדי לתמוך בכל הדגמים הזמינים בספירה [AiModelType](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodeltype/). <sup>25.3</sup>
 
-#### סיכום באמצעות מודלים של שפה גנראטיבית אנתרופית <sup>25.2</sup>
+#### סיכום באמצעות מודלים של שפה גנראטיבית Anthropic <sup>25.2</sup>
 
-סיכום טקסט באמצעות מודלים של שפה גנראטיבית אנתרופית התאפשר על ידי הצגת מעמד ציבורי חדש [AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/).
+סיכום טקסט באמצעות מודלים של שפה גנראטיבית Anthropic הופעל על ידי הצגת כיתה ציבורית חדשה [AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/).
 
 ### פורמטים נתמכים <sup>25.2</sup>
 
@@ -49,10 +56,24 @@ Aspose.Words 25.2 מציג סיכום טקסט עם מודלים אנתרופי�
 
 המאפיין [number_spacing](https://reference.aspose.com/words/python-net/aspose.words/font/number_spacing/) נוסף לשליטה טיפוגרפית משופרת.
 
+#### בחירת גופן שליטה עבור תווים מעורפלים <sup>25.3</sup>
+
+נכס ציבורי חדש [update_ambiguous_text_font](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/update_ambiguous_text_font/) נוסף לכיתה [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) כדי לשלוט בבחירת הגופן בהתאם לקוד התווים בו נעשה שימוש.
+
+#### אפשרויות גודל נייר <sup>25.4</sup>
+
+היכולת להשתמש בגדלי נייר JIS B4 ו JIS B5 הוצגה על ידי הוספת ערכים חדשים לספירה [PaperSize](https://reference.aspose.com/words/python-net/aspose.words/papersize/).
+
+#### HTML פלט שליטה <sup>25.4</sup>
+
+היכולת להסיר JavaScript מההיפר-קישור URLs במהלך HTML ייצוא הוצגה על ידי הוספת המאפיין [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/remove_java_script_from_links/).
+
 ### אחרים
 
 * PDF המבנה הלוגי שופר עם תמיכה בשדות TOA, BIBLIOGRAPHY ו INDEX. <sup>25.2</sup>
 * שיטת [add_single_level_list](https://reference.aspose.com/words/python-net/aspose.words.lists/listcollection/add_single_level_list/#listtemplate) הוצגה לטיפול ברשימה משופרת. <sup>25.2</sup>
+* נכס חדש [attachments_embedding_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/attachments_embedding_mode/) נוסף כדי להחליף **EmbedAttachments** כדי לשפר את הייצוא של הקבצים המצורפים PDF. כמו כן, ערכים חדשים נוספו לספירה [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) כדי לתמוך בקבצים מצורפים של גירסאות PDF/A. בנוסף, קבצים מצורפים נתמכים כעת בהצפנה. <sup>25.3</sup>
+* היכולת להגדיר סימן מים של תמונה מהזרם הוצגה על ידי הוספת עומס יתר חדש לשיטה [SetImage](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_image/#bytesio_imagewatermarkoptions). <sup>25.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,15 +81,19 @@ Aspose.Words 25.2 מציג סיכום טקסט עם מודלים אנתרופי�
 
 למידע נוסף על [Aspose.Words עבור Python via .NET 25.2 הערות שחרור](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
+למידע נוסף על [Aspose.Words עבור Python via .NET 25.3 הערות שחרור](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-3-release-notes/).
+
+למידע נוסף על [Aspose.Words עבור Python via .NET 25.4 הערות שחרור](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-4-release-notes/).
+
 {{% /alert %}}
 
 ## Aspose.Words עבור Python דרך .NET 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 מציג group shape הכנסה ו StructuredDocumentTag הכנסה באמצעות DocumentBuilder, משפר את עיבוד התרשים הרדיאלי עם סיום הלימודים, משפר חתימות דיגיטליות עם XAdES-EPES תמיכה, מוסיף Markdown זיהוי קו תחתון ומספק גישה למפרידי הערת שוליים/הערת סיום.
 
-Aspose.Words 24.10 מציג תמיכה משופרת בבקרת אקטיבקס עם CommandButton יצירה, בקרת נראות צורה חדשה, יכולת group shapes, שיפור Markdown ייצוא לטבלאות, עיצוב תרשים עבור Pie ו Doughnut תרשימים, טיפול טוב יותר בקידוד ביג 5 ותמיכה בגופנים טייוואניים מיושנים.
+Aspose.Words 24.10 מציג תמיכה משופרת ActiveX עם CommandButton יצירה, בקרת נראות צורה חדשה, יכולת group shapes, שיפור Markdown ייצוא לטבלאות, עיצוב תרשים עבור Pie ו Doughnut תרשימים, טיפול טוב יותר בקידוד ביג 5 ותמיכה בגופנים טייוואניים מיושנים.
 
-Aspose.Words 24.11 מציג סיכום מסמכים המופעל על AI, אפשרויות עיבוד משופרות, גישה משופרת למאפייני המסמך וכיתוב בקרת אקטיבקס.
+Aspose.Words 24.11 מציג AI - סיכום מסמכים מופעל, אפשרויות עיבוד משופרות, גישה משופרת למאפייני מסמך ו ActiveX כיתוב בקרה.
 
 Aspose.Words 24.12 מציג מיקום תווית נתונים להתאמה אישית, גוגל AI-תרגום טקסט מופעל, ושיעורי עיבוד חדשים LowCode משופרים.
 
@@ -92,9 +117,9 @@ Aspose.Words 24.12 מציג מיקום תווית נתונים להתאמה אי
 
 עיבוד של סיום הלימודים על תרשימים רדיאליים יושם.
 
-#### CommandButton בקרות אקטיבקס <sup>24.10</sup>
+#### CommandButton ActiveX פקדים <sup>24.10</sup>
 
-היכולת ליצור בקרות אקטיביקס CommandButton הוצגה על ידי הוספת שיטה ציבורית חדשה [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) וכיתה ציבורית חדשה [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/).
+היכולת ליצור בקרות CommandButton ActiveX הוצגה על ידי הוספת שיטה ציבורית חדשה [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) וכיתה ציבורית חדשה [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/).
 
 #### בקרת צורת נראות <sup>24.10</sup>
 
@@ -149,7 +174,7 @@ PDF הייצוא שופר על ידי הכללת מאפייני כותרת הט�
 * טיפול בקידוד ביג 5 עבור TrueType טבלאות המפה שופר. <sup>24.10</sup>
 * התמיכה בגופנים טייוואניים מיושנים שופרה. <sup>24.10</sup>
 * כדי לגשת למאפייני מסמך מורחבים, נוספו מאפיינים לקריאה בלבד לכיתה [BuiltInDocumentProperties](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/). <sup>24.11</sup>
-* הגדרת כיתובים עבור פקדי אקטיבקס הופעלה על ידי הוספת מגדיר ציבורי חדש למאפיין [Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/). <sup>24.11</sup>
+* הגדרת כיתובים עבור בקרות ActiveX הופעלה על ידי הוספת מגדיר ציבורי חדש למאפיין [Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/). <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
@@ -163,13 +188,13 @@ PDF הייצוא שופר על ידי הכללת מאפייני כותרת הט�
 
 {{% /alert %}}
 
-## Aspose.Words עבור Python באמצעות NET 24.5, 24.6, 24.7, 24.8
+## Aspose.Words עבור Python דרך .NET 24.5, 24.6, 24.7, 24.8
 
 Aspose.Words 24.5 מרחיב אפשרויות למכלולים, משפר את יכולות העיבוד ומרחיב כמה אפשרויות אחרות.
 
 Aspose.Words 24.6 משפר את אפשרויות העיבוד, משפר את פונקציונליות החיפוש וההשוואה ומרחיב מספר תכונות אחרות.
 
-Aspose.Words 24.7 משנה את אופן העבודה עם אקטיבקס, מרחיב את יכולות העיבוד, כמו גם ייצוא לפורמטים Markdown ו - XLSX.
+Aspose.Words 24.7 משנה את אופן העבודה שלך עם ActiveX, מרחיב את יכולות העיבוד, כמו גם ייצוא לפורמטים Markdown ו - XLSX.
 
 Aspose.Words 24.8 משפר את ההתאמה האישית של התרשים עם שליטה מדויקת על תוויות הציר, מרחיב את ניהול הגופנים, משפר את הטיפול במבנה המסמך ומוסיף יכולות חדשות עבור HTML/XAML ייצוא, PDF פונקציונליות, המרת מסמכים וחתימות דיגיטליות.
 
@@ -201,11 +226,11 @@ Aspose.Words 24.8 משפר את ההתאמה האישית של התרשים עם
 
 הוסף סטר לרכוש הציבורי [custom_number_style_format](https://reference.aspose.com/words/python-net/aspose.words.lists/listlevel/custom_number_style_format/). עכשיו אתה יכול להגדיר סגנון מספר מותאם אישית עבור רמות רשימה.
 
-#### שינויים בעבודה עם אקטיבקס <sup>24.7</sup>
+#### שינויים בעבודה עם ActiveX <sup>24.7</sup>
 
-- כעת ניתן לשנות את המאפיינים של אובייקטי אקטיבקס, מה שנותן לך שליטה רבה יותר בהתנהגותם.
-- נוספה היכולת לשנות את הערך של בקרת אקטיבקס של לחצן הבחירה כדי לאפשר אינטראקציה דינמית.
-- נוספה היכולת להחליף אקטיבקס checkbox ל "מסומן" או "לא מסומן".
+- כעת ניתן לשנות את המאפיינים של ActiveX אובייקטים, מה שנותן לך שליטה רבה יותר על התנהגותם.
+- היכולת לשנות את הערך של לחצן הבחירה ActiveX שליטה כדי לאפשר אינטראקציה דינמית נוספה.
+- נוספה היכולת להחליף ActiveX checkbox ל "מסומן" או "לא מסומן".
 
 #### שליטה על ציר התרשים סמן תוויות כיוון וסיבוב <sup>24.8</sup>
 
@@ -259,7 +284,7 @@ PDF ייצוא עם תמיכה בשימוש בתגים SDT כשמות שדות �
 
 {{% /alert %}}
 
-## Aspose.Words עבור Python דרך NET 24.1, 24.2, 24.3, 24.4
+## Aspose.Words עבור Python דרך .NET 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 משפר את החוויה סביב ניהול צבעי שבץ, משפר OLE אובייקטים, כמו גם מציג חדש `Bibliography Sources` ציבורי API.
 
@@ -328,7 +353,7 @@ Aspose.Words 24.4 משפר את פורמטי החיסכון, כמה אפשרוי
 
 {{% /alert %}}
 
-## Aspose.Words עבור Python באמצעות NET 23.9, 23.10, 23.11, 23.12
+## Aspose.Words עבור Python דרך .NET 23.9, 23.10, 23.11, 23.12
 
 Aspose.Words 23.9 מרחיב את אפשרויות העיבוד, הדמיית עיבוד מטאפיל ו markdown שמור אפשרויות.
 
@@ -389,7 +414,7 @@ Aspose.Words 23.12 מציג מאפיינים וספירות חדשים לעבו�
 - היכולת לגשת ולשנות מאפייני סגנון נוספה באמצעות הצגת המאפיין החדש [locked](https://reference.aspose.com/words/python-net/aspose.words/style/locked/). <sup>23.10</sup>
 - פרמטר סוג כללי נוסף לשיטות של הכיתה [CompositeNode](https://reference.aspose.com/words/python-net/aspose.words/compositenode/). <sup>23.10</sup>
 - היכולת לכתוב את כל חלקי המסמך על אותו גליון עבודה XLSX ניתנה באמצעות סוג הספירה החדש [XlsxSectionMode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsectionmode/) והמאפיין החדש [section_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/section_mode/). <sup>23.11</sup>
-* דרך לשלוט כיצד ישמשו הרחבות פורמט ZIP64 למסמכים OOXML יושמה באמצעות המאפיין החדש Zip64Mode של הכיתה `OoxmlSaveOptions` והמניין החדש Zip64Mode. <sup>23.12</sup>
+* דרך לשלוט כיצד ישמשו הרחבות פורמט ZIP64 למסמכים OOXML יושמה באמצעות המאפיין החדש של זיפ 64 מצב של הכיתה `OoxmlSaveOptions` והספירה החדשה של זיפ 64 מצב. <sup>23.12</sup>
 * תמיכה בתמונת WebP הוצגה. שים לב שתכונה זו זמינה רק עבור .NetStandart ו .NET6 + גרסאות. <sup>23.12</sup>
 
 {{% alert color="primary" %}}
@@ -404,7 +429,7 @@ Aspose.Words 23.12 מציג מאפיינים וספירות חדשים לעבו�
 
 {{% /alert %}}
 
-## Aspose.Words עבור Python באמצעות NET 23.5, 23.6, 23.7, 23.8
+## Aspose.Words עבור Python דרך .NET 23.5, 23.6, 23.7, 23.8
 
 Aspose.Words 23.5 משפר את היכולת לעבוד עם נתוני סדרות תרשים ואת היכולת לעבוד עם ODT מסמכים, כמו גם לשפר כותרות עליונות / תחתונות ועטיפת הטקסט שלהם.
 

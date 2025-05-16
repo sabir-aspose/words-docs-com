@@ -1,4 +1,4 @@
-﻿---
+---
 title: Utilisation du filigrane dans Java
 second_title: Aspose.Words pour Java
 articleTitle: Travailler avec un filigrane
@@ -6,8 +6,10 @@ linktitle: Travailler avec un filigrane
 type: docs
 description: "Manipulation du filigrane du document à l'aide de Java."
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /fr/java/working-with-watermark/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-04-22-08-07-04
 ---
 
 Cette rubrique explique comment travailler par programmation avec un filigrane à l'aide de Aspose.Words. Un filigrane est une image d'arrière-plan qui s'affiche derrière le texte d'un document. Un filigrane peut contenir un texte ou une image représentée par la classe [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/).
@@ -22,7 +24,7 @@ Vous pouvez essayer cette fonctionnalité avec notre [Filigrane de document en l
 
 ## Ajouter un filigrane à un document
 
-Dans Microsoft Word, un filigrane peut facilement être inséré dans un document à l'aide de la commande Insérer un filigrane. Aspose.Words fournit la classe [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) pour ajouter ou supprimer un filigrane dans les documents. Aspose.Words fournit l'énumération [WatermarkType](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)définissant trois types de filigranes possibles (Texte, Image et Aucun) avec lesquels travailler.
+Dans Microsoft Word, un filigrane peut facilement être inséré dans un document à l'aide de la commande Insérer un filigrane. Aspose.Words fournit la classe [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) pour ajouter ou supprimer un filigrane dans les documents. Aspose.Words fournit l'énumération [WatermarkType ](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)définissant trois types de filigranes possibles (Texte, Image et Aucun) avec lesquels travailler.
 
 ### Ajouter Un Filigrane De Texte
 
@@ -35,6 +37,8 @@ L'exemple de code suivant montre comment insérer un filigrane de texte dans un 
 L'exemple de code suivant montre comment insérer un filigrane d'image dans un document en définissant [ImageWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/imagewatermarkoptions/) à l'aide de la méthode [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.awt.image.BufferedImage):
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.java" >}}
+
+Le filigrane d'image peut être inséré en tant qu'image, chaîne ou flux.
 
 Le filigrane peut également être inséré à l'aide de la classe de forme. Il est très facile d'insérer n'importe quelle forme ou image dans un en-tête ou un pied de page et ainsi créer un filigrane de n'importe quel type imaginable.
 

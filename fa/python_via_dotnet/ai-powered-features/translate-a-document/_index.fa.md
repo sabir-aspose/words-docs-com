@@ -1,4 +1,4 @@
-﻿---
+---
 title: ترجمه یک سند
 second_title: Aspose.Words برای Python via .NET
 articleTitle: ترجمه یک سند
@@ -6,6 +6,8 @@ linktitle: ترجمه یک سند
 type: docs
 weight: 30
 description: "ترجمه یک سند. Aspose.Words برای Python ترجمه سند را با استفاده از مدل های Google AI ساده می کند و به شما امکان می دهد زبان هدف را مشخص کنید."
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /fa/python-net/translate-a-document/
 timestamp: 2025-01-15-16-40-05
 ---

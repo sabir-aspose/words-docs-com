@@ -1,32 +1,45 @@
 ---
-title: Ne var ne yok
-second_title: .NET için Aspose.Words
-articleTitle: .NET için Aspose.Words'teki yenilikler
-linktitle: .NET için Aspose.Words'teki yenilikler
+title: Yenilikler
+second_title: Aspose.Words için .NET
+articleTitle: İçerideki yenilikler Aspose.Words için .NET
+linktitle: İçerideki yenilikler Aspose.Words için .NET
 type: docs
-description: ".NET için Aspose.Words her gün genişler ve gelişir. Bu sayfada ürünün büyük ve en ilginç özellikleri hakkında bilgi edinebilirsiniz."
+description: "Aspose.Words için .NET her gün genişler ve gelişir. Bu sayfada, ürünün devasa ve en ilginç özellikleri hakkında bilgi edinebilirsiniz."
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /tr/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2025-02-17-18-02-05
+timestamp: 2025-04-16-07-02-05
 ---
 
-Bu sayfada son sürümlerde tanıtılan en ilginç yeni Aspose.Words özellikleri açıklanmaktadır.
+Bu sayfa, son sürümlerde tanıtılan en ilginç yeni Aspose.Words özellikleri açıklamaktadır.
 
-## Aspose.Words için .NET 25.1, 25.2
+## Aspose.Words için .NET 25.1, 25.2, 25.3, 25.4
 
-Aspose.Words 25.1, AI destekli dil bilgisi denetimini sunar ve HTML, SVG ve Markdown biçimleri için gelişmiş seçeneklerle belge kaydetmeyi geliştirir.
+Aspose.Words 25.1, AI destekli dilbilgisi denetimini sunar ve HTML, SVG ve Markdown biçimleri için gelişmiş seçeneklerle belge kaydetmeyi geliştirir.
 
-Aspose.Words 25.2 Antropik AI modellerle metin özetlemeyi tanıtır, MsWorks biçim desteği ekler, tipografik kontrolü geliştirir ve PDF yapı ve liste işlemeyi geliştirir.
+Aspose.Words 25.2 Anthropic AI modellerle metin özetlemeyi tanıtır, MsWorks biçim desteği ekler, tipografik kontrolü geliştirir ve PDF yapı ve liste işlemeyi geliştirir.
 
-### AI Destekli Özellikler
+Aspose.Words 25.3 UpdateAmbiguousTextFont özelliğine sahip AI destekli bir dilbilgisi denetleyicisini ve yazı tipi seçimini geliştirir ve ayrıca PDF eklerin dışa aktarılmasını geliştirir.
 
-#### Belge AI Dil Bilgisi Denetimi <sup>25.1</sup>
+Aspose.Words 25.4 yeni kağıt boyutları için destek sunar, gelişmiş HTML dışa aktarma kontrolünü etkinleştirir, filigran işlemeyi geliştirir ve LowCode API'nin kullanılabilirliğini artırır.
 
-OpenAI üretken modelleri kullanılarak sağlanan belgenin dil bilgisini denetleme yeteneği, yeni bir [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/) yöntemi eklenerek tanıtıldı.
+### AI -güçlendirilmiş Özellikler
 
-#### Antropik Üretken Dil Modellerini Kullanarak Özetleme <sup>25.2</sup>
+#### Belge AI Dilbilgisi Denetimi
 
-Antropik üretken dil modellerini kullanarak metin özetlemesi, yeni bir genel sınıf [AnthropicAiModel](https://reference.aspose.com/words/net/aspose.words.ai/anthropicaimodel/) getirilerek etkinleştirildi.
+* Sağlanan belgenin dilbilgisini OpenAI üretici modelleri kullanarak kontrol etme yeteneği, yeni bir [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/) yöntemi eklenerek tanıtıldı. <sup>25.1</sup>
+* AI destekli Dilbilgisi Denetimi özelliği, [AiModelType](https://reference.aspose.com/words/net/aspose.words.ai/aimodeltype/) numaralandırmasında bulunan tüm modelleri destekleyecek şekilde güncellendi. <sup>25.3</sup>
+
+#### Anthropic Üretici Dil Modellerini Kullanarak Özetleme <sup>25.2</sup>
+
+Anthropic üretici dil modellerini kullanarak metin özetlemesi, yeni bir genel sınıf [AnthropicAiModel](https://reference.aspose.com/words/net/aspose.words.ai/anthropicaimodel/) getirilerek etkinleştirildi.
+
+### Low Code
+
+#### Low Code API Kullanılabilirlik <sup>25.4</sup>
+
+**LowCode API** 'ın kullanılabilirliğinde, belge işlemeyi basitleştiren ve tekrarlayan kod ihtiyacını azaltan önemli iyileştirmeler getirildi.
 
 ### Desteklenen Biçimler <sup>25.2</sup>
 
@@ -34,14 +47,15 @@ Antropik üretken dil modellerini kullanarak metin özetlemesi, yeni bir genel s
 
 ### Belgeleri Dönüştürme, Yükleme ve Kaydetme
 
-#### HTML ve SVG Biçimlerine Kaydetme Geliştirildi <sup>25.1</sup>
+#### HTML ve SVG Biçimlerine Geliştirilmiş Kaydetme <sup>25.1</sup>
 
-HTML ve SVG biçimlerine kaydetme, hem [HtmlFixedSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlfixedsaveoptions/) hem de [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/) sınıflarına **IdPrefix** ve **RemoveJavaScriptFromLinks** özelliklerinin eklenmesiyle geliştirildi.
+HTML ve SVG biçimlerine kaydetme, hem [HtmlFixedSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlfixedsaveoptions/) hem de [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/) sınıflarına **IdPrefix** ve **RemoveJavaScriptFromLinks** özellikleri eklenerek geliştirilmiştir.
 
-#### Markdown <sup>25.1</sup>'e Kaydederken Görüntü Çözünürlüğünü ve OfficeMath Çıktı Modunu Ayarlayın
+#### Kaydederken Görüntü Çözünürlüğünü ve OfficeMath Çıkış Modunu Markdown <sup>25.1 olarak Ayarlayın</sup>
 
 * Görüntü çözünürlüğünü ayarlamak için [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) sınıfına yeni bir [ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imageresolution/) seçeneği eklendi.
-* OfficeMath çıktı modunu ayarlamak için yeni bir [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) seçeneği ve [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) sayımı [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) sınıfına eklendi.
+* OfficeMath çıktı modunu ayarlamak için [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) sınıfına yeni bir [OfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) seçeneği ve [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownofficemathexportmode/) numaralandırması eklendi ve eklendi.
+* [SetImage](https://reference.aspose.com/words/net/aspose.words/watermark/setimage/#setimage_2) yöntemine yeni bir aşırı yük eklenerek bir akıştan görüntü filigranı ayarlama özelliği tanıtıldı. <sup>25.4</sup>
 
 ### İşleme
 
@@ -49,60 +63,77 @@ HTML ve SVG biçimlerine kaydetme, hem [HtmlFixedSaveOptions](https://reference.
 
 Geliştirilmiş tipografik kontrol için [NumberSpacing](https://reference.aspose.com/words/net/aspose.words/font/numberspacing/) özelliği eklendi.
 
+#### Belirsiz Karakterler için Yazı Tipi Seçimini Denetleme <sup>25.3</sup>
+
+Kullanılan karakter koduna göre yazı tipi seçimini denetlemek için [SaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/) sınıfına yeni bir genel özellik [UpdateAmbiguousTextFont](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/updateambiguoustextfont/) eklendi.
+
+#### Kağıt Boyutu Seçenekleri <sup>25.4</sup>
+
+JIS B4 ve JIS B5 kağıt boyutlarını kullanma yeteneği, [PaperSize](https://reference.aspose.com/words/net/aspose.words/papersize/) numaralandırmasına yeni değerler eklenerek tanıtıldı.
+
+#### HTML Çıkış Kontrolü <sup>25.4</sup>
+
+HTML dışa aktarma sırasında JavaScript köprüsünden URLs kaldırma özelliği, [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/removejavascriptfromlinks/) özelliği eklenerek tanıtıldı.
+
 ### Diğer
 
 * PDF mantıksal yapı TOA, BIBLIOGRAPHY ve INDEX alanları desteği ile geliştirilmiştir. <sup>25.2</sup>
 * Geliştirilmiş liste işleme için [AddSingleLevelList](https://reference.aspose.com/words/net/aspose.words.lists/listcollection/addsinglelevellist/) yöntemi tanıtıldı. <sup>25.2</sup>
+* PDF eklerin dışa aktarımını iyileştirmek için **EmbedAttachments** yerine [AttachmentsEmbeddingMode](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/attachmentsembeddingmode/) yeni bir özellik eklendi. Ayrıca, PDF/A sürüm eklerini desteklemek için [PdfCompliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) numaralandırmasına yeni değerler eklenmiştir. Ek olarak, ekler artık şifreleme ile desteklenmektedir. <sup>25.3</sup>
 
 {{% alert color="primary" %}}
 
-[.NET 25.1 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/) hakkında daha fazla bilgi edinin.
+Hakkında daha fazla bilgi edinin [Aspose.Words için .NET 25.1 Sürüm Notları](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-1-release-notes/).
 
 Hakkında daha fazla bilgi edinin [Aspose.Words için .NET 25.2 Sürüm Notları](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-2-release-notes/).
+
+Hakkında daha fazla bilgi edinin [Aspose.Words için .NET 25.3 Sürüm Notları](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-3-release-notes/).
+
+Hakkında daha fazla bilgi edinin [Aspose.Words için .NET 25.4 Sürüm Notları](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-4-release-notes/).
 
 {{% /alert %}}
 
 ## Aspose.Words için .NET 24.9, 24.10, 24.11, 24.12
 
-Aspose.Words 24.9, DocumentBuilder aracılığıyla grup şekli ekleme ve StructuredDocumentTag eklemeyi sunar, derecelendirmelerle radyal grafik oluşturmayı geliştirir, XAdES-EPES desteğiyle dijital imzaları iyileştirir, Markdown alt çizgi tanıma ekler ve dipnot/sonnot ayırıcılarına erişim sağlar.
+Aspose.Words 24.9 group shape ekleme ve StructuredDocumentTag ekleme işlemlerini DocumentBuilder aracılığıyla tanıtır, mezuniyetlerle radyal grafik oluşturmayı geliştirir, XAdES-EPES desteğiyle dijital imzaları geliştirir, Markdown altı çizili tanıma ekler ve dipnot / sonnot ayırıcılarına erişim sağlar.
 
-Aspose.Words 24.10, CommandButton oluşturma, yeni şekil görünürlük denetimi, şekilleri gruplama yeteneği, tablolar için geliştirilmiş Markdown dışa aktarma, Pasta ve Çörek grafikleri için grafik biçimlendirme, daha iyi Big5 kodlama işleme ve güncel olmayan Tayvan yazı tipleri için destek ile gelişmiş ActiveX denetim desteği sunar.
+Aspose.Words 24.10, CommandButton oluşturma, yeni şekil görünürlüğü kontrolü, group shapes yeteneği, tablolar için geliştirilmiş Markdown dışa aktarma, Pie ve Doughnut grafikler için grafik biçimlendirme, daha iyi Bıg5 kodlama işleme ve eski sürümler için destek ile gelişmiş ActiveX kontrol desteği sunar Tayvanlı yazı tipleri.
 
-Aspose.Words 24.11, AI destekli belge özetleme, gelişmiş oluşturma seçenekleri, belge özelliklerine geliştirilmiş erişim ve ActiveX denetimi altyazısını sunar.
+Aspose.Words 24.11, AI destekli belge özetleme, gelişmiş oluşturma seçenekleri, belge özelliklerine geliştirilmiş erişim ve ActiveX altyazı denetimini sunar.
 
-Aspose.Words 24.12, özelleştirilebilir veri etiketi yerleşimini, Google AI destekli metin çevirisini, gelişmiş Posta Birleştirme temizleme seçeneklerini ve yeni LowCode işleme sınıflarını sunar.
+Aspose.Words 24.12 özelleştirilebilir veri etiketi yerleşimi, Google AI destekli metin çevirisi, gelişmiş Mail Merge temizleme seçenekleri ve yeni LowCode işleme sınıfları sunar.
 
-### AI-güçlendirilmiş Özellikler
+### AI -güçlendirilmiş Özellikler
 
-#### OpenAI ve Google <sup>24.11</sup> Kullanarak Belge Özetleme
+#### OpenAI ve Google <sup>24.11 Kullanarak Belge Özetleme</sup>
 
 **OpenAI** ve **Google** üretici dil modellerini kullanarak belge özetleme desteği, genel üyeleriyle [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) ad alanı eklenerek entegre edilmiştir.
 
 #### Google'ın üretken dil modellerini kullanarak metin çevirisi <sup>24.12</sup>
 
-Google'ın üretken dil modellerini kullanarak metin çevirme yeteneği, [Translate](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/translate/) yöntemi ve [Language](https://reference.aspose.com/words/net/aspose.words.ai/language/) numaralandırmasının [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) ad alanına eklenmesiyle Aspose.Words'e uygulanmıştır.
+Google'ın üretken dil modellerini kullanarak metni çevirme yeteneği, [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) ad alanına [Translate](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/translate/) yöntemi ve [Language](https://reference.aspose.com/words/net/aspose.words.ai/language/) numaralandırması eklenerek Aspose.Words'te uygulanmıştır.
 
 ### Low Code <sup>24.12</sup>
 
-Yeni LowCode sınıfları gibi [Comparer](https://reference.aspose.com/words/net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/net/aspose.words.lowcode/splitter/) vb. tanıtıldı ve belge işleme için basitlik ve esneklik arasında mükemmel dengeyi sağlayan bir dizi yöntem sunuldu.
+Yeni LowCode sınıflar gibi [Comparer](https://reference.aspose.com/words/net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/net/aspose.words.lowcode/splitter/) vb. belge işleme için basitlik ve esneklik arasında mükemmel dengeyi sağlayan bir dizi yöntem sunan tanıtıldı.
 
 ### Oluşturma ve Yazdırma
 
-#### Radyal Grafiklerde Derecelendirmeler <sup>24.9</sup>
+#### Radyal Grafiklerde Mezuniyetler <sup>24.9</sup>
 
-Radyal grafiklerde derecelendirmelerin oluşturulması uygulandı.
+Radyal grafiklerde mezuniyetlerin oluşturulması uygulanmıştır.
 
-#### CommandButton ActiveX Denetimleri <sup>24.10</sup>
+#### CommandButton ActiveX Kontroller <sup>24.10</sup>
 
 CommandButton ActiveX denetimleri oluşturma yeteneği, yeni bir genel yöntem [InsertForms2OleControl](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertforms2olecontrol/) ve yeni bir genel sınıf [Forms2OleControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/) eklenerek tanıtıldı.
 
-#### Şekil Görünürlüğünü Kontrol Et <sup>24.10</sup>
+#### Kontrol Şekli Görünürlüğü <sup>24.10</sup>
 
-Şekillerin görünürlüğünü kontrol etmek için yeni bir genel özellik [Hidden](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/hidden/) eklendi.
+Şekillerin görünürlüğünü denetlemek için yeni bir genel özellik [Hidden](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/hidden/) eklendi.
 
-#### Pasta ve Halka Grafiklerindeki Değişiklikler <sup>24.10</sup>
+#### Pie ve Doughnut Grafiklerindeki Değişiklikler <sup>24.10</sup>
 
-Pasta ve Halka grafiklerini biçimlendirmek için birkaç yeni genel özellik eklendi.
+Pie ve Doughnut grafiklerini biçimlendirmek için birkaç yeni genel özellik eklendi.
 
 #### PDF Seçim Formu Alanı Kenarlıklarının Oluşturulmasını Denetleme <sup>24.11</sup>
 
@@ -118,391 +149,391 @@ Histogram grafik oluşturma, belirli sayıda kutu ve etikete izin verilerek geli
 
 #### Veri Etiketlerinin Yerleşimini Özelleştirme <sup>24.12</sup>
 
-Veri etiketlerinin yerleşimini özelleştirme yeteneği, [ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/) ve [ChartDataLabelCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/) sınıflarına yeni özellikler eklenerek eklendi.
+[ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/) ve [ChartDataLabelCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/) sınıflarına yeni özellikler eklenerek veri etiketlerinin yerleşimini özelleştirme yeteneği eklendi.
 
 ### Belgeleri Dönüştürme, Yükleme ve Kaydetme
 
-#### Markdown Dosyaları Yüklenirken Alt Çizgi Biçimlendirme <sup>24.9</sup>
+#### Markdown Dosyaları <sup>24.9 Yüklerken Biçimlendirmenin Altını Çizin</sup>
 
-Markdown belgeleri yüklenirken alt çizgi biçimlendirmesini tanıma seçeneği, yeni bir genel özellik [ImportUnderlineFormatting](https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/importunderlineformatting/) eklenerek dahil edildi.
+Markdown belgeleri yüklerken altı çizili biçimlendirmeyi tanıma seçeneği, yeni bir genel özellik [ImportUnderlineFormatting](https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/importunderlineformatting/) eklenerek eklenmiştir.
 
-#### Markdown'a kaydederken tabloları HTML olarak dışa aktarma <sup>24.10</sup>
+#### Markdown <sup>24.10'e kaydederken tabloları HTML olarak dışa aktarma</sup>
 
-Belgeleri Markdown biçimine kaydederken tabloları HTML olarak dışa aktarma seçeneği, yeni bir genel özellik [ExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/exportashtml/) ve bir numaralandırma [MarkdownExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownexportashtml/) eklenerek uygulandı.
+Belgeleri Markdown biçimine kaydederken tabloları HTML olarak dışa aktarma seçeneği, yeni bir genel özellik [ExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/exportashtml/) ve bir numaralandırma [MarkdownExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownexportashtml/) eklenerek uygulanmıştır.
 
 #### Güncellenmiş Mantıksal Yapı <sup>24.11 ile PDF dışa Aktar</sup>
 
 PDF dışa aktarma, tablo başlığı özelliklerini PDF mantıksal yapı öğesi başlıkları olarak ekleyerek geliştirilmiştir.
 
-### Posta Birleştirme ve Raporlama
+### Mail Merge ve Raporlama
 
-#### Posta Birleştirme Sırasında Boş Tabloları Kaldır <sup>24.12</sup>
+#### Mail Merge <sup>24.12 sırasında Boş Tabloları Kaldır</sup>
 
-Posta Birleştirme çıktısını iyileştirmek için [MailMergeCleanupOptions](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmergecleanupoptions/) sayımına yeni bir **RemoveEmptyTables** seçeneği eklendi.
+Mail Merge çıktısını daraltmak için [MailMergeCleanupOptions](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmergecleanupoptions/) numaralandırmasına yeni bir **RemoveEmptyTables** seçeneği eklendi.
 
 ### Dijital İmzalar
 
-#### Belgeleri XAdES-EPES ile İmzala <sup>24.9</sup>
+#### Belgeleri XAdES-EPES <sup>24.9 ile imzalayın</sup>
 
-Belgeleri XAdES-EPES düzeyinde XML-DSig imzalarıyla imzalama yeteneği, yeni bir genel özellik [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) ve yeni bir genel numaralandırma [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/) eklenerek tanıtıldı.
+XAdES-EPES düzey XML-DSig imzalı belgeleri imzalama yeteneği, yeni bir genel özellik [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/xmldsiglevel/) ve yeni bir genel numaralandırma [XmlDsigLevel](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/xmldsiglevel/) eklenerek kullanılmıştır.
 
 ### Diğer
 
-* Grup şekillerine yeni bir genel yöntem [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) eklendi. <sup>24.9</sup>
+* Group shapes 'e yeni bir genel yöntem [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/) eklendi. <sup>24.9</sup>
 * Bir belgeye **StructuredDocumentTags** eklemek için yeni bir genel yöntem [InsertStructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertstructureddocumenttag/) eklendi. <sup>24.9</sup>
-* Birkaç genel sınıf ve özellik eklenerek dipnot/sonnot ayırıcılarına genel erişim sağlandı. <sup>24.9</sup>
-* Tek tek şekilleri gruplama, şekilleri birlikte gruplama ve her iki şekli ve grup şekillerini doğrudan gruplama yeteneği, [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1) yönteminin eklenmesiyle tanıtıldı. <sup>24.10</sup>
-* TrueType cmap tabloları için Big5 kodlama işleme geliştirildi. <sup>24.10</sup>
-* Güncel olmayan Tayvan yazı tipleri için destek geliştirildi. <sup>24.10</sup>
+* Dipnot / sonnot ayırıcılarına genel erişim, birkaç genel sınıf ve özellik eklenerek sağlanmıştır. <sup>24.9</sup>
+* Tek tek şekilleri group shapes birlikte gruplama ve hem şekilleri hem de group shapes 'i doğrudan gruplama yeteneği, [InsertGroupShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertgroupshape/#insertgroupshape_1) yöntemi eklenerek tanıtıldı. <sup>24.10</sup>
+* TrueType cmap tabloları için Bıg5 kodlama işlemi geliştirildi. <sup>24.10</sup>
+* Eski Tayvanlı yazı tipleri için destek geliştirildi. <sup>24.10</sup>
 * Genişletilmiş belge özelliklerine erişmek için [BuiltInDocumentProperties](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/) sınıfına salt okunur özellikler eklenmiştir. <sup>24.11</sup>
-* ActiveX denetimleri için resim yazıları ayarlamak, [Forms2OleControl.Caption](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/caption/) özelliğine yeni bir genel ayarlayıcı eklenerek etkinleştirildi. <sup>24.11</sup>
+* ActiveX denetimleri için altyazı ayarlama, [Forms2OleControl.Caption](https://reference.aspose.com/words/net/aspose.words.drawing.ole/forms2olecontrol/caption/) özelliğine yeni bir genel ayarlayıcı eklenerek etkinleştirildi. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
-[.NET 24.9 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/) hakkında daha fazla bilgi edinin.
+Hakkında daha fazla bilgi edinin [Aspose.Words için .NET 24.9 Sürüm Notları](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-9-release-notes/).
 
-[.NET 24.10 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/) hakkında daha fazla bilgi edinin.
+Hakkında daha fazla bilgi edinin [Aspose.Words için .NET 24.10 Sürüm Notları](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
 
-Hakkında daha fazla bilgi edinin [Aspose.Words .NET 24.11 Sürüm Notları için](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
+Hakkında daha fazla bilgi edinin [Aspose.Words için .NET 24.11 Sürüm Notları](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
 
-Hakkında daha fazla bilgi edinin [Aspose.Words .NET 24.12 Sürüm Notları için](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-12-release-notes/).
+Hakkında daha fazla bilgi edinin [Aspose.Words için .NET 24.12 Sürüm Notları](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-12-release-notes/).
 
 {{% /alert %}}
 
-## .NET 24.5, 24.6, 24.7, 24.8 için Aspose.Words
+## Aspose.Words için .NET 24.5, 24.6, 24.7, 24.8
 
-Aspose.Words 24.5, derleme seçeneklerini genişletir, oluşturma yeteneklerini geliştirir ve diğer bazı seçenekleri genişletir.
+Aspose.Words 24.5 derlemeler için seçenekleri genişletir, oluşturma yeteneklerini geliştirir ve diğer bazı seçenekleri genişletir.
 
-Aspose.Words 24.6, oluşturma seçeneklerini geliştirir, arama ve karşılaştırma işlevselliğini geliştirir ve diğer birçok özelliği genişletir.
+Aspose.Words 24.6 işleme seçeneklerini iyileştirir, arama ve karşılaştırma işlevselliğini geliştirir ve diğer birçok özelliği genişletir.
 
-Aspose.Words 24.7, ActiveX ile çalışma şeklinizi değiştirir, işleme yeteneklerini genişlettiği gibi Markdown ve XLSX formatlarına dışa aktarmayı da değiştirir.
+Aspose.Words 24.7 ActiveX ile çalışma şeklinizi değiştirir, oluşturma yeteneklerini genişletir ve Markdown ve XLSX biçimlerine dışa aktarır.
 
-Aspose.Words 24.8, eksen etiketleri üzerinde hassas kontrolle grafik özelleştirmesini geliştirir, yazı tipi yönetimini genişletir, belge yapısı işlemeyi iyileştirir ve HTML/XAML dışa aktarma, PDF işlevselliği, belge dönüştürme ve dijital imzalar için yeni özellikler ekler.
+Aspose.Words 24.8 eksen etiketleri üzerinde hassas kontrolle grafik özelleştirmesini geliştirir, yazı tipi yönetimini genişletir, belge yapısı işlemeyi geliştirir ve HTML / XAML dışa aktarma, PDF işlevsellik, belge dönüştürme ve dijital imzalar için yeni özellikler ekler.
 
 ### Desteklenen Formatlar
 
-Sürüm 24.7'den başlayarak, engelli kullanıcıların erişilebilirliğini sağlamak amacıyla PDF/UA-2'ye dışa aktarma desteklenmektedir.
+24.7 sürümünden başlayarak, engelli kullanıcıların erişilebilirliğini sağlamak için PDF/UA-2 sürümüne dışa aktarma desteklenir.
 
 ### Platformlar <sup>24.5</sup>
 
-.NET 7.0/8.0 derlemeleri Aspose.Words NuGet paketine dahil edildi.
+.NET 7.0/8.0 derlemeler Aspose.Words NuGet paketine dahil edilmiştir.
 
-### İşleme ve Yazdırma
+### Oluşturma ve Yazdırma
 
-#### Charts, Shapes ve DrawingML deki değişiklikler <sup>24.5</sup>
+#### Grafiklerdeki, Şekillerdeki ve DrawingML <sup>24.5'deki Değişiklikler</sup>
 
-* SVG grafikleri için, resimlerle sınırlı olan önceki işlevselliği genişleten DrawingML efekt oluşturma uygulandı.
-* [ChartSeriesGroup](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroup/) ve [ChartSeriesGroupCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroupcollection/) sınıfları ve [SeriesGroups](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/seriesgroups/) özelliği eklenerek, birleşik grafikler oluşturma ve seri grupları içindeki boşluk genişliği, örtüşme ve kabarcık ölçeği gibi özellikleri ayarlama desteği sunulmuştur.
-* Şekillerin SoftEdge efektini değiştirme işlevi, [SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/) sınıfı eklenerek uygulanmıştır.
-* Şekillerin ayar değerlerini değiştirme özelliği, [AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) ve [Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) genel sınıflar ve [Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) mülk.
+* DrawingML görüntülerle sınırlı önceki işlevleri genişleten SVG grafikler için efekt oluşturma uygulandı.
+* [ChartSeriesGroup](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroup/) ve [ChartSeriesGroupCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriesgroupcollection/) sınıfları ve [SeriesGroups](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/seriesgroups/) özelliği eklenerek birleşik grafikler oluşturma ve seri grupları içinde boşluk genişliği, üst üste binme ve kabarcık ölçeği gibi özellikleri ayarlama desteği getirildi.
+* Şekillerin SoftEdge etkisini değiştirme işlevi, [SoftEdgeFormat](https://reference.aspose.com/words/net/aspose.words.drawing/softedgeformat/) sınıfı eklenerek uygulanmıştır.
+* Şekillerin ayar değerlerini değiştirme yeteneği, [AdjustmentCollection](https://reference.aspose.com/words/net/aspose.words.drawing/adjustmentcollection/) ve [Adjustment](https://reference.aspose.com/words/net/aspose.words.drawing/adjustment/) genel sınıfları ve [Adjustments](https://reference.aspose.com/words/net/aspose.words.drawing/shape/adjustments/) özelliği eklenerek uygulanmıştır.
 
-#### Grafikler, Şekiller ve Çizimdeki Değişiklikler <sup>24.6</sup>
+#### Çizelge, Şekil ve Çizimdeki Değişiklikler <sup>24.6</sup>
 
-* Grafik yetenekleri geliştirildi. Artık *Ağaç Haritaları*, *Güneş Patlamaları*, *Histogramlar*, *Pareto* grafikleri, *Kutu ve Bıyık* grafikleri, *Şelaleler* ve *Huniler* dahil olmak üzere daha çeşitli grafikler oluşturabilirsiniz. Bu, verilerinizi daha çeşitli ve bilgilendirici bir şekilde görselleştirmenize olanak tanır.
-* Gölge biçimlendirmesi için renk kontrolü iyileştirildi. Gölge renklerine erişerek belgelerinizin görünümü üzerinde daha hassas kontrol elde edebilirsiniz.
-* Arka planda görüntüleme için performans artışı iyileştirildi. Yerel döşeme teknolojisi sayesinde, küçük öğeler içeren arka planların oluşturulmasını önemli ölçüde hızlandırabilirsiniz.
-* Şekiller için gerçekçi degradeler eklendi. Artık daha parlak bir görünüm için Microsoft Word'ün görsel stilini taklit eden, doğrusal olmayan degradelere sahip DML şekilleri oluşturabilirsiniz.
+* Grafik yetenekleri geliştirildi. Artık aşağıdakiler de dahil olmak üzere daha geniş bir grafik yelpazesi oluşturabilirsiniz *Treemaps*, *Sunbursts*, *Histograms*, *Pareto* grafikler, *Box & Whisker* grafikler, *Waterfalls* ve *Funnels*. Bu, verilerinizi daha çeşitli ve bilgilendirici bir şekilde görselleştirmenizi sağlar.
+* Gölge biçimlendirme için renk kontrolü geliştirildi. Gölge renklerine erişerek belgelerinizin görünümü üzerinde daha hassas kontrol sahibi olabilirsiniz.
+* Arka plan oluşturma için performans artışı iyileştirildi. Yerel döşeme teknolojisi sayesinde küçük öğeler içeren arka planların oluşturulmasını önemli ölçüde hızlandırabilirsiniz.
+* Şekiller için gerçekçi degradeler eklendi. Artık daha parlak bir görünüm için Microsoft Word görsel stilini taklit ederek doğrusal olmayan degradelere sahip DML şekiller oluşturabilirsiniz.
 
-#### Grafik Veri Etiketi Özelleştirmesi <sup>24.7</sup>
+#### Grafik Veri Etiketi Özelleştirme <sup>24.7</sup>
 
 **Orientation** ve **Rotation** gibi grafik veri etiketlerini özelleştirme yeteneği eklendi.
 
-#### Liste Düzeyleri için Özel Numara Şekillendirme <sup>24.7</sup>
+#### Liste Seviyeleri için Özel Numara Stili <sup>24.7</sup>
 
-[CustomNumberStyleFormat](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/customnumberstyleformat/) genel özelliği için bir ayarlayıcı eklendi. Artık liste düzeyleri için özel bir sayı stili tanımlayabilirsiniz.
+[CustomNumberStyleFormat](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/customnumberstyleformat/) genel mülkü için bir ayarlayıcı eklendi. Artık liste seviyeleri için özel bir numara stili tanımlayabilirsiniz.
 
-#### ActiveX ile çalışmadaki değişiklikler <sup>24.7</sup>
+#### ActiveX <sup>24.7 ile çalışmadaki değişiklikler</sup>
 
 * ActiveX nesnelerinin özellikleri artık değiştirilebilir, böylece davranışları üzerinde daha fazla kontrol sahibi olursunuz.
 * Dinamik etkileşimi etkinleştirmek için radyo düğmesi ActiveX kontrolünün değerini değiştirme yeteneği eklendi.
-* ActiveX onay kutusunu "işaretli" veya "işaretsiz" olarak değiştirme yeteneği eklendi.
+* Bir ActiveX checkbox öğesini "işaretli" veya "işaretlenmemiş" olarak değiştirme yeteneği eklendi.
 
-#### Grafik Eksen İşaret Etiketleri Yönlendirme ve Döndürme Üzerinde Kontrol <sup>24.8</sup>
+#### Grafik Ekseni Üzerinde Kontrol İşaret Etiketleri Yönlendirme ve Döndürme <sup>24.8</sup>
 
-Daha kolay grafik özelleştirmesi için grafik eksen işaret etiketlerinin yönlendirmesi ve döndürülmesi üzerinde hassas kontrol eklendi – [AxisTickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/) sınıfı yeni [Orientation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/orientation/) ve [Rotation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/rotation/) özellikleriyle genişletildi.
+Daha rahat grafik özelleştirmesi için grafik ekseni onay etiketlerinin yönlendirilmesi ve döndürülmesi üzerinde hassas kontrol eklendi – [AxisTickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/) sınıfı yeni [Orientation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/orientation/) ve [Rotation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisticklabels/rotation/) özellikleriyle genişletildi.
 
-#### Ters Eğik Çizgiyi Yen İşaretiyle Değiştirme <sup>24.8</sup>
+#### Ters Eğik Çizgiyi Yen İşareti <sup>24.8 ile Değiştirme</sup>
 
-Ters eğik çizgi karakterini Yen işaretiyle değiştirmek için geriye dönük uyumlu HTML ve XAML dışa aktarma geliştirildi. Bunu başarmak için, [HtmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/) ve [XamlFlowSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xamlflowsaveoptions/) sınıflarına **ReplaceBackslashWithYenSign** özelliği eklendi.
+Ters eğik çizgi karakterini Yen işareti ile değiştirmek için geriye dönük uyumlu HTML ve XAML dışa aktarma geliştirildi. Bunu başarmak için **ReplaceBackslashWithYenSign** özelliği [HtmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/) ve [XamlFlowSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xamlflowsaveoptions/) sınıflarına eklenmiştir.
 
-#### PDF'ye Aktarırken Form Alan Adları Olarak SDT Etiketlerinin Kullanılması <sup>24.8</sup>
+#### PDF <sup>24.8'a Dışa Aktarırken SDT Etiketlerini Form Alanı Adları Olarak Kullanma</sup>
 
-SDT etiketlerini form alan adları olarak kullanma desteğine sahip PDF aktarımı, [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usesdttagasformfieldname/) sınıfına yeni bir [UseSdtTagAsFormFieldName](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) özelliği eklenerek geliştirildi.
+PDF SDT etiketlerini form alan adları olarak kullanma desteğiyle dışa aktarma, [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) sınıfına yeni bir [UseSdtTagAsFormFieldName](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usesdttagasformfieldname/) özelliği eklenerek geliştirilmiştir.
 
 ### Belgeleri Dönüştürme, Yükleme ve Kaydetme
 
-#### Bağlantıları Markdown Formatına Dışa Aktarma <sup>24.7</sup>
+#### Bağlantıları Markdown Biçimine <sup>24.7 Dışa Aktarma</sup>
 
-[LinkExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/linkexportmode/) özelliğinin uygulanmasıyla bağlantıların Markdown biçiminde dışa aktarımını kontrol etme yeteneği eklendi.
+Bağlantıların Markdown biçiminde dışa aktarılmasını kontrol etme yeteneği, [LinkExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/linkexportmode/) özelliğinin uygulanmasıyla eklenmiştir.
 
-#### LowCode <sup>24.8</sup>
+#### LowCode 24.8 <sup>24.8</sup>
 
-Tek bir kod satırıyla çeşitli belge türlerini dönüştürmek için bir dizi yöntem sağlamak üzere tasarlanmış yeni bir [LowCode.Converter](https://reference.aspose.com/words/net/aspose.words.lowcode/converter/) sınıfı tanıtıldı.
+Çeşitli belge türlerini tek bir kod satırıyla dönüştürmek için bir dizi yöntem sağlamak üzere tasarlanmış yeni bir [LowCode.Converter](https://reference.aspose.com/words/net/aspose.words.lowcode/converter/) sınıfı tanıtıldı.
 
 ### Ara ve Karşılaştır
 
 #### Gelişmiş Karşılaştırma Seçenekleri <sup>24.6</sup>
-Geliştirilmiş karşılaştırma işlevselliğiyle veri analizi iş akışlarını kolaylaştırma yeteneği eklendi. Buna yeni bir [IgnoreStoreItemId](https://reference.aspose.com/words/net/aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/) seçeneği ve gelişmiş karşılaştırmalar için yeniden tasarlanmış bir arayüz dahildir.
+Geliştirilmiş karşılaştırma işlevselliği ile veri analizi iş akışlarını kolaylaştırma yeteneği eklendi. Buna yeni bir [IgnoreStoreItemId](https://reference.aspose.com/words/net/aspose.words.comparing/advancedcompareoptions/ignorestoreitemid/) seçeneği ve gelişmiş karşılaştırmalar için yeniden tasarlanmış bir arayüz dahildir.
 
 ### Diğer
 
-* Bir belgedeki boş sayfaları ortadan kaldırma işlevi, [RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/) yöntemi eklenerek uygulanmıştır. <sup>24.5</sup>
-* [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/) özelliği eklenerek belge yüklemeden VBA makrolarının varlığını kontrol etme yeteneği sağlandı. <sup>24.5</sup>
-* LINQ Raporlama Motorunu kullanarak belge eklerken kaynak numaralandırmasının tutulması artık desteklenmektedir. <sup>24.5</sup>
-* Yeni bir [DateTimeUtc](https://reference.aspose.com/words/net/aspose.words/comment/datetimeutc/) özelliği eklendi; bu, yorumlar için daha kesin bir zaman damgası sağlayarak organizasyonu ve izlenebilirliği artırır. <sup>24.6</sup>
-* LINQ Raporlama Motoru geliştirildi. Boş paragrafların seçici olarak kaldırılması ve eksik nesne üyeleri için özel mesajların tanımlanması yapılarak daha temiz ve daha bilgilendirici raporlar elde edildi. <sup>24.6</sup>
-* XLSX formatına sorunsuz aktarım için tarihsaat formatı artık otomatik olarak algılanıyor. <sup>24.7</sup>
-* Bir VBA projesinin korunup korunmadığını doğrulamanıza olanak tanıyan genel mülk [IsProtected](https://reference.aspose.com/words/net/aspose.words.vba/vbaproject/isprotected/) eklendi. <sup>24.7</sup>
-* Font bilgileri, [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) ve [PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/) sınıflarına eklenen **EmbeddingLicensingRights** özelliğiyle genişletildi. <sup>24.8</sup>
-* Belge yapısıyla daha doğru bir şekilde çalışmak için filigranları korurken bölüm başlıklarını ve altbilgilerini etkili bir şekilde temizlemenin bir yolu eklendi. Bölüm başlıklarını ve altbilgilerini temizlemek için yeni genel yöntem [ClearHeadersFooters](https://reference.aspose.com/words/net/aspose.words/section/clearheadersfooters/)'ı kullanın. <sup>24.8</sup>
-* [XpsSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/) kullanılarak XPS belgelerinin dijital olarak imzalanması etkinleştirildi - bu amaçla yeni bir özellik [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/digitalsignaturedetails/) eklendi. <sup>24.8</sup>
+* Bir belgedeki boş sayfaları ortadan kaldırma işlevi [RemoveBlankPages](https://reference.aspose.com/words/net/aspose.words/document/removeblankpages/) yöntemi eklenerek uygulanmıştır. <sup>24.5</sup>
+* Belge yüklemeden VBA makro olup olmadığını denetleme yeteneği, [HasMacros](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasmacros/) özelliği eklenerek sağlanmıştır. <sup>24.5</sup>
+* LINQ Raporlama Altyapısını kullanarak bir belge eklerken kaynak numaralandırmanın tutulması artık destekleniyor. <sup>24.5</sup>
+* Yeni bir [DateTimeUtc](https://reference.aspose.com/words/net/aspose.words/comment/datetimeutc/) özelliği eklendi – bu, yorumlar için daha kesin bir zaman damgası sağlayarak organizasyonu ve izlenebilirliği iyileştirir. <sup>24.6</sup>
+* LINQ Raporlama Altyapısı geliştirildi. Boş paragrafların seçici olarak kaldırılması ve eksik nesne üyeleri için özel mesajların tanımlanması yapılarak daha temiz ve bilgilendirici raporlara yol açılmıştır. <sup>24.6</sup>
+* XLSX biçimine kesintisiz dışa aktarma için datetime biçimi artık otomatik olarak algılanır. <sup>24.7</sup>
+* Bir VBA projesinin korunup korunmadığını doğrulamanıza izin veren [IsProtected](https://reference.aspose.com/words/net/aspose.words.vba/vbaproject/isprotected/) ortak mülkü eklenmiştir. <sup>24.7</sup>
+* [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) ve [PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/) sınıflarına **EmbeddingLicensingRights** özelliği eklenerek yazı tipi bilgileri genişletildi. <sup>24.8</sup>
+* Belge yapısıyla daha doğru çalışmak için filigranları korurken bölüm üstbilgilerini ve altbilgilerini verimli bir şekilde temizlemenin bir yolu eklendi. Bölüm üstbilgilerini ve altbilgilerini temizlemek için yeni genel yöntemi [ClearHeadersFooters](https://reference.aspose.com/words/net/aspose.words/section/clearheadersfooters/) kullanın. <sup>24.8</sup>
+* XPS belgelerin [XpsSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/) kullanılarak dijital olarak imzalanması etkinleştirildi - bu amaçla yeni bir özellik [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/digitalsignaturedetails/) eklendi. <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
-[.NET 24.5 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/) hakkında daha fazla bilgi edinin.
+Hakkında daha fazla bilgi edinin [Aspose.Words için .NET 24.5 Sürüm Notları](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-5-release-notes/).
 
-[.NET 24.6 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/) hakkında daha fazla bilgi edinin.
+Hakkında daha fazla bilgi edinin [Aspose.Words için .NET 24.6 Sürüm Notları](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-6-release-notes/).
 
-[.NET 24.7 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-7-release-notes/) hakkında daha fazla bilgi edinin.
+Hakkında daha fazla bilgi edinin [Aspose.Words için .NET 24.7 Sürüm Notları](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-7-release-notes/).
 
-[.NET 24.8 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-8-release-notes/) hakkında daha fazla bilgi edinin.
+Hakkında daha fazla bilgi edinin [Aspose.Words için .NET 24.8 Sürüm Notları](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-8-release-notes/).
 
 {{% /alert %}}
 
-## .NET 24.1, 24.2, 24.3, 24.4 için Aspose.Words
+## Aspose.Words için .NET 24.1, 24.2, 24.3, 24.4
 
-Aspose.Words 24.1, kontur renklerini yönetme deneyimini geliştirir, OLE nesnelerini ve LINQ raporlamasını geliştirir ve ayrıca yeni bir Bibliyografya Kaynakları genel API'sini sunar.
+Aspose.Words 24.1 kontur renklerini yönetme deneyimini geliştirir, OLE nesneleri ve LINQ raporlamayı geliştirir ve ayrıca yeni bir `Bibliography Sources` herkese açık API sunar.
 
-Aspose.Words 24.2 genişletilmiş Charts API'si, stil yönetimi ve LINQ seçenekleri. Aspose.Words'ün bu sürümü aynı zamanda işleme sırasında SvgSaveOptions'ı belirtme, Markdown dosyalarını yükleme konusunda daha esnek kontrol ve dipnotlar ve sonnotlar için referans metniyle çalışma özelliklerini de tanıttı.
+Aspose.Words 24.2 genişletilmiş Grafikler API, stil yönetimi ve LINQ seçenekleri. Aspose.Words'in bu sürümü ayrıca oluşturma sırasında SvgSaveOptions belirtme, Markdown dosyalarını daha esnek kontrol yükleme ve dipnotlar ve sonnotlar için referans metni ile çalışma özelliğini de tanıttı.
 
-Aspose.Words 24.3, yeni bir TIFF Okuyucu/Yazıcı ve WMF meta dosyaları için ikili raster işlemlerinin taklit edilmesini tanıtıyor. Aspose.Words 24.3 ayrıca Grafikler API'sını genişletmeye devam ediyor.
+Aspose.Words 24.3 yeni bir TIFF Okuyucu / Yazıcı ve WMF meta dosyaları için ikili raster işlemlerinin Öykünmesini sunar. Aspose.Words 24.3 ayrıca Grafikleri genişletmeye devam ediyor API.
 
-Aspose.Words 24.4, formatları kaydetme, bazı işleme seçeneklerini ve dijital imzalarla çalışmayı iyileştirir.
+Aspose.Words 24.4 kaydetme biçimlerini, bazı oluşturma seçeneklerini geliştirir ve dijital imzalarla çalışmayı geliştirir.
 
-### Desteklenen Formatlar <sup>24.4</sup>
+### Desteklenen Biçimler <sup>24.4</sup>
 
-Modern **WebP** görüntü formatı, Aspose.Words için .NET Framework 4.6.2 ve üzerinde desteklenmektedir. Artık WebP görüntülerini belgelere okuyabilir, yerleştirebilir ve WebP formatında kaydedebilirsiniz.
+Modern **WebP** görüntü formatı artık şu şekilde destekleniyor: Aspose.Words için .NET Framework 4.6.2 ve daha yükseğe. Artık WebP görüntüleri okuyabilir ve belgelere ekleyebilir, ayrıca görüntüleri WebP biçiminde kaydedebilirsiniz.
 
-WebP'nin şu anda yalnızca .NET Standard ve .NET Framework v4.6.2 ve üzerinde mevcut olduğunu lütfen unutmayın.
+WebP'ün şu anda yalnızca .NET Standard ve .NET Framework v 4.6.2 ve üzeri sürümlerde mevcut olduğunu lütfen unutmayın.
 
-### İşleme ve Yazdırma
+### Oluşturma ve Yazdırma
 
 #### Kontur Renk Kontrolü <sup>24.1</sup>
 
-[Stroke](https://reference.aspose.com/words/tr/net/aspose.words.drawing/stroke/) sınıfı, kontur renklerinin yönetimiyle ilgili bir dizi yeni genel özellik ile genişletildi: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) ve [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) ve [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/).
+[Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) sınıfı, kontur renklerini yönetmekle ilgili bir dizi yeni genel özellik ile genişletildi: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) ve [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) ve [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/).
 
-#### DrawingML Charts API Uzantısı <sup>24.2 / 24.3 / 24.4</sup>
+#### DrawingML Grafikler API Uzantı <sup>24.2 / 24.3 / 24.4</sup>
 
 **DrawingML Charts API** genişletilmeye devam ediyor.
 
-#### @font-face Kurallarında Belirtilen Fontları Gömme <sup>24.4</sup>
+#### @font-face Kurallarında Bildirilen Fontları Göm <sup>24.4</sup>
 
-Sonuç belgesinin yazı tipi tanımları içine @font-face kurallarında belirtilen fontları gömmek için yeni bir [SupportFontFaceRules](https://reference.aspose.com/words/net/aspose.words.loading/htmlloadoptions/supportfontfacerules/) özelliği ekleyerek yeni bir yetenek eklendi.
+@font-face kurallarında bildirilen fontları, yeni bir [SupportFontFaceRules](https://reference.aspose.com/words/net/aspose.words.loading/htmlloadoptions/supportfontfacerules/) özelliği eklenerek ortaya çıkan belgenin font tanımlarına gömme özelliği eklendi.
 
-#### Parlama ve Yansıma Biçimlendirme ile Çalışma <sup>24.4</sup>
+#### Işıma ve Yansıma Biçimlendirmesiyle Çalışın <sup>24.4</sup>
 
-Çizim nesnesi için parlama ve yansıma biçimlendirmesiyle çalışma yeteneği uygulandı.
+Bir çizim nesnesi için ışıma ve yansıma biçimlendirmesiyle çalışma yeteneği uygulanmıştır.
 
 ### Belgeleri Yükleme ve Kaydetme
 
-#### İşleme Sırasında SvgSaveOptions'ı Belirtin <sup>24.2</sup>
+#### Oluşturma Sırasında SvgSaveOptions belirtin <sup>24.2</sup>
 
-Oluşturma sırasında [SvgSaveOptions](https://reference.aspose.com/words/tr/net/aspose.words.saving/svgsaveoptions/) belirtme yeteneği [ShapeRenderer](https://reference.aspose.com/words/tr/net/aspose.words.rendering/shaperenderer/).[Save](https://reference.aspose.com/words/tr/net/aspose.words.rendering/noderendererbase/save/) ve [OfficeMathRenderer](https://reference.aspose.com/words/tr/net/aspose.words.rendering/officemathrenderer/).[Save](https://reference.aspose.com/words/tr/net/aspose.words.rendering/noderendererbase/save/) yöntemleri kullanılarak eklenmiştir.
+Oluşturma sırasında [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/) belirtme özelliği [ShapeRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/shaperenderer/) kullanılarak eklenmiştir.[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/) ve [OfficeMathRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/officemathrenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/) yöntemler.
 
-#### Markdown Dosyalarını Yüklerken Boş Satırları Koruyun <sup>24.2</sup>
+#### Markdown dosyaları <sup>24.2 yüklerken Boş Satırları Koru</sup>
 
-Markdown dosyalarını yüklerken boş satırları koruma özelliği eklendi.
+Markdown dosyaları yüklerken boş satırları koruma özelliği eklendi.
 
-#### Yeni bir TIFF Okuyucu/Yazıcı <sup>24.3</sup>
+#### Yeni Bir TIFF Okuyucu / Yazar <sup>24.3</sup>
 
-Aspose.Words için .NET Standard, .NET 6 ve sonraki sürümler için yeni bir TIFF okuyucu/yazıcı geliştirildi. Aspose.Words 24.3, JPEG ve Eski JPEG sıkıştırma tipleriyle TIFF görüntülerini okuma desteği ekledi ve okuma ve yazma işlemlerinin kalitesini önemli ölçüde iyileştirdi.
+.NET Standard, .NET 6 ve sonrası için Aspose.Words için yeni bir TIFF okuyucu / yazıcı geliştirilmiştir. Aspose.Words için .NET 24.3 JPEG ve Eski JPEG sıkıştırma türlerine sahip TIFF görüntüleri okumak için destek eklendi ve ayrıca okuma ve yazma işlemlerinin kalitesini önemli ölçüde iyileştirdi.
 
 ### Diğer
 
-* `TextBox` OLE kontrolünün metnini değiştirme yeteneği, yeni [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/) sınıfına yeni bir [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) özelliği eklenerek tanıtıldı. <sup>24.1</sup>
-* Bibliyografya Kaynakları genel API'i, yeni sınıfları ve numaralandırmalarıyla yeni bir [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) ad alanı eklenmesi ve [Document](https://reference.aspose.com/words/tr/net/aspose.words/document/) sınıfına yeni bir [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) özelliği eklenmesi yoluyla uygulandı. <sup>24.1</sup>
-* LINQ Raporlama Motoru için şablon söz dizimini kullanarak tür üyelerine erişimi sınırlandıran bir API sağlandı. <sup>24.1</sup>
-* Gelişmiş stil yönetimi için yeni genel özellikler [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/) ve [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/), [Style](https://reference.aspose.com/words/tr/net/aspose.words/style/) sınıfına eklendi. <sup>24.2</sup>
-- Dipnotlar ve son notlar için gerçek referans işareti metnini alma işlevi, [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) özelliği ve [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) yöntemiyle geliştirilmiştir. <sup>24.2</sup>
-- `LINQ Reporting Engine` için `Word 2016` grafikleriyle uyumluluk etkinleştirildi. <sup>24.2</sup>
-- WMF meta dosyaları için ikili raster işlemlerinin taklit edilmesi uygulandı. <sup>24.3</sup>
-- **SaveOptions** içindeki belgelere imza seçenekleri tanımlama yeteneği, yeni bir [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/digitalsignaturedetails/) sınıfı eklenerek ve [OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) ve [OdtSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/) sınıflarına yeni özellikler eklenerek etkinleştirildi. <sup>24.4</sup>
+* `TextBox` OLE denetiminin metnini değiştirme özelliği, yeni [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/) sınıfına yeni bir [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) özelliği eklenerek kullanıma sunulmuştur. <sup>24.1</sup>
+* Kaynakça Kaynakları genel API, yeni sınıfları ve numaralandırmalarıyla yeni bir ad alanı [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) ekleyerek ve [Document](https://reference.aspose.com/words/net/aspose.words/document/) sınıfına yeni bir [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) özelliği ekleyerek uygulandı. <sup>24.1</sup>
+* `LINQ Reporting Engine` için şablon sözdizimini kullanarak tür üyelerine erişimi sınırlamak için bir API sağlanmıştır. <sup>24.1</sup>
+* Gelişmiş stil yönetimi için [Style](https://reference.aspose.com/words/net/aspose.words/style/) sınıfına yeni genel özellikler [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/) ve [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) eklenmiştir. <sup>24.2</sup>
+* Dipnotlar ve sonnotlar için gerçek referans işareti metnini alma işlevi [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) özelliği ve [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) yöntemi ile geliştirilmiştir. <sup>24.2</sup>
+* `LINQ Reporting Engine` için `Word 2016` grafiklerle uyumluluk etkinleştirildi. <sup>24.2</sup>
+* WMF meta dosyaları için ikili raster işlemlerinin öykünmesi uygulandı. <sup>24.3</sup>
+* **SaveOptions** içindeki belgeler için imza seçeneklerini tanımlama yeteneği, yeni genel üyelerle birlikte yeni bir [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/digitalsignaturedetails/) sınıfı eklenerek ve [OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) ve [OdtSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/) sınıflarına yeni özellikler eklenerek etkinleştirildi. <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
-[.NET 24.1 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-1-release-notes/) hakkında daha fazla bilgi edinin.
+Hakkında daha fazla bilgi edinin [Aspose.Words için .NET 24.1 Sürüm Notları](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-1-release-notes/).
 
-[.NET 24.2 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/) hakkında daha fazla bilgi edinin.
+Hakkında daha fazla bilgi edinin [Aspose.Words için .NET 24.2 Sürüm Notları](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/).
 
-[.NET 24.3 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-3-release-notes/) hakkında daha fazla bilgi edinin.
+Hakkında daha fazla bilgi edinin [Aspose.Words için .NET 24.3 Sürüm Notları](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-3-release-notes/).
 
-[.NET 24.4 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-4-release-notes/) hakkında daha fazla bilgi edinin.
+Hakkında daha fazla bilgi edinin [Aspose.Words için .NET 24.4 Sürüm Notları](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-4-release-notes/).
 
 {{% /alert %}}
 
-## .NET 23.9, 23.10, 23.11, 23.12 için Aspose.Words
+## Aspose.Words için .NET 23.9, 23.10, 23.11, 23.12
 
-Aspose.Words 23.9, işleme seçeneklerini, meta dosyası oluşturma emülasyonunu ve markdown kaydetme seçeneklerini genişletir.
+Aspose.Words 23.9 oluşturma seçeneklerini, meta dosyası oluşturma öykünmesini ve markdown kaydetme seçeneklerini genişletir.
 
-Aspose.Words 23.10, oluşturmayı iyileştirir, belgeleri yükleme ve kaydetme seçeneklerini genişletir ve kullanıcıların belgeleri yeni yöntemlerle birleştirmesine olanak tanır.
+Aspose.Words 23.10 oluşturmayı iyileştirir, belgeleri yükleme ve kaydetme seçeneklerini genişletir ve kullanıcıların belgeleri yeni yollarla birleştirmesine olanak tanır.
 
-Aspose.Words 23.11, ek seçeneklerle birlikte grafik açıklamasındaki revizyonlar, XLSX formatı ve yazı tipleri ile çalışmayı geliştirir.
+Aspose.Words 23.11 grafik göstergesindeki düzeltmeler, XLSX biçim ve yazı tipleriyle çalışmayı ek seçeneklerle geliştirir.
 
-Aspose.Words 23.12, WebP görüntüleri desteğinin yanı sıra PDF ve OOXML belgeleriyle çalışmaya yönelik yeni özellikler ve numaralandırmalar sunar.
+Aspose.Words 23.12, PDF ve OOXML belgelerle çalışmak için yeni özellikler ve numaralandırmaların yanı sıra WebP görüntüler için destek sunar.
 
-### İşleme ve Yazdırma
+### Oluşturma ve Yazdırma
 
-#### DrawingML Grafiklerinde Eksen Başlıklarını Özelleştirme <sup>23.9</sup>
+#### Eksen Başlıklarını DrawingML Grafiklerde Özelleştirme <sup>23.9</sup>
 
-DrawingML grafiklerinde eksen başlıklarını özelleştirme yeteneği, yeni bir genel sınıf [ChartAxisTitle](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/chartaxistitle/) ve [Title](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/chartaxis/title/) özelliğinin uygulanmasıyla kullanıma sunuldu.
+DrawingML grafiklerdeki eksen başlıklarını özelleştirme yeteneği, yeni bir genel sınıf [ChartAxisTitle](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxistitle/) ve [Title](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/title/) özelliğinin uygulanmasıyla tanıtıldı.
 
-#### Bir Paragraf <sup>23.9</sup> İçindeki Yazı Tiplerinin Dikey Konumunun Belirlenmesi
+#### Bir Paragraf içindeki Yazı Tiplerinin Dikey Konumunu Belirleme <sup>23.9</sup>
 
-Artık yeni genel [BaselineAlignment](https://reference.aspose.com/words/tr/net/aspose.words/paragraphformat/baselinealignment/) özelliğini ve yeni [BaselineAlignment](https://reference.aspose.com/words/tr/net/aspose.words/baselinealignment/) numaralandırmasını kullanarak bir paragraf içindeki yazı tiplerinin dikey konumunu tanımlamak mümkün.
+Yeni genel [BaselineAlignment](https://reference.aspose.com/words/net/aspose.words/paragraphformat/baselinealignment/) özelliğini ve yeni [BaselineAlignment](https://reference.aspose.com/words/net/aspose.words/baselinealignment/) numaralandırmasını kullanarak bir paragraf içindeki yazı tiplerinin dikey konumunu tanımlamak artık mümkün.
 
 #### Ön Plan Renk Kontrolü <sup>23.10</sup>
 
-**BaseForeColor** özelliği aracılığıyla [Fill](https://reference.aspose.com/words/tr/net/aspose.words.drawing/fill/) ve [Stroke](https://reference.aspose.com/words/tr/net/aspose.words.drawing/stroke/) sınıflarına ön plan rengini değiştiriciler olmadan alma yeteneği eklendi.
+**BaseForeColor** özelliği aracılığıyla [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) ve [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) sınıflarına değiştiriciler olmadan ön plan rengini alma yeteneği eklendi.
 
-#### Grafiklerin İşlevselliğinin Genişletilmesi <sup>23.10</sup>
+#### Grafiklerin İşlevselliğini Genişletme <sup>23.10</sup>
 
-[ChartDataPointCollection](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/chartdatapointcollection/), [ChartSeries](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/chartseries/) ve [ChartFormat](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/chartformat/) sınıflarının işlevselliği yeni yöntemler ve özelliklerle genişletildi.
+[ChartDataPointCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapointcollection/), [ChartSeries](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseries/) ve [ChartFormat](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartformat/) sınıflarının işlevselliği yeni yöntemler ve özelliklerle genişletildi.
 
-#### Bir Görüntüyü Otomatik Olarak Ayarlayın ve Bir Şekle Sığdırın <sup>23.10</sup>
+#### Görüntüyü Otomatik Olarak Ayarlayın ve Şekle Sığdırın <sup>23.10</sup>
 
-Yeni [FitImageToShape](https://reference.aspose.com/words/tr/net/aspose.words.drawing/imagedata/fitimagetoshape/) yöntemi aracılığıyla bir görüntüyü otomatik olarak ayarlamanın ve belirli bir şekle sığdırmanın basit bir yolu sağlanmıştır.
+Yeni [FitImageToShape](https://reference.aspose.com/words/net/aspose.words.drawing/imagedata/fitimagetoshape/) yöntemi ile bir görüntüyü belirli bir şekle otomatik olarak ayarlamanın ve sığdırmanın basit bir yolu sağlanmıştır.
 
-#### DrawingML Grafik Açıklaması Girişleri için Varsayılan Yazı Tipi Formatı <sup>23.11</sup>
+#### DrawingML Grafik Gösterge Girişleri <sup>23.11 için Varsayılan Yazı Tipi Biçimlendirmesi</sup>
 
-DrawingML grafiklerinin gösterge girişleri için varsayılan yazı tipi formatını belirtme yeteneği, [Font](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartlegend/font/) özelliği aracılığıyla eklenmiştir. Bu özellik, grafik öğeleri için daha akıcı ve tutarlı bir görünüm sağlayarak genel belge estetiğini geliştirir.
+DrawingML grafiklerin gösterge girişleri için varsayılan yazı tipi biçimlendirmesini belirtme özelliği [Font](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartlegend/font/) özelliği aracılığıyla eklenmiştir. Bu özellik, grafik öğeleri için daha akıcı ve tutarlı bir görünüm sağlayarak genel belge estetiğini geliştirir.
 
-#### PDF'yi Reader <sup>23.12'de</sup> Açarken Sayfa Düzenini Belirleme
+#### Reader <sup>23.12'da PDF'i Açarken Sayfa Düzenini Belirtin</sup>
 
-[PdfSaveOptions](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfsaveoptions/) sınıfına yeni bir [PageLayout](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/pagelayout/) özelliğinin eklenmesi ve yeni bir [PdfPageLayout](https://reference.aspose.com/words/net/aspose.words.saving/pdfpagelayout/) numaralandırmasının eklenmesiyle, bir belgeyi PDF okuyucuda açarken kullanılacak sayfa düzenini belirtme yeteneği eklenmiştir.
+Bir belgeyi PDF okuyucuda açarken kullanılacak sayfa düzenini belirleme yeteneği, [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) sınıfına yeni bir [PageLayout](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/pagelayout/) özelliğinin getirilmesi ve yeni bir [PdfPageLayout](https://reference.aspose.com/words/net/aspose.words.saving/pdfpagelayout/) numaralandırmasının getirilmesi yoluyla eklenmiştir.
 
 ### Belgeleri Yükleme ve Kaydetme
 
-#### Markdown <sup>23.9'da</sup> Görüntü URI'leri Oluşturmak için Klasör Adı Belirtme
+#### Markdown <sup>23.9 içinde URIs Resmi Oluşturmak için Bir Klasör Adı Belirtme</sup>
 
-[MarkdownSaveOptions](https://reference.aspose.com/words/tr/net/aspose.words.saving/markdownsaveoptions/) sınıfı, Markdown belgesine yazılan görüntü URI'lerini oluşturmak için kullanılan klasörün adını belirtmeye olanak tanıyan [ImagesFolderAlias](https://reference.aspose.com/words/tr/net/aspose.words.saving/markdownsaveoptions/imagesfolderalias/) özelliği eklenerek genişletildi.
+[MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) sınıfı, Markdown belgesine yazılan URIs görüntüsünü oluşturmak için kullanılan klasörün adını belirtmeye izin veren [ImagesFolderAlias](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imagesfolderalias/) özelliği dahil edilerek genişletildi.
 
-#### PDF Çıktı Boyutunu Azaltın <sup>23.10</sup>
+#### PDF Çıktı Boyutunu Küçült <sup>23.10</sup>
 
-[OptimizeOutput](https://reference.aspose.com/words/tr/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) ayarlarını kullanırken çıktı boyutunu azaltmak için çeşitli PDF oluşturma optimizasyonları uygulandı.
+[OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) ayarları kullanılırken çıktı boyutunu küçültmek için çeşitli PDF işleme optimizasyonları uygulanmıştır.
 
-#### TXT Belgelerini Yüklerken Köprüleri Tanıma <sup>23.10</sup>
+#### TXT Belgeleri Yüklerken Köprüleri Tanıma <sup>23.10</sup>
 
-TXT belgelerini yüklerken köprüleri tanıma özelliği, yeni bir [DetectHyperlinks](https://reference.aspose.com/words/tr/net/aspose.words.loading/txtloadoptions/detecthyperlinks/) özelliği eklenerek uygulandı.
+TXT belgeleri yüklerken köprüleri tanıma özelliği, yeni bir [DetectHyperlinks](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/detecthyperlinks/) özelliği eklenerek uygulanmıştır.
 
 ### Diğer
 
-* Özellikle WMF kalem genişliği ve EMF kozmetik kalem genişliği için rasterleştirme boyutunu belirlemek için meta dosyası oluşturma emülasyonu uygulandı. Bunu başarmak için **ScaleWmfFontsToMetafileSize** özelliği [EmulateRenderingToSizeOnPage](https://reference.aspose.com/words/tr/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/) özelliği ile değiştirildi ve [EmulateRenderingToSizeOnPageResolution](https://reference.aspose.com/words/tr/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/) özelliği eklendi. <sup>23.9</sup>
-* [InsertDocumentInline](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/insertdocumentinline/) yöntemi kullanılarak, bir belgeyi başka bir belgeye mevcut imleç konumunda eklemek için basitleştirilmiş bir yöntem tanıtıldı. <sup>23.10</sup>
-* Yeni [Locked](https://reference.aspose.com/words/tr/net/aspose.words/style/locked/) özelliğinin tanıtılmasıyla stil özelliklerine erişme ve bunları değiştirme yeteneği eklendi. <sup>23.10</sup>
-* [CompositeNode](https://reference.aspose.com/words/tr/net/aspose.words/compositenode/) sınıfının metodlarına genel tip parametresi eklendi. <sup>23.10</sup>
-* [Accept](https://reference.aspose.com/words/net/aspose.words/revisioncollection/accept/) ve [Reject](https://reference.aspose.com/words/net/aspose.words/revisioncollection/reject/) yöntemleri kullanılarak belirli bir revizyonun ne zaman kabul edilmesi/reddedilmesi veya reddedilmesi gerektiğini kontrol etmenin bir yolu uygulandı. Bu geliştirme, kullanıcılara revizyon süreci üzerinde daha hassas kontrol sağlar. <sup>23.11</sup>
-* Yeni [XlsxSectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsectionmode/) numaralandırma türü ve yeni [SectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/sectionmode/) özelliği aracılığıyla bir belgenin tüm bölümlerini aynı XLSX çalışma sayfasına yazabilme yeteneği sağlandı. <sup>23.11</sup>
-* OOXML belgeleri için ZIP64 formatı uzantılarının nasıl kullanılacağını kontrol etmenin bir yolu, `OoxmlSaveOptions` sınıfının yeni Zip64Mode özelliği ve yeni Zip64Mode numaralandırması aracılığıyla uygulanmıştır. <sup>23.12</sup>
-* WebP imajı desteği getirildi. Lütfen bu özelliğin yalnızca .NetStandart ve .NET6+ sürümlerinde mevcut olduğunu unutmayın. <sup>23.12</sup>
+* Rasterleştirme boyutunu belirlemek için meta dosyası oluşturma öykünmesi, özellikle WMF kalem genişliği ve EMF kozmetik kalem genişliği için uygulanmıştır. Bunu başarmak için **ScaleWmfFontsToMetafileSize** özelliği [EmulateRenderingToSizeOnPage](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/) özelliği ile değiştirildi ve [EmulateRenderingToSizeOnPageResolution](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/) özelliği eklendi. <sup>23.9</sup>
+* [InsertDocumentInline](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertdocumentinline/) yöntemi kullanılarak, geçerli imleç konumunda bir belgeyi başka bir belgeye eklemek için basitleştirilmiş bir yöntem getirilmiştir. <sup>23.10</sup>
+* Stil özelliklerine erişme ve bunları değiştirme yeteneği, yeni [Locked](https://reference.aspose.com/words/net/aspose.words/style/locked/) özelliğinin eklenmesiyle eklenmiştir. <sup>23.10</sup>
+* [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/) sınıfının yöntemlerine genel bir tür parametresi eklenmiştir. <sup>23.10</sup>
+* [Accept](https://reference.aspose.com/words/net/aspose.words/revisioncollection/accept/) ve [Reject](https://reference.aspose.com/words/net/aspose.words/revisioncollection/reject/) yöntemleri kullanılarak belirli bir revizyonun ne zaman kabul edilmesi / reddedilmesi gerektiğini kontrol etmenin bir yolu uygulanmıştır. Bu geliştirme, kullanıcılara revizyon süreci üzerinde daha ince kontrol sağlar. <sup>23.11</sup>
+* Bir belgenin tüm bölümlerini aynı XLSX çalışma sayfasına yazma yeteneği, yeni [XlsxSectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsectionmode/) numaralandırma türü ve yeni [SectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/sectionmode/) özelliği aracılığıyla sağlanmıştır. <sup>23.11</sup>
+* ZIP64 biçim uzantılarının OOXML belgeler için nasıl kullanılacağını denetlemenin bir yolu, `OoxmlSaveOptions` sınıfının yeni Zip64Mode özelliği ve yeni Zip64Mode numaralandırması aracılığıyla uygulanmıştır. <sup>23.12</sup>
+* WebP görüntüsü için destek sunuldu. Lütfen bu özelliğin yalnızca .NetStandart ve .NET6+ sürümleri için mevcut olduğunu unutmayın. <sup>23.12</sup>
 
 {{% alert color="primary" %}}
 
-[.NET 23.9 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/) hakkında daha fazla bilgi edinin.
+Hakkında daha fazla bilgi edinin [Aspose.Words için .NET 23.9 Sürüm Notları](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/).
 
-[.NET 23.10 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/) hakkında daha fazla bilgi edinin.
+Hakkında daha fazla bilgi edinin [Aspose.Words için .NET 23.10 Sürüm Notları](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/).
 
-[.NET 23.11 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-11-release-notes/) hakkında daha fazla bilgi edinin.
+Hakkında daha fazla bilgi edinin [Aspose.Words için .NET 23.11 Sürüm Notları](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-11-release-notes/).
 
-[.NET 23.12 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-12-release-notes/) hakkında daha fazla bilgi edinin.
+Hakkında daha fazla bilgi edinin [Aspose.Words için .NET 23.12 Sürüm Notları](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-12-release-notes/).
 
 {{% /alert %}}
 
-## .NET 23.5, 23.6, 23.7, 23.8 için Aspose.Words
+## Aspose.Words için .NET 23.5, 23.6, 23.7, 23.8
 
-Aspose.Words 23.5, grafik serisi verileriyle çalışma yeteneğini ve ODT belgeleriyle çalışma yeteneğini geliştirmenin yanı sıra üstbilgileri/altbilgileri ve bunların metin sarmasını da geliştirir.
+Aspose.Words 23.5 grafik serisi verileriyle ve ODT belgelerle çalışma becerisini geliştirir, ayrıca üstbilgileri / altbilgileri ve bunların metin kaydırmalarını geliştirir.
 
-Aspose.Words 23.6, oluşturma seçeneklerini genişletiyor, yeni bir dışa aktarma formatı ekliyor, LINQ raporlama ve LowCode araçlarını geliştiriyor.
+Aspose.Words 23.6 işleme seçeneklerini genişletir, yeni bir dışa aktarma biçimi ekler, LINQ raporlama ve LowCode araçlarını geliştirir.
 
-Aspose.Words 23.7, raporlama yeteneklerini geliştirir, yeni bir dışa aktarma formatı ekler ve tablolarla ve dijital imzalarla çalışmayla ilgili değişiklikler sunar.
+Aspose.Words 23.7 raporlama yeteneklerini geliştirir, yeni bir dışa aktarma biçimi ekler ve tablolar ve dijital imzalarla çalışmaya değişiklikler getirir.
 
-Aspose.Words 23.8, farklı formatların yeteneklerini genişletir, oluşturmayı geliştirir ve alanlarla çalışmak için yeni seçenekler ekler
+Aspose.Words 23.8 farklı biçimlerin yeteneklerini genişletir, oluşturmayı geliştirir ve alanlarla çalışmak için yeni seçenekler ekler.
 
 ### Desteklenen Formatlar
 
-* Sürüm 23.6'dan başlayarak, bir belgeyi XLSX formatında kaydetmek mümkündür. Artık belgelerinizi Excel formatına dönüştürebilirsiniz. <sup>23.6</sup>
-* Sürüm 23.7'den başlayarak, bir belge sayfasını veya şeklini EPS formatında kaydetmek mümkündür. <sup>23.7</sup>
+* 23.6 sürümünden başlayarak, bir belgeyi XLSX biçiminde kaydetmek mümkündür. Artık belgelerinizi Excel formatına dönüştürebilirsiniz. <sup>23.6</sup>
+* 23.7 sürümünden başlayarak, bir belge sayfasını veya şeklini EPS biçiminde kaydetmek mümkündür. <sup>23.7</sup>
 
 ### Yeni Format Özellikleri
 
-* MOBI belgeleri için otomatik olarak İçindekiler Tablosu (TOC) oluşturma işlevi tanıtıldı. <sup>23.8</sup>
-* [PdfEncryptionDetails](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/) yapıcısı [PdfPermissions](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfpermissions/) ile genişletildi. <sup>23.8</sup>
-* EMF meta dosyaları için dikey metnin şekillendirilmesi uygulandı. <sup>23.8</sup>
+* MOBI belgeler için otomatik olarak İçindekiler Tablosu (TOC) oluşturma işlevi tanıtıldı. <sup>23.8</sup>
+* [PdfEncryptionDetails](https://reference.aspose.com/words/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/) oluşturucu [PdfPermissions](https://reference.aspose.com/words/net/aspose.words.saving/pdfpermissions/) ile genişletildi. <sup>23.8</sup>
+* EMF meta dosyaları için dikey metnin şekillendirilmesi uygulanmıştır. <sup>23.8</sup>
 
-### İşleme ve Yazdırma
+### Oluşturma ve Yazdırma
 
 #### Grafik Serisi Verilerini Alma ve Değiştirme <sup>23.5</sup>
 
-Grafik serisi verilerini alma ve değiştirme özelliği aşağıdakiler eklenerek sağlandı:
+Grafik serisi verilerini alma ve değiştirme özelliği eklenerek sağlandı:
 
-* yeni sınıflar: [ChartXValue](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/chartmultilevelvalue/)
-* yeni numaralandırma türleri: [ChartXValueType](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/chartyvaluetype/)
+* yeni sınıflar: [ChartXValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartmultilevelvalue/)
+* yeni numaralandırma türleri: [ChartXValueType](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluetype/)
 
-#### Gelişmiş Tipografi <sup>23.6</sup> Desteği
+#### Gelişmiş Tipografi Desteği <sup>23.6</sup>
 
-WMF, EMF ve EMF+ oluşturmada Gelişmiş Tipografi desteği eklendi.
+WMF, EMF ve EMF + görüntülemede Gelişmiş Tipografi Desteği eklendi.
 
 #### Sayfadaki Renkli İçerik <sup>23.6</sup>
 
-Sayfanın renkli olup olmadığını belirten genel özellik [PageInfo.Colored](https://reference.aspose.com/words/tr/net/aspose.words.rendering/pageinfo/colored/) eklendi.
+Sayfanın renkli olup olmadığını gösteren genel özellik [PageInfo.Colored](https://reference.aspose.com/words/net/aspose.words.rendering/pageinfo/colored/) eklenmiştir.
 
-#### Grafik Veri Etiketlerini Biçimlendirme <sup>23.6</sup>
+#### Grafik Veri Etiketleri için Biçimlendirme <sup>23.6</sup>
 
-Grafik veri etiketleri için dolgu, kontur ve belirtme çizgisi biçimlendirmesini ayarlama yeteneği uygulandı.
+Grafik veri etiketleri için dolgu, kontur ve belirtme çizgisi biçimlendirmesini ayarlama özelliği uygulanmıştır.
 
 ### Mail Merge ve Raporlama
 
-#### LINQ Raporlama Motoru <sup>23.6</sup> için Dinamik HTML Ekleme
+#### LINQ Raporlama Motoru <sup>23.6 için Dinamik HTML Ekleme</sup>
 
-LINQ Raporlama Motoru için yeni bir dinamik HTML ekleme yöntemi eklendi.
+LINQ Raporlama Altyapısı için dinamik HTML eklemenin yeni bir yolu eklendi.
 
-#### Mustache Etiketleri Desteği <sup>23.7</sup>
+#### Mustache Etiket Desteği <sup>23.7</sup>
 
-Mustache etiketleri artık [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/tr/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/) ve [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/tr/net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion) yöntemlerinde desteklenmektedir.
+Mustache etiketleri artık [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/) ve [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion) yöntemlerinde destekleniyor.
 
-#### LINQ Raporlama Motoru Şablonu Sözdizimi Güncellemeleri <sup>23.7</sup>
+#### LINQ Raporlama Altyapısı Şablonu Sözdizimi Güncelleştirmeleri <sup>23.7</sup>
 
-LINQ Reporting Engine şablon sözdizimi artık `ElementAt` ve ElementAtOrDefault uzantı yöntemlerini desteklemektedir.
+LINQ Raporlama Altyapısı şablonu sözdizimi artık `ElementAt` ve ElementAtOrDefault uzantı yöntemlerini desteklemektedir.
 
-#### İşlenen Görüntülerin Boyutunun Belirlenmesi <sup>23.8</sup>
+#### İşlenen Görüntülerin Boyutunu Belirtme <sup>23.8</sup>
 
-İşlenen görüntülerin boyutunu piksel cinsinden belirtmek için yeni bir genel özellik olan [ImageSize](https://reference.aspose.com/words/tr/net/aspose.words.saving/imagesaveoptions/imagesize/) kullanıma sunuldu.
+İşlenen görüntülerin piksel cinsinden boyutunu belirtmek için yeni bir genel özellik [ImageSize](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/imagesize/) tanıtıldı.
 
-#### JSON Dize Değerleri için Boşlukları Koruyun – LINQ <sup>23.8</sup>
+#### Boşlukları JSON Dize Değerleri için Koru - LINQ <sup>23.8</sup>
 
-JSON dize değerlerine ilişkin boşlukları korumak için LINQ Raporlama Motoruna bir seçenek eklendi.
+JSON dize değerlerinin boşluklarını korumak için LINQ Raporlama Altyapısına bir seçenek eklendi.
 
 ### LowCode <sup>23.6</sup>
 
-Farklı türdeki belgeleri tek bir çıktı belgesinde birleştirmeyi amaçlayan yeni LowCode yöntemleri eklendi.
+Farklı belge türlerini tek bir çıktı belgesinde birleştirmeyi amaçlayan yeni LowCode yöntemler eklendi.
 
 ### Diğer
 
-* Üstbilgi/altbilgilerde metin kaydırma desteği uygulandı. <sup>23.5</sup>
-* [RemoveAllSignatures](https://reference.aspose.com/words/tr/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/) yöntemiyle ODT dokümanlarından dijital imzaları kaldırma özelliği eklendi. <sup>23.5</sup>
-* [Run](https://reference.aspose.com/words/tr/net/aspose.words/run/) fonetik kılavuzunun temel ve ruby metnini elde etmek için [PhoneticGuide](https://reference.aspose.com/words/tr/net/aspose.words/run/phoneticguide/) kamu malı eklendi. <sup>23.5</sup>
-* Yeni bir [SignatureValue](https://reference.aspose.com/words/tr/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/) özelliği getirilerek dijital olarak imzalanmış bir belgeden bayt dizisi olarak dijital imza değeri alma yeteneği eklendi. <sup>23.7</sup>
-* [Row](https://reference.aspose.com/words/tr/net/aspose.words.tables/row/) ve [Cell](https://reference.aspose.com/words/tr/net/aspose.words.tables/cell/) sınıfları yeni genel üyelerle ([Row.NextRow](https://reference.aspose.com/words/tr/net/aspose.words.tables/row/nextrow/), [Row.PreviousRow](https://reference.aspose.com/words/tr/net/aspose.words.tables/row/previousrow/), [Cell.NextCell](https://reference.aspose.com/words/tr/net/aspose.words.tables/cell/nextcell/) ve [Cell.PreviousCell](https://reference.aspose.com/words/tr/net/aspose.words.tables/cell/previouscell/)) genişletildi. <sup>23.7</sup>
-* CITATION ve KAYNAKÇA alanları desteği eklendi. <sup>23.8</sup>
+* Üstbilgilerde / altbilgilerde metin kaydırma desteği uygulanmıştır. <sup>23.5</sup>
+* ODT belgelerden dijital imzaları kaldırma özelliği [RemoveAllSignatures](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/) yöntemi ile eklenmiştir. <sup>23.5</sup>
+* Fonetik kılavuzun temel ve yakut metnini elde etmek için [PhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/phoneticguide/) kamu malı [Run](https://reference.aspose.com/words/net/aspose.words/run/) eklenmiştir. <sup>23.5</sup>
+* Dijital olarak imzalanmış bir belgeden bayt dizisi olarak dijital imza değeri alma özelliği, yeni bir [SignatureValue](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/) özelliği eklenerek eklenmiştir. <sup>23.7</sup>
+* [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) ve [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) sınıfları yeni genel üyelerle genişletildi – [Row.NextRow](https://reference.aspose.com/words/net/aspose.words.tables/row/nextrow/), [Row.PreviousRow](https://reference.aspose.com/words/net/aspose.words.tables/row/previousrow/), [Cell.NextCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/nextcell/), ve [Cell.PreviousCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/previouscell/). <sup>23.7</sup>
+* CITATION ve BIBLIOGRAPHY alanları için destek eklendi. <sup>23.8</sup>
 
 {{% alert color="primary" %}}
 
-[.NET 23.5 Sürüm Notları için Aspose.Words](/words/net/aspose-words-for-net-23-5-release-notes/) hakkında daha fazla bilgi edinin.
+Hakkında daha fazla bilgi edinin [Aspose.Words için .NET 23.5 Sürüm Notları](/words/net/aspose-words-for-net-23-5-release-notes/).
 
-[.NET 23.6 Sürüm Notları için Aspose.Words](/words/net/aspose-words-for-net-23-6-release-notes/) hakkında daha fazla bilgi edinin.
+Hakkında daha fazla bilgi edinin [Aspose.Words için .NET 23.6 Sürüm Notları](/words/net/aspose-words-for-net-23-6-release-notes/).
 
-[.NET 23.7 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/) hakkında daha fazla bilgi edinin.
+Hakkında daha fazla bilgi edinin [Aspose.Words için .NET 23.7 Sürüm Notları](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
 
-[.NET 23.8 Sürüm Notları için Aspose.Words](/words/net/aspose-words-for-net-23-8-release-notes/) hakkında daha fazla bilgi edinin.
+Hakkında daha fazla bilgi edinin [Aspose.Words için .NET 23.8 Sürüm Notları](/words/net/aspose-words-for-net-23-8-release-notes/).
 
 {{% /alert %}}
 
@@ -510,6 +541,6 @@ Farklı türdeki belgeleri tek bir çıktı belgesinde birleştirmeyi amaçlayan
 
 {{% alert color="primary" %}}
 
-Bu sayfada son 2 yılın en son sürüm haberleri yer almaktadır. Önceki sürümlere ilişkin ayrıntılar için ilgili bölümlerdeki [Sürüm notları'](/words/net/release-notes/) sayfalarına bakın.
+Bu sayfa, son 2 yılın en son sürüm haberlerini içerir. Önceki sürümlerle ilgili ayrıntılar için bkz. [Sürüm Notları'](https://releases.aspose.com/words/net/release-notes/) ilgili bölümlerdeki sayfalar.
 
 {{% /alert %}}

@@ -6,27 +6,40 @@ linktitle: İçerideki yenilikler Aspose.Words için Java
 type: docs
 description: "Aspose.Words için Java her gün genişler ve gelişir. Bu sayfada, ürünün devasa ve en ilginç özellikleri hakkında bilgi edinebilirsiniz."
 weight: 2
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /tr/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2025-17-02-18-02-05
+timestamp: 2025-04-22-08-02-05
 ---
 
 Bu sayfa, son sürümlerde tanıtılan en ilginç yeni Aspose.Words özellikleri açıklamaktadır.
 
-## Aspose.Words için Java 25.1, 25.2
+## Aspose.Words için Java 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1, AI destekli dilbilgisi denetimini sunar ve HTML, SVG ve Markdown biçimleri için gelişmiş seçeneklerle belge kaydetmeyi geliştirir.
 
-Aspose.Words 25.2 Antropik AI modellerle metin özetlemeyi tanıtır, MsWorks biçim desteği ekler, tipografik kontrolü geliştirir ve PDF yapı ve liste işlemeyi geliştirir.
+Aspose.Words 25.2 Anthropic AI modellerle metin özetlemeyi tanıtır, MsWorks biçim desteği ekler, tipografik kontrolü geliştirir ve PDF yapı ve liste işlemeyi geliştirir.
+
+Aspose.Words 25.3 UpdateAmbiguousTextFont özelliğine sahip AI destekli bir dilbilgisi denetleyicisini ve yazı tipi seçimini geliştirir ve ayrıca PDF eklerin dışa aktarılmasını geliştirir.
+
+Aspose.Words 25.4 yeni kağıt boyutları için destek sunar, gelişmiş HTML dışa aktarma kontrolünü etkinleştirir, filigran işlemeyi geliştirir ve LowCode API'nin kullanılabilirliğini artırır.
 
 ### AI -güçlendirilmiş Özellikler
 
-#### Belge AI Dilbilgisi Denetimi <sup>25.1</sup>
+#### Belge AI Dilbilgisi Denetimi
 
-Sağlanan belgenin dilbilgisini OpenAI üretici modelleri kullanarak kontrol etme yeteneği, yeni bir [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions) yöntemi eklenerek tanıtıldı.
+* Sağlanan belgenin dilbilgisini OpenAI üretici modelleri kullanarak kontrol etme yeteneği, yeni bir [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions) yöntemi eklenerek tanıtıldı. <sup>25.1</sup>
+* AI destekli Dilbilgisi Denetimi özelliği, [AiModelType](https://reference.aspose.com/words/java/com.aspose.words/aimodeltype/) numaralandırmasında bulunan tüm modelleri destekleyecek şekilde güncellendi. <sup>25.3</sup>
 
-#### Antropik Üretken Dil Modellerini Kullanarak Özetleme <sup>25.2</sup>
+#### Anthropic Üretici Dil Modellerini Kullanarak Özetleme <sup>25.2</sup>
 
-Antropik üretken dil modellerini kullanarak metin özetlemesi, yeni bir genel sınıf [AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/) getirilerek etkinleştirildi.
+Anthropic üretici dil modellerini kullanarak metin özetlemesi, yeni bir genel sınıf [AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/) getirilerek etkinleştirildi.
+
+### Low Code
+
+#### Low Code API Kullanılabilirlik <sup>25.4</sup>
+
+**LowCode API** 'ın kullanılabilirliğinde, belge işlemeyi basitleştiren ve tekrarlayan kod ihtiyacını azaltan önemli iyileştirmeler getirildi.
 
 ### Desteklenen Biçimler <sup>25.2</sup>
 
@@ -42,6 +55,7 @@ HTML ve SVG biçimlerine kaydetme, hem [HtmlFixedSaveOptions](https://reference.
 
 * Görüntü çözünürlüğünü ayarlamak için [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) sınıfına yeni bir [ImageResolution](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageResolution) seçeneği eklendi.
 * OfficeMath çıktı modunu ayarlamak için [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) sınıfına yeni bir [OfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getOfficeMathExportMode) seçeneği ve [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownofficemathexportmode/) numaralandırması eklendi ve eklendi.
+* [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.io.InputStream-com.aspose.words.ImageWatermarkOptions) yöntemine yeni bir aşırı yük eklenerek bir akıştan görüntü filigranı ayarlama özelliği tanıtıldı. <sup>25.4</sup>
 
 ### İşleme
 
@@ -49,10 +63,23 @@ HTML ve SVG biçimlerine kaydetme, hem [HtmlFixedSaveOptions](https://reference.
 
 Geliştirilmiş tipografik kontrol için [NumberSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getNumberSpacing) özelliği eklendi.
 
+#### Belirsiz Karakterler için Yazı Tipi Seçimini Denetleme <sup>25.3</sup>
+
+Kullanılan karakter koduna göre yazı tipi seçimini denetlemek için [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) sınıfına yeni bir genel özellik [UpdateAmbiguousTextFont](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateAmbiguousTextFont) eklendi.
+
+#### Kağıt Boyutu Seçenekleri <sup>25.4</sup>
+
+JIS B4 ve JIS B5 kağıt boyutlarını kullanma yeteneği, [PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/) numaralandırmasına yeni değerler eklenerek tanıtıldı.
+
+#### HTML Çıkış Kontrolü <sup>25.4</sup>
+
+HTML dışa aktarma sırasında JavaScript köprüsünden URLs kaldırma özelliği, [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getRemoveJavaScriptFromLinks) özelliği eklenerek tanıtıldı.
+
 ### Diğer
 
 * PDF mantıksal yapı TOA, BIBLIOGRAPHY ve INDEX alanları desteği ile geliştirilmiştir. <sup>25.2</sup>
 * Geliştirilmiş liste işleme için [AddSingleLevelList](https://reference.aspose.com/words/java/com.aspose.words/listcollection/#addSingleLevelList-int) yöntemi tanıtıldı. <sup>25.2</sup>
+* PDF eklerin dışa aktarımını iyileştirmek için **EmbedAttachments** yerine [AttachmentsEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getAttachmentsEmbeddingMode) yeni bir özellik eklendi. Ayrıca, PDF/A sürüm eklerini desteklemek için [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) numaralandırmasına yeni değerler eklenmiştir. Ek olarak, ekler artık şifreleme ile desteklenmektedir. <sup>25.3</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,15 +87,19 @@ Hakkında daha fazla bilgi edinin [Aspose.Words için Java 25.1 Sürüm Notları
 
 Hakkında daha fazla bilgi edinin [Aspose.Words için Java 25.2 Sürüm Notları](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-2-release-notes/).
 
+Hakkında daha fazla bilgi edinin [Aspose.Words için Java 25.3 Sürüm Notları](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-3-release-notes/).
+
+Hakkında daha fazla bilgi edinin [Aspose.Words için Java 25.4 Sürüm Notları](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-4-release-notes/).
+
 {{% /alert %}}
 
 ## Aspose.Words için Java 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 group shape ekleme ve StructuredDocumentTag ekleme işlemlerini DocumentBuilder aracılığıyla tanıtır, mezuniyetlerle radyal grafik oluşturmayı geliştirir, XAdES-EPES desteğiyle dijital imzaları geliştirir, Markdown altı çizili tanıma ekler ve dipnot / sonnot ayırıcılarına erişim sağlar.
 
-Aspose.Words 24.10 CommandButton oluşturma, yeni şekil görünürlüğü kontrolü, group shapes yeteneği, tablolar için geliştirilmiş Markdown dışa aktarma, Pie ve Doughnut grafikler için grafik biçimlendirme, daha iyi Big5 kodlama işleme ve eski Tayvan yazı tipleri desteği ile gelişmiş ActiveX denetimi desteği sunar.
+Aspose.Words 24.10, CommandButton oluşturma, yeni şekil görünürlüğü kontrolü, group shapes yeteneği, tablolar için geliştirilmiş Markdown dışa aktarma, Pie ve Doughnut grafikler için grafik biçimlendirme, daha iyi Bıg5 kodlama işleme ve eski sürümler için destek ile gelişmiş ActiveX kontrol desteği sunar Tayvanlı yazı tipleri.
 
-Aspose.Words 24.11, AI destekli belge özetleme, gelişmiş oluşturma seçenekleri, belge özelliklerine geliştirilmiş erişim ve ActiveX denetimi altyazısını sunar.
+Aspose.Words 24.11, AI destekli belge özetleme, gelişmiş oluşturma seçenekleri, belge özelliklerine geliştirilmiş erişim ve ActiveX altyazı denetimini sunar.
 
 Aspose.Words 24.12 özelleştirilebilir veri etiketi yerleşimi, Google AI destekli metin çevirisi, gelişmiş Mail Merge temizleme seçenekleri ve yeni LowCode işleme sınıfları sunar.
 
@@ -92,7 +123,7 @@ Yeni LowCode sınıflar gibi [Comparer](https://reference.aspose.com/words/java/
 
 Radyal grafiklerde mezuniyetlerin oluşturulması uygulanmıştır.
 
-#### CommandButton ActiveX Denetimleri <sup>24.10</sup>
+#### CommandButton ActiveX Kontroller <sup>24.10</sup>
 
 CommandButton ActiveX denetimleri oluşturma yeteneği, yeni bir genel yöntem [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) ve yeni bir genel sınıf [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/) eklenerek tanıtıldı.
 
@@ -151,7 +182,7 @@ XAdES-EPES düzey XML-DSig imzalı belgeleri imzalama yeteneği, yeni bir genel 
 * TrueType cmap tabloları için Bıg5 kodlama işlemi geliştirildi. <sup>24.10</sup>
 * Eski Tayvanlı yazı tipleri için destek geliştirildi. <sup>24.10</sup>
 * Genişletilmiş belge özelliklerine erişmek için [BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/) sınıfına salt okunur özellikler eklenmiştir. <sup>24.11</sup>
-* ActiveX denetimleri için resim yazıları ayarlamak, [Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption) özelliğine yeni bir genel ayarlayıcı eklenerek etkinleştirildi. <sup>24.11</sup>
+* ActiveX denetimleri için altyazı ayarlama, [Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption) özelliğine yeni bir genel ayarlayıcı eklenerek etkinleştirildi. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
@@ -203,10 +234,10 @@ Aspose.Words 24.8 eksen etiketleri üzerinde hassas kontrolle grafik özelleşti
 
 [CustomNumberStyleFormat](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getCustomNumberStyleFormat) genel mülkü için bir ayarlayıcı eklendi. Artık liste seviyeleri için özel bir numara stili tanımlayabilirsiniz.
 
-#### ActiveX ile çalışmadaki değişiklikler <sup>24.7</sup>
+#### ActiveX <sup>24.7 ile çalışmadaki değişiklikler</sup>
 
-* ActiveX nesnelerinin özellikleri artık değiştirilebilir ve davranışları üzerinde daha fazla denetim sağlar.
-* Dinamik etkileşimi etkinleştirmek için radyo düğmesi ActiveX denetiminin değerini değiştirme yeteneği eklendi.
+* ActiveX nesnelerinin özellikleri artık değiştirilebilir, böylece davranışları üzerinde daha fazla kontrol sahibi olursunuz.
+* Dinamik etkileşimi etkinleştirmek için radyo düğmesi ActiveX kontrolünün değerini değiştirme yeteneği eklendi.
 * Bir ActiveX checkbox öğesini "işaretli" veya "işaretlenmemiş" olarak değiştirme yeteneği eklendi.
 
 #### Grafik Ekseni Üzerinde Kontrol İşaret Etiketleri Yönlendirme ve Döndürme <sup>24.8</sup>
@@ -393,7 +424,7 @@ TXT belgeleri yüklerken köprüleri tanıma özelliği, yeni bir [DetectHyperli
 - [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) sınıfının yöntemlerine genel bir tür parametresi eklenmiştir. <sup>23.10</sup>
 - [Accept](https://reference.aspose.com/words/java/com.aspose.words/revisioncollection/#accept-com.aspose.words.IRevisionCriteria) ve [Reject](https://reference.aspose.com/words/java/com.aspose.words/revisioncollection/#reject-com.aspose.words.IRevisionCriteria) yöntemleri kullanılarak belirli bir revizyonun ne zaman kabul edilmesi / reddedilmesi gerektiğini kontrol etmenin bir yolu uygulanmıştır. Bu geliştirme, kullanıcılara revizyon süreci üzerinde daha ince kontrol sağlar. <sup>23.11</sup>
 - Bir belgenin tüm bölümlerini aynı XLSX çalışma sayfasına yazma yeteneği, yeni [XlsxSectionMode](https://reference.aspose.com/words/java/com.aspose.words/xlsxsectionmode/) numaralandırma türü ve yeni [SectionMode](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/#getSectionMode) özelliği aracılığıyla sağlanmıştır. <sup>23.11</sup>
-- WebP görüntüsü için destek sunuldu. Lütfen bu özelliğin yalnızca .NetStandart ve .NET6+ sürümleri için geçerli olduğunu unutmayın. <sup>23.12</sup>
+- WebP görüntüsü için destek sunuldu. Lütfen bu özelliğin yalnızca .NetStandart ve .NET6+ sürümleri için mevcut olduğunu unutmayın. <sup>23.12</sup>
 
 {{% alert color="primary" %}}
 

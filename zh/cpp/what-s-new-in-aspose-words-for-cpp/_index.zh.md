@@ -4,29 +4,42 @@ second_title: Aspose.Words为C++
 articleTitle: 最新消息 Aspose.Words为C++
 linktitle: 最新消息 Aspose.Words为C++
 type: docs
-description: "Aspose.Words为C++ 每天扩展和增强。 在这个页面上，您可以了解该产品的巨大和最有趣的功能。"
+description: "Aspose.Words为C++ 每天扩展和增强。 在这个页面上，您可以了解产品的巨大和最有趣的功能。"
 weight: 2
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /zh/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2025-03-09-12-38-00
+timestamp: 2025-04-15-08-02-05
 ---
 
 本页介绍了最近版本中引入的最有趣的Aspose.Words新特性。
 
-## Aspose.Words为C++ 25.1, 25.2
+## Aspose.Words为C++ 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words25.1引入了AI支持的语法检查，并通过HTML、SVG和Markdown格式的高级选项增强了文档保存。
 
-Aspose.Words25.2使用AnthropicAI模型引入文本摘要，添加MsWorks格式支持，增强排版控制，并改进PDF结构和列表处理。
+Aspose.Words25.2引入了带有AnthropicAI模型的文本摘要，增加了MsWorks格式支持，增强了排版控制，并改进了PDF结构和列表处理。
 
-### AI 支持的功能
+Aspose.Words25.3使用UpdateAmbiguousTextFont属性增强了AI支持的语法检查器和字体选择，并改进了PDF附件导出。
 
-#### 文档AI语法检查 <sup>25.1</sup>
+Aspose.Words25.4引入对新纸张尺寸的支持，启用高级HTML导出控制，改进水印处理，并增强LowCodeAPI的可用性。
 
-通过添加一个新的[CheckGrammar](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/checkgrammar/)方法，引入了使用OpenAI生成模型检查所提供文档语法的能力。
+### AI功能
 
-#### 使用人类生成语言模型进行总结 <sup>25.2</sup>
+#### 文档AI语法检查
 
-通过引入一个新的公共类[AnthropicAiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/)，启用了使用人类生成语言模型的文本摘要。
+* 通过添加一个新的[CheckGrammar](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/checkgrammar/)方法，引入了使用OpenAI生成模型检查所提供文档语法的能力。 <sup>25.1</sup>
+* 更新了AI支持的语法检查功能，以支持[AiModelType](https://reference.aspose.com/words/cpp/aspose.words.ai/aimodeltype/)枚举中可用的所有模型。 <sup>25.3</sup>
+
+#### 使用Anthropic生成语言模型进行总结 <sup>25.2</sup>
+
+通过引入一个新的公共类[AnthropicAiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/)，启用了使用Anthropic生成语言模型的文本摘要。
+
+### Low Code
+
+#### Low CodeAPI可用性 <sup>25.4</sup>
+
+对**LowCode API**的可用性进行了重大改进，简化了文档处理并减少了对重复代码的需求。
 
 ### 支持的格式 <sup>25.2</sup>
 
@@ -42,6 +55,7 @@ Aspose.Words25.2使用AnthropicAI模型引入文本摘要，添加MsWorks格式�
 
 - 在[MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/)类中添加了一个新的[ImageResolution](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_imageresolution/)选项来设置图像分辨率。
 - 一个新的[OfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_officemathexportmode/)选项和[MarkdownOfficeMathExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownofficemathexportmode/)枚举已添加到[MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/)类中以设置OfficeMath输出模式。
+- 通过向[SetImage](https://reference.aspose.com/words/cpp/aspose.words/watermark/setimage/#watermarksetimageconst-systemsharedptrsystemiostream-const-systemsharedptrasposewordsimagewatermarkoptions-method)方法添加新的重载，引入了从流中设置图像水印的功能。 <sup>25.4</sup>
 
 ### 渲染图
 
@@ -49,10 +63,23 @@ Aspose.Words25.2使用AnthropicAI模型引入文本摘要，添加MsWorks格式�
 
 已添加[NumberSpacing](https://reference.aspose.com/words/cpp/aspose.words/font/get_numberspacing/)属性以改进排版控制。
 
+#### 控制模糊字符的字体选择 <sup>25.3</sup>
+
+在[SaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/)类中添加了一个新的公共属性[UpdateAmbiguousTextFont](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_updateambiguoustextfont/)，以根据使用的字符代码控制字体选择。
+
+#### 纸张尺寸选项 <sup>25.4</sup>
+
+通过向[PaperSize](https://reference.aspose.com/words/cpp/aspose.words/papersize/)枚举添加新值，引入了使用JISB4和JISB5纸张大小的功能。
+
+#### HTML输出控制 <sup>25.4</sup>
+
+通过添加[RemoveJavaScriptFromLinks](https://reference.aspose.com/words/cpp/aspose.words.saving/htmlsaveoptions/get_removejavascriptfromlinks/)属性，可以在HTML导出期间从超链接URLs中删除JavaScript。
+
 ### 其他
 
-- PDF逻辑结构得到了改进，支持TOA、BIBLIOGRAPHY和INDEX字段。 <sup>25.2</sup>
-- 为了改进列表处理，引入了[AddSingleLevelList](https://reference.aspose.com/words/cpp/aspose.words.lists/listcollection/addsinglelevellist/)方法。 <sup>25.2</sup>
+* PDF逻辑结构得到了改进，支持TOA、BIBLIOGRAPHY和INDEX字段。 <sup>25.2</sup>
+* 为了改进列表处理，引入了[AddSingleLevelList](https://reference.aspose.com/words/cpp/aspose.words.lists/listcollection/addsinglelevellist/)方法。 <sup>25.2</sup>
+* 添加了一个新属性[AttachmentsEmbeddingMode](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_attachmentsembeddingmode/)来替换**EmbedAttachments**以改进PDF附件的导出。 此外，新值已添加到[PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfcompliance/)枚举以支持PDF/A版本附件。 此外，附件现在支持加密。 <sup>25.3</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,102 +87,106 @@ Aspose.Words25.2使用AnthropicAI模型引入文本摘要，添加MsWorks格式�
 
 了解更多关于 [Aspose.Words为C++ 25.2发行说明](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-2-release-notes/).
 
+了解更多关于 [Aspose.Words为C++ 25.3发行说明](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-3-release-notes/).
+
+了解更多关于 [Aspose.Words为C++ 25.4发行说明](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-4-release-notes/).
+
 {{% /alert %}}
 
-## Aspose.Words为C++ 24.9、24.10、24.11、24.12
+## Aspose.Words为C++ 24.9, 24.10, 24.11, 24.12
 
-Aspose.Words24.9通过DocumentBuilder引入group shape插入和StructuredDocumentTag插入，用渐变增强径向图表渲染，用XAdES-EPES 支持，添加Markdown下划线识别，并提供对脚注/尾注分隔符的访问。
+Aspose.Words24.9通过DocumentBuilder引入group shape插入和StructuredDocumentTag插入，使用渐变增强径向图表呈现，使用XAdES-EPES支持改进数字签名，添加Markdown下划线识别，并提供对脚注/尾注分隔符的访问。
 
-Aspose.Words 24.10 引入了增强的 ActiveX 控件支持，包括 CommandButton 创建、新的形状可见性控制、分组形状的能力、改进的表格 Markdown 导出、饼图和环形图的图表格式、更好的 Big5 编码处理以及对过时的台湾字体的支持。
+Aspose.Words24.10引入了增强的ActiveX控件支持CommandButton创建，新的形状可见性控制，group shapes的能力，改进的Markdown表格导出，Pie和Doughnut图表的图表格式，更好的Big5编码处理，以及对过时的台湾字体的支持。
 
-Aspose.Words24.11引入了AI支持的文档摘要、增强的呈现选项、改进的文档属性访问和ActiveX控件字幕。
+Aspose.Words24.11引入了AI支持的文档摘要，增强的呈现选项，改进了对文档属性的访问和ActiveX控制字幕。
 
-Aspose.Words 24.12 引入了可自定义的数据标签放置、Google AI 支持的文本翻译、增强的邮件合并清理选项以及新的 LowCode 处理类。
+Aspose.Words24.12引入了可自定义的数据标签放置，GoogleAI支持的文本翻译，增强的Mail Merge清理选项和新的LowCode处理类。
 
-### AI 支持的功能
+### AI功能
 
-#### 使用 OpenAI 和 Google 进行文档摘要 <sup>24.11</sup>
+#### 使用OpenAI和Google进行文档摘要 <sup>24.11</sup>
 
-通过添加[Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/)命名空间及其公共成员，集成了对使用**OpenAI**和**Google**生成语言模型的文档摘要的支持。
+集成了使用**OpenAI**和**Google**生成语言模型对文档摘要的支持。
 
-#### 使用 Google 的生成语言模型进行文本翻译 <sup>24.12</sup>
+#### 使用Google生成语言模型进行文本翻译 <sup>24.12</sup>
 
-通过将 [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/) 方法和 [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/) 枚举添加到 [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/) 命名空间，Aspose.Words 中实现了使用 Google 的生成语言模型翻译文本的功能。
+通过将[Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/)方法和[Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/)枚举添加到[Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/)命名空间，在Aspose.Words中实现了使用Google生成语言模型翻译文本的功能。
 
 ### Low Code <sup>24.12</sup>
 
-引入了新的 LowCode 类，如 [Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/)、[MailMerger](https://reference.aspose.com/words/cpp/aspose.words.lowcode/merger/)、[Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/)、[Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) 等，提供了一套在文档处理的简单性和灵活性之间取得完美平衡的方法。
+新的LowCode类，如[Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/cpp/aspose.words.lowcode/merger/), [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) 等。 已经引入，提供了一组方法，在文档处理的简单性和灵活性之间取得完美的平衡。
 
 ### 渲染和打印
 
-#### 径向图表上的毕业
+#### 径向图表上的毕业 <sup>24.9</sup>
 
 已经实现了在径向图表上绘制毕业图。
 
-#### CommandButton ActiveX 控件 <sup>24.10</sup>
+#### CommandButton ActiveX 控件<sup>24.10</sup>
 
-通过添加新的公共方法 [InsertForms2OleControl](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertforms2olecontrol/) 和新的公共类 **Forms2OleControl**，引入了创建 CommandButton ActiveX 控件的能力。
+通过添加新的公共方法[InsertForms2OleControl](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertforms2olecontrol/)和新的公共类**Forms2OleControl**，引入了创建CommandButtonActiveX控件的功能。
 
 #### 控制形状可见性 <sup>24.10</sup>
 
-添加了新的公共属性 [Hidden](https://reference.aspose.com/words/cpp/aspose.words.drawing/shapebase/get_hidden/) 来控制形状的可见性。
+添加了一个新的公共属性[Hidden](https://reference.aspose.com/words/cpp/aspose.words.drawing/shapebase/get_hidden/)来控制形状的可见性。
 
-#### 饼图和圆环图的变化 <sup>24.10</sup>
+#### Pie和Doughnut图表的变化 <sup>24.10</sup>
 
-添加了几个新的公共属性来格式化饼图和圆环图。
+为Pie和Doughnut图表的格式添加了几个新的公共属性。
 
 #### 控制PDF选择表单字段边框的呈现 <sup>24.11</sup>
 
-通过添加新的公共选项[RenderChoiceFormFieldBorder](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_renderchoiceformfieldborder/)，实现了控制PDF选择表单字段边框呈现的新选项。
+通过添加新的公共选项**RenderChoiceFormFieldBorder**，实现了控制PDF选择表单字段边框呈现的新选项。
 
 #### 获取和设置图表数据的格式代码 <sup>24.11</sup>
 
-通过在[ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/)、[ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/)和[BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/)类中实现[FormatCode](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/get_formatcode/)属性，添加了获取和设置图表数据格式代码的功能。
+通过在[ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/)、[ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/)和[BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/)类中实现**FormatCode**属性，添加了获取和设置图表数据格式代码的功能。
 
 #### 使用箱和标签渲染直方图图表 <sup>24.11</sup>
 
 通过允许指定数量的容器和标签，直方图图表的呈现得到了改进。
 
-#### 自定义数据标签的位置 <sup>24.12</sup>
+#### 自定义数据标签的放置 <sup>24.12</sup>
 
-通过向 [ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/) 和 [ChartDataLabelCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabelcollection/) 类引入新属性，添加了自定义数据标签位置的功能。
+通过向[ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/)和[ChartDataLabelCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabelcollection/)类引入新属性，添加了自定义数据标签放置的功能。
 
 ### 转换、加载和保存文档
 
-#### 加载Markdown文件时的下划线格式
+#### 加载Markdown文件时的下划线格式 <sup>24.9</sup>
 
 加载Markdown文档时识别下划线格式的选项已通过添加新的公共属性**ImportUnderlineFormatting**合并。
 
-#### 保存为 Markdown 时将表格导出为 HTML <sup>24.10</sup>
+#### 保存到Markdown时，将表导出为HTML <sup>24.10</sup>
 
-通过添加新的公共属性 [ExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_exportashtml/) 和枚举 [MarkdownExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownexportashtml/)，实现了将文档保存为 Markdown 格式时将表格导出为 HTML 的选项。
+通过添加新的公共属性[ExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_exportashtml/)和枚举[MarkdownExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownexportashtml/)，实现了在将文档保存为Markdown格式时将表导出为HTML的选项。
 
 #### 使用更新的逻辑结构导出PDF <sup>24.11</sup>
 
 通过将表标题属性包含为PDF逻辑结构元素标题，已增强了PDF导出。
 
-### 邮件合并和报告
+### Mail Merge和报告
 
-#### 在邮件合并期间删除空表 <sup>24.12</sup>
+#### 在Mail Merge期间删除空表 <sup>24.12</sup>
 
-[MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/) 枚举中添加了新的 **RemoveEmptyTables** 选项，以优化邮件合并输出。
+一个新的**RemoveEmptyTables**选项已添加到[MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/)枚举以细化Mail Merge输出。
 
 ### 数码签署
 
-#### 签署文件XAdES-EPES
+#### 用XAdES-EPES签署文件 <sup>24.9</sup>
 
-与签署文件的能力XAdES-EPES 通过添加一个新的公共属性**XmlDsigLevel**和一个新的公共枚举**XmlDsigLevel**，级别XML-DSig签名已被引入。
+通过添加一个新的公共属性**XmlDsigLevel**和一个新的公共枚举**XmlDsigLevel**，可以使用XAdES-EPES级别XML-DSig签名对文档进行签名。
 
 ### 其他
 
-* 一个新的公共方法[InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/)已添加到group shapes。
-* 添加了一个新的公共方法[InsertStructuredDocumentTag](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertstructureddocumenttag/)以将**StructuredDocumentTags**插入到文档中。
-* 通过添加一些公共类和属性，提供了对脚注/尾注分隔符的公共访问。
-* 通过添加 [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/) 方法，引入了对单个形状进行分组、将形状组合在一起以及直接对形状和组合形状进行分组的功能。 <sup>24.10</sup>
-* TrueType cmap 表的 Big5 编码处理已得到改进。<sup>24.10</sup>
-* 对过时的台湾字体的支持已得到增强。<sup>24.10</sup>
-* 要访问扩展文档属性，已将只读属性添加到[BuiltInDocumentProperties](https://reference.aspose.com/words/cpp/aspose.words.properties/builtindocumentproperties/)类。 <sup>24.11</sup>
-* 通过向**Forms2OleControl.Caption**属性添加新的公共setter，已启用ActiveX控件的设置标题。 <sup>24.11</sup>
+* 一个新的公共方法[InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/)已添加到group shapes。 <sup>24.9</sup>
+* 添加了一个新的公共方法[InsertStructuredDocumentTag](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertstructureddocumenttag/)以将**StructuredDocumentTags**插入到文档中。 <sup>24.9</sup>
+* 通过添加一些公共类和属性，提供了对脚注/尾注分隔符的公共访问。 <sup>24.9</sup>
+* 通过添加[InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/)方法，引入了将单个形状（group shapes组合在一起，以及直接将形状和group shapes组合在一起的功能。 <sup>24.10</sup>
+* 改进了TrueTypecmap表的Big5编码处理。 <sup>24.10</sup>
+* 增强了对过时的台湾字体的支持。 <sup>24.10</sup>
+* 要访问扩展文档属性，已将只读属性添加到**BuiltInDocumentProperties**类。 <sup>24.11</sup>
+* 通过向**Forms2OleControl.Caption**属性添加一个新的公共setter，已启用ActiveX控件的标题设置。 <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
@@ -171,11 +202,11 @@ Aspose.Words 24.12 引入了可自定义的数据标签放置、Google AI 支持
 
 ## Aspose.Words为C++ 24.5, 24.6, 24.7
 
-Aspose.Words24.5扩展了程序集的选项，改进了渲染功能，并扩展了一些其他选项。
+Aspose.Words24.5扩展了程序集的选项，改进了呈现功能，并扩展了一些其他选项。
 
 Aspose.Words24.6改进了渲染选项，增强了搜索和比较功能，并扩展了其他几个功能。
 
-Aspose.Words24.7更改您使用ActiveX的方式，扩展渲染功能，以及导出为Markdown和XLSX格式。
+Aspose.Words24.7更改ActiveX的工作方式，扩展渲染功能，以及导出为Markdown和XLSX格式。
 
 ### 支持的格式
 
@@ -183,9 +214,9 @@ Aspose.Words24.7更改您使用ActiveX的方式，扩展渲染功能，以及导
 
 ### 渲染和打印
 
-#### 图表，形状和绘图的变化 <sup>24.5</sup>
+#### 图表、形状和DrawingML的变化 <sup>24.5</sup>
 
-- 为SVG图形绘制的DrawingML效果渲染,扩展了以前仅限于图像的功能,已经实现.
+- 已经实现了SVG图形的DrawingML效果渲染，扩展了以前仅限于图像的功能。
 - 通过添加**ChartSeriesGroup**和**ChartSeriesGroupCollection**类以及**SeriesGroups**属性，支持在序列组中创建组合图和调整间隙宽度、重叠和气泡比例等属性。
 - 通过添加**SoftEdgeFormat**类实现了操作形状SoftEdge效果的功能。
 - 通过添加**AdjustmentCollection**和**Adjustment**公共类以及**Adjustments**属性，实现了修改形状调整值的功能。
@@ -195,7 +226,7 @@ Aspose.Words24.7更改您使用ActiveX的方式，扩展渲染功能，以及导
 - 制图能力得到了增强。 您现在可以创建更多种类的图表，包括*Treemaps*, *Sunbursts*, *Histograms*, *Pareto* 图表，*Box & Whisker*图表，*Waterfalls*和*Funnels*。 这使您能够以更加多样化和信息丰富的方式可视化数据。
 - 阴影格式的颜色控制已得到改进。 通过访问阴影颜色，您可以更精确地控制文档的外观。
 - 改进了后台渲染的性能提升。 借助原生平铺技术，您可以显着加快包含小元素的背景的渲染速度。
-- 已添加形状的逼真渐变。 您现在可以创建具有非线性渐变的DML形状，模仿Microsoft Word的视觉样式以获得更抛光的外观。
+- 添加了形状的逼真渐变。 您现在可以创建具有非线性渐变的DML形状，模仿Microsoft Word的视觉样式以获得更抛光的外观。
 
 #### 图表数据标签定制 <sup>24.7</sup>
 
@@ -205,11 +236,11 @@ Aspose.Words24.7更改您使用ActiveX的方式，扩展渲染功能，以及导
 
 已添加公共属性[CustomNumberStyleFormat](https://reference.aspose.com/words/cpp/aspose.words.lists/listlevel/get_customnumberstyleformat/)的setter。 您现在可以为列表级别定义自定义数字样式。
 
-#### 使用ActiveX的变化 <sup>24.7</sup>
+#### 使用ActiveX的更改 <sup>24.7</sup>
 
 - 现在可以修改ActiveX对象的属性，使您可以更好地控制其行为。
 - 添加了修改单选按钮ActiveX控件的值以启用动态交互的功能。
-- 添加了将ActiveX复选框切换为"已选中"或"未选中"的功能。
+- 添加了将ActiveXcheckbox切换为"已选中"或"未选中"的功能。
 
 ### 加载和保存文档
 
@@ -243,13 +274,13 @@ Aspose.Words24.7更改您使用ActiveX的方式，扩展渲染功能，以及导
 
 ## Aspose.Words为C++ 24.1, 24.2, 24.3, 24.4
 
-Aspose.Words24.1改进了管理笔划颜色的体验，增强了OLE对象，并引入了一个新的参考书目来源公共API。
+Aspose.Words24.1改进了管理笔划颜色的体验，增强了OLE对象，并引入了一个新的参考书目Sources publicAPI。
 
 Aspose.Words24.2扩展图表API和样式管理。 此版本的Aspose.Words还引入了在渲染期间指定SvgSaveOptions的功能，更灵活地控制加载Markdown文件，以及处理脚注和尾注的参考文本。
 
 Aspose.Words24.3引入了对WMF元文件的二进制栅格操作的仿真，并继续扩展图表API。
 
-Aspose.Words24.4增强了一些渲染选项，并改进了数字签名的工作。
+Aspose.Words24.4增强了一些渲染选项，以及改进了数字签名的工作。
 
 ### 渲染和打印
 
@@ -261,7 +292,7 @@ Aspose.Words24.4增强了一些渲染选项，并改进了数字签名的工作�
 
 **DrawingML Charts API**继续扩展。
 
-#### 嵌入@font-face规则中声明的字体 <sup>24.4</sup>
+#### 嵌入在@font-face规则中声明的字体 <sup>24.4</sup>
 
 添加了将在@font-face规则中声明的字体嵌入到结果文档的字体定义中的功能，通过添加新的[SupportFontFaceRules](https://reference.aspose.com/words/cpp/aspose.words.loading/htmlloadoptions/get_supportfontfacerules/)属性引入。
 
@@ -306,7 +337,7 @@ Aspose.Words23.9扩展渲染选项、图元文件渲染仿真和markdown保存�
 
 Aspose.Words23.10改进了渲染，扩展了加载和保存文档的选项，并允许用户以新的方式合并文档。
 
-Aspose.Words23.11通过其他选项增强图表图例上的修订、XLSX格式和字体的工作。
+Aspose.Words23.11通过其他选项增强了图表图例上的修订、XLSX格式和字体的工作。
 
 Aspose.Words23.12引入了用于处理PDF和OOXML文档的新属性和枚举，以及对WebP图像的支持。
 
@@ -342,7 +373,7 @@ Aspose.Words23.12引入了用于处理PDF和OOXML文档的新属性和枚举，�
 
 ### 加载和保存文档
 
-#### 在Markdown中指定要构造图像URIs的文件夹名称 <sup>23.9</sup>
+#### 在Markdown中指定要构造ImageURIs的文件夹名称 <sup>23.9</sup>
 
 通过包含[ImagesFolderAlias](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_imagesfolderalias/)属性扩展了[MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/)类，该属性允许指定用于构造写入Markdown文档中的图像URIs的文件夹的名称。
 
@@ -363,7 +394,7 @@ Aspose.Words23.12引入了用于处理PDF和OOXML文档的新属性和枚举，�
 * 通过使用[Accept](https://reference.aspose.com/words/cpp/aspose.words/revisioncollection/accept/)和[Reject](https://reference.aspose.com/words/cpp/aspose.words/revisioncollection/reject/)方法实现了一种控制何时应该接受/拒绝某个修订的方法。 此增强功能允许用户更好地控制修订过程。 <sup>23.11</sup>
 * 通过新的[XlsxSectionMode](https://reference.aspose.com/words/cpp/aspose.words.saving/xlsxsectionmode/)枚举类型和新的[SectionMode](https://reference.aspose.com/words/cpp/aspose.words.saving/xlsxsaveoptions/get_sectionmode/)属性提供了将文档的所有部分写入同一个XLSX工作表的能力。 <sup>23.11</sup>
 * 通过`OoxmlSaveOptions`类的新Zip64Mode属性和新的Zip64Mode枚举实现了一种控制ZIP64格式扩展如何用于OOXML文档的方法。 <sup>23.12</sup>
-* 已经引入了对WebP图像的支持。 请注意，此功能仅适用于。NetStandart和。NET6+版本。 <sup>23.12</sup>
+* 已经引入了对WebP图像的支持。 请注意，此功能仅适用于。NetStandart和.NET6+版本。 <sup>23.12</sup>
 
 {{% alert color="primary" %}}
 

@@ -6,27 +6,40 @@ linktitle: Что нового в Aspose.Words для Java
 type: docs
 description: "Aspose.Words для Java с каждым днем расширяется и улучшается сервис. На этой странице вы можете узнать о самых важных и интересных возможностях продукта."
 weight: 2
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ru/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2025-17-02-18-02-05
+timestamp: 2025-04-22-08-02-05
 ---
 
 На этой странице описаны наиболее интересные новые функции Aspose.Words, появившиеся в последних версиях.
 
-## Aspose.Words для Java 25.1, 25.2
+## Aspose.Words для Java 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 реализована проверка грамматики на основе AI и улучшено сохранение документов благодаря расширенным параметрам для форматов HTML, SVG и Markdown.
 
-Aspose.Words 25.2 введено обобщение текста с помощью антропных моделей AI, добавлена поддержка форматов MsWorks, улучшен контроль типографики и улучшена структура PDF и обработка списков.
+Aspose.Words 25.2 введено обобщение текста с помощью Anthropic AI моделей, добавлена поддержка MsWorks форматов, улучшен контроль типографики и улучшена структура PDF и обработка списков.
+
+Aspose.Words 25.3 расширяет возможности проверки грамматики на основе AI и выбора шрифта с помощью свойства UpdateAmbiguousTextFont, а также улучшает экспорт вложений на основе PDF.
+
+Aspose.Words 25.4 добавлена поддержка новых форматов бумаги, расширен экспортный контроль HTML, улучшена обработка водяных знаков и удобство использования LowCode API.
 
 ### AI -функциональные возможности
 
-#### Документ AI Проверка грамматики <sup>25.1</sup>
+#### Проверка грамматики документа AI
 
-Возможность проверки грамматики предоставленного документа с использованием порождающих моделей OpenAI была реализована путем добавления нового метода [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions).
+* Возможность проверки грамматики предоставленного документа с использованием OpenAI порождающих моделей была реализована путем добавления нового метода [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions). <sup>25.1</sup>
+* Функция проверки грамматики на основе AI была обновлена для поддержки всех моделей, доступных в перечислении [AiModelType](https://reference.aspose.com/words/java/com.aspose.words/aimodeltype/). <sup>25.3</sup>
 
-#### Обобщение с использованием антропных порождающих языковых моделей <sup>25.2</sup>
+#### Обобщение с использованием Anthropic Порождающих языковых моделей <sup>25.2</sup>
 
-Обобщение текста с использованием моделей антропного порождающего языка стало возможным благодаря введению нового общедоступного класса [AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/).
+Обобщение текста с использованием моделей порождающего языка Anthropic стало возможным благодаря введению нового общедоступного класса [AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/).
+
+### Low Code
+
+#### Low Code API Удобство использования <sup>25.4</sup>
+
+Были внесены значительные улучшения в удобство использования **LowCode API**, что упростило обработку документов и уменьшило необходимость в повторяющемся коде.
 
 ### Поддерживаемые форматы <sup>25.2</sup>
 
@@ -42,6 +55,7 @@ Aspose.Words 25.2 введено обобщение текста с помощь
 
 * В класс [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) добавлена новая опция [ImageResolution](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageResolution) для настройки разрешения изображения.
 * В класс [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) были добавлены новая опция [OfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getOfficeMathExportMode) и перечисление [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownofficemathexportmode/), чтобы задать режим вывода OfficeMath.
+* Возможность установки водяного знака на изображение из потока была введена путем добавления новой перегрузки к методу [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.io.InputStream-com.aspose.words.ImageWatermarkOptions). <sup>25.4</sup>
 
 ### Визуализация
 
@@ -49,10 +63,23 @@ Aspose.Words 25.2 введено обобщение текста с помощь
 
 Свойство [NumberSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getNumberSpacing) было добавлено для улучшения управления типографикой.
 
+#### Управление выбором шрифта для неоднозначных символов <sup>25.3</sup>
+
+К классу [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) добавлено новое общедоступное свойство [UpdateAmbiguousTextFont](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateAmbiguousTextFont), позволяющее управлять выбором шрифта в соответствии с используемым кодом символа.
+
+#### Параметры формата бумаги <sup>25.4</sup>
+
+Возможность использования форматов бумаги JIS B4 и JIS B5 была реализована путем добавления новых значений в список [PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/).
+
+#### HTML Управление выходом <sup>25.4</sup>
+
+Возможность удалять JavaScript из гиперссылки URLs во время экспорта HTML была реализована путем добавления свойства [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getRemoveJavaScriptFromLinks).
+
 ### Другой
 
 * PDF логическая структура была улучшена за счет поддержки полей TOA, BIBLIOGRAPHY и INDEX. <sup>25.2</sup>
 * Метод [AddSingleLevelList](https://reference.aspose.com/words/java/com.aspose.words/listcollection/#addSingleLevelList-int) был введен для улучшения работы со списками. <sup>25.2</sup>
+* Было добавлено новое свойство [AttachmentsEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getAttachmentsEmbeddingMode) вместо **EmbedAttachments** для улучшения экспорта вложений PDF. Кроме того, в список [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) были добавлены новые значения для поддержки вложений версии PDF/A. Кроме того, вложения теперь поддерживаются с помощью шифрования. <sup>25.3</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,21 +87,25 @@ Aspose.Words 25.2 введено обобщение текста с помощь
 
 Узнайте больше о [Aspose.Words для Java 25.2 Примечания к выпуску](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-2-release-notes/).
 
+Узнайте больше о [Aspose.Words для Java 25.3 Примечания к выпуску](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-3-release-notes/).
+
+Узнайте больше о [Aspose.Words для Java 25.4 Примечания к выпуску](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-4-release-notes/).
+
 {{% /alert %}}
 
 ## Aspose.Words для Java 24.9, 24.10, 24.11, 24.12
 
-Aspose.Words 24.9 добавляет вставку group shape и вставку StructuredDocumentTag с помощью DocumentBuilder, улучшает отображение радиальных диаграмм с помощью градуировок, улучшает цифровые подписи с поддержкой XAdES-EPES, добавляет распознавание подчеркивания Markdown и предоставляет доступ к разделителям сносок/концевых примечаний.
+Aspose.Words 24.9 реализована вставка group shape и вставка StructuredDocumentTag с помощью DocumentBuilder, улучшен рендеринг радиальных диаграмм с градуировкой, улучшены цифровые подписи с поддержкой XAdES-EPES, добавлено распознавание подчеркивания Markdown и предоставлен доступ к разделителям сносок/концевых примечаний.
 
-Aspose.Words 24.10 добавлена расширенная поддержка элементов управления ActiveX с возможностью создания CommandButton, новый элемент управления видимостью фигур, возможность group shapes, улучшенный Markdown экспорт таблиц, форматирование диаграмм для Pie и Doughnut графиков, улучшенная обработка кодировки Big5 и поддержка устаревших тайваньских шрифтов..
+Aspose.Words 24.10 представлена расширенная поддержка элементов управления ActiveX с созданием CommandButton, новый элемент управления видимостью фигур, возможность group shapes, улучшенный экспорт Markdown для таблиц, форматирование диаграмм для Pie и Doughnut диаграмм, улучшенная обработка кодировок Big5 и поддержка устаревших Тайваньские шрифты.
 
-Aspose.Words 24.11 реализована функция обобщения документов на основе AI, расширены возможности визуализации, улучшен доступ к свойствам документа и субтитрам элементов управления ActiveX.
+Aspose.Words 24.11 реализована функция обобщения документов на основе AI, расширенные возможности визуализации, улучшенный доступ к свойствам документа и ActiveX управление субтитрами.
 
 Aspose.Words 24.12 представлены настраиваемое размещение меток данных, перевод текста с помощью Google AI, расширенные Mail Merge возможности очистки и новые LowCode классы обработки.
 
 ### AI -функциональные возможности
 
-#### Обобщение документов с помощью OpenAI и Google <sup>24.11</sup>
+#### Обобщение документов с использованием OpenAI и Google <sup>24.11</sup>
 
 Была интегрирована поддержка обобщения документов с использованием моделей порождающего языка **OpenAI** и **Google**.
 
@@ -92,9 +123,9 @@ Aspose.Words 24.12 представлены настраиваемое разм�
 
 Реализован рендеринг градаций на радиальных диаграммах.
 
-#### CommandButton Элементы управления ActiveX <sup>24.10</sup>
+#### CommandButton ActiveX Элементы управления <sup>24.10</sup>
 
-Возможность создавать CommandButton элементы управления ActiveX была реализована путем добавления нового общедоступного метода [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) и нового общедоступного класса [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/).
+Возможность создания CommandButton ActiveX элементов управления была реализована путем добавления нового общедоступного метода [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) и нового общедоступного класса [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/).
 
 #### Контролируйте видимость фигуры <sup>24.10</sup>
 
@@ -207,7 +238,7 @@ Aspose.Words 24.8 расширяет возможности настройки �
 
 * Свойства объектов ActiveX теперь можно изменять, что дает вам больше контроля над их поведением.
 * Добавлена возможность изменять значение переключателя ActiveX для включения динамического взаимодействия.
-* Добавлена возможность переключения ActiveX checkbox на "проверенный" или "непроверенный".
+* Была добавлена возможность переключать значение ActiveX checkbox на "проверено" или "снято".
 
 #### Управление ориентацией и поворотом меток на оси графика <sup>24.8</sup>
 
@@ -306,7 +337,7 @@ Aspose.Words 24.4 расширены форматы сохранения, нек
 
 #### Новый пользователь TIFF для чтения/записи <sup>24.3</sup>
 
-Был разработан новый TIFF модуль чтения/записи для Aspose.Words, .NET Standard, .NET 6 и более поздних версий. Aspose.Words для .NET 24.3 добавлена поддержка чтения TIFF изображений с JPEG и старыми типами сжатия JPEG, а также значительно улучшено качество операций чтения и записи.
+Был разработан новый TIFF модуль чтения/записи для Aspose.Words .NET Standard, .NET 6 и более поздних версий. Aspose.Words для .NET 24.3 добавлена поддержка чтения TIFF изображений с JPEG и старыми типами сжатия JPEG, а также значительно улучшено качество операций чтения и записи.
 
 ### Другой
 
@@ -317,7 +348,7 @@ Aspose.Words 24.4 расширены форматы сохранения, нек
 * Функциональность для получения фактического текста опорного знака для сносок и концевых сносок была расширена с помощью свойства [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) и метода [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/). <sup>24.2</sup>
 * Включена совместимость с графиками `Word 2016` для `LINQ Reporting Engine`. <sup>24.2</sup>
 * Реализована эмуляция бинарных растровых операций для метафайлов WMF. <sup>24.3</sup>
-* Возможность определять параметры подписи для документов в рамках **SaveOptions** была включена путем добавления нового класса [DigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturedetails/) с новыми открытыми членами, а также добавления новых свойств к классам [OoxmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) и [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/). <sup>24.4</sup>
+* Возможность определять параметры подписи для документов в **SaveOptions** была включена путем добавления нового класса [DigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturedetails/) с новыми открытыми членами, а также добавления новых свойств к классам [OoxmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) и [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/). <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -337,7 +368,7 @@ Aspose.Words 23.9 расширяет возможности рендеринга
 
 Aspose.Words 23.10 улучшен рендеринг, расширены возможности загрузки и сохранения документов, а также пользователи могут по-новому объединять документы.
 
-Aspose.Words 23.11 расширяет работу с изменениями, XLSX форматированием и шрифтами в легенде диаграммы с помощью дополнительных опций.
+Aspose.Words 23.11 расширяет возможности работы с изменениями, XLSX форматированием и шрифтами в легенде диаграммы с помощью дополнительных опций.
 
 Aspose.Words 23.12 добавлены новые свойства и перечисления для работы с PDF документами, поддержка WebP изображений и обновленная библиотека Bouncy Castle.
 
@@ -454,7 +485,7 @@ Aspose.Words 23.8 расширяет возможности различных �
 
 #### Динамическая HTML вставка для LINQ Механизма создания отчетов <sup>23.6</sup>
 
-Добавлен новый способ динамической вставки HTML для механизма создания отчетов LINQ.
+Был добавлен новый способ динамической вставки HTML для механизма создания отчетов LINQ.
 
 #### Mustache Поддержка тегов <sup>23.7</sup>
 

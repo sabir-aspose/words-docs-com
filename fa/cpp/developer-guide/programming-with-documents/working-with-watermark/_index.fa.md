@@ -6,11 +6,21 @@ linktitle: کار با واترمارک
 type: docs
 description: "دستکاری علامت آبی سند با استفاده از C++."
 weight: 340
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /fa/cpp/working-with-watermark/
-timestamp: 2024-01-30-16-22-34
+timestamp: 2025-05-07-07-22-34
 ---
 
 این موضوع در مورد چگونگی کار برنامه نویسی با watermark با استفاده از Aspose.Words بحث می کند. علامت آبی یک تصویر پس زمینه است که در پشت متن در یک سند نمایش داده می شود. یک علامت آبی می تواند حاوی یک متن یا یک تصویر باشد که توسط کلاس [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/) نشان داده شده است.
+
+{{% alert color="primary" %}}
+
+**سعی کنید آنلاین**
+
+شما می توانید این قابلیت را با ما امتحان کنید [علامت آبی سند آنلاین رایگان](https://products.aspose.app/words/watermark).
+
+{{% /alert %}}
 
 ## یک علامت آبی به یک سند اضافه کنید
 
@@ -28,7 +38,11 @@ timestamp: 2024-01-30-16-22-34
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cpp" >}}
 
-علامت آبی را می توان با استفاده از کلاس شکل نیز وارد کرد. بسیار آسان است که هر شکل یا تصویر را در یک سر یا پای صفحه قرار دهید و بنابراین یک علامت آبی از هر نوع قابل تصور ایجاد کنید. مثال کد زیر یک علامت آبی را در یک سند ورد قرار می دهد.
+علامت آبی تصویر را می توان به عنوان تصویر، رشته یا جریان وارد کرد.
+
+علامت آبی را می توان با استفاده از کلاس شکل نیز وارد کرد. بسیار آسان است که هر شکل یا تصویر را در یک سر یا پای صفحه قرار دهید و بنابراین یک علامت آبی از هر نوع قابل تصور ایجاد کنید.
+
+مثال کد زیر یک علامت آبی را در یک سند Word قرار می دهد.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Images-AddWatermark-AddWatermark.cpp" >}}
 

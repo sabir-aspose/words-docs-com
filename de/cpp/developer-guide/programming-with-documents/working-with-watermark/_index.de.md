@@ -6,11 +6,21 @@ linktitle: Arbeiten mit Wasserzeichen
 type: docs
 description: "Manipulation des Dokumentwasserzeichens mit C++."
 weight: 340
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /de/cpp/working-with-watermark/
-timestamp: 2024-01-30-16-22-34
+timestamp: 2025-05-07-07-22-34
 ---
 
 In diesem Thema wird erläutert, wie Sie mit Aspose.Words programmgesteuert mit Wasserzeichen arbeiten. Ein Wasserzeichen ist ein Hintergrundbild, das hinter dem Text in einem Dokument angezeigt wird. Ein Wasserzeichen kann einen Text oder ein Bild enthalten, das durch die Klasse [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/) dargestellt wird.
+
+{{% alert color="primary" %}}
+
+**Online ausprobieren**
+
+Sie können diese Funktionalität mit unserem ausprobieren [Kostenloses Online Wasserzeichen für Dokumente](https://products.aspose.app/words/watermark).
+
+{{% /alert %}}
 
 ## Hinzufügen eines Wasserzeichens zu einem Dokument
 
@@ -28,7 +38,11 @@ Das folgende Codebeispiel zeigt, wie Sie ein Bildwasserzeichen in ein Dokument e
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cpp" >}}
 
-Das Wasserzeichen kann auch mit der Formklasse eingefügt werden. Es ist sehr einfach, eine beliebige Form oder ein beliebiges Bild in eine Kopf- oder Fußzeile einzufügen und so ein Wasserzeichen jeder erdenklichen Art zu erstellen. Das folgende Codebeispiel fügt ein Wasserzeichen in ein Word-Dokument ein.
+Bildwasserzeichen können als Bild, Zeichenfolge oder Stream eingefügt werden.
+
+Das Wasserzeichen kann auch mit der Formklasse eingefügt werden. Es ist sehr einfach, eine beliebige Form oder ein beliebiges Bild in eine Kopf- oder Fußzeile einzufügen und so ein Wasserzeichen jeder erdenklichen Art zu erstellen.
+
+Das folgende Codebeispiel fügt ein Wasserzeichen in ein Word-Dokument ein.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Images-AddWatermark-AddWatermark.cpp" >}}
 

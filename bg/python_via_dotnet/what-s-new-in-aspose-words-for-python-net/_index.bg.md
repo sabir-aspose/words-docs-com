@@ -6,27 +6,34 @@ linktitle: Какво е новото в Aspose.Words за Python via .NET
 type: docs
 description: "Aspose.Words за Python via .NET разширява и подобрява всеки ден. На тази страница можете да научите за огромните и най-интересните характеристики на продукта."
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /bg/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-02-17-18-02-05
+timestamp: 2025-04-16-07-02-05
 ---
 
 Тази страница описва най-интересните нови Aspose.Words функции, въведени в последните издания.
 
-## Aspose.Words за Python via .NET 25.1, 25.2
+## Aspose.Words за Python чрез .NET 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 въвежда AI - захранва проверката на граматиката и подобрява записването на документи с разширени опции за формати HTML, SVG и Markdown.
 
-Aspose.Words 25.2 въвежда обобщаване на текст с Антропни AI модели, добавя MsWorks поддръжка на формат, подобрява типографския контрол и подобрява PDF структура и обработка на списъци.
+Aspose.Words 25.2 въвежда обобщаване на текст с Anthropic AI модели, добавя MsWorks поддръжка на формат, подобрява типографския контрол и подобрява PDF структурата и обработката на списъци.
+
+Aspose.Words 25.3 подобрява AI - захранва граматика Проверка и избор на шрифт със свойството UpdateAmbiguousTextFont, както и подобрява PDF прикачени файлове износ.
+
+Aspose.Words 25.4 въвежда поддръжка за нови размери на хартията, позволява разширен HTML контрол на износа и подобрява обработката с водни знаци.
 
 ### AI - захранващи функции
 
-#### Документ AI Проверка На Граматиката <sup>25.1</sup>
+#### Документ AI Проверка На Граматиката
 
-Възможността за проверка на граматиката на предоставения документ, използвайки OpenAI генеративни модели е въведена чрез добавяне на нов [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/) метод.
+* Възможността за проверка на граматиката на предоставения документ, използвайки OpenAI генеративни модели е въведена чрез добавяне на нов [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/) метод. <sup>25.1</sup>
+* Функцията за проверка на граматиката AI е актуализирана, за да поддържа всички модели, налични в списъка [AiModelType](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodeltype/). <sup>25.3</sup>
 
-#### Обобщаване С Помощта На Антропни Генеративни Езикови Модели <sup>25.2</sup>
+#### Обобщаване Чрез Използване На Anthropic Генеративни Езикови Модели <sup>25.2</sup>
 
-Обобщаването на текст с помощта на антропни генеративни езикови модели е разрешено чрез въвеждането на нов публичен клас [AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/).
+Обобщаването на текст с помощта на Anthropic генеративните езикови модели е разрешено чрез въвеждане на нов публичен клас [AnthropicAiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/anthropicaimodel/).
 
 ### Поддържани Формати <sup>25.2</sup>
 
@@ -49,10 +56,24 @@ Aspose.Words 25.2 въвежда обобщаване на текст с Ант�
 
 [number_spacing](https://reference.aspose.com/words/python-net/aspose.words/font/number_spacing/) свойството е добавено за подобрен типографски контрол.
 
+#### Контролиране на избора на шрифт за двусмислени знаци <sup>25.3</sup>
+
+В класа [update_ambiguous_text_font](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/update_ambiguous_text_font/) е добавена нова публична собственост [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/), За да се контролира изборът на шрифт според използвания код на знака.
+
+#### Опции За Размер На Хартията <sup>25.4</sup>
+
+Възможността за използване на JIS B4 и JIS B5 е въведена чрез добавяне на нови стойности към изброяването [PaperSize](https://reference.aspose.com/words/python-net/aspose.words/papersize/).
+
+#### HTML Контрол На Изхода <sup>25.4</sup>
+
+Възможността за премахване на JavaScript от хипервръзка URLs по време на HTML износ е въведена чрез добавяне на свойство [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/remove_java_script_from_links/).
+
 ### Друго
 
 * PDF логическата структура е подобрена с поддръжка на TOA, BIBLIOGRAPHY и INDEX полета. <sup>25.2</sup>
 * [add_single_level_list](https://reference.aspose.com/words/python-net/aspose.words.lists/listcollection/add_single_level_list/#listtemplate) методът е въведен за по-добро боравене със списъка. <sup>25.2</sup>
+* Добавено е ново свойство [attachments_embedding_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/attachments_embedding_mode/), за да замени **EmbedAttachments**, за да подобри експортирането на PDF прикачени файлове. Също така към списъка [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) са добавени нови стойности, за да се поддържат PDF/A прикачени файлове към версии. Освен това прикачените файлове вече се поддържат с криптиране. <sup>25.3</sup>
+* Възможността за задаване на воден знак за изображение от поток е въведена чрез добавяне на ново претоварване към метода [SetImage](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_image/#bytesio_imagewatermarkoptions). <sup>25.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,15 +81,19 @@ Aspose.Words 25.2 въвежда обобщаване на текст с Ант�
 
 Научете повече за [Aspose.Words за Python via .NET 25.2 Бележки За Издаване](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-2-release-notes/).
 
+Научете повече за [Aspose.Words за Python via .NET 25.3 Бележки За Издаване](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-3-release-notes/).
+
+Научете повече за [Aspose.Words за Python via .NET 25.4 Бележки За Издаване](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-4-release-notes/).
+
 {{% /alert %}}
 
 ## Aspose.Words за Python чрез .NET 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 въвежда group shape Вмъкване и StructuredDocumentTag Вмъкване чрез DocumentBuilder, подобрява рендирането на радиалната диаграма с градуации, подобрява цифровите подписи с поддръжка XAdES-EPES, добавя Markdown подчертаване и осигурява достъп до разделители на бележки под линия/бележка в края.
 
-Aspose.Words 24.10 въвежда подобрена поддръжка на активния контрол с CommandButton Създаване, нов контрол на видимостта на формата, възможност за group shapes, подобрен Markdown износ за таблици, форматиране на диаграми за Pie и Doughnut, по-добра работа с кодиране на големи 5 и поддръжка на остарели тайвански шрифтове.
+Aspose.Words 24.10 въвежда подобрена ActiveX поддръжка за контрол с CommandButton Създаване, нов контрол на видимостта на формата, възможност за group shapes, подобрен Markdown износ за таблици, форматиране на диаграми за Pie и Doughnut, по-добра работа с кодиране на големи 5 и поддръжка за остарели тайвански шрифтове.
 
-Aspose.Words 24.11 въвежда AI - захранвано обобщаване на документи, подобрени опции за рендиране, подобрен достъп до свойствата на документа и надписи за активен контрол.
+Aspose.Words 24.11 въвежда AI - захранвано обобщаване на документи, подобрени опции за рендиране, подобрен достъп до свойствата на документа и ActiveX контрол на надписите.
 
 Aspose.Words 24.12 въвежда Персонализируемо поставяне на етикети на данни, Гугъл AI-захранван превод на текст и подобрени нови LowCode класове за обработка.
 
@@ -92,9 +117,9 @@ Aspose.Words 24.12 въвежда Персонализируемо постав�
 
 Реализирано е рендиране на градуации по радиални карти.
 
-#### CommandButton Активни Контроли <sup>24.10</sup>
+#### CommandButton ActiveX контроли <sup>24.10</sup>
 
-Възможността за създаване на CommandButton активни контроли е въведена чрез добавяне на нов публичен метод [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) и нов публичен клас [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/).
+Възможността за създаване на CommandButton ActiveX контроли е въведена чрез добавяне на нов публичен метод [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) и нов публичен клас [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/).
 
 #### Контрол На Видимостта На Формата <sup>24.10</sup>
 
@@ -149,7 +174,7 @@ PDF експортът е подобрен чрез включване на св
 * Биг5 обработка на кодиране за TrueType таблица с изображения е подобрена. <sup>24.10</sup>
 * Подкрепата за остарели тайвански шрифтове е подобрена. <sup>24.10</sup>
 * За достъп до свойствата на разширения документ, свойствата само за четене са добавени към класа [BuiltInDocumentProperties](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/). <sup>24.11</sup>
-* Задаването на надписи за контролите на активирането е разрешено чрез добавяне на нов публичен сетер към свойството [Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/). <sup>24.11</sup>
+* Задаването на надписи за контроли ActiveX е разрешено чрез добавяне на нов публичен сетер към свойството [Forms2OleControl.caption](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/caption/). <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
@@ -169,7 +194,7 @@ Aspose.Words 24.5 разширява опциите за сглобки, под�
 
 Aspose.Words 24.6 подобрява опциите за рендиране, подобрява функционалността за търсене и сравняване и разширява няколко други функции.
 
-Aspose.Words 24.7 променя начина, по който работите с Активекс, разширява възможностите за рендиране, както и експортиране в Markdown и XLSX формати.
+Aspose.Words 24.7 променя начина, по който работите с ActiveX, разширява възможностите за рендиране, както и експортирането към Markdown и XLSX формати.
 
 Aspose.Words 24.8 подобрява персонализирането на диаграмите с прецизен контрол върху етикетите на осите, разширява управлението на шрифта, подобрява обработката на структурата на документите и добавя нови възможности за HTML/XAML износ, PDF функционалност, конвертиране на документи и цифрови подписи.
 
@@ -201,11 +226,11 @@ Aspose.Words 24.8 подобрява персонализирането на д�
 
 Добавен е сетер за обществена собственост [custom_number_style_format](https://reference.aspose.com/words/python-net/aspose.words.lists/listlevel/custom_number_style_format/). Сега можете да дефинирате персонализиран номер за списъчни нива.
 
-#### Промени в работата с Активекс <sup>24.7</sup>
+#### Промени в работата с ActiveX <sup>24.7</sup>
 
-- Свойствата на активните обекти вече могат да бъдат променяни, което ви дава по-голям контрол върху тяхното поведение.
-- Добавена е възможност за промяна на стойността на активния контрол на радио бутона, за да се даде възможност за динамично взаимодействие.
-- Добавена е възможността за превключване на актив checkbox на "проверен " или" нерегистриран".
+- Свойствата на ActiveX обектите вече могат да бъдат променяни, което ви дава по-голям контрол върху тяхното поведение.
+- Добавена е възможността за промяна на стойността на контролата на радио бутона ActiveX, за да се даде възможност за динамично взаимодействие.
+- Възможността да превключвате ActiveX checkbox на "проверено " или" неотбелязано " е добавена.
 
 #### Контрол върху оста на диаграмата тик Етикети ориентация и въртене <sup>24.8</sup>
 
@@ -389,7 +414,7 @@ Aspose.Words 23.12 въвежда нови свойства и изброява�
 - Възможността за достъп и промяна на свойствата на стила е добавена чрез въвеждането на новата [locked](https://reference.aspose.com/words/python-net/aspose.words/style/locked/) собственост. <sup>23.10</sup>
 - Към методите от класа [CompositeNode](https://reference.aspose.com/words/python-net/aspose.words/compositenode/) е добавен общ тип параметър. <sup>23.10</sup>
 - Възможността да се напишат всички раздели на документ върху един и същ работен лист XLSX е предоставена чрез новото свойство [XlsxSectionMode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsectionmode/) изброяване и новото [section_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/section_mode/). <sup>23.11</sup>
-* Начин да се контролира как ще се използват разширенията за формат ZIP64 за документи OOXML е имплементиран чрез новото свойство Zip64Mode на класа `OoxmlSaveOptions` и новото Zip64Mode изброяване. <sup>23.12</sup>
+* Начин да се контролира как ще се използват разширенията за формат ZIP64 за документи OOXML е внедрен чрез новото свойство на Зип64мода от класа `OoxmlSaveOptions` и новото номериране на Зип64мода. <sup>23.12</sup>
 * Въведена е поддръжка за WebP изображение. Моля, имайте предвид, че тази функция е достъпна само за .NetStandart и .NET6+ версии. <sup>23.12</sup>
 
 {{% alert color="primary" %}}

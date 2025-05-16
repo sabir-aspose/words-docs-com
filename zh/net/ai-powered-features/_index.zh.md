@@ -1,13 +1,15 @@
-﻿---
+---
 title: AI功能
 second_title: Aspose.Words为.NET
 articleTitle: AI功能
 linktitle: AI功能
 type: docs
 weight: 35
-description: "Aspose.Wordsfor.NET引入了AI支持的工具，如文档摘要，以提高效率。 了解如何使用AI供电的功能与技巧和详细的指导."
+description: "Aspose.Words为.NET 引入AI支持的工具，如文档摘要，以提高效率。 了解如何使用AI功能与技巧和详细的指导."
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /zh/net/ai-powered-features/
-timestamp: 2024-11-26-12-00-00
+timestamp: 2025-03-17-19-00-00
 ---
 
 Aspose.Words现在包含AI支持的功能，旨在使文档处理更智能，更高效。 这些工具利用先进的机器学习来执行文档摘要等任务，为开发人员提供更强大的功能来简化工作流程。
@@ -16,4 +18,5 @@ Aspose.Words现在包含AI支持的功能，旨在使文档处理更智能，更
 
 * [支持的AI模型](/words/net/supported-ai-models/)
 * [总结文档](/words/net/summarize-a-document/)
-
+* [翻译文档](/words/net/translate-a-document/)
+* [语法检查](/words/net/grammar-checking/)

@@ -6,11 +6,21 @@ linktitle: Lucrul cu filigran
 type: docs
 description: "Manipularea filigranului documentului folosind C++."
 weight: 340
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ro/cpp/working-with-watermark/
-timestamp: 2024-01-30-16-22-34
+timestamp: 2025-05-07-07-22-34
 ---
 
 Acest subiect discută cum să lucrați programatic cu filigran folosind Aspose.Words. Un filigran este o imagine de fundal care se afișează în spatele textului dintr-un document. Un filigran poate conține un text sau o imagine reprezentată de clasa [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/).
+
+{{% alert color="primary" %}}
+
+**Încercați online**
+
+Puteți încerca această funcționalitate cu [Filigran online gratuit pentru documente](https://products.aspose.app/words/watermark).
+
+{{% /alert %}}
 
 ## Adăugarea unui filigran la un Document
 
@@ -28,7 +38,11 @@ Următorul exemplu de cod demonstrează cum să inserați un filigran de imagine
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.cpp" >}}
 
-Filigranul poate fi, de asemenea, inserat folosind clasa de formă. Este foarte ușor să inserați orice formă sau imagine într-un antet sau subsol și astfel să creați un filigran de orice tip imaginabil. Următorul exemplu de cod introduce un filigran într-un document Word.
+Filigranul imaginii poate fi inserat ca imagine, șir sau flux.
+
+Filigranul poate fi, de asemenea, inserat folosind clasa de formă. Este foarte ușor să inserați orice formă sau imagine într-un antet sau subsol și astfel să creați un filigran de orice tip imaginabil.
+
+Următorul exemplu de cod introduce un filigran într-un document Word.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Images-AddWatermark-AddWatermark.cpp" >}}
 

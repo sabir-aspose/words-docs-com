@@ -6,27 +6,40 @@ linktitle: چه چیز جدیدی در Aspose.Words برای Java
 type: docs
 description: "Aspose.Words برای Java روزانه گسترش می یابد و افزایش می یابد. در این صفحه می توانید با بزرگ ترین و جالب ترین ویژگی های این محصول آشنا شوید."
 weight: 2
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /fa/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2025-17-02-18-02-05
+timestamp: 2025-04-22-08-02-05
 ---
 
 این صفحه جالب ترین ویژگی های جدید Aspose.Words را که در نسخه های اخیر معرفی شده است، توصیف می کند.
 
-## Aspose.Words برای Java 25.1, 25.2
+## Aspose.Words برای Java 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 بررسی گرامر با قدرت AI را معرفی می کند و صرفه جویی در اسناد را با گزینه های پیشرفته برای فرمت های HTML، SVG و Markdown افزایش می دهد.
 
 Aspose.Words 25.2 خلاصه متن را با مدل های Anthropic AI معرفی می کند، پشتیبانی از فرمت MsWorks را اضافه می کند، کنترل تایپوگرافی را افزایش می دهد و ساختار و مدیریت لیست PDF را بهبود می بخشد.
 
+Aspose.Words 25.3 با استفاده از ویژگی UpdateAmbiguousTextFont، بررسی‌کننده گرامر و انتخاب فونت مبتنی بر AI را بهبود می‌بخشد و همچنین خروجی پیوست‌های PDF را بهبود می‌بخشد.
+
+Aspose.Words 25.4 پشتیبانی از اندازه های جدید کاغذ را معرفی می کند، کنترل صادرات پیشرفته HTML را امکان پذیر می کند، کنترل علامت آبی را بهبود می بخشد و قابلیت استفاده از LowCode API را افزایش می دهد.
+
 ### AI-ویژگی های قدرت
 
-#### سند AI بررسی گرامر <sup>25.1</sup>
+#### سند AI بررسی گرامر
 
-امکان بررسی دستور زبان سند ارائه شده با استفاده از مدل های تولید کننده OpenAI با اضافه کردن یک روش جدید [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions) معرفی شده است.
+* امکان بررسی دستور زبان سند ارائه شده با استفاده از مدل های تولید کننده OpenAI با اضافه کردن یک روش جدید [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions) معرفی شده است. <sup>25.1</sup>
+* ویژگی بررسی گرامر با قدرت AI به روز شده است تا از تمام مدل های موجود در شمارش [AiModelType](https://reference.aspose.com/words/java/com.aspose.words/aimodeltype/) پشتیبانی کند. <sup>25.3</sup>
 
-#### خلاصه سازی با استفاده از مدل های زبان تولید کننده انسان <sup>25.2</sup>
+#### خلاصه سازی با استفاده از مدل های زبان مولد Anthropic <sup>25.2</sup>
 
-خلاصه متن با استفاده از مدل های زبان تولید کننده انسان با معرفی یک کلاس عمومی جدید [AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/) فعال شده است.
+خلاصه متن با استفاده از مدل های زبان مولد Anthropic با معرفی یک کلاس عمومی جدید [AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/) فعال شده است.
+
+### Low Code
+
+#### قابلیت استفاده Low Code API <sup>25.4</sup>
+
+پیشرفت های قابل توجهی در قابلیت استفاده از **LowCode API** معرفی شده است، ساده سازی پردازش اسناد و کاهش نیاز به کد تکراری.
 
 ### فرمت های پشتیبانی شده <sup>25.2</sup>
 
@@ -42,6 +55,7 @@ Aspose.Words 25.2 خلاصه متن را با مدل های Anthropic AI معر�
 
 * یک گزینه جدید [ImageResolution](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageResolution) به کلاس [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) اضافه شده است تا وضوح تصویر را تنظیم کند.
 * یک گزینه جدید [OfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getOfficeMathExportMode) و [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownofficemathexportmode/) شمارش شده و به کلاس [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) اضافه شده است تا حالت خروجی OfficeMath را تنظیم کند.
+* قابلیت تنظیم یک علامت آبی تصویر از یک جریان با اضافه کردن یک اضافه بار جدید به روش [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.io.InputStream-com.aspose.words.ImageWatermarkOptions) معرفی شده است. <sup>25.4</sup>
 
 ### رندر کردن
 
@@ -49,10 +63,23 @@ Aspose.Words 25.2 خلاصه متن را با مدل های Anthropic AI معر�
 
 ویژگی [NumberSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getNumberSpacing) برای کنترل تایپوگرافی بهبود یافته اضافه شده است.
 
+#### کنترل انتخاب فونت برای کاراکترهای مبهم <sup>25.3</sup>
+
+یک ملک عمومی جدید [UpdateAmbiguousTextFont](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateAmbiguousTextFont) به کلاس [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) اضافه شده است تا انتخاب فونت را با توجه به کد کاراکتر مورد استفاده کنترل کند.
+
+#### گزینه های اندازه کاغذ <sup>25.4</sup>
+
+قابلیت استفاده از اندازه های کاغذی JIS B4 و JIS B5 با اضافه کردن مقادیر جدید به شمارش [PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/) معرفی شده است.
+
+#### HTML کنترل خروجی <sup>25.4</sup>
+
+امکان حذف JavaScript از hyperlink URLs در طول HTML export با اضافه کردن ویژگی [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getRemoveJavaScriptFromLinks) معرفی شده است.
+
 ### سایر
 
 * ساختار منطقی PDF با پشتیبانی از فیلدهای TOA، BIBLIOGRAPHY و INDEX بهبود یافته است. <sup>25.2</sup>
 * روش [AddSingleLevelList](https://reference.aspose.com/words/java/com.aspose.words/listcollection/#addSingleLevelList-int) برای بهبود مدیریت لیست معرفی شده است. <sup>25.2</sup>
+* یک ویژگی جدید [AttachmentsEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getAttachmentsEmbeddingMode) برای جایگزینی **EmbedAttachments** برای بهبود صادرات PDF پیوست ها اضافه شده است. همچنین، مقادیر جدیدی به شمارش [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) اضافه شده است تا از پیوست های نسخه PDF/A پشتیبانی کند. علاوه بر این، پیوست ها اکنون با رمزگذاری پشتیبانی می شوند. <sup>25.3</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,15 +87,19 @@ Aspose.Words 25.2 خلاصه متن را با مدل های Anthropic AI معر�
 
 اطلاعات بیشتر در مورد [Aspose.Words برای Java 25.2 یادداشت های انتشار](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-2-release-notes/).
 
+اطلاعات بیشتر در مورد [Aspose.Words برای Java 25.3 یادداشت های انتشار](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-3-release-notes/).
+
+اطلاعات بیشتر در مورد [Aspose.Words برای Java 25.4 یادداشت های انتشار](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-4-release-notes/).
+
 {{% /alert %}}
 
 ## Aspose.Words برای Java 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 درج group shape و درج StructuredDocumentTag را از طریق DocumentBuilder معرفی می کند، رندر نمودار شعاعی را با فارغ التحصیلی افزایش می دهد، امضاهای دیجیتال را با پشتیبانی XAdES-EPES بهبود می بخشد، تشخیص زیرنویس Markdown را اضافه می کند و دسترسی به جداکننده های حاشیه/حاشیه را فراهم می کند.
 
-Aspose.Words 24.10 پشتیبانی از کنترل ActiveX را با CommandButton ایجاد، کنترل دید شکل جدید، توانایی group shapes، صادرات بهبود یافته Markdown برای جداول، قالب بندی نمودار برای Pie و Doughnut نمودارها، مدیریت بهتر کدگذاری Big5 و پشتیبانی از فونت های قدیمی تایوانی معرفی می کند.
+Aspose.Words 24.10 پشتیبانی از کنترل پیشرفته ActiveX را با CommandButton ایجاد، کنترل دید شکل جدید، توانایی group shapes، صادرات بهبود یافته Markdown برای جداول، قالب بندی نمودار برای Pie و Doughnut نمودارها، مدیریت بهتر کدگذاری Big5 و پشتیبانی از فونت های قدیمی تایوانی معرفی می کند.
 
-Aspose.Words 24.11 خلاصه سازی سند با قدرت AI، گزینه های رندر پیشرفته، دسترسی بهتر به ویژگی های سند و زیرنویس کنترل ActiveX را معرفی می کند.
+Aspose.Words 24.11 خلاصه سازی سند با قدرت AI، گزینه های رندر پیشرفته، دسترسی بهتر به ویژگی های سند و ActiveX زیرنویس کنترل را معرفی می کند.
 
 Aspose.Words 24.12 قرار دادن برچسب داده های قابل تنظیم، ترجمه متن Google AI، گزینه های پاکسازی پیشرفته Mail Merge و کلاس های پردازش جدید LowCode را معرفی می کند.
 
@@ -92,7 +123,7 @@ Aspose.Words 24.12 قرار دادن برچسب داده های قابل تنظ�
 
 ارائه فارغ التحصیلی در نمودارهای شعاعی اجرا شده است.
 
-#### CommandButton کنترل های ActiveX <sup>24.10</sup>
+#### CommandButton ActiveX کنترل <sup>24.10</sup>
 
 امکان ایجاد کنترل های CommandButton ActiveX با اضافه کردن یک روش عمومی جدید [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) و یک کلاس عمومی جدید [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/) معرفی شده است.
 
@@ -205,9 +236,9 @@ Aspose.Words 24.8 سفارشی سازی نمودار را با کنترل دقی
 
 #### تغییرات در کار با ActiveX <sup>24.7</sup>
 
-* خواص اشیاء ActiveX اکنون می تواند اصلاح شود، به شما کنترل بیشتری بر رفتار آنها می دهد.
-* قابلیت تغییر مقدار دکمه رادیویی ActiveX control برای فعال کردن تعامل پویا اضافه شده است.
-* قابلیت تغییر ActiveX checkbox به" checked "یا" unchecked " اضافه شده است.
+* خواص اشیاء ActiveX اکنون می تواند اصلاح شود، که به شما کنترل بیشتری بر رفتار آنها می دهد.
+* امکان تغییر مقدار دکمه رادیویی ActiveX کنترل برای فعال کردن تعامل پویا اضافه شده است.
+* قابلیت تغییر یک ActiveX checkbox به" checked "یا" unchecked " اضافه شده است.
 
 #### کنترل بر محور نمودار برچسب های تیک جهت گیری و چرخش <sup>24.8</sup>
 
@@ -304,9 +335,9 @@ Aspose.Words 24.4 باعث افزایش فرمت های ذخیره سازی، ب
 
 امکان حفظ خطوط خالی در هنگام بارگذاری فایل های Markdown اضافه شده است.
 
-#### یک TIFF خواننده/نویسنده جدید <sup>24.3</sup>
+#### یک خواننده/نویسنده جدید TIFF <sup>24.3</sup>
 
-یک خواننده/نویسنده TIFF جدید برای Aspose.Words برای .NET Standard، .NET 6 و جدیدتر ایجاد شده است. Aspose.Words برای .NET 24.3 پشتیبانی از خواندن تصاویر TIFF با انواع فشرده سازی JPEG و قدیمی JPEG را اضافه کرد و همچنین کیفیت عملیات خواندن و نوشتن را به طور قابل توجهی بهبود بخشید.
+یک خواننده/نویسنده جدید TIFF برای Aspose.Words برای .NET Standard، .NET 6 و نسخه‌های بعدی توسعه داده شده است. Aspose.Words برای .NET 24.3 پشتیبانی از خواندن تصاویر TIFF با انواع فشرده‌سازی JPEG و قدیمی JPEG اضافه شد و همچنین کیفیت عملیات خواندن و نوشتن به طور قابل توجهی بهبود یافت.
 
 ### سایر
 
@@ -379,7 +410,7 @@ Aspose.Words 23.12 ویژگی ها و شمارش های جدید برای کار
 
 #### کاهش PDF اندازه خروجی <sup>23.10</sup>
 
-بهینه‌سازی‌های مختلف رندر PDF برای کاهش اندازه خروجی هنگام استفاده از تنظیمات [OptimizeOutput](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/#getOptimizeOutput) پیاده‌سازی شده‌اند.
+بهینه‌سازی‌های رندرینگ متنوعی PDF برای کاهش حجم خروجی هنگام استفاده از تنظیمات [OptimizeOutput](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/#getOptimizeOutput) پیاده‌سازی شده‌اند.
 
 #### تشخیص هایپر لینک ها هنگام بارگذاری TXT اسناد <sup>23.10</sup>
 
