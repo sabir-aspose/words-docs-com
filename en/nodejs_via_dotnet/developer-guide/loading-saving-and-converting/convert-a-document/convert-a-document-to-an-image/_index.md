@@ -17,9 +17,9 @@ Sometimes it is required to get an image instead of documents in other formats, 
 
 As with all conversion examples already described, you need to create a new document or load an existing one in any supported format, make the necessary changes, and save it in any available image format, for example, JPEG, PNG, or BMP.
 
-The following code example shows how to convert PDF to JPEG:
+The following code example shows how to convert DOCX to JPEG:
 
-{{< gist "aspose-words-gists" "ebbb90d74ef57db456685052a18f8e86" "pdf-to-jpeg.js" >}}
+{{< gist "aspose-words-gists" "05b9bb6f4d96094b4408287596e99a20" "docx-to-jpeg.js" >}}
 
 ## Specify Save Options when Converting to an Image {#specify-save-options-when-converting-to-an-image}
 
