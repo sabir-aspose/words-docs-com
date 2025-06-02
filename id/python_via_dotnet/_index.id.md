@@ -25,7 +25,8 @@ Dengan Aspose.Words untuk Python via .NET, Anda dapat membuat, memodifikasi, men
 <div class="row">
 		<div class="col-md-4">
 				<p><b>Tentang Aspose.Words</b></p>
-						<hr><p>RINGKASAN</p></hr>
+						<hr>
+						<p>RINGKASAN</p>
 						<ul>
 								<li><a href="/words/id/python-net/product-overview/">Ikhtisar Produk</a></li>
 								<li><a href="/words/id/python-net/licensing/">Lisensi dan Langganan</a></li>
@@ -43,7 +44,8 @@ Dengan Aspose.Words untuk Python via .NET, Anda dapat membuat, memodifikasi, men
 		</div>
 		<div class="col-md-4">
 				<p><b>Memulai</b></p>
-						<hr><p>MULAI</p></hr>
+						<hr>
+						<p>MULAI</p>
 						<ul>
 								<li><a href="/words/id/python-net/supported-document-formats/">Format Dokumen yang Didukung</a></li>
 								<li><a href="/words/id/python-net/features/">Fitur yang Didukung</a></li>
@@ -59,7 +61,8 @@ Dengan Aspose.Words untuk Python via .NET, Anda dapat membuat, memodifikasi, men
 		</div>
 		<div class="col-md-4">
 				<p><b>Mengembangkan Fungsi</b></p>
-						<hr><p>MEMANDU</p></hr>
+						<hr>
+						<p>MEMANDU</p>
 						<ul>
 								<li><a href="/words/id/python-net/loading-saving-and-converting/">Memuat, Menyimpan, dan Mengonversi</a></li>
 								<li><a href="/words/id/python-net/rendering/">Render</a></li>

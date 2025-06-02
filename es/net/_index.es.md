@@ -25,7 +25,8 @@ Con Aspose.Words para .NET, puede generar, modificar, convertir, renderizar e im
 <div class="row">
 <div class="col-md-4">
 	<p><b>Acerca de Aspose.Words</b></p>
-		<hr><p>DESCRIPCIÓN GENERAL</p></hr>
+		<hr>
+		<p>DESCRIPCIÓN GENERAL</p>
 		<ul>
 			<li><a href="/words/es/net/what-s-new-in-aspose-words-for-net/">Novedades de Aspose.Words para .NET</a></li>
 			<li><a href="/words/es/net/product-overview/">Descripción del producto</a></li>
@@ -44,7 +45,8 @@ Con Aspose.Words para .NET, puede generar, modificar, convertir, renderizar e im
 </div>
 <div class="col-md-4">
 	<p><b>Empezar</b></p>
-		<hr><p>EMPEZANDO</p></hr>
+		<hr>
+		<p>EMPEZANDO</p>
 		<ul>
 			<li><a href="/words/es/net/supported-document-formats/">Formatos de documentos admitidos</a></li>
 			<li><a href="/words/es/net/features/">Funciones admitidas</a></li>
@@ -61,7 +63,8 @@ Con Aspose.Words para .NET, puede generar, modificar, convertir, renderizar e im
 </div>
 <div class="col-md-4">
 	<p><b>Desarrollar funciones</b></p>
-		<hr><p>GUÍA</p></hr>
+		<hr>
+		<p>GUÍA</p>
 		<ul>
 			<li><a href="/words/es/net/loading-saving-and-converting/">Cargar, guardar y convertir</a></li>
 			<li><a href="/words/es/net/rendering/">Representación</a></li>

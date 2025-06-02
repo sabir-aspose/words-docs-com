@@ -62,7 +62,7 @@ Come con qualsiasi altro campo, il campo `TOC` può accettare opzioni definite a
 ![working-with-table-of-contents-aspose-words-net](/words/net/working-with-table-of-contents/working-with-table-of-contents-1.png)
 
 
-Per impostazione predefinita, queste opzioni sopra sono incluse quando si inserisce un `TOC` predefinito nel documento. Un `TOC` senza opzioni includerà il contenuto degli stili di intestazione incorporati (come se l'opzione \O fosse impostata). Gli switch `TOC` disponibili supportati da Aspose.Words sono elencati di seguito e i loro usi sono descritti in dettaglio. Possono essere divisi in sezioni separate in base alla loro tipologia. Gli interruttori nella prima sezione definiscono quale contenuto includere nel `TOC` e gli interruttori nella seconda sezione controllano l'aspetto del sommario. Se un'opzione non è elencata qui significa che al momento non è supportata. Tutti gli switch saranno supportati nelle versioni future. Stiamo aggiungendo ulteriore supporto con ogni versione.
+Per impostazione predefinita, queste opzioni sopra sono incluse quando si inserisce un `TOC` predefinito nel documento. Un `TOC` senza opzioni includerà il contenuto degli stili di intestazione incorporati (come se l'opzione &#92;O fosse impostata). Gli switch `TOC` disponibili supportati da Aspose.Words sono elencati di seguito e i loro usi sono descritti in dettaglio. Possono essere divisi in sezioni separate in base alla loro tipologia. Gli interruttori nella prima sezione definiscono quale contenuto includere nel `TOC` e gli interruttori nella seconda sezione controllano l'aspetto del sommario. Se un'opzione non è elencata qui significa che al momento non è supportata. Tutti gli switch saranno supportati nelle versioni future. Stiamo aggiungendo ulteriore supporto con ogni versione.
 
 ### Interruttori di contrassegno di ingresso
 
@@ -73,7 +73,7 @@ Per impostazione predefinita, queste opzioni sopra sono incluse quando si inseri
 <p>![working-with-table-of-contents-styles](/words/net/working-with-table-of-contents/working-with-table-of-contents-2.png)</p>
 
 <p>Qualsiasi contenuto formattato con questi stili viene incluso nel sommario. Il livello dell'intestazione definirà il corrispondente livello gerarchico della voce nel TOC. Ad esempio, un paragrafo con stile Titolo 1 verrà trattato come il primo livello nel `TOC` mentre un paragrafo con Titolo 2 verrà trattato come il livello successivo nella gerarchia e così via.</p> |
-| **Outline Levels**<br>*(commutazione \U)* | <p>Ogni paragrafo può definire un livello di struttura in Opzioni paragrafo.</p>
+| **Outline Levels**<br>*(commutazione &#92;U)* | <p>Ogni paragrafo può definire un livello di struttura in Opzioni paragrafo.</p>
 
 <p>![working-with-table-of-contents-paragraph](/words/net/working-with-table-of-contents/working-with-table-of-contents-3.png)</p>
 
@@ -84,46 +84,42 @@ Per impostazione predefinita, queste opzioni sopra sono incluse quando si inseri
 <p>Tieni presente che gli stili di titolo incorporati come Titolo 1 hanno un livello di struttura impostato obbligatoriamente nelle impostazioni di stile.</p>
 
 <p>{{% /alert %}}</p> |
-| **Custom Styles**<br>*(commutazione \T)* | <p>Questa opzione consentirà l'utilizzo di stili personalizzati durante la raccolta delle voci da utilizzare nel sommario. Viene spesso utilizzato insieme all'opzione \O per includere stili personalizzati insieme agli stili di intestazione incorporati nel sommario.<br>I parametri dell'interruttore devono essere racchiusi tra segni vocali. È possibile includere molti stili personalizzati, per ogni stile deve essere specificato il nome seguito da una virgola seguita dal livello con cui lo stile dovrebbe apparire nel `TOC`. Anche altri stili sono separati da una virgola.<br>Ad esempio</p>
+| **Custom Styles**<br>*(commutazione &#92;T)* | <p>Questa opzione consentirà l'utilizzo di stili personalizzati durante la raccolta delle voci da utilizzare nel sommario. Viene spesso utilizzato insieme all'opzione &#92;O per includere stili personalizzati insieme agli stili di intestazione incorporati nel sommario.<br>I parametri dell'interruttore devono essere racchiusi tra segni vocali. È possibile includere molti stili personalizzati, per ogni stile deve essere specificato il nome seguito da una virgola seguita dal livello con cui lo stile dovrebbe apparire nel `TOC`. Anche altri stili sono separati da una virgola.<br>Ad esempio</p>
 
 <p>{{< highlight csharp >}}
 
 <p>  { TOC \o "1-3" \t "CustomHeading1, 1,   CustomHeading2, 2"} </p><p>{{< /highlight >}}</p>
 
 <p>utilizzerà il contenuto con stile CustomHeading1 come contenuto di livello 1 nel `TOC` e CustomHeading2 come livello 2.</p> |
-| **Use TC Fields**<br>*(Commutatori \F e \L)* | <p>Nelle versioni precedenti di Microsoft Word, l'unico modo per creare un `TOC` era l'uso dei campi TC. Questi campi vengono inseriti nascosti nel documento anche quando vengono visualizzati i codici di campo. Includono il testo che dovrebbe essere visualizzato nella voce e da essi viene creato il `TOC`. Questa funzionalità ora non viene utilizzata molto spesso ma può comunque essere utile in alcune occasioni per includere voci nel `TOC` che non sono rientrate per essere visibili nel documento.<br>Una volta inseriti, questi campi appaiono nascosti anche quando vengono visualizzati i codici di campo. Non possono essere visti senza mostrare contenuti nascosti. Per visualizzare questi campi è necessario selezionare Mostra formattazione paragrafo.</p>
+| **Use TC Fields**<br>*(Commutatori &#92;F e &#92;L)* | <p>Nelle versioni precedenti di Microsoft Word, l'unico modo per creare un `TOC` era l'uso dei campi TC. Questi campi vengono inseriti nascosti nel documento anche quando vengono visualizzati i codici di campo. Includono il testo che dovrebbe essere visualizzato nella voce e da essi viene creato il `TOC`. Questa funzionalità ora non viene utilizzata molto spesso ma può comunque essere utile in alcune occasioni per includere voci nel `TOC` che non sono rientrate per essere visibili nel documento.<br>Una volta inseriti, questi campi appaiono nascosti anche quando vengono visualizzati i codici di campo. Non possono essere visti senza mostrare contenuti nascosti. Per visualizzare questi campi è necessario selezionare Mostra formattazione paragrafo.</p>
 
-<p>![working-with-table-of-contents-paragraph-settings](/words/net/working-with-table-of-contents/working-with-table-of-contents-4.png)</p> Questi campi possono essere inseriti in un documento in qualsiasi posizione come qualsiasi altro campo e sono rappresentati dall'enumerazione `FieldType.FieldTOCEntry`.<br>L'opzione \F in un `TOC` viene utilizzata per specificare che i campi TC devono essere utilizzati come voci. Lo switch da solo senza alcun identificatore aggiuntivo significa che verrà incluso qualsiasi campo TC nel documento. Qualsiasi parametro aggiuntivo, spesso una singola lettera, indicherà che solo i campi TC che hanno un'opzione \f corrispondente verranno inclusi nel sommario. Ad esempio *</p>
+<p>![working-with-table-of-contents-paragraph-settings](/words/net/working-with-table-of-contents/working-with-table-of-contents-4.png)</p><p> Questi campi possono essere inseriti in un documento in qualsiasi posizione come qualsiasi altro campo e sono rappresentati dall'enumerazione `FieldType.FieldTOCEntry`.<br>L'opzione &#92;F in un `TOC` viene utilizzata per specificare che i campi TC devono essere utilizzati come voci. Lo switch da solo senza alcun identificatore aggiuntivo significa che verrà incluso qualsiasi campo TC nel documento. Qualsiasi parametro aggiuntivo, spesso una singola lettera, indicherà che solo i campi TC che hanno un'opzione \f corrispondente verranno inclusi nel sommario. Ad esempio *</p>
 
-<p>{{< highlight csharp >}}
-
-<p>  { TOC \f t } </p><p>{{< /highlight >}}</p>
+<p>{{< highlight csharp >}}{ TOC \f t }{{< /highlight >}}</p>
 
 <p>includerà solo i campi TC come</p>
 
-<p>{{< highlight csharp >}}
-p> {   TC \f t }</p><p>{{< /highlight >}}</p>
+<p>{{< highlight csharp >}}{ TC \f t }{{< /highlight >}}</p>
 
-<p>Il campo `TOC` ha anche un interruttore correlato, l'interruttore "\L" specifica che sono inclusi solo i campi TC con livelli compresi nell'intervallo specificato.</p>
+<p>Il campo `TOC` ha anche un interruttore correlato, l'interruttore &#92;L specifica che sono inclusi solo i campi TC con livelli compresi nell'intervallo specificato.</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
 <p>Anche i campi `TC` stessi possono avere interruttori `{several, multiple, a few, many, numerous}` impostati. Questi sono:</p>
 
-<p>- *\F – Spiegato sopra.*</p>
+<p>- *&#92;F – Spiegato sopra.*</p>
 
-<p>- *\L – Definisce in quale livello del `TOC` apparirà questo campo TC. Un `TOC` che utilizza questo stesso interruttore includerà questo campo TC solo se rientra nell'intervallo specificato.*</p>
+<p>- *&#92;L – Definisce in quale livello del `TOC` apparirà questo campo TC. Un `TOC` che utilizza questo stesso interruttore includerà questo campo TC solo se rientra nell'intervallo specificato.*</p>
 
-<p>- `_\N` – La numerazione delle pagine per questa voce `TOC` non viene visualizzata. Un codice di esempio su come inserire i campi TC è disponibile nella sezione successiva.</p> |
+<p>- _&#92;N – La numerazione delle pagine per questa voce `TOC` non viene visualizzata. Un codice di esempio su come inserire i campi TC è disponibile nella sezione successiva.</p> |
 
 ### Interruttori relativi all'aspetto
 
 |  Interruttore | Descrizione |
 |  :-  |  :-  |
-| **Omit Page Numbers**<br>*(Commutazione \N)* | <p>Questo interruttore viene utilizzato per nascondere i numeri di pagina per determinati livelli del sommario. Ad esempio puoi definire</p>
+| **Omit Page Numbers**<br>*(Commutazione &#92;N)* | <p>Questo interruttore viene utilizzato per nascondere i numeri di pagina per determinati livelli del sommario. Ad esempio puoi definire</p>
 
-<p>{{< highlight csharp >}}
-<p>  {TOC \o "1-4" \n "3-4" } </p><p>{{< /highlight >}}</p>
+<p>{{< highlight csharp >}}{TOC \o "1-4" \n "3-4" }{{< /highlight >}}</p>
 
 <p>e i numeri di pagina sulle voci dei livelli 3 e quattro verranno nascosti insieme ai punti iniziali (se ce ne sono). Per specificare un solo livello è comunque necessario utilizzare un intervallo, ad esempio "1-1" escluderà i numeri di pagina solo per il primo livello.<br>Se non si fornisce alcun intervallo di livelli, verranno omessi i numeri di pagina per tutti i livelli nel sommario. È utile impostarlo quando si esporta un documento in HTML o formato simile. Questo perché i formati basati su HTML non hanno alcun concetto di pagina e quindi non necessitano di alcuna numerazione delle pagine.</p>
 
@@ -131,7 +127,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 | **Insert As Hyperlinks**<br>*(\Commutatore H)* | <p>Questa opzione specifica che le voci `TOC` vengono inserite come collegamenti ipertestuali. Quando si visualizza un documento in Microsoft Word, queste voci appariranno comunque come testo normale all'interno del `TOC` ma sono collegate tramite collegamento ipertestuale e quindi possono essere utilizzate per spostarsi nella posizione della voce originale nel documento utilizzando *Ctrl + clic sinistro* in Microsoft Word. Quando questa opzione è inclusa, questi collegamenti vengono conservati anche in altri formati. Ad esempio, nei formati basati su HTML, incluso EPUB, e nei formati renderizzati come PDF e XPS, questi verranno esportati come collegamenti funzionanti.<br>Senza questo interruttore impostato, il `TOC` in tutti questi output verrà esportato come testo normale e non dimostrerà questo comportamento. Se un documento viene aperto in MS Word, anche il testo delle voci non sarà cliccabile in questo modo, ma i numeri di pagina potranno comunque essere utilizzati per navigare fino alla voce originale.</p>
 
 <p>![working-with-table-of-contents-titles](/words/net/working-with-table-of-contents/working-with-table-of-contents-7.png)</p> |
-| **Set Separator Character**<br>*(Commutazione \P)* | <p>Questo interruttore consente di modificare facilmente il contenuto che separa il titolo della voce e la numerazione delle pagine nel sommario. Il separatore da utilizzare deve essere specificato dopo questa opzione e racchiuso tra segni vocali.<br>Contrariamente a quanto documentato nella documentazione di Office, è possibile utilizzare un solo carattere invece di un massimo di cinque. Questo vale sia per MS Word che per Aspose.Words.<br>L'utilizzo di questa opzione non è consigliabile in quanto non consente un grande controllo su ciò che viene utilizzato per separare le voci e i numeri di pagina nel sommario. Si consiglia invece di modificare lo stile `TOC` appropriato come `StyleIdentifier.TOC1` e da lì modificare lo stile leader con accesso a membri di caratteri specifici, ecc. Ulteriori dettagli su come eseguire questa operazione sono disponibili più avanti nell'articolo.</p>
+| **Set Separator Character**<br>*(Commutazione &#92;P)* | <p>Questo interruttore consente di modificare facilmente il contenuto che separa il titolo della voce e la numerazione delle pagine nel sommario. Il separatore da utilizzare deve essere specificato dopo questa opzione e racchiuso tra segni vocali.<br>Contrariamente a quanto documentato nella documentazione di Office, è possibile utilizzare un solo carattere invece di un massimo di cinque. Questo vale sia per MS Word che per Aspose.Words.<br>L'utilizzo di questa opzione non è consigliabile in quanto non consente un grande controllo su ciò che viene utilizzato per separare le voci e i numeri di pagina nel sommario. Si consiglia invece di modificare lo stile `TOC` appropriato come `StyleIdentifier.TOC1` e da lì modificare lo stile leader con accesso a membri di caratteri specifici, ecc. Ulteriori dettagli su come eseguire questa operazione sono disponibili più avanti nell'articolo.</p>
 
 <p>![working-with-table-of-contents-toc](/words/net/working-with-table-of-contents/working-with-table-of-contents-8.png)</p> |
 | **Preserve Tab Entries**<br>*(\Commutatore W)* | <p>L'utilizzo di questa opzione specificherà che tutte le voci che hanno un carattere di tabulazione, ad esempio un'intestazione che ha una tabulazione alla fine della riga, verranno conservate come carattere di tabulazione corretto durante la compilazione del sommario. Ciò significa che la funzione del carattere di tabulazione sarà presente nel `TOC` e potrà essere utilizzata per formattare la voce. Ad esempio, alcune voci possono utilizzare punti di tabulazione e caratteri di tabulazione per spaziare uniformemente il testo. Finché il livello `TOC` corrispondente definisce le tabulazioni equivalenti, le voci `TOC` generate appariranno con una spaziatura simile.<br><br>Nella stessa situazione, se questa opzione non fosse definita, i caratteri di tabulazione verrebbero convertiti in spazi bianchi equivalenti come tabulazioni non funzionanti. L'output quindi non apparirebbe come previsto.</p>

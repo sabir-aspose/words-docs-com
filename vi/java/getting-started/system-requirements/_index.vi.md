@@ -28,16 +28,16 @@ Bất kỳ hệ điều hành nào mà có thể chạy môi trường thời gi
   <tr>
 			<td>Linux</td>
 			<td><ul><li>Ubuntu</li><li>OpenSUSE</li><li>CentOS</li><li>và những thứ khác</li></ul></td>
-		< / tr >
+		</tr>
   <tr>
 			<td>macOS</td>
 			<td><ul><li>macOS phiên bản 10.9 (Mavericks) và sau đó</li></ul></td>
-		< / tr >
+		</tr>
   <tr>
 			<td>Di động</td>
 			<td><ul><li>Android</li><li>iOS</li></ul></td>
 		</tr>
-<table>
+</table>
 
 ## Các Nền tảng được Hỗ trợ trên Bầu trời
 

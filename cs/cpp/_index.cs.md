@@ -25,7 +25,8 @@ Pomocí Aspose.Words pro C++ můžete vytvářet, upravovat, převádět a vykre
 <div class="row">
 	<div class="col-md-4">
 		<p><b>O Aspose.Words</b></p>
-			<hr><p>OVERVIEW</p></hr>
+			<hr>
+			<p>OVERVIEW</p>
 			<ul>
 				<li><a href="/words/cpp/what-s-new-in-aspose-words-for-cpp/">Co je nového v Aspose.Words pro C++</a></li>
 				<li><a href="/words/cpp/product-overview/">Přehled Produktů</a></li>
@@ -44,7 +45,8 @@ Pomocí Aspose.Words pro C++ můžete vytvářet, upravovat, převádět a vykre
 	</div>
 	<div class="col-md-4">
 		<p><b>Začínáme</b></p>
-			<hr><p>GETTING STARTED</p></hr>
+			<hr>
+			<p>GETTING STARTED</p>
 			<ul>
 				<li><a href="/words/cpp/supported-document-formats/">Podporované Formáty Dokumentů</a></li>
 				<li><a href="/words/cpp/features/">Funkce</a></li>
@@ -60,7 +62,8 @@ Pomocí Aspose.Words pro C++ můžete vytvářet, upravovat, převádět a vykre
 	</div>
 	<div class="col-md-4">
 		<p><b>Rozvíjet Funkce</b></p>
-			<hr><p>GUIDE</p></hr>
+			<hr>
+			<p>GUIDE</p>
 			<ul>
 				<li><a href="/words/cpp/loading-saving-and-converting/">Načítání, ukládání a konverze</a></li>
 				<li><a href="/words/cpp/rendering/">Vykreslování</a></li>

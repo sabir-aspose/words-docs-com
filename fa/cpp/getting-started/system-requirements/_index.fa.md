@@ -26,11 +26,11 @@ Aspose.Words برای C++ از سیستم عامل و سیستم عامل های
       <td><ul>
          <li>Windows سرور 2008 (x64، x86)</li>
          <li>Windows سرور 2012 (x64، x86)</li>
-         <li><li><li>Windows 2012 R2 سرور (x64, x86)</li></li></li>
+         <li>Windows 2012 R2 سرور (x64, x86)</li>
          <li>Windows سرور 2016 (x64، x86)</li>
          <li>Windows سرور 2019 (x64، x86)</li>
          <li>Windows سرور 2022 (x64، x86)</li>
-         <li><li><li><li>Windows Vista (x64, x86)</li></li></li></li>
+         <li>Windows Vista (x64, x86)</li>
          <li>Windows 7 (x64, x86)</li>
          <li>Windows 8, 8.1 (x64, x86)</li>
          <li>Windows 10 (x64, x86)</li>

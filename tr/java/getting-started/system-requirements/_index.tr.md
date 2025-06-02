@@ -16,7 +16,7 @@ Aspose.Words için Java yüklenmesine üçüncü taraf ürünler Microsoft Word'
 
 Herhangi bir İşletim Sistemi Java Çalışma Ortamı (JRE)'yi çalıştırabiliyorsa, Aspose.Words için Java'i çalıştırabilir. Aşağıdaki tablo en çok, ancak hepsi değil, desteklenen işletim sistemlerini listeler.
 
-<tablo>
+<table>
 	<tr>
 			<td style="font-weight: bold; width:400px">İşletim Sistemi</td>
 			<td style="font-weight: bold; width:400px">Sürümler</td>

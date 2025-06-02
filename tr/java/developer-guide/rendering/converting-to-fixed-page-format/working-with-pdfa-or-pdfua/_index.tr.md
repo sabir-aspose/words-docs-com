@@ -34,11 +34,11 @@ Not edin ki, PDF/A-4 için mantıksal yapı gereksinimleri yoktur. Bu sebeple, b
 
 {{% alert color="secondary" %}}
 <details>
-    <özet> Spesifikasyon bize şu (ayrıntıları görmek için genişlet) söyler: </özet>
+    <summary> Spesifikasyon bize şu (ayrıntıları görmek için genişlet) söyler: </summary>
     <p></p>
     <p>Yazarların uygun bir doğrulama olmadan otomatik süreçler kullanarak yapısal veya anlamsal bilgi oluşturmaları önerilmez.</p>
     <p>ISO 19005-2, 6.7.1</p>
-<details>
+</details>
 {{% /alert %}}
 
 Aşağıdaki alt bölümler, Aspose.Words çeşitli PDF biçim standartlarına dönüştürüldüğünde nasıl çalıştığına dair nüansları ve bunların çözümleri için seçenekleri açıklar.
@@ -59,20 +59,20 @@ Zayıf bir yapısına sahip bir PDF/UA-1 belgesi için başlık numaralarının 
 
 {{% alert color="secondary" %}}
 <details>
-    <özet> spesifikasyon bize şu bilgileri verir (ayrıntıları göstermek için genişletin):</özet>
+    <summary> spesifikasyon bize şu bilgileri verir (ayrıntıları göstermek için genişletin):</summary>
     <p></p>
     <p>Blok düzeyli yapı iki ana paradigmadan birini takip edebilir:</p>
-    </ol>
+    <ol>
       <li>Güçlü yapılandırılmış. Gruplama öğeleri gerekli olan kadar katmanlara girer, böylece malzemenin makalelere, bölümlere, alt bölümlere vb. ayrılması sağlanır. Her seviyede, grup elemanının çocukları bir başlıktan (H), bu seviyedeki içerik için bir veya daha fazla paragraftan (P) ve belki de bir veya daha fazla ek gruplama elemanından oluşmalıdır
       <li>Zayıf yapılandırılmış. Bu belge nispeten düzdür ve sadece bir veya iki seviye gruplama öğesi vardır, tüm başlıklar, paragraflar ve diğer BLSE'ler bunların çocuklarıdır. Bu durumda, materyalin düzenlenmesi mantıksal yapıya yansıtılmaz; ancak bunun yerine başlıklarla belirli seviyeler (H1-H6) kullanılarak ifade edilebilir.</li>
     </ol>
     <p></p>
     <p>ISO - 32000-1, 14.8.4.3.5</p>
-<details>
+</details>
 {{% /alert %}}
 
 {{% alert color="secondary" %}}
-<detaylar>
+<details>
     <summary>PDF/UA-1 belgeleri için spesifikasyon başlık düzeyleriyle ilgili bir ilave içerir (ayrıntıları görmek için genişletin):</summary>
     <p></p>
     <p>Belge semantiği bir başlık dizisinin aşağı doğru sıralamasını gerektiriyorsa, bu dizi sıkı bir sayısal sırada ilerlemeli ve bir ara başlık seviyesini atlamamalıdır. H1 H2 H3 kabul edilemez, H1 H3 değildir
@@ -92,7 +92,7 @@ Doğru çıktıyı sağlamak için kullanıcıların kaynak belge içeriğinin d
         <img src="m-w-outline-level.png" alt="MWOutlineLevel" style="width:800px"/>
     <p>Acrobat'ta belge yapısı kontrol edilebilir veya "Etiketler" panelinde değiştirilebilir</p>:
         <img src="acrobat-tags-pane.png" alt="AcrobatTagsPane" style="width:800px"/>
-</detail>
+</details>
 {{% /alert %}}
 
 ### İçeriği Bir Artifak olarak İşaretleme
@@ -107,16 +107,16 @@ Doğru çıktıyı sağlamak için kullanıcıların kaynak belge içeriğinin d
 
 {{% alert color="secondary" %}}
 <details>
-    <özet>Tanım bize şu (ayrıntıları göstermek için genişlet) şöyler der:</özet>
+    <summary>Tanım bize şu (ayrıntıları göstermek için genişlet) şöyler der:</summary>
     <p></p>
     <p>Bir belge içindeki grafik nesneleri iki sınıfa ayrılabilir:</p>
-    </ol>
+    <ol>
       <li>Bir belgedeki gerçek içerik, yazar tarafından başlangıçta tanıtılan materyalleri temsil eden nesneleri içerir.</li>
       <li>Artefaktlar yazarın orijinal içeriğinin parçası olmayan grafik nesnelerdir. Bunun yerine, uyumlu yazarın sayfalama, düzen veya diğer tamamen mekanik süreçler sırasında oluşturulur.</li>
     </ol>
     <p></p>
     <p>ISO-32000-1, 14.8.2.2.1</p>
-</detaylar>
+</details>
 {{% /alert %}}
 
 Eğer bir belge herhangi bir diğer içeriği, bir hazine olarak işaretlenmelidir ya da herhangi bir hazine içeriği gerçek içerik ise, müşteriler çıktıda bunu düzeltmelidir.
@@ -131,7 +131,7 @@ Eğer bir belge herhangi bir diğer içeriği, bir hazine olarak işaretlenmelid
       <img src="acrobat-mark-as-artifact-delete-empty-tag.png" alt="PdfDeleteEmptyTag" style="width:800px"/>
     <p>Ayrıca, başlık metnini gerçek içeriğe geçiş yapabilirsiniz çıktı PDF'nin yapıtından:</p>
         <img src="acrobat-switch-text-in-header.png" alt="AcrobatSwitchTextInHeader" style="width:800px"/>
-<details>
+</details>
 {{% /alert %}}
 
 ### Doğal Dil Spesifikasyonu
@@ -151,7 +151,7 @@ Metin dili belirtilen Microsoft Word belgede yer alır. Aspose.Words belirtilen 
     <p>Bir dosyanın tüm metinleri için varsayılan doğal dil, bir belge sözlüğündeki Lang girişi ile belirtilmelidir.</p>
     <p>Bir dosyadaki metin içeriği varsayılan dilden farklıysa bir `Lang` özelliğini işaretlemek için bir işaretli içerik dizisi veya bir Yapı elemanının sözlüğü içindeki bir Lang girişi kullanarak belirtilmelidir...</p>
     <p>ISO-19005-2, 6.7.4</p>
-<details>
+</details>
 {{% /alert %}}
 
 {{% alert color="secondary" %}}
@@ -160,7 +160,7 @@ Metin dili belirtilen Microsoft Word belgede yer alır. Aspose.Words belirtilen 
     <p></p>
     <p>Doğal dil ilan edilecek... Doğal dildeki değişiklikler bildirilecek.</p>
     <p>ISO-14289-1, 7.2</p>
-<details>
+</details>
 {{% /alert %}}
 
 {{% alert color="secondary" %}}
@@ -171,7 +171,7 @@ Metin dili belirtilen Microsoft Word belgede yer alır. Aspose.Words belirtilen 
         <img src="m-w-language.png" alt="MWLanguage" style="width:800px"/>
     <p>Ya çıktıyı PDF belgesi:</p>
         <img src="acrobat-check-change-language.png" alt="AcrobatCheckChangeLanguage" style="width:800px"/>
-<details>
+</details>
 {{% /alert %}}
 
 ### Şekil Açıklaması
@@ -186,7 +186,7 @@ Microsoft Word belgeleri kullanıcıların bir figür başlığı eklemesine imk
 
 {{% alert color="secondary" %}}
 <details>
-    <özet>Bu spesifikasyon bize şu (ayrıntıları görmek için genişlet)ları söyler:</özet>
+    <summary>Bu spesifikasyon bize şu (ayrıntıları görmek için genişlet)ları söyler:</summary>
     <p></p>
     <p>Şekil ile birlikte bir başlık etiketlenecek.</p>
     <p>ISO-14289-1, 7.3</p>
@@ -197,7 +197,7 @@ Microsoft Word belgeleri kullanıcıların bir figür başlığı eklemesine imk
 
 {{% alert color="secondary" %}}
 <details>
-    <özet>Bu blokta, ayrıntıları görmek için genişletilen bir başlık ekleme örnekleri görebilirsiniz.</özet>
+    <summary>Bu blokta, ayrıntıları görmek için genişletilen bir başlık ekleme örnekleri görebilirsiniz.</summary>
     <p></p>
     <p>In Microsoft Word başlık bağlam menüsü aracılığıyla eklenebilir:</p>
         <img src="figure-caption-mw.png" alt="figure-caption-mw" style="width:800px"/>
@@ -218,7 +218,7 @@ Microsoft Word belgeleri kullanıcıların alternatif metinleri resimlere, şeki
 
 {{% alert color="secondary" %}}
 <details>
-    <özet>tespecifikasyon bize şu aşağıdaki (ayrıntıları görmek için genişletin):</özet>
+    <summary>tespecifikasyon bize şu aşağıdaki (ayrıntıları görmek için genişletin):</summary>
     <p></p>
     <p>İçeriği doğal olarak önceden belirlenmiş metin analoguna sahip olmayan tüm yapı elemanları, örneğin resimler, formüller vb., Yapı Elemanı Sözlüğü'ndeki Alt girişini kullanarak alternatif bir metin açıklaması sağlamalıdır.</p>
     <p>Not: Alternatif açıklamalar, aksi takdirde opak olmayan metin dışı içeriğin doğru yorumlanmasına yardımcı olacak metin açıklamaları sağlar.</p>
@@ -298,7 +298,7 @@ PDF/UA-1 belgelerindeki tabloların başlıkları olmalı - sütun, satır veya 
 
 {{% alert color="secondary" %}}
 <details>
-    <özet>bölümü bize şöyler diyor (ayrıntıları göstermek için genişletiyin):</özet>
+    <summary>bölümü bize şöyler diyor (ayrıntıları göstermek için genişletiyin):</summary>
     <p></p>
     <p>Tablolar başlıkları içermeli... Tablolar sütun başlıkları, satır başlıkları veya her ikisini birden içerebilir.</p>
     <p>ISO-14289-1, 7.5</p>
@@ -307,7 +307,7 @@ PDF/UA-1 belgelerindeki tabloların başlıkları olmalı - sütun, satır veya 
 
 {{% alert color="secondary" %}}
 <details>
-    <özet>Bu blokta örnekler görebilirsiniz: masa başlığı (ayrıntıları göstermek için genişlet) nasıl ayarlanır?</özet>
+    <summary>Bu blokta örnekler görebilirsiniz: masa başlığı (ayrıntıları göstermek için genişlet) nasıl ayarlanır?</summary>
     <p></p>
     <p>Tablo başlığı ya Microsoft Word kaynak belgesi ile kurulabilir:</p>
         <img src="table-headers-mw.png" alt="table-headers-mw" style="width:800px"/>
@@ -330,7 +330,7 @@ PDF/UA-1 belgelerindeki tabloların başlıkları olmalı - sütun, satır veya 
 
 {{% alert color="secondary" %}}
 <details>
-    <özet>Bu spesifikasyon bize aşağıdakiları (ayrıntıları görmek için genişlet) söyler:</özet>
+    <summary>Bu spesifikasyon bize aşağıdakiları (ayrıntıları görmek için genişlet) söyler:</summary>
     <p></p>
     <p>Spesifikasyon bize şu şekilde der:</p>
     <p>Özel karakterler veya satır içi grafikler gibi standart olmayan şekilde temsil edilen tüm metin yapısı öğeleri, yapı öğesi sözlüğündeki `ActualText` girişini kullanarak değiştirme metni sağlamalıdır ...</p>
@@ -356,7 +356,7 @@ Microsoft Word belgesi kullanıcıları yedekleme metni ayarlamasına izin verme
     <p></p>
     <p>Metinsel içerikteki tüm kısaltmalar ve akronimlerin yerine gelmesi bir işaretli içerik dizisi ile yapılmalıdır; Spantag'ın E özelliği, kısaltma veya akronimin metin genişlemesini sağlar...</p>
 <p>ISO-19005-2, 6.7.8</p>
-<details>
+</details>
 {{% /alert %}}
 
 Microsoft Word belgesi kullanıcıların kısaltma ve akronim genişlemeleri ayarlamasına izin vermez. Bu bu yüzden doğrulanmalı ve çıktı PDF'de düzeltilmeli:
@@ -374,7 +374,7 @@ Microsoft Word belgesi kullanıcıların kısaltma ve akronim genişlemeleri aya
 
 {{% alert color="secondary" %}}
 <details>
-    <özet>bölümü bize şunu söyler (ayrıntıları görmek için genişletin):</özet>
+    <summary>bölümü bize şunu söyler (ayrıntıları görmek için genişletin):</summary>
     <p></p>
     <p>Spesifikasyon bize şu şekilde der:</p>
     <p>Belgenin kataloğunda bulunan Metadata akışının dc: title girişinde içermesi gerekir. dc, Dublin Core meta veri şeması için önerilen öneki ...</p>
@@ -383,8 +383,8 @@ Microsoft Word belgesi kullanıcıların kısaltma ve akronim genişlemeleri aya
 {{% /alert %}}
 
 {{% alert color="secondary" %}}
-<ayrıntılar>
-    <özet>Bu blokta, belgenin başlığını nasıl ayarlayacağını (ayrıntıları göstermek için genişleterek) görebilirsiniz.</özet>
+<details>
+    <summary>Bu blokta, belgenin başlığını nasıl ayarlayacağını (ayrıntıları göstermek için genişleterek) görebilirsiniz.</summary>
     <p></p>
     <p>Belge başlığı ya kaynak Microsoft Word belgesi olarak da kurulabilir.</p>
         <img src="document-title-mw.png" alt="document-title-mw" style="width:800px"/>
@@ -454,7 +454,7 @@ Kullanımın `.notdef` glyph'i yasaklanmıştır. The `.notdef` glyph's will app
 
 {{% alert color="secondary" %}}
 <details>
-    <özet>Bu blokta, örnekleri görebilirsiniz: bu karakterleri nasıl kaldırabilir veya değiştirebilir (ayrıntıları görmek için genişletme)".</özet>
+    <summary>Bu blokta, örnekleri görebilirsiniz: bu karakterleri nasıl kaldırabilir veya değiştirebilir (ayrıntıları görmek için genişletme)".</summary>
     <p></p>
     <p>Kullanıcılar, kaynak Word belgesine ya da her ikisine de bu karakterleri kaldırmalı veya değiştirmelidir:</p>
         <img src="m-w-notdef-glyph.png" alt="MWNotdefGlyph" style="width:800px"/>
@@ -478,7 +478,7 @@ Kullanımın `.notdef` glyph'i yasaklanmıştır. The `.notdef` glyph's will app
 
 {{% alert color="secondary" %}}
 <details>
-    <özet>Spesifikasyon bize şu (ayrıntıları görmek için genişlet) belirtir:</özet>
+    <summary>Spesifikasyon bize şu (ayrıntıları görmek için genişlet) belirtir:</summary>
     <p></p>
     <p>Sadece Seviye A uyum için, bir karakter ... her şey Unicode Özel Kullanım Alanı'nda (PUA) kod veya kodlara eşlendiğinde, bu karakterin veya bu karakterin bir parçası olan karakterlerin dizisinin bir parçası olduğu için ActualText girişi ... mevcut olmalıdır.</p>
     <p>ISO-19005-2, 6.2.11.7.3</p>
@@ -489,11 +489,11 @@ Kullanımın `.notdef` glyph'i yasaklanmıştır. The `.notdef` glyph's will app
 
 {{% alert color="secondary" %}}
 <details>
-    <özet>Bu blokta, sorunu simgesel yazı tipleriyle çözmek için kullanıcıya ne yapması gerektiğini görebilirsiniz (ayrıntıları görmek için genişletme).</özet>
+    <summary>Bu blokta, sorunu simgesel yazı tipleriyle çözmek için kullanıcıya ne yapması gerektiğini görebilirsiniz (ayrıntıları görmek için genişletme).</summary>
     <p></p>
     <p>Kısayol yazı tipini kaynak Word belgesinde bir Unicode yazı tipi ile değiştirin:</p>
         <img src="m-w-insert-symbol.png" alt="MWInsertSymbol" style="width:800px"/>
     <p>Çıktı PDF belgesinde sorunlu karakterler için bir ActualText girişi ekleyin:</p>
         <img src="acrobat-span-tag-actual-text.png" alt="AcrobatSpanTagActualText" style="width:800px"/>
-<details>
+</details>
 {{% /alert %}}

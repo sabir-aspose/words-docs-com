@@ -25,7 +25,8 @@ Java에 대해Aspose.Words을 사용하면 타사 응용 프로그램이나Offic
 <div class="row">
 	<div class="col-md-4">
 		<p><b>약Aspose.Words</b></p>
-			<hr><p>OVERVIEW</p></hr>
+			<hr>
+			<p>OVERVIEW</p>
 			<ul>
 				<li><a href="/words/java/what-s-new-in-aspose-words-for-java/">Java에 대한Aspose.Words의 새로운 기능</a></li>
 				<li><a href="/words/java/product-overview/">제품 개요</a></li>
@@ -44,7 +45,8 @@ Java에 대해Aspose.Words을 사용하면 타사 응용 프로그램이나Offic
 	</div>
 	<div class="col-md-4">
 		<p><b>시작</b></p>
-			<hr><p>GETTING STARTED</p></hr>
+			<hr>
+			<p>GETTING STARTED</p>
 			<ul>
 				<li><a href="/words/java/supported-document-formats/">지원되는 문서 형식</a></li>
 				<li><a href="/words/java/features/">특징</a></li>
@@ -60,7 +62,8 @@ Java에 대해Aspose.Words을 사용하면 타사 응용 프로그램이나Offic
 	</div>
 	<div class="col-md-4">
 		<p><b>기능 개발</b></p>
-			<hr><p>GUIDE</p></hr>
+			<hr>
+			<p>GUIDE</p>
 			<ul>
 				<li><a href="/words/java/loading-saving-and-converting/">로드,저장 및 변환</a></li>
 				<li><a href="/words/java/rendering/">렌더링</a></li>

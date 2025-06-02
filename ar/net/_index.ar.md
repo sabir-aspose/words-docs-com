@@ -25,7 +25,8 @@ Aspose.Words for .NET هي مكتبة فئة تمكن تطبيقاتك من تن
 <div class="row">
 		<div class="col-md-4">
 				<p><b>حول Aspose.Words</b></p>
-						<hr><p>ملخص</p></hr>
+						<hr>
+						<p>ملخص</p>
 						<ul>
 								<li><a href="/words/ar/net/what-s-new-in-aspose-words-for-net/">ما الجديد في Aspose.Words لـ .NET</a></li>
 								<li><a href="/words/ar/net/product-overview/">نظرة عامة على المنتج</a></li>
@@ -44,7 +45,8 @@ Aspose.Words for .NET هي مكتبة فئة تمكن تطبيقاتك من تن
 		</div>
 		<div class="col-md-4">
 				<p><b>البدء</b></p>
-						<hr><p>ابدء</p></hr>
+						<hr>
+						<p>ابدء</p>
 						<ul>
 								<li><a href="/words/ar/net/supported-document-formats/">تنسيقات المستندات المدعومة</a></li>
 								<li><a href="/words/ar/net/features/">الميزات المدعومة</a></li>
@@ -61,7 +63,8 @@ Aspose.Words for .NET هي مكتبة فئة تمكن تطبيقاتك من تن
 		</div>
 		<div class="col-md-4">
 				<p><b>تطوير الوظائف</b></p>
-						<hr><p>مرشد</p></hr>
+						<hr>
+						<p>مرشد</p>
 						<ul>
 								<li><a href="/words/ar/net/loading-saving-and-converting/">التحميل والحفظ والتحويل</a></li>
 								<li><a href="/words/ar/net/rendering/">استدعاء</a></li>

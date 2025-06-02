@@ -62,7 +62,7 @@ Zayıf bir yapıya sahip PDF/UA-1 bir belge için ayrıca başlık numaraların�
     <summary>Şartname bize aşağıdakileri söyler (ayrıntıları görmek için genişletin):</summary>
     <p></p>
     <p>Blok düzeyinde yapı, iki temel paradigmadan birini takip edebilir:</p>
-    </ol>
+    <ol>
       <li>Güçlü bir şekilde yapılandırılmış. Gruplama öğeleri, materyalin organizasyonunu makalelere, bölümlere, alt bölümlere vb. Yansıtmak için gerektiği kadar seviyeye yerleştirilir. Her düzeyde, gruplama öğesinin alt öğeleri bir başlık (H), o düzeydeki içerik için bir veya daha fazla paragraf (P) ve iç içe geçmiş alt bölümler için belki bir veya daha fazla ek gruplama öğesinden oluşmalıdır.</li>
       <li>Zayıf yapılandırılmış. Belge nispeten düzdür, belki de yalnızca bir veya iki gruplama öğesi düzeyine sahiptir ve tüm başlıklar, paragraflar ve diğer BLSEs bunların hemen alt öğeleridir. Bu durumda malzemenin organizasyonu mantıksal yapıya yansımaz, ancak belirli seviyelere sahip başlıkların kullanılmasıyla ifade edilebilir (H1–H6).</li>
     </ol>
@@ -110,7 +110,7 @@ Doğru çıktıyı sağlamak için kullanıcıların kaynak belge içeriğinin d
     <summary>Şartname bize aşağıdakileri söyler (ayrıntıları görmek için genişletin):</summary>
     <p></p>
     <p>Bir belgedeki grafik nesneleri iki sınıfa ayrılabilir:</p>
-    </ol>
+    <ol>
       <li>Bir belgenin gerçek içeriği, belgenin yazarı tarafından orijinal olarak tanıtılan materyali temsil eden nesnelerden oluşur.</li>
       <li>Eserler, yazarın orijinal içeriğinin bir parçası olmayan, daha ziyade sayfalandırma, düzen veya diğer katı mekanik işlemler sırasında uygun yazar tarafından oluşturulan grafik nesneleridir.</li>
     </ol>

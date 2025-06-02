@@ -25,7 +25,8 @@ Aspose.Words for .NET を使用すると、サードパーティのアプリケ�
 <div class="row">
 		<div class="col-md-4">
 				<p><b>Aspose.Wordsについて</b></p>
-						<hr><p>概要</p></hr>
+						<hr>
+						<p>概要</p>
 						<ul>
 								<li><a href="/words/ja/net/what-s-new-in-aspose-words-for-net/">.NET の Aspose.Words の新機能</a></li>
 								<li><a href="/words/ja/net/product-overview/">製品の概要</a></li>
@@ -44,7 +45,8 @@ Aspose.Words for .NET を使用すると、サードパーティのアプリケ�
 		</div>
 		<div class="col-md-4">
 				<p><b>始めましょう</b></p>
-						<hr><p>はじめる</p></hr>
+						<hr>
+						<p>はじめる</p>
 						<ul>
 								<li><a href="/words/ja/net/supported-document-formats/">サポートされているドキュメント形式</a></li>
 								<li><a href="/words/ja/net/features/">サポートされている機能</a></li>
@@ -61,7 +63,8 @@ Aspose.Words for .NET を使用すると、サードパーティのアプリケ�
 		</div>
 		<div class="col-md-4">
 				<p><b>機能の開発</b></p>
-						<hr><p>ガイド</p></hr>
+						<hr>
+						<p>ガイド</p>
 						<ul>
 								<li><a href="/words/ja/net/loading-saving-and-converting/">ロード、保存、変換</a></li>
 								<li><a href="/words/ja/net/rendering/">レンダリング</a></li>

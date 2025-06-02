@@ -25,7 +25,8 @@ Mit Aspose.Words für .NET können Sie Dokumente ohne Drittanbieteranwendungen o
 <div class="row">
 		<div class="col-md-4">
 				<p><b>Über Aspose.Words</b></p>
-						<hr><p>ÜBERBLICK</p></hr>
+						<hr>
+						<p>ÜBERBLICK</p>
 						<ul>
 								<li><a href="/words/de/net/what-s-new-in-aspose-words-for-net/">Was ist neu in Aspose.Words für .NET?</a></li>
 								<li><a href="/words/de/net/product-overview/">Produktübersicht</a></li>
@@ -44,7 +45,8 @@ Mit Aspose.Words für .NET können Sie Dokumente ohne Drittanbieteranwendungen o
 		</div>
 		<div class="col-md-4">
 				<p><b>Loslegen</b></p>
-						<hr><p>ERSTE SCHRITTE</p></hr>
+						<hr>
+						<p>ERSTE SCHRITTE</p>
 						<ul>
 								<li><a href="/words/de/net/supported-document-formats/">Unterstützte Dokumentformate</a></li>
 								<li><a href="/words/de/net/features/">Unterstützte Funktionen</a></li>
@@ -61,7 +63,8 @@ Mit Aspose.Words für .NET können Sie Dokumente ohne Drittanbieteranwendungen o
 		</div>
 		<div class="col-md-4">
 				<p><b>Funktionen entwickeln</b></p>
-						<hr><p>FÜHRUNG</p></hr>
+						<hr>
+						<p>FÜHRUNG</p>
 						<ul>
 								<li><a href="/words/de/net/loading-saving-and-converting/">Laden, Speichern und Konvertieren</a></li>
 								<li><a href="/words/de/net/rendering/">Rendern</a></li>

@@ -44,7 +44,7 @@ Xin lưu ý rằng dưới đây là các kết hợp chuyển đổi phổ bi�
 				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convert DOC to PDF</a></li>
 				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convert DOCX to PDF</a></li>
 				<li>và những người khác</li>
-			< /ul>
+			</ul>
 		<h2>Chuyển đổi ảnh sang PDF</h2>
 			<ul>
 				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convert JPG to PDF</a></li>
@@ -66,7 +66,7 @@ Xin lưu ý rằng dưới đây là các kết hợp chuyển đổi phổ bi�
 				<li>Chuyển đổi Mobi sang PDF</li>
 				"<li>và các người khác</li>"
 			<ul>
-	<div>
+	</div>
 	<div class="col-md-6">
 		<h2>Chuyển đổi một Tài liệu thành Hình ảnh</h2>
 			<ul>
@@ -79,7 +79,7 @@ Xin lưu ý rằng dưới đây là các kết hợp chuyển đổi phổ bi�
 				<li><a href="/words/java/convert-a-document-to-markdown/">Convert a Document to Markdown</a></li>
 				<li>Chuyển đổi HTML thành Markdown</li>
 				<li>và những người khác</li>
-			< / ul >
+			</ul>
 		<h2>Chuyển đổi Tài liệu thành HTML</h2>
 			<ul>
 				<li><a href="/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Convert Word to HTML</a></li>
@@ -97,6 +97,6 @@ Xin lưu ý rằng dưới đây là các kết hợp chuyển đổi phổ bi�
 				<li>Chuyển đổi DOCX sang DOC</li>
 				<li>Chuyển HTML thành Word</li>
 				<li>và những người khác</li>
-			< / ul >
+			</ul>
 	</div>
 </div>

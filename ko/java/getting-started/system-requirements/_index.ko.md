@@ -32,7 +32,7 @@ Java런타임 환경(JRE)을 실행할 수 있는 모든 운영 체제는Java에
   <tr>
 			<td>macOS</td>
 			<td><ul><li>macOS 버전 10.9(Mavericks) 이상</li></ul></td>
-		<td><ul><li></tr></li></ul></td>
+		</tr>
   <tr>
 			<td>모바일</td>
 			<td><ul><li>Android</li><li>iOS</li></ul></td>

@@ -25,7 +25,8 @@ Met Aspose.Words voor C++ kunt u documenten genereren, wijzigen, converteren en 
 <div class="row">
 	<div class="col-md-4">
 		<p><b>Over Aspose.Words</b></p>
-			<hr><p>OVERVIEW</p></hr>
+			<hr>
+			<p>OVERVIEW</p>
 			<ul>
 				<li><a href="/words/cpp/what-s-new-in-aspose-words-for-cpp/">Wat is er nieuw in Aspose.Words voor C++</a></li>
 				<li><a href="/words/cpp/product-overview/">Productoverzicht</a></li>
@@ -44,7 +45,8 @@ Met Aspose.Words voor C++ kunt u documenten genereren, wijzigen, converteren en 
 	</div>
 	<div class="col-md-4">
 		<p><b>Aan De Slag</b></p>
-			<hr><p>GETTING STARTED</p></hr>
+			<hr>
+			<p>GETTING STARTED</p>
 			<ul>
 				<li><a href="/words/cpp/supported-document-formats/">Ondersteunde Documentformaten</a></li>
 				<li><a href="/words/cpp/features/">Functie</a></li>
@@ -60,7 +62,8 @@ Met Aspose.Words voor C++ kunt u documenten genereren, wijzigen, converteren en 
 	</div>
 	<div class="col-md-4">
 		<p><b>Functies Ontwikkelen</b></p>
-			<hr><p>GUIDE</p></hr>
+			<hr>
+			<p>GUIDE</p>
 			<ul>
 				<li><a href="/words/cpp/loading-saving-and-converting/">Laden, opslaan en converteren</a></li>
 				<li><a href="/words/cpp/rendering/">Rendering</a></li>

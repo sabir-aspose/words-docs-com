@@ -32,7 +32,7 @@ Javaランタイム環境(JRE)を実行できるオペレーティングシス�
   <tr>
 			<td>macOS</td>
 			<td><ul><li>macOS バージョン 10.9 (Mavericks) 以降</li></ul></td>
-		<td><ul><li></tr></li></ul></td>
+		</tr>
   <tr>
 			<td>モバイル</td>
 			<td><ul><li>Android</li><li>iOS</li></ul></td>

@@ -25,7 +25,8 @@ Aspose.Words for Python via .NET هي مكتبة فئة تمكن تطبيقات�
 <div class="row">
 		<div class="col-md-4">
 				<p><b>حول Aspose.Words</b></p>
-						<hr><p>ملخص</p></hr>
+						<hr>
+						<p>ملخص</p>
 						<ul>
 								<li><a href="/words/ar/python-net/product-overview/">نظرة عامة على المنتج</a></li>
 								<li><a href="/words/ar/python-net/licensing/">الترخيص والاشتراك</a></li>
@@ -43,7 +44,8 @@ Aspose.Words for Python via .NET هي مكتبة فئة تمكن تطبيقات�
 		</div>
 		<div class="col-md-4">
 				<p><b>البدء</b></p>
-						<hr><p>ابدء</p></hr>
+						<hr>
+						<p>ابدء</p>
 						<ul>
 								<li><a href="/words/ar/python-net/supported-document-formats/">تنسيقات المستندات المدعومة</a></li>
 								<li><a href="/words/ar/python-net/features/">الميزات المدعومة</a></li>
@@ -59,7 +61,8 @@ Aspose.Words for Python via .NET هي مكتبة فئة تمكن تطبيقات�
 		</div>
 		<div class="col-md-4">
 				<p><b>تطوير الوظائف</b></p>
-						<hr><p>مرشد</p></hr>
+						<hr>
+						<p>مرشد</p>
 						<ul>
 								<li><a href="/words/ar/python-net/loading-saving-and-converting/">التحميل والحفظ والتحويل</a></li>
 								<li><a href="/words/ar/python-net/rendering/">استدعاء</a></li>

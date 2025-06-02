@@ -28,7 +28,8 @@ With Aspose.Words for Python via .NET, you can generate, modify, convert, and re
 <div class="row">
 	<div class="col-md-4">
 		<p><b>About Aspose.Words</b></p>
-			<hr><p>OVERVIEW</p></hr>
+			<hr>
+			<p>OVERVIEW</p>
 			<ul>
 				<li><a href="/words/python-net/product-overview/">Product Overview</a></li>
 				<li><a href="/words/python-net/licensing/">Licensing and Subscription</a></li>
@@ -46,7 +47,8 @@ With Aspose.Words for Python via .NET, you can generate, modify, convert, and re
 	</div>
 	<div class="col-md-4">
 		<p><b>Get Started</b></p>
-			<hr><p>GETTING STARTED</p></hr>
+			<hr>
+			<p>GETTING STARTED</p>
 			<ul>
 				<li><a href="/words/python-net/supported-document-formats/">Supported Document Formats</a></li>
 				<li><a href="/words/python-net/features/">Features</a></li>
@@ -62,7 +64,8 @@ With Aspose.Words for Python via .NET, you can generate, modify, convert, and re
 	</div>
 	<div class="col-md-4">
 		<p><b>Develop Functions</b></p>
-			<hr><p>GUIDE</p></hr>
+			<hr>
+			<p>GUIDE</p>
 			<ul>
 				<li><a href="/words/python-net/loading-saving-and-converting/">Loading, Saving and Converting</a></li>
 				<li><a href="/words/python-net/rendering/">Rendering</a></li>

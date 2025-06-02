@@ -62,18 +62,18 @@ Comme pour tout autre champ, le champ `TOC` peut accepter des commutateurs défi
 ![working-with-table-of-contents-aspose-words-net](/words/net/working-with-table-of-contents/working-with-table-of-contents-1.png)
 
 
-Par défaut, ces commutateurs ci-dessus sont inclus lors de l'insertion d'un `TOC` par défaut dans le document. Un `TOC` sans commutateur inclura le contenu des styles de titre intégrés (comme si le commutateur \O était activé). Les commutateurs `TOC` disponibles pris en charge par Aspose.Words sont répertoriés ci-dessous et leurs utilisations sont décrites en détail. Ils peuvent être divisés en sections distinctes en fonction de leur type. Les commutateurs de la première section définissent le contenu à inclure dans le `TOC` et les commutateurs de la deuxième section contrôlent l'apparence de la table des matières. Si un commutateur n'est pas répertorié ici, cela signifie qu'il n'est actuellement pas pris en charge. Tous les commutateurs seront pris en charge dans les versions futures. Nous ajoutons un support supplémentaire à chaque version.
+Par défaut, ces commutateurs ci-dessus sont inclus lors de l'insertion d'un `TOC` par défaut dans le document. Un `TOC` sans commutateur inclura le contenu des styles de titre intégrés (comme si le commutateur &#92;O était activé). Les commutateurs `TOC` disponibles pris en charge par Aspose.Words sont répertoriés ci-dessous et leurs utilisations sont décrites en détail. Ils peuvent être divisés en sections distinctes en fonction de leur type. Les commutateurs de la première section définissent le contenu à inclure dans le `TOC` et les commutateurs de la deuxième section contrôlent l'apparence de la table des matières. Si un commutateur n'est pas répertorié ici, cela signifie qu'il n'est actuellement pas pris en charge. Tous les commutateurs seront pris en charge dans les versions futures. Nous ajoutons un support supplémentaire à chaque version.
 
 ### Commutateurs de marquage d'entrée
 
 |  Changer | Description |
 |  :-  |  :-  |
-| **Heading Styles**<br>*(Commutateur \O)* | <p>Ce commutateur définit que le `TOC` doit être construit à partir des styles de titre intégrés. Dans Microsoft Word, ceux-ci sont définis par Titre 1 – Titre 9. Dans Aspose.Words, ces styles sont représentés par l’énumération StyleIdentifier correspondante. Cette énumération représente un identifiant d'un style indépendant des paramètres régionaux, par exemple `StyleIdentifier.Heading1` représente le style Titre 1. Grâce à cela, la mise en forme et les propriétés du style peuvent être récupérées à partir de la collection Style du document. La classe Style correspondante peut être récupérée de la collection `Document.Styles` en utilisant la propriété indexée de type StyleIdentifier.</p>
+| **Heading Styles**<br>*(Commutateur &#92;O)* | <p>Ce commutateur définit que le `TOC` doit être construit à partir des styles de titre intégrés. Dans Microsoft Word, ceux-ci sont définis par Titre 1 – Titre 9. Dans Aspose.Words, ces styles sont représentés par l’énumération StyleIdentifier correspondante. Cette énumération représente un identifiant d'un style indépendant des paramètres régionaux, par exemple `StyleIdentifier.Heading1` représente le style Titre 1. Grâce à cela, la mise en forme et les propriétés du style peuvent être récupérées à partir de la collection Style du document. La classe Style correspondante peut être récupérée de la collection `Document.Styles` en utilisant la propriété indexée de type StyleIdentifier.</p>
 
 <p>![working-with-table-of-contents-styles](/words/net/working-with-table-of-contents/working-with-table-of-contents-2.png)</p>
 
 <p>Tout contenu formaté avec ces styles est inclus dans la table des matières. Le niveau de la rubrique définira le niveau hiérarchique correspondant de l'entrée dans la table des matières. Par exemple, un paragraphe avec le style Titre 1 sera traité comme le premier niveau du `TOC` tandis qu'un paragraphe avec le style Titre 2 sera traité comme le niveau suivant dans la hiérarchie et ainsi de suite.</p> |
-| **Outline Levels**<br>*(Commutateur \U)* | <p>Chaque paragraphe peut définir un niveau de plan sous Options de paragraphe.</p>
+| **Outline Levels**<br>*(Commutateur &#92;U)* | <p>Chaque paragraphe peut définir un niveau de plan sous Options de paragraphe.</p>
 
 <p>![working-with-table-of-contents-paragraph](/words/net/working-with-table-of-contents/working-with-table-of-contents-3.png)</p>
 
@@ -84,54 +84,50 @@ Par défaut, ces commutateurs ci-dessus sont inclus lors de l'insertion d'un `TO
 <p>Notez que les styles de titre intégrés tels que Titre 1 ont un niveau de plan obligatoire défini dans les paramètres de style.</p>
 
 <p>{{% /alert %}}</p> |
-| **Custom Styles**<br>*(Commutateur \T)* | <p>Ce commutateur permettra d'utiliser des styles personnalisés lors de la collecte des entrées à utiliser dans la table des matières. Ceci est souvent utilisé conjointement avec le commutateur \O pour inclure des styles personnalisés ainsi que des styles de titre intégrés dans la table des matières.<br>Les paramètres du commutateur doivent être entourés de marques vocales. De nombreux styles personnalisés peuvent être inclus, pour chaque style, le nom doit être spécifié suivi d'une virgule suivi du niveau sous lequel le style doit apparaître dans le `TOC`. Les autres styles sont également séparés par une virgule.<br>Par exemple</p>
+| **Custom Styles**<br>*(Commutateur &#92;T)* | <p>Ce commutateur permettra d'utiliser des styles personnalisés lors de la collecte des entrées à utiliser dans la table des matières. Ceci est souvent utilisé conjointement avec le commutateur &#92;O pour inclure des styles personnalisés ainsi que des styles de titre intégrés dans la table des matières.<br>Les paramètres du commutateur doivent être entourés de marques vocales. De nombreux styles personnalisés peuvent être inclus, pour chaque style, le nom doit être spécifié suivi d'une virgule suivi du niveau sous lequel le style doit apparaître dans le `TOC`. Les autres styles sont également séparés par une virgule.<br>Par exemple</p>
 
 <p>{{< highlight csharp >}}
 
 <p>  { TOC \o "1-3" \t "CustomHeading1, 1,   CustomHeading2, 2"} </p><p>{{< /highlight >}}</p>
 
 <p>utilisera le contenu stylisé avec CustomHeading1 comme contenu de niveau 1 dans le `TOC` et CustomHeading2 comme niveau 2.</p> |
-| **Use TC Fields**<br>*(Commutateurs \F et \L)* | <p>Dans les anciennes versions de Microsoft Word, la seule façon de créer un `TOC` était d'utiliser des champs TC. Ces champs sont insérés masqués dans le document même lorsque les codes de champ sont affichés. Ils incluent le texte qui doit être affiché dans l'entrée et le `TOC` est construit à partir d'eux. Cette fonctionnalité n'est plus utilisée très souvent mais peut encore être utile dans certaines occasions pour inclure dans le `TOC` des entrées qui ne sont pas en retrait pour être visibles dans le document.<br>Une fois insérés, ces champs apparaissent masqués même lorsque les codes de champ sont affichés. Ils ne peuvent pas être vus sans afficher du contenu caché. Pour voir ces champs, Afficher le formatage des paragraphes doit être sélectionné.</p>
+| **Use TC Fields**<br>*(Commutateurs &#92;F et &#92;L)* | <p>Dans les anciennes versions de Microsoft Word, la seule façon de créer un `TOC` était d'utiliser des champs TC. Ces champs sont insérés masqués dans le document même lorsque les codes de champ sont affichés. Ils incluent le texte qui doit être affiché dans l'entrée et le `TOC` est construit à partir d'eux. Cette fonctionnalité n'est plus utilisée très souvent mais peut encore être utile dans certaines occasions pour inclure dans le `TOC` des entrées qui ne sont pas en retrait pour être visibles dans le document.<br>Une fois insérés, ces champs apparaissent masqués même lorsque les codes de champ sont affichés. Ils ne peuvent pas être vus sans afficher du contenu caché. Pour voir ces champs, Afficher le formatage des paragraphes doit être sélectionné.</p>
 
-<p>![working-with-table-of-contents-paragraph-settings](/words/net/working-with-table-of-contents/working-with-table-of-contents-4.png)</p> Ces champs peuvent être insérés dans un document à n'importe quelle position comme n'importe quel autre champ et sont représentés par l'énumération `FieldType.FieldTOCEntry`.<br>Le commutateur \F dans un `TOC` est utilisé pour spécifier que les champs TC doivent être utilisés comme entrées. Le commutateur seul, sans aucun identifiant supplémentaire, signifie que tout champ TC du document sera inclus. Tout paramètre supplémentaire, souvent une seule lettre, indiquera que seuls les champs TC qui ont un commutateur \f correspondant seront inclus dans la table des matières. Par exemple *</p>
+<p>![working-with-table-of-contents-paragraph-settings](/words/net/working-with-table-of-contents/working-with-table-of-contents-4.png)</p><p> Ces champs peuvent être insérés dans un document à n'importe quelle position comme n'importe quel autre champ et sont représentés par l'énumération `FieldType.FieldTOCEntry`.<br>Le commutateur &#92;F dans un `TOC` est utilisé pour spécifier que les champs TC doivent être utilisés comme entrées. Le commutateur seul, sans aucun identifiant supplémentaire, signifie que tout champ TC du document sera inclus. Tout paramètre supplémentaire, souvent une seule lettre, indiquera que seuls les champs TC qui ont un commutateur \f correspondant seront inclus dans la table des matières. Par exemple *</p>
 
-<p>{{< highlight csharp >}}
-
-<p>  { TOC \f t } </p><p>{{< /highlight >}}</p>
+<p>{{< highlight csharp >}}{ TOC \f t }{{< /highlight >}}</p>
 
 <p>n'inclura que les champs TC tels que</p>
 
-<p>{{< highlight csharp >}}
-p> {   TC \f t }</p><p>{{< /highlight >}}</p>
+<p>{{< highlight csharp >}}{ TC \f t }{{< /highlight >}}</p>
 
-<p>Le champ `TOC` possède également un commutateur associé, le commutateur "\L" spécifie que seuls les champs TC dont les niveaux se situent dans la plage spécifiée sont inclus.</p>
+<p>Le champ `TOC` possède également un commutateur associé, le commutateur &#92;L spécifie que seuls les champs TC dont les niveaux se situent dans la plage spécifiée sont inclus.</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
 <p>Les champs `TC` eux-mêmes peuvent également avoir des commutateurs `{several, multiple, a few, many, numerous}` définis. Ceux-ci sont:</p>
 
-<p>- *\F – Expliqué ci-dessus.*</p>
+<p>- *&#92;F – Expliqué ci-dessus.*</p>
 
-<p>- *\L – Définit à quel niveau du `TOC` ce champ TC apparaîtra. Un `TOC` qui utilise ce même commutateur n'inclura ce champ TC que s'il se trouve dans la plage spécifiée.*</p>
+<p>- *&#92;L – Définit à quel niveau du `TOC` ce champ TC apparaîtra. Un `TOC` qui utilise ce même commutateur n'inclura ce champ TC que s'il se trouve dans la plage spécifiée.*</p>
 
-<p>- `_\N` – La numérotation des pages de cette entrée `TOC` n'est pas affichée. Un exemple de code sur la façon d'insérer des champs TC peut être trouvé dans la section suivante.</p> |
+<p>- _&#92;N – La numérotation des pages de cette entrée `TOC` n'est pas affichée. Un exemple de code sur la façon d'insérer des champs TC peut être trouvé dans la section suivante.</p> |
 
 ### Commutateurs liés à l’apparence
 
 |  Changer | Description |
 |  :-  |  :-  |
-| **Omit Page Numbers**<br>*(Commutateur \N)* | <p>Ce commutateur est utilisé pour masquer les numéros de page pour certains niveaux de la table des matières. Par exemple, vous pouvez définir</p>
+| **Omit Page Numbers**<br>*(Commutateur &#92;N)* | <p>Ce commutateur est utilisé pour masquer les numéros de page pour certains niveaux de la table des matières. Par exemple, vous pouvez définir</p>
 
-<p>{{< highlight csharp >}}
-<p>  {TOC \o "1-4" \n "3-4" } </p><p>{{< /highlight >}}</p>
+<p>{{< highlight csharp >}}{TOC \o "1-4" \n "3-4" }{{< /highlight >}}</p>
 
 <p>et les numéros de page sur les entrées des niveaux 3 et quatre seront masqués avec les points de repère (s'il y en a). Pour spécifier un seul niveau, une plage doit toujours être utilisée, par exemple "1-1" exclura les numéros de page uniquement pour le premier niveau.<br>Si vous ne fournissez aucune plage de niveaux, les numéros de page seront omis pour tous les niveaux de la table des matières. Ceci est utile à définir lors de l’exportation d’un document au format HTML ou similaire. En effet, les formats HTML n'ont aucun concept de page et n'ont donc pas besoin de numérotation de page.</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-6.png)</p> |
-| **Insert As Hyperlinks**<br>*(Commutateur \H)* | <p>Ce commutateur spécifie que les entrées `TOC` sont insérées sous forme d'hyperliens. Lors de la visualisation d'un document au format Microsoft Word, ces entrées apparaîtront toujours sous forme de texte normal dans le `TOC` mais sont liées par un hyperlien et peuvent donc être utilisées pour accéder à la position de l'entrée d'origine dans le document en utilisant *Ctrl + Clic gauche* dans Microsoft Word. Lorsque ce commutateur est inclus, ces liens sont également conservés dans d'autres formats. Par exemple, dans les formats HTML, notamment EPUB, et les formats rendus tels que PDF et XPS, ceux-ci seront exportés sous forme de liens de travail.<br>Sans ce commutateur, le `TOC` dans toutes ces sorties sera exporté sous forme de texte brut et ne démontrera pas ce comportement. Si un document est ouvert dans MS Word, le texte des entrées ne sera pas non plus cliquable de cette manière, mais les numéros de page pourront toujours être utilisés pour accéder à l'entrée d'origine.</p>
+| **Insert As Hyperlinks**<br>*(Commutateur &#92;H)* | <p>Ce commutateur spécifie que les entrées `TOC` sont insérées sous forme d'hyperliens. Lors de la visualisation d'un document au format Microsoft Word, ces entrées apparaîtront toujours sous forme de texte normal dans le `TOC` mais sont liées par un hyperlien et peuvent donc être utilisées pour accéder à la position de l'entrée d'origine dans le document en utilisant *Ctrl + Clic gauche* dans Microsoft Word. Lorsque ce commutateur est inclus, ces liens sont également conservés dans d'autres formats. Par exemple, dans les formats HTML, notamment EPUB, et les formats rendus tels que PDF et XPS, ceux-ci seront exportés sous forme de liens de travail.<br>Sans ce commutateur, le `TOC` dans toutes ces sorties sera exporté sous forme de texte brut et ne démontrera pas ce comportement. Si un document est ouvert dans MS Word, le texte des entrées ne sera pas non plus cliquable de cette manière, mais les numéros de page pourront toujours être utilisés pour accéder à l'entrée d'origine.</p>
 
 <p>![working-with-table-of-contents-titles](/words/net/working-with-table-of-contents/working-with-table-of-contents-7.png)</p> |
-| **Set Separator Character**<br>*(Commutateur \P)* | <p>Ce commutateur permet de modifier facilement le contenu séparant le titre de l'entrée et la numérotation des pages dans la table des matières. Le séparateur à utiliser doit être spécifié après ce changement et entouré de marques vocales.<br>Contrairement à ce qui est documenté dans la documentation Office, un seul caractère peut être utilisé au lieu de cinq maximum. Cela s'applique à la fois à MS Word et à Aspose.Words.<br>L'utilisation de ce commutateur n'est pas recommandée car elle ne permet pas beaucoup de contrôle sur ce qui est utilisé pour séparer les entrées et les numéros de page dans la table des matières. Au lieu de cela, il est recommandé de modifier le style `TOC` approprié, tel que `StyleIdentifier.TOC1`, puis de modifier le style de ligne de repère avec accès à des membres de police spécifiques, etc. Vous trouverez plus de détails sur la façon de procéder plus loin dans l'article.</p>
+| **Set Separator Character**<br>*(Commutateur &#92;P)* | <p>Ce commutateur permet de modifier facilement le contenu séparant le titre de l'entrée et la numérotation des pages dans la table des matières. Le séparateur à utiliser doit être spécifié après ce changement et entouré de marques vocales.<br>Contrairement à ce qui est documenté dans la documentation Office, un seul caractère peut être utilisé au lieu de cinq maximum. Cela s'applique à la fois à MS Word et à Aspose.Words.<br>L'utilisation de ce commutateur n'est pas recommandée car elle ne permet pas beaucoup de contrôle sur ce qui est utilisé pour séparer les entrées et les numéros de page dans la table des matières. Au lieu de cela, il est recommandé de modifier le style `TOC` approprié, tel que `StyleIdentifier.TOC1`, puis de modifier le style de ligne de repère avec accès à des membres de police spécifiques, etc. Vous trouverez plus de détails sur la façon de procéder plus loin dans l'article.</p>
 
 <p>![working-with-table-of-contents-toc](/words/net/working-with-table-of-contents/working-with-table-of-contents-8.png)</p> |
 | **Preserve Tab Entries**<br>*(\WCommutateur)* | <p>L'utilisation de ce commutateur spécifiera que toutes les entrées comportant un caractère de tabulation, par exemple un en-tête comportant une tabulation à la fin de la ligne, seront conservées en tant que caractère de tabulation approprié lors du remplissage de la table des matières. Cela signifie que la fonction du caractère de tabulation sera présente dans le `TOC` et pourra être utilisée pour formater l'entrée. Par exemple, certaines entrées peuvent utiliser des taquets de tabulation et des caractères de tabulation pour espacer uniformément le texte. Tant que le niveau `TOC` correspondant définit les taquets de tabulation équivalents, les entrées `TOC` générées apparaîtront avec un espacement similaire.<br><br>Dans la même situation, si ce commutateur n'était pas défini, les caractères de tabulation seraient convertis en espaces blancs équivalents à des tabulations non fonctionnelles. Le résultat n’apparaîtrait alors pas comme prévu.</p>

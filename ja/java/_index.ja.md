@@ -25,7 +25,8 @@ Aspose.WordsforJavaを使用すると、サードパーティのアプリケー�
 <div class="row">
 	<div class="col-md-4">
 		<p><b>Aspose.Wordsについて</b></p>
-			<hr><p>OVERVIEW</p></hr>
+			<hr>
+			<p>OVERVIEW</p>
 			<ul>
 				<li><a href="/words/java/what-s-new-in-aspose-words-for-java/">新着情報inAspose.WordsのためのJava</a></li>
 				<li><a href="/words/java/product-overview/">製品概要</a></li>
@@ -44,7 +45,8 @@ Aspose.WordsforJavaを使用すると、サードパーティのアプリケー�
 	</div>
 	<div class="col-md-4">
 		<p><b>始めましょう</b></p>
-			<hr><p>GETTING STARTED</p></hr>
+			<hr>
+			<p>GETTING STARTED</p>
 			<ul>
 				<li><a href="/words/java/supported-document-formats/">サポートされているドキュメント形式</a></li>
 				<li><a href="/words/java/features/">特徴</a></li>
@@ -60,7 +62,8 @@ Aspose.WordsforJavaを使用すると、サードパーティのアプリケー�
 	</div>
 	<div class="col-md-4">
 		<p><b>機能を開発する</b></p>
-			<hr><p>GUIDE</p></hr>
+			<hr>
+			<p>GUIDE</p>
 			<ul>
 				<li><a href="/words/java/loading-saving-and-converting/">読み込み、保存、変換</a></li>
 				<li><a href="/words/java/rendering/">レンダリング</a></li>

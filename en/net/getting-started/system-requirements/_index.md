@@ -67,7 +67,6 @@ Aspose.Words for .NET supports .NET and Mono frameworks listed in the following 
 <table>  
 	<tr>
 			<td style="font-weight: bold; width:800px">Frameworks</td>
-		</tr>
 	</tr>
   <tr>
 			<td><ul><li>.NET Framework 3.5</li><li>.NET Framework 4.0</li><li>.NET Framework 4.0_ClientProfile</li><li>.NET Framework 4.5.0</li><li>.NET Framework 4.5.1</li><li>.NET Framework 4.5.2</li><li>.NET Framework 4.6.0</li><li>.NET Framework 4.6.2</li><li>.NET Framework 4.7</li><li>.NET Framework 4.7.2</li><li>.NET Framework 4.8</li><li>Mono 2.6.7 and later</li></ul></td>

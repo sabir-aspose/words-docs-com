@@ -65,7 +65,6 @@ Aspose.Words для .NET опори .NET і Mono рамки, що вказані
 <table>
 	<tr>
 			<td style="font-weight: bold; width:800px">Рамки</td>
-		</tr>
 	</tr>
   <tr>
 			<td><ul><li>.NET Framework 3.5 км</li><li>.NET Framework 4.8 км</li><li>.NET Framework 4.0_ClientProfile</li><li>.NET Framework 4.5.0</li><li>.NET Framework 4.5.1 км</li><li>.NET Framework 4.5.2</li><li>.NET Framework 4.6.0</li><li>.NET Framework 4.6.2 км</li><li>.NET Framework 4.7 км</li><li>.NET Framework 4.7.2 км</li><li>.NET Framework 4.8 км</li><li>Mono 2.6.7 і пізніше</li></ul></td>

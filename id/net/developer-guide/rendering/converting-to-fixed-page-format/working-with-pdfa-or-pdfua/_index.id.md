@@ -62,7 +62,7 @@ Untuk dokumen PDF/UA-1 dengan struktur yang lemah, nomor judul juga harus diurut
     <summary>Spesifikasinya memberi tahu kita hal berikut (perluas untuk melihat detailnya):</summary>
     <p></p>
     <p>Struktur tingkat blok dapat mengikuti salah satu dari dua paradigma utama:</p>
-    </ol>
+    <ol>
       <li>Sangat terstruktur. Elemen pengelompokan disusun sebanyak mungkin tingkatan yang diperlukan untuk mencerminkan pengorganisasian materi menjadi artikel, bagian, subbagian, dan seterusnya. Pada setiap tingkat, turunan elemen pengelompokan harus terdiri dari judul (H), satu atau lebih paragraf (P) untuk konten pada tingkat tersebut, dan mungkin satu atau lebih elemen pengelompokan tambahan untuk subbagian bertingkat.</li>
       <li>Terstruktur dengan lemah. Dokumen tersebut relatif datar, mungkin hanya memiliki satu atau dua tingkat elemen pengelompokan, dengan semua judul, paragraf, dan BLSE lainnya sebagai turunannya. Dalam hal ini, pengorganisasian materi tidak tercermin dalam struktur logis; namun, hal ini dapat dinyatakan dengan penggunaan judul dengan tingkat tertentu (H1–H6).</li>
     </ol>
@@ -110,7 +110,7 @@ Saat ini, Aspose.Words menandai header dan footer halaman, pemisah catatan, sel 
     <summary>Spesifikasinya memberi tahu kita hal berikut (perluas untuk melihat detailnya):</summary>
     <p></p>
     <p>Objek grafik dalam dokumen dapat dibagi menjadi dua kelas:</p>
-    </ol>
+    <ol>
       <li>Isi sebenarnya dari suatu dokumen terdiri dari objek-objek yang mewakili materi yang awalnya diperkenalkan oleh penulis dokumen tersebut.</li>
       <li>Artefak adalah objek grafik yang bukan merupakan bagian dari konten asli penulis, melainkan dihasilkan oleh penulis yang menyesuaikan diri dalam proses penomoran halaman, tata letak, atau proses mekanis lainnya.</li>
     </ol>
