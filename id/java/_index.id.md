@@ -25,7 +25,8 @@ Dengan Aspose.Words untuk Java, Anda dapat membuat, memodifikasi, mengonversi, m
 <div class="row">
 	<div class="col-md-4">
 		<p><b>Tentang Aspose.Words</b></p>
-			<hr><p>OVERVIEW</p></hr>
+			<hr>
+			<p>OVERVIEW</p>
 			<ul>
 				<li><a href="/words/java/what-s-new-in-aspose-words-for-java/">Apa yang baru di Aspose.Wordsuntuk Java</a></li>
 				<li><a href="/words/java/product-overview/">Sekilas Produk</a></li>
@@ -44,7 +45,8 @@ Dengan Aspose.Words untuk Java, Anda dapat membuat, memodifikasi, mengonversi, m
 	</div>
 	<div class="col-md-4">
 		<p><b>Mulai</b></p>
-			<hr><p>GETTING STARTED</p></hr>
+			<hr>
+			<p>GETTING STARTED</p>
 			<ul>
 				<li><a href="/words/java/supported-document-formats/">Format Dokumen yang Disertakan</a></li>
 				<li><a href="/words/java/features/">Fitur</a></li>
@@ -60,7 +62,8 @@ Dengan Aspose.Words untuk Java, Anda dapat membuat, memodifikasi, mengonversi, m
 	</div>
 	<div class="col-md-4">
 		<p><b>Mengembangkan Fungsi</b></p>
-			<hr><p>GUIDE</p></hr>
+			<hr>
+			<p>GUIDE</p>
 			<ul>
 				<li><a href="/words/java/loading-saving-and-converting/">Memahami, Memahami, dan Memahami</a></li>
 				<li><a href="/words/java/rendering/">Rendering</a></li>

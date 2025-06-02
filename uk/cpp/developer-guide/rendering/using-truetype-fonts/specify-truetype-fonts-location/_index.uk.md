@@ -132,7 +132,7 @@ SystemFontSource()->GetAvailableFonts()
 
 ## Завантажити шрифти з папки {#loading-fonts-from-folder}
 
-Якщо документ, що обробляється, містить посилання на Шрифти, яких немає в системі, або ви не хочете додавати їх до системної папки, або у вас немає прав доступу, то найкращим рішенням буде додати папку власних шрифтів за допомогою методу [SetFontsSources](https://reference.aspose.com/words/cpp/aspose.words.fonts/fontsettings/setfontssources/). Це дозволить замінити системний джерело на користувальницький. Aspose.Words більше не буде шукати шрифти в реєстрі або Windows\F папці ont, а натомість скануватиме шрифти лише у зазначених папках. Метод [GetFontSources](https://reference.aspose.com/words/cpp/aspose.words.fonts/fontsettings/getfontssources/) поверне відповідні значення.
+Якщо документ, що обробляється, містить посилання на Шрифти, яких немає в системі, або ви не хочете додавати їх до системної папки, або у вас немає прав доступу, то найкращим рішенням буде додати папку власних шрифтів за допомогою методу [SetFontsSources](https://reference.aspose.com/words/cpp/aspose.words.fonts/fontsettings/setfontssources/). Це дозволить замінити системний джерело на користувальницький. Aspose.Words більше не буде шукати шрифти в реєстрі або Windows&#92;F папці ont, а натомість скануватиме шрифти лише у зазначених папках. Метод [GetFontSources](https://reference.aspose.com/words/cpp/aspose.words.fonts/fontsettings/getfontssources/) поверне відповідні значення.
 
 ### Вкажіть одну або кілька папок шрифтів
 

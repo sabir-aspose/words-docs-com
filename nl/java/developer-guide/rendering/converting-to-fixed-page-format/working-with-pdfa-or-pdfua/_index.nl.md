@@ -62,7 +62,7 @@ Voor een PDF/UA-1 document met een zwakke structuur is het bovendien vereist dat
     <summary>De specificatie vertelt ons het volgende (expand to see details):</summary>
     <p></p>
     <p>De structuur op blokniveau kan één van de twee belangrijkste paradigma's volgen:</p>
-    </ol>
+    <ol>
       <li>Sterk gestructureerd. De samenstellende elementen nestelen op zoveel mogelijk niveaus als nodig is om de organisatie van het materiaal in artikelen, secties, onderafdelingen, enzovoort. Op elk niveau moeten de kinderen van het groepselement bestaan uit een rubriek (H), een of meer alinea's (P) voor de inhoud op dat niveau, en misschien een of meer aanvullende groepselementen voor geneste onderafdelingen.</li>
       <li>Zwak gestructureerd. Het document is relatief vlak, met misschien slechts een of twee niveaus van het groeperen van elementen, met alle rubrieken, paragrafen, en andere BLSE's als hun directe kinderen. In dit geval wordt de organisatie van het materiaal niet weerspiegeld in de logische structuur; het kan echter worden uitgedrukt door het gebruik van rubrieken met specifieke niveaus (H1</li>
     </ol>
@@ -110,7 +110,7 @@ Op dit moment, Aspose.Words markeert pagina headers en voetteksten, notitieschei
     <summary>De specificatie vertelt ons het volgende (expand to see details):</summary>
     <p></p>
     <p>De grafische objecten in een document kunnen in twee klassen worden onderverdeeld:</p>
-    </ol>
+    <ol>
       <li>De werkelijke inhoud van een document bestaat uit objecten die oorspronkelijk door de auteur van het document zijn geïntroduceerd.</li>
       <li>Artefacten zijn grafische objecten die geen deel uitmaken van de oorspronkelijke inhoud van de auteur, maar eerder worden gegenereerd door de conforme schrijver in de loop van paginatie, lay-out, of andere strikt mechanische processen.</li>
     </ol>

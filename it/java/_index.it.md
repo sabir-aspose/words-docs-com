@@ -25,7 +25,8 @@ Con Aspose.Words per Java, è possibile generare, modificare, convertire, esegui
 <div class="row">
 	<div class="col-md-4">
 		<p><b>Circa Aspose.Words</b></p>
-			<hr><p>OVERVIEW</p></hr>
+			<hr>
+			<p>OVERVIEW</p>
 			<ul>
 				<li><a href="/words/java/what-s-new-in-aspose-words-for-java/">Cosa c'è di nuovo in Aspose.Words per Java</a></li>
 				<li><a href="/words/java/product-overview/">Panoramica del prodotto</a></li>
@@ -44,7 +45,8 @@ Con Aspose.Words per Java, è possibile generare, modificare, convertire, esegui
 	</div>
 	<div class="col-md-4">
 		<p><b>Inizia</b></p>
-			<hr><p>GETTING STARTED</p></hr>
+			<hr>
+			<p>GETTING STARTED</p>
 			<ul>
 				<li><a href="/words/java/supported-document-formats/">Formati di documenti supportati</a></li>
 				<li><a href="/words/java/features/">Caratteristica</a></li>
@@ -60,7 +62,8 @@ Con Aspose.Words per Java, è possibile generare, modificare, convertire, esegui
 	</div>
 	<div class="col-md-4">
 		<p><b>Sviluppare funzioni</b></p>
-			<hr><p>GUIDE</p></hr>
+			<hr>
+			<p>GUIDE</p>
 			<ul>
 				<li><a href="/words/java/loading-saving-and-converting/">Caricamento, salvataggio e conversione</a></li>
 				<li><a href="/words/java/rendering/">Rendering</a></li>

@@ -62,7 +62,7 @@ Pro dokument PDF/UA-1 se slabou strukturou je navíc nutné, aby čísla záhlav
     <summary>Specifikace nám říká následující (expand to see details):</summary>
     <p></p>
     <p>Struktura bloku může následovat jeden ze dvou hlavních parametrů:</p>
-    </ol>
+    <ol>
       <li>Silně strukturovaná. Seskupování prvků hnízdí na tolik úrovní, kolik je nutné, aby odrážely organizaci materiálu do článků, sekcí, pododdílů a tak dále. Na každé úrovni by se měly děti ve skupině skládat z čísla (H), jednoho nebo více odstavců (P) pro obsah na této úrovni a možná jednoho nebo více dalších skupinových prvků pro vnořené pododdíly.</li>
       <li>Slabě strukturované. Dokument je poměrně plochý, má možná pouze jednu nebo dvě úrovně skupinových prvků, se všemi nadpisy, odstavci a dalšími BLSE jako jejich bezprostřední děti. V tomto případě se organizace materiálu neodráží v logické struktuře; může však být vyjádřena použitím čísel se specifickými úrovněmi (H16/H6).</li>
     </ol>
@@ -110,7 +110,7 @@ V tuto chvíli, Aspose.Words označuje hlavičky stránek a zápatí, oddělova�
     <summary>Specifikace nám říká následující (expand to see details):</summary>
     <p></p>
     <p>Grafické objekty v dokumentu lze rozdělit do dvou tříd:</p>
-    </ol>
+    <ol>
       <li>Skutečný obsah dokumentu obsahuje předměty představující materiál, který původně uvedl autor dokumentu.</li>
       <li>Artefakty jsou grafické objekty, které nejsou součástí původního obsahu autora, ale jsou generovány odpovídajícím spisovatelem v průběhu paganace, rozvržení nebo jiných čistě mechanických procesů.</li>
     </ol>

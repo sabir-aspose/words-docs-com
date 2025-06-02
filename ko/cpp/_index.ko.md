@@ -25,7 +25,8 @@ Aspose.Words 다음과 같은 대부분의 인기있는 문서 형식을 지원�
 <div class="row">
 	<div class="col-md-4">
 		<p><b>약 Aspose.Words</b></p>
-			<hr><p>OVERVIEW</p></hr>
+			<hr>
+			<p>OVERVIEW</p>
 			<ul>
 				<li><a href="/words/cpp/what-s-new-in-aspose-words-for-cpp/">새로운 기능 Aspose.Words 에 대한 C++</a></li>
 				<li><a href="/words/cpp/product-overview/">제품 개요</a></li>
@@ -44,7 +45,8 @@ Aspose.Words 다음과 같은 대부분의 인기있는 문서 형식을 지원�
 	</div>
 	<div class="col-md-4">
 		<p><b>시작</b></p>
-			<hr><p>GETTING STARTED</p></hr>
+			<hr>
+			<p>GETTING STARTED</p>
 			<ul>
 				<li><a href="/words/cpp/supported-document-formats/">지원되는 문서 형식</a></li>
 				<li><a href="/words/cpp/features/">특징</a></li>
@@ -60,7 +62,8 @@ Aspose.Words 다음과 같은 대부분의 인기있는 문서 형식을 지원�
 	</div>
 	<div class="col-md-4">
 		<p><b>기능 개발</b></p>
-			<hr><p>GUIDE</p></hr>
+			<hr>
+			<p>GUIDE</p>
 			<ul>
 				<li><a href="/words/cpp/loading-saving-and-converting/">로드,저장 및 변환</a></li>
 				<li><a href="/words/cpp/rendering/">렌더링</a></li>

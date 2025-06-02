@@ -62,7 +62,7 @@ Bei einem PDF/UA-1-Dokument mit schwacher Struktur ist es zusätzlich erforderli
     <summary>Die Spezifikation sagt uns Folgendes (erweitern Sie, um Details anzuzeigen):</summary>
     <p></p>
     <p>Die Struktur auf Blockebene kann einem von zwei Hauptparadigmen folgen:</p>
-    </ol>
+    <ol>
       <li>Stark strukturiert. Die Gruppierungselemente sind auf so vielen Ebenen wie nötig verschachtelt, um die Organisation des Materials in Artikel, Abschnitte, Unterabschnitte usw. widerzuspiegeln. Auf jeder Ebene sollten die untergeordneten Elemente des Gruppierungselements aus einer Überschrift (H), einem oder mehreren Absätzen (P) für den Inhalt auf dieser Ebene und möglicherweise einem oder mehreren zusätzlichen Gruppierungselementen für verschachtelte Unterabschnitte bestehen.</li>
       <li>Schwach strukturiert. Das Dokument ist relativ flach und verfügt möglicherweise nur über eine oder zwei Ebenen von Gruppierungselementen, wobei alle Überschriften, Absätze und anderen BLSEs ihre unmittelbaren untergeordneten Elemente sind. In diesem Fall spiegelt sich die Organisation des Materials nicht in der logischen Struktur wider; Es kann jedoch durch die Verwendung von Überschriften mit bestimmten Ebenen (H1–H6) ausgedrückt werden.</li>
     </ol>
@@ -110,7 +110,7 @@ Derzeit markiert Aspose.Words Seitenkopf- und -fußzeilen, Notiztrennzeichen, wi
     <summary>Die Spezifikation sagt uns Folgendes (erweitern Sie, um Details anzuzeigen):</summary>
     <p></p>
     <p>Die Grafikobjekte in einem Dokument können in zwei Klassen unterteilt werden:</p>
-    </ol>
+    <ol>
       <li>Der eigentliche Inhalt eines Dokuments besteht aus Objekten, die Material darstellen, das ursprünglich vom Autor des Dokuments eingeführt wurde.</li>
       <li>Artefakte sind Grafikobjekte, die nicht Teil des ursprünglichen Inhalts des Autors sind, sondern vom konformen Autor im Zuge der Paginierung, des Layouts oder anderer rein mechanischer Prozesse generiert werden.</li>
     </ol>

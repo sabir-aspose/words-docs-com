@@ -62,7 +62,7 @@ Voor een PDF/UA-1 - document met een zwakke structuur is het bovendien vereist d
     <summary>De specificatie vertelt ons het volgende (uitbreiden om details te zien):</summary>
     <p></p>
     <p>De structuur op blokniveau kan een van de twee hoofdparadigma ' s volgen:</p>
-    </ol>
+    <ol>
       <li>Sterk gestructureerd. De groeperingselementen nestelen zich op zoveel niveaus als nodig is om de organisatie van het materiaal in artikelen, secties, subsecties, enzovoort weer te geven. Op elk niveau moeten de kinderen van het groeperingselement bestaan uit een kop (H), een of meer alinea ' s (P) voor inhoud op dat niveau en misschien een of meer extra groeperingselementen voor geneste subsecties.</li>
       <li>Zwak gestructureerd. Het document is relatief vlak, met misschien slechts één of twee niveaus van groeperingselementen, met alle koppen, alinea ' s en andere BLSEs als hun directe kinderen. In dit geval wordt de organisatie van het materiaal niet weerspiegeld in de logische structuur; deze kan echter worden uitgedrukt door het gebruik van koppen met specifieke niveaus (H1–H6).</li>
     </ol>
@@ -110,7 +110,7 @@ Op dit moment markeert Aspose.Words paginakoppen en voetteksten, notitiescheidin
     <summary>De specificatie vertelt ons het volgende (uitbreiden om details te zien):</summary>
     <p></p>
     <p>De grafische objecten in een document kunnen in twee klassen worden onderverdeeld:</p>
-    </ol>
+    <ol>
       <li>De werkelijke inhoud van een document bestaat uit objecten die materiaal vertegenwoordigen dat oorspronkelijk door de auteur van het document is geïntroduceerd.</li>
       <li>Artefacten zijn grafische objecten die geen deel uitmaken van de originele inhoud van de auteur, maar eerder worden gegenereerd door de conforme schrijver in de loop van paginering, lay-out of andere strikt mechanische processen.</li>
     </ol>

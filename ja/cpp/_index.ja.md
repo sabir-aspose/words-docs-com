@@ -25,7 +25,8 @@ Aspose.Wordsは、DOC、DOCX、RTF、HTML、Markdown、PDF、XPS、EPUBなどの
 <div class="row">
 	<div class="col-md-4">
 		<p><b>Aspose.Wordsについて</b></p>
-			<hr><p>概要</p></hr>
+			<hr>
+			<p>概要</p>
 			<ul>
 				<li><a href="/words/cpp/what-s-new-in-aspose-words-for-cpp/">What's new in C++の場合Aspose.Words</a></li>
 				<li><a href="/words/cpp/product-overview/">製品概要</a></li>
@@ -44,7 +45,8 @@ Aspose.Wordsは、DOC、DOCX、RTF、HTML、Markdown、PDF、XPS、EPUBなどの
 	</div>
 	<div class="col-md-4">
 		<p><b>始めましょう</b></p>
-			<hr><p>はじめに</p></hr>
+			<hr>
+			<p>はじめに</p>
 			<ul>
 				<li><a href="/words/cpp/supported-document-formats/">サポートされているドキュメント形式</a></li>
 				<li><a href="/words/cpp/features/">特徴</a></li>
@@ -60,7 +62,8 @@ Aspose.Wordsは、DOC、DOCX、RTF、HTML、Markdown、PDF、XPS、EPUBなどの
 	</div>
 	<div class="col-md-4">
 		<p><b>機能を開発する</b></p>
-			<hr><p>ガイド</p></hr>
+			<hr>
+			<p>ガイド</p>
 			<ul>
 				<li><a href="/words/cpp/loading-saving-and-converting/">読み込み、保存、変換</a></li>
 				<li><a href="/words/cpp/rendering/">レンダリング</a></li>

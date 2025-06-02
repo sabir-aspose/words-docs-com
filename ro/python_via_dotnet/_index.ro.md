@@ -25,7 +25,8 @@ Cu Aspose.Words pentru Python via .NET, puteți genera, modifica, converti și r
 <div class="row">
 	<div class="col-md-4">
 		<p><b>Despre Aspose.Words</b></p>
-			<hr><p>OVERVIEW</p></hr>
+			<hr>
+			<p>OVERVIEW</p>
 			<ul>
 				<li><a href="/words/python-net/product-overview/">Prezentare Generală A Produsului</a></li>
 				<li><a href="/words/python-net/licensing/">Licențiere și abonament</a></li>
@@ -43,7 +44,8 @@ Cu Aspose.Words pentru Python via .NET, puteți genera, modifica, converti și r
 	</div>
 	<div class="col-md-4">
 		<p><b>Începe</b></p>
-			<hr><p>GETTING STARTED</p></hr>
+			<hr>
+			<p>GETTING STARTED</p>
 			<ul>
 				<li><a href="/words/python-net/supported-document-formats/">Formate De Documente Acceptate</a></li>
 				<li><a href="/words/python-net/features/">Caracteristici</a></li>
@@ -59,7 +61,8 @@ Cu Aspose.Words pentru Python via .NET, puteți genera, modifica, converti și r
 	</div>
 	<div class="col-md-4">
 		<p><b>Dezvoltați Funcții</b></p>
-			<hr><p>GUIDE</p></hr>
+			<hr>
+			<p>GUIDE</p>
 			<ul>
 				<li><a href="/words/python-net/loading-saving-and-converting/">Încărcarea, salvarea și conversia</a></li>
 				<li><a href="/words/python-net/rendering/">Redare</a></li>

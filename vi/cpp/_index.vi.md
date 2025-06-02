@@ -25,7 +25,8 @@ Với Aspose.Words Cho C++, bạn có thể tạo, sửa đổi, chuyển đổi
 <div class="row">
 	<div class="col-md-4">
 		<p><b>Khoảng Aspose.Words</b></p>
-			<hr><p>OVERVIEW</p></hr>
+			<hr>
+			<p>OVERVIEW</p>
 			<ul>
 				<li><a href="/words/cpp/what-s-new-in-aspose-words-for-cpp/">Có gì mới trong Aspose.Words Cho C++</a></li>
 				<li><a href="/words/cpp/product-overview/">Tổng Quan Về Sản Phẩm</a></li>
@@ -44,7 +45,8 @@ Với Aspose.Words Cho C++, bạn có thể tạo, sửa đổi, chuyển đổi
 	</div>
 	<div class="col-md-4">
 		<p><b>Bắt Đầu</b></p>
-			<hr><p>GETTING STARTED</p></hr>
+			<hr>
+			<p>GETTING STARTED</p>
 			<ul>
 				<li><a href="/words/cpp/supported-document-formats/">Định Dạng Tài Liệu Được Hỗ Trợ</a></li>
 				<li><a href="/words/cpp/features/">Tính năng</a></li>
@@ -60,7 +62,8 @@ Với Aspose.Words Cho C++, bạn có thể tạo, sửa đổi, chuyển đổi
 	</div>
 	<div class="col-md-4">
 		<p><b>Phát Triển Các Chức Năng</b></p>
-			<hr><p>GUIDE</p></hr>
+			<hr>
+			<p>GUIDE</p>
 			<ul>
 				<li><a href="/words/cpp/loading-saving-and-converting/">Tải, Lưu Và Chuyển đổi</a></li>
 				<li><a href="/words/cpp/rendering/">Kết xuất</a></li>

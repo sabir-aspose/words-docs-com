@@ -25,7 +25,8 @@ Aspose.Wordsรองรับรูปแบบเอกสารที่เ�
 <div class="row">
 	<div class="col-md-4">
 		<p><b>ประมาณAspose.Words</b></p>
-			<hr><p>OVERVIEW</p></hr>
+			<hr>
+			<p>OVERVIEW</p>
 			<ul>
 				<li><a href="/words/cpp/what-s-new-in-aspose-words-for-cpp/">มีอะไรใหม่ใน Aspose.WordsสำหรับC++</a></li>
 				<li><a href="/words/cpp/product-overview/">ภาพรวมผลิตภัณฑ์</a></li>
@@ -44,7 +45,8 @@ Aspose.Wordsรองรับรูปแบบเอกสารที่เ�
 	</div>
 	<div class="col-md-4">
 		<p><b>เริ่มต้นใช้งาน</b></p>
-			<hr><p>GETTING STARTED</p></hr>
+			<hr>
+			<p>GETTING STARTED</p>
 			<ul>
 				<li><a href="/words/cpp/supported-document-formats/">รูปแบบเอกสารที่รองรับ</a></li>
 				<li><a href="/words/cpp/features/">งคุณ</a></li>
@@ -60,7 +62,8 @@ Aspose.Wordsรองรับรูปแบบเอกสารที่เ�
 	</div>
 	<div class="col-md-4">
 		<p><b>พัฒนาฟังก์ชั่น</b></p>
-			<hr><p>GUIDE</p></hr>
+			<hr>
+			<p>GUIDE</p>
 			<ul>
 				<li><a href="/words/cpp/loading-saving-and-converting/">โหลดบันทึกและการแปลง</a></li>
 				<li><a href="/words/cpp/rendering/">การแสดงผล</a></li>

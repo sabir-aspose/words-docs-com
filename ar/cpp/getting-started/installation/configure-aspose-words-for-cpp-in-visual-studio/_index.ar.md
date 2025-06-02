@@ -25,7 +25,6 @@ Aspose.Words ل C++ API يعمل مع Visual Studio 2022 أو في وقت لاح
         <Import Project="<path-to>\CodePorting.Translator.Cs2Cpp.Framework_<version>\CodePorting.Translator.Cs2Cpp.Framework.targets" Condition="Exists('<path-to>\CodePorting.Translator.Cs2Cpp.Framework_<version>\CodePorting.Translator.Cs2Cpp.Framework.targets')" />
         <Import Project="<path-to>\Aspose.Words.Cpp\aspose.words.cpp.targets" Condition="Exists('<path-to>\Aspose.Words.Cpp\aspose.words.cpp.targets')" />
     </ImportGroup>
-    </Project>
     {{< /highlight >}}
 
 ## تكوين يدويا

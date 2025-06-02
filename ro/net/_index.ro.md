@@ -25,7 +25,8 @@ Cu Aspose.Words pentru .NET puteți genera, modifica, converti, afișa și impri
 <div class=row>
 	<div class="col-md-4">
 		<p><b>Despre Aspose.Words</b></p>
-			<hr><p>INCAPERA</p></hr>
+			<hr>
+			<p>INCAPERA</p>
 			<ul>
 				<li><a href="/words/net/what-s-new-in-aspose-words-for-net/">What's new in Aspose.Words for .NET</a></li>
 				<li><a href="/words/net/product-overview/">Product Overview</a></li>
@@ -44,7 +45,8 @@ Cu Aspose.Words pentru .NET puteți genera, modifica, converti, afișa și impri
 	</div>
 	<div class="col-md-4">
 		<p><b>Începeți</b></p>
-			<hr><p>ÎNCEPEM</p></hr>
+			<hr>
+			<p>ÎNCEPEM</p>
 			<ul>
 				<li><a href="/words/net/supported-document-formats/">Supported Document Formats</a></li>
 				<li><a href="/words/net/features/">Features</a></li>
@@ -61,7 +63,8 @@ Cu Aspose.Words pentru .NET puteți genera, modifica, converti, afișa și impri
 	</div>
 	<div class="col-md-4">
 		<p><b>Dezvoltă funcţii</b></p>
-			<hr><p>GUIE</p></hr>
+			<hr>
+			<p>GUIE</p>
 			<ul>
 				<li><a href="/words/net/loading-saving-and-converting/">Loading, Saving and Converting</a></li>
 				<li><a href="/words/net/rendering/">Rendering</a></li>

@@ -25,7 +25,8 @@ Python via .NET용 Aspose.Words를 사용하면 타사 애플리케이션이나 
 <div class="row">
 		<div class="col-md-4">
 				<p><b>Aspose.Words 소개</b></p>
-						<hr><p>개요</p></hr>
+						<hr>
+						<p>개요</p>
 						<ul>
 								<li><a href="/words/ko/python-net/product-overview/">제품개요</a></li>
 								<li><a href="/words/ko/python-net/licensing/">라이선스 및 구독</a></li>
@@ -43,7 +44,8 @@ Python via .NET용 Aspose.Words를 사용하면 타사 애플리케이션이나 
 		</div>
 		<div class="col-md-4">
 				<p><b>시작하다</b></p>
-						<hr><p>시작하기</p></hr>
+						<hr>
+						<p>시작하기</p>
 						<ul>
 								<li><a href="/words/ko/python-net/supported-document-formats/">지원되는 문서 형식</a></li>
 								<li><a href="/words/ko/python-net/features/">지원되는 기능</a></li>
@@ -59,7 +61,8 @@ Python via .NET용 Aspose.Words를 사용하면 타사 애플리케이션이나 
 		</div>
 		<div class="col-md-4">
 				<p><b>기능 개발</b></p>
-						<hr><p>가이드</p></hr>
+						<hr>
+						<p>가이드</p>
 						<ul>
 								<li><a href="/words/ko/python-net/loading-saving-and-converting/">로드, 저장 및 변환</a></li>
 								<li><a href="/words/ko/python-net/rendering/">표현</a></li>

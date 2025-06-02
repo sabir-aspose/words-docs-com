@@ -25,7 +25,8 @@ Aspose.Words 支持大多数流行的文档格式，例如 DOC、DOCX、RTF、HT
 <div class="row">
 		<div class="col-md-4">
 				<p><b>关于Aspose.Words</b></p>
-						<hr><p>概述</p></hr>
+						<hr>
+						<p>概述</p>
 						<ul>
 								<li><a href="/words/zh/python-net/product-overview/">产品概述</a></li>
 								<li><a href="/words/zh/python-net/licensing/">许可和订阅</a></li>
@@ -43,7 +44,8 @@ Aspose.Words 支持大多数流行的文档格式，例如 DOC、DOCX、RTF、HT
 		</div>
 		<div class="col-md-4">
 				<p><b>开始使用</b></p>
-						<hr><p>入门</p></hr>
+						<hr>
+						<p>入门</p>
 						<ul>
 								<li><a href="/words/zh/python-net/supported-document-formats/">支持的文档格式</a></li>
 								<li><a href="/words/zh/python-net/features/">支持的功能</a></li>
@@ -59,7 +61,8 @@ Aspose.Words 支持大多数流行的文档格式，例如 DOC、DOCX、RTF、HT
 		</div>
 		<div class="col-md-4">
 				<p><b>开发功能</b></p>
-						<hr><p>指导</p></hr>
+						<hr>
+						<p>指导</p>
 						<ul>
 								<li><a href="/words/zh/python-net/loading-saving-and-converting/">加载、保存和转换</a></li>
 								<li><a href="/words/zh/python-net/rendering/">渲染</a></li>

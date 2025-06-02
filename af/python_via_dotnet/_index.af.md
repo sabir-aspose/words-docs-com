@@ -25,7 +25,8 @@ Met Aspose.Words vir Python via .NET, kan jy dokumente genereer, verander, omske
 <div class="row">
 	<div class="col-md-4">
 		<p><b>Aangaande Aspose.Words</b></p>
-			<hr><p>OVERVIEW</p></hr>
+			<hr>
+			<p>OVERVIEW</p>
 			<ul>
 				<li><a href="/words/python-net/product-overview/">Produk Oorsig</a></li>
 				<li><a href="/words/python-net/licensing/">Lisensie en Inskrywing</a></li>
@@ -43,7 +44,8 @@ Met Aspose.Words vir Python via .NET, kan jy dokumente genereer, verander, omske
 	</div>
 	<div class="col-md-4">
 		<p><b>Begin</b></p>
-			<hr><p>GETTING STARTED</p></hr>
+			<hr>
+			<p>GETTING STARTED</p>
 			<ul>
 				<li><a href="/words/python-net/supported-document-formats/">Ondersteunde Dokumentformate</a></li>
 				<li><a href="/words/python-net/features/">Kenmerke</a></li>
@@ -59,7 +61,8 @@ Met Aspose.Words vir Python via .NET, kan jy dokumente genereer, verander, omske
 	</div>
 	<div class="col-md-4">
 		<p><b>Ontwikkel Funksies</b></p>
-			<hr><p>GUIDE</p></hr>
+			<hr>
+			<p>GUIDE</p>
 			<ul>
 				<li><a href="/words/python-net/loading-saving-and-converting/">Laai, Stoor En Omskakeling</a></li>
 				<li><a href="/words/python-net/rendering/">Lewering</a></li>
