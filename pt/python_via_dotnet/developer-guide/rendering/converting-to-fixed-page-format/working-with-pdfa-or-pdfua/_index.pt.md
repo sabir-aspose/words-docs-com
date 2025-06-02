@@ -62,7 +62,7 @@ Para um documento PDF/UA-1 com uma estrutura fraca, é adicionalmente necessári
     <summary>A especificação nos diz o seguinte (expanda para ver detalhes):</summary>
     <p></p>
     <p>A estrutura em nível de bloco pode seguir um dos dois paradigmas principais:</p>
-    </ol>
+    <ol>
       <li>Fortemente estruturado. Os elementos de agrupamento são aninhados em tantos níveis quantos forem necessários para refletir a organização do material em artigos, seções, subseções e assim por diante. Em cada nível, os filhos do elemento de agrupamento devem consistir em um título (H), um ou mais parágrafos (P) para o conteúdo daquele nível e talvez um ou mais elementos de agrupamento adicionais para subseções aninhadas.</li>
       <li>Fracamente estruturado. O documento é relativamente plano, tendo talvez apenas um ou dois níveis de elementos de agrupamento, com todos os títulos, parágrafos e outros BLSEs como seus filhos imediatos. Neste caso, a organização do material não se reflete na estrutura lógica; no entanto, pode ser expresso pela utilização de títulos com níveis específicos (H1–H6).</li>
     </ol>
@@ -110,7 +110,7 @@ No momento, o Aspose.Words marca cabeçalhos e rodapés de páginas, separadores
     <summary>A especificação nos diz o seguinte (expanda para ver detalhes):</summary>
     <p></p>
     <p>Os objetos gráficos em um documento podem ser divididos em duas classes:</p>
-    </ol>
+    <ol>
       <li>O conteúdo real de um documento compreende objetos que representam material originalmente introduzido pelo autor do documento.</li>
       <li>Artefatos são objetos gráficos que não fazem parte do conteúdo original do autor, mas são gerados pelo escritor conforme a paginação, layout ou outros processos estritamente mecânicos.</li>
     </ol>

@@ -62,7 +62,7 @@ Per un documento PDF/UA-1 con una struttura debole, è inoltre necessario che i 
     <summary>Le specifiche ci dicono quanto segue (espandi per vedere i dettagli):</summary>
     <p></p>
     <p>La struttura a livello di blocco può seguire uno dei due paradigmi principali:</p>
-    </ol>
+    <ol>
       <li>Fortemente strutturato. Gli elementi di raggruppamento si annidano su tutti i livelli necessari per riflettere l'organizzazione del materiale in articoli, sezioni, sottosezioni e così via. Ad ogni livello, i figli dell'elemento di raggruppamento dovrebbero consistere in un'intestazione (H), uno o più paragrafi (P) per il contenuto di quel livello e forse uno o più elementi di raggruppamento aggiuntivi per le sottosezioni nidificate.</li>
       <li>Debolmente strutturato. Il documento è relativamente piatto, avendo forse solo uno o due livelli di elementi di raggruppamento, con tutti i titoli, i paragrafi e gli altri BLSE come figli immediati. In questo caso l'organizzazione del materiale non si riflette nella struttura logica; tuttavia, può essere espresso mediante l'uso di voci con livelli specifici (H1–H6).</li>
     </ol>
@@ -110,7 +110,7 @@ Al momento, Aspose.Words contrassegna intestazioni e piè di pagina, separatori 
     <summary>Le specifiche ci dicono quanto segue (espandi per vedere i dettagli):</summary>
     <p></p>
     <p>Gli oggetti grafici in un documento possono essere divisi in due classi:</p>
-    </ol>
+    <ol>
       <li>Il contenuto reale di un documento comprende oggetti che rappresentano materiale originariamente introdotto dall'autore del documento.</li>
       <li>Gli artefatti sono oggetti grafici che non fanno parte del contenuto originale dell'autore ma sono piuttosto generati dallo scrittore conforme nel corso dell'impaginazione, del layout o di altri processi strettamente meccanici.</li>
     </ol>

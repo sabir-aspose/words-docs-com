@@ -25,7 +25,8 @@ Aspose.Words يدعم معظم تنسيقات المستندات الشائعة 
 <div class="row">
 	<div class="col-md-4">
 		<p><b>حول Aspose.Words</b></p>
-			<hr><p>OVERVIEW</p></hr>
+			<hr>
+			<p>OVERVIEW</p>
 			<ul>
 				<li><a href="/words/cpp/what-s-new-in-aspose-words-for-cpp/">ما الجديد في Aspose.Words ل C++</a></li>
 				<li><a href="/words/cpp/product-overview/">نظرة عامة على المنتج</a></li>
@@ -44,7 +45,8 @@ Aspose.Words يدعم معظم تنسيقات المستندات الشائعة 
 	</div>
 	<div class="col-md-4">
 		<p><b>ابدأ</b></p>
-			<hr><p>GETTING STARTED</p></hr>
+			<hr>
+			<p>GETTING STARTED</p>
 			<ul>
 				<li><a href="/words/cpp/supported-document-formats/">تنسيقات المستندات المدعومة</a></li>
 				<li><a href="/words/cpp/features/">الميزات</a></li>
@@ -60,7 +62,8 @@ Aspose.Words يدعم معظم تنسيقات المستندات الشائعة 
 	</div>
 	<div class="col-md-4">
 		<p><b>تطوير الوظائف</b></p>
-			<hr><p>GUIDE</p></hr>
+			<hr>
+			<p>GUIDE</p>
 			<ul>
 				<li><a href="/words/cpp/loading-saving-and-converting/">تحميل وحفظ وتحويل</a></li>
 				<li><a href="/words/cpp/rendering/">تقديم</a></li>

@@ -25,7 +25,8 @@ Mit Aspose.Words für C++, können Sie Dokumente ohne Anwendungen von Drittanbie
 <div class="row">
 	<div class="col-md-4">
 		<p><b>Über Aspose.Words</b></p>
-			<hr><p>OVERVIEW</p></hr>
+			<hr>
+			<p>OVERVIEW</p>
 			<ul>
 				<li><a href="/words/cpp/what-s-new-in-aspose-words-for-cpp/">Was ist neu in Aspose.Words für C++</a></li>
 				<li><a href="/words/cpp/product-overview/">Produktübersicht</a></li>
@@ -44,7 +45,8 @@ Mit Aspose.Words für C++, können Sie Dokumente ohne Anwendungen von Drittanbie
 	</div>
 	<div class="col-md-4">
 		<p><b>Erste Schritte</b></p>
-			<hr><p>GETTING STARTED</p></hr>
+			<hr>
+			<p>GETTING STARTED</p>
 			<ul>
 				<li><a href="/words/cpp/supported-document-formats/">Unterstützte Dokumentenformate</a></li>
 				<li><a href="/words/cpp/features/">Ausstattung</a></li>
@@ -60,7 +62,8 @@ Mit Aspose.Words für C++, können Sie Dokumente ohne Anwendungen von Drittanbie
 	</div>
 	<div class="col-md-4">
 		<p><b>Funktionen entwickeln</b></p>
-			<hr><p>GUIDE</p></hr>
+			<hr>
+			<p>GUIDE</p>
 			<ul>
 				<li><a href="/words/cpp/loading-saving-and-converting/">Laden, Speichern und Konvertieren</a></li>
 				<li><a href="/words/cpp/rendering/">Rendering</a></li>

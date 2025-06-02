@@ -25,7 +25,8 @@ Aspose.Words از اکثر فرمت های سند محبوب مانند DOC، DO
 <div class="row">
 		<div class="col-md-4">
 				<p><b>درباره Aspose.Words</b></p>
-						<hr><p>بررسی اجمالی</p></hr>
+						<hr>
+						<p>بررسی اجمالی</p>
 						<ul>
 								<li><a href="/words/fa/python-net/product-overview/">بررسی اجمالی محصولات</a></li>
 								<li><a href="/words/fa/python-net/licensing/">مجوز و اشتراک</a></li>
@@ -43,7 +44,8 @@ Aspose.Words از اکثر فرمت های سند محبوب مانند DOC، DO
 		</div>
 		<div class="col-md-4">
 				<p><b>شروع کنید</b></p>
-						<hr><p>شروع شدن</p></hr>
+						<hr>
+						<p>شروع شدن</p>
 						<ul>
 								<li><a href="/words/fa/python-net/supported-document-formats/">فرمت های سند پشتیبانی شده</a></li>
 								<li><a href="/words/fa/python-net/features/">ویژگی های پشتیبانی شده</a></li>
@@ -59,7 +61,8 @@ Aspose.Words از اکثر فرمت های سند محبوب مانند DOC، DO
 		</div>
 		<div class="col-md-4">
 				<p><b>توابع را توسعه دهید</b></p>
-						<hr><p>راهنما</p></hr>
+						<hr>
+						<p>راهنما</p>
 						<ul>
 								<li><a href="/words/fa/python-net/loading-saving-and-converting/">بارگیری، ذخیره و تبدیل</a></li>
 								<li><a href="/words/fa/python-net/rendering/">تفسیر</a></li>

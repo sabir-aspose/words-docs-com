@@ -62,7 +62,7 @@ Vir'n PDF/UA-1 dokument met'n swak struktuur, is dit ook nodig dat die kop nomme
     <summary>Die spesifikasie vertel ons die volgende (brei uit om besonderhede te sien):</summary>
     <p></p>
     <p>Die blokvlakstruktuur kan een van twee hoofparadigmas volg:</p>
-    </ol>
+    <ol>
       <li>Sterk gestruktureer. Die groeperingselemente is op soveel vlakke as wat nodig is om die organisasie van die materiaal in artikels, afdelings, onderafdelings, ensovoorts te weerspieël. Op elke vlak moet die kinders van die groeperingselement bestaan uit'n kop (H), een of meer paragrawe (P) vir inhoud op daardie vlak, en miskien een of meer addisionele groeperingselemente vir geneste onderafdelings.</li>
       <li>Swak gestruktureer. Die dokument is relatief plat, met miskien net een of twee vlakke van groeperingselemente, met al die opskrifte, paragrawe en ander BLSEs as hul onmiddellike kinders. In hierdie geval word die organisasie van die materiaal nie in die logiese struktuur weerspieël nie; dit kan egter uitgedruk word deur die gebruik van opskrifte met spesifieke vlakke (H1–H6).</li>
     </ol>
@@ -110,7 +110,7 @@ Op die oomblik merk Aspose.Words bladsyopskrifte en-voetskrifte, nootskeiers, he
     <summary>Die spesifikasie vertel ons die volgende (brei uit om besonderhede te sien):</summary>
     <p></p>
     <p>Die grafiese voorwerpe in'n dokument kan verdeel word in twee klasse:</p>
-    </ol>
+    <ol>
       <li>Die werklike inhoud van'n dokument bestaan uit voorwerpe wat materiaal verteenwoordig wat oorspronklik deur die dokument se outeur ingevoer is.</li>
       <li>Artefakte is grafiese voorwerpe wat nie deel is van die skrywer se oorspronklike inhoud nie, maar eerder deur die ooreenstemmende skrywer gegenereer word in die loop van paginering, uitleg of ander streng meganiese prosesse.</li>
     </ol>

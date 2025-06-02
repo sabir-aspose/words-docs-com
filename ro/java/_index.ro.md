@@ -25,7 +25,8 @@ Cu Aspose.Words pentru Java, puteți genera, modifica, converti, reda și imprim
 <div class="row">
 	<div class="col-md-4">
 		<p><b>Despre Aspose.Words</b></p>
-			<hr><p>OVERVIEW</p></hr>
+			<hr>
+			<p>OVERVIEW</p>
 			<ul>
 				<li><a href="/words/java/what-s-new-in-aspose-words-for-java/">Ce este nou în Aspose.Words pentru Java</a></li>
 				<li><a href="/words/java/product-overview/">Prezentare Generală A Produsului</a></li>
@@ -44,7 +45,8 @@ Cu Aspose.Words pentru Java, puteți genera, modifica, converti, reda și imprim
 	</div>
 	<div class="col-md-4">
 		<p><b>Începe</b></p>
-			<hr><p>GETTING STARTED</p></hr>
+			<hr>
+			<p>GETTING STARTED</p>
 			<ul>
 				<li><a href="/words/java/supported-document-formats/">Formate De Documente Acceptate</a></li>
 				<li><a href="/words/java/features/">Caracteristici</a></li>
@@ -60,7 +62,8 @@ Cu Aspose.Words pentru Java, puteți genera, modifica, converti, reda și imprim
 	</div>
 	<div class="col-md-4">
 		<p><b>Dezvoltați Funcții</b></p>
-			<hr><p>GUIDE</p></hr>
+			<hr>
+			<p>GUIDE</p>
 			<ul>
 				<li><a href="/words/java/loading-saving-and-converting/">Încărcarea, salvarea și conversia</a></li>
 				<li><a href="/words/java/rendering/">Redare</a></li>

@@ -25,7 +25,8 @@ Aspose.Words תומך ברוב פורמטי המסמכים הפופולריים 
 <div class="row">
 	<div class="col-md-4">
 		<p><b>על Aspose.Words</b></p>
-			<hr><p>OVERVIEW</p></hr>
+			<hr>
+			<p>OVERVIEW</p>
 			<ul>
 				<li><a href="/words/cpp/what-s-new-in-aspose-words-for-cpp/">מה חדש ב Aspose.Words עבור C++</a></li>
 				<li><a href="/words/cpp/product-overview/">סקירת מוצר</a></li>
@@ -44,7 +45,8 @@ Aspose.Words תומך ברוב פורמטי המסמכים הפופולריים 
 	</div>
 	<div class="col-md-4">
 		<p><b>להתחיל</b></p>
-			<hr><p>GETTING STARTED</p></hr>
+			<hr>
+			<p>GETTING STARTED</p>
 			<ul>
 				<li><a href="/words/cpp/supported-document-formats/">פורמטים של מסמכים נתמכים</a></li>
 				<li><a href="/words/cpp/features/">תכונות</a></li>
@@ -60,7 +62,8 @@ Aspose.Words תומך ברוב פורמטי המסמכים הפופולריים 
 	</div>
 	<div class="col-md-4">
 		<p><b>לפתח פונקציות</b></p>
-			<hr><p>GUIDE</p></hr>
+			<hr>
+			<p>GUIDE</p>
 			<ul>
 				<li><a href="/words/cpp/loading-saving-and-converting/">טעינה, שמירה והמרה</a></li>
 				<li><a href="/words/cpp/rendering/">עיבוד</a></li>

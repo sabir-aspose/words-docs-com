@@ -25,7 +25,8 @@ Aspose.Words, DOC, DOCX, RTF, HTML, Markdown, PDF, XPS, EPUB ve diğerleri gibi 
 <div class="row">
 		<div class="col-md-4">
 				<p><b>Aspose.Words Hakkında</b></p>
-						<hr><p>GENEL BAKIŞ</p></hr>
+						<hr>
+						<p>GENEL BAKIŞ</p>
 						<ul>
 								<li><a href="/words/tr/net/what-s-new-in-aspose-words-for-net/">.NET için Aspose.Words'teki yenilikler</a></li>
 								<li><a href="/words/tr/net/product-overview/">Ürüne Genel Bakış</a></li>
@@ -44,7 +45,8 @@ Aspose.Words, DOC, DOCX, RTF, HTML, Markdown, PDF, XPS, EPUB ve diğerleri gibi 
 		</div>
 		<div class="col-md-4">
 				<p><b>Başlamak</b></p>
-						<hr><p>BAŞLARKEN</p></hr>
+						<hr>
+						<p>BAŞLARKEN</p>
 						<ul>
 								<li><a href="/words/tr/net/supported-document-formats/">Desteklenen Belge Formatları</a></li>
 								<li><a href="/words/tr/net/features/">Desteklenen Özellikler</a></li>
@@ -61,7 +63,8 @@ Aspose.Words, DOC, DOCX, RTF, HTML, Markdown, PDF, XPS, EPUB ve diğerleri gibi 
 		</div>
 		<div class="col-md-4">
 				<p><b>İşlevleri Geliştirin</b></p>
-						<hr><p>REHBER</p></hr>
+						<hr>
+						<p>REHBER</p>
 						<ul>
 								<li><a href="/words/tr/net/loading-saving-and-converting/">Yükleme, Kaydetme ve Dönüştürme</a></li>
 								<li><a href="/words/tr/net/rendering/">İşleme</a></li>

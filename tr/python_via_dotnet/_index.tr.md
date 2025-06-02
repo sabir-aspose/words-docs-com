@@ -25,7 +25,8 @@ Python via .NET için Aspose.Words ile üçüncü taraf uygulamaları veya Offic
 <div class="row">
 		<div class="col-md-4">
 				<p><b>Aspose.Words Hakkında</b></p>
-						<hr><p>GENEL BAKIŞ</p></hr>
+						<hr>
+						<p>GENEL BAKIŞ</p>
 						<ul>
 								<li><a href="/words/tr/python-net/product-overview/">Ürüne Genel Bakış</a></li>
 								<li><a href="/words/tr/python-net/licensing/">Lisanslama ve Abonelik</a></li>
@@ -43,7 +44,8 @@ Python via .NET için Aspose.Words ile üçüncü taraf uygulamaları veya Offic
 		</div>
 		<div class="col-md-4">
 				<p><b>Başlamak</b></p>
-						<hr><p>BAŞLARKEN</p></hr>
+						<hr>
+						<p>BAŞLARKEN</p>
 						<ul>
 								<li><a href="/words/tr/python-net/supported-document-formats/">Desteklenen Belge Formatları</a></li>
 								<li><a href="/words/tr/python-net/features/">Desteklenen Özellikler</a></li>
@@ -59,7 +61,8 @@ Python via .NET için Aspose.Words ile üçüncü taraf uygulamaları veya Offic
 		</div>
 		<div class="col-md-4">
 				<p><b>İşlevleri Geliştirin</b></p>
-						<hr><p>REHBER</p></hr>
+						<hr>
+						<p>REHBER</p>
 						<ul>
 								<li><a href="/words/tr/python-net/loading-saving-and-converting/">Yükleme, Kaydetme ve Dönüştürme</a></li>
 								<li><a href="/words/tr/python-net/rendering/">İşleme</a></li>

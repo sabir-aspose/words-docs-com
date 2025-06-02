@@ -60,18 +60,18 @@ Diğer tüm alanlarda olduğu gibi, `TOC` alanı da alan kodu içinde tanımlana
 ![working-with-table-of-contents-aspose-words-net](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-1.png)
 
 
-Varsayılan olarak yukarıdaki bu anahtarlar, belgeye varsayılan bir `TOC` eklenirken dahil edilir. Anahtarı olmayan bir `TOC`, yerleşik başlık stillerinden içerik içerecektir (sanki \O anahtarı ayarlanmış gibi). Aspose.Words tarafından desteklenen mevcut `TOC` anahtarları aşağıda listelenmiş ve kullanımları ayrıntılı olarak anlatılmıştır. Türlerine göre ayrı bölümlere ayrılabilirler. İlk bölümdeki anahtarlar `TOC`'e hangi içeriğin ekleneceğini tanımlar ve ikinci bölümdeki anahtarlar TOC'nin görünümünü kontrol eder. Bir anahtar burada listelenmiyorsa şu anda desteklenmiyor demektir. Tüm anahtarlar gelecek sürümlerde desteklenecektir. Her sürümde daha fazla destek ekliyoruz.
+Varsayılan olarak yukarıdaki bu anahtarlar, belgeye varsayılan bir `TOC` eklenirken dahil edilir. Anahtarı olmayan bir `TOC`, yerleşik başlık stillerinden içerik içerecektir (sanki &#92;O anahtarı ayarlanmış gibi). Aspose.Words tarafından desteklenen mevcut `TOC` anahtarları aşağıda listelenmiş ve kullanımları ayrıntılı olarak anlatılmıştır. Türlerine göre ayrı bölümlere ayrılabilirler. İlk bölümdeki anahtarlar `TOC`'e hangi içeriğin ekleneceğini tanımlar ve ikinci bölümdeki anahtarlar TOC'nin görünümünü kontrol eder. Bir anahtar burada listelenmiyorsa şu anda desteklenmiyor demektir. Tüm anahtarlar gelecek sürümlerde desteklenecektir. Her sürümde daha fazla destek ekliyoruz.
 
 ### Giriş İşaretleme Anahtarları
 
 |  Anahtar | Tanım |
 |  :-  |  :-  |
-| **Heading Styles**<br>*(\O Anahtarı)* | <p>Bu anahtar, `TOC`'in yerleşik başlık stillerinden oluşturulması gerektiğini tanımlar. Microsoft Word'de bunlar Başlık 1 – Başlık 9 ile tanımlanır. Aspose.Words'de bu stiller karşılık gelen StyleIdentifier numaralandırmasıyla temsil edilir. Bu numaralandırma, bir stilin yerel ayardan bağımsız tanımlayıcısını temsil eder; örneğin `StyleIdentifier.Heading1`, Başlık 1 stilini temsil eder. Bunu kullanarak stilin formatı ve özellikleri belgenin Stil koleksiyonundan alınabilir. Karşılık gelen Style sınıfı, StyleIdentifier türünün indekslenmiş özelliği kullanılarak `Document.Styles` koleksiyonundan alınabilir.</p>
+| **Heading Styles**<br>*(&#92;O Anahtarı)* | <p>Bu anahtar, `TOC`'in yerleşik başlık stillerinden oluşturulması gerektiğini tanımlar. Microsoft Word'de bunlar Başlık 1 – Başlık 9 ile tanımlanır. Aspose.Words'de bu stiller karşılık gelen StyleIdentifier numaralandırmasıyla temsil edilir. Bu numaralandırma, bir stilin yerel ayardan bağımsız tanımlayıcısını temsil eder; örneğin `StyleIdentifier.Heading1`, Başlık 1 stilini temsil eder. Bunu kullanarak stilin formatı ve özellikleri belgenin Stil koleksiyonundan alınabilir. Karşılık gelen Style sınıfı, StyleIdentifier türünün indekslenmiş özelliği kullanılarak `Document.Styles` koleksiyonundan alınabilir.</p>
 
 <p>![working-with-table-of-contents-styles](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-2.png)</p>
 
 <p>Bu stillerle biçimlendirilmiş tüm içerikler içindekiler tablosuna dahil edilir. Başlığın düzeyi, TOC'deki girişin karşılık gelen hiyerarşik düzeyini tanımlayacaktır. Örneğin, Başlık 1 stiline sahip bir paragraf, `TOC`'te ilk düzey olarak ele alınırken Başlık 2'ye sahip bir paragraf, hiyerarşide bir sonraki düzey olarak ele alınır ve bu şekilde devam eder.</p> |
-| **Outline Levels**<br>*(\U anahtarı)* | <p>Her paragraf, Paragraf seçenekleri altında bir anahat düzeyi tanımlayabilir.</p>
+| **Outline Levels**<br>*(&#92;U anahtarı)* | <p>Her paragraf, Paragraf seçenekleri altında bir anahat düzeyi tanımlayabilir.</p>
 
 <p>![working-with-table-of-contents-paragraph](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-3.png)</p>
 
@@ -82,55 +82,54 @@ Varsayılan olarak yukarıdaki bu anahtarlar, belgeye varsayılan bir `TOC` ekle
 <p>Başlık 1 gibi yerleşik başlık stillerinin, stil ayarlarında ana hat düzeyinde zorunlu bir ayara sahip olduğunu unutmayın.</p>
 
 <p>{{% /alert %}}</p> |
-| **Custom Styles**<br>*(\T anahtarı)* | <p>Bu anahtar, İçindekiler'de kullanılacak girişleri toplarken özel stillerin kullanılmasına olanak tanır. Bu, içindekiler tablosuna yerleşik başlık stillerinin yanı sıra özel stilleri de dahil etmek için genellikle \O anahtarıyla birlikte kullanılır.<br>Anahtarın parametreleri konuşma işaretlerinin içine alınmalıdır. Pek çok özel stil eklenebilir; her stil için ad belirtilmeli, ardından virgül ve ardından stilin `TOC`'te görünmesi gereken düzey belirtilmelidir. Diğer stiller de virgülle ayrılmıştır.<br>Örneğin</p>
+| **Custom Styles**<br>*(&#92;T anahtarı)* | <p>Bu anahtar, İçindekiler'de kullanılacak girişleri toplarken özel stillerin kullanılmasına olanak tanır. Bu, içindekiler tablosuna yerleşik başlık stillerinin yanı sıra özel stilleri de dahil etmek için genellikle &#92;O anahtarıyla birlikte kullanılır.<br>Anahtarın parametreleri konuşma işaretlerinin içine alınmalıdır. Pek çok özel stil eklenebilir; her stil için ad belirtilmeli, ardından virgül ve ardından stilin `TOC`'te görünmesi gereken düzey belirtilmelidir. Diğer stiller de virgülle ayrılmıştır.<br>Örneğin</p>
 
-<p>{{< highlight csharp >}}
-{ TOC \o "1-3" \t "CustomHeading1, 1,   CustomHeading2, 2"}{{< /highlight >}}</p>
+<p>{{< highlight csharp >}}{ TOC \o "1-3" \t "CustomHeading1, 1,   CustomHeading2, 2"}{{< /highlight >}}</p>
 
 <p>`TOC`'te CustomHeading1 ile stillendirilmiş içeriği 1. düzey içerik olarak ve CustomHeading2 ile stillendirilmiş içeriği 2. düzey olarak kullanacaktır.</p> |
-| **Use TC Fields**<br>*(\F ve \L Anahtarları)* | <p>Microsoft Word'in eski sürümlerinde `TOC` oluşturmanın tek yolu TC alanlarının kullanılmasıydı. Bu alanlar, alan kodları gösterildiğinde bile belgeye gizli olarak eklenir. Girişte görüntülenmesi gereken metni içerirler ve `TOC` bunlardan oluşturulur. Bu işlevsellik artık çok sık kullanılmamaktadır ancak bazı durumlarda belgede görünür olacak şekilde girintili olmayan girişleri `TOC`'ye dahil etmek hâlâ faydalı olabilir.<br>Bu alanlar eklendiğinde, alan kodları görüntülense bile gizli görünür. Gizli içerik gösterilmeden görülemezler. Bu alanları görebilmek için Paragraf biçimlendirmesini göster seçeneğinin seçilmesi gerekmektedir.</p>
+| **Use TC Fields**<br>*(&#92;F ve &#92;L Anahtarları)* | <p>Microsoft Word'in eski sürümlerinde `TOC` oluşturmanın tek yolu TC alanlarının kullanılmasıydı. Bu alanlar, alan kodları gösterildiğinde bile belgeye gizli olarak eklenir. Girişte görüntülenmesi gereken metni içerirler ve `TOC` bunlardan oluşturulur. Bu işlevsellik artık çok sık kullanılmamaktadır ancak bazı durumlarda belgede görünür olacak şekilde girintili olmayan girişleri `TOC`'ye dahil etmek hâlâ faydalı olabilir.<br>Bu alanlar eklendiğinde, alan kodları görüntülense bile gizli görünür. Gizli içerik gösterilmeden görülemezler. Bu alanları görebilmek için Paragraf biçimlendirmesini göster seçeneğinin seçilmesi gerekmektedir.</p>
 
-<p>![working-with-table-of-contents-paragraph-settings](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-4.png)</p> Bu alanlar, diğer alanlar gibi herhangi bir konuma bir belgeye eklenebilir ve `FieldType.FieldTOCEntry` numaralandırmasıyla temsil edilir.<br>`TOC`'deki \F anahtarı, TC alanlarının giriş olarak kullanılması gerektiğini belirtmek için kullanılır. Herhangi bir ekstra tanımlayıcı olmaksızın geçişin kendi başına yapılması, belgedeki herhangi bir TC alanının dahil edileceği anlamına gelir. Herhangi bir ekstra parametre, genellikle tek bir harf, yalnızca eşleşen \f anahtarına sahip TC alanlarının TOC'ye dahil edileceğini belirtir. Örneğin *</p>
+<p>![working-with-table-of-contents-paragraph-settings](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-4.png)</p><p> Bu alanlar, diğer alanlar gibi herhangi bir konuma bir belgeye eklenebilir ve `FieldType.FieldTOCEntry` numaralandırmasıyla temsil edilir.<br>`TOC`'deki &#92;F anahtarı, TC alanlarının giriş olarak kullanılması gerektiğini belirtmek için kullanılır. Herhangi bir ekstra tanımlayıcı olmaksızın geçişin kendi başına yapılması, belgedeki herhangi bir TC alanının dahil edileceği anlamına gelir. Herhangi bir ekstra parametre, genellikle tek bir harf, yalnızca eşleşen \f anahtarına sahip TC alanlarının TOC'ye dahil edileceğini belirtir. Örneğin *</p>
 
 <p>{{< highlight csharp >}}{ TOC \f t }{{< /highlight >}}</p>
 
 <p>yalnızca aşağıdaki gibi TC alanlarını içerecektir:</p>
 
-<p>{{< highlight csharp >}}{   TC \f t }{{< /highlight >}}</p>
+<p>{{< highlight csharp >}}{ TC \f t }{{< /highlight >}}</p>
 
-<p>`TOC` alanının da ilgili bir anahtarı vardır; "\L" anahtarı yalnızca belirtilen aralıktaki seviyelere sahip TC alanının dahil edildiğini belirtir.</p>
+<p>`TOC` alanının da ilgili bir anahtarı vardır; &#92;L anahtarı yalnızca belirtilen aralıktaki seviyelere sahip TC alanının dahil edildiğini belirtir.</p>
 
 <p>![todo:image_alt_text](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
 <p>`TC` alanlarının kendisinde de birkaç anahtar ayarlanmış olabilir. Bunlar:</p>
 
-<p>- *\F – Yukarıda açıklanmıştır.*</p>
+<p>- *&#92;F – Yukarıda açıklanmıştır.*</p>
 
-<p>- *\L – Bu TC alanının `TOC`'de hangi seviyede görüneceğini tanımlar. Aynı anahtarı kullanan bir `TOC`, bu TC alanını yalnızca belirtilen aralık dahilindeyse içerecektir.*</p>
+<p>- *&#92;L – Bu TC alanının `TOC`'de hangi seviyede görüneceğini tanımlar. Aynı anahtarı kullanan bir `TOC`, bu TC alanını yalnızca belirtilen aralık dahilindeyse içerecektir.*</p>
 
-<p>- `_\N` – Bu `TOC` girişinin sayfa numaralandırması görüntülenmez. TC alanlarının nasıl ekleneceğine ilişkin örnek kod sonraki bölümde bulunabilir.</p> |
+<p>- _&#92;N – Bu `TOC` girişinin sayfa numaralandırması görüntülenmez. TC alanlarının nasıl ekleneceğine ilişkin örnek kod sonraki bölümde bulunabilir.</p> |
 
 ### Görünümle İlgili Anahtarlar
 
 |  Anahtar | Tanım |
 |  :-  |  :-  |
-| **Omit Page Numbers**<br>*(\N Anahtar)* | <p>Bu anahtar, TOC'nin belirli düzeyleri için sayfa numaralarını gizlemek için kullanılır. Örneğin tanımlayabilirsiniz</p>
+| **Omit Page Numbers**<br>*(&#92;N Anahtar)* | <p>Bu anahtar, TOC'nin belirli düzeyleri için sayfa numaralarını gizlemek için kullanılır. Örneğin tanımlayabilirsiniz</p>
 
 <p>{{< highlight csharp >}}{TOC \o "1-4" \n "3-4" }{{< /highlight >}}</p>
 
 <p>3. ve 4. seviye girişlerindeki sayfa numaraları (varsa) lider noktalarla birlikte gizlenecektir. Yalnızca bir seviye belirtmek için yine de bir aralık kullanılmalıdır; örneğin "1-1" yalnızca ilk seviye için sayfa numaralarını hariç tutacaktır.<br>Düzey aralığının belirtilmemesi, içindekiler tablosundaki tüm düzeyler için sayfa numaralarının atlanmasına neden olur. Bir belgeyi HTML'ye veya benzer bir formata aktarırken bu ayarı yapmak kullanışlıdır. Bunun nedeni, HTML tabanlı formatların herhangi bir sayfa konseptine sahip olmaması ve dolayısıyla herhangi bir sayfa numaralandırmasına ihtiyaç duymamasıdır.</p>
 
 <p>![todo:image_alt_text](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-6.png)</p> |
-| **Insert As Hyperlinks**<br>*(\H Anahtarı)* | <p>Bu anahtar, `TOC` girişlerinin köprü olarak eklendiğini belirtir. Microsoft Word'de bir belgeyi görüntülerken, bu girişler `TOC` içinde normal metin olarak görünmeye devam eder ancak hiper bağlantılıdır ve bu nedenle Microsoft Word'de *Ctrl + Sol Tıklama* kullanılarak belgedeki orijinal girişin konumuna gitmek için kullanılabilir. Bu anahtar dahil edildiğinde bu bağlantılar diğer formatlarda da korunur. Örneğin, EPUB dahil HTML tabanlı formatlarda ve PDF ve XPS gibi işlenmiş formatlarda bunlar, çalışan bağlantılar olarak dışa aktarılacaktır.<br>Bu anahtar ayarı olmadan tüm bu çıktılardaki `TOC` düz metin olarak dışa aktarılacak ve bu davranışı göstermeyecektir. Bir belge MS Word'de açılırsa, girişlerin metni de bu şekilde tıklanamaz ancak sayfa numaraları orijinal girişe gitmek için hâlâ kullanılabilir.</p>
+| **Insert As Hyperlinks**<br>*(&#92;H Anahtarı)* | <p>Bu anahtar, `TOC` girişlerinin köprü olarak eklendiğini belirtir. Microsoft Word'de bir belgeyi görüntülerken, bu girişler `TOC` içinde normal metin olarak görünmeye devam eder ancak hiper bağlantılıdır ve bu nedenle Microsoft Word'de *Ctrl + Sol Tıklama* kullanılarak belgedeki orijinal girişin konumuna gitmek için kullanılabilir. Bu anahtar dahil edildiğinde bu bağlantılar diğer formatlarda da korunur. Örneğin, EPUB dahil HTML tabanlı formatlarda ve PDF ve XPS gibi işlenmiş formatlarda bunlar, çalışan bağlantılar olarak dışa aktarılacaktır.<br>Bu anahtar ayarı olmadan tüm bu çıktılardaki `TOC` düz metin olarak dışa aktarılacak ve bu davranışı göstermeyecektir. Bir belge MS Word'de açılırsa, girişlerin metni de bu şekilde tıklanamaz ancak sayfa numaraları orijinal girişe gitmek için hâlâ kullanılabilir.</p>
 
 <p>![working-with-table-of-contents-titles](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-7.png)</p> |
-| **Set Separator Character**<br>*(\P Anahtarı)* | <p>Bu anahtar, girişin başlığını ve sayfa numaralandırmasını ayıran içeriğin TOC'de kolayca değiştirilmesine olanak tanır. Bu anahtardan sonra kullanılacak ayırıcı belirtilmeli ve konuşma işaretleri içine alınmalıdır.<br>Office belgelerinde belgelenenin aksine, en fazla beş karakter yerine yalnızca bir karakter kullanılabilir. Bu hem MS Word hem de Aspose.Words için geçerlidir.<br>Bu anahtarın kullanılması, içindekiler tablosundaki girişleri ve sayfa numaralarını ayırmak için kullanılanlar üzerinde fazla kontrole izin vermediğinden önerilmez. Bunun yerine, `StyleIdentifier.TOC1` gibi uygun `TOC` stilini düzenlemeniz ve buradan belirli yazı tipi üyelerine vb. erişimle lider stilini düzenlemeniz önerilir. Bunun nasıl yapılacağına ilişkin daha fazla ayrıntıyı makalenin ilerleyen kısımlarında bulabilirsiniz.</p>
+| **Set Separator Character**<br>*(&#92;P Anahtarı)* | <p>Bu anahtar, girişin başlığını ve sayfa numaralandırmasını ayıran içeriğin TOC'de kolayca değiştirilmesine olanak tanır. Bu anahtardan sonra kullanılacak ayırıcı belirtilmeli ve konuşma işaretleri içine alınmalıdır.<br>Office belgelerinde belgelenenin aksine, en fazla beş karakter yerine yalnızca bir karakter kullanılabilir. Bu hem MS Word hem de Aspose.Words için geçerlidir.<br>Bu anahtarın kullanılması, içindekiler tablosundaki girişleri ve sayfa numaralarını ayırmak için kullanılanlar üzerinde fazla kontrole izin vermediğinden önerilmez. Bunun yerine, `StyleIdentifier.TOC1` gibi uygun `TOC` stilini düzenlemeniz ve buradan belirli yazı tipi üyelerine vb. erişimle lider stilini düzenlemeniz önerilir. Bunun nasıl yapılacağına ilişkin daha fazla ayrıntıyı makalenin ilerleyen kısımlarında bulabilirsiniz.</p>
 
 <p>![working-with-table-of-contents-toc](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-8.png)</p> |
-| **Preserve Tab Entries**<br>*(\W Anahtarı)* | <p>Bu anahtarın kullanılması, sekme karakterine sahip tüm girişlerin, örneğin satırın sonunda sekme bulunan bir başlığın, içindekiler tablosunu doldururken uygun bir sekme karakteri olarak tutulacağını belirtecektir. Bu, sekme karakterinin işlevinin `TOC`'te bulunacağı ve girişi biçimlendirmek için kullanılabileceği anlamına gelir. Örneğin, belirli girişler metinde eşit aralıklarla boşluk bırakmak için sekme duraklarını ve sekme karakterlerini kullanabilir. Karşılık gelen `TOC` düzeyi eşdeğer sekme duraklarını tanımladığı sürece oluşturulan `TOC` girişleri benzer aralıklarla görünecektir.<br><br>Aynı durumda, bu anahtar tanımlanmadıysa sekme karakterleri, çalışmayan sekmelere eşdeğer beyaz boşluğa dönüştürülür. Çıktı daha sonra beklendiği gibi görünmeyecektir.</p>
+| **Preserve Tab Entries**<br>*(&#92;W Anahtarı)* | <p>Bu anahtarın kullanılması, sekme karakterine sahip tüm girişlerin, örneğin satırın sonunda sekme bulunan bir başlığın, içindekiler tablosunu doldururken uygun bir sekme karakteri olarak tutulacağını belirtecektir. Bu, sekme karakterinin işlevinin `TOC`'te bulunacağı ve girişi biçimlendirmek için kullanılabileceği anlamına gelir. Örneğin, belirli girişler metinde eşit aralıklarla boşluk bırakmak için sekme duraklarını ve sekme karakterlerini kullanabilir. Karşılık gelen `TOC` düzeyi eşdeğer sekme duraklarını tanımladığı sürece oluşturulan `TOC` girişleri benzer aralıklarla görünecektir.<br><br>Aynı durumda, bu anahtar tanımlanmadıysa sekme karakterleri, çalışmayan sekmelere eşdeğer beyaz boşluğa dönüştürülür. Çıktı daha sonra beklendiği gibi görünmeyecektir.</p>
 
 <p>![working-with-table-of-contents-aspose](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-9.png)</p> |
-| **Preserve New Line Entries**<br>*(\X Anahtarı)* | <p>Yukarıdaki anahtara benzer şekilde, bu anahtar birden fazla satıra yayılan başlıkların (ayrı paragraflar yerine yeni satır karakterleri kullanılarak) oluşturulan TOC'de olduğu gibi korunacağını belirtir. Örneğin, birden çok satıra yayılacak bir başlık, içeriği farklı satırlara ayırmak için yeni satır karakterini (Ctrl + Enter veya `ControlChar.LineBreak`) kullanabilir. Bu anahtar belirtildiğinde, `TOC`'deki giriş bu yeni satır karakterlerini aşağıda gösterildiği gibi koruyacaktır.<br><br>Bu durumda, eğer anahtar tanımlı değilse yeni satır karakterleri tek bir beyaz boşluğa dönüştürülür.</p>
+| **Preserve New Line Entries**<br>*(&#92;X Anahtarı)* | <p>Yukarıdaki anahtara benzer şekilde, bu anahtar birden fazla satıra yayılan başlıkların (ayrı paragraflar yerine yeni satır karakterleri kullanılarak) oluşturulan TOC'de olduğu gibi korunacağını belirtir. Örneğin, birden çok satıra yayılacak bir başlık, içeriği farklı satırlara ayırmak için yeni satır karakterini (Ctrl + Enter veya `ControlChar.LineBreak`) kullanabilir. Bu anahtar belirtildiğinde, `TOC`'deki giriş bu yeni satır karakterlerini aşağıda gösterildiği gibi koruyacaktır.<br><br>Bu durumda, eğer anahtar tanımlı değilse yeni satır karakterleri tek bir beyaz boşluğa dönüştürülür.</p>
 
 <p>![working-with-table-of-contents-aspose-words](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-10.png)</p> |
 

@@ -62,7 +62,7 @@ Cả cấu trúc mạnh và yếu đều có giá trị cho PDF/A. Microsoft Wor
     <summary>Đặc điểm kỹ thuật cho chúng ta biết những điều sau đây (mở rộng để xem chi tiết):</summary>
     <p></p>
     <p>Cấu trúc cấp khối có thể tuân theo một trong hai mô hình chính:</p>
-    </ol>
+    <ol>
       <li>Cấu trúc mạnh mẽ. Các yếu tố nhóm làm tổ đến nhiều cấp độ cần thiết để phản ánh việc tổ chức tài liệu thành các bài báo, phần, tiểu mục, v. v. Ở mỗi cấp độ, các phần tử con của phần tử nhóm phải bao gồm một tiêu đề (H), một hoặc nhiều đoạn (P) cho nội dung ở cấp độ đó và có lẽ một hoặc nhiều phần tử nhóm bổ sung cho các phần phụ lồng nhau.</li>
       <li>Cấu trúc yếu. Tài liệu tương đối bằng phẳng, có lẽ chỉ có một hoặc hai cấp độ của các phần tử nhóm, với tất cả các tiêu đề, đoạn văn và BLSEs khác là con cái trực tiếp của chúng. Trong trường hợp này, việc tổ chức vật liệu không được phản ánh trong cấu trúc logic; tuy nhiên, nó có thể được thể hiện bằng cách sử dụng các tiêu đề với các cấp độ cụ thể (H1–H6).</li>
     </ol>
@@ -110,7 +110,7 @@ Hiện tại, Aspose.Words đánh dấu đầu trang và chân trang, dấu phâ
     <summary>Đặc điểm kỹ thuật cho chúng ta biết những điều sau đây (mở rộng để xem chi tiết):</summary>
     <p></p>
     <p>Các đối tượng đồ họa trong tài liệu có thể được chia thành hai lớp:</p>
-    </ol>
+    <ol>
       <li>Nội dung thực của một tài liệu bao gồm các đối tượng đại diện cho tài liệu ban đầu được giới thiệu bởi tác giả của tài liệu.</li>
       <li>Hiện vật là các đối tượng đồ họa không phải là một phần của nội dung gốc của tác giả mà được tạo ra bởi người viết phù hợp trong quá trình phân trang, bố cục hoặc các quy trình cơ học nghiêm ngặt khác.</li>
     </ol>

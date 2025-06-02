@@ -60,9 +60,9 @@ Here, the Condition can be either a merge field or a Mustache tag.
 
 For example, you can use `IF` fields if you need to insert “his”, “her”, “he” or “she” depending on the gender as the following:
 
-**{ IF { MERGEFIELD Gender } = “MALE” “true text” “false text” }**
+**{ IF { MERGEFIELD Gender } = MALE “true text” “false text” }**
 
-**{ IF “{{ GENDER }}” = “MALE” “true text” “false text” }**
+**{ IF “{{ GENDER }}” = MALE “true text” “false text” }**
 
 The following code example shows how to perform a Mail Merge operation with Mustache tags and `IF` fields:
 

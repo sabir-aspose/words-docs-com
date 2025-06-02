@@ -65,7 +65,6 @@ Aspose.Words สำหรับ .NET รองรับเฟรมเวิร�
 <table>
 		<tr>
 						<td style="font-weight: bold; width:800px">กรอบงาน</td>
-				</tr>
 		</tr>
   <tr>
 						<td><ul><li>.NET Framework3.5</li><li>.NET Framework4.0</li><li>.NET Framework 4.0_ClientProfile</li><li>.NET Framework 4.5.0</li><li>.NET Framework4.5.1</li><li>.NET Framework4.5.2</li><li>.NET Framework 4.6.0</li><li>.NET Framework4.6.2</li><li>เท็กซัส 4.7</li><li>.NET Framework4.7.2</li><li>เท็กซัส 4.8</li><li>Mono 2.6.7 และใหม่กว่า</li></ul></td>

@@ -25,7 +25,6 @@ Siga estos pasos para configurar su proyecto con [MSBuild .archivos de destino](
         <Import Project="<path-to>\CodePorting.Translator.Cs2Cpp.Framework_<version>\CodePorting.Translator.Cs2Cpp.Framework.targets" Condition="Exists('<path-to>\CodePorting.Translator.Cs2Cpp.Framework_<version>\CodePorting.Translator.Cs2Cpp.Framework.targets')" />
         <Import Project="<path-to>\Aspose.Words.Cpp\aspose.words.cpp.targets" Condition="Exists('<path-to>\Aspose.Words.Cpp\aspose.words.cpp.targets')" />
     </ImportGroup>
-    </Project>
     {{< /highlight >}}
 
 ## Configurar manualmente

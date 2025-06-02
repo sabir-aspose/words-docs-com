@@ -25,7 +25,8 @@ Aspose.Words gibi popüler belge biçimlerinin çoğunu destekler DOC, DOCX, RTF
 <div class="row">
 	<div class="col-md-4">
 		<p><b>Hakkında Aspose.Words</b></p>
-			<hr><p>OVERVIEW</p></hr>
+			<hr>
+			<p>OVERVIEW</p>
 			<ul>
 				<li><a href="/words/cpp/what-s-new-in-aspose-words-for-cpp/">İçerideki yenilikler Aspose.Words için C++</a></li>
 				<li><a href="/words/cpp/product-overview/">Ürüne Genel Bakış</a></li>
@@ -44,7 +45,8 @@ Aspose.Words gibi popüler belge biçimlerinin çoğunu destekler DOC, DOCX, RTF
 	</div>
 	<div class="col-md-4">
 		<p><b>Başlamak</b></p>
-			<hr><p>GETTING STARTED</p></hr>
+			<hr>
+			<p>GETTING STARTED</p>
 			<ul>
 				<li><a href="/words/cpp/supported-document-formats/">Desteklenen Belge Biçimleri</a></li>
 				<li><a href="/words/cpp/features/">Özellikler</a></li>
@@ -60,7 +62,8 @@ Aspose.Words gibi popüler belge biçimlerinin çoğunu destekler DOC, DOCX, RTF
 	</div>
 	<div class="col-md-4">
 		<p><b>İşlevler Geliştirin</b></p>
-			<hr><p>GUIDE</p></hr>
+			<hr>
+			<p>GUIDE</p>
 			<ul>
 				<li><a href="/words/cpp/loading-saving-and-converting/">Yükleme, Kaydetme ve Dönüştürme</a></li>
 				<li><a href="/words/cpp/rendering/">İşleme</a></li>

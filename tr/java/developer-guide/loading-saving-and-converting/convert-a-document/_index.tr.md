@@ -67,7 +67,7 @@ Lütfen dikkat edin ki aşağıda en popüler dönüştürme kombinasyonları ye
 					<li>ve diğerleri</li>
 						</ul>
 		</div>
-	< div class = \"col-md-6\" >
+	<div class = \"col-md-6\" >
 			<h2>Bir Dokümanı Görüntüye Dönüştür</h2>
 						 <ul>
 								 <li><a href="/words/java/convert-a-document-to-an-image/">Convert DOCX to JPG</a></li>

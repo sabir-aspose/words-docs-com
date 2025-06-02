@@ -62,7 +62,7 @@ Pentru un document PDF/UA-1 cu o structură slabă, este necesar în plus ca num
     <summary>Specificația ne spune următoarele (extindeți pentru a vedea detalii):</summary>
     <p></p>
     <p>Structura la nivel de bloc poate urma una dintre cele două paradigme principale:</p>
-    </ol>
+    <ol>
       <li>Puternic structurat. Elementele de grupare cuibăresc la câte niveluri este necesar pentru a reflecta organizarea materialului în articole, secțiuni, subsecțiuni și așa mai departe. La fiecare nivel, copiii elementului de grupare ar trebui să fie alcătuiți dintr-un titlu (H), unul sau mai multe paragrafe (P) pentru conținutul de la acel nivel și poate unul sau mai multe elemente de grupare suplimentare pentru subsecțiunile imbricate.</li>
       <li>Slab structurat. Documentul este relativ plat, având poate doar unul sau două niveluri de elemente de grupare, cu toate titlurile, paragrafele și alte BLSEs ca copii imediati. În acest caz, organizarea materialului nu se reflectă în structura logică; cu toate acestea, poate fi exprimată prin utilizarea titlurilor cu niveluri specifice (H1–H6).</li>
     </ol>
@@ -110,7 +110,7 @@ Pentru a asigura ieșirea corectă, utilizatorii trebuie să se asigure că con�
     <summary>Specificația ne spune următoarele (extindeți pentru a vedea detalii):</summary>
     <p></p>
     <p>Obiectele grafice dintr-un document pot fi împărțite în două clase:</p>
-    </ol>
+    <ol>
       <li>Conținutul real al unui document cuprinde obiecte care reprezintă material introdus inițial de autorul documentului.</li>
       <li>Artefactele sunt obiecte grafice care nu fac parte din conținutul original al autorului, ci mai degrabă sunt generate de scriitorul Conform în cursul paginării, aspectului sau altor procese strict mecanice.</li>
     </ol>

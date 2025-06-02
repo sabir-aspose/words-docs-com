@@ -62,18 +62,18 @@ Aspose.Words 允许您仅用几行代码即可完全更新 `TOC`。可以执行�
 ![working-with-table-of-contents-aspose-words-net](/words/net/working-with-table-of-contents/working-with-table-of-contents-1.png)
 
 
-默认情况下，在文档中插入默认 `TOC` 时会包含上述这些开关。没有开关的 `TOC` 将包含内置标题样式的内容（就像设置了 \O 开关一样）。下面列出了 Aspose.Words 支持的可用 `TOC` 开关，并详细描述了它们的用途。它们可以根据其类型分为单独的部分。第一部分中的开关定义 `TOC` 中包含的内容，第二部分中的开关控制 TOC 的外观。如果此处未列出某个开关，则当前不支持该开关。未来版本将支持所有交换机。我们会在每个版本中添加更多支持。
+默认情况下，在文档中插入默认 `TOC` 时会包含上述这些开关。没有开关的 `TOC` 将包含内置标题样式的内容（就像设置了 &#92;O 开关一样）。下面列出了 Aspose.Words 支持的可用 `TOC` 开关，并详细描述了它们的用途。它们可以根据其类型分为单独的部分。第一部分中的开关定义 `TOC` 中包含的内容，第二部分中的开关控制 TOC 的外观。如果此处未列出某个开关，则当前不支持该开关。未来版本将支持所有交换机。我们会在每个版本中添加更多支持。
 
 ### 入口标记开关
 
 |  转变 | 描述 |
 |  :-  |  :-  |
-| **Heading Styles**<br>*(\O 开关)* | <p>此开关定义 `TOC` 应基于内置标题样式构建。在 Microsoft Word 中，这些样式由标题 1 – 标题 9 定义。在 Aspose.Words 中，这些样式由相应的 StyleIdentifier 枚举表示。此枚举表示样式的区域设置独立标识符，例如 `StyleIdentifier.Heading1` 表示标题 1 样式。使用它，可以从文档的 Style 集合中检索样式的格式和属性。可以使用 StyleIdentifier 类型的索引属性从 `Document.Styles` 集合中检索相应的 Style 类。</p>
+| **Heading Styles**<br>*(&#92;O 开关)* | <p>此开关定义 `TOC` 应基于内置标题样式构建。在 Microsoft Word 中，这些样式由标题 1 – 标题 9 定义。在 Aspose.Words 中，这些样式由相应的 StyleIdentifier 枚举表示。此枚举表示样式的区域设置独立标识符，例如 `StyleIdentifier.Heading1` 表示标题 1 样式。使用它，可以从文档的 Style 集合中检索样式的格式和属性。可以使用 StyleIdentifier 类型的索引属性从 `Document.Styles` 集合中检索相应的 Style 类。</p>
 
 <p>![working-with-table-of-contents-styles](/words/net/working-with-table-of-contents/working-with-table-of-contents-2.png)</p>
 
 <p>使用这些样式格式化的任何内容都包含在目录中。标题的级别将定义目录中条目的相应层次级别。例如，标题 1 样式的段落将被视为 `TOC` 中的第一级，而标题 2 的段落将被视为层次结构中的下一个级别，依此类推。</p> |
-| **Outline Levels**<br>*(\U 开关)* | <p>每个段落都可以在段落选项下定义大纲级别。</p>
+| **Outline Levels**<br>*(&#92;U 开关)* | <p>每个段落都可以在段落选项下定义大纲级别。</p>
 
 <p>![working-with-table-of-contents-paragraph](/words/net/working-with-table-of-contents/working-with-table-of-contents-3.png)</p>
 
@@ -84,60 +84,56 @@ Aspose.Words 允许您仅用几行代码即可完全更新 `TOC`。可以执行�
 <p>请注意，内置标题样式（例如标题 1）在样式设置中强制设置了大纲级别。</p>
 
 <p>{{% /alert %}}</p> |
-| **Custom Styles**<br>*（\T开关）* | <p>此开关将允许在收集要在目录中使用的条目时使用自定义样式。这通常与 \O 开关结合使用，以在目录中包含自定义样式和内置标题样式。<br>开关的参数应包含在语音标记内。可以包含许多自定义样式，对于每种样式，应指定名称，后跟一个逗号，后跟该样式应在 `TOC` 中显示的级别。其他样式也用逗号分隔。<br>例如</p>
+| **Custom Styles**<br>*（\T开关）* | <p>此开关将允许在收集要在目录中使用的条目时使用自定义样式。这通常与 &#92;O 开关结合使用，以在目录中包含自定义样式和内置标题样式。<br>开关的参数应包含在语音标记内。可以包含许多自定义样式，对于每种样式，应指定名称，后跟一个逗号，后跟该样式应在 `TOC` 中显示的级别。其他样式也用逗号分隔。<br>例如</p>
 
 <p>{{< highlight csharp >}}
 
 <p>  { TOC \o "1-3" \t "CustomHeading1, 1,   CustomHeading2, 2"} </p><p>{{< /highlight >}}</p>
 
 <p>将使用 CustomHeading1 样式的内容作为 `TOC` 中的 1 级内容，将 CustomHeading2 样式作为 2 级内容。</p> |
-| **Use TC Fields**<br>*（\F 和 \L 开关）* | <p>在旧版本的 Microsoft Word 中，构建 `TOC` 的唯一方法是使用 TC 字段。即使显示域代码，这些字段也会隐藏地插入到文档中。它们包括应在条目中显示的文本，并且 `TOC` 是根据它们构建的。此功能现在不经常使用，但在某些情况下仍然有用，可以在 `TOC` 中包含未缩进在文档中可见的条目。<br>插入后，即使显示域代码，这些字段也会显示为隐藏。如果不显示隐藏内容，就无法看到它们。要查看这些字段，必须选择"显示段落格式"。</p>
+| **Use TC Fields**<br>*（&#92;F 和 &#92;L 开关）* | <p>在旧版本的 Microsoft Word 中，构建 `TOC` 的唯一方法是使用 TC 字段。即使显示域代码，这些字段也会隐藏地插入到文档中。它们包括应在条目中显示的文本，并且 `TOC` 是根据它们构建的。此功能现在不经常使用，但在某些情况下仍然有用，可以在 `TOC` 中包含未缩进在文档中可见的条目。<br>插入后，即使显示域代码，这些字段也会显示为隐藏。如果不显示隐藏内容，就无法看到它们。要查看这些字段，必须选择"显示段落格式"。</p>
 
-<p>![working-with-table-of-contents-paragraph-settings](/words/net/working-with-table-of-contents/working-with-table-of-contents-4.png)</p>这些字段可以像任何其他字段一样插入到文档中的任何位置，并由 `FieldType.FieldTOCEntry` 枚举表示。<br>`TOC` 中的 \F 开关用于指定 TC 字段应用作条目。开关本身没有任何额外的标识符，这意味着文档中的任何 TC 字段都将被包含在内。任何额外的参数（通常是单个字母）将指定只有具有匹配的 \f 开关的 TC 字段才会包含在 TOC 中。例如 *</p>
+<p>![working-with-table-of-contents-paragraph-settings](/words/net/working-with-table-of-contents/working-with-table-of-contents-4.png)</p><p>这些字段可以像任何其他字段一样插入到文档中的任何位置，并由 `FieldType.FieldTOCEntry` 枚举表示。<br>`TOC` 中的 &#92;F 开关用于指定 TC 字段应用作条目。开关本身没有任何额外的标识符，这意味着文档中的任何 TC 字段都将被包含在内。任何额外的参数（通常是单个字母）将指定只有具有匹配的 \f 开关的 TC 字段才会包含在 TOC 中。例如 *</p>
 
-<p>{{< highlight csharp >}}
-
-<p>  { TOC \f t } </p><p>{{< /highlight >}}</p>
+<p>{{< highlight csharp >}}{ TOC \f t }{{< /highlight >}}</p>
 
 <p>将仅包含 TC 字段，例如</p>
 
-<p>{{< highlight csharp >}}
-p> {   TC \f t }</p><p>{{< /highlight >}}</p>
+<p>{{< highlight csharp >}}{ TC \f t }{{< /highlight >}}</p>
 
-<p>`TOC` 字段还有一个相关的开关，"\L"开关指定仅包含级别在指定范围内的 TC 字段。</p>
+<p>`TOC` 字段还有一个相关的开关，&#92;L开关指定仅包含级别在指定范围内的 TC 字段。</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
 <p>`TC` 字段本身也可以设置 `{several, multiple, a few, many, numerous}` 开关。这些都是：</p>
 
-<p>- *\F – 如上所述。*</p>
+<p>- *&#92;F – 如上所述。*</p>
 
-<p>- *\L – 定义此 TC 字段将出现在 `TOC` 中的哪个级别。使用此相同开关的 `TOC` 仅在指定范围内包含此 TC 字段。*</p>
+<p>- *&#92;L – 定义此 TC 字段将出现在 `TOC` 中的哪个级别。使用此相同开关的 `TOC` 仅在指定范围内包含此 TC 字段。*</p>
 
-<p>- `_\N` – 不显示此 `TOC` 条目的页码。如何插入 TC 字段的示例代码可以在下一节中找到。</p> |
+<p>- _&#92;N – 不显示此 `TOC` 条目的页码。如何插入 TC 字段的示例代码可以在下一节中找到。</p> |
 
 ### 外观相关开关
 
 |  转变 | 描述 |
 |  :-  |  :-  |
-| **Omit Page Numbers**<br>*(\N 开关)* | <p>此开关用于隐藏目录某些级别的页码。例如你可以定义</p>
+| **Omit Page Numbers**<br>*(&#92;N 开关)* | <p>此开关用于隐藏目录某些级别的页码。例如你可以定义</p>
 
-<p>{{< highlight csharp >}}
-<p>  {TOC \o "1-4" \n "3-4" } </p><p>{{< /highlight >}}</p>
+<p>{{< highlight csharp >}}{TOC \o "1-4" \n "3-4" }{{< /highlight >}}</p>
 
 <p>第 3 级和第 4 级条目上的页码将与前导点（如果有）一起隐藏。要仅指定一个级别，仍应使用范围，例如"1-1"将仅排除第一级别的页码。<br>不提供级别范围将省略目录中所有级别的页码。将文档导出为 HTML 或类似格式时，此设置非常有用。这是因为基于 HTML 的格式没有任何页面概念，因此不需要任何页码。</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-6.png)</p> |
-| **Insert As Hyperlinks**<br>*(\H 开关)* | <p>此开关指定 `TOC` 条目作为超链接插入。在 Microsoft Word 中查看文档时，这些条目仍将显示为 `TOC` 中的普通文本，但带有超链接，因此可通过在 Microsoft Word 中使用 *Ctrl + 左键单击* 导航到文档中原始条目的位置。当包含此开关时，这些链接也会以其他格式保留。例如，在基于 HTML 的格式（包括 EPUB）和渲染格式（如 PDF 和 XPS）中，这些格式将作为工作链接导出。<br>如果没有设置此开关，所有这些输出中的 `TOC` 都将导出为纯文本，并且不会演示此行为。如果在 MS Word 中打开文档，则条目的文本也将无法通过这种方式单击，但仍可以使用页码导航到原始条目。</p>
+| **Insert As Hyperlinks**<br>*(&#92;H 开关)* | <p>此开关指定 `TOC` 条目作为超链接插入。在 Microsoft Word 中查看文档时，这些条目仍将显示为 `TOC` 中的普通文本，但带有超链接，因此可通过在 Microsoft Word 中使用 *Ctrl + 左键单击* 导航到文档中原始条目的位置。当包含此开关时，这些链接也会以其他格式保留。例如，在基于 HTML 的格式（包括 EPUB）和渲染格式（如 PDF 和 XPS）中，这些格式将作为工作链接导出。<br>如果没有设置此开关，所有这些输出中的 `TOC` 都将导出为纯文本，并且不会演示此行为。如果在 MS Word 中打开文档，则条目的文本也将无法通过这种方式单击，但仍可以使用页码导航到原始条目。</p>
 
 <p>![working-with-table-of-contents-titles](/words/net/working-with-table-of-contents/working-with-table-of-contents-7.png)</p> |
-| **Set Separator Character**<br>*(\P 开关)* | <p>此开关允许在目录中轻松更改分隔条目标题和页码的内容。要使用的分隔符应在此开关之后指定并包含在语音标记中。<br>与 Office 文档中记录的相反，只能使用 1 个字符，而不是最多 5 个字符。这适用于 MS Word 和 Aspose.Words。<br>不建议使用此开关，因为它不允许对用于分隔目录中的条目和页码的内容进行太多控制。相反，建议编辑适当的 `TOC` 样式（例如 `StyleIdentifier.TOC1`），然后通过访问特定字体成员等来编辑引线样式。有关如何执行此操作的更多详细信息，请参阅本文后面的内容。</p>
+| **Set Separator Character**<br>*(&#92;P 开关)* | <p>此开关允许在目录中轻松更改分隔条目标题和页码的内容。要使用的分隔符应在此开关之后指定并包含在语音标记中。<br>与 Office 文档中记录的相反，只能使用 1 个字符，而不是最多 5 个字符。这适用于 MS Word 和 Aspose.Words。<br>不建议使用此开关，因为它不允许对用于分隔目录中的条目和页码的内容进行太多控制。相反，建议编辑适当的 `TOC` 样式（例如 `StyleIdentifier.TOC1`），然后通过访问特定字体成员等来编辑引线样式。有关如何执行此操作的更多详细信息，请参阅本文后面的内容。</p>
 
 <p>![working-with-table-of-contents-toc](/words/net/working-with-table-of-contents/working-with-table-of-contents-8.png)</p> |
-| **Preserve Tab Entries**<br>*(\W 开关)* | <p>使用此开关将指定任何具有制表符的条目（例如在行末尾具有制表符的标题）将在填充目录时保留为正确的制表符。这意味着制表符的功能将出现在 `TOC` 中并可用于格式化条目。例如，某些条目可能使用制表位和制表符来均匀地间隔文本。只要相应的 `TOC` 级别定义了等效的制表位，那么生成的 `TOC` 条目将以相似的间距显示。<br><br>在相同的情况下，如果未定义此开关，则制表符将转换为相当于非功能制表符的空白。那么输出将不会按预期出现。</p>
+| **Preserve Tab Entries**<br>*(&#92;W 开关)* | <p>使用此开关将指定任何具有制表符的条目（例如在行末尾具有制表符的标题）将在填充目录时保留为正确的制表符。这意味着制表符的功能将出现在 `TOC` 中并可用于格式化条目。例如，某些条目可能使用制表位和制表符来均匀地间隔文本。只要相应的 `TOC` 级别定义了等效的制表位，那么生成的 `TOC` 条目将以相似的间距显示。<br><br>在相同的情况下，如果未定义此开关，则制表符将转换为相当于非功能制表符的空白。那么输出将不会按预期出现。</p>
 
 <p>![working-with-table-of-contents-aspose](/words/net/working-with-table-of-contents/working-with-table-of-contents-9.png)</p> |
-| **Preserve New Line Entries**<br>*(\X 开关)* | <p>与上面的开关类似，此开关指定跨多行的标题（使用换行符而不是单独的段落）将按照生成的目录中的样子保留。例如，跨多行的标题可以使用换行符（Ctrl + Enter 或 `ControlChar.LineBreak`）来分隔不同行的内容。指定此开关后，`TOC` 中的条目将保留这些换行符，如下所示。<br><br>在这种情况下，如果未定义开关，则新行字符将转换为单个空格。</p>
+| **Preserve New Line Entries**<br>*(&#92;X 开关)* | <p>与上面的开关类似，此开关指定跨多行的标题（使用换行符而不是单独的段落）将按照生成的目录中的样子保留。例如，跨多行的标题可以使用换行符（Ctrl + Enter 或 `ControlChar.LineBreak`）来分隔不同行的内容。指定此开关后，`TOC` 中的条目将保留这些换行符，如下所示。<br><br>在这种情况下，如果未定义开关，则新行字符将转换为单个空格。</p>
 
 <p>![working-with-table-of-contents-aspose-words](/words/net/working-with-table-of-contents/working-with-table-of-contents-10.png)</p> |
 

@@ -25,7 +25,8 @@ Mit Aspose.Words für Python via .NET können Sie Dokumente ohne Drittanbieteran
 <div class="row">
 		<div class="col-md-4">
 				<p><b>Über Aspose.Words</b></p>
-						<hr><p>ÜBERBLICK</p></hr>
+						<hr>
+						<p>ÜBERBLICK</p>
 						<ul>
 								<li><a href="/words/de/python-net/product-overview/">Produktübersicht</a></li>
 								<li><a href="/words/de/python-net/licensing/">Lizenzierung und Abonnement</a></li>
@@ -43,7 +44,8 @@ Mit Aspose.Words für Python via .NET können Sie Dokumente ohne Drittanbieteran
 		</div>
 		<div class="col-md-4">
 				<p><b>Loslegen</b></p>
-						<hr><p>ERSTE SCHRITTE</p></hr>
+						<hr>
+						<p>ERSTE SCHRITTE</p>
 						<ul>
 								<li><a href="/words/de/python-net/supported-document-formats/">Unterstützte Dokumentformate</a></li>
 								<li><a href="/words/de/python-net/features/">Unterstützte Funktionen</a></li>
@@ -59,7 +61,8 @@ Mit Aspose.Words für Python via .NET können Sie Dokumente ohne Drittanbieteran
 		</div>
 		<div class="col-md-4">
 				<p><b>Funktionen entwickeln</b></p>
-						<hr><p>FÜHRUNG</p></hr>
+						<hr>
+						<p>FÜHRUNG</p>
 						<ul>
 								<li><a href="/words/de/python-net/loading-saving-and-converting/">Laden, Speichern und Konvertieren</a></li>
 								<li><a href="/words/de/python-net/rendering/">Rendern</a></li>

@@ -62,7 +62,7 @@ Para un documento PDF/UA-1 con una estructura débil, se requiere además que lo
    <summary>La especificación nos dice lo siguiente (ampliar para ver detalles):</summary>
    <p></p>
    <p>La estructura a nivel de bloque puede seguir uno de dos paradigmas principales:</p>
-   </ol>
+   <ol>
      <li>Fuertemente estructurado. Los elementos de agrupación se anidan en tantos niveles como sea necesario para reflejar la organización del material en artículos, secciones, subsecciones, etc. En cada nivel, los elementos secundarios del elemento de agrupación deben consistir en un título (H), uno o más párrafos (P) para el contenido de ese nivel y quizás uno o más elementos de agrupación adicionales para las subsecciones anidadas.</li>
      <li>Débilmente estructurado. El documento es relativamente plano y tiene quizás sólo uno o dos niveles de elementos de agrupación, con todos los títulos, párrafos y otros BLSE como sus hijos inmediatos. En este caso, la organización del material no se refleja en la estructura lógica; sin embargo, puede expresarse mediante el uso de títulos con niveles específicos (H1-H6).</li>
    </ol>
@@ -110,7 +110,7 @@ Por el momento, Aspose.Words marca los encabezados y pies de página, los separa
    <summary>La especificación nos dice lo siguiente (ampliar para ver detalles):</summary>
    <p></p>
    <p>Los objetos gráficos de un documento se pueden dividir en dos clases:</p>
-   </ol>
+   <ol>
      <li>El contenido real de un documento comprende objetos que representan material introducido originalmente por el autor del documento.</li>
      <li>Los artefactos son objetos gráficos que no forman parte del contenido original del autor, sino que son generados por el escritor conforme en el curso de la paginación, el diseño u otros procesos estrictamente mecánicos.</li>
    </ol>

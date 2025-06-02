@@ -25,7 +25,8 @@ Aspose.Words поддерживает большинство популярны�
 <div class="row">
 	<div class="col-md-4">
 		<p><b>Примерно Aspose.Words</b></p>
-			<hr><p>OVERVIEW</p></hr>
+			<hr>
+			<p>OVERVIEW</p>
 			<ul>
 				<li><a href="/words/java/what-s-new-in-aspose-words-for-java/">Что нового в Aspose.Words для Java</a></li>
 				<li><a href="/words/java/product-overview/">Обзор продукта</a></li>
@@ -44,7 +45,8 @@ Aspose.Words поддерживает большинство популярны�
 	</div>
 	<div class="col-md-4">
 		<p><b>Начать</b></p>
-			<hr><p>GETTING STARTED</p></hr>
+			<hr>
+			<p>GETTING STARTED</p>
 			<ul>
 				<li><a href="/words/java/supported-document-formats/">Поддерживаемые форматы документов</a></li>
 				<li><a href="/words/java/features/">Особенности</a></li>
@@ -60,7 +62,8 @@ Aspose.Words поддерживает большинство популярны�
 	</div>
 	<div class="col-md-4">
 		<p><b>Разработка функций</b></p>
-			<hr><p>GUIDE</p></hr>
+			<hr>
+			<p>GUIDE</p>
 			<ul>
 				<li><a href="/words/java/loading-saving-and-converting/">Загрузка, сохранение и преобразование</a></li>
 				<li><a href="/words/java/rendering/">Визуализация</a></li>
