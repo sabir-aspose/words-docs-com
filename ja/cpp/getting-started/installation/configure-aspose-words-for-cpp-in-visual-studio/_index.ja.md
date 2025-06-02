@@ -25,7 +25,6 @@ C++の場合Aspose.Words APIはVisual Studio 2022以降で動作します。 Vis
         <Import Project="<path-to>\CodePorting.Translator.Cs2Cpp.Framework_<version>\CodePorting.Translator.Cs2Cpp.Framework.targets" Condition="Exists('<path-to>\CodePorting.Translator.Cs2Cpp.Framework_<version>\CodePorting.Translator.Cs2Cpp.Framework.targets')" />
         <Import Project="<path-to>\Aspose.Words.Cpp\aspose.words.cpp.targets" Condition="Exists('<path-to>\Aspose.Words.Cpp\aspose.words.cpp.targets')" />
     </ImportGroup>
-    </Project>
     {{< /highlight >}}
 
 ## 手動で構成する

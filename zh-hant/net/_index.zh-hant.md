@@ -25,7 +25,8 @@ Aspose.Words 支援大多數流行的文件格式，如 DOC、DOCX、RTF、HTML�
 <div class="row">
 	<div class="col-md-4">
 		<p><b>大約 Aspose.Words 個</b></p>
-			<hr><p>概覽</p></hr>
+			<hr>
+			<p>概覽</p>
 			<ul>
 				<li><a href="/words/net/what-s-new-in-aspose-words-for-net/">What's new in Aspose.Words for .NET</a></li>
 				<li><a href="/words/net/product-overview/">Product Overview</a></li>
@@ -44,7 +45,8 @@ Aspose.Words 支援大多數流行的文件格式，如 DOC、DOCX、RTF、HTML�
 	</div>
 	<div class="col-md-4">
 		<p><b>開始使用</b></p>
-			<hr><p>開頭</p></hr>
+			<hr>
+			<p>開頭</p>
 			<ul>
 				<li><a href="/words/net/supported-document-formats/">Supported Document Formats</a></li>
 				<li><a href="/words/net/features/">Features</a></li>
@@ -61,7 +63,8 @@ Aspose.Words 支援大多數流行的文件格式，如 DOC、DOCX、RTF、HTML�
 	</div>
 	<div class="col-md-4">
 		<p><b>發展功能</b></p>
-			<hr><p>指南</p></hr>
+			<hr>
+			<p>指南</p>
 			<ul>
 				<li><a href="/words/net/loading-saving-and-converting/">Loading, Saving and Converting</a></li>
 				<li><a href="/words/net/rendering/">Rendering</a></li>

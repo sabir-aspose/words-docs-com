@@ -14,7 +14,7 @@ This article explains how to use SharePoint Designer to create a workflow for co
 
 ## Select Source and Destination Document Libraries
 
-First choose the source and destination document library for converting documents. For this example, we want to convert all new documents in a library called “Incoming Documents” and store the converted documents in a library called “Converted Documents”, placing the result in the “PDF” subfolder. To reproduce this example, create these libraries in a SharePoint site you use for testing. Alternatively, use existing libraries instead of the suggested example libraries. When a workflow is executed, it has the permissions of the user who initiated it. So in order to store the converted documents, users need permission to add and update documents in the destination library.
+First choose the source and destination document library for converting documents. For this example, we want to convert all new documents in a library called “Incoming Documents” and store the converted documents in a library called “Converted Documents”, placing the result in the PDF subfolder. To reproduce this example, create these libraries in a SharePoint site you use for testing. Alternatively, use existing libraries instead of the suggested example libraries. When a workflow is executed, it has the permissions of the user who initiated it. So in order to store the converted documents, users need permission to add and update documents in the destination library.
 
 ## Create a New Workflow
 

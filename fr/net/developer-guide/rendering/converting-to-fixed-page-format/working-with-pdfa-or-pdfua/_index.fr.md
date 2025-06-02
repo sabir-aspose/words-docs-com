@@ -62,7 +62,7 @@ Pour un document PDF/UA-1 avec une structure faible, il est en outre requis que 
     <summary>La spécification nous indique ce qui suit (développez pour voir les détails):</summary>
     <p></p>
     <p>La structure au niveau des blocs peut suivre l'un des deux paradigmes principaux:</p>
-    </ol>
+    <ol>
       <li>Fortement structuré. Les éléments de regroupement s'imbriquent sur autant de niveaux que nécessaire pour refléter l'organisation du matériel en articles, sections, sous-sections, etc. À chaque niveau, les enfants de l'élément de regroupement doivent être constitués d'un titre (H), d'un ou plusieurs paragraphes (P) pour le contenu à ce niveau et éventuellement d'un ou plusieurs éléments de regroupement supplémentaires pour les sous-sections imbriquées.</li>
       <li>Faiblement structuré. Le document est relativement plat, n'ayant peut-être qu'un ou deux niveaux d'éléments de regroupement, avec tous les titres, paragraphes et autres BLSE comme enfants immédiats. Dans ce cas, l’organisation du matériel ne se reflète pas dans la structure logique ; cependant, cela peut être exprimé par l'utilisation de rubriques avec des niveaux spécifiques (H1 à H6).</li>
     </ol>
@@ -110,7 +110,7 @@ Pour le moment, Aspose.Words marque les en-têtes et pieds de page, les séparat
     <summary>La spécification nous indique ce qui suit (développez pour voir les détails):</summary>
     <p></p>
     <p>Les objets graphiques d'un document peuvent être divisés en deux classes:</p>
-    </ol>
+    <ol>
       <li>Le contenu réel d'un document comprend des objets représentant le matériel initialement introduit par l'auteur du document.</li>
       <li>Les artefacts sont des objets graphiques qui ne font pas partie du contenu original de l'auteur mais sont plutôt générés par l'écrivain conforme au cours de la pagination, de la mise en page ou d'autres processus strictement mécaniques.</li>
     </ol>

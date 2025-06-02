@@ -72,7 +72,7 @@ Stejně jako u jiných polí, `TOC` pole může přijmout přepínače definovan
 ![ccontrol-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-2.png)
 
 
-Ve výchozím nastavení jsou tyto přepínače zahrnuty při vkládání výchozí hodnoty `TOC` v dokumentu. A `TOC` bez výhybek bude obsahovat obsah ze vestavěných stylů (jako když je nastaven \O switch).
+Ve výchozím nastavení jsou tyto přepínače zahrnuty při vkládání výchozí hodnoty `TOC` v dokumentu. A `TOC` bez výhybek bude obsahovat obsah ze vestavěných stylů (jako když je nastaven &#92;O switch).
 
 Dostupné `TOC` přepínače, které jsou podporovány Aspose.Words jsou uvedeny níže a jejich použití je podrobně popsáno. Mohou být rozděleny do samostatných sekcí podle svého typu. Přepínače v první části definují, jaký obsah má obsahovat `TOC` a přepínače ve druhém úseku ovládají vzhled TOC.
 
@@ -82,13 +82,13 @@ Pokud zde není uveden spínač, není v současné době podporován. Všechny 
 
 |  Přepnout | Popis zboží |
 |  :-  |  :-  |
-| **Heading Styles** <br/> *(\O Switch) * <br/> | <p>Tento spínač definuje, že `TOC` by měly být postaveny mimo vestavěný směrový styl. In Microsoft Word, jsou definovány v čísle 1 9. Aspose.Words tyto styly jsou reprezentovány odpovídajícím stylemIdentifier počet. Tato číslice představuje lokální nezávislý identifikátor stylu, například: `StyleIdentifier.Heading1` představuje styl záhlaví 1. Díky tomu lze formátování a vlastnosti stylu získat ze sbírky stylu dokumentu. Odpovídající styl třídy lze získat z `Document.Styles` sběr pomocí indexované vlastnosti typu StyleIdentifier.</p>
+| **Heading Styles** <br/> *(&#92;O Switch) * <br/> | <p>Tento spínač definuje, že `TOC` by měly být postaveny mimo vestavěný směrový styl. In Microsoft Word, jsou definovány v čísle 1 9. Aspose.Words tyto styly jsou reprezentovány odpovídajícím stylemIdentifier počet. Tato číslice představuje lokální nezávislý identifikátor stylu, například: `StyleIdentifier.Heading1` představuje styl záhlaví 1. Díky tomu lze formátování a vlastnosti stylu získat ze sbírky stylu dokumentu. Odpovídající styl třídy lze získat z `Document.Styles` sběr pomocí indexované vlastnosti typu StyleIdentifier.</p>
 
 <p>![style-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-3.png)</p>
 
 <p><br/><br/>Jakýkoli obsah upravený těmito styly je zahrnut v obsahu. Úroveň záhlaví bude definovat odpovídající hierarchickou úroveň vstupu v TOC. Například odstavec s číslem 1 bude považován za první úroveň v `TOC` Zatímco odstavec s číslem 2 bude považován za další úroveň v hierarchii a tak dále.</p>
  |
-| **Outline Levels** <br/> *(\U switch) * <br/> | <p>Každý odstavec může definovat úroveň obrysu podle možností odstavce.</p>
+| **Outline Levels** <br/> *(&#92;U switch) * <br/> | <p>Každý odstavec může definovat úroveň obrysu podle možností odstavce.</p>
 
 <p>![modify-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-4.png)</p>
 
@@ -100,26 +100,23 @@ Pokud zde není uveden spínač, není v současné době podporován. Všechny 
 
 <p>{{% /alert %}}</p>
  |
-| **Custom Styles** <br/> *(\ T switch) * <br/> | <p>Tento spínač umožní použití vlastních stylů při shromažďování položek v TOC. Často se používá ve spojení s \O přepínačem, aby zahrnoval vlastní styly spolu s vestavěným kurzovým stylem v TOC. <br/>Parametry přepínače by měly být uvedeny ve znacích řeči. Mnoho vlastních stylů může být zahrnuto, pro každý styl, název by měl být uveden následuje čárka následuje úroveň, že styl by se měl objevit v `TOC` a. Další styly jsou také odděleny čárkou. <br/>Například</p>
+| **Custom Styles** <br/> *(&#92;T switch) * <br/> | <p>Tento spínač umožní použití vlastních stylů při shromažďování položek v TOC. Často se používá ve spojení s &#92;O přepínačem, aby zahrnoval vlastní styly spolu s vestavěným kurzovým stylem v TOC. <br/>Parametry přepínače by měly být uvedeny ve znacích řeči. Mnoho vlastních stylů může být zahrnuto, pro každý styl, název by měl být uveden následuje čárka následuje úroveň, že styl by se měl objevit v `TOC` a. Další styly jsou také odděleny čárkou. <br/>Například</p>
 
-<p>{{< highlight csharp >}}
-{ TOC \o "1-3" \t "CustomHeading1, 1,   CustomHeading2, 2"}{{< /highlight >}}</p>
+<p>{{< highlight csharp >}}{ TOC \o "1-3" \t "CustomHeading1, 1,   CustomHeading2, 2"}{{< /highlight >}}</p>
 
 <p>bude používat obsah ve stylu CustomHeading1 jako obsah úrovně 1 v `TOC` a CustomHeading2 jako úroveň 2.</p>
  |
-| Použít TC pole <br/> *(\F a \L přepínače) * <br/> | <p>Ve starších verzích Microsoft Word, Jediný způsob, jak postavit `TOC` bylo použití TC polí. Tato pole jsou vložena do dokumentu, i když jsou zobrazeny kódy polí. Zahrnuje text, který by měl být zobrazen v záznamu a `TOC` je z nich postaven. Tato funkce se nyní nepoužívá velmi často, ale může být stále užitečné v některých případech zahrnout položky do `TOC` které nejsou označeny jako viditelné v dokumentu. <br/>Při vložení se tato pole objeví skrytá i při zobrazení kódů polí. Nemůžou být vidět, aniž by ukázali skrytý obsah. Pro zobrazení těchto polí je třeba zvolit formátování odstavce.</p>
+| Použít TC pole <br/> *(&#92;F a &#92;L přepínače) * <br/> | <p>Ve starších verzích Microsoft Word, Jediný způsob, jak postavit `TOC` bylo použití TC polí. Tato pole jsou vložena do dokumentu, i když jsou zobrazeny kódy polí. Zahrnuje text, který by měl být zobrazen v záznamu a `TOC` je z nich postaven. Tato funkce se nyní nepoužívá velmi často, ale může být stále užitečné v některých případech zahrnout položky do `TOC` které nejsou označeny jako viditelné v dokumentu. <br/>Při vložení se tato pole objeví skrytá i při zobrazení kódů polí. Nemůžou být vidět, aniž by ukázali skrytý obsah. Pro zobrazení těchto polí je třeba zvolit formátování odstavce.</p>
 
 <p>![setup-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-5.png)</p>
 
-<p>Tato pole mohou být vložena do dokumentu v jakékoli pozici, jako je jakékoli jiné pole a jsou zastoupena `FieldType.FieldTOCEntry` výčtu.<br/>\F přepínač v `TOC` se používá k upřesnění, že TC pole by měla být použita jako položky. Přepínač sám o sobě bez jakéhokoliv dalšího identifikátoru znamená, že bude zahrnuto jakékoliv TC pole v dokumentu. Jakýkoli další parametr, často jedno písmeno, určí, že do TOC budou zahrnuta pouze TC pole, která mají odpovídající \f switch. Například *</p>
+<p>Tato pole mohou být vložena do dokumentu v jakékoli pozici, jako je jakékoli jiné pole a jsou zastoupena `FieldType.FieldTOCEntry` výčtu.<br/>&#92;F přepínač v `TOC` se používá k upřesnění, že TC pole by měla být použita jako položky. Přepínač sám o sobě bez jakéhokoliv dalšího identifikátoru znamená, že bude zahrnuto jakékoliv TC pole v dokumentu. Jakýkoli další parametr, často jedno písmeno, určí, že do TOC budou zahrnuta pouze TC pole, která mají odpovídající \f switch. Například *</p>
 
-<p>{{< highlight csharp >}}
-{ TOC \f t }{{< /highlight >}}</p>
+<p>{{< highlight csharp >}}{ TOC \f t }{{< /highlight >}}</p>
 
 <p>budou zahrnovat pouze TC pole jako např.</p>
 
-<p>{{< highlight csharp >}}
-{ TC \f t }{{< /highlight >}}</p>
+<p>{{< highlight csharp >}}{ TC \f t }{{< /highlight >}}</p>
 
 <p>The `TOC` pole má také související spínač, spínač</p>
 
@@ -138,28 +135,27 @@ Pokud zde není uveden spínač, není v současné době podporován. Všechny 
 
 |  Přepnout | Popis zboží |
 |  :-  |  :-  |
-| **Omit Page Numbers** <br/> *(\N Switch) * | <p>Tento spínač se používá ke skrytí čísel stránek pro určité úrovně TOC. Například, můžete definovat</p>
+| **Omit Page Numbers** <br/> *(&#92;N Switch) * | <p>Tento spínač se používá ke skrytí čísel stránek pro určité úrovně TOC. Například, můžete definovat</p>
 
-<p>{{< highlight csharp >}}
-{TOC \o "1-4" \n "3-4" }{{< /highlight >}}</p>
+<p>{{< highlight csharp >}}{TOC \o "1-4" \n "3-4" }{{< /highlight >}}</p>
 
 <p>a čísla stránek na položky úrovně 3 a čtyři budou skryty spolu s body vůdce (pokud existují). Pro upřesnění pouze jedné úrovně by měl být stále použit rozsah, například ~1-1 ~1 - ~ bude vyloučeno číslo stránky pouze pro první úroveň. <br/>Dodání žádné úrovně rozsah bude vynechat čísla stránek pro všechny úrovně v TOC. To je užitečné nastavit při exportu dokumentu do HTML nebo podobného formátu. To je proto, že formáty založené na HTML nemají žádnou koncepci stránky, a proto donnot potřebují jakékoliv číslování stránky.</p>
 
 <p>![table-of-contents-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-7.png)</p>
  |
-| Vložit jako hypertextové odkazy <br/> *(\H Switch) * | <p>Tento spínač udává, že `TOC` položky se vkládají jako hypertextové odkazy. Při pohledu na dokument Microsoft Word tyto položky se stále objeví jako normální text uvnitř `TOC` ale jsou hyperlinkované a lze je tedy použít k navigaci do polohy původního záznamu v dokumentu pomocí *Ctrl + Left Click* v Microsoft Word. Pokud je tento spínač součástí, pak jsou tyto odkazy zachovány i v jiných formátech. Například ve formátech založených na HTML, včetně EPUB a interpretovaných formátů jako PDF a XPS, budou exportovány jako pracovní odkazy. <br/>Bez tohoto přepínače `TOC` ve všech těchto výstupech bude exportován jako prostý text a nebude demonstrovat toto chování. Pokud je dokument otevřen v MS Word, text záznamů nebude také možné kliknout tímto způsobem, ale čísla stránek mohou být stále použita k navigaci na původní záznam.</p>
+| Vložit jako hypertextové odkazy <br/> *(&#92;H Switch) * | <p>Tento spínač udává, že `TOC` položky se vkládají jako hypertextové odkazy. Při pohledu na dokument Microsoft Word tyto položky se stále objeví jako normální text uvnitř `TOC` ale jsou hyperlinkované a lze je tedy použít k navigaci do polohy původního záznamu v dokumentu pomocí *Ctrl + Left Click* v Microsoft Word. Pokud je tento spínač součástí, pak jsou tyto odkazy zachovány i v jiných formátech. Například ve formátech založených na HTML, včetně EPUB a interpretovaných formátů jako PDF a XPS, budou exportovány jako pracovní odkazy. <br/>Bez tohoto přepínače `TOC` ve všech těchto výstupech bude exportován jako prostý text a nebude demonstrovat toto chování. Pokud je dokument otevřen v MS Word, text záznamů nebude také možné kliknout tímto způsobem, ale čísla stránek mohou být stále použita k navigaci na původní záznam.</p>
 
 <p>![tree-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-8.png)</p>
  |
-| **Set Separator Character** <br/> *(\P Switch) * <br/> | <p>Tento přepínač umožňuje snadno změnit obsah oddělení názvu záznamu a číslování stránek v TOC. Oddělovač, který má být použit, by měl být za tímto přepínačem uveden a uveden ve známkách řeči. <br/>Na rozdíl od toho, co je zdokumentováno v dokumentaci úřadu, může být použit pouze jeden znak namísto pěti. To platí jak pro MS Word a Aspose.Words. <br/>Použití tohoto přepínače se nedoporučuje, protože neumožňuje mnoho kontroly nad tím, co použil k oddělení položek a čísel stránek v TOC. Místo toho se doporučuje upravit vhodné `TOC` styl, jako je `StyleIdentifier.TOC1` a odtud editovat styl vůdce s přístupem ke konkrétním členům písma atd. Další podrobnosti o tom, jak to udělat, najdeme později v článku.</p>
+| **Set Separator Character** <br/> *(&#92;P Switch) * <br/> | <p>Tento přepínač umožňuje snadno změnit obsah oddělení názvu záznamu a číslování stránek v TOC. Oddělovač, který má být použit, by měl být za tímto přepínačem uveden a uveden ve známkách řeči. <br/>Na rozdíl od toho, co je zdokumentováno v dokumentaci úřadu, může být použit pouze jeden znak namísto pěti. To platí jak pro MS Word a Aspose.Words. <br/>Použití tohoto přepínače se nedoporučuje, protože neumožňuje mnoho kontroly nad tím, co použil k oddělení položek a čísel stránek v TOC. Místo toho se doporučuje upravit vhodné `TOC` styl, jako je `StyleIdentifier.TOC1` a odtud editovat styl vůdce s přístupem ke konkrétním členům písma atd. Další podrobnosti o tom, jak to udělat, najdeme později v článku.</p>
 
 <p>![list-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-9.png)</p>
  |
-| **Preserve Tab Entries** <br/> *(\W Switch) * | <p>Pomocí tohoto přepínače bude uvedeno, že všechny položky, které mají znak záložky, například nadpis, který má kartu na konci řádku, budou zachovány jako správný znak karty při zalidnění TOC. To znamená, že funkce znaku karty bude přítomna v `TOC` a lze jej použít pro formátování záznamu. Například některé položky mohou použít záložky a znaky záložky k rovnoměrnému vyškrtnutí textu. Tak dlouho jako odpovídající `TOC` úroveň definuje ekvivalentní kartu zastaví pak generované `TOC` položky se objeví s podobným odstupem. <br/><br/>Ve stejné situaci, pokud tento přepínač nebyl definován, pak by znaky záložky byly převedeny na bílý ekvivalent místa jako nefunkční záložky. Výstup by pak nevypadal podle očekávání.</p>
+| **Preserve Tab Entries** <br/> *(&#92;W Switch) * | <p>Pomocí tohoto přepínače bude uvedeno, že všechny položky, které mají znak záložky, například nadpis, který má kartu na konci řádku, budou zachovány jako správný znak karty při zalidnění TOC. To znamená, že funkce znaku karty bude přítomna v `TOC` a lze jej použít pro formátování záznamu. Například některé položky mohou použít záložky a znaky záložky k rovnoměrnému vyškrtnutí textu. Tak dlouho jako odpovídající `TOC` úroveň definuje ekvivalentní kartu zastaví pak generované `TOC` položky se objeví s podobným odstupem. <br/><br/>Ve stejné situaci, pokud tento přepínač nebyl definován, pak by znaky záložky byly převedeny na bílý ekvivalent místa jako nefunkční záložky. Výstup by pak nevypadal podle očekávání.</p>
 
 <p>![tab-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-10.png)</p>
  |
-| **Preserve New Line Entries** <br/> *(\ X Switch) * <br/> | <p>Podobně jako výše uvedený přepínač, tento spínač udává, že položky sahající přes více řádků (pomocí nových znaků, nikoli samostatných odstavců) budou zachovány tak, jak jsou ve generovaném TOC. Například nadpis, který se má šířit přes více řádků, může použít nový znak řádku (Ctrl + Enter nebo `ControlChar.LineBreak`) oddělit obsah přes různé řádky. S tímto přepínačem stanoveným, položka v `TOC` zachová tyto nové znaky, jak je uvedeno níže. <br/><br/>V této situaci, pokud přepínač není definován, pak nové znaky řádku jsou převedeny na jediný bílý prostor.</p>
+| **Preserve New Line Entries** <br/> *(&#92;X Switch) * <br/> | <p>Podobně jako výše uvedený přepínač, tento spínač udává, že položky sahající přes více řádků (pomocí nových znaků, nikoli samostatných odstavců) budou zachovány tak, jak jsou ve generovaném TOC. Například nadpis, který se má šířit přes více řádků, může použít nový znak řádku (Ctrl + Enter nebo `ControlChar.LineBreak`) oddělit obsah přes různé řádky. S tímto přepínačem stanoveným, položka v `TOC` zachová tyto nové znaky, jak je uvedeno níže. <br/><br/>V této situaci, pokud přepínač není definován, pak nové znaky řádku jsou převedeny na jediný bílý prostor.</p>
 
 <p>![tab-space-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-11.png)</p>
  |

@@ -25,7 +25,8 @@ Aspose.Words支持大多数流行的文档格式，例如DOC, DOCX, RTF, HTML, M
 <div class="row">
 	<div class="col-md-4">
 		<p><b>关于Aspose.Words</b></p>
-			<hr><p>OVERVIEW</p></hr>
+			<hr>
+			<p>OVERVIEW</p>
 			<ul>
 				<li><a href="/words/cpp/what-s-new-in-aspose-words-for-cpp/">最新消息 Aspose.Words对于C++</a></li>
 				<li><a href="/words/cpp/product-overview/">产品概览</a></li>
@@ -44,7 +45,8 @@ Aspose.Words支持大多数流行的文档格式，例如DOC, DOCX, RTF, HTML, M
 	</div>
 	<div class="col-md-4">
 		<p><b>开始吧</b></p>
-			<hr><p>GETTING STARTED</p></hr>
+			<hr>
+			<p>GETTING STARTED</p>
 			<ul>
 				<li><a href="/words/cpp/supported-document-formats/">支持的文档格式</a></li>
 				<li><a href="/words/cpp/features/">特征</a></li>
@@ -60,7 +62,8 @@ Aspose.Words支持大多数流行的文档格式，例如DOC, DOCX, RTF, HTML, M
 	</div>
 	<div class="col-md-4">
 		<p><b>开发功能</b></p>
-			<hr><p>GUIDE</p></hr>
+			<hr>
+			<p>GUIDE</p>
 			<ul>
 				<li><a href="/words/cpp/loading-saving-and-converting/">加载、保存和转换</a></li>
 				<li><a href="/words/cpp/rendering/">渲染图</a></li>

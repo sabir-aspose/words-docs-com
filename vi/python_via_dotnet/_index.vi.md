@@ -25,7 +25,8 @@ Với Aspose.Words cho Python via .NET, bạn có thể tạo, sửa đổi, chu
 <div class="row">
 		<div class="col-md-4">
 				<p><b>Giới thiệu về Aspose.Words</b></p>
-						<hr><p>TỔNG QUAN</p></hr>
+						<hr>
+						<p>TỔNG QUAN</p>
 						<ul>
 								<li><a href="/words/vi/python-net/product-overview/">Tổng quan về sản phẩm</a></li>
 								<li><a href="/words/vi/python-net/licensing/">Cấp phép và đăng ký</a></li>
@@ -43,7 +44,8 @@ Với Aspose.Words cho Python via .NET, bạn có thể tạo, sửa đổi, chu
 		</div>
 		<div class="col-md-4">
 				<p><b>Bắt đầu</b></p>
-						<hr><p>BẮT ĐẦU</p></hr>
+						<hr>
+						<p>BẮT ĐẦU</p>
 						<ul>
 								<li><a href="/words/vi/python-net/supported-document-formats/">Định dạng tài liệu được hỗ trợ</a></li>
 								<li><a href="/words/vi/python-net/features/">Các tính năng được hỗ trợ</a></li>
@@ -59,7 +61,8 @@ Với Aspose.Words cho Python via .NET, bạn có thể tạo, sửa đổi, chu
 		</div>
 		<div class="col-md-4">
 				<p><b>Phát triển chức năng</b></p>
-						<hr><p>HƯỚNG DẪN</p></hr>
+						<hr>
+						<p>HƯỚNG DẪN</p>
 						<ul>
 								<li><a href="/words/vi/python-net/loading-saving-and-converting/">Đang tải, lưu và chuyển đổi</a></li>
 								<li><a href="/words/vi/python-net/rendering/">Kết xuất</a></li>

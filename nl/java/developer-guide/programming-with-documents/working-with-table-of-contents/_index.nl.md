@@ -72,7 +72,7 @@ Zoals bij elk ander veld, de `TOC` veld kan switches accepteren die gedefinieerd
 ![ccontrol-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-2.png)
 
 
-Standaard zijn deze schakelaars hierboven opgenomen bij het invoegen van een standaard `TOC` in het document. A `TOC` zonder switches bevat inhoud van de ingebouwde kopstijlen (alsof de \O switch is ingesteld).
+Standaard zijn deze schakelaars hierboven opgenomen bij het invoegen van een standaard `TOC` in het document. A `TOC` zonder switches bevat inhoud van de ingebouwde kopstijlen (alsof de &#92;O switch is ingesteld).
 
 De beschikbare `TOC` schakelaars die ondersteund worden door Aspose.Words worden hieronder vermeld en het gebruik ervan wordt in detail beschreven. Ze kunnen worden onderverdeeld in afzonderlijke secties op basis van hun type. De schakelaars in de eerste sectie bepalen welke inhoud in de `TOC` en de schakelaars in het tweede deel regelen het uiterlijk van de TOC.
 
@@ -82,13 +82,13 @@ Als een schakelaar hier niet wordt vermeld dan is deze momenteel niet ondersteun
 
 |  Wisselen | Omschrijving |
 |  :-  |  :-  |
-| **Heading Styles** <br/> *(\O Switch) * <br/> | <p>Deze switch definieert dat de `TOC` moeten worden ingebouwd van de ingebouwde koers stijlen. In Microsoft Word, Deze worden gedefinieerd in rubriek 1 9. In Aspose.Words deze stijlen worden vertegenwoordigd door de corresponderende StyleIdentifier opsomming. Deze opsomming vertegenwoordigt een lokale-onafhankelijke identificatie van een stijl, bijvoorbeeld, `StyleIdentifier.Heading1` vertegenwoordigt de rubriek 1 stijl. Met behulp hiervan kunnen de opmaak en eigenschappen van de stijl worden opgehaald uit de Style collectie van het document. De bijbehorende Style klasse kan worden opgehaald uit de `Document.Styles` verzameling door gebruik te maken van de geïndexeerde eigenschap van het type StyleIdentifier.</p>
+| **Heading Styles** <br/> *(&#92;O Switch) * <br/> | <p>Deze switch definieert dat de `TOC` moeten worden ingebouwd van de ingebouwde koers stijlen. In Microsoft Word, Deze worden gedefinieerd in rubriek 1 9. In Aspose.Words deze stijlen worden vertegenwoordigd door de corresponderende StyleIdentifier opsomming. Deze opsomming vertegenwoordigt een lokale-onafhankelijke identificatie van een stijl, bijvoorbeeld, `StyleIdentifier.Heading1` vertegenwoordigt de rubriek 1 stijl. Met behulp hiervan kunnen de opmaak en eigenschappen van de stijl worden opgehaald uit de Style collectie van het document. De bijbehorende Style klasse kan worden opgehaald uit de `Document.Styles` verzameling door gebruik te maken van de geïndexeerde eigenschap van het type StyleIdentifier.</p>
 
 <p>![style-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-3.png)</p>
 
 <p><br/><br/>Alle inhoud die met deze stijlen is geformatteerd, is opgenomen in de inhoudsopgave. Het niveau van de rubriek bepaalt het overeenkomstige hiërarchische niveau van de vermelding in de TOC. Zo zal een paragraaf met de stijl van rubriek 1 worden behandeld als het eerste niveau in de `TOC` terwijl een paragraaf met rubriek 2 wordt behandeld als het volgende niveau in de hiërarchie enzovoort.</p>
  |
-| **Outline Levels** <br/> *(\U switch) * <br/> | <p>Elke alinea kan in het kader van alineaopties een kaderniveau vaststellen.</p>
+| **Outline Levels** <br/> *(&#92;U switch) * <br/> | <p>Elke alinea kan in het kader van alineaopties een kaderniveau vaststellen.</p>
 
 <p>![modify-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-4.png)</p>
 
@@ -100,26 +100,23 @@ Als een schakelaar hier niet wordt vermeld dan is deze momenteel niet ondersteun
 
 <p>{{% /alert %}}</p>
  |
-| **Custom Styles** <br/> *(\T switch) * <br/> | <p>Deze switch zal het mogelijk maken aangepaste stijlen te gebruiken bij het verzamelen van items worden gebruikt in de TOC. Dit wordt vaak gebruikt in combinatie met de \O switch om aangepaste stijlen samen met ingebouwde kopstijlen in de TOC. <br/>De parameters van de schakelaar moeten binnen spraakmarkeringen worden ingesloten. Veel aangepaste stijlen kunnen worden opgenomen, voor elke stijl, de naam moet worden gespecificeerd gevolgd door een komma gevolgd door het niveau dat de stijl moet verschijnen in de `TOC` als. Andere stijlen worden ook gescheiden door een komma. <br/>Bijvoorbeeld</p>
+| **Custom Styles** <br/> *(&#92;T switch) * <br/> | <p>Deze switch zal het mogelijk maken aangepaste stijlen te gebruiken bij het verzamelen van items worden gebruikt in de TOC. Dit wordt vaak gebruikt in combinatie met de &#92;O switch om aangepaste stijlen samen met ingebouwde kopstijlen in de TOC. <br/>De parameters van de schakelaar moeten binnen spraakmarkeringen worden ingesloten. Veel aangepaste stijlen kunnen worden opgenomen, voor elke stijl, de naam moet worden gespecificeerd gevolgd door een komma gevolgd door het niveau dat de stijl moet verschijnen in de `TOC` als. Andere stijlen worden ook gescheiden door een komma. <br/>Bijvoorbeeld</p>
 
-<p>{{< highlight csharp >}}
-{ TOC \o "1-3" \t "CustomHeading1, 1,   CustomHeading2, 2"}{{< /highlight >}}</p>
+<p>{{< highlight csharp >}}{ TOC \o "1-3" \t "CustomHeading1, 1,   CustomHeading2, 2"}{{< /highlight >}}</p>
 
 <p>zal inhoud gestyled met CustomHeading1 gebruiken als niveau 1 inhoud in de `TOC` en CustomHeading2 als niveau 2.</p>
  |
-| TC-velden gebruiken <br/> *(\F and \L switches) * <br/> | <p>In oudere versies van Microsoft Word, de enige manier om een `TOC` was het gebruik van TC velden. Deze velden worden verborgen in het document ingevoegd, zelfs wanneer veldcodes worden getoond. Zij bevatten de tekst die moet worden weergegeven in het item en de `TOC` is gebouwd van hen. Deze functionaliteit wordt nu niet vaak gebruikt, maar kan in sommige gevallen nog nuttig zijn om inzendingen in de `TOC` die niet zichtbaar zijn in het document. <br/>Wanneer ingevoegd deze velden verschijnen verborgen, zelfs wanneer veldcodes worden weergegeven. Ze kunnen niet worden gezien zonder verborgen inhoud te tonen. Om deze velden te zien De paragraafopmaak tonen moet worden geselecteerd.</p>
+| TC-velden gebruiken <br/> *(&#92;F and &#92;L switches) * <br/> | <p>In oudere versies van Microsoft Word, de enige manier om een `TOC` was het gebruik van TC velden. Deze velden worden verborgen in het document ingevoegd, zelfs wanneer veldcodes worden getoond. Zij bevatten de tekst die moet worden weergegeven in het item en de `TOC` is gebouwd van hen. Deze functionaliteit wordt nu niet vaak gebruikt, maar kan in sommige gevallen nog nuttig zijn om inzendingen in de `TOC` die niet zichtbaar zijn in het document. <br/>Wanneer ingevoegd deze velden verschijnen verborgen, zelfs wanneer veldcodes worden weergegeven. Ze kunnen niet worden gezien zonder verborgen inhoud te tonen. Om deze velden te zien De paragraafopmaak tonen moet worden geselecteerd.</p>
 
 <p>![setup-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-5.png)</p>
 
-<p>Deze velden kunnen worden ingevoegd in een document op elke positie zoals elk ander veld en worden vertegenwoordigd door de `FieldType.FieldTOCEntry` Samenvatting.<br/>De \F schakelaar in a `TOC` wordt gebruikt om te specificeren dat TC-velden moeten worden gebruikt als vermeldingen. De schakelaar op zijn eigen zonder extra identificatie betekent dat elk TC-veld in het document zal worden opgenomen. Elke extra parameter, vaak een enkele letter, zal aangeven dat alleen TC velden die een bijpassende \f switch zullen worden opgenomen in de TOC. Bijvoorbeeld *</p>
+<p>Deze velden kunnen worden ingevoegd in een document op elke positie zoals elk ander veld en worden vertegenwoordigd door de `FieldType.FieldTOCEntry` Samenvatting.<br/>De &#92;F schakelaar in a `TOC` wordt gebruikt om te specificeren dat TC-velden moeten worden gebruikt als vermeldingen. De schakelaar op zijn eigen zonder extra identificatie betekent dat elk TC-veld in het document zal worden opgenomen. Elke extra parameter, vaak een enkele letter, zal aangeven dat alleen TC velden die een bijpassende \f switch zullen worden opgenomen in de TOC. Bijvoorbeeld *</p>
 
-<p>{{< highlight csharp >}}
-{ TOC \f t }{{< /highlight >}}</p>
+<p>{{< highlight csharp >}}{ TOC \f t }{{< /highlight >}}</p>
 
 <p>omvat alleen TC-velden zoals</p>
 
-<p>{{< highlight csharp >}}
-{ TC \f t }{{< /highlight >}}</p>
+<p>{{< highlight csharp >}}{ TC \f t }{{< /highlight >}}</p>
 
 <p>De `TOC` veld heeft ook een verwante switch, de</p>
 
@@ -127,7 +124,7 @@ Als een schakelaar hier niet wordt vermeld dan is deze momenteel niet ondersteun
 
 <p><br/><br/>De `TC` velden zelf kunnen ook `{several, multiple, a few, many, numerous}` Wissels ingesteld. Dit zijn:</p>
 
-<p>- \F *</p>
+<p>- &#92;F *</p>
 
 <p>Definieert welk niveau in de `TOC` dit TC veld zal verschijnen in. A `TOC` die deze zelfde switch gebruikt, zal alleen dit TC-veld bevatten als het binnen het opgegeven bereik valt.</p>
 
@@ -138,28 +135,27 @@ Als een schakelaar hier niet wordt vermeld dan is deze momenteel niet ondersteun
 
 |  Wisselen | Omschrijving |
 |  :-  |  :-  |
-| **Omit Page Numbers** <br/> *(\N Switch) * | <p>Deze schakelaar wordt gebruikt om paginanummers voor bepaalde niveaus van de TOC te verbergen. Bijvoorbeeld, kunt u definiëren</p>
+| **Omit Page Numbers** <br/> *(&#92;N Switch) * | <p>Deze schakelaar wordt gebruikt om paginanummers voor bepaalde niveaus van de TOC te verbergen. Bijvoorbeeld, kunt u definiëren</p>
 
-<p>{{< highlight csharp >}}
-{TOC \o "1-4" \n "3-4" }{{< /highlight >}}</p>
+<p>{{< highlight csharp >}}{TOC \o "1-4" \n "3-4" }{{< /highlight >}}</p>
 
 <p>en de paginanummers op de inzendingen van de niveaus 3 en 4 zullen worden verborgen samen met de leider punten (als er een zijn). Om slechts één niveau te specificeren moet een bereik nog steeds worden gebruikt, bijvoorbeeld, zal de paginanummers alleen voor het eerste niveau worden uitgesloten. <br/>Het leveren van geen niveau bereik zal paginanummers voor alle niveaus in de TOC weglaten. Dit is handig om in te stellen bij het exporteren van een document naar HTML of een vergelijkbaar formaat. Dit komt omdat HTML-gebaseerde formaten geen paginaconcept hebben en dus geen paginanummering nodig hebben.</p>
 
 <p>![table-of-contents-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-7.png)</p>
  |
-| Invoegen als hyperlinks <br/> *(\H Switch) * | <p>Deze switch specificeert dat `TOC` ingangen worden ingevoegd als hyperlinks. Bij het bekijken van een document in Microsoft Word deze vermeldingen zullen nog steeds verschijnen als normale tekst binnen de `TOC` maar zijn hyperlinks en dus kunnen worden gebruikt om te navigeren naar de positie van het oorspronkelijke item in het document met behulp van *Ctrl + Left Click* in Microsoft Word. Wanneer deze switch is opgenomen dan zijn deze links ook bewaard gebleven in andere formaten. Bijvoorbeeld, in HTML-gebaseerde formaten waaronder EPUB en weergegeven formaten zoals PDF en XPS, Deze zullen worden geëxporteerd als werklinks. <br/>Zonder deze schakelaar, de `TOC` in al deze outputs zal worden geëxporteerd als platte tekst en zal dit gedrag niet demonstreren. Als een document wordt geopend in MS Word zal de tekst van de items ook niet op deze manier te klikken zijn, maar de paginanummers kunnen nog steeds worden gebruikt om naar het oorspronkelijke item te navigeren.</p>
+| Invoegen als hyperlinks <br/> *(&#92;H Switch) * | <p>Deze switch specificeert dat `TOC` ingangen worden ingevoegd als hyperlinks. Bij het bekijken van een document in Microsoft Word deze vermeldingen zullen nog steeds verschijnen als normale tekst binnen de `TOC` maar zijn hyperlinks en dus kunnen worden gebruikt om te navigeren naar de positie van het oorspronkelijke item in het document met behulp van *Ctrl + Left Click* in Microsoft Word. Wanneer deze switch is opgenomen dan zijn deze links ook bewaard gebleven in andere formaten. Bijvoorbeeld, in HTML-gebaseerde formaten waaronder EPUB en weergegeven formaten zoals PDF en XPS, Deze zullen worden geëxporteerd als werklinks. <br/>Zonder deze schakelaar, de `TOC` in al deze outputs zal worden geëxporteerd als platte tekst en zal dit gedrag niet demonstreren. Als een document wordt geopend in MS Word zal de tekst van de items ook niet op deze manier te klikken zijn, maar de paginanummers kunnen nog steeds worden gebruikt om naar het oorspronkelijke item te navigeren.</p>
 
 <p>![tree-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-8.png)</p>
  |
-| **Set Separator Character** <br/> *(\P Switch) * <br/> | <p>Deze switch maakt het mogelijk om de inhoud die de titel van het item en de paginanummering scheidt gemakkelijk te wijzigen in de TOC. Het te gebruiken scheidingsteken moet na deze schakelaar worden gespecificeerd en in spraakmarkeringen worden ingesloten. <br/>In tegenstelling tot wat in Office documentatie is gedocumenteerd, kan slechts één karakter worden gebruikt in plaats van maximaal vijf. Dit geldt zowel voor MS Word als Aspose.Words. <br/>Het gebruik van deze schakelaar wordt niet aanbevolen omdat het niet veel controle over wat het gebruikt om te scheiden items en paginanummers in de TOC. In plaats daarvan wordt aanbevolen om de juiste `TOC` stijl zoals `StyleIdentifier.TOC1` en van daaruit de leider stijl bewerken met toegang tot specifieke lettertype leden etc. Meer details over hoe dit te doen vindt u later in het artikel.</p>
+| **Set Separator Character** <br/> *(&#92;P Switch) * <br/> | <p>Deze switch maakt het mogelijk om de inhoud die de titel van het item en de paginanummering scheidt gemakkelijk te wijzigen in de TOC. Het te gebruiken scheidingsteken moet na deze schakelaar worden gespecificeerd en in spraakmarkeringen worden ingesloten. <br/>In tegenstelling tot wat in Office documentatie is gedocumenteerd, kan slechts één karakter worden gebruikt in plaats van maximaal vijf. Dit geldt zowel voor MS Word als Aspose.Words. <br/>Het gebruik van deze schakelaar wordt niet aanbevolen omdat het niet veel controle over wat het gebruikt om te scheiden items en paginanummers in de TOC. In plaats daarvan wordt aanbevolen om de juiste `TOC` stijl zoals `StyleIdentifier.TOC1` en van daaruit de leider stijl bewerken met toegang tot specifieke lettertype leden etc. Meer details over hoe dit te doen vindt u later in het artikel.</p>
 
 <p>![list-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-9.png)</p>
  |
-| **Preserve Tab Entries** <br/> *(\W Switch) * | <p>Met behulp van deze switch zal aangeven dat alle items die een tabteken hebben, bijvoorbeeld, een kop die een tabblad aan het einde van de regel heeft, worden behouden als een juiste tabteken bij het vullen van de TOC. Dit betekent dat de functie van het tabteken aanwezig zal zijn in de `TOC` en kan worden gebruikt om het item te formatteren. Bijvoorbeeld, bepaalde items kunnen tab-stops en tab-tekens gebruiken om de tekst gelijkmatig te spatief te maken. Zolang de overeenkomstige `TOC` niveau definieert het equivalent tabblad stopt dan de gegenereerde `TOC` ingangen zullen verschijnen met een vergelijkbare afstand. <br/><br/>In dezelfde situatie als deze switch niet gedefinieerd was, dan zouden de tabtekens omgezet worden in witruimte equivalent als niet-functionele tabbladen. De output zou dan niet verschijnen zoals verwacht.</p>
+| **Preserve Tab Entries** <br/> *(&#92;W Switch) * | <p>Met behulp van deze switch zal aangeven dat alle items die een tabteken hebben, bijvoorbeeld, een kop die een tabblad aan het einde van de regel heeft, worden behouden als een juiste tabteken bij het vullen van de TOC. Dit betekent dat de functie van het tabteken aanwezig zal zijn in de `TOC` en kan worden gebruikt om het item te formatteren. Bijvoorbeeld, bepaalde items kunnen tab-stops en tab-tekens gebruiken om de tekst gelijkmatig te spatief te maken. Zolang de overeenkomstige `TOC` niveau definieert het equivalent tabblad stopt dan de gegenereerde `TOC` ingangen zullen verschijnen met een vergelijkbare afstand. <br/><br/>In dezelfde situatie als deze switch niet gedefinieerd was, dan zouden de tabtekens omgezet worden in witruimte equivalent als niet-functionele tabbladen. De output zou dan niet verschijnen zoals verwacht.</p>
 
 <p>![tab-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-10.png)</p>
  |
-| **Preserve New Line Entries** <br/> *(\X Switch) * <br/> | <p>Gelijkaardig aan de schakelaar hierboven, deze switch specificeert dat rubrieken die over meerdere lijnen (met behulp van nieuwe regel tekens, niet afzonderlijke alinea's) worden bewaard als ze zijn in de gegenereerde TOC. Bijvoorbeeld, een kop die zich over meerdere lijnen verspreidt kan het nieuwe regelteken gebruiken (Ctrl + Enter of `ControlChar.LineBreak`) om inhoud over verschillende lijnen te scheiden. Met deze schakelaar gespecificeerd, het item in de `TOC` zal deze nieuwe regel tekens behouden zoals hieronder getoond. <br/><br/>In deze situatie, als de schakelaar niet is gedefinieerd dan worden de nieuwe lijn tekens omgezet in een enkele witte ruimte.</p>
+| **Preserve New Line Entries** <br/> *(&#92;X Switch) * <br/> | <p>Gelijkaardig aan de schakelaar hierboven, deze switch specificeert dat rubrieken die over meerdere lijnen (met behulp van nieuwe regel tekens, niet afzonderlijke alinea's) worden bewaard als ze zijn in de gegenereerde TOC. Bijvoorbeeld, een kop die zich over meerdere lijnen verspreidt kan het nieuwe regelteken gebruiken (Ctrl + Enter of `ControlChar.LineBreak`) om inhoud over verschillende lijnen te scheiden. Met deze schakelaar gespecificeerd, het item in de `TOC` zal deze nieuwe regel tekens behouden zoals hieronder getoond. <br/><br/>In deze situatie, als de schakelaar niet is gedefinieerd dan worden de nieuwe lijn tekens omgezet in een enkele witte ruimte.</p>
 
 <p>![tab-space-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-11.png)</p>
  |

@@ -25,7 +25,8 @@ Avec Aspose.Words pour C++, vous pouvez générer, modifier, convertir et affich
 <div class="row">
 	<div class="col-md-4">
 		<p><b>À propos de Aspose.Words</b></p>
-			<hr><p>VUE D'ENSEMBLE</p></hr>
+			<hr>
+			<p>VUE D'ENSEMBLE</p>
 			<ul>
 				<li><a href="/words/cpp/what-s-new-in-aspose-words-for-cpp/">Quoi de neuf dans Aspose.Words pour C++</a></li>
 				<li><a href="/words/cpp/product-overview/">Aperçu du Produit</a></li>
@@ -44,7 +45,8 @@ Avec Aspose.Words pour C++, vous pouvez générer, modifier, convertir et affich
 	</div>
 	<div class="col-md-4">
 		<p><b>Commencer</b></p>
-			<hr><p>POUR COMMENCER</p></hr>
+			<hr>
+			<p>POUR COMMENCER</p>
 			<ul>
 				<li><a href="/words/cpp/supported-document-formats/">Formats de Document Pris En Charge</a></li>
 				<li><a href="/words/cpp/features/">Caractéristiques</a></li>
@@ -60,7 +62,8 @@ Avec Aspose.Words pour C++, vous pouvez générer, modifier, convertir et affich
 	</div>
 	<div class="col-md-4">
 		<p><b>Développer des Fonctions</b></p>
-			<hr><p>GUIDE TOURISTIQUE</p></hr>
+			<hr>
+			<p>GUIDE TOURISTIQUE</p>
 			<ul>
 				<li><a href="/words/cpp/loading-saving-and-converting/">Chargement, Sauvegarde et Conversion</a></li>
 				<li><a href="/words/cpp/rendering/">Rendu</a></li>

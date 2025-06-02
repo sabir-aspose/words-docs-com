@@ -25,7 +25,8 @@ Dengan Aspose.Words untuk .NET, Anda dapat membuat, memodifikasi, mengonversi, m
 <div class="row">
 		<div class="col-md-4">
 				<p><b>Tentang Aspose.Words</b></p>
-						<hr><p>RINGKASAN</p></hr>
+						<hr>
+						<p>RINGKASAN</p>
 						<ul>
 								<li><a href="/words/id/net/what-s-new-in-aspose-words-for-net/">Apa yang baru di Aspose.Words untuk .NET</a></li>
 								<li><a href="/words/id/net/product-overview/">Ikhtisar Produk</a></li>
@@ -44,7 +45,8 @@ Dengan Aspose.Words untuk .NET, Anda dapat membuat, memodifikasi, mengonversi, m
 		</div>
 		<div class="col-md-4">
 				<p><b>Memulai</b></p>
-						<hr><p>MULAI</p></hr>
+						<hr>
+						<p>MULAI</p>
 						<ul>
 								<li><a href="/words/id/net/supported-document-formats/">Format Dokumen yang Didukung</a></li>
 								<li><a href="/words/id/net/features/">Fitur yang Didukung</a></li>
@@ -61,7 +63,8 @@ Dengan Aspose.Words untuk .NET, Anda dapat membuat, memodifikasi, mengonversi, m
 		</div>
 		<div class="col-md-4">
 				<p><b>Mengembangkan Fungsi</b></p>
-						<hr><p>MEMANDU</p></hr>
+						<hr>
+						<p>MEMANDU</p>
 						<ul>
 								<li><a href="/words/id/net/loading-saving-and-converting/">Memuat, Menyimpan, dan Mengonversi</a></li>
 								<li><a href="/words/id/net/rendering/">Render</a></li>

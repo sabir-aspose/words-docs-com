@@ -25,7 +25,8 @@ Aspose.Words از اکثر فرمت های سند محبوب مانند DOC, DOC
 <div class="row">
 	<div class="col-md-4">
 		<p><b>درباره Aspose.Words</b></p>
-			<hr><p>OVERVIEW</p></hr>
+			<hr>
+			<p>OVERVIEW</p>
 			<ul>
 				<li><a href="/words/cpp/what-s-new-in-aspose-words-for-cpp/">چه چیز جدیدی در Aspose.Words برای C++</a></li>
 				<li><a href="/words/cpp/product-overview/">نمای کلی محصول</a></li>
@@ -44,7 +45,8 @@ Aspose.Words از اکثر فرمت های سند محبوب مانند DOC, DOC
 	</div>
 	<div class="col-md-4">
 		<p><b>شروع کن</b></p>
-			<hr><p>GETTING STARTED</p></hr>
+			<hr>
+			<p>GETTING STARTED</p>
 			<ul>
 				<li><a href="/words/cpp/supported-document-formats/">فرمت های سند پشتیبانی شده</a></li>
 				<li><a href="/words/cpp/features/">ویژگی ها</a></li>
@@ -60,7 +62,8 @@ Aspose.Words از اکثر فرمت های سند محبوب مانند DOC, DOC
 	</div>
 	<div class="col-md-4">
 		<p><b>توسعه توابع</b></p>
-			<hr><p>GUIDE</p></hr>
+			<hr>
+			<p>GUIDE</p>
 			<ul>
 				<li><a href="/words/cpp/loading-saving-and-converting/">بارگیری، ذخیره و تبدیل</a></li>
 				<li><a href="/words/cpp/rendering/">رندر کردن</a></li>

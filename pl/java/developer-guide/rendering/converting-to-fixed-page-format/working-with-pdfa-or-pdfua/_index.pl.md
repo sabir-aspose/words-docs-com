@@ -62,7 +62,7 @@ W przypadku dokumentu PDF / UA-1 ze słabą strukturą wymagane jest dodatkowo, 
     <summary>Specyfikacja mówi nam, co następuje (rozszerzyć, aby zobaczyć szczegóły):</summary>
     <p></p>
     <p>Struktura poziomu blokady może być zgodna z jednym z dwóch głównych paradygmatów:</p>
-    </ol>
+    <ol>
       <li>Mocna struktura. Elementy grupujące zagnieżdżają się do tylu poziomów, ile jest to konieczne, aby odzwierciedlić organizację materiału w artykułach, sekcjach, podsekcjach itp. Na każdym poziomie dzieci należące do pierwiastka grupującego powinny składać się z nagłówka (H), jednego lub więcej punktów (P) dla zawartości na tym poziomie oraz być może jednego lub więcej dodatkowych elementów grupujących dla zagnieżdżonych podsekcji.</li>
       <li>Słabe struktury. Dokument jest stosunkowo płaski, posiadający być może tylko jeden lub dwa poziomy pierwiastków grupujących, ze wszystkimi pozycjami, paragrafami i innymi BLSE jako ich najbliższe dzieci. W takim przypadku organizacja materiału nie znajduje odzwierciedlenia w strukturze logicznej; jednakże może być wyrażona przez użycie pozycji o określonych poziomach (H1- H6).</li>
     </ol>
@@ -110,7 +110,7 @@ W tej chwili, Aspose.Words oznacza nagłówki stron i stopki, separatory nut, po
     <summary>Specyfikacja mówi nam, co następuje (rozszerzyć, aby zobaczyć szczegóły):</summary>
     <p></p>
     <p>Obiekty graficzne w dokumencie można podzielić na dwie klasy:</p>
-    </ol>
+    <ol>
       <li>Rzeczywista treść dokumentu zawiera przedmioty przedstawiające materiał pierwotnie wprowadzony przez autora dokumentu.</li>
       <li>Artefakty są obiektami graficznymi, które nie są częścią oryginalnej treści autora, ale są generowane przez twórcę zgodności w trakcie paginacji, układu lub innych ściśle mechanicznych procesów.</li>
     </ol>

@@ -25,7 +25,8 @@ Aspose.Words ile birlikte Java, üçüncü taraf uygulamalara veya Office Automa
 <div class="satır">
 		<div class="col-md-4">
 		<p><b>Aspose.Words hakkında</b></p>
-						 <hr><p>ÖZETLE</p></hr>
+						 <hr>
+						 <p>ÖZETLE</p>
 						 <ul>
 								 <li><a href="/words/java/what-s-new-in-aspose-words-for-java/">What's new in Aspose.Words for Java</a></li>
 								 <li><a href="/words/java/product-overview/">Product Overview</a></li>
@@ -42,9 +43,10 @@ Aspose.Words ile birlikte Java, üçüncü taraf uygulamalara veya Office Automa
 								 <li><a href="https://github.com/aspose-words/Aspose.Words-for-Java">Download Examples at GitHub Repository</a></li>
 			<ül>
 		</div>
-	< div class = "col-md-4">
+	<div class = "col-md-4">
 			<p><b>Başlarken</b></p>
-						 <hr><p>BAŞLAMAK</p></hr>
+						 <hr>
+						 <p>BAŞLAMAK</p>
 						 <ul>
 								 <li><a href="/words/java/supported-document-formats/">Supported Document Formats</a></li>
 								 <li><a href="/words/java/features/">Features</a></li>
@@ -60,7 +62,8 @@ Aspose.Words ile birlikte Java, üçüncü taraf uygulamalara veya Office Automa
 		</div>
 	<div class="col-md-4">
 					<p><b>Geliştirici Fonksiyonları</b></p>
-						 <hr><p>KILAVUZ</p></hr>
+						 <hr>
+						 <p>KILAVUZ</p>
 						 <ul>
 								 <li><a href="/words/java/loading-saving-and-converting/">Loading, Saving and Converting</a></li>
 								 <li><a href="/words/java/rendering/">Rendering</a></li>
@@ -74,7 +77,7 @@ Aspose.Words ile birlikte Java, üçüncü taraf uygulamalara veya Office Automa
 						 <ul>
 								 <li><a href="https://releases.aspose.com/words/java/release-notes/">Aspose.Words for Java Release Notes</a></li>
 								 <li><a href="https://releases.aspose.com/java/repo/com/aspose/aspose-words/">Aspose.Words for Java Maven Repo</a></li>
-			< /ul >
+			</ul>
 				<p>TECHNICAL SUPPORT</p>
 							<ul>
 								 <li><a href="https://forum.aspose.com/c/words/8">Aspose.Words for Java Free Support Forum</a></li>

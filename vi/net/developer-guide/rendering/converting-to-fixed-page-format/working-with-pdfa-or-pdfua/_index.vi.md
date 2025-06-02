@@ -62,7 +62,7 @@ Cả cấu trúc mạnh và yếu đều hợp lệ cho PDF/A. Theo thiết kế
     <summary>Thông số kỹ thuật cho chúng ta biết những điều sau (mở rộng để xem chi tiết):</summary>
     <p></p>
     <p>Cấu trúc cấp khối có thể tuân theo một trong hai mô hình chính:</p>
-    </ol>
+    <ol>
       <li>Có cấu trúc mạnh mẽ. Các thành phần nhóm được lồng vào nhiều cấp độ cần thiết để phản ánh việc tổ chức tài liệu thành các bài viết, phần, tiểu mục, v.v. Ở mỗi cấp độ, các phần tử con của thành phần nhóm phải bao gồm một tiêu đề (H), một hoặc nhiều đoạn văn (P) cho nội dung ở cấp độ đó và có lẽ một hoặc nhiều thành phần nhóm bổ sung cho các phần con lồng nhau.</li>
       <li>Cấu hình yếu. Tài liệu này tương đối phẳng, có lẽ chỉ có một hoặc hai cấp độ của các phần tử nhóm, với tất cả các tiêu đề, đoạn văn và các BLSE khác là con trực tiếp của chúng. Trong trường hợp này, việc tổ chức tài liệu không được phản ánh trong cấu trúc logic; tuy nhiên, nó có thể được thể hiện bằng cách sử dụng các tiêu đề có cấp độ cụ thể (H1–H6).</li>
     </ol>
@@ -110,7 +110,7 @@ Hiện tại, Aspose.Words đánh dấu đầu trang và chân trang, dấu phâ
     <summary>Thông số kỹ thuật cho chúng ta biết những điều sau (mở rộng để xem chi tiết):</summary>
     <p></p>
     <p>Các đối tượng đồ họa trong tài liệu có thể được chia thành hai lớp:</p>
-    </ol>
+    <ol>
       <li>Nội dung thực sự của một tài liệu bao gồm các đối tượng thể hiện tài liệu được tác giả tài liệu giới thiệu ban đầu.</li>
       <li>Hiện vật là các đối tượng đồ họa không phải là một phần của nội dung gốc của tác giả mà được tạo ra bởi người viết tuân thủ trong quá trình phân trang, bố cục hoặc các quy trình máy móc nghiêm ngặt khác.</li>
     </ol>

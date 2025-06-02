@@ -25,7 +25,8 @@ Dengan Aspose.Words untuk C++, Anda dapat membuat, memodifikasi, mengonversi, da
 <div class="row">
 	<div class="col-md-4">
 		<p><b>Tentang Aspose.Words</b></p>
-			<hr><p>OVERVIEW</p></hr>
+			<hr>
+			<p>OVERVIEW</p>
 			<ul>
 				<li><a href="/words/cpp/what-s-new-in-aspose-words-for-cpp/">Apa yang baru di Aspose.Words untuk C++</a></li>
 				<li><a href="/words/cpp/product-overview/">Tinjauan Produk</a></li>
@@ -44,7 +45,8 @@ Dengan Aspose.Words untuk C++, Anda dapat membuat, memodifikasi, mengonversi, da
 	</div>
 	<div class="col-md-4">
 		<p><b>Mulai</b></p>
-			<hr><p>GETTING STARTED</p></hr>
+			<hr>
+			<p>GETTING STARTED</p>
 			<ul>
 				<li><a href="/words/cpp/supported-document-formats/">Format Dokumen yang Didukung</a></li>
 				<li><a href="/words/cpp/features/">Fitur</a></li>
@@ -60,7 +62,8 @@ Dengan Aspose.Words untuk C++, Anda dapat membuat, memodifikasi, mengonversi, da
 	</div>
 	<div class="col-md-4">
 		<p><b>Mengembangkan Fungsi</b></p>
-			<hr><p>GUIDE</p></hr>
+			<hr>
+			<p>GUIDE</p>
 			<ul>
 				<li><a href="/words/cpp/loading-saving-and-converting/">Memuat, Menyimpan, dan Mengonversi</a></li>
 				<li><a href="/words/cpp/rendering/">Rendering</a></li>

@@ -105,7 +105,7 @@ Există o cale de a specifica opțiunea pentru Aspose.Words să încorporeze fon
 | Modul Font Încorporat | Avantaje | Dezavantaje |
 | :- | :- | :- |
 | `Full` | Util atunci când doriți să editați mai târziu PDF-ul rezultat prin adăugarea sau modificarea textului. Toate fonturile sunt incluse, prin urmare toate glifurile sunt prezente. | Deoarece unele fonturi sunt mari (mai multe megabiți), inserarea lor fără subsetting poate duce la fișiere de ieșire mari. |
-| `Subset` | Subsetting este util dacă doriți să păstrați dimensiunea fișierului de ieșire mai mică. | <p>"Utilizatorul nu poate adăuga sau edita complet text folosind fontul subsetat în documentul PDF rezultat." Aceasta se datorează faptului că nu toate glifele fontului sunt prezente.<p>Dacă mai multe fișiere PDF sunt salvate cu fonturi subsettate și asamblate împreună, atunci documentul PDF combinat ar putea avea un font care conține multe subseturi inutile.</p></p> |
+| `Subset` | Subsetting este util dacă doriți să păstrați dimensiunea fișierului de ieșire mai mică. | <p>"Utilizatorul nu poate adăuga sau edita complet text folosind fontul subsetat în documentul PDF rezultat." Aceasta se datorează faptului că nu toate glifele fontului sunt prezente.<p>Dacă mai multe fișiere PDF sunt salvate cu fonturi subsettate și asamblate împreună, atunci documentul PDF combinat ar putea avea un font care conține multe subseturi inutile.</p> |
 
 ### Încorporarea fonturilor complete în PDF-uri
 

@@ -60,18 +60,18 @@ Giống như bất kỳ trường nào khác, trường `TOC` có thể chấp n
 ![working-with-table-of-contents-aspose-words-net](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-1.png)
 
 
-Theo mặc định, các công tắc ở trên được bao gồm khi chèn `TOC` mặc định vào tài liệu. `TOC` không có công tắc sẽ bao gồm nội dung từ các kiểu tiêu đề tích hợp sẵn (như thể công tắc \O được đặt). Các công tắc `TOC` có sẵn được Aspose.Words hỗ trợ được liệt kê bên dưới và cách sử dụng chúng được mô tả chi tiết. Chúng có thể được chia thành các phần riêng biệt dựa trên loại của chúng. Các công tắc trong phần đầu tiên xác định nội dung nào cần đưa vào `TOC` và các công tắc trong phần thứ hai kiểm soát sự xuất hiện của TOC. Nếu một công tắc không được liệt kê ở đây thì nó hiện không được hỗ trợ. Tất cả các thiết bị chuyển mạch sẽ được hỗ trợ trong các phiên bản sau. Chúng tôi đang bổ sung thêm hỗ trợ với mỗi bản phát hành.
+Theo mặc định, các công tắc ở trên được bao gồm khi chèn `TOC` mặc định vào tài liệu. `TOC` không có công tắc sẽ bao gồm nội dung từ các kiểu tiêu đề tích hợp sẵn (như thể công tắc &#92;O được đặt). Các công tắc `TOC` có sẵn được Aspose.Words hỗ trợ được liệt kê bên dưới và cách sử dụng chúng được mô tả chi tiết. Chúng có thể được chia thành các phần riêng biệt dựa trên loại của chúng. Các công tắc trong phần đầu tiên xác định nội dung nào cần đưa vào `TOC` và các công tắc trong phần thứ hai kiểm soát sự xuất hiện của TOC. Nếu một công tắc không được liệt kê ở đây thì nó hiện không được hỗ trợ. Tất cả các thiết bị chuyển mạch sẽ được hỗ trợ trong các phiên bản sau. Chúng tôi đang bổ sung thêm hỗ trợ với mỗi bản phát hành.
 
 ### Công tắc đánh dấu đầu vào
 
 |  Công tắc | Sự miêu tả |
 |  :-  |  :-  |
-| **Heading Styles**<br>*(\O Chuyển đổi)* | <p>Công tắc này xác định rằng `TOC` phải được xây dựng dựa trên các kiểu tiêu đề có sẵn. Trong Microsoft Word, những kiểu này được xác định bởi Tiêu đề 1 – Tiêu đề 9. Trong Aspose.Words, các kiểu này được thể hiện bằng bảng liệt kê StyleIdentifier tương ứng. Bảng liệt kê này đại diện cho một mã định danh độc lập theo miền địa phương của một kiểu, ví dụ `StyleIdentifier.Heading1` đại diện cho kiểu Tiêu đề 1. Bằng cách sử dụng tính năng này, định dạng và thuộc tính của kiểu có thể được truy xuất từ bộ sưu tập Kiểu của tài liệu. Lớp Kiểu tương ứng có thể được truy xuất từ bộ sưu tập `Document.Styles` bằng cách sử dụng thuộc tính được lập chỉ mục của loại StyleIdentifier.</p>
+| **Heading Styles**<br>*(&#92;O Chuyển đổi)* | <p>Công tắc này xác định rằng `TOC` phải được xây dựng dựa trên các kiểu tiêu đề có sẵn. Trong Microsoft Word, những kiểu này được xác định bởi Tiêu đề 1 – Tiêu đề 9. Trong Aspose.Words, các kiểu này được thể hiện bằng bảng liệt kê StyleIdentifier tương ứng. Bảng liệt kê này đại diện cho một mã định danh độc lập theo miền địa phương của một kiểu, ví dụ `StyleIdentifier.Heading1` đại diện cho kiểu Tiêu đề 1. Bằng cách sử dụng tính năng này, định dạng và thuộc tính của kiểu có thể được truy xuất từ bộ sưu tập Kiểu của tài liệu. Lớp Kiểu tương ứng có thể được truy xuất từ bộ sưu tập `Document.Styles` bằng cách sử dụng thuộc tính được lập chỉ mục của loại StyleIdentifier.</p>
 
 <p>![working-with-table-of-contents-styles](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-2.png)</p>
 
 <p>Bất kỳ nội dung nào được định dạng bằng các kiểu này đều được đưa vào mục lục. Cấp độ của tiêu đề sẽ xác định cấp độ phân cấp tương ứng của mục nhập trong TOC. Ví dụ: đoạn văn có kiểu Tiêu đề 1 sẽ được coi là cấp đầu tiên trong `TOC` trong khi đoạn văn có Tiêu đề 2 sẽ được coi là cấp tiếp theo trong hệ thống phân cấp, v.v.</p> |
-| **Outline Levels**<br>*(\U chuyển đổi)* | <p>Mỗi đoạn có thể xác định mức phác thảo trong tùy chọn Đoạn.</p>
+| **Outline Levels**<br>*(&#92;U chuyển đổi)* | <p>Mỗi đoạn có thể xác định mức phác thảo trong tùy chọn Đoạn.</p>
 
 <p>![working-with-table-of-contents-paragraph](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-3.png)</p>
 
@@ -82,55 +82,54 @@ Theo mặc định, các công tắc ở trên được bao gồm khi chèn `TOC
 <p>Lưu ý rằng các kiểu tiêu đề tích hợp sẵn như Tiêu đề 1 có mức phác thảo bắt buộc được đặt trong cài đặt kiểu.</p>
 
 <p>{{% /alert %}}</p> |
-| **Custom Styles**<br>*(\T chuyển đổi)* | <p>Công tắc này sẽ cho phép sử dụng các kiểu tùy chỉnh khi thu thập các mục sẽ được sử dụng trong TOC. Điều này thường được sử dụng cùng với nút chuyển \O để bao gồm các kiểu tùy chỉnh cùng với các kiểu tiêu đề tích hợp trong TOC.<br>Các thông số của công tắc phải được đặt trong dấu lời nói. Có thể bao gồm nhiều kiểu tùy chỉnh, đối với mỗi kiểu, tên phải được chỉ định theo sau là dấu phẩy, theo sau là cấp độ mà kiểu đó sẽ xuất hiện trong `TOC`. Các kiểu khác cũng được phân cách bằng dấu phẩy.<br>Ví dụ</p>
+| **Custom Styles**<br>*(&#92;T chuyển đổi)* | <p>Công tắc này sẽ cho phép sử dụng các kiểu tùy chỉnh khi thu thập các mục sẽ được sử dụng trong TOC. Điều này thường được sử dụng cùng với nút chuyển &#92;O để bao gồm các kiểu tùy chỉnh cùng với các kiểu tiêu đề tích hợp trong TOC.<br>Các thông số của công tắc phải được đặt trong dấu lời nói. Có thể bao gồm nhiều kiểu tùy chỉnh, đối với mỗi kiểu, tên phải được chỉ định theo sau là dấu phẩy, theo sau là cấp độ mà kiểu đó sẽ xuất hiện trong `TOC`. Các kiểu khác cũng được phân cách bằng dấu phẩy.<br>Ví dụ</p>
 
-<p>{{< highlight csharp >}}
-{ TOC \o "1-3" \t "CustomHeading1, 1,   CustomHeading2, 2"}{{< /highlight >}}</p>
+<p>{{< highlight csharp >}}{ TOC \o "1-3" \t "CustomHeading1, 1,   CustomHeading2, 2"}{{< /highlight >}}</p>
 
 <p>sẽ sử dụng nội dung được tạo kiểu bằng CustomHeading1 làm nội dung cấp 1 trong `TOC` và CustomHeading2 làm nội dung cấp 2.</p> |
-| **Use TC Fields**<br>*(\F và \L Công tắc)* | <p>Trong các phiên bản Microsoft Word cũ hơn, cách duy nhất để xây dựng `TOC` là sử dụng các trường TC. Các trường này được chèn ẩn vào tài liệu ngay cả khi mã trường được hiển thị. Chúng bao gồm văn bản sẽ được hiển thị trong mục nhập và `TOC` được tạo từ chúng. Chức năng này hiện không được sử dụng thường xuyên nhưng vẫn có thể hữu ích trong một số trường hợp để bao gồm các mục trong `TOC` không được thụt lề để hiển thị trong tài liệu.<br>Khi chèn các trường này sẽ bị ẩn ngay cả khi mã trường được hiển thị. Chúng không thể được nhìn thấy nếu không hiển thị nội dung ẩn. Để xem các trường này Hiển thị định dạng đoạn văn phải được chọn.</p>
+| **Use TC Fields**<br>*(&#92;F và &#92;L Công tắc)* | <p>Trong các phiên bản Microsoft Word cũ hơn, cách duy nhất để xây dựng `TOC` là sử dụng các trường TC. Các trường này được chèn ẩn vào tài liệu ngay cả khi mã trường được hiển thị. Chúng bao gồm văn bản sẽ được hiển thị trong mục nhập và `TOC` được tạo từ chúng. Chức năng này hiện không được sử dụng thường xuyên nhưng vẫn có thể hữu ích trong một số trường hợp để bao gồm các mục trong `TOC` không được thụt lề để hiển thị trong tài liệu.<br>Khi chèn các trường này sẽ bị ẩn ngay cả khi mã trường được hiển thị. Chúng không thể được nhìn thấy nếu không hiển thị nội dung ẩn. Để xem các trường này Hiển thị định dạng đoạn văn phải được chọn.</p>
 
-<p>![working-with-table-of-contents-paragraph-settings](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-4.png)</p> Các trường này có thể được chèn vào tài liệu ở bất kỳ vị trí nào giống như bất kỳ trường nào khác và được biểu thị bằng bảng liệt kê `FieldType.FieldTOCEntry`.<br>Công tắc \F trong `TOC` được sử dụng để chỉ định rằng các trường TC sẽ được sử dụng làm mục nhập. Công tắc tự nó không có bất kỳ mã định danh bổ sung nào có nghĩa là bất kỳ trường TC nào trong tài liệu sẽ được đưa vào. Bất kỳ tham số bổ sung nào, thường là một chữ cái, sẽ chỉ định rằng chỉ các trường TC có khóa chuyển \f phù hợp mới được đưa vào TOC. Ví dụ *</p>
+<p>![working-with-table-of-contents-paragraph-settings](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-4.png)</p><p> Các trường này có thể được chèn vào tài liệu ở bất kỳ vị trí nào giống như bất kỳ trường nào khác và được biểu thị bằng bảng liệt kê `FieldType.FieldTOCEntry`.<br>Công tắc &#92;F trong `TOC` được sử dụng để chỉ định rằng các trường TC sẽ được sử dụng làm mục nhập. Công tắc tự nó không có bất kỳ mã định danh bổ sung nào có nghĩa là bất kỳ trường TC nào trong tài liệu sẽ được đưa vào. Bất kỳ tham số bổ sung nào, thường là một chữ cái, sẽ chỉ định rằng chỉ các trường TC có khóa chuyển \f phù hợp mới được đưa vào TOC. Ví dụ *</p>
 
 <p>{{< highlight csharp >}}{ TOC \f t }{{< /highlight >}}</p>
 
 <p>sẽ chỉ bao gồm các trường TC như</p>
 
-<p>{{< highlight csharp >}}{   TC \f t }{{< /highlight >}}</p>
+<p>{{< highlight csharp >}}{ TC \f t }{{< /highlight >}}</p>
 
-<p>Trường `TOC` cũng có một công tắc liên quan, công tắc "\L" chỉ định rằng chỉ bao gồm trường TC có các mức trong phạm vi đã chỉ định.</p>
+<p>Trường `TOC` cũng có một công tắc liên quan, công tắc &#92;L chỉ định rằng chỉ bao gồm trường TC có các mức trong phạm vi đã chỉ định.</p>
 
 <p>![todo:image_alt_text](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
 <p>Bản thân các trường `TC` cũng có thể có một số bộ chuyển mạch. Đó là:</p>
 
-<p>- *\F – Đã giải thích ở trên.*</p>
+<p>- *&#92;F – Đã giải thích ở trên.*</p>
 
-<p>- *\L – Xác định cấp độ nào trong `TOC` mà trường TC này sẽ xuất hiện. Một `TOC` sử dụng cùng một công tắc này sẽ chỉ bao gồm trường TC này nếu nó nằm trong phạm vi được chỉ định.*</p>
+<p>- *&#92;L – Xác định cấp độ nào trong `TOC` mà trường TC này sẽ xuất hiện. Một `TOC` sử dụng cùng một công tắc này sẽ chỉ bao gồm trường TC này nếu nó nằm trong phạm vi được chỉ định.*</p>
 
-<p>- `_\N` – Việc đánh số trang cho mục nhập `TOC` này không được hiển thị. Bạn có thể tìm thấy mã mẫu về cách chèn trường TC trong phần tiếp theo.</p> |
+<p>- _&#92;N – Việc đánh số trang cho mục nhập `TOC` này không được hiển thị. Bạn có thể tìm thấy mã mẫu về cách chèn trường TC trong phần tiếp theo.</p> |
 
 ### Công tắc liên quan đến ngoại hình
 
 |  Công tắc | Sự miêu tả |
 |  :-  |  :-  |
-| **Omit Page Numbers**<br>*(\N Chuyển đổi)* | <p>Công tắc này được sử dụng để ẩn số trang đối với các cấp độ TOC nhất định. Ví dụ bạn có thể định nghĩa</p>
+| **Omit Page Numbers**<br>*(&#92;N Chuyển đổi)* | <p>Công tắc này được sử dụng để ẩn số trang đối với các cấp độ TOC nhất định. Ví dụ bạn có thể định nghĩa</p>
 
 <p>{{< highlight csharp >}}{TOC \o "1-4" \n "3-4" }{{< /highlight >}}</p>
 
 <p>và số trang ở mục cấp 3 và cấp 4 sẽ bị ẩn cùng với dấu chấm đầu dòng (nếu có). Để chỉ xác định một cấp độ, vẫn nên sử dụng phạm vi, ví dụ: "1-1" sẽ chỉ loại trừ số trang cho cấp độ đầu tiên.<br>Việc không cung cấp phạm vi cấp độ sẽ bỏ qua số trang cho tất cả các cấp độ trong TOC. Điều này hữu ích để đặt khi xuất tài liệu sang HTML hoặc định dạng tương tự. Điều này là do các định dạng dựa trên HTML không có bất kỳ khái niệm trang nào và do đó không cần đánh số trang.</p>
 
 <p>![todo:image_alt_text](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-6.png)</p> |
-| **Insert As Hyperlinks**<br>*(\H Chuyển đổi)* | <p>Công tắc này chỉ định rằng các mục nhập `TOC` được chèn dưới dạng siêu liên kết. Khi xem tài liệu ở định dạng Microsoft Word, các mục nhập này sẽ vẫn xuất hiện dưới dạng văn bản bình thường bên trong `TOC` nhưng được liên kết với nhau và do đó có thể được sử dụng để điều hướng đến vị trí của mục nhập gốc trong tài liệu bằng cách sử dụng *Ctrl + Nhấp chuột trái* trong Microsoft Word. Khi bao gồm công tắc này thì các liên kết này cũng được giữ nguyên ở các định dạng khác. Ví dụ: ở các định dạng dựa trên HTML bao gồm EPUB và các định dạng được hiển thị như PDF và XPS, những định dạng này sẽ được xuất dưới dạng liên kết hoạt động.<br>Nếu không có nút chuyển này, hãy đặt `TOC` ở tất cả các đầu ra này sẽ được xuất dưới dạng văn bản thuần túy và sẽ không thể hiện hành vi này. Nếu một tài liệu được mở trong MS Word, văn bản của các mục cũng sẽ không thể nhấp vào được theo cách này nhưng số trang vẫn có thể được sử dụng để điều hướng đến mục nhập ban đầu.</p>
+| **Insert As Hyperlinks**<br>*(&#92;H Chuyển đổi)* | <p>Công tắc này chỉ định rằng các mục nhập `TOC` được chèn dưới dạng siêu liên kết. Khi xem tài liệu ở định dạng Microsoft Word, các mục nhập này sẽ vẫn xuất hiện dưới dạng văn bản bình thường bên trong `TOC` nhưng được liên kết với nhau và do đó có thể được sử dụng để điều hướng đến vị trí của mục nhập gốc trong tài liệu bằng cách sử dụng *Ctrl + Nhấp chuột trái* trong Microsoft Word. Khi bao gồm công tắc này thì các liên kết này cũng được giữ nguyên ở các định dạng khác. Ví dụ: ở các định dạng dựa trên HTML bao gồm EPUB và các định dạng được hiển thị như PDF và XPS, những định dạng này sẽ được xuất dưới dạng liên kết hoạt động.<br>Nếu không có nút chuyển này, hãy đặt `TOC` ở tất cả các đầu ra này sẽ được xuất dưới dạng văn bản thuần túy và sẽ không thể hiện hành vi này. Nếu một tài liệu được mở trong MS Word, văn bản của các mục cũng sẽ không thể nhấp vào được theo cách này nhưng số trang vẫn có thể được sử dụng để điều hướng đến mục nhập ban đầu.</p>
 
 <p>![working-with-table-of-contents-titles](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-7.png)</p> |
-| **Set Separator Character**<br>*(\P Chuyển đổi)* | <p>Việc chuyển đổi này cho phép dễ dàng thay đổi nội dung tách biệt tiêu đề của mục nhập và đánh số trang trong TOC. Dấu phân cách sẽ sử dụng phải được chỉ định sau nút chuyển này và được đặt trong dấu giọng nói.<br>Ngược lại với những gì được ghi trong tài liệu Office, chỉ có thể sử dụng một ký tự thay vì tối đa năm ký tự. Điều này áp dụng cho cả MS Word và Aspose.Words.<br>Việc sử dụng khóa chuyển này không được khuyến khích vì nó không cho phép kiểm soát nhiều đối với những gì nó sử dụng để phân tách các mục nhập và số trang trong TOC. Thay vào đó, bạn nên chỉnh sửa kiểu `TOC` thích hợp như `StyleIdentifier.TOC1` và từ đó chỉnh sửa kiểu đường dẫn có quyền truy cập vào các thành phần phông chữ cụ thể, v.v. Bạn có thể tìm thêm chi tiết về cách thực hiện việc này ở phần sau của bài viết.</p>
+| **Set Separator Character**<br>*(&#92;P Chuyển đổi)* | <p>Việc chuyển đổi này cho phép dễ dàng thay đổi nội dung tách biệt tiêu đề của mục nhập và đánh số trang trong TOC. Dấu phân cách sẽ sử dụng phải được chỉ định sau nút chuyển này và được đặt trong dấu giọng nói.<br>Ngược lại với những gì được ghi trong tài liệu Office, chỉ có thể sử dụng một ký tự thay vì tối đa năm ký tự. Điều này áp dụng cho cả MS Word và Aspose.Words.<br>Việc sử dụng khóa chuyển này không được khuyến khích vì nó không cho phép kiểm soát nhiều đối với những gì nó sử dụng để phân tách các mục nhập và số trang trong TOC. Thay vào đó, bạn nên chỉnh sửa kiểu `TOC` thích hợp như `StyleIdentifier.TOC1` và từ đó chỉnh sửa kiểu đường dẫn có quyền truy cập vào các thành phần phông chữ cụ thể, v.v. Bạn có thể tìm thêm chi tiết về cách thực hiện việc này ở phần sau của bài viết.</p>
 
 <p>![working-with-table-of-contents-toc](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-8.png)</p> |
-| **Preserve Tab Entries**<br>*(\W Chuyển đổi)* | <p>Việc sử dụng công tắc này sẽ chỉ định rằng bất kỳ mục nhập nào có ký tự tab, ví dụ như tiêu đề có tab ở cuối dòng, sẽ được giữ lại làm ký tự tab thích hợp khi điền TOC. Điều này có nghĩa là chức năng của ký tự tab sẽ có trong `TOC` và có thể được sử dụng để định dạng mục nhập. Ví dụ: một số mục nhất định có thể sử dụng điểm dừng tab và ký tự tab để giãn cách đều văn bản. Miễn là mức `TOC` tương ứng xác định các điểm dừng tab tương đương thì các mục `TOC` được tạo sẽ xuất hiện với khoảng cách tương tự.<br><br>Trong tình huống tương tự nếu công tắc này không được xác định thì các ký tự tab sẽ được chuyển đổi thành khoảng trắng tương đương với các tab không hoạt động. Đầu ra sau đó sẽ không xuất hiện như mong đợi.</p>
+| **Preserve Tab Entries**<br>*(&#92;W Chuyển đổi)* | <p>Việc sử dụng công tắc này sẽ chỉ định rằng bất kỳ mục nhập nào có ký tự tab, ví dụ như tiêu đề có tab ở cuối dòng, sẽ được giữ lại làm ký tự tab thích hợp khi điền TOC. Điều này có nghĩa là chức năng của ký tự tab sẽ có trong `TOC` và có thể được sử dụng để định dạng mục nhập. Ví dụ: một số mục nhất định có thể sử dụng điểm dừng tab và ký tự tab để giãn cách đều văn bản. Miễn là mức `TOC` tương ứng xác định các điểm dừng tab tương đương thì các mục `TOC` được tạo sẽ xuất hiện với khoảng cách tương tự.<br><br>Trong tình huống tương tự nếu công tắc này không được xác định thì các ký tự tab sẽ được chuyển đổi thành khoảng trắng tương đương với các tab không hoạt động. Đầu ra sau đó sẽ không xuất hiện như mong đợi.</p>
 
 <p>![working-with-table-of-contents-aspose](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-9.png)</p> |
-| **Preserve New Line Entries**<br>*(\X Chuyển đổi)* | <p>Tương tự như công tắc ở trên, công tắc này chỉ định rằng các tiêu đề trải dài trên nhiều dòng (sử dụng ký tự dòng mới chứ không phải các đoạn riêng biệt) sẽ được giữ nguyên như trong TOC được tạo. Ví dụ: một tiêu đề trải dài trên nhiều dòng có thể sử dụng ký tự dòng mới (Ctrl + Enter hoặc `ControlChar.LineBreak`) để phân tách nội dung trên các dòng khác nhau. Với công tắc này được chỉ định, mục nhập trong `TOC` sẽ giữ nguyên các ký tự dòng mới này như hiển thị bên dưới.<br><br>Trong trường hợp này nếu khóa chuyển không được xác định thì các ký tự dòng mới sẽ được chuyển đổi thành một khoảng trắng.</p>
+| **Preserve New Line Entries**<br>*(&#92;X Chuyển đổi)* | <p>Tương tự như công tắc ở trên, công tắc này chỉ định rằng các tiêu đề trải dài trên nhiều dòng (sử dụng ký tự dòng mới chứ không phải các đoạn riêng biệt) sẽ được giữ nguyên như trong TOC được tạo. Ví dụ: một tiêu đề trải dài trên nhiều dòng có thể sử dụng ký tự dòng mới (Ctrl + Enter hoặc `ControlChar.LineBreak`) để phân tách nội dung trên các dòng khác nhau. Với công tắc này được chỉ định, mục nhập trong `TOC` sẽ giữ nguyên các ký tự dòng mới này như hiển thị bên dưới.<br><br>Trong trường hợp này nếu khóa chuyển không được xác định thì các ký tự dòng mới sẽ được chuyển đổi thành một khoảng trắng.</p>
 
 <p>![working-with-table-of-contents-aspose-words](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-10.png)</p> |
 

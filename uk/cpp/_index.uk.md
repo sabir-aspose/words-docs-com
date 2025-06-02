@@ -25,7 +25,8 @@ Aspose.Words підтримує більшість популярних форм
 <div class="row">
 	<div class="col-md-4">
 		<p><b>Приблизно Aspose.Words</b></p>
-			<hr><p>OVERVIEW</p></hr>
+			<hr>
+			<p>OVERVIEW</p>
 			<ul>
 				<li><a href="/words/cpp/what-s-new-in-aspose-words-for-cpp/">Що нового в Aspose.Words для C++</a></li>
 				<li><a href="/words/cpp/product-overview/">Огляд продукту</a></li>
@@ -44,7 +45,8 @@ Aspose.Words підтримує більшість популярних форм
 	</div>
 	<div class="col-md-4">
 		<p><b>Почавши</b></p>
-			<hr><p>GETTING STARTED</p></hr>
+			<hr>
+			<p>GETTING STARTED</p>
 			<ul>
 				<li><a href="/words/cpp/supported-document-formats/">Підтримувані формати документів</a></li>
 				<li><a href="/words/cpp/features/">Особливість</a></li>
@@ -60,7 +62,8 @@ Aspose.Words підтримує більшість популярних форм
 	</div>
 	<div class="col-md-4">
 		<p><b>Розробка функцій</b></p>
-			<hr><p>GUIDE</p></hr>
+			<hr>
+			<p>GUIDE</p>
 			<ul>
 				<li><a href="/words/cpp/loading-saving-and-converting/">Завантаження, збереження та перетворення</a></li>
 				<li><a href="/words/cpp/rendering/">Візуалізація</a></li>

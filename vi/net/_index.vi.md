@@ -25,7 +25,8 @@ Với Aspose.Words cho .NET, bạn có thể tạo, sửa đổi, chuyển đổ
 <div class="row">
 		<div class="col-md-4">
 				<p><b>Giới thiệu về Aspose.Words</b></p>
-						<hr><p>TỔNG QUAN</p></hr>
+						<hr>
+						<p>TỔNG QUAN</p>
 						<ul>
 								<li><a href="/words/vi/net/what-s-new-in-aspose-words-for-net/">Có gì mới trong Aspose.Words dành cho .NET</a></li>
 								<li><a href="/words/vi/net/product-overview/">Tổng quan về sản phẩm</a></li>
@@ -44,7 +45,8 @@ Với Aspose.Words cho .NET, bạn có thể tạo, sửa đổi, chuyển đổ
 		</div>
 		<div class="col-md-4">
 				<p><b>Bắt đầu</b></p>
-						<hr><p>BẮT ĐẦU</p></hr>
+						<hr>
+						<p>BẮT ĐẦU</p>
 						<ul>
 								<li><a href="/words/vi/net/supported-document-formats/">Định dạng tài liệu được hỗ trợ</a></li>
 								<li><a href="/words/vi/net/features/">Các tính năng được hỗ trợ</a></li>
@@ -61,7 +63,8 @@ Với Aspose.Words cho .NET, bạn có thể tạo, sửa đổi, chuyển đổ
 		</div>
 		<div class="col-md-4">
 				<p><b>Phát triển chức năng</b></p>
-						<hr><p>HƯỚNG DẪN</p></hr>
+						<hr>
+						<p>HƯỚNG DẪN</p>
 						<ul>
 								<li><a href="/words/vi/net/loading-saving-and-converting/">Đang tải, lưu và chuyển đổi</a></li>
 								<li><a href="/words/vi/net/rendering/">Kết xuất</a></li>

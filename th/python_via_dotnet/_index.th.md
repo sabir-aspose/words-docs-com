@@ -25,7 +25,8 @@ Aspose.Words รองรับรูปแบบเอกสารยอดน�
 <div class="row">
 		<div class="col-md-4">
 				<p><b>เกี่ยวกับ Aspose.Words</b></p>
-						<hr><p>ภาพรวม</p></hr>
+						<hr>
+						<p>ภาพรวม</p>
 						<ul>
 								<li><a href="/words/th/python-net/product-overview/">ภาพรวมผลิตภัณฑ์</a></li>
 								<li><a href="/words/th/python-net/licensing/">การออกใบอนุญาตและการสมัครสมาชิก</a></li>
@@ -43,7 +44,8 @@ Aspose.Words รองรับรูปแบบเอกสารยอดน�
 		</div>
 		<div class="col-md-4">
 				<p><b>เริ่ม</b></p>
-						<hr><p>เริ่มต้นใช้งาน</p></hr>
+						<hr>
+						<p>เริ่มต้นใช้งาน</p>
 						<ul>
 								<li><a href="/words/th/python-net/supported-document-formats/">รูปแบบเอกสารที่รองรับ</a></li>
 								<li><a href="/words/th/python-net/features/">คุณสมบัติที่รองรับ</a></li>
@@ -59,7 +61,8 @@ Aspose.Words รองรับรูปแบบเอกสารยอดน�
 		</div>
 		<div class="col-md-4">
 				<p><b>พัฒนาฟังก์ชั่น</b></p>
-						<hr><p>แนะนำ</p></hr>
+						<hr>
+						<p>แนะนำ</p>
 						<ul>
 								<li><a href="/words/th/python-net/loading-saving-and-converting/">กำลังโหลด บันทึก และการแปลง</a></li>
 								<li><a href="/words/th/python-net/rendering/">กำลังแสดงผล</a></li>

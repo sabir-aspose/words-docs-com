@@ -25,7 +25,8 @@ Aspose.Words поддерживает большинство популярны�
 <div class="row">
 	<div class="col-md-4">
 		<p><b>Примерно Aspose.Words</b></p>
-			<hr><p>Обзор</p></hr>
+			<hr>
+			<p>Обзор</p>
 			<ul>
 				<li><a href="/words/cpp/what-s-new-in-aspose-words-for-cpp/">Что нового в Aspose.Words для C++</a></li>
 				<li><a href="/words/cpp/product-overview/">Обзор продукта</a></li>
@@ -44,7 +45,8 @@ Aspose.Words поддерживает большинство популярны�
 	</div>
 	<div class="col-md-4">
 		<p><b>Начать</b></p>
-			<hr><p>Приступая к работе</p></hr>
+			<hr>
+			<p>Приступая к работе</p>
 			<ul>
 				<li><a href="/words/cpp/supported-document-formats/">Поддерживаемые форматы документов</a></li>
 				<li><a href="/words/cpp/features/">Особенности</a></li>
@@ -60,7 +62,8 @@ Aspose.Words поддерживает большинство популярны�
 	</div>
 	<div class="col-md-4">
 		<p><b>Разработка функций</b></p>
-			<hr><p>Руководство</p></hr>
+			<hr>
+			<p>Руководство</p>
 			<ul>
 				<li><a href="/words/cpp/loading-saving-and-converting/">Загрузка, сохранение и преобразование</a></li>
 				<li><a href="/words/cpp/rendering/">Визуализация</a></li>

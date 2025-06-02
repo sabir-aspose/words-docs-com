@@ -25,7 +25,8 @@ Aspose.Words for Python via .NET を使用すると、サードパーティの�
 <div class="row">
 		<div class="col-md-4">
 				<p><b>Aspose.Wordsについて</b></p>
-						<hr><p>概要</p></hr>
+						<hr>
+						<p>概要</p>
 						<ul>
 								<li><a href="/words/ja/python-net/product-overview/">製品の概要</a></li>
 								<li><a href="/words/ja/python-net/licensing/">ライセンスとサブスクリプション</a></li>
@@ -43,7 +44,8 @@ Aspose.Words for Python via .NET を使用すると、サードパーティの�
 		</div>
 		<div class="col-md-4">
 				<p><b>始めましょう</b></p>
-						<hr><p>はじめる</p></hr>
+						<hr>
+						<p>はじめる</p>
 						<ul>
 								<li><a href="/words/ja/python-net/supported-document-formats/">サポートされているドキュメント形式</a></li>
 								<li><a href="/words/ja/python-net/features/">サポートされている機能</a></li>
@@ -59,7 +61,8 @@ Aspose.Words for Python via .NET を使用すると、サードパーティの�
 		</div>
 		<div class="col-md-4">
 				<p><b>機能の開発</b></p>
-						<hr><p>ガイド</p></hr>
+						<hr>
+						<p>ガイド</p>
 						<ul>
 								<li><a href="/words/ja/python-net/loading-saving-and-converting/">ロード、保存、変換</a></li>
 								<li><a href="/words/ja/python-net/rendering/">レンダリング</a></li>
