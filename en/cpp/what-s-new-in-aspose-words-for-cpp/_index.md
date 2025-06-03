@@ -14,6 +14,28 @@ timestamp: 2025-04-15-08-02-05
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
+## Aspose.Words for C++ 25.5
+
+Aspose.Words 25.5 enhances chart customization with new styling options and improves Markdown export by offering control over how empty paragraphs are handled.
+
+### Converting, Loading, and Saving Documents
+
+#### Export Empty Paragraphs to Markdown <sup>25.5</sup>
+
+The ability to control how empty paragraphs are exported to Markdown has been introduced by adding the [MarkdownEmptyParagraphExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownemptyparagraphexportmode/) enumeration and the [EmptyParagraphExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_emptyparagraphexportmode/) property.
+
+### Rendering
+
+#### Setting the Chart Style <sup>25.5</sup>
+
+The ability to set the chart style has been introduced by adding the [ChartStyle](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartstyle/) enumeration and the [Style](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chart/get_style/) property.
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for C++ 25.5 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-5-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words for C++ 25.1, 25.2, 25.3, 25.4
 
 Aspose.Words 25.1 introduces AI-powered grammar checking and enhances document saving with advanced options for HTML, SVG, and Markdown formats.
