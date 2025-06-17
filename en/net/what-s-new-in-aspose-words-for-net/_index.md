@@ -14,9 +14,11 @@ timestamp: 2025-04-16-07-02-05
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for .NET 25.5
+## Aspose.Words for .NET 25.5, 25.6
 
 Aspose.Words 25.5 enhances chart customization with new styling options and improves Markdown export by offering control over how empty paragraphs are handled.
+
+Aspose.Words 25.6 enhances rendering precision and visualization features by introducing advanced image export options, improved MathML handling, and better chart representation.
 
 ### Converting, Loading, and Saving Documents
 
@@ -24,15 +26,33 @@ Aspose.Words 25.5 enhances chart customization with new styling options and impr
 
 The ability to control how empty paragraphs are exported to Markdown has been introduced by adding the [MarkdownEmptyParagraphExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownemptyparagraphexportmode/) enumeration and the [EmptyParagraphExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/emptyparagraphexportmode/) property.
 
+#### Export Multi-page Documents to Raster Image Formats <sup>25.6</sup>
+
+The ability to export multi-page documents to raster image formats (such as PNG and JPEG) with [customizable layouts](https://reference.aspose.com/words/net/aspose.words.saving/multipagelayout/) – Horizontal, Vertical, or Grid – has been introduced by extending image export functionality.
+
 ### Rendering
 
 #### Setting the Chart Style <sup>25.5</sup>
 
 The ability to set the chart style has been introduced by adding the [ChartStyle](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartstyle/) enumeration and the [Style](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/style/) property.
 
+#### Rendering Connector Lines in MathML Expressions <sup>25.6</sup>
+
+The rendering of connector lines in MathML expressions has been implemented to ensure more accurate and visually consistent display of mathematical formulas.
+
+#### Rendering Legends for Waterfall Charts <sup>25.6</sup>
+
+The rendering of legends for ["Waterfall" charts](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriestype/) has been introduced, increasing data transparency and improving the interpretability of these charts.
+
+### Other
+
+* The ability to wrap mathematical formulas containing multiple slashes has been enhanced, improving layout clarity and formula legibility. <sup>25.6</sup>
+
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for .NET 25.5 Release Notes](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-5-release-notes/).
+
+Learn more about [Aspose.Words for .NET 25.6 Release Notes](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-6-release-notes/).
 
 {{% /alert %}}
 
