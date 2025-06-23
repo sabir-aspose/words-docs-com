@@ -9,10 +9,32 @@ weight: 2
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /de/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2025-04-15-08-02-05
+timestamp: 2025-06-23-19-12-25
 ---
 
 Diese Seite beschreibt die interessantesten neuen Aspose.Words Funktionen, die in den letzten Versionen eingeführt wurden.
+
+## Aspose.Words für C++ 25.5
+
+Aspose.Words 25.5 verbessert die Diagrammanpassung mit neuen Stiloptionen und verbessert den Markdown-Export, indem es die Kontrolle darüber bietet, wie leere Absätze behandelt werden.
+
+### Dokumente konvertieren, laden und speichern
+
+#### Leere Absätze nach Markdown exportieren <sup>25.5</sup>
+
+Die Möglichkeit zu steuern, wie leere Absätze nach Markdown exportiert werden, wurde durch Hinzufügen der [MarkdownEmptyParagraphExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownemptyparagraphexportmode/)-Aufzählung und der [EmptyParagraphExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_emptyparagraphexportmode/)-Eigenschaft eingeführt.
+
+### Rendering
+
+#### Festlegen des Diagrammstils <sup>25.5</sup>
+
+Die Möglichkeit, den Diagrammstil festzulegen, wurde durch Hinzufügen der [ChartStyle](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartstyle/)-Aufzählung und der [Style](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chart/get_style/)-Eigenschaft eingeführt.
+
+{{% alert color="primary" %}}
+
+Erfahren Sie mehr über [Aspose.Words für C++ 25.5 Versionshinweise](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-5-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words für C++ 25.1, 25.2, 25.3, 25.4
 

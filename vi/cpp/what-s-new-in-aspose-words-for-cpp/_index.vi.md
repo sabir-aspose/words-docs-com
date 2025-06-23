@@ -9,10 +9,32 @@ weight: 2
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /vi/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2025-04-15-08-02-05
+timestamp: 2025-06-23-19-12-25
 ---
 
 Trang này mô tả các tính năng Aspose.Words mới thú vị nhất được giới thiệu trong các bản phát hành gần đây.
+
+## Aspose.Words cho C++ 25.5
+
+Aspose.Words 25.5 tăng cường tùy chỉnh biểu đồ với các tùy chọn tạo kiểu mới và cải thiện Markdown xuất bằng cách cung cấp quyền kiểm soát cách xử lý các đoạn văn trống.
+
+### Chuyển đổi, Tải và Lưu Tài liệu
+
+#### Xuất Các Đoạn Trống sang Markdown <sup>25.5</sup>
+
+Khả năng kiểm soát cách các đoạn trống được xuất sang Markdown đã được giới thiệu bằng cách thêm liệt kê [MarkdownEmptyParagraphExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownemptyparagraphexportmode/) và thuộc tính [EmptyParagraphExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_emptyparagraphexportmode/).
+
+### Kết xuất
+
+#### Đặt Kiểu Biểu đồ <sup>25.5</sup>
+
+Khả năng thiết lập kiểu biểu đồ đã được giới thiệu bằng cách thêm [ChartStyle](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartstyle/) liệt kê và thuộc tính [Style](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chart/get_style/).
+
+{{% alert color="primary" %}}
+
+Tìm hiểu thêm về [Aspose.Words Cho C++ 25.5 Ghi Chú Phát Hành](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-5-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words cho C++ 25.1, 25.2, 25.3, 25.4
 

@@ -9,10 +9,32 @@ weight: 2
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ro/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2025-04-15-08-02-05
+timestamp: 2025-06-23-19-12-25
 ---
 
 Această pagină descrie cele mai interesante caracteristici noi Aspose.Words introduse în versiunile recente.
+
+## Aspose.Words pentru C++ 25.5
+
+Aspose.Words 25.5 îmbunătățește personalizarea graficului cu noi opțiuni de stil și îmbunătățește Markdown exportul oferind control asupra modului în care sunt tratate paragrafele goale.
+
+### Conversia, încărcarea și salvarea documentelor
+
+#### Exportați paragrafe goale în Markdown <sup>25.5</sup>
+
+Abilitatea de a controla modul în care paragrafele goale sunt exportate în Markdown a fost introdusă prin adăugarea enumerării [MarkdownEmptyParagraphExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownemptyparagraphexportmode/) și a proprietății [EmptyParagraphExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_emptyparagraphexportmode/).
+
+### Redare
+
+#### Setarea stilului graficului <sup>25.5</sup>
+
+Abilitatea de a seta stilul graficului a fost introdusă prin adăugarea enumerării [ChartStyle](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartstyle/) și a proprietății [Style](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chart/get_style/).
+
+{{% alert color="primary" %}}
+
+Aflați mai multe despre [Aspose.Words pentru C++ 25.5 note de lansare](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-5-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words pentru C++ 25.1, 25.2, 25.3, 25.4
 
