@@ -9,10 +9,52 @@ weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /th/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-04-16-07-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 หน้านี้อธิบายถึงคุณลักษณะใหม่ที่น่าสนใจที่สุดAspose.Wordsที่นำมาใช้ในรุ่นล่าสุด.
+
+## Aspose.WordsสำหรับPython via .NET25.5,25.6
+
+Aspose.Words25.5 ช่วยเพิ่มการปรับแต่งแผนภูมิด้วยตัวเลือกการจัดแต่งทรงผมใหม่และปรับปรุงMarkdownการส่งออกโดยนำเสนอการควบคุมวิธีการจัดการย่อหน้าว่างเปล่า.
+
+Aspose.Words25.6 ช่วยเพิ่มความแม่นยำในการแสดงผลและการแสดงภาพโดยการแนะนำตัวเลือกการส่งออกภาพขั้นสูงการจัดการที่ดีขึ้นMathMLและการแสดงแผนภูมิที่ดีขึ้น.
+
+### การแปลงโหลดและบันทึกเอกสาร
+
+#### ส่งออกย่อหน้าว่างไปยังMarkdown <sup>25.5</sup>
+
+ความสามารถในการควบคุมว่ามีการส่งออกย่อหน้าว่างไปยังMarkdownโดยการเพิ่มการแจงนับ**MarkdownEmptyParagraphExportMode**และคุณสมบัติ**empty_paragraph_export_mode**.
+
+#### ส่งออกเอกสารหลายหน้าไปยังรูปแบบภาพแรสเตอร์ <sup>25.6</sup>
+
+ความสามารถในการส่งออกเอกสารหลายหน้าไปยังรูปแบบภาพแรสเตอร์(เช่นPNGและJPEG)ด้วย[customizable layouts](https://reference.aspose.com/words/python-net/aspose.words.saving/multipagelayout/)–แนว.
+
+### การแสดงผล
+
+#### การตั้งค่ารูปแบบแผนภูมิ <sup>25.5</sup>
+
+ความสามารถในการตั้งค่ารูปแบบแผนภูมิได้รับการแนะนำโดยการเพิ่มการแจงนับ**ChartStyle**และคุณสมบัติ**style**.
+
+#### การแสดงผลเส้นเชื่อมต่อในนิพจน์MathML <sup>25.6</sup>
+
+การแสดงผลของสายเชื่อมต่อในนิพจน์MathMLถูกนำมาใช้เพื่อให้แน่ใจว่าการแสดงผลที่ถูกต้องและสอดคล้องกันมากขึ้นของสูตรทางคณิตศาสตร์.
+
+#### การแสดงผลตำนานสำหรับแผนภูมิน้ำตก <sup>25.6</sup>
+
+การแสดงผลของตำนานสำหรับ["Waterfall" charts](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriestype/)ได้รับการแนะนำเพิ่มความโปร่งใสของข้อมูลและการปรับ.
+
+### อื่นๆ
+
+* เครื่องคิดเลขที่ซับซ้อนการวิเคราะห์พล็อตฟังก์ชั่นการแก้สมการ <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET25.5 บันทึกย่อ](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-5-release-notes/).
+
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET25.6 บันทึกย่อ](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words สำหรับ Python ผ่านทาง .NET 25.1, 25.2, 25.3, 25.4
 

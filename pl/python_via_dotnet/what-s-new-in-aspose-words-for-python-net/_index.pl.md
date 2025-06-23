@@ -9,10 +9,52 @@ weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /pl/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-04-16-07-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 Ta strona opisuje najciekawsze nowe funkcje Aspose.Words wprowadzone w ostatnich wydaniach.
+
+## Aspose.Words dla Python via .NET 25.5, 25.6
+
+Aspose.Words 25.5 poprawia dostosowywanie Wykresów za pomocą nowych opcji stylizacji i poprawia eksport Markdown, oferując kontrolę nad sposobem obsługi pustych akapitów.
+
+Aspose.Words 25.6 zwiększa precyzję renderowania i funkcje wizualizacji, wprowadzając zaawansowane opcje eksportu obrazu, ulepszoną obsługę MathML i lepszą reprezentację Wykresów.
+
+### Konwertowanie, ładowanie i zapisywanie dokumentów
+
+#### Eksportuj puste akapity do Markdown <sup>25.5</sup>
+
+Możliwość kontrolowania sposobu eksportowania pustych akapitów do Markdown została wprowadzona przez dodanie wyliczenia **MarkdownEmptyParagraphExportMode** i właściwości **empty_paragraph_export_mode**.
+
+#### Eksportuj wielostronicowe dokumenty do formatów obrazów rastrowych <sup>25.6</sup>
+
+Możliwość eksportowania dokumentów wielostronicowych do formatów obrazów rastrowych (takich jak PNG i JPEG) za pomocą [customizable layouts](https://reference.aspose.com/words/python-net/aspose.words.saving/multipagelayout/) – poziomych, pionowych lub siatkowych – została wprowadzona poprzez rozszerzenie funkcji eksportu obrazów.
+
+### Rendering
+
+#### Ustawianie stylu wykresu <sup>25.5</sup>
+
+Możliwość ustawienia stylu wykresu została wprowadzona przez dodanie wyliczenia **ChartStyle** i właściwości **style**.
+
+#### Renderowanie linii łączników w wyrażeniach MathML  <sup>25.6</sup>
+
+Renderowanie linii łączących w wyrażeniach MathML zostało zaimplementowane, aby zapewnić dokładniejsze i spójne wizualnie wyświetlanie wzorów matematycznych.
+
+#### Renderowanie Legend dla Wykresów wodospadów <sup>25.6</sup>
+
+Wprowadzono renderowanie Legend dla ["Waterfall" charts](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriestype/), zwiększając przejrzystość danych i poprawiając interpretację tych wykresów.
+
+### Inne
+
+* Poprawiono możliwość zawijania formuł matematycznych zawierających wiele ukośników, poprawiając przejrzystość układu i czytelność formuł. <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+Dowiedz się więcej o [Aspose.Words dla Python via .NET 25.5 informacje o wydaniu](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-5-release-notes/).
+
+Dowiedz się więcej o [Aspose.Words dla Python via .NET 25.6 informacje o wydaniu](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words dla Python przez .NET 25.1, 25.2, 25.3, 25.4
 
