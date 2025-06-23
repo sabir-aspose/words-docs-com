@@ -9,10 +9,52 @@ weight: 10
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cs/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2025-04-16-07-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 Tato stránka popisuje nejzajímavější nové funkce Aspose.Words představené v posledních verzích.
+
+## Aspose.Words pro .NET 25.5, 25.6
+
+Aspose.Words 25.5 vylepšuje přizpůsobení grafu novými možnostmi stylingu a vylepšuje export Markdown tím, že nabízí kontrolu nad tím, jak jsou zpracovávány prázdné odstavce.
+
+Aspose.Words 25.6 vylepšuje přesnost Vykreslování a vizualizační funkce zavedením pokročilých možností exportu obrázků, vylepšené manipulace MathML a lepší reprezentace grafu.
+
+### Převod, načítání a ukládání dokumentů
+
+#### Export prázdných odstavců do Markdown <sup>25.5</sup>
+
+Schopnost řídit, jak jsou prázdné odstavce exportovány do Markdown, byla zavedena přidáním výčtu [MarkdownEmptyParagraphExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownemptyparagraphexportmode/) a vlastnosti [EmptyParagraphExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/emptyparagraphexportmode/).
+
+#### Export vícestránkových dokumentů do formátů rastrových obrázků <sup>25.6</sup>
+
+Možnost exportovat vícestránkové dokumenty do formátů rastrových obrázků (například PNG a JPEG) s [customizable layouts](https://reference.aspose.com/words/net/aspose.words.saving/multipagelayout/) – horizontální, vertikální nebo mřížka – byla zavedena rozšířením funkce exportu obrázků.
+
+### Vykreslování
+
+#### Nastavení stylu grafu <sup>25.5</sup>
+
+Možnost nastavit styl grafu byla zavedena přidáním výčtu [ChartStyle](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartstyle/) a vlastnosti [Style](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/style/).
+
+#### Vykreslování řádků konektoru ve výrazech MathML  <sup>25.6</sup>
+
+Vykreslování konektorových čar ve výrazech MathML bylo implementováno, aby bylo zajištěno přesnější a vizuálně konzistentní zobrazení matematických vzorců.
+
+#### Vykreslování Legend Pro Vodopád grafy <sup>25.6</sup>
+
+Bylo zavedeno Vykreslování Legend Pro ["Waterfall" charts](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriestype/), což zvyšuje transparentnost dat a zlepšuje interpretovatelnost těchto grafů.
+
+### Jiný
+
+* Byla vylepšena schopnost zabalit matematické vzorce obsahující více lomítek, což zlepšuje přehlednost rozvržení a čitelnost vzorce. <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+Další informace o [Aspose.Words Pro .NET 25.5 Poznámky k vydání](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-5-release-notes/).
+
+Další informace o [Aspose.Words Pro .NET 25.6 Poznámky k vydání](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words pro .NET 25.1, 25.2, 25.3, 25.4
 
@@ -445,95 +487,6 @@ Další informace o [Aspose.Words Pro .NET 23.10 Poznámka](https://releases.asp
 Další informace o [Aspose.Words Pro .NET 23.11 Poznámka](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-11-release-notes/).
 
 Další informace o [Aspose.Words Pro .NET 23.12 Poznámka](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words pro .NET 23.5, 23.6, 23.7, 23.8
-
-Aspose.Words 23.5 zvyšuje schopnost pracovat s daty řady grafů a schopnost pracovat s ODT dokumenty, stejně jako zlepšit záhlaví/zápatí a jejich obtékání textu.
-
-Aspose.Words 23.6 rozšiřuje možnosti Vykreslování, přidává nový formát exportu, vylepšuje LINQ reporting a LowCode nástroje.
-
-Aspose.Words 23.7 vylepšuje možnosti vykazování, přidává nový formát exportu a zavádí změny v práci s tabulkami a digitálními podpisy.
-
-Aspose.Words 23.8 rozšiřuje možnosti různých formátů, zlepšuje vykreslování a přidává nové možnosti pro práci s poli.
-
-### Podporované Formáty
-
-* Počínaje verzí 23.6 je možné uložit dokument ve formátu XLSX. Nyní můžete své dokumenty převést do formátu Excel. <sup>23.6</sup>
-* Počínaje verzí 23.7 je možné uložit stránku dokumentu nebo tvar ve formátu EPS. <sup>23.7</sup>
-
-### Nové Funkce Formátu
-
-* Byla zavedena funkce automatického generování obsahu (TOC) Pro MOBI dokumenty. <sup>23.8</sup>
-* Konstruktor [PdfEncryptionDetails](https://reference.aspose.com/words/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/) byl rozšířen o [PdfPermissions](https://reference.aspose.com/words/net/aspose.words.saving/pdfpermissions/). <sup>23.8</sup>
-* Bylo implementováno tvarování vertikálního textu pro metasoubory EMF. <sup>23.8</sup>
-
-### Vykreslování a tisk
-
-#### Získejte A Upravte Data řady grafů <sup>23.5</sup>
-
-Funkce pro získání a úpravu dat řady grafů byla poskytnuta přidáním:
-
-* nové třídy: [ChartXValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartmultilevelvalue/)
-* nové typy výčtu: [ChartXValueType](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluetype/)
-
-#### Podpora pokročilé typografie <sup>23.6</sup>
-
-Byla přidána podpora pokročilé typografie v WMF, EMF a EMF+ Vykreslování.
-
-#### Barevný obsah na stránce <sup>23.6</sup>
-
-Byla přidána veřejná vlastnost [PageInfo.Colored](https://reference.aspose.com/words/net/aspose.words.rendering/pageinfo/colored/) označující, zda je stránka barevná nebo ne.
-
-#### Formátování popisků dat grafu <sup>23.6</sup>
-
-Byla implementována možnost nastavit formátování výplně, tahu a popisku pro popisky dat grafu.
-
-### Mail Merge a podávání zpráv
-
-#### Dynamic HTML vložení pro LINQ Reporting Engine <sup>23.6</sup>
-
-Byl přidán nový způsob dynamického vkládání HTML pro LINQ Reporting Engine.
-
-#### Mustache Podpora Značek <sup>23.7</sup>
-
-Značky Mustache jsou nyní podporovány v metodách [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/) a [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion).
-
-#### LINQ Aktualizace Syntaxe Šablony Reporting Engine <sup>23.7</sup>
-
-Syntaxe šablony LINQ Reporting Engine nyní podporuje metody rozšíření `ElementAt` a ElementAtOrDefault.
-
-#### Určení velikosti vykreslených obrázků <sup>23.8</sup>
-
-Byla zavedena nová veřejná vlastnost [ImageSize](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/imagesize/) pro určení velikosti vykreslených obrázků v pixelu.
-
-#### Zachovat mezery pro hodnoty řetězce JSON - LINQ <sup>23.8</sup>
-
-Do LINQ Reporting Engine byla přidána možnost pro zachování mezer pro hodnoty řetězce JSON.
-
-### LowCode <sup>23.6</sup>
-
-Byly přidány nové metody LowCode určené ke sloučení různých typů dokumentů do jednoho výstupního dokumentu.
-
-### Jiný
-
-* Byla implementována podpora zalamování textu v záhlaví/zápatí. <sup>23.5</sup>
-* Schopnost odstranit digitální podpisy z dokumentů ODT byla přidána metodou [RemoveAllSignatures](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/). <sup>23.5</sup>
-* Byla přidána veřejná vlastnost [PhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/phoneticguide/) pro získání základního a rubínového textu fonetického průvodce [Run](https://reference.aspose.com/words/net/aspose.words/run/). <sup>23.5</sup>
-* Schopnost načíst hodnotu digitálního podpisu z digitálně podepsaného dokumentu jako bajtové pole byla přidána zavedením nové vlastnosti [SignatureValue](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/). <sup>23.7</sup>
-* Třídy [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) a [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) byly rozšířeny o nové veřejné členy– [Row.NextRow](https://reference.aspose.com/words/net/aspose.words.tables/row/nextrow/), [Row.PreviousRow](https://reference.aspose.com/words/net/aspose.words.tables/row/previousrow/), [Cell.NextCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/nextcell/), a [Cell.PreviousCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/previouscell/). <sup>23.7</sup>
-* Byla přidána podpora pro pole CITATION a BIBLIOGRAPHY. <sup>23.8</sup>
-
-{{% alert color="primary" %}}
-
-Další informace o [Aspose.Words pro .NET 23.5 Poznámka](/words/net/aspose-words-for-net-23-5-release-notes/).
-
-Další informace o [Aspose.Words pro .NET 23.6 Poznámka](/words/net/aspose-words-for-net-23-6-release-notes/).
-
-Další informace o [Aspose.Words pro .NET 23.7 Poznámka](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
-
-Další informace o [Aspose.Words pro .NET 23.8 Poznámka](/words/net/aspose-words-for-net-23-8-release-notes/).
 
 {{% /alert %}}
 

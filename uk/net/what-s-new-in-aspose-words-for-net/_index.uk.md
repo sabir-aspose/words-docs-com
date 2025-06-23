@@ -9,10 +9,52 @@ weight: 10
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /uk/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2025-04-16-07-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 На цій сторінці описані найцікавіші нові функції Aspose.Words, що з'явилися в останніх версіях.
+
+## Aspose.Words для .NET 25.5, 25.6
+
+Aspose.Words 25.5 розширює можливості налаштування діаграм за допомогою нових варіантів оформлення і покращує Markdown експорт, надаючи можливість управляти обробкою порожніх абзаців.
+
+Aspose.Words 25.6 покращує точність візуалізації та можливості візуалізації завдяки розширеним можливостям експорту зображень, покращеній обробці MathML та кращому представленню діаграм.
+
+### Перетворення, завантаження та збереження документів
+
+#### Експортуйте порожні абзаци в Markdown <sup>25.5</sup>
+
+Можливість керувати тим, як порожні абзаци експортуються в Markdown, з'явилася завдяки додаванню перерахування [MarkdownEmptyParagraphExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownemptyparagraphexportmode/) і властивості [EmptyParagraphExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/emptyparagraphexportmode/).
+
+#### Експорт багатосторінкових документів у формати растрових зображень <sup>25.6</sup>
+
+Можливість експорту багатосторінкових документів у формати растрових зображень (наприклад, PNG і JPEG) з [customizable layouts](https://reference.aspose.com/words/net/aspose.words.saving/multipagelayout/) - по горизонталі, вертикалі або сітці – з'явилася завдяки розширенню функціональності експорту зображень.
+
+### Візуалізація
+
+#### Налаштування стилю діаграми <sup>25.5</sup>
+
+Можливість задавати стиль діаграми була реалізована шляхом додавання перерахування [ChartStyle](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartstyle/) і властивості [Style](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/style/).
+
+#### Відображення сполучних ліній у виразах MathML <sup>25.6</sup>
+
+Для забезпечення більш точного і візуально несуперечливого відображення математичних формул був реалізований рендеринг сполучних ліній у виразах MathML.
+
+#### Візуалізація умовних позначень для каскадних діаграм <sup>25.6</sup>
+
+Була введена візуалізація умовних позначень для ["Waterfall" charts](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriestype/), що підвищує прозорість даних і покращує інтерпретованість цих діаграм.
+
+### Інший
+
+* Покращено можливість перенесення математичних формул, що містять кілька косих рис, що підвищує чіткість компонування і розбірливість формул. <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+Дізнайтеся більше про [Aspose.Words для .NET 25.5 приміток до випуску](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-5-release-notes/).
+
+Дізнайтеся більше про [Aspose.Words для .NET 25.6 приміток до випуску](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words для .NET 25.1, 25.2, 25.3, 25.4
 
@@ -445,95 +487,6 @@ Aspose.Words 23.12 додані нові властивості і перера�
 Дізнайтеся більше про [Aspose.Words для .NET 23.11 примітки до випуску](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-11-release-notes/).
 
 Дізнайтеся більше про [Aspose.Words для .NET 23.12 примітки до випуску](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words для .NET 23.5, 23.6, 23.7, 23.8
-
-Aspose.Words 23.5 розширює можливості роботи з даними рядів діаграм і документами ODT, а також покращує верхні і нижні колонтитули і їх текстове оформлення.
-
-Aspose.Words 23.6 розширені можливості візуалізації, додано новий формат експорту, покращено LINQ звіти та LowCode інструменти.
-
-Aspose.Words 23.7 розширені можливості створення звітів, доданий новий формат експорту і внесені зміни в роботу з таблицями і цифровими підписами.
-
-Aspose.Words 23.8 розширює можливості різних форматів, покращує візуалізацію і додає нові опції для роботи з полями.
-
-### Підтримувані формати
-
-* Починаючи з версії 23.6, можна зберігати документи у форматі XLSX. Тепер ви можете конвертувати свої документи у формат Excel. <sup>23.6</sup>
-* Починаючи з версії 23.7, можна зберігати сторінку документа або фігуру в форматі EPS. <sup>23.7</sup>
-
-### Нові можливості формату
-
-* Додана функціональність для автоматичного створення змісту (TOC) для MOBI документів. <sup>23.8</sup>
-* Конструктор [PdfEncryptionDetails](https://reference.aspose.com/words/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/) було розширено до [PdfPermissions](https://reference.aspose.com/words/net/aspose.words.saving/pdfpermissions/). <sup>23.8</sup>
-* Реалізовано формування вертикального тексту для метафайлів EMF. <sup>23.8</sup>
-
-### Рендеринг та друк
-
-#### Отримання та зміна даних ряду діаграм <sup>23.5</sup>
-
-Можливість отримувати і змінювати дані рядів діаграм була надана шляхом додавання:
-
-* нові класи: [ChartXValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartmultilevelvalue/)
-* нові типи перерахувань: [ChartXValueType](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluetype/)
-
-#### Підтримка розширеної типографіки <sup>23.6</sup>
-
-Додана підтримка розширеної типографіки при рендерингу WMF, EMF і EMF+.
-
-#### Кольоровий вміст на сторінці <sup>23.6</sup>
-
-Додано загальнодоступну властивість [PageInfo.Colored](https://reference.aspose.com/words/net/aspose.words.rendering/pageinfo/colored/), яка вказує, чи є сторінка кольоровою чи ні.
-
-#### Форматування міток даних діаграми <sup>23.6</sup>
-
-Реалізована можливість налаштування форматування заливки, обведення і виносок для міток даних діаграми.
-
-### Mail Merge та звітність
-
-#### Динамічне вставлення HTML для механізму звітності LINQ <sup>23.6</sup>
-
-Додано новий спосіб динамічної вставки HTML для механізму звітування LINQ.
-
-#### Mustache Підтримка тегів <sup>23.7</sup>
-
-Mustache теги тепер підтримуються в методах [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/) та [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion).
-
-#### LINQ оновлення синтаксису шаблону механізму звітування <sup>23.7</sup>
-
-Синтаксис шаблону механізму звітування LINQ тепер підтримує методи розширення `ElementAt` та ElementAtOrDefault.
-
-#### Вказівка розміру відображуваних зображень <sup>23.8</sup>
-
-Введено нову загальнодоступну властивість [ImageSize](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/imagesize/), щоб вказати розмір відтворюваних зображень у пікселях.
-
-#### Зберегти пробіли для JSON рядкових значень - LINQ <sup>23.8</sup>
-
-У механізм створення звітів LINQ була додана опція для збереження пробілів для рядкових значень JSON.
-
-### LowCode <sup>23.6</sup>
-
-Додано нові LowCode методи, призначені для об'єднання різних типів документів в єдиний вихідний документ.
-
-### Інший
-
-* Реалізована підтримка перенесення тексту в верхні і нижні колонтитули. <sup>23.5</sup>
-* Додана можливість видаляти цифрові підписи з ODT документів за допомогою методу [RemoveAllSignatures](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/). <sup>23.5</sup>
-* Додано загальнодоступне властивість [PhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/phoneticguide/) для отримання базового і ruby-тексту фонетичного керівництва [Run](https://reference.aspose.com/words/net/aspose.words/run/). <sup>23.5</sup>
-* Додана можливість витягувати значення цифрового підпису з документа з цифровим підписом у вигляді масиву байт, ввівши нову властивість [SignatureValue](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/). <sup>23.7</sup>
-* Класи [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) і [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) були розширені за рахунок нових відкритих учасників– [Row.NextRow](https://reference.aspose.com/words/net/aspose.words.tables/row/nextrow/), [Row.PreviousRow](https://reference.aspose.com/words/net/aspose.words.tables/row/previousrow/), [Cell.NextCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/nextcell/), і [Cell.PreviousCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/previouscell/). <sup>23.7</sup>
-* Додана підтримка полів CITATION і BIBLIOGRAPHY. <sup>23.8</sup>
-
-{{% alert color="primary" %}}
-
-Дізнайтеся більше про [Aspose.Words для .NET 23.5 примітки до випуску](/words/net/aspose-words-for-net-23-5-release-notes/).
-
-Дізнайтеся більше про [Aspose.Words для .NET 23.6 примітки до випуску](/words/net/aspose-words-for-net-23-6-release-notes/).
-
-Дізнайтеся більше про [Aspose.Words для .NET 23.7 примітки до випуску](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
-
-Дізнайтеся більше про [Aspose.Words для .NET 23.8 примітки до випуску](/words/net/aspose-words-for-net-23-8-release-notes/).
 
 {{% /alert %}}
 
