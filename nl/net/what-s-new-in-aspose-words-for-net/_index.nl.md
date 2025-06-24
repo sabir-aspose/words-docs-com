@@ -9,10 +9,52 @@ weight: 10
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nl/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2025-04-16-07-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 Deze pagina beschrijft de meest interessante nieuwe Aspose.Words - functies die zijn geïntroduceerd in recente releases.
+
+## Aspose.Words Voor .NET 25.5, 25.6
+
+Aspose.Words 25.5 verbetert de aanpassing van grafieken met nieuwe stylingopties en verbetert de export van Markdown door controle te bieden over hoe lege alinea ' s worden verwerkt.
+
+Aspose.Words 25.6 verbetert de renderingprecisie en visualisatiefuncties door de introductie van geavanceerde opties voor het exporteren van afbeeldingen, verbeterde MathML - afhandeling en betere grafiekweergave.
+
+### Documenten converteren, laden en opslaan
+
+#### Lege alinea ' s exporteren naar Markdown <sup>25.5</sup>
+
+De mogelijkheid om te bepalen hoe lege alinea ' s worden geëxporteerd naar Markdown is geïntroduceerd door de [MarkdownEmptyParagraphExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownemptyparagraphexportmode/) opsomming en de [EmptyParagraphExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/emptyparagraphexportmode/) eigenschap toe te voegen.
+
+#### Documenten met meerdere pagina ' s exporteren naar Rasterafbeeldformaten <sup>25.6</sup>
+
+De mogelijkheid om documenten met meerdere pagina ' s te exporteren naar rasterafbeeldformaten (zoals PNG en JPEG) met [customizable layouts](https://reference.aspose.com/words/net/aspose.words.saving/multipagelayout/)-horizontaal, verticaal of raster – is geïntroduceerd door de functionaliteit voor het exporteren van afbeeldingen uit te breiden.
+
+### Rendering
+
+#### De grafiekstijl instellen <sup>25.5</sup>
+
+De mogelijkheid om de grafiekstijl in te stellen is geïntroduceerd door de [ChartStyle](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartstyle/) opsomming en de [Style](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/style/) eigenschap toe te voegen.
+
+#### Connectorlijnen weergeven in MathML - expressies <sup>25.6</sup>
+
+De weergave van verbindingslijnen in MathML - uitdrukkingen is geïmplementeerd om een nauwkeuriger en visueel consistente weergave van wiskundige formules te garanderen.
+
+#### Legendes weergeven voor Watervalkaarten <sup>25.6</sup>
+
+De weergave van legendes voor ["Waterfall" charts](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriestype/) is geïntroduceerd, waardoor de gegevenstransparantie wordt vergroot en de interpreteerbaarheid van deze grafieken wordt verbeterd.
+
+### Ander
+
+* De mogelijkheid om wiskundige formules met meerdere slashes in te pakken is verbeterd, waardoor de helderheid van de lay-out en de leesbaarheid van de formule zijn verbeterd. <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+Lees meer over [Aspose.Words voor .NET 25.5 Release Notes](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-5-release-notes/).
+
+Lees meer over [Aspose.Words voor .NET 25.6 Release Notes](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words voor .NET 25.1, 25.2, 25.3, 25.4
 
@@ -445,95 +487,6 @@ Lees meer over [Aspose.Words voor .NET 23.10 vrijgave](https://releases.aspose.c
 Lees meer over [Aspose.Words voor .NET 23.11 vrijgave](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-11-release-notes/).
 
 Lees meer over [Aspose.Words voor .NET 23.12 vrijgave](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words voor .NET 23.5, 23.6, 23.7, 23.8
-
-Aspose.Words 23.5 verbetert de mogelijkheid om te werken met grafiekreeksgegevens en de mogelijkheid om te werken met ODT documenten, evenals het verbeteren van kop-en voetteksten en hun tekstomloop.
-
-Aspose.Words 23.6 breidt weergaveopties uit, voegt een nieuwe exportnotatie toe, verbetert LINQ rapportage en LowCode tools.
-
-Aspose.Words 23.7 verbetert de rapportagemogelijkheden, voegt een nieuwe exportindeling toe en introduceert wijzigingen in het werken met tabellen en digitale handtekeningen.
-
-Aspose.Words 23.8 breidt de mogelijkheden van verschillende indelingen uit, verbetert de weergave en voegt nieuwe opties toe voor het werken met velden.
-
-### Ondersteunde Formaten
-
-* Vanaf versie 23.6 is het mogelijk om een document op te slaan in XLSX - indeling. Nu kunt u uw documenten converteren naar Excel-formaat. <sup>23.6</sup>
-* Vanaf versie 23.7 is het mogelijk om een documentpagina of-vorm op te slaan in EPS - Indeling. <sup>23.7</sup>
-
-### Nieuwe Formaatfuncties
-
-* De functionaliteit voor het automatisch genereren van inhoudsopgave (TOC) voor MOBI documenten is geïntroduceerd. <sup>23.8</sup>
-* De [PdfEncryptionDetails](https://reference.aspose.com/words/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/) constructor is uitgebreid met [PdfPermissions](https://reference.aspose.com/words/net/aspose.words.saving/pdfpermissions/). <sup>23.8</sup>
-* Het vormgeven van verticale tekst voor EMF metafiles is geïmplementeerd. <sup>23.8</sup>
-
-### Rendering en afdrukken
-
-#### Gegevens van Grafiekreeksen ophalen en wijzigen <sup>23.5</sup>
-
-De functie voor het verkrijgen en wijzigen van gegevens over grafiekreeksen werd geleverd door het toevoegen van:
-
-* nieuwe klassen: [ChartXValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartmultilevelvalue/)
-* nieuwe typen enum: [ChartXValueType](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluetype/)
-
-#### Ondersteuning voor geavanceerde typografie <sup>23.6</sup>
-
-Ondersteuning voor geavanceerde typografie in WMF, EMF en EMF+ rendering is toegevoegd.
-
-#### Gekleurde inhoud op de pagina <sup>23.6</sup>
-
-De openbare eigenschap [PageInfo.Colored](https://reference.aspose.com/words/net/aspose.words.rendering/pageinfo/colored/), die aangeeft of de pagina gekleurd is of niet, is toegevoegd.
-
-#### Opmaak voor Grafiekgegevenslabels <sup>23.6</sup>
-
-De mogelijkheid om opvul -, lijn-en bijletteropmaak in te stellen voor grafiekgegevenslabels is geïmplementeerd.
-
-### Mail Merge en rapportage
-
-#### Dynamische HTML invoeging voor LINQ rapportage-Engine <sup>23.6</sup>
-
-Een nieuwe manier van dynamische HTML invoeging voor LINQ Reporting Engine is toegevoegd.
-
-#### Mustache Tags Ondersteuning <sup>23.7</sup>
-
-Mustache tags worden nu ondersteund in de [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/) en [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion) methoden.
-
-#### LINQ Syntaxisupdates Voor Het Rapporteren Van Engine Template <sup>23.7</sup>
-
-De LINQ Reporting Engine template syntaxis ondersteunt nu de `ElementAt` en ElementAtOrDefault extensie methoden.
-
-#### De grootte van gerenderde afbeeldingen opgeven <sup>23.8</sup>
-
-Er is een nieuwe openbare eigenschap [ImageSize](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/imagesize/) geïntroduceerd voor het opgeven van de grootte van gerenderde afbeeldingen in pixel.
-
-#### Witruimtes behouden voor JSON tekenreekswaarden - LINQ <sup>23.8</sup>
-
-Er is een optie toegevoegd aan de LINQ Reporting Engine om witruimtes voor JSON string waarden te behouden.
-
-### LowCode <sup>23.6</sup>
-
-Er zijn nieuwe LowCode - methoden toegevoegd om verschillende soorten documenten samen te voegen tot één uitvoerdocument.
-
-### Ander
-
-* Ondersteuning voor tekstwrapping in kop-en voetteksten is geïmplementeerd. <sup>23.5</sup>
-* De mogelijkheid om digitale handtekeningen uit ODT documenten te verwijderen is toegevoegd via de [RemoveAllSignatures](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/) methode. <sup>23.5</sup>
-* De openbare eigenschap [PhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/phoneticguide/) om de basis-en robijntekst van de fonetische gids [Run](https://reference.aspose.com/words/net/aspose.words/run/) te verkrijgen, is toegevoegd. <sup>23.5</sup>
-* De mogelijkheid om een digitale handtekeningwaarde op te halen uit een digitaal ondertekend document als een byte array is toegevoegd door een nieuwe eigenschap [SignatureValue](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/) in te voeren. <sup>23.7</sup>
-* De klassen [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) en [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) zijn uitgebreid met nieuwe openbare leden– [Row.NextRow](https://reference.aspose.com/words/net/aspose.words.tables/row/nextrow/), [Row.PreviousRow](https://reference.aspose.com/words/net/aspose.words.tables/row/previousrow/), [Cell.NextCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/nextcell/), en [Cell.PreviousCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/previouscell/). <sup>23.7</sup>
-* Ondersteuning voor CITATION en BIBLIOGRAPHY velden is toegevoegd. <sup>23.8</sup>
-
-{{% alert color="primary" %}}
-
-Lees meer over [Aspose.Words voor .NET 23.5 vrijgave](/words/net/aspose-words-for-net-23-5-release-notes/).
-
-Lees meer over [Aspose.Words voor .NET 23.6 vrijgave](/words/net/aspose-words-for-net-23-6-release-notes/).
-
-Lees meer over [Aspose.Words voor .NET 23.7 vrijgave](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
-
-Lees meer over [Aspose.Words voor .NET 23.8 vrijgave](/words/net/aspose-words-for-net-23-8-release-notes/).
 
 {{% /alert %}}
 

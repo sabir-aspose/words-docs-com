@@ -9,10 +9,52 @@ weight: 2
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ko/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2025-04-22-08-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 이 페이지는 최근 릴리스에서 소개 된 가장 흥미로운 새로운Aspose.Words기능에 대해 설명합니다.
+
+## Aspose.WordsJava25.5,25.6
+
+Aspose.Words25.5 새로운 스타일 옵션을 사용하여 차트 사용자 정의를 향상시키고 빈 단락 처리 방법을 제어하여Markdown내보내기를 개선합니다.
+
+Aspose.Words25.6 고급 이미지 내보내기 옵션,향상된MathML처리 및 더 나은 차트 표현을 도입하여 렌더링 정밀도 및 시각화 기능을 향상시킵니다.
+
+### 문서 변환,로드 및 저장
+
+#### 빈 단락을Markdown으로 내보내기 <sup>25.5</sup>
+
+빈 단락을Markdown로 내보내는 방법을 제어하는 기능은[MarkdownEmptyParagraphExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownemptyparagraphexportmode/)열거형과[EmptyParagraphExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getEmptyParagraphExportMode)속성을 추가하여 도입되었습니다.
+
+#### 여러 페이지 문서를 래스터 이미지 형식으로 내보내기 <sup>25.6</sup>
+
+다중 페이지 문서를 래스터 이미지 형식(예:PNG및JPEG)으로[customizable layouts](https://reference.aspose.com/words/java/com.aspose.words/multipagelayout/)(수평,수직 또는 격자)으로 내보내는 기능은 이미지 내보내기 기능을 확장하여 도입되었습니다.
+
+### 렌더링
+
+#### 차트 스타일 설정 <sup>25.5</sup>
+
+[ChartStyle](https://reference.aspose.com/words/java/com.aspose.words/chartstyle/)열거형과[Style](https://reference.aspose.com/words/java/com.aspose.words/chart/#getStyle)속성을 추가하여 차트 스타일을 설정하는 기능이 도입되었습니다.
+
+#### MathML식에서 커넥터 라인 렌더링 <sup>25.6</sup>
+
+MathML식에서 커넥터 라인의 렌더링은 수학 공식의보다 정확하고 시각적으로 일관된 표시를 보장하기 위해 구현되었습니다.
+
+#### 폭포 차트의 범례 렌더링 <sup>25.6</sup>
+
+["Waterfall" charts](https://reference.aspose.com/words/java/com.aspose.words/chartseriestype/)에 대한 범례 렌더링이 도입되어 데이터 투명성을 높이고 이러한 차트의 해석 가능성을 향상시킵니다.
+
+### 다른
+
+* 여러 슬래시가 포함된 수학 공식을 래핑하는 기능이 향상되어 레이아웃 선명도와 공식 가독성이 향상되었습니다. <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+에 대해 자세히 알아보기 [Aspose.WordsJava25.5 릴리스 노트](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-5-release-notes/).
+
+에 대해 자세히 알아보기 [Aspose.WordsJava25.6 릴리스 노트](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.WordsJava 25.1, 25.2, 25.3, 25.4
 
@@ -435,96 +477,6 @@ TXT문서를 로드할 때 하이퍼링크를 인식하는 기능은 새로운[D
 에 대해 자세히 알아보기 [Aspose.WordsJava23.11릴리스 노트](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-11-release-notes/).
 
 에 대해 자세히 알아보기 [Aspose.WordsJava23.12릴리스 노트](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.WordsJava 23.5, 23.6, 23.7, 23.8
-
-Aspose.Words23.5차트 시리즈 데이터 및ODT문서와 함께 작업 할 수있는 기능뿐만 아니라 머리글/바닥 글 및 텍스트 줄 바꿈을 개선 할 수있는 기능을 향상시킬 수 있습니다.
-
-Aspose.Words23.6렌더링 옵션을 확장하고 새 내보내기 형식을 추가하고LINQ보고 및LowCode도구를 개선합니다.
-
-Aspose.Words23.7보고 기능을 향상시키고 새 내보내기 형식을 추가하며 테이블 및 디지털 서명 작업에 대한 변경 사항을 소개합니다.
-
-Aspose.Words23.8는 다양한 형식의 기능을 확장하고 렌더링을 개선하며 필드 작업을 위한 새로운 옵션을 추가합니다.
-
-### 지원되는 형식
-
-* 버전23.6부터 문서를XLSX형식으로 저장할 수 있습니다. 지금 당신은 엑셀 형식으로 문서를 변환 할 수 있습니다. <sup>23.6</sup>
-
-* 버전23.7부터 문서 페이지 또는 도형을EPS형식으로 저장할 수 있습니다. <sup>23.7</sup>
-
-* ###새로운 형식 기능
-
-  - MOBI문서에 대한 목차(TOC)를 자동으로 생성하는 기능이 도입되었습니다. <sup>23.8</sup>
-  - [PdfEncryptionDetails](https://reference.aspose.com/words/java/com.aspose.words/pdfencryptiondetails/#PdfEncryptionDetails-java.lang.String-java.lang.String)생성자는[PdfPermissions](https://reference.aspose.com/words/java/com.aspose.words/pdfpermissions/)로 확장되었습니다. <sup>23.8</sup>
-  - EMF메타파일에 대한 수직 텍스트의 모양이 구현되었습니다. <sup>23.8</sup>
-
-### 렌더링
-
-#### 차트 시리즈 데이터 가져오기 및 수정 <sup>23.5</sup>
-
-차트 시리즈 데이터를 가져오고 수정하는 기능은 다음을 추가하여 제공되었습니다.:
-
-- 새로운 클래스: [ChartXValue](https://reference.aspose.com/words/java/com.aspose.words/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/java/com.aspose.words/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/java/com.aspose.words/chartmultilevelvalue/)
-- 새 열거형 유형:[ChartXValueType](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluetype/),[ChartYValueType](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluetype/)
-
-#### 고급 타이포그래피 지원 <sup>23.6</sup>
-
-WMF,EMF및EMF+렌더링의 고급 타이포그래피 지원이 추가되었습니다.
-
-#### 페이지의 컬러 콘텐츠 <sup>23.6</sup>
-
-페이지의 색상이 지정되었는지 여부를 나타내는 공용 속성[PageInfo.Colored](https://reference.aspose.com/words/java/com.aspose.words/pageinfo/#getColored)이 추가되었습니다.
-
-#### 차트 데이터 레이블 서식 지정 <sup>23.6</sup>
-
-차트 데이터 레이블에 대한 채우기,획 및 설명선 서식을 설정하는 기능이 구현되었습니다.
-
-### Mail Merge및 보고
-
-#### LINQ보고 엔진에 대한 동적HTML삽입 <sup>23.6</sup>
-
-LINQ보고 엔진에 대한 동적HTML삽입의 새로운 방법이 추가되었습니다.
-
-#### Mustache태그 지원 <sup>23.7</sup>
-
-Mustache태그는 이제[MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getRegionsHierarchy)및[MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldNamesForRegion-java.lang.String)메서드에서 지원됩니다.
-
-#### LINQ엔진 템플릿 구문 업데이트 보고 <sup>23.7</sup>
-
-LINQ보고 엔진 템플릿 구문은 이제`ElementAt`및ElementAtOrDefault확장 방법을 지원합니다.
-
-#### 렌더링된 이미지의 크기 지정 <sup>23.8</sup>
-
-렌더링된 이미지의 크기를 픽셀로 지정하기 위한 새로운 공용 속성**ImageSize**이 도입되었습니다.
-
-#### JSON문자열 값–LINQ에 대한 공백 유지 <sup>23.8</sup>
-
-LINQ보고 엔진에JSON문자열 값의 공백을 유지하는 옵션이 추가되었습니다.
-
-### LowCode <sup>23.6</sup>
-
-다른 유형의 문서를 단일 출력 문서로 병합하려는 새로운LowCode방법이 추가되었습니다.
-
-### 다른
-
-- 머리글/바닥글의 텍스트 줄 바꿈에 대한 지원이 구현되었습니다. <sup>23.5</sup>
-- [RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream)방법을 통해ODT문서에서 디지털 서명을 제거하는 기능이 추가되었습니다. <sup>23.5</sup>
-- 음성 안내서[Run](https://reference.aspose.com/words/java/com.aspose.words/run/)의 기본 및 루비 텍스트를 얻기 위해 공공 재산[PhoneticGuide](https://reference.aspose.com/words/java/com.aspose.words/run/#getPhoneticGuide)이 추가되었습니다. <sup>23.5</sup>
-- 디지털 서명된 문서에서 바이트 배열로 디지털 서명 값을 검색하는 기능은 새로운[SignatureValue](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/#getSignatureValue)속성을 도입하여 추가되었습니다. <sup>23.7</sup>
-- [Row](https://reference.aspose.com/words/java/com.aspose.words/row/)및[Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/)클래스는 새로운 공개 구성원으로 확장되었습니다.– [Row.NextRow](https://reference.aspose.com/words/java/com.aspose.words/row/#getNextRow), [Row.PreviousRow](https://reference.aspose.com/words/java/com.aspose.words/row/#getPreviousRow), [Cell.NextCell](https://reference.aspose.com/words/java/com.aspose.words/cell/#getNextCell), 그리고[Cell.PreviousCell](https://reference.aspose.com/words/java/com.aspose.words/cell/#getPreviousCell) <sup>23.7</sup>
-- CITATION및BIBLIOGRAPHY필드에 대한 지원이 추가되었습니다. <sup>23.8</sup>
-
-{{% alert color="primary" %}}
-
-에 대해 자세히 알아보기 [Aspose.WordsJava23.5릴리스 노트](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/).
-
-에 대해 자세히 알아보기 [Aspose.WordsJava23.6릴리스 노트](/words/java/aspose-words-for-java-23-6-release-notes/).
-
-에 대해 자세히 알아보기 [Aspose.WordsJava23.7릴리스 노트](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
-
-에 대해 자세히 알아보기 [Aspose.WordsJava23.8릴리스 노트](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
 
 {{% /alert %}}
 

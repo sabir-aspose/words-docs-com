@@ -9,10 +9,32 @@ weight: 2
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /zh/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2025-04-15-08-02-05
+timestamp: 2025-06-23-19-12-25
 ---
 
 本页介绍了最近版本中引入的最有趣的Aspose.Words新特性。
+
+## Aspose.Words为C++25.5
+
+Aspose.Words25.5通过新的样式选项增强了图表自定义，并通过提供对空段落处理方式的控制来改进Markdown导出。
+
+### 转换、加载和保存文档
+
+#### 将空段落导出为Markdown <sup>25.5</sup>
+
+通过添加[MarkdownEmptyParagraphExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownemptyparagraphexportmode/)枚举和[EmptyParagraphExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_emptyparagraphexportmode/)属性，引入了控制如何将空段落导出到Markdown的能力。
+
+### 渲染图
+
+#### 设置图表样式 <sup>25.5</sup>
+
+通过添加[ChartStyle](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartstyle/)枚举和[Style](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chart/get_style/)属性，引入了设置图表样式的功能。
+
+{{% alert color="primary" %}}
+
+了解更多关于 [Aspose.Words为C++25.5发行说明](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-5-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words为C++ 25.1, 25.2, 25.3, 25.4
 

@@ -9,10 +9,52 @@ weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /fa/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-04-16-07-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 این صفحه جالب ترین ویژگی های جدید Aspose.Words را که در نسخه های اخیر معرفی شده است، توصیف می کند.
+
+## Aspose.Words برای Python via .NET 25.5, 25.6
+
+Aspose.Words 25.5 با گزینه های جدید طراحی ، سفارشی سازی نمودار را افزایش می دهد و صادرات Markdown را با ارائه کنترل بر نحوه برخورد با پاراگراف های خالی بهبود می بخشد.
+
+Aspose.Words 25.6 با معرفی گزینه های پیشرفته صادرات تصویر ، بهبود مدیریت MathML و نمایش بهتر نمودار ، ویژگی های دقیق و تجسم را بهبود می بخشد.
+
+### تبدیل، بارگیری و ذخیره اسناد
+
+#### پاراگراف های خالی را به Markdownصادر کنید <sup>25.5</sup>
+
+امکان کنترل نحوه صادرات پاراگراف های خالی به Markdown با اضافه کردن **MarkdownEmptyParagraphExportMode** شمارش و **empty_paragraph_export_mode** خاصیت معرفی شده است.
+
+#### صادرات اسناد چند صفحه ای به فرمت های تصویر رستر <sup>25.6</sup>
+
+امکان صادرات اسناد چند صفحه ای به فرمت های تصویر رستر (مانند PNG و JPEG) با [customizable layouts](https://reference.aspose.com/words/python-net/aspose.words.saving/multipagelayout/) – افقی ، عمودی یا شبکه – با گسترش قابلیت صادرات تصویر معرفی شده است.
+
+### رندر کردن
+
+#### تنظیم سبک نمودار <sup>25.5</sup>
+
+توانایی تنظیم سبک نمودار با اضافه کردن **ChartStyle** شمارش و **style** خاصیت معرفی شده است.
+
+#### رندر کردن خطوط کانکتور در عبارات MathML  <sup>25.6</sup>
+
+رندر خطوط اتصال در عبارات MathML برای اطمینان از نمایش دقیق تر و بصری فرمول های ریاضی اجرا شده است.
+
+#### ارائه افسانه ها برای نمودارهای آبشار <sup>25.6</sup>
+
+ارائه افسانه ها برای ["Waterfall" charts](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriestype/) معرفی شده است ، افزایش شفافیت داده ها و بهبود تفسیر این نمودارها.
+
+### سایر
+
+* توانایی بسته بندی فرمول های ریاضی حاوی چندین برش افزایش یافته است ، بهبود وضوح طرح و خوانایی فرمول. <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+اطلاعات بیشتر در مورد [Aspose.Words برای Python via .NET 25.5 یادداشت های انتشار](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-5-release-notes/).
+
+اطلاعات بیشتر در مورد [Aspose.Words برای Python via .NET 25.6 یادداشت های انتشار](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words برای Python از طریق .NET 25.1, 25.2, 25.3, 25.4
 

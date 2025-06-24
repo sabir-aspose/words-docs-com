@@ -9,10 +9,52 @@ weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nl/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-04-16-07-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 Deze pagina beschrijft de meest interessante nieuwe Aspose.Words - functies die zijn geïntroduceerd in recente releases.
+
+## Aspose.Words voor Python via .NET 25.5, 25.6
+
+Aspose.Words 25.5 verbetert de aanpassing van grafieken met nieuwe stylingopties en verbetert de export van Markdown door controle te bieden over hoe lege alinea ' s worden verwerkt.
+
+Aspose.Words 25.6 verbetert de renderingprecisie en visualisatiefuncties door de introductie van geavanceerde opties voor het exporteren van afbeeldingen, verbeterde MathML - afhandeling en betere grafiekweergave.
+
+### Documenten converteren, laden en opslaan
+
+#### Lege alinea ' s exporteren naar Markdown <sup>25.5</sup>
+
+De mogelijkheid om te bepalen hoe lege alinea ' s worden geëxporteerd naar Markdown is geïntroduceerd door de **MarkdownEmptyParagraphExportMode** opsomming en de **empty_paragraph_export_mode** eigenschap toe te voegen.
+
+#### Documenten met meerdere pagina ' s exporteren naar Rasterafbeeldformaten <sup>25.6</sup>
+
+De mogelijkheid om documenten met meerdere pagina ' s te exporteren naar rasterafbeeldformaten (zoals PNG en JPEG) met [customizable layouts](https://reference.aspose.com/words/python-net/aspose.words.saving/multipagelayout/)-horizontaal, verticaal of raster – is geïntroduceerd door de functionaliteit voor het exporteren van afbeeldingen uit te breiden.
+
+### Rendering
+
+#### De grafiekstijl instellen <sup>25.5</sup>
+
+De mogelijkheid om de grafiekstijl in te stellen is geïntroduceerd door de **ChartStyle** opsomming en de **style** eigenschap toe te voegen.
+
+#### Connectorlijnen weergeven in MathML - expressies <sup>25.6</sup>
+
+De weergave van verbindingslijnen in MathML - uitdrukkingen is geïmplementeerd om een nauwkeuriger en visueel consistente weergave van wiskundige formules te garanderen.
+
+#### Legendes weergeven voor Watervalkaarten <sup>25.6</sup>
+
+De weergave van legendes voor ["Waterfall" charts](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriestype/) is geïntroduceerd, waardoor de gegevenstransparantie wordt vergroot en de interpreteerbaarheid van deze grafieken wordt verbeterd.
+
+### Ander
+
+* De mogelijkheid om wiskundige formules met meerdere slashes in te pakken is verbeterd, waardoor de helderheid van de lay-out en de leesbaarheid van de formule zijn verbeterd. <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+Lees meer over [Aspose.Words voor Python via .NET 25.5 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-5-release-notes/).
+
+Lees meer over [Aspose.Words voor Python via .NET 25.6 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words voor Python via .NET 25.1, 25.2, 25.3, 25.4
 

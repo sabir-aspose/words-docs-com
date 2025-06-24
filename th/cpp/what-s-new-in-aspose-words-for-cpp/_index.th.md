@@ -9,10 +9,32 @@ weight: 2
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /th/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2025-04-15-08-02-05
+timestamp: 2025-06-23-19-12-25
 ---
 
 หน้านี้อธิบายถึงคุณลักษณะใหม่ที่น่าสนใจที่สุดAspose.Wordsที่นำมาใช้ในรุ่นล่าสุด.
+
+## Aspose.WordsสำหรับC++25.5
+
+Aspose.Words25.5 ช่วยเพิ่มการปรับแต่งแผนภูมิด้วยตัวเลือกการจัดแต่งทรงผมใหม่และปรับปรุงMarkdownการส่งออกโดยนำเสนอการควบคุมวิธีการจัดการย่อหน้าว่างเปล่า.
+
+### การแปลงโหลดและบันทึกเอกสาร
+
+#### ส่งออกย่อหน้าว่างไปยังMarkdown <sup>25.5</sup>
+
+ความสามารถในการควบคุมว่ามีการส่งออกย่อหน้าว่างไปยังMarkdownโดยการเพิ่มการแจงนับ[MarkdownEmptyParagraphExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownemptyparagraphexportmode/)และคุณสมบัติ[EmptyParagraphExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_emptyparagraphexportmode/).
+
+### การแสดงผล
+
+#### การตั้งค่ารูปแบบแผนภูมิ <sup>25.5</sup>
+
+ความสามารถในการตั้งค่ารูปแบบแผนภูมิได้รับการแนะนำโดยการเพิ่มการแจงนับ[ChartStyle](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartstyle/)และคุณสมบัติ[Style](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chart/get_style/).
+
+{{% alert color="primary" %}}
+
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับC++25.5 บันทึกย่อ](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-5-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.WordsสำหรับC++ 25.1, 25.2, 25.3, 25.4
 

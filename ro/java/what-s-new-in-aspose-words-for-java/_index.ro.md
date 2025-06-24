@@ -9,10 +9,52 @@ weight: 2
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ro/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2025-04-22-08-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 Această pagină descrie cele mai interesante caracteristici noi Aspose.Words introduse în versiunile recente.
+
+## Aspose.Words pentru Java 25.5, 25.6
+
+Aspose.Words 25.5 îmbunătățește personalizarea graficului cu noi opțiuni de stil și îmbunătățește Markdown exportul oferind control asupra modului în care sunt tratate paragrafele goale.
+
+Aspose.Words 25.6 îmbunătățește precizia de redare și caracteristicile de vizualizare prin introducerea opțiunilor avansate de export de imagini, îmbunătățirea manipulării MathML și o mai bună reprezentare a diagramelor.
+
+### Conversia, încărcarea și salvarea documentelor
+
+#### Exportați paragrafe goale în Markdown <sup>25.5</sup>
+
+Abilitatea de a controla modul în care paragrafele goale sunt exportate în Markdown a fost introdusă prin adăugarea enumerării [MarkdownEmptyParagraphExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownemptyparagraphexportmode/) și a proprietății [EmptyParagraphExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getEmptyParagraphExportMode).
+
+#### Exportați documente cu mai multe pagini în formate de imagine Raster <sup>25.6</sup>
+
+Capacitatea de a exporta documente cu mai multe pagini în formate de imagine raster (cum ar fi PNG și JPEG) cu [customizable layouts](https://reference.aspose.com/words/java/com.aspose.words/multipagelayout/)-orizontală, verticală sau grilă – a fost introdusă prin extinderea funcționalității de export de imagini.
+
+### Redare
+
+#### Setarea stilului graficului <sup>25.5</sup>
+
+Abilitatea de a seta stilul graficului a fost introdusă prin adăugarea enumerării [ChartStyle](https://reference.aspose.com/words/java/com.aspose.words/chartstyle/) și a proprietății [Style](https://reference.aspose.com/words/java/com.aspose.words/chart/#getStyle).
+
+#### Redarea liniilor conectorului în expresii MathML  <sup>25.6</sup>
+
+Redarea liniilor de conector în expresii MathML a fost implementată pentru a asigura o afișare mai precisă și mai consistentă vizual a formulelor matematice.
+
+#### Redarea Legendelor pentru diagramele cascadei <sup>25.6</sup>
+
+A fost introdusă redarea legendelor pentru ["Waterfall" charts](https://reference.aspose.com/words/java/com.aspose.words/chartseriestype/), sporind transparența datelor și îmbunătățind interpretabilitatea acestor diagrame.
+
+### Altele
+
+* Capacitatea de a înfășura formule matematice care conțin mai multe tăieturi a fost îmbunătățită, îmbunătățind claritatea aspectului și lizibilitatea formulelor. <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+Aflați mai multe despre [Aspose.Words pentru Java 25.5 note de lansare](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-5-release-notes/).
+
+Aflați mai multe despre [Aspose.Words pentru Java 25.6 note de lansare](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words pentru Java 25.1, 25.2, 25.3, 25.4
 
@@ -435,96 +477,6 @@ Aflați mai multe despre [Aspose.Words pentru Java 23.10 Note De Lansare](https:
 Aflați mai multe despre [Aspose.Words pentru Java 23.11 Note De Lansare](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-11-release-notes/).
 
 Aflați mai multe despre [Aspose.Words pentru Java 23.12 Note De Lansare](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words Pentru Java 23.5, 23.6, 23.7, 23.8
-
-Aspose.Words 23.5 îmbunătățește capacitatea de a lucra cu date din seria de diagrame și capacitatea de a lucra cu documente ODT, precum și de a îmbunătăți anteturile/subsolurile și împachetarea textului acestora.
-
-Aspose.Words 23.6 extinde opțiunile de redare, adaugă un nou format de export, îmbunătățește LINQ raportare și LowCode Instrumente.
-
-Aspose.Words 23.7 îmbunătățește capacitățile de raportare, adaugă un nou format de export și introduce modificări în lucrul cu tabele și semnături digitale.
-
-Aspose.Words 23.8 extinde capacitățile diferitelor formate, îmbunătățește redarea și adaugă noi opțiuni pentru lucrul cu câmpurile.
-
-### Formate Acceptate
-
-* Începând cu versiunea 23.6, este posibil să salvați un document în format XLSX. Acum Puteți converti documentele în format Excel. <sup>23.6</sup>
-
-* Începând cu versiunea 23.7, este posibil să salvați o pagină sau o formă de document în format EPS. <sup>23.7</sup>
-
-* ### Caracteristici De Format Nou
-
-  - A fost introdusă funcționalitatea de a genera automat cuprins (TOC) pentru documentele MOBI. <sup>23.8</sup>
-  - Constructorul [PdfEncryptionDetails](https://reference.aspose.com/words/java/com.aspose.words/pdfencryptiondetails/#PdfEncryptionDetails-java.lang.String-java.lang.String) a fost extins cu [PdfPermissions](https://reference.aspose.com/words/java/com.aspose.words/pdfpermissions/). <sup>23.8</sup>
-  - Modelarea textului vertical pentru EMF metafișiere a fost implementată. <sup>23.8</sup>
-
-### Redare
-
-#### Obțineți și modificați datele din seria diagramelor <sup>23.5</sup>
-
-Caracteristica de a obține și modifica datele din seria de diagrame a fost furnizată prin adăugarea:
-
-- clase noi: [ChartXValue](https://reference.aspose.com/words/java/com.aspose.words/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/java/com.aspose.words/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/java/com.aspose.words/chartmultilevelvalue/)
-- noi tipuri de enum: [ChartXValueType](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluetype/)
-
-#### Suport pentru Tipografie avansată <sup>23.6</sup>
-
-A fost adăugat suport pentru Tipografie avansată în WMF, EMF și EMF+ redare.
-
-#### Conținut colorat pe pagină <sup>23.6</sup>
-
-Proprietatea publică [PageInfo.Colored](https://reference.aspose.com/words/java/com.aspose.words/pageinfo/#getColored), care indică dacă pagina este colorată sau nu, a fost adăugată.
-
-#### Formatarea etichetelor de date grafice <sup>23.6</sup>
-
-A fost implementată posibilitatea de a seta formatarea de umplere, stroke și callout pentru etichetele de date grafice.
-
-### Mail Merge și raportare
-
-#### Inserare dinamică HTML pentru motorul de raportare LINQ <sup>23.6</sup>
-
-A fost adăugat un nou mod de inserare dinamică HTML pentru motorul de raportare LINQ.
-
-#### Mustache Suport Etichete <sup>23.7</sup>
-
-Etichetele Mustache sunt acum acceptate în metodele [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getRegionsHierarchy) și [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldNamesForRegion-java.lang.String).
-
-#### LINQ Raportarea Actualizărilor De Sintaxă A Șablonului Motorului <sup>23.7</sup>
-
-Sintaxa șablonului motorului de raportare LINQ acceptă acum metodele de extensie `ElementAt` și ElementAtOrDefault.
-
-#### Specificarea dimensiunii imaginilor redate <sup>23.8</sup>
-
-A fost introdusă o nouă proprietate publică **ImageSize** pentru specificarea dimensiunii imaginilor redate în pixeli.
-
-#### Păstrați spațiile albe pentru valorile șirului JSON - LINQ <sup>23.8</sup>
-
-O opțiune a fost adăugată la motorul de raportare LINQ pentru a păstra spațiile albe pentru valorile șirului JSON.
-
-### LowCode <sup>23.6</sup>
-
-Au fost adăugate noi metode LowCode menite să îmbine diferite tipuri de documente într-un singur document de ieșire.
-
-### Altele
-
-- A fost implementat suport pentru împachetarea textului în anteturi/subsoluri. <sup>23.5</sup>
-- Capacitatea de a elimina semnăturile digitale din documentele ODT a fost adăugată prin metoda [RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream). <sup>23.5</sup>
-- Proprietatea publică [PhoneticGuide](https://reference.aspose.com/words/java/com.aspose.words/run/#getPhoneticGuide) pentru a obține textul de bază și rubin al Ghidului fonetic [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) a fost adăugată. <sup>23.5</sup>
-- Capacitatea de a prelua o valoare de semnătură digitală dintr-un document semnat digital ca matrice de octeți a fost adăugată prin introducerea unei noi proprietăți [SignatureValue](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/#getSignatureValue). <sup>23.7</sup>
-- Clasele [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) și [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) au fost extinse cu noi Membri publici– [Row.NextRow](https://reference.aspose.com/words/java/com.aspose.words/row/#getNextRow), [Row.PreviousRow](https://reference.aspose.com/words/java/com.aspose.words/row/#getPreviousRow), [Cell.NextCell](https://reference.aspose.com/words/java/com.aspose.words/cell/#getNextCell), și [Cell.PreviousCell](https://reference.aspose.com/words/java/com.aspose.words/cell/#getPreviousCell). <sup>23.7</sup>
-- A fost adăugat suport pentru câmpurile CITATION și BIBLIOGRAPHY. <sup>23.8</sup>
-
-{{% alert color="primary" %}}
-
-Aflați mai multe despre [Aspose.Words pentru Java 23.5 Note De Lansare](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/).
-
-Aflați mai multe despre [Aspose.Words pentru Java 23.6 Note De Lansare](/words/java/aspose-words-for-java-23-6-release-notes/).
-
-Aflați mai multe despre [Aspose.Words pentru Java 23.7 Note De Lansare](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
-
-Aflați mai multe despre [Aspose.Words pentru Java 23.8 Note De Lansare](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
 
 {{% /alert %}}
 

@@ -9,10 +9,52 @@ weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /uk/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-04-16-07-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 На цій сторінці описані найцікавіші нові функції Aspose.Words, що з'явилися в останніх версіях.
+
+## Aspose.Words для Python via .NET 25.5, 25.6
+
+Aspose.Words 25.5 розширює можливості налаштування діаграм за допомогою нових варіантів оформлення і покращує Markdown експорт, надаючи можливість управляти обробкою порожніх абзаців.
+
+Aspose.Words 25.6 покращує точність візуалізації та можливості візуалізації завдяки розширеним можливостям експорту зображень, покращеній обробці MathML та кращому представленню діаграм.
+
+### Перетворення, завантаження та збереження документів
+
+#### Експортуйте порожні абзаци в Markdown <sup>25.5</sup>
+
+Можливість керувати тим, як порожні абзаци експортуються в Markdown, з'явилася завдяки додаванню перерахування **MarkdownEmptyParagraphExportMode** і властивості **empty_paragraph_export_mode**.
+
+#### Експорт багатосторінкових документів у формати растрових зображень <sup>25.6</sup>
+
+Можливість експорту багатосторінкових документів у формати растрових зображень (наприклад, PNG і JPEG) з [customizable layouts](https://reference.aspose.com/words/python-net/aspose.words.saving/multipagelayout/) - по горизонталі, вертикалі або сітці – з'явилася завдяки розширенню функціональності експорту зображень.
+
+### Візуалізація
+
+#### Налаштування стилю діаграми <sup>25.5</sup>
+
+Можливість задавати стиль діаграми була реалізована шляхом додавання перерахування **ChartStyle** і властивості **style**.
+
+#### Відображення сполучних ліній у виразах MathML <sup>25.6</sup>
+
+Для забезпечення більш точного і візуально несуперечливого відображення математичних формул був реалізований рендеринг сполучних ліній у виразах MathML.
+
+#### Візуалізація умовних позначень для каскадних діаграм <sup>25.6</sup>
+
+Була введена візуалізація умовних позначень для ["Waterfall" charts](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriestype/), що підвищує прозорість даних і покращує інтерпретованість цих діаграм.
+
+### Інший
+
+* Покращено можливість перенесення математичних формул, що містять кілька косих рис, що підвищує чіткість компонування і розбірливість формул. <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+Дізнайтеся більше про [Aspose.Words для Python via .NET приміток до випуску 25.5](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-5-release-notes/).
+
+Дізнайтеся більше про [Aspose.Words для Python via .NET приміток до випуску 25.6](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words для Python через .NET 25.1, 25.2, 25.3, 25.4
 

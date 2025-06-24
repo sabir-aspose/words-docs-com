@@ -9,10 +9,52 @@ weight: 2
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /zh/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2025-04-22-08-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 本页介绍了最近版本中引入的最有趣的Aspose.Words新特性。
+
+## Aspose.Words为Java25.5,25.6
+
+Aspose.Words25.5通过新的样式选项增强了图表自定义，并通过提供对空段落处理方式的控制来改进Markdown导出。
+
+Aspose.Words25.6通过引入高级图像导出选项、改进的MathML处理和更好的图表表示，增强了渲染精度和可视化功能。
+
+### 转换、加载和保存文档
+
+#### 将空段落导出为Markdown <sup>25.5</sup>
+
+通过添加[MarkdownEmptyParagraphExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownemptyparagraphexportmode/)枚举和[EmptyParagraphExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getEmptyParagraphExportMode)属性，引入了控制如何将空段落导出到Markdown的能力。
+
+#### 将多页文档导出为光栅图像格式 <sup>25.6</sup>
+
+通过扩展图像导出功能，可以使用[customizable layouts](https://reference.aspose.com/words/java/com.aspose.words/multipagelayout/)（水平、垂直或网格）将多页文档导出为栅格图像格式（如PNG和JPEG）。
+
+### 渲染图
+
+#### 设置图表样式 <sup>25.5</sup>
+
+通过添加[ChartStyle](https://reference.aspose.com/words/java/com.aspose.words/chartstyle/)枚举和[Style](https://reference.aspose.com/words/java/com.aspose.words/chart/#getStyle)属性，引入了设置图表样式的功能。
+
+#### 在MathML表达式中呈现连接器行 <sup>25.6</sup>
+
+在MathML表达式中实现了连接器线的渲染，以确保更准确和视觉上一致地显示数学公式。
+
+#### 瀑布图的渲染图例 <sup>25.6</sup>
+
+引入了["Waterfall" charts](https://reference.aspose.com/words/java/com.aspose.words/chartseriestype/)的图例渲染，提高了数据透明度并提高了这些图表的可解释性。
+
+### 其他
+
+* 增强了包装包含多个斜线的数学公式的能力，提高了布局清晰度和公式易读性。 <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+了解更多关于 [Aspose.Words为Java25.5发行说明](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-5-release-notes/).
+
+了解更多关于 [Aspose.Words为Java25.6发行说明](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words为Java 25.1, 25.2, 25.3, 25.4
 
@@ -435,96 +477,6 @@ Aspose.Words23.12引入了新的属性和枚举，用于处理PDF文档，支持
 了解更多关于 [Aspose.Words为Java 23.11发行说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-11-release-notes/).
 
 了解更多关于 [Aspose.Words为Java 23.12发行说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words为Java 23.5, 23.6, 23.7, 23.8
-
-Aspose.Words23.5增强了处理图表系列数据的能力和处理ODT文档的能力，以及改进页眉/页脚及其文本包装。
-
-Aspose.Words23.6扩展渲染选项，添加新的导出格式，改进LINQ报告和LowCode工具。
-
-Aspose.Words23.7增强了报告功能，添加了新的导出格式，并引入了对表和数字签名的处理的更改。
-
-Aspose.Words23.8扩展了不同格式的功能，改进了渲染，并添加了用于处理字段的新选项。
-
-### 支持的格式
-
-* 从版本23.6开始，可以以XLSX格式保存文档。 现在您可以将文档转换为Excel格式。 <sup>23.6</sup>
-
-* 从版本23.7开始，可以以EPS格式保存文档页面或形状。 <sup>23.7</sup>
-
-* ###新格式功能
-
-  - 介绍了为MOBI文档自动生成目录(TOC)的功能。 <sup>23.8</sup>
-  - [PdfEncryptionDetails](https://reference.aspose.com/words/java/com.aspose.words/pdfencryptiondetails/#PdfEncryptionDetails-java.lang.String-java.lang.String)构造函数已用[PdfPermissions](https://reference.aspose.com/words/java/com.aspose.words/pdfpermissions/)展开。 <sup>23.8</sup>
-  - 已经实现了EMF元文件的垂直文本整形。 <sup>23.8</sup>
-
-### 渲染图
-
-#### 获取和修改图表系列数据 <sup>23.5</sup>
-
-获取和修改图表系列数据的功能是通过添加:
-
-- 新课程: [ChartXValue](https://reference.aspose.com/words/java/com.aspose.words/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/java/com.aspose.words/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/java/com.aspose.words/chartmultilevelvalue/)
-- 新枚举类型：[ChartXValueType](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluetype/),[ChartYValueType](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluetype/)
-
-#### 支持高级排版 <sup>23.6</sup>
-
-在WMF，EMF和EMF+渲染中添加了对高级排版的支持。
-
-#### 页面上的彩色内容 <sup>23.6</sup>
-
-已添加公共属性[PageInfo.Colored](https://reference.aspose.com/words/java/com.aspose.words/pageinfo/#getColored)，指示页面是否着色。
-
-#### 图表数据标签的格式设置 <sup>23.6</sup>
-
-已经实现了为图表数据标签设置填充、描边和标注格式的功能。
-
-### Mail Merge和报告
-
-#### 动态HTML插入LINQ报告引擎 <sup>23.6</sup>
-
-为LINQ报告引擎添加了动态HTML插入的新方法。
-
-#### Mustache标签支持 <sup>23.7</sup>
-
-[MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getRegionsHierarchy)和[MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldNamesForRegion-java.lang.String)方法现在支持Mustache标记。
-
-#### LINQ报告引擎模板语法更新 <sup>23.7</sup>
-
-LINQ报告引擎模板语法现在支持`ElementAt`和ElementAtOrDefault扩展方法。
-
-#### 指定渲染图像的大小 <sup>23.8</sup>
-
-引入了一个新的公共属性**ImageSize**，用于指定以像素为单位的渲染图像的大小。
-
-#### 为JSON字符串值保留空白空间-LINQ <sup>23.8</sup>
-
-已向LINQ报告引擎添加了一个选项，用于为JSON字符串值保留空白空间。
-
-### LowCode <sup>23.6</sup>
-
-添加了用于将不同类型的文档合并为单个输出文档的新LowCode方法。
-
-### 其他
-
-- 已经实现了对页眉/页脚中的文本包装的支持。 <sup>23.5</sup>
-- 通过[RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream)方法添加了从ODT文档中删除数字签名的功能。 <sup>23.5</sup>
-- 添加了获取语音指南[Run](https://reference.aspose.com/words/java/com.aspose.words/run/)的基础和ruby文本的公共属性[PhoneticGuide](https://reference.aspose.com/words/java/com.aspose.words/run/#getPhoneticGuide)。 <sup>23.5</sup>
-- 通过引入新的[SignatureValue](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/#getSignatureValue)属性，添加了以字节数组形式从数字签名文档中检索数字签名值的功能。 <sup>23.7</sup>
-- [Row](https://reference.aspose.com/words/java/com.aspose.words/row/)和[Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/)类已扩展为新的公共成员– [Row.NextRow](https://reference.aspose.com/words/java/com.aspose.words/row/#getNextRow), [Row.PreviousRow](https://reference.aspose.com/words/java/com.aspose.words/row/#getPreviousRow), [Cell.NextCell](https://reference.aspose.com/words/java/com.aspose.words/cell/#getNextCell), 和[Cell.PreviousCell](https://reference.aspose.com/words/java/com.aspose.words/cell/#getPreviousCell)。 <sup>23.7</sup>
-- 已添加对CITATION和BIBLIOGRAPHY字段的支持。 <sup>23.8</sup>
-
-{{% alert color="primary" %}}
-
-了解更多关于 [Aspose.Words为Java 23.5发行说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/).
-
-了解更多关于 [Aspose.Words为Java 23.6发行说明](/words/java/aspose-words-for-java-23-6-release-notes/).
-
-了解更多关于 [Aspose.Words为Java 23.7发行说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
-
-了解更多关于 [Aspose.Words为Java 23.8发行说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
 
 {{% /alert %}}
 

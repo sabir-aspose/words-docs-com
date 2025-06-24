@@ -9,10 +9,52 @@ weight: 2
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /id/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2025-04-22-08-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 Halaman ini menjelaskan fitur Aspose.Words baru yang paling menarik yang diperkenalkan dalam rilis terbaru.
+
+## Aspose.Words untuk Java 25.5, 25.6
+
+Aspose.Words 25.5 menyempurnakan penyesuaian bagan dengan opsi gaya baru dan meningkatkan ekspor Markdown dengan menawarkan kontrol atas penanganan paragraf kosong.
+
+Aspose.Words 25.6 meningkatkan presisi rendering dan fitur visualisasi dengan memperkenalkan opsi ekspor gambar lanjutan, penanganan MathML yang ditingkatkan, dan representasi bagan yang lebih baik.
+
+### Mengonversi, Memuat, dan Menyimpan Dokumen
+
+#### Ekspor Paragraf Kosong ke Markdown <sup>25.5</sup>
+
+Kemampuan untuk mengontrol bagaimana paragraf kosong diekspor ke Markdown telah diperkenalkan dengan menambahkan enumerasi [MarkdownEmptyParagraphExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownemptyparagraphexportmode/) dan properti [EmptyParagraphExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getEmptyParagraphExportMode).
+
+#### Ekspor Dokumen Multi-halaman ke Format Gambar Raster <sup>25.6</sup>
+
+Kemampuan untuk mengekspor dokumen multi-halaman ke format gambar raster (seperti PNG dan JPEG) dengan [customizable layouts](https://reference.aspose.com/words/java/com.aspose.words/multipagelayout/) - Horizontal, Vertikal, atau Kisi-telah diperkenalkan dengan memperluas fungsionalitas ekspor gambar.
+
+### Rendering
+
+#### Mengatur Gaya Bagan <sup>25.5</sup>
+
+Kemampuan untuk mengatur gaya bagan telah diperkenalkan dengan menambahkan enumerasi [ChartStyle](https://reference.aspose.com/words/java/com.aspose.words/chartstyle/) dan properti [Style](https://reference.aspose.com/words/java/com.aspose.words/chart/#getStyle).
+
+#### Merender Baris Konektor dalam Ekspresi MathML  <sup>25.6</sup>
+
+Rendering garis penghubung dalam ekspresi MathML telah diterapkan untuk memastikan tampilan rumus matematika yang lebih akurat dan konsisten secara visual.
+
+#### Merender Legenda untuk Bagan Air Terjun <sup>25.6</sup>
+
+Rendering legenda untuk ["Waterfall" charts](https://reference.aspose.com/words/java/com.aspose.words/chartseriestype/) telah diperkenalkan, meningkatkan transparansi data, dan meningkatkan interpretabilitas bagan ini.
+
+### Lainnya
+
+* Kemampuan untuk membungkus rumus matematika yang berisi beberapa garis miring telah ditingkatkan, meningkatkan kejelasan tata letak dan keterbacaan rumus. <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+Pelajari lebih lanjut tentang [Aspose.Words untuk Java 25.5 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-5-release-notes/).
+
+Pelajari lebih lanjut tentang [Aspose.Words untuk Java 25.6 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words untuk Java 25.1, 25.2, 25.3, 25.4
 
@@ -435,96 +477,6 @@ Pelajari lebih lanjut tentang [Aspose.Words untuk Java 23.10 Catatan Rilis](http
 Pelajari lebih lanjut tentang [Aspose.Words untuk Java 23.11 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-11-release-notes/).
 
 Pelajari lebih lanjut tentang [Aspose.Words untuk Java 23.12 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words untuk Java 23.5, 23.6, 23.7, 23.8
-
-Aspose.Words 23.5 meningkatkan kemampuan untuk bekerja dengan data deret bagan dan kemampuan untuk bekerja dengan dokumen ODT, serta meningkatkan header/footer dan pembungkusan teksnya.
-
-Aspose.Words 23.6 memperluas opsi rendering, menambahkan format ekspor baru, meningkatkan pelaporan LINQ, dan alat LowCode.
-
-Aspose.Words 23.7 meningkatkan kemampuan pelaporan, menambahkan format ekspor baru, dan memperkenalkan perubahan untuk bekerja dengan tabel dan tanda tangan digital.
-
-Aspose.Words 23.8 memperluas kemampuan format yang berbeda, meningkatkan rendering, dan menambahkan opsi baru untuk bekerja dengan bidang.
-
-### Format yang Didukung
-
-* Dimulai dengan versi 23.6, dimungkinkan untuk menyimpan dokumen dalam format XLSX. Sekarang Anda dapat mengonversi dokumen Anda ke format Excel. <sup>23.6</sup>
-
-* Dimulai dengan versi 23.7, dimungkinkan untuk menyimpan halaman atau bentuk dokumen dalam format EPS. <sup>23.7</sup>
-
-* ### Fitur Format Baru
-
-  - Fungsionalitas untuk membuat Daftar Isi (TOC) secara otomatis untuk dokumen MOBI telah diperkenalkan. <sup>23.8</sup>
-  - Konstruktor [PdfEncryptionDetails](https://reference.aspose.com/words/java/com.aspose.words/pdfencryptiondetails/#PdfEncryptionDetails-java.lang.String-java.lang.String) telah diperluas dengan [PdfPermissions](https://reference.aspose.com/words/java/com.aspose.words/pdfpermissions/). <sup>23.8</sup>
-  - Pembentukan teks vertikal untuk EMF metafile telah diterapkan. <sup>23.8</sup>
-
-### Rendering
-
-#### Dapatkan dan Modifikasi Data Deret Bagan <sup>23.5</sup>
-
-Fitur untuk mendapatkan dan memodifikasi data deret bagan disediakan dengan menambahkan:
-
-- kelas baru: [ChartXValue](https://reference.aspose.com/words/java/com.aspose.words/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/java/com.aspose.words/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/java/com.aspose.words/chartmultilevelvalue/)
-- tipe enum baru: [ChartXValueType](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluetype/)
-
-#### Dukungan untuk Tipografi Tingkat Lanjut <sup>23.6</sup>
-
-Dukungan untuk Tipografi Tingkat Lanjut dalam rendering WMF, EMF dan EMF+ telah ditambahkan.
-
-#### Konten Berwarna pada Halaman <sup>23.6</sup>
-
-Properti publik [PageInfo.Colored](https://reference.aspose.com/words/java/com.aspose.words/pageinfo/#getColored), yang menunjukkan apakah halaman diwarnai atau tidak, telah ditambahkan.
-
-#### Pemformatan untuk Label Data Bagan <sup>23.6</sup>
-
-Kemampuan untuk mengatur pemformatan isian, guratan, dan info untuk label data bagan telah diterapkan.
-
-### Mail Merge dan Pelaporan
-
-#### Penyisipan HTML Dinamis untuk Mesin Pelaporan LINQ <sup>23.6</sup>
-
-Cara baru penyisipan HTML dinamis untuk Mesin Pelaporan LINQ telah ditambahkan.
-
-#### Dukungan Tag Mustache <sup>23.7</sup>
-
-Tag Mustache sekarang didukung dalam metode [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getRegionsHierarchy) dan [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldNamesForRegion-java.lang.String).
-
-#### LINQ Pembaruan Sintaks Templat Mesin Pelaporan <sup>23.7</sup>
-
-Sintaks templat Mesin Pelaporan LINQ sekarang mendukung metode ekstensi `ElementAt` dan ElementAtOrDefault.
-
-#### Menentukan Ukuran Gambar yang Dirender <sup>23.8</sup>
-
-Properti publik baru **ImageSize** untuk menentukan ukuran gambar yang dirender dalam piksel telah diperkenalkan.
-
-#### Pertahankan Spasi Kosong untuk Nilai String JSON - LINQ <sup>23.8</sup>
-
-Opsi telah ditambahkan ke Mesin Pelaporan LINQ untuk mempertahankan spasi kosong untuk nilai string JSON.
-
-### LowCode <sup>23.6</sup>
-
-Metode LowCode baru yang dimaksudkan untuk menggabungkan berbagai jenis dokumen menjadi satu dokumen keluaran telah ditambahkan.
-
-### Lainnya
-
-- Dukungan untuk pembungkusan teks di header / footer telah diterapkan. <sup>23.5</sup>
-- Kemampuan untuk menghapus tanda tangan digital dari dokumen ODT telah ditambahkan melalui metode [RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream). <sup>23.5</sup>
-- Properti publik [PhoneticGuide](https://reference.aspose.com/words/java/com.aspose.words/run/#getPhoneticGuide) untuk mendapatkan teks dasar dan rubi dari panduan fonetik [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) telah ditambahkan. <sup>23.5</sup>
-- Kemampuan untuk mengambil nilai tanda tangan digital dari dokumen yang ditandatangani secara digital sebagai larik byte telah ditambahkan dengan memperkenalkan properti [SignatureValue](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/#getSignatureValue) baru. <sup>23.7</sup>
-- Kelas [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) dan [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) telah diperpanjang dengan anggota publik baru– [Row.NextRow](https://reference.aspose.com/words/java/com.aspose.words/row/#getNextRow), [Row.PreviousRow](https://reference.aspose.com/words/java/com.aspose.words/row/#getPreviousRow), [Cell.NextCell](https://reference.aspose.com/words/java/com.aspose.words/cell/#getNextCell), dan [Cell.PreviousCell](https://reference.aspose.com/words/java/com.aspose.words/cell/#getPreviousCell). <sup>23.7</sup>
-- Dukungan untuk bidang CITATION dan BIBLIOGRAPHY telah ditambahkan. <sup>23.8</sup>
-
-{{% alert color="primary" %}}
-
-Pelajari lebih lanjut tentang [Aspose.Words untuk Java 23.5 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/).
-
-Pelajari lebih lanjut tentang [Aspose.Words untuk Java 23.6 Catatan Rilis](/words/java/aspose-words-for-java-23-6-release-notes/).
-
-Pelajari lebih lanjut tentang [Aspose.Words untuk Java 23.7 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
-
-Pelajari lebih lanjut tentang [Aspose.Words untuk Java 23.8 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
 
 {{% /alert %}}
 

@@ -9,10 +9,52 @@ weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /zh/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-04-16-07-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 本页介绍了最近版本中引入的最有趣的Aspose.Words新特性。
+
+## Aspose.Words为Python via .NET25.5,25.6
+
+Aspose.Words25.5通过新的样式选项增强了图表自定义，并通过提供对空段落处理方式的控制来改进Markdown导出。
+
+Aspose.Words25.6通过引入高级图像导出选项、改进的MathML处理和更好的图表表示，增强了渲染精度和可视化功能。
+
+### 转换、加载和保存文档
+
+#### 将空段落导出为Markdown <sup>25.5</sup>
+
+通过添加**MarkdownEmptyParagraphExportMode**枚举和**empty_paragraph_export_mode**属性，引入了控制如何将空段落导出到Markdown的能力。
+
+#### 将多页文档导出为光栅图像格式 <sup>25.6</sup>
+
+通过扩展图像导出功能，可以使用[customizable layouts](https://reference.aspose.com/words/python-net/aspose.words.saving/multipagelayout/)（水平、垂直或网格）将多页文档导出为栅格图像格式（如PNG和JPEG）。
+
+### 渲染图
+
+#### 设置图表样式 <sup>25.5</sup>
+
+通过添加**ChartStyle**枚举和**style**属性，引入了设置图表样式的功能。
+
+#### 在MathML表达式中呈现连接器行 <sup>25.6</sup>
+
+在MathML表达式中实现了连接器线的渲染，以确保更准确和视觉上一致地显示数学公式。
+
+#### 瀑布图的渲染图例 <sup>25.6</sup>
+
+引入了["Waterfall" charts](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriestype/)的图例渲染，提高了数据透明度并提高了这些图表的可解释性。
+
+### 其他
+
+* 增强了包装包含多个斜线的数学公式的能力，提高了布局清晰度和公式易读性。 <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+了解更多关于 [Aspose.Words为Python via .NET25.5发行说明](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-5-release-notes/).
+
+了解更多关于 [Aspose.Words为Python via .NET25.6发行说明](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words对于Python通过.NET 25.1, 25.2, 25.3, 25.4
 

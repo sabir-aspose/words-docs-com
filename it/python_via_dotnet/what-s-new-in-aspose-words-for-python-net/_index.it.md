@@ -9,10 +9,52 @@ weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /it/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-04-16-07-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 Questa pagina descrive le nuove funzionalità Aspose.Words più interessanti introdotte nelle ultime versioni.
+
+## Aspose.Words per Python via .NET 25.5, 25.6
+
+Aspose.Words 25.5 migliora la personalizzazione del grafico con nuove opzioni di stile e migliora l'esportazione di Markdown offrendo il controllo su come vengono gestiti i paragrafi vuoti.
+
+Aspose.Words 25.6 migliora la precisione di rendering e le funzionalità di visualizzazione introducendo opzioni avanzate di esportazione delle immagini, una migliore gestione di MathML e una migliore rappresentazione dei grafici.
+
+### Conversione, caricamento e salvataggio di documenti
+
+#### Esporta paragrafi vuoti in Markdown <sup>25.5</sup>
+
+La possibilità di controllare il modo in cui i paragrafi vuoti vengono esportati in Markdown è stata introdotta aggiungendo l'enumerazione **MarkdownEmptyParagraphExportMode** e la proprietà **empty_paragraph_export_mode**.
+
+#### Esportare documenti multipagina in formati di immagine Raster <sup>25.6</sup>
+
+La possibilità di esportare documenti multipagina in formati di immagine raster (come PNG e JPEG) con [customizable layouts](https://reference.aspose.com/words/python-net/aspose.words.saving/multipagelayout/)-Orizzontale, verticale o Griglia – è stata introdotta estendendo la funzionalità di esportazione delle immagini.
+
+### Rendering
+
+#### Impostazione dello stile grafico <sup>25.5</sup>
+
+La possibilità di impostare lo stile del grafico è stata introdotta aggiungendo l'enumerazione **ChartStyle** e la proprietà **style**.
+
+#### Rendering delle linee del connettore nelle espressioni MathML  <sup>25.6</sup>
+
+Il rendering delle linee del connettore nelle espressioni MathML è stato implementato per garantire una visualizzazione più accurata e visivamente coerente delle formule matematiche.
+
+#### Legende di rendering per grafici a cascata <sup>25.6</sup>
+
+È stato introdotto il rendering delle legende per ["Waterfall" charts](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriestype/), aumentando la trasparenza dei dati e migliorando l'interpretabilità di questi grafici.
+
+### Altri
+
+* La possibilità di avvolgere formule matematiche contenenti più barre è stata migliorata, migliorando la chiarezza del layout e la leggibilità della formula. <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+Scopri di più su [Aspose.Words per Python via .NET 25.5 Note di rilascio](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-5-release-notes/).
+
+Scopri di più su [Aspose.Words per Python via .NET 25.6 Note di rilascio](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words per Python tramite .NET 25.1, 25.2, 25.3, 25.4
 
