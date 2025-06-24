@@ -9,10 +9,32 @@ weight: 2
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /id/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2025-04-15-08-02-05
+timestamp: 2025-06-23-19-12-25
 ---
 
 Halaman ini menjelaskan fitur Aspose.Words baru yang paling menarik yang diperkenalkan dalam rilis terbaru.
+
+## Aspose.Words untuk C++ 25.5
+
+Aspose.Words 25.5 menyempurnakan penyesuaian bagan dengan opsi gaya baru dan meningkatkan ekspor Markdown dengan menawarkan kontrol atas penanganan paragraf kosong.
+
+### Mengonversi, Memuat, dan Menyimpan Dokumen
+
+#### Ekspor Paragraf Kosong ke Markdown <sup>25.5</sup>
+
+Kemampuan untuk mengontrol bagaimana paragraf kosong diekspor ke Markdown telah diperkenalkan dengan menambahkan enumerasi [MarkdownEmptyParagraphExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownemptyparagraphexportmode/) dan properti [EmptyParagraphExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_emptyparagraphexportmode/).
+
+### Rendering
+
+#### Mengatur Gaya Bagan <sup>25.5</sup>
+
+Kemampuan untuk mengatur gaya bagan telah diperkenalkan dengan menambahkan enumerasi [ChartStyle](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartstyle/) dan properti [Style](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chart/get_style/).
+
+{{% alert color="primary" %}}
+
+Pelajari lebih lanjut tentang [Aspose.Words untuk C++ 25.5 Catatan Rilis](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-5-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words untuk C++ 25.1, 25.2, 25.3, 25.4
 

@@ -9,10 +9,52 @@ weight: 10
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /th/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2025-04-16-07-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 หน้านี้อธิบายถึงคุณลักษณะใหม่ที่น่าสนใจที่สุดAspose.Wordsที่นำมาใช้ในรุ่นล่าสุด.
+
+## Aspose.Wordsสำหรับ.NET 25.5, 25.6
+
+Aspose.Words25.5 ช่วยเพิ่มการปรับแต่งแผนภูมิด้วยตัวเลือกการจัดแต่งทรงผมใหม่และปรับปรุงMarkdownการส่งออกโดยนำเสนอการควบคุมวิธีการจัดการย่อหน้าว่างเปล่า.
+
+Aspose.Words25.6 ช่วยเพิ่มความแม่นยำในการแสดงผลและการแสดงภาพโดยการแนะนำตัวเลือกการส่งออกภาพขั้นสูงการจัดการที่ดีขึ้นMathMLและการแสดงแผนภูมิที่ดีขึ้น.
+
+### การแปลงโหลดและบันทึกเอกสาร
+
+#### ส่งออกย่อหน้าว่างไปยังMarkdown <sup>25.5</sup>
+
+ความสามารถในการควบคุมว่ามีการส่งออกย่อหน้าว่างไปยังMarkdownโดยการเพิ่มการแจงนับ[MarkdownEmptyParagraphExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownemptyparagraphexportmode/)และคุณสมบัติ[EmptyParagraphExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/emptyparagraphexportmode/).
+
+#### ส่งออกเอกสารหลายหน้าไปยังรูปแบบภาพแรสเตอร์ <sup>25.6</sup>
+
+ความสามารถในการส่งออกเอกสารหลายหน้าไปยังรูปแบบภาพแรสเตอร์(เช่นPNGและJPEG)ด้วย[customizable layouts](https://reference.aspose.com/words/net/aspose.words.saving/multipagelayout/)–แนว.
+
+### การแสดงผล
+
+#### การตั้งค่ารูปแบบแผนภูมิ <sup>25.5</sup>
+
+ความสามารถในการตั้งค่ารูปแบบแผนภูมิได้รับการแนะนำโดยการเพิ่มการแจงนับ[ChartStyle](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartstyle/)และคุณสมบัติ[Style](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/style/).
+
+#### การแสดงผลเส้นเชื่อมต่อในนิพจน์MathML <sup>25.6</sup>
+
+การแสดงผลของสายเชื่อมต่อในนิพจน์MathMLถูกนำมาใช้เพื่อให้แน่ใจว่าการแสดงผลที่ถูกต้องและสอดคล้องกันมากขึ้นของสูตรทางคณิตศาสตร์.
+
+#### การแสดงผลตำนานสำหรับแผนภูมิน้ำตก <sup>25.6</sup>
+
+การแสดงผลของตำนานสำหรับ["Waterfall" charts](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriestype/)ได้รับการแนะนำเพิ่มความโปร่งใสของข้อมูลและการปรับ.
+
+### อื่นๆ
+
+* เครื่องคิดเลขที่ซับซ้อนการวิเคราะห์พล็อตฟังก์ชั่นการแก้สมการ <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.Wordsสำหรับ.NET 25.5บันทึกย่อ](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-5-release-notes/).
+
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.Wordsสำหรับ.NET 25.6บันทึกย่อ](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Wordsสำหรับ.NET 25.1, 25.2, 25.3, 25.4
 
@@ -445,95 +487,6 @@ Aspose.Words23.12แนะนำคุณสมบัติใหม่และ
 เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.Wordsสำหรับ.NET 23.11 บันทึกย่อ](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-11-release-notes/).
 
 เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.Wordsสำหรับ.NET 23.12 บันทึกย่อ](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Wordsสำหรับ.NET 23.5, 23.6, 23.7, 23.8
-
-Aspose.Words23.5ช่วยเพิ่มความสามารถในการทำงานกับข้อมูลชุดแผนภูมิและความสามารถในการทำงานกับODTเอกสารเช่นเดียวกับการปรับปรุงส่วนหัว/ท้ายกระดาษและการตัดข้อความของพวกเขา.
-
-Aspose.Words23.6ขยายตัวเลือกการแสดงผลเพิ่มรูปแบบการส่งออกใหม่ปรับปรุงการรายงานLINQและเครื่องมือLowCode.
-
-Aspose.Words23.7ช่วยเพิ่มความสามารถในการรายงานเพิ่มรูปแบบการส่งออกใหม่และแนะนำการเปลี่ยน.
-
-Aspose.Words23.8ขยายความสามารถของรูปแบบต่างๆปรับปรุงการแสดงผลและเพิ่มตัวเลือกใหม่สำหรับกา
-
-### รูปแบบที่รองรับ
-
-* เริ่มต้นด้วยเวอร์ชัน23.6คุณสามารถบันทึกเอกสารในรูปแบบXLSX ตอนนี้คุณสามารถแปลงเอกสารของคุณให้เป็นรูปแบบเก่ง <sup>23.6</sup>
-* เริ่มต้นด้วยเวอร์ชัน23.7คุณสามารถบันทึกหน้าเอกสารหรือรูปร่างในรูปแบบEPS <sup>23.7</sup>
-
-### คุณลักษณะรูปแบบใหม่
-
-* ฟังก์ชันการทำงานที่สร้างสารบัญโดยอัตโนมัติ(TOC)สำหรับMOBIเอกสารได้รับการแนะนำ <sup>23.8</sup>
-* ตัวสร้าง[PdfEncryptionDetails](https://reference.aspose.com/words/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/)ถูกขยายด้วย[PdfPermissions](https://reference.aspose.com/words/net/aspose.words.saving/pdfpermissions/) <sup>23.8</sup>
-* มีการสร้างข้อความแนวตั้งสำหรับEMFเมตาไฟล์แล้ว <sup>23.8</sup>
-
-### การแสดงผลและการพิมพ์
-
-#### รับและปรับเปลี่ยนข้อมูลชุดแผนภูมิ <sup>23.5</sup>
-
-คุณลักษณะที่จะได้รับและปรับเปลี่ยนข้อมูลชุดแผนภูมิที่มีให้โดยการเพิ่ม:
-
-* คลาสใหม่: [ChartXValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartmultilevelvalue/)
-* ประเภทเอนัมใหม่:[ChartXValueType](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluetype/),[ChartYValueType](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluetype/)
-
-#### การสนับสนุนสำหรับการพิมพ์ขั้นสูง <sup>23.6</sup>
-
-การสนับสนุนสำหรับการพิมพ์ขั้นสูงในWMF,EMFและEMF+การแสดงผลได้รับการเพิ่ม.
-
-#### เนื้อหาสีบนหน้าเว็บ <sup>23.6</sup>
-
-คุณสมบัติสาธารณะ[PageInfo.Colored](https://reference.aspose.com/words/net/aspose.words.rendering/pageinfo/colored/)ซึ่งบ่งชี้ว่าเพจเป็นสีหรือไม่มีการเพิ่มเพจ.
-
-#### การจัดรูปแบบสำหรับป้ายกำกับข้อมูลแผนภูมิ <sup>23.6</sup>
-
-ความสามารถในการตั้งค่าการเติม,จังหวะ,และการจัดรูปแบบคำบรรยายภาพสำหรับฉลากข้.
-
-### Mail Mergeและการรายงาน
-
-#### แทรกแบบไดนามิกHTMLสำหรับLINQเครื่องมือการรายงาน <sup>23.6</sup>
-
-มีการเพิ่มวิธีการใหม่ของการแทรกแบบไดนามิกHTMLสำหรับLINQเครื่องมือการรายงาน.
-
-#### Mustacheแท็กสนับสนุน <sup>23.7</sup>
-
-ขณะนี้รองรับแท็กMustacheในวิธีการ[MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/)และ[MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion).
-
-#### LINQการรายงานการปรับปรุงไวยากรณ์แม่แบบเครื่องยนต์ <sup>23.7</sup>
-
-ไวยากรณ์แม่แบบเครื่องมือการรายงานLINQขณะนี้สนับสนุนวิธีการขยาย`ElementAt`และElementAtOrDefault.
-
-#### การระบุขนาดของภาพที่แสดงผล <sup>23.8</sup>
-
-มีการแนะนำคุณสมบัติสาธารณะใหม่[ImageSize](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/imagesize/)สำหรับการระบุขนาดของภาพที่แสดงผลเป็นพิกเซล.
-
-#### รักษาช่องว่างสำหรับค่าสตริงJSON–LINQ <sup>23.8</sup>
-
-มีการเพิ่มตัวเลือกลงในโปรแกรมการรายงานLINQเพื่อรักษาช่องว่างสำหรับค่าสตริงJSON.
-
-### LowCode <sup>23.6</sup>
-
-มีการเพิ่มวิธีการใหม่LowCodeเพื่อผสานเอกสารประเภทต่างๆลงในเอกสารที่ส่งออกเดียว.
-
-### อื่นๆ
-
-* การสนับสนุนสำหรับการตัดข้อความในส่วนหัว/ส่วนท้ายได้รับการดำเนินการ <sup>23.5</sup>
-* ความสามารถในการลบลายเซ็นดิจิทัลออกจากเอกสารODTได้ถูกเพิ่มผ่านวิธีการ[RemoveAllSignatures](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/) <sup>23.5</sup>
-* ทรัพย์สินสาธารณะ[PhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/phoneticguide/)ที่จะได้รับข้อความฐานและทับทิมของคู่มือการออกเสียง[Run](https://reference.aspose.com/words/net/aspose.words/run/)ได้รับการเพิ่ม <sup>23.5</sup>
-* ความสามารถในการดึงค่าลายเซ็นดิจิทัลจากเอกสารที่ลงนามแบบดิจิทัลเป็นอาร์เรย์ไบต์ถูกเพิ่มโดยการแนะนำคุณสมบัติใหม่[SignatureValue](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/) <sup>23.7</sup>
-* ชั้นเรียน[Row](https://reference.aspose.com/words/net/aspose.words.tables/row/)และ[Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/)ได้รับการขยายไปพร้อมกับสมาชิกสาธารณะใหม่– [Row.NextRow](https://reference.aspose.com/words/net/aspose.words.tables/row/nextrow/), [Row.PreviousRow](https://reference.aspose.com/words/net/aspose.words.tables/row/previousrow/), [Cell.NextCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/nextcell/), และ[Cell.PreviousCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/previouscell/) <sup>23.7</sup>
-* เพิ่มการสนับสนุนสำหรับฟิลด์CITATIONและBIBLIOGRAPHY <sup>23.8</sup>
-
-{{% alert color="primary" %}}
-
-เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.Wordsสำหรับ.NET 23.5 บันทึกย่อ](/words/net/aspose-words-for-net-23-5-release-notes/).
-
-เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.Wordsสำหรับ.NET 23.6 บันทึกย่อ](/words/net/aspose-words-for-net-23-6-release-notes/).
-
-เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.Wordsสำหรับ.NET 23.7 บันทึกย่อ](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
-
-เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.Wordsสำหรับ.NET 23.8 บันทึกย่อ](/words/net/aspose-words-for-net-23-8-release-notes/).
 
 {{% /alert %}}
 

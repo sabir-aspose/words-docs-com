@@ -9,10 +9,52 @@ weight: 10
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /vi/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2025-04-16-07-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 Trang này mô tả các tính năng Aspose.Words mới thú vị nhất được giới thiệu trong các bản phát hành gần đây.
+
+## Aspose.Words cho .NET 25.5, 25.6
+
+Aspose.Words 25.5 tăng cường tùy chỉnh biểu đồ với các tùy chọn tạo kiểu mới và cải thiện Markdown xuất bằng cách cung cấp quyền kiểm soát cách xử lý các đoạn văn trống.
+
+Aspose.Words 25.6 tăng cường các tính năng hiển thị chính xác và trực quan bằng cách giới thiệu các tùy chọn xuất hình ảnh nâng cao, xử lý MathML được cải thiện và biểu diễn biểu đồ tốt hơn.
+
+### Chuyển đổi, Tải và Lưu Tài liệu
+
+#### Xuất Các Đoạn Trống sang Markdown <sup>25.5</sup>
+
+Khả năng kiểm soát cách các đoạn trống được xuất sang Markdown đã được giới thiệu bằng cách thêm liệt kê [MarkdownEmptyParagraphExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownemptyparagraphexportmode/) và thuộc tính [EmptyParagraphExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/emptyparagraphexportmode/).
+
+#### Xuất Tài Liệu Nhiều trang sang Định Dạng Hình Ảnh Raster <sup>25.6</sup>
+
+Khả năng xuất tài liệu nhiều trang sang các định dạng hình ảnh raster (chẳng hạn như PNG và JPEG) với [customizable layouts](https://reference.aspose.com/words/net/aspose.words.saving/multipagelayout/)-Ngang, Dọc hoặc Lưới – đã được giới thiệu bằng cách mở rộng chức năng xuất hình ảnh.
+
+### Kết xuất
+
+#### Đặt Kiểu Biểu đồ <sup>25.5</sup>
+
+Khả năng thiết lập kiểu biểu đồ đã được giới thiệu bằng cách thêm [ChartStyle](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartstyle/) liệt kê và thuộc tính [Style](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/style/).
+
+#### Kết Xuất Các Dòng Kết nối trong biểu thức MathML  <sup>25.6</sup>
+
+Việc hiển thị các dòng kết nối trong các biểu thức MathML đã được thực hiện để đảm bảo hiển thị chính xác và nhất quán hơn về mặt trực quan các công thức toán học.
+
+#### Vẽ Huyền thoại cho Biểu Đồ Thác Nước <sup>25.6</sup>
+
+Việc hiển thị các huyền thoại cho ["Waterfall" charts](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriestype/) đã được giới thiệu, tăng tính minh bạch của dữ liệu và cải thiện khả năng diễn giải của các biểu đồ này.
+
+### Khác
+
+* Khả năng bọc các công thức toán học có chứa nhiều dấu gạch chéo đã được tăng cường, cải thiện độ rõ nét bố cục và tính dễ đọc của công thức. <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+Tìm hiểu thêm về [Aspose.Words Cho .NET 25.5 Ghi Chú Phát hành](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-5-release-notes/).
+
+Tìm hiểu thêm về [Aspose.Words Cho .NET 25.6 Ghi Chú Phát hành](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words cho .NET 25.1, 25.2, 25.3, 25.4
 
@@ -445,95 +487,6 @@ Tìm hiểu thêm về [Aspose.Words cho .NET 23.10 Ghi Chú Phát Hành](https:
 Tìm hiểu thêm về [Aspose.Words cho .NET 23.11 Ghi Chú Phát Hành](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-11-release-notes/).
 
 Tìm hiểu thêm về [Aspose.Words cho .NET 23.12 Ghi Chú Phát Hành](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words cho .NET 23.5, 23.6, 23.7, 23.8
-
-Aspose.Words 23.5 nâng cao khả năng làm việc với dữ liệu chuỗi biểu đồ và khả năng làm việc với tài liệu ODT, cũng như cải thiện tiêu đề/chân trang và gói văn bản của chúng.
-
-Aspose.Words 23.6 mở rộng các tùy chọn kết xuất, thêm định dạng xuất mới, cải thiện LINQ báo cáo và LowCode công cụ.
-
-Aspose.Words 23.7 tăng cường khả năng báo cáo, thêm định dạng xuất mới và giới thiệu các thay đổi để làm việc với bảng và chữ ký số.
-
-Aspose.Words 23.8 mở rộng khả năng của các định dạng khác nhau, cải thiện kết xuất và thêm các tùy chọn mới để làm việc với các trường.
-
-### Các Định Dạng Được Hỗ Trợ
-
-* Bắt đầu với phiên bản 23.6, có thể lưu tài liệu ở định dạng XLSX. Bây giờ bạn có thể chuyển đổi tài liệu của mình sang Định dạng Excel. <sup>23.6</sup>
-* Bắt đầu với phiên bản 23.7, có thể lưu một trang tài liệu hoặc hình dạng ở định dạng EPS. <sup>23.7</sup>
-
-### Các Tính Năng Định Dạng Mới
-
-* Chức năng tự động tạo Mục Lục (TOC) cho MOBI tài liệu đã được giới thiệu. <sup>23.8</sup>
-* Hàm tạo [PdfEncryptionDetails](https://reference.aspose.com/words/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/) đã được mở rộng với [PdfPermissions](https://reference.aspose.com/words/net/aspose.words.saving/pdfpermissions/). <sup>23.8</sup>
-* Định hình văn bản dọc cho EMF metafiles đã được triển khai. <sup>23.8</sup>
-
-### Kết xuất Và In Ấn
-
-#### Nhận Và Sửa Đổi Dữ Liệu Chuỗi Biểu Đồ <sup>23.5</sup>
-
-Tính năng nhận và sửa đổi dữ liệu chuỗi biểu đồ được cung cấp bằng cách thêm:
-
-* lớp học mới: [ChartXValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartmultilevelvalue/)
-* các loại enum mới: [ChartXValueType](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluetype/)
-
-#### Hỗ trợ Cho Kiểu Chữ Nâng Cao <sup>23.6</sup>
-
-Hỗ trợ Cho Kiểu Chữ Nâng cao trong WMF, EMF và EMF+ kết xuất đã được thêm vào.
-
-#### Nội dung màu Trên Trang <sup>23.6</sup>
-
-Thuộc tính công cộng [PageInfo.Colored](https://reference.aspose.com/words/net/aspose.words.rendering/pageinfo/colored/), cho biết trang có màu hay không, đã được thêm vào.
-
-#### Định dạng Cho Nhãn Dữ liệu Biểu Đồ <sup>23.6</sup>
-
-Khả năng đặt định dạng điền, đột quỵ và chú thích cho nhãn dữ liệu biểu đồ đã được triển khai.
-
-### Mail Merge Và Báo cáo
-
-#### Động HTML Chèn cho LINQ Công Cụ Báo cáo <sup>23.6</sup>
-
-Một cách mới để chèn HTML động cho Công cụ Báo cáo LINQ đã được thêm vào.
-
-#### Mustache Thẻ Hỗ Trợ <sup>23.7</sup>
-
-Các thẻ Mustache hiện được hỗ trợ trong các phương thức [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/) và [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion).
-
-#### LINQ Cập Nhật Cú Pháp Mẫu Công Cụ Báo Cáo <sup>23.7</sup>
-
-Cú pháp Mẫu Công cụ Báo cáo LINQ hiện hỗ trợ các phương thức mở rộng `ElementAt` và ElementAtOrDefault.
-
-#### Chỉ Định Kích Thước Của Hình Ảnh Được Hiển thị <sup>23.8</sup>
-
-Một thuộc tính công khai mới [ImageSize](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/imagesize/) để chỉ định kích thước của hình ảnh được hiển thị trong pixel đã được giới thiệu.
-
-#### Giữ Khoảng trắng cho các Giá trị Chuỗi JSON – LINQ <sup>23.8</sup>
-
-Một tùy chọn đã được thêm vào công cụ báo cáo LINQ để giữ khoảng trắng cho các giá trị chuỗi JSON.
-
-### LowCode <sup>23.6</sup>
-
-Các phương thức LowCode mới nhằm hợp nhất các loại tài liệu khác nhau thành một tài liệu đầu ra duy nhất đã được thêm vào.
-
-### Khác
-
-* Hỗ trợ gói văn bản trong tiêu đề/chân trang đã được thực hiện. <sup>23.5</sup>
-* Khả năng xóa chữ ký số khỏi tài liệu ODT đã được thêm vào thông qua phương thức [RemoveAllSignatures](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/). <sup>23.5</sup>
-* Tài sản công cộng [PhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/phoneticguide/) để có được văn bản cơ sở và ruby của hướng dẫn ngữ âm [Run](https://reference.aspose.com/words/net/aspose.words/run/) đã được thêm vào. <sup>23.5</sup>
-* Khả năng lấy giá trị chữ ký số từ tài liệu được ký điện tử dưới dạng mảng byte đã được thêm vào bằng cách giới thiệu thuộc tính [SignatureValue](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/) mới. <sup>23.7</sup>
-* Các lớp [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) và [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) đã được mở rộng với các thành viên công cộng mới– [Row.NextRow](https://reference.aspose.com/words/net/aspose.words.tables/row/nextrow/), [Row.PreviousRow](https://reference.aspose.com/words/net/aspose.words.tables/row/previousrow/), [Cell.NextCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/nextcell/), và [Cell.PreviousCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/previouscell/). <sup>23.7</sup>
-* Hỗ trợ cho các trường CITATION và BIBLIOGRAPHY đã được thêm vào. <sup>23.8</sup>
-
-{{% alert color="primary" %}}
-
-Tìm hiểu thêm về [Aspose.Words cho .NET 23.5 Ghi Chú Phát Hành](/words/net/aspose-words-for-net-23-5-release-notes/).
-
-Tìm hiểu thêm về [Aspose.Words cho .NET 23.6 Ghi Chú Phát Hành](/words/net/aspose-words-for-net-23-6-release-notes/).
-
-Tìm hiểu thêm về [Aspose.Words cho .NET 23.7 Ghi Chú Phát Hành](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
-
-Tìm hiểu thêm về [Aspose.Words cho .NET 23.8 Ghi Chú Phát Hành](/words/net/aspose-words-for-net-23-8-release-notes/).
 
 {{% /alert %}}
 

@@ -9,10 +9,52 @@ weight: 2
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /es/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2025-04-22-08-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 Esta página describe las nuevas funciones Aspose.Words más interesantes introducidas en versiones recientes.
+
+## Aspose.Words por Java 25.5, 25.6
+
+Aspose.Words 25.5 mejora la personalización de los gráficos con nuevas opciones de estilo y mejora la exportación de Markdown al ofrecer control sobre cómo se manejan los párrafos vacíos.
+
+Aspose.Words 25.6 mejora la precisión de representación y las funciones de visualización al introducir opciones avanzadas de exportación de imágenes, manejo mejorado de MathML y mejor representación de gráficos.
+
+### Conversión, Carga y Guardado de Documentos
+
+#### Exportar Párrafos vacíos a Markdown <sup>25.5</sup>
+
+Se ha introducido la capacidad de controlar cómo se exportan los párrafos vacíos a Markdown agregando la enumeración [MarkdownEmptyParagraphExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownemptyparagraphexportmode/) y la propiedad [EmptyParagraphExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getEmptyParagraphExportMode).
+
+#### Exporte Documentos de Varias páginas a Formatos de Imagen Rasterizada <sup>25.6</sup>
+
+Se ha introducido la capacidad de exportar documentos de varias páginas a formatos de imagen ráster (como PNG y JPEG) con [customizable layouts](https://reference.aspose.com/words/java/com.aspose.words/multipagelayout/) (Horizontal, Vertical o Cuadrícula) al ampliar la funcionalidad de exportación de imágenes.
+
+### Renderizado
+
+#### Configuración del Estilo del Gráfico <sup>25.5</sup>
+
+La capacidad de establecer el estilo del gráfico se ha introducido agregando la enumeración [ChartStyle](https://reference.aspose.com/words/java/com.aspose.words/chartstyle/) y la propiedad [Style](https://reference.aspose.com/words/java/com.aspose.words/chart/#getStyle).
+
+#### Representación de Líneas de Conector en MathML Expresiones <sup>25.6</sup>
+
+La representación de líneas de conexión en expresiones MathML se ha implementado para garantizar una visualización más precisa y visualmente coherente de las fórmulas matemáticas.
+
+#### Leyendas de Renderizado para Gráficos en Cascada <sup>25.6</sup>
+
+Se ha introducido la representación de leyendas para ["Waterfall" charts](https://reference.aspose.com/words/java/com.aspose.words/chartseriestype/), lo que aumenta la transparencia de los datos y mejora la interpretabilidad de estos gráficos.
+
+### Otros
+
+* Se ha mejorado la capacidad de ajustar fórmulas matemáticas que contienen varias barras inclinadas, mejorando la claridad del diseño y la legibilidad de la fórmula. <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+Más información sobre [Aspose.Words para Java 25.5 Notas de la versión](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-5-release-notes/).
+
+Más información sobre [Aspose.Words para Java 25.6 Notas de la versión](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words por Java 25.1, 25.2, 25.3, 25.4
 
@@ -435,96 +477,6 @@ Más información sobre [Aspose.Words por Java 23.10 Notas de la versión](https
 Más información sobre [Aspose.Words por Java 23.11 Notas de la versión](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-11-release-notes/).
 
 Más información sobre [Aspose.Words por Java 23.12 Notas de la versión](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words por Java 23.5, 23.6, 23.7, 23.8
-
-Aspose.Words 23.5 mejora la capacidad de trabajar con datos de series de gráficos y la capacidad de trabajar con documentos ODT, así como mejorar los encabezados/pies de página y su ajuste de texto.
-
-Aspose.Words 23.6 amplía las opciones de representación, agrega un nuevo formato de exportación, mejora los informes LINQ y las herramientas LowCode.
-
-Aspose.Words 23.7 mejora las capacidades de generación de informes, agrega un nuevo formato de exportación e introduce cambios en el trabajo con tablas y firmas digitales.
-
-Aspose.Words 23.8 amplía las capacidades de diferentes formatos, mejora el procesamiento y agrega nuevas opciones para trabajar con campos.
-
-### Formatos Admitidos
-
-* A partir de la versión 23.6, es posible guardar un documento en formato XLSX. Ahora puedes convertir tus documentos a formato Excel. <sup>23.6</sup>
-
-* A partir de la versión 23.7, es posible guardar una página o forma de documento en formato EPS. <sup>23.7</sup>
-
-* ### Nuevas Características de Formato
-
-  - Se ha introducido la funcionalidad para generar automáticamente una Tabla de contenido (TOC) para MOBI documentos. <sup>23.8</sup>
-  - El constructor [PdfEncryptionDetails](https://reference.aspose.com/words/java/com.aspose.words/pdfencryptiondetails/#PdfEncryptionDetails-java.lang.String-java.lang.String) se ha expandido con [PdfPermissions](https://reference.aspose.com/words/java/com.aspose.words/pdfpermissions/). <sup>23.8</sup>
-  - Se ha implementado la configuración de texto vertical para metarchivos EMF. <sup>23.8</sup>
-
-### Renderizado
-
-#### Obtener y Modificar Datos de Series de Gráficos <sup>23.5</sup>
-
-La función para obtener y modificar datos de series de gráficos se proporcionó agregando:
-
-- nuevas clases: [ChartXValue](https://reference.aspose.com/words/java/com.aspose.words/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/java/com.aspose.words/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/java/com.aspose.words/chartmultilevelvalue/)
-- nuevos tipos de enumeración: [ChartXValueType](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluetype/)
-
-#### Soporte para Tipografía Avanzada <sup>23.6</sup>
-
-Se ha agregado soporte para tipografía avanzada en WMF, EMF y EMF+ renderizado.
-
-#### Contenido coloreado en la página <sup>23.6</sup>
-
-Se ha agregado la propiedad pública [PageInfo.Colored](https://reference.aspose.com/words/java/com.aspose.words/pageinfo/#getColored), que indica si la página está coloreada o no.
-
-#### Formateo de Etiquetas de Datos de Gráficos <sup>23.6</sup>
-
-Se ha implementado la capacidad de establecer el formato de relleno, trazo y llamada para las etiquetas de datos del gráfico.
-
-### Mail Merge y Presentación de Informes
-
-#### Inserción dinámica HTML para el Motor de Informes LINQ <sup>23.6</sup>
-
-Se ha agregado una nueva forma de inserción dinámica HTML para el motor de informes LINQ.
-
-#### Mustache Soporte de etiquetas <sup>23.7</sup>
-
-Las etiquetas Mustache ahora son compatibles con los métodos [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getRegionsHierarchy) y [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldNamesForRegion-java.lang.String).
-
-#### Actualizaciones de Sintaxis de la Plantilla del Motor de Informes LINQ <sup>23.7</sup>
-
-La sintaxis de la plantilla del Motor de informes LINQ ahora admite los métodos de extensión `ElementAt` y ElementAtOrDefault.
-
-#### Especificar el Tamaño de las Imágenes Renderizadas <sup>23.8</sup>
-
-Se ha introducido una nueva propiedad pública **ImageSize** para especificar el tamaño de las imágenes renderizadas en píxeles.
-
-#### Conservar espacios en blanco para JSON Valores de cadena - LINQ <sup>23.8</sup>
-
-Se ha agregado una opción al Motor de informes LINQ para conservar los espacios en blanco para los valores de cadena JSON.
-
-### LowCode <sup>23.6</sup>
-
-Se han agregado nuevos métodos LowCode destinados a fusionar diferentes tipos de documentos en un solo documento de salida.
-
-### Otros
-
-- Se ha implementado el soporte para el ajuste de texto en encabezados/pies de página. <sup>23.5</sup>
-- Se ha agregado la capacidad de eliminar firmas digitales de ODT documentos a través del método [RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream). <sup>23.5</sup>
-- Se ha añadido la propiedad pública [PhoneticGuide](https://reference.aspose.com/words/java/com.aspose.words/run/#getPhoneticGuide) para obtener el texto base y rubí de la guía fonética [Run](https://reference.aspose.com/words/java/com.aspose.words/run/). <sup>23.5</sup>
-- Se ha agregado la capacidad de recuperar un valor de firma digital de un documento firmado digitalmente como una matriz de bytes al introducir una nueva propiedad [SignatureValue](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/#getSignatureValue). <sup>23.7</sup>
-- Las clases [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) y [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) se han ampliado con nuevos miembros públicos– [Row.NextRow](https://reference.aspose.com/words/java/com.aspose.words/row/#getNextRow), [Row.PreviousRow](https://reference.aspose.com/words/java/com.aspose.words/row/#getPreviousRow), [Cell.NextCell](https://reference.aspose.com/words/java/com.aspose.words/cell/#getNextCell), y [Cell.PreviousCell](https://reference.aspose.com/words/java/com.aspose.words/cell/#getPreviousCell). <sup>23.7</sup>
-- Se ha agregado soporte para los campos CITATION y BIBLIOGRAPHY. <sup>23.8</sup>
-
-{{% alert color="primary" %}}
-
-Más información sobre [Aspose.Words por Java 23.5 Notas de la versión](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/).
-
-Más información sobre [Aspose.Words por Java 23.6 Notas de la versión](/words/java/aspose-words-for-java-23-6-release-notes/).
-
-Más información sobre [Aspose.Words por Java 23.7 Notas de la versión](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
-
-Más información sobre [Aspose.Words por Java 23.8 Notas de la versión](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
 
 {{% /alert %}}
 

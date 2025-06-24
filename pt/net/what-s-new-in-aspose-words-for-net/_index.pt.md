@@ -9,10 +9,52 @@ weight: 10
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /pt/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2025-04-16-07-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 Esta página descreve os novos recursos Aspose.Words mais interessantes introduzidos em versões recentes.
+
+## Aspose.Words Para .NET 25.5, 25.6
+
+Aspose.Words 25.5 melhora a personalização do gráfico com novas opções de estilo e melhora a exportação de Markdown, oferecendo controle sobre como os parágrafos vazios são tratados.
+
+Aspose.Words 25.6 aprimora a precisão da renderização e os recursos de visualização, introduzindo Opções Avançadas de exportação de imagens, manipulação MathML aprimorada e melhor representação de gráficos.
+
+### Converter, carregar e guardar documentos
+
+#### Exportar parágrafos vazios para Markdown <sup>25.5</sup>
+
+A capacidade de controlar como os parágrafos vazios são exportados para Markdown foi introduzida adicionando a enumeração [MarkdownEmptyParagraphExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownemptyparagraphexportmode/) e a propriedade [EmptyParagraphExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/emptyparagraphexportmode/).
+
+#### Exportar documentos de várias páginas para formatos de Imagem Raster <sup>25.6</sup>
+
+A capacidade de exportar documentos de várias páginas para formatos de imagem raster (como PNG e JPEG) com [customizable layouts](https://reference.aspose.com/words/net/aspose.words.saving/multipagelayout/) – Horizontal, Vertical ou grelha – foi introduzida através da extensão da funcionalidade de exportação de imagens.
+
+### Renderização
+
+#### Definição do estilo do Gráfico <sup>25.5</sup>
+
+A capacidade de definir o estilo do gráfico foi introduzida adicionando a enumeração [ChartStyle](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartstyle/) e a propriedade [Style](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/style/).
+
+#### Renderizando linhas de conexão em expressões MathML  <sup>25.6</sup>
+
+A renderização de linhas de conexão em expressões MathML foi implementada para garantir uma exibição mais precisa e visualmente consistente de fórmulas matemáticas.
+
+#### Renderização de Legendas para gráficos em cascata <sup>25.6</sup>
+
+Foi introduzida a apresentação de legendas para ["Waterfall" charts](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriestype/), aumentando a transparência dos dados e melhorando a interpretabilidade destes gráficos.
+
+### Outros
+
+* A capacidade de agrupar fórmulas matemáticas contendo várias barras foi melhorada, melhorando a clareza da disposição e a legibilidade da fórmula. <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+Saiba mais sobre [Aspose.Words para .NET 25.5 Notas de versão](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-5-release-notes/).
+
+Saiba mais sobre [Aspose.Words para .NET 25.6 Notas de versão](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words para .NET 25.1, 25.2, 25.3, 25.4
 
@@ -445,95 +487,6 @@ Saiba mais sobre [Aspose.Words para .NET 23.10 Notas De Lançamento](https://rel
 Saiba mais sobre [Aspose.Words para .NET 23.11 Notas De Lançamento](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-11-release-notes/).
 
 Saiba mais sobre [Aspose.Words para .NET 23.12 Notas De Lançamento](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words para .NET 23.5, 23.6, 23.7, 23.8
-
-Aspose.Words 23.5 melhora a capacidade de trabalhar com dados de séries de gráficos e a capacidade de trabalhar com documentos ODT, bem como melhorar cabeçalhos/rodapés e sua quebra de texto.
-
-Aspose.Words 23.6 expande as opções de renderização, adiciona um novo formato de exportação, melhora as ferramentas LINQ Relatórios e LowCode.
-
-Aspose.Words 23.7 aprimora os recursos de relatórios, adiciona um novo formato de exportação e introduz alterações no trabalho com tabelas e assinaturas digitais.
-
-Aspose.Words 23.8 expande as capacidades de diferentes formatos, melhora a renderização e adiciona novas opções para trabalhar com campos.
-
-### Formatos Suportados
-
-* A partir da versão 23.6, é possível guardar um documento no formato XLSX. Agora você pode converter seus documentos para o formato Excel. <sup>23.6</sup>
-* A partir da versão 23.7, é possível guardar uma página ou forma de documento no formato EPS. <sup>23.7</sup>
-
-### Novos Recursos De Formato
-
-* Foi introduzida a funcionalidade para gerar automaticamente o sumário (TOC) para MOBI documentos. <sup>23.8</sup>
-* O construtor [PdfEncryptionDetails](https://reference.aspose.com/words/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/) foi expandido com [PdfPermissions](https://reference.aspose.com/words/net/aspose.words.saving/pdfpermissions/). <sup>23.8</sup>
-* A definição do texto vertical para os metarquivos EMF foi implementada. <sup>23.8</sup>
-
-### Renderização e impressão
-
-#### Obter e modificar dados da série de gráficos <sup>23.5</sup>
-
-O recurso para obter e modificar os dados da série de gráficos foi fornecido adicionando:
-
-* novas classes: [ChartXValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartmultilevelvalue/)
-* novos tipos de enum: [ChartXValueType](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluetype/)
-
-#### Suporte para tipografia avançada <sup>23.6</sup>
-
-Foi adicionado suporte para tipografia avançada em WMF, EMF e EMF+ renderização.
-
-#### Conteúdo colorido na página <sup>23.6</sup>
-
-A propriedade pública [PageInfo.Colored](https://reference.aspose.com/words/net/aspose.words.rendering/pageinfo/colored/), indicando se a página é colorida ou não, foi adicionada.
-
-#### Formatação dos rótulos dos dados do Gráfico <sup>23.6</sup>
-
-A capacidade de definir preenchimento, traçado e formatação de texto explicativo para rótulos de dados de gráfico foi implementada.
-
-### Mail Merge e relatórios
-
-#### Dinâmica HTML inserção para LINQ Mecanismo de relatório <sup>23.6</sup>
-
-Foi adicionada uma nova forma de inserção dinâmica HTML para o mecanismo de Relatórios LINQ.
-
-#### Mustache Suporte A Tags <sup>23.7</sup>
-
-As tags Mustache são agora suportadas nos métodos [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/) e [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion).
-
-#### LINQ Actualizações Da Sintaxe Do Modelo Do Motor De Relatórios <sup>23.7</sup>
-
-A sintaxe do modelo do mecanismo de Relatório LINQ agora suporta os métodos de extensão `ElementAt` e ElementAtOrDefault.
-
-#### Especificando o tamanho das imagens renderizadas <sup>23.8</sup>
-
-Foi introduzida uma nova propriedade pública [ImageSize](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/imagesize/) para especificar o tamanho das imagens renderizadas em pixel.
-
-#### Preservar espaços em branco para JSON valores de cadeia de caracteres - LINQ <sup>23.8</sup>
-
-Uma opção foi adicionada ao mecanismo de relatório LINQ para preservar espaços em branco para valores de string JSON.
-
-### LowCode <sup>23.6</sup>
-
-Foram adicionados novos métodos LowCode destinados a fundir diferentes tipos de documentos num único documento de saída.
-
-### Outros
-
-* Foi implementado o apoio à quebra de texto nos cabeçalhos/rodapés. <sup>23.5</sup>
-* A capacidade de remover assinaturas digitais de documentos ODT foi adicionada através do método [RemoveAllSignatures](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/). <sup>23.5</sup>
-* A propriedade pública [PhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/phoneticguide/) para obter o texto base e ruby do guia fonético [Run](https://reference.aspose.com/words/net/aspose.words/run/) foi adicionada. <sup>23.5</sup>
-* A capacidade de recuperar um valor de assinatura digital de um documento assinado digitalmente como uma matriz de Bytes foi adicionada através da introdução de uma nova propriedade [SignatureValue](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/). <sup>23.7</sup>
-* As classes [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) e [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) foram alargadas com novos membros públicos– [Row.NextRow](https://reference.aspose.com/words/net/aspose.words.tables/row/nextrow/), [Row.PreviousRow](https://reference.aspose.com/words/net/aspose.words.tables/row/previousrow/), [Cell.NextCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/nextcell/), e [Cell.PreviousCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/previouscell/). <sup>23.7</sup>
-* Foi adicionado suporte para os campos CITATION e BIBLIOGRAPHY. <sup>23.8</sup>
-
-{{% alert color="primary" %}}
-
-Saiba mais sobre [Aspose.Words para .NET 23.5 Notas De Lançamento](/words/net/aspose-words-for-net-23-5-release-notes/).
-
-Saiba mais sobre [Aspose.Words para .NET 23.6 Notas De Lançamento](/words/net/aspose-words-for-net-23-6-release-notes/).
-
-Saiba mais sobre [Aspose.Words para .NET 23.7 Notas De Lançamento](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-7-release-notes/).
-
-Saiba mais sobre [Aspose.Words para .NET 23.8 Notas De Lançamento](/words/net/aspose-words-for-net-23-8-release-notes/).
 
 {{% /alert %}}
 
