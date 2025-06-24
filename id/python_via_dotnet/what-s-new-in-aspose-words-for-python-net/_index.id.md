@@ -9,10 +9,52 @@ weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /id/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-04-16-07-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 Halaman ini menjelaskan fitur Aspose.Words baru yang paling menarik yang diperkenalkan dalam rilis terbaru.
+
+## Aspose.Words untuk Python via .NET 25.5, 25.6
+
+Aspose.Words 25.5 menyempurnakan penyesuaian bagan dengan opsi gaya baru dan meningkatkan ekspor Markdown dengan menawarkan kontrol atas penanganan paragraf kosong.
+
+Aspose.Words 25.6 meningkatkan presisi rendering dan fitur visualisasi dengan memperkenalkan opsi ekspor gambar lanjutan, penanganan MathML yang ditingkatkan, dan representasi bagan yang lebih baik.
+
+### Mengonversi, Memuat, dan Menyimpan Dokumen
+
+#### Ekspor Paragraf Kosong ke Markdown <sup>25.5</sup>
+
+Kemampuan untuk mengontrol bagaimana paragraf kosong diekspor ke Markdown telah diperkenalkan dengan menambahkan enumerasi **MarkdownEmptyParagraphExportMode** dan properti **empty_paragraph_export_mode**.
+
+#### Ekspor Dokumen Multi-halaman ke Format Gambar Raster <sup>25.6</sup>
+
+Kemampuan untuk mengekspor dokumen multi-halaman ke format gambar raster (seperti PNG dan JPEG) dengan [customizable layouts](https://reference.aspose.com/words/python-net/aspose.words.saving/multipagelayout/) - Horizontal, Vertikal, atau Kisi-telah diperkenalkan dengan memperluas fungsionalitas ekspor gambar.
+
+### Rendering
+
+#### Mengatur Gaya Bagan <sup>25.5</sup>
+
+Kemampuan untuk mengatur gaya bagan telah diperkenalkan dengan menambahkan enumerasi **ChartStyle** dan properti **style**.
+
+#### Merender Baris Konektor dalam Ekspresi MathML  <sup>25.6</sup>
+
+Rendering garis penghubung dalam ekspresi MathML telah diterapkan untuk memastikan tampilan rumus matematika yang lebih akurat dan konsisten secara visual.
+
+#### Merender Legenda untuk Bagan Air Terjun <sup>25.6</sup>
+
+Rendering legenda untuk ["Waterfall" charts](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriestype/) telah diperkenalkan, meningkatkan transparansi data, dan meningkatkan interpretabilitas bagan ini.
+
+### Lainnya
+
+* Kemampuan untuk membungkus rumus matematika yang berisi beberapa garis miring telah ditingkatkan, meningkatkan kejelasan tata letak dan keterbacaan rumus. <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 25.5 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-5-release-notes/).
+
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 25.6 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words untuk Python melalui .NET 25.1, 25.2, 25.3, 25.4
 

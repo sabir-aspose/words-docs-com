@@ -9,10 +9,52 @@ weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ro/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-04-16-07-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 Această pagină descrie cele mai interesante caracteristici noi Aspose.Words introduse în versiunile recente.
+
+## Aspose.Words pentru Python via .NET 25.5, 25.6
+
+Aspose.Words 25.5 îmbunătățește personalizarea graficului cu noi opțiuni de stil și îmbunătățește Markdown exportul oferind control asupra modului în care sunt tratate paragrafele goale.
+
+Aspose.Words 25.6 îmbunătățește precizia de redare și caracteristicile de vizualizare prin introducerea opțiunilor avansate de export de imagini, îmbunătățirea manipulării MathML și o mai bună reprezentare a diagramelor.
+
+### Conversia, încărcarea și salvarea documentelor
+
+#### Exportați paragrafe goale în Markdown <sup>25.5</sup>
+
+Abilitatea de a controla modul în care paragrafele goale sunt exportate în Markdown a fost introdusă prin adăugarea enumerării **MarkdownEmptyParagraphExportMode** și a proprietății **empty_paragraph_export_mode**.
+
+#### Exportați documente cu mai multe pagini în formate de imagine Raster <sup>25.6</sup>
+
+Capacitatea de a exporta documente cu mai multe pagini în formate de imagine raster (cum ar fi PNG și JPEG) cu [customizable layouts](https://reference.aspose.com/words/python-net/aspose.words.saving/multipagelayout/)-orizontală, verticală sau grilă – a fost introdusă prin extinderea funcționalității de export de imagini.
+
+### Redare
+
+#### Setarea stilului graficului <sup>25.5</sup>
+
+Abilitatea de a seta stilul graficului a fost introdusă prin adăugarea enumerării **ChartStyle** și a proprietății **style**.
+
+#### Redarea liniilor conectorului în expresii MathML  <sup>25.6</sup>
+
+Redarea liniilor de conector în expresii MathML a fost implementată pentru a asigura o afișare mai precisă și mai consistentă vizual a formulelor matematice.
+
+#### Redarea Legendelor pentru diagramele cascadei <sup>25.6</sup>
+
+A fost introdusă redarea legendelor pentru ["Waterfall" charts](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriestype/), sporind transparența datelor și îmbunătățind interpretabilitatea acestor diagrame.
+
+### Altele
+
+* Capacitatea de a înfășura formule matematice care conțin mai multe tăieturi a fost îmbunătățită, îmbunătățind claritatea aspectului și lizibilitatea formulelor. <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+Aflați mai multe despre [Aspose.Words pentru Python via .NET 25.5 note de lansare](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-5-release-notes/).
+
+Aflați mai multe despre [Aspose.Words pentru Python via .NET 25.6 note de lansare](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words pentru Python prin .NET 25.1, 25.2, 25.3, 25.4
 

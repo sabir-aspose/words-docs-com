@@ -9,10 +9,32 @@ weight: 2
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nl/cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2025-04-15-08-02-05
+timestamp: 2025-06-23-19-12-25
 ---
 
 Deze pagina beschrijft de meest interessante nieuwe Aspose.Words - functies die zijn geïntroduceerd in recente releases.
+
+## Aspose.Words voor C++ 25.5
+
+Aspose.Words 25.5 verbetert de aanpassing van grafieken met nieuwe stylingopties en verbetert de export van Markdown door controle te bieden over hoe lege alinea ' s worden verwerkt.
+
+### Documenten converteren, laden en opslaan
+
+#### Lege alinea ' s exporteren naar Markdown <sup>25.5</sup>
+
+De mogelijkheid om te bepalen hoe lege alinea ' s worden geëxporteerd naar Markdown is geïntroduceerd door de [MarkdownEmptyParagraphExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownemptyparagraphexportmode/) opsomming en de [EmptyParagraphExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_emptyparagraphexportmode/) eigenschap toe te voegen.
+
+### Rendering
+
+#### De grafiekstijl instellen <sup>25.5</sup>
+
+De mogelijkheid om de grafiekstijl in te stellen is geïntroduceerd door de [ChartStyle](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartstyle/) opsomming en de [Style](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chart/get_style/) eigenschap toe te voegen.
+
+{{% alert color="primary" %}}
+
+Lees meer over [Aspose.Words voor C++ 25.5 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-5-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words voor C++ 25.1, 25.2, 25.3, 25.4
 

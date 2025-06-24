@@ -9,10 +9,52 @@ weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cs/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-04-16-07-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 Tato stránka popisuje nejzajímavější nové funkce Aspose.Words představené v posledních verzích.
+
+## Aspose.Words pro Python via .NET 25.5, 25.6
+
+Aspose.Words 25.5 vylepšuje přizpůsobení grafu novými možnostmi stylingu a vylepšuje export Markdown tím, že nabízí kontrolu nad tím, jak jsou zpracovávány prázdné odstavce.
+
+Aspose.Words 25.6 vylepšuje přesnost Vykreslování a vizualizační funkce zavedením pokročilých možností exportu obrázků, vylepšené manipulace MathML a lepší reprezentace grafu.
+
+### Převod, načítání a ukládání dokumentů
+
+#### Export prázdných odstavců do Markdown <sup>25.5</sup>
+
+Schopnost řídit, jak jsou prázdné odstavce exportovány do Markdown, byla zavedena přidáním výčtu **MarkdownEmptyParagraphExportMode** a vlastnosti **empty_paragraph_export_mode**.
+
+#### Export vícestránkových dokumentů do formátů rastrových obrázků <sup>25.6</sup>
+
+Možnost exportovat vícestránkové dokumenty do formátů rastrových obrázků (například PNG a JPEG) s [customizable layouts](https://reference.aspose.com/words/python-net/aspose.words.saving/multipagelayout/) – horizontální, vertikální nebo mřížka – byla zavedena rozšířením funkce exportu obrázků.
+
+### Vykreslování
+
+#### Nastavení stylu grafu <sup>25.5</sup>
+
+Možnost nastavit styl grafu byla zavedena přidáním výčtu **ChartStyle** a vlastnosti **style**.
+
+#### Vykreslování řádků konektoru ve výrazech MathML  <sup>25.6</sup>
+
+Vykreslování konektorových čar ve výrazech MathML bylo implementováno, aby bylo zajištěno přesnější a vizuálně konzistentní zobrazení matematických vzorců.
+
+#### Vykreslování Legend Pro Vodopád grafy <sup>25.6</sup>
+
+Bylo zavedeno Vykreslování Legend Pro ["Waterfall" charts](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriestype/), což zvyšuje transparentnost dat a zlepšuje interpretovatelnost těchto grafů.
+
+### Jiný
+
+* Byla vylepšena schopnost zabalit matematické vzorce obsahující více lomítek, což zlepšuje přehlednost rozvržení a čitelnost vzorce. <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+Další informace o [Aspose.Words pro Python via .NET 25.5 Poznámky k vydání](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-5-release-notes/).
+
+Další informace o [Aspose.Words pro Python via .NET 25.6 Poznámky k vydání](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words Pro Python přes .NET 25.1, 25.2, 25.3, 25.4
 

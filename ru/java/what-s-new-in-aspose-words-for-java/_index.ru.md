@@ -9,10 +9,52 @@ weight: 2
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ru/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2025-04-22-08-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 На этой странице описаны наиболее интересные новые функции Aspose.Words, появившиеся в последних версиях.
+
+## Aspose.Words для Java 25.5, 25.6
+
+Aspose.Words 25.5 расширяет возможности настройки диаграмм с помощью новых вариантов оформления и улучшает Markdown экспорт, предоставляя возможность управлять обработкой пустых абзацев.
+
+Aspose.Words 25.6 повышает точность рендеринга и возможности визуализации за счет расширенных возможностей экспорта изображений, улучшенной обработки MathML и лучшего представления диаграмм.
+
+### Преобразование, загрузка и сохранение документов
+
+#### Экспортируйте пустые абзацы в Markdown <sup>25.5</sup>
+
+Возможность управлять тем, как пустые абзацы экспортируются в Markdown, появилась благодаря добавлению перечисления [MarkdownEmptyParagraphExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownemptyparagraphexportmode/) и свойства [EmptyParagraphExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getEmptyParagraphExportMode).
+
+#### Экспорт многостраничных документов в форматы растровых изображений <sup>25.6</sup>
+
+Возможность экспорта многостраничных документов в форматы растровых изображений (например, PNG и JPEG) с [customizable layouts](https://reference.aspose.com/words/java/com.aspose.words/multipagelayout/) - по горизонтали, вертикали или сетке – появилась благодаря расширению функциональности экспорта изображений.
+
+### Визуализация
+
+#### Настройка стиля диаграммы <sup>25.5</sup>
+
+Возможность задавать стиль диаграммы была реализована путем добавления перечисления [ChartStyle](https://reference.aspose.com/words/java/com.aspose.words/chartstyle/) и свойства [Style](https://reference.aspose.com/words/java/com.aspose.words/chart/#getStyle).
+
+#### Отображение соединительных линий в выражениях MathML <sup>25.6</sup>
+
+Для обеспечения более точного и визуально непротиворечивого отображения математических формул был реализован рендеринг соединительных линий в выражениях MathML.
+
+#### Визуализация условных обозначений для каскадных диаграмм <sup>25.6</sup>
+
+Была введена визуализация условных обозначений для ["Waterfall" charts](https://reference.aspose.com/words/java/com.aspose.words/chartseriestype/), что повышает прозрачность данных и улучшает интерпретируемость этих диаграмм.
+
+### Другой
+
+* Улучшена возможность переноса математических формул, содержащих несколько косых черт, что повышает четкость компоновки и разборчивость формул. <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+Узнайте больше о [Aspose.Words для Java Примечаний к выпуску 25.5](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-5-release-notes/).
+
+Узнайте больше о [Aspose.Words для Java Примечаний к выпуску 25.6](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words для Java 25.1, 25.2, 25.3, 25.4
 
@@ -435,96 +477,6 @@ Aspose.Words 23.12 добавлены новые свойства и переч�
 Узнайте больше о [Aspose.Words для Java 23.11 Примечания к выпуску](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-11-release-notes/).
 
 Узнайте больше о [Aspose.Words для Java 23.12 Примечания к выпуску](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words для Java 23.5, 23.6, 23.7, 23.8
-
-Aspose.Words 23.5 расширяет возможности работы с данными рядов диаграмм и документами ODT, а также улучшает верхние и нижние колонтитулы и их текстовое оформление.
-
-Aspose.Words 23.6 расширены возможности визуализации, добавлен новый формат экспорта, улучшены LINQ отчеты и LowCode инструменты.
-
-Aspose.Words 23.7 расширены возможности создания отчетов, добавлен новый формат экспорта и внесены изменения в работу с таблицами и цифровыми подписями.
-
-Aspose.Words 23.8 расширяет возможности различных форматов, улучшает визуализацию и добавляет новые опции для работы с полями.
-
-### Поддерживаемые форматы
-
-* Начиная с версии 23.6, можно сохранять документы в формате XLSX. Теперь вы можете конвертировать свои документы в формат Excel. <sup>23.6</sup>
-
-* Начиная с версии 23.7, можно сохранять страницу документа или фигуру в формате EPS. <sup>23.7</sup>
-
-* ### Новые возможности формата
-
-  - Добавлена функциональность для автоматического создания оглавления (TOC) для MOBI документов. <sup>23.8</sup>
-  - Конструктор [PdfEncryptionDetails](https://reference.aspose.com/words/java/com.aspose.words/pdfencryptiondetails/#PdfEncryptionDetails-java.lang.String-java.lang.String) был расширен до [PdfPermissions](https://reference.aspose.com/words/java/com.aspose.words/pdfpermissions/). <sup>23.8</sup>
-  - Реализовано формирование вертикального текста для метафайлов EMF. <sup>23.8</sup>
-
-### Визуализация
-
-#### Получение и изменение данных ряда диаграмм <sup>23.5</sup>
-
-Возможность получать и изменять данные рядов диаграмм была предоставлена путем добавления:
-
-- новые классы: [ChartXValue](https://reference.aspose.com/words/java/com.aspose.words/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/java/com.aspose.words/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/java/com.aspose.words/chartmultilevelvalue/)
-- новые типы перечислений: [ChartXValueType](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluetype/)
-
-#### Поддержка расширенной типографики <sup>23.6</sup>
-
-Добавлена поддержка расширенной типографики при рендеринге WMF, EMF и EMF+.
-
-#### Цветной контент на странице <sup>23.6</sup>
-
-Было добавлено общедоступное свойство [PageInfo.Colored](https://reference.aspose.com/words/java/com.aspose.words/pageinfo/#getColored), указывающее, является ли страница цветной или нет.
-
-#### Форматирование меток данных диаграммы <sup>23.6</sup>
-
-Реализована возможность настройки форматирования заливки, обводки и выносок для меток данных диаграммы.
-
-### Mail Merge и отчетность
-
-#### Динамическая HTML вставка для LINQ Механизма создания отчетов <sup>23.6</sup>
-
-Был добавлен новый способ динамической вставки HTML для механизма создания отчетов LINQ.
-
-#### Mustache Поддержка тегов <sup>23.7</sup>
-
-Mustache теги теперь поддерживаются в методах [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getRegionsHierarchy) и [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldNamesForRegion-java.lang.String).
-
-#### LINQ Обновления синтаксиса шаблона механизма создания отчетов <sup>23.7</sup>
-
-Синтаксис шаблона механизма создания отчетов LINQ теперь поддерживает методы расширения `ElementAt` и ElementAtOrDefault.
-
-#### Указание размера отображаемых изображений <sup>23.8</sup>
-
-Введено новое общедоступное свойство **ImageSize** для указания размера визуализируемых изображений в пикселях.
-
-#### Сохранить пробелы для JSON строковых значений – LINQ <sup>23.8</sup>
-
-В механизм создания отчетов LINQ добавлена опция для сохранения пробелов для строковых значений JSON.
-
-### LowCode <sup>23.6</sup>
-
-Добавлены новые LowCode методы, предназначенные для объединения различных типов документов в единый выходной документ.
-
-### Другой
-
-- Реализована поддержка переноса текста в верхние и нижние колонтитулы. <sup>23.5</sup>
-- Добавлена возможность удалять цифровые подписи из ODT документов с помощью метода [RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream). <sup>23.5</sup>
-- Добавлено общедоступное свойство [PhoneticGuide](https://reference.aspose.com/words/java/com.aspose.words/run/#getPhoneticGuide) для получения базового и ruby-текста фонетического руководства [Run](https://reference.aspose.com/words/java/com.aspose.words/run/). <sup>23.5</sup>
-- Добавлена возможность извлекать значение цифровой подписи из документа с цифровой подписью в виде массива байт, введя новое свойство [SignatureValue](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/#getSignatureValue). <sup>23.7</sup>
-- Классы [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) и [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) были расширены за счет новых открытых участников – [Row.NextRow](https://reference.aspose.com/words/java/com.aspose.words/row/#getNextRow), [Row.PreviousRow](https://reference.aspose.com/words/java/com.aspose.words/row/#getPreviousRow), [Cell.NextCell](https://reference.aspose.com/words/java/com.aspose.words/cell/#getNextCell), и [Cell.PreviousCell](https://reference.aspose.com/words/java/com.aspose.words/cell/#getPreviousCell). <sup>23.7</sup>
-- Добавлена поддержка полей CITATION и BIBLIOGRAPHY. <sup>23.8</sup>
-
-{{% alert color="primary" %}}
-
-Узнайте больше о [Aspose.Words для Java 23.5 Примечания к выпуску](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/).
-
-Узнайте больше о [Aspose.Words для Java 23.6 Примечания к выпуску](/words/java/aspose-words-for-java-23-6-release-notes/).
-
-Узнайте больше о [Aspose.Words для Java 23.7 Примечания к выпуску](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
-
-Узнайте больше о [Aspose.Words для Java 23.8 Примечания к выпуску](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
 
 {{% /alert %}}
 

@@ -9,10 +9,52 @@ weight: 2
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /bg/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2025-04-22-08-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 Тази страница описва най-интересните нови Aspose.Words функции, въведени в последните издания.
+
+## Aspose.Words за Java 25.5, 25.6
+
+Aspose.Words 25.5 подобрява персонализирането на диаграмите с нови опции за стилизиране и подобрява Markdown експорта, като предлага контрол върху това как се обработват празните параграфи.
+
+Aspose.Words 25.6 подобрява прецизността и визуализацията чрез въвеждане на разширени опции за експортиране на изображения, подобрена обработка MathML и по-добро представяне на диаграмите.
+
+### Конвертиране, зареждане и запазване на документи
+
+#### Експортиране на празни параграфи до Markdown <sup>25.5</sup>
+
+Възможността да се контролира как празните параграфи се експортират в Markdown е въведена чрез добавяне на [MarkdownEmptyParagraphExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownemptyparagraphexportmode/) изброяване и [EmptyParagraphExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getEmptyParagraphExportMode) свойство.
+
+#### Експортиране на документи от няколко страници в растерни формати на изображения <sup>25.6</sup>
+
+Възможността за експортиране на документи от няколко страници в растерни формати на изображения (като PNG и JPEG) с [customizable layouts](https://reference.aspose.com/words/java/com.aspose.words/multipagelayout/) – хоризонтални, вертикални или мрежови – е въведена чрез разширяване на функционалността за експортиране на изображения.
+
+### Рендериране
+
+#### Задаване на стила на диаграмата <sup>25.5</sup>
+
+Възможността за задаване на стила на диаграмата е въведена чрез добавяне на [ChartStyle](https://reference.aspose.com/words/java/com.aspose.words/chartstyle/) изброяване и [Style](https://reference.aspose.com/words/java/com.aspose.words/chart/#getStyle) свойството.
+
+#### Рендиране на съединителни линии в MathML изрази <sup>25.6</sup>
+
+Рендирането на съединителните линии в MathML изрази е внедрено, за да се осигури по-точно и визуално последователно показване на математическите формули.
+
+#### Създаване на Легенди за Водопадни диаграми <sup>25.6</sup>
+
+Привеждането на легенди за ["Waterfall" charts](https://reference.aspose.com/words/java/com.aspose.words/chartseriestype/) е въведена, увеличаване на прозрачността на данните и подобряване на интерпретацията на тези диаграми.
+
+### Друго
+
+* Възможността за обвиване на математически формули, съдържащи множество наклонени черти, е подобрена, подобрявайки яснотата на оформлението и четливостта на формулата. <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+Научете повече за [Aspose.Words за Java 25.5 бележки по изданието](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-5-release-notes/).
+
+Научете повече за [Aspose.Words за Java 25.6 бележки по изданието](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words за Java 25.1, 25.2, 25.3, 25.4
 
@@ -435,96 +477,6 @@ Aspose.Words 23.12 въвежда нови свойства и изброява�
 Научете повече за [Aspose.Words за Java 23.11 Бележки За Издаване](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-11-release-notes/).
 
 Научете повече за [Aspose.Words за Java 23.12 Бележки За Издаване](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words за Java 23.5, 23.6, 23.7, 23.8
-
-Aspose.Words 23.5 подобрява способността за работа с данни от серия диаграми и способността за работа с ODT документи, както и подобрява горни/долни колонтитули и тяхното обтичане на текст.
-
-Aspose.Words 23.6 разширява опциите за рендиране, добавя нов формат за експортиране, подобрява инструментите LINQ за отчитане и LowCode.
-
-Aspose.Words 23.7 подобрява възможностите за отчитане, добавя нов формат за експортиране и въвежда промени в работата с таблици и цифрови подписи.
-
-Aspose.Words 23.8 разширява възможностите на различните формати, подобрява рендерирането и добавя нови опции за работа с полета.
-
-### Поддържани Формати
-
-* Започвайки с версия 23.6, е възможно да запишете документ във формат XLSX. Сега можете да конвертирате вашите документи да ексел формат. <sup>23.6</sup>
-
-* Започвайки с версия 23.7, е възможно да запишете страница или фигура на документ във формат EPS. <sup>23.7</sup>
-
-* ### Нови Функции За Форматиране
-
-  - Въведена е функцията за автоматично генериране на съдържание (TOC) за MOBI документи. <sup>23.8</sup>
-  - [PdfEncryptionDetails](https://reference.aspose.com/words/java/com.aspose.words/pdfencryptiondetails/#PdfEncryptionDetails-java.lang.String-java.lang.String) конструкторът е разширен с [PdfPermissions](https://reference.aspose.com/words/java/com.aspose.words/pdfpermissions/). <sup>23.8</sup>
-  - Оформянето на вертикален текст за EMF метафили е изпълнено. <sup>23.8</sup>
-
-### Рендериране
-
-#### Получаване и промяна на данни от серия диаграми <sup>23.5</sup>
-
-Функцията за получаване и промяна на данни от серия диаграми е предоставена чрез добавяне на:
-
-- нови класове: [ChartXValue](https://reference.aspose.com/words/java/com.aspose.words/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/java/com.aspose.words/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/java/com.aspose.words/chartmultilevelvalue/)
-- нови типове: [ChartXValueType](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluetype/)
-
-#### Поддръжка за разширена Типография <sup>23.6</sup>
-
-Добавена е поддръжка за разширена Типография в WMF, EMF и EMF + рендиране.
-
-#### Цветно съдържание на страницата <sup>23.6</sup>
-
-Добавена е обществена собственост [PageInfo.Colored](https://reference.aspose.com/words/java/com.aspose.words/pageinfo/#getColored), показваща дали страницата е оцветена или не.
-
-#### Форматиране за етикети на данни на диаграма <sup>23.6</sup>
-
-Възможността за задаване на запълване, щрихиране и форматиране на изнесено означение за етикети на данни на диаграма е изпълнена.
-
-### Mail Merge и докладване
-
-#### Динамичен HTML Вмъкване за LINQ докладващ двигател <sup>23.6</sup>
-
-Добавен е нов начин за динамично вмъкване на HTML за LINQ отчетен двигател.
-
-#### Mustache Етикети Поддръжка <sup>23.7</sup>
-
-Mustache таговете вече се поддържат в методите [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getRegionsHierarchy) и [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldNamesForRegion-java.lang.String).
-
-#### LINQ Докладване На Актуализации На Синтаксиса На Шаблона На Двигателя <sup>23.7</sup>
-
-Синтаксисът на шаблона за отчитане на двигателя LINQ Сега поддържа методите за разширение `ElementAt` и ElementAtOrDefault.
-
-#### Определяне на размера на Рендираните изображения <sup>23.8</sup>
-
-Въведена е нова обществена собственост **ImageSize** за определяне на размера на изобразените изображения в пиксел.
-
-#### Запазване на интервали за JSON низови стойности - LINQ <sup>23.8</sup>
-
-Добавена е опция за отчитане на LINQ, за да се запазят празните пространства за JSON низови стойности.
-
-### LowCode <sup>23.6</sup>
-
-Добавени са нови LowCode методи, предназначени за обединяване на различни видове документи в един изходен документ.
-
-### Друго
-
-- Реализирана е поддръжка за обтичане на текст в горни/долни колонтитули. <sup>23.5</sup>
-- Възможността за премахване на цифрови подписи от документи ODT е добавена чрез метода [RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream). <sup>23.5</sup>
-- Добавена е обществена собственост [PhoneticGuide](https://reference.aspose.com/words/java/com.aspose.words/run/#getPhoneticGuide) за получаване на базов и рубинен текст на фонетичното ръководство [Run](https://reference.aspose.com/words/java/com.aspose.words/run/). <sup>23.5</sup>
-- Възможността за извличане на стойност на цифров подпис от цифрово подписан документ като байтов масив е добавена чрез въвеждане на ново свойство [SignatureValue](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/#getSignatureValue). <sup>23.7</sup>
-- Класовете [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) и [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) бяха разширени с нови членове– [Row.NextRow](https://reference.aspose.com/words/java/com.aspose.words/row/#getNextRow), [Row.PreviousRow](https://reference.aspose.com/words/java/com.aspose.words/row/#getPreviousRow), [Cell.NextCell](https://reference.aspose.com/words/java/com.aspose.words/cell/#getNextCell), и [Cell.PreviousCell](https://reference.aspose.com/words/java/com.aspose.words/cell/#getPreviousCell). <sup>23.7</sup>
-- Добавена е поддръжка за полетата CITATION и BIBLIOGRAPHY. <sup>23.8</sup>
-
-{{% alert color="primary" %}}
-
-Научете повече за [Aspose.Words за Java 23.5 Бележки За Издаване](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/).
-
-Научете повече за [Aspose.Words за Java 23.6 Бележки За Издаване](/words/java/aspose-words-for-java-23-6-release-notes/).
-
-Научете повече за [Aspose.Words за Java 23.7 Бележки За Издаване](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
-
-Научете повече за [Aspose.Words за Java 23.8 Бележки За Издаване](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
 
 {{% /alert %}}
 
