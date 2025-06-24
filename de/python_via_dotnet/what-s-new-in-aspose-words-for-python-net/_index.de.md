@@ -9,10 +9,52 @@ weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /de/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-04-16-07-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 Diese Seite beschreibt die interessantesten neuen Aspose.Words Funktionen, die in den letzten Versionen eingeführt wurden.
+
+## Aspose.Words für Python via .NET 25.5, 25.6
+
+Aspose.Words 25.5 verbessert die Diagrammanpassung mit neuen Stiloptionen und verbessert den Markdown-Export, indem es die Kontrolle darüber bietet, wie leere Absätze behandelt werden.
+
+Aspose.Words 25.6 verbessert die Rendergenauigkeit und die Visualisierungsfunktionen durch die Einführung erweiterter Bildexportoptionen, verbesserter MathML -Handhabung und besserer Diagrammdarstellung.
+
+### Dokumente konvertieren, laden und speichern
+
+#### Leere Absätze nach Markdown exportieren <sup>25.5</sup>
+
+Die Möglichkeit zu steuern, wie leere Absätze nach Markdown exportiert werden, wurde durch Hinzufügen der **MarkdownEmptyParagraphExportMode**-Aufzählung und der **empty_paragraph_export_mode**-Eigenschaft eingeführt.
+
+#### Exportieren Sie mehrseitige Dokumente in Rasterbildformate <sup>25.6</sup>
+
+Die Möglichkeit, mehrseitige Dokumente in Rasterbildformate (wie PNG und JPEG) mit [customizable layouts](https://reference.aspose.com/words/python-net/aspose.words.saving/multipagelayout/) - Horizontal, Vertikal oder Raster – zu exportieren, wurde durch die Erweiterung der Bildexportfunktionalität eingeführt.
+
+### Rendering
+
+#### Festlegen des Diagrammstils <sup>25.5</sup>
+
+Die Möglichkeit, den Diagrammstil festzulegen, wurde durch Hinzufügen der **ChartStyle**-Aufzählung und der **style**-Eigenschaft eingeführt.
+
+#### Verbindungslinien in MathML -Ausdrücken rendern <sup>25.6</sup>
+
+Die Darstellung von Verbindungslinien in MathML-Ausdrücken wurde implementiert, um eine genauere und visuell konsistentere Anzeige mathematischer Formeln zu gewährleisten.
+
+#### Rendering von Legenden für Wasserfalldiagramme <sup>25.6</sup>
+
+Die Darstellung von Legenden für ["Waterfall" charts](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriestype/) wurde eingeführt, um die Datentransparenz zu erhöhen und die Interpretierbarkeit dieser Diagramme zu verbessern.
+
+### Andere
+
+* Die Möglichkeit, mathematische Formeln mit mehreren Schrägstrichen zu umbrechen, wurde verbessert, um die Layoutklarheit und die Lesbarkeit von Formeln zu verbessern. <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+Erfahren Sie mehr über [Aspose.Words für Python via .NET 25.5 Versionshinweise](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-5-release-notes/).
+
+Erfahren Sie mehr über [Aspose.Words für Python via .NET 25.6 Versionshinweise](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words für Python über .NET 25.1, 25.2, 25.3, 25.4
 

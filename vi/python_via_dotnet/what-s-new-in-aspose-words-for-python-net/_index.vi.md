@@ -9,10 +9,52 @@ weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /vi/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-04-16-07-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 Trang này mô tả các tính năng Aspose.Words mới thú vị nhất được giới thiệu trong các bản phát hành gần đây.
+
+## Aspose.Words cho Python via .NET 25.5, 25.6
+
+Aspose.Words 25.5 tăng cường tùy chỉnh biểu đồ với các tùy chọn tạo kiểu mới và cải thiện Markdown xuất bằng cách cung cấp quyền kiểm soát cách xử lý các đoạn văn trống.
+
+Aspose.Words 25.6 tăng cường các tính năng hiển thị chính xác và trực quan bằng cách giới thiệu các tùy chọn xuất hình ảnh nâng cao, xử lý MathML được cải thiện và biểu diễn biểu đồ tốt hơn.
+
+### Chuyển đổi, Tải và Lưu Tài liệu
+
+#### Xuất Các Đoạn Trống sang Markdown <sup>25.5</sup>
+
+Khả năng kiểm soát cách các đoạn trống được xuất sang Markdown đã được giới thiệu bằng cách thêm liệt kê **MarkdownEmptyParagraphExportMode** và thuộc tính **empty_paragraph_export_mode**.
+
+#### Xuất Tài Liệu Nhiều trang sang Định Dạng Hình Ảnh Raster <sup>25.6</sup>
+
+Khả năng xuất tài liệu nhiều trang sang các định dạng hình ảnh raster (chẳng hạn như PNG và JPEG) với [customizable layouts](https://reference.aspose.com/words/python-net/aspose.words.saving/multipagelayout/)-Ngang, Dọc hoặc Lưới – đã được giới thiệu bằng cách mở rộng chức năng xuất hình ảnh.
+
+### Kết xuất
+
+#### Đặt Kiểu Biểu đồ <sup>25.5</sup>
+
+Khả năng thiết lập kiểu biểu đồ đã được giới thiệu bằng cách thêm **ChartStyle** liệt kê và thuộc tính **style**.
+
+#### Kết Xuất Các Dòng Kết nối trong biểu thức MathML  <sup>25.6</sup>
+
+Việc hiển thị các dòng kết nối trong các biểu thức MathML đã được thực hiện để đảm bảo hiển thị chính xác hơn và nhất quán hơn về các công thức toán học.
+
+#### Vẽ Huyền thoại cho Biểu Đồ Thác Nước <sup>25.6</sup>
+
+Việc hiển thị các huyền thoại cho ["Waterfall" charts](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriestype/) đã được giới thiệu, tăng tính minh bạch của dữ liệu và cải thiện khả năng diễn giải của các biểu đồ này.
+
+### Khác
+
+* Khả năng bọc các công thức toán học có chứa nhiều dấu gạch chéo đã được tăng cường, cải thiện độ rõ nét bố cục và tính dễ đọc của công thức. <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+Tìm hiểu thêm về [Aspose.Words Cho Python via .NET 25.5 Ghi Chú Phát Hành](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-5-release-notes/).
+
+Tìm hiểu thêm về [Aspose.Words Cho Python via .NET 25.6 Ghi Chú Phát Hành](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words cho Python qua .NET 25.1, 25.2, 25.3, 25.4
 

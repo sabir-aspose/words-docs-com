@@ -9,10 +9,52 @@ weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ko/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-04-16-07-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 이 페이지는 최근 릴리스에서 소개 된 가장 흥미로운 새로운Aspose.Words기능에 대해 설명합니다.
+
+## Aspose.WordsPython via .NET25.5,25.6
+
+Aspose.Words25.5 새로운 스타일 옵션을 사용하여 차트 사용자 정의를 향상시키고 빈 단락 처리 방법을 제어하여Markdown내보내기를 개선합니다.
+
+Aspose.Words25.6 고급 이미지 내보내기 옵션,향상된MathML처리 및 더 나은 차트 표현을 도입하여 렌더링 정밀도 및 시각화 기능을 향상시킵니다.
+
+### 문서 변환,로드 및 저장
+
+#### 빈 단락을Markdown으로 내보내기 <sup>25.5</sup>
+
+빈 단락을Markdown로 내보내는 방법을 제어하는 기능은**MarkdownEmptyParagraphExportMode**열거형과**empty_paragraph_export_mode**속성을 추가하여 도입되었습니다.
+
+#### 여러 페이지 문서를 래스터 이미지 형식으로 내보내기 <sup>25.6</sup>
+
+다중 페이지 문서를 래스터 이미지 형식(예:PNG및JPEG)으로[customizable layouts](https://reference.aspose.com/words/python-net/aspose.words.saving/multipagelayout/)(수평,수직 또는 격자)으로 내보내는 기능은 이미지 내보내기 기능을 확장하여 도입되었습니다.
+
+### 렌더링
+
+#### 차트 스타일 설정 <sup>25.5</sup>
+
+**ChartStyle**열거형과**style**속성을 추가하여 차트 스타일을 설정하는 기능이 도입되었습니다.
+
+#### MathML식에서 커넥터 라인 렌더링 <sup>25.6</sup>
+
+MathML식에서 커넥터 라인의 렌더링은 수학 공식의보다 정확하고 시각적으로 일관된 표시를 보장하기 위해 구현되었습니다.
+
+#### 폭포 차트의 범례 렌더링 <sup>25.6</sup>
+
+["Waterfall" charts](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriestype/)에 대한 범례 렌더링이 도입되어 데이터 투명성을 높이고 이러한 차트의 해석 가능성을 향상시킵니다.
+
+### 다른
+
+* 여러 슬래시가 포함된 수학 공식을 래핑하는 기능이 향상되어 레이아웃 선명도와 공식 가독성이 향상되었습니다. <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+에 대해 자세히 알아보기 [Aspose.WordsPython via .NET25.5 릴리스 노트](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-5-release-notes/).
+
+에 대해 자세히 알아보기 [Aspose.WordsPython via .NET25.6 릴리스 노트](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words에 대한Python를 통해.NET 25.1, 25.2, 25.3, 25.4
 

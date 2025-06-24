@@ -9,7 +9,7 @@ weight: 2
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/what-s-new-in-aspose-words-for-java/
-timestamp: 2025-04-22-08-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.

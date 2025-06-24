@@ -9,10 +9,52 @@ weight: 2
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cs/java/what-s-new-in-aspose-words-for-java/
-timestamp: 2025-04-22-08-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 Tato stránka popisuje nejzajímavější nové funkce Aspose.Words představené v posledních verzích.
+
+## Aspose.Words pro Java 25.5, 25.6
+
+Aspose.Words 25.5 vylepšuje přizpůsobení grafu novými možnostmi stylingu a vylepšuje export Markdown tím, že nabízí kontrolu nad tím, jak jsou zpracovávány prázdné odstavce.
+
+Aspose.Words 25.6 vylepšuje přesnost Vykreslování a vizualizační funkce zavedením pokročilých možností exportu obrázků, vylepšené manipulace MathML a lepší reprezentace grafu.
+
+### Převod, načítání a ukládání dokumentů
+
+#### Export prázdných odstavců do Markdown <sup>25.5</sup>
+
+Schopnost řídit, jak jsou prázdné odstavce exportovány do Markdown, byla zavedena přidáním výčtu [MarkdownEmptyParagraphExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownemptyparagraphexportmode/) a vlastnosti [EmptyParagraphExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getEmptyParagraphExportMode).
+
+#### Export vícestránkových dokumentů do formátů rastrových obrázků <sup>25.6</sup>
+
+Možnost exportovat vícestránkové dokumenty do formátů rastrových obrázků (například PNG a JPEG) s [customizable layouts](https://reference.aspose.com/words/java/com.aspose.words/multipagelayout/) – horizontální, vertikální nebo mřížka – byla zavedena rozšířením funkce exportu obrázků.
+
+### Vykreslování
+
+#### Nastavení stylu grafu <sup>25.5</sup>
+
+Možnost nastavit styl grafu byla zavedena přidáním výčtu [ChartStyle](https://reference.aspose.com/words/java/com.aspose.words/chartstyle/) a vlastnosti [Style](https://reference.aspose.com/words/java/com.aspose.words/chart/#getStyle).
+
+#### Vykreslování řádků konektoru ve výrazech MathML  <sup>25.6</sup>
+
+Vykreslování konektorových čar ve výrazech MathML bylo implementováno, aby bylo zajištěno přesnější a vizuálně konzistentní zobrazení matematických vzorců.
+
+#### Vykreslování Legend Pro Vodopád grafy <sup>25.6</sup>
+
+Bylo zavedeno Vykreslování Legend Pro ["Waterfall" charts](https://reference.aspose.com/words/java/com.aspose.words/chartseriestype/), což zvyšuje transparentnost dat a zlepšuje interpretovatelnost těchto grafů.
+
+### Jiný
+
+* Byla vylepšena schopnost zabalit matematické vzorce obsahující více lomítek, což zlepšuje přehlednost rozvržení a čitelnost vzorce. <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+Další informace o [Aspose.Words pro Java 25.5 Poznámky k vydání](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-5-release-notes/).
+
+Další informace o [Aspose.Words pro Java 25.6 Poznámky k vydání](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words Pro Java 25.1, 25.2, 25.3, 25.4
 
@@ -435,96 +477,6 @@ Další informace o [Aspose.Words Pro Java 23.10 Poznámky K Vydání](https://r
 Další informace o [Aspose.Words Pro Java 23.11 Poznámky K Vydání](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-11-release-notes/).
 
 Další informace o [Aspose.Words Pro Java 23.12 Poznámky K Vydání](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words pro Java 23.5, 23.6, 23.7, 23.8
-
-Aspose.Words 23.5 zvyšuje schopnost pracovat s daty řady grafů a schopnost pracovat s ODT dokumenty, stejně jako zlepšit záhlaví/zápatí a jejich obtékání textu.
-
-Aspose.Words 23.6 rozšiřuje možnosti Vykreslování, přidává nový formát exportu, vylepšuje LINQ reporting a LowCode nástroje.
-
-Aspose.Words 23.7 vylepšuje možnosti vykazování, přidává nový formát exportu a zavádí změny v práci s tabulkami a digitálními podpisy.
-
-Aspose.Words 23.8 rozšiřuje možnosti různých formátů, zlepšuje vykreslování a přidává nové možnosti pro práci s poli.
-
-### Podporované Formáty
-
-* Počínaje verzí 23.6 je možné uložit dokument ve formátu XLSX. Nyní můžete své dokumenty převést do formátu Excel. <sup>23.6</sup>
-
-* Počínaje verzí 23.7 je možné uložit stránku dokumentu nebo tvar ve formátu EPS. <sup>23.7</sup>
-
-* ### Nové Funkce Formátu
-
-  - Byla zavedena funkce automatického generování obsahu (TOC) Pro MOBI dokumenty. <sup>23.8</sup>
-  - Konstruktor [PdfEncryptionDetails](https://reference.aspose.com/words/java/com.aspose.words/pdfencryptiondetails/#PdfEncryptionDetails-java.lang.String-java.lang.String) byl rozšířen o [PdfPermissions](https://reference.aspose.com/words/java/com.aspose.words/pdfpermissions/). <sup>23.8</sup>
-  - Bylo implementováno tvarování vertikálního textu pro metasoubory EMF. <sup>23.8</sup>
-
-### Vykreslování
-
-#### Získejte A Upravte Data řady grafů <sup>23.5</sup>
-
-Funkce pro získání a úpravu dat řady grafů byla poskytnuta přidáním:
-
-- nové třídy: [ChartXValue](https://reference.aspose.com/words/java/com.aspose.words/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/java/com.aspose.words/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/java/com.aspose.words/chartmultilevelvalue/)
-- nové typy výčtu: [ChartXValueType](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluetype/)
-
-#### Podpora pokročilé typografie <sup>23.6</sup>
-
-Byla přidána podpora pokročilé typografie v WMF, EMF a EMF+ Vykreslování.
-
-#### Barevný obsah na stránce <sup>23.6</sup>
-
-Byla přidána veřejná vlastnost [PageInfo.Colored](https://reference.aspose.com/words/java/com.aspose.words/pageinfo/#getColored) označující, zda je stránka barevná nebo ne.
-
-#### Formátování popisků dat grafu <sup>23.6</sup>
-
-Byla implementována možnost nastavit formátování výplně, tahu a popisku pro popisky dat grafu.
-
-### Mail Merge a podávání zpráv
-
-#### Dynamic HTML vložení pro LINQ Reporting Engine <sup>23.6</sup>
-
-Byl přidán nový způsob dynamického vkládání HTML pro LINQ Reporting Engine.
-
-#### Mustache Podpora Značek <sup>23.7</sup>
-
-Značky Mustache jsou nyní podporovány v metodách [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getRegionsHierarchy) a [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldNamesForRegion-java.lang.String).
-
-#### LINQ Aktualizace Syntaxe Šablony Reporting Engine <sup>23.7</sup>
-
-Syntaxe šablony LINQ Reporting Engine nyní podporuje metody rozšíření `ElementAt` a ElementAtOrDefault.
-
-#### Určení velikosti vykreslených obrázků <sup>23.8</sup>
-
-Byla zavedena nová veřejná vlastnost **ImageSize** pro určení velikosti vykreslených obrázků v pixelu.
-
-#### Zachovat mezery pro hodnoty řetězce JSON - LINQ <sup>23.8</sup>
-
-Do LINQ Reporting Engine byla přidána možnost pro zachování mezer pro hodnoty řetězce JSON.
-
-### LowCode <sup>23.6</sup>
-
-Byly přidány nové metody LowCode určené ke sloučení různých typů dokumentů do jednoho výstupního dokumentu.
-
-### Jiný
-
-- Byla implementována podpora zalamování textu v záhlaví/zápatí. <sup>23.5</sup>
-- Schopnost odstranit digitální podpisy z dokumentů ODT byla přidána metodou [RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream). <sup>23.5</sup>
-- Byla přidána veřejná vlastnost [PhoneticGuide](https://reference.aspose.com/words/java/com.aspose.words/run/#getPhoneticGuide) pro získání základního a rubínového textu fonetického průvodce [Run](https://reference.aspose.com/words/java/com.aspose.words/run/). <sup>23.5</sup>
-- Schopnost načíst hodnotu digitálního podpisu z digitálně podepsaného dokumentu jako bajtové pole byla přidána zavedením nové vlastnosti [SignatureValue](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/#getSignatureValue). <sup>23.7</sup>
-- Třídy [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) a [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) byly rozšířeny o nové veřejné členy– [Row.NextRow](https://reference.aspose.com/words/java/com.aspose.words/row/#getNextRow), [Row.PreviousRow](https://reference.aspose.com/words/java/com.aspose.words/row/#getPreviousRow), [Cell.NextCell](https://reference.aspose.com/words/java/com.aspose.words/cell/#getNextCell), a [Cell.PreviousCell](https://reference.aspose.com/words/java/com.aspose.words/cell/#getPreviousCell). <sup>23.7</sup>
-- Byla přidána podpora pro pole CITATION a BIBLIOGRAPHY. <sup>23.8</sup>
-
-{{% alert color="primary" %}}
-
-Další informace o [Aspose.Words Pro Java 23.5 Poznámky K Vydání](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/).
-
-Další informace o [Aspose.Words pro Java 23.6 Poznámky K Vydání](/words/java/aspose-words-for-java-23-6-release-notes/).
-
-Další informace o [Aspose.Words pro Java 23.7 Poznámky K Vydání](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
-
-Další informace o [Aspose.Words pro Java 23.8 Poznámky K Vydání](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
 
 {{% /alert %}}
 

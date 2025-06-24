@@ -9,10 +9,52 @@ weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /ja/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-04-16-07-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 このページでは、最近のリリースで導入された最も興味深い新しいAspose.Words機能について説明します。
+
+## Aspose.WordsはPython via .NET25.5,25.6の場合
+
+Aspose.Words25.5新しいスタイルオプションでグラフのカスタマイズが強化され、空の段落の処理方法を制御できるようになりましたMarkdownエクスポー
+
+Aspose.Words25.6高度な画像エクスポートオプション、改善されたMathML処理、およびより良いチャート表現を導入することにより、レンダリングの精度とビジュアライゼーションフィーチャーを強化します。
+
+### ドキュメントの変換、読み込み、保存
+
+#### 空の段落をMarkdownにエクスポートする <sup>25.5</sup>
+
+空の段落をMarkdownにエクスポートする方法を制御する機能は、**MarkdownEmptyParagraphExportMode**列挙体と**empty_paragraph_export_mode**プロパティを追加することによって導入されました。
+
+#### 複数ページのドキュメントをラスターイメージ形式にエクスポートする <sup>25.6</sup>
+
+複数ページのドキュメントをPNGやJPEGなどのラスターイメージ形式に[customizable layouts](https://reference.aspose.com/words/python-net/aspose.words.saving/multipagelayout/)-水平、垂直、またはグリッドでエクスポートする機能は、画像エクスポート機能を拡張して導入されました。
+
+### レンダリング
+
+#### グラフスタイルの設定 <sup>25.5</sup>
+
+チャートスタイルを設定する機能は、**ChartStyle**列挙体と**style**プロパティを追加することによって導入されました。
+
+#### MathML式でのコネクタ行のレンダリング <sup>25.6</sup>
+
+MathML式でのコネクタ線のレンダリングは、数式のより正確で視覚的に一貫した表示を確実にするために実装されています。
+
+#### ウォーターフォールチャートの凡例のレンダリング <sup>25.6</sup>
+
+["Waterfall" charts](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriestype/)の凡例のレンダリングが導入され、データの透明性が向上し、これらのチャートの解釈性が向上しました。
+
+### その他
+
+* 複数のスラッシュを含む数式をラップする機能が強化され、レイアウトの明快さと数式の読みやすさが向上しました。 <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+詳細については、こちらをご覧ください [Aspose.WordsforPython via .NET25.5リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-5-release-notes/).
+
+詳細については、こちらをご覧ください [Aspose.WordsforPython via .NET25.6リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## .NET 経由の Python の Aspose.Words 25.1、25.2、25.3、25.4
 

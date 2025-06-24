@@ -9,10 +9,52 @@ weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /tr/python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-04-16-07-02-05
+timestamp: 2025-06-23-21-02-49
 ---
 
 Bu sayfa, son sürümlerde tanıtılan en ilginç yeni Aspose.Words özellikleri açıklamaktadır.
+
+## Aspose.Words için Python via .NET 25.5, 25.6
+
+Aspose.Words 25.5, yeni stil seçenekleriyle grafik özelleştirmesini geliştirir ve boş paragrafların nasıl işleneceği üzerinde kontrol sunarak Markdown dışa aktarmayı geliştirir.
+
+Aspose.Words 25.6 gelişmiş görüntü dışa aktarma seçenekleri, geliştirilmiş MathML işleme ve daha iyi grafik gösterimi sunarak işleme hassasiyetini ve görselleştirme özelliklerini geliştirir.
+
+### Belgeleri Dönüştürme, Yükleme ve Kaydetme
+
+#### Boş Paragrafları Markdown <sup>25.5'e Aktar</sup>
+
+**MarkdownEmptyParagraphExportMode** numaralandırma ve **empty_paragraph_export_mode** özelliği eklenerek boş paragrafların Markdown'ye nasıl dışa aktarılacağını kontrol etme yeteneği getirildi.
+
+#### Çok Sayfalı Belgeleri Raster Görüntü Biçimlerine Dışa Aktarma <sup>25.6</sup>
+
+Çok sayfalı belgeleri raster görüntü biçimlerine (PNG ve JPEG gibi) [customizable layouts](https://reference.aspose.com/words/python-net/aspose.words.saving/multipagelayout/) (Yatay, Dikey veya Izgara) ile dışa aktarma özelliği, görüntü dışa aktarma işlevi genişletilerek tanıtıldı.
+
+### İşleme
+
+#### Grafik Stilini Ayarlama <sup>25.5</sup>
+
+Grafik stilini ayarlama yeteneği, **ChartStyle** numaralandırma ve **style** özelliği eklenerek tanıtıldı.
+
+#### MathML İfadelerinde Bağlayıcı Satırları Oluşturma <sup>25.6</sup>
+
+Bağlayıcı satırların MathML ifadelerde oluşturulması, matematiksel formüllerin daha doğru ve görsel olarak tutarlı görüntülenmesini sağlamak için uygulanmıştır.
+
+#### Şelale Çizelgeleri için Efsane Oluşturma <sup>25.6</sup>
+
+["Waterfall" charts](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriestype/) için efsanelerin oluşturulması, veri şeffaflığının artırılması ve bu grafiklerin yorumlanabilirliğinin iyileştirilmesi tanıtıldı.
+
+### Diğer
+
+* Birden çok eğik çizgi içeren matematiksel formülleri sarma yeteneği geliştirilerek düzen netliği ve formül okunabilirliği iyileştirildi. <sup>25.6</sup>
+
+{{% alert color="primary" %}}
+
+Hakkında daha fazla bilgi edinin [Aspose.Words Python via .NET 25.5 Sürüm Notları için](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-5-release-notes/).
+
+Hakkında daha fazla bilgi edinin [Aspose.Words Python via .NET 25.6 Sürüm Notları için](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-6-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words .NET üzerinden Python için 25.1, 25.2, 25.3, 25.4
 
