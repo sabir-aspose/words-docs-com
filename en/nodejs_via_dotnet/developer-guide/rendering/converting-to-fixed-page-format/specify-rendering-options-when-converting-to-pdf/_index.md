@@ -9,7 +9,7 @@ weight: 20
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/specify-rendering-options-when-converting-to-pdf/
-timestamp: 2025-07-04-10-05-05
+timestamp: 2025-07-09-10-05-05
 ---
 
 The PDF format is a fixed-page format that is very popular among users and widely supported by various applications, because a PDF document looks the same on any device. For that reason, converting to PDF is an important feature of Aspose.Words.
@@ -22,9 +22,7 @@ Some examples of using [PdfSaveOptions](https://reference.aspose.com/words/node
 
 {{% alert color="primary" %}}
 
-Currently, you can also save to PDF/A-1 and PDF/A-2 formats. Note that with the PDF/A format, an output file size is larger than a regular PDF file size.
-
-[PdfCompliance.PdfA1a](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/pdfcompliance/) and [PdfCompliance.PdfA1b](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/pdfcompliance/) are marked as obsolete.
+Currently, Aspose.Words allows users to save to PDF 1.7, PDF 2.0, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2u, PDF/A-3a, PDF/A-3u, PDF/A-4, PDF/A-4f, PDF/UA-1, and PDF/UA-2 formats. Use the PdfCompliance enumeration to set the PDF standards compliance level. Note that with the PDF/A format, an output file size is larger than a regular PDF file size.
 
 For more information on PDF/A, see the next article, "Learn Features of Conversion to PDF/A".
 
@@ -86,9 +84,9 @@ A bookmark or heading navigation may have different appearances in various PDF v
 
 ## Downsampling Images to Reduce Document Size
 
-Aspose.Words provides an ability to downsample images in order to reduce the output PDF size, using the [downsample_options](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/downsample_options/) property. Downsampling is enabled by default in the [downsample_images](https://reference.aspose.com/words/python-net/aspose.words.saving/downsampleoptions/downsample_images/) property.
+Aspose.Words provides an ability to downsample images in order to reduce the output PDF size, using the [downsampleOptions](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/pdfsaveoptions/downsampleoptions/) property. Downsampling is enabled by default in the [downsampleImages](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/downsampleoptions/downsampleImages/) property.
 
-Note that it is also possible to set a specific resolution in the [resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/downsampleoptions/resolution/) property, or a resolution threshold in the [resolution_threshold](https://reference.aspose.com/words/python-net/aspose.words.saving/downsampleoptions/resolution_threshold/) property. In the second case, if the image resolution is less than the threshold value, then downsampling will not apply.
+Note that it is also possible to set a specific resolution in the [resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/downsampleoptions/resolution/) property, or a resolution threshold in the [resolutionThreshold](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/downsampleoptions/resolutionThreshold/) property. In the second case, if the image resolution is less than the threshold value, then downsampling will not apply.
 
 The code example below displays how to change the resolution of images in an output PDF document:
 
@@ -98,7 +96,7 @@ Resolution is calculated according to the real image size on the page.
 
 ## Embedding Fonts in Adobe PDF Format
 
-Aspose.Words also enables you to control how fonts are embedded into the resulting PDF documents. Fonts need to be embedded into any Adobe PDF document to ensure that the document can be correctly rendered on any machine (see more details about font rendering in the section [Using TrueType Fonts](/words/python-net/using-truetype-fonts/)). By default, Aspose.Words embeds a subset of fonts used in the document into the generated PDF. In this case, only the glyphs (characters) used in the document are saved to PDF.
+Aspose.Words also enables you to control how fonts are embedded into the resulting PDF documents. Fonts need to be embedded into any Adobe PDF document to ensure that the document can be correctly rendered on any machine (see more details about font rendering in the section [Using TrueType Fonts](/words/nodejs-net/using-truetype-fonts/)). By default, Aspose.Words embeds a subset of fonts used in the document into the generated PDF. In this case, only the glyphs (characters) used in the document are saved to PDF.
 
 ### When to Use Full Fonts and When to Subset
 
@@ -111,10 +109,10 @@ There is a way to specify an option for Aspose.Words to embed full fonts. Furthe
 
 ### Embedding Full Fonts in PDF
 
-The [embed_full_fonts](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/embed_full_fonts/) property enables you to specify how Aspose.Words embeds fonts into an output PDF document.
+The [embedFullFonts](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/pdfsaveoptions/embedFullFonts/) property enables you to specify how Aspose.Words embeds fonts into an output PDF document.
 
-- To embed full fonts into the output PDF document, set [embed_full_fonts](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/embed_full_fonts/) to *True*
-- To subset fonts when saving to PDF, set [embed_full_fonts](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/embed_full_fonts/) to *False*
+- To embed full fonts into the output PDF document, set [embedFullFonts](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/pdfsaveoptions/embedFullFonts/) to *True*
+- To subset fonts when saving to PDF, set [embedFullFonts](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/pdfsaveoptions/embedFullFonts/) to *False*
 
 The following example demonstrates how to embed full fonts in the output PDF document:
 
@@ -137,11 +135,11 @@ Core fonts and Windows Standard fonts are the “standard” sets of fonts, whic
 Aspose.Words provides options to choose how fonts are exported to PDF. You can choose either to embed core and standard fonts into the output PDF or to skip embedding them and use standard core PDF fonts or system fonts on the target machine instead. Using either one of these options normally results in significant file size reduction for PDF documents generated by Aspose.Words.
 
 - Since these options are mutually exclusive, you should choose only one at a time.
-- When saving with PDF/A-1 compliance, all used fonts must be embedded with the PDF document. When saving with this compliance, the [use_core_fonts](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_core_fonts/) property must be set to *False* and the [font_embedding_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/font_embedding_mode/) property must be set to [PdfFontEmbeddingMode.EMBED_ALL](https://reference.aspose.com/words/python-net/aspose.words.saving/pdffontembeddingmode/#embed_all).
+- When saving with PDF/A-1 compliance, all used fonts must be embedded with the PDF document. When saving with this compliance, the [useCoreFonts](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/pdfsaveoptions/useCoreFonts/) property must be set to *False* and the [fontEmbeddingMode](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/pdfsaveoptions/fontEmbeddingMode/) property must be set to [PdfFontEmbeddingMode.EmbedAll](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/pdffontembeddingmode/).
 
 ### Embedding Core Fonts
 
-The option to embed Core fonts can be enabled or disabled by using the [use_core_fonts](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_core_fonts/) property. When it is set to true, the following most popular “True Type” fonts (Base 14 fonts) are not embedded in the output PDF document:
+The option to embed Core fonts can be enabled or disabled by using the [useCoreFonts](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/pdfsaveoptions/useCoreFonts/) property. When it is set to true, the following most popular “True Type” fonts (Base 14 fonts) are not embedded in the output PDF document:
 
 - `Arial`
 - `Times New Roman`
@@ -170,7 +168,7 @@ This setting works only for ANSI (Windows-1252) encoding text. Writing a non-ANS
 
 ### Embedding System Fonts
 
-This option can be enabled or disabled by using the [font_embedding_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/font_embedding_mode/). When this property is set to [PdfFontEmbeddingMode.EMBED_NONSTANDARD](https://reference.aspose.com/words/python-net/aspose.words.saving/pdffontembeddingmode/#embed_nonstandard), the “Arial” and “Times New Roman” true type fonts are not embedded into a PDF document. In this case, the client viewer relies on the fonts that are installed on the client's operating system. When the [font_embedding_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/font_embedding_mode/) property is set to [PdfFontEmbeddingMode.EMBED_NONE](https://reference.aspose.com/words/python-net/aspose.words.saving/pdffontembeddingmode/#embed_none), Aspose.Words do not embed any fonts.
+This option can be enabled or disabled by using the [fontEmbeddingMode](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/pdfsaveoptions/fontEmbeddingMode/). When this property is set to [PdfFontEmbeddingMode.EmbedNonstandard](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/pdffontembeddingmode/), the “Arial” and “Times New Roman” true type fonts are not embedded into a PDF document. In this case, the client viewer relies on the fonts that are installed on the client's operating system. When the [fontEmbeddingMode](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/pdfsaveoptions/fontEmbeddingMode/) property is set to [PdfFontEmbeddingMode.EmbedNone](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/pdffontembeddingmode/), Aspose.Words do not embed any fonts.
 
 The example below shows how to set Aspose.Words to skip embedding Arial and Times New Roman fonts into a PDF document:
 

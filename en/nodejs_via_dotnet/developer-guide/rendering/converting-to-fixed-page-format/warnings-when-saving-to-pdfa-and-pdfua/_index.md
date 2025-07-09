@@ -9,14 +9,14 @@ weight: 29
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/warnings-when-saving-to-pdfa-and-pdfua/
-timestamp: 2025-07-04-10-05-05
+timestamp: 2025-07-09-10-05-05
 ---
 
 PDF/A and PDF/UA formats impose a number of accessibility requirements related to document content that cannot be fulfilled during automatic conversion from Word to PDF. These requirements are described in the previous article *"Working with PDF/A or PDF/UA"*. Now warnings are issued for some of these problems.
 
 Warnings are issued when saving to one of the PDF/A or PDF/UA formats and the issue violates compliance. For example, the warning about missing document title will be issued when saving to PDF/UA and will not be issued when saving to PDF/A.
 
-All warnings are of [WarningType](https://reference.aspose.com/words/python-net/aspose.words/warningtype/)**.MinorFormattingLoss** and [WarningSource](https://reference.aspose.com/words/python-net/aspose.words/warningsource/)**.Pdf**. Here is a list of the new Description warning values:
+All warnings are of [WarningType](https://reference.aspose.com/words/nodejs-net/aspose.words/warningtype/)**.MinorFormattingLoss** and [WarningSource](https://reference.aspose.com/words/nodejs-net/aspose.words/warningsource/)**.Pdf**. Here is a list of the new Description warning values:
 
 | Description warning value                                    | PDF/A                  | PDF/UA                 |
 | ------------------------------------------------------------ | ---------------------- | ---------------------- |

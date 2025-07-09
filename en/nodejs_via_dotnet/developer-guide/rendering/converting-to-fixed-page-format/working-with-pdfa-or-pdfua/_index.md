@@ -3,13 +3,13 @@ title: Working with PDF/A or PDF/UA
 second_title: Aspose.Words for Node.js
 articleTitle: Working with PDF/A or PDF/UA
 linktitle: Working with PDF/A or PDF/UA
-description: "Convert to PDF/A-1, PDF/A-2, PDF/A-4 and PDF/UA using Node.js. There are a few problems when converting to PDF/A documents, and Aspose.Words for Node.js solves them."
+description: "Convert to PDF/A-1, PDF/A-2, PDF/A-3, PDF/A-4, and PDF/UA using Node.js. There are a few problems when converting to PDF/A documents, and Aspose.Words for Node.js solves them."
 type: docs
 weight: 28
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/working-with-pdfa-or-pdfua/
-timestamp: 2025-07-04-10-05-05
+timestamp: 2025-07-09-10-05-05
 ---
 
 PDF/A and PDF/UA format imposes several requirements related to the document content that cannot be fulfilled during automatic conversion from a document in Word format to PDF. These requirements should be verified and corrected either in a Word document before conversion or in a PDF document after conversion in order to produce a fully PDF/A and PDF/UA compliant document.
@@ -18,7 +18,7 @@ Basic requirements are for the structure or fonts of a PDF/A and PDF/UA document
 
 {{% alert color="primary" %}}
 
-Please note that PDF/UA-1 output will also be WCAG 2.0 and Section 508 compliant.
+Please note that PDF/UA-1 or PDF/UA-2 output will generally comply with WCAG 2.0 and Section 508.
 
 {{% /alert %}}
 
@@ -144,7 +144,7 @@ If a document contains any other content that should be marked as an artifact, o
 | PDF/A-2a                                           | {{< emoticons/tick >}}  |
 | PDF/UA-1                                           | {{< emoticons/tick >}}  |
 
-Text language is specified in Microsoft Word documents. Aspose.Words exports the specified language to an output PDF with the *Lang* attribute attached to a marked-content sequence or a Span tag – it is controlled by the [export_language_to_span_tag](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/export_language_to_span_tag/) property. Generally there are no language issues when text is entered by the user via Microsoft Word. But there is a possibility that the language may be inaccurate if the text is generated automatically.
+Text language is specified in Microsoft Word documents. Aspose.Words exports the specified language to an output PDF with the *Lang* attribute attached to a marked-content sequence or a Span tag – it is controlled by the [exportLanguageToSpanTag](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/pdfsaveoptions/exportLanguageToSpanTag/) property. Generally there are no language issues when text is entered by the user via Microsoft Word. But there is a possibility that the language may be inaccurate if the text is generated automatically.
 
 {{% alert color="secondary" %}}
 <details>

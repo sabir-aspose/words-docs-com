@@ -9,8 +9,7 @@ weight: 20
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/using-truetype-fonts/
-aliases: [/python/using-truetype-fonts/]
-timestamp: 2025-07-04-10-05-05
+timestamp: 2025-07-09-10-05-05
 ---
 
 When working with documents, you often have to use different fonts, styles, and sizes. Documents can contain any number of fonts, which are not necessarily limited to the fonts that are installed in the operating system. The fonts can be completely different, such as fonts taken from other operating systems, purchased, or created by users themselves.

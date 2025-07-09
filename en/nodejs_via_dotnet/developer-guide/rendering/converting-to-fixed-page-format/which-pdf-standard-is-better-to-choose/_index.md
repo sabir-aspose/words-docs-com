@@ -3,13 +3,13 @@ title: Which PDF Standard Is Better to Choose
 second_title: Aspose.Words for Node.js
 articleTitle: Which PDF Standard Is Better to Choose
 linktitle: Which PDF Standard Is Better to Choose
-description: "Choose the best PDF standard to export the result of your programming task in Node.js. Which PDF standard is better – PDF 1.7, PDF 2.0, PDF/A-1, PDF/A-2, or PDF/UA."
+description: "Choose the best PDF standard to export the result of your programming task in Node.js. Which PDF standard is better – PDF 1.7, PDF 2.0, PDF/A-1, PDF/A-2, PDF/A-3, PDF/A-4, or PDF/UA."
 type: docs
 weight: 27
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/which-pdf-standard-is-better-to-choose/
-timestamp: 2025-07-04-10-05-05
+timestamp: 2025-07-09-10-05-05
 ---
 
 For some tasks, certain PDF standards will fit better or vice versa worse. In this article, we will try to determine which PDF standards for which cases it makes sense to choose.
@@ -32,7 +32,7 @@ This may be reconsidered later.
 
 PDF/A is a format for archiving and long-term preservation. Generally it is required by authorities, archives, libraries, and so on. So, the use of PDF/A compliance is dictated by the requirements of the PDF consumer. And if PDF consumers do not require it, then it should not be used.
 
-The PDF/A version should be selected to be the highest acceptable for the consume, since higher versions are more reliable for Aspose.Words PDF/A output. However, the conformance level for PDF/A-1 or PDF/A-2 should also be selected according to consumer requirements. Thus, if level A is required, then it should be used, and if level B/U is required, then both level B/U and level A could be used.
+The PDF/A version should be selected to be the highest acceptable for the consume, since higher versions are more reliable for Aspose.Words PDF/A output. However, the conformance level for PDF/A-1, PDF/A-2, PDF/A-3, or PDF/A-4 should also be selected according to consumer requirements. Thus, if level A is required, then it should be used, and if level B/U is required, then both level B/U and level A could be used.
 
 Note that level A documents are accessible but take more space than level B/U documents.
 
@@ -42,6 +42,6 @@ PDF/UA should be used if PDF consumers require it. Also it could be used if you 
 
 {{% alert color="primary" %}}
 
-It is important to note that PDF/UA-1 output will also be WCAG 2.0 and Section 508 compliant.
+It is important to note that PDF/UA-1 or PDF/UA-2 output will generally comply with WCAG 2.0 and Section 508.
 
 {{% /alert %}}

@@ -9,8 +9,7 @@ weight: 20
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/installing-truetype-fonts-on-linux/
-aliases: [/python/installing-truetype-fonts-on-linux/]
-timestamp: 2025-07-04-10-05-05
+timestamp: 2025-07-09-10-05-05
 ---
 
 Most often, you will use Aspose.Words to convert DOC or DOCX documents to PDF format. If you need to do this on a Linux machine, this topic will help you to learn how to ensure Aspose.Words is rendering your documents with the best accuracy.
@@ -26,7 +25,7 @@ There are two main ways to get TrueType fonts on a Linux system:
 
 ## Copying Fonts from a Windows Machine
 
-An easy and quick way to get TrueType fonts on a Linux system is to copy .TTF and .TTC files from the `C:\Windows\Fonts` directory on a Windows machine to some directory on your Linux machine. You do not need to install or register these fonts on Linux in any way; you just need to specify the location of the fonts using the [FontSettings](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/) class in Aspose.Words.
+An easy and quick way to get TrueType fonts on a Linux system is to copy .TTF and .TTC files from the `C:\Windows\Fonts` directory on a Windows machine to some directory on your Linux machine. You do not need to install or register these fonts on Linux in any way; you just need to specify the location of the fonts using the [FontSettings](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/fontsettings/) class in Aspose.Words.
 
 {{% alert color="primary" %}}
 

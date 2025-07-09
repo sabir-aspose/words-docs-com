@@ -9,8 +9,7 @@ weight: 25
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/learn-features-of-conversion-to-pdf-a/
-aliases: [/python/learn-features-of-conversion-to-pdf-a/]
-timestamp: 2024-01-31-14-23-37
+timestamp: 2025-07-09-10-05-05
 ---
 
 PDF is a fixed page format that is very popular among users and is widely supported by various applications, as a PDF document looks the same on any device. For this reason, converting to PDF is an important feature of Aspose.Words.
@@ -21,14 +20,16 @@ In this section, we will consider the main problems that may arise when working 
 
 ## Which PDF Standard Aspose.Words Supports
 
-Aspose.Words now allows users to work with PDF/A-1, PDF/A-2 and PDF/A-4 formats, as well as PDF/UA-1:
+Aspose.Words now allows users to work with PDF/A-1, PDF/A-2, PDF/A-3, and PDF/A-4 formats, as well as PDF/UA-1 and PDF/UA-2:
 
 - PDF/A-1 has serious limitations such as transparency and some compression options are prohibited
 - PDF/A-2 eliminates some of the limitations of PDF/A-1, such as support of transparency and layer effects or embedding of OpenType fonts
+- PDF/A-3 allows embedding of attachments into a PDF document and enables richer document workflows, such as archiving of associated source data alongside visual content
 - PDF/A-4 assumes revised conformance levels: regular PDF/A-4 conformance is equivalent to previous versions' level U conformance, and the level A conformance is removed
 - PDF/UA-1 content should be tagged and standardized according to ISO 32000-1: 2008
+- PDF/UA-2 improves accessibility support with enhanced tagging structures, better support for modern PDF features, and alignment with WCAG guidelines
 
-PDF/A is an ISO-standardized version of PDF intended for use in archiving and long-term storage of electronic documents. At the same time, PDF/UA is another ISO standardized version of PDF designed to ensure accessibility for people with disabilities who use assistive technology. To specify the level of compliance with PDF standards, use the [PdfSaveOptions.compliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/compliance/) property. Due to storage conditions, PDF/A document must embed all fonts and disable encryption, while PDF/UA must only embed all fonts.
+PDF/A is an ISO-standardized version of PDF intended for use in archiving and long-term storage of electronic documents. At the same time, PDF/UA is another ISO standardized version of PDF designed to ensure accessibility for people with disabilities who use assistive technology. To specify the level of compliance with PDF standards, use the [PdfSaveOptions.compliance](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/pdfsaveoptions/compliance/) property. Due to storage conditions, PDF/A document must embed all fonts and disable encryption, while PDF/UA must only embed all fonts.
 
 In this section, we will take a closer look at working with PDF/A or PDF/UA-1 documents.
 
@@ -40,8 +41,10 @@ To learn more about the different PDF standards, check the following ISOs:
 - PDF 2.0 = ISO-32000-2: 2020
 - PDF/A-1 = ISO-19005-1: 2005
 - PDF/A-2 = ISO-19005-2: 2011
+- PDF/A-3 = ISO 19005-3: 2012
 - PDF/A-4 = ISO-19005-4: 2020
 - PDF/UA-1 = ISO-14289: 2014
+- PDF/UA-2 = ISO 14289-2:2024
 
 ## See Also
 
