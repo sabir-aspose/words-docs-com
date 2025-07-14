@@ -45,7 +45,7 @@ The following code example shows how to retrieve the index of a cell in a row:
 
 ## Work with Columns
 
-In the Aspose.Words Document Object Model (DOM), the **Table** node consists of [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) nodes and then [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) nodes. Thus, in the `Document` Object Model of Aspose.Words, as in Word documents, there is no concept of a column.
+In the Aspose.Words Document Object Model (DOM), the **Table** node consists of **Row** nodes and then **Cell** nodes. Thus, in the `Document` Object Model of Aspose.Words, as in Word documents, there is no concept of a column.
 
 By design, the table rows in Microsoft Word and Aspose.Words are completely independent, and the basic properties and operations are contained only in the rows and cells of the table. This gives tables the ability to have some interesting attributes:
 
@@ -96,7 +96,7 @@ By default, the above properties are disabled.
 
 ### Keep a Row from Breaking Across Pages
 
-This involves restricting content inside the cells of a row from being split across a page. In Microsoft Word, this can found under Table Properties as the option “Allow row to break across pages”. In Aspose.Words this is found under the [RowFormat](https://reference.aspose.com/words/python-net/aspose.words.tables/rowformat/) object of a [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) as the property [RowFormat.AllowBreakAcrossPages](https://reference.aspose.com/words/python-net/aspose.words.tables/rowformat/allow_break_across_pages/).
+This involves restricting content inside the cells of a row from being split across a page. In Microsoft Word, this can found under Table Properties as the option “Allow row to break across pages”. In Aspose.Words this is found under the [RowFormat](https://reference.aspose.com/words/python-net/aspose.words.tables/rowformat/) object of a **Row** as the property [RowFormat.AllowBreakAcrossPages](https://reference.aspose.com/words/python-net/aspose.words.tables/rowformat/allow_break_across_pages/).
 
 The following code example shows how to disable breaking rows across pages for each row in a table:
 

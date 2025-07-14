@@ -111,7 +111,7 @@ Each node has a parent specified by the [parentNode](https://reference.aspose.co
 - The node has been removed from the tree.
 - This is the root [Document](https://reference.aspose.com/words/nodejs-net/aspose.words/document/) node which always has a None parent node.
 
-You can remove a node from its parent by calling the [Node.remove](https://reference.aspose.com/words/nodejs-net/aspose.words/node/remove/#default) method.The following code example shows how to access the parent node:
+You can remove a node from its parent by calling the [Node.remove](https://reference.aspose.com/words/nodejs-net/aspose.words/node/remove/) method.The following code example shows how to access the parent node:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_node-GetParentNode.py" >}}
 

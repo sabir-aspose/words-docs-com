@@ -29,7 +29,7 @@ To apply formatting to a table, you can use the properties available on the corr
 
 {{% alert color="primary" %}}
 
-Note that the table must have at least one row before the table properties can be applied. This means that when building a table with the [DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/), this formatting must be done after the first call to [InsertCell](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_cell/#default), or after the first row is added to the table, or when nodes are inserted directly into the DOM.
+Note that the table must have at least one row before the table properties can be applied. This means that when building a table with the [DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/), this formatting must be done after the first call to [InsertCell](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_cell/), or after the first row is added to the table, or when nodes are inserted directly into the DOM.
 
 {{% /alert %}}
 
@@ -64,7 +64,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Row Level Formatting
 
-**Row-level** formatting can be controlled using the [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/), [RowFormat](https://reference.aspose.com/words/python-net/aspose.words.tables/row/row_format/), and [RowCollection](https://reference.aspose.com/words/python-net/aspose.words.tables/rowcollection/) classes.
+**Row-level** formatting can be controlled using the **Row**, [RowFormat](https://reference.aspose.com/words/python-net/aspose.words.tables/row/row_format/), and [RowCollection](https://reference.aspose.com/words/python-net/aspose.words.tables/rowcollection/) classes.
 
 {{% alert color="primary" %}}
 
@@ -89,7 +89,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Cell Level Formatting
 
-Cell-level formatting is controlled by the [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/), [CellFormat](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/cell_format/), and [CellCollection](https://reference.aspose.com/words/python-net/aspose.words.tables/cellcollection/) classes.
+Cell-level formatting is controlled by the **Cell**, [CellFormat](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/cell_format/), and [CellCollection](https://reference.aspose.com/words/python-net/aspose.words.tables/cellcollection/) classes.
 
 {{% alert color="primary" %}}
 

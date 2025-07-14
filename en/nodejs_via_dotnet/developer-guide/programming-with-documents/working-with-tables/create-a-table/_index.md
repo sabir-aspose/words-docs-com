@@ -80,7 +80,7 @@ The following code example shows how to insert a nested table using DocumentBuil
 
 You can insert tables directly into the DOM by adding a new **Table** node at a specific position.
 
-Please note that immediately after the table node creation, the table itself will be completely empty, that is it does not yet contain rows and cells. To insert rows and cells into a table, add the appropriate [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) and [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) child nodes to the DOM.
+Please note that immediately after the table node creation, the table itself will be completely empty, that is it does not yet contain rows and cells. To insert rows and cells into a table, add the appropriate **Row** and **Cell** child nodes to the DOM.
 
 {{% alert color="primary" %}}
 

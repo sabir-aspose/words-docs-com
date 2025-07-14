@@ -9,9 +9,6 @@ weight: 30
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/update-fields/
-aliases:
-- /python/updating-and-removing-a-field/
-- /python-net/updating-and-removing-a-field/
 timestamp: 2025-07-09-10-05-05
 ---
 
@@ -28,13 +25,13 @@ When a document is loaded, Aspose.Words mimics the behavior of Microsoft Word wi
 
 ### Update Fields Programmatically
 
-To explicitly update fields in the whole document, simply call [update_fields](https://reference.aspose.com/words/python-net/aspose.words/document/update_fields/). To update fields contained in part of a document, obtain a [Range](https://reference.aspose.com/words/python-net/aspose.words/range/) object and call the [update_fields](https://reference.aspose.com/words/python-net/aspose.words/range/update_fields/) method. In Aspose.Words, you can obtain a **Range** for any node in the document tree, such as [Section](https://reference.aspose.com/words/nodejs-net/aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/nodejs-net/aspose.words/headerfooter/), [Paragraph](https://reference.aspose.com/words/nodejs-net/aspose.words/paragraph/), etc. using the [Node.range](https://reference.aspose.com/words/python-net/aspose.words/node/range/) property. You can update the result of a single field by calling the [update](https://reference.aspose.com/words/python-net/aspose.words.fields/field/update/) method.
+To explicitly update fields in the whole document, simply call [updateFields](https://reference.aspose.com/words/nodejs-net/aspose.words/document/updatefields/). To update fields contained in part of a document, obtain a [Range](https://reference.aspose.com/words/nodejs-net/aspose.words/range/) object and call the [updateFields](https://reference.aspose.com/words/nodejs-net/aspose.words/range/updatefields/) method. In Aspose.Words, you can obtain a **Range** for any node in the document tree, such as [Section](https://reference.aspose.com/words/nodejs-net/aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/nodejs-net/aspose.words/headerfooter/), [Paragraph](https://reference.aspose.com/words/nodejs-net/aspose.words/paragraph/), etc. using the [Node.range](https://reference.aspose.com/words/nodejs-net/aspose.words/node/range/) property. You can update the result of a single field by calling the [update](https://reference.aspose.com/words/nodejs-net/aspose.words/field/update/#default) method.
 
 ### Automatic Update of Page-Related Fields During Rendering
 
 When you execute conversion of a document to a fixed-page format e.g. to PDF or XPS, then Aspose.Words will automatically update page layout-related fields `PAGE`, `PAGEREF` found in headers/footers of the document. This behavior mimics the behavior of Microsoft Word when printing a document.
 
-If you want to update all other fields in the document, then you need to call [update_fields](https://reference.aspose.com/words/python-net/aspose.words/document/update_fields/) before rendering the document.
+If you want to update all other fields in the document, then you need to call [updateFields](https://reference.aspose.com/words/nodejs-net/aspose.words/document/updatefields/) before rendering the document.
 
 The following code example shows how to update all fields before rendering a document:
 
@@ -52,7 +49,7 @@ When you execute a mail merge, all fields in the document will be automatically 
 
 ## Update Fields Having Dirty Attribute
 
-The w:dirty is a field-level attribute that will refresh only the field you specify when the document is opened. It tells MS Word to only refresh this field the next time the document is opened. You can use [update_dirty_fields](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/update_dirty_fields/) property to specify whether to update the fields with the dirty attribute. When the value of **update_dirty_fields** is set to `True`, all fields having `True` value for [Field.is_dirty](https://reference.aspose.com/words/python-net/aspose.words.fields/field/is_dirty/) or [FieldChar.is_dirty](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldchar/is_dirty/) property are updated on document load.
+The w:dirty is a field-level attribute that will refresh only the field you specify when the document is opened. It tells MS Word to only refresh this field the next time the document is opened. You can use [updateDirtyFields](https://reference.aspose.com/words/nodejs-net/aspose.words.loading/loadoptions/updatedirtyfields/) property to specify whether to update the fields with the dirty attribute. When the value of **update_dirty_fields** is set to `True`, all fields having `True` value for [Field.isDirty](https://reference.aspose.com/words/nodejs-net/aspose.words/field/isdirty/) or [FieldChar.isDirty](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldchar/isdirty/) property are updated on document load.
 
 The following code example shows how to update fields having the dirty attribute:
 
@@ -60,9 +57,8 @@ The following code example shows how to update fields having the dirty attribute
 
 ## Update LastSavedTime Property Before Saving
 
-You can use [SaveOptions.update_last_saved_time_property](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/update_last_saved_time_property/) property whether to update the corresponding built-in document property [last_saved_time](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/last_saved_time/) when saving the document.
+You can use [SaveOptions.updateLastSavedTimeProperty](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/) property whether to update the corresponding built-in document property [lastSavedTime](https://reference.aspose.com/words/nodejs-net/aspose.words.properties/builtindocumentproperties/lastsavedtime/) when saving the document.
 
 The following code example shows how to update this property:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_ooxml_save_options-UpdateLastSavedTimeProperty.py" >}}
-

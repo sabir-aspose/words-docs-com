@@ -116,7 +116,7 @@ If [FontInfo](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/f
 
 There are two different mechanisms used in Aspose.Words — Font substitution and Font fallback. Font substitution is used when the font specified in the document could not be found among the font sources as it was described in the above sections. The Font fallback mechanism is used when the font is resolved, but it does not contain a specific character. In this case, Aspose.Words tries to use one of the fallback fonts for the character.
 
-There is a [buildAutomatic](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/fontfallbacksettings/buildAutomatic/#default) method that automatically builds the fallback settings by scanning available fonts. Since this method may produce a non-optimal fallback setting, you can control the font fallback behavior by using the properties of the [FontFallbackSettings](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/fontfallbacksettings/buildAutomatic/) class. This class specifies settings of the font fallback mechanism. You can get an instance of the [FontFallbackSettings](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/fontfallbacksettings/buildAutomatic/) class as follows:
+There is a [buildAutomatic](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/fontfallbacksettings/buildAutomatic/) method that automatically builds the fallback settings by scanning available fonts. Since this method may produce a non-optimal fallback setting, you can control the font fallback behavior by using the properties of the [FontFallbackSettings](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/fontfallbacksettings/buildAutomatic/) class. This class specifies settings of the font fallback mechanism. You can get an instance of the [FontFallbackSettings](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/fontfallbacksettings/buildAutomatic/) class as follows:
 
 {{< highlight python>}}
 settings = fontSettings.fallback_settings
@@ -170,7 +170,7 @@ In the above code example, the following XML file is used:
 
 ## Predefined Font FallBack Settings for Google Noto Fonts
 
-Aspose.Words provides predefined font fallback settings for Google Noto fonts. These are free fonts licensed under SIL Open Font License, that can be downloaded from Google Noto Fonts. The [FontFallbackSettings](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/fontfallbacksettings/buildAutomatic/) class provides a [loadNotoFallbackSettings](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/fontfallbacksettings/loadNotoFallbackSettings/#default) method. It loads predefined fallback settings, which use Google Noto fonts as shown in the code example below:
+Aspose.Words provides predefined font fallback settings for Google Noto fonts. These are free fonts licensed under SIL Open Font License, that can be downloaded from Google Noto Fonts. The [FontFallbackSettings](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/fontfallbacksettings/buildAutomatic/) class provides a [loadNotoFallbackSettings](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/fontfallbacksettings/loadNotoFallbackSettings/) method. It loads predefined fallback settings, which use Google Noto fonts as shown in the code example below:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-SetPredefinedFontFallbackSettings.py" >}}
 

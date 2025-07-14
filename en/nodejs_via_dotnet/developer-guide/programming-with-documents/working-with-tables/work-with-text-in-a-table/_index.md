@@ -18,7 +18,7 @@ Adding text or other content to the table is carried out using the appropriate m
 
 ## Replace Text in a Table
 
-The table, like any other node in Aspose.Words, has access to the [Range](https://reference.aspose.com/words/python-net/aspose.words/range/) object. Using the table range object, you can replace text in a table.
+The table, like any other node in Aspose.Words, has access to the [Range](https://reference.aspose.com/words/nodejs-net/aspose.words/range/) object. Using the table range object, you can replace text in a table.
 
 The ability to use special characters when replacing is currently supported, so it is possible to replace existing text with multi-paragraph text. To do this, you need to use the special metacharacters described in the corresponding [Replace](https://reference.aspose.com/words/python-net/aspose.words/range/replace/#str_str) method.
 

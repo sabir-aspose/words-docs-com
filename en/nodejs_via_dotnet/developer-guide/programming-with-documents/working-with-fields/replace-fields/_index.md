@@ -1,5 +1,5 @@
 ---
-title: Replace Fields Python
+title: Replace Fields Node.js
 second_title: Aspose.Words for Node.js via .NET
 articleTitle: Replace Fields with Static Text
 linktitle: Replace Fields with Static Text
@@ -16,8 +16,8 @@ Replacing fields is often required when you wish to save your document as a stat
 
 The diagram below shows how the `IF` field is stored in a document:
 
-* the text is surrounded by the special field nodes – [FieldStart](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldstart/) and [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/)
-* the [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/) node separates the text within the field into the field code and field result
+* the text is surrounded by the special field nodes – [FieldStart](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldstart/) and [FieldEnd](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldend/)
+* the [FieldSeparator](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldseparator/) node separates the text within the field into the field code and field result
 * the field code defines the general behavior of the field, while the field result retains the most recent result when this field is updated using Microsoft Word or Aspose.Words
 * the field result is what is stored in the field and displayed in the document when viewed
 
@@ -41,9 +41,9 @@ EXAMPLE
 
 ## Convert Certain Field Types in Specific Document Parts
 
-Since the **ConvertFieldsToStaticText** method accepts two parameters – the [CompositeNode](https://reference.aspose.com/words/nodejs-net/aspose.words/compositenode/) properties and the [FieldType](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldtype/) enumeration, it is possible to pass any composite node to this method. This allows fields to be converted to static text only in specific parts of the document.
+Since the **ConvertFieldsToStaticText** method accepts two parameters – the [CompositeNode](https://reference.aspose.com/words/nodejs-net/aspose.words/compositenode/) properties and the [FieldType](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldtype/) enumeration, it is possible to pass any composite node to this method. This allows fields to be converted to static text only in specific parts of the document.
 
-For example, you can pass a [Document](https://reference.aspose.com/words/nodejs-net/aspose.words/document/) object and convert fields of the specified type from the entire document to static text, or you can pass a [Body](https://reference.aspose.com/words/python-net/aspose.words/body/) object of a section and only convert the fields found in that body.
+For example, you can pass a [Document](https://reference.aspose.com/words/nodejs-net/aspose.words/document/) object and convert fields of the specified type from the entire document to static text, or you can pass a [Body](https://reference.aspose.com/words/nodejs-net/aspose.words/body/) object of a section and only convert the fields found in that body.
 
 {{% alert color="primary" %}}
 
@@ -51,7 +51,7 @@ When passing a block-level node such as a [Paragraph](https://reference.aspose.c
 
 {{% /alert %}}
 
-The [FieldType](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldtype/) enumeration passed to the **ConvertFieldsToStaticText** method specifies what type of fields should be convert to static text. Any other field type found in the document will remain unchanged.
+The [FieldType](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldtype/) enumeration passed to the **ConvertFieldsToStaticText** method specifies what type of fields should be convert to static text. Any other field type found in the document will remain unchanged.
 
 The following code example shows how to select fields of a specific type – *targetFieldType* in a specific node – *compositeNode* and then convert them to static text:
 

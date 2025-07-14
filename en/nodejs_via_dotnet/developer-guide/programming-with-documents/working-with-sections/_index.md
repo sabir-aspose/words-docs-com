@@ -53,7 +53,7 @@ The following code example shows how to insert a section break into a document:
 
 {{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "insert-section-breaks.py" >}}
 
-Use the [Remove](https://reference.aspose.com/words/python-net/aspose.words/node/remove/#default) method to delete a section break. If you do not need to remove a specific section break and instead delete the content of that section, you can use the [ClearContent](https://reference.aspose.com/words/python-net/aspose.words/section/clear_content/#default) method.
+Use the [Remove](https://reference.aspose.com/words/python-net/aspose.words/node/remove/) method to delete a section break. If you do not need to remove a specific section break and instead delete the content of that section, you can use the [ClearContent](https://reference.aspose.com/words/python-net/aspose.words/section/clear_content/) method.
 
 The following code example shows how to remove sections breaks: 
 
@@ -88,7 +88,7 @@ The following code example shows how to limit the number of lines that each page
 
 ## Edit a Section
 
-When you add a new section to your document, there will be no body or paragraph that you can edit. Aspose.Words allows you to guarantee that a section contains a body with at least one paragraph using the [EnsureMinimum](https://reference.aspose.com/words/python-net/aspose.words/section/ensure_minimum/#default) method – it will automatically add a Body (or HeaderFooter) node to the document and then add a Paragraph to it.
+When you add a new section to your document, there will be no body or paragraph that you can edit. Aspose.Words allows you to guarantee that a section contains a body with at least one paragraph using the [EnsureMinimum](https://reference.aspose.com/words/python-net/aspose.words/section/ensure_minimum/) method – it will automatically add a Body (or HeaderFooter) node to the document and then add a Paragraph to it.
 
 The following code example shows how to prepare a new section node using **EnsureMinimum**:
 
@@ -104,7 +104,7 @@ The following code example shows how to append content of an existing section:
 
 ### Clone a Section
 
-Aspose.Words allows you to duplicate a section by creating a full copy of it using the [Clone](https://reference.aspose.com/words/python-net/aspose.words/section/clone/#default) method.
+Aspose.Words allows you to duplicate a section by creating a full copy of it using the [Clone](https://reference.aspose.com/words/python-net/aspose.words/section/clone/) method.
 
 The following code example shows how to clone the first section in your document:
 
@@ -131,7 +131,7 @@ The following code example shows how to create 2 sections with different headers
 
 {{< gist "aspose-words-gists" "2e1b2b28253780881d116e3a873ee668" "link-to-previous-header-footer.py" >}}
 
-If you want to remove the text of headers and footers without removing [HeaderFooter](https://reference.aspose.com/words/nodejs-net/aspose.words/headerfooter/) objects in your document, you can use the [ClearHeadersFooters](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/#default) method. In addition, you can use the [DeleteHeaderFooterShapes](https://reference.aspose.com/words/python-net/aspose.words/section/delete_header_footer_shapes/#default) method to remove all shapes from headers and footers in your document.
+If you want to remove the text of headers and footers without removing [HeaderFooter](https://reference.aspose.com/words/nodejs-net/aspose.words/headerfooter/) objects in your document, you can use the [ClearHeadersFooters](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/) method. In addition, you can use the [DeleteHeaderFooterShapes](https://reference.aspose.com/words/python-net/aspose.words/section/delete_header_footer_shapes/) method to remove all shapes from headers and footers in your document.
 
 The following code example shows how to clear content of all headers and footers in a section:
 

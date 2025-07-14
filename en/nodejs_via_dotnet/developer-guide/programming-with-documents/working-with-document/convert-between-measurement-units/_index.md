@@ -9,15 +9,14 @@ weight: 20
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/convert-between-measurement-units/
-aliases: [/python/convert-between-measurement-units/]
 timestamp: 2025-07-09-10-05-05
 ---
 
 Most of the object properties provided in the Aspose.Words API that represent some measurement, such as width or height, margins, and various distances, accept values in points, where 1 inch equals 72 points. Sometimes this is not convenient and points need to be converted to other units.
 
-Aspose.Words provides the [ConvertUtil](https://reference.aspose.com/words/python-net/aspose.words/convertutil/) class that provides helper functions to convert between various measurement units. It enables converting inches, pixels and millimeters to points, points to inches and pixels, and converting pixels from one resolution to another. Converting pixels to points and vice versa can be performed at 96 dpi (dots per inch) resolutions or specified dpi resolution.
+Aspose.Words provides the [ConvertUtil](https://reference.aspose.com/words/nodejs-net/aspose.words/convertutil/) class that provides helper functions to convert between various measurement units. It enables converting inches, pixels and millimeters to points, points to inches and pixels, and converting pixels from one resolution to another. Converting pixels to points and vice versa can be performed at 96 dpi (dots per inch) resolutions or specified dpi resolution.
 
-The [ConvertUtil](https://reference.aspose.com/words/python-net/aspose.words/convertutil/) class is especially useful when setting various page properties because, for instance, inches are more common measurement units than points.
+The [ConvertUtil](https://reference.aspose.com/words/nodejs-net/aspose.words/convertutil/) class is especially useful when setting various page properties because, for instance, inches are more common measurement units than points.
 
 The following code example shows how to specify page properties in inches:
 

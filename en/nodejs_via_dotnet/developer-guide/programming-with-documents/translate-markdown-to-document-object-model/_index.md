@@ -9,13 +9,12 @@ weight: 20
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/translate-markdown-to-document-object-model/
-aliases: [/python/translate-markdown-to-document-object-model/]
-timestamp: 2024-10-21-11-17-44
+timestamp: 2025-07-09-10-05-05
 ---
 
 To programmatically read, manipulate, and modify the content and formatting of a document, you need to translate it to the Aspose.Words Document Object Model (DOM).
 
-In contrast to Word documents, Markdown does not conform to the DOM described in the [Aspose.Words Document Object Model (DOM)](/words/python-net/aspose-words-document-object-model/) article. However, Aspose.Words provides its own mechanism for translating Markdown documents to DOM and back, so that we can successfully work with their elements such as text formatting, tables, headers, and others.
+In contrast to Word documents, Markdown does not conform to the DOM described in the [Aspose.Words Document Object Model (DOM)](/words/nodejs-net/aspose-words-document-object-model/) article. However, Aspose.Words provides its own mechanism for translating Markdown documents to DOM and back, so that we can successfully work with their elements such as text formatting, tables, headers, and others.
 
 This article explains how the various markdown features can be translated into Aspose.Words DOM and back to Markdown format.
 
@@ -86,7 +85,7 @@ builder.font.style = inlineCode3BackTicks
 builder.writeln("Text with InlineCode style with 3 backtick")
 
 builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.inline_code_example.md"){{< /highlight >}} |  |
-| **Autolink**<br />`<scheme://domain.com>`<br />`<email@domain.com>` | The [FieldHyperlink](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldhyperlink/) class. |
+| **Autolink**<br />`<scheme://domain.com>`<br />`<email@domain.com>` | The [FieldHyperlink](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldhyperlink/) class. |
 | {{< highlight python >}}# Use a document builder to add content to the document.
 builder = aw.DocumentBuilder()
 
@@ -95,7 +94,7 @@ builder.insert_hyperlink("https://www.aspose.com", "https://www.aspose.com", Fal
 builder.insert_hyperlink("email@aspose.com", "mailto:email@aspose.com", False);
 
 builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.autolink_example.md"){{< /highlight >}} |  |
-| **Link**<br />`[link text](url)`<br />`[link text](<url> "title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | The [FieldHyperlink](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldhyperlink/) |
+| **Link**<br />`[link text](url)`<br />`[link text](<url> "title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | The [FieldHyperlink](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldhyperlink/) |
 | {{< highlight python >}}# Use a document builder to add content to the document.
 builder = aw.DocumentBuilder()
 
@@ -126,7 +125,7 @@ The table below shows examples of using Markdown Leaf blocks in Aspose.Words:
 
 | Markdown feature                                             | Aspose.Words                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **HorizontalRule**<br />`-----`                              | This is a simple paragraph with a corresponding HorizontalRule shape:<br />[DocumentBuilder.insert_horizontal_rule()](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_horizontal_rule/) |
+| **HorizontalRule**<br />`-----`                              | This is a simple paragraph with a corresponding HorizontalRule shape:<br />[DocumentBuilder.insertHorizontalRule](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertHorizontalRule/) |
 | {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-HorizontalRule.py" >}} |                                                              |
 | **ATX Heading**<br />`# H1, ## H2, ### H3…`                  | `ParagraphFormat.style_name = "Heading N"`, where (1<= N <= 9).<br />This is translated into a built-in style and should be exactly of the specified pattern (no suffixes or prefixes are allowed).<br />Otherwise, it will be just a regular paragraph with a corresponding style. |
 | {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-Headings.py" >}} |                                                              |
@@ -211,7 +210,7 @@ doc.styles.get_by_name("Quote1").base_style_name = "Quote"
 builder.writeln("1. Nested blockquote")
 
 builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.quote_example.md"){{< /highlight >}} |
-| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	`   - Item 2a`<br />	`   - Item 2b` | Bulleted lists are represented using paragraph numbering:<br />[ListFormat.apply_bullet_default()](https://reference.aspose.com/words/python-net/aspose.words.lists/listformat/apply_bullet_default/)<br />There can be 3 types of bulleted lists. They are only diff in a numbering format of the very first level. These are: `'-'`, `'+'` or `'*'` respectively. |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	`   - Item 2a`<br />	`   - Item 2b` | Bulleted lists are represented using paragraph numbering:<br />[ListFormat.applyBulletDefault](https://reference.aspose.com/words/nodejs-net/aspose.words.lists/listformat/applyBulletDefault/)<br />There can be 3 types of bulleted lists. They are only diff in a numbering format of the very first level. These are: `'-'`, `'+'` or `'*'` respectively. |
 | {{< highlight python >}}# Use a document builder to add content to the document.
 builder = aw.DocumentBuilder()
 
@@ -227,7 +226,7 @@ builder.writeln("Item 2a")
 builder.writeln("Item 2b")
 
 builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.bulleted_list_example.md"){{< /highlight >}} |                                                              |
-| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Ordered lists are represented using paragraph numbering:<br />[ListFormat.apply_number_default()](https://reference.aspose.com/words/python-net/aspose.words.lists/listformat/apply_number_default/)<br />There can be 2 number format markers: `'.'` and `')'`. The default marker is `'.'`. |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Ordered lists are represented using paragraph numbering:<br />[ListFormat.applyNumberDefault](https://reference.aspose.com/words/nodejs-net/aspose.words.lists/listformat/applynumberdefault/)<br />There can be 2 number format markers: `'.'` and `')'`. The default marker is `'.'`. |
 | {{< highlight python >}}doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
 
@@ -249,7 +248,7 @@ Aspose.Words also allows to translate tables into DOM, as shown below:
 
 | Markdown feature                                             | Aspose.Words                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| `Table` <br />`a\ | b`<br />`-\ | -`<br />`c\ | d`                 | **Table**, [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) and [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) classes. |
+| `Table` <br />`a\ | b`<br />`-\ | -`<br />`c\ | d`                 | **Table**, **Row** and **Cell** classes. |
 | {{< highlight python >}}# Use a document builder to add content to the document.
 builder = aw.DocumentBuilder()
 
@@ -271,5 +270,4 @@ builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.ordered_lis
 
 ## See Also
 
-* [Working with Markdown Features](/words/python-net/working-with-markdown-features/)
-
+* [Working with Markdown Features](/words/nodejs-net/working-with-markdown-features/)

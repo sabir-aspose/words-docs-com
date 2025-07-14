@@ -9,17 +9,14 @@ weight: 50
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/working-with-hyperlinks/
-aliases:
-- /python/working-with-hyperlinks-and-html/
-- /python-net/working-with-hyperlinks-and-html/
 timestamp: 2025-07-09-10-05-05
 ---
 
-A hyperlink in Microsoft Word documents is the `HYPERLINK` field. In Aspose.Words, hyperlinks are implemented through the [FieldHyperlink](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldhyperlink/) class.
+A hyperlink in Microsoft Word documents is the `HYPERLINK` field. In Aspose.Words, hyperlinks are implemented through the [FieldHyperlink](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldhyperlink/) class.
 
 ## Inserting a Hyperlink
 
-Use the [insert_hyperlink](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_hyperlink/) method to insert a hyperlink into the document. This method accepts three parameters:
+Use the [insertHyperlink](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/inserthyperlink/) method to insert a hyperlink into the document. This method accepts three parameters:
 
 1. Text of the link to be displayed in the document
 2. Link destination (URL or a name of a bookmark inside the document)

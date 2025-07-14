@@ -9,9 +9,6 @@ weight: 40
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/work-with-word-document-options-and-appearance/
-aliases:
- - /python/work-with-document-options-and-settings/
- - /python/work-with-word-document-options-and-appearance/
 timestamp: 2025-07-09-10-05-05
 ---
 
@@ -19,7 +16,7 @@ Sometimes you may need to change the appearance of a document, for example, set 
 
 ## Set Document Display Options
 
-You can control how a document will be displayed in Microsoft Word using the [ViewOptions](https://reference.aspose.com/words/python-net/aspose.words.settings/viewoptions/) class. For example, you can set a document zoom value using the [zoom_percent](https://reference.aspose.com/words/python-net/aspose.words.settings/viewoptions/zoom_percent/) property, or the view mode using the [view_type](https://reference.aspose.com/words/python-net/aspose.words.settings/viewoptions/view_type/) property.
+You can control how a document will be displayed in Microsoft Word using the [ViewOptions](https://reference.aspose.com/words/nodejs-net/aspose.words.settings/viewoptions/) class. For example, you can set a document zoom value using the [zoomPercent](https://reference.aspose.com/words/nodejs-net/aspose.words.settings/viewoptions/zoomPercent/) property, or the view mode using the [viewType](https://reference.aspose.com/words/nodejs-net/aspose.words.settings/viewoptions/viewtype/) property.
 
 The following code example shows how to ensure that a document is displayed at 50% when opened in Microsoft Word:
 
@@ -39,7 +36,7 @@ Microsoft Word 2013 does not write any zoom factor to a document and no longer s
 
 ## Set Page Display Options
 
-If you want to set the number of characters per line, use the [characters_per_line](https://reference.aspose.com/words/python-net/aspose.words/pagesetup/characters_per_line/) property. You can also set the number of lines per page for a Word document – use the [lines_per_page](https://reference.aspose.com/words/python-net/aspose.words/pagesetup/lines_per_page/) property to get or set the number of lines per page in the document grid.
+If you want to set the number of characters per line, use the [charactersPerLine](https://reference.aspose.com/words/nodejs-net/aspose.words/pagesetup/charactersperline/) property. You can also set the number of lines per page for a Word document – use the [linesPerPage](https://reference.aspose.com/words/nodejs-net/aspose.words/pagesetup/linesperpage/) property to get or set the number of lines per page in the document grid.
 
 {{% alert color="primary" %}}
 
@@ -55,11 +52,11 @@ The following code example shows how to set the number of characters per line an
 
 Displaying a document in Microsoft Word depends on which languages are set as defaults for this document. If no languages are set in defaults, Microsoft Word takes information from the "Set Office Language Preferences" dialog box, which, for example, can be found under "File → Options → Language" in Microsoft Word 2019.
 
-With Aspose.Words, you can also set up language preferences using the [LanguagePreferences](https://reference.aspose.com/words/python-net/aspose.words.loading/languagepreferences/) class. Also note that for the correct display of your document it is necessary to set the Microsoft Word version that the document loading process should match – this can be done using the [msw_version](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/msw_version/) property.
+With Aspose.Words, you can also set up language preferences using the [LanguagePreferences](https://reference.aspose.com/words/nodejs-net/aspose.words.loading/languagepreferences/) class. Also note that for the correct display of your document it is necessary to set the Microsoft Word version that the document loading process should match – this can be done using the [mswVersion](https://reference.aspose.com/words/nodejs-net/aspose.words.loading/loadoptions/mswversion/) property.
 
 {{% alert color="primary" %}}
 
-If your Aspose.Words generated document does not look as expected, check the [language_preferences](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/language_preferences/) and [msw_version](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/msw_version/) values and adjust them if necessary to match the settings for your Microsoft Word version.
+If your Aspose.Words generated document does not look as expected, check the [language_preferences](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/language_preferences/) and [mswVersion](https://reference.aspose.com/words/nodejs-net/aspose.words.loading/loadoptions/mswversion/) values and adjust them if necessary to match the settings for your Microsoft Word version.
 
 {{% /alert %}}
 
@@ -73,7 +70,7 @@ The following code example shows how to set Russian as the default editing langu
 
 ## Optimize a Document for a Particular Word Version
 
-The [optimize_for](https://reference.aspose.com/words/python-net/aspose.words.settings/compatibilityoptions/optimize_for/) method allows optimizing document content, as well as default Aspose.Words behaviour for a particular version of Microsoft Word. You can use this method to prevent Microsoft Word from displaying the “Compatibility mode” ribbon upon document loading. Note that you may also need to set the [compliance](https://reference.aspose.com/words/python-net/aspose.words/document/compliance/) property to [ISO29500_2008_TRANSITIONAL](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlcompliance/#iso29500_2008_transitional) or higher.
+The [optimize_for](https://reference.aspose.com/words/nodejs-net/aspose.words.settings/compatibilityoptions/optimizeFor/) method allows optimizing document content, as well as default Aspose.Words behaviour for a particular version of Microsoft Word. You can use this method to prevent Microsoft Word from displaying the “Compatibility mode” ribbon upon document loading. Note that you may also need to set the [compliance](https://reference.aspose.com/words/nodejs-net/aspose.words/document/compliance/) property to [Iso29500_2008_Transitional](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/ooxmlcompliance/) or higher.
 
 The following code example shows how to optimize document content for Microsoft Word 2016:
 
