@@ -16,7 +16,7 @@ Aspose.Words allows users to work with images in a very flexible way. In this ar
 
 ## Inserting an Image
 
-[DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/) provides several overloads of the the [insertImage](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertImage/) method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The **insert_image** method can use images from different sources:
+[DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/) provides several overloads of the the [insertImage](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertimage/) method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The **insert_image** method can use images from different sources:
 
 - From a file or `URL` by passing a string parameter
 - From a stream by passing a `Stream` parameter
@@ -28,7 +28,7 @@ For each of the **insert_image** methods, there are further overloads which al
 
 ### Inserting an Inline Image
 
-Pass a single string representing a file that contains the image to [insertImage](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertImage/) to insert the image into the document as an inline graphic.
+Pass a single string representing a file that contains the image to [insertImage](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertimage/) to insert the image into the document as an inline graphic.
 
 The following code example shows how to insert an inline image at the cursor position into a document:
 
@@ -85,7 +85,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ## How to Insert Barcode on each Page of a Document
 
-This example demonstrates you to add the same or different barcodes on all or specific pages of a Word document. There is no direct way to add barcodes on all pages of a document but you can use the [moveToSection](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/moveToSection/), [moveToHeaderFooter](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/moveToHeaderFooter/) and [insertImage](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertImage/) methods to move to any section or headers/footers and insert the barcode images as you can see in the following code.
+This example demonstrates you to add the same or different barcodes on all or specific pages of a Word document. There is no direct way to add barcodes on all pages of a document but you can use the [moveToSection](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/moveToSection/), [moveToHeaderFooter](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/moveToHeaderFooter/) and [insertImage](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertimage/) methods to move to any section or headers/footers and insert the barcode images as you can see in the following code.
 
 The following code example Inserts a barcode image on each page of a document.
 

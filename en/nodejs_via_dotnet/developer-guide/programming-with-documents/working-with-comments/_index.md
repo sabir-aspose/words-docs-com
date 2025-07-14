@@ -9,7 +9,6 @@ weight: 260
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/working-with-comments/
-aliases: [/python/working-with-comments/]
 timestamp: 2025-07-09-10-05-05
 ---
 
@@ -49,7 +48,7 @@ In this sample we are going to look at some simple methods for both gathering in
 
 ### How to Extract or Remove Comments
 
-The code in this sample is actually quite simple and all methods are based on the same approach. A comment in a Word document is represented by a [Comment](https://reference.aspose.com/words/nodejs-net/aspose.words/comment/) object in the Aspose.Words document object model. To collect all the comments in a document use the [get_child_nodes](https://reference.aspose.com/words/python-net/aspose.words/compositenode/get_child_nodes/) method with the first parameter set to [NodeType.COMMENT](https://reference.aspose.com/words/python-net/aspose.words/nodetype/#comment). Make sure that the second parameter of the **get_child_nodes** method is set to true: this forces the **get_child_nodes** to select from all child nodes recursively, rather than only collecting the immediate children.
+The code in this sample is actually quite simple and all methods are based on the same approach. A comment in a Word document is represented by a [Comment](https://reference.aspose.com/words/nodejs-net/aspose.words/comment/) object in the Aspose.Words document object model. To collect all the comments in a document use the [getChildNodes](https://reference.aspose.com/words/nodejs-net/aspose.words/compositenode/getchildnodes/) method with the first parameter set to [NodeType.Comment](https://reference.aspose.com/words/nodejs-net/aspose.words/nodetype/). Make sure that the second parameter of the **get_child_nodes** method is set to true: this forces the **get_child_nodes** to select from all child nodes recursively, rather than only collecting the immediate children.
 
 To illustrate how to extract and remove comments from a document, we will go through the following steps:
 
@@ -66,7 +65,7 @@ To illustrate how to extract and remove comments from a document, we will go thr
 
 ### How to Extract All Comments
 
-The [get_child_nodes](https://reference.aspose.com/words/python-net/aspose.words/compositenode/get_child_nodes/) method is very useful and you can use it every time you need to get a list of document nodes of any type. The resulting collection does not create an immediate overhead because the nodes are selected into this collection only when you enumerate or access items in it.
+The [getChildNodes](https://reference.aspose.com/words/nodejs-net/aspose.words/compositenode/getchildnodes/) method is very useful and you can use it every time you need to get a list of document nodes of any type. The resulting collection does not create an immediate overhead because the nodes are selected into this collection only when you enumerate or access items in it.
 
 The following code example shows how to extract the author name, date&time and text of all comments in the document:
 
@@ -84,7 +83,7 @@ The following code example shows how to extract the author name, date&time and t
 
 ### How to Remove Comments
 
-If you are removing all comments, there is no need to move through the collection deleting comments one by one; you can remove them by calling [clear](https://reference.aspose.com/words/python-net/aspose.words/nodecollection/clear/) on the comments collection.
+If you are removing all comments, there is no need to move through the collection deleting comments one by one; you can remove them by calling [clear](https://reference.aspose.com/words/nodejs-net/aspose.words/nodecollection/clear/) on the comments collection.
 
 The following code example shows how to remove all comments in the document:
 
@@ -137,9 +136,9 @@ doc.save(docs_base.artifacts_dir + "WorkingWithComments.remove_region_text.docx"
 
 ## Add or Remove Comment's Reply
 
-The [add_reply](https://reference.aspose.com/words/python-net/aspose.words/comment/add_reply/) method adds a reply to this comment. Please note that due to the existing Microsoft Office limitations only 1 level of replies is allowed in the document. An exception of type **InvalidOperationException** will be raised if this method is called on the existing Reply comment.
+The [addReply](https://reference.aspose.com/words/nodejs-net/aspose.words/comment/addreply/) method adds a reply to this comment. Please note that due to the existing Microsoft Office limitations only 1 level of replies is allowed in the document. An exception of type **InvalidOperationException** will be raised if this method is called on the existing Reply comment.
 
-You can use [remove_reply](https://reference.aspose.com/words/python-net/aspose.words/comment/remove_reply/) method to remove the specified reply to this comment.
+You can use [removeReply](https://reference.aspose.com/words/nodejs-net/aspose.words/comment/removereply/) method to remove the specified reply to this comment.
 
 The following code example shows how to add a reply to comment and remove comment's reply:
 
@@ -147,7 +146,7 @@ The following code example shows how to add a reply to comment and remove commen
 
 ## Read Comment's Reply
 
-The [replies](https://reference.aspose.com/words/python-net/aspose.words/comment/replies/) property returns a collection of [Comment](https://reference.aspose.com/words/nodejs-net/aspose.words/comment/) objects that are immediate children of the specified comment.
+The [replies](https://reference.aspose.com/words/nodejs-net/aspose.words/comment/replies/) property returns a collection of [Comment](https://reference.aspose.com/words/nodejs-net/aspose.words/comment/) objects that are immediate children of the specified comment.
 
 The following code example shows how to iterate through a comment's replies and resolved them:
 

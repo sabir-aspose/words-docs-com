@@ -54,13 +54,13 @@ Note that the [startTrackRevisions](https://reference.aspose.com/words/nodejs-ne
 
 {{% /alert %}}
 
-At the end of the tracking changes process in your document, you will have the ability to even accept all revisions or reject them to revert the document to its original form. This can be achieved by either using the [acceptAllRevisions](https://reference.aspose.com/words/nodejs-net/aspose.words/document/acceptAllRevisions/) or [rejectAll](https://reference.aspose.com/words/nodejs-net/aspose.words/revisioncollection/rejectAll/) method. In addition, you can accept or reject each revision separately by using the [accept](https://reference.aspose.com/words/nodejs-net/aspose.words/revision/accept/) or [reject](https://reference.aspose.com/words/nodejs-net/aspose.words/revision/reject/) method.
+At the end of the tracking changes process in your document, you will have the ability to even accept all revisions or reject them to revert the document to its original form. This can be achieved by either using the [acceptAllRevisions](https://reference.aspose.com/words/nodejs-net/aspose.words/document/acceptallrevisions/) or [rejectAll](https://reference.aspose.com/words/nodejs-net/aspose.words/revisioncollection/rejectAll/) method. In addition, you can accept or reject each revision separately by using the [accept](https://reference.aspose.com/words/nodejs-net/aspose.words/revision/accept/) or [reject](https://reference.aspose.com/words/nodejs-net/aspose.words/revision/reject/) method.
 
 All changes will be tracked for one iteration from the moment you start the process to the moment you stop it. The connection between different iterations is represented as the following scenario: you complete the tracking process, then make some changes, and start tracking changes again. With this scenario, all changes that you did not accept or reject will be displayed again.
 
 {{% alert color="primary" %}}
 
-Note that the [acceptAllRevisions](https://reference.aspose.com/words/nodejs-net/aspose.words/document/acceptAllRevisions/) method is similar to the “Accept All Changes” in Microsoft Word.
+Note that the [acceptAllRevisions](https://reference.aspose.com/words/nodejs-net/aspose.words/document/acceptallrevisions/) method is similar to the “Accept All Changes” in Microsoft Word.
 
 {{% /alert %}}
 
@@ -76,11 +76,11 @@ The following code example shows how revisions are generated when a node is move
 
 With the previous tracking changes feature, you can understand which changes were made in your document and who made those changes. While with the [trackRevisions](https://reference.aspose.com/words/nodejs-net/aspose.words/document/trackrevisions/) feature, you force any changes within your document to be stored as revisions.
 
-Aspose.Words allows you to check if a document has a revision or not by using the [hasRevisions](https://reference.aspose.com/words/nodejs-net/aspose.words/document/hasRevisions/) property. If you do not need to automatically track the changes in your document through the **startTrackRevisions** and **stopTrackRevisions** methods, then you can use the [trackRevisions](https://reference.aspose.com/words/nodejs-net/aspose.words/document/trackrevisions/) property to check if the changes are tracked while editing a document in Microsoft Word and stored as revisions.
+Aspose.Words allows you to check if a document has a revision or not by using the [hasRevision](https://reference.aspose.com/words/nodejs-net/aspose.words/document/hasRevisions/) property. If you do not need to automatically track the changes in your document through the start_track_revisions and stop_track_revisions methods, then you can use the [trackRevisions](https://reference.aspose.com/words/nodejs-net/aspose.words/document/trackrevisions/) property to check if the changes are tracked while editing a document in Microsoft Word and stored as revisions.
 
 The [trackRevisions](https://reference.aspose.com/words/nodejs-net/aspose.words/document/trackrevisions/) feature makes revisions instead of real DOM changes. But the revisions themselves are separate. For example, If you delete any paragraph, Aspose.Words make it as a revision, marking it as deletion, instead of deleting it.
 
-In addition, Aspose.Words allows you to check if an object was inserted, deleted, or changed formatting using the [isDeleteRevision](https://reference.aspose.com/words/nodejs-net/aspose.words/inline/isDeleteRevision/), [isFormatRevision](https://reference.aspose.com/words/nodejs-net/aspose.words/inline/isFormatRevision/), [isInsertRevision](https://reference.aspose.com/words/nodejs-net/aspose.words/inline/isInsertRevision/), [isMoveFromRevision](https://reference.aspose.com/words/nodejs-net/aspose.words/inline/isMoveFromRevision/), and [isMoveToRevision](https://reference.aspose.com/words/nodejs-net/aspose.words/inline/isMoveToRevision/) properties.
+In addition, Aspose.Words allows you to check if an object was inserted, deleted, or changed formatting using the [isDeleteRevision](https://reference.aspose.com/words/nodejs-net/aspose.words/inline/isDeleteRevision/), [isFormatRevision](https://reference.aspose.com/words/nodejs-net/aspose.words/inline/isformatrevision/), [isInsertRevision](https://reference.aspose.com/words/nodejs-net/aspose.words/inline/isinsertrevision/), [isMoveFromRevision](https://reference.aspose.com/words/nodejs-net/aspose.words/inline/ismovefromrevision/), and [isMoveToRevision](https://reference.aspose.com/words/nodejs-net/aspose.words/inline/ismovetorevision/) properties.
 
 {{% alert color="primary" %}}
 

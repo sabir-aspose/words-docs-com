@@ -48,7 +48,7 @@ If a document contains embedded fonts, Aspose.Words can read relevant font data 
 
 ### Fonts on Non-Windows Systems
 
-Aspose.Words will look for the fonts in the system font folders. A list of these folders may be seen by the [SystemFontSource.getSystemFontFolders](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/systemfontsource/getSystemFontFolders/#default) method. If no supported fonts are found, Aspose.Words will use the built-in default font Fanwood.ttf.
+Aspose.Words will look for the fonts in the system font folders. A list of these folders may be seen by the [SystemFontSource.getSystemFontFolders](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/systemfontsource/getSystemFontFolders/) method. If no supported fonts are found, Aspose.Words will use the built-in default font Fanwood.ttf.
 
 Since the font metrics of Windows and non-Windows OS are different, Aspose.Words does everything possible to find a similar font and build a layout similar to the original. However, this is not always possible. In these cases, the [FontSettings](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/fontsettings/) class should be used to add custom fonts or substitution rules.
 
@@ -62,7 +62,7 @@ Aspose.Words looks for fonts in the `/Library/Fonts` folder, which is the standa
 
 ## Loading Fonts from Folder
 
-If the document being processed contains links to fonts that are not on the system, or you don't want to add them to the system folder, or you lack permissions, then the best solution would be to add a folder with your own fonts using the [FontSettings.setFontsSources](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/fontsettings/setFontsSources/) method. This will allow to replace the system source with a user source. Aspose.Words will no longer look for fonts in the registry or Windows\Font folder and instead only scan for fonts within the specified folder(s). The [FontSettings.getFontsSources](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/fontsettings/getFontsSources/#default/) method will return the corresponding values.
+If the document being processed contains links to fonts that are not on the system, or you don't want to add them to the system folder, or you lack permissions, then the best solution would be to add a folder with your own fonts using the [FontSettings.setFontsSources](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/fontsettings/setFontsSources/) method. This will allow to replace the system source with a user source. Aspose.Words will no longer look for fonts in the registry or Windows\Font folder and instead only scan for fonts within the specified folder(s). The [FontSettings.getFontsSources](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/fontsettings/getFontsSources//) method will return the corresponding values.
 
 ### Specifying One or Multiple Font Folders
 

@@ -9,7 +9,11 @@ weight: 20
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/translate-markdown-to-document-object-model/
+<<<<<<< HEAD
 timestamp: 2024-10-21-11-17-44
+=======
+timestamp: 2025-07-09-10-05-05
+>>>>>>> cfefc02aec614f7a59d872a03008865b064994d7
 ---
 
 To programmatically read, manipulate, and modify the content and formatting of a document, you need to translate it to the Aspose.Words Document Object Model (DOM).
@@ -226,7 +230,11 @@ builder.writeln("Item 2a")
 builder.writeln("Item 2b")
 
 builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.bulleted_list_example.md"){{< /highlight >}} |                                                              |
+<<<<<<< HEAD
 | **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Ordered lists are represented using paragraph numbering:<br />[ListFormat.applyNumberDefault](https://reference.aspose.com/words/nodejs-net/aspose.words.lists/listformat/applyNumberDefault/)<br />There can be 2 number format markers: `'.'` and `')'`. The default marker is `'.'`. |
+=======
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Ordered lists are represented using paragraph numbering:<br />[ListFormat.applyNumberDefault](https://reference.aspose.com/words/nodejs-net/aspose.words.lists/listformat/applynumberdefault/)<br />There can be 2 number format markers: `'.'` and `')'`. The default marker is `'.'`. |
+>>>>>>> cfefc02aec614f7a59d872a03008865b064994d7
 | {{< highlight python >}}doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
 
@@ -271,4 +279,3 @@ builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.ordered_lis
 ## See Also
 
 * [Working with Markdown Features](/words/nodejs-net/working-with-markdown-features/)
-

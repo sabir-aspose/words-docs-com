@@ -9,7 +9,6 @@ weight: 370
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/working-with-fields/
-aliases: [/python/working-with-fields/]
 timestamp: 2025-07-09-10-05-05
 ---
 
@@ -17,4 +16,4 @@ timestamp: 2025-07-09-10-05-05
 
 In a document created or edited with Aspose.Words, as in a Microsoft Word document, a field consists of a field code and a field result. The field code is an instruction about how the field result needs to be updated or calculated. An application that processes a document and encounters a field should interpret the instructions contained in the field code and update the field result with a new value.
 
-In Aspose.Words, fields are represented by the [Fields](https://reference.aspose.com/words/python-net/aspose.words.fields/) module. Articles in this documentation section explain how to use Aspose.Words classes to manipulate document fields programmatically.
+In Aspose.Words, fields are represented by the [Fields](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/) module. Articles in this documentation section explain how to use Aspose.Words classes to manipulate document fields programmatically.

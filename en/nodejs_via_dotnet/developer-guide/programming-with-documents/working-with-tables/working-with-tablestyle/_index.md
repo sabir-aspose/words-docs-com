@@ -76,7 +76,7 @@ Currently, you cannot create new table styles. You can only apply in-built table
 
 ## Take Formatting from Table Style and Apply it as Direct Formatting
 
-Aspose.Words also provides the [ExpandTableStylesToDirectFormatting](https://reference.aspose.com/words/nodejs-net/aspose.words/document/expandtablestylestodirectformatting/) method to take formatting found on a table style and expands it onto the rows and cells of the table as direct formatting. Try combining formatting with table style and cell style.
+Aspose.Words also provides the [ExpandTableStylesToDirectFormatting](https://reference.aspose.com/words/python-net/aspose.words/document/expand_table_styles_to_direct_formatting/) method to take formatting found on a table style and expands it onto the rows and cells of the table as direct formatting. Try combining formatting with table style and cell style.
 
 {{% alert color="primary" %}}
 

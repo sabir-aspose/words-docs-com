@@ -14,7 +14,7 @@ timestamp: 2025-07-09-10-05-05
 
 Sometimes it is necessary to remove a field from the document. This may occur when it is to be replaced with a different field type or when the field is no longer needed in the document. For example a `TOC` field when saving to HTML.
 
-To remove a field inserted into a document using [DocumentBuilder.insertField](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertfield/), use the returned [Field](https://reference.aspose.com/words/python-net/aspose.words.fields/field/) object, which provides the convenient [remove](https://reference.aspose.com/words/python-net/aspose.words.fields/field/remove/#default) method to easily remove the field from the document.
+To remove a field inserted into a document using [DocumentBuilder.insertField](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertfield/), use the returned [Field](https://reference.aspose.com/words/nodejs-net/aspose.words/field/) object, which provides the convenient [remove](https://reference.aspose.com/words/nodejs-net/aspose.words/field/remove/) method to easily remove the field from the document.
 
 The following code example shows how to remove a field from the document:
 
