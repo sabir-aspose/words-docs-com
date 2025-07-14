@@ -9,11 +9,10 @@ weight: 340
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/working-with-watermark/
-aliases: [/python/working-with-watermark/]
-timestamp: 2025-04-16-07-02-05
+timestamp: 2025-07-09-10-05-05
 ---
 
-This topic discusses how to work programmatically with watermark using Aspose.Words. A watermark is a background image that displays behind the text in a document. A watermark can contain a text or an image represented by the [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/) class.
+This topic discusses how to work programmatically with watermark using Aspose.Words. A watermark is a background image that displays behind the text in a document. A watermark can contain a text or an image represented by the [Watermark](https://reference.aspose.com/words/nodejs-net/aspose.words/watermark/) class.
 
 {{% alert color="primary" %}}
 
@@ -25,17 +24,17 @@ You can try this functionality with our [Free online document watermark](https:/
 
 ## How to Add a Watermark to a Document
 
-In Microsoft Word, a watermark can easily be inserted in a document using the Insert Watermark command. Aspose.Words provides the [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/) class to add or remove watermark in documents. Aspose.Words provides the [WatermarkType](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/) enumeration defining three possible types of watermarks ([TEXT](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/#text), [IMAGE](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/#image), and [NONE](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/#none)) to work with. 
+In Microsoft Word, a watermark can easily be inserted in a document using the Insert Watermark command. Aspose.Words provides the [Watermark](https://reference.aspose.com/words/nodejs-net/aspose.words/watermark/) class to add or remove watermark in documents. Aspose.Words provides the [WatermarkType](https://reference.aspose.com/words/nodejs-net/aspose.words/watermarktype/) enumeration defining three possible types of watermarks ([Text](https://reference.aspose.com/words/nodejs-net/aspose.words/watermarktype/), [Image](https://reference.aspose.com/words/nodejs-net/aspose.words/watermarktype/), and [None](https://reference.aspose.com/words/nodejs-net/aspose.words/watermarktype/)) to work with. 
 
 ### Add Text Watermark
 
-The following code example demonstrates how to insert a text watermark in a document by defining [TextWatermarkOptions](https://reference.aspose.com/words/python-net/aspose.words/textwatermarkoptions/) using the [set_text](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_text/) method:
+The following code example demonstrates how to insert a text watermark in a document by defining [TextWatermarkOptions](https://reference.aspose.com/words/nodejs-net/aspose.words/textwatermarkoptions/) using the [setText](https://reference.aspose.com/words/nodejs-net/aspose.words/watermark/setText/) method:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_watermark-AddTextWatermarkWithSpecificOptions.py" >}}
 
 ### Add Image Watermark
 
-The following code example demonstrates how to insert an image watermark in a document by defining [ImageWatermarkOptions](https://reference.aspose.com/words/python-net/aspose.words/imagewatermarkoptions/) using the [set_image](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_image/) method:
+The following code example demonstrates how to insert an image watermark in a document by defining [ImageWatermarkOptions](https://reference.aspose.com/words/nodejs-net/aspose.words/imagewatermarkoptions/) using the [setImage](https://reference.aspose.com/words/nodejs-net/aspose.words/watermark/setImage/#jsimage) method:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_watermark-AddImageWatermarkWithSpecificOptions.py" >}}
 
@@ -56,7 +55,7 @@ You can download the template file of this example from [here](https://github.c
 
 ## Remove Watermark from a Document
 
-The [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/) class provides the remove method to remove the watermark from a document.
+The [Watermark](https://reference.aspose.com/words/nodejs-net/aspose.words/watermark/) class provides the remove method to remove the watermark from a document.
 
 The following code example shows how to remove a watermark from documents:
 
@@ -75,7 +74,7 @@ watermark.name = "WaterMark"
 
 ## Add a Watermark in Table Cell
 
-Sometimes you need to insert a watermark/image into a table's cell and display it outside the table, you can use the [is_layout_in_cell](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/is_layout_in_cell/) property. This property gets or sets a flag indicating whether the shape is displayed inside a table or outside of it. Note that this property works only when you optimize the document for Microsoft Word 2010 using the [optimize_for](https://reference.aspose.com/words/python-net/aspose.words.settings/compatibilityoptions/optimize_for/) method.
+Sometimes you need to insert a watermark/image into a table's cell and display it outside the table, you can use the [isLayoutInCell property](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shapebase/islayoutincell/) property. This property gets or sets a flag indicating whether the shape is displayed inside a table or outside of it. Note that this property works only when you optimize the document for Microsoft Word 2010 using the [optimizeFor](https://reference.aspose.com/words/nodejs-net/aspose.words.settings/compatibilityoptions/optimizeFor/) method.
 
 The following code example shows how to use this property:
 

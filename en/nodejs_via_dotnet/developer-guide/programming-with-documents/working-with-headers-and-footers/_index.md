@@ -55,7 +55,7 @@ The following code example shows how to set the header for the first page only:
 
 ### Insert an Absolutely Positioned Image into the Header
 
-To place an image in a header or footer, use the **HeaderPrimary** header type or the **FooterPrimary** footer type and the [insert_image](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/) method.
+To place an image in a header or footer, use the **HeaderPrimary** header type or the **FooterPrimary** footer type and the [insertImage](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertImage/) method.
 
 The following code example shows how to add an image to a header:
 

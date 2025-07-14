@@ -16,16 +16,16 @@ Sometimes certain rows in a table require a heading or large blocks of text that
 
 ## How to Merge Table Cells
 
-In Aspose.Words, merged cells are represented by the following properties of the [CellFormat](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/) class:
+In Aspose.Words, merged cells are represented by the following properties of the [CellFormat](https://reference.aspose.com/words/nodejs-net/aspose.words.tables/cellformat/) class:
 
-- [HorizontalMerge](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/horizontal_merge/) which describes if the cell is a part of a horizontal merge of cells
-- [VerticalMerge](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/vertical_merge/) which describes if the cell is a part of a vertical merge of cells
+- [horizontalMerge](https://reference.aspose.com/words/nodejs-net/aspose.words.tables/cellformat/horizontalMerge/) which describes if the cell is a part of a horizontal merge of cells
+- [verticalMerge](https://reference.aspose.com/words/nodejs-net/aspose.words.tables/cellformat/verticalMerge/) which describes if the cell is a part of a vertical merge of cells
 
 The values of these properties determine the merge behavior of cells:
 
-- The first cell in a sequence of merged cells will have [CellMerge.First](https://reference.aspose.com/words/python-net/aspose.words.tables/cellmerge/#first)
-- Any subsequently merged cells will have [CellMerge.Previous](https://reference.aspose.com/words/python-net/aspose.words.tables/cellmerge/#previous)
-- A cell that is not merged will have [CellMerge.None](https://reference.aspose.com/words/python-net/aspose.words.tables/cellmerge/#none)
+- The first cell in a sequence of merged cells will have [CellMerge.First](https://reference.aspose.com/words/nodejs-net/aspose.words.tables/cellmerge/)
+- Any subsequently merged cells will have [CellMerge.Previous](https://reference.aspose.com/words/nodejs-net/aspose.words.tables/cellmerge/)
+- A cell that is not merged will have [CellMerge.None](https://reference.aspose.com/words/nodejs-net/aspose.words.tables/cellmerge/)
 
 {{% alert color="primary" %}}
 

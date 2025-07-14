@@ -15,7 +15,7 @@ aliases:
 timestamp: 2025-07-09-10-05-05
 ---
 
-A hyperlink in Microsoft Word documents is the `HYPERLINK` field. In Aspose.Words, hyperlinks are implemented through the [FieldHyperlink](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldhyperlink/) class.
+A hyperlink in Microsoft Word documents is the `HYPERLINK` field. In Aspose.Words, hyperlinks are implemented through the [FieldHyperlink](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldhyperlink/) class.
 
 ## Inserting a Hyperlink
 

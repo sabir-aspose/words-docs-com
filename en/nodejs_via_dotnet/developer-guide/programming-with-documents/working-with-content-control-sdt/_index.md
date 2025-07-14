@@ -17,7 +17,7 @@ In Microsoft Word, you can create a form by starting with a template and adding 
 
 - Block-level - Among paragraphs and tables, as a child of a [Body](https://reference.aspose.com/words/python-net/aspose.words/body/), [HeaderFooter](https://reference.aspose.com/words/nodejs-net/aspose.words/headerfooter/), [Comment](https://reference.aspose.com/words/nodejs-net/aspose.words/comment/), [Footnote](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/) or a [Shape](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/) node
 - Row-level - Among rows in a table, as a child of a **Table** node
-- Cell-level - Among cells in a table row, as a child of a [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) node
+- Cell-level - Among cells in a table row, as a child of a [Row](https://reference.aspose.com/words/nodejs-net/aspose.words.tables/row/) node
 - Inline-level - Among inline content inside, as a child of a [Paragraph](https://reference.aspose.com/words/nodejs-net/aspose.words/paragraph/)
 - Nested inside another [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/)
 

@@ -3,13 +3,12 @@ title: Working with Sections in Node.js
 second_title: Aspose.Words for Node.js via .NET
 articleTitle: Working with Sections
 linktitle: Working with Sections
-description: "Create and manage sections and section breaks in a document using Node.js. Insert section into a document Python. Remove section Python. Copy sections between Documents."
+description: "Create and manage sections and section breaks in a document using Node.js. Insert section into a document Node.js. Remove section Node.js. Copy sections between Documents."
 type: docs
 weight: 120
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/working-with-sections/
-aliases: [/python/working-with-sections/]
 timestamp: 2024-09-25-11-08-55
 ---
 
@@ -23,13 +22,13 @@ This article explains how to work with sections and section breaks.
 
 ## What Section and Section Break Is
 
-Document sections are represented by the [Section](https://reference.aspose.com/words/nodejs-net/aspose.words/section/) and [SectionCollection](https://reference.aspose.com/words/python-net/aspose.words/sectioncollection/) classes. Section objects are immediate children of the [Document](https://reference.aspose.com/words/nodejs-net/aspose.words/document/) node and can be accessed via the [Sections](https://reference.aspose.com/words/python-net/aspose.words/document/sections/) property. You can manage those nodes by using some methods such as [Remove](https://reference.aspose.com/words/python-net/aspose.words/nodecollection/remove/#node), [Add](https://reference.aspose.com/words/python-net/aspose.words/nodecollection/add/#node), [IndexOf](https://reference.aspose.com/words/python-net/aspose.words/nodecollection/index_of/#node), and others.
+Document sections are represented by the [Section](https://reference.aspose.com/words/nodejs-net/aspose.words/section/) and [SectionCollection](https://reference.aspose.com/words/nodejs-net/aspose.words/sectioncollection/) classes. Section objects are immediate children of the [Document](https://reference.aspose.com/words/nodejs-net/aspose.words/document/) node and can be accessed via the [Sections](https://reference.aspose.com/words/nodejs-net/aspose.words/document/sections/) property. You can manage those nodes by using some methods such as [Remove](https://reference.aspose.com/words/nodejs-net/aspose.words/nodecollection/remove/#node), [Add](https://reference.aspose.com/words/nodejs-net/aspose.words/nodecollection/add/), [IndexOf](https://reference.aspose.com/words/nodejs-net/aspose.words/nodecollection/indexof/), and others.
 
 Section break is an option that divides document pages into sections with customizable layouts.
 
 ## Types of a Section Break
 
-Aspose.Words allows you to split and format documents using different section breaks of the [BreakType](https://reference.aspose.com/words/python-net/aspose.words/breaktype/) enumeration:
+Aspose.Words allows you to split and format documents using different section breaks of the [BreakType](https://reference.aspose.com/words/nodejs-net/aspose.words/breaktype/) enumeration:
 
 - SectionBreakContinuous
 - SectionBreakNewColumn
@@ -37,23 +36,23 @@ Aspose.Words allows you to split and format documents using different section br
 - SectionBreakEvenPage
 - SectionBreakOddPage
 
-You can also use the [SectionStart](https://reference.aspose.com/words/python-net/aspose.words/sectionstart/) enumeration to choose a break type that applies only for the first section such as NewColumn, NewPage, EvenPage, and OddPage.
+You can also use the [SectionStart](https://reference.aspose.com/words/nodejs-net/aspose.words/sectionstart/) enumeration to choose a break type that applies only for the first section such as NewColumn, NewPage, EvenPage, and OddPage.
 
 ## Manage a Section
 
-Since a section is a normal composite node, the entire node manipulation API can be used to manipulate sections: to add, remove, and other operations on sections. You can read more about nodes in the article [Aspose.Words Document Object Model (DOM)](/words/python-net/aspose-words-document-object-model/).
+Since a section is a normal composite node, the entire node manipulation API can be used to manipulate sections: to add, remove, and other operations on sections. You can read more about nodes in the article [Aspose.Words Document Object Model (DOM)](/words/nodejs-net/aspose-words-document-object-model/).
 
 On the other hand, you can also use the `DocumentBuilder` API to work with sections. In this article, we will focus on this particular way of working with sections.
 
 ## Insert or Remove a Section Break
 
-Aspose.Words allows you to insert a section break into text using the [InsertBreak](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_break/#breaktype) method.
+Aspose.Words allows you to insert a section break into text using the [InsertBreak](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertbreak/) method.
 
 The following code example shows how to insert a section break into a document:
 
 {{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "insert-section-breaks.py" >}}
 
-Use the [Remove](https://reference.aspose.com/words/python-net/aspose.words/node/remove/#default) method to delete a section break. If you do not need to remove a specific section break and instead delete the content of that section, you can use the [ClearContent](https://reference.aspose.com/words/python-net/aspose.words/section/clear_content/#default) method.
+Use the [Remove](https://reference.aspose.com/words/nodejs-net/aspose.words/node/remove/) method to delete a section break. If you do not need to remove a specific section break and instead delete the content of that section, you can use the [ClearContent](https://reference.aspose.com/words/nodejs-net/aspose.words/section/clearcontent/) method.
 
 The following code example shows how to remove sections breaks: 
 
@@ -67,7 +66,7 @@ Note that a section break has information about the section that goes before it,
 
 ## Move a Section
 
-If you want to move a section from one position to another in your document, you need to get the index of that section. Aspose.Words allows you to get a section position from a [SectionCollection](https://reference.aspose.com/words/python-net/aspose.words/sectioncollection/). You can use the [Sections](https://reference.aspose.com/words/python-net/aspose.words/document/sections/) property to get all sections in your document. But if you want to get only the first section, you can use the [FirstSection](https://reference.aspose.com/words/python-net/aspose.words/document/first_section/) property.
+If you want to move a section from one position to another in your document, you need to get the index of that section. Aspose.Words allows you to get a section position from a [SectionCollection](https://reference.aspose.com/words/nodejs-net/aspose.words/sectioncollection/). You can use the [Sections](https://reference.aspose.com/words/nodejs-net/aspose.words/document/sections/) property to get all sections in your document. But if you want to get only the first section, you can use the [firstSection](https://reference.aspose.com/words/nodejs-net/aspose.words/document/firstsection/) property.
 
 The following code example shows how to access the first section and iterate through the children of a composite node:
 
@@ -75,7 +74,7 @@ The following code example shows how to access the first section and iterate thr
 
 ## Specify a Section Layout
 
-Sometimes you want your document to look better by making creative layouts for different document sections. If you want to specify the type of the current section grid, you can choose a section layout mode using the [SectionLayoutMode](https://reference.aspose.com/words/python-net/aspose.words/sectionlayoutmode/) enumeration:
+Sometimes you want your document to look better by making creative layouts for different document sections. If you want to specify the type of the current section grid, you can choose a section layout mode using the [SectionLayoutMode](https://reference.aspose.com/words/nodejs-net/aspose.words/sectionlayoutmode/) enumeration:
 
 - Default
 - Grid
@@ -88,7 +87,7 @@ The following code example shows how to limit the number of lines that each page
 
 ## Edit a Section
 
-When you add a new section to your document, there will be no body or paragraph that you can edit. Aspose.Words allows you to guarantee that a section contains a body with at least one paragraph using the [EnsureMinimum](https://reference.aspose.com/words/python-net/aspose.words/section/ensure_minimum/#default) method – it will automatically add a Body (or HeaderFooter) node to the document and then add a Paragraph to it.
+When you add a new section to your document, there will be no body or paragraph that you can edit. Aspose.Words allows you to guarantee that a section contains a body with at least one paragraph using the [ensureMinimum](https://reference.aspose.com/words/nodejs-net/aspose.words/section/ensureminimum/) method – it will automatically add a Body (or HeaderFooter) node to the document and then add a Paragraph to it.
 
 The following code example shows how to prepare a new section node using **EnsureMinimum**:
 
@@ -96,7 +95,7 @@ The following code example shows how to prepare a new section node using **Ensur
 
 ### Append or Prepend Content
 
-If you want to draw some shape or add text or image at the beginning/end of a section, you can use the [AppendContent](https://reference.aspose.com/words/python-net/aspose.words/section/append_content/#section) and [PrependContent](https://reference.aspose.com/words/python-net/aspose.words/section/prepend_content/#section) methods of the [Section](https://reference.aspose.com/words/nodejs-net/aspose.words/section/) class.
+If you want to draw some shape or add text or image at the beginning/end of a section, you can use the [appendContent](https://reference.aspose.com/words/nodejs-net/aspose.words/section/appendcontent/) and [prependContent](https://reference.aspose.com/words/nodejs-net/aspose.words/section/prependcontent/) methods of the [Section](https://reference.aspose.com/words/nodejs-net/aspose.words/section/) class.
 
 The following code example shows how to append content of an existing section:
 
@@ -104,7 +103,7 @@ The following code example shows how to append content of an existing section:
 
 ### Clone a Section
 
-Aspose.Words allows you to duplicate a section by creating a full copy of it using the [Clone](https://reference.aspose.com/words/python-net/aspose.words/section/clone/#default) method.
+Aspose.Words allows you to duplicate a section by creating a full copy of it using the [Clone](https://reference.aspose.com/words/nodejs-net/aspose.words/section/clone/) method.
 
 The following code example shows how to clone the first section in your document:
 
@@ -114,7 +113,7 @@ The following code example shows how to clone the first section in your document
 
 In some cases, you may have large documents with many sections and you want to copy the content of a section from one document to another.
 
-Aspose.Words allows you to copy sections between documents using the [ImportNode](https://reference.aspose.com/words/python-net/aspose.words/nodeimporter/import_node/#node_bool) method.
+Aspose.Words allows you to copy sections between documents using the [ImportNode](https://reference.aspose.com/words/nodejs-net/aspose.words/nodeimporter/importnode/) method.
 
 The following code example shows how to copy sections between documents:
 
@@ -131,7 +130,7 @@ The following code example shows how to create 2 sections with different headers
 
 {{< gist "aspose-words-gists" "2e1b2b28253780881d116e3a873ee668" "link-to-previous-header-footer.py" >}}
 
-If you want to remove the text of headers and footers without removing [HeaderFooter](https://reference.aspose.com/words/nodejs-net/aspose.words/headerfooter/) objects in your document, you can use the [ClearHeadersFooters](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/#default) method. In addition, you can use the [DeleteHeaderFooterShapes](https://reference.aspose.com/words/python-net/aspose.words/section/delete_header_footer_shapes/#default) method to remove all shapes from headers and footers in your document.
+If you want to remove the text of headers and footers without removing [HeaderFooter](https://reference.aspose.com/words/nodejs-net/aspose.words/headerfooter/) objects in your document, you can use the [clearHeadersFooters](https://reference.aspose.com/words/nodejs-net/aspose.words/section/clearheadersfooters/) method. In addition, you can use the [deleteHeaderFooterShapes](https://reference.aspose.com/words/nodejs-net/aspose.words/section/deleteheaderfootershapes/) method to remove all shapes from headers and footers in your document.
 
 The following code example shows how to clear content of all headers and footers in a section:
 
@@ -157,5 +156,5 @@ The following code example shows how to modify the page properties in all sectio
 
 ## See Also
 
-- [Logical Levels of Nodes in a Document](/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
-- [Insert and Append Documents](/words/python-net/insert-and-append-documents/)
+- [Logical Levels of Nodes in a Document](/words/nodejs-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
+- [Insert and Append Documents](/words/nodejs-net/insert-and-append-documents/)

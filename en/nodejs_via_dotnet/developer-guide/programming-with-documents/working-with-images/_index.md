@@ -9,7 +9,6 @@ weight: 300
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/working-with-images/
-aliases: [/python/working-with-images/]
 timestamp: 2025-07-09-10-05-05
 ---
 
@@ -17,7 +16,7 @@ Aspose.Words allows users to work with images in a very flexible way. In this ar
 
 ## Inserting an Image
 
-[DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/) provides several overloads of the the [insert_image](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/) method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The **insert_image** method can use images from different sources:
+[DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/) provides several overloads of the the [insertImage](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertImage/) method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The **insert_image** method can use images from different sources:
 
 - From a file or `URL` by passing a string parameter
 - From a stream by passing a `Stream` parameter
@@ -25,11 +24,11 @@ Aspose.Words allows users to work with images in a very flexible way. In this ar
 
 For each of the **insert_image** methods, there are further overloads which allow you to insert an image with the following options:
 - Inline or floating at a specific position, for example, **insert_image**
-- Percentage scale or custom size; furthermore, the [DocumentBuilder.insert_image](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/) method returns a [Shape](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/) object that was just created and inserted so you can further modify properties of the [Shape](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/)
+- Percentage scale or custom size; furthermore, the [DocumentBuilder.insertImage](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertImage/) method returns a [Shape](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/) object that was just created and inserted so you can further modify properties of the [Shape](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/)
 
 ### Inserting an Inline Image
 
-Pass a single string representing a file that contains the image to [insert_image](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/) to insert the image into the document as an inline graphic.
+Pass a single string representing a file that contains the image to [insertImage](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertImage/) to insert the image into the document as an inline graphic.
 
 The following code example shows how to insert an inline image at the cursor position into a document:
 
@@ -66,10 +65,10 @@ doc.save(docs_base.artifacts_dir+"WorkingWithImages.document_builder_insert_floa
 
 All images are stored inside [Shape](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/) nodes in a [Document](https://reference.aspose.com/words/nodejs-net/aspose.words/document/). To extract all images or images having specific type from the document, follow these steps:
 
-- Use the [Document.get_child_nodes](https://reference.aspose.com/words/python-net/aspose.words/compositenode/get_child_nodes/) method to select all [Shape](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/) nodes.
+- Use the [Document.getChildNodes](https://reference.aspose.com/words/nodejs-net/aspose.words/compositenode/getChildNodes/) method to select all [Shape](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/) nodes.
 - Iterate through resulting node collections.
-- Check the [Shape.has_image](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/has_image/) boolean property.
-- Extract image data using the [Shape.image_data](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/image_data/) property.
+- Check the [Shape.hasImage](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/hasimage/) boolean property.
+- Extract image data using the [Shape.imageData](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/imagedata/) property.
 - Save image data to a file.
 
 The following code example shows how to extract images from a document and save them as files:
@@ -86,7 +85,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ## How to Insert Barcode on each Page of a Document
 
-This example demonstrates you to add the same or different barcodes on all or specific pages of a Word document. There is no direct way to add barcodes on all pages of a document but you can use the [moveToSection](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/moveToSection/), [moveToHeaderFooter](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/moveToHeaderFooter/) and [insert_image](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/) methods to move to any section or headers/footers and insert the barcode images as you can see in the following code.
+This example demonstrates you to add the same or different barcodes on all or specific pages of a Word document. There is no direct way to add barcodes on all pages of a document but you can use the [moveToSection](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/moveToSection/), [moveToHeaderFooter](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/moveToHeaderFooter/) and [insertImage](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertImage/) methods to move to any section or headers/footers and insert the barcode images as you can see in the following code.
 
 The following code example Inserts a barcode image on each page of a document.
 
@@ -96,7 +95,7 @@ The following code example Inserts a barcode image on each page of a document.
 
 ## Lock Aspect Ratio of Image
 
-The aspect ratio of a geometric shape is the ratio of its sizes in different dimensions. You can lock the aspect ratio of the image using [aspect_ratio_locked](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/aspect_ratio_locked/). The default value of the shape's aspect ratio depends on the [ShapeType](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapetype/). It is `True` for [ShapeType.IMAGE](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapetype/#image) and `False` for other shape types.
+The aspect ratio of a geometric shape is the ratio of its sizes in different dimensions. You can lock the aspect ratio of the image using [aspectRatioLocked](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shapebase/aspectratiolocked/). The default value of the shape's aspect ratio depends on the [ShapeType](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shadowtype/). It is `True` for [ShapeType.Image](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shadowtype/) and `False` for other shape types.
 
 The following code example shows how to work with aspect ratio:
 
@@ -112,7 +111,7 @@ doc.save(docs_base.artifacts_dir+"WorkingWithImages.set_aspect_ratio_locked.doc"
 
 ## How to Get Actual Bounds of Shape in Points
 
-If you want the actual bounding box of the shape as rendered on the page, you can achieve this by using the [bounds_in_points](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/bounds_in_points/) property.
+If you want the actual bounding box of the shape as rendered on the page, you can achieve this by using the [boundsInPoints2](https://reference.aspose.com/words/nodejs-net/aspose.words.rendering/noderendererbase/boundsinpoints2/) property.
 
 The following code example shows how to use this property:
 

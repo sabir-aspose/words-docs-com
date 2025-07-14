@@ -9,9 +9,6 @@ weight: 360
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/working-with-ole-objects/
-aliases:
-- /python/working-with-ole-objects-and-online-video/
-- /python-net/working-with-ole-objects-and-online-video/
 timestamp: 2025-07-09-10-05-05
 ---
 
@@ -21,7 +18,7 @@ In this article, we will talk about inserting an OLE object and setting its prop
 
 ## Insert OLE Object
 
-If you want OLE Object, call the [insert_ole_object](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_ole_object/) method and pass it the **ProgId** explicitly with other parameters.
+If you want OLE Object, call the [insertOleObject](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertoleobject/) method and pass it the **ProgId** explicitly with other parameters.
 
 The following code example shows how to insert OLE Object into a document:
 
@@ -41,7 +38,7 @@ The following code example shows how to set the file name, extension, and displ
 
 Users can access OLE object data using various properties and methods of the `OleFormat` class. For example, it is possible to get the `OLE` object raw data or the path and name of a source file for the linked OLE object.
 
-The following code example shows how to get OLE Object raw data using the [get_raw_data](https://reference.aspose.com/words/python-net/aspose.words.drawing/oleformat/get_raw_data/) method:
+The following code example shows how to get OLE Object raw data using the [getRawData](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/oleformat/getrawdata/) method:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_ole_objects_and_active_x-GetAccessToOLEObjectRawData.py" >}}
 
@@ -49,7 +46,7 @@ The following code example shows how to get OLE Object raw data using the [get_r
 
 OLE objects can also be inserted into documents as images.
 
-The following code example shows how to insert OLE Object as an icon. For this purpose, the [DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/) class exposes the [insert_ole_object_as_icon](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_ole_object_as_icon/) method:
+The following code example shows how to insert OLE Object as an icon. For this purpose, the [DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/) class exposes the [insertOleObjectAsIcon](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertoleobjectasicon/) method:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_ole_objects_and_active_x-InsertOLEObjectAsIcon.py" >}}
 
@@ -59,7 +56,7 @@ The following code example shows how to inserts an embedded OLE object as an ico
 
 ## Insert Online Video
 
-Online video can be inserted into Word document from the *"Insert" > "Online Video"* tab. You can insert an online video into a document at the current location by calling the [insert_online_video](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_online_video/) method.
+Online video can be inserted into Word document from the *"Insert" > "Online Video"* tab. You can insert an online video into a document at the current location by calling the [insertOnlineVideo](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertonlinevideo/) method.
 
 The [DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/) class introduces four overloads of this method. The first one works with the most popular video resources and takes the `URL` of the video as a parameter. For example, the first overload supports simple insertion of online videos from [YouTube](https://www.youtube.com/) and [Vimeo](https://vimeo.com/) resources.
 

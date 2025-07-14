@@ -16,7 +16,7 @@ Replacing fields is often required when you wish to save your document as a stat
 
 The diagram below shows how the `IF` field is stored in a document:
 
-* the text is surrounded by the special field nodes – [FieldStart](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldstart/) and [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/)
+* the text is surrounded by the special field nodes – [FieldStart](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldstart/) and [FieldEnd](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldend/)
 * the [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/) node separates the text within the field into the field code and field result
 * the field code defines the general behavior of the field, while the field result retains the most recent result when this field is updated using Microsoft Word or Aspose.Words
 * the field result is what is stored in the field and displayed in the document when viewed

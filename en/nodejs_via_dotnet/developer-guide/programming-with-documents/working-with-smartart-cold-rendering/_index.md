@@ -9,7 +9,6 @@ weight: 330
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/working-with-smartart-cold-rendering/
-aliases: [/python/working-with-smartart-cold-rendering/]
 timestamp: 2025-07-09-10-05-05
 ---
 
@@ -23,7 +22,7 @@ Aspose.Words allows you to use a pre-rendered drawing or perform cold rendering:
 
 * If a pre-rendered drawing is available, Aspose.Words uses it to render the `SmartArt` object.
 * If pre-rendered drawing is missing, Aspose.Words implicitly performs cold rendering to render the `SmartArt` object.
-* If a pre-rendered drawing is present but is incorrect, it is required to perform SmartArt cold rendering explicitly by calling [update_smart_art_drawing](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/update_smart_art_drawing/) method.
+* If a pre-rendered drawing is present but is incorrect, it is required to perform SmartArt cold rendering explicitly by calling [updateSmartArtDrawing](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/updatesmartartdrawing/) method.
 
 The following code example shows how to update drawings for all diagrams in the document:
 

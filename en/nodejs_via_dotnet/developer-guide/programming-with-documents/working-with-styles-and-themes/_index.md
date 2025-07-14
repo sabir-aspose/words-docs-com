@@ -9,15 +9,14 @@ weight: 110
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/working-with-styles-and-themes/
-aliases: [/python/working-with-styles-and-themes/]
 timestamp: 2025-07-09-10-05-05
 ---
 
-The [StyleCollection](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/) class is used to manage built-in and apply user-defined settings to styles.
+The [StyleCollection](https://reference.aspose.com/words/nodejs-net/aspose.words/stylecollection/) class is used to manage built-in and apply user-defined settings to styles.
 
 ## Accessing Styles
 
-You can get a collection of styles defined in the document using the [Document.styles](https://reference.aspose.com/words/python-net/aspose.words/documentbase/styles/) property. This collection holds both the built-in and user-defined styles in a document. A particular style could be obtained by its name/alias, style identifier, or index. The following code example demonstrates how to get access to the collection of styles defined in the document.
+You can get a collection of styles defined in the document using the [Document.styles](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbase/styles/) property. This collection holds both the built-in and user-defined styles in a document. A particular style could be obtained by its name/alias, style identifier, or index. The following code example demonstrates how to get access to the collection of styles defined in the document.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_styles_and_themes-AccessStyles.py" >}}
 
@@ -51,13 +50,13 @@ The implementation of a style-based query is quite simple in the Aspose.Words do
 
 {{% alert color="primary" %}}
 
-This implementation also uses the [Document.get_child_nodes](https://reference.aspose.com/words/python-net/aspose.words/compositenode/get_child_nodes/) method of the [Document](https://reference.aspose.com/words/nodejs-net/aspose.words/document/) class, which returns a collection of all nodes with the specified type, which in this case in all paragraphs.
+This implementation also uses the [Document.getChildNodes](https://reference.aspose.com/words/nodejs-net/aspose.words/compositenode/getChildNodes/) method of the [Document](https://reference.aspose.com/words/nodejs-net/aspose.words/document/) class, which returns a collection of all nodes with the specified type, which in this case in all paragraphs.
 
-Note that the second parameter of the [Document.get_child_nodes](https://reference.aspose.com/words/python-net/aspose.words/compositenode/get_child_nodes/) method is set to `True`. This forces the [Document.get_child_nodes](https://reference.aspose.com/words/python-net/aspose.words/compositenode/get_child_nodes/) method to select from all child nodes recursively, rather than selecting the immediate children only.
+Note that the second parameter of the [Document.getChildNodes](https://reference.aspose.com/words/nodejs-net/aspose.words/compositenode/getChildNodes/) method is set to `True`. This forces the [Document.getChildNodes](https://reference.aspose.com/words/nodejs-net/aspose.words/compositenode/getChildNodes/) method to select from all child nodes recursively, rather than selecting the immediate children only.
 
 {{% /alert %}}
 
-It’s also worth pointing out that the paragraphs collection does not create an immediate overhead because paragraphs are loaded into this collection only when you access items in them. Then, all you need to do is to go through the collection, using the standard foreach operator and add paragraphs that have the specified style to the paragraphs_with_style array. The `Paragraph` style name can be found in the [Style.name](https://reference.aspose.com/words/python-net/aspose.words/style/name/) property of the [Paragraph.paragraph_format](https://reference.aspose.com/words/python-net/aspose.words/paragraph/paragraph_format/) object. The implementation of **runs_by_style_name** is almost the same, although we’re obviously using [NodeType.RUN](https://reference.aspose.com/words/python-net/aspose.words/nodetype/#run) to retrieve run nodes. The [Font.style](https://reference.aspose.com/words/python-net/aspose.words/font/style/) property of a [Run](https://reference.aspose.com/words/nodejs-net/aspose.words/run/) object is used to access style information in the [Run](https://reference.aspose.com/words/nodejs-net/aspose.words/run/) nodes. Below example find all runs formatted with the specified style.
+It’s also worth pointing out that the paragraphs collection does not create an immediate overhead because paragraphs are loaded into this collection only when you access items in them. Then, all you need to do is to go through the collection, using the standard foreach operator and add paragraphs that have the specified style to the paragraphs_with_style array. The `Paragraph` style name can be found in the [Style.name](https://reference.aspose.com/words/nodejs-net/aspose.words/style/name/) property of the [Paragraph.paragraphFormat](https://reference.aspose.com/words/nodejs-net/aspose.words/paragraph/paragraphformat/) object. The implementation of **runs_by_style_name** is almost the same, although we’re obviously using [NodeType.Run](https://reference.aspose.com/words/nodejs-net/aspose.words/nodetype/) to retrieve run nodes. The [Font.style](https://reference.aspose.com/words/nodejs-net/aspose.words/font/style/) property of a [Run](https://reference.aspose.com/words/nodejs-net/aspose.words/run/) object is used to access style information in the [Run](https://reference.aspose.com/words/nodejs-net/aspose.words/run/) nodes. Below example find all runs formatted with the specified style.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-RunsByStyleName.py" >}}
 
@@ -77,7 +76,7 @@ As you can see, this is a very simple example, showing the number and text of th
 
 ## Copy All Styles from Template
 
-There are cases when you want to copy all styles from one document into another. You can use [Document.copy_styles_from_template](https://reference.aspose.com/words/python-net/aspose.words/document/copy_styles_from_template/) method to copy styles from the specified template to a document. When styles are copied from a template to a document, like-named styles in the document are redefined to match the style descriptions in the template. Unique styles from the template are copied to the document. Unique styles in the document remain intact. Below code example shows how to copy styles from one document into another.
+There are cases when you want to copy all styles from one document into another. You can use [Document. copyStylesFromTemplate](https://reference.aspose.com/words/nodejs-net/aspose.words/document/copystylesfromtemplate/) method to copy styles from the specified template to a document. When styles are copied from a template to a document, like-named styles in the document are redefined to match the style descriptions in the template. Unique styles from the template are copied to the document. Unique styles in the document remain intact. Below code example shows how to copy styles from one document into another.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_styles_and_themes-CopyStyles.py" >}}
 
@@ -85,9 +84,9 @@ There are cases when you want to copy all styles from one document into another.
 
 We have added basic API in Aspose.Words to access document theme properties. For now, this API includes following public objects:
 
-- [Theme](https://reference.aspose.com/words/python-net/aspose.words.themes/theme/)
-- [ThemeFonts](https://reference.aspose.com/words/python-net/aspose.words.themes/themefonts/)
-- [ThemeColors](https://reference.aspose.com/words/python-net/aspose.words.themes/themecolors/)
+- [Theme](https://reference.aspose.com/words/nodejs-net/aspose.words/theme/)
+- [ThemeFonts](https://reference.aspose.com/words/nodejs-net/aspose.words.themes/themefonts/)
+- [ThemeColors](https://reference.aspose.com/words/nodejs-net/aspose.words.themes/themecolors/)
 
 Here is how you can get theme properties:
 

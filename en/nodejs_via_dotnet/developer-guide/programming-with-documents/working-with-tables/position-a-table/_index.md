@@ -23,7 +23,7 @@ In this article, we will discuss what options Aspose.Words provides for position
 
 ## Specify Inline Table Position
 
-You can set the position of an inline table using the Aspose.Words API and the [Alignment](https://reference.aspose.com/words/python-net/aspose.words.tables/table/alignment/) property. Thus, you can adjust the alignment of the table relative to the document page.
+You can set the position of an inline table using the Aspose.Words API and the [alignment](https://reference.aspose.com/words/nodejs-net/aspose.words/table/alignment/) property. Thus, you can adjust the alignment of the table relative to the document page.
 
 The following code example shows how to set the position of an inline table:
 
@@ -31,9 +31,9 @@ The following code example shows how to set the position of an inline table:
 
 ## Get Floating Table Alignment
 
-If the table text wrapping is set to **Around**, you can get the table's horizontal and vertical alignment using the [RelativeHorizontalAlignment](https://reference.aspose.com/words/python-net/aspose.words.tables/table/relative_horizontal_alignment/) and [RelativeVerticalAlignment](https://reference.aspose.com/words/python-net/aspose.words.tables/table/relative_vertical_alignment/) properties.
+If the table text wrapping is set to **Around**, you can get the table's horizontal and vertical alignment using the [relativeHorizontalAlignment](https://reference.aspose.com/words/nodejs-net/aspose.words/table/relativeHorizontalAlignment/) and [relativeVerticalAlignment](https://reference.aspose.com/words/nodejs-net/aspose.words/table/relativeVerticalAlignment/) properties.
 
-With **other types of text wrapping**, you can get inline table alignment using the [Alignment](https://reference.aspose.com/words/python-net/aspose.words.tables/table/alignment/) property.
+With **other types of text wrapping**, you can get inline table alignment using the [alignment](https://reference.aspose.com/words/nodejs-net/aspose.words/table/alignment/) property.
 
 The following code example shows how to get the table's alignment:
 
@@ -43,13 +43,13 @@ The following code example shows how to get the table's alignment:
 
  The position of a floating table is determined using the following properties: 
 
-* [HorizontalAnchor](https://reference.aspose.com/words/python-net/aspose.words.tables/table/horizontal_anchor/) – an object for calculating the horizontal positioning of a floating table
-* [VerticalAnchor](https://reference.aspose.com/words/python-net/aspose.words.tables/table/vertical_anchor/) – an object for calculating the vertical positioning of a floating table
-* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/python-net/aspose.words.tables/table/absolute_horizontal_distance/) – absolute horizontal floating table position
-* [AbsoluteVerticalDistance](https://reference.aspose.com/words/python-net/aspose.words.tables/table/absolute_vertical_distance/) – absolute vertical floating table position
-* [AllowOverlap](https://reference.aspose.com/words/python-net/aspose.words.tables/table/allow_overlap/) – option to enable/disable overlap with other floating objects
-* [RelativeHorizontalAlignment](https://reference.aspose.com/words/python-net/aspose.words.tables/table/relative_horizontal_alignment/) – floating table relative horizontal alignment.
-* [RelativeVerticalAlignment](https://reference.aspose.com/words/python-net/aspose.words.tables/table/relative_vertical_alignment/) – floating table relative vertical alignment.
+* [horizontalAnchor](https://reference.aspose.com/words/nodejs-net/aspose.words/table/horizontalAnchor/) – an object for calculating the horizontal positioning of a floating table
+* [verticalAnchor](https://reference.aspose.com/words/nodejs-net/aspose.words/table/verticalAnchor/) – an object for calculating the vertical positioning of a floating table
+* [absoluteHorizontalDistance](https://reference.aspose.com/words/nodejs-net/aspose.words/table/absoluteHorizontalDistance/) – absolute horizontal floating table position
+* [absoluteVerticalDistance](https://reference.aspose.com/words/nodejs-net/aspose.words/table/absoluteVerticalDistance/) – absolute vertical floating table position
+* [allowOverlap](https://reference.aspose.com/words/nodejs-net/aspose.words/table/allowOverlap/) – option to enable/disable overlap with other floating objects
+* [relativeHorizontalAlignment](https://reference.aspose.com/words/nodejs-net/aspose.words/table/relativeHorizontalAlignment/) – floating table relative horizontal alignment.
+* [relativeVerticalAlignment](https://reference.aspose.com/words/nodejs-net/aspose.words/table/relativeVerticalAlignment/) – floating table relative vertical alignment.
 
 The following code example shows how to get the position of a floating table:
 
@@ -69,10 +69,10 @@ The following code example shows how to set the position of a floating table:
 
 Aspose.Words also provides an opportunity to find out the distances between tables and surrounding texts:
 
-- [DistanceTop](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_top/) – the value of the distance from above
-- [DistanceBottom](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_bottom/) – the value of the distance of perception
-- [DistanceRight](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_right/) – distance value on the right
-- [DistanceLeft](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_left/) – distance value on the left
+- [distanceTop](https://reference.aspose.com/words/nodejs-net/aspose.words/table/distanceTop/) – the value of the distance from above
+- [distanceBottom](https://reference.aspose.com/words/nodejs-net/aspose.words/table/distanceBottom/) – the value of the distance of perception
+- [distanceRight](https://reference.aspose.com/words/nodejs-net/aspose.words/table/distanceRight/) – distance value on the right
+- [distanceLeft](https://reference.aspose.com/words/nodejs-net/aspose.words/table/distanceLeft/) – distance value on the left
 
 The following code example shows how to get the distance between a table and its surrounding text:
 

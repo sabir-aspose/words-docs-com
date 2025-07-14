@@ -9,11 +9,10 @@ weight: 320
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/working-with-officemath/
-aliases: [/python/working-with-officemath/]
 timestamp: 2025-07-09-10-05-05
 ---
 
-Now it is even more convenient to work with OfficeMath Type Objects. In Aspose.Words, the customer can easily Justify and can also manage whether an equation is displayed inline or in a separate line. More so, with the availability of [MathObjectType](https://reference.aspose.com/words/python-net/aspose.words.math/mathobjecttype/); useful controls can be implemented by use this matrix object.
+Now it is even more convenient to work with OfficeMath Type Objects. In Aspose.Words, the customer can easily Justify and can also manage whether an equation is displayed inline or in a separate line. More so, with the availability of [MathObjectType](https://reference.aspose.com/words/nodejs-net/aspose.words.math/mathobjecttype/), useful controls can be implemented by use this matrix object.
 
 The following code examples shows how to make use of these properties:
 

@@ -9,11 +9,10 @@ weight: 310
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/working-with-charts/
-aliases: [/python/working-with-charts/]
 timestamp: 2025-07-09-10-05-05
 ---
 
-New [insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) method was added into the [DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/) class. So, let's see how to insert a simple column chart into the document using [DocumentBuilder.insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) method:
+New [insertChart](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertchart/) method was added into the [DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/) class. So, let's see how to insert a simple column chart into the document using [DocumentBuilder.insertChart](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertchart/) method:
 
 ### How to Insert a Chart
 
