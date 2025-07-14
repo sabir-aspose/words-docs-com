@@ -98,6 +98,6 @@ The **priority** property is used when there are fonts with the same family na
 
 ## Getting a List of Available Fonts
 
-If you want to get the list of available fonts, which, for example, can be used to render a PDF document, you can use the [get_available_fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsourcebase/get_available_fonts/) method, as shown in the following code example. The [PhysicalFontInfo](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/physicalfontinfo/) class specifies information about the physical font available to Aspose.Words font engine:
+If you want to get the list of available fonts, which, for example, can be used to render a PDF document, you can use the **getAvailableFonts** method, as shown in the following code example. The [PhysicalFontInfo](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/physicalfontinfo/) class specifies information about the physical font available to Aspose.Words font engine:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-GetListOfAvailableFonts.py" >}}

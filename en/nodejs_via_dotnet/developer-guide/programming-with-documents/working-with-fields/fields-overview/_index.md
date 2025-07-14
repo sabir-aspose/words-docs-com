@@ -244,11 +244,7 @@ The [Document](https://reference.aspose.com/words/nodejs-net/aspose.words/docume
 
 ## Finding the Field Code and Field Result
 
-<<<<<<< HEAD
-A field which is inserted using [DocumentBuilder.insertField](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertfield/) returns a [Field](https://reference.aspose.com/words/python-net/aspose.words.fields/field/) object. This is a façade class which provides useful methods to quickly find such properties of a field. Note if you are only looking for the names of merge fields in the document then you can instead use the built-in method [MailMerge.get_field_names](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/get_field_names/). Below example shows how to get names of all merge fields in a document.
-=======
 A field which is inserted using [DocumentBuilder.insertField](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertfield/) returns a [Field](https://reference.aspose.com/words/nodejs-net/aspose.words/field/) object. This is a facade class which provides useful methods to quickly find such properties of a field. Below example shows how to get names of all merge fields in a document.
->>>>>>> cfefc02aec614f7a59d872a03008865b064994d7
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-GetFieldNames.py" >}}
 

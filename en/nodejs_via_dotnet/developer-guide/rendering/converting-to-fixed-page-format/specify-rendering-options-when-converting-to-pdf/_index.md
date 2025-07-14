@@ -86,7 +86,7 @@ A bookmark or heading navigation may have different appearances in various PDF v
 
 Aspose.Words provides an ability to downsample images in order to reduce the output PDF size, using the [downsampleOptions](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/pdfsaveoptions/downsampleoptions/) property. Downsampling is enabled by default in the [downsampleImages](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/downsampleoptions/downsampleImages/) property.
 
-Note that it is also possible to set a specific resolution in the [resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/downsampleoptions/resolution/) property, or a resolution threshold in the [resolutionThreshold](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/downsampleoptions/resolutionThreshold/) property. In the second case, if the image resolution is less than the threshold value, then downsampling will not apply.
+Note that it is also possible to set a specific resolution in the [resolution](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/downsampleoptions/resolution/) property, or a resolution threshold in the [resolutionThreshold](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/downsampleoptions/resolutionThreshold/) property. In the second case, if the image resolution is less than the threshold value, then downsampling will not apply.
 
 The code example below displays how to change the resolution of images in an output PDF document:
 

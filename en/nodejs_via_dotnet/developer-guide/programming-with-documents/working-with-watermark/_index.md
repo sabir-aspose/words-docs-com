@@ -74,7 +74,7 @@ watermark.name = "WaterMark"
 
 ## Add a Watermark in Table Cell
 
-Sometimes you need to insert a watermark/image into a table's cell and display it outside the table, you can use the [is_layout_in_cell](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/is_layout_in_cell/) property. This property gets or sets a flag indicating whether the shape is displayed inside a table or outside of it. Note that this property works only when you optimize the document for Microsoft Word 2010 using the [optimize_for](https://reference.aspose.com/words/nodejs-net/aspose.words.settings/compatibilityoptions/optimizeFor/) method.
+Sometimes you need to insert a watermark/image into a table's cell and display it outside the table, you can use the [isLayoutInCell](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shapebase/isLayoutInCell/) property. This property gets or sets a flag indicating whether the shape is displayed inside a table or outside of it. Note that this property works only when you optimize the document for Microsoft Word 2010 using the [optimize_for](https://reference.aspose.com/words/nodejs-net/aspose.words.settings/compatibilityoptions/optimizeFor/) method.
 
 The following code example shows how to use this property:
 

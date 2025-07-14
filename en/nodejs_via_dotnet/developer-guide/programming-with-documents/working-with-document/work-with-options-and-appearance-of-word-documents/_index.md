@@ -56,7 +56,7 @@ With Aspose.Words, you can also set up language preferences using the [LanguageP
 
 {{% alert color="primary" %}}
 
-If your Aspose.Words generated document does not look as expected, check the [language_preferences](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/language_preferences/) and [mswVersion](https://reference.aspose.com/words/nodejs-net/aspose.words.loading/loadoptions/mswversion/) values and adjust them if necessary to match the settings for your Microsoft Word version.
+If your Aspose.Words generated document does not look as expected, check the [languagePreferences](https://reference.aspose.com/words/nodejs-net/aspose.words.loading/loadoptions/languagePreferences/) and [mswVersion](https://reference.aspose.com/words/nodejs-net/aspose.words.loading/loadoptions/mswversion/) values and adjust them if necessary to match the settings for your Microsoft Word version.
 
 {{% /alert %}}
 
