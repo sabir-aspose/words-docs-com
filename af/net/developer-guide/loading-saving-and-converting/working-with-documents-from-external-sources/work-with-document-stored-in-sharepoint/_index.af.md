@@ -267,5 +267,5 @@ As gevolg hiervan, die "TestDoc.pdf" lêer moet in die "Gedeelde Dokumente" gids
 ## Sien Ook
 
 - Die artikel [Lewering](/words/net/rendering/) vir meer inligting oor die vaste bladsy en vloei-uitleg formate
-- Die artikel [Omskakeling Na Vaste bladsy Formaat](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) vir meer inligting oor die bladsy uitleg
+- Die artikel [Omskakeling Na Vaste bladsy Formaat](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) vir meer inligting oor die bladsy uitleg
 - Die artikel [Spesifiseer Vertoonopsies Wanneer U Na PDFOmskakel](/words/net/specify-rendering-options-when-converting-to-pdf/) vir meer inligting oor die gebruik van die [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) klas

@@ -82,5 +82,5 @@ El uso de la propiedad **OptimizeOutput** puede afectar la precisión de la visu
 ## Véase También
 
 - El artículo [Renderizado](/words/java/rendering/) para obtener más información sobre los formatos de página fija y diseño de flujo
-- El artículo [Conversión a Formato de página fija](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) para obtener más información sobre el diseño de la página
+- El artículo [Conversión a Formato de página fija](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) para obtener más información sobre el diseño de la página
 - El artículo [Especifica las Opciones de representación Al Convertir a PDF](/words/java/specify-rendering-options-when-converting-to-pdf/) para obtener más información sobre el uso de la clase `PdfSaveOptions`

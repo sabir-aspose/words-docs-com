@@ -68,5 +68,5 @@ Agar kode ini berfungsi, Anda perlu menambahkan referensi ke Aspose.Words dan `S
 ## Lihat Juga
 
 - Artikel tersebut [Rendering](/words/cpp/rendering/) untuk informasi selengkapnya tentang format halaman tetap dan tata letak alur
-- Artikel tersebut [Mengonversi ke Format halaman Tetap](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) untuk informasi lebih lanjut tentang tata letak halaman
+- Artikel tersebut [Mengonversi ke Format halaman Tetap](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) untuk informasi lebih lanjut tentang tata letak halaman
 - Artikel tersebut [Tentukan Opsi Rendering Saat Mengonversi ke PDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) untuk informasi lebih lanjut tentang penggunaan kelas `PdfSaveOptions`

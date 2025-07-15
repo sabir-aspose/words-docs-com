@@ -68,5 +68,5 @@ Para que este código funcione, debe agregar referencias a Aspose.Words y `Syste
 ## Véase También
 
 - El artículo [Renderizado](/words/cpp/rendering/) para obtener más información sobre los formatos de página fija y diseño de flujo
-- El artículo [Conversión a Formato de página fija](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) para obtener más información sobre el diseño de la página
+- El artículo [Conversión a Formato de página fija](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) para obtener más información sobre el diseño de la página
 - El artículo [Especifique las Opciones de representación Al Convertir a PDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) para obtener más información sobre el uso de la clase `PdfSaveOptions`

@@ -82,5 +82,5 @@ Aspose.Words забезпечує [PdfCompliance](https://reference.aspose.com/w
 ## Дивитися ще
 
 - Статті [Рендеринг](/words/uk/java/rendering/) для отримання додаткової інформації про формати фіксованої сторінки та потокового передавання
-- Статті [Перетворення у формат Фіксованого сторінки](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) для отримання додаткової інформації на макеті сторінки
+- Статті [Перетворення у формат Фіксованого сторінки](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) для отримання додаткової інформації на макеті сторінки
 - Статті [Казати казати казати казати](/words/uk/java/specify-rendering-options-when-converting-to-pdf/) для отримання додаткової інформації про використання `PdfSaveOptions` клас

@@ -90,5 +90,5 @@ Utilizarea proprietății **OptimizeOutput** poate afecta acuratețea afișării
 ## Vezi Și
 
 - Articolul [Redare](/words/python-net/rendering/) pentru mai multe informații despre pagina fixă și formatele de aspect de flux
-- Articolul [Conversia în format de pagină fixă](/words/python-net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) pentru mai multe informații despre aspectul paginii
+- Articolul [Conversia în format de pagină fixă](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) pentru mai multe informații despre aspectul paginii
 - Articolul [Specificați opțiunile De redare la conversia în PDF](/words/python-net/specify-rendering-options-when-converting-to-pdf/) pentru mai multe informații despre utilizarea clasei [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/)

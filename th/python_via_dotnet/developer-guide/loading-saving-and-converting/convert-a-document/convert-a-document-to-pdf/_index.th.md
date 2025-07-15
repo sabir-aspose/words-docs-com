@@ -90,5 +90,5 @@ Aspose.Words จัดเตรียมการแจงนับ [PdfComplian
 ## ดูสิ่งนี้ด้วย
 
 - บทความ [กำลังแสดงผล](/words/th/python-net/rendering/) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับรูปแบบหน้าคงที่และรูปแบบโฟลว์เลย์เอาต์
-- บทความ [การแปลงเป็นรูปแบบหน้าตายตัว](/words/python-net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับเค้าโครงหน้า
+- บทความ [การแปลงเป็นรูปแบบหน้าตายตัว](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับเค้าโครงหน้า
 - บทความ [ระบุตัวเลือกการเรนเดอร์เมื่อแปลงเป็น PDF](/words/th/python-net/specify-rendering-options-when-converting-to-pdf/) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการใช้คลาส [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/)

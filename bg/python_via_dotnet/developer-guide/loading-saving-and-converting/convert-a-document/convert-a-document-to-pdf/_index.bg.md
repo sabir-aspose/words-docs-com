@@ -90,5 +90,5 @@ Aspose.Words осигурява [PdfCompliance](https://reference.aspose.com/wor
 ## Вижте също
 
 - Статията. [Внасяне](/words/bg/python-net/rendering/) за повече информация относно форматите на фиксираната страница и на дебита
-- Статията. [Преобразуване във формат с фиксирана страница](/words/python-net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) за повече информация на оформлението на страницата
+- Статията. [Преобразуване във формат с фиксирана страница](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) за повече информация на оформлението на страницата
 - Статията. [Посочете настройките за прехвърляне при преобразуване в PDF](/words/bg/python-net/specify-rendering-options-when-converting-to-pdf/) за повече информация относно употребата на [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) клас

@@ -90,5 +90,5 @@ Aspose.Words מספק [PdfCompliance](https://reference.aspose.com/words/python-
 ## ראה גם
 
 - המאמר [Rendering](/words/he/python-net/rendering/) לקבלת מידע נוסף על פורמטים קבועים של דף וזרימה
-- המאמר [המרת פורמט קבוע-עמוד](/words/python-net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) למידע נוסף על פריסת הדף
+- המאמר [המרת פורמט קבוע-עמוד](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) למידע נוסף על פריסת הדף
 - המאמר [המונחים: Rendering Options When Converting to PDF](/words/he/python-net/specify-rendering-options-when-converting-to-pdf/) למידע נוסף על השימוש [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) הכיתה

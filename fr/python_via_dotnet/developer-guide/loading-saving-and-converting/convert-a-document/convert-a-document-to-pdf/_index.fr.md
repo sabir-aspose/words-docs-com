@@ -90,5 +90,5 @@ L'utilisation de la propriété **OptimizeOutput** peut affecter la précision d
 ## Voir également
 
 - L'article [Le rendu](/words/fr/python-net/rendering/) pour plus d'informations sur les formats de page fixe et de flow-layout
-- L'article [Conversion au format de page fixe](/words/python-net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) pour plus d'informations sur la mise en page
+- L'article [Conversion au format de page fixe](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) pour plus d'informations sur la mise en page
 - L'article [Spécifier les options de rendu lors de la conversion au format PDF](/words/fr/python-net/specify-rendering-options-when-converting-to-pdf/) pour plus d'informations sur l'utilisation de la classe [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/)

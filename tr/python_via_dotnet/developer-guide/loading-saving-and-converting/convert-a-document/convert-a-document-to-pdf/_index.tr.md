@@ -90,5 +90,5 @@ PDF'ye kaydederken çıktıyı optimize etmek isteyip istemediğinizi belirtebil
 ## Ayrıca bakınız
 
 - Sabit sayfa ve akış düzeni formatları hakkında daha fazla bilgi için [İşleme](/words/tr/python-net/rendering/) makalesi
-- Sayfa düzeni hakkında daha fazla bilgi için [Sabit Sayfa Formatına Dönüştürme](/words/python-net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) makalesi
+- Sayfa düzeni hakkında daha fazla bilgi için [Sabit Sayfa Formatına Dönüştürme](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) makalesi
 - [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) sınıfını kullanma hakkında daha fazla bilgi için [PDF'ye Dönüştürürken İşleme Seçeneklerini Belirtin](/words/tr/python-net/specify-rendering-options-when-converting-to-pdf/) makalesi

@@ -1,22 +1,22 @@
 ---
-title: C#'te Word'ü PDF'ye dönüştürün
+title: C#'ta Word'ü PDF'ye Dönüştürme
 second_title: .NET için Aspose.Words
-articleTitle: Bir Belgeyi PDF'ye Dönüştürme
-linktitle: Bir Belgeyi PDF'ye Dönüştürme
-description: "C# kullanarak bir belgeyi PDF'ye dönüştürün. DOCX'i PDF C#'ye dönüştürün. Word, OpenOffice, Resim ve e-Kitap formatları dahil olmak üzere çeşitli giriş formatları desteklenir."
+articleTitle: Belgeyi PDF'ye Çevirme
+linktitle: Belgeyi PDF'ye Çevirme
+description: "C#'ta Word'ü PDF'ye dönüştürme. DOCX'i PDF'ye dönüştürme için basit kod örnekleri. Tüm Word formatlarını ve resimleri destekler."
 type: docs
 weight: 10
 url: /tr/net/convert-a-document-to-pdf/
 timestamp: 2024-09-25-11-08-55
 ---
 
-Belgeleri bir formattan diğerine kolay ve güvenilir bir şekilde dönüştürme yeteneği Aspose.Words'in önemli bir özelliğidir. Dönüştürme için en popüler formatlardan biri, bir belgenin çeşitli platformlarda işlenmesi sırasında orijinal görünümünü koruyan sabit düzen formatı olan PDF'dir. "Rendering" terimi Aspose.Words'te bir belgenin sayfalandırılmış veya sayfa kavramına sahip bir dosya biçimine dönüştürülmesi sürecini tanımlamak için kullanılır.
+Belgeleri bir formattan diğerine kolay ve güvenilir bir şekilde dönüştürme yeteneği Aspose.Words'ün temel özelliğidir. PDF, dönüştürme için en popüler formatlardan biridir – çeşitli platformlarda işleme sırasında belgenin orijinal görünümünü koruyan sabit düzenli bir formattır. "İşleme" terimi Aspose.Words'te bir belgeyi sayfalanmış veya sayfa kavramına sahip bir dosya formatına çevirme işlemini tanımlamak için kullanılır.
 
 ## Word Belgesini PDF'ye Dönüştürme
 
-Word'den PDF'ye dönüştürme, birkaç hesaplama aşaması gerektiren oldukça karmaşık bir işlemdir. Aspose.Words düzen motoru, Microsoft Word'nin sayfa düzeni motorunun çalışma biçimini taklit ederek PDF çıktı belgelerinin Microsoft Word'de gördüklerinize mümkün olduğunca yakın görünmesini sağlar.
+Word'den PDF'ye dönüşüm, birkaç hesaplama aşaması gerektiren oldukça karmaşık bir süreçtir. Aspose.Words düzen motoru, Microsoft Word'ün sayfa düzen motorunun çalışma şeklini taklit ederek PDF çıktı belgelerinin Microsoft Word'de görebileceğinize mümkün olduğunca yakın görünmesini sağlar.
 
-Aspose.Words ile, Microsoft Office kullanmadan bir belgeyi DOC veya DOCX gibi Word biçimlerinden programlı olarak PDF'ye dönüştürebilirsiniz. Bu makalede bu dönüşümün nasıl gerçekleştirileceği açıklanmaktadır.
+Aspose.Words ile DOC veya DOCX gibi Word formatlarından bir belgeyi Microsoft Office kullanmadan programlı olarak PDF'ye değiştirebilirsiniz. Bu makale, bu dönüşümü nasıl gerçekleştireceğinizi açıklamaktadır.
 
 {{% alert color="primary" %}}
 
@@ -24,50 +24,50 @@ Bir belgedeki sayfa sayısının dönüştürme süresini etkilediğini unutmay�
 
 {{% /alert %}}
 
-### DOCX veya DOC'yi PDF'ye dönüştürün
+### DOCX veya DOC'u PDF'ye Dönüştürme
 
-DOC veya DOCX belge formatından Aspose.Words'de PDF formatına dönüştürmek çok kolaydır ve yalnızca iki satır kodla gerçekleştirilebilir:
+Aspose.Words'te DOC veya DOCX belge formatından PDF formatına çevirme çok kolaydır ve sadece iki satır kodla gerçekleştirilebilir:
 
-1. Belgenizi, biçim uzantısıyla birlikte belge adını belirterek yapıcılarından birini kullanarak bir [Document](https://reference.aspose.com/words/tr/net/aspose.words/document/) nesnesine yükleyin.
-1. **Document** nesnesinde [Document.Save](https://reference.aspose.com/words/tr/net/aspose.words/document/save/#save/) yöntemlerinden birini çağırın ve ".PDF" uzantılı bir dosya adı girerek istediğiniz çıktı formatını PDF olarak belirtin.
+1. Belgenizi format uzantısıyla birlikte belge adını belirterek yapıcılarından birini kullanarak [Document](https://reference.aspose.com/words/net/aspose.words/document/) nesnesine yükleyin.
+1. **Document** nesnesinde [Document.Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/) yöntemlerinden birini çağırın ve ".PDF" uzantısına sahip bir dosya adı girerek istenen çıktı formatını PDF olarak belirtin.
 
-Aşağıdaki kod örneği, [Save](https://reference.aspose.com/words/tr/net/aspose.words/document/save/) yöntemini kullanarak bir belgenin DOCX'ten PDF'ye nasıl dönüştürüleceğini gösterir:
+Aşağıdaki kod örneği, [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) yöntemini kullanarak bir belgeyi DOCX'ten PDF'ye nasıl dönüştüreceğinizi gösterir:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "docx-to-pdf.cs" >}}
 
-Bu örneğin şablon dosyasını [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx)'ten indirebilirsiniz.
+Bu örneğin şablon dosyasını [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx)'dan indirebilirsiniz.
 
 {{% alert color="primary" %}}
 
-Bazen bir belgeyi PDF olarak kaydetmenin sonucunu etkileyebilecek ek seçeneklerin belirtilmesi gerekebilir. Bu seçenekler, PDF çıktısının nasıl görüntüleneceğini belirleyen özellikleri içeren [PdfSaveOptions](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfsaveoptions/) sınıfı kullanılarak belirtilebilir.
+Bazen bir belgeyi PDF olarak kaydetmenin sonucunu etkileyebilecek ek seçenekler belirtmek gerekir. Bu seçenekler, PDF çıktısının nasıl görüntüleneceğini belirleyen özellikler içeren [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) sınıfı kullanılarak belirtilebilir.
 
-Aynı teknikle herhangi bir akış düzeni formatındaki belgeyi PDF formatına dönüştürebileceğinizi unutmayın.
+Aynı teknikle herhangi bir akış-düzen formatı belgeyi PDF formatına değiştirebileceğinizi unutmayın.
 
 {{% /alert %}}
 
-### Farklı PDF Standartlarına Dönüştürme
+### Farklı PDF Standartlarına Çevirme
 
-Aspose.Words, DOC veya DOCX'in çeşitli PDF formatı standartlarına (PDF 1.7, PDF 1.5 vb. gibi) dönüştürülmesini desteklemek için [PdfUyumluluk](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfcompliance/) numaralandırması sağlar.
+Aspose.Words, DOC veya DOCX'i çeşitli PDF format standartlarına (PDF 1.7, PDF 1.5, vb.) dönüştürmeyi desteklemek için [PdfCompliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) numaralandırması sağlar.
 
-Aşağıdaki kod örneği, PDF17 uyumluluğuyla [PdfSaveOptions](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfsaveoptions/) kullanarak bir belgenin PDF 1.7'ye nasıl dönüştürüleceğini gösterir:
+Aşağıdaki kod örneği, PDF17 uyumluluğuyla [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) kullanarak bir belgeyi PDF 1.7'ye nasıl dönüştüreceğinizi gösterir:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "conversion-to-pdf17.cs" >}}
 
-## Görüntüleri PDF'ye Dönüştür
+## Resimleri PDF'ye Dönüştürme
 
-PDF'ye dönüştürme Microsoft Word belge formatlarıyla sınırlı değildir. Programlı olarak oluşturulanlar da dahil olmak üzere Aspose.Words tarafından desteklenen herhangi bir format da PDF'ye dönüştürülebilir. Örneğin, JPEG, PNG, BMP, EMF veya WMF gibi tek sayfalı görsellerin yanı sıra TIFF ve GIF gibi çok sayfalı görselleri de PDF'ye dönüştürebiliriz.
+PDF'ye dönüştürme Microsoft Word belge formatlarıyla sınırlı değildir. Programlı olarak oluşturulanlar da dahil olmak üzere Aspose.Words tarafından desteklenen herhangi bir format da PDF'ye değiştirilebilir. Örneğin, JPEG, PNG, BMP, EMF veya WMF gibi tek sayfalı resimleri ve TIFF ve GIF gibi çok sayfalı resimleri PDF'ye çevirebiliriz.
 
-Aşağıdaki kod örneği, JPEG ve TIFF görüntülerinin PDF'ye nasıl dönüştürüleceğini gösterir:
+Aşağıdaki kod örneği, JPEG ve TIFF resimlerini PDF'ye nasıl değiştireceğinizi gösterir:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "image-to-pdf.cs" >}}
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "convert-image-to-pdf.cs" >}}
 
-Bu kodun çalışması için projenize Aspose.Words ve `System.Drawing`'ye referanslar eklemeniz gerekir.
+Bu kodun çalışması için projenize Aspose.Words ve `System.Drawing` referansları eklemeniz gerekir.
 
-## PDF Çıktı Boyutunu Azaltın
+## PDF Çıktı Boyutunu Azaltma
 
-PDF'ye kaydederken çıktıyı optimize etmek isteyip istemediğinizi belirtebilirsiniz. Bunu yapmak için [OptimizeOutput](https://reference.aspose.com/words/tr/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) bayrağını true olarak ayarlamanız gerekir, ardından yedekli iç içe geçmiş tuvaller ve boş tuvaller kaldırılacak, aynı biçimlendirmeye sahip komşu glyph'ler birleştirilecektir.
+PDF'ye kaydederken çıktıyı optimize etmek isteyip istemediğinizi belirtebilirsiniz. Bunu yapmak için [OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) bayrağını true olarak ayarlamanız gerekir, ardından gereksiz iç içe geçmiş ve boş tuvaller kaldırılır, aynı biçimlendirmeye sahip komşu glifler birleştirilir.
 
 Aşağıdaki kod örneği çıktının nasıl optimize edileceğini gösterir:
 
@@ -75,18 +75,18 @@ Aşağıdaki kod örneği çıktının nasıl optimize edileceğini gösterir:
 
 {{% alert color="primary" %}}
 
-**OptimizeOutput** özelliğinin kullanılması içerik görüntülemenin doğruluğunu etkileyebilir.
+**OptimizeOutput** özelliğini kullanmak içerik görüntülemenin doğruluğunu etkileyebilir.
 
 {{% /alert %}}
 
-## Ayrıca bakınız
+## Ayrıca Bakınız
 
-- Sabit sayfa ve akış düzeni formatları hakkında daha fazla bilgi için [İşleme](/words/tr/net/rendering/) makalesi
-- Sayfa düzeni hakkında daha fazla bilgi için [Sabit Sayfa Formatına Dönüştürme](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) makalesi
-- `PdfSaveOptions` sınıfını kullanma hakkında daha fazla bilgi için [PDF'ye Dönüştürürken İşleme Seçeneklerini Belirtin](/words/tr/net/specify-rendering-options-when-converting-to-pdf/) makalesi
-- Hangi PDF standardının ve PDF için ilgili ISO standartlarının Aspose.Words'i desteklediğini açıklayan [PDF/A ve PDF/UA'ya Dönüştürmenin Özelliklerini Öğrenin](/words/tr/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) makalesi
-- Hangi PDF standartlarının hangi durumlarda anlamlı olduğunu belirlemek için [Hangi PDF Standardını Seçmek Daha İyidir](/words/tr/net/which-pdf-standard-is-better-to-choose/) makalesi
+- [İşleme](/words/tr/net/rendering/) makalesinde sabit sayfa ve akış-düzen formatları hakkında daha fazla bilgi
+- [Sabit Sayfa Formatına Dönüştürme](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) makalesinde sayfa düzeni hakkında daha fazla bilgi
+- [PDF'ye Çevirirken İşleme Seçeneklerini Belirtme](/words/tr/net/specify-rendering-options-when-converting-to-pdf/) makalesinde `PdfSaveOptions` sınıfını kullanma hakkında daha fazla bilgi
+- [PDF/A ve PDF/UA'ya Dönüştürme Özelliklerini Öğrenin](/words/tr/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) makalesinde Aspose.Words'ün desteklediği PDF standardı ve PDF standartları için ilgili ISO'ları açıklayan
+- [Hangi PDF Standardının Seçilmesi Daha İyi](/words/tr/net/which-pdf-standard-is-better-to-choose/) makalesinde hangi PDF standartlarının hangi durumlar için mantıklı olduğunu belirleme
 
-- [PDF/A veya PDF/UA ile çalışma](/words/tr/net/working-with-pdfa-or-pdfua/) makalesi, PDF/A ve PDF/UA formatlarındaki belge içeriğine ilişkin gereksinimleri açıklamaktadır; esas olarak yapı ve yazı tiplerine ilişkin gereksinimler
+- [PDF/A veya PDF/UA ile Çalışma](/words/tr/net/working-with-pdfa-or-pdfua/) makalesinde PDF/A ve PDF/UA formatlarında belge içeriği gereksinimlerini açıklayan – öncelikle yapı ve yazı tipi gereksinimleri
 
-- [PDF/A ve PDF/UA'ya Kaydederken Erişilebilirlik Sorunu Uyarıları](/words/tr/net/warnings-when-saving-to-pdfa-and-pdfua/) makalesi, PDF/A ve PDF/UA'nın hangi içerik erişilebilirlik gerekliliklerini gerektirdiğini açıklamaktadır
+- [PDF/A ve PDF/UA'ya Kaydederken Erişilebilirlik Sorunları Uyarıları](/words/tr/net/warnings-when-saving-to-pdfa-and-pdfua/) makalesinde PDF/A ve PDF/UA'nın ne tür içerik erişilebilirlik gereksinimlerini getirdiğini açıklayan

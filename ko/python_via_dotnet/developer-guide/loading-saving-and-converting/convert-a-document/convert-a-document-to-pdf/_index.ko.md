@@ -90,5 +90,5 @@ PDF로 저장할 때 출력을 최적화할지 여부를 지정할 수 있습니
 ## 또한보십시오
 
 - 고정 페이지 및 흐름 레이아웃 형식에 대한 자세한 내용은 [표현](/words/ko/python-net/rendering/) 문서를 참조하세요
-- 페이지 레이아웃에 대한 자세한 내용은 [고정 페이지 형식으로 변환](/words/python-net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) 문서를 참조하세요
+- 페이지 레이아웃에 대한 자세한 내용은 [고정 페이지 형식으로 변환](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) 문서를 참조하세요
 - [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) 클래스 사용에 대한 자세한 내용은 [PDF로 변환 시 렌더링 옵션 지정](/words/ko/python-net/specify-rendering-options-when-converting-to-pdf/) 문서를 참조하세요

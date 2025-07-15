@@ -90,5 +90,5 @@ Aspose.Words提供[PdfCompliance](https://reference.aspose.com/words/python-net/
 ## 也可以看看
 
 - 文章 [渲染](/words/zh/python-net/rendering/) 了解有关固定页面和流程布局格式的更多信息
-- 有关页面布局的更多信息，请参阅 [转换为固定页面格式](/words/python-net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) 文章
+- 有关页面布局的更多信息，请参阅 [转换为固定页面格式](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) 文章
 - 有关使用 [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) 类的更多信息，请参阅 [转换为 PDF 时指定渲染选项](/words/zh/python-net/specify-rendering-options-when-converting-to-pdf/) 文章

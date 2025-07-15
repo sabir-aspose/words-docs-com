@@ -82,5 +82,5 @@ PDF에 저장할 때 출력을 최적화할지 여부를 지정할 수 있습니
 ## 또한 참조
 
 - 기사 [렌더링](/words/java/rendering/) 고정 페이지 및 플로우 레이아웃 형식에 대한 자세한 내용은
-- 기사 [고정 페이지 형식으로 변환](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) 페이지 레이아웃에 대한 자세한 내용은
+- 기사 [고정 페이지 형식으로 변환](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) 페이지 레이아웃에 대한 자세한 내용은
 - 기사 [PDF로 변환할 때 렌더링 옵션 지정](/words/java/specify-rendering-options-when-converting-to-pdf/) `PdfSaveOptions`클래스 사용에 대한 자세한 내용은

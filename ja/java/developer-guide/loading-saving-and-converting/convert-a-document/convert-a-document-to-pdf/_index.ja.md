@@ -82,5 +82,5 @@ PDFに保存するときに、出力を最適化するかどうかを指定で�
 ## また見て下さい
 
 - この記事は、 [レンダリング](/words/java/rendering/) 固定ページ形式とフローレイアウト形式の詳細については、以下を参照してください
-- この記事は、 [固定ページ形式への変換](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) ページレイアウトの詳細については
+- この記事は、 [固定ページ形式への変換](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) ページレイアウトの詳細については
 - この記事は、 [PDFに変換するときのレンダリングオプションの指定](/words/java/specify-rendering-options-when-converting-to-pdf/) `PdfSaveOptions`クラスの使用の詳細については

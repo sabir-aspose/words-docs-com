@@ -90,5 +90,5 @@ Aspose.Words забезпечує [PdfCompliance](https://reference.aspose.com/w
 ## Дивитися ще
 
 - Статті [Рендеринг](/words/uk/python-net/rendering/) для отримання більш детальної інформації про формати фіксованої сторінки та потоку
-- Статті [Перетворення у формат Фіксованого сторінки](/words/python-net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) для отримання додаткової інформації на макеті сторінки
+- Статті [Перетворення у формат Фіксованого сторінки](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) для отримання додаткової інформації на макеті сторінки
 - Статті [Вказати параметри рендерингу при конвертації в PDF](/words/uk/python-net/specify-rendering-options-when-converting-to-pdf/) для отримання додаткової інформації про використання [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) клас

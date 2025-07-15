@@ -82,5 +82,5 @@ Korzystanie z **OptimizeOutput** właściwość może wpływać na dokładność
 ## Zobacz również
 
 - Artykuł [Renderowanie](/words/pl/java/rendering/) więcej informacji na temat formatów fixed- page i flow- layout
-- Artykuł [Konwersja na formacie strony Naprawiono](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) więcej informacji na temat układu strony
+- Artykuł [Konwersja na formacie strony Naprawiono](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) więcej informacji na temat układu strony
 - Artykuł [Określ opcje renderowania podczas konwersji na PDF](/words/pl/java/specify-rendering-options-when-converting-to-pdf/) więcej informacji na temat korzystania z `PdfSaveOptions` klasa

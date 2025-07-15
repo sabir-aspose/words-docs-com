@@ -68,5 +68,5 @@ Bu kodun çalışması için projenize Aspose.Words ve `System.Drawing` başvuru
 ## Ayrıca bakınız
 
 - Makale [İşleme](/words/cpp/rendering/) sabit sayfa ve akış düzeni biçimleri hakkında daha fazla bilgi için
-- Makale [Sabit Sayfa Biçimine Dönüştürme](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) sayfa düzeni hakkında daha fazla bilgi için
+- Makale [Sabit Sayfa Biçimine Dönüştürme](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) sayfa düzeni hakkında daha fazla bilgi için
 - Makale [PDF'ye Dönüştürürken Oluşturma Seçeneklerini Belirtin](/words/cpp/specify-rendering-options-when-converting-to-pdf/) `PdfSaveOptions` sınıfını kullanma hakkında daha fazla bilgi için

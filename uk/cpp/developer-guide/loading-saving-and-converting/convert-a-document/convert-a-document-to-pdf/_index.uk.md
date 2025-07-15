@@ -68,5 +68,5 @@ Aspose.Words надає перелік [PdfCompliance](https://reference.aspose.
 ## Дивіться також
 
 - Стаття [Візуалізація](/words/cpp/rendering/) для отримання додаткової інформації про формати фіксованої сторінки та потокового макета
-- Стаття [Перетворення у формат фіксованої сторінки](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) для отримання додаткової інформації про макет сторінки
+- Стаття [Перетворення у формат фіксованої сторінки](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) для отримання додаткової інформації про макет сторінки
 - Стаття [Вкажіть параметри відображення при перетворенні в PDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) для отримання додаткової інформації про використання класу `PdfSaveOptions`

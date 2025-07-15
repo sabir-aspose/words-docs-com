@@ -68,5 +68,5 @@ Aby tento kód fungoval, musíte do svého projektu přidat odkazy na Aspose.Wor
 ## Vidět
 
 - Článek [Vykreslování](/words/cpp/rendering/) další informace o formátech fixed-page a flow-layout
-- Článek [Převod do formátu s pevnou stránkou](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) další informace o rozvržení stránky
+- Článek [Převod do formátu s pevnou stránkou](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) další informace o rozvržení stránky
 - Článek [Zadejte Možnosti Vykreslování při převodu na PDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) další informace o použití třídy `PdfSaveOptions`

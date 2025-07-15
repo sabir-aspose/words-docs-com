@@ -68,5 +68,5 @@ Pour que ce code fonctionne, vous devez ajouter des références à Aspose.Words
 ## Voir Aussi
 
 - L'article [Rendu](/words/cpp/rendering/) pour plus d'informations sur les formats de page fixe et de mise en page de flux
-- L'article [Conversion au format de page fixe](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) pour plus d'informations sur la mise en page
+- L'article [Conversion au format de page fixe](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) pour plus d'informations sur la mise en page
 - L'article [Spécifiez les options de rendu Lors de la conversion en PDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) pour plus d'informations sur l'utilisation de la classe `PdfSaveOptions`

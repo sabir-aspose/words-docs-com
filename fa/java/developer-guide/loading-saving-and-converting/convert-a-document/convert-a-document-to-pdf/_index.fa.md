@@ -82,5 +82,5 @@ Aspose.Words [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.
 ## بایگانی برچسب برای:
 
 - مقاله [رندر کردن](/words/java/rendering/) برای اطلاعات بیشتر در مورد فرمت های صفحه ثابت و طرح جریان
-- مقاله [تبدیل به فرمت صفحه ثابت](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) برای اطلاعات بیشتر در مورد طرح صفحه
+- مقاله [تبدیل به فرمت صفحه ثابت](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) برای اطلاعات بیشتر در مورد طرح صفحه
 - مقاله [گزینه های رندر را هنگام تبدیل به PDFمشخص کنید](/words/java/specify-rendering-options-when-converting-to-pdf/) برای اطلاعات بیشتر در مورد استفاده از کلاس `PdfSaveOptions`

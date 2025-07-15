@@ -82,5 +82,5 @@ Aspose.Words提供[PdfCompliance](https://reference.aspose.com/words/java/com.as
 ## 请参阅
 
 - 文章 [渲染图](/words/java/rendering/) 有关固定页面和流布局格式的更多信息
-- 文章 [转换为固定页格式](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) 有关页面布局的更多信息
+- 文章 [转换为固定页格式](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) 有关页面布局的更多信息
 - 文章 [转换为PDF时指定渲染选项](/words/java/specify-rendering-options-when-converting-to-pdf/) 有关使用`PdfSaveOptions`类的更多信息

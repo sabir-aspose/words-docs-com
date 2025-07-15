@@ -82,5 +82,5 @@ Aspose.Words מספק [PdfCompliance](https://reference.aspose.com/words/java/co
 ## ראה גם
 
 - המאמר [Rendering](/words/he/java/rendering/) לקבלת מידע נוסף על פורמטים קבועים של דף וזרימה
-- המאמר [המרת פורמט קבוע-עמוד](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) למידע נוסף על פריסת הדף
+- המאמר [המרת פורמט קבוע-עמוד](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) למידע נוסף על פריסת הדף
 - המאמר [תגית: PDF](/words/he/java/specify-rendering-options-when-converting-to-pdf/) למידע נוסף על השימוש `PdfSaveOptions` הכיתה

@@ -90,5 +90,5 @@ Die Verwendung der **OptimizeOutput**-Eigenschaft kann sich auf die Genauigkeit 
 ## Siehe auch
 
 – Der Artikel [Rendern](/words/de/python-net/rendering/) für weitere Informationen zu den Formaten mit fester Seite und Flow-Layout
-- Der Artikel [Konvertieren in das Fixed-Page-Format](/words/python-net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) für weitere Informationen zum Seitenlayout
+- Der Artikel [Konvertieren in das Fixed-Page-Format](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) für weitere Informationen zum Seitenlayout
 – Der Artikel [Geben Sie beim Konvertieren in PDF Rendering-Optionen an](/words/de/python-net/specify-rendering-options-when-converting-to-pdf/) für weitere Informationen zur Verwendung der [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/)-Klasse

@@ -82,5 +82,5 @@ Menggunakan properti **OptimizeOutput** dapat memengaruhi keakuratan tampilan ko
 ## Lihat Juga
 
 - Artikel tersebut [Rendering](/words/java/rendering/) untuk informasi selengkapnya tentang format halaman tetap dan tata letak alur
-- Artikel tersebut [Mengubah ke Format halaman Tetap](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) untuk informasi lebih lanjut tentang tata letak halaman
+- Artikel tersebut [Mengubah ke Format halaman Tetap](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) untuk informasi lebih lanjut tentang tata letak halaman
 - Artikel tersebut [Tentang Opsi Rendering Saat Mengubah ke PDF](/words/java/specify-rendering-options-when-converting-to-pdf/) untuk informasi lebih lanjut tentang penggunaan kelas `PdfSaveOptions`

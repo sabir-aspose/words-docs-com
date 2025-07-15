@@ -267,5 +267,5 @@ namespace SPOnlineExample
 ## 見也
 
 "-文章[Rendering](/words/net/rendering/)提供了有關固定頁面和流式排版的詳細資訊。"
-"-該文章 [Converting to Fixed-page Format](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) 提供有關頁面排版的更多資訊。"
+"-該文章 [Converting to Fixed-page Format](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) 提供有關頁面排版的更多資訊。"
 -該文章[Specify Rendering Options When Converting to PDF](/words/net/specify-rendering-options-when-converting-to-pdf/)提供有關使用 [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) 類別的更多資訊。

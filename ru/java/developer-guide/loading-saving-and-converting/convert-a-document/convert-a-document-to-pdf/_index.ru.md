@@ -82,5 +82,5 @@ Aspose.Words предоставляет перечисление [PdfCompliance]
 ## Смотрите также
 
 - Статья [Визуализация](/words/java/rendering/) для получения дополнительной информации о форматах фиксированной страницы и потокового макета
-- Статья [Преобразование в формат фиксированной страницы](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) для получения дополнительной информации о макете страницы
+- Статья [Преобразование в формат фиксированной страницы](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) для получения дополнительной информации о макете страницы
 - Статья [Укажите параметры отображения при преобразовании в PDF](/words/java/specify-rendering-options-when-converting-to-pdf/) для получения дополнительной информации об использовании класса `PdfSaveOptions`

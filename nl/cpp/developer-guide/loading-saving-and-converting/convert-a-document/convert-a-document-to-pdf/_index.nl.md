@@ -68,5 +68,5 @@ Om deze code te laten werken, moet u verwijzingen naar Aspose.Words en `System.D
 ## Zie Ook
 
 - Artikel [Rendering](/words/cpp/rendering/) voor meer informatie over de formaten fixed-page en flow-layout
-- Artikel [Omzetten naar vaste pagina-indeling](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) voor meer informatie over de pagina lay-out
+- Artikel [Omzetten naar vaste pagina-indeling](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) voor meer informatie over de pagina lay-out
 - Artikel [Geef weergaveopties op bij het converteren naar PDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) voor meer informatie over het gebruik van de `PdfSaveOptions` klasse

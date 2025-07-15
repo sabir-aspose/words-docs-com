@@ -68,5 +68,5 @@ Aspose.Words 제공 [PdfCompliance](https://reference.aspose.com/words/cpp/aspos
 ## 또한 참조
 
 - 기사 [렌더링](/words/cpp/rendering/) 고정 페이지 및 플로우 레이아웃 형식에 대한 자세한 내용은
-- 기사 [고정 페이지 형식으로 변환](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) 페이지 레이아웃에 대한 자세한 내용은
+- 기사 [고정 페이지 형식으로 변환](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) 페이지 레이아웃에 대한 자세한 내용은
 - 기사 [로 변환할 때 렌더링 옵션 지정 PDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) 사용에 대한 자세한 내용은 `PdfSaveOptions` 클래스

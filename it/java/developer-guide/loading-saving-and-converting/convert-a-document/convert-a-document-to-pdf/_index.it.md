@@ -82,5 +82,5 @@ L'utilizzo della proprietà **OptimizeOutput** può influire sulla precisione de
 ## Vedi anche
 
 - Articolo [Rendering](/words/java/rendering/) per ulteriori informazioni sui formati a pagina fissa e flow-layout
-- Articolo [Conversione in formato a pagina fissa](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) per ulteriori informazioni sul layout di pagina
+- Articolo [Conversione in formato a pagina fissa](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) per ulteriori informazioni sul layout di pagina
 - Articolo [Specificare le opzioni di rendering durante la conversione in PDF](/words/java/specify-rendering-options-when-converting-to-pdf/) per ulteriori informazioni sull'utilizzo della classe `PdfSaveOptions`

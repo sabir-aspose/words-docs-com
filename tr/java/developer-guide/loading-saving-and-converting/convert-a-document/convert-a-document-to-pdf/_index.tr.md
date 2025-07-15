@@ -82,5 +82,5 @@ Aşağıdaki kod örneği, çıktıyı nasıl optimize edeceğini göstermektedi
 ## Ayrıca bakınız
 
 - The article [Rendering](/words/java/rendering/) daha fazla bilgi için sabit-sayfa ve akış düzeni formatları
-- Makale [Converting to Fixed-page Format](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) sayfa düzenine dair daha fazla bilgi için
+- Makale [Converting to Fixed-page Format](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) sayfa düzenine dair daha fazla bilgi için
 - [Specify Rendering Options When Converting to PDF](/words/java/specify-rendering-options-when-converting-to-pdf/) makalesi daha fazla bilgi için, `PdfSaveOptions` sınıfını kullanma

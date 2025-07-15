@@ -82,5 +82,5 @@ Sử dụng thuộc tính **OptimizeOutput** có thể làm ảnh hưởng đế
 ## Xem thêm
 
 "- Bài viết [Rendering](/words/java/rendering/) cho thông tin chi tiết về các định dạng trang cố định và bố cục dòng"
-- Bài báo [Converting to Fixed-page Format](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) để biết thêm thông tin về bố cục trang
+- Bài báo [Converting to Fixed-page Format](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) để biết thêm thông tin về bố cục trang
 - Bài viết [Specify Rendering Options When Converting to PDF](/words/java/specify-rendering-options-when-converting-to-pdf/) để biết thêm thông tin về sử dụng lớp `PdfSaveOptions`

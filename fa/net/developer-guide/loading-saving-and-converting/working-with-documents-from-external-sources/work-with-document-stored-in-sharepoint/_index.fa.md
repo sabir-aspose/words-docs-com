@@ -267,5 +267,5 @@ namespace SPOnlineExample
 ## همچنین ببینید
 
 - مقاله [تفسیر](/words/fa/net/rendering/) برای اطلاعات بیشتر در مورد فرمت‌های صفحه ثابت و طرح‌بندی جریان
-- مقاله [تبدیل به فرمت صفحه ثابت](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) برای اطلاعات بیشتر در مورد صفحه آرایی
+- مقاله [تبدیل به فرمت صفحه ثابت](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) برای اطلاعات بیشتر در مورد صفحه آرایی
 - مقاله [هنگام تبدیل به PDF گزینه های رندر را مشخص کنید](/words/fa/net/specify-rendering-options-when-converting-to-pdf/) برای اطلاعات بیشتر در مورد استفاده از کلاس [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/)

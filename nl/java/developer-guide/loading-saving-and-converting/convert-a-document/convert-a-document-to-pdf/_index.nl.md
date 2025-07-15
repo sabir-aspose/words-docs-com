@@ -82,5 +82,5 @@ Gebruik van de **OptimizeOutput** eigenschap kan invloed hebben op de nauwkeurig
 ## Zie ook
 
 - Het artikel [Renderen](/words/nl/java/rendering/) voor meer informatie over de fixed-page en flow-layout formaten
-- Het artikel [Omzetten naar Fixed-Pagina Format](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) voor meer informatie over de pagina-indeling
+- Het artikel [Omzetten naar Fixed-Pagina Format](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) voor meer informatie over de pagina-indeling
 - Het artikel [Renderopties weergeven bij omzetten naar PDF](/words/nl/java/specify-rendering-options-when-converting-to-pdf/) voor meer informatie over het gebruik van de `PdfSaveOptions` klasse

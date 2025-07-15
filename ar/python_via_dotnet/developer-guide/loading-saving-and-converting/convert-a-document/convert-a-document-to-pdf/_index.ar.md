@@ -90,5 +90,5 @@ timestamp: 2024-01-31-14-23-37
 ## أنظر أيضا
 
 - المقالة [استدعاء](/words/ar/python-net/rendering/) لمزيد من المعلومات حول تنسيقات الصفحات الثابتة وتخطيطات التدفق
-- المقالة [التحويل إلى تنسيق الصفحة الثابتة](/words/python-net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) لمزيد من المعلومات حول تخطيط الصفحة
+- المقالة [التحويل إلى تنسيق الصفحة الثابتة](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) لمزيد من المعلومات حول تخطيط الصفحة
 - المقالة [حدد خيارات العرض عند التحويل إلى PDF](/words/ar/python-net/specify-rendering-options-when-converting-to-pdf/) لمزيد من المعلومات حول استخدام فئة [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/)

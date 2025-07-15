@@ -82,5 +82,5 @@ Die gebruik van die **OptimizeOutput** eienskap kan die akkuraatheid van inhoud 
 ## Sien Ook
 
 - Die artikel [Lewering](/words/java/rendering/) vir meer inligting oor die vaste bladsy en vloei-uitleg formate
-- Die artikel [Omskakeling Na Vaste bladsy Formaat](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) vir meer inligting oor die bladsy uitleg
+- Die artikel [Omskakeling Na Vaste bladsy Formaat](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) vir meer inligting oor die bladsy uitleg
 - Die artikel [Spesifiseer Vertoonopsies Wanneer U Na PDFOmskakel](/words/java/specify-rendering-options-when-converting-to-pdf/) vir meer inligting oor die gebruik van die `PdfSaveOptions` klas

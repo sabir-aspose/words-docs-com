@@ -3,7 +3,7 @@ title: Convert Word to PDF in C#
 second_title: Aspose.Words for .NET
 articleTitle: Convert a Document to PDF
 linktitle: Convert a Document to PDF
-description: "Convert a document to PDF using C#. Convert DOCX to PDF in C#. Various input formats are supported, including Word, OpenOffice, Image and eBook formats."
+description: "Convert Word to PDF in C#. Easy code examples for DOCX to PDF conversion. Supports all Word and image formats."
 type: docs
 weight: 10
 ai_search_scope: words_net
@@ -12,7 +12,7 @@ url: /net/convert-a-document-to-pdf/
 timestamp: 2024-09-25-11-08-55
 ---
 
-The ability to easily and reliably convert documents from one format to another is a key feature of Aspose.Words. One of the most popular formats for converting is PDF – a fixed-layout format, which preserves the original appearance of a document during its rendering on various platforms. The “rendering” term is used in Aspose.Words to describe the process of converting a document into a file format that is paginated or has the concept of pages.
+The ability to easily and reliably convert documents from one format to another is a key feature of Aspose.Words. One of the most popular formats for converting is PDF – a fixed-layout format, which preserves the original appearance of a document during its rendering on various platforms. The "rendering" term is used in Aspose.Words to describe the process of converting a document into a file format that is paginated or has the concept of pages.
 
 ## Convert a Word Document to PDF
 
@@ -84,7 +84,7 @@ Using the **OptimizeOutput** property may affect the accuracy of content display
 ## See Also
 
 - The article [Rendering](/words/net/rendering/) for more information on the fixed-page and flow-layout formats
-- The article [Converting to Fixed-page Format](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) for more information on the page layout
+- The article [Converting to Fixed-page Format](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) for more information on the page layout
 - The article [Specify Rendering Options When Converting to PDF](/words/net/specify-rendering-options-when-converting-to-pdf/) for more information on using the `PdfSaveOptions` class
 - The article [Learn Features of Conversion to PDF/A and PDF/UA](/words/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) describing which PDF standard and the relevant ISO for PDF standards support Aspose.Words
 - The article [Which PDF Standard Is Better to Choose](/words/net/which-pdf-standard-is-better-to-choose/) to determine which PDF standards make sense for which cases

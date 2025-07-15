@@ -82,7 +82,7 @@ Aspose.Words提供[PdfCompliance ](https://reference.aspose.com/words/net/aspose
 ## 見也
 
 "- 文章 [Rendering](/words/net/rendering/) 提供更多關於固定頁面和流式排版格式的資訊"
-"-該文章 [Converting to Fixed-page Format](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) 提供關於頁面布局的更多資訊"
+"-該文章 [Converting to Fixed-page Format](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) 提供關於頁面布局的更多資訊"
 "- 該文章 [Specify Rendering Options When Converting to PDF](/words/net/specify-rendering-options-when-converting-to-pdf/) 提供有關使用 `PdfSaveOptions` 的更多資訊。"
 -該文章[Learn Features of Conversion to PDF/A and PDF/UA](/words/net/learn-features-of-conversion-to-pdf-a-pdf-ua/)描述哪個PDF標準以及與PDF標準相關的ISO以支援Aspose.Words
 "-該文章 [Which PDF Standard Is Better to Choose](/words/net/which-pdf-standard-is-better-to-choose/) 來決定哪些 PDF 標準對哪些案例有意義。"
