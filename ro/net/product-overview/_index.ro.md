@@ -1,4 +1,4 @@
----
+﻿---
 title: Prezentare generală a produsului
 second_title: Aspose.Words pentru .NET
 articleTitle: Prezentare generală a produsului
@@ -16,7 +16,7 @@ Bine ai venit la Aspose.Words pentru .NET!
 
 "Aspose.Words este o bibliotecă de clasă cross-platform care permite aplicațiilor tale să efectueze o gamă largă de sarcini de procesare a documentelor."
 
-Utilizând Aspose.Words, puteți converti un document de la orice format de încărcare acceptat la orice format de salvare acceptat, de exemplu, formate de tip Word în PDF, HTML sau Markdown, PDF în DOCX și așa mai departe. Citește mai multe despre convertirea documentelor în secțiunea [Convert a Document](/words/net/convert-a-document/).
+Utilizând Aspose.Words, puteți converti un document de la orice format de încărcare acceptat la orice format de salvare acceptat, de exemplu, formate de tip Word în PDF, HTML sau Markdown, PDF în DOCX și așa mai departe. Citește mai multe despre convertirea documentelor în secțiunea [Convert a Document](/words/ro/net/convert-a-document/).
 
 Este demn de remarcat faptul că cu Aspose.Words puteți crea, modifica, converti, redarea și imprimare documente fără a depinde de aplicații terțe, cum ar fi Microsoft Word sau Office Automation.
 
@@ -42,21 +42,21 @@ Aspose.Words pentru caracteristici .NET pot fi împărțite în patru zone princ
 
 Capabilitatea de a converti cu ușurință și fiabilitate documentele este unul din principalele caracteristici ale Aspose.Words.
 
-Comprehensiv [document import and export](/words/net/loading-saving-and-converting/) cu [over 35 supported file formats](/words/net/supported-document-formats/) permite utilizatorilor să convertească documente de la [one popular format](https://reference.aspose.com/words/net/aspose.words/loadformat/) la [another](https://reference.aspose.com/words/net/aspose.words/saveformat/), pentru exemplu, de la DOCX la PDF, JPEG sau Markdown, sau de la PDF la diferite formate Word.
+Comprehensiv [document import and export](/words/ro/net/loading-saving-and-converting/) cu [over 35 supported file formats](/words/ro/net/supported-document-formats/) permite utilizatorilor să convertească documente de la [one popular format](https://reference.aspose.com/words/net/aspose.words/loadformat/) la [another](https://reference.aspose.com/words/net/aspose.words/saveformat/), pentru exemplu, de la DOCX la PDF, JPEG sau Markdown, sau de la PDF la diferite formate Word.
 
 #### Document Object Model (DOM)
 
-Accesul programatic prin intermediul unui API bogat la toate elementele de document și formatare permite crearea, modificarea, extragerea, copierea, separarea, unirea și înlocuirea conținutului documentelor. Găsiți mai multe în secțiunea [Aspose.Words Document Object Model (DOM)](/words/net/aspose-words-document-object-model/).
+Accesul programatic prin intermediul unui API bogat la toate elementele de document și formatare permite crearea, modificarea, extragerea, copierea, separarea, unirea și înlocuirea conținutului documentelor. Găsiți mai multe în secțiunea [Aspose.Words Document Object Model (DOM)](/words/ro/net/aspose-words-document-object-model/).
 
 #### Rendering-ul
 
-Noi folosim termenul [Rendering in Aspose.Words](/words/net/rendering/) pentru a descrie procesul de convertire a unui document într-un format de fișier sau într-un mediu, cu pagini sau care are conceptul de pagini.
+Noi folosim termenul [Rendering in Aspose.Words](/words/ro/net/rendering/) pentru a descrie procesul de convertire a unui document într-un format de fișier sau într-un mediu, cu pagini sau care are conceptul de pagini.
 
 Puteți converti întregi documente sau anumite pagini în pdf sau XPS pentru a genera documente de parte serverului, să le imprimați sau să redă paginile folosind .NET Grafică. Și tot acest lucru cu fidelitate ridicată - exact așa cum Microsoft Word ar fi făcut-o.
 
 #### Raportare
 
-Generați documente sau rapoarte de la zero sau prin completarea șabloanelor cu date din surse de date sau obiecte de afaceri. Pentru mai multe informații despre raportarea și extragerea datelor din baze de date, vezi secțiunile [Mail Merge and Reporting](/words/net/mail-merge-and-reporting/) și [LINQ Reporting Engine](/words/net/linq-reporting-engine/).
+Generați documente sau rapoarte de la zero sau prin completarea șabloanelor cu date din surse de date sau obiecte de afaceri. Pentru mai multe informații despre raportarea și extragerea datelor din baze de date, vezi secțiunile [Mail Merge and Reporting](/words/ro/net/mail-merge-and-reporting/) și [LINQ Reporting Engine](/words/net/linq-reporting-engine/).
 
 ### Independenţa platformei
 
@@ -92,9 +92,9 @@ Dezvoltatorii care au folosit anterior Microsoft Word automatizare în proiectel
 
 ## Preț și politici
 
-Vă rugăm să vizitați pagina [Licensing](/words/net/licensing/) pentru informaţii despre licențe și consultați pagina [Pricing Information](https://purchase.aspose.com/pricing/words/family/) pentru detalii privind prețurile.
+Vă rugăm să vizitați pagina [Licensing](/words/ro/net/licensing/) pentru informaţii despre licențe și consultați pagina [Pricing Information](https://purchase.aspose.com/pricing/words/family/) pentru detalii privind prețurile.
 
 ## Asistență tehnică
 
-Pentru mai multe informații despre Aspose.Words asistență tehnică, să aruncați o privire la [Support page](/words/net/technical-support/).
+Pentru mai multe informații despre Aspose.Words asistență tehnică, să aruncați o privire la [Support page](/words/ro/net/technical-support/).
 

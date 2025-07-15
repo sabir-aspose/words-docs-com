@@ -29,7 +29,7 @@ Pode experimentar esta funcionalidade com o nosso [Conversor em linha gratuito](
 
 ## Conversões Populares {#popular-conversions}
 
-A seção atual descreve conversões populares, bem como ideias para trabalhar com algumas combinações de formatos ao carregar e salvar. Usando os exemplos desta seção, você pode entender que o processo de conversão em si é bastante universal, e não faz sentido descrever todas as opções possíveis, uma vez que existem várias centenas delas devido ao grande número de [formatos suportados por Aspose.Words Para Java](/words/java/supported-document-formats/).
+A seção atual descreve conversões populares, bem como ideias para trabalhar com algumas combinações de formatos ao carregar e salvar. Usando os exemplos desta seção, você pode entender que o processo de conversão em si é bastante universal, e não faz sentido descrever todas as opções possíveis, uma vez que existem várias centenas delas devido ao grande número de [formatos suportados por Aspose.Words Para Java](/words/pt/java/supported-document-formats/).
 
 {{% alert color="primary" %}}
 

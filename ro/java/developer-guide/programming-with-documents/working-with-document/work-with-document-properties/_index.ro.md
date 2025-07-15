@@ -1,4 +1,4 @@
----
+﻿---
 title: Lucrați cu proprietățile documentului în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Lucrați cu proprietățile documentului
@@ -15,7 +15,7 @@ Proprietățile documentului permit stocarea unor informații utile despre docum
 * Sistem sau încorporat care conține valori precum titlul documentului, numele autorului, Statisticile documentelor și altele.
 * Definite de utilizator sau personalizate, furnizate ca perechi nume-valoare în care utilizatorul poate defini atât numele, cât și valoarea.
 
-Este util să știți că informațiile despre API și numărul versiunii sunt scrise direct în documentele de ieșire. De exemplu, la conversia unui document în PDF, Aspose.Words completează câmpul "aplicație" cu " Aspose.Words", iar câmpul" PDF Producător "cu"Aspose.Words pentru Java YY.M. N", unde *YY.M.N* este versiunea Aspose.Words folosită pentru conversie. Pentru mai multe detalii, a se vedea [Numele generatorului sau al producătorului inclus în documentele de ieșire](/words/java/generator-or-producer-name-included-in-output-documents/).
+Este util să știți că informațiile despre API și numărul versiunii sunt scrise direct în documentele de ieșire. De exemplu, la conversia unui document în PDF, Aspose.Words completează câmpul "aplicație" cu " Aspose.Words", iar câmpul" PDF Producător "cu"Aspose.Words pentru Java YY.M. N", unde *YY.M.N* este versiunea Aspose.Words folosită pentru conversie. Pentru mai multe detalii, a se vedea [Numele generatorului sau al producătorului inclus în documentele de ieșire](/words/ro/java/generator-or-producer-name-included-in-output-documents/).
 
 {{% alert color="primary" %}}
 

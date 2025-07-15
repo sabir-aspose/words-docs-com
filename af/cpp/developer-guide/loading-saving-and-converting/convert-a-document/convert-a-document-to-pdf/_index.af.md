@@ -1,4 +1,4 @@
----
+﻿---
 title: Skakel'n Dokument om na PDF in C++
 second_title: Aspose.Words vir C++
 articleTitle: Skakel'n Dokument om na PDF
@@ -67,6 +67,6 @@ Om hierdie kode te laat werk, moet jy verwysings na Aspose.Words en `System.Draw
 
 ## Sien Ook
 
-- Die artikel [Lewering](/words/cpp/rendering/) vir meer inligting oor die vaste bladsy en vloei-uitleg formate
+- Die artikel [Lewering](/words/af/cpp/rendering/) vir meer inligting oor die vaste bladsy en vloei-uitleg formate
 - Die artikel [Omskakeling Na Vaste bladsy Formaat](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) vir meer inligting oor die bladsy uitleg
-- Die artikel [Spesifiseer Vertoonopsies Wanneer U Na PDFOmskakel](/words/cpp/specify-rendering-options-when-converting-to-pdf/) vir meer inligting oor die gebruik van die `PdfSaveOptions` klas
+- Die artikel [Spesifiseer Vertoonopsies Wanneer U Na PDFOmskakel](/words/af/cpp/specify-rendering-options-when-converting-to-pdf/) vir meer inligting oor die gebruik van die `PdfSaveOptions` klas

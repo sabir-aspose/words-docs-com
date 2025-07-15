@@ -1,4 +1,4 @@
----
+﻿---
 title: AI - funciones potenciadas
 second_title: Aspose.Words por Python via .NET
 articleTitle: AI - funciones potenciadas
@@ -16,7 +16,7 @@ Aspose.Words ahora incluye funciones potenciadas por AI diseñadas para hacer qu
 
 En esta sección, cubriremos todo lo que necesita saber sobre el uso de las funciones AI compatibles en Aspose.Words. Desde consejos prácticos hasta instrucciones detalladas, nuestro objetivo es ayudarlo a aprovechar al máximo estas mejoras.
 
-* [Modelos AI compatibles](/words/python-net/supported-ai-models/)
-* [Resumir un Documento](/words/python-net/summarize-a-document/)
-* [Traducir un Documento](/words/python-net/translate-a-document/)
-* [Revisión Gramatical](/words/python-net/grammar-checking/)
+* [Modelos AI compatibles](/words/es/python-net/supported-ai-models/)
+* [Resumir un Documento](/words/es/python-net/summarize-a-document/)
+* [Traducir un Documento](/words/es/python-net/translate-a-document/)
+* [Revisión Gramatical](/words/es/python-net/grammar-checking/)

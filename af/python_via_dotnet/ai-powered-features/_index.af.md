@@ -1,4 +1,4 @@
----
+﻿---
 title: AI - aangedrewe Funksies
 second_title: Aspose.Words vir Python via .NET
 articleTitle: AI - aangedrewe Funksies
@@ -16,7 +16,7 @@ Aspose.Words sluit nou AI-aangedrewe funksies in wat ontwerp is om dokumentverwe
 
 In hierdie afdeling dek ons alles wat u moet weet oor die gebruik van ondersteunde AI funksies in Aspose.Words. Van praktiese wenke tot gedetailleerde instruksies, ons beoog om u te help om die meeste van hierdie verbeterings te maak.
 
-* [Ondersteunde AI Modelle](/words/python-net/supported-ai-models/)
-* [Som'n Dokument op](/words/python-net/summarize-a-document/)
-* [Vertaal'n Dokument](/words/python-net/translate-a-document/)
-* [Grammatika-Kontrole](/words/python-net/grammar-checking/)
+* [Ondersteunde AI Modelle](/words/af/python-net/supported-ai-models/)
+* [Som'n Dokument op](/words/af/python-net/summarize-a-document/)
+* [Vertaal'n Dokument](/words/af/python-net/translate-a-document/)
+* [Grammatika-Kontrole](/words/af/python-net/grammar-checking/)

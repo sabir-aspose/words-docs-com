@@ -1,4 +1,4 @@
----
+﻿---
 title: نمای کلی محصول
 second_title: Aspose.Words برای C++
 articleTitle: نمای کلی محصول
@@ -16,7 +16,7 @@ timestamp: 2024-06-05-14-43-57
 
 Aspose.Words یک کتابخانه کلاس چند پلتفرم است که برنامه های شما را قادر می سازد تا انواع مختلفی از وظایف پردازش اسناد را انجام دهند.
 
-با استفاده از Aspose.Words می توانید یک سند را از هر فرمت بارگذاری پشتیبانی شده به هر فرمت ذخیره پشتیبانی شده تبدیل کنید، به عنوان مثال، فرمت های Word به PDF، HTML یا Markdown، HTML به DOCX و غیره. بیشتر بخوانید درباره تبدیل اسناد در [تبدیل یک سند](/words/cpp/convert-a-document/) بخش.
+با استفاده از Aspose.Words می توانید یک سند را از هر فرمت بارگذاری پشتیبانی شده به هر فرمت ذخیره پشتیبانی شده تبدیل کنید، به عنوان مثال، فرمت های Word به PDF، HTML یا Markdown، HTML به DOCX و غیره. بیشتر بخوانید درباره تبدیل اسناد در [تبدیل یک سند](/words/fa/cpp/convert-a-document/) بخش.
 
 شایان ذکر است که با Aspose.Words می توانید اسناد را بدون تکیه بر برنامه های شخص ثالث مانند Microsoft Word یا Office Automation ایجاد، تغییر، تبدیل، رندر و چاپ کنید.
 
@@ -42,21 +42,21 @@ Aspose.Words برای C++ ویژگی ها را می توان به چهار حو�
 
 قابلیت تبدیل آسان و قابل اعتماد اسناد یکی از ویژگی های اصلی Aspose.Words است.
 
-جامع [واردات و صادرات اسناد](/words/cpp/loading-saving-and-converting/) با [بیش از 35 فرمت فایل پشتیبانی شده](/words/cpp/supported-document-formats/) به کاربران اجازه می دهد تا اسناد را از [one popular format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) به [another](https://reference.aspose.com/words/cpp/aspose.words/saveformat/) تبدیل کنند، به عنوان مثال، از DOCX به PDF، JPEG یا Markdown.
+جامع [واردات و صادرات اسناد](/words/fa/cpp/loading-saving-and-converting/) با [بیش از 35 فرمت فایل پشتیبانی شده](/words/fa/cpp/supported-document-formats/) به کاربران اجازه می دهد تا اسناد را از [one popular format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) به [another](https://reference.aspose.com/words/cpp/aspose.words/saveformat/) تبدیل کنند، به عنوان مثال، از DOCX به PDF، JPEG یا Markdown.
 
 #### مدل شیء سند (DOM)
 
-دسترسی برنامه ریزی شده از طریق یک API غنی به تمام عناصر سند و قالب بندی اجازه می دهد تا ایجاد، اصلاح، استخراج، کپی، تقسیم، پیوستن و جایگزینی محتوای سند. اطلاعات بیشتر را در [Aspose.Words مدل شیء سند (DOM)](/words/cpp/aspose-words-document-object-model/) بخش.
+دسترسی برنامه ریزی شده از طریق یک API غنی به تمام عناصر سند و قالب بندی اجازه می دهد تا ایجاد، اصلاح، استخراج، کپی، تقسیم، پیوستن و جایگزینی محتوای سند. اطلاعات بیشتر را در [Aspose.Words مدل شیء سند (DOM)](/words/fa/cpp/aspose-words-document-object-model/) بخش.
 
 #### رندر کردن
 
-ما از این اصطلاح استفاده می کنیم [رندر در Aspose.Words](/words/cpp/rendering/) برای توصیف فرآیند تبدیل یک سند به یک فرمت فایل یا یک رسانه، صفحه بندی شده یا که مفهوم صفحات را دارد.
+ما از این اصطلاح استفاده می کنیم [رندر در Aspose.Words](/words/fa/cpp/rendering/) برای توصیف فرآیند تبدیل یک سند به یک فرمت فایل یا یک رسانه، صفحه بندی شده یا که مفهوم صفحات را دارد.
 
 شما می توانید کل اسناد یا صفحات خاص را به PDF یا XPS تبدیل کنید تا اسناد سمت سرور را تولید کنید، آنها را چاپ کنید. و همه این ها با وفاداری بالا – دقیقا مثل Microsoft Word این کار را می کرد.
 
 #### گزارش
 
-اسناد یا گزارش ها را از ابتدا یا با پر کردن قالب ها با داده ها از منابع داده یا اشیاء تجاری تولید کنید. برای اطلاعات بیشتر در مورد گزارش و گرفتن داده ها از پایگاه داده ها، به [Mail Merge و گزارش](/words/cpp/mail-merge-and-reporting/).
+اسناد یا گزارش ها را از ابتدا یا با پر کردن قالب ها با داده ها از منابع داده یا اشیاء تجاری تولید کنید. برای اطلاعات بیشتر در مورد گزارش و گرفتن داده ها از پایگاه داده ها، به [Mail Merge و گزارش](/words/fa/cpp/mail-merge-and-reporting/).
 
 ### پلتفرم استقلال
 
@@ -86,8 +86,8 @@ Aspose.Words چند رشته ای امن است تا زمانی که فقط یک
 
 ## قیمت گذاری و سیاست ها
 
-لطفا به سایت [صدور مجوز](/words/cpp/licensing/) صفحه برای اطلاعات در مورد مجوزها و بررسی [اطلاعات قیمت گذاری](https://purchase.aspose.com/pricing/words/family/) صفحه برای جزئیات در مورد قیمت گذاری.
+لطفا به سایت [صدور مجوز](/words/fa/cpp/licensing/) صفحه برای اطلاعات در مورد مجوزها و بررسی [اطلاعات قیمت گذاری](https://purchase.aspose.com/pricing/words/family/) صفحه برای جزئیات در مورد قیمت گذاری.
 
 ## پشتیبانی فنی
 
-برای اطلاعات بیشتر در مورد پشتیبانی فنی Aspose.Words، نگاهی به [صفحه پشتیبانی](/words/cpp/technical-support/).
+برای اطلاعات بیشتر در مورد پشتیبانی فنی Aspose.Words، نگاهی به [صفحه پشتیبانی](/words/fa/cpp/technical-support/).

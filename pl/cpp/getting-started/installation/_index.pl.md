@@ -10,7 +10,7 @@ url: /pl/cpp/installation/
 timestamp: 2024-09-24-14-35-44
 ---
 
-Upewnij się, że Twoja maszyna spełnia [wymagania systemowe](/words/cpp/system-requirements/) zanim zaczniesz.
+Upewnij się, że Twoja maszyna spełnia [wymagania systemowe](/words/pl/cpp/system-requirements/) zanim zaczniesz.
 
 W tym artykule wyjaśniono, jak zainstalować Aspose.Words dla C++ na komputerze.
 

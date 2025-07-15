@@ -1,4 +1,4 @@
----
+﻿---
 title: Formate de fișiere și conversii
 second_title: Aspose.Words pentru Java
 articleTitle: Formate de fișiere și conversii
@@ -29,7 +29,7 @@ Următorul exemplu de cod arată cum se convertește un document:
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "docx-to-pdf.java" >}}
 
-Pentru mai multe detalii despre încărcarea, conversia și salvarea documentelor, consultați [Încărcarea, salvarea și conversia](/words/java/loading-saving-and-converting/) secțiunea.
+Pentru mai multe detalii despre încărcarea, conversia și salvarea documentelor, consultați [Încărcarea, salvarea și conversia](/words/ro/java/loading-saving-and-converting/) secțiunea.
 
 ## Înaltă Fidelitate
 

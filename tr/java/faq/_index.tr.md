@@ -1,4 +1,4 @@
----
+﻿---
 title: Sıkça Sorulan Sorular
 second_title: Aspose.Words için Java
 articleTitle: Sıkça Sorulan Sorular
@@ -12,7 +12,7 @@ timestamp: 2024-01-31-14-23-37
 
 Bu sayfada en sık sorulan soruların cevapları vardır. Lütfen şu anki sayfayı öğren – belki bu, sizin probleminizi hızlıca çözmenize olanak sağlayacaktır.
 
-Soru cevabını bulamadıysan, destek forumunda sorabilirsin. Sorunuzu veya probleminizi nasıl düzgün bir şekilde bildireceğiniz hakkında bilgi için [Technical Support](/words/java/technical-support/) sayfasına bakın.
+Soru cevabını bulamadıysan, destek forumunda sorabilirsin. Sorunuzu veya probleminizi nasıl düzgün bir şekilde bildireceğiniz hakkında bilgi için [Technical Support](/words/tr/java/technical-support/) sayfasına bakın.
 
 {{% alert color="primary" %}}
 
@@ -32,7 +32,7 @@ Detaylar belgelendirmemizde bulunabilir.
 
 **Q: Bu ne anlama geliyor "Aspose.Words üçüncü taraf uygulamalar gerektirmiyor"?**
 
-Aspose.Words için Java çalışmak için herhangi bir üçüncü taraf uygulaması veya ek yazılım paketlerinin yüklenmesine ihtiyaç duymaz. Yalnızca Aspose.Words'i yukarıdaki [Installation](/words/java/installation/) makalesinde anlatıldığı gibi indirin ve kurun ve işe başlayın.
+Aspose.Words için Java çalışmak için herhangi bir üçüncü taraf uygulaması veya ek yazılım paketlerinin yüklenmesine ihtiyaç duymaz. Yalnızca Aspose.Words'i yukarıdaki [Installation](/words/tr/java/installation/) makalesinde anlatıldığı gibi indirin ve kurun ve işe başlayın.
 
 ------
 
@@ -40,7 +40,7 @@ Aspose.Words için Java çalışmak için herhangi bir üçüncü taraf uygulama
 
 Aspose.Words için Java çoğu popüler geliştirme ortamı ve dağıtım platformlarını kapsar. Bunun API bir uygulamayı geniş bir yelpazede işletim sistemlerinde geliştirmek için kullanılabilir, örneğin Windows, Linux ve Mac OS, çeşitli platformlar.
 
-Ayrıntılar için [Product Overview](/words/java/product-overview/) sayfasını ve [Platforms and Interoperability](/words/java/platforms-and-interoperability/) bölümünü gör.
+Ayrıntılar için [Product Overview](/words/tr/java/product-overview/) sayfasını ve [Platforms and Interoperability](/words/java/platforms-and-interoperability/) bölümünü gör.
 
 ------
 
@@ -48,7 +48,7 @@ Ayrıntılar için [Product Overview](/words/java/product-overview/) sayfasını
 
 Aspose.Words için Java çoğu popüler belge formatlarını destekler, örneğin DOC, DOCX, HTML, Markdown, PDF, XML ve diğerleri.
 
-Desteklenen formatların eksiksiz listesini [Supported Document Formats](/words/java/supported-document-formats/) sayfasında görebilirsiniz.
+Desteklenen formatların eksiksiz listesini [Supported Document Formats](/words/tr/java/supported-document-formats/) sayfasında görebilirsiniz.
 
 ------
 
@@ -56,7 +56,7 @@ Desteklenen formatların eksiksiz listesini [Supported Document Formats](/words/
 
 Bunu iki şekilde yapabilirsin – Deneme Sürümü'nü kullanarak veya 30 günlük Geçici Lisans kullanarak. Deneme sürümü satın alınan sürümle aynıdır ve tam ürün işlevselliğini sağlar ancak yükleme ve kaydetme sırasında belgenin üst kısmına değerlendirici bir su damgası ekler ve maksimum belge boyutunu birkaç yüz paragrafla sınırlandırır. Geçici bir Lisans, 30 gün boyunca Deneme kısıtlamaları olmadan Aspose.Words test etmenizi sağlar.
 
-Daha fazla bilgi için [Licensing and Subscription](/words/java/licensing/) sayfasını görün.
+Daha fazla bilgi için [Licensing and Subscription](/words/tr/java/licensing/) sayfasını görün.
 
 {{% alert color="primary" %}}
 
@@ -72,29 +72,29 @@ Bir Aspose.Words lisansı satın almak için, sayfa [Purchase](https://purchase.
 
 Satın almadan sonra, lisans için yukarıdaki [Purchased License](/words/java/licensing/#purchased-license) bölümünde açıklandığı gibi başvurun.
 
-Aspose.Words 'nin nasıl yükleneceği hakkında ayrıntılar, [Installation](/words/java/installation/) sayfasından okunabilir.
+Aspose.Words 'nin nasıl yükleneceği hakkında ayrıntılar, [Installation](/words/tr/java/installation/) sayfasından okunabilir.
 
 ------
 
 **Q:  Nasıl destek alabilirim?**
 
-Ücretsiz teknik destek forumunu kullanın. Sorunu nasıl bildireceğiniz ve önce forum ile iletişime geçmeden önce yapılması gerekenler hakkında ayrıntılı bilgi için [Technical Support](/words/java/technical-support/) sayfasını görün.
+Ücretsiz teknik destek forumunu kullanın. Sorunu nasıl bildireceğiniz ve önce forum ile iletişime geçmeden önce yapılması gerekenler hakkında ayrıntılı bilgi için [Technical Support](/words/tr/java/technical-support/) sayfasını görün.
 
 ## Bir Belgeyi Görüntüleme
 
 {{% alert color="primary" %}}
 
-İşte "sizin ayrıntılı bilgi için sunum hakkında [Rendering](/words/java/rendering/) belgelendirme bölümünde bulabilirsiniz." cümlesinin çevirisi:
+İşte "sizin ayrıntılı bilgi için sunum hakkında [Rendering](/words/tr/java/rendering/) belgelendirme bölümünde bulabilirsiniz." cümlesinin çevirisi:
 
 {{% /alert %}}
 
 **Q: Çıktı belgesindeki düzen ve yazı tipleri neden orijinalinkilerden farklıdır?**
 
-Yazı tipi mevcut olmayabilir veya yazı tipi biçimi Microsoft Word tarafından desteklenir ancak Aspose.Words tarafından desteklenmez. Aspose.Words [font substitution](/words/java/manipulate-and-substitute-truetype-fonts/)'ı gerçekleştirecektir.
+Yazı tipi mevcut olmayabilir veya yazı tipi biçimi Microsoft Word tarafından desteklenir ancak Aspose.Words tarafından desteklenmez. Aspose.Words [font substitution](/words/tr/java/manipulate-and-substitute-truetype-fonts/)'ı gerçekleştirecektir.
 
 yazı tipinin eksik olup olmadığını kontrol etmek için:
 
-In Aspose.Words yazı tipisi değiştirme uyarılarını (ayrıntılar için, lütfen [Manipulate and Substitute TrueType Fonts](/words/java/manipulate-and-substitute-truetype-fonts/) makalesinin 'Yazı tipi nasıl değiştirildiğini tespit edersiniz' bölümüne bakın) kullanın.
+In Aspose.Words yazı tipisi değiştirme uyarılarını (ayrıntılar için, lütfen [Manipulate and Substitute TrueType Fonts](/words/tr/java/manipulate-and-substitute-truetype-fonts/) makalesinin 'Yazı tipi nasıl değiştirildiğini tespit edersiniz' bölümüne bakın) kullanın.
 - Microsoft Wordda "Font Substitution" iletişim kutusunu açın (Dosya → Seçenekler → Gelişmiş → Font Substitution).
 
 ------
@@ -121,7 +121,7 @@ Evet, sen yaparsın. Böylece yazı tiplerini kopyalarken aklınızda bulundurun
 
 {{% alert color="primary" %}}
 
-mail merge hakkında daha ayrıntılı bilgi için, lütfen [Mail Merge and Reporting](/words/java/mail-merge-and-reporting/) belgeleri bölümüne bakın.
+mail merge hakkında daha ayrıntılı bilgi için, lütfen [Mail Merge and Reporting](/words/tr/java/mail-merge-and-reporting/) belgeleri bölümüne bakın.
 
 {{% /alert %}}
 
@@ -145,7 +145,7 @@ Bunun nedeni şablonlardaki birleştirme bölgelerinin doğru şekilde oluşturu
 Bunun nedeni ebeveyn ve çocuk tablolar arasındaki ilişki düzgün bir şekilde kurulmamış ya da yanlış bir şekilde kurulmasıdır. Bunun gerekli olmasıdır:
 
 - Veri bütünlüğünü siz **DataSet** içinde garanti edin ve ilgili veri tabloları arasındaki ebeveyn-çocuk ilişkisini temsil etmek için **DataRelation** nesnesini kullanın.
-- Madde [Nested Mail Merge with Regions](/words/java/nested-mail-merge-with-regions/)'deki "Bölgelerle İçe Geçirilmiş Mail Merge İçinde Veri İlişkilerini Nasıl Ayarlanır?" bölümünü kontrol edin.
+- Madde [Nested Mail Merge with Regions](/words/tr/java/nested-mail-merge-with-regions/)'deki "Bölgelerle İçe Geçirilmiş Mail Merge İçinde Veri İlişkilerini Nasıl Ayarlanır?" bölümünü kontrol edin.
 
 ------
 
@@ -159,7 +159,7 @@ Yabancı anahtar kısıtlamalarını bir **DataRelation** oluştururken devre d�
 
 {{% alert color="primary" %}}
 
-Programlama belgelerinde ayrıntılı programlama hakkında daha fazla bilgi bulabilirsiniz [Programming with Documents](/words/java/programming-with-documents/) belgelendirme bölümü.
+Programlama belgelerinde ayrıntılı programlama hakkında daha fazla bilgi bulabilirsiniz [Programming with Documents](/words/tr/java/programming-with-documents/) belgelendirme bölümü.
 
 {{% /alert %}}
 
@@ -171,7 +171,7 @@ Ekle sonuc ayrı bir sayfada görünür çünkü belgelerin eklendiği bölümle
 
 {{% alert color="primary" %}}
 
-Bir belgeyi dönüştürme hakkında daha ayrıntılı bilgi, [Convert a Document](/words/java/convert-a-document/) belgelendirme bölümüne bakabilirsiniz.
+Bir belgeyi dönüştürme hakkında daha ayrıntılı bilgi, [Convert a Document](/words/tr/java/convert-a-document/) belgelendirme bölümüne bakabilirsiniz.
 
 {{% /alert %}}
 
@@ -193,7 +193,7 @@ doc.save(dataDir + "output.pdf", SaveFormat.Pdf);
 
 {{% alert color="primary" %}}
 
-Programlamayla ilgili daha ayrıntılı bilgilere, [Programming with Documents](/words/java/programming-with-documents/) belgelendirme bölümüne bakabilirsiniz.
+Programlamayla ilgili daha ayrıntılı bilgilere, [Programming with Documents](/words/tr/java/programming-with-documents/) belgelendirme bölümüne bakabilirsiniz.
 
 {{% /alert %}}
 
@@ -253,4 +253,4 @@ catch (Exception e)
 
 **Q:  Bir belgenin nasıl basılacağını**
 
-Ayrıntılı bir cevap için makaleyi [Printing a Document Programmatically or Using Dialogs](/words/java/print-a-document-programmatically-or-using-dialogs/) öğrenin.
+Ayrıntılı bir cevap için makaleyi [Printing a Document Programmatically or Using Dialogs](/words/tr/java/print-a-document-programmatically-or-using-dialogs/) öğrenin.

@@ -55,7 +55,7 @@ PDF,XPS등과 같은 고정 페이지 형식으로 로드되거나 새로 삽입
 
 {{% alert color="primary" %}}
 
-한 형식에서 다른 형식으로 문서를 변환하는 방법에 대한 자세한 내용은 다음을 참조하십시오 [문서 변환](/words/java/convert-a-document/) 문서 섹션.
+한 형식에서 다른 형식으로 문서를 변환하는 방법에 대한 자세한 내용은 다음을 참조하십시오 [문서 변환](/words/ko/java/convert-a-document/) 문서 섹션.
 
 {{% /alert %}}
 

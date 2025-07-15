@@ -14,7 +14,7 @@ Istnieje kilka różnych sposobów wstawiania pól do dokumentu:
 
 - użycie [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/)
 - użycie [FieldBuilder](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldbuilder/)
-- używanie [Aspose.Words Obiektowy Model Dokumentu (DOM)](/words/cpp/aspose-words-document-object-model/)
+- używanie [Aspose.Words Obiektowy Model Dokumentu (DOM)](/words/pl/cpp/aspose-words-document-object-model/)
 
 W tym artykule przyjrzymy się każdemu sposobowi bardziej szczegółowo i przeanalizujemy, jak wstawić określone pola za pomocą tych opcji.
 
@@ -64,7 +64,7 @@ Poniższy przykład kodu pokazuje, jak wstawić pole do dokumentu za pomocą **F
 
 ## Wstawianie pól za pomocą DOM
 
-Możesz także wstawiać różne typy pól za pomocą [Aspose.Words Obiektowy Model Dokumentu (DOM)](/words/cpp/aspose-words-document-object-model/). W tej sekcji przyjrzymy się kilku przykładom.
+Możesz także wstawiać różne typy pól za pomocą [Aspose.Words Obiektowy Model Dokumentu (DOM)](/words/pl/cpp/aspose-words-document-object-model/). W tej sekcji przyjrzymy się kilku przykładom.
 
 ### Wstawianie pola scalania do dokumentu za pomocą DOM
 

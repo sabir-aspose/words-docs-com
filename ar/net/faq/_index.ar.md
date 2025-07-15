@@ -1,4 +1,4 @@
----
+﻿---
 title: التعليمات
 second_title: Aspose.Words لـ .NET
 articleTitle: الأسئلة الشائعة – Aspose.Words لـ .NET
@@ -129,7 +129,7 @@ Aspose.Words for .NET هي مكتبة فئة تتيح لتطبيقاتك تنف�
 
 {{% alert color="primary" %}}
 
-يمكنك العثور على معلومات أكثر تفصيلاً حول Mail Merge في قسم وثائق [Mail Merge وإعداد التقارير](/words/net/mail-merge-and-reporting/).
+يمكنك العثور على معلومات أكثر تفصيلاً حول Mail Merge في قسم وثائق [Mail Merge وإعداد التقارير](/words/ar/net/mail-merge-and-reporting/).
 
 {{% /alert %}}
 
@@ -153,7 +153,7 @@ Aspose.Words for .NET هي مكتبة فئة تتيح لتطبيقاتك تنف�
 ويرجع ذلك إلى عدم إعداد العلاقة بين الجداول الأصل والجداول الفرعية أو أنه تم إعدادها بشكل غير صحيح. من الضروري:
 
 * تأكد من سلامة البيانات داخل **DataSet** الخاص بك واستخدم كائن **DataRelation** لتمثيل العلاقة بين الوالدين والطفل بين جداول البيانات ذات الصلة.
-* راجع قسم "كيفية إعداد علاقات البيانات في Mail Merge المتداخل مع المناطق" في مقالة [Mail Merge متداخل مع المناطق](/words/net/nested-mail-merge-with-regions/).
+* راجع قسم "كيفية إعداد علاقات البيانات في Mail Merge المتداخل مع المناطق" في مقالة [Mail Merge متداخل مع المناطق](/words/ar/net/nested-mail-merge-with-regions/).
 
 ------
 

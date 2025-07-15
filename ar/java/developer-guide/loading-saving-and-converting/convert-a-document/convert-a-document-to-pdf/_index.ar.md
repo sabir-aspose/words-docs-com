@@ -81,6 +81,6 @@ Aspose.Words يوفر [PdfCompliance](https://reference.aspose.com/words/java/co
 
 ## أنظر أيضا
 
-- المادة [تقديم](/words/java/rendering/) لمزيد من المعلومات حول تنسيقات الصفحة الثابتة وتخطيط التدفق
+- المادة [تقديم](/words/ar/java/rendering/) لمزيد من المعلومات حول تنسيقات الصفحة الثابتة وتخطيط التدفق
 - المادة [التحويل إلى تنسيق الصفحة الثابتة](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) لمزيد من المعلومات حول تخطيط الصفحة
-- المادة [حدد خيارات العرض عند التحويل إلى PDF](/words/java/specify-rendering-options-when-converting-to-pdf/) لمزيد من المعلومات حول استخدام فئة `PdfSaveOptions`
+- المادة [حدد خيارات العرض عند التحويل إلى PDF](/words/ar/java/specify-rendering-options-when-converting-to-pdf/) لمزيد من المعلومات حول استخدام فئة `PdfSaveOptions`

@@ -1,4 +1,4 @@
----
+﻿---
 title: 在C#中將PDF轉換為其他文書格式
 second_title: Aspose.Words for .NET
 articleTitle: 將 PDF 檔案轉換成其他文件格式
@@ -63,7 +63,7 @@ PDF2Word插件目前支援以下數據類型：
 
 | 例外 | 描述 |
 | -------------------------------- | ------------------------------------------------------------ |
-| `FileLoadException` | 因為某些原因，PDF 檔案無法處理。<br />{{% alert color="primary" %}}你可以使用 [technical support](/words/net/technical-support/). {{% /alert %}} 來將問題提交給開發團隊進行詳細調查。 |
+| `FileLoadException` | 因為某些原因，PDF 檔案無法處理。<br />{{% alert color="primary" %}}你可以使用 [technical support](/words/zh-hant/net/technical-support/). {{% /alert %}} 來將問題提交給開發團隊進行詳細調查。 |
 | `DrmProtectedFileException` | PDF檔案受到Adobe DRM的保護，無法用Pdf2Word來解碼。 |
 | `PasswordProtectedFileException` | 為受密碼保護的 PDF 提供正確的密碼。 |
 

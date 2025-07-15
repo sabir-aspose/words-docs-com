@@ -1,4 +1,4 @@
----
+﻿---
 title: Ürüne Genel Bakış
 second_title: .NET için Aspose.Words
 articleTitle: Ürüne Genel Bakış
@@ -56,7 +56,7 @@ Sunucu tarafı belgeler oluşturmak, bunları yazdırmak veya .NET Grafiklerini 
 
 #### Raporlama
 
-Sıfırdan veya şablonları veri kaynaklarından veya iş nesnelerinden alınan verilerle doldurarak belgeler veya raporlar oluşturun. Veritabanlarından veri raporlama ve alma hakkında daha fazla bilgi için [Mail Merge ve Raporlama](/words/net/mail-merge-and-reporting/) ve [LINQ Raporlama Motoru](/words/net/linq-reporting-engine/) bölümlerine bakın.
+Sıfırdan veya şablonları veri kaynaklarından veya iş nesnelerinden alınan verilerle doldurarak belgeler veya raporlar oluşturun. Veritabanlarından veri raporlama ve alma hakkında daha fazla bilgi için [Mail Merge ve Raporlama](/words/tr/net/mail-merge-and-reporting/) ve [LINQ Raporlama Motoru](/words/net/linq-reporting-engine/) bölümlerine bakın.
 
 ### Platform Bağımsızlığı
 

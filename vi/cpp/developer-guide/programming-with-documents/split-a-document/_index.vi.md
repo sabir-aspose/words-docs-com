@@ -1,4 +1,4 @@
----
+﻿---
 title: Chia Một Tài liệu trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Chia Một Tài liệu
@@ -67,7 +67,7 @@ Phần này mô tả một số trường hợp sử dụng chia tài liệu the
 
 {{% alert color="primary" %}}
 
-Bạn có thể sử dụng bất kỳ [định dạng đầu ra được hỗ trợ bởi Aspose.Words](/words/cpp/supported-document-formats/).
+Bạn có thể sử dụng bất kỳ [định dạng đầu ra được hỗ trợ bởi Aspose.Words](/words/vi/cpp/supported-document-formats/).
 
 {{% /alert %}}
 

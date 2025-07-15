@@ -1,4 +1,4 @@
----
+﻿---
 title: ドキュメントを使用したプログラミング
 second_title: Python via .NET用Aspose.Words
 articleTitle: ドキュメントを使用したプログラミング
@@ -51,11 +51,11 @@ timestamp: 2024-09-25-11-08-55
 - [OfficeMath の使用](/words/ja/python-net/working-with-officemath/)
 - [SmartArt コールド レンダリングの使用](/words/ja/python-net/working-with-smartart-cold-rendering/)
 - [ウォーターマークの使用](/words/ja/python-net/working-with-watermark/)
-- [Ole オブジェクトとオンライン ビデオの操作](/words/python-net/working-with-ole-objects/)
+- [Ole オブジェクトとオンライン ビデオの操作](/words/ja/python-net/working-with-ole-objects/)
 - [フィールドの操作](/words/ja/python-net/working-with-fields/)
 - [フォームフィールドの操作](/words/ja/python-net/working-with-form-fields/)
 - [コンテンツ コントロール SDT の使用](/words/ja/python-net/working-with-content-control-sdt/)
 - [制御文字の使用](/words/ja/python-net/working-with-control-characters/)
 - [VBA マクロの操作](/words/ja/python-net/working-with-vba-macros/)
 - [Markdown 機能の使用](/words/ja/python-net/working-with-markdown-features/)
-- [テキストドキュメントの操作](/words/python-net/working-with-text-document/)
+- [テキストドキュメントの操作](/words/ja/python-net/working-with-text-document/)

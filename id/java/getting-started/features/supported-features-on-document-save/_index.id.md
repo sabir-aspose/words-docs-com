@@ -10,7 +10,7 @@ url: /id/java/supported-features-on-document-save/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words memungkinkan pengguna untuk bekerja dengan dokumen dalam berbagai format dan menyediakan berbagai fitur untuk ini. Misalnya, pengguna dapat membuat dokumen dari awal atau memuatnya, membuat beberapa perubahan, lalu menyimpan perubahan tersebut di file keluaran dalam format apa pun [format ekspor yang disertakan](/words/java/supported-document-formats/). Saat menyimpan dokumen dalam format yang dipilih, pengguna dapat menerapkan berbagai opsi penyimpanan.
+Aspose.Words memungkinkan pengguna untuk bekerja dengan dokumen dalam berbagai format dan menyediakan berbagai fitur untuk ini. Misalnya, pengguna dapat membuat dokumen dari awal atau memuatnya, membuat beberapa perubahan, lalu menyimpan perubahan tersebut di file keluaran dalam format apa pun [format ekspor yang disertakan](/words/id/java/supported-document-formats/). Saat menyimpan dokumen dalam format yang dipilih, pengguna dapat menerapkan berbagai opsi penyimpanan.
 
 {{% alert color="primary" %}}
 
@@ -21,7 +21,7 @@ Penting untuk diketahui bahwa banyak opsi penyimpanan umum untuk semua format ya
 Untuk daftar lengkap fungsi, lihat API reference:
 
 - [simpan opsi untuk semua format](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/)
-- [opsi penyimpanan halaman tetap](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/) untuk [format halaman tetap](/words/java/converting-to-fixed-page-format/): PDF, XPS, gambar dan lainnya
+- [opsi penyimpanan halaman tetap](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/) untuk [format halaman tetap](/words/id/java/converting-to-fixed-page-format/): PDF, XPS, gambar dan lainnya
 - [PDF simpan opsi](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) untuk format PDF
 - [OOXML simpan opsi](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/) untuk DOCX, DOCM, DOTX, DOTM, atau format FlatOpc
 - [DOC simpan opsi](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) untuk format DOC dan DOT

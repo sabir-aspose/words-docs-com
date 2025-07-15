@@ -96,7 +96,7 @@ Aspose.Wordsは、[DownsampleOptions](https://reference.aspose.com/words/java/co
 
 ## AdobePDF形式でフォントを埋め込む
 
-Aspose.Wordsを使用すると、結果のPDFドキュメントにフォントを埋め込む方法を制御することもできます。 フォントは、任意のマシンでドキュメントを正しくレンダリングできるようにするために、AdobePDFドキュメントに埋め込む必要があります(フォントレンダ [TrueTypeフォントの使用](/words/java/using-truetype-fonts/)). デフォルトでは、Aspose.Wordsはドキュメントで使用されるフォントのサブセットを生成されたPDFに埋め込みます。 この場合、文書で使用されているグリフ(文字)のみがPDFに保存されます。
+Aspose.Wordsを使用すると、結果のPDFドキュメントにフォントを埋め込む方法を制御することもできます。 フォントは、任意のマシンでドキュメントを正しくレンダリングできるようにするために、AdobePDFドキュメントに埋め込む必要があります(フォントレンダ [TrueTypeフォントの使用](/words/ja/java/using-truetype-fonts/)). デフォルトでは、Aspose.Wordsはドキュメントで使用されるフォントのサブセットを生成されたPDFに埋め込みます。 この場合、文書で使用されているグリフ(文字)のみがPDFに保存されます。
 
 ### フルフォントを使用する場合とサブセット化する場合
 

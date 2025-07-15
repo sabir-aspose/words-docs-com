@@ -1,4 +1,4 @@
----
+﻿---
 title: Dateiformate und Konvertierungen
 second_title: Aspose.Words für C++
 articleTitle: Warum ist die Konvertierung das Flaggschiff von Aspose.Words?
@@ -29,7 +29,7 @@ Das folgende Codebeispiel zeigt, wie Sie ein Dokument konvertieren:
 
 {{< gist "aspose-words-gists" "b9784b73e288805e08fba6e3fc5ae2af" "docx-to-pdf.h" >}}
 
-Weitere Informationen zum Laden, Konvertieren und Speichern von Dokumenten finden Sie in der [Laden, Speichern und Konvertieren](/words/cpp/loading-saving-and-converting/) Abschnitt.
+Weitere Informationen zum Laden, Konvertieren und Speichern von Dokumenten finden Sie in der [Laden, Speichern und Konvertieren](/words/de/cpp/loading-saving-and-converting/) Abschnitt.
 
 ## Hohe Wiedergabetreue
 

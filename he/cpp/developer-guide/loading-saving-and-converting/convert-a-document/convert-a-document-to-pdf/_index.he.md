@@ -67,6 +67,6 @@ Aspose.Words מספק את הספירה [PdfCompliance](https://reference.aspose
 
 ## ראה גם
 
-- המאמר [עיבוד](/words/cpp/rendering/) למידע נוסף על הפורמטים של דף קבוע ופריסת זרימה
+- המאמר [עיבוד](/words/he/cpp/rendering/) למידע נוסף על הפורמטים של דף קבוע ופריסת זרימה
 - המאמר [המרה לפורמט דף קבוע](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) לקבלת מידע נוסף על פריסת הדף
-- המאמר [ציין אפשרויות עיבוד בעת המרה ל PDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) למידע נוסף על השימוש בכיתה `PdfSaveOptions`
+- המאמר [ציין אפשרויות עיבוד בעת המרה ל PDF](/words/he/cpp/specify-rendering-options-when-converting-to-pdf/) למידע נוסף על השימוש בכיתה `PdfSaveOptions`

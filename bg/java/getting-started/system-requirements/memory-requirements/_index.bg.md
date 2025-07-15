@@ -1,4 +1,4 @@
----
+﻿---
 title: Изисквания към паметта
 second_title: Aspose.Words вместо Java
 articleTitle: Изисквания към паметта
@@ -47,5 +47,5 @@ Aspose.Words осигурява широка гама от функции за �
 ## Вижте също
 
 * [Нанасяне](/words/bg/java/rendering/)
-* [Mail Merge и докладване](/words/java/mail-merge-and-reporting/)
+* [Mail Merge и докладване](/words/bg/java/mail-merge-and-reporting/)
 * [Работа със полета](/words/bg/java/working-with-fields/)

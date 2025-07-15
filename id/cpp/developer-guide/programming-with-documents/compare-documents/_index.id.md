@@ -1,4 +1,4 @@
----
+﻿---
 title: Bandingkan Dokumen dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bandingkan Dokumen
@@ -36,7 +36,7 @@ Batasan umum untuk dua dokumen yang dibandingkan adalah dokumen tersebut tidak b
 
 {{% alert color="primary" %}}
 
-Perhatikan bahwa Anda dapat membandingkan dua dokumen apa pun di dalam dokumen [format file yang didukung](/words/cpp/supported-document-formats/). Anda dapat membandingkan objek dokumen dan bahkan Anda dapat membuat objek tersebut dari awal tanpa memiliki format tertentu.
+Perhatikan bahwa Anda dapat membandingkan dua dokumen apa pun di dalam dokumen [format file yang didukung](/words/id/cpp/supported-document-formats/). Anda dapat membandingkan objek dokumen dan bahkan Anda dapat membuat objek tersebut dari awal tanpa memiliki format tertentu.
 
 {{% /alert %}}
 

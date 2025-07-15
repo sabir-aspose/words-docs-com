@@ -1,4 +1,4 @@
----
+﻿---
 title: Halo, Dunia!
 second_title: Contoh sederhana cara menggunakan Aspose.Words untuk C++
 articleTitle: Halo, Dunia!
@@ -12,7 +12,7 @@ timestamp: 2024-01-27-14-07-04
 
 Sebuah "Halo, Dunia!"kode sering kali merupakan contoh sederhana pertama untuk menulis uisng "Aspose.Words untuk C++", dan itu juga dapat digunakan sebagai uji kewarasan untuk memastikan perangkat lunak yang dimaksudkan untuk mengkompilasi atau menjalankan kode sumber telah diinstal dengan benar.
 
-"Aspose.Words untuk C++"perpustakaan memberi pengembang akses langsung untuk membuat, memodifikasi, menggabungkan, mengonversi, membandingkan dokumen Word dan Web. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML dan banyak format file lainnya [didukung](/words/cpp/supported-document-formats/).
+"Aspose.Words untuk C++"perpustakaan memberi pengembang akses langsung untuk membuat, memodifikasi, menggabungkan, mengonversi, membandingkan dokumen Word dan Web. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML dan banyak format file lainnya [didukung](/words/id/cpp/supported-document-formats/).
 
 Cuplikan Below code mengikuti langkah-langkah berikut:
 

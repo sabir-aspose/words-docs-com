@@ -14,7 +14,7 @@ Ada beberapa cara berbeda untuk menyisipkan bidang ke dalam dokumen:
 
 - menggunakan [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)
 - menggunakan [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/)
-- menggunakan [Aspose.Words Model Objek Dokumen (DOM)](/words/java/aspose-words-document-object-model/)
+- menggunakan [Aspose.Words Model Objek Dokumen (DOM)](/words/id/java/aspose-words-document-object-model/)
 
 Pada artikel ini, kita akan melihat setiap cara secara lebih rinci dan menganalisis cara menyisipkan bidang tertentu menggunakan opsi ini.
 
@@ -80,7 +80,7 @@ Contoh kode berikut menunjukkan cara menyisipkan bidang ke dalam dokumen menggun
 
 ## Menyisipkan Kolom menggunakan DOM
 
-Anda juga dapat menyisipkan berbagai jenis bidang menggunakan [Aspose.Words Model Objek Dokumen (DOM)](/words/java/aspose-words-document-object-model/). Pada bagian ini, kita akan melihat beberapa contoh.
+Anda juga dapat menyisipkan berbagai jenis bidang menggunakan [Aspose.Words Model Objek Dokumen (DOM)](/words/id/java/aspose-words-document-object-model/). Pada bagian ini, kita akan melihat beberapa contoh.
 
 ### Menyisipkan Bidang Gabungan ke dalam Dokumen menggunakan DOM
 

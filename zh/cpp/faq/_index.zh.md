@@ -1,4 +1,4 @@
----
+﻿---
 title: FAQ
 second_title: Aspose.Words为C++
 articleTitle: FAQ
@@ -12,7 +12,7 @@ timestamp: 2024-01-31-14-23-37
 
 本页包含最常见问题的答案。 请了解当前页面-也许这可以让您快速解决问题。
 
-如果您还没有找到问题的答案，您可以在支持论坛上询问。 有关如何正确报告您的问题或问题的信息，请参阅 [技术支持](/words/cpp/technical-support/) 页。
+如果您还没有找到问题的答案，您可以在支持论坛上询问。 有关如何正确报告您的问题或问题的信息，请参阅 [技术支持](/words/zh/cpp/technical-support/) 页。
 
 {{% alert color="primary" %}}
 
@@ -32,7 +32,7 @@ Aspose.Words为C++ 是一个类库，允许您的应用程序执行各种文档�
 
 **问："Aspose.Words不需要第三方应用程序"是什么意思？**
 
-Aspose.Words为C++ 不需要安装任何第三方应用程序或额外的软件包工作。 只需下载并安装Aspose.Words，如 ["安装"](/words/cpp/installation/) 文章并开始。
+Aspose.Words为C++ 不需要安装任何第三方应用程序或额外的软件包工作。 只需下载并安装Aspose.Words，如 ["安装"](/words/zh/cpp/installation/) 文章并开始。
 
 ------
 
@@ -40,7 +40,7 @@ Aspose.Words为C++ 不需要安装任何第三方应用程序或额外的软件�
 
 Aspose.Words为C++ 涵盖大多数流行的开发环境和部署平台。 它的API可用于开发各种操作系统的应用程序，如Windows、Linux和MacOS，以及各种平台。
 
-有关详细信息，请参阅 [产品概览](/words/cpp/product-overview/) 页。
+有关详细信息，请参阅 [产品概览](/words/zh/cpp/product-overview/) 页。
 
 ------
 
@@ -48,7 +48,7 @@ Aspose.Words为C++ 涵盖大多数流行的开发环境和部署平台。 它的
 
 Aspose.Words为C++ 支持大多数流行的文档格式，如DOC, DOCX, HTML, Markdown, PDF, XML, 和其他人。
 
-您可以在 [支持的文档格式](/words/cpp/supported-document-formats/) 页。
+您可以在 [支持的文档格式](/words/zh/cpp/supported-document-formats/) 页。
 
 ------
 
@@ -56,7 +56,7 @@ Aspose.Words为C++ 支持大多数流行的文档格式，如DOC, DOCX, HTML, Ma
 
 您可以通过两种方式执行此操作-使用试用版或30天临时许可证。 试用版与购买的版本相同，它提供完整的产品功能，但在加载和保存时在文档顶部添加评估水印，并将最大文档大小限制为几百个段落。 临时许可证允许您在没有试用限制的情况下测试Aspose.Words30天。
 
-查看 [许可和订阅](/words/cpp/licensing/) 页以获取更多信息。
+查看 [许可和订阅](/words/zh/cpp/licensing/) 页以获取更多信息。
 
 {{% alert color="primary" %}}
 
@@ -72,29 +72,29 @@ Aspose.Words为C++ 支持大多数流行的文档格式，如DOC, DOCX, HTML, Ma
 
 购买后，按照 [购买许可证](/words/cpp/licensing/#purchased-license) 节。
 
-有关如何安装Aspose.Words的详细信息，请参阅 [安装工程](/words/cpp/installation/) 页。
+有关如何安装Aspose.Words的详细信息，请参阅 [安装工程](/words/zh/cpp/installation/) 页。
 
 ------
 
 **问：如何获得支持？**
 
-使用免费的技术支持论坛。 有关如何正确报告问题以及在联系论坛之前需要做些什么的详细信息，请参阅 [技术支持](/words/cpp/technical-support/) 页。
+使用免费的技术支持论坛。 有关如何正确报告问题以及在联系论坛之前需要做些什么的详细信息，请参阅 [技术支持](/words/zh/cpp/technical-support/) 页。
 
 ## 呈现文档
 
 {{% alert color="primary" %}}
 
-你可以在 [渲染图](/words/cpp/rendering/) 文件科。
+你可以在 [渲染图](/words/zh/cpp/rendering/) 文件科。
 
 {{% /alert %}}
 
 **问：为什么输出文档中的布局和字体与原始文档不同？**
 
-字体可能不可用，或者字体格式由Microsoft Word支持，但Aspose.Words不支持。 Aspose.Words将执行 [字体替换](/words/cpp/manipulate-and-substitute-truetype-fonts/).
+字体可能不可用，或者字体格式由Microsoft Word支持，但Aspose.Words不支持。 Aspose.Words将执行 [字体替换](/words/zh/cpp/manipulate-and-substitute-truetype-fonts/).
 
 检查字体是否丢失:
 
-- 在Aspose.Words中使用字体替换警告（有关详细信息，请参阅 [操作和替换TrueType字体](/words/cpp/manipulate-and-substitute-truetype-fonts/) 文章）。
+- 在Aspose.Words中使用字体替换警告（有关详细信息，请参阅 [操作和替换TrueType字体](/words/zh/cpp/manipulate-and-substitute-truetype-fonts/) 文章）。
 - 在Microsoft Word中打开"字体替换"对话框（文件→选项→高级→字体替换）。
 
 ------
@@ -121,7 +121,7 @@ Aspose.Words为C++ 支持大多数流行的文档格式，如DOC, DOCX, HTML, Ma
 
 {{% alert color="primary" %}}
 
-你可以在 [使用文档编程](/words/cpp/programming-with-documents/) 文件科。
+你可以在 [使用文档编程](/words/zh/cpp/programming-with-documents/) 文件科。
 
 {{% /alert %}}
 
@@ -133,7 +133,7 @@ Aspose.Words为C++ 支持大多数流行的文档格式，如DOC, DOCX, HTML, Ma
 
 {{% alert color="primary" %}}
 
-您可以在 [转换文档](/words/cpp/convert-a-document/) 文件科。
+您可以在 [转换文档](/words/zh/cpp/convert-a-document/) 文件科。
 
 {{% /alert %}}
 
@@ -156,7 +156,7 @@ doc->Save(outputPath);
 
 {{% alert color="primary" %}}
 
-你可以在 [使用文档编程](/words/cpp/programming-with-documents/) 文件科。
+你可以在 [使用文档编程](/words/zh/cpp/programming-with-documents/) 文件科。
 
 {{% /alert %}}
 

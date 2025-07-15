@@ -1,4 +1,4 @@
----
+﻿---
 title: Inserare câmpuri în C#
 second_title: Aspose.Words pentru .NET
 articleTitle: Înserare câmpuri
@@ -14,7 +14,7 @@ Există mai multe modalități diferite de a introduce câmpuri într-un documen
 
 * folosind [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)
 * folosind [FieldBuilder](https://reference.aspose.com/words/net/aspose.words.fields/fieldbuilder/)
-* folosind [Aspose.Words Document Object Model (DOM)](/words/net/aspose-words-document-object-model/)
+* folosind [Aspose.Words Document Object Model (DOM)](/words/ro/net/aspose-words-document-object-model/)
 
 În acest articol vom vedea fiecare metodă în detaliu și vom analiza cum se introduc anumite câmpuri folosind aceste opțiuni.
 
@@ -63,7 +63,7 @@ Exemplul de cod următor arată cum să introduceți un câmp într-un document 
 
 ## Inserarea câmpurilor folosind DOM
 
-"Puteți introduce și diferite tipuri de câmpuri folosind [Aspose.Words Document Object Model (DOM)](/words/net/aspose-words-document-object-model/)". În această secţiune, vom privi câteva exemple.
+"Puteți introduce și diferite tipuri de câmpuri folosind [Aspose.Words Document Object Model (DOM)](/words/ro/net/aspose-words-document-object-model/)". În această secţiune, vom privi câteva exemple.
 
 ### Inserarea unui câmp de fuziune într-un document folosind DOM
 

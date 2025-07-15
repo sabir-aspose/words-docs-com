@@ -219,7 +219,7 @@ Seules les polices Noto de style Sans avec un poids régulier sont utilisées da
 
 ## Où Aspose.Words Recherche les polices
 
-Aspose.Words tente de trouver automatiquement TrueType polices sur le système de fichiers. Habituellement, vous pouvez compter sur le comportement par défaut de Aspose.Words pour trouver les polices `TrueType`, mais parfois vous devez spécifier vos propres dossiers contenant les polices TrueType. Les [Spécifiez l'emplacement des polices TrueType](/words/java/specify-truetype-fonts-location/) la rubrique décrit comment et où Aspose.Words recherche les polices, ainsi que comment spécifier vos propres emplacements de police.
+Aspose.Words tente de trouver automatiquement TrueType polices sur le système de fichiers. Habituellement, vous pouvez compter sur le comportement par défaut de Aspose.Words pour trouver les polices `TrueType`, mais parfois vous devez spécifier vos propres dossiers contenant les polices TrueType. Les [Spécifiez l'emplacement des polices TrueType](/words/fr/java/specify-truetype-fonts-location/) la rubrique décrit comment et où Aspose.Words recherche les polices, ainsi que comment spécifier vos propres emplacements de police.
 
 ## Différences dans le traitement des formats de police dans Aspose.Words et Microsoft Word
 

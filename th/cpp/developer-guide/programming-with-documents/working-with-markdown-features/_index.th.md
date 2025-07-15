@@ -1,4 +1,4 @@
----
+﻿---
 title: การทำงานกับMarkdownคุณสมบัติในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: การทำงานกับMarkdownคุณสมบัติ
@@ -27,7 +27,7 @@ timestamp: 2024-01-31-14-23-37
 
 {{% alert color="primary" %}}
 
-มีความแตกต่างของการแปลMarkdownไปยังAspose.Wordsรูปแบบวัตถุเอกสาร(DOM)ที่อธิบายไว้ในบทความ [แปลMarkdownไปยังรูปแบบวัตถุเอกสาร(DOM)](/words/cpp/translate-markdown-to-document-object-model/).
+มีความแตกต่างของการแปลMarkdownไปยังAspose.Wordsรูปแบบวัตถุเอกสาร(DOM)ที่อธิบายไว้ในบทความ [แปลMarkdownไปยังรูปแบบวัตถุเอกสาร(DOM)](/words/th/cpp/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

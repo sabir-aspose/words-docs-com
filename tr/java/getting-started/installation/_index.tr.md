@@ -1,4 +1,4 @@
----
+﻿---
 title: Kurulum
 second_title: Aspose.Words için Java
 articleTitle: Kurulum
@@ -10,7 +10,7 @@ url: /tr/java/installation/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Başlamadan önce makinenin [system requirements](/words/java/system-requirements/)'i karşıladığından emin olun.
+Başlamadan önce makinenin [system requirements](/words/tr/java/system-requirements/)'i karşıladığından emin olun.
 
 Bu makale Aspose.Words bilgisayarınıza yüklemeyi nasıl açıklar? Java
 

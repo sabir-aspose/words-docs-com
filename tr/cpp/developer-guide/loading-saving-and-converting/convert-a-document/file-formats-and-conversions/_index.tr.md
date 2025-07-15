@@ -1,4 +1,4 @@
----
+﻿---
 title: Dosya Biçimleri ve Dönüşümler
 second_title: Aspose.Words için C++
 articleTitle: Dönüşüm neden Aspose.Words 'ın Amiral Gemisi Özelliğidir?
@@ -29,7 +29,7 @@ Aşağıdaki kod örneği, bir belgenin nasıl dönüştürüleceğini gösterir
 
 {{< gist "aspose-words-gists" "b9784b73e288805e08fba6e3fc5ae2af" "docx-to-pdf.h" >}}
 
-Belgeleri yükleme, dönüştürme ve kaydetme hakkında daha fazla ayrıntı için bkz. [Yükleme, Kaydetme ve Dönüştürme](/words/cpp/loading-saving-and-converting/) bölüm.
+Belgeleri yükleme, dönüştürme ve kaydetme hakkında daha fazla ayrıntı için bkz. [Yükleme, Kaydetme ve Dönüştürme](/words/tr/cpp/loading-saving-and-converting/) bölüm.
 
 ## Yüksek Sadakat
 

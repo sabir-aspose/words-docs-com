@@ -1,4 +1,4 @@
----
+﻿---
 title: Omskakeling na PDF/A en PDF/UA
 second_title: Aspose.Words vir .NET
 articleTitle: Leer Kenmerke van Omskakeling na PDF/A en PDF/UA
@@ -42,7 +42,7 @@ Vir meer inligting oor die verskillende PDF standaarde, kyk na die volgende ISOs
 
 ## Sien Ook
 
-* [Skakel'n Dokument om na PDF](/words/net/convert-a-document-to-pdf/)
+* [Skakel'n Dokument om na PDF](/words/af/net/convert-a-document-to-pdf/)
 * [Hoe om te wysig dokument struktuur tags in Adobe Acrobat](https://helpx.adobe.com/acrobat/using/editing-document-structure-content-tags.html)
 * [Hoe om teks taal te kontroleer of te wysig in Microsoft Word](https://support.microsoft.com/en-us/office/check-spelling-and-grammar-in-a-different-language-667ba67a-a202-42fd-8596-edc1fa320e00)
 * [Hoe om taal in Adobe Acrobatte verander](https://helpx.adobe.com/acrobat/using/editing-document-structure-content-tags.html#add_alternate_text_and_supplementary_information_to_tags)

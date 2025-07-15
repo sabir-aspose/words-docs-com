@@ -10,7 +10,7 @@ url: /ko/java/supported-features-on-document-save/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words사용자가 다양한 형식의 문서 작업을 할 수 있으며 이를 위한 다양한 기능을 제공합니다. 예를 들어 사용자는 문서를 처음부터 만들거나 로드하고 일부 변경한 다음 해당 변경 사항을 출력 파일에 저장할 수 있습니다 [지원되는 내보내기 형식](/words/java/supported-document-formats/). 선택한 형식으로 문서를 저장하는 동안 사용자는 다양한 저장 옵션을 적용 할 수 있습니다.
+Aspose.Words사용자가 다양한 형식의 문서 작업을 할 수 있으며 이를 위한 다양한 기능을 제공합니다. 예를 들어 사용자는 문서를 처음부터 만들거나 로드하고 일부 변경한 다음 해당 변경 사항을 출력 파일에 저장할 수 있습니다 [지원되는 내보내기 형식](/words/ko/java/supported-document-formats/). 선택한 형식으로 문서를 저장하는 동안 사용자는 다양한 저장 옵션을 적용 할 수 있습니다.
 
 {{% alert color="primary" %}}
 
@@ -21,7 +21,7 @@ Aspose.Words사용자가 다양한 형식의 문서 작업을 할 수 있으며 
 함수의 전체 목록은API reference을 참조하십시오:
 
 - [모든 형식에 대한 저장 옵션](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/)
-- [고정 페이지 저장 옵션](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/) [고정 페이지 형식](/words/java/converting-to-fixed-page-format/):PDF,XPS,이미지 및 기타
+- [고정 페이지 저장 옵션](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/) [고정 페이지 형식](/words/ko/java/converting-to-fixed-page-format/):PDF,XPS,이미지 및 기타
 - [PDF저장 옵션](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/)에 대한PDF형식
 - [OOXML저장 옵션](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/)DOCX, DOCM, DOTX, DOTM, 또는FlatOpc형식
 - DOC및DOT형식의 경우[DOC저장 옵션](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/)

@@ -85,7 +85,7 @@ Esta seção descreve vários casos de uso de dividir documentos por paginado us
 
 {{% alert color="primary" %}}
 
-Você pode usar qualquer [formato de sa poliuretda suportado por Aspose.Words](/words/java/supported-document-formats/).
+Você pode usar qualquer [formato de sa poliuretda suportado por Aspose.Words](/words/pt/java/supported-document-formats/).
 
 {{% /alert %}}
 

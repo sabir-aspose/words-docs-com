@@ -42,10 +42,10 @@ Experimente mit Tausenden von realen Dokumenten zeigen, dass Aspose.Words normal
 
 Komplexere Vorgänge wie Rendern (Konvertieren in feste Seitenformate), Aktualisieren von Feldern, Teilen von Seiten und andere erfordern bei einigen Dokumenten 20-mal mehr Ressourcen als der Speicher, der vom in Aspose.Words DOM geladenen Dokument zugewiesen wird.
 
-Wenn Ihre Profilergebnisse auf ein mögliches Speicherproblem in Aspose.Words hinweisen, wenden Sie sich bitte an unseren [Supportteam](/words/java/technical-support/) und enthalten alle Diagnoseinformationen.
+Wenn Ihre Profilergebnisse auf ein mögliches Speicherproblem in Aspose.Words hinweisen, wenden Sie sich bitte an unseren [Supportteam](/words/de/java/technical-support/) und enthalten alle Diagnoseinformationen.
 
 ## Siehe auch
 
-* [Rendering](/words/java/rendering/)
-* [Mail Merge und Berichterstattung](/words/java/mail-merge-and-reporting/)
-* [Arbeiten mit Feldern](/words/java/working-with-fields/)
+* [Rendering](/words/de/java/rendering/)
+* [Mail Merge und Berichterstattung](/words/de/java/mail-merge-and-reporting/)
+* [Arbeiten mit Feldern](/words/de/java/working-with-fields/)

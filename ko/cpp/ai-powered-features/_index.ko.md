@@ -1,4 +1,4 @@
----
+﻿---
 title: AI-전원 기능
 second_title: Aspose.WordsC++
 articleTitle: AI-전원 기능
@@ -16,7 +16,7 @@ Aspose.Words이제AI-문서 처리를 더 똑똑하고 효율적으로 만들기
 
 이 섹션에서는Aspose.Words에서 지원되는AI기능을 사용하는 방법에 대해 알아야 할 모든 것을 다룹니다. 자세한 지침에 실용적인 팁에서,우리는 당신이 이러한 향상된 기능을 최대한 활용할 수 있도록하는 것을 목표로하고 있습니다.
 
-* [지원되는AI모델](/words/cpp/supported-ai-models/)
-* [문서 요약](/words/cpp/summarize-a-document/)
-* [문서 번역](/words/cpp/translate-a-document/)
-* [문법 검사](/words/cpp/grammar-checking/)
+* [지원되는AI모델](/words/ko/cpp/supported-ai-models/)
+* [문서 요약](/words/ko/cpp/summarize-a-document/)
+* [문서 번역](/words/ko/cpp/translate-a-document/)
+* [문법 검사](/words/ko/cpp/grammar-checking/)

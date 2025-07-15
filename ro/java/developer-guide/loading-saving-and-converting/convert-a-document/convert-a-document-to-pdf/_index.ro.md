@@ -1,4 +1,4 @@
----
+﻿---
 title: Conversia unui Document în PDF în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Conversia unui Document în PDF
@@ -81,6 +81,6 @@ Utilizarea proprietății **OptimizeOutput** poate afecta acuratețea afișării
 
 ## Vezi Și
 
-- Articolul [Redare](/words/java/rendering/) pentru mai multe informații despre pagina fixă și formatele de aspect de flux
+- Articolul [Redare](/words/ro/java/rendering/) pentru mai multe informații despre pagina fixă și formatele de aspect de flux
 - Articolul [Conversia în format de pagină fixă](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) pentru mai multe informații despre aspectul paginii
-- Articolul [Specificați opțiunile De redare la conversia în PDF](/words/java/specify-rendering-options-when-converting-to-pdf/) pentru mai multe informații despre utilizarea clasei `PdfSaveOptions`
+- Articolul [Specificați opțiunile De redare la conversia în PDF](/words/ro/java/specify-rendering-options-when-converting-to-pdf/) pentru mai multe informații despre utilizarea clasei `PdfSaveOptions`

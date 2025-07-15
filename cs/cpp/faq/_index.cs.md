@@ -12,7 +12,7 @@ timestamp: 2024-01-31-14-23-37
 
 Tato stránka obsahuje odpovědi na Nejčastěji kladené otázky. Naučte se aktuální stránku - možná vám to umožní rychle vyřešit váš problém.
 
-Pokud jste nenašli odpověď na svou otázku, můžete se zeptat na fóru podpory. Informace o tom, jak správně nahlásit svůj dotaz nebo problém, naleznete v části [podpora](/words/cpp/technical-support/) stránka.
+Pokud jste nenašli odpověď na svou otázku, můžete se zeptat na fóru podpory. Informace o tom, jak správně nahlásit svůj dotaz nebo problém, naleznete v části [podpora](/words/cs/cpp/technical-support/) stránka.
 
 {{% alert color="primary" %}}
 
@@ -32,7 +32,7 @@ Podrobnosti naleznete v naší dokumentaci.
 
 **Otázka: co to znamená "Aspose.Words nevyžaduje aplikace třetích stran"?**
 
-Aspose.Words pro C++ není nutné instalovat žádné aplikace třetích stran nebo další softwarové balíčky, aby fungovaly. Stačí stáhnout a nainstalovat Aspose.Words, Jak je popsáno v ["Instalace"](/words/cpp/installation/) článek a začněte.
+Aspose.Words pro C++ není nutné instalovat žádné aplikace třetích stran nebo další softwarové balíčky, aby fungovaly. Stačí stáhnout a nainstalovat Aspose.Words, Jak je popsáno v ["Instalace"](/words/cs/cpp/installation/) článek a začněte.
 
 ------
 
@@ -40,7 +40,7 @@ Aspose.Words pro C++ není nutné instalovat žádné aplikace třetích stran n
 
 Aspose.Words pro C++ pokrývá většinu populárních vývojových prostředí a platforem pro nasazení. Jeho API lze použít k vývoji aplikací pro širokou škálu operačních systémů, jako jsou Windows, Linux a Mac OS, a různé platformy.
 
-Podrobnosti viz [Přehled Produktů](/words/cpp/product-overview/) stránka.
+Podrobnosti viz [Přehled Produktů](/words/cs/cpp/product-overview/) stránka.
 
 ------
 
@@ -48,7 +48,7 @@ Podrobnosti viz [Přehled Produktů](/words/cpp/product-overview/) stránka.
 
 Aspose.Words pro C++ podporuje většinu populárních formátů dokumentů, jako jsou DOC, DOCX, HTML, Markdown, PDF, XML, a další.
 
-Můžete vidět kompletní seznam podporovaných formátů na [Podporované Formáty Dokumentů](/words/cpp/supported-document-formats/) stránka.
+Můžete vidět kompletní seznam podporovaných formátů na [Podporované Formáty Dokumentů](/words/cs/cpp/supported-document-formats/) stránka.
 
 ------
 
@@ -56,7 +56,7 @@ Můžete vidět kompletní seznam podporovaných formátů na [Podporované Form
 
 Můžete to udělat dvěma způsoby – pomocí zkušební verze nebo 30denní dočasné licence. Zkušební verze je stejná jako zakoupená, poskytuje plnou funkčnost produktu, ale při načítání a ukládání přidává hodnotící vodoznak v horní části dokumentu a omezuje maximální velikost dokumentu na několik set odstavců. Dočasná licence vám umožňuje testovat Aspose.Words bez zkušebních omezení po dobu 30 dnů.
 
-Podívejte se na [Licence a Předplatné](/words/cpp/licensing/) stránka pro více informací.
+Podívejte se na [Licence a Předplatné](/words/cs/cpp/licensing/) stránka pro více informací.
 
 {{% alert color="primary" %}}
 
@@ -72,29 +72,29 @@ Chcete-li si koupit licenci Aspose.Words, musíte přejít na [Nákup](https://p
 
 Po zakoupení, požádat o licenci, jak je popsáno v [Zakoupená Licence](/words/cpp/licensing/#purchased-license) oddíl.
 
-Podrobnosti o instalaci Aspose.Words lze přečíst na [Instalace](/words/cpp/installation/) stránka.
+Podrobnosti o instalaci Aspose.Words lze přečíst na [Instalace](/words/cs/cpp/installation/) stránka.
 
 ------
 
 **Otázka: Jak mohu získat podporu?**
 
-Využijte bezplatné fórum technické podpory. Podrobnosti o tom, jak správně nahlásit problém a co je třeba udělat před kontaktováním fóra, naleznete v části [podpora](/words/cpp/technical-support/) stránka.
+Využijte bezplatné fórum technické podpory. Podrobnosti o tom, jak správně nahlásit problém a co je třeba udělat před kontaktováním fóra, naleznete v části [podpora](/words/cs/cpp/technical-support/) stránka.
 
 ## Vykreslení dokumentu
 
 {{% alert color="primary" %}}
 
-Podrobnější informace o Vykreslování naleznete v [Vykreslování](/words/cpp/rendering/) sekce dokumentace.
+Podrobnější informace o Vykreslování naleznete v [Vykreslování](/words/cs/cpp/rendering/) sekce dokumentace.
 
 {{% /alert %}}
 
 **Otázka: Proč se rozložení a písma ve výstupním dokumentu liší od originálu?**
 
-Písmo nemusí být k dispozici nebo formát písma je podporován Microsoft Word, ale není podporován Aspose.Words. Aspose.Words vystoupí [nahrazení písma](/words/cpp/manipulate-and-substitute-truetype-fonts/).
+Písmo nemusí být k dispozici nebo formát písma je podporován Microsoft Word, ale není podporován Aspose.Words. Aspose.Words vystoupí [nahrazení písma](/words/cs/cpp/manipulate-and-substitute-truetype-fonts/).
 
 Chcete-li zkontrolovat, zda písmo chybí:
 
-- V Aspose.Words Použijte varování o nahrazení písma (podrobnosti najdete v části " Jak rozpoznat, že písmo bylo nahrazeno [Manipulovat a nahrazovat TrueType fonty](/words/cpp/manipulate-and-substitute-truetype-fonts/) článek).
+- V Aspose.Words Použijte varování o nahrazení písma (podrobnosti najdete v části " Jak rozpoznat, že písmo bylo nahrazeno [Manipulovat a nahrazovat TrueType fonty](/words/cs/cpp/manipulate-and-substitute-truetype-fonts/) článek).
 - V Microsoft Word otevřete dialogové okno "nahrazení písma" (soubor → Možnosti → Upřesnit → nahrazení písma).
 
 ------
@@ -121,7 +121,7 @@ Ale máš. Při kopírování písem proto mějte na paměti, že většina pís
 
 {{% alert color="primary" %}}
 
-Podrobnější informace o programování s dokumenty najdete v [Programování s dokumenty](/words/cpp/programming-with-documents/) sekce dokumentace.
+Podrobnější informace o programování s dokumenty najdete v [Programování s dokumenty](/words/cs/cpp/programming-with-documents/) sekce dokumentace.
 
 {{% /alert %}}
 
@@ -133,7 +133,7 @@ Výsledek připojit se zobrazí na samostatné stránce kvůli rozdílu v nastav
 
 {{% alert color="primary" %}}
 
-Podrobnější informace o převodu dokumentu najdete v [Převést dokument](/words/cpp/convert-a-document/) sekce dokumentace.
+Podrobnější informace o převodu dokumentu najdete v [Převést dokument](/words/cs/cpp/convert-a-document/) sekce dokumentace.
 
 {{% /alert %}}
 
@@ -156,7 +156,7 @@ doc->Save(outputPath);
 
 {{% alert color="primary" %}}
 
-Podrobnější informace o programování s dokumenty najdete v [Programování s dokumenty](/words/cpp/programming-with-documents/) sekce dokumentace.
+Podrobnější informace o programování s dokumenty najdete v [Programování s dokumenty](/words/cs/cpp/programming-with-documents/) sekce dokumentace.
 
 {{% /alert %}}
 

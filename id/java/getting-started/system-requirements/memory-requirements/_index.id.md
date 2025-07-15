@@ -42,10 +42,10 @@ Eksperimen dengan ribuan dokumen nyata menunjukkan bahwa biasanya Aspose.Words m
 
 Operasi yang lebih kompleks seperti merender (mengonversi ke format halaman tetap), memperbarui bidang, memisahkan halaman, dan lainnya, untuk beberapa dokumen memerlukan sumber daya 20 kali lebih banyak daripada memori yang dialokasikan oleh dokumen yang dimuat dalam Aspose.Words DOM.
 
-Jika hasil pembuatan profil Anda menunjukkan kemungkinan masalah memori di Aspose.Words, silakan hubungi kami [Tim Pendukung](/words/java/technical-support/) dan sertakan semua informasi diagnostik.
+Jika hasil pembuatan profil Anda menunjukkan kemungkinan masalah memori di Aspose.Words, silakan hubungi kami [Tim Pendukung](/words/id/java/technical-support/) dan sertakan semua informasi diagnostik.
 
 ## Lihat Juga
 
-* [Rendering](/words/java/rendering/)
-* [Mail Merge dan Pelaporan](/words/java/mail-merge-and-reporting/)
-* [Bekerja dengan Tawaran](/words/java/working-with-fields/)
+* [Rendering](/words/id/java/rendering/)
+* [Mail Merge dan Pelaporan](/words/id/java/mail-merge-and-reporting/)
+* [Bekerja dengan Tawaran](/words/id/java/working-with-fields/)

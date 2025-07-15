@@ -1,4 +1,4 @@
----
+﻿---
 title: AI - funkcje zasilane
 second_title: Aspose.Words dla Python via .NET
 articleTitle: AI - funkcje zasilane
@@ -16,7 +16,7 @@ Aspose.Words zawiera teraz funkcje oparte na AI, które mają na celu usprawnien
 
 W tej sekcji omówimy wszystko, co musisz wiedzieć o korzystaniu z obsługiwanych funkcji AI w Aspose.Words. Od praktycznych wskazówek po szczegółowe instrukcje, staramy się pomóc ci w pełni wykorzystać te ulepszenia.
 
-* [Obsługiwane Modele AI ](/words/python-net/supported-ai-models/)
-* [Podsumuj dokument](/words/python-net/summarize-a-document/)
-* [Przetłumacz dokument](/words/python-net/translate-a-document/)
-* [Sprawdzanie Gramatyki](/words/python-net/grammar-checking/)
+* [Obsługiwane Modele AI ](/words/pl/python-net/supported-ai-models/)
+* [Podsumuj dokument](/words/pl/python-net/summarize-a-document/)
+* [Przetłumacz dokument](/words/pl/python-net/translate-a-document/)
+* [Sprawdzanie Gramatyki](/words/pl/python-net/grammar-checking/)

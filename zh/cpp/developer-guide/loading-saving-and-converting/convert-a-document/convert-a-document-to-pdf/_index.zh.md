@@ -1,4 +1,4 @@
----
+﻿---
 title: 在C++中将文档转换为PDF
 second_title: Aspose.Words对于C++
 articleTitle: 将文档转换为PDF
@@ -67,6 +67,6 @@ Aspose.Words提供[PdfCompliance](https://reference.aspose.com/words/cpp/aspose.
 
 ## 请参阅
 
-- 文章 [渲染图](/words/cpp/rendering/) 有关固定页面和流布局格式的更多信息
+- 文章 [渲染图](/words/zh/cpp/rendering/) 有关固定页面和流布局格式的更多信息
 - 文章 [转换为固定页格式](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) 有关页面布局的更多信息
-- 文章 [转换为PDF时指定渲染选项](/words/cpp/specify-rendering-options-when-converting-to-pdf/) 有关使用`PdfSaveOptions`类的更多信息
+- 文章 [转换为PDF时指定渲染选项](/words/zh/cpp/specify-rendering-options-when-converting-to-pdf/) 有关使用`PdfSaveOptions`类的更多信息

@@ -1,4 +1,4 @@
----
+﻿---
 title: AI - ميزات تعمل بالطاقة
 second_title: Aspose.Words ل Java
 articleTitle: AI - ميزات تعمل بالطاقة
@@ -16,7 +16,7 @@ Aspose.Words يتضمن الآن ميزات تعمل بالطاقة AI مصمم�
 
 في هذا القسم، سنغطي كل ما تحتاج لمعرفته حول استخدام ميزات AI المدعومة في Aspose.Words. من النصائح العملية إلى التعليمات التفصيلية، نهدف إلى مساعدتك في تحقيق أقصى استفادة من هذه التحسينات.
 
-* [معتمدة AI نماذج](/words/java/supported-ai-models/)
-* [تلخيص وثيقة](/words/java/summarize-a-document/)
-* [ترجمة وثيقة](/words/java/translate-a-document/)
-* [التدقيق النحوي](/words/java/grammar-checking/)
+* [معتمدة AI نماذج](/words/ar/java/supported-ai-models/)
+* [تلخيص وثيقة](/words/ar/java/summarize-a-document/)
+* [ترجمة وثيقة](/words/ar/java/translate-a-document/)
+* [التدقيق النحوي](/words/ar/java/grammar-checking/)

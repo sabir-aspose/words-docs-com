@@ -1,4 +1,4 @@
----
+﻿---
 title: C#의 문서를 사용한 프로그래밍
 second_title: .NET용 Aspose.Words
 articleTitle: 문서를 이용한 프로그래밍
@@ -58,6 +58,6 @@ timestamp: 2024-09-25-11-08-55
 - [제어 문자 작업](/words/ko/net/working-with-control-characters/)
 - [VBA 매크로 작업](/words/ko/net/working-with-vba-macros/)
 - [Markdown 기능 작업](/words/ko/net/working-with-markdown-features/)
-- [텍스트 문서 작업](/words/net/working-with-text-document/)
+- [텍스트 문서 작업](/words/ko/net/working-with-text-document/)
 
 클래스, 메서드 및 속성에 대한 자세한 설명은 .NET API Reference용 Aspose.Words 섹션을 참조하세요.

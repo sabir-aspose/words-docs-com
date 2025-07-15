@@ -28,7 +28,7 @@ Microsoft Word е най-модерното приложение за редак
 
 ## Вижте Също
 
-* [Какво е оформление на страница](/words/cpp/what-is-a-page-layout/)
-* [Създаване на оформление на страница](/words/cpp/creating-a-page-layout/)
-* [Записване на документ във формат на фиксирана страница](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Посочете Опциите За Оформление](/words/cpp/specify-layout-options/)
+* [Какво е оформление на страница](/words/bg/cpp/what-is-a-page-layout/)
+* [Създаване на оформление на страница](/words/bg/cpp/creating-a-page-layout/)
+* [Записване на документ във формат на фиксирана страница](/words/bg/cpp/saving-a-document-to-fixed-page-format/)
+* [Посочете Опциите За Оформление](/words/bg/cpp/specify-layout-options/)

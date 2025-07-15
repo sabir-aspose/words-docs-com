@@ -1,4 +1,4 @@
----
+﻿---
 title: Ciao, Mondo!
 second_title: Semplice esempio di come utilizzare Aspose.Words per C++
 articleTitle: Ciao, Mondo!
@@ -12,7 +12,7 @@ timestamp: 2024-01-27-14-07-04
 
 Un " Ciao, Mondo!"il codice è spesso il primo semplice esempio per scrivere uisng "Aspose.Words per C++", e può anche essere utilizzato come test di sanità mentale per garantire che il software destinato a compilare o eseguire il codice sorgente sia installato correttamente.
 
-"Aspose.Words per C++"library offre agli sviluppatori l'accesso diretto per creare, modificare, unire, convertire, confrontare documenti Word e Web. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML e molti altri formati di file sono [supportare](/words/cpp/supported-document-formats/).
+"Aspose.Words per C++"library offre agli sviluppatori l'accesso diretto per creare, modificare, unire, convertire, confrontare documenti Word e Web. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML e molti altri formati di file sono [supportare](/words/it/cpp/supported-document-formats/).
 
 Be low code snippet segue questi passaggi:
 

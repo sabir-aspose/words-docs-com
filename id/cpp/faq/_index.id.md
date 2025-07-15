@@ -1,4 +1,4 @@
----
+﻿---
 title: FAQ
 second_title: Aspose.Words untuk C++
 articleTitle: FAQ
@@ -12,7 +12,7 @@ timestamp: 2024-01-31-14-23-37
 
 Halaman ini berisi jawaban atas pertanyaan yang paling sering diajukan. Silakan pelajari halaman saat ini-mungkin ini akan memungkinkan Anda untuk menyelesaikan masalah Anda dengan cepat.
 
-Jika Anda belum menemukan jawaban atas pertanyaan Anda, Anda dapat bertanya di forum dukungan. Untuk informasi tentang cara melaporkan pertanyaan atau masalah Anda dengan benar, lihat bagian [Dukungan Teknis](/words/cpp/technical-support/) halaman.
+Jika Anda belum menemukan jawaban atas pertanyaan Anda, Anda dapat bertanya di forum dukungan. Untuk informasi tentang cara melaporkan pertanyaan atau masalah Anda dengan benar, lihat bagian [Dukungan Teknis](/words/id/cpp/technical-support/) halaman.
 
 {{% alert color="primary" %}}
 
@@ -32,7 +32,7 @@ Detailnya dapat ditemukan di dokumentasi kami.
 
 **T: Apa artinya "Aspose.Words tidak memerlukan aplikasi pihak ketiga"?**
 
-Aspose.Words untuk C++ tidak perlu menginstal aplikasi pihak ketiga atau paket perangkat lunak tambahan untuk bekerja. Cukup unduh dan instal Aspose.Words seperti yang dijelaskan dalam ["Instalasi"](/words/cpp/installation/) artikel dan mulai.
+Aspose.Words untuk C++ tidak perlu menginstal aplikasi pihak ketiga atau paket perangkat lunak tambahan untuk bekerja. Cukup unduh dan instal Aspose.Words seperti yang dijelaskan dalam ["Instalasi"](/words/id/cpp/installation/) artikel dan mulai.
 
 ------
 
@@ -40,7 +40,7 @@ Aspose.Words untuk C++ tidak perlu menginstal aplikasi pihak ketiga atau paket p
 
 Aspose.Words untuk C++ mencakup sebagian besar lingkungan pengembangan dan platform penerapan yang populer. Its API dapat digunakan untuk mengembangkan aplikasi untuk berbagai sistem operasi seperti Windows, Linux, dan Mac OS, dan berbagai platform.
 
-Untuk detailnya, lihat [Tinjauan Produk](/words/cpp/product-overview/) halaman.
+Untuk detailnya, lihat [Tinjauan Produk](/words/id/cpp/product-overview/) halaman.
 
 ------
 
@@ -48,7 +48,7 @@ Untuk detailnya, lihat [Tinjauan Produk](/words/cpp/product-overview/) halaman.
 
 Aspose.Words untuk C++ mendukung sebagian besar format dokumen populer seperti DOC, DOCX, HTML, Markdown, PDF, XML, dan lainnya.
 
-Anda dapat melihat daftar lengkap format yang didukung di [Format Dokumen yang Didukung](/words/cpp/supported-document-formats/) halaman.
+Anda dapat melihat daftar lengkap format yang didukung di [Format Dokumen yang Didukung](/words/id/cpp/supported-document-formats/) halaman.
 
 ------
 
@@ -56,7 +56,7 @@ Anda dapat melihat daftar lengkap format yang didukung di [Format Dokumen yang D
 
 Anda dapat melakukannya dengan dua cara-menggunakan versi Uji Coba atau Lisensi Sementara selama 30 hari. Versi Uji Coba sama dengan yang dibeli, versi ini menyediakan fungsionalitas produk lengkap tetapi menambahkan tanda air evaluatif di bagian atas dokumen saat memuat dan menyimpan dan membatasi ukuran dokumen maksimum hingga beberapa ratus paragraf. Lisensi Sementara memungkinkan Anda menguji Aspose.Words tanpa batasan Uji Coba selama 30 hari.
 
-Lihat [Lisensi dan Langganan](/words/cpp/licensing/) halaman untuk informasi lebih lanjut.
+Lihat [Lisensi dan Langganan](/words/id/cpp/licensing/) halaman untuk informasi lebih lanjut.
 
 {{% alert color="primary" %}}
 
@@ -72,29 +72,29 @@ Untuk membeli lisensi Aspose.Words, Anda harus pergi ke [Pembelian](https://purc
 
 Setelah membeli, ajukan lisensi seperti yang dijelaskan dalam [Lisensi yang Dibeli](/words/cpp/licensing/#purchased-license) bagian.
 
-Detail tentang cara menginstal Aspose.Words dapat dibaca di [Instalasi](/words/cpp/installation/) halaman.
+Detail tentang cara menginstal Aspose.Words dapat dibaca di [Instalasi](/words/id/cpp/installation/) halaman.
 
 ------
 
 **T: Bagaimana saya bisa mendapatkan dukungan?**
 
-Gunakan forum dukungan teknis gratis. Untuk detail tentang cara melaporkan masalah dengan benar dan apa yang perlu dilakukan sebelum menghubungi forum, lihat bagian [Dukungan Teknis](/words/cpp/technical-support/) halaman.
+Gunakan forum dukungan teknis gratis. Untuk detail tentang cara melaporkan masalah dengan benar dan apa yang perlu dilakukan sebelum menghubungi forum, lihat bagian [Dukungan Teknis](/words/id/cpp/technical-support/) halaman.
 
 ## Merender Dokumen
 
 {{% alert color="primary" %}}
 
-Anda dapat menemukan informasi lebih rinci tentang rendering di [Rendering](/words/cpp/rendering/) bagian dokumentasi.
+Anda dapat menemukan informasi lebih rinci tentang rendering di [Rendering](/words/id/cpp/rendering/) bagian dokumentasi.
 
 {{% /alert %}}
 
 **T: Mengapa tata letak dan font dalam dokumen keluaran berbeda dari aslinya?**
 
-Font mungkin tidak tersedia, atau format font didukung oleh Microsoft Word tetapi tidak didukung oleh Aspose.Words. Aspose.Words akan tampil [penggantian fonta](/words/cpp/manipulate-and-substitute-truetype-fonts/).
+Font mungkin tidak tersedia, atau format font didukung oleh Microsoft Word tetapi tidak didukung oleh Aspose.Words. Aspose.Words akan tampil [penggantian fonta](/words/id/cpp/manipulate-and-substitute-truetype-fonts/).
 
 Untuk memeriksa apakah font tidak ada:
 
-- Di Aspose.Words gunakan peringatan penggantian font (untuk detailnya, lihat bagian "Cara Mengenali Bahwa Font Telah Diganti" di [Memanipulasi dan Mengganti Font TrueType ](/words/cpp/manipulate-and-substitute-truetype-fonts/) artikel).
+- Di Aspose.Words gunakan peringatan penggantian font (untuk detailnya, lihat bagian "Cara Mengenali Bahwa Font Telah Diganti" di [Memanipulasi dan Mengganti Font TrueType ](/words/id/cpp/manipulate-and-substitute-truetype-fonts/) artikel).
 - Di Microsoft Word buka kotak dialog "Substitusi Font" (File → Options → Advanced Substitution Substitusi Font).
 
 ------
@@ -121,7 +121,7 @@ Ya, Anda lakukan. Oleh karena itu, saat menyalin font, perlu diingat bahwa sebag
 
 {{% alert color="primary" %}}
 
-Anda dapat menemukan informasi lebih rinci tentang pemrograman dengan dokumen di [Pemrograman dengan Dokumen](/words/cpp/programming-with-documents/) bagian dokumentasi.
+Anda dapat menemukan informasi lebih rinci tentang pemrograman dengan dokumen di [Pemrograman dengan Dokumen](/words/id/cpp/programming-with-documents/) bagian dokumentasi.
 
 {{% /alert %}}
 
@@ -133,7 +133,7 @@ Hasil append muncul di halaman terpisah karena perbedaan pengaturan [PageSetup](
 
 {{% alert color="primary" %}}
 
-Anda dapat menemukan informasi lebih rinci tentang mengonversi dokumen di [Konversikan Dokumen](/words/cpp/convert-a-document/) bagian dokumentasi.
+Anda dapat menemukan informasi lebih rinci tentang mengonversi dokumen di [Konversikan Dokumen](/words/id/cpp/convert-a-document/) bagian dokumentasi.
 
 {{% /alert %}}
 
@@ -156,7 +156,7 @@ doc->Save(outputPath);
 
 {{% alert color="primary" %}}
 
-Anda dapat menemukan informasi lebih rinci tentang pemrograman dengan dokumen di [Pemrograman dengan Dokumen](/words/cpp/programming-with-documents/) bagian dokumentasi.
+Anda dapat menemukan informasi lebih rinci tentang pemrograman dengan dokumen di [Pemrograman dengan Dokumen](/words/id/cpp/programming-with-documents/) bagian dokumentasi.
 
 {{% /alert %}}
 

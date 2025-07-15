@@ -1,4 +1,4 @@
----
+﻿---
 title: FAQ
 second_title: Aspose.Words для .NET
 articleTitle: FAQ - Aspose.Words для .NET
@@ -129,7 +129,7 @@ Aspose.Words для .NET поддерживает большинство поп�
 
 {{% alert color="primary" %}}
 
-Вы можете найти более подробную информацию о Mail Merge в [Mail Merge и отчетность](/words/net/mail-merge-and-reporting/) Раздел документации.
+Вы можете найти более подробную информацию о Mail Merge в [Mail Merge и отчетность](/words/ru/net/mail-merge-and-reporting/) Раздел документации.
 
 {{% /alert %}}
 
@@ -153,7 +153,7 @@ Aspose.Words для .NET поддерживает большинство поп�
 Это связано с тем, что отношения между родительским и детским столами не установлены или они неправильно настроены. Необходимо:
 
 * Обеспечить целостность данных в вашем **DataSet** и использовать **DataRelation** объект, представляющий отношения между родителями и детьми между соответствующими таблицами данных.
-* Проверьте раздел "Как настроить отношения с данными в Nested Mail Merge с регионами" в статье [Вложенный Mail Merge с регионами](/words/net/nested-mail-merge-with-regions/).
+* Проверьте раздел "Как настроить отношения с данными в Nested Mail Merge с регионами" в статье [Вложенный Mail Merge с регионами](/words/ru/net/nested-mail-merge-with-regions/).
 
 ------
 

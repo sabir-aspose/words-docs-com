@@ -1,4 +1,4 @@
----
+﻿---
 title: Prezentare Generală A Produsului
 second_title: Aspose.Words pentru Java
 articleTitle: Prezentare Generală A Produsului
@@ -18,7 +18,7 @@ Aspose.Words este o bibliotecă de clase multiplatformă care permite aplicație
 
 Folosind Aspose.Words, puteți crea, modifica, converti, reda și imprima documente fără a vă baza pe aplicații terțe, cum ar fi Microsoft Word sau Office Automation.
 
-Este demn de remarcat faptul că puteți converti un document din orice format de încărcare acceptat în orice format de salvare acceptat, de exemplu, formate Microsoft Word în PDF, HTML sau Markdown, HTML în DOCX și așa mai departe. Citiți mai multe despre conversia documentelor în [Conversia unui Document](/words/java/convert-a-document/) secțiunea.
+Este demn de remarcat faptul că puteți converti un document din orice format de încărcare acceptat în orice format de salvare acceptat, de exemplu, formate Microsoft Word în PDF, HTML sau Markdown, HTML în DOCX și așa mai departe. Citiți mai multe despre conversia documentelor în [Conversia unui Document](/words/ro/java/convert-a-document/) secțiunea.
 
 O altă opțiune populară a bibliotecii noastre este *Reports and Mails*. Utilizatorii noștri generează foarte complexe ajustate individual financiare, medicale și altele *Reports*. Procedând astfel, documentul generat pare că ați creat raportul manual folosind un editor de text obișnuit. O altă opțiune, *Mail*, oferă posibilitatea de a genera foarte rapid mii și milioane de documente simple, dar totuși personale bazate pe șabloane.
 
@@ -46,21 +46,21 @@ Aspose.Words pentru Java caracteristicile pot fi împărțite în patru domenii 
 
 Capacitatea de a converti ușor și fiabil documente este una dintre principalele caracteristici ale Aspose.Words.
 
-Cuprinzătoare [import și export de documente](/words/java/loading-saving-and-converting/) cu [peste 35 formate de fișiere acceptate](/words/java/supported-document-formats/) permite utilizatorilor să convertească documente de la [one popular format](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) la [another](https://reference.aspose.com/words/java/com.aspose.words/saveformat/), de exemplu, de la DOCX la PDF, JPEG sau Markdown.
+Cuprinzătoare [import și export de documente](/words/ro/java/loading-saving-and-converting/) cu [peste 35 formate de fișiere acceptate](/words/ro/java/supported-document-formats/) permite utilizatorilor să convertească documente de la [one popular format](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) la [another](https://reference.aspose.com/words/java/com.aspose.words/saveformat/), de exemplu, de la DOCX la PDF, JPEG sau Markdown.
 
 #### Model Obiect Document (DOM)
 
-Accesul programatic printr-un bogat API la toate elementele documentului și formatarea permite crearea, modificarea, extragerea, copierea, împărțirea, alăturarea și înlocuirea conținutului documentului. Aflați mai multe în [Aspose.Words Model Obiect Document (DOM)](/words/java/aspose-words-document-object-model/) secțiunea.
+Accesul programatic printr-un bogat API la toate elementele documentului și formatarea permite crearea, modificarea, extragerea, copierea, împărțirea, alăturarea și înlocuirea conținutului documentului. Aflați mai multe în [Aspose.Words Model Obiect Document (DOM)](/words/ro/java/aspose-words-document-object-model/) secțiunea.
 
 #### Redare
 
-Folosim termenul [Redare în Aspose.Words](/words/java/rendering/) pentru a descrie procesul de conversie a unui document într-un format de fișier sau un mediu, paginat sau care are conceptul de pagini.
+Folosim termenul [Redare în Aspose.Words](/words/ro/java/rendering/) pentru a descrie procesul de conversie a unui document într-un format de fișier sau un mediu, paginat sau care are conceptul de pagini.
 
 Puteți converti documente întregi sau anumite pagini în PDF sau XPS pentru a genera documente de pe server, a le imprima sau a reda pagini. Și toate acestea cu fidelitate ridicată-exact așa cum Microsoft Word ar fi făcut-o.
 
 #### Raportare
 
-Generați documente sau rapoarte de la zero sau completând șabloane cu date din surse de date sau obiecte de afaceri. Pentru mai multe informații despre raportarea și preluarea datelor din bazele de date, consultați [Mail Merge și raportare](/words/java/mail-merge-and-reporting/) și [LINQ Motor De Raportare](/words/java/linq-reporting-engine/) secțiuni.
+Generați documente sau rapoarte de la zero sau completând șabloane cu date din surse de date sau obiecte de afaceri. Pentru mai multe informații despre raportarea și preluarea datelor din bazele de date, consultați [Mail Merge și raportare](/words/ro/java/mail-merge-and-reporting/) și [LINQ Motor De Raportare](/words/java/linq-reporting-engine/) secțiuni.
 
 ### Independența Platformei
 
@@ -104,8 +104,8 @@ Dezvoltatorii care au folosit anterior automatizarea Microsoft Word în proiecte
 
 ## Prețuri și politici
 
-Vă rugăm să vizitați [Licențiere](/words/java/licensing/) pagina pentru informații privind licențele și revizuirea [Informații Despre Prețuri](https://purchase.aspose.com/pricing/words/family/) pagina pentru detalii privind prețurile.
+Vă rugăm să vizitați [Licențiere](/words/ro/java/licensing/) pagina pentru informații privind licențele și revizuirea [Informații Despre Prețuri](https://purchase.aspose.com/pricing/words/family/) pagina pentru detalii privind prețurile.
 
 ## Suport Tehnic
 
-Pentru mai multe informații despre Aspose.Words asistență tehnică, aruncați o privire la [Pagina de suport](/words/java/technical-support/).
+Pentru mai multe informații despre Aspose.Words asistență tehnică, aruncați o privire la [Pagina de suport](/words/ro/java/technical-support/).

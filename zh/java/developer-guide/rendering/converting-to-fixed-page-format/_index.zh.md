@@ -75,7 +75,7 @@ Aspose.Words在内部实现页面布局功能，使其能够生成所有固定�
 - 输出文档中包含的页数和范围([PageIndex](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/),[PageCount](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/)。
 - 逐页文档保存的进度（[PageSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/)。
 - 用于数字渲染([NumeralFormat](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/)的一组字符。
-- 元文件播放器（[MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/)。 有关详细信息，请参阅 [处理Windows元文件](/words/java/handling-windows-metafiles/) 文章。
+- 元文件播放器（[MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/)。 有关详细信息，请参阅 [处理Windows元文件](/words/zh/java/handling-windows-metafiles/) 文章。
 - 用于重新压缩JPEG图像的质量速率，其值可能略有不同，具体取决于所选的保存格式([JpegQuality](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/))。
 - 优化Aspose.Words输出（[OptimizeOutput](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/)中的矢量图形。
 - 保存为Tiff，Png，Bmp，Jpeg，Emf格式（[UseAntiAliasing](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/#getUseAntiAliasing)，[UseHighQualityRendering](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/)）时的图形选项。

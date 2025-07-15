@@ -1,4 +1,4 @@
----
+﻿---
 title: Dosya Biçimlerine ve Dönüşümlere
 second_title: Aspose.Words için Java
 articleTitle: Dosya Biçimlerine ve Dönüşümlere
@@ -29,7 +29,7 @@ Aşağıdaki kod örneği bir belgeyi nasıl dönüştüreceğinizi gösterir:
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "docx-to-pdf.java" >}}
 
-Yükleme, dönüştürme ve kaydetme için belgelere ilişkin ayrıntılar [Loading, Saving and Converting](/words/java/loading-saving-and-converting/) bölümüne bakın.
+Yükleme, dönüştürme ve kaydetme için belgelere ilişkin ayrıntılar [Loading, Saving and Converting](/words/tr/java/loading-saving-and-converting/) bölümüne bakın.
 
 ## Yüksek Sadakat
 

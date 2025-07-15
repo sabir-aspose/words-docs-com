@@ -1,4 +1,4 @@
----
+﻿---
 title: Често задавани въпроси
 second_title: Aspose.Words вместо .NET
 articleTitle: Често задавани въпроси Aspose.Words вместо .NET
@@ -129,7 +129,7 @@ Aspose.Words вместо .NET поддържа повечето от попул
 
 {{% alert color="primary" %}}
 
-Можете да намерите по-подробна информация за Mail Merge в [Mail Merge и докладване](/words/net/mail-merge-and-reporting/) раздел за документация.
+Можете да намерите по-подробна информация за Mail Merge в [Mail Merge и докладване](/words/bg/net/mail-merge-and-reporting/) раздел за документация.
 
 {{% /alert %}}
 
@@ -153,7 +153,7 @@ Aspose.Words вместо .NET поддържа повечето от попул
 Това е така, защото връзката между родителската и детската маси не е създадена или те са неправилно създадени. Необходимо е:
 
 * Осигурете целостта на данните във вашия **DataSet** и да използвате **DataRelation** обект за представяне на връзката родител-дете между свързаните таблици с данни.
-* Как да създадем връзки с данни в Nested Mail Merge с региони в статията [Гнездо Mail Merge с региони](/words/net/nested-mail-merge-with-regions/).
+* Как да създадем връзки с данни в Nested Mail Merge с региони в статията [Гнездо Mail Merge с региони](/words/bg/net/nested-mail-merge-with-regions/).
 
 ------
 

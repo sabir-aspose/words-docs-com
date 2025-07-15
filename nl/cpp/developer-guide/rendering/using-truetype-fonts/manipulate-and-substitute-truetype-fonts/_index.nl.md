@@ -21,7 +21,7 @@ Merk op dat het lettertype in het document een entiteit vertegenwoordigt, zoals 
 
 ## Waar Aspose.Words zoekt naar lettertypen
 
-Aspose.Words probeert automatisch TrueType lettertypen op het bestandssysteem te vinden. Meestal kunt u vertrouwen op het standaardgedrag van Aspose.Words om de `TrueType` lettertypen te vinden, maar soms moet u uw eigen mappen opgeven die TrueType lettertypen bevatten. De [TrueType Lettertypelocatie Opgeven](/words/cpp/specify-truetype-fonts-location/) onderwerp beschrijft hoe en waar Aspose.Words naar lettertypen zoekt, evenals hoe u uw eigen lettertypelocaties kunt opgeven.
+Aspose.Words probeert automatisch TrueType lettertypen op het bestandssysteem te vinden. Meestal kunt u vertrouwen op het standaardgedrag van Aspose.Words om de `TrueType` lettertypen te vinden, maar soms moet u uw eigen mappen opgeven die TrueType lettertypen bevatten. De [TrueType Lettertypelocatie Opgeven](/words/nl/cpp/specify-truetype-fonts-location/) onderwerp beschrijft hoe en waar Aspose.Words naar lettertypen zoekt, evenals hoe u uw eigen lettertypelocaties kunt opgeven.
 
 ## Verschillen in verwerking van lettertypeformaten in Aspose.Words en Microsoft Word
 

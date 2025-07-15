@@ -1,4 +1,4 @@
----
+﻿---
 title: Изисквания към паметта
 second_title: Aspose.Words вместо .NET
 articleTitle: Изисквания към паметта
@@ -48,5 +48,5 @@ Aspose.Words осигурява широка гама от функции за �
 
 * [Измерване на използването на паметта в Visual Studio (C#, Visual Basic, C++, F#)](https://learn.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2022)
 * [Внасяне](/words/bg/net/rendering/)
-* [Mail Merge и докладване](/words/net/mail-merge-and-reporting/)
+* [Mail Merge и докладване](/words/bg/net/mail-merge-and-reporting/)
 * [Работа със полета](/words/bg/net/working-with-fields/)

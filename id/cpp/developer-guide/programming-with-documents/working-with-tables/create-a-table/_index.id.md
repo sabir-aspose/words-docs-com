@@ -1,4 +1,4 @@
----
+﻿---
 title: Cara Membuat Tabel di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Buat Tabel
@@ -112,7 +112,7 @@ Contoh kode berikut menunjukkan cara mengkloning baris terakhir tabel dan menamb
 
 {{< gist "aspose-words-gists" "aa87055754447c86ae5fb2d4766130f3" "clone-last-row.h" >}}
 
-Jika Anda ingin membuat tabel dalam dokumen yang berkembang secara dinamis dengan setiap catatan dari sumber data Anda, maka metode di atas tidak disarankan. Sebaliknya, keluaran yang diinginkan lebih mudah dicapai dengan menggunakan Mail merge dengan wilayah. Anda dapat mempelajari lebih lanjut tentang teknik ini di [Mail Merge dengan Wilayah](/words/cpp/types-of-mail-merge-operations/) bagian.
+Jika Anda ingin membuat tabel dalam dokumen yang berkembang secara dinamis dengan setiap catatan dari sumber data Anda, maka metode di atas tidak disarankan. Sebaliknya, keluaran yang diinginkan lebih mudah dicapai dengan menggunakan Mail merge dengan wilayah. Anda dapat mempelajari lebih lanjut tentang teknik ini di [Mail Merge dengan Wilayah](/words/id/cpp/types-of-mail-merge-operations/) bagian.
 
 ## Bandingkan Cara Membuat Tabel
 

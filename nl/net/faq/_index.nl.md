@@ -1,4 +1,4 @@
----
+﻿---
 title: Veelgestelde vragen
 second_title: Aspose.Words voor .NET
 articleTitle: Veelgestelde vragen Aspose.Words voor .NET
@@ -129,7 +129,7 @@ Jawel. Houd daarom bij het kopiëren van lettertypen in gedachten dat de meeste 
 
 {{% alert color="primary" %}}
 
-Meer gedetailleerde informatie over Mail Merge in de [Mail Merge en rapportage](/words/net/mail-merge-and-reporting/) documentatiesectie.
+Meer gedetailleerde informatie over Mail Merge in de [Mail Merge en rapportage](/words/nl/net/mail-merge-and-reporting/) documentatiesectie.
 
 {{% /alert %}}
 
@@ -153,7 +153,7 @@ Dit komt omdat de merge regio's in het sjabloon niet correct gevormd zijn, waard
 Dit komt omdat de relatie tussen de ouder en kind tafels niet zijn opgezet of ze verkeerd zijn opgezet. Het is noodzakelijk:
 
 * Zorg voor gegevensintegriteit binnen uw **DataSet** en gebruik de **DataRelation** de relatie tussen ouder en kind tussen verwante gegevenstabellen vertegenwoordigen.
-* Controleer de sectie Mail Merge met Regio's in het artikel [Geneste Mail Merge met regio's](/words/net/nested-mail-merge-with-regions/).
+* Controleer de sectie Mail Merge met Regio's in het artikel [Geneste Mail Merge met regio's](/words/nl/net/nested-mail-merge-with-regions/).
 
 ------
 

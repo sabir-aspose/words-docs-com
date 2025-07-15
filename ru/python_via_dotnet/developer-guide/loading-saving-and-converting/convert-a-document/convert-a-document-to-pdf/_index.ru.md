@@ -89,6 +89,6 @@ Aspose.Words предоставляет перечисление [PdfCompliance]
 
 ## Смотрите также
 
-- Статья [Визуализация](/words/python-net/rendering/) для получения дополнительной информации о форматах фиксированной страницы и потокового макета
+- Статья [Визуализация](/words/ru/python-net/rendering/) для получения дополнительной информации о форматах фиксированной страницы и потокового макета
 - Статья [Преобразование в формат фиксированной страницы](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) для получения дополнительной информации о макете страницы
-- Статья [Укажите параметры отображения при преобразовании в PDF](/words/python-net/specify-rendering-options-when-converting-to-pdf/) для получения дополнительной информации об использовании класса [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/)
+- Статья [Укажите параметры отображения при преобразовании в PDF](/words/ru/python-net/specify-rendering-options-when-converting-to-pdf/) для получения дополнительной информации об использовании класса [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/)

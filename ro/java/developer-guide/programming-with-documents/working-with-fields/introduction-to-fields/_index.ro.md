@@ -1,4 +1,4 @@
----
+﻿---
 title: Introducere în câmpuri în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Introducere în câmpuri
@@ -29,7 +29,7 @@ Un câmp este format din:
 
 ![fields-aspose-words-java](introduction-to-fields-1.png)
 
-Conținutul care alcătuiește codul câmpului este stocat ca [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) noduri între [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/) și [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/). Rezultatul câmpului este stocat între nodurile **FieldSeparator** și [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/) și poate fi alcătuit din diferite tipuri de conținut. În mod normal, rezultatul câmpului conține doar text format din noduri de rulare, cu toate acestea, este posibil ca nodul FieldEnd să fie localizat într-un paragraf complet diferit, făcând astfel rezultatul câmpului compus din [noduri de nivel bloc](/words/java/logical-levels-of-nodes-in-a-document/) cum ar fi **Table** și **Paragraph** noduri, de asemenea.
+Conținutul care alcătuiește codul câmpului este stocat ca [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) noduri între [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/) și [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/). Rezultatul câmpului este stocat între nodurile **FieldSeparator** și [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/) și poate fi alcătuit din diferite tipuri de conținut. În mod normal, rezultatul câmpului conține doar text format din noduri de rulare, cu toate acestea, este posibil ca nodul FieldEnd să fie localizat într-un paragraf complet diferit, făcând astfel rezultatul câmpului compus din [noduri de nivel bloc](/words/ro/java/logical-levels-of-nodes-in-a-document/) cum ar fi **Table** și **Paragraph** noduri, de asemenea.
 
 Iată o vizualizare a modului în care un câmp este stocat în Aspose.Words folosind exemplul " *DocumentExplorer"* care poate fi găsit pe [Github](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/java/com/aspose/words/examples/viewers_visualizers/document_explorer).
 

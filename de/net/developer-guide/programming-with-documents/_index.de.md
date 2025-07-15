@@ -1,4 +1,4 @@
----
+﻿---
 title: Programmieren mit Dokumenten in C#
 second_title: Aspose.Words für .NET
 articleTitle: Programmieren mit Dokumenten
@@ -58,6 +58,6 @@ Um mehr über die Aspose.Words-Funktionen beim Programmieren mit Dokumenten zu e
 - [Arbeiten mit Steuerzeichen](/words/de/net/working-with-control-characters/)
 - [Arbeiten mit VBA-Makros](/words/de/net/working-with-vba-macros/)
 - [Arbeiten mit Markdown-Funktionen](/words/de/net/working-with-markdown-features/)
-- [Arbeiten mit Textdokumenten](/words/net/working-with-text-document/)
+- [Arbeiten mit Textdokumenten](/words/de/net/working-with-text-document/)
 
 Eine ausführliche Beschreibung der Klassen, Methoden und Eigenschaften finden Sie im Abschnitt Aspose.Words für .NET API Reference.

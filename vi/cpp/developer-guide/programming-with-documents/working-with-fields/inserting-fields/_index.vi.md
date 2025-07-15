@@ -1,4 +1,4 @@
----
+﻿---
 title: Chèn Các Trường vào C++
 second_title: Aspose.Words cho C++
 articleTitle: Chèn Trường
@@ -14,7 +14,7 @@ Có một số cách khác nhau để chèn các trường vào tài liệu:
 
 - sử dụng [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/)
 - sử dụng [FieldBuilder](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldbuilder/)
-- sử dụng [Aspose.Words Mô Hình Đối Tượng Tài Liệu (DOM)](/words/cpp/aspose-words-document-object-model/)
+- sử dụng [Aspose.Words Mô Hình Đối Tượng Tài Liệu (DOM)](/words/vi/cpp/aspose-words-document-object-model/)
 
 Trong bài viết này, chúng tôi sẽ xem xét từng cách chi tiết hơn và phân tích cách chèn các trường nhất định bằng các tùy chọn này.
 
@@ -64,7 +64,7 @@ Ví dụ mã sau đây cho thấy cách chèn một trường vào tài liệu b
 
 ## Chèn Các Trường bằng DOM
 
-Bạn cũng có thể chèn các loại trường khác nhau bằng cách sử dụng [Aspose.Words Mô Hình Đối Tượng Tài Liệu (DOM)](/words/cpp/aspose-words-document-object-model/). Trong phần này, chúng ta sẽ xem xét một vài ví dụ.
+Bạn cũng có thể chèn các loại trường khác nhau bằng cách sử dụng [Aspose.Words Mô Hình Đối Tượng Tài Liệu (DOM)](/words/vi/cpp/aspose-words-document-object-model/). Trong phần này, chúng ta sẽ xem xét một vài ví dụ.
 
 ### Chèn Trường Hợp Nhất vào Tài liệu bằng DOM
 

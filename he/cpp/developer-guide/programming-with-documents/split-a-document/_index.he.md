@@ -67,7 +67,7 @@ Aspose.Words גם מאפשר לך להשתמש מעברי סעיף לפצל מס
 
 {{% alert color="primary" %}}
 
-אתה יכול להשתמש בכל [פורמט פלט נתמך על ידי Aspose.Words](/words/cpp/supported-document-formats/).
+אתה יכול להשתמש בכל [פורמט פלט נתמך על ידי Aspose.Words](/words/he/cpp/supported-document-formats/).
 
 {{% /alert %}}
 

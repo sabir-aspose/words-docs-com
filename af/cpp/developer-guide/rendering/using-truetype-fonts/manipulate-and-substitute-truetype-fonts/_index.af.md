@@ -1,4 +1,4 @@
----
+﻿---
 title: Manipuleer En Vervang TrueType Lettertipes in C++
 second_title: Aspose.Words vir C++
 articleTitle: Manipuleer En Vervang TrueType Lettertipes
@@ -21,7 +21,7 @@ Let daarop dat die lettertipe in die dokument'n entiteit verteenwoordig, soos fa
 
 ## Waar Aspose.Words Soek Vir Lettertipes
 
-Aspose.Words probeer om TrueType lettertipes op die lêerstelsel outomaties te vind. Gewoonlik kan jy staatmaak op die standaard gedrag van Aspose.Words om die `TrueType` lettertipes te vind, maar soms moet jy jou eie dopgehou spesifiseer wat TrueType lettertipes bevat. Die [Spesifiseer TrueType Lettertipes Ligging](/words/cpp/specify-truetype-fonts-location/) onderwerp beskryf hoe en waar Aspose.Words na lettertipes soek, asook hoe om jou eie lettertipe te spesifiseer.
+Aspose.Words probeer om TrueType lettertipes op die lêerstelsel outomaties te vind. Gewoonlik kan jy staatmaak op die standaard gedrag van Aspose.Words om die `TrueType` lettertipes te vind, maar soms moet jy jou eie dopgehou spesifiseer wat TrueType lettertipes bevat. Die [Spesifiseer TrueType Lettertipes Ligging](/words/af/cpp/specify-truetype-fonts-location/) onderwerp beskryf hoe en waar Aspose.Words na lettertipes soek, asook hoe om jou eie lettertipe te spesifiseer.
 
 ## Verskille In Die Verwerking Van Font Formate in Aspose.Words en Microsoft Word
 

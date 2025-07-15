@@ -1,4 +1,4 @@
----
+﻿---
 title: فیلد ها را در C++وارد کنید
 second_title: Aspose.Words برای C++
 articleTitle: فیلد ها را وارد کنید
@@ -14,7 +14,7 @@ timestamp: 2024-01-27-14-07-04
 
 - با استفاده از [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/)
 - با استفاده از [FieldBuilder](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldbuilder/)
-- استفاده از [Aspose.Words مدل شیء سند (DOM)](/words/cpp/aspose-words-document-object-model/)
+- استفاده از [Aspose.Words مدل شیء سند (DOM)](/words/fa/cpp/aspose-words-document-object-model/)
 
 در این مقاله، ما به هر جهت با جزئیات بیشتری نگاه خواهیم کرد و نحوه وارد کردن زمینه های خاص با استفاده از این گزینه ها را تجزیه و تحلیل خواهیم کرد.
 
@@ -64,7 +64,7 @@ timestamp: 2024-01-27-14-07-04
 
 ## وارد کردن فیلد ها با استفاده از DOM
 
-شما همچنین می توانید انواع مختلفی از زمینه ها را با استفاده از [Aspose.Words مدل شیء سند (DOM)](/words/cpp/aspose-words-document-object-model/). در این بخش به چند مثال می پردازیم.
+شما همچنین می توانید انواع مختلفی از زمینه ها را با استفاده از [Aspose.Words مدل شیء سند (DOM)](/words/fa/cpp/aspose-words-document-object-model/). در این بخش به چند مثال می پردازیم.
 
 ### وارد کردن فیلد ادغام به یک سند با استفاده از DOM
 

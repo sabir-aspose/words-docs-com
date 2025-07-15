@@ -1,4 +1,4 @@
----
+﻿---
 title: Werk met Markdown Funksies
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Werk met Markdown Funksies
@@ -27,7 +27,7 @@ Die Markdown kenmerk implementering volg meestal die `CommonMark` spesifikasie i
 
 {{% alert color="primary" %}}
 
-Daar is nuanses van die vertaling van Markdown na die Aspose.Words Dokument Voorwerp Model (DOM), beskryf in die artikel [Vertaal Markdown Na Dokument Object Model (DOM)](/words/python-net/translate-markdown-to-document-object-model/).
+Daar is nuanses van die vertaling van Markdown na die Aspose.Words Dokument Voorwerp Model (DOM), beskryf in die artikel [Vertaal Markdown Na Dokument Object Model (DOM)](/words/af/python-net/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

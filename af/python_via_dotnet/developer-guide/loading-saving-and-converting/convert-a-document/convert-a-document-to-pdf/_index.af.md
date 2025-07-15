@@ -1,4 +1,4 @@
----
+﻿---
 title: Skakel'n Dokument om na PDF in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Skakel'n Dokument om na PDF
@@ -89,6 +89,6 @@ Die gebruik van die **OptimizeOutput** eienskap kan die akkuraatheid van inhoud 
 
 ## Sien Ook
 
-- Die artikel [Lewering](/words/python-net/rendering/) vir meer inligting oor die vaste bladsy en vloei-uitleg formate
+- Die artikel [Lewering](/words/af/python-net/rendering/) vir meer inligting oor die vaste bladsy en vloei-uitleg formate
 - Die artikel [Omskakeling Na Vaste bladsy Formaat](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) vir meer inligting oor die bladsy uitleg
-- Die artikel [Spesifiseer Vertoonopsies Wanneer U Na PDFOmskakel](/words/python-net/specify-rendering-options-when-converting-to-pdf/) vir meer inligting oor die gebruik van die [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) klas
+- Die artikel [Spesifiseer Vertoonopsies Wanneer U Na PDFOmskakel](/words/af/python-net/specify-rendering-options-when-converting-to-pdf/) vir meer inligting oor die gebruik van die [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) klas

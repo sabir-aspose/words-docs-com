@@ -1,4 +1,4 @@
----
+﻿---
 title: تبدیل یک سند به PDF در C++
 second_title: Aspose.Words برای C++
 articleTitle: تبدیل یک سند به PDF
@@ -67,6 +67,6 @@ Aspose.Words شمارش [PdfCompliance](https://reference.aspose.com/words/cpp/a
 
 ## بایگانی برچسب برای:
 
-- مقاله [رندر کردن](/words/cpp/rendering/) برای اطلاعات بیشتر در مورد فرمت های صفحه ثابت و طرح جریان
+- مقاله [رندر کردن](/words/fa/cpp/rendering/) برای اطلاعات بیشتر در مورد فرمت های صفحه ثابت و طرح جریان
 - مقاله [تبدیل به فرمت صفحه ثابت](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) برای اطلاعات بیشتر در مورد طرح صفحه
-- مقاله [گزینه های رندر را هنگام تبدیل به PDFمشخص کنید](/words/cpp/specify-rendering-options-when-converting-to-pdf/) برای اطلاعات بیشتر در مورد استفاده از کلاس `PdfSaveOptions`
+- مقاله [گزینه های رندر را هنگام تبدیل به PDFمشخص کنید](/words/fa/cpp/specify-rendering-options-when-converting-to-pdf/) برای اطلاعات بیشتر در مورد استفاده از کلاس `PdfSaveOptions`

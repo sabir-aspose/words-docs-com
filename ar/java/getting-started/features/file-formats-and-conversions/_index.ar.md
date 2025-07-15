@@ -29,7 +29,7 @@ timestamp: 2024-01-31-14-23-37
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "docx-to-pdf.java" >}}
 
-لمزيد من التفاصيل حول تحميل المستندات وتحويلها وحفظها، راجع [تحميل وحفظ وتحويل](/words/java/loading-saving-and-converting/) القسم.
+لمزيد من التفاصيل حول تحميل المستندات وتحويلها وحفظها، راجع [تحميل وحفظ وتحويل](/words/ar/java/loading-saving-and-converting/) القسم.
 
 ## عالية الدقة
 

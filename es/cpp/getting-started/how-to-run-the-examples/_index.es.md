@@ -1,4 +1,4 @@
----
+﻿---
 title: Cómo Ejecutar los Ejemplos
 second_title: Aspose.Words para C++
 articleTitle: Cómo Ejecutar los Ejemplos
@@ -36,7 +36,7 @@ Después de obtener una copia del repositorio, puede encontrar que:
 
 Para ejecutar los ejemplos, abra el archivo de la solución en Visual Studio y compile el proyecto:
 
-- Para **API Reference** ejemplos, la estructura se basa en nombres de clase, para **Docs** ejemplos se basa principalmente en el [Desarrollador Guiled](/words/cpp/developer-guide/) sección de documentación.
+- Para **API Reference** ejemplos, la estructura se basa en nombres de clase, para **Docs** ejemplos se basa principalmente en el [Desarrollador Guiled](/words/es/cpp/developer-guide/) sección de documentación.
 - En la primera ejecución, las dependencias se descargarán automáticamente a través de NuGet.
 - La carpeta **Data** en la carpeta raíz de **Examples** contiene archivos de entrada que se usaron en los ejemplos.
 - Todos los ejemplos se pueden ejecutar como pruebas unitarias.
@@ -68,7 +68,7 @@ La solución para Visual Studio se generará en el `Examples\DocsExamples\build`
 
 Para ejecutar los ejemplos, abra el archivo de la solución en Visual Studio y compile el proyecto:
 
-- Para **API Reference** ejemplos, la estructura se basa en nombres de clase, para **Docs** ejemplos se basa principalmente en el [Desarrollador Guiled](/words/cpp/developer-guide/) sección de documentación.
+- Para **API Reference** ejemplos, la estructura se basa en nombres de clase, para **Docs** ejemplos se basa principalmente en el [Desarrollador Guiled](/words/es/cpp/developer-guide/) sección de documentación.
 - La carpeta **Data** en la carpeta raíz de **Examples** contiene archivos de entrada que se usaron en los ejemplos.
 - Todos los ejemplos se pueden ejecutar como pruebas unitarias.
 
@@ -99,7 +99,7 @@ cmake --build Examples/DocsExamples/build
 cmake -E chdir Examples/DocsExamples/build ctest --verbose
 {{< /highlight >}}
 
-- Para **API Reference** ejemplos, la estructura se basa en nombres de clase, para **Docs** ejemplos se basa principalmente en el [Desarrollador Guiled](/words/cpp/developer-guide/) sección de documentación.
+- Para **API Reference** ejemplos, la estructura se basa en nombres de clase, para **Docs** ejemplos se basa principalmente en el [Desarrollador Guiled](/words/es/cpp/developer-guide/) sección de documentación.
 - La carpeta **Data** en la carpeta raíz de **Examples** contiene archivos de entrada que se usaron en los ejemplos.
 - Todos los ejemplos se pueden ejecutar como pruebas unitarias.
 

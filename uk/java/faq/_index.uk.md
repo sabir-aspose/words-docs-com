@@ -1,4 +1,4 @@
----
+﻿---
 title: Про нас
 second_title: Aspose.Words для Java
 articleTitle: Про нас
@@ -121,7 +121,7 @@ Aspose.Words для Java підтримує більшість популярн�
 
 {{% alert color="primary" %}}
 
-Дізнатися більше про інформацію Mail Merge в [Mail Merge та звітність](/words/java/mail-merge-and-reporting/) розділ документації.
+Дізнатися більше про інформацію Mail Merge в [Mail Merge та звітність](/words/uk/java/mail-merge-and-reporting/) розділ документації.
 
 {{% /alert %}}
 
@@ -145,7 +145,7 @@ Aspose.Words для Java підтримує більшість популярн�
 Це тому, що відносини між батьками і дитячими таблицями не встановлюються або вони невірно встановлюються. Необхідно:
 
 - Забезпечити цілісність даних в межах вашого **DataSet** і використовувати **DataRelation** об'єкт для представлення батьківських відносин між таблицями даних.
-- Перевірити розділ "Як налаштувати відносини з даними в гніздах Mail Merge з регіонами" у статті [Непристойна Mail Merge з регіонами](/words/java/nested-mail-merge-with-regions/)й
+- Перевірити розділ "Як налаштувати відносини з даними в гніздах Mail Merge з регіонами" у статті [Непристойна Mail Merge з регіонами](/words/uk/java/nested-mail-merge-with-regions/)й
 
 ------
 

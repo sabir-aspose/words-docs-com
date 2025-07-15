@@ -1,4 +1,4 @@
----
+﻿---
 title: Hướng dẫn phát triển trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Hướng Dẫn Phát Triển
@@ -14,9 +14,9 @@ Hướng Dẫn Dành Cho Nhà Phát triển này cung cấp thông tin về vi�
 
 Để tìm hiểu thêm về các tính năng Aspose.Words, hãy chọn phần tương ứng:
 
-- [Tải, Lưu Và Chuyển đổi](/words/cpp/loading-saving-and-converting/) - cung cấp thông tin về các cách khác nhau để tải hoặc lưu tài liệu và định dạng-các tính năng cụ thể hữu ích để chuyển đổi tài liệu từ định dạng này sang định dạng khác.
-- [Kết xuất](/words/cpp/rendering/) - cung cấp thông tin về cách nhận biểu diễn phân trang từ tài liệu ở định dạng trang bố cục luồng.
-- [Mail Merge Và Báo cáo](/words/cpp/mail-merge-and-reporting/) - cung cấp thông tin về việc tạo tài liệu, chẳng hạn như báo cáo, danh mục, hàng tồn kho và hóa đơn, từ các mẫu có trường mail merge.
-- [Lập Trình Với Tài liệu](/words/cpp/programming-with-documents/) - cung cấp thông tin về cách lập trình tạo, sửa đổi và quản lý tài liệu bao gồm thay đổi cả nội dung và giao diện trực quan của chúng.
+- [Tải, Lưu Và Chuyển đổi](/words/vi/cpp/loading-saving-and-converting/) - cung cấp thông tin về các cách khác nhau để tải hoặc lưu tài liệu và định dạng-các tính năng cụ thể hữu ích để chuyển đổi tài liệu từ định dạng này sang định dạng khác.
+- [Kết xuất](/words/vi/cpp/rendering/) - cung cấp thông tin về cách nhận biểu diễn phân trang từ tài liệu ở định dạng trang bố cục luồng.
+- [Mail Merge Và Báo cáo](/words/vi/cpp/mail-merge-and-reporting/) - cung cấp thông tin về việc tạo tài liệu, chẳng hạn như báo cáo, danh mục, hàng tồn kho và hóa đơn, từ các mẫu có trường mail merge.
+- [Lập Trình Với Tài liệu](/words/vi/cpp/programming-with-documents/) - cung cấp thông tin về cách lập trình tạo, sửa đổi và quản lý tài liệu bao gồm thay đổi cả nội dung và giao diện trực quan của chúng.
 
 Để biết mô tả chi tiết về các lớp, phương thức và thuộc tính, hãy tham khảo Aspose.Words cho C++ API Reference phần.

@@ -67,6 +67,6 @@ Aby ten kod działał, musisz dodać odwołania do Aspose.Words i `System.Drawin
 
 ## Zobacz także
 
-- Artykuł [Rendering](/words/cpp/rendering/) aby uzyskać więcej informacji na temat formatów fixed-page I flow-layout
+- Artykuł [Rendering](/words/pl/cpp/rendering/) aby uzyskać więcej informacji na temat formatów fixed-page I flow-layout
 - Artykuł [Konwersja do formatu stałej strony](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) aby uzyskać więcej informacji na temat układu strony
-- Artykuł [Określ opcje renderowania podczas konwersji na PDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) aby uzyskać więcej informacji na temat korzystania z klasy `PdfSaveOptions`
+- Artykuł [Określ opcje renderowania podczas konwersji na PDF](/words/pl/cpp/specify-rendering-options-when-converting-to-pdf/) aby uzyskać więcej informacji na temat korzystania z klasy `PdfSaveOptions`

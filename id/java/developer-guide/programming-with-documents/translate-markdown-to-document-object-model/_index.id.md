@@ -12,7 +12,7 @@ timestamp: 2024-10-21-11-17-44
 
 Untuk membaca, memanipulasi, dan memodifikasi konten dan pemformatan dokumen secara terprogram, Anda perlu menerjemahkannya ke Model Objek Dokumen Aspose.Words (DOM).
 
-Berbeda dengan dokumen Word, Markdown tidak sesuai dengan DOM yang dijelaskan dalam [Aspose.Words Model Objek Dokumen (DOM)](/words/java/aspose-words-document-object-model/) artikel. Namun, Aspose.Words menyediakan mekanismenya sendiri untuk menerjemahkan dokumen Markdown ke DOM dan sebaliknya, sehingga kita dapat berhasil mengerjakan elemennya seperti pemformatan teks, tabel, header, dan lainnya.
+Berbeda dengan dokumen Word, Markdown tidak sesuai dengan DOM yang dijelaskan dalam [Aspose.Words Model Objek Dokumen (DOM)](/words/id/java/aspose-words-document-object-model/) artikel. Namun, Aspose.Words menyediakan mekanismenya sendiri untuk menerjemahkan dokumen Markdown ke DOM dan sebaliknya, sehingga kita dapat berhasil mengerjakan elemennya seperti pemformatan teks, tabel, header, dan lainnya.
 
 Artikel ini menjelaskan bagaimana berbagai fitur markdown dapat diterjemahkan ke dalam format Aspose.Words DOM dan kembali ke Markdown.
 
@@ -98,5 +98,5 @@ Aspose.Words juga memungkinkan untuk menerjemahkan tabel menjadi DOM, seperti ya
 
 ## Lihat Juga
 
-* [Bekerja dengan Fitur Markdown](/words/java/working-with-markdown-features/)
+* [Bekerja dengan Fitur Markdown](/words/id/java/working-with-markdown-features/)
 

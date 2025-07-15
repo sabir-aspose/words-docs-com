@@ -67,6 +67,6 @@ Aspose.Words осигурява изброяването [PdfCompliance](https:/
 
 ## Вижте Също
 
-- Статията [Рендериране](/words/cpp/rendering/) за повече информация относно форматите на фиксираната страница и потока
+- Статията [Рендериране](/words/bg/cpp/rendering/) за повече информация относно форматите на фиксираната страница и потока
 - Статията [Конвертиране във формат на фиксирана страница](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) за повече информация относно оформлението на страницата
-- Статията [Посочете опциите за рендиране при конвертиране в PDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) за повече информация относно употребата на `PdfSaveOptions` клас
+- Статията [Посочете опциите за рендиране при конвертиране в PDF](/words/bg/cpp/specify-rendering-options-when-converting-to-pdf/) за повече информация относно употребата на `PdfSaveOptions` клас

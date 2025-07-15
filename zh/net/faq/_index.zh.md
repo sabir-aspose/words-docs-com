@@ -1,4 +1,4 @@
----
+﻿---
 title: 常问问题
 second_title: .NET 格式的 Aspose.Words
 articleTitle: 常见问题解答 – .NET 格式的 Aspose.Words
@@ -129,7 +129,7 @@ Aspose.Words for .NET 支持大多数流行的文档格式，例如 DOC、DOCX�
 
 {{% alert color="primary" %}}
 
-您可以在 [Mail Merge 和报告](/words/net/mail-merge-and-reporting/) 文档部分找到有关 Mail Merge 的更多详细信息。
+您可以在 [Mail Merge 和报告](/words/zh/net/mail-merge-and-reporting/) 文档部分找到有关 Mail Merge 的更多详细信息。
 
 {{% /alert %}}
 
@@ -153,7 +153,7 @@ Aspose.Words for .NET 支持大多数流行的文档格式，例如 DOC、DOCX�
 这是因为父子表关系没有设置或者设置不正确。有必要：
 
 * 确保 **DataSet** 内的数据完整性，并使用 **DataRelation** 对象来表示相关数据表之间的父子关系。
-* 请查看 [带有区域的嵌套 Mail Merge](/words/net/nested-mail-merge-with-regions/) 文章中的"如何在嵌套 Mail Merge 中与区域建立数据关系"部分。
+* 请查看 [带有区域的嵌套 Mail Merge](/words/zh/net/nested-mail-merge-with-regions/) 文章中的"如何在嵌套 Mail Merge 中与区域建立数据关系"部分。
 
 ------
 

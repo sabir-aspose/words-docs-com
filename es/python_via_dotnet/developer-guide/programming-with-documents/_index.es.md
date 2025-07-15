@@ -1,4 +1,4 @@
----
+﻿---
 title: Programación con documentos
 second_title: Aspose.Words para Python via .NET
 articleTitle: Programación con documentos
@@ -51,11 +51,11 @@ Para obtener más información sobre las funciones Aspose.Words al programar con
 - [Trabajar con OfficeMath](/words/es/python-net/working-with-officemath/)
 - [Trabajar con renderizado en frío SmartArt](/words/es/python-net/working-with-smartart-cold-rendering/)
 - [Trabajar con marca de agua](/words/es/python-net/working-with-watermark/)
-- [Trabajar con objetos Ole y vídeos en línea](/words/python-net/working-with-ole-objects/)
+- [Trabajar con objetos Ole y vídeos en línea](/words/es/python-net/working-with-ole-objects/)
 - [Trabajar con campos](/words/es/python-net/working-with-fields/)
 - [Trabajar con campos de formulario](/words/es/python-net/working-with-form-fields/)
 - [Trabajar con SDT de control de contenido](/words/es/python-net/working-with-content-control-sdt/)
 - [Trabajar con personajes de control](/words/es/python-net/working-with-control-characters/)
 - [Trabajar con macros VBA](/words/es/python-net/working-with-vba-macros/)
 - [Trabajar con funciones Markdown](/words/es/python-net/working-with-markdown-features/)
-- [Trabajar con documento de texto](/words/python-net/working-with-text-document/)
+- [Trabajar con documento de texto](/words/es/python-net/working-with-text-document/)

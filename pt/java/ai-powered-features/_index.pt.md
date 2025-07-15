@@ -1,4 +1,4 @@
----
+﻿---
 title: AI - recursos alimentados
 second_title: Aspose.Words Para Java
 articleTitle: AI - recursos alimentados
@@ -16,7 +16,7 @@ Aspose.Words agora inclui AI recursos desenvolvidos para tornar o processamento 
 
 Nesta seção, abordaremos tudo o que você precisa saber sobre o uso de recursos AI suportados em Aspose.Words. De dicas práticas a instruções detalhadas, pretendemos ajudá-lo a aproveitar ao máximo essas melhorias.
 
-* [Modelos AI Suportados](/words/java/supported-ai-models/)
-* [Resumir um documento](/words/java/summarize-a-document/)
-* [Traduzir um documento](/words/java/translate-a-document/)
-* [Verificação Gramatical](/words/java/grammar-checking/)
+* [Modelos AI Suportados](/words/pt/java/supported-ai-models/)
+* [Resumir um documento](/words/pt/java/summarize-a-document/)
+* [Traduzir um documento](/words/pt/java/translate-a-document/)
+* [Verificação Gramatical](/words/pt/java/grammar-checking/)

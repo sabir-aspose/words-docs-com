@@ -1,4 +1,4 @@
----
+﻿---
 title: Introdução
 second_title: Aspose.Words Para C++
 articleTitle: Introdução
@@ -14,12 +14,12 @@ Esta introdução fornece uma introdução aos fundamentos Aspose.Words. Para us
 
 Para saber mais sobre Aspose.Words, selecione a secção apropriada:
 
-- [Instalação](/words/cpp/installation/) - fornece informações sobre como instalar Aspose.Words
-- [Hello World](/words/cpp/hello-world/) - fornece informações sobre como testar se o software destinado a compilar ou executar o código-fonte está instalado correctamente
-- [Formatos De Documentos Suportados](/words/cpp/supported-document-formats/) - fornece informações sobre os formatos suportados
-- [Recursos Suportados](/words/cpp/features/) - fornece informações sobre quais recursos são suportados ao carregar ou salvar um documento em vários formatos
-- [Licenciamento e subscrição](/words/cpp/licensing/) - fornece informações sobre a aplicação de uma licença e a utilização de vários produtos Aspose
-- [Requisitos Do Sistema](/words/cpp/system-requirements/) - fornece informações sobre os requisitos do sistema e do ambiente de desenvolvimento
-- [Notas De Segurança](/words/cpp/security/) - descreve notas e dicas sobre como evitar problemas de segurança comuns
-- [Como executar os exemplos](/words/cpp/how-to-run-the-examples/) - descreve como transferir e executar os exemplos e quais os requisitos de software que devem ser cumpridos
-- [Trabalhar com documentos do Word em Qt](/words/cpp/work-with-word-documents-in-qt/) - fornece informações sobre como integrar Aspose.Words em Qt
+- [Instalação](/words/pt/cpp/installation/) - fornece informações sobre como instalar Aspose.Words
+- [Hello World](/words/pt/cpp/hello-world/) - fornece informações sobre como testar se o software destinado a compilar ou executar o código-fonte está instalado correctamente
+- [Formatos De Documentos Suportados](/words/pt/cpp/supported-document-formats/) - fornece informações sobre os formatos suportados
+- [Recursos Suportados](/words/pt/cpp/features/) - fornece informações sobre quais recursos são suportados ao carregar ou salvar um documento em vários formatos
+- [Licenciamento e subscrição](/words/pt/cpp/licensing/) - fornece informações sobre a aplicação de uma licença e a utilização de vários produtos Aspose
+- [Requisitos Do Sistema](/words/pt/cpp/system-requirements/) - fornece informações sobre os requisitos do sistema e do ambiente de desenvolvimento
+- [Notas De Segurança](/words/pt/cpp/security/) - descreve notas e dicas sobre como evitar problemas de segurança comuns
+- [Como executar os exemplos](/words/pt/cpp/how-to-run-the-examples/) - descreve como transferir e executar os exemplos e quais os requisitos de software que devem ser cumpridos
+- [Trabalhar com documentos do Word em Qt](/words/pt/cpp/work-with-word-documents-in-qt/) - fornece informações sobre como integrar Aspose.Words em Qt

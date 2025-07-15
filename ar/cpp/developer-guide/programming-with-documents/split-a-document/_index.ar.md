@@ -1,4 +1,4 @@
----
+﻿---
 title: تقسيم مستند في C++
 second_title: Aspose.Words ل C++
 articleTitle: تقسيم مستند
@@ -67,7 +67,7 @@ Aspose.Words يسمح لك بتقسيم EPUB أو HTML المستندات إلى
 
 {{% alert color="primary" %}}
 
-يمكنك استخدام أي [تنسيق الإخراج بدعم من Aspose.Words](/words/cpp/supported-document-formats/).
+يمكنك استخدام أي [تنسيق الإخراج بدعم من Aspose.Words](/words/ar/cpp/supported-document-formats/).
 
 {{% /alert %}}
 

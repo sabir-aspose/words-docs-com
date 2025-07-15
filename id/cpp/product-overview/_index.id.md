@@ -1,4 +1,4 @@
----
+﻿---
 title: Tinjauan Produk
 second_title: Aspose.Words untuk C++
 articleTitle: Tinjauan Produk
@@ -16,7 +16,7 @@ Selamat datang di Aspose.Words untuk C++!
 
 Aspose.Words adalah pustaka kelas lintas platform yang memungkinkan aplikasi Anda melakukan berbagai tugas pemrosesan dokumen.
 
-Dengan menggunakan Aspose.Words, Anda dapat mengonversi dokumen dari format pemuatan apa pun yang didukung ke format penyimpanan apa pun yang didukung, misalnya, format Word menjadi PDF, HTML, atau Markdown, HTML menjadi DOCX, dan seterusnya. Baca lebih lanjut tentang mengonversi dokumen di [Konversikan Dokumen](/words/cpp/convert-a-document/) bagian.
+Dengan menggunakan Aspose.Words, Anda dapat mengonversi dokumen dari format pemuatan apa pun yang didukung ke format penyimpanan apa pun yang didukung, misalnya, format Word menjadi PDF, HTML, atau Markdown, HTML menjadi DOCX, dan seterusnya. Baca lebih lanjut tentang mengonversi dokumen di [Konversikan Dokumen](/words/id/cpp/convert-a-document/) bagian.
 
 Perlu dicatat bahwa dengan Aspose.Words Anda dapat membuat, memodifikasi, mengonversi, merender, dan mencetak dokumen tanpa bergantung pada aplikasi pihak ketiga, seperti Microsoft Word, atau Office Automation.
 
@@ -42,21 +42,21 @@ Aspose.Words untuk C++ fitur dapat dibagi menjadi empat bidang utama.
 
 Kemampuan untuk mengonversi dokumen dengan mudah dan andal adalah salah satu fitur utama Aspose.Words.
 
-Komprehensif [impor dan ekspor dokumen](/words/cpp/loading-saving-and-converting/) dengan [lebih dari 35 format file yang didukung](/words/cpp/supported-document-formats/) memungkinkan pengguna mengonversi dokumen dari [one popular format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) menjadi [another](https://reference.aspose.com/words/cpp/aspose.words/saveformat/), misalnya, dari DOCX menjadi PDF, JPEG, atau Markdown.
+Komprehensif [impor dan ekspor dokumen](/words/id/cpp/loading-saving-and-converting/) dengan [lebih dari 35 format file yang didukung](/words/id/cpp/supported-document-formats/) memungkinkan pengguna mengonversi dokumen dari [one popular format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) menjadi [another](https://reference.aspose.com/words/cpp/aspose.words/saveformat/), misalnya, dari DOCX menjadi PDF, JPEG, atau Markdown.
 
 #### Model Objek Dokumen (DOM)
 
-Akses terprogram melalui API yang kaya ke semua elemen dokumen dan pemformatan memungkinkan untuk membuat, memodifikasi, mengekstrak, menyalin, membagi, menggabungkan, dan mengganti konten dokumen. Cari tahu lebih lanjut di [Aspose.Words Model Objek Dokumen (DOM)](/words/cpp/aspose-words-document-object-model/) bagian.
+Akses terprogram melalui API yang kaya ke semua elemen dokumen dan pemformatan memungkinkan untuk membuat, memodifikasi, mengekstrak, menyalin, membagi, menggabungkan, dan mengganti konten dokumen. Cari tahu lebih lanjut di [Aspose.Words Model Objek Dokumen (DOM)](/words/id/cpp/aspose-words-document-object-model/) bagian.
 
 #### Rendering
 
-Kami menggunakan istilah tersebut [Merender dalam Aspose.Words](/words/cpp/rendering/) untuk menggambarkan proses pengubahan dokumen menjadi format file atau media, paginasi atau yang memiliki konsep pages.
+Kami menggunakan istilah tersebut [Merender dalam Aspose.Words](/words/id/cpp/rendering/) untuk menggambarkan proses pengubahan dokumen menjadi format file atau media, paginasi atau yang memiliki konsep pages.
 
 Anda dapat mengonversi seluruh dokumen atau halaman tertentu menjadi PDF atau XPS untuk menghasilkan dokumen sisi server, mencetaknya. Dan semua ini dengan ketelitian tinggi-persis seperti Microsoft Word yang akan melakukannya.
 
 #### Pelaporan
 
-Hasilkan dokumen atau laporan dari awal atau dengan mengisi templat dengan data dari sumber data atau objek bisnis. Untuk informasi selengkapnya tentang pelaporan dan pengambilan data dari basis data, lihat [Mail Merge dan Pelaporan](/words/cpp/mail-merge-and-reporting/).
+Hasilkan dokumen atau laporan dari awal atau dengan mengisi templat dengan data dari sumber data atau objek bisnis. Untuk informasi selengkapnya tentang pelaporan dan pengambilan data dari basis data, lihat [Mail Merge dan Pelaporan](/words/id/cpp/mail-merge-and-reporting/).
 
 ### Kemandirian Platform
 
@@ -86,8 +86,8 @@ Pengembang yang sebelumnya telah menggunakan Otomatisasi Microsoft Word dalam pr
 
 ## Harga dan Kebijakan
 
-Silakan kunjungi [Perizinan](/words/cpp/licensing/) halaman untuk informasi tentang lisensi dan meninjau [Informasi Harga](https://purchase.aspose.com/pricing/words/family/) halaman untuk detail harga.
+Silakan kunjungi [Perizinan](/words/id/cpp/licensing/) halaman untuk informasi tentang lisensi dan meninjau [Informasi Harga](https://purchase.aspose.com/pricing/words/family/) halaman untuk detail harga.
 
 ## Dukungan Teknis
 
-Untuk informasi lebih lanjut tentang dukungan teknis Aspose.Words, lihat [halaman dukungan](/words/cpp/technical-support/).
+Untuk informasi lebih lanjut tentang dukungan teknis Aspose.Words, lihat [halaman dukungan](/words/id/cpp/technical-support/).

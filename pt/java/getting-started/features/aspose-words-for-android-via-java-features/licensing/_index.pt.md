@@ -26,7 +26,7 @@ A versão de avaliação é a mesma que a adquirida – a versão de Avaliação
 
 {{% alert color="primary" %}}
 
-Saiba mais detalhes sobre a Licença de avaliação gratuita ou temporária para Aspose.Words para Android via Java em [a p3gina Licenciatura e subscri](/words/java/licensing/).
+Saiba mais detalhes sobre a Licença de avaliação gratuita ou temporária para Aspose.Words para Android via Java em [a p3gina Licenciatura e subscri](/words/pt/java/licensing/).
 
 {{% /alert %}}
 
@@ -71,7 +71,7 @@ As licenças podem ser aplicadas a partir de vários locais:
 
 #### Carregando o arquivo de licença
 
-Em Aspose.Words Para Android via Java, a licença pode ser [incorporado como recurso](/words/java/licensing/), ou carregado de um fluxo:
+Em Aspose.Words Para Android via Java, a licença pode ser [incorporado como recurso](/words/pt/java/licensing/), ou carregado de um fluxo:
 
 1. Coloque o arquivo de licença em qualquer local em **/mnt/sdcard/**.
 1. Crie um fluxo que faça referência ao arquivo.

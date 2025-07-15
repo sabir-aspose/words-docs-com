@@ -1,4 +1,4 @@
----
+﻿---
 title: 用 C# 轉換文件
 second_title: Aspose.Words for .NET
 articleTitle: 轉換一個文件
@@ -30,7 +30,7 @@ timestamp: 2024-01-27-14-07-04
 
 ## 熱門轉換 {#popular-conversions}
 
-本節敘述一些流行的轉換方式，以及在讀取與儲存時處理某種格式組合的想法。 透過本節的範例，你會發現轉換過程本身十分普遍，而描述所有可能的選項也沒有什麼意義，因為由於有數百種不同的 [formats supported by Aspose.Words for .NET](/words/net/supported-document-formats/) 格式，所以有許多不同的格式。
+本節敘述一些流行的轉換方式，以及在讀取與儲存時處理某種格式組合的想法。 透過本節的範例，你會發現轉換過程本身十分普遍，而描述所有可能的選項也沒有什麼意義，因為由於有數百種不同的 [formats supported by Aspose.Words for .NET](/words/zh-hant/net/supported-document-formats/) 格式，所以有許多不同的格式。
 
 {{% alert color="primary" %}}
 

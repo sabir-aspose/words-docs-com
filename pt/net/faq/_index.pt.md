@@ -1,4 +1,4 @@
----
+﻿---
 title: Perguntas frequentes
 second_title: Aspose.Words para .NET
 articleTitle: Perguntas frequentes – Aspose.Words para .NET
@@ -129,7 +129,7 @@ Sim, você quer. Portanto, ao copiar fontes, lembre-se de que a maioria das font
 
 {{% alert color="primary" %}}
 
-Você pode encontrar informações mais detalhadas sobre Mail Merge na seção de documentação [Mail Merge e relatórios](/words/net/mail-merge-and-reporting/).
+Você pode encontrar informações mais detalhadas sobre Mail Merge na seção de documentação [Mail Merge e relatórios](/words/pt/net/mail-merge-and-reporting/).
 
 {{% /alert %}}
 
@@ -153,7 +153,7 @@ Isso ocorre porque as regiões de mesclagem no modelo não estão formadas corre
 Isso ocorre porque o relacionamento entre as tabelas pai e filho não está configurado ou está configurado incorretamente. É necessário:
 
 * Garanta a integridade dos dados em seu **DataSet** e use o objeto **DataRelation** para representar o relacionamento pai-filho entre tabelas de dados relacionadas.
-* Confira a seção "Como configurar relações de dados em Mail Merge aninhado com regiões" no artigo [Mail Merge aninhado com regiões](/words/net/nested-mail-merge-with-regions/).
+* Confira a seção "Como configurar relações de dados em Mail Merge aninhado com regiões" no artigo [Mail Merge aninhado com regiões](/words/pt/net/nested-mail-merge-with-regions/).
 
 ------
 

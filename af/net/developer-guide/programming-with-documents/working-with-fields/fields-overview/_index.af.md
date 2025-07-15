@@ -1,4 +1,4 @@
----
+﻿---
 title: Velde Oorsig in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Velde Oorsig
@@ -29,7 +29,7 @@ In hierdie artikel sal ons meer leer oor veldstruktuur, die velde wat in Aspose.
 
 ![fields-aspose-words](fields-overview-1.png)
 
-Die inhoud wat die veld kode maak gestoor as [Run](https://reference.aspose.com/words/net/aspose.words/run/) nodes tussen die [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) en [FieldSeparator](https://reference.aspose.com/words/net/aspose.words.fields/fieldseparator/). Die veld resultaat is gestoor tussen die **FieldSeparator** en [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) nodes en kan bestaan uit verskillende tipes van inhoud. Gewoonlik bevat die veldresultaat net teks wat bestaan uit **Run** nodusse, maar dit is moontlik dat die **FieldEnd** node in'n heeltemal ander paragraaf geleë is, en sodoende die veldresultaat bestaan uit [blokvlak-knope](/words/net/logical-levels-of-nodes-in-a-document/) soos **Table** en **Paragraph** nodusse ook.
+Die inhoud wat die veld kode maak gestoor as [Run](https://reference.aspose.com/words/net/aspose.words/run/) nodes tussen die [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) en [FieldSeparator](https://reference.aspose.com/words/net/aspose.words.fields/fieldseparator/). Die veld resultaat is gestoor tussen die **FieldSeparator** en [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) nodes en kan bestaan uit verskillende tipes van inhoud. Gewoonlik bevat die veldresultaat net teks wat bestaan uit **Run** nodusse, maar dit is moontlik dat die **FieldEnd** node in'n heeltemal ander paragraaf geleë is, en sodoende die veldresultaat bestaan uit [blokvlak-knope](/words/af/net/logical-levels-of-nodes-in-a-document/) soos **Table** en **Paragraph** nodusse ook.
 
 Hier is'n siening van hoe'n veld gestoor word in Aspose.Words deur die gebruik van die " *DocumentExplorer"* voorbeeld wat gevind kan word op [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Examples/DocsExamples/DocumentExplorer).
 
@@ -37,7 +37,7 @@ Hier is'n siening van hoe'n veld gestoor word in Aspose.Words deur die gebruik v
 
 ## Velde in die Aspose.Words Dokumentvoorwerpmodel (DOM)
 
-Wanneer'n dokument in Aspose.Words gelaai word, word die velde van die dokument in die [Aspose.Words Dokument Voorwerp Model](/words/net/aspose-words-document-object-model/) as'n stel van afsonderlike komponente (nodes). 'n enkele veld word gelaai as'n versameling van **FieldStart**, **FieldSeparator** en **FieldEnd** nodusse saam met die inhoud tussen hierdie nodusse. As'n veld nie'n veldresultaat het nie, sal daar geen **FieldSeparator** - knooppunt wees nie. Al hierdie nodusse word altyd inlyn gevind (as kinders van [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) of [SmartTag](https://reference.aspose.com/words/net/aspose.words.markup/smarttag/).
+Wanneer'n dokument in Aspose.Words gelaai word, word die velde van die dokument in die [Aspose.Words Dokument Voorwerp Model](/words/af/net/aspose-words-document-object-model/) as'n stel van afsonderlike komponente (nodes). 'n enkele veld word gelaai as'n versameling van **FieldStart**, **FieldSeparator** en **FieldEnd** nodusse saam met die inhoud tussen hierdie nodusse. As'n veld nie'n veldresultaat het nie, sal daar geen **FieldSeparator** - knooppunt wees nie. Al hierdie nodusse word altyd inlyn gevind (as kinders van [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) of [SmartTag](https://reference.aspose.com/words/net/aspose.words.markup/smarttag/).
 
 In Aspose.Words is elkeen van die **FieldXXX** nodusse afgelei van [FieldChar](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/). Hierdie klas bied'n eienskap om die tipe veld wat deur die gespesifiseerde knoop deur die [FieldType](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/) eienskap verteenwoordig word, te kontroleer. Byvoorbeeld **FieldType.FieldMergeField** verteenwoordig'n samesmelting veld in die dokument.
 

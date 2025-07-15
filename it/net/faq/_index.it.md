@@ -1,4 +1,4 @@
----
+﻿---
 title: FAQ
 second_title: Aspose.Words per .NET
 articleTitle: Domande frequenti – Aspose.Words per .NET
@@ -129,7 +129,7 @@ Si. Pertanto, quando copi i caratteri, tieni presente che la maggior parte dei c
 
 {{% alert color="primary" %}}
 
-Puoi trovare informazioni più dettagliate su Mail Merge nella sezione documentazione [Mail Merge e reporting](/words/net/mail-merge-and-reporting/).
+Puoi trovare informazioni più dettagliate su Mail Merge nella sezione documentazione [Mail Merge e reporting](/words/it/net/mail-merge-and-reporting/).
 
 {{% /alert %}}
 
@@ -153,7 +153,7 @@ Questo perché le regioni di unione nel modello non sono formate correttamente, 
 Ciò è dovuto al fatto che la relazione tra le tabelle padre e figlio non è impostata o è impostata in modo errato. È necessario:
 
 * Garantisci l'integrità dei dati all'interno del tuo **DataSet** e utilizza l'oggetto **DataRelation** per rappresentare la relazione genitore-figlio tra tabelle di dati correlate.
-* Consulta la sezione "Come impostare le relazioni tra i dati nei Mail Merge nidificati con le regioni" nell'articolo [Mail Merge nidificato con regioni](/words/net/nested-mail-merge-with-regions/).
+* Consulta la sezione "Come impostare le relazioni tra i dati nei Mail Merge nidificati con le regioni" nell'articolo [Mail Merge nidificato con regioni](/words/it/net/nested-mail-merge-with-regions/).
 
 ------
 

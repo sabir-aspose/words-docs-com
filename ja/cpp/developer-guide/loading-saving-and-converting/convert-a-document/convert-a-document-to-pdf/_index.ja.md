@@ -1,4 +1,4 @@
----
+﻿---
 title: C++で文書をPDFに変換する
 second_title: C++の場合Aspose.Words
 articleTitle: 文書をPDFに変換する
@@ -67,6 +67,6 @@ PDFへの変換はMicrosoft Word文書形式によって制限されません。
 
 ## また見て下さい
 
-- この記事は、 [レンダリング](/words/cpp/rendering/) 固定ページ形式とフローレイアウト形式の詳細については、以下を参照してください
+- この記事は、 [レンダリング](/words/ja/cpp/rendering/) 固定ページ形式とフローレイアウト形式の詳細については、以下を参照してください
 - この記事は、 [固定ページ形式への変換](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) ページレイアウトの詳細については
-- この記事は、 [PDFに変換するときのレンダリングオプションの指定](/words/cpp/specify-rendering-options-when-converting-to-pdf/) `PdfSaveOptions`クラスの使用の詳細については
+- この記事は、 [PDFに変換するときのレンダリングオプションの指定](/words/ja/cpp/specify-rendering-options-when-converting-to-pdf/) `PdfSaveOptions`クラスの使用の詳細については

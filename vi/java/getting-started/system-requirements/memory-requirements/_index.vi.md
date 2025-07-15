@@ -1,4 +1,4 @@
----
+﻿---
 title: Yêu cầu bộ nhớ
 second_title: Aspose.Words cho Java
 articleTitle: Yêu cầu bộ nhớ
@@ -46,6 +46,6 @@ Nếu kết quả phân tích của bạn cho thấy có thể có vấn đề b
 
 ## Xem thêm
 
-* [Render](/words/java/rendering/)
-* [Mail Merge và Báo cáo](/words/java/mail-merge-and-reporting/)
-* [Làm việc với trường](/words/java/working-with-fields/)
+* [Render](/words/vi/java/rendering/)
+* [Mail Merge và Báo cáo](/words/vi/java/mail-merge-and-reporting/)
+* [Làm việc với trường](/words/vi/java/working-with-fields/)

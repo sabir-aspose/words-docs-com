@@ -1,4 +1,4 @@
----
+﻿---
 title: Chuyển Đổi Tài liệu thành PDF trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Chuyển Đổi Tài liệu thành PDF
@@ -67,6 +67,6 @@ Ví dụ mã sau đây cho thấy cách chuyển đổi hình ảnh JPEG và TIF
 
 ## Xem Thêm
 
-- Bài viết [Kết xuất](/words/cpp/rendering/) để biết thêm thông tin về các định dạng bố cục trang và luồng cố định
+- Bài viết [Kết xuất](/words/vi/cpp/rendering/) để biết thêm thông tin về các định dạng bố cục trang và luồng cố định
 - Bài viết [Chuyển đổi Sang Định dạng trang Cố định](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) để biết thêm thông tin về bố cục trang
-- Bài viết [Chỉ Định Các Tùy chọn Kết Xuất Khi Chuyển đổi thành PDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) để biết thêm thông tin về cách sử dụng lớp `PdfSaveOptions`
+- Bài viết [Chỉ Định Các Tùy chọn Kết Xuất Khi Chuyển đổi thành PDF](/words/vi/cpp/specify-rendering-options-when-converting-to-pdf/) để biết thêm thông tin về cách sử dụng lớp `PdfSaveOptions`

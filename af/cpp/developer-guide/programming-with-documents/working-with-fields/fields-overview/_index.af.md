@@ -1,4 +1,4 @@
----
+﻿---
 title: Velde Oorsig in C++
 second_title: Aspose.Words vir C++
 articleTitle: Velde Oorsig
@@ -29,7 +29,7 @@ In hierdie artikel sal ons meer leer oor veldstruktuur, die velde wat in Aspose.
 
 ![fields-overview-aspose-words-cpp-1](fields-overview-1.png)
 
-Die inhoud wat die veld kode maak gestoor as [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) nodes tussen die [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) en [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/). Die veld resultaat is gestoor tussen die **FieldSeparator** en [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) nodes en kan bestaan uit verskillende tipes van inhoud. Gewoonlik bevat die veldresultaat net teks wat bestaan uit **Run** nodusse, maar dit is moontlik dat die **FieldEnd** node in'n heeltemal ander paragraaf geleë is, en sodoende die veldresultaat bestaan uit [blokvlak-knope](/words/cpp/logical-levels-of-nodes-in-a-document/) soos **Table** en **Paragraph** nodusse ook.
+Die inhoud wat die veld kode maak gestoor as [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) nodes tussen die [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) en [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/). Die veld resultaat is gestoor tussen die **FieldSeparator** en [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) nodes en kan bestaan uit verskillende tipes van inhoud. Gewoonlik bevat die veldresultaat net teks wat bestaan uit **Run** nodusse, maar dit is moontlik dat die **FieldEnd** node in'n heeltemal ander paragraaf geleë is, en sodoende die veldresultaat bestaan uit [blokvlak-knope](/words/af/cpp/logical-levels-of-nodes-in-a-document/) soos **Table** en **Paragraph** nodusse ook.
 
 Hier is'n siening van hoe'n veld in Aspose.Words gestoor word deur die "*DocumentExplorer"* voorbeeld te gebruik.
 
@@ -37,7 +37,7 @@ Hier is'n siening van hoe'n veld in Aspose.Words gestoor word deur die "*Documen
 
 ## Velde in die Aspose.Words Dokumentvoorwerpmodel (DOM)
 
-Wanneer'n dokument in Aspose.Words gelaai word, word die velde van die dokument in die [Aspose.Words Dokument Voorwerp Model](/words/cpp/aspose-words-document-object-model/) as'n stel van afsonderlike komponente (nodes). 'n enkele veld word gelaai as'n versameling van **FieldStart**, **FieldSeparator** en **FieldEnd** nodusse saam met die inhoud tussen hierdie nodusse. As'n veld nie'n veldresultaat het nie, sal daar geen **FieldSeparator** - knooppunt wees nie. Al hierdie nodusse word altyd inlyn gevind (as kinders van [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) of [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
+Wanneer'n dokument in Aspose.Words gelaai word, word die velde van die dokument in die [Aspose.Words Dokument Voorwerp Model](/words/af/cpp/aspose-words-document-object-model/) as'n stel van afsonderlike komponente (nodes). 'n enkele veld word gelaai as'n versameling van **FieldStart**, **FieldSeparator** en **FieldEnd** nodusse saam met die inhoud tussen hierdie nodusse. As'n veld nie'n veldresultaat het nie, sal daar geen **FieldSeparator** - knooppunt wees nie. Al hierdie nodusse word altyd inlyn gevind (as kinders van [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) of [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
 
 In Aspose.Words is elkeen van die **FieldXXX** nodusse afgelei van [FieldChar](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_char/). Hierdie klas bied'n eienskap om die tipe veld wat deur die gespesifiseerde knoop deur die [FieldType](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldchar/get_fieldtype/) eienskap verteenwoordig word, te kontroleer. Byvoorbeeld **FieldType.FieldMergeField** verteenwoordig'n samesmelting veld in die dokument.
 

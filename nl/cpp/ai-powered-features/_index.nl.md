@@ -1,4 +1,4 @@
----
+﻿---
 title: AI-aangedreven functies
 second_title: Aspose.Words voor C++
 articleTitle: AI-aangedreven functies
@@ -16,7 +16,7 @@ Aspose.Words bevat nu AI-aangedreven functies die zijn ontworpen om documentverw
 
 In dit gedeelte behandelen we alles wat u moet weten over het gebruik van ondersteunde AI - functies in Aspose.Words. Van praktische tips tot gedetailleerde instructies, we proberen u te helpen het meeste uit deze verbeteringen te halen.
 
-* [Ondersteunde AI Modellen](/words/cpp/supported-ai-models/)
-* [Een Document samenvatten](/words/cpp/summarize-a-document/)
-* [Een Document vertalen](/words/cpp/translate-a-document/)
-* [grammaticacontrole](/words/cpp/grammar-checking/)
+* [Ondersteunde AI Modellen](/words/nl/cpp/supported-ai-models/)
+* [Een Document samenvatten](/words/nl/cpp/summarize-a-document/)
+* [Een Document vertalen](/words/nl/cpp/translate-a-document/)
+* [grammaticacontrole](/words/nl/cpp/grammar-checking/)

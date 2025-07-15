@@ -1,4 +1,4 @@
----
+﻿---
 title: Вимоги до пам'яті
 second_title: Aspose.Words для Java
 articleTitle: Вимоги до пам'яті
@@ -47,5 +47,5 @@ Aspose.Words надає широкий спектр можливостей дл�
 ## Дивитися ще
 
 * [Рендеринг](/words/uk/java/rendering/)
-* [Mail Merge та звітність](/words/java/mail-merge-and-reporting/)
+* [Mail Merge та звітність](/words/uk/java/mail-merge-and-reporting/)
 * [Робота з полями](/words/uk/java/working-with-fields/)

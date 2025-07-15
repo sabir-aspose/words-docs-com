@@ -1,4 +1,4 @@
----
+﻿---
 title: Lavorare con le sezioni in C++
 second_title: Aspose.Words per C++
 articleTitle: Lavorare con le sezioni
@@ -38,7 +38,7 @@ Aspose.Words consente di dividere e formattare i documenti utilizzando diverse i
 
 ## Gestire una sezione
 
-Poiché una sezione è un normale nodo composito, l'intera API di manipolazione del nodo può essere utilizzata per manipolare le sezioni: per aggiungere, rimuovere e altre operazioni sulle sezioni. Puoi leggere di più sui nodi nell'articolo [Aspose.Words Modello a oggetti documento (DOM)](/words/cpp/aspose-words-document-object-model/).
+Poiché una sezione è un normale nodo composito, l'intera API di manipolazione del nodo può essere utilizzata per manipolare le sezioni: per aggiungere, rimuovere e altre operazioni sulle sezioni. Puoi leggere di più sui nodi nell'articolo [Aspose.Words Modello a oggetti documento (DOM)](/words/it/cpp/aspose-words-document-object-model/).
 
 D'altra parte, puoi anche usare l'API `DocumentBuilder` per lavorare con le sezioni. In questo articolo, ci concentreremo su questo particolare modo di lavorare con le sezioni.
 
@@ -154,5 +154,5 @@ Il seguente esempio di codice mostra come modificare le proprietà della pagina 
 
 ## Vedi anche
 
-- [Livelli logici di nodi in un documento](/words/cpp/logical-levels-of-nodes-in-a-document/)
-- [Inserire e aggiungere documenti](/words/cpp/insert-and-append-documents/)
+- [Livelli logici di nodi in un documento](/words/it/cpp/logical-levels-of-nodes-in-a-document/)
+- [Inserire e aggiungere documenti](/words/it/cpp/insert-and-append-documents/)

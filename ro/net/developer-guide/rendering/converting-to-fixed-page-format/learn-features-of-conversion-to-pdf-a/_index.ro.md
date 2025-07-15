@@ -1,4 +1,4 @@
----
+﻿---
 title: Conversia la PDF/A și PDF/UA
 second_title: Aspose.Words pentru .NET
 articleTitle: Învaţă caracteristicile conversiei în PDF/A şi PDF/UA
@@ -42,7 +42,7 @@ Pentru a afla mai multe despre diferitele standarde PDF, verificați următoarel
 
 ## Vezi și
 
-* [Convert a Document to PDF](/words/net/convert-a-document-to-pdf/)
+* [Convert a Document to PDF](/words/ro/net/convert-a-document-to-pdf/)
 * [How to edit document structure tags in Adobe Acrobat](https://helpx.adobe.com/acrobat/using/editing-document-structure-content-tags.html)
 * [How to check or edit text language in Microsoft Word](https://support.microsoft.com/en-us/office/check-spelling-and-grammar-in-a-different-language-667ba67a-a202-42fd-8596-edc1fa320e00)
 * [How to change text language in Adobe Acrobat](https://helpx.adobe.com/acrobat/using/editing-document-structure-content-tags.html#add_alternate_text_and_supplementary_information_to_tags)

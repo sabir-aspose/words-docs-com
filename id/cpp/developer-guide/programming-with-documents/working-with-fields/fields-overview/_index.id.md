@@ -1,4 +1,4 @@
----
+﻿---
 title: Tinjauan Bidang dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Tinjauan Bidang
@@ -29,7 +29,7 @@ Sebuah bidang terdiri dari:
 
 ![fields-overview-aspose-words-cpp-1](fields-overview-1.png)
 
-Konten yang membentuk kode bidang disimpan sebagai simpul [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) antara [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) dan [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/). Hasil bidang disimpan di antara simpul **FieldSeparator** dan [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) dan dapat terdiri dari berbagai jenis konten. Biasanya hasil bidang hanya berisi teks yang terdiri dari **Run** simpul, namun simpul **FieldEnd** dapat ditempatkan di paragraf yang sama sekali berbeda, sehingga membuat hasil bidang terdiri dari [node tingkat blok](/words/cpp/logical-levels-of-nodes-in-a-document/) seperti juga simpul **Table** dan **Paragraph**.
+Konten yang membentuk kode bidang disimpan sebagai simpul [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) antara [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) dan [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/). Hasil bidang disimpan di antara simpul **FieldSeparator** dan [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) dan dapat terdiri dari berbagai jenis konten. Biasanya hasil bidang hanya berisi teks yang terdiri dari **Run** simpul, namun simpul **FieldEnd** dapat ditempatkan di paragraf yang sama sekali berbeda, sehingga membuat hasil bidang terdiri dari [node tingkat blok](/words/id/cpp/logical-levels-of-nodes-in-a-document/) seperti juga simpul **Table** dan **Paragraph**.
 
 Berikut adalah tampilan tentang bagaimana sebuah bidang disimpan dalam Aspose.Words dengan menggunakan " *DocumentExplorer"* example.
 
@@ -37,7 +37,7 @@ Berikut adalah tampilan tentang bagaimana sebuah bidang disimpan dalam Aspose.Wo
 
 ## Bidang dalam Model Objek Dokumen Aspose.Words (DOM)
 
-Saat dokumen dimuat ke dalam Aspose.Words, bidang dokumen dimuat ke dalam [Aspose.Words Model Objek Dokumen](/words/cpp/aspose-words-document-object-model/) sebagai satu set komponen terpisah (node). Satu bidang dimuat sebagai kumpulan simpul **FieldStart**, **FieldSeparator**, dan **FieldEnd** bersama dengan konten di antara simpul-simpul ini. Jika suatu bidang tidak memiliki hasil bidang maka tidak akan ada simpul **FieldSeparator**. Semua simpul ini selalu ditemukan sebaris (sebagai turunan dari [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) atau [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
+Saat dokumen dimuat ke dalam Aspose.Words, bidang dokumen dimuat ke dalam [Aspose.Words Model Objek Dokumen](/words/id/cpp/aspose-words-document-object-model/) sebagai satu set komponen terpisah (node). Satu bidang dimuat sebagai kumpulan simpul **FieldStart**, **FieldSeparator**, dan **FieldEnd** bersama dengan konten di antara simpul-simpul ini. Jika suatu bidang tidak memiliki hasil bidang maka tidak akan ada simpul **FieldSeparator**. Semua simpul ini selalu ditemukan sebaris (sebagai turunan dari [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) atau [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
 
 Dalam Aspose.Words masing-masing **FieldXXX** simpul berasal dari [FieldChar](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_char/). Kelas ini menyediakan properti untuk memeriksa jenis bidang yang diwakili oleh simpul yang ditentukan melalui properti [FieldType](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldchar/get_fieldtype/). Misalnya **FieldType.FieldMergeField** mewakili bidang gabungan dalam dokumen.
 

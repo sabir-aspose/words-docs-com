@@ -1,4 +1,4 @@
----
+﻿---
 title: Împărțiți un Document în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Împărțiți un Document
@@ -67,7 +67,7 @@ Această secțiune descrie mai multe cazuri de utilizare a împărțirii documen
 
 {{% alert color="primary" %}}
 
-Puteți folosi orice [formatul de ieșire acceptat de Aspose.Words](/words/cpp/supported-document-formats/).
+Puteți folosi orice [formatul de ieșire acceptat de Aspose.Words](/words/ro/cpp/supported-document-formats/).
 
 {{% /alert %}}
 

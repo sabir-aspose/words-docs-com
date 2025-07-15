@@ -61,5 +61,5 @@ doc->Save(ArtifactsDir + u"BaseConversions.CompressXlsx.xlsx", saveOptions);
 
 ## Vidět
 
-- Sekce dokumentace [Ochrana nebo šifrování dokumentu](/words/cpp/protect-or-encrypt-a-document/) další informace o ochraně a šifrování dokumentu
-- Článek [Najít a nahradit](/words/cpp/find-and-replace/) další informace o nalezení a nahrazení požadovaného obsahu
+- Sekce dokumentace [Ochrana nebo šifrování dokumentu](/words/cs/cpp/protect-or-encrypt-a-document/) další informace o ochraně a šifrování dokumentu
+- Článek [Najít a nahradit](/words/cs/cpp/find-and-replace/) další informace o nalezení a nahrazení požadovaného obsahu

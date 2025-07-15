@@ -1,4 +1,4 @@
----
+﻿---
 title: שאלות נפוצות
 second_title: Aspose.Words עבור .NET
 articleTitle: שאלות – Aspose.Words עבור .NET
@@ -129,7 +129,7 @@ In In In `APS.NET`, אין גישה לתיקיית המערכת באמון בי�
 
 {{% alert color="primary" %}}
 
-ניתן למצוא מידע מפורט יותר על Mail Merge בתוך [Mail Merge דיווח ו](/words/net/mail-merge-and-reporting/) סעיף תיעוד
+ניתן למצוא מידע מפורט יותר על Mail Merge בתוך [Mail Merge דיווח ו](/words/he/net/mail-merge-and-reporting/) סעיף תיעוד
 
 {{% /alert %}}
 
@@ -153,7 +153,7 @@ In In In `APS.NET`, אין גישה לתיקיית המערכת באמון בי�
 הסיבה לכך היא שמערכת היחסים בין ההורים וטבלאות הילד אינן מוגדרות או שהן מוגדרות בצורה לא נכונה. יש צורך:
 
 * • להבטיח שלמות נתונים בתוך **DataSet** ולהשתמש **DataRelation** להתנגד לייצוג מערכת היחסים בין טבלאות נתונים קשורות.
-* בדוק את הקטע "איך להגדיר יחסי נתונים ב-Neded" Mail Merge עם אזורים" במאמר [Nested Mail Merge עם אזורים](/words/net/nested-mail-merge-with-regions/).
+* בדוק את הקטע "איך להגדיר יחסי נתונים ב-Neded" Mail Merge עם אזורים" במאמר [Nested Mail Merge עם אזורים](/words/he/net/nested-mail-merge-with-regions/).
 
 ------
 

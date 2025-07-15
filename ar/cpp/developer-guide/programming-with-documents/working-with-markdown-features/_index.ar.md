@@ -1,4 +1,4 @@
----
+﻿---
 title: العمل مع Markdown الميزات في C++
 second_title: Aspose.Words ل C++
 articleTitle: العمل مع Markdown الميزات
@@ -27,7 +27,7 @@ timestamp: 2024-01-31-14-23-37
 
 {{% alert color="primary" %}}
 
-هناك فروق دقيقة في ترجمة Markdown إلى نموذج كائن المستند Aspose.Words (DOM)، الموضح في المقالة [ترجمة Markdown لتوثيق نموذج الكائن (DOM)](/words/cpp/translate-markdown-to-document-object-model/).
+هناك فروق دقيقة في ترجمة Markdown إلى نموذج كائن المستند Aspose.Words (DOM)، الموضح في المقالة [ترجمة Markdown لتوثيق نموذج الكائن (DOM)](/words/ar/cpp/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

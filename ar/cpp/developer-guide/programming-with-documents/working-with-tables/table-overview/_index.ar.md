@@ -1,4 +1,4 @@
----
+﻿---
 title: نظرة عامة على الجدول
 second_title: Aspose.Words ل C++
 articleTitle: نظرة عامة على الجدول
@@ -65,5 +65,5 @@ Aspose.Words هي مكتبة فئة مصممة لمعالجة المستندات
 
 ## أنظر أيضا
 
-* [Aspose.Words نموذج كائن المستند (DOM)](/words/cpp/aspose-words-document-object-model/)
-* [المستويات المنطقية للعقد في المستند](/words/cpp/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words نموذج كائن المستند (DOM)](/words/ar/cpp/aspose-words-document-object-model/)
+* [المستويات المنطقية للعقد في المستند](/words/ar/cpp/logical-levels-of-nodes-in-a-document/)

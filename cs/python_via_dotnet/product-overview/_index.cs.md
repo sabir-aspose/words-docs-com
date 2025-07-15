@@ -1,4 +1,4 @@
----
+﻿---
 title: Přehled produktů
 second_title: Aspose.Words místo Python via .NET
 articleTitle: Přehled produktů
@@ -56,7 +56,7 @@ Můžete převést celé dokumenty nebo konkrétní stránky do PDF nebo XPS gen
 
 #### Podávání zpráv
 
-Generovat dokumenty nebo zprávy od nuly nebo vyplněním šablon dat z datových zdrojů nebo obchodních objektů. Více informací o hlášení a získávání dat z databází naleznete v [Mail Merge a podávání zpráv](/words/python-net/mail-merge-and-reporting/) a [LINQ Vykazovací motor](/words/python-net/linq-reporting-engine/) sekce.
+Generovat dokumenty nebo zprávy od nuly nebo vyplněním šablon dat z datových zdrojů nebo obchodních objektů. Více informací o hlášení a získávání dat z databází naleznete v [Mail Merge a podávání zpráv](/words/cs/python-net/mail-merge-and-reporting/) a [LINQ Vykazovací motor](/words/python-net/linq-reporting-engine/) sekce.
 
 ### Nezávislost platformy
 

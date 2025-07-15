@@ -36,7 +36,7 @@ La limitation générale pour deux documents comparés est qu'ils ne doivent pas
 
 {{% alert color="primary" %}}
 
-Notez que vous pouvez comparer deux documents quelconques dans le [formats de fichiers pris en charge](/words/java/supported-document-formats/). Fondamentalement, vous pouvez comparer des objets de document et même créer ces objets à partir de zéro sans avoir de format spécifique.
+Notez que vous pouvez comparer deux documents quelconques dans le [formats de fichiers pris en charge](/words/fr/java/supported-document-formats/). Fondamentalement, vous pouvez comparer des objets de document et même créer ces objets à partir de zéro sans avoir de format spécifique.
 
 {{% /alert %}}
 

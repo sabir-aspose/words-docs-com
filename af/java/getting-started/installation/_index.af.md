@@ -1,4 +1,4 @@
----
+﻿---
 title: Installasie
 second_title: Aspose.Words vir Java
 articleTitle: Installasie
@@ -10,7 +10,7 @@ url: /af/java/installation/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Maak seker dat jou masjien voldoen aan die [stelselvereistes](/words/java/system-requirements/) voordat jy begin.
+Maak seker dat jou masjien voldoen aan die [stelselvereistes](/words/af/java/system-requirements/) voordat jy begin.
 
 Hierdie artikel verduidelik hoe om te installeer Aspose.Words vir Java op jou rekenaar.
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Présentation du produit
 second_title: Aspose.Words pour .NET
 articleTitle: Présentation du produit
@@ -56,7 +56,7 @@ Vous pouvez convertir des documents entiers ou des pages particulières en PDF o
 
 #### Rapports
 
-Générez des documents ou des rapports à partir de zéro ou en remplissant des modèles avec des données provenant de sources de données ou d'objets métier. Pour plus d'informations sur la création de rapports et la récupération de données à partir de bases de données, consultez les sections [Mail Merge et rapports](/words/net/mail-merge-and-reporting/) et [Moteur de reporting LINQ](/words/net/linq-reporting-engine/).
+Générez des documents ou des rapports à partir de zéro ou en remplissant des modèles avec des données provenant de sources de données ou d'objets métier. Pour plus d'informations sur la création de rapports et la récupération de données à partir de bases de données, consultez les sections [Mail Merge et rapports](/words/fr/net/mail-merge-and-reporting/) et [Moteur de reporting LINQ](/words/net/linq-reporting-engine/).
 
 ### Indépendance de la plateforme
 

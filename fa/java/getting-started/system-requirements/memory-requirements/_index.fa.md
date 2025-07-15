@@ -42,10 +42,10 @@ Aspose.Words طیف گسترده ای از ویژگی ها را برای کار 
 
 عملیات پیچیده تر مانند رندر (تبدیل به فرمت های صفحه ثابت)، به روز رسانی زمینه ها، تقسیم صفحه و دیگران، برای برخی از اسناد به 20 برابر منابع بیشتری نسبت به حافظه اختصاص داده شده توسط سند بارگذاری شده در Aspose.Words DOM نیاز دارد.
 
-اگر نتایج پروفایل سازی شما نشان دهنده یک مشکل حافظه احتمالی در Aspose.Words است، لطفا با ما تماس بگیرید [تیم پشتیبانی](/words/java/technical-support/) و شامل تمام اطلاعات تشخیصی.
+اگر نتایج پروفایل سازی شما نشان دهنده یک مشکل حافظه احتمالی در Aspose.Words است، لطفا با ما تماس بگیرید [تیم پشتیبانی](/words/fa/java/technical-support/) و شامل تمام اطلاعات تشخیصی.
 
 ## بایگانی برچسب برای:
 
-* [رندر کردن](/words/java/rendering/)
-* [Mail Merge و گزارش](/words/java/mail-merge-and-reporting/)
-* [کار با فیلد ها](/words/java/working-with-fields/)
+* [رندر کردن](/words/fa/java/rendering/)
+* [Mail Merge و گزارش](/words/fa/java/mail-merge-and-reporting/)
+* [کار با فیلد ها](/words/fa/java/working-with-fields/)

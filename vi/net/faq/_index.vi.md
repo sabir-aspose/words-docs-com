@@ -1,4 +1,4 @@
----
+﻿---
 title: Câu hỏi thường gặp
 second_title: Aspose.Words cho .NET
 articleTitle: Câu hỏi thường gặp – Aspose.Words cho .NET
@@ -129,7 +129,7 @@ Có, bạn biết. Do đó, khi sao chép phông chữ, hãy nhớ rằng hầu 
 
 {{% alert color="primary" %}}
 
-Bạn có thể tìm thêm thông tin chi tiết về Mail Merge trong phần tài liệu [Mail Merge và báo cáo](/words/net/mail-merge-and-reporting/).
+Bạn có thể tìm thêm thông tin chi tiết về Mail Merge trong phần tài liệu [Mail Merge và báo cáo](/words/vi/net/mail-merge-and-reporting/).
 
 {{% /alert %}}
 
@@ -153,7 +153,7 @@ Tên ban đầu của trường hợp nhất vẫn giữ nguyên mà không bị
 Điều này là do mối quan hệ giữa bảng cha và bảng con chưa được thiết lập hoặc chúng được thiết lập không chính xác. Nó là cần thiết để:
 
 * Đảm bảo tính toàn vẹn dữ liệu trong **DataSet** của bạn và sử dụng đối tượng **DataRelation** để thể hiện mối quan hệ cha-con giữa các bảng dữ liệu liên quan.
-* Xem phần "Cách thiết lập mối quan hệ dữ liệu trong Mail Merge lồng nhau với các khu vực" trong bài viết [Mail Merge lồng nhau với các vùng](/words/net/nested-mail-merge-with-regions/).
+* Xem phần "Cách thiết lập mối quan hệ dữ liệu trong Mail Merge lồng nhau với các khu vực" trong bài viết [Mail Merge lồng nhau với các vùng](/words/vi/net/nested-mail-merge-with-regions/).
 
 ------
 

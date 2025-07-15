@@ -1,4 +1,4 @@
----
+﻿---
 title: تحويل مستند إلى PDF في C++
 second_title: Aspose.Words ل C++
 articleTitle: تحويل مستند إلى PDF
@@ -67,6 +67,6 @@ Aspose.Words يوفر [PdfCompliance](https://reference.aspose.com/words/cpp/asp
 
 ## أنظر أيضا
 
-- المادة [تقديم](/words/cpp/rendering/) لمزيد من المعلومات حول تنسيقات الصفحة الثابتة وتخطيط التدفق
+- المادة [تقديم](/words/ar/cpp/rendering/) لمزيد من المعلومات حول تنسيقات الصفحة الثابتة وتخطيط التدفق
 - المادة [التحويل إلى تنسيق الصفحة الثابتة](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) لمزيد من المعلومات حول تخطيط الصفحة
-- المادة [حدد خيارات العرض عند التحويل إلى PDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) لمزيد من المعلومات حول استخدام فئة `PdfSaveOptions`
+- المادة [حدد خيارات العرض عند التحويل إلى PDF](/words/ar/cpp/specify-rendering-options-when-converting-to-pdf/) لمزيد من المعلومات حول استخدام فئة `PdfSaveOptions`

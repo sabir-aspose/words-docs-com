@@ -18,7 +18,7 @@ Aspose.Words是一个跨平台的类库，使您的应用程序能够执行各�
 
 使用Aspose.Words，您可以创建、修改、转换、呈现和打印文档，而不依赖于第三方应用程序，如Microsoft Word或Office Automation。
 
-值得注意的是，您可以将文档从任何支持的加载格式转换为任何支持的保存格式，例如，Microsoft Word格式转换为PDF，HTML，或Markdown，HTML转换为DOCX，等等。 阅读更多有关转换文件的资料 [转换文档](/words/java/convert-a-document/) 节。
+值得注意的是，您可以将文档从任何支持的加载格式转换为任何支持的保存格式，例如，Microsoft Word格式转换为PDF，HTML，或Markdown，HTML转换为DOCX，等等。 阅读更多有关转换文件的资料 [转换文档](/words/zh/java/convert-a-document/) 节。
 
 我们库的另一个流行选项是*Reports and Mails*。 我们的用户生成高度复杂的单独调整的金融，医疗和其他*Reports*。 这样，生成的文档看起来就像您使用常规文本编辑器手动创建报告一样。 另一个选项*Mail*提供了非常快速生成数千和数百万个简单但仍然基于个人模板的文档的能力。
 
@@ -46,21 +46,21 @@ Aspose.Words对于Java特征可以分为四个主要区域。
 
 能够轻松可靠地转换文档是Aspose.Words的主要功能之一。
 
-综合 [文件导入和导出](/words/java/loading-saving-and-converting/) 与 [超过35种支持的文件格式](/words/java/supported-document-formats/) 允许用户将文档从[一种流行的格式](https://reference.aspose.com/words/java/com.aspose.words/loadformat/)转换为[another](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)，例如，从DOCX转换为PDF、JPEG或Markdown。
+综合 [文件导入和导出](/words/zh/java/loading-saving-and-converting/) 与 [超过35种支持的文件格式](/words/zh/java/supported-document-formats/) 允许用户将文档从[一种流行的格式](https://reference.aspose.com/words/java/com.aspose.words/loadformat/)转换为[another](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)，例如，从DOCX转换为PDF、JPEG或Markdown。
 
 #### 文档对象模型(DOM)
 
-通过丰富的API对所有文档元素和格式进行编程访问，可以创建、修改、提取、复制、拆分、连接和替换文档内容。 你可在此查阅更多 [Aspose.Words文档对象模型(DOM)](/words/java/aspose-words-document-object-model/) 节。
+通过丰富的API对所有文档元素和格式进行编程访问，可以创建、修改、提取、复制、拆分、连接和替换文档内容。 你可在此查阅更多 [Aspose.Words文档对象模型(DOM)](/words/zh/java/aspose-words-document-object-model/) 节。
 
 #### 渲染图
 
-我们用这个词 [Aspose.Words中的渲染](/words/java/rendering/) 描述将文档转换为文件格式或媒体、分页或具有页面概念的过程。
+我们用这个词 [Aspose.Words中的渲染](/words/zh/java/rendering/) 描述将文档转换为文件格式或媒体、分页或具有页面概念的过程。
 
 您可以将整个文档或特定页面转换为PDF或XPS以生成服务器端文档，打印它们或呈现页面。 而这一切都具有高保真度-就像Microsoft Word会做到这一点。
 
 #### 报告书
 
-从头开始或通过使用数据源或业务对象中的数据填充模板来生成文档或报告。 有关从数据库报告和提取数据的详细信息，请参阅 [Mail Merge和报告](/words/java/mail-merge-and-reporting/) 和 [LINQ报告引擎](/words/java/linq-reporting-engine/) 部分。
+从头开始或通过使用数据源或业务对象中的数据填充模板来生成文档或报告。 有关从数据库报告和提取数据的详细信息，请参阅 [Mail Merge和报告](/words/zh/java/mail-merge-and-reporting/) 和 [LINQ报告引擎](/words/java/linq-reporting-engine/) 部分。
 
 ### 平台独立性
 
@@ -104,8 +104,8 @@ Aspose.Words是多线程安全的，只要一次只有一个线程在文档上�
 
 ## 定价和政策
 
-请浏览 [发牌事宜](/words/java/licensing/) 有关许可证的信息，请查看 [定价资料](https://purchase.aspose.com/pricing/words/family/) 有关定价的详细信息。
+请浏览 [发牌事宜](/words/zh/java/licensing/) 有关许可证的信息，请查看 [定价资料](https://purchase.aspose.com/pricing/words/family/) 有关定价的详细信息。
 
 ## 技术支持
 
-有关Aspose.Words技术支持的更多信息，请查看 [支援网页](/words/java/technical-support/).
+有关Aspose.Words技术支持的更多信息，请查看 [支援网页](/words/zh/java/technical-support/).

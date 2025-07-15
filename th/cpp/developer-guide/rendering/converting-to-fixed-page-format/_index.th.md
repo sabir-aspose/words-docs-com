@@ -1,4 +1,4 @@
----
+﻿---
 title: การแปลงเป็นรูปแบบหน้าถาวรในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: แปลงเป็นรูปแบบหน้าถาวร
@@ -28,7 +28,7 @@ Microsoft Wordเป็นโปรแกรมแก้ไขข้อควา
 
 ## ดูเพิ่มเติม
 
-* [เค้าโครงหน้าคืออะไร](/words/cpp/what-is-a-page-layout/)
-* [การสร้างเค้าโครงหน้า](/words/cpp/creating-a-page-layout/)
-* [การบันทึกเอกสารในรูปแบบหน้าถาวร](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [ระบุตัวเลือกเค้าโครง](/words/cpp/specify-layout-options/)
+* [เค้าโครงหน้าคืออะไร](/words/th/cpp/what-is-a-page-layout/)
+* [การสร้างเค้าโครงหน้า](/words/th/cpp/creating-a-page-layout/)
+* [การบันทึกเอกสารในรูปแบบหน้าถาวร](/words/th/cpp/saving-a-document-to-fixed-page-format/)
+* [ระบุตัวเลือกเค้าโครง](/words/th/cpp/specify-layout-options/)

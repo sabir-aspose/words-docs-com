@@ -1,4 +1,4 @@
----
+﻿---
 title: AI - מופעל תכונות
 second_title: Aspose.Words עבור Java
 articleTitle: AI - מופעל תכונות
@@ -16,7 +16,7 @@ Aspose.Words כולל כעת תכונות המופעלות AI שנועדו לה�
 
 בחלק זה, נסקור את כל מה שאתה צריך לדעת על שימוש בתכונות נתמכות AI ב Aspose.Words. מטיפים מעשיים ועד הוראות מפורטות, אנו שואפים לעזור לך להפיק את המרב מהשיפורים הללו.
 
-* [נתמך AI מודלים](/words/java/supported-ai-models/)
-* [לסכם מסמך](/words/java/summarize-a-document/)
-* [תרגום מסמך](/words/java/translate-a-document/)
-* [בדיקת דקדוק](/words/java/grammar-checking/)
+* [נתמך AI מודלים](/words/he/java/supported-ai-models/)
+* [לסכם מסמך](/words/he/java/summarize-a-document/)
+* [תרגום מסמך](/words/he/java/translate-a-document/)
+* [בדיקת דקדוק](/words/he/java/grammar-checking/)

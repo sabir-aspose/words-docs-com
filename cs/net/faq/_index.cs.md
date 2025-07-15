@@ -1,4 +1,4 @@
----
+﻿---
 title: FAQ
 second_title: Aspose.Words místo .NET
 articleTitle: Často kladené otázky Aspose.Words místo .NET
@@ -129,7 +129,7 @@ Ano, máš. Proto při kopírování písem mějte na paměti, že většina pí
 
 {{% alert color="primary" %}}
 
-Podrobnější informace o Mail Merge v [Mail Merge a podávání zpráv](/words/net/mail-merge-and-reporting/) sekce dokumentace.
+Podrobnější informace o Mail Merge v [Mail Merge a podávání zpráv](/words/cs/net/mail-merge-and-reporting/) sekce dokumentace.
 
 {{% /alert %}}
 
@@ -153,7 +153,7 @@ To proto, že regiony sloučení v šabloně nejsou správně vytvořeny, které
 To proto, že vztah mezi rodičovské a dětské tabulky nejsou nastaveny nebo jsou špatně nastaveny. Je nezbytné:
 
 * Zajistit integritu údajů uvnitř **DataSet** a použijte **DataRelation** má za cíl reprezentovat vztah rodičů a dítěte mezi příslušnými datovými tabulkami.
-* Zkontrolujte, jak nastavit vztahy s daty v Nestedu Mail Merge s regiony v článku [Mníkovec bělolemý Mail Merge s regiony](/words/net/nested-mail-merge-with-regions/).
+* Zkontrolujte, jak nastavit vztahy s daty v Nestedu Mail Merge s regiony v článku [Mníkovec bělolemý Mail Merge s regiony](/words/cs/net/nested-mail-merge-with-regions/).
 
 ------
 

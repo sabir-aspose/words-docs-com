@@ -1,4 +1,4 @@
----
+﻿---
 title: C++ biçiminde Sabit sayfa Biçimine Dönüştürme
 second_title: Aspose.Words için C++
 articleTitle: Sabit Sayfa Biçimine Dönüştürme
@@ -28,7 +28,7 @@ Microsoft Word, bugün Windows 'deki en gelişmiş metin düzenleme uygulamasıd
 
 ## Ayrıca bakınız
 
-* [Sayfa Düzeni Nedir](/words/cpp/what-is-a-page-layout/)
-* [Sayfa Düzeni Oluşturma](/words/cpp/creating-a-page-layout/)
-* [Belgeyi Sabit Sayfa Biçimine Kaydetme](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Düzen Seçeneklerini Belirtin](/words/cpp/specify-layout-options/)
+* [Sayfa Düzeni Nedir](/words/tr/cpp/what-is-a-page-layout/)
+* [Sayfa Düzeni Oluşturma](/words/tr/cpp/creating-a-page-layout/)
+* [Belgeyi Sabit Sayfa Biçimine Kaydetme](/words/tr/cpp/saving-a-document-to-fixed-page-format/)
+* [Düzen Seçeneklerini Belirtin](/words/tr/cpp/specify-layout-options/)

@@ -1,4 +1,4 @@
----
+﻿---
 title: FAQ
 second_title: Aspose.Words zamiast Java
 articleTitle: FAQ
@@ -121,7 +121,7 @@ Tak. Dlatego przy kopiowaniu czcionek należy pamiętać, że większość czcio
 
 {{% alert color="primary" %}}
 
-Więcej szczegółowych informacji na temat Mail Merge w [Mail Merge i świętości](/words/java/mail-merge-and-reporting/) sekcja dokumentacji.
+Więcej szczegółowych informacji na temat Mail Merge w [Mail Merge i świętości](/words/pl/java/mail-merge-and-reporting/) sekcja dokumentacji.
 
 {{% /alert %}}
 
@@ -145,7 +145,7 @@ Wynika to z faktu, że regiony połączenia w szablonie nie są prawidłowo utwo
 Dzieje się tak dlatego, że związek między tabelami rodziców i dzieci nie jest ustawiony lub jest nieprawidłowo ustawiony. Należy:
 
 - Zapewnienie integralności danych w obrębie **DataSet** i użyć **DataRelation** obiekt do reprezentowania relacji rodzicielsko-dziecięcej pomiędzy powiązanymi tabelami danych.
-- Sprawdź w sekcji "Jak ustawić relacje danych w Nested Mail Merge z regionów "w artykule [Nested Mail Merge z regionami](/words/java/nested-mail-merge-with-regions/).
+- Sprawdź w sekcji "Jak ustawić relacje danych w Nested Mail Merge z regionów "w artykule [Nested Mail Merge z regionami](/words/pl/java/nested-mail-merge-with-regions/).
 
 ------
 

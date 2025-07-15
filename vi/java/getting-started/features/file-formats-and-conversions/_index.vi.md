@@ -1,4 +1,4 @@
----
+﻿---
 title: Định dạng và Chuyển đổi Tập tin
 second_title: Aspose.Words cho Java
 articleTitle: Định dạng và Chuyển đổi Tập tin
@@ -29,7 +29,7 @@ Ví dụ sau cho thấy cách chuyển đổi một tài liệu:
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "docx-to-pdf.java" >}}
 
-Để biết thêm chi tiết về việc tải, chuyển đổi và lưu trữ các tập tin, xem mục [Tải, Lưu và Chuyển đổi](/words/java/loading-saving-and-converting/).
+Để biết thêm chi tiết về việc tải, chuyển đổi và lưu trữ các tập tin, xem mục [Tải, Lưu và Chuyển đổi](/words/vi/java/loading-saving-and-converting/).
 
 ## High Fidelity
 

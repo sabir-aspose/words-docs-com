@@ -29,7 +29,7 @@ timestamp: 2024-09-24-14-35-44
 
 {{< gist "aspose-words-gists" "b9784b73e288805e08fba6e3fc5ae2af" "docx-to-pdf.h" >}}
 
-לפרטים נוספים על טעינה, המרה ושמירת מסמכים, עיין ב [טעינה, שמירה והמרה](/words/cpp/loading-saving-and-converting/) סעיף.
+לפרטים נוספים על טעינה, המרה ושמירת מסמכים, עיין ב [טעינה, שמירה והמרה](/words/he/cpp/loading-saving-and-converting/) סעיף.
 
 ## באיכות גבוהה
 

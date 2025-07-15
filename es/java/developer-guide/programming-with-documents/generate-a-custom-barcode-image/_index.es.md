@@ -55,7 +55,7 @@ También puede guardar el documento con el código de barras cargado o recién i
 
 {{% alert color="primary" %}}
 
-Para obtener más información sobre cómo convertir documentos de un formato a otro, consulte la [Convertir un Documento](/words/java/convert-a-document/) sección de documentación.
+Para obtener más información sobre cómo convertir documentos de un formato a otro, consulte la [Convertir un Documento](/words/es/java/convert-a-document/) sección de documentación.
 
 {{% /alert %}}
 

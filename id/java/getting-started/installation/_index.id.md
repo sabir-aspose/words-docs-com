@@ -10,7 +10,7 @@ url: /id/java/installation/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Pastikan mesin Anda memenuhi persyaratan [kesatuan sistem](/words/java/system-requirements/) sebelum Anda mulai.
+Pastikan mesin Anda memenuhi persyaratan [kesatuan sistem](/words/id/java/system-requirements/) sebelum Anda mulai.
 
 Artikel ini menjelaskan cara menginstal Aspose.Words untuk Java di komputer Anda.
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: 比較文件在C#
 second_title: Aspose.Words for .NET
 articleTitle: 比較文件
@@ -36,7 +36,7 @@ timestamp: 2024-01-27-14-07-04
 
 {{% alert color="primary" %}}
 
-請注意，您可以在 [supported file formats](/words/net/supported-document-formats/) 中比較任何兩份文件。 基本上，你可以比較文件物件甚至可以在不使用特定格式的情況下從頭來創造這些物件。
+請注意，您可以在 [supported file formats](/words/zh-hant/net/supported-document-formats/) 中比較任何兩份文件。 基本上，你可以比較文件物件甚至可以在不使用特定格式的情況下從頭來創造這些物件。
 
 {{% /alert %}}
 

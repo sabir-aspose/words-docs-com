@@ -1,4 +1,4 @@
----
+﻿---
 title: 產品概覽
 second_title: Aspose.Words for .NET
 articleTitle: 產品概覽
@@ -16,7 +16,7 @@ timestamp: 2024-01-31-14-23-37
 
 Aspose.Words 是一款跨平台的類別庫，可使您的應用程式執行多種文件處理作業。
 
-使用 Aspose.Words，您可以將任何支援的載入格式檔案轉換為任何支援的儲存格式，例如 Word 格式到 PDF、HTML 或 Markdown，PDF 到 DOCX 等。 在 [Convert a Document](/words/net/convert-a-document/) 部分瞭解更多有關轉換文件的資訊。
+使用 Aspose.Words，您可以將任何支援的載入格式檔案轉換為任何支援的儲存格式，例如 Word 格式到 PDF、HTML 或 Markdown，PDF 到 DOCX 等。 在 [Convert a Document](/words/zh-hant/net/convert-a-document/) 部分瞭解更多有關轉換文件的資訊。
 
 值得注意的是，使用 Aspose.Words 你可以不依靠第三方應用程式（例如 Microsoft Word 或 Office Automation）來創造、修改、轉換、呈現及列印文件。
 
@@ -42,15 +42,15 @@ Aspose.Words為.NET功能可分為四個主要領域。
 
 輕鬆可靠地將文件轉換成其他格式的能力，是 Aspose.Words 的一個主要功能。
 
-全方位的 [document import and export](/words/net/loading-saving-and-converting/) 和 [over 35 supported file formats](/words/net/supported-document-formats/) 讓使用者可以將文件從 [one popular format](https://reference.aspose.com/words/net/aspose.words/loadformat/) 轉換成 [another](https://reference.aspose.com/words/net/aspose.words/saveformat/)，例如從 DOCX 到 PDF、JPEG 或 Markdown，或是從 PDF 到各種 Word 格式。
+全方位的 [document import and export](/words/zh-hant/net/loading-saving-and-converting/) 和 [over 35 supported file formats](/words/zh-hant/net/supported-document-formats/) 讓使用者可以將文件從 [one popular format](https://reference.aspose.com/words/net/aspose.words/loadformat/) 轉換成 [another](https://reference.aspose.com/words/net/aspose.words/saveformat/)，例如從 DOCX 到 PDF、JPEG 或 Markdown，或是從 PDF 到各種 Word 格式。
 
 #### Document Object Model (DOM)
 
-透過豐富的 API 介面，可以存取所有文書元素和格式化，以建立、修改、提取、複製、分割、結合及替代文書內容。 更多詳情可參閱 [Aspose.Words Document Object Model (DOM)](/words/net/aspose-words-document-object-model/) 部分。
+透過豐富的 API 介面，可以存取所有文書元素和格式化，以建立、修改、提取、複製、分割、結合及替代文書內容。 更多詳情可參閱 [Aspose.Words Document Object Model (DOM)](/words/zh-hant/net/aspose-words-document-object-model/) 部分。
 
 #### 渲染
 
-我們使用 [Rendering in Aspose.Words](/words/net/rendering/) 一詞來形容將文件轉換成檔案格式或介質、分頁或具有頁面概念的過程。
+我們使用 [Rendering in Aspose.Words](/words/zh-hant/net/rendering/) 一詞來形容將文件轉換成檔案格式或介質、分頁或具有頁面概念的過程。
 
 您可將整個文件或特定頁面轉換為 PDF 或 XPS 來產生伺服器端文件、列印文件，或使用 .NET Graphics 顯示頁面。 而且這樣的一切都有高忠實度，就像Microsoft Word會這麼做一樣。
 
@@ -92,9 +92,9 @@ Aspose.Words 是多線程安全的，只要一次只有一個線程處理一個�
 
 ## 定價與政策
 
-請參閱 [Licensing](/words/net/licensing/) 的頁面，了解有關許可證的資訊；並檢視 [Pricing Information](https://purchase.aspose.com/pricing/words/family/) 的頁面，瞭解關於定價的詳細內容。
+請參閱 [Licensing](/words/zh-hant/net/licensing/) 的頁面，了解有關許可證的資訊；並檢視 [Pricing Information](https://purchase.aspose.com/pricing/words/family/) 的頁面，瞭解關於定價的詳細內容。
 
 ## 技術支援
 
-有關Aspose.Words技術支援更多資訊，請參閱[Support page](/words/net/technical-support/)。
+有關Aspose.Words技術支援更多資訊，請參閱[Support page](/words/zh-hant/net/technical-support/)。
 

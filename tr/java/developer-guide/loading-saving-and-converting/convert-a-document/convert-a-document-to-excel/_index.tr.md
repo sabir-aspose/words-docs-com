@@ -1,4 +1,4 @@
----
+﻿---
 title: Word'i Excel'e dönüştürün Java
 second_title: Aspose.Words için Java
 articleTitle: Bir belgeyi Excel'e dönüştürün
@@ -67,5 +67,5 @@ doc.save(getArtifactsDir() + "BaseConversions.CompressXlsx.xlsx", saveOptions);
 
 ## Ayrıca bakınız
 
-- Belgelendirme bölümü [Protect or Encrypt a Document](/words/java/protect-or-encrypt-a-document/) hakkında bir belgeyi nasıl koruyacağınız ve şifreleyeceğiniz hakkında daha fazla bilgi için
-- The article [Find and Replace](/words/java/find-and-replace/) için daha fazla bilgi bulmak ve içeriği aramak istediğiniz değiştirme hakkında
+- Belgelendirme bölümü [Protect or Encrypt a Document](/words/tr/java/protect-or-encrypt-a-document/) hakkında bir belgeyi nasıl koruyacağınız ve şifreleyeceğiniz hakkında daha fazla bilgi için
+- The article [Find and Replace](/words/tr/java/find-and-replace/) için daha fazla bilgi bulmak ve içeriği aramak istediğiniz değiştirme hakkında

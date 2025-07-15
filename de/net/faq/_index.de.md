@@ -1,4 +1,4 @@
----
+﻿---
 title: FAQ
 second_title: Aspose.Words für .NET
 articleTitle: FAQ – Aspose.Words für .NET
@@ -129,7 +129,7 @@ Ja, das tust du. Beachten Sie daher beim Kopieren von Schriftarten, dass die mei
 
 {{% alert color="primary" %}}
 
-Ausführlichere Informationen zu Mail Merge finden Sie im Abschnitt [Mail Merge und Berichterstattung](/words/net/mail-merge-and-reporting/)-Dokumentation.
+Ausführlichere Informationen zu Mail Merge finden Sie im Abschnitt [Mail Merge und Berichterstattung](/words/de/net/mail-merge-and-reporting/)-Dokumentation.
 
 {{% /alert %}}
 
@@ -153,7 +153,7 @@ Dies liegt daran, dass die Zusammenführungsbereiche in der Vorlage nicht korrek
 Dies liegt daran, dass die Beziehungen zwischen den übergeordneten und untergeordneten Tabellen nicht oder falsch eingerichtet sind. Es ist nötig zu:
 
 * Stellen Sie die Datenintegrität in Ihrem **DataSet** sicher und verwenden Sie das **DataRelation**-Objekt, um die Eltern-Kind-Beziehung zwischen verwandten Datentabellen darzustellen.
-* Lesen Sie den Abschnitt "So richten Sie Datenbeziehungen in verschachteltem Mail Merge mit Regionen ein" im Artikel [Verschachteltes Mail Merge mit Regionen](/words/net/nested-mail-merge-with-regions/).
+* Lesen Sie den Abschnitt "So richten Sie Datenbeziehungen in verschachteltem Mail Merge mit Regionen ein" im Artikel [Verschachteltes Mail Merge mit Regionen](/words/de/net/nested-mail-merge-with-regions/).
 
 ------
 

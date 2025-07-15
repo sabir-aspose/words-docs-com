@@ -1,4 +1,4 @@
----
+﻿---
 title: Hallo, Welt!
 second_title: Einfaches Beispiel für die Verwendung Aspose.Words für C++
 articleTitle: Hallo, Welt!
@@ -12,7 +12,7 @@ timestamp: 2024-01-27-14-07-04
 
 Ein "Hallo Welt!" code ist oft das erste einfache Beispiel, um Benutzer zu schreiben "Aspose.Words für C++", und es kann auch als Plausibilitätstest verwendet werden, um sicherzustellen, dass die Software, die den Quellcode kompilieren oder ausführen soll, korrekt installiert ist.
 
-"Aspose.Words für C++" die Bibliothek bietet Entwicklern direkten Zugriff zum Erstellen, Ändern, Zusammenführen, Konvertieren und Vergleichen von Word- und Webdokumenten. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML und viele andere Dateiformate sind [unterstützte](/words/cpp/supported-document-formats/).
+"Aspose.Words für C++" die Bibliothek bietet Entwicklern direkten Zugriff zum Erstellen, Ändern, Zusammenführen, Konvertieren und Vergleichen von Word- und Webdokumenten. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML und viele andere Dateiformate sind [unterstützte](/words/de/cpp/supported-document-formats/).
 
 Below code Snippet folgt diesen Schritten:
 

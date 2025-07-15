@@ -1,4 +1,4 @@
----
+﻿---
 title: 로 변환할 때 렌더링 옵션 지정 PDF
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 로 변환할 때 렌더링 옵션 지정 PDF
@@ -96,7 +96,7 @@ Aspose.Words 출력을 줄이기 위해 이미지를 다운 샘플링 할 수있
 
 ## 어도비에 글꼴 포함 PDF 형식
 
-Aspose.Words 또한 글꼴이 결과에 포함되는 방법을 제어 할 수 있습니다 PDF 문서. 글꼴은 어도비에 포함 할 필요가 PDF 모든 컴퓨터에서 문서를 올바르게 렌더링할 수 있도록 문서(섹션의 글꼴 렌더링에 대한 자세한 내용 참조 [사용 TrueType 글꼴](/words/cpp/using-truetype-fonts/)). 기본적으로, Aspose.Words 문서에 사용된 글꼴의 하위 집합을 생성된 글꼴에 포함합니다. PDF. 이 경우 문서에 사용된 글리프(문자)만 다음에 저장됩니다 PDF.
+Aspose.Words 또한 글꼴이 결과에 포함되는 방법을 제어 할 수 있습니다 PDF 문서. 글꼴은 어도비에 포함 할 필요가 PDF 모든 컴퓨터에서 문서를 올바르게 렌더링할 수 있도록 문서(섹션의 글꼴 렌더링에 대한 자세한 내용 참조 [사용 TrueType 글꼴](/words/ko/cpp/using-truetype-fonts/)). 기본적으로, Aspose.Words 문서에 사용된 글꼴의 하위 집합을 생성된 글꼴에 포함합니다. PDF. 이 경우 문서에 사용된 글리프(문자)만 다음에 저장됩니다 PDF.
 
 ### 전체 글꼴 사용 시기 및 하위 집합 사용 시기
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Làm việc với Tài sản Tài liệu trong Java
 second_title: Aspose.Words cho Java
 articleTitle: Chỉnh sửa thuộc tính tài liệu
@@ -15,7 +15,7 @@ Thuộc tính tài liệu cho phép lưu trữ một số thông tin hữu ích 
 * Hệ thống hoặc nội bộ chứa giá trị như tiêu đề tài liệu, tên tác giả, thống kê tài liệu và những người khác.
 * Người dùng hoặc tùy chỉnh, được cung cấp dưới dạng cặp tên giá trị nơi người dùng có thể xác định cả tên và giá trị.
 
-Điều hữu ích biết rằng thông tin về API và số phiên bản là được viết trực tiếp vào các tài liệu đầu ra. Ví dụ, khi chuyển đổi một tài liệu sang PDF thì Aspose.Words sẽ điền vào trường "Application" với "Aspose.Words", và trường "PDF Producer" với "Aspose.Words for Java YY.M.N", trong đó *YY.M.N* là phiên bản của Aspose.Words được dùng cho việc chuyển đổi. Để biết thêm chi tiết, xem [Generator or Producer Name Included in Output Documents](/words/java/generator-or-producer-name-included-in-output-documents/).
+Điều hữu ích biết rằng thông tin về API và số phiên bản là được viết trực tiếp vào các tài liệu đầu ra. Ví dụ, khi chuyển đổi một tài liệu sang PDF thì Aspose.Words sẽ điền vào trường "Application" với "Aspose.Words", và trường "PDF Producer" với "Aspose.Words for Java YY.M.N", trong đó *YY.M.N* là phiên bản của Aspose.Words được dùng cho việc chuyển đổi. Để biết thêm chi tiết, xem [Generator or Producer Name Included in Output Documents](/words/vi/java/generator-or-producer-name-included-in-output-documents/).
 
 {{% alert color="primary" %}}
 

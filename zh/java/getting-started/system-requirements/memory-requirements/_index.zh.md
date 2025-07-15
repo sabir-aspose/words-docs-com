@@ -42,10 +42,10 @@ Aspose.Words提供了广泛的功能来处理各种格式的文档。 需要注�
 
 更复杂的操作，如渲染（转换为固定页面格式），更新字段，拆分页面等，对于某些文档，需要比Aspose.WordsDOM中加载的文档分配的内存多20倍的资源。
 
-如果您的分析结果显示Aspose.Words中可能存在内存问题，请与我们的 [支援小组](/words/java/technical-support/) 并包括所有的诊断信息。
+如果您的分析结果显示Aspose.Words中可能存在内存问题，请与我们的 [支援小组](/words/zh/java/technical-support/) 并包括所有的诊断信息。
 
 ## 请参阅
 
-* [渲染图](/words/java/rendering/)
-* [Mail Merge和报告](/words/java/mail-merge-and-reporting/)
-* [与领域合作](/words/java/working-with-fields/)
+* [渲染图](/words/zh/java/rendering/)
+* [Mail Merge和报告](/words/zh/java/mail-merge-and-reporting/)
+* [与领域合作](/words/zh/java/working-with-fields/)

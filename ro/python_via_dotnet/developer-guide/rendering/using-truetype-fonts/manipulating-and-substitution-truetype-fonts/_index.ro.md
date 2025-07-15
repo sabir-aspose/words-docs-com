@@ -1,4 +1,4 @@
----
+﻿---
 title: Substitut TrueType Fonturi
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Manipulați și înlocuiți fonturile TrueType
@@ -180,7 +180,7 @@ Numai fonturile Noto în stil Sans cu greutate obișnuită sunt utilizate în se
 
 ## Unde Aspose.Words caută fonturi
 
-Aspose.Words încearcă să găsească TrueType fonturi pe sistemul de Fișiere automat. De obicei, vă puteți baza pe comportamentul implicit al Aspose.Words pentru a găsi fonturile `TrueType`, dar uneori trebuie să specificați propriile foldere care conțin fonturi TrueType. A [Specificarea TrueType Locația Fonturilor](/words/python-net/specifying-truetype-fonts-location/) subiectul descrie cum și unde Aspose.Words caută fonturi, precum și cum să specificați propriile locații de fonturi.
+Aspose.Words încearcă să găsească TrueType fonturi pe sistemul de Fișiere automat. De obicei, vă puteți baza pe comportamentul implicit al Aspose.Words pentru a găsi fonturile `TrueType`, dar uneori trebuie să specificați propriile foldere care conțin fonturi TrueType. A [Specificarea TrueType Locația Fonturilor](/words/ro/python-net/specifying-truetype-fonts-location/) subiectul descrie cum și unde Aspose.Words caută fonturi, precum și cum să specificați propriile locații de fonturi.
 
 ## Diferențe în procesarea formatelor de fonturi în Aspose.Words și Microsoft Word
 

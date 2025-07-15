@@ -55,7 +55,7 @@ Aspose.Words具有用于生成自定义条形码的界面，使其易于使用 [
 
 {{% alert color="primary" %}}
 
-有关将文档从一种格式转换为另一种格式的详细信息，请参阅 [转换文档](/words/java/convert-a-document/) 文件科。
+有关将文档从一种格式转换为另一种格式的详细信息，请参阅 [转换文档](/words/zh/java/convert-a-document/) 文件科。
 
 {{% /alert %}}
 

@@ -65,5 +65,5 @@ Aspose.Wordsมีจำนวนชั้นเรียนที่เกี�
 
 ## ดูเพิ่มเติม
 
-* [Aspose.Wordsรูปแบบวัตถุเอกสาร(DOM)](/words/java/aspose-words-document-object-model/)
-* [ระดับตรรกะของโหนดในเอกสาร](/words/java/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Wordsรูปแบบวัตถุเอกสาร(DOM)](/words/th/java/aspose-words-document-object-model/)
+* [ระดับตรรกะของโหนดในเอกสาร](/words/th/java/logical-levels-of-nodes-in-a-document/)

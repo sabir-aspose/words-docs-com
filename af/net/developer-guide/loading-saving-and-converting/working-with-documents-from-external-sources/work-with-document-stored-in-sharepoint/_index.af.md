@@ -20,7 +20,7 @@ In hierdie artikel sal ons'n algemene scenario dek vir die omskakeling van'n dok
 2. Stel'n onmiddellike sandbox op [volgens die video-handleiding](https://www.youtube.com/watch?v=ojQcS9ZQmes)
 3. Skep app-gebaseerde geloofsbriewe Vir SharePoint Aanlyn Soos uiteengesit In [Die opstel van'n app-net hoof met huurder regte](https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azureacs)
 4. Laai die dokument op met die naam "TestDoc.docx "na die wortel kommunikasie webwerf in die gids" Gedeelde Dokumente"
-5. Koop Aspose.Words lisensie, of gebruik'n [Gratis Proeflopie of'n Tydelike Lisensie vir 30 dae](/words/net/licensing/)
+5. Koop Aspose.Words lisensie, of gebruik'n [Gratis Proeflopie of'n Tydelike Lisensie vir 30 dae](/words/af/net/licensing/)
 
 {{% alert color="primary" %}}
 
@@ -266,6 +266,6 @@ As gevolg hiervan, die "TestDoc.pdf" lêer moet in die "Gedeelde Dokumente" gids
 
 ## Sien Ook
 
-- Die artikel [Lewering](/words/net/rendering/) vir meer inligting oor die vaste bladsy en vloei-uitleg formate
+- Die artikel [Lewering](/words/af/net/rendering/) vir meer inligting oor die vaste bladsy en vloei-uitleg formate
 - Die artikel [Omskakeling Na Vaste bladsy Formaat](/words/af/net/converting-to-fixed-page-format/#what-is-a-page-layout) vir meer inligting oor die bladsy uitleg
-- Die artikel [Spesifiseer Vertoonopsies Wanneer U Na PDFOmskakel](/words/net/specify-rendering-options-when-converting-to-pdf/) vir meer inligting oor die gebruik van die [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) klas
+- Die artikel [Spesifiseer Vertoonopsies Wanneer U Na PDFOmskakel](/words/af/net/specify-rendering-options-when-converting-to-pdf/) vir meer inligting oor die gebruik van die [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) klas

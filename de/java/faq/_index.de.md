@@ -12,7 +12,7 @@ timestamp: 2024-01-31-14-23-37
 
 Auf dieser Seite finden Sie Antworten auf die am häufigsten gestellten Fragen. Bitte lernen Sie die aktuelle Seite kennen – vielleicht können Sie so Ihr Problem schnell lösen.
 
-Wenn Sie die Antwort auf Ihre Frage nicht gefunden haben, können Sie im Support-Forum nachfragen. Informationen darüber, wie Sie Ihre Frage oder Ihr Problem ordnungsgemäß melden können, finden Sie im [Technischer Support](/words/java/technical-support/) Seite.
+Wenn Sie die Antwort auf Ihre Frage nicht gefunden haben, können Sie im Support-Forum nachfragen. Informationen darüber, wie Sie Ihre Frage oder Ihr Problem ordnungsgemäß melden können, finden Sie im [Technischer Support](/words/de/java/technical-support/) Seite.
 
 {{% alert color="primary" %}}
 
@@ -32,7 +32,7 @@ Details finden Sie in unserer Dokumentation.
 
 **F: Was bedeutet "Aspose.Words erfordert keine Anwendungen von Drittanbietern"?**
 
-Aspose.Words für Java muss keine Anwendungen von Drittanbietern oder zusätzliche Softwarepakete installieren, um zu funktionieren. Laden Sie einfach Aspose.Words herunter und installieren Sie es wie in der [Installation](/words/java/installation/) artikel und loslegen.
+Aspose.Words für Java muss keine Anwendungen von Drittanbietern oder zusätzliche Softwarepakete installieren, um zu funktionieren. Laden Sie einfach Aspose.Words herunter und installieren Sie es wie in der [Installation](/words/de/java/installation/) artikel und loslegen.
 
 ------
 
@@ -40,7 +40,7 @@ Aspose.Words für Java muss keine Anwendungen von Drittanbietern oder zusätzlic
 
 Aspose.Words für Java deckt die meisten gängigen Entwicklungsumgebungen und Bereitstellungsplattformen ab. Mit API können Anwendungen für eine Vielzahl von Betriebssystemen wie Windows, Linux und Mac OS sowie für verschiedene Plattformen entwickelt werden.
 
-Einzelheiten finden Sie in der [Produktübersicht](/words/java/product-overview/) seite und die [Plattformen und InteropErabilität](/words/java/platforms-and-interoperability/) Abschnitt.
+Einzelheiten finden Sie in der [Produktübersicht](/words/de/java/product-overview/) seite und die [Plattformen und InteropErabilität](/words/java/platforms-and-interoperability/) Abschnitt.
 
 ------
 
@@ -48,7 +48,7 @@ Einzelheiten finden Sie in der [Produktübersicht](/words/java/product-overview/
 
 Aspose.Words für Java unterstützt die meisten gängigen Dokumentenformate wie DOC, DOCX, HTML, Markdown, PDF, XML, und andere.
 
-Die vollständige Liste der unterstützten Formate finden Sie auf der [Unterstützte Dokumentenformate](/words/java/supported-document-formats/) Seite.
+Die vollständige Liste der unterstützten Formate finden Sie auf der [Unterstützte Dokumentenformate](/words/de/java/supported-document-formats/) Seite.
 
 ------
 
@@ -56,7 +56,7 @@ Die vollständige Liste der unterstützten Formate finden Sie auf der [Unterstü
 
 Sie können dies auf zwei Arten tun – mit der Testversion oder einer temporären 30-Tage-Lizenz. Die Testversion ist die gleiche wie die gekaufte, sie bietet die volle Produktfunktionalität, fügt jedoch beim Laden und Speichern oben im Dokument ein bewertendes Wasserzeichen hinzu und begrenzt die maximale Dokumentgröße auf einige hundert Absätze. Mit einer temporären Lizenz können Sie Aspose.Words 30 Tage lang ohne Testbeschränkungen testen.
 
-Sehen Sie die [Lizenzierung und Abonnement](/words/java/licensing/) seite für weitere Informationen.
+Sehen Sie die [Lizenzierung und Abonnement](/words/de/java/licensing/) seite für weitere Informationen.
 
 {{% alert color="primary" %}}
 
@@ -72,29 +72,29 @@ Um eine Aspose.Words-Lizenz zu kaufen, müssen Sie zum gehen [Kauf](https://purc
 
 Beantragen Sie nach dem Kauf die Lizenz wie in der beschrieben [Gekaufte Lizenz](/words/java/licensing/#purchased-license) Abschnitt.
 
-Einzelheiten zur Installation von Aspose.Words finden Sie auf der [Installation](/words/java/installation/) Seite.
+Einzelheiten zur Installation von Aspose.Words finden Sie auf der [Installation](/words/de/java/installation/) Seite.
 
 ------
 
 **F: Wie kann ich Unterstützung erhalten?**
 
-Nutzen Sie das kostenlose Forum für technischen Support. Einzelheiten dazu, wie Sie ein Problem ordnungsgemäß melden und was zu tun ist, bevor Sie das Forum kontaktieren, finden Sie im [Technischer Support](/words/java/technical-support/) Seite.
+Nutzen Sie das kostenlose Forum für technischen Support. Einzelheiten dazu, wie Sie ein Problem ordnungsgemäß melden und was zu tun ist, bevor Sie das Forum kontaktieren, finden Sie im [Technischer Support](/words/de/java/technical-support/) Seite.
 
 ## Rendern eines Dokuments
 
 {{% alert color="primary" %}}
 
-Detailliertere Informationen zum Rendern finden Sie in der [Rendering](/words/java/rendering/) abschnitt Dokumentation.
+Detailliertere Informationen zum Rendern finden Sie in der [Rendering](/words/de/java/rendering/) abschnitt Dokumentation.
 
 {{% /alert %}}
 
 **F: Warum unterscheiden sich Layout und Schriftarten im Ausgabedokument vom Original?**
 
-Die Schriftart ist möglicherweise nicht verfügbar oder das Schriftformat wird von Microsoft Word, aber nicht von Aspose.Words unterstützt. Aspose.Words wird ausgeführt [schriftartenersetzung](/words/java/manipulate-and-substitute-truetype-fonts/).
+Die Schriftart ist möglicherweise nicht verfügbar oder das Schriftformat wird von Microsoft Word, aber nicht von Aspose.Words unterstützt. Aspose.Words wird ausgeführt [schriftartenersetzung](/words/de/java/manipulate-and-substitute-truetype-fonts/).
 
 Um zu überprüfen, ob die Schriftart fehlt:
 
-- Verwenden Sie in Aspose.Words die Warnungen zum Ersetzen von Schriftarten (Einzelheiten finden Sie im Abschnitt "Erkennen, dass die Schriftart ersetzt wurde" des [TrueType -Schriften bearbeiten und ersetzen](/words/java/manipulate-and-substitute-truetype-fonts/) Beitrag).
+- Verwenden Sie in Aspose.Words die Warnungen zum Ersetzen von Schriftarten (Einzelheiten finden Sie im Abschnitt "Erkennen, dass die Schriftart ersetzt wurde" des [TrueType -Schriften bearbeiten und ersetzen](/words/de/java/manipulate-and-substitute-truetype-fonts/) Beitrag).
 - Öffnen Sie in Microsoft Word das Dialogfeld "Schriftartenersetzung" (Datei → Optionen → Erweitert → Schriftartenersetzung).
 
 ------
@@ -121,7 +121,7 @@ Ja, das tust du. Beachten Sie daher beim Kopieren von Schriftarten, dass die mei
 
 {{% alert color="primary" %}}
 
-Nähere Informationen zu Mail Merge finden Sie in der [Mail Merge und Berichterstattung](/words/java/mail-merge-and-reporting/) abschnitt Dokumentation.
+Nähere Informationen zu Mail Merge finden Sie in der [Mail Merge und Berichterstattung](/words/de/java/mail-merge-and-reporting/) abschnitt Dokumentation.
 
 {{% /alert %}}
 
@@ -145,7 +145,7 @@ Dies liegt daran, dass die Zusammenführungsbereiche in der Vorlage nicht korrek
 Dies liegt daran, dass die Beziehung zwischen den übergeordneten und untergeordneten Tabellen nicht oder falsch eingerichtet ist. Es ist notwendig:
 
 - Stellen Sie die Datenintegrität in Ihrem **DataSet** sicher und verwenden Sie das **DataRelation**-Objekt, um die Eltern-Kind-Beziehung zwischen verwandten Datentabellen darzustellen.
-- Lesen Sie den Abschnitt "Einrichten von Datenbeziehungen in verschachtelten Mail Merge mit Regionen" im Artikel [Verschüttelt Mail Merge mit Regionen](/words/java/nested-mail-merge-with-regions/).
+- Lesen Sie den Abschnitt "Einrichten von Datenbeziehungen in verschachtelten Mail Merge mit Regionen" im Artikel [Verschüttelt Mail Merge mit Regionen](/words/de/java/nested-mail-merge-with-regions/).
 
 ------
 
@@ -159,7 +159,7 @@ Deaktivieren Sie Fremdschlüsseleinschränkungen, wenn Sie eine **DataRelation**
 
 {{% alert color="primary" %}}
 
-Nähere Informationen zur Programmierung mit Dokumenten finden Sie in der [Programmieren mit Dokumenten](/words/java/programming-with-documents/) abschnitt Dokumentation.
+Nähere Informationen zur Programmierung mit Dokumenten finden Sie in der [Programmieren mit Dokumenten](/words/de/java/programming-with-documents/) abschnitt Dokumentation.
 
 {{% /alert %}}
 
@@ -171,7 +171,7 @@ Das Anhängeergebnis wird auf einer separaten Seite angezeigt, da die [PageSetup
 
 {{% alert color="primary" %}}
 
-Detailliertere Informationen zum Konvertieren eines Dokuments finden Sie in der [Ein Dokument konvertieren](/words/java/convert-a-document/) abschnitt Dokumentation.
+Detailliertere Informationen zum Konvertieren eines Dokuments finden Sie in der [Ein Dokument konvertieren](/words/de/java/convert-a-document/) abschnitt Dokumentation.
 
 {{% /alert %}}
 
@@ -193,7 +193,7 @@ doc.save(dataDir + "output.pdf", SaveFormat.Pdf);
 
 {{% alert color="primary" %}}
 
-Nähere Informationen zur Programmierung mit Dokumenten finden Sie in der [Programmieren mit Dokumenten](/words/java/programming-with-documents/) abschnitt Dokumentation.
+Nähere Informationen zur Programmierung mit Dokumenten finden Sie in der [Programmieren mit Dokumenten](/words/de/java/programming-with-documents/) abschnitt Dokumentation.
 
 {{% /alert %}}
 
@@ -253,4 +253,4 @@ catch (Exception e)
 
 **F: Wie drucke ich ein Dokument?**
 
-Für eine ausführliche Antwort lesen Sie den Artikel [Drucken eines Dokuments programmgesteuert oder mithilfe von Dialogen](/words/java/print-a-document-programmatically-or-using-dialogs/).
+Für eine ausführliche Antwort lesen Sie den Artikel [Drucken eines Dokuments programmgesteuert oder mithilfe von Dialogen](/words/de/java/print-a-document-programmatically-or-using-dialogs/).

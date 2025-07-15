@@ -1,4 +1,4 @@
----
+﻿---
 title: Jak utworzyć tabelę w Java
 second_title: Aspose.Words zamiast Java
 articleTitle: Utwórz tabelę
@@ -123,7 +123,7 @@ Możesz pobrać przykładowy plik tego przykładu z [Aspose.Words GitHub](https:
 
 {{% /alert %}}
 
-Jeśli patrzysz na tworzenie tabel w dokumencie, który dynamicznie rośnie z każdym rekordem ze źródła danych, to powyższa metoda nie jest zalecana. Zamiast tego, pożądane wyjście jest łatwiej osiągnąć za pomocą Mail merge z regionami. Można dowiedzieć się więcej o tej technice w [Mail Merge z regionami](/words/java/types-of-mail-merge-operations/) sekcja.
+Jeśli patrzysz na tworzenie tabel w dokumencie, który dynamicznie rośnie z każdym rekordem ze źródła danych, to powyższa metoda nie jest zalecana. Zamiast tego, pożądane wyjście jest łatwiej osiągnąć za pomocą Mail merge z regionami. Można dowiedzieć się więcej o tej technice w [Mail Merge z regionami](/words/pl/java/types-of-mail-merge-operations/) sekcja.
 
 ## Porównaj sposoby tworzenia tabeli
 

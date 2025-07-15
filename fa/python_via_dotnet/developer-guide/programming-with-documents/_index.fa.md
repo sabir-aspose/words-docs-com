@@ -1,4 +1,4 @@
----
+﻿---
 title: برنامه نویسی با اسناد
 second_title: Aspose.Words برای Python via .NET
 articleTitle: برنامه نویسی با اسناد
@@ -51,11 +51,11 @@ timestamp: 2024-09-25-11-08-55
 - [کار با OfficeMath](/words/fa/python-net/working-with-officemath/)
 - [کار با SmartArt Cold Rendering](/words/fa/python-net/working-with-smartart-cold-rendering/)
 - [کار با واترمارک](/words/fa/python-net/working-with-watermark/)
-- [کار با Ole Objects و ویدیوی آنلاین](/words/python-net/working-with-ole-objects/)
+- [کار با Ole Objects و ویدیوی آنلاین](/words/fa/python-net/working-with-ole-objects/)
 - [کار با فیلدها](/words/fa/python-net/working-with-fields/)
 - [کار با فیلدهای فرم](/words/fa/python-net/working-with-form-fields/)
 - [کار با Content Control SDT](/words/fa/python-net/working-with-content-control-sdt/)
 - [کار با کاراکترهای کنترلی](/words/fa/python-net/working-with-control-characters/)
 - [کار با ماکرو VBA](/words/fa/python-net/working-with-vba-macros/)
 - [کار با ویژگی های Markdown](/words/fa/python-net/working-with-markdown-features/)
-- [کار با سند متنی](/words/python-net/working-with-text-document/)
+- [کار با سند متنی](/words/fa/python-net/working-with-text-document/)

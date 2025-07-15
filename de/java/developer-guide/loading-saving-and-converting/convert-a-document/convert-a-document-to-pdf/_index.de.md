@@ -81,6 +81,6 @@ Die Verwendung der Eigenschaft **OptimizeOutput** kann die Genauigkeit der Inhal
 
 ## Siehe auch
 
-- Beitrag [Rendering](/words/java/rendering/) weitere Informationen zu den Formaten Fixed Page und Flow Layout
+- Beitrag [Rendering](/words/de/java/rendering/) weitere Informationen zu den Formaten Fixed Page und Flow Layout
 - Beitrag [Konvertierung in das Festseitenformat](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) weitere Informationen zum Seitenlayout
-- Beitrag [Geben Sie die Renderoptionen beim Konvertieren in PDF an](/words/java/specify-rendering-options-when-converting-to-pdf/) weitere Informationen zur Verwendung der Klasse `PdfSaveOptions`
+- Beitrag [Geben Sie die Renderoptionen beim Konvertieren in PDF an](/words/de/java/specify-rendering-options-when-converting-to-pdf/) weitere Informationen zur Verwendung der Klasse `PdfSaveOptions`

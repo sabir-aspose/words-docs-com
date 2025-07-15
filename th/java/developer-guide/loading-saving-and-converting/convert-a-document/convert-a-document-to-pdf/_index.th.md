@@ -81,6 +81,6 @@ Aspose.Wordsให้การแจงนับ[PdfCompliance](https://referenc
 
 ## ดูเพิ่มเติม
 
-- บทความ [การแสดงผล](/words/java/rendering/) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับหน้าคงที่และรูปแบบเค้าโครงโฟลว์
+- บทความ [การแสดงผล](/words/th/java/rendering/) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับหน้าคงที่และรูปแบบเค้าโครงโฟลว์
 - บทความ [แปลงเป็นรูปแบบหน้าถาวร](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับเค้าโครงหน้า
-- บทความ [ระบุตัวเลือกการแสดงผลเมื่อแปลงเป็นPDF](/words/java/specify-rendering-options-when-converting-to-pdf/) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการใช้`PdfSaveOptions`คลาส
+- บทความ [ระบุตัวเลือกการแสดงผลเมื่อแปลงเป็นPDF](/words/th/java/specify-rendering-options-when-converting-to-pdf/) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการใช้`PdfSaveOptions`คลาส

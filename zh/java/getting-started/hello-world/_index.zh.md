@@ -12,7 +12,7 @@ timestamp: 2024-01-27-14-07-04
 
 A"你好，世界！"代码通常是编写uisng"Aspose.WordsforJava"的第一个简单示例，它也可以用作理智测试，以确保正确安装旨在编译或运行源代码的软件。
 
-"Aspose.WordsforJava"库让开发人员可以直接访问创建，修改，合并，转换，比较Word和Web文档。 PDF, DOCX, DOC, RTF, ODT, EPUB, HTML 和许多其他文件格式是 [支持](/words/java/supported-document-formats/).
+"Aspose.WordsforJava"库让开发人员可以直接访问创建，修改，合并，转换，比较Word和Web文档。 PDF, DOCX, DOC, RTF, ODT, EPUB, HTML 和许多其他文件格式是 [支持](/words/zh/java/supported-document-formats/).
 
 Below code代码段遵循以下步骤:
 

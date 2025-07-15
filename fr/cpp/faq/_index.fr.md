@@ -1,4 +1,4 @@
----
+﻿---
 title: Foire AUX QUESTIONS
 second_title: Aspose.Words pour C++
 articleTitle: Foire AUX QUESTIONS
@@ -12,7 +12,7 @@ timestamp: 2024-01-31-14-23-37
 
 Cette page contient les réponses aux questions les plus fréquemment posées. Veuillez lire la page actuelle – cela vous permettra peut-être de résoudre votre problème rapidement.
 
-Si vous n'avez pas trouvé la réponse à votre question, vous pouvez la poser sur le forum d'assistance. Pour savoir comment signaler correctement votre question ou votre problème, consultez le [Soutien Technique](/words/cpp/technical-support/) page.
+Si vous n'avez pas trouvé la réponse à votre question, vous pouvez la poser sur le forum d'assistance. Pour savoir comment signaler correctement votre question ou votre problème, consultez le [Soutien Technique](/words/fr/cpp/technical-support/) page.
 
 {{% alert color="primary" %}}
 
@@ -32,7 +32,7 @@ Les détails peuvent être trouvés dans notre documentation.
 
 **Q: Que signifie "Aspose.Words ne nécessite pas d'applications tierces"?**
 
-Aspose.Words pour C++ n'a pas besoin d'installer d'applications tierces ou de progiciels supplémentaires pour fonctionner. Il suffit de télécharger et d'installer Aspose.Words comme décrit dans le ["Installation"](/words/cpp/installation/) article et commencez.
+Aspose.Words pour C++ n'a pas besoin d'installer d'applications tierces ou de progiciels supplémentaires pour fonctionner. Il suffit de télécharger et d'installer Aspose.Words comme décrit dans le ["Installation"](/words/fr/cpp/installation/) article et commencez.
 
 ------
 
@@ -40,7 +40,7 @@ Aspose.Words pour C++ n'a pas besoin d'installer d'applications tierces ou de pr
 
 Aspose.Words pour C++ couvre la plupart des environnements de développement et des plates-formes de déploiement populaires. Son API peut être utilisée pour développer des applications pour une large gamme de systèmes d'exploitation tels que Windows, Linux et Mac OS, et diverses plates-formes.
 
-Pour plus de détails, voir le [Aperçu du Produit](/words/cpp/product-overview/) page.
+Pour plus de détails, voir le [Aperçu du Produit](/words/fr/cpp/product-overview/) page.
 
 ------
 
@@ -48,7 +48,7 @@ Pour plus de détails, voir le [Aperçu du Produit](/words/cpp/product-overview/
 
 Aspose.Words pour C++ prend en charge la plupart des formats de documents populaires tels que DOC, DOCX, HTML, Markdown, PDF, XML et autres.
 
-Vous pouvez voir la liste complète des formats pris en charge sur le [Formats de Document Pris En Charge](/words/cpp/supported-document-formats/) page.
+Vous pouvez voir la liste complète des formats pris en charge sur le [Formats de Document Pris En Charge](/words/fr/cpp/supported-document-formats/) page.
 
 ------
 
@@ -56,7 +56,7 @@ Vous pouvez voir la liste complète des formats pris en charge sur le [Formats d
 
 Vous pouvez le faire de deux manières: en utilisant la version d'essai ou une licence temporaire de 30 jours. La version d'essai est la même que celle achetée, elle fournit toutes les fonctionnalités du produit mais ajoute un filigrane évaluatif en haut du document lors du chargement et de l'enregistrement et limite la taille maximale du document à quelques centaines de paragraphes. Une licence temporaire vous permet de tester Aspose.Words sans restrictions d'essai pendant 30 jours.
 
-Voir le [Licence et Abonnement](/words/cpp/licensing/) page pour plus d'informations.
+Voir le [Licence et Abonnement](/words/fr/cpp/licensing/) page pour plus d'informations.
 
 {{% alert color="primary" %}}
 
@@ -72,29 +72,29 @@ Pour acheter une licence Aspose.Words, vous devez vous rendre sur le [Achat](htt
 
 Après l'achat, demandez la licence comme décrit dans le [Licence Achetée](/words/cpp/licensing/#purchased-license) section.
 
-Les détails sur la façon d'installer Aspose.Words peuvent être lus sur le [Montage](/words/cpp/installation/) page.
+Les détails sur la façon d'installer Aspose.Words peuvent être lus sur le [Montage](/words/fr/cpp/installation/) page.
 
 ------
 
 **Q: Comment puis-je obtenir de l'aide?**
 
-Utilisez le forum de support technique gratuit. Pour plus de détails sur la façon de signaler correctement un problème et ce qui doit être fait avant de contacter le forum, consultez le [Soutien Technique](/words/cpp/technical-support/) page.
+Utilisez le forum de support technique gratuit. Pour plus de détails sur la façon de signaler correctement un problème et ce qui doit être fait avant de contacter le forum, consultez le [Soutien Technique](/words/fr/cpp/technical-support/) page.
 
 ## Rendu d'un Document
 
 {{% alert color="primary" %}}
 
-Vous pouvez trouver des informations plus détaillées sur le rendu dans le [Rendu](/words/cpp/rendering/) section de documentation.
+Vous pouvez trouver des informations plus détaillées sur le rendu dans le [Rendu](/words/fr/cpp/rendering/) section de documentation.
 
 {{% /alert %}}
 
 **Q: Pourquoi la mise en page et les polices du document de sortie sont-elles différentes de l'original?**
 
-La police peut ne pas être disponible ou le format de police est pris en charge par Microsoft Word mais pas par Aspose.Words. Aspose.Words se produira [substitution de police](/words/cpp/manipulate-and-substitute-truetype-fonts/).
+La police peut ne pas être disponible ou le format de police est pris en charge par Microsoft Word mais pas par Aspose.Words. Aspose.Words se produira [substitution de police](/words/fr/cpp/manipulate-and-substitute-truetype-fonts/).
 
 Pour vérifier si la police est manquante:
 
-- Dans Aspose.Words, utilisez les avertissements de substitution de police (pour plus de détails, voir la section "Comment reconnaître que la police a été remplacée" du [Manipuler et substituer les polices TrueType ](/words/cpp/manipulate-and-substitute-truetype-fonts/) l'article).
+- Dans Aspose.Words, utilisez les avertissements de substitution de police (pour plus de détails, voir la section "Comment reconnaître que la police a été remplacée" du [Manipuler et substituer les polices TrueType ](/words/fr/cpp/manipulate-and-substitute-truetype-fonts/) l'article).
 - Dans Microsoft Word, ouvrez la boîte de dialogue "Substitution de police" (Fichier → Options → Avancé → Substitution de police).
 
 ------
@@ -121,7 +121,7 @@ Oui, vous le faites. Par conséquent, lorsque vous copiez des polices, gardez à
 
 {{% alert color="primary" %}}
 
-Vous pouvez trouver des informations plus détaillées sur la programmation avec des documents dans le [Programmation avec des Documents](/words/cpp/programming-with-documents/) section de documentation.
+Vous pouvez trouver des informations plus détaillées sur la programmation avec des documents dans le [Programmation avec des Documents](/words/fr/cpp/programming-with-documents/) section de documentation.
 
 {{% /alert %}}
 
@@ -133,7 +133,7 @@ Le résultat de l'ajout apparaît sur une page distincte en raison d'une différ
 
 {{% alert color="primary" %}}
 
-Vous pouvez trouver des informations plus détaillées sur la conversion d'un document dans le [Convertir un Document](/words/cpp/convert-a-document/) section de documentation.
+Vous pouvez trouver des informations plus détaillées sur la conversion d'un document dans le [Convertir un Document](/words/fr/cpp/convert-a-document/) section de documentation.
 
 {{% /alert %}}
 
@@ -156,7 +156,7 @@ doc->Save(outputPath);
 
 {{% alert color="primary" %}}
 
-Vous pouvez trouver des informations plus détaillées sur la programmation avec des documents dans le [Programmation avec des Documents](/words/cpp/programming-with-documents/) section de documentation.
+Vous pouvez trouver des informations plus détaillées sur la programmation avec des documents dans le [Programmation avec des Documents](/words/fr/cpp/programming-with-documents/) section de documentation.
 
 {{% /alert %}}
 

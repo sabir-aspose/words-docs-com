@@ -1,4 +1,4 @@
----
+﻿---
 title: Preguntas más frecuentes
 second_title: Aspose.Words para .NET
 articleTitle: "Preguntas frecuentes: Aspose.Words para .NET"
@@ -129,7 +129,7 @@ Si tu puedes. Por lo tanto, al copiar fuentes, tenga en cuenta que la mayoría d
 
 {{% alert color="primary" %}}
 
-Puede encontrar información más detallada sobre la combinación de correspondencia en la sección de documentación ["Combinación de correspondencia e informes"](/words/net/mail-merge-and-reporting/).
+Puede encontrar información más detallada sobre la combinación de correspondencia en la sección de documentación ["Combinación de correspondencia e informes"](/words/es/net/mail-merge-and-reporting/).
 
 {{% /alert %}}
 
@@ -153,7 +153,7 @@ Esto se debe a que las regiones de combinación de correspondencia en la plantil
 Esto se debe a que la relación entre las tablas principal y secundaria no está configurada o está configurada incorrectamente. Es necesario para:
 
 * Garantice la integridad de los datos dentro de su **DataSet** y utilice el objeto **DataRelation** para representar la relación padre-hijo entre tablas de datos relacionadas.
-* Consulte la sección "Cómo configurar relaciones de datos en combinación de correspondencia anidada con regiones" en el artículo ["Combinación de correspondencia anidada con regiones"](/words/net/nested-mail-merge-with-regions/).
+* Consulte la sección "Cómo configurar relaciones de datos en combinación de correspondencia anidada con regiones" en el artículo ["Combinación de correspondencia anidada con regiones"](/words/es/net/nested-mail-merge-with-regions/).
 
 ------
 

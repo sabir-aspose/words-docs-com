@@ -81,6 +81,6 @@ O uso da propriedade **OptimizeOutput** pode afetar a precisão da exibição do
 
 ## Ver Também
 
-- O artigo [Renderiza3](/words/java/rendering/) para mais informações sobre os formatos de página fixa e de esquema de fluxo
+- O artigo [Renderiza3](/words/pt/java/rendering/) para mais informações sobre os formatos de página fixa e de esquema de fluxo
 - O artigo [Conversa valuetech para o formato de](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) para mais informações sobre o layout da página
-- O artigo [Especificar o conversor para PDF](/words/java/specify-rendering-options-when-converting-to-pdf/) para mais informações sobre a utilização da classe `PdfSaveOptions`
+- O artigo [Especificar o conversor para PDF](/words/pt/java/specify-rendering-options-when-converting-to-pdf/) para mais informações sobre a utilização da classe `PdfSaveOptions`

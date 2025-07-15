@@ -1,4 +1,4 @@
----
+﻿---
 title: 如何運行範例
 second_title: Aspose.Words for .NET
 articleTitle: 如何運行範例
@@ -21,7 +21,7 @@ timestamp: 2024-10-24-11-44-28
 1. Visual Studio 程式碼， Visual Studio 2019。
 2. 已安裝 NuGet Package Manager 和最新的 NuGet API 版本，為 Visual Studio。
 3。 選取 **nuget.org**選項，出現在工具→選項對話方塊中的NuGet Package 管理員→套件來源。
-4. "必須要有活躍的網際網路連線才能使用範例專案的 `NuGet` Automatic Package Restore 功能。 若您的電腦沒有在執行範例時活躍的網路連線，請參閱文章[Installation](/words/net/installation/)並手動將一個参照 Aspose.Words.dll 添加到範例專案。
+4. "必須要有活躍的網際網路連線才能使用範例專案的 `NuGet` Automatic Package Restore 功能。 若您的電腦沒有在執行範例時活躍的網路連線，請參閱文章[Installation](/words/zh-hant/net/installation/)並手動將一個参照 Aspose.Words.dll 添加到範例專案。
 
 ## 下載並執行範例
 
@@ -34,7 +34,7 @@ timestamp: 2024-10-24-11-44-28
 
 若要執行範例，請在 Visual Studio 中開啟解決方案檔案並建立專案：
 
-對於 **API Reference** 例中，結構是以類別名稱為基礎，而對於 **Docs** 例中，它大部分是以 [Developer Guiled](/words/net/developer-guide/) 文檔部分。
+對於 **API Reference** 例中，結構是以類別名稱為基礎，而對於 **Docs** 例中，它大部分是以 [Developer Guiled](/words/zh-hant/net/developer-guide/) 文檔部分。
 - 在第一次執行時，依賴關係會自動透過 NuGet 下載。
 - **Data** 資料夾，位於 **Examples** 的根目錄中，包含在範例中使用的輸入檔。
 所有範例都能作為單位測試來執行。

@@ -1,4 +1,4 @@
----
+﻿---
 title: Convertire un documento in PDF in C++
 second_title: Aspose.Words per C++
 articleTitle: Convertire un documento in PDF
@@ -67,6 +67,6 @@ Per far funzionare questo codice, è necessario aggiungere riferimenti a Aspose.
 
 ## Vedi anche
 
-- Articolo [Rendering](/words/cpp/rendering/) per ulteriori informazioni sui formati a pagina fissa e flow-layout
+- Articolo [Rendering](/words/it/cpp/rendering/) per ulteriori informazioni sui formati a pagina fissa e flow-layout
 - Articolo [Conversione in formato a pagina fissa](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) per ulteriori informazioni sul layout di pagina
-- Articolo [Specificare le opzioni di rendering durante la conversione in PDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) per ulteriori informazioni sull'utilizzo della classe `PdfSaveOptions`
+- Articolo [Specificare le opzioni di rendering durante la conversione in PDF](/words/it/cpp/specify-rendering-options-when-converting-to-pdf/) per ulteriori informazioni sull'utilizzo della classe `PdfSaveOptions`
