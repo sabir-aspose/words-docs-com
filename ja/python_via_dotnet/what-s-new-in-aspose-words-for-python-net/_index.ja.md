@@ -546,9 +546,9 @@ LINQレポートエンジンに、JSON文字列値の空白を保持するオプ
 
 {{% alert color="primary" %}}
 
-詳細については、こちらをご覧ください [Aspose.WordsのためのPython via .NET 23.5リリースノート](/words/python-net/aspose-words-for-python-via-dotnet-23-5-release-notes/).
+詳細については、こちらをご覧ください [Aspose.WordsのためのPython via .NET 23.5リリースノート](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-5-release-notes/).
 
-詳細については、こちらをご覧ください [Aspose.WordsのためのPython via .NET 23.6リリースノート](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
+詳細については、こちらをご覧ください [Aspose.WordsのためのPython via .NET 23.6リリースノート](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
 詳細については、こちらをご覧ください [Aspose.WordsのためのPython via .NET 23.7リリースノート](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 

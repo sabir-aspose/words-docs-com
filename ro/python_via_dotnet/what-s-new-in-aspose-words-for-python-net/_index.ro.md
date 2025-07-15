@@ -546,9 +546,9 @@ Au fost adăugate noi metode LowCode menite să îmbine diferite tipuri de docum
 
 {{% alert color="primary" %}}
 
-Aflați mai multe despre [Aspose.Words pentru Python via .NET 23.5 Note De Lansare](/words/python-net/aspose-words-for-python-via-dotnet-23-5-release-notes/).
+Aflați mai multe despre [Aspose.Words pentru Python via .NET 23.5 Note De Lansare](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-5-release-notes/).
 
-Aflați mai multe despre [Aspose.Words pentru Python via .NET 23.6 Note De Lansare](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
+Aflați mai multe despre [Aspose.Words pentru Python via .NET 23.6 Note De Lansare](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
 Aflați mai multe despre [Aspose.Words pentru Python via .NET 23.7 Note De Lansare](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 

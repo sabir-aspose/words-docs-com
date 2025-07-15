@@ -546,9 +546,9 @@ Byly přidány nové metody LowCode určené ke sloučení různých typů dokum
 
 {{% alert color="primary" %}}
 
-Další informace o [Aspose.Words pro Python via .NET 23.5 Poznámky K Vydání](/words/python-net/aspose-words-for-python-via-dotnet-23-5-release-notes/).
+Další informace o [Aspose.Words pro Python via .NET 23.5 Poznámky K Vydání](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-5-release-notes/).
 
-Další informace o [Aspose.Words pro Python via .NET 23.6 Poznámky K Vydání](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
+Další informace o [Aspose.Words pro Python via .NET 23.6 Poznámky K Vydání](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
 Další informace o [Aspose.Words pro Python via .NET 23.7 Poznámky K Vydání](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 

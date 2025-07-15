@@ -546,9 +546,9 @@ Các phương thức LowCode mới nhằm hợp nhất các loại tài liệu k
 
 {{% alert color="primary" %}}
 
-Tìm hiểu thêm về [Aspose.Words cho Python via .NET 23.5 Ghi Chú Phát Hành](/words/python-net/aspose-words-for-python-via-dotnet-23-5-release-notes/).
+Tìm hiểu thêm về [Aspose.Words cho Python via .NET 23.5 Ghi Chú Phát Hành](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-5-release-notes/).
 
-Tìm hiểu thêm về [Aspose.Words cho Python via .NET 23.6 Ghi Chú Phát Hành](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
+Tìm hiểu thêm về [Aspose.Words cho Python via .NET 23.6 Ghi Chú Phát Hành](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
 Tìm hiểu thêm về [Aspose.Words cho Python via .NET 23.7 Ghi Chú Phát Hành](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 

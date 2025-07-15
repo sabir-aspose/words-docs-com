@@ -546,9 +546,9 @@ Nuwe LowCode metodes wat bedoel is om verskillende tipes dokumente saam te smelt
 
 {{% alert color="primary" %}}
 
-Leer meer oor [Aspose.Words vir Python via .NET 23.5 Vrystelling Notas](/words/python-net/aspose-words-for-python-via-dotnet-23-5-release-notes/).
+Leer meer oor [Aspose.Words vir Python via .NET 23.5 Vrystelling Notas](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-5-release-notes/).
 
-Leer meer oor [Aspose.Words vir Python via .NET 23.6 Vrystelling Notas](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
+Leer meer oor [Aspose.Words vir Python via .NET 23.6 Vrystelling Notas](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
 Leer meer oor [Aspose.Words vir Python via .NET 23.7 Vrystelling Notas](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 

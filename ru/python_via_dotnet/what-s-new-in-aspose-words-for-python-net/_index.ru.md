@@ -546,9 +546,9 @@ Mustache теги теперь поддерживаются в методах [M
 
 {{% alert color="primary" %}}
 
-Узнайте больше о [Aspose.Words для Python via .NET 23.5 Примечания к выпуску](/words/python-net/aspose-words-for-python-via-dotnet-23-5-release-notes/).
+Узнайте больше о [Aspose.Words для Python via .NET 23.5 Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-5-release-notes/).
 
-Узнайте больше о [Aspose.Words для Python via .NET 23.6 Примечания к выпуску](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
+Узнайте больше о [Aspose.Words для Python via .NET 23.6 Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
 Узнайте больше о [Aspose.Words для Python via .NET 23.7 Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 

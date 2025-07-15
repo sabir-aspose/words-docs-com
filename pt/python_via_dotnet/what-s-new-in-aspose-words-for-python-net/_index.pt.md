@@ -546,9 +546,9 @@ Foram adicionados novos métodos LowCode destinados a fundir diferentes tipos de
 
 {{% alert color="primary" %}}
 
-Saiba mais sobre [Aspose.Words para Python via .NET 23.5 Notas De Lançamento](/words/python-net/aspose-words-for-python-via-dotnet-23-5-release-notes/).
+Saiba mais sobre [Aspose.Words para Python via .NET 23.5 Notas De Lançamento](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-5-release-notes/).
 
-Saiba mais sobre [Aspose.Words para Python via .NET 23.6 Notas De Lançamento](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
+Saiba mais sobre [Aspose.Words para Python via .NET 23.6 Notas De Lançamento](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
 Saiba mais sobre [Aspose.Words para Python via .NET 23.7 Notas De Lançamento](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
