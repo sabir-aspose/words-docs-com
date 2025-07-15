@@ -420,7 +420,7 @@ Tính năng nhận dạng siêu liên kết khi tải tài liệu TXT đã đư�
 
 {{% alert color="primary" %}}
 
-Tìm hiểu thêm về [Aspose.Words cho C++ 23.9 Ghi Chú Phát Hành](/words/cpp/aspose-words-for-cpp-23-9-release-notes/).
+Tìm hiểu thêm về [Aspose.Words cho C++ 23.9 Ghi Chú Phát Hành](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-9-release-notes/).
 Tìm hiểu thêm về [Aspose.Words cho C++ 23.10 Ghi Chú Phát Hành](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-10-release-notes/).
 Tìm hiểu thêm về [Aspose.Words cho C++ 23.11 Ghi Chú Phát Hành](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-11-release-notes/).
 Tìm hiểu thêm về [Aspose.Words cho C++ 23.12 Ghi Chú Phát Hành](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-12-release-notes/).

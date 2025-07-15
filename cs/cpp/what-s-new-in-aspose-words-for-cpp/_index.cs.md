@@ -420,7 +420,7 @@ Funkce rozpoznání hypertextových odkazů při načítání dokumentů TXT byl
 
 {{% alert color="primary" %}}
 
-Další informace o [Aspose.Words pro C++ 23.9 Poznámky K Vydání](/words/cpp/aspose-words-for-cpp-23-9-release-notes/).
+Další informace o [Aspose.Words pro C++ 23.9 Poznámky K Vydání](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-9-release-notes/).
 Další informace o [Aspose.Words Pro C++ 23.10 Poznámky K Vydání](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-10-release-notes/).
 Další informace o [Aspose.Words Pro C++ 23.11 Poznámky K Vydání](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-11-release-notes/).
 Další informace o [Aspose.Words Pro C++ 23.12 Poznámky K Vydání](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-12-release-notes/).

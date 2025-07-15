@@ -420,7 +420,7 @@ Caracteristica de recunoaștere a hyperlink-urilor la încărcarea documentelor 
 
 {{% alert color="primary" %}}
 
-Aflați mai multe despre [Aspose.Words pentru C++ 23.9 Note De Lansare](/words/cpp/aspose-words-for-cpp-23-9-release-notes/).
+Aflați mai multe despre [Aspose.Words pentru C++ 23.9 Note De Lansare](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-9-release-notes/).
 Aflați mai multe despre [Aspose.Words pentru C++ 23.10 Note De Lansare](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-10-release-notes/).
 Aflați mai multe despre [Aspose.Words pentru C++ 23.11 Note De Lansare](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-11-release-notes/).
 Aflați mai multe despre [Aspose.Words pentru C++ 23.12 Note De Lansare](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-12-release-notes/).

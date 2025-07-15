@@ -420,7 +420,7 @@ Funkcja rozpoznawania hiperłączy podczas ładowania dokumentów TXT została z
 
 {{% alert color="primary" %}}
 
-Dowiedz się więcej o [Aspose.Words dla C++ 23.9 Informacje O Wydaniu](/words/cpp/aspose-words-for-cpp-23-9-release-notes/).
+Dowiedz się więcej o [Aspose.Words dla C++ 23.9 Informacje O Wydaniu](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-9-release-notes/).
 Dowiedz się więcej o [Aspose.Words dla C++ 23.10 Informacje O Wydaniu](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-10-release-notes/).
 Dowiedz się więcej o [Aspose.Words dla C++ 23.11 Informacje O Wydaniu](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-11-release-notes/).
 Dowiedz się więcej o [Aspose.Words dla C++ 23.12 Informacje O Wydaniu](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-12-release-notes/).

@@ -420,7 +420,7 @@ TXT文書の読み込み時にハイパーリンクを認識する機能は、�
 
 {{% alert color="primary" %}}
 
-詳細については、こちらをご覧ください [Aspose.WordsのためのC++ 23.9リリースノート](/words/cpp/aspose-words-for-cpp-23-9-release-notes/).
+詳細については、こちらをご覧ください [Aspose.WordsのためのC++ 23.9リリースノート](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-9-release-notes/).
 詳細については、こちらをご覧ください [Aspose.WordsのためのC++ 23.10リリースノート](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-10-release-notes/).
 詳細については、こちらをご覧ください [Aspose.WordsのためのC++ 23.11リリースノート](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-11-release-notes/).
 詳細については、こちらをご覧ください [Aspose.WordsのためのC++ 23.12リリースノート](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-12-release-notes/).

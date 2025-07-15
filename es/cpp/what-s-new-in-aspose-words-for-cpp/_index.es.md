@@ -420,7 +420,7 @@ La función para reconocer hipervínculos al cargar documentos TXT se ha impleme
 
 {{% alert color="primary" %}}
 
-Más información sobre [Aspose.Words por C++ 23.9 Notas de la versión](/words/cpp/aspose-words-for-cpp-23-9-release-notes/).
+Más información sobre [Aspose.Words por C++ 23.9 Notas de la versión](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-9-release-notes/).
 Más información sobre [Aspose.Words por C++ 23.10 Notas de la versión](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-10-release-notes/).
 Más información sobre [Aspose.Words por C++ 23.11 Notas de la versión](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-11-release-notes/).
 Más información sobre [Aspose.Words por C++ 23.12 Notas de la versión](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-12-release-notes/).

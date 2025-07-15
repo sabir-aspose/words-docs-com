@@ -420,7 +420,7 @@ Aspose.Words23.12แนะนำคุณสมบัติใหม่และ
 
 {{% alert color="primary" %}}
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับC++ 23.9บันทึกย่อ](/words/cpp/aspose-words-for-cpp-23-9-release-notes/).
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับC++ 23.9บันทึกย่อ](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-9-release-notes/).
 เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับC++ 23.10บันทึกย่อ](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-10-release-notes/).
 เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับC++ 23.11บันทึกย่อ](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-11-release-notes/).
 เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับC++ 23.12บันทึกย่อ](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-12-release-notes/).

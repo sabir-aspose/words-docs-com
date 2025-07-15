@@ -420,7 +420,7 @@ Die funksie om hiperskakels te herken wanneer TXT dokumente gelaai word, is geï
 
 {{% alert color="primary" %}}
 
-Leer meer oor [Aspose.Words vir C++ 23.9 Vrystelling Notas](/words/cpp/aspose-words-for-cpp-23-9-release-notes/).
+Leer meer oor [Aspose.Words vir C++ 23.9 Vrystelling Notas](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-9-release-notes/).
 Leer meer oor [Aspose.Words vir C++ 23.10 Vrystelling Notas](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-10-release-notes/).
 Leer meer oor [Aspose.Words vir C++ 23.11 Vrystelling Notas](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-11-release-notes/).
 Leer meer oor [Aspose.Words vir C++ 23.12 Vrystelling Notas](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-12-release-notes/).
