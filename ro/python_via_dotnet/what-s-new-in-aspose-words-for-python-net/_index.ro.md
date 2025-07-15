@@ -552,7 +552,7 @@ Aflați mai multe despre [Aspose.Words pentru Python via .NET 23.6 Note De Lansa
 
 Aflați mai multe despre [Aspose.Words pentru Python via .NET 23.7 Note De Lansare](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
-Aflați mai multe despre [Aspose.Words pentru Python via .NET 23.8 Note De Lansare](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
+Aflați mai multe despre [Aspose.Words pentru Python via .NET 23.8 Note De Lansare](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
 {{% /alert %}}
 

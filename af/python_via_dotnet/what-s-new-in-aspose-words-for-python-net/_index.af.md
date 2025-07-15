@@ -552,7 +552,7 @@ Leer meer oor [Aspose.Words vir Python via .NET 23.6 Vrystelling Notas](https://
 
 Leer meer oor [Aspose.Words vir Python via .NET 23.7 Vrystelling Notas](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
-Leer meer oor [Aspose.Words vir Python via .NET 23.8 Vrystelling Notas](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
+Leer meer oor [Aspose.Words vir Python via .NET 23.8 Vrystelling Notas](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
 {{% /alert %}}
 

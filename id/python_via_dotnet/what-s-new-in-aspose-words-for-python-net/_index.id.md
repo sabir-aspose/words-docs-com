@@ -552,7 +552,7 @@ Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 23.6 Catatan R
 
 Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 23.7 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
-Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 23.8 Catatan Rilis](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 23.8 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
 {{% /alert %}}
 

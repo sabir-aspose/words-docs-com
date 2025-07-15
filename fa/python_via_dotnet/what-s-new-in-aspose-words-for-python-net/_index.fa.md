@@ -552,7 +552,7 @@ Aspose.Words 23.8 قابلیت های فرمت های مختلف را گسترش
 
 اطلاعات بیشتر در مورد [Aspose.Words برای Python via .NET 23.7 یادداشت های انتشار](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
-اطلاعات بیشتر در مورد [Aspose.Words برای Python via .NET 23.8 یادداشت های انتشار](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
+اطلاعات بیشتر در مورد [Aspose.Words برای Python via .NET 23.8 یادداشت های انتشار](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
 {{% /alert %}}
 

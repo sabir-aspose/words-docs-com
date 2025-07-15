@@ -552,7 +552,7 @@ Erfahren Sie mehr über [Aspose.Words für Python via .NET 23.6 Versionshinweise
 
 Erfahren Sie mehr über [Aspose.Words für Python via .NET 23.7 Versionshinweise](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
-Erfahren Sie mehr über [Aspose.Words für Python via .NET 23.8 Versionshinweise](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
+Erfahren Sie mehr über [Aspose.Words für Python via .NET 23.8 Versionshinweise](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
 {{% /alert %}}
 

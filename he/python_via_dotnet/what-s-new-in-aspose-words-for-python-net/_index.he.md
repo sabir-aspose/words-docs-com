@@ -552,7 +552,7 @@ Mustache תגים נתמכים כעת בשיטות [MailMerge.GetRegionsHierarch
 
 למידע נוסף על [Aspose.Words עבור Python via .NET 23.7 הערות שחרור](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
-למידע נוסף על [Aspose.Words עבור Python via .NET 23.8 הערות שחרור](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
+למידע נוסף על [Aspose.Words עבור Python via .NET 23.8 הערות שחרור](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
 {{% /alert %}}
 

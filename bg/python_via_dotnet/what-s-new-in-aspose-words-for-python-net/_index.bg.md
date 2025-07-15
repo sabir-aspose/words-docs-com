@@ -552,7 +552,7 @@ Mustache таговете вече се поддържат в методите [
 
 Научете повече за [Aspose.Words за Python via .NET 23.7 Бележки За Издаване](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
-Научете повече за [Aspose.Words за Python via .NET 23.8 Бележки За Издаване](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
+Научете повече за [Aspose.Words за Python via .NET 23.8 Бележки За Издаване](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
 {{% /alert %}}
 

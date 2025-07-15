@@ -552,7 +552,7 @@ Mustache теги тепер підтримуються в методах [MailM
 
 Дізнайтеся більше про [Aspose.Words для Python via .NET 23.7 примітки до випуску](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
-Дізнайтеся більше про [Aspose.Words для Python via .NET 23.8 Примітки до випуску](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
+Дізнайтеся більше про [Aspose.Words для Python via .NET 23.8 Примітки до випуску](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
 {{% /alert %}}
 

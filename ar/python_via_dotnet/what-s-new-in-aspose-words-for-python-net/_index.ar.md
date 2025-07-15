@@ -552,7 +552,7 @@ Mustache يتم دعم العلامات الآن في طرق [MailMerge.GetRegio
 
 تعرف على المزيد حول [Aspose.Words ل Python via .NET 23.7 ملاحظات الإصدار](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
-تعرف على المزيد حول [Aspose.Words ل Python via .NET 23.8 ملاحظات الإصدار](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
+تعرف على المزيد حول [Aspose.Words ل Python via .NET 23.8 ملاحظات الإصدار](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
 {{% /alert %}}
 
