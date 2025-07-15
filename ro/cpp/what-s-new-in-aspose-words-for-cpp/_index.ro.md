@@ -431,6 +431,6 @@ Aflați mai multe despre [Aspose.Words pentru C++ 23.12 Note De Lansare](https:/
 
 {{% alert color="primary" %}}
 
-Această pagină conține cele mai recente știri de lansare din ultimii 2 ani. Pentru detalii despre versiunile anterioare, consultați [Note De Lansare](/words/cpp/release-notes/) paginile din secțiunile relevante.
+Această pagină conține cele mai recente știri de lansare din ultimii 2 ani. Pentru detalii despre versiunile anterioare, consultați [Note De Lansare](https://releases.aspose.com/words/cpp/release-notes/) paginile din secțiunile relevante.
 
 {{% /alert %}}

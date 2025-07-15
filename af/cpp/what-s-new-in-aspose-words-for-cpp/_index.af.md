@@ -431,6 +431,6 @@ Leer meer oor [Aspose.Words vir C++ 23.12 Vrystelling Notas](https://releases.as
 
 {{% alert color="primary" %}}
 
-Hierdie bladsy bevat die jongste nuus oor die afgelope 2 jaar. Vir besonderhede oor vorige vrystellings, sien die [Vrystelling Notas](/words/cpp/release-notes/) bladsye in die relevante afdelings.
+Hierdie bladsy bevat die jongste nuus oor die afgelope 2 jaar. Vir besonderhede oor vorige vrystellings, sien die [Vrystelling Notas](https://releases.aspose.com/words/cpp/release-notes/) bladsye in die relevante afdelings.
 
 {{% /alert %}}

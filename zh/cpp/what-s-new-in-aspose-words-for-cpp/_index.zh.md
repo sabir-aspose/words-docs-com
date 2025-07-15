@@ -431,6 +431,6 @@ Aspose.Words23.12引入了用于处理PDF和OOXML文档的新属性和枚举，�
 
 {{% alert color="primary" %}}
 
-本页包含过去2年的最新发布消息。 有关早期版本的详细信息，请参阅 [发行通知书'](/words/cpp/release-notes/) 相关部分中的页面。
+本页包含过去2年的最新发布消息。 有关早期版本的详细信息，请参阅 [发行通知书'](https://releases.aspose.com/words/cpp/release-notes/) 相关部分中的页面。
 
 {{% /alert %}}

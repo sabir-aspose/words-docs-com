@@ -431,6 +431,6 @@ Lees meer over [Aspose.Words voor C++ 23.12 Release Notes](https://releases.aspo
 
 {{% alert color="primary" %}}
 
-Deze pagina bevat het laatste release nieuws van de afgelopen 2 jaar. Voor meer informatie over eerdere releases, zie de [Release Notes'](/words/cpp/release-notes/) pagina ' s in de relevante secties.
+Deze pagina bevat het laatste release nieuws van de afgelopen 2 jaar. Voor meer informatie over eerdere releases, zie de [Release Notes'](https://releases.aspose.com/words/cpp/release-notes/) pagina ' s in de relevante secties.
 
 {{% /alert %}}

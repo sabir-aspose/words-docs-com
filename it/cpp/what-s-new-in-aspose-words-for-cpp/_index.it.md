@@ -431,6 +431,6 @@ Scopri di più su [Aspose.Wordsper C++ 23.12 Note di rilascio](https://releases.
 
 {{% alert color="primary" %}}
 
-Questa pagina contiene le ultime notizie di rilascio degli ultimi 2 anni. Per i dettagli sulle versioni precedenti, vedere [Note di rilascio'](/words/cpp/release-notes/) pagine nelle relative sezioni.
+Questa pagina contiene le ultime notizie di rilascio degli ultimi 2 anni. Per i dettagli sulle versioni precedenti, vedere [Note di rilascio'](https://releases.aspose.com/words/cpp/release-notes/) pagine nelle relative sezioni.
 
 {{% /alert %}}

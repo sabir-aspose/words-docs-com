@@ -451,6 +451,6 @@ Learn more about [Aspose.Words for C++ 23.12 Release Notes](https://releases.asp
 
 {{% alert color="primary" %}}
 
-This page contains the latest release news for the past 2 years. For details on earlier releases, see the [Release Notes'](/words/cpp/release-notes/) pages in the relevant sections.
+This page contains the latest release news for the past 2 years. For details on earlier releases, see the [Release Notes'](https://releases.aspose.com/words/cpp/release-notes/) pages in the relevant sections.
 
 {{% /alert %}}

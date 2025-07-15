@@ -431,6 +431,6 @@ Tìm hiểu thêm về [Aspose.Words cho C++ 23.12 Ghi Chú Phát Hành](https:/
 
 {{% alert color="primary" %}}
 
-Trang này chứa tin tức phát hành mới nhất trong 2 năm qua. Để biết chi tiết về các bản phát hành trước đó, hãy xem [Ghi Chú Phát Hành'](/words/cpp/release-notes/) các trang trong các phần có liên quan.
+Trang này chứa tin tức phát hành mới nhất trong 2 năm qua. Để biết chi tiết về các bản phát hành trước đó, hãy xem [Ghi Chú Phát Hành'](https://releases.aspose.com/words/cpp/release-notes/) các trang trong các phần có liên quan.
 
 {{% /alert %}}

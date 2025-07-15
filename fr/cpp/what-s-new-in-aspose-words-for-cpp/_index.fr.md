@@ -431,6 +431,6 @@ En savoir plus sur [Aspose.Words pour C++ 23.12 Notes de version](https://releas
 
 {{% alert color="primary" %}}
 
-Cette page contient les dernières nouvelles sur les versions des 2 dernières années. Pour plus de détails sur les versions antérieures, voir le [Notes de mise à jour'](/words/cpp/release-notes/) pages dans les sections pertinentes.
+Cette page contient les dernières nouvelles sur les versions des 2 dernières années. Pour plus de détails sur les versions antérieures, voir le [Notes de mise à jour'](https://releases.aspose.com/words/cpp/release-notes/) pages dans les sections pertinentes.
 
 {{% /alert %}}

@@ -431,6 +431,6 @@ Další informace o [Aspose.Words Pro C++ 23.12 Poznámky K Vydání](https://re
 
 {{% alert color="primary" %}}
 
-Tato stránka obsahuje nejnovější zprávy o vydání za poslední 2 let. Podrobnosti o dřívějších verzích najdete v [Poznámky K Vydání"](/words/cpp/release-notes/) stránky v příslušných sekcích.
+Tato stránka obsahuje nejnovější zprávy o vydání za poslední 2 let. Podrobnosti o dřívějších verzích najdete v [Poznámky K Vydání"](https://releases.aspose.com/words/cpp/release-notes/) stránky v příslušných sekcích.
 
 {{% /alert %}}

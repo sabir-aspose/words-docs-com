@@ -431,6 +431,6 @@ Pelajari lebih lanjut tentang [Aspose.Words untuk C++ 23.12 Catatan Rilis](https
 
 {{% alert color="primary" %}}
 
-Halaman ini berisi berita rilis terbaru selama 2 tahun terakhir. Untuk detail tentang rilis sebelumnya, lihat [Catatan Rilis'](/words/cpp/release-notes/) halaman di bagian yang relevan.
+Halaman ini berisi berita rilis terbaru selama 2 tahun terakhir. Untuk detail tentang rilis sebelumnya, lihat [Catatan Rilis'](https://releases.aspose.com/words/cpp/release-notes/) halaman di bagian yang relevan.
 
 {{% /alert %}}

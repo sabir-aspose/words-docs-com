@@ -431,6 +431,6 @@ Hakkında daha fazla bilgi edinin [Aspose.Words için C++ 23.12 Sürüm Notları
 
 {{% alert color="primary" %}}
 
-Bu sayfa, son 2 yılın en son sürüm haberlerini içerir. Önceki sürümlerle ilgili ayrıntılar için bkz. [Sürüm Notları'](/words/cpp/release-notes/) ilgili bölümlerdeki sayfalar.
+Bu sayfa, son 2 yılın en son sürüm haberlerini içerir. Önceki sürümlerle ilgili ayrıntılar için bkz. [Sürüm Notları'](https://releases.aspose.com/words/cpp/release-notes/) ilgili bölümlerdeki sayfalar.
 
 {{% /alert %}}
