@@ -70,7 +70,7 @@ Aspose.Words为C++ 支持大多数流行的文档格式，如DOC, DOCX, HTML, Ma
 
 要购买Aspose.Words许可证，您需要转到 [购买](https://purchase.aspose.com/buy) 页，选择"Aspose.Words"产品和适合您的许可证类型。 然后将许可证添加到购物车并按照购物车说明操作。
 
-购买后，按照 [购买许可证](/words/cpp/licensing/#purchased-license) 节。
+购买后，按照 [购买许可证](/words/zh/cpp/licensing/) 节。
 
 有关如何安装Aspose.Words的详细信息，请参阅 [安装工程](/words/zh/cpp/installation/) 页。
 

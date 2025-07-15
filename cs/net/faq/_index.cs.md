@@ -72,7 +72,7 @@ Můžete také vyzkoušet některé z nejpopulárnějších Aspose.Words funkce 
 
 Koupit si Aspose.Words Licence, musíte jít do [Nákup](https://purchase.aspose.com/buy) stránka, vyberte "Aspose.Words" produkt a typ licence, která vám vyhovuje. Pak přidejte licenci do košíku a postupujte podle pokynů nákupního košíku.
 
-Po zakoupení, požádat o licenci, jak je popsáno v [Koupená licence](/words/net/licensing/#purchased-license) sekce.
+Po zakoupení, požádat o licenci, jak je popsáno v [Koupená licence](/words/cs/net/licensing/) sekce.
 
 Podrobnosti o instalaci Aspose.Words lze číst na [Instalace](/words/cs/net/installation/) stránka.
 

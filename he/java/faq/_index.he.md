@@ -70,7 +70,7 @@ Aspose.Words עבור Java תומך ברוב פורמטי המסמך הפופו�
 
 לקנות Aspose.Words רישיון, אתה צריך ללכת [רכישה](https://purchase.aspose.com/buy) דף, בחר את "Aspose.Words"מוצר וסוג הרישיון שמתאים לך. לאחר מכן להוסיף את הרישיון לעגלת הקניות ולעקוב אחר הוראות הקניה.
 
-לאחר רכישת, החל רישיון כפי שתואר ב [רישיון רכישה](/words/java/licensing/#purchased-license) סעיף.
+לאחר רכישת, החל רישיון כפי שתואר ב [רישיון רכישה](/words/he/java/licensing/) סעיף.
 
 פרטים על איך להתקין Aspose.Words ניתן לקרוא על [מתקן](/words/he/java/installation/) דף.
 

@@ -70,7 +70,7 @@ U kunt ook enkele van de meest populaire Aspose.Words - functies proberen via de
 
 Om een Aspose.Words licentie te kopen, moet je naar de [Aankoop](https://purchase.aspose.com/buy) selecteer het "Aspose.Words " product en het type licentie dat bij u past. Voeg vervolgens de licentie toe aan uw winkelwagen en volg de instructies in het winkelwagentje.
 
-Vraag na aankoop de licentie aan zoals beschreven in de [Aangekochte Licentie](/words/cpp/licensing/#purchased-license) sectie.
+Vraag na aankoop de licentie aan zoals beschreven in de [Aangekochte Licentie](/words/nl/cpp/licensing/) sectie.
 
 Details over het installeren van Aspose.Words kunt u lezen op de [Installatie](/words/nl/cpp/installation/) pagina.
 

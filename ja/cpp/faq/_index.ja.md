@@ -70,7 +70,7 @@ C++の場合Aspose.Words このようなDOC、DOCX、HTML、Markdown、PDF、XML
 
 Aspose.Wordsライセンスを購入するには、次の場所に移動する必要があります [購入](https://purchase.aspose.com/buy) ページでは、"Aspose.Words"製品と自分に合ったライセンスの種類を選択します。 次に、ライセンスをカートに追加し、ショッピングカートの指示に従います。
 
-購入後、以下に記載されているライセンスを申請してください [購入したライセンス](/words/cpp/licensing/#purchased-license) セクション。
+購入後、以下に記載されているライセンスを申請してください [購入したライセンス](/words/ja/cpp/licensing/) セクション。
 
 Aspose.Wordsをインストールする方法の詳細は、Aspose.Wordsをインストールする方法で読むことができます。 [インストール](/words/ja/cpp/installation/) ページ。
 

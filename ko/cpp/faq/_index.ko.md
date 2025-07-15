@@ -70,7 +70,7 @@ Aspose.Words 에 대한 C++ 다음과 같은 대부분의 인기있는 문서 �
 
 구매 Aspose.Words 라이센스,당신은에 갈 필요가 [구매](https://purchase.aspose.com/buy) 페이지,선택"Aspose.Words"제품 및 맞는 라이센스의 종류. 그런 다음 장바구니에 라이센스를 추가하고 쇼핑 카트 지침을 따르십시오.
 
-구입 후,에 설명 된대로 라이센스를 신청 [구입 한 라이센스](/words/cpp/licensing/#purchased-license) 부문
+구입 후,에 설명 된대로 라이센스를 신청 [구입 한 라이센스](/words/ko/cpp/licensing/) 부문
 
 설치 방법에 대한 세부 정보 Aspose.Words 에 읽을 수 있습니다 [설치](/words/ko/cpp/installation/) 페이지
 

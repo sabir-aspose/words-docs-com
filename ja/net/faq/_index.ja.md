@@ -72,7 +72,7 @@ Aspose.Words for .NET は、DOC、DOCX、HTML、Markdown、PDF、XML などの�
 
 Aspose.Words ライセンスを購入するには、[購入](https://purchase.aspose.com/buy) ページに移動し、「Aspose.Words」製品と適切なライセンスの種類を選択する必要があります。次に、ライセンスをカートに追加し、ショッピング カートの指示に従います。
 
-購入後、[購入したライセンス](/words/net/licensing/#purchased-license) セクションの説明に従ってライセンスを申請します。
+購入後、[購入したライセンス](/words/ja/net/licensing/) セクションの説明に従ってライセンスを申請します。
 
 Aspose.Words のインストール方法の詳細については、[インストール](/words/ja/net/installation/) ページを参照してください。
 

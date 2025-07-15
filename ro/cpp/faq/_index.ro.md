@@ -70,7 +70,7 @@ Puteți încerca, de asemenea, unele dintre cele mai populare Aspose.Words Carac
 
 Pentru a cumpăra o licență Aspose.Words, trebuie să mergeți la [Cumpărare](https://purchase.aspose.com/buy) selectați produsul "Aspose.Words " și tipul de licență care vi se potrivește. Apoi adăugați licența în coș și urmați instrucțiunile coșului de cumpărături.
 
-După cumpărare, solicitați licența așa cum este descris în [Licență Achiziționată](/words/cpp/licensing/#purchased-license) secțiunea.
+După cumpărare, solicitați licența așa cum este descris în [Licență Achiziționată](/words/ro/cpp/licensing/) secțiunea.
 
 Detalii despre cum se instalează Aspose.Words pot fi citite pe [Instalare](/words/ro/cpp/installation/) pagina.
 

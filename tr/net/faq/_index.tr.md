@@ -72,7 +72,7 @@ Daha fazla bilgi için [Lisanslama ve Abonelik](/words/tr/net/licensing/) sayfas
 
 Aspose.Words lisansı satın almak için [Satın almak](https://purchase.aspose.com/buy) sayfasına gitmeniz, "Aspose.Words" ürününü ve size uygun lisans türünü seçmeniz gerekmektedir. Daha sonra lisansı sepetinize ekleyin ve Alışveriş Sepeti talimatlarını takip edin.
 
-Satın aldıktan sonra [Satın Alınan Lisans](/words/net/licensing/#purchased-license) bölümünde açıklandığı gibi lisans başvurusunda bulunun.
+Satın aldıktan sonra [Satın Alınan Lisans](/words/tr/net/licensing/) bölümünde açıklandığı gibi lisans başvurusunda bulunun.
 
 Aspose.Words'in nasıl kurulacağına ilişkin ayrıntılar [Kurulum](/words/tr/net/installation/) sayfasında okunabilir.
 

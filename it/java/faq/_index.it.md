@@ -70,7 +70,7 @@ Puoi anche provare alcune delle funzioni Aspose.Words più popolari attraverso i
 
 Per acquistare una licenza Aspose.Words, è necessario andare al [Acquisto](https://purchase.aspose.com/buy) pagina, selezionare il prodotto "Aspose.Words " e il tipo di licenza che più vi si addice. Quindi aggiungi la licenza al carrello e segui le istruzioni del carrello.
 
-Dopo l'acquisto, richiedere la licenza come descritto nel [Licenza acquistata](/words/java/licensing/#purchased-license) sezione.
+Dopo l'acquisto, richiedere la licenza come descritto nel [Licenza acquistata](/words/it/java/licensing/) sezione.
 
 I dettagli su come installare Aspose.Words possono essere letti sul [Installazione](/words/it/java/installation/) pagina.
 

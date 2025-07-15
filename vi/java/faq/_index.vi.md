@@ -70,7 +70,7 @@ Bạn cũng có thể thử một số tính năng phổ biến nhất Aspose.Wo
 
 Để mua một Aspose.Words bản quyền, bạn cần đến trang [Purchase](https://purchase.aspose.com/buy), chọn sản phẩm "Aspose.Words" và loại bản quyền phù hợp với bạn. Sau đó thêm giấy phép vào giỏ hàng và làm theo hướng dẫn của Giót hàng.
 
-Sau khi mua, hãy xin giấy phép như được mô tả trong phần [Purchased License](/words/java/licensing/#purchased-license).
+Sau khi mua, hãy xin giấy phép như được mô tả trong phần [Purchased License](/words/vi/java/licensing/).
 
 Chi tiết cách cài đặt Aspose.Words có thể đọc trên trang [Installation](/words/vi/java/installation/).
 

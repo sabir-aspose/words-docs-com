@@ -72,7 +72,7 @@ También puede probar algunas de las funciones Aspose.Words más populares a tra
 
 Para comprar una licencia Aspose.Words, debe ir a la página [comprar](https://purchase.aspose.com/buy), seleccionar el producto "Aspose.Words" y el tipo de licencia que más le convenga. Luego agregue la licencia a su carrito y siga las instrucciones del carrito de compras.
 
-Después de la compra, solicite la licencia como se describe en la sección ["Licencia comprada"](/words/net/licensing/#purchased-license).
+Después de la compra, solicite la licencia como se describe en la sección ["Licencia comprada"](/words/es/net/licensing/).
 
 Los detalles sobre cómo instalar Aspose.Words se pueden leer en la página [Instalación](/words/es/net/installation/).
 

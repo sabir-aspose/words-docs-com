@@ -70,7 +70,7 @@ Można również spróbować niektórych z najbardziej popularnych Aspose.Words 
 
 Aby kupić Aspose.Words prawo jazdy, musisz iść do [Zakup](https://purchase.aspose.com/buy) strona, wybierz "Aspose.Words"produkt i rodzaj licencji, która ci odpowiada. Następnie dodaj licencję do koszyka i postępuj zgodnie z instrukcjami.
 
-Po zakupie, wystąpić o licencję, jak opisano w [Zakupiona licencja](/words/java/licensing/#purchased-license) sekcja.
+Po zakupie, wystąpić o licencję, jak opisano w [Zakupiona licencja](/words/pl/java/licensing/) sekcja.
 
 Szczegóły dotyczące instalacji Aspose.Words można przeczytać na [Instalacja](/words/pl/java/installation/) strona.
 

@@ -70,7 +70,7 @@ Bạn cũng có thể thử một số tính năng phổ biến nhất Aspose.Wo
 
 Để mua giấy phép Aspose.Words, bạn cần đến [Mua hàng](https://purchase.aspose.com/buy) trang, chọn sản phẩm" Aspose.Words " và loại giấy phép phù hợp với bạn. Sau đó thêm giấy phép vào giỏ Hàng của bạn và làm theo hướng dẫn Giỏ Hàng.
 
-Sau khi mua, xin giấy phép như được mô tả trong [Giấy Phép Đã Mua](/words/cpp/licensing/#purchased-license) phần.
+Sau khi mua, xin giấy phép như được mô tả trong [Giấy Phép Đã Mua](/words/vi/cpp/licensing/) phần.
 
 Chi tiết về cách cài đặt Aspose.Words có thể được đọc trên [Cài đặt](/words/vi/cpp/installation/) trang.
 

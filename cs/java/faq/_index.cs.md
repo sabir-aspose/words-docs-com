@@ -70,7 +70,7 @@ Můžete také vyzkoušet některé z nejpopulárnějších Aspose.Words rysy pr
 
 Koupit si Aspose.Words Licence, musíte jít do [Nakup](https://purchase.aspose.com/buy) stránka, vyberte "Aspose.Words"produkt a typ licence, která vám vyhovuje. Pak přidejte licenci do košíku a postupujte podle pokynů nákupního košíku.
 
-Po zakoupení, požádat o licenci, jak je popsáno v [Licence Koupená](/words/java/licensing/#purchased-license) sekce.
+Po zakoupení, požádat o licenci, jak je popsáno v [Licence Koupená](/words/cs/java/licensing/) sekce.
 
 Podrobnosti o instalaci Aspose.Words lze číst na [Instalace](/words/cs/java/installation/) Strana.
 

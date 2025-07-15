@@ -72,7 +72,7 @@ Aspose.Words עבור .NET תומך ברוב פורמטי המסמך הפופו�
 
 לקנות Aspose.Words רישיון, אתה צריך ללכת [רכישה](https://purchase.aspose.com/buy) דף, בחר את "Aspose.Words"מוצר וסוג הרישיון שמתאים לך. לאחר מכן להוסיף את הרישיון לעגלה ולעקוב אחר הוראות קניות.
 
-לאחר רכישת, חל על הרישיון כפי שתואר ב [רישיון רכישה](/words/net/licensing/#purchased-license) סעיף.
+לאחר רכישת, חל על הרישיון כפי שתואר ב [רישיון רכישה](/words/he/net/licensing/) סעיף.
 
 פרטים על איך להתקין Aspose.Words ניתן לקרוא על [מתקן](/words/he/net/installation/) דף.
 

@@ -72,7 +72,7 @@ Aspose.Words for .NET支援大多數流行的文件格式，例如 DOC、DOCX、
 
 要購買 Aspose.Words 版權，你需要前往 [Purchase](https://purchase.aspose.com/buy) 頁面，選擇 "Aspose.Words" 產品以及適合你的版權類型。 接著將授權加入您的購物車並按照購物車指示操作。
 
-購買後，如第 [Purchased License](/words/net/licensing/#purchased-license) 節所述，請申請授權。
+購買後，如第 [Purchased License](/words/zh-hant/net/licensing/) 節所述，請申請授權。
 
 如何安裝 Aspose.Words 的細節，可以在 [Installation](/words/zh-hant/net/installation/) 頁面中讀取。
 

@@ -70,7 +70,7 @@ En popüler Aspose.Words özelliklerinden bazılarını da deneyebilirsiniz [Asp
 
 Bir Aspose.Words lisansı satın almak için, sayfa [Purchase](https://purchase.aspose.com/buy)'a gitmeniz gerekiyor, 'Aspose.Words' ürünü seçin ve size uygun lisans türü. Daha sonra lisansınızı sepetinize ekleyin ve Alışveriş Sepeti talimatlarını izleyin.
 
-Satın almadan sonra, lisans için yukarıdaki [Purchased License](/words/java/licensing/#purchased-license) bölümünde açıklandığı gibi başvurun.
+Satın almadan sonra, lisans için yukarıdaki [Purchased License](/words/tr/java/licensing/) bölümünde açıklandığı gibi başvurun.
 
 Aspose.Words 'nin nasıl yükleneceği hakkında ayrıntılar, [Installation](/words/tr/java/installation/) sayfasından okunabilir.
 

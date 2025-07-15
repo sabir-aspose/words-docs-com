@@ -72,7 +72,7 @@ Aspose.Words for .NET 支持大多数流行的文档格式，例如 DOC、DOCX�
 
 要购买Aspose.Words许可证，您需要进入[购买](https://purchase.aspose.com/buy)页面，选择"Aspose.Words"产品和适合您的许可证类型。然后将许可证添加到您的购物车并按照购物车说明进行操作。
 
-购买后，按照 [购买许可证](/words/net/licensing/#purchased-license) 部分所述申请许可证。
+购买后，按照 [购买许可证](/words/zh/net/licensing/) 部分所述申请许可证。
 
 有关如何安装 Aspose.Words 的详细信息可以在 [安装](/words/zh/net/installation/) 页面上阅读。
 

@@ -72,7 +72,7 @@ Anda juga dapat mencoba beberapa fitur Aspose.Words terpopuler melalui [Aplikasi
 
 Untuk membeli lisensi Aspose.Words, Anda perlu membuka halaman [Pembelian](https://purchase.aspose.com/buy), memilih produk "Aspose.Words" dan jenis lisensi yang sesuai untuk Anda. Kemudian tambahkan lisensi ke keranjang Anda dan ikuti instruksi Keranjang Belanja.
 
-Setelah membeli, ajukan lisensi seperti yang dijelaskan di bagian [Lisensi yang Dibeli](/words/net/licensing/#purchased-license).
+Setelah membeli, ajukan lisensi seperti yang dijelaskan di bagian [Lisensi yang Dibeli](/words/id/net/licensing/).
 
 Detail cara install Aspose.Words dapat dibaca di halaman [Instalasi](/words/id/net/installation/).
 

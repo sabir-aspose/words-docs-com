@@ -72,7 +72,7 @@ Aspose.Words for .NET는 애플리케이션이 다양한 문서 처리 작업을
 
 Aspose.Words 라이센스를 구매하려면 [구입](https://purchase.aspose.com/buy) 페이지로 이동하여 "Aspose.Words" 제품과 적합한 라이센스 유형을 선택해야 합니다. 그런 다음 라이센스를 장바구니에 추가하고 장바구니 지침을 따르십시오.
 
-구매 후 [구매한 라이센스](/words/net/licensing/#purchased-license) 섹션에 설명된 대로 라이선스를 신청하세요.
+구매 후 [구매한 라이센스](/words/ko/net/licensing/) 섹션에 설명된 대로 라이선스를 신청하세요.
 
 Aspose.Words 설치 방법에 대한 자세한 내용은 [설치](/words/ko/net/installation/) 페이지에서 확인할 수 있습니다.
 
