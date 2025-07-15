@@ -1,4 +1,4 @@
----
+﻿---
 title: 在 C# 中将 Word 转换为 PDF
 second_title: Aspose.Words for .NET
 articleTitle: 将文档转化为 PDF
@@ -82,7 +82,7 @@ Aspose.Words 提供 [PdfCompliance](https://reference.aspose.com/words/net/aspos
 ## 另请参阅
 
 - 文章 [渲染](/words/zh/net/rendering/) 了解有关固定页面和流式布局格式的更多信息
-- 文章 [转换为固定页面格式](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) 了解有关页面布局的更多信息
+- 文章 [转换为固定页面格式](/words/zh/net/converting-to-fixed-page-format/#what-is-a-page-layout) 了解有关页面布局的更多信息
 - 文章 [转化为 PDF 时指定渲染选项](/words/zh/net/specify-rendering-options-when-converting-to-pdf/) 了解有关使用 `PdfSaveOptions` 类的更多信息
 - 文章 [了解转换为 PDF/A 和 PDF/UA 的功能](/words/zh/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) 描述了 Aspose.Words 支持的 PDF 标准和 PDF 标准的相关 ISO
 - 文章 [选择哪种 PDF 标准更好](/words/zh/net/which-pdf-standard-is-better-to-choose/) 确定哪些 PDF 标准适合哪些情况

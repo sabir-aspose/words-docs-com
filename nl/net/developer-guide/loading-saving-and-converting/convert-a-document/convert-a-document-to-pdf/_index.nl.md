@@ -1,4 +1,4 @@
----
+﻿---
 title: Word naar PDF converteren in C#
 second_title: Aspose.Words voor .NET
 articleTitle: Document naar PDF omzetten
@@ -82,7 +82,7 @@ Het gebruik van de **OptimizeOutput**-eigenschap kan de nauwkeurigheid van conte
 ## Zie ook
 
 - Het artikel [Rendering](/words/nl/net/rendering/) voor meer informatie over vaste pagina en flow-layout formaten
-- Het artikel [Conversie naar vast paginaformaat](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) voor meer informatie over pagina-indeling
+- Het artikel [Conversie naar vast paginaformaat](/words/nl/net/converting-to-fixed-page-format/#what-is-a-page-layout) voor meer informatie over pagina-indeling
 - Het artikel [Renderingopties specificeren bij converteren naar PDF](/words/nl/net/specify-rendering-options-when-converting-to-pdf/) voor meer informatie over het gebruik van de `PdfSaveOptions`-klasse
 - Het artikel [Leer de functies van conversie naar PDF/A en PDF/UA](/words/nl/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) dat beschrijft welke PDF-standaard en de relevante ISO's voor PDF-standaarden worden ondersteund door Aspose.Words
 - Het artikel [Welke PDF-standaard is beter om te kiezen](/words/nl/net/which-pdf-standard-is-better-to-choose/) om te bepalen welke PDF-standaarden zinvol zijn voor welke gevallen

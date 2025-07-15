@@ -1,4 +1,4 @@
----
+﻿---
 title: C#'ta Word'ü PDF'ye Dönüştürme
 second_title: .NET için Aspose.Words
 articleTitle: Belgeyi PDF'ye Çevirme
@@ -82,7 +82,7 @@ Aşağıdaki kod örneği çıktının nasıl optimize edileceğini gösterir:
 ## Ayrıca Bakınız
 
 - [İşleme](/words/tr/net/rendering/) makalesinde sabit sayfa ve akış-düzen formatları hakkında daha fazla bilgi
-- [Sabit Sayfa Formatına Dönüştürme](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) makalesinde sayfa düzeni hakkında daha fazla bilgi
+- [Sabit Sayfa Formatına Dönüştürme](/words/tr/net/converting-to-fixed-page-format/#what-is-a-page-layout) makalesinde sayfa düzeni hakkında daha fazla bilgi
 - [PDF'ye Çevirirken İşleme Seçeneklerini Belirtme](/words/tr/net/specify-rendering-options-when-converting-to-pdf/) makalesinde `PdfSaveOptions` sınıfını kullanma hakkında daha fazla bilgi
 - [PDF/A ve PDF/UA'ya Dönüştürme Özelliklerini Öğrenin](/words/tr/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) makalesinde Aspose.Words'ün desteklediği PDF standardı ve PDF standartları için ilgili ISO'ları açıklayan
 - [Hangi PDF Standardının Seçilmesi Daha İyi](/words/tr/net/which-pdf-standard-is-better-to-choose/) makalesinde hangi PDF standartlarının hangi durumlar için mantıklı olduğunu belirleme

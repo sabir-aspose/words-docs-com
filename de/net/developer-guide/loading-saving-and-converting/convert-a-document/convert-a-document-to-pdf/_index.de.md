@@ -1,4 +1,4 @@
----
+﻿---
 title: Word zu PDF konvertieren in C#
 second_title: Aspose.Words für .NET
 articleTitle: Dokument zu PDF umwandeln
@@ -82,7 +82,7 @@ Die Verwendung der **OptimizeOutput**-Eigenschaft kann die Genauigkeit der Inhal
 ## Siehe auch
 
 - Der Artikel [Rendern](/words/de/net/rendering/) für weitere Informationen über die Formate mit fester Seite und Fließtext-Layout
-- Der Artikel [Umwandlung in festes Seitenformat](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) für weitere Informationen über das Seitenlayout
+- Der Artikel [Umwandlung in festes Seitenformat](/words/de/net/converting-to-fixed-page-format/#what-is-a-page-layout) für weitere Informationen über das Seitenlayout
 - Der Artikel [Rendering-Optionen beim Konvertieren zu PDF angeben](/words/de/net/specify-rendering-options-when-converting-to-pdf/) für weitere Informationen über die Verwendung der `PdfSaveOptions`-Klasse
 - Der Artikel [Lernen Sie die Funktionen der Konvertierung zu PDF/A und PDF/UA](/words/de/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) kennen, der beschreibt, welcher PDF-Standard und die entsprechenden ISO für PDF-Standards von Aspose.Words unterstützt werden
 - Der Artikel [Welcher PDF-Standard ist besser zu wählen](/words/de/net/which-pdf-standard-is-better-to-choose/) zur Bestimmung, welche PDF-Standards für welche Fälle sinnvoll sind

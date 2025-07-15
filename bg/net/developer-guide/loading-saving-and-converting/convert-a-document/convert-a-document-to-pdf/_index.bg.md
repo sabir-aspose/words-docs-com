@@ -1,4 +1,4 @@
----
+﻿---
 title: Конвертиране на Word в PDF с C#
 second_title: Aspose.Words за .NET
 articleTitle: Преобразуване на документ в PDF
@@ -82,7 +82,7 @@ Aspose.Words предоставя [PdfCompliance](https://reference.aspose.com/w
 ## Вижте също
 
 - Статията [Рендиране](/words/bg/net/rendering/) за повече информация за форматите с фиксирани страници и течно оформление
-- Статията [Преобразуване в формат с фиксирани страници](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) за повече информация за оформлението на страници
+- Статията [Преобразуване в формат с фиксирани страници](/words/bg/net/converting-to-fixed-page-format/#what-is-a-page-layout) за повече информация за оформлението на страници
 - Статията [Уточняване на опции за рендиране при конвертиране в PDF](/words/bg/net/specify-rendering-options-when-converting-to-pdf/) за повече информация за използването на `PdfSaveOptions` класа
 - Статията [Научете особеностите на конвертирането в PDF/A и PDF/UA](/words/bg/net/learn-features-of-conversion-to-pdf-a-pdf-ua/), описваща кой PDF стандарт и съответните ISO за PDF стандарти поддържа Aspose.Words
 - Статията [Кой PDF стандарт е по-добре да изберете](/words/bg/net/which-pdf-standard-is-better-to-choose/) за определяне кои PDF стандарти са подходящи за кои случаи

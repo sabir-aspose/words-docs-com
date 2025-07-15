@@ -1,4 +1,4 @@
----
+﻿---
 title: Mengkonversi Word ke PDF di C#
 second_title: Aspose.Words untuk .NET
 articleTitle: Mengubah dokumen ke PDF
@@ -82,7 +82,7 @@ Menggunakan properti **OptimizeOutput** dapat mempengaruhi akurasi tampilan kont
 ## Lihat juga
 
 - Artikel [Rendering](/words/id/net/rendering/) untuk informasi lebih lanjut tentang format halaman tetap dan flow-layout
-- Artikel [Konversi ke format halaman tetap](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) untuk informasi lebih lanjut tentang tata letak halaman
+- Artikel [Konversi ke format halaman tetap](/words/id/net/converting-to-fixed-page-format/#what-is-a-page-layout) untuk informasi lebih lanjut tentang tata letak halaman
 - Artikel [Menentukan opsi rendering saat mengubah ke PDF](/words/id/net/specify-rendering-options-when-converting-to-pdf/) untuk informasi lebih lanjut tentang penggunaan kelas `PdfSaveOptions`
 - Artikel [Pelajari fitur konversi ke PDF/A dan PDF/UA](/words/id/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) yang menjelaskan standar PDF mana dan ISO yang relevan untuk standar PDF yang didukung Aspose.Words
 - Artikel [Standar PDF mana yang lebih baik untuk dipilih](/words/id/net/which-pdf-standard-is-better-to-choose/) untuk menentukan standar PDF mana yang masuk akal untuk kasus mana

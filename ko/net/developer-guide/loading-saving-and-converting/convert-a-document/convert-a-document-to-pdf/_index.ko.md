@@ -1,4 +1,4 @@
----
+﻿---
 title: C#에서 워드를 PDF로 변환
 second_title: Aspose.Words for .NET
 articleTitle: 문서를 PDF로 변경
@@ -82,7 +82,7 @@ PDF로 저장할 때 출력을 최적화할지 여부를 지정할 수 있습니
 ## 참고 항목
 
 - [렌더링](/words/ko/net/rendering/) 문서에서 고정 페이지 및 흐름 레이아웃 형식에 대한 자세한 정보
-- [고정 페이지 형식으로 변환](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) 문서에서 페이지 레이아웃에 대한 자세한 정보
+- [고정 페이지 형식으로 변환](/words/ko/net/converting-to-fixed-page-format/#what-is-a-page-layout) 문서에서 페이지 레이아웃에 대한 자세한 정보
 - [PDF로 변환할 때 렌더링 옵션 지정](/words/ko/net/specify-rendering-options-when-converting-to-pdf/) 문서에서 `PdfSaveOptions` 클래스 사용에 대한 자세한 정보
 - [PDF/A 및 PDF/UA로의 변환 기능 알아보기](/words/ko/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) 문서에서 Aspose.Words가 지원하는 PDF 표준 및 PDF 표준의 관련 ISO에 대한 설명
 - [어떤 PDF 표준을 선택하는 것이 좋은지](/words/ko/net/which-pdf-standard-is-better-to-choose/) 문서에서 어떤 PDF 표준이 어떤 경우에 적합한지 결정하는 방법

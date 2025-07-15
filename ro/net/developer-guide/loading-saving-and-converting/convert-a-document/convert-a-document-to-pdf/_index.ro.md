@@ -1,4 +1,4 @@
----
+﻿---
 title: Converti Word în PDF în C#
 second_title: Aspose.Words pentru .NET
 articleTitle: Transforma document în PDF
@@ -82,7 +82,7 @@ Utilizarea proprietății **OptimizeOutput** poate afecta acuratețea afișării
 ## Vezi și
 
 - Articolul [Redare](/words/ro/net/rendering/) pentru mai multe informații despre formatele cu pagină fixă și flux de layout
-- Articolul [Conversie în format cu pagină fixă](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) pentru mai multe informații despre layout-ul paginii
+- Articolul [Conversie în format cu pagină fixă](/words/ro/net/converting-to-fixed-page-format/#what-is-a-page-layout) pentru mai multe informații despre layout-ul paginii
 - Articolul [Specificarea opțiunilor de redare la transformarea în PDF](/words/ro/net/specify-rendering-options-when-converting-to-pdf/) pentru mai multe informații despre utilizarea clasei `PdfSaveOptions`
 - Articolul [Învățați caracteristicile conversiei în PDF/A și PDF/UA](/words/ro/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) care descrie ce standard PDF și ISO-urile relevante pentru standardele PDF sunt suportate de Aspose.Words
 - Articolul [Ce standard PDF este mai bine să alegeți](/words/ro/net/which-pdf-standard-is-better-to-choose/) pentru a determina care standarde PDF au sens pentru care cazuri

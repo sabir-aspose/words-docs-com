@@ -1,4 +1,4 @@
----
+﻿---
 title: להמיר Word ל-PDF ב-C#
 second_title: Aspose.Words עבור .NET
 articleTitle: לתרגם מסמך ל-PDF
@@ -82,7 +82,7 @@ Aspose.Words מספק את האנומרציה [PdfCompliance](https://reference.
 ## ראה גם
 
 - המאמר [עיבוד](/words/he/net/rendering/) למידע נוסף על פורמטי עמוד קבוע ופריסה זורמת
-- המאמר [המרה לפורמט עמוד קבוע](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) למידע נוסף על פריסת עמוד
+- המאמר [המרה לפורמט עמוד קבוע](/words/he/net/converting-to-fixed-page-format/#what-is-a-page-layout) למידע נוסף על פריסת עמוד
 - המאמר [ציון אפשרויות עיבוד בעת תרגום ל-PDF](/words/he/net/specify-rendering-options-when-converting-to-pdf/) למידע נוסף על השימוש במחלקת `PdfSaveOptions`
 - המאמר [למד על תכונות ההמרה ל-PDF/A ו-PDF/UA](/words/he/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) המתאר איזה סטנדרט PDF וה-ISO הרלוונטיים לסטנדרטי PDF נתמכים על ידי Aspose.Words
 - המאמר [איזה סטנדרט PDF עדיף לבחור](/words/he/net/which-pdf-standard-is-better-to-choose/) לקביעת אילו סטנדרטי PDF מתאימים לאילו מקרים

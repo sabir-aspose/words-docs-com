@@ -1,4 +1,4 @@
----
+﻿---
 title: Pracuj z dokumentem przechowywanym w SharePoint Online
 second_title: Aspose.Words dla .NET
 articleTitle: Pracuj z dokumentem przechowywanym w SharePoint Online
@@ -267,5 +267,5 @@ W rezultacie plik "TestDoc.pdf" powinien zostać umieszczony w folderze "Dokumen
 ## Zobacz też
 
 - Artykuł [Wykonanie](/words/pl/net/rendering/) zawiera więcej informacji na temat formatów o stałej stronie i formatach z układem przepływu
-- Artykuł [Konwersja do formatu o stałej stronie](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) zawiera więcej informacji na temat układu strony
+- Artykuł [Konwersja do formatu o stałej stronie](/words/pl/net/converting-to-fixed-page-format/#what-is-a-page-layout) zawiera więcej informacji na temat układu strony
 - Artykuł [Określ opcje renderowania podczas konwersji do formatu PDF](/words/pl/net/specify-rendering-options-when-converting-to-pdf/) zawiera więcej informacji na temat korzystania z klasy [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/)

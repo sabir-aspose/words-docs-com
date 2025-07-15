@@ -1,4 +1,4 @@
----
+﻿---
 title: Převést Word do PDF v C#
 second_title: Aspose.Words pro .NET
 articleTitle: Konvertovat dokument do PDF
@@ -82,7 +82,7 @@ Použití vlastnosti **OptimizeOutput** může ovlivnit přesnost zobrazení obs
 ## Viz také
 
 - Článek [Vykreslování](/words/cs/net/rendering/) pro více informací o formátech s pevnou stránkou a plovoucím rozložením
-- Článek [Převod do formátu s pevnou stránkou](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) pro více informací o rozložení stránky
+- Článek [Převod do formátu s pevnou stránkou](/words/cs/net/converting-to-fixed-page-format/#what-is-a-page-layout) pro více informací o rozložení stránky
 - Článek [Specifikace možností vykreslování při konvertování do PDF](/words/cs/net/specify-rendering-options-when-converting-to-pdf/) pro více informací o použití třídy `PdfSaveOptions`
 - Článek [Poznejte funkce konverze do PDF/A a PDF/UA](/words/cs/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) popisující, který PDF standard a příslušné ISO pro PDF standardy podporuje Aspose.Words
 - Článek [Který PDF standard je lepší zvolit](/words/cs/net/which-pdf-standard-is-better-to-choose/) pro určení, které PDF standardy dávají smysl pro které případy

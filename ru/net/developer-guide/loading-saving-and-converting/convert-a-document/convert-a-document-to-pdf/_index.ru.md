@@ -1,4 +1,4 @@
----
+﻿---
 title: Конвертировать Ворд в ПДФ на C#
 second_title: Aspose.Words для .NET
 articleTitle: Конвертация документа в PDF
@@ -82,7 +82,7 @@ Aspose.Words предоставляет перечисление [PdfCompliance]
 ## См. также
 
 - Статья [Рендеринг](/words/ru/net/rendering/) для получения дополнительной информации о форматах с фиксированной разметкой и потоковой разметкой
-- Статья [Конвертация в формат с фиксированной разметкой](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) для получения дополнительной информации о макете страницы
+- Статья [Конвертация в формат с фиксированной разметкой](/words/ru/net/converting-to-fixed-page-format/#what-is-a-page-layout) для получения дополнительной информации о макете страницы
 - Статья [Указание параметров рендеринга при конвертации в PDF](/words/ru/net/specify-rendering-options-when-converting-to-pdf/) для получения дополнительной информации об использовании класса `PdfSaveOptions`
 - Статья [Особенности конвертации в PDF/A и PDF/UA](/words/ru/net/learn-features-of-conversion-to-pdf-a-pdf-ua/), описывающая, какой стандарт PDF и соответствующие стандарты ISO для PDF поддерживает Aspose.Words
 - Статья [Какой стандарт PDF лучше выбрать](/words/ru/net/which-pdf-standard-is-better-to-choose/) для определения того, какие стандарты PDF подходят для каких случаев

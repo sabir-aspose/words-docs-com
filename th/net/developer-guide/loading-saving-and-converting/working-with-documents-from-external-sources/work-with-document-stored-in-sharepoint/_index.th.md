@@ -1,4 +1,4 @@
----
+﻿---
 title: ทำงานกับเอกสารที่เก็บไว้ใน SharePoint Online
 second_title: Aspose.Words สำหรับ .NET
 articleTitle: ทำงานกับเอกสารที่เก็บไว้ใน SharePoint Online
@@ -267,5 +267,5 @@ namespace SPOnlineExample
 ## ดูสิ่งนี้ด้วย
 
 - บทความ [กำลังแสดงผล](/words/th/net/rendering/) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับรูปแบบหน้าคงที่และรูปแบบโฟลว์เลย์เอาต์
-- บทความ [การแปลงเป็นรูปแบบหน้าตายตัว](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับเค้าโครงหน้า
+- บทความ [การแปลงเป็นรูปแบบหน้าตายตัว](/words/th/net/converting-to-fixed-page-format/#what-is-a-page-layout) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับเค้าโครงหน้า
 - บทความ [ระบุตัวเลือกการเรนเดอร์เมื่อแปลงเป็น PDF](/words/th/net/specify-rendering-options-when-converting-to-pdf/) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการใช้คลาส [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/)

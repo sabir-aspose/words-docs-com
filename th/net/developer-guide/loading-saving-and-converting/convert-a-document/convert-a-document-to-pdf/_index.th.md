@@ -1,4 +1,4 @@
----
+﻿---
 title: แปลง Word เป็น PDF ใน C#
 second_title: Aspose.Words สำหรับ .NET
 articleTitle: เปลี่ยนเอกสารเป็น PDF
@@ -82,7 +82,7 @@ Aspose.Words มี enumeration [PdfCompliance](https://reference.aspose.com/wor
 ## ดูเพิ่มเติม
 
 - บทความ [การแสดงผล](/words/th/net/rendering/) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับรูปแบบหน้าคงที่และการจัดวางแบบโฟลว์
-- บทความ [การแปลงเป็นรูปแบบหน้าคงที่](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการจัดวางหน้า
+- บทความ [การแปลงเป็นรูปแบบหน้าคงที่](/words/th/net/converting-to-fixed-page-format/#what-is-a-page-layout) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการจัดวางหน้า
 - บทความ [ระบุตัวเลือกการแสดงผลเมื่อแปลงเป็น PDF](/words/th/net/specify-rendering-options-when-converting-to-pdf/) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการใช้คลาส `PdfSaveOptions`
 - บทความ [เรียนรู้คุณสมบัติของการแปลงเป็น PDF/A และ PDF/UA](/words/th/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) ที่อธิบายว่ามาตรฐาน PDF ใดและ ISO ที่เกี่ยวข้องสำหรับมาตรฐาน PDF ที่สนับสนุนโดย Aspose.Words
 - บทความ [มาตรฐาน PDF ใดดีกว่าที่จะเลือก](/words/th/net/which-pdf-standard-is-better-to-choose/) เพื่อกำหนดว่ามาตรฐาน PDF ใดเหมาะสมกับกรณีใด

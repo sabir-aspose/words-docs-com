@@ -1,4 +1,4 @@
----
+﻿---
 title: Werk met een document opgeslagen in een SharePoint Online
 second_title: Aspose.Words voor .NET
 articleTitle: Werk met een document opgeslagen in een SharePoint Online
@@ -267,5 +267,5 @@ Als gevolg hiervan moet het bestand "TestDoc.pdf" worden geplaatst in de "Gedeel
 ## Zie ook
 
 - Het artikel [Renderen](/words/nl/net/rendering/) voor meer informatie over de fixed-page en flow-layout formaten
-- Het artikel [Omzetten naar Fixed-page Format](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) voor meer informatie over de pagina-indeling
+- Het artikel [Omzetten naar Fixed-page Format](/words/nl/net/converting-to-fixed-page-format/#what-is-a-page-layout) voor meer informatie over de pagina-indeling
 - Het artikel [Renderopties opgeven bij omzetten naar PDF](/words/nl/net/specify-rendering-options-when-converting-to-pdf/) voor meer informatie over het gebruik van de [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) klasse

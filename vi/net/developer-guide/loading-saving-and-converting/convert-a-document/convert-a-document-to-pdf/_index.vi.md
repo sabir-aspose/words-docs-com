@@ -1,4 +1,4 @@
----
+﻿---
 title: Chuyển đổi Word sang PDF trong C#
 second_title: Aspose.Words cho .NET
 articleTitle: Biến đổi tài liệu thành PDF
@@ -82,7 +82,7 @@ Sử dụng thuộc tính **OptimizeOutput** có thể ảnh hưởng đến đ�
 ## Xem thêm
 
 - Bài viết [Hiển thị](/words/vi/net/rendering/) để biết thêm thông tin về các định dạng trang cố định và bố cục luồng
-- Bài viết [Chuyển đổi sang định dạng trang cố định](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) để biết thêm thông tin về bố cục trang
+- Bài viết [Chuyển đổi sang định dạng trang cố định](/words/vi/net/converting-to-fixed-page-format/#what-is-a-page-layout) để biết thêm thông tin về bố cục trang
 - Bài viết [Chỉ định tùy chọn hiển thị khi biến đổi sang PDF](/words/vi/net/specify-rendering-options-when-converting-to-pdf/) để biết thêm thông tin về việc sử dụng lớp `PdfSaveOptions`
 - Bài viết [Tìm hiểu các tính năng chuyển đổi sang PDF/A và PDF/UA](/words/vi/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) mô tả tiêu chuẩn PDF nào và ISO liên quan cho các tiêu chuẩn PDF được Aspose.Words hỗ trợ
 - Bài viết [Tiêu chuẩn PDF nào tốt hơn để chọn](/words/vi/net/which-pdf-standard-is-better-to-choose/) để xác định tiêu chuẩn PDF nào có ý nghĩa cho trường hợp nào

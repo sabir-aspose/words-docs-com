@@ -1,4 +1,4 @@
----
+﻿---
 title: Práce s dokumentem uloženým v SharePoint Online
 second_title: Aspose.Words místo .NET
 articleTitle: Práce s dokumentem uloženým v SharePoint Online
@@ -267,5 +267,5 @@ V důsledku toho by měl být soubor "TestDoc.pdf" umístěn ve složce "Shared 
 ## Viz také
 
 - Ten článek. [Renderování](/words/cs/net/rendering/) pro více informací o formátech pevných stránek a průtoků
-- Ten článek. [Převod na formát pevné stránky](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) pro více informací o rozložení stránky
+- Ten článek. [Převod na formát pevné stránky](/words/cs/net/converting-to-fixed-page-format/#what-is-a-page-layout) pro více informací o rozložení stránky
 - Ten článek. [Specifikovat možnosti renderování při převodu do PDF](/words/cs/net/specify-rendering-options-when-converting-to-pdf/) pro více informací o použití [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) třída

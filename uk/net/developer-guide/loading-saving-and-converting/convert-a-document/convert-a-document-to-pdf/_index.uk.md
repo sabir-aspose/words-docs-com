@@ -1,4 +1,4 @@
----
+﻿---
 title: Конвертувати Word у PDF на C#
 second_title: Aspose.Words для .NET
 articleTitle: Перетворити документ у PDF
@@ -82,7 +82,7 @@ Aspose.Words надає перелік [PdfCompliance](https://reference.aspose.
 ## Дивіться також
 
 - Стаття [Рендеринг](/words/uk/net/rendering/) для отримання додаткової інформації про формати фіксованої сторінки та потокового макета
-- Стаття [Конвертація у формат фіксованої сторінки](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) для отримання додаткової інформації про макет сторінки
+- Стаття [Конвертація у формат фіксованої сторінки](/words/uk/net/converting-to-fixed-page-format/#what-is-a-page-layout) для отримання додаткової інформації про макет сторінки
 - Стаття [Вказівка параметрів рендерингу при перетворенні у PDF](/words/uk/net/specify-rendering-options-when-converting-to-pdf/) для отримання додаткової інформації про використання класу `PdfSaveOptions`
 - Стаття [Дізнайтеся про особливості конвертації у PDF/A та PDF/UA](/words/uk/net/learn-features-of-conversion-to-pdf-a-pdf-ua/), що описує, який стандарт PDF та відповідні ISO для стандартів PDF підтримуються Aspose.Words
 - Стаття [Який стандарт PDF краще вибрати](/words/uk/net/which-pdf-standard-is-better-to-choose/) для визначення того, які стандарти PDF підходять для яких випадків

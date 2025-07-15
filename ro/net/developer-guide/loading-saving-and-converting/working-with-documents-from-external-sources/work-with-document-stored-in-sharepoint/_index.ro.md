@@ -1,4 +1,4 @@
----
+﻿---
 title: Lucraţi cu un document stocat într-un SharePoint online
 second_title: Aspose.Words pentru .NET
 articleTitle: Lucraţi cu un document stocat într-un SharePoint online
@@ -267,5 +267,5 @@ Ca rezultat, fișierul "TestDoc.pdf" ar trebui să fie plasat în folderul "Docu
 ## Vezi și
 
 - Articolul [Rendering](/words/net/rendering/) pentru mai multe informații despre formatele de pagină fixă și flux
-- Articolul [Converting to Fixed-page Format](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) pentru mai multe informaţii despre aspectul paginii
+- Articolul [Converting to Fixed-page Format](/words/ro/net/converting-to-fixed-page-format/#what-is-a-page-layout) pentru mai multe informaţii despre aspectul paginii
 "- Articolul [Specify Rendering Options When Converting to PDF](/words/net/specify-rendering-options-when-converting-to-pdf/) pentru mai multe informații despre folosirea clasei [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/)"

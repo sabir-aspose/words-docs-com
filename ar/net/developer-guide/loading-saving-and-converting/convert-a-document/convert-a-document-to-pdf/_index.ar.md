@@ -1,4 +1,4 @@
----
+﻿---
 title: تحويل ورد الى بي دي اف في C#
 second_title: Aspose.Words لـ .NET
 articleTitle: تحويل مستند الى بي دي اف
@@ -82,7 +82,7 @@ timestamp: 2024-09-25-11-08-55
 ## انظر أيضاً
 
 - المقالة [العرض](/words/ar/net/rendering/) لمزيد من المعلومات حول صيغ الصفحة الثابتة والتخطيط المتدفق
-- المقالة [التحويل إلى صيغة الصفحة الثابتة](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) لمزيد من المعلومات حول تخطيط الصفحة
+- المقالة [التحويل إلى صيغة الصفحة الثابتة](/words/ar/net/converting-to-fixed-page-format/#what-is-a-page-layout) لمزيد من المعلومات حول تخطيط الصفحة
 - المقالة [تحديد خيارات العرض عند التحويل إلى بي دي اف](/words/ar/net/specify-rendering-options-when-converting-to-pdf/) لمزيد من المعلومات حول استخدام فئة `PdfSaveOptions`
 - المقالة [تعلم ميزات التحويل إلى PDF/A و PDF/UA](/words/ar/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) التي تصف معيار بي دي اف المدعوم ومعايير ISO ذات الصلة لمعايير بي دي اف التي يدعمها Aspose.Words
 - المقالة [أي معيار بي دي اف الأفضل للاختيار](/words/ar/net/which-pdf-standard-is-better-to-choose/) لتحديد معايير بي دي اف التي تناسب الحالات المختلفة

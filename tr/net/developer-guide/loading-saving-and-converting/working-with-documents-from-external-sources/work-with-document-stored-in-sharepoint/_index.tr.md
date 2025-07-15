@@ -1,4 +1,4 @@
----
+﻿---
 title: SharePoint Online'da Saklanan Bir Belgeyle Çalışma
 second_title: .NET için Aspose.Words
 articleTitle: SharePoint Online'da Saklanan Bir Belgeyle Çalışma
@@ -267,5 +267,5 @@ Sonuç olarak, "TestDoc.pdf" dosyasının kök iletişim sitesinin "Paylaşılan
 ## Ayrıca bakınız
 
 - Sabit sayfa ve akış düzeni formatları hakkında daha fazla bilgi için [İşleme](/words/tr/net/rendering/) makalesi
-- Sayfa düzeni hakkında daha fazla bilgi için [Sabit Sayfa Formatına Dönüştürme](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) makalesi
+- Sayfa düzeni hakkında daha fazla bilgi için [Sabit Sayfa Formatına Dönüştürme](/words/tr/net/converting-to-fixed-page-format/#what-is-a-page-layout) makalesi
 - [PdfSaveOptions](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfsaveoptions/) sınıfını kullanma hakkında daha fazla bilgi için [PDF'ye Dönüştürürken İşleme Seçeneklerini Belirtin](/words/tr/net/specify-rendering-options-when-converting-to-pdf/) makalesi

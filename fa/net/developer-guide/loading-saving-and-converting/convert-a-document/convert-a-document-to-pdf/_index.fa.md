@@ -1,4 +1,4 @@
----
+﻿---
 title: تبدیل ورد به پی دی اف در C#
 second_title: Aspose.Words برای .NET
 articleTitle: تغییر سند به PDF
@@ -82,7 +82,7 @@ Aspose.Words شمارش [PdfCompliance](https://reference.aspose.com/words/net/a
 ## همچنین ببینید
 
 - مقاله [رندرینگ](/words/fa/net/rendering/) برای اطلاعات بیشتر در مورد فرمت‌های صفحه ثابت و جریان-چیدمان
-- مقاله [تبدیل به فرمت صفحه ثابت](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) برای اطلاعات بیشتر در مورد چیدمان صفحه
+- مقاله [تبدیل به فرمت صفحه ثابت](/words/fa/net/converting-to-fixed-page-format/#what-is-a-page-layout) برای اطلاعات بیشتر در مورد چیدمان صفحه
 - مقاله [مشخص کردن گزینه‌های رندرینگ هنگام تغییر به PDF](/words/fa/net/specify-rendering-options-when-converting-to-pdf/) برای اطلاعات بیشتر در مورد استفاده از کلاس `PdfSaveOptions`
 - مقاله [آشنایی با ویژگی‌های تبدیل به PDF/A و PDF/UA](/words/fa/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) که توضیح می‌دهد کدام استاندارد PDF و ISO های مربوط به استانداردهای PDF توسط Aspose.Words پشتیبانی می‌شود
 - مقاله [کدام استاندارد PDF بهتر است انتخاب کنید](/words/fa/net/which-pdf-standard-is-better-to-choose/) برای تعیین اینکه کدام استانداردهای PDF برای کدام موارد مناسب هستند
