@@ -3,7 +3,7 @@ title: Convert Word to PDF in C#
 second_title: Aspose.Words for .NET
 articleTitle: Convert a Document to PDF
 linktitle: Convert a Document to PDF
-description: "Convert a document to PDF using C#. Convert DOCX to PDF C#. Various input formats are supported, including Word, OpenOffice, Image and eBook formats."
+description: "Convert a document to PDF using C#. Convert DOCX to PDF in C#. Various input formats are supported, including Word, OpenOffice, Image and eBook formats."
 type: docs
 weight: 10
 ai_search_scope: words_net
@@ -41,7 +41,7 @@ You can download the template file of this example from [Aspose.Words GitHub](h
 
 {{% alert color="primary" %}}
 
-Sometimes it is necessary to specify additional options, which can affect the result of saving a document as a PDF. These options can be specified by the use of the [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) class, containing properties that determine how the PDF output will be displayed.
+Sometimes it is necessary to specify additional options, which can affect the result of saving a document as a PDF. These options can be specified using the [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) class, containing properties that determine how the PDF output will be displayed.
 
 Note that with the same technique, you can convert any flow-layout format document to PDF format.
 

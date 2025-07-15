@@ -42,7 +42,7 @@ doc.save("BaseConversions.docx_to_pdf.pdf");
 
 {{% alert color="primary" %}}
 
-Sometimes it is necessary to specify additional options, which can affect the result of saving a document as a PDF. These options can be specified by the use of the [PdfSaveOptions](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/pdfsaveoptions/) class, containing properties that determine how the PDF output will be displayed.
+Sometimes it is necessary to specify additional options, which can affect the result of saving a document as a PDF. These options can be specified using the [PdfSaveOptions](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/pdfsaveoptions/) class, containing properties that determine how the PDF output will be displayed.
 
 Note that with the same technique, you can convert any flow-layout format document to PDF format.
 
