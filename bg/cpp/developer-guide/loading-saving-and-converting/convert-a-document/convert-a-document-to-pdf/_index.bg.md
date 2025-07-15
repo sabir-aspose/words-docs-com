@@ -47,7 +47,7 @@ timestamp: 2024-10-21-08-52-03
 
 ### Конвертиране в различни PDF стандарти {#converting-to-various-pdf-standards}
 
-Aspose.Words осигурява изброяването [PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) в подкрепа на превръщането на DOC или DOCX в различни PDF формат стандарти (като PDF 1.7, PDF 1.5, и т.н.).
+Aspose.Words осигурява изброяването [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) в подкрепа на превръщането на DOC или DOCX в различни PDF формат стандарти (като PDF 1.7, PDF 1.5, и т.н.).
 
 Следващият пример за код показва как да конвертирате документ в PDF 1.7, като използвате [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) в съответствие с PDF17:
 

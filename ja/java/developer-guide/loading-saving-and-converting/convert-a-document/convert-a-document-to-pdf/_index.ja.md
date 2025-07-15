@@ -47,7 +47,7 @@ DOCまたはDOCXドキュメント形式からAspose.WordsのPDF形式に変換�
 
 ### 異なるPDF標準 {#converting-to-various-pdf-standards}に変換する
 
-Aspose.Wordsは[PdfCompliace](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)列挙体を提供し、DOCまたはDOCXをさまざまなPDF形式標準(次のような)に変換することをサポートしますPDF 1.7, PDF 1.5, など。).
+Aspose.Wordsは[PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)列挙体を提供し、DOCまたはDOCXをさまざまなPDF形式標準(次のような)に変換することをサポートしますPDF 1.7, PDF 1.5, など。).
 
 次のコード例は、PDF17に準拠して[PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/)を使用して文書をPDF1.7に変換する方法を示しています:
 

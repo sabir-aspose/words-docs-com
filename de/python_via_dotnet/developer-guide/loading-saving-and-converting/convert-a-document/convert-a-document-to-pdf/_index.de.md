@@ -47,7 +47,7 @@ Beachten Sie, dass Sie mit derselben Technik jedes Dokument im Flow-Layout-Forma
 
 ### Konvertieren Sie in verschiedene PDF-Standards {#convert-to-various-pdf-standards}
 
-Aspose.Words stellt die [PdfCompliace](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/)-Enumeration zur Unterstützung der Konvertierung von DOC oder DOCX in verschiedene PDF-Formatstandards (z. B. PDF 1.7, PDF 1.5 usw.) bereit.
+Aspose.Words stellt die [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/)-Enumeration zur Unterstützung der Konvertierung von DOC oder DOCX in verschiedene PDF-Formatstandards (z. B. PDF 1.7, PDF 1.5 usw.) bereit.
 
 Das folgende Codebeispiel zeigt, wie ein Dokument mithilfe von [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) und [PDF17](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf17)-Konformität in PDF 1.7 konvertiert wird:
 

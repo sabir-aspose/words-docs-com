@@ -47,7 +47,7 @@ timestamp: 2024-01-31-14-23-37
 
 ### แปลงเป็นมาตรฐานPDFที่แตกต่างกัน {#converting-to-various-pdf-standards}
 
-Aspose.Wordsให้การแจงนับ[PdfCompliace](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)เพื่อสนับสนุนการแปลงDOCหรือDOCXเป็นมาตรฐานรูปแบบต่างๆPDF(เช่นPDF 1.7, PDF 1.5, ฯลฯ).
+Aspose.Wordsให้การแจงนับ[PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)เพื่อสนับสนุนการแปลงDOCหรือDOCXเป็นมาตรฐานรูปแบบต่างๆPDF(เช่นPDF 1.7, PDF 1.5, ฯลฯ).
 
 ตัวอย่างรหัสต่อไปนี้แสดงให้เห็นถึงวิธีการแปลงเอกสารเป็นPDF1.7โดยใช้[PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/)กับการปฏิบัติตามPDF17:
 

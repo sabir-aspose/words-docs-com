@@ -47,7 +47,7 @@ timestamp: 2024-01-31-14-23-37
 
 ### המרת PDF סטנדרטים {#convert-to-various-pdf-standards}
 
-Aspose.Words מספק [PdfCompliace](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) תמיכה בהמרות DOC או DOCX לסטנדרטים שונים של פורמט PDF (כגון PDF1.7, PDF וכו').
+Aspose.Words מספק [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) תמיכה בהמרות DOC או DOCX לסטנדרטים שונים של פורמט PDF (כגון PDF1.7, PDF וכו').
 
 הדוגמה הבאה של הקוד מראה כיצד להמיר מסמך ל- PDF1.7 באמצעות שימוש ב- PDF [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) לציית [PDF17](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf17):
 

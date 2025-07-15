@@ -47,7 +47,7 @@ DOC または DOCX ドキュメント形式から Aspose.Words の PDF 形式へ
 
 ### さまざまな PDF 標準 {#convert-to-various-pdf-standards} に変換
 
-Aspose.Words は、DOC または DOCX からさまざまな PDF 形式標準 (PDF 1.7、PDF 1.5 など) への変換をサポートする [PdfCompliace](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) 列挙を提供します。
+Aspose.Words は、DOC または DOCX からさまざまな PDF 形式標準 (PDF 1.7、PDF 1.5 など) への変換をサポートする [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) 列挙を提供します。
 
 次のコード例は、[PDF17](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf17) に準拠した [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) を使用してドキュメントを PDF 1.7 に変換する方法を示しています。
 

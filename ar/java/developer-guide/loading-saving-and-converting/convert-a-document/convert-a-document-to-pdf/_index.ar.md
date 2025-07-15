@@ -47,7 +47,7 @@ timestamp: 2024-01-31-14-23-37
 
 ### تحويل إلى معايير PDF مختلفة {#converting-to-various-pdf-standards}
 
-Aspose.Words يوفر [PdfCompliace](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)التعداد لدعم تحويل DOC أو DOCX إلى معايير تنسيق PDF مختلفة (مثل PDF 1.7, PDF 1.5, الخ.).
+Aspose.Words يوفر [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)التعداد لدعم تحويل DOC أو DOCX إلى معايير تنسيق PDF مختلفة (مثل PDF 1.7, PDF 1.5, الخ.).
 
 يوضح مثال الكود التالي كيفية تحويل مستند إلى PDF 1.7 باستخدام [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) مع الامتثال ل PDF17:
 

@@ -47,7 +47,7 @@ Observe que com a mesma técnica, você pode converter qualquer documento em for
 
 ### Converter para vários padrões PDF {#convert-to-various-pdf-standards}
 
-Aspose.Words fornece a enumeração [PdfCompliace](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) para suportar a conversão de DOC ou DOCX em vários padrões de formato PDF (como PDF 1.7, PDF 1.5, etc.).
+Aspose.Words fornece a enumeração [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) para suportar a conversão de DOC ou DOCX em vários padrões de formato PDF (como PDF 1.7, PDF 1.5, etc.).
 
 O exemplo de código a seguir demonstra como converter um documento em PDF 1.7 usando [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) compatível com [PDF17](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf17):
 

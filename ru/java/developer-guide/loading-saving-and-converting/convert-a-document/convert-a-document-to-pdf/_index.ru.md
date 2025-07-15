@@ -47,7 +47,7 @@ timestamp: 2024-01-31-14-23-37
 
 ### Преобразование в другие стандарты PDF {#converting-to-various-pdf-standards}
 
-Aspose.Words предоставляет перечисление [PdfCompliace](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) для поддержки преобразования DOC или DOCX в различные стандарты формата PDF (такие как PDF 1.7, PDF 1.5, и т.д.).
+Aspose.Words предоставляет перечисление [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) для поддержки преобразования DOC или DOCX в различные стандарты формата PDF (такие как PDF 1.7, PDF 1.5, и т.д.).
 
 Следующий пример кода демонстрирует, как преобразовать документ в PDF 1.7, используя [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) с соблюдением PDF17:
 

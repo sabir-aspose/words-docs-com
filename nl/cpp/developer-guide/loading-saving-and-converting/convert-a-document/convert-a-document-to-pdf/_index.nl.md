@@ -47,7 +47,7 @@ Merk op dat u met dezelfde techniek elk document in flow-layout-indeling kunt co
 
 ### Converteren naar verschillende PDF standaarden {#converting-to-various-pdf-standards}
 
-Aspose.Words biedt de [PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) opsomming ter ondersteuning van de omzetting van DOC of DOCX in verschillende PDF formaat standaarden (zoals PDF 1.7, PDF 1.5, enz.).
+Aspose.Words biedt de [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) opsomming ter ondersteuning van de omzetting van DOC of DOCX in verschillende PDF formaat standaarden (zoals PDF 1.7, PDF 1.5, enz.).
 
 Het volgende codevoorbeeld laat zien hoe u een document converteert naar PDF 1.7 met behulp van [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) met naleving van PDF17:
 

@@ -47,7 +47,7 @@ timestamp: 2024-01-31-14-23-37
 
 ### 转换为不同的PDF标准 {#converting-to-various-pdf-standards}
 
-Aspose.Words提供[PdfCompliace](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)枚举以支持将DOC或DOCX转换为各种PDF格式标准（例如PDF 1.7, PDF 1.5, 等。).
+Aspose.Words提供[PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)枚举以支持将DOC或DOCX转换为各种PDF格式标准（例如PDF 1.7, PDF 1.5, 等。).
 
 下面的代码示例演示如何使用符合PDF17的[PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/)将文档转换为PDF1.7:
 

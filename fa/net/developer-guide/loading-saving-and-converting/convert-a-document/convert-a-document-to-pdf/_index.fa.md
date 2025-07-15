@@ -47,7 +47,7 @@ timestamp: 2024-09-25-11-08-55
 
 ### تبدیل به استانداردهای مختلف PDF
 
-Aspose.Words [PdfCompliace](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/)enumeration را برای پشتیبانی از تبدیل DOC یا DOCX به استانداردهای فرمت PDF مختلف (مانند PDF 1.7، PDF 1.5 و غیره) فراهم می کند.
+Aspose.Words [PdfCompliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/)enumeration را برای پشتیبانی از تبدیل DOC یا DOCX به استانداردهای فرمت PDF مختلف (مانند PDF 1.7، PDF 1.5 و غیره) فراهم می کند.
 
 مثال کد زیر نحوه تبدیل یک سند به PDF 1.7 را با استفاده از [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) با انطباق با PDF17 نشان می دهد:
 

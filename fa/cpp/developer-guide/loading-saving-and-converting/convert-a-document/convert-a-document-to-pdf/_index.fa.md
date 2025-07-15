@@ -47,7 +47,7 @@ timestamp: 2024-10-21-08-52-03
 
 ### تبدیل به استانداردهای مختلف PDF {#converting-to-various-pdf-standards}
 
-Aspose.Words شمارش [PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) را برای پشتیبانی از تبدیل DOC یا DOCX به استانداردهای قالب PDF مختلف (مانند PDF 1.7، PDF 1.5، و غیره) ارائه می‌کند.
+Aspose.Words شمارش [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) را برای پشتیبانی از تبدیل DOC یا DOCX به استانداردهای قالب PDF مختلف (مانند PDF 1.7، PDF 1.5، و غیره) ارائه می‌کند.
 
 مثال کد زیر نشان می دهد که چگونه یک سند را به PDF 1.7 با استفاده از [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) با انطباق به PDF17 تبدیل کنیم:
 

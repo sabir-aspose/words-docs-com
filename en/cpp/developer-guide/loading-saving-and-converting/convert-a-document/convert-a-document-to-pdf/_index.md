@@ -16,7 +16,7 @@ The ability to easily and reliably convert documents from one format to another 
 
 ## Convert a Word Document to PDF {#convert-a-word-document-to-pdf}
 
-Conversion from Word to PDF is a rather complex process that requires several stages of calculation. Aspose.Words layout engine mimics the way the Microsoft Word’s page layout engine works, making PDF output documents look as close as possible to what you can see in Microsoft Word.
+Conversion from Word to PDF is a rather complex process that requires several stages of calculation. Aspose.Words layout engine mimics the way Microsoft Word’s page layout engine works, making PDF output documents look as close as possible to what you can see in Microsoft Word.
 
 With Aspose.Words you can programmatically convert a document from DOC or DOCX format to PDF without using Microsoft Office. This article explains how to perform this conversion.
 
@@ -49,7 +49,7 @@ Note that with the same technique, you can convert any flow-layout format docume
 
 ### Convert to Different PDF Standards {#converting-to-various-pdf-standards}
 
-Aspose.Words provides the [PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) enumeration to support the conversion of DOC or DOCX into various PDF format standards (such as PDF 1.7, PDF 1.5, etc.).
+Aspose.Words provides the [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) enumeration to support the conversion of DOC or DOCX into various PDF format standards (such as PDF 1.7, PDF 1.5, etc.).
 
 The following code example demonstrates how to convert a document to PDF 1.7 using [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) with compliance to PDF17:
 

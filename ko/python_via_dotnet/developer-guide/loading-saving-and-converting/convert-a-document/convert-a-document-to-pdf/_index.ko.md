@@ -47,7 +47,7 @@ DOC 또는 DOCX 문서 형식을 Aspose.Words의 PDF 형식으로 변환하는 �
 
 ### 다양한 PDF 표준으로 변환 {#convert-to-various-pdf-standards}
 
-Aspose.Words는 DOC 또는 DOCX를 다양한 PDF 형식 표준(예: PDF 1.7, PDF 1.5 등)으로 변환하는 것을 지원하는 [PdfCompliace](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) 열거형을 제공합니다.
+Aspose.Words는 DOC 또는 DOCX를 다양한 PDF 형식 표준(예: PDF 1.7, PDF 1.5 등)으로 변환하는 것을 지원하는 [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) 열거형을 제공합니다.
 
 다음 코드 예제는 [PDF17](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf17)를 준수하는 [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/)를 사용하여 문서를 PDF 1.7로 변환하는 방법을 보여줍니다
 

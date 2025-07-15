@@ -47,7 +47,7 @@ timestamp: 2024-10-21-08-52-03
 
 ### 다른 것으로 변환 PDF 표준 {#converting-to-various-pdf-standards}
 
-Aspose.Words 제공 [PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) 의 변환을 지원하기 위한 열거 DOC 또는 DOCX 다양한 PDF 형식 표준(예: PDF 1.7, PDF 1.5 그 밖의).
+Aspose.Words 제공 [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) 의 변환을 지원하기 위한 열거 DOC 또는 DOCX 다양한 PDF 형식 표준(예: PDF 1.7, PDF 1.5 그 밖의).
 
 다음 코드 예제에서는 문서를 다음과 같이 변환하는 방법을 보여 줍니다 PDF 1.7 사용 [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) 준수 PDF17:
 

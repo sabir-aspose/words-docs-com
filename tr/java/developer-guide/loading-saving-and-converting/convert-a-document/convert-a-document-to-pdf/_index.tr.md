@@ -47,7 +47,7 @@ Nihayetinde aynı tekniği kullanarak herhangi bir akış düzeni biçimli belge
 
 ### Farklı PDF Standartlarına Dönüştür {#converting-to-various-pdf-standards}
 
-Aspose.Words çeşitli PDF biçim standartlarını (örneğin, PDF 1.7, PDF 1.5 vb.) desteklemek için DOC veya DOCX'i dönüştürmek için [PdfCompliace ](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) numaralandırmasını sağlar.
+Aspose.Words çeşitli PDF biçim standartlarını (örneğin, PDF 1.7, PDF 1.5 vb.) desteklemek için DOC veya DOCX'i dönüştürmek için [PdfCompliance ](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) numaralandırmasını sağlar.
 
 Aşağıdaki kod örneği bir belgeyi PDF 1.7 formatına dönüştürmenin nasıl yapılacağını [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/)'i kullanarak PDF17 uyumluluğuna sahip olarak göstermektedir:
 

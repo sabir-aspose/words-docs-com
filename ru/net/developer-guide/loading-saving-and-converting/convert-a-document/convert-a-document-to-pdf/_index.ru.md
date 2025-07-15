@@ -47,7 +47,7 @@ timestamp: 2024-09-25-11-08-55
 
 ### Преобразование в другой PDF Стандарты
 
-Aspose.Words обеспечивает [PdfCompliace](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/)Перечисление для поддержки преобразования DOC или DOCX в различные стандарты формата PDF (например, PDF 1.7, PDF 1.5 и т.д.).
+Aspose.Words обеспечивает [PdfCompliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/)Перечисление для поддержки преобразования DOC или DOCX в различные стандарты формата PDF (например, PDF 1.7, PDF 1.5 и т.д.).
 
 Следующий пример кода показывает, как преобразовать документ в PDF 1.7 с помощью: [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) Соответствие требованиям PDF17:
 

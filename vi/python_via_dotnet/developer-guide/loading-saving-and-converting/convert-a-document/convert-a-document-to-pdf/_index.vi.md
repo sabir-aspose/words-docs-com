@@ -47,7 +47,7 @@ Lưu ý rằng với kỹ thuật tương tự, bạn có thể chuyển đổi 
 
 ### Chuyển đổi sang các tiêu chuẩn PDF khác nhau {#convert-to-various-pdf-standards}
 
-Aspose.Words cung cấp bảng liệt kê [PdfCompliace](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) để hỗ trợ chuyển đổi DOC hoặc DOCX thành các tiêu chuẩn định dạng PDF khác nhau (chẳng hạn như PDF 1.7, PDF 1.5, v.v.).
+Aspose.Words cung cấp bảng liệt kê [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) để hỗ trợ chuyển đổi DOC hoặc DOCX thành các tiêu chuẩn định dạng PDF khác nhau (chẳng hạn như PDF 1.7, PDF 1.5, v.v.).
 
 Ví dụ về mã sau đây minh họa cách chuyển đổi tài liệu sang PDF 1.7 bằng [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) tuân thủ [PDF17](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf17):
 

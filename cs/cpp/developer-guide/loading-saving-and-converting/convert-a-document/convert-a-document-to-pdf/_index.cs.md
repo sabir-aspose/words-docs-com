@@ -47,7 +47,7 @@ Všimněte si, že stejnou technikou můžete převést jakýkoli dokument ve fo
 
 ### Převést na různé PDF standardy {#converting-to-various-pdf-standards}
 
-Aspose.Words poskytuje výčet [PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) na podporu převodu DOC nebo DOCX do různých standardů formátu PDF (například PDF 1.7, PDF 1.5, atd.).
+Aspose.Words poskytuje výčet [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) na podporu převodu DOC nebo DOCX do různých standardů formátu PDF (například PDF 1.7, PDF 1.5, atd.).
 
 Následující příklad kódu ukazuje, jak převést dokument na PDF 1.7 Pomocí [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) s dodržením PDF17:
 

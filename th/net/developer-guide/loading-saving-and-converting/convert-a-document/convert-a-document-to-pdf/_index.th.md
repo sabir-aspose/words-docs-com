@@ -47,7 +47,7 @@ timestamp: 2024-09-25-11-08-55
 
 ### แปลงเป็นมาตรฐาน PDF ที่แตกต่างกัน
 
-Aspose.Words จัดเตรียม [PdfCompliace](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/)enumeration เพื่อรองรับการแปลง DOC หรือ DOCX ไปเป็นมาตรฐานรูปแบบ PDF ต่างๆ (เช่น PDF 1.7, PDF 1.5 เป็นต้น)
+Aspose.Words จัดเตรียม [PdfCompliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/)enumeration เพื่อรองรับการแปลง DOC หรือ DOCX ไปเป็นมาตรฐานรูปแบบ PDF ต่างๆ (เช่น PDF 1.7, PDF 1.5 เป็นต้น)
 
 ตัวอย่างโค้ดต่อไปนี้สาธิตวิธีการแปลงเอกสารเป็น PDF 1.7 โดยใช้ [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) ตามมาตรฐาน PDF17:
 

@@ -47,7 +47,7 @@ timestamp: 2024-10-21-08-52-03
 
 ### המר לסטנדרטים שונים PDF {#converting-to-various-pdf-standards}
 
-Aspose.Words מספק את הספירה [PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) כדי לתמוך בהמרה של DOC או DOCX לתקני פורמט שונים PDF (כגון PDF 1.7, PDF 1.5, וכו'.).
+Aspose.Words מספק את הספירה [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) כדי לתמוך בהמרה של DOC או DOCX לתקני פורמט שונים PDF (כגון PDF 1.7, PDF 1.5, וכו'.).
 
 דוגמת הקוד הבאה מדגימה כיצד להמיר מסמך ל - PDF 1.7 באמצעות [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) עם תאימות ל - PDF17:
 

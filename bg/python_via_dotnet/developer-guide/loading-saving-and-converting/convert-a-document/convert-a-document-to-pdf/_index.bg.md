@@ -47,7 +47,7 @@ timestamp: 2024-01-31-14-23-37
 
 ### Конвертиране към различни PDF Стандарти {#convert-to-various-pdf-standards}
 
-Aspose.Words осигурява [PdfCompliace](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) изброяване в подкрепа на превръщането на DOC или DOCX в различни PDF форматови стандарти (като PDF 1.7, PDF 1.5 и др.).
+Aspose.Words осигурява [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) изброяване в подкрепа на превръщането на DOC или DOCX в различни PDF форматови стандарти (като PDF 1.7, PDF 1.5 и др.).
 
 Следният пример за код показва как да се превърне документ в PDF 1.7 използване [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) при спазване на [PDF17](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf17):
 

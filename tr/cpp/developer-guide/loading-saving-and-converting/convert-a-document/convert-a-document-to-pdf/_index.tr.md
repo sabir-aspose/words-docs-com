@@ -47,7 +47,7 @@ Aynı teknikle, herhangi bir akış düzeni biçimi belgesini PDF biçimine dön
 
 ### Farklı PDF Standartlara Dönüştür {#converting-to-various-pdf-standards}
 
-Aspose.Words, DOC veya DOCX'in çeşitli PDF format standartlarına dönüştürülmesini desteklemek için [PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) numaralandırmasını sağlar (ör. PDF 1.7, PDF 1.5, vb.).
+Aspose.Words, DOC veya DOCX'in çeşitli PDF format standartlarına dönüştürülmesini desteklemek için [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) numaralandırmasını sağlar (ör. PDF 1.7, PDF 1.5, vb.).
 
 Aşağıdaki kod örneği, bir belgenin PDF 17'ye uygun olarak [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) kullanılarak PDF 1.7'ye nasıl dönüştürüleceğini göstermektedir:
 

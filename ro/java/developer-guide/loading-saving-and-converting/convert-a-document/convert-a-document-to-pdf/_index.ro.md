@@ -47,7 +47,7 @@ Rețineți că, cu aceeași tehnică, puteți converti orice document în format
 
 ### Conversia la diferite PDF standarde {#converting-to-various-pdf-standards}
 
-Aspose.Words oferă enumerarea [PdfCompliace ](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)pentru a sprijini conversia DOC sau DOCX în diferite standarde de format PDF (cum ar fi PDF 1.7, PDF 1.5, etc.).
+Aspose.Words oferă enumerarea [PdfCompliance ](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)pentru a sprijini conversia DOC sau DOCX în diferite standarde de format PDF (cum ar fi PDF 1.7, PDF 1.5, etc.).
 
 Următorul exemplu de cod demonstrează cum se convertește un document în PDF 1.7 folosind [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) Cu conformitate cu PDF17:
 

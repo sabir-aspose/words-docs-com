@@ -47,7 +47,7 @@ Let daarop dat met dieselfde tegniek, kan jy enige vloei-uitleg formaat dokument
 
 ### Skakel Na Verskeie PDF Standaarde {#convert-to-various-pdf-standards}
 
-Aspose.Words verskaf die [PdfCompliace](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) opsomming om die omskakeling van DOC of DOCX in verskillende PDF formaat standaarde (soos PDF 1.7, PDF 1.5, en so aan.).
+Aspose.Words verskaf die [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) opsomming om die omskakeling van DOC of DOCX in verskillende PDF formaat standaarde (soos PDF 1.7, PDF 1.5, en so aan.).
 
 Die volgende kode voorbeeld demonstreer hoe om'n dokument te omskep na PDF 1.7 met behulp van [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) met ooreenstemming met [PDF17](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf17):
 

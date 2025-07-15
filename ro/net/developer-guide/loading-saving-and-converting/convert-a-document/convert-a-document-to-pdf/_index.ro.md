@@ -47,7 +47,7 @@ Notați că cu aceeași tehnică puteți converti orice document cu formatare pe
 
 ### Converteste la standarde diferite de PDF
 
-Aspose.Words oferă enumerarea [PdfCompliace ](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) pentru a sprijini conversia de la DOC sau DOCX în diferite standarde PDF (cum ar fi PDF 1.7, PDF 1.5, etc.).
+Aspose.Words oferă enumerarea [PdfCompliance ](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) pentru a sprijini conversia de la DOC sau DOCX în diferite standarde PDF (cum ar fi PDF 1.7, PDF 1.5, etc.).
 
 Exemplul următor de cod demonstrează cum să converţi un document la format PDF 1.7 utilizând [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) cu conformitate la PDF17:
 

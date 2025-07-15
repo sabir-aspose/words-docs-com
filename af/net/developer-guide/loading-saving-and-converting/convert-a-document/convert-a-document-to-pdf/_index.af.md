@@ -47,7 +47,7 @@ Let daarop dat met dieselfde tegniek, kan jy enige vloei-uitleg formaat dokument
 
 ### Skakel Na Verskillende PDF Standaarde
 
-Aspose.Words bied die [PdfCompliace ](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/)opsomming te ondersteun die omskakeling van DOC of DOCX in verskeie PDF formaat standaarde (soos PDF 1.7, PDF 1.5, ens.).
+Aspose.Words bied die [PdfCompliance ](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/)opsomming te ondersteun die omskakeling van DOC of DOCX in verskeie PDF formaat standaarde (soos PDF 1.7, PDF 1.5, ens.).
 
 Die volgende kode voorbeeld demonstreer hoe om'n dokument te omskep in PDF 1.7 met behulp van [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) met ooreenstemming met PDF17:
 

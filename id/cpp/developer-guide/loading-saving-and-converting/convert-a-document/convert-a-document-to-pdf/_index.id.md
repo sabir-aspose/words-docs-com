@@ -47,7 +47,7 @@ Perhatikan bahwa dengan teknik yang sama, Anda dapat mengonversi dokumen format 
 
 ### Konversikan ke Standar PDF yang Berbeda {#converting-to-various-pdf-standards}
 
-Aspose.Words menyediakan pencacahan [PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) untuk mendukung konversi DOC atau DOCX menjadi berbagai standar format PDF (seperti PDF 1.7, PDF 1.5, dll.).
+Aspose.Words menyediakan pencacahan [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) untuk mendukung konversi DOC atau DOCX menjadi berbagai standar format PDF (seperti PDF 1.7, PDF 1.5, dll.).
 
 Contoh kode berikut menunjukkan cara mengonversi dokumen menjadi PDF 1.7 menggunakan [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) dengan kepatuhan terhadap PDF1 7:
 
