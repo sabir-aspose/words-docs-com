@@ -470,7 +470,7 @@ Aspose.Words23.12引入了新的属性和枚举，用于处理PDF文档，支持
 
 {{% alert color="primary" %}}
 
-了解更多关于 [Aspose.Words为Java 23.9发行说明](/words/java/aspose-words-for-java-23-9-release-notes/).
+了解更多关于 [Aspose.Words为Java 23.9发行说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-9-release-notes/).
 
 了解更多关于 [Aspose.Words为Java 23.10发行说明](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 

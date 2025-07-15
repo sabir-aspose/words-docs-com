@@ -470,7 +470,7 @@ TXT belgeleri yüklerken köprüleri tanıma özelliği, yeni bir [DetectHyperli
 
 {{% alert color="primary" %}}
 
-Hakkında daha fazla bilgi edinin [Aspose.Words için Java 23.9 Sürüm Notları](/words/java/aspose-words-for-java-23-9-release-notes/).
+Hakkında daha fazla bilgi edinin [Aspose.Words için Java 23.9 Sürüm Notları](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-9-release-notes/).
 
 Hakkında daha fazla bilgi edinin [Aspose.Words için Java 23.10 Sürüm Notları](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 

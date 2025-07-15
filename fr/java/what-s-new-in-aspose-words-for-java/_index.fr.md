@@ -470,7 +470,7 @@ La fonctionnalité de reconnaissance des hyperliens lors du chargement de docume
 
 {{% alert color="primary" %}}
 
-En savoir plus sur [Aspose.Words pour Java 23.9 Notes de version](/words/java/aspose-words-for-java-23-9-release-notes/).
+En savoir plus sur [Aspose.Words pour Java 23.9 Notes de version](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-9-release-notes/).
 
 En savoir plus sur [Aspose.Words pour Java 23.10 Notes de version](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 

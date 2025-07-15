@@ -470,7 +470,7 @@ Caracteristica de recunoaștere a hyperlink-urilor la încărcarea documentelor 
 
 {{% alert color="primary" %}}
 
-Aflați mai multe despre [Aspose.Words pentru Java 23.9 Note De Lansare](/words/java/aspose-words-for-java-23-9-release-notes/).
+Aflați mai multe despre [Aspose.Words pentru Java 23.9 Note De Lansare](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-9-release-notes/).
 
 Aflați mai multe despre [Aspose.Words pentru Java 23.10 Note De Lansare](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 
