@@ -9,7 +9,7 @@ weight: 45
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/convert-a-multi-page-document-to-an-image/
-timestamp: 2025-07-01-11-12-25
+timestamp: 2025-07-16-11-12-25
 ---
 
 Aspose.Words for C++ allows users to export multi-page documents to raster images. This can be useful for generating previews, archives, or visual representations of documents for non-editable use.
@@ -27,12 +27,43 @@ Aspose.Words supports multi-page export to the following raster image formats:
 
 ## How to Export a Multi-page Document to an Image
 
-The feature of exporting a multi-page document to an image is implemented using the **MultiPageLayout** class – you can specify how the pages should be organized when saving to an image:
+The feature of exporting a multi-page document to an image is implemented using the [MultiPageLayout](https://reference.aspose.com/words/cpp/aspose.words.saving/multipagelayout/) class – you can specify how the pages should be organized when saving to an image:
 
-* **SinglePage** – save only the first of the specified pages
-* **Grid** – arrange the pages in a grid, left-to-right and top-to-bottom, while specifying the number of columns
-* **Horizontal** – arrange the pages horizontally side-by-side, left-to-right, in a single output
-* **Vertical** – arrange the pages vertically one below the other in a single output
-* **TiffFrames** – arrange each page as a separate frame in a multi-frame TIFF image, applies only to TIFF image formats
+* [SinglePage](https://reference.aspose.com/words/cpp/aspose.words.saving/multipagelayout/singlepage/) – save only the first of the specified pages
+* [Grid](https://reference.aspose.com/words/cpp/aspose.words.saving/multipagelayout/grid/) – arrange the pages in a grid, left-to-right and top-to-bottom, while specifying the number of columns
+* [Horizontal](https://reference.aspose.com/words/cpp/aspose.words.saving/multipagelayout/horizontal/) – arrange the pages horizontally side-by-side, left-to-right, in a single output
+* [Vertical](https://reference.aspose.com/words/cpp/aspose.words.saving/multipagelayout/vertical/) – arrange the pages vertically one below the other in a single output
+* [TiffFrames](https://reference.aspose.com/words/cpp/aspose.words.saving/multipagelayout/tiffframes/) – arrange each page as a separate frame in a multi-frame TIFF image, applies only to TIFF image formats
 
-You can also customize the output file page appearance – specify **BackColor**, **BorderColor**, and **BorderWidth**.
+The following code example shows how to save a multi-page DOCX document as JPEG image with Horizontal layout:
+
+{{< highlight cpp >}}
+auto doc = System::MakeObject<Aspose::Words::Document>(u"Rendering.docx");
+
+auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Jpeg);
+// Set up Horizontal layout.
+options.MultiPageLayout = MultiPageLayout.Horizontal(10);
+
+doc->Save(u"ImageSaveOptions.GridLayout.jpg", options);
+{{< /highlight >}}
+
+You can also customize the output file page appearance – specify [BackColor](https://reference.aspose.com/words/cpp/aspose.words.saving/multipagelayout/get_backcolor/), [BorderColor](https://reference.aspose.com/words/cpp/aspose.words.saving/multipagelayout/get_bordercolor/), and [BorderWidth](https://reference.aspose.com/words/cpp/aspose.words.saving/multipagelayout/get_borderwidth/).
+
+The following code example shows how to save a multi-page DOCX document as PNG image with Grid layout:
+
+{{< highlight cpp >}}
+auto doc = System::MakeObject<Aspose::Words::Document>(u"Rendering.docx");
+
+auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Jpeg);
+// Set up a grid layout with:
+// - 3 columns per row.
+// - 10pts spacing between pages (horizontal and vertical).
+options->set_PageLayout(Aspose::Words::Saving::MultiPageLayout::Grid(3, 10.0f, 10.0f));
+
+// Customize the background and border.
+options->get_PageLayout()->set_BackColor(System::Drawing::Color::get_LightGray());
+options->get_PageLayout()->set_BorderColor(System::Drawing::Color::get_Blue());
+options->get_PageLayout()->set_BorderWidth(2.0f);
+
+doc->Save(u"ImageSaveOptions.GridLayout.jpg", options);
+{{< /highlight >}}
