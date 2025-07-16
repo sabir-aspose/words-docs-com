@@ -9,16 +9,18 @@ weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-06-23-21-02-49
+timestamp: 2025-07-16-11-12-25
 ---
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Python via .NET 25.5, 25.6
+## Aspose.Words for Python via .NET 25.5, 25.6, 25.7
 
 Aspose.Words 25.5 enhances chart customization with new styling options and improves Markdown export by offering control over how empty paragraphs are handled.
 
 Aspose.Words 25.6 enhances rendering precision and visualization features by introducing advanced image export options, improved MathML handling, and better chart representation.
+
+Aspose.Words 25.7 introduces flexible table row visibility and richer typography with OpenType Font Variations.
 
 ### Converting, Loading, and Saving Documents
 
@@ -44,15 +46,22 @@ The rendering of connector lines in MathML expressions has been implemented to e
 
 The rendering of legends for ["Waterfall" charts](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriestype/) has been introduced, increasing data transparency and improving the interpretability of these charts.
 
+#### Support for OpenType Font Variations <sup>25.7</sup>
+
+Initial support for OpenType Font Variations has been implemented, allowing for more flexible and expressive typographic rendering.
+
 ### Other
 
 * The ability to wrap mathematical formulas containing multiple slashes has been enhanced, improving layout clarity and formula legibility. <sup>25.6</sup>
+* The ability to programmatically show or hide specific table rows has been introduced by adding the **Row.Hidden** property. <sup>25.7</sup>
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for Python via .NET 25.5 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-5-release-notes/).
 
 Learn more about [Aspose.Words for Python via .NET 25.6 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-6-release-notes/).
+
+Learn more about [Aspose.Words for Python via .NET 25.7 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-7-release-notes/).
 
 {{% /alert %}}
 
