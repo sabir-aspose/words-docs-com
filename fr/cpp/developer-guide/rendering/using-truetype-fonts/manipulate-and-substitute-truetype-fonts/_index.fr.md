@@ -1,4 +1,4 @@
----
+﻿---
 title: Manipuler et remplacer les polices TrueType en C++
 second_title: Aspose.Words pour C++
 articleTitle: Manipuler et remplacer les polices TrueType
@@ -21,7 +21,7 @@ Notez que la police dans le document représente une entité, telle que le nom d
 
 ## Où Aspose.Words Recherche les polices
 
-Aspose.Words tente de trouver automatiquement TrueType polices sur le système de fichiers. Habituellement, vous pouvez compter sur le comportement par défaut de Aspose.Words pour trouver les polices `TrueType`, mais parfois vous devez spécifier vos propres dossiers contenant les polices TrueType. Les [Spécifiez l'emplacement des polices TrueType ](/words/cpp/specify-truetype-fonts-location/) la rubrique décrit comment et où Aspose.Words recherche les polices, ainsi que comment spécifier vos propres emplacements de police.
+Aspose.Words tente de trouver automatiquement TrueType polices sur le système de fichiers. Habituellement, vous pouvez compter sur le comportement par défaut de Aspose.Words pour trouver les polices `TrueType`, mais parfois vous devez spécifier vos propres dossiers contenant les polices TrueType. Les [Spécifiez l'emplacement des polices TrueType ](/words/fr/cpp/specify-truetype-fonts-location/) la rubrique décrit comment et où Aspose.Words recherche les polices, ainsi que comment spécifier vos propres emplacements de police.
 
 ## Différences dans le traitement des formats de police dans Aspose.Words et Microsoft Word
 

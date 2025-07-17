@@ -27,7 +27,7 @@ Markdown功能实现大多遵循Aspose.WordsAPI中的`CommonMark`规范，所有
 
 {{% alert color="primary" %}}
 
-将Markdown转换为Aspose.Words文档对象模型（DOM）有细微差别，如本文所述 [将Markdown转换为文档对象模型(DOM)](/words/java/translate-markdown-to-document-object-model/).
+将Markdown转换为Aspose.Words文档对象模型（DOM）有细微差别，如本文所述 [将Markdown转换为文档对象模型(DOM)](/words/zh/java/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

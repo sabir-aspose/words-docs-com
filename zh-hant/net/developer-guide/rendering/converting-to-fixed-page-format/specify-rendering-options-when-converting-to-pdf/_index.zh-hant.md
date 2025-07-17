@@ -1,4 +1,4 @@
----
+﻿---
 title: 將檔案轉換為PDF時之選項
 second_title: Aspose.Words for .NET
 articleTitle: 在轉換為 PDF 時指定渲染選項
@@ -96,7 +96,7 @@ Aspose.Words也讓您可以將文件自訂屬性輸出至 PDF，如以下範例�
 
 ## 在 Adobe PDF 格式中嵌入字體
 
-Aspose.Words 也讓您控制結果的 PDF 文件中嵌入字型的方式。 字型必須被嵌入於任何的 Adobe PDF 文檔中，以確保該文檔可以在任何機器上正確地顯示（請見第 [Using TrueType Fonts](/words/net/using-truetype-fonts/) 節中有關字型渲染的詳細說明）。 在預設情況下，Aspose.Words會將文檔中使用的字體嵌入到生成的 PDF 檔案中。 在这种情况下，只有在文档中使用的字体（字符）被保存为PDF。
+Aspose.Words 也讓您控制結果的 PDF 文件中嵌入字型的方式。 字型必須被嵌入於任何的 Adobe PDF 文檔中，以確保該文檔可以在任何機器上正確地顯示（請見第 [Using TrueType Fonts](/words/zh-hant/net/using-truetype-fonts/) 節中有關字型渲染的詳細說明）。 在預設情況下，Aspose.Words會將文檔中使用的字體嵌入到生成的 PDF 檔案中。 在这种情况下，只有在文档中使用的字体（字符）被保存为PDF。
 
 ### 何時使用全字型，何時使用子集
 

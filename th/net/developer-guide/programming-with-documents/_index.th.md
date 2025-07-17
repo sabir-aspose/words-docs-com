@@ -1,4 +1,4 @@
----
+﻿---
 title: การเขียนโปรแกรมด้วยเอกสารใน C#
 second_title: Aspose.Words สำหรับ .NET
 articleTitle: การเขียนโปรแกรมด้วยเอกสาร
@@ -58,6 +58,6 @@ timestamp: 2024-09-25-11-08-55
 - [การทำงานกับอักขระควบคุม](/words/th/net/working-with-control-characters/)
 - [การทำงานกับมาโคร VBA](/words/th/net/working-with-vba-macros/)
 - [การทำงานกับคุณสมบัติ Markdown](/words/th/net/working-with-markdown-features/)
-- [การทำงานกับเอกสารข้อความ](/words/net/working-with-text-document/)
+- [การทำงานกับเอกสารข้อความ](/words/th/net/working-with-text-document/)
 
 สำหรับคำอธิบายโดยละเอียดของคลาส วิธีการ และคุณสมบัติ โปรดดูส่วน Aspose.Words สำหรับ .NET API Reference

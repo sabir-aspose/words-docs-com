@@ -1,4 +1,4 @@
----
+﻿---
 title: Convertiți PDF în alte formate de documente
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Convertiți PDF în alte formate de documente
@@ -58,7 +58,7 @@ Unele caracteristici sunt încă în dezvoltare timpurie sau incluse în foaia d
 
 | Excepție | Descriere |
 | -------------------------------- | ------------------------------------------------------------ |
-| *FileLoadException* | Un fișier PDF nu poate fi procesat din anumite motive.<br />{{% alert color="primary" %}}puteți raporta problema echipei de dezvoltare pentru o investigație detaliată utilizând [suport tehnic](/words/python-net/technical-support/).{{% /alert %}} |
+| *FileLoadException* | Un fișier PDF nu poate fi procesat din anumite motive.<br />{{% alert color="primary" %}}puteți raporta problema echipei de dezvoltare pentru o investigație detaliată utilizând [suport tehnic](/words/ro/python-net/technical-support/).{{% /alert %}} |
 | *DrmProtectedFileException* | Un fișier PDF este protejat de Adobe DRM și nu poate fi decodat de Pdf2Word. |
 | *PasswordProtectedFileException* | Parola corectă trebuie furnizată pentru un PDF protejat prin parolă. |
 

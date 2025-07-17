@@ -1,4 +1,4 @@
----
+﻿---
 title: Nasıl kurulur Aspose.Words için C++
 second_title: Aspose.Words için C++
 articleTitle: Kurulum
@@ -10,7 +10,7 @@ url: /tr/cpp/installation/
 timestamp: 2024-09-24-14-35-44
 ---
 
-Makinenizin uygun olduğundan emin olun [sistem gereksinimleri](/words/cpp/system-requirements/) başlamadan önce.
+Makinenizin uygun olduğundan emin olun [sistem gereksinimleri](/words/tr/cpp/system-requirements/) başlamadan önce.
 
 Bu makalede, nasıl kurulacağı açıklanmaktadır Aspose.Words için C++ bilgisayarında.
 

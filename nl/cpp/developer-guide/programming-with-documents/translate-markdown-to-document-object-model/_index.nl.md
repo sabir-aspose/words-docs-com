@@ -12,7 +12,7 @@ timestamp: 2024-10-21-11-17-44
 
 Als u de inhoud en opmaak van een document programmatisch wilt lezen, bewerken en wijzigen, moet u het vertalen naar het Aspose.Words Document Object Model (DOM).
 
-In tegenstelling tot Word documenten, is Markdown niet in overeenstemming met de DOM beschreven in de [Aspose.Words Document Object Model (DOM)](/words/cpp/aspose-words-document-object-model/) artikel. Aspose.Words biedt echter een eigen mechanisme voor het vertalen van Markdown documenten naar DOM en terug, zodat we met succes kunnen werken met hun elementen zoals tekstopmaak, tabellen, koppen en andere.
+In tegenstelling tot Word documenten, is Markdown niet in overeenstemming met de DOM beschreven in de [Aspose.Words Document Object Model (DOM)](/words/nl/cpp/aspose-words-document-object-model/) artikel. Aspose.Words biedt echter een eigen mechanisme voor het vertalen van Markdown documenten naar DOM en terug, zodat we met succes kunnen werken met hun elementen zoals tekstopmaak, tabellen, koppen en andere.
 
 In dit artikel wordt uitgelegd hoe de verschillende markdown - functies kunnen worden vertaald in Aspose.Words DOM en terug naar Markdown - indeling.
 
@@ -105,5 +105,5 @@ Aspose.Words maakt het ook mogelijk om tabellen te vertalen naar DOM, zoals hier
 
 ## Zie Ook
 
-* [Werken met Markdown Functies](/words/cpp/working-with-markdown-features/)
+* [Werken met Markdown Functies](/words/nl/cpp/working-with-markdown-features/)
 

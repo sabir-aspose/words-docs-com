@@ -1,4 +1,4 @@
----
+﻿---
 title: どのようにインストールするには C++の場合Aspose.Words
 second_title: C++の場合Aspose.Words
 articleTitle: インストール
@@ -10,7 +10,7 @@ url: /ja/cpp/installation/
 timestamp: 2024-09-24-14-35-44
 ---
 
-あなたの機械が会うことを確かめて下さい [システム要件](/words/cpp/system-requirements/) 始める前に。
+あなたの機械が会うことを確かめて下さい [システム要件](/words/ja/cpp/system-requirements/) 始める前に。
 
 この記事では、インストール方法について説明します C++の場合Aspose.Words お使いのコンピュータ上で。
 

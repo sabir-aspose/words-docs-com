@@ -1,4 +1,4 @@
----
+﻿---
 title: 安裝
 second_title: Aspose.Words為.NET
 articleTitle: 安裝
@@ -10,7 +10,7 @@ url: /zh-hant/net/installation/
 timestamp: 2024-01-27-14-07-04
 ---
 
-在開始之前，請確定您的機器符合 [system requirements](/words/net/system-requirements/) 的要求。
+在開始之前，請確定您的機器符合 [system requirements](/words/zh-hant/net/system-requirements/) 的要求。
 
 本文說明如何在您的電腦上安裝 Aspose.Words for .NET。
 

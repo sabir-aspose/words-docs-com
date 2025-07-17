@@ -1,4 +1,4 @@
----
+﻿---
 title: Funcții acceptate pe salvarea documentelor
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Funcții acceptate pe salvarea documentelor
@@ -18,6 +18,6 @@ Aspose.Words poate converti un document de orice dimensiune, atâta timp cât ex
 
 {{% alert color="primary" %}}
 
-Pentru mai multe informații și o descriere a caracteristicilor disponibile pentru diferitele formate, consultați [Funcții acceptate pe salvarea documentelor](/words/net/supported-features-on-document-save/) secțiunea din Aspose.Words pentru .NET documentație.
+Pentru mai multe informații și o descriere a caracteristicilor disponibile pentru diferitele formate, consultați [Funcții acceptate pe salvarea documentelor](/words/ro/net/supported-features-on-document-save/) secțiunea din Aspose.Words pentru .NET documentație.
 
 {{% /alert %}}

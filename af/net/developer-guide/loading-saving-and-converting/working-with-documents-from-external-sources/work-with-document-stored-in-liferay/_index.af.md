@@ -1,4 +1,4 @@
----
+﻿---
 title: Werk met'n Dokument Gestoor in'n Liferay
 second_title: Aspose.Words vir .NET
 articleTitle: Werk met'n Dokument Gestoor in'n Liferay
@@ -28,7 +28,7 @@ In hierdie artikel sal ons'n algemene scenario dek om dokumente wat na die worte
 2. Meld u aan [Liferay](http://localhost:8080) gebruik die e-pos adres `test@liferay.com` en wagwoord `test`.
 3. As u gevra word, verander u wagwoord.
 4. Haal die werf identifiseerder met behulp van [hierdie tutoriaal](https://learn.liferay.com/w/dxp/headless-delivery/consuming-apis/consuming-rest-services#identify-the-site-containing-the-data).
-5. Koop'n Aspose.Words lisensie of gebruik'n [Gratis Proeflopie Of 30-dag Tydelike Lisensie](/words/net/licensing/).
+5. Koop'n Aspose.Words lisensie of gebruik'n [Gratis Proeflopie Of 30-dag Tydelike Lisensie](/words/af/net/licensing/).
 
 {{% alert color="primary" %}}
 
@@ -380,4 +380,4 @@ As gevolg hiervan, die "DocumentCompared.docx " lêer moet in die wortel van Dok
 ## Sien Ook
 
 - Die artikel [Werk Met'n Dokument Gestoor In'n `SharePoint` Aanlyn](/words/net/work-with-document-stored-in-sharepoint)
-- Die artikel [Werk met'n Dokument Gemerk met'n Sensitiwiteitsetiket](/words/net/work-with-document-market-by-sensitivity-label/)
+- Die artikel [Werk met'n Dokument Gemerk met'n Sensitiwiteitsetiket](/words/af/net/work-with-document-market-by-sensitivity-label/)

@@ -1,4 +1,4 @@
----
+﻿---
 title: Tổng quan về các trường trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Tổng Quan Về Lĩnh Vực
@@ -29,7 +29,7 @@ Một lĩnh vực bao gồm:
 
 ![fields-overview-aspose-words-cpp-1](fields-overview-1.png)
 
-Nội dung tạo nên mã trường được lưu trữ dưới dạng các nút [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) giữa [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) và [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/). Kết quả trường được lưu trữ giữa các nút **FieldSeparator** và [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) và có thể được tạo thành từ nhiều loại nội dung khác nhau. Thông thường, kết quả trường chỉ chứa văn bản được tạo thành từ các nút **Run**, tuy nhiên có thể nút **FieldEnd** được đặt trong một đoạn hoàn toàn khác và do đó làm cho kết quả trường bao gồm [các nút cấp khối](/words/cpp/logical-levels-of-nodes-in-a-document/) chẳng hạn như các nút **Table** và **Paragraph** là tốt.
+Nội dung tạo nên mã trường được lưu trữ dưới dạng các nút [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) giữa [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) và [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/). Kết quả trường được lưu trữ giữa các nút **FieldSeparator** và [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) và có thể được tạo thành từ nhiều loại nội dung khác nhau. Thông thường, kết quả trường chỉ chứa văn bản được tạo thành từ các nút **Run**, tuy nhiên có thể nút **FieldEnd** được đặt trong một đoạn hoàn toàn khác và do đó làm cho kết quả trường bao gồm [các nút cấp khối](/words/vi/cpp/logical-levels-of-nodes-in-a-document/) chẳng hạn như các nút **Table** và **Paragraph** là tốt.
 
 Dưới đây là cách xem một trường được lưu trữ trong Aspose.Words bằng cách sử dụng ví dụ "*DocumentExplorer"*.
 
@@ -37,7 +37,7 @@ Dưới đây là cách xem một trường được lưu trữ trong Aspose.Wor
 
 ## Các trường trong Mô hình Đối tượng Tài liệu Aspose.Words (DOM)
 
-Khi một tài liệu được tải vào Aspose.Words, các trường của tài liệu được tải vào [Aspose.Words Mô Hình Đối Tượng Tài Liệu](/words/cpp/aspose-words-document-object-model/) là một tập hợp các thành phần riêng biệt (nút). Một trường duy nhất được tải dưới dạng tập hợp các nút **FieldStart**, **FieldSeparator** và **FieldEnd** cùng với nội dung ở giữa các nút này. Nếu một trường không có kết quả trường thì sẽ không có nút **FieldSeparator**. Tất cả các nút này luôn được tìm thấy nội tuyến (là con của [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) hoặc [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
+Khi một tài liệu được tải vào Aspose.Words, các trường của tài liệu được tải vào [Aspose.Words Mô Hình Đối Tượng Tài Liệu](/words/vi/cpp/aspose-words-document-object-model/) là một tập hợp các thành phần riêng biệt (nút). Một trường duy nhất được tải dưới dạng tập hợp các nút **FieldStart**, **FieldSeparator** và **FieldEnd** cùng với nội dung ở giữa các nút này. Nếu một trường không có kết quả trường thì sẽ không có nút **FieldSeparator**. Tất cả các nút này luôn được tìm thấy nội tuyến (là con của [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) hoặc [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
 
 Trong Aspose.Words mỗi nút **FieldXXX** bắt nguồn từ [FieldChar](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_char/). Lớp này cung cấp một thuộc tính để kiểm tra loại trường được biểu thị bằng nút được chỉ định thông qua thuộc tính [FieldType](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldchar/get_fieldtype/). Ví dụ **FieldType.FieldMergeField** đại diện cho một trường hợp nhất trong tài liệu.
 

@@ -12,7 +12,7 @@ timestamp: 2024-01-31-14-23-37
 
 Halaman ini berisi jawaban atas pertanyaan yang paling sering diajukan. Silakan pelajari halaman saat ini-mungkin ini akan memungkinkan Anda untuk menyelesaikan masalah Anda dengan cepat.
 
-Jika Anda belum menemukan jawaban atas pertanyaan Anda, Anda dapat bertanya di forum dukungan. Untuk informasi tentang cara melaporkan pertanyaan atau masalah Anda dengan benar, lihat bagian [Dukungan Teknik](/words/java/technical-support/) halaman.
+Jika Anda belum menemukan jawaban atas pertanyaan Anda, Anda dapat bertanya di forum dukungan. Untuk informasi tentang cara melaporkan pertanyaan atau masalah Anda dengan benar, lihat bagian [Dukungan Teknik](/words/id/java/technical-support/) halaman.
 
 {{% alert color="primary" %}}
 
@@ -32,7 +32,7 @@ Detailnya dapat ditemukan di dokumentasi kami.
 
 **T: Apa artinya "Aspose.Words tidak memerlukan aplikasi pihak ketiga"?**
 
-Aspose.Words untuk Java tidak perlu menginstal aplikasi pihak ketiga atau paket perangkat lunak tambahan apa pun agar berfungsi. Cukup unduh dan instal Aspose.Words seperti yang dijelaskan dalam [Instalasi](/words/java/installation/) artikel dan mulai.
+Aspose.Words untuk Java tidak perlu menginstal aplikasi pihak ketiga atau paket perangkat lunak tambahan apa pun agar berfungsi. Cukup unduh dan instal Aspose.Words seperti yang dijelaskan dalam [Instalasi](/words/id/java/installation/) artikel dan mulai.
 
 ------
 
@@ -40,7 +40,7 @@ Aspose.Words untuk Java tidak perlu menginstal aplikasi pihak ketiga atau paket 
 
 Aspose.Words untuk Java mencakup sebagian besar lingkungan pengembangan dan platform penerapan yang populer. Its API dapat digunakan untuk mengembangkan aplikasi untuk berbagai sistem operasi seperti Windows, Linux, dan Mac OS, dan berbagai platform.
 
-Untuk detailnya, lihat [Sekilas Produk](/words/java/product-overview/) halaman dan [Platform dan kemungkinan mendapatkan Interop](/words/java/platforms-and-interoperability/) bagian.
+Untuk detailnya, lihat [Sekilas Produk](/words/id/java/product-overview/) halaman dan [Platform dan kemungkinan mendapatkan Interop](/words/java/platforms-and-interoperability/) bagian.
 
 ------
 
@@ -48,7 +48,7 @@ Untuk detailnya, lihat [Sekilas Produk](/words/java/product-overview/) halaman d
 
 Aspose.Words untuk Java mendukung sebagian besar format dokumen populer seperti DOC, DOCX, HTML, Markdown, PDF, XML, dan lainnya.
 
-Anda dapat melihat daftar lengkap format yang didukung di [Format Dokumen yang Disertakan](/words/java/supported-document-formats/) halaman.
+Anda dapat melihat daftar lengkap format yang didukung di [Format Dokumen yang Disertakan](/words/id/java/supported-document-formats/) halaman.
 
 ------
 
@@ -56,7 +56,7 @@ Anda dapat melihat daftar lengkap format yang didukung di [Format Dokumen yang D
 
 Anda dapat melakukannya dengan dua cara-menggunakan versi Uji Coba atau Lisensi Sementara selama 30 hari. Versi Uji Coba sama dengan yang dibeli, versi ini menyediakan fungsionalitas produk lengkap tetapi menambahkan tanda air evaluatif di bagian atas dokumen saat memuat dan menyimpan dan membatasi ukuran dokumen maksimum hingga beberapa ratus paragraf. Lisensi Sementara memungkinkan Anda menguji Aspose.Words tanpa batasan Uji Coba selama 30 hari.
 
-Lihat [Lisensi dan Tangganan](/words/java/licensing/) halaman untuk informasi lebih lanjut.
+Lihat [Lisensi dan Tangganan](/words/id/java/licensing/) halaman untuk informasi lebih lanjut.
 
 {{% alert color="primary" %}}
 
@@ -70,31 +70,31 @@ Anda juga dapat mencoba beberapa fitur Aspose.Words paling populer melalui [Aspo
 
 Untuk membeli lisensi Aspose.Words, Anda harus pergi ke [Pembelian](https://purchase.aspose.com/buy) halaman, pilih produk "Aspose.Words " dan jenis lisensi yang sesuai untuk Anda. Kemudian tambahkan lisensi ke keranjang Anda dan ikuti petunjuk Keranjang Belanja.
 
-Setelah membeli, ajukan lisensi seperti yang dijelaskan dalam [Lisensi yang Dibeli](/words/java/licensing/#purchased-license) bagian.
+Setelah membeli, ajukan lisensi seperti yang dijelaskan dalam [Lisensi yang Dibeli](/words/id/java/licensing/) bagian.
 
-Detail tentang cara menginstal Aspose.Words dapat dibaca di [Instalasi](/words/java/installation/) halaman.
+Detail tentang cara menginstal Aspose.Words dapat dibaca di [Instalasi](/words/id/java/installation/) halaman.
 
 ------
 
 **T: Bagaimana saya bisa mendapatkan dukungan?**
 
-Gunakan forum dukungan teknis gratis. Untuk detail tentang cara melaporkan masalah dengan benar dan apa yang perlu dilakukan sebelum menghubungi forum, lihat bagian [Dukungan Teknik](/words/java/technical-support/) halaman.
+Gunakan forum dukungan teknis gratis. Untuk detail tentang cara melaporkan masalah dengan benar dan apa yang perlu dilakukan sebelum menghubungi forum, lihat bagian [Dukungan Teknik](/words/id/java/technical-support/) halaman.
 
 ## Merender Dokumen
 
 {{% alert color="primary" %}}
 
-Anda dapat menemukan informasi lebih rinci tentang rendering di [Rendering](/words/java/rendering/) bagian dokumentasi.
+Anda dapat menemukan informasi lebih rinci tentang rendering di [Rendering](/words/id/java/rendering/) bagian dokumentasi.
 
 {{% /alert %}}
 
 **T: Mengapa tata letak dan font dalam dokumen keluaran berbeda dari aslinya?**
 
-Font mungkin tidak tersedia, atau format font didukung oleh Microsoft Word tetapi tidak didukung oleh Aspose.Words. Aspose.Words akan tampil [penggantian fonta](/words/java/manipulate-and-substitute-truetype-fonts/).
+Font mungkin tidak tersedia, atau format font didukung oleh Microsoft Word tetapi tidak didukung oleh Aspose.Words. Aspose.Words akan tampil [penggantian fonta](/words/id/java/manipulate-and-substitute-truetype-fonts/).
 
 Untuk memeriksa apakah font tidak ada:
 
-- Di Aspose.Words gunakan peringatan penggantian font (untuk detailnya, lihat bagian "Cara Mengenali Bahwa Font Telah Diganti" di [Mengatur dan Mengganti TrueType Font](/words/java/manipulate-and-substitute-truetype-fonts/) artikel).
+- Di Aspose.Words gunakan peringatan penggantian font (untuk detailnya, lihat bagian "Cara Mengenali Bahwa Font Telah Diganti" di [Mengatur dan Mengganti TrueType Font](/words/id/java/manipulate-and-substitute-truetype-fonts/) artikel).
 - Di Microsoft Word buka kotak dialog "Substitusi Font" (File → Options → Advanced Substitution Substitusi Font).
 
 ------
@@ -121,7 +121,7 @@ Ya, Anda lakukan. Oleh karena itu, saat menyalin font, perlu diingat bahwa sebag
 
 {{% alert color="primary" %}}
 
-Anda dapat menemukan informasi lebih rinci tentang Mail Merge di [Mail Merge dan Pelaporan](/words/java/mail-merge-and-reporting/) bagian dokumentasi.
+Anda dapat menemukan informasi lebih rinci tentang Mail Merge di [Mail Merge dan Pelaporan](/words/id/java/mail-merge-and-reporting/) bagian dokumentasi.
 
 {{% /alert %}}
 
@@ -145,7 +145,7 @@ Ini karena wilayah gabungan dalam templat tidak terbentuk dengan benar, yang dap
 Ini karena hubungan antara tabel induk dan tabel turunan tidak diatur atau pengaturannya salah. Hal ini diperlukan untuk:
 
 - Pastikan integritas data dalam **DataSet** Anda dan gunakan objek **DataRelation** untuk merepresentasikan hubungan induk-anak antara tabel data terkait.
-- Periksa bagian "Cara Mengatur Relasi Data dalam Mail Merge Bersarang dengan Wilayah" di artikel [Mulai Mail Merge dengan Wilayah](/words/java/nested-mail-merge-with-regions/).
+- Periksa bagian "Cara Mengatur Relasi Data dalam Mail Merge Bersarang dengan Wilayah" di artikel [Mulai Mail Merge dengan Wilayah](/words/id/java/nested-mail-merge-with-regions/).
 
 ------
 
@@ -159,7 +159,7 @@ Nonaktifkan batasan kunci asing saat Anda membuat **DataRelation**.
 
 {{% alert color="primary" %}}
 
-Anda dapat menemukan informasi lebih rinci tentang pemrograman dengan dokumen di [Pemrograman dengan Dokumen](/words/java/programming-with-documents/) bagian dokumentasi.
+Anda dapat menemukan informasi lebih rinci tentang pemrograman dengan dokumen di [Pemrograman dengan Dokumen](/words/id/java/programming-with-documents/) bagian dokumentasi.
 
 {{% /alert %}}
 
@@ -171,7 +171,7 @@ Hasil append muncul di halaman terpisah karena perbedaan pengaturan [PageSetup](
 
 {{% alert color="primary" %}}
 
-Anda dapat menemukan informasi lebih rinci tentang mengonversi dokumen di [Konversikan Dokumen](/words/java/convert-a-document/) bagian dokumentasi.
+Anda dapat menemukan informasi lebih rinci tentang mengonversi dokumen di [Konversikan Dokumen](/words/id/java/convert-a-document/) bagian dokumentasi.
 
 {{% /alert %}}
 
@@ -193,7 +193,7 @@ doc.save(dataDir + "output.pdf", SaveFormat.Pdf);
 
 {{% alert color="primary" %}}
 
-Anda dapat menemukan informasi lebih rinci tentang pemrograman dengan dokumen di [Pemrograman dengan Dokumen](/words/java/programming-with-documents/) bagian dokumentasi.
+Anda dapat menemukan informasi lebih rinci tentang pemrograman dengan dokumen di [Pemrograman dengan Dokumen](/words/id/java/programming-with-documents/) bagian dokumentasi.
 
 {{% /alert %}}
 
@@ -253,4 +253,4 @@ catch (Exception e)
 
 **T: Bagaimana cara mencetak dokumen?**
 
-Untuk jawaban terperinci, pelajari artikelnya [Membuat Dokumen Secara Terprogram atau Menggunakan Dialog](/words/java/print-a-document-programmatically-or-using-dialogs/).
+Untuk jawaban terperinci, pelajari artikelnya [Membuat Dokumen Secara Terprogram atau Menggunakan Dialog](/words/id/java/print-a-document-programmatically-or-using-dialogs/).

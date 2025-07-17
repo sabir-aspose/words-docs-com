@@ -1,4 +1,4 @@
----
+﻿---
 title: FAQ
 second_title: Aspose.Words için C++
 articleTitle: FAQ
@@ -12,7 +12,7 @@ timestamp: 2024-01-31-14-23-37
 
 Bu sayfa en sık sorulan soruların yanıtlarını içerir. Lütfen mevcut sayfayı öğrenin - belki bu, sorununuzu hızlı bir şekilde çözmenize izin verecektir.
 
-Sorunuzun cevabını bulamadıysanız, destek forumundan sorabilirsiniz. Sorunuzu veya sorununuzu doğru şekilde bildirme hakkında daha fazla bilgi için bkz. [Teknik Destek](/words/cpp/technical-support/) sayfa.
+Sorunuzun cevabını bulamadıysanız, destek forumundan sorabilirsiniz. Sorunuzu veya sorununuzu doğru şekilde bildirme hakkında daha fazla bilgi için bkz. [Teknik Destek](/words/tr/cpp/technical-support/) sayfa.
 
 {{% alert color="primary" %}}
 
@@ -32,7 +32,7 @@ Ayrıntılar belgelerimizde bulunabilir.
 
 **S: "Aspose.Words üçüncü taraf uygulamaları gerektirmez" ne anlama geliyor?**
 
-Aspose.Words için C++ çalışmak için herhangi bir üçüncü taraf uygulaması veya ek yazılım paketi yüklemenize gerek yoktur. Sadece Aspose.Words 'yi açıklandığı gibi indirin ve yükleyin ["Kurulum"](/words/cpp/installation/) makale ve başlayın.
+Aspose.Words için C++ çalışmak için herhangi bir üçüncü taraf uygulaması veya ek yazılım paketi yüklemenize gerek yoktur. Sadece Aspose.Words 'yi açıklandığı gibi indirin ve yükleyin ["Kurulum"](/words/tr/cpp/installation/) makale ve başlayın.
 
 ------
 
@@ -40,7 +40,7 @@ Aspose.Words için C++ çalışmak için herhangi bir üçüncü taraf uygulamas
 
 Aspose.Words için C++ popüler geliştirme ortamlarının ve dağıtım platformlarının çoğunu kapsar. API, Windows, Linux ve Mac OS gibi çok çeşitli işletim sistemleri ve çeşitli platformlar için uygulamalar geliştirmek için kullanılabilir.
 
-Ayrıntılar için bkz. [Ürüne Genel Bakış](/words/cpp/product-overview/) sayfa.
+Ayrıntılar için bkz. [Ürüne Genel Bakış](/words/tr/cpp/product-overview/) sayfa.
 
 ------
 
@@ -48,7 +48,7 @@ Ayrıntılar için bkz. [Ürüne Genel Bakış](/words/cpp/product-overview/) sa
 
 Aspose.Words için C++ aşağıdakiler gibi popüler belge biçimlerinin çoğunu destekler DOC, DOCX, HTML, Markdown, PDF, XML, ve diğerleri.
 
-Desteklenen formatların tam listesini şu adreste görebilirsiniz: [Desteklenen Belge Biçimleri](/words/cpp/supported-document-formats/) sayfa.
+Desteklenen formatların tam listesini şu adreste görebilirsiniz: [Desteklenen Belge Biçimleri](/words/tr/cpp/supported-document-formats/) sayfa.
 
 ------
 
@@ -56,7 +56,7 @@ Desteklenen formatların tam listesini şu adreste görebilirsiniz: [Desteklenen
 
 Bunu iki şekilde yapabilirsiniz – Deneme sürümünü veya 30 günlük Geçici bir Lisansı kullanarak. Deneme sürümü satın alınanla aynıdır, tam ürün işlevselliği sağlar, ancak yüklerken ve kaydederken belgenin üstüne değerlendirici bir filigran ekler ve maksimum belge boyutunu birkaç yüz paragrafla sınırlar. Geçici Bir Lisans, Aspose.Words 'i 30 gün boyunca Deneme kısıtlaması olmadan test etmenize olanak tanır.
 
-Bakın [Lisanslama ve Abonelik](/words/cpp/licensing/) daha fazla bilgi için sayfa.
+Bakın [Lisanslama ve Abonelik](/words/tr/cpp/licensing/) daha fazla bilgi için sayfa.
 
 {{% alert color="primary" %}}
 
@@ -70,31 +70,31 @@ En popüler Aspose.Words özelliklerden bazılarını şu adresten de deneyebili
 
 Bir Aspose.Words lisansı satın almak için şu adrese gitmeniz gerekir: [Satın alma](https://purchase.aspose.com/buy) sayfa, "Aspose.Words" ürününü ve size uygun lisans türünü seçin. Ardından lisansı sepetinize ekleyin ve Alışveriş Sepeti talimatlarını izleyin.
 
-Satın aldıktan sonra, lisans için başvuruda açıklandığı gibi başvurun. [Satın Alınan Lisans](/words/cpp/licensing/#purchased-license) bölüm.
+Satın aldıktan sonra, lisans için başvuruda açıklandığı gibi başvurun. [Satın Alınan Lisans](/words/tr/cpp/licensing/) bölüm.
 
-Aspose.Words'in nasıl kurulacağı ile ilgili ayrıntılar şu adresten okunabilir: [Kurulum](/words/cpp/installation/) sayfa.
+Aspose.Words'in nasıl kurulacağı ile ilgili ayrıntılar şu adresten okunabilir: [Kurulum](/words/tr/cpp/installation/) sayfa.
 
 ------
 
 **S: Nasıl destek alabilirim?**
 
-Ücretsiz teknik destek forumunu kullanın. Bir sorunun nasıl düzgün bir şekilde bildirileceği ve foruma başvurmadan önce yapılması gerekenler hakkında ayrıntılar için bkz. [Teknik Destek](/words/cpp/technical-support/) sayfa.
+Ücretsiz teknik destek forumunu kullanın. Bir sorunun nasıl düzgün bir şekilde bildirileceği ve foruma başvurmadan önce yapılması gerekenler hakkında ayrıntılar için bkz. [Teknik Destek](/words/tr/cpp/technical-support/) sayfa.
 
 ## Belge Oluşturma
 
 {{% alert color="primary" %}}
 
-Oluşturma hakkında daha ayrıntılı bilgiyi şu adreste bulabilirsiniz: [İşleme](/words/cpp/rendering/) dokümantasyon bölümü.
+Oluşturma hakkında daha ayrıntılı bilgiyi şu adreste bulabilirsiniz: [İşleme](/words/tr/cpp/rendering/) dokümantasyon bölümü.
 
 {{% /alert %}}
 
 **S: Çıktı belgesindeki düzen ve yazı tipleri neden orijinalden farklıdır?**
 
-Yazı tipi kullanılamayabilir veya yazı tipi biçimi Microsoft Word tarafından desteklenir, ancak Aspose.Words tarafından desteklenmez. Aspose.Words gerçekleştirecek [yazı tipi değiştirme](/words/cpp/manipulate-and-substitute-truetype-fonts/).
+Yazı tipi kullanılamayabilir veya yazı tipi biçimi Microsoft Word tarafından desteklenir, ancak Aspose.Words tarafından desteklenmez. Aspose.Words gerçekleştirecek [yazı tipi değiştirme](/words/tr/cpp/manipulate-and-substitute-truetype-fonts/).
 
 Yazı tipinin eksik olup olmadığını kontrol etmek için:
 
-- Aspose.Words'de Yazı tipi değiştirme uyarılarını kullanın (ayrıntılar için, "Yazı Tipinin Değiştirildiğini Tanıma" bölümüne bakın. [TrueType Yazı Tiplerini Değiştirme ve Değiştirme](/words/cpp/manipulate-and-substitute-truetype-fonts/) makale).
+- Aspose.Words'de Yazı tipi değiştirme uyarılarını kullanın (ayrıntılar için, "Yazı Tipinin Değiştirildiğini Tanıma" bölümüne bakın. [TrueType Yazı Tiplerini Değiştirme ve Değiştirme](/words/tr/cpp/manipulate-and-substitute-truetype-fonts/) makale).
 - Microsoft Word 'da "Yazı Tipi Değiştirme" iletişim kutusunu açın (Dosya → Seçenekler → Gelişmiş → Yazı Tipi Değiştirme).
 
 ------
@@ -121,7 +121,7 @@ Evet, biliyorsun. Bu nedenle, yazı tiplerini kopyalarken, çoğu yazı tipinin 
 
 {{% alert color="primary" %}}
 
-Belgelerle programlama hakkında daha ayrıntılı bilgiyi şu adreste bulabilirsiniz: [Belgelerle Programlama](/words/cpp/programming-with-documents/) dokümantasyon bölümü.
+Belgelerle programlama hakkında daha ayrıntılı bilgiyi şu adreste bulabilirsiniz: [Belgelerle Programlama](/words/tr/cpp/programming-with-documents/) dokümantasyon bölümü.
 
 {{% /alert %}}
 
@@ -133,7 +133,7 @@ Ekleme sonucu, belgelerin birlikte eklendiği bölümlerin [PageSetup](https://r
 
 {{% alert color="primary" %}}
 
-Bir belgeyi dönüştürme hakkında daha ayrıntılı bilgiyi şu adreste bulabilirsiniz: [Bir Belgeyi Dönüştürme](/words/cpp/convert-a-document/) dokümantasyon bölümü.
+Bir belgeyi dönüştürme hakkında daha ayrıntılı bilgiyi şu adreste bulabilirsiniz: [Bir Belgeyi Dönüştürme](/words/tr/cpp/convert-a-document/) dokümantasyon bölümü.
 
 {{% /alert %}}
 
@@ -156,7 +156,7 @@ doc->Save(outputPath);
 
 {{% alert color="primary" %}}
 
-Belgelerle programlama hakkında daha ayrıntılı bilgiyi şu adreste bulabilirsiniz: [Belgelerle Programlama](/words/cpp/programming-with-documents/) dokümantasyon bölümü.
+Belgelerle programlama hakkında daha ayrıntılı bilgiyi şu adreste bulabilirsiniz: [Belgelerle Programlama](/words/tr/cpp/programming-with-documents/) dokümantasyon bölümü.
 
 {{% /alert %}}
 

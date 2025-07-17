@@ -14,13 +14,13 @@ Persiapan ini memberikan pengantar tentang dasar-dasar Aspose.Words. Untuk pengg
 
 Untuk mengetahui lebih lanjut tentang Aspose.Words, pilih bagian yang sesuai:
 
-- [Instalasi](/words/java/installation/) - memberikan informasi tentang cara menginstal Aspose.Words
-- [Halo Dunia](/words/java/hello-world/) - memberikan informasi tentang cara menguji bahwa perangkat lunak yang dimaksudkan untuk mengkompilasi atau menjalankan kode sumber telah diinstal dengan benar
-- [Format Dokumen yang Disertakan](/words/java/supported-document-formats/) - memberikan informasi tentang format yang didukung
-- [Fitur yang Disertakan](/words/java/features/) - memberikan informasi tentang fitur apa saja yang didukung saat memuat atau menyimpan dokumen dalam berbagai format
+- [Instalasi](/words/id/java/installation/) - memberikan informasi tentang cara menginstal Aspose.Words
+- [Halo Dunia](/words/id/java/hello-world/) - memberikan informasi tentang cara menguji bahwa perangkat lunak yang dimaksudkan untuk mengkompilasi atau menjalankan kode sumber telah diinstal dengan benar
+- [Format Dokumen yang Disertakan](/words/id/java/supported-document-formats/) - memberikan informasi tentang format yang didukung
+- [Fitur yang Disertakan](/words/id/java/features/) - memberikan informasi tentang fitur apa saja yang didukung saat memuat atau menyimpan dokumen dalam berbagai format
 - [Platform yang Didirikan](/words/java/platforms-and-interoperability/) - memberikan informasi tentang penggunaan Aspose.Words saat membuat aplikasi untuk platform lain
-- [Lisensi dan Tangganan](/words/java/licensing/) - memberikan informasi tentang penerapan lisensi dan penggunaan beberapa produk Aspose
+- [Lisensi dan Tangganan](/words/id/java/licensing/) - memberikan informasi tentang penerapan lisensi dan penggunaan beberapa produk Aspose
 - [Mengapa Aspose.Words](/words/java/aspose-words-or-other-solutions/) - menjelaskan alasan mengapa komponen Aspose jauh lebih baik daripada Microsoft Office Automation
-- [Kesatuan Sistem](/words/java/system-requirements/) - memberikan informasi tentang persyaratan sistem dan lingkungan pengembangan
-- [Catatan Keamanan](/words/java/security/) - menjelaskan catatan dan tip tentang cara menghindari masalah keamanan umum
-- [Cara Mengajukan Pertanyaan](/words/java/how-to-run-the-examples/) - menjelaskan cara mengunduh dan menjalankan contoh dan persyaratan perangkat lunak apa yang harus dipenuhi
+- [Kesatuan Sistem](/words/id/java/system-requirements/) - memberikan informasi tentang persyaratan sistem dan lingkungan pengembangan
+- [Catatan Keamanan](/words/id/java/security/) - menjelaskan catatan dan tip tentang cara menghindari masalah keamanan umum
+- [Cara Mengajukan Pertanyaan](/words/id/java/how-to-run-the-examples/) - menjelaskan cara mengunduh dan menjalankan contoh dan persyaratan perangkat lunak apa yang harus dipenuhi

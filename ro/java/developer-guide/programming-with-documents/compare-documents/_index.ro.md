@@ -1,4 +1,4 @@
----
+﻿---
 title: Comparați documentele în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Comparați Documentele
@@ -36,7 +36,7 @@ Limitarea generală pentru două documente care sunt comparate este că acestea 
 
 {{% alert color="primary" %}}
 
-Rețineți că puteți compara oricare două documente din cadrul [formate de fișiere acceptate](/words/java/supported-document-formats/). Practic, puteți compara obiectele documentului și chiar puteți crea acele obiecte de la zero fără a avea niciun format specific.
+Rețineți că puteți compara oricare două documente din cadrul [formate de fișiere acceptate](/words/ro/java/supported-document-formats/). Practic, puteți compara obiectele documentului și chiar puteți crea acele obiecte de la zero fără a avea niciun format specific.
 
 {{% /alert %}}
 

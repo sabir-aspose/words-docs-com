@@ -65,5 +65,5 @@ Aspose.Words دارای تعدادی کلاس مربوط به جداول است�
 
 ## بایگانی برچسب برای:
 
-* [Aspose.Words مدل شیء سند (DOM)](/words/java/aspose-words-document-object-model/)
-* [سطوح منطقی گره ها در یک سند](/words/java/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words مدل شیء سند (DOM)](/words/fa/java/aspose-words-document-object-model/)
+* [سطوح منطقی گره ها در یک سند](/words/fa/java/logical-levels-of-nodes-in-a-document/)

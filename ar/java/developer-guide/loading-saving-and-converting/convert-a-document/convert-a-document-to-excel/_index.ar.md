@@ -67,5 +67,5 @@ doc.save(getArtifactsDir() + "BaseConversions.CompressXlsx.xlsx", saveOptions);
 
 ## أنظر أيضا
 
-- قسم الوثائق [حماية أو تشفير مستند](/words/java/protect-or-encrypt-a-document/) لمزيد من المعلومات حول حماية وتشفير وثيقة
-- المادة [البحث والاستبدال](/words/java/find-and-replace/) لمزيد من المعلومات حول العثور على المحتوى الذي تريده واستبداله
+- قسم الوثائق [حماية أو تشفير مستند](/words/ar/java/protect-or-encrypt-a-document/) لمزيد من المعلومات حول حماية وتشفير وثيقة
+- المادة [البحث والاستبدال](/words/ar/java/find-and-replace/) لمزيد من المعلومات حول العثور على المحتوى الذي تريده واستبداله

@@ -1,4 +1,4 @@
----
+﻿---
 title: 使用C++中的部分
 second_title: Aspose.Words对于C++
 articleTitle: 使用部分
@@ -38,7 +38,7 @@ Aspose.Words允许您使用[BreakType](https://reference.aspose.com/words/cpp/as
 
 ## 管理一个部分
 
-由于节是一个普通的复合节点，因此整个节点操作API可用于操作节：对节进行添加、删除和其他操作。 您可以在文章中阅读有关节点的更多信息 [Aspose.Words文档对象模型(DOM)](/words/cpp/aspose-words-document-object-model/).
+由于节是一个普通的复合节点，因此整个节点操作API可用于操作节：对节进行添加、删除和其他操作。 您可以在文章中阅读有关节点的更多信息 [Aspose.Words文档对象模型(DOM)](/words/zh/cpp/aspose-words-document-object-model/).
 
 另一方面，您也可以使用`DocumentBuilder`API来处理部分。 在本文中，我们将重点介绍使用部分的这种特殊方式。
 
@@ -154,5 +154,5 @@ Aspose.Words允许您使用[PageSetup](https://reference.aspose.com/words/cpp/as
 
 ## 请参阅
 
-- [文档中节点的逻辑级别](/words/cpp/logical-levels-of-nodes-in-a-document/)
-- [插入和追加文档](/words/cpp/insert-and-append-documents/)
+- [文档中节点的逻辑级别](/words/zh/cpp/logical-levels-of-nodes-in-a-document/)
+- [插入和追加文档](/words/zh/cpp/insert-and-append-documents/)

@@ -1,4 +1,4 @@
----
+﻿---
 title: sabit sayfa biçimine dönüştürme Java
 second_title: Aspose.Words için Java
 articleTitle: sabit sayfa biçimine dönüştürme
@@ -75,7 +75,7 @@ Sayfa düzeni oluşturulduktan ve nesnelerin geometrisi ve sayfa üzerindeki kon
 - Çıktı belgesi içinde olan sayfa sayısı ve aralığı ([PageIndex](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/), [PageCount](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/)).
 - Sayfa başına sayfa belgesi kaydedilmesi ilerlemesi ([PageSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/)).
 - Bir dizi karakter, sayılar için kullanılan işleme [NumeralFormat](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
-- Bir metafile oynatıcısı ([MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/). Daha detaylı bilgi için [Handling Windows Metafiles](/words/java/handling-windows-metafiles/) makaleye bakın.
+- Bir metafile oynatıcısı ([MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/). Daha detaylı bilgi için [Handling Windows Metafiles](/words/tr/java/handling-windows-metafiles/) makaleye bakın.
 - JPEG resimleri yeniden sıkıştırmak için kalite oranı, seçilen kaydetme formatına bağlı olarak [JpegQuality](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/)'dan biraz farklı olabilir.
 Vektör grafiklerin optimizasyonu [OptimizeOutput](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/) çıkışında Aspose.Words.
 - Grafik seçenekleri, Tif, Png, Bmp, Jpeg, Emf formatlarında kaydedilirken ([UseAntiAliasing](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/#getUseAntiAliasing), [UseHighQualityRendering](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/)).

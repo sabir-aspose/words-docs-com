@@ -47,7 +47,7 @@ Beachten Sie, dass Sie mit derselben Technik jedes Dokument im Flow-Layout-Forma
 
 ### Konvertierung in verschiedene PDF Standards {#converting-to-various-pdf-standards}
 
-Aspose.Words stellt die [PdfCompliace](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)-Aufzählung bereit, um die Konvertierung von DOC oder DOCX in verschiedene PDF-Formatstandards (z. B.) zu unterstützen PDF 1.7, PDF 1.5, usw.).
+Aspose.Words stellt die [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)-Aufzählung bereit, um die Konvertierung von DOC oder DOCX in verschiedene PDF-Formatstandards (z. B.) zu unterstützen PDF 1.7, PDF 1.5, usw.).
 
 Das folgende Codebeispiel zeigt, wie Sie ein Dokument mit [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) unter Einhaltung von PDF17 in PDF 1.7 konvertieren:
 
@@ -81,6 +81,6 @@ Die Verwendung der Eigenschaft **OptimizeOutput** kann die Genauigkeit der Inhal
 
 ## Siehe auch
 
-- Beitrag [Rendering](/words/java/rendering/) weitere Informationen zu den Formaten Fixed Page und Flow Layout
-- Beitrag [Konvertierung in das Festseitenformat](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) weitere Informationen zum Seitenlayout
-- Beitrag [Geben Sie die Renderoptionen beim Konvertieren in PDF an](/words/java/specify-rendering-options-when-converting-to-pdf/) weitere Informationen zur Verwendung der Klasse `PdfSaveOptions`
+- Beitrag [Rendering](/words/de/java/rendering/) weitere Informationen zu den Formaten Fixed Page und Flow Layout
+- Beitrag [Konvertierung in das Festseitenformat](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) weitere Informationen zum Seitenlayout
+- Beitrag [Geben Sie die Renderoptionen beim Konvertieren in PDF an](/words/de/java/specify-rendering-options-when-converting-to-pdf/) weitere Informationen zur Verwendung der Klasse `PdfSaveOptions`

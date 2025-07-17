@@ -65,5 +65,5 @@ Aspose.Words有许多与表相关的类– [Tables](https://reference.aspose.com
 
 ## 请参阅
 
-* [Aspose.Words文档对象模型(DOM)](/words/java/aspose-words-document-object-model/)
-* [文档中节点的逻辑级别](/words/java/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words文档对象模型(DOM)](/words/zh/java/aspose-words-document-object-model/)
+* [文档中节点的逻辑级别](/words/zh/java/logical-levels-of-nodes-in-a-document/)

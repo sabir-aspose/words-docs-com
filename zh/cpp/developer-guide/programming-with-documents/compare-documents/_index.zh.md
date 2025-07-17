@@ -1,4 +1,4 @@
----
+﻿---
 title: 比较C++中的文档
 second_title: Aspose.Words对于C++
 articleTitle: 比较文件
@@ -36,7 +36,7 @@ timestamp: 2024-01-27-14-07-04
 
 {{% alert color="primary" %}}
 
-请注意，您可以比较 [支持的文件格式](/words/cpp/supported-document-formats/). 您可以比较文档对象，甚至可以从头开始创建这些对象，而无需任何特定的格式。
+请注意，您可以比较 [支持的文件格式](/words/zh/cpp/supported-document-formats/). 您可以比较文档对象，甚至可以从头开始创建这些对象，而无需任何特定的格式。
 
 {{% /alert %}}
 

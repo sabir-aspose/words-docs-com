@@ -14,7 +14,7 @@ timestamp: 2024-09-25-11-08-55
 
 - используя [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/)
 - используя [FieldBuilder](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldbuilder/)
-- с помощью [Aspose.Words Объектная модель документа (DOM)](/words/python-net/aspose-words-document-object-model/)
+- с помощью [Aspose.Words Объектная модель документа (DOM)](/words/ru/python-net/aspose-words-document-object-model/)
 
 В этой статье мы рассмотрим каждый из способов более подробно и проанализируем, как вставлять определенные поля, используя эти опции.
 
@@ -68,7 +68,7 @@ timestamp: 2024-09-25-11-08-55
 
 ## Вставка полей с помощью DOM
 
-Вы также можете вставлять поля различных типов, используя [Aspose.Words Объектную модель документа (DOM)](/words/python-net/aspose-words-document-object-model/). В этом разделе мы рассмотрим несколько примеров.
+Вы также можете вставлять поля различных типов, используя [Aspose.Words Объектную модель документа (DOM)](/words/ru/python-net/aspose-words-document-object-model/). В этом разделе мы рассмотрим несколько примеров.
 
 ### Вставка поля слияния в документ с помощью DOM
 

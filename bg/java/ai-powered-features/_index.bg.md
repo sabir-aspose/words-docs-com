@@ -1,4 +1,4 @@
----
+﻿---
 title: AI - захранващи функции
 second_title: Aspose.Words за Java
 articleTitle: AI - захранващи функции
@@ -16,7 +16,7 @@ Aspose.Words сега включва AI - захранвани функции, �
 
 В този раздел ще разгледаме всичко, което трябва да знаете за използването на поддържаните функции AI в Aspose.Words. От практически съвети до подробни инструкции, ние се стремим да ви помогнем да се възползвате максимално от тези подобрения.
 
-* [Поддържани Модели AI ](/words/java/supported-ai-models/)
-* [Обобщаване на документ](/words/java/summarize-a-document/)
-* [Превод на документ](/words/java/translate-a-document/)
-* [Проверка На Граматиката](/words/java/grammar-checking/)
+* [Поддържани Модели AI ](/words/bg/java/supported-ai-models/)
+* [Обобщаване на документ](/words/bg/java/summarize-a-document/)
+* [Превод на документ](/words/bg/java/translate-a-document/)
+* [Проверка На Граматиката](/words/bg/java/grammar-checking/)

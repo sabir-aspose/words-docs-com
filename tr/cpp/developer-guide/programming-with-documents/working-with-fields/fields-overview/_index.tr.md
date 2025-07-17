@@ -1,4 +1,4 @@
----
+﻿---
 title: Alanlara Genel Bakış C++
 second_title: Aspose.Words için C++
 articleTitle: Alanlara Genel Bakış
@@ -29,7 +29,7 @@ Bir alan şunlardan oluşur:
 
 ![fields-overview-aspose-words-cpp-1](fields-overview-1.png)
 
-Alan kodunu oluşturan içerik, [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) ile [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/) arasında [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) düğüm olarak saklanır. Alan sonucu **FieldSeparator** ve [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) düğümleri arasında saklanır ve çeşitli içerik türlerinden oluşabilir. Normalde alan sonucu yalnızca **Run** düğümlerinden oluşan metni içerir, ancak **FieldEnd** düğümünün tamamen farklı bir paragrafta bulunması ve böylece alan sonucunun aşağıdakilerden oluşması mümkündür [blok düzeyinde düğümler](/words/cpp/logical-levels-of-nodes-in-a-document/) **Table** ve **Paragraph** düğümleri gibi.
+Alan kodunu oluşturan içerik, [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) ile [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/) arasında [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) düğüm olarak saklanır. Alan sonucu **FieldSeparator** ve [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) düğümleri arasında saklanır ve çeşitli içerik türlerinden oluşabilir. Normalde alan sonucu yalnızca **Run** düğümlerinden oluşan metni içerir, ancak **FieldEnd** düğümünün tamamen farklı bir paragrafta bulunması ve böylece alan sonucunun aşağıdakilerden oluşması mümkündür [blok düzeyinde düğümler](/words/tr/cpp/logical-levels-of-nodes-in-a-document/) **Table** ve **Paragraph** düğümleri gibi.
 
 "*DocumentExplorer"* örneğini kullanarak bir alanın Aspose.Words içinde nasıl saklandığına dair bir görünüm aşağıda verilmiştir.
 
@@ -37,7 +37,7 @@ Alan kodunu oluşturan içerik, [FieldStart](https://reference.aspose.com/words/
 
 ## Aspose.Words Belge Nesne Modelindeki Alanlar (DOM)
 
-Bir belge Aspose.Words'ya yüklendiğinde, belgenin alanları Aspose.Words'ya yüklenir. [Aspose.Words Belge Nesne Modeli](/words/cpp/aspose-words-document-object-model/) ayrı bileşenler (düğümler) kümesi olarak. Bu düğümler arasındaki içerikle birlikte **FieldStart**, **FieldSeparator** ve **FieldEnd** düğümlerden oluşan bir koleksiyon olarak tek bir alan yüklenir. Bir alanın alan sonucu yoksa, **FieldSeparator** düğümü olmayacaktır. Bu düğümlerin tümü her zaman satır içi olarak bulunur ([Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) veya [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/) alt öğeleri olarak).
+Bir belge Aspose.Words'ya yüklendiğinde, belgenin alanları Aspose.Words'ya yüklenir. [Aspose.Words Belge Nesne Modeli](/words/tr/cpp/aspose-words-document-object-model/) ayrı bileşenler (düğümler) kümesi olarak. Bu düğümler arasındaki içerikle birlikte **FieldStart**, **FieldSeparator** ve **FieldEnd** düğümlerden oluşan bir koleksiyon olarak tek bir alan yüklenir. Bir alanın alan sonucu yoksa, **FieldSeparator** düğümü olmayacaktır. Bu düğümlerin tümü her zaman satır içi olarak bulunur ([Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) veya [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/) alt öğeleri olarak).
 
 Aspose.Words 'te **FieldXXX** düğümlerin her biri [FieldChar](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_char/)'den türemiştir. Bu sınıf, [FieldType](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldchar/get_fieldtype/) özelliği aracılığıyla belirtilen düğüm tarafından temsil edilen alan türünü denetlemek için bir özellik sağlar. Örneğin **FieldType.FieldMergeField** belgedeki bir birleştirme alanını temsil eder.
 

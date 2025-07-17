@@ -55,7 +55,7 @@ Anda juga dapat menyimpan dokumen dengan kode batang yang dimuat atau yang baru 
 
 {{% alert color="primary" %}}
 
-Untuk informasi selengkapnya tentang mengonversi dokumen dari satu format ke format lainnya, lihat [Konversikan Dokumen](/words/java/convert-a-document/) bagian dokumentasi.
+Untuk informasi selengkapnya tentang mengonversi dokumen dari satu format ke format lainnya, lihat [Konversikan Dokumen](/words/id/java/convert-a-document/) bagian dokumentasi.
 
 {{% /alert %}}
 

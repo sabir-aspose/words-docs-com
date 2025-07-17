@@ -47,7 +47,7 @@ DOC 또는 DOCX 문서 형식을 Aspose.Words의 PDF 형식으로 변환하는 �
 
 ### 다양한 PDF 표준으로 변환 {#convert-to-various-pdf-standards}
 
-Aspose.Words는 DOC 또는 DOCX를 다양한 PDF 형식 표준(예: PDF 1.7, PDF 1.5 등)으로 변환하는 것을 지원하는 [PdfCompliace](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) 열거형을 제공합니다.
+Aspose.Words는 DOC 또는 DOCX를 다양한 PDF 형식 표준(예: PDF 1.7, PDF 1.5 등)으로 변환하는 것을 지원하는 [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) 열거형을 제공합니다.
 
 다음 코드 예제는 [PDF17](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf17)를 준수하는 [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/)를 사용하여 문서를 PDF 1.7로 변환하는 방법을 보여줍니다
 
@@ -90,5 +90,5 @@ PDF로 저장할 때 출력을 최적화할지 여부를 지정할 수 있습니
 ## 또한보십시오
 
 - 고정 페이지 및 흐름 레이아웃 형식에 대한 자세한 내용은 [표현](/words/ko/python-net/rendering/) 문서를 참조하세요
-- 페이지 레이아웃에 대한 자세한 내용은 [고정 페이지 형식으로 변환](/words/python-net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) 문서를 참조하세요
+- 페이지 레이아웃에 대한 자세한 내용은 [고정 페이지 형식으로 변환](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) 문서를 참조하세요
 - [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) 클래스 사용에 대한 자세한 내용은 [PDF로 변환 시 렌더링 옵션 지정](/words/ko/python-net/specify-rendering-options-when-converting-to-pdf/) 문서를 참조하세요

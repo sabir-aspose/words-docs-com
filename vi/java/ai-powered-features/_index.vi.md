@@ -1,4 +1,4 @@
----
+﻿---
 title: AI-các Tính năng được hỗ trợ
 second_title: Aspose.Words cho Java
 articleTitle: AI-các Tính năng được hỗ trợ
@@ -16,7 +16,7 @@ Aspose.Words bây giờ bao gồm các tính năng AI-powered được thiết k
 
 Trong phần này, chúng tôi sẽ đề cập đến mọi thứ bạn cần biết về việc sử dụng các tính năng AI được hỗ trợ trong Aspose.Words. Từ các mẹo thực tế đến hướng dẫn chi tiết, chúng tôi mong muốn giúp bạn tận dụng tối đa những cải tiến này.
 
-* [Mô Hình AI Được Hỗ Trợ](/words/java/supported-ai-models/)
-* [Tóm tắt Một Tài liệu](/words/java/summarize-a-document/)
-* [Dịch Một Tài liệu](/words/java/translate-a-document/)
-* [Kiểm Tra Ngữ Pháp](/words/java/grammar-checking/)
+* [Mô Hình AI Được Hỗ Trợ](/words/vi/java/supported-ai-models/)
+* [Tóm tắt Một Tài liệu](/words/vi/java/summarize-a-document/)
+* [Dịch Một Tài liệu](/words/vi/java/translate-a-document/)
+* [Kiểm Tra Ngữ Pháp](/words/vi/java/grammar-checking/)

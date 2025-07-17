@@ -1,4 +1,4 @@
----
+﻿---
 title: バーコードの作成方法
 second_title: Aspose.Words for .NET
 articleTitle: カスタムバーコード画像を生成する
@@ -55,7 +55,7 @@ Aspose.Wordsはカスタムバーコードの生成のためのインターフ�
 
 {{% alert color="primary" %}}
 
-別の形式の文書に変換する方法について詳しくは、 [Convert a Document](/words/net/convert-a-document/)ドキュメントセクションを参照してください。
+別の形式の文書に変換する方法について詳しくは、 [Convert a Document](/words/ja/net/convert-a-document/)ドキュメントセクションを参照してください。
 
 {{% /alert %}}
 

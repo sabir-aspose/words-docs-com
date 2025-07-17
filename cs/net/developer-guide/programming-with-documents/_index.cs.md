@@ -1,4 +1,4 @@
----
+﻿---
 title: Programování s dokumenty v C#
 second_title: Aspose.Words místo .NET
 articleTitle: Programování s dokumenty
@@ -58,6 +58,6 @@ Další informace Aspose.Words funkce při programování s dokumenty, vyberte o
 - [Práce s kontrolními znaky](/words/cs/net/working-with-control-characters/)
 - [Práce s VBA Macros](/words/cs/net/working-with-vba-macros/)
 - [Práce s Markdown Vlastnosti](/words/cs/net/working-with-markdown-features/)
-- [Práce s dokumentem](/words/net/working-with-text-document/)
+- [Práce s dokumentem](/words/cs/net/working-with-text-document/)
 
 Podrobný popis tříd, metod a vlastností se týká Aspose.Words místo .NET API Reference sekce.

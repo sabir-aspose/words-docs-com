@@ -29,7 +29,7 @@ Aspose.Words을 사용하면 두 줄의 코드 만 사용하여 지원되는 모
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "docx-to-pdf.java" >}}
 
-문서 로드,변환 및 저장에 대한 자세한 내용은 다음을 참조하십시오 [로드,저장 및 변환](/words/java/loading-saving-and-converting/) 부문
+문서 로드,변환 및 저장에 대한 자세한 내용은 다음을 참조하십시오 [로드,저장 및 변환](/words/ko/java/loading-saving-and-converting/) 부문
 
 ## 높은 충실도
 

@@ -65,5 +65,5 @@ Aspose.Words에는 테이블과 관련된 여러 클래스가 있습니다.– [
 
 ## 또한 참조
 
-* [Aspose.Words문서 개체 모델(DOM)](/words/java/aspose-words-document-object-model/)
-* [문서의 노드의 논리적 수준](/words/java/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words문서 개체 모델(DOM)](/words/ko/java/aspose-words-document-object-model/)
+* [문서의 노드의 논리적 수준](/words/ko/java/logical-levels-of-nodes-in-a-document/)

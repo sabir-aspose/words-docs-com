@@ -47,7 +47,7 @@ Lưu ý rằng với kỹ thuật tương tự, bạn có thể chuyển đổi 
 
 ### Chuyển đổi sang các tiêu chuẩn PDF khác nhau {#convert-to-various-pdf-standards}
 
-Aspose.Words cung cấp bảng liệt kê [PdfCompliace](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) để hỗ trợ chuyển đổi DOC hoặc DOCX thành các tiêu chuẩn định dạng PDF khác nhau (chẳng hạn như PDF 1.7, PDF 1.5, v.v.).
+Aspose.Words cung cấp bảng liệt kê [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) để hỗ trợ chuyển đổi DOC hoặc DOCX thành các tiêu chuẩn định dạng PDF khác nhau (chẳng hạn như PDF 1.7, PDF 1.5, v.v.).
 
 Ví dụ về mã sau đây minh họa cách chuyển đổi tài liệu sang PDF 1.7 bằng [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) tuân thủ [PDF17](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf17):
 
@@ -90,5 +90,5 @@ Việc sử dụng thuộc tính **OptimizeOutput** có thể ảnh hưởng đ�
 ## Xem thêm
 
 - Bài viết [Kết xuất](/words/vi/python-net/rendering/) để biết thêm thông tin về định dạng trang cố định và bố cục theo luồng
-- Bài viết [Chuyển đổi sang định dạng trang cố định](/words/python-net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) để biết thêm thông tin về bố cục trang
+- Bài viết [Chuyển đổi sang định dạng trang cố định](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) để biết thêm thông tin về bố cục trang
 - Bài viết [Chỉ định tùy chọn hiển thị khi chuyển đổi sang PDF](/words/vi/python-net/specify-rendering-options-when-converting-to-pdf/) để biết thêm thông tin về cách sử dụng lớp [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/)

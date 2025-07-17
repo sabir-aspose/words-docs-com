@@ -1,4 +1,4 @@
----
+﻿---
 title: C++でWordをExcelに変換する
 second_title: C++の場合Aspose.Words
 articleTitle: 文書をExcelに変換する
@@ -61,5 +61,5 @@ doc->Save(ArtifactsDir + u"BaseConversions.CompressXlsx.xlsx", saveOptions);
 
 ## また見て下さい
 
-- ドキュメントセクション [文書の保護または暗号化](/words/cpp/protect-or-encrypt-a-document/) 文書の保護と暗号化の詳細については
-- この記事は、 [検索と置換](/words/cpp/find-and-replace/) 必要なコンテンツの検索と置換の詳細については、次の手順を参照してください
+- ドキュメントセクション [文書の保護または暗号化](/words/ja/cpp/protect-or-encrypt-a-document/) 文書の保護と暗号化の詳細については
+- この記事は、 [検索と置換](/words/ja/cpp/find-and-replace/) 必要なコンテンツの検索と置換の詳細については、次の手順を参照してください

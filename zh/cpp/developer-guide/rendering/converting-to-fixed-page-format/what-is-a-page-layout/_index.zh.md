@@ -1,4 +1,4 @@
----
+﻿---
 title: 什么是C++中的页面布局
 second_title: Aspose.Words对于C++
 articleTitle: 什么是页面布局
@@ -20,6 +20,6 @@ Aspose.Words在内部实现页面布局功能，使其能够生成所有固定�
 
 ## 请参阅
 
-* [创建页面布局](/words/cpp/creating-a-page-layout/)
-* [将文档保存为固定页面格式](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [指定布局选项](/words/cpp/specify-layout-options/)
+* [创建页面布局](/words/zh/cpp/creating-a-page-layout/)
+* [将文档保存为固定页面格式](/words/zh/cpp/saving-a-document-to-fixed-page-format/)
+* [指定布局选项](/words/zh/cpp/specify-layout-options/)

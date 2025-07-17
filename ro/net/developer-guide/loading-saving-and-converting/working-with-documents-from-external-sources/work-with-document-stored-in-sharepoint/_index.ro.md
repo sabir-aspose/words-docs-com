@@ -1,4 +1,4 @@
----
+﻿---
 title: Lucraţi cu un document stocat într-un SharePoint online
 second_title: Aspose.Words pentru .NET
 articleTitle: Lucraţi cu un document stocat într-un SharePoint online
@@ -20,7 +20,7 @@ Microsoft SharePoint Online este o colecție de tehnologii bazate pe web care fa
 2. Configurați un sandbox instant [according to the video tutorial](https://www.youtube.com/watch?v=ojQcS9ZQmes)
 3. Creaţi acreditări bazate pe aplicaţie pentru SharePoint Online aşa cum se detaliază în [Setting up an app-only principal with tenant permissions](https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azureacs)
 4. Încărcați documentul cu numele "TestDoc.docx" pe site-ul de comunicare rădăcină în folderul "Documente partajate"
-5. Achiziţionaţi Aspose.Words licenţă, sau utilizaţi o [Free Trial or a 30-day Temporary License](/words/net/licensing/)
+5. Achiziţionaţi Aspose.Words licenţă, sau utilizaţi o [Free Trial or a 30-day Temporary License](/words/ro/net/licensing/)
 
 {{% alert color="primary" %}}
 
@@ -266,6 +266,6 @@ Ca rezultat, fișierul "TestDoc.pdf" ar trebui să fie plasat în folderul "Docu
 
 ## Vezi și
 
-- Articolul [Rendering](/words/net/rendering/) pentru mai multe informații despre formatele de pagină fixă și flux
-- Articolul [Converting to Fixed-page Format](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) pentru mai multe informaţii despre aspectul paginii
-"- Articolul [Specify Rendering Options When Converting to PDF](/words/net/specify-rendering-options-when-converting-to-pdf/) pentru mai multe informații despre folosirea clasei [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/)"
+- Articolul [Rendering](/words/ro/net/rendering/) pentru mai multe informații despre formatele de pagină fixă și flux
+- Articolul [Converting to Fixed-page Format](/words/ro/net/converting-to-fixed-page-format/#what-is-a-page-layout) pentru mai multe informaţii despre aspectul paginii
+"- Articolul [Specify Rendering Options When Converting to PDF](/words/ro/net/specify-rendering-options-when-converting-to-pdf/) pentru mai multe informații despre folosirea clasei [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/)"

@@ -1,4 +1,4 @@
----
+﻿---
 title: 在C++中将文档转换为PDF
 second_title: Aspose.Words对于C++
 articleTitle: 将文档转换为PDF
@@ -47,7 +47,7 @@ timestamp: 2024-10-21-08-52-03
 
 ### 转换为不同的PDF标准{#converting-to-various-pdf-standards}
 
-Aspose.Words提供[PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/)枚举以支持将DOC或DOCX转换为各种PDF格式标准（例如PDF 1.7, PDF 1.5, 等。).
+Aspose.Words提供[PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/)枚举以支持将DOC或DOCX转换为各种PDF格式标准（例如PDF 1.7, PDF 1.5, 等。).
 
 下面的代码示例演示如何使用符合PDF17的[PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/)将文档转换为PDF1.7:
 
@@ -67,6 +67,6 @@ Aspose.Words提供[PdfCompliace](https://reference.aspose.com/words/cpp/aspose.w
 
 ## 请参阅
 
-- 文章 [渲染图](/words/cpp/rendering/) 有关固定页面和流布局格式的更多信息
-- 文章 [转换为固定页格式](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) 有关页面布局的更多信息
-- 文章 [转换为PDF时指定渲染选项](/words/cpp/specify-rendering-options-when-converting-to-pdf/) 有关使用`PdfSaveOptions`类的更多信息
+- 文章 [渲染图](/words/zh/cpp/rendering/) 有关固定页面和流布局格式的更多信息
+- 文章 [转换为固定页格式](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) 有关页面布局的更多信息
+- 文章 [转换为PDF时指定渲染选项](/words/zh/cpp/specify-rendering-options-when-converting-to-pdf/) 有关使用`PdfSaveOptions`类的更多信息

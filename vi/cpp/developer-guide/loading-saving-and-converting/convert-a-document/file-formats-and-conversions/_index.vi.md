@@ -1,4 +1,4 @@
----
+﻿---
 title: Định dạng tệp và Chuyển đổi
 second_title: Aspose.Words cho C++
 articleTitle: Tại sao Chuyển Đổi Là Tính năng Hàng đầu của Aspose.Words?
@@ -29,7 +29,7 @@ Ví dụ mã sau đây cho thấy cách chuyển đổi tài liệu:
 
 {{< gist "aspose-words-gists" "b9784b73e288805e08fba6e3fc5ae2af" "docx-to-pdf.h" >}}
 
-Để biết thêm chi tiết về tải, chuyển đổi và lưu tài liệu, hãy xem [Tải, Lưu Và Chuyển đổi](/words/cpp/loading-saving-and-converting/) phần.
+Để biết thêm chi tiết về tải, chuyển đổi và lưu tài liệu, hãy xem [Tải, Lưu Và Chuyển đổi](/words/vi/cpp/loading-saving-and-converting/) phần.
 
 ## Độ Trung Thực Cao
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Požadavky na paměť
 second_title: Aspose.Words místo Java
 articleTitle: Požadavky na paměť
@@ -47,5 +47,5 @@ Pokud vaše výsledky profilování indikují možný problém paměti v Aspose.
 ## Viz také
 
 * [Renderování](/words/cs/java/rendering/)
-* [Mail Merge a využití prostředků](/words/java/mail-merge-and-reporting/)
+* [Mail Merge a využití prostředků](/words/cs/java/mail-merge-and-reporting/)
 * [Práce s poli](/words/cs/java/working-with-fields/)

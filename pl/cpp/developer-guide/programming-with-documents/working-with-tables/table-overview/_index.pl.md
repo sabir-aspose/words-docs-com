@@ -65,5 +65,5 @@ W Aspose.Words wszystkie klasy i właściwości związane z tabelami są zawarte
 
 ## Zobacz także
 
-* [Aspose.Words Obiektowy Model Dokumentu (DOM)](/words/cpp/aspose-words-document-object-model/)
-* [Logiczne poziomy węzłów w dokumencie](/words/cpp/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Obiektowy Model Dokumentu (DOM)](/words/pl/cpp/aspose-words-document-object-model/)
+* [Logiczne poziomy węzłów w dokumencie](/words/pl/cpp/logical-levels-of-nodes-in-a-document/)

@@ -1,4 +1,4 @@
----
+﻿---
 title: Konvertierung in das Festseitenformat in C++
 second_title: Aspose.Words für C++
 articleTitle: Konvertierung in das Festseitenformat
@@ -28,7 +28,7 @@ Microsoft Word ist heute die fortschrittlichste Textbearbeitungsanwendung in Win
 
 ## Siehe auch
 
-* [Was ist ein Seitenlayout](/words/cpp/what-is-a-page-layout/)
-* [Erstellen eines Seitenlayouts](/words/cpp/creating-a-page-layout/)
-* [Speichern eines Dokuments im Festseitenformat](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Layoutoptionen angeben](/words/cpp/specify-layout-options/)
+* [Was ist ein Seitenlayout](/words/de/cpp/what-is-a-page-layout/)
+* [Erstellen eines Seitenlayouts](/words/de/cpp/creating-a-page-layout/)
+* [Speichern eines Dokuments im Festseitenformat](/words/de/cpp/saving-a-document-to-fixed-page-format/)
+* [Layoutoptionen angeben](/words/de/cpp/specify-layout-options/)

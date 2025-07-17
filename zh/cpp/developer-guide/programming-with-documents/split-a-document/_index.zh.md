@@ -1,4 +1,4 @@
----
+﻿---
 title: 用C++拆分文档
 second_title: Aspose.Words对于C++
 articleTitle: 拆分文档
@@ -67,7 +67,7 @@ Aspose.Words还使您能够使用分段分隔符来分割文档并将其保存�
 
 {{% alert color="primary" %}}
 
-您可以使用任何 [Aspose.Words支持的输出格式](/words/cpp/supported-document-formats/).
+您可以使用任何 [Aspose.Words支持的输出格式](/words/zh/cpp/supported-document-formats/).
 
 {{% /alert %}}
 

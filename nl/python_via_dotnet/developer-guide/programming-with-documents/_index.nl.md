@@ -1,4 +1,4 @@
----
+﻿---
 title: Programmering met documenten
 second_title: Aspose.Words voor Python via .NET
 articleTitle: Programmering met documenten
@@ -51,11 +51,11 @@ Meer weten over Aspose.Words functies bij het programmeren met documenten, selec
 - [Werken met OfficeMath](/words/nl/python-net/working-with-officemath/)
 - [Werken met Smart Art Cold Rendering](/words/nl/python-net/working-with-smartart-cold-rendering/)
 - [Werken met Watermark](/words/nl/python-net/working-with-watermark/)
-- [Werken met Ole Objecten en Online Video](/words/python-net/working-with-ole-objects/)
+- [Werken met Ole Objecten en Online Video](/words/nl/python-net/working-with-ole-objects/)
 - [Werken met velden](/words/nl/python-net/working-with-fields/)
 - [Werken met formuliervelden](/words/nl/python-net/working-with-form-fields/)
 - [Werken met Content Control SDT](/words/nl/python-net/working-with-content-control-sdt/)
 - [Werken met controletekens](/words/nl/python-net/working-with-control-characters/)
 - [Werken met VBA Macros](/words/nl/python-net/working-with-vba-macros/)
 - [Werken met Markdown Kenmerken](/words/nl/python-net/working-with-markdown-features/)
-- [Werken met tekstdocument](/words/python-net/working-with-text-document/)
+- [Werken met tekstdocument](/words/nl/python-net/working-with-text-document/)

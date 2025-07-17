@@ -1,4 +1,4 @@
----
+﻿---
 title: Làm Thế Nào Để Chạy Các Ví Dụ
 second_title: Aspose.Words cho C++
 articleTitle: Làm Thế Nào Để Chạy Các Ví Dụ
@@ -36,7 +36,7 @@ Sau khi nhận được một bản sao của kho lưu trữ, bạn có thể th
 
 Để chạy các ví dụ, hãy mở tệp giải pháp trong Visual Studio và xây dựng dự án:
 
-- Đối với các ví dụ **API Reference**, cấu trúc dựa trên tên lớp, đối với các ví dụ **Docs**, nó chủ yếu dựa trên [Nhà Phát Triển Guiled](/words/cpp/developer-guide/) phần tài liệu.
+- Đối với các ví dụ **API Reference**, cấu trúc dựa trên tên lớp, đối với các ví dụ **Docs**, nó chủ yếu dựa trên [Nhà Phát Triển Guiled](/words/vi/cpp/developer-guide/) phần tài liệu.
 - Trong lần chạy đầu tiên, các phụ thuộc sẽ được tự động tải xuống qua NuGet.
 - Thư mục **Data** ở thư mục gốc của **Examples** chứa các tệp đầu vào đã được sử dụng trong các ví dụ.
 - Tất cả các ví dụ có thể được chạy như các bài kiểm tra đơn vị.
@@ -68,7 +68,7 @@ Giải pháp cho Visual Studio sẽ được tạo trong `Examples\DocsExamples\
 
 Để chạy các ví dụ, hãy mở tệp giải pháp trong Visual Studio và xây dựng dự án:
 
-- Đối với các ví dụ **API Reference**, cấu trúc dựa trên tên lớp, đối với các ví dụ **Docs**, nó chủ yếu dựa trên [Nhà Phát Triển Guiled](/words/cpp/developer-guide/) phần tài liệu.
+- Đối với các ví dụ **API Reference**, cấu trúc dựa trên tên lớp, đối với các ví dụ **Docs**, nó chủ yếu dựa trên [Nhà Phát Triển Guiled](/words/vi/cpp/developer-guide/) phần tài liệu.
 - Thư mục **Data** ở thư mục gốc của **Examples** chứa các tệp đầu vào đã được sử dụng trong các ví dụ.
 - Tất cả các ví dụ có thể được chạy như các bài kiểm tra đơn vị.
 
@@ -99,7 +99,7 @@ cmake --build Examples/DocsExamples/build
 cmake -E chdir Examples/DocsExamples/build ctest --verbose
 {{< /highlight >}}
 
-- Đối với các ví dụ **API Reference**, cấu trúc dựa trên tên lớp, đối với các ví dụ **Docs**, nó chủ yếu dựa trên [Nhà Phát Triển Guiled](/words/cpp/developer-guide/) phần tài liệu.
+- Đối với các ví dụ **API Reference**, cấu trúc dựa trên tên lớp, đối với các ví dụ **Docs**, nó chủ yếu dựa trên [Nhà Phát Triển Guiled](/words/vi/cpp/developer-guide/) phần tài liệu.
 - Thư mục **Data** ở thư mục gốc của **Examples** chứa các tệp đầu vào đã được sử dụng trong các ví dụ.
 - Tất cả các ví dụ có thể được chạy như các bài kiểm tra đơn vị.
 

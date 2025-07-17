@@ -1,4 +1,4 @@
----
+﻿---
 title: Cum să utilizați exemplele
 second_title: Aspose.Words pentru Java
 articleTitle: Cum să utilizați exemplele
@@ -12,6 +12,6 @@ timestamp: 2024-01-27-14-07-04
 
 În primul rând, asigurați-vă că aveți pachetul ADT instalat și că ați descărcat și extras cea mai recentă versiune a [Aspose.Words pentru Android prin Java](https://releases.aspose.com/words/androidjava/).
 
-- Instalați Aspose.Words pentru Android prin Java urmând instrucțiunile de la [aici](/words/java/installation/)
+- Instalați Aspose.Words pentru Android prin Java urmând instrucțiunile de la [aici](/words/ro/java/installation/)
 - Deschideți proiectul în spațiul dvs. de lucru folosind Eclipse cu ADT.
 - Faceți clic pe **Run** pentru a începe și alegeți emulatorul corespunzător pentru a rula pachetul.

@@ -219,7 +219,7 @@ Aspose.Words为Google Noto字体提供预定义的字体回退设置。 这些�
 
 ## Aspose.Words查找字体的位置
 
-Aspose.Words尝试自动在文件系统上查找TrueType字体。 通常，您可以依靠Aspose.Words的默认行为来查找`TrueType`字体，但有时您需要指定自己的包含TrueType字体的文件夹。 该 [指定TrueType字体位置](/words/java/specify-truetype-fonts-location/) 主题描述Aspose.Words查找字体的方式和位置，以及如何指定自己的字体位置。
+Aspose.Words尝试自动在文件系统上查找TrueType字体。 通常，您可以依靠Aspose.Words的默认行为来查找`TrueType`字体，但有时您需要指定自己的包含TrueType字体的文件夹。 该 [指定TrueType字体位置](/words/zh/java/specify-truetype-fonts-location/) 主题描述Aspose.Words查找字体的方式和位置，以及如何指定自己的字体位置。
 
 ## Aspose.Words和Microsoft Word中字体格式处理的差异
 

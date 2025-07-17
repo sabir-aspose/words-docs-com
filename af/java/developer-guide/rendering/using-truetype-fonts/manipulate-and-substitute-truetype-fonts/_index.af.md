@@ -1,4 +1,4 @@
----
+﻿---
 title: Manipuleer En Vervang TrueType Lettertipes
 second_title: Aspose.Words vir Java
 articleTitle: Manipuleer En Vervang TrueType Lettertipes
@@ -219,7 +219,7 @@ Slegs Sans-Styl Noto-lettertipes met gereelde gewig word in vooraf gedefinieerde
 
 ## Waar Aspose.Words Soek Vir Lettertipes
 
-Aspose.Words probeer om TrueType lettertipes op die lêerstelsel outomaties te vind. Gewoonlik kan jy staatmaak op die standaard gedrag van Aspose.Words om die `TrueType` lettertipes te vind, maar soms moet jy jou eie dopgehou spesifiseer wat TrueType lettertipes bevat. Die [Spesifiseer TrueType Lettertipes Ligging](/words/java/specify-truetype-fonts-location/) onderwerp beskryf hoe en waar Aspose.Words na lettertipes soek, asook hoe om jou eie lettertipe te spesifiseer.
+Aspose.Words probeer om TrueType lettertipes op die lêerstelsel outomaties te vind. Gewoonlik kan jy staatmaak op die standaard gedrag van Aspose.Words om die `TrueType` lettertipes te vind, maar soms moet jy jou eie dopgehou spesifiseer wat TrueType lettertipes bevat. Die [Spesifiseer TrueType Lettertipes Ligging](/words/af/java/specify-truetype-fonts-location/) onderwerp beskryf hoe en waar Aspose.Words na lettertipes soek, asook hoe om jou eie lettertipe te spesifiseer.
 
 ## Verskille In Die Verwerking Van Font Formate in Aspose.Words en Microsoft Word
 

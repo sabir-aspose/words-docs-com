@@ -1,4 +1,4 @@
----
+﻿---
 title: C++中的字段概述
 second_title: Aspose.Words对于C++
 articleTitle: 字段概述
@@ -29,7 +29,7 @@ Aspose.Words是一个为服务器端处理Microsoft Word文档而设计的类库
 
 ![fields-overview-aspose-words-cpp-1](fields-overview-1.png)
 
-构成字段代码的内容存储为[FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/)和[FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/)之间的[Run](https://reference.aspose.com/words/cpp/class/aspose.words.run)节点。 字段结果存储在**FieldSeparator**和[FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/)节点之间，可以由各种类型的内容组成。 通常，字段结果只包含由**Run**节点组成的文本，但是**FieldEnd**节点可能位于完全不同的段落中，从而使字段结果由 [块级节点](/words/cpp/logical-levels-of-nodes-in-a-document/) 如**Table**和**Paragraph**节点为好。
+构成字段代码的内容存储为[FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/)和[FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/)之间的[Run](https://reference.aspose.com/words/cpp/class/aspose.words.run)节点。 字段结果存储在**FieldSeparator**和[FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/)节点之间，可以由各种类型的内容组成。 通常，字段结果只包含由**Run**节点组成的文本，但是**FieldEnd**节点可能位于完全不同的段落中，从而使字段结果由 [块级节点](/words/zh/cpp/logical-levels-of-nodes-in-a-document/) 如**Table**和**Paragraph**节点为好。
 
 下面是一个如何使用"*DocumentExplorer"*示例将字段存储在Aspose.Words中的视图。
 
@@ -37,7 +37,7 @@ Aspose.Words是一个为服务器端处理Microsoft Word文档而设计的类库
 
 ## Aspose.Words文档对象模型中的字段(DOM)
 
-当文档被加载到Aspose.Words时，文档的字段被加载到 [Aspose.Words文档对象模型](/words/cpp/aspose-words-document-object-model/) 作为一组单独的组件（节点）。 单个字段作为**FieldStart**，**FieldSeparator**和**FieldEnd**节点的集合以及这些节点之间的内容加载。 如果字段没有字段结果，则不会有**FieldSeparator**节点。 所有这些节点总是内联找到（作为[Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph)或[SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)的子节点）。
+当文档被加载到Aspose.Words时，文档的字段被加载到 [Aspose.Words文档对象模型](/words/zh/cpp/aspose-words-document-object-model/) 作为一组单独的组件（节点）。 单个字段作为**FieldStart**，**FieldSeparator**和**FieldEnd**节点的集合以及这些节点之间的内容加载。 如果字段没有字段结果，则不会有**FieldSeparator**节点。 所有这些节点总是内联找到（作为[Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph)或[SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)的子节点）。
 
 在Aspose.Words中，每个**FieldXXX**节点都来自[FieldChar](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_char/)。 此类提供了一个属性，用于通过[FieldType](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldchar/get_fieldtype/)属性检查指定节点表示的字段类型。 例如**FieldType.FieldMergeField**表示文档中的合并字段。
 

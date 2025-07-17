@@ -1,4 +1,4 @@
----
+﻿---
 title: Lucraţi cu un document stocat într-o Liferay
 second_title: Aspose.Words pentru .NET
 articleTitle: Lucraţi cu un document stocat într-o Liferay
@@ -28,7 +28,7 @@ Liferay Portal este o platformă software de portal pentru întreprinderi cu sur
 2. Conectați-vă la [Liferay](http://localhost:8080) folosind adresa de email `test@liferay.com` și parola `test`.
 3. Când vi se solicită, schimbați parola.
 4. Recuperează identificatorul site-ului folosind [this tutorial](https://learn.liferay.com/w/dxp/headless-delivery/consuming-apis/consuming-rest-services#identify-the-site-containing-the-data).
-5. Cumpărați o Aspose.Words licență sau utilizați o [Free Trial or 30-day Temporary License](/words/net/licensing/).
+5. Cumpărați o Aspose.Words licență sau utilizați o [Free Trial or 30-day Temporary License](/words/ro/net/licensing/).
 
 {{% alert color="primary" %}}
 
@@ -380,4 +380,4 @@ Ca rezultat, fișierul "DocumentCompared.docx" ar trebui plasat în rădăcina b
 ## Vezi și
 
 - Articolul [Work with a Document Stored in a `SharePoint` Online](/words/net/work-with-document-stored-in-sharepoint)
-- Articolul [Work with a Document Marked by a Sensitivity Label](/words/net/work-with-document-market-by-sensitivity-label/)
+- Articolul [Work with a Document Marked by a Sensitivity Label](/words/ro/net/work-with-document-market-by-sensitivity-label/)

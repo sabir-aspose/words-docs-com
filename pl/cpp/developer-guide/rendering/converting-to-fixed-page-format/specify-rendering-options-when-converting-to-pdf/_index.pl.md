@@ -96,7 +96,7 @@ Rozdzielczość jest obliczana zgodnie z rzeczywistym rozmiarem obrazu na stroni
 
 ## Osadzanie czcionek w formacie Adobe PDF
 
-Aspose.Words umożliwia również kontrolowanie sposobu osadzania czcionek w wynikowych dokumentach PDF. Czcionki muszą być osadzone w dowolnym dokumencie Adobe PDF, aby upewnić się, że dokument może być poprawnie renderowany na dowolnym komputerze (więcej szczegółów na temat renderowania czcionek można znaleźć w sekcji [Używanie Czcionek TrueType ](/words/cpp/using-truetype-fonts/)). Domyślnie Aspose.Words osadza podzbiór czcionek używanych w dokumencie w wygenerowanym PDF. W takim przypadku tylko glify (znaki) użyte w dokumencie są zapisywane w PDF.
+Aspose.Words umożliwia również kontrolowanie sposobu osadzania czcionek w wynikowych dokumentach PDF. Czcionki muszą być osadzone w dowolnym dokumencie Adobe PDF, aby upewnić się, że dokument może być poprawnie renderowany na dowolnym komputerze (więcej szczegółów na temat renderowania czcionek można znaleźć w sekcji [Używanie Czcionek TrueType ](/words/pl/cpp/using-truetype-fonts/)). Domyślnie Aspose.Words osadza podzbiór czcionek używanych w dokumencie w wygenerowanym PDF. W takim przypadku tylko glify (znaki) użyte w dokumencie są zapisywane w PDF.
 
 ### Kiedy używać pełnych czcionek, a kiedy podzbiór
 

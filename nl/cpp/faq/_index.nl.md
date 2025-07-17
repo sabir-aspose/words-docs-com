@@ -12,7 +12,7 @@ timestamp: 2024-01-31-14-23-37
 
 Deze pagina bevat antwoorden op de meest gestelde vragen. Lees de huidige pagina-misschien kunt u hiermee uw probleem snel oplossen.
 
-Als u het antwoord op uw vraag niet hebt gevonden, kunt u deze stellen op het ondersteuningsforum. Voor informatie over hoe u uw vraag of probleem correct kunt melden, zie de [productondersteuning](/words/cpp/technical-support/) pagina.
+Als u het antwoord op uw vraag niet hebt gevonden, kunt u deze stellen op het ondersteuningsforum. Voor informatie over hoe u uw vraag of probleem correct kunt melden, zie de [productondersteuning](/words/nl/cpp/technical-support/) pagina.
 
 {{% alert color="primary" %}}
 
@@ -32,7 +32,7 @@ Details zijn te vinden in onze documentatie.
 
 **V: wat betekent het "Aspose.Words vereist geen toepassingen van derden"?**
 
-Aspose.Words voor C++ hoeft geen applicaties van derden of extra softwarepakketten te installeren om te werken. Download en installeer Aspose.Words zoals beschreven in de ["Installatie"](/words/cpp/installation/) artikel en aan de slag.
+Aspose.Words voor C++ hoeft geen applicaties van derden of extra softwarepakketten te installeren om te werken. Download en installeer Aspose.Words zoals beschreven in de ["Installatie"](/words/nl/cpp/installation/) artikel en aan de slag.
 
 ------
 
@@ -40,7 +40,7 @@ Aspose.Words voor C++ hoeft geen applicaties van derden of extra softwarepakkett
 
 Aspose.Words voor C++ omvat de meeste populaire ontwikkelomgevingen en implementatieplatforms. Its API kan worden gebruikt om applicaties te ontwikkelen voor een breed scala aan besturingssystemen zoals Windows, Linux en Mac OS, en verschillende platforms.
 
-Voor meer informatie, zie de [Productoverzicht](/words/cpp/product-overview/) pagina.
+Voor meer informatie, zie de [Productoverzicht](/words/nl/cpp/product-overview/) pagina.
 
 ------
 
@@ -48,7 +48,7 @@ Voor meer informatie, zie de [Productoverzicht](/words/cpp/product-overview/) pa
 
 Aspose.Words voor C++ ondersteunt de meeste populaire documentformaten zoals DOC, DOCX, HTML, Markdown, PDF, XML, en anderen.
 
-U kunt de volledige lijst van ondersteunde formaten op de [Ondersteunde Documentformaten](/words/cpp/supported-document-formats/) pagina.
+U kunt de volledige lijst van ondersteunde formaten op de [Ondersteunde Documentformaten](/words/nl/cpp/supported-document-formats/) pagina.
 
 ------
 
@@ -56,7 +56,7 @@ U kunt de volledige lijst van ondersteunde formaten op de [Ondersteunde Document
 
 U kunt dit op twee manieren doen – met behulp van de proefversie of een tijdelijke licentie van 30 dagen. De proefversie is hetzelfde als de gekochte, het biedt volledige productfunctionaliteit, maar voegt een evaluatief watermerk toe aan de bovenkant van het document bij het laden en opslaan en beperkt de maximale documentgrootte tot een paar honderd alinea ' s. Met een tijdelijke licentie kunt u Aspose.Words gedurende 30 dagen zonder Proefbeperkingen testen.
 
-Zie de [Licentie en Abonnement](/words/cpp/licensing/) pagina voor meer informatie.
+Zie de [Licentie en Abonnement](/words/nl/cpp/licensing/) pagina voor meer informatie.
 
 {{% alert color="primary" %}}
 
@@ -70,31 +70,31 @@ U kunt ook enkele van de meest populaire Aspose.Words - functies proberen via de
 
 Om een Aspose.Words licentie te kopen, moet je naar de [Aankoop](https://purchase.aspose.com/buy) selecteer het "Aspose.Words " product en het type licentie dat bij u past. Voeg vervolgens de licentie toe aan uw winkelwagen en volg de instructies in het winkelwagentje.
 
-Vraag na aankoop de licentie aan zoals beschreven in de [Aangekochte Licentie](/words/cpp/licensing/#purchased-license) sectie.
+Vraag na aankoop de licentie aan zoals beschreven in de [Aangekochte Licentie](/words/nl/cpp/licensing/) sectie.
 
-Details over het installeren van Aspose.Words kunt u lezen op de [Installatie](/words/cpp/installation/) pagina.
+Details over het installeren van Aspose.Words kunt u lezen op de [Installatie](/words/nl/cpp/installation/) pagina.
 
 ------
 
 **Q: Hoe kan ik steun krijgen?**
 
-Gebruik het gratis forum voor technische ondersteuning. Voor meer informatie over hoe u een probleem goed kunt melden en wat er moet worden gedaan voordat u contact opneemt met het forum, zie de [productondersteuning](/words/cpp/technical-support/) pagina.
+Gebruik het gratis forum voor technische ondersteuning. Voor meer informatie over hoe u een probleem goed kunt melden en wat er moet worden gedaan voordat u contact opneemt met het forum, zie de [productondersteuning](/words/nl/cpp/technical-support/) pagina.
 
 ## Een Document weergeven
 
 {{% alert color="primary" %}}
 
-U kunt meer gedetailleerde informatie over rendering vinden in de [Rendering](/words/cpp/rendering/) documentatie sectie.
+U kunt meer gedetailleerde informatie over rendering vinden in de [Rendering](/words/nl/cpp/rendering/) documentatie sectie.
 
 {{% /alert %}}
 
 **V: Waarom verschillen de lay-out en lettertypen in het uitvoerdocument van het origineel?**
 
-Het lettertype is mogelijk niet beschikbaar of de lettertypeindeling wordt ondersteund door Microsoft Word maar niet door Aspose.Words. Aspose.Words zal uitvoeren [lettertypevervanging](/words/cpp/manipulate-and-substitute-truetype-fonts/).
+Het lettertype is mogelijk niet beschikbaar of de lettertypeindeling wordt ondersteund door Microsoft Word maar niet door Aspose.Words. Aspose.Words zal uitvoeren [lettertypevervanging](/words/nl/cpp/manipulate-and-substitute-truetype-fonts/).
 
 Om te controleren of het lettertype ontbreekt:
 
-- Gebruik in Aspose.Words De Lettertypevervangingswaarschuwingen (zie voor meer informatie het gedeelte 'herkennen dat het lettertype is vervangen' van de [TrueType lettertypen bewerken en vervangen](/words/cpp/manipulate-and-substitute-truetype-fonts/) artikel).
+- Gebruik in Aspose.Words De Lettertypevervangingswaarschuwingen (zie voor meer informatie het gedeelte 'herkennen dat het lettertype is vervangen' van de [TrueType lettertypen bewerken en vervangen](/words/nl/cpp/manipulate-and-substitute-truetype-fonts/) artikel).
 - Open in Microsoft Word het dialoogvenster "Lettertypesubstitutie" (Bestand → Opties → Geavanceerd → Lettertypesubstitutie).
 
 ------
@@ -121,7 +121,7 @@ Ja, dat doe je. Houd er bij het kopiëren van lettertypen rekening mee dat de me
 
 {{% alert color="primary" %}}
 
-Meer gedetailleerde informatie over programmeren met documenten vindt u in de [Programmeren met documenten](/words/cpp/programming-with-documents/) documentatie sectie.
+Meer gedetailleerde informatie over programmeren met documenten vindt u in de [Programmeren met documenten](/words/nl/cpp/programming-with-documents/) documentatie sectie.
 
 {{% /alert %}}
 
@@ -133,7 +133,7 @@ Het resultaat toevoegen wordt op een aparte pagina weergegeven vanwege een versc
 
 {{% alert color="primary" %}}
 
-Meer gedetailleerde informatie over het converteren van een document vindt u in de [Een Document converteren](/words/cpp/convert-a-document/) documentatie sectie.
+Meer gedetailleerde informatie over het converteren van een document vindt u in de [Een Document converteren](/words/nl/cpp/convert-a-document/) documentatie sectie.
 
 {{% /alert %}}
 
@@ -156,7 +156,7 @@ doc->Save(outputPath);
 
 {{% alert color="primary" %}}
 
-Meer gedetailleerde informatie over programmeren met documenten vindt u in de [Programmeren met documenten](/words/cpp/programming-with-documents/) documentatie sectie.
+Meer gedetailleerde informatie over programmeren met documenten vindt u in de [Programmeren met documenten](/words/nl/cpp/programming-with-documents/) documentatie sectie.
 
 {{% /alert %}}
 

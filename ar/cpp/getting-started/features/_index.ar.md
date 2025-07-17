@@ -1,4 +1,4 @@
----
+﻿---
 title: الميزات
 second_title: Aspose.Words ل C++
 articleTitle: الميزات المدعومة
@@ -37,7 +37,7 @@ Aspose.Words يوفر للمستخدمين مجموعة واسعة من المي
 
 ## القيود
 
-- يدعم مجموعة محدودة من تنسيقات الملفات (*see [Supported Document Formats](/words/cpp/supported-document-formats/) for details*)
+- يدعم مجموعة محدودة من تنسيقات الملفات (*see [Supported Document Formats](/words/ar/cpp/supported-document-formats/) for details*)
 - لا يوجد دعم للمستندات المشفرة
 - لا يوجد دعم لتنزيل الموارد عن بعد من الإنترنت
 - دعم محدود وغير مستقر لتقديم الميزات

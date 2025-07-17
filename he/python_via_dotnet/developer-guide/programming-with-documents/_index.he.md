@@ -1,4 +1,4 @@
----
+﻿---
 title: תכנות עם מסמכים
 second_title: Aspose.Words עבור Python via .NET
 articleTitle: תכנות עם מסמכים
@@ -51,11 +51,11 @@ timestamp: 2024-09-25-11-08-55
 - [עבודה עם OfficeMath](/words/he/python-net/working-with-officemath/)
 - [עבודה עם חכם אמנות Cold Rendering](/words/he/python-net/working-with-smartart-cold-rendering/)
 - [עבודה עם Watermark](/words/he/python-net/working-with-watermark/)
-- [עקבו אחרי Ole Objects and online Video](/words/python-net/working-with-ole-objects/)
+- [עקבו אחרי Ole Objects and online Video](/words/he/python-net/working-with-ole-objects/)
 - [עבודה עם שדות](/words/he/python-net/working-with-fields/)
 - [עבודה עם שדות טפסים](/words/he/python-net/working-with-form-fields/)
 - [עקבו אחרי Content Control SDT](/words/he/python-net/working-with-content-control-sdt/)
 - [עבודה עם דמויות שליטה](/words/he/python-net/working-with-control-characters/)
 - [עבודה עם VBA Macros](/words/he/python-net/working-with-vba-macros/)
 - [עבודה עם Markdown תכונות](/words/he/python-net/working-with-markdown-features/)
-- [עבודה עם מסמך טקסט](/words/python-net/working-with-text-document/)
+- [עבודה עם מסמך טקסט](/words/he/python-net/working-with-text-document/)

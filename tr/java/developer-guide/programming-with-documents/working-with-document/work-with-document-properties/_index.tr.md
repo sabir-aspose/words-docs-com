@@ -1,4 +1,4 @@
----
+﻿---
 title: Document Properties ile çalışın Java
 second_title: Aspose.Words için Java
 articleTitle: Belge Özellikleriyle Çalışın
@@ -15,7 +15,7 @@ Belge özellikleri belgeniz hakkında bazı faydalı bilgileri depolamanıza imk
 Belge başlığı, yazar adı, belge istatistikleri ve diğerleri gibi değerleri içeren sistem veya yerleşik.
 Kullanıcı tarafından tanımlanmış veya özel, kullanıcı hem adı hem de değeri tanımlayabildiği ad-değer çiftleri olarak sağlanır.
 
-Bilgi API ve sürüm numarası doğrudan çıktılar belgesine yazılacağı hakkında bilgi sahibi olmak yararlıdır. Örneğin, bir belgeyi PDF'ye dönüştürürken, Aspose.Words "Uygulama" alanını "Aspose.Words" ile doldurur ve "Aspose.Words için YY.M.N" alanını "Java" ile doldurur, burada *YY.M.N*, dönüştürme için kullanılan Aspose.Words'nin sürümüdür. Ayrıntılar için [Generator or Producer Name Included in Output Documents](/words/java/generator-or-producer-name-included-in-output-documents/)'a bakın.
+Bilgi API ve sürüm numarası doğrudan çıktılar belgesine yazılacağı hakkında bilgi sahibi olmak yararlıdır. Örneğin, bir belgeyi PDF'ye dönüştürürken, Aspose.Words "Uygulama" alanını "Aspose.Words" ile doldurur ve "Aspose.Words için YY.M.N" alanını "Java" ile doldurur, burada *YY.M.N*, dönüştürme için kullanılan Aspose.Words'nin sürümüdür. Ayrıntılar için [Generator or Producer Name Included in Output Documents](/words/tr/java/generator-or-producer-name-included-in-output-documents/)'a bakın.
 
 {{% alert color="primary" %}}
 

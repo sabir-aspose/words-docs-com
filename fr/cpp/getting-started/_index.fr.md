@@ -1,4 +1,4 @@
----
+﻿---
 title: Pour Commencer
 second_title: Aspose.Words pour C++
 articleTitle: Pour Commencer
@@ -14,12 +14,12 @@ Cette mise en route fournit une introduction aux principes fondamentaux de Aspos
 
 Pour en savoir plus sur Aspose.Words, sélectionnez la section appropriée:
 
-- [Montage](/words/cpp/installation/) - fournit des informations sur la façon d'installer Aspose.Words
-- [Bonjour le Monde](/words/cpp/hello-world/) - fournit des informations sur la façon de tester que le logiciel destiné à compiler ou exécuter le code source est correctement installé
-- [Formats de Document Pris En Charge](/words/cpp/supported-document-formats/) - fournit des informations sur les formats pris en charge
-- [Fonctionnalités Prises En Charge](/words/cpp/features/) - fournit des informations sur les fonctionnalités prises en charge lors du chargement ou de l'enregistrement d'un document dans différents formats
-- [Licence et Abonnement](/words/cpp/licensing/) - fournit des informations sur l'application d'une licence et l'utilisation de plusieurs produits Aspose
-- [Configuration Système Requise](/words/cpp/system-requirements/) - fournit des informations sur les exigences du système et de l'environnement de développement
-- [Notes de Sécurité](/words/cpp/security/) - décrit des notes et des conseils sur la façon d'éviter les problèmes de sécurité courants
-- [Comment exécuter les Exemples](/words/cpp/how-to-run-the-examples/) - décrit comment télécharger et exécuter les exemples et quelles exigences logicielles doivent être satisfaites
-- [Travailler avec des documents Word dans Qt](/words/cpp/work-with-word-documents-in-qt/) - fournit des informations sur la façon d'intégrer Aspose.Words dans Qt
+- [Montage](/words/fr/cpp/installation/) - fournit des informations sur la façon d'installer Aspose.Words
+- [Bonjour le Monde](/words/fr/cpp/hello-world/) - fournit des informations sur la façon de tester que le logiciel destiné à compiler ou exécuter le code source est correctement installé
+- [Formats de Document Pris En Charge](/words/fr/cpp/supported-document-formats/) - fournit des informations sur les formats pris en charge
+- [Fonctionnalités Prises En Charge](/words/fr/cpp/features/) - fournit des informations sur les fonctionnalités prises en charge lors du chargement ou de l'enregistrement d'un document dans différents formats
+- [Licence et Abonnement](/words/fr/cpp/licensing/) - fournit des informations sur l'application d'une licence et l'utilisation de plusieurs produits Aspose
+- [Configuration Système Requise](/words/fr/cpp/system-requirements/) - fournit des informations sur les exigences du système et de l'environnement de développement
+- [Notes de Sécurité](/words/fr/cpp/security/) - décrit des notes et des conseils sur la façon d'éviter les problèmes de sécurité courants
+- [Comment exécuter les Exemples](/words/fr/cpp/how-to-run-the-examples/) - décrit comment télécharger et exécuter les exemples et quelles exigences logicielles doivent être satisfaites
+- [Travailler avec des documents Word dans Qt](/words/fr/cpp/work-with-word-documents-in-qt/) - fournit des informations sur la façon d'intégrer Aspose.Words dans Qt

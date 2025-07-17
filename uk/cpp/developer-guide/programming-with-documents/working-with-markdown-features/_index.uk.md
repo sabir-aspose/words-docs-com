@@ -27,7 +27,7 @@ timestamp: 2024-01-31-14-23-37
 
 {{% alert color="primary" %}}
 
-Існують нюанси перекладу Markdown в об'єктну модель документа Aspose.Words (DOM), описані в статті [Перекласти Markdown в об'єктну модель документа (DOM)](/words/cpp/translate-markdown-to-document-object-model/).
+Існують нюанси перекладу Markdown в об'єктну модель документа Aspose.Words (DOM), описані в статті [Перекласти Markdown в об'єктну модель документа (DOM)](/words/uk/cpp/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

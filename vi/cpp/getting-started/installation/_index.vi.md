@@ -1,4 +1,4 @@
----
+﻿---
 title: Cách cài đặt Aspose.Words cho C++
 second_title: Aspose.Words cho C++
 articleTitle: Cài đặt
@@ -10,7 +10,7 @@ url: /vi/cpp/installation/
 timestamp: 2024-09-24-14-35-44
 ---
 
-Đảm bảo máy của bạn đáp ứng [yêu cầu hệ thống](/words/cpp/system-requirements/) trước khi bạn bắt đầu.
+Đảm bảo máy của bạn đáp ứng [yêu cầu hệ thống](/words/vi/cpp/system-requirements/) trước khi bạn bắt đầu.
 
 Bài viết này giải thích cách cài đặt Aspose.Words cho C++ trên máy tính của bạn.
 

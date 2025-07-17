@@ -470,7 +470,7 @@ Aspose.Words 23.12 ویژگی ها و شمارش های جدید برای کار
 
 {{% alert color="primary" %}}
 
-اطلاعات بیشتر در مورد [Aspose.Words برای Java 23.9 یادداشت های انتشار](/words/java/aspose-words-for-java-23-9-release-notes/).
+اطلاعات بیشتر در مورد [Aspose.Words برای Java 23.9 یادداشت های انتشار](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-9-release-notes/).
 
 اطلاعات بیشتر در مورد [Aspose.Words برای Java 23.10 یادداشت های انتشار](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 

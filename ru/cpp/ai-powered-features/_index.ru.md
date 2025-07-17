@@ -1,4 +1,4 @@
----
+﻿---
 title: AI -функциональные возможности
 second_title: Aspose.Words для C++
 articleTitle: AI -функциональные возможности
@@ -16,7 +16,7 @@ Aspose.Words теперь включает функции на базе AI, пр
 
 В этом разделе мы расскажем обо всем, что вам нужно знать об использовании поддерживаемых функций AI в Aspose.Words. От практических советов до подробных инструкций мы стремимся помочь вам максимально эффективно использовать эти усовершенствования.
 
-* [Поддерживаемые модели AI](/words/cpp/supported-ai-models/)
-* [Обобщение документа](/words/cpp/summarize-a-document/)
-* [Перевести документ](/words/cpp/translate-a-document/)
-* [Проверка грамматики](/words/cpp/grammar-checking/)
+* [Поддерживаемые модели AI](/words/ru/cpp/supported-ai-models/)
+* [Обобщение документа](/words/ru/cpp/summarize-a-document/)
+* [Перевести документ](/words/ru/cpp/translate-a-document/)
+* [Проверка грамматики](/words/ru/cpp/grammar-checking/)

@@ -85,7 +85,7 @@ Aspose.Words также позволяет использовать разрыв
 
 {{% alert color="primary" %}}
 
-Вы можете использовать любой [выходной формат, поддерживаемый Aspose.Words](/words/java/supported-document-formats/).
+Вы можете использовать любой [выходной формат, поддерживаемый Aspose.Words](/words/ru/java/supported-document-formats/).
 
 {{% /alert %}}
 

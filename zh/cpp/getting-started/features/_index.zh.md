@@ -1,4 +1,4 @@
----
+﻿---
 title: 特征
 second_title: Aspose.Words为C++
 articleTitle: 支持的功能
@@ -37,7 +37,7 @@ Aspose.Words为用户提供了广泛的功能。 用户可以执行大量与文�
 
 ## 限制
 
-- 支持有限的文件格式集(*see [Supported Document Formats](/words/cpp/supported-document-formats/) for details*)
+- 支持有限的文件格式集(*see [Supported Document Formats](/words/zh/cpp/supported-document-formats/) for details*)
 - 不支持加密文档
 - 不支持从Internet下载远程资源
 - 有限且不稳定的渲染功能支持

@@ -28,7 +28,7 @@ Microsoft Word - це найдосконаліший на сьогоднішні
 
 ## Дивіться також
 
-* [Що таке макет сторінки](/words/cpp/what-is-a-page-layout/)
-* [Створення макета сторінки](/words/cpp/creating-a-page-layout/)
-* [Збереження документа у форматі фіксованої сторінки](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Вкажіть параметри компонування](/words/cpp/specify-layout-options/)
+* [Що таке макет сторінки](/words/uk/cpp/what-is-a-page-layout/)
+* [Створення макета сторінки](/words/uk/cpp/creating-a-page-layout/)
+* [Збереження документа у форматі фіксованої сторінки](/words/uk/cpp/saving-a-document-to-fixed-page-format/)
+* [Вкажіть параметри компонування](/words/uk/cpp/specify-layout-options/)

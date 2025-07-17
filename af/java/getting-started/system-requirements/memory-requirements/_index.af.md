@@ -1,4 +1,4 @@
----
+﻿---
 title: Geheue Vereistes
 second_title: Aspose.Words vir Java
 articleTitle: Geheue Vereistes
@@ -42,10 +42,10 @@ Eksperimente met duisende werklike dokumente toon dat tipies Aspose.Words verske
 
 Meer komplekse bedrywighede soos weergawe (omskakeling na vaste bladsy formate), opdatering velde, verdeling bladsy, en ander, vir sommige dokumente vereis 20 keer meer hulpbronne as die geheue toegeken deur die dokument gelaai in Aspose.Words DOM.
 
-As u profielresultate'n moontlike geheueprobleem in Aspose.Words aandui, kontak ons asseblief [Ondersteuningspan](/words/java/technical-support/) en sluit al die diagnostiese inligting in.
+As u profielresultate'n moontlike geheueprobleem in Aspose.Words aandui, kontak ons asseblief [Ondersteuningspan](/words/af/java/technical-support/) en sluit al die diagnostiese inligting in.
 
 ## Sien Ook
 
-* [Lewering](/words/java/rendering/)
-* [Mail Merge En Verslagdoening](/words/java/mail-merge-and-reporting/)
-* [Werk Met Velde](/words/java/working-with-fields/)
+* [Lewering](/words/af/java/rendering/)
+* [Mail Merge En Verslagdoening](/words/af/java/mail-merge-and-reporting/)
+* [Werk Met Velde](/words/af/java/working-with-fields/)

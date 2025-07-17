@@ -1,4 +1,4 @@
----
+﻿---
 title: Perguntas frequentes
 second_title: Aspose.Words para .NET
 articleTitle: Perguntas frequentes – Aspose.Words para .NET
@@ -72,7 +72,7 @@ Você também pode experimentar alguns dos recursos Aspose.Words mais populares 
 
 Para comprar uma licença Aspose.Words, você precisa ir até a página [Comprar](https://purchase.aspose.com/buy), selecionar o produto "Aspose.Words" e o tipo de licença que mais lhe convier. Em seguida, adicione a licença ao seu carrinho e siga as instruções do carrinho de compras.
 
-Após a compra, solicite a licença conforme descrito na seção [Licença adquirida](/words/net/licensing/#purchased-license).
+Após a compra, solicite a licença conforme descrito na seção [Licença adquirida](/words/pt/net/licensing/).
 
 Detalhes sobre como instalar o Aspose.Words podem ser lidos na página [Instalação](/words/pt/net/installation/).
 
@@ -129,7 +129,7 @@ Sim, você quer. Portanto, ao copiar fontes, lembre-se de que a maioria das font
 
 {{% alert color="primary" %}}
 
-Você pode encontrar informações mais detalhadas sobre Mail Merge na seção de documentação [Mail Merge e relatórios](/words/net/mail-merge-and-reporting/).
+Você pode encontrar informações mais detalhadas sobre Mail Merge na seção de documentação [Mail Merge e relatórios](/words/pt/net/mail-merge-and-reporting/).
 
 {{% /alert %}}
 
@@ -153,7 +153,7 @@ Isso ocorre porque as regiões de mesclagem no modelo não estão formadas corre
 Isso ocorre porque o relacionamento entre as tabelas pai e filho não está configurado ou está configurado incorretamente. É necessário:
 
 * Garanta a integridade dos dados em seu **DataSet** e use o objeto **DataRelation** para representar o relacionamento pai-filho entre tabelas de dados relacionadas.
-* Confira a seção "Como configurar relações de dados em Mail Merge aninhado com regiões" no artigo [Mail Merge aninhado com regiões](/words/net/nested-mail-merge-with-regions/).
+* Confira a seção "Como configurar relações de dados em Mail Merge aninhado com regiões" no artigo [Mail Merge aninhado com regiões](/words/pt/net/nested-mail-merge-with-regions/).
 
 ------
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Prezentare Generală A Produsului
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Prezentare Generală A Produsului
@@ -16,7 +16,7 @@ Bine ați venit la Aspose.Words pentru Python via .NET!
 
 Aspose.Words este o bibliotecă de clase multiplatformă care permite aplicațiilor dvs. să efectueze o mare varietate de sarcini de procesare a documentelor.
 
-Folosind Aspose.Words, Puteți converti un document din orice format de încărcare acceptat în orice format de salvare acceptat, de exemplu, formate Word în PDF, HTML sau Markdown, PDF în DOCX și așa mai departe. Citiți mai multe despre conversia documentelor în [Conversia unui Document](/words/python-net/convert-a-document/) secțiunea.
+Folosind Aspose.Words, Puteți converti un document din orice format de încărcare acceptat în orice format de salvare acceptat, de exemplu, formate Word în PDF, HTML sau Markdown, PDF în DOCX și așa mai departe. Citiți mai multe despre conversia documentelor în [Conversia unui Document](/words/ro/python-net/convert-a-document/) secțiunea.
 
 Este demn de remarcat faptul că cu Aspose.Words puteți crea, modifica, converti, reda și imprima documente fără a vă baza pe aplicații terțe, cum ar fi Microsoft Word sau Office Automation.
 
@@ -42,21 +42,21 @@ Aspose.Words pentru Python via .NET caracteristicile pot fi împărțite în pat
 
 Capacitatea de a converti ușor și fiabil documente este una dintre principalele caracteristici ale Aspose.Words.
 
-Cuprinzătoare [import și export de documente](/words/python-net/loading-saving-and-converting/) cu [peste 35 formate de fișiere acceptate](/words/python-net/supported-document-formats/) permite utilizatorilor să convertească documente de la [one popular format](https://reference.aspose.com/words/net/aspose.words/loadformat/) la [another](https://reference.aspose.com/words/net/aspose.words/saveformat/), de exemplu, de la DOCX la PDF, JPEG sau Markdown sau de la PDF la diferite formate Word.
+Cuprinzătoare [import și export de documente](/words/ro/python-net/loading-saving-and-converting/) cu [peste 35 formate de fișiere acceptate](/words/ro/python-net/supported-document-formats/) permite utilizatorilor să convertească documente de la [one popular format](https://reference.aspose.com/words/net/aspose.words/loadformat/) la [another](https://reference.aspose.com/words/net/aspose.words/saveformat/), de exemplu, de la DOCX la PDF, JPEG sau Markdown sau de la PDF la diferite formate Word.
 
 #### Model Obiect Document (DOM)
 
-Accesul programatic printr-un bogat API la toate elementele documentului și formatarea permite crearea, modificarea, extragerea, copierea, împărțirea, alăturarea și înlocuirea conținutului documentului. Aflați mai multe în [Aspose.Words Model Obiect Document (DOM)](/words/python-net/aspose-words-document-object-model/) secțiunea.
+Accesul programatic printr-un bogat API la toate elementele documentului și formatarea permite crearea, modificarea, extragerea, copierea, împărțirea, alăturarea și înlocuirea conținutului documentului. Aflați mai multe în [Aspose.Words Model Obiect Document (DOM)](/words/ro/python-net/aspose-words-document-object-model/) secțiunea.
 
 #### Redare
 
-Folosim termenul [Redare în Aspose.Words](/words/python-net/rendering/) pentru a descrie procesul de conversie a unui document într-un format de fișier sau un mediu, paginat sau care are conceptul de pagini.
+Folosim termenul [Redare în Aspose.Words](/words/ro/python-net/rendering/) pentru a descrie procesul de conversie a unui document într-un format de fișier sau un mediu, paginat sau care are conceptul de pagini.
 
 Puteți converti documente întregi sau anumite pagini în PDF sau XPS pentru a genera documente de pe server. Și toate acestea cu fidelitate ridicată-exact așa cum Microsoft Word ar fi făcut-o.
 
 #### Raportare
 
-Generați documente sau rapoarte de la zero sau completând șabloane cu date din surse de date sau obiecte de afaceri. Pentru mai multe informații despre raportarea și preluarea datelor din bazele de date, consultați [Mail Merge și raportare](/words/python-net/mail-merge-and-reporting/) și [LINQ Motor De Raportare](/words/python-net/linq-reporting-engine/) secțiuni.
+Generați documente sau rapoarte de la zero sau completând șabloane cu date din surse de date sau obiecte de afaceri. Pentru mai multe informații despre raportarea și preluarea datelor din bazele de date, consultați [Mail Merge și raportare](/words/ro/python-net/mail-merge-and-reporting/) și [LINQ Motor De Raportare](/words/python-net/linq-reporting-engine/) secțiuni.
 
 ### Independența Platformei
 
@@ -89,9 +89,9 @@ Dezvoltatorii care au folosit anterior automatizarea Microsoft Word în proiecte
 
 ## Prețuri și politici
 
-Vă rugăm să vizitați [Licențiere](/words/python-net/licensing/) pagina pentru informații privind licențele și revizuirea [Informații Despre Prețuri](https://purchase.aspose.com/pricing/words/family/) pagina pentru detalii privind prețurile.
+Vă rugăm să vizitați [Licențiere](/words/ro/python-net/licensing/) pagina pentru informații privind licențele și revizuirea [Informații Despre Prețuri](https://purchase.aspose.com/pricing/words/family/) pagina pentru detalii privind prețurile.
 
 ## Suport Tehnic
 
-Pentru mai multe informații despre Aspose.Words asistență tehnică, aruncați o privire la [pagina de suport](/words/net/technical-support/).
+Pentru mai multe informații despre Aspose.Words asistență tehnică, aruncați o privire la [pagina de suport](/words/ro/net/technical-support/).
 

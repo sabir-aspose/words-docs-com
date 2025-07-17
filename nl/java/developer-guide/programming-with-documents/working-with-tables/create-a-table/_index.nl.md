@@ -1,4 +1,4 @@
----
+﻿---
 title: Hoe maak je een tabel in Java
 second_title: Aspose.Words voor Java
 articleTitle: Een tabel aanmaken
@@ -123,7 +123,7 @@ U kunt het voorbeeldbestand van dit voorbeeld downloaden van [Aspose.Words GitHu
 
 {{% /alert %}}
 
-Als u kijkt naar het maken van tabellen in een document dat dynamisch groeit met elke record van uw gegevensbron, dan wordt de bovenstaande methode niet geadviseerd. In plaats daarvan wordt de gewenste output gemakkelijker bereikt door het gebruik van Mail merge Met betrekking tot de gebieden. U kunt meer over deze techniek leren in de [Mail Merge met regio's](/words/java/types-of-mail-merge-operations/) Section.
+Als u kijkt naar het maken van tabellen in een document dat dynamisch groeit met elke record van uw gegevensbron, dan wordt de bovenstaande methode niet geadviseerd. In plaats daarvan wordt de gewenste output gemakkelijker bereikt door het gebruik van Mail merge Met betrekking tot de gebieden. U kunt meer over deze techniek leren in de [Mail Merge met regio's](/words/nl/java/types-of-mail-merge-operations/) Section.
 
 ## Manieren vergelijken om een tabel aan te maken
 

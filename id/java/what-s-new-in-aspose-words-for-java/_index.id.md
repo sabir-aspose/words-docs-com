@@ -470,7 +470,7 @@ Fitur untuk mengenali hyperlink saat memuat dokumen TXT telah diterapkan dengan 
 
 {{% alert color="primary" %}}
 
-Pelajari lebih lanjut tentang [Aspose.Words untuk Java 23.9 Catatan Rilis](/words/java/aspose-words-for-java-23-9-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Java 23.9 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-9-release-notes/).
 
 Pelajari lebih lanjut tentang [Aspose.Words untuk Java 23.10 Catatan Rilis](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 

@@ -37,7 +37,7 @@ Aspose.Words надає користувачам широкий спектр м�
 
 ## Обмеження
 
-- Підтримує обмежений набір форматів файлів (*see [Supported Document Formats](/words/cpp/supported-document-formats/) for details*)
+- Підтримує обмежений набір форматів файлів (*see [Supported Document Formats](/words/uk/cpp/supported-document-formats/) for details*)
 - Немає підтримки зашифрованих документів
 - Відсутня підтримка завантаження віддалених ресурсів з Інтернету
 - Обмежена та нестабільна підтримка функцій рендеринга

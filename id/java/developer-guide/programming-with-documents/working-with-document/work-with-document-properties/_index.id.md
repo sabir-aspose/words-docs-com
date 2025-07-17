@@ -15,7 +15,7 @@ Properti dokumen memungkinkan penyimpanan beberapa informasi berguna tentang dok
 * Sistem atau built-in yang berisi nilai-nilai seperti judul dokumen, nama penulis, statistik dokumen, dan lain-lain.
 * Ditentukan pengguna atau khusus, disediakan sebagai pasangan nama-nilai di mana pengguna dapat menentukan nama dan nilai.
 
-Berguna untuk mengetahui bahwa informasi tentang API dan Nomor Versi langsung ditulis ke dokumen keluaran. Misalnya, saat mengonversi dokumen menjadi PDF, Aspose.Words mengisi bidang "Aplikasi" dengan "Aspose.Words", dan bidang "ProduserPDF" dengan "Aspose.Words untuk Java YY.M. N", di mana *YY.M.N* adalah versi Aspose.Words yang digunakan untuk konversi. Untuk lebih jelasnya, lihat [Generator atau Nama Produk yang Digunakan dalam Dokumen Keluarga](/words/java/generator-or-producer-name-included-in-output-documents/).
+Berguna untuk mengetahui bahwa informasi tentang API dan Nomor Versi langsung ditulis ke dokumen keluaran. Misalnya, saat mengonversi dokumen menjadi PDF, Aspose.Words mengisi bidang "Aplikasi" dengan "Aspose.Words", dan bidang "ProduserPDF" dengan "Aspose.Words untuk Java YY.M. N", di mana *YY.M.N* adalah versi Aspose.Words yang digunakan untuk konversi. Untuk lebih jelasnya, lihat [Generator atau Nama Produk yang Digunakan dalam Dokumen Keluarga](/words/id/java/generator-or-producer-name-included-in-output-documents/).
 
 {{% alert color="primary" %}}
 

@@ -14,7 +14,7 @@ timestamp: 2024-01-27-14-07-04
 
 - שימוש [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/)
 - שימוש [FieldBuilder](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldbuilder/)
-- שימוש [Aspose.Words מודל אובייקט מסמך (DOM)](/words/cpp/aspose-words-document-object-model/)
+- שימוש [Aspose.Words מודל אובייקט מסמך (DOM)](/words/he/cpp/aspose-words-document-object-model/)
 
 במאמר זה, נבחן כל דרך בפירוט רב יותר ולנתח כיצד להוסיף שדות מסוימים באמצעות אפשרויות אלה.
 
@@ -64,7 +64,7 @@ timestamp: 2024-01-27-14-07-04
 
 ## הוספת שדות באמצעות DOM
 
-ניתן גם להוסיף סוגים שונים של שדות באמצעות [Aspose.Words מודל אובייקט מסמך (DOM)](/words/cpp/aspose-words-document-object-model/). בחלק זה נבחן כמה דוגמאות.
+ניתן גם להוסיף סוגים שונים של שדות באמצעות [Aspose.Words מודל אובייקט מסמך (DOM)](/words/he/cpp/aspose-words-document-object-model/). בחלק זה נבחן כמה דוגמאות.
 
 ### הוספת שדה מיזוג למסמך באמצעות DOM
 

@@ -10,7 +10,7 @@ url: /fr/java/supported-features-on-document-save/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words permet aux utilisateurs de travailler avec des documents dans différents formats et fournit un large éventail de fonctionnalités pour cela. Par exemple, les utilisateurs peuvent créer un document à partir de zéro ou le charger, apporter des modifications, puis enregistrer ces modifications dans le fichier de sortie dans n'importe quel [format d'exportation pris en charge](/words/java/supported-document-formats/). Lors de l'enregistrement du document dans le format sélectionné, l'utilisateur peut appliquer diverses options d'enregistrement.
+Aspose.Words permet aux utilisateurs de travailler avec des documents dans différents formats et fournit un large éventail de fonctionnalités pour cela. Par exemple, les utilisateurs peuvent créer un document à partir de zéro ou le charger, apporter des modifications, puis enregistrer ces modifications dans le fichier de sortie dans n'importe quel [format d'exportation pris en charge](/words/fr/java/supported-document-formats/). Lors de l'enregistrement du document dans le format sélectionné, l'utilisateur peut appliquer diverses options d'enregistrement.
 
 {{% alert color="primary" %}}
 
@@ -21,7 +21,7 @@ Il est important de savoir que de nombreuses options d'enregistrement sont commu
 Pour une liste complète des fonctions, voir le API reference:
 
 - [options de sauvegarde pour tous les formats](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/)
-- [options d'enregistrement de page fixes](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/) pour [corrections des formats de pages](/words/java/converting-to-fixed-page-format/): PDF, XPS, images et autres
+- [options d'enregistrement de page fixes](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/) pour [corrections des formats de pages](/words/fr/java/converting-to-fixed-page-format/): PDF, XPS, images et autres
 - [PDF enregistrer les options](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) pour le format PDF
 - [OOXML enregistrer les options](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/) pour DOCX, DOCM, DOTX, DOTM, ou formats FlatOpc
 - [DOC enregistrer les options](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) pour les formats DOC et DOT

@@ -1,4 +1,4 @@
----
+﻿---
 title: 将Markdown转换为文档对象模型(DOM)
 second_title: Aspose.Words对于C++
 articleTitle: 将Markdown转换为文档对象模型(DOM)
@@ -12,7 +12,7 @@ timestamp: 2024-10-21-11-17-44
 
 要以编程方式读取、操作和修改文档的内容和格式，您需要将其转换为Aspose.Words文档对象模型(DOM)。
 
-与Word文档相反，Markdown不符合 [Aspose.Words文档对象模型(DOM)](/words/cpp/aspose-words-document-object-model/) 文章。 但是，Aspose.Words提供了自己的机制，用于将Markdown文档转换为DOM并返回，以便我们可以成功地处理它们的元素，如文本格式，表格，标题等。
+与Word文档相反，Markdown不符合 [Aspose.Words文档对象模型(DOM)](/words/zh/cpp/aspose-words-document-object-model/) 文章。 但是，Aspose.Words提供了自己的机制，用于将Markdown文档转换为DOM并返回，以便我们可以成功地处理它们的元素，如文本格式，表格，标题等。
 
 本文解释了如何将各种markdown特征转换为Aspose.WordsDOM并返回到Markdown格式。
 
@@ -105,5 +105,5 @@ Aspose.Words还允许将表格转换为DOM，如下所示:
 
 ## 请参阅
 
-* [使用Markdown功能](/words/cpp/working-with-markdown-features/)
+* [使用Markdown功能](/words/zh/cpp/working-with-markdown-features/)
 

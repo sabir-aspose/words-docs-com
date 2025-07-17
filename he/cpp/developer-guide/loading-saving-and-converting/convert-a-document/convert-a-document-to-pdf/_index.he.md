@@ -47,7 +47,7 @@ timestamp: 2024-10-21-08-52-03
 
 ### המר לסטנדרטים שונים PDF {#converting-to-various-pdf-standards}
 
-Aspose.Words מספק את הספירה [PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) כדי לתמוך בהמרה של DOC או DOCX לתקני פורמט שונים PDF (כגון PDF 1.7, PDF 1.5, וכו'.).
+Aspose.Words מספק את הספירה [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) כדי לתמוך בהמרה של DOC או DOCX לתקני פורמט שונים PDF (כגון PDF 1.7, PDF 1.5, וכו'.).
 
 דוגמת הקוד הבאה מדגימה כיצד להמיר מסמך ל - PDF 1.7 באמצעות [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) עם תאימות ל - PDF17:
 
@@ -67,6 +67,6 @@ Aspose.Words מספק את הספירה [PdfCompliace](https://reference.aspose.
 
 ## ראה גם
 
-- המאמר [עיבוד](/words/cpp/rendering/) למידע נוסף על הפורמטים של דף קבוע ופריסת זרימה
-- המאמר [המרה לפורמט דף קבוע](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) לקבלת מידע נוסף על פריסת הדף
-- המאמר [ציין אפשרויות עיבוד בעת המרה ל PDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) למידע נוסף על השימוש בכיתה `PdfSaveOptions`
+- המאמר [עיבוד](/words/he/cpp/rendering/) למידע נוסף על הפורמטים של דף קבוע ופריסת זרימה
+- המאמר [המרה לפורמט דף קבוע](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) לקבלת מידע נוסף על פריסת הדף
+- המאמר [ציין אפשרויות עיבוד בעת המרה ל PDF](/words/he/cpp/specify-rendering-options-when-converting-to-pdf/) למידע נוסף על השימוש בכיתה `PdfSaveOptions`

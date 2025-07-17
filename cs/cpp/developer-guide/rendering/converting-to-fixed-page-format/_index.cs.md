@@ -28,7 +28,7 @@ Microsoft Word je nejpokročilejší aplikace pro úpravu textu v Windows dnes. 
 
 ## Vidět
 
-* [Co je rozložení stránky](/words/cpp/what-is-a-page-layout/)
-* [Vytvoření rozvržení stránky](/words/cpp/creating-a-page-layout/)
-* [Uložení dokumentu do formátu pevné stránky](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Určete Možnosti Rozvržení](/words/cpp/specify-layout-options/)
+* [Co je rozložení stránky](/words/cs/cpp/what-is-a-page-layout/)
+* [Vytvoření rozvržení stránky](/words/cs/cpp/creating-a-page-layout/)
+* [Uložení dokumentu do formátu pevné stránky](/words/cs/cpp/saving-a-document-to-fixed-page-format/)
+* [Určete Možnosti Rozvržení](/words/cs/cpp/specify-layout-options/)

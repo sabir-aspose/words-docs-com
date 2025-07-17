@@ -1,4 +1,4 @@
----
+﻿---
 title: Comment créer une table en C++
 second_title: Aspose.Words pour C++
 articleTitle: Créer un Tableau
@@ -112,7 +112,7 @@ L'exemple de code suivant montre comment cloner la dernière ligne d'une table e
 
 {{< gist "aspose-words-gists" "aa87055754447c86ae5fb2d4766130f3" "clone-last-row.h" >}}
 
-Si vous envisagez de créer des tableaux dans un document qui augmentent dynamiquement avec chaque enregistrement de votre source de données, la méthode ci-dessus n'est pas conseillée. Au lieu de cela, la sortie souhaitée est plus facilement obtenue en utilisant Mail merge avec des régions. Vous pouvez en apprendre plus sur cette technique dans le [Mail Merge avec des régions](/words/cpp/types-of-mail-merge-operations/) section.
+Si vous envisagez de créer des tableaux dans un document qui augmentent dynamiquement avec chaque enregistrement de votre source de données, la méthode ci-dessus n'est pas conseillée. Au lieu de cela, la sortie souhaitée est plus facilement obtenue en utilisant Mail merge avec des régions. Vous pouvez en apprendre plus sur cette technique dans le [Mail Merge avec des régions](/words/fr/cpp/types-of-mail-merge-operations/) section.
 
 ## Comparer les façons de Créer un Tableau
 

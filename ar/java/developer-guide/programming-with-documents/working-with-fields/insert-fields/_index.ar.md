@@ -14,7 +14,7 @@ timestamp: 2024-01-27-14-07-04
 
 - باستخدام [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)
 - باستخدام [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/)
-- باستخدام [Aspose.Words نموذج كائن المستند (DOM)](/words/java/aspose-words-document-object-model/)
+- باستخدام [Aspose.Words نموذج كائن المستند (DOM)](/words/ar/java/aspose-words-document-object-model/)
 
 في هذه المقالة، سنلقي نظرة على كل طريقة بمزيد من التفصيل ونحلل كيفية إدراج حقول معينة باستخدام هذه الخيارات.
 
@@ -80,7 +80,7 @@ timestamp: 2024-01-27-14-07-04
 
 ## إدراج الحقول باستخدام DOM
 
-يمكنك أيضا إدراج أنواع مختلفة من الحقول باستخدام [Aspose.Words نموذج كائن المستند (DOM)](/words/java/aspose-words-document-object-model/). في هذا القسم، سنلقي نظرة على بعض الأمثلة.
+يمكنك أيضا إدراج أنواع مختلفة من الحقول باستخدام [Aspose.Words نموذج كائن المستند (DOM)](/words/ar/java/aspose-words-document-object-model/). في هذا القسم، سنلقي نظرة على بعض الأمثلة.
 
 ### إدراج حقل دمج في مستند باستخدام DOM
 

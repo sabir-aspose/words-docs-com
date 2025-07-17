@@ -47,7 +47,7 @@ Tieni presente che con la stessa tecnica puoi convertire qualsiasi documento in 
 
 ### Converti in vari standard PDF {#convert-to-various-pdf-standards}
 
-Aspose.Words fornisce l'enumerazione [PdfCompliace](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) per supportare la conversione di DOC o DOCX in vari standard di formato PDF (come PDF 1.7, PDF 1.5, ecc.).
+Aspose.Words fornisce l'enumerazione [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) per supportare la conversione di DOC o DOCX in vari standard di formato PDF (come PDF 1.7, PDF 1.5, ecc.).
 
 Il seguente esempio di codice dimostra come convertire un documento in PDF 1.7 utilizzando [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) con conformità a [PDF17](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf17):
 
@@ -90,5 +90,5 @@ L'utilizzo della proprietà **OptimizeOutput** può influire sulla precisione de
 ## Guarda anche
 
 - L'articolo [Rendering](/words/it/python-net/rendering/) per maggiori informazioni sui formati a pagina fissa e con layout a flusso
-- L'articolo [Conversione nel formato a pagina fissa](/words/python-net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) per maggiori informazioni sull'impaginazione
+- L'articolo [Conversione nel formato a pagina fissa](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) per maggiori informazioni sull'impaginazione
 - L'articolo [Specifica le opzioni di rendering durante la conversione in PDF](/words/it/python-net/specify-rendering-options-when-converting-to-pdf/) per maggiori informazioni sull'utilizzo della classe [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/)

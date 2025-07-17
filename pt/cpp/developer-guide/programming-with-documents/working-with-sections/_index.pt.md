@@ -1,4 +1,4 @@
----
+﻿---
 title: Trabalhar com secções em C++
 second_title: Aspose.Words para C++
 articleTitle: Trabalhar com secções
@@ -38,7 +38,7 @@ Você também pode usar a enumeração [SectionStart](https://reference.aspose.c
 
 ## Gerir uma secção
 
-Como uma seção é um nó composto normal, toda a manipulação do nó API pode ser usada para manipular seções: para adicionar, remover e outras operações em seções. Você pode ler mais sobre nós no artigo [Aspose.Words Modelo De Objecto Do Documento (DOM)](/words/cpp/aspose-words-document-object-model/).
+Como uma seção é um nó composto normal, toda a manipulação do nó API pode ser usada para manipular seções: para adicionar, remover e outras operações em seções. Você pode ler mais sobre nós no artigo [Aspose.Words Modelo De Objecto Do Documento (DOM)](/words/pt/cpp/aspose-words-document-object-model/).
 
 Por outro lado, você também pode usar o `DocumentBuilder` API para trabalhar com seções. Neste artigo, vamos nos concentrar nesta maneira particular de trabalhar com seções.
 
@@ -154,5 +154,5 @@ O exemplo de código a seguir mostra como modificar as propriedades da página e
 
 ## Ver Também
 
-- [Níveis lógicos de nós em um documento](/words/cpp/logical-levels-of-nodes-in-a-document/)
-- [Inserir e anexar documentos](/words/cpp/insert-and-append-documents/)
+- [Níveis lógicos de nós em um documento](/words/pt/cpp/logical-levels-of-nodes-in-a-document/)
+- [Inserir e anexar documentos](/words/pt/cpp/insert-and-append-documents/)

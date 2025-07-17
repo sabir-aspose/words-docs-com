@@ -1,4 +1,4 @@
----
+﻿---
 title: C++ içindeki Belgeleri Karşılaştır
 second_title: Aspose.Words için C++
 articleTitle: Belgeleri Karşılaştır
@@ -36,7 +36,7 @@ Karşılaştırılan iki belge için genel sınırlama, Microsoft Word 'da bu s�
 
 {{% alert color="primary" %}}
 
-İçindeki herhangi iki belgeyi karşılaştırabileceğinizi unutmayın. [desteklenen dosya biçimleri](/words/cpp/supported-document-formats/). Belge nesnelerini karşılaştırabilir ve hatta belirli bir biçime sahip olmadan bu nesneleri sıfırdan oluşturabilirsiniz.
+İçindeki herhangi iki belgeyi karşılaştırabileceğinizi unutmayın. [desteklenen dosya biçimleri](/words/tr/cpp/supported-document-formats/). Belge nesnelerini karşılaştırabilir ve hatta belirli bir biçime sahip olmadan bu nesneleri sıfırdan oluşturabilirsiniz.
 
 {{% /alert %}}
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: פורמטים ומסקנות
 second_title: Aspose.Words עבור .NET
 articleTitle: פורמטים ומסקנות
@@ -29,7 +29,7 @@ timestamp: 2024-01-31-14-23-37
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "docx-to-pdf.cs" >}}
 
-לקבלת פרטים נוספים על טעינה, המרת והצלת מסמכים, ראה את [טעינה, לחסוך ולהמיר](/words/cpp/loading-saving-and-converting/) סעיף.
+לקבלת פרטים נוספים על טעינה, המרת והצלת מסמכים, ראה את [טעינה, לחסוך ולהמיר](/words/he/cpp/loading-saving-and-converting/) סעיף.
 
 ## נאמנות גבוהה
 

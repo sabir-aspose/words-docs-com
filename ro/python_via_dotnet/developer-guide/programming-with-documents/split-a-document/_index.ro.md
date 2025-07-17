@@ -1,4 +1,4 @@
----
+﻿---
 title: Împărțiți un Document în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Împărțiți un Document
@@ -85,7 +85,7 @@ Această secțiune descrie mai multe cazuri de utilizare a împărțirii documen
 
 {{% alert color="primary" %}}
 
-Puteți folosi orice [formatul de ieșire acceptat de Aspose.Words](/words/python-net/supported-document-formats/).
+Puteți folosi orice [formatul de ieșire acceptat de Aspose.Words](/words/ro/python-net/supported-document-formats/).
 
 {{% /alert %}}
 

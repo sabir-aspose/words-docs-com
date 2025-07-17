@@ -47,7 +47,7 @@ timestamp: 2024-01-31-14-23-37
 
 ### Преобразование в другие стандарты PDF {#converting-to-various-pdf-standards}
 
-Aspose.Words предоставляет перечисление [PdfCompliace](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) для поддержки преобразования DOC или DOCX в различные стандарты формата PDF (такие как PDF 1.7, PDF 1.5, и т.д.).
+Aspose.Words предоставляет перечисление [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) для поддержки преобразования DOC или DOCX в различные стандарты формата PDF (такие как PDF 1.7, PDF 1.5, и т.д.).
 
 Следующий пример кода демонстрирует, как преобразовать документ в PDF 1.7, используя [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) с соблюдением PDF17:
 
@@ -81,6 +81,6 @@ Aspose.Words предоставляет перечисление [PdfCompliace](
 
 ## Смотрите также
 
-- Статья [Визуализация](/words/java/rendering/) для получения дополнительной информации о форматах фиксированной страницы и потокового макета
-- Статья [Преобразование в формат фиксированной страницы](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) для получения дополнительной информации о макете страницы
-- Статья [Укажите параметры отображения при преобразовании в PDF](/words/java/specify-rendering-options-when-converting-to-pdf/) для получения дополнительной информации об использовании класса `PdfSaveOptions`
+- Статья [Визуализация](/words/ru/java/rendering/) для получения дополнительной информации о форматах фиксированной страницы и потокового макета
+- Статья [Преобразование в формат фиксированной страницы](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) для получения дополнительной информации о макете страницы
+- Статья [Укажите параметры отображения при преобразовании в PDF](/words/ru/java/specify-rendering-options-when-converting-to-pdf/) для получения дополнительной информации об использовании класса `PdfSaveOptions`

@@ -1,4 +1,4 @@
----
+﻿---
 title: C++のページレイアウトとは何ですか
 second_title: C++の場合Aspose.Words
 articleTitle: ページレイアウトとは何ですか
@@ -20,6 +20,6 @@ Aspose.Wordsはページレイアウト機能を内部的に実装し、PDF、XP
 
 ## また見て下さい
 
-* [ページレイアウトの作成](/words/cpp/creating-a-page-layout/)
-* [文書を固定ページ形式で保存する](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [レイアウトオプションの指定](/words/cpp/specify-layout-options/)
+* [ページレイアウトの作成](/words/ja/cpp/creating-a-page-layout/)
+* [文書を固定ページ形式で保存する](/words/ja/cpp/saving-a-document-to-fixed-page-format/)
+* [レイアウトオプションの指定](/words/ja/cpp/specify-layout-options/)

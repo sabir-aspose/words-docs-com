@@ -1,4 +1,4 @@
----
+﻿---
 title: Caracteristici acceptate la încărcarea documentelor
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Caracteristici acceptate la încărcarea documentelor
@@ -14,6 +14,6 @@ Aspose.Words se străduiește să accepte toate caracteristicile pentru toate fo
 
 {{% alert color="primary" %}}
 
-Pentru mai multe informații și o descriere a caracteristicilor disponibile pentru diferitele formate, consultați [Caracteristici acceptate la încărcarea documentelor](/words/net/supported-features-on-document-load/) secțiunea din Aspose.Words pentru .NET documentație.
+Pentru mai multe informații și o descriere a caracteristicilor disponibile pentru diferitele formate, consultați [Caracteristici acceptate la încărcarea documentelor](/words/ro/net/supported-features-on-document-load/) secțiunea din Aspose.Words pentru .NET documentație.
 
 {{% /alert %}}

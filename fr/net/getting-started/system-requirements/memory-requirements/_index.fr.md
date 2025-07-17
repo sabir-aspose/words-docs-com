@@ -1,4 +1,4 @@
----
+﻿---
 title: Exigences de mémoire
 second_title: Aspose.Words pour .NET
 articleTitle: Exigences de mémoire
@@ -48,5 +48,5 @@ Si vos résultats de profilage indiquent un possible problème de mémoire dans 
 
 * [Mesurer l'utilisation de la mémoire dans Visual Studio (C#, Visual Basic, C++, F#)](https://learn.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2022)
 * [Le rendu](/words/fr/net/rendering/)
-* [Mail Merge et rapports](/words/net/mail-merge-and-reporting/)
+* [Mail Merge et rapports](/words/fr/net/mail-merge-and-reporting/)
 * [Travailler avec des champs](/words/fr/net/working-with-fields/)

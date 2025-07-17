@@ -47,7 +47,7 @@ timestamp: 2024-01-31-14-23-37
 
 ### تبدیل به استانداردهای مختلف PDF {#converting-to-various-pdf-standards}
 
-Aspose.Words [PdfCompliace](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)شماری را برای پشتیبانی از تبدیل DOC یا DOCX به استانداردهای قالب PDF مختلف (مانند PDF 1.7، PDF 1.5، و غیره) ارائه می‌کند.
+Aspose.Words [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)شماری را برای پشتیبانی از تبدیل DOC یا DOCX به استانداردهای قالب PDF مختلف (مانند PDF 1.7، PDF 1.5، و غیره) ارائه می‌کند.
 
 مثال کد زیر نشان می دهد که چگونه یک سند را به PDF 1.7 با استفاده از [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) با انطباق با PDF17تبدیل کنیم:
 
@@ -81,6 +81,6 @@ Aspose.Words [PdfCompliace](https://reference.aspose.com/words/java/com.aspose.w
 
 ## بایگانی برچسب برای:
 
-- مقاله [رندر کردن](/words/java/rendering/) برای اطلاعات بیشتر در مورد فرمت های صفحه ثابت و طرح جریان
-- مقاله [تبدیل به فرمت صفحه ثابت](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) برای اطلاعات بیشتر در مورد طرح صفحه
-- مقاله [گزینه های رندر را هنگام تبدیل به PDFمشخص کنید](/words/java/specify-rendering-options-when-converting-to-pdf/) برای اطلاعات بیشتر در مورد استفاده از کلاس `PdfSaveOptions`
+- مقاله [رندر کردن](/words/fa/java/rendering/) برای اطلاعات بیشتر در مورد فرمت های صفحه ثابت و طرح جریان
+- مقاله [تبدیل به فرمت صفحه ثابت](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) برای اطلاعات بیشتر در مورد طرح صفحه
+- مقاله [گزینه های رندر را هنگام تبدیل به PDFمشخص کنید](/words/fa/java/specify-rendering-options-when-converting-to-pdf/) برای اطلاعات بیشتر در مورد استفاده از کلاس `PdfSaveOptions`

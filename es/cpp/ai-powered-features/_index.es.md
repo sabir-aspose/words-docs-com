@@ -1,4 +1,4 @@
----
+﻿---
 title: AI - funciones potenciadas
 second_title: Aspose.Words por C++
 articleTitle: AI - funciones potenciadas
@@ -16,7 +16,7 @@ Aspose.Words ahora incluye funciones potenciadas por AI diseñadas para hacer qu
 
 En esta sección, cubriremos todo lo que necesita saber sobre el uso de las funciones AI compatibles en Aspose.Words. Desde consejos prácticos hasta instrucciones detalladas, nuestro objetivo es ayudarlo a aprovechar al máximo estas mejoras.
 
-* [Modelos AI compatibles](/words/cpp/supported-ai-models/)
-* [Resumir un Documento](/words/cpp/summarize-a-document/)
-* [Traducir un Documento](/words/cpp/translate-a-document/)
-* [Revisión Gramatical](/words/cpp/grammar-checking/)
+* [Modelos AI compatibles](/words/es/cpp/supported-ai-models/)
+* [Resumir un Documento](/words/es/cpp/summarize-a-document/)
+* [Traducir un Documento](/words/es/cpp/translate-a-document/)
+* [Revisión Gramatical](/words/es/cpp/grammar-checking/)

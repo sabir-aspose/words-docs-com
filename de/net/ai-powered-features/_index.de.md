@@ -1,4 +1,4 @@
----
+﻿---
 title: AI-betriebene Funktionen
 second_title: Aspose.Words für .NET
 articleTitle: AI-betriebene Funktionen
@@ -16,7 +16,7 @@ Aspose.Words enthält jetzt AI-basierte Funktionen, die die Dokumentenverarbeitu
 
 In diesem Abschnitt behandeln wir alles, was Sie über die Verwendung der unterstützten AI -Funktionen in Aspose.Words wissen müssen. Von praktischen Tipps bis hin zu detaillierten Anweisungen möchten wir Ihnen helfen, diese Verbesserungen optimal zu nutzen.
 
-* [Unterstützte AI Modelle](/words/net/supported-ai-models/)
-* [Ein Dokument zusammenfassen](/words/net/summarize-a-document/)
-* [Ein Dokument übersetzen](/words/net/translate-a-document/)
-* [Grammatikprüfung](/words/net/grammar-checking/)
+* [Unterstützte AI Modelle](/words/de/net/supported-ai-models/)
+* [Ein Dokument zusammenfassen](/words/de/net/summarize-a-document/)
+* [Ein Dokument übersetzen](/words/de/net/translate-a-document/)
+* [Grammatikprüfung](/words/de/net/grammar-checking/)

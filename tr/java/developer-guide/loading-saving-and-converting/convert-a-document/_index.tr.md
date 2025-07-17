@@ -1,4 +1,4 @@
----
+﻿---
 title: Bir Belgeyi Java 'a Dönüştür
 second_title: Aspose.Words için Java
 articleTitle: Bir Belge Dönüştür
@@ -29,7 +29,7 @@ Bu işlevselliği [Free online converter](https://products.aspose.app/words/conv
 
 ## Popüler Dönüşümler {#popular-conversions}
 
-Geçerli bölüm popüler dönüştürmeleri ve yükleme ve kaydetme sırasında bazı format kombinasyonlarıyla çalışmak için fikirler açıklar. Bu bölümdeki örnekleri kullanarak anlayabilirsiniz ki dönüştürme süreci oldukça evrenseldir, tüm olası seçenekleri tanımlamaya gerek yoktur çünkü bunları [formats supported by Aspose.Words for Java](/words/java/supported-document-formats/) yaparken yüzlerce seçeneği vardır.
+Geçerli bölüm popüler dönüştürmeleri ve yükleme ve kaydetme sırasında bazı format kombinasyonlarıyla çalışmak için fikirler açıklar. Bu bölümdeki örnekleri kullanarak anlayabilirsiniz ki dönüştürme süreci oldukça evrenseldir, tüm olası seçenekleri tanımlamaya gerek yoktur çünkü bunları [formats supported by Aspose.Words for Java](/words/tr/java/supported-document-formats/) yaparken yüzlerce seçeneği vardır.
 
 {{% alert color="primary" %}}
 

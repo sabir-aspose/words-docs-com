@@ -1,4 +1,4 @@
----
+﻿---
 title: AI功能
 second_title: Aspose.Words为.NET
 articleTitle: AI功能
@@ -16,7 +16,7 @@ Aspose.Words现在包含AI支持的功能，旨在使文档处理更智能，更
 
 在本节中，我们将介绍有关在Aspose.Words中使用受支持的AI功能所需了解的所有内容。 从实用技巧到详细说明，我们旨在帮助您充分利用这些增强功能。
 
-* [支持的AI模型](/words/net/supported-ai-models/)
-* [总结文档](/words/net/summarize-a-document/)
-* [翻译文档](/words/net/translate-a-document/)
-* [语法检查](/words/net/grammar-checking/)
+* [支持的AI模型](/words/zh/net/supported-ai-models/)
+* [总结文档](/words/zh/net/summarize-a-document/)
+* [翻译文档](/words/zh/net/translate-a-document/)
+* [语法检查](/words/zh/net/grammar-checking/)

@@ -1,4 +1,4 @@
----
+﻿---
 title: AI - функціональні можливості
 second_title: Aspose.Words для Java
 articleTitle: AI - функціональні можливості
@@ -16,7 +16,7 @@ Aspose.Words тепер включає функції на базі AI, приз
 
 У цьому розділі ми розповімо про все, що вам потрібно знати про використання підтримуваних функцій AI у Aspose.Words. Від практичних порад до детальних інструкцій ми прагнемо допомогти Вам максимально використати ці вдосконалення.
 
-* [Підтримувані моделі AI](/words/java/supported-ai-models/)
-* [Узагальнення документа](/words/java/summarize-a-document/)
-* [Перекласти документ](/words/java/translate-a-document/)
-* [Перевірка граматики](/words/java/grammar-checking/)
+* [Підтримувані моделі AI](/words/uk/java/supported-ai-models/)
+* [Узагальнення документа](/words/uk/java/summarize-a-document/)
+* [Перекласти документ](/words/uk/java/translate-a-document/)
+* [Перевірка граматики](/words/uk/java/grammar-checking/)

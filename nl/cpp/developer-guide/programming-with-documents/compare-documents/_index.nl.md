@@ -36,7 +36,7 @@ De algemene beperking voor twee documenten die worden vergeleken, is dat ze geen
 
 {{% alert color="primary" %}}
 
-Merk op dat u twee documenten kunt vergelijken binnen de [ondersteunde bestandsformaten](/words/cpp/supported-document-formats/). U kunt documentobjecten vergelijken en zelfs u kunt die objecten helemaal opnieuw maken zonder een specifieke indeling te hebben.
+Merk op dat u twee documenten kunt vergelijken binnen de [ondersteunde bestandsformaten](/words/nl/cpp/supported-document-formats/). U kunt documentobjecten vergelijken en zelfs u kunt die objecten helemaal opnieuw maken zonder een specifieke indeling te hebben.
 
 {{% /alert %}}
 

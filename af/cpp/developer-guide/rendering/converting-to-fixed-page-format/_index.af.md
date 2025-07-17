@@ -1,4 +1,4 @@
----
+﻿---
 title: Omskakeling Na Vaste bladsy Formaat in C++
 second_title: Aspose.Words vir C++
 articleTitle: Omskakeling Na Vaste bladsy Formaat
@@ -28,7 +28,7 @@ Microsoft Word is die mees gevorderde teks-redigering aansoek in Windows vandag.
 
 ## Sien Ook
 
-* [Wat Is'n Bladsy Uitleg](/words/cpp/what-is-a-page-layout/)
-* [Skep'n Bladsyuitleg](/words/cpp/creating-a-page-layout/)
-* [Stoor'n Dokument Na Vaste bladsy Formaat](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Spesifiseer Uitleg Opsies](/words/cpp/specify-layout-options/)
+* [Wat Is'n Bladsy Uitleg](/words/af/cpp/what-is-a-page-layout/)
+* [Skep'n Bladsyuitleg](/words/af/cpp/creating-a-page-layout/)
+* [Stoor'n Dokument Na Vaste bladsy Formaat](/words/af/cpp/saving-a-document-to-fixed-page-format/)
+* [Spesifiseer Uitleg Opsies](/words/af/cpp/specify-layout-options/)

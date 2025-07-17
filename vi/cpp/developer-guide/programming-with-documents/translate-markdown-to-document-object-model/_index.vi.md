@@ -1,4 +1,4 @@
----
+﻿---
 title: Dịch Markdown Sang Mô Hình Đối tượng Tài liệu (DOM)
 second_title: Aspose.Words cho C++
 articleTitle: Dịch Markdown Sang Mô Hình Đối tượng Tài liệu (DOM)
@@ -12,7 +12,7 @@ timestamp: 2024-10-21-11-17-44
 
 Để lập trình đọc, thao tác và sửa đổi nội dung và định dạng của tài liệu, bạn cần dịch nó Sang Mô hình Đối tượng Tài liệu Aspose.Words (DOM).
 
-Trái ngược với Tài liệu Word, Markdown không phù hợp với DOM được mô tả trong [Aspose.Words Mô Hình Đối Tượng Tài Liệu (DOM)](/words/cpp/aspose-words-document-object-model/) bài viết. Tuy nhiên, Aspose.Words cung cấp cơ chế riêng để dịch Markdown tài liệu sang DOM và quay lại, để chúng tôi có thể làm việc thành công với các yếu tố của chúng như định dạng văn bản, bảng, tiêu đề và các yếu tố khác.
+Trái ngược với Tài liệu Word, Markdown không phù hợp với DOM được mô tả trong [Aspose.Words Mô Hình Đối Tượng Tài Liệu (DOM)](/words/vi/cpp/aspose-words-document-object-model/) bài viết. Tuy nhiên, Aspose.Words cung cấp cơ chế riêng để dịch Markdown tài liệu sang DOM và quay lại, để chúng tôi có thể làm việc thành công với các yếu tố của chúng như định dạng văn bản, bảng, tiêu đề và các yếu tố khác.
 
 Bài viết này giải thích cách các tính năng markdown khác nhau có thể được dịch sang Aspose.Words DOM và trở lại định dạng Markdown.
 
@@ -105,5 +105,5 @@ Aspose.Words cũng cho phép dịch bảng thành DOM, như hình dưới đây:
 
 ## Xem Thêm
 
-* [Làm việc với các Tính năng Markdown ](/words/cpp/working-with-markdown-features/)
+* [Làm việc với các Tính năng Markdown ](/words/vi/cpp/working-with-markdown-features/)
 

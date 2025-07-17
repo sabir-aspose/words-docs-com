@@ -1,4 +1,4 @@
----
+﻿---
 title: Funcționalități suportate la încărcarea documentului
 second_title: Aspose.Words pentru .NET
 articleTitle: Funcționalități suportate la încărcarea documentului
@@ -10,7 +10,7 @@ url: /ro/net/supported-features-on-document-load/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words permite utilizatorilor să lucreze cu documente în diferite formate și oferă o gamă largă de opțiuni pentru aceasta. De exemplu, utilizatorii pot crea un document de la zero sau încărca o fișă existentă în orice [supported import format](/words/net/supported-document-formats/), pot face unele modificări asupra acestui document și apoi pot salva rezultatul. Când importăm un document în formatul selectat, utilizatorul poate aplica diverse opțiuni de încărcare.
+Aspose.Words permite utilizatorilor să lucreze cu documente în diferite formate și oferă o gamă largă de opțiuni pentru aceasta. De exemplu, utilizatorii pot crea un document de la zero sau încărca o fișă existentă în orice [supported import format](/words/ro/net/supported-document-formats/), pot face unele modificări asupra acestui document și apoi pot salva rezultatul. Când importăm un document în formatul selectat, utilizatorul poate aplica diverse opțiuni de încărcare.
 
 {{% alert color="primary" %}}
 

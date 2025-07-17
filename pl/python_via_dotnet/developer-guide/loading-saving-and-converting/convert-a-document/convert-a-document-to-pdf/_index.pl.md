@@ -47,7 +47,7 @@ Pamiętaj, że za pomocą tej samej techniki możesz przekonwertować dowolny do
 
 ### Konwertuj na różne standardy PDF {#convert-to-various-pdf-standards}
 
-Aspose.Words udostępnia wyliczenie [PdfCompliace](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) w celu obsługi konwersji DOC lub DOCX na różne standardy formatu PDF (takie jak PDF 1.7, PDF 1.5 itp.).
+Aspose.Words udostępnia wyliczenie [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) w celu obsługi konwersji DOC lub DOCX na różne standardy formatu PDF (takie jak PDF 1.7, PDF 1.5 itp.).
 
 Poniższy przykład kodu demonstruje, jak przekonwertować dokument do formatu PDF 1.7 przy użyciu formatu [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) i zgodności z [PDF17](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf17):
 
@@ -90,5 +90,5 @@ Korzystanie z właściwości **OptimizeOutput** może mieć wpływ na dokładno�
 ## Zobacz też
 
 - Artykuł [Wykonanie](/words/pl/python-net/rendering/) zawiera więcej informacji na temat formatów o stałej stronie i formatach z układem przepływu
-- Artykuł [Konwersja do formatu o stałej stronie](/words/python-net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) zawiera więcej informacji na temat układu strony
+- Artykuł [Konwersja do formatu o stałej stronie](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) zawiera więcej informacji na temat układu strony
 - Artykuł [Określ opcje renderowania podczas konwersji do formatu PDF](/words/pl/python-net/specify-rendering-options-when-converting-to-pdf/) zawiera więcej informacji na temat korzystania z klasy [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/)

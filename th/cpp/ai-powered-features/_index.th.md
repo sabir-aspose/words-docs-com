@@ -1,4 +1,4 @@
----
+﻿---
 title: AI-คุณสมบัติขับเคลื่อน
 second_title: Aspose.WordsสำหรับC++
 articleTitle: AI-คุณสมบัติขับเคลื่อน
@@ -16,7 +16,7 @@ Aspose.Wordsขณะนี้มีคุณสมบัติAIที่ออ
 
 ในส่วนนี้ เราจะกล่าวถึงทุกสิ่งที่คุณจำเป็นต้องทราบเกี่ยวกับการใช้ฟีเจอร์ AI ที่ได้รับการสนับสนุนใน Aspose.Words ตั้งแต่เคล็ดลับที่เป็นประโยชน์ไปจนถึงคำแนะนำโดยละเอียด เรามุ่งมั่นที่จะช่วยให้คุณใช้ประโยชน์จากการปรับปรุงเหล่านี้ให้ได้มากที่สุด.
 
-* [รองรับรุ่นAI](/words/cpp/supported-ai-models/)
-* [สรุปเอกสาร](/words/cpp/summarize-a-document/)
-* [การแปลภาษา,อังกฤษ(สหราชอาณาจักร)](/words/cpp/translate-a-document/)
-* [การตรวจสอบไวยากรณ์](/words/cpp/grammar-checking/)
+* [รองรับรุ่นAI](/words/th/cpp/supported-ai-models/)
+* [สรุปเอกสาร](/words/th/cpp/summarize-a-document/)
+* [การแปลภาษา,อังกฤษ(สหราชอาณาจักร)](/words/th/cpp/translate-a-document/)
+* [การตรวจสอบไวยากรณ์](/words/th/cpp/grammar-checking/)

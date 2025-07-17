@@ -1,4 +1,4 @@
----
+﻿---
 title: Instalare
 second_title: Aspose.Words pentru .NET
 articleTitle: Instalare
@@ -10,7 +10,7 @@ url: /ro/net/installation/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Asigură-te că maşina ta îndeplineşte [system requirements](/words/net/system-requirements/) înainte să începi.
+Asigură-te că maşina ta îndeplineşte [system requirements](/words/ro/net/system-requirements/) înainte să începi.
 
 Acest articol explică cum să instalați Aspose.Words pentru .NET pe calculatorul dumneavoastră.
 

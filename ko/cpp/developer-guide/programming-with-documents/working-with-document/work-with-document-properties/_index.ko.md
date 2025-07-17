@@ -1,4 +1,4 @@
----
+﻿---
 title: 문서 속성 작업 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 문서 속성 작업
@@ -15,7 +15,7 @@ timestamp: 2024-01-31-14-23-37
 * 문서 제목,작성자 이름,문서 통계 등과 같은 값을 포함하는 시스템 또는 내장.
 * 사용자 정의 또는 사용자 정의,사용자가 이름과 값을 모두 정의할 수 있는 이름-값 쌍으로 제공됩니다.
 
-그 정보를 아는 것이 유용합니다. API 그리고 버전 번호는 출력 문서에 직접 기록됩니다. 예를 들어,문서를 PDF, Aspose.Words "응용 프로그램"필드에"Aspose.Words",그리고"PDF 프로듀서"필드"Aspose.Words 에 대한 C++ YY.엠.엔",어디 *YY.M.N* 의 버전입니다 Aspose.Words 변환에 사용됩니다. 자세한 내용은 참조 [출력 문서에 포함된 생성자 또는 생산자 이름](/words/cpp/generator-or-producer-name-included-in-output-documents/).
+그 정보를 아는 것이 유용합니다. API 그리고 버전 번호는 출력 문서에 직접 기록됩니다. 예를 들어,문서를 PDF, Aspose.Words "응용 프로그램"필드에"Aspose.Words",그리고"PDF 프로듀서"필드"Aspose.Words 에 대한 C++ YY.엠.엔",어디 *YY.M.N* 의 버전입니다 Aspose.Words 변환에 사용됩니다. 자세한 내용은 참조 [출력 문서에 포함된 생성자 또는 생산자 이름](/words/ko/cpp/generator-or-producer-name-included-in-output-documents/).
 
 {{% alert color="primary" %}}
 

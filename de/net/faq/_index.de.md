@@ -1,4 +1,4 @@
----
+﻿---
 title: FAQ
 second_title: Aspose.Words für .NET
 articleTitle: FAQ – Aspose.Words für .NET
@@ -72,7 +72,7 @@ Sie können auch einige der beliebtesten Aspose.Words-Funktionen über [Kostenlo
 
 Um eine Aspose.Words-Lizenz zu kaufen, müssen Sie auf die [Kaufen](https://purchase.aspose.com/buy)-Seite gehen, das "Aspose.Words"-Produkt und den für Sie passenden Lizenztyp auswählen. Fügen Sie dann die Lizenz Ihrem Warenkorb hinzu und befolgen Sie die Anweisungen im Warenkorb.
 
-Beantragen Sie nach dem Kauf die Lizenz wie im Abschnitt [Gekaufte Lizenz](/words/net/licensing/#purchased-license) beschrieben.
+Beantragen Sie nach dem Kauf die Lizenz wie im Abschnitt [Gekaufte Lizenz](/words/de/net/licensing/) beschrieben.
 
 Einzelheiten zur Installation von Aspose.Words können auf der [Installation](/words/de/net/installation/)-Seite nachgelesen werden.
 
@@ -129,7 +129,7 @@ Ja, das tust du. Beachten Sie daher beim Kopieren von Schriftarten, dass die mei
 
 {{% alert color="primary" %}}
 
-Ausführlichere Informationen zu Mail Merge finden Sie im Abschnitt [Mail Merge und Berichterstattung](/words/net/mail-merge-and-reporting/)-Dokumentation.
+Ausführlichere Informationen zu Mail Merge finden Sie im Abschnitt [Mail Merge und Berichterstattung](/words/de/net/mail-merge-and-reporting/)-Dokumentation.
 
 {{% /alert %}}
 
@@ -153,7 +153,7 @@ Dies liegt daran, dass die Zusammenführungsbereiche in der Vorlage nicht korrek
 Dies liegt daran, dass die Beziehungen zwischen den übergeordneten und untergeordneten Tabellen nicht oder falsch eingerichtet sind. Es ist nötig zu:
 
 * Stellen Sie die Datenintegrität in Ihrem **DataSet** sicher und verwenden Sie das **DataRelation**-Objekt, um die Eltern-Kind-Beziehung zwischen verwandten Datentabellen darzustellen.
-* Lesen Sie den Abschnitt "So richten Sie Datenbeziehungen in verschachteltem Mail Merge mit Regionen ein" im Artikel [Verschachteltes Mail Merge mit Regionen](/words/net/nested-mail-merge-with-regions/).
+* Lesen Sie den Abschnitt "So richten Sie Datenbeziehungen in verschachteltem Mail Merge mit Regionen ein" im Artikel [Verschachteltes Mail Merge mit Regionen](/words/de/net/nested-mail-merge-with-regions/).
 
 ------
 

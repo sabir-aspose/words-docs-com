@@ -470,7 +470,7 @@ Die funksie om hiperskakels te herken wanneer TXT dokumente gelaai word, is geï
 
 {{% alert color="primary" %}}
 
-Leer meer oor [Aspose.Words vir Java 23.9 Vrystelling Notas](/words/java/aspose-words-for-java-23-9-release-notes/).
+Leer meer oor [Aspose.Words vir Java 23.9 Vrystelling Notas](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-9-release-notes/).
 
 Leer meer oor [Aspose.Words vir Java 23.10 Vrystelling Notas](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 

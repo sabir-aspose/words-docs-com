@@ -47,7 +47,7 @@ DOC または DOCX ドキュメント形式から Aspose.Words の PDF 形式へ
 
 ### さまざまな PDF 標準 {#convert-to-various-pdf-standards} に変換
 
-Aspose.Words は、DOC または DOCX からさまざまな PDF 形式標準 (PDF 1.7、PDF 1.5 など) への変換をサポートする [PdfCompliace](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) 列挙を提供します。
+Aspose.Words は、DOC または DOCX からさまざまな PDF 形式標準 (PDF 1.7、PDF 1.5 など) への変換をサポートする [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) 列挙を提供します。
 
 次のコード例は、[PDF17](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf17) に準拠した [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) を使用してドキュメントを PDF 1.7 に変換する方法を示しています。
 
@@ -90,5 +90,5 @@ PDF に保存するときに、出力を最適化するかどうかを指定で�
 ## 関連項目
 
 - 固定ページおよびフロー レイアウト形式の詳細については、[レンダリング](/words/ja/python-net/rendering/) の記事を参照してください。
-- ページ レイアウトの詳細については、[固定ページ形式への変換](/words/python-net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) の記事を参照してください。
+- ページ レイアウトの詳細については、[固定ページ形式への変換](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) の記事を参照してください。
 - [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) クラスの使用方法の詳細については、[PDF への変換時のレンダリング オプションの指定](/words/ja/python-net/specify-rendering-options-when-converting-to-pdf/) の記事を参照してください。

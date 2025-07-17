@@ -37,7 +37,7 @@ Aspose.Words מספק למשתמשים מגוון רחב של תכונות. מש
 
 ## מגבלות
 
-- תומך קבוצה מוגבלת של פורמטים של קבצים (*see [Supported Document Formats](/words/cpp/supported-document-formats/) for details*)
+- תומך קבוצה מוגבלת של פורמטים של קבצים (*see [Supported Document Formats](/words/he/cpp/supported-document-formats/) for details*)
 - אין תמיכה במסמכים מוצפנים
 - אין תמיכה בהורדת משאבים מרוחקים מהאינטרנט
 - תמיכה מוגבלת ולא יציבה עבור תכונות עיבוד

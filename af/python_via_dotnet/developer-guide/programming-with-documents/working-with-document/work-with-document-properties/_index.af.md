@@ -1,4 +1,4 @@
----
+﻿---
 title: Werk Met Dokumenteienskappe
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Werk Met Dokumenteienskappe
@@ -15,7 +15,7 @@ Dokument eienskappe toelaat stoor'n paar nuttige inligting oor jou dokument. Hie
 * Stelsel of ingeboude wat waardes soos dokument titel, outeur naam, dokument statistieke, en ander bevat.
 * Gebruiker-gedefinieerde of persoonlike, verskaf as naam-waarde pare waar die gebruiker beide die naam en waarde kan definieer.
 
-Dit is nuttig om te weet dat inligting oor API en Weergawe Nommer direk geskryf word om dokumente uit te voer. Byvoorbeeld, by die omskakeling van'n dokument na PDF, vul Aspose.Words die Veld "Toepassing" in met " Aspose.Words", en die veld "PDF Produsent" met "Aspose.Words vir .NET YY.M. n", waar *YY.M.N* die weergawe van Aspose.Words is wat gebruik word vir omskakeling. Vir meer besonderhede, sien [Generator Of Produsent Naam Ingesluit In Uitset Dokumente](/words/python-net/generator-or-producer-name-included-in-output-documents/).
+Dit is nuttig om te weet dat inligting oor API en Weergawe Nommer direk geskryf word om dokumente uit te voer. Byvoorbeeld, by die omskakeling van'n dokument na PDF, vul Aspose.Words die Veld "Toepassing" in met " Aspose.Words", en die veld "PDF Produsent" met "Aspose.Words vir .NET YY.M. n", waar *YY.M.N* die weergawe van Aspose.Words is wat gebruik word vir omskakeling. Vir meer besonderhede, sien [Generator Of Produsent Naam Ingesluit In Uitset Dokumente](/words/af/python-net/generator-or-producer-name-included-in-output-documents/).
 
 {{% alert color="primary" %}}
 

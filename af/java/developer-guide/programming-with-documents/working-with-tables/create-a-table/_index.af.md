@@ -1,4 +1,4 @@
----
+﻿---
 title: Hoe Om'n Tabel in JavaTe Skep
 second_title: Aspose.Words vir Java
 articleTitle: Skep'n Tabel
@@ -123,7 +123,7 @@ U kan die voorbeeldlêer van hierdie voorbeeld aflaai van [Aspose.Words GitHub](
 
 {{% /alert %}}
 
-As u na tabelle in'n dokument kyk wat dinamies groei met elke rekord uit u databron, word die bogenoemde metode nie aanbeveel nie. In plaas daarvan word die gewenste uitset makliker bereik deur Mail merge met streke te gebruik. Jy kan meer leer oor hierdie tegniek in die [Mail Merge Met Streke](/words/java/types-of-mail-merge-operations/) afdeling.
+As u na tabelle in'n dokument kyk wat dinamies groei met elke rekord uit u databron, word die bogenoemde metode nie aanbeveel nie. In plaas daarvan word die gewenste uitset makliker bereik deur Mail merge met streke te gebruik. Jy kan meer leer oor hierdie tegniek in die [Mail Merge Met Streke](/words/af/java/types-of-mail-merge-operations/) afdeling.
 
 ## Vergelyk Maniere Om'n Tabel Te Skep
 

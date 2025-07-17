@@ -29,7 +29,7 @@ Aspose.Words는Microsoft Word문서의 서버 쪽 처리를 위해 설계된 클
 
 ![fields-aspose-words-java](/words/java/introduction-to-fields/introduction-to-fields-1.png)
 
-필드 코드를 구성하는 콘텐츠는[FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/)과[FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/)사이의[Run](https://reference.aspose.com/words/java/com.aspose.words/run/)노드로 저장됩니다. 필드 결과는**FieldSeparator**와[FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/)노드 사이에 저장되며 다양한 유형의 콘텐츠로 구성될 수 있습니다. 일반적으로 필드 결과에는 실행 노드로 구성된 텍스트만 포함되어 있지만FieldEnd노드가 완전히 다른 단락에 위치하여 필드 결과가 다음과 같이 구성될 수 있습니다 [블록 레벨 노드](/words/java/logical-levels-of-nodes-in-a-document/) **Table**및**Paragraph**노드도 마찬가지입니다.
+필드 코드를 구성하는 콘텐츠는[FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/)과[FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/)사이의[Run](https://reference.aspose.com/words/java/com.aspose.words/run/)노드로 저장됩니다. 필드 결과는**FieldSeparator**와[FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/)노드 사이에 저장되며 다양한 유형의 콘텐츠로 구성될 수 있습니다. 일반적으로 필드 결과에는 실행 노드로 구성된 텍스트만 포함되어 있지만FieldEnd노드가 완전히 다른 단락에 위치하여 필드 결과가 다음과 같이 구성될 수 있습니다 [블록 레벨 노드](/words/ko/java/logical-levels-of-nodes-in-a-document/) **Table**및**Paragraph**노드도 마찬가지입니다.
 
 다음은"*DocumentExplorer"*예제"를 사용하여Aspose.Words에 필드가 어떻게 저장되는지에 대한 뷰입니다. [Github](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/java/com/aspose/words/examples/viewers_visualizers/document_explorer).
 

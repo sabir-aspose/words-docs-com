@@ -1,4 +1,4 @@
----
+﻿---
 title: Felder in C++ einfügen
 second_title: Aspose.Words für C++
 articleTitle: Felder einfügen
@@ -14,7 +14,7 @@ Es gibt verschiedene Möglichkeiten, Felder in ein Dokument einzufügen:
 
 - verwenden von [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/)
 - verwenden von [FieldBuilder](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldbuilder/)
-- wobei [Aspose.Words Dokumentobjektmodell (DOM)](/words/cpp/aspose-words-document-object-model/)
+- wobei [Aspose.Words Dokumentobjektmodell (DOM)](/words/de/cpp/aspose-words-document-object-model/)
 
 In diesem Artikel werden wir uns jeden Weg genauer ansehen und analysieren, wie bestimmte Felder mit diesen Optionen eingefügt werden.
 
@@ -64,7 +64,7 @@ Das folgende Codebeispiel zeigt, wie Sie ein Feld mit **FieldBuilder** in ein Do
 
 ## Felder mit DOM einfügen
 
-Sie können auch verschiedene Arten von Feldern einfügen mit [Aspose.Words Dokumentobjektmodell (DOM)](/words/cpp/aspose-words-document-object-model/). In diesem Abschnitt werden wir uns einige Beispiele ansehen.
+Sie können auch verschiedene Arten von Feldern einfügen mit [Aspose.Words Dokumentobjektmodell (DOM)](/words/de/cpp/aspose-words-document-object-model/). In diesem Abschnitt werden wir uns einige Beispiele ansehen.
 
 ### Seriendruckfeld mit DOM in ein Dokument einfügen
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Requisitos de memória
 second_title: Aspose.Words para .NET
 articleTitle: Requisitos de memória
@@ -48,5 +48,5 @@ Se os resultados do seu perfil indicarem um possível problema de memória no As
 
 * [Meça o uso de memória em Visual Studio (C#, Visual Basic, C++, F#)](https://learn.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2022)
 * [Renderização](/words/pt/net/rendering/)
-* [Mail Merge e relatórios](/words/net/mail-merge-and-reporting/)
+* [Mail Merge e relatórios](/words/pt/net/mail-merge-and-reporting/)
 * [Trabalhando com Campos](/words/pt/net/working-with-fields/)

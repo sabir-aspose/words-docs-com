@@ -27,7 +27,7 @@ La implementación de la característica Markdown sigue principalmente la especi
 
 {{% alert color="primary" %}}
 
-Hay matices de traducir Markdown al Modelo de Objetos de Documento Aspose.Words (DOM), descritos en el artículo [Traducir Markdown a Modelo de Objetos de Documento (DOM)](/words/java/translate-markdown-to-document-object-model/).
+Hay matices de traducir Markdown al Modelo de Objetos de Documento Aspose.Words (DOM), descritos en el artículo [Traducir Markdown a Modelo de Objetos de Documento (DOM)](/words/es/java/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Yêu cầu bộ nhớ
 second_title: Aspose.Words cho .NET
 articleTitle: Yêu cầu bộ nhớ
@@ -48,5 +48,5 @@ Nếu kết quả lập hồ sơ của bạn cho thấy có thể xảy ra sự 
 
 * [Đo mức sử dụng bộ nhớ trong Visual Studio (C#, Visual Basic, C++, F#)](https://learn.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2022)
 * [Kết xuất](/words/vi/net/rendering/)
-* [Mail Merge và báo cáo](/words/net/mail-merge-and-reporting/)
+* [Mail Merge và báo cáo](/words/vi/net/mail-merge-and-reporting/)
 * [Làm việc với các trường](/words/vi/net/working-with-fields/)

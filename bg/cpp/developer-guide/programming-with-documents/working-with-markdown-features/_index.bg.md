@@ -27,7 +27,7 @@ Markdown имплементацията на функции следва пре�
 
 {{% alert color="primary" %}}
 
-Има нюанси на превода Markdown на Aspose.Words документ обектен модел (DOM), описан в статията [Преведи Markdown в модел на обект за документ (DOM)](/words/cpp/translate-markdown-to-document-object-model/).
+Има нюанси на превода Markdown на Aspose.Words документ обектен модел (DOM), описан в статията [Преведи Markdown в модел на обект за документ (DOM)](/words/bg/cpp/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

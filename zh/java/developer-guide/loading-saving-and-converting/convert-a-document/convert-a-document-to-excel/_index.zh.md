@@ -67,5 +67,5 @@ doc.save(getArtifactsDir() + "BaseConversions.CompressXlsx.xlsx", saveOptions);
 
 ## 请参阅
 
-- 文件组 [保护或加密文档](/words/java/protect-or-encrypt-a-document/) 有关保护和加密文档的详细信息
-- 文章 [查找和替换](/words/java/find-and-replace/) 有关查找和替换所需内容的更多信息
+- 文件组 [保护或加密文档](/words/zh/java/protect-or-encrypt-a-document/) 有关保护和加密文档的详细信息
+- 文章 [查找和替换](/words/zh/java/find-and-replace/) 有关查找和替换所需内容的更多信息

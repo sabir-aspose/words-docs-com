@@ -1,4 +1,4 @@
----
+﻿---
 title: Преобразование документа в PDF на C++
 second_title: Aspose.Words для C++
 articleTitle: Преобразование документа в формат PDF
@@ -47,7 +47,7 @@ timestamp: 2024-10-21-08-52-03
 
 ### Преобразование в другие стандарты PDF {#converting-to-various-pdf-standards}
 
-Aspose.Words содержит перечисление [PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) для поддержки преобразования DOC или DOCX в различные стандарты формата PDF (такие как PDF 1.7, PDF 1.5 и т.д.).
+Aspose.Words содержит перечисление [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) для поддержки преобразования DOC или DOCX в различные стандарты формата PDF (такие как PDF 1.7, PDF 1.5 и т.д.).
 
 Следующий пример кода демонстрирует, как преобразовать документ в формат PDF 1.7 с помощью [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) в соответствии с PDF17:
 
@@ -67,6 +67,6 @@ Aspose.Words содержит перечисление [PdfCompliace](https://re
 
 ## Смотрите также
 
-- Статья [Визуализация](/words/cpp/rendering/) для получения дополнительной информации о форматах фиксированной страницы и потокового макета
-- Статья [Преобразование в формат фиксированной страницы](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) для получения дополнительной информации о макете страницы
-- Статья [Укажите параметры рендеринга при преобразовании в PDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) для получения дополнительной информации об использовании класса `PdfSaveOptions`
+- Статья [Визуализация](/words/ru/cpp/rendering/) для получения дополнительной информации о форматах фиксированной страницы и потокового макета
+- Статья [Преобразование в формат фиксированной страницы](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) для получения дополнительной информации о макете страницы
+- Статья [Укажите параметры рендеринга при преобразовании в PDF](/words/ru/cpp/specify-rendering-options-when-converting-to-pdf/) для получения дополнительной информации об использовании класса `PdfSaveOptions`

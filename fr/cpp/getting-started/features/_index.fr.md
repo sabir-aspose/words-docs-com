@@ -1,4 +1,4 @@
----
+﻿---
 title: Caractéristiques
 second_title: Aspose.Words pour C++
 articleTitle: Fonctionnalités Prises En Charge
@@ -37,7 +37,7 @@ Aspose.Words offre aux utilisateurs un large éventail de fonctionnalités. Les 
 
 ## Limitations
 
-- Prend en charge un ensemble limité de formats de fichiers (*see [Supported Document Formats](/words/cpp/supported-document-formats/) for details*)
+- Prend en charge un ensemble limité de formats de fichiers (*see [Supported Document Formats](/words/fr/cpp/supported-document-formats/) for details*)
 - Pas de prise en charge des documents cryptés
 - Pas de prise en charge du téléchargement de ressources distantes à partir d'Internet
 - Prise en charge limitée et instable des fonctionnalités de rendu

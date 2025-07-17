@@ -1,4 +1,4 @@
----
+﻿---
 title: تبدیل به فرمت صفحه ثابت در C++
 second_title: Aspose.Words برای C++
 articleTitle: تبدیل به فرمت صفحه ثابت
@@ -28,7 +28,7 @@ Microsoft Word پیشرفته ترین برنامه ویرایش متن در Win
 
 ## بایگانی برچسب برای:
 
-* [چیدمان صفحه چیست ؟ ](/words/cpp/what-is-a-page-layout/)
-* [ایجاد یک طرح بندی صفحه](/words/cpp/creating-a-page-layout/)
-* [ذخیره یک سند به فرمت صفحه ثابت](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [گزینه های طرح بندی را مشخص کنید](/words/cpp/specify-layout-options/)
+* [چیدمان صفحه چیست ؟ ](/words/fa/cpp/what-is-a-page-layout/)
+* [ایجاد یک طرح بندی صفحه](/words/fa/cpp/creating-a-page-layout/)
+* [ذخیره یک سند به فرمت صفحه ثابت](/words/fa/cpp/saving-a-document-to-fixed-page-format/)
+* [گزینه های طرح بندی را مشخص کنید](/words/fa/cpp/specify-layout-options/)

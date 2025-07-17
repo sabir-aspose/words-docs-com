@@ -1,4 +1,4 @@
----
+﻿---
 title: So führen Sie die Beispiele aus
 second_title: Aspose.Words für C++
 articleTitle: So führen Sie die Beispiele aus
@@ -36,7 +36,7 @@ Nachdem Sie eine Kopie des Repositorys erhalten haben, stellen Sie möglicherwei
 
 Um die Beispiele auszuführen, öffnen Sie die Lösungsdatei in Visual Studio und erstellen Sie das Projekt:
 
-- Für **API Reference** Beispiele basiert die Struktur auf Klassennamen, für **Docs** Beispiele basiert sie hauptsächlich auf der [Entwickler Guiled](/words/cpp/developer-guide/) abschnitt Dokumentation.
+- Für **API Reference** Beispiele basiert die Struktur auf Klassennamen, für **Docs** Beispiele basiert sie hauptsächlich auf der [Entwickler Guiled](/words/de/cpp/developer-guide/) abschnitt Dokumentation.
 - Beim ersten Durchlauf werden die Abhängigkeiten automatisch über NuGet heruntergeladen.
 - Der Ordner **Data** im Stammordner von **Examples** enthält Eingabedateien, die in den Beispielen verwendet wurden.
 - Alle Beispiele können als Komponententests ausgeführt werden.
@@ -68,7 +68,7 @@ Die Lösung für Visual Studio wird in der `Examples\DocsExamples\build` generie
 
 Um die Beispiele auszuführen, öffnen Sie die Lösungsdatei in Visual Studio und erstellen Sie das Projekt:
 
-- Für **API Reference** Beispiele basiert die Struktur auf Klassennamen, für **Docs** Beispiele basiert sie hauptsächlich auf der [Entwickler Guiled](/words/cpp/developer-guide/) abschnitt Dokumentation.
+- Für **API Reference** Beispiele basiert die Struktur auf Klassennamen, für **Docs** Beispiele basiert sie hauptsächlich auf der [Entwickler Guiled](/words/de/cpp/developer-guide/) abschnitt Dokumentation.
 - Der Ordner **Data** im Stammordner von **Examples** enthält Eingabedateien, die in den Beispielen verwendet wurden.
 - Alle Beispiele können als Komponententests ausgeführt werden.
 
@@ -99,7 +99,7 @@ cmake --build Examples/DocsExamples/build
 cmake -E chdir Examples/DocsExamples/build ctest --verbose
 {{< /highlight >}}
 
-- Für **API Reference** Beispiele basiert die Struktur auf Klassennamen, für **Docs** Beispiele basiert sie hauptsächlich auf der [Entwickler Guiled](/words/cpp/developer-guide/) abschnitt Dokumentation.
+- Für **API Reference** Beispiele basiert die Struktur auf Klassennamen, für **Docs** Beispiele basiert sie hauptsächlich auf der [Entwickler Guiled](/words/de/cpp/developer-guide/) abschnitt Dokumentation.
 - Der Ordner **Data** im Stammordner von **Examples** enthält Eingabedateien, die in den Beispielen verwendet wurden.
 - Alle Beispiele können als Komponententests ausgeführt werden.
 

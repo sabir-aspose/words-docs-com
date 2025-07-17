@@ -1,4 +1,4 @@
----
+﻿---
 title: Was ist ein Seitenlayout in C++
 second_title: Aspose.Words für C++
 articleTitle: Was ist ein Seitenlayout
@@ -20,6 +20,6 @@ Die Beziehung zwischen einem Dokument und einem Seitenlayout ist recht einfach. 
 
 ## Siehe auch
 
-* [Erstellen eines Seitenlayouts](/words/cpp/creating-a-page-layout/)
-* [Speichern eines Dokuments im Festseitenformat](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Layoutoptionen angeben](/words/cpp/specify-layout-options/)
+* [Erstellen eines Seitenlayouts](/words/de/cpp/creating-a-page-layout/)
+* [Speichern eines Dokuments im Festseitenformat](/words/de/cpp/saving-a-document-to-fixed-page-format/)
+* [Layoutoptionen angeben](/words/de/cpp/specify-layout-options/)

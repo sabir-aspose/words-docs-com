@@ -18,7 +18,7 @@ Aspose.Words ist eine plattformübergreifende Klassenbibliothek, mit der Ihre An
 
 Mit Aspose.Words können Sie Dokumente erstellen, ändern, konvertieren, rendern und drucken, ohne auf Anwendungen von Drittanbietern wie Microsoft Word oder Office Automation angewiesen zu sein.
 
-Es ist erwähnenswert, dass Sie ein Dokument von jedem unterstützten Ladeformat in jedes unterstützte Speicherformat konvertieren können, z. B. Microsoft Word-Formate in PDF, HTML oder Markdown, HTML in DOCX und so weiter. Lesen Sie mehr über das Konvertieren von Dokumenten in der [Ein Dokument konvertieren](/words/java/convert-a-document/) Abschnitt.
+Es ist erwähnenswert, dass Sie ein Dokument von jedem unterstützten Ladeformat in jedes unterstützte Speicherformat konvertieren können, z. B. Microsoft Word-Formate in PDF, HTML oder Markdown, HTML in DOCX und so weiter. Lesen Sie mehr über das Konvertieren von Dokumenten in der [Ein Dokument konvertieren](/words/de/java/convert-a-document/) Abschnitt.
 
 Eine weitere beliebte Option unserer Bibliothek ist *Reports and Mails*. Unsere Benutzer generieren hochkomplexe, individuell angepasste finanzielle, medizinische und andere *Reports*. Dabei sieht das generierte Dokument so aus, als hätten Sie den Bericht manuell mit einem normalen Texteditor erstellt. Eine weitere Option, *Mail*, bietet die Möglichkeit, sehr schnell Tausende und Millionen einfacher, aber dennoch persönlicher vorlagenbasierter Dokumente zu generieren.
 
@@ -46,21 +46,21 @@ Aspose.Words für Java Features können in vier Hauptbereiche unterteilt werden.
 
 Die Möglichkeit, Dokumente einfach und zuverlässig zu konvertieren, ist eines der Hauptmerkmale von Aspose.Words.
 
-Umfassend [dokumentenimport und -export](/words/java/loading-saving-and-converting/) mit [über 35 unterstützte Dateiformate](/words/java/supported-document-formats/) ermöglicht Benutzern das Konvertieren von Dokumenten von [ein beliebtes Format](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) nach [another](https://reference.aspose.com/words/java/com.aspose.words/saveformat/), z. B. von DOCX nach PDF, JPEG oder Markdown.
+Umfassend [dokumentenimport und -export](/words/de/java/loading-saving-and-converting/) mit [über 35 unterstützte Dateiformate](/words/de/java/supported-document-formats/) ermöglicht Benutzern das Konvertieren von Dokumenten von [ein beliebtes Format](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) nach [another](https://reference.aspose.com/words/java/com.aspose.words/saveformat/), z. B. von DOCX nach PDF, JPEG oder Markdown.
 
 #### Dokumentobjektmodell (DOM)
 
-Der programmgesteuerte Zugriff über eine umfangreiche API -Funktion auf alle Dokumentelemente und Formatierungen ermöglicht das Erstellen, Ändern, Extrahieren, Kopieren, Teilen, Verbinden und Ersetzen von Dokumentinhalten. Erfahren Sie mehr in der [Aspose.Words Dokumentenobjektmodell (DOM)](/words/java/aspose-words-document-object-model/) Abschnitt.
+Der programmgesteuerte Zugriff über eine umfangreiche API -Funktion auf alle Dokumentelemente und Formatierungen ermöglicht das Erstellen, Ändern, Extrahieren, Kopieren, Teilen, Verbinden und Ersetzen von Dokumentinhalten. Erfahren Sie mehr in der [Aspose.Words Dokumentenobjektmodell (DOM)](/words/de/java/aspose-words-document-object-model/) Abschnitt.
 
 #### Rendering
 
-Wir verwenden den Begriff [Rendern in Aspose.Words](/words/java/rendering/) beschreibung des Prozesses der Konvertierung eines Dokuments in ein Dateiformat oder ein Medium, paginiert oder mit dem Konzept von Seiten.
+Wir verwenden den Begriff [Rendern in Aspose.Words](/words/de/java/rendering/) beschreibung des Prozesses der Konvertierung eines Dokuments in ein Dateiformat oder ein Medium, paginiert oder mit dem Konzept von Seiten.
 
 Sie können ganze Dokumente oder bestimmte Seiten in PDF oder XPS konvertieren, um serverseitige Dokumente zu generieren, sie zu drucken oder Seiten zu rendern. Und das alles mit hoher Wiedergabetreue - genau so, wie es Microsoft Word getan hätte.
 
 #### Berichterstattung
 
-Generieren Sie Dokumente oder Berichte von Grund auf neu oder indem Sie Vorlagen mit Daten aus Datenquellen oder Geschäftsobjekten füllen. Weitere Informationen zum Melden und Abrufen von Daten aus Datenbanken finden Sie im [Mail Merge und Berichterstattung](/words/java/mail-merge-and-reporting/) und [LINQ Berichterstellungs-Motor](/words/java/linq-reporting-engine/) Abschnitt.
+Generieren Sie Dokumente oder Berichte von Grund auf neu oder indem Sie Vorlagen mit Daten aus Datenquellen oder Geschäftsobjekten füllen. Weitere Informationen zum Melden und Abrufen von Daten aus Datenbanken finden Sie im [Mail Merge und Berichterstattung](/words/de/java/mail-merge-and-reporting/) und [LINQ Berichterstellungs-Motor](/words/java/linq-reporting-engine/) Abschnitt.
 
 ### Plattformunabhängigkeit
 
@@ -104,8 +104,8 @@ Entwicklern, die zuvor Microsoft Word -Automatisierung in ihren Projekten verwen
 
 ## Preise und Richtlinien
 
-Bitte besuchen Sie die [Lizenzierung](/words/java/licensing/) seite für Informationen zu Lizenzen und Überprüfung der [Preisinformationen](https://purchase.aspose.com/pricing/words/family/) seite für Details zur Preisgestaltung.
+Bitte besuchen Sie die [Lizenzierung](/words/de/java/licensing/) seite für Informationen zu Lizenzen und Überprüfung der [Preisinformationen](https://purchase.aspose.com/pricing/words/family/) seite für Details zur Preisgestaltung.
 
 ## Technischer Support
 
-Weitere Informationen zum technischen Support von Aspose.Words finden Sie in der [Supportseite](/words/java/technical-support/).
+Weitere Informationen zum technischen Support von Aspose.Words finden Sie in der [Supportseite](/words/de/java/technical-support/).

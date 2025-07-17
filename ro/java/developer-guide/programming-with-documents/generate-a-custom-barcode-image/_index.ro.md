@@ -1,4 +1,4 @@
----
+﻿---
 title: Creează BarCode în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Generați o imagine personalizată BarCode
@@ -55,7 +55,7 @@ De asemenea, puteți salva documentul cu codul de bare încărcat sau nou introd
 
 {{% alert color="primary" %}}
 
-Pentru mai multe informații despre conversia documentelor dintr-un format în altul, consultați [Conversia unui Document](/words/java/convert-a-document/) secțiunea Documentație.
+Pentru mai multe informații despre conversia documentelor dintr-un format în altul, consultați [Conversia unui Document](/words/ro/java/convert-a-document/) secțiunea Documentație.
 
 {{% /alert %}}
 

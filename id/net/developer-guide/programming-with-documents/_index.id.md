@@ -1,4 +1,4 @@
----
+﻿---
 title: Pemrograman dengan Dokumen di C#
 second_title: Aspose.Words untuk .NET
 articleTitle: Pemrograman dengan Dokumen
@@ -44,6 +44,6 @@ Untuk mempelajari lebih lanjut tentang fitur Aspose.Words saat memprogram dengan
 - [Bekerja Dengan Karakter Kontrol](/words/id/net/working-with-control-characters/)
 - [Bekerja dengan Makro VBA](/words/id/net/working-with-vba-macros/)
 - [Bekerja dengan Fitur Markdown](/words/id/net/working-with-markdown-features/)
-- [Bekerja dengan Dokumen Teks](/words/net/working-with-text-document/)
+- [Bekerja dengan Dokumen Teks](/words/id/net/working-with-text-document/)
 
 Untuk penjelasan rinci tentang kelas, metode, dan properti, lihat bagian API Reference Aspose.Words untuk .NET.

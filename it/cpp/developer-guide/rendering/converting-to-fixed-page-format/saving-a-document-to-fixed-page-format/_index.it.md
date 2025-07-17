@@ -1,4 +1,4 @@
----
+﻿---
 title: Salvataggio in formato a pagina fissa in C++
 second_title: Aspose.Words per C++
 articleTitle: Salvataggio di un documento in formato a pagina fissa
@@ -17,7 +17,7 @@ Quando si salvano documenti in formati a pagina fissa, è possibile utilizzare l
 - Il numero e l'intervallo di pagine contenute nel documento di output([PageIndex](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pageset/), [PageCount](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pageset/)).
 - Avanzamento del salvataggio del documento pagina per pagina ([PageSavingCallback](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pagesavingcallback/)).
 - Un insieme di caratteri che vengono utilizzati per il rendering dei numeri ([NumeralFormat](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_numeralformat/)).
-- Un giocatore metafile ([MetafileRenderingOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_metafilerenderingoptions/)). Per maggiori dettagli, vedere il [Gestione dei metafile Windows ](/words/cpp/handling-windows-metafiles/) articolo.
+- Un giocatore metafile ([MetafileRenderingOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_metafilerenderingoptions/)). Per maggiori dettagli, vedere il [Gestione dei metafile Windows ](/words/it/cpp/handling-windows-metafiles/) articolo.
 - Un tasso di qualità per la ricompressione di immagini JPEG, il cui valore può variare leggermente, a seconda del formato di salvataggio selezionato ([JpegQuality](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_jpegquality/)).
 - Ottimizzazione della grafica vettoriale nell'output Aspose.Words ([OptimizeOutput](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_optimizeoutput/)).
 - Opzioni grafiche durante il salvataggio in formati Tiff, Png, Bmp, Jpeg, Emf([UseAntiAliasing](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_useantialiasing/), [UseHighQualityRendering](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_usehighqualityrendering/)).

@@ -1,4 +1,4 @@
----
+﻿---
 title: Hoe Om'n Tabel in C++Te Skep
 second_title: Aspose.Words vir C++
 articleTitle: Skep'n Tabel
@@ -112,7 +112,7 @@ Die volgende kode voorbeeld toon hoe om die laaste ry van'n tabel te kloon en vo
 
 {{< gist "aspose-words-gists" "aa87055754447c86ae5fb2d4766130f3" "clone-last-row.h" >}}
 
-As u na tabelle in'n dokument kyk wat dinamies groei met elke rekord uit u databron, word die bogenoemde metode nie aanbeveel nie. In plaas daarvan word die gewenste uitset makliker bereik deur Mail merge met streke te gebruik. Jy kan meer leer oor hierdie tegniek in die [Mail Merge Met Streke](/words/cpp/types-of-mail-merge-operations/) afdeling.
+As u na tabelle in'n dokument kyk wat dinamies groei met elke rekord uit u databron, word die bogenoemde metode nie aanbeveel nie. In plaas daarvan word die gewenste uitset makliker bereik deur Mail merge met streke te gebruik. Jy kan meer leer oor hierdie tegniek in die [Mail Merge Met Streke](/words/af/cpp/types-of-mail-merge-operations/) afdeling.
 
 ## Vergelyk Maniere Om'n Tabel Te Skep
 

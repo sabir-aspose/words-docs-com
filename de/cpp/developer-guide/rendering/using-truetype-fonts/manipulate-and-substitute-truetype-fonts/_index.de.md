@@ -1,4 +1,4 @@
----
+﻿---
 title: TrueType -Schriftarten in C++ bearbeiten und ersetzen
 second_title: Aspose.Words für C++
 articleTitle: TrueType-Schriftarten bearbeiten und ersetzen
@@ -21,7 +21,7 @@ Beachten Sie, dass die Schriftart im Dokument eine Entität darstellt, z. B. Fam
 
 ## Wobei Aspose.Words nach Schriftarten sucht
 
-Aspose.Words versucht automatisch, TrueType Schriftarten im Dateisystem zu finden. Normalerweise können Sie sich auf das Standardverhalten von Aspose.Words verlassen, um die `TrueType` -Schriftarten zu finden, aber manchmal müssen Sie Ihre eigenen Ordner angeben, die TrueType -Schriftarten enthalten. Der [Geben Sie den Speicherort für TrueType Schriftarten an](/words/cpp/specify-truetype-fonts-location/) in diesem Thema wird beschrieben, wie und wo Aspose.Words nach Schriftarten sucht und wie Sie Ihre eigenen Schriftpositionen angeben.
+Aspose.Words versucht automatisch, TrueType Schriftarten im Dateisystem zu finden. Normalerweise können Sie sich auf das Standardverhalten von Aspose.Words verlassen, um die `TrueType` -Schriftarten zu finden, aber manchmal müssen Sie Ihre eigenen Ordner angeben, die TrueType -Schriftarten enthalten. Der [Geben Sie den Speicherort für TrueType Schriftarten an](/words/de/cpp/specify-truetype-fonts-location/) in diesem Thema wird beschrieben, wie und wo Aspose.Words nach Schriftarten sucht und wie Sie Ihre eigenen Schriftpositionen angeben.
 
 ## Unterschiede in der Verarbeitung von Schriftformaten in Aspose.Words und Microsoft Word
 

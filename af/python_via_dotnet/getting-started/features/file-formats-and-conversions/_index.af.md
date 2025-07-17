@@ -1,4 +1,4 @@
----
+﻿---
 title: Lêerformate en Omskakelings
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Lêerformate en Omskakelings
@@ -29,7 +29,7 @@ Die volgende kode voorbeeld toon hoe om'n dokument te omskep:
 
 {{< gist "aspose-words-gists" "36a49a29062268dc5e6d3134163f8d99" "docx-to-pdf.py" >}}
 
-Vir meer besonderhede oor die laai, omskakeling en stoor van dokumente, sien die [Laai, Stoor En Omskakeling](/words/python-net/loading-saving-and-converting/) afdeling.
+Vir meer besonderhede oor die laai, omskakeling en stoor van dokumente, sien die [Laai, Stoor En Omskakeling](/words/af/python-net/loading-saving-and-converting/) afdeling.
 
 ## Hoë Getrouheid
 

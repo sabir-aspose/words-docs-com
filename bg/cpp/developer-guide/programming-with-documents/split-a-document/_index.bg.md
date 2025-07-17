@@ -67,7 +67,7 @@ Aspose.Words също така ви позволява да използвате
 
 {{% alert color="primary" %}}
 
-Можете да използвате всяка [изходен формат, поддържан от Aspose.Words](/words/cpp/supported-document-formats/).
+Можете да използвате всяка [изходен формат, поддържан от Aspose.Words](/words/bg/cpp/supported-document-formats/).
 
 {{% /alert %}}
 

@@ -12,7 +12,7 @@ timestamp: 2024-01-27-14-07-04
 
 Een " Hallo, Wereld!"code is vaak het eerste eenvoudige voorbeeld om uisng "Aspose.Words voor C++" te schrijven, en het kan ook worden gebruikt als een Gezondheidstest om ervoor te zorgen dat de software die bedoeld is om broncode te compileren of uit te voeren correct is geïnstalleerd.
 
-De bibliotheek" Aspose.Words voor C++ " geeft ontwikkelaars directe toegang tot het maken, wijzigen, samenvoegen, converteren, vergelijken van Word en webdocumenten. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML en vele andere bestandsformaten zijn [ondersteunen](/words/cpp/supported-document-formats/).
+De bibliotheek" Aspose.Words voor C++ " geeft ontwikkelaars directe toegang tot het maken, wijzigen, samenvoegen, converteren, vergelijken van Word en webdocumenten. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML en vele andere bestandsformaten zijn [ondersteunen](/words/nl/cpp/supported-document-formats/).
 
 Below code snippet volgt deze stappen:
 

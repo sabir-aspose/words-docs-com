@@ -1,4 +1,4 @@
----
+﻿---
 title: نظرة عامة على المنتج
 second_title: Aspose.Words ل C++
 articleTitle: نظرة عامة على المنتج
@@ -16,7 +16,7 @@ timestamp: 2024-06-05-14-43-57
 
 Aspose.Words هي مكتبة فئة عبر الأنظمة الأساسية تمكن تطبيقاتك من أداء مجموعة متنوعة من مهام معالجة المستندات.
 
-باستخدام Aspose.Words، يمكنك تحويل مستند من أي تنسيق تحميل مدعوم إلى أي تنسيق حفظ مدعوم، على سبيل المثال، تنسيقات الكلمات إلى PDF، HTML، أو Markdown، HTML إلى DOCX، وهكذا. اقرأ المزيد حول تحويل المستندات في [تحويل مستند](/words/cpp/convert-a-document/) القسم.
+باستخدام Aspose.Words، يمكنك تحويل مستند من أي تنسيق تحميل مدعوم إلى أي تنسيق حفظ مدعوم، على سبيل المثال، تنسيقات الكلمات إلى PDF، HTML، أو Markdown، HTML إلى DOCX، وهكذا. اقرأ المزيد حول تحويل المستندات في [تحويل مستند](/words/ar/cpp/convert-a-document/) القسم.
 
 تجدر الإشارة إلى أنه باستخدام Aspose.Words يمكنك إنشاء المستندات وتعديلها وتحويلها وعرضها وطباعتها دون الاعتماد على تطبيقات الطرف الثالث، مثل Microsoft Word أو Office Automation.
 
@@ -42,21 +42,21 @@ Aspose.Words ل C++ يمكن تقسيم الميزات إلى أربعة مجا�
 
 تعد القدرة على تحويل المستندات بسهولة وموثوقية إحدى الميزات الرئيسية لـ Aspose.Words.
 
-شامل [استيراد وتصدير المستندات](/words/cpp/loading-saving-and-converting/) مع [أكثر من 35 تنسيقات الملفات المدعومة](/words/cpp/supported-document-formats/) يسمح للمستخدمين بتحويل المستندات من [one popular format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) إلى [another](https://reference.aspose.com/words/cpp/aspose.words/saveformat/)، على سبيل المثال، من DOCX إلى PDF أو JPEG أو Markdown.
+شامل [استيراد وتصدير المستندات](/words/ar/cpp/loading-saving-and-converting/) مع [أكثر من 35 تنسيقات الملفات المدعومة](/words/ar/cpp/supported-document-formats/) يسمح للمستخدمين بتحويل المستندات من [one popular format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) إلى [another](https://reference.aspose.com/words/cpp/aspose.words/saveformat/)، على سبيل المثال، من DOCX إلى PDF أو JPEG أو Markdown.
 
 #### نموذج كائن المستند (DOM)
 
-يسمح الوصول البرمجي من خلال API غني إلى جميع عناصر المستند والتنسيق بإنشاء محتوى المستند وتعديله واستخراجه ونسخه وتقسيمه والانضمام إليه واستبداله. اكتشف المزيد في [Aspose.Words نموذج كائن المستند (DOM)](/words/cpp/aspose-words-document-object-model/) القسم.
+يسمح الوصول البرمجي من خلال API غني إلى جميع عناصر المستند والتنسيق بإنشاء محتوى المستند وتعديله واستخراجه ونسخه وتقسيمه والانضمام إليه واستبداله. اكتشف المزيد في [Aspose.Words نموذج كائن المستند (DOM)](/words/ar/cpp/aspose-words-document-object-model/) القسم.
 
 #### تقديم
 
-نحن نستخدم المصطلح [التقديم في Aspose.Words](/words/cpp/rendering/) لوصف عملية تحويل مستند إلى تنسيق ملف أو وسيط، مرقم صفحات أو يحتوي على مفهوم الصفحات.
+نحن نستخدم المصطلح [التقديم في Aspose.Words](/words/ar/cpp/rendering/) لوصف عملية تحويل مستند إلى تنسيق ملف أو وسيط، مرقم صفحات أو يحتوي على مفهوم الصفحات.
 
 يمكنك تحويل مستندات كاملة أو صفحات معينة إلى PDF أو XPS لإنشاء مستندات من جانب الخادم، وطباعتها. وكل هذا بدقة عالية – تماما مثل Microsoft Word كان سيفعل ذلك.
 
 #### الإبلاغ
 
-إنشاء مستندات أو تقارير من البداية أو عن طريق ملء القوالب ببيانات من مصادر البيانات أو كائنات الأعمال. لمزيد من المعلومات حول إعداد التقارير وجلب البيانات من قواعد البيانات، راجع [Mail Merge والإبلاغ](/words/cpp/mail-merge-and-reporting/).
+إنشاء مستندات أو تقارير من البداية أو عن طريق ملء القوالب ببيانات من مصادر البيانات أو كائنات الأعمال. لمزيد من المعلومات حول إعداد التقارير وجلب البيانات من قواعد البيانات، راجع [Mail Merge والإبلاغ](/words/ar/cpp/mail-merge-and-reporting/).
 
 ### منصة الاستقلال
 
@@ -86,8 +86,8 @@ Aspose.Words آمن متعدد الخيوط طالما أن مؤشر ترابط 
 
 ## التسعير والسياسات
 
-يرجى زيارة [الترخيص](/words/cpp/licensing/) صفحة للحصول على معلومات حول التراخيص ومراجعة [معلومات التسعير](https://purchase.aspose.com/pricing/words/family/) صفحة للحصول على تفاصيل حول التسعير.
+يرجى زيارة [الترخيص](/words/ar/cpp/licensing/) صفحة للحصول على معلومات حول التراخيص ومراجعة [معلومات التسعير](https://purchase.aspose.com/pricing/words/family/) صفحة للحصول على تفاصيل حول التسعير.
 
 ## الدعم الفني
 
-لمزيد من المعلومات حول Aspose.Words الدعم الفني، نلقي نظرة على [صفحة الدعم](/words/cpp/technical-support/).
+لمزيد من المعلومات حول Aspose.Words الدعم الفني، نلقي نظرة على [صفحة الدعم](/words/ar/cpp/technical-support/).

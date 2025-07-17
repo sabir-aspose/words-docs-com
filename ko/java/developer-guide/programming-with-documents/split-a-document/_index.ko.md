@@ -85,7 +85,7 @@ Aspose.Words또한 섹션 나누기를 사용하여 문서를 분할하고HTML�
 
 {{% alert color="primary" %}}
 
-당신은 어떤 것을 사용할 수 있습니다 [Aspose.Words에서 지원하는 출력 형식](/words/java/supported-document-formats/).
+당신은 어떤 것을 사용할 수 있습니다 [Aspose.Words에서 지원하는 출력 형식](/words/ko/java/supported-document-formats/).
 
 {{% /alert %}}
 

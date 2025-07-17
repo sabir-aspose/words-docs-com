@@ -65,5 +65,5 @@ V Aspose.Words jsou všechny třídy a vlastnosti související s tabulkami obsa
 
 ## Vidět
 
-* [Aspose.Words Model Objektu Dokumentu (DOM)](/words/cpp/aspose-words-document-object-model/)
-* [Logické úrovně uzlů v dokumentu](/words/cpp/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Model Objektu Dokumentu (DOM)](/words/cs/cpp/aspose-words-document-object-model/)
+* [Logické úrovně uzlů v dokumentu](/words/cs/cpp/logical-levels-of-nodes-in-a-document/)

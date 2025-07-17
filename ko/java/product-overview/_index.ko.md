@@ -18,7 +18,7 @@ Aspose.Words은 응용 프로그램에서 다양한 문서 처리 작업을 수�
 
 Aspose.Words를 사용하면Microsoft Word또는Office Automation과 같은 타사 응용 프로그램에 의존하지 않고 문서를 생성,수정,변환,렌더링 및 인쇄할 수 있습니다.
 
-문서를 지원되는 로드 형식에서 지원되는 저장 형식(예:Microsoft Word형식을PDF,HTML또는Markdown,HTML에서DOCX등)으로 변환할 수 있다는 점은 주목할 가치가 있습니다. 에서 문서 변환에 대해 자세히 알아보기 [문서 변환](/words/java/convert-a-document/) 부문
+문서를 지원되는 로드 형식에서 지원되는 저장 형식(예:Microsoft Word형식을PDF,HTML또는Markdown,HTML에서DOCX등)으로 변환할 수 있다는 점은 주목할 가치가 있습니다. 에서 문서 변환에 대해 자세히 알아보기 [문서 변환](/words/ko/java/convert-a-document/) 부문
 
 우리 도서관의 또 다른 인기있는 옵션은*Reports and Mails*입니다. 우리의 사용자는 매우 복잡한 개별적으로 조정 금융,의료 및 기타*Reports*을 생성합니다. 이렇게 하면 생성된 문서가 일반 텍스트 편집기를 사용하여 보고서를 수동으로 만든 것처럼 보입니다. 또 다른 옵션인*Mail*는 수천,수백만 개의 단순하지만 여전히 개인 템플릿 기반 문서를 매우 빠르게 생성할 수 있는 기능을 제공합니다.
 
@@ -46,21 +46,21 @@ Aspose.WordsJava의 특징은 네 가지 주요 영역으로 나눌 수 있습�
 
 문서를 쉽고 안정적으로 변환하는 기능은Aspose.Words의 주요 기능 중 하나입니다.
 
-포괄적 인 [문서 가져오기 및 내보내기](/words/java/loading-saving-and-converting/) 함께 [35 개 이상의 지원되는 파일 형식](/words/java/supported-document-formats/) 사용자가 문서를[하나의 인기있는 형식](https://reference.aspose.com/words/java/com.aspose.words/loadformat/)에서[another](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)(예:DOCX에서PDF,JPEG또는Markdown)로 변환할 수 있습니다.
+포괄적 인 [문서 가져오기 및 내보내기](/words/ko/java/loading-saving-and-converting/) 함께 [35 개 이상의 지원되는 파일 형식](/words/ko/java/supported-document-formats/) 사용자가 문서를[하나의 인기있는 형식](https://reference.aspose.com/words/java/com.aspose.words/loadformat/)에서[another](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)(예:DOCX에서PDF,JPEG또는Markdown)로 변환할 수 있습니다.
 
 #### 문서 개체 모델(DOM)
 
-리치API를 통해 모든 문서 요소와 포맷에 프로그래밍 방식으로 액세스하면 문서 콘텐츠를 생성,수정,추출,복사,분할,결합 및 교체 할 수 있습니다. 더 알아보기 [Aspose.Words문서 개체 모델(DOM)](/words/java/aspose-words-document-object-model/) 부문
+리치API를 통해 모든 문서 요소와 포맷에 프로그래밍 방식으로 액세스하면 문서 콘텐츠를 생성,수정,추출,복사,분할,결합 및 교체 할 수 있습니다. 더 알아보기 [Aspose.Words문서 개체 모델(DOM)](/words/ko/java/aspose-words-document-object-model/) 부문
 
 #### 렌더링
 
-우리는 용어를 사용 [Aspose.Words에서 렌더링](/words/java/rendering/) 파일 형식 또는 매체로 문서를 변환하는 과정을 설명하기 위해,페이지 매김 또는 그 페이지의 개념을 가지고있다.
+우리는 용어를 사용 [Aspose.Words에서 렌더링](/words/ko/java/rendering/) 파일 형식 또는 매체로 문서를 변환하는 과정을 설명하기 위해,페이지 매김 또는 그 페이지의 개념을 가지고있다.
 
 전체 문서 또는 특정 페이지를PDF또는XPS로 변환하여 서버 쪽 문서를 생성하거나 인쇄하거나 페이지를 렌더링할 수 있습니다. 그리고 이 모든 것이 높은 충실도로Microsoft Word과 정확히 같습니다.
 
 #### 보고
 
-처음부터 또는 데이터 소스 또는 비즈니스 개체의 데이터로 템플릿을 작성하여 문서 또는 보고서를 생성합니다. 데이터베이스에서 데이터 보고 및 가져오기에 대한 자세한 내용은 다음을 참조하십시오 [Mail Merge및 보고](/words/java/mail-merge-and-reporting/) 그리고 [LINQ보고 엔진](/words/java/linq-reporting-engine/) 섹션.
+처음부터 또는 데이터 소스 또는 비즈니스 개체의 데이터로 템플릿을 작성하여 문서 또는 보고서를 생성합니다. 데이터베이스에서 데이터 보고 및 가져오기에 대한 자세한 내용은 다음을 참조하십시오 [Mail Merge및 보고](/words/ko/java/mail-merge-and-reporting/) 그리고 [LINQ보고 엔진](/words/java/linq-reporting-engine/) 섹션.
 
 ### 플랫폼 독립성
 
@@ -104,8 +104,8 @@ Aspose.Words에는 150 개 이상의 공공 수업과 열거가 있지만,Aspose
 
 ## 가격 및 정책
 
-방문하시기 바랍니다 [라이선스](/words/java/licensing/) 라이센스에 대한 정보 및 검토 페이지 [가격 정보](https://purchase.aspose.com/pricing/words/family/) 가격에 대한 자세한 내용은 페이지.
+방문하시기 바랍니다 [라이선스](/words/ko/java/licensing/) 라이센스에 대한 정보 및 검토 페이지 [가격 정보](https://purchase.aspose.com/pricing/words/family/) 가격에 대한 자세한 내용은 페이지.
 
 ## 기술 지원
 
-Aspose.Words기술 지원에 대한 자세한 내용은 다음을 참조하십시오 [지원 페이지](/words/java/technical-support/).
+Aspose.Words기술 지원에 대한 자세한 내용은 다음을 참조하십시오 [지원 페이지](/words/ko/java/technical-support/).

@@ -1,4 +1,4 @@
----
+﻿---
 title: Tablo Genel Bakış
 second_title: Aspose.Words için Java
 articleTitle: Tablo Genel Bakış
@@ -65,5 +65,5 @@ Aspose.Words tablolarla ilgili bir dizi sınıfa sahiptir - [Tables](https://ref
 
 ## Ayrıca bakınız
 
-* [Aspose.Words Document Object Model (DOM)](/words/java/aspose-words-document-object-model/)
-* [Logical Levels of Nodes in a Document](/words/java/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Document Object Model (DOM)](/words/tr/java/aspose-words-document-object-model/)
+* [Logical Levels of Nodes in a Document](/words/tr/java/logical-levels-of-nodes-in-a-document/)

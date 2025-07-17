@@ -27,7 +27,7 @@ Implementace funkce Markdown se většinou řídí specifikací `CommonMark` v A
 
 {{% alert color="primary" %}}
 
-Existují nuance překladu Markdown do modelu objektu dokumentu Aspose.Words (DOM), popsaného v článku [Translate Markdown to Document Object Model (DOM)](/words/cpp/translate-markdown-to-document-object-model/).
+Existují nuance překladu Markdown do modelu objektu dokumentu Aspose.Words (DOM), popsaného v článku [Translate Markdown to Document Object Model (DOM)](/words/cs/cpp/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

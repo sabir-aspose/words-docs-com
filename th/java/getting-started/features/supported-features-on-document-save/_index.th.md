@@ -10,7 +10,7 @@ url: /th/java/supported-features-on-document-save/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Wordsช่วยให้ผู้ใช้สามารถทำงานกับเอกสารในรูปแบบต่างๆและมีความหลากหลายของคุณสมบัติ ตัวอย่างเช่นผู้ใช้สามารถสร้างเอกสารจากรอยขีดข่วนหรือโหลดมันทำการเปลี่ยนแปลงบ [รูปแบบการส่งออกที่รองรับ](/words/java/supported-document-formats/). ในขณะที่บันทึกเอกสารในรูปแบบที่เลือกผู้ใช้สามารถใช้ตัวเลือกการบันทึกต่างๆ.
+Aspose.Wordsช่วยให้ผู้ใช้สามารถทำงานกับเอกสารในรูปแบบต่างๆและมีความหลากหลายของคุณสมบัติ ตัวอย่างเช่นผู้ใช้สามารถสร้างเอกสารจากรอยขีดข่วนหรือโหลดมันทำการเปลี่ยนแปลงบ [รูปแบบการส่งออกที่รองรับ](/words/th/java/supported-document-formats/). ในขณะที่บันทึกเอกสารในรูปแบบที่เลือกผู้ใช้สามารถใช้ตัวเลือกการบันทึกต่างๆ.
 
 {{% alert color="primary" %}}
 
@@ -21,7 +21,7 @@ Aspose.Wordsช่วยให้ผู้ใช้สามารถทำง�
 สำหรับรายการฟังก์ชันทั้งหมดให้ดูที่API reference:
 
 - [บันทึกตัวเลือกสำหรับทุกรูปแบบ](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/)
-- [หน้าคงบันทึกตัวเลือก](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/)สำหรับ [รูปแบบคงที่หน้า](/words/java/converting-to-fixed-page-format/):PDF,XPS,ภาพและอื่นๆ
+- [หน้าคงบันทึกตัวเลือก](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/)สำหรับ [รูปแบบคงที่หน้า](/words/th/java/converting-to-fixed-page-format/):PDF,XPS,ภาพและอื่นๆ
 - [PDFบันทึกตัวเลือก](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/)สำหรับPDFรูปแบบ
 - [OOXMLบันทึกตัวเลือก](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/)สำหรับDOCX, DOCM, DOTX, DOTM, หรือFlatOpcรูปแบบ
 - [DOCบันทึกตัวเลือก](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/)สำหรับDOCและDOTรูปแบบ
