@@ -1,4 +1,4 @@
----
+﻿---
 title: C++でのフィールドの挿入
 second_title: C++の場合Aspose.Words
 articleTitle: フィールドの挿入
@@ -14,7 +14,7 @@ timestamp: 2024-01-27-14-07-04
 
 - [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/)を使用する
 - [FieldBuilder](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldbuilder/)を使用する
-- を使用して [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/cpp/aspose-words-document-object-model/)
+- を使用して [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/ja/cpp/aspose-words-document-object-model/)
 
 この記事では、それぞれの方法をより詳細に見て、これらのオプションを使用して特定のフィールドを挿入する方法を分析します。
 
@@ -64,7 +64,7 @@ Aspose.Wordsにフィールドを挿入する別の方法は[FieldBuilder](https
 
 ## DOMを使用したフィールドの挿入
 
-次を使用して、さまざまなタイプのフィールドを挿入することもできます [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/cpp/aspose-words-document-object-model/). このセクションでは、いくつかの例を見ていきます。
+次を使用して、さまざまなタイプのフィールドを挿入することもできます [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/ja/cpp/aspose-words-document-object-model/). このセクションでは、いくつかの例を見ていきます。
 
 ### DOMを使用した文書への差し込み項目の挿入
 

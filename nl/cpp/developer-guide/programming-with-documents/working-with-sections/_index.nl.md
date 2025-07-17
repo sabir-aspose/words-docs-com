@@ -38,7 +38,7 @@ U kunt de [SectionStart](https://reference.aspose.com/words/cpp/aspose.words/sec
 
 ## Een sectie beheren
 
-Aangezien een sectie een normale samengestelde knoop is, kan de gehele knoopmanipulatie API worden gebruikt om secties te manipuleren: om secties toe te voegen, te verwijderen en andere bewerkingen op secties. Lees meer over nodes in het artikel [Aspose.Words Document Object Model (DOM)](/words/cpp/aspose-words-document-object-model/).
+Aangezien een sectie een normale samengestelde knoop is, kan de gehele knoopmanipulatie API worden gebruikt om secties te manipuleren: om secties toe te voegen, te verwijderen en andere bewerkingen op secties. Lees meer over nodes in het artikel [Aspose.Words Document Object Model (DOM)](/words/nl/cpp/aspose-words-document-object-model/).
 
 Aan de andere kant kunt u ook `DocumentBuilder` API gebruiken om met secties te werken. In dit artikel zullen we ons richten op deze specifieke manier van werken met secties.
 
@@ -154,5 +154,5 @@ Het volgende codevoorbeeld laat zien hoe u de pagina-Eigenschappen in alle secti
 
 ## Zie Ook
 
-- [Logische niveaus van knooppunten in een Document](/words/cpp/logical-levels-of-nodes-in-a-document/)
-- [Documenten invoegen en toevoegen](/words/cpp/insert-and-append-documents/)
+- [Logische niveaus van knooppunten in een Document](/words/nl/cpp/logical-levels-of-nodes-in-a-document/)
+- [Documenten invoegen en toevoegen](/words/nl/cpp/insert-and-append-documents/)

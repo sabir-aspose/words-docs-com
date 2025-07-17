@@ -96,7 +96,7 @@ Rozlišení se vypočítá podle skutečné velikosti obrázku na stránce.
 
 ## Vkládání písem ve formátu Adobe PDF
 
-Aspose.Words také umožňuje ovládat, jak jsou písma vložena do výsledných PDF dokumentů. Písma musí být vložena do libovolného dokumentu Adobe PDF, Aby bylo zajištěno, že dokument může být správně vykreslen na jakémkoli počítači (další podrobnosti o vykreslování písem naleznete v části [Použití Písem TrueType ](/words/cpp/using-truetype-fonts/)). Ve výchozím nastavení Aspose.Words vloží podmnožinu písem použitých v dokumentu do vygenerovaného PDF. V tomto případě jsou do PDF uloženy pouze glyfy (znaky) použité v dokumentu.
+Aspose.Words také umožňuje ovládat, jak jsou písma vložena do výsledných PDF dokumentů. Písma musí být vložena do libovolného dokumentu Adobe PDF, Aby bylo zajištěno, že dokument může být správně vykreslen na jakémkoli počítači (další podrobnosti o vykreslování písem naleznete v části [Použití Písem TrueType ](/words/cs/cpp/using-truetype-fonts/)). Ve výchozím nastavení Aspose.Words vloží podmnožinu písem použitých v dokumentu do vygenerovaného PDF. V tomto případě jsou do PDF uloženy pouze glyfy (znaky) použité v dokumentu.
 
 ### Kdy použít Plná písma a kdy podmnožinu
 

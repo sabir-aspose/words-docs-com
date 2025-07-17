@@ -12,7 +12,7 @@ timestamp: 2024-10-21-11-17-44
 
 لقراءة محتوى المستند وتنسيقه ومعالجتها وتعديله برمجيا، تحتاج إلى ترجمته إلى نموذج كائن المستند Aspose.Words (DOM).
 
-على عكس مستندات ورد، Markdown لا يتوافق مع DOM الموضح في [Aspose.Words نموذج كائن المستند (DOM)](/words/java/aspose-words-document-object-model/) المادة. ومع ذلك، توفر Aspose.Words آليتها الخاصة لترجمة Markdown المستندات إلى DOM والعودة، حتى نتمكن من العمل بنجاح مع عناصرها مثل تنسيق النص والجداول والرؤوس وغيرها.
+على عكس مستندات ورد، Markdown لا يتوافق مع DOM الموضح في [Aspose.Words نموذج كائن المستند (DOM)](/words/ar/java/aspose-words-document-object-model/) المادة. ومع ذلك، توفر Aspose.Words آليتها الخاصة لترجمة Markdown المستندات إلى DOM والعودة، حتى نتمكن من العمل بنجاح مع عناصرها مثل تنسيق النص والجداول والرؤوس وغيرها.
 
 تشرح هذه المقالة كيف يمكن ترجمة ميزات markdown المختلفة إلى Aspose.Words DOM والعودة إلى تنسيق Markdown.
 
@@ -98,5 +98,5 @@ Aspose.Words يسمح أيضا بترجمة الجداول إلى DOM، كما �
 
 ## أنظر أيضا
 
-* [العمل مع Markdown الميزات](/words/java/working-with-markdown-features/)
+* [العمل مع Markdown الميزات](/words/ar/java/working-with-markdown-features/)
 

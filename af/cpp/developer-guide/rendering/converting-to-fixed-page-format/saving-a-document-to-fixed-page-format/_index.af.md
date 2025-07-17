@@ -1,4 +1,4 @@
----
+﻿---
 title: Stoor Na Vaste bladsy Formaat in C++
 second_title: Aspose.Words vir C++
 articleTitle: Stoor'n Dokument Na Vaste bladsy Formaat
@@ -17,7 +17,7 @@ Wanneer dokumente in vaste bladsy formate gestoor word, kan die weergawe opsies 
 - Die aantal en omvang van bladsye vervat in die uitset dokument ([PageIndex](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pageset/), [PageCount](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pageset/)).
 - Vordering van bladsy-vir-bladsy dokument stoor ([PageSavingCallback](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pagesavingcallback/)).
 - 'n stel karakters wat gebruik word om getalle te vertoon ([NumeralFormat](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_numeralformat/)).
-- 'n meta-lêer speler ([MetafileRenderingOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_metafilerenderingoptions/)). Vir meer besonderhede, sien die [Hantering Windows Meta Lêers](/words/cpp/handling-windows-metafiles/) artikel.
+- 'n meta-lêer speler ([MetafileRenderingOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_metafilerenderingoptions/)). Vir meer besonderhede, sien die [Hantering Windows Meta Lêers](/words/af/cpp/handling-windows-metafiles/) artikel.
 - 'n kwaliteitskoers vir die herkomprimering van JPEG beelde, waarvan die waarde effens kan verskil, afhangende van die geselekteerde stoorformaat ([JpegQuality](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_jpegquality/)).
 - Optimalisering van vektorgrafika in Aspose.Words uitset ([OptimizeOutput](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_optimizeoutput/)).
 - Grafiese opsies wanneer jy stoor Na Tiff, Png, Bmp, Jpeg, Emf formate ([UseAntiAliasing](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_useantialiasing/), [UseHighQualityRendering](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_usehighqualityrendering/)).

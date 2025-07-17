@@ -123,7 +123,7 @@ Aspose.Words는[InsertHtml](https://reference.aspose.com/words/java/com.aspose.w
 
 {{% /alert %}}
 
-데이터 원본의 각 레코드와 함께 동적으로 증가하는 문서의 테이블을 만드는 방법을 찾고 있다면 위의 방법을 사용하지 않는 것이 좋습니다. 대신,원하는 출력은 지역과 함께Mail merge을 사용하여 더 쉽게 달성됩니다. 이 기술에 대해 더 많이 배울 수 있습니다 [Mail Merge지역](/words/java/types-of-mail-merge-operations/) 부문
+데이터 원본의 각 레코드와 함께 동적으로 증가하는 문서의 테이블을 만드는 방법을 찾고 있다면 위의 방법을 사용하지 않는 것이 좋습니다. 대신,원하는 출력은 지역과 함께Mail merge을 사용하여 더 쉽게 달성됩니다. 이 기술에 대해 더 많이 배울 수 있습니다 [Mail Merge지역](/words/ko/java/types-of-mail-merge-operations/) 부문
 
 ## 테이블을 만드는 방법 비교
 

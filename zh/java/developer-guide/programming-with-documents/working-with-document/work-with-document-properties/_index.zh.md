@@ -15,7 +15,7 @@ timestamp: 2024-01-31-14-23-37
 * 包含文档标题、作者姓名、文档统计信息等值的系统或内置。
 * 用户定义或自定义，作为名称-值对提供，用户可以在其中定义名称和值。
 
-知道有关API和版本号的信息直接写入输出文档非常有用。 例如，将文档转换为PDF时，Aspose.Words用"Aspose.Words"填充"应用程序"字段，用"PDF生产者"字段用"Aspose.Words填充JavaYY。M.N"，其中*YY.M.N*是用于转换的Aspose.Words的版本。 有关更多详细信息，请参阅 [输出文档中包含的生成器或生产者名称](/words/java/generator-or-producer-name-included-in-output-documents/).
+知道有关API和版本号的信息直接写入输出文档非常有用。 例如，将文档转换为PDF时，Aspose.Words用"Aspose.Words"填充"应用程序"字段，用"PDF生产者"字段用"Aspose.Words填充JavaYY。M.N"，其中*YY.M.N*是用于转换的Aspose.Words的版本。 有关更多详细信息，请参阅 [输出文档中包含的生成器或生产者名称](/words/zh/java/generator-or-producer-name-included-in-output-documents/).
 
 {{% alert color="primary" %}}
 

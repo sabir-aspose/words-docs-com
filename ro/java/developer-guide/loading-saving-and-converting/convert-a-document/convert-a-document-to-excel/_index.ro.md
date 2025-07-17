@@ -1,4 +1,4 @@
----
+﻿---
 title: Convertiți Word în Excel în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Conversia unui Document în Excel
@@ -67,5 +67,5 @@ doc.save(getArtifactsDir() + "BaseConversions.CompressXlsx.xlsx", saveOptions);
 
 ## Vezi Și
 
-- Secțiunea Documentație [Protejarea sau criptarea unui Document](/words/java/protect-or-encrypt-a-document/) pentru mai multe informații despre protejarea și criptarea unui document
-- Articolul [Găsiți și înlocuiți](/words/java/find-and-replace/) pentru mai multe informații despre găsirea și înlocuirea conținutului dorit
+- Secțiunea Documentație [Protejarea sau criptarea unui Document](/words/ro/java/protect-or-encrypt-a-document/) pentru mai multe informații despre protejarea și criptarea unui document
+- Articolul [Găsiți și înlocuiți](/words/ro/java/find-and-replace/) pentru mai multe informații despre găsirea și înlocuirea conținutului dorit

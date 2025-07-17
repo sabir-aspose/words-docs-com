@@ -15,7 +15,7 @@ Właściwości dokumentu umożliwiają przechowywanie przydatnych informacji o d
 * System lub wbudowane, które zawierają wartości, takie jak tytuł dokumentu, nazwisko autora, statystyki dokumentu i inne.
 * Zdefiniowane przez użytkownika lub niestandardowe, dostarczane jako pary nazwa-wartość, w których użytkownik może zdefiniować zarówno nazwę, jak i wartość.
 
-Warto wiedzieć, że informacje o API i numerze wersji są zapisywane bezpośrednio w dokumentach wyjściowych. Na przykład po przekonwertowaniu dokumentu na PDF Aspose.Words wypełnia pole "aplikacja" za pomocą "Aspose.Words", A pole "PDF Producent" za pomocą "Aspose.Words dla C++ YY.M. N", gdzie *YY.M.N* jest wersją Aspose.Words używaną do konwersji. Aby uzyskać więcej informacji, zobacz [Nazwa generatora lub producenta zawarta w dokumentach wyjściowych](/words/cpp/generator-or-producer-name-included-in-output-documents/).
+Warto wiedzieć, że informacje o API i numerze wersji są zapisywane bezpośrednio w dokumentach wyjściowych. Na przykład po przekonwertowaniu dokumentu na PDF Aspose.Words wypełnia pole "aplikacja" za pomocą "Aspose.Words", A pole "PDF Producent" za pomocą "Aspose.Words dla C++ YY.M. N", gdzie *YY.M.N* jest wersją Aspose.Words używaną do konwersji. Aby uzyskać więcej informacji, zobacz [Nazwa generatora lub producenta zawarta w dokumentach wyjściowych](/words/pl/cpp/generator-or-producer-name-included-in-output-documents/).
 
 {{% alert color="primary" %}}
 

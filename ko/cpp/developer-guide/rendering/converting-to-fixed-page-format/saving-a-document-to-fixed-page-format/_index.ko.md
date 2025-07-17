@@ -1,4 +1,4 @@
----
+﻿---
 title: 고정 페이지 형식으로 저장 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 고정 페이지 형식으로 문서 저장
@@ -17,7 +17,7 @@ timestamp: 2024-09-24-14-35-44
 - 출력 문서에 포함된 페이지 수와 범위([PageIndex](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pageset/), [PageCount](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pageset/)).
 - 페이지별 문서 저장 진행률([PageSavingCallback](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pagesavingcallback/)).
 - 숫자 렌더링에 사용되는 문자 집합([NumeralFormat](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_numeralformat/)).
-- 메타 파일 플레이어([MetafileRenderingOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_metafilerenderingoptions/)). 자세한 내용은 [취급 Windows 메타파일](/words/cpp/handling-windows-metafiles/) 기사
+- 메타 파일 플레이어([MetafileRenderingOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_metafilerenderingoptions/)). 자세한 내용은 [취급 Windows 메타파일](/words/ko/cpp/handling-windows-metafiles/) 기사
 - 재압축을 위한 질 비율 JPEG 선택한 저장 형식에 따라 값이 약간 다를 수 있는 이미지([JpegQuality](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_jpegquality/)).
 - 벡터 그래픽 최적화 Aspose.Words 출력([OptimizeOutput](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_optimizeoutput/)).
 - 그래픽 옵션을 저장할 때 사용할 수 있습니다.[UseAntiAliasing](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_useantialiasing/), [UseHighQualityRendering](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_usehighqualityrendering/)).

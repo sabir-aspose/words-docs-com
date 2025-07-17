@@ -1,4 +1,4 @@
----
+﻿---
 title: Sisipkan Bidang dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Sisipkan Bidang
@@ -14,7 +14,7 @@ Ada beberapa cara berbeda untuk menyisipkan bidang ke dalam dokumen:
 
 - menggunakan [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/)
 - menggunakan [FieldBuilder](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldbuilder/)
-- menggunakan [Aspose.Words Model Objek Dokumen (DOM)](/words/cpp/aspose-words-document-object-model/)
+- menggunakan [Aspose.Words Model Objek Dokumen (DOM)](/words/id/cpp/aspose-words-document-object-model/)
 
 Pada artikel ini, kita akan melihat setiap cara secara lebih rinci dan menganalisis cara menyisipkan bidang tertentu menggunakan opsi ini.
 
@@ -64,7 +64,7 @@ Contoh kode berikut menunjukkan cara menyisipkan bidang ke dalam dokumen menggun
 
 ## Menyisipkan Kolom menggunakan DOM
 
-Anda juga dapat menyisipkan berbagai jenis bidang menggunakan [Aspose.Words Model Objek Dokumen (DOM)](/words/cpp/aspose-words-document-object-model/). Pada bagian ini, kita akan melihat beberapa contoh.
+Anda juga dapat menyisipkan berbagai jenis bidang menggunakan [Aspose.Words Model Objek Dokumen (DOM)](/words/id/cpp/aspose-words-document-object-model/). Pada bagian ini, kita akan melihat beberapa contoh.
 
 ### Menyisipkan Bidang Gabungan ke dalam Dokumen menggunakan DOM
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: 함께 작업 Markdown 기능 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 함께 작업 Markdown 특징
@@ -27,7 +27,7 @@ timestamp: 2024-01-31-14-23-37
 
 {{% alert color="primary" %}}
 
-번역의 뉘앙스가 있습니다 Markdown 에 Aspose.Words 문서 개체 모델(DOM),기사에서 설명 [번역 Markdown 객체 모델을 문서화하려면(DOM)](/words/cpp/translate-markdown-to-document-object-model/).
+번역의 뉘앙스가 있습니다 Markdown 에 Aspose.Words 문서 개체 모델(DOM),기사에서 설명 [번역 Markdown 객체 모델을 문서화하려면(DOM)](/words/ko/cpp/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

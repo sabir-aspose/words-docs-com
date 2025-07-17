@@ -36,7 +36,7 @@ Na het verkrijgen van een kopie van de repository, kunt u vinden dat:
 
 Als u de voorbeelden wilt uitvoeren, opent u het oplossingsbestand in Visual Studio en bouwt u het project op:
 
-- Voor **API Reference** voorbeelden is de structuur gebaseerd op klassenamen, voor **Docs** voorbeelden is het meestal gebaseerd op de [Ontwikkelaar Guiled](/words/cpp/developer-guide/) documentatie sectie.
+- Voor **API Reference** voorbeelden is de structuur gebaseerd op klassenamen, voor **Docs** voorbeelden is het meestal gebaseerd op de [Ontwikkelaar Guiled](/words/nl/cpp/developer-guide/) documentatie sectie.
 - Bij de eerste run worden de afhankelijkheden automatisch gedownload via NuGet.
 - De map **Data** in de hoofdmap van **Examples** bevat invoerbestanden die in de voorbeelden zijn gebruikt.
 - Alle voorbeelden kunnen als eenheidstests worden uitgevoerd.
@@ -68,7 +68,7 @@ De oplossing voor Visual Studio wordt gegenereerd in de `Examples\DocsExamples\b
 
 Als u de voorbeelden wilt uitvoeren, opent u het oplossingsbestand in Visual Studio en bouwt u het project op:
 
-- Voor **API Reference** voorbeelden is de structuur gebaseerd op klassenamen, voor **Docs** voorbeelden is het meestal gebaseerd op de [Ontwikkelaar Guiled](/words/cpp/developer-guide/) documentatie sectie.
+- Voor **API Reference** voorbeelden is de structuur gebaseerd op klassenamen, voor **Docs** voorbeelden is het meestal gebaseerd op de [Ontwikkelaar Guiled](/words/nl/cpp/developer-guide/) documentatie sectie.
 - De map **Data** in de hoofdmap van **Examples** bevat invoerbestanden die in de voorbeelden zijn gebruikt.
 - Alle voorbeelden kunnen als eenheidstests worden uitgevoerd.
 
@@ -99,7 +99,7 @@ cmake --build Examples/DocsExamples/build
 cmake -E chdir Examples/DocsExamples/build ctest --verbose
 {{< /highlight >}}
 
-- Voor **API Reference** voorbeelden is de structuur gebaseerd op klassenamen, voor **Docs** voorbeelden is het meestal gebaseerd op de [Ontwikkelaar Guiled](/words/cpp/developer-guide/) documentatie sectie.
+- Voor **API Reference** voorbeelden is de structuur gebaseerd op klassenamen, voor **Docs** voorbeelden is het meestal gebaseerd op de [Ontwikkelaar Guiled](/words/nl/cpp/developer-guide/) documentatie sectie.
 - De map **Data** in de hoofdmap van **Examples** bevat invoerbestanden die in de voorbeelden zijn gebruikt.
 - Alle voorbeelden kunnen als eenheidstests worden uitgevoerd.
 

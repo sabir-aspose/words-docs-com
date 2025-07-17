@@ -1,4 +1,4 @@
----
+﻿---
 title: Разделение документа на C++
 second_title: Aspose.Words для C++
 articleTitle: Разделение документа
@@ -67,7 +67,7 @@ Aspose.Words также позволяет использовать разрыв
 
 {{% alert color="primary" %}}
 
-Вы можете использовать любой [выходной формат, поддерживаемый Aspose.Words](/words/cpp/supported-document-formats/).
+Вы можете использовать любой [выходной формат, поддерживаемый Aspose.Words](/words/ru/cpp/supported-document-formats/).
 
 {{% /alert %}}
 

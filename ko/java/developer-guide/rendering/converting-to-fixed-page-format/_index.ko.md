@@ -75,7 +75,7 @@ Aspose.Words에서 사용자는 새 페이지 레이아웃을 빌드할지 또�
 - 출력 문서에 포함된 페이지 수와 범위([PageIndex](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/),[PageCount](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
 - 페이지별 문서 저장 진행률([PageSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
 - 숫자 렌더링에 사용되는 문자 집합([NumeralFormat](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
-- 메타파일 플레이어([MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/). 자세한 내용은 [Windows메타 파일 처리](/words/java/handling-windows-metafiles/) 기사
+- 메타파일 플레이어([MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/). 자세한 내용은 [Windows메타 파일 처리](/words/ko/java/handling-windows-metafiles/) 기사
 - 선택한 저장 형식([JpegQuality](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/)에 따라 값이 약간 다를 수 있는JPEG이미지를 다시 압축하기 위한 품질 속도입니다.
 - Aspose.Words출력([OptimizeOutput](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/))에서 벡터 그래픽의 최적화.
 - Tiff, Png, Bmp, Jpeg, Emf 형식([UseAntiAliasing](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/#getUseAntiAliasing), [UseHighQualityRendering](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/))으로 저장할 때의 그래픽 옵션.

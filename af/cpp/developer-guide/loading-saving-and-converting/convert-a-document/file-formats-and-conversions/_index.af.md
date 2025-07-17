@@ -1,4 +1,4 @@
----
+﻿---
 title: Lêerformate en Omskakelings
 second_title: Aspose.Words vir C++
 articleTitle: Hoekom Is Omskakeling die Vlagskip Kenmerk van Aspose.Words?
@@ -29,7 +29,7 @@ Die volgende kode voorbeeld toon hoe om'n dokument te omskep:
 
 {{< gist "aspose-words-gists" "b9784b73e288805e08fba6e3fc5ae2af" "docx-to-pdf.h" >}}
 
-Vir meer besonderhede oor die laai, omskakeling en stoor van dokumente, sien die [Laai, Stoor En Omskakeling](/words/cpp/loading-saving-and-converting/) afdeling.
+Vir meer besonderhede oor die laai, omskakeling en stoor van dokumente, sien die [Laai, Stoor En Omskakeling](/words/af/cpp/loading-saving-and-converting/) afdeling.
 
 ## Hoë Getrouheid
 

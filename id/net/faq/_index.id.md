@@ -1,4 +1,4 @@
----
+﻿---
 title: Pertanyaan Umum
 second_title: Aspose.Words untuk .NET
 articleTitle: Pertanyaan Umum – Aspose.Words untuk .NET
@@ -72,7 +72,7 @@ Anda juga dapat mencoba beberapa fitur Aspose.Words terpopuler melalui [Aplikasi
 
 Untuk membeli lisensi Aspose.Words, Anda perlu membuka halaman [Pembelian](https://purchase.aspose.com/buy), memilih produk "Aspose.Words" dan jenis lisensi yang sesuai untuk Anda. Kemudian tambahkan lisensi ke keranjang Anda dan ikuti instruksi Keranjang Belanja.
 
-Setelah membeli, ajukan lisensi seperti yang dijelaskan di bagian [Lisensi yang Dibeli](/words/net/licensing/#purchased-license).
+Setelah membeli, ajukan lisensi seperti yang dijelaskan di bagian [Lisensi yang Dibeli](/words/id/net/licensing/).
 
 Detail cara install Aspose.Words dapat dibaca di halaman [Instalasi](/words/id/net/installation/).
 
@@ -129,7 +129,7 @@ Ya, benar. Oleh karena itu, saat menyalin font, perlu diingat bahwa sebagian bes
 
 {{% alert color="primary" %}}
 
-Anda dapat menemukan informasi lebih detail tentang Mail Merge di bagian dokumentasi [Mail Merge dan Pelaporan](/words/net/mail-merge-and-reporting/).
+Anda dapat menemukan informasi lebih detail tentang Mail Merge di bagian dokumentasi [Mail Merge dan Pelaporan](/words/id/net/mail-merge-and-reporting/).
 
 {{% /alert %}}
 
@@ -153,7 +153,7 @@ Hal ini karena wilayah gabungan dalam templat tidak terbentuk dengan benar, yang
 Hal ini karena hubungan antara tabel induk dan anak tidak diatur atau tidak diatur dengan benar. Hal ini diperlukan untuk:
 
 * Pastikan integritas data dalam **DataSet** Anda dan gunakan objek **DataRelation** untuk mewakili hubungan induk-anak antara tabel data terkait.
-* Cek bagian "Cara Mengatur Relasi Data di Mail Merge Bersarang dengan Region" di artikel [Mail Merge Bersarang dengan Wilayah](/words/net/nested-mail-merge-with-regions/).
+* Cek bagian "Cara Mengatur Relasi Data di Mail Merge Bersarang dengan Region" di artikel [Mail Merge Bersarang dengan Wilayah](/words/id/net/nested-mail-merge-with-regions/).
 
 ------
 

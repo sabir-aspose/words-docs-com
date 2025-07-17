@@ -12,7 +12,7 @@ timestamp: 2024-01-27-14-07-04
 
 Un " Ciao, Mondo!"il codice è spesso il primo semplice esempio per scrivere uisng" Aspose.Words per Java", e può anche essere usato come test di sanità mentale per garantire che il software destinato a compilare o eseguire il codice sorgente sia installato correttamente.
 
-la libreria "Aspose.Words per Java " offre agli sviluppatori l'accesso diretto per creare, modificare, unire, convertire, confrontare documenti Word e Web. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML e molti altri formati di file sono [sostenere](/words/java/supported-document-formats/).
+la libreria "Aspose.Words per Java " offre agli sviluppatori l'accesso diretto per creare, modificare, unire, convertire, confrontare documenti Word e Web. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML e molti altri formati di file sono [sostenere](/words/it/java/supported-document-formats/).
 
 Be low code snippet segue questi passaggi:
 

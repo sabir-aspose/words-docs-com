@@ -14,13 +14,13 @@ Cette mise en route fournit une introduction aux principes fondamentaux de Aspos
 
 Pour en savoir plus sur Aspose.Words, sélectionnez la section appropriée:
 
-- [Montage](/words/java/installation/) - fournit des informations sur la façon d'installer Aspose.Words
-- [Bonjour le Monde](/words/java/hello-world/) - fournit des informations sur la façon de tester que le logiciel destiné à compiler ou exécuter le code source est correctement installé
-- [Formats de Document Pris En Charge](/words/java/supported-document-formats/) - fournit des informations sur les formats pris en charge
-- [Fonctions Prises En Charge](/words/java/features/) - fournit des informations sur les fonctionnalités prises en charge lors du chargement ou de l'enregistrement d'un document dans différents formats
+- [Montage](/words/fr/java/installation/) - fournit des informations sur la façon d'installer Aspose.Words
+- [Bonjour le Monde](/words/fr/java/hello-world/) - fournit des informations sur la façon de tester que le logiciel destiné à compiler ou exécuter le code source est correctement installé
+- [Formats de Document Pris En Charge](/words/fr/java/supported-document-formats/) - fournit des informations sur les formats pris en charge
+- [Fonctions Prises En Charge](/words/fr/java/features/) - fournit des informations sur les fonctionnalités prises en charge lors du chargement ou de l'enregistrement d'un document dans différents formats
 - [Plaques-Formes Prises en Charge](/words/java/platforms-and-interoperability/) - fournit des informations sur l'utilisation de Aspose.Words lors de la création d'applications pour d'autres plates-formes
-- [Licence et Abonnement](/words/java/licensing/) - fournit des informations sur l'application d'une licence et l'utilisation de plusieurs produits Aspose
+- [Licence et Abonnement](/words/fr/java/licensing/) - fournit des informations sur l'application d'une licence et l'utilisation de plusieurs produits Aspose
 - [Pourquoi Aspose.Words](/words/java/aspose-words-or-other-solutions/) - décrit les raisons pour lesquelles les composants Aspose sont bien meilleurs que Microsoft Office Automation
-- [Configuration Système Requise](/words/java/system-requirements/) - fournit des informations sur les exigences du système et de l'environnement de développement
-- [Notes de Sécurité](/words/java/security/) - décrit des notes et des conseils sur la façon d'éviter les problèmes de sécurité courants
-- [Comment exécuter les Exemples](/words/java/how-to-run-the-examples/) - décrit comment télécharger et exécuter les exemples et quelles exigences logicielles doivent être satisfaites
+- [Configuration Système Requise](/words/fr/java/system-requirements/) - fournit des informations sur les exigences du système et de l'environnement de développement
+- [Notes de Sécurité](/words/fr/java/security/) - décrit des notes et des conseils sur la façon d'éviter les problèmes de sécurité courants
+- [Comment exécuter les Exemples](/words/fr/java/how-to-run-the-examples/) - décrit comment télécharger et exécuter les exemples et quelles exigences logicielles doivent être satisfaites

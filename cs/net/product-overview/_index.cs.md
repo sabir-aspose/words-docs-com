@@ -1,4 +1,4 @@
----
+﻿---
 title: Přehled produktů
 second_title: Aspose.Words místo .NET
 articleTitle: Přehled produktů
@@ -56,7 +56,7 @@ Můžete převést celé dokumenty nebo konkrétní stránky do PDF nebo XPS gen
 
 #### Podávání zpráv
 
-Generovat dokumenty nebo zprávy od nuly nebo vyplněním šablon dat z datových zdrojů nebo obchodních objektů. Více informací o hlášení a získávání dat z databází naleznete v [Mail Merge a podávání zpráv](/words/net/mail-merge-and-reporting/) a [LINQ Vykazovací motor](/words/net/linq-reporting-engine/) sekce.
+Generovat dokumenty nebo zprávy od nuly nebo vyplněním šablon dat z datových zdrojů nebo obchodních objektů. Více informací o hlášení a získávání dat z databází naleznete v [Mail Merge a podávání zpráv](/words/cs/net/mail-merge-and-reporting/) a [LINQ Vykazovací motor](/words/net/linq-reporting-engine/) sekce.
 
 ### Nezávislost platformy
 

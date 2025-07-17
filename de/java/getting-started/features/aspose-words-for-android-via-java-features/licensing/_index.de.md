@@ -26,7 +26,7 @@ Die Testversion ist die gleiche wie die gekaufte – die Testversion wird einfac
 
 {{% alert color="primary" %}}
 
-Erfahren Sie mehr über die kostenlose Testversion oder temporäre Lizenz für Aspose.Words für Android über Java auf [die Lizenz- und Abonnementseite](/words/java/licensing/).
+Erfahren Sie mehr über die kostenlose Testversion oder temporäre Lizenz für Aspose.Words für Android über Java auf [die Lizenz- und Abonnementseite](/words/de/java/licensing/).
 
 {{% /alert %}}
 
@@ -71,7 +71,7 @@ Lizenzen können von verschiedenen Standorten aus angewendet werden:
 
 #### Laden der Lizenzdatei
 
-In Aspose.Words für Android über Java kann die Lizenz sein [eingebettet als Ressource](/words/java/licensing/), oder aus einem Stream geladen:
+In Aspose.Words für Android über Java kann die Lizenz sein [eingebettet als Ressource](/words/de/java/licensing/), oder aus einem Stream geladen:
 
 1. Legen Sie die Lizenzdatei an einem beliebigen Ort auf **/mnt/sdcard/** ab.
 1. Erstellen Sie einen Stream, der auf eine Datei verweist.

@@ -1,4 +1,4 @@
----
+﻿---
 title: Converter um documento em PDF Em C++
 second_title: Aspose.Words para C++
 articleTitle: Converter um documento em PDF
@@ -47,7 +47,7 @@ Observe que, com a mesma técnica, você pode converter qualquer documento no fo
 
 ### Converter para diferentes PDF Padrões {#converting-to-various-pdf-standards}
 
-Aspose.Words fornece a enumeração [PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) para suportar a conversão de DOC ou DOCX em vários padrões de formato PDF (Como PDF 1.7, PDF 1.5, etc.).
+Aspose.Words fornece a enumeração [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) para suportar a conversão de DOC ou DOCX em vários padrões de formato PDF (Como PDF 1.7, PDF 1.5, etc.).
 
 O exemplo de código a seguir demonstra como converter um documento para PDF 1.7 Usando [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) com conformidade para PDF17:
 
@@ -67,6 +67,6 @@ Para fazer este código funcionar, você precisa adicionar referências a Aspose
 
 ## Ver Também
 
-- O artigo [Renderização](/words/cpp/rendering/) para mais informações sobre os formatos de página fixa e de esquema de fluxo
-- O artigo [Conversão para o formato de página Fixa](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) para mais informações sobre o layout da página
-- O artigo [Especificar opções de renderização ao converter para PDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) para mais informações sobre a utilização da classe `PdfSaveOptions`
+- O artigo [Renderização](/words/pt/cpp/rendering/) para mais informações sobre os formatos de página fixa e de esquema de fluxo
+- O artigo [Conversão para o formato de página Fixa](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) para mais informações sobre o layout da página
+- O artigo [Especificar opções de renderização ao converter para PDF](/words/pt/cpp/specify-rendering-options-when-converting-to-pdf/) para mais informações sobre a utilização da classe `PdfSaveOptions`

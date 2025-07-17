@@ -1,4 +1,4 @@
----
+﻿---
 title: Thao tác và Thay thế các phông chữ TrueType
 second_title: Aspose.Words cho Java
 articleTitle: Thao tác và Thay thế các phông chữ TrueType
@@ -219,7 +219,7 @@ Chỉ sử dụng phông chữ Sans-style Noto với trọng lượng thường 
 
 ## Nơi nào Aspose.Words tìm kiếm kiểu chữ?
 
-Aspose.Words thử tìm các phông chữ truetype trong hệ thống tập tin một cách tự động. Thông thường, bạn có thể dựa vào hành vi mặc định của Aspose.Words để tìm các phông chữ `TrueType`, nhưng đôi khi bạn cần chỉ rõ thư mục chứa phông chữ TrueType. Chủ đề [Specify TrueType Fonts Location](/words/java/specify-truetype-fonts-location/) mô tả cách và nơi mà Aspose.Words tìm kiếm các phông chữ cũng như cách để chỉ định vị trí phông chữ của riêng bạn.
+Aspose.Words thử tìm các phông chữ truetype trong hệ thống tập tin một cách tự động. Thông thường, bạn có thể dựa vào hành vi mặc định của Aspose.Words để tìm các phông chữ `TrueType`, nhưng đôi khi bạn cần chỉ rõ thư mục chứa phông chữ TrueType. Chủ đề [Specify TrueType Fonts Location](/words/vi/java/specify-truetype-fonts-location/) mô tả cách và nơi mà Aspose.Words tìm kiếm các phông chữ cũng như cách để chỉ định vị trí phông chữ của riêng bạn.
 
 ## Sự khác nhau trong việc xử lý Định dạng Phông chữ ở Aspose.Words và Microsoft Word
 

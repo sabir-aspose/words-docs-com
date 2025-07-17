@@ -1,4 +1,4 @@
----
+﻿---
 title: Vytvořit čárový kód v Java
 second_title: Aspose.Words pro Java
 articleTitle: Generovat vlastní obrázek čárového kódu
@@ -55,7 +55,7 @@ Můžete také uložit dokument s naloženým nebo nově vloženým čárovým k
 
 {{% alert color="primary" %}}
 
-Pro další informace o převodu dokumentů z jednoho formátu do druhého se podívejte na dokumentaci sekce [Convert a Document](/words/java/convert-a-document/).
+Pro další informace o převodu dokumentů z jednoho formátu do druhého se podívejte na dokumentaci sekce [Convert a Document](/words/cs/java/convert-a-document/).
 
 {{% /alert %}}
 

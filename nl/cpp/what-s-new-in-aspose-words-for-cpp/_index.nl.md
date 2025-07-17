@@ -420,7 +420,7 @@ De functie om hyperlinks te herkennen bij het laden van TXT documenten is geïmp
 
 {{% alert color="primary" %}}
 
-Lees meer over [Aspose.Words voor C++ 23.9 Release Notes](/words/cpp/aspose-words-for-cpp-23-9-release-notes/).
+Lees meer over [Aspose.Words voor C++ 23.9 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-9-release-notes/).
 Lees meer over [Aspose.Words voor C++ 23.10 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-10-release-notes/).
 Lees meer over [Aspose.Words voor C++ 23.11 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-11-release-notes/).
 Lees meer over [Aspose.Words voor C++ 23.12 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-12-release-notes/).
@@ -431,6 +431,6 @@ Lees meer over [Aspose.Words voor C++ 23.12 Release Notes](https://releases.aspo
 
 {{% alert color="primary" %}}
 
-Deze pagina bevat het laatste release nieuws van de afgelopen 2 jaar. Voor meer informatie over eerdere releases, zie de [Release Notes'](/words/cpp/release-notes/) pagina ' s in de relevante secties.
+Deze pagina bevat het laatste release nieuws van de afgelopen 2 jaar. Voor meer informatie over eerdere releases, zie de [Release Notes'](https://releases.aspose.com/words/cpp/release-notes/) pagina ' s in de relevante secties.
 
 {{% /alert %}}

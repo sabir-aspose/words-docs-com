@@ -1,4 +1,4 @@
----
+﻿---
 title: Comment Créer un Code-barres
 second_title: Aspose.Words pour .NET
 articleTitle: Générer une image de code-barres personnalisée
@@ -55,7 +55,7 @@ Vous pouvez également enregistrer le document avec le code à barres chargé ou
 
 {{% alert color="primary" %}}
 
-Pour plus d'informations sur la conversion de documents à partir d'un format vers un autre, voir [Convert a Document](/words/net/convert-a-document/) la section.
+Pour plus d'informations sur la conversion de documents à partir d'un format vers un autre, voir [Convert a Document](/words/fr/net/convert-a-document/) la section.
 
 {{% /alert %}}
 

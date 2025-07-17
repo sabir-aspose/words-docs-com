@@ -10,7 +10,7 @@ url: /it/java/supported-features-on-document-load/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words consente agli utenti di lavorare con documenti in vari formati e fornisce una vasta gamma di opzioni per questo. Ad esempio, gli utenti possono creare un documento da zero o caricare un file esistente in qualsiasi [formato di importazione supportato](/words/java/supported-document-formats/), apporti alcune modifiche a quel documento e poi salvi il risultato. Quando si importa un documento nel formato selezionato, l'utente può applicare varie opzioni di caricamento.
+Aspose.Words consente agli utenti di lavorare con documenti in vari formati e fornisce una vasta gamma di opzioni per questo. Ad esempio, gli utenti possono creare un documento da zero o caricare un file esistente in qualsiasi [formato di importazione supportato](/words/it/java/supported-document-formats/), apporti alcune modifiche a quel documento e poi salvi il risultato. Quando si importa un documento nel formato selezionato, l'utente può applicare varie opzioni di caricamento.
 
 {{% alert color="primary" %}}
 

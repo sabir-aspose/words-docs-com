@@ -1,4 +1,4 @@
----
+﻿---
 title: Características
 second_title: Aspose.Words para C++
 articleTitle: Funciones Compatibles
@@ -37,7 +37,7 @@ Aspose.Words proporciona a los usuarios una amplia gama de funciones. Los usuari
 
 ## Limitaciones
 
-- Admite un conjunto limitado de formatos de archivo (*see [Supported Document Formats](/words/cpp/supported-document-formats/) for details*)
+- Admite un conjunto limitado de formatos de archivo (*see [Supported Document Formats](/words/es/cpp/supported-document-formats/) for details*)
 - No hay soporte para documentos cifrados
 - No hay soporte para descargar recursos remotos de Internet
 - Soporte limitado e inestable para funciones de renderizado

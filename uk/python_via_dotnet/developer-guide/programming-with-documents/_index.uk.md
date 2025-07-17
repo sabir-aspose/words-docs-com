@@ -1,4 +1,4 @@
----
+﻿---
 title: Програмування документів
 second_title: Aspose.Words для Python via .NET
 articleTitle: Програмування документів
@@ -51,11 +51,11 @@ timestamp: 2024-09-25-11-08-55
 - [Робота з OfficeMath](/words/uk/python-net/working-with-officemath/)
 - [Робота з Смарт Мистецтво холодної рендерингу](/words/uk/python-net/working-with-smartart-cold-rendering/)
 - [Робота з водяним знаком](/words/uk/python-net/working-with-watermark/)
-- [Робота з об'єктами та Інтернет-відео](/words/python-net/working-with-ole-objects/)
+- [Робота з об'єктами та Інтернет-відео](/words/uk/python-net/working-with-ole-objects/)
 - [Робота з полями](/words/uk/python-net/working-with-fields/)
 - [Робота з полями форм](/words/uk/python-net/working-with-form-fields/)
 - [Робота з управління контентом SDT](/words/uk/python-net/working-with-content-control-sdt/)
 - [Робота з символами управління](/words/uk/python-net/working-with-control-characters/)
 - [Робота з VBA Macros](/words/uk/python-net/working-with-vba-macros/)
 - [Робота з Markdown Особливості](/words/uk/python-net/working-with-markdown-features/)
-- [Робота з документами](/words/python-net/working-with-text-document/)
+- [Робота з документами](/words/uk/python-net/working-with-text-document/)

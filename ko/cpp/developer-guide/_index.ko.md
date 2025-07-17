@@ -1,4 +1,4 @@
----
+﻿---
 title: 개발자 가이드 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 개발자 가이드
@@ -14,9 +14,9 @@ timestamp: 2024-09-25-11-08-55
 
 에 대한 자세한 내용을 보려면 Aspose.Words 특징은,대응 단면도를 선정합니다:
 
-- [로드,저장 및 변환](/words/cpp/loading-saving-and-converting/) -문서를 한 형식에서 다른 형식으로 변환하는 데 유용한 문서 및 형식 별 기능을로드하거나 저장하는 다양한 방법에 대한 정보를 제공합니다.
-- [렌더링](/words/cpp/rendering/) -흐름 레이아웃 페이지 형식의 문서에서 페이지 매김 표현을 얻는 방법에 대한 정보를 제공합니다.
-- [Mail Merge 그리고 보고](/words/cpp/mail-merge-and-reporting/) -다음과 같은 템플릿에서 보고서,카탈로그,재고 및 송장과 같은 문서 생성에 대한 정보를 제공합니다. Mail Merge 필드.
-- [문서 프로그래밍](/words/cpp/programming-with-documents/) -콘텐츠 및 시각적 모양 변경을 포함하여 문서를 프로그래밍 방식으로 생성,수정 및 관리하는 방법에 대한 정보를 제공합니다.
+- [로드,저장 및 변환](/words/ko/cpp/loading-saving-and-converting/) -문서를 한 형식에서 다른 형식으로 변환하는 데 유용한 문서 및 형식 별 기능을로드하거나 저장하는 다양한 방법에 대한 정보를 제공합니다.
+- [렌더링](/words/ko/cpp/rendering/) -흐름 레이아웃 페이지 형식의 문서에서 페이지 매김 표현을 얻는 방법에 대한 정보를 제공합니다.
+- [Mail Merge 그리고 보고](/words/ko/cpp/mail-merge-and-reporting/) -다음과 같은 템플릿에서 보고서,카탈로그,재고 및 송장과 같은 문서 생성에 대한 정보를 제공합니다. Mail Merge 필드.
+- [문서 프로그래밍](/words/ko/cpp/programming-with-documents/) -콘텐츠 및 시각적 모양 변경을 포함하여 문서를 프로그래밍 방식으로 생성,수정 및 관리하는 방법에 대한 정보를 제공합니다.
 
 클래스,메서드 및 속성에 대한 자세한 설명은 다음을 참조하십시오 Aspose.Words 에 대한 C++ API Reference 부문

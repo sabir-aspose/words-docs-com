@@ -123,7 +123,7 @@ Aspose.Wordsは、[InsertHtml](https://reference.aspose.com/words/java/com.aspos
 
 {{% /alert %}}
 
-データソースからの各レコードで動的に成長するドキュメント内のテーブルを作成する場合は、上記の方法はお勧めしません。 代わりに、領域でMail mergeを使用すると、目的の出力がより簡単に達成されます。 この技術についての詳細を学ぶことができます [地域を持つMail Merge](/words/java/types-of-mail-merge-operations/) セクション。
+データソースからの各レコードで動的に成長するドキュメント内のテーブルを作成する場合は、上記の方法はお勧めしません。 代わりに、領域でMail mergeを使用すると、目的の出力がより簡単に達成されます。 この技術についての詳細を学ぶことができます [地域を持つMail Merge](/words/ja/java/types-of-mail-merge-operations/) セクション。
 
 ## テーブルを作成する方法を比較する
 

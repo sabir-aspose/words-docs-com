@@ -1,4 +1,4 @@
----
+﻿---
 title: Verdeel'n Dokument in C++
 second_title: Aspose.Words vir C++
 articleTitle: Verdeel'n Dokument
@@ -67,7 +67,7 @@ Hierdie afdeling beskryf verskeie gebruiksgevalle van die verdeling van dokument
 
 {{% alert color="primary" %}}
 
-Jy kan enige [uitvoer formaat ondersteun deur Aspose.Words](/words/cpp/supported-document-formats/).
+Jy kan enige [uitvoer formaat ondersteun deur Aspose.Words](/words/af/cpp/supported-document-formats/).
 
 {{% /alert %}}
 

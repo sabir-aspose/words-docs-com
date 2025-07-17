@@ -15,7 +15,7 @@ timestamp: 2024-01-31-14-23-37
 * 文書のタイトル、作成者名、文書の統計情報などの値を含むシステムまたは組み込み。
 * ユーザーが名前と値の両方を定義できる名前と値のペアとして提供されます。
 
-APIとバージョン番号に関する情報が出力文書に直接書き込まれることを知っておくと便利です。 たとえば、ドキュメントをPDFに変換すると、Aspose.Wordsは"Application"フィールドに"Aspose.Words"を入力し、"PDFProducer"フィールドに"Aspose.WordsforJavaYYを入力します。ここで、*YY.M.N*は変換に使用されるAspose.Wordsのバージョンです。 詳細については、以下を参照してください [出力文書に含まれるジェネレータ名またはプロデューサー名](/words/java/generator-or-producer-name-included-in-output-documents/).
+APIとバージョン番号に関する情報が出力文書に直接書き込まれることを知っておくと便利です。 たとえば、ドキュメントをPDFに変換すると、Aspose.Wordsは"Application"フィールドに"Aspose.Words"を入力し、"PDFProducer"フィールドに"Aspose.WordsforJavaYYを入力します。ここで、*YY.M.N*は変換に使用されるAspose.Wordsのバージョンです。 詳細については、以下を参照してください [出力文書に含まれるジェネレータ名またはプロデューサー名](/words/ja/java/generator-or-producer-name-included-in-output-documents/).
 
 {{% alert color="primary" %}}
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Kenmerke
 second_title: Aspose.Words vir C++
 articleTitle: Ondersteunde Funksies
@@ -37,7 +37,7 @@ Aspose.Words bied gebruikers'n wye verskeidenheid funksies. Gebruikers kan'n gro
 
 ## Beperkings
 
-- Ondersteun beperkte stel lêerformate (*see [Supported Document Formats](/words/cpp/supported-document-formats/) for details*)
+- Ondersteun beperkte stel lêerformate (*see [Supported Document Formats](/words/af/cpp/supported-document-formats/) for details*)
 - Geen ondersteuning vir geënkripteerde dokumente nie
 - Geen ondersteuning vir die aflaai van afgeleë hulpbronne Van Die Internet
 - Beperkte en onstabiele ondersteuning vir Die Lewering van funksies

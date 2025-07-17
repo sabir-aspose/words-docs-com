@@ -1,4 +1,4 @@
----
+﻿---
 title: 用C++转换文档
 second_title: Aspose.Words对于C++
 articleTitle: 转换文档
@@ -30,7 +30,7 @@ timestamp: 2024-09-25-11-08-55
 
 ## 流行转换{#popular-conversions}
 
-当前部分描述了流行的转换，以及在加载和保存时使用某些格式组合的想法。 使用本节的示例，您可以理解转换过程本身是相当普遍的，并且描述所有可能的选项是没有意义的，因为由于大量的 [支持的格式 Aspose.Words对于C++](/words/cpp/supported-document-formats/).
+当前部分描述了流行的转换，以及在加载和保存时使用某些格式组合的想法。 使用本节的示例，您可以理解转换过程本身是相当普遍的，并且描述所有可能的选项是没有意义的，因为由于大量的 [支持的格式 Aspose.Words对于C++](/words/zh/cpp/supported-document-formats/).
 
 {{% alert color="primary" %}}
 

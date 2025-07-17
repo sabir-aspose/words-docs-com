@@ -47,7 +47,7 @@ DOC또는DOCX문서 형식에서Aspose.Words의PDF형식으로 변환하는 것�
 
 ### 다른PDF표준 {#converting-to-various-pdf-standards}으로 변환
 
-Aspose.Words는 DOC 또는 DOCX을 다양한 PDF 형식 표준(예: PDF 1.7, PDF 1.5 등)으로 변환하는 것을 지원하기 위해 [PdfCompliace](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)열거형을 제공합니다.
+Aspose.Words는 DOC 또는 DOCX을 다양한 PDF 형식 표준(예: PDF 1.7, PDF 1.5 등)으로 변환하는 것을 지원하기 위해 [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)열거형을 제공합니다.
 
 다음 코드 예제에서는PDF17를 준수하여[PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/)을 사용하여 문서를PDF1.7로 변환하는 방법을 보여 줍니다:
 
@@ -81,6 +81,6 @@ PDF에 저장할 때 출력을 최적화할지 여부를 지정할 수 있습니
 
 ## 또한 참조
 
-- 기사 [렌더링](/words/java/rendering/) 고정 페이지 및 플로우 레이아웃 형식에 대한 자세한 내용은
-- 기사 [고정 페이지 형식으로 변환](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) 페이지 레이아웃에 대한 자세한 내용은
-- 기사 [PDF로 변환할 때 렌더링 옵션 지정](/words/java/specify-rendering-options-when-converting-to-pdf/) `PdfSaveOptions`클래스 사용에 대한 자세한 내용은
+- 기사 [렌더링](/words/ko/java/rendering/) 고정 페이지 및 플로우 레이아웃 형식에 대한 자세한 내용은
+- 기사 [고정 페이지 형식으로 변환](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) 페이지 레이아웃에 대한 자세한 내용은
+- 기사 [PDF로 변환할 때 렌더링 옵션 지정](/words/ko/java/specify-rendering-options-when-converting-to-pdf/) `PdfSaveOptions`클래스 사용에 대한 자세한 내용은

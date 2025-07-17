@@ -1,4 +1,4 @@
----
+﻿---
 title: AI-betriebene Funktionen
 second_title: Aspose.Words für Java
 articleTitle: AI-betriebene Funktionen
@@ -16,7 +16,7 @@ Aspose.Words enthält jetzt AI-basierte Funktionen, die die Dokumentenverarbeitu
 
 In diesem Abschnitt behandeln wir alles, was Sie über die Verwendung der unterstützten AI -Funktionen in Aspose.Words wissen müssen. Von praktischen Tipps bis hin zu detaillierten Anweisungen möchten wir Ihnen helfen, diese Verbesserungen optimal zu nutzen.
 
-* [Unterstützte AI Modelle](/words/java/supported-ai-models/)
-* [Ein Dokument zusammenfassen](/words/java/summarize-a-document/)
-* [Ein Dokument übersetzen](/words/java/translate-a-document/)
-* [Grammatikprüfung](/words/java/grammar-checking/)
+* [Unterstützte AI Modelle](/words/de/java/supported-ai-models/)
+* [Ein Dokument zusammenfassen](/words/de/java/summarize-a-document/)
+* [Ein Dokument übersetzen](/words/de/java/translate-a-document/)
+* [Grammatikprüfung](/words/de/java/grammar-checking/)

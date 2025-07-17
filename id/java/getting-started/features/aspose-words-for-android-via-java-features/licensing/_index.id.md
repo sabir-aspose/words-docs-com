@@ -26,7 +26,7 @@ Versi evaluasi sama dengan yang dibeli-versi Uji Coba menjadi berlisensi saat An
 
 {{% alert color="primary" %}}
 
-Pelajari detail selengkapnya tentang Uji Coba Gratis atau Lisensi Sementara untuk Aspose.Words untuk Android melalui Java di [halaman Lisensi dan Pendaftaran](/words/java/licensing/).
+Pelajari detail selengkapnya tentang Uji Coba Gratis atau Lisensi Sementara untuk Aspose.Words untuk Android melalui Java di [halaman Lisensi dan Pendaftaran](/words/id/java/licensing/).
 
 {{% /alert %}}
 
@@ -71,7 +71,7 @@ Lisensi dapat diterapkan dari berbagai lokasi:
 
 #### Memuat file Lisensi
 
-Dalam Aspose.Words untuk Android melalui Java, lisensinya dapat berupa [terhubung sebagai sumber daya](/words/java/licensing/), atau dimuat dari aliran:
+Dalam Aspose.Words untuk Android melalui Java, lisensinya dapat berupa [terhubung sebagai sumber daya](/words/id/java/licensing/), atau dimuat dari aliran:
 
 1. Letakkan file lisensi di lokasi mana pun di **/mnt/sdcard/**.
 1. Buat aliran yang mereferensikan file.

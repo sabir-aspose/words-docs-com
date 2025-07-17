@@ -21,7 +21,7 @@ Všimněte si, že písmo v dokumentu představuje entitu, například příjmen
 
 ## Kde Aspose.Words hledá písma
 
-Aspose.Words se pokusí najít TrueType písma v systému souborů automaticky. Při hledání písem `TrueType` se obvykle můžete spolehnout na výchozí chování Aspose.Words, ale někdy musíte zadat vlastní složky obsahující PÍSMA TrueType. V [Zadejte TrueType Umístění Písem](/words/cpp/specify-truetype-fonts-location/) téma popisuje, jak a kde Aspose.Words hledá písma, a také Jak určit vlastní umístění písem.
+Aspose.Words se pokusí najít TrueType písma v systému souborů automaticky. Při hledání písem `TrueType` se obvykle můžete spolehnout na výchozí chování Aspose.Words, ale někdy musíte zadat vlastní složky obsahující PÍSMA TrueType. V [Zadejte TrueType Umístění Písem](/words/cs/cpp/specify-truetype-fonts-location/) téma popisuje, jak a kde Aspose.Words hledá písma, a také Jak určit vlastní umístění písem.
 
 ## Rozdíly ve zpracování formátů písem v Aspose.Words a Microsoft Word
 

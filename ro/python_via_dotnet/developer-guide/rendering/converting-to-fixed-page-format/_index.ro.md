@@ -1,4 +1,4 @@
----
+﻿---
 title: Conversia în format de pagină fixă
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Conversia în format de pagină fixă
@@ -74,7 +74,7 @@ După ce aspectul paginii este construit și geometria obiectelor și poziția l
 
 - Numărul și gama de pagini conținute în documentul de ieșire ([page_set](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/page_set/)).
 - Un set de caractere care sunt utilizate pentru numere de redare ([numeral_format](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/numeral_format/)).
-- Un jucător metafișier ([metafile_rendering_options](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/metafile_rendering_options/)). Pentru mai multe detalii, consultați [Manipularea Windows Metafile](/words/python-net/handling-windows-metafiles/) articolul.
+- Un jucător metafișier ([metafile_rendering_options](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/metafile_rendering_options/)). Pentru mai multe detalii, consultați [Manipularea Windows Metafile](/words/ro/python-net/handling-windows-metafiles/) articolul.
 - O rată de calitate pentru recomprimarea imaginilor JPEG, a căror valoare poate diferi ușor, în funcție de formatul de salvare selectat ([jpeg_quality](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/jpeg_quality/)).
 - Optimizarea graficelor vectoriale în Aspose.Words Ieșire ([optimize_output](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/optimize_output/)).
 - Opțiuni grafice la salvarea în formate Tiff, Png, Bmp, Jpeg, Emf ([use_anti_aliasing](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/use_anti_aliasing/), [use_high_quality_rendering](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/use_high_quality_rendering/)).

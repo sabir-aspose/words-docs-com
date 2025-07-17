@@ -12,7 +12,7 @@ timestamp: 2024-01-27-14-07-04
 
 Un " Bonjour, monde!"le code est souvent le premier exemple simple à écrire en utilisant" Aspose.Words pour Java", et il peut également être utilisé comme test de santé mentale pour s'assurer que le logiciel destiné à compiler ou exécuter le code source est correctement installé.
 
-La bibliothèque "Aspose.Words pour Java " donne aux développeurs un accès direct pour créer, modifier, fusionner, convertir, comparer des documents Word et Web. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML et de nombreux autres formats de fichiers sont [soutenu](/words/java/supported-document-formats/).
+La bibliothèque "Aspose.Words pour Java " donne aux développeurs un accès direct pour créer, modifier, fusionner, convertir, comparer des documents Word et Web. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML et de nombreux autres formats de fichiers sont [soutenu](/words/fr/java/supported-document-formats/).
 
 L'extrait Below code suit ces étapes:
 

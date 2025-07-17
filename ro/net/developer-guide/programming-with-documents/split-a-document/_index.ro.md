@@ -1,4 +1,4 @@
----
+﻿---
 title: Split a Document in C#
 second_title: Aspose.Words pentru .NET
 articleTitle: Împărțiți un document
@@ -85,7 +85,7 @@ Această secţiune descrie mai multe cazuri de utilizare pentru împărţirea do
 
 {{% alert color="primary" %}}
 
-Puteți folosi orice [output format supported by Aspose.Words](/words/net/supported-document-formats/).
+Puteți folosi orice [output format supported by Aspose.Words](/words/ro/net/supported-document-formats/).
 
 {{% /alert %}}
 

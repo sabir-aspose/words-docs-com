@@ -1,4 +1,4 @@
----
+﻿---
 title: Tổng Quan Về Bảng
 second_title: Aspose.Words cho C++
 articleTitle: Tổng Quan Về Bảng
@@ -65,5 +65,5 @@ Trong Aspose.Words, tất cả các lớp và thuộc tính liên quan đến b�
 
 ## Xem Thêm
 
-* [Aspose.Words Mô Hình Đối Tượng Tài Liệu (DOM)](/words/cpp/aspose-words-document-object-model/)
-* [Mức độ logic Của Các Nút trong Một Tài liệu](/words/cpp/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Mô Hình Đối Tượng Tài Liệu (DOM)](/words/vi/cpp/aspose-words-document-object-model/)
+* [Mức độ logic Của Các Nút trong Một Tài liệu](/words/vi/cpp/logical-levels-of-nodes-in-a-document/)

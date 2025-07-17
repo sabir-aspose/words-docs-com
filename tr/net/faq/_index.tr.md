@@ -1,4 +1,4 @@
----
+﻿---
 title: SSS
 second_title: .NET için Aspose.Words
 articleTitle: SSS – .NET için Aspose.Words
@@ -72,7 +72,7 @@ Daha fazla bilgi için [Lisanslama ve Abonelik](/words/tr/net/licensing/) sayfas
 
 Aspose.Words lisansı satın almak için [Satın almak](https://purchase.aspose.com/buy) sayfasına gitmeniz, "Aspose.Words" ürününü ve size uygun lisans türünü seçmeniz gerekmektedir. Daha sonra lisansı sepetinize ekleyin ve Alışveriş Sepeti talimatlarını takip edin.
 
-Satın aldıktan sonra [Satın Alınan Lisans](/words/net/licensing/#purchased-license) bölümünde açıklandığı gibi lisans başvurusunda bulunun.
+Satın aldıktan sonra [Satın Alınan Lisans](/words/tr/net/licensing/) bölümünde açıklandığı gibi lisans başvurusunda bulunun.
 
 Aspose.Words'in nasıl kurulacağına ilişkin ayrıntılar [Kurulum](/words/tr/net/installation/) sayfasında okunabilir.
 
@@ -129,7 +129,7 @@ Evet yaparsın. Bu nedenle yazı tiplerini kopyalarken çoğu yazı tipinin teli
 
 {{% alert color="primary" %}}
 
-mail merge hakkında daha detaylı bilgiyi [Mail Merge ve Raporlama](/words/net/mail-merge-and-reporting/) dokümantasyon bölümünde bulabilirsiniz.
+mail merge hakkında daha detaylı bilgiyi [Mail Merge ve Raporlama](/words/tr/net/mail-merge-and-reporting/) dokümantasyon bölümünde bulabilirsiniz.
 
 {{% /alert %}}
 
@@ -153,7 +153,7 @@ Bunun nedeni, şablondaki birleştirme bölgelerinin doğru şekilde oluşturulm
 Bunun nedeni, ebeveyn ve çocuk tabloları arasındaki ilişkinin kurulmamış olması veya yanlış ayarlanmış olmasıdır. İçin gerekli:
 
 * **DataSet**'inizde veri bütünlüğünü sağlayın ve ilgili veri tabloları arasındaki ebeveyn-çocuk ilişkisini temsil etmek için **DataRelation** nesnesini kullanın.
-* [Bölgelerle İç İçe Mail Merge](/words/net/nested-mail-merge-with-regions/) makalesindeki "İç İçe Mail Merge'te Bölgelerle Veri İlişkileri Nasıl Kurulur" bölümüne bakın.
+* [Bölgelerle İç İçe Mail Merge](/words/tr/net/nested-mail-merge-with-regions/) makalesindeki "İç İçe Mail Merge'te Bölgelerle Veri İlişkileri Nasıl Kurulur" bölümüne bakın.
 
 ------
 

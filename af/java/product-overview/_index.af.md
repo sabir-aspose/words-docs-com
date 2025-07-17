@@ -1,4 +1,4 @@
----
+﻿---
 title: Produk Oorsig
 second_title: Aspose.Words vir Java
 articleTitle: Produk Oorsig
@@ -18,7 +18,7 @@ Aspose.Words is'n kruis-platform klas biblioteek wat jou aansoek in staat stel o
 
 Met behulp van Aspose.Words kan jy dokumente skep, verander, omskep, weergee en druk sonder om op derdeparty-toepassings soos Microsoft Word of Office Automation te vertrou.
 
-Dit is opmerklik dat u'n dokument van enige ondersteunde laai formaat kan omskakel na enige ondersteunde stoor formaat, byvoorbeeld Microsoft Word formate na PDF, HTML, of Markdown, HTML na DOCX, ensovoorts. Lees meer oor die omskakeling van dokumente in die [Skakel'n Dokument om](/words/java/convert-a-document/) afdeling.
+Dit is opmerklik dat u'n dokument van enige ondersteunde laai formaat kan omskakel na enige ondersteunde stoor formaat, byvoorbeeld Microsoft Word formate na PDF, HTML, of Markdown, HTML na DOCX, ensovoorts. Lees meer oor die omskakeling van dokumente in die [Skakel'n Dokument om](/words/af/java/convert-a-document/) afdeling.
 
 Nog'n gewilde opsie van ons biblioteek is *Reports and Mails*. Ons gebruikers genereer hoogs komplekse individueel aangepaste finansiële, mediese en ander *Reports*. Sodoende lyk die gegenereerde dokument asof u die verslag handmatig geskep het met behulp van'n gewone teksredigeerder. Nog'n opsie, *Mail*, bied die vermoë om baie vinnig duisende en miljoene eenvoudige maar steeds persoonlike sjabloongebaseerde dokumente te genereer.
 
@@ -46,21 +46,21 @@ Aspose.Words vir Java kenmerke kan in vier hoofareas verdeel word.
 
 Die vermoë om dokumente maklik en betroubaar om te skakel is een van die belangrikste kenmerke van Aspose.Words.
 
-Omvattende [dokument invoer en uitvoer](/words/java/loading-saving-and-converting/) met [oor 35 ondersteunde lêerformate](/words/java/supported-document-formats/) laat gebruikers toe om dokumente van [one popular format](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) na [another](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) om te skakel, byvoorbeeld van DOCX na PDF, JPEG of Markdown.
+Omvattende [dokument invoer en uitvoer](/words/af/java/loading-saving-and-converting/) met [oor 35 ondersteunde lêerformate](/words/af/java/supported-document-formats/) laat gebruikers toe om dokumente van [one popular format](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) na [another](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) om te skakel, byvoorbeeld van DOCX na PDF, JPEG of Markdown.
 
 #### Dokument Objek Model (DOM)
 
-Programmatiese toegang deur'n ryk API tot alle dokumentelemente en formatering laat toe om dokumentinhoud te skep, te verander, te onttrek, te kopieer, te verdeel, aan te sluit en te vervang. Vind meer uit in die [Aspose.Words Dokument Voorwerp Model (DOM)](/words/java/aspose-words-document-object-model/) afdeling.
+Programmatiese toegang deur'n ryk API tot alle dokumentelemente en formatering laat toe om dokumentinhoud te skep, te verander, te onttrek, te kopieer, te verdeel, aan te sluit en te vervang. Vind meer uit in die [Aspose.Words Dokument Voorwerp Model (DOM)](/words/af/java/aspose-words-document-object-model/) afdeling.
 
 #### Lewering
 
-Ons gebruik die term [Vertoon in Aspose.Words](/words/java/rendering/) om die proses van die omskakeling van'n dokument in'n lêer formaat of'n medium, paginated of wat die konsep van bladsye het beskryf.
+Ons gebruik die term [Vertoon in Aspose.Words](/words/af/java/rendering/) om die proses van die omskakeling van'n dokument in'n lêer formaat of'n medium, paginated of wat die konsep van bladsye het beskryf.
 
 U kan hele dokumente of spesifieke bladsye omskakel na PDF of XPS om dokumente aan die bedienerkant te genereer, dit te druk of bladsye weer te gee. En dit alles met hoë getrouheid-presies soos Microsoft Word dit sou gedoen het.
 
 #### Verslagdoening
 
-Genereer dokumente of verslae van nuuts af of deur templates te vul met data van databronne of besigheidsvoorwerpe. Vir meer inligting oor verslagdoening en die haal van data uit databasisse, sien die [Mail Merge En Verslagdoening](/words/java/mail-merge-and-reporting/) en [LINQ Verslagdoeningsmotor](/words/java/linq-reporting-engine/) afdelings.
+Genereer dokumente of verslae van nuuts af of deur templates te vul met data van databronne of besigheidsvoorwerpe. Vir meer inligting oor verslagdoening en die haal van data uit databasisse, sien die [Mail Merge En Verslagdoening](/words/af/java/mail-merge-and-reporting/) en [LINQ Verslagdoeningsmotor](/words/java/linq-reporting-engine/) afdelings.
 
 ### Platform Onafhanklikheid
 
@@ -104,8 +104,8 @@ Ontwikkelaars wat voorheen Microsoft Word Outomatisering in hul projekte gebruik
 
 ## Pryse en Beleid
 
-Besoek asseblief die [Lisensie](/words/java/licensing/) bladsy vir inligting oor lisensies en hersien die [Prysinligting](https://purchase.aspose.com/pricing/words/family/) bladsy vir besonderhede oor pryse.
+Besoek asseblief die [Lisensie](/words/af/java/licensing/) bladsy vir inligting oor lisensies en hersien die [Prysinligting](https://purchase.aspose.com/pricing/words/family/) bladsy vir besonderhede oor pryse.
 
 ## Tegniese Ondersteuning
 
-Vir meer inligting oor Aspose.Words tegniese ondersteuning, kyk na die [Ondersteuning bladsy](/words/java/technical-support/).
+Vir meer inligting oor Aspose.Words tegniese ondersteuning, kyk na die [Ondersteuning bladsy](/words/af/java/technical-support/).

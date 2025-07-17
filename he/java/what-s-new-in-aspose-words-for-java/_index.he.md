@@ -470,7 +470,7 @@ Aspose.Words 23.12 מציג מאפיינים וספירות חדשים לעבו�
 
 {{% alert color="primary" %}}
 
-למידע נוסף על [Aspose.Words עבור Java 23.9 הערות שחרור](/words/java/aspose-words-for-java-23-9-release-notes/).
+למידע נוסף על [Aspose.Words עבור Java 23.9 הערות שחרור](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-9-release-notes/).
 
 למידע נוסף על [Aspose.Words עבור Java 23.10 הערות שחרור](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 

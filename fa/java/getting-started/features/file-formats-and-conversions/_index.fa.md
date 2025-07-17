@@ -29,7 +29,7 @@ timestamp: 2024-01-31-14-23-37
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "docx-to-pdf.java" >}}
 
-برای جزئیات بیشتر در مورد بارگذاری، تبدیل و ذخیره اسناد، به [بارگیری، ذخیره و تبدیل](/words/java/loading-saving-and-converting/) بخش.
+برای جزئیات بیشتر در مورد بارگذاری، تبدیل و ذخیره اسناد، به [بارگیری، ذخیره و تبدیل](/words/fa/java/loading-saving-and-converting/) بخش.
 
 ## وفاداری بالا
 

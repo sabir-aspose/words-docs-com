@@ -61,5 +61,5 @@ doc->Save(ArtifactsDir + u"BaseConversions.CompressXlsx.xlsx", saveOptions);
 
 ## Zie Ook
 
-- Sectie documentatie [Een Document beveiligen of versleutelen](/words/cpp/protect-or-encrypt-a-document/) voor meer informatie over het beveiligen en versleutelen van een document
-- Artikel [Zoeken en vervangen](/words/cpp/find-and-replace/) meer informatie over het vinden en vervangen van de gewenste inhoud
+- Sectie documentatie [Een Document beveiligen of versleutelen](/words/nl/cpp/protect-or-encrypt-a-document/) voor meer informatie over het beveiligen en versleutelen van een document
+- Artikel [Zoeken en vervangen](/words/nl/cpp/find-and-replace/) meer informatie over het vinden en vervangen van de gewenste inhoud

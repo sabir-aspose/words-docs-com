@@ -1,4 +1,4 @@
----
+﻿---
 title: Özellikler
 second_title: Aspose.Words için C++
 articleTitle: Desteklenen Özellikler
@@ -37,7 +37,7 @@ Aspose.Words kullanıcılara çok çeşitli özellikler sunar. Kullanıcılar, b
 
 ## Sınırlamalar
 
-- Sınırlı sayıda dosya formatını destekler (*see [Supported Document Formats](/words/cpp/supported-document-formats/) for details*)
+- Sınırlı sayıda dosya formatını destekler (*see [Supported Document Formats](/words/tr/cpp/supported-document-formats/) for details*)
 - Şifrelenmiş belgeler için destek yok
 - Internet'ten uzak kaynakları indirmek için destek yok
 - Oluşturma özellikleri için sınırlı ve kararsız destek

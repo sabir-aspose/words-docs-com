@@ -1,4 +1,4 @@
----
+﻿---
 title: Conversión a Formato de página fija en C++
 second_title: Aspose.Words para C++
 articleTitle: Conversión a Formato de página fija
@@ -28,7 +28,7 @@ Microsoft Word es la aplicación de edición de texto más avanzada en Windows e
 
 ## Véase También
 
-* [Qué Es un Diseño de Página](/words/cpp/what-is-a-page-layout/)
-* [Crear un Diseño de Página](/words/cpp/creating-a-page-layout/)
-* [Guardar un documento en Formato de página fija](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Especificar Opciones de Diseño](/words/cpp/specify-layout-options/)
+* [Qué Es un Diseño de Página](/words/es/cpp/what-is-a-page-layout/)
+* [Crear un Diseño de Página](/words/es/cpp/creating-a-page-layout/)
+* [Guardar un documento en Formato de página fija](/words/es/cpp/saving-a-document-to-fixed-page-format/)
+* [Especificar Opciones de Diseño](/words/es/cpp/specify-layout-options/)

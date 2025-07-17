@@ -1,4 +1,4 @@
----
+﻿---
 title: Wat Is'n Bladsy Uitleg in C++
 second_title: Aspose.Words vir C++
 articleTitle: Wat is'n Bladsy Uitleg
@@ -20,6 +20,6 @@ Die verhouding tussen'n dokument en'n bladsy-uitleg is redelik eenvoudig. Terwyl
 
 ## Sien Ook
 
-* [Skep'n Bladsyuitleg](/words/cpp/creating-a-page-layout/)
-* [Stoor'n Dokument Na Vaste bladsy Formaat](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Spesifiseer Uitleg Opsies](/words/cpp/specify-layout-options/)
+* [Skep'n Bladsyuitleg](/words/af/cpp/creating-a-page-layout/)
+* [Stoor'n Dokument Na Vaste bladsy Formaat](/words/af/cpp/saving-a-document-to-fixed-page-format/)
+* [Spesifiseer Uitleg Opsies](/words/af/cpp/specify-layout-options/)

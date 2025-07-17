@@ -75,7 +75,7 @@ Aspose.Words ينفذ وظيفة تخطيط الصفحة داخليا مما ي�
 - عدد ونطاق الصفحات الواردة في مستند الإخراج ([PageIndex](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/)، [PageCount](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
 - تقدم حفظ المستندات صفحة بصفحة ([PageSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
 - مجموعة من الأحرف التي تستخدم لتقديم الأرقام ([NumeralFormat](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
-- لاعب ميتافيل ([MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/). لمزيد من التفاصيل، راجع [المناولة Windows ملفات التعريف](/words/java/handling-windows-metafiles/) المادة.
+- لاعب ميتافيل ([MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/). لمزيد من التفاصيل، راجع [المناولة Windows ملفات التعريف](/words/ar/java/handling-windows-metafiles/) المادة.
 - معدل جودة لإعادة ضغط JPEG الصور، قد تختلف قيمتها قليلا، اعتمادا على تنسيق الحفظ المحدد ([JpegQuality](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/).
 - تحسين الرسومات المتجهة في إخراج Aspose.Words ([OptimizeOutput](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
 - خيارات الرسومات عند حفظ إلى تيف، ينغ، بمب، جبيغ، إمف الأشكال ([UseAntiAliasing](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/#getUseAntiAliasing)، [UseHighQualityRendering](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).

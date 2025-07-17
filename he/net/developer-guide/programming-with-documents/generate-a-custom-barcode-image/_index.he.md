@@ -1,4 +1,4 @@
----
+﻿---
 title: איך ליצור ברקוד
 second_title: Aspose.Words עבור .NET
 articleTitle: הפעל יצירת תמונת ברקוד מותאמת אישית
@@ -55,7 +55,7 @@ Aspose.Words יש ממשק ליצירת ברקודים מותאמים אישית
 
 {{% alert color="primary" %}}
 
-למידע נוסף על המרת מסמכים מפורמט אחד לאחר, ראה את [Convert a Document](/words/net/convert-a-document/) מסמך.
+למידע נוסף על המרת מסמכים מפורמט אחד לאחר, ראה את [Convert a Document](/words/he/net/convert-a-document/) מסמך.
 
 {{% /alert %}}
 

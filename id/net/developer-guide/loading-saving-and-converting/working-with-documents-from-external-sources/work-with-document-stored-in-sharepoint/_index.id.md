@@ -1,4 +1,4 @@
----
+﻿---
 title: Bekerja dengan Dokumen yang Disimpan di SharePoint Online
 second_title: Aspose.Words untuk .NET
 articleTitle: Bekerja dengan Dokumen yang Disimpan di SharePoint Online
@@ -267,5 +267,5 @@ Akibatnya, file "TestDoc.pdf" harus ditempatkan di folder "Dokumen Bersama" di s
 ## Lihat juga
 
 - Artikel [Render](/words/id/net/rendering/) untuk informasi lebih lanjut tentang format halaman tetap dan tata letak alur
-- Artikel [Mengonversi ke Format Halaman Tetap](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) untuk informasi lebih lanjut tentang tata letak halaman
+- Artikel [Mengonversi ke Format Halaman Tetap](/words/id/net/converting-to-fixed-page-format/#what-is-a-page-layout) untuk informasi lebih lanjut tentang tata letak halaman
 - Artikel [Tentukan Opsi Rendering Saat Mengonversi ke PDF](/words/id/net/specify-rendering-options-when-converting-to-pdf/) untuk informasi lebih lanjut tentang penggunaan kelas [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/)

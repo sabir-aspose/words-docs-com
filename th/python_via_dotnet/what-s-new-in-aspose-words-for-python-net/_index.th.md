@@ -546,13 +546,13 @@ Aspose.Words23.8ขยายความสามารถของรูปแ�
 
 {{% alert color="primary" %}}
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 23.5บันทึกย่อ](/words/python-net/aspose-words-for-python-via-dotnet-23-5-release-notes/).
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 23.5บันทึกย่อ](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-5-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 23.6บันทึกย่อ](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 23.6บันทึกย่อ](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
 เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 23.7บันทึกย่อ](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 23.8บันทึกย่อ](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับPython via .NET 23.8บันทึกย่อ](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
 {{% /alert %}}
 

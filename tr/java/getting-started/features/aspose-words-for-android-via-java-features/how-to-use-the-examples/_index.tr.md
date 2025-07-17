@@ -1,4 +1,4 @@
----
+﻿---
 title: Örneklerin nasıl kullanılacağı
 second_title: Aspose.Words için Java
 articleTitle: Örneklerin nasıl kullanılacağı
@@ -12,6 +12,6 @@ timestamp: 2024-01-27-14-07-04
 
 Öncelikle, ADT paketinin yüklü olduğundan ve en son sürümünü [Aspose.Words for Android via Java](https://releases.aspose.com/words/androidjava/) 'dan indirip ayıkladığınızdan emin olun.
 
-- Aspose.Words 'i yükle Android, Java talimatları izleyerek [here](/words/java/installation/)
+- Aspose.Words 'i yükle Android, Java talimatları izleyerek [here](/words/tr/java/installation/)
 - Projenizi çalışma alanınızda Eclipse kullanarak açın.
 - Tıklayın **Run** başlatmak ve uygun emülatörü paket çalıştırmak için seçin.

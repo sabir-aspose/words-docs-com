@@ -14,13 +14,13 @@ Esta introdução fornece uma introdução aos fundamentos Aspose.Words. Para us
 
 Para saber mais sobre Aspose.Words, selecione a secção apropriada:
 
-- [Instalaa](/words/java/installation/) - fornece informações sobre como instalar Aspose.Words
-- [Hello World](/words/java/hello-world/) - fornece informações sobre como testar se o software destinado a compilar ou executar o código-fonte está instalado correctamente
-- [Formatos De Documentos Suportados](/words/java/supported-document-formats/) - fornece informações sobre os formatos suportados
-- [Recursos Apoiados](/words/java/features/) - fornece informações sobre quais recursos são suportados ao carregar ou salvar um documento em vários formatos
+- [Instalaa](/words/pt/java/installation/) - fornece informações sobre como instalar Aspose.Words
+- [Hello World](/words/pt/java/hello-world/) - fornece informações sobre como testar se o software destinado a compilar ou executar o código-fonte está instalado correctamente
+- [Formatos De Documentos Suportados](/words/pt/java/supported-document-formats/) - fornece informações sobre os formatos suportados
+- [Recursos Apoiados](/words/pt/java/features/) - fornece informações sobre quais recursos são suportados ao carregar ou salvar um documento em vários formatos
 - [Plataformas Suportadas](/words/java/platforms-and-interoperability/) - fornece informações sobre a utilização de Aspose.Words na criação de aplicações para outras plataformas
-- [Licenciamento e subscri](/words/java/licensing/) - fornece informações sobre a aplicação de uma licença e a utilização de vários produtos Aspose
+- [Licenciamento e subscri](/words/pt/java/licensing/) - fornece informações sobre a aplicação de uma licença e a utilização de vários produtos Aspose
 - [Porqu7 Aspose.Words](/words/java/aspose-words-or-other-solutions/) - descreve as razões pelas quais os componentes Aspose são muito melhores do que Microsoft Office Automation
-- [Requisitos Do Sistema](/words/java/system-requirements/) - fornece informações sobre os requisitos do sistema e do ambiente de desenvolvimento
-- [Notas De Seguran](/words/java/security/) - descreve notas e dicas sobre como evitar problemas de segurança comuns
-- [Como executar os exemplos](/words/java/how-to-run-the-examples/) - descreve como transferir e executar os exemplos e quais os requisitos de software que devem ser cumpridos
+- [Requisitos Do Sistema](/words/pt/java/system-requirements/) - fornece informações sobre os requisitos do sistema e do ambiente de desenvolvimento
+- [Notas De Seguran](/words/pt/java/security/) - descreve notas e dicas sobre como evitar problemas de segurança comuns
+- [Como executar os exemplos](/words/pt/java/how-to-run-the-examples/) - descreve como transferir e executar os exemplos e quais os requisitos de software que devem ser cumpridos

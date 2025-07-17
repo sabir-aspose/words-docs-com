@@ -1,4 +1,4 @@
----
+﻿---
 title: Cos'è un layout di pagina in C++
 second_title: Aspose.Words per C++
 articleTitle: Cos'è un layout di pagina
@@ -20,6 +20,6 @@ La relazione tra un documento e un layout di pagina è abbastanza semplice. Ment
 
 ## Vedi anche
 
-* [Creazione di un layout di pagina](/words/cpp/creating-a-page-layout/)
-* [Salvataggio di un documento in formato a pagina fissa](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Specificare le opzioni di layout](/words/cpp/specify-layout-options/)
+* [Creazione di un layout di pagina](/words/it/cpp/creating-a-page-layout/)
+* [Salvataggio di un documento in formato a pagina fissa](/words/it/cpp/saving-a-document-to-fixed-page-format/)
+* [Specificare le opzioni di layout](/words/it/cpp/specify-layout-options/)

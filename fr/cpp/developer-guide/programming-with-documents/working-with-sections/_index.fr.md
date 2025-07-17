@@ -1,4 +1,4 @@
----
+﻿---
 title: Travailler avec des sections en C++
 second_title: Aspose.Words pour C++
 articleTitle: Travailler avec des Sections
@@ -38,7 +38,7 @@ Vous pouvez également utiliser l'énumération [SectionStart](https://reference
 
 ## Gérer une Section
 
-Puisqu'une section est un nœud composite normal, toute l'API de manipulation de nœud peut être utilisée pour manipuler des sections: pour ajouter, supprimer et d'autres opérations sur des sections. Vous pouvez en savoir plus sur les nœuds dans l'article [Aspose.Words Modèle d'objet de document (DOM)](/words/cpp/aspose-words-document-object-model/).
+Puisqu'une section est un nœud composite normal, toute l'API de manipulation de nœud peut être utilisée pour manipuler des sections: pour ajouter, supprimer et d'autres opérations sur des sections. Vous pouvez en savoir plus sur les nœuds dans l'article [Aspose.Words Modèle d'objet de document (DOM)](/words/fr/cpp/aspose-words-document-object-model/).
 
 D'autre part, vous pouvez également utiliser l'API `DocumentBuilder` pour travailler avec des sections. Dans cet article, nous allons nous concentrer sur cette façon particulière de travailler avec les sections.
 
@@ -154,5 +154,5 @@ L'exemple de code suivant montre comment modifier les propriétés de la page da
 
 ## Voir Aussi
 
-- [Niveaux logiques des nœuds dans un document](/words/cpp/logical-levels-of-nodes-in-a-document/)
-- [Insérer et ajouter des documents](/words/cpp/insert-and-append-documents/)
+- [Niveaux logiques des nœuds dans un document](/words/fr/cpp/logical-levels-of-nodes-in-a-document/)
+- [Insérer et ajouter des documents](/words/fr/cpp/insert-and-append-documents/)

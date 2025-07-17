@@ -1,4 +1,4 @@
----
+﻿---
 title: Convertiți Word în Excel în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Conversia unui Document în Excel
@@ -76,5 +76,5 @@ doc.save(ARTIFACTS_DIR + "BaseConversions.CompressXlsx.xlsx", saveOptions)
 
 ## Vezi Și
 
-- Secțiunea Documentație [Protejarea sau criptarea unui Document](/words/python-net/protect-or-encrypt-a-document/) pentru mai multe informații despre protejarea și criptarea unui document
-- Articolul [Găsiți și înlocuiți](/words/python-net/find-and-replace/) pentru mai multe informații despre găsirea și înlocuirea conținutului dorit
+- Secțiunea Documentație [Protejarea sau criptarea unui Document](/words/ro/python-net/protect-or-encrypt-a-document/) pentru mai multe informații despre protejarea și criptarea unui document
+- Articolul [Găsiți și înlocuiți](/words/ro/python-net/find-and-replace/) pentru mai multe informații despre găsirea și înlocuirea conținutului dorit

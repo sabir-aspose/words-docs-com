@@ -1,4 +1,4 @@
----
+﻿---
 title: 表の概要
 second_title: C++の場合Aspose.Words
 articleTitle: 表の概要
@@ -65,5 +65,5 @@ Aspose.Wordsでは、テーブルに関連するすべてのクラスとプロ�
 
 ## また見て下さい
 
-* [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/cpp/aspose-words-document-object-model/)
-* [ドキュメント内のノードの論理レベル](/words/cpp/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/ja/cpp/aspose-words-document-object-model/)
+* [ドキュメント内のノードの論理レベル](/words/ja/cpp/logical-levels-of-nodes-in-a-document/)

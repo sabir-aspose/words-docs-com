@@ -1,4 +1,4 @@
----
+﻿---
 title: Как создать штрих-код
 second_title: Aspose.Words для .NET
 articleTitle: Создать пользовательский штрих-код
@@ -55,7 +55,7 @@ Aspose.Words имеет интерфейс для создания индиви�
 
 {{% alert color="primary" %}}
 
-Больше информации о преобразовании документов с одного формата на другой см. в [Convert a Document](/words/net/convert-a-document/)-й документации раздела.
+Больше информации о преобразовании документов с одного формата на другой см. в [Convert a Document](/words/ru/net/convert-a-document/)-й документации раздела.
 
 {{% /alert %}}
 

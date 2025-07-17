@@ -1,4 +1,4 @@
----
+﻿---
 title: แยกเอกสารเป็นC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: แยกเอกสาร
@@ -67,7 +67,7 @@ Aspose.Wordsยังช่วยให้คุณสามารถใช้�
 
 {{% alert color="primary" %}}
 
-คุณสามารถใช้ใดๆ [รูปแบบการส่งออกที่รองรับโดยAspose.Words](/words/cpp/supported-document-formats/).
+คุณสามารถใช้ใดๆ [รูปแบบการส่งออกที่รองรับโดยAspose.Words](/words/th/cpp/supported-document-formats/).
 
 {{% /alert %}}
 

@@ -14,7 +14,7 @@ Er zijn verschillende manieren om velden in een document in te voegen:
 
 - [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/)gebruiken
 - [FieldBuilder](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldbuilder/)gebruiken
-- behulp [Aspose.Words Document Object Model (DOM)](/words/cpp/aspose-words-document-object-model/)
+- behulp [Aspose.Words Document Object Model (DOM)](/words/nl/cpp/aspose-words-document-object-model/)
 
 In dit artikel zullen we elke manier in meer detail bekijken en analyseren hoe u bepaalde velden invoegt met behulp van deze opties.
 
@@ -64,7 +64,7 @@ Het volgende codevoorbeeld laat zien hoe u een veld invoegt in een document met 
 
 ## Velden invoegen met DOM
 
-U kunt ook verschillende typen Velden invoegen met behulp van [Aspose.Words Document Object Model (DOM)](/words/cpp/aspose-words-document-object-model/). In deze sectie zullen we een paar voorbeelden bekijken.
+U kunt ook verschillende typen Velden invoegen met behulp van [Aspose.Words Document Object Model (DOM)](/words/nl/cpp/aspose-words-document-object-model/). In deze sectie zullen we een paar voorbeelden bekijken.
 
 ### Het Samenvoegveld invoegen in een Document met behulp van DOM
 

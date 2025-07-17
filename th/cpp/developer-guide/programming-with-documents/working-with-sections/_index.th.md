@@ -1,4 +1,4 @@
----
+﻿---
 title: การทำงานกับส่วนในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: การทำงานกับส่วน
@@ -38,7 +38,7 @@ Aspose.Wordsช่วยให้คุณสามารถแยกและ�
 
 ## จัดการส่วน
 
-เนื่องจากส่วนคือโหนดคอมโพสิตปกติการจัดการโหนดทั้งหมดAPIสามารถใช้เพื่อจัดการส่วน:เพิ่ คุณสามารถอ่านเพิ่มเติมเกี่ยวกับโหนดในบทความ [Aspose.Wordsรูปแบบวัตถุเอกสาร(DOM)](/words/cpp/aspose-words-document-object-model/).
+เนื่องจากส่วนคือโหนดคอมโพสิตปกติการจัดการโหนดทั้งหมดAPIสามารถใช้เพื่อจัดการส่วน:เพิ่ คุณสามารถอ่านเพิ่มเติมเกี่ยวกับโหนดในบทความ [Aspose.Wordsรูปแบบวัตถุเอกสาร(DOM)](/words/th/cpp/aspose-words-document-object-model/).
 
 ในทางกลับกันคุณยังสามารถใช้`DocumentBuilder`APIเพื่อทำงานกับส่วนต่างๆได้ ในบทความนี้เราจะมุ่งเน้นไปที่วิธีนี้โดยเฉพาะอย่างยิ่งของการทำงานกับส่วน.
 
@@ -154,5 +154,5 @@ Aspose.Wordsอนุญาตให้คุณปรับแต่งคุ�
 
 ## ดูเพิ่มเติม
 
-- [ระดับตรรกะของโหนดในเอกสาร](/words/cpp/logical-levels-of-nodes-in-a-document/)
-- [แทรกและผนวกเอกสาร](/words/cpp/insert-and-append-documents/)
+- [ระดับตรรกะของโหนดในเอกสาร](/words/th/cpp/logical-levels-of-nodes-in-a-document/)
+- [แทรกและผนวกเอกสาร](/words/th/cpp/insert-and-append-documents/)

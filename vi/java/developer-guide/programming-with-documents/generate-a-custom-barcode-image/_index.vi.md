@@ -1,4 +1,4 @@
----
+﻿---
 title: Tạo mã vạch trong Java
 second_title: Aspose.Words cho Java
 articleTitle: Tạo một hình mã vạch tùy chỉnh
@@ -55,7 +55,7 @@ Bạn cũng có thể lưu tài liệu với mã vạch đã tải hoặc đã c
 
 {{% alert color="primary" %}}
 
-Để biết thêm chi tiết về việc chuyển đổi các tài liệu từ một định dạng sang định dạng khác, hãy xem [Convert a Document](/words/java/convert-a-document/) phần tài liệu.
+Để biết thêm chi tiết về việc chuyển đổi các tài liệu từ một định dạng sang định dạng khác, hãy xem [Convert a Document](/words/vi/java/convert-a-document/) phần tài liệu.
 
 {{% /alert %}}
 

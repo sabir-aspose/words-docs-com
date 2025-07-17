@@ -1,4 +1,4 @@
----
+﻿---
 title: よくある質問
 second_title: .NET用Aspose.Words
 articleTitle: FAQ – .NET 用 Aspose.Words
@@ -72,7 +72,7 @@ Aspose.Words for .NET は、DOC、DOCX、HTML、Markdown、PDF、XML などの�
 
 Aspose.Words ライセンスを購入するには、[購入](https://purchase.aspose.com/buy) ページに移動し、「Aspose.Words」製品と適切なライセンスの種類を選択する必要があります。次に、ライセンスをカートに追加し、ショッピング カートの指示に従います。
 
-購入後、[購入したライセンス](/words/net/licensing/#purchased-license) セクションの説明に従ってライセンスを申請します。
+購入後、[購入したライセンス](/words/ja/net/licensing/) セクションの説明に従ってライセンスを申請します。
 
 Aspose.Words のインストール方法の詳細については、[インストール](/words/ja/net/installation/) ページを参照してください。
 
@@ -129,7 +129,7 @@ Aspose.Words のインストール方法の詳細については、[インスト
 
 {{% alert color="primary" %}}
 
-mail merge の詳細については、[Mail Merge とレポート](/words/net/mail-merge-and-reporting/) ドキュメント セクションを参照してください。
+mail merge の詳細については、[Mail Merge とレポート](/words/ja/net/mail-merge-and-reporting/) ドキュメント セクションを参照してください。
 
 {{% /alert %}}
 
@@ -153,7 +153,7 @@ mail merge の詳細については、[Mail Merge とレポート](/words/net/ma
 これは、親テーブルと子テーブル間の関係が設定されていないか、正しく設定されていないためです。それはする必要があります：
 
 * **DataSet** 内のデータの整合性を確保し、**DataRelation** オブジェクトを使用して関連するデータ テーブル間の親子関係を表します。
-* 記事[リージョンを含むネストされた Mail Merge](/words/net/nested-mail-merge-with-regions/)の「ネストされたMail Mergeでリージョンを使用してデータ関係を設定する方法」セクションを確認してください。
+* 記事[リージョンを含むネストされた Mail Merge](/words/ja/net/nested-mail-merge-with-regions/)の「ネストされたMail Mergeでリージョンを使用してデータ関係を設定する方法」セクションを確認してください。
 
 ------
 

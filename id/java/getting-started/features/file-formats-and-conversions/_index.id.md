@@ -29,7 +29,7 @@ Contoh kode berikut menunjukkan cara mengonversi dokumen:
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "docx-to-pdf.java" >}}
 
-Untuk detail selengkapnya tentang memuat, mengonversi, dan menyimpan dokumen, lihat [Memahami, Memahami, dan Memahami](/words/java/loading-saving-and-converting/) bagian.
+Untuk detail selengkapnya tentang memuat, mengonversi, dan menyimpan dokumen, lihat [Memahami, Memahami, dan Memahami](/words/id/java/loading-saving-and-converting/) bagian.
 
 ## Kesetiaan yang Tinggi
 

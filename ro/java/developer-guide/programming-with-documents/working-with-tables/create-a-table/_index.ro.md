@@ -1,4 +1,4 @@
----
+﻿---
 title: Cum se creează un tabel în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Creați un tabel
@@ -123,7 +123,7 @@ Puteți descărca fișierul eșantion al acestui exemplu din [Aspose.Words GitHu
 
 {{% /alert %}}
 
-Dacă vă uitați la crearea de tabele într-un document care cresc dinamic cu fiecare înregistrare din sursa de date, atunci metoda de mai sus nu este recomandată. În schimb, rezultatul dorit este mai ușor de obținut prin utilizarea Mail merge cu regiuni. Puteți afla mai multe despre această tehnică în [Mail Merge cu regiuni](/words/java/types-of-mail-merge-operations/) secțiunea.
+Dacă vă uitați la crearea de tabele într-un document care cresc dinamic cu fiecare înregistrare din sursa de date, atunci metoda de mai sus nu este recomandată. În schimb, rezultatul dorit este mai ușor de obținut prin utilizarea Mail merge cu regiuni. Puteți afla mai multe despre această tehnică în [Mail Merge cu regiuni](/words/ro/java/types-of-mail-merge-operations/) secțiunea.
 
 ## Comparați modalitățile de a crea un tabel
 

@@ -37,7 +37,7 @@ Aspose.Words poskytuje uživatelům širokou škálu funkcí. Uživatelé mohou 
 
 ## Ustanovení
 
-- Podporuje omezenou sadu formátů souborů (*see [Supported Document Formats](/words/cpp/supported-document-formats/) for details*)
+- Podporuje omezenou sadu formátů souborů (*see [Supported Document Formats](/words/cs/cpp/supported-document-formats/) for details*)
 - Žádná podpora šifrovaných dokumentů
 - Žádná podpora pro stahování vzdálených zdrojů z Internetu
 - Omezená a nestabilní Podpora funkcí Vykreslování

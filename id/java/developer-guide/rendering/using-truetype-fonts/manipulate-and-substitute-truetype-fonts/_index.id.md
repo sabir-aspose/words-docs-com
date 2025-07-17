@@ -219,7 +219,7 @@ Hanya font Noto Sans style dengan bobot reguler yang digunakan dalam pengaturan 
 
 ## Dimana Aspose.Words Mencari Font
 
-Aspose.Words mencoba menemukan TrueType font pada sistem file secara otomatis. Biasanya, Anda dapat mengandalkan perilaku default Aspose.Words untuk menemukan font `TrueType`, tetapi terkadang Anda perlu menentukan folder Anda sendiri yang berisi font TrueType. The [Tentang Lokasi Font TrueType](/words/java/specify-truetype-fonts-location/) topik menjelaskan bagaimana dan di mana Aspose.Words mencari font, serta cara menentukan lokasi font Anda sendiri.
+Aspose.Words mencoba menemukan TrueType font pada sistem file secara otomatis. Biasanya, Anda dapat mengandalkan perilaku default Aspose.Words untuk menemukan font `TrueType`, tetapi terkadang Anda perlu menentukan folder Anda sendiri yang berisi font TrueType. The [Tentang Lokasi Font TrueType](/words/id/java/specify-truetype-fonts-location/) topik menjelaskan bagaimana dan di mana Aspose.Words mencari font, serta cara menentukan lokasi font Anda sendiri.
 
 ## Perbedaan Pemrosesan Format Font dalam Aspose.Words dan Microsoft Word
 

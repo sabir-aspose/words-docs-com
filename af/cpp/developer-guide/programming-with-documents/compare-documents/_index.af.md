@@ -1,4 +1,4 @@
----
+﻿---
 title: Vergelyk Dokumente in C++
 second_title: Aspose.Words vir C++
 articleTitle: Vergelyk Dokumente
@@ -36,7 +36,7 @@ Die algemene beperking vir twee dokumente wat vergelyk word, is dat hulle nie he
 
 {{% alert color="primary" %}}
 
-Let daarop dat jy enige twee dokumente binne die [ondersteunde lêerformate](/words/cpp/supported-document-formats/). Jy kan dokumentvoorwerpe vergelyk en selfs jy kan daardie voorwerpe van nuuts af skep sonder om enige spesifieke formaat te hê.
+Let daarop dat jy enige twee dokumente binne die [ondersteunde lêerformate](/words/af/cpp/supported-document-formats/). Jy kan dokumentvoorwerpe vergelyk en selfs jy kan daardie voorwerpe van nuuts af skep sonder om enige spesifieke formaat te hê.
 
 {{% /alert %}}
 

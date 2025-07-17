@@ -29,7 +29,7 @@ Sie können diese Funktionalität mit unserem ausprobieren [Kostenloser Online K
 
 ## Beliebte Konvertierungen {#popular-conversions}
 
-Der aktuelle Abschnitt beschreibt gängige Konvertierungen sowie Ideen zum Arbeiten mit einigen Formatkombinationen beim Laden und Speichern. Anhand der Beispiele in diesem Abschnitt können Sie verstehen, dass der Konvertierungsprozess selbst ziemlich universell ist und es keinen Sinn macht, alle möglichen Optionen zu beschreiben, da es aufgrund der großen Anzahl von Optionen mehrere hundert davon gibt [von Aspose.Words für Java unterstützte Formate](/words/java/supported-document-formats/).
+Der aktuelle Abschnitt beschreibt gängige Konvertierungen sowie Ideen zum Arbeiten mit einigen Formatkombinationen beim Laden und Speichern. Anhand der Beispiele in diesem Abschnitt können Sie verstehen, dass der Konvertierungsprozess selbst ziemlich universell ist und es keinen Sinn macht, alle möglichen Optionen zu beschreiben, da es aufgrund der großen Anzahl von Optionen mehrere hundert davon gibt [von Aspose.Words für Java unterstützte Formate](/words/de/java/supported-document-formats/).
 
 {{% alert color="primary" %}}
 

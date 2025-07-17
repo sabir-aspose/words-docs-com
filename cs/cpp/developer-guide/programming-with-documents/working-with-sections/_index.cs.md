@@ -38,7 +38,7 @@ Můžete také použít výčet [SectionStart](https://reference.aspose.com/word
 
 ## Správa sekce
 
-Protože sekce je normální složený uzel, lze k manipulaci se sekcemi použít celou manipulaci s uzlem API: Přidat, Odebrat a další operace v sekcích. Více o uzlech si můžete přečíst v článku [Aspose.Words Model Objektu Dokumentu (DOM)](/words/cpp/aspose-words-document-object-model/).
+Protože sekce je normální složený uzel, lze k manipulaci se sekcemi použít celou manipulaci s uzlem API: Přidat, Odebrat a další operace v sekcích. Více o uzlech si můžete přečíst v článku [Aspose.Words Model Objektu Dokumentu (DOM)](/words/cs/cpp/aspose-words-document-object-model/).
 
 Na druhou stranu můžete také použít `DocumentBuilder` API pro práci se sekcemi. V tomto článku se zaměříme na tento konkrétní způsob práce se sekcemi.
 
@@ -154,5 +154,5 @@ Následující příklad kódu ukazuje, jak upravit vlastnosti stránky ve všec
 
 ## Vidět
 
-- [Logické úrovně uzlů v dokumentu](/words/cpp/logical-levels-of-nodes-in-a-document/)
-- [Vkládání a připojování dokumentů](/words/cpp/insert-and-append-documents/)
+- [Logické úrovně uzlů v dokumentu](/words/cs/cpp/logical-levels-of-nodes-in-a-document/)
+- [Vkládání a připojování dokumentů](/words/cs/cpp/insert-and-append-documents/)

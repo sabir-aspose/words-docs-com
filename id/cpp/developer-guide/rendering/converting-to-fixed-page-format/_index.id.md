@@ -1,4 +1,4 @@
----
+﻿---
 title: Mengonversi ke Format halaman Tetap di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Mengonversi ke Format halaman Tetap
@@ -28,7 +28,7 @@ Microsoft Word adalah aplikasi pengeditan teks tercanggih di Windows saat ini. I
 
 ## Lihat Juga
 
-* [Apa itu Tata Letak Halaman](/words/cpp/what-is-a-page-layout/)
-* [Membuat Tata Letak Halaman](/words/cpp/creating-a-page-layout/)
-* [Menyimpan Dokumen ke Format halaman Tetap](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Tentukan Opsi Tata Letak](/words/cpp/specify-layout-options/)
+* [Apa itu Tata Letak Halaman](/words/id/cpp/what-is-a-page-layout/)
+* [Membuat Tata Letak Halaman](/words/id/cpp/creating-a-page-layout/)
+* [Menyimpan Dokumen ke Format halaman Tetap](/words/id/cpp/saving-a-document-to-fixed-page-format/)
+* [Tentukan Opsi Tata Letak](/words/id/cpp/specify-layout-options/)

@@ -1,4 +1,4 @@
----
+﻿---
 title: Omskakeling Na Vaste bladsy Formaat in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Omskakeling Na Vaste bladsy Formaat
@@ -75,7 +75,7 @@ Nadat die bladsy uitleg gebou is en die meetkunde van voorwerpe en hul posisie o
 - Die aantal en omvang van bladsye vervat in die uitset dokument ([PageCount](https://reference.aspose.com/words/net/aspose.words/document/pagecount/)).
 - Vordering van bladsy-vir-bladsy dokument stoor ([PageSavingCallback](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/)).
 - 'n stel karakters wat gebruik word om getalle te vertoon ([NumeralFormat](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/numeralformat/)).
-- 'n meta-lêer speler ([MetafileRenderingOptions](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/)). Vir meer besonderhede, sien die [Hantering Windows Meta Lêers](/words/net/handling-windows-metafiles/) artikel.
+- 'n meta-lêer speler ([MetafileRenderingOptions](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/)). Vir meer besonderhede, sien die [Hantering Windows Meta Lêers](/words/af/net/handling-windows-metafiles/) artikel.
 - 'n kwaliteitskoers vir die herkomprimering van JPEG beelde, waarvan die waarde effens kan verskil, afhangende van die geselekteerde stoorformaat ([JpegQuality](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/)).
 - Optimalisering van vektorgrafika in Aspose.Words uitset ([OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/)).
 - Grafiese opsies wanneer jy stoor Na Tiff, Png, Bmp, Jpeg, Emf formate ([UseAntiAliasing](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/useantialiasing/), [UseHighQualityRendering](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/usehighqualityrendering/)).

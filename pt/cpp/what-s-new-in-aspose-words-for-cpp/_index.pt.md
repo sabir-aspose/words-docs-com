@@ -420,7 +420,7 @@ O recurso para reconhecer hiperlinks ao carregar documentos TXT foi implementado
 
 {{% alert color="primary" %}}
 
-Saiba mais sobre [Aspose.Words para C++ 23.9 Notas De Lançamento](/words/cpp/aspose-words-for-cpp-23-9-release-notes/).
+Saiba mais sobre [Aspose.Words para C++ 23.9 Notas De Lançamento](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-9-release-notes/).
 Saiba mais sobre [Aspose.Words para C++ 23.10 Notas De Lançamento](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-10-release-notes/).
 Saiba mais sobre [Aspose.Words para C++ 23.11 Notas De Lançamento](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-11-release-notes/).
 Saiba mais sobre [Aspose.Words para C++ 23.12 Notas De Lançamento](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-12-release-notes/).
@@ -431,6 +431,6 @@ Saiba mais sobre [Aspose.Words para C++ 23.12 Notas De Lançamento](https://rele
 
 {{% alert color="primary" %}}
 
-Esta página contém as últimas notícias de lançamento dos últimos 2 anos. Para obter detalhes sobre versões anteriores, consulte o [Notas De Lançamento](/words/cpp/release-notes/) páginas nas secções relevantes.
+Esta página contém as últimas notícias de lançamento dos últimos 2 anos. Para obter detalhes sobre versões anteriores, consulte o [Notas De Lançamento](https://releases.aspose.com/words/cpp/release-notes/) páginas nas secções relevantes.
 
 {{% /alert %}}

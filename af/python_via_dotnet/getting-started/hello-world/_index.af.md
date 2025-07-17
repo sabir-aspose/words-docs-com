@@ -1,4 +1,4 @@
----
+﻿---
 title: Hallo, Wêreld!
 second_title: Voorbeelde van hoe om te gebruik Aspose.Words vir Python via .NET
 articleTitle: Hallo, Wêreld!
@@ -12,7 +12,7 @@ timestamp: 2024-01-27-14-07-04
 
 'n " Hallo, Wêreld!"kode is dikwels die eerste eenvoudige voorbeeld om uisng te skryf "Aspose.Words vir Python via .NET"en dit kan ook gebruik word as'n gesonde verstand toets om te verseker dat die sagteware wat bedoel is om bron kode te kompileer of uit te voer korrek geïnstalleer is.
 
-"Aspose.Words vir Python via .NET"biblioteek gee ontwikkelaars direkte toegang tot die skep, verander, saam te smelt, omskep, vergelyk Word en Web dokumente. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML en baie ander lêer formate is [ondersteun](/words/python-net/supported-document-formats/).
+"Aspose.Words vir Python via .NET"biblioteek gee ontwikkelaars direkte toegang tot die skep, verander, saam te smelt, omskep, vergelyk Word en Web dokumente. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML en baie ander lêer formate is [ondersteun](/words/af/python-net/supported-document-formats/).
 
 Below code snippet volg hierdie stappe:
 

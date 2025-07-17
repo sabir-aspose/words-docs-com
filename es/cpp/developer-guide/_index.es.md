@@ -1,4 +1,4 @@
----
+﻿---
 title: Guía para desarrolladores en C++
 second_title: Aspose.Words para C++
 articleTitle: Guía para Desarrolladores
@@ -14,9 +14,9 @@ Esta Guía para desarrolladores proporciona información sobre cómo usar Aspose
 
 Para obtener más información sobre las funciones Aspose.Words, seleccione la sección correspondiente:
 
-- [Cargar, Guardar y Convertir](/words/cpp/loading-saving-and-converting/) - proporciona información sobre diferentes formas de cargar o guardar documentos y funciones específicas de formato útiles para convertir un documento de un formato a otro.
-- [Renderizado](/words/cpp/rendering/) - proporciona información sobre cómo obtener una representación paginada de un documento en formato de página de diseño de flujo.
-- [Mail Merge y Presentación de Informes](/words/cpp/mail-merge-and-reporting/) - proporciona información sobre la generación de documentos, como informes, catálogos, inventarios y facturas, a partir de plantillas con Mail Merge campos.
-- [Programación con Documentos](/words/cpp/programming-with-documents/) - proporciona información sobre cómo crear, modificar y administrar documentos mediante programación, incluido el cambio de su contenido y apariencia visual.
+- [Cargar, Guardar y Convertir](/words/es/cpp/loading-saving-and-converting/) - proporciona información sobre diferentes formas de cargar o guardar documentos y funciones específicas de formato útiles para convertir un documento de un formato a otro.
+- [Renderizado](/words/es/cpp/rendering/) - proporciona información sobre cómo obtener una representación paginada de un documento en formato de página de diseño de flujo.
+- [Mail Merge y Presentación de Informes](/words/es/cpp/mail-merge-and-reporting/) - proporciona información sobre la generación de documentos, como informes, catálogos, inventarios y facturas, a partir de plantillas con Mail Merge campos.
+- [Programación con Documentos](/words/es/cpp/programming-with-documents/) - proporciona información sobre cómo crear, modificar y administrar documentos mediante programación, incluido el cambio de su contenido y apariencia visual.
 
 Para obtener una descripción detallada de las clases, métodos y propiedades, consulte el Aspose.Words para C++ API Reference sección.

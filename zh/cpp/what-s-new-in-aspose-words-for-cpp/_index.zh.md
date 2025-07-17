@@ -420,7 +420,7 @@ Aspose.Words23.12引入了用于处理PDF和OOXML文档的新属性和枚举，�
 
 {{% alert color="primary" %}}
 
-了解更多关于 [Aspose.Words为C++ 23.9发行说明](/words/cpp/aspose-words-for-cpp-23-9-release-notes/).
+了解更多关于 [Aspose.Words为C++ 23.9发行说明](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-9-release-notes/).
 了解更多关于 [Aspose.Words为C++ 23.10发行说明](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-10-release-notes/).
 了解更多关于 [Aspose.Words为C++ 23.11发行说明](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-11-release-notes/).
 了解更多关于 [Aspose.Words为C++ 23.12发行说明](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-12-release-notes/).
@@ -431,6 +431,6 @@ Aspose.Words23.12引入了用于处理PDF和OOXML文档的新属性和枚举，�
 
 {{% alert color="primary" %}}
 
-本页包含过去2年的最新发布消息。 有关早期版本的详细信息，请参阅 [发行通知书'](/words/cpp/release-notes/) 相关部分中的页面。
+本页包含过去2年的最新发布消息。 有关早期版本的详细信息，请参阅 [发行通知书'](https://releases.aspose.com/words/cpp/release-notes/) 相关部分中的页面。
 
 {{% /alert %}}

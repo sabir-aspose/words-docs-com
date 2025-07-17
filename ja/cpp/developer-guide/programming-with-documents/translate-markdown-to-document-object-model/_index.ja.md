@@ -1,4 +1,4 @@
----
+﻿---
 title: Markdownをドキュメントオブジェクトモデル(DOM)に変換する
 second_title: C++の場合Aspose.Words
 articleTitle: Markdownをドキュメントオブジェクトモデル(DOM)に変換する
@@ -12,7 +12,7 @@ timestamp: 2024-10-21-11-17-44
 
 文書の内容と書式をプログラムで読み取り、操作し、変更するには、それをAspose.Wordsドキュメントオブジェクトモデル(DOM)に変換する必要があります。
 
-Word文書とは対照的に、Markdownは、Word文書で説明されているDOMに準拠していません。 [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/cpp/aspose-words-document-object-model/) 記事。 しかし、Aspose.Wordsは、MarkdownドキュメントをDOMに変換して戻すための独自のメカニズムを提供しているため、テキストの書式設定、テーブル、ヘッダーなどの要素を正常に処理できます。
+Word文書とは対照的に、Markdownは、Word文書で説明されているDOMに準拠していません。 [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/ja/cpp/aspose-words-document-object-model/) 記事。 しかし、Aspose.Wordsは、MarkdownドキュメントをDOMに変換して戻すための独自のメカニズムを提供しているため、テキストの書式設定、テーブル、ヘッダーなどの要素を正常に処理できます。
 
 この記事では、さまざまなmarkdown機能をAspose.WordsDOMに変換してMarkdown形式に戻す方法について説明します。
 
@@ -105,5 +105,5 @@ Aspose.Wordsでは、以下に示すように、テーブルをDOMに変換す�
 
 ## また見て下さい
 
-* [Markdown機能の操作](/words/cpp/working-with-markdown-features/)
+* [Markdown機能の操作](/words/ja/cpp/working-with-markdown-features/)
 

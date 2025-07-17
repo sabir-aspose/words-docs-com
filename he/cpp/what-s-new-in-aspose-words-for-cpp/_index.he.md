@@ -420,7 +420,7 @@ Aspose.Words 23.12 מציג מאפיינים וספירות חדשים לעבו�
 
 {{% alert color="primary" %}}
 
-למידע נוסף על [Aspose.Words עבור C++ 23.9 הערות שחרור](/words/cpp/aspose-words-for-cpp-23-9-release-notes/).
+למידע נוסף על [Aspose.Words עבור C++ 23.9 הערות שחרור](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-9-release-notes/).
 למידע נוסף על [Aspose.Words עבור C++ 23.10 הערות שחרור](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-10-release-notes/).
 למידע נוסף על [Aspose.Words עבור C++ 23.11 הערות שחרור](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-11-release-notes/).
 למידע נוסף על [Aspose.Words עבור C++ 23.12 הערות שחרור](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-12-release-notes/).
@@ -431,6 +431,6 @@ Aspose.Words 23.12 מציג מאפיינים וספירות חדשים לעבו�
 
 {{% alert color="primary" %}}
 
-דף זה מכיל את חדשות המהדורה האחרונות עבור 2 השנים האחרונות. לפרטים על שחרורים קודמים, ראה [הערות שחרור'](/words/cpp/release-notes/) דפים בסעיפים הרלוונטיים.
+דף זה מכיל את חדשות המהדורה האחרונות עבור 2 השנים האחרונות. לפרטים על שחרורים קודמים, ראה [הערות שחרור'](https://releases.aspose.com/words/cpp/release-notes/) דפים בסעיפים הרלוונטיים.
 
 {{% /alert %}}

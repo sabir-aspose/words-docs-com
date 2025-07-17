@@ -1,4 +1,4 @@
----
+﻿---
 title: Вимоги до пам'яті
 second_title: Aspose.Words для .NET
 articleTitle: Вимоги до пам'яті
@@ -48,5 +48,5 @@ Aspose.Words надає широкий спектр можливостей дл�
 
 * [Вимірювання використання пам'яті в Visual Studio (Українська)C#, Visual Basic, C++, F#й](https://learn.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2022)
 * [Рендеринг](/words/uk/net/rendering/)
-* [Mail Merge та звітність](/words/net/mail-merge-and-reporting/)
+* [Mail Merge та звітність](/words/uk/net/mail-merge-and-reporting/)
 * [Робота з полями](/words/uk/net/working-with-fields/)

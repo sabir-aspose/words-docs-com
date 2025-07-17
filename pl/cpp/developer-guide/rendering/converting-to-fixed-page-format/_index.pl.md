@@ -28,7 +28,7 @@ Microsoft Word jest obecnie najbardziej zaawansowaną aplikacją do edycji tekst
 
 ## Zobacz także
 
-* [Co to jest układ strony](/words/cpp/what-is-a-page-layout/)
-* [Tworzenie układu strony](/words/cpp/creating-a-page-layout/)
-* [Zapisywanie dokumentu w formacie stałej strony](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Określ Opcje Układu](/words/cpp/specify-layout-options/)
+* [Co to jest układ strony](/words/pl/cpp/what-is-a-page-layout/)
+* [Tworzenie układu strony](/words/pl/cpp/creating-a-page-layout/)
+* [Zapisywanie dokumentu w formacie stałej strony](/words/pl/cpp/saving-a-document-to-fixed-page-format/)
+* [Określ Opcje Układu](/words/pl/cpp/specify-layout-options/)

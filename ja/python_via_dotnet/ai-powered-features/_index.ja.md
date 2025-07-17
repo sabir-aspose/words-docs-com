@@ -1,4 +1,4 @@
----
+﻿---
 title: AI搭載の機能
 second_title: Aspose.WordsのためのPython via .NET
 articleTitle: AI搭載の機能
@@ -16,7 +16,7 @@ Aspose.Wordsには、文書処理をよりスマートかつ効率的にする�
 
 このセクションでは、Aspose.WordsでサポートされているAI機能の使用について知っておく必要があるすべてをカバーします。 実用的なヒントから詳細な手順まで、私たちはあなたがこれらの機能強化を最大限に活用するのを助けることを目指しています。
 
-* [サポートされているAIモデル](/words/python-net/supported-ai-models/)
-* [文書を要約する](/words/python-net/summarize-a-document/)
-* [文書を翻訳する](/words/python-net/translate-a-document/)
-* [文法チェック](/words/python-net/grammar-checking/)
+* [サポートされているAIモデル](/words/ja/python-net/supported-ai-models/)
+* [文書を要約する](/words/ja/python-net/summarize-a-document/)
+* [文書を翻訳する](/words/ja/python-net/translate-a-document/)
+* [文法チェック](/words/ja/python-net/grammar-checking/)

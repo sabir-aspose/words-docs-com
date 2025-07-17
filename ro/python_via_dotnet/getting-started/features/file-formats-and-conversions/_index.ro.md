@@ -1,4 +1,4 @@
----
+﻿---
 title: Formate de fișiere și conversii
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Formate de fișiere și conversii
@@ -29,7 +29,7 @@ Următorul exemplu de cod arată cum se convertește un document:
 
 {{< gist "aspose-words-gists" "36a49a29062268dc5e6d3134163f8d99" "docx-to-pdf.py" >}}
 
-Pentru mai multe detalii despre încărcarea, conversia și salvarea documentelor, consultați [Încărcarea, salvarea și conversia](/words/python-net/loading-saving-and-converting/) secțiunea.
+Pentru mai multe detalii despre încărcarea, conversia și salvarea documentelor, consultați [Încărcarea, salvarea și conversia](/words/ro/python-net/loading-saving-and-converting/) secțiunea.
 
 ## Înaltă Fidelitate
 

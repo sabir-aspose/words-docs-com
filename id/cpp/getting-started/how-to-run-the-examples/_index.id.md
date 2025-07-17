@@ -1,4 +1,4 @@
----
+﻿---
 title: Cara Menjalankan Contoh
 second_title: Aspose.Words untuk C++
 articleTitle: Cara Menjalankan Contoh
@@ -36,7 +36,7 @@ Setelah mendapatkan salinan repositori, Anda mungkin menemukan bahwa:
 
 Untuk menjalankan contoh, buka file solusi di Visual Studio dan buat proyek:
 
-- Untuk contoh **API Reference**, strukturnya didasarkan pada nama kelas, untuk contoh **Docs** sebagian besar didasarkan pada [Pengembang Guiled](/words/cpp/developer-guide/) bagian dokumentasi.
+- Untuk contoh **API Reference**, strukturnya didasarkan pada nama kelas, untuk contoh **Docs** sebagian besar didasarkan pada [Pengembang Guiled](/words/id/cpp/developer-guide/) bagian dokumentasi.
 - Pada proses pertama, dependensi akan diunduh secara otomatis melalui NuGet.
 - Folder **Data** di folder root **Examples** berisi file input yang digunakan dalam contoh.
 - Semua contoh dapat dijalankan sebagai pengujian unit.
@@ -68,7 +68,7 @@ Solusi untuk Visual Studio akan dihasilkan dalam `Examples\DocsExamples\build`
 
 Untuk menjalankan contoh, buka file solusi di Visual Studio dan buat proyek:
 
-- Untuk contoh **API Reference**, strukturnya didasarkan pada nama kelas, untuk contoh **Docs** sebagian besar didasarkan pada [Pengembang Guiled](/words/cpp/developer-guide/) bagian dokumentasi.
+- Untuk contoh **API Reference**, strukturnya didasarkan pada nama kelas, untuk contoh **Docs** sebagian besar didasarkan pada [Pengembang Guiled](/words/id/cpp/developer-guide/) bagian dokumentasi.
 - Folder **Data** di folder root **Examples** berisi file input yang digunakan dalam contoh.
 - Semua contoh dapat dijalankan sebagai pengujian unit.
 
@@ -99,7 +99,7 @@ cmake --build Examples/DocsExamples/build
 cmake -E chdir Examples/DocsExamples/build ctest --verbose
 {{< /highlight >}}
 
-- Untuk contoh **API Reference**, strukturnya didasarkan pada nama kelas, untuk contoh **Docs** sebagian besar didasarkan pada [Pengembang Guiled](/words/cpp/developer-guide/) bagian dokumentasi.
+- Untuk contoh **API Reference**, strukturnya didasarkan pada nama kelas, untuk contoh **Docs** sebagian besar didasarkan pada [Pengembang Guiled](/words/id/cpp/developer-guide/) bagian dokumentasi.
 - Folder **Data** di folder root **Examples** berisi file input yang digunakan dalam contoh.
 - Semua contoh dapat dijalankan sebagai pengujian unit.
 

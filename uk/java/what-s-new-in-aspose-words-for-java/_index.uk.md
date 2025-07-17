@@ -470,7 +470,7 @@ Aspose.Words 23.12 додані нові властивості і перера�
 
 {{% alert color="primary" %}}
 
-Дізнайтеся більше про [Aspose.Words для Java 23.9 Примітки до випуску](/words/java/aspose-words-for-java-23-9-release-notes/).
+Дізнайтеся більше про [Aspose.Words для Java 23.9 Примітки до випуску](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-9-release-notes/).
 
 Дізнайтеся більше про [Aspose.Words для Java 23.10 примітки до випуску](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 

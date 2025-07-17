@@ -1,4 +1,4 @@
----
+﻿---
 title: Bir Belgeyi C++'a Bölme
 second_title: Aspose.Words için C++
 articleTitle: Bir Belgeyi Bölme
@@ -67,7 +67,7 @@ Bu bölümde, [Document](https://reference.aspose.com/words/cpp/aspose.words/doc
 
 {{% alert color="primary" %}}
 
-Herhangi birini kullanabilirsiniz [Aspose.Words tarafından desteklenen çıktı biçimi](/words/cpp/supported-document-formats/).
+Herhangi birini kullanabilirsiniz [Aspose.Words tarafından desteklenen çıktı biçimi](/words/tr/cpp/supported-document-formats/).
 
 {{% /alert %}}
 

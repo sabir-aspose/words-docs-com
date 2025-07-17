@@ -1,4 +1,4 @@
----
+﻿---
 title: C# 中的 Insert Fields
 second_title: Aspose.Words for .NET
 articleTitle: 插入欄位
@@ -14,7 +14,7 @@ timestamp: 2024-01-27-14-07-04
 
 *使用 [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)
 * 使用 [FieldBuilder](https://reference.aspose.com/words/net/aspose.words.fields/fieldbuilder/)
-* 使用 [Aspose.Words Document Object Model (DOM)](/words/net/aspose-words-document-object-model/)
+* 使用 [Aspose.Words Document Object Model (DOM)](/words/zh-hant/net/aspose-words-document-object-model/)
 
 在本文，我們將更詳細地看每種方式並分析如何透過這些選項插入特定欄位。
 
@@ -63,7 +63,7 @@ timestamp: 2024-01-27-14-07-04
 
 ## 透過 DOM 插入欄位
 
-您也可以透過 [Aspose.Words Document Object Model (DOM)](/words/net/aspose-words-document-object-model/) 插入各種不同類型的欄位。 在這段中，我們將看看幾個例子。
+您也可以透過 [Aspose.Words Document Object Model (DOM)](/words/zh-hant/net/aspose-words-document-object-model/) 插入各種不同類型的欄位。 在這段中，我們將看看幾個例子。
 
 ### 透過 DOM 將 Merge Field 插入文件中。
 

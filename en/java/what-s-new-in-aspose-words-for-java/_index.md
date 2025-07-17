@@ -470,7 +470,7 @@ The feature to recognize hyperlinks when loading TXT documents has been implemen
 
 {{% alert color="primary" %}}
 
-Learn more about [Aspose.Words for Java 23.9 Release Notes](/words/java/aspose-words-for-java-23-9-release-notes/).
+Learn more about [Aspose.Words for Java 23.9 Release Notes](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-9-release-notes/).
 
 Learn more about [Aspose.Words for Java 23.10 Release Notes](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 

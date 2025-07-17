@@ -1,4 +1,4 @@
----
+﻿---
 title: Bắt đầu
 second_title: Aspose.Words cho Java
 articleTitle: Bắt đầu
@@ -14,13 +14,13 @@ timestamp: 2024-09-25-11-08-55
 
 Để tìm hiểu thêm về Aspose.Words, chọn phần thích hợp:
 
-- [Installation](/words/java/installation/) – cung cấp thông tin về cách cài đặt Aspose.Words
-- [Hello World](/words/java/hello-world/) – cung cấp thông tin về cách thử xem phần mềm được thiết kế để biên dịch hoặc chạy mã nguồn đã được cài đặt chính xác chưa
-- [Supported Document Formats](/words/java/supported-document-formats/) – cung cấp thông tin về các định dạng được hỗ trợ
-- [Supported Features](/words/java/features/) – cung cấp thông tin về những tính năng nào được hỗ trợ khi tải hoặc lưu một tài liệu với nhiều định dạng khác nhau
+- [Installation](/words/vi/java/installation/) – cung cấp thông tin về cách cài đặt Aspose.Words
+- [Hello World](/words/vi/java/hello-world/) – cung cấp thông tin về cách thử xem phần mềm được thiết kế để biên dịch hoặc chạy mã nguồn đã được cài đặt chính xác chưa
+- [Supported Document Formats](/words/vi/java/supported-document-formats/) – cung cấp thông tin về các định dạng được hỗ trợ
+- [Supported Features](/words/vi/java/features/) – cung cấp thông tin về những tính năng nào được hỗ trợ khi tải hoặc lưu một tài liệu với nhiều định dạng khác nhau
 - [Supported Platforms](/words/java/platforms-and-interoperability/) cung cấp thông tin về cách sử dụng Aspose.Words khi xây dựng ứng dụng cho các nền tảng khác
-- [Licensing and Subscription](/words/java/licensing/) – cung cấp thông tin về việc áp dụng giấy phép và sử dụng nhiều sản phẩm của Aspose
+- [Licensing and Subscription](/words/vi/java/licensing/) – cung cấp thông tin về việc áp dụng giấy phép và sử dụng nhiều sản phẩm của Aspose
 - [Why Aspose.Words](/words/java/aspose-words-or-other-solutions/) – mô tả lý do tại sao các thành phần của Aspose là tốt hơn nhiều so với Microsoft Office Automation
-"- [System Requirements](/words/java/system-requirements/) – cung cấp thông tin về các yêu cầu của môi trường hệ thống và phát triển"
-- [Security Notes](/words/java/security/) – mô tả các ghi chú và mẹo về cách tránh những vấn đề an ninh phổ biến
-- [How to Run the Examples](/words/java/how-to-run-the-examples/) – mô tả cách tải xuống và chạy các ví dụ và những yêu cầu phần mềm cần phải được thỏa mãn
+"- [System Requirements](/words/vi/java/system-requirements/) – cung cấp thông tin về các yêu cầu của môi trường hệ thống và phát triển"
+- [Security Notes](/words/vi/java/security/) – mô tả các ghi chú và mẹo về cách tránh những vấn đề an ninh phổ biến
+- [How to Run the Examples](/words/vi/java/how-to-run-the-examples/) – mô tả cách tải xuống và chạy các ví dụ và những yêu cầu phần mềm cần phải được thỏa mãn

@@ -24,7 +24,7 @@ The following code example shows how to save PDF to XLSX:
 
 {{% alert color="primary" %}}
 
-Sometimes it is necessary to specify additional options, which can affect the result of saving a document as a XLSX. These options can be specified by the use of the [XlsxSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/) class, containing properties that determine how the XLSX output will be displayed.
+Sometimes it is necessary to specify additional options, which can affect the result of saving a document as a XLSX. These options can be specified using the [XlsxSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/) class, containing properties that determine how the XLSX output will be displayed.
 
 {{% /alert %}}
 

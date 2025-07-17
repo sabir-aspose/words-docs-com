@@ -1,4 +1,4 @@
----
+﻿---
 title: Aperçu des champs en C++
 second_title: Aspose.Words pour C++
 articleTitle: Aperçu des Champs
@@ -29,7 +29,7 @@ Un champ se compose de:
 
 ![fields-overview-aspose-words-cpp-1](fields-overview-1.png)
 
-Le contenu qui compose le code de champ est stocké sous forme de nœuds [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) entre [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) et [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/). Le résultat du champ est stocké entre les nœuds **FieldSeparator** et [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) et peut être composé de différents types de contenu. Normalement, le résultat du champ ne contient que du texte composé de **Run** nœuds, mais il est possible que le nœud **FieldEnd** soit situé dans un paragraphe complètement différent, ce qui rend le résultat du champ composé de [nœuds au niveau du bloc](/words/cpp/logical-levels-of-nodes-in-a-document/) tels que les nœuds **Table** et **Paragraph** également.
+Le contenu qui compose le code de champ est stocké sous forme de nœuds [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) entre [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) et [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/). Le résultat du champ est stocké entre les nœuds **FieldSeparator** et [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) et peut être composé de différents types de contenu. Normalement, le résultat du champ ne contient que du texte composé de **Run** nœuds, mais il est possible que le nœud **FieldEnd** soit situé dans un paragraphe complètement différent, ce qui rend le résultat du champ composé de [nœuds au niveau du bloc](/words/fr/cpp/logical-levels-of-nodes-in-a-document/) tels que les nœuds **Table** et **Paragraph** également.
 
 Voici une vue de la façon dont un champ est stocké dans Aspose.Words en utilisant l'exemple " *DocumentExplorer"*.
 
@@ -37,7 +37,7 @@ Voici une vue de la façon dont un champ est stocké dans Aspose.Words en utilis
 
 ## Champs dans le modèle d'objet de document Aspose.Words (DOM)
 
-Lorsqu'un document est chargé dans Aspose.Words, les champs du document sont chargés dans le [Aspose.Words Modèle d'objet de document](/words/cpp/aspose-words-document-object-model/) en tant qu'ensemble de composants séparés (nœuds). Un seul champ est chargé en tant que collection de nœuds **FieldStart**, **FieldSeparator** et **FieldEnd** avec le contenu entre ces nœuds. Si un champ n'a pas de résultat de champ, il n'y aura pas de nœud **FieldSeparator**. Tous ces nœuds sont toujours trouvés en ligne (en tant qu'enfants de [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) ou [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
+Lorsqu'un document est chargé dans Aspose.Words, les champs du document sont chargés dans le [Aspose.Words Modèle d'objet de document](/words/fr/cpp/aspose-words-document-object-model/) en tant qu'ensemble de composants séparés (nœuds). Un seul champ est chargé en tant que collection de nœuds **FieldStart**, **FieldSeparator** et **FieldEnd** avec le contenu entre ces nœuds. Si un champ n'a pas de résultat de champ, il n'y aura pas de nœud **FieldSeparator**. Tous ces nœuds sont toujours trouvés en ligne (en tant qu'enfants de [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) ou [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
 
 Dans Aspose.Words chacun des nœuds **FieldXXX** dérive de [FieldChar](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_char/). Cette classe fournit une propriété pour vérifier le type de champ représenté par le nœud spécifié via la propriété [FieldType](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldchar/get_fieldtype/). Par exemple, **FieldType.FieldMergeField** représente un champ de fusion dans le document.
 

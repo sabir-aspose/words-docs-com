@@ -1,4 +1,4 @@
----
+﻿---
 title: AI - захранващи функции
 second_title: Aspose.Words за C++
 articleTitle: AI - захранващи функции
@@ -16,7 +16,7 @@ Aspose.Words сега включва AI - захранвани функции, �
 
 В този раздел ще разгледаме всичко, което трябва да знаете за използването на поддържаните функции AI в Aspose.Words. От практически съвети до подробни инструкции, ние се стремим да ви помогнем да се възползвате максимално от тези подобрения.
 
-* [Поддържани Модели AI ](/words/cpp/supported-ai-models/)
-* [Обобщаване на документ](/words/cpp/summarize-a-document/)
-* [Превод на документ](/words/cpp/translate-a-document/)
-* [Проверка На Граматиката](/words/cpp/grammar-checking/)
+* [Поддържани Модели AI ](/words/bg/cpp/supported-ai-models/)
+* [Обобщаване на документ](/words/bg/cpp/summarize-a-document/)
+* [Превод на документ](/words/bg/cpp/translate-a-document/)
+* [Проверка На Граматиката](/words/bg/cpp/grammar-checking/)

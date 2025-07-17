@@ -1,4 +1,4 @@
----
+﻿---
 title: C++ içindeki Bölümlerle Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Bölümlerle Çalışmak
@@ -38,7 +38,7 @@ Aspose.Words [BreakType](https://reference.aspose.com/words/cpp/aspose.words/bre
 
 ## Bir Bölümü Yönetme
 
-Bir bölüm normal bir bileşik düğüm olduğundan, tüm düğüm manipülasyonu API bölümleri işlemek için kullanılabilir: bölümler üzerinde ekleme, kaldırma ve diğer işlemler. Düğümler hakkında daha fazla bilgiyi makalede okuyabilirsiniz [Aspose.Words Belge Nesne Modeli (DOM)](/words/cpp/aspose-words-document-object-model/).
+Bir bölüm normal bir bileşik düğüm olduğundan, tüm düğüm manipülasyonu API bölümleri işlemek için kullanılabilir: bölümler üzerinde ekleme, kaldırma ve diğer işlemler. Düğümler hakkında daha fazla bilgiyi makalede okuyabilirsiniz [Aspose.Words Belge Nesne Modeli (DOM)](/words/tr/cpp/aspose-words-document-object-model/).
 
 Öte yandan, bölümlerle çalışmak için `DocumentBuilder` API 'i de kullanabilirsiniz. Bu yazıda, bölümlerle çalışmanın bu özel yoluna odaklanacağız.
 
@@ -154,5 +154,5 @@ Aşağıdaki kod örneği, tüm bölümlerdeki sayfa özelliklerinin nasıl değ
 
 ## Ayrıca bakınız
 
-- [Bir Belgedeki Düğümlerin Mantıksal Düzeyleri](/words/cpp/logical-levels-of-nodes-in-a-document/)
-- [Belge Ekleme ve Ekleme](/words/cpp/insert-and-append-documents/)
+- [Bir Belgedeki Düğümlerin Mantıksal Düzeyleri](/words/tr/cpp/logical-levels-of-nodes-in-a-document/)
+- [Belge Ekleme ve Ekleme](/words/tr/cpp/insert-and-append-documents/)

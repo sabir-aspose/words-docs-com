@@ -10,7 +10,7 @@ url: /pt/java/installation/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Certifique-se de que a sua máquina [requisitos do sistema](/words/java/system-requirements/) antes de começar.
+Certifique-se de que a sua máquina [requisitos do sistema](/words/pt/java/system-requirements/) antes de começar.
 
 Este artigo explica como instalar Aspose.Words para Java no seu computador.
 

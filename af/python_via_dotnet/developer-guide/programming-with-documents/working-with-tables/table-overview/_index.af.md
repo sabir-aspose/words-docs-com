@@ -1,4 +1,4 @@
----
+﻿---
 title: Tabel Oorsig
 second_title: Aspose.Words vir Python
 articleTitle: Tabel Oorsig
@@ -65,5 +65,5 @@ In Aspose.Words, is alle klasse en eienskappe wat verband hou met tabelle vervat
 
 ## Sien Ook
 
-* [Aspose.Words Dokument Voorwerp Model (DOM)](/words/python-net/aspose-words-document-object-model/)
-* [Logiese Vlakke Van Nodusse in'n Dokument](/words/python-net/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Dokument Voorwerp Model (DOM)](/words/af/python-net/aspose-words-document-object-model/)
+* [Logiese Vlakke Van Nodusse in'n Dokument](/words/af/python-net/logical-levels-of-nodes-in-a-document/)

@@ -1,4 +1,4 @@
----
+﻿---
 title: C# でのドキュメントを使用したプログラミング
 second_title: .NET用Aspose.Words
 articleTitle: ドキュメントを使用したプログラミング
@@ -58,6 +58,6 @@ timestamp: 2024-09-25-11-08-55
 - [制御文字の使用](/words/ja/net/working-with-control-characters/)
 - [VBA マクロの操作](/words/ja/net/working-with-vba-macros/)
 - [Markdown 機能の使用](/words/ja/net/working-with-markdown-features/)
-- [テキストドキュメントの操作](/words/net/working-with-text-document/)
+- [テキストドキュメントの操作](/words/ja/net/working-with-text-document/)
 
 クラス、メソッド、プロパティの詳細については、「Aspose.Words for .NET API Reference」セクションを参照してください。

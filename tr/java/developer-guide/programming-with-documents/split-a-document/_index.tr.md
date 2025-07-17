@@ -1,4 +1,4 @@
----
+﻿---
 title: Bir belgeyi bölün Java
 second_title: Aspose.Words için Java
 articleTitle: Bir Belgeyi Bölümle
@@ -85,7 +85,7 @@ Bu bölüm, [Document](https://reference.aspose.com/words/java/com.aspose.words/
 
 {{% alert color="primary" %}}
 
-Herhangi bir [output format supported by Aspose.Words](/words/java/supported-document-formats/) kullanabilirsiniz.
+Herhangi bir [output format supported by Aspose.Words](/words/tr/java/supported-document-formats/) kullanabilirsiniz.
 
 {{% /alert %}}
 

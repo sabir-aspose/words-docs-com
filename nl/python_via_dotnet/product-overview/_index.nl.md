@@ -1,4 +1,4 @@
----
+﻿---
 title: Productoverzicht
 second_title: Aspose.Words voor Python via .NET
 articleTitle: Productoverzicht
@@ -56,7 +56,7 @@ U kunt hele documenten of bepaalde pagina's converteren naar PDF of XPS om serve
 
 #### Rapportage
 
-Genereer documenten of rapporten vanaf nul of door sjablonen te vullen met gegevens uit gegevensbronnen of zakelijke objecten. Voor meer informatie over het rapporteren en ophalen van gegevens uit databases, zie de [Mail Merge en rapportage](/words/python-net/mail-merge-and-reporting/) en [LINQ Rapportagemotor](/words/python-net/linq-reporting-engine/) delen.
+Genereer documenten of rapporten vanaf nul of door sjablonen te vullen met gegevens uit gegevensbronnen of zakelijke objecten. Voor meer informatie over het rapporteren en ophalen van gegevens uit databases, zie de [Mail Merge en rapportage](/words/nl/python-net/mail-merge-and-reporting/) en [LINQ Rapportagemotor](/words/python-net/linq-reporting-engine/) delen.
 
 ### Platform onafhankelijkheid
 

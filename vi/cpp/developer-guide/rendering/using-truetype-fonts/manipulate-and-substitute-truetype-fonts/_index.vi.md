@@ -1,4 +1,4 @@
----
+﻿---
 title: Thao Tác Và Thay Thế Phông Chữ TrueType trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Thao Tác Và Thay Thế Phông Chữ TrueType
@@ -21,7 +21,7 @@ Lưu ý rằng phông chữ trong tài liệu đại diện cho một thực th�
 
 ## Trong đó Aspose.Words Tìm Kiếm Phông chữ
 
-Aspose.Words cố gắng tự động tìm phông chữ TrueType trên hệ thống tệp. Thông thường, bạn có thể dựa vào hành vi mặc định của Aspose.Words để tìm phông chữ `TrueType`, nhưng đôi khi bạn cần chỉ định các thư mục của riêng mình có chứa phông chữ TrueType. Các [Chỉ Định Vị Trí Phông Chữ TrueType ](/words/cpp/specify-truetype-fonts-location/) chủ đề mô tả cách thức và vị trí Aspose.Words tìm kiếm phông chữ, cũng như cách chỉ định vị trí phông chữ của riêng bạn.
+Aspose.Words cố gắng tự động tìm phông chữ TrueType trên hệ thống tệp. Thông thường, bạn có thể dựa vào hành vi mặc định của Aspose.Words để tìm phông chữ `TrueType`, nhưng đôi khi bạn cần chỉ định các thư mục của riêng mình có chứa phông chữ TrueType. Các [Chỉ Định Vị Trí Phông Chữ TrueType ](/words/vi/cpp/specify-truetype-fonts-location/) chủ đề mô tả cách thức và vị trí Aspose.Words tìm kiếm phông chữ, cũng như cách chỉ định vị trí phông chữ của riêng bạn.
 
 ## Sự Khác biệt Trong Xử lý Các Định dạng Phông chữ trong Aspose.Words và Microsoft Word
 

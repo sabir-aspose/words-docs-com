@@ -12,7 +12,7 @@ timestamp: 2024-10-21-11-17-44
 
 文書の内容と書式をプログラムで読み取り、操作し、変更するには、文書オブジェクトモデルAspose.Words(DOM)に変換する必要があります。
 
-Word文書とは対照的に、Markdownは、Word文書で説明されているDOMに準拠していません。 [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/java/aspose-words-document-object-model/) 記事。 しかし、Aspose.WordsはMarkdown文書をDOMに変換して元に戻すための独自のメカニズムを提供し、テキストの書式設定、表、ヘッダーなどの要素をうまく扱うことができます。
+Word文書とは対照的に、Markdownは、Word文書で説明されているDOMに準拠していません。 [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/ja/java/aspose-words-document-object-model/) 記事。 しかし、Aspose.WordsはMarkdown文書をDOMに変換して元に戻すための独自のメカニズムを提供し、テキストの書式設定、表、ヘッダーなどの要素をうまく扱うことができます。
 
 この記事では、さまざまなmarkdown機能をAspose.WordsDOMに変換してMarkdown形式に戻す方法について説明します。
 
@@ -98,5 +98,5 @@ Aspose.Wordsでは、以下に示すように、テーブルをDOMに変換す�
 
 ## また見て下さい
 
-* [Markdown機能の操作](/words/java/working-with-markdown-features/)
+* [Markdown機能の操作](/words/ja/java/working-with-markdown-features/)
 

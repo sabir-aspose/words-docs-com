@@ -1,4 +1,4 @@
----
+﻿---
 title: 如何运行示例
 second_title: Aspose.Words为C++
 articleTitle: 如何运行示例
@@ -36,7 +36,7 @@ timestamp: 2024-07-11-16-13-28
 
 要运行示例，请在Visual Studio中打开解决方案文件并生成项目:
 
-- 对于**API Reference**示例，结构基于类名，对于**Docs**示例，它主要基于 [开发人员受骗](/words/cpp/developer-guide/) 文件科。
+- 对于**API Reference**示例，结构基于类名，对于**Docs**示例，它主要基于 [开发人员受骗](/words/zh/cpp/developer-guide/) 文件科。
 - 第一次运行时，依赖项将通过NuGet自动下载。
 - **Examples**根文件夹中的**Data**文件夹包含示例中使用的输入文件。
 - 所有示例都可以作为单元测试运行。
@@ -68,7 +68,7 @@ Visual Studio的解决方案将在`Examples\DocsExamples\build`中生成
 
 要运行示例，请在Visual Studio中打开解决方案文件并生成项目:
 
-- 对于**API Reference**示例，结构基于类名，对于**Docs**示例，它主要基于 [开发人员受骗](/words/cpp/developer-guide/) 文件科。
+- 对于**API Reference**示例，结构基于类名，对于**Docs**示例，它主要基于 [开发人员受骗](/words/zh/cpp/developer-guide/) 文件科。
 - **Examples**根文件夹中的**Data**文件夹包含示例中使用的输入文件。
 - 所有示例都可以作为单元测试运行。
 
@@ -99,7 +99,7 @@ cmake --build Examples/DocsExamples/build
 cmake -E chdir Examples/DocsExamples/build ctest --verbose
 {{< /highlight >}}
 
-- 对于**API Reference**示例，结构基于类名，对于**Docs**示例，它主要基于 [开发人员受骗](/words/cpp/developer-guide/) 文件科。
+- 对于**API Reference**示例，结构基于类名，对于**Docs**示例，它主要基于 [开发人员受骗](/words/zh/cpp/developer-guide/) 文件科。
 - **Examples**根文件夹中的**Data**文件夹包含示例中使用的输入文件。
 - 所有示例都可以作为单元测试运行。
 

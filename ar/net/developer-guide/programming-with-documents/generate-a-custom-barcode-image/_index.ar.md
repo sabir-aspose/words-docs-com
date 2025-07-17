@@ -1,4 +1,4 @@
----
+﻿---
 title: كيفية إنشاء باركود
 second_title: Aspose.Words لـ .NET
 articleTitle: توليد صورة باركود مخصصة
@@ -55,7 +55,7 @@ Aspose.Words له واجهة لتوليد رموز شريطية مخصصة مم�
 
 {{% alert color="primary" %}}
 
-بالنسبة لمزيد من المعلومات حول تحويل المستندات من تنسيق إلى آخر، انظر [Convert a Document](/words/net/convert-a-document/) قسم التوثيق.
+بالنسبة لمزيد من المعلومات حول تحويل المستندات من تنسيق إلى آخر، انظر [Convert a Document](/words/ar/net/convert-a-document/) قسم التوثيق.
 
 {{% /alert %}}
 
