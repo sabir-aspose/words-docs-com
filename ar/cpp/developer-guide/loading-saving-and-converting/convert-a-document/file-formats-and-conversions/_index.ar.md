@@ -1,4 +1,4 @@
----
+﻿---
 title: تنسيقات الملفات والتحويلات
 second_title: Aspose.Words ل C++
 articleTitle: لماذا التحويل هو الميزة الرئيسية لـ Aspose.Words?
@@ -29,7 +29,7 @@ timestamp: 2024-09-24-14-35-44
 
 {{< gist "aspose-words-gists" "b9784b73e288805e08fba6e3fc5ae2af" "docx-to-pdf.h" >}}
 
-لمزيد من التفاصيل حول تحميل المستندات وتحويلها وحفظها، راجع [تحميل وحفظ وتحويل](/words/cpp/loading-saving-and-converting/) القسم.
+لمزيد من التفاصيل حول تحميل المستندات وتحويلها وحفظها، راجع [تحميل وحفظ وتحويل](/words/ar/cpp/loading-saving-and-converting/) القسم.
 
 ## عالية الدقة
 

@@ -67,5 +67,5 @@ doc.save(getArtifactsDir() + "BaseConversions.CompressXlsx.xlsx", saveOptions);
 
 ## بایگانی برچسب برای:
 
-- بخش مستندات [محافظت یا رمزگذاری یک سند](/words/java/protect-or-encrypt-a-document/) برای اطلاعات بیشتر در مورد حفاظت و رمزگذاری یک سند
-- مقاله [پیدا کردن و جایگزین کردن](/words/java/find-and-replace/) برای اطلاعات بیشتر در مورد پیدا کردن و جایگزینی محتوای مورد نظر خود
+- بخش مستندات [محافظت یا رمزگذاری یک سند](/words/fa/java/protect-or-encrypt-a-document/) برای اطلاعات بیشتر در مورد حفاظت و رمزگذاری یک سند
+- مقاله [پیدا کردن و جایگزین کردن](/words/fa/java/find-and-replace/) برای اطلاعات بیشتر در مورد پیدا کردن و جایگزینی محتوای مورد نظر خود

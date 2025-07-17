@@ -1,4 +1,4 @@
----
+﻿---
 title: Tổng quan về sản phẩm
 second_title: Aspose.Words cho Java
 articleTitle: Tổng quan về sản phẩm
@@ -46,11 +46,11 @@ Aspose.Words cho Java tính năng có thể chia thành bốn lĩnh vực chính
 
 Khả năng chuyển đổi tài liệu một cách dễ dàng và đáng tin cậy là một trong những tính năng chính của Aspose.Words.
 
-Chuyển đổi [nhập và xuất tài liệu](/words/java/load-save-and-convert/) với [hơn 35 định dạng tệp được hỗ trợ](/words/java/supported-document-formats/) cho phép người dùng chuyển đổi các tài liệu từ [một định dạng phổ biến](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) sang [một khác](https://reference.aspose.com/words/java/com.aspose.words/saveformat/), ví dụ như từ DOCX sang PDF, JPEG hoặc Markdown.
+Chuyển đổi [nhập và xuất tài liệu](/words/java/load-save-and-convert/) với [hơn 35 định dạng tệp được hỗ trợ](/words/vi/java/supported-document-formats/) cho phép người dùng chuyển đổi các tài liệu từ [một định dạng phổ biến](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) sang [một khác](https://reference.aspose.com/words/java/com.aspose.words/saveformat/), ví dụ như từ DOCX sang PDF, JPEG hoặc Markdown.
 
 #### Document Object Model (DOM)
 
-Truy cập thông qua một phong phú API cho tất cả các yếu tố tài liệu và định dạng cho phép tạo ra, sửa đổi, trích xuất, sao chép, chia cắt, kết nối và thay thế nội dung tài liệu. Tìm hiểu thêm trong phần [Aspose.Words Document Object Model (DOM)](/words/java/aspose-words-document-object-model/).
+Truy cập thông qua một phong phú API cho tất cả các yếu tố tài liệu và định dạng cho phép tạo ra, sửa đổi, trích xuất, sao chép, chia cắt, kết nối và thay thế nội dung tài liệu. Tìm hiểu thêm trong phần [Aspose.Words Document Object Model (DOM)](/words/vi/java/aspose-words-document-object-model/).
 
 #### Thiết kế lại
 
@@ -60,7 +60,7 @@ Bạn có thể chuyển đổi toàn bộ tài liệu hoặc các trang cụ th
 
 #### Báo cáo
 
-Tạo tài liệu hoặc báo cáo từ đầu hoặc bằng cách điền vào mẫu với dữ liệu từ nguồn dữ liệu hay đối tượng kinh doanh. Để biết thêm chi tiết về việc báo cáo và lấy dữ liệu từ cơ sở dữ liệu, xem phần " [Mail Merge and Reporting](/words/java/mail-merge-and-reporting/) and [LINQ Reporting Engine](/words/java/linq-reporting-engine/) ".
+Tạo tài liệu hoặc báo cáo từ đầu hoặc bằng cách điền vào mẫu với dữ liệu từ nguồn dữ liệu hay đối tượng kinh doanh. Để biết thêm chi tiết về việc báo cáo và lấy dữ liệu từ cơ sở dữ liệu, xem phần " [Mail Merge and Reporting](/words/vi/java/mail-merge-and-reporting/) and [LINQ Reporting Engine](/words/java/linq-reporting-engine/) ".
 
 ### Tính độc lập nền tảng
 

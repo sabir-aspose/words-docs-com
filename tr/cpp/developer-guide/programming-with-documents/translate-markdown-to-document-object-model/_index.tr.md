@@ -1,4 +1,4 @@
----
+﻿---
 title: Markdown öğesini Belge Nesne Modeline Çevir (DOM)
 second_title: Aspose.Words için C++
 articleTitle: Markdown öğesini Belge Nesne Modeline Çevir (DOM)
@@ -12,7 +12,7 @@ timestamp: 2024-10-21-11-17-44
 
 Bir belgenin içeriğini ve biçimlendirmesini programlı olarak okumak, değiştirmek ve değiştirmek için belgeyi Aspose.Words Belge Nesne Modeline (DOM) çevirmeniz gerekir.
 
-Word belgelerinin aksine, Markdown, belgede açıklanan DOM belgesine uymaz. [Aspose.Words Belge Nesne Modeli (DOM)](/words/cpp/aspose-words-document-object-model/) makale. Ancak Aspose.Words, metin biçimlendirme, tablolar, üstbilgiler ve diğerleri gibi öğeleriyle başarılı bir şekilde çalışabilmemiz için Markdown belgelerini DOM 'e ve geriye çevirmek için kendi mekanizmasını sağlar.
+Word belgelerinin aksine, Markdown, belgede açıklanan DOM belgesine uymaz. [Aspose.Words Belge Nesne Modeli (DOM)](/words/tr/cpp/aspose-words-document-object-model/) makale. Ancak Aspose.Words, metin biçimlendirme, tablolar, üstbilgiler ve diğerleri gibi öğeleriyle başarılı bir şekilde çalışabilmemiz için Markdown belgelerini DOM 'e ve geriye çevirmek için kendi mekanizmasını sağlar.
 
 Bu makalede, çeşitli markdown özelliklerin Aspose.Words DOM biçimine ve Markdown biçimine nasıl çevrilebileceği açıklanmaktadır.
 
@@ -105,5 +105,5 @@ Aspose.Words ayrıca aşağıda gösterildiği gibi tabloların DOM 'e çevrilme
 
 ## Ayrıca bakınız
 
-* [Markdown Özellikleriyle Çalışma](/words/cpp/working-with-markdown-features/)
+* [Markdown Özellikleriyle Çalışma](/words/tr/cpp/working-with-markdown-features/)
 

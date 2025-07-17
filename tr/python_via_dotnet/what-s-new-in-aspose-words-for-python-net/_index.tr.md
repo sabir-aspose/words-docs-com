@@ -546,13 +546,13 @@ Farklı belge türlerini tek bir çıktı belgesinde birleştirmeyi amaçlayan y
 
 {{% alert color="primary" %}}
 
-Hakkında daha fazla bilgi edinin [Aspose.Words için Python via .NET 23.5 Sürüm Notları](/words/python-net/aspose-words-for-python-via-dotnet-23-5-release-notes/).
+Hakkında daha fazla bilgi edinin [Aspose.Words için Python via .NET 23.5 Sürüm Notları](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-5-release-notes/).
 
-Hakkında daha fazla bilgi edinin [Aspose.Words için Python via .NET 23.6 Sürüm Notları](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
+Hakkında daha fazla bilgi edinin [Aspose.Words için Python via .NET 23.6 Sürüm Notları](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
 Hakkında daha fazla bilgi edinin [Aspose.Words için Python via .NET 23.7 Sürüm Notları](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
-Hakkında daha fazla bilgi edinin [Aspose.Words için Python via .NET 23.8 Sürüm Notları](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
+Hakkında daha fazla bilgi edinin [Aspose.Words için Python via .NET 23.8 Sürüm Notları](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
 {{% /alert %}}
 

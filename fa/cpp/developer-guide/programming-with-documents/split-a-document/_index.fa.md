@@ -1,4 +1,4 @@
----
+﻿---
 title: تقسیم یک سند در C++
 second_title: Aspose.Words برای C++
 articleTitle: تقسیم یک سند
@@ -67,7 +67,7 @@ Aspose.Words همچنین شما را قادر می سازد تا از شکاف 
 
 {{% alert color="primary" %}}
 
-شما می توانید از هر [فرمت خروجی پشتیبانی شده توسط Aspose.Words](/words/cpp/supported-document-formats/).
+شما می توانید از هر [فرمت خروجی پشتیبانی شده توسط Aspose.Words](/words/fa/cpp/supported-document-formats/).
 
 {{% /alert %}}
 

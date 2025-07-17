@@ -1,4 +1,4 @@
----
+﻿---
 title: 자주하는 질문
 second_title: .NET용 Aspose.Words
 articleTitle: FAQ – .NET용 Aspose.Words
@@ -72,7 +72,7 @@ Aspose.Words for .NET는 애플리케이션이 다양한 문서 처리 작업을
 
 Aspose.Words 라이센스를 구매하려면 [구입](https://purchase.aspose.com/buy) 페이지로 이동하여 "Aspose.Words" 제품과 적합한 라이센스 유형을 선택해야 합니다. 그런 다음 라이센스를 장바구니에 추가하고 장바구니 지침을 따르십시오.
 
-구매 후 [구매한 라이센스](/words/net/licensing/#purchased-license) 섹션에 설명된 대로 라이선스를 신청하세요.
+구매 후 [구매한 라이센스](/words/ko/net/licensing/) 섹션에 설명된 대로 라이선스를 신청하세요.
 
 Aspose.Words 설치 방법에 대한 자세한 내용은 [설치](/words/ko/net/installation/) 페이지에서 확인할 수 있습니다.
 
@@ -129,7 +129,7 @@ Aspose.Words 설치 방법에 대한 자세한 내용은 [설치](/words/ko/net/
 
 {{% alert color="primary" %}}
 
-[Mail Merge 및 보고](/words/net/mail-merge-and-reporting/) 문서 섹션에서 mail merge에 대한 자세한 정보를 찾을 수 있습니다.
+[Mail Merge 및 보고](/words/ko/net/mail-merge-and-reporting/) 문서 섹션에서 mail merge에 대한 자세한 정보를 찾을 수 있습니다.
 
 {{% /alert %}}
 
@@ -153,7 +153,7 @@ Aspose.Words 설치 방법에 대한 자세한 내용은 [설치](/words/ko/net/
 이는 상위 테이블과 하위 테이블 간의 관계가 설정되지 않았거나 잘못 설정되었기 때문입니다. 다음이 필요합니다:
 
 * **DataSet** 내의 데이터 무결성을 보장하고 **DataRelation** 개체를 사용하여 관련 데이터 테이블 간의 상위-하위 관계를 나타냅니다.
-* [지역이 포함된 중첩 Mail Merge](/words/net/nested-mail-merge-with-regions/) 기사의 "지역이 포함된 중첩 Mail Merge에서 데이터 관계를 설정하는 방법" 섹션을 확인하세요.
+* [지역이 포함된 중첩 Mail Merge](/words/ko/net/nested-mail-merge-with-regions/) 기사의 "지역이 포함된 중첩 Mail Merge에서 데이터 관계를 설정하는 방법" 섹션을 확인하세요.
 
 ------
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Conversia de la Word la Excel în C#
 second_title: Aspose.Words pentru .NET
 articleTitle: Converteste un document în Excel
@@ -44,5 +44,5 @@ Exemplul de cod de mai jos arată cum să specificaţi nivelul de compresie la s
 
 ## Vedeți și
 
-- Secţiunea de documentare [Protect or Encrypt a Document](/words/net/protect-or-encrypt-a-document/) pentru mai multe informaţii despre protejarea şi criptarea unui document
-- Articolul [Find and Replace](/words/net/find-and-replace/) pentru mai multe informații despre găsirea și înlocuirea conținutului pe care doriți
+- Secţiunea de documentare [Protect or Encrypt a Document](/words/ro/net/protect-or-encrypt-a-document/) pentru mai multe informaţii despre protejarea şi criptarea unui document
+- Articolul [Find and Replace](/words/ro/net/find-and-replace/) pentru mai multe informații despre găsirea și înlocuirea conținutului pe care doriți

@@ -1,4 +1,4 @@
----
+﻿---
 title: AI - функціональні можливості
 second_title: Aspose.Words для Python via .NET
 articleTitle: AI - функціональні можливості
@@ -16,7 +16,7 @@ Aspose.Words тепер включає функції на базі AI, приз
 
 У цьому розділі ми розповімо про все, що вам потрібно знати про використання підтримуваних функцій AI у Aspose.Words. Від практичних порад до детальних інструкцій ми прагнемо допомогти Вам максимально використати ці вдосконалення.
 
-* [Підтримувані моделі AI](/words/python-net/supported-ai-models/)
-* [Узагальнення документа](/words/python-net/summarize-a-document/)
-* [Перекласти документ](/words/python-net/translate-a-document/)
-* [Перевірка граматики](/words/python-net/grammar-checking/)
+* [Підтримувані моделі AI](/words/uk/python-net/supported-ai-models/)
+* [Узагальнення документа](/words/uk/python-net/summarize-a-document/)
+* [Перекласти документ](/words/uk/python-net/translate-a-document/)
+* [Перевірка граматики](/words/uk/python-net/grammar-checking/)

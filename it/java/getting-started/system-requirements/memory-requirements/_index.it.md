@@ -42,10 +42,10 @@ Esperimenti con migliaia di documenti reali mostrano che in genere Aspose.Words 
 
 Operazioni più complesse come il rendering (conversione in formati di pagina fissi), l'aggiornamento dei campi, la divisione della pagina e altre, per alcuni documenti richiedono 20 volte più risorse della memoria allocata dal documento caricato in Aspose.Words DOM.
 
-Se i risultati della profilazione indicano un possibile problema di memoria in Aspose.Words, contattare il nostro [Team di supporto](/words/java/technical-support/) e includere tutte le informazioni diagnostiche.
+Se i risultati della profilazione indicano un possibile problema di memoria in Aspose.Words, contattare il nostro [Team di supporto](/words/it/java/technical-support/) e includere tutte le informazioni diagnostiche.
 
 ## Vedi anche
 
-* [Rendering](/words/java/rendering/)
-* [Mail Merge e relazioni](/words/java/mail-merge-and-reporting/)
-* [Lavorare con i campi](/words/java/working-with-fields/)
+* [Rendering](/words/it/java/rendering/)
+* [Mail Merge e relazioni](/words/it/java/mail-merge-and-reporting/)
+* [Lavorare con i campi](/words/it/java/working-with-fields/)

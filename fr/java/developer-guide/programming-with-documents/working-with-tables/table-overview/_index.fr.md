@@ -65,5 +65,5 @@ Aspose.Words a un certain nombre de classes liées aux tables– [Tables](https:
 
 ## Voir Aussi
 
-* [Aspose.Words Modèle d'objet de document (DOM)](/words/java/aspose-words-document-object-model/)
-* [Niveaux logiques des nœuds dans un document](/words/java/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Modèle d'objet de document (DOM)](/words/fr/java/aspose-words-document-object-model/)
+* [Niveaux logiques des nœuds dans un document](/words/fr/java/logical-levels-of-nodes-in-a-document/)

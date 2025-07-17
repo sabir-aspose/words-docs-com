@@ -1,4 +1,4 @@
----
+﻿---
 title: AI - recursos alimentados
 second_title: Aspose.Words para Python via .NET
 articleTitle: AI - recursos alimentados
@@ -16,7 +16,7 @@ Aspose.Words agora inclui AI recursos desenvolvidos para tornar o processamento 
 
 Nesta seção, abordaremos tudo o que você precisa saber sobre o uso de recursos AI suportados em Aspose.Words. De dicas práticas a instruções detalhadas, pretendemos ajudá-lo a aproveitar ao máximo essas melhorias.
 
-* [Modelos AI Suportados](/words/python-net/supported-ai-models/)
-* [Resumir um documento](/words/python-net/summarize-a-document/)
-* [Traduzir um documento](/words/python-net/translate-a-document/)
-* [Verificação Gramatical](/words/python-net/grammar-checking/)
+* [Modelos AI Suportados](/words/pt/python-net/supported-ai-models/)
+* [Resumir um documento](/words/pt/python-net/summarize-a-document/)
+* [Traduzir um documento](/words/pt/python-net/translate-a-document/)
+* [Verificação Gramatical](/words/pt/python-net/grammar-checking/)

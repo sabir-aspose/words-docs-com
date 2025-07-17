@@ -67,7 +67,7 @@ Tato část popisuje několik případů použití dělení dokumentů stránkov
 
 {{% alert color="primary" %}}
 
-Můžete použít jakýkoli [výstupní formát podporovaný Aspose.Words](/words/cpp/supported-document-formats/).
+Můžete použít jakýkoli [výstupní formát podporovaný Aspose.Words](/words/cs/cpp/supported-document-formats/).
 
 {{% /alert %}}
 

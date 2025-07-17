@@ -123,7 +123,7 @@ Sie können die Beispieldatei dieses Beispiels herunterladen von [Aspose.Words G
 
 {{% /alert %}}
 
-Wenn Sie Tabellen in einem Dokument erstellen möchten, die mit jedem Datensatz aus Ihrer Datenquelle dynamisch wachsen, wird die obige Methode nicht empfohlen. Stattdessen wird die gewünschte Ausgabe leichter erreicht, wenn Mail merge mit Regionen verwendet wird. Mehr über diese Technik erfahren Sie in der [Mail Merge mit Regionen](/words/java/types-of-mail-merge-operations/) Abschnitt.
+Wenn Sie Tabellen in einem Dokument erstellen möchten, die mit jedem Datensatz aus Ihrer Datenquelle dynamisch wachsen, wird die obige Methode nicht empfohlen. Stattdessen wird die gewünschte Ausgabe leichter erreicht, wenn Mail merge mit Regionen verwendet wird. Mehr über diese Technik erfahren Sie in der [Mail Merge mit Regionen](/words/de/java/types-of-mail-merge-operations/) Abschnitt.
 
 ## Möglichkeiten zum Erstellen einer Tabelle vergleichen
 

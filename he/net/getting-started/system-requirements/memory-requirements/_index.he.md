@@ -1,4 +1,4 @@
----
+﻿---
 title: דרישות זיכרון
 second_title: Aspose.Words עבור .NET
 articleTitle: דרישות זיכרון
@@ -48,5 +48,5 @@ Aspose.Words מספק מגוון רחב של תכונות לעבוד עם מסמ
 
 * [מדד השימוש בזיכרון Visual Studio ()C#, Visual Basic, C++, F#)](https://learn.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2022)
 * [Rendering](/words/he/net/rendering/)
-* [Mail Merge דיווח ו](/words/net/mail-merge-and-reporting/)
+* [Mail Merge דיווח ו](/words/he/net/mail-merge-and-reporting/)
 * [עבודה עם שדות](/words/he/net/working-with-fields/)

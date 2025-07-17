@@ -1,4 +1,4 @@
----
+﻿---
 title: FAQ
 second_title: Aspose.Words vir Java
 articleTitle: FAQ
@@ -12,7 +12,7 @@ timestamp: 2024-01-31-14-23-37
 
 Hierdie bladsy bevat antwoorde op die vrae wat die meeste gevra word. Leer asseblief die huidige bladsy-miskien sal dit jou toelaat om jou probleem vinnig op te los.
 
-As jy nie die antwoord op jou vraag gevind het nie, kan jy op die ondersteuningsforum vra. Vir inligting oor hoe om jou vraag of probleem behoorlik aan te meld, sien die [Tegniese Ondersteuning](/words/java/technical-support/) bladsy.
+As jy nie die antwoord op jou vraag gevind het nie, kan jy op die ondersteuningsforum vra. Vir inligting oor hoe om jou vraag of probleem behoorlik aan te meld, sien die [Tegniese Ondersteuning](/words/af/java/technical-support/) bladsy.
 
 {{% alert color="primary" %}}
 
@@ -32,7 +32,7 @@ Besonderhede kan in ons dokumentasie gevind word.
 
 **V: wat beteken dit "Aspose.Words vereis nie derdeparty-toepassings nie"?**
 
-Aspose.Words vir Java hoef nie enige derdeparty-toepassings of bykomende sagtewarepakkette te installeer om te werk nie. Net aflaai en installeer Aspose.Words soos beskryf in die [Installasie](/words/java/installation/) artikel en begin.
+Aspose.Words vir Java hoef nie enige derdeparty-toepassings of bykomende sagtewarepakkette te installeer om te werk nie. Net aflaai en installeer Aspose.Words soos beskryf in die [Installasie](/words/af/java/installation/) artikel en begin.
 
 ------
 
@@ -40,7 +40,7 @@ Aspose.Words vir Java hoef nie enige derdeparty-toepassings of bykomende sagtewa
 
 Aspose.Words vir Java dek die meeste van die gewilde ontwikkeling omgewings en ontplooiing platforms. Its API kan gebruik word om toepassings vir'n wye verskeidenheid bedryfstelsels soos Windows, Linux, en Mac OS, en verskeie platforms te ontwikkel.
 
-Vir meer inligting, sien die [Produk Oorsig](/words/java/product-overview/) bladsy en die [Platforms en Interoperabiliteit](/words/java/platforms-and-interoperability/) afdeling.
+Vir meer inligting, sien die [Produk Oorsig](/words/af/java/product-overview/) bladsy en die [Platforms en Interoperabiliteit](/words/java/platforms-and-interoperability/) afdeling.
 
 ------
 
@@ -48,7 +48,7 @@ Vir meer inligting, sien die [Produk Oorsig](/words/java/product-overview/) blad
 
 Aspose.Words vir Java ondersteun die meeste van die gewilde dokument formate soos DOC, DOCX, HTML, Markdown, PDF, XML, en ander.
 
-U kan die volledige lys van ondersteunde formate op die [Ondersteunde Dokumentformate](/words/java/supported-document-formats/) bladsy.
+U kan die volledige lys van ondersteunde formate op die [Ondersteunde Dokumentformate](/words/af/java/supported-document-formats/) bladsy.
 
 ------
 
@@ -56,7 +56,7 @@ U kan die volledige lys van ondersteunde formate op die [Ondersteunde Dokumentfo
 
 Jy kan dit op twee maniere doen – deur Die Proefweergawe of'n 30-Dag Tydelike Lisensie te gebruik. Die Proef weergawe is dieselfde as die gekoopte een, dit bied volle produk funksionaliteit, maar voeg'n evaluerende watermerk aan die bokant van die dokument by wanneer laai en stoor en beperk die maksimum dokument grootte tot'n paar honderd paragrawe. Met'n Tydelike Lisensie kan u Aspose.Words sonder Proefbeperkings vir 30 dae toets.
 
-Sien die [Lisensie en Inskrywing](/words/java/licensing/) bladsy vir meer inligting.
+Sien die [Lisensie en Inskrywing](/words/af/java/licensing/) bladsy vir meer inligting.
 
 {{% alert color="primary" %}}
 
@@ -70,31 +70,31 @@ Jy kan ook probeer om'n paar van die gewildste Aspose.Words funksies deur die [A
 
 Om'n Aspose.Words lisensie te koop, moet jy na die [Koop](https://purchase.aspose.com/buy) bladsy, kies die" Aspose.Words " produk en die tipe lisensie wat jou pas. Voeg dan die lisensie by jou mandjie en volg die Inkopiemandjie-instruksies.
 
-Na die aankoop, aansoek doen vir die lisensie soos beskryf in die [Gekoopte Lisensie](/words/java/licensing/#purchased-license) afdeling.
+Na die aankoop, aansoek doen vir die lisensie soos beskryf in die [Gekoopte Lisensie](/words/af/java/licensing/) afdeling.
 
-Besonderhede oor hoe om Aspose.Words te installeer kan gelees word op die [Installasie](/words/java/installation/) bladsy.
+Besonderhede oor hoe om Aspose.Words te installeer kan gelees word op die [Installasie](/words/af/java/installation/) bladsy.
 
 ------
 
 **V: Hoe kan ek ondersteuning kry?**
 
-Gebruik die gratis tegniese ondersteuningsforum. Vir besonderhede oor hoe om'n probleem behoorlik aan te meld en wat gedoen moet word voordat u die forum kontak, sien die [Tegniese Ondersteuning](/words/java/technical-support/) bladsy.
+Gebruik die gratis tegniese ondersteuningsforum. Vir besonderhede oor hoe om'n probleem behoorlik aan te meld en wat gedoen moet word voordat u die forum kontak, sien die [Tegniese Ondersteuning](/words/af/java/technical-support/) bladsy.
 
 ## Vertoon'n Dokument
 
 {{% alert color="primary" %}}
 
-Jy kan meer gedetailleerde inligting oor die lewering in die [Lewering](/words/java/rendering/) dokumentasie afdeling.
+Jy kan meer gedetailleerde inligting oor die lewering in die [Lewering](/words/af/java/rendering/) dokumentasie afdeling.
 
 {{% /alert %}}
 
 **V: Hoekom verskil die uitleg en lettertipes in die uitvoerdokument van die oorspronklike?**
 
-Die lettertipe is dalk nie beskikbaar nie, of die lettertipe word ondersteun deur Microsoft Word maar nie ondersteun deur Aspose.Words nie. Aspose.Words sal presteer [lettertipe vervanging](/words/java/manipulate-and-substitute-truetype-fonts/).
+Die lettertipe is dalk nie beskikbaar nie, of die lettertipe word ondersteun deur Microsoft Word maar nie ondersteun deur Aspose.Words nie. Aspose.Words sal presteer [lettertipe vervanging](/words/af/java/manipulate-and-substitute-truetype-fonts/).
 
 Om te kyk of die lettertipe ontbreek:
 
-- In Aspose.Words gebruik Die Lettertipe vervanging waarskuwings (vir besonderhede, sien die" Hoe Om Te Herken dat die Lettertipe Vervang Is " afdeling van die [Manipuleer En Vervang TrueType Lettertipes](/words/java/manipulate-and-substitute-truetype-fonts/) artikel).
+- In Aspose.Words gebruik Die Lettertipe vervanging waarskuwings (vir besonderhede, sien die" Hoe Om Te Herken dat die Lettertipe Vervang Is " afdeling van die [Manipuleer En Vervang TrueType Lettertipes](/words/af/java/manipulate-and-substitute-truetype-fonts/) artikel).
 - In Microsoft Word maak die dialoogkassie "Font Substitution" oop(Lêer-Opsies).
 
 ------
@@ -121,7 +121,7 @@ Ja, jy doen. Hou dus in gedagte dat die meeste lettertipes kopiereg het wanneer 
 
 {{% alert color="primary" %}}
 
-Jy kan meer gedetailleerde inligting oor Mail Merge in die [Mail Merge En Verslagdoening](/words/java/mail-merge-and-reporting/) dokumentasie afdeling.
+Jy kan meer gedetailleerde inligting oor Mail Merge in die [Mail Merge En Verslagdoening](/words/af/java/mail-merge-and-reporting/) dokumentasie afdeling.
 
 {{% /alert %}}
 
@@ -145,7 +145,7 @@ Dit is omdat die samesmelting streke in die sjabloon is nie korrek gevorm, wat k
 Dit is omdat die verhouding tussen die ouer-en kind tafels nie opgestel is nie of hulle verkeerd opgestel is. Dit is nodig om:
 
 - Verseker data integriteit binne jou **DataSet** en gebruik die **DataRelation** voorwerp om die ouer-kind verhouding tussen verwante data tabelle verteenwoordig.
-- Gaan die afdeling "Hoe Om Data Verhoudings In Geneste Mail Merge Met Streke Op te Stel" in die artikel [Geneste Mail Merge Met Streke](/words/java/nested-mail-merge-with-regions/).
+- Gaan die afdeling "Hoe Om Data Verhoudings In Geneste Mail Merge Met Streke Op te Stel" in die artikel [Geneste Mail Merge Met Streke](/words/af/java/nested-mail-merge-with-regions/).
 
 ------
 
@@ -159,7 +159,7 @@ Deaktiveer vreemde sleutel beperkings wanneer jy'n **DataRelation** skep.
 
 {{% alert color="primary" %}}
 
-Jy kan meer gedetailleerde inligting oor programmering met dokumente in die [Programmering Met Dokumente](/words/java/programming-with-documents/) dokumentasie afdeling.
+Jy kan meer gedetailleerde inligting oor programmering met dokumente in die [Programmering Met Dokumente](/words/af/java/programming-with-documents/) dokumentasie afdeling.
 
 {{% /alert %}}
 
@@ -171,7 +171,7 @@ Die byvoeging resultaat verskyn op'n aparte bladsy as gevolg van'n verskil in [P
 
 {{% alert color="primary" %}}
 
-Jy kan meer gedetailleerde inligting oor die omskakeling van'n dokument in die [Skakel'n Dokument om](/words/java/convert-a-document/) dokumentasie afdeling.
+Jy kan meer gedetailleerde inligting oor die omskakeling van'n dokument in die [Skakel'n Dokument om](/words/af/java/convert-a-document/) dokumentasie afdeling.
 
 {{% /alert %}}
 
@@ -193,7 +193,7 @@ doc.save(dataDir + "output.pdf", SaveFormat.Pdf);
 
 {{% alert color="primary" %}}
 
-Jy kan meer gedetailleerde inligting oor programmering met dokumente in die [Programmering Met Dokumente](/words/java/programming-with-documents/) dokumentasie afdeling.
+Jy kan meer gedetailleerde inligting oor programmering met dokumente in die [Programmering Met Dokumente](/words/af/java/programming-with-documents/) dokumentasie afdeling.
 
 {{% /alert %}}
 
@@ -253,4 +253,4 @@ catch (Exception e)
 
 **V: Hoe om'n dokument te druk?**
 
-Vir'n gedetailleerde antwoord, leer die artikel [Druk'n Dokument Programmaties of Gebruik Dialoog](/words/java/print-a-document-programmatically-or-using-dialogs/).
+Vir'n gedetailleerde antwoord, leer die artikel [Druk'n Dokument Programmaties of Gebruik Dialoog](/words/af/java/print-a-document-programmatically-or-using-dialogs/).

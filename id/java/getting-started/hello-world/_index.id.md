@@ -12,7 +12,7 @@ timestamp: 2024-01-27-14-07-04
 
 Sebuah "Halo, Dunia!"kode seringkali merupakan contoh sederhana pertama untuk menulis uisng" Aspose.Words untuk Java", dan juga dapat digunakan sebagai uji kewarasan untuk memastikan perangkat lunak yang dimaksudkan untuk mengkompilasi atau menjalankan kode sumber telah diinstal dengan benar.
 
-Pustaka "Aspose.Words untuk Java " memberi pengembang akses langsung untuk membuat, memodifikasi, menggabungkan, mengonversi, membandingkan Word, dan dokumen Web. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML dan banyak format file lainnya [didukung](/words/java/supported-document-formats/).
+Pustaka "Aspose.Words untuk Java " memberi pengembang akses langsung untuk membuat, memodifikasi, menggabungkan, mengonversi, membandingkan Word, dan dokumen Web. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML dan banyak format file lainnya [didukung](/words/id/java/supported-document-formats/).
 
 Cuplikan Below code mengikuti langkah-langkah berikut:
 

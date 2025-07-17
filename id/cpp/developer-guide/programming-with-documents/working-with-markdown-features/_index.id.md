@@ -1,4 +1,4 @@
----
+﻿---
 title: Bekerja dengan Fitur Markdown di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Fitur Markdown
@@ -27,7 +27,7 @@ Implementasi fitur Markdown sebagian besar mengikuti spesifikasi `CommonMark` da
 
 {{% alert color="primary" %}}
 
-Ada nuansa menerjemahkan Markdown ke Model Objek Dokumen Aspose.Words (DOM), yang dijelaskan dalam artikel [Terjemahkan Markdown ke Model Objek Dokumen (DOM)](/words/cpp/translate-markdown-to-document-object-model/).
+Ada nuansa menerjemahkan Markdown ke Model Objek Dokumen Aspose.Words (DOM), yang dijelaskan dalam artikel [Terjemahkan Markdown ke Model Objek Dokumen (DOM)](/words/id/cpp/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

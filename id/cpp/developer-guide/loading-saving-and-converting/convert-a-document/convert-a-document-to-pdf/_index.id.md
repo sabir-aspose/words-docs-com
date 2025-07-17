@@ -1,4 +1,4 @@
----
+﻿---
 title: Konversikan Dokumen menjadi PDF dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Konversikan Dokumen menjadi PDF
@@ -47,7 +47,7 @@ Perhatikan bahwa dengan teknik yang sama, Anda dapat mengonversi dokumen format 
 
 ### Konversikan ke Standar PDF yang Berbeda {#converting-to-various-pdf-standards}
 
-Aspose.Words menyediakan pencacahan [PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) untuk mendukung konversi DOC atau DOCX menjadi berbagai standar format PDF (seperti PDF 1.7, PDF 1.5, dll.).
+Aspose.Words menyediakan pencacahan [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) untuk mendukung konversi DOC atau DOCX menjadi berbagai standar format PDF (seperti PDF 1.7, PDF 1.5, dll.).
 
 Contoh kode berikut menunjukkan cara mengonversi dokumen menjadi PDF 1.7 menggunakan [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) dengan kepatuhan terhadap PDF1 7:
 
@@ -67,6 +67,6 @@ Agar kode ini berfungsi, Anda perlu menambahkan referensi ke Aspose.Words dan `S
 
 ## Lihat Juga
 
-- Artikel tersebut [Rendering](/words/cpp/rendering/) untuk informasi selengkapnya tentang format halaman tetap dan tata letak alur
-- Artikel tersebut [Mengonversi ke Format halaman Tetap](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) untuk informasi lebih lanjut tentang tata letak halaman
-- Artikel tersebut [Tentukan Opsi Rendering Saat Mengonversi ke PDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) untuk informasi lebih lanjut tentang penggunaan kelas `PdfSaveOptions`
+- Artikel tersebut [Rendering](/words/id/cpp/rendering/) untuk informasi selengkapnya tentang format halaman tetap dan tata letak alur
+- Artikel tersebut [Mengonversi ke Format halaman Tetap](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) untuk informasi lebih lanjut tentang tata letak halaman
+- Artikel tersebut [Tentukan Opsi Rendering Saat Mengonversi ke PDF](/words/id/cpp/specify-rendering-options-when-converting-to-pdf/) untuk informasi lebih lanjut tentang penggunaan kelas `PdfSaveOptions`

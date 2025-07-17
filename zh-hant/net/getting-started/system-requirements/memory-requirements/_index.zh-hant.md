@@ -1,4 +1,4 @@
----
+﻿---
 title: 記憶體需求
 second_title: Aspose.Words for .NET
 articleTitle: 記憶體需求
@@ -42,11 +42,11 @@ Aspose.Words 提供各種格式的文件進行處理的廣大功能。 很重要
 
 需要更複雜的操作，例如渲染（將固定頁面格式轉換），更新欄位，分割頁面等等，某些文件需要的資源比載入在 Aspose.Words DOM 的文件的記憶體分配多出 20 倍。
 
-如果您的測試結果顯示可能出現記憶體問題於 Aspose.Words，請與我們的 [Support Team](/words/net/technical-support/) 聯繫，並附上所有診斷資訊。
+如果您的測試結果顯示可能出現記憶體問題於 Aspose.Words，請與我們的 [Support Team](/words/zh-hant/net/technical-support/) 聯繫，並附上所有診斷資訊。
 
 ## 另見：
 
 * [Measure memory usage in Visual Studio (C#, Visual Basic, C++, F#)](https://learn.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2022)
-* [Rendering](/words/net/rendering/)
+* [Rendering](/words/zh-hant/net/rendering/)
 * [Mail Merge and Reporting](/words/net/mail-merge-and-reporting/)
-* [Working with Fields](/words/net/working-with-fields/)
+* [Working with Fields](/words/zh-hant/net/working-with-fields/)

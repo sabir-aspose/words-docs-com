@@ -1,4 +1,4 @@
----
+﻿---
 title: 제품 개요
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 제품 개요
@@ -16,7 +16,7 @@ timestamp: 2024-06-05-14-43-57
 
 Aspose.Words 응용 프로그램이 다양한 문서 처리 작업을 수행할 수 있도록 하는 크로스 플랫폼 클래스 라이브러리입니다.
 
-사용 Aspose.Words,문서를 지원되는 모든 로드 형식에서 지원되는 모든 저장 형식으로 변환할 수 있습니다(예:단어 형식). PDF, HTML,또는 Markdown, HTML 에 DOCX 그리고 그 다음으로 에서 문서 변환에 대해 자세히 알아보기 [문서 변환](/words/cpp/convert-a-document/) 부문
+사용 Aspose.Words,문서를 지원되는 모든 로드 형식에서 지원되는 모든 저장 형식으로 변환할 수 있습니다(예:단어 형식). PDF, HTML,또는 Markdown, HTML 에 DOCX 그리고 그 다음으로 에서 문서 변환에 대해 자세히 알아보기 [문서 변환](/words/ko/cpp/convert-a-document/) 부문
 
 그것은 주목할 가치가 있습니다 Aspose.Words 다음과 같은 타사 응용 프로그램을 사용하지 않고도 문서를 생성,수정,변환,렌더링 및 인쇄할 수 있습니다 Microsoft Word,또는 Office Automation.
 
@@ -42,21 +42,21 @@ Aspose.Words 에 대한 C++ 특징은 네 가지 주요 영역으로 나눌 수 
 
 문서를 쉽고 안정적으로 변환 할 수있는 기능은 다음과 같은 주요 기능 중 하나입니다 Aspose.Words.
 
-포괄적 인 [문서 가져오기 및 내보내기](/words/cpp/loading-saving-and-converting/) 함께 [35 개 이상의 지원되는 파일 형식](/words/cpp/supported-document-formats/) 사용자가 다음에서 문서를 변환 할 수 있습니다 [one popular format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) 에 [another](https://reference.aspose.com/words/cpp/aspose.words/saveformat/) 예를 들어, DOCX 에 PDF, JPEG,또는 Markdown.
+포괄적 인 [문서 가져오기 및 내보내기](/words/ko/cpp/loading-saving-and-converting/) 함께 [35 개 이상의 지원되는 파일 형식](/words/ko/cpp/supported-document-formats/) 사용자가 다음에서 문서를 변환 할 수 있습니다 [one popular format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) 에 [another](https://reference.aspose.com/words/cpp/aspose.words/saveformat/) 예를 들어, DOCX 에 PDF, JPEG,또는 Markdown.
 
 #### 문서 개체 모델(DOM)
 
-리치를 통한 프로그래밍 방식 액세스 API 모든 문서 요소 및 서식 작성,수정,추출,복사,분할,가입 및 문서 내용을 대체 할 수 있습니다. 더 알아보기 [Aspose.Words 문서 개체 모델(DOM)](/words/cpp/aspose-words-document-object-model/) 부문
+리치를 통한 프로그래밍 방식 액세스 API 모든 문서 요소 및 서식 작성,수정,추출,복사,분할,가입 및 문서 내용을 대체 할 수 있습니다. 더 알아보기 [Aspose.Words 문서 개체 모델(DOM)](/words/ko/cpp/aspose-words-document-object-model/) 부문
 
 #### 렌더링
 
-우리는 용어를 사용 [렌더링 Aspose.Words](/words/cpp/rendering/) 파일 형식 또는 매체로 문서를 변환하는 과정을 설명하기 위해,페이지 매김 또는 그 페이지의 개념을 가지고있다.
+우리는 용어를 사용 [렌더링 Aspose.Words](/words/ko/cpp/rendering/) 파일 형식 또는 매체로 문서를 변환하는 과정을 설명하기 위해,페이지 매김 또는 그 페이지의 개념을 가지고있다.
 
 전체 문서 또는 특정 페이지를 다음과 같이 변환 할 수 있습니다 PDF 또는 XPS 서버 쪽 문서를 생성하려면 인쇄하십시오. 그리고이 모든 높은 충실도-정확히 같은 Microsoft Word 그렇게 했을 겁니다.
 
 #### 보고
 
-처음부터 또는 데이터 소스 또는 비즈니스 개체의 데이터로 템플릿을 작성하여 문서 또는 보고서를 생성합니다. 데이터베이스에서 데이터 보고 및 가져오기에 대한 자세한 내용은 다음을 참조하십시오 [Mail Merge 그리고 보고](/words/cpp/mail-merge-and-reporting/).
+처음부터 또는 데이터 소스 또는 비즈니스 개체의 데이터로 템플릿을 작성하여 문서 또는 보고서를 생성합니다. 데이터베이스에서 데이터 보고 및 가져오기에 대한 자세한 내용은 다음을 참조하십시오 [Mail Merge 그리고 보고](/words/ko/cpp/mail-merge-and-reporting/).
 
 ### 플랫폼 독립성
 
@@ -86,8 +86,8 @@ Aspose.Words 한 번에 하나의 스레드만 문서에서 작동하는 한 다
 
 ## 가격 및 정책
 
-방문하시기 바랍니다 [라이선스](/words/cpp/licensing/) 라이센스에 대한 정보 및 검토 페이지 [가격 정보](https://purchase.aspose.com/pricing/words/family/) 가격에 대한 자세한 내용은 페이지.
+방문하시기 바랍니다 [라이선스](/words/ko/cpp/licensing/) 라이센스에 대한 정보 및 검토 페이지 [가격 정보](https://purchase.aspose.com/pricing/words/family/) 가격에 대한 자세한 내용은 페이지.
 
 ## 기술 지원
 
-에 대한 자세한 내용은 Aspose.Words 기술 지원,좀 봐 [지원 페이지](/words/cpp/technical-support/).
+에 대한 자세한 내용은 Aspose.Words 기술 지원,좀 봐 [지원 페이지](/words/ko/cpp/technical-support/).

@@ -1,4 +1,4 @@
----
+﻿---
 title: Програмування документів C#
 second_title: Aspose.Words для .NET
 articleTitle: Програмування документів
@@ -58,6 +58,6 @@ timestamp: 2024-09-25-11-08-55
 - [Робота з символами управління](/words/uk/net/working-with-control-characters/)
 - [Робота з VBA Macros](/words/uk/net/working-with-vba-macros/)
 - [Робота з Markdown Особливості](/words/uk/net/working-with-markdown-features/)
-- [Робота з документами](/words/net/working-with-text-document/)
+- [Робота з документами](/words/uk/net/working-with-text-document/)
 
 Для детального опису занять, методів і властивостей відносяться Aspose.Words для .NET API Reference секція.

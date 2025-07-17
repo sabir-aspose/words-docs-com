@@ -1,4 +1,4 @@
----
+﻿---
 title: C++ içindeki Belge Özellikleriyle Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Belge Özellikleriyle Çalışma
@@ -15,7 +15,7 @@ Belge özellikleri, belgenizle ilgili bazı yararlı bilgilerin depolanmasına i
 * Belge başlığı, yazar adı, belge istatistikleri ve diğerleri gibi değerleri içeren sistem veya yerleşik.
 * Kullanıcı tanımlı veya özel, kullanıcının hem adı hem de değeri tanımlayabileceği ad-değer çiftleri olarak sağlanır.
 
-API ve Sürüm Numarası hakkındaki bilgilerin doğrudan çıktı belgelerine yazıldığını bilmek yararlıdır. Örneğin, bir belgeyi PDF 'e dönüştürdükten sonra Aspose.Words, "Uygulama" alanını "Aspose.Words" ve "PDF Üretici" alanını "ile doldurur.Aspose.Words için C++ YY.M.N", burada *YY.M.N*, dönüşüm için kullanılan Aspose.Words sürümüdür. Daha fazla ayrıntı için bkz. [Çıktı Belgelerinde Yer Alan Üretici veya Üretici Adı](/words/cpp/generator-or-producer-name-included-in-output-documents/).
+API ve Sürüm Numarası hakkındaki bilgilerin doğrudan çıktı belgelerine yazıldığını bilmek yararlıdır. Örneğin, bir belgeyi PDF 'e dönüştürdükten sonra Aspose.Words, "Uygulama" alanını "Aspose.Words" ve "PDF Üretici" alanını "ile doldurur.Aspose.Words için C++ YY.M.N", burada *YY.M.N*, dönüşüm için kullanılan Aspose.Words sürümüdür. Daha fazla ayrıntı için bkz. [Çıktı Belgelerinde Yer Alan Üretici veya Üretici Adı](/words/tr/cpp/generator-or-producer-name-included-in-output-documents/).
 
 {{% alert color="primary" %}}
 

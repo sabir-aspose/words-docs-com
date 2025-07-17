@@ -1,4 +1,4 @@
----
+﻿---
 title: AI - poháněné funkce
 second_title: Aspose.Words pro .NET
 articleTitle: AI - poháněné funkce
@@ -16,7 +16,7 @@ Aspose.Words nyní obsahuje funkce založené na AI navržené tak, aby zpracov�
 
 V této části se budeme zabývat vším, co potřebujete vědět o používání podporovaných funkcí AI v Aspose.Words. Od praktických tipů až po podrobné pokyny, naším cílem je pomoci vám co nejlépe využít tato vylepšení.
 
-* [Podporované AI Modely](/words/net/supported-ai-models/)
-* [Shrňte dokument](/words/net/summarize-a-document/)
-* [Přeložit dokument](/words/net/translate-a-document/)
-* [gramatik](/words/net/grammar-checking/)
+* [Podporované AI Modely](/words/cs/net/supported-ai-models/)
+* [Shrňte dokument](/words/cs/net/summarize-a-document/)
+* [Přeložit dokument](/words/cs/net/translate-a-document/)
+* [gramatik](/words/cs/net/grammar-checking/)

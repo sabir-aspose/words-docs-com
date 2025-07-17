@@ -15,7 +15,7 @@ Las propiedades del documento permiten almacenar cierta información útil sobre
 * Sistema o integrado que contienen valores como título del documento, nombre del autor, estadísticas del documento y otros.
 * Definido por el usuario o personalizado, proporcionado como pares nombre-valor donde el usuario puede definir tanto el nombre como el valor.
 
-Es útil saber que la información sobre API y el Número de versión se escribe directamente en los documentos de salida. Por ejemplo, al convertir un documento a PDF, Aspose.Words completa el campo" Solicitud "con" Aspose.Words" y el campo "PDF Productor " con " Aspose.Words para Java YY.M. N", donde *YY.M.N* es la versión de Aspose.Words utilizada para la conversión. Para más detalles, consulte [Nombre del Generador o Productor Incluido en los Documentos de Salida](/words/java/generator-or-producer-name-included-in-output-documents/).
+Es útil saber que la información sobre API y el Número de versión se escribe directamente en los documentos de salida. Por ejemplo, al convertir un documento a PDF, Aspose.Words completa el campo" Solicitud "con" Aspose.Words" y el campo "PDF Productor " con " Aspose.Words para Java YY.M. N", donde *YY.M.N* es la versión de Aspose.Words utilizada para la conversión. Para más detalles, consulte [Nombre del Generador o Productor Incluido en los Documentos de Salida](/words/es/java/generator-or-producer-name-included-in-output-documents/).
 
 {{% alert color="primary" %}}
 

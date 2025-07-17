@@ -470,7 +470,7 @@ Funkce rozpoznání hypertextových odkazů při načítání dokumentů TXT byl
 
 {{% alert color="primary" %}}
 
-Další informace o [Aspose.Words pro Java 23.9 Poznámky K Vydání](/words/java/aspose-words-for-java-23-9-release-notes/).
+Další informace o [Aspose.Words pro Java 23.9 Poznámky K Vydání](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-9-release-notes/).
 
 Další informace o [Aspose.Words Pro Java 23.10 Poznámky K Vydání](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 

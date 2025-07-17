@@ -1,4 +1,4 @@
----
+﻿---
 title: Tabloya Genel Bakış
 second_title: Aspose.Words için C++
 articleTitle: Tabloya Genel Bakış
@@ -65,5 +65,5 @@ Aspose.Words 'de, tablolarla ilgili tüm sınıflar ve özellikler [Aspose.Words
 
 ## Ayrıca bakınız
 
-* [Aspose.Words Belge Nesne Modeli (DOM)](/words/cpp/aspose-words-document-object-model/)
-* [Bir Belgedeki Düğümlerin Mantıksal Düzeyleri](/words/cpp/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Belge Nesne Modeli (DOM)](/words/tr/cpp/aspose-words-document-object-model/)
+* [Bir Belgedeki Düğümlerin Mantıksal Düzeyleri](/words/tr/cpp/logical-levels-of-nodes-in-a-document/)

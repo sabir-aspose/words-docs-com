@@ -1,4 +1,4 @@
----
+﻿---
 title: Chèn các trường trong Java
 second_title: Aspose.Words cho Java
 articleTitle: Chèn Trường
@@ -14,7 +14,7 @@ Có nhiều cách khác nhau để chèn các trường vào một tài liệu:
 
 - sử dụng [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)
 - dùng [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/)
-- dùng [Aspose.Words Document Object Model (DOM)](/words/java/aspose-words-document-object-model/)
+- dùng [Aspose.Words Document Object Model (DOM)](/words/vi/java/aspose-words-document-object-model/)
 
 Trong bài viết này, chúng ta sẽ xem xét từng cách chi tiết hơn và phân tích cách chèn các lĩnh vực cụ thể sử dụng các tùy chọn này.
 
@@ -80,7 +80,7 @@ Mẫu mã sau đây cho thấy cách chèn một trường vào tài liệu bằ
 
 ## Chèn Trường sử dụng DOM
 
-Bạn cũng có thể chèn các loại trường khác nhau bằng cách dùng [Aspose.Words Document Object Model (DOM)](/words/java/aspose-words-document-object-model/). Trong phần này chúng ta sẽ xem xét một vài ví dụ.
+Bạn cũng có thể chèn các loại trường khác nhau bằng cách dùng [Aspose.Words Document Object Model (DOM)](/words/vi/java/aspose-words-document-object-model/). Trong phần này chúng ta sẽ xem xét một vài ví dụ.
 
 ### Chèn Merge Field vào một tài liệu bằng cách sử dụng DOM
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: דרישות זיכרון
 second_title: Aspose.Words עבור Java
 articleTitle: דרישות זיכרון
@@ -47,5 +47,5 @@ Aspose.Words מספק מגוון רחב של תכונות לעבוד עם מסמ
 ## ראה גם
 
 * [Rendering](/words/he/java/rendering/)
-* [Mail Merge דיווח ו](/words/java/mail-merge-and-reporting/)
+* [Mail Merge דיווח ו](/words/he/java/mail-merge-and-reporting/)
 * [עבודה עם שדות](/words/he/java/working-with-fields/)

@@ -1,4 +1,4 @@
----
+﻿---
 title: 테이블 개요
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 테이블 개요
@@ -65,5 +65,5 @@ Aspose.Words 이 라이브러리는 그러한 문제를 표준화된 프로그�
 
 ## 또한 참조
 
-* [Aspose.Words 문서 개체 모델(DOM)](/words/cpp/aspose-words-document-object-model/)
-* [문서의 노드의 논리적 수준](/words/cpp/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words 문서 개체 모델(DOM)](/words/ko/cpp/aspose-words-document-object-model/)
+* [문서의 노드의 논리적 수준](/words/ko/cpp/logical-levels-of-nodes-in-a-document/)

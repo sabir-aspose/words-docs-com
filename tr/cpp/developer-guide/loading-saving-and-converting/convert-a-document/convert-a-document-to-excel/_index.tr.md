@@ -1,4 +1,4 @@
----
+﻿---
 title: Word'ü C++ içinde Excel'e dönüştürme
 second_title: Aspose.Words için C++
 articleTitle: Bir Belgeyi Excel'e Dönüştürme
@@ -61,5 +61,5 @@ doc->Save(ArtifactsDir + u"BaseConversions.CompressXlsx.xlsx", saveOptions);
 
 ## Ayrıca bakınız
 
-- Dokümantasyon bölümü [Bir Belgeyi Koruyun veya Şifreleyin](/words/cpp/protect-or-encrypt-a-document/) bir belgeyi koruma ve şifreleme hakkında daha fazla bilgi için
-- Makale [Bul ve Değiştir](/words/cpp/find-and-replace/) istediğiniz içeriği bulma ve değiştirme hakkında daha fazla bilgi için
+- Dokümantasyon bölümü [Bir Belgeyi Koruyun veya Şifreleyin](/words/tr/cpp/protect-or-encrypt-a-document/) bir belgeyi koruma ve şifreleme hakkında daha fazla bilgi için
+- Makale [Bul ve Değiştir](/words/tr/cpp/find-and-replace/) istediğiniz içeriği bulma ve değiştirme hakkında daha fazla bilgi için

@@ -1,4 +1,4 @@
----
+﻿---
 title: Skakel'n Dokument om na PDF in C++
 second_title: Aspose.Words vir C++
 articleTitle: Skakel'n Dokument om na PDF
@@ -47,7 +47,7 @@ Let daarop dat met dieselfde tegniek, kan jy enige vloei-uitleg formaat dokument
 
 ### Skakel Na Verskillende PDF Standaarde {#converting-to-various-pdf-standards}
 
-Aspose.Words verskaf die [PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) opsomming om die omskakeling van DOC of DOCX in verskillende PDF formaat standaarde (soos PDF 1.7, PDF 1.5, en so aan.).
+Aspose.Words verskaf die [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) opsomming om die omskakeling van DOC of DOCX in verskillende PDF formaat standaarde (soos PDF 1.7, PDF 1.5, en so aan.).
 
 Die volgende kode voorbeeld demonstreer hoe om'n dokument te omskep in PDF 1.7 met behulp van [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) met ooreenstemming met PDF17:
 
@@ -67,6 +67,6 @@ Om hierdie kode te laat werk, moet jy verwysings na Aspose.Words en `System.Draw
 
 ## Sien Ook
 
-- Die artikel [Lewering](/words/cpp/rendering/) vir meer inligting oor die vaste bladsy en vloei-uitleg formate
-- Die artikel [Omskakeling Na Vaste bladsy Formaat](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) vir meer inligting oor die bladsy uitleg
-- Die artikel [Spesifiseer Vertoonopsies Wanneer U Na PDFOmskakel](/words/cpp/specify-rendering-options-when-converting-to-pdf/) vir meer inligting oor die gebruik van die `PdfSaveOptions` klas
+- Die artikel [Lewering](/words/af/cpp/rendering/) vir meer inligting oor die vaste bladsy en vloei-uitleg formate
+- Die artikel [Omskakeling Na Vaste bladsy Formaat](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) vir meer inligting oor die bladsy uitleg
+- Die artikel [Spesifiseer Vertoonopsies Wanneer U Na PDFOmskakel](/words/af/cpp/specify-rendering-options-when-converting-to-pdf/) vir meer inligting oor die gebruik van die `PdfSaveOptions` klas

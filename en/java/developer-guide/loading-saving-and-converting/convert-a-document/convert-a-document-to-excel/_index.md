@@ -27,7 +27,7 @@ doc.save(getArtifactsDir() + "BaseConversions.PdfToXlsx.xlsx");
 
 {{% alert color="primary" %}}
 
-Sometimes it is necessary to specify additional options, which can affect the result of saving a document as a XLSX. These options can be specified by the use of the [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) class, containing properties that determine how the XLSX output will be displayed.
+Sometimes it is necessary to specify additional options, which can affect the result of saving a document as a XLSX. These options can be specified using the [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) class, containing properties that determine how the XLSX output will be displayed.
 
 {{% /alert %}}
 

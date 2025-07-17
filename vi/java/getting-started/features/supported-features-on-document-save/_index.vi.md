@@ -1,4 +1,4 @@
----
+﻿---
 title: Các tính năng được hỗ trợ trên tài liệu lưu trữ
 second_title: Aspose.Words cho Java
 articleTitle: Các tính năng được hỗ trợ trên tài liệu lưu trữ
@@ -10,7 +10,7 @@ url: /vi/java/supported-features-on-document-save/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words cho phép người dùng làm việc với các tài liệu ở nhiều định dạng khác nhau và cung cấp một loạt các tính năng cho mục đích này. Ví dụ, người dùng có thể tạo một tài liệu từ đầu hoặc tải nó lên, thực hiện một số thay đổi và sau đó lưu những thay đổi đó vào tệp đầu ra trong bất kỳ [hình thức xuất khẩu được hỗ trợ](/words/java/supported-document-formats/) nào. Khi lưu tài liệu ở định dạng đã chọn, người dùng có thể áp dụng các tùy chọn lưu khác nhau.
+Aspose.Words cho phép người dùng làm việc với các tài liệu ở nhiều định dạng khác nhau và cung cấp một loạt các tính năng cho mục đích này. Ví dụ, người dùng có thể tạo một tài liệu từ đầu hoặc tải nó lên, thực hiện một số thay đổi và sau đó lưu những thay đổi đó vào tệp đầu ra trong bất kỳ [hình thức xuất khẩu được hỗ trợ](/words/vi/java/supported-document-formats/) nào. Khi lưu tài liệu ở định dạng đã chọn, người dùng có thể áp dụng các tùy chọn lưu khác nhau.
 
 {{% alert color="primary" %}}
 
@@ -21,7 +21,7 @@ Aspose.Words cho phép người dùng làm việc với các tài liệu ở nhi
 Để biết danh sách đầy đủ các chức năng, hãy xem API tham chiếu:
 
 - [Tùy chọn lưu cho tất cả định dạng](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/)
-"- [lựa chọn lưu trang cố định](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/) cho [mô-đun định dạng trang cố định](/words/java/converting-to-fixed-page-format/): PDF, XPS, hình ảnh và các định dạng khác"
+"- [lựa chọn lưu trang cố định](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/) cho [mô-đun định dạng trang cố định](/words/vi/java/converting-to-fixed-page-format/): PDF, XPS, hình ảnh và các định dạng khác"
 - [Tùy chọn lưu PDF](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) cho định dạng PDF
 "- [Tùy chọn lưu OOXML](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/) cho các định dạng DOCX, DOCM, DOTX, DOTM hoặc FlatOpc"
 - [Tùy chọn lưu DOC](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) cho các định dạng DOC và DOT

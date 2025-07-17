@@ -47,7 +47,7 @@ Merk op dat u met dezelfde techniek elk document in flow-layout-indeling kunt co
 
 ### Converteren naar verschillende PDF standaarden {#converting-to-various-pdf-standards}
 
-Aspose.Words biedt de [PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) opsomming ter ondersteuning van de omzetting van DOC of DOCX in verschillende PDF formaat standaarden (zoals PDF 1.7, PDF 1.5, enz.).
+Aspose.Words biedt de [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) opsomming ter ondersteuning van de omzetting van DOC of DOCX in verschillende PDF formaat standaarden (zoals PDF 1.7, PDF 1.5, enz.).
 
 Het volgende codevoorbeeld laat zien hoe u een document converteert naar PDF 1.7 met behulp van [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) met naleving van PDF17:
 
@@ -67,6 +67,6 @@ Om deze code te laten werken, moet u verwijzingen naar Aspose.Words en `System.D
 
 ## Zie Ook
 
-- Artikel [Rendering](/words/cpp/rendering/) voor meer informatie over de formaten fixed-page en flow-layout
-- Artikel [Omzetten naar vaste pagina-indeling](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) voor meer informatie over de pagina lay-out
-- Artikel [Geef weergaveopties op bij het converteren naar PDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) voor meer informatie over het gebruik van de `PdfSaveOptions` klasse
+- Artikel [Rendering](/words/nl/cpp/rendering/) voor meer informatie over de formaten fixed-page en flow-layout
+- Artikel [Omzetten naar vaste pagina-indeling](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) voor meer informatie over de pagina lay-out
+- Artikel [Geef weergaveopties op bij het converteren naar PDF](/words/nl/cpp/specify-rendering-options-when-converting-to-pdf/) voor meer informatie over het gebruik van de `PdfSaveOptions` klasse

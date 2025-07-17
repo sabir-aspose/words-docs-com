@@ -27,7 +27,7 @@ Markdown기능 구현은 대부분Aspose.WordsAPI의`CommonMark`사양을 따르
 
 {{% alert color="primary" %}}
 
-이 문서에서 설명하는Markdown를Aspose.Words문서 객체 모델(DOM)으로 번역하는 뉘앙스가 있습니다 [Markdown를 문서 객체 모델로 변환(DOM)](/words/java/translate-markdown-to-document-object-model/).
+이 문서에서 설명하는Markdown를Aspose.Words문서 객체 모델(DOM)으로 번역하는 뉘앙스가 있습니다 [Markdown를 문서 객체 모델로 변환(DOM)](/words/ko/java/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

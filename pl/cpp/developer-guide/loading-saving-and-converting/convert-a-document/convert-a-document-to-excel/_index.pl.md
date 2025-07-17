@@ -61,5 +61,5 @@ doc->Save(ArtifactsDir + u"BaseConversions.CompressXlsx.xlsx", saveOptions);
 
 ## Zobacz także
 
-- Sekcja dokumentacji [Chroń lub Szyfruj dokument](/words/cpp/protect-or-encrypt-a-document/) aby uzyskać więcej informacji na temat ochrony i szyfrowania dokumentu
-- Artykuł [Znajdź i zamień](/words/cpp/find-and-replace/) aby uzyskać więcej informacji na temat wyszukiwania i zastępowania żądanej treści
+- Sekcja dokumentacji [Chroń lub Szyfruj dokument](/words/pl/cpp/protect-or-encrypt-a-document/) aby uzyskać więcej informacji na temat ochrony i szyfrowania dokumentu
+- Artykuł [Znajdź i zamień](/words/pl/cpp/find-and-replace/) aby uzyskać więcej informacji na temat wyszukiwania i zastępowania żądanej treści

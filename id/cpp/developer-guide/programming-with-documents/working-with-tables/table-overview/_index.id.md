@@ -1,4 +1,4 @@
----
+﻿---
 title: Gambaran Umum Tabel
 second_title: Aspose.Words untuk C++
 articleTitle: Gambaran Umum Tabel
@@ -65,5 +65,5 @@ Dalam Aspose.Words, semua kelas dan properti yang terkait dengan tabel terdapat 
 
 ## Lihat Juga
 
-* [Aspose.Words Model Objek Dokumen (DOM)](/words/cpp/aspose-words-document-object-model/)
-* [Tingkat Logis dari Node dalam Dokumen](/words/cpp/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Model Objek Dokumen (DOM)](/words/id/cpp/aspose-words-document-object-model/)
+* [Tingkat Logis dari Node dalam Dokumen](/words/id/cpp/logical-levels-of-nodes-in-a-document/)

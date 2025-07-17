@@ -1,4 +1,4 @@
----
+﻿---
 title: Panoramica dei campi in C++
 second_title: Aspose.Words per C++
 articleTitle: Panoramica dei campi
@@ -29,7 +29,7 @@ Un campo è costituito da:
 
 ![fields-overview-aspose-words-cpp-1](fields-overview-1.png)
 
-Il contenuto che costituisce il codice del campo viene memorizzato come nodi [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) tra [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) e [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/). Il risultato del campo è memorizzato tra i nodi **FieldSeparator** e [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) e può essere costituito da vari tipi di contenuto. Normalmente il risultato del campo contiene solo testo composto da nodi **Run**, tuttavia è possibile che il nodo **FieldEnd** si trovi in un paragrafo completamente diverso e quindi che il risultato del campo sia composto da [nodi a livello di blocco](/words/cpp/logical-levels-of-nodes-in-a-document/) come ad esempio **Table** e **Paragraph** nodi pure.
+Il contenuto che costituisce il codice del campo viene memorizzato come nodi [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) tra [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) e [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/). Il risultato del campo è memorizzato tra i nodi **FieldSeparator** e [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) e può essere costituito da vari tipi di contenuto. Normalmente il risultato del campo contiene solo testo composto da nodi **Run**, tuttavia è possibile che il nodo **FieldEnd** si trovi in un paragrafo completamente diverso e quindi che il risultato del campo sia composto da [nodi a livello di blocco](/words/it/cpp/logical-levels-of-nodes-in-a-document/) come ad esempio **Table** e **Paragraph** nodi pure.
 
 Ecco una vista di come un campo è memorizzato in Aspose.Words usando l'esempio "*DocumentExplorer"*.
 
@@ -37,7 +37,7 @@ Ecco una vista di come un campo è memorizzato in Aspose.Words usando l'esempio 
 
 ## Campi nel modello a oggetti del documento (DOM) Aspose.Words
 
-Quando un documento viene caricato in Aspose.Words, i campi del documento vengono caricati [Aspose.Words Modello a oggetti documento](/words/cpp/aspose-words-document-object-model/) come un insieme di componenti separati (nodi). Un singolo campo viene caricato come una raccolta di nodi **FieldStart**, **FieldSeparator** e **FieldEnd** insieme al contenuto tra questi nodi. Se un campo non ha un risultato di campo, non ci sarà alcun nodo **FieldSeparator**. Tutti questi nodi si trovano sempre in linea (come figli di [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) o [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
+Quando un documento viene caricato in Aspose.Words, i campi del documento vengono caricati [Aspose.Words Modello a oggetti documento](/words/it/cpp/aspose-words-document-object-model/) come un insieme di componenti separati (nodi). Un singolo campo viene caricato come una raccolta di nodi **FieldStart**, **FieldSeparator** e **FieldEnd** insieme al contenuto tra questi nodi. Se un campo non ha un risultato di campo, non ci sarà alcun nodo **FieldSeparator**. Tutti questi nodi si trovano sempre in linea (come figli di [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) o [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
 
 In Aspose.Words ciascuno dei nodi **FieldXXX** deriva da [FieldChar](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_char/). Questa classe fornisce una proprietà per controllare il tipo di campo rappresentato dal nodo specificato tramite la proprietà [FieldType](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldchar/get_fieldtype/). Ad esempio **FieldType.FieldMergeField** rappresenta un campo di unione nel documento.
 

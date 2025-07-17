@@ -1,4 +1,4 @@
----
+﻿---
 title: 與儲存在 Liferay 的文件一起工作
 second_title: Aspose.Words for .NET
 articleTitle: 與儲存在 Liferay 的文件一起工作
@@ -28,7 +28,7 @@ Liferay Portal 是一個開放原始碼的企業入口網站軟體平台，旨�
 2。 登入 [Liferay](http://localhost:8080) 使用電子郵件地址 `test@liferay.com` 和密碼 `test`。
 3。 當被提示時，更改密碼。
 4. 透過 [this tutorial](https://learn.liferay.com/w/dxp/headless-delivery/consuming-apis/consuming-rest-services#identify-the-site-containing-the-data) 取得網站標識符。
-5. 購買 Aspose.Words 許可證或使用 [Free Trial or 30-day Temporary License](/words/net/licensing/).
+5. 購買 Aspose.Words 許可證或使用 [Free Trial or 30-day Temporary License](/words/zh-hant/net/licensing/).
 
 {{% alert color="primary" %}}
 
@@ -380,4 +380,4 @@ static async Task RunCodeExample()
 ## 此外參閱
 
 -該文章 [Work with a Document Stored in a `SharePoint` Online](/words/net/work-with-document-stored-in-sharepoint)
--該文章[Work with a Document Marked by a Sensitivity Label](/words/net/work-with-document-market-by-sensitivity-label/)
+-該文章[Work with a Document Marked by a Sensitivity Label](/words/zh-hant/net/work-with-document-market-by-sensitivity-label/)

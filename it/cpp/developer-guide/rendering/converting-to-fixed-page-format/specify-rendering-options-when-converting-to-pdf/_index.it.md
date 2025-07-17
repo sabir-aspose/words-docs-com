@@ -1,4 +1,4 @@
----
+﻿---
 title: Specificare le opzioni di rendering durante la conversione in PDF
 second_title: Aspose.Words per C++
 articleTitle: Specificare le opzioni di rendering durante la conversione in PDF
@@ -96,7 +96,7 @@ La risoluzione viene calcolata in base alla dimensione reale dell'immagine sulla
 
 ## Incorporare i font nel formato Adobe PDF
 
-Aspose.Words consente inoltre di controllare il modo in cui i font sono incorporati nei documenti PDF risultanti. I font devono essere incorporati in qualsiasi documento Adobe PDF per garantire che il documento possa essere riprodotto correttamente su qualsiasi computer (vedere ulteriori dettagli sul rendering dei font nella sezione [Uso dei caratteri TrueType ](/words/cpp/using-truetype-fonts/)). Per impostazione predefinita, Aspose.Words incorpora un sottoinsieme di font utilizzati nel documento nel PDF generato. In questo caso, solo i glifi (caratteri) utilizzati nel documento vengono salvati in PDF.
+Aspose.Words consente inoltre di controllare il modo in cui i font sono incorporati nei documenti PDF risultanti. I font devono essere incorporati in qualsiasi documento Adobe PDF per garantire che il documento possa essere riprodotto correttamente su qualsiasi computer (vedere ulteriori dettagli sul rendering dei font nella sezione [Uso dei caratteri TrueType ](/words/it/cpp/using-truetype-fonts/)). Per impostazione predefinita, Aspose.Words incorpora un sottoinsieme di font utilizzati nel documento nel PDF generato. In questo caso, solo i glifi (caratteri) utilizzati nel documento vengono salvati in PDF.
 
 ### Quando utilizzare i font completi e quando sottoinsieme
 

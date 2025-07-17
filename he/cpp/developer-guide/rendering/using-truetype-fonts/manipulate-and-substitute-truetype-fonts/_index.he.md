@@ -21,7 +21,7 @@ Aspose.Words דורש TrueType גופנים למגוון משימות, כולל 
 
 ## איפה Aspose.Words מחפש גופנים
 
-Aspose.Words מנסה למצוא TrueType גופנים במערכת הקבצים באופן אוטומטי. בדרך כלל, אתה יכול לסמוך על התנהגות ברירת המחדל של Aspose.Words כדי למצוא את הגופנים `TrueType`, אך לפעמים עליך לציין תיקיות משלך המכילות גופנים TrueType. את [ציין TrueType מיקום גופנים](/words/cpp/specify-truetype-fonts-location/) נושא מתאר כיצד והיכן Aspose.Words מחפש גופנים, כמו גם כיצד לציין מיקומי גופנים משלך.
+Aspose.Words מנסה למצוא TrueType גופנים במערכת הקבצים באופן אוטומטי. בדרך כלל, אתה יכול לסמוך על התנהגות ברירת המחדל של Aspose.Words כדי למצוא את הגופנים `TrueType`, אך לפעמים עליך לציין תיקיות משלך המכילות גופנים TrueType. את [ציין TrueType מיקום גופנים](/words/he/cpp/specify-truetype-fonts-location/) נושא מתאר כיצד והיכן Aspose.Words מחפש גופנים, כמו גם כיצד לציין מיקומי גופנים משלך.
 
 ## הבדלים בעיבוד פורמטים של גופנים ב Aspose.Words ו Microsoft Word
 

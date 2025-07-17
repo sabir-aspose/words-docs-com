@@ -10,7 +10,7 @@ url: /zh/java/supported-features-on-document-load/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words允许用户使用各种格式的文档，并为此提供了广泛的选项。 例如，用户可以从头开始创建文档或加载任何现有文件 [支持的导入格式](/words/java/supported-document-formats/)，对该文档进行一些更改，然后保存结果。 导入所选格式的文档时，用户可以应用各种加载选项。
+Aspose.Words允许用户使用各种格式的文档，并为此提供了广泛的选项。 例如，用户可以从头开始创建文档或加载任何现有文件 [支持的导入格式](/words/zh/java/supported-document-formats/)，对该文档进行一些更改，然后保存结果。 导入所选格式的文档时，用户可以应用各种加载选项。
 
 {{% alert color="primary" %}}
 

@@ -36,7 +36,7 @@ timestamp: 2024-01-27-14-07-04
 
 {{% alert color="primary" %}}
 
-당신은 내 두 문서를 비교할 수 있습니다 [지원되는 파일 형식](/words/java/supported-document-formats/). 기본적으로 문서 개체를 비교할 수 있으며 특정 형식없이 처음부터 해당 개체를 만들 수도 있습니다.
+당신은 내 두 문서를 비교할 수 있습니다 [지원되는 파일 형식](/words/ko/java/supported-document-formats/). 기본적으로 문서 개체를 비교할 수 있으며 특정 형식없이 처음부터 해당 개체를 만들 수도 있습니다.
 
 {{% /alert %}}
 

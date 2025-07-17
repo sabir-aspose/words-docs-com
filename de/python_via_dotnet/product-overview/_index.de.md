@@ -1,4 +1,4 @@
----
+﻿---
 title: Produktübersicht
 second_title: Aspose.Words für Python via .NET
 articleTitle: Produktübersicht
@@ -56,7 +56,7 @@ Sie können ganze Dokumente oder einzelne Seiten in PDF oder XPS konvertieren, u
 
 #### Berichterstattung
 
-Erstellen Sie Dokumente oder Berichte von Grund auf oder füllen Sie Vorlagen mit Daten aus Datenquellen oder Geschäftsobjekten. Weitere Informationen zum Melden und Abrufen von Daten aus Datenbanken finden Sie in den Abschnitten [Mail Merge und Berichterstattung](/words/python-net/mail-merge-and-reporting/) und [LINQ-Reporting-Engine](/words/python-net/linq-reporting-engine/).
+Erstellen Sie Dokumente oder Berichte von Grund auf oder füllen Sie Vorlagen mit Daten aus Datenquellen oder Geschäftsobjekten. Weitere Informationen zum Melden und Abrufen von Daten aus Datenbanken finden Sie in den Abschnitten [Mail Merge und Berichterstattung](/words/de/python-net/mail-merge-and-reporting/) und [LINQ-Reporting-Engine](/words/python-net/linq-reporting-engine/).
 
 ### Plattformunabhängigkeit
 

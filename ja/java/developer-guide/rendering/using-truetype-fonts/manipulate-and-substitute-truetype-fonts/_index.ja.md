@@ -219,7 +219,7 @@ Aspose.Wordsは、Google Notoフォントの事前定義されたフォントフ
 
 ## Aspose.Wordsがフォントを探す場所
 
-Aspose.Wordsはファイルシステム上のTrueTypeフォントを自動的に検索しようとします。 通常、Aspose.Wordsのデフォルトの動作に依存して`TrueType`フォントを見つけることができますが、TrueTypeフォントを含む独自のフォルダを指定する必要がある場合があり ザ- [TrueTypeフォントの場所を指定します](/words/java/specify-truetype-fonts-location/) このトピックでは、Aspose.Wordsがフォントを検索する方法と場所、および独自のフォントの場所を指定する方法について説明します。
+Aspose.Wordsはファイルシステム上のTrueTypeフォントを自動的に検索しようとします。 通常、Aspose.Wordsのデフォルトの動作に依存して`TrueType`フォントを見つけることができますが、TrueTypeフォントを含む独自のフォルダを指定する必要がある場合があり ザ- [TrueTypeフォントの場所を指定します](/words/ja/java/specify-truetype-fonts-location/) このトピックでは、Aspose.Wordsがフォントを検索する方法と場所、および独自のフォントの場所を指定する方法について説明します。
 
 ## Aspose.WordsとMicrosoft Wordのフォント形式の処理の違い
 

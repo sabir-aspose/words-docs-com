@@ -1,4 +1,4 @@
----
+﻿---
 title: Voeg Velde in Java
 second_title: Aspose.Words vir Java
 articleTitle: Voeg By Velde
@@ -14,7 +14,7 @@ Daar is verskeie verskillende maniere om velde in'n dokument in te voeg:
 
 - gebruik [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)
 - gebruik [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/)
-- gebruik [Aspose.Words Dokument Voorwerp Model (DOM)](/words/java/aspose-words-document-object-model/)
+- gebruik [Aspose.Words Dokument Voorwerp Model (DOM)](/words/af/java/aspose-words-document-object-model/)
 
 In hierdie artikel sal ons na elke manier in meer besonderhede kyk en ontleed hoe om sekere velde in te voeg deur hierdie opsies te gebruik.
 
@@ -80,7 +80,7 @@ Die volgende kode voorbeeld toon hoe om'n veld in'n dokument te voeg met behulp 
 
 ## Voeg Velde in met DOM
 
-U kan ook verskillende soorte velde invoeg met behulp van [Aspose.Words Dokument Voorwerp Model (DOM)](/words/java/aspose-words-document-object-model/). In hierdie afdeling sal ons kyk na'n paar voorbeelde.
+U kan ook verskillende soorte velde invoeg met behulp van [Aspose.Words Dokument Voorwerp Model (DOM)](/words/af/java/aspose-words-document-object-model/). In hierdie afdeling sal ons kyk na'n paar voorbeelde.
 
 ### Voeg Saamvoeg Veld in'n Dokument met behulp van DOM
 

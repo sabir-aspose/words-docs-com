@@ -1,4 +1,4 @@
----
+﻿---
 title: Chỉ Định Các Tùy chọn Kết Xuất Khi Chuyển đổi thành PDF
 second_title: Aspose.Words cho C++
 articleTitle: Chỉ Định Các Tùy chọn Kết Xuất Khi Chuyển đổi thành PDF
@@ -96,7 +96,7 @@ Ví dụ mã dưới đây hiển thị cách thay đổi độ phân giải c�
 
 ## Nhúng Phông Chữ Ở Định Dạng Adobe PDF
 
-Aspose.Words cũng cho phép bạn kiểm soát cách các phông chữ được nhúng vào tài liệu PDF kết quả. Phông chữ cần được nhúng vào bất kỳ Tài liệu Adobe PDF nào để đảm bảo rằng tài liệu có thể được hiển thị chính xác trên bất kỳ máy nào (xem thêm chi tiết về kết xuất phông chữ trong phần [Sử Dụng Phông Chữ TrueType](/words/cpp/using-truetype-fonts/)). Theo mặc định, Aspose.Words nhúng một tập hợp con các phông chữ được sử dụng trong tài liệu vào PDF được tạo. Trong trường hợp này, chỉ các glyphs (ký tự) được sử dụng trong tài liệu được lưu vào PDF.
+Aspose.Words cũng cho phép bạn kiểm soát cách các phông chữ được nhúng vào tài liệu PDF kết quả. Phông chữ cần được nhúng vào bất kỳ Tài liệu Adobe PDF nào để đảm bảo rằng tài liệu có thể được hiển thị chính xác trên bất kỳ máy nào (xem thêm chi tiết về kết xuất phông chữ trong phần [Sử Dụng Phông Chữ TrueType](/words/vi/cpp/using-truetype-fonts/)). Theo mặc định, Aspose.Words nhúng một tập hợp con các phông chữ được sử dụng trong tài liệu vào PDF được tạo. Trong trường hợp này, chỉ các glyphs (ký tự) được sử dụng trong tài liệu được lưu vào PDF.
 
 ### Khi Nào Sử dụng Phông Chữ Đầy đủ Và Khi Nào Nên Tập Hợp Con
 

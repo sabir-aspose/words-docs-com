@@ -10,7 +10,7 @@ url: /zh/java/installation/
 timestamp: 2024-01-27-14-07-04
 ---
 
-确保您的机器符合 [系统要求](/words/java/system-requirements/) 在你开始之前。
+确保您的机器符合 [系统要求](/words/zh/java/system-requirements/) 在你开始之前。
 
 本文介绍如何在计算机上为Java安装Aspose.Words。
 

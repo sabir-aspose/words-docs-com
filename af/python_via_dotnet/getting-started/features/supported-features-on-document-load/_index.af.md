@@ -1,4 +1,4 @@
----
+﻿---
 title: Ondersteunde Kenmerke op Dokumentlading
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Ondersteunde Kenmerke op Dokumentlading
@@ -14,6 +14,6 @@ Aspose.Words streef daarna om alle funksies vir alle ondersteunde formate te ond
 
 {{% alert color="primary" %}}
 
-Vir meer inligting en'n beskrywing van die funksies wat beskikbaar is vir die verskillende formate, sien die [Ondersteunde Kenmerke op Dokumentlading](/words/net/supported-features-on-document-load/) afdeling in die Aspose.Words vir .NET dokumentasie.
+Vir meer inligting en'n beskrywing van die funksies wat beskikbaar is vir die verskillende formate, sien die [Ondersteunde Kenmerke op Dokumentlading](/words/af/net/supported-features-on-document-load/) afdeling in die Aspose.Words vir .NET dokumentasie.
 
 {{% /alert %}}

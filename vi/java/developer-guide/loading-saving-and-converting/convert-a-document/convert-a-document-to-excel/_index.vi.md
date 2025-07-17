@@ -1,4 +1,4 @@
----
+﻿---
 title: Chuyển từ Word sang Excel trong Java
 second_title: Aspose.Words dành cho Java
 articleTitle: Chuyển đổi Tài liệu thành Excel
@@ -67,5 +67,5 @@ doc.save(getArtifactsDir() + "BaseConversions.CompressXlsx.xlsx", saveOptions);
 
 ## Xem thêm
 
-- Phần Tài liệu [Protect or Encrypt a Document](/words/java/protect-or-encrypt-a-document/) để biết thêm thông tin về cách bảo vệ và mã hóa tài liệu
-- Bài viết [Find and Replace](/words/java/find-and-replace/) để biết thêm thông tin về việc tìm và thay thế nội dung bạn muốn
+- Phần Tài liệu [Protect or Encrypt a Document](/words/vi/java/protect-or-encrypt-a-document/) để biết thêm thông tin về cách bảo vệ và mã hóa tài liệu
+- Bài viết [Find and Replace](/words/vi/java/find-and-replace/) để biết thêm thông tin về việc tìm và thay thế nội dung bạn muốn

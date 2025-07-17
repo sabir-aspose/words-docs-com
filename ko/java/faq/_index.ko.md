@@ -12,7 +12,7 @@ timestamp: 2024-01-31-14-23-37
 
 이 페이지에는 가장 자주 묻는 질문에 대한 답변이 포함되어 있습니다. 현재 페이지를 배우십시오-아마도 이것은 당신이 당신의 문제를 빨리 해결할 수있게 해줄 것입니다.
 
-당신이 당신의 질문에 대한 답을 찾을 수없는 경우,당신은 지원 포럼에 요청할 수 있습니다. 질문이나 문제를 올바르게 보고하는 방법에 대한 자세한 내용은 다음을 참조하십시오 [기술 지원](/words/java/technical-support/) 페이지
+당신이 당신의 질문에 대한 답을 찾을 수없는 경우,당신은 지원 포럼에 요청할 수 있습니다. 질문이나 문제를 올바르게 보고하는 방법에 대한 자세한 내용은 다음을 참조하십시오 [기술 지원](/words/ko/java/technical-support/) 페이지
 
 {{% alert color="primary" %}}
 
@@ -32,7 +32,7 @@ Java의Aspose.Words은 응용 프로그램에서 다양한 문서 처리 작업�
 
 **질문:"Aspose.Words타사 응용 프로그램이 필요하지 않습니다"는 무엇을 의미합니까?**
 
-Aspose.WordsJava에 대해 타사 응용 프로그램이나 추가 소프트웨어 패키지를 설치할 필요가 없습니다. 그냥 다운로드 및 설치Aspose.Words에 설명 된대로 [설치](/words/java/installation/) 기사 및 시작.
+Aspose.WordsJava에 대해 타사 응용 프로그램이나 추가 소프트웨어 패키지를 설치할 필요가 없습니다. 그냥 다운로드 및 설치Aspose.Words에 설명 된대로 [설치](/words/ko/java/installation/) 기사 및 시작.
 
 ------
 
@@ -40,7 +40,7 @@ Aspose.WordsJava에 대해 타사 응용 프로그램이나 추가 소프트웨�
 
 Aspose.WordsJava의 경우 대부분의 인기 있는 개발 환경 및 배포 플랫폼을 다룹니다. API는Windows,Linux,Mac OS와 같은 광범위한 운영 체제 및 다양한 플랫폼에 대한 응용 프로그램을 개발하는 데 사용할 수 있습니다.
 
-자세한 내용은 [제품 개요](/words/java/product-overview/) 페이지 및 [플랫폼 및Interop가능성](/words/java/platforms-and-interoperability/) 부문
+자세한 내용은 [제품 개요](/words/ko/java/product-overview/) 페이지 및 [플랫폼 및Interop가능성](/words/java/platforms-and-interoperability/) 부문
 
 ------
 
@@ -48,7 +48,7 @@ Aspose.WordsJava의 경우 대부분의 인기 있는 개발 환경 및 배포 �
 
 Aspose.WordsJava의 경우 다음과 같은 대부분의 인기 있는 문서 형식을 지원합니다DOC, DOCX, HTML, Markdown, PDF, XML, 그리고 다른 사람들도
 
-당신은에서 지원되는 형식의 전체 목록을 볼 수 있습니다 [지원되는 문서 형식](/words/java/supported-document-formats/) 페이지
+당신은에서 지원되는 형식의 전체 목록을 볼 수 있습니다 [지원되는 문서 형식](/words/ko/java/supported-document-formats/) 페이지
 
 ------
 
@@ -56,7 +56,7 @@ Aspose.WordsJava의 경우 다음과 같은 대부분의 인기 있는 문서 �
 
 평가판 또는 30 일 임시 라이센스를 사용하여 두 가지 방법으로이 작업을 수행 할 수 있습니다. 평가판 버전은 구입 한 것과 동일,그것은 전체 제품 기능을 제공하지만로드 및 저장하고 몇 백 단락에 최대 문서 크기를 제한 할 때 문서의 상단에 평가 워터 마크를 추가합니다. 임시 라이센스는 30 일 동안 시험 제한없이Aspose.Words을 테스트 할 수 있습니다.
 
-참조 [라이선스 및 구독](/words/java/licensing/) 자세한 내용은 페이지.
+참조 [라이선스 및 구독](/words/ko/java/licensing/) 자세한 내용은 페이지.
 
 {{% alert color="primary" %}}
 
@@ -70,31 +70,31 @@ Aspose.WordsJava의 경우 다음과 같은 대부분의 인기 있는 문서 �
 
 Aspose.Words라이센스를 구입하려면,당신은에 갈 필요가 [구매](https://purchase.aspose.com/buy) 페이지에서"Aspose.Words"제품과 자신에게 맞는 라이선스 유형을 선택합니다. 그런 다음 장바구니에 라이센스를 추가하고 쇼핑 카트 지침을 따르십시오.
 
-구입 후,에 설명 된대로 라이센스를 신청 [구입 한 라이센스](/words/java/licensing/#purchased-license) 부문
+구입 후,에 설명 된대로 라이센스를 신청 [구입 한 라이센스](/words/ko/java/licensing/) 부문
 
-Aspose.Words을 설치하는 방법에 대한 자세한 내용은 다음에서 읽을 수 있습니다 [설치](/words/java/installation/) 페이지
+Aspose.Words을 설치하는 방법에 대한 자세한 내용은 다음에서 읽을 수 있습니다 [설치](/words/ko/java/installation/) 페이지
 
 ------
 
 **큐:나는 어떻게 지원을 얻을 수 있습니까?**
 
-무료 기술 지원 포럼을 사용하십시오. 문제를 제대로 보고하는 방법과 포럼에 연락하기 전에 해야 할 일에 대한 자세한 내용은 [기술 지원](/words/java/technical-support/) 페이지
+무료 기술 지원 포럼을 사용하십시오. 문제를 제대로 보고하는 방법과 포럼에 연락하기 전에 해야 할 일에 대한 자세한 내용은 [기술 지원](/words/ko/java/technical-support/) 페이지
 
 ## 문서 렌더링
 
 {{% alert color="primary" %}}
 
-렌더링에 대한 자세한 정보는 다음에서 찾을 수 있습니다 [렌더링](/words/java/rendering/) 문서 섹션.
+렌더링에 대한 자세한 정보는 다음에서 찾을 수 있습니다 [렌더링](/words/ko/java/rendering/) 문서 섹션.
 
 {{% /alert %}}
 
 **질문:출력 문서의 레이아웃과 글꼴이 원본과 다른 이유는 무엇입니까?**
 
-글꼴을 사용할 수 없거나 글꼴 형식은Microsoft Word에서 지원되지만Aspose.Words에서는 지원되지 않습니다. Aspose.Words가 수행합니다. [글꼴 대체](/words/java/manipulate-and-substitute-truetype-fonts/).
+글꼴을 사용할 수 없거나 글꼴 형식은Microsoft Word에서 지원되지만Aspose.Words에서는 지원되지 않습니다. Aspose.Words가 수행합니다. [글꼴 대체](/words/ko/java/manipulate-and-substitute-truetype-fonts/).
 
 글꼴이 없는지 확인하려면:
 
-- Aspose.Words에서 글꼴 대체 경고를 사용합니다(자세한 내용은"글꼴이 대체되었음을 인식하는 방법"섹션을 참조하십시오 [TrueType글꼴 조작 및 대체](/words/java/manipulate-and-substitute-truetype-fonts/) 기사).
+- Aspose.Words에서 글꼴 대체 경고를 사용합니다(자세한 내용은"글꼴이 대체되었음을 인식하는 방법"섹션을 참조하십시오 [TrueType글꼴 조작 및 대체](/words/ko/java/manipulate-and-substitute-truetype-fonts/) 기사).
 - Microsoft Word에서"글꼴 대체"대화 상자를 엽니 다.(파일 옵션,고급 글꼴 대체).
 
 ------
@@ -121,7 +121,7 @@ Microsoft사무실 대체 설정이 기본적으로 선택되어 있고Microsoft
 
 {{% alert color="primary" %}}
 
-Mail Merge에 대한 더 자세한 정보는 [Mail Merge및 보고](/words/java/mail-merge-and-reporting/) 문서 섹션.
+Mail Merge에 대한 더 자세한 정보는 [Mail Merge및 보고](/words/ko/java/mail-merge-and-reporting/) 문서 섹션.
 
 {{% /alert %}}
 
@@ -145,7 +145,7 @@ Mail Merge에 대한 더 자세한 정보는 [Mail Merge및 보고](/words/java/
 부모 테이블과 자식 테이블 간의 관계가 설정되지 않았거나 잘못 설정되었기 때문입니다. 그것은 필요:
 
 - **DataSet**내에서 데이터 무결성을 확인하고**DataRelation**개체를 사용하여 관련 데이터 테이블 간의 부모-자식 관계를 나타냅니다.
-- 문서의"중첩Mail Merge에 데이터 관계를 설정하는 방법"섹션을 확인하십시오. [중첩Mail Merge영역](/words/java/nested-mail-merge-with-regions/).
+- 문서의"중첩Mail Merge에 데이터 관계를 설정하는 방법"섹션을 확인하십시오. [중첩Mail Merge영역](/words/ko/java/nested-mail-merge-with-regions/).
 
 ------
 
@@ -159,7 +159,7 @@ Mail Merge에 대한 더 자세한 정보는 [Mail Merge및 보고](/words/java/
 
 {{% alert color="primary" %}}
 
-문서 프로그래밍에 대한 자세한 정보는 다음에서 찾을 수 있습니다 [문서 프로그래밍](/words/java/programming-with-documents/) 문서 섹션.
+문서 프로그래밍에 대한 자세한 정보는 다음에서 찾을 수 있습니다 [문서 프로그래밍](/words/ko/java/programming-with-documents/) 문서 섹션.
 
 {{% /alert %}}
 
@@ -171,7 +171,7 @@ Mail Merge에 대한 더 자세한 정보는 [Mail Merge및 보고](/words/java/
 
 {{% alert color="primary" %}}
 
-문서 변환에 대한 자세한 정보는 다음에서 찾을 수 있습니다 [문서 변환](/words/java/convert-a-document/) 문서 섹션.
+문서 변환에 대한 자세한 정보는 다음에서 찾을 수 있습니다 [문서 변환](/words/ko/java/convert-a-document/) 문서 섹션.
 
 {{% /alert %}}
 
@@ -193,7 +193,7 @@ doc.save(dataDir + "output.pdf", SaveFormat.Pdf);
 
 {{% alert color="primary" %}}
 
-문서 프로그래밍에 대한 자세한 정보는 다음에서 찾을 수 있습니다 [문서 프로그래밍](/words/java/programming-with-documents/) 문서 섹션.
+문서 프로그래밍에 대한 자세한 정보는 다음에서 찾을 수 있습니다 [문서 프로그래밍](/words/ko/java/programming-with-documents/) 문서 섹션.
 
 {{% /alert %}}
 
@@ -253,4 +253,4 @@ catch (Exception e)
 
 **큐:문서를 인쇄하는 방법?**
 
-자세한 답변을 보려면 기사를 배우십시오 [프로그래밍 방식으로 문서 인쇄 또는 대화 상자 사용](/words/java/print-a-document-programmatically-or-using-dialogs/).
+자세한 답변을 보려면 기사를 배우십시오 [프로그래밍 방식으로 문서 인쇄 또는 대화 상자 사용](/words/ko/java/print-a-document-programmatically-or-using-dialogs/).

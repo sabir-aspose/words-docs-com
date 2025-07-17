@@ -470,7 +470,7 @@ Funkcja rozpoznawania hiperłączy podczas ładowania dokumentów TXT została z
 
 {{% alert color="primary" %}}
 
-Dowiedz się więcej o [Aspose.Words dla Java 23.9 Informacje O Wydaniu](/words/java/aspose-words-for-java-23-9-release-notes/).
+Dowiedz się więcej o [Aspose.Words dla Java 23.9 Informacje O Wydaniu](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-9-release-notes/).
 
 Dowiedz się więcej o [Aspose.Words dla Java 23.10 Informacje O Wydaniu](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 

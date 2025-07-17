@@ -1,4 +1,4 @@
----
+﻿---
 title: Работа с функциями Markdown в C++
 second_title: Aspose.Words для C++
 articleTitle: Работа с функциями Markdown
@@ -27,7 +27,7 @@ timestamp: 2024-01-31-14-23-37
 
 {{% alert color="primary" %}}
 
-Существуют нюансы перевода Markdown в объектную модель документа (DOM) Aspose.Words, описанные в статье [Перевести Markdown в объектную модель документа (DOM)](/words/cpp/translate-markdown-to-document-object-model/).
+Существуют нюансы перевода Markdown в объектную модель документа (DOM) Aspose.Words, описанные в статье [Перевести Markdown в объектную модель документа (DOM)](/words/ru/cpp/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

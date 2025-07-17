@@ -1,4 +1,4 @@
----
+﻿---
 title: Cum să creezi un cod de bare
 second_title: Aspose.Words pentru .NET
 articleTitle: Generați o imagine de cod de bare personalizat
@@ -55,7 +55,7 @@ Iată un exemplu de utilizare a generatorului de cod folosind API-urile Aspose.W
 
 {{% alert color="primary" %}}
 
-Pentru mai multe informații despre convertirea documentelor dintr-un format în altul, citiți secțiunea de documentare [Convert a Document](/words/net/convert-a-document/).
+Pentru mai multe informații despre convertirea documentelor dintr-un format în altul, citiți secțiunea de documentare [Convert a Document](/words/ro/net/convert-a-document/).
 
 {{% /alert %}}
 

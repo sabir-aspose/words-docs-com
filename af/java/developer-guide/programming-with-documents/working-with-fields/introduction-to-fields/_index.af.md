@@ -1,4 +1,4 @@
----
+﻿---
 title: Inleiding Tot Velde in Java
 second_title: Aspose.Words vir Java
 articleTitle: Inleiding Tot Velde
@@ -29,7 +29,7 @@ In hierdie artikel sal ons meer leer oor veldstruktuur, die velde wat in Aspose.
 
 ![fields-aspose-words-java](introduction-to-fields-1.png)
 
-Die inhoud wat die veld kode maak gestoor as [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) nodes tussen die [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/) en [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/). Die veld resultaat is gestoor tussen die **FieldSeparator** en [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/) nodes en kan bestaan uit verskillende tipes van inhoud. Normaalweg bevat die veldresultaat net teks wat bestaan uit Run nodes, maar dit is moontlik dat Die FieldEnd node in'n heeltemal ander paragraaf geleë is, en sodoende die veldresultaat bestaan uit [blokvlak-knope](/words/java/logical-levels-of-nodes-in-a-document/) soos **Table** en **Paragraph** nodusse ook.
+Die inhoud wat die veld kode maak gestoor as [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) nodes tussen die [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/) en [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/). Die veld resultaat is gestoor tussen die **FieldSeparator** en [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/) nodes en kan bestaan uit verskillende tipes van inhoud. Normaalweg bevat die veldresultaat net teks wat bestaan uit Run nodes, maar dit is moontlik dat Die FieldEnd node in'n heeltemal ander paragraaf geleë is, en sodoende die veldresultaat bestaan uit [blokvlak-knope](/words/af/java/logical-levels-of-nodes-in-a-document/) soos **Table** en **Paragraph** nodusse ook.
 
 Hier is'n siening van hoe'n veld gestoor word in Aspose.Words deur die gebruik van die " *DocumentExplorer"* voorbeeld wat gevind kan word op [Github](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/java/com/aspose/words/examples/viewers_visualizers/document_explorer).
 

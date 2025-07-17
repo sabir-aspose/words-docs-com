@@ -1,4 +1,4 @@
----
+﻿---
 title: Bir Belgeyi C++ olarak Dönüştür
 second_title: Aspose.Words için C++
 articleTitle: Bir Belgeyi Dönüştürme
@@ -30,7 +30,7 @@ Dönüşüm işlevini kullanarak deneyebilirsiniz. bizim [Ücretsiz çevrimiçi 
 
 ## Popüler Dönüşümler {#popular-conversions}
 
-Geçerli bölümde, popüler dönüşümlerin yanı sıra yükleme ve kaydetme sırasında bazı biçim kombinasyonlarıyla çalışma fikirleri açıklanmaktadır. Bu bölümün örneklerini kullanarak, dönüştürme işleminin kendisinin oldukça evrensel olduğunu anlayabilirsiniz ve olası tüm seçenekleri açıklamanın bir anlamı yoktur, çünkü çok sayıda olması nedeniyle bunlardan birkaç yüz tanesi vardır. [tarafından desteklenen biçimler Aspose.Words için C++](/words/cpp/supported-document-formats/).
+Geçerli bölümde, popüler dönüşümlerin yanı sıra yükleme ve kaydetme sırasında bazı biçim kombinasyonlarıyla çalışma fikirleri açıklanmaktadır. Bu bölümün örneklerini kullanarak, dönüştürme işleminin kendisinin oldukça evrensel olduğunu anlayabilirsiniz ve olası tüm seçenekleri açıklamanın bir anlamı yoktur, çünkü çok sayıda olması nedeniyle bunlardan birkaç yüz tanesi vardır. [tarafından desteklenen biçimler Aspose.Words için C++](/words/tr/cpp/supported-document-formats/).
 
 {{% alert color="primary" %}}
 

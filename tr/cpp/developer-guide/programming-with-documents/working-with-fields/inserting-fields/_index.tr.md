@@ -1,4 +1,4 @@
----
+﻿---
 title: C++ içine Alan Ekle
 second_title: Aspose.Words için C++
 articleTitle: Alanları Ekle
@@ -14,7 +14,7 @@ Bir belgeye alan eklemenin birkaç farklı yolu vardır:
 
 - [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/) kullanarak
 - [FieldBuilder](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldbuilder/) kullanarak
-- kullanım [Aspose.Words Belge Nesne Modeli (DOM)](/words/cpp/aspose-words-document-object-model/)
+- kullanım [Aspose.Words Belge Nesne Modeli (DOM)](/words/tr/cpp/aspose-words-document-object-model/)
 
 Bu yazıda, her bir yolu daha ayrıntılı olarak ele alacağız ve bu seçenekleri kullanarak belirli alanların nasıl ekleneceğini analiz edeceğiz.
 
@@ -64,7 +64,7 @@ Aşağıdaki kod örneği, **FieldBuilder** kullanarak bir belgeye nasıl alan e
 
 ## DOM kullanarak Alan ekleme
 
-Kullanarak çeşitli alan türleri de ekleyebilirsiniz [Aspose.Words Belge Nesne Modeli (DOM)](/words/cpp/aspose-words-document-object-model/). Bu bölümde birkaç örneğe bakacağız.
+Kullanarak çeşitli alan türleri de ekleyebilirsiniz [Aspose.Words Belge Nesne Modeli (DOM)](/words/tr/cpp/aspose-words-document-object-model/). Bu bölümde birkaç örneğe bakacağız.
 
 ### DOM kullanarak Belgeye Birleştirme Alanı Ekleme
 

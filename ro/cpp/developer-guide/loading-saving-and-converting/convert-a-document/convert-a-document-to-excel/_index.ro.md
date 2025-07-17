@@ -1,4 +1,4 @@
----
+﻿---
 title: Convertiți Word în Excel în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Conversia unui Document în Excel
@@ -61,5 +61,5 @@ doc->Save(ArtifactsDir + u"BaseConversions.CompressXlsx.xlsx", saveOptions);
 
 ## Vezi Și
 
-- Secțiunea Documentație [Protejarea sau criptarea unui Document](/words/cpp/protect-or-encrypt-a-document/) pentru mai multe informații despre protejarea și criptarea unui document
-- Articolul [Găsiți și înlocuiți](/words/cpp/find-and-replace/) pentru mai multe informații despre găsirea și înlocuirea conținutului dorit
+- Secțiunea Documentație [Protejarea sau criptarea unui Document](/words/ro/cpp/protect-or-encrypt-a-document/) pentru mai multe informații despre protejarea și criptarea unui document
+- Articolul [Găsiți și înlocuiți](/words/ro/cpp/find-and-replace/) pentru mai multe informații despre găsirea și înlocuirea conținutului dorit

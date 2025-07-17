@@ -470,7 +470,7 @@ La función para reconocer hipervínculos al cargar documentos TXT se ha impleme
 
 {{% alert color="primary" %}}
 
-Más información sobre [Aspose.Words por Java 23.9 Notas de la versión](/words/java/aspose-words-for-java-23-9-release-notes/).
+Más información sobre [Aspose.Words por Java 23.9 Notas de la versión](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-9-release-notes/).
 
 Más información sobre [Aspose.Words por Java 23.10 Notas de la versión](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 

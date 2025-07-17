@@ -15,7 +15,7 @@ timestamp: 2024-01-31-14-23-37
 * 문서 제목,작성자 이름,문서 통계 등과 같은 값을 포함하는 시스템 또는 내장.
 * 사용자 정의 또는 사용자 정의,사용자가 이름과 값을 모두 정의할 수 있는 이름-값 쌍으로 제공됩니다.
 
-API및 버전 번호에 대한 정보가 출력 문서에 직접 기록된다는 것을 아는 것이 유용합니다. 예를 들어,문서를PDF로 변환할 때,Aspose.Words은"응용"필드에"Aspose.Words"을 채우고,"PDF생산자"필드에"Aspose.Words에 대한JavaYY을 채운다.*YY.M.N*는 변환에 사용되는Aspose.Words의 버전입니다. 자세한 내용은 참조 [출력 문서에 포함된 생성자 또는 생산자 이름](/words/java/generator-or-producer-name-included-in-output-documents/).
+API및 버전 번호에 대한 정보가 출력 문서에 직접 기록된다는 것을 아는 것이 유용합니다. 예를 들어,문서를PDF로 변환할 때,Aspose.Words은"응용"필드에"Aspose.Words"을 채우고,"PDF생산자"필드에"Aspose.Words에 대한JavaYY을 채운다.*YY.M.N*는 변환에 사용되는Aspose.Words의 버전입니다. 자세한 내용은 참조 [출력 문서에 포함된 생성자 또는 생산자 이름](/words/ko/java/generator-or-producer-name-included-in-output-documents/).
 
 {{% alert color="primary" %}}
 

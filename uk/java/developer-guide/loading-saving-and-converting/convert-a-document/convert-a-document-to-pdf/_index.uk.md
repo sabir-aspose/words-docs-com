@@ -47,7 +47,7 @@ timestamp: 2024-01-31-14-23-37
 
 ### Перетворення в різні PDF Стандарти {#converting-to-various-pdf-standards}
 
-Aspose.Words забезпечує [PdfCompliace](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)заохочення для підтримки перетворення DOC або DOCX в різні стандарти формату PDF (наприклад, PDF 1.7, PDF 1.5 тощо).
+Aspose.Words забезпечує [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)заохочення для підтримки перетворення DOC або DOCX в різні стандарти формату PDF (наприклад, PDF 1.7, PDF 1.5 тощо).
 
 Приклад коду показує, як перетворити документ в PDF 1.7 за допомогою [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) з дотриманням PDF17:
 
@@ -82,5 +82,5 @@ Aspose.Words забезпечує [PdfCompliace](https://reference.aspose.com/wo
 ## Дивитися ще
 
 - Статті [Рендеринг](/words/uk/java/rendering/) для отримання додаткової інформації про формати фіксованої сторінки та потокового передавання
-- Статті [Перетворення у формат Фіксованого сторінки](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) для отримання додаткової інформації на макеті сторінки
+- Статті [Перетворення у формат Фіксованого сторінки](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) для отримання додаткової інформації на макеті сторінки
 - Статті [Казати казати казати казати](/words/uk/java/specify-rendering-options-when-converting-to-pdf/) для отримання додаткової інформації про використання `PdfSaveOptions` клас

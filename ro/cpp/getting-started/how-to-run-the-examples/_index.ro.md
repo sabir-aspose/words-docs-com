@@ -1,4 +1,4 @@
----
+﻿---
 title: Cum să rulați exemplele
 second_title: Aspose.Words pentru C++
 articleTitle: Cum să rulați exemplele
@@ -36,7 +36,7 @@ După obținerea unei copii a depozitului, este posibil să găsiți că:
 
 Pentru a rula exemplele, deschideți fișierul soluție în Visual Studio și construiți proiectul:
 
-- Pentru **API Reference** Exemple, structura se bazează pe nume de clase, pentru **Docs** Exemple se bazează în mare parte pe [Dezvoltator Guiled](/words/cpp/developer-guide/) secțiunea Documentație.
+- Pentru **API Reference** Exemple, structura se bazează pe nume de clase, pentru **Docs** Exemple se bazează în mare parte pe [Dezvoltator Guiled](/words/ro/cpp/developer-guide/) secțiunea Documentație.
 - La prima rulare, dependențele vor fi descărcate automat prin NuGet.
 - Folderul **Data** din folderul rădăcină al **Examples** conține fișiere de intrare care au fost utilizate în exemple.
 - Toate exemplele pot fi executate ca teste unitare.
@@ -68,7 +68,7 @@ Soluția pentru Visual Studio va fi generată în `Examples\DocsExamples\build`
 
 Pentru a rula exemplele, deschideți fișierul soluție în Visual Studio și construiți proiectul:
 
-- Pentru **API Reference** Exemple, structura se bazează pe nume de clase, pentru **Docs** Exemple se bazează în mare parte pe [Dezvoltator Guiled](/words/cpp/developer-guide/) secțiunea Documentație.
+- Pentru **API Reference** Exemple, structura se bazează pe nume de clase, pentru **Docs** Exemple se bazează în mare parte pe [Dezvoltator Guiled](/words/ro/cpp/developer-guide/) secțiunea Documentație.
 - Folderul **Data** din folderul rădăcină al **Examples** conține fișiere de intrare care au fost utilizate în exemple.
 - Toate exemplele pot fi executate ca teste unitare.
 
@@ -99,7 +99,7 @@ cmake --build Examples/DocsExamples/build
 cmake -E chdir Examples/DocsExamples/build ctest --verbose
 {{< /highlight >}}
 
-- Pentru **API Reference** Exemple, structura se bazează pe nume de clase, pentru **Docs** Exemple se bazează în mare parte pe [Dezvoltator Guiled](/words/cpp/developer-guide/) secțiunea Documentație.
+- Pentru **API Reference** Exemple, structura se bazează pe nume de clase, pentru **Docs** Exemple se bazează în mare parte pe [Dezvoltator Guiled](/words/ro/cpp/developer-guide/) secțiunea Documentație.
 - Folderul **Data** din folderul rădăcină al **Examples** conține fișiere de intrare care au fost utilizate în exemple.
 - Toate exemplele pot fi executate ca teste unitare.
 

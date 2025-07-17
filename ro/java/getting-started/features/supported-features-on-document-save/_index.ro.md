@@ -1,4 +1,4 @@
----
+﻿---
 title: Funcții acceptate pe salvarea documentelor
 second_title: Aspose.Words pentru Java
 articleTitle: Funcții acceptate pe salvarea documentelor
@@ -10,7 +10,7 @@ url: /ro/java/supported-features-on-document-save/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words permite utilizatorilor să lucreze cu documente în diferite formate și oferă o gamă largă de funcții pentru aceasta. De exemplu, utilizatorii pot crea un document de la zero sau îl pot încărca, pot face unele modificări și apoi pot salva acele modificări în fișierul de ieșire în orice [format de export acceptat](/words/java/supported-document-formats/). În timp ce salvează documentul în formatul selectat, utilizatorul poate aplica diverse opțiuni de salvare.
+Aspose.Words permite utilizatorilor să lucreze cu documente în diferite formate și oferă o gamă largă de funcții pentru aceasta. De exemplu, utilizatorii pot crea un document de la zero sau îl pot încărca, pot face unele modificări și apoi pot salva acele modificări în fișierul de ieșire în orice [format de export acceptat](/words/ro/java/supported-document-formats/). În timp ce salvează documentul în formatul selectat, utilizatorul poate aplica diverse opțiuni de salvare.
 
 {{% alert color="primary" %}}
 
@@ -21,7 +21,7 @@ Este important să știți că multe opțiuni de salvare sunt comune tuturor for
 Pentru o listă completă a funcțiilor, a se vedea API reference:
 
 - [save options for all formats](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/)
-- [fixed page save options](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/) pentru [formate de pagini fixe](/words/java/converting-to-fixed-page-format/): PDF, XPS, imagini și altele
+- [fixed page save options](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/) pentru [formate de pagini fixe](/words/ro/java/converting-to-fixed-page-format/): PDF, XPS, imagini și altele
 - [PDF save options](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) pentru formatul PDF
 - [OOXML save options](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/) pentru DOCX, DOCM, DOTX, DOTM, sau FlatOpc formate
 - [DOC save options](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) pentru formatele DOC și DOT

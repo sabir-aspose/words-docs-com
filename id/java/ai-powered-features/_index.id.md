@@ -1,4 +1,4 @@
----
+﻿---
 title: AI-Fitur bertenaga
 second_title: Aspose.Words untuk Java
 articleTitle: AI-Fitur bertenaga
@@ -16,7 +16,7 @@ Aspose.Words sekarang menyertakan fitur bertenaga AI yang dirancang untuk membua
 
 Di bagian ini, kami akan membahas semua yang perlu Anda ketahui tentang penggunaan fitur AI yang didukung di Aspose.Words. Dari kiat praktis hingga petunjuk terperinci, kami bertujuan untuk membantu Anda memanfaatkan peningkatan ini sebaik-baiknya.
 
-* [Model AI yang didukung](/words/java/supported-ai-models/)
-* [Meringkas Dokumen](/words/java/summarize-a-document/)
-* [Menerjemahkan Dokumen](/words/java/translate-a-document/)
-* [Pemeriksaan Tata Bahasa](/words/java/grammar-checking/)
+* [Model AI yang didukung](/words/id/java/supported-ai-models/)
+* [Meringkas Dokumen](/words/id/java/summarize-a-document/)
+* [Menerjemahkan Dokumen](/words/id/java/translate-a-document/)
+* [Pemeriksaan Tata Bahasa](/words/id/java/grammar-checking/)

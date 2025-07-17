@@ -1,4 +1,4 @@
----
+﻿---
 title: ภาพรวมฟิลด์ในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: ภาพรวมฟิลด์
@@ -29,7 +29,7 @@ Aspose.Wordsเป็นไลบรารีชั้นที่ออกแ�
 
 ![fields-overview-aspose-words-cpp-1](fields-overview-1.png)
 
-เนื้อหาที่สร้างรหัสฟิลด์จะถูกเก็บไว้เป็น[Run](https://reference.aspose.com/words/cpp/class/aspose.words.run)โหนดระหว่าง[FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/)และ[FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/) ผลลัพธ์ของฟิลด์จะถูกเก็บไว้ระหว่าง**FieldSeparator**และ[FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/)โหนดและสามารถสร้างขึ้นจากชนิดของเนื้อหา โดยปกติแล้วผลลัพธ์ของฟิลด์จะมีเพียงข้อความที่สร้างขึ้นจาก**Run**โหนดแต่ก็เป็นไปได้สำหรับ**FieldEnd**โหนดที่จะอยู่ในย่อหน้าที่แตกต่างกันอย่างสิ้นเชิง,และทำให้ผลลัพธ์ของฟิลด์ประกอบด้วย [โหนดระดับบล็อก](/words/cpp/logical-levels-of-nodes-in-a-document/) เช่น**Table**และ**Paragraph**โหนดเช่นกัน.
+เนื้อหาที่สร้างรหัสฟิลด์จะถูกเก็บไว้เป็น[Run](https://reference.aspose.com/words/cpp/class/aspose.words.run)โหนดระหว่าง[FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/)และ[FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/) ผลลัพธ์ของฟิลด์จะถูกเก็บไว้ระหว่าง**FieldSeparator**และ[FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/)โหนดและสามารถสร้างขึ้นจากชนิดของเนื้อหา โดยปกติแล้วผลลัพธ์ของฟิลด์จะมีเพียงข้อความที่สร้างขึ้นจาก**Run**โหนดแต่ก็เป็นไปได้สำหรับ**FieldEnd**โหนดที่จะอยู่ในย่อหน้าที่แตกต่างกันอย่างสิ้นเชิง,และทำให้ผลลัพธ์ของฟิลด์ประกอบด้วย [โหนดระดับบล็อก](/words/th/cpp/logical-levels-of-nodes-in-a-document/) เช่น**Table**และ**Paragraph**โหนดเช่นกัน.
 
 ต่อไปนี้เป็นมุมมองของวิธีการจัดเก็บฟิลด์ในAspose.Wordsโดยใช้ตัวอย่าง"*DocumentExplorer"*.
 
@@ -37,7 +37,7 @@ Aspose.Wordsเป็นไลบรารีชั้นที่ออกแ�
 
 ## ฟิลด์ในแบบจำลองวัตถุเอกสารAspose.Words(DOM)
 
-เมื่อเอกสารถูกโหลดลงในAspose.Wordsฟิลด์ของเอกสารจะถูกโหลดลงใน [Aspose.Wordsรูปแบบวัตถุเอกสาร](/words/cpp/aspose-words-document-object-model/) เป็นชุดขององค์ประกอบที่แยกต่างหาก(โหนด) ฟิลด์เดียวถูกโหลดเป็นคอลเล็กชันของ**FieldStart**,**FieldSeparator**และ**FieldEnd**โหนดพร้อมกับเนื้อหาในระหว่างโหนดเหล่านี้ ถ้าฟิลด์ไม่มีผลลัพธ์ฟิลด์แล้วจะไม่มีโหนด**FieldSeparator** ทั้งหมดของโหนดเหล่านี้จะพบแบบอินไลน์เสมอ(เป็นเด็กของ[Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph)หรือ[SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
+เมื่อเอกสารถูกโหลดลงในAspose.Wordsฟิลด์ของเอกสารจะถูกโหลดลงใน [Aspose.Wordsรูปแบบวัตถุเอกสาร](/words/th/cpp/aspose-words-document-object-model/) เป็นชุดขององค์ประกอบที่แยกต่างหาก(โหนด) ฟิลด์เดียวถูกโหลดเป็นคอลเล็กชันของ**FieldStart**,**FieldSeparator**และ**FieldEnd**โหนดพร้อมกับเนื้อหาในระหว่างโหนดเหล่านี้ ถ้าฟิลด์ไม่มีผลลัพธ์ฟิลด์แล้วจะไม่มีโหนด**FieldSeparator** ทั้งหมดของโหนดเหล่านี้จะพบแบบอินไลน์เสมอ(เป็นเด็กของ[Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph)หรือ[SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
 
 ในAspose.Wordsแต่ละโหนด**FieldXXX**มาจาก[FieldChar](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_char/) คลาสนี้จัดเตรียมคุณสมบัติเพื่อตรวจสอบชนิดของฟิลด์ที่แสดงโดยโหนดที่ระบุผ่านคุณสมบัติ[FieldType](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldchar/get_fieldtype/) ตัวอย่างเช่น**FieldType.FieldMergeField**แสดงฟิลด์ผสานในเอกสาร.
 

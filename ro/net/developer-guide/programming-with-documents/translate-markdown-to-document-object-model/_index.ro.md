@@ -1,4 +1,4 @@
----
+﻿---
 title: Traduc Markdown la DOM
 second_title: Aspose.Words pentru .NET
 articleTitle: Traduc Markdown în Document Object Model (DOM)
@@ -12,7 +12,7 @@ timestamp: 2024-10-21-11-17-44
 
 Pentru a citi programatic, manipula și modifica conținutul și formatarea unui document, ai nevoie să-l traduci în Aspose.Words Document Object Model ( DOM ).
 
-Spre deosebire de documentele Word, Markdown nu respectă DOM descris în [Aspose.Words Document Object Model (DOM)](/words/net/aspose-words-document-object-model/) articolul. Aspose.Words oferă însă propriul său mecanism de traducere a documentelor Markdown în DOM și înapoi, astfel încât putem lucra cu succes cu elementele lor, cum ar fi formatarea textului, tabelele, antetele și altele.
+Spre deosebire de documentele Word, Markdown nu respectă DOM descris în [Aspose.Words Document Object Model (DOM)](/words/ro/net/aspose-words-document-object-model/) articolul. Aspose.Words oferă însă propriul său mecanism de traducere a documentelor Markdown în DOM și înapoi, astfel încât putem lucra cu succes cu elementele lor, cum ar fi formatarea textului, tabelele, antetele și altele.
 
 Acest articol explică modul în care diferite markdown caracteristici pot fi traduse în Aspose.Words DOM și înapoi la Markdown format.
 
@@ -174,5 +174,5 @@ builder.Writeln("d"); {{< /highlight >}} |  |
 
 ## Vezi și
 
-* [Working with Markdown Features](/words/net/working-with-markdown-features/)
+* [Working with Markdown Features](/words/ro/net/working-with-markdown-features/)
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Skakel Word Na Excel in Java
 second_title: Aspose.Words vir Java
 articleTitle: Skakel'n Dokument Om Na Excel
@@ -67,5 +67,5 @@ doc.save(getArtifactsDir() + "BaseConversions.CompressXlsx.xlsx", saveOptions);
 
 ## Sien Ook
 
-- Dokumentasie afdeling [Beskerm of Enkripteer'n Dokument](/words/java/protect-or-encrypt-a-document/) vir meer inligting oor die beskerming en enkripsie van'n dokument
-- Die artikel [Vind en Vervang](/words/java/find-and-replace/) vir meer inligting oor die vind en vervanging van die inhoud wat u wil hê
+- Dokumentasie afdeling [Beskerm of Enkripteer'n Dokument](/words/af/java/protect-or-encrypt-a-document/) vir meer inligting oor die beskerming en enkripsie van'n dokument
+- Die artikel [Vind en Vervang](/words/af/java/find-and-replace/) vir meer inligting oor die vind en vervanging van die inhoud wat u wil hê

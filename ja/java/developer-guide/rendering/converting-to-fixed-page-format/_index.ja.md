@@ -75,7 +75,7 @@ Aspose.Wordsでは、ユーザーは新しいページレイアウトを作成�
 - 出力文書に含まれるページの数と範囲([PageIndex](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/),[PageCount](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
 - ページごとの文書保存の進行状況([PageSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/)。
 - 数字のレンダリングに使用される文字のセット([NumeralFormat](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/)。
-- メタファイルプレーヤー([MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/). 詳細については、以下を参照してください。 [Windowsメタファイルの処理](/words/java/handling-windows-metafiles/) 記事。
+- メタファイルプレーヤー([MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/). 詳細については、以下を参照してください。 [Windowsメタファイルの処理](/words/ja/java/handling-windows-metafiles/) 記事。
 - 選択した保存形式([JpegQuality](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/))に応じて、その値がわずかに異なる場合があります。JPEG画像を再圧縮するための品質レート。
 - Aspose.Words出力におけるベクターグラフィックスの最適化([OptimizeOutput](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
 - Tiff、Png、Bmp、Jpeg、Emf形式([UseAntiAliasing](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/#getUseAntiAliasing)、[UseHighQualityRendering](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/))に保存するときのグラフィックオプション。

@@ -1,4 +1,4 @@
----
+﻿---
 title: 파일 형식 및 변환
 second_title: .NET용 Aspose.Words
 articleTitle: 파일 형식 및 변환
@@ -29,7 +29,7 @@ Aspose.Words를 사용하면 단 두 줄의 코드를 사용하여 지원되는 
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "docx-to-pdf.cs" >}}
 
-문서 로드, 변환 및 저장에 대한 자세한 내용은 [로드, 저장 및 변환](/words/cpp/loading-saving-and-converting/) 섹션을 참조하세요.
+문서 로드, 변환 및 저장에 대한 자세한 내용은 [로드, 저장 및 변환](/words/ko/cpp/loading-saving-and-converting/) 섹션을 참조하세요.
 
 ## 높은 충실도
 

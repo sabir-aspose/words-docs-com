@@ -14,13 +14,13 @@ timestamp: 2024-09-25-11-08-55
 
 Aspose.Wordsの詳細については、適切なセクションを選択してください:
 
-- [インストール](/words/java/installation/) -Aspose.Wordsのインストール方法に関する情報を提供します
-- [こんにちは世界](/words/java/hello-world/) -ソースコードをコンパイルまたは実行することを意図したソフトウェアが正しくインストールされていることをテストする方法に関する情報を提供します
-- [サポートされているドキュメント形式](/words/java/supported-document-formats/) -サポートされている形式に関する情報を提供します
-- [サポートされる機能](/words/java/features/) -様々な形式で文書をロードまたは保存するときにサポートされている機能に関する情報を提供します
+- [インストール](/words/ja/java/installation/) -Aspose.Wordsのインストール方法に関する情報を提供します
+- [こんにちは世界](/words/ja/java/hello-world/) -ソースコードをコンパイルまたは実行することを意図したソフトウェアが正しくインストールされていることをテストする方法に関する情報を提供します
+- [サポートされているドキュメント形式](/words/ja/java/supported-document-formats/) -サポートされている形式に関する情報を提供します
+- [サポートされる機能](/words/ja/java/features/) -様々な形式で文書をロードまたは保存するときにサポートされている機能に関する情報を提供します
 - [サポートされるプラットフォーム](/words/java/platforms-and-interoperability/) -他のプラットフォーム用のアプリケーションを構築する際にAspose.Wordsを使用する方法についての情報を提供します
-- [ライセンスとサブスクリプション](/words/java/licensing/) -ライセンスの適用と複数のAspose製品の使用に関する情報を提供します
+- [ライセンスとサブスクリプション](/words/ja/java/licensing/) -ライセンスの適用と複数のAspose製品の使用に関する情報を提供します
 - [なぜAspose.Words](/words/java/aspose-words-or-other-solutions/) -AsposeコンポーネントがMicrosoftOffice Automationよりもはるかに優れている理由を説明します
-- [システム要件](/words/java/system-requirements/) -システムおよび開発環境の要件に関する情報を提供します
-- [セキュリティノート](/words/java/security/) -一般的なセキュリティ上の問題を回避する方法についての注意事項とヒントを説明します
-- [例を実行する方法](/words/java/how-to-run-the-examples/) -例をダウンロードして実行する方法と、どのソフトウェア要件を満たす必要があるかについて説明します
+- [システム要件](/words/ja/java/system-requirements/) -システムおよび開発環境の要件に関する情報を提供します
+- [セキュリティノート](/words/ja/java/security/) -一般的なセキュリティ上の問題を回避する方法についての注意事項とヒントを説明します
+- [例を実行する方法](/words/ja/java/how-to-run-the-examples/) -例をダウンロードして実行する方法と、どのソフトウェア要件を満たす必要があるかについて説明します

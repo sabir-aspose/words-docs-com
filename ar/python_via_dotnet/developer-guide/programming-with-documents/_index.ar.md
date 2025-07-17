@@ -1,4 +1,4 @@
----
+﻿---
 title: البرمجة بالوثائق
 second_title: Aspose.Words لـ Python via .NET
 articleTitle: البرمجة بالوثائق
@@ -51,11 +51,11 @@ timestamp: 2024-09-25-11-08-55
 - [العمل مع OfficeMath](/words/ar/python-net/working-with-officemath/)
 - [العمل مع العرض البارد SmartArt](/words/ar/python-net/working-with-smartart-cold-rendering/)
 - [العمل مع العلامة المائية](/words/ar/python-net/working-with-watermark/)
-- [العمل مع كائنات Ole والفيديو عبر الإنترنت](/words/python-net/working-with-ole-objects/)
+- [العمل مع كائنات Ole والفيديو عبر الإنترنت](/words/ar/python-net/working-with-ole-objects/)
 - [العمل مع الحقول](/words/ar/python-net/working-with-fields/)
 - [العمل مع حقول النموذج](/words/ar/python-net/working-with-form-fields/)
 - [العمل مع التحكم في المحتوى SDT](/words/ar/python-net/working-with-content-control-sdt/)
 - [العمل مع أحرف التحكم](/words/ar/python-net/working-with-control-characters/)
 - [العمل مع وحدات ماكرو VBA](/words/ar/python-net/working-with-vba-macros/)
 - [العمل مع ميزات Markdown](/words/ar/python-net/working-with-markdown-features/)
-- [العمل مع مستند نصي](/words/python-net/working-with-text-document/)
+- [العمل مع مستند نصي](/words/ar/python-net/working-with-text-document/)

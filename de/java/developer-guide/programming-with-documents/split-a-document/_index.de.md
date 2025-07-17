@@ -85,7 +85,7 @@ In diesem Abschnitt werden verschiedene Anwendungsfälle zum Aufteilen von Dokum
 
 {{% alert color="primary" %}}
 
-Sie können jeden verwenden [von Aspose.Words unterstütztes Ausgabeformat](/words/java/supported-document-formats/).
+Sie können jeden verwenden [von Aspose.Words unterstütztes Ausgabeformat](/words/de/java/supported-document-formats/).
 
 {{% /alert %}}
 

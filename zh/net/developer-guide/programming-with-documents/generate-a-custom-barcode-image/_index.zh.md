@@ -1,4 +1,4 @@
----
+﻿---
 title: 如何创建条形码
 second_title: Aspose.Words为.NET
 articleTitle: 生成自定义条形码图像
@@ -55,7 +55,7 @@ Aspose.Words有一个用于生成自定义条形码的接口，使其易于使�
 
 {{% alert color="primary" %}}
 
-有关将文档从一种格式转换到另一种格式的更多信息，请参阅 [Convert a Document](/words/net/convert-a-document/) 文档部分。
+有关将文档从一种格式转换到另一种格式的更多信息，请参阅 [Convert a Document](/words/zh/net/convert-a-document/) 文档部分。
 
 {{% /alert %}}
 

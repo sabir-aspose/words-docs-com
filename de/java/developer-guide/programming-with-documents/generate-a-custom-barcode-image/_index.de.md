@@ -55,7 +55,7 @@ Sie können das Dokument mit dem geladenen oder neu eingefügten Barcode auch in
 
 {{% alert color="primary" %}}
 
-Weitere Informationen zum Konvertieren von Dokumenten von einem Format in ein anderes finden Sie im [Ein Dokument konvertieren](/words/java/convert-a-document/) abschnitt Dokumentation.
+Weitere Informationen zum Konvertieren von Dokumenten von einem Format in ein anderes finden Sie im [Ein Dokument konvertieren](/words/de/java/convert-a-document/) abschnitt Dokumentation.
 
 {{% /alert %}}
 

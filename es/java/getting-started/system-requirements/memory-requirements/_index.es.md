@@ -42,10 +42,10 @@ Los experimentos con miles de documentos reales muestran que, por lo general, As
 
 Operaciones más complejas como renderizar (convertir a formatos de página fijos), actualizar campos, dividir páginas y otras, para algunos documentos requieren 20 veces más recursos que la memoria asignada por el documento cargado en Aspose.Words DOM.
 
-Si los resultados de su perfil indican un posible problema de memoria en Aspose.Words, comuníquese con nuestro [Equipo de Soporte](/words/java/technical-support/) e incluya toda la información de diagnóstico.
+Si los resultados de su perfil indican un posible problema de memoria en Aspose.Words, comuníquese con nuestro [Equipo de Soporte](/words/es/java/technical-support/) e incluya toda la información de diagnóstico.
 
 ## Véase También
 
-* [Renderizado](/words/java/rendering/)
-* [Mail Merge y Presentación de Informes](/words/java/mail-merge-and-reporting/)
-* [Trabajar con Campos](/words/java/working-with-fields/)
+* [Renderizado](/words/es/java/rendering/)
+* [Mail Merge y Presentación de Informes](/words/es/java/mail-merge-and-reporting/)
+* [Trabajar con Campos](/words/es/java/working-with-fields/)

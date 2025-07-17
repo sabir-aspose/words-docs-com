@@ -1,4 +1,4 @@
----
+﻿---
 title: AI - aangedrewe Funksies
 second_title: Aspose.Words vir Java
 articleTitle: AI - aangedrewe Funksies
@@ -16,7 +16,7 @@ Aspose.Words sluit nou AI-aangedrewe funksies in wat ontwerp is om dokumentverwe
 
 In hierdie afdeling dek ons alles wat u moet weet oor die gebruik van ondersteunde AI funksies in Aspose.Words. Van praktiese wenke tot gedetailleerde instruksies, ons beoog om u te help om die meeste van hierdie verbeterings te maak.
 
-* [Ondersteunde AI Modelle](/words/java/supported-ai-models/)
-* [Som'n Dokument op](/words/java/summarize-a-document/)
-* [Vertaal'n Dokument](/words/java/translate-a-document/)
-* [Grammatika-Kontrole](/words/java/grammar-checking/)
+* [Ondersteunde AI Modelle](/words/af/java/supported-ai-models/)
+* [Som'n Dokument op](/words/af/java/summarize-a-document/)
+* [Vertaal'n Dokument](/words/af/java/translate-a-document/)
+* [Grammatika-Kontrole](/words/af/java/grammar-checking/)

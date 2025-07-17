@@ -1,4 +1,4 @@
----
+﻿---
 title: Câmpuri în C#
 second_title: Aspose.Words pentru .NET
 articleTitle: Prezentare generală a câmpurilor
@@ -29,7 +29,7 @@ The field separator și sfârșit de câmp cuprind rezultatul câmpului. Aceasta
 
 ![fields-aspose-words](fields-overview-1.png)
 
-Conținutul care alcătuiește codul câmpului este stocat ca [Run](https://reference.aspose.com/words/net/aspose.words/run/) noduri între [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) și [FieldSeparator](https://reference.aspose.com/words/net/aspose.words.fields/fieldseparator/). Rezultatul câmpului este stocat între nodurile **FieldSeparator** și [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) și poate fi alcătuit din diferite tipuri de conținut. De obicei câmpul rezultat conține doar text format din **Run** noduri, totuși este posibil ca **FieldEnd** nod să fie localizat într-un paragraf complet diferit, și astfel făcând câmpul rezultat cuprins din [block level nodes](/words/net/logical-levels-of-nodes-in-a-document/) cum ar fi **Table** și **Paragraph** noduri.
+Conținutul care alcătuiește codul câmpului este stocat ca [Run](https://reference.aspose.com/words/net/aspose.words/run/) noduri între [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) și [FieldSeparator](https://reference.aspose.com/words/net/aspose.words.fields/fieldseparator/). Rezultatul câmpului este stocat între nodurile **FieldSeparator** și [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) și poate fi alcătuit din diferite tipuri de conținut. De obicei câmpul rezultat conține doar text format din **Run** noduri, totuși este posibil ca **FieldEnd** nod să fie localizat într-un paragraf complet diferit, și astfel făcând câmpul rezultat cuprins din [block level nodes](/words/ro/net/logical-levels-of-nodes-in-a-document/) cum ar fi **Table** și **Paragraph** noduri.
 
 Iată o vedere cum se stochează un câmp în Aspose.Words folosind exemplul "*DocumentExplorer"*, care poate fi găsit pe [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Examples/DocsExamples/DocumentExplorer).
 
@@ -37,7 +37,7 @@ Iată o vedere cum se stochează un câmp în Aspose.Words folosind exemplul "*D
 
 ## Câmpuri în Aspose.Words Document Object Model (DOM)
 
-Când un document este încărcat în Aspose.Words, câmpurile documentului sunt încărcate în [Aspose.Words Document Object Model](/words/net/aspose-words-document-object-model/) ca un set de componente separate (noduri)." Un singur câmp este încărcat ca o colecție de **FieldStart**, **FieldSeparator** și **FieldEnd** noduri, împreună cu conținutul dintre aceste noduri. Dacă un câmp nu are rezultat de câmp, nu va exista niciun nod **FieldSeparator**. Toate aceste noduri sunt întotdeauna găsite în linie (ca copii de [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) sau [SmartTag](https://reference.aspose.com/words/net/aspose.words.markup/smarttag/).")
+Când un document este încărcat în Aspose.Words, câmpurile documentului sunt încărcate în [Aspose.Words Document Object Model](/words/ro/net/aspose-words-document-object-model/) ca un set de componente separate (noduri)." Un singur câmp este încărcat ca o colecție de **FieldStart**, **FieldSeparator** și **FieldEnd** noduri, împreună cu conținutul dintre aceste noduri. Dacă un câmp nu are rezultat de câmp, nu va exista niciun nod **FieldSeparator**. Toate aceste noduri sunt întotdeauna găsite în linie (ca copii de [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) sau [SmartTag](https://reference.aspose.com/words/net/aspose.words.markup/smarttag/).")
 
 În Aspose.Words fiecare dintre **FieldXXX** noduri derivă din [FieldChar](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/). Această clasă furnizează o proprietate pentru verificarea tipului de câmp reprezentat de nodul specificat prin proprietatea [FieldType](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/). De exemplu **FieldType.FieldMergeField** reprezintă un câmp de fuziune în document.
 

@@ -123,7 +123,7 @@ Vous pouvez télécharger le fichier d'exemple de cet exemple à partir de [Aspo
 
 {{% /alert %}}
 
-Si vous envisagez de créer des tableaux dans un document qui augmentent dynamiquement avec chaque enregistrement de votre source de données, la méthode ci-dessus n'est pas conseillée. Au lieu de cela, la sortie souhaitée est plus facilement obtenue en utilisant Mail merge avec des régions. Vous pouvez en apprendre plus sur cette technique dans le [Mail Merge avec des régions](/words/java/types-of-mail-merge-operations/) section.
+Si vous envisagez de créer des tableaux dans un document qui augmentent dynamiquement avec chaque enregistrement de votre source de données, la méthode ci-dessus n'est pas conseillée. Au lieu de cela, la sortie souhaitée est plus facilement obtenue en utilisant Mail merge avec des régions. Vous pouvez en apprendre plus sur cette technique dans le [Mail Merge avec des régions](/words/fr/java/types-of-mail-merge-operations/) section.
 
 ## Comparer les façons de Créer un Tableau
 

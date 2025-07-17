@@ -1,4 +1,4 @@
----
+﻿---
 title: Chuyển Đổi Tài liệu thành PDF trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Chuyển Đổi Tài liệu thành PDF
@@ -47,7 +47,7 @@ Lưu ý rằng với cùng một kỹ thuật, bạn có thể chuyển đổi b
 
 ### Chuyển đổi Sang Các Tiêu Chuẩn PDF Khác nhau {#converting-to-various-pdf-standards}
 
-Aspose.Words cung cấp liệt kê [PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) để hỗ trợ chuyển đổi DOC hoặc DOCX thành các tiêu chuẩn định dạng PDF khác nhau (chẳng hạn như PDF 1.7, PDF 1.5, v. v.).
+Aspose.Words cung cấp liệt kê [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) để hỗ trợ chuyển đổi DOC hoặc DOCX thành các tiêu chuẩn định dạng PDF khác nhau (chẳng hạn như PDF 1.7, PDF 1.5, v. v.).
 
 Ví dụ mã sau đây trình bày cách chuyển đổi tài liệu thành PDF 1.7 sử dụng [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) tuân thủ thành PDF 1 7:
 
@@ -67,6 +67,6 @@ Ví dụ mã sau đây cho thấy cách chuyển đổi hình ảnh JPEG và TIF
 
 ## Xem Thêm
 
-- Bài viết [Kết xuất](/words/cpp/rendering/) để biết thêm thông tin về các định dạng bố cục trang và luồng cố định
-- Bài viết [Chuyển đổi Sang Định dạng trang Cố định](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) để biết thêm thông tin về bố cục trang
-- Bài viết [Chỉ Định Các Tùy chọn Kết Xuất Khi Chuyển đổi thành PDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) để biết thêm thông tin về cách sử dụng lớp `PdfSaveOptions`
+- Bài viết [Kết xuất](/words/vi/cpp/rendering/) để biết thêm thông tin về các định dạng bố cục trang và luồng cố định
+- Bài viết [Chuyển đổi Sang Định dạng trang Cố định](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) để biết thêm thông tin về bố cục trang
+- Bài viết [Chỉ Định Các Tùy chọn Kết Xuất Khi Chuyển đổi thành PDF](/words/vi/cpp/specify-rendering-options-when-converting-to-pdf/) để biết thêm thông tin về cách sử dụng lớp `PdfSaveOptions`

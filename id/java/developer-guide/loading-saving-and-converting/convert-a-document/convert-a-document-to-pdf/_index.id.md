@@ -47,7 +47,7 @@ Perhatikan bahwa dengan teknik yang sama, Anda dapat mengonversi dokumen format 
 
 ### Konversikan ke Standar PDF yang Berbeda {#converting-to-various-pdf-standards}
 
-Aspose.Words menyediakan pencacahan [PdfCompliace](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)untuk mendukung konversi DOC atau DOCX menjadi berbagai standar format PDF (seperti PDF 1.7, PDF 1.5, dll.).
+Aspose.Words menyediakan pencacahan [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)untuk mendukung konversi DOC atau DOCX menjadi berbagai standar format PDF (seperti PDF 1.7, PDF 1.5, dll.).
 
 Contoh kode berikut menunjukkan cara mengonversi dokumen menjadi PDF 1.7 menggunakan [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) dengan kepatuhan ke PDF17:
 
@@ -81,6 +81,6 @@ Menggunakan properti **OptimizeOutput** dapat memengaruhi keakuratan tampilan ko
 
 ## Lihat Juga
 
-- Artikel tersebut [Rendering](/words/java/rendering/) untuk informasi selengkapnya tentang format halaman tetap dan tata letak alur
-- Artikel tersebut [Mengubah ke Format halaman Tetap](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) untuk informasi lebih lanjut tentang tata letak halaman
-- Artikel tersebut [Tentang Opsi Rendering Saat Mengubah ke PDF](/words/java/specify-rendering-options-when-converting-to-pdf/) untuk informasi lebih lanjut tentang penggunaan kelas `PdfSaveOptions`
+- Artikel tersebut [Rendering](/words/id/java/rendering/) untuk informasi selengkapnya tentang format halaman tetap dan tata letak alur
+- Artikel tersebut [Mengubah ke Format halaman Tetap](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) untuk informasi lebih lanjut tentang tata letak halaman
+- Artikel tersebut [Tentang Opsi Rendering Saat Mengubah ke PDF](/words/id/java/specify-rendering-options-when-converting-to-pdf/) untuk informasi lebih lanjut tentang penggunaan kelas `PdfSaveOptions`

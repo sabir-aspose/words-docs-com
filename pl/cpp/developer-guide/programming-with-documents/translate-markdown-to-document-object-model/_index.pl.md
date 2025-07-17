@@ -12,7 +12,7 @@ timestamp: 2024-10-21-11-17-44
 
 Aby programowo odczytywać, manipulować i modyfikować zawartość i formatowanie dokumentu, należy przetłumaczyć go na model obiektowy dokumentu Aspose.Words (DOM).
 
-W przeciwieństwie do dokumentów Word, Markdown nie jest zgodny z DOM opisanym w [Aspose.Words Obiektowy Model Dokumentu (DOM)](/words/cpp/aspose-words-document-object-model/) artykuł. Jednak Aspose.Words zapewnia własny mechanizm tłumaczenia dokumentów Markdown na DOM iz powrotem, dzięki czemu możemy z powodzeniem pracować z ich elementami, takimi jak formatowanie tekstu, tabele, nagłówki i inne.
+W przeciwieństwie do dokumentów Word, Markdown nie jest zgodny z DOM opisanym w [Aspose.Words Obiektowy Model Dokumentu (DOM)](/words/pl/cpp/aspose-words-document-object-model/) artykuł. Jednak Aspose.Words zapewnia własny mechanizm tłumaczenia dokumentów Markdown na DOM iz powrotem, dzięki czemu możemy z powodzeniem pracować z ich elementami, takimi jak formatowanie tekstu, tabele, nagłówki i inne.
 
 W tym artykule wyjaśniono, w jaki sposób różne funkcje markdown można przetłumaczyć na Aspose.Words DOM iz powrotem do formatu Markdown.
 
@@ -105,5 +105,5 @@ Aspose.Words umożliwia również tłumaczenie tabel na DOM, Jak pokazano poniż
 
 ## Zobacz także
 
-* [Praca z funkcjami Markdown ](/words/cpp/working-with-markdown-features/)
+* [Praca z funkcjami Markdown ](/words/pl/cpp/working-with-markdown-features/)
 

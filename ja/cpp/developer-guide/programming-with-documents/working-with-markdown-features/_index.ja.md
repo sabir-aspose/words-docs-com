@@ -1,4 +1,4 @@
----
+﻿---
 title: C++でのMarkdown機能の使用
 second_title: C++の場合Aspose.Words
 articleTitle: Markdown機能の操作
@@ -27,7 +27,7 @@ Markdown機能の実装は主にAspose.WordsAPIの`CommonMark`仕様に従い、
 
 {{% alert color="primary" %}}
 
-この記事で説明されているMarkdownをAspose.Wordsドキュメントオブジェクトモデル(DOM)に翻訳するニュアンスがあります [Markdownをドキュメントオブジェクトモデル(DOM)に変換する](/words/cpp/translate-markdown-to-document-object-model/).
+この記事で説明されているMarkdownをAspose.Wordsドキュメントオブジェクトモデル(DOM)に翻訳するニュアンスがあります [Markdownをドキュメントオブジェクトモデル(DOM)に変換する](/words/ja/cpp/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

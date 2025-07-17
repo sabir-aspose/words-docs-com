@@ -38,7 +38,7 @@ Sie können auch die [SectionStart](https://reference.aspose.com/words/java/com.
 
 ## Verwalten eines Abschnitts
 
-Da ein Abschnitt ein normaler zusammengesetzter Knoten ist, kann die gesamte Knotenmanipulation API zum Manipulieren von Abschnitten verwendet werden: zum Hinzufügen, Entfernen und anderen Operationen an Abschnitten. Sie können mehr über Knoten im Artikel lesen [Aspose.Words Dokumentenobjektmodell (DOM)](/words/java/aspose-words-document-object-model/).
+Da ein Abschnitt ein normaler zusammengesetzter Knoten ist, kann die gesamte Knotenmanipulation API zum Manipulieren von Abschnitten verwendet werden: zum Hinzufügen, Entfernen und anderen Operationen an Abschnitten. Sie können mehr über Knoten im Artikel lesen [Aspose.Words Dokumentenobjektmodell (DOM)](/words/de/java/aspose-words-document-object-model/).
 
 Andererseits können Sie auch `DocumentBuilder` API verwenden, um mit Abschnitten zu arbeiten. In diesem Artikel werden wir uns auf diese spezielle Art der Arbeit mit Abschnitten konzentrieren.
 
@@ -154,5 +154,5 @@ Das folgende Codebeispiel zeigt, wie Sie die Seiteneigenschaften in allen Abschn
 
 ## Siehe auch
 
-- [Logische Ebenen von Knoten in einem Dokument](/words/java/logical-levels-of-nodes-in-a-document/)
-- [Dokumente einfügen und anhängen](/words/java/insert-and-append-documents/)
+- [Logische Ebenen von Knoten in einem Dokument](/words/de/java/logical-levels-of-nodes-in-a-document/)
+- [Dokumente einfügen und anhängen](/words/de/java/insert-and-append-documents/)

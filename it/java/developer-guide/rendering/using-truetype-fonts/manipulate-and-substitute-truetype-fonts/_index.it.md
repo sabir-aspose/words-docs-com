@@ -219,7 +219,7 @@ Solo i font Sans style Noto con peso regolare vengono utilizzati in impostazioni
 
 ## Dove Aspose.Words Cerca i font
 
-Aspose.Words tenta di trovare automaticamente i font TrueType nel file system. Di solito, è possibile fare affidamento sul comportamento predefinito di Aspose.Words per trovare i font `TrueType`, ma a volte è necessario specificare le proprie cartelle contenenti i font TrueType. Il [Specificare la posizione dei caratteri TrueType](/words/java/specify-truetype-fonts-location/) l'argomento descrive come e dove Aspose.Words cerca i font, nonché come specificare le proprie posizioni dei font.
+Aspose.Words tenta di trovare automaticamente i font TrueType nel file system. Di solito, è possibile fare affidamento sul comportamento predefinito di Aspose.Words per trovare i font `TrueType`, ma a volte è necessario specificare le proprie cartelle contenenti i font TrueType. Il [Specificare la posizione dei caratteri TrueType](/words/it/java/specify-truetype-fonts-location/) l'argomento descrive come e dove Aspose.Words cerca i font, nonché come specificare le proprie posizioni dei font.
 
 ## Differenze nell'elaborazione dei formati dei caratteri in Aspose.Wordse Microsoft Word
 

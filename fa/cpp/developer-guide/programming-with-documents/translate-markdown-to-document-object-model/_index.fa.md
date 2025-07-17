@@ -1,4 +1,4 @@
----
+﻿---
 title: ترجمه Markdown به مستند سازی مدل شی (DOM)
 second_title: Aspose.Words برای C++
 articleTitle: ترجمه Markdown به مستند سازی مدل شی (DOM)
@@ -12,7 +12,7 @@ timestamp: 2024-10-21-11-17-44
 
 برای خواندن، دستکاری و تغییر برنامه ریزی محتوا و قالب بندی یک سند، باید آن را به مدل شیء سند Aspose.Words (DOM) ترجمه کنید.
 
-برخلاف اسناد ورد، Markdown با DOM که در [Aspose.Words مدل شیء سند (DOM)](/words/cpp/aspose-words-document-object-model/) مقاله. با این حال، Aspose.Words مکانیسم خود را برای ترجمه Markdown اسناد به DOM و بازگشت فراهم می کند، به طوری که ما می توانیم با موفقیت با عناصر آنها مانند قالب بندی متن، جداول، سرصفحه ها و دیگران کار کنیم.
+برخلاف اسناد ورد، Markdown با DOM که در [Aspose.Words مدل شیء سند (DOM)](/words/fa/cpp/aspose-words-document-object-model/) مقاله. با این حال، Aspose.Words مکانیسم خود را برای ترجمه Markdown اسناد به DOM و بازگشت فراهم می کند، به طوری که ما می توانیم با موفقیت با عناصر آنها مانند قالب بندی متن، جداول، سرصفحه ها و دیگران کار کنیم.
 
 این مقاله توضیح می دهد که چگونه ویژگی های مختلف markdown را می توان به Aspose.Words DOM و به Markdown ترجمه کرد.
 
@@ -105,5 +105,5 @@ Aspose.Words همچنین اجازه می دهد تا جداول را به DOM �
 
 ## بایگانی برچسب برای:
 
-* [کار با ویژگی های Markdown ](/words/cpp/working-with-markdown-features/)
+* [کار با ویژگی های Markdown ](/words/fa/cpp/working-with-markdown-features/)
 

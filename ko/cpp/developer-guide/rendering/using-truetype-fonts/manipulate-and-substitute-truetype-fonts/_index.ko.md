@@ -1,4 +1,4 @@
----
+﻿---
 title: 조작 및 대체 TrueType 글꼴 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 조작 및 대체 TrueType 글꼴
@@ -21,7 +21,7 @@ Aspose.Words 요구 사항 TrueType 예를 들어 문서를 고정 페이지 형
 
 ## 어디 Aspose.Words 글꼴을 찾습니다
 
-Aspose.Words 찾기 시도 TrueType 자동으로 파일 시스템의 글꼴. 일반적으로 기본 동작에 의존 할 수 있습니다 Aspose.Words 를 찾기 위해 `TrueType` 글꼴,하지만 때때로 당신은 포함 된 자신의 폴더를 지정해야합니다 TrueType 글꼴 그 [지정 TrueType 글꼴 위치](/words/cpp/specify-truetype-fonts-location/) 항목 방법 및 위치에 대해 설명합니다 Aspose.Words 글꼴뿐만 아니라 자신의 글꼴 위치를 지정하는 방법을 찾습니다.
+Aspose.Words 찾기 시도 TrueType 자동으로 파일 시스템의 글꼴. 일반적으로 기본 동작에 의존 할 수 있습니다 Aspose.Words 를 찾기 위해 `TrueType` 글꼴,하지만 때때로 당신은 포함 된 자신의 폴더를 지정해야합니다 TrueType 글꼴 그 [지정 TrueType 글꼴 위치](/words/ko/cpp/specify-truetype-fonts-location/) 항목 방법 및 위치에 대해 설명합니다 Aspose.Words 글꼴뿐만 아니라 자신의 글꼴 위치를 지정하는 방법을 찾습니다.
 
 ## 글꼴 형식 처리의 차이점 Aspose.Words 그리고 Microsoft Word
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Tổng Quan Về Sản Phẩm
 second_title: Aspose.Words cho C++
 articleTitle: Tổng Quan Về Sản Phẩm
@@ -16,7 +16,7 @@ Chào mừng bạn đến Aspose.Words cho C++!
 
 Aspose.Words là một thư viện lớp đa nền tảng cho phép các ứng dụng của bạn thực hiện nhiều tác vụ xử lý tài liệu.
 
-Sử dụng Aspose.Words, bạn có thể chuyển đổi tài liệu từ bất kỳ định dạng tải được hỗ trợ nào sang bất kỳ định dạng lưu được hỗ trợ nào, ví dụ: Định dạng Word thành PDF, HTML hoặc Markdown, HTML thành DOCX, v. v. Đọc thêm về chuyển đổi tài liệu trong [Chuyển đổi Tài liệu](/words/cpp/convert-a-document/) phần.
+Sử dụng Aspose.Words, bạn có thể chuyển đổi tài liệu từ bất kỳ định dạng tải được hỗ trợ nào sang bất kỳ định dạng lưu được hỗ trợ nào, ví dụ: Định dạng Word thành PDF, HTML hoặc Markdown, HTML thành DOCX, v. v. Đọc thêm về chuyển đổi tài liệu trong [Chuyển đổi Tài liệu](/words/vi/cpp/convert-a-document/) phần.
 
 Điều đáng chú ý là với Aspose.Words, bạn có thể tạo, sửa đổi, chuyển đổi, kết xuất và in tài liệu mà không cần dựa vào các ứng dụng của bên thứ ba, chẳng hạn như Microsoft Word hoặc Office Automation.
 
@@ -42,21 +42,21 @@ Aspose.Words cho C++ các tính năng có thể được chia thành bốn lĩnh
 
 Khả năng chuyển đổi tài liệu dễ dàng và đáng tin cậy là một trong những tính năng chính của Aspose.Words.
 
-Toàn diện [nhập và xuất tài liệu](/words/cpp/loading-saving-and-converting/) với [hơn 35 định dạng tệp được hỗ trợ](/words/cpp/supported-document-formats/) cho phép người dùng chuyển đổi tài liệu từ [one popular format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) sang [another](https://reference.aspose.com/words/cpp/aspose.words/saveformat/), ví dụ: từ DOCX sang PDF, JPEG hoặc Markdown.
+Toàn diện [nhập và xuất tài liệu](/words/vi/cpp/loading-saving-and-converting/) với [hơn 35 định dạng tệp được hỗ trợ](/words/vi/cpp/supported-document-formats/) cho phép người dùng chuyển đổi tài liệu từ [one popular format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) sang [another](https://reference.aspose.com/words/cpp/aspose.words/saveformat/), ví dụ: từ DOCX sang PDF, JPEG hoặc Markdown.
 
 #### Mô Hình Đối Tượng Tài Liệu (DOM)
 
-Truy cập lập trình thông qua một API phong phú cho tất cả các yếu tố tài liệu và định dạng cho phép tạo, sửa đổi, trích xuất, sao chép, chia nhỏ, tham gia và thay thế nội dung tài liệu. Tìm hiểu thêm trong [Aspose.Words Mô Hình Đối Tượng Tài Liệu (DOM)](/words/cpp/aspose-words-document-object-model/) phần.
+Truy cập lập trình thông qua một API phong phú cho tất cả các yếu tố tài liệu và định dạng cho phép tạo, sửa đổi, trích xuất, sao chép, chia nhỏ, tham gia và thay thế nội dung tài liệu. Tìm hiểu thêm trong [Aspose.Words Mô Hình Đối Tượng Tài Liệu (DOM)](/words/vi/cpp/aspose-words-document-object-model/) phần.
 
 #### Kết xuất
 
-Chúng tôi sử dụng thuật ngữ [Kết xuất trong Aspose.Words](/words/cpp/rendering/) để mô tả quá trình chuyển đổi tài liệu thành định dạng tệp hoặc phương tiện, được phân trang hoặc có khái niệm trang.
+Chúng tôi sử dụng thuật ngữ [Kết xuất trong Aspose.Words](/words/vi/cpp/rendering/) để mô tả quá trình chuyển đổi tài liệu thành định dạng tệp hoặc phương tiện, được phân trang hoặc có khái niệm trang.
 
 Bạn có thể chuyển đổi toàn bộ tài liệu hoặc các trang cụ thể thành PDF hoặc XPS để tạo tài liệu phía máy chủ, hãy in chúng. Và tất cả điều này với độ trung thực cao – chính xác như Microsoft Word sẽ làm điều đó.
 
 #### Báo cáo
 
-Tạo tài liệu hoặc báo cáo từ đầu hoặc bằng cách điền các mẫu với dữ liệu từ các nguồn dữ liệu hoặc đối tượng kinh doanh. Để biết thêm thông tin về báo cáo và tìm nạp dữ liệu từ cơ sở dữ liệu, hãy xem [Mail Merge Và Báo cáo](/words/cpp/mail-merge-and-reporting/).
+Tạo tài liệu hoặc báo cáo từ đầu hoặc bằng cách điền các mẫu với dữ liệu từ các nguồn dữ liệu hoặc đối tượng kinh doanh. Để biết thêm thông tin về báo cáo và tìm nạp dữ liệu từ cơ sở dữ liệu, hãy xem [Mail Merge Và Báo cáo](/words/vi/cpp/mail-merge-and-reporting/).
 
 ### Nền Tảng Độc Lập
 
@@ -86,8 +86,8 @@ Các nhà phát triển trước đây đã sử dụng Tự động hóa Micros
 
 ## Giá cả Và Chính sách
 
-Vui lòng truy cập [Cấp phép](/words/cpp/licensing/) trang để biết thông tin về giấy phép và xem xét [Thông Tin Giá Cả](https://purchase.aspose.com/pricing/words/family/) trang để biết chi tiết về giá cả.
+Vui lòng truy cập [Cấp phép](/words/vi/cpp/licensing/) trang để biết thông tin về giấy phép và xem xét [Thông Tin Giá Cả](https://purchase.aspose.com/pricing/words/family/) trang để biết chi tiết về giá cả.
 
 ## Hỗ Trợ Kỹ Thuật
 
-Để biết thêm thông tin về hỗ trợ kỹ thuật Aspose.Words, hãy xem [trang hỗ trợ](/words/cpp/technical-support/).
+Để biết thêm thông tin về hỗ trợ kỹ thuật Aspose.Words, hãy xem [trang hỗ trợ](/words/vi/cpp/technical-support/).

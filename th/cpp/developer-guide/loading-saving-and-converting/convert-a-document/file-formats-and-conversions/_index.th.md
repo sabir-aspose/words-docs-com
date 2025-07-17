@@ -1,4 +1,4 @@
----
+﻿---
 title: รูปแบบไฟล์และการแปลง
 second_title: Aspose.WordsสำหรับC++
 articleTitle: เหตุใดการแปลงคุณลักษณะเรือธงของAspose.Wordsจึงเป็น?
@@ -29,7 +29,7 @@ timestamp: 2024-09-24-14-35-44
 
 {{< gist "aspose-words-gists" "b9784b73e288805e08fba6e3fc5ae2af" "docx-to-pdf.h" >}}
 
-สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการโหลดแปลงและบันทึกเอกสารโปรดดูที่ [โหลดบันทึกและการแปลง](/words/cpp/loading-saving-and-converting/) มาตรา.
+สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการโหลดแปลงและบันทึกเอกสารโปรดดูที่ [โหลดบันทึกและการแปลง](/words/th/cpp/loading-saving-and-converting/) มาตรา.
 
 ## ความจงรักภักดีสูง
 

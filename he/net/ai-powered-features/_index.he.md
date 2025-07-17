@@ -1,4 +1,4 @@
----
+﻿---
 title: AI - מופעל תכונות
 second_title: Aspose.Words עבור .NET
 articleTitle: AI - מופעל תכונות
@@ -16,7 +16,7 @@ Aspose.Words כולל כעת תכונות המופעלות AI שנועדו לה�
 
 בחלק זה, נסקור את כל מה שאתה צריך לדעת על שימוש בתכונות נתמכות AI ב Aspose.Words. מטיפים מעשיים ועד הוראות מפורטות, אנו שואפים לעזור לך להפיק את המרב מהשיפורים הללו.
 
-* [נתמך AI מודלים](/words/net/supported-ai-models/)
-* [לסכם מסמך](/words/net/summarize-a-document/)
-* [תרגום מסמך](/words/net/translate-a-document/)
-* [בדיקת דקדוק](/words/net/grammar-checking/)
+* [נתמך AI מודלים](/words/he/net/supported-ai-models/)
+* [לסכם מסמך](/words/he/net/summarize-a-document/)
+* [תרגום מסמך](/words/he/net/translate-a-document/)
+* [בדיקת דקדוק](/words/he/net/grammar-checking/)

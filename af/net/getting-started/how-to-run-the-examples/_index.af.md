@@ -1,4 +1,4 @@
----
+﻿---
 title: Hoe Om Voorbeelde Uit Te voer
 second_title: Aspose.Words vir .NET
 articleTitle: Hoe Om Voorbeelde Uit Te voer
@@ -21,7 +21,7 @@ Maak asseblief seker dat u aan die volgende vereistes voldoen voordat u die voor
 1. Visual Studio Kode, Visual Studio 2019.
 2. Geïnstalleer NuGet Pakketbestuurder en die nuutste NuGet API weergawe vir Visual Studio.
 3. Geselekteerde **nuget.org** opsie in die dialoogkassie" Tools Argentia Options "onder"NuGet Pakketbestuurder Argentia Pakketbronne".
-4. 'n aktiewe Internetverbinding om die `NuGet` Outomatiese Pakketherstelfunksie in Die Voorbeeldprojek te gebruik. As u nie'n aktiewe Internetverbinding op die masjien het waar die voorbeelde uitgevoer moet word nie, gaan die artikel na [Installasie](/words/net/installation/) en handmatig voeg'n verwysing na `Aspose.Words.dll` om Die Voorbeelde projek.
+4. 'n aktiewe Internetverbinding om die `NuGet` Outomatiese Pakketherstelfunksie in Die Voorbeeldprojek te gebruik. As u nie'n aktiewe Internetverbinding op die masjien het waar die voorbeelde uitgevoer moet word nie, gaan die artikel na [Installasie](/words/af/net/installation/) en handmatig voeg'n verwysing na `Aspose.Words.dll` om Die Voorbeelde projek.
 
 ## Laai en Hardloop Die Voorbeelde
 
@@ -34,7 +34,7 @@ Nadat jy'n afskrif van die bewaarplek gekry het, kan jy vind dat:
 
 Om die voorbeelde uit te voer, maak die oplossing lêer in Visual Studio en bou die projek:
 
-- Vir **API Reference** voorbeelde, is die struktuur gebaseer op klas name, vir **Docs** voorbeelde is dit meestal gebaseer op die [Ontwikkelaar Guiled](/words/net/developer-guide/) dokumentasie afdeling.
+- Vir **API Reference** voorbeelde, is die struktuur gebaseer op klas name, vir **Docs** voorbeelde is dit meestal gebaseer op die [Ontwikkelaar Guiled](/words/af/net/developer-guide/) dokumentasie afdeling.
 - Op die eerste run, sal die afhanklikhede outomaties afgelaai word via NuGet.
 - Die **Data** gids by die wortel gids van **Examples** bevat insette lêers wat gebruik is in die voorbeelde.
 - Alle voorbeelde kan as eenheidstoetse uitgevoer word.

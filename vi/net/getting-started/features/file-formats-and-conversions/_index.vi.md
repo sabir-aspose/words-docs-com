@@ -1,4 +1,4 @@
----
+﻿---
 title: Định dạng và chuyển đổi tệp
 second_title: Aspose.Words cho .NET
 articleTitle: Định dạng và chuyển đổi tệp
@@ -29,7 +29,7 @@ Ví dụ mã sau đây cho thấy cách chuyển đổi tài liệu:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "docx-to-pdf.cs" >}}
 
-Để biết thêm chi tiết về cách tải, chuyển đổi và lưu tài liệu, hãy xem phần [Đang tải, lưu và chuyển đổi](/words/cpp/loading-saving-and-converting/).
+Để biết thêm chi tiết về cách tải, chuyển đổi và lưu tài liệu, hãy xem phần [Đang tải, lưu và chuyển đổi](/words/vi/cpp/loading-saving-and-converting/).
 
 ## Độ trung thực cao
 

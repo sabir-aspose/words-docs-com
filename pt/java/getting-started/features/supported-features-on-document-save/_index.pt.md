@@ -10,7 +10,7 @@ url: /pt/java/supported-features-on-document-save/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words permite aos utilizadores trabalhar com documentos em vários formatos e fornece uma vasta gama de funcionalidades para o efeito. Por exemplo, os usuários podem criar um documento do zero ou carregá - lo, fazer algumas alterações e, em seguida, salvar essas alterações no arquivo de saída em qualquer [formato de exportação](/words/java/supported-document-formats/). Ao salvar o documento no formato selecionado, o usuário pode aplicar várias opções de salvamento.
+Aspose.Words permite aos utilizadores trabalhar com documentos em vários formatos e fornece uma vasta gama de funcionalidades para o efeito. Por exemplo, os usuários podem criar um documento do zero ou carregá - lo, fazer algumas alterações e, em seguida, salvar essas alterações no arquivo de saída em qualquer [formato de exportação](/words/pt/java/supported-document-formats/). Ao salvar o documento no formato selecionado, o usuário pode aplicar várias opções de salvamento.
 
 {{% alert color="primary" %}}
 
@@ -21,7 +21,7 @@ Aspose.Words permite aos utilizadores trabalhar com documentos em vários format
 Para obter uma lista completa de funções, consulte o API reference:
 
 - [salvar opções para todos os formatos](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/)
-- [opções de salvamento de página fixa](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/) para [formatos de p7gina fixa](/words/java/converting-to-fixed-page-format/): PDF, XPS, imagens e outros
+- [opções de salvamento de página fixa](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/) para [formatos de p7gina fixa](/words/pt/java/converting-to-fixed-page-format/): PDF, XPS, imagens e outros
 - [PDF opções de gravação](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) para o formato PDF
 - [OOXML opções de gravação](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/) para DOCX, DOCM, DOTX, DOTM, ou FlatOpc formatos
 - [DOC opções de gravação](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) para os formatos DOC e DOT

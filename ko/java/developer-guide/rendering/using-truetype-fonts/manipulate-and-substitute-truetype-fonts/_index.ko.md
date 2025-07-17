@@ -219,7 +219,7 @@ Aspose.WordsGoogle Noto글꼴에 대해 미리 정의된 글꼴 대체 설정을
 
 ## 여기서Aspose.Words은 글꼴을 찾습니다
 
-Aspose.Words파일 시스템에서TrueType글꼴을 자동으로 찾으려고 시도합니다. 일반적으로Aspose.Words의 기본 동작에 의존하여`TrueType`글꼴을 찾을 수 있지만 때로는TrueType글꼴이 포함 된 자신의 폴더를 지정해야합니다. 그 [TrueType글꼴 위치 지정](/words/java/specify-truetype-fonts-location/) 항목에서는Aspose.Words에서 글꼴을 찾는 방법과 위치를 설명하고 자신의 글꼴 위치를 지정하는 방법을 설명합니다.
+Aspose.Words파일 시스템에서TrueType글꼴을 자동으로 찾으려고 시도합니다. 일반적으로Aspose.Words의 기본 동작에 의존하여`TrueType`글꼴을 찾을 수 있지만 때로는TrueType글꼴이 포함 된 자신의 폴더를 지정해야합니다. 그 [TrueType글꼴 위치 지정](/words/ko/java/specify-truetype-fonts-location/) 항목에서는Aspose.Words에서 글꼴을 찾는 방법과 위치를 설명하고 자신의 글꼴 위치를 지정하는 방법을 설명합니다.
 
 ## Aspose.Words및Microsoft Word의 글꼴 형식 처리의 차이점
 

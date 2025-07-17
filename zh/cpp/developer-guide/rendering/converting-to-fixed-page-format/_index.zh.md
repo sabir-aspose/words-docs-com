@@ -1,4 +1,4 @@
----
+﻿---
 title: 在C++中转换为固定页面格式
 second_title: Aspose.Words对于C++
 articleTitle: 转换为固定页格式
@@ -28,7 +28,7 @@ Microsoft Word是当今Windows中最先进的文本编辑应用程序。 它以D
 
 ## 请参阅
 
-* [什么是页面布局](/words/cpp/what-is-a-page-layout/)
-* [创建页面布局](/words/cpp/creating-a-page-layout/)
-* [将文档保存为固定页面格式](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [指定布局选项](/words/cpp/specify-layout-options/)
+* [什么是页面布局](/words/zh/cpp/what-is-a-page-layout/)
+* [创建页面布局](/words/zh/cpp/creating-a-page-layout/)
+* [将文档保存为固定页面格式](/words/zh/cpp/saving-a-document-to-fixed-page-format/)
+* [指定布局选项](/words/zh/cpp/specify-layout-options/)

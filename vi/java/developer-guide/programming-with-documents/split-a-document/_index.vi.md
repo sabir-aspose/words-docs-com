@@ -1,4 +1,4 @@
----
+﻿---
 title: Chia một tài liệu ở Java
 second_title: Aspose.Words cho Java
 articleTitle: Chia một Tài liệu
@@ -85,7 +85,7 @@ Phần này mô tả một số trường hợp sử dụng của việc chia t�
 
 {{% alert color="primary" %}}
 
-Bạn có thể dùng bất kỳ [output format supported by Aspose.Words](/words/java/supported-document-formats/).
+Bạn có thể dùng bất kỳ [output format supported by Aspose.Words](/words/vi/java/supported-document-formats/).
 
 {{% /alert %}}
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: סקירה המוצר
 second_title: Aspose.Words עבור Java
 articleTitle: סקירה המוצר
@@ -60,7 +60,7 @@ Aspose.Words עבור Java ניתן לחלק את התכונות לארבעה ת
 
 #### דיווח
 
-ליצור מסמכים או דוחות מאפס או על ידי מילוי תבניות עם נתונים ממקורות נתונים או אובייקטים עסקיים. לקבלת מידע נוסף על הדיווח והבאת נתונים ממאגרי מידע, ראה את [Mail Merge דיווח ו](/words/java/mail-merge-and-reporting/) ו [תגית:LINQ](/words/java/linq-reporting-engine/) חלקים.
+ליצור מסמכים או דוחות מאפס או על ידי מילוי תבניות עם נתונים ממקורות נתונים או אובייקטים עסקיים. לקבלת מידע נוסף על הדיווח והבאת נתונים ממאגרי מידע, ראה את [Mail Merge דיווח ו](/words/he/java/mail-merge-and-reporting/) ו [תגית:LINQ](/words/java/linq-reporting-engine/) חלקים.
 
 ### פלטפורמות עצמאות
 

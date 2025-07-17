@@ -1,4 +1,4 @@
----
+﻿---
 title: Створити штрих-код у Java
 second_title: Aspose.Words для Java
 articleTitle: Створити власний штрихкодовий образ
@@ -55,7 +55,7 @@ Aspose.Words має інтерфейс для створення власних 
 
 {{% alert color="primary" %}}
 
-Для отримання додаткової інформації про перетворення документів з одного формату в інший, дивіться розділ документації [Convert a Document](/words/java/convert-a-document/).
+Для отримання додаткової інформації про перетворення документів з одного формату в інший, дивіться розділ документації [Convert a Document](/words/uk/java/convert-a-document/).
 
 {{% /alert %}}
 

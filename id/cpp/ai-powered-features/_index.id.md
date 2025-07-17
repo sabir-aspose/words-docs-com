@@ -1,4 +1,4 @@
----
+﻿---
 title: AI-Fitur bertenaga
 second_title: Aspose.Words untuk C++
 articleTitle: AI-Fitur bertenaga
@@ -16,7 +16,7 @@ Aspose.Words sekarang menyertakan fitur bertenaga AI yang dirancang untuk membua
 
 Di bagian ini, kami akan membahas semua yang perlu Anda ketahui tentang penggunaan fitur AI yang didukung di Aspose.Words. Dari kiat praktis hingga petunjuk terperinci, kami bertujuan untuk membantu Anda memanfaatkan peningkatan ini sebaik-baiknya.
 
-* [Model AI yang didukung](/words/cpp/supported-ai-models/)
-* [Meringkas Dokumen](/words/cpp/summarize-a-document/)
-* [Menerjemahkan Dokumen](/words/cpp/translate-a-document/)
-* [Pemeriksaan Tata Bahasa](/words/cpp/grammar-checking/)
+* [Model AI yang didukung](/words/id/cpp/supported-ai-models/)
+* [Meringkas Dokumen](/words/id/cpp/summarize-a-document/)
+* [Menerjemahkan Dokumen](/words/id/cpp/translate-a-document/)
+* [Pemeriksaan Tata Bahasa](/words/id/cpp/grammar-checking/)

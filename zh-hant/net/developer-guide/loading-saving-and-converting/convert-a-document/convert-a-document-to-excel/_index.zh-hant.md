@@ -1,4 +1,4 @@
----
+﻿---
 title: 在C#中將Word轉換為Excel
 second_title: Aspose.Words for .NET
 articleTitle: 將文件轉換為Excel
@@ -44,5 +44,5 @@ timestamp: 2024-07-09-19-00-42
 
 ## 另見
 
-"- Dokumentationsabschnitt [Protect or Encrypt a Document](/words/net/protect-or-encrypt-a-document/), um weitere Informationen über das Schutz und Verschlüsseln einer Datei zu erhalten"
-"-文章 [Find and Replace](/words/net/find-and-replace/) 有關如何找到並取代您想要的內容更多資訊"
+"- Dokumentationsabschnitt [Protect or Encrypt a Document](/words/zh-hant/net/protect-or-encrypt-a-document/), um weitere Informationen über das Schutz und Verschlüsseln einer Datei zu erhalten"
+"-文章 [Find and Replace](/words/zh-hant/net/find-and-replace/) 有關如何找到並取代您想要的內容更多資訊"

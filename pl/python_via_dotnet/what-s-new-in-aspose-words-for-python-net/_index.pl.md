@@ -546,13 +546,13 @@ Dodano nowe metody LowCode przeznaczone do łączenia różnych typów dokument�
 
 {{% alert color="primary" %}}
 
-Dowiedz się więcej o [Aspose.Words dla Python via .NET 23.5 Informacje O Wydaniu](/words/python-net/aspose-words-for-python-via-dotnet-23-5-release-notes/).
+Dowiedz się więcej o [Aspose.Words dla Python via .NET 23.5 Informacje O Wydaniu](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-5-release-notes/).
 
-Dowiedz się więcej o [Aspose.Words dla Python via .NET 23.6 Informacje O Wydaniu](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
+Dowiedz się więcej o [Aspose.Words dla Python via .NET 23.6 Informacje O Wydaniu](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
 Dowiedz się więcej o [Aspose.Words dla Python via .NET 23.7 Informacje O Wydaniu](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
-Dowiedz się więcej o [Aspose.Words dla Python via .NET 23.8 Informacje O Wydaniu](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
+Dowiedz się więcej o [Aspose.Words dla Python via .NET 23.8 Informacje O Wydaniu](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
 {{% /alert %}}
 

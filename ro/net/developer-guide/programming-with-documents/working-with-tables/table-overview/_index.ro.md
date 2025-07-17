@@ -1,4 +1,4 @@
----
+﻿---
 title: Prezentare generală a tabelelor
 second_title: Aspose.Words pentru .NET
 articleTitle: Prezentare generală a tabelelor
@@ -65,5 +65,5 @@ Este de asemenea demn de remarcat că separarea a două tabele consecutive într
 
 ## Vedeți și
 
-* [Aspose.Words Document Object Model (DOM)](/words/net/aspose-words-document-object-model/)
-* [Logical Levels of Nodes in a Document](/words/net/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Document Object Model (DOM)](/words/ro/net/aspose-words-document-object-model/)
+* [Logical Levels of Nodes in a Document](/words/ro/net/logical-levels-of-nodes-in-a-document/)

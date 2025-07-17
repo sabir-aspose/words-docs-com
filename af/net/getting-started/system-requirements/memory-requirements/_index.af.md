@@ -1,4 +1,4 @@
----
+﻿---
 title: Geheue Vereistes
 second_title: Aspose.Words vir .NET
 articleTitle: Geheue Vereistes
@@ -42,11 +42,11 @@ Eksperimente met duisende werklike dokumente toon dat tipies Aspose.Words verske
 
 Meer komplekse bedrywighede soos weergawe (omskakeling na vaste bladsy formate), opdatering velde, verdeling bladsy, en ander, vir sommige dokumente vereis 20 keer meer hulpbronne as die geheue toegeken deur die dokument gelaai in Aspose.Words DOM.
 
-As u profielresultate'n moontlike geheueprobleem in Aspose.Words aandui, kontak ons asseblief [Ondersteuningspan](/words/net/technical-support/) en sluit al die diagnostiese inligting in.
+As u profielresultate'n moontlike geheueprobleem in Aspose.Words aandui, kontak ons asseblief [Ondersteuningspan](/words/af/net/technical-support/) en sluit al die diagnostiese inligting in.
 
 ## Sien Ook
 
 * [Meet geheue gebruik in Visual Studio (C#, Visual Basic, C++, F#)](https://learn.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2022)
-* [Lewering](/words/net/rendering/)
-* [Mail Merge En Verslagdoening](/words/net/mail-merge-and-reporting/)
-* [Werk Met Velde](/words/net/working-with-fields/)
+* [Lewering](/words/af/net/rendering/)
+* [Mail Merge En Verslagdoening](/words/af/net/mail-merge-and-reporting/)
+* [Werk Met Velde](/words/af/net/working-with-fields/)

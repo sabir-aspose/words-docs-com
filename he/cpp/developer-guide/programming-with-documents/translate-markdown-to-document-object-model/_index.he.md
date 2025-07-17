@@ -12,7 +12,7 @@ timestamp: 2024-10-21-11-17-44
 
 כדי לקרוא, לתפעל ולשנות באופן תכנותי את התוכן והעיצוב של מסמך, עליך לתרגם אותו למודל אובייקט המסמך Aspose.Words (DOM).
 
-בניגוד למסמכים Word, Markdown אינו תואם את DOM המתואר ב [Aspose.Words מודל אובייקט מסמך (DOM)](/words/cpp/aspose-words-document-object-model/) סעיף. עם זאת, Aspose.Words מספק מנגנון משלו לתרגום Markdown מסמכים ל DOM ובחזרה, כך שנוכל לעבוד בהצלחה עם האלמנטים שלהם כגון עיצוב טקסט, טבלאות, כותרות ואחרים.
+בניגוד למסמכים Word, Markdown אינו תואם את DOM המתואר ב [Aspose.Words מודל אובייקט מסמך (DOM)](/words/he/cpp/aspose-words-document-object-model/) סעיף. עם זאת, Aspose.Words מספק מנגנון משלו לתרגום Markdown מסמכים ל DOM ובחזרה, כך שנוכל לעבוד בהצלחה עם האלמנטים שלהם כגון עיצוב טקסט, טבלאות, כותרות ואחרים.
 
 מאמר זה מסביר כיצד ניתן לתרגם את התכונות השונות markdown ל Aspose.Words DOM ובחזרה ל Markdown פוּרמָט.
 
@@ -105,5 +105,5 @@ Aspose.Words מאפשר גם לתרגם טבלאות ל DOM, כפי שמוצג �
 
 ## ראה גם
 
-* [עבודה עם Markdown תכונות](/words/cpp/working-with-markdown-features/)
+* [עבודה עם Markdown תכונות](/words/he/cpp/working-with-markdown-features/)
 

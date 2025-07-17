@@ -1,4 +1,4 @@
----
+﻿---
 title: Chuyển Đổi Một Tài liệu trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Chuyển đổi Tài liệu
@@ -30,7 +30,7 @@ Bạn có thể thử chức năng chuyển đổi bằng cách sử dụng [Chu
 
 ## Chuyển Đổi Phổ Biến {#popular-conversions}
 
-Phần hiện tại mô tả các chuyển đổi phổ biến, cũng như các ý tưởng để làm việc với một số kết hợp các định dạng khi tải và lưu. Sử dụng các ví dụ của phần này, bạn có thể hiểu rằng bản thân quá trình chuyển đổi khá phổ biến và không có ích gì khi mô tả tất cả các tùy chọn có thể, vì có vài trăm trong số chúng do số lượng lớn [các định dạng được hỗ trợ bởi Aspose.Words cho C++](/words/cpp/supported-document-formats/).
+Phần hiện tại mô tả các chuyển đổi phổ biến, cũng như các ý tưởng để làm việc với một số kết hợp các định dạng khi tải và lưu. Sử dụng các ví dụ của phần này, bạn có thể hiểu rằng bản thân quá trình chuyển đổi khá phổ biến và không có ích gì khi mô tả tất cả các tùy chọn có thể, vì có vài trăm trong số chúng do số lượng lớn [các định dạng được hỗ trợ bởi Aspose.Words cho C++](/words/vi/cpp/supported-document-formats/).
 
 {{% alert color="primary" %}}
 

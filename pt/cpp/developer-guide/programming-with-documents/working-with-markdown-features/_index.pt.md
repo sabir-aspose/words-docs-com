@@ -1,4 +1,4 @@
----
+﻿---
 title: Trabalhando com Markdown recursos em C++
 second_title: Aspose.Words para C++
 articleTitle: Trabalhando com Markdown recursos
@@ -27,7 +27,7 @@ A implementação do recurso Markdown segue principalmente a especificação `Co
 
 {{% alert color="primary" %}}
 
-Existem nuances de traduzir Markdown para o modelo de objeto de Documento Aspose.Words (DOM), descrito no artigo [Traduzir Markdown para Document Object Model (DOM)](/words/cpp/translate-markdown-to-document-object-model/).
+Existem nuances de traduzir Markdown para o modelo de objeto de Documento Aspose.Words (DOM), descrito no artigo [Traduzir Markdown para Document Object Model (DOM)](/words/pt/cpp/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

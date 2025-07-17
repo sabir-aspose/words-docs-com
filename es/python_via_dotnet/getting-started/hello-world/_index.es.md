@@ -1,4 +1,4 @@
----
+﻿---
 title: ¡Hola Mundo!
 second_title: Ejemplo sencillo de cómo utilizar Aspose.Words para Python via .NET
 articleTitle: ¡Hola Mundo!
@@ -12,7 +12,7 @@ timestamp: 2024-01-27-14-07-04
 
 Un "¡Hola mundo!" El código es a menudo el primer ejemplo sencillo que se escribe usando "Aspose.Words para Python via .NET" y también se puede utilizar como prueba de cordura para garantizar que el software destinado a compilar o ejecutar el código fuente esté instalado correctamente.
 
-La biblioteca "Aspose.Words para Python via .NET" brinda a los desarrolladores acceso directo para crear, modificar, fusionar, convertir y comparar documentos de Word y Web. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML y muchos otros formatos de archivo son [soportado](/words/python-net/supported-document-formats/).
+La biblioteca "Aspose.Words para Python via .NET" brinda a los desarrolladores acceso directo para crear, modificar, fusionar, convertir y comparar documentos de Word y Web. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML y muchos otros formatos de archivo son [soportado](/words/es/python-net/supported-document-formats/).
 
 El fragmento de Below code sigue estos pasos:
 

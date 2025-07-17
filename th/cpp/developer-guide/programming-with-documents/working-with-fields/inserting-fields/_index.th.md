@@ -1,4 +1,4 @@
----
+﻿---
 title: แทรกฟิลด์ในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: แทรกฟิลด์
@@ -14,7 +14,7 @@ timestamp: 2024-01-27-14-07-04
 
 - ใช้[DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/)
 - ใช้[FieldBuilder](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldbuilder/)
-- ใช้ [Aspose.Wordsรูปแบบวัตถุเอกสาร(DOM)](/words/cpp/aspose-words-document-object-model/)
+- ใช้ [Aspose.Wordsรูปแบบวัตถุเอกสาร(DOM)](/words/th/cpp/aspose-words-document-object-model/)
 
 ในบทความนี้เราจะดูที่แต่ละวิธีในรายละเอียดมากขึ้นและวิเคราะห์วิธีการแทรกเขตข้อมูลบางอย่างโดยใช้ตัวเลือกเหล่านี้.
 
@@ -64,7 +64,7 @@ timestamp: 2024-01-27-14-07-04
 
 ## การใส่ฟิลด์โดยใช้DOM
 
-นอกจากนี้คุณยังสามารถแทรกประเภทต่างๆของเขตข้อมูลโดยใช้ [Aspose.Wordsรูปแบบวัตถุเอกสาร(DOM)](/words/cpp/aspose-words-document-object-model/). ในส่วนนี้เราจะดูตัวอย่างบางส่วน.
+นอกจากนี้คุณยังสามารถแทรกประเภทต่างๆของเขตข้อมูลโดยใช้ [Aspose.Wordsรูปแบบวัตถุเอกสาร(DOM)](/words/th/cpp/aspose-words-document-object-model/). ในส่วนนี้เราจะดูตัวอย่างบางส่วน.
 
 ### การแทรกฟิลด์ผสานลงในเอกสารโดยใช้DOM
 

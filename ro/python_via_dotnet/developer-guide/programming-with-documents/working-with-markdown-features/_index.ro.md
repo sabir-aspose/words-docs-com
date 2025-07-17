@@ -1,4 +1,4 @@
----
+﻿---
 title: Lucrul cu Markdown caracteristici
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Lucrul cu Markdown caracteristici
@@ -27,7 +27,7 @@ Implementarea caracteristicilor Markdown urmează în mare parte specificația `
 
 {{% alert color="primary" %}}
 
-Există nuanțe de traducere Markdown la modelul de obiect Document Aspose.Words (DOM), descris în articol [Traduceți Markdown în Document Object Model (DOM)](/words/python-net/translate-markdown-to-document-object-model/).
+Există nuanțe de traducere Markdown la modelul de obiect Document Aspose.Words (DOM), descris în articol [Traduceți Markdown în Document Object Model (DOM)](/words/ro/python-net/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

@@ -470,7 +470,7 @@ Aspose.Words 23.12 يقدم خصائص وتعدادات جديدة للعمل م
 
 {{% alert color="primary" %}}
 
-تعرف على المزيد حول [Aspose.Words ل Java 23.9 ملاحظات الإصدار](/words/java/aspose-words-for-java-23-9-release-notes/).
+تعرف على المزيد حول [Aspose.Words ل Java 23.9 ملاحظات الإصدار](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-9-release-notes/).
 
 تعرف على المزيد حول [Aspose.Words ل Java 23.10 ملاحظات الإصدار](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 

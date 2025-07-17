@@ -1,4 +1,4 @@
----
+﻿---
 title: Java 'da Bir Tablo Nasıl Oluşturulur?
 second_title: Aspose.Words için Java
 articleTitle: Bir Tablo Oluşturun
@@ -123,7 +123,7 @@ Bu örneğin örnek dosyasını [Aspose.Words GitHub](https://github.com/aspose-
 
 {{% /alert %}}
 
-Verilerinizden gelen her kayıtla birlikte dinamik olarak büyüyen bir belge içinde tablolar oluşturmayı düşünüyorsanız, yukarıdaki yöntem tavsiye edilmez. Bunun yerine, istenilen çıktı daha kolay Mail merge ile bölgelerin kullanılması ile elde edilir. Bu tekniği hakkında daha fazla bilgi [Mail Merge with Regions](/words/java/types-of-mail-merge-operations/)'daki bölümde edinebilirsiniz.
+Verilerinizden gelen her kayıtla birlikte dinamik olarak büyüyen bir belge içinde tablolar oluşturmayı düşünüyorsanız, yukarıdaki yöntem tavsiye edilmez. Bunun yerine, istenilen çıktı daha kolay Mail merge ile bölgelerin kullanılması ile elde edilir. Bu tekniği hakkında daha fazla bilgi [Mail Merge with Regions](/words/tr/java/types-of-mail-merge-operations/)'daki bölümde edinebilirsiniz.
 
 ## Tablo Oluşturmanın Yollarını Karşılaştırın
 

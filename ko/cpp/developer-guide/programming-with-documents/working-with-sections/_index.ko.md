@@ -1,4 +1,4 @@
----
+﻿---
 title: 섹션 작업 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 섹션 작업
@@ -38,7 +38,7 @@ Aspose.Words 다른 섹션 나누기를 사용하여 문서를 분할하고 포�
 
 ## 섹션 관리
 
-섹션은 일반 복합 노드이기 때문에 전체 노드 조작 API 섹션을 조작하는 데 사용할 수 있습니다:섹션에 추가,제거 및 기타 작업. 이 기사에서 노드에 대한 자세한 내용을 읽을 수 있습니다 [Aspose.Words 문서 개체 모델(DOM)](/words/cpp/aspose-words-document-object-model/).
+섹션은 일반 복합 노드이기 때문에 전체 노드 조작 API 섹션을 조작하는 데 사용할 수 있습니다:섹션에 추가,제거 및 기타 작업. 이 기사에서 노드에 대한 자세한 내용을 읽을 수 있습니다 [Aspose.Words 문서 개체 모델(DOM)](/words/ko/cpp/aspose-words-document-object-model/).
 
 다른 한편으로는,당신은 또한 사용할 수 있습니다 `DocumentBuilder` API 섹션 작업. 이 기사에서는 섹션 작업의이 특정 방법에 초점을 맞출 것입니다.
 
@@ -154,5 +154,5 @@ Aspose.Words 를 사용하여 페이지 및 섹션 속성을 사용자 정의 �
 
 ## 또한 참조
 
-- [문서의 노드의 논리적 수준](/words/cpp/logical-levels-of-nodes-in-a-document/)
-- [문서 삽입 및 추가](/words/cpp/insert-and-append-documents/)
+- [문서의 노드의 논리적 수준](/words/ko/cpp/logical-levels-of-nodes-in-a-document/)
+- [문서 삽입 및 추가](/words/ko/cpp/insert-and-append-documents/)

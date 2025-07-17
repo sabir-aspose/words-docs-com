@@ -1,4 +1,4 @@
----
+﻿---
 title: 你好，世界！
 second_title: 简单的例子如何使用 Aspose.Words为C++
 articleTitle: 你好，世界！
@@ -12,7 +12,7 @@ timestamp: 2024-01-27-14-07-04
 
 A"你好，世界！"代码通常是编写uisng的第一个简单示例"Aspose.Words为C++"，并且它也可以用作理智测试，以确保正确安装旨在编译或运行源代码的软件。
 
-"Aspose.Words为C++"库让开发人员直接访问创建，修改，合并，转换，比较Word和Web文档。 PDF, DOCX, DOC, RTF, ODT, EPUB, HTML 和许多其他文件格式是 [支持](/words/cpp/supported-document-formats/).
+"Aspose.Words为C++"库让开发人员直接访问创建，修改，合并，转换，比较Word和Web文档。 PDF, DOCX, DOC, RTF, ODT, EPUB, HTML 和许多其他文件格式是 [支持](/words/zh/cpp/supported-document-formats/).
 
 Below code代码段遵循以下步骤:
 

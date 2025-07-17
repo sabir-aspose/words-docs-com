@@ -1,4 +1,4 @@
----
+﻿---
 title: FAQ
 second_title: Aspose.Words Para C++
 articleTitle: FAQ
@@ -12,7 +12,7 @@ timestamp: 2024-01-31-14-23-37
 
 Esta página contém respostas às perguntas mais frequentes. Por favor, Aprenda a página atual – talvez isso permita que você resolva seu problema rapidamente.
 
-Se você não encontrou a resposta para sua pergunta, pode perguntar no fórum de suporte. Para obter informações sobre como comunicar adequadamente a sua pergunta ou problema, consulte o [Suporte Técnico](/words/cpp/technical-support/) página.
+Se você não encontrou a resposta para sua pergunta, pode perguntar no fórum de suporte. Para obter informações sobre como comunicar adequadamente a sua pergunta ou problema, consulte o [Suporte Técnico](/words/pt/cpp/technical-support/) página.
 
 {{% alert color="primary" %}}
 
@@ -32,7 +32,7 @@ Os detalhes podem ser encontrados em nossa documentação.
 
 **P: O que significa "Aspose.Words não requer aplicações de terceiros"?**
 
-Aspose.Words para C++ não necessita de instalar quaisquer aplicações de terceiros ou pacotes de software adicionais para funcionar. Basta baixar e instalar Aspose.Words conforme descrito no ["Instalação"](/words/cpp/installation/) artigo e começar.
+Aspose.Words para C++ não necessita de instalar quaisquer aplicações de terceiros ou pacotes de software adicionais para funcionar. Basta baixar e instalar Aspose.Words conforme descrito no ["Instalação"](/words/pt/cpp/installation/) artigo e começar.
 
 ------
 
@@ -40,7 +40,7 @@ Aspose.Words para C++ não necessita de instalar quaisquer aplicações de terce
 
 Aspose.Words Para C++ abrange a maioria dos ambientes de desenvolvimento populares e plataformas de implantação. Its API pode ser usado para desenvolver aplicativos para uma ampla gama de sistemas operacionais, como Windows, Linux e Mac OS, e várias plataformas.
 
-Para mais informações, ver o [Visão Geral Do Produto](/words/cpp/product-overview/) página.
+Para mais informações, ver o [Visão Geral Do Produto](/words/pt/cpp/product-overview/) página.
 
 ------
 
@@ -48,7 +48,7 @@ Para mais informações, ver o [Visão Geral Do Produto](/words/cpp/product-over
 
 Aspose.Words Para C++ suporta a maioria dos formatos de documentos populares, tais como DOC, DOCX, HTML, Markdown, PDF, XML, e outros.
 
-Você pode ver a lista completa de formatos suportados no [Formatos De Documentos Suportados](/words/cpp/supported-document-formats/) página.
+Você pode ver a lista completa de formatos suportados no [Formatos De Documentos Suportados](/words/pt/cpp/supported-document-formats/) página.
 
 ------
 
@@ -56,7 +56,7 @@ Você pode ver a lista completa de formatos suportados no [Formatos De Documento
 
 Você pode fazer isso de duas maneiras – usando a versão de avaliação ou uma licença temporária de 30 dias. A versão de teste é a mesma que a adquirida, fornece funcionalidade completa do produto, mas adiciona uma marca d'água avaliativa na parte superior do documento ao carregar e salvar e limita o tamanho máximo do documento a algumas centenas de parágrafos. Uma licença temporária permite que você teste Aspose.Words sem restrições de Avaliação por 30 dias.
 
-Ver o [Licenciamento e subscrição](/words/cpp/licensing/) página para mais informações.
+Ver o [Licenciamento e subscrição](/words/pt/cpp/licensing/) página para mais informações.
 
 {{% alert color="primary" %}}
 
@@ -70,31 +70,31 @@ Você também pode experimentar alguns dos recursos Aspose.Words mais populares 
 
 Para comprar uma licença Aspose.Words, você precisa ir ao [Compra](https://purchase.aspose.com/buy) página, selecione o produto "Aspose.Words " e o tipo de licença que mais lhe convier. Em seguida, adicione a licença ao seu carrinho e siga as instruções do carrinho de compras.
 
-Após a compra, solicite a licença conforme descrito no [Licença Adquirida](/words/cpp/licensing/#purchased-license) secção.
+Após a compra, solicite a licença conforme descrito no [Licença Adquirida](/words/pt/cpp/licensing/) secção.
 
-Detalhes sobre como instalar Aspose.Words podem ser lidos no [Instalação](/words/cpp/installation/) página.
+Detalhes sobre como instalar Aspose.Words podem ser lidos no [Instalação](/words/pt/cpp/installation/) página.
 
 ------
 
 **P: Como posso obter suporte?**
 
-Use o Fórum de suporte técnico gratuito. Para obter detalhes sobre como relatar adequadamente um problema e o que precisa ser feito antes de entrar em contato com o fórum, consulte o [Suporte Técnico](/words/cpp/technical-support/) página.
+Use o Fórum de suporte técnico gratuito. Para obter detalhes sobre como relatar adequadamente um problema e o que precisa ser feito antes de entrar em contato com o fórum, consulte o [Suporte Técnico](/words/pt/cpp/technical-support/) página.
 
 ## Renderizar um documento
 
 {{% alert color="primary" %}}
 
-Você pode encontrar informações mais detalhadas sobre a renderização no [Renderização](/words/cpp/rendering/) secção de documentação.
+Você pode encontrar informações mais detalhadas sobre a renderização no [Renderização](/words/pt/cpp/rendering/) secção de documentação.
 
 {{% /alert %}}
 
 **P: Por que o layout e as fontes no documento de saída são diferentes do original?**
 
-A fonte pode não estar disponível ou o formato da fonte é suportado por Microsoft Word mas não por Aspose.Words. Aspose.Words irá realizar [substituição de fonte](/words/cpp/manipulate-and-substitute-truetype-fonts/).
+A fonte pode não estar disponível ou o formato da fonte é suportado por Microsoft Word mas não por Aspose.Words. Aspose.Words irá realizar [substituição de fonte](/words/pt/cpp/manipulate-and-substitute-truetype-fonts/).
 
 Para verificar se a fonte está faltando:
 
-- Em Aspose.Words use os avisos de substituição de fonte (para obter detalhes, consulte a seção " Como reconhecer que a fonte foi substituída [Manipular e substituir fontes TrueType ](/words/cpp/manipulate-and-substitute-truetype-fonts/) artigo).
+- Em Aspose.Words use os avisos de substituição de fonte (para obter detalhes, consulte a seção " Como reconhecer que a fonte foi substituída [Manipular e substituir fontes TrueType ](/words/pt/cpp/manipulate-and-substitute-truetype-fonts/) artigo).
 - Em Microsoft Word abra a caixa de diálogo" substituição de fonte " (ficheiro de Opções de substituição de fonte avançada de Opções de substituição de fonte avançada).
 
 ------
@@ -121,7 +121,7 @@ Sim, tens. Portanto, ao copiar fontes, lembre-se de que a maioria das fontes é 
 
 {{% alert color="primary" %}}
 
-Pode encontrar informações mais detalhadas sobre a programação com documentos no [Programação com documentos](/words/cpp/programming-with-documents/) secção de documentação.
+Pode encontrar informações mais detalhadas sobre a programação com documentos no [Programação com documentos](/words/pt/cpp/programming-with-documents/) secção de documentação.
 
 {{% /alert %}}
 
@@ -133,7 +133,7 @@ O resultado do anexo aparece numa página separada devido a uma diferença nas d
 
 {{% alert color="primary" %}}
 
-Pode encontrar informações mais detalhadas sobre a conversão de um documento no [Converter um documento](/words/cpp/convert-a-document/) secção de documentação.
+Pode encontrar informações mais detalhadas sobre a conversão de um documento no [Converter um documento](/words/pt/cpp/convert-a-document/) secção de documentação.
 
 {{% /alert %}}
 
@@ -156,7 +156,7 @@ doc->Save(outputPath);
 
 {{% alert color="primary" %}}
 
-Pode encontrar informações mais detalhadas sobre a programação com documentos no [Programação com documentos](/words/cpp/programming-with-documents/) secção de documentação.
+Pode encontrar informações mais detalhadas sobre a programação com documentos no [Programação com documentos](/words/pt/cpp/programming-with-documents/) secção de documentação.
 
 {{% /alert %}}
 

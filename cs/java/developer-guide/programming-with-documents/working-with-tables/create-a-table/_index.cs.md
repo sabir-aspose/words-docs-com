@@ -1,4 +1,4 @@
----
+﻿---
 title: Jak vytvořit tabulku v Java
 second_title: Aspose.Words místo Java
 articleTitle: Vytvořit tabulku
@@ -123,7 +123,7 @@ Soubor vzorku tohoto příkladu si můžete stáhnout z [Aspose.Words GitHub](ht
 
 {{% /alert %}}
 
-Pokud se díváte na vytváření tabulek v dokumentu, který dynamicky roste s každým záznamem ze zdroje dat, pak výše uvedená metoda se nedoporučuje. Místo toho je požadovaný výstup snadněji dosaženo použitím Mail merge s regiony. O této technice se můžete dozvědět více v [Mail Merge s regiony](/words/java/types-of-mail-merge-operations/) sekce.
+Pokud se díváte na vytváření tabulek v dokumentu, který dynamicky roste s každým záznamem ze zdroje dat, pak výše uvedená metoda se nedoporučuje. Místo toho je požadovaný výstup snadněji dosaženo použitím Mail merge s regiony. O této technice se můžete dozvědět více v [Mail Merge s regiony](/words/cs/java/types-of-mail-merge-operations/) sekce.
 
 ## Porovnat způsoby, jak vytvořit tabulku
 

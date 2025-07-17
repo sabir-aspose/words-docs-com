@@ -1,4 +1,4 @@
----
+﻿---
 title: 常问问题
 second_title: .NET 格式的 Aspose.Words
 articleTitle: 常见问题解答 – .NET 格式的 Aspose.Words
@@ -72,7 +72,7 @@ Aspose.Words for .NET 支持大多数流行的文档格式，例如 DOC、DOCX�
 
 要购买Aspose.Words许可证，您需要进入[购买](https://purchase.aspose.com/buy)页面，选择"Aspose.Words"产品和适合您的许可证类型。然后将许可证添加到您的购物车并按照购物车说明进行操作。
 
-购买后，按照 [购买许可证](/words/net/licensing/#purchased-license) 部分所述申请许可证。
+购买后，按照 [购买许可证](/words/zh/net/licensing/) 部分所述申请许可证。
 
 有关如何安装 Aspose.Words 的详细信息可以在 [安装](/words/zh/net/installation/) 页面上阅读。
 
@@ -129,7 +129,7 @@ Aspose.Words for .NET 支持大多数流行的文档格式，例如 DOC、DOCX�
 
 {{% alert color="primary" %}}
 
-您可以在 [Mail Merge 和报告](/words/net/mail-merge-and-reporting/) 文档部分找到有关 Mail Merge 的更多详细信息。
+您可以在 [Mail Merge 和报告](/words/zh/net/mail-merge-and-reporting/) 文档部分找到有关 Mail Merge 的更多详细信息。
 
 {{% /alert %}}
 
@@ -153,7 +153,7 @@ Aspose.Words for .NET 支持大多数流行的文档格式，例如 DOC、DOCX�
 这是因为父子表关系没有设置或者设置不正确。有必要：
 
 * 确保 **DataSet** 内的数据完整性，并使用 **DataRelation** 对象来表示相关数据表之间的父子关系。
-* 请查看 [带有区域的嵌套 Mail Merge](/words/net/nested-mail-merge-with-regions/) 文章中的"如何在嵌套 Mail Merge 中与区域建立数据关系"部分。
+* 请查看 [带有区域的嵌套 Mail Merge](/words/zh/net/nested-mail-merge-with-regions/) 文章中的"如何在嵌套 Mail Merge 中与区域建立数据关系"部分。
 
 ------
 

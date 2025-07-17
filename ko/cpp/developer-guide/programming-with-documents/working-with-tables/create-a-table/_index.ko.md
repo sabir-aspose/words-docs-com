@@ -1,4 +1,4 @@
----
+﻿---
 title: 테이블을 만드는 방법 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 테이블 만들기
@@ -112,7 +112,7 @@ Aspose.Words 에서 문서에 내용을 삽입 지원 HTML 소스를 사용하�
 
 {{< gist "aspose-words-gists" "aa87055754447c86ae5fb2d4766130f3" "clone-last-row.h" >}}
 
-데이터 원본의 각 레코드와 함께 동적으로 증가하는 문서의 테이블을 만드는 방법을 찾고 있다면 위의 방법을 사용하지 않는 것이 좋습니다. 대신,원하는 출력은 Mail merge 지역과 함께 이 기술에 대해 더 많이 배울 수 있습니다 [Mail Merge 지역](/words/cpp/types-of-mail-merge-operations/) 부문
+데이터 원본의 각 레코드와 함께 동적으로 증가하는 문서의 테이블을 만드는 방법을 찾고 있다면 위의 방법을 사용하지 않는 것이 좋습니다. 대신,원하는 출력은 Mail merge 지역과 함께 이 기술에 대해 더 많이 배울 수 있습니다 [Mail Merge 지역](/words/ko/cpp/types-of-mail-merge-operations/) 부문
 
 ## 테이블을 만드는 방법 비교
 

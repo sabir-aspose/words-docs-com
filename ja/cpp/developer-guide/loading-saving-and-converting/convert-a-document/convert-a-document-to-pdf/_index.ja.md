@@ -1,4 +1,4 @@
----
+﻿---
 title: C++で文書をPDFに変換する
 second_title: C++の場合Aspose.Words
 articleTitle: 文書をPDFに変換する
@@ -47,7 +47,7 @@ DOCまたはDOCXドキュメント形式からAspose.WordsのPDF形式に変換�
 
 ### 異なるPDF標準{#converting-to-various-pdf-standards}に変換する
 
-Aspose.Wordsは[PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/)列挙体を提供し、DOCまたはDOCXをさまざまなPDF形式標準(次のような)に変換することをサポートしますPDF 1.7, PDF 1.5, など。).
+Aspose.Wordsは[PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/)列挙体を提供し、DOCまたはDOCXをさまざまなPDF形式標準(次のような)に変換することをサポートしますPDF 1.7, PDF 1.5, など。).
 
 次のコード例は、PDF17に準拠して[PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/)を使用して文書をPDF1.7に変換する方法を示しています:
 
@@ -67,6 +67,6 @@ PDFへの変換はMicrosoft Word文書形式によって制限されません。
 
 ## また見て下さい
 
-- この記事は、 [レンダリング](/words/cpp/rendering/) 固定ページ形式とフローレイアウト形式の詳細については、以下を参照してください
-- この記事は、 [固定ページ形式への変換](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) ページレイアウトの詳細については
-- この記事は、 [PDFに変換するときのレンダリングオプションの指定](/words/cpp/specify-rendering-options-when-converting-to-pdf/) `PdfSaveOptions`クラスの使用の詳細については
+- この記事は、 [レンダリング](/words/ja/cpp/rendering/) 固定ページ形式とフローレイアウト形式の詳細については、以下を参照してください
+- この記事は、 [固定ページ形式への変換](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) ページレイアウトの詳細については
+- この記事は、 [PDFに変換するときのレンダリングオプションの指定](/words/ja/cpp/specify-rendering-options-when-converting-to-pdf/) `PdfSaveOptions`クラスの使用の詳細については

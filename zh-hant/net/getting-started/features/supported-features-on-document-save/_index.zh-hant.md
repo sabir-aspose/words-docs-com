@@ -1,4 +1,4 @@
----
+﻿---
 title: Document Save的支援功能
 second_title: Aspose.Words for .NET
 articleTitle: Document Save的支援功能
@@ -10,7 +10,7 @@ url: /zh-hant/net/supported-features-on-document-save/
 timestamp: 2024-09-25-11-08-55
 ---
 
-Aspose.Words 讓使用者可以在各種格式下處理文件，並為這些功能提供廣泛的選項。 例如，使用者可以從頭開始建立文件或載入文件、進行一些修改，然後將這些修改儲存到任何 [supported export format](/words/net/supported-document-formats/) 中。 當以選定的格式儲存該文件時，使用者可以應用各種儲存選項。
+Aspose.Words 讓使用者可以在各種格式下處理文件，並為這些功能提供廣泛的選項。 例如，使用者可以從頭開始建立文件或載入文件、進行一些修改，然後將這些修改儲存到任何 [supported export format](/words/zh-hant/net/supported-document-formats/) 中。 當以選定的格式儲存該文件時，使用者可以應用各種儲存選項。
 
 {{% alert color="primary" %}}
 
@@ -21,7 +21,7 @@ Aspose.Words 讓使用者可以在各種格式下處理文件，並為這些功�
 完整的功能清單請見 API reference:。
 
 - [save options for all formats](https://reference.aspose.com/words/net/aspose.words.saving/)
-- [fixed page save options](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/)為[fixed-page formats](/words/net/converting-to-fixed-page-format/)：PDF，XPS，圖像和其他
+- [fixed page save options](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/)為[fixed-page formats](/words/zh-hant/net/converting-to-fixed-page-format/)：PDF，XPS，圖像和其他
 - [PDF save options](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) PDF 格式
 - [OOXML save options](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/) For DOCX、DOCM、DOTX、DOTM 或 FlatOpc格式
 - [DOC save options](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) 和 DOT 格式的檔案

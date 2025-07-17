@@ -65,5 +65,5 @@ Aspose.Words memiliki sejumlah kelas yang terkait dengan tabel– [Tables](https
 
 ## Lihat Juga
 
-* [Aspose.Words Model Objek Dokumen (DOM)](/words/java/aspose-words-document-object-model/)
-* [Tingkat Logis dari Node dalam Dokumen](/words/java/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Model Objek Dokumen (DOM)](/words/id/java/aspose-words-document-object-model/)
+* [Tingkat Logis dari Node dalam Dokumen](/words/id/java/logical-levels-of-nodes-in-a-document/)

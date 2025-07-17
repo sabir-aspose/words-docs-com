@@ -1,4 +1,4 @@
----
+﻿---
 title: Come installare Aspose.Words per C++
 second_title: Aspose.Words per C++
 articleTitle: Installazione
@@ -10,7 +10,7 @@ url: /it/cpp/installation/
 timestamp: 2024-09-24-14-35-44
 ---
 
-Assicurati che la tua macchina soddisfi il [requisiti di sistema](/words/cpp/system-requirements/) prima di iniziare.
+Assicurati che la tua macchina soddisfi il [requisiti di sistema](/words/it/cpp/system-requirements/) prima di iniziare.
 
 Questo articolo spiega come installare Aspose.Words per C++ sul tuo computer.
 

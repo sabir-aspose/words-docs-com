@@ -1,4 +1,4 @@
----
+﻿---
 title: Arbeiten mit Dokumenteigenschaften in C++
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit Dokumenteigenschaften
@@ -15,7 +15,7 @@ Dokumenteigenschaften ermöglichen das Speichern einiger nützlicher Information
 * System oder integriert, die Werte wie Dokumenttitel, Autorenname, Dokumentstatistik und andere enthalten.
 * Benutzerdefiniert oder benutzerdefiniert, bereitgestellt als Name-Wert-Paare, wobei der Benutzer sowohl den Namen als auch den Wert definieren kann.
 
-Es ist nützlich zu wissen, dass Informationen zu API und Versionsnummer direkt in Ausgabedokumente geschrieben werden. Wenn Sie beispielsweise ein Dokument in PDF konvertieren, füllt Aspose.Words das Feld "Anwendung" mit "Aspose.Words" und das Feld "PDF Produzent" mit "Aspose.Words für C++ YY.M.N", wobei *YY.M.N* die Version von Aspose.Words ist, die für die Konvertierung verwendet wird. Weitere Einzelheiten finden Sie unter [Name des Generators oder Herstellers in Ausgabedokumenten enthalten](/words/cpp/generator-or-producer-name-included-in-output-documents/).
+Es ist nützlich zu wissen, dass Informationen zu API und Versionsnummer direkt in Ausgabedokumente geschrieben werden. Wenn Sie beispielsweise ein Dokument in PDF konvertieren, füllt Aspose.Words das Feld "Anwendung" mit "Aspose.Words" und das Feld "PDF Produzent" mit "Aspose.Words für C++ YY.M.N", wobei *YY.M.N* die Version von Aspose.Words ist, die für die Konvertierung verwendet wird. Weitere Einzelheiten finden Sie unter [Name des Generators oder Herstellers in Ausgabedokumenten enthalten](/words/de/cpp/generator-or-producer-name-included-in-output-documents/).
 
 {{% alert color="primary" %}}
 

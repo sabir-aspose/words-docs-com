@@ -1,4 +1,4 @@
----
+﻿---
 title: Conversia unui Document în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Conversia unui Document
@@ -29,7 +29,7 @@ Puteți încerca această funcționalitate cu [Convertor online gratuit](https:/
 
 ## Conversii Populare {#popular-conversions}
 
-Secțiunea actuală descrie conversiile populare, precum și idei pentru lucrul cu unele combinații de formate la încărcare și salvare. Folosind exemplele din această secțiune, puteți înțelege că procesul de conversie în sine este destul de universal și nu are rost să descriem toate opțiunile posibile, deoarece există câteva sute dintre ele datorită numărului mare de [formate acceptate de Aspose.Words pentru Java](/words/java/supported-document-formats/).
+Secțiunea actuală descrie conversiile populare, precum și idei pentru lucrul cu unele combinații de formate la încărcare și salvare. Folosind exemplele din această secțiune, puteți înțelege că procesul de conversie în sine este destul de universal și nu are rost să descriem toate opțiunile posibile, deoarece există câteva sute dintre ele datorită numărului mare de [formate acceptate de Aspose.Words pentru Java](/words/ro/java/supported-document-formats/).
 
 {{% alert color="primary" %}}
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: 在C++中保存为固定页面格式
 second_title: Aspose.Words对于C++
 articleTitle: 将文档保存为固定页面格式
@@ -17,7 +17,7 @@ timestamp: 2024-09-24-14-35-44
 - 输出文档中包含的页数和范围([PageIndex](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pageset/), [PageCount](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pageset/)).
 - 逐页文档保存的进度([PageSavingCallback](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pagesavingcallback/))。
 - 用于数字渲染([NumeralFormat](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_numeralformat/))的一组字符。
-- 元文件播放器([MetafileRenderingOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_metafilerenderingoptions/))。 有关详细信息，请参阅 [处理Windows元文件](/words/cpp/handling-windows-metafiles/) 文章。
+- 元文件播放器([MetafileRenderingOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_metafilerenderingoptions/))。 有关详细信息，请参阅 [处理Windows元文件](/words/zh/cpp/handling-windows-metafiles/) 文章。
 - 用于重新压缩JPEG图像的质量速率，其值可能略有不同，具体取决于所选的保存格式([JpegQuality](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_jpegquality/))。
 - 优化Aspose.Words输出([OptimizeOutput](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_optimizeoutput/))中的矢量图形。
 - 保存为Tiff，Png，Bmp，Jpeg，Emf格式时的图形选项([UseAntiAliasing](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_useantialiasing/), [UseHighQualityRendering](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_usehighqualityrendering/)).

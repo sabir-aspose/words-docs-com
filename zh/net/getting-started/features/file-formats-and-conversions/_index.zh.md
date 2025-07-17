@@ -1,4 +1,4 @@
----
+﻿---
 title: 文件格式和转换
 second_title: .NET 格式的 Aspose.Words
 articleTitle: 文件格式和转换
@@ -29,7 +29,7 @@ timestamp: 2024-01-31-14-23-37
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "docx-to-pdf.cs" >}}
 
-有关加载、转换和保存文档的更多详细信息，请参阅 [加载、保存和转换](/words/cpp/loading-saving-and-converting/) 部分。
+有关加载、转换和保存文档的更多详细信息，请参阅 [加载、保存和转换](/words/zh/cpp/loading-saving-and-converting/) 部分。
 
 ## 高保真度
 

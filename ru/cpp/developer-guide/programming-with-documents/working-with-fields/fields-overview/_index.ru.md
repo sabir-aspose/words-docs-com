@@ -1,4 +1,4 @@
----
+﻿---
 title: Обзор полей в C++
 second_title: Aspose.Words для C++
 articleTitle: Обзор полей
@@ -29,7 +29,7 @@ Aspose.Words - это библиотека классов, предназнач�
 
 ![fields-overview-aspose-words-cpp-1](fields-overview-1.png)
 
-Содержимое, составляющее код поля, хранится в виде [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) узлов между [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) и [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/). Результат работы с полем хранится между узлами **FieldSeparator** и [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) и может состоять из различных типов содержимого. Обычно поле результата содержит только текст, состоящий из **Run** узлов, однако возможно, что узел **FieldEnd** находится в совершенно другом абзаце, и, таким образом, поле результата состоит из [узлы блочного уровня](/words/cpp/logical-levels-of-nodes-in-a-document/) например, узлы **Table** и **Paragraph**.
+Содержимое, составляющее код поля, хранится в виде [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) узлов между [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) и [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/). Результат работы с полем хранится между узлами **FieldSeparator** и [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) и может состоять из различных типов содержимого. Обычно поле результата содержит только текст, состоящий из **Run** узлов, однако возможно, что узел **FieldEnd** находится в совершенно другом абзаце, и, таким образом, поле результата состоит из [узлы блочного уровня](/words/ru/cpp/logical-levels-of-nodes-in-a-document/) например, узлы **Table** и **Paragraph**.
 
 Вот представление о том, как хранится поле в Aspose.Words, на примере "*DocumentExplorer"*.
 
@@ -37,7 +37,7 @@ Aspose.Words - это библиотека классов, предназнач�
 
 ## Поля в объектной модели документа Aspose.Words (DOM)
 
-Когда документ загружается в Aspose.Words, поля документа загружаются в объектную модель документа [Aspose.Words](/words/cpp/aspose-words-document-object-model/) как набор отдельных компонентов (узлов). Одно поле загружается как набор узлов **FieldStart**, **FieldSeparator** и **FieldEnd** вместе с содержимым между этими узлами. Если у поля нет результата field, то не будет узла **FieldSeparator**. Все эти узлы всегда находятся в строке (как дочерние для [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) или [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
+Когда документ загружается в Aspose.Words, поля документа загружаются в объектную модель документа [Aspose.Words](/words/ru/cpp/aspose-words-document-object-model/) как набор отдельных компонентов (узлов). Одно поле загружается как набор узлов **FieldStart**, **FieldSeparator** и **FieldEnd** вместе с содержимым между этими узлами. Если у поля нет результата field, то не будет узла **FieldSeparator**. Все эти узлы всегда находятся в строке (как дочерние для [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) или [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
 
 В Aspose.Words каждый из узлов **FieldXXX** является производным от [FieldChar](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_char/). Этот класс предоставляет свойство для проверки типа поля, представленного указанным узлом, с помощью свойства [FieldType](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldchar/get_fieldtype/). Например, **FieldType.FieldMergeField** представляет поле объединения в документе.
 

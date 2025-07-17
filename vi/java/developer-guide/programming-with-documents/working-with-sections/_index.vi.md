@@ -1,4 +1,4 @@
----
+﻿---
 title: "Làm việc với các phần trong Java`:"
 second_title: Aspose.Words cho Java
 articleTitle: Làm việc với các Phần
@@ -38,7 +38,7 @@ Bạn cũng có thể dùng [SectionStart](https://reference.aspose.com/words/ja
 
 ## Quản lý một phần
 
-Vì một phần là một nút hợp nhất thông thường, toàn bộ thao tác nút API có thể được sử dụng để thao tác các phần: thêm, xóa và các hoạt động khác trên các phần. Bạn có thể đọc thêm về các node trong bài viết [Aspose.Words Document Object Model (DOM)](/words/java/aspose-words-document-object-model/).
+Vì một phần là một nút hợp nhất thông thường, toàn bộ thao tác nút API có thể được sử dụng để thao tác các phần: thêm, xóa và các hoạt động khác trên các phần. Bạn có thể đọc thêm về các node trong bài viết [Aspose.Words Document Object Model (DOM)](/words/vi/java/aspose-words-document-object-model/).
 
 Mặt khác, bạn cũng có thể sử dụng `DocumentBuilder` API để làm việc với các phần. Trong bài viết này, chúng ta sẽ tập trung vào cách làm việc đặc biệt này với các phần.
 
@@ -154,5 +154,5 @@ Mã ví dụ sau cho thấy cách sửa đổi thuộc tính trang trên tất c
 
 ## Xem thêm
 
-- [Logical Levels of Nodes in a Document](/words/java/logical-levels-of-nodes-in-a-document/)
-- [Insert and Append Documents](/words/java/insert-and-append-documents/)
+- [Logical Levels of Nodes in a Document](/words/vi/java/logical-levels-of-nodes-in-a-document/)
+- [Insert and Append Documents](/words/vi/java/insert-and-append-documents/)
