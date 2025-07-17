@@ -1,4 +1,4 @@
----
+﻿---
 title: Installasie
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Installasie
@@ -10,7 +10,7 @@ url: /af/python-net/installation/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Maak seker dat jou masjien voldoen aan die [stelselvereistes](/words/python-net/system-requirements/) voordat jy begin.
+Maak seker dat jou masjien voldoen aan die [stelselvereistes](/words/af/python-net/system-requirements/) voordat jy begin.
 
 Hierdie artikel verduidelik hoe om te installeer Aspose.Words vir Python via .NET op jou rekenaar.
 

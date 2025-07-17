@@ -1,4 +1,4 @@
----
+﻿---
 title: C++ içindeki Sayfa Düzeni nedir
 second_title: Aspose.Words için C++
 articleTitle: Sayfa Düzeni Nedir
@@ -20,6 +20,6 @@ Bir belge ile sayfa düzeni arasındaki ilişki oldukça basittir. Bir belge iç
 
 ## Ayrıca bakınız
 
-* [Sayfa Düzeni Oluşturma](/words/cpp/creating-a-page-layout/)
-* [Belgeyi Sabit Sayfa Biçimine Kaydetme](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Düzen Seçeneklerini Belirtin](/words/cpp/specify-layout-options/)
+* [Sayfa Düzeni Oluşturma](/words/tr/cpp/creating-a-page-layout/)
+* [Belgeyi Sabit Sayfa Biçimine Kaydetme](/words/tr/cpp/saving-a-document-to-fixed-page-format/)
+* [Düzen Seçeneklerini Belirtin](/words/tr/cpp/specify-layout-options/)

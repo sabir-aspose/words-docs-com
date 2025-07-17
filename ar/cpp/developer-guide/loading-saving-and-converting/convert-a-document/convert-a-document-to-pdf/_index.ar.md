@@ -1,4 +1,4 @@
----
+﻿---
 title: تحويل مستند إلى PDF في C++
 second_title: Aspose.Words ل C++
 articleTitle: تحويل مستند إلى PDF
@@ -47,7 +47,7 @@ timestamp: 2024-10-21-08-52-03
 
 ### تحويل إلى معايير PDF مختلفة {#converting-to-various-pdf-standards}
 
-Aspose.Words يوفر [PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) التعداد لدعم تحويل DOC أو DOCX إلى معايير تنسيق PDF مختلفة (مثل PDF 1.7, PDF 1.5, الخ.).
+Aspose.Words يوفر [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) التعداد لدعم تحويل DOC أو DOCX إلى معايير تنسيق PDF مختلفة (مثل PDF 1.7, PDF 1.5, الخ.).
 
 يوضح مثال الكود التالي كيفية تحويل مستند إلى PDF 1.7 باستخدام [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) مع الامتثال إلى PDF17:
 
@@ -67,6 +67,6 @@ Aspose.Words يوفر [PdfCompliace](https://reference.aspose.com/words/cpp/aspo
 
 ## أنظر أيضا
 
-- المادة [تقديم](/words/cpp/rendering/) لمزيد من المعلومات حول تنسيقات الصفحة الثابتة وتخطيط التدفق
-- المادة [التحويل إلى تنسيق الصفحة الثابتة](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) لمزيد من المعلومات حول تخطيط الصفحة
-- المادة [حدد خيارات العرض عند التحويل إلى PDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) لمزيد من المعلومات حول استخدام فئة `PdfSaveOptions`
+- المادة [تقديم](/words/ar/cpp/rendering/) لمزيد من المعلومات حول تنسيقات الصفحة الثابتة وتخطيط التدفق
+- المادة [التحويل إلى تنسيق الصفحة الثابتة](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) لمزيد من المعلومات حول تخطيط الصفحة
+- المادة [حدد خيارات العرض عند التحويل إلى PDF](/words/ar/cpp/specify-rendering-options-when-converting-to-pdf/) لمزيد من المعلومات حول استخدام فئة `PdfSaveOptions`

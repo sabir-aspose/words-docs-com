@@ -10,7 +10,7 @@ url: /nl/cpp/installation/
 timestamp: 2024-09-24-14-35-44
 ---
 
-Zorg ervoor dat uw machine voldoet aan de [systeemvereisten](/words/cpp/system-requirements/) voordat je begint.
+Zorg ervoor dat uw machine voldoet aan de [systeemvereisten](/words/nl/cpp/system-requirements/) voordat je begint.
 
 In dit artikel wordt uitgelegd hoe u Aspose.Words voor C++ op uw computer installeert.
 

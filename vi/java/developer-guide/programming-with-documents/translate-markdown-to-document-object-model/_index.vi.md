@@ -1,4 +1,4 @@
----
+﻿---
 title: Dịch Markdown sang DOM
 second_title: Aspose.Words cho Java
 articleTitle: Dịch Markdown sang Document Object Model (DOM)
@@ -12,7 +12,7 @@ timestamp: 2024-10-21-11-17-44
 
 Để đọc, thao tác và sửa đổi nội dung và định dạng của một tài liệu theo lập trình, bạn cần dịch nó thành "Aspose.Words Document Object Model (DOM)".
 
-Trái ngược với Word document, Markdown không tuân theo DOM được mô tả trong bài viết [Aspose.Words Document Object Model (DOM)](/words/java/aspose-words-document-object-model/). Tuy nhiên, Aspose.Words cung cấp các phương pháp riêng của nó để dịch thuật các tài liệu Markdown sang DOM và ngược lại, vì vậy chúng ta có thể làm việc thành công với các yếu tố như định dạng văn bản, bảng, tiêu đề và những thứ khác.
+Trái ngược với Word document, Markdown không tuân theo DOM được mô tả trong bài viết [Aspose.Words Document Object Model (DOM)](/words/vi/java/aspose-words-document-object-model/). Tuy nhiên, Aspose.Words cung cấp các phương pháp riêng của nó để dịch thuật các tài liệu Markdown sang DOM và ngược lại, vì vậy chúng ta có thể làm việc thành công với các yếu tố như định dạng văn bản, bảng, tiêu đề và những thứ khác.
 
 Bài viết này giải thích cách các tính năng khác nhau markdown có thể được dịch sang định dạng Aspose.Words DOM và trở lại với Markdown định dạng.
 
@@ -98,5 +98,5 @@ Aspose.Words cũng cho phép dịch các bảng sang DOM, như thấy ở dướ
 
 ## Xem thêm
 
-* [Working with Markdown Features](/words/java/working-with-markdown-features/)
+* [Working with Markdown Features](/words/vi/java/working-with-markdown-features/)
 

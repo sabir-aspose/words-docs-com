@@ -21,7 +21,7 @@ Należy zauważyć, że czcionka w dokumencie reprezentuje jednostkę, taką jak
 
 ## Gdzie Aspose.Words Szuka czcionek
 
-Aspose.Words automatycznie próbuje znaleźć TrueType czcionki w systemie plików. Zwykle możesz polegać na domyślnym zachowaniu Aspose.Words, aby znaleźć `TrueType` czcionki, ale czasami musisz określić własne foldery zawierające TrueType czcionki. The [Określ Lokalizację Czcionek TrueType ](/words/cpp/specify-truetype-fonts-location/) temat opisuje, jak i gdzie Aspose.Words szuka czcionek, a także Jak określić własne lokalizacje czcionek.
+Aspose.Words automatycznie próbuje znaleźć TrueType czcionki w systemie plików. Zwykle możesz polegać na domyślnym zachowaniu Aspose.Words, aby znaleźć `TrueType` czcionki, ale czasami musisz określić własne foldery zawierające TrueType czcionki. The [Określ Lokalizację Czcionek TrueType ](/words/pl/cpp/specify-truetype-fonts-location/) temat opisuje, jak i gdzie Aspose.Words szuka czcionek, a także Jak określić własne lokalizacje czcionek.
 
 ## Różnice w przetwarzaniu formatów czcionek w Aspose.Words i Microsoft Word
 

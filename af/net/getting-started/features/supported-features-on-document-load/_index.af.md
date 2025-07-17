@@ -1,4 +1,4 @@
----
+﻿---
 title: Ondersteunde Kenmerke op Dokumentlading
 second_title: Aspose.Words vir .NET
 articleTitle: Ondersteunde Kenmerke op Dokumentlading
@@ -10,7 +10,7 @@ url: /af/net/supported-features-on-document-load/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words laat gebruikers toe om met dokumente in verskillende formate te werk en bied'n wye verskeidenheid opsies hiervoor. Gebruikers kan byvoorbeeld'n dokument van nuuts af skep of'n bestaande lêer in enige [ondersteunde invoerformaat](/words/net/supported-document-formats/), maak'n paar veranderinge aan daardie dokument en stoor dan die resultaat. Wanneer'n dokument in die geselekteerde formaat ingevoer word, kan die gebruiker verskeie laai-opsies toepas.
+Aspose.Words laat gebruikers toe om met dokumente in verskillende formate te werk en bied'n wye verskeidenheid opsies hiervoor. Gebruikers kan byvoorbeeld'n dokument van nuuts af skep of'n bestaande lêer in enige [ondersteunde invoerformaat](/words/af/net/supported-document-formats/), maak'n paar veranderinge aan daardie dokument en stoor dan die resultaat. Wanneer'n dokument in die geselekteerde formaat ingevoer word, kan die gebruiker verskeie laai-opsies toepas.
 
 {{% alert color="primary" %}}
 

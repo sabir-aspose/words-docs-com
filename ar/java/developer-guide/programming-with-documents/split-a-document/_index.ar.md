@@ -85,7 +85,7 @@ Aspose.Words يسمح لك بتقسيم EPUB أو HTML المستندات إلى
 
 {{% alert color="primary" %}}
 
-يمكنك استخدام أي [تنسيق الإخراج بدعم من Aspose.Words](/words/java/supported-document-formats/).
+يمكنك استخدام أي [تنسيق الإخراج بدعم من Aspose.Words](/words/ar/java/supported-document-formats/).
 
 {{% /alert %}}
 

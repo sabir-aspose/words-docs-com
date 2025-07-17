@@ -546,13 +546,13 @@ Metode LowCode baru yang dimaksudkan untuk menggabungkan berbagai jenis dokumen 
 
 {{% alert color="primary" %}}
 
-Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 23.5 Catatan Rilis](/words/python-net/aspose-words-for-python-via-dotnet-23-5-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 23.5 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-5-release-notes/).
 
-Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 23.6 Catatan Rilis](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 23.6 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
 Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 23.7 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
-Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 23.8 Catatan Rilis](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
+Pelajari lebih lanjut tentang [Aspose.Words untuk Python via .NET 23.8 Catatan Rilis](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
 {{% /alert %}}
 

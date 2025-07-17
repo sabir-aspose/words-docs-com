@@ -1,4 +1,4 @@
----
+﻿---
 title: Conversia în format de pagină fixă în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Conversia în format de pagină fixă
@@ -75,7 +75,7 @@ După ce aspectul paginii este construit și geometria obiectelor și poziția l
 - Numărul și gama de pagini conținute în documentul de ieșire ([PageIndex](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/), [PageCount](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
 - Progresul salvării documentelor pagină cu pagină ([PageSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
 - Un set de caractere care sunt utilizate pentru redarea numerelor ([NumeralFormat](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
-- Un jucător metafișier ([MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/). Pentru mai multe detalii, consultați [Manipularea Windows Metafile](/words/java/handling-windows-metafiles/) articolul.
+- Un jucător metafișier ([MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/). Pentru mai multe detalii, consultați [Manipularea Windows Metafile](/words/ro/java/handling-windows-metafiles/) articolul.
 - O rată de calitate pentru recomprimarea imaginilor JPEG, a căror valoare poate diferi ușor, în funcție de formatul de salvare selectat ([JpegQuality](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/).
 - Optimizarea graficelor vectoriale în Aspose.Words Ieșire ([OptimizeOutput](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
 - Opțiuni grafice la salvarea în formate Tiff, Png, Bmp, Jpeg, Emf ([UseAntiAliasing](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/#getUseAntiAliasing), [UseHighQualityRendering](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).

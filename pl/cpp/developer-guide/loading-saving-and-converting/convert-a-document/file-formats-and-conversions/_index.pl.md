@@ -29,7 +29,7 @@ Poniższy przykład kodu pokazuje, jak przekonwertować dokument:
 
 {{< gist "aspose-words-gists" "b9784b73e288805e08fba6e3fc5ae2af" "docx-to-pdf.h" >}}
 
-Aby uzyskać więcej informacji na temat ładowania, konwersji i zapisywania dokumentów, zobacz [Ładowanie, Zapisywanie i konwersja](/words/cpp/loading-saving-and-converting/) sekcji.
+Aby uzyskać więcej informacji na temat ładowania, konwersji i zapisywania dokumentów, zobacz [Ładowanie, Zapisywanie i konwersja](/words/pl/cpp/loading-saving-and-converting/) sekcji.
 
 ## Wysoka Wierność
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Instalare
 second_title: Aspose.Words pentru Java
 articleTitle: Instalare
@@ -10,7 +10,7 @@ url: /ro/java/installation/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Asigurați-vă că aparatul dvs. îndeplinește [cerințe de sistem](/words/java/system-requirements/) înainte de a începe.
+Asigurați-vă că aparatul dvs. îndeplinește [cerințe de sistem](/words/ro/java/system-requirements/) înainte de a începe.
 
 Acest articol explică modul de instalare Aspose.Words pentru Java pe computer.
 

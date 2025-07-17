@@ -1,4 +1,4 @@
----
+﻿---
 title: So erstellen Sie einen Strichcode
 second_title: Aspose.Words für .NET
 articleTitle: Erzeuge ein benutzerdefiniertes Strichkodebild
@@ -55,7 +55,7 @@ Sie können das Dokument auch mit dem geladenen oder neu eingefügten Barcode im
 
 {{% alert color="primary" %}}
 
-Für mehr Informationen zum Konvertieren von Dokumenten aus einem Format in ein anderes siehe die [Convert a Document](/words/net/convert-a-document/)-Dokumentations-Abschnitt.
+Für mehr Informationen zum Konvertieren von Dokumenten aus einem Format in ein anderes siehe die [Convert a Document](/words/de/net/convert-a-document/)-Dokumentations-Abschnitt.
 
 {{% /alert %}}
 

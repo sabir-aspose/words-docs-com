@@ -47,7 +47,7 @@ Należy pamiętać, że przy tej samej technice można przekonwertować dowolny 
 
 ### Konwertuj do różnych plików PDF Normy {#converting-to-various-pdf-standards}
 
-Aspose.Words zapewnia [PdfCompliace](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)wyliczenie wspierające konwersję DOC lub DOCX na różne standardy formatu PDF (takie jak PDF 1.7, PDF 1.5 itp.).
+Aspose.Words zapewnia [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)wyliczenie wspierające konwersję DOC lub DOCX na różne standardy formatu PDF (takie jak PDF 1.7, PDF 1.5 itp.).
 
 Poniższy przykład kodu pokazuje, jak przekonwertować dokument do PDF 1.7 za pomocą [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) zgodnie z PDF17:
 
@@ -82,5 +82,5 @@ Korzystanie z **OptimizeOutput** właściwość może wpływać na dokładność
 ## Zobacz również
 
 - Artykuł [Renderowanie](/words/pl/java/rendering/) więcej informacji na temat formatów fixed- page i flow- layout
-- Artykuł [Konwersja na formacie strony Naprawiono](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) więcej informacji na temat układu strony
+- Artykuł [Konwersja na formacie strony Naprawiono](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) więcej informacji na temat układu strony
 - Artykuł [Określ opcje renderowania podczas konwersji na PDF](/words/pl/java/specify-rendering-options-when-converting-to-pdf/) więcej informacji na temat korzystania z `PdfSaveOptions` klasa

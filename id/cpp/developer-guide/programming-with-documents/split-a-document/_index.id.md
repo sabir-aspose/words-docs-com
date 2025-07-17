@@ -1,4 +1,4 @@
----
+﻿---
 title: Membagi Dokumen dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Membagi Dokumen
@@ -67,7 +67,7 @@ Bagian ini menjelaskan beberapa kasus penggunaan untuk membagi dokumen dengan pa
 
 {{% alert color="primary" %}}
 
-Anda dapat menggunakan apa saja [format keluaran yang didukung oleh Aspose.Words](/words/cpp/supported-document-formats/).
+Anda dapat menggunakan apa saja [format keluaran yang didukung oleh Aspose.Words](/words/id/cpp/supported-document-formats/).
 
 {{% /alert %}}
 

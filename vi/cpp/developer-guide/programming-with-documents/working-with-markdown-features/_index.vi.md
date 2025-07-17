@@ -1,4 +1,4 @@
----
+﻿---
 title: Làm việc với các Tính năng Markdown trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm việc với các Tính năng Markdown
@@ -27,7 +27,7 @@ Việc triển khai tính năng Markdown chủ yếu tuân theo đặc tả `Com
 
 {{% alert color="primary" %}}
 
-Có các sắc thái của việc dịch Markdown Sang Mô hình Đối tượng Tài liệu Aspose.Words (DOM), được mô tả trong bài viết [Dịch Markdown Sang Mô Hình Đối tượng Tài liệu (DOM)](/words/cpp/translate-markdown-to-document-object-model/).
+Có các sắc thái của việc dịch Markdown Sang Mô hình Đối tượng Tài liệu Aspose.Words (DOM), được mô tả trong bài viết [Dịch Markdown Sang Mô Hình Đối tượng Tài liệu (DOM)](/words/vi/cpp/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

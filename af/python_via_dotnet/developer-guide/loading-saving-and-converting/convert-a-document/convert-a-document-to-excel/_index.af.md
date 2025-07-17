@@ -1,4 +1,4 @@
----
+﻿---
 title: Skakel Word Na Excel in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Skakel'n Dokument Om Na Excel
@@ -76,5 +76,5 @@ doc.save(ARTIFACTS_DIR + "BaseConversions.CompressXlsx.xlsx", saveOptions)
 
 ## Sien Ook
 
-- Dokumentasie afdeling [Beskerm of Enkripteer'n Dokument](/words/python-net/protect-or-encrypt-a-document/) vir meer inligting oor die beskerming en enkripsie van'n dokument
-- Die artikel [Vind en Vervang](/words/python-net/find-and-replace/) vir meer inligting oor die vind en vervanging van die inhoud wat u wil hê
+- Dokumentasie afdeling [Beskerm of Enkripteer'n Dokument](/words/af/python-net/protect-or-encrypt-a-document/) vir meer inligting oor die beskerming en enkripsie van'n dokument
+- Die artikel [Vind en Vervang](/words/af/python-net/find-and-replace/) vir meer inligting oor die vind en vervanging van die inhoud wat u wil hê

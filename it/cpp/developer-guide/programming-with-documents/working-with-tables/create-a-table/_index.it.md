@@ -1,4 +1,4 @@
----
+﻿---
 title: Come creare una tabella in C++
 second_title: Aspose.Words per C++
 articleTitle: Creare una tabella
@@ -112,7 +112,7 @@ L'esempio di codice seguente mostra come clonare l'ultima riga di una tabella e 
 
 {{< gist "aspose-words-gists" "aa87055754447c86ae5fb2d4766130f3" "clone-last-row.h" >}}
 
-Se stai cercando di creare tabelle in un documento che crescono dinamicamente con ogni record dall'origine dati, il metodo sopra non è consigliato. Invece, l'output desiderato è più facilmente raggiungibile usando Mail merge con le regioni. Puoi saperne di più su questa tecnica nel [Mail Merge con Regioni](/words/cpp/types-of-mail-merge-operations/) sezione.
+Se stai cercando di creare tabelle in un documento che crescono dinamicamente con ogni record dall'origine dati, il metodo sopra non è consigliato. Invece, l'output desiderato è più facilmente raggiungibile usando Mail merge con le regioni. Puoi saperne di più su questa tecnica nel [Mail Merge con Regioni](/words/it/cpp/types-of-mail-merge-operations/) sezione.
 
 ## Confronta i modi per creare una tabella
 

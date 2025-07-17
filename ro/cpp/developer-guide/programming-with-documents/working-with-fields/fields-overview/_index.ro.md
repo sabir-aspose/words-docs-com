@@ -1,4 +1,4 @@
----
+﻿---
 title: Prezentare generală a câmpurilor în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Prezentare Generală A Câmpurilor
@@ -29,7 +29,7 @@ Un câmp este format din:
 
 ![fields-overview-aspose-words-cpp-1](fields-overview-1.png)
 
-Conținutul care alcătuiește codul câmpului este stocat ca [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) noduri între [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) și [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/). Rezultatul câmpului este stocat între nodurile **FieldSeparator** și [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) și poate fi alcătuit din diferite tipuri de conținut. În mod normal, rezultatul câmpului conține doar text format din noduri **Run**, cu toate acestea, este posibil ca nodul **FieldEnd** să fie localizat într-un paragraf complet diferit, făcând astfel rezultatul câmpului compus din [noduri la nivel de bloc](/words/cpp/logical-levels-of-nodes-in-a-document/) cum ar fi **Table** și **Paragraph** noduri, de asemenea.
+Conținutul care alcătuiește codul câmpului este stocat ca [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) noduri între [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) și [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/). Rezultatul câmpului este stocat între nodurile **FieldSeparator** și [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) și poate fi alcătuit din diferite tipuri de conținut. În mod normal, rezultatul câmpului conține doar text format din noduri **Run**, cu toate acestea, este posibil ca nodul **FieldEnd** să fie localizat într-un paragraf complet diferit, făcând astfel rezultatul câmpului compus din [noduri la nivel de bloc](/words/ro/cpp/logical-levels-of-nodes-in-a-document/) cum ar fi **Table** și **Paragraph** noduri, de asemenea.
 
 Iată o vizualizare a modului în care un câmp este stocat în Aspose.Words folosind exemplul "*DocumentExplorer"*.
 
@@ -37,7 +37,7 @@ Iată o vizualizare a modului în care un câmp este stocat în Aspose.Words fol
 
 ## Câmpuri în modelul obiectului Document Aspose.Words (DOM)
 
-Când un document este încărcat în Aspose.Words, câmpurile documentului sunt încărcate în [Aspose.Words Model Obiect Document](/words/cpp/aspose-words-document-object-model/) ca un set de componente separate (noduri). Un singur câmp este încărcat ca o colecție de noduri **FieldStart**, **FieldSeparator** și **FieldEnd** împreună cu conținutul dintre aceste noduri. Dacă un câmp nu are un rezultat de câmp, atunci nu va exista un nod **FieldSeparator**. Toate aceste noduri sunt întotdeauna găsite în linie (ca copii ai [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) sau [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
+Când un document este încărcat în Aspose.Words, câmpurile documentului sunt încărcate în [Aspose.Words Model Obiect Document](/words/ro/cpp/aspose-words-document-object-model/) ca un set de componente separate (noduri). Un singur câmp este încărcat ca o colecție de noduri **FieldStart**, **FieldSeparator** și **FieldEnd** împreună cu conținutul dintre aceste noduri. Dacă un câmp nu are un rezultat de câmp, atunci nu va exista un nod **FieldSeparator**. Toate aceste noduri sunt întotdeauna găsite în linie (ca copii ai [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) sau [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
 
 În Aspose.Words fiecare dintre nodurile **FieldXXX** derivă din [FieldChar](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_char/). Această clasă oferă o proprietate pentru a verifica tipul de câmp reprezentat de nodul specificat prin proprietatea [FieldType](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldchar/get_fieldtype/). De exemplu, **FieldType.FieldMergeField** reprezintă un câmp de îmbinare în document.
 

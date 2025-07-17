@@ -1,4 +1,4 @@
----
+﻿---
 title: Dividere un documento in C++
 second_title: Aspose.Words per C++
 articleTitle: Dividere un documento
@@ -67,7 +67,7 @@ Questa sezione descrive diversi casi d'uso di dividere i documenti per paging ut
 
 {{% alert color="primary" %}}
 
-Puoi usare qualsiasi [formato di output supportato da Aspose.Words](/words/cpp/supported-document-formats/).
+Puoi usare qualsiasi [formato di output supportato da Aspose.Words](/words/it/cpp/supported-document-formats/).
 
 {{% /alert %}}
 

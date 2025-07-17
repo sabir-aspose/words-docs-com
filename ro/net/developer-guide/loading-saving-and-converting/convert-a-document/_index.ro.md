@@ -1,4 +1,4 @@
----
+﻿---
 title: Converteste un document folosind C#
 second_title: Aspose.Words pentru .NET
 articleTitle: Converteste un document
@@ -30,7 +30,7 @@ Puteți testa funcționalitatea de conversie folosind instrumentul nostru [Free 
 
 ## Conversii populare {#popular-conversions}
 
-Secțiunea curentă descrie conversii populare, precum și idei pentru a lucra cu unele combinații de formate atunci când se încarcă și se salvează. Folosind exemplele din acest secțiune, vei înțelege că procesul de conversie în sine este destul de universal, și nu are sens să descriu toate opțiunile posibile, deoarece există câteva sute de ele datorită numărului mare de [formats supported by Aspose.Words for .NET](/words/net/supported-document-formats/).
+Secțiunea curentă descrie conversii populare, precum și idei pentru a lucra cu unele combinații de formate atunci când se încarcă și se salvează. Folosind exemplele din acest secțiune, vei înțelege că procesul de conversie în sine este destul de universal, și nu are sens să descriu toate opțiunile posibile, deoarece există câteva sute de ele datorită numărului mare de [formats supported by Aspose.Words for .NET](/words/ro/net/supported-document-formats/).
 
 {{% alert color="primary" %}}
 

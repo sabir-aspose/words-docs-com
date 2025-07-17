@@ -1,4 +1,4 @@
----
+﻿---
 title: Formate de fișiere și conversii
 second_title: Aspose.Words pentru C++
 articleTitle: De ce este conversia caracteristica emblematică a Aspose.Words?
@@ -29,7 +29,7 @@ Următorul exemplu de cod arată cum se convertește un document:
 
 {{< gist "aspose-words-gists" "b9784b73e288805e08fba6e3fc5ae2af" "docx-to-pdf.h" >}}
 
-Pentru mai multe detalii despre încărcarea, conversia și salvarea documentelor, consultați [Încărcarea, salvarea și conversia](/words/cpp/loading-saving-and-converting/) secțiunea.
+Pentru mai multe detalii despre încărcarea, conversia și salvarea documentelor, consultați [Încărcarea, salvarea și conversia](/words/ro/cpp/loading-saving-and-converting/) secțiunea.
 
 ## Înaltă Fidelitate
 

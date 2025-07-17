@@ -1,4 +1,4 @@
----
+﻿---
 title: نمای کلی جدول
 second_title: Aspose.Words برای C++
 articleTitle: نمای کلی جدول
@@ -65,5 +65,5 @@ Aspose.Words یک کتابخانه کلاس است که برای پردازش ا
 
 ## بایگانی برچسب برای:
 
-* [Aspose.Words مدل شیء سند (DOM)](/words/cpp/aspose-words-document-object-model/)
-* [سطوح منطقی گره ها در یک سند](/words/cpp/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words مدل شیء سند (DOM)](/words/fa/cpp/aspose-words-document-object-model/)
+* [سطوح منطقی گره ها در یک سند](/words/fa/cpp/logical-levels-of-nodes-in-a-document/)

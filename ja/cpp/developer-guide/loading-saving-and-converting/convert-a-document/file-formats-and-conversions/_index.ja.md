@@ -1,4 +1,4 @@
----
+﻿---
 title: ファイル形式と変換
 second_title: C++の場合Aspose.Words
 articleTitle: 変換がAspose.Wordsの主力機能であるのはなぜですか？
@@ -29,7 +29,7 @@ Aspose.Wordsを使用すると、サポートされている任意のロード�
 
 {{< gist "aspose-words-gists" "b9784b73e288805e08fba6e3fc5ae2af" "docx-to-pdf.h" >}}
 
-ドキュメントの読み込み、変換、および保存の詳細については、次を参照してください [読み込み、保存、変換](/words/cpp/loading-saving-and-converting/) セクション。
+ドキュメントの読み込み、変換、および保存の詳細については、次を参照してください [読み込み、保存、変換](/words/ja/cpp/loading-saving-and-converting/) セクション。
 
 ## 高忠実度
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Vertaal Markdown Na Dokument Objek Model (DOM)
 second_title: Aspose.Words vir C++
 articleTitle: Vertaal Markdown Na Dokument Objek Model (DOM)
@@ -12,7 +12,7 @@ timestamp: 2024-10-21-11-17-44
 
 Om die inhoud en formatering van'n dokument programmaties te lees, te manipuleer en te verander, moet jy dit vertaal na die Aspose.Words Document Object Model (DOM).
 
-In teenstelling met Word-dokumente, voldoen Markdown nie aan die DOM wat in Die [Aspose.Words Dokument Voorwerp Model (DOM)](/words/cpp/aspose-words-document-object-model/) artikel. Aspose.Words bied egter sy eie meganisme vir die vertaling van Markdown dokumente na DOM en terug, sodat ons suksesvol kan werk met hul elemente soos teks opmaak, tabelle, koptekste, en ander.
+In teenstelling met Word-dokumente, voldoen Markdown nie aan die DOM wat in Die [Aspose.Words Dokument Voorwerp Model (DOM)](/words/af/cpp/aspose-words-document-object-model/) artikel. Aspose.Words bied egter sy eie meganisme vir die vertaling van Markdown dokumente na DOM en terug, sodat ons suksesvol kan werk met hul elemente soos teks opmaak, tabelle, koptekste, en ander.
 
 Hierdie artikel verduidelik hoe die verskillende markdown kenmerke vertaal kan word in Aspose.Words DOM en terug na Markdown formaat.
 
@@ -105,5 +105,5 @@ Aspose.Words laat ook toe om tabelle te vertaal in DOM, soos hieronder getoon:
 
 ## Sien Ook
 
-* [Werk met Markdown Funksies](/words/cpp/working-with-markdown-features/)
+* [Werk met Markdown Funksies](/words/af/cpp/working-with-markdown-features/)
 

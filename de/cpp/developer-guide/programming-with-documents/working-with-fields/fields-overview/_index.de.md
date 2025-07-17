@@ -1,4 +1,4 @@
----
+﻿---
 title: Feldübersicht in C++
 second_title: Aspose.Words für C++
 articleTitle: Felder Übersicht
@@ -29,7 +29,7 @@ Ein Feld besteht aus:
 
 ![fields-overview-aspose-words-cpp-1](fields-overview-1.png)
 
-Der Inhalt, aus dem der Feldcode besteht, wird als [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) Knoten zwischen [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) und [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/) gespeichert. Das Feldergebnis wird zwischen den Knoten **FieldSeparator** und [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) gespeichert und kann aus verschiedenen Inhaltstypen bestehen. Normalerweise enthält das Feldergebnis nur Text, der aus **Run** Knoten besteht, es ist jedoch möglich, dass sich der **FieldEnd** Knoten in einem völlig anderen Absatz befindet und somit das Feldergebnis besteht aus [knoten auf Blockebene](/words/cpp/logical-levels-of-nodes-in-a-document/) wie auch **Table** und **Paragraph** Knoten.
+Der Inhalt, aus dem der Feldcode besteht, wird als [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) Knoten zwischen [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) und [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/) gespeichert. Das Feldergebnis wird zwischen den Knoten **FieldSeparator** und [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) gespeichert und kann aus verschiedenen Inhaltstypen bestehen. Normalerweise enthält das Feldergebnis nur Text, der aus **Run** Knoten besteht, es ist jedoch möglich, dass sich der **FieldEnd** Knoten in einem völlig anderen Absatz befindet und somit das Feldergebnis besteht aus [knoten auf Blockebene](/words/de/cpp/logical-levels-of-nodes-in-a-document/) wie auch **Table** und **Paragraph** Knoten.
 
 Hier sehen Sie, wie ein Feld in Aspose.Words gespeichert wird, indem Sie das Beispiel "*DocumentExplorer"*" verwenden.
 
@@ -37,7 +37,7 @@ Hier sehen Sie, wie ein Feld in Aspose.Words gespeichert wird, indem Sie das Bei
 
 ## Felder im Aspose.Words-Dokumentobjektmodell (DOM)
 
-Wenn ein Dokument in Aspose.Words geladen wird, werden die Felder des Dokuments in die [Aspose.Words Dokumentobjektmodell](/words/cpp/aspose-words-document-object-model/) als Satz separater Komponenten (Knoten). Ein einzelnes Feld wird als Sammlung von **FieldStart** -, **FieldSeparator** - und **FieldEnd** -Knoten zusammen mit dem Inhalt zwischen diesen Knoten geladen. Wenn ein Feld kein Feldergebnis enthält, gibt es keinen **FieldSeparator** -Knoten. Alle diese Knoten werden immer inline gefunden (als Kinder von [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) oder [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
+Wenn ein Dokument in Aspose.Words geladen wird, werden die Felder des Dokuments in die [Aspose.Words Dokumentobjektmodell](/words/de/cpp/aspose-words-document-object-model/) als Satz separater Komponenten (Knoten). Ein einzelnes Feld wird als Sammlung von **FieldStart** -, **FieldSeparator** - und **FieldEnd** -Knoten zusammen mit dem Inhalt zwischen diesen Knoten geladen. Wenn ein Feld kein Feldergebnis enthält, gibt es keinen **FieldSeparator** -Knoten. Alle diese Knoten werden immer inline gefunden (als Kinder von [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) oder [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
 
 In Aspose.Words leitet sich jeder der **FieldXXX** Knoten von [FieldChar](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_char/) ab. Diese Klasse stellt eine Eigenschaft bereit, um den Feldtyp zu überprüfen, der vom angegebenen Knoten durch die Eigenschaft [FieldType](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldchar/get_fieldtype/) dargestellt wird. Beispiel: **FieldType.FieldMergeField** steht für ein Seriendruckfeld im Dokument.
 

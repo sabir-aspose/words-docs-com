@@ -15,7 +15,7 @@ Met Documenteigenschappen kunt u nuttige informatie over uw document opslaan. De
 * Systeem of Ingebouwde die waarden zoals documenttitel, auteursnaam, documentstatistieken en anderen bevatten.
 * Door de gebruiker gedefinieerd of aangepast, verstrekt als naam-waarde paren waarbij de gebruiker zowel de naam als de waarde kan definiëren.
 
-Het is handig om te weten dat informatie over API en versienummer rechtstreeks naar uitvoerdocumenten wordt geschreven. Bijvoorbeeld, bij het converteren van een document naar PDF, vult Aspose.Words het veld "Application" in met "Aspose.Words", en het veld "PDF Producer" met "Aspose.Words voor C++ YY.M. n", waarbij *YY.M.N* de versie van Aspose.Words is die voor conversie wordt gebruikt. Voor meer details, zie [Naam van Generator of producent opgenomen in uitvoerdocumenten](/words/cpp/generator-or-producer-name-included-in-output-documents/).
+Het is handig om te weten dat informatie over API en versienummer rechtstreeks naar uitvoerdocumenten wordt geschreven. Bijvoorbeeld, bij het converteren van een document naar PDF, vult Aspose.Words het veld "Application" in met "Aspose.Words", en het veld "PDF Producer" met "Aspose.Words voor C++ YY.M. n", waarbij *YY.M.N* de versie van Aspose.Words is die voor conversie wordt gebruikt. Voor meer details, zie [Naam van Generator of producent opgenomen in uitvoerdocumenten](/words/nl/cpp/generator-or-producer-name-included-in-output-documents/).
 
 {{% alert color="primary" %}}
 

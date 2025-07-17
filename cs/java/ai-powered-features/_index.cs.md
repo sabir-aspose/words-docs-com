@@ -1,4 +1,4 @@
----
+﻿---
 title: AI - poháněné funkce
 second_title: Aspose.Words pro Java
 articleTitle: AI - poháněné funkce
@@ -16,7 +16,7 @@ Aspose.Words nyní obsahuje funkce založené na AI navržené tak, aby zpracov�
 
 V této části se budeme zabývat vším, co potřebujete vědět o používání podporovaných funkcí AI v Aspose.Words. Od praktických tipů až po podrobné pokyny, naším cílem je pomoci vám co nejlépe využít tato vylepšení.
 
-* [Podporované AI Modely](/words/java/supported-ai-models/)
-* [Shrňte dokument](/words/java/summarize-a-document/)
-* [Přeložit dokument](/words/java/translate-a-document/)
-* [gramatik](/words/java/grammar-checking/)
+* [Podporované AI Modely](/words/cs/java/supported-ai-models/)
+* [Shrňte dokument](/words/cs/java/summarize-a-document/)
+* [Přeložit dokument](/words/cs/java/translate-a-document/)
+* [gramatik](/words/cs/java/grammar-checking/)

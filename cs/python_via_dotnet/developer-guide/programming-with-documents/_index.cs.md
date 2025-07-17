@@ -1,4 +1,4 @@
----
+﻿---
 title: Programování s dokumenty
 second_title: Aspose.Words místo Python via .NET
 articleTitle: Programování s dokumenty
@@ -51,11 +51,11 @@ Další informace Aspose.Words funkce při programování s dokumenty, vyberte o
 - [Práce s OfficeMath](/words/cs/python-net/working-with-officemath/)
 - [Práce s chytrými Umění Studené renderování](/words/cs/python-net/working-with-smartart-cold-rendering/)
 - [Práce s vodoznakem](/words/cs/python-net/working-with-watermark/)
-- [Práce s Ole objekty a online video](/words/python-net/working-with-ole-objects/)
+- [Práce s Ole objekty a online video](/words/cs/python-net/working-with-ole-objects/)
 - [Práce s poli](/words/cs/python-net/working-with-fields/)
 - [Práce s polemi formuláře](/words/cs/python-net/working-with-form-fields/)
 - [Práce s řízením obsahu SDT](/words/cs/python-net/working-with-content-control-sdt/)
 - [Práce s kontrolními znaky](/words/cs/python-net/working-with-control-characters/)
 - [Práce s VBA Macros](/words/cs/python-net/working-with-vba-macros/)
 - [Práce s Markdown Vlastnosti](/words/cs/python-net/working-with-markdown-features/)
-- [Práce s dokumentem](/words/python-net/working-with-text-document/)
+- [Práce s dokumentem](/words/cs/python-net/working-with-text-document/)

@@ -1,4 +1,4 @@
----
+﻿---
 title: Prezentare Generală A Tabelului
 second_title: Aspose.Words pentru Python
 articleTitle: Prezentare Generală A Tabelului
@@ -65,5 +65,5 @@ De asemenea, este demn de remarcat faptul că separarea a două tabele consecuti
 
 ## Vezi Și
 
-* [Aspose.Words Model Obiect Document (DOM)](/words/python-net/aspose-words-document-object-model/)
-* [Nivelurile logice ale nodurilor dintr-un Document](/words/python-net/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Model Obiect Document (DOM)](/words/ro/python-net/aspose-words-document-object-model/)
+* [Nivelurile logice ale nodurilor dintr-un Document](/words/ro/python-net/logical-levels-of-nodes-in-a-document/)

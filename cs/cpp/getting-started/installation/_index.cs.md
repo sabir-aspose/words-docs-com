@@ -10,7 +10,7 @@ url: /cs/cpp/installation/
 timestamp: 2024-09-24-14-35-44
 ---
 
-Ujistěte se, že váš stroj splňuje [požadavek](/words/cpp/system-requirements/) než začnete.
+Ujistěte se, že váš stroj splňuje [požadavek](/words/cs/cpp/system-requirements/) než začnete.
 
 Tento článek vysvětluje, jak nainstalovat Aspose.Words pro C++ do počítače.
 

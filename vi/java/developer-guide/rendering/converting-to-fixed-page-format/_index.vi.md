@@ -1,4 +1,4 @@
----
+﻿---
 title: Chuyển đổi sang Định dạng Trang cố định trong Java
 second_title: Aspose.Words cho Java
 articleTitle: Chuyển đổi sang Định dạng Cố định
@@ -75,7 +75,7 @@ Sau khi bố cục trang được xây dựng và hình học của các đối 
 "Số trang và phạm vi của các trang được bao gồm trong tài liệu đầu ra ([PageIndex](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/), [PageCount](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).)"
 - Tiến trình lưu tài liệu trang-bởi-trang [PageSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
 - Một bộ các ký tự được dùng để hiển thị số ([NumeralFormat](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).).
-- Một trình phát metafile [MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/). Để biết chi tiết hơn, xem bài viết [Handling Windows Metafiles](/words/java/handling-windows-metafiles/).
+- Một trình phát metafile [MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/). Để biết chi tiết hơn, xem bài viết [Handling Windows Metafiles](/words/vi/java/handling-windows-metafiles/).
 - Tỷ lệ chất lượng nén lại hình ảnh JPEG, giá trị của đó có thể khác nhau một chút tùy thuộc vào định dạng lưu chọn ([JpegQuality](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/).")
 - Tối ưu hóa đồ họa vectơ trong Aspose.Words đầu ra ([OptimizeOutput](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
 - Tùy chọn đồ họa khi lưu sang định dạng Tiff, Png, Bmp, Jpeg, Emf ([UseAntiAliasing](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/#getUseAntiAliasing), [UseHighQualityRendering](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).)

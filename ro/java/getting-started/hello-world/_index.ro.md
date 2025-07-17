@@ -1,4 +1,4 @@
----
+﻿---
 title: Bună, Lume!
 second_title: Exemplu simplu de utilizare Aspose.Words pentru Java
 articleTitle: Bună, Lume!
@@ -12,7 +12,7 @@ timestamp: 2024-01-27-14-07-04
 
 Un "Bună, Lume!"codul este adesea primul exemplu simplu pentru a scrie uisng "Aspose.Words pentru Java", și poate fi, de asemenea, folosit ca un test de sănătate mintală pentru a se asigura că software-ul destinat compilării sau rulării codului sursă este instalat corect.
 
-"Aspose.Words pentru Java"Biblioteca oferă dezvoltatorilor acces direct la crearea, modificarea, îmbinarea, conversia, compararea documentelor Word și Web. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML și multe alte formate de fișiere sunt [suportat](/words/java/supported-document-formats/).
+"Aspose.Words pentru Java"Biblioteca oferă dezvoltatorilor acces direct la crearea, modificarea, îmbinarea, conversia, compararea documentelor Word și Web. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML și multe alte formate de fișiere sunt [suportat](/words/ro/java/supported-document-formats/).
 
 Below code fragment urmează acești pași:
 

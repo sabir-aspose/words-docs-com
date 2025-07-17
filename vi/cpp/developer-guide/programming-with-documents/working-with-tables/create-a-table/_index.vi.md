@@ -1,4 +1,4 @@
----
+﻿---
 title: Cách Tạo Bảng trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Tạo Một Bảng
@@ -112,7 +112,7 @@ Ví dụ mã sau đây cho thấy cách sao chép hàng cuối cùng của bản
 
 {{< gist "aspose-words-gists" "aa87055754447c86ae5fb2d4766130f3" "clone-last-row.h" >}}
 
-Nếu bạn đang xem xét việc tạo các bảng trong một tài liệu phát triển linh hoạt với mỗi bản ghi từ nguồn dữ liệu của bạn, thì phương pháp trên không được khuyến khích. Thay vào đó, đầu ra mong muốn dễ dàng đạt được hơn bằng cách sử dụng Mail merge với các vùng. Bạn có thể tìm hiểu thêm về kỹ thuật này trong [Mail Merge Với Các Khu Vực](/words/cpp/types-of-mail-merge-operations/) phần.
+Nếu bạn đang xem xét việc tạo các bảng trong một tài liệu phát triển linh hoạt với mỗi bản ghi từ nguồn dữ liệu của bạn, thì phương pháp trên không được khuyến khích. Thay vào đó, đầu ra mong muốn dễ dàng đạt được hơn bằng cách sử dụng Mail merge với các vùng. Bạn có thể tìm hiểu thêm về kỹ thuật này trong [Mail Merge Với Các Khu Vực](/words/vi/cpp/types-of-mail-merge-operations/) phần.
 
 ## So Sánh Các Cách Để Tạo Bảng
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Manipularea și substituirea fonturilor TrueType în C#
 second_title: Aspose.Words pentru .NET
 articleTitle: Manipulează şi înlocuieşte Fonturile TrueType
@@ -208,7 +208,7 @@ Numai fonturi fără serife, cu greutate normală sunt folosite în setările pr
 
 ## Unde Aspose.Words caută fonturi
 
-Aspose.Words încearcă să găsească fonturi TrueType pe sistemul de fișiere automat. De obicei, te poți baza pe comportamentul implicit al lui Aspose.Words pentru a găsi fonturile `TrueType`, dar uneori ai nevoie să specifici propriile tale foldere care conțin fonturi TrueType. Subiectul [Specifying TrueType Fonts Location](/words/net/specifying-truetype-fonts-location/) descrie cum și unde Aspose.Words caută fonturi, precum și modul de specificare a propriilor locații de fonturi.
+Aspose.Words încearcă să găsească fonturi TrueType pe sistemul de fișiere automat. De obicei, te poți baza pe comportamentul implicit al lui Aspose.Words pentru a găsi fonturile `TrueType`, dar uneori ai nevoie să specifici propriile tale foldere care conțin fonturi TrueType. Subiectul [Specifying TrueType Fonts Location](/words/ro/net/specifying-truetype-fonts-location/) descrie cum și unde Aspose.Words caută fonturi, precum și modul de specificare a propriilor locații de fonturi.
 
 ## Diferențe în procesarea formatelor de font Aspose.Words și Microsoft Word
 

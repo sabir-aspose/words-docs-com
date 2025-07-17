@@ -1,4 +1,4 @@
----
+﻿---
 title: Conversia unui Document în PDF în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Conversia unui Document în PDF
@@ -47,7 +47,7 @@ Rețineți că, cu aceeași tehnică, puteți converti orice document în format
 
 ### Conversia la diferite PDF standarde {#converting-to-various-pdf-standards}
 
-Aspose.Words oferă enumerarea [PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) pentru a sprijini conversia DOC sau DOCX în diferite standarde de format PDF (cum ar fi PDF 1.7, PDF 1.5, etc.).
+Aspose.Words oferă enumerarea [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) pentru a sprijini conversia DOC sau DOCX în diferite standarde de format PDF (cum ar fi PDF 1.7, PDF 1.5, etc.).
 
 Următorul exemplu de cod demonstrează cum se convertește un document în PDF 1.7 folosind [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) Cu conformitate cu PDF17:
 
@@ -67,6 +67,6 @@ Pentru ca acest cod să funcționeze, trebuie să adăugați referințe la Aspos
 
 ## Vezi Și
 
-- Articolul [Redare](/words/cpp/rendering/) pentru mai multe informații despre pagina fixă și formatele de aspect de flux
-- Articolul [Conversia în format de pagină fixă](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) pentru mai multe informații despre aspectul paginii
-- Articolul [Specificați opțiunile De redare la conversia în PDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) pentru mai multe informații despre utilizarea clasei `PdfSaveOptions`
+- Articolul [Redare](/words/ro/cpp/rendering/) pentru mai multe informații despre pagina fixă și formatele de aspect de flux
+- Articolul [Conversia în format de pagină fixă](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) pentru mai multe informații despre aspectul paginii
+- Articolul [Specificați opțiunile De redare la conversia în PDF](/words/ro/cpp/specify-rendering-options-when-converting-to-pdf/) pentru mai multe informații despre utilizarea clasei `PdfSaveOptions`

@@ -1,75 +1,75 @@
----
-title: تبدیل Word به PDF در C#
+﻿---
+title: تبدیل ورد به پی دی اف در C#
 second_title: Aspose.Words برای .NET
-articleTitle: تبدیل یک سند به PDF
-linktitle: تبدیل یک سند به PDF
-description: "با استفاده از C# یک سند را به PDF تبدیل کنید. تبدیل DOCX به PDF C#. فرمت های ورودی مختلفی از جمله فرمت های Word، OpenOffice، Image و eBook پشتیبانی می شوند."
+articleTitle: تغییر سند به PDF
+linktitle: تغییر سند به PDF
+description: "تبدیل ورد به پی دی اف در C#. نمونه کدهای ساده برای تبدیل DOCX به PDF. پشتیبانی از تمام فرمت‌های ورد و تصاویر."
 type: docs
 weight: 10
 url: /fa/net/convert-a-document-to-pdf/
 timestamp: 2024-09-25-11-08-55
 ---
 
-قابلیت تبدیل آسان و مطمئن اسناد از یک فرمت به فرمت دیگر یکی از ویژگی های کلیدی Aspose.Words است. یکی از محبوب‌ترین فرمت‌ها برای تبدیل، پی‌دی‌اف است – قالبی با طرح‌بندی ثابت، که ظاهر اصلی یک سند را در حین رندر کردن آن در پلتفرم‌های مختلف حفظ می‌کند. اصطلاح "رندر" در Aspose.Words برای توصیف فرآیند تبدیل یک سند به فرمت فایلی که صفحه بندی شده یا دارای مفهوم صفحات است استفاده می شود.
+قابلیت تبدیل آسان و قابل اعتماد اسناد از یک فرمت به فرمت دیگر یکی از ویژگی‌های کلیدی Aspose.Words است. PDF یکی از محبوب‌ترین فرمت‌ها برای تغییر است – این فرمتی با چیدمان ثابت است که ظاهر اصلی سند را هنگام رندر کردن در پلتفرم‌های مختلف حفظ می‌کند. اصطلاح "رندرینگ" در Aspose.Words برای توصیف فرآیند تبدیل یک سند به فرمت فایلی که صفحه‌بندی شده یا مفهوم صفحات را دارد، استفاده می‌شود.
 
-## تبدیل یک سند Word به PDF
+## تبدیل سند ورد به PDF
 
-تبدیل از Word به PDF یک فرآیند نسبتاً پیچیده است که نیاز به چندین مرحله محاسبه دارد. موتور طرح‌بندی Aspose.Words روشی را تقلید می‌کند که موتور صفحه‌آرایی Microsoft Word کار می‌کند، و باعث می‌شود اسناد خروجی PDF تا حد امکان به آنچه در Microsoft Word می‌بینید نزدیک‌تر به نظر برسند.
+تبدیل از ورد به PDF فرآیند نسبتاً پیچیده‌ای است که به چندین مرحله محاسبه نیاز دارد. موتور چیدمان Aspose.Words نحوه کار موتور چیدمان صفحه Microsoft Word را تقلید می‌کند و باعث می‌شود اسناد PDF خروجی تا حد امکان شبیه به آنچه در Microsoft Word می‌بینید باشند.
 
-با Aspose.Words می توانید بدون استفاده از Microsoft Office یک سند را از فرمت های Word مانند DOC یا DOCX به PDF تبدیل کنید. این مقاله نحوه انجام این تبدیل را توضیح می دهد.
+با Aspose.Words می‌توانید به صورت برنامه‌ای سندی را از فرمت‌های ورد مانند DOC یا DOCX به PDF تغییر دهید بدون استفاده از Microsoft Office. این مقاله نحوه انجام این تحویل را توضیح می‌دهد.
 
 {{% alert color="primary" %}}
 
-توجه داشته باشید که تعداد صفحات یک سند بر زمان تبدیل تاثیر می گذارد.
+توجه داشته باشید که تعداد صفحات در سند بر زمان تبدیل تأثیر می‌گذارد.
 
 {{% /alert %}}
 
-### DOCX یا DOC را به PDF تبدیل کنید
+### تبدیل DOCX یا DOC به PDF
 
-تبدیل از فرمت سند DOC یا DOCX به فرمت PDF در Aspose.Words بسیار آسان است و تنها با دو خط کد قابل انجام است:
+تغییر از فرمت سند DOC یا DOCX به فرمت PDF در Aspose.Words بسیار آسان است و تنها با دو خط کد قابل دستیابی است:
 
-1. سند خود را با استفاده از یکی از سازنده های آن با تعیین نام سند با پسوند قالب آن در یک شیء [Document](https://reference.aspose.com/words/net/aspose.words/document/) بارگذاری کنید.
-1. یکی از متدهای [Document.Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/) را روی شی **Document** فراخوانی کنید و با وارد کردن نام فایل با پسوند "PDF." فرمت خروجی مورد نظر را به صورت PDF مشخص کنید.
+1. سند خود را در یک شیء [Document](https://reference.aspose.com/words/net/aspose.words/document/) با استفاده از یکی از سازنده‌هایش با مشخص کردن نام سند به همراه پسوند فرمتش بارگذاری کنید.
+1. یکی از متدهای [Document.Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/) را روی شیء **Document** فراخوانی کنید و فرمت خروجی مورد نظر را به عنوان PDF با وارد کردن نام فایل با پسوند ".PDF" مشخص کنید.
 
-مثال کد زیر نحوه تبدیل یک سند از DOCX به PDF را با استفاده از روش [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) نشان می دهد:
+نمونه کد زیر نحوه تبدیل سند از DOCX به PDF با استفاده از متد [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) را نشان می‌دهد:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "docx-to-pdf.cs" >}}
 
-فایل قالب این نمونه را می توانید از [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx) دانلود کنید.
+می‌توانید فایل الگوی این مثال را از [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx) دانلود کنید.
 
 {{% alert color="primary" %}}
 
-گاهی اوقات لازم است گزینه های اضافی را مشخص کنید که می تواند بر نتیجه ذخیره یک سند به عنوان PDF تأثیر بگذارد. این گزینه ها را می توان با استفاده از کلاس [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) مشخص کرد که حاوی ویژگی هایی است که نحوه نمایش خروجی PDF را تعیین می کند.
+گاهی اوقات لازم است گزینه‌های اضافی مشخص کنید که می‌تواند بر نتیجه ذخیره سند به عنوان PDF تأثیر بگذارد. این گزینه‌ها می‌توانند با استفاده از کلاس [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) که حاوی ویژگی‌هایی است که تعیین می‌کند خروجی PDF چگونه نمایش داده شود، مشخص شوند.
 
-توجه داشته باشید که با همین تکنیک، می توانید هر سند با فرمت flow-layout را به فرمت PDF تبدیل کنید.
+توجه داشته باشید که با همین تکنیک می‌توانید هر سند با فرمت جریان-چیدمان را به فرمت PDF تحویل دهید.
 
 {{% /alert %}}
 
 ### تبدیل به استانداردهای مختلف PDF
 
-Aspose.Words [PdfCompliace](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/)enumeration را برای پشتیبانی از تبدیل DOC یا DOCX به استانداردهای فرمت PDF مختلف (مانند PDF 1.7، PDF 1.5 و غیره) فراهم می کند.
+Aspose.Words شمارش [PdfCompliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) را برای پشتیبانی از تغییر DOC یا DOCX به استانداردهای مختلف فرمت PDF (مانند PDF 1.7، PDF 1.5 و غیره) ارائه می‌دهد.
 
-مثال کد زیر نحوه تبدیل یک سند به PDF 1.7 را با استفاده از [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) با انطباق با PDF17 نشان می دهد:
+نمونه کد زیر نحوه تبدیل سند به PDF 1.7 با استفاده از [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) با انطباق با PDF17 را نشان می‌دهد:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "conversion-to-pdf17.cs" >}}
 
 ## تبدیل تصاویر به PDF
 
-تبدیل به PDF توسط فرمت های سند Microsoft Word محدود نمی شود. هر فرمتی که توسط Aspose.Words پشتیبانی می شود، از جمله ایجاد شده توسط برنامه، می تواند به PDF نیز تبدیل شود. برای مثال، می‌توانیم تصاویر تک صفحه‌ای مانند JPEG، PNG، BMP، EMF یا WMF و همچنین تصاویر چند صفحه‌ای مانند TIFF و GIF را به PDF تبدیل کنیم.
+تبدیل به PDF محدود به فرمت‌های سند Microsoft Word نیست. هر فرمتی که توسط Aspose.Words پشتیبانی می‌شود، از جمله موارد ایجاد شده به صورت برنامه‌ای، همچنین می‌تواند به PDF تحویل شود. به عنوان مثال، می‌توانیم تصاویر تک صفحه‌ای مانند JPEG، PNG، BMP، EMF یا WMF و همچنین عکس‌های چند صفحه‌ای مانند TIFF و GIF را به PDF تبدیل کنیم.
 
-مثال کد زیر نحوه تبدیل تصاویر JPEG و TIFF به PDF را نشان می دهد:
+نمونه کد زیر نحوه تغییر تصاویر JPEG و TIFF به PDF را نشان می‌دهد:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "image-to-pdf.cs" >}}
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "convert-image-to-pdf.cs" >}}
 
-برای اینکه این کد کار کند، باید ارجاعاتی به Aspose.Words و `System.Drawing` به پروژه خود اضافه کنید.
+برای کارکرد این کد، نیاز دارید مراجع به Aspose.Words و `System.Drawing` را به پروژه‌تان اضافه کنید.
 
-## اندازه خروجی PDF را کاهش دهید
+## کاهش اندازه خروجی PDF
 
-هنگام ذخیره در PDF، می توانید تعیین کنید که آیا می خواهید خروجی را بهینه کنید. برای انجام این کار، باید پرچم [OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) را روی true تنظیم کنید، و سپس بوم های تو در تو و بوم های خالی حذف می شوند، glyph های همسایه با قالب بندی یکسان به هم متصل می شوند.
+هنگام ذخیره به PDF، می‌توانید مشخص کنید که آیا می‌خواهید خروجی را بهینه کنید یا نه. برای انجام این کار، باید پرچم [OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) را روی true تنظیم کنید، و سپس بوم‌های تودرتو اضافی و خالی حذف می‌شوند، گلیف‌های مجاور با همان قالب‌بندی به هم متصل می‌شوند.
 
-مثال کد زیر نحوه بهینه سازی خروجی را نشان می دهد:
+نمونه کد زیر نحوه بهینه‌سازی خروجی را نشان می‌دهد:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "optimize-output.cs" >}}
 
@@ -81,12 +81,12 @@ Aspose.Words [PdfCompliace](https://reference.aspose.com/words/net/aspose.words.
 
 ## همچنین ببینید
 
-- مقاله [تفسیر](/words/fa/net/rendering/) برای اطلاعات بیشتر در مورد فرمت‌های صفحه ثابت و طرح‌بندی جریان
-- مقاله [تبدیل به فرمت صفحه ثابت](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) برای اطلاعات بیشتر در مورد صفحه آرایی
-- مقاله [هنگام تبدیل به PDF گزینه های رندر را مشخص کنید](/words/fa/net/specify-rendering-options-when-converting-to-pdf/) برای اطلاعات بیشتر در مورد استفاده از کلاس `PdfSaveOptions`
-- مقاله [با ویژگی های تبدیل به PDF/A و PDF/UA آشنا شوید](/words/fa/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) که توضیح می دهد کدام استاندارد PDF و ISO مربوطه برای استانداردهای PDF از Aspose.Words پشتیبانی می کند
-- مقاله [کدام استاندارد PDF بهتر است را انتخاب کنید](/words/fa/net/which-pdf-standard-is-better-to-choose/) برای تعیین اینکه کدام استانداردهای PDF برای کدام موارد منطقی است
+- مقاله [رندرینگ](/words/fa/net/rendering/) برای اطلاعات بیشتر در مورد فرمت‌های صفحه ثابت و جریان-چیدمان
+- مقاله [تبدیل به فرمت صفحه ثابت](/words/fa/net/converting-to-fixed-page-format/#what-is-a-page-layout) برای اطلاعات بیشتر در مورد چیدمان صفحه
+- مقاله [مشخص کردن گزینه‌های رندرینگ هنگام تغییر به PDF](/words/fa/net/specify-rendering-options-when-converting-to-pdf/) برای اطلاعات بیشتر در مورد استفاده از کلاس `PdfSaveOptions`
+- مقاله [آشنایی با ویژگی‌های تبدیل به PDF/A و PDF/UA](/words/fa/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) که توضیح می‌دهد کدام استاندارد PDF و ISO های مربوط به استانداردهای PDF توسط Aspose.Words پشتیبانی می‌شود
+- مقاله [کدام استاندارد PDF بهتر است انتخاب کنید](/words/fa/net/which-pdf-standard-is-better-to-choose/) برای تعیین اینکه کدام استانداردهای PDF برای کدام موارد مناسب هستند
 
-- مقاله [کار با PDF/A یا PDF/UA](/words/fa/net/working-with-pdfa-or-pdfua/) الزامات محتوای سند را در قالب‌های PDF/A و PDF/UA شرح می‌دهد – عمدتاً الزامات ساختار و فونت‌ها
+- مقاله [کار با PDF/A یا PDF/UA](/words/fa/net/working-with-pdfa-or-pdfua/) الزامات محتوای سند در فرمت‌های PDF/A و PDF/UA را توصیف می‌کند – عمدتاً الزامات ساختار و فونت‌ها
 
-- مقاله [هشدارهای مشکل دسترسی هنگام ذخیره در PDF/A و PDF/UA](/words/fa/net/warnings-when-saving-to-pdfa-and-pdfua/) توضیح می دهد که چه الزامات دسترسی به محتوا PDF/A و PDF/UA تحمیل می کند
+- مقاله [هشدارهای مسائل دسترسی هنگام ذخیره در PDF/A و PDF/UA](/words/fa/net/warnings-when-saving-to-pdfa-and-pdfua/) توضیح می‌دهد که PDF/A و PDF/UA چه الزاماتی برای دسترسی محتوا وضع می‌کنند

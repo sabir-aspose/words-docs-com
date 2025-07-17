@@ -36,7 +36,7 @@ Po získání kopie úložiště možná zjistíte, že:
 
 Chcete-li spustit příklady, otevřete soubor řešení v Visual Studio a vytvořte projekt:
 
-- Pro příklady **API Reference** je struktura založena na názvech tříd, pro příklady **Docs** je většinou založena na [Developer Guiled](/words/cpp/developer-guide/) sekce dokumentace.
+- Pro příklady **API Reference** je struktura založena na názvech tříd, pro příklady **Docs** je většinou založena na [Developer Guiled](/words/cs/cpp/developer-guide/) sekce dokumentace.
 - Při prvním spuštění se závislosti automaticky stáhnou pomocí NuGet.
 - Složka **Data** v kořenové složce **Examples** obsahuje vstupní soubory, které byly použity v příkladech.
 - Všechny příklady lze spustit jako jednotkové testy.
@@ -68,7 +68,7 @@ cmake -G "Visual Studio 17 2022" -Thost=x64 -Ax64 -S Examples\DocsExamples\ -B E
 
 Chcete-li spustit příklady, otevřete soubor řešení v Visual Studio a vytvořte projekt:
 
-- Pro příklady **API Reference** je struktura založena na názvech tříd, pro příklady **Docs** je většinou založena na [Developer Guiled](/words/cpp/developer-guide/) sekce dokumentace.
+- Pro příklady **API Reference** je struktura založena na názvech tříd, pro příklady **Docs** je většinou založena na [Developer Guiled](/words/cs/cpp/developer-guide/) sekce dokumentace.
 - Složka **Data** v kořenové složce **Examples** obsahuje vstupní soubory, které byly použity v příkladech.
 - Všechny příklady lze spustit jako jednotkové testy.
 
@@ -99,7 +99,7 @@ cmake --build Examples/DocsExamples/build
 cmake -E chdir Examples/DocsExamples/build ctest --verbose
 {{< /highlight >}}
 
-- Pro příklady **API Reference** je struktura založena na názvech tříd, pro příklady **Docs** je většinou založena na [Developer Guiled](/words/cpp/developer-guide/) sekce dokumentace.
+- Pro příklady **API Reference** je struktura založena na názvech tříd, pro příklady **Docs** je většinou založena na [Developer Guiled](/words/cs/cpp/developer-guide/) sekce dokumentace.
 - Složka **Data** v kořenové složce **Examples** obsahuje vstupní soubory, které byly použity v příkladech.
 - Všechny příklady lze spustit jako jednotkové testy.
 

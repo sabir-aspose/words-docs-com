@@ -219,7 +219,7 @@ Apenas fontes Noto sem estilo com peso regular são usadas em Configurações pr
 
 ## Onde Aspose.Words procura fontes
 
-Aspose.Words tenta encontrar fontes TrueType no sistema de ficheiros automaticamente. Normalmente, você pode confiar no comportamento padrão de Aspose.Words para encontrar as fontes `TrueType`, mas às vezes você precisa especificar suas próprias pastas contendo fontes TrueType. O [Especificar TrueType Localiza](/words/java/specify-truetype-fonts-location/) o tópico descreve como e onde Aspose.Words procura fontes, bem como como especificar as suas próprias localizações de fontes.
+Aspose.Words tenta encontrar fontes TrueType no sistema de ficheiros automaticamente. Normalmente, você pode confiar no comportamento padrão de Aspose.Words para encontrar as fontes `TrueType`, mas às vezes você precisa especificar suas próprias pastas contendo fontes TrueType. O [Especificar TrueType Localiza](/words/pt/java/specify-truetype-fonts-location/) o tópico descreve como e onde Aspose.Words procura fontes, bem como como especificar as suas próprias localizações de fontes.
 
 ## Diferenças no processamento dos formatos de fonte em Aspose.Words e Microsoft Word
 

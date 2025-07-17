@@ -1,4 +1,4 @@
----
+﻿---
 title: Teilen Sie ein Dokument in C++
 second_title: Aspose.Words für C++
 articleTitle: Teilen eines Dokuments
@@ -67,7 +67,7 @@ In diesem Abschnitt werden verschiedene Anwendungsfälle zum Aufteilen von Dokum
 
 {{% alert color="primary" %}}
 
-Sie können jeden verwenden [von Aspose.Words unterstütztes Ausgabeformat](/words/cpp/supported-document-formats/).
+Sie können jeden verwenden [von Aspose.Words unterstütztes Ausgabeformat](/words/de/cpp/supported-document-formats/).
 
 {{% /alert %}}
 

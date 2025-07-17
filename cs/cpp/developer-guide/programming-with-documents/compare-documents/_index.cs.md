@@ -36,7 +36,7 @@ Obecným omezením pro dva porovnávané dokumenty je, že před voláním metod
 
 {{% alert color="primary" %}}
 
-Všimněte si, že můžete porovnat libovolné dva dokumenty v rámci [podporované formáty souborů](/words/cpp/supported-document-formats/). Můžete porovnávat objekty dokumentu a dokonce je můžete vytvářet od nuly, aniž byste měli jakýkoli konkrétní formát.
+Všimněte si, že můžete porovnat libovolné dva dokumenty v rámci [podporované formáty souborů](/words/cs/cpp/supported-document-formats/). Můžete porovnávat objekty dokumentu a dokonce je můžete vytvářet od nuly, aniž byste měli jakýkoli konkrétní formát.
 
 {{% /alert %}}
 

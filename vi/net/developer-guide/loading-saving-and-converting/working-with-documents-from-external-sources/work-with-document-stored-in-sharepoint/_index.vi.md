@@ -1,4 +1,4 @@
----
+﻿---
 title: Làm việc với tài liệu được lưu trữ trong SharePoint trực tuyến
 second_title: Aspose.Words cho .NET
 articleTitle: Làm việc với tài liệu được lưu trữ trong SharePoint trực tuyến
@@ -267,5 +267,5 @@ Do đó, tệp "TestDoc.pdf" phải được đặt trong thư mục "Tài liệ
 ## Xem thêm
 
 - Bài viết [Kết xuất](/words/vi/net/rendering/) để biết thêm thông tin về định dạng trang cố định và bố cục theo luồng
-- Bài viết [Chuyển đổi sang định dạng trang cố định](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) để biết thêm thông tin về bố cục trang
+- Bài viết [Chuyển đổi sang định dạng trang cố định](/words/vi/net/converting-to-fixed-page-format/#what-is-a-page-layout) để biết thêm thông tin về bố cục trang
 - Bài viết [Chỉ định tùy chọn hiển thị khi chuyển đổi sang PDF](/words/vi/net/specify-rendering-options-when-converting-to-pdf/) để biết thêm thông tin về cách sử dụng lớp [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/)

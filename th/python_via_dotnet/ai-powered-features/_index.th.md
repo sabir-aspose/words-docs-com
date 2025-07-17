@@ -1,4 +1,4 @@
----
+﻿---
 title: AI-คุณสมบัติขับเคลื่อน
 second_title: Aspose.WordsสำหรับPython via .NET
 articleTitle: AI-คุณสมบัติขับเคลื่อน
@@ -16,7 +16,7 @@ Aspose.Wordsขณะนี้มีคุณสมบัติAIที่ออ
 
 ในส่วนนี้ เราจะกล่าวถึงทุกสิ่งที่คุณจำเป็นต้องทราบเกี่ยวกับการใช้ฟีเจอร์ AI ที่ได้รับการสนับสนุนใน Aspose.Words ตั้งแต่เคล็ดลับที่เป็นประโยชน์ไปจนถึงคำแนะนำโดยละเอียด เรามุ่งมั่นที่จะช่วยให้คุณใช้ประโยชน์จากการปรับปรุงเหล่านี้ให้ได้มากที่สุด.
 
-* [รองรับรุ่นAI](/words/python-net/supported-ai-models/)
-* [สรุปเอกสาร](/words/python-net/summarize-a-document/)
-* [การแปลภาษา,อังกฤษ(สหราชอาณาจักร)](/words/python-net/translate-a-document/)
-* [การตรวจสอบไวยากรณ์](/words/python-net/grammar-checking/)
+* [รองรับรุ่นAI](/words/th/python-net/supported-ai-models/)
+* [สรุปเอกสาร](/words/th/python-net/summarize-a-document/)
+* [การแปลภาษา,อังกฤษ(สหราชอาณาจักร)](/words/th/python-net/translate-a-document/)
+* [การตรวจสอบไวยากรณ์](/words/th/python-net/grammar-checking/)

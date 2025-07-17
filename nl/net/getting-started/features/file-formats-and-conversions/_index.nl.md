@@ -1,4 +1,4 @@
----
+﻿---
 title: Bestandsformaten en conversies
 second_title: Aspose.Words voor .NET
 articleTitle: Bestandsformaten en conversies
@@ -29,7 +29,7 @@ Het volgende voorbeeld van code laat zien hoe een document te converteren:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "docx-to-pdf.cs" >}}
 
-Voor meer informatie over het laden, omzetten en opslaan van documenten, zie de [Laden, opslaan en omzetten](/words/cpp/loading-saving-and-converting/) Section.
+Voor meer informatie over het laden, omzetten en opslaan van documenten, zie de [Laden, opslaan en omzetten](/words/nl/cpp/loading-saving-and-converting/) Section.
 
 ## Hoge trouw
 

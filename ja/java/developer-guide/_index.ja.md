@@ -14,11 +14,11 @@ timestamp: 2024-09-25-11-08-55
 
 Aspose.WordsのJava機能の詳細については、対応するセクションを選択してください:
 
-- [読み込み、保存、変換](/words/java/loading-saving-and-converting/) -ある形式から別の形式に文書を変換するのに便利な文書やフォーマット固有の機能をロードまたは保存するさまざまな方法に関する情報を提供します。
-- [レンダリング](/words/java/rendering/) -フローレイアウトページ形式で文書からページ区切り表現を取得する方法に関する情報を提供します。
-- [Mail Mergeと報告](/words/java/mail-merge-and-reporting/) -Mail Mergeフィールドを持つテンプレートから、レポート、カタログ、在庫、請求書などのドキュメントの生成に関する情報を提供します。
+- [読み込み、保存、変換](/words/ja/java/loading-saving-and-converting/) -ある形式から別の形式に文書を変換するのに便利な文書やフォーマット固有の機能をロードまたは保存するさまざまな方法に関する情報を提供します。
+- [レンダリング](/words/ja/java/rendering/) -フローレイアウトページ形式で文書からページ区切り表現を取得する方法に関する情報を提供します。
+- [Mail Mergeと報告](/words/ja/java/mail-merge-and-reporting/) -Mail Mergeフィールドを持つテンプレートから、レポート、カタログ、在庫、請求書などのドキュメントの生成に関する情報を提供します。
 - [LINQレポートエンジン](/words/java/linq-reporting-engine/) -レポート機能の拡張セットを使用したレポートの構築に関する情報を提供します。
-- [プログラムで文書を印刷するか、ダイアログを使用して文書を印刷する](/words/java/print-a-document-programmatically-or-using-dialogs/) -さまざまな方法で文書を印刷し、カスタムロジックを実装するために印刷操作を微調整する方法についての情報を提供します。
-- [ドキュメントを使ったプログラミング](/words/java/programming-with-documents/) -プログラムで作成、変更、およびそのコンテンツと視覚的な外観の両方を変更するなど、文書を管理する方法についての情報を提供します。
+- [プログラムで文書を印刷するか、ダイアログを使用して文書を印刷する](/words/ja/java/print-a-document-programmatically-or-using-dialogs/) -さまざまな方法で文書を印刷し、カスタムロジックを実装するために印刷操作を微調整する方法についての情報を提供します。
+- [ドキュメントを使ったプログラミング](/words/ja/java/programming-with-documents/) -プログラムで作成、変更、およびそのコンテンツと視覚的な外観の両方を変更するなど、文書を管理する方法についての情報を提供します。
 
 クラス、メソッド、およびプロパティの詳細な説明については、Aspose.WordsforJavaAPI Referenceセクションを参照してください。

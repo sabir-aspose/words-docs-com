@@ -1,4 +1,4 @@
----
+﻿---
 title: PDF'ye Dönüştürürken Görüntüleme Seçeneklerini Belirtin
 second_title: Aspose.Words için Java
 articleTitle: PDF'ye Dönüştürürken Görüntüleme Seçeneklerini Belirtin
@@ -96,7 +96,7 @@ Aşağıdaki kod örneğinde, bir çıktı PDF belgesindeki görüntülerin çö
 
 ## Adobe PDF Biçiminde Yazı Tipleri Yerleştirme
 
-Aspose.Words Ayrıca, sonuçlanan pdf belgelerine nasıl yazı tiplerinin yerleştirileceğini kontrol etmenizi sağlar. Yazılar, herhangi bir Adobe PDF belgesine gömülmelidir, böylece belgenin herhangi bir makinede doğru şekilde işlenebilmesini sağlar (bölüme [Using TrueType Fonts](/words/java/using-truetype-fonts/)'de yazı tiplerinin görüntülenmesi hakkında daha fazla ayrıntı). Varsayılan olarak, Aspose.Words bir belgede kullanılan yazı tiplerinin alt kümesini oluşturulan PDF dosyasına gömüyor. Bu durumda, yalnızca belge içinde kullanılan glyphs (karakterler) PDF'ye kaydedilir.
+Aspose.Words Ayrıca, sonuçlanan pdf belgelerine nasıl yazı tiplerinin yerleştirileceğini kontrol etmenizi sağlar. Yazılar, herhangi bir Adobe PDF belgesine gömülmelidir, böylece belgenin herhangi bir makinede doğru şekilde işlenebilmesini sağlar (bölüme [Using TrueType Fonts](/words/tr/java/using-truetype-fonts/)'de yazı tiplerinin görüntülenmesi hakkında daha fazla ayrıntı). Varsayılan olarak, Aspose.Words bir belgede kullanılan yazı tiplerinin alt kümesini oluşturulan PDF dosyasına gömüyor. Bu durumda, yalnızca belge içinde kullanılan glyphs (karakterler) PDF'ye kaydedilir.
 
 ### Tam Yazı Tiplerini Ne Zaman Kullanacağınız ve Alt Küme Ne Zaman Kullanacağınız
 

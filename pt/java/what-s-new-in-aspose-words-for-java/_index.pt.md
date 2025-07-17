@@ -470,7 +470,7 @@ O recurso para reconhecer hiperlinks ao carregar documentos TXT foi implementado
 
 {{% alert color="primary" %}}
 
-Saiba mais sobre [Aspose.Words para Java 23.9 Notas De Lançamento](/words/java/aspose-words-for-java-23-9-release-notes/).
+Saiba mais sobre [Aspose.Words para Java 23.9 Notas De Lançamento](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-9-release-notes/).
 
 Saiba mais sobre [Aspose.Words para Java 23.10 Notas De Lançamento](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 

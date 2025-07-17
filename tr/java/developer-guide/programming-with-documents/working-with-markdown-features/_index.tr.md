@@ -1,4 +1,4 @@
----
+﻿---
 title: Markdown Özellikleriyle Çalışmak İçin Java
 second_title: Aspose.Words için Java
 articleTitle: Markdown Özellikleri ile Çalışmak
@@ -27,7 +27,7 @@ The Markdown özellik uygulaması büyük ölçüde `CommonMark` spesifikasyonun
 
 {{% alert color="primary" %}}
 
-Markdown'ü Aspose.WordsDocument Object Model'ye çevirmekin nüansları ( DOM), makalede [Translate Markdown to Document Object Model (DOM)](/words/java/translate-markdown-to-document-object-model/) olarak açıklanmıştır.
+Markdown'ü Aspose.WordsDocument Object Model'ye çevirmekin nüansları ( DOM), makalede [Translate Markdown to Document Object Model (DOM)](/words/tr/java/translate-markdown-to-document-object-model/) olarak açıklanmıştır.
 
 {{% /alert %}}
 

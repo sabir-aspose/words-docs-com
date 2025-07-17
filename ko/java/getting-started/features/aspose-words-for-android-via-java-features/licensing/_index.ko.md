@@ -26,7 +26,7 @@ Aspose.Words개발자가 구입하기 전에 시도 할 수있는 놀라운 소�
 
 {{% alert color="primary" %}}
 
-Aspose.Words에 대한Android에 대한Java에 대한 무료 평가판 또는 임시 라이센스에 대해 자세히 알아보십시오 [라이선스 및 구독 페이지](/words/java/licensing/).
+Aspose.Words에 대한Android에 대한Java에 대한 무료 평가판 또는 임시 라이센스에 대해 자세히 알아보십시오 [라이선스 및 구독 페이지](/words/ko/java/licensing/).
 
 {{% /alert %}}
 
@@ -71,7 +71,7 @@ Aspose.Words에 대한Android에 대한Java에 대한 무료 평가판 또는 �
 
 #### 라이센스 파일 로드
 
-Aspose.Words에서Android를 통해Java,라이센스는 [리소스로 임베디드](/words/java/licensing/),또는 스트림에서 로드:
+Aspose.Words에서Android를 통해Java,라이센스는 [리소스로 임베디드](/words/ko/java/licensing/),또는 스트림에서 로드:
 
 1. 라이센스 파일을**/mnt/sdcard/**의 임의의 위치에 놓습니다.
 1. 파일을 참조하는 스트림을 만듭니다.

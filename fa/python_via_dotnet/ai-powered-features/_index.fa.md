@@ -1,4 +1,4 @@
----
+﻿---
 title: AI-ویژگی های قدرت
 second_title: Aspose.Words برای Python via .NET
 articleTitle: AI-ویژگی های قدرت
@@ -16,7 +16,7 @@ Aspose.Words اکنون شامل ویژگی های AI است که برای هو�
 
 در این بخش، ما همه چیزهایی را که شما باید در مورد استفاده از ویژگی های پشتیبانی شده AI در Aspose.Words بدانید را پوشش خواهیم داد. از نکات عملی تا دستورالعمل های دقیق، هدف ما کمک به شما برای استفاده بیشتر از این پیشرفت ها است.
 
-* [مدل های پشتیبانی شده AI ](/words/python-net/supported-ai-models/)
-* [خلاصه یک سند](/words/python-net/summarize-a-document/)
-* [ترجمه یک سند](/words/python-net/translate-a-document/)
-* [بررسی دستور زبان](/words/python-net/grammar-checking/)
+* [مدل های پشتیبانی شده AI ](/words/fa/python-net/supported-ai-models/)
+* [خلاصه یک سند](/words/fa/python-net/summarize-a-document/)
+* [ترجمه یک سند](/words/fa/python-net/translate-a-document/)
+* [بررسی دستور زبان](/words/fa/python-net/grammar-checking/)

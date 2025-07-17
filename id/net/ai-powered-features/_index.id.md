@@ -1,4 +1,4 @@
----
+﻿---
 title: AI-Fitur bertenaga
 second_title: Aspose.Words untuk .NET
 articleTitle: AI-Fitur bertenaga
@@ -16,7 +16,7 @@ Aspose.Words sekarang menyertakan fitur bertenaga AI yang dirancang untuk membua
 
 Di bagian ini, kami akan membahas semua yang perlu Anda ketahui tentang penggunaan fitur AI yang didukung di Aspose.Words. Dari kiat praktis hingga petunjuk terperinci, kami bertujuan untuk membantu Anda memanfaatkan peningkatan ini sebaik-baiknya.
 
-* [Model AI yang didukung](/words/net/supported-ai-models/)
-* [Meringkas Dokumen](/words/net/summarize-a-document/)
-* [Menerjemahkan Dokumen](/words/net/translate-a-document/)
-* [Pemeriksaan Tata Bahasa](/words/net/grammar-checking/)
+* [Model AI yang didukung](/words/id/net/supported-ai-models/)
+* [Meringkas Dokumen](/words/id/net/summarize-a-document/)
+* [Menerjemahkan Dokumen](/words/id/net/translate-a-document/)
+* [Pemeriksaan Tata Bahasa](/words/id/net/grammar-checking/)

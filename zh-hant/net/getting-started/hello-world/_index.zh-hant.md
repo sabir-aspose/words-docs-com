@@ -1,4 +1,4 @@
----
+﻿---
 title: 你好，世界！
 second_title: 簡單示例如何在 .NET 中使用 Aspose.Words
 articleTitle: 你好，世界！
@@ -12,7 +12,7 @@ timestamp: 2024-01-27-14-07-04
 
 Hello，World！"代碼通常是使用Aspose.Words為。NET的第一個簡單示例，它也可以作為一個健全測試來確保已正確安裝旨在編譯或運行源碼的軟件。
 
-"Aspose.Words for.NET" C#文庫讓發展者直接存取建立,修改,合并,轉換,比較Word和Web文件. PDF、DOCX、DOC、RTF、ODT、EPUB、HTML 和許多其他檔案格式是 [supported](/words/net/supported-document-formats/)。
+"Aspose.Words for.NET" C#文庫讓發展者直接存取建立,修改,合并,轉換,比較Word和Web文件. PDF、DOCX、DOC、RTF、ODT、EPUB、HTML 和許多其他檔案格式是 [supported](/words/zh-hant/net/supported-document-formats/)。
 
 下面代碼段依以下步驟進行：
 

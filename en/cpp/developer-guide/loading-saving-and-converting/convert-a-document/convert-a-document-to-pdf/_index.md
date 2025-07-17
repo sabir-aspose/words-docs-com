@@ -16,7 +16,7 @@ The ability to easily and reliably convert documents from one format to another 
 
 ## Convert a Word Document to PDF {#convert-a-word-document-to-pdf}
 
-Conversion from Word to PDF is a rather complex process that requires several stages of calculation. Aspose.Words layout engine mimics the way the Microsoft Word’s page layout engine works, making PDF output documents look as close as possible to what you can see in Microsoft Word.
+Conversion from Word to PDF is a rather complex process that requires several stages of calculation. Aspose.Words layout engine mimics the way Microsoft Word’s page layout engine works, making PDF output documents look as close as possible to what you can see in Microsoft Word.
 
 With Aspose.Words you can programmatically convert a document from DOC or DOCX format to PDF without using Microsoft Office. This article explains how to perform this conversion.
 
@@ -41,7 +41,7 @@ You can download the template file of this example from [Aspose.Words GitHub](h
 
 {{% alert color="primary" %}}
 
-Sometimes it is necessary to specify additional options, which can affect the result of saving a document as a PDF. These options can be specified by the use of the [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) class, containing properties that determine how the PDF output will be displayed.
+Sometimes it is necessary to specify additional options, which can affect the result of saving a document as a PDF. These options can be specified using the [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) class, containing properties that determine how the PDF output will be displayed.
 
 Note that with the same technique, you can convert any flow-layout format document to PDF format.
 
@@ -49,7 +49,7 @@ Note that with the same technique, you can convert any flow-layout format docume
 
 ### Convert to Different PDF Standards {#converting-to-various-pdf-standards}
 
-Aspose.Words provides the [PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) enumeration to support the conversion of DOC or DOCX into various PDF format standards (such as PDF 1.7, PDF 1.5, etc.).
+Aspose.Words provides the [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) enumeration to support the conversion of DOC or DOCX into various PDF format standards (such as PDF 1.7, PDF 1.5, etc.).
 
 The following code example demonstrates how to convert a document to PDF 1.7 using [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) with compliance to PDF17:
 
@@ -70,5 +70,5 @@ To make this code work, you need to add references to Aspose.Words and `System.D
 ## See Also
 
 - The article [Rendering](/words/cpp/rendering/) for more information on the fixed-page and flow-layout formats
-- The article [Converting to Fixed-page Format](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) for more information on the page layout
+- The article [Converting to Fixed-page Format](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) for more information on the page layout
 - The article [Specify Rendering Options When Converting to PDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) for more information on using the `PdfSaveOptions` class

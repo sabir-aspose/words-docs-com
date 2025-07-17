@@ -1,4 +1,4 @@
----
+﻿---
 title: متطلبات الذاكرة
 second_title: Aspose.Words لـ .NET
 articleTitle: متطلبات الذاكرة
@@ -48,5 +48,5 @@ timestamp: 2024-09-25-11-08-55
 
 * [قياس استخدام الذاكرة في Visual Studio (C#، Visual Basic، C++، F#)](https://learn.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2022)
 * [استدعاء](/words/ar/net/rendering/)
-* [Mail Merge وإعداد التقارير](/words/net/mail-merge-and-reporting/)
+* [Mail Merge وإعداد التقارير](/words/ar/net/mail-merge-and-reporting/)
 * [العمل مع الحقول](/words/ar/net/working-with-fields/)

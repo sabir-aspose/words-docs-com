@@ -1,4 +1,4 @@
----
+﻿---
 title: AI - funcții alimentate
 second_title: Aspose.Words pentru Java
 articleTitle: AI - funcții alimentate
@@ -16,7 +16,7 @@ Aspose.Words include acum AI - funcții alimentate concepute pentru a face proce
 
 În această secțiune, vom acoperi tot ce trebuie să știți despre utilizarea funcțiilor AI acceptate în Aspose.Words. De la sfaturi practice la instrucțiuni detaliate, ne propunem să vă ajutăm să profitați la maximum de aceste îmbunătățiri.
 
-* [Modele Suportate AI ](/words/java/supported-ai-models/)
-* [Rezumați un Document](/words/java/summarize-a-document/)
-* [Traduceți un Document](/words/java/translate-a-document/)
-* [Verificarea Gramaticii](/words/java/grammar-checking/)
+* [Modele Suportate AI ](/words/ro/java/supported-ai-models/)
+* [Rezumați un Document](/words/ro/java/summarize-a-document/)
+* [Traduceți un Document](/words/ro/java/translate-a-document/)
+* [Verificarea Gramaticii](/words/ro/java/grammar-checking/)

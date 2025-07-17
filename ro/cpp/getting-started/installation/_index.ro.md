@@ -1,4 +1,4 @@
----
+﻿---
 title: Cum se instalează Aspose.Words pentru C++
 second_title: Aspose.Words pentru C++
 articleTitle: Instalare
@@ -10,7 +10,7 @@ url: /ro/cpp/installation/
 timestamp: 2024-09-24-14-35-44
 ---
 
-Asigurați-vă că aparatul dvs. îndeplinește [cerințe de sistem](/words/cpp/system-requirements/) înainte de a începe.
+Asigurați-vă că aparatul dvs. îndeplinește [cerințe de sistem](/words/ro/cpp/system-requirements/) înainte de a începe.
 
 Acest articol explică modul de instalare Aspose.Words pentru C++ pe computer.
 

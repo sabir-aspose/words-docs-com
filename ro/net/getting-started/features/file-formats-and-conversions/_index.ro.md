@@ -1,4 +1,4 @@
----
+﻿---
 title: Formate și conversii de fișiere
 second_title: Aspose.Words pentru .NET
 articleTitle: Formate și conversii de fișiere
@@ -29,7 +29,7 @@ Exemplul de cod următor arată cum să converti un document:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "docx-to-pdf.cs" >}}
 
-Pentru mai multe detalii despre încărcarea, conversia și salvarea documentelor, consultați secțiunea [Loading, Saving and Converting](/words/cpp/loading-saving-and-converting/).
+Pentru mai multe detalii despre încărcarea, conversia și salvarea documentelor, consultați secțiunea [Loading, Saving and Converting](/words/ro/cpp/loading-saving-and-converting/).
 
 ## High Fidelity
 

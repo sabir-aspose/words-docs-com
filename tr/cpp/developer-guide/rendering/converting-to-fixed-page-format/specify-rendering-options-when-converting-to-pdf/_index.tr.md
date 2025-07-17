@@ -1,4 +1,4 @@
----
+﻿---
 title: PDF'a Dönüştürürken Oluşturma Seçeneklerini Belirtin
 second_title: Aspose.Words için C++
 articleTitle: PDF'a Dönüştürürken Oluşturma Seçeneklerini Belirtin
@@ -96,7 +96,7 @@ Aşağıdaki kod örneği, çıktı PDF belgesindeki görüntülerin çözünür
 
 ## Yazı Tiplerini Adobe PDF Biçiminde Gömme
 
-Aspose.Words ayrıca, ortaya çıkan PDF belgelere yazı tiplerinin nasıl gömüldüğünü kontrol etmenizi sağlar. Belgenin herhangi bir makinede doğru şekilde işlenebildiğinden emin olmak için yazı tiplerinin herhangi bir Adobe PDF belgesine gömülmesi gerekir (bölümdeki yazı tipi oluşturma hakkında daha fazla ayrıntıya bakın [TrueType Yazı Tiplerini Kullanma](/words/cpp/using-truetype-fonts/)). Varsayılan olarak, Aspose.Words belgede kullanılan yazı tiplerinin bir alt kümesini oluşturulan PDF öğesine gömer. Bu durumda, yalnızca belgede kullanılan glifler (karakterler) PDF değerine kaydedilir.
+Aspose.Words ayrıca, ortaya çıkan PDF belgelere yazı tiplerinin nasıl gömüldüğünü kontrol etmenizi sağlar. Belgenin herhangi bir makinede doğru şekilde işlenebildiğinden emin olmak için yazı tiplerinin herhangi bir Adobe PDF belgesine gömülmesi gerekir (bölümdeki yazı tipi oluşturma hakkında daha fazla ayrıntıya bakın [TrueType Yazı Tiplerini Kullanma](/words/tr/cpp/using-truetype-fonts/)). Varsayılan olarak, Aspose.Words belgede kullanılan yazı tiplerinin bir alt kümesini oluşturulan PDF öğesine gömer. Bu durumda, yalnızca belgede kullanılan glifler (karakterler) PDF değerine kaydedilir.
 
 ### Tam Yazı Tiplerini Ne Zaman Kullanmalı ve Ne Zaman Alt Kümelenmeli
 

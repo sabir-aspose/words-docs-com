@@ -42,10 +42,10 @@ Aspose.Wordsは、さまざまな形式のドキュメントを操作するた�
 
 レンダリング(固定ページ形式への変換)、フィールドの更新、ページの分割などのより複雑な操作は、Aspose.WordsDOMにロードされた文書によって割り当てられたメモリの20倍のリソースを必要とするドキュメントもあります。
 
-プロファイリングの結果がAspose.Wordsにメモリの問題がある可能性があることを示している場合は、当社に連絡してください [サポートチーム](/words/java/technical-support/) そしてすべての診断情報を含んで下さい。
+プロファイリングの結果がAspose.Wordsにメモリの問題がある可能性があることを示している場合は、当社に連絡してください [サポートチーム](/words/ja/java/technical-support/) そしてすべての診断情報を含んで下さい。
 
 ## また見て下さい
 
-* [レンダリング](/words/java/rendering/)
-* [Mail Mergeと報告](/words/java/mail-merge-and-reporting/)
-* [フィールドの操作](/words/java/working-with-fields/)
+* [レンダリング](/words/ja/java/rendering/)
+* [Mail Mergeと報告](/words/ja/java/mail-merge-and-reporting/)
+* [フィールドの操作](/words/ja/java/working-with-fields/)

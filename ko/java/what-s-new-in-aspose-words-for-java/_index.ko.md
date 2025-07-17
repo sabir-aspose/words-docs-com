@@ -470,7 +470,7 @@ TXT문서를 로드할 때 하이퍼링크를 인식하는 기능은 새로운[D
 
 {{% alert color="primary" %}}
 
-에 대해 자세히 알아보기 [Aspose.WordsJava23.9릴리스 노트](/words/java/aspose-words-for-java-23-9-release-notes/).
+에 대해 자세히 알아보기 [Aspose.WordsJava23.9릴리스 노트](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-9-release-notes/).
 
 에 대해 자세히 알아보기 [Aspose.WordsJava23.10릴리스 노트](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 

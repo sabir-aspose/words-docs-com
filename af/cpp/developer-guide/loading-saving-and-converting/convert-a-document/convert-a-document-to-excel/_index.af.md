@@ -1,4 +1,4 @@
----
+﻿---
 title: Skakel Word Na Excel in C++
 second_title: Aspose.Words vir C++
 articleTitle: Skakel'n Dokument Om Na Excel
@@ -61,5 +61,5 @@ doc->Save(ArtifactsDir + u"BaseConversions.CompressXlsx.xlsx", saveOptions);
 
 ## Sien Ook
 
-- Dokumentasie afdeling [Beskerm of Enkripteer'n Dokument](/words/cpp/protect-or-encrypt-a-document/) vir meer inligting oor die beskerming en enkripsie van'n dokument
-- Die artikel [Vind en Vervang](/words/cpp/find-and-replace/) vir meer inligting oor die vind en vervanging van die inhoud wat u wil hê
+- Dokumentasie afdeling [Beskerm of Enkripteer'n Dokument](/words/af/cpp/protect-or-encrypt-a-document/) vir meer inligting oor die beskerming en enkripsie van'n dokument
+- Die artikel [Vind en Vervang](/words/af/cpp/find-and-replace/) vir meer inligting oor die vind en vervanging van die inhoud wat u wil hê

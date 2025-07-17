@@ -14,7 +14,7 @@ timestamp: 2024-01-27-14-07-04
 
 - використовуючи [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/)
 - використовуючи [FieldBuilder](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldbuilder/)
-- за допомогою [Aspose.Words Об'єктна модель документа (DOM)](/words/cpp/aspose-words-document-object-model/)
+- за допомогою [Aspose.Words Об'єктна модель документа (DOM)](/words/uk/cpp/aspose-words-document-object-model/)
 
 У цій статті ми розглянемо кожен із способів більш детально і проаналізуємо, як вставляти певні поля, використовуючи ці опції.
 
@@ -64,7 +64,7 @@ Aspose.Words метод [InsertField](https://reference.aspose.com/words/cpp/asp
 
 ## Вставка полів за допомогою DOM
 
-Ви також можете вставляти поля різних типів, використовуючи [Aspose.Words Об'єктну модель документа (DOM)](/words/cpp/aspose-words-document-object-model/). У цьому розділі ми розглянемо кілька прикладів.
+Ви також можете вставляти поля різних типів, використовуючи [Aspose.Words Об'єктну модель документа (DOM)](/words/uk/cpp/aspose-words-document-object-model/). У цьому розділі ми розглянемо кілька прикладів.
 
 ### Вставлення поля злиття в документ за допомогою DOM
 

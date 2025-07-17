@@ -65,5 +65,5 @@ Aspose.Wordsには、テーブルに関連するいくつかのクラスがあ�
 
 ## また見て下さい
 
-* [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/java/aspose-words-document-object-model/)
-* [ドキュメント内のノードの論理レベル](/words/java/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/ja/java/aspose-words-document-object-model/)
+* [ドキュメント内のノードの論理レベル](/words/ja/java/logical-levels-of-nodes-in-a-document/)

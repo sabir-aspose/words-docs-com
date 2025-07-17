@@ -1,4 +1,4 @@
----
+﻿---
 title: AI - функціональні можливості
 second_title: Aspose.Words для .NET
 articleTitle: AI - функціональні можливості
@@ -16,7 +16,7 @@ Aspose.Words тепер включає функції на базі AI, приз
 
 У цьому розділі ми розповімо про все, що вам потрібно знати про використання підтримуваних функцій AI у Aspose.Words. Від практичних порад до детальних інструкцій ми прагнемо допомогти Вам максимально використати ці вдосконалення.
 
-* [Підтримувані моделі AI](/words/net/supported-ai-models/)
-* [Узагальнення документа](/words/net/summarize-a-document/)
-* [Перекласти документ](/words/net/translate-a-document/)
-* [Перевірка граматики](/words/net/grammar-checking/)
+* [Підтримувані моделі AI](/words/uk/net/supported-ai-models/)
+* [Узагальнення документа](/words/uk/net/summarize-a-document/)
+* [Перекласти документ](/words/uk/net/translate-a-document/)
+* [Перевірка граматики](/words/uk/net/grammar-checking/)

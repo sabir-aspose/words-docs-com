@@ -26,7 +26,7 @@ Aspose.Wordsは、開発者が購入する前に試すことができる信じ�
 
 {{% alert color="primary" %}}
 
-Aspose.WordsforAndroidの無料トライアルまたは一時的なライセンスの詳細については、Javaonを介して確認してください [ライセンスとサブスクリプションのページ](/words/java/licensing/).
+Aspose.WordsforAndroidの無料トライアルまたは一時的なライセンスの詳細については、Javaonを介して確認してください [ライセンスとサブスクリプションのページ](/words/ja/java/licensing/).
 
 {{% /alert %}}
 
@@ -71,7 +71,7 @@ Aspose.WordsforAndroidの無料トライアルまたは一時的なライセン�
 
 #### ライセンスファイルの読み込み
 
-Aspose.WordsでAndroidをJava経由で使用すると、ライセンスは次のようになります [リソースとして埋め込まれている](/words/java/licensing/)、またはストリームからロードされます:
+Aspose.WordsでAndroidをJava経由で使用すると、ライセンスは次のようになります [リソースとして埋め込まれている](/words/ja/java/licensing/)、またはストリームからロードされます:
 
 1. ライセンスファイルを**/mnt/sdcard/**の任意の場所に配置します。
 1. ファイルを参照するストリームを作成します。

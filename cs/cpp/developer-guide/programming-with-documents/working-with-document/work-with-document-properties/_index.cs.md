@@ -15,7 +15,7 @@ Vlastnosti dokumentu umožňují ukládat některé užitečné informace o doku
 * Systém nebo vestavěný, které obsahují hodnoty, jako je název dokumentu, jméno autora, statistiky dokumentů a další.
 * Uživatelem definované nebo vlastní, poskytované jako páry název-hodnota, kde uživatel může definovat název i hodnotu.
 
-Je užitečné vědět, že informace o API a čísle verze se zapisují přímo do výstupních dokumentů. Například při převodu dokumentu na PDF vyplní Aspose.Words pole "aplikace" pomocí "Aspose.Words" a pole "PDF Výrobce" pomocí "Aspose.Words pro C++ YY.M. N", kde *YY.M.N* je verze Aspose.Words použitá pro převod. Další podrobnosti viz [Název generátoru nebo výrobce obsažený ve výstupních dokumentech](/words/cpp/generator-or-producer-name-included-in-output-documents/).
+Je užitečné vědět, že informace o API a čísle verze se zapisují přímo do výstupních dokumentů. Například při převodu dokumentu na PDF vyplní Aspose.Words pole "aplikace" pomocí "Aspose.Words" a pole "PDF Výrobce" pomocí "Aspose.Words pro C++ YY.M. N", kde *YY.M.N* je verze Aspose.Words použitá pro převod. Další podrobnosti viz [Název generátoru nebo výrobce obsažený ve výstupních dokumentech](/words/cs/cpp/generator-or-producer-name-included-in-output-documents/).
 
 {{% alert color="primary" %}}
 

@@ -29,7 +29,7 @@ Aspose.Wordsは、Microsoft Wordドキュメントのサーバー側処理用に
 
 ![fields-aspose-words-java](/words/java/introduction-to-fields/introduction-to-fields-1.png)
 
-フィールドコードを構成するコンテンツは、[FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/)と[FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/)の間の[Run](https://reference.aspose.com/words/java/com.aspose.words/run/)ノードとして格納されます。 フィールドの結果は**FieldSeparator**ノードと[FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/)ノードの間に格納され、さまざまな種類のコンテンツで構成できます。 通常、フィールド結果には実行ノードで構成されるテキストのみが含まれますが、FieldEndノードを完全に別の段落に配置することができ、フィールド結果を次のもので構成することができます [ブロックレベルノード](/words/java/logical-levels-of-nodes-in-a-document/) **Table**や**Paragraph**ノードなども同様です。
+フィールドコードを構成するコンテンツは、[FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/)と[FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/)の間の[Run](https://reference.aspose.com/words/java/com.aspose.words/run/)ノードとして格納されます。 フィールドの結果は**FieldSeparator**ノードと[FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/)ノードの間に格納され、さまざまな種類のコンテンツで構成できます。 通常、フィールド結果には実行ノードで構成されるテキストのみが含まれますが、FieldEndノードを完全に別の段落に配置することができ、フィールド結果を次のもので構成することができます [ブロックレベルノード](/words/ja/java/logical-levels-of-nodes-in-a-document/) **Table**や**Paragraph**ノードなども同様です。
 
 ここでは、フィールドがAspose.Wordsにどのように格納されているかを示す"*DocumentExplorer"*の例を使用しています。 [Github](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/java/com/aspose/words/examples/viewers_visualizers/document_explorer).
 

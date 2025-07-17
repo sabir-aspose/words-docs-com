@@ -1,4 +1,4 @@
----
+﻿---
 title: 如何在C++中创建表
 second_title: Aspose.Words对于C++
 articleTitle: 创建表
@@ -112,7 +112,7 @@ Aspose.Words支持使用[InsertHtml](https://reference.aspose.com/words/cpp/aspo
 
 {{< gist "aspose-words-gists" "aa87055754447c86ae5fb2d4766130f3" "clone-last-row.h" >}}
 
-如果您正在考虑在文档中创建与数据源中的每条记录一起动态增长的表，则不建议使用上述方法。 相反，通过使用带有区域的Mail merge更容易实现所需的输出。 你可以在 [Mail Merge与区域](/words/cpp/types-of-mail-merge-operations/) 节。
+如果您正在考虑在文档中创建与数据源中的每条记录一起动态增长的表，则不建议使用上述方法。 相反，通过使用带有区域的Mail merge更容易实现所需的输出。 你可以在 [Mail Merge与区域](/words/zh/cpp/types-of-mail-merge-operations/) 节。
 
 ## 比较创建表的方法
 

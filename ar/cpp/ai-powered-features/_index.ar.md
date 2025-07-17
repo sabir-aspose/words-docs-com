@@ -1,4 +1,4 @@
----
+﻿---
 title: AI - ميزات تعمل بالطاقة
 second_title: Aspose.Words ل C++
 articleTitle: AI - ميزات تعمل بالطاقة
@@ -16,7 +16,7 @@ Aspose.Words يتضمن الآن ميزات تعمل بالطاقة AI مصمم�
 
 في هذا القسم، سنغطي كل ما تحتاج لمعرفته حول استخدام ميزات AI المدعومة في Aspose.Words. من النصائح العملية إلى التعليمات التفصيلية، نهدف إلى مساعدتك في تحقيق أقصى استفادة من هذه التحسينات.
 
-* [معتمدة AI نماذج](/words/cpp/supported-ai-models/)
-* [تلخيص وثيقة](/words/cpp/summarize-a-document/)
-* [ترجمة وثيقة](/words/cpp/translate-a-document/)
-* [التدقيق النحوي](/words/cpp/grammar-checking/)
+* [معتمدة AI نماذج](/words/ar/cpp/supported-ai-models/)
+* [تلخيص وثيقة](/words/ar/cpp/summarize-a-document/)
+* [ترجمة وثيقة](/words/ar/cpp/translate-a-document/)
+* [التدقيق النحوي](/words/ar/cpp/grammar-checking/)

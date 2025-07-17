@@ -1,4 +1,4 @@
----
+﻿---
 title: Manipular y sustituir fuentes TrueType en C++
 second_title: Aspose.Words para C++
 articleTitle: Manipular y sustituir las fuentes TrueType
@@ -21,7 +21,7 @@ Tenga en cuenta que la fuente del documento representa una entidad, como el apel
 
 ## Donde Aspose.Words Busca Fuentes
 
-Aspose.Words intenta encontrar TrueType fuentes en el sistema de archivos automáticamente. Por lo general, puede confiar en el comportamiento predeterminado de Aspose.Words para encontrar las fuentes `TrueType`, pero a veces necesita especificar sus propias carpetas que contengan fuentes TrueType. El [Especifique la ubicación de TrueType Fuentes](/words/cpp/specify-truetype-fonts-location/) el tema describe cómo y dónde Aspose.Words busca las fuentes, así como cómo especificar sus propias ubicaciones de fuentes.
+Aspose.Words intenta encontrar TrueType fuentes en el sistema de archivos automáticamente. Por lo general, puede confiar en el comportamiento predeterminado de Aspose.Words para encontrar las fuentes `TrueType`, pero a veces necesita especificar sus propias carpetas que contengan fuentes TrueType. El [Especifique la ubicación de TrueType Fuentes](/words/es/cpp/specify-truetype-fonts-location/) el tema describe cómo y dónde Aspose.Words busca las fuentes, así como cómo especificar sus propias ubicaciones de fuentes.
 
 ## Diferencias en el Procesamiento de Formatos de fuente en Aspose.Words y Microsoft Word
 

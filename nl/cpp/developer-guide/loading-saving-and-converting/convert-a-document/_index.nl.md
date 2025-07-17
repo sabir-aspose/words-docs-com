@@ -30,7 +30,7 @@ U kunt de conversiefunctionaliteit proberen met behulp van onze [Gratis online c
 
 ## Populaire Conversies {#popular-conversions}
 
-In het huidige gedeelte worden populaire conversies beschreven, evenals ideeën voor het werken met sommige combinaties van indelingen bij het laden en opslaan. Met behulp van de voorbeelden van deze sectie, kunt u begrijpen dat het conversieproces zelf vrij universeel is, en het heeft geen zin om alle mogelijke opties te beschrijven, omdat er enkele honderden van hen zijn vanwege het grote aantal [formaten ondersteund door Aspose.Words voor C++](/words/cpp/supported-document-formats/).
+In het huidige gedeelte worden populaire conversies beschreven, evenals ideeën voor het werken met sommige combinaties van indelingen bij het laden en opslaan. Met behulp van de voorbeelden van deze sectie, kunt u begrijpen dat het conversieproces zelf vrij universeel is, en het heeft geen zin om alle mogelijke opties te beschrijven, omdat er enkele honderden van hen zijn vanwege het grote aantal [formaten ondersteund door Aspose.Words voor C++](/words/nl/cpp/supported-document-formats/).
 
 {{% alert color="primary" %}}
 

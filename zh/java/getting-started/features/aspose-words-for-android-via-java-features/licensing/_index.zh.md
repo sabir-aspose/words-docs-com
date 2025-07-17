@@ -26,7 +26,7 @@ Aspose.Words是令人难以置信的软件，开发人员可以在购买之前�
 
 {{% alert color="primary" %}}
 
-通过Java了解有关Aspose.WordsforAndroid的免费试用或临时许可证的更多详细信息 [许可和订阅页面](/words/java/licensing/).
+通过Java了解有关Aspose.WordsforAndroid的免费试用或临时许可证的更多详细信息 [许可和订阅页面](/words/zh/java/licensing/).
 
 {{% /alert %}}
 
@@ -71,7 +71,7 @@ Aspose.Words是令人难以置信的软件，开发人员可以在购买之前�
 
 #### 加载许可证文件
 
-在Aspose.Words对于Android通过Java，许可证可以是 [作为资源嵌入](/words/java/licensing/)，或从流加载:
+在Aspose.Words对于Android通过Java，许可证可以是 [作为资源嵌入](/words/zh/java/licensing/)，或从流加载:
 
 1. 将许可证文件放在**/mnt/sdcard/**上的任何位置。
 1. 创建引用文件的流。

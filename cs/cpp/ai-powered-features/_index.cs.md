@@ -1,4 +1,4 @@
----
+﻿---
 title: AI - poháněné funkce
 second_title: Aspose.Words pro C++
 articleTitle: AI - poháněné funkce
@@ -16,7 +16,7 @@ Aspose.Words nyní obsahuje funkce založené na AI navržené tak, aby zpracov�
 
 V této části se budeme zabývat vším, co potřebujete vědět o používání podporovaných funkcí AI v Aspose.Words. Od praktických tipů až po podrobné pokyny, naším cílem je pomoci vám co nejlépe využít tato vylepšení.
 
-* [Podporované AI Modely](/words/cpp/supported-ai-models/)
-* [Shrňte dokument](/words/cpp/summarize-a-document/)
-* [Přeložit dokument](/words/cpp/translate-a-document/)
-* [gramatik](/words/cpp/grammar-checking/)
+* [Podporované AI Modely](/words/cs/cpp/supported-ai-models/)
+* [Shrňte dokument](/words/cs/cpp/summarize-a-document/)
+* [Přeložit dokument](/words/cs/cpp/translate-a-document/)
+* [gramatik](/words/cs/cpp/grammar-checking/)

@@ -1,4 +1,4 @@
----
+﻿---
 title: Conversia unui Document în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Conversia unui Document
@@ -30,7 +30,7 @@ Puteți încerca funcționalitatea de conversie utilizând [Convertor online gra
 
 ## Conversii Populare {#popular-conversions}
 
-Secțiunea actuală descrie conversiile populare, precum și idei pentru lucrul cu unele combinații de formate la încărcare și salvare. Folosind exemplele din această secțiune, puteți înțelege că procesul de conversie în sine este destul de universal și nu are rost să descriem toate opțiunile posibile, deoarece există câteva sute dintre ele datorită numărului mare de [formate acceptate de Aspose.Words pentru C++](/words/cpp/supported-document-formats/).
+Secțiunea actuală descrie conversiile populare, precum și idei pentru lucrul cu unele combinații de formate la încărcare și salvare. Folosind exemplele din această secțiune, puteți înțelege că procesul de conversie în sine este destul de universal și nu are rost să descriem toate opțiunile posibile, deoarece există câteva sute dintre ele datorită numărului mare de [formate acceptate de Aspose.Words pentru C++](/words/ro/cpp/supported-document-formats/).
 
 {{% alert color="primary" %}}
 

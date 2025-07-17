@@ -75,7 +75,7 @@ Aspose.Wordsใช้ฟังก์ชันการจัดวางหน�
 - จำนวนและช่วงของหน้าที่มีอยู่ในเอกสารออก([PageIndex](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/),[PageCount](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
 - ความคืบหน้าของการบันทึกเอกสารแบบหน้าต่อหน้า([PageSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
 - ชุดของอักขระที่ใช้ในการแสดงผลตัวเลข([NumeralFormat](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
-- เครื่องเล่นเมตาไฟล์([MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/). สำหรับรายละเอียดเพิ่มเติมโปรดดูที่ [การจัดการเมตาไฟล์Windows](/words/java/handling-windows-metafiles/) บทความ.
+- เครื่องเล่นเมตาไฟล์([MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/). สำหรับรายละเอียดเพิ่มเติมโปรดดูที่ [การจัดการเมตาไฟล์Windows](/words/th/java/handling-windows-metafiles/) บทความ.
 - อัตราคุณภาพสำหรับการบีบอัดภาพJPEGค่าที่อาจแตกต่างกันเล็กน้อยขึ้นอยู่กับรูปแบบการบันทึกที่เลือก([JpegQuality](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/).
 - การเพิ่มประสิทธิภาพของกราฟิกแบบเวกเตอร์ในAspose.Wordsเอาท์พุท([OptimizeOutput](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
 - ([UseAntiAliasing](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/#getUseAntiAliasing),[UseHighQualityRendering](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).

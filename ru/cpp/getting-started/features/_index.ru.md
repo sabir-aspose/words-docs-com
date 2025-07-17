@@ -1,4 +1,4 @@
----
+﻿---
 title: Особенности
 second_title: Aspose.Words для C++
 articleTitle: Поддерживаемые функции
@@ -37,7 +37,7 @@ Aspose.Words предоставляет пользователям широки�
 
 ## Ограничения
 
-- Поддерживает ограниченный набор форматов файлов (*see [Supported Document Formats](/words/cpp/supported-document-formats/) for details*)
+- Поддерживает ограниченный набор форматов файлов (*see [Supported Document Formats](/words/ru/cpp/supported-document-formats/) for details*)
 - Нет поддержки зашифрованных документов
 - Отсутствует поддержка загрузки удаленных ресурсов из Интернета
 - Ограниченная и нестабильная поддержка функций рендеринга

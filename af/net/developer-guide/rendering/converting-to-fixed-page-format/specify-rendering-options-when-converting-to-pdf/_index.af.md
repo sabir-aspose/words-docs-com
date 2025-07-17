@@ -1,4 +1,4 @@
----
+﻿---
 title: Opsies Wanneer Om Te Skakel na PDF
 second_title: Aspose.Words vir .NET
 articleTitle: Spesifiseer Vertoonopsies Wanneer U na PDFOmskakel
@@ -96,7 +96,7 @@ Resolusie word bereken volgens die werklike beeldgrootte op die bladsy.
 
 ## Voeg Lettertipes In Adobe PDF Formaat in
 
-Aspose.Words stel jou ook in staat om te beheer hoe lettertipes in die gevolglike PDF dokumente ingebed is. Lettertipes moet in enige Adobe PDF dokument ingebed word om te verseker dat die dokument korrek op enige masjien weergegee kan word (sien meer besonderhede oor lettertipe weergawe in die afdeling [Gebruik TrueType Lettertipes](/words/net/using-truetype-fonts/)). By verstek, Aspose.Words insluit'n subset van lettertipes wat in die dokument gebruik word in die gegenereerde PDF. In hierdie geval word slegs die glywe (karakters) wat in die dokument gebruik word, in PDF gestoor.
+Aspose.Words stel jou ook in staat om te beheer hoe lettertipes in die gevolglike PDF dokumente ingebed is. Lettertipes moet in enige Adobe PDF dokument ingebed word om te verseker dat die dokument korrek op enige masjien weergegee kan word (sien meer besonderhede oor lettertipe weergawe in die afdeling [Gebruik TrueType Lettertipes](/words/af/net/using-truetype-fonts/)). By verstek, Aspose.Words insluit'n subset van lettertipes wat in die dokument gebruik word in die gegenereerde PDF. In hierdie geval word slegs die glywe (karakters) wat in die dokument gebruik word, in PDF gestoor.
 
 ### Wanneer Om Volledige Lettertipes Te Gebruik en Wanneer Om Subset Te Gebruik
 

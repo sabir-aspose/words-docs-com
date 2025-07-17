@@ -1,4 +1,4 @@
----
+﻿---
 title: Características
 second_title: Aspose.Words Para C++
 articleTitle: Recursos Suportados
@@ -37,7 +37,7 @@ Aspose.Words fornece aos usuários uma ampla gama de recursos. Os utilizadores p
 
 ## Limitações
 
-- Suporta um conjunto limitado de formatos de ficheiro (*see [Supported Document Formats](/words/cpp/supported-document-formats/) for details*)
+- Suporta um conjunto limitado de formatos de ficheiro (*see [Supported Document Formats](/words/pt/cpp/supported-document-formats/) for details*)
 - Não há suporte para documentos criptografados
 - Não há suporte para baixar recursos remotos da Internet
 - Suporte limitado e instável para recursos de renderização

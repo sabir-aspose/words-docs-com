@@ -1,4 +1,4 @@
----
+﻿---
 title: Comparați documente în C#
 second_title: Aspose.Words pentru .NET
 articleTitle: Comparați documentele
@@ -36,7 +36,7 @@ Limita generală pentru două documente care sunt comparate este că nu trebuie 
 
 {{% alert color="primary" %}}
 
-Observă că poți compara orice două documente din cadrul [supported file formats](/words/net/supported-document-formats/). În esență, poți compara obiecte de documente și chiar poți crea aceste obiecte de la zero fără a avea un anumit format.
+Observă că poți compara orice două documente din cadrul [supported file formats](/words/ro/net/supported-document-formats/). În esență, poți compara obiecte de documente și chiar poți crea aceste obiecte de la zero fără a avea un anumit format.
 
 {{% /alert %}}
 

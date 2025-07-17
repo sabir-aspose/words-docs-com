@@ -16,7 +16,7 @@ Welkom bij Aspose.Words voor C++!
 
 Aspose.Words is een platformonafhankelijke klassenbibliotheek waarmee uw toepassingen een grote verscheidenheid aan documentverwerkingstaken kunnen uitvoeren.
 
-Met Aspose.Words kunt u een document converteren van elke ondersteunde laadindeling naar elke ondersteunde opslagindeling, bijvoorbeeld Word - indelingen naar PDF, HTML of Markdown, HTML naar DOCX, enzovoort. Lees meer over het converteren van documenten in de [Een Document converteren](/words/cpp/convert-a-document/) sectie.
+Met Aspose.Words kunt u een document converteren van elke ondersteunde laadindeling naar elke ondersteunde opslagindeling, bijvoorbeeld Word - indelingen naar PDF, HTML of Markdown, HTML naar DOCX, enzovoort. Lees meer over het converteren van documenten in de [Een Document converteren](/words/nl/cpp/convert-a-document/) sectie.
 
 Het is vermeldenswaard dat u met Aspose.Words documenten kunt maken, wijzigen, converteren, renderen en afdrukken zonder afhankelijk te zijn van toepassingen van derden, zoals Microsoft Word of Office Automation.
 
@@ -42,21 +42,21 @@ Aspose.Words voor C++ Kenmerken kan worden onderverdeeld in vier hoofdgebieden.
 
 De mogelijkheid om documenten eenvoudig en betrouwbaar te converteren is een van de belangrijkste kenmerken van Aspose.Words.
 
-Uitgebreid [import en export van documenten](/words/cpp/loading-saving-and-converting/) met [meer dan 35 ondersteunde bestandsformaten](/words/cpp/supported-document-formats/) hiermee kunnen gebruikers documenten converteren van [one popular format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) naar [another](https://reference.aspose.com/words/cpp/aspose.words/saveformat/), bijvoorbeeld van DOCX naar PDF, JPEG of Markdown.
+Uitgebreid [import en export van documenten](/words/nl/cpp/loading-saving-and-converting/) met [meer dan 35 ondersteunde bestandsformaten](/words/nl/cpp/supported-document-formats/) hiermee kunnen gebruikers documenten converteren van [one popular format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) naar [another](https://reference.aspose.com/words/cpp/aspose.words/saveformat/), bijvoorbeeld van DOCX naar PDF, JPEG of Markdown.
 
 #### Document Object Model (DOM)
 
-Programmatische toegang via een rijke API tot alle documentelementen en opmaak maakt het mogelijk om documentinhoud te maken, te wijzigen, uit te pakken, te kopiëren, te splitsen, samen te voegen en te vervangen. Ontdek meer in de [Aspose.Words Document Object Model (DOM)](/words/cpp/aspose-words-document-object-model/) sectie.
+Programmatische toegang via een rijke API tot alle documentelementen en opmaak maakt het mogelijk om documentinhoud te maken, te wijzigen, uit te pakken, te kopiëren, te splitsen, samen te voegen en te vervangen. Ontdek meer in de [Aspose.Words Document Object Model (DOM)](/words/nl/cpp/aspose-words-document-object-model/) sectie.
 
 #### Rendering
 
-We gebruiken de term [Rendering in Aspose.Words](/words/cpp/rendering/) om het proces van het omzetten van een document in een bestandsformaat of een medium te beschrijven, gepagineerd of dat het concept van pagina ' s heeft.
+We gebruiken de term [Rendering in Aspose.Words](/words/nl/cpp/rendering/) om het proces van het omzetten van een document in een bestandsformaat of een medium te beschrijven, gepagineerd of dat het concept van pagina ' s heeft.
 
 U kunt hele documenten of bepaalde pagina ' s converteren naar PDF of XPS om documenten aan de serverzijde te genereren. En dit alles met high fidelity-precies zoals Microsoft Word het zou hebben gedaan.
 
 #### Melden
 
-Genereer documenten of rapporten vanaf nul of door sjablonen te vullen met gegevens uit gegevensbronnen of bedrijfsobjecten. Voor meer informatie over het rapporteren en ophalen van gegevens uit databases, zie de [Mail Merge en rapportage](/words/cpp/mail-merge-and-reporting/).
+Genereer documenten of rapporten vanaf nul of door sjablonen te vullen met gegevens uit gegevensbronnen of bedrijfsobjecten. Voor meer informatie over het rapporteren en ophalen van gegevens uit databases, zie de [Mail Merge en rapportage](/words/nl/cpp/mail-merge-and-reporting/).
 
 ### Platformonafhankelijkheid
 
@@ -86,8 +86,8 @@ Ontwikkelaars die eerder Microsoft Word automatisering in hun projecten hebben g
 
 ## Prijzen en beleid
 
-Bezoek de [Licenties](/words/cpp/licensing/) pagina voor informatie over licenties en bekijk de [prijsinformatie](https://purchase.aspose.com/pricing/words/family/) pagina voor details over prijzen.
+Bezoek de [Licenties](/words/nl/cpp/licensing/) pagina voor informatie over licenties en bekijk de [prijsinformatie](https://purchase.aspose.com/pricing/words/family/) pagina voor details over prijzen.
 
 ## Productondersteuning
 
-Voor meer informatie over Aspose.Words Technische ondersteuning, neem een kijkje op de [ondersteuningspagina](/words/cpp/technical-support/).
+Voor meer informatie over Aspose.Words Technische ondersteuning, neem een kijkje op de [ondersteuningspagina](/words/nl/cpp/technical-support/).

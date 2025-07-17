@@ -470,7 +470,7 @@ Aspose.Words 23.12 въвежда нови свойства и изброява�
 
 {{% alert color="primary" %}}
 
-Научете повече за [Aspose.Words за Java 23.9 Бележки За Издаване](/words/java/aspose-words-for-java-23-9-release-notes/).
+Научете повече за [Aspose.Words за Java 23.9 Бележки За Издаване](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-9-release-notes/).
 
 Научете повече за [Aspose.Words за Java 23.10 Бележки За Издаване](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 

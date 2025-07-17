@@ -1,4 +1,4 @@
----
+﻿---
 title: Caratteristica
 second_title: Aspose.Words per C++
 articleTitle: Caratteristiche supportate
@@ -37,7 +37,7 @@ Aspose.Words fornisce agli utenti un'ampia gamma di funzionalità. Gli utenti po
 
 ## Limitazione
 
-- Supporta un insieme limitato di formati di file (*see [Supported Document Formats](/words/cpp/supported-document-formats/) for details*)
+- Supporta un insieme limitato di formati di file (*see [Supported Document Formats](/words/it/cpp/supported-document-formats/) for details*)
 - Nessun supporto per i documenti crittografati
 - Nessun supporto per il download di risorse remote da Internet
 - Supporto limitato e instabile per le funzionalità di rendering

@@ -1,4 +1,4 @@
----
+﻿---
 title: C++での開発者ガイド
 second_title: C++の場合Aspose.Words
 articleTitle: 開発者ガイド
@@ -14,9 +14,9 @@ timestamp: 2024-09-25-11-08-55
 
 Aspose.Words機能の詳細については、対応するセクションを選択します:
 
-- [読み込み、保存、変換](/words/cpp/loading-saving-and-converting/) -ある形式から別の形式に文書を変換するのに便利な文書やフォーマット固有の機能をロードまたは保存するさまざまな方法に関する情報を提供します。
-- [レンダリング](/words/cpp/rendering/) -フローレイアウトページ形式で文書からページ区切り表現を取得する方法に関する情報を提供します。
-- [Mail Mergeと報告](/words/cpp/mail-merge-and-reporting/) -mail mergeフィールドを持つテンプレートから、レポート、カタログ、在庫、請求書などのドキュメントの生成に関する情報を提供します。
-- [ドキュメントを使ったプログラミング](/words/cpp/programming-with-documents/) -プログラムで作成、変更、およびそのコンテンツと視覚的な外観の両方を変更するなど、文書を管理する方法についての情報を提供します。
+- [読み込み、保存、変換](/words/ja/cpp/loading-saving-and-converting/) -ある形式から別の形式に文書を変換するのに便利な文書やフォーマット固有の機能をロードまたは保存するさまざまな方法に関する情報を提供します。
+- [レンダリング](/words/ja/cpp/rendering/) -フローレイアウトページ形式で文書からページ区切り表現を取得する方法に関する情報を提供します。
+- [Mail Mergeと報告](/words/ja/cpp/mail-merge-and-reporting/) -mail mergeフィールドを持つテンプレートから、レポート、カタログ、在庫、請求書などのドキュメントの生成に関する情報を提供します。
+- [ドキュメントを使ったプログラミング](/words/ja/cpp/programming-with-documents/) -プログラムで作成、変更、およびそのコンテンツと視覚的な外観の両方を変更するなど、文書を管理する方法についての情報を提供します。
 
 クラス、メソッド、およびプロパティの詳細な説明については、以下を参照してくださ C++の場合Aspose.Words API Referenceセクション。

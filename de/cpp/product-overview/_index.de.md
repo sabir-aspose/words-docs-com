@@ -1,4 +1,4 @@
----
+﻿---
 title: Produktübersicht
 second_title: Aspose.Words für C++
 articleTitle: Produktübersicht
@@ -16,7 +16,7 @@ Willkommen bei Aspose.Words für C++!
 
 Aspose.Words ist eine plattformübergreifende Klassenbibliothek, mit der Ihre Anwendungen eine Vielzahl von Dokumentenverarbeitungsaufgaben ausführen können.
 
-Mit Aspose.Words können Sie ein Dokument von einem beliebigen unterstützten Ladeformat in ein beliebiges unterstütztes Speicherformat konvertieren, z. B. Word-Formate in PDF, HTML oder Markdown, HTML in DOCX usw. weiter. Lesen Sie mehr über das Konvertieren von Dokumenten in der [Ein Dokument konvertieren](/words/cpp/convert-a-document/) Abschnitt.
+Mit Aspose.Words können Sie ein Dokument von einem beliebigen unterstützten Ladeformat in ein beliebiges unterstütztes Speicherformat konvertieren, z. B. Word-Formate in PDF, HTML oder Markdown, HTML in DOCX usw. weiter. Lesen Sie mehr über das Konvertieren von Dokumenten in der [Ein Dokument konvertieren](/words/de/cpp/convert-a-document/) Abschnitt.
 
 Es ist erwähnenswert, dass Sie mit Aspose.Words Dokumente erstellen, ändern, konvertieren, rendern und drucken können, ohne auf Anwendungen von Drittanbietern wie Microsoft Word oder Office Automation angewiesen zu sein.
 
@@ -42,21 +42,21 @@ Aspose.Words für C++ funktionen können in vier Hauptbereiche unterteilt werden
 
 Die Möglichkeit, Dokumente einfach und zuverlässig zu konvertieren, ist eines der Hauptmerkmale von Aspose.Words.
 
-Umfassend [dokumentenimport und -export](/words/cpp/loading-saving-and-converting/) mit [über 35 unterstützte Dateiformate](/words/cpp/supported-document-formats/) ermöglicht Benutzern das Konvertieren von Dokumenten von [one popular format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) nach [another](https://reference.aspose.com/words/cpp/aspose.words/saveformat/), z. B. von DOCX nach PDF, JPEG oder Markdown.
+Umfassend [dokumentenimport und -export](/words/de/cpp/loading-saving-and-converting/) mit [über 35 unterstützte Dateiformate](/words/de/cpp/supported-document-formats/) ermöglicht Benutzern das Konvertieren von Dokumenten von [one popular format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) nach [another](https://reference.aspose.com/words/cpp/aspose.words/saveformat/), z. B. von DOCX nach PDF, JPEG oder Markdown.
 
 #### Dokumentobjektmodell (DOM)
 
-Der programmgesteuerte Zugriff über eine umfangreiche API -Funktion auf alle Dokumentelemente und Formatierungen ermöglicht das Erstellen, Ändern, Extrahieren, Kopieren, Teilen, Verbinden und Ersetzen von Dokumentinhalten. Erfahren Sie mehr in der [Aspose.Words Dokumentobjektmodell (DOM)](/words/cpp/aspose-words-document-object-model/) Abschnitt.
+Der programmgesteuerte Zugriff über eine umfangreiche API -Funktion auf alle Dokumentelemente und Formatierungen ermöglicht das Erstellen, Ändern, Extrahieren, Kopieren, Teilen, Verbinden und Ersetzen von Dokumentinhalten. Erfahren Sie mehr in der [Aspose.Words Dokumentobjektmodell (DOM)](/words/de/cpp/aspose-words-document-object-model/) Abschnitt.
 
 #### Rendering
 
-Wir verwenden den Begriff [Rendern in Aspose.Words](/words/cpp/rendering/) beschreibung des Prozesses der Konvertierung eines Dokuments in ein Dateiformat oder ein Medium, paginiert oder mit dem Konzept von Seiten.
+Wir verwenden den Begriff [Rendern in Aspose.Words](/words/de/cpp/rendering/) beschreibung des Prozesses der Konvertierung eines Dokuments in ein Dateiformat oder ein Medium, paginiert oder mit dem Konzept von Seiten.
 
 Sie können ganze Dokumente oder bestimmte Seiten in PDF oder XPS konvertieren, um serverseitige Dokumente zu generieren und diese zu drucken. Und das alles mit hoher Wiedergabetreue - genau so, wie es Microsoft Word getan hätte.
 
 #### Berichterstattung
 
-Generieren Sie Dokumente oder Berichte von Grund auf neu oder indem Sie Vorlagen mit Daten aus Datenquellen oder Geschäftsobjekten füllen. Weitere Informationen zum Melden und Abrufen von Daten aus Datenbanken finden Sie im [Mail Merge und Berichterstattung](/words/cpp/mail-merge-and-reporting/).
+Generieren Sie Dokumente oder Berichte von Grund auf neu oder indem Sie Vorlagen mit Daten aus Datenquellen oder Geschäftsobjekten füllen. Weitere Informationen zum Melden und Abrufen von Daten aus Datenbanken finden Sie im [Mail Merge und Berichterstattung](/words/de/cpp/mail-merge-and-reporting/).
 
 ### Plattformunabhängigkeit
 
@@ -86,8 +86,8 @@ Entwicklern, die zuvor Microsoft Word -Automatisierung in ihren Projekten verwen
 
 ## Preise und Richtlinien
 
-Bitte besuchen Sie die [Lizenzierung](/words/cpp/licensing/) seite für Informationen zu Lizenzen und Überprüfung der [Preisinformationen](https://purchase.aspose.com/pricing/words/family/) seite für Details zur Preisgestaltung.
+Bitte besuchen Sie die [Lizenzierung](/words/de/cpp/licensing/) seite für Informationen zu Lizenzen und Überprüfung der [Preisinformationen](https://purchase.aspose.com/pricing/words/family/) seite für Details zur Preisgestaltung.
 
 ## Technischer Support
 
-Weitere Informationen zum technischen Support von Aspose.Words finden Sie in der [Supportseite](/words/cpp/technical-support/).
+Weitere Informationen zum technischen Support von Aspose.Words finden Sie in der [Supportseite](/words/de/cpp/technical-support/).

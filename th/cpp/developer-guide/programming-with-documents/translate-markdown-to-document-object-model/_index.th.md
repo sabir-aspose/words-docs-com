@@ -1,4 +1,4 @@
----
+﻿---
 title: แปลMarkdownไปยังรูปแบบวัตถุเอกสาร(DOM)
 second_title: Aspose.WordsสำหรับC++
 articleTitle: แปลMarkdownไปยังรูปแบบวัตถุเอกสาร(DOM)
@@ -12,7 +12,7 @@ timestamp: 2024-10-21-11-17-44
 
 ในการอ่านจัดการและปรับเปลี่ยนเนื้อหาและการฟอร์แมตของเอกสารคุณต้องแปลไปยังโมเดลออบเจกต์ของเอกสารAspose.Words(DOM).
 
-ในทางตรงกันข้ามกับเอกสารคำMarkdownไม่สอดคล้องกับDOMอธิบายไว้ใน [Aspose.Wordsรูปแบบวัตถุเอกสาร(DOM)](/words/cpp/aspose-words-document-object-model/) บทความ. อย่างไรก็ตามAspose.WordsมีกลไกของตัวเองสำหรับการแปลเอกสารMarkdownไปยังDOMและกลับ,เพื่อให้เราสามาร.
+ในทางตรงกันข้ามกับเอกสารคำMarkdownไม่สอดคล้องกับDOMอธิบายไว้ใน [Aspose.Wordsรูปแบบวัตถุเอกสาร(DOM)](/words/th/cpp/aspose-words-document-object-model/) บทความ. อย่างไรก็ตามAspose.WordsมีกลไกของตัวเองสำหรับการแปลเอกสารMarkdownไปยังDOMและกลับ,เพื่อให้เราสามาร.
 
 บทความนี้อธิบายวิธีการแปลคุณลักษณะต่างๆmarkdownเป็นAspose.WordsDOMและกลับไปยังรูปแบบMarkdown.
 
@@ -105,5 +105,5 @@ Aspose.Wordsยังช่วยให้การแปลตารางเ�
 
 ## ดูเพิ่มเติม
 
-* [การทำงานกับMarkdownคุณสมบัติ](/words/cpp/working-with-markdown-features/)
+* [การทำงานกับMarkdownคุณสมบัติ](/words/th/cpp/working-with-markdown-features/)
 

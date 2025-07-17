@@ -1,4 +1,4 @@
----
+﻿---
 title: 문서 변환 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 문서 변환
@@ -30,7 +30,7 @@ timestamp: 2024-09-25-11-08-55
 
 ## 인기 전환 {#popular-conversions}
 
-현재 섹션에서는 인기 있는 변환과 로드 및 저장할 때 일부 형식 조합 작업에 대한 아이디어를 설명합니다. 이 섹션의 예를 사용하면 변환 프로세스 자체가 매우 보편적이라는 것을 이해할 수 있으며 가능한 모든 옵션을 설명하는 데는 의미가 없습니다. [지원되는 형식 Aspose.Words 에 대한 C++](/words/cpp/supported-document-formats/).
+현재 섹션에서는 인기 있는 변환과 로드 및 저장할 때 일부 형식 조합 작업에 대한 아이디어를 설명합니다. 이 섹션의 예를 사용하면 변환 프로세스 자체가 매우 보편적이라는 것을 이해할 수 있으며 가능한 모든 옵션을 설명하는 데는 의미가 없습니다. [지원되는 형식 Aspose.Words 에 대한 C++](/words/ko/cpp/supported-document-formats/).
 
 {{% alert color="primary" %}}
 

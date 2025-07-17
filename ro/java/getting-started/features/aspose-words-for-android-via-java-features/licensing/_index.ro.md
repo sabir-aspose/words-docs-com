@@ -1,4 +1,4 @@
----
+﻿---
 title: Licențiere
 second_title: Aspose.Words pentru Java
 articleTitle: Licențiere
@@ -26,7 +26,7 @@ Versiunea de evaluare este aceeași cu cea achiziționată-versiunea de încerca
 
 {{% alert color="primary" %}}
 
-Aflați mai multe detalii despre perioada de încercare gratuită sau licența temporară pentru Aspose.Words pentru Android prin Java pe [pagina de licențiere și abonament](/words/java/licensing/).
+Aflați mai multe detalii despre perioada de încercare gratuită sau licența temporară pentru Aspose.Words pentru Android prin Java pe [pagina de licențiere și abonament](/words/ro/java/licensing/).
 
 {{% /alert %}}
 
@@ -71,7 +71,7 @@ Licențele pot fi aplicate din diferite locații:
 
 #### Încărcarea fișierului de licență
 
-În Aspose.Words pentru Android prin Java, licența poate fi [încorporat ca resursă](/words/java/licensing/), sau încărcat dintr-un flux:
+În Aspose.Words pentru Android prin Java, licența poate fi [încorporat ca resursă](/words/ro/java/licensing/), sau încărcat dintr-un flux:
 
 1. Puneți fișierul de licență în orice locație pe **/mnt/sdcard/**.
 1. Creați un flux care face referire la fișier.

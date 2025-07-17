@@ -1,4 +1,4 @@
----
+﻿---
 title: Ikhtisar Produk
 second_title: Aspose.Words untuk .NET
 articleTitle: Ikhtisar Produk
@@ -56,7 +56,7 @@ Anda dapat mengonversi seluruh dokumen atau halaman tertentu ke PDF atau XPS unt
 
 #### Pelaporan
 
-Hasilkan dokumen atau laporan dari awal atau dengan mengisi templat dengan data dari sumber data atau objek bisnis. Untuk informasi selengkapnya tentang pelaporan dan pengambilan data dari database, lihat bagian [Mail Merge dan Pelaporan](/words/net/mail-merge-and-reporting/) dan [Mesin Pelaporan LINQ](/words/net/linq-reporting-engine/).
+Hasilkan dokumen atau laporan dari awal atau dengan mengisi templat dengan data dari sumber data atau objek bisnis. Untuk informasi selengkapnya tentang pelaporan dan pengambilan data dari database, lihat bagian [Mail Merge dan Pelaporan](/words/id/net/mail-merge-and-reporting/) dan [Mesin Pelaporan LINQ](/words/net/linq-reporting-engine/).
 
 ### Kemandirian Platform
 

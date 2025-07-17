@@ -1,4 +1,4 @@
----
+﻿---
 title: סקירה המוצר
 second_title: Aspose.Words עבור Python via .NET
 articleTitle: סקירה המוצר
@@ -56,7 +56,7 @@ Aspose.Words עבור Python via .NET ניתן לחלק את התכונות לא
 
 #### דיווח
 
-ליצור מסמכים או דוחות מאפס או על ידי מילוי תבניות עם נתונים ממקורות נתונים או אובייקטים עסקיים. לקבלת מידע נוסף על הדיווח והבאת נתונים ממאגרי מידע, ראה את [Mail Merge דיווח ו](/words/python-net/mail-merge-and-reporting/) ו [LINQ דיווח על מנוע](/words/python-net/linq-reporting-engine/) חלקים.
+ליצור מסמכים או דוחות מאפס או על ידי מילוי תבניות עם נתונים ממקורות נתונים או אובייקטים עסקיים. לקבלת מידע נוסף על הדיווח והבאת נתונים ממאגרי מידע, ראה את [Mail Merge דיווח ו](/words/he/python-net/mail-merge-and-reporting/) ו [LINQ דיווח על מנוע](/words/python-net/linq-reporting-engine/) חלקים.
 
 ### פלטפורמות עצמאות
 

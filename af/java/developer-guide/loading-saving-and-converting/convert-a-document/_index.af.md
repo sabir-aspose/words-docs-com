@@ -1,4 +1,4 @@
----
+﻿---
 title: Skep'n Dokument in Java
 second_title: Aspose.Words vir Java
 articleTitle: Skakel'n Dokument om
@@ -29,7 +29,7 @@ Jy kan hierdie funksie probeer met ons [Gratis aanlyn omskakelaar](https://produ
 
 ## Gewilde Omskakelings {#popular-conversions}
 
-Die huidige afdeling beskryf gewilde omskakelings, sowel as idees vir die werk met'n paar kombinasies van formate wanneer laai en stoor. Deur die voorbeelde van hierdie afdeling te gebruik, kan jy verstaan dat die omskakelingsproses self redelik universeel is, en daar is geen punt om al die moontlike opsies te beskryf nie, aangesien daar'n paar honderd van hulle is as gevolg van die groot aantal [formas ondersteun deur Aspose.Words vir Java](/words/java/supported-document-formats/).
+Die huidige afdeling beskryf gewilde omskakelings, sowel as idees vir die werk met'n paar kombinasies van formate wanneer laai en stoor. Deur die voorbeelde van hierdie afdeling te gebruik, kan jy verstaan dat die omskakelingsproses self redelik universeel is, en daar is geen punt om al die moontlike opsies te beskryf nie, aangesien daar'n paar honderd van hulle is as gevolg van die groot aantal [formas ondersteun deur Aspose.Words vir Java](/words/af/java/supported-document-formats/).
 
 {{% alert color="primary" %}}
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Utilizzo delle funzionalità Markdown in C++
 second_title: Aspose.Words per C++
 articleTitle: Lavorare con Markdown Caratteristiche
@@ -27,7 +27,7 @@ L'implementazione delle funzionalità Markdown segue principalmente le specifich
 
 {{% alert color="primary" %}}
 
-Ci sono sfumature di tradurre Markdown al modello a oggetti del documento (DOM) Aspose.Words, descritto nell'articolo [Traduci Markdown in Document Object Model (DOM)](/words/cpp/translate-markdown-to-document-object-model/).
+Ci sono sfumature di tradurre Markdown al modello a oggetti del documento (DOM) Aspose.Words, descritto nell'articolo [Traduci Markdown in Document Object Model (DOM)](/words/it/cpp/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

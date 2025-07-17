@@ -1,4 +1,4 @@
----
+﻿---
 title: Conversia unui Document în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Conversia unui Document
@@ -26,7 +26,7 @@ Puteți încerca funcționalitatea de conversie utilizând [Convertor online gra
 
 {{% /alert %}}
 
-Secțiunea actuală descrie conversiile populare, precum și idei pentru lucrul cu unele combinații de formate la încărcare și salvare. Folosind exemplele din această secțiune, puteți înțelege că procesul de conversie în sine este destul de universal și nu are rost să descriem toate opțiunile posibile, deoarece există câteva sute dintre ele datorită numărului mare de [formate acceptate de Aspose.Words pentru Python via .NET](/words/python-net/supported-document-formats/).
+Secțiunea actuală descrie conversiile populare, precum și idei pentru lucrul cu unele combinații de formate la încărcare și salvare. Folosind exemplele din această secțiune, puteți înțelege că procesul de conversie în sine este destul de universal și nu are rost să descriem toate opțiunile posibile, deoarece există câteva sute dintre ele datorită numărului mare de [formate acceptate de Aspose.Words pentru Python via .NET](/words/ro/python-net/supported-document-formats/).
 
 {{% alert color="primary" %}}
 

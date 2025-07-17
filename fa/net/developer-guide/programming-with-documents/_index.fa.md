@@ -1,4 +1,4 @@
----
+﻿---
 title: برنامه نویسی با اسناد در C#
 second_title: Aspose.Words برای .NET
 articleTitle: برنامه نویسی با اسناد
@@ -58,6 +58,6 @@ timestamp: 2024-09-25-11-08-55
 - [کار با کاراکترهای کنترلی](/words/fa/net/working-with-control-characters/)
 - [کار با ماکرو VBA](/words/fa/net/working-with-vba-macros/)
 - [کار با ویژگی های Markdown](/words/fa/net/working-with-markdown-features/)
-- [کار با سند متنی](/words/net/working-with-text-document/)
+- [کار با سند متنی](/words/fa/net/working-with-text-document/)
 
 برای توضیح دقیق کلاس‌ها، روش‌ها و ویژگی‌ها به بخش Aspose.Words for .NET API Reference مراجعه کنید.

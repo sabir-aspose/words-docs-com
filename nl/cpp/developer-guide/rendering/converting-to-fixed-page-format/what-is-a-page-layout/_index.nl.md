@@ -20,6 +20,6 @@ De relatie tussen een document en een pagina-indeling is vrij eenvoudig. Terwijl
 
 ## Zie Ook
 
-* [Een pagina-indeling maken](/words/cpp/creating-a-page-layout/)
-* [Een Document opslaan in een vaste paginaindeling](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Opmaakopties Opgeven](/words/cpp/specify-layout-options/)
+* [Een pagina-indeling maken](/words/nl/cpp/creating-a-page-layout/)
+* [Een Document opslaan in een vaste paginaindeling](/words/nl/cpp/saving-a-document-to-fixed-page-format/)
+* [Opmaakopties Opgeven](/words/nl/cpp/specify-layout-options/)

@@ -1,4 +1,4 @@
----
+﻿---
 title: چیدمان صفحه در C++چیست
 second_title: Aspose.Words برای C++
 articleTitle: چیدمان صفحه چیست ؟
@@ -20,6 +20,6 @@ Aspose.Words قابلیت طرح بندی صفحه را به صورت داخلی
 
 ## بایگانی برچسب برای:
 
-* [ایجاد یک طرح بندی صفحه](/words/cpp/creating-a-page-layout/)
-* [ذخیره یک سند به فرمت صفحه ثابت](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [گزینه های طرح بندی را مشخص کنید](/words/cpp/specify-layout-options/)
+* [ایجاد یک طرح بندی صفحه](/words/fa/cpp/creating-a-page-layout/)
+* [ذخیره یک سند به فرمت صفحه ثابت](/words/fa/cpp/saving-a-document-to-fixed-page-format/)
+* [گزینه های طرح بندی را مشخص کنید](/words/fa/cpp/specify-layout-options/)

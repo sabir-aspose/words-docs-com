@@ -30,7 +30,7 @@ Możesz wypróbować funkcję konwersji, korzystając z naszego [Darmowy konwert
 
 ## Popularne Konwersje {#popular-conversions}
 
-Bieżąca sekcja opisuje popularne konwersje, a także pomysły na pracę z niektórymi kombinacjami formatów podczas ładowania i zapisywania. Korzystając z przykładów tej sekcji, możesz zrozumieć, że sam proces konwersji jest dość uniwersalny i nie ma sensu opisywać wszystkich możliwych opcji, ponieważ jest ich kilkaset ze względu na dużą liczbę [formaty obsługiwane przez Aspose.Words dla C++](/words/cpp/supported-document-formats/).
+Bieżąca sekcja opisuje popularne konwersje, a także pomysły na pracę z niektórymi kombinacjami formatów podczas ładowania i zapisywania. Korzystając z przykładów tej sekcji, możesz zrozumieć, że sam proces konwersji jest dość uniwersalny i nie ma sensu opisywać wszystkich możliwych opcji, ponieważ jest ich kilkaset ze względu na dużą liczbę [formaty obsługiwane przez Aspose.Words dla C++](/words/pl/cpp/supported-document-formats/).
 
 {{% alert color="primary" %}}
 

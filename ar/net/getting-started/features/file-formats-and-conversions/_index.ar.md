@@ -1,4 +1,4 @@
----
+﻿---
 title: تنسيقات الملفات والتحويلات
 second_title: Aspose.Words لـ .NET
 articleTitle: تنسيقات الملفات والتحويلات
@@ -29,7 +29,7 @@ timestamp: 2024-01-31-14-23-37
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "docx-to-pdf.cs" >}}
 
-لمزيد من التفاصيل حول تحميل المستندات وتحويلها وحفظها، راجع قسم [التحميل والحفظ والتحويل](/words/cpp/loading-saving-and-converting/).
+لمزيد من التفاصيل حول تحميل المستندات وتحويلها وحفظها، راجع قسم [التحميل والحفظ والتحويل](/words/ar/cpp/loading-saving-and-converting/).
 
 ## عالية الدقة
 

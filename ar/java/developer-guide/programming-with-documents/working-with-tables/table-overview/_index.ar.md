@@ -65,5 +65,5 @@ Aspose.Words يحتوي على عدد من الفئات المتعلقة بال�
 
 ## أنظر أيضا
 
-* [Aspose.Words نموذج كائن المستند (DOM)](/words/java/aspose-words-document-object-model/)
-* [المستويات المنطقية للعقد في المستند](/words/java/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words نموذج كائن المستند (DOM)](/words/ar/java/aspose-words-document-object-model/)
+* [المستويات المنطقية للعقد في المستند](/words/ar/java/logical-levels-of-nodes-in-a-document/)

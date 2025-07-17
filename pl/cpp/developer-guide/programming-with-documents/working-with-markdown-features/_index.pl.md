@@ -27,7 +27,7 @@ Implementacja funkcji Markdown jest w większości zgodna ze specyfikacją `Comm
 
 {{% alert color="primary" %}}
 
-Istnieją niuanse tłumaczenia Markdown na model obiektowy dokumentu Aspose.Words (DOM), opisany w artykule [Translate Markdown to Document Object Model (DOM)](/words/cpp/translate-markdown-to-document-object-model/).
+Istnieją niuanse tłumaczenia Markdown na model obiektowy dokumentu Aspose.Words (DOM), opisany w artykule [Translate Markdown to Document Object Model (DOM)](/words/pl/cpp/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

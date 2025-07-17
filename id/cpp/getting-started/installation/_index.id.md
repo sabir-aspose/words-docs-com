@@ -1,4 +1,4 @@
----
+﻿---
 title: Bagaimana cara menginstal Aspose.Words untuk C++
 second_title: Aspose.Words untuk C++
 articleTitle: Instalasi
@@ -10,7 +10,7 @@ url: /id/cpp/installation/
 timestamp: 2024-09-24-14-35-44
 ---
 
-Pastikan mesin Anda memenuhi persyaratan [persyaratan sistem](/words/cpp/system-requirements/) sebelum Anda mulai.
+Pastikan mesin Anda memenuhi persyaratan [persyaratan sistem](/words/id/cpp/system-requirements/) sebelum Anda mulai.
 
 Artikel ini menjelaskan cara menginstal Aspose.Words untuk C++ di komputermu.
 

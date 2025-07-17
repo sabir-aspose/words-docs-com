@@ -1,4 +1,4 @@
----
+﻿---
 title: نظرة عامة على الحقول في C++
 second_title: Aspose.Words ل C++
 articleTitle: نظرة عامة على الحقول
@@ -29,7 +29,7 @@ Aspose.Words هي مكتبة فئة مصممة لمعالجة المستندات
 
 ![fields-overview-aspose-words-cpp-1](fields-overview-1.png)
 
-يتم تخزين المحتوى الذي يتكون منه رمز الحقل كعقد [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) بين [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) و [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/). يتم تخزين النتيجة الميدانية بين العقدتين **FieldSeparator** و [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) ويمكن أن تتكون من أنواع مختلفة من المحتوى. عادة ما تحتوي نتيجة الحقل على نص مكون فقط من **Run** العقد، ومع ذلك فمن الممكن أن تكون العقدة **FieldEnd** موجودة في فقرة مختلفة تماما، وبالتالي جعل نتيجة الحقل تتكون من [العقد على مستوى الكتلة](/words/cpp/logical-levels-of-nodes-in-a-document/) مثل **Table** و **Paragraph** العقد كذلك.
+يتم تخزين المحتوى الذي يتكون منه رمز الحقل كعقد [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) بين [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) و [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/). يتم تخزين النتيجة الميدانية بين العقدتين **FieldSeparator** و [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) ويمكن أن تتكون من أنواع مختلفة من المحتوى. عادة ما تحتوي نتيجة الحقل على نص مكون فقط من **Run** العقد، ومع ذلك فمن الممكن أن تكون العقدة **FieldEnd** موجودة في فقرة مختلفة تماما، وبالتالي جعل نتيجة الحقل تتكون من [العقد على مستوى الكتلة](/words/ar/cpp/logical-levels-of-nodes-in-a-document/) مثل **Table** و **Paragraph** العقد كذلك.
 
 فيما يلي عرض لكيفية تخزين حقل في Aspose.Words باستخدام مثال "*DocumentExplorer"*.
 
@@ -37,7 +37,7 @@ Aspose.Words هي مكتبة فئة مصممة لمعالجة المستندات
 
 ## الحقول في نموذج كائن المستند Aspose.Words (DOM)
 
-عندما يتم تحميل مستند إلى Aspose.Words، يتم تحميل حقول المستند في [Aspose.Words نموذج كائن المستند](/words/cpp/aspose-words-document-object-model/) كمجموعة من المكونات المنفصلة (العقد). يتم تحميل حقل واحد كمجموعة من **FieldStart** و **FieldSeparator** و **FieldEnd** العقد جنبا إلى جنب مع المحتوى بين هذه العقد. إذا لم يكن للحقل نتيجة حقل، فلن تكون هناك عقدة **FieldSeparator**. يتم العثور دائما على كل هذه العقد مضمنة (كأبناء [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) أو [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
+عندما يتم تحميل مستند إلى Aspose.Words، يتم تحميل حقول المستند في [Aspose.Words نموذج كائن المستند](/words/ar/cpp/aspose-words-document-object-model/) كمجموعة من المكونات المنفصلة (العقد). يتم تحميل حقل واحد كمجموعة من **FieldStart** و **FieldSeparator** و **FieldEnd** العقد جنبا إلى جنب مع المحتوى بين هذه العقد. إذا لم يكن للحقل نتيجة حقل، فلن تكون هناك عقدة **FieldSeparator**. يتم العثور دائما على كل هذه العقد مضمنة (كأبناء [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) أو [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
 
 في Aspose.Words كل عقد من **FieldXXX** مشتق من [FieldChar](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_char/). توفر هذه الفئة خاصية للتحقق من نوع الحقل الذي تمثله العقدة المحددة من خلال خاصية [FieldType](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldchar/get_fieldtype/). على سبيل المثال **FieldType.FieldMergeField** يمثل حقل دمج في المستند.
 

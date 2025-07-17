@@ -20,6 +20,6 @@ Aspose.Words внедрява вътрешно функционалност за
 
 ## Вижте Също
 
-* [Създаване на оформление на страница](/words/cpp/creating-a-page-layout/)
-* [Записване на документ във формат на фиксирана страница](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Посочете Опциите За Оформление](/words/cpp/specify-layout-options/)
+* [Създаване на оформление на страница](/words/bg/cpp/creating-a-page-layout/)
+* [Записване на документ във формат на фиксирана страница](/words/bg/cpp/saving-a-document-to-fixed-page-format/)
+* [Посочете Опциите За Оформление](/words/bg/cpp/specify-layout-options/)

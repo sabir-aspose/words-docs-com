@@ -96,7 +96,7 @@ Aspose.Words提供了使用[DownsampleOptions](https://reference.aspose.com/word
 
 ## 以AdobePDF格式嵌入字体
 
-Aspose.Words还使您能够控制字体如何嵌入到生成的PDF文档中。 字体需要嵌入到任何AdobePDF文档中，以确保文档可以在任何机器上正确呈现（请参阅本节中有关字体呈现的更多详细信息 [使用TrueType字体](/words/java/using-truetype-fonts/)). 默认情况下，Aspose.Words将文档中使用的字体子集嵌入到生成的PDF中。 在这种情况下，只有文档中使用的字形（字符）被保存到PDF。
+Aspose.Words还使您能够控制字体如何嵌入到生成的PDF文档中。 字体需要嵌入到任何AdobePDF文档中，以确保文档可以在任何机器上正确呈现（请参阅本节中有关字体呈现的更多详细信息 [使用TrueType字体](/words/zh/java/using-truetype-fonts/)). 默认情况下，Aspose.Words将文档中使用的字体子集嵌入到生成的PDF中。 在这种情况下，只有文档中使用的字形（字符）被保存到PDF。
 
 ### 何时使用完整字体以及何时使用子集
 

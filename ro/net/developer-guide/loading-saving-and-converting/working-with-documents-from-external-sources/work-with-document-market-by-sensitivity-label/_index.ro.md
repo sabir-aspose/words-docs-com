@@ -1,4 +1,4 @@
----
+﻿---
 title: Lucrează cu un document marcat cu o etichetă de sensibilitate
 second_title: Aspose.Words pentru .NET
 articleTitle: Lucrează cu un document marcat cu o etichetă de sensibilitate
@@ -419,4 +419,4 @@ Ca rezultat, fișierul de ieșire ar trebui creat cu aplicat "Confidențial.Toț
 
 ## Vedeți și:
 
-The article [Work with a Document Stored in a `SharePoint` Online](/words/net/work-with-document-stored-in-sharepoint/)
+The article [Work with a Document Stored in a `SharePoint` Online](/words/ro/net/work-with-document-stored-in-sharepoint/)

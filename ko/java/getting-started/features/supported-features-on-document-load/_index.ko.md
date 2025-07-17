@@ -10,7 +10,7 @@ url: /ko/java/supported-features-on-document-load/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words사용자가 다양한 형식의 문서 작업을 할 수 있으며 이를 위한 다양한 옵션을 제공합니다. 예를 들어,사용자는 처음부터 문서를 만들거나 기존 파일을 로드할 수 있습니다. [지원되는 가져오기 형식](/words/java/supported-document-formats/),해당 문서를 일부 변경한 다음 결과를 저장합니다. 선택한 형식으로 문서를 가져올 때 사용자는 다양한로드 옵션을 적용 할 수 있습니다.
+Aspose.Words사용자가 다양한 형식의 문서 작업을 할 수 있으며 이를 위한 다양한 옵션을 제공합니다. 예를 들어,사용자는 처음부터 문서를 만들거나 기존 파일을 로드할 수 있습니다. [지원되는 가져오기 형식](/words/ko/java/supported-document-formats/),해당 문서를 일부 변경한 다음 결과를 저장합니다. 선택한 형식으로 문서를 가져올 때 사용자는 다양한로드 옵션을 적용 할 수 있습니다.
 
 {{% alert color="primary" %}}
 

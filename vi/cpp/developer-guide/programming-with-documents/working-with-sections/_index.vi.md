@@ -1,4 +1,4 @@
----
+﻿---
 title: Làm Việc Với Các Phần trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm Việc Với Các Phần
@@ -38,7 +38,7 @@ Bạn cũng có thể sử dụng liệt kê [SectionStart](https://reference.as
 
 ## Quản lý Một Phần
 
-Vì một phần là một nút tổng hợp bình thường, toàn bộ thao tác nút API có thể được sử dụng để thao tác các phần: để thêm, xóa và các thao tác khác trên các phần. Bạn có thể đọc thêm về các nút trong bài viết [Aspose.Words Mô Hình Đối Tượng Tài Liệu (DOM)](/words/cpp/aspose-words-document-object-model/).
+Vì một phần là một nút tổng hợp bình thường, toàn bộ thao tác nút API có thể được sử dụng để thao tác các phần: để thêm, xóa và các thao tác khác trên các phần. Bạn có thể đọc thêm về các nút trong bài viết [Aspose.Words Mô Hình Đối Tượng Tài Liệu (DOM)](/words/vi/cpp/aspose-words-document-object-model/).
 
 Mặt khác, bạn cũng có thể sử dụng `DocumentBuilder` API để làm việc với các phần. Trong bài viết này, chúng tôi sẽ tập trung vào cách làm việc cụ thể này với các phần.
 
@@ -154,5 +154,5 @@ Ví dụ mã sau đây cho thấy cách sửa đổi thuộc tính trang trong t
 
 ## Xem Thêm
 
-- [Mức độ logic Của Các Nút trong Một Tài liệu](/words/cpp/logical-levels-of-nodes-in-a-document/)
-- [Chèn Và Nối Thêm Tài liệu](/words/cpp/insert-and-append-documents/)
+- [Mức độ logic Của Các Nút trong Một Tài liệu](/words/vi/cpp/logical-levels-of-nodes-in-a-document/)
+- [Chèn Và Nối Thêm Tài liệu](/words/vi/cpp/insert-and-append-documents/)

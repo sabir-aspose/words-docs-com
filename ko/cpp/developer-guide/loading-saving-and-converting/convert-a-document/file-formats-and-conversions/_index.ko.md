@@ -1,4 +1,4 @@
----
+﻿---
 title: 파일 형식 및 변환
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 변환이 주력 기능 인 이유 Aspose.Words?
@@ -29,7 +29,7 @@ timestamp: 2024-09-24-14-35-44
 
 {{< gist "aspose-words-gists" "b9784b73e288805e08fba6e3fc5ae2af" "docx-to-pdf.h" >}}
 
-문서 로드,변환 및 저장에 대한 자세한 내용은 다음을 참조하십시오 [로드,저장 및 변환](/words/cpp/loading-saving-and-converting/) 부문
+문서 로드,변환 및 저장에 대한 자세한 내용은 다음을 참조하십시오 [로드,저장 및 변환](/words/ko/cpp/loading-saving-and-converting/) 부문
 
 ## 높은 충실도
 

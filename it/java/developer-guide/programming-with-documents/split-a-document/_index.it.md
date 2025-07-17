@@ -85,7 +85,7 @@ Questa sezione descrive diversi casi d'uso di dividere i documenti per paging ut
 
 {{% alert color="primary" %}}
 
-Puoi usare qualsiasi [formato di output supportato da Aspose.Words](/words/java/supported-document-formats/).
+Puoi usare qualsiasi [formato di output supportato da Aspose.Words](/words/it/java/supported-document-formats/).
 
 {{% /alert %}}
 

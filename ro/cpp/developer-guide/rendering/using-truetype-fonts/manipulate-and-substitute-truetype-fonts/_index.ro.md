@@ -1,4 +1,4 @@
----
+﻿---
 title: Manipulați și înlocuiți fonturile TrueType în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Manipulați și înlocuiți fonturile TrueType
@@ -21,7 +21,7 @@ Rețineți că fontul din document reprezintă o entitate, cum ar fi numele de f
 
 ## Unde Aspose.Words caută fonturi
 
-Aspose.Words încearcă să găsească TrueType fonturi pe sistemul de Fișiere automat. De obicei, vă puteți baza pe comportamentul implicit al Aspose.Words pentru a găsi fonturile `TrueType`, dar uneori trebuie să specificați propriile foldere care conțin fonturi TrueType. A [Specificați TrueType Locația Fonturilor](/words/cpp/specify-truetype-fonts-location/) subiectul descrie cum și unde Aspose.Words caută fonturi, precum și cum să specificați propriile locații de fonturi.
+Aspose.Words încearcă să găsească TrueType fonturi pe sistemul de Fișiere automat. De obicei, vă puteți baza pe comportamentul implicit al Aspose.Words pentru a găsi fonturile `TrueType`, dar uneori trebuie să specificați propriile foldere care conțin fonturi TrueType. A [Specificați TrueType Locația Fonturilor](/words/ro/cpp/specify-truetype-fonts-location/) subiectul descrie cum și unde Aspose.Words caută fonturi, precum și cum să specificați propriile locații de fonturi.
 
 ## Diferențe în procesarea formatelor de fonturi în Aspose.Words și Microsoft Word
 

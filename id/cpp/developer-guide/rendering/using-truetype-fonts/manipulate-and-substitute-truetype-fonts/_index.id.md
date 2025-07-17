@@ -1,4 +1,4 @@
----
+﻿---
 title: Memanipulasi dan Mengganti Font TrueType di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Memanipulasi dan Mengganti Font TrueType
@@ -21,7 +21,7 @@ Perhatikan bahwa font dalam dokumen mewakili entitas, seperti nama keluarga, gay
 
 ## Dimana Aspose.Words Mencari Font
 
-Aspose.Words mencoba menemukan TrueType font pada sistem file secara otomatis. Biasanya, Anda dapat mengandalkan perilaku default Aspose.Words untuk menemukan font `TrueType`, tetapi terkadang Anda perlu menentukan folder Anda sendiri yang berisi font TrueType. The [Tentukan Lokasi Font TrueType ](/words/cpp/specify-truetype-fonts-location/) topik menjelaskan bagaimana dan di mana Aspose.Words mencari font, serta cara menentukan lokasi font Anda sendiri.
+Aspose.Words mencoba menemukan TrueType font pada sistem file secara otomatis. Biasanya, Anda dapat mengandalkan perilaku default Aspose.Words untuk menemukan font `TrueType`, tetapi terkadang Anda perlu menentukan folder Anda sendiri yang berisi font TrueType. The [Tentukan Lokasi Font TrueType ](/words/id/cpp/specify-truetype-fonts-location/) topik menjelaskan bagaimana dan di mana Aspose.Words mencari font, serta cara menentukan lokasi font Anda sendiri.
 
 ## Perbedaan Pemrosesan Format Font dalam Aspose.Words dan Microsoft Word
 

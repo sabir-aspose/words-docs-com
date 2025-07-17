@@ -1,4 +1,4 @@
----
+﻿---
 title: 製品概要
 second_title: C++の場合Aspose.Words
 articleTitle: 製品概要
@@ -16,7 +16,7 @@ timestamp: 2024-06-05-14-43-57
 
 Aspose.Wordsは、アプリケーションがさまざまなドキュメント処理タスクを実行できるようにするクロスプラットフォームのクラスライブラリです。
 
-Aspose.Wordsを使用すると、Word形式をPDF、HTML、またはMarkdown、HTMLをDOCXなど、サポートされている読み込み形式からサポートされている保存形式にドキュメントを変換できます。 ドキュメントの変換の詳細については、次を参照してください。 [文書を変換する](/words/cpp/convert-a-document/) セクション。
+Aspose.Wordsを使用すると、Word形式をPDF、HTML、またはMarkdown、HTMLをDOCXなど、サポートされている読み込み形式からサポートされている保存形式にドキュメントを変換できます。 ドキュメントの変換の詳細については、次を参照してください。 [文書を変換する](/words/ja/cpp/convert-a-document/) セクション。
 
 Aspose.Wordsを使用すると、Microsoft WordやOffice Automationなどのサードパーティのアプリケーションに依存することなく、ドキュメントを作成、変更、変換、レンダリング、および印刷できます。
 
@@ -42,21 +42,21 @@ C++の場合Aspose.Words 機能は4つの主要な領域に分けることがで
 
 文書を簡単かつ確実に変換する機能は、Aspose.Wordsの主な機能の1つです。
 
-総合 [ドキュメントのインポートとエクスポート](/words/cpp/loading-saving-and-converting/) と [35以上のサポートされているファイル形式](/words/cpp/supported-document-formats/) DOCXからPDF、JPEG、Markdownなど、ドキュメントを[one popular format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/)から[another](https://reference.aspose.com/words/cpp/aspose.words/saveformat/)に変換できます。
+総合 [ドキュメントのインポートとエクスポート](/words/ja/cpp/loading-saving-and-converting/) と [35以上のサポートされているファイル形式](/words/ja/cpp/supported-document-formats/) DOCXからPDF、JPEG、Markdownなど、ドキュメントを[one popular format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/)から[another](https://reference.aspose.com/words/cpp/aspose.words/saveformat/)に変換できます。
 
 #### ドキュメントオブジェクトモデル(DOM)
 
-すべてのドキュメント要素と書式設定への豊富なAPIを介したプログラムアクセスにより、ドキュメントコンテンツを作成、変更、抽出、コピー、分割、結合、およ の詳細をご覧ください [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/cpp/aspose-words-document-object-model/) セクション。
+すべてのドキュメント要素と書式設定への豊富なAPIを介したプログラムアクセスにより、ドキュメントコンテンツを作成、変更、抽出、コピー、分割、結合、およ の詳細をご覧ください [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/ja/cpp/aspose-words-document-object-model/) セクション。
 
 #### レンダリング
 
-私たちは、用語を使用します [Aspose.Wordsでのレンダリング](/words/cpp/rendering/) 文書をファイル形式または媒体に変換するプロセスを説明するために、ページ化された、またはページの概念を持っています。
+私たちは、用語を使用します [Aspose.Wordsでのレンダリング](/words/ja/cpp/rendering/) 文書をファイル形式または媒体に変換するプロセスを説明するために、ページ化された、またはページの概念を持っています。
 
 ドキュメント全体または特定のページをPDFまたはXPSに変換してサーバー側のドキュメントを生成し、印刷することができます。 そして、これはすべて忠実度が高く、Microsoft Wordがそれを行ったのとまったく同じです。
 
 #### 報告
 
-最初から、またはデータソースまたはビジネスオブジェクトからのデータをテンプレートに入力して、ドキュメントまたはレポートを生成します。 データベースからのデータのレポートおよびフェッチの詳細については、 [Mail Mergeと報告](/words/cpp/mail-merge-and-reporting/).
+最初から、またはデータソースまたはビジネスオブジェクトからのデータをテンプレートに入力して、ドキュメントまたはレポートを生成します。 データベースからのデータのレポートおよびフェッチの詳細については、 [Mail Mergeと報告](/words/ja/cpp/mail-merge-and-reporting/).
 
 ### プラットフォームの独立性
 
@@ -86,8 +86,8 @@ Aspose.Wordsには150以上のパブリッククラスと列挙があります�
 
 ## 価格とポリシー
 
-をご覧ください [ライセンス](/words/cpp/licensing/) ライセンスの情報とレビューのためのページ [価格情報](https://purchase.aspose.com/pricing/words/family/) 価格の詳細については、ページ.
+をご覧ください [ライセンス](/words/ja/cpp/licensing/) ライセンスの情報とレビューのためのページ [価格情報](https://purchase.aspose.com/pricing/words/family/) 価格の詳細については、ページ.
 
 ## 技術サポート
 
-Aspose.Wordsテクニカルサポートの詳細については、以下を参照してください [サポートページ](/words/cpp/technical-support/).
+Aspose.Wordsテクニカルサポートの詳細については、以下を参照してください [サポートページ](/words/ja/cpp/technical-support/).

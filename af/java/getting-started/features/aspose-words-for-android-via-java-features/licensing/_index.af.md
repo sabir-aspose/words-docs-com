@@ -1,4 +1,4 @@
----
+﻿---
 title: Lisensie
 second_title: Aspose.Words vir Java
 articleTitle: Lisensie
@@ -26,7 +26,7 @@ Die evalueringsweergawe is dieselfde as die gekoopte een – die Proefweergawe w
 
 {{% alert color="primary" %}}
 
-Hier is meer besonderhede Oor Die Gratis Proeflopie of Tydelike Lisensie vir Aspose.Words vir Android via Java op [Die Lisensie-en Intekeningbladsy](/words/java/licensing/).
+Hier is meer besonderhede Oor Die Gratis Proeflopie of Tydelike Lisensie vir Aspose.Words vir Android via Java op [Die Lisensie-en Intekeningbladsy](/words/af/java/licensing/).
 
 {{% /alert %}}
 
@@ -71,7 +71,7 @@ Lisensies kan vanaf verskillende plekke toegepas word:
 
 #### Laai Die Lisensie lêer
 
-In Aspose.Words vir Android via Java, kan die lisensie wees [ingebed as'n hulpbron](/words/java/licensing/), of gelaai uit'n stroom:
+In Aspose.Words vir Android via Java, kan die lisensie wees [ingebed as'n hulpbron](/words/af/java/licensing/), of gelaai uit'n stroom:
 
 1. Plaas die lisensie lêer op enige plek op **/mnt/sdcard/**.
 1. Skep'n stroom wat verwys na lêer.
