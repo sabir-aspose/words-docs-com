@@ -70,7 +70,7 @@ Aspose.Words 25.4 introduces support for new paper sizes, enables advanced HTML 
 
 #### Document AI Grammar Checking
 
-* The ability to check the grammar of the provided document using OpenAI generative models has been introduced by adding a new [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/check_grammar/) method. <sup>25.1</sup>
+* The ability to check the grammar of the provided document using OpenAI generative models has been introduced by adding a new [check_grammar](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodel/check_grammar/) method. <sup>25.1</sup>
 * The AI-powered Grammar Checking feature has been updated to support all models available in the [AiModelType](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodeltype/) enumeration. <sup>25.3</sup>
 
 #### Summarization Using Anthropic Generative Language Models <sup>25.2</sup>
@@ -147,7 +147,7 @@ Support for document summarization using **OpenAI** and **Google** generative la
 
 #### Text translation using Google's generative language models <sup>24.12</sup>
 
-The ability to translate text using Google's generative language models has been implemented in Aspose.Words by adding the [translate](https://reference.aspose.com/words/python-net/aspose.words.ai/iaimodeltext/translate/) method and the [Language](https://reference.aspose.com/words/python-net/aspose.words.ai/language/) enumeration to the [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) namespace.
+The ability to translate text using Google's generative language models has been implemented in Aspose.Words by adding the [translate](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodel/translate/) method and the [Language](https://reference.aspose.com/words/python-net/aspose.words.ai/language/) enumeration to the [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) namespace.
 
 ### Low Code <sup>24.12</sup>
 
