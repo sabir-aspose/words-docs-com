@@ -47,7 +47,7 @@ timestamp: 2024-01-31-14-23-37
 
 ### Перетворення в різні PDF Стандарти {#convert-to-various-pdf-standards}
 
-Aspose.Words забезпечує [PdfCompliace](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) заохочення для підтримки перетворення DOC або DOCX в різні стандарти формату PDF (наприклад, PDF 1.7, PDF 1.5 тощо).
+Aspose.Words забезпечує [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) заохочення для підтримки перетворення DOC або DOCX в різні стандарти формату PDF (наприклад, PDF 1.7, PDF 1.5 тощо).
 
 Приклад наступного коду показує, як перетворити документ в PDF 1.7 за допомогою [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) з дотриманням відповідності [PDF17](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf17):
 
@@ -90,5 +90,5 @@ Aspose.Words забезпечує [PdfCompliace](https://reference.aspose.com/wo
 ## Дивитися ще
 
 - Статті [Рендеринг](/words/uk/python-net/rendering/) для отримання більш детальної інформації про формати фіксованої сторінки та потоку
-- Статті [Перетворення у формат Фіксованого сторінки](/words/python-net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) для отримання додаткової інформації на макеті сторінки
+- Статті [Перетворення у формат Фіксованого сторінки](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) для отримання додаткової інформації на макеті сторінки
 - Статті [Вказати параметри рендерингу при конвертації в PDF](/words/uk/python-net/specify-rendering-options-when-converting-to-pdf/) для отримання додаткової інформації про використання [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) клас

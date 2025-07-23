@@ -1,4 +1,4 @@
----
+﻿---
 title: 與受敏感標籤標記的文件一起工作
 second_title: Aspose.Words for .NET
 articleTitle: 與受敏感標籤標記的文件一起工作
@@ -419,4 +419,4 @@ Console.WriteLine("App completed!");
 
 ## 另見
 
-- 該文章 [Work with a Document Stored in a `SharePoint` Online](/words/net/work-with-document-stored-in-sharepoint/)
+- 該文章 [Work with a Document Stored in a `SharePoint` Online](/words/zh-hant/net/work-with-document-stored-in-sharepoint/)

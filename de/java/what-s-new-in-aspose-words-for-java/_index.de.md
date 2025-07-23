@@ -470,7 +470,7 @@ Die Funktion zum Erkennen von Hyperlinks beim Laden von TXT-Dokumenten wurde dur
 
 {{% alert color="primary" %}}
 
-Erfahren Sie mehr über [Aspose.Words für Java 23.9 Versionshinweise](/words/java/aspose-words-for-java-23-9-release-notes/).
+Erfahren Sie mehr über [Aspose.Words für Java 23.9 Versionshinweise](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-9-release-notes/).
 
 Erfahren Sie mehr über [Aspose.Words für Java 23.10 Versionshinweise](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 

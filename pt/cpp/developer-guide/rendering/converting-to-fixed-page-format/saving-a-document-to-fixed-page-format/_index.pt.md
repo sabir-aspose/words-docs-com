@@ -1,4 +1,4 @@
----
+﻿---
 title: Salvando no formato de página fixa em C++
 second_title: Aspose.Words para C++
 articleTitle: Salvar um documento no formato de página Fixa
@@ -17,7 +17,7 @@ Ao salvar documentos em formatos de página fixa, as opções de renderização 
 - O número e o intervalo de páginas contidos no documento de saída([PageIndex](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pageset/), [PageCount](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pageset/)).
 - Progresso da gravação de documentos página a página ([PageSavingCallback](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pagesavingcallback/)).
 - Um conjunto de caracteres que são utilizados para a renderização de números ([NumeralFormat](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_numeralformat/)).
-- Um reprodutor de metarquivo ([MetafileRenderingOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_metafilerenderingoptions/)). Para mais detalhes, ver o [Manipulação De Windows Metarquivos](/words/cpp/handling-windows-metafiles/) artigo.
+- Um reprodutor de metarquivo ([MetafileRenderingOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_metafilerenderingoptions/)). Para mais detalhes, ver o [Manipulação De Windows Metarquivos](/words/pt/cpp/handling-windows-metafiles/) artigo.
 - Uma taxa de qualidade para recomprimir JPEG imagens, cujo valor pode diferir ligeiramente, dependendo do formato de gravação seleccionado ([JpegQuality](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_jpegquality/)).
 - Otimização de gráficos vetoriais em Aspose.Words saída ([OptimizeOutput](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_optimizeoutput/)).
 - Opções gráficas ao salvar nos formatos Tiff, Png, Bmp, Jpeg, Emf ([UseAntiAliasing](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_useantialiasing/), [UseHighQualityRendering](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_usehighqualityrendering/)).

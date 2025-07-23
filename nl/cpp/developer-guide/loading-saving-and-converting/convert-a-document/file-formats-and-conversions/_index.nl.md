@@ -29,7 +29,7 @@ Het volgende codevoorbeeld laat zien hoe u een document converteert:
 
 {{< gist "aspose-words-gists" "b9784b73e288805e08fba6e3fc5ae2af" "docx-to-pdf.h" >}}
 
-Voor meer informatie over het laden, converteren en opslaan van documenten, zie de [Laden, opslaan en converteren](/words/cpp/loading-saving-and-converting/) sectie.
+Voor meer informatie over het laden, converteren en opslaan van documenten, zie de [Laden, opslaan en converteren](/words/nl/cpp/loading-saving-and-converting/) sectie.
 
 ## High Fidelity
 

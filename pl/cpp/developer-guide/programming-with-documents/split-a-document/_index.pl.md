@@ -67,7 +67,7 @@ W tej sekcji opisano kilka przypadków użycia dzielenia dokumentów przez paged
 
 {{% alert color="primary" %}}
 
-Możesz użyć dowolnego [format wyjściowy obsługiwany przez Aspose.Words](/words/cpp/supported-document-formats/).
+Możesz użyć dowolnego [format wyjściowy obsługiwany przez Aspose.Words](/words/pl/cpp/supported-document-formats/).
 
 {{% /alert %}}
 

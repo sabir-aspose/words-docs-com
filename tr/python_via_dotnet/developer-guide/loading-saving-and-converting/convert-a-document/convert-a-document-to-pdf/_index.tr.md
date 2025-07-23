@@ -47,7 +47,7 @@ Aynı teknikle herhangi bir akış düzeni formatındaki belgeyi PDF formatına 
 
 ### Çeşitli PDF Standartlarına Dönüştürme {#convert-to-various-pdf-standards}
 
-Aspose.Words, DOC veya DOCX'in çeşitli PDF formatı standartlarına (PDF 1.7, PDF 1.5 vb. gibi) dönüştürülmesini desteklemek için [PdfCompliace](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) numaralandırması sağlar.
+Aspose.Words, DOC veya DOCX'in çeşitli PDF formatı standartlarına (PDF 1.7, PDF 1.5 vb. gibi) dönüştürülmesini desteklemek için [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) numaralandırması sağlar.
 
 Aşağıdaki kod örneği, [PDF17](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf17) uyumlu [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) kullanarak bir belgenin PDF 1.7'ye nasıl dönüştürüleceğini gösterir:
 
@@ -90,5 +90,5 @@ PDF'ye kaydederken çıktıyı optimize etmek isteyip istemediğinizi belirtebil
 ## Ayrıca bakınız
 
 - Sabit sayfa ve akış düzeni formatları hakkında daha fazla bilgi için [İşleme](/words/tr/python-net/rendering/) makalesi
-- Sayfa düzeni hakkında daha fazla bilgi için [Sabit Sayfa Formatına Dönüştürme](/words/python-net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) makalesi
+- Sayfa düzeni hakkında daha fazla bilgi için [Sabit Sayfa Formatına Dönüştürme](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) makalesi
 - [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) sınıfını kullanma hakkında daha fazla bilgi için [PDF'ye Dönüştürürken İşleme Seçeneklerini Belirtin](/words/tr/python-net/specify-rendering-options-when-converting-to-pdf/) makalesi

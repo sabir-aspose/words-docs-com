@@ -9,7 +9,7 @@ weight: 2
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2025-07-01-11-12-25
+timestamp: 2025-07-16-11-12-25
 ---
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
@@ -28,7 +28,7 @@ The ability to control how empty paragraphs are exported to Markdown has been in
 
 #### Export Multi-page Documents to Raster Image Formats <sup>25.6</sup>
 
-The ability to export multi-page documents to raster image formats (such as PNG and JPEG) with **customizable layouts** – Horizontal, Vertical, or Grid – has been introduced by extending image export functionality.
+The ability to export multi-page documents to raster image formats (such as PNG and JPEG) with [customizable layouts](https://reference.aspose.com/words/cpp/aspose.words.saving/multipagelayout/) – Horizontal, Vertical, or Grid – has been introduced by extending image export functionality.
 
 ### Rendering
 
@@ -440,7 +440,7 @@ The feature to recognize hyperlinks when loading TXT documents has been implemen
 
 {{% alert color="primary" %}}
 
-Learn more about [Aspose.Words for C++ 23.9 Release Notes](/words/cpp/aspose-words-for-cpp-23-9-release-notes/).
+Learn more about [Aspose.Words for C++ 23.9 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-9-release-notes/).
 Learn more about [Aspose.Words for C++ 23.10 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-10-release-notes/).
 Learn more about [Aspose.Words for C++ 23.11 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-11-release-notes/).
 Learn more about [Aspose.Words for C++ 23.12 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-12-release-notes/).
@@ -451,6 +451,6 @@ Learn more about [Aspose.Words for C++ 23.12 Release Notes](https://releases.asp
 
 {{% alert color="primary" %}}
 
-This page contains the latest release news for the past 2 years. For details on earlier releases, see the [Release Notes'](/words/cpp/release-notes/) pages in the relevant sections.
+This page contains the latest release news for the past 2 years. For details on earlier releases, see the [Release Notes'](https://releases.aspose.com/words/cpp/release-notes/) pages in the relevant sections.
 
 {{% /alert %}}

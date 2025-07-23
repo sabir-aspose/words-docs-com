@@ -1,4 +1,4 @@
----
+﻿---
 title: Skakel Word Na Excel in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Skakel'n Dokument Om Na Excel
@@ -44,5 +44,5 @@ Die volgende kode voorbeeld toon hoe om die kompressie vlak spesifiseer wanneer 
 
 ## Sien Ook
 
-- Dokumentasie afdeling [Beskerm of Enkripteer'n Dokument](/words/net/protect-or-encrypt-a-document/) vir meer inligting oor die beskerming en enkripsie van'n dokument
-- Die artikel [Vind en Vervang](/words/net/find-and-replace/) vir meer inligting oor die vind en vervanging van die inhoud wat u wil hê
+- Dokumentasie afdeling [Beskerm of Enkripteer'n Dokument](/words/af/net/protect-or-encrypt-a-document/) vir meer inligting oor die beskerming en enkripsie van'n dokument
+- Die artikel [Vind en Vervang](/words/af/net/find-and-replace/) vir meer inligting oor die vind en vervanging van die inhoud wat u wil hê

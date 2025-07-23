@@ -1,4 +1,4 @@
----
+﻿---
 title: Qu'est-ce qu'une mise en page en C++
 second_title: Aspose.Words pour C++
 articleTitle: Qu'est-ce qu'une mise en page
@@ -20,6 +20,6 @@ La relation entre un document et une mise en page est assez simple. Alors qu'un 
 
 ## Voir Aussi
 
-* [Création d'une mise en page](/words/cpp/creating-a-page-layout/)
-* [Enregistrement d'un document au format de page fixe](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Spécifier Les Options De Mise En Page](/words/cpp/specify-layout-options/)
+* [Création d'une mise en page](/words/fr/cpp/creating-a-page-layout/)
+* [Enregistrement d'un document au format de page fixe](/words/fr/cpp/saving-a-document-to-fixed-page-format/)
+* [Spécifier Les Options De Mise En Page](/words/fr/cpp/specify-layout-options/)

@@ -12,7 +12,7 @@ timestamp: 2024-10-21-11-17-44
 
 Chcete-li programově číst, manipulovat a upravovat obsah a formátování dokumentu, musíte jej přeložit do Aspose.Words objektového modelu dokumentu (DOM).
 
-Na rozdíl od Word dokumentů Markdown neodpovídá DOM popsanému v [Aspose.Words Model Objektu Dokumentu (DOM)](/words/cpp/aspose-words-document-object-model/) článek. Aspose.Words však poskytuje svůj vlastní mechanismus pro překlad dokumentů Markdown do DOM a zpět, abychom mohli úspěšně pracovat s jejich prvky, jako je formátování textu, tabulky, záhlaví a další.
+Na rozdíl od Word dokumentů Markdown neodpovídá DOM popsanému v [Aspose.Words Model Objektu Dokumentu (DOM)](/words/cs/cpp/aspose-words-document-object-model/) článek. Aspose.Words však poskytuje svůj vlastní mechanismus pro překlad dokumentů Markdown do DOM a zpět, abychom mohli úspěšně pracovat s jejich prvky, jako je formátování textu, tabulky, záhlaví a další.
 
 Tento článek vysvětluje, jak lze různé funkce markdown přeložit do Aspose.Words DOM a zpět do formátu Markdown.
 
@@ -105,5 +105,5 @@ Aspose.Words také umožňuje překládat tabulky do DOM, Jak je uvedeno níže:
 
 ## Vidět
 
-* [Práce s funkcemi Markdown ](/words/cpp/working-with-markdown-features/)
+* [Práce s funkcemi Markdown ](/words/cs/cpp/working-with-markdown-features/)
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: AI - funcții alimentate
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: AI - funcții alimentate
@@ -16,7 +16,7 @@ Aspose.Words include acum AI - funcții alimentate concepute pentru a face proce
 
 În această secțiune, vom acoperi tot ce trebuie să știți despre utilizarea funcțiilor AI acceptate în Aspose.Words. De la sfaturi practice la instrucțiuni detaliate, ne propunem să vă ajutăm să profitați la maximum de aceste îmbunătățiri.
 
-* [Modele Suportate AI ](/words/python-net/supported-ai-models/)
-* [Rezumați un Document](/words/python-net/summarize-a-document/)
-* [Traduceți un Document](/words/python-net/translate-a-document/)
-* [Verificarea Gramaticii](/words/python-net/grammar-checking/)
+* [Modele Suportate AI ](/words/ro/python-net/supported-ai-models/)
+* [Rezumați un Document](/words/ro/python-net/summarize-a-document/)
+* [Traduceți un Document](/words/ro/python-net/translate-a-document/)
+* [Verificarea Gramaticii](/words/ro/python-net/grammar-checking/)

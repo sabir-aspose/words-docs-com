@@ -85,7 +85,7 @@ Cette section décrit plusieurs cas d'utilisation de la division de documents pa
 
 {{% alert color="primary" %}}
 
-Vous pouvez utiliser n'importe quel [format de sortie pris en charge par Aspose.Words](/words/java/supported-document-formats/).
+Vous pouvez utiliser n'importe quel [format de sortie pris en charge par Aspose.Words](/words/fr/java/supported-document-formats/).
 
 {{% /alert %}}
 

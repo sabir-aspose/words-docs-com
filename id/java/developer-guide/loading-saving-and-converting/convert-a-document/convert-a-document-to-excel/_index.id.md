@@ -67,5 +67,5 @@ doc.save(getArtifactsDir() + "BaseConversions.CompressXlsx.xlsx", saveOptions);
 
 ## Lihat Juga
 
-- Bagian dokumentasi [Melindungi atau Mendokumentasikan Dokumen](/words/java/protect-or-encrypt-a-document/) untuk informasi selengkapnya tentang melindungi dan mengenkripsi dokumen
-- Artikel tersebut [Temuan dan Ganti](/words/java/find-and-replace/) untuk informasi selengkapnya selengkapnya tentang menemukan dan mengganti konten yang Anda inginkan
+- Bagian dokumentasi [Melindungi atau Mendokumentasikan Dokumen](/words/id/java/protect-or-encrypt-a-document/) untuk informasi selengkapnya tentang melindungi dan mengenkripsi dokumen
+- Artikel tersebut [Temuan dan Ganti](/words/id/java/find-and-replace/) untuk informasi selengkapnya selengkapnya tentang menemukan dan mengganti konten yang Anda inginkan

@@ -1,4 +1,4 @@
----
+﻿---
 title: FAQ
 second_title: Aspose.Words pentru Java
 articleTitle: FAQ
@@ -12,7 +12,7 @@ timestamp: 2024-01-31-14-23-37
 
 Această pagină conține răspunsuri la cele mai frecvente întrebări. Vă rugăm să aflați pagina curentă-poate că acest lucru vă va permite să vă rezolvați rapid problema.
 
-Dacă nu ați găsit răspunsul la întrebarea dvs., puteți întreba pe forumul de asistență. Pentru informații despre cum să raportați corect întrebarea sau problema dvs., consultați [Suport Tehnic](/words/java/technical-support/) pagina.
+Dacă nu ați găsit răspunsul la întrebarea dvs., puteți întreba pe forumul de asistență. Pentru informații despre cum să raportați corect întrebarea sau problema dvs., consultați [Suport Tehnic](/words/ro/java/technical-support/) pagina.
 
 {{% alert color="primary" %}}
 
@@ -32,7 +32,7 @@ Detalii pot fi găsite în documentația noastră.
 
 **Î: Ce înseamnă "Aspose.Words nu necesită aplicații terțe"?**
 
-Aspose.Words pentru Java nu este nevoie să instalați aplicații terțe sau pachete software suplimentare pentru a funcționa. Doar Descărcați și instalați Aspose.Words așa cum este descris în [Instalare](/words/java/installation/) articolul și începe.
+Aspose.Words pentru Java nu este nevoie să instalați aplicații terțe sau pachete software suplimentare pentru a funcționa. Doar Descărcați și instalați Aspose.Words așa cum este descris în [Instalare](/words/ro/java/installation/) articolul și începe.
 
 ------
 
@@ -40,7 +40,7 @@ Aspose.Words pentru Java nu este nevoie să instalați aplicații terțe sau pac
 
 Aspose.Words pentru Java acoperă majoritatea mediilor de dezvoltare populare și a platformelor de implementare. Its API poate fi folosit pentru a dezvolta aplicații pentru o gamă largă de sisteme de operare, cum ar fi Windows, Linux și Mac OS, și diverse platforme.
 
-Pentru detalii, consultați [Prezentare Generală A Produsului](/words/java/product-overview/) pagina și [Platforme și Interoperabilitate](/words/java/platforms-and-interoperability/) secțiunea.
+Pentru detalii, consultați [Prezentare Generală A Produsului](/words/ro/java/product-overview/) pagina și [Platforme și Interoperabilitate](/words/java/platforms-and-interoperability/) secțiunea.
 
 ------
 
@@ -48,7 +48,7 @@ Pentru detalii, consultați [Prezentare Generală A Produsului](/words/java/prod
 
 Aspose.Words pentru Java suportă majoritatea formatelor de documente populare, cum ar fi DOC, DOCX, HTML, Markdown, PDF, XML, și altele.
 
-Puteți vedea lista completă a formatelor acceptate pe [Formate De Documente Acceptate](/words/java/supported-document-formats/) pagina.
+Puteți vedea lista completă a formatelor acceptate pe [Formate De Documente Acceptate](/words/ro/java/supported-document-formats/) pagina.
 
 ------
 
@@ -56,7 +56,7 @@ Puteți vedea lista completă a formatelor acceptate pe [Formate De Documente Ac
 
 Puteți face acest lucru în două moduri – folosind versiunea de încercare sau o licență temporară de 30 de zile. Versiunea de încercare este aceeași cu cea achiziționată, oferă funcționalitate completă a produsului, dar adaugă un filigran evaluativ în partea de sus a documentului la încărcare și salvare și limitează dimensiunea maximă a documentului la câteva sute de paragrafe. O licență temporară vă permite să testați Aspose.Words fără restricții de încercare timp de 30 zile.
 
-Vezi [Licențiere și abonament](/words/java/licensing/) pagina pentru mai multe informații.
+Vezi [Licențiere și abonament](/words/ro/java/licensing/) pagina pentru mai multe informații.
 
 {{% alert color="primary" %}}
 
@@ -70,31 +70,31 @@ Puteți încerca, de asemenea, unele dintre cele mai populare Aspose.Words Carac
 
 Pentru a cumpăra o licență Aspose.Words, trebuie să mergeți la [Cumpărare](https://purchase.aspose.com/buy) selectați produsul "Aspose.Words " și tipul de licență care vi se potrivește. Apoi adăugați licența în coș și urmați instrucțiunile coșului de cumpărături.
 
-După cumpărare, solicitați licența așa cum este descris în [Licență Achiziționată](/words/java/licensing/#purchased-license) secțiunea.
+După cumpărare, solicitați licența așa cum este descris în [Licență Achiziționată](/words/ro/java/licensing/) secțiunea.
 
-Detalii despre cum se instalează Aspose.Words pot fi citite pe [Instalare](/words/java/installation/) pagina.
+Detalii despre cum se instalează Aspose.Words pot fi citite pe [Instalare](/words/ro/java/installation/) pagina.
 
 ------
 
 **Î: Cum pot obține sprijin?**
 
-Utilizați forumul gratuit de asistență tehnică. Pentru detalii despre cum să raportați corect o problemă și ce trebuie făcut înainte de a contacta forumul, consultați [Suport Tehnic](/words/java/technical-support/) pagina.
+Utilizați forumul gratuit de asistență tehnică. Pentru detalii despre cum să raportați corect o problemă și ce trebuie făcut înainte de a contacta forumul, consultați [Suport Tehnic](/words/ro/java/technical-support/) pagina.
 
 ## Redarea unui Document
 
 {{% alert color="primary" %}}
 
-Puteți găsi informații mai detaliate despre redare în [Redare](/words/java/rendering/) secțiunea Documentație.
+Puteți găsi informații mai detaliate despre redare în [Redare](/words/ro/java/rendering/) secțiunea Documentație.
 
 {{% /alert %}}
 
 **Î: De ce aspectul și fonturile din documentul de ieșire diferă de original?**
 
-Este posibil ca fontul să nu fie disponibil sau formatul fontului să fie acceptat de Microsoft Word, dar să nu fie acceptat de Aspose.Words. Aspose.Words va efectua [înlocuirea fontului](/words/java/manipulate-and-substitute-truetype-fonts/).
+Este posibil ca fontul să nu fie disponibil sau formatul fontului să fie acceptat de Microsoft Word, dar să nu fie acceptat de Aspose.Words. Aspose.Words va efectua [înlocuirea fontului](/words/ro/java/manipulate-and-substitute-truetype-fonts/).
 
 Pentru a verifica dacă fontul lipsește:
 
-- În Aspose.Words utilizați avertismentele de substituție a fontului (pentru detalii, consultați secțiunea" Cum să recunoașteți că fontul a fost înlocuit " din [Manipulați și înlocuiți fonturile TrueType ](/words/java/manipulate-and-substitute-truetype-fonts/) articol).
+- În Aspose.Words utilizați avertismentele de substituție a fontului (pentru detalii, consultați secțiunea" Cum să recunoașteți că fontul a fost înlocuit " din [Manipulați și înlocuiți fonturile TrueType ](/words/ro/java/manipulate-and-substitute-truetype-fonts/) articol).
 - În Microsoft Word deschideți caseta de dialog" Substituirea fontului " (Fișier Opțiuni de înlocuire a fontului).
 
 ------
@@ -121,7 +121,7 @@ Ba da, ai. Prin urmare, atunci când copiați fonturi, rețineți că majoritate
 
 {{% alert color="primary" %}}
 
-Puteți găsi informații mai detaliate despre Mail Merge în [Mail Merge și raportare](/words/java/mail-merge-and-reporting/) secțiunea Documentație.
+Puteți găsi informații mai detaliate despre Mail Merge în [Mail Merge și raportare](/words/ro/java/mail-merge-and-reporting/) secțiunea Documentație.
 
 {{% /alert %}}
 
@@ -145,7 +145,7 @@ Acest lucru se datorează faptului că regiunile de îmbinare din șablon nu sun
 Acest lucru se datorează faptului că relația dintre tabelele părinte și copil nu sunt configurate sau sunt configurate incorect. Este necesar să:
 
 - Asigurați integritatea datelor în **DataSet** și utilizați obiectul **DataRelation** pentru a reprezenta relația părinte-copil între tabelele de date conexe.
-- Verificați secțiunea "Cum se configurează relațiile de date în imbricate Mail Merge cu regiuni" din articol [Imbricate Mail Merge cu regiuni](/words/java/nested-mail-merge-with-regions/).
+- Verificați secțiunea "Cum se configurează relațiile de date în imbricate Mail Merge cu regiuni" din articol [Imbricate Mail Merge cu regiuni](/words/ro/java/nested-mail-merge-with-regions/).
 
 ------
 
@@ -159,7 +159,7 @@ Dezactivați constrângerile cheii străine atunci când creați un **DataRelati
 
 {{% alert color="primary" %}}
 
-Puteți găsi informații mai detaliate despre programarea cu documente în [Programare cu documente](/words/java/programming-with-documents/) secțiunea Documentație.
+Puteți găsi informații mai detaliate despre programarea cu documente în [Programare cu documente](/words/ro/java/programming-with-documents/) secțiunea Documentație.
 
 {{% /alert %}}
 
@@ -171,7 +171,7 @@ Rezultatul append apare pe o pagină separată din cauza unei diferențe în set
 
 {{% alert color="primary" %}}
 
-Puteți găsi informații mai detaliate despre conversia unui document în [Conversia unui Document](/words/java/convert-a-document/) secțiunea Documentație.
+Puteți găsi informații mai detaliate despre conversia unui document în [Conversia unui Document](/words/ro/java/convert-a-document/) secțiunea Documentație.
 
 {{% /alert %}}
 
@@ -193,7 +193,7 @@ doc.save(dataDir + "output.pdf", SaveFormat.Pdf);
 
 {{% alert color="primary" %}}
 
-Puteți găsi informații mai detaliate despre programarea cu documente în [Programare cu documente](/words/java/programming-with-documents/) secțiunea Documentație.
+Puteți găsi informații mai detaliate despre programarea cu documente în [Programare cu documente](/words/ro/java/programming-with-documents/) secțiunea Documentație.
 
 {{% /alert %}}
 
@@ -253,4 +253,4 @@ catch (Exception e)
 
 **Î: Cum se imprimă un document?**
 
-Pentru un răspuns detaliat, aflați articolul [Imprimarea unui Document programatic sau folosind Dialoguri](/words/java/print-a-document-programmatically-or-using-dialogs/).
+Pentru un răspuns detaliat, aflați articolul [Imprimarea unui Document programatic sau folosind Dialoguri](/words/ro/java/print-a-document-programmatically-or-using-dialogs/).

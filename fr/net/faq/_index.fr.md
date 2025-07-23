@@ -1,4 +1,4 @@
----
+﻿---
 title: FAQ
 second_title: Aspose.Words pour .NET
 articleTitle: FAQ – Aspose.Words pour .NET
@@ -72,7 +72,7 @@ Vous pouvez également essayer certaines des fonctionnalités Aspose.Words les p
 
 Pour acheter une licence Aspose.Words, vous devez vous rendre sur la page [Achat](https://purchase.aspose.com/buy), sélectionner le produit "Aspose.Words" et le type de licence qui vous convient. Ajoutez ensuite la licence à votre panier et suivez les instructions du panier.
 
-Après l'achat, demandez la licence comme décrit dans la section [Licence achetée](/words/net/licensing/#purchased-license).
+Après l'achat, demandez la licence comme décrit dans la section [Licence achetée](/words/fr/net/licensing/).
 
 Les détails sur la façon d'installer Aspose.Words peuvent être lus sur la page [Installation](/words/fr/net/installation/).
 
@@ -129,7 +129,7 @@ Oui, c'est vrai. Par conséquent, lorsque vous copiez des polices, gardez à l�
 
 {{% alert color="primary" %}}
 
-Vous pouvez trouver des informations plus détaillées sur Mail Merge dans la section Documentation [Mail Merge et rapports](/words/net/mail-merge-and-reporting/).
+Vous pouvez trouver des informations plus détaillées sur Mail Merge dans la section Documentation [Mail Merge et rapports](/words/fr/net/mail-merge-and-reporting/).
 
 {{% /alert %}}
 
@@ -153,7 +153,7 @@ En effet, les régions de fusion dans le modèle ne sont pas correctement formé
 Cela est dû au fait que les relations entre les tables parent et enfant ne sont pas configurées ou sont mal configurées. Il est nécessaire de:
 
 * Assurez l'intégrité des données dans votre **DataSet** et utilisez l'objet **DataRelation** pour représenter la relation parent-enfant entre les tables de données associées.
-* Consultez la section "Comment configurer des relations de données dans un Mail Merge imbriqué avec des régions" dans l'article [Mail Merge imbriqué avec régions](/words/net/nested-mail-merge-with-regions/).
+* Consultez la section "Comment configurer des relations de données dans un Mail Merge imbriqué avec des régions" dans l'article [Mail Merge imbriqué avec régions](/words/fr/net/nested-mail-merge-with-regions/).
 
 ------
 

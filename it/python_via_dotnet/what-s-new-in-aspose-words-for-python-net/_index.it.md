@@ -546,13 +546,13 @@ Sono stati aggiunti nuovi metodi LowCode destinati a unire diversi tipi di docum
 
 {{% alert color="primary" %}}
 
-Scopri di più su [Aspose.Wordsper Python via .NET 23.5 Note di rilascio](/words/python-net/aspose-words-for-python-via-dotnet-23-5-release-notes/).
+Scopri di più su [Aspose.Wordsper Python via .NET 23.5 Note di rilascio](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-5-release-notes/).
 
-Scopri di più su [Aspose.Wordsper Python via .NET 23.6 Note di rilascio](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
+Scopri di più su [Aspose.Wordsper Python via .NET 23.6 Note di rilascio](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
 Scopri di più su [Aspose.Wordsper Python via .NET 23.7 Note di rilascio](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
-Scopri di più su [Aspose.Wordsper Python via .NET 23.8 Note di rilascio](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
+Scopri di più su [Aspose.Wordsper Python via .NET 23.8 Note di rilascio](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
 {{% /alert %}}
 

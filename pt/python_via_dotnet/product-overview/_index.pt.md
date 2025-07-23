@@ -1,4 +1,4 @@
----
+﻿---
 title: Resumo do Produto
 second_title: Aspose.Words para Python via .NET
 articleTitle: Resumo do Produto
@@ -56,7 +56,7 @@ Você pode converter documentos inteiros ou páginas específicas em PDF ou XPS 
 
 #### Comunicando
 
-Gere documentos ou relatórios do zero ou preenchendo modelos com dados de fontes de dados ou objetos de negócios. Para obter mais informações sobre relatórios e busca de dados de bancos de dados, consulte as seções [Mail Merge e relatórios](/words/python-net/mail-merge-and-reporting/) e [Mecanismo de relatórios LINQ](/words/python-net/linq-reporting-engine/).
+Gere documentos ou relatórios do zero ou preenchendo modelos com dados de fontes de dados ou objetos de negócios. Para obter mais informações sobre relatórios e busca de dados de bancos de dados, consulte as seções [Mail Merge e relatórios](/words/pt/python-net/mail-merge-and-reporting/) e [Mecanismo de relatórios LINQ](/words/python-net/linq-reporting-engine/).
 
 ### Independência de plataforma
 

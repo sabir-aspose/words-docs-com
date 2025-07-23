@@ -1,4 +1,4 @@
----
+﻿---
 title: Conversia în format de pagină fixă în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Conversia în format de pagină fixă
@@ -28,7 +28,7 @@ Microsoft Word este cea mai avansată aplicație de editare a textului din Windo
 
 ## Vezi Și
 
-* [Ce este un aspect de pagină](/words/cpp/what-is-a-page-layout/)
-* [Crearea unui aspect de pagină](/words/cpp/creating-a-page-layout/)
-* [Salvarea unui Document în format de pagină fixă](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Specificați Opțiunile De Aspect](/words/cpp/specify-layout-options/)
+* [Ce este un aspect de pagină](/words/ro/cpp/what-is-a-page-layout/)
+* [Crearea unui aspect de pagină](/words/ro/cpp/creating-a-page-layout/)
+* [Salvarea unui Document în format de pagină fixă](/words/ro/cpp/saving-a-document-to-fixed-page-format/)
+* [Specificați Opțiunile De Aspect](/words/ro/cpp/specify-layout-options/)

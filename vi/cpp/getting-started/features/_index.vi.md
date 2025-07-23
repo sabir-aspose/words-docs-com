@@ -1,4 +1,4 @@
----
+﻿---
 title: Tính năng
 second_title: Aspose.Words cho C++
 articleTitle: Các Tính Năng Được Hỗ Trợ
@@ -37,7 +37,7 @@ Aspose.Words cung cấp cho người dùng một loạt các tính năng. Ngư�
 
 ## Giới hạn
 
-- Hỗ trợ bộ định dạng tệp giới hạn (*see [Supported Document Formats](/words/cpp/supported-document-formats/) for details*)
+- Hỗ trợ bộ định dạng tệp giới hạn (*see [Supported Document Formats](/words/vi/cpp/supported-document-formats/) for details*)
 - Không hỗ trợ cho các tài liệu được mã hóa
 - Không hỗ trợ tải xuống tài nguyên từ Xa Từ Internet
 - Hỗ trợ hạn chế và không ổn định cho Các tính năng Kết Xuất

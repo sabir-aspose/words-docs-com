@@ -82,5 +82,5 @@ Použití **OptimizeOutput** vlastnost může ovlivnit přesnost zobrazení obsa
 ## Viz také
 
 - Ten článek. [Renderování](/words/cs/java/rendering/) pro více informací o formátech pevných stránek a průtoků
-- Ten článek. [Převod na stránky](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) pro více informací o rozložení stránky
+- Ten článek. [Převod na stránky](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) pro více informací o rozložení stránky
 - Ten článek. [Upřesnit možnosti denderování při převodu do PDF](/words/cs/java/specify-rendering-options-when-converting-to-pdf/) pro více informací o použití `PdfSaveOptions` třída

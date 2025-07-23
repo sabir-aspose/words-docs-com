@@ -1,4 +1,4 @@
----
+﻿---
 title: Cách Tạo Bảng trong Java
 second_title: Aspose.Words cho Java
 articleTitle: Tạo một Bảng
@@ -123,7 +123,7 @@ Bạn có thể tải xuống tệp mẫu của ví dụ này từ [Aspose.Words
 
 {{% /alert %}}
 
-Nếu bạn đang tìm kiếm để tạo bảng trong một tài liệu mà phát triển động với mỗi bản ghi từ nguồn dữ liệu của bạn, sau đó phương pháp trên không được khuyến nghị. Thay vào đó, đầu ra mong muốn dễ dàng đạt được bằng cách sử dụng Mail merge với vùng. Bạn có thể tìm hiểu thêm về kỹ thuật này ở mục [Mail Merge with Regions](/words/java/types-of-mail-merge-operations/).
+Nếu bạn đang tìm kiếm để tạo bảng trong một tài liệu mà phát triển động với mỗi bản ghi từ nguồn dữ liệu của bạn, sau đó phương pháp trên không được khuyến nghị. Thay vào đó, đầu ra mong muốn dễ dàng đạt được bằng cách sử dụng Mail merge với vùng. Bạn có thể tìm hiểu thêm về kỹ thuật này ở mục [Mail Merge with Regions](/words/vi/java/types-of-mail-merge-operations/).
 
 ## So sánh Cách Tạo Bảng
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Insert Fields in Java
 second_title: Aspose.Words için Java
 articleTitle: Insert Fields
@@ -14,7 +14,7 @@ Bir belgeye alanlar eklemek için farklı birkaç yol vardır:''
 
 - [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) kullanıyor
 – [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/) kullanıyor
-- kullanmak [Aspose.Words Document Object Model (DOM)](/words/java/aspose-words-document-object-model/)
+- kullanmak [Aspose.Words Document Object Model (DOM)](/words/tr/java/aspose-words-document-object-model/)
 
 Bu makale içinde her bir yolu daha detaylı inceleyip bu seçenekleri kullanarak belirli alanları nasıl ekleyeceğimizi analiz edeceğiz.
 
@@ -80,7 +80,7 @@ Aşağıdaki kod örneği bir belgeye alan eklemek için **FieldBuilder** kullan
 
 ## Alanları DOM kullanarak ekleme yapın
 
-Ayrıca çeşitli türde alanları [Aspose.Words Document Object Model (DOM)](/words/java/aspose-words-document-object-model/) kullanarak ekleyebilirsiniz. Bu bölümde, birkaç örneğe göz atacağız.
+Ayrıca çeşitli türde alanları [Aspose.Words Document Object Model (DOM)](/words/tr/java/aspose-words-document-object-model/) kullanarak ekleyebilirsiniz. Bu bölümde, birkaç örneğe göz atacağız.
 
 ### Bir Belgeye DOM kullanarak Birleştirme Alanı Ekleme
 

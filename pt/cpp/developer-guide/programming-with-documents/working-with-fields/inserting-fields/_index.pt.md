@@ -1,4 +1,4 @@
----
+﻿---
 title: Inserir Campos em C++
 second_title: Aspose.Words para C++
 articleTitle: Inserir Campos
@@ -14,7 +14,7 @@ Existem várias maneiras diferentes de inserir campos em um documento:
 
 - usando [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/)
 - usando [FieldBuilder](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldbuilder/)
-- utilização [Aspose.Words Modelo De Objecto Do Documento (DOM)](/words/cpp/aspose-words-document-object-model/)
+- utilização [Aspose.Words Modelo De Objecto Do Documento (DOM)](/words/pt/cpp/aspose-words-document-object-model/)
 
 Neste artigo, examinaremos cada forma com mais detalhes e analisaremos como inserir determinados campos usando essas opções.
 
@@ -64,7 +64,7 @@ O exemplo de código a seguir mostra como inserir um campo em um documento usand
 
 ## Inserir Campos utilizando DOM
 
-Você também pode inserir vários tipos de campos usando [Aspose.Words Modelo De Objecto Do Documento (DOM)](/words/cpp/aspose-words-document-object-model/). Nesta secção, veremos alguns exemplos.
+Você também pode inserir vários tipos de campos usando [Aspose.Words Modelo De Objecto Do Documento (DOM)](/words/pt/cpp/aspose-words-document-object-model/). Nesta secção, veremos alguns exemplos.
 
 ### Inserindo o campo de mesclagem em um documento usando DOM
 

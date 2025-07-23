@@ -1,4 +1,4 @@
----
+﻿---
 title: 在C#中使用Section
 second_title: Aspose.Words 对于 .NET
 articleTitle: 與分節一起工作
@@ -38,7 +38,7 @@ Aspose.Words 讓您可以透過不同的[BreakType](https://reference.aspose.com
 
 ## 管理一個節
 
-由於一個節點是一個普通的複合節點，因此整個節點操作 API 可以用於對節點進行操作：添加、刪除和其他對節點的操作。 您可以在文章 [Aspose.Words Document Object Model (DOM)](/words/net/aspose-words-document-object-model/) 中瞭解更多有關節點的信息。
+由於一個節點是一個普通的複合節點，因此整個節點操作 API 可以用於對節點進行操作：添加、刪除和其他對節點的操作。 您可以在文章 [Aspose.Words Document Object Model (DOM)](/words/zh-hant/net/aspose-words-document-object-model/) 中瞭解更多有關節點的信息。
 
 另一方面，你也可以利用 `DocumentBuilder` API 來工作。 在本文中，我們將專注於這一特殊的工作方式。
 
@@ -155,5 +155,5 @@ Aspose.Words 允許您透過 [PageSetup](https://reference.aspose.com/words/net/
 ## 另看：
 
 * [Logical Levels of Nodes in a Document](/words/net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
-* [Insert and Append Documents](/words/net/insert-and-append-documents/)
+* [Insert and Append Documents](/words/zh-hant/net/insert-and-append-documents/)
 

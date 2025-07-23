@@ -1,4 +1,4 @@
----
+﻿---
 title: Програмиране с документи
 second_title: Aspose.Words вместо Python via .NET
 articleTitle: Програмиране с документи
@@ -51,11 +51,11 @@ timestamp: 2024-09-25-11-08-55
 - [Работа с OfficeMath](/words/bg/python-net/working-with-officemath/)
 - [Работа с Smart Art Cold Rendering](/words/bg/python-net/working-with-smartart-cold-rendering/)
 - [Работа с воден знак](/words/bg/python-net/working-with-watermark/)
-- [Работа с Оле обекти и онлайн видео](/words/python-net/working-with-ole-objects/)
+- [Работа с Оле обекти и онлайн видео](/words/bg/python-net/working-with-ole-objects/)
 - [Работа със полета](/words/bg/python-net/working-with-fields/)
 - [Работа с полета за форма](/words/bg/python-net/working-with-form-fields/)
 - [Работа с контрол на съдържанието SDT](/words/bg/python-net/working-with-content-control-sdt/)
 - [Работа с контролни знаци](/words/bg/python-net/working-with-control-characters/)
 - [Работа с VBA Macros](/words/bg/python-net/working-with-vba-macros/)
 - [Работа с Markdown Характеристики](/words/bg/python-net/working-with-markdown-features/)
-- [Работа с текстов документ](/words/python-net/working-with-text-document/)
+- [Работа с текстов документ](/words/bg/python-net/working-with-text-document/)

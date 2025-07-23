@@ -47,7 +47,7 @@ timestamp: 2024-01-31-14-23-37
 
 ### המרת PDF שונה סטנדרטים {#converting-to-various-pdf-standards}
 
-Aspose.Words מספק [PdfCompliace](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)תמיכה בהמרה של DOC או DOCX לסטנדרטים שונים של פורמט PDF (כגון PDF1.7, PDF וכו ').
+Aspose.Words מספק [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)תמיכה בהמרה של DOC או DOCX לסטנדרטים שונים של פורמט PDF (כגון PDF1.7, PDF וכו ').
 
 הדוגמה הבאה של הקוד מראה כיצד להמיר מסמך ל- PDF1.7 באמצעות שימוש ב- PDF [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) בהתאם ל- PDF17:
 
@@ -82,5 +82,5 @@ Aspose.Words מספק [PdfCompliace](https://reference.aspose.com/words/java/com
 ## ראה גם
 
 - המאמר [Rendering](/words/he/java/rendering/) לקבלת מידע נוסף על פורמטים קבועים של דף וזרימה
-- המאמר [המרת פורמט קבוע-עמוד](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) למידע נוסף על פריסת הדף
+- המאמר [המרת פורמט קבוע-עמוד](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) למידע נוסף על פריסת הדף
 - המאמר [תגית: PDF](/words/he/java/specify-rendering-options-when-converting-to-pdf/) למידע נוסף על השימוש `PdfSaveOptions` הכיתה

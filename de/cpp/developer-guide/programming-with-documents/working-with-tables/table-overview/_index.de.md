@@ -1,4 +1,4 @@
----
+﻿---
 title: Tabellenübersicht
 second_title: Aspose.Words für C++
 articleTitle: Tabellenübersicht
@@ -65,5 +65,5 @@ In Aspose.Words sind alle Klassen und Eigenschaften, die sich auf Tabellen bezie
 
 ## Siehe auch
 
-* [Aspose.Words Dokumentobjektmodell (DOM)](/words/cpp/aspose-words-document-object-model/)
-* [Logische Ebenen von Knoten in einem Dokument](/words/cpp/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Dokumentobjektmodell (DOM)](/words/de/cpp/aspose-words-document-object-model/)
+* [Logische Ebenen von Knoten in einem Dokument](/words/de/cpp/logical-levels-of-nodes-in-a-document/)

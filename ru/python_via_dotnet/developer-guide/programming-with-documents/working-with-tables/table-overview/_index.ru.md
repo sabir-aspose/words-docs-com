@@ -65,5 +65,5 @@ Aspose.Words - это библиотека классов, предназнач�
 
 ## Смотрите также
 
-* [Aspose.Words Объектная модель документа (DOM)](/words/python-net/aspose-words-document-object-model/)
-* [Логические уровни узлов в документе](/words/python-net/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Объектная модель документа (DOM)](/words/ru/python-net/aspose-words-document-object-model/)
+* [Логические уровни узлов в документе](/words/ru/python-net/logical-levels-of-nodes-in-a-document/)

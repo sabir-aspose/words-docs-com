@@ -1,4 +1,4 @@
----
+﻿---
 title: التلاعب واستبدال TrueType الخطوط في C++
 second_title: Aspose.Words ل C++
 articleTitle: التلاعب واستبدال TrueType الخطوط
@@ -21,7 +21,7 @@ Aspose.Words يتطلب TrueType خطوط لمجموعة متنوعة من ال�
 
 ## حيث Aspose.Words يبحث عن الخطوط
 
-Aspose.Words محاولات للعثور على TrueType الخطوط على نظام الملفات تلقائيا. عادة، يمكنك الاعتماد على السلوك الافتراضي Aspose.Words للعثور على `TrueType` الخطوط، ولكن في بعض الأحيان تحتاج إلى تحديد المجلدات الخاصة بك التي تحتوي على TrueType الخطوط. ال [حدد TrueType موقع الخطوط](/words/cpp/specify-truetype-fonts-location/) يصف الموضوع كيف وأين Aspose.Words يبحث عن الخطوط، وكذلك كيفية تحديد مواقع الخطوط الخاصة بك.
+Aspose.Words محاولات للعثور على TrueType الخطوط على نظام الملفات تلقائيا. عادة، يمكنك الاعتماد على السلوك الافتراضي Aspose.Words للعثور على `TrueType` الخطوط، ولكن في بعض الأحيان تحتاج إلى تحديد المجلدات الخاصة بك التي تحتوي على TrueType الخطوط. ال [حدد TrueType موقع الخطوط](/words/ar/cpp/specify-truetype-fonts-location/) يصف الموضوع كيف وأين Aspose.Words يبحث عن الخطوط، وكذلك كيفية تحديد مواقع الخطوط الخاصة بك.
 
 ## الاختلافات في معالجة تنسيقات الخطوط في Aspose.Words و Microsoft Word
 

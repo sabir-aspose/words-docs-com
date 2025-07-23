@@ -27,7 +27,7 @@ A implementação do recurso Markdown segue principalmente a especificação `Co
 
 {{% alert color="primary" %}}
 
-Existem nuances de traduzir Markdown para o modelo de objeto de Documento Aspose.Words (DOM), descrito no artigo [Traduzir Markdown para Document Object Model (DOM)](/words/java/translate-markdown-to-document-object-model/).
+Existem nuances de traduzir Markdown para o modelo de objeto de Documento Aspose.Words (DOM), descrito no artigo [Traduzir Markdown para Document Object Model (DOM)](/words/pt/java/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

@@ -61,5 +61,5 @@ doc->Save(ArtifactsDir + u"BaseConversions.CompressXlsx.xlsx", saveOptions);
 
 ## ראה גם
 
-- סעיף תיעוד [הגנה או הצפנה של מסמך](/words/cpp/protect-or-encrypt-a-document/) למידע נוסף על הגנה והצפנה של מסמך
-- המאמר [מצא והחלף](/words/cpp/find-and-replace/) לקבלת מידע נוסף על מציאת והחלפת התוכן הרצוי
+- סעיף תיעוד [הגנה או הצפנה של מסמך](/words/he/cpp/protect-or-encrypt-a-document/) למידע נוסף על הגנה והצפנה של מסמך
+- המאמר [מצא והחלף](/words/he/cpp/find-and-replace/) לקבלת מידע נוסף על מציאת והחלפת התוכן הרצוי

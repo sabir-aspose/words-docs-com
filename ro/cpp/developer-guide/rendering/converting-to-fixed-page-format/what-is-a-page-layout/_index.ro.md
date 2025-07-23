@@ -1,4 +1,4 @@
----
+﻿---
 title: Ce este un aspect de pagină în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Ce este un aspect de pagină
@@ -20,6 +20,6 @@ Relația dintre un document și un aspect de pagină este destul de simplă. În
 
 ## Vezi Și
 
-* [Crearea unui aspect de pagină](/words/cpp/creating-a-page-layout/)
-* [Salvarea unui Document în format de pagină fixă](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Specificați Opțiunile De Aspect](/words/cpp/specify-layout-options/)
+* [Crearea unui aspect de pagină](/words/ro/cpp/creating-a-page-layout/)
+* [Salvarea unui Document în format de pagină fixă](/words/ro/cpp/saving-a-document-to-fixed-page-format/)
+* [Specificați Opțiunile De Aspect](/words/ro/cpp/specify-layout-options/)

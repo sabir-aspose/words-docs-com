@@ -1,4 +1,4 @@
----
+﻿---
 title: Jak tworzyć kody kreskowe
 second_title: Aspose.Words dla .NET
 articleTitle: Generuj obraz niestandardowego kodu kreskowego
@@ -55,7 +55,7 @@ Możesz też zapisać dokument z załadowanym lub nowo wstawionym kodem kreskowy
 
 {{% alert color="primary" %}}
 
-Aby uzyskać więcej informacji na temat konwersji dokumentów z jednego formatu na inny, zobacz sekcję dokumentacji [Convert a Document](/words/net/convert-a-document/).
+Aby uzyskać więcej informacji na temat konwersji dokumentów z jednego formatu na inny, zobacz sekcję dokumentacji [Convert a Document](/words/pl/net/convert-a-document/).
 
 {{% /alert %}}
 

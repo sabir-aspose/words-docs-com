@@ -38,7 +38,7 @@ Aspose.Words מאפשר לך לפצל ולעצב מסמכים באמצעות מ�
 
 ## ניהול קטע
 
-מאחר שחלק הוא צומת מורכב רגיל, ניתן להשתמש בכל מניפולציה של הצומת API כדי לתמרן חלקים: להוסיף, להסיר ופעולות אחרות בחלקים. אתה יכול לקרוא עוד על צמתים במאמר [Aspose.Words מודל אובייקט מסמך (DOM)](/words/cpp/aspose-words-document-object-model/).
+מאחר שחלק הוא צומת מורכב רגיל, ניתן להשתמש בכל מניפולציה של הצומת API כדי לתמרן חלקים: להוסיף, להסיר ופעולות אחרות בחלקים. אתה יכול לקרוא עוד על צמתים במאמר [Aspose.Words מודל אובייקט מסמך (DOM)](/words/he/cpp/aspose-words-document-object-model/).
 
 מצד שני, אתה יכול גם להשתמש ב `DocumentBuilder` API לעבוד עם קטעים. במאמר זה, נתמקד בדרך מסוימת זו של עבודה עם חלקים.
 
@@ -154,5 +154,5 @@ Aspose.Words מאפשר לך להתאים אישית את מאפייני הדף 
 
 ## ראה גם
 
-- [רמות לוגיות של צמתים במסמך](/words/cpp/logical-levels-of-nodes-in-a-document/)
-- [הכנס וצרף מסמכים](/words/cpp/insert-and-append-documents/)
+- [רמות לוגיות של צמתים במסמך](/words/he/cpp/logical-levels-of-nodes-in-a-document/)
+- [הכנס וצרף מסמכים](/words/he/cpp/insert-and-append-documents/)

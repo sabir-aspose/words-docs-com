@@ -47,7 +47,7 @@ timestamp: 2024-01-31-14-23-37
 
 ### แปลงเป็น PDF มาตรฐาน {#convert-to-various-pdf-standards} ต่างๆ
 
-Aspose.Words จัดเตรียมการแจงนับ [PdfCompliace](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) เพื่อรองรับการแปลง DOC หรือ DOCX ไปเป็นมาตรฐานรูปแบบ PDF ต่างๆ (เช่น PDF 1.7, PDF 1.5 เป็นต้น)
+Aspose.Words จัดเตรียมการแจงนับ [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) เพื่อรองรับการแปลง DOC หรือ DOCX ไปเป็นมาตรฐานรูปแบบ PDF ต่างๆ (เช่น PDF 1.7, PDF 1.5 เป็นต้น)
 
 ตัวอย่างโค้ดต่อไปนี้สาธิตวิธีการแปลงเอกสารเป็น PDF 1.7 โดยใช้ [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) โดยสอดคล้องกับ [PDF17](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf17):
 
@@ -90,5 +90,5 @@ Aspose.Words จัดเตรียมการแจงนับ [PdfCompliac
 ## ดูสิ่งนี้ด้วย
 
 - บทความ [กำลังแสดงผล](/words/th/python-net/rendering/) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับรูปแบบหน้าคงที่และรูปแบบโฟลว์เลย์เอาต์
-- บทความ [การแปลงเป็นรูปแบบหน้าตายตัว](/words/python-net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับเค้าโครงหน้า
+- บทความ [การแปลงเป็นรูปแบบหน้าตายตัว](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับเค้าโครงหน้า
 - บทความ [ระบุตัวเลือกการเรนเดอร์เมื่อแปลงเป็น PDF](/words/th/python-net/specify-rendering-options-when-converting-to-pdf/) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการใช้คลาส [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/)

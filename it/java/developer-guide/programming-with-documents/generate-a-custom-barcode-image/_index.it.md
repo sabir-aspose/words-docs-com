@@ -55,7 +55,7 @@ Di seguito è riportato un generatore di codice di esempio che utilizza Aspose.W
 
 {{% alert color="primary" %}}
 
-Per ulteriori informazioni sulla conversione di documenti da un formato a un altro, vedere [Convertire un documento](/words/java/convert-a-document/) sezione documentazione.
+Per ulteriori informazioni sulla conversione di documenti da un formato a un altro, vedere [Convertire un documento](/words/it/java/convert-a-document/) sezione documentazione.
 
 {{% /alert %}}
 

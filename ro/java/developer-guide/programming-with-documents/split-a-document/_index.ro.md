@@ -1,4 +1,4 @@
----
+﻿---
 title: Împărțiți un Document în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Împărțiți un Document
@@ -85,7 +85,7 @@ Această secțiune descrie mai multe cazuri de utilizare a împărțirii documen
 
 {{% alert color="primary" %}}
 
-Puteți folosi orice [formatul de ieșire acceptat de Aspose.Words](/words/java/supported-document-formats/).
+Puteți folosi orice [formatul de ieșire acceptat de Aspose.Words](/words/ro/java/supported-document-formats/).
 
 {{% /alert %}}
 

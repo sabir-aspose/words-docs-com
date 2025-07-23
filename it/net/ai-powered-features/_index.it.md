@@ -1,4 +1,4 @@
----
+﻿---
 title: AI-Funzioni alimentate
 second_title: Aspose.Wordsper .NET
 articleTitle: AI-Funzioni alimentate
@@ -16,7 +16,7 @@ Aspose.Words ora include funzionalità basate su AI progettate per rendere l'ela
 
 In questa sezione, tratteremo tutto ciò che è necessario sapere sull'utilizzo delle funzionalità AI supportate in Aspose.Words. Dai consigli pratici alle istruzioni dettagliate, il nostro obiettivo è aiutarti a sfruttare al meglio questi miglioramenti.
 
-* [Modelli supportati AI](/words/net/supported-ai-models/)
-* [Riassumere un documento](/words/net/summarize-a-document/)
-* [Tradurre un documento](/words/net/translate-a-document/)
-* [Controllo grammaticale](/words/net/grammar-checking/)
+* [Modelli supportati AI](/words/it/net/supported-ai-models/)
+* [Riassumere un documento](/words/it/net/summarize-a-document/)
+* [Tradurre un documento](/words/it/net/translate-a-document/)
+* [Controllo grammaticale](/words/it/net/grammar-checking/)

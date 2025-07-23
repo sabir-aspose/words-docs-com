@@ -42,10 +42,10 @@ Experimentos com milhares de documentos reais mostram que normalmente Aspose.Wor
 
 Operações mais complexas, como renderização (conversão para formatos de página fixa), atualização de campos, divisão de página e outras, para alguns documentos requerem 20 vezes mais recursos do que a memória alocada pelo documento carregado em Aspose.Words DOM.
 
-Se os resultados do seu perfil indicarem um possível problema de memória em Aspose.Words, contacte o nosso [Equipa De Apoio](/words/java/technical-support/) e incluir todas as informações de diagnóstico.
+Se os resultados do seu perfil indicarem um possível problema de memória em Aspose.Words, contacte o nosso [Equipa De Apoio](/words/pt/java/technical-support/) e incluir todas as informações de diagnóstico.
 
 ## Ver Também
 
-* [Renderiza3](/words/java/rendering/)
-* [Mail Merge e relações](/words/java/mail-merge-and-reporting/)
-* [Trabalhar com campos](/words/java/working-with-fields/)
+* [Renderiza3](/words/pt/java/rendering/)
+* [Mail Merge e relações](/words/pt/java/mail-merge-and-reporting/)
+* [Trabalhar com campos](/words/pt/java/working-with-fields/)

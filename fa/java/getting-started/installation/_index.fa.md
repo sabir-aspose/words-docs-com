@@ -10,7 +10,7 @@ url: /fa/java/installation/
 timestamp: 2024-01-27-14-07-04
 ---
 
-مطمئن شو که ماشينت با [الزامات سیستم](/words/java/system-requirements/) قبل از شروع
+مطمئن شو که ماشينت با [الزامات سیستم](/words/fa/java/system-requirements/) قبل از شروع
 
 این مقاله توضیح می دهد که چگونه Aspose.Words برای Java را در کامپیوتر خود نصب کنید.
 

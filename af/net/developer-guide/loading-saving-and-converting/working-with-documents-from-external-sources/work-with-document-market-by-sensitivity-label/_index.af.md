@@ -1,4 +1,4 @@
----
+﻿---
 title: Werk met'n Dokument Gemerk met'n Sensitiwiteitsetiket
 second_title: Aspose.Words vir .NET
 articleTitle: Werk met'n Dokument Gemerk met'n Sensitiwiteitsetiket
@@ -419,4 +419,4 @@ As gevolg hiervan, moet die uitset lêer geskep word met toegepas "Vertroulik.Al
 
 ## Sien Ook
 
-- Die artikel [Werk Met'n Dokument Gestoor In'n `SharePoint` Aanlyn](/words/net/work-with-document-stored-in-sharepoint/)
+- Die artikel [Werk Met'n Dokument Gestoor In'n `SharePoint` Aanlyn](/words/af/net/work-with-document-stored-in-sharepoint/)

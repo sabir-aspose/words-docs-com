@@ -42,10 +42,10 @@ Des expériences avec des milliers de documents réels montrent que généraleme
 
 Des opérations plus complexes comme le rendu (conversion vers des formats de page fixes), la mise à jour des champs, le fractionnement de page, etc., pour certains documents nécessitent 20 fois plus de ressources que la mémoire allouée par le document chargé dans Aspose.Words DOM.
 
-Si les résultats de votre profilage indiquent un possible problème de mémoire dans Aspose.Words, veuillez contacter notre [Équipe de Soutien](/words/java/technical-support/) et incluez toutes les informations de diagnostic.
+Si les résultats de votre profilage indiquent un possible problème de mémoire dans Aspose.Words, veuillez contacter notre [Équipe de Soutien](/words/fr/java/technical-support/) et incluez toutes les informations de diagnostic.
 
 ## Voir Aussi
 
-* [Rendu](/words/java/rendering/)
-* [Mail Merge et rapports](/words/java/mail-merge-and-reporting/)
-* [Travailler avec des Champs](/words/java/working-with-fields/)
+* [Rendu](/words/fr/java/rendering/)
+* [Mail Merge et rapports](/words/fr/java/mail-merge-and-reporting/)
+* [Travailler avec des Champs](/words/fr/java/working-with-fields/)

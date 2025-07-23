@@ -1,4 +1,4 @@
----
+﻿---
 title: Opțiuni la convertirea în PDF
 second_title: Aspose.Words pentru .NET
 articleTitle: Specificați opțiunile de redare atunci când convertați în PDF
@@ -96,7 +96,7 @@ Rezoluţia este calculată în funcţie de dimensiunea imaginii reale pe pagină
 
 ## Incorporarea fonturilor în formatul Adobe PDF
 
-Aspose.Words vă permite, de asemenea, să controlați modul în care fonturile sunt încorporate în documentele PDF rezultate. Fonturile trebuie să fie încorporate în orice document PDF Adobe pentru a asigura că documentul poate fi redat corect pe orice mașină (vezi mai multe detalii despre redarea fonturilor în secțiunea [Using TrueType Fonts](/words/net/using-truetype-fonts/)). În mod implicit, Aspose.Words încorporează un sub-set de fonturi utilizate în document în fișierul PDF generat. În acest caz, se salvează doar glifele (caractere) utilizate în document la PDF.
+Aspose.Words vă permite, de asemenea, să controlați modul în care fonturile sunt încorporate în documentele PDF rezultate. Fonturile trebuie să fie încorporate în orice document PDF Adobe pentru a asigura că documentul poate fi redat corect pe orice mașină (vezi mai multe detalii despre redarea fonturilor în secțiunea [Using TrueType Fonts](/words/ro/net/using-truetype-fonts/)). În mod implicit, Aspose.Words încorporează un sub-set de fonturi utilizate în document în fișierul PDF generat. În acest caz, se salvează doar glifele (caractere) utilizate în document la PDF.
 
 ### Când să folosești fonturi complete și când subseturi
 

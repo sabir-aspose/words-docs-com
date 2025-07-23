@@ -1,4 +1,4 @@
----
+﻿---
 title: 문서를 이용한 프로그래밍
 second_title: Python via .NET용 Aspose.Words
 articleTitle: 문서를 이용한 프로그래밍
@@ -51,11 +51,11 @@ timestamp: 2024-09-25-11-08-55
 - [OfficeMath로 작업하기](/words/ko/python-net/working-with-officemath/)
 - [SmartArt 콜드 렌더링 작업](/words/ko/python-net/working-with-smartart-cold-rendering/)
 - [워터마크 작업](/words/ko/python-net/working-with-watermark/)
-- [Ole 개체 및 온라인 비디오 작업](/words/python-net/working-with-ole-objects/)
+- [Ole 개체 및 온라인 비디오 작업](/words/ko/python-net/working-with-ole-objects/)
 - [필드 작업](/words/ko/python-net/working-with-fields/)
 - [양식 필드 작업](/words/ko/python-net/working-with-form-fields/)
 - [콘텐츠 제어 SDT 작업](/words/ko/python-net/working-with-content-control-sdt/)
 - [제어 문자 작업](/words/ko/python-net/working-with-control-characters/)
 - [VBA 매크로 작업](/words/ko/python-net/working-with-vba-macros/)
 - [Markdown 기능 작업](/words/ko/python-net/working-with-markdown-features/)
-- [텍스트 문서 작업](/words/python-net/working-with-text-document/)
+- [텍스트 문서 작업](/words/ko/python-net/working-with-text-document/)

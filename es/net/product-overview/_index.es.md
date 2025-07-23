@@ -1,4 +1,4 @@
----
+﻿---
 title: Descripción del producto
 second_title: Aspose.Words para .NET
 articleTitle: Descripción del producto
@@ -56,7 +56,7 @@ Puede convertir documentos completos o páginas particulares a PDF o XPS para ge
 
 #### Informes
 
-Genere documentos o informes desde cero o completando plantillas con datos de fuentes de datos u objetos comerciales. Para obtener más información sobre cómo generar informes y obtener datos de bases de datos, consulte las secciones ["Combinación de correspondencia e informes"](/words/net/mail-merge-and-reporting/) y ["Motor de informes LINQ"](/words/net/linq-reporting-engine/).
+Genere documentos o informes desde cero o completando plantillas con datos de fuentes de datos u objetos comerciales. Para obtener más información sobre cómo generar informes y obtener datos de bases de datos, consulte las secciones ["Combinación de correspondencia e informes"](/words/es/net/mail-merge-and-reporting/) y ["Motor de informes LINQ"](/words/net/linq-reporting-engine/).
 
 ### Independencia de plataforma
 

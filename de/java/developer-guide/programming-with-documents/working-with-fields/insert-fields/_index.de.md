@@ -14,7 +14,7 @@ Es gibt verschiedene Möglichkeiten, Felder in ein Dokument einzufügen:
 
 - verwenden von [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)
 - verwenden von [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/)
-- wobei [Aspose.Words Dokumentenobjektmodell (DOM)](/words/java/aspose-words-document-object-model/)
+- wobei [Aspose.Words Dokumentenobjektmodell (DOM)](/words/de/java/aspose-words-document-object-model/)
 
 In diesem Artikel werden wir uns jeden Weg genauer ansehen und analysieren, wie bestimmte Felder mit diesen Optionen eingefügt werden.
 
@@ -80,7 +80,7 @@ Das folgende Codebeispiel zeigt, wie Sie ein Feld mit **FieldBuilder** in ein Do
 
 ## Felder mit DOM einfügen
 
-Sie können auch verschiedene Arten von Feldern einfügen mit [Aspose.Words Dokumentenobjektmodell (DOM)](/words/java/aspose-words-document-object-model/). In diesem Abschnitt werden wir uns einige Beispiele ansehen.
+Sie können auch verschiedene Arten von Feldern einfügen mit [Aspose.Words Dokumentenobjektmodell (DOM)](/words/de/java/aspose-words-document-object-model/). In diesem Abschnitt werden wir uns einige Beispiele ansehen.
 
 ### Seriendruckfeld mit DOM in ein Dokument einfügen
 

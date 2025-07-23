@@ -1,4 +1,4 @@
----
+﻿---
 title: 製品の概要
 second_title: .NET用Aspose.Words
 articleTitle: 製品の概要
@@ -56,7 +56,7 @@ Aspose.Words for .NET の機能は、4 つの主要な領域に分類できま�
 
 #### 報告
 
-ドキュメントやレポートを最初から生成するか、データ ソースやビジネス オブジェクトからのデータをテンプレートに入力して生成します。レポート作成とデータベースからのデータ取得の詳細については、「[Mail Merge とレポート](/words/net/mail-merge-and-reporting/)」および「[LINQ レポート エンジン](/words/net/linq-reporting-engine/)」セクションを参照してください。
+ドキュメントやレポートを最初から生成するか、データ ソースやビジネス オブジェクトからのデータをテンプレートに入力して生成します。レポート作成とデータベースからのデータ取得の詳細については、「[Mail Merge とレポート](/words/ja/net/mail-merge-and-reporting/)」および「[LINQ レポート エンジン](/words/net/linq-reporting-engine/)」セクションを参照してください。
 
 ### プラットフォームの独立性
 

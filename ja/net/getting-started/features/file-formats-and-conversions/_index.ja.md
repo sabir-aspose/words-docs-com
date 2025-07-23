@@ -1,4 +1,4 @@
----
+﻿---
 title: ファイル形式と変換
 second_title: .NET用Aspose.Words
 articleTitle: ファイル形式と変換
@@ -29,7 +29,7 @@ Aspose.Words を使用すると、わずか 2 行のコードを使用して、�
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "docx-to-pdf.cs" >}}
 
-ドキュメントのロード、変換、保存の詳細については、「[ロード、保存、変換](/words/cpp/loading-saving-and-converting/)」セクションを参照してください。
+ドキュメントのロード、変換、保存の詳細については、「[ロード、保存、変換](/words/ja/cpp/loading-saving-and-converting/)」セクションを参照してください。
 
 ## 高忠実度
 

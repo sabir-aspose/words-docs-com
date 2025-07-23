@@ -1,4 +1,4 @@
----
+﻿---
 title: Format dan Konversi File
 second_title: Aspose.Words untuk .NET
 articleTitle: Format dan Konversi File
@@ -29,7 +29,7 @@ Contoh kode berikut menunjukkan cara mengonversi dokumen:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "docx-to-pdf.cs" >}}
 
-Untuk detail selengkapnya tentang memuat, mengonversi, dan menyimpan dokumen, lihat bagian [Memuat, Menyimpan, dan Mengonversi](/words/cpp/loading-saving-and-converting/).
+Untuk detail selengkapnya tentang memuat, mengonversi, dan menyimpan dokumen, lihat bagian [Memuat, Menyimpan, dan Mengonversi](/words/id/cpp/loading-saving-and-converting/).
 
 ## Kesetiaan yang Tinggi
 

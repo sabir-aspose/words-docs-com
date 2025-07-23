@@ -20,6 +20,6 @@ Aspose.Words מיישמת פונקציונליות של פריסת עמוד בא
 
 ## ראה גם
 
-* [יצירת פריסת עמוד](/words/cpp/creating-a-page-layout/)
-* [שמירת מסמך בפורמט דף קבוע](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [ציין אפשרויות פריסה](/words/cpp/specify-layout-options/)
+* [יצירת פריסת עמוד](/words/he/cpp/creating-a-page-layout/)
+* [שמירת מסמך בפורמט דף קבוע](/words/he/cpp/saving-a-document-to-fixed-page-format/)
+* [ציין אפשרויות פריסה](/words/he/cpp/specify-layout-options/)

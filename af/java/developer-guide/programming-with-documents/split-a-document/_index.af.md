@@ -1,4 +1,4 @@
----
+﻿---
 title: Verdeel'n Dokument in Java
 second_title: Aspose.Words vir Java
 articleTitle: Verdeel'n Dokument
@@ -85,7 +85,7 @@ Hierdie afdeling beskryf verskeie gebruiksgevalle van die verdeling van dokument
 
 {{% alert color="primary" %}}
 
-Jy kan enige [uitvoer formaat ondersteun deur Aspose.Words](/words/java/supported-document-formats/).
+Jy kan enige [uitvoer formaat ondersteun deur Aspose.Words](/words/af/java/supported-document-formats/).
 
 {{% /alert %}}
 

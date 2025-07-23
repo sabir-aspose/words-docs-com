@@ -1,4 +1,4 @@
----
+﻿---
 title: Ondersteunde Kenmerke Op Dokument Stoor
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Ondersteunde Kenmerke Op Dokument Stoor
@@ -18,6 +18,6 @@ Aspose.Words kan'n dokument van enige grootte omskep solank daar genoeg werkgehe
 
 {{% alert color="primary" %}}
 
-Vir meer inligting en'n beskrywing van die funksies wat beskikbaar is vir die verskillende formate, sien die [Ondersteunde Kenmerke Op Dokument Stoor](/words/net/supported-features-on-document-save/) afdeling in die Aspose.Words vir .NET dokumentasie.
+Vir meer inligting en'n beskrywing van die funksies wat beskikbaar is vir die verskillende formate, sien die [Ondersteunde Kenmerke Op Dokument Stoor](/words/af/net/supported-features-on-document-save/) afdeling in die Aspose.Words vir .NET dokumentasie.
 
 {{% /alert %}}

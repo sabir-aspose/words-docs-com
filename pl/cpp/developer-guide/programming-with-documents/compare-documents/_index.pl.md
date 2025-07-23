@@ -36,7 +36,7 @@ Ogólne ograniczenie dla dwóch porównywanych dokumentów polega na tym, że ni
 
 {{% alert color="primary" %}}
 
-Pamiętaj, że możesz porównać dowolne dwa dokumenty w ramach [obsługiwane formaty plików](/words/cpp/supported-document-formats/). Możesz porównywać obiekty dokumentu, a nawet tworzyć te obiekty od zera bez żadnego określonego formatu.
+Pamiętaj, że możesz porównać dowolne dwa dokumenty w ramach [obsługiwane formaty plików](/words/pl/cpp/supported-document-formats/). Możesz porównywać obiekty dokumentu, a nawet tworzyć te obiekty od zera bez żadnego określonego formatu.
 
 {{% /alert %}}
 

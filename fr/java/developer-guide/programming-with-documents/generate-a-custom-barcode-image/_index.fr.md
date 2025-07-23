@@ -55,7 +55,7 @@ Vous pouvez également enregistrer le document avec le code-barres chargé ou no
 
 {{% alert color="primary" %}}
 
-Pour plus d'informations sur la conversion de documents d'un format à un autre, voir le [Convertir un Document](/words/java/convert-a-document/) section de documentation.
+Pour plus d'informations sur la conversion de documents d'un format à un autre, voir le [Convertir un Document](/words/fr/java/convert-a-document/) section de documentation.
 
 {{% /alert %}}
 

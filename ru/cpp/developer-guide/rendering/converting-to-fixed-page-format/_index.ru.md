@@ -1,4 +1,4 @@
----
+﻿---
 title: Преобразование в формат фиксированной страницы на C++
 second_title: Aspose.Words для C++
 articleTitle: Преобразование в формат фиксированной страницы
@@ -28,7 +28,7 @@ Microsoft Word - это самое передовое приложение дл�
 
 ## Смотрите также
 
-* [Что такое макет страницы](/words/cpp/what-is-a-page-layout/)
-* [Создание макета страницы](/words/cpp/creating-a-page-layout/)
-* [Сохранение документа в формате фиксированной страницы](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Укажите параметры компоновки](/words/cpp/specify-layout-options/)
+* [Что такое макет страницы](/words/ru/cpp/what-is-a-page-layout/)
+* [Создание макета страницы](/words/ru/cpp/creating-a-page-layout/)
+* [Сохранение документа в формате фиксированной страницы](/words/ru/cpp/saving-a-document-to-fixed-page-format/)
+* [Укажите параметры компоновки](/words/ru/cpp/specify-layout-options/)

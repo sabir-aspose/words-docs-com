@@ -42,10 +42,10 @@ Aspose.Words은 다양한 형식의 문서 작업을 위한 다양한 기능을 
 
 렌더링(고정 페이지 형식으로 변환),필드 업데이트,페이지 분할 등과 같은 더 복잡한 작업은 일부 문서의 경우Aspose.WordsDOM에 로드된 문서에 의해 할당된 메모리보다 20 배 더 많은 리소스가 필요합니다.
 
-프로파일 링 결과가Aspose.Words에서 가능한 메모리 문제를 나타내는 경우 다음 주소로 문의하십시오 [지원 팀](/words/java/technical-support/) 그리고 모든 진단 정보를 포함하십시오.
+프로파일 링 결과가Aspose.Words에서 가능한 메모리 문제를 나타내는 경우 다음 주소로 문의하십시오 [지원 팀](/words/ko/java/technical-support/) 그리고 모든 진단 정보를 포함하십시오.
 
 ## 또한 참조
 
-* [렌더링](/words/java/rendering/)
-* [Mail Merge및 보고](/words/java/mail-merge-and-reporting/)
-* [필드 작업](/words/java/working-with-fields/)
+* [렌더링](/words/ko/java/rendering/)
+* [Mail Merge및 보고](/words/ko/java/mail-merge-and-reporting/)
+* [필드 작업](/words/ko/java/working-with-fields/)

@@ -36,7 +36,7 @@ timestamp: 2024-01-27-14-07-04
 
 {{% alert color="primary" %}}
 
-请注意，您可以比较 [支持的文件格式](/words/java/supported-document-formats/). 基本上，您可以比较文档对象，甚至可以从头开始创建这些对象，而无需任何特定的格式。
+请注意，您可以比较 [支持的文件格式](/words/zh/java/supported-document-formats/). 基本上，您可以比较文档对象，甚至可以从头开始创建这些对象，而无需任何特定的格式。
 
 {{% /alert %}}
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: 在C#中與Markdown功能工作
 second_title: Aspose.Words為.NET
 articleTitle: 與 Markdown 功能工作
@@ -27,7 +27,7 @@ timestamp: 2024-01-31-14-23-37
 
 {{% alert color="primary" %}}
 
-翻譯 Markdown 的細微差別會是 Aspose.Words Document Object Model (DOM)，如文章 [Translate Markdown to Document Object Model (DOM)](/words/net/translate-markdown-to-document-object-model/) 所述。
+翻譯 Markdown 的細微差別會是 Aspose.Words Document Object Model (DOM)，如文章 [Translate Markdown to Document Object Model (DOM)](/words/zh-hant/net/translate-markdown-to-document-object-model/) 所述。
 
 {{% /alert %}}
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: 以C#分割文件
 second_title: Aspose.Words for .NET
 articleTitle: 分割文件
@@ -85,7 +85,7 @@ Aspose.Words可讓您利用分節來分割文件，並儲存成 HTML。 為了�
 
 {{% alert color="primary" %}}
 
-你可以隨便用任何 [output format supported by Aspose.Words](/words/net/supported-document-formats/)。
+你可以隨便用任何 [output format supported by Aspose.Words](/words/zh-hant/net/supported-document-formats/)。
 
 {{% /alert %}}
 

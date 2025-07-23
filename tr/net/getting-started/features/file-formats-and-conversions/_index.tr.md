@@ -1,4 +1,4 @@
----
+﻿---
 title: Dosya Formatları ve Dönüşümler
 second_title: .NET için Aspose.Words
 articleTitle: Dosya Formatları ve Dönüşümler
@@ -29,7 +29,7 @@ Aşağıdaki kod örneği bir belgenin nasıl dönüştürüleceğini gösterir:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "docx-to-pdf.cs" >}}
 
-Belgeleri yükleme, dönüştürme ve kaydetme hakkında daha fazla ayrıntı için [Yükleme, Kaydetme ve Dönüştürme](/words/cpp/loading-saving-and-converting/) bölümüne bakın.
+Belgeleri yükleme, dönüştürme ve kaydetme hakkında daha fazla ayrıntı için [Yükleme, Kaydetme ve Dönüştürme](/words/tr/cpp/loading-saving-and-converting/) bölümüne bakın.
 
 ## Yüksek Sadakat
 

@@ -29,7 +29,7 @@ timestamp: 2024-01-31-14-23-37
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "docx-to-pdf.java" >}}
 
-有关加载、转换和保存文档的更多详细信息，请参阅 [加载、保存和转换](/words/java/loading-saving-and-converting/) 节。
+有关加载、转换和保存文档的更多详细信息，请参阅 [加载、保存和转换](/words/zh/java/loading-saving-and-converting/) 节。
 
 ## 高保真度
 

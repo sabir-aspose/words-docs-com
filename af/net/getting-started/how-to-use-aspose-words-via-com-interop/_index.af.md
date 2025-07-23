@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words vir .NET deur COM Interop
 second_title: Aspose.Words vir .NET
 articleTitle: Hoe Om Te Gebruik Aspose.Words vir .NET deur COM Interop
@@ -32,11 +32,11 @@ Hier is die onderwerpe wat u uiteindelik sal moet bemeester:
 
 - Gebruik COM voorwerpe in jou programmeertaal. Sien u programmeertaaldokumentasie en die taalspesifieke onderwerpe verder in hierdie dokumentasie.
 - Werk met COM voorwerpe blootgestel deur .NET COM Interop. Sien [Interoperating Met Onbeheerde Kode](https://learn.microsoft.com/en-us/dotnet/framework/interop/) en [Blootstel .NET Framework Komponente aan COM](https://learn.microsoft.com/en-us/dotnet/framework/interop/exposing-dotnet-components-to-com) in MSDN.
-- Aspose.Words dokument voorwerp model. Sien Aspose.Words [Ontwikkelaargids](/words/net/developer-guide/) en [API Reference](https://reference.aspose.com/words/net/).
+- Aspose.Words dokument voorwerp model. Sien Aspose.Words [Ontwikkelaargids](/words/af/net/developer-guide/) en [API Reference](https://reference.aspose.com/words/net/).
 
 ## Registreer Aspose.Words vir .NET met COM Interop
 
-Na die [installasie Aspose.Words vir .NET](/words/net/installation/), moet jy Aspose.Words registreer vir COM Interop met behulp van die `regasm.exe` nut.
+Na die [installasie Aspose.Words vir .NET](/words/af/net/installation/), moet jy Aspose.Words registreer vir COM Interop met behulp van die `regasm.exe` nut.
 
 `regasm.exe` is'n instrument ingesluit in .NET Framework SDK. Al die .NET Framework SDK gereedskap is geleë in die `%windir%\Microsoft .NET\Framework\<FrameworkVersion>\` gids, byvoorbeeld *C:\Windows\Microsoft .NET\Framework\v4.0.30319*.
 

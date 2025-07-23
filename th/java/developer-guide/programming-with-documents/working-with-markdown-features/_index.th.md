@@ -27,7 +27,7 @@ timestamp: 2024-01-31-14-23-37
 
 {{% alert color="primary" %}}
 
-มีความแตกต่างของการแปลMarkdownไปยังAspose.Wordsรูปแบบวัตถุเอกสาร(DOM)ที่อธิบายไว้ในบทความ [แปลMarkdownไปยังรูปแบบวัตถุเอกสาร(DOM)](/words/java/translate-markdown-to-document-object-model/).
+มีความแตกต่างของการแปลMarkdownไปยังAspose.Wordsรูปแบบวัตถุเอกสาร(DOM)ที่อธิบายไว้ในบทความ [แปลMarkdownไปยังรูปแบบวัตถุเอกสาร(DOM)](/words/th/java/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

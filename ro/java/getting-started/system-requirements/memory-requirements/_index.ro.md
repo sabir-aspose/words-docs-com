@@ -1,4 +1,4 @@
----
+﻿---
 title: Cerințe De Memorie
 second_title: Aspose.Words pentru Java
 articleTitle: Cerințe De Memorie
@@ -42,10 +42,10 @@ Experimentele cu mii de documente reale arată că, de obicei, Aspose.Words nece
 
 Operațiuni mai complexe, cum ar fi redarea (conversia în formate de pagină fixe), actualizarea câmpurilor, împărțirea paginii și altele, pentru unele documente necesită 20 ori mai multe resurse decât memoria alocată de documentul încărcat în Aspose.Words DOM.
 
-Dacă rezultatele profilării dvs. indică o posibilă problemă de memorie în Aspose.Words, Vă rugăm să contactați [Echipa De Suport](/words/java/technical-support/) și includeți toate informațiile de diagnosticare.
+Dacă rezultatele profilării dvs. indică o posibilă problemă de memorie în Aspose.Words, Vă rugăm să contactați [Echipa De Suport](/words/ro/java/technical-support/) și includeți toate informațiile de diagnosticare.
 
 ## Vezi Și
 
-* [Redare](/words/java/rendering/)
-* [Mail Merge și raportare](/words/java/mail-merge-and-reporting/)
-* [Lucrul cu câmpuri](/words/java/working-with-fields/)
+* [Redare](/words/ro/java/rendering/)
+* [Mail Merge și raportare](/words/ro/java/mail-merge-and-reporting/)
+* [Lucrul cu câmpuri](/words/ro/java/working-with-fields/)

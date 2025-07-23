@@ -123,7 +123,7 @@ Puede descargar el archivo de muestra de este ejemplo desde [Aspose.Words GitHub
 
 {{% /alert %}}
 
-Si está buscando crear tablas en un documento que crezcan dinámicamente con cada registro de su fuente de datos, entonces no se recomienda el método anterior. En cambio, la salida deseada se logra más fácilmente usando Mail merge con regiones. Puede obtener más información sobre esta técnica en el [Mail Merge con Regiones](/words/java/types-of-mail-merge-operations/) sección.
+Si está buscando crear tablas en un documento que crezcan dinámicamente con cada registro de su fuente de datos, entonces no se recomienda el método anterior. En cambio, la salida deseada se logra más fácilmente usando Mail merge con regiones. Puede obtener más información sobre esta técnica en el [Mail Merge con Regiones](/words/es/java/types-of-mail-merge-operations/) sección.
 
 ## Compare Formas de Crear una Tabla
 

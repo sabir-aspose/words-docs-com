@@ -14,7 +14,7 @@ timestamp: 2024-01-27-14-07-04
 
 - 使用[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)
 - 使用[FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/)
-- 使用 [Aspose.Words文档对象模型(DOM)](/words/java/aspose-words-document-object-model/)
+- 使用 [Aspose.Words文档对象模型(DOM)](/words/zh/java/aspose-words-document-object-model/)
 
 在本文中，我们将更详细地了解每种方式，并分析如何使用这些选项插入某些字段。
 
@@ -80,7 +80,7 @@ timestamp: 2024-01-27-14-07-04
 
 ## 使用DOM插入字段
 
-您还可以使用以下方法插入各种类型的字段 [Aspose.Words文档对象模型(DOM)](/words/java/aspose-words-document-object-model/). 在本节中，我们将看几个例子。
+您还可以使用以下方法插入各种类型的字段 [Aspose.Words文档对象模型(DOM)](/words/zh/java/aspose-words-document-object-model/). 在本节中，我们将看几个例子。
 
 ### 使用DOM将合并字段插入文档
 

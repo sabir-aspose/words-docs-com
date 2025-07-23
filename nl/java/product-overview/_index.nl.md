@@ -1,4 +1,4 @@
----
+﻿---
 title: Productoverzicht
 second_title: Aspose.Words voor Java
 articleTitle: Productoverzicht
@@ -60,7 +60,7 @@ U kunt hele documenten of bepaalde pagina's converteren naar PDF of XPS om serve
 
 #### Rapportage
 
-Genereer documenten of rapporten vanaf nul of vul templates met gegevens uit gegevensbronnen of zakelijke objecten. Voor meer informatie over rapportage en het ophalen van gegevens uit databases, zie de [Mail Merge en relatie](/words/java/mail-merge-and-reporting/) en [LINQ Rapportagemotor](/words/java/linq-reporting-engine/) secties.
+Genereer documenten of rapporten vanaf nul of vul templates met gegevens uit gegevensbronnen of zakelijke objecten. Voor meer informatie over rapportage en het ophalen van gegevens uit databases, zie de [Mail Merge en relatie](/words/nl/java/mail-merge-and-reporting/) en [LINQ Rapportagemotor](/words/java/linq-reporting-engine/) secties.
 
 ### Platformonafhankelijkheid
 

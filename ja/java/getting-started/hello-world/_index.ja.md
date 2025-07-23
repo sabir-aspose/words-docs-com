@@ -12,7 +12,7 @@ timestamp: 2024-01-27-14-07-04
 
 は、"Hello,World!"コードは、多くの場合、uisng"Aspose.WordsforJava"を書く最初の簡単な例であり、ソースコードをコンパイルまたは実行するソフトウェアが正しくインストールされていることを確認するための健全性テストとして使用することもできます。
 
-"Aspose.WordsforJava"ライブラリは、開発者がWord文書とWeb文書を作成、変更、マージ、変換、比較するための直接アクセスを提供します。 PDF, DOCX, DOC, RTF, ODT, EPUB, HTML 他の多くのファイル形式は次のとおりです [サポートされている](/words/java/supported-document-formats/).
+"Aspose.WordsforJava"ライブラリは、開発者がWord文書とWeb文書を作成、変更、マージ、変換、比較するための直接アクセスを提供します。 PDF, DOCX, DOC, RTF, ODT, EPUB, HTML 他の多くのファイル形式は次のとおりです [サポートされている](/words/ja/java/supported-document-formats/).
 
 Below codeスニペットは次の手順に従います:
 

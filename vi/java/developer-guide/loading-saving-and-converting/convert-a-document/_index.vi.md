@@ -1,4 +1,4 @@
----
+﻿---
 title: Chuyển đổi một tài liệu trong Java
 second_title: Aspose.Words cho Java
 articleTitle: Chuyển đổi một Tài liệu
@@ -29,7 +29,7 @@ Bạn có thể thử chức năng này với chúng tôi [Free online converter
 
 ## Chuyển đổi phổ biến {#popular-conversions}
 
-Phần hiện tại mô tả các chuyển đổi phổ biến cũng như ý tưởng làm việc với một số nhóm định dạng khi tải và lưu. Sử dụng ví dụ trong phần này, bạn có thể hiểu rằng quy trình chuyển đổi thực sự là khá phổ biến, và không có điểm nào trong việc mô tả tất cả các lựa chọn khả dĩ vì có hàng trăm chúng do lượng [formats supported by Aspose.Words for Java](/words/java/supported-document-formats/) lớn.
+Phần hiện tại mô tả các chuyển đổi phổ biến cũng như ý tưởng làm việc với một số nhóm định dạng khi tải và lưu. Sử dụng ví dụ trong phần này, bạn có thể hiểu rằng quy trình chuyển đổi thực sự là khá phổ biến, và không có điểm nào trong việc mô tả tất cả các lựa chọn khả dĩ vì có hàng trăm chúng do lượng [formats supported by Aspose.Words for Java](/words/vi/java/supported-document-formats/) lớn.
 
 {{% alert color="primary" %}}
 

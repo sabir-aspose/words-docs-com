@@ -65,5 +65,5 @@ Aspose.Words имеет ряд классов, связанных с табли�
 
 ## Смотрите также
 
-* [Aspose.Words Объектная модель документа (DOM)](/words/java/aspose-words-document-object-model/)
-* [Логические уровни узлов в документе](/words/java/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Объектная модель документа (DOM)](/words/ru/java/aspose-words-document-object-model/)
+* [Логические уровни узлов в документе](/words/ru/java/logical-levels-of-nodes-in-a-document/)

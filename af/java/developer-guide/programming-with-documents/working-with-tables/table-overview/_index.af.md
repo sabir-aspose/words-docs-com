@@ -1,4 +1,4 @@
----
+﻿---
 title: Tabel Oorsig
 second_title: Aspose.Words vir Java
 articleTitle: Tabel Oorsig
@@ -65,5 +65,5 @@ Aspose.Words het'n aantal klasse wat verband hou met tabelle– [Tables](https:/
 
 ## Sien Ook
 
-* [Aspose.Words Dokument Voorwerp Model (DOM)](/words/java/aspose-words-document-object-model/)
-* [Logiese Vlakke Van Nodusse in'n Dokument](/words/java/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Dokument Voorwerp Model (DOM)](/words/af/java/aspose-words-document-object-model/)
+* [Logiese Vlakke Van Nodusse in'n Dokument](/words/af/java/logical-levels-of-nodes-in-a-document/)

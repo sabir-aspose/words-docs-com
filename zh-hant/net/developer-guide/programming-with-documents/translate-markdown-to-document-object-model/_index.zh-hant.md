@@ -1,4 +1,4 @@
----
+﻿---
 title: 將 Markdown 翻譯成 DOM
 second_title:  Aspose.Words for .NET
 articleTitle: 翻譯 Markdown 到 Document Object Model (DOM)
@@ -12,7 +12,7 @@ timestamp: 2024-10-21-11-17-44
 
 要以程式方式讀取、處理和修改文件的內容和格式，您需要將其翻譯成 Aspose.Words Document Object Model (DOM）。
 
-與 Word 文檔不同，Markdown 不符合DOM於該[Aspose.Words Document Object Model (DOM)](/words/net/aspose-words-document-object-model/)篇文章所述的描述。 不過，Aspose.Words 提供自己的機制來翻譯Markdown 文檔到DOM並回來，所以我們可以成功地與他們的元素如文字格式化、表格、標題和其他的元素合作。
+與 Word 文檔不同，Markdown 不符合DOM於該[Aspose.Words Document Object Model (DOM)](/words/zh-hant/net/aspose-words-document-object-model/)篇文章所述的描述。 不過，Aspose.Words 提供自己的機制來翻譯Markdown 文檔到DOM並回來，所以我們可以成功地與他們的元素如文字格式化、表格、標題和其他的元素合作。
 
 這篇文章說明了各種 markdown 功能如何翻譯成 Aspose.Words DOM 格式，以及反向轉為 Markdown 格式。
 
@@ -174,5 +174,5 @@ builder.Writeln("d"); {{< /highlight >}} |  |
 
 ## 另見：
 
-* [Working with Markdown Features](/words/net/working-with-markdown-features/)
+* [Working with Markdown Features](/words/zh-hant/net/working-with-markdown-features/)
 

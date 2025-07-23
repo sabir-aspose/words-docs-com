@@ -1,4 +1,4 @@
----
+﻿---
 title: 产品概述
 second_title: .NET 格式的 Aspose.Words
 articleTitle: 产品概述
@@ -56,7 +56,7 @@ Aspose.Words for .NET 功能可分为四个主要区域。
 
 #### 报告
 
-从头开始生成文档或报告，或者使用数据源或业务对象中的数据填充模板。有关报告和从数据库获取数据的更多信息，请参阅 [Mail Merge 和报告](/words/net/mail-merge-and-reporting/) 和 [LINQ 报告引擎](/words/net/linq-reporting-engine/) 部分。
+从头开始生成文档或报告，或者使用数据源或业务对象中的数据填充模板。有关报告和从数据库获取数据的更多信息，请参阅 [Mail Merge 和报告](/words/zh/net/mail-merge-and-reporting/) 和 [LINQ 报告引擎](/words/net/linq-reporting-engine/) 部分。
 
 ### 平台独立性
 

@@ -30,7 +30,7 @@ Funkci převodu můžete vyzkoušet pomocí našeho [Free Online converter](http
 
 ## Populární Konverze {#popular-conversions}
 
-Aktuální část popisuje populární konverze a nápady pro práci s některými kombinacemi formátů při načítání a ukládání. Pomocí příkladů této části můžete pochopit, že samotný proces převodu je zcela univerzální a nemá smysl popisovat všechny možné možnosti, protože je jich několik set kvůli velkému počtu [formáty podporované Aspose.Words pro C++](/words/cpp/supported-document-formats/).
+Aktuální část popisuje populární konverze a nápady pro práci s některými kombinacemi formátů při načítání a ukládání. Pomocí příkladů této části můžete pochopit, že samotný proces převodu je zcela univerzální a nemá smysl popisovat všechny možné možnosti, protože je jich několik set kvůli velkému počtu [formáty podporované Aspose.Words pro C++](/words/cs/cpp/supported-document-formats/).
 
 {{% alert color="primary" %}}
 

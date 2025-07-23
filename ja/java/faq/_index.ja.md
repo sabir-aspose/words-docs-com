@@ -12,7 +12,7 @@ timestamp: 2024-01-31-14-23-37
 
 このページには、最もよく寄せられる質問への回答が含まれています。 現在のページを学んでください–おそらくこれはあなたがあなたの問題をすぐに解決することを可能にするでしょう。
 
-あなたの質問に対する答えが見つからない場合は、サポートフォーラムで尋ねることができます。 質問や問題を適切に報告する方法については、以下を参照してください。 [技術サポート](/words/java/technical-support/) ページ。
+あなたの質問に対する答えが見つからない場合は、サポートフォーラムで尋ねることができます。 質問や問題を適切に報告する方法については、以下を参照してください。 [技術サポート](/words/ja/java/technical-support/) ページ。
 
 {{% alert color="primary" %}}
 
@@ -32,7 +32,7 @@ Aspose.WordsforJavaは、アプリケーションがさまざまなドキュメ�
 
 **Q:"Aspose.Wordsはサードパーティのアプリケーションを必要としません"とはどういう意味ですか?**
 
-Aspose.WordsforJavaは、動作するためにサードパーティのアプリケーションや追加のソフトウェアパッケージをインストールする必要はありません。 で説明されているようにAspose.Wordsをダウンロードしてインストールするだけです。 [インストール](/words/java/installation/) 記事と始めましょう。
+Aspose.WordsforJavaは、動作するためにサードパーティのアプリケーションや追加のソフトウェアパッケージをインストールする必要はありません。 で説明されているようにAspose.Wordsをダウンロードしてインストールするだけです。 [インストール](/words/ja/java/installation/) 記事と始めましょう。
 
 ------
 
@@ -40,7 +40,7 @@ Aspose.WordsforJavaは、動作するためにサードパーティのアプリ�
 
 Aspose.WordsforJavaは、一般的な開発環境とデプロイメントプラットフォームのほとんどをカバーしています。 ItsAPIはWindows、Linux、Mac OSなどの幅広いオペレーティングシステムや様々なプラットフォーム用のアプリケーションを開発するために使用できます。
 
-詳細については、以下を参照してください [製品概要](/words/java/product-overview/) ページと [プラットフォームとInteroperability](/words/java/platforms-and-interoperability/) セクション。
+詳細については、以下を参照してください [製品概要](/words/ja/java/product-overview/) ページと [プラットフォームとInteroperability](/words/java/platforms-and-interoperability/) セクション。
 
 ------
 
@@ -48,7 +48,7 @@ Aspose.WordsforJavaは、一般的な開発環境とデプロイメントプラ�
 
 Aspose.WordsforJavaは、次のような一般的な文書形式のほとんどをサポートしますDOC, DOCX, HTML, Markdown, PDF, XML, と他の人。
 
-サポートされている形式の完全なリストを見ることができます [サポートされているドキュメント形式](/words/java/supported-document-formats/) ページ。
+サポートされている形式の完全なリストを見ることができます [サポートされているドキュメント形式](/words/ja/java/supported-document-formats/) ページ。
 
 ------
 
@@ -56,7 +56,7 @@ Aspose.WordsforJavaは、次のような一般的な文書形式のほとんど�
 
 試用版または30日間の一時的なライセンスを使用して–あなたは2つの方法でこれを行うことができます。 試用版は購入したものと同じですが、完全な製品機能を提供しますが、ロードと保存時に文書の上部に評価透かしを追加し、最大文書サイズを数百段落に制限します。 一時的なライセンスを使用すると、30日間試用制限なしでAspose.Wordsをテストすることができます。
 
-を参照してください [ライセンスとサブスクリプション](/words/java/licensing/) より多くの情報のためのページ。
+を参照してください [ライセンスとサブスクリプション](/words/ja/java/licensing/) より多くの情報のためのページ。
 
 {{% alert color="primary" %}}
 
@@ -70,31 +70,31 @@ Aspose.WordsforJavaは、次のような一般的な文書形式のほとんど�
 
 Aspose.Wordsライセンスを購入するには、次の場所に移動する必要があります [購入](https://purchase.aspose.com/buy) ページでは、"Aspose.Words"製品と自分に合ったライセンスの種類を選択します。 次に、ライセンスをカートに追加し、ショッピングカートの指示に従います。
 
-購入後、以下に記載されているライセンスを申請してください [購入したライセンス](/words/java/licensing/#purchased-license) セクション。
+購入後、以下に記載されているライセンスを申請してください [購入したライセンス](/words/ja/java/licensing/) セクション。
 
-Aspose.Wordsをインストールする方法の詳細は、Aspose.Wordsをインストールする方法で読むことができます。 [インストール](/words/java/installation/) ページ。
+Aspose.Wordsをインストールする方法の詳細は、Aspose.Wordsをインストールする方法で読むことができます。 [インストール](/words/ja/java/installation/) ページ。
 
 ------
 
 **Q:私はいかにサポートを得てもいいですか。**
 
-無料のテクニカルサポートフォーラムを使用してください。 問題を適切に報告する方法と、フォーラムに連絡する前に何をする必要があるかの詳細については、以下を参照してください [技術サポート](/words/java/technical-support/) ページ。
+無料のテクニカルサポートフォーラムを使用してください。 問題を適切に報告する方法と、フォーラムに連絡する前に何をする必要があるかの詳細については、以下を参照してください [技術サポート](/words/ja/java/technical-support/) ページ。
 
 ## ドキュメントのレンダリング
 
 {{% alert color="primary" %}}
 
-レンダリングに関するより詳細な情報は、次のページで見つけることができます。 [レンダリング](/words/java/rendering/) ドキュメントセクション。
+レンダリングに関するより詳細な情報は、次のページで見つけることができます。 [レンダリング](/words/ja/java/rendering/) ドキュメントセクション。
 
 {{% /alert %}}
 
 **Q:出力ドキュメントのレイアウトとフォントが元のものと異なるのはなぜですか?**
 
-フォントが使用できないか、フォント形式がMicrosoft WordでサポートされているがAspose.Wordsではサポートされていない可能性があります。 Aspose.Wordsが実行されます [フォント置換](/words/java/manipulate-and-substitute-truetype-fonts/).
+フォントが使用できないか、フォント形式がMicrosoft WordでサポートされているがAspose.Wordsではサポートされていない可能性があります。 Aspose.Wordsが実行されます [フォント置換](/words/ja/java/manipulate-and-substitute-truetype-fonts/).
 
 フォントが欠落しているかどうかを確認するには:
 
-- Aspose.Wordsでは、フォント置換の警告を使用します(詳細については、"フォントが置換されたことを認識する方法"のセクションを参照してください [TrueTypeフォントの操作と置換](/words/java/manipulate-and-substitute-truetype-fonts/) 記事）。
+- Aspose.Wordsでは、フォント置換の警告を使用します(詳細については、"フォントが置換されたことを認識する方法"のセクションを参照してください [TrueTypeフォントの操作と置換](/words/ja/java/manipulate-and-substitute-truetype-fonts/) 記事）。
 - Microsoft Wordで"フォント置換"ダイアログボックスを開きます(ファイル→オプション→詳細→フォント置換)。
 
 ------
@@ -121,7 +121,7 @@ Aspose.Wordsをインストールする方法の詳細は、Aspose.Wordsをイ�
 
 {{% alert color="primary" %}}
 
-Mail Mergeについてのより詳細な情報は、Mail Mergeの中で見つけることができます。 [Mail Mergeと報告](/words/java/mail-merge-and-reporting/) ドキュメントセクション。
+Mail Mergeについてのより詳細な情報は、Mail Mergeの中で見つけることができます。 [Mail Mergeと報告](/words/ja/java/mail-merge-and-reporting/) ドキュメントセクション。
 
 {{% /alert %}}
 
@@ -145,7 +145,7 @@ Mail Mergeについてのより詳細な情報は、Mail Mergeの中で見つけ
 これは、親テーブルと子テーブルの間のリレーションシップが設定されていないか、正しく設定されていないためです。 それはする必要があります:
 
 - **DataSet**内でデータの整合性を確保し、**DataRelation**オブジェクトを使用して、関連するデータテーブル間の親子関係を表します。
-- 記事の"ネストされたMail Mergeでリージョンとのデータ関係を設定する方法"のセクションを確認してください [地域を持つネストされたMailマージ](/words/java/nested-mail-merge-with-regions/).
+- 記事の"ネストされたMail Mergeでリージョンとのデータ関係を設定する方法"のセクションを確認してください [地域を持つネストされたMailマージ](/words/ja/java/nested-mail-merge-with-regions/).
 
 ------
 
@@ -159,7 +159,7 @@ Mail Mergeについてのより詳細な情報は、Mail Mergeの中で見つけ
 
 {{% alert color="primary" %}}
 
-ドキュメントを使用したプログラミングに関するより詳細な情報は、次の場所で確認できます。 [ドキュメントを使ったプログラミング](/words/java/programming-with-documents/) ドキュメントセクション。
+ドキュメントを使用したプログラミングに関するより詳細な情報は、次の場所で確認できます。 [ドキュメントを使ったプログラミング](/words/ja/java/programming-with-documents/) ドキュメントセクション。
 
 {{% /alert %}}
 
@@ -171,7 +171,7 @@ Mail Mergeについてのより詳細な情報は、Mail Mergeの中で見つけ
 
 {{% alert color="primary" %}}
 
-ドキュメントの変換に関する詳細な情報は、次のページで確認できます。 [文書を変換する](/words/java/convert-a-document/) ドキュメントセクション。
+ドキュメントの変換に関する詳細な情報は、次のページで確認できます。 [文書を変換する](/words/ja/java/convert-a-document/) ドキュメントセクション。
 
 {{% /alert %}}
 
@@ -193,7 +193,7 @@ doc.save(dataDir + "output.pdf", SaveFormat.Pdf);
 
 {{% alert color="primary" %}}
 
-ドキュメントを使用したプログラミングに関するより詳細な情報は、次の場所で確認できます。 [ドキュメントを使ったプログラミング](/words/java/programming-with-documents/) ドキュメントセクション。
+ドキュメントを使用したプログラミングに関するより詳細な情報は、次の場所で確認できます。 [ドキュメントを使ったプログラミング](/words/ja/java/programming-with-documents/) ドキュメントセクション。
 
 {{% /alert %}}
 
@@ -253,4 +253,4 @@ catch (Exception e)
 
 **Q:文書を印刷する方法か。**
 
-詳細な回答については、記事をご覧ください [プログラムで文書を印刷するか、ダイアログを使用して文書を印刷する](/words/java/print-a-document-programmatically-or-using-dialogs/).
+詳細な回答については、記事をご覧ください [プログラムで文書を印刷するか、ダイアログを使用して文書を印刷する](/words/ja/java/print-a-document-programmatically-or-using-dialogs/).

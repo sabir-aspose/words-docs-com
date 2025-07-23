@@ -1,4 +1,4 @@
----
+﻿---
 title: C++でのセクションの操作
 second_title: C++の場合Aspose.Words
 articleTitle: セクションの操作
@@ -38,7 +38,7 @@ Aspose.Wordsでは、[BreakType](https://reference.aspose.com/words/cpp/aspose.w
 
 ## セクションの管理
 
-セクションは通常の複合ノードであるため、ノード操作API全体を使用してセクションを操作することができます。セクションの追加、削除、およびその他の操作を行います。 記事でノードの詳細を読むことができます [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/cpp/aspose-words-document-object-model/).
+セクションは通常の複合ノードであるため、ノード操作API全体を使用してセクションを操作することができます。セクションの追加、削除、およびその他の操作を行います。 記事でノードの詳細を読むことができます [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/ja/cpp/aspose-words-document-object-model/).
 
 一方、`DocumentBuilder`APIを使用してセクションを操作することもできます。 この記事では、セクションを操作するこの特定の方法に焦点を当てます。
 
@@ -154,5 +154,5 @@ Aspose.Wordsは[PageSetup](https://reference.aspose.com/words/cpp/aspose.words/p
 
 ## また見て下さい
 
-- [ドキュメント内のノードの論理レベル](/words/cpp/logical-levels-of-nodes-in-a-document/)
-- [文書の挿入と追加](/words/cpp/insert-and-append-documents/)
+- [ドキュメント内のノードの論理レベル](/words/ja/cpp/logical-levels-of-nodes-in-a-document/)
+- [文書の挿入と追加](/words/ja/cpp/insert-and-append-documents/)

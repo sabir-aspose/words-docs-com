@@ -1,4 +1,4 @@
----
+﻿---
 title: 轉換成 PDF/A 和 PDF/UA
 second_title: Aspose.Words for .NET
 articleTitle: 了解如何將檔案轉換成 PDF/A 和 PDF/UA 的功能
@@ -42,7 +42,7 @@ PDF/A 是專為存檔與長期儲存電子文件而設計的一種 ISO 標準化
 
 ## 見 também。
 
-* [Convert a Document to PDF](/words/net/convert-a-document-to-pdf/)
+* [Convert a Document to PDF](/words/zh-hant/net/convert-a-document-to-pdf/)
 * [How to edit document structure tags in Adobe Acrobat](https://helpx.adobe.com/acrobat/using/editing-document-structure-content-tags.html)
 * [How to check or edit text language in Microsoft Word](https://support.microsoft.com/en-us/office/check-spelling-and-grammar-in-a-different-language-667ba67a-a202-42fd-8596-edc1fa320e00)
 * [How to change text language in Adobe Acrobat](https://helpx.adobe.com/acrobat/using/editing-document-structure-content-tags.html#add_alternate_text_and_supplementary_information_to_tags)

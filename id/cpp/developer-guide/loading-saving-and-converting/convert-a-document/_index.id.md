@@ -1,4 +1,4 @@
----
+﻿---
 title: Mengonversi Dokumen dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Konversikan Dokumen
@@ -30,7 +30,7 @@ Anda dapat mencoba fungsionalitas konversi dengan menggunakan kami [Konverter on
 
 ## Konversi Populer {#popular-conversions}
 
-Bagian saat ini menjelaskan konversi populer, serta ide untuk bekerja dengan beberapa kombinasi format saat memuat dan menyimpan. Dengan menggunakan contoh bagian ini, Anda dapat memahami bahwa proses konversi itu sendiri cukup universal, dan tidak ada gunanya menjelaskan semua opsi yang memungkinkan, karena ada beberapa ratus di antaranya karena banyaknya pilihan [format yang didukung oleh Aspose.Words untuk C++](/words/cpp/supported-document-formats/).
+Bagian saat ini menjelaskan konversi populer, serta ide untuk bekerja dengan beberapa kombinasi format saat memuat dan menyimpan. Dengan menggunakan contoh bagian ini, Anda dapat memahami bahwa proses konversi itu sendiri cukup universal, dan tidak ada gunanya menjelaskan semua opsi yang memungkinkan, karena ada beberapa ratus di antaranya karena banyaknya pilihan [format yang didukung oleh Aspose.Words untuk C++](/words/id/cpp/supported-document-formats/).
 
 {{% alert color="primary" %}}
 

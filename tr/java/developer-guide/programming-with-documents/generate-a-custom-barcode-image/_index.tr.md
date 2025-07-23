@@ -1,4 +1,4 @@
----
+﻿---
 title: Java içinde Barcode oluşturun
 second_title: Aspose.Words için Java
 articleTitle: Özel bir Barkod Görseli Oluşturun
@@ -55,7 +55,7 @@ Yüklenen veya yeni eklenen barkod içeren belgeyi sabit sayfa biçimlerinde PDF
 
 {{% alert color="primary" %}}
 
-Daha fazla bilgi için bir formattan diğerine belgeleri dönüştürme hakkında bk. [Convert a Document](/words/java/convert-a-document/) belgelendirme bölümüne.
+Daha fazla bilgi için bir formattan diğerine belgeleri dönüştürme hakkında bk. [Convert a Document](/words/tr/java/convert-a-document/) belgelendirme bölümüne.
 
 {{% /alert %}}
 

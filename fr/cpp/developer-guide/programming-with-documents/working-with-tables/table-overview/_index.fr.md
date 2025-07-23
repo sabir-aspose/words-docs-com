@@ -1,4 +1,4 @@
----
+﻿---
 title: Aperçu du Tableau
 second_title: Aspose.Words pour C++
 articleTitle: Aperçu du Tableau
@@ -65,5 +65,5 @@ Dans Aspose.Words, toutes les classes et propriétés liées aux tables sont con
 
 ## Voir Aussi
 
-* [Aspose.Words Modèle d'objet de document (DOM)](/words/cpp/aspose-words-document-object-model/)
-* [Niveaux logiques des nœuds dans un document](/words/cpp/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Modèle d'objet de document (DOM)](/words/fr/cpp/aspose-words-document-object-model/)
+* [Niveaux logiques des nœuds dans un document](/words/fr/cpp/logical-levels-of-nodes-in-a-document/)

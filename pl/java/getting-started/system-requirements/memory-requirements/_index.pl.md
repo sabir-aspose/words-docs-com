@@ -1,4 +1,4 @@
----
+﻿---
 title: Wymagania dotyczące pamięci
 second_title: Aspose.Words zamiast Java
 articleTitle: Wymagania dotyczące pamięci
@@ -47,5 +47,5 @@ Jeśli wyniki profilowania wskazują na możliwe problemy pamięci w Aspose.Word
 ## Zobacz również
 
 * [Renderowanie](/words/pl/java/rendering/)
-* [Mail Merge i świętości](/words/java/mail-merge-and-reporting/)
+* [Mail Merge i świętości](/words/pl/java/mail-merge-and-reporting/)
 * [Praca z Fields](/words/pl/java/working-with-fields/)

@@ -1,4 +1,4 @@
----
+﻿---
 title: ما هو تخطيط الصفحة في C++
 second_title: Aspose.Words ل C++
 articleTitle: ما هو تخطيط الصفحة
@@ -20,6 +20,6 @@ Aspose.Words ينفذ وظيفة تخطيط الصفحة داخليا مما ي�
 
 ## أنظر أيضا
 
-* [إنشاء تخطيط الصفحة](/words/cpp/creating-a-page-layout/)
-* [حفظ مستند بتنسيق صفحة ثابتة](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [تحديد خيارات التخطيط](/words/cpp/specify-layout-options/)
+* [إنشاء تخطيط الصفحة](/words/ar/cpp/creating-a-page-layout/)
+* [حفظ مستند بتنسيق صفحة ثابتة](/words/ar/cpp/saving-a-document-to-fixed-page-format/)
+* [تحديد خيارات التخطيط](/words/ar/cpp/specify-layout-options/)

@@ -1,4 +1,4 @@
----
+﻿---
 title: Arbeiten Sie mit einem in SharePoint Online gespeicherten Dokument
 second_title: Aspose.Words für .NET
 articleTitle: Arbeiten Sie mit einem in SharePoint Online gespeicherten Dokument
@@ -267,5 +267,5 @@ Daher sollte die Datei "TestDoc.pdf" im Ordner "Freigegebene Dokumente" der Stam
 ## Siehe auch
 
 – Der Artikel [Rendern](/words/de/net/rendering/) für weitere Informationen zu den Formaten mit fester Seite und Flow-Layout
-- Der Artikel [Konvertieren in das Fixed-Page-Format](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) für weitere Informationen zum Seitenlayout
+- Der Artikel [Konvertieren in das Fixed-Page-Format](/words/de/net/converting-to-fixed-page-format/#what-is-a-page-layout) für weitere Informationen zum Seitenlayout
 – Der Artikel [Geben Sie beim Konvertieren in PDF Rendering-Optionen an](/words/de/net/specify-rendering-options-when-converting-to-pdf/) für weitere Informationen zur Verwendung der [PdfSaveOptions](https://reference.aspose.com/words/de/net/aspose.words.saving/pdfsaveoptions/)-Klasse

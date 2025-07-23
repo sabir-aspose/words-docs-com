@@ -1,4 +1,4 @@
----
+﻿---
 title: Omskakeling Na Vaste bladsy Formaat in Java
 second_title: Aspose.Words vir Java
 articleTitle: Omskakeling Na Vaste bladsy Formaat
@@ -75,7 +75,7 @@ Nadat die bladsy uitleg gebou is en die meetkunde van voorwerpe en hul posisie o
 - Die aantal en omvang van bladsye vervat in die uitset dokument ([PageIndex](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/), [PageCount](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
 - Vordering van bladsy-vir-bladsy dokument stoor ([PageSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
 - 'n stel karakters wat gebruik word om getalle te vertoon ([NumeralFormat](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
-- 'n metafile speler ([MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/). Vir meer besonderhede, sien die [Hantering Windows Meta Lêers](/words/java/handling-windows-metafiles/) artikel.
+- 'n metafile speler ([MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/). Vir meer besonderhede, sien die [Hantering Windows Meta Lêers](/words/af/java/handling-windows-metafiles/) artikel.
 - 'n kwaliteitskoers vir die herkomprimering van JPEG beelde, waarvan die waarde effens kan verskil, afhangende van die geselekteerde stoorformaat ([JpegQuality](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/).
 - Optimalisering van vektorgrafika in Aspose.Words uitset ([OptimizeOutput](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
 - Grafiese opsies wanneer jy stoor Na Tiff, Png, Bmp, Jpeg, Emf formate ([UseAntiAliasing](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/#getUseAntiAliasing), [UseHighQualityRendering](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).

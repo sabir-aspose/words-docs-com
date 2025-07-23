@@ -123,7 +123,7 @@ Anda dapat mengunduh file contoh contoh ini dari [Aspose.Words GitHub](https://g
 
 {{% /alert %}}
 
-Jika Anda ingin membuat tabel dalam dokumen yang berkembang secara dinamis dengan setiap catatan dari sumber data Anda, maka metode di atas tidak disarankan. Sebaliknya, keluaran yang diinginkan lebih mudah dicapai dengan menggunakan Mail merge dengan wilayah. Anda dapat mempelajari lebih lanjut tentang teknik ini di [Mail Merge dengan Wilayah](/words/java/types-of-mail-merge-operations/) bagian.
+Jika Anda ingin membuat tabel dalam dokumen yang berkembang secara dinamis dengan setiap catatan dari sumber data Anda, maka metode di atas tidak disarankan. Sebaliknya, keluaran yang diinginkan lebih mudah dicapai dengan menggunakan Mail merge dengan wilayah. Anda dapat mempelajari lebih lanjut tentang teknik ini di [Mail Merge dengan Wilayah](/words/id/java/types-of-mail-merge-operations/) bagian.
 
 ## Bandingkan Cara Membuat Tabel
 

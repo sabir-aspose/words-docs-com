@@ -27,7 +27,7 @@ Die Markdown -Feature-Implementierung folgt größtenteils der `CommonMark` -Spe
 
 {{% alert color="primary" %}}
 
-Es gibt Nuancen bei der Übersetzung von Markdown in das Aspose.Words -Dokumentobjektmodell (DOM), die im Artikel beschrieben werden [Markdown im Dokumentobjektmodell übersetzen (DOM)](/words/java/translate-markdown-to-document-object-model/).
+Es gibt Nuancen bei der Übersetzung von Markdown in das Aspose.Words -Dokumentobjektmodell (DOM), die im Artikel beschrieben werden [Markdown im Dokumentobjektmodell übersetzen (DOM)](/words/de/java/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

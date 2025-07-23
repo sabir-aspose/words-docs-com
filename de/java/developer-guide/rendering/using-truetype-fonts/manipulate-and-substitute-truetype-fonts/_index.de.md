@@ -219,7 +219,7 @@ In vordefinierten Einstellungen werden nur Noto-Schriftarten im Sans-Stil mit no
 
 ## Wobei Aspose.Words nach Schriftarten sucht
 
-Aspose.Words versucht automatisch, TrueType Schriftarten im Dateisystem zu finden. Normalerweise können Sie sich auf das Standardverhalten von Aspose.Words verlassen, um die `TrueType` -Schriftarten zu finden, aber manchmal müssen Sie Ihre eigenen Ordner angeben, die TrueType -Schriftarten enthalten. Der [Geben Sie den Speicherort für TrueType Schriften an](/words/java/specify-truetype-fonts-location/) in diesem Thema wird beschrieben, wie und wo Aspose.Words nach Schriftarten sucht und wie Sie Ihre eigenen Schriftpositionen angeben.
+Aspose.Words versucht automatisch, TrueType Schriftarten im Dateisystem zu finden. Normalerweise können Sie sich auf das Standardverhalten von Aspose.Words verlassen, um die `TrueType` -Schriftarten zu finden, aber manchmal müssen Sie Ihre eigenen Ordner angeben, die TrueType -Schriftarten enthalten. Der [Geben Sie den Speicherort für TrueType Schriften an](/words/de/java/specify-truetype-fonts-location/) in diesem Thema wird beschrieben, wie und wo Aspose.Words nach Schriftarten sucht und wie Sie Ihre eigenen Schriftpositionen angeben.
 
 ## Unterschiede in der Verarbeitung von Schriftformaten in Aspose.Words und Microsoft Word
 

@@ -470,7 +470,7 @@ Aspose.Words23.12แนะนำคุณสมบัติใหม่และ
 
 {{% alert color="primary" %}}
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับJava 23.9บันทึกย่อ](/words/java/aspose-words-for-java-23-9-release-notes/).
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับJava 23.9บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-9-release-notes/).
 
 เรียนรู้เพิ่มเติมเกี่ยวกับ [Aspose.WordsสำหรับJava 23.10บันทึกย่อ](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 

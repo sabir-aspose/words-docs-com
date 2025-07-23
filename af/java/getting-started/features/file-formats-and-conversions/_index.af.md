@@ -1,4 +1,4 @@
----
+﻿---
 title: Lêerformate en Omskakelings
 second_title: Aspose.Words vir Java
 articleTitle: Lêerformate en Omskakelings
@@ -29,7 +29,7 @@ Die volgende kode voorbeeld toon hoe om'n dokument te omskep:
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "docx-to-pdf.java" >}}
 
-Vir meer besonderhede oor die laai, omskakeling en stoor van dokumente, sien die [Laai, Stoor En Omskakeling](/words/java/loading-saving-and-converting/) afdeling.
+Vir meer besonderhede oor die laai, omskakeling en stoor van dokumente, sien die [Laai, Stoor En Omskakeling](/words/af/java/loading-saving-and-converting/) afdeling.
 
 ## Hoë Getrouheid
 

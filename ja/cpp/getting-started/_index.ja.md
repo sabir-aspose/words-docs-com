@@ -1,4 +1,4 @@
----
+﻿---
 title: はじめに
 second_title: C++の場合Aspose.Words
 articleTitle: はじめに
@@ -14,12 +14,12 @@ timestamp: 2024-09-25-11-08-55
 
 Aspose.Wordsの詳細については、適切なセクションを選択してください:
 
-- [インストール](/words/cpp/installation/) -Aspose.Wordsのインストール方法に関する情報を提供します
-- [こんにちは世界](/words/cpp/hello-world/) -ソースコードをコンパイルまたは実行することを意図したソフトウェアが正しくインストールされていることをテストする方法に関する情報を提供します
-- [サポートされているドキュメント形式](/words/cpp/supported-document-formats/) -サポートされている形式に関する情報を提供します
-- [サポートされる機能](/words/cpp/features/) -様々な形式で文書をロードまたは保存するときにサポートされている機能に関する情報を提供します
-- [ライセンスとサブスクリプション](/words/cpp/licensing/) -ライセンスの適用と複数のAspose製品の使用に関する情報を提供します
-- [システム要件](/words/cpp/system-requirements/) -システムおよび開発環境の要件に関する情報を提供します
-- [セキュリティノート](/words/cpp/security/) -一般的なセキュリティ上の問題を回避する方法についての注意事項とヒントを説明します
-- [例を実行する方法](/words/cpp/how-to-run-the-examples/) -例をダウンロードして実行する方法と、どのソフトウェア要件を満たす必要があるかについて説明します
-- [QtでWord文書を操作する](/words/cpp/work-with-word-documents-in-qt/) -Qt内でAspose.Wordsを統合する方法に関する情報を提供します
+- [インストール](/words/ja/cpp/installation/) -Aspose.Wordsのインストール方法に関する情報を提供します
+- [こんにちは世界](/words/ja/cpp/hello-world/) -ソースコードをコンパイルまたは実行することを意図したソフトウェアが正しくインストールされていることをテストする方法に関する情報を提供します
+- [サポートされているドキュメント形式](/words/ja/cpp/supported-document-formats/) -サポートされている形式に関する情報を提供します
+- [サポートされる機能](/words/ja/cpp/features/) -様々な形式で文書をロードまたは保存するときにサポートされている機能に関する情報を提供します
+- [ライセンスとサブスクリプション](/words/ja/cpp/licensing/) -ライセンスの適用と複数のAspose製品の使用に関する情報を提供します
+- [システム要件](/words/ja/cpp/system-requirements/) -システムおよび開発環境の要件に関する情報を提供します
+- [セキュリティノート](/words/ja/cpp/security/) -一般的なセキュリティ上の問題を回避する方法についての注意事項とヒントを説明します
+- [例を実行する方法](/words/ja/cpp/how-to-run-the-examples/) -例をダウンロードして実行する方法と、どのソフトウェア要件を満たす必要があるかについて説明します
+- [QtでWord文書を操作する](/words/ja/cpp/work-with-word-documents-in-qt/) -Qt内でAspose.Wordsを統合する方法に関する情報を提供します

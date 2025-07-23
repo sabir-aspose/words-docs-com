@@ -14,13 +14,13 @@ timestamp: 2024-09-25-11-08-55
 
 要了解有关Aspose.Words的更多信息，请选择相应的部分:
 
-- [安装工程](/words/java/installation/) -提供有关如何安装Aspose.Words的信息
-- [你好世界](/words/java/hello-world/) -提供有关如何测试用于编译或运行源代码的软件是否正确安装的信息
-- [支持的文档格式](/words/java/supported-document-formats/) -提供有关支持的格式的信息
-- [支持的功能](/words/java/features/) -提供有关以各种格式加载或保存文档时支持哪些功能的信息
+- [安装工程](/words/zh/java/installation/) -提供有关如何安装Aspose.Words的信息
+- [你好世界](/words/zh/java/hello-world/) -提供有关如何测试用于编译或运行源代码的软件是否正确安装的信息
+- [支持的文档格式](/words/zh/java/supported-document-formats/) -提供有关支持的格式的信息
+- [支持的功能](/words/zh/java/features/) -提供有关以各种格式加载或保存文档时支持哪些功能的信息
 - [支持的平台](/words/java/platforms-and-interoperability/) -提供有关在为其他平台构建应用程序时使用Aspose.Words的信息
-- [许可和订阅](/words/java/licensing/) -提供有关申请许可证和使用多个Aspose产品的信息
+- [许可和订阅](/words/zh/java/licensing/) -提供有关申请许可证和使用多个Aspose产品的信息
 - [为什么Aspose.Words](/words/java/aspose-words-or-other-solutions/) -描述Aspose组件比MicrosoftOffice Automation好得多的原因
-- [系统要求](/words/java/system-requirements/) -提供有关系统和开发环境要求的信息
-- [保安须知](/words/java/security/) -介绍如何避免常见安全问题的注意事项和提示
-- [如何运行示例](/words/java/how-to-run-the-examples/) -描述如何下载和运行示例以及必须满足哪些软件要求
+- [系统要求](/words/zh/java/system-requirements/) -提供有关系统和开发环境要求的信息
+- [保安须知](/words/zh/java/security/) -介绍如何避免常见安全问题的注意事项和提示
+- [如何运行示例](/words/zh/java/how-to-run-the-examples/) -描述如何下载和运行示例以及必须满足哪些软件要求

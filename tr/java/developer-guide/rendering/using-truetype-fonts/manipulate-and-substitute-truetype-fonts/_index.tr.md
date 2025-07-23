@@ -1,4 +1,4 @@
----
+﻿---
 title: TrueType Yazı Tiplerini Manipüle Et ve Değiştir
 second_title: Aspose.Words için Java
 articleTitle: TrueType Yazı Tiplerini Manipüle Et ve Değiştir
@@ -219,7 +219,7 @@ Yalnızca Sans yazı tiplerinde normal ağırlığı olan Noto yazı tipleri ön
 
 ## Nerede Aspose.Words Yazı Tiplerini Arar?
 
-Aspose.Words dosya sisteminde otomatik olarak TrueType yazı tiplerini bulmaya çalışır. Genellikle, Aspose.Words varsayılan davranışını kullanarak `TrueType` yazı tiplerini bulabilirsiniz, fakat bazen kendi TrueType yazı tiplerinin bulunduğu klasörlerinizi belirtmeniz gerekir. Konu [Specify TrueType Fonts Location](/words/java/specify-truetype-fonts-location/) Aspose.Words yazı tiplerini nasıl ve nerede aradığını ve kendi yazı tiplerinin konumunu belirtmeyi anlatır.
+Aspose.Words dosya sisteminde otomatik olarak TrueType yazı tiplerini bulmaya çalışır. Genellikle, Aspose.Words varsayılan davranışını kullanarak `TrueType` yazı tiplerini bulabilirsiniz, fakat bazen kendi TrueType yazı tiplerinin bulunduğu klasörlerinizi belirtmeniz gerekir. Konu [Specify TrueType Fonts Location](/words/tr/java/specify-truetype-fonts-location/) Aspose.Words yazı tiplerini nasıl ve nerede aradığını ve kendi yazı tiplerinin konumunu belirtmeyi anlatır.
 
 ## Font Biçimleme İşlemlerinde Aspose.Words ve Microsoft Word'te Olan Farklar
 

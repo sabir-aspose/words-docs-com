@@ -96,7 +96,7 @@ Aspose.Words는[DownsampleOptions](https://reference.aspose.com/words/java/com.a
 
 ## 어도비PDF형식으로 글꼴 포함
 
-Aspose.Words을 사용하면 결과 PDF 문서에 글꼴을 임베드하는 방법을 제어할 수도 있습니다. 글꼴은 모든 Adobe PDF 문서에 임베드되어야 문서가 모든 컴퓨터에서 올바르게 렌더링될 수 있습니다(글꼴 렌더링에 대한 자세한 내용은 섹션 참조).[ TrueType 글꼴 사용](/words/java/using-truetype-fonts/) ). 기본적으로 Aspose.Words은 문서에서 사용된 글꼴의 하위 집합을 생성된 PDF에 포함합니다. 이 경우 문서에서 사용된 글리프(문자)만 PDF에 저장됩니다.
+Aspose.Words을 사용하면 결과 PDF 문서에 글꼴을 임베드하는 방법을 제어할 수도 있습니다. 글꼴은 모든 Adobe PDF 문서에 임베드되어야 문서가 모든 컴퓨터에서 올바르게 렌더링될 수 있습니다(글꼴 렌더링에 대한 자세한 내용은 섹션 참조).[ TrueType 글꼴 사용](/words/ko/java/using-truetype-fonts/) ). 기본적으로 Aspose.Words은 문서에서 사용된 글꼴의 하위 집합을 생성된 PDF에 포함합니다. 이 경우 문서에서 사용된 글리프(문자)만 PDF에 저장됩니다.
 
 ### 전체 글꼴 사용 시기 및 하위 집합 사용 시기
 

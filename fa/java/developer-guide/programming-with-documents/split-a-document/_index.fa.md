@@ -85,7 +85,7 @@ Aspose.Words همچنین شما را قادر می سازد تا از شکاف 
 
 {{% alert color="primary" %}}
 
-شما می توانید از هر [فرمت خروجی پشتیبانی شده توسط Aspose.Words](/words/java/supported-document-formats/).
+شما می توانید از هر [فرمت خروجی پشتیبانی شده توسط Aspose.Words](/words/fa/java/supported-document-formats/).
 
 {{% /alert %}}
 

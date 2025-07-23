@@ -96,7 +96,7 @@ De resolutie wordt berekend op basis van de werkelijke afbeeldingsgrootte op de 
 
 ## Lettertypen insluiten in Adobe PDF - indeling
 
-Aspose.Words stelt u ook in staat om te bepalen hoe lettertypen worden ingebed in de resulterende PDF documenten. Lettertypen moeten worden ingebed in elk Adobe PDF - document om ervoor te zorgen dat het document op elke machine correct kan worden weergegeven (zie meer details over het weergeven van lettertypen in de sectie [TrueType Lettertypen Gebruiken](/words/cpp/using-truetype-fonts/)). Standaard wordt in Aspose.Words een subset van lettertypen die in het document worden gebruikt, ingesloten in de gegenereerde PDF. In dit geval worden alleen de glyfen (tekens) die in het document worden gebruikt, opgeslagen in PDF.
+Aspose.Words stelt u ook in staat om te bepalen hoe lettertypen worden ingebed in de resulterende PDF documenten. Lettertypen moeten worden ingebed in elk Adobe PDF - document om ervoor te zorgen dat het document op elke machine correct kan worden weergegeven (zie meer details over het weergeven van lettertypen in de sectie [TrueType Lettertypen Gebruiken](/words/nl/cpp/using-truetype-fonts/)). Standaard wordt in Aspose.Words een subset van lettertypen die in het document worden gebruikt, ingesloten in de gegenereerde PDF. In dit geval worden alleen de glyfen (tekens) die in het document worden gebruikt, opgeslagen in PDF.
 
 ### Wanneer volledige lettertypen gebruiken en wanneer Subset
 

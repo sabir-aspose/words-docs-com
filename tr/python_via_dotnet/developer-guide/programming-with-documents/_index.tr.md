@@ -1,4 +1,4 @@
----
+﻿---
 title: Belgelerle Programlama
 second_title: Python via .NET için Aspose.Words
 articleTitle: Belgelerle Programlama
@@ -51,11 +51,11 @@ Belgelerle programlama yaparken Aspose.Words özellikleri hakkında daha fazla b
 - [OfficeMath'le çalışmak](/words/tr/python-net/working-with-officemath/)
 - [SmartArt Soğuk İşleme ile Çalışma](/words/tr/python-net/working-with-smartart-cold-rendering/)
 - [Filigranla Çalışmak](/words/tr/python-net/working-with-watermark/)
-- [Ole Nesneleri ve Çevrimiçi Videoyla Çalışma](/words/python-net/working-with-ole-objects/)
+- [Ole Nesneleri ve Çevrimiçi Videoyla Çalışma](/words/tr/python-net/working-with-ole-objects/)
 - [Alanlarla Çalışmak](/words/tr/python-net/working-with-fields/)
 - [Form Alanlarıyla Çalışmak](/words/tr/python-net/working-with-form-fields/)
 - [İçerik Kontrolü SDT ile Çalışma](/words/tr/python-net/working-with-content-control-sdt/)
 - [Kontrol Karakterleriyle Çalışmak](/words/tr/python-net/working-with-control-characters/)
 - [VBA Makrolarıyla Çalışmak](/words/tr/python-net/working-with-vba-macros/)
 - [Markdown Özellikleriyle Çalışmak](/words/tr/python-net/working-with-markdown-features/)
-- [Metin Belgesiyle Çalışmak](/words/python-net/working-with-text-document/)
+- [Metin Belgesiyle Çalışmak](/words/tr/python-net/working-with-text-document/)

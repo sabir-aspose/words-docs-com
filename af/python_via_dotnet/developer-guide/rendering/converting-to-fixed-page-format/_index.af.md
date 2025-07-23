@@ -1,4 +1,4 @@
----
+﻿---
 title: Omskakeling Na Vaste bladsy Formaat
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Omskakeling Na Vaste bladsy Formaat
@@ -74,7 +74,7 @@ Nadat die bladsy uitleg gebou is en die meetkunde van voorwerpe en hul posisie o
 
 - Die aantal en omvang van bladsye vervat in die uitset dokument ([page_set](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/page_set/)).
 - 'n stel karakters wat gebruik word om getalle te vertoon ([numeral_format](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/numeral_format/)).
-- 'n meta-lêer speler ([metafile_rendering_options](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/metafile_rendering_options/)). Vir meer besonderhede, sien die [Hantering Windows Meta Lêers](/words/python-net/handling-windows-metafiles/) artikel.
+- 'n meta-lêer speler ([metafile_rendering_options](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/metafile_rendering_options/)). Vir meer besonderhede, sien die [Hantering Windows Meta Lêers](/words/af/python-net/handling-windows-metafiles/) artikel.
 - 'n kwaliteitskoers vir die herkomprimering van JPEG beelde, waarvan die waarde effens kan verskil, afhangende van die geselekteerde stoorformaat ([jpeg_quality](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/jpeg_quality/)).
 - Optimalisering van vektorgrafika in Aspose.Words uitset ([optimize_output](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/optimize_output/)).
 - Grafiese opsies wanneer jy stoor Na Tiff, Png, Bmp, Jpeg, Emf formate ([use_anti_aliasing](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/use_anti_aliasing/), [use_high_quality_rendering](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/use_high_quality_rendering/)).

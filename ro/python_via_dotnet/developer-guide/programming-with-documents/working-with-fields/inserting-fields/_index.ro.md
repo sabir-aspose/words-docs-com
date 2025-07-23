@@ -1,4 +1,4 @@
----
+﻿---
 title: Introducerea câmpurilor în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Introduceți Câmpuri
@@ -14,7 +14,7 @@ Există mai multe moduri diferite de a insera câmpuri într-un document:
 
 - folosind [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/)
 - folosind [FieldBuilder](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldbuilder/)
-- utilizarea [Aspose.Words Model Obiect Document (DOM)](/words/python-net/aspose-words-document-object-model/)
+- utilizarea [Aspose.Words Model Obiect Document (DOM)](/words/ro/python-net/aspose-words-document-object-model/)
 
 În acest articol, vom analiza fiecare mod în detaliu și vom analiza cum să inserați anumite câmpuri folosind aceste opțiuni.
 
@@ -68,7 +68,7 @@ Următorul exemplu de cod arată cum să inserați un câmp într-un document fo
 
 ## Introducerea câmpurilor folosind DOM
 
-De asemenea, puteți insera diferite tipuri de câmpuri folosind [Aspose.Words Model Obiect Document (DOM)](/words/python-net/aspose-words-document-object-model/). În această secțiune, vom analiza câteva exemple.
+De asemenea, puteți insera diferite tipuri de câmpuri folosind [Aspose.Words Model Obiect Document (DOM)](/words/ro/python-net/aspose-words-document-object-model/). În această secțiune, vom analiza câteva exemple.
 
 ### Inserarea câmpului de îmbinare într-un Document folosind DOM
 

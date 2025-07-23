@@ -1,4 +1,4 @@
----
+﻿---
 title: 예제를 실행하는 방법
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 예제를 실행하는 방법
@@ -36,7 +36,7 @@ timestamp: 2024-07-11-16-13-28
 
 예제를 실행하려면 다음 위치에서 솔루션 파일을 엽니다 Visual Studio 그리고 프로젝트를 구축:
 
-- 에 대한 **API Reference** 예를 들어,구조는 클래스 이름을 기반으로 합니다. **Docs** 예는 대부분 [개발자 길드](/words/cpp/developer-guide/) 문서 섹션.
+- 에 대한 **API Reference** 예를 들어,구조는 클래스 이름을 기반으로 합니다. **Docs** 예는 대부분 [개발자 길드](/words/ko/cpp/developer-guide/) 문서 섹션.
 - 첫 번째 실행에서 종속성은 다음을 통해 자동으로 다운로드됩니다 NuGet.
 - 그 **Data** 루트 폴더의 폴더 **Examples** 예제에서 사용된 입력 파일을 포함합니다.
 - 모든 예제는 단위 테스트로 실행할 수 있습니다.
@@ -68,7 +68,7 @@ cmake -G "Visual Studio 17 2022" -Thost=x64 -Ax64 -S Examples\DocsExamples\ -B E
 
 예제를 실행하려면 다음 위치에서 솔루션 파일을 엽니다 Visual Studio 그리고 프로젝트를 구축:
 
-- 에 대한 **API Reference** 예를 들어,구조는 클래스 이름을 기반으로 합니다. **Docs** 예는 대부분 [개발자 길드](/words/cpp/developer-guide/) 문서 섹션.
+- 에 대한 **API Reference** 예를 들어,구조는 클래스 이름을 기반으로 합니다. **Docs** 예는 대부분 [개발자 길드](/words/ko/cpp/developer-guide/) 문서 섹션.
 - 그 **Data** 루트 폴더의 폴더 **Examples** 예제에서 사용된 입력 파일을 포함합니다.
 - 모든 예제는 단위 테스트로 실행할 수 있습니다.
 
@@ -99,7 +99,7 @@ cmake --build Examples/DocsExamples/build
 cmake -E chdir Examples/DocsExamples/build ctest --verbose
 {{< /highlight >}}
 
-- 에 대한 **API Reference** 예를 들어,구조는 클래스 이름을 기반으로 합니다. **Docs** 예는 대부분 [개발자 길드](/words/cpp/developer-guide/) 문서 섹션.
+- 에 대한 **API Reference** 예를 들어,구조는 클래스 이름을 기반으로 합니다. **Docs** 예는 대부분 [개발자 길드](/words/ko/cpp/developer-guide/) 문서 섹션.
 - 그 **Data** 루트 폴더의 폴더 **Examples** 예제에서 사용된 입력 파일을 포함합니다.
 - 모든 예제는 단위 테스트로 실행할 수 있습니다.
 

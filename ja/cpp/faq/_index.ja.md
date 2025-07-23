@@ -1,4 +1,4 @@
----
+﻿---
 title: よくある質問
 second_title: C++の場合Aspose.Words
 articleTitle: よくある質問
@@ -12,7 +12,7 @@ timestamp: 2024-01-31-14-23-37
 
 このページには、最もよく寄せられる質問への回答が含まれています。 現在のページを学んでください–おそらくこれはあなたがあなたの問題をすぐに解決することを可能にするでしょう。
 
-あなたの質問に対する答えが見つからない場合は、サポートフォーラムで尋ねることができます。 質問や問題を適切に報告する方法については、以下を参照してください。 [技術サポート](/words/cpp/technical-support/) ページ。
+あなたの質問に対する答えが見つからない場合は、サポートフォーラムで尋ねることができます。 質問や問題を適切に報告する方法については、以下を参照してください。 [技術サポート](/words/ja/cpp/technical-support/) ページ。
 
 {{% alert color="primary" %}}
 
@@ -32,7 +32,7 @@ C++の場合Aspose.Words アプリケーションがさまざまなドキュメ�
 
 **Q:"Aspose.Wordsはサードパーティのアプリケーションを必要としません"とはどういう意味ですか?**
 
-C++の場合Aspose.Words 動作するように任意のサードパーティ製のアプリケーションや追加のソフトウェアパッケージをインストールする必要はありません。 に記載されているようにAspose.Wordsをダウンロードしてインストールするだけです [「インストール」](/words/cpp/installation/) 記事と始めましょう。
+C++の場合Aspose.Words 動作するように任意のサードパーティ製のアプリケーションや追加のソフトウェアパッケージをインストールする必要はありません。 に記載されているようにAspose.Wordsをダウンロードしてインストールするだけです [「インストール」](/words/ja/cpp/installation/) 記事と始めましょう。
 
 ------
 
@@ -40,7 +40,7 @@ C++の場合Aspose.Words 動作するように任意のサードパーティ製�
 
 C++の場合Aspose.Words 一般的な開発環境とデプロイメントプラットフォームのほとんどをカバーしています。 このAPIは、Windows、Linux、Mac OSなどの幅広いオペレーティングシステムや様々なプラットフォーム用のアプリケーションを開発するために使用できます。
 
-詳細については、以下を参照してください [製品概要](/words/cpp/product-overview/) ページ。
+詳細については、以下を参照してください [製品概要](/words/ja/cpp/product-overview/) ページ。
 
 ------
 
@@ -48,7 +48,7 @@ C++の場合Aspose.Words 一般的な開発環境とデプロイメントプラ�
 
 C++の場合Aspose.Words このようなDOC、DOCX、HTML、Markdown、PDF、XML、および他のような一般的な文書形式のほとんどをサポートしています。
 
-サポートされている形式の完全なリストを見ることができます [サポートされているドキュメント形式](/words/cpp/supported-document-formats/) ページ。
+サポートされている形式の完全なリストを見ることができます [サポートされているドキュメント形式](/words/ja/cpp/supported-document-formats/) ページ。
 
 ------
 
@@ -56,7 +56,7 @@ C++の場合Aspose.Words このようなDOC、DOCX、HTML、Markdown、PDF、XML
 
 試用版または30日間の一時的なライセンスを使用して–あなたは2つの方法でこれを行うことができます。 試用版は購入したものと同じですが、完全な製品機能を提供しますが、ロードと保存時に文書の上部に評価透かしを追加し、最大文書サイズを数百段落に制限します。 一時的なライセンスを使用すると、30日間試用制限なしでAspose.Wordsをテストすることができます。
 
-を参照してください [ライセンスとサブスクリプション](/words/cpp/licensing/) より多くの情報のためのページ。
+を参照してください [ライセンスとサブスクリプション](/words/ja/cpp/licensing/) より多くの情報のためのページ。
 
 {{% alert color="primary" %}}
 
@@ -70,31 +70,31 @@ C++の場合Aspose.Words このようなDOC、DOCX、HTML、Markdown、PDF、XML
 
 Aspose.Wordsライセンスを購入するには、次の場所に移動する必要があります [購入](https://purchase.aspose.com/buy) ページでは、"Aspose.Words"製品と自分に合ったライセンスの種類を選択します。 次に、ライセンスをカートに追加し、ショッピングカートの指示に従います。
 
-購入後、以下に記載されているライセンスを申請してください [購入したライセンス](/words/cpp/licensing/#purchased-license) セクション。
+購入後、以下に記載されているライセンスを申請してください [購入したライセンス](/words/ja/cpp/licensing/) セクション。
 
-Aspose.Wordsをインストールする方法の詳細は、Aspose.Wordsをインストールする方法で読むことができます。 [インストール](/words/cpp/installation/) ページ。
+Aspose.Wordsをインストールする方法の詳細は、Aspose.Wordsをインストールする方法で読むことができます。 [インストール](/words/ja/cpp/installation/) ページ。
 
 ------
 
 **Q:私はいかにサポートを得てもいいですか。**
 
-無料のテクニカルサポートフォーラムを使用してください。 問題を適切に報告する方法と、フォーラムに連絡する前に何をする必要があるかの詳細については、以下を参照してください [技術サポート](/words/cpp/technical-support/) ページ。
+無料のテクニカルサポートフォーラムを使用してください。 問題を適切に報告する方法と、フォーラムに連絡する前に何をする必要があるかの詳細については、以下を参照してください [技術サポート](/words/ja/cpp/technical-support/) ページ。
 
 ## ドキュメントのレンダリング
 
 {{% alert color="primary" %}}
 
-レンダリングに関するより詳細な情報は、次のページで見つけることができます。 [レンダリング](/words/cpp/rendering/) ドキュメントセクション。
+レンダリングに関するより詳細な情報は、次のページで見つけることができます。 [レンダリング](/words/ja/cpp/rendering/) ドキュメントセクション。
 
 {{% /alert %}}
 
 **Q:出力ドキュメントのレイアウトとフォントが元のものと異なるのはなぜですか?**
 
-フォントが使用できないか、フォント形式がMicrosoft WordでサポートされているがAspose.Wordsではサポートされていない可能性があります。 Aspose.Wordsが実行されます [フォント置換](/words/cpp/manipulate-and-substitute-truetype-fonts/).
+フォントが使用できないか、フォント形式がMicrosoft WordでサポートされているがAspose.Wordsではサポートされていない可能性があります。 Aspose.Wordsが実行されます [フォント置換](/words/ja/cpp/manipulate-and-substitute-truetype-fonts/).
 
 フォントが欠落しているかどうかを確認するには:
 
-- Aspose.Wordsでは、フォント置換の警告を使用します(詳細については、"フォントが置換されたことを認識する方法"のセクションを参照してください [TrueTypeフォントの操作と置換](/words/cpp/manipulate-and-substitute-truetype-fonts/) 記事）。
+- Aspose.Wordsでは、フォント置換の警告を使用します(詳細については、"フォントが置換されたことを認識する方法"のセクションを参照してください [TrueTypeフォントの操作と置換](/words/ja/cpp/manipulate-and-substitute-truetype-fonts/) 記事）。
 - Microsoft Wordで"フォント置換"ダイアログボックスを開きます(ファイル→オプション→詳細→フォント置換)。
 
 ------
@@ -121,7 +121,7 @@ Aspose.Wordsをインストールする方法の詳細は、Aspose.Wordsをイ�
 
 {{% alert color="primary" %}}
 
-ドキュメントを使用したプログラミングに関するより詳細な情報は、次の場所で確認できます。 [ドキュメントを使ったプログラミング](/words/cpp/programming-with-documents/) ドキュメントセクション。
+ドキュメントを使用したプログラミングに関するより詳細な情報は、次の場所で確認できます。 [ドキュメントを使ったプログラミング](/words/ja/cpp/programming-with-documents/) ドキュメントセクション。
 
 {{% /alert %}}
 
@@ -133,7 +133,7 @@ Aspose.Wordsをインストールする方法の詳細は、Aspose.Wordsをイ�
 
 {{% alert color="primary" %}}
 
-ドキュメントの変換に関する詳細な情報は、次のページで確認できます。 [文書を変換する](/words/cpp/convert-a-document/) ドキュメントセクション。
+ドキュメントの変換に関する詳細な情報は、次のページで確認できます。 [文書を変換する](/words/ja/cpp/convert-a-document/) ドキュメントセクション。
 
 {{% /alert %}}
 
@@ -156,7 +156,7 @@ doc->Save(outputPath);
 
 {{% alert color="primary" %}}
 
-ドキュメントを使用したプログラミングに関するより詳細な情報は、次の場所で確認できます。 [ドキュメントを使ったプログラミング](/words/cpp/programming-with-documents/) ドキュメントセクション。
+ドキュメントを使用したプログラミングに関するより詳細な情報は、次の場所で確認できます。 [ドキュメントを使ったプログラミング](/words/ja/cpp/programming-with-documents/) ドキュメントセクション。
 
 {{% /alert %}}
 

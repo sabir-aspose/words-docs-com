@@ -65,5 +65,5 @@ In Aspose.Words zijn alle klassen en eigenschappen gerelateerd aan tabellen opge
 
 ## Zie Ook
 
-* [Aspose.Words Document Object Model (DOM)](/words/cpp/aspose-words-document-object-model/)
-* [Logische niveaus van knooppunten in een Document](/words/cpp/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Document Object Model (DOM)](/words/nl/cpp/aspose-words-document-object-model/)
+* [Logische niveaus van knooppunten in een Document](/words/nl/cpp/logical-levels-of-nodes-in-a-document/)

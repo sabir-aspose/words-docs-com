@@ -38,7 +38,7 @@ Aspose.Words[BreakType](https://reference.aspose.com/words/java/com.aspose.words
 
 ## 섹션 관리
 
-섹션은 일반적인 복합 노드이기 때문에 전체 노드 조작API을 사용하여 섹션을 조작 할 수 있습니다.섹션에 추가,제거 및 기타 작업. 이 기사에서 노드에 대한 자세한 내용을 읽을 수 있습니다 [Aspose.Words문서 개체 모델(DOM)](/words/java/aspose-words-document-object-model/).
+섹션은 일반적인 복합 노드이기 때문에 전체 노드 조작API을 사용하여 섹션을 조작 할 수 있습니다.섹션에 추가,제거 및 기타 작업. 이 기사에서 노드에 대한 자세한 내용을 읽을 수 있습니다 [Aspose.Words문서 개체 모델(DOM)](/words/ko/java/aspose-words-document-object-model/).
 
 반면에`DocumentBuilder`API을 사용하여 섹션을 사용할 수도 있습니다. 이 기사에서는 섹션 작업의이 특정 방법에 초점을 맞출 것입니다.
 
@@ -154,5 +154,5 @@ Aspose.Words[PageSetup](https://reference.aspose.com/words/java/com.aspose.words
 
 ## 또한 참조
 
-- [문서의 노드의 논리적 수준](/words/java/logical-levels-of-nodes-in-a-document/)
-- [문서 삽입 및 추가](/words/java/insert-and-append-documents/)
+- [문서의 노드의 논리적 수준](/words/ko/java/logical-levels-of-nodes-in-a-document/)
+- [문서 삽입 및 추가](/words/ko/java/insert-and-append-documents/)

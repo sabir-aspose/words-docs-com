@@ -20,6 +20,6 @@ Relacja między dokumentem a układem strony jest dość prosta. Podczas gdy dok
 
 ## Zobacz także
 
-* [Tworzenie układu strony](/words/cpp/creating-a-page-layout/)
-* [Zapisywanie dokumentu w formacie stałej strony](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Określ Opcje Układu](/words/cpp/specify-layout-options/)
+* [Tworzenie układu strony](/words/pl/cpp/creating-a-page-layout/)
+* [Zapisywanie dokumentu w formacie stałej strony](/words/pl/cpp/saving-a-document-to-fixed-page-format/)
+* [Określ Opcje Układu](/words/pl/cpp/specify-layout-options/)

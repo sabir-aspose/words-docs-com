@@ -16,7 +16,7 @@ timestamp: 2024-06-05-14-43-57
 
 Aspose.Words היא ספריית כיתות חוצה פלטפורמות המאפשרת ליישומים שלך לבצע מגוון רחב של משימות לעיבוד מסמכים.
 
-באמצעות Aspose.Words, אתה יכול להמיר מסמך מכל פורמט עומס נתמך לכל פורמט שמירה נתמך, למשל, Word פורמטים ל PDF, HTML, או Markdown, HTML ל DOCX, וכן הלאה. קרא עוד על המרת מסמכים ב [המרת מסמך](/words/cpp/convert-a-document/) סעיף.
+באמצעות Aspose.Words, אתה יכול להמיר מסמך מכל פורמט עומס נתמך לכל פורמט שמירה נתמך, למשל, Word פורמטים ל PDF, HTML, או Markdown, HTML ל DOCX, וכן הלאה. קרא עוד על המרת מסמכים ב [המרת מסמך](/words/he/cpp/convert-a-document/) סעיף.
 
 ראוי לציין שעם Aspose.Words אתה יכול ליצור, לשנות, להמיר, לעבד ולהדפיס מסמכים מבלי להסתמך על יישומי צד שלישי, כגון Microsoft Word, או Office Automation.
 
@@ -42,21 +42,21 @@ Aspose.Words עבור C++ ניתן לחלק את התכונות לארבעה א�
 
 היכולת להמיר מסמכים בקלות ובאמינות היא אחת התכונות העיקריות של Aspose.Words.
 
-מקיף [ייבוא וייצוא מסמכים](/words/cpp/loading-saving-and-converting/) עם [מעל 35 פורמטים של קבצים נתמכים](/words/cpp/supported-document-formats/) מאפשר למשתמשים להמיר מסמכים מ [one popular format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) ל [another](https://reference.aspose.com/words/cpp/aspose.words/saveformat/), לדוגמה, מ DOCX ל PDF, JPEG, או Markdown.
+מקיף [ייבוא וייצוא מסמכים](/words/he/cpp/loading-saving-and-converting/) עם [מעל 35 פורמטים של קבצים נתמכים](/words/he/cpp/supported-document-formats/) מאפשר למשתמשים להמיר מסמכים מ [one popular format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) ל [another](https://reference.aspose.com/words/cpp/aspose.words/saveformat/), לדוגמה, מ DOCX ל PDF, JPEG, או Markdown.
 
 #### מודל אובייקט מסמך (DOM)
 
-גישה פרוגרמטית דרך API עשירה לכל רכיבי המסמך והעיצוב מאפשרת ליצור, לשנות, לחלץ, להעתיק, לפצל, להצטרף ולהחליף תוכן מסמך. למידע נוסף ב [Aspose.Words מודל אובייקט מסמך (DOM)](/words/cpp/aspose-words-document-object-model/) סעיף.
+גישה פרוגרמטית דרך API עשירה לכל רכיבי המסמך והעיצוב מאפשרת ליצור, לשנות, לחלץ, להעתיק, לפצל, להצטרף ולהחליף תוכן מסמך. למידע נוסף ב [Aspose.Words מודל אובייקט מסמך (DOM)](/words/he/cpp/aspose-words-document-object-model/) סעיף.
 
 #### עיבוד
 
-אנו משתמשים במונח [עיבוד ב Aspose.Words](/words/cpp/rendering/) כדי לתאר את התהליך של המרת מסמך לפורמט קובץ או מדיום, עימוד או שיש לו את הרעיון של דפים.
+אנו משתמשים במונח [עיבוד ב Aspose.Words](/words/he/cpp/rendering/) כדי לתאר את התהליך של המרת מסמך לפורמט קובץ או מדיום, עימוד או שיש לו את הרעיון של דפים.
 
 ניתן להמיר מסמכים שלמים או דפים מסוימים ל PDF או XPS כדי ליצור מסמכים בצד השרת, להדפיס אותם. וכל זה בנאמנות גבוהה-בדיוק כמו Microsoft Word היה עושה את זה.
 
 #### דיווח
 
-צור מסמכים או דוחות מאפס או על ידי מילוי תבניות בנתונים ממקורות נתונים או אובייקטים עסקיים. למידע נוסף על דיווח ואחזור נתונים ממאגרי מידע, עיין ב [Mail Merge ודיווח](/words/cpp/mail-merge-and-reporting/).
+צור מסמכים או דוחות מאפס או על ידי מילוי תבניות בנתונים ממקורות נתונים או אובייקטים עסקיים. למידע נוסף על דיווח ואחזור נתונים ממאגרי מידע, עיין ב [Mail Merge ודיווח](/words/he/cpp/mail-merge-and-reporting/).
 
 ### עצמאות פלטפורמה
 
@@ -86,8 +86,8 @@ Aspose.Words הוא רב חוט בטוח כל עוד רק חוט אחד עובד
 
 ## תמחור ומדיניות
 
-אנא בקר באתר [רישוי](/words/cpp/licensing/) דף לקבלת מידע על רישיונות ולסקור את [מידע על תמחור](https://purchase.aspose.com/pricing/words/family/) דף לפרטים על תמחור.
+אנא בקר באתר [רישוי](/words/he/cpp/licensing/) דף לקבלת מידע על רישיונות ולסקור את [מידע על תמחור](https://purchase.aspose.com/pricing/words/family/) דף לפרטים על תמחור.
 
 ## תמיכה טכנית
 
-לקבלת מידע נוסף על Aspose.Words תמיכה טכנית, תסתכל על [דף תמיכה](/words/cpp/technical-support/).
+לקבלת מידע נוסף על Aspose.Words תמיכה טכנית, תסתכל על [דף תמיכה](/words/he/cpp/technical-support/).

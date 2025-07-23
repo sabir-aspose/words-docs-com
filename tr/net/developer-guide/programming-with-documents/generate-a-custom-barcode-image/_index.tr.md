@@ -1,4 +1,4 @@
----
+﻿---
 title: Nasıl barkod oluşturun
 second_title: Aspose.Words için .NET
 articleTitle: Özel Barcode Görselini Oluştur
@@ -55,7 +55,7 @@ Yüklenen veya yeni eklenen barkodlu belgeyi PDF, XPS vb. sabit sayfa biçimleri
 
 {{% alert color="primary" %}}
 
-Bir formattan diğerine belge dönüştürme hakkında daha fazla bilgi için [Convert a Document](/words/net/convert-a-document/) belgelendirme bölümüne bakın.
+Bir formattan diğerine belge dönüştürme hakkında daha fazla bilgi için [Convert a Document](/words/tr/net/convert-a-document/) belgelendirme bölümüne bakın.
 
 {{% /alert %}}
 

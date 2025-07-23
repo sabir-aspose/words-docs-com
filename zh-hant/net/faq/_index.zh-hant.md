@@ -1,4 +1,4 @@
----
+﻿---
 title: 常见問題解答
 second_title: Aspose.Words for .NET
 articleTitle: 常見問題集– Aspose.Words for .NET
@@ -14,7 +14,7 @@ timestamp: 2024-11-18-12-56-02
 
 本頁面包含回答最常問的問題。 請學習當前頁面，或許這樣你就能很快地解決問題。
 
-如果你沒有找到你問題的答案，可以在支持論壇上詢問。 如需了解如何正確報告問題或問題，請參閱 [Technical Support](/words/net/technical-support/) 頁。
+如果你沒有找到你問題的答案，可以在支持論壇上詢問。 如需了解如何正確報告問題或問題，請參閱 [Technical Support](/words/zh-hant/net/technical-support/) 頁。
 
 {{% alert color="primary" %}}
 
@@ -34,7 +34,7 @@ Aspose.Words for .NET是一個讓您的應用程式能夠進行廣泛的文件�
 
 **Q：Aspose.Words 不需要第三方應用程式是什麼意思？**
 
-Aspose.Words for .NET 不需要安裝任何第三方應用程式或額外軟體套件才能正常工作。 只要按照 [Installation](/words/net/installation/) 文章所述的方式下載並安裝 Aspose.Words，就能開啟使用。
+Aspose.Words for .NET 不需要安裝任何第三方應用程式或額外軟體套件才能正常工作。 只要按照 [Installation](/words/zh-hant/net/installation/) 文章所述的方式下載並安裝 Aspose.Words，就能開啟使用。
 
 ------
 
@@ -42,7 +42,7 @@ Aspose.Words for .NET 不需要安裝任何第三方應用程式或額外軟體�
 
 Aspose.Words for .NET涵蓋了大多數熱門的開發環境和部署平台。 It 的 API 可用於開發适用于多种操作系统的应用程序，如 Windows、Linux 和 Mac OS，以及各種平台。
 
-詳細說明請參閱[Product Overview](/words/net/product-overview/)頁和[Platforms and Interoperability](/words/net/platforms-and-interoperability/)節。
+詳細說明請參閱[Product Overview](/words/zh-hant/net/product-overview/)頁和[Platforms and Interoperability](/words/net/platforms-and-interoperability/)節。
 
 ------
 
@@ -50,7 +50,7 @@ Aspose.Words for .NET涵蓋了大多數熱門的開發環境和部署平台。 I
 
 Aspose.Words for .NET支援大多數流行的文件格式，例如 DOC、DOCX、HTML、 Markdown、PDF、XML 等。
 
-你可以在 [Supported Document Formats](/words/net/supported-document-formats/) 頁面上看到支援的格式完整清單。
+你可以在 [Supported Document Formats](/words/zh-hant/net/supported-document-formats/) 頁面上看到支援的格式完整清單。
 
 ------
 
@@ -58,7 +58,7 @@ Aspose.Words for .NET支援大多數流行的文件格式，例如 DOC、DOCX、
 
 您可以用兩種方式來做 – 使用試用版或30天臨時授權。 試用版與購買版相同，它提供了完整的產品功能，但在載入或儲存文件時會在文件上加上評鑑標記，且最大文件尺寸只到幾百個段落。 試用版授權讓您在 30 天內不受試用限制，測試 Aspose.Words。
 
-查看 [Licensing and Subscription](/words/net/licensing/) 頁面以獲得更多資訊。
+查看 [Licensing and Subscription](/words/zh-hant/net/licensing/) 頁面以獲得更多資訊。
 
 {{% alert color="primary" %}}
 
@@ -72,31 +72,31 @@ Aspose.Words for .NET支援大多數流行的文件格式，例如 DOC、DOCX、
 
 要購買 Aspose.Words 版權，你需要前往 [Purchase](https://purchase.aspose.com/buy) 頁面，選擇 "Aspose.Words" 產品以及適合你的版權類型。 接著將授權加入您的購物車並按照購物車指示操作。
 
-購買後，如第 [Purchased License](/words/net/licensing/#purchased-license) 節所述，請申請授權。
+購買後，如第 [Purchased License](/words/zh-hant/net/licensing/) 節所述，請申請授權。
 
-如何安裝 Aspose.Words 的細節，可以在 [Installation](/words/net/installation/) 頁面中讀取。
+如何安裝 Aspose.Words 的細節，可以在 [Installation](/words/zh-hant/net/installation/) 頁面中讀取。
 
 ------
 
 **Q：我怎麼才能得到支援？**
 
-請使用免費技術支援討論區。 關於如何正確地報告問題和聯絡論壇前需要做什麼，詳細說明請見 [Technical Support](/words/net/technical-support/)。
+請使用免費技術支援討論區。 關於如何正確地報告問題和聯絡論壇前需要做什麼，詳細說明請見 [Technical Support](/words/zh-hant/net/technical-support/)。
 
 ## 呈现文件
 
 {{% alert color="primary" %}}
 
-您可以在 [Rendering](/words/net/rendering/) 文檔中找到有關渲染的詳細資訊。
+您可以在 [Rendering](/words/zh-hant/net/rendering/) 文檔中找到有關渲染的詳細資訊。
 
 {{% /alert %}}
 
 **為何輸出文件的排版和字體與原始文件不同？**
 
-字體可能無法使用，或字體格式支援 Microsoft Word 但不支援 Aspose.Words。Aspose.Words 會執行 [font substitution](/words/net/manipulating-and-substitution-truetype-fonts/)。
+字體可能無法使用，或字體格式支援 Microsoft Word 但不支援 Aspose.Words。Aspose.Words 會執行 [font substitution](/words/zh-hant/net/manipulating-and-substitution-truetype-fonts/)。
 
 若要檢查字體是否缺失：
 
-* 在 Aspose.Words 中使用字型替換警告 (詳見 [Manipulate and Substitute TrueType Fonts](/words/net/manipulating-and-substitution-truetype-fonts/) 文章的如何辨別字型已被替換部分)。
+* 在 Aspose.Words 中使用字型替換警告 (詳見 [Manipulate and Substitute TrueType Fonts](/words/zh-hant/net/manipulating-and-substitution-truetype-fonts/) 文章的如何辨別字型已被替換部分)。
 * 在 Microsoft Word 開啟字體替換對話方塊 (檔案 → 選項 → 高級 → 字體替換)。
 
 ------
@@ -167,7 +167,7 @@ Aspose.Words for .NET支援大多數流行的文件格式，例如 DOC、DOCX、
 
 {{% alert color="primary" %}}
 
-您可以在 [Programming with Documents](/words/net/programming-with-documents/) 文檔部分找到有關用文件編程的更詳盡資訊。
+您可以在 [Programming with Documents](/words/zh-hant/net/programming-with-documents/) 文檔部分找到有關用文件編程的更詳盡資訊。
 
 {{% /alert %}}
 
@@ -179,7 +179,7 @@ Aspose.Words for .NET支援大多數流行的文件格式，例如 DOC、DOCX、
 
 {{% alert color="primary" %}}
 
-您可以在 [Convert a Document](/words/net/convert-a-document/) 的 dokumentacja 部分找到有關轉換文件的更多詳細資訊。
+您可以在 [Convert a Document](/words/zh-hant/net/convert-a-document/) 的 dokumentacja 部分找到有關轉換文件的更多詳細資訊。
 
 {{% /alert %}}
 
@@ -217,7 +217,7 @@ doc.Save(_dataDir + "output.pdf", SaveFormat.Pdf);
 
 {{% alert color="primary" %}}
 
-您可以在 [Programming with Documents](/words/net/programming-with-documents/) 文檔部分找到更多有關編程的詳盡資訊。
+您可以在 [Programming with Documents](/words/zh-hant/net/programming-with-documents/) 文檔部分找到更多有關編程的詳盡資訊。
 
 {{% /alert %}}
 
@@ -311,4 +311,4 @@ pdfDocument.Save(_dataDir + "out.pdf", SaveFormat.Pdf);
 
 **問：要在 Docker 中怎麼使用 Aspose.Words？**
 
-為了詳細的答案，請參閱文章 [How to Run Aspose.Words in Docker](/words/net/how-to-run-aspose-words-in-docker/)。
+為了詳細的答案，請參閱文章 [How to Run Aspose.Words in Docker](/words/zh-hant/net/how-to-run-aspose-words-in-docker/)。

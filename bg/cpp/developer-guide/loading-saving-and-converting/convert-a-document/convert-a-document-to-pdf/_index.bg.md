@@ -47,7 +47,7 @@ timestamp: 2024-10-21-08-52-03
 
 ### Конвертиране в различни PDF стандарти {#converting-to-various-pdf-standards}
 
-Aspose.Words осигурява изброяването [PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) в подкрепа на превръщането на DOC или DOCX в различни PDF формат стандарти (като PDF 1.7, PDF 1.5, и т.н.).
+Aspose.Words осигурява изброяването [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) в подкрепа на превръщането на DOC или DOCX в различни PDF формат стандарти (като PDF 1.7, PDF 1.5, и т.н.).
 
 Следващият пример за код показва как да конвертирате документ в PDF 1.7, като използвате [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) в съответствие с PDF17:
 
@@ -67,6 +67,6 @@ Aspose.Words осигурява изброяването [PdfCompliace](https://
 
 ## Вижте Също
 
-- Статията [Рендериране](/words/cpp/rendering/) за повече информация относно форматите на фиксираната страница и потока
-- Статията [Конвертиране във формат на фиксирана страница](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) за повече информация относно оформлението на страницата
-- Статията [Посочете опциите за рендиране при конвертиране в PDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) за повече информация относно употребата на `PdfSaveOptions` клас
+- Статията [Рендериране](/words/bg/cpp/rendering/) за повече информация относно форматите на фиксираната страница и потока
+- Статията [Конвертиране във формат на фиксирана страница](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) за повече информация относно оформлението на страницата
+- Статията [Посочете опциите за рендиране при конвертиране в PDF](/words/bg/cpp/specify-rendering-options-when-converting-to-pdf/) за повече информация относно употребата на `PdfSaveOptions` клас

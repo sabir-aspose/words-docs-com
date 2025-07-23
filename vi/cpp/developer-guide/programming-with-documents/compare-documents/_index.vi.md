@@ -1,4 +1,4 @@
----
+﻿---
 title: So Sánh Tài liệu trong C++
 second_title: Aspose.Words cho C++
 articleTitle: So Sánh Tài Liệu
@@ -36,7 +36,7 @@ Giới hạn chung cho hai tài liệu được so sánh là chúng không đư�
 
 {{% alert color="primary" %}}
 
-Lưu ý rằng bạn có thể so sánh bất kỳ hai tài liệu trong [các định dạng tệp được hỗ trợ](/words/cpp/supported-document-formats/). Bạn có thể so sánh các đối tượng tài liệu và thậm chí bạn có thể tạo các đối tượng đó từ đầu mà không cần có bất kỳ định dạng cụ thể nào.
+Lưu ý rằng bạn có thể so sánh bất kỳ hai tài liệu trong [các định dạng tệp được hỗ trợ](/words/vi/cpp/supported-document-formats/). Bạn có thể so sánh các đối tượng tài liệu và thậm chí bạn có thể tạo các đối tượng đó từ đầu mà không cần có bất kỳ định dạng cụ thể nào.
 
 {{% /alert %}}
 

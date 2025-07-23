@@ -1,4 +1,4 @@
----
+﻿---
 title: Bună ziua, lume!
 second_title: Exemplu simplu cum să folosești Aspose.Words pentru .NET
 articleTitle: Bună ziua, lume!
@@ -12,7 +12,7 @@ timestamp: 2024-01-27-14-07-04
 
 Un cod "Bună lume!" este adesea primul exemplu simplu de scris folosind Aspose.Words pentru .NET, și poate fi folosit și ca un test de validare pentru a asigura că software-ul destinat compilării sau rulării codului sursă este instalat corect.
 
-"Aspose.Words pentru .NET" biblioteca C# oferă dezvoltatorilor acces direct la crearea, modificarea, unirea, conversia și compararea documentelor Word și Web. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML și multe alte formate de fișiere sunt [supported](/words/net/supported-document-formats/).
+"Aspose.Words pentru .NET" biblioteca C# oferă dezvoltatorilor acces direct la crearea, modificarea, unirea, conversia și compararea documentelor Word și Web. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML și multe alte formate de fișiere sunt [supported](/words/ro/net/supported-document-formats/).
 
 Mai jos este un fragment de cod care urmează acești pași:
 

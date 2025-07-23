@@ -1,4 +1,4 @@
----
+﻿---
 title: C#中的欄位概覽
 second_title: Aspose.Words for .NET
 articleTitle: 欄位概述
@@ -29,7 +29,7 @@ Aspose.Words 是一個設計用來處理 Microsoft Word 文檔的類別庫，並
 
 ![fields-aspose-words](fields-overview-1.png)
 
-構成場碼的內容，儲存在 [Run](https://reference.aspose.com/words/net/aspose.words/run/) 個節點中，它們介在 [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) 和 [FieldSeparator](https://reference.aspose.com/words/net/aspose.words.fields/fieldseparator/) 之間。 字段結果儲存在 **FieldSeparator** 和 [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) 節點之間，它可以由各種不同的內容組成。 一般來說，字段結果僅包含由 **Run** 個節點組成的文字，然而有可能 **FieldEnd** 節點位于不同的段落中，因此字段結果包含 [block level nodes](/words/net/logical-levels-of-nodes-in-a-document/) 等如 **Table** 和 **Paragraph** 節點。
+構成場碼的內容，儲存在 [Run](https://reference.aspose.com/words/net/aspose.words/run/) 個節點中，它們介在 [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) 和 [FieldSeparator](https://reference.aspose.com/words/net/aspose.words.fields/fieldseparator/) 之間。 字段結果儲存在 **FieldSeparator** 和 [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) 節點之間，它可以由各種不同的內容組成。 一般來說，字段結果僅包含由 **Run** 個節點組成的文字，然而有可能 **FieldEnd** 節點位于不同的段落中，因此字段結果包含 [block level nodes](/words/zh-hant/net/logical-levels-of-nodes-in-a-document/) 等如 **Table** 和 **Paragraph** 節點。
 
 這裡是如何透過使用*DocumentExplorer*範例儲存一個欄位於Aspose.Words的方式，這個範例可以在[Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Examples/DocsExamples/DocumentExplorer)中找到。
 
@@ -37,7 +37,7 @@ Aspose.Words 是一個設計用來處理 Microsoft Word 文檔的類別庫，並
 
 ## Aspose.Words Document Object Model (DOM)中的欄位
 
-當文件載入到 Aspose.Words 時，文件的字段會作為一組獨立的元件（節點）被載入到 [Aspose.Words Document Object Model](/words/net/aspose-words-document-object-model/)。 單個欄位會作為一組包含 **FieldStart**、**FieldSeparator** 和 **FieldEnd** 節點的集合載入，以及這些節點之間的內容。 如果一個欄位沒有欄位結果，就不會有 **FieldSeparator** 節點。 這些節點總是 inline (作為 [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) 或 [SmartTag](https://reference.aspose.com/words/net/aspose.words.markup/smarttag/) 的子節點) 找到。
+當文件載入到 Aspose.Words 時，文件的字段會作為一組獨立的元件（節點）被載入到 [Aspose.Words Document Object Model](/words/zh-hant/net/aspose-words-document-object-model/)。 單個欄位會作為一組包含 **FieldStart**、**FieldSeparator** 和 **FieldEnd** 節點的集合載入，以及這些節點之間的內容。 如果一個欄位沒有欄位結果，就不會有 **FieldSeparator** 節點。 這些節點總是 inline (作為 [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) 或 [SmartTag](https://reference.aspose.com/words/net/aspose.words.markup/smarttag/) 的子節點) 找到。
 
 在 Aspose.Words 中，各 **FieldXXX** 節點皆由 [FieldChar](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/) 導出。 這個類別提供一個屬性，透過 [FieldType](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/) 屬性來檢查指定節點所代表之欄位類型。 例如，**FieldType.FieldMergeField** 代表該文檔內的合併欄位。
 

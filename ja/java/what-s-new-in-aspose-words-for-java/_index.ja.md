@@ -470,7 +470,7 @@ TXT文書の読み込み時にハイパーリンクを認識する機能は、�
 
 {{% alert color="primary" %}}
 
-詳細については、こちらをご覧ください [Aspose.WordsのためのJava 23.9リリースノート](/words/java/aspose-words-for-java-23-9-release-notes/).
+詳細については、こちらをご覧ください [Aspose.WordsのためのJava 23.9リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-9-release-notes/).
 
 詳細については、こちらをご覧ください [Aspose.WordsのためのJava 23.10リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 
