@@ -12,11 +12,25 @@ url: /python-net/supported-ai-models/
 timestamp: 2025-03-17-19-00-00
 ---
 
-Aspose.Words now leverages advanced AI models to enhance document processing and analysis. With the Aspose.Words.AI namespace, developers can access features that utilize AI for tasks like document summarization and analysis, integrating generative language models from industry leaders.
+Aspose.Words now leverages advanced AI models to enhance document processing and analysis. With the Aspose.Words.AI namespace, developers can access AI-powered features such as document summarization and analysis, document translation, and grammar checking by integrating generative language models from industry leaders.
 
-Aspose.Words library currently supports integration with OpenAI, Google, and Claude models' families. These models bring powerful capabilities for working with documents. By enabling seamless interaction with these AI tools, Aspose.Words simplifies complex tasks and enhances productivity for developers.
+## Supported Model Types
 
-You can create a model instance using the [create](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodel/create/) method of the [AiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodel/) class. The full list of supported model types is listed in the [AiModelType](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodeltype/) enumeration.
+Aspose.Words library currently supports integration with:
+
+* OpenAI,
+* Google,
+* and Claude models' families.
+
+These models bring powerful capabilities for working with documents. By enabling seamless interaction with these AI tools, Aspose.Words simplifies complex tasks and enhances productivity for developers.
+
+{{% alert color="primary" %}}
+
+The full list of supported model types is listed in the [AiModelType](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodeltype/) enumeration.
+
+{{% /alert %}}
+
+You can create a model instance using the [create](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodel/create/) method of the [AiModel](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodel/) class. 
 
 The following code example shows how to create a new instance of **AiModel** class.
 
@@ -30,4 +44,3 @@ def create(self, model_type: aspose.words.ai.AiModelType):
 For more information, check the [aspose.words.ai](https://reference.aspose.com/words/python-net/aspose.words.ai/) API documentation.
 
 {{% /alert %}}
-
