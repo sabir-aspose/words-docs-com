@@ -95,9 +95,3 @@ If you don’t want to use system fonts at all, Aspose.Words allows you to ignor
 The **priority** property is used when there are fonts with the same family name and style in different font sources. In this case Aspose.Words selects the font from the source with the higher priority value. For example, there is an old version of the font on the system folder and customer added a new version of the same font in a custom folder.
 
 {{< gist "aspose-words-gists" "412100f144878625758c6f877d9ec584" "fonts-folders-with-priority.js" >}}
-
-## Getting a List of Available Fonts
-
-If you want to get the list of available fonts, which, for example, can be used to render a PDF document, you can use the **getAvailableFonts** method, as shown in the following code example. The [PhysicalFontInfo](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/physicalfontinfo/) class specifies information about the physical font available to Aspose.Words font engine:
-
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-GetListOfAvailableFonts.py" >}}

@@ -52,22 +52,6 @@ While binary raster operations are not currently supported and the limited numbe
 
 {{% /alert %}}
 
-The example shown below demonstrates how Aspose.Words renders a metafile to a bitmap when it is not possible to correctly render some of metafile records to vector graphics:
-
-{{< highlight python>}}
-# Load the document from disk.
-doc = aw.Document(docs_base.my_dir +  "Rendering.docx")
-
-metafileRenderingOptions = aw.saving.MetafileRenderingOptions()
-metafileRenderingOptions.emulate_raster_operations = False
-metafileRenderingOptions.rendering_mode = aw.saving.MetafileRenderingMode.VECTOR_WITH_FALLBACK
-
-saveOptions = aw.saving.PdfSaveOptions()
-saveOptions.metafile_rendering_options = metafileRenderingOptions
-
-doc.save(docs_base.artifacts_dir +"PdfSaveOptions.HandleRasterWarnings.pdf", saveOptions)
-{{< /highlight >}}
-
 ## Metafile Fallback Settings
 
 Aspose.Words does not support a number of metafile features that are most complex or rare. In this case Aspose.Words may perform fallback to a different type of metafile player. 
