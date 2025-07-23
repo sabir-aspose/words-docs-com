@@ -6,7 +6,6 @@ description: "Aspose.Words for Node.js via .NET is a class library that enables 
 type: docs
 weight: 40
 url: /nodejs-net/
-aliases: [/nodejs/]
 is_root: true
 timestamp: 2025-04-15-11-08-55
 ---
