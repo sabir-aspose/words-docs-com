@@ -1,0 +1,25 @@
+---
+title: Apply Custom Formatting to Fields
+second_title: Aspose.Words for Node.js via .NET
+articleTitle: Apply Custom Formatting to Fields
+linktitle: Apply Custom Formatting to Fields
+description: "Format and evaluate fields result using Node.js."
+type: docs
+weight: 40
+ai_search_scope: words_nodejs
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+url: /nodejs-net/applying-custom-formatting-to-fields/
+timestamp: 2025-07-09-10-05-05
+---
+
+Sometimes users need to apply custom formatting to fields. In this article, we will look at a couple of examples of how this can be done.
+
+To learn more options, see the full list of properties for each field type in the corresponding class in the [Fields module](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/).
+
+## How to evaluate `IF` condition
+
+If you want to evaluate `IF` condition after mail merge, you can use the [EvaluateCondition](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldif/evaluatecondition/) method that immediately returns the result of the expression evaluation.
+
+The following code example shows how to use this method:
+
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-EvaluateIFCondition.py" >}}
