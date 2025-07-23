@@ -64,8 +64,8 @@ However, there are situations when the exact font cannot be found and Aspose.Wor
       If this substitution rule takes place, a "Font '<OriginalFont>' has not been found. Using '<SubstitutionFont>' font instead. Reason: font name substitution." warning appears.<br>
    1. Then Aspose.Words attempts to apply OS font settings, if they are available, by using the **FontConfig** utility. This Non-Windows feature must be used with a FontConfig-compatible OS. Almost any Unix-based OS already has a `FontConfig` library that is designed to provide system-wide font configuration, customization, and access to applications. Otherwise, this library can be easily installed by the user.
       Aspose.Words knows how to query data and interpret FontConfig results for its own purposes. By default, the `FontConfig` utility is disabled. You can enable it as follows:<br>
-{{< highlight python>}}
-fontSettings.substitution_settings.font_config_substitution.enabled = True
+{{< highlight js>}}
+fontSettings.substitutionSettings.fontConfigSubstitution.Enabled = true
 {{< /highlight >}}
    1. The next step uses a simple but powerful mechanism called **Table** substitution rule. By default, this feature is active and available for the given operating system. Aspose.Words will substitute the font with this rule if it is not substituted with the `FontConfig` substitution rule.<br>
       Aspose.Words uses XML tables, which define the basic substitution rules for different OS. According to the Table substitution rule, the list of substitute font names will be used.<br>
@@ -79,33 +79,33 @@ fontSettings.substitution_settings.font_config_substitution.enabled = True
 </TableSubstitutionSettings>
 {{< /highlight >}}
       The main feature of this rule is the ability to load your own substitution tables, as it is shown in the following example:<br>
-{{< highlight python>}}
-fontSettings.substitution_settings.table_substitution.load("Table.xml")
+{{< highlight js>}}
+fontSettings.substitutionSettings.tableSubstitution.load("Table.xml")
 {{< /highlight >}}
       Despite flexibility of this mechanism, there are some cases when it is better to disable it, as shown below:<br>
-{{< highlight python>}}
-fontSettings.substitution_settings.table_substitution.enabled = False
+{{< highlight js>}}
+fontSettings.substitutionSettings.tableSubstitution.enabled = false
 {{< /highlight >}}
    1. The [FontInfo](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/fontinfo/) substitution rule will be applied if the table substitution rule cannot find the font. This mechanism is enabled by default. Aspose.Words finds the most suitable font according to the font information contained in a particular document. This information can be obtained from the [FontInfo](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/fontinfo/) class as shown below:<br>
-{{< highlight python>}}
-fontInfos = doc.font_infos
+{{< highlight js>}}
+let fontInfos = doc.fontInfos
 {{< /highlight >}}
       Users cannot interfere in the workflow of this feature, unless they decide to disable it in case of unsatisfactory results:<br>
-{{< highlight python>}}
-fontSettings.substitution_settings.font_info_substitution.enabled = False
+{{< highlight js>}}
+fontSettings.substitutionSettings.fontInfoSubstitution.enabled = false
 {{< /highlight >}}
       If [FontInfo](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/fontinfo/) is not available for the missing font, then the process stops.<br>
    1. [DefaultFont](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/defaultfontsubstitutionrule/) substitution rule will be applied in the case when the `FontInfo` substitution has also failed. This rule is also enabled by default. According to this rule, Aspose.Words will attempt to use the default font specified in the [defaultFontName](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/defaultfontsubstitutionrule/defaultFontName/) property. If the user has not chosen their own default font, then "Times New Roman" will be used as the default font. This rule can be disabled as shown below:<br>
-{{< highlight python>}}
-fontSettings.substitution_settings.default_font_substitution.enabled = False
+{{< highlight js>}}
+fontSettings.substitutionSettings.defaultFontSubstitution.enabled = false
 {{< /highlight >}}
       To check the current default font, use:<br>
-{{< highlight python>}}
-fontSettings.substitution_settings.default_font_substitution.default_font_name
+{{< highlight js>}}
+fontSettings.substitutionSettings.defaultFontSubstitution.defaultFontName
 {{< /highlight >}}
       To set up your own replacement option, apply:<br>
-{{< highlight python>}}
-fontSettings.substitution_settings.default_font_substitution.default_font_name = "Arial"
+{{< highlight js>}}
+fontSettings.substitutionSettings.defaultFontSubstitution.defaultFontName = "Arial"
 {{< /highlight >}}
 1. If Aspose.Words is unable to perform the font substitution, it tries to get the first available font from available font sources.
 1. Finally, if Aspose.Words cannot find any fonts among the available font sources, it renders the document using the free Fanwood font that is embedded into the Aspose.Words package.<br>
@@ -118,29 +118,29 @@ There are two different mechanisms used in Aspose.Words — Font substitution 
 
 There is a [buildAutomatic](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/fontfallbacksettings/buildAutomatic/) method that automatically builds the fallback settings by scanning available fonts. Since this method may produce a non-optimal fallback setting, you can control the font fallback behavior by using the properties of the [FontFallbackSettings](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/fontfallbacksettings/buildAutomatic/) class. This class specifies settings of the font fallback mechanism. You can get an instance of the [FontFallbackSettings](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/fontfallbacksettings/buildAutomatic/) class as follows:
 
-{{< highlight python>}}
-settings = fontSettings.fallback_settings
+{{< highlight js>}}
+let settings = fontSettings.fallbackSettings
 {{< /highlight >}}
 
 Similarly to *Table substitution rule*, this mechanism uses XML tables for configuration. These XML tables can be loaded and saved with the following methods:
 
-{{< highlight python>}}
-fontSettings.fallback_settings.load("MyNewFallbackTable.xml")
-fontSettings.fallback_settings.save("Current_FallbackTable.xml")
+{{< highlight js>}}
+fontSettings.fallbackSettings.load("MyNewFallbackTable.xml")
+fontSettings.fallbackSettings.save("Current_FallbackTable.xml")
 {{< /highlight >}}
 
 The Aspose.Words release includes two tables: *MsOfficeFallbackSetting.xml* and *NotoFallbackSetting.xml*.
 
 The *MsOfficeFallbackSetting* table defines a replacement strategy for a range of characters, which is similar to the strategy used by Microsoft Word. Thus, the strategy requires the installation of Microsoft Office fonts. *MsOfficeFallbackSetting* can be activated using the following method:
 
-{{< highlight python>}}
-fontSettings.fallback_settings.load_ms_office_fallback_settings()
+{{< highlight js>}}
+fontSettings.fallbackSettings.loadMsOfficeFallbackSettings()
 {{< /highlight >}}
 
 The *NotoFallbackSetting* table is created especially for use with Google Noto fonts (see more about Google Noto font settings in the next section) and can be enabled as follows:
 
-{{< highlight python>}}
-fontSettings.fallback_settings.load_noto_fallback_settings()
+{{< highlight js>}}
+fontSettings.fallbackSettings.loadNotoFallbackSettings()
 {{< /highlight >}}
 
 The following code example demonstrates how to load font fallback settings from an XML file:
