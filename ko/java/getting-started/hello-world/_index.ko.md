@@ -12,7 +12,7 @@ timestamp: 2024-01-27-14-07-04
 
 "안녕하세요,세계!"코드는 종종"Java에 대한Aspose.Words"을 사용하여 작성하는 첫 번째 간단한 예이며,소스 코드를 컴파일하거나 실행하려는 소프트웨어가 올바르게 설치되었는지 확인하기 위해 정신 테스트로 사용될 수 있습니다.
 
-"Aspose.WordsJava"라이브러리는 개발자에게 워드 및 웹 문서를 생성,수정,병합,변환,비교할 수 있는 직접 액세스를 제공합니다. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML 그리고 다른 많은 파일 형식은 다음과 같습니다 [지원](/words/java/supported-document-formats/).
+"Aspose.WordsJava"라이브러리는 개발자에게 워드 및 웹 문서를 생성,수정,병합,변환,비교할 수 있는 직접 액세스를 제공합니다. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML 그리고 다른 많은 파일 형식은 다음과 같습니다 [지원](/words/ko/java/supported-document-formats/).
 
 Low code 스니펫은 다음 단계를 따릅니다.
 

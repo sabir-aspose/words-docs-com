@@ -67,7 +67,7 @@ In dit gedeelte worden verschillende gebruiksgevallen beschreven van het verdele
 
 {{% alert color="primary" %}}
 
-U kunt elke [output formaat ondersteund door Aspose.Words](/words/cpp/supported-document-formats/).
+U kunt elke [output formaat ondersteund door Aspose.Words](/words/nl/cpp/supported-document-formats/).
 
 {{% /alert %}}
 

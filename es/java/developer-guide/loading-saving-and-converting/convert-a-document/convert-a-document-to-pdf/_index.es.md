@@ -47,7 +47,7 @@ Tenga en cuenta que con la misma técnica, puede convertir cualquier documento d
 
 ### Convertir a diferentes PDF Estándares {#converting-to-various-pdf-standards}
 
-Aspose.Words proporciona la enumeración [PdfCompliace](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)para admitir la conversión de DOC o DOCX en varios estándares de formato PDF (como PDF 1.7, PDF 1.5, etc.).
+Aspose.Words proporciona la enumeración [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)para admitir la conversión de DOC o DOCX en varios estándares de formato PDF (como PDF 1.7, PDF 1.5, etc.).
 
 El siguiente ejemplo de código demuestra cómo convertir un documento a PDF 1.7 usando [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) con conformidad a PDF17:
 
@@ -81,6 +81,6 @@ El uso de la propiedad **OptimizeOutput** puede afectar la precisión de la visu
 
 ## Véase También
 
-- El artículo [Renderizado](/words/java/rendering/) para obtener más información sobre los formatos de página fija y diseño de flujo
-- El artículo [Conversión a Formato de página fija](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) para obtener más información sobre el diseño de la página
-- El artículo [Especifica las Opciones de representación Al Convertir a PDF](/words/java/specify-rendering-options-when-converting-to-pdf/) para obtener más información sobre el uso de la clase `PdfSaveOptions`
+- El artículo [Renderizado](/words/es/java/rendering/) para obtener más información sobre los formatos de página fija y diseño de flujo
+- El artículo [Conversión a Formato de página fija](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) para obtener más información sobre el diseño de la página
+- El artículo [Especifica las Opciones de representación Al Convertir a PDF](/words/es/java/specify-rendering-options-when-converting-to-pdf/) para obtener más información sobre el uso de la clase `PdfSaveOptions`

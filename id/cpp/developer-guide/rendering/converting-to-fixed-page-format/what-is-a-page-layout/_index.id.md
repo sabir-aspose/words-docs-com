@@ -1,4 +1,4 @@
----
+﻿---
 title: Apa itu Tata Letak Halaman di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Apa itu Tata Letak Halaman
@@ -20,6 +20,6 @@ Hubungan antara dokumen dan tata letak halaman cukup sederhana. Sementara dokume
 
 ## Lihat Juga
 
-* [Membuat Tata Letak Halaman](/words/cpp/creating-a-page-layout/)
-* [Menyimpan Dokumen ke Format halaman Tetap](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Tentukan Opsi Tata Letak](/words/cpp/specify-layout-options/)
+* [Membuat Tata Letak Halaman](/words/id/cpp/creating-a-page-layout/)
+* [Menyimpan Dokumen ke Format halaman Tetap](/words/id/cpp/saving-a-document-to-fixed-page-format/)
+* [Tentukan Opsi Tata Letak](/words/id/cpp/specify-layout-options/)

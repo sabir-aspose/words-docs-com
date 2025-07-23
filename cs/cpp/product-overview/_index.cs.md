@@ -16,7 +16,7 @@ Vítejte v Aspose.Words pro C++!
 
 Aspose.Words je knihovna tříd napříč platformami, která umožňuje vašim aplikacím provádět širokou škálu úkolů zpracování dokumentů.
 
-Pomocí Aspose.Words můžete převést dokument z libovolného podporovaného formátu načítání do libovolného podporovaného formátu ukládání, například formáty Word na PDF, HTML nebo Markdown, HTML na DOCX atd. Přečtěte si více o převodu dokumentů v [Převést dokument](/words/cpp/convert-a-document/) oddíl.
+Pomocí Aspose.Words můžete převést dokument z libovolného podporovaného formátu načítání do libovolného podporovaného formátu ukládání, například formáty Word na PDF, HTML nebo Markdown, HTML na DOCX atd. Přečtěte si více o převodu dokumentů v [Převést dokument](/words/cs/cpp/convert-a-document/) oddíl.
 
 Stojí za zmínku, že pomocí Aspose.Words můžete vytvářet, upravovat, převádět, vykreslovat a tisknout dokumenty, aniž byste se spoléhali na aplikace třetích stran, například Microsoft Word nebo Office Automation.
 
@@ -42,21 +42,21 @@ Aspose.Words pro C++ funkce lze rozdělit do čtyř hlavních oblastí.
 
 Schopnost snadno a spolehlivě převádět dokumenty je jednou z hlavních funkcí Aspose.Words.
 
-Komplexní [import a export dokumentů](/words/cpp/loading-saving-and-converting/) s [více než 35 podporovaných formátů souborů](/words/cpp/supported-document-formats/) umožňuje uživatelům převádět dokumenty z [one popular format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) na [another](https://reference.aspose.com/words/cpp/aspose.words/saveformat/), například z DOCX na PDF, JPEG nebo Markdown.
+Komplexní [import a export dokumentů](/words/cs/cpp/loading-saving-and-converting/) s [více než 35 podporovaných formátů souborů](/words/cs/cpp/supported-document-formats/) umožňuje uživatelům převádět dokumenty z [one popular format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) na [another](https://reference.aspose.com/words/cpp/aspose.words/saveformat/), například z DOCX na PDF, JPEG nebo Markdown.
 
 #### Objektový Model Dokumentu (DOM)
 
-Programový přístup prostřednictvím bohatého API ke všem prvkům dokumentu a formátování umožňuje vytvářet, upravovat, extrahovat, kopírovat, rozdělovat, spojovat a nahrazovat obsah dokumentu. Více se dozvíte v sekci [Aspose.Words Model Objektu Dokumentu (DOM)](/words/cpp/aspose-words-document-object-model/) oddíl.
+Programový přístup prostřednictvím bohatého API ke všem prvkům dokumentu a formátování umožňuje vytvářet, upravovat, extrahovat, kopírovat, rozdělovat, spojovat a nahrazovat obsah dokumentu. Více se dozvíte v sekci [Aspose.Words Model Objektu Dokumentu (DOM)](/words/cs/cpp/aspose-words-document-object-model/) oddíl.
 
 #### Vykreslování
 
-Používáme termín [Vykreslování v Aspose.Words](/words/cpp/rendering/) popsat proces převodu dokumentu do formátu souboru nebo média, stránkovaný nebo který má koncept stránek.
+Používáme termín [Vykreslování v Aspose.Words](/words/cs/cpp/rendering/) popsat proces převodu dokumentu do formátu souboru nebo média, stránkovaný nebo který má koncept stránek.
 
 Můžete převést celé dokumenty nebo konkrétní stránky na PDF nebo XPS a generovat dokumenty na straně serveru, vytisknout je. A to vše s vysokou věrností-přesně jako Microsoft Word by to udělal.
 
 #### Hlášení
 
-Generujte dokumenty nebo zprávy od nuly nebo vyplněním šablon daty ze zdrojů dat nebo obchodních objektů. Další informace o vykazování a načítání dat z databází naleznete v části [Mail Merge a podávání zpráv](/words/cpp/mail-merge-and-reporting/).
+Generujte dokumenty nebo zprávy od nuly nebo vyplněním šablon daty ze zdrojů dat nebo obchodních objektů. Další informace o vykazování a načítání dat z databází naleznete v části [Mail Merge a podávání zpráv](/words/cs/cpp/mail-merge-and-reporting/).
 
 ### Nezávislost Platformy
 
@@ -86,8 +86,8 @@ Vývojáři, kteří ve svých projektech dříve používali automatizaci Micro
 
 ## Ceny a Zásady
 
-Navštivte prosím [Licence](/words/cpp/licensing/) stránka pro informace o licencích a zkontrolovat [Informace O Cenách](https://purchase.aspose.com/pricing/words/family/) stránka pro podrobnosti o cenách.
+Navštivte prosím [Licence](/words/cs/cpp/licensing/) stránka pro informace o licencích a zkontrolovat [Informace O Cenách](https://purchase.aspose.com/pricing/words/family/) stránka pro podrobnosti o cenách.
 
 ## Podpora
 
-Pro více informací o technické podpoře Aspose.Words se podívejte na [stránka podpory](/words/cpp/technical-support/).
+Pro více informací o technické podpoře Aspose.Words se podívejte na [stránka podpory](/words/cs/cpp/technical-support/).

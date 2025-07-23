@@ -1,4 +1,4 @@
----
+﻿---
 title: שאלות נפוצות
 second_title: Aspose.Words עבור Java
 articleTitle: שאלות נפוצות
@@ -70,7 +70,7 @@ Aspose.Words עבור Java תומך ברוב פורמטי המסמך הפופו�
 
 לקנות Aspose.Words רישיון, אתה צריך ללכת [רכישה](https://purchase.aspose.com/buy) דף, בחר את "Aspose.Words"מוצר וסוג הרישיון שמתאים לך. לאחר מכן להוסיף את הרישיון לעגלת הקניות ולעקוב אחר הוראות הקניה.
 
-לאחר רכישת, החל רישיון כפי שתואר ב [רישיון רכישה](/words/java/licensing/#purchased-license) סעיף.
+לאחר רכישת, החל רישיון כפי שתואר ב [רישיון רכישה](/words/he/java/licensing/) סעיף.
 
 פרטים על איך להתקין Aspose.Words ניתן לקרוא על [מתקן](/words/he/java/installation/) דף.
 
@@ -121,7 +121,7 @@ Aspose.Words עבור Java תומך ברוב פורמטי המסמך הפופו�
 
 {{% alert color="primary" %}}
 
-ניתן למצוא מידע מפורט יותר על Mail Merge בתוך [Mail Merge דיווח ו](/words/java/mail-merge-and-reporting/) סעיף תיעוד
+ניתן למצוא מידע מפורט יותר על Mail Merge בתוך [Mail Merge דיווח ו](/words/he/java/mail-merge-and-reporting/) סעיף תיעוד
 
 {{% /alert %}}
 
@@ -145,7 +145,7 @@ Aspose.Words עבור Java תומך ברוב פורמטי המסמך הפופו�
 הסיבה לכך היא שמערכת היחסים בין טבלאות ההורה והילד אינן מוגדרות או שהן מוגדרות בצורה לא נכונה. יש צורך:
 
 - להבטיח שלמות נתונים בתוך **DataSet** ולהשתמש **DataRelation** להתנגד לייצוג מערכת היחסים בין טבלאות נתונים קשורות.
-- בדוק את הקטע "איך להגדיר יחסי נתונים ב-Neded" Mail Merge עם אזורים" במאמר [Nested Mail Merge תגית:](/words/java/nested-mail-merge-with-regions/).
+- בדוק את הקטע "איך להגדיר יחסי נתונים ב-Neded" Mail Merge עם אזורים" במאמר [Nested Mail Merge תגית:](/words/he/java/nested-mail-merge-with-regions/).
 
 ------
 

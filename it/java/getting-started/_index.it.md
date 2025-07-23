@@ -14,13 +14,13 @@ Questa Guida introduttiva fornisce un'introduzione ai fondamenti di Aspose.Words
 
 Per ulteriori informazioni su Aspose.Words, selezionare la sezione appropriata:
 
-- [Installazione](/words/java/installation/) - fornisce informazioni su come installare Aspose.Words
-- [Ciao Mondo](/words/java/hello-world/) - fornisce informazioni su come testare che il software destinato a compilare o eseguire il codice sorgente sia installato correttamente
-- [Formati di documenti supportati](/words/java/supported-document-formats/) - fornisce informazioni sui formati supportati
-- [Caratteristiche supportate](/words/java/features/) - fornisce informazioni su quali funzioni sono supportate durante il caricamento o il salvataggio di un documento in vari formati
+- [Installazione](/words/it/java/installation/) - fornisce informazioni su come installare Aspose.Words
+- [Ciao Mondo](/words/it/java/hello-world/) - fornisce informazioni su come testare che il software destinato a compilare o eseguire il codice sorgente sia installato correttamente
+- [Formati di documenti supportati](/words/it/java/supported-document-formats/) - fornisce informazioni sui formati supportati
+- [Caratteristiche supportate](/words/it/java/features/) - fornisce informazioni su quali funzioni sono supportate durante il caricamento o il salvataggio di un documento in vari formati
 - [Piattaforme supportate](/words/java/platforms-and-interoperability/) - fornisce informazioni sull'utilizzo di Aspose.Words durante la creazione di applicazioni per altre piattaforme
-- [Licenze e abbonamenti](/words/java/licensing/) - fornisce informazioni sull'applicazione di una licenza e sull'utilizzo di più prodotti Aspose
+- [Licenze e abbonamenti](/words/it/java/licensing/) - fornisce informazioni sull'applicazione di una licenza e sull'utilizzo di più prodotti Aspose
 - [Perche Aspose.Words](/words/java/aspose-words-or-other-solutions/) - descrive i motivi per cui i componenti Aspose sono molto migliori di Microsoft Office Automation
-- [Requisiti di sistema](/words/java/system-requirements/) - fornisce informazioni sui requisiti del sistema e dell'ambiente di sviluppo
-- [Note di sicurezza](/words/java/security/) - descrive note e suggerimenti su come evitare problemi di sicurezza comuni
-- [Come eseguire gli esempi](/words/java/how-to-run-the-examples/) - descrive come scaricare ed eseguire gli esempi e quali requisiti software devono essere soddisfatti
+- [Requisiti di sistema](/words/it/java/system-requirements/) - fornisce informazioni sui requisiti del sistema e dell'ambiente di sviluppo
+- [Note di sicurezza](/words/it/java/security/) - descrive note e suggerimenti su come evitare problemi di sicurezza comuni
+- [Come eseguire gli esempi](/words/it/java/how-to-run-the-examples/) - descrive come scaricare ed eseguire gli esempi e quali requisiti software devono essere soddisfatti

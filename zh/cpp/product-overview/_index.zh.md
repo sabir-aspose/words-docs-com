@@ -1,4 +1,4 @@
----
+﻿---
 title: 产品概览
 second_title: Aspose.Words为C++
 articleTitle: 产品概览
@@ -16,7 +16,7 @@ timestamp: 2024-06-05-14-43-57
 
 Aspose.Words是一个跨平台的类库，使您的应用程序能够执行各种文档处理任务。
 
-使用Aspose.Words，您可以将文档从任何支持的加载格式转换为任何支持的保存格式，例如，Word格式转换为PDF、HTML，或Markdown、HTML转换为DOCX，等等。 阅读更多有关转换文件的资料 [转换文档](/words/cpp/convert-a-document/) 节。
+使用Aspose.Words，您可以将文档从任何支持的加载格式转换为任何支持的保存格式，例如，Word格式转换为PDF、HTML，或Markdown、HTML转换为DOCX，等等。 阅读更多有关转换文件的资料 [转换文档](/words/zh/cpp/convert-a-document/) 节。
 
 值得注意的是，使用Aspose.Words，您可以创建，修改，转换，呈现和打印文档，而不依赖于第三方应用程序，如Microsoft Word或Office Automation。
 
@@ -42,21 +42,21 @@ Aspose.Words为C++ 特征可分为四个主要区域。
 
 能够轻松可靠地转换文档是Aspose.Words的主要功能之一。
 
-综合 [文件导入和导出](/words/cpp/loading-saving-and-converting/) 与 [超过35种支持的文件格式](/words/cpp/supported-document-formats/) 允许用户将文档从[one popular format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/)转换为[another](https://reference.aspose.com/words/cpp/aspose.words/saveformat/)，例如，从DOCX转换为PDF、JPEG或Markdown。
+综合 [文件导入和导出](/words/zh/cpp/loading-saving-and-converting/) 与 [超过35种支持的文件格式](/words/zh/cpp/supported-document-formats/) 允许用户将文档从[one popular format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/)转换为[another](https://reference.aspose.com/words/cpp/aspose.words/saveformat/)，例如，从DOCX转换为PDF、JPEG或Markdown。
 
 #### 文档对象模型(DOM)
 
-通过丰富的API对所有文档元素和格式进行编程访问，可以创建、修改、提取、复制、拆分、连接和替换文档内容。 你可在此查阅更多 [Aspose.Words文档对象模型(DOM)](/words/cpp/aspose-words-document-object-model/) 节。
+通过丰富的API对所有文档元素和格式进行编程访问，可以创建、修改、提取、复制、拆分、连接和替换文档内容。 你可在此查阅更多 [Aspose.Words文档对象模型(DOM)](/words/zh/cpp/aspose-words-document-object-model/) 节。
 
 #### 渲染图
 
-我们用这个词 [Aspose.Words中的渲染](/words/cpp/rendering/) 描述将文档转换为文件格式或媒体、分页或具有页面概念的过程。
+我们用这个词 [Aspose.Words中的渲染](/words/zh/cpp/rendering/) 描述将文档转换为文件格式或媒体、分页或具有页面概念的过程。
 
 您可以将整个文档或特定页面转换为PDF或XPS以生成服务器端文档，打印它们。 而这一切都具有高保真度-就像Microsoft Word会做到这一点。
 
 #### 报告书
 
-从头开始或通过使用来自数据源或业务对象的数据填充模板来生成文档或报告。 有关从数据库报告和提取数据的详细信息，请参阅 [Mail Merge和报告](/words/cpp/mail-merge-and-reporting/).
+从头开始或通过使用来自数据源或业务对象的数据填充模板来生成文档或报告。 有关从数据库报告和提取数据的详细信息，请参阅 [Mail Merge和报告](/words/zh/cpp/mail-merge-and-reporting/).
 
 ### 平台独立性
 
@@ -86,8 +86,8 @@ Aspose.Words是多线程安全的，只要一次只有一个线程在文档上�
 
 ## 定价和政策
 
-请浏览 [发牌事宜](/words/cpp/licensing/) 有关许可证的信息，请查看 [定价资料](https://purchase.aspose.com/pricing/words/family/) 有关定价的详细信息。
+请浏览 [发牌事宜](/words/zh/cpp/licensing/) 有关许可证的信息，请查看 [定价资料](https://purchase.aspose.com/pricing/words/family/) 有关定价的详细信息。
 
 ## 技术支持
 
-有关Aspose.Words技术支持的更多信息，请查看 [支援网页](/words/cpp/technical-support/).
+有关Aspose.Words技术支持的更多信息，请查看 [支援网页](/words/zh/cpp/technical-support/).

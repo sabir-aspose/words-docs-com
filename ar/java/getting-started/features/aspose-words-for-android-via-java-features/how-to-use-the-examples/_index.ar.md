@@ -12,6 +12,6 @@ timestamp: 2024-01-27-14-07-04
 
 تأكد أولا من تثبيت حزمة ADT وأنك قمت بتنزيل واستخراج أحدث إصدار من [Aspose.Words ل Android عبر Java](https://releases.aspose.com/words/androidjava/).
 
-- قم بتثبيت Aspose.Words لـ Android عبر Java باتباع الإرشادات الموجودة على [هنا](/words/java/installation/)
+- قم بتثبيت Aspose.Words لـ Android عبر Java باتباع الإرشادات الموجودة على [هنا](/words/ar/java/installation/)
 - افتح المشروع في مساحة العمل الخاصة بك باستخدام Eclipse مع ADT.
 - انقر **Run** لبدء واختيار المحاكي المناسب لتشغيل الحزمة على.

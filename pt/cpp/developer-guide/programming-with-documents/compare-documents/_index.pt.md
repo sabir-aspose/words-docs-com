@@ -1,4 +1,4 @@
----
+﻿---
 title: Comparar documentos em C++
 second_title: Aspose.Words para C++
 articleTitle: Comparar Documentos
@@ -36,7 +36,7 @@ A limitação geral para dois documentos que estão a ser comparados é que eles
 
 {{% alert color="primary" %}}
 
-Observe que você pode comparar quaisquer dois documentos dentro do [formatos de ficheiro suportados](/words/cpp/supported-document-formats/). Você pode comparar objetos de documento e até mesmo criar esses objetos do zero sem ter nenhum formato específico.
+Observe que você pode comparar quaisquer dois documentos dentro do [formatos de ficheiro suportados](/words/pt/cpp/supported-document-formats/). Você pode comparar objetos de documento e até mesmo criar esses objetos do zero sem ter nenhum formato específico.
 
 {{% /alert %}}
 

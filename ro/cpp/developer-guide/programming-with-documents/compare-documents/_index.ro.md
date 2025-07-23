@@ -1,4 +1,4 @@
----
+﻿---
 title: Comparați documentele în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Comparați Documentele
@@ -36,7 +36,7 @@ Limitarea generală pentru două documente care sunt comparate este că acestea 
 
 {{% alert color="primary" %}}
 
-Rețineți că puteți compara oricare două documente din cadrul [formate de fișiere acceptate](/words/cpp/supported-document-formats/). Puteți compara obiectele documentului și chiar puteți crea acele obiecte de la zero fără a avea un format specific.
+Rețineți că puteți compara oricare două documente din cadrul [formate de fișiere acceptate](/words/ro/cpp/supported-document-formats/). Puteți compara obiectele documentului și chiar puteți crea acele obiecte de la zero fără a avea un format specific.
 
 {{% /alert %}}
 

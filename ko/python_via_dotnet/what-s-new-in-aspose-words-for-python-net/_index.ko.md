@@ -546,13 +546,13 @@ LINQ보고 엔진에JSON문자열 값의 공백을 유지하는 옵션이 추가
 
 {{% alert color="primary" %}}
 
-에 대해 자세히 알아보기 [Aspose.WordsPython via .NET23.5릴리스 노트](/words/python-net/aspose-words-for-python-via-dotnet-23-5-release-notes/).
+에 대해 자세히 알아보기 [Aspose.WordsPython via .NET23.5릴리스 노트](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-5-release-notes/).
 
-에 대해 자세히 알아보기 [Aspose.WordsPython via .NET23.6릴리스 노트](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
+에 대해 자세히 알아보기 [Aspose.WordsPython via .NET23.6릴리스 노트](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
 에 대해 자세히 알아보기 [Aspose.WordsPython via .NET23.7릴리스 노트](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
-에 대해 자세히 알아보기 [Aspose.WordsPython via .NET23.8릴리스 노트](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
+에 대해 자세히 알아보기 [Aspose.WordsPython via .NET23.8릴리스 노트](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
 {{% /alert %}}
 

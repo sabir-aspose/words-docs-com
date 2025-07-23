@@ -1,4 +1,4 @@
----
+﻿---
 title: Entwicklerhandbuch in Python
 second_title: Aspose.Words für Python via .NET
 articleTitle: Entwicklerhandbuch
@@ -16,7 +16,7 @@ Um mehr über Aspose.Words-Funktionen zu erfahren, wählen Sie den entsprechende
 
 - [Laden, Speichern und Konvertieren](/words/de/python-net/loading-saving-and-converting/) – bietet Informationen über verschiedene Möglichkeiten zum Laden oder Speichern von Dokumenten und formatspezifische Funktionen, die zum Konvertieren eines Dokuments von einem Format in ein anderes nützlich sind.
 - [Rendern](/words/de/python-net/rendering/) – bietet Informationen darüber, wie man eine paginierte Darstellung aus einem Dokument im Flow-Layout-Seitenformat erhält.
-- [Mail Merge und Berichterstattung](/words/python-net/mail-merge-and-reporting/) – bietet Informationen zum Generieren von Dokumenten wie Berichten, Katalogen, Inventaren und Rechnungen aus Vorlagen mit mail merge-Feldern.
+- [Mail Merge und Berichterstattung](/words/de/python-net/mail-merge-and-reporting/) – bietet Informationen zum Generieren von Dokumenten wie Berichten, Katalogen, Inventaren und Rechnungen aus Vorlagen mit mail merge-Feldern.
 - [LINQ-Reporting-Engine](/words/python-net/linq-reporting-engine/) – bietet Informationen zum Erstellen von Berichten mithilfe eines erweiterten Satzes an Berichtsfunktionen.
 - [Programmieren mit Dokumenten](/words/de/python-net/programming-with-documents/) – bietet Informationen zum programmgesteuerten Erstellen, Ändern und Verwalten von Dokumenten, einschließlich der Änderung ihres Inhalts und ihres visuellen Erscheinungsbilds.
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: C++ içindeki Markdown Özelliklerle Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Markdown Özellikleriyle Çalışma
@@ -27,7 +27,7 @@ Markdown özellik uygulaması çoğunlukla Aspose.Words API içindeki `CommonMar
 
 {{% alert color="primary" %}}
 
-Makalede açıklanan Markdown 'yi Aspose.Words Belge Nesne Modeline (DOM) çevirmenin nüansları vardır [Markdown'yi Belge Nesne Modeline Çevir (DOM)](/words/cpp/translate-markdown-to-document-object-model/).
+Makalede açıklanan Markdown 'yi Aspose.Words Belge Nesne Modeline (DOM) çevirmenin nüansları vardır [Markdown'yi Belge Nesne Modeline Çevir (DOM)](/words/tr/cpp/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

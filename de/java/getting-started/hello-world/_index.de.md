@@ -12,7 +12,7 @@ timestamp: 2024-01-27-14-07-04
 
 Ein "Hallo Welt!" code ist oft das erste einfache Beispiel, um die Verwendung " Aspose.Words für Java"zu schreiben, und er kann auch als Plausibilitätstest verwendet werden, um sicherzustellen, dass die Software, die den Quellcode kompilieren oder ausführen soll, korrekt installiert ist.
 
-Die Bibliothek "Aspose.Words für Java" bietet Entwicklern direkten Zugriff zum Erstellen, Ändern, Zusammenführen, Konvertieren und Vergleichen von Word- und Webdokumenten. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML und viele andere Dateiformate sind [unterstützte](/words/java/supported-document-formats/).
+Die Bibliothek "Aspose.Words für Java" bietet Entwicklern direkten Zugriff zum Erstellen, Ändern, Zusammenführen, Konvertieren und Vergleichen von Word- und Webdokumenten. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML und viele andere Dateiformate sind [unterstützte](/words/de/java/supported-document-formats/).
 
 Below code Snippet folgt diesen Schritten:
 

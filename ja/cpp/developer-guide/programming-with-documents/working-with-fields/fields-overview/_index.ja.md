@@ -1,4 +1,4 @@
----
+﻿---
 title: C++でのフィールドの概要
 second_title: C++の場合Aspose.Words
 articleTitle: フィールドの概要
@@ -29,7 +29,7 @@ Aspose.Wordsは、Microsoft Wordドキュメントのサーバー側処理用に
 
 ![fields-overview-aspose-words-cpp-1](fields-overview-1.png)
 
-フィールドコードを構成するコンテンツは、[FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/)と[FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/)の間にある[Run](https://reference.aspose.com/words/cpp/class/aspose.words.run)ノードとして保存されます。フィールド結果は、**FieldSeparator**と[FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/)ノードの間に保存され、さまざまなタイプのコンテンツで構成できます。通常、フィールド結果には**Run**ノードで構成されるテキストのみが含まれますが、**FieldEnd**ノードがまったく別の段落に配置され、フィールド結果が次のもので構成される可能性があります。[ブロックレベルノード](/words/cpp/logical-levels-of-nodes-in-a-document/)**Table** ノードや **Paragraph** ノードも同様です。
+フィールドコードを構成するコンテンツは、[FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/)と[FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/)の間にある[Run](https://reference.aspose.com/words/cpp/class/aspose.words.run)ノードとして保存されます。フィールド結果は、**FieldSeparator**と[FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/)ノードの間に保存され、さまざまなタイプのコンテンツで構成できます。通常、フィールド結果には**Run**ノードで構成されるテキストのみが含まれますが、**FieldEnd**ノードがまったく別の段落に配置され、フィールド結果が次のもので構成される可能性があります。[ブロックレベルノード](/words/ja/cpp/logical-levels-of-nodes-in-a-document/)**Table** ノードや **Paragraph** ノードも同様です。
 
 ここでは、"*DocumentExplorer"*の例を使用して、フィールドがAspose.Wordsにどのように格納されているかを示します。
 
@@ -37,7 +37,7 @@ Aspose.Wordsは、Microsoft Wordドキュメントのサーバー側処理用に
 
 ## Aspose.Wordsドキュメントオブジェクトモデル(DOM)のフィールド
 
-ドキュメントがAspose.Wordsにロードされると、ドキュメントのフィールドがAspose.Wordsにロードされます。 [Aspose.Wordsドキュメントオブジェクトモデル](/words/cpp/aspose-words-document-object-model/) 別々のコンポーネント（ノード）のセットとして。 単一のフィールドは、これらのノード間のコンテンツとともに、**FieldStart**、**FieldSeparator**、および**FieldEnd**ノードのコレクションとしてロードされます。 フィールドにフィールド結果がない場合、**FieldSeparator**ノードは存在しません。 これらのノードはすべて、常にインラインで（[Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph)または[SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)の子として）検出されます。
+ドキュメントがAspose.Wordsにロードされると、ドキュメントのフィールドがAspose.Wordsにロードされます。 [Aspose.Wordsドキュメントオブジェクトモデル](/words/ja/cpp/aspose-words-document-object-model/) 別々のコンポーネント（ノード）のセットとして。 単一のフィールドは、これらのノード間のコンテンツとともに、**FieldStart**、**FieldSeparator**、および**FieldEnd**ノードのコレクションとしてロードされます。 フィールドにフィールド結果がない場合、**FieldSeparator**ノードは存在しません。 これらのノードはすべて、常にインラインで（[Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph)または[SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)の子として）検出されます。
 
 Aspose.Wordsでは、**FieldXXX**ノードのそれぞれが[FieldChar](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_char/)から派生します。 このクラスは、[FieldType](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldchar/get_fieldtype/)プロパティを使用して、指定されたノードによって表されるフィールドの型をチェックするプロパティを提供します。 たとえば、**FieldType.FieldMergeField**は文書内の差し込み項目を表します。
 

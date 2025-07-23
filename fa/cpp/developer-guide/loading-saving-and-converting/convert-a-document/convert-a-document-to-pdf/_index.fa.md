@@ -1,4 +1,4 @@
----
+﻿---
 title: تبدیل یک سند به PDF در C++
 second_title: Aspose.Words برای C++
 articleTitle: تبدیل یک سند به PDF
@@ -47,7 +47,7 @@ timestamp: 2024-10-21-08-52-03
 
 ### تبدیل به استانداردهای مختلف PDF {#converting-to-various-pdf-standards}
 
-Aspose.Words شمارش [PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) را برای پشتیبانی از تبدیل DOC یا DOCX به استانداردهای قالب PDF مختلف (مانند PDF 1.7، PDF 1.5، و غیره) ارائه می‌کند.
+Aspose.Words شمارش [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) را برای پشتیبانی از تبدیل DOC یا DOCX به استانداردهای قالب PDF مختلف (مانند PDF 1.7، PDF 1.5، و غیره) ارائه می‌کند.
 
 مثال کد زیر نشان می دهد که چگونه یک سند را به PDF 1.7 با استفاده از [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) با انطباق به PDF17 تبدیل کنیم:
 
@@ -67,6 +67,6 @@ Aspose.Words شمارش [PdfCompliace](https://reference.aspose.com/words/cpp/as
 
 ## بایگانی برچسب برای:
 
-- مقاله [رندر کردن](/words/cpp/rendering/) برای اطلاعات بیشتر در مورد فرمت های صفحه ثابت و طرح جریان
-- مقاله [تبدیل به فرمت صفحه ثابت](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) برای اطلاعات بیشتر در مورد طرح صفحه
-- مقاله [گزینه های رندر را هنگام تبدیل به PDFمشخص کنید](/words/cpp/specify-rendering-options-when-converting-to-pdf/) برای اطلاعات بیشتر در مورد استفاده از کلاس `PdfSaveOptions`
+- مقاله [رندر کردن](/words/fa/cpp/rendering/) برای اطلاعات بیشتر در مورد فرمت های صفحه ثابت و طرح جریان
+- مقاله [تبدیل به فرمت صفحه ثابت](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) برای اطلاعات بیشتر در مورد طرح صفحه
+- مقاله [گزینه های رندر را هنگام تبدیل به PDFمشخص کنید](/words/fa/cpp/specify-rendering-options-when-converting-to-pdf/) برای اطلاعات بیشتر در مورد استفاده از کلاس `PdfSaveOptions`

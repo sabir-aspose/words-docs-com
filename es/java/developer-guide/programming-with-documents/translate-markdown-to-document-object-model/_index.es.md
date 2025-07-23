@@ -12,7 +12,7 @@ timestamp: 2024-10-21-11-17-44
 
 Para leer, manipular y modificar mediante programación el contenido y el formato de un documento, debe traducirlo al Modelo de objetos de documento Aspose.Words (DOM).
 
-A diferencia de los documentos de Word, Markdown no se ajusta a DOM descrito en el [Aspose.Words Modelo de objetos de documento (DOM)](/words/java/aspose-words-document-object-model/) artículo. Sin embargo, Aspose.Words proporciona su propio mecanismo para traducir Markdown documentos a DOM y viceversa, de modo que podamos trabajar con éxito con sus elementos, como formato de texto, tablas, encabezados y otros.
+A diferencia de los documentos de Word, Markdown no se ajusta a DOM descrito en el [Aspose.Words Modelo de objetos de documento (DOM)](/words/es/java/aspose-words-document-object-model/) artículo. Sin embargo, Aspose.Words proporciona su propio mecanismo para traducir Markdown documentos a DOM y viceversa, de modo que podamos trabajar con éxito con sus elementos, como formato de texto, tablas, encabezados y otros.
 
 Este artículo explica cómo las diversas funciones markdown se pueden traducir al formato Aspose.Words DOM y de regreso al Markdown.
 
@@ -98,5 +98,5 @@ Aspose.Words también permite traducir tablas a DOM, como se muestra a continuac
 
 ## Véase También
 
-* [Trabajar con Markdown Funciones](/words/java/working-with-markdown-features/)
+* [Trabajar con Markdown Funciones](/words/es/java/working-with-markdown-features/)
 

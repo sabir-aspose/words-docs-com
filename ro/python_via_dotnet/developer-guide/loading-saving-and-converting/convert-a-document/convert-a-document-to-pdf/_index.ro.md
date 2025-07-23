@@ -1,4 +1,4 @@
----
+﻿---
 title: Conversia unui Document în PDF în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Conversia unui Document în PDF
@@ -47,7 +47,7 @@ Rețineți că, cu aceeași tehnică, puteți converti orice document în format
 
 ### Conversia la diverse PDF standarde {#convert-to-various-pdf-standards}
 
-Aspose.Words oferă enumerarea [PdfCompliace](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) pentru a sprijini conversia DOC sau DOCX în diferite standarde de format PDF (cum ar fi PDF 1.7, PDF 1.5, etc.).
+Aspose.Words oferă enumerarea [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) pentru a sprijini conversia DOC sau DOCX în diferite standarde de format PDF (cum ar fi PDF 1.7, PDF 1.5, etc.).
 
 Următorul exemplu de cod demonstrează cum se convertește un document în PDF 1.7 folosind [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) Cu conformitate cu [PDF17](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf17):
 
@@ -89,6 +89,6 @@ Utilizarea proprietății **OptimizeOutput** poate afecta acuratețea afișării
 
 ## Vezi Și
 
-- Articolul [Redare](/words/python-net/rendering/) pentru mai multe informații despre pagina fixă și formatele de aspect de flux
-- Articolul [Conversia în format de pagină fixă](/words/python-net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) pentru mai multe informații despre aspectul paginii
-- Articolul [Specificați opțiunile De redare la conversia în PDF](/words/python-net/specify-rendering-options-when-converting-to-pdf/) pentru mai multe informații despre utilizarea clasei [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/)
+- Articolul [Redare](/words/ro/python-net/rendering/) pentru mai multe informații despre pagina fixă și formatele de aspect de flux
+- Articolul [Conversia în format de pagină fixă](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) pentru mai multe informații despre aspectul paginii
+- Articolul [Specificați opțiunile De redare la conversia în PDF](/words/ro/python-net/specify-rendering-options-when-converting-to-pdf/) pentru mai multe informații despre utilizarea clasei [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/)

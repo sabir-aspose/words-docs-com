@@ -1,4 +1,4 @@
----
+﻿---
 title: 使用文档编程
 second_title: Python via .NET 格式的 Aspose.Words
 articleTitle: 使用文档编程
@@ -51,11 +51,11 @@ timestamp: 2024-09-25-11-08-55
 - [使用 OfficeMath](/words/zh/python-net/working-with-officemath/)
 - [使用 SmartArt 冷渲染](/words/zh/python-net/working-with-smartart-cold-rendering/)
 - [使用水印](/words/zh/python-net/working-with-watermark/)
-- [使用 Ole 对象和在线视频](/words/python-net/working-with-ole-objects/)
+- [使用 Ole 对象和在线视频](/words/zh/python-net/working-with-ole-objects/)
 - [使用字段](/words/zh/python-net/working-with-fields/)
 - [使用表单字段](/words/zh/python-net/working-with-form-fields/)
 - [使用内容控制 SDT](/words/zh/python-net/working-with-content-control-sdt/)
 - [使用控制字符](/words/zh/python-net/working-with-control-characters/)
 - [使用 VBA 宏](/words/zh/python-net/working-with-vba-macros/)
 - [使用 Markdown 功能](/words/zh/python-net/working-with-markdown-features/)
-- [处理文本文档](/words/python-net/working-with-text-document/)
+- [处理文本文档](/words/zh/python-net/working-with-text-document/)

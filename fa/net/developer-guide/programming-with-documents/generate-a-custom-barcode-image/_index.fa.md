@@ -1,4 +1,4 @@
----
+﻿---
 title: چگونه بار کد ایجاد کنیم
 second_title: Aspose.Words برای .NET
 articleTitle: یک تصویر بارکد سفارشی تولید کنید
@@ -55,7 +55,7 @@ Aspose.Words دارای یک واسط برای تولید بارکدهای سف�
 
 {{% alert color="primary" %}}
 
-برای اطلاعات بیشتر در مورد تبدیل اسناد از یک قالب به قالب دیگر، بخش مستندسازی [Convert a Document](/words/net/convert-a-document/) را بخوانید.
+برای اطلاعات بیشتر در مورد تبدیل اسناد از یک قالب به قالب دیگر، بخش مستندسازی [Convert a Document](/words/fa/net/convert-a-document/) را بخوانید.
 
 {{% /alert %}}
 

@@ -10,7 +10,7 @@ url: /id/java/supported-features-on-document-load/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words memungkinkan pengguna untuk bekerja dengan dokumen dalam berbagai format dan menyediakan berbagai pilihan untuk ini. Misalnya, pengguna dapat membuat dokumen dari awal atau memuat file yang ada di salah satu [format impor yang disertakan](/words/java/supported-document-formats/), buat beberapa perubahan pada dokumen itu lalu simpan hasilnya. Saat mengimpor dokumen dalam format yang dipilih, pengguna dapat menerapkan berbagai opsi pemuatan.
+Aspose.Words memungkinkan pengguna untuk bekerja dengan dokumen dalam berbagai format dan menyediakan berbagai pilihan untuk ini. Misalnya, pengguna dapat membuat dokumen dari awal atau memuat file yang ada di salah satu [format impor yang disertakan](/words/id/java/supported-document-formats/), buat beberapa perubahan pada dokumen itu lalu simpan hasilnya. Saat mengimpor dokumen dalam format yang dipilih, pengguna dapat menerapkan berbagai opsi pemuatan.
 
 {{% alert color="primary" %}}
 

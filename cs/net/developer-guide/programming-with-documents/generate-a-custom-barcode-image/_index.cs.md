@@ -1,4 +1,4 @@
----
+﻿---
 title: Jak vytvořit čárový kód
 second_title: Aspose.Words za .NET
 articleTitle: Vygenerovat vlastní kódovou čárou obrázek
@@ -55,7 +55,7 @@ Můžete také uložit dokument s načteným nebo nově vloženým čárovým k�
 
 {{% alert color="primary" %}}
 
-Pro více informací o převodu dokumentů z jednoho formátu do druhého, viz dokumentaci sekce [Convert a Document](/words/net/convert-a-document/).
+Pro více informací o převodu dokumentů z jednoho formátu do druhého, viz dokumentaci sekce [Convert a Document](/words/cs/net/convert-a-document/).
 
 {{% /alert %}}
 

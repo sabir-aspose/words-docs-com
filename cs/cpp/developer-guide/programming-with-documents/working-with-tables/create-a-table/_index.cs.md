@@ -112,7 +112,7 @@ Následující příklad kódu ukazuje, jak klonovat poslední řádek tabulky a
 
 {{< gist "aspose-words-gists" "aa87055754447c86ae5fb2d4766130f3" "clone-last-row.h" >}}
 
-Pokud se díváte na vytváření tabulek v dokumentu, které dynamicky rostou s každým záznamem ze zdroje dat, výše uvedená metoda se nedoporučuje. Místo toho je požadovaného výstupu snadněji dosaženo použitím Mail merge s regiony. Více o této technice se můžete dozvědět v [Mail Merge s regiony](/words/cpp/types-of-mail-merge-operations/) oddíl.
+Pokud se díváte na vytváření tabulek v dokumentu, které dynamicky rostou s každým záznamem ze zdroje dat, výše uvedená metoda se nedoporučuje. Místo toho je požadovaného výstupu snadněji dosaženo použitím Mail merge s regiony. Více o této technice se můžete dozvědět v [Mail Merge s regiony](/words/cs/cpp/types-of-mail-merge-operations/) oddíl.
 
 ## Porovnejte způsoby vytvoření tabulky
 

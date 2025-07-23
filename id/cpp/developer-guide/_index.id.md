@@ -1,4 +1,4 @@
----
+﻿---
 title: Panduan Pengembang di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Panduan Pengembang
@@ -14,9 +14,9 @@ Panduan Pengembang ini memberikan informasi tentang penggunaan Aspose.Words untu
 
 Untuk mempelajari lebih lanjut tentang fitur Aspose.Words, pilih bagian yang sesuai:
 
-- [Memuat, Menyimpan, dan Mengonversi](/words/cpp/loading-saving-and-converting/) - memberikan informasi tentang berbagai cara untuk memuat atau menyimpan dokumen dan fitur khusus format yang berguna untuk mengonversi dokumen dari satu format ke format lainnya.
-- [Rendering](/words/cpp/rendering/) - memberikan informasi tentang cara mendapatkan representasi paginasi dari dokumen dalam format halaman tata letak alur.
-- [Mail Merge dan Pelaporan](/words/cpp/mail-merge-and-reporting/) - memberikan informasi tentang pembuatan dokumen, seperti laporan, katalog, inventaris, dan faktur, dari templat dengan bidang mail merge.
-- [Pemrograman dengan Dokumen](/words/cpp/programming-with-documents/) - memberikan informasi tentang cara membuat, memodifikasi, dan mengelola dokumen secara terprogram termasuk mengubah konten dan tampilan visualnya.
+- [Memuat, Menyimpan, dan Mengonversi](/words/id/cpp/loading-saving-and-converting/) - memberikan informasi tentang berbagai cara untuk memuat atau menyimpan dokumen dan fitur khusus format yang berguna untuk mengonversi dokumen dari satu format ke format lainnya.
+- [Rendering](/words/id/cpp/rendering/) - memberikan informasi tentang cara mendapatkan representasi paginasi dari dokumen dalam format halaman tata letak alur.
+- [Mail Merge dan Pelaporan](/words/id/cpp/mail-merge-and-reporting/) - memberikan informasi tentang pembuatan dokumen, seperti laporan, katalog, inventaris, dan faktur, dari templat dengan bidang mail merge.
+- [Pemrograman dengan Dokumen](/words/id/cpp/programming-with-documents/) - memberikan informasi tentang cara membuat, memodifikasi, dan mengelola dokumen secara terprogram termasuk mengubah konten dan tampilan visualnya.
 
 Untuk penjelasan rinci tentang kelas, metode, dan properti, lihat Aspose.Words untuk C++ API Reference bagian.

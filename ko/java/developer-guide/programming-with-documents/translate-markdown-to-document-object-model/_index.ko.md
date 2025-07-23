@@ -12,7 +12,7 @@ timestamp: 2024-10-21-11-17-44
 
 문서의 내용과 서식을 프로그래밍 방식으로 읽고 조작하고 수정하려면Aspose.Words문서 개체 모델(DOM)으로 변환해야 합니다.
 
-Word 문서와 달리 Markdown는 다음에서 설명한 DOM과 일치하지 않습니다.[ Aspose.Words 문서 개체 모델(DOM)](/words/java/aspose-words-document-object-model/) 기사. 그러나 Aspose.Words은 Markdown 문서를 DOM으로 번역하고 다시 그 반대로 번역하는 자체 메커니즘을 제공하므로 텍스트 서식, 표, 헤더 등과 같은 요소를 사용하여 성공적으로 작업할 수 있습니다.
+Word 문서와 달리 Markdown는 다음에서 설명한 DOM과 일치하지 않습니다.[ Aspose.Words 문서 개체 모델(DOM)](/words/ko/java/aspose-words-document-object-model/) 기사. 그러나 Aspose.Words은 Markdown 문서를 DOM으로 번역하고 다시 그 반대로 번역하는 자체 메커니즘을 제공하므로 텍스트 서식, 표, 헤더 등과 같은 요소를 사용하여 성공적으로 작업할 수 있습니다.
 
 이 문서에서는 다양한markdown기능을Aspose.WordsDOM및Markdown형식으로 다시 번역할 수 있는 방법을 설명합니다.
 
@@ -98,5 +98,5 @@ Aspose.Words또한 아래와 같이 테이블을DOM로 변환할 수 있습니�
 
 ## 또한 참조
 
-* [Markdown기능 작업](/words/java/working-with-markdown-features/)
+* [Markdown기능 작업](/words/ko/java/working-with-markdown-features/)
 

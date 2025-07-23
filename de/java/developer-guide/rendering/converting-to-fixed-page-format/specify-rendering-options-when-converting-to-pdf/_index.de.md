@@ -96,7 +96,7 @@ Die Auflösung wird entsprechend der tatsächlichen Bildgröße auf der Seite be
 
 ## Einbetten von Schriftarten im Adobe PDF -Format
 
-Mit Aspose.Words können Sie auch steuern, wie Schriftarten in die resultierenden PDF-Dokumente eingebettet werden. Schriftarten müssen in jedes Adobe PDF-Dokument eingebettet sein, um sicherzustellen, dass das Dokument auf jedem Computer korrekt gerendert werden kann (weitere Informationen zum Rendern von Schriftarten finden Sie im Abschnitt [TrueType Schriftarten verwenden](/words/java/using-truetype-fonts/)). Standardmäßig bettet Aspose.Words eine Teilmenge der im Dokument verwendeten Schriftarten in das generierte PDF ein. In diesem Fall werden nur die im Dokument verwendeten Glyphen (Zeichen) in PDF gespeichert.
+Mit Aspose.Words können Sie auch steuern, wie Schriftarten in die resultierenden PDF-Dokumente eingebettet werden. Schriftarten müssen in jedes Adobe PDF-Dokument eingebettet sein, um sicherzustellen, dass das Dokument auf jedem Computer korrekt gerendert werden kann (weitere Informationen zum Rendern von Schriftarten finden Sie im Abschnitt [TrueType Schriftarten verwenden](/words/de/java/using-truetype-fonts/)). Standardmäßig bettet Aspose.Words eine Teilmenge der im Dokument verwendeten Schriftarten in das generierte PDF ein. In diesem Fall werden nur die im Dokument verwendeten Glyphen (Zeichen) in PDF gespeichert.
 
 ### Wann vollständige Schriftarten und wann Teilmengen verwendet werden sollten
 

@@ -85,7 +85,7 @@ En esta sección se describen varios casos de uso de dividir documentos por pagi
 
 {{% alert color="primary" %}}
 
-Puedes usar cualquiera [formato de salida compatible con Aspose.Words](/words/java/supported-document-formats/).
+Puedes usar cualquiera [formato de salida compatible con Aspose.Words](/words/es/java/supported-document-formats/).
 
 {{% /alert %}}
 

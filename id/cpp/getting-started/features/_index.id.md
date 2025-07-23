@@ -1,4 +1,4 @@
----
+﻿---
 title: Fitur
 second_title: Aspose.Words untuk C++
 articleTitle: Fitur yang Didukung
@@ -37,7 +37,7 @@ Aspose.Words menyediakan berbagai fitur kepada pengguna. Pengguna dapat melakuka
 
 ## Keterbatasan
 
-- Mendukung kumpulan format file terbatas (*see [Supported Document Formats](/words/cpp/supported-document-formats/) for details*)
+- Mendukung kumpulan format file terbatas (*see [Supported Document Formats](/words/id/cpp/supported-document-formats/) for details*)
 - Tidak ada dukungan untuk dokumen terenkripsi
 - Tidak ada dukungan untuk mengunduh sumber daya jarak jauh dari Internet
 - Dukungan terbatas dan tidak stabil untuk fitur Rendering

@@ -1,4 +1,4 @@
----
+﻿---
 title: Preguntas más frecuentes
 second_title: Aspose.Words para .NET
 articleTitle: "Preguntas frecuentes: Aspose.Words para .NET"
@@ -72,7 +72,7 @@ También puede probar algunas de las funciones Aspose.Words más populares a tra
 
 Para comprar una licencia Aspose.Words, debe ir a la página [comprar](https://purchase.aspose.com/buy), seleccionar el producto "Aspose.Words" y el tipo de licencia que más le convenga. Luego agregue la licencia a su carrito y siga las instrucciones del carrito de compras.
 
-Después de la compra, solicite la licencia como se describe en la sección ["Licencia comprada"](/words/net/licensing/#purchased-license).
+Después de la compra, solicite la licencia como se describe en la sección ["Licencia comprada"](/words/es/net/licensing/).
 
 Los detalles sobre cómo instalar Aspose.Words se pueden leer en la página [Instalación](/words/es/net/installation/).
 
@@ -129,7 +129,7 @@ Si tu puedes. Por lo tanto, al copiar fuentes, tenga en cuenta que la mayoría d
 
 {{% alert color="primary" %}}
 
-Puede encontrar información más detallada sobre la combinación de correspondencia en la sección de documentación ["Combinación de correspondencia e informes"](/words/net/mail-merge-and-reporting/).
+Puede encontrar información más detallada sobre la combinación de correspondencia en la sección de documentación ["Combinación de correspondencia e informes"](/words/es/net/mail-merge-and-reporting/).
 
 {{% /alert %}}
 
@@ -153,7 +153,7 @@ Esto se debe a que las regiones de combinación de correspondencia en la plantil
 Esto se debe a que la relación entre las tablas principal y secundaria no está configurada o está configurada incorrectamente. Es necesario para:
 
 * Garantice la integridad de los datos dentro de su **DataSet** y utilice el objeto **DataRelation** para representar la relación padre-hijo entre tablas de datos relacionadas.
-* Consulte la sección "Cómo configurar relaciones de datos en combinación de correspondencia anidada con regiones" en el artículo ["Combinación de correspondencia anidada con regiones"](/words/net/nested-mail-merge-with-regions/).
+* Consulte la sección "Cómo configurar relaciones de datos en combinación de correspondencia anidada con regiones" en el artículo ["Combinación de correspondencia anidada con regiones"](/words/es/net/nested-mail-merge-with-regions/).
 
 ------
 

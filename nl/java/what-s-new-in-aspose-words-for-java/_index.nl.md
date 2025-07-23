@@ -470,7 +470,7 @@ De functie om hyperlinks te herkennen bij het laden van TXT documenten is geïmp
 
 {{% alert color="primary" %}}
 
-Lees meer over [Aspose.Words voor Java 23.9 Release Notes](/words/java/aspose-words-for-java-23-9-release-notes/).
+Lees meer over [Aspose.Words voor Java 23.9 Release Notes](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-9-release-notes/).
 
 Lees meer over [Aspose.Words voor Java 23.10 Release Notes](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 

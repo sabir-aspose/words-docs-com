@@ -1,4 +1,4 @@
----
+﻿---
 title: Chuyển Đổi Word Sang Excel trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Chuyển Đổi Tài liệu Sang Excel
@@ -61,5 +61,5 @@ doc->Save(ArtifactsDir + u"BaseConversions.CompressXlsx.xlsx", saveOptions);
 
 ## Xem Thêm
 
-- Phần tài liệu [Bảo vệ Hoặc Mã hóa Tài liệu](/words/cpp/protect-or-encrypt-a-document/) để biết thêm thông tin về bảo vệ và mã hóa tài liệu
-- Bài viết [Tìm Và Thay thế](/words/cpp/find-and-replace/) để biết thêm thông tin về việc tìm kiếm và thay thế nội dung bạn muốn
+- Phần tài liệu [Bảo vệ Hoặc Mã hóa Tài liệu](/words/vi/cpp/protect-or-encrypt-a-document/) để biết thêm thông tin về bảo vệ và mã hóa tài liệu
+- Bài viết [Tìm Và Thay thế](/words/vi/cpp/find-and-replace/) để biết thêm thông tin về việc tìm kiếm và thay thế nội dung bạn muốn

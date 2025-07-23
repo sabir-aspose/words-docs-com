@@ -1,4 +1,4 @@
----
+﻿---
 title: Traduceți Markdown în DOM
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Traduceți Markdown în Document Object Model (DOM)
@@ -12,7 +12,7 @@ timestamp: 2024-10-21-11-17-44
 
 Pentru a citi, manipula și modifica în mod programatic conținutul și formatarea unui document, trebuie să îl traduceți în Aspose.Words Document Object Model (DOM).
 
-Spre deosebire de documentele Word, Markdown nu este conform cu DOM descris în [Aspose.Words Model Obiect Document (DOM)](/words/python-net/aspose-words-document-object-model/) articolul. Cu toate acestea, Aspose.Words oferă propriul mecanism pentru traducerea documentelor Markdown în DOM și înapoi, astfel încât să putem lucra cu succes cu elementele lor, cum ar fi formatarea textului, tabele, anteturi și altele.
+Spre deosebire de documentele Word, Markdown nu este conform cu DOM descris în [Aspose.Words Model Obiect Document (DOM)](/words/ro/python-net/aspose-words-document-object-model/) articolul. Cu toate acestea, Aspose.Words oferă propriul mecanism pentru traducerea documentelor Markdown în DOM și înapoi, astfel încât să putem lucra cu succes cu elementele lor, cum ar fi formatarea textului, tabele, anteturi și altele.
 
 Acest articol explică modul în care diferitele caracteristici markdown pot fi traduse în Aspose.Words DOM și înapoi la formatul Markdown.
 
@@ -268,5 +268,5 @@ builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.ordered_lis
 
 ## Vezi Și
 
-* [Lucrul cu Markdown Caracteristici](/words/python-net/working-with-markdown-features/)
+* [Lucrul cu Markdown Caracteristici](/words/ro/python-net/working-with-markdown-features/)
 

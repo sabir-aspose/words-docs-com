@@ -1,4 +1,4 @@
----
+﻿---
 title: Panoramica della tabella
 second_title: Aspose.Words per C++
 articleTitle: Panoramica della tabella
@@ -65,5 +65,5 @@ In Aspose.Words, tutte le classi e le proprietà correlate alle tabelle sono con
 
 ## Vedi anche
 
-* [Aspose.Words Modello a oggetti documento (DOM)](/words/cpp/aspose-words-document-object-model/)
-* [Livelli logici di nodi in un documento](/words/cpp/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Modello a oggetti documento (DOM)](/words/it/cpp/aspose-words-document-object-model/)
+* [Livelli logici di nodi in un documento](/words/it/cpp/logical-levels-of-nodes-in-a-document/)

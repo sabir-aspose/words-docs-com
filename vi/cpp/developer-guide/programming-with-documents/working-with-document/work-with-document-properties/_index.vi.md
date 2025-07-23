@@ -1,4 +1,4 @@
----
+﻿---
 title: Làm việc Với Các Thuộc tính Tài liệu trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm việc Với Thuộc Tính Tài Liệu
@@ -15,7 +15,7 @@ Thuộc tính tài liệu cho phép lưu trữ một số thông tin hữu ích 
 * Hệ thống hoặc tích hợp có chứa các giá trị như tiêu đề tài liệu, tên tác giả, thống kê tài liệu và các giá trị khác.
 * Người dùng xác định hoặc tùy chỉnh, được cung cấp dưới dạng các cặp giá trị tên nơi người dùng có thể xác định cả tên và giá trị.
 
-Thật hữu ích khi biết rằng thông tin về API Và Số Phiên bản được ghi trực tiếp vào các tài liệu đầu ra. Ví dụ: khi chuyển đổi tài liệu thành PDF, Aspose.Words điền vào trường "Ứng dụng" bằng "Aspose.Words" và trường "PDF Nhà sản xuất" với "Aspose.Words cho C++ YY.M. n", trong đó *YY.M.N* là phiên bản của Aspose.Words được sử dụng để chuyển đổi. Để biết thêm chi tiết, hãy xem [Máy phát Điện Hoặc Tên Nhà Sản xuất Bao gồm Trong Tài liệu Đầu Ra](/words/cpp/generator-or-producer-name-included-in-output-documents/).
+Thật hữu ích khi biết rằng thông tin về API Và Số Phiên bản được ghi trực tiếp vào các tài liệu đầu ra. Ví dụ: khi chuyển đổi tài liệu thành PDF, Aspose.Words điền vào trường "Ứng dụng" bằng "Aspose.Words" và trường "PDF Nhà sản xuất" với "Aspose.Words cho C++ YY.M. n", trong đó *YY.M.N* là phiên bản của Aspose.Words được sử dụng để chuyển đổi. Để biết thêm chi tiết, hãy xem [Máy phát Điện Hoặc Tên Nhà Sản xuất Bao gồm Trong Tài liệu Đầu Ra](/words/vi/cpp/generator-or-producer-name-included-in-output-documents/).
 
 {{% alert color="primary" %}}
 

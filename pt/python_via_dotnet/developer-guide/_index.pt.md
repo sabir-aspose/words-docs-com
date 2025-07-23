@@ -1,4 +1,4 @@
----
+﻿---
 title: Guia do desenvolvedor em Python
 second_title: Aspose.Words para Python via .NET
 articleTitle: Guia do desenvolvedor
@@ -16,7 +16,7 @@ Para saber mais sobre os recursos do Aspose.Words, selecione a seção correspon
 
 - [Carregando, salvando e convertendo](/words/pt/python-net/loading-saving-and-converting/) – fornece informações sobre diferentes maneiras de carregar ou salvar documentos e recursos específicos de formato, úteis para converter um documento de um formato para outro.
 - [Renderização](/words/pt/python-net/rendering/) – fornece informações sobre como obter uma representação paginada de um documento em formato de página de layout de fluxo.
-- [Mail Merge e relatórios](/words/python-net/mail-merge-and-reporting/) – fornece informações sobre a geração de documentos, como relatórios, catálogos, inventários e notas fiscais, a partir de templates com campos mail merge.
+- [Mail Merge e relatórios](/words/pt/python-net/mail-merge-and-reporting/) – fornece informações sobre a geração de documentos, como relatórios, catálogos, inventários e notas fiscais, a partir de templates com campos mail merge.
 - [Mecanismo de relatórios LINQ](/words/python-net/linq-reporting-engine/) – fornece informações sobre a criação de relatórios usando um conjunto estendido de recursos de relatórios.
 - [Programando com Documentos](/words/pt/python-net/programming-with-documents/) – fornece informações sobre como criar, modificar e gerenciar documentos de forma programática, incluindo a alteração de seu conteúdo e aparência visual.
 

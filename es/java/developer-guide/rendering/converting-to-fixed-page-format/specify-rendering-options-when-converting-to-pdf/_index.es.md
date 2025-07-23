@@ -96,7 +96,7 @@ La resolución se calcula de acuerdo con el tamaño real de la imagen en la pág
 
 ## Incrustación de fuentes en formato Adobe PDF
 
-Aspose.Words también le permite controlar cómo se incrustan las fuentes en los documentos PDF resultantes. Las fuentes deben incrustarse en cualquier documento de Adobe PDF para garantizar que el documento se pueda representar correctamente en cualquier máquina (consulte más detalles sobre la representación de fuentes en la sección [Uso de fuentes TrueType](/words/java/using-truetype-fonts/)). De forma predeterminada, Aspose.Words incrusta un subconjunto de fuentes utilizadas en el documento en el PDF generado. En este caso, solo los glifos (caracteres) utilizados en el documento se guardan en PDF.
+Aspose.Words también le permite controlar cómo se incrustan las fuentes en los documentos PDF resultantes. Las fuentes deben incrustarse en cualquier documento de Adobe PDF para garantizar que el documento se pueda representar correctamente en cualquier máquina (consulte más detalles sobre la representación de fuentes en la sección [Uso de fuentes TrueType](/words/es/java/using-truetype-fonts/)). De forma predeterminada, Aspose.Words incrusta un subconjunto de fuentes utilizadas en el documento en el PDF generado. En este caso, solo los glifos (caracteres) utilizados en el documento se guardan en PDF.
 
 ### Cuándo Usar Fuentes Completas y Cuándo Subconjuntar
 

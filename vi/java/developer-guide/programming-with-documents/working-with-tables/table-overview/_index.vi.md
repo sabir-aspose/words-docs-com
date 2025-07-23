@@ -1,4 +1,4 @@
----
+﻿---
 title: Tổng quan bảng
 second_title: Aspose.Words cho Java
 articleTitle: Tổng quan bảng
@@ -65,5 +65,5 @@ Aspose.Words có số lớp liên quan đến bảng – [Tables](https://refere
 
 ## Xem Thêm
 
-* [Aspose.Words Document Object Model (DOM)](/words/java/aspose-words-document-object-model/)
-* [Logical Levels of Nodes in a Document](/words/java/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Document Object Model (DOM)](/words/vi/java/aspose-words-document-object-model/)
+* [Logical Levels of Nodes in a Document](/words/vi/java/logical-levels-of-nodes-in-a-document/)

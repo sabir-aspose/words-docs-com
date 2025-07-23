@@ -20,6 +20,6 @@ Aspose.Words реалізує внутрішню функціональніст�
 
 ## Дивіться також
 
-* [Створення макета сторінки](/words/cpp/creating-a-page-layout/)
-* [Збереження документа у форматі фіксованої сторінки](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Вкажіть параметри компонування](/words/cpp/specify-layout-options/)
+* [Створення макета сторінки](/words/uk/cpp/creating-a-page-layout/)
+* [Збереження документа у форматі фіксованої сторінки](/words/uk/cpp/saving-a-document-to-fixed-page-format/)
+* [Вкажіть параметри компонування](/words/uk/cpp/specify-layout-options/)

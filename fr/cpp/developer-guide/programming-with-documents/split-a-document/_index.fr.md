@@ -1,4 +1,4 @@
----
+﻿---
 title: Diviser un document en C++
 second_title: Aspose.Words pour C++
 articleTitle: Fractionner un document
@@ -67,7 +67,7 @@ Cette section décrit plusieurs cas d'utilisation de la division de documents pa
 
 {{% alert color="primary" %}}
 
-Vous pouvez utiliser n'importe quel [format de sortie pris en charge par Aspose.Words](/words/cpp/supported-document-formats/).
+Vous pouvez utiliser n'importe quel [format de sortie pris en charge par Aspose.Words](/words/fr/cpp/supported-document-formats/).
 
 {{% /alert %}}
 

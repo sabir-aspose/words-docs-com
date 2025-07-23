@@ -1,4 +1,4 @@
----
+﻿---
 title: ذخیره به فرمت صفحه ثابت در C++
 second_title: Aspose.Words برای C++
 articleTitle: ذخیره یک سند به فرمت صفحه ثابت
@@ -17,7 +17,7 @@ timestamp: 2024-09-24-14-35-44
 - تعداد و محدوده صفحات موجود در سند خروجی([PageIndex](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pageset/), [PageCount](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pageset/)).
 - پیشرفت ذخیره اسناد صفحه به صفحه ([PageSavingCallback](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pagesavingcallback/)).
 - مجموعه ای از کاراکترها که برای رندر اعداد استفاده می شوند ([NumeralFormat](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_numeralformat/)).
-- یک پخش کننده متافیل ([MetafileRenderingOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_metafilerenderingoptions/)). برای جزئیات بیشتر، به [دست زدن به Windows Metafiles](/words/cpp/handling-windows-metafiles/) مقاله.
+- یک پخش کننده متافیل ([MetafileRenderingOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_metafilerenderingoptions/)). برای جزئیات بیشتر، به [دست زدن به Windows Metafiles](/words/fa/cpp/handling-windows-metafiles/) مقاله.
 - نرخ کیفیت برای فشرده سازی مجدد تصاویر JPEG، که ارزش آن ممکن است کمی متفاوت باشد، بسته به فرمت ذخیره انتخاب شده ([JpegQuality](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_jpegquality/)).
 - بهینه سازی گرافیک وکتور در خروجی Aspose.Words ([OptimizeOutput](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_optimizeoutput/)).
 - گزینه های گرافیکی هنگام صرفه جویی در فرمت های Tiff، Png، Bmp، Jpeg، Emf ([UseAntiAliasing](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_useantialiasing/), [UseHighQualityRendering](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_usehighqualityrendering/)).

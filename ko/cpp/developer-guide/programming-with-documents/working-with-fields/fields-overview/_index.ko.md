@@ -1,4 +1,4 @@
----
+﻿---
 title: 필드 개요 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 필드 개요
@@ -29,7 +29,7 @@ Aspose.Words 서버 측 처리를 위해 설계된 클래스 라이브러리입�
 
 ![fields-overview-aspose-words-cpp-1](fields-overview-1.png)
 
-필드 코드를 구성하는 콘텐츠는 다음과 같이 저장됩니다 [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) 사이의 노드 [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) 그리고 [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/). 필드 결과는 **FieldSeparator** 그리고 [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) 노드는 다양한 유형의 콘텐츠로 구성 될 수 있습니다. 일반적으로 필드 결과에는 **Run** 노드,그러나 그것은 가능 **FieldEnd** 노드는 완전히 다른 단락에 위치하고,따라서 필드 결과를 구성 [블록 레벨 노드](/words/cpp/logical-levels-of-nodes-in-a-document/) 같은 **Table** 그리고 **Paragraph** 노드들도 마찬가지다.
+필드 코드를 구성하는 콘텐츠는 다음과 같이 저장됩니다 [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) 사이의 노드 [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) 그리고 [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/). 필드 결과는 **FieldSeparator** 그리고 [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) 노드는 다양한 유형의 콘텐츠로 구성 될 수 있습니다. 일반적으로 필드 결과에는 **Run** 노드,그러나 그것은 가능 **FieldEnd** 노드는 완전히 다른 단락에 위치하고,따라서 필드 결과를 구성 [블록 레벨 노드](/words/ko/cpp/logical-levels-of-nodes-in-a-document/) 같은 **Table** 그리고 **Paragraph** 노드들도 마찬가지다.
 
 다음은 필드가 저장되는 방식에 대한 뷰입니다 Aspose.Words "를 사용하여*DocumentExplorer"* 예.
 
@@ -37,7 +37,7 @@ Aspose.Words 서버 측 처리를 위해 설계된 클래스 라이브러리입�
 
 ## 의 필드 Aspose.Words 문서 개체 모델(DOM)
 
-문서를 로드할 때 Aspose.Words,문서의 필드는 [Aspose.Words 문서 개체 모델](/words/cpp/aspose-words-document-object-model/) 별도의 구성 요소(노드)의 집합으로. 단일 필드는 다음과 같은 집합으로 로드됩니다 **FieldStart**, **FieldSeparator** 그리고 **FieldEnd** 이 노드 사이의 콘텐츠와 함께 노드. 만약 필드에 필드 결과가 없다면, **FieldSeparator** 노드 이 모든 노드는 항상 인라인으로 발견됩니다. [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) 또는 [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
+문서를 로드할 때 Aspose.Words,문서의 필드는 [Aspose.Words 문서 개체 모델](/words/ko/cpp/aspose-words-document-object-model/) 별도의 구성 요소(노드)의 집합으로. 단일 필드는 다음과 같은 집합으로 로드됩니다 **FieldStart**, **FieldSeparator** 그리고 **FieldEnd** 이 노드 사이의 콘텐츠와 함께 노드. 만약 필드에 필드 결과가 없다면, **FieldSeparator** 노드 이 모든 노드는 항상 인라인으로 발견됩니다. [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) 또는 [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
 
 그 안에 Aspose.Words 각 **FieldXXX** 노드는 [FieldChar](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_char/). 이 클래스는 지정된 노드가 나타내는 필드 유형을 확인하는 속성을 제공합니다. [FieldType](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldchar/get_fieldtype/) 재산. 예를 들어 **FieldType.FieldMergeField** 문서의 병합 필드를 나타냅니다.
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Sit PDF na Ander Dokument Formate in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Sit PDF na Ander Dokument Formate
@@ -63,7 +63,7 @@ Tydens'n PDF dokument omskakeling, kan een van die volgende uitsonderings gebeur
 
 | Uitsondering | Beskrywing |
 | -------------------------------- | ------------------------------------------------------------ |
-| `FileLoadException` | 'n PDF lêer kan nie verwerk word vir een of ander rede.<br />{{% alert color="primary" %}}u kan die kwessie aan die ontwikkelingspan rapporteer vir'n gedetailleerde ondersoek met behulp van die [tegniese ondersteuning](/words/net/technical-support/).{{% /alert %}} |
+| `FileLoadException` | 'n PDF lêer kan nie verwerk word vir een of ander rede.<br />{{% alert color="primary" %}}u kan die kwessie aan die ontwikkelingspan rapporteer vir'n gedetailleerde ondersoek met behulp van die [tegniese ondersteuning](/words/af/net/technical-support/).{{% /alert %}} |
 | `DrmProtectedFileException` | 'n PDF lêer word beskerm deur Adobe DRM en kan nie deur Pdf2word ontkodeer word nie. |
 | `PasswordProtectedFileException` | Die korrekte wagwoord moet voorsien word vir'n wagwoordbeskermde PDF. |
 

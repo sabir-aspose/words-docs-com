@@ -1,4 +1,4 @@
----
+﻿---
 title: 表概述
 second_title: Aspose.Words对于C++
 articleTitle: 表概述
@@ -65,5 +65,5 @@ Aspose.Words是一个类库，设计用于服务器端处理各种格式的文�
 
 ## 请参阅
 
-* [Aspose.Words文档对象模型(DOM)](/words/cpp/aspose-words-document-object-model/)
-* [文档中节点的逻辑级别](/words/cpp/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words文档对象模型(DOM)](/words/zh/cpp/aspose-words-document-object-model/)
+* [文档中节点的逻辑级别](/words/zh/cpp/logical-levels-of-nodes-in-a-document/)

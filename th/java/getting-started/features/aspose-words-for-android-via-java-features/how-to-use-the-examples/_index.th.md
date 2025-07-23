@@ -12,6 +12,6 @@ timestamp: 2024-01-27-14-07-04
 
 ประการแรกให้แน่ใจว่าคุณมีชุดADTติดตั้งและที่คุณได้ดาวน์โหลดและแยกรุ่นล่าสุดของ [แอสโปสWordsสำหรับAndroidผ่านJava](https://releases.aspose.com/words/androidjava/).
 
-- ติดตั้งAspose.WordsสำหรับAndroidผ่านทางJavaโดยทำตามคำแนะนำที่ [ที่นี่](/words/java/installation/)
+- ติดตั้งAspose.WordsสำหรับAndroidผ่านทางJavaโดยทำตามคำแนะนำที่ [ที่นี่](/words/th/java/installation/)
 - เปิดโครงการในพื้นที่ทำงานของคุณโดยใช้Eclipseด้วยADT.
 - คลิก**Run**เพื่อเริ่มต้นและเลือกโปรแกรมจำลองที่เหมาะสมที่จะเรียกใช้แพคเกจ.

@@ -36,7 +36,7 @@ Die allgemeine Einschränkung für zwei zu vergleichende Dokumente besteht darin
 
 {{% alert color="primary" %}}
 
-Beachten Sie, dass Sie zwei beliebige Dokumente innerhalb der vergleichen können [unterstützte Dateiformate](/words/java/supported-document-formats/). Grundsätzlich können Sie Dokumentobjekte vergleichen und sogar diese Objekte von Grund auf neu erstellen, ohne ein bestimmtes Format zu haben.
+Beachten Sie, dass Sie zwei beliebige Dokumente innerhalb der vergleichen können [unterstützte Dateiformate](/words/de/java/supported-document-formats/). Grundsätzlich können Sie Dokumentobjekte vergleichen und sogar diese Objekte von Grund auf neu erstellen, ohne ein bestimmtes Format zu haben.
 
 {{% /alert %}}
 

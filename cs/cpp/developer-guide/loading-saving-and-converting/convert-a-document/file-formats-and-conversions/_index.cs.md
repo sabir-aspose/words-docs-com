@@ -29,7 +29,7 @@ Následující příklad kódu ukazuje, jak převést dokument:
 
 {{< gist "aspose-words-gists" "b9784b73e288805e08fba6e3fc5ae2af" "docx-to-pdf.h" >}}
 
-Další podrobnosti o načítání, převodu a ukládání dokumentů naleznete v části [Načítání, ukládání a konverze](/words/cpp/loading-saving-and-converting/) oddíl.
+Další podrobnosti o načítání, převodu a ukládání dokumentů naleznete v části [Načítání, ukládání a konverze](/words/cs/cpp/loading-saving-and-converting/) oddíl.
 
 ## Vysoká Věrnost
 

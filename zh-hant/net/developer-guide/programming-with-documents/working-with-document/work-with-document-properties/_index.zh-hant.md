@@ -1,4 +1,4 @@
----
+﻿---
 title: C# 中與文件屬性工作
 second_title: Aspose.Words for .NET
 articleTitle: 在文件屬性中工作
@@ -15,7 +15,7 @@ timestamp: 2024-01-31-14-23-37
 *包含值如文檔名稱、作者名稱、文檔統計資料等之系統或內建。
 "*用戶定義或自訂，以名稱值對的形式提供，用戶可以定義名稱和值。"
 
-了解 API 和版本號直接寫入輸出文件的資訊很有用。 例如，當將文件轉換為 PDF 時，Aspose.Words 會將應用程式欄位填寫為Aspose.Words，並將PDF 製造商欄位填寫為Aspose.Words for .NET YY.M.N，其中 *YY.M.N* 是用於轉化的 Aspose.Words 版本。 詳細資料請參閱 [Generator or Producer Name Included in Output Documents](/words/net/generator-or-producer-name-included-in-output-documents/)。
+了解 API 和版本號直接寫入輸出文件的資訊很有用。 例如，當將文件轉換為 PDF 時，Aspose.Words 會將應用程式欄位填寫為Aspose.Words，並將PDF 製造商欄位填寫為Aspose.Words for .NET YY.M.N，其中 *YY.M.N* 是用於轉化的 Aspose.Words 版本。 詳細資料請參閱 [Generator or Producer Name Included in Output Documents](/words/zh-hant/net/generator-or-producer-name-included-in-output-documents/)。
 
 {{% alert color="primary" %}}
 

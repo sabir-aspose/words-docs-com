@@ -1,22 +1,22 @@
----
-title: Konvertieren Sie Word in C# in PDF
+﻿---
+title: Word zu PDF konvertieren in C#
 second_title: Aspose.Words für .NET
-articleTitle: Konvertieren Sie ein Dokument in PDF
-linktitle: Konvertieren Sie ein Dokument in PDF
-description: "Konvertieren Sie ein Dokument mit C# in PDF. Konvertieren Sie DOCX in PDF C#. Es werden verschiedene Eingabeformate unterstützt, darunter Word-, OpenOffice-, Bild- und eBook-Formate."
+articleTitle: Dokument zu PDF umwandeln
+linktitle: Dokument zu PDF umwandeln
+description: "Word zu PDF konvertieren in C#. Einfache Codebeispiele für DOCX zu PDF Konvertierung. Unterstützt alle Word-Formate und Bilder."
 type: docs
 weight: 10
 url: /de/net/convert-a-document-to-pdf/
 timestamp: 2024-09-25-11-08-55
 ---
 
-Die Fähigkeit, Dokumente einfach und zuverlässig von einem Format in ein anderes zu konvertieren, ist eine Schlüsselfunktion von Aspose.Words. Eines der beliebtesten Formate für die Konvertierung ist PDF – ein Format mit festem Layout, das das ursprüngliche Erscheinungsbild eines Dokuments beim Rendern auf verschiedenen Plattformen beibehält. Der Begriff "Rendering" wird in Aspose.Words verwendet, um den Prozess der Konvertierung eines Dokuments in ein Dateiformat zu beschreiben, das paginiert ist oder das Konzept von Seiten hat.
+Die Möglichkeit, Dokumente einfach und zuverlässig von einem Format in ein anderes zu konvertieren, ist ein Hauptmerkmal von Aspose.Words. PDF ist eines der beliebtesten Formate für die Umwandlung – es ist ein Format mit festem Layout, das das ursprüngliche Erscheinungsbild eines Dokuments beim Rendern auf verschiedenen Plattformen beibehält. Der Begriff "Rendern" wird in Aspose.Words verwendet, um den Prozess der Konvertierung eines Dokuments in ein Dateiformat zu beschreiben, das paginiert ist oder das Konzept von Seiten hat.
 
-## Konvertieren Sie ein Word-Dokument in PDF
+## Word-Dokument zu PDF konvertieren
 
-Die Konvertierung von Word in PDF ist ein ziemlich komplexer Prozess, der mehrere Berechnungsschritte erfordert. Die Aspose.Words-Layout-Engine ahmt die Funktionsweise der Seitenlayout-Engine von Microsoft Word nach und sorgt dafür, dass PDF-Ausgabedokumente so nah wie möglich an dem aussehen, was Sie in Microsoft Word sehen können.
+Die Konvertierung von Word zu PDF ist ein ziemlich komplexer Prozess, der mehrere Berechnungsstufen erfordert. Die Layout-Engine von Aspose.Words imitiert die Funktionsweise der Seiten-Layout-Engine von Microsoft Word, wodurch PDF-Ausgabedokumente so nah wie möglich an dem aussehen, was Sie in Microsoft Word sehen können.
 
-Mit Aspose.Words können Sie ein Dokument programmgesteuert aus Word-Formaten wie DOC oder DOCX in PDF konvertieren, ohne Microsoft Office zu verwenden. In diesem Artikel wird erläutert, wie Sie diese Konvertierung durchführen.
+Mit Aspose.Words können Sie ein Dokument programmgesteuert von Word-Formaten wie DOC oder DOCX zu PDF umwandeln, ohne Microsoft Office zu verwenden. Dieser Artikel erklärt, wie Sie diese Umwandlung durchführen.
 
 {{% alert color="primary" %}}
 
@@ -24,14 +24,14 @@ Beachten Sie, dass die Anzahl der Seiten in einem Dokument die Konvertierungszei
 
 {{% /alert %}}
 
-### Konvertieren Sie DOCX oder DOC in PDF
+### DOCX oder DOC zu PDF konvertieren
 
-Die Konvertierung vom DOC- oder DOCX-Dokumentformat in das PDF-Format in Aspose.Words ist sehr einfach und kann mit nur zwei Codezeilen durchgeführt werden, die:
+Das Umwandeln vom DOC- oder DOCX-Dokumentformat in das PDF-Format in Aspose.Words ist sehr einfach und kann mit nur zwei Codezeilen erreicht werden, die:
 
-1. Laden Sie Ihr Dokument mithilfe eines seiner Konstruktoren in ein [Document](https://reference.aspose.com/words/de/net/aspose.words/document/)-Objekt, indem Sie den Dokumentnamen mit seiner Formaterweiterung angeben.
-1. Rufen Sie eine der [Document.Save](https://reference.aspose.com/words/de/net/aspose.words/document/save/#save/)-Methoden für das **Document**-Objekt auf und geben Sie das gewünschte Ausgabeformat als PDF an, indem Sie einen Dateinamen mit der Erweiterung ".PDF" eingeben.
+1. Laden Sie Ihr Dokument in ein [Document](https://reference.aspose.com/words/net/aspose.words/document/)-Objekt mit einem seiner Konstruktoren, indem Sie den Dokumentnamen mit seiner Formaterweiterung angeben.
+1. Rufen Sie eine der [Document.Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/)-Methoden für das **Document**-Objekt auf und geben Sie das gewünschte Ausgabeformat als PDF an, indem Sie einen Dateinamen mit der Erweiterung ".PDF" eingeben.
 
-Das folgende Codebeispiel zeigt, wie Sie ein Dokument mithilfe der [Save](https://reference.aspose.com/words/de/net/aspose.words/document/save/)-Methode von DOCX in PDF konvertieren:
+Das folgende Codebeispiel zeigt, wie Sie ein Dokument von DOCX zu PDF mit der [Save](https://reference.aspose.com/words/net/aspose.words/document/save/)-Methode konvertieren:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "docx-to-pdf.cs" >}}
 
@@ -39,35 +39,35 @@ Sie können die Vorlagendatei dieses Beispiels von [Aspose.Words GitHub](https:/
 
 {{% alert color="primary" %}}
 
-Manchmal ist es notwendig, zusätzliche Optionen anzugeben, die sich auf das Ergebnis der Speicherung eines Dokuments als PDF auswirken können. Diese Optionen können mithilfe der [PdfSaveOptions](https://reference.aspose.com/words/de/net/aspose.words.saving/pdfsaveoptions/)-Klasse angegeben werden, die Eigenschaften enthält, die bestimmen, wie die PDF-Ausgabe angezeigt wird.
+Manchmal ist es notwendig, zusätzliche Optionen anzugeben, die das Ergebnis des Speicherns eines Dokuments als PDF beeinflussen können. Diese Optionen können mit der [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/)-Klasse angegeben werden, die Eigenschaften enthält, die bestimmen, wie die PDF-Ausgabe angezeigt wird.
 
-Beachten Sie, dass Sie mit derselben Technik jedes Dokument im Flow-Layout-Format in das PDF-Format konvertieren können.
+Beachten Sie, dass Sie mit derselben Technik jedes Dokument im Fließtext-Format in das PDF-Format überführen können.
 
 {{% /alert %}}
 
-### Konvertieren Sie in verschiedene PDF-Standards
+### Zu verschiedenen PDF-Standards konvertieren
 
-Aspose.Words stellt die [PDFCompliace](https://reference.aspose.com/words/de/net/aspose.words.saving/pdfcompliance/)-Aufzählung bereit, um die Konvertierung von DOC oder DOCX in verschiedene PDF-Formatstandards (z. B. PDF 1.7, PDF 1.5 usw.) zu unterstützen.
+Aspose.Words bietet die [PdfCompliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/)-Aufzählung zur Unterstützung der Umwandlung von DOC oder DOCX in verschiedene PDF-Formatstandards (wie PDF 1.7, PDF 1.5 usw.).
 
-Das folgende Codebeispiel zeigt, wie ein Dokument mithilfe von [PdfSaveOptions](https://reference.aspose.com/words/de/net/aspose.words.saving/pdfsaveoptions/) unter Einhaltung von PDF17 in PDF 1.7 konvertiert wird:
+Das folgende Codebeispiel zeigt, wie Sie ein Dokument zu PDF 1.7 mit [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) mit Konformität zu PDF17 umwandeln:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "conversion-to-pdf17.cs" >}}
 
-## Konvertieren Sie Bilder in PDF
+## Bilder zu PDF konvertieren
 
-Die Konvertierung in PDF ist nicht durch Microsoft Word-Dokumentformate eingeschränkt. Jedes von Aspose.Words unterstützte Format, einschließlich programmgesteuert erstellter, kann auch in PDF konvertiert werden. Wir können beispielsweise einseitige Bilder wie JPEG, PNG, BMP, EMF oder WMF sowie mehrseitige Bilder wie TIFF und GIF in PDF konvertieren.
+Die Konvertierung zu PDF ist nicht auf Microsoft Word-Dokumentformate beschränkt. Jedes von Aspose.Words unterstützte Format, einschließlich programmgesteuert erstellter, kann auch zu PDF gewandelt werden. Zum Beispiel können wir einseitige Bilder wie JPEG, PNG, BMP, EMF oder WMF sowie mehrseitige Bilder wie TIFF und GIF zu PDF umwandeln.
 
-Das folgende Codebeispiel zeigt, wie JPEG- und TIFF-Bilder in PDF konvertiert werden:
+Das folgende Codebeispiel zeigt, wie JPEG- und TIFF-Bilder zu PDF konvertiert werden:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "image-to-pdf.cs" >}}
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "convert-image-to-pdf.cs" >}}
 
-Damit dieser Code funktioniert, müssen Sie Ihrem Projekt Verweise auf Aspose.Words und `System.Drawing` hinzufügen.
+Damit dieser Code funktioniert, müssen Sie Verweise auf Aspose.Words und `System.Drawing` zu Ihrem Projekt hinzufügen.
 
-## Reduzieren Sie die PDF-Ausgabegröße
+## PDF-Ausgabegröße reduzieren
 
-Beim Speichern als PDF können Sie angeben, ob Sie die Ausgabe optimieren möchten. Dazu müssen Sie das [OptimizeOutput](https://reference.aspose.com/words/de/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/)-Flag auf true setzen. Anschließend werden überflüssige verschachtelte Leinwände und leere Leinwände entfernt und benachbarte glyph-Dateien mit derselben Formatierung werden verkettet.
+Beim Speichern als PDF können Sie angeben, ob Sie die Ausgabe optimieren möchten. Dazu müssen Sie das [OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/)-Flag auf true setzen, und dann werden redundante verschachtelte und leere Leinwände entfernt, benachbarte Glyphen mit derselben Formatierung werden verkettet.
 
 Das folgende Codebeispiel zeigt, wie die Ausgabe optimiert wird:
 
@@ -75,18 +75,18 @@ Das folgende Codebeispiel zeigt, wie die Ausgabe optimiert wird:
 
 {{% alert color="primary" %}}
 
-Die Verwendung der **OptimizeOutput**-Eigenschaft kann sich auf die Genauigkeit der Inhaltsanzeige auswirken.
+Die Verwendung der **OptimizeOutput**-Eigenschaft kann die Genauigkeit der Inhaltsanzeige beeinträchtigen.
 
 {{% /alert %}}
 
 ## Siehe auch
 
-– Der Artikel [Rendern](/words/de/net/rendering/) für weitere Informationen zu den Formaten mit fester Seite und Flow-Layout
-- Der Artikel [Konvertieren in das Fixed-Page-Format](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) für weitere Informationen zum Seitenlayout
-– Der Artikel [Geben Sie beim Konvertieren in PDF Rendering-Optionen an](/words/de/net/specify-rendering-options-when-converting-to-pdf/) für weitere Informationen zur Verwendung der `PdfSaveOptions`-Klasse
-- Der Artikel [Lernen Sie die Funktionen der Konvertierung in PDF/A und PDF/UA kennen](/words/de/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) beschreibt, welcher PDF-Standard und das relevante ISO für PDF-Standards Aspose.Words unterstützen
-- Der Artikel [Welcher PDF-Standard ist besser zu wählen?](/words/de/net/which-pdf-standard-is-better-to-choose/), um zu ermitteln, welche PDF-Standards für welche Fälle sinnvoll sind
+- Der Artikel [Rendern](/words/de/net/rendering/) für weitere Informationen über die Formate mit fester Seite und Fließtext-Layout
+- Der Artikel [Umwandlung in festes Seitenformat](/words/de/net/converting-to-fixed-page-format/#what-is-a-page-layout) für weitere Informationen über das Seitenlayout
+- Der Artikel [Rendering-Optionen beim Konvertieren zu PDF angeben](/words/de/net/specify-rendering-options-when-converting-to-pdf/) für weitere Informationen über die Verwendung der `PdfSaveOptions`-Klasse
+- Der Artikel [Lernen Sie die Funktionen der Konvertierung zu PDF/A und PDF/UA](/words/de/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) kennen, der beschreibt, welcher PDF-Standard und die entsprechenden ISO für PDF-Standards von Aspose.Words unterstützt werden
+- Der Artikel [Welcher PDF-Standard ist besser zu wählen](/words/de/net/which-pdf-standard-is-better-to-choose/) zur Bestimmung, welche PDF-Standards für welche Fälle sinnvoll sind
 
-- Der Artikel [Arbeiten mit PDF/A oder PDF/UA](/words/de/net/working-with-pdfa-or-pdfua/) beschreibt die Anforderungen an den Dokumentinhalt in den Formaten PDF/A und PDF/UA – hauptsächlich die Anforderungen an die Struktur und Schriftarten
+- Der Artikel [Arbeiten mit PDF/A oder PDF/UA](/words/de/net/working-with-pdfa-or-pdfua/) beschreibt die Anforderungen an den Dokumentinhalt in PDF/A- und PDF/UA-Formaten – hauptsächlich die Anforderungen an Struktur und Schriften
 
 - Der Artikel [Warnungen zu Barrierefreiheitsproblemen beim Speichern in PDF/A und PDF/UA](/words/de/net/warnings-when-saving-to-pdfa-and-pdfua/) beschreibt, welche Anforderungen an die Barrierefreiheit von Inhalten PDF/A und PDF/UA stellen

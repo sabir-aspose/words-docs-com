@@ -85,7 +85,7 @@ Aspose.Wordsでは、セクション区切りを使用して文書を分割し�
 
 {{% alert color="primary" %}}
 
-あなたは任意のものを使うことができます [Aspose.Wordsでサポートされている出力形式](/words/java/supported-document-formats/).
+あなたは任意のものを使うことができます [Aspose.Wordsでサポートされている出力形式](/words/ja/java/supported-document-formats/).
 
 {{% /alert %}}
 

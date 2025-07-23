@@ -10,7 +10,7 @@ url: /de/java/supported-features-on-document-save/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words ermöglicht Benutzern das Arbeiten mit Dokumenten in verschiedenen Formaten und bietet hierfür eine Vielzahl von Funktionen. Benutzer können beispielsweise ein Dokument von Grund auf neu erstellen oder laden, einige Änderungen vornehmen und diese Änderungen dann in der Ausgabedatei in einem beliebigen Ordner speichern [unterstütztes Exportformat](/words/java/supported-document-formats/). Beim Speichern des Dokuments im ausgewählten Format kann der Benutzer verschiedene Speicheroptionen anwenden.
+Aspose.Words ermöglicht Benutzern das Arbeiten mit Dokumenten in verschiedenen Formaten und bietet hierfür eine Vielzahl von Funktionen. Benutzer können beispielsweise ein Dokument von Grund auf neu erstellen oder laden, einige Änderungen vornehmen und diese Änderungen dann in der Ausgabedatei in einem beliebigen Ordner speichern [unterstütztes Exportformat](/words/de/java/supported-document-formats/). Beim Speichern des Dokuments im ausgewählten Format kann der Benutzer verschiedene Speicheroptionen anwenden.
 
 {{% alert color="primary" %}}
 
@@ -21,7 +21,7 @@ Es ist wichtig zu wissen, dass viele Speicheroptionen allen unterstützten Forma
 Eine vollständige Liste der Funktionen finden Sie in der API reference:
 
 - [speicheroptionen für alle Formate](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/)
-- [feste Optionen zum Speichern von Seiten](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/) für [feste Seitenformate](/words/java/converting-to-fixed-page-format/): PDF, XPS, Bilder und andere
+- [feste Optionen zum Speichern von Seiten](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/) für [feste Seitenformate](/words/de/java/converting-to-fixed-page-format/): PDF, XPS, Bilder und andere
 - [PDF Optionen speichern](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) für PDF-Format
 - [OOXML Optionen speichern](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/) für DOCX, DOCM, DOTX, DOTM, oder FlatOpc Formate
 - [DOC Optionen speichern](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) für die Formate DOC und DOT

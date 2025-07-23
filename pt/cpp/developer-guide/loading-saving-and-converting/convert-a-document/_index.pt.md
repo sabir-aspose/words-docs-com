@@ -1,4 +1,4 @@
----
+﻿---
 title: Converter um documento em C++
 second_title: Aspose.Words para C++
 articleTitle: Converter um documento
@@ -30,7 +30,7 @@ Você pode tentar a funcionalidade de conversão usando nosso [Conversor em linh
 
 ## Conversões Populares {#popular-conversions}
 
-A seção atual descreve conversões populares, bem como ideias para trabalhar com algumas combinações de formatos ao carregar e salvar. Usando os exemplos desta seção, você pode entender que o processo de conversão em si é bastante universal, e não faz sentido descrever todas as opções possíveis, uma vez que existem várias centenas delas devido ao grande número de [formatos suportados por Aspose.Words para C++](/words/cpp/supported-document-formats/).
+A seção atual descreve conversões populares, bem como ideias para trabalhar com algumas combinações de formatos ao carregar e salvar. Usando os exemplos desta seção, você pode entender que o processo de conversão em si é bastante universal, e não faz sentido descrever todas as opções possíveis, uma vez que existem várias centenas delas devido ao grande número de [formatos suportados por Aspose.Words para C++](/words/pt/cpp/supported-document-formats/).
 
 {{% alert color="primary" %}}
 

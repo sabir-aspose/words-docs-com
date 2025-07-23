@@ -1,4 +1,4 @@
----
+﻿---
 title: Arbeiten mit Markdown-Funktionen in C++
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit Markdown-Funktionen
@@ -27,7 +27,7 @@ Die Markdown -Feature-Implementierung folgt größtenteils der `CommonMark` -Spe
 
 {{% alert color="primary" %}}
 
-Es gibt Nuancen bei der Übersetzung von Markdown in das Aspose.Words -Dokumentobjektmodell (DOM), die im Artikel beschrieben werden [Markdown in Dokumentobjektmodell übersetzen (DOM)](/words/cpp/translate-markdown-to-document-object-model/).
+Es gibt Nuancen bei der Übersetzung von Markdown in das Aspose.Words -Dokumentobjektmodell (DOM), die im Artikel beschrieben werden [Markdown in Dokumentobjektmodell übersetzen (DOM)](/words/de/cpp/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

@@ -420,7 +420,7 @@ Aspose.Words 23.12 добавлены новые свойства и переч�
 
 {{% alert color="primary" %}}
 
-Узнайте больше о [Aspose.Words для C++ 23.9 Примечания к выпуску](/words/cpp/aspose-words-for-cpp-23-9-release-notes/).
+Узнайте больше о [Aspose.Words для C++ 23.9 Примечания к выпуску](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-9-release-notes/).
 Узнайте больше о [Aspose.Words для C++ 23.10 Примечания к выпуску](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-10-release-notes/).
 Узнайте больше о [Aspose.Words для C++ 23.11 Примечания к выпуску](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-11-release-notes/).
 Узнайте больше о [Aspose.Words для C++ 23.12 Примечания к выпуску](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-12-release-notes/).
@@ -431,6 +431,6 @@ Aspose.Words 23.12 добавлены новые свойства и переч�
 
 {{% alert color="primary" %}}
 
-На этой странице представлены последние новости о релизах за последние 2 года. Более подробную информацию о предыдущих выпусках смотрите в [Примечания к выпуску'](/words/cpp/release-notes/) страницы в соответствующих разделах.
+На этой странице представлены последние новости о релизах за последние 2 года. Более подробную информацию о предыдущих выпусках смотрите в [Примечания к выпуску'](https://releases.aspose.com/words/cpp/release-notes/) страницы в соответствующих разделах.
 
 {{% /alert %}}

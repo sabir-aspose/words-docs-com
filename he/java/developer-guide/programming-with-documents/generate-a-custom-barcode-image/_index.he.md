@@ -1,4 +1,4 @@
----
+﻿---
 title: צור ברקוד ב־ Java
 second_title: Aspose.Words עבור Java
 articleTitle: צרו תמונה של ברקוד מותאם אישית
@@ -55,7 +55,7 @@ Aspose.Words יש ממשק ליצירת ברקודים מותאמים אישית
 
 {{% alert color="primary" %}}
 
-למידע נוסף על המרת מסמכים מפורמט אחד לאחר, ראה את [Convert a Document](/words/java/convert-a-document/) חלק התיעוד.
+למידע נוסף על המרת מסמכים מפורמט אחד לאחר, ראה את [Convert a Document](/words/he/java/convert-a-document/) חלק התיעוד.
 
 {{% /alert %}}
 

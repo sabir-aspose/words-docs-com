@@ -1,4 +1,4 @@
----
+﻿---
 title: こんにちは、世界!
 second_title: 使い方の簡単な例 C++の場合Aspose.Words
 articleTitle: こんにちは、世界!
@@ -12,7 +12,7 @@ timestamp: 2024-01-27-14-07-04
 
 は、"Hello,World!「コードは、多くの場合、uisngを書く最初の簡単な例です」C++の場合Aspose.Wordsまた、ソースコードのコンパイルや実行を目的としたソフトウェアが正しくインストールされていることを確認するための健全性テストとしても使
 
-"C++の場合Aspose.Words"ライブラリは、開発者が作成、変更、マージ、変換、WordやWeb文書を比較するための直接アクセスを提供します。 PDF, DOCX, DOC, RTF、ODT、EPUB、HTML、および他の多くのファイル形式は次のとおりです [サポートされている](/words/cpp/supported-document-formats/).
+"C++の場合Aspose.Words"ライブラリは、開発者が作成、変更、マージ、変換、WordやWeb文書を比較するための直接アクセスを提供します。 PDF, DOCX, DOC, RTF、ODT、EPUB、HTML、および他の多くのファイル形式は次のとおりです [サポートされている](/words/ja/cpp/supported-document-formats/).
 
 Below codeスニペットは次の手順に従います:
 

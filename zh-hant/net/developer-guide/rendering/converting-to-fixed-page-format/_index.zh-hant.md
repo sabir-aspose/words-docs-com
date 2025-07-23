@@ -1,4 +1,4 @@
----
+﻿---
 title: 以固定頁面格式在C#轉換
 second_title: Aspose.Words for .NET
 articleTitle: 轉換為固定頁面格式
@@ -75,7 +75,7 @@ Aspose.Words 在內部實作頁面排版功能，讓它能產生所有固定頁�
 - 在輸出文件中包含的頁面數目與範圍（[PageCount](https://reference.aspose.com/words/net/aspose.words/document/pagecount/)）。
 - 分頁儲存文件的進度 ([PageSavingCallback](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/)).
 - 一組用於數字的字符 ( [NumeralFormat](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/numeralformat/) )。
-- 一種元檔案播放器（[MetafileRenderingOptions](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/)）。 更多細節請參閱該[Handling Windows Metafiles](/words/net/handling-windows-metafiles/)篇文章。
+- 一種元檔案播放器（[MetafileRenderingOptions](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/)）。 更多細節請參閱該[Handling Windows Metafiles](/words/zh-hant/net/handling-windows-metafiles/)篇文章。
 - 一項用於重新壓縮JPEG圖檔的品質評分值，其值可能略有差異，取決於所選儲存格式（[JpegQuality](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/)）。
 - 向量圖形的優化在 Aspose.Words 輸出 ([OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/)).
 - 儲存為Tiff、Png、Bmp、Jpeg或Emf格式時的圖形選項 ([UseAntiAliasing](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/useantialiasing/)，[UseHighQualityRendering](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/usehighqualityrendering/)).

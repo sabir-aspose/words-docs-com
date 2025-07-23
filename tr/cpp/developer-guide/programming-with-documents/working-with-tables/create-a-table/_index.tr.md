@@ -1,4 +1,4 @@
----
+﻿---
 title: C++ içinde bir Tablo Nasıl Oluşturulur
 second_title: Aspose.Words için C++
 articleTitle: Tablo Oluşturma
@@ -112,7 +112,7 @@ Aşağıdaki kod örneği, bir tablonun son satırının nasıl kopyalanacağın
 
 {{< gist "aspose-words-gists" "aa87055754447c86ae5fb2d4766130f3" "clone-last-row.h" >}}
 
-Veri kaynağınızdaki her kayıtla dinamik olarak büyüyen bir belgede tablolar oluşturmaya çalışıyorsanız, yukarıdaki yöntem önerilmez. Bunun yerine, bölgelerle Mail merge kullanılarak istenen çıktı daha kolay elde edilir. Bu teknik hakkında daha fazla bilgiyi [Mail Merge bölgelerle](/words/cpp/types-of-mail-merge-operations/) bölüm.
+Veri kaynağınızdaki her kayıtla dinamik olarak büyüyen bir belgede tablolar oluşturmaya çalışıyorsanız, yukarıdaki yöntem önerilmez. Bunun yerine, bölgelerle Mail merge kullanılarak istenen çıktı daha kolay elde edilir. Bu teknik hakkında daha fazla bilgiyi [Mail Merge bölgelerle](/words/tr/cpp/types-of-mail-merge-operations/) bölüm.
 
 ## Tablo Oluşturmanın Yollarını Karşılaştırın
 

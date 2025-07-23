@@ -1,4 +1,4 @@
----
+﻿---
 title: Cum se creează un tabel în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Creați un tabel
@@ -112,7 +112,7 @@ Următorul exemplu de cod arată cum să clonați ultimul rând al unui tabel ș
 
 {{< gist "aspose-words-gists" "aa87055754447c86ae5fb2d4766130f3" "clone-last-row.h" >}}
 
-Dacă vă uitați la crearea de tabele într-un document care cresc dinamic cu fiecare înregistrare din sursa de date, atunci metoda de mai sus nu este recomandată. În schimb, rezultatul dorit este mai ușor de obținut prin utilizarea Mail merge cu regiuni. Puteți afla mai multe despre această tehnică în [Mail Merge cu regiuni](/words/cpp/types-of-mail-merge-operations/) secțiunea.
+Dacă vă uitați la crearea de tabele într-un document care cresc dinamic cu fiecare înregistrare din sursa de date, atunci metoda de mai sus nu este recomandată. În schimb, rezultatul dorit este mai ușor de obținut prin utilizarea Mail merge cu regiuni. Puteți afla mai multe despre această tehnică în [Mail Merge cu regiuni](/words/ro/cpp/types-of-mail-merge-operations/) secțiunea.
 
 ## Comparați modalitățile de a crea un tabel
 

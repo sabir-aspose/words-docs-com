@@ -27,7 +27,7 @@ Implementasi fitur Markdown sebagian besar mengikuti spesifikasi `CommonMark` da
 
 {{% alert color="primary" %}}
 
-Ada nuansa menerjemahkan Markdown ke Model Objek Dokumen Aspose.Words (DOM), yang dijelaskan dalam artikel [Temukan Markdown ke Model Objek Dokumen (DOM)](/words/java/translate-markdown-to-document-object-model/).
+Ada nuansa menerjemahkan Markdown ke Model Objek Dokumen Aspose.Words (DOM), yang dijelaskan dalam artikel [Temukan Markdown ke Model Objek Dokumen (DOM)](/words/id/java/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

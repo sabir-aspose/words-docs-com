@@ -1,4 +1,4 @@
----
+﻿---
 title: 例を実行する方法
 second_title: C++の場合Aspose.Words
 articleTitle: 例を実行する方法
@@ -36,7 +36,7 @@ Aspose.Wordsの可能性と機能をよりよく理解するために、GitHub�
 
 例を実行するには、Visual Studioでソリューションファイルを開き、プロジェクトをビルドします:
 
-- **API Reference**の例では、構造体はクラス名に基づいています。**Docs**の例では、主にクラス名に基づいています。 [開発者Guiled](/words/cpp/developer-guide/) ドキュメントセクション。
+- **API Reference**の例では、構造体はクラス名に基づいています。**Docs**の例では、主にクラス名に基づいています。 [開発者Guiled](/words/ja/cpp/developer-guide/) ドキュメントセクション。
 - 最初の実行時に、依存関係はNuGetを介して自動的にダウンロードされます。
 - **Examples**のルートフォルダにある**Data**フォルダには、例で使用された入力ファイルが含まれています。
 - すべての例は単体テストとして実行できます。
@@ -68,7 +68,7 @@ Visual Studioの解は`Examples\DocsExamples\build`で生成されます
 
 例を実行するには、Visual Studioでソリューションファイルを開き、プロジェクトをビルドします:
 
-- **API Reference**の例では、構造体はクラス名に基づいています。**Docs**の例では、主にクラス名に基づいています。 [開発者Guiled](/words/cpp/developer-guide/) ドキュメントセクション。
+- **API Reference**の例では、構造体はクラス名に基づいています。**Docs**の例では、主にクラス名に基づいています。 [開発者Guiled](/words/ja/cpp/developer-guide/) ドキュメントセクション。
 - **Examples**のルートフォルダにある**Data**フォルダには、例で使用された入力ファイルが含まれています。
 - すべての例は単体テストとして実行できます。
 
@@ -99,7 +99,7 @@ cmake --build Examples/DocsExamples/build
 cmake -E chdir Examples/DocsExamples/build ctest --verbose
 {{< /highlight >}}
 
-- **API Reference**の例では、構造体はクラス名に基づいています。**Docs**の例では、主にクラス名に基づいています。 [開発者Guiled](/words/cpp/developer-guide/) ドキュメントセクション。
+- **API Reference**の例では、構造体はクラス名に基づいています。**Docs**の例では、主にクラス名に基づいています。 [開発者Guiled](/words/ja/cpp/developer-guide/) ドキュメントセクション。
 - **Examples**のルートフォルダにある**Data**フォルダには、例で使用された入力ファイルが含まれています。
 - すべての例は単体テストとして実行できます。
 

@@ -12,7 +12,7 @@ timestamp: 2024-01-27-14-07-04
 
 "Witaj, Świecie!"kod jest często pierwszym prostym przykładem do napisania uisng" Aspose.Words dla C++ " i może być również używany jako test zdrowia psychicznego, aby upewnić się, że oprogramowanie przeznaczone do kompilacji lub uruchomienia kodu źródłowego jest poprawnie zainstalowane.
 
-Biblioteka "Aspose.Words dla C++ " zapewnia programistom bezpośredni dostęp do tworzenia, modyfikowania, scalania, konwertowania, porównywania Word i dokumentów internetowych. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML i wiele innych formatów plików to [obsługiwane](/words/cpp/supported-document-formats/).
+Biblioteka "Aspose.Words dla C++ " zapewnia programistom bezpośredni dostęp do tworzenia, modyfikowania, scalania, konwertowania, porównywania Word i dokumentów internetowych. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML i wiele innych formatów plików to [obsługiwane](/words/pl/cpp/supported-document-formats/).
 
 Below code snippet wykonuje następujące kroki:
 

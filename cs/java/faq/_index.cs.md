@@ -1,4 +1,4 @@
----
+﻿---
 title: Časté dotazy
 second_title: Aspose.Words místo Java
 articleTitle: Časté dotazy
@@ -70,7 +70,7 @@ Můžete také vyzkoušet některé z nejpopulárnějších Aspose.Words rysy pr
 
 Koupit si Aspose.Words Licence, musíte jít do [Nakup](https://purchase.aspose.com/buy) stránka, vyberte "Aspose.Words"produkt a typ licence, která vám vyhovuje. Pak přidejte licenci do košíku a postupujte podle pokynů nákupního košíku.
 
-Po zakoupení, požádat o licenci, jak je popsáno v [Licence Koupená](/words/java/licensing/#purchased-license) sekce.
+Po zakoupení, požádat o licenci, jak je popsáno v [Licence Koupená](/words/cs/java/licensing/) sekce.
 
 Podrobnosti o instalaci Aspose.Words lze číst na [Instalace](/words/cs/java/installation/) Strana.
 
@@ -121,7 +121,7 @@ Ano, máš. Proto při kopírování písem mějte na paměti, že většina pí
 
 {{% alert color="primary" %}}
 
-Podrobnější informace o Mail Merge v [Mail Merge a využití prostředků](/words/java/mail-merge-and-reporting/) sekce dokumentace.
+Podrobnější informace o Mail Merge v [Mail Merge a využití prostředků](/words/cs/java/mail-merge-and-reporting/) sekce dokumentace.
 
 {{% /alert %}}
 
@@ -145,7 +145,7 @@ To proto, že regiony sloučení v šabloně nejsou správně vytvořeny, což m
 To proto, že vztah mezi rodičovské a dětské tabulky nejsou nastaveny nebo jsou špatně nastaveny. Je nezbytné:
 
 - Zajistit integritu údajů uvnitř **DataSet** a použijte **DataRelation** má za cíl reprezentovat vztah rodičů a dětí mezi příslušnými datovými tabulkami.
-- Zkontrolujte sekci Jak nastavit datové vztahy v Nestedu Mail Merge s regiony v článku [Mníkovec bílý Mail Merge s regiony](/words/java/nested-mail-merge-with-regions/).
+- Zkontrolujte sekci Jak nastavit datové vztahy v Nestedu Mail Merge s regiony v článku [Mníkovec bílý Mail Merge s regiony](/words/cs/java/nested-mail-merge-with-regions/).
 
 ------
 

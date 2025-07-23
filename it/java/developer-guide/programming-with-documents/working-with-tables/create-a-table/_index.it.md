@@ -123,7 +123,7 @@ L'esempio di codice seguente mostra come clonare l'ultima riga di una tabella e 
 
 {{% /alert %}}
 
-Se stai cercando di creare tabelle in un documento che crescono dinamicamente con ogni record dall'origine dati, il metodo sopra non è consigliato. Invece, l'output desiderato è più facilmente raggiungibile usando Mail merge con le regioni. Puoi saperne di più su questa tecnica nel [Mail Merge con Regioni](/words/java/types-of-mail-merge-operations/) sezione.
+Se stai cercando di creare tabelle in un documento che crescono dinamicamente con ogni record dall'origine dati, il metodo sopra non è consigliato. Invece, l'output desiderato è più facilmente raggiungibile usando Mail merge con le regioni. Puoi saperne di più su questa tecnica nel [Mail Merge con Regioni](/words/it/java/types-of-mail-merge-operations/) sezione.
 
 ## Confronta i modi per creare una tabella
 

@@ -10,7 +10,7 @@ url: /es/java/supported-features-on-document-save/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words permite a los usuarios trabajar con documentos en varios formatos y proporciona una amplia gama de funciones para ello. Por ejemplo, los usuarios pueden crear un documento desde cero o cargarlo, realizar algunos cambios y luego guardar esos cambios en el archivo de salida en cualquier [formato de exportación compatible](/words/java/supported-document-formats/). Mientras guarda el documento en el formato seleccionado, el usuario puede aplicar varias opciones de guardado.
+Aspose.Words permite a los usuarios trabajar con documentos en varios formatos y proporciona una amplia gama de funciones para ello. Por ejemplo, los usuarios pueden crear un documento desde cero o cargarlo, realizar algunos cambios y luego guardar esos cambios en el archivo de salida en cualquier [formato de exportación compatible](/words/es/java/supported-document-formats/). Mientras guarda el documento en el formato seleccionado, el usuario puede aplicar varias opciones de guardado.
 
 {{% alert color="primary" %}}
 
@@ -21,7 +21,7 @@ Es importante saber que muchas opciones de guardado son comunes a todos los form
 Para obtener una lista completa de funciones, consulte API reference:
 
 - [opciones de guardado para todos los formatos](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/)
-- [opciones de guardado de página fijas](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/) para [formatos de página fija](/words/java/converting-to-fixed-page-format/): PDF, XPS, imágenes y otros
+- [opciones de guardado de página fijas](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/) para [formatos de página fija](/words/es/java/converting-to-fixed-page-format/): PDF, XPS, imágenes y otros
 - [PDF opciones de guardado](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) para el formato PDF
 - [OOXML opciones de guardado](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/) para DOCX, DOCM, DOTX, DOTM, o FlatOpc formatos
 - [DOC opciones de guardado](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) para los formatos DOC y DOT

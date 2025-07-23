@@ -1,4 +1,4 @@
----
+﻿---
 title: Skakel'n Dokument om na PDF in Java
 second_title: Aspose.Words vir Java
 articleTitle: Skakel'n Dokument om na PDF
@@ -47,7 +47,7 @@ Let daarop dat met dieselfde tegniek, kan jy enige vloei-uitleg formaat dokument
 
 ### Skakel Na Verskillende PDF Standaarde {#converting-to-various-pdf-standards}
 
-Aspose.Words verskaf die [PdfCompliace ](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)opsomming om die omskakeling van DOC of DOCX in verskillende PDF formaat standaarde (soos PDF 1.7, PDF 1.5, en so aan.).
+Aspose.Words verskaf die [PdfCompliance ](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)opsomming om die omskakeling van DOC of DOCX in verskillende PDF formaat standaarde (soos PDF 1.7, PDF 1.5, en so aan.).
 
 Die volgende kode voorbeeld demonstreer hoe om'n dokument te omskep na PDF 1.7 met behulp van [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) met ooreenstemming met PDF17:
 
@@ -81,6 +81,6 @@ Die gebruik van die **OptimizeOutput** eienskap kan die akkuraatheid van inhoud 
 
 ## Sien Ook
 
-- Die artikel [Lewering](/words/java/rendering/) vir meer inligting oor die vaste bladsy en vloei-uitleg formate
-- Die artikel [Omskakeling Na Vaste bladsy Formaat](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) vir meer inligting oor die bladsy uitleg
-- Die artikel [Spesifiseer Vertoonopsies Wanneer U Na PDFOmskakel](/words/java/specify-rendering-options-when-converting-to-pdf/) vir meer inligting oor die gebruik van die `PdfSaveOptions` klas
+- Die artikel [Lewering](/words/af/java/rendering/) vir meer inligting oor die vaste bladsy en vloei-uitleg formate
+- Die artikel [Omskakeling Na Vaste bladsy Formaat](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) vir meer inligting oor die bladsy uitleg
+- Die artikel [Spesifiseer Vertoonopsies Wanneer U Na PDFOmskakel](/words/af/java/specify-rendering-options-when-converting-to-pdf/) vir meer inligting oor die gebruik van die `PdfSaveOptions` klas

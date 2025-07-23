@@ -1,4 +1,4 @@
----
+﻿---
 title: 제품개요
 second_title: Python via .NET용 Aspose.Words
 articleTitle: 제품개요
@@ -56,7 +56,7 @@ Python via .NET용 Aspose.Words 기능은 네 가지 주요 영역으로 나눌 
 
 #### 보고
 
-처음부터 또는 데이터 소스나 비즈니스 개체의 데이터로 템플릿을 채워 문서나 보고서를 생성합니다. 데이터베이스에서 데이터 보고 및 가져오기에 대한 자세한 내용은 [Mail Merge 및 보고](/words/python-net/mail-merge-and-reporting/) 및 [LINQ 보고 엔진](/words/python-net/linq-reporting-engine/) 섹션을 참조하세요.
+처음부터 또는 데이터 소스나 비즈니스 개체의 데이터로 템플릿을 채워 문서나 보고서를 생성합니다. 데이터베이스에서 데이터 보고 및 가져오기에 대한 자세한 내용은 [Mail Merge 및 보고](/words/ko/python-net/mail-merge-and-reporting/) 및 [LINQ 보고 엔진](/words/python-net/linq-reporting-engine/) 섹션을 참조하세요.
 
 ### 플랫폼 독립성
 

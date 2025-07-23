@@ -14,7 +14,7 @@ timestamp: 2024-01-27-14-07-04
 
 - употреба [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/)
 - употреба [FieldBuilder](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldbuilder/)
-- използване [Aspose.Words Документ Обектен Модел (DOM)](/words/cpp/aspose-words-document-object-model/)
+- използване [Aspose.Words Документ Обектен Модел (DOM)](/words/bg/cpp/aspose-words-document-object-model/)
 
 В тази статия ще разгледаме всеки начин по-подробно и ще анализираме как да вмъкнете определени полета, като използвате тези опции.
 
@@ -64,7 +64,7 @@ timestamp: 2024-01-27-14-07-04
 
 ## Вмъкване на полета с DOM
 
-Можете също да вмъквате различни типове полета, като използвате [Aspose.Words Документ Обектен Модел (DOM)](/words/cpp/aspose-words-document-object-model/). В този раздел ще разгледаме няколко примера.
+Можете също да вмъквате различни типове полета, като използвате [Aspose.Words Документ Обектен Модел (DOM)](/words/bg/cpp/aspose-words-document-object-model/). В този раздел ще разгледаме няколко примера.
 
 ### Вмъкване на поле за обединяване в документ с DOM
 

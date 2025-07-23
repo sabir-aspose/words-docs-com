@@ -1,4 +1,4 @@
----
+﻿---
 title: Format File dan Konversi
 second_title: Aspose.Words untuk C++
 articleTitle: Mengapa Konversi merupakan Fitur Unggulan Aspose.Words?
@@ -29,7 +29,7 @@ Contoh kode berikut menunjukkan cara mengonversi dokumen:
 
 {{< gist "aspose-words-gists" "b9784b73e288805e08fba6e3fc5ae2af" "docx-to-pdf.h" >}}
 
-Untuk detail selengkapnya tentang memuat, mengonversi, dan menyimpan dokumen, lihat [Memuat, Menyimpan, dan Mengonversi](/words/cpp/loading-saving-and-converting/) bagian.
+Untuk detail selengkapnya tentang memuat, mengonversi, dan menyimpan dokumen, lihat [Memuat, Menyimpan, dan Mengonversi](/words/id/cpp/loading-saving-and-converting/) bagian.
 
 ## Kesetiaan yang Tinggi
 

@@ -16,7 +16,7 @@ Witamy w Aspose.Words dla C++!
 
 Aspose.Words to wieloplatformowa Biblioteka klas, która umożliwia aplikacjom wykonywanie różnorodnych zadań przetwarzania dokumentów.
 
-Za pomocą Aspose.Words można przekonwertować dokument z dowolnego obsługiwanego formatu ładowania na dowolny obsługiwany format zapisu, na przykład Word formaty do PDF, HTML lub Markdown, HTML do DOCX i tak dalej. Przeczytaj więcej o konwersji dokumentów w [Konwertuj dokument](/words/cpp/convert-a-document/) sekcji.
+Za pomocą Aspose.Words można przekonwertować dokument z dowolnego obsługiwanego formatu ładowania na dowolny obsługiwany format zapisu, na przykład Word formaty do PDF, HTML lub Markdown, HTML do DOCX i tak dalej. Przeczytaj więcej o konwersji dokumentów w [Konwertuj dokument](/words/pl/cpp/convert-a-document/) sekcji.
 
 Warto zauważyć, że za pomocą Aspose.Words możesz tworzyć, modyfikować, konwertować, renderować i drukować dokumenty bez polegania na aplikacjach innych firm, takich jak Microsoft Word lub Office Automation.
 
@@ -42,21 +42,21 @@ Aspose.Words dla C++ funkcje można podzielić na cztery główne obszary.
 
 Możliwość łatwej i niezawodnej konwersji dokumentów jest jedną z głównych cech Aspose.Words.
 
-Kompleksowe [import i eksport dokumentów](/words/cpp/loading-saving-and-converting/) z [ponad 35 obsługiwanych formatów plików](/words/cpp/supported-document-formats/) umożliwia użytkownikom konwersję dokumentów z [one popular format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) na [another](https://reference.aspose.com/words/cpp/aspose.words/saveformat/), na przykład z DOCX na PDF, JPEG lub Markdown.
+Kompleksowe [import i eksport dokumentów](/words/pl/cpp/loading-saving-and-converting/) z [ponad 35 obsługiwanych formatów plików](/words/pl/cpp/supported-document-formats/) umożliwia użytkownikom konwersję dokumentów z [one popular format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) na [another](https://reference.aspose.com/words/cpp/aspose.words/saveformat/), na przykład z DOCX na PDF, JPEG lub Markdown.
 
 #### Model Obiektowy Dokumentu (DOM)
 
-Programowy dostęp poprzez bogaty API do wszystkich elementów dokumentu i formatowania umożliwia tworzenie, modyfikowanie, wyodrębnianie, kopiowanie, dzielenie, łączenie i zastępowanie zawartości dokumentu. Dowiedz się więcej w [Aspose.Words Obiektowy Model Dokumentu (DOM)](/words/cpp/aspose-words-document-object-model/) sekcji.
+Programowy dostęp poprzez bogaty API do wszystkich elementów dokumentu i formatowania umożliwia tworzenie, modyfikowanie, wyodrębnianie, kopiowanie, dzielenie, łączenie i zastępowanie zawartości dokumentu. Dowiedz się więcej w [Aspose.Words Obiektowy Model Dokumentu (DOM)](/words/pl/cpp/aspose-words-document-object-model/) sekcji.
 
 #### Rendering
 
-Używamy terminu [Renderowanie w Aspose.Words](/words/cpp/rendering/) aby opisać proces konwersji dokumentu na format pliku lub nośnik, paginowany lub mający pojęcie stron.
+Używamy terminu [Renderowanie w Aspose.Words](/words/pl/cpp/rendering/) aby opisać proces konwersji dokumentu na format pliku lub nośnik, paginowany lub mający pojęcie stron.
 
 Możesz konwertować całe dokumenty lub poszczególne strony na PDF lub XPS, aby wygenerować dokumenty po stronie serwera, wydrukować je. A wszystko to z wysoką wiernością-dokładnie tak, jak zrobiłby to Microsoft Word.
 
 #### Sprawozdawczość
 
-Generuj dokumenty lub raporty od podstaw lub wypełniając szablony danymi ze źródeł danych lub obiektów biznesowych. Aby uzyskać więcej informacji na temat raportowania i pobierania danych z baz danych, zobacz [Mail Merge i raportowanie](/words/cpp/mail-merge-and-reporting/).
+Generuj dokumenty lub raporty od podstaw lub wypełniając szablony danymi ze źródeł danych lub obiektów biznesowych. Aby uzyskać więcej informacji na temat raportowania i pobierania danych z baz danych, zobacz [Mail Merge i raportowanie](/words/pl/cpp/mail-merge-and-reporting/).
 
 ### Niezależność Platformy
 
@@ -86,8 +86,8 @@ Programiści, którzy wcześniej używali automatyzacji Microsoft Word w swoich 
 
 ## Ceny i zasady
 
-Zapraszamy do odwiedzenia [Licencjonowanie](/words/cpp/licensing/) strona zawiera informacje na temat licencji i przegląd [Informacje O Cenach](https://purchase.aspose.com/pricing/words/family/) strona ze szczegółami na temat cen.
+Zapraszamy do odwiedzenia [Licencjonowanie](/words/pl/cpp/licensing/) strona zawiera informacje na temat licencji i przegląd [Informacje O Cenach](https://purchase.aspose.com/pricing/words/family/) strona ze szczegółami na temat cen.
 
 ## Wsparcie Techniczne
 
-Aby uzyskać więcej informacji na temat pomocy technicznej Aspose.Words, Spójrz na [strona wsparcia](/words/cpp/technical-support/).
+Aby uzyskać więcej informacji na temat pomocy technicznej Aspose.Words, Spójrz na [strona wsparcia](/words/pl/cpp/technical-support/).

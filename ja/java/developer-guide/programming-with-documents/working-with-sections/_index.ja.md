@@ -38,7 +38,7 @@ Aspose.Wordsでは、[BreakType](https://reference.aspose.com/words/java/com.asp
 
 ## セクションの管理
 
-セクションは通常の複合ノードであるため、ノード操作API全体を使用してセクションを操作することができます：セクションの追加、削除、およびその他の 記事でノードの詳細を読むことができます [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/java/aspose-words-document-object-model/).
+セクションは通常の複合ノードであるため、ノード操作API全体を使用してセクションを操作することができます：セクションの追加、削除、およびその他の 記事でノードの詳細を読むことができます [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/ja/java/aspose-words-document-object-model/).
 
 一方、`DocumentBuilder`APIを使用してセクションを操作することもできます。 この記事では、セクションを操作するこの特定の方法に焦点を当てます。
 
@@ -154,5 +154,5 @@ Aspose.Wordsは[PageSetup](https://reference.aspose.com/words/java/com.aspose.wo
 
 ## また見て下さい
 
-- [ドキュメント内のノードの論理レベル](/words/java/logical-levels-of-nodes-in-a-document/)
-- [文書の挿入と追加](/words/java/insert-and-append-documents/)
+- [ドキュメント内のノードの論理レベル](/words/ja/java/logical-levels-of-nodes-in-a-document/)
+- [文書の挿入と追加](/words/ja/java/insert-and-append-documents/)

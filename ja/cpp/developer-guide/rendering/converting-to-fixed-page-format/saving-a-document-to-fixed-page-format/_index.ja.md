@@ -1,4 +1,4 @@
----
+﻿---
 title: C++で固定ページ形式に保存する
 second_title: C++の場合Aspose.Words
 articleTitle: 文書を固定ページ形式で保存する
@@ -17,7 +17,7 @@ timestamp: 2024-09-24-14-35-44
 - 出力ドキュメントに含まれるページの数と範囲([PageIndex](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pageset/), [PageCount](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pageset/)).
 - ページごとの文書保存の進行状況([PageSavingCallback](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pagesavingcallback/))。
 - 数値のレンダリングに使用される文字のセット([NumeralFormat](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_numeralformat/))。
-- メタファイルプレーヤー([MetafileRenderingOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_metafilerenderingoptions/))。 詳細については、以下を参照してください。 [Windowsメタファイルの処理](/words/cpp/handling-windows-metafiles/) 記事。
+- メタファイルプレーヤー([MetafileRenderingOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_metafilerenderingoptions/))。 詳細については、以下を参照してください。 [Windowsメタファイルの処理](/words/ja/cpp/handling-windows-metafiles/) 記事。
 - 選択した保存形式([JpegQuality](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_jpegquality/))に応じて、JPEG画像を再圧縮するための品質レートの値が若干異なる場合があります。
 - Aspose.Words出力([OptimizeOutput](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_optimizeoutput/))におけるベクターグラフィックスの最適化。
 - Tiff、Png、Bmp、Jpeg、Emf形式に保存するときのグラフィックオプション([UseAntiAliasing](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_useantialiasing/), [UseHighQualityRendering](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_usehighqualityrendering/)).

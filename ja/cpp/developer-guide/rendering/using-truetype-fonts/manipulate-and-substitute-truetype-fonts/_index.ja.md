@@ -1,4 +1,4 @@
----
+﻿---
 title: C++でのTrueTypeフォントの操作と置換
 second_title: C++の場合Aspose.Words
 articleTitle: TrueTypeフォントの操作と置換
@@ -21,7 +21,7 @@ Aspose.Wordsが文字を正確に測定し、関連するフォントを正常�
 
 ## Aspose.Wordsがフォントを探す場所
 
-Aspose.Wordsはファイルシステム上のTrueTypeフォントを自動的に検索しようとします。 通常、Aspose.Wordsのデフォルトの動作に依存して`TrueType`フォントを見つけることができますが、TrueTypeフォントを含む独自のフォルダを指定する必要がある場合があり ザ- [TrueTypeフォントの場所を指定します](/words/cpp/specify-truetype-fonts-location/) このトピックでは、Aspose.Wordsがフォントを検索する方法と場所、および独自のフォントの場所を指定する方法について説明します。
+Aspose.Wordsはファイルシステム上のTrueTypeフォントを自動的に検索しようとします。 通常、Aspose.Wordsのデフォルトの動作に依存して`TrueType`フォントを見つけることができますが、TrueTypeフォントを含む独自のフォルダを指定する必要がある場合があり ザ- [TrueTypeフォントの場所を指定します](/words/ja/cpp/specify-truetype-fonts-location/) このトピックでは、Aspose.Wordsがフォントを検索する方法と場所、および独自のフォントの場所を指定する方法について説明します。
 
 ## Aspose.WordsとMicrosoft Wordのフォント形式の処理の違い
 

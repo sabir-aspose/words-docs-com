@@ -29,7 +29,7 @@ Aspose.Words היא ספריית כיתות המיועדת לעיבוד בצד �
 
 ![fields-overview-aspose-words-cpp-1](fields-overview-1.png)
 
-התוכן המרכיב את קוד השדה מאוחסן כ [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) צמתים בין [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) ו [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/). תוצאת השדה מאוחסנת בין הצמתים **FieldSeparator** ו - [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) ויכולה להיות מורכבת מסוגים שונים של תוכן. בדרך כלל תוצאת השדה מכילה רק טקסט המורכב מ **Run** צמתים, אולם יתכן שהצומת **FieldEnd** יהיה ממוקם בפסקה שונה לחלוטין, ובכך הופך את תוצאת השדה למורכבת מ [צמתים ברמת הבלוק](/words/cpp/logical-levels-of-nodes-in-a-document/) כמו **Table** ו **Paragraph** צמתים גם כן.
+התוכן המרכיב את קוד השדה מאוחסן כ [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) צמתים בין [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) ו [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/). תוצאת השדה מאוחסנת בין הצמתים **FieldSeparator** ו - [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) ויכולה להיות מורכבת מסוגים שונים של תוכן. בדרך כלל תוצאת השדה מכילה רק טקסט המורכב מ **Run** צמתים, אולם יתכן שהצומת **FieldEnd** יהיה ממוקם בפסקה שונה לחלוטין, ובכך הופך את תוצאת השדה למורכבת מ [צמתים ברמת הבלוק](/words/he/cpp/logical-levels-of-nodes-in-a-document/) כמו **Table** ו **Paragraph** צמתים גם כן.
 
 הנה תצוגה של איך שדה מאוחסן ב Aspose.Words באמצעות הדוגמה " *DocumentExplorer"*.
 
@@ -37,7 +37,7 @@ Aspose.Words היא ספריית כיתות המיועדת לעיבוד בצד �
 
 ## שדות במודל אובייקט המסמך Aspose.Words (DOM)
 
-כאשר מסמך נטען לתוך Aspose.Words, השדות של המסמך נטענים לתוך [Aspose.Words מודל אובייקט מסמך](/words/cpp/aspose-words-document-object-model/) כמערכת של רכיבים נפרדים (צמתים). שדה יחיד נטען כאוסף של **FieldStart**, **FieldSeparator** ו **FieldEnd** צמתים יחד עם התוכן שבין הצמתים הללו. אם לשדה אין תוצאת שדה אז לא יהיה צומת **FieldSeparator**. כל הצמתים האלה תמיד נמצאים בשורה (כילדים של [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) או [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
+כאשר מסמך נטען לתוך Aspose.Words, השדות של המסמך נטענים לתוך [Aspose.Words מודל אובייקט מסמך](/words/he/cpp/aspose-words-document-object-model/) כמערכת של רכיבים נפרדים (צמתים). שדה יחיד נטען כאוסף של **FieldStart**, **FieldSeparator** ו **FieldEnd** צמתים יחד עם התוכן שבין הצמתים הללו. אם לשדה אין תוצאת שדה אז לא יהיה צומת **FieldSeparator**. כל הצמתים האלה תמיד נמצאים בשורה (כילדים של [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) או [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
 
 ב Aspose.Words כל אחד מהצמתים **FieldXXX** נובע מ [FieldChar](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_char/). מחלקה זו מספקת מאפיין לבדיקת סוג השדה המיוצג על ידי הצומת שצוין דרך המאפיין [FieldType](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldchar/get_fieldtype/). לדוגמה **FieldType.FieldMergeField** מייצג שדה מיזוג במסמך.
 

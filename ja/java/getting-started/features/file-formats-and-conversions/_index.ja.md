@@ -29,7 +29,7 @@ Aspose.Wordsを使用すると、サポートされている任意のロード�
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "docx-to-pdf.java" >}}
 
-ドキュメントの読み込み、変換、および保存の詳細については、次を参照してください [読み込み、保存、変換](/words/java/loading-saving-and-converting/) セクション。
+ドキュメントの読み込み、変換、および保存の詳細については、次を参照してください [読み込み、保存、変換](/words/ja/java/loading-saving-and-converting/) セクション。
 
 ## 高忠実度
 

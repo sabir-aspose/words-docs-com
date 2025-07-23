@@ -96,7 +96,7 @@ La résolution est calculée en fonction de la taille réelle de l'image sur la 
 
 ## Incorporation de polices au format Adobe PDF
 
-Aspose.Words vous permet également de contrôler la manière dont les polices sont incorporées dans les documents PDF résultants. Les polices doivent être incorporées dans n'importe quel document Adobe PDF pour garantir que le document peut être correctement rendu sur n'importe quelle machine (voir plus de détails sur le rendu des polices dans la section [Utilisation de TrueType Polices](/words/java/using-truetype-fonts/)). Par défaut, Aspose.Words incorpore un sous-ensemble de polices utilisées dans le document dans le PDF généré. Dans ce cas, seuls les glyphes (caractères) utilisés dans le document sont enregistrés dans PDF.
+Aspose.Words vous permet également de contrôler la manière dont les polices sont incorporées dans les documents PDF résultants. Les polices doivent être incorporées dans n'importe quel document Adobe PDF pour garantir que le document peut être correctement rendu sur n'importe quelle machine (voir plus de détails sur le rendu des polices dans la section [Utilisation de TrueType Polices](/words/fr/java/using-truetype-fonts/)). Par défaut, Aspose.Words incorpore un sous-ensemble de polices utilisées dans le document dans le PDF généré. Dans ce cas, seuls les glyphes (caractères) utilisés dans le document sont enregistrés dans PDF.
 
 ### Quand utiliser des Polices complètes et Quand Sous-définir
 

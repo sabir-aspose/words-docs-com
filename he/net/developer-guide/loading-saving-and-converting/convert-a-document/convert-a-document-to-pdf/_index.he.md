@@ -1,92 +1,92 @@
----
-title: המרת Word ל- PDF C#
+﻿---
+title: להמיר Word ל-PDF ב-C#
 second_title: Aspose.Words עבור .NET
-articleTitle: להפוך מסמך ל- PDF
-linktitle: להפוך מסמך ל- PDF
-description: "להמיר מסמך ל- PDF באמצעות C#. המרת DOCX ל- PDF C#. פורמטי קלט שונים נתמכת, כולל Word, OpenOffice, Image ו- eBook."
+articleTitle: לתרגם מסמך ל-PDF
+linktitle: לתרגם מסמך ל-PDF
+description: "להמיר Word ל-PDF ב-C#. דוגמאות קוד פשוטות להמרת DOCX ל-PDF. תומך בכל פורמטי Word ותמונות."
 type: docs
 weight: 10
 url: /he/net/convert-a-document-to-pdf/
 timestamp: 2024-09-25-11-08-55
 ---
 
-היכולת להמיר בקלות וביעילות מסמכים מתבנית אחת לאחרת היא תכונה מרכזית של Aspose.Words. אחד הפורמטים הפופולריים ביותר להמיר הוא PDF - פורמט קבוע עיכובים, אשר משמר את המראה המקורי של מסמך במהלך עריכתו על פלטפורמות שונות. המונח "rendering" משמש Aspose.Words כדי לתאר את התהליך של המרת מסמך לתבנית קובץ שדמיינו או שיש לו מושג של דפים.
+היכולת להמיר מסמכים בקלות ובאמינות מפורמט אחד לאחר היא תכונה מרכזית של Aspose.Words. PDF הוא אחד הפורמטים הפופולריים ביותר להמרה – זהו פורמט עם פריסה קבועה שמשמר את המראה המקורי של המסמך בעת עיבוד על פלטפורמות שונות. המונח "עיבוד" משמש ב-Aspose.Words לתיאור התהליך של המרת מסמך לפורמט קובץ המחולק לעמודים או בעל מושג של עמודים.
 
-## להפוך מסמך Word ל- PDF
+## להמיר מסמך Word ל-PDF
 
-הסחה מ- Word ל- PDF היא תהליך מורכב למדי הדורש מספר שלבים של חישוב. Aspose.Words מנוע הפריסה מחק את הדרך Microsoft Wordמנוע הפריסה בעמוד עובד, מה שהופך מסמכי תפוקה של PDF להיראות קרובים ככל האפשר למה שאתה יכול לראות. Microsoft Word.
+ההמרה מ-Word ל-PDF היא תהליך מורכב למדי הדורש כמה שלבי חישוב. מנוע הפריסה של Aspose.Words מחקה את אופן הפעולה של מנוע פריסת העמודים של Microsoft Word, מה שהופך את מסמכי ה-PDF הפלט להיראות קרובים ככל האפשר למה שאתה יכול לראות ב-Microsoft Word.
 
-עם Aspose.Words אתה יכול להמיר מסמך מפורמטי Word, כגון DOC או DOCX, ל- PDF ללא שימוש Microsoft משרד. מאמר זה מסביר כיצד לבצע המרה זו.
+עם Aspose.Words אתה יכול לתרגם מסמך באופן פרוגרמטי מפורמטי Word, כמו DOC או DOCX, ל-PDF מבלי להשתמש ב-Microsoft Office. מאמר זה מסביר כיצד לבצע המרה זו.
 
 {{% alert color="primary" %}}
 
-שימו לב כי מספר העמודים במסמך משפיע על זמן ההמרות.
+שים לב שמספר העמודים במסמך משפיע על זמן ההמרה.
 
 {{% /alert %}}
 
-### המרת DOCX או DOC ל- PDF
+### להמיר DOCX או DOC ל-PDF
 
-המרת פורמט מסמך DOC או DOCX לתוך פורמט PDF בפורמט PDF ב Aspose.Words זה מאוד קל וניתן להשיג באמצעות שני שורות קוד:
+לחדש מסמכים מפורמט DOC או DOCX לפורמט PDF ב-Aspose.Words קל מאוד וניתן להשגה באמצעות שני שורות קוד בלבד:
 
-1.1 1. לטעון את המסמך שלך לתוך [Document](https://reference.aspose.com/words/net/aspose.words/document/) להתנגד באמצעות אחד מבניו על ידי ציון שם המסמך עם הרחבה פורמט שלה.
-1.1 1. Invoke אחד [Document.Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/) שיטות על **Document** אובייקט ומפרט את פורמט הפלט הרצוי כ- PDF על ידי כניסה לקובץ עם הרחבה "PDF".
+1. טען את המסמך שלך לאובייקט [Document](https://reference.aspose.com/words/net/aspose.words/document/) באמצעות אחד מהבנאים שלו על ידי ציון שם המסמך עם סיומת הפורמט שלו.
+1. הפעל אחת מהמתודות [Document.Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/) על אובייקט **Document** וציין את פורמט הפלט הרצוי כ-PDF על ידי הזנת שם קובץ עם הסיומת ".PDF".
 
-הדוגמה הבאה של הקוד מראה כיצד להמיר מסמך מ- DOCX ל- PDF באמצעות שימוש ב- PDF. [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) שיטה:
+דוגמת הקוד הבאה מראה כיצד להמיר מסמך מ-DOCX ל-PDF באמצעות מתודת [Save](https://reference.aspose.com/words/net/aspose.words/document/save/):
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "docx-to-pdf.cs" >}}
 
-ניתן להוריד את קובץ התבנית של דוגמה זו [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx).
+אתה יכול להוריד את קובץ התבנית של דוגמה זו מ-[Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx).
 
 {{% alert color="primary" %}}
 
-לפעמים יש צורך לציין אפשרויות נוספות, אשר יכולות להשפיע על התוצאה של שמירת מסמך כ- PDF. אפשרויות אלה ניתן להגדיר על ידי השימוש [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) שיעור, המכיל תכונות הקובעות כיצד תוצג תפוקה PDF.
+לפעמים יש צורך לציין אפשרויות נוספות שיכולות להשפיע על התוצאה של שמירת מסמך כ-PDF. אפשרויות אלו יכולות להיות מצוינות באמצעות המחלקה [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/), המכילה מאפיינים שקובעים כיצד יוצג הפלט של ה-PDF.
 
-שים לב כי עם אותה טכניקה, אתה יכול להמיר כל מסמך פורמט זרימה לתבנית PDF.
+שים לב שבאותה טכניקה אתה יכול לחדש כל מסמך בפורמט פריסה זורמת לפורמט PDF.
 
 {{% /alert %}}
 
-### המרת PDF שונה סטנדרטים
+### לתרגם לסטנדרטי PDF שונים
 
-Aspose.Words מספק [PdfCompliace](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/)תמיכה בהמרות DOC או DOCX לסטנדרטים שונים של פורמט PDF (כגון PDF1.7, PDF וכו').
+Aspose.Words מספק את האנומרציה [PdfCompliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) לתמיכה בהמרת DOC או DOCX לסטנדרטי פורמט PDF שונים (כמו PDF 1.7, PDF 1.5, וכו').
 
-הדוגמה הבאה של הקוד מראה כיצד להמיר מסמך ל- PDF1.7 באמצעות שימוש ב- PDF [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) בהתאם ל- PDF17:
+דוגמת הקוד הבאה מדגימה כיצד לחדש מסמך ל-PDF 1.7 באמצעות [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) עם התאמה ל-PDF17:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "conversion-to-pdf17.cs" >}}
 
-## המרת תמונות ל- PDF
+## להמיר תמונות ל-PDF
 
-המרת PDF אינה מוגבלת Microsoft Word פורמטי מסמך כל פורמט נתמך על ידי Aspose.Words, כולל שנוצר באופן מתודולוגי, ניתן להמיר גם ל- PDF. לדוגמה, אנו יכולים להמיר תמונות בעמוד אחד, כגון JPEG, PNG, BMP, EMF או WMF, כמו גם תמונות מרובות עמודים, כגון TIFF ו- GIF, ל- PDF.
+ההמרה ל-PDF אינה מוגבלת לפורמטי מסמכי Microsoft Word. כל פורמט הנתמך על ידי Aspose.Words, כולל אלו שנוצרו באופן פרוגרמטי, יכול גם להיות מתורגם ל-PDF. לדוגמה, אנו יכולים לתרגם תמונות בעלות עמוד יחיד, כמו JPEG, PNG, BMP, EMF, או WMF, כמו גם תמונות רב-עמודיות, כמו TIFF ו-GIF, ל-PDF.
 
-הדוגמה הבאה של הקוד מראה כיצד להמיר תמונות JPEG ו- TIFF ל- PDF:
+דוגמת הקוד הבאה מראה כיצד לחדש תמונות JPEG ו-TIFF ל-PDF:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "image-to-pdf.cs" >}}
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "convert-image-to-pdf.cs" >}}
 
-כדי להפוך את קוד זה לעבוד, עליך להוסיף הפניות Aspose.Words ו `System.Drawing` לפרויקט שלך.
+כדי שקוד זה יעבוד, אתה צריך להוסיף הפניות ל-Aspose.Words ול-`System.Drawing` לפרויקט שלך.
 
-## הקטנת PDF גודל בחוץ
+## להקטין את גודל הפלט PDF
 
-בעת שמירת PDF, באפשרותך לציין אם ברצונך לייעל את התפוקה. כדי לעשות זאת, עליך להגדיר את [OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) דגל true, ולאחר מכן יוסרו הבדים הנטושים והבדים הריקים, השכנים glyphs עם אותו פורמט יהיה מתואם.
+בעת שמירה ל-PDF, אתה יכול לציין אם ברצונך לייעל את הפלט. לשם כך, עליך להגדיר את הדגל [OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) ל-true, ואז קנבסים מקוננים מיותרים ורקים יוסרו, גליפים סמוכים עם אותו עיצוב ישורשרו.
 
-הדוגמה הבאה של הקוד מראה כיצד לייעל את הפלט:
+דוגמת הקוד הבאה מראה כיצד לייעל את הפלט:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "optimize-output.cs" >}}
 
 {{% alert color="primary" %}}
 
-באמצעות **OptimizeOutput** רכוש עשוי להשפיע על הדיוק של תצוגת תוכן.
+השימוש במאפיין **OptimizeOutput** עשוי להשפיע על דיוק הצגת התוכן.
 
 {{% /alert %}}
 
 ## ראה גם
 
-- המאמר [Rendering](/words/he/net/rendering/) לקבלת מידע נוסף על פורמטים קבועים של דף וזרימה
-- המאמר [המרת פורמט קבוע-עמוד](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) למידע נוסף על פריסת הדף
-- המאמר [המונחים: Rendering Options When Converting to PDF](/words/he/net/specify-rendering-options-when-converting-to-pdf/) למידע נוסף על השימוש `PdfSaveOptions` הכיתה
-- המאמר [למד תכונות של הסכמה ל- PDF/A ו- PDF/UA](/words/he/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) תיאור תקן PDF והרלוונטי ISO תמיכה ב- PDF Aspose.Words
-- המאמר [תקן PDF עדיף לבחור](/words/he/net/which-pdf-standard-is-better-to-choose/) כדי לקבוע אילו תקני PDF הגיוניים באילו מקרים
+- המאמר [עיבוד](/words/he/net/rendering/) למידע נוסף על פורמטי עמוד קבוע ופריסה זורמת
+- המאמר [המרה לפורמט עמוד קבוע](/words/he/net/converting-to-fixed-page-format/#what-is-a-page-layout) למידע נוסף על פריסת עמוד
+- המאמר [ציון אפשרויות עיבוד בעת תרגום ל-PDF](/words/he/net/specify-rendering-options-when-converting-to-pdf/) למידע נוסף על השימוש במחלקת `PdfSaveOptions`
+- המאמר [למד על תכונות ההמרה ל-PDF/A ו-PDF/UA](/words/he/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) המתאר איזה סטנדרט PDF וה-ISO הרלוונטיים לסטנדרטי PDF נתמכים על ידי Aspose.Words
+- המאמר [איזה סטנדרט PDF עדיף לבחור](/words/he/net/which-pdf-standard-is-better-to-choose/) לקביעת אילו סטנדרטי PDF מתאימים לאילו מקרים
 
-- המאמר [עבודה עם PDF/A או PDF/UA](/words/he/net/working-with-pdfa-or-pdfua/) מתאר את הדרישות לתוכן המסמך בפורמטים PDF/A ו- PDF/UA – בעיקר את הדרישות למבנה ולפונטים
+- המאמר [עבודה עם PDF/A או PDF/UA](/words/he/net/working-with-pdfa-or-pdfua/) מתאר את הדרישות לתוכן המסמך בפורמטי PDF/A ו-PDF/UA – בעיקר הדרישות למבנה ולפונטים
 
-- המאמר [אזהרות בנושא נגישות בעת שמירת PDF/A ו- PDF/UA](/words/he/net/warnings-when-saving-to-pdfa-and-pdfua/) מתאר מה דרישות נגישות תוכן PDF/A ו- PDF/UA
+- המאמר [אזהרות בעיות נגישות בעת שמירה ל-PDF/A ו-PDF/UA](/words/he/net/warnings-when-saving-to-pdfa-and-pdfua/) מתאר אילו דרישות נגישות תוכן מטילים PDF/A ו-PDF/UA

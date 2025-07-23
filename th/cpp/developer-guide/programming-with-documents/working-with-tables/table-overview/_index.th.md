@@ -1,4 +1,4 @@
----
+﻿---
 title: ภาพรวมของตาราง
 second_title: Aspose.WordsสำหรับC++
 articleTitle: ภาพรวมของตาราง
@@ -65,5 +65,5 @@ Aspose.Wordsเป็นไลบรารีชั้นที่ออกแ�
 
 ## ดูเพิ่มเติม
 
-* [Aspose.Wordsรูปแบบวัตถุเอกสาร(DOM)](/words/cpp/aspose-words-document-object-model/)
-* [ระดับตรรกะของโหนดในเอกสาร](/words/cpp/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Wordsรูปแบบวัตถุเอกสาร(DOM)](/words/th/cpp/aspose-words-document-object-model/)
+* [ระดับตรรกะของโหนดในเอกสาร](/words/th/cpp/logical-levels-of-nodes-in-a-document/)

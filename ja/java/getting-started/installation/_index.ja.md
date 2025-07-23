@@ -10,7 +10,7 @@ url: /ja/java/installation/
 timestamp: 2024-01-27-14-07-04
 ---
 
-あなたの機械が会うことを確かめて下さい [システム要件](/words/java/system-requirements/) 始める前に。
+あなたの機械が会うことを確かめて下さい [システム要件](/words/ja/java/system-requirements/) 始める前に。
 
 この記事では、コンピュータにAspose.WordsforJavaをインストールする方法について説明します。
 

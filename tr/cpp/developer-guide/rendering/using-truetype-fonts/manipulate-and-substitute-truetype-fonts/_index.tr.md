@@ -1,4 +1,4 @@
----
+﻿---
 title: TrueType Yazı Tiplerini C++ içinde Değiştirin ve Değiştirin
 second_title: Aspose.Words için C++
 articleTitle: TrueType Yazı Tiplerini Değiştirme ve Değiştirme
@@ -21,7 +21,7 @@ Belgedeki yazı tipinin, `TrueType` yazı tipi (fiziksel yazı tipi) varlığın
 
 ## Aspose.Words Yazı Tiplerini Nerede Arar
 
-Aspose.Words dosya sistemindeki TrueType fontları otomatik olarak bulmaya çalışır. Genellikle, `TrueType` yazı tiplerini bulmak için Aspose.Words 'ün varsayılan davranışına güvenebilirsiniz, ancak bazen TrueType yazı tiplerini içeren kendi klasörlerinizi belirtmeniz gerekir. Bu [TrueType Yazı Tipi Konumunu Belirtin](/words/cpp/specify-truetype-fonts-location/) konu, Aspose.Words 'ün yazı tiplerini nasıl ve nerede aradığını ve kendi yazı tipi konumlarınızı nasıl belirleyeceğinizi açıklar.
+Aspose.Words dosya sistemindeki TrueType fontları otomatik olarak bulmaya çalışır. Genellikle, `TrueType` yazı tiplerini bulmak için Aspose.Words 'ün varsayılan davranışına güvenebilirsiniz, ancak bazen TrueType yazı tiplerini içeren kendi klasörlerinizi belirtmeniz gerekir. Bu [TrueType Yazı Tipi Konumunu Belirtin](/words/tr/cpp/specify-truetype-fonts-location/) konu, Aspose.Words 'ün yazı tiplerini nasıl ve nerede aradığını ve kendi yazı tipi konumlarınızı nasıl belirleyeceğinizi açıklar.
 
 ## Aspose.Words ve Microsoft Word Yazı Tipi Biçimlerinin İşlenmesindeki Farklılıklar
 

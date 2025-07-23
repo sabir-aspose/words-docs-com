@@ -47,7 +47,7 @@ Všimněte si, že stejnou technikou můžete převést jakýkoli dokument ve fo
 
 ### Převést na různé PDF standardy {#converting-to-various-pdf-standards}
 
-Aspose.Words poskytuje výčet [PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) na podporu převodu DOC nebo DOCX do různých standardů formátu PDF (například PDF 1.7, PDF 1.5, atd.).
+Aspose.Words poskytuje výčet [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) na podporu převodu DOC nebo DOCX do různých standardů formátu PDF (například PDF 1.7, PDF 1.5, atd.).
 
 Následující příklad kódu ukazuje, jak převést dokument na PDF 1.7 Pomocí [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) s dodržením PDF17:
 
@@ -67,6 +67,6 @@ Aby tento kód fungoval, musíte do svého projektu přidat odkazy na Aspose.Wor
 
 ## Vidět
 
-- Článek [Vykreslování](/words/cpp/rendering/) další informace o formátech fixed-page a flow-layout
-- Článek [Převod do formátu s pevnou stránkou](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) další informace o rozvržení stránky
-- Článek [Zadejte Možnosti Vykreslování při převodu na PDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) další informace o použití třídy `PdfSaveOptions`
+- Článek [Vykreslování](/words/cs/cpp/rendering/) další informace o formátech fixed-page a flow-layout
+- Článek [Převod do formátu s pevnou stránkou](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) další informace o rozvržení stránky
+- Článek [Zadejte Možnosti Vykreslování při převodu na PDF](/words/cs/cpp/specify-rendering-options-when-converting-to-pdf/) další informace o použití třídy `PdfSaveOptions`

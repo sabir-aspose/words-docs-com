@@ -546,13 +546,13 @@ Aspose.Words23.8扩展了不同格式的功能，改进了渲染，并添加了�
 
 {{% alert color="primary" %}}
 
-了解更多关于 [Aspose.Words为Python via .NET 23.5发行说明](/words/python-net/aspose-words-for-python-via-dotnet-23-5-release-notes/).
+了解更多关于 [Aspose.Words为Python via .NET 23.5发行说明](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-5-release-notes/).
 
-了解更多关于 [Aspose.Words为Python via .NET 23.6发行说明](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
+了解更多关于 [Aspose.Words为Python via .NET 23.6发行说明](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
 了解更多关于 [Aspose.Words为Python via .NET 23.7发行说明](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
 
-了解更多关于 [Aspose.Words为Python via .NET 23.8发行说明](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
+了解更多关于 [Aspose.Words为Python via .NET 23.8发行说明](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
 {{% /alert %}}
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Lucrul cu Markdown caracteristici în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Lucrul cu Markdown caracteristici
@@ -27,7 +27,7 @@ Implementarea caracteristicilor Markdown urmează în mare parte specificația `
 
 {{% alert color="primary" %}}
 
-Există nuanțe de traducere Markdown la modelul de obiect Document Aspose.Words (DOM), descris în articol [Traduceți Markdown în Document Object Model (DOM)](/words/java/translate-markdown-to-document-object-model/).
+Există nuanțe de traducere Markdown la modelul de obiect Document Aspose.Words (DOM), descris în articol [Traduceți Markdown în Document Object Model (DOM)](/words/ro/java/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

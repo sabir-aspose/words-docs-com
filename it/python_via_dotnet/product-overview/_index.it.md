@@ -1,4 +1,4 @@
----
+﻿---
 title: Panoramica del Prodotto
 second_title: Aspose.Words per Python via .NET
 articleTitle: Panoramica del Prodotto
@@ -56,7 +56,7 @@ Puoi convertire interi documenti o pagine particolari in PDF o XPS per generare 
 
 #### Segnalazione
 
-Genera documenti o report da zero o compilando modelli con dati provenienti da origini dati o oggetti aziendali. Per ulteriori informazioni sul reporting e sul recupero dei dati dai database, vedere le sezioni [Mail Merge e reporting](/words/python-net/mail-merge-and-reporting/) e [Motore di reporting LINQ](/words/python-net/linq-reporting-engine/).
+Genera documenti o report da zero o compilando modelli con dati provenienti da origini dati o oggetti aziendali. Per ulteriori informazioni sul reporting e sul recupero dei dati dai database, vedere le sezioni [Mail Merge e reporting](/words/it/python-net/mail-merge-and-reporting/) e [Motore di reporting LINQ](/words/python-net/linq-reporting-engine/).
 
 ### Indipendenza dalla piattaforma
 

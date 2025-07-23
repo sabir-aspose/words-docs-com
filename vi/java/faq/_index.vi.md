@@ -1,4 +1,4 @@
----
+﻿---
 title: Câu hỏi thường gặp
 second_title: Aspose.Words cho Java
 articleTitle: Câu hỏi thường gặp
@@ -12,7 +12,7 @@ timestamp: 2024-01-31-14-23-37
 
 Trang này có câu trả lời cho các câu hỏi thường gặp nhất. Hãy học trang hiện tại - có lẽ điều này sẽ cho phép bạn giải quyết vấn đề của mình nhanh chóng.
 
-Nếu bạn chưa tìm thấy câu trả lời cho thắc mắc của mình, bạn có thể hỏi trên diễn đàn hỗ trợ. Để biết thông tin về cách báo cáo câu hỏi hay vấn đề của bạn một cách đúng đắn, hãy xem trang [Technical Support](/words/java/technical-support/).
+Nếu bạn chưa tìm thấy câu trả lời cho thắc mắc của mình, bạn có thể hỏi trên diễn đàn hỗ trợ. Để biết thông tin về cách báo cáo câu hỏi hay vấn đề của bạn một cách đúng đắn, hãy xem trang [Technical Support](/words/vi/java/technical-support/).
 
 {{% alert color="primary" %}}
 
@@ -32,7 +32,7 @@ Chi tiết có thể được tìm thấy trong tài liệu của chúng tôi.
 
 **Q: Điều đó có nghĩa là 'Aspose.Words' không cần đến các ứng dụng bên thứ ba?**
 
-Aspose.Words để Java không cần cài đặt bất kỳ ứng dụng bên thứ ba hoặc gói phần mềm bổ sung nào để hoạt động. Chỉ cần tải xuống và cài đặt Aspose.Words như đã được mô tả trong bài viết [Installation](/words/java/installation/) và bắt đầu làm việc.
+Aspose.Words để Java không cần cài đặt bất kỳ ứng dụng bên thứ ba hoặc gói phần mềm bổ sung nào để hoạt động. Chỉ cần tải xuống và cài đặt Aspose.Words như đã được mô tả trong bài viết [Installation](/words/vi/java/installation/) và bắt đầu làm việc.
 
 ------
 
@@ -40,7 +40,7 @@ Aspose.Words để Java không cần cài đặt bất kỳ ứng dụng bên th
 
 Aspose.Words cho Java bao phủ hầu hết các môi trường phát triển phổ biến và nền tảng triển khai. Nó API có thể được sử dụng để phát triển các ứng dụng cho một loạt hệ điều hành như Windows, Linux và Mac OS, và nhiều nền tảng.
 
-Để biết chi tiết, hãy tham khảo trang [Product Overview](/words/java/product-overview/) và phần [Platforms and Interoperability](/words/java/platforms-and-interoperability/).
+Để biết chi tiết, hãy tham khảo trang [Product Overview](/words/vi/java/product-overview/) và phần [Platforms and Interoperability](/words/java/platforms-and-interoperability/).
 
 ------
 
@@ -48,7 +48,7 @@ Aspose.Words cho Java bao phủ hầu hết các môi trường phát triển ph
 
 Aspose.Words cho Java hỗ trợ hầu hết các định dạng tài liệu phổ biến như DOC, DOCX, HTML, Markdown, PDF, XML và các loại khác.
 
-Bạn có thể thấy danh sách đầy đủ các định dạng được hỗ trợ trong trang [Supported Document Formats](/words/java/supported-document-formats/).
+Bạn có thể thấy danh sách đầy đủ các định dạng được hỗ trợ trong trang [Supported Document Formats](/words/vi/java/supported-document-formats/).
 
 ------
 
@@ -56,7 +56,7 @@ Bạn có thể thấy danh sách đầy đủ các định dạng được hỗ
 
 Bạn có thể làm điều này theo hai cách - sử dụng phiên bản thử hoặc Giấy phép tạm thời 30 ngày. Phiên bản dùng thử giống như phiên bản mua, nó cung cấp chức năng đầy đủ của sản phẩm nhưng thêm dấu nước đánh giá ở đầu tài liệu khi tải và lưu và giới hạn kích thước tài liệu tối đa đến vài trăm đoạn văn. Giấy phép tạm thời cho phép bạn thử nghiệm Aspose.Words mà không bị hạn chế thử nghiệm trong vòng 30 ngày.
 
-Xem trang [Licensing and Subscription](/words/java/licensing/) để biết thêm thông tin.
+Xem trang [Licensing and Subscription](/words/vi/java/licensing/) để biết thêm thông tin.
 
 {{% alert color="primary" %}}
 
@@ -70,31 +70,31 @@ Bạn cũng có thể thử một số tính năng phổ biến nhất Aspose.Wo
 
 Để mua một Aspose.Words bản quyền, bạn cần đến trang [Purchase](https://purchase.aspose.com/buy), chọn sản phẩm "Aspose.Words" và loại bản quyền phù hợp với bạn. Sau đó thêm giấy phép vào giỏ hàng và làm theo hướng dẫn của Giót hàng.
 
-Sau khi mua, hãy xin giấy phép như được mô tả trong phần [Purchased License](/words/java/licensing/#purchased-license).
+Sau khi mua, hãy xin giấy phép như được mô tả trong phần [Purchased License](/words/vi/java/licensing/).
 
-Chi tiết cách cài đặt Aspose.Words có thể đọc trên trang [Installation](/words/java/installation/).
+Chi tiết cách cài đặt Aspose.Words có thể đọc trên trang [Installation](/words/vi/java/installation/).
 
 ------
 
 **Q:  Làm sao tôi được hỗ trợ?**
 
-Sử dụng diễn đàn hỗ trợ kỹ thuật miễn phí. Để biết chi tiết cách ghi nhận một vấn đề và những việc cần làm trước khi liên lạc với diễn đàn, hãy xem trang [Technical Support](/words/java/technical-support/).
+Sử dụng diễn đàn hỗ trợ kỹ thuật miễn phí. Để biết chi tiết cách ghi nhận một vấn đề và những việc cần làm trước khi liên lạc với diễn đàn, hãy xem trang [Technical Support](/words/vi/java/technical-support/).
 
 ## Xử lý một Tài liệu
 
 {{% alert color="primary" %}}
 
-Bạn có thể tìm thấy thêm thông tin chi tiết về việc hiển thị trong phần tài liệu [Rendering](/words/java/rendering/).
+Bạn có thể tìm thấy thêm thông tin chi tiết về việc hiển thị trong phần tài liệu [Rendering](/words/vi/java/rendering/).
 
 {{% /alert %}}
 
 **Q: Tại sao bố cục và kiểu chữ trong tài liệu đầu ra khác với bản gốc?**
 
-Phông chữ có thể không có sẵn, hoặc định dạng phông chữ được hỗ trợ bởi Microsoft Word nhưng không được hỗ trợ bởi Aspose.Words. Aspose.Words sẽ thực hiện [font substitution](/words/java/manipulate-and-substitute-truetype-fonts/).
+Phông chữ có thể không có sẵn, hoặc định dạng phông chữ được hỗ trợ bởi Microsoft Word nhưng không được hỗ trợ bởi Aspose.Words. Aspose.Words sẽ thực hiện [font substitution](/words/vi/java/manipulate-and-substitute-truetype-fonts/).
 
 Để kiểm tra nếu phông chữ bị thiếu:
 
-- Khi dùng Aspose.Words, hãy dùng cảnh báo thay thế phông chữ (xem chi tiết ở phần 'Làm sao để nhận ra phông chữ đã được thay thế' của bài viết [Manipulate and Substitute TrueType Fonts](/words/java/manipulate-and-substitute-truetype-fonts/)).
+- Khi dùng Aspose.Words, hãy dùng cảnh báo thay thế phông chữ (xem chi tiết ở phần 'Làm sao để nhận ra phông chữ đã được thay thế' của bài viết [Manipulate and Substitute TrueType Fonts](/words/vi/java/manipulate-and-substitute-truetype-fonts/)).
 - Trong Microsoft Word mở hộp thoại "Thay thế phông chữ" (File → Options → Advanced → Font Substitution).
 
 ------
@@ -121,7 +121,7 @@ Vâng, bạn cũng vậy. Vậy khi sao chép phông chữ thì hãy nhớ rằn
 
 {{% alert color="primary" %}}
 
-Bạn có thể tìm thêm thông tin chi tiết về Mail Merge trong phần tài liệu của [Mail Merge and Reporting](/words/java/mail-merge-and-reporting/).
+Bạn có thể tìm thêm thông tin chi tiết về Mail Merge trong phần tài liệu của [Mail Merge and Reporting](/words/vi/java/mail-merge-and-reporting/).
 
 {{% /alert %}}
 
@@ -145,7 +145,7 @@ Tên gốc của trường hợp hợp nhất vẫn giống như vậy mà khôn
 Đây là vì mối quan hệ giữa bảng cha và bảng con không được thiết lập hoặc chúng bị thiết lập sai. Điều cần thiết là:
 
 - Đảm bảo tính toàn vẹn dữ liệu trong **DataSet** của bạn và sử dụng đối tượng **DataRelation** để biểu diễn mối quan hệ cha-con giữa các bảng dữ liệu có liên quan.
-"- Kiểm tra phần "Cách thiết lập mối quan hệ dữ liệu trong Mail Merge lồng nhau với vùng" trong bài viết [Nested Mail Merge with Regions](/words/java/nested-mail-merge-with-regions/)."
+"- Kiểm tra phần "Cách thiết lập mối quan hệ dữ liệu trong Mail Merge lồng nhau với vùng" trong bài viết [Nested Mail Merge with Regions](/words/vi/java/nested-mail-merge-with-regions/)."
 
 ------
 
@@ -159,7 +159,7 @@ Vô hiệu hóa ràng buộc khóa ngoại khi bạn tạo ra một **DataRelati
 
 {{% alert color="primary" %}}
 
-Bạn có thể tìm thêm thông tin chi tiết về lập trình với tài liệu trong phần [Programming with Documents](/words/java/programming-with-documents/) tài liệu.
+Bạn có thể tìm thêm thông tin chi tiết về lập trình với tài liệu trong phần [Programming with Documents](/words/vi/java/programming-with-documents/) tài liệu.
 
 {{% /alert %}}
 
@@ -171,7 +171,7 @@ Kết quả thêm vào xuất hiện trên một trang riêng biệt vì sự kh
 
 {{% alert color="primary" %}}
 
-Bạn có thể tìm thấy thông tin chi tiết hơn về việc chuyển đổi một tài liệu trong phần tài liệu [Convert a Document](/words/java/convert-a-document/).
+Bạn có thể tìm thấy thông tin chi tiết hơn về việc chuyển đổi một tài liệu trong phần tài liệu [Convert a Document](/words/vi/java/convert-a-document/).
 
 {{% /alert %}}
 
@@ -193,7 +193,7 @@ doc.save(dataDir + "output.pdf", SaveFormat.Pdf);
 
 {{% alert color="primary" %}}
 
-Bạn có thể tìm thấy thông tin chi tiết hơn về lập trình với tài liệu trong phần [Programming with Documents](/words/java/programming-with-documents/) hướng dẫn.
+Bạn có thể tìm thấy thông tin chi tiết hơn về lập trình với tài liệu trong phần [Programming with Documents](/words/vi/java/programming-with-documents/) hướng dẫn.
 
 {{% /alert %}}
 
@@ -253,4 +253,4 @@ catch (Exception e)
 
 **Q: Cách in một tài liệu?**
 
-Để có câu trả lời chi tiết hãy đọc bài viết [Printing a Document Programmatically or Using Dialogs](/words/java/print-a-document-programmatically-or-using-dialogs/).
+Để có câu trả lời chi tiết hãy đọc bài viết [Printing a Document Programmatically or Using Dialogs](/words/vi/java/print-a-document-programmatically-or-using-dialogs/).

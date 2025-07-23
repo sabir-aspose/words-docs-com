@@ -112,7 +112,7 @@ Het volgende codevoorbeeld laat zien hoe u de laatste rij van een tabel kunt klo
 
 {{< gist "aspose-words-gists" "aa87055754447c86ae5fb2d4766130f3" "clone-last-row.h" >}}
 
-Als u tabellen in een document wilt maken die dynamisch groeien met elke record uit uw gegevensbron, wordt de bovenstaande methode niet aanbevolen. In plaats daarvan wordt de gewenste output gemakkelijker bereikt door Mail merge met regio ' s te gebruiken. Meer informatie over deze techniek vindt u in de [Mail Merge Met regio ' s](/words/cpp/types-of-mail-merge-operations/) sectie.
+Als u tabellen in een document wilt maken die dynamisch groeien met elke record uit uw gegevensbron, wordt de bovenstaande methode niet aanbevolen. In plaats daarvan wordt de gewenste output gemakkelijker bereikt door Mail merge met regio ' s te gebruiken. Meer informatie over deze techniek vindt u in de [Mail Merge Met regio ' s](/words/nl/cpp/types-of-mail-merge-operations/) sectie.
 
 ## Manieren om een tabel te maken vergelijken
 

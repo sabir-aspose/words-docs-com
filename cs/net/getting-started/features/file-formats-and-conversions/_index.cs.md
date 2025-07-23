@@ -1,4 +1,4 @@
----
+﻿---
 title: Formáty souborů a konverze
 second_title: Aspose.Words místo .NET
 articleTitle: Formáty souborů a konverze
@@ -29,7 +29,7 @@ Následující příklad kódu ukazuje, jak převést dokument:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "docx-to-pdf.cs" >}}
 
-Další podrobnosti o nakládání, konverzi a ukládání dokumentů viz [Načítání, ukládání a převod](/words/cpp/loading-saving-and-converting/) sekce.
+Další podrobnosti o nakládání, konverzi a ukládání dokumentů viz [Načítání, ukládání a převod](/words/cs/cpp/loading-saving-and-converting/) sekce.
 
 ## Vysoká důstojnost
 

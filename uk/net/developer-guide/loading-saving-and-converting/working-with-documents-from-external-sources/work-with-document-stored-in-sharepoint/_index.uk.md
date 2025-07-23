@@ -1,4 +1,4 @@
----
+﻿---
 title: Робота з документом SharePoint Інтернет
 second_title: Aspose.Words для .NET
 articleTitle: Робота з документом SharePoint Інтернет
@@ -267,5 +267,5 @@ namespace SPOnlineExample
 ## Дивитися ще
 
 - Статті [Рендеринг](/words/uk/net/rendering/) для отримання більш детальної інформації про формати фіксованої сторінки та потоку
-- Статті [Перетворення у формат Фіксованого сторінки](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) для отримання додаткової інформації на макеті сторінки
+- Статті [Перетворення у формат Фіксованого сторінки](/words/uk/net/converting-to-fixed-page-format/#what-is-a-page-layout) для отримання додаткової інформації на макеті сторінки
 - Статті [Вказати параметри рендерингу при конвертації в PDF](/words/uk/net/specify-rendering-options-when-converting-to-pdf/) для отримання додаткової інформації про використання [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) клас

@@ -1,4 +1,4 @@
----
+﻿---
 title: Örnekler Nasıl Çalıştırılır
 second_title: Aspose.Words için C++
 articleTitle: Örnekler Nasıl Çalıştırılır
@@ -36,7 +36,7 @@ Deponun bir kopyasını aldıktan sonra şunları bulabilirsiniz:
 
 Örnekleri çalıştırmak için çözüm dosyasını Visual Studio içinde açın ve projeyi oluşturun:
 
-- **API Reference** örnekler için yapı, sınıf adlarına dayanır, **Docs** örnekler için ise çoğunlukla [Geliştirici Guiled](/words/cpp/developer-guide/) dokümantasyon bölümü.
+- **API Reference** örnekler için yapı, sınıf adlarına dayanır, **Docs** örnekler için ise çoğunlukla [Geliştirici Guiled](/words/tr/cpp/developer-guide/) dokümantasyon bölümü.
 - İlk çalıştırmada, bağımlılıklar NuGet aracılığıyla otomatik olarak indirilecektir.
 - **Examples** kök klasöründeki **Data** klasörü, örneklerde kullanılan girdi dosyalarını içerir.
 - Tüm örnekler birim testleri olarak çalıştırılabilir.
@@ -68,7 +68,7 @@ Visual Studio için çözüm `Examples\DocsExamples\build` içinde oluşturulaca
 
 Örnekleri çalıştırmak için çözüm dosyasını Visual Studio içinde açın ve projeyi oluşturun:
 
-- **API Reference** örnekler için yapı, sınıf adlarına dayanır, **Docs** örnekler için ise çoğunlukla [Geliştirici Guiled](/words/cpp/developer-guide/) dokümantasyon bölümü.
+- **API Reference** örnekler için yapı, sınıf adlarına dayanır, **Docs** örnekler için ise çoğunlukla [Geliştirici Guiled](/words/tr/cpp/developer-guide/) dokümantasyon bölümü.
 - **Examples** kök klasöründeki **Data** klasörü, örneklerde kullanılan girdi dosyalarını içerir.
 - Tüm örnekler birim testleri olarak çalıştırılabilir.
 
@@ -99,7 +99,7 @@ cmake --build Examples/DocsExamples/build
 cmake -E chdir Examples/DocsExamples/build ctest --verbose
 {{< /highlight >}}
 
-- **API Reference** örnekler için yapı, sınıf adlarına dayanır, **Docs** örnekler için ise çoğunlukla [Geliştirici Guiled](/words/cpp/developer-guide/) dokümantasyon bölümü.
+- **API Reference** örnekler için yapı, sınıf adlarına dayanır, **Docs** örnekler için ise çoğunlukla [Geliştirici Guiled](/words/tr/cpp/developer-guide/) dokümantasyon bölümü.
 - **Examples** kök klasöründeki **Data** klasörü, örneklerde kullanılan girdi dosyalarını içerir.
 - Tüm örnekler birim testleri olarak çalıştırılabilir.
 

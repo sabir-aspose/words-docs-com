@@ -1,4 +1,4 @@
----
+﻿---
 title: Resumen de la Tabla
 second_title: Aspose.Words para C++
 articleTitle: Resumen de la Tabla
@@ -65,5 +65,5 @@ En Aspose.Words, todas las clases y propiedades relacionadas con las tablas est�
 
 ## Véase También
 
-* [Aspose.Words Modelo de Objetos de documento (DOM)](/words/cpp/aspose-words-document-object-model/)
-* [Niveles Lógicos de Nodos en un Documento](/words/cpp/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Modelo de Objetos de documento (DOM)](/words/es/cpp/aspose-words-document-object-model/)
+* [Niveles Lógicos de Nodos en un Documento](/words/es/cpp/logical-levels-of-nodes-in-a-document/)

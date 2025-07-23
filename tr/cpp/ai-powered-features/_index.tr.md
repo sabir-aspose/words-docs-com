@@ -1,4 +1,4 @@
----
+﻿---
 title: AI -güçlendirilmiş Özellikler
 second_title: Aspose.Words için C++
 articleTitle: AI -güçlendirilmiş Özellikler
@@ -16,7 +16,7 @@ Aspose.Words artık belge işlemeyi daha akıllı ve daha verimli hale getirmek 
 
 Bu bölümde, Aspose.Words içinde desteklenen AI özelliklerini kullanma hakkında bilmeniz gereken her şeyi ele alacağız. Pratik ipuçlarından ayrıntılı talimatlara kadar, bu geliştirmelerden en iyi şekilde yararlanmanıza yardımcı olmayı amaçlıyoruz.
 
-* [Desteklenen AI Modeller](/words/cpp/supported-ai-models/)
-* [Bir Belgeyi Özetleme](/words/cpp/summarize-a-document/)
-* [Bir Belgeyi Çevirme](/words/cpp/translate-a-document/)
-* [Dilbilgisi Denetimi](/words/cpp/grammar-checking/)
+* [Desteklenen AI Modeller](/words/tr/cpp/supported-ai-models/)
+* [Bir Belgeyi Özetleme](/words/tr/cpp/summarize-a-document/)
+* [Bir Belgeyi Çevirme](/words/tr/cpp/translate-a-document/)
+* [Dilbilgisi Denetimi](/words/tr/cpp/grammar-checking/)

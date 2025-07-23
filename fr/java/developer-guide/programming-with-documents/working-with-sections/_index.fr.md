@@ -38,7 +38,7 @@ Vous pouvez également utiliser l'énumération [SectionStart](https://reference
 
 ## Gérer une Section
 
-Puisqu'une section est un nœud composite normal, toute la manipulation de nœud API peut être utilisée pour manipuler des sections: pour ajouter, supprimer et d'autres opérations sur les sections. Vous pouvez en savoir plus sur les nœuds dans l'article [Aspose.Words Modèle d'objet de document (DOM)](/words/java/aspose-words-document-object-model/).
+Puisqu'une section est un nœud composite normal, toute la manipulation de nœud API peut être utilisée pour manipuler des sections: pour ajouter, supprimer et d'autres opérations sur les sections. Vous pouvez en savoir plus sur les nœuds dans l'article [Aspose.Words Modèle d'objet de document (DOM)](/words/fr/java/aspose-words-document-object-model/).
 
 D'autre part, vous pouvez également utiliser le `DocumentBuilder` API pour travailler avec des sections. Dans cet article, nous allons nous concentrer sur cette façon particulière de travailler avec les sections.
 
@@ -154,5 +154,5 @@ L'exemple de code suivant montre comment modifier les propriétés de la page da
 
 ## Voir Aussi
 
-- [Niveaux logiques des nœuds dans un document](/words/java/logical-levels-of-nodes-in-a-document/)
-- [Insérer et ajouter des documents](/words/java/insert-and-append-documents/)
+- [Niveaux logiques des nœuds dans un document](/words/fr/java/logical-levels-of-nodes-in-a-document/)
+- [Insérer et ajouter des documents](/words/fr/java/insert-and-append-documents/)

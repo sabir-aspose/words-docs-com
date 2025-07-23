@@ -1,4 +1,4 @@
----
+﻿---
 title: Lêerformate en Omskakelings
 second_title: Aspose.Words vir .NET
 articleTitle: Lêerformate en Omskakelings
@@ -29,7 +29,7 @@ Die volgende kode voorbeeld toon hoe om'n dokument te omskep:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "docx-to-pdf.cs" >}}
 
-Vir meer besonderhede oor die laai, omskakeling en stoor van dokumente, sien die [Laai, Stoor En Omskakeling](/words/cpp/loading-saving-and-converting/) afdeling.
+Vir meer besonderhede oor die laai, omskakeling en stoor van dokumente, sien die [Laai, Stoor En Omskakeling](/words/af/cpp/loading-saving-and-converting/) afdeling.
 
 ## Hoë Getrouheid
 

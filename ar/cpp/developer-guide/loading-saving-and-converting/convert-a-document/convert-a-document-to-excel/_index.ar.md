@@ -1,4 +1,4 @@
----
+﻿---
 title: تحويل كلمة إلى إكسيل في C++
 second_title: Aspose.Words ل C++
 articleTitle: تحويل مستند إلى إكسيل
@@ -61,5 +61,5 @@ doc->Save(ArtifactsDir + u"BaseConversions.CompressXlsx.xlsx", saveOptions);
 
 ## أنظر أيضا
 
-- قسم الوثائق [حماية أو تشفير مستند](/words/cpp/protect-or-encrypt-a-document/) لمزيد من المعلومات حول حماية وتشفير وثيقة
-- المادة [البحث والاستبدال](/words/cpp/find-and-replace/) لمزيد من المعلومات حول العثور على المحتوى الذي تريده واستبداله
+- قسم الوثائق [حماية أو تشفير مستند](/words/ar/cpp/protect-or-encrypt-a-document/) لمزيد من المعلومات حول حماية وتشفير وثيقة
+- المادة [البحث والاستبدال](/words/ar/cpp/find-and-replace/) لمزيد من المعلومات حول العثور على المحتوى الذي تريده واستبداله

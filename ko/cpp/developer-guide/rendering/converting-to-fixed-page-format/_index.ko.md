@@ -1,4 +1,4 @@
----
+﻿---
 title: 고정 페이지 형식으로 변환 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 고정 페이지 형식으로 변환
@@ -28,7 +28,7 @@ Microsoft Word 가장 진보 된 텍스트 편집 응용 프로그램입니다 W
 
 ## 또한 참조
 
-* [페이지 레이아웃은 무엇입니까](/words/cpp/what-is-a-page-layout/)
-* [페이지 레이아웃 만들기](/words/cpp/creating-a-page-layout/)
-* [고정 페이지 형식으로 문서 저장](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [레이아웃 옵션 지정](/words/cpp/specify-layout-options/)
+* [페이지 레이아웃은 무엇입니까](/words/ko/cpp/what-is-a-page-layout/)
+* [페이지 레이아웃 만들기](/words/ko/cpp/creating-a-page-layout/)
+* [고정 페이지 형식으로 문서 저장](/words/ko/cpp/saving-a-document-to-fixed-page-format/)
+* [레이아웃 옵션 지정](/words/ko/cpp/specify-layout-options/)

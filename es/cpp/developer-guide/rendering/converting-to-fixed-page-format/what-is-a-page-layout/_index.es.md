@@ -1,4 +1,4 @@
----
+﻿---
 title: Qué es un diseño de página en C++
 second_title: Aspose.Words para C++
 articleTitle: Qué es un Diseño de Página
@@ -20,6 +20,6 @@ La relación entre un documento y un diseño de página es bastante simple. Mien
 
 ## Véase También
 
-* [Crear un Diseño de Página](/words/cpp/creating-a-page-layout/)
-* [Guardar un documento en Formato de página fija](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Especificar Opciones de Diseño](/words/cpp/specify-layout-options/)
+* [Crear un Diseño de Página](/words/es/cpp/creating-a-page-layout/)
+* [Guardar un documento en Formato de página fija](/words/es/cpp/saving-a-document-to-fixed-page-format/)
+* [Especificar Opciones de Diseño](/words/es/cpp/specify-layout-options/)

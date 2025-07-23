@@ -1,4 +1,4 @@
----
+﻿---
 title: Dokumente vergleichen in C++
 second_title: Aspose.Words für C++
 articleTitle: Dokumente vergleichen
@@ -36,7 +36,7 @@ Die allgemeine Einschränkung für zwei zu vergleichende Dokumente besteht darin
 
 {{% alert color="primary" %}}
 
-Beachten Sie, dass Sie zwei beliebige Dokumente innerhalb der vergleichen können [unterstützte Dateiformate](/words/cpp/supported-document-formats/). Sie können Dokumentobjekte vergleichen und sogar diese Objekte von Grund auf neu erstellen, ohne ein bestimmtes Format zu haben.
+Beachten Sie, dass Sie zwei beliebige Dokumente innerhalb der vergleichen können [unterstützte Dateiformate](/words/de/cpp/supported-document-formats/). Sie können Dokumentobjekte vergleichen und sogar diese Objekte von Grund auf neu erstellen, ohne ein bestimmtes Format zu haben.
 
 {{% /alert %}}
 

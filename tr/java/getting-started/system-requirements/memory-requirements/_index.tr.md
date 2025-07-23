@@ -1,4 +1,4 @@
----
+﻿---
 title: Bellek Gereksinimleri
 second_title: Aspose.Words için Java
 articleTitle: Bellek Gereksinimleri
@@ -42,10 +42,10 @@ Binlerce gerçek belgeyle yapılan deneyimlerde tipik olarak Aspose.Words bellek
 
 Taramaya ( Sabit sayfa formatlarına dönüştürmeye ), alanları güncellemeye, sayfayı bölmeye ve diğer işlemleri gerçekleştirme gibi daha karmaşık işlemler, bazı belgeler için, yüklenen Aspose.Words DOM belgesinde ayrılan bellekten 20 kat daha fazla kaynak gerektirir.
 
-Profil sonuçlarınız bellek sorunu olası bir şekilde Aspose.Words'te olduğunu gösteriyorsa, lütfen bizim [Support Team](/words/java/technical-support/)'mıza ulaşın ve tüm tanılama bilgilerini dahil edin.
+Profil sonuçlarınız bellek sorunu olası bir şekilde Aspose.Words'te olduğunu gösteriyorsa, lütfen bizim [Support Team](/words/tr/java/technical-support/)'mıza ulaşın ve tüm tanılama bilgilerini dahil edin.
 
 ## Ayrıca Bakın
 
-* [Rendering](/words/java/rendering/)
-* [Mail Merge and Reporting](/words/java/mail-merge-and-reporting/)
-* [Working with Fields](/words/java/working-with-fields/)
+* [Rendering](/words/tr/java/rendering/)
+* [Mail Merge and Reporting](/words/tr/java/mail-merge-and-reporting/)
+* [Working with Fields](/words/tr/java/working-with-fields/)

@@ -10,7 +10,7 @@ url: /ru/java/supported-features-on-document-save/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words позволяет пользователям работать с документами различных форматов и предоставляет широкий спектр возможностей для этого. Например, пользователи могут создать документ с нуля или загрузить его, чтобы сделать некоторые изменения, а затем сохранить эти изменения в выходной файл в любом [поддерживается формат экспорта](/words/java/supported-document-formats/). При сохранении документа в выбранном формате пользователь может применять различные параметры сохранения.
+Aspose.Words позволяет пользователям работать с документами различных форматов и предоставляет широкий спектр возможностей для этого. Например, пользователи могут создать документ с нуля или загрузить его, чтобы сделать некоторые изменения, а затем сохранить эти изменения в выходной файл в любом [поддерживается формат экспорта](/words/ru/java/supported-document-formats/). При сохранении документа в выбранном формате пользователь может применять различные параметры сохранения.
 
 {{% alert color="primary" %}}
 
@@ -21,7 +21,7 @@ Aspose.Words позволяет пользователям работать с �
 Полный список функций приведен в разделе API reference:
 
 - [параметры сохранения для всех форматов](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/)
-- [исправлены параметры сохранения страницы](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/) для [фиксированных форматов страниц](/words/java/converting-to-fixed-page-format/): PDF, XPS, изображений и других
+- [исправлены параметры сохранения страницы](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/) для [фиксированных форматов страниц](/words/ru/java/converting-to-fixed-page-format/): PDF, XPS, изображений и других
 - [PDF сохранить параметры](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) для формата PDF
 - [OOXML сохранить параметры](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/) для форматов DOCX, DOCM, DOTX, DOTM, или FlatOpc
 - [DOC сохранить параметры](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) для форматов DOC и DOT

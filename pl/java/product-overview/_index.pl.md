@@ -1,4 +1,4 @@
----
+﻿---
 title: Przegląd produktu
 second_title: Aspose.Words zamiast Java
 articleTitle: Przegląd produktu
@@ -60,7 +60,7 @@ Możesz przekonwertować całe dokumenty lub konkretne strony do PDF lub XPS gen
 
 #### Sprawozdawczość
 
-Generowanie dokumentów lub raportów od zera lub poprzez wypełnianie szablonów danymi ze źródeł danych lub obiektów biznesowych. Więcej informacji na temat raportowania i pobierania danych z baz danych można znaleźć w [Mail Merge i świętości](/words/java/mail-merge-and-reporting/) oraz [LINQ Silnik sprawozłszy](/words/java/linq-reporting-engine/) sekcje.
+Generowanie dokumentów lub raportów od zera lub poprzez wypełnianie szablonów danymi ze źródeł danych lub obiektów biznesowych. Więcej informacji na temat raportowania i pobierania danych z baz danych można znaleźć w [Mail Merge i świętości](/words/pl/java/mail-merge-and-reporting/) oraz [LINQ Silnik sprawozłszy](/words/java/linq-reporting-engine/) sekcje.
 
 ### Niezależność platformy
 

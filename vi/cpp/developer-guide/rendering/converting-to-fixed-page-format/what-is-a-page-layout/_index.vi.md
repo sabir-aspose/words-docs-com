@@ -1,4 +1,4 @@
----
+﻿---
 title: Bố Cục Trang trong C++là gì
 second_title: Aspose.Words cho C++
 articleTitle: Bố Cục Trang Là gì
@@ -20,6 +20,6 @@ Mối quan hệ giữa tài liệu và bố cục trang khá đơn giản. Trong
 
 ## Xem Thêm
 
-* [Tạo Bố Cục Trang](/words/cpp/creating-a-page-layout/)
-* [Lưu Tài liệu sang Định dạng trang Cố định](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Chỉ Định Tùy Chọn Bố Cục](/words/cpp/specify-layout-options/)
+* [Tạo Bố Cục Trang](/words/vi/cpp/creating-a-page-layout/)
+* [Lưu Tài liệu sang Định dạng trang Cố định](/words/vi/cpp/saving-a-document-to-fixed-page-format/)
+* [Chỉ Định Tùy Chọn Bố Cục](/words/vi/cpp/specify-layout-options/)

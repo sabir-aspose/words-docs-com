@@ -1,4 +1,4 @@
----
+﻿---
 title: แปลงเอกสารเป็นPDFในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: แปลงเอกสารเป็นPDF
@@ -47,7 +47,7 @@ timestamp: 2024-10-21-08-52-03
 
 ### แปลงเป็นมาตรฐานPDFที่แตกต่างกัน{#converting-to-various-pdf-standards}
 
-Aspose.Wordsให้การแจงนับ[PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/)เพื่อสนับสนุนการแปลงDOCหรือDOCXเป็นมาตรฐานรูปแบบต่างๆPDF(เช่นPDF 1.7, PDF 1.5, ฯลฯ).
+Aspose.Wordsให้การแจงนับ[PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/)เพื่อสนับสนุนการแปลงDOCหรือDOCXเป็นมาตรฐานรูปแบบต่างๆPDF(เช่นPDF 1.7, PDF 1.5, ฯลฯ).
 
 ตัวอย่างรหัสต่อไปนี้แสดงให้เห็นถึงวิธีการแปลงเอกสารเป็นPDF1.7โดยใช้[PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/)โดยปฏิบัติตามPDF17:
 
@@ -67,6 +67,6 @@ Aspose.Wordsให้การแจงนับ[PdfCompliace](https://reference
 
 ## ดูเพิ่มเติม
 
-- บทความ [การแสดงผล](/words/cpp/rendering/) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับหน้าคงที่และรูปแบบเค้าโครงโฟลว์
-- บทความ [แปลงเป็นรูปแบบหน้าถาวร](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับเค้าโครงหน้า
-- บทความ [ระบุตัวเลือกการแสดงผลเมื่อแปลงเป็นPDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการใช้`PdfSaveOptions`คลาส
+- บทความ [การแสดงผล](/words/th/cpp/rendering/) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับหน้าคงที่และรูปแบบเค้าโครงโฟลว์
+- บทความ [แปลงเป็นรูปแบบหน้าถาวร](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับเค้าโครงหน้า
+- บทความ [ระบุตัวเลือกการแสดงผลเมื่อแปลงเป็นPDF](/words/th/cpp/specify-rendering-options-when-converting-to-pdf/) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการใช้`PdfSaveOptions`คลาส

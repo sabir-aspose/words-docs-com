@@ -1,4 +1,4 @@
----
+﻿---
 title: 转换为PDF时指定渲染选项
 second_title: Aspose.Words对于C++
 articleTitle: 转换为PDF时指定渲染选项
@@ -96,7 +96,7 @@ Aspose.Words提供了使用[DownsampleOptions](https://reference.aspose.com/word
 
 ## 以AdobePDF格式嵌入字体
 
-Aspose.Words还使您能够控制字体如何嵌入到生成的PDF文档中。 字体需要嵌入到任何AdobePDF文档中，以确保文档可以在任何机器上正确呈现（请参阅有关字体呈现的更多详细信息部分 [使用TrueType字体](/words/cpp/using-truetype-fonts/)). 默认情况下，Aspose.Words将文档中使用的字体子集嵌入到生成的PDF中。 在这种情况下，只有文档中使用的字形（字符）被保存到PDF。
+Aspose.Words还使您能够控制字体如何嵌入到生成的PDF文档中。 字体需要嵌入到任何AdobePDF文档中，以确保文档可以在任何机器上正确呈现（请参阅有关字体呈现的更多详细信息部分 [使用TrueType字体](/words/zh/cpp/using-truetype-fonts/)). 默认情况下，Aspose.Words将文档中使用的字体子集嵌入到生成的PDF中。 在这种情况下，只有文档中使用的字形（字符）被保存到PDF。
 
 ### 何时使用完整字体以及何时使用子集
 

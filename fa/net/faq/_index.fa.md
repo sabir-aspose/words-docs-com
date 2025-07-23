@@ -1,4 +1,4 @@
----
+﻿---
 title: سوالات متداول
 second_title: Aspose.Words برای .NET
 articleTitle: سوالات متداول - Aspose.Words برای .NET
@@ -72,7 +72,7 @@ Aspose.Words for .NET از اکثر فرمت های سند محبوب مانند
 
 برای خرید لایسنس Aspose.Words باید به صفحه [خرید](https://purchase.aspose.com/buy) رفته، محصول "Aspose.Words" و نوع لایسنس مناسب خود را انتخاب کنید. سپس مجوز را به سبد خرید خود اضافه کنید و دستورالعمل های سبد خرید را دنبال کنید.
 
-پس از خرید، همانطور که در بخش [مجوز خریداری شده](/words/net/licensing/#purchased-license) توضیح داده شده است، برای مجوز اقدام کنید.
+پس از خرید، همانطور که در بخش [مجوز خریداری شده](/words/fa/net/licensing/) توضیح داده شده است، برای مجوز اقدام کنید.
 
 جزئیات نحوه نصب Aspose.Words را می توانید در صفحه [نصب و راه اندازی](/words/fa/net/installation/) بخوانید.
 
@@ -129,7 +129,7 @@ Aspose.Words for .NET از اکثر فرمت های سند محبوب مانند
 
 {{% alert color="primary" %}}
 
-می توانید اطلاعات دقیق تر در مورد Mail Merge را در بخش اسناد [Mail Merge و گزارش](/words/net/mail-merge-and-reporting/) بیابید.
+می توانید اطلاعات دقیق تر در مورد Mail Merge را در بخش اسناد [Mail Merge و گزارش](/words/fa/net/mail-merge-and-reporting/) بیابید.
 
 {{% /alert %}}
 
@@ -153,7 +153,7 @@ Aspose.Words for .NET از اکثر فرمت های سند محبوب مانند
 این به این دلیل است که رابطه بین جداول والد و فرزند تنظیم نشده است یا به درستی تنظیم نشده است. این مهم است که:
 
 * از یکپارچگی داده ها در **DataSet** خود اطمینان حاصل کنید و از شی **DataRelation** برای نشان دادن رابطه والد-فرزند بین جداول داده های مرتبط استفاده کنید.
-* بخش "نحوه تنظیم روابط داده در Nested Mail Merge با مناطق" را در مقاله [Mail Merge تودرتو با مناطق](/words/net/nested-mail-merge-with-regions/) بررسی کنید.
+* بخش "نحوه تنظیم روابط داده در Nested Mail Merge با مناطق" را در مقاله [Mail Merge تودرتو با مناطق](/words/fa/net/nested-mail-merge-with-regions/) بررسی کنید.
 
 ------
 

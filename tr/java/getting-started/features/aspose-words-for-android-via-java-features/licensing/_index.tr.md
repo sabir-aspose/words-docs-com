@@ -1,4 +1,4 @@
----
+﻿---
 title: Lisanslama
 second_title: Aspose.Words için Java
 articleTitle: Lisanslama
@@ -26,7 +26,7 @@ Değerlendirme sürümü satın alınan sürümle aynıdır - deneme sürümü, 
 
 {{% alert color="primary" %}}
 
-Free Trial veya Geçici Lisans için Aspose.Words'e ilişkin daha fazla ayrıntı hakkında Android üzerinden Java'te [the Licensing and Subscription page](/words/java/licensing/) 'de bilgi edinin.
+Free Trial veya Geçici Lisans için Aspose.Words'e ilişkin daha fazla ayrıntı hakkında Android üzerinden Java'te [the Licensing and Subscription page](/words/tr/java/licensing/) 'de bilgi edinin.
 
 {{% /alert %}}
 
@@ -71,7 +71,7 @@ Lisanslar çeşitli noktalardan uygulanabilir:
 
 #### Lisans dosyasını yüklüyor.
 
-In Aspose.Words for Android via Java, lisans [embedded as a resource](/words/java/licensing/) olarak olabilir veya bir akıştan yüklenebilir:
+In Aspose.Words for Android via Java, lisans [embedded as a resource](/words/tr/java/licensing/) olarak olabilir veya bir akıştan yüklenebilir:
 
 1. Lisans dosyasını **/mnt/sdcard/** içindeki herhangi bir konuma koyun.
 1. Dosyayı referans alan bir akış oluşturun.

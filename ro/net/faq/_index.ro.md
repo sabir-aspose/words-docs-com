@@ -1,4 +1,4 @@
----
+﻿---
 title: FAQ
 second_title: Aspose.Words pentru .NET
 articleTitle: Întrebări frecvente – Aspose.Words pentru .NET
@@ -14,7 +14,7 @@ timestamp: 2024-11-18-12-56-02
 
 Această pagină conține răspunsuri la cele mai frecvente întrebări. Te rog să înveți pagina curentă - poate că asta îți va permite să rezolvi repede problema ta.
 
-Dacă nu ai găsit răspunsul la întrebarea ta, poți cere pe forum-ul de suport. Pentru informaţii despre modul corect de raportare a întrebării sau problemei dumneavoastră, vedeţi [Technical Support](/words/net/technical-support/) pagina.
+Dacă nu ai găsit răspunsul la întrebarea ta, poți cere pe forum-ul de suport. Pentru informaţii despre modul corect de raportare a întrebării sau problemei dumneavoastră, vedeţi [Technical Support](/words/ro/net/technical-support/) pagina.
 
 {{% alert color="primary" %}}
 
@@ -34,7 +34,7 @@ Detalii pot fi găsite în documentația noastră.
 
 **Ce înseamnă că " Aspose.Words nu necesită aplicații terțe"?**
 
-Aspose.Words pentru .NET nu trebuie să instalați orice aplicații terțe sau pachete software suplimentare pentru a funcționa. Doar descărcați și instalați Aspose.Words așa cum se descrie în [Installation](/words/net/installation/) articol și începeți să lucrați.
+Aspose.Words pentru .NET nu trebuie să instalați orice aplicații terțe sau pachete software suplimentare pentru a funcționa. Doar descărcați și instalați Aspose.Words așa cum se descrie în [Installation](/words/ro/net/installation/) articol și începeți să lucrați.
 
 ------
 
@@ -42,7 +42,7 @@ Aspose.Words pentru .NET nu trebuie să instalați orice aplicații terțe sau p
 
 Aspose.Words pentru .NET acoperă majoritatea mediilor de dezvoltare populare și platformelor de implementare. Puteți utiliza API pentru dezvoltarea de aplicații pentru o gamă largă de sisteme de operare precum Windows, Linux, și Mac OS, și diferite platforme.
 
-Pentru detalii vedeți [Product Overview](/words/net/product-overview/) pagina și secțiunea [Platforms and Interoperability](/words/net/platforms-and-interoperability/).
+Pentru detalii vedeți [Product Overview](/words/ro/net/product-overview/) pagina și secțiunea [Platforms and Interoperability](/words/net/platforms-and-interoperability/).
 
 ------
 
@@ -50,7 +50,7 @@ Pentru detalii vedeți [Product Overview](/words/net/product-overview/) pagina �
 
 Aspose.Words pentru .NET acceptă majoritatea formatelor populare de documente precum DOC, DOCX, HTML, Markdown, PDF, XML și altele.
 
-Puteți vedea lista completă a formatelor suportate pe [Supported Document Formats](/words/net/supported-document-formats/) pagina.
+Puteți vedea lista completă a formatelor suportate pe [Supported Document Formats](/words/ro/net/supported-document-formats/) pagina.
 
 ------
 
@@ -58,7 +58,7 @@ Puteți vedea lista completă a formatelor suportate pe [Supported Document Form
 
 Poți face acest lucru în două moduri – folosind versiunea de încercare sau o licență temporară de 30 de zile. Versiunea de încercare este la fel ca cea achiziționată, ea oferă întreaga funcționalitate a produsului dar adaugă o urmăritor de evaluare în partea de sus a documentului când încărcarea și salvarea și limitează mărimea maximă a documentului la câteva sute de paragrafe. O licență temporară vă permite să testaţi Aspose.Words fără restricții de încercare timp de 30 de zile.
 
-Vedeți [Licensing and Subscription](/words/net/licensing/) pagină pentru mai multe informații.
+Vedeți [Licensing and Subscription](/words/ro/net/licensing/) pagină pentru mai multe informații.
 
 {{% alert color="primary" %}}
 
@@ -72,31 +72,31 @@ Poți încerca și câteva dintre cele mai populare Aspose.Words caracteristici 
 
 Pentru a cumpăra un Aspose.Words licență, trebuie să mergi la [Purchase](https://purchase.aspose.com/buy) pagina, alege produsul "Aspose.Words" și tipul de licență care ți se potrivește. Apoi adăugați licența în coșul dumneavoastră și urmați instrucțiunile din Coș.
 
-După achiziționare, aplicați pentru licență așa cum este descris în secțiunea [Purchased License](/words/net/licensing/#purchased-license).
+După achiziționare, aplicați pentru licență așa cum este descris în secțiunea [Purchased License](/words/ro/net/licensing/).
 
-Detalii despre cum să instalați Aspose.Words pot fi citite pe pagina [Installation](/words/net/installation/).
+Detalii despre cum să instalați Aspose.Words pot fi citite pe pagina [Installation](/words/ro/net/installation/).
 
 ------
 
 **Î: Cum pot obține suport?**
 
-Folosește forumul de asistență tehnică gratuită. Pentru detalii despre modul de raportare corect a unei probleme și ce trebuie făcut înainte de contactarea forumului, consultă [Technical Support](/words/net/technical-support/) pagina.
+Folosește forumul de asistență tehnică gratuită. Pentru detalii despre modul de raportare corect a unei probleme și ce trebuie făcut înainte de contactarea forumului, consultă [Technical Support](/words/ro/net/technical-support/) pagina.
 
 ## Rندرizarea unui document
 
 {{% alert color="primary" %}}
 
-Poți găsi informații mai detaliate despre redarea în secțiunea [Rendering](/words/net/rendering/) a documentației.
+Poți găsi informații mai detaliate despre redarea în secțiunea [Rendering](/words/ro/net/rendering/) a documentației.
 
 {{% /alert %}}
 
 **De ce dispunerea şi fonturile din documentul de ieşire diferă de cel original?**
 
-Font-ul poate să nu fie disponibil sau formatul fontului este acceptat de Microsoft Word dar nu este acceptat de Aspose.Words. Aspose.Words va efectua [font substitution](/words/net/manipulating-and-substitution-truetype-fonts/).
+Font-ul poate să nu fie disponibil sau formatul fontului este acceptat de Microsoft Word dar nu este acceptat de Aspose.Words. Aspose.Words va efectua [font substitution](/words/ro/net/manipulating-and-substitution-truetype-fonts/).
 
 Pentru a verifica dacă fontul lipsește:
 
-* În Aspose.Words folosește avertismente de substituție a fontului (pentru detalii, vezi secțiunea "Cum să recunoști când fontul a fost înlocuit" din articolul [Manipulate and Substitute TrueType Fonts](/words/net/manipulating-and-substitution-truetype-fonts/)).
+* În Aspose.Words folosește avertismente de substituție a fontului (pentru detalii, vezi secțiunea "Cum să recunoști când fontul a fost înlocuit" din articolul [Manipulate and Substitute TrueType Fonts](/words/ro/net/manipulating-and-substitution-truetype-fonts/)).
 * În Microsoft Word deschide caseta de dialog "Substitutie font" (Fișier → Opțiuni → Avansat → Substitutie font).
 
 ------
@@ -129,7 +129,7 @@ Da, tu o faci. Prin urmare, când copiaţi fonturi, ţineţi minte că majoritat
 
 {{% alert color="primary" %}}
 
-Puteți găsi mai multe informații detaliate despre Mail Merge în secțiunea de documentație [Mail Merge and Reporting](/words/net/mail-merge-and-reporting/).
+Puteți găsi mai multe informații detaliate despre Mail Merge în secțiunea de documentație [Mail Merge and Reporting](/words/ro/net/mail-merge-and-reporting/).
 
 {{% /alert %}}
 
@@ -153,7 +153,7 @@ Aceasta se datorează faptului că regiunile de fuziune din șablon nu sunt form
 Acesta este din cauza relației dintre tabelele părinte și copil nu sunt stabilite sau sunt incorect stabiliți. Este necesar să:
 
 * Asigurați integritatea datelor în cadrul **DataSet** și utilizați obiectul **DataRelation** pentru a reprezenta relația părinte-copil dintre tabelele de date legate.
-* Verificați secțiunea "Cum să configurați relațiile de date în Mail Merge închise cu regiuni" din articolul [Nested Mail Merge with Regions](/words/net/nested-mail-merge-with-regions/).
+* Verificați secțiunea "Cum să configurați relațiile de date în Mail Merge închise cu regiuni" din articolul [Nested Mail Merge with Regions](/words/ro/net/nested-mail-merge-with-regions/).
 
 ------
 
@@ -167,7 +167,7 @@ Dezactiva constrângerile cheie străine când creezi o **DataRelation**.
 
 {{% alert color="primary" %}}
 
-Puteți găsi mai multe informații detaliate despre programare cu documente în secțiunea de documentație [Programming with Documents](/words/net/programming-with-documents/).
+Puteți găsi mai multe informații detaliate despre programare cu documente în secțiunea de documentație [Programming with Documents](/words/ro/net/programming-with-documents/).
 
 {{% /alert %}}
 
@@ -179,7 +179,7 @@ Puteți găsi mai multe informații detaliate despre programare cu documente în
 
 {{% alert color="primary" %}}
 
-Puteți găsi mai multe informații detaliate despre convertirea unui document în secțiunea de documentație [Convert a Document](/words/net/convert-a-document/).
+Puteți găsi mai multe informații detaliate despre convertirea unui document în secțiunea de documentație [Convert a Document](/words/ro/net/convert-a-document/).
 
 {{% /alert %}}
 
@@ -217,7 +217,7 @@ doc.Save(_dataDir + "output.pdf", SaveFormat.Pdf);
 
 {{% alert color="primary" %}}
 
-Poţi găsi mai multe informaţii detaliate despre programare cu documente în secţiunea de documentaţie [Programming with Documents](/words/net/programming-with-documents/).
+Poţi găsi mai multe informaţii detaliate despre programare cu documente în secţiunea de documentaţie [Programming with Documents](/words/ro/net/programming-with-documents/).
 
 {{% /alert %}}
 
@@ -311,4 +311,4 @@ pdfDocument.Save(_dataDir + "out.pdf", SaveFormat.Pdf);
 
 **Cum să folosești Aspose.Words în Docker?**
 
-Pentru un răspuns detaliat, citiți articolul [How to Run Aspose.Words in Docker](/words/net/how-to-run-aspose-words-in-docker/).
+Pentru un răspuns detaliat, citiți articolul [How to Run Aspose.Words in Docker](/words/ro/net/how-to-run-aspose-words-in-docker/).

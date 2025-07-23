@@ -1,4 +1,4 @@
----
+﻿---
 title: 文件格式和转换
 second_title: Aspose.Words对于C++
 articleTitle: 为什么转换是Aspose.Words的旗舰功能？
@@ -29,7 +29,7 @@ timestamp: 2024-09-24-14-35-44
 
 {{< gist "aspose-words-gists" "b9784b73e288805e08fba6e3fc5ae2af" "docx-to-pdf.h" >}}
 
-有关加载、转换和保存文档的更多详细信息，请参阅 [加载、保存和转换](/words/cpp/loading-saving-and-converting/) 节。
+有关加载、转换和保存文档的更多详细信息，请参阅 [加载、保存和转换](/words/zh/cpp/loading-saving-and-converting/) 节。
 
 ## 高保真度
 

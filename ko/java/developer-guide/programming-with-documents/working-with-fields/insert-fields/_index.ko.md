@@ -14,7 +14,7 @@ timestamp: 2024-01-27-14-07-04
 
 - [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)사용
 - [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/)사용
-- 사용 [Aspose.Words문서 개체 모델(DOM)](/words/java/aspose-words-document-object-model/)
+- 사용 [Aspose.Words문서 개체 모델(DOM)](/words/ko/java/aspose-words-document-object-model/)
 
 이 기사에서는 각 방법을 더 자세히 살펴보고 이러한 옵션을 사용하여 특정 필드를 삽입하는 방법을 분석합니다.
 
@@ -80,7 +80,7 @@ Aspose.Words에 필드를 삽입하는 다른 방법은[FieldBuilder](https://re
 
 ## DOM을 사용하여 필드 삽입
 
-다음을 사용하여 다양한 유형의 필드를 삽입할 수도 있습니다 [Aspose.Words문서 개체 모델(DOM)](/words/java/aspose-words-document-object-model/). 이 섹션에서는 몇 가지 예를 살펴 보겠습니다.
+다음을 사용하여 다양한 유형의 필드를 삽입할 수도 있습니다 [Aspose.Words문서 개체 모델(DOM)](/words/ko/java/aspose-words-document-object-model/). 이 섹션에서는 몇 가지 예를 살펴 보겠습니다.
 
 ### DOM을 사용하여 문서에 병합 필드 삽입
 

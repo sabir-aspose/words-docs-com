@@ -1,4 +1,4 @@
----
+﻿---
 title: Tabel Oorsig
 second_title: Aspose.Words vir C++
 articleTitle: Tabel Oorsig
@@ -65,5 +65,5 @@ In Aspose.Words, is alle klasse en eienskappe wat verband hou met tabelle vervat
 
 ## Sien Ook
 
-* [Aspose.Words Dokument Voorwerp Model (DOM)](/words/cpp/aspose-words-document-object-model/)
-* [Logiese Vlakke Van Nodusse in'n Dokument](/words/cpp/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Dokument Voorwerp Model (DOM)](/words/af/cpp/aspose-words-document-object-model/)
+* [Logiese Vlakke Van Nodusse in'n Dokument](/words/af/cpp/logical-levels-of-nodes-in-a-document/)

@@ -1,4 +1,4 @@
----
+﻿---
 title: Обзор таблицы
 second_title: Aspose.Words для C++
 articleTitle: Обзор таблицы
@@ -65,5 +65,5 @@ Aspose.Words - это библиотека классов, предназнач�
 
 ## Смотрите также
 
-* [Aspose.Words Объектная модель документа (DOM)](/words/cpp/aspose-words-document-object-model/)
-* [Логические уровни узлов в документе](/words/cpp/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Объектная модель документа (DOM)](/words/ru/cpp/aspose-words-document-object-model/)
+* [Логические уровни узлов в документе](/words/ru/cpp/logical-levels-of-nodes-in-a-document/)

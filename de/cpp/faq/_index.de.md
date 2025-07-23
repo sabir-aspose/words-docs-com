@@ -1,4 +1,4 @@
----
+﻿---
 title: FAQ
 second_title: Aspose.Words für C++
 articleTitle: FAQ
@@ -12,7 +12,7 @@ timestamp: 2024-01-31-14-23-37
 
 Auf dieser Seite finden Sie Antworten auf die am häufigsten gestellten Fragen. Bitte lernen Sie die aktuelle Seite kennen – vielleicht können Sie so Ihr Problem schnell lösen.
 
-Wenn Sie die Antwort auf Ihre Frage nicht gefunden haben, können Sie im Support-Forum nachfragen. Informationen darüber, wie Sie Ihre Frage oder Ihr Problem ordnungsgemäß melden können, finden Sie im [Technischer Support](/words/cpp/technical-support/) Seite.
+Wenn Sie die Antwort auf Ihre Frage nicht gefunden haben, können Sie im Support-Forum nachfragen. Informationen darüber, wie Sie Ihre Frage oder Ihr Problem ordnungsgemäß melden können, finden Sie im [Technischer Support](/words/de/cpp/technical-support/) Seite.
 
 {{% alert color="primary" %}}
 
@@ -32,7 +32,7 @@ Details finden Sie in unserer Dokumentation.
 
 **F: Was bedeutet "Aspose.Words erfordert keine Anwendungen von Drittanbietern"?**
 
-Aspose.Words für C++ es müssen keine Anwendungen von Drittanbietern oder zusätzliche Softwarepakete installiert werden, um zu funktionieren. Laden Sie einfach Aspose.Words herunter und installieren Sie es wie in der ["Installation"](/words/cpp/installation/) artikel und loslegen.
+Aspose.Words für C++ es müssen keine Anwendungen von Drittanbietern oder zusätzliche Softwarepakete installiert werden, um zu funktionieren. Laden Sie einfach Aspose.Words herunter und installieren Sie es wie in der ["Installation"](/words/de/cpp/installation/) artikel und loslegen.
 
 ------
 
@@ -40,7 +40,7 @@ Aspose.Words für C++ es müssen keine Anwendungen von Drittanbietern oder zusä
 
 Aspose.Words für C++ deckt die meisten gängigen Entwicklungsumgebungen und Bereitstellungsplattformen ab. Mit API können Anwendungen für eine Vielzahl von Betriebssystemen wie Windows, Linux und Mac OS sowie für verschiedene Plattformen entwickelt werden.
 
-Einzelheiten finden Sie in der [Produktübersicht](/words/cpp/product-overview/) Seite.
+Einzelheiten finden Sie in der [Produktübersicht](/words/de/cpp/product-overview/) Seite.
 
 ------
 
@@ -48,7 +48,7 @@ Einzelheiten finden Sie in der [Produktübersicht](/words/cpp/product-overview/)
 
 Aspose.Words für C++ unterstützt die meisten gängigen Dokumentenformate wie DOC, DOCX, HTML, Markdown, PDF, XML, und andere.
 
-Die vollständige Liste der unterstützten Formate finden Sie auf der [Unterstützte Dokumentenformate](/words/cpp/supported-document-formats/) Seite.
+Die vollständige Liste der unterstützten Formate finden Sie auf der [Unterstützte Dokumentenformate](/words/de/cpp/supported-document-formats/) Seite.
 
 ------
 
@@ -56,7 +56,7 @@ Die vollständige Liste der unterstützten Formate finden Sie auf der [Unterstü
 
 Sie können dies auf zwei Arten tun – mit der Testversion oder einer temporären 30-Tage-Lizenz. Die Testversion ist die gleiche wie die gekaufte, sie bietet die volle Produktfunktionalität, fügt jedoch beim Laden und Speichern oben im Dokument ein bewertendes Wasserzeichen hinzu und begrenzt die maximale Dokumentgröße auf einige hundert Absätze. Mit einer temporären Lizenz können Sie Aspose.Words 30 Tage lang ohne Testbeschränkungen testen.
 
-Sehen Sie die [Lizenzierung und Abonnement](/words/cpp/licensing/) seite für weitere Informationen.
+Sehen Sie die [Lizenzierung und Abonnement](/words/de/cpp/licensing/) seite für weitere Informationen.
 
 {{% alert color="primary" %}}
 
@@ -70,31 +70,31 @@ Sie können auch einige der beliebtesten Aspose.Words Funktionen über die [Aspo
 
 Um eine Aspose.Words-Lizenz zu kaufen, müssen Sie zum gehen [Kauf](https://purchase.aspose.com/buy) seite, wählen Sie das Produkt "Aspose.Words" und den Lizenztyp aus, der zu Ihnen passt. Legen Sie dann die Lizenz in Ihren Warenkorb und folgen Sie den Anweisungen im Warenkorb.
 
-Beantragen Sie nach dem Kauf die Lizenz wie in der beschrieben [Gekaufte Lizenz](/words/cpp/licensing/#purchased-license) Abschnitt.
+Beantragen Sie nach dem Kauf die Lizenz wie in der beschrieben [Gekaufte Lizenz](/words/de/cpp/licensing/) Abschnitt.
 
-Einzelheiten zur Installation von Aspose.Words finden Sie auf der [Installation](/words/cpp/installation/) Seite.
+Einzelheiten zur Installation von Aspose.Words finden Sie auf der [Installation](/words/de/cpp/installation/) Seite.
 
 ------
 
 **F: Wie kann ich Unterstützung erhalten?**
 
-Nutzen Sie das kostenlose Forum für technischen Support. Einzelheiten dazu, wie Sie ein Problem ordnungsgemäß melden und was zu tun ist, bevor Sie das Forum kontaktieren, finden Sie im [Technischer Support](/words/cpp/technical-support/) Seite.
+Nutzen Sie das kostenlose Forum für technischen Support. Einzelheiten dazu, wie Sie ein Problem ordnungsgemäß melden und was zu tun ist, bevor Sie das Forum kontaktieren, finden Sie im [Technischer Support](/words/de/cpp/technical-support/) Seite.
 
 ## Rendern eines Dokuments
 
 {{% alert color="primary" %}}
 
-Detailliertere Informationen zum Rendern finden Sie in der [Rendering](/words/cpp/rendering/) abschnitt Dokumentation.
+Detailliertere Informationen zum Rendern finden Sie in der [Rendering](/words/de/cpp/rendering/) abschnitt Dokumentation.
 
 {{% /alert %}}
 
 **F: Warum unterscheiden sich Layout und Schriftarten im Ausgabedokument vom Original?**
 
-Die Schriftart ist möglicherweise nicht verfügbar oder das Schriftformat wird von Microsoft Word, aber nicht von Aspose.Words unterstützt. Aspose.Words wird ausgeführt [schriftartenersetzung](/words/cpp/manipulate-and-substitute-truetype-fonts/).
+Die Schriftart ist möglicherweise nicht verfügbar oder das Schriftformat wird von Microsoft Word, aber nicht von Aspose.Words unterstützt. Aspose.Words wird ausgeführt [schriftartenersetzung](/words/de/cpp/manipulate-and-substitute-truetype-fonts/).
 
 Um zu überprüfen, ob die Schriftart fehlt:
 
-- Verwenden Sie in Aspose.Words die Warnungen zum Ersetzen von Schriftarten (Einzelheiten finden Sie im Abschnitt "Erkennen, dass die Schriftart ersetzt wurde" des [TrueType -Schriftarten bearbeiten und ersetzen](/words/cpp/manipulate-and-substitute-truetype-fonts/) Beitrag).
+- Verwenden Sie in Aspose.Words die Warnungen zum Ersetzen von Schriftarten (Einzelheiten finden Sie im Abschnitt "Erkennen, dass die Schriftart ersetzt wurde" des [TrueType -Schriftarten bearbeiten und ersetzen](/words/de/cpp/manipulate-and-substitute-truetype-fonts/) Beitrag).
 - Öffnen Sie in Microsoft Word das Dialogfeld "Schriftartenersetzung" (Datei → Optionen → Erweitert → Schriftartenersetzung).
 
 ------
@@ -121,7 +121,7 @@ Ja, das tust du. Beachten Sie daher beim Kopieren von Schriftarten, dass die mei
 
 {{% alert color="primary" %}}
 
-Nähere Informationen zur Programmierung mit Dokumenten finden Sie in der [Programmieren mit Dokumenten](/words/cpp/programming-with-documents/) abschnitt Dokumentation.
+Nähere Informationen zur Programmierung mit Dokumenten finden Sie in der [Programmieren mit Dokumenten](/words/de/cpp/programming-with-documents/) abschnitt Dokumentation.
 
 {{% /alert %}}
 
@@ -133,7 +133,7 @@ Das Anhängeergebnis wird auf einer separaten Seite angezeigt, da die [PageSetup
 
 {{% alert color="primary" %}}
 
-Detailliertere Informationen zum Konvertieren eines Dokuments finden Sie in der [Ein Dokument konvertieren](/words/cpp/convert-a-document/) abschnitt Dokumentation.
+Detailliertere Informationen zum Konvertieren eines Dokuments finden Sie in der [Ein Dokument konvertieren](/words/de/cpp/convert-a-document/) abschnitt Dokumentation.
 
 {{% /alert %}}
 
@@ -156,7 +156,7 @@ doc->Save(outputPath);
 
 {{% alert color="primary" %}}
 
-Nähere Informationen zur Programmierung mit Dokumenten finden Sie in der [Programmieren mit Dokumenten](/words/cpp/programming-with-documents/) abschnitt Dokumentation.
+Nähere Informationen zur Programmierung mit Dokumenten finden Sie in der [Programmieren mit Dokumenten](/words/de/cpp/programming-with-documents/) abschnitt Dokumentation.
 
 {{% /alert %}}
 

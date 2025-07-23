@@ -1,4 +1,4 @@
----
+﻿---
 title: So sánh tài liệu trong Java
 second_title: Aspose.Words cho Java
 articleTitle: So sánh tài liệu
@@ -36,7 +36,7 @@ Hạn chế chung cho hai tài liệu được so sánh là chúng không thể 
 
 {{% alert color="primary" %}}
 
-Lưu ý là bạn có thể so sánh bất kỳ hai tài liệu nào trong [supported file formats](/words/java/supported-document-formats/). Về cơ bản, bạn có thể so sánh các đối tượng tài liệu và thậm chí tạo ra những đối tượng đó từ đầu mà không cần định dạng cụ thể nào.
+Lưu ý là bạn có thể so sánh bất kỳ hai tài liệu nào trong [supported file formats](/words/vi/java/supported-document-formats/). Về cơ bản, bạn có thể so sánh các đối tượng tài liệu và thậm chí tạo ra những đối tượng đó từ đầu mà không cần định dạng cụ thể nào.
 
 {{% /alert %}}
 

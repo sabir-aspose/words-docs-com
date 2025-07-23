@@ -47,7 +47,7 @@ Beachten Sie, dass Sie mit derselben Technik jedes Dokument im Flow-Layout-Forma
 
 ### Konvertieren Sie in verschiedene PDF-Standards {#convert-to-various-pdf-standards}
 
-Aspose.Words stellt die [PdfCompliace](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/)-Enumeration zur Unterstützung der Konvertierung von DOC oder DOCX in verschiedene PDF-Formatstandards (z. B. PDF 1.7, PDF 1.5 usw.) bereit.
+Aspose.Words stellt die [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/)-Enumeration zur Unterstützung der Konvertierung von DOC oder DOCX in verschiedene PDF-Formatstandards (z. B. PDF 1.7, PDF 1.5 usw.) bereit.
 
 Das folgende Codebeispiel zeigt, wie ein Dokument mithilfe von [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) und [PDF17](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf17)-Konformität in PDF 1.7 konvertiert wird:
 
@@ -90,5 +90,5 @@ Die Verwendung der **OptimizeOutput**-Eigenschaft kann sich auf die Genauigkeit 
 ## Siehe auch
 
 – Der Artikel [Rendern](/words/de/python-net/rendering/) für weitere Informationen zu den Formaten mit fester Seite und Flow-Layout
-- Der Artikel [Konvertieren in das Fixed-Page-Format](/words/python-net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) für weitere Informationen zum Seitenlayout
+- Der Artikel [Konvertieren in das Fixed-Page-Format](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) für weitere Informationen zum Seitenlayout
 – Der Artikel [Geben Sie beim Konvertieren in PDF Rendering-Optionen an](/words/de/python-net/specify-rendering-options-when-converting-to-pdf/) für weitere Informationen zur Verwendung der [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/)-Klasse

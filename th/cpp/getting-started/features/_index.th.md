@@ -1,4 +1,4 @@
----
+﻿---
 title: งคุณ
 second_title: Aspose.WordsสำหรับC++
 articleTitle: คุณสมบัติที่รองรับ
@@ -37,7 +37,7 @@ Aspose.Wordsให้ผู้ใช้ที่มีความหลาก�
 
 ## ข้อจำกัด
 
-- รองรับชุดรูปแบบไฟล์ที่จำกัด(*see [Supported Document Formats](/words/cpp/supported-document-formats/) for details*)
+- รองรับชุดรูปแบบไฟล์ที่จำกัด(*see [Supported Document Formats](/words/th/cpp/supported-document-formats/) for details*)
 - ไม่มีการสนับสนุนเอกสารที่เข้ารหัส
 - ไม่มีการสนับสนุนสำหรับการดาวน์โหลดทรัพยากรระยะไกลจากอินเทอร์เน็ต
 - การสนับสนุนที่จำกัดและไม่เสถียรสำหรับคุณลักษณะการแสดงผล

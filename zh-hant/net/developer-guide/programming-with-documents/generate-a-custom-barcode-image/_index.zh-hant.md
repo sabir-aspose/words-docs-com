@@ -1,4 +1,4 @@
----
+﻿---
 title: 如何創建條形碼
 second_title: Aspose.Words for .NET
 articleTitle: 生成自訂條碼圖像
@@ -55,7 +55,7 @@ Aspose.Words 具有生成自訂條碼的介面，使其易於使用 [Aspose.Word
 
 {{% alert color="primary" %}}
 
-有關將文件從一種格式轉換為另一種格式的詳細資訊，請參閱 [Convert a Document](/words/net/convert-a-document/) 文檔專區。
+有關將文件從一種格式轉換為另一種格式的詳細資訊，請參閱 [Convert a Document](/words/zh-hant/net/convert-a-document/) 文檔專區。
 
 {{% /alert %}}
 

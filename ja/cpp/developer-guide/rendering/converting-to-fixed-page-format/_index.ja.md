@@ -1,4 +1,4 @@
----
+﻿---
 title: C++での固定ページ形式への変換
 second_title: C++の場合Aspose.Words
 articleTitle: 固定ページ形式への変換
@@ -28,7 +28,7 @@ Microsoft Wordは、今日のWindowsの中で最も高度なテキスト編集�
 
 ## また見て下さい
 
-* [ページレイアウトとは何ですか](/words/cpp/what-is-a-page-layout/)
-* [ページレイアウトの作成](/words/cpp/creating-a-page-layout/)
-* [文書を固定ページ形式で保存する](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [レイアウトオプションの指定](/words/cpp/specify-layout-options/)
+* [ページレイアウトとは何ですか](/words/ja/cpp/what-is-a-page-layout/)
+* [ページレイアウトの作成](/words/ja/cpp/creating-a-page-layout/)
+* [文書を固定ページ形式で保存する](/words/ja/cpp/saving-a-document-to-fixed-page-format/)
+* [レイアウトオプションの指定](/words/ja/cpp/specify-layout-options/)

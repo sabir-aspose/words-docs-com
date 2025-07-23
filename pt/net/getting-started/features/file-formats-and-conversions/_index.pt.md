@@ -1,4 +1,4 @@
----
+﻿---
 title: Formatos de arquivo e conversões
 second_title: Aspose.Words para .NET
 articleTitle: Formatos de arquivo e conversões
@@ -29,7 +29,7 @@ O exemplo de código a seguir mostra como converter um documento:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "docx-to-pdf.cs" >}}
 
-Para obter mais detalhes sobre como carregar, converter e salvar documentos, consulte a seção [Carregando, salvando e convertendo](/words/cpp/loading-saving-and-converting/).
+Para obter mais detalhes sobre como carregar, converter e salvar documentos, consulte a seção [Carregando, salvando e convertendo](/words/pt/cpp/loading-saving-and-converting/).
 
 ## Alta fidelidade
 
