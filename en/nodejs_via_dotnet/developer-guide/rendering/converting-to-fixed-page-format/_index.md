@@ -86,25 +86,4 @@ After the page layout is built and the geometry of objects and their position on
 
 The example below demonstrates how to save a document to JPEG format using the [save](https://reference.aspose.com/words/nodejs-net/aspose.words/document/save/) method and rendering options:
 
-{{< highlight python>}}
-# Open the document
-doc = aw.Document(docs_base.my_dir + "Rendering.docx")
-# Save as a JPEG image file with default options
-doc.save(docs_base.artifacts_dir + "Rendering.JpegDefaultOptions.jpg")
-
-# Save document to stream as a JPEG with default options
-docStream = io.BytesIO()
-doc.save(docStream, aw.SaveFormat.JPEG)
-# Rewind the stream position back to the beginning, ready for use
-docStream.seek(0)
-
-# Save document to a JPEG image with specified options.
-# Render the third page only and set the JPEG quality to 80%
-# In this case we need to pass the desired SaveFormat to the ImageSaveOptions constructor 
-# to signal what type of image to save as.
-imageOptions = aw.saving.ImageSaveOptions(aw.SaveFormat.JPEG)
-imageOptions.page_index = 2
-imageOptions.page_count = 1
-imageOptions.jpeg_quality = 80
-doc.save(docs_base.artifacts_dir + "Rendering.JpegCustomOptions.jpg", imageOptions)
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "05b9bb6f4d96094b4408287596e99a20" "get-jpeg-page-range.js" >}}

@@ -9,11 +9,7 @@ weight: 20
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/translate-markdown-to-document-object-model/
-<<<<<<< HEAD
-timestamp: 2024-10-21-11-17-44
-=======
 timestamp: 2025-07-09-10-05-05
->>>>>>> cfefc02aec614f7a59d872a03008865b064994d7
 ---
 
 To programmatically read, manipulate, and modify the content and formatting of a document, you need to translate it to the Aspose.Words Document Object Model (DOM).

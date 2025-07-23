@@ -45,7 +45,7 @@ You can also have revisions displayed as comments to the content. For this purpo
 
 The following code example shows how to customize revisions display:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_revisions-ShowRevisionsInBalloons.py" >}}
+{{< gist "aspose-words-gists" "829442fe4196eb8eb1ec945902f2f8ae" "show-revisions-in-balloons.js" >}}
 
 The image below shows how Aspose.Words renders comments and the Delete revisions:
 

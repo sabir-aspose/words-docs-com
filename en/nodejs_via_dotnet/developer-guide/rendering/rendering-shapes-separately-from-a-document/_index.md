@@ -53,39 +53,11 @@ The shape can be exported in any image format specified in the [SaveFormat](htt
 
 The code example below illustrates rendering a shape to an EMF image separately from document, and saving to disk:
 
-{{< highlight python>}}
-r = shape.get_shape_renderer()
-
-# Define custom options which control how the image is rendered. Render the shape to the JPEG raster format.
-imageOptions = aw.saving.ImageSaveOptions(aw.SaveFormat.EMF)
-imageOptions.scale = 1.5
-        
-# Save the rendered image to disk.
-r.save(docs_base.artifacts_dir + "TestFile.RenderToDisk_out.emf", imageOptions)
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "e9a02a29ae68be63f1fdfa266a642ea1" "render-shape-as-emf.js" >}}
 
 The code example below illustrates rendering a shape to a JPEG image separately from document, and saving to a stream:
 
-{{< highlight python>}}
-r = shape.get_shape_renderer()
-
-# Define custom options which control how the image is rendered. Render the shape to the vector format EMF.
-imageOptions = aw.saving.ImageSaveOptions(aw.SaveFormat.JPEG)
-        
-# Output the image in gray scale
-imageOptions.image_color_mode = aw.saving.ImageColorMode.GRAYSCALE
-
-# Reduce the brightness a bit (default is 0.5f).
-imageOptions.image_brightness = 0.45
-        
-stream =  io.FileIO(docs_base.artifacts_dir + "TestFile.RenderToStream_out.jpg", "w+b")
-
-# Save the rendered image to the stream using different options.
-r.save(stream, imageOptions)
-
-# Close the stream
-stream.close()
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "e9a02a29ae68be63f1fdfa266a642ea1" "render-shape-as-jpeg.js" >}}
 
 The [ImageSaveOptions](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/imagesaveoptions/) class allows you to specify a variety of options that control how the image is rendered. The functionality described above can be applied in the same manner to the [GroupShape](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/groupshape/) and [Shape](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/) nodes.
 
@@ -95,13 +67,10 @@ The [Shape](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/s
 
 The following example shows how to render a Shape image to a JPEG image separately from the document and save it to the disk:
 
-{{< highlight python>}}
-# Save the rendered image to disk.
-shape.get_shape_renderer().save(docs_base.artifacts_dir + "TestFile.RenderShapeImage.jpeg", None)
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "e9a02a29ae68be63f1fdfa266a642ea1" "render-shape-image.js" >}}
 
 ## Retrieving a Shape Size
 
 The [ShapeRenderer](https://reference.aspose.com/words/nodejs-net/aspose.words.rendering/shaperenderer/) class also provides functionality to retrieve the size of the shape in pixels through the **getSizeInPixels** method. This method accepts two float (Single) parameters – the scale and DPI, which are used in calculation of the shape size when the shape is rendered. The method returns the **Size** object, which contains the width and height of the calculated size. This is useful when it is required to know the size of the rendered shape in advance. The [sizeInPoints2](hhttps://reference.aspose.com/words/nodejs-net/aspose.words.rendering/noderendererbase/sizeInPoints2/) property returns the Shape size measured in points. The result is a **SizeF** object containing the width and height. Also you can use [boundsInPoints2](https://reference.aspose.com/words/nodejs-net/aspose.words.rendering/noderendererbase/boundsInPoints2/) property to get actual bounds of the shape.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_shapes-GetActualShapeBoundsPoints.py" >}}
+{{< gist "aspose-words-gists" "3a90c8783e87c53371d103d9350f1d31" "get-actual-shape-bounds-points.js" >}}

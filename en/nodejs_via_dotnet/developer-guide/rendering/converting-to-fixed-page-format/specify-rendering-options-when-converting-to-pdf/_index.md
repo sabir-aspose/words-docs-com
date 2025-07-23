@@ -36,7 +36,7 @@ Note that in contrast to Microsoft Word, the PDF format has a limited number of 
 
 The code example below shows how to save a document as PDF with fillable forms with specified Jpeg compression and quality:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_pdf_save_options-PdfImageComppression.py" >}}
+{{< gist "aspose-words-gists" "d569206cfa68ce09d8f6c6e3de44c13e" "image-compression.js" >}}
 
 ## Exporting Document Structure and Custom Properties
 
@@ -46,11 +46,11 @@ PDF logical structure facilities provide a mechanism for incorporating informati
 
 The following example demonstrates how to save a document to PDF format, preserving the document structure:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_pdf_save_options-ExportDocumentStructure.py" >}}
+{{< gist "aspose-words-gists" "d569206cfa68ce09d8f6c6e3de44c13e" "export-document-structure.js" >}}
 
 Aspose.Words also allows you to export document custom properties to PDF, which is demonstrated by the following example:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_pdf_save_options-CustomPropertiesExport.py" >}}
+{{< gist "aspose-words-gists" "d569206cfa68ce09d8f6c6e3de44c13e" "custom-properties-export.js" >}}
 
 ## Exporting Outlines from Bookmarks and Headings in Output PDF
 
@@ -58,7 +58,7 @@ If you want to export bookmarks as outlines in output PDF, you can use the [def
 
 The code example below shows how to export bookmarks from the first header/footer of a section:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_pdf_save_options-ExportHeaderFooterBookmarks.py" >}}
+{{< gist "aspose-words-gists" "d569206cfa68ce09d8f6c6e3de44c13e" "export-header-footer-bookmarks.js" >}}
 
 The output PDF of this example is shown below:
 
@@ -70,7 +70,7 @@ You can also export headings in the output PDF, using the [headingsOutlineLeve
 
 The code example below shows how to export headings with three levels:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_pdf_save_options-SetOutlineOptions.py" >}}
+{{< gist "aspose-words-gists" "d569206cfa68ce09d8f6c6e3de44c13e" "outline-options.js" >}}
 
 The output PDF of this example is depicted below:
 
@@ -90,7 +90,7 @@ Note that it is also possible to set a specific resolution in the [resolution]
 
 The code example below displays how to change the resolution of images in an output PDF document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_pdf_save_options-DownsamplingImages.py" >}}
+{{< gist "aspose-words-gists" "d569206cfa68ce09d8f6c6e3de44c13e" "downsampling-images.js" >}}
 
 Resolution is calculated according to the real image size on the page.
 
@@ -116,11 +116,11 @@ The [embedFullFonts](https://reference.aspose.com/words/nodejs-net/aspose.words
 
 The following example demonstrates how to embed full fonts in the output PDF document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_pdf_save_options-EmbeddAllFonts.py" >}}
+{{< gist "aspose-words-gists" "d569206cfa68ce09d8f6c6e3de44c13e" "embedded-all-fonts.js" >}}
 
 The following example demonstrates how to set Aspose.Words to subset fonts in the output PDF:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_pdf_save_options-EmbeddSubsetFonts.py" >}}
+{{< gist "aspose-words-gists" "d569206cfa68ce09d8f6c6e3de44c13e" "embedded-subset-fonts.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -150,7 +150,7 @@ These fonts are replaced with the corresponding core Type 1 fonts, which are pro
 
 The example provided below shows how to set Aspose.Words to avoid embedding core fonts and let the reader to substitute them with PDF Type 1 fonts:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_pdf_save_options-AvoidEmbeddingCoreFonts.py" >}}
+{{< gist "aspose-words-gists" "d569206cfa68ce09d8f6c6e3de44c13e" "avoid-embedding-core-fonts.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -172,7 +172,7 @@ This option can be enabled or disabled by using the [fontEmbeddingMode](https:/
 
 The example below shows how to set Aspose.Words to skip embedding Arial and Times New Roman fonts into a PDF document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_pdf_save_options-DisableEmbedWindowsFonts.py" >}}
+{{< gist "aspose-words-gists" "d569206cfa68ce09d8f6c6e3de44c13e" "disable-embed-windows-fonts.js" >}}
 
 This mode is most useful when you wish to view your documents on the same platform, preserving the exact appearance of fonts in the output PDF.
 

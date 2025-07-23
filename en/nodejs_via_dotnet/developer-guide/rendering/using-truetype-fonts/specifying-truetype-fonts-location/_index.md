@@ -28,7 +28,7 @@ Implementation details for some classes are explained below.
 
 There is a special [SystemFontSource](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/streamfontsource/) class that is always used by default. It represents all TrueType fonts installed on the system. Therefore, it is possible to create a source list with [SystemFontSource](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/streamfontsource/) and any other required sources:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-SetFontsFolders.py" >}}
+{{< gist "aspose-words-gists" "412100f144878625758c6f877d9ec584" "fonts-folders.js" >}}
 
 A single instance of the [SystemFontSource](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/streamfontsource/) class is defined by default in [FontSettings](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/fontsettings/). On different operating systems, fonts may be located in different places. However, using a [FontSettings](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/fontsettings/) instance for each document is not an optimal solution. In the majority of cases, using [defaultInstance](https://reference.aspose.com/words/nodejs-net/aspose.words.fonts/fontsettings/defaultInstance/) should be enough.
 
@@ -70,13 +70,13 @@ The [FontSettings.setFontsFolder](https://reference.aspose.com/words/nodejs-net
 
 The following example demonstrates how to set the folder or source, which Aspose.Words will subsequently use to look for TrueType fonts during rendering or embedding of fonts:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-SetTrueTypeFontsFolder.py" >}}
+{{< gist "aspose-words-gists" "412100f144878625758c6f877d9ec584" "true-type-fonts-folder.js" >}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Rendering.docx).
 
 An extra Boolean parameter controls whether fonts are scanned recursively through all folders, hence scanning all child folders of a specified folder. The following example demonstrates how to set Aspose.Words to look in multiple folders for TrueType fonts when rendering or embedding fonts:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-SetFontsFoldersMultipleFolders.py" >}}
+{{< gist "aspose-words-gists" "412100f144878625758c6f877d9ec584" "multiple-folders.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -88,13 +88,13 @@ Note the priorities. If there are fonts with the same family name and style in 
 
 If you don’t want to use system fonts at all, Aspose.Words allows you to ignore them and use your own fonts only:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-SetFontsFoldersDefaultInstance.py" >}}
+{{< gist "aspose-words-gists" "412100f144878625758c6f877d9ec584" "default-instance.js" >}}
 
 ### Priority Property
 
 The **priority** property is used when there are fonts with the same family name and style in different font sources. In this case Aspose.Words selects the font from the source with the higher priority value. For example, there is an old version of the font on the system folder and customer added a new version of the same font in a custom folder.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-SetFontsFoldersWithPriority.py" >}}
+{{< gist "aspose-words-gists" "412100f144878625758c6f877d9ec584" "fonts-folders-with-priority.js" >}}
 
 ## Getting a List of Available Fonts
 
