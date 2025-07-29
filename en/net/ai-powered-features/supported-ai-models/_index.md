@@ -32,7 +32,7 @@ The full list of supported model types is listed in the [AiModelType](https://re
 
 You can create a model instance using the [Create](https://reference.aspose.com/words/net/aspose.words.ai/aimodel/create/) method of the [AiModel](https://reference.aspose.com/words/net/aspose.words.ai/aimodel/) class. 
 
-The following code example shows how to create a new instance of **AiModel** class.
+The following code example shows how to create a new instance of **AiModel** class:
 
 {{< highlight csharp >}}
 public static AiModel Create(AiModelType modelType)
