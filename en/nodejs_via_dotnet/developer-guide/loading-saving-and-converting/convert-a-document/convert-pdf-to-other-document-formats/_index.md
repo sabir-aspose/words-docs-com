@@ -7,6 +7,8 @@ type: docs
 description: "Convert PDF to Word formats such as DOCX, DOC, image formats such as JPG or PNG, or any other formats supported by Aspose using `Node.js`."
 keywords: convert pdf to other formats Node.js
 weight: 45
+ai_search_scope: words_nodejs
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/convert-pdf-to-other-document-formats/
 aliases: [/nodejs/convert-pdf-to-other-document-formats/]
 timestamp: 2025-04-21-14-07-04

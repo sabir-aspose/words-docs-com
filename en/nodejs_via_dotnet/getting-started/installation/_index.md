@@ -6,6 +6,8 @@ linktitle: Installation
 description: "Install Aspose.Words for Node.js using npm."
 type: docs
 weight: 10
+ai_search_scope: words_nodejs
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/installation/
 aliases: [/nodejs/installation/]
 timestamp: 2025-04-18-01-01-01

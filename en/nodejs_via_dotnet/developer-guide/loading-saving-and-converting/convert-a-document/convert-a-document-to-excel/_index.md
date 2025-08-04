@@ -6,6 +6,8 @@ linktitle: Convert a Document to Excel
 description: "Convert PDF to Excel, XML to Excel, DOCX to Excel Node.js. Save a document in various formats to XLSX using Node.js."
 type: docs
 weight: 15
+ai_search_scope: words_nodejs
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/convert-a-document-to-excel/
 timestamp: 2025-04-21-14-23-37
 ---

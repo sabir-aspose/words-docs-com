@@ -4,6 +4,8 @@ second_title: Aspose.Words for Node.js via .NET
 articleTitle: Create or Load a Document
 linktitle: Create or Load a Document
 type: docs
+ai_search_scope: words_nodejs
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/create-or-load-a-document/
 aliases:
  - /nodejs/creating-or-loading-a-document/

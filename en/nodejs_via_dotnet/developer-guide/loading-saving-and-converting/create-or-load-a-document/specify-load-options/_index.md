@@ -6,6 +6,8 @@ linktitle: Specify Load Options
 description: "More accurately control the load process using Node.js."
 type: docs
 weight: 10
+ai_search_scope: words_nodejs
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/specify-load-options/
 aliases: [/nodejs/specify-load-options/]
 timestamp: 2025-01-21-14-07-04

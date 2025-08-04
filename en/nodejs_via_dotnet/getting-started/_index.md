@@ -6,6 +6,8 @@ linktitle: Getting Started
 type: docs
 description: "Use this introduction to Aspose.Words for Node.js via .NET fundamentals to start realizing the value of Aspose.Words for your business."
 weight: 20
+ai_search_scope: words_nodejs
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/getting-started/
 aliases: [/nodejs/getting-started/]
 timestamp: 2025-04-15-11-08-55

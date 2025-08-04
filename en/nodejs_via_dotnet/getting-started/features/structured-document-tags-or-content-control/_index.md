@@ -6,6 +6,8 @@ linktitle: Structured Document Tags or Content Control
 description: "Embed customer-defined semantics as well as its behavior and appearance into a document using Structured document tags (SDT or content control) in Node.js."
 type: docs
 weight: 50
+ai_search_scope: words_nodejs
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/structured-document-tags-or-content-control/
 aliases: [/nodejs/structured-document-tags-or-content-control/]
 timestamp: 2025-04-18-14-23-37

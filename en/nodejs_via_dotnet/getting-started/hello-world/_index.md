@@ -6,6 +6,8 @@ linktitle: Hello World
 description: "Create, edit and save your first document in any supported format using Aspose.Words for Node.js via .NET to experience its simplicity and power in Node.js."
 type: docs
 weight: 20
+ai_search_scope: words_nodejs
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/hello-world/
 timestamp: 2025-04-18-14-07-04
 ---

@@ -6,6 +6,8 @@ linktitle: Node.js and .NET Version Differences
 description: "Aspose.Words for Node.js via .NET is a native Node.js module based on Aspose.Words for .NET with [Node-API](https://nodejs.org/api/n-api.html). This page describes the differences in features and API of these two products."
 type: docs
 weight: 15
+ai_search_scope: words_nodejs
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/nodejs-notes/
 aliases: [/nodejs/nodejs-notes/]
 timestamp: 2025-04-17-14-07-04

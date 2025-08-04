@@ -6,6 +6,8 @@ linktitle: Supported Document Formats
 type: docs
 description: "Edit source documents in many popular formats, as well as freely convert files from one format to another using Node.js."
 weight: 20
+ai_search_scope: words_nodejs
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/supported-document-formats/
 aliases: [/nodejs/supported-document-formats/]
 timestamp: 2025-04-18-11-17-44

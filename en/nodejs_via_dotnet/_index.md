@@ -5,6 +5,8 @@ linktitle: Aspose.Words for Node.js via .NET
 description: "Aspose.Words for Node.js via .NET is a class library that enables your applications to perform a great range of document processing tasks – generate, modify, convert and render documents."
 type: docs
 weight: 40
+ai_search_scope: words_nodejs
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/
 is_root: true
 timestamp: 2025-04-15-11-08-55

@@ -6,6 +6,8 @@ linktitle: Supported Features on Document Save
 description: "Save your document to any supported format using Node.js. Convert and export a document of any size."
 type: docs
 weight: 30
+ai_search_scope: words_nodejs
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/supported-features-on-document-save/
 aliases: 
   - /nodejs/document-saving-overview/

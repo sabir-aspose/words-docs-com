@@ -6,6 +6,8 @@ linktitle: Convert a Document to PDF
 description: "Convert a document to PDF using Node.js. Various input formats are supported, including Word, OpenOffice, Image and eBook formats."
 type: docs
 weight: 10
+ai_search_scope: words_nodejs
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/convert-a-document-to-pdf/
 aliases: [/nodejs/convert-a-document-to-pdf/]
 timestamp: 2025-04-21-14-23-37
