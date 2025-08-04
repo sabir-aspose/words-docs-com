@@ -8,6 +8,8 @@ type: docs
 description: "Save a document in any supported format using Node.js."
 keywords: "save a document Node.js, save a document to file Node.js, save a document to stream Node.js, save a document Aspose, save formats supported by Aspose.Words"
 weight: 20
+ai_search_scope: words_nodejs
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/save-a-document/
 aliases: [/nodejs/save-a-document/]
 timestamp: 2025-04-21-14-07-04

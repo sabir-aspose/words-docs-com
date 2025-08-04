@@ -8,6 +8,8 @@ type: docs
 weight: 10
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_scope: words_nodejs
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/manipulating-and-substitution-truetype-fonts/
 timestamp: 2025-07-09-10-05-05
 ---
