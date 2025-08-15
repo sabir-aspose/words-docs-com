@@ -9,12 +9,12 @@ weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-07-16-11-12-25
+timestamp: 2025-08-15-11-12-25
 ---
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Python via .NET 25.5, 25.6, 25.7
+## Aspose.Words for Python via .NET 25.5, 25.6, 25.7, 25.8
 
 Aspose.Words 25.5 enhances chart customization with new styling options and improves Markdown export by offering control over how empty paragraphs are handled.
 
@@ -22,15 +22,25 @@ Aspose.Words 25.6 enhances rendering precision and visualization features by int
 
 Aspose.Words 25.7 introduces flexible table row visibility and richer typography with OpenType Font Variations.
 
+Aspose.Words 25.8 expands capabilities for Markdown import/export, enhances Find and Replace with an option to ignore Office Math objects, and provides greater control over page extraction.
+
 ### Converting, Loading, and Saving Documents
 
 #### Export Empty Paragraphs to Markdown <sup>25.5</sup>
 
-The ability to control how empty paragraphs are exported to Markdown has been introduced by adding the **MarkdownEmptyParagraphExportMode** enumeration and the **empty_paragraph_export_mode** property.
+The ability to control how empty paragraphs are exported to Markdown has been introduced by adding the [MarkdownEmptyParagraphExportMode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownemptyparagraphexportmode/) enumeration and the **empty_paragraph_export_mode** property.
 
 #### Export Multi-page Documents to Raster Image Formats <sup>25.6</sup>
 
 The ability to export multi-page documents to raster image formats (such as PNG and JPEG) with [customizable layouts](https://reference.aspose.com/words/python-net/aspose.words.saving/multipagelayout/) – Horizontal, Vertical, or Grid – has been introduced by extending image export functionality.
+
+#### Export Non-compatible Tables to Raw HTML <sup>25.8</sup>
+
+The ability to control how non-compatible tables are rendered when exporting to raw HTML has been introduced by adding the new [MarkdownExportAsHtml](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownexportashtml/) enumeration.
+
+#### Specify Character for Soft Line Breaks When Importing to Markdown <sup>25.8</sup>
+
+The ability to specify a character for soft line breaks when importing to Markdown has been introduced by adding the new **sof_line_break_character** property.
 
 ### Rendering
 
@@ -54,6 +64,8 @@ Initial support for OpenType Font Variations has been implemented, allowing for 
 
 * The ability to wrap mathematical formulas containing multiple slashes has been enhanced, improving layout clarity and formula legibility. <sup>25.6</sup>
 * The ability to programmatically show or hide specific table rows has been introduced by adding the **Row.Hidden** property. <sup>25.7</sup>
+* A new **ignore_office_math** property has been added to ignore Office Math objects when searching and replacing. <sup>25.8</sup>
+* New options have been added to the [PageExtractOptions](https://reference.aspose.com/words/python-net/aspose.words/pageextractoptions/) class to provide more control over the page extraction process. <sup>25.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -62,6 +74,8 @@ Learn more about [Aspose.Words for Python via .NET 25.5 Release Notes](https://r
 Learn more about [Aspose.Words for Python via .NET 25.6 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-6-release-notes/).
 
 Learn more about [Aspose.Words for Python via .NET 25.7 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-7-release-notes/).
+
+Learn more about [Aspose.Words for Python via .NET 25.8 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-8-release-notes/).
 
 {{% /alert %}}
 
