@@ -36,13 +36,13 @@ Since we are dealing with contents in a folder, the first thing we need to do is
 
 The following code example shows how to get a list of all the files in the folder:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-CheckFormatCompatibility-GetListOfFilesInFolder.java" >}}
+{{< gist "aspose-words-gists" "7fe3fc4004f081628a63608db70332b3" "get-files.cs" >}}
 
 When all the files are collected, the rest of the work is done by the **DetectFileFormat** method, which checks the file format.
 
 The following code example shows how to iterate over the collected list of files, check the format of each file, and moves each file to the appropriate folder:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-CheckFormatCompatibility-CheckFormatCompatibility.java" >}}
+{{< gist "aspose-words-gists" "7fe3fc4004f081628a63608db70332b3" "check-format-compatibility.cs" >}}
 
 The files are moved into appropriate subfolders using the `Move` method of the `File` class, from the same `System.IO` namespace.
 

@@ -25,7 +25,7 @@ To convert a document to Markdown, you just need to load a document in any suppo
 
 The following code example shows how to convert DOCX to Markdown:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SaveAsMD.java" >}}
+{{< gist "aspose-words-gists" "51b4cb9c451832f23527892e19c7bca6" "docx-to-markdown.cs" >}}
 
 
 ## Specify Save Options when Converting to Markdown
@@ -51,7 +51,7 @@ Aspose.Words currently supports the following Markdown features, which mostly fo
 
 The following example shows how to create a document with some styles and save it to Markdown:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SupportedMarkdownFeatures.java" >}}
+{{< gist "aspose-words-gists" "51b4cb9c451832f23527892e19c7bca6" "supported-features.cs" >}}
 
 The result of this code example is shown below.
 

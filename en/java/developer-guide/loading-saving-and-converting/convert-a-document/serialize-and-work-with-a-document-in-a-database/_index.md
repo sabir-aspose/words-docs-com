@@ -37,7 +37,7 @@ The selected save format is important to ensure the highest fidelity is retained
 
 The example below shows how to serialize a **Document** object to obtain a byte array, and then how to unserialize the byte array to obtain a **Document** object again:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToByte-ConvertDocumentToByte.java" >}}
+{{< gist "aspose-words-gists" "f8a622f8bc1cf3c2fa8a7a9be359faa2" "docx-to-byte.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -51,7 +51,7 @@ This section shows how to save a document in a database and then load it back in
 
 The following code example shows how to set up a connection to a database and execute commands:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSaveFromDatabase-OpenDatabaseConnection.java" >}}
+{{< gist "aspose-words-gists" "f8a622f8bc1cf3c2fa8a7a9be359faa2" "open-database-connection.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -61,7 +61,7 @@ In this example, we use the MySQL database to store an Aspose.Words document.
 
 The following code example shows how to save a document to the database, then read the same document again, and finally delete the record containing the document from the database:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSaveFromDatabase-OpenRetrieveAndDelete.java" >}}
+{{< gist "aspose-words-gists" "f8a622f8bc1cf3c2fa8a7a9be359faa2" "open-retrieve-and-delete.cs" >}}
 
 ### Save a Document to a Database
 
@@ -69,7 +69,7 @@ To save a document in a database convert this document to an array of bytes, as 
 
 The following code example shows how to save a document to the specified database:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSaveFromDatabase-StoreToDatabase.java" >}}
+{{< gist "aspose-words-gists" "f8a622f8bc1cf3c2fa8a7a9be359faa2" "store-to-database.cs" >}}
 
 Specify commandString, which is an SQL expression that does all the work:
 
@@ -82,7 +82,7 @@ To retrieve a document from the database, select the record that contains the do
 
 The following code example shows how to retrieve and return a document from the specified database using the filename as a key to fetch this document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSaveFromDatabase-ReadFromDatabase.java" >}}
+{{< gist "aspose-words-gists" "f8a622f8bc1cf3c2fa8a7a9be359faa2" "read-from-database.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -96,4 +96,4 @@ To delete a document from the database, use the appropriate SQL command without 
 
 The following code example shows how to delete a document from the database, using the file name to fetch the record:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSaveFromDatabase-DeleteFromDatabase.java" >}}
+{{< gist "aspose-words-gists" "f8a622f8bc1cf3c2fa8a7a9be359faa2" "delete-from-database.cs" >}}
