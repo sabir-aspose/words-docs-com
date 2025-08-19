@@ -37,7 +37,7 @@ The selected save format is important to ensure the highest fidelity is retained
 
 The example below shows how to serialize a **Document** object to obtain a byte array, and then how to unserialize the byte array to obtain a **Document** object again:
 
-{{< gist "aspose-words-gists" "f8a622f8bc1cf3c2fa8a7a9be359faa2" "docx-to-byte.cs" >}}
+{{< gist "aspose-words-gists" "86d59d944009f305e7e24b3e276cd17d" "docx-to-byte.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -51,7 +51,7 @@ This section shows how to save a document in a database and then load it back in
 
 The following code example shows how to set up a connection to a database and execute commands:
 
-{{< gist "aspose-words-gists" "f8a622f8bc1cf3c2fa8a7a9be359faa2" "open-database-connection.cs" >}}
+{{< gist "aspose-words-gists" "86d59d944009f305e7e24b3e276cd17d" "open-database-connection.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -61,7 +61,7 @@ In this example, we use the MySQL database to store an Aspose.Words document.
 
 The following code example shows how to save a document to the database, then read the same document again, and finally delete the record containing the document from the database:
 
-{{< gist "aspose-words-gists" "f8a622f8bc1cf3c2fa8a7a9be359faa2" "open-retrieve-and-delete.cs" >}}
+{{< gist "aspose-words-gists" "86d59d944009f305e7e24b3e276cd17d" "open-retrieve-and-delete.java" >}}
 
 ### Save a Document to a Database
 
@@ -69,7 +69,7 @@ To save a document in a database convert this document to an array of bytes, as 
 
 The following code example shows how to save a document to the specified database:
 
-{{< gist "aspose-words-gists" "f8a622f8bc1cf3c2fa8a7a9be359faa2" "store-to-database.cs" >}}
+{{< gist "aspose-words-gists" "86d59d944009f305e7e24b3e276cd17d" "store-to-database.java" >}}
 
 Specify commandString, which is an SQL expression that does all the work:
 
@@ -82,7 +82,7 @@ To retrieve a document from the database, select the record that contains the do
 
 The following code example shows how to retrieve and return a document from the specified database using the filename as a key to fetch this document:
 
-{{< gist "aspose-words-gists" "f8a622f8bc1cf3c2fa8a7a9be359faa2" "read-from-database.cs" >}}
+{{< gist "aspose-words-gists" "86d59d944009f305e7e24b3e276cd17d" "read-from-database.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -96,4 +96,4 @@ To delete a document from the database, use the appropriate SQL command without 
 
 The following code example shows how to delete a document from the database, using the file name to fetch the record:
 
-{{< gist "aspose-words-gists" "f8a622f8bc1cf3c2fa8a7a9be359faa2" "delete-from-database.cs" >}}
+{{< gist "aspose-words-gists" "86d59d944009f305e7e24b3e276cd17d" "delete-from-database.java" >}}

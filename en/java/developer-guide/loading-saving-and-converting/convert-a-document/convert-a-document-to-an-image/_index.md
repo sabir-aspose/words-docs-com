@@ -34,4 +34,4 @@ There are also properties that apply to a certain format, for example, [JpegQual
 
 The following code example shows how to create a preview of the first document page with applying some additional settings:
 
-{{< gist "aspose-words-gists" "ebbb90d74ef57db456685052a18f8e86" "get-jpeg-page-range.cs" >}}
+{{< gist "aspose-words-gists" "3e41a25b97b6091491b45ebf20f273b5" "get-jpeg-page-range.java" >}}

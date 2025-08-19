@@ -19,7 +19,7 @@ When saving a document, you can set some advanced properties. Aspose.Words provi
 
 The following code example shows how to set the save options before saving the document into HTML:
 
-{{< gist "aspose-words-gists" "83e5c469d0e72b5114fb8a05a1d01977" "export-text-input-form-field-as-text.cs" >}}
+{{< gist "aspose-words-gists" "a6f7799aa265589fb56915bb1e401b05" "export-text-input-form-field-as-text.java" >}}
 
 
 {{% alert color="primary" %}}
@@ -38,13 +38,13 @@ For example, when saving a document to DOC or DOT format, use the [Password](ht
 
 The following code example shows how to set a password to encrypt a document using the RC4 encryption method:
 
-{{< gist "aspose-words-gists" "af95c7a408187bb25cf9137465fe5ce6" "encrypt-document-with-password.cs" >}}
+{{< gist "aspose-words-gists" "821ff3a1df0c75b2af641299b393fb60" "encrypt-document-with-password.java" >}}
 
 When saving a document to ODT format, use the [Password](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/#Password) property of the [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/) class.
 
 The following code example shows how to load and save OpenDocument encrypted with a password:
 
-{{< gist "aspose-words-gists" "af95c7a408187bb25cf9137465fe5ce6" "load-save-encrypted-document.cs" >}}
+{{< gist "aspose-words-gists" "821ff3a1df0c75b2af641299b393fb60" "load-save-encrypted-document.java" >}}
 
 Not all formats support encryption and the use of **Password** property.
 
@@ -60,7 +60,7 @@ Aspose.Words provides an ability to use the [CreatedTime](https://reference.aspo
 
 The following code example shows how to update the document creation time:
 
-{{< gist "aspose-words-gists" "83e5c469d0e72b5114fb8a05a1d01977" "update-last-printed.cs" >}}
+{{< gist "aspose-words-gists" "a6f7799aa265589fb56915bb1e401b05" "update-last-printed.java" >}}
 
 ## Update Last Saved Property
 
@@ -68,7 +68,7 @@ Aspose.Words provides an ability to use the [UpdateLastSavedTimeProperty](http
 
 The following code example shows how to set this property and save the document:
 
-{{< gist "aspose-words-gists" "83e5c469d0e72b5114fb8a05a1d01977" "update-last-saved-time.cs" >}}
+{{< gist "aspose-words-gists" "a6f7799aa265589fb56915bb1e401b05" "update-last-saved-time.java" >}}
 
 ## Save Black and White Image with One Bit Per Pixel Format
 
@@ -76,4 +76,4 @@ To control image saving options, the **ImageSaveOptions** class is used. For exa
 
 The following code example shows how to save a black and white image with one bit per pixel format:
 
-{{< gist "aspose-words-gists" "83e5c469d0e72b5114fb8a05a1d01977" "format1-bpp-indexed.cs" >}}
+{{< gist "aspose-words-gists" "a6f7799aa265589fb56915bb1e401b05" "format1-bpp-indexed.java" >}}

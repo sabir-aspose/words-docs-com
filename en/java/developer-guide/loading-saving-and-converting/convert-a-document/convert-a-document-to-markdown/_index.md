@@ -25,7 +25,7 @@ To convert a document to Markdown, you just need to load a document in any suppo
 
 The following code example shows how to convert DOCX to Markdown:
 
-{{< gist "aspose-words-gists" "51b4cb9c451832f23527892e19c7bca6" "docx-to-markdown.cs" >}}
+{{< gist "aspose-words-gists" "642767bbe8d8bec8eab080120b707990" "docx-to-markdown.java" >}}
 
 
 ## Specify Save Options when Converting to Markdown
