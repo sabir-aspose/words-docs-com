@@ -82,7 +82,7 @@ Aspose.Words allows converting a Word document into EPUB format using default or
 
 The following code example shows how to converts a Word document to EPUB with specifying some custom save options:
 
-{{< gist "aspose-words-gists" "c0df00d37081f41a7683339fd7ef66c1" "split-document-by-headings.cs" >}}
+{{< gist "aspose-words-gists" "c2ec8aa36ef37670eceec8da5c612b86" "split-document-by-headings.java" >}}
 
 {{% alert color="primary" %}}
 

@@ -20,7 +20,7 @@ As with all conversion examples already described, you need to create a new docu
 
 The following code example shows how to convert DOCX to JPEG:
 
-{{< gist "aspose-words-gists" "ebbb90d74ef57db456685052a18f8e86" "pdf-to-jpeg.cs" >}}
+{{< gist "aspose-words-gists" "3e41a25b97b6091491b45ebf20f273b5" "docx-to-jpeg.java" >}}
 
 ## Specify Save Options when Converting to an Image
 
