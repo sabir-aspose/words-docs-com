@@ -30,7 +30,7 @@ The details of displaying a document in Microsoft Word depend not only on the ap
 
 The following code example shows how to set Japanese as **EditingLanguage**:
 
-{{< gist "aspose-words-gists" "40be8275fc43f78f5e5877212e4e1bf3" "add-editing-language.cs" >}}
+{{< gist "aspose-words-gists" "9216df344e0dc0025f5eda608b9f33d8" "add-editing-language.java" >}}
 
 ## Use WarningCallback to Control Problems While Loading a Document
 

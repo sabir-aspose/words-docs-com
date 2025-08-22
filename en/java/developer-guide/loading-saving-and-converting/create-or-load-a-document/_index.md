@@ -21,7 +21,7 @@ We will call the [Document](https://reference.aspose.com/words/java/com.aspose.
 
 The following code example shows how to create a document using the document builder:
 
-{{< gist "aspose-words-gists" "1d626c7186a318d22d022dc96dd91d55" "create-new-document.cs" >}}
+{{< gist "aspose-words-gists" "ae20848f6cefd3f85ab9bcbbdda340c7" "create-new-document.java" >}}
 
 {{% alert color="primary" %}}
 
