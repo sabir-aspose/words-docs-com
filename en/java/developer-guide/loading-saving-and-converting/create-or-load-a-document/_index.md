@@ -42,7 +42,7 @@ Pass a file name as a string to the Document constructor to open an existing doc
 
 The following code example shows how to open a document from a file:
 
-{{< gist "aspose-words-gists" "1d626c7186a318d22d022dc96dd91d55" "open-document.cs" >}}
+{{< gist "aspose-words-gists" "ae20848f6cefd3f85ab9bcbbdda340c7" "open-document.java" >}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
 
@@ -52,7 +52,7 @@ To open a document from a stream, simply pass a stream object that contains the 
 
 The following code example shows how to open a document from a stream:
 
-{{< gist "aspose-words-gists" "1d626c7186a318d22d022dc96dd91d55" "open-from-stream.cs" >}}
+{{< gist "aspose-words-gists" "ae20848f6cefd3f85ab9bcbbdda340c7" "open-from-stream.java" >}}
 
 {{% alert color="primary" %}}
 
