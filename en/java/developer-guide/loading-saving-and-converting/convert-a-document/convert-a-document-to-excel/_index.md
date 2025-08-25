@@ -3,7 +3,7 @@ title: Convert Word to Excel in Java
 second_title: Aspose.Words for Java
 articleTitle: Convert a Document to Excel
 linktitle: Convert a Document to Excel
-description: "Convert XML to Excel, DOCX to Excel Java. Save a document in various formats to XLSX using Java."
+description: "Convert XML to Excel, Word to Excel (including DOCX to Excel) in Java. Save a document in various formats to XLSX using Java."
 type: docs
 weight: 15
 ai_search_scope: words_java
