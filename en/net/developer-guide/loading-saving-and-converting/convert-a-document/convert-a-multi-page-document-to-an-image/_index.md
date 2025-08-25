@@ -37,33 +37,10 @@ The feature of exporting a multi-page document to an image is implemented using 
 
 The following code example shows how to save a multi-page DOCX document as JPEG image with Horizontal layout:
 
-{{< highlight csharp >}}
-Document doc = new Document("Rendering.docx");
-
-ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
-// Set up Horizontal layout.
-options.PageLayout = MultiPageLayout.Horizontal(10);
-
-doc.Save("ImageSaveOptions.HorizontalLayout.jpg", options);
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "8eeaafcfcc55d78505f0f378ad8c6907" "horizontal-layout.cs" >}}
 
 You can also customize the output file page appearance – specify [BackColor](https://reference.aspose.com/words/net/aspose.words.saving/multipagelayout/backcolor/), [BorderColor](https://reference.aspose.com/words/net/aspose.words.saving/multipagelayout/bordercolor/), and [BorderWidth](https://reference.aspose.com/words/net/aspose.words.saving/multipagelayout/borderwidth/).
 
 The following code example shows how to save a multi-page DOCX document as PNG image with Grid layout:
 
-{{< highlight csharp >}}
-Document doc = new Document("Rendering.docx");
-
-ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
-// Set up a grid layout with:
-// - 3 columns per row.
-// - 10pts spacing between pages (horizontal and vertical).
-options.PageLayout = MultiPageLayout.Grid(3, 10, 10);
-
-// Customize the background and border.
-options.PageLayout.BackColor = Color.LightGray;
-options.PageLayout.BorderColor = Color.Blue;
-options.PageLayout.BorderWidth = 2;
-
-doc.Save("ImageSaveOptions.GridLayout.png", options);
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "8eeaafcfcc55d78505f0f378ad8c6907" "grid-layout.cs" >}}
