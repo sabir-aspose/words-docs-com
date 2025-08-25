@@ -20,7 +20,7 @@ As with all conversion examples already described, you need to create a new docu
 
 The following code example shows how to convert DOCX to JPEG:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToImage-ConvertDocxToJpeg.java" >}}
+{{< gist "aspose-words-gists" "3e41a25b97b6091491b45ebf20f273b5" "docx-to-jpeg.java" >}}
 
 ## Specify Save Options when Converting to an Image
 
@@ -34,4 +34,4 @@ There are also properties that apply to a certain format, for example, [JpegQual
 
 The following code example shows how to create a preview of the first document page with applying some additional settings:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToImage-ConvertDocumentToImage.java" >}}
+{{< gist "aspose-words-gists" "3e41a25b97b6091491b45ebf20f273b5" "get-jpeg-page-range.java" >}}

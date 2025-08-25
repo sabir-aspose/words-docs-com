@@ -37,33 +37,10 @@ The feature of exporting a multi-page document to an image is implemented using 
 
 The following code example shows how to save a multi-page DOCX document as JPEG image with Horizontal layout:
 
-{{< highlight csharp >}}
-Document doc = new Document("Rendering.docx");
-
-ImageSaveOptions options = new ImageSaveOptions(SaveFormat.JPEG);
-// Set up Horizontal layout.
-options.setPageLayout = MultiPageLayout.Horizontal(10);
-
-doc.save("ImageSaveOptions.HorizontalLayout.jpg", options);
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "90715b6eecef1740f54f3eddb072b5d2" "horizontal-layout.java" >}}
 
 You can also customize the output file page appearance – specify [BackColor](https://reference.aspose.com/words/java/com.aspose.words/multipagelayout/#getBackColor), [BorderColor](https://reference.aspose.com/words/java/com.aspose.words/multipagelayout/#getBorderColor), and [BorderWidth](https://reference.aspose.com/words/java/com.aspose.words/multipagelayout/#getBorderWidth).
 
 The following code example shows how to save a multi-page DOCX document as PNG image with Grid layout:
 
-{{< highlight csharp >}}
-Document doc = new Document("Rendering.docx");
-
-ImageSaveOptions options = new ImageSaveOptions(SaveFormat.PNG);
-// Set up a grid layout with:
-// - 3 columns per row.
-// - 10pts spacing between pages (horizontal and vertical).
-options.setPageLayout(MultiPageLayout.grid(3, 10f, 10f));
-
-// Customize the background and border.
-options.getPageLayout().setBackColor(Color.lightGray);
-options.getPageLayout().setBorderColor(Color.BLUE);
-options.getPageLayout().setBorderWidth(2f);
-
-doc.save("ImageSaveOptions.GridLayout.png", options);
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "90715b6eecef1740f54f3eddb072b5d2" "grid-layout.java" >}}
