@@ -21,7 +21,7 @@ We will call the [Document](https://reference.aspose.com/words/java/com.aspose.
 
 The following code example shows how to create a document using the document builder:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-CreateDocument-CreateDocument.java" >}}
+{{< gist "aspose-words-gists" "ae20848f6cefd3f85ab9bcbbdda340c7" "create-new-document.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -42,7 +42,7 @@ Pass a file name as a string to the Document constructor to open an existing doc
 
 The following code example shows how to open a document from a file:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-OpenDocument-OpenFromFile.java" >}}
+{{< gist "aspose-words-gists" "ae20848f6cefd3f85ab9bcbbdda340c7" "open-document.java" >}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
 
@@ -52,7 +52,7 @@ To open a document from a stream, simply pass a stream object that contains the 
 
 The following code example shows how to open a document from a stream:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-OpenDocument-OpenFromStream.java" >}}
+{{< gist "aspose-words-gists" "ae20848f6cefd3f85ab9bcbbdda340c7" "open-from-stream.java" >}}
 
 {{% alert color="primary" %}}
 
