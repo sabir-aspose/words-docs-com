@@ -9,18 +9,20 @@ weight: 2
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2025-08-07-08-12-25
+timestamp: 2025-08-27-08-12-25
 ---
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for C++ 25.5, 25.6, 25.7
+## Aspose.Words for C++ 25.5, 25.6, 25.7, 25.8
 
 Aspose.Words 25.5 enhances chart customization with new styling options and improves Markdown export by offering control over how empty paragraphs are handled.
 
 Aspose.Words 25.6 enhances rendering precision and visualization features by introducing advanced image export options, improved MathML handling, and better chart representation.
 
 Aspose.Words 25.7 introduces AI enhancements with support for self-hosted LLMs, more precise control during text replacement, flexible table row visibility, and richer typography with OpenType Font Variations.
+
+Aspose.Words 25.8 expands capabilities for Markdown import/export, enhances Find and Replace with an option to ignore Office Math objects, and provides greater control over page extraction.
 
 ### AI-powered Features
 
@@ -37,6 +39,14 @@ The ability to control how empty paragraphs are exported to Markdown has been in
 #### Export Multi-page Documents to Raster Image Formats <sup>25.6</sup>
 
 The ability to export multi-page documents to raster image formats (such as PNG and JPEG) with [customizable layouts](https://reference.aspose.com/words/cpp/aspose.words.saving/multipagelayout/) – Horizontal, Vertical, or Grid – has been introduced by extending image export functionality.
+
+#### Export Non-compatible Tables to Raw HTML <sup>25.8</sup>
+
+The ability to control how non-compatible tables are rendered when exporting to raw HTML has been introduced by adding the new [MarkdownExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownexportashtml/) enumeration.
+
+#### Specify Character for Soft Line Breaks When Importing to Markdown <sup>25.8</sup>
+
+The ability to specify a character for soft line breaks when importing to Markdown has been introduced by adding the new **SoftLineBreakCharacter** property.
 
 ### Rendering
 
@@ -59,8 +69,10 @@ Initial support for OpenType Font Variations has been implemented, allowing for 
 ### Other
 
 * The ability to wrap mathematical formulas containing multiple slashes has been enhanced, improving layout clarity and formula legibility. <sup>25.6</sup>
-* A new **ReplacingArgs.MatchEndNode** property has been added to enable more precise control during text replacement operations across document content. <sup>25.7</sup>
-* The ability to programmatically show or hide specific table rows has been introduced by adding the **Row.Hidden** property. <sup>25.7</sup>
+* A new [ReplacingArgs.MatchEndNode](https://reference.aspose.com/words/cpp/aspose.words.replacing/replacingargs/get_matchendnode/) property has been added to enable more precise control during text replacement operations across document content. <sup>25.7</sup>
+* The ability to programmatically show or hide specific table rows has been introduced by adding the [Row.Hidden](https://reference.aspose.com/words/cpp/aspose.words.tables/row/get_hidden/) property. <sup>25.7</sup>
+* A new **IgnoreOfficeMath** property has been added to ignore Office Math objects when searching and replacing. <sup>25.8</sup>
+* New options have been added to the **PageExtractOptions** class to provide more control over the page extraction process. <sup>25.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -69,6 +81,8 @@ Learn more about [Aspose.Words for C++ 25.5 Release Notes](https://releases.aspo
 Learn more about [Aspose.Words for C++ 25.6 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-6-release-notes/).
 
 Learn more about [Aspose.Words for C++ 25.7 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-7-release-notes/).
+
+Learn more about [Aspose.Words for C++ 25.8 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-8-release-notes/).
 
 {{% /alert %}}
 
