@@ -5,7 +5,7 @@ articleTitle: System Requirements
 linktitle: System Requirements
 description: "Before you start working with Aspose.Words for C++, ensure that you meet the operating system, platform, frameworks, and environment requirements so the activities on your devices are properly accounted for."
 type: docs
-weight: 70
+weight: 5
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/system-requirements/

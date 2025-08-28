@@ -5,7 +5,7 @@ articleTitle: Supported Document Formats
 linktitle: Supported Document Formats
 type: docs
 description: "Edit source documents in many popular formats, as well as freely convert files from one format to another using Java."
-weight: 30
+weight: 6
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/supported-document-formats/
