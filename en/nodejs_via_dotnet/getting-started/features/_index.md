@@ -5,7 +5,7 @@ articleTitle: Supported Features
 linktitle: Supported Features
 description: "Aspose.Words for Node.js via .NET provides users with a wide range of features from simply converting and modifying documents to creating structured and visually appealing documents or automating reporting."
 type: docs
-weight: 30
+weight: 130
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/features/
