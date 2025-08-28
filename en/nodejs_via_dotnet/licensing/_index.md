@@ -5,7 +5,7 @@ articleTitle: Licensing and Subscription
 linktitle: Licensing and Subscription
 description: "Aspose.Words for Node.js via .NET provides different plans for purchase or offers a Free Trial and a 30-day Temporary License for evaluation using Licensing and Subscription policies."
 type: docs
-weight: 40
+weight: 18
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/licensing/

@@ -5,7 +5,7 @@ articleTitle: Licensing and Subscription
 linktitle: Licensing and Subscription
 description: "Aspose.Words for Java provides different plans for purchase or offers a Free Trial and a 30-day Temporary License for evaluation using Licensing and Subscription policies."
 type: docs
-weight: 60
+weight: 7
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/licensing/
