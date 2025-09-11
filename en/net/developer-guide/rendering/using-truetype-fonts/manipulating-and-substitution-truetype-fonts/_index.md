@@ -9,7 +9,7 @@ weight: 10
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/manipulating-and-substitution-truetype-fonts/
-timestamp: 2024-10-21-11-17-44
+timestamp: 2025-09-11-11-12-25
 ---
 
 Aspose.Words requires TrueType fonts for a variety of tasks, including rendering documents to fixed-page formats, for example, PDF or XPS. When Aspose.Words renders a document, it needs to perform embedding and subset embedding of TrueType fonts into the resulting document, which is a normal practice during a document generation, including popular PDF or XPS formats. This ensures that the document will appear the same to any viewer. Moreover, the XPS specification requires fonts to always be embedded in the document.
@@ -131,6 +131,12 @@ Sometimes, it may be unclear why the document layout has changed, or why some fo
 - "font info substitution" – for substitution by font info rule
 - "default font substitution" – for substitution by default font rule
 - "first available font" – for substitution with first available font
+
+{{% alert color="primary" %}}
+
+You can get more information about a font substitution warning issued by Aspose.Words when loading or saving a document using the [FontSubstitutionWarningInfo](https://reference.aspose.com/words/net/aspose.words/fontsubstitutionwarninginfo/) class.
+
+{{% /alert %}}
 
 ## Font FallBack Settings from XML
 

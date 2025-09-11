@@ -9,10 +9,36 @@ weight: 5
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-08-15-11-12-25
+timestamp: 2025-09-11-11-12-25
 ---
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
+
+## Aspose.Words for Python via .NET 25.9
+
+Aspose.Words 25.9 enhances document loading reliability, expands shape and text formatting, and improves Markdown export with math support.
+
+### Converting, Loading, and Saving Documents
+
+#### Control How Corrupted Documents Are Opened <sup>25.9</sup>
+
+The ability to control how corrupted documents are opened has been introduced by adding a new [recovery_mode](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/recovery_mode/) option.
+
+#### Export Mathematical Equations to LaTeX Expression <sup>25.9</sup>
+
+The ability to export mathematical [equations](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/office_math_export_mode/) (Office Math) to LaTeX expressions has been introduced.
+
+### Rendering
+
+#### Fine-tune Shadow Effects <sup>25.9</sup>
+
+The ability to fine-tune [shadow effects](https://reference.aspose.com/words/python-net/aspose.words.drawing/shadowformat/) has been enhanced by introducing new public properties.
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for Python via .NET 25.9 Release Notes](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-9-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words for Python via .NET 25.5, 25.6, 25.7, 25.8
 
@@ -69,13 +95,13 @@ Initial support for OpenType Font Variations has been implemented, allowing for 
 
 {{% alert color="primary" %}}
 
-Learn more about [Aspose.Words for Python via .NET 25.5 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-5-release-notes/).
+Learn more about [Aspose.Words for Python via .NET 25.5 Release Notes](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-5-release-notes/).
 
-Learn more about [Aspose.Words for Python via .NET 25.6 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-6-release-notes/).
+Learn more about [Aspose.Words for Python via .NET 25.6 Release Notes](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-6-release-notes/).
 
-Learn more about [Aspose.Words for Python via .NET 25.7 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-7-release-notes/).
+Learn more about [Aspose.Words for Python via .NET 25.7 Release Notes](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-7-release-notes/).
 
-Learn more about [Aspose.Words for Python via .NET 25.8 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-8-release-notes/).
+Learn more about [Aspose.Words for Python via .NET 25.8 Release Notes](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-8-release-notes/).
 
 {{% /alert %}}
 
@@ -148,7 +174,7 @@ Learn more about [Aspose.Words for Python via .NET 25.2 Release Notes](https://r
 
 Learn more about [Aspose.Words for Python via .NET 25.3 Release Notes](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-3-release-notes/).
 
-Learn more about [Aspose.Words for Python via .NET 25.4 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-25-4-release-notes/).
+Learn more about [Aspose.Words for Python via .NET 25.4 Release Notes](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-4-release-notes/).
 
 {{% /alert %}}
 
@@ -415,167 +441,6 @@ Learn more about [Aspose.Words for Python via .NET 24.2 Release Notes](https://r
 Learn more about [Aspose.Words for Python via .NET 24.3 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-3-release-notes/).
 
 Learn more about [Aspose.Words for Python via .NET 24.4 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words for Python via .NET 23.9, 23.10, 23.11, 23.12
-
-Aspose.Words 23.9 expands rendering options, metafile rendering emulation, and markdown save options.
-
-Aspose.Words 23.10 improves rendering, expands options for loading and saving documents, and allows users to merge documents in new ways.
-
-Aspose.Words 23.11 enhances the work with revisions, XLSX format and fonts on chart legend with additional options.
-
-Aspose.Words 23.12 introduces new properties and enumerations for working with PDF and OOXML documents, as well as support for WebP images.
-
-### Rendering and Printing
-
-#### Customizing Axes Titles in DrawingML Charts <sup>23.9</sup>
-
-The capability to customize axis titles in DrawingML charts has been introduced by the implementation of a new public class [ChartAxisTitle](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxistitle/) and [title](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/title/) property.
-
-####  Determining the Vertical Position of Fonts within a Paragraph <sup>23.9</sup>
-
-It is now possible to define the vertical position of fonts within a paragraph using the new public [baseline_alignment](https://reference.aspose.com/words/python-net/aspose.words/paragraphformat/baseline_alignment/) property and the new [BaselineAlignment](https://reference.aspose.com/words/python-net/aspose.words/baselinealignment/) enumeration.
-
-#### Foreground Color Control <sup>23.10</sup>
-
-The ability to retrieve the foreground color without modifiers has been added to the [Fill](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/) and [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) classes via the **BaseForeColor** property.
-
-#### Expanding the Functionality of Charts <sup>23.10</sup>
-
-The functionality of the [ChartDataPointCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatapointcollection/), [ChartSeries](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseries/), and [ChartFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartformat/) classes has been expanded with new methods and properties.
-
-#### Automatically Adjust and Fit an Image into a Shape <sup>23.10</sup>
-
-A simple way to automatically adjust and fit an image within a particular shape has been provided through the new [fit_image_to_shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/imagedata/fit_image_to_shape/#default) method.
-
-#### Default Font Formatting for DrawingML Chart Legend Entries <sup>23.11</sup>
-
-The ability to specify default font formatting for legend entries of DrawingML charts has been added via the [font](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartlegend/font/) property. This feature facilitates a more streamlined and consistent appearance for chart elements, improving the overall document aesthetics.
-
-#### Specify Page Layout when Opening PDF in Reader <sup>23.12</sup>
-
-The ability to specify the page layout to be used when opening a document in a PDF reader has been added through the introduction of a new [page_layout](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/page_layout/) property to the [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) class and the introduction of a new [PdfPageLayout](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfpagelayout/) enumeration.
-
-### Loading and Saving Documents
-
-#### Specifying a Folder Name to Construct Image URIs in Markdown <sup>23.9</sup>
-
-The [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) class has been expanded by including the [images_folder_alias](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/images_folder_alias/) property, which allows to specifies the name of the folder used to construct image URIs written into the Markdown document.
-
-#### Reduce PDF Output Size <sup>23.10</sup>
-
-Various PDF rendering optimizations to reduce output size when utilizing [optimize_output](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/optimize_output/) settings have been implemented.
-
-#### Recognize Hyperlinks when Loading TXT Documents <sup>23.10</sup>
-
-The feature to recognize hyperlinks when loading TXT documents has been implemented by adding a new [detect_hyperlinks](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/detect_hyperlinks/) property.
-
-### Other
-
-- Metafile rendering emulation to determine rasterization size has been implemented, specifically for WMF pen width and EMF cosmetic pen width. To achieve this, the **ScaleWmfFontsToMetafileSize** property was replaced with the [emulate_rendering_to_size_on_page](https://reference.aspose.com/words/python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page/) property and the [emulate_rendering_to_size_on_page_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page_resolution/) property was added. <sup>23.9</sup>
-- A simplified method for inserting one document into another document at the current cursor position has been introduced using the [insert_document_inline](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_document_inline/#document_importformatmode_importformatoptions) method. <sup>23.10</sup>
-- The ability to access and modify style properties has been added through the introduction of the new [locked](https://reference.aspose.com/words/python-net/aspose.words/style/locked/) property.  <sup>23.10</sup>
-- A generic type parameter has been added to the methods of the [CompositeNode](https://reference.aspose.com/words/python-net/aspose.words/compositenode/) class. <sup>23.10</sup>
-- The ability to write all sections of a document onto the same XLSX worksheet has been provided through the new [XlsxSectionMode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsectionmode/) enumeration type and the new [section_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/section_mode/) property. <sup>23.11</sup>
-* A way to control how ZIP64 format extensions will be used for OOXML documents has been implemented through the new Zip64Mode property of the `OoxmlSaveOptions` class and the new Zip64Mode enumeration. <sup>23.12</sup>
-* Support for WebP image has been introduced. Please note that this feature is only available for .NetStandart and .NET6+ versions. <sup>23.12</sup>
-
-{{% alert color="primary" %}}
-
-Learn more about [Aspose.Words for Python via .NET 23.9 Release Notes](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-9-release-notes/).
-
-Learn more about [Aspose.Words for Python via .NET 23.10 Release Notes](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-10-release-notes/).
-
-Learn more about [Aspose.Words for Python via .NET 23.11 Release Notes](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-11-release-notes/).
-
-Learn more about [Aspose.Words for .NET 23.12 Release Notes](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words for Python via .NET 23.5, 23.6, 23.7, 23.8
-
-Aspose.Words 23.5 enhances the ability to work with chart series data and the ability to work with ODT documents, as well as improve headers/footers and their text wrapping.
-
-Aspose.Words 23.6 expands rendering options, adds a new export format, improves LINQ reporting and LowCode tools.
-
-Aspose.Words 23.7 enhances reporting capabilities, adds a new export format, and introduces changes to working with tables and digital signatures.
-
-Aspose.Words 23.8 expands the capabilities of different formats, improves rendering, and adds new options for working with fields. 
-
-### Supported Formats
-
-* Starting with version 23.6, it is possible to save a document in XLSX format. Now you can convert your documents to Excel format. <sup>23.6</sup>
-
-* Starting with version 23.7, it is possible to save a document page or shape in EPS format. <sup>23.7</sup>
-
-### New Format Features
-
-- The functionality to automatically generate Table of Contents (TOC) for MOBI documents has been introduced. <sup>23.8</sup>
-- The [PdfEncryptionDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions) constructor has been expanded with [PdfPermissions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions). <sup>23.8</sup>
-- Shaping of vertical text for EMF metafiles has been implemented. <sup>23.8</sup>
-
-### Rendering
-
-#### Get and Modify Chart Series Data <sup>23.5</sup>
-
-The feature to get and modify chart series data was provided by adding:
-
-- new classes: [ChartXValue](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartmultilevelvalue/)
-- new enum types: [ChartXValueType](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvaluetype/)
-
-#### Support for Advanced Typography <sup>23.6</sup>
-
-Support for Advanced Typography in WMF, EMF and EMF+ rendering has been added.
-
-#### Colored Content on the Page <sup>23.6</sup>
-
-The public property [PageInfo.colored](https://reference.aspose.com/words/python-net/aspose.words.rendering/pageinfo/colored/), indicating whether the page is colored or not, has been added.
-
-#### Formatting for Chart Data Labels <sup>23.6</sup>
-
-The ability to set fill, stroke, and callout formatting for chart data labels has been implemented.
-
-### Mail Merge and Reporting
-
-#### Dynamic HTML Insertion for LINQ Reporting Engine <sup>23.6</sup>
-
-A new way of dynamic HTML insertion for LINQ Reporting Engine has been added.
-
-#### Mustache Tags Support <sup>23.7</sup>
-
-Mustache tags are now supported in the [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/get_regions_hierarchy/) and [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/get_field_names_for_region/) methods.
-
-#### Specifying the Size of Rendered Images <sup>23.8</sup>
-
-A new public property [image_size](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/image_size/) for specifying the size of rendered images in pixel has been introduced.
-
-#### Preserve Whitespaces for JSON String Values – LINQ <sup>23.8</sup>
-
-An option has been added to the LINQ Reporting Engine to preserve whitespaces for JSON string values.
-
-### LowCode <sup>23.6</sup>
-
-New LowCode methods intended to merge different types of documents into a single output document have been added.
-
-### Other
-
-- Support for text wrapping in headers/footers has been implemented. <sup>23.5</sup>
-- The ability to remove digital signatures from ODT documents has been added through the [RemoveAllSignatures](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignatureutil/remove_all_signatures/#str_str) method. <sup>23.5</sup>
-- The public property [phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/phonetic_guide/) to obtain the base and ruby text of the phonetic guide [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) has been added. <sup>23.5</sup>
-- The ability to retrieve a digital signature value from a digitally signed document as a byte array has been added by introducing a new [signature_value](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/signature_value/) property. <sup>23.7</sup>
-- The [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) and [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) classes have been extended with new public members – [Row.next_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/next_row/), [Row.previous_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/previous_row/), [Cell.next_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/next_cell/), and [Cell.previous_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/previous_cell/). <sup>23.7</sup>
-
-{{% alert color="primary" %}}
-
-Learn more about [Aspose.Words for Python via .NET 23.5 Release Notes](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-5-release-notes/).
-
-Learn more about [Aspose.Words for Python via .NET 23.6 Release Notes](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-6-release-notes/).
-
-Learn more about [Aspose.Words for Python via .NET 23.7 Release Notes](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-7-release-notes/).
-
-Learn more about [Aspose.Words for Python via .NET 23.8 Release Notes](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
 {{% /alert %}}
 
