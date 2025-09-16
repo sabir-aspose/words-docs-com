@@ -78,10 +78,10 @@ Comprehensive documentation index for Aspose.Words for .NET — developer guide,
 - [Working with Text Document](https://docs.aspose.com/words/net/working-with-text-document/): Discover how to create, load, edit, and save plain text documents using Aspose.Words for .NET
 
 ### Document areas (Headers, Footers, Notes)
-- [Working with Headers and Footers](https://docs.aspose.com/words/net/working-with-headers-and-footers/)
-- [Working with Footnote and Endnote](https://docs.aspose.com/words/net/working-with-footnote-and-endnote/)
-- [Working with Table of Contents](https://docs.aspose.com/words/net/working-with-table-of-contents/)
-- [Working with Bookmarks](https://docs.aspose.com/words/net/working-with-bookmarks/)
+- [Working with Headers and Footers](https://docs.aspose.com/words/net/working-with-headers-and-footers/): Manage headers and footers in documents — add, edit, and remove content
+- [Working with Footnote and Endnote](https://docs.aspose.com/words/net/working-with-footnote-and-endnote/): Create and customize footnotes and endnotes, including formatting and numbering
+- [Working with Table of Contents](https://docs.aspose.com/words/net/working-with-table-of-contents/): Generate and update tables of contents using styles and fields
+- [Working with Bookmarks](https://docs.aspose.com/words/net/working-with-bookmarks/): Insert, find, and edit bookmarks within document content
 
 ### Working with formatting and lists
 - [Working with Tables](https://docs.aspose.com/words/net/working-with-tables/): Learn how to create, modify, and manage tables in Word, HTML, or other documents, including adding rows, columns, and formatting cells using Aspose.Words for .NET

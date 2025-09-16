@@ -16,7 +16,7 @@ Official product documentation for Aspose.Words for Java.
 ## Developer Guide
 - [Low Code](http://docs.aspose.com/words/java/low-code/): Document automation with low-code APIs
 - [AI-powered Features](http://docs.aspose.com/words/java/ai-powered-features/): Use AI tools to enhance document processing workflows
-- [Loading, Saving and Converting](http://docs.aspose.com/words/java/loading-saving-and-converting/): : Load and save documents and convert them between Word, PDF, HTML, OpenOffice, and other formats
+- [Loading, Saving and Converting](http://docs.aspose.com/words/java/loading-saving-and-converting/): Load and save documents and convert them between Word, PDF, HTML, OpenOffice, and other formats
 - [Rendering & Printing](https://docs.aspose.com/words/java/rendering/): Render documents to images, fixed-page formats, and print output
 - [Working with Documents](http://docs.aspose.com/words/java/working-with-document/): Create and manipulate documents programmatically, including sections, options, and content management
 - [Document Object Model (DOM)](http://docs.aspose.com/words/java/aspose-words-document-object-model/): Work with the Aspose.Words document object model (DOM) programmatically

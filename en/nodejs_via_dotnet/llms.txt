@@ -15,7 +15,7 @@ Official product documentation for Aspose.Words for Node.js via .NET.
 
 ## Developer Guide
 - [AI-powered Features](http://docs.aspose.com/words/nodejs-net/ai-powered-features/): Use AI tools to enhance document processing workflows
-- [Loading, Saving and Converting](http://docs.aspose.com/words/nodejs-net/loading-saving-and-converting/): : Load and save documents and convert them between Word, PDF, HTML, OpenOffice, and other formats
+- [Loading, Saving and Converting](http://docs.aspose.com/words/nodejs-net/loading-saving-and-converting/): Load and save documents and convert them between Word, PDF, HTML, OpenOffice, and other formats
 - [Rendering & Printing](https://docs.aspose.com/words/nodejs-net/rendering/): Render documents to images, fixed-page formats, and print output
 
 ## API Reference
