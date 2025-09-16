@@ -73,9 +73,9 @@ Comprehensive documentation index for Aspose.Words for С++ — developer guide,
 - [Working with Text Document](https://docs.aspose.com/words/cpp/working-with-text-document/): Discover how to create, load, edit, and save plain text documents using Aspose.Words for С++
 
 ### Document areas (Headers, Footers, Notes)
-- [Working with Headers and Footers](https://docs.aspose.com/words/cpp/working-with-headers-and-footers/)
-- [Working with Footnote and Endnote](https://docs.aspose.com/words/cpp/working-with-footnote-and-endnote/)
-- [Working with Bookmarks](https://docs.aspose.com/words/cpp/working-with-bookmarks/)
+- [Working with Headers and Footers](https://docs.aspose.com/words/cpp/working-with-headers-and-footers/): Manage headers and footers in documents — add, edit, and remove content
+- [Working with Footnote and Endnote](https://docs.aspose.com/words/cpp/working-with-footnote-and-endnote/): Create and customize footnotes and endnotes, including formatting and numbering
+- [Working with Bookmarks](https://docs.aspose.com/words/cpp/working-with-bookmarks/): Insert, find, and edit bookmarks within document content
 
 ### Working with formatting and lists
 - [Working with Tables](https://docs.aspose.com/words/cpp/working-with-tables/): Learn how to create, modify, and manage tables in Word, HTML, or other documents, including adding rows, columns, and formatting cells using Aspose.Words for С++
