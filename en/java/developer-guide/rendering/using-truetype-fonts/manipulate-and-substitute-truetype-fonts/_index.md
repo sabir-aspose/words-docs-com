@@ -143,6 +143,12 @@ Sometimes, it may be unclear why the document layout has changed, or why some fo
 - "default font substitution" – for substitution by default font rule
 - "first available font" – for substitution with first available font
 
+{{% alert color="primary" %}}
+
+You can get more information about a font substitution warning issued by Aspose.Words when loading or saving a document using the [FontSubstitutionWarningInfo](https://reference.aspose.com/words/java/com.aspose.words/fontsubstitutionwarninginfo/) class.
+
+{{% /alert %}}
+
 ## Font FallBack Settings from XML
 
 There are two different mechanisms used in Aspose.Words — Font substitution and Font fallback. Font substitution is used when the font specified in the document could not be found among the font sources as it was described in the above sections. The Font fallback mechanism is used when the font is resolved, but it does not contain a specific character. In this case, Aspose.Words tries to use one of the fallback fonts for the character.
