@@ -1,4 +1,4 @@
----
+﻿---
 title: Introducing the product
 second_title: Aspose.Words for SharePoint
 articleTitle: Introducing Aspose.Words for SharePoint
@@ -34,12 +34,10 @@ This is useful when:
 
 Use Aspose.Words for SharePoint with the following products:
 
-- Windows SharePoint Services 3.0 (WSS)
-- Microsoft Office SharePoint Server 2007 (MOSS)
-- Microsoft SharePoint Foundation 2010
 - Microsoft SharePoint Server 2010
 - Microsoft SharePoint Server 2013
 - Microsoft SharePoint Server 2016
+- Microsoft SharePoint Server 2019
 - x32 and x64 servers supported.
 
 There are no additional system requirements.
