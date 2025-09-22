@@ -144,7 +144,7 @@ Calculation of the following fields is supported in the current version of Aspos
 - `TITLE`
 - `TOA`
 - `TOC` (including TOT and TOF)
-- TC
+- `TC`
 
 ### Sophisticated Parsing
 
@@ -230,7 +230,7 @@ When Aspose.Words calculates a field result, it often needs to parse a string in
 To control the culture used during field calculation, just use the **locale.setlocale** method to set the culture of your choice before invoking field calculation.
 Below example shows how to change the culture used in formatting fields during update.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ChangeLocale.py" >}}
+{{< gist "aspose-words-gists" "9e90defe4a7bcafb004f73a2ef236986" "change-locale.cs" >}}
 
 Using the current culture to format fields allows a system to easily and consistently control how all fields in the document are formatted during field update.
 
@@ -240,16 +240,16 @@ On the other hand, Microsoft Word formats each individual field based off the la
 
 The [Document](https://reference.aspose.com/words/nodejs-net/aspose.words/document/) class provides a [fieldOptions](https://reference.aspose.com/words/nodejs-net/aspose.words/document/fieldoptions/) property which contains members which can be used to control how fields are updated within the document. Below example shows how to specify where the culture used for date formatting during field update and Mail Merge is chosen from.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ChangeFieldUpdateCultureSource.py" >}}
+{{< gist "aspose-words-gists" "9e90defe4a7bcafb004f73a2ef236986" "change-field-update-culture-source.cs" >}}
 
 ## Finding the Field Code and Field Result
 
 A field which is inserted using [DocumentBuilder.insertField](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertfield/) returns a [Field](https://reference.aspose.com/words/nodejs-net/aspose.words/field/) object. This is a facade class which provides useful methods to quickly find such properties of a field. Below example shows how to get names of all merge fields in a document.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-GetFieldNames.py" >}}
+{{< gist "aspose-words-gists" "9e90defe4a7bcafb004f73a2ef236986" "get-field-names.cs" >}}
 
 ## How to Rename Merge Fields
 
 Below example shows how to rename merge fields in a Word document.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-RenameMergeFields.py" >}}
+{{< gist "aspose-words-gists" "9e90defe4a7bcafb004f73a2ef236986" "rename-merge-fields.cs" >}}

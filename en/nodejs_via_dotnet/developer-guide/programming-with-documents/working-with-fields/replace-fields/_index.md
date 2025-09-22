@@ -37,7 +37,7 @@ However, in the header, the `PAGE` field translates well to static run of text. 
 
 The following code example shows how to replace the field with its most recent result:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "f3592014d179ecb43905e37b2a68bc92" "unlink-fields.cs" >}}
 
 ## Convert Certain Field Types in Specific Document Parts
 
@@ -55,22 +55,22 @@ The [FieldType](https://reference.aspose.com/words/nodejs-net/aspose.words.field
 
 The following code example shows how to select fields of a specific type – *targetFieldType* in a specific node – *compositeNode* and then convert them to static text:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-FieldsHelper-FieldsHelper.cs" >}}
+{{< gist "aspose-words-gists" "f3592014d179ecb43905e37b2a68bc92" "convert-fields-to-static-text.cs" >}}
 
 The following code example shows how to convert all `IF` fields in a document to static text:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ConvertFieldsInDocument.py" >}}
+{{< gist "aspose-words-gists" "f3592014d179ecb43905e37b2a68bc92" "unlink-fields-in-document.cs" >}}
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Linked%20fields.docx).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/tree/main/Data/Linked%20fields.docx).
 
 {{% /alert %}}
 
 The following code  example shows how to convert all `PAGE` fields in a Body of a document to static text:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ConvertFieldsInBody.py" >}}
+{{< gist "aspose-words-gists" "f3592014d179ecb43905e37b2a68bc92" "unlink-fields-in-body.cs" >}}
 
 The following code  example shows how to convert all `IF` fields in the last paragraph to static text:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ConvertFieldsInParagraph.py" >}}
+{{< gist "aspose-words-gists" "f3592014d179ecb43905e37b2a68bc92" "unlink-fields-in-paragraph.cs" >}}

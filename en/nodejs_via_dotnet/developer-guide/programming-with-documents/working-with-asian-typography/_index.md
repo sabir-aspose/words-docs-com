@@ -22,7 +22,7 @@ If you are designing a template with both East Asian and Latin text and  want to
 
 The following code example shows how to use **AddSpaceBetweenFarEastAndAlpha** and **AddSpaceBetweenFarEastAndDigit** properties:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-document_formatting-SpaceBetweenAsianAndLatinText.py" >}}
+{{< gist "aspose-words-gists" "4f54ffd5c7580f0d146b53e52d986f38" "space-between-asian-and-latin-text.cs" >}}
 
 ## Set Line Break Options
 
@@ -30,4 +30,4 @@ The Asian Typography tab of the paragraph properties dialog box in Microsoft Wor
 
 The following code example shows how to use these properties:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-document_formatting-AsianTypographyLineBreakGroup.py" >}}
+{{< gist "aspose-words-gists" "4f54ffd5c7580f0d146b53e52d986f38" "asian-typography-line-break-group.cs" >}}

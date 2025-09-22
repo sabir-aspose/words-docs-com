@@ -20,7 +20,7 @@ The current font formatting is represented by the **Font** object returned by th
 
 The following code example shows how to set font formatting:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-DocumentBuilderSetFontFormatting.py" >}}
+{{< gist "aspose-words-gists" "7cb86f131b74afcbebc153f0039e3947" "set-font-formatting.cs" >}}
 
 Fill properties now are also available for fonts to set fill formatting of text. It gives an ability to change, for example, the foreground color or transparency of text fill.
 
@@ -30,7 +30,7 @@ Font line spacing is the vertical distance between the baselines of two consecut
 
 The [lineSpacing](https://reference.aspose.com/words/nodejs-net/aspose.words/font/linespacing/) property was introduced in the [Font](https://reference.aspose.com/words/nodejs-net/aspose.words/font/) class to obtain this value as shown in the example given below:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-GetFontLineSpacing.py" >}}
+{{< gist "aspose-words-gists" "7cb86f131b74afcbebc153f0039e3947" "get-font-line-spacing.cs" >}}
 
 ## Font EmphasisMark
 
@@ -38,4 +38,4 @@ Some East Asian languages use a special emphasis mark to indicate an emphasis. T
 
 The following code example shows how to set the **EphasisMark** property:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-SetFontEmphasisMark.py" >}}
+{{< gist "aspose-words-gists" "7cb86f131b74afcbebc153f0039e3947" "set-font-emphasis-mark.cs" >}}

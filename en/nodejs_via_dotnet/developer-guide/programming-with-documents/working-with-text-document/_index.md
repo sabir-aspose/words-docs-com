@@ -20,7 +20,7 @@ You can use [addBidiMarks](https://reference.aspose.com/words/nodejs-net/aspose.
 
 The following code example shows how to use [addBidiMarks](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/txtsaveoptions/addBidiMarks/) property. The default value of this property is `False`:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_txt_save_options-AddBidiMarks.py" >}}
+{{< gist "aspose-words-gists" "ddafc3430967fb4f4f70085fa577d01a" "add-bidi-marks.cs" >}}
 
 ## Recognize List Items During Loading TXT
 
@@ -31,7 +31,7 @@ Aspose.Words can import list item of a text file as list numbers or plain text i
 
 The following code example shows how to use this property:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Load Options-working_with_txt_load_options-DetectNumberingWithWhitespaces.py" >}}
+{{< gist "aspose-words-gists" "ddafc3430967fb4f4f70085fa577d01a" "detect-numbering-with-whitespaces.cs" >}}
 
 ## Handle Leading and Trailing spaces During Loading TXT
 
@@ -39,7 +39,7 @@ You can control the way of handling leading and trailing spaces during loading T
 
 The following code example shows how to trim leading and trailing spaces while importing TXT file:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Load Options-working_with_txt_load_options-HandleSpacesOptions.py" >}}
+{{< gist "aspose-words-gists" "ddafc3430967fb4f4f70085fa577d01a" "handle-spaces-options.cs" >}}
 
 ## Detect Document Text Direction
 
@@ -47,7 +47,7 @@ Aspose.Words provides [documentDirection](https://reference.aspose.com/words/nod
 
 The following code example shows how to detect text direction of the document while importing TXT file:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Load Options-working_with_txt_load_options-DocumentTextDirection.py" >}}
+{{< gist "aspose-words-gists" "ddafc3430967fb4f4f70085fa577d01a" "document-text-direction.cs" >}}
 
 ## Export Header and Footer in Output TXT
 
@@ -55,24 +55,7 @@ If you want to export header and footer in output TXT document, you can use [exp
 
 The following code example shows how to export headers and footers to plain text format:
 
-{{< highlight python >}}
-doc = aw.Document(docs_base.my_dir + "Document.docx")
-
-options = aw.saving.TxtSaveOptions()
-options.save_format = aw.SaveFormat.TEXT
-
-# All headers and footers are placed at the very end of the output document.
-options.export_headers_footers_mode = aw.saving.TxtExportHeadersFootersMode.ALL_AT_END
-doc.save(docs_base.artifacts_dir + "WorkingWithTxtSaveOptions.export_headers_footers_mode_A.txt", options)
-
-# Only primary headers and footers are exported at the beginning and end of each section.
-options.export_headers_footers_mode = aw.saving.TxtExportHeadersFootersMode.PRIMARY_ONLY
-doc.save(docs_base.artifacts_dir + "WorkingWithTxtSaveOptions.export_headers_footers_mode_B.txt", options)
-
-# No headers and footers are exported.
-options.export_headers_footers_mode = aw.saving.TxtExportHeadersFootersMode.NONE
-doc.save(docs_base.artifacts_dir + "WorkingWithTxtSaveOptions.export_headers_footers_mode_C.txt", options)
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "ddafc3430967fb4f4f70085fa577d01a" "export-headers-footers-mode.cs" >}}
 
 ## Export List Indentation in Output TXT
 
@@ -82,10 +65,10 @@ Aspose.Words introduced [TxtListIndentation](https://reference.aspose.com/words/
 
 The following code example shows how to export list levels using tab characters:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_txt_save_options-UseTabCharacterPerLevelForListIndentation.py" >}}
+{{< gist "aspose-words-gists" "ddafc3430967fb4f4f70085fa577d01a" "use-tab-for-list-indentation.cs" >}}
 
 ### Using Space Character
 
 The following code example shows how to export list levels using space characters:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_txt_save_options-UseSpaceCharacterPerLevelForListIndentation.py" >}}
+{{< gist "aspose-words-gists" "ddafc3430967fb4f4f70085fa577d01a" "use-space-for-list-indentation.cs" >}}

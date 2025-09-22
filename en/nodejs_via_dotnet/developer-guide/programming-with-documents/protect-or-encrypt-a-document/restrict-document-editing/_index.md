@@ -55,33 +55,11 @@ In Microsoft Word, you can restrict editing in a similar way using both:
 
 The following code example shows how to add password protection to your document:
 
-{{< highlight python >}}
-import aspose.words as aw
-
-doc = aw.Document()
-
-# Apply document protection.
-doc.protect(aw.ProtectionType.NO_PROTECTION, "password")
-
-doc.save(docs_base.artifacts_dir + "DocumentProtection.PasswordProtection.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "856ba85fa704fa728b0ec20aafddd16b" "password-protection.cs" >}}
 
 The following code example shows how to restrict editing in a document so only editing in form fields is possible:
 
-{{< highlight python >}}
-import aspose.words as aw
-
-# Insert two sections with some text.
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-builder.writeln("Text added to a document.")
-
-# A document protection only works when document protection is turned and only editing in form fields is allowed.
-doc.protect(aw.ProtectionType.ALLOW_ONLY_FORM_FIELDS, "password")
-
-# Save the protected document.
-doc.save(docs_base.artifacts_dir + "DocumentProtection.AllowOnlyFormFieldsProtect.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "856ba85fa704fa728b0ec20aafddd16b" "allow-only-form-fields-protect.cs" >}}
 
 ## Remove Document Protection
 
@@ -89,21 +67,7 @@ Aspose.Words allows you to remove protection from a document with simple and dir
 
 The following code example shows how to remove protection from your document:
 
-{{< highlight python >}}
-import aspose.words as aw
-
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-
-builder.writeln("Text added to a document.")
-
-# Documents can have protection removed either with no password, or with the correct password.
-doc.unprotect()
-doc.protect(aw.ProtectionType.READ_ONLY, "newPassword")
-doc.unprotect("newPassword")
-
-doc.save(docs_base.artifacts_dir + "DocumentProtection.RemoveDocumentProtection.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "856ba85fa704fa728b0ec20aafddd16b" "remove-document-protection.cs" >}}
 
 ## Specify Unrestricted Editable Regions
 
@@ -113,56 +77,10 @@ Aspose.Words allows you to mark the parts that can be changed in your document u
 
 The following code example shows how to mark the whole document as read-only and specify editable regions in it:
 
-{{< highlight python >}}
-import aspose.words as aw
-
-# Upload a document and make it as read-only.
-doc = aw.Document(docs_base.my_dir + "Document.docx")
-builder = aw.DocumentBuilder(doc)
-
-doc.protect(aw.ProtectionType.READ_ONLY, "MyPassword")
-
-builder.writeln("Hello world! Since we have set the document's protection level to read-only, we cannot edit this paragraph without the password.")
-
-# Start an editable range.
-edRangeStart = builder.start_editable_range()
-# An EditableRange object is created for the EditableRangeStart that we just made.
-editableRange = edRangeStart.editable_range
-
-# Put something inside the editable range.
-builder.writeln("Paragraph inside first editable range")
-
-# An editable range is well-formed if it has a start and an end.
-edRangeEnd = builder.end_editable_range()
-
-builder.writeln("This paragraph is outside any editable ranges, and cannot be edited.");
-
-doc.save(docs_base.artifacts_dir + "DocumentProtection.UnrestrictedEditableRegions.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "856ba85fa704fa728b0ec20aafddd16b" "unrestricted-editable-regions.cs" >}}
 
 You can also choose different document editing restrictions for different sections.
 
 The following code example shows how to add a restriction for the entire document, and then remove the restriction for one of the sections:
 
-{{< highlight python >}}
-import aspose.words as aw
-
-# Insert two sections with some text.
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-
-builder.writeln("Section 1. Unprotected.")
-builder.insert_break(aw.BreakType.SECTION_BREAK_CONTINUOUS)
-builder.writeln("Section 2. Protected.")
-
-# Section protection only works when document protection is turned and only editing in form fields is allowed.
-doc.protect(aw.ProtectionType.ALLOW_ONLY_FORM_FIELDS, "password")
-
-# By default, all sections are protected, but we can selectively turn protection off.
-doc.sections[0].protected_for_forms = False
-doc.save(docs_base.artifacts_dir + "DocumentProtection.UnrestrictedSection.docx");
-
-doc = aw.Document(docs_base.artifacts_dir + "DocumentProtection.UnrestrictedSection.docx");
-self.assertFalse(doc.sections[0].protected_for_forms)
-self.assertTrue(doc.sections[1].protected_for_forms);
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "856ba85fa704fa728b0ec20aafddd16b" "unrestricted-section.cs" >}}

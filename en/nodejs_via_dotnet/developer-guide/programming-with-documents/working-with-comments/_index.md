@@ -31,11 +31,11 @@ Aspose.Words allows you to add comments in several ways:
 
 The following code example shows how to add a comment to a paragraph using the **Comment** class:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_comments-AddComments.py" >}}
+{{< gist "aspose-words-gists" "70902b20df8b1f6b0459f676e21623bb" "add-comments.cs" >}}
 
 The following code example shows how to add a comment to a paragraph using a region of text and the **CommentRangeStart** and **CommentRangeEnd** classes:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_comments-AnchorComment.py" >}}
+{{< gist "aspose-words-gists" "70902b20df8b1f6b0459f676e21623bb" "anchor-comment.cs" >}}
 
 ## Extract or Remove Comments
 
@@ -69,7 +69,7 @@ The [getChildNodes](https://reference.aspose.com/words/nodejs-net/aspose.words/c
 
 The following code example shows how to extract the author name, date&time and text of all comments in the document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_comments-ExtractComments.py" >}}
+{{< gist "aspose-words-gists" "70902b20df8b1f6b0459f676e21623bb" "extract-comments.cs" >}}
 
 ### How to Extract Comments of a Specified Author
 
@@ -79,7 +79,7 @@ The overloaded method that extracts the Comments from a particular author is alm
 
 The following code example shows how to extract the author name, date&time and text of the comments by the specified author:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_comments-ExtractCommentsByAuthor.py" >}}
+{{< gist "aspose-words-gists" "70902b20df8b1f6b0459f676e21623bb" "extract-comments-by-author.cs" >}}
 
 ### How to Remove Comments
 
@@ -87,23 +87,23 @@ If you are removing all comments, there is no need to move through the collectio
 
 The following code example shows how to remove all comments in the document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_comments-RemoveComments.py" >}}
+{{< gist "aspose-words-gists" "70902b20df8b1f6b0459f676e21623bb" "remove-comments.cs" >}}
 
 When you need to selectively remove comments, the process becomes more similar to the code we used for comment extraction.
 
 The following code example shows how to remove comments by the specified author:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_comments-RemoveCommentsByAuthor.py" >}}
+{{< gist "aspose-words-gists" "70902b20df8b1f6b0459f676e21623bb" "remove-comments-by-author.cs" >}}
 
 The main point to highlight here is the use of the for operator. Unlike the simple extraction, here you want to delete a comment. A suitable trick is to iterate the collection backwards from the last [Comment](https://reference.aspose.com/words/nodejs-net/aspose.words/comment/) to the first one. The reason for this if you start from the end and move backwards, the index of the preceding items remains unchanged, and you can work your way back to the first item in the collection.
 
 The following code example shows the methods for the comments extraction and removal:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_comments-ProcessComments.py" >}}
+{{< gist "aspose-words-gists" "70902b20df8b1f6b0459f676e21623bb" "process-comments.cs" >}}
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Comments.docx).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/tree/main/Data/Comments.docx).
 
 {{% /alert %}}
 
@@ -113,26 +113,7 @@ Using Aspose.Words you can also remove comments between the **CommentRangeStart*
 
 The following code example shows how to remove text between **CommentRangeStart** and **CommentRangeEnd**:
 
-{{< highlight python >}}
-# Open the document.
-doc = aw.Document(docs_base.my_dir + "Comments.docx")
-
-commentStart = doc.get_child(aw.NodeType.COMMENT_RANGE_START, 0, True).as_comment_range_start()
-commentEnd = doc.get_child(aw.NodeType.COMMENT_RANGE_END, 0, True).as_comment_range_end()
-
-currentNode = commentStart
-isRemoving = True
-while (currentNode != None and isRemoving) :
-    if (currentNode.node_type == aw.NodeType.COMMENT_RANGE_END) :
-        isRemoving = False
-
-    nextNode = currentNode.next_pre_order(doc)
-    currentNode.remove()
-    currentNode = nextNode
-
-# Save the document.
-doc.save(docs_base.artifacts_dir + "WorkingWithComments.remove_region_text.docx")
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "70902b20df8b1f6b0459f676e21623bb" "remove-range-text.cs" >}}
 
 ## Add or Remove Comment's Reply
 
@@ -142,7 +123,7 @@ You can use [removeReply](https://reference.aspose.com/words/nodejs-net/aspose.w
 
 The following code example shows how to add a reply to comment and remove comment's reply:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_comments-AddRemoveCommentReply.py" >}}
+{{< gist "aspose-words-gists" "70902b20df8b1f6b0459f676e21623bb" "add-remove-comment-reply.cs" >}}
 
 ## Read Comment's Reply
 
@@ -150,4 +131,4 @@ The [replies](https://reference.aspose.com/words/nodejs-net/aspose.words/comment
 
 The following code example shows how to iterate through a comment's replies and resolved them:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_comments-CommentResolvedandReplies.py" >}}
+{{< gist "aspose-words-gists" "70902b20df8b1f6b0459f676e21623bb" "comment-resolved-and-replies.cs" >}}

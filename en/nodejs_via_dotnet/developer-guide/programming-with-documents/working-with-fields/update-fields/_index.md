@@ -35,11 +35,11 @@ If you want to update all other fields in the document, then you need to call [u
 
 The following code example shows how to update all fields before rendering a document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-UpdateDocFields.py" >}}
+{{< gist "aspose-words-gists" "08db64c4d86842c4afd1ecb925ed07c4" "update-doc-fields.cs" >}}
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Rendering.docx).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/tree/main/Data/Rendering.docx).
 
 {{% /alert %}}
 
@@ -49,11 +49,11 @@ When you execute a mail merge, all fields in the document will be automatically 
 
 ## Update Fields Having Dirty Attribute
 
-The w:dirty is a field-level attribute that will refresh only the field you specify when the document is opened. It tells MS Word to only refresh this field the next time theÂ document is opened. You can useÂ [updateDirtyFields](https://reference.aspose.com/words/nodejs-net/aspose.words.loading/loadoptions/updatedirtyfields/) propertyÂ to specify whether to update the fields with the dirty attribute.Â When the value of **update_dirty_fields** is set to `True`, all fields having `True` value for [Field.isDirty](https://reference.aspose.com/words/nodejs-net/aspose.words/field/isdirty/) or [FieldChar.isDirty](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldchar/isdirty/) property are updated on document load.
+The w:dirty is a field-level attribute that will refresh only the field you specify when the document is opened. It tells MS Word to only refresh this field the next time the document is opened. You can use the [updateDirtyFields](https://reference.aspose.com/words/nodejs-net/aspose.words.loading/loadoptions/updatedirtyfields/) property to specify whether to update the fields with the dirty attribute. When the value of **updateDirtyFields** is set to `True`, all fields having `True` value for [Field.isDirty](https://reference.aspose.com/words/nodejs-net/aspose.words/field/isdirty/) or [FieldChar.isDirty](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldchar/isdirty/) property are updated on document load.
 
 The following code example shows how to update fields having the dirty attribute:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Load Options-working_with_load_options-UpdateDirtyFields.py" >}}
+{{< gist "aspose-words-gists" "08db64c4d86842c4afd1ecb925ed07c4" "update-dirty-fields.cs" >}}
 
 ## Update LastSavedTime Property Before Saving
 
@@ -61,4 +61,4 @@ You can use [SaveOptions.updateLastSavedTimeProperty](https://reference.aspose.c
 
 The following code example shows how to update this property:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_ooxml_save_options-UpdateLastSavedTimeProperty.py" >}}
+{{< gist "aspose-words-gists" "83e5c469d0e72b5114fb8a05a1d01977" "update-last-saved-time.cs" >}}

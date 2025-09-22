@@ -66,17 +66,17 @@ Note that the [acceptAllRevisions](https://reference.aspose.com/words/nodejs-net
 
 The following code example shows how to work with tracking changes:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_revisions-AcceptAllRevisions.py" >}}
+{{< gist "aspose-words-gists" "e8d71fde166d275d0fc9471c56c3ad39" "accept-all-revisions.cs" >}}
 
 The following code example shows how revisions are generated when a node is moved within a tracked document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_revisions-MoveNodeInTrackedDocument.py" >}}
+{{< gist "aspose-words-gists" "e8d71fde166d275d0fc9471c56c3ad39" "move-node-in-tracked-document.cs" >}}
 
 ## Manage and Store Changes as Revisions
 
 With the previous tracking changes feature, you can understand which changes were made in your document and who made those changes. While with the [trackRevisions](https://reference.aspose.com/words/nodejs-net/aspose.words/document/trackrevisions/) feature, you force any changes within your document to be stored as revisions.
 
-Aspose.Words allows you to check if a document has a revision or not by using the [hasRevision](https://reference.aspose.com/words/nodejs-net/aspose.words/document/hasRevisions/) property. If you do not need to automatically track the changes in your document through the start_track_revisions and stop_track_revisions methods, then you can use the [trackRevisions](https://reference.aspose.com/words/nodejs-net/aspose.words/document/trackrevisions/) property to check if the changes are tracked while editing a document in Microsoft Word and stored as revisions.
+Aspose.Words allows you to check if a document has a revision or not by using the [hasRevision](https://reference.aspose.com/words/nodejs-net/aspose.words/document/hasRevisions/) property. If you do not need to automatically track the changes in your document through the startTrackRevisions and stopTrackRevisions methods, then you can use the [trackRevisions](https://reference.aspose.com/words/nodejs-net/aspose.words/document/trackrevisions/) property to check if the changes are tracked while editing a document in Microsoft Word and stored as revisions.
 
 The [trackRevisions](https://reference.aspose.com/words/nodejs-net/aspose.words/document/trackrevisions/) feature makes revisions instead of real DOM changes. But the revisions themselves are separate. For example, If you delete any paragraph, Aspose.Words make it as a revision, marking it as deletion, instead of deleting it.
 
@@ -90,4 +90,4 @@ Note that there is no connection between the revisions themselves and the [track
 
 The following code example shows how to apply different properties with revisions:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_revisions-ShapeRevision.py" >}}
+{{< gist "aspose-words-gists" "e8d71fde166d275d0fc9471c56c3ad39" "shape-revision.cs" >}}

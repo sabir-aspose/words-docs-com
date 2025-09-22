@@ -45,7 +45,7 @@ You can also write ***BoldItalic*** text.
 
 The following code snippet can be used to produce the above given markdown document.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-Emphases.py" >}}
+{{< gist "aspose-words-gists" "19de942ef8827201c1dca99f76c59133" "emphases.cs" >}}
 
 ## Markdown Document with Headings
 
@@ -64,7 +64,7 @@ The following produces headings:
 
 The following code snippet can be used to produce the above given markdown document.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-Headings.py" >}}
+{{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "heading.cs" >}}
 
 ## Markdown Document with Block Quotes
 
@@ -85,7 +85,7 @@ We support blockquotes in Markdown:
 
 The following code snippet can be used to produce the above given markdown document.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-BlockQuotes.py" >}}
+{{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "quote.cs" >}}
 
 ## Markdown Document with Horizontal Rule
 
@@ -99,13 +99,13 @@ We support Horizontal rules (Thematic breaks) in Markdown:
 
 The following code snippet can be used to produce the above given markdown document.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-HorizontalRule.py" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "insert-horizontal-rule.cs" >}}
 
 ## Reading a Markdown Document
 
 The following code snippet shows you how to read a markdown document.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-ReadMarkdownDocument.py" >}}
+{{< gist "aspose-words-gists" "19de942ef8827201c1dca99f76c59133" "read-markdown-document.cs" >}}
 
 ## Specify Markdown Save Options
 
@@ -113,10 +113,10 @@ Aspose.Words API provides [MarkdownSaveOptions](https://reference.aspose.com/wor
 
 The following code example demonstrated how to specify various Markdown save options.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-base_conversions-SaveToMarkdownDocument.py" >}}
+{{< gist "aspose-words-gists" "51b4cb9c451832f23527892e19c7bca6" "images-folder.cs" >}}
 
 ## How to Align Content Inside the Table while Exporting into Markdown
 
 Aspose.Words API provides [TableContentAlignment](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/tablecontentalignment/) enumeration which defines alignment directions to align contents in tables while exporting into the Markdown document. The following code example demonstrates how to align content inside the table.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_markdown_save_options-ExportIntoMarkdownWithTableContentAlignment.py" >}}
+{{< gist "aspose-words-gists" "19de942ef8827201c1dca99f76c59133" "markdown-table-content-alignment.cs" >}}

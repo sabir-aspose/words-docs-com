@@ -24,7 +24,7 @@ Sometimes you may need to make changes to a particular table in a document. To d
 
 The following code example shows how to retrieve the index of a table in a document:
 
-{{< gist "aspose-words-gists" "212655df045ed6557d6a9b8ea875d8e9" "retrieve-table-index.py" >}}
+{{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "retrieve-table-index.cs" >}}
 
 ### Finding the Index of a Row in a Table
 
@@ -32,7 +32,7 @@ Similarly, you may need to make changes to a specific row in a selected table. T
 
 The following code example shows how to retrieve the index of a row in a table:
 
-{{< gist "aspose-words-gists" "212655df045ed6557d6a9b8ea875d8e9" "retrieve-row-index.py" >}}
+{{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "retrieve-row-index.cs" >}}
 
 ### Finding the Index of a Cell in a Row
 
@@ -40,7 +40,7 @@ Finally, you may need to make changes to a specific cell, and you can do this by
 
 The following code example shows how to retrieve the index of a cell in a row:
 
-{{< gist "aspose-words-gists" "212655df045ed6557d6a9b8ea875d8e9" "retrieve-cell-index.py" >}}
+{{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "retrieve-cell-index.cs" >}}
 
 ## Work with Columns
 
@@ -56,15 +56,15 @@ Any operations performed on columns are actually "shortcuts" that perform the op
 
 The following code example simplifies such operations by proving a facade class that collects the cells that make up a "column" of a table:
 
-{{< gist "aspose-words-gists" "212655df045ed6557d6a9b8ea875d8e9" "column-class.py" >}}
+{{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "column-class.cs" >}}
 
 The following code example shows how to insert a blank column into a table:
 
-{{< gist "aspose-words-gists" "212655df045ed6557d6a9b8ea875d8e9" "insert-blank-column.py" >}}
+{{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "insert-blank-column.cs" >}}
 
 The following code example shows how to remove a column from a table in a document:
 
-{{< gist "aspose-words-gists" "212655df045ed6557d6a9b8ea875d8e9" "remove-column.py" >}}
+{{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "remove-column.cs" >}}
 
 ## Specify Rows as Header Rows
 
@@ -80,7 +80,7 @@ Note that Header Rows do not work in nested tables. That is, if you have a table
 
 The following code example shows how to build a table which includes Header Rows that repeat on subsequent pages:
 
-{{< gist "aspose-words-gists" "212655df045ed6557d6a9b8ea875d8e9" "repeat-rows-on-subsequent-pages.py" >}}
+{{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "repeat-rows-on-subsequent-pages.cs" >}}
 
 ## Keep Tables and Rows from Breaking across Pages
 
@@ -99,11 +99,11 @@ This involves restricting content inside the cells of a row from being split acr
 
 The following code example shows how to disable breaking rows across pages for each row in a table:
 
-{{< gist "aspose-words-gists" "212655df045ed6557d6a9b8ea875d8e9" "row-format-disable-break-across-pages.py" >}}
+{{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "row-format-disable-break-across-pages.cs" >}}
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Table%20spanning%20two%20pages.docx).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/tree/main/Data/Table%20spanning%20two%20pages.docx).
 
 {{% /alert %}}
 
@@ -115,10 +115,10 @@ To do this, Aspose.Words uses a method, which allows users to select a table and
 
 The following code example shows how to set a table to stay together on the same page:
 
-{{< gist "aspose-words-gists" "212655df045ed6557d6a9b8ea875d8e9" "keep-table-together.py" >}}
+{{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "keep-table-together.cs" >}}
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Table%20spanning%20two%20pages.docx).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/tree/main/Data/Table%20spanning%20two%20pages.docx).
 
 {{% /alert %}}

@@ -18,10 +18,10 @@ To remove a field inserted into a document using [DocumentBuilder.insertField](h
 
 The following code example shows how to remove a field from the document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-RemoveField.py" >}}
+{{< gist "aspose-words-gists" "8c604665c1b97795df7a1e665f6b44ce" "remove-field.cs" >}}
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Various%20fields.docx).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/tree/main/Data/Various%20fields.docx).
 
 {{% /alert %}}

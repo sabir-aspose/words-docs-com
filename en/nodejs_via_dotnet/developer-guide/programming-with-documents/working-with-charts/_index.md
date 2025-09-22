@@ -22,7 +22,7 @@ In this section we will learn how to insert a chart into a document.
 
 The following code example shows how to insert column chart:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-InsertSimpleColumnChart.py" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "insert-simple-column-chart.cs" >}}
 
 The code produces the following result:
 
@@ -30,7 +30,7 @@ The code produces the following result:
 
 There are [add](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartseriescollection/add/), **addDouble** and **addDate** methods, which was exposed to cover all possible variants of data sources for all chart types:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-InsertColumnChart.py" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "insert-column-chart.cs" >}}
 
 The code produces the following result:
 
@@ -40,7 +40,7 @@ The code produces the following result:
 
 Below example shows how to insert a scatter chart.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-InsertScatterChart.py" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "insert-scatter-chart.cs" >}}
 
 The code produces the following result:
 
@@ -50,7 +50,7 @@ The code produces the following result:
 
 The following code example shows how to insert an area chart:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-InsertAreaChart.py" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "insert-area-chart.cs" >}}
 
 The code produces the following result:
 
@@ -60,7 +60,7 @@ The code produces the following result:
 
 The following code example shows how to insert a bubble chart:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-InsertBubbleChart.py" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "insert-bubble-chart.cs" >}}
 
 The code produces the following result:
 
@@ -72,7 +72,7 @@ Once the chart was inserted and filled with data, you are able to change its app
 
 For example, let's change [ChartTitle](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/charttitle/) title or [ChartLegend](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartlegend/) behavior:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-CreateChartUsingShape.py" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "create-chart-using-shape.cs" >}}
 
 The code generates the followings results:
 
@@ -82,7 +82,7 @@ The code generates the followings results:
 
 Let’s look into [ChartSeries](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartseries/) collection. All chart series are available through [Chart.series](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/chart/series/) collection:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-ChartSeriesCollection.py" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "chart-series-collection.cs" >}}
 
 You can remove series one by one or clear all of them as well as add a new one if needed. The newly inserted chart has some default series added to this collection. To remove them you need to call [chart.series.clear()](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartseriescollection/clear/) method.
 
@@ -90,7 +90,7 @@ You can remove series one by one or clear all of them as well as add a new one i
 
 Here is how to work with a particular series.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-WorkWithSingleChartSeries.py" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "work-with-single-chart-series.cs" >}}
 
 Please see the result below:
 
@@ -99,7 +99,7 @@ Please see the result below:
 
 All single [ChartSeries](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartseries/) have default [ChartDataPoint](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartdatapoint/) options, please try using the following code to change them:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-ChartDataPoint.py" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "chart-data-point.cs" >}}
 
 Please see the result below:
 
@@ -109,7 +109,7 @@ Please see the result below:
 
 Using [ChartDataPoint](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartdatapoint/) you are able to customize the formatting of a single data point of the chart series:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-WorkWithSingleChartDataPoint.py" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "work-with-single-chart-data-point.cs" >}}
 
 Please see the result below:
 
@@ -119,7 +119,7 @@ Please see the result below:
 
 Using [ChartDataLabel](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartdatalabel/) you are able to specify the formatting of a single data label of the chart series, like show/hide LegendKey, CategoryName, SeriesName, Value etc.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-WorkWithChartDataLabel.py" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "work-with-chart-data-label.cs" >}}
 
 Please see the result below:
 
@@ -129,7 +129,7 @@ Please see the result below:
 
 The [ChartDataLabelCollection](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/) class defines properties which can be used to set default options for [ChartDataLabel](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartdatalabel/) for Chart Series. These properties include [showCategoryName](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/), [showBubbleSize](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/), [showPercentage](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/), [showSeriesName](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/), [showValue](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/showvalue/) etc.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-DefaultOptionsForDataLabels.py" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "default-options-for-data-labels.cs" >}}
 
 Please see the result below:
 
@@ -141,7 +141,7 @@ Using [ChartDataLabel.numberFormat](https://reference.aspose.com/words/nodejs-ne
 
 The following code example shows how to format a number of the data label:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-FormatNumberOfDataLabel.py" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "format-number-of-data-label.cs" >}}
 
 ## How to Set Chart Axis Properties
 
@@ -149,19 +149,19 @@ If you want to work with chart axis, scaling, and display units for the value ax
 
 The following code example shows how to define X and Y-axis properties:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-DefineXYAxisProperties.py" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "define-axis-properties.cs" >}}
 
 ### How to Set Date Time Value of Axis
 
 The following code example shows how to set date/time values to axis properties:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-SetDateTimeValuesToAxis.py" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "date-time-values-to-axis.cs" >}}
 
 ### How to Format Number Value of Axis
 
 The following code example shows how to change the format of numbers on the value axis:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-SetNumberFormatForAxis.py" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "number-format-for-axis.cs" >}}
 
 ### How to Set Bounds of Axis
 
@@ -169,13 +169,13 @@ The [AxisBound](https://reference.aspose.com/words/nodejs-net/aspose.words.drawi
 
 The following code example shows how to set bounds of an axis:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-SetboundsOfAxis.py" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "bounds-of-axis.cs" >}}
 
 ### How to Set Interval Unit Between Labels
 
 The following code example shows how to set the interval unit between labels on an axis:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-SetIntervalUnitBetweenLabelsOnAxis.py" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "interval-unit-between-labels-on-axis.cs" >}}
 
 ### How to Hide Chart Axis
 
@@ -183,15 +183,15 @@ If you want to show or hide the chart axis, you can simply achieve this by setti
 
 The following code example shows how to hide the Y-axis of the chart:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-HideChartAxis.py" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "hide-chart-axis.cs" >}}
 
 ### How to Align Chart Label
 
-If you want to set a text alignment for multi-line labels, you can simply achieve this by setting the value of **ChartAxis.tick_label_alignment** property.
+If you want to set a text alignment for multi-line labels, you can simply achieve this by setting the value of **ChartAxis.tickLabelAlignment** property.
 
 The following code example shows how to tick label alignment:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-TickMultiLineLabelAlignment.py" >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "tick-multi-line-label-alignment.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -201,61 +201,12 @@ MS Word aligns Chart Label to the centre by default.
 
 ## How to Set Fill and Stroke Formatting
 
-Fill and stroke formatting can be set for chart series, data points, and markers. To do this, you need to use the properties of the [ChartFormat](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartformat/) type in the [ChartSeries](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartseries/), [ChartDataPoint](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartdatapoint/), and [ChartMarker](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartmarker/) classes, as well as aliases for some properties, such as [foreColor](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/stroke/forecolor/), [backColor](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/stroke/backcolor/), [visible](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/stroke/visible/), and [transparency](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/stroke/transparency/) in the [Stroke](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/stroke/) class.
+Fill and stroke formatting can be set for chart series, data points, and markers. To do this, you need to use the properties of the [ChartFormat](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartformat/) type in the [ChartSeries](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartseries/), [ChartDataPoint](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartdatapoint/), and [ChartMarker](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartmarker/) classes, as well as aliases for some properties, such as [foreColor](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/stroke/forecolor/), [backColor](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/stroke/backcolor/), [visible](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/stroke/visible/), and [transparency](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/stroke/transparency/) in the [stroke](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/stroke/) class.
 
 The following code example shows how to set series color:
 
-{{< highlight python >}}
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-
-shape = builder.insert_chart(aw.drawing.charts.ChartType.COLUMN, 432, 252)
-
-chart = shape.chart
-seriesColl = chart.series
-
-# Delete default generated series.
-seriesColl.clear()
-
-# Create category names array.
-categories = [ "AW Category 1", "AW Category 2" ]
-
-# Adding new series. Value and category arrays must be the same size.
-series1 = seriesColl.add("AW Series 1", categories, [ 1, 2 ])
-series2 = seriesColl.add("AW Series 2", categories, [ 3, 4 ])
-series3 = seriesColl.add("AW Series 3", categories, [ 5, 6 ])
-
-# Set series color.
-series1.format.fill.fore_color = drawing.Color.red
-series2.format.fill.fore_color = drawing.Color.yellow
-series3.format.fill.fore_color = drawing.Color.blue
-
-doc.save(docs_base.artifacts_dir + "WorkingWithCharts.set_series_color.docx")
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "fill-formatting.cs" >}}
 
 The following code example shows how to set line color and weight:
 
-{{< highlight python >}}
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-
-shape = builder.insert_chart(aw.drawing.charts.ChartType.LINE, 432, 252)
-
-chart = shape.chart
-seriesColl = chart.series
-
-# Delete default generated series.
-seriesColl.clear()
-
-# Adding new series.
-series1 = seriesColl.add_double("AW Series 1", [ 0.7, 1.8, 2.6 ], [ 2.7, 3.2, 0.8 ])
-series2 = seriesColl.add_double("AW Series 2", [ 0.5, 1.5, 2.5 ], [ 3, 1, 2 ])
-
-# Set series color.
-series1.format.stroke.fore_color = drawing.Color.red
-series1.format.stroke.weight = 5
-series2.format.stroke.fore_color = drawing.Color.light_green
-series2.format.stroke.weight = 5
-
-doc.save(docs_base.artifacts_dir + "WorkingWithCharts.line_color_and_weight.docx")
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "stroke-formatting.cs" >}}

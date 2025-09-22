@@ -22,7 +22,7 @@ You can insert inline shape with specified type and size and free-floating shape
 
 The following code example shows how to insert these types of shapes into the document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_shapes-InsertShape.py" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "insert-shape.cs" >}}
 
 ## Set Aspect Ratio Locked
 
@@ -30,7 +30,7 @@ Using Aspose.Words, you can specify whether the shape’s aspect ratio is locked
 
 The following code example shows how to work with the **AspectRatioLocked** property:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_shapes-AspectRatioLocked.py" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "aspect-ratio-locked.cs" >}}
 
 ## Set Shape Layout In Cell
 
@@ -38,7 +38,7 @@ You can also specify whether the shape is displayed inside a table or outside of
 
 The following code example shows how to work with the **IsLayoutInCell** property:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_shapes-LayoutInCell.py" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "layout-in-cell.cs" >}}
 
 ## Create Snip Corner Rectangle
 
@@ -48,7 +48,7 @@ The DML shape is created using [insertShape](https://reference.aspose.com/words/
 
 The following code example shows how to insert these type of shapes into the document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_shapes-AddCornersSnipped.py" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "add-corners-snipped.cs" >}}
 
 ## Get Actual Shape Bounds Points
 
@@ -56,7 +56,7 @@ Using Aspose.Words API, you can get the location and size of the shape containin
 
 The following code example shows how to work with the **BoundsInPoints** property:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_shapes-GetActualShapeBoundsPoints.py" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "get-actual-shape-bounds-points.cs" >}}
 
 ## Specify Vertical Anchor
 
@@ -64,7 +64,7 @@ You can specify the text vertical alignment within a shape using the [verticalAn
 
 The following code example shows how to work with the **VerticalAnchor** property:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_shapes-VerticalAnchor.py" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "vertical-anchor.cs" >}}
 
 ## Detect SmartArt Shape
 
@@ -72,7 +72,7 @@ Aspose.Words also allows to detect if the Shape has a `SmartArt` object. To do t
 
 The following code example shows how to work with the **HasSmartArt** property:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_shapes-DetectSmartArtShape.py" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "detect-smart-art-shape.cs" >}}
 
 ## Insert Horizontal Rule into Document
 
@@ -80,13 +80,13 @@ You can insert horizontal rule shape into a document using the [insertHorizontal
 
 The following code example shows how to do this:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-add_content_using_document_builder-InsertHorizontalRule.py" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "insert-horizontal-rule.cs" >}}
 
 Aspose.Words API provides the [horizontalRuleFormat](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/horizontalruleformat/) property to access the properties of the horizontal rule shape. The [HorizontalRuleFormat](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/horizontalruleformat/) class exposes basic properties like [height](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/horizontalruleformat/height/), [color](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/horizontalruleformat/color/), [noShade](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/horizontalruleformat/noshade/) etc. for the formatting of a horizontal rule.
 
 The following code example demonstrates how to set [HorizontalRuleFormat](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/horizontalruleformat/):
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-add_content_using_document_builder-HorizontalRuleFormat.py" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "horizontal-rule-format.cs" >}}
 
 ## Insert OLE Object as an Icon
 
@@ -94,7 +94,7 @@ Aspose.Words API provides **Shape.insert_ole_object_as_icon** function to inser
 
 The following code example demonstrates how to set insert OLE object as an Icon into the document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_ole_objects_and_active_x-InsertOLEObjectAsIcon.py" >}}
+{{< gist "aspose-words-gists" "4996b573cf231d9f66ab0d1f3f981222" "insert-ole-object-as-icon.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -108,4 +108,4 @@ You can use [convertShapeToOfficeMath](https://reference.aspose.com/words/nodejs
 
 The following code example shows how to convert shapes to Office Math objects:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Load Options-working_with_load_options-ConvertShapeToOfficeMath.py" >}}
+{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "convert-shape-to-office-math.cs" >}}

@@ -57,7 +57,7 @@ The type of each node can be obtained using the [Node.nodeType](https://referenc
 
 The following example shows how to get a node type using the [NodeType](https://reference.aspose.com/words/nodejs-net/aspose.words/nodetype/) enumeration:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_node-UseNodeType.py" >}}
+{{< gist "aspose-words-gists" "3e9d92093b2f5995f984791bfc10c944" "get-node-type.cs" >}}
 
 ## Document Tree Navigation {#document-tree-navigation}
 
@@ -101,7 +101,7 @@ When creating a new paragraph using [DocumentBuilder](https://reference.aspose.c
 
 The following code example shows that when creating any node, a document that will own the node is always defined:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_node-OwnerDocument.py" >}}
+{{< gist "aspose-words-gists" "3e9d92093b2f5995f984791bfc10c944" "owner-document.cs" >}}
 
 #### Parent Node
 
@@ -113,7 +113,7 @@ Each node has a parent specified by the [parentNode](https://reference.aspose.co
 
 You can remove a node from its parent by calling the [Node.remove](https://reference.aspose.com/words/nodejs-net/aspose.words/node/remove/) method.The following code example shows how to access the parent node:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_node-GetParentNode.py" >}}
+{{< gist "aspose-words-gists" "3e9d92093b2f5995f984791bfc10c944" "get-parent-node.cs" >}}
 
 #### Child Nodes
 
@@ -125,7 +125,7 @@ If a node has no child, then the **get_child_nodes** method returns an empty col
 
 The following code example shows how to enumerate immediate child nodes of a [CompositeNode](https://reference.aspose.com/words/nodejs-net/aspose.words/compositenode/) using the enumerator provided by the **get_child_nodes** collection:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_node-EnumerateChildNodes.py" >}}
+{{< gist "aspose-words-gists" "3e9d92093b2f5995f984791bfc10c944" "enumerate-child-nodes.cs" >}}
 
 #### Sibling Nodes
 
@@ -133,7 +133,7 @@ You can obtain the node that immediately precedes or follows a particular node u
 
 The following code example shows how to efficiently visit all direct and indirect child nodes of a composite node:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_node-RecurseAllNodes.py" >}}
+{{< gist "aspose-words-gists" "3e9d92093b2f5995f984791bfc10c944" "recurse-all-nodes.cs" >}}
 
 ### Typed Access to Child and Parent Nodes {#typed-access-to-child-and-parent-nodes}
 
@@ -149,4 +149,4 @@ Typed properties are merely useful shortcuts that sometimes provide easier acces
 
 The following code example shows how to use typed properties to access nodes of the document tree:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_node-TypedAccess.py" >}}
+{{< gist "aspose-words-gists" "3e9d92093b2f5995f984791bfc10c944" "typed-access.cs" >}}

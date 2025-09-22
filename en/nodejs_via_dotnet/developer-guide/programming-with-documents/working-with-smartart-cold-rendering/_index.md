@@ -26,8 +26,7 @@ Aspose.Words allows you to use a pre-rendered drawing or perform cold rendering:
 
 The following code example shows how to update drawings for all diagrams in the document:
 
-**.NET**
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_shapes-UpdateSmartArtDrawing.py" >}}
+{{< gist "aspose-words-gists" "683cdbe52b97598d9d4ee4695b4f83c9" "update-smart-art-drawing.cs" >}}
 
 ## Support for Standard SmartArt Layouts
 

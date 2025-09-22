@@ -52,41 +52,7 @@ As a result of comparison, documents can be determined as equal or not equal. Th
 
 The following code example shows how to check if two documents are equal or not:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-compare_documents-CompareForEqual.py" >}}
-
-The following code example shows how to simply apply the `Compare` method to two documents:
-
-{{< highlight python >}}
-# The source document doc1.
-doc1 = aw.Document()
-builder = aw.DocumentBuilder(doc1)
-builder.writeln("This is the original document.")
-
-# The target document doc2.
-doc2 = aw.Document()
-builder = aw.DocumentBuilder(doc2)
-builder.writeln("This is the edited document.")
-
-# If either document has a revision, an exception will be thrown.
-if (doc1.revisions.count == 0 and doc2.revisions.count == 0) :
-    doc1.compare(doc2, "authorName", datetime.today())
-
-# If doc1 and doc2 are different, doc1 now has some revisions after the comparison, which can now be viewed and processed.
-self.assertEqual(2, doc1.revisions.count)
-
-for r in doc1.revisions :
-    print(f"Revision type: {r.revision_type}, on a node of type \"{r.parent_node.node_type}\"")
-    print(f"\tChanged text: \"{r.parent_node.get_text()}\"")
-
-# All the revisions in doc1 are differences between doc1 and doc2, so accepting them on doc1 transforms doc1 into doc2.
-doc1.revisions.accept_all()
-
-# doc1, when saved, now resembles doc2.
-doc1.save(docs_base.artifacts_dir + "Document.Compare.docx")
-doc1 = aw.Document(docs_base.artifacts_dir + "Document.Compare.docx")
-self.assertEqual(0, doc1.revisions.count)
-self.assertEqual(doc2.get_text().strip(), doc1.get_text().strip())
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "66cba61d079d8ef1e676820633ba4586" "compare-for-equal.cs" >}}
 
 ## Specify Advanced Comparing Properties {#specify-advanced-comparing-properties}
 
@@ -100,4 +66,4 @@ Another common property is a choice in which document to show comparison changes
 
 The following code example shows how to set the advanced comparing properties:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-compare_documents-CompareOptions.py" >}}
+{{< gist "aspose-words-gists" "66cba61d079d8ef1e676820633ba4586" "compare-options.cs" >}}

@@ -23,4 +23,4 @@ We can create two tables from the original table by following these simple steps
 
 The following code example shows how to split a table into two tables on a specific row:
 
-{{< gist "aspose-words-gists" "d31be78b25b463dd4eb31c85c60fc549" "split-table.py" >}}
+{{< gist "aspose-words-gists" "4ab56c5443822fa44f4cac1f45af32b7" "split-table.cs" >}}

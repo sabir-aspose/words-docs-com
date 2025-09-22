@@ -55,7 +55,7 @@ The code in this section addresses all of the possible situations described abov
 
 ## How to Extract Content
 
-To extract the content from your document you need to call the **extract_content** method below and pass the appropriate parameters. The underlying basis of this method involves finding block level nodes (paragraphs and tables) and cloning them to create identical copies. If the marker nodes passed are block level then the method is able to simply copy the content on that level and add it to the array.
+To extract the content from your document you need to call the **extractContent** method below and pass the appropriate parameters. The underlying basis of this method involves finding block level nodes (paragraphs and tables) and cloning them to create identical copies. If the marker nodes passed are block level then the method is able to simply copy the content on that level and add it to the array.
 
 However if the marker nodes are inline (a child of a paragraph) then the situation becomes more complex, as it is necessary to split the paragraph at the inline node, be it a run, bookmark fields etc. Content in the cloned parent nodes not present between the markers is removed. This process is used to ensure that the inline nodes will still retain the formatting of the parent paragraph. The method will also run checks on the nodes passed as parameters and throws an exception if either node is invalid. The parameters to be passed to this method are:
 
@@ -74,7 +74,7 @@ We will also define a custom method to easily generate a document from extracted
 
 The following code example shows how to take a list of nodes and inserts them into a new document:
 
-{{< gist "aspose-words-gists" "399801c9a5e656ed05aa2d7ac5ebc41e" "generate-document.py" >}}
+{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "generate-document.cs" >}}
 
 ## Extract Content Between Paragraphs
 
@@ -82,13 +82,13 @@ This demonstrates how to use the method above to extract content between specifi
 
 The code below accomplishes this task. The appropriate paragraphs are extracted using the [CompositeNode.getСhild](https://reference.aspose.com/words/nodejs-net/aspose.words/compositenode/getChild/) method on the document and passing the specified indices. We then pass these nodes to the **extract_content** method and state that these are to be included in the extraction. This method will return the copied content between these nodes which are then inserted into a new document.
 
-The following code example shows how to extract the content between specific paragraphs using the **extract_content** method above:
+The following code example shows how to extract the content between specific paragraphs using the **extractContent** method above:
 
-{{< gist "aspose-words-gists" "399801c9a5e656ed05aa2d7ac5ebc41e" "extract-content-between-paragraphs.py" >}}
+{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "extract-content-between-paragraphs.cs" >}}
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Extract%20content.docx).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/blob/main/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
@@ -96,13 +96,13 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 We can extract content between any combinations of block level or inline nodes. In this scenario below we will extract the content between first paragraph and the table in the second section inclusively. We get the markers nodes by calling [Body.firstParagraph](https://reference.aspose.com/words/nodejs-net/aspose.words/story/firstParagraph/) and [CompositeNode.getСhild](https://reference.aspose.com/words/nodejs-net/aspose.words/compositenode/getChild/) method on the second section of the document to retrieve the appropriate [Paragraph](https://reference.aspose.com/words/nodejs-net/aspose.words/paragraph/) and **Table** nodes. For a slight variation let’s instead duplicate the content and insert it below the original.
 
-The following code example shows how to extract the content between a paragraph and table using the **extract_content** method:
+The following code example shows how to extract the content between a paragraph and table using the **extractContent** method:
 
-{{< gist "aspose-words-gists" "399801c9a5e656ed05aa2d7ac5ebc41e" "extract-content-between-block-level-nodes.py" >}}
+{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "extract-content-between-block-level-nodes.cs" >}}
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Extract%20content.docx).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/blob/main/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
@@ -114,15 +114,15 @@ The code below shows how to achieve this. It is a simple example which will extr
 
 In a proper implementation this should be run in a loop to extract content between all paragraphs of these styles from the document. The extracted content is copied into a new document.
 
-The following code example shows how to extract content between paragraphs with specific styles using the **extract_content** method:
+The following code example shows how to extract content between paragraphs with specific styles using the **extractContent** method:
 
-{{< gist "aspose-words-gists" "399801c9a5e656ed05aa2d7ac5ebc41e" "extract-content-between-paragraph-styles.py" >}}
+{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "extract-content-between-paragraph-styles.cs" >}}
 
-{{< gist "aspose-words-gists" "399801c9a5e656ed05aa2d7ac5ebc41e" "paragraphs-by-style-name.py" >}}
+{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "paragraphs-by-style-name.cs" >}}
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Extract%20content.docx).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/blob/main/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
@@ -130,13 +130,13 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 You can extract content between inline nodes such as a [Run](https://reference.aspose.com/words/nodejs-net/aspose.words/run/) as well. Runs from different paragraphs can be passed as markers. The code below shows how to extract specific text in-between the same [Paragraph](https://reference.aspose.com/words/nodejs-net/aspose.words/paragraph/) node.
 
-The following code example shows how to extract content between specific runs of the same paragraph using the **extract_content** method:
+The following code example shows how to extract content between specific runs of the same paragraph using the **extractContent** method:
 
-{{< gist "aspose-words-gists" "399801c9a5e656ed05aa2d7ac5ebc41e" "extract-content-between-runs.py" >}}
+{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "extract-content-between-runs.cs" >}}
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Extract%20content.docx).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/blob/main/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
@@ -144,15 +144,15 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 To use a field as marker, the [FieldStart](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldstart/) node should be passed. The last parameter to the **extract_content** method will define if the entire field is to be included or not. Let’s extract the content between the “FullName” merge field and a paragraph in the document. We use the [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/moveToMergeField/) method of [DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/) class. This will return the [FieldStart](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldstart/) node from the name of merge field passed to it.
 
-In our case let’s set the last parameter passed to the **extract_content** method to `False` to exclude the field from the extraction. We will render the extracted content to PDF.
+In our case let’s set the last parameter passed to the **extractContent** method to `False` to exclude the field from the extraction. We will render the extracted content to PDF.
 
-The following code example shows how to extract content between a specific field and paragraph in the document using the **extract_content** method:
+The following code example shows how to extract content between a specific field and paragraph in the document using the **extractContent** method:
 
-{{< gist "aspose-words-gists" "399801c9a5e656ed05aa2d7ac5ebc41e" "extract-content-using-field.py" >}}
+{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "extract-content-using-field.cs" >}}
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Extract%20content.docx).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/blob/main/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
@@ -160,13 +160,13 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 In a document the content that is defined within a bookmark is encapsulated by the [BookmarkStart](https://reference.aspose.com/words/nodejs-net/aspose.words/bookmarkstart/) and [BookmarkEnd](https://reference.aspose.com/words/nodejs-net/aspose.words/bookmarkend/) nodes. Content found between these two nodes make up the bookmark. You can pass either of these nodes as any marker, even ones from different bookmarks, as long as the starting marker appears before the ending marker in the document. We will extract this content into a new document using the code below. The **isInclusive** parameter option shows how to retain or discard the bookmark.
 
-The following code example shows how to extract the content referenced a bookmark using the **extract_content** method:
+The following code example shows how to extract the content referenced a bookmark using the **extractContent** method:
 
-{{< gist "aspose-words-gists" "399801c9a5e656ed05aa2d7ac5ebc41e" "extract-content-between-bookmark.py" >}}
+{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "extract-content-between-bookmark.cs" >}}
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Extract%20content.docx).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/blob/main/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
@@ -178,11 +178,11 @@ The comment encapsulates the heading, first paragraph and the table in the secon
 
 The following code example shows how to do this:
 
-{{< gist "aspose-words-gists" "399801c9a5e656ed05aa2d7ac5ebc41e" "extract-content-between-comment-range.py" >}}
+{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "extract-content-between-comment-range.cs" >}}
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Extract%20content.docx).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/blob/main/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
@@ -194,7 +194,7 @@ The ways to retrieve text from the document are:
 - Use [Node.toString](https://reference.aspose.com/words/nodejs-net/aspose.words/node/toString/) and pass the [SaveFormat.Text](https://reference.aspose.com/words/nodejs-net/aspose.words/saveformat/) parameter. Internally, this invokes save as text into a memory stream and returns the resulting string
 - Use [Node.getText](https://reference.aspose.com/words/nodejs-net/aspose.words/node/getText/) to retrieve text with all Microsoft Word control characters including field codes
 
-### Using Node.get_text and Node.to_string
+### Using Node.getText and Node.toString
 
 A Word document can contains control characters that designate special elements such as field, end of cell, end of section etc. The full list of possible Word control characters is defined in the [ControlChar](https://reference.aspose.com/words/nodejs-net/aspose.words/controlchar/) class. The [Node.getText](https://reference.aspose.com/words/nodejs-net/aspose.words/node/getText/) method returns text with all of the control character characters present in the node.
 
@@ -202,7 +202,7 @@ Calling [toString](https://reference.aspose.com/words/nodejs-net/aspose.words/no
 
 The following code example shows the difference between calling the [getText](https://reference.aspose.com/words/nodejs-net/aspose.words/node/gettext/) and [toString](https://reference.aspose.com/words/nodejs-net/aspose.words/node/tostring/) methods on a node:
 
-{{< gist "aspose-words-gists" "399801c9a5e656ed05aa2d7ac5ebc41e" "simple-extract-text.py" >}}
+{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "simple-extract-text.cs" >}}
 
 ### Using `SaveFormat.Text`
 
@@ -214,7 +214,7 @@ This example saves the document as follows:
 
 The following code example shows how to save a document in TXT format:
 
-{{< gist "aspose-words-gists" "399801c9a5e656ed05aa2d7ac5ebc41e" "docx-to-txt.py" >}}
+{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "docx-to-txt.cs" >}}
 
 ## Extract Images from Shapes
 
@@ -222,4 +222,4 @@ You may need to extract document images to perform some tasks. Aspose.Words allo
 
 The following code example shows how to extract images from a document:
 
-{{< gist "aspose-words-gists" "399801c9a5e656ed05aa2d7ac5ebc41e" "extract-images.py" >}}
+{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "extract-images.cs" >}}

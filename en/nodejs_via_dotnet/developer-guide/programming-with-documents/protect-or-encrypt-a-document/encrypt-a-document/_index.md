@@ -43,21 +43,7 @@ The table below lists the formats and encryption algorithms supported by Aspose.
 
 The following code example shows how to encrypt a document with a password:
 
-{{< highlight python >}}
-import aspose.words as aw
-
-# Create a document.
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-builder.write("Hello world!")
-
-# DocSaveOptions only applies to Doc and Dot save formats.
-options = aw.saving.DocSaveOptions(aw.SaveFormat.DOC);
-
-// Set a password with which the document will be encrypted, and which will be required to open it.
-options.password = "MyPassword"
-doc.save(artifacts_dir + "DocSaveOptions.SaveAsDoc.doc", options)
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "af95c7a408187bb25cf9137465fe5ce6" "encrypt-document-with-password.cs" >}}
 
 ## Check If a Document Is Encrypted
 
@@ -67,22 +53,7 @@ To detect if a document is encrypted and if a password is required, you can use 
 
 The following code example shows how to detect the document encryption:
 
-{{< highlight python >}}
-import aspose.words as aw
-
-# Create a document.
-doc = aw.Document()
-saveOptions = aw.saving.OdtSaveOptions(aw.SaveFormat.ODT)
-saveOptions.password = "MyPassword"
-
-doc.Save(artifacts_dir + "File.DetectDocumentEncryption.odt", saveOptions)
-            
-# Create a `FileFormatInfo` object for this document.
-info = aw.FileFormatUtil.detect_file_format(artifacts_dir + "File.DetectDocumentEncryption.odt")
-
-# Verify the encryption status of our document.
-self.assertTrue(info.is_encrypted)
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "af95c7a408187bb25cf9137465fe5ce6" "verify-encrypted-document.cs" >}}
 
 ## Open a Document With or Without a Password
 
@@ -90,48 +61,10 @@ When we have made sure that a document is encrypted, we can try to open this doc
 
 The following code example shows how to try opening an encrypted document without a password:
 
-{{< highlight python >}}
-import aspose.words as aw
-
-# Create a document.
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-builder.write("Hello world!")
-
-# OoxmlSaveOptions only applies to Docx, Docm, Dotx, Dotm, or FlatOpc formats.
-options = aw.saving.OoxmlSaveOptions(aw.SaveFormat.DOCX)
-
-# Set a password with which the document will be encrypted, and which will be required to open it.
-options.password = "MyPassword"
-doc.Save(artifacts_dir + "OoxmlSaveOptions.SaveAsDocx.docx", options)
-
-# We will not be able to open this document with Microsoft Word or
-# Aspose.Words without providing the correct password.
-# The following line will throw an exception.
-doc = aw.Document(artifacts_dir + "OoxmlSaveOptions.Password.docx"))
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "af95c7a408187bb25cf9137465fe5ce6" "load-encrypted-document-without-password.cs" >}}
 
 After we have seen that an encrypted document cannot be opened without a password, we can try to open it by entering the password.
 
 The following code example shows how to try opening an encrypted document with a password:
 
-{{< highlight python >}}
-import aspose.words as aw
-
-# Create a document.
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-builder.write("Hello world!")
-
-# OoxmlSaveOptions only applies to Docx, Docm, Dotx, Dotm, or FlatOpc formats.
-options = aw.saving.OoxmlSaveOptions(aw.SaveFormat.DOCX)
-
-# Set a password with which the document will be encrypted, and which will be required to open it.
-options.password = "MyPassword"
-doc.Save(artifacts_dir + "OoxmlSaveOptions.SaveAsDocx.docx", options)
-
-# Open the encrypted document by passing the correct password in a `LoadOptions` object.
-doc = aw.Document(artifacts_dir + "OoxmlSaveOptions.Password.docx", aw.loading.LoadOptions("MyPassword"))
-
-self.assertEqual("Hello world!", doc.get_text().strip())
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "af95c7a408187bb25cf9137465fe5ce6" "load-save-encrypted-document.cs" >}}

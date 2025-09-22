@@ -44,7 +44,7 @@ You can also use the [ListFormat.listLevelNumber](https://reference.aspose.com/w
 
 Below example shows how to build a multilevel list.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-document_formatting-MultilevelListFormatting.py" >}}
+{{< gist "aspose-words-gists" "a1dfeba1e0480d5b277a61742c8921af" "multilevel-list-formatting.cs" >}}
 
 ## Specify Formatting for a List Level
 
@@ -56,4 +56,4 @@ You can restart a list for each section using the [isRestartAtEachSection](https
 
 The following code example shows how to create a list and restart it for each section:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_list-RestartListAtEachSection.py" >}}
+{{< gist "aspose-words-gists" "a1dfeba1e0480d5b277a61742c8921af" "restart-list-at-each-section.cs" >}}

@@ -20,11 +20,11 @@ You can control how a document will be displayed in Microsoft Word using the [Vi
 
 The following code example shows how to ensure that a document is displayed at 50% when opened in Microsoft Word:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_options_and_settings-SetViewOption.py" >}}
+{{< gist "aspose-words-gists" "5d2997d42c1f1fad79b18873f170855f" "set-view-option.cs" >}}
 
 {{% alert color="primary" %}}
 
-You can download the template file for this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx).
+You can download the template file for this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/tree/main/Data/Document.docx).
 
 {{% /alert %}}
 
@@ -46,7 +46,7 @@ In Microsoft Word, you can set the same parameters using the "Document Grid" tab
 
 The following code example shows how to set the number of characters per line and the number of lines per page for a Microsoft Word document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_options_and_settings-DocumentPageSetup.py" >}}
+{{< gist "aspose-words-gists" "5d2997d42c1f1fad79b18873f170855f" "document-page-setup.cs" >}}
 
 ## Set Language Preferences
 
@@ -62,11 +62,11 @@ If your Aspose.Words generated document does not look as expected, check the [la
 
 The following code example shows how to add Japanese to editing languages:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_options_and_settings-AddJapaneseAsEditinglanguages.py" >}}
+{{< gist "aspose-words-gists" "40be8275fc43f78f5e5877212e4e1bf3" "add-editing-language.cs" >}}
 
 The following code example shows how to set Russian as the default editing language:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_options_and_settings-SetRussianAsDefaultEditingLanguage.py" >}}
+{{< gist "aspose-words-gists" "5d2997d42c1f1fad79b18873f170855f" "set-russian-as-default-editing-language.cs" >}}
 
 ## Optimize a Document for a Particular Word Version
 
@@ -74,4 +74,4 @@ The [optimize_for](https://reference.aspose.com/words/nodejs-net/aspose.words.se
 
 The following code example shows how to optimize document content for Microsoft Word 2016:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_options_and_settings-OptimizeForMsWord.py" >}}
+{{< gist "aspose-words-gists" "5d2997d42c1f1fad79b18873f170855f" "optimize-for.cs" >}}

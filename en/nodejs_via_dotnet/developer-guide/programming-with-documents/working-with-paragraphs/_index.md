@@ -22,7 +22,7 @@ The current font formatting is also specified by the [font](https://reference.a
 
 The following code example shows how to insert a paragraph into a document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-add_content_using_document_builder-InsertParagraph.py" >}}
+{{< gist "aspose-words-gists" "ecf2c438314e6c8318ca9833c7f62326" "insert-paragraph.cs" >}}
 
 ## Format Paragraph
 
@@ -30,7 +30,7 @@ Current paragraph formatting is represented by a [ParagraphFormat](https://refer
 
 The following code example shows how to set paragraph formatting:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-document_formatting-ParagraphFormatting.py" >}}
+{{< gist "aspose-words-gists" "4b5526c3c0d9cad73e05fb4b18d2c3d2" "paragraph-formatting.cs" >}}
 
 ## Apply a Paragraph Style
 
@@ -40,7 +40,7 @@ Furthermore, a [Style](https://reference.aspose.com/words/nodejs-net/aspose.wor
 
 The following code example shows how to apply a paragraph style:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-document_formatting-ApplyParagraphStyle.py" >}}
+{{< gist "aspose-words-gists" "4b5526c3c0d9cad73e05fb4b18d2c3d2" "apply-paragraph-style.cs" >}}
 
 ## Insert Style Separator to Put Different Paragraph Styles
 
@@ -48,13 +48,13 @@ A style separator can be added to the end of a paragraph using the Ctrl + Alt + 
 
 The following code example shows how to insert a style separator to accommodate different paragraph styles:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_styles_and_themes-InsertStyleSeparator.py" >}}
+{{< gist "aspose-words-gists" "4b5526c3c0d9cad73e05fb4b18d2c3d2" "insert-style-separator.cs" >}}
 
 ## Identify Paragraph Style Separator
 
 Aspose.Words provides a public property [breakIsStyleSeparator](https://reference.aspose.com/words/nodejs-net/aspose.words/paragraph/breakisstyleseparator/) into a [Paragraph](https://reference.aspose.com/words/nodejs-net/aspose.words/paragraph/) class allows identifying Style Separator Paragraph as shown in the example given below:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-document_formatting-GetParagraphStyleSeparator.py" >}}
+{{< gist "aspose-words-gists" "4b5526c3c0d9cad73e05fb4b18d2c3d2" "get-paragraph-style-separator.cs" >}}
 
 ## Apply Borders and Shading to a Paragraph
 
@@ -74,4 +74,10 @@ The shading texture is set with a [TextureIndex](https://reference.aspose.com/w
 
 The following code example shows how to apply borders and shading to a paragraph:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-document_formatting-ApplyBordersAndShadingToParagraph.py" >}}
+{{< gist "aspose-words-gists" "4b5526c3c0d9cad73e05fb4b18d2c3d2" "apply-borders-and-shading-to-paragraph.cs" >}}
+
+## Count Paragraph Lines
+
+If you want to count the number of lines in a paragraph for any Word document, the following code sample can be used:
+
+{{< gist "aspose-words-gists" "4b5526c3c0d9cad73e05fb4b18d2c3d2" "get-paragraph-lines.cs" >}}

@@ -28,7 +28,7 @@ All white spaces in the bookmarks were replaced with underscores. This restricti
 
 The following code example shows how to create a new bookmark:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_bookmarks-CreateBookmark.py" >}}
+{{< gist "aspose-words-gists" "c4555b1a088856e21394104faeb86e51" "create-bookmark.cs" >}}
 
 ## Obtain Bookmarks
 
@@ -36,21 +36,21 @@ Sometimes it is necessary to obtain a bookmark collection to iterate through boo
 
 {{% alert color="primary" %}}
 
-You can download the sample file of these examples from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Bookmarks.docx).
+You can download the sample file of these examples from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/blob/main/Data/Bookmarks.docx).
 
 {{% /alert %}}
 
 The following code example shows how to obtain bookmarks from a bookmark collection:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_bookmarks-AccessBookmarks.py" >}}
+{{< gist "aspose-words-gists" "c4555b1a088856e21394104faeb86e51" "access-bookmarks.cs" >}}
 
 The following code example shows how to get or set a bookmark name and text:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_bookmarks-UpdateBookmarkData.py" >}}
+{{< gist "aspose-words-gists" "c4555b1a088856e21394104faeb86e51" "update-bookmark-data.cs" >}}
 
 The following code example shows how to bookmark a table:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_bookmarks-BookmarkTable.py" >}}
+{{< gist "aspose-words-gists" "c4555b1a088856e21394104faeb86e51" "bookmark-table.cs" >}}
 
 If you change the name of a bookmark to a name that already exists in the document, no error will be generated and only the first bookmark will be stored when you save the document.
 
@@ -58,7 +58,7 @@ Note that some bookmarks in the document are assigned to form fields. Moving to 
 
 The following code example shows how to access columns of the bookmarked table:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_bookmarks-BookmarkTableColumns.py" >}}
+{{< gist "aspose-words-gists" "c4555b1a088856e21394104faeb86e51" "bookmark-table-columns.cs" >}}
 
 ## Move to a Bookmark
 
@@ -70,6 +70,6 @@ The entire Bookmark (*including the bookmarked content*) can be encapsulated wit
 
 The following code example shows how to show/ hide bookmarks:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_bookmarks-ShowHideBookmarks.py" >}}
+{{< gist "aspose-words-gists" "c4555b1a088856e21394104faeb86e51" "show-hide-bookmarks.cs" >}}
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_bookmarks-ShowHideBookmarkedContent.py" >}}
+{{< gist "aspose-words-gists" "c4555b1a088856e21394104faeb86e51" "show-hide-bookmarked-content.cs" >}}

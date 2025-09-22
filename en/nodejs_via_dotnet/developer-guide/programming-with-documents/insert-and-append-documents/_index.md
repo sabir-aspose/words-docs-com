@@ -28,13 +28,13 @@ You can insert documents in a variety of locations in different ways. For exampl
 
 You can also use the [insertDocument](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertDocument/) or [insertDocumentInline](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertDocumentInline/) method, which is similar to inserting a document in Microsoft Word, to insert a whole document at the current cursor position without any previous importing.
 
-The following code example shows how to insert a document using the **insert_document** method:
+The following code example shows how to insert a document using the **insertDocument** method:
 
-{{< gist "aspose-words-gists" "ffc2b4de06eabf9183a3ed2aa34e939d" "insert-document-with-builder.py" >}}
+{{< gist "aspose-words-gists" "db2dfc4150d7c714bcac3782ae241d03" "insert-document-with-builder.cs" >}}
 
-The following code example shows how to insert a document using the **insert_document_inline** method:
+The following code example shows how to insert a document using the **insertDocumentInline** method:
 
-{{< gist "aspose-words-gists" "ffc2b4de06eabf9183a3ed2aa34e939d" "insert-document-inline-with-builder.py" >}}
+{{< gist "aspose-words-gists" "db2dfc4150d7c714bcac3782ae241d03" "insert-document-inline-with-builder.cs" >}}
 
 The following subsections describe the options during which you can insert one document into another.
 
@@ -44,7 +44,7 @@ You can import a text file into a document and insert it right after a bookmark 
 
 The following coding example shows how to insert the contents of one document to a bookmark in another document:
 
-{{< gist "aspose-words-gists" "ffc2b4de06eabf9183a3ed2aa34e939d" "insert-document-at-bookmark.py" >}}
+{{< gist "aspose-words-gists" "db2dfc4150d7c714bcac3782ae241d03" "insert-document-at-bookmark.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -64,7 +64,7 @@ Note that [appendChild](https://reference.aspose.com/words/nodejs-net/aspose.wor
 
 The following code example shows how to append a document to the end of another document:
 
-{{< gist "aspose-words-gists" "ffc2b4de06eabf9183a3ed2aa34e939d" "keep-source-formatting.py" >}}
+{{< gist "aspose-words-gists" "db2dfc4150d7c714bcac3782ae241d03" "keep-source-formatting.cs" >}}
 
 ## Import and Insert Nodes Manually
 
@@ -76,7 +76,7 @@ You can also use the [appendChild](https://reference.aspose.com/words/nodejs-net
 
 The following code example shows how to manually import nodes and insert them after a specific node using the [insertAfter](https://reference.aspose.com/words/nodejs-net/aspose.words/compositenode/insertAfter/) method:
 
-{{< gist "aspose-words-gists" "ffc2b4de06eabf9183a3ed2aa34e939d" "insert-document-as-nodes.py" >}}
+{{< gist "aspose-words-gists" "db2dfc4150d7c714bcac3782ae241d03" "insert-document-as-nodes.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -100,4 +100,4 @@ Note that the [Section](https://reference.aspose.com/words/nodejs-net/aspose.wor
 
 The following code example shows how to append one document to another while keeping the content from splitting across two pages:
 
-{{< gist "aspose-words-gists" "ffc2b4de06eabf9183a3ed2aa34e939d" "different-page-setup.py" >}}
+{{< gist "aspose-words-gists" "db2dfc4150d7c714bcac3782ae241d03" "different-page-setup.cs" >}}

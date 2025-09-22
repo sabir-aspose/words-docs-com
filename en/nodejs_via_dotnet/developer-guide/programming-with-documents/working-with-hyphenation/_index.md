@@ -51,21 +51,21 @@ The following features of Aspose.Words algorithms should be taken into account:
 
 To use the hyphenation feature, first register a hyphenation dictionary. The following code example shows how to load hyphenation dictionaries for the specified languages from a file:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_hyphenation-HyphenateWordsOfLanguages.py" >}}
+{{< gist "aspose-words-gists" "a52aacf87a36f7881ba29d25de92fb83" "hyphenate-words.cs" >}}
 
 {{% alert color="primary" %}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Rendering.docx).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/tree/main/Data/Rendering.docx).
 
 {{% /alert %}}
 
 The following code example shows how to load hyphenation dictionaries for the specified language from a stream:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_hyphenation-LoadHyphenationDictionaryForLanguage.py" >}}
+{{< gist "aspose-words-gists" "a52aacf87a36f7881ba29d25de92fb83" "load-hyphenation-dictionary.cs" >}}
 
 {{% alert color="primary" %}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Rendering.docx).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/tree/main/Data/Rendering.docx).
 
 {{% /alert %}}
 

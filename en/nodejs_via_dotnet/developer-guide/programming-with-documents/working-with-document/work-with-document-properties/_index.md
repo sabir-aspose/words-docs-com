@@ -37,15 +37,15 @@ To access document properties in Aspose.Words use:
 
 [builtInDocumentProperties](https://reference.aspose.com/words/nodejs-net/aspose.words/document/builtindocumentproperties/) additionally provides access to document properties through a set of entered properties that return values of the appropriate type. [customDocumentProperties](https://reference.aspose.com/words/nodejs-net/aspose.words/document/customdocumentproperties/) enable you to add or remove document properties from a document.
 
-The [DocumentProperty](https://reference.aspose.com/words/nodejs-net/aspose.words.properties/documentproperty/) class allows you to get the name, value, and type of a document property. **value** returns an object, but there is a set of methods allowing you to get the property value converted to a specific type. After you get to know what type the property is, you can use one of the **DocumentProperty.to_XXX** methods, such as **DocumentProperty.\_\_str\_\_** and [DocumentProperty.toInt](https://reference.aspose.com/words/nodejs-net/aspose.words.properties/documentproperty/toint/), to obtain the value of the appropriate type.
+The [DocumentProperty](https://reference.aspose.com/words/nodejs-net/aspose.words.properties/documentproperty/) class allows you to get the name, value, and type of a document property. **value** returns an object, but there is a set of methods allowing you to get the property value converted to a specific type. After you get to know what type the property is, you can use one of the **DocumentProperty.toXXX** methods, such as **DocumentProperty.\_\_str\_\_** and [DocumentProperty.toInt](https://reference.aspose.com/words/nodejs-net/aspose.words.properties/documentproperty/toint/), to obtain the value of the appropriate type.
 
 The following code example shows how to enumerate all built-in and custom properties in a document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_properties-EnumerateProperties.py" >}}
+{{< gist "aspose-words-gists" "0593a8803015363f3026f648332e7026" "enumerate-properties.cs" >}}
 
 {{% alert color="primary" %}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Properties.docx).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/tree/main/Data/Properties.docx).
 
 {{% /alert %}}
 
@@ -59,21 +59,21 @@ You cannot add or remove built-in document properties using Aspose.Words. You ca
 
 To add custom document properties with Aspose.Words, use the [add](https://reference.aspose.com/words/nodejs-net/aspose.words.properties/customdocumentproperties/add/) method, passing the new property name and the value of the appropriate type. The method returns the newly created [DocumentProperty](https://reference.aspose.com/words/nodejs-net/aspose.words.properties/documentproperty/) object.
 
-To remove custom properties, use the [remove](https://reference.aspose.com/words/nodejs-net/aspose.words.properties/documentpropertycollection/remove/) method, passing it the property name to remove, or the [remove_at](https://reference.aspose.com/words/nodejs-net/aspose.words.properties/documentpropertycollection/removeAt/) method to remove the property by index. You can also remove all properties using the [clear](https://reference.aspose.com/words/nodejs-net/aspose.words.properties/documentpropertycollection/clear/) method.
+To remove custom properties, use the [remove](https://reference.aspose.com/words/nodejs-net/aspose.words.properties/documentpropertycollection/remove/) method, passing it the property name to remove, or the [removeAt](https://reference.aspose.com/words/nodejs-net/aspose.words.properties/documentpropertycollection/removeAt/) method to remove the property by index. You can also remove all properties using the [clear](https://reference.aspose.com/words/nodejs-net/aspose.words.properties/documentpropertycollection/clear/) method.
 
 The following code example checks whether a custom property with a given name exists in a document and adds a few more custom document properties:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_properties-AddCustomDocumentProperties.py" >}}
+{{< gist "aspose-words-gists" "0593a8803015363f3026f648332e7026" "add-custom-properties.cs" >}}
 
 {{% alert color="primary" %}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Properties.docx).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/tree/main/Data/Properties.docx).
 
 {{% /alert %}}
 
 The following code example shows how to remove a custom document property:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_properties-CustomRemove.py" >}}
+{{< gist "aspose-words-gists" "0593a8803015363f3026f648332e7026" "remove-custom-properties.cs" >}}
 
 ## Update Built-In Document Properties
 
@@ -87,11 +87,11 @@ Aspose.Words does not automatically update document properties, as Microsoft Wor
 
 ## Create a New Custom Property Linked to Content
 
-Aspose.Words provides the [addLinkToContent](https://reference.aspose.com/words/nodejs-net/aspose.words.properties/customdocumentproperties/addlinktocontent/) method to create a new custom document property linked to content. This property returns the newly created property object or null if the **link_source** is invalid.
+Aspose.Words provides the [addLinkToContent](https://reference.aspose.com/words/nodejs-net/aspose.words.properties/customdocumentproperties/addlinktocontent/) method to create a new custom document property linked to content. This property returns the newly created property object or null if the **linkSource** is invalid.
 
 The following code example shows how to configure a link to a custom property:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_properties-ConfiguringLinkToContent.py" >}}
+{{< gist "aspose-words-gists" "0593a8803015363f3026f648332e7026" "configuring-link-to-content.cs" >}}
 
 ## Get Document Variables
 
@@ -99,11 +99,11 @@ You can get a collection of document variables using the [variables](https://ref
 
 The following code example shows how to add and access document variables:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_properties-GetVariables.py" >}}
+{{< gist "aspose-words-gists" "0593a8803015363f3026f648332e7026" "get-variables.cs" >}}
 
 {{% alert color="primary" %}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Properties.docx).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/tree/main/Data/Properties.docx).
 
 {{% /alert %}}
 
@@ -113,7 +113,7 @@ If you want to share a Word document with other people, you may want to remove p
 
 The following code example shows how to remove personal information:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_properties-RemovePersonalInformation.py" >}}
+{{< gist "aspose-words-gists" "0593a8803015363f3026f648332e7026" "remove-personal-information.cs" >}}
 
 {{% alert color="primary" %}}
 

@@ -32,17 +32,13 @@ If your field code has a parameter containing a space then it must be enclosed w
 
 The following code example shows how to inserts a merge field into a document using **DocumentBuilder**:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertField.py" >}}
-
-The following code example shows how to inserts a merge field with German locale into a document using **DocumentBuilder**:
-
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-DocumentBuilderInsertField.py" >}}
+{{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "insert-field.cs" >}}
 
 The same technique is used to insert fields nested within other fields.
 
 The following code example shows how to insert fields nested within another field using **DocumentBuilder**:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertNestedFields.py" >}}
+{{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "insert-nested-fields.cs" >}}
 
 ### Specify Locale at Field Level
 
@@ -50,7 +46,7 @@ A language identifier is a standard international numeric abbreviation for the l
 
 The following code example shows how to make use of this option:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-SpecifylocaleAtFieldlevel.py" >}}
+{{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "specify-locale-at-field-level.cs" >}}
 
 ### Insert Untyped/Empty Field
 
@@ -58,7 +54,7 @@ If you want to insert untyped/empty fields ({}) just like Microsoft Word allows,
 
 The following code example shows how to insert an empty field into the document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertFieldNone.py" >}}
+{{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "insert-field-none.cs" >}}
 
 ## Inserting Fields into a Document using FieldBuilder
 
@@ -66,7 +62,7 @@ The alternative way to insert fields in Aspose.Words is the [FieldBuilder](https
 
 The following code example shows how to insert a field into a document using **FieldBuilder**:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertFieldUsingFieldBuilder.py" >}}
+{{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "insert-field-using-field-builder.cs" >}}
 
 ## Inserting Fields using DOM
 
@@ -84,7 +80,7 @@ The `MERGEFIELD` field in Word document can be represented by the [FieldMergeFie
 
 The following code example shows how to add a `Merge` Field using DOM to a paragraph in a document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertMergeFieldUsingDOM.py" >}}
+{{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "insert-merge-field-using-dom.cs" >}}
 
 ### Inserting Mail Merge `ADDRESSBLOCK` field into a Document using DOM
 
@@ -98,7 +94,7 @@ The `ADDRESSBLOCK` field is used to insert a Mail Merge address block in Word do
 
 The following code example shows how to add the Mail Merge `ADDRESSBLOCK` Field using DOM to a paragraph in a document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertMailMergeAddressBlockFieldUsingDOM.py" >}}
+{{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "insert-address-block-field-using-dom.cs" >}}
 
 ### Inserting `ADVANCE` field into a Document without using DocumentBuilder
 
@@ -110,7 +106,7 @@ The `ADVANCE` field is used to offset subsequent text within a line to the left,
 
 The following code example shows how to add the `ADVANCE` Field using DOM to a paragraph in a document.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertAdvanceFieldWithOutDocumentBuilder.py" >}}
+{{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "insert-advance-field-without-document-builder.cs" >}}
 
 ### Inserting `ASK` field into a Document without using DocumentBuilder
 
@@ -123,7 +119,7 @@ The `ASK` field is used to prompt the user for text to assign to a Bookmark in W
 
 The following code example shows how to add the `ASK` Field using DOM to a paragraph in a document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertASKFieldWithOutDocumentBuilder.py" >}}
+{{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "insert-ask-field-without-document-builder.cs" >}}
 
 ### Inserting `AUTHOR` field into a Document without using DocumentBuilder
 
@@ -133,7 +129,7 @@ The `AUTHOR` field is used to specify the name of Document's author from the `Do
 
 The following code example shows how to add the `AUTHOR` Field using DOM to a paragraph in a document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertAuthorField.py" >}}
+{{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "insert-author-field.cs" >}}
 
 ### Inserting `INCLUDETEXT` field into a Document without using DocumentBuilder
 
@@ -144,7 +140,7 @@ The `INCLUDETEXT` field inserts the text and graphics contained in the document 
 
 The following code example shows how to add the `INCLUDETEXT` field using DOM to a paragraph in a document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertFieldIncludeTextWithoutDocumentBuilder.py" >}}
+{{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "insert-field-include-text-without-document-builder.cs" >}}
 
 ### Inserting `TOA` field into a Document without using DocumentBuilder
 
@@ -156,4 +152,4 @@ You can use the [FieldToa](https://reference.aspose.com/words/nodejs-net/aspose.
 
 The following code example shows how to add the `TOA` field using DOM to a paragraph in a document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertTOAFieldWithoutDocumentBuilder.py" >}}
+{{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "insert-toa-field-without-document-builder.cs" >}}

@@ -22,7 +22,7 @@ If you want OLE Object, call the [insertOleObject](https://reference.aspose.com
 
 The following code example shows how to insert OLE Object into a document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_ole_objects_and_active_x-DocumentBuilderInsertOleObject.py" >}}
+{{< gist "aspose-words-gists" "4996b573cf231d9f66ab0d1f3f981222" "insert-ole-object.cs" >}}
 
 ### Set File Name and Extension when Inserting OLE Object
 
@@ -32,7 +32,7 @@ Early Windows versions such as Windows 3.1, 95, and 98 had a Packager.exe applic
 
 The following code example shows how to set the file name, extension, and display name for OLE Package:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_ole_objects_and_active_x-InsertOleObjectwithOlePackage.py" >}}
+{{< gist "aspose-words-gists" "4996b573cf231d9f66ab0d1f3f981222" "insert-ole-objectwith-ole-package.cs" >}}
 
 ### Get Access to OLE Object Raw Data
 
@@ -40,7 +40,7 @@ Users can access OLE object data using various properties and methods of the `Ol
 
 The following code example shows how to get OLE Object raw data using the [getRawData](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/oleformat/getrawdata/) method:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_ole_objects_and_active_x-GetAccessToOLEObjectRawData.py" >}}
+{{< gist "aspose-words-gists" "4996b573cf231d9f66ab0d1f3f981222" "get-access-to-ole-object-raw-data.cs" >}}
 
 ### Insert OLE Object as an Icon
 
@@ -48,11 +48,11 @@ OLE objects can also be inserted into documents as images.
 
 The following code example shows how to insert OLE Object as an icon. For this purpose, the [DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/) class exposes the [insertOleObjectAsIcon](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertoleobjectasicon/) method:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_ole_objects_and_active_x-InsertOLEObjectAsIcon.py" >}}
+{{< gist "aspose-words-gists" "4996b573cf231d9f66ab0d1f3f981222" "insert-ole-object-as-icon.cs" >}}
 
 The following code example shows how to inserts an embedded OLE object as an icon from a stream into the document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_ole_objects_and_active_x-InsertOLEObjectAsIconUsingStream.py" >}}
+{{< gist "aspose-words-gists" "4996b573cf231d9f66ab0d1f3f981222" "insert-ole-object-as-icon-using-stream.cs" >}}
 
 ## Insert Online Video
 
@@ -62,20 +62,7 @@ The [DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words
 
 The following code example shows how to insert an online video from *Vimeo* into a document:
 
-{{< highlight python >}}
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-
-# Pass direct url from youtu.be.
-url = "https://www.youtube.com/watch?v=t_1LYZ102RA"
-
-width = 360
-height = 270
-
-shape = builder.insert_online_video(url, width, height)
-
-doc.save(docs_base.artifacts_dir + "WorkingWithOleObjectsAndActiveX.insert_online_video.docx")
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "4996b573cf231d9f66ab0d1f3f981222" "insert-online-video.cs" >}}
 
 The second overload works with all other video resources and takes embedded HTML code as a parameter. The HTML code for embedding a video may vary depending on the provider, so contact the respective provider for details.
 
@@ -87,26 +74,4 @@ Please note that the document will be automatically optimized for MS Word 2013 t
 
 The following code example shows how to insert an online video into a document using such HTML code:
 
-{{< highlight python >}}
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-
-# Shape width/height.
-width = 360
-height = 270
-
-# Poster frame image.
-f = open(docs_base.images_dir + "Logo.jpg", "rb")
-imageBytes = f.read()
-f.close()
-
-# Visible url
-vimeoVideoUrl = "https://vimeo.com/52477838"
-
-# Embed Html code.
-vimeoEmbedCode = ""
-
-builder.insert_online_video(vimeoVideoUrl, vimeoEmbedCode, imageBytes, width, height)
-
-doc.save(docs_base.artifacts_dir + "WorkingWithOleObjectsAndActiveX.insert_online_video_with_embed_html.docx")
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "4996b573cf231d9f66ab0d1f3f981222" "insert-online-video-with-embed-html.cs" >}}

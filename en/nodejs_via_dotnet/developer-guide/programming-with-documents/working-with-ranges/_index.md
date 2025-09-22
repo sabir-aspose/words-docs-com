@@ -26,11 +26,11 @@ Use the [text](https://reference.aspose.com/words/nodejs-net/aspose.words/range/
 
 The following code example shows how to get a plain, unformatted text of a range:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_ranges-RangesGetText.py" >}}
+{{< gist "aspose-words-gists" "9164e9c0658006e51db723b0742c12fc" "ranges-get-text.cs" >}}
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/tree/main/Data/Document.docx).
 
 {{% /alert %}}
 
@@ -40,10 +40,10 @@ Range allows the deletion of all characters of the range by calling [delete](htt
 
 The following code example shows how to delete all characters of a range:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_ranges-RangesDeleteText.py" >}}
+{{< gist "aspose-words-gists" "9164e9c0658006e51db723b0742c12fc" "ranges-delete-text.cs" >}}
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/tree/main/Data/Document.docx).
 
 {{% /alert %}}

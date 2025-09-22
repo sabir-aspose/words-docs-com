@@ -16,4 +16,4 @@ Now it is even more convenient to work with OfficeMath Type Objects. In Aspose.W
 
 The following code examples shows how to make use of these properties:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_office_math-MathEquations.py" >}}
+{{< gist "aspose-words-gists" "e19d5874b376b07466fd7a397d554648" "math-equations.cs" >}}

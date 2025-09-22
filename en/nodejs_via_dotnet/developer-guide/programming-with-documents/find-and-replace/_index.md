@@ -35,20 +35,7 @@ You can use one of the [replace](https://reference.aspose.com/words/nodejs-net/a
 
 The following code example shows how to find the string “_CustomerName_” and replace it with the string *“James Bond”*:
 
-{{< highlight python >}}
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-
-builder.writeln("Hello _CustomerName_,")
-print("Original document text: " + doc.range.text)
-
-doc.range.replace("_CustomerName_", "James Bond", aw.replacing.FindReplaceOptions(aw.replacing.FindReplaceDirection.FORWARD))
-
-print("Document text after replace: " + doc.range.text)
-
-# Save the modified document
-doc.save(docs_base.artifacts_dir + "FindAndReplace.simple_find_replace.docx")
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "27c3408b2c7fbee8d6dc6a1c8b61c105" "replace-with-string.cs" >}}
 
 You can notice the difference between the document before applying simple string replacement:
 
@@ -66,7 +53,7 @@ Use the [replaceRegex](https://reference.aspose.com/words/nodejs-net/aspose.word
 
 The following code example shows how to replace strings that match a regular expression pattern with a specified replacement string:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-find_and_replace-ReplaceWithRegex.py" >}}
+{{< gist "aspose-words-gists" "27c3408b2c7fbee8d6dc6a1c8b61c105" "replace-with-regex.cs" >}}
 
 You can notice the difference between the document before applying string replacement with regular expressions:
 
@@ -88,15 +75,11 @@ Note that the metacharacter **&&** equals to **&**. For example, if you need to 
 
 The following code example shows how to replace text with paragraph and page break:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-find_and_replace-ReplaceTextContainingMetaCharacters.py" >}}
+{{< gist "aspose-words-gists" "27c3408b2c7fbee8d6dc6a1c8b61c105" "replace-text-containing-meta-characters.cs" >}}
 
 ## Find and Replace String in Header/Footer of a Document {#find-and-replace-string-in-header-or-footer-of-a-document}
 
 You can find and replace text in the header/footer section of a Word document using the [HeaderFooter](https://reference.aspose.com/words/nodejs-net/aspose.words/headerfooter/) class.
-
-The following code example shows how to replace the text of the header section in your document:
-
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-find_and_replace-ReplaceTextInFooter.py" >}}
 
 You can notice the difference between the document before applying header string replacement:
 
@@ -106,19 +89,9 @@ And after applying header string replacement:
 
 <img src="after-applying-header-string-replacement.png" alt="after-applying-header-string-replacement" style="width:600px"/>
 
-The code example to replace the text of the footer section in your document is very similar to the previous header code example. All you need to do is replace the following two lines:
+The following code example shows how to replace the text of the footer section in your document:
 
-{{< highlight python >}}
-header = headersFooters.get_by_header_footer_type(aw.HeaderFooterType.HEADER_PRIMARY)
-header.range.replace("Aspose.Words", "Remove", options)
-{{< /highlight >}}
-
-With the following:
-
-{{< highlight python >}}
-header = headersFooters.get_by_header_footer_type(aw.HeaderFooterType.FOOTER_PRIMARY)
-header.range.replace("Aspose.Words", "Remove", options)
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "27c3408b2c7fbee8d6dc6a1c8b61c105" "replace-text-in-footer.cs" >}}
 
 You can notice the difference between the document before applying footer string replacement:
 
@@ -136,7 +109,7 @@ Aspose.Words provides many find and replace properties for ignoring text such as
 
 The following code example shows how to ignore text inside delete revisions:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-find_and_replace-IgnoreTextInsideDeleteRevisions.py" >}}
+{{< gist "aspose-words-gists" "27c3408b2c7fbee8d6dc6a1c8b61c105" "ignore-text-inside-delete-revisions.cs" >}}
 
 ## Customize Find and Replace Operation {#customize-find-and-replace-operation}
 
@@ -144,4 +117,4 @@ Aspose.Words provides many different properties to find and replace text such as
 
 The following code example shows how to highlight a specific word in your document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-find_and_replace-FindAndHighlight.py" >}}
+{{< gist "aspose-words-gists" "27c3408b2c7fbee8d6dc6a1c8b61c105" "highlight-color.cs" >}}

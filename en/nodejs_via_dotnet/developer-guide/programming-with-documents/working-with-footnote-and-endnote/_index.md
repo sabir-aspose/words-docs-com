@@ -22,7 +22,7 @@ If you want to insert footnote or endnote in Word document, please use [insertFo
 
 The following code example shows how to insert endnote into the document and set its numbering options:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_footnote_and_endnote-SetEndnoteOptions.py" >}}
+{{< gist "aspose-words-gists" "3b39c2019380ee905e7d9596494916a4" "set-endnote-options.cs" >}}
 
 ## Set Number of Footnote Layout Columns
 
@@ -30,7 +30,7 @@ You can set the number of footnote layout columns using the [columns](https://re
 
 The following code example shows how to set the number of columns for footnote layout:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_footnote_and_endnote-SetFootNoteColumns.py" >}}
+{{< gist "aspose-words-gists" "3b39c2019380ee905e7d9596494916a4" "set-footnote-columns.cs" >}}
 
 ## Set the Position of Footnote and EndNote
 
@@ -38,4 +38,4 @@ The footnote position can be at the bottom of each page or beneath the text on e
 
 The following code example shows how to set the position of footnote and endnote:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_footnote_and_endnote-SetFootnoteAndEndNotePosition.py" >}}
+{{< gist "aspose-words-gists" "3b39c2019380ee905e7d9596494916a4" "set-footnote-and-endnote-position.cs" >}}

@@ -50,13 +50,13 @@ Aspose.Words allows you to insert a section break into text using the [InsertBre
 
 The following code example shows how to insert a section break into a document:
 
-{{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "insert-section-breaks.py" >}}
+{{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "insert-section-breaks.cs" >}}
 
 Use the [Remove](https://reference.aspose.com/words/nodejs-net/aspose.words/node/remove/) method to delete a section break. If you do not need to remove a specific section break and instead delete the content of that section, you can use the [ClearContent](https://reference.aspose.com/words/nodejs-net/aspose.words/section/clearcontent/) method.
 
 The following code example shows how to remove sections breaks: 
 
-{{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "remove-section-breaks.py" >}}
+{{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "remove-section-breaks.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -70,7 +70,7 @@ If you want to move a section from one position to another in your document, you
 
 The following code example shows how to access the first section and iterate through the children of a composite node:
 
-{{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "section-child-nodes.py" >}}
+{{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "section-child-nodes.cs" >}}
 
 ## Specify a Section Layout
 
@@ -83,7 +83,7 @@ Sometimes you want your document to look better by making creative layouts for d
 
 The following code example shows how to limit the number of lines that each page may have:
 
-{{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "line-grid-section-layout-mode.py" >}}
+{{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "line-grid-section-layout-mode.cs" >}}
 
 ## Edit a Section
 
@@ -91,7 +91,7 @@ When you add a new section to your document, there will be no body or paragraph 
 
 The following code example shows how to prepare a new section node using **EnsureMinimum**:
 
-{{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "ensure-minimum.py" >}}
+{{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "ensure-minimum.cs" >}}
 
 ### Append or Prepend Content
 
@@ -99,7 +99,7 @@ If you want to draw some shape or add text or image at the beginning/end of a se
 
 The following code example shows how to append content of an existing section:
 
-{{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "append-section-content.py" >}}
+{{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "append-section-content.cs" >}}
 
 ### Clone a Section
 
@@ -107,7 +107,7 @@ Aspose.Words allows you to duplicate a section by creating a full copy of it usi
 
 The following code example shows how to clone the first section in your document:
 
-{{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "clone-section.py" >}}
+{{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "clone-section.cs" >}}
 
 ### Copy Sections between Documents
 
@@ -117,7 +117,7 @@ Aspose.Words allows you to copy sections between documents using the [ImportNode
 
 The following code example shows how to copy sections between documents:
 
-{{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "copy-section.py" >}}
+{{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "copy-section.cs" >}}
 
 ### Work with Section Header and Footer
 
@@ -128,17 +128,17 @@ The basic rules for displaying a header or footer for each section are quite sim
 
 The following code example shows how to create 2 sections with different headers:
 
-{{< gist "aspose-words-gists" "2e1b2b28253780881d116e3a873ee668" "link-to-previous-header-footer.py" >}}
+{{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "link-to-previous-header-footer.cs" >}}
 
 If you want to remove the text of headers and footers without removing [HeaderFooter](https://reference.aspose.com/words/nodejs-net/aspose.words/headerfooter/) objects in your document, you can use the [clearHeadersFooters](https://reference.aspose.com/words/nodejs-net/aspose.words/section/clearheadersfooters/) method. In addition, you can use the [deleteHeaderFooterShapes](https://reference.aspose.com/words/nodejs-net/aspose.words/section/deleteheaderfootershapes/) method to remove all shapes from headers and footers in your document.
 
 The following code example shows how to clear content of all headers and footers in a section:
 
-{{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "delete-header-footer-content.py" >}}
+{{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "delete-header-footer-content.cs" >}}
 
 The following code example how to remove all shapes from all headers footers in a section:
 
-{{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "delete-header-footer-shapes.py" >}}
+{{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "delete-header-footer-shapes.cs" >}}
 
 ## Customize Page Properties in a Section
 
@@ -148,11 +148,11 @@ Aspose.Words allows you to customize page and section properties using the [Page
 
 The following code example shows how to set such properties as page size and orientation for the current section:
 
-{{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "page-setup-and-section-formatting.py" >}}
+{{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "page-setup-and-section-formatting.cs" >}}
 
 The following code example shows how to modify the page properties in all sections:
 
-{{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "modify-page-setup-in-all-sections.py" >}}
+{{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "modify-page-setup-in-all-sections.cs" >}}
 
 ## See Also
 

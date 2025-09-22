@@ -59,24 +59,7 @@ If you need to check if a document has a write protection password that restrict
 
 The following code example shows how to make a document read-only:
 
-{{< highlight python >}}
-import aspose.words as aw
-
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-
-builder.write("Open document as read-only")
-
-# Enter a password that's up to 15 characters long.
-doc.write_protection.set_password("MyPassword")
-
-# Make the document as read-only.
-doc.write_protection.read_only_recommended = True
-
-# Apply write protection as read-only.
-doc.protect(aw.ProtectionType.READ_ONLY)
-doc.save(docs_base.artifacts_dir + "DocumentProtection.ReadOnlyProtection.docx")
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "7cf6735e83804ba8942663695b22ee42" "read-only-protection.cs" >}}
 
 ## Remove Read-Only Restriction
 
@@ -84,18 +67,4 @@ If you do not want a user to open your document as read-only, you can simply set
 
 The following code example shows how to remove read-only access for a document:
 
-{{< highlight python >}}
-import aspose.words as aw
-
-doc = aw.Document()
-            
-# Enter a password that's up to 15 characters long.
-doc.write_protection.set_password("MyPassword")
-
-# Remove the read-only option.
-doc.write_protection.read_only_recommended = False
-
-# Apply write protection without any protection.
-doc.protect(aw.ProtectionType.NO_PROTECTION)
-doc.save(docs_base.artifacts_dir + "DocumentProtection.RemoveReadOnlyRestriction.docx")
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "7cf6735e83804ba8942663695b22ee42" "remove-read-only-restriction.cs" >}}
