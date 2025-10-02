@@ -39,7 +39,7 @@ The ability to improve diagnostics and error handling for [font substitution](ht
 
 {{% alert color="primary" %}}
 
-[Aspose.Words for .NET 25.9 Release Notes](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-9-release-notes/)
+Learn more about [Aspose.Words for .NET 25.9 Release Notes](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-9-release-notes/).
 
 {{% /alert %}}
 
