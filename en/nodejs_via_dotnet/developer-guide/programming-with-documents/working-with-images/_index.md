@@ -100,4 +100,4 @@ Aspose.Words provides functionality to save all the available images in a docume
 
 The following code example shows how to save images as WMF with RTF save options:
 
-{{< gist "aspose-words-gists" "6f849e51240635a6322ab0460938c922" "saving-images-as-wmf.cs" >}}
+{{< gist "aspose-words-gists" "e2b8f833f9ab5de7c0598ddfd0ab1414" "saving-images-as-wmf.js" >}}

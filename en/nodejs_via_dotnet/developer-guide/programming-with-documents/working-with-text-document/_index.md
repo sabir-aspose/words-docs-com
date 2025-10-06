@@ -20,7 +20,7 @@ You can use [addBidiMarks](https://reference.aspose.com/words/nodejs-net/aspose.
 
 The following code example shows how to use [addBidiMarks](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/txtsaveoptions/addBidiMarks/) property. The default value of this property is `False`:
 
-{{< gist "aspose-words-gists" "ddafc3430967fb4f4f70085fa577d01a" "add-bidi-marks.cs" >}}
+{{< gist "aspose-words-gists" "ee038b97a80cf17ce52665651e81d832" "add-bidi-marks.js" >}}
 
 ## Recognize List Items During Loading TXT
 
@@ -31,7 +31,7 @@ Aspose.Words can import list item of a text file as list numbers or plain text i
 
 The following code example shows how to use this property:
 
-{{< gist "aspose-words-gists" "ddafc3430967fb4f4f70085fa577d01a" "detect-numbering-with-whitespaces.cs" >}}
+{{< gist "aspose-words-gists" "ee038b97a80cf17ce52665651e81d832" "detect-numbering-with-whitespaces.js" >}}
 
 ## Handle Leading and Trailing spaces During Loading TXT
 
@@ -39,7 +39,7 @@ You can control the way of handling leading and trailing spaces during loading T
 
 The following code example shows how to trim leading and trailing spaces while importing TXT file:
 
-{{< gist "aspose-words-gists" "ddafc3430967fb4f4f70085fa577d01a" "handle-spaces-options.cs" >}}
+{{< gist "aspose-words-gists" "ee038b97a80cf17ce52665651e81d832" "handle-spaces-options.js" >}}
 
 ## Detect Document Text Direction
 
@@ -47,7 +47,7 @@ Aspose.Words provides [documentDirection](https://reference.aspose.com/words/nod
 
 The following code example shows how to detect text direction of the document while importing TXT file:
 
-{{< gist "aspose-words-gists" "ddafc3430967fb4f4f70085fa577d01a" "document-text-direction.cs" >}}
+{{< gist "aspose-words-gists" "ee038b97a80cf17ce52665651e81d832" "document-text-direction.js" >}}
 
 ## Export Header and Footer in Output TXT
 
@@ -55,7 +55,7 @@ If you want to export header and footer in output TXT document, you can use [exp
 
 The following code example shows how to export headers and footers to plain text format:
 
-{{< gist "aspose-words-gists" "ddafc3430967fb4f4f70085fa577d01a" "export-headers-footers-mode.cs" >}}
+{{< gist "aspose-words-gists" "ee038b97a80cf17ce52665651e81d832" "export-headers-footers-mode.js" >}}
 
 ## Export List Indentation in Output TXT
 
@@ -65,10 +65,10 @@ Aspose.Words introduced [TxtListIndentation](https://reference.aspose.com/words/
 
 The following code example shows how to export list levels using tab characters:
 
-{{< gist "aspose-words-gists" "ddafc3430967fb4f4f70085fa577d01a" "use-tab-for-list-indentation.cs" >}}
+{{< gist "aspose-words-gists" "ee038b97a80cf17ce52665651e81d832" "use-tab-for-list-indentation.js" >}}
 
 ### Using Space Character
 
 The following code example shows how to export list levels using space characters:
 
-{{< gist "aspose-words-gists" "ddafc3430967fb4f4f70085fa577d01a" "use-space-for-list-indentation.cs" >}}
+{{< gist "aspose-words-gists" "ee038b97a80cf17ce52665651e81d832" "use-space-for-list-indentation.js" >}}
