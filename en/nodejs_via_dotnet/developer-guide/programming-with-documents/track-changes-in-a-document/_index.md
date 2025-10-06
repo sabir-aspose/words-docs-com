@@ -66,11 +66,11 @@ Note that the [acceptAllRevisions](https://reference.aspose.com/words/nodejs-net
 
 The following code example shows how to work with tracking changes:
 
-{{< gist "aspose-words-gists" "e8d71fde166d275d0fc9471c56c3ad39" "accept-all-revisions.cs" >}}
+{{< gist "aspose-words-gists" "51dcef06f98b07177240f294788c9816" "accept-all-revisions.js" >}}
 
 The following code example shows how revisions are generated when a node is moved within a tracked document:
 
-{{< gist "aspose-words-gists" "e8d71fde166d275d0fc9471c56c3ad39" "move-node-in-tracked-document.cs" >}}
+{{< gist "aspose-words-gists" "51dcef06f98b07177240f294788c9816" "move-node-in-tracked-document.js" >}}
 
 ## Manage and Store Changes as Revisions
 
@@ -90,4 +90,4 @@ Note that there is no connection between the revisions themselves and the [track
 
 The following code example shows how to apply different properties with revisions:
 
-{{< gist "aspose-words-gists" "e8d71fde166d275d0fc9471c56c3ad39" "shape-revision.cs" >}}
+{{< gist "aspose-words-gists" "51dcef06f98b07177240f294788c9816" "shape-revision.js" >}}

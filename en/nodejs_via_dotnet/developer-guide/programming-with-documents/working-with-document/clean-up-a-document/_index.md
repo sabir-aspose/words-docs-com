@@ -26,7 +26,7 @@ You can use the [unusedLists](https://reference.aspose.com/words/nodejs-net/aspo
 
 The following code example shows how to remove only unused styles from a document:
 
-{{< gist "aspose-words-gists" "669f3d08f45b14f75f9d2cb17fa1056a" "cleanup-unused-styles-and-lists.cs" >}}
+{{< gist "aspose-words-gists" "c2ead2f41ca20b28eac045c61a41279e" "cleanup-unused-styles-and-lists.js" >}}
 
 ## Remove Duplicate Information from a Document
 
@@ -34,4 +34,4 @@ You can also use the [duplicateStyle](https://reference.aspose.com/words/nodejs-
 
 The following code example shows how to remove duplicate styles from a document:
 
-{{< gist "aspose-words-gists" "669f3d08f45b14f75f9d2cb17fa1056a" "cleanup-duplicate-style.cs" >}}
+{{< gist "aspose-words-gists" "c2ead2f41ca20b28eac045c61a41279e" "cleanup-duplicate-style.js" >}}

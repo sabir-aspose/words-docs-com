@@ -20,4 +20,4 @@ The [ControlChar](https://reference.aspose.com/words/nodejs-net/aspose.words/con
 
 The following code example demonstrates how to use control characters:
 
-{{< gist "aspose-words-gists" "6269ddb6427f9ad20623d975774a615e" "use-control-characters.cs" >}}
+{{< gist "aspose-words-gists" "3d84715449d1d04a6029964ad5f2fdf0" "use-control-characters.js" >}}

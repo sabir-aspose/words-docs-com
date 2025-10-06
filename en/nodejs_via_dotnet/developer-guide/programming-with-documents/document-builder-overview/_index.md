@@ -28,7 +28,7 @@ Document navigation is based on the concept of a virtual cursor, with which you 
 
 The following code example shows how to navigate to a bookmark:
 
-{{< gist "aspose-words-gists" "ecf2c438314e6c8318ca9833c7f62326" "move-to-bookmark-end.cs" >}}
+{{< gist "aspose-words-gists" "410919c9c1056a587ed5f2a86f328e7a" "move-to-bookmark-end.js" >}}
 
 ## Document Building and Modifying
 
@@ -46,7 +46,7 @@ To insert a text, pass the string of text you need to insert into the document t
 
 The following code example shows how to create a simple document using a document builder.
 
-{{< gist "aspose-words-gists" "1d626c7186a318d22d022dc96dd91d55" "create-new-document.cs" >}}
+{{< gist "aspose-words-gists" "96e42cb4a611465927f8e7b1b3d546d3" "create-new-document.js" >}}
 
 ### Specify Document Formatting
 
@@ -54,7 +54,7 @@ The [font](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbu
 
 The following code example shows how to insert a formatted text using [DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/):
 
-{{< gist "aspose-words-gists" "ecf2c438314e6c8318ca9833c7f62326" "insert-paragraph.cs" >}}
+{{< gist "aspose-words-gists" "410919c9c1056a587ed5f2a86f328e7a" "insert-paragraph.js" >}}
 
 {{% alert color="primary" %}}
 

@@ -30,7 +30,7 @@ The default switches that are used in a `TOC` inserted in Microsoft Word are **�
 
 The following code example  shows how to insert a Table of Contents field into a document:
 
-{{< gist "aspose-words-gists" "db118a3e1559b9c88355356df9d7ea10" "insert-table-of-contents.cs" >}}
+{{< gist "aspose-words-gists" "e0ccef8441be6a8e2de5810acdefd25a" "insert-table-of-contents.js" >}}
 
 The code demonstrates the new table of contents being inserted into a blank document. The [DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/) class is then used to insert some sample content formatting with the appropriate heading styles which are used to mark the content to be included in the TOC. The next lines then populate the `TOC` by updating the fields and page layout of the document.
 
@@ -51,7 +51,7 @@ Please note that these two update methods are required to be called in that orde
 
 The following code example shows how to completely rebuild `TOC` fields in the document by invoking field update:
 
-{{< gist "aspose-words-gists" "db118a3e1559b9c88355356df9d7ea10" "update-fields.cs" >}}
+{{< gist "aspose-words-gists" "e0ccef8441be6a8e2de5810acdefd25a" "update-fields.js" >}}
 
 The first call to [Document.updateFields](https://reference.aspose.com/words/nodejs-net/aspose.words/document/updatefields/) will build the `TOC`, all text entries are populated and the `TOC` appears almost complete. The only thing missing is the page numbers which for now are displayed with “?”. The second call to [Document.updatePageLayout](https://reference.aspose.com/words/nodejs-net/aspose.words/document/updatepagelayout/) will build the layout of the document in memory. This needs to be done to gather the page numbers of the entries. The correct page numbers calculated from this call are then inserted into the TOC.
 
@@ -87,7 +87,7 @@ By default these switches above are included when inserting a default `TOC` in t
 
 You can insert a new TC field at the current position of the [DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/) by calling the [DocumentBuilder.insertField](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertfield/) method and specifying the field name as TC along with any switches that are needed. Below example shows how to insert a `TC` field into the document using [DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/).
 
-{{< gist "aspose-words-gists" "db118a3e1559b9c88355356df9d7ea10" "insert-tc-field.cs" >}}
+{{< gist "aspose-words-gists" "e0ccef8441be6a8e2de5810acdefd25a" "insert-tc-field.js" >}}
 
 
 ## Modify a Table of Contents
@@ -96,7 +96,7 @@ The formatting of entries in the `TOC` do not use the original styles of the mar
 
 Once the appropriate style of the document has been retrieved the formatting for this style can be modified. Any changes to these styles will be automatically reflected on the TOCs in the document. Below example changes a formatting property used in the first level `TOC` style.
 
-{{< gist "aspose-words-gists" "db118a3e1559b9c88355356df9d7ea10" "change-style-of-toc-level.cs" >}}
+{{< gist "aspose-words-gists" "e0ccef8441be6a8e2de5810acdefd25a" "change-style-of-toc-level.js" >}}
 
 It is also useful to note that any direct formatting of a paragraph (defined on the paragraph itself and not in the style) marked to be included the `TOC` will be copied over in the entry in the TOC. For example if the Heading 1 style is used to mark content for the `TOC` and this style has Bold formatting while the paragraph also has italic formatting directly applied to it. The resulting `TOC` entry will not be bold as that is part of style formatting however it will be italic as this is directly formatted on the paragraph.
 
@@ -104,7 +104,7 @@ You can also control the formatting of the separators used between each entry an
 
 Using the [Style](https://reference.aspose.com/words/nodejs-net/aspose.words/style/) class retrieved for the particular `TOC` level you want to modify, you can also modify how these appear in the document. To change how this appears firstly [Style.paragraphFormat](https://reference.aspose.com/words/nodejs-net/aspose.words/style/paragraphformat/) must be called to retrieve the paragraph formatting for the style. From this the tab stops can be retrieved by calling [ParagraphFormat.tabStops](https://reference.aspose.com/words/nodejs-net/aspose.words/paragraphformat/tabstops/) and the appropriate tab stop modified. Using this same technique the tab itself can be moved or removed all together. Below example shows how to modify the position of the right tab stop in `TOC` related paragraphs.
 
-{{< gist "aspose-words-gists" "db118a3e1559b9c88355356df9d7ea10" "change-toc-tab-stops.cs" >}}
+{{< gist "aspose-words-gists" "e0ccef8441be6a8e2de5810acdefd25a" "change-toc-tab-stops.js" >}}
 
 ## Remove a Table of Contents from the Document
 
@@ -112,10 +112,10 @@ A table of contents can be removed from the document by removing all nodes found
 
 Firstly the [FieldStart](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldstart/) nodes of each `TOC` are collected and stored. The specified `TOC` is then enumerated so all nodes within the field are visited and stored. The nodes are then removed from the document. Below code sample demonstrates how to remove a specified `TOC` from a document.
 
-{{< gist "aspose-words-gists" "db118a3e1559b9c88355356df9d7ea10" "remove-toc.cs" >}}
+{{< gist "aspose-words-gists" "e0ccef8441be6a8e2de5810acdefd25a" "remove-toc.js" >}}
 
 ## Extract Table of Contents
 
 If you want to extract a table of contents from any Word document, the following code sample can be used.
 
-{{< gist "aspose-words-gists" "db118a3e1559b9c88355356df9d7ea10" "extract-toc.cs" >}}
+{{< gist "aspose-words-gists" "e0ccef8441be6a8e2de5810acdefd25a" "extract-toc.js" >}}

@@ -30,13 +30,13 @@ In Microsoft Word, a watermark can easily be inserted in a document using the In
 
 The following code example demonstrates how to insert a text watermark in a document by defining [TextWatermarkOptions](https://reference.aspose.com/words/nodejs-net/aspose.words/textwatermarkoptions/) using the [setText](https://reference.aspose.com/words/nodejs-net/aspose.words/watermark/setText/) method:
 
-{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "add-text-watermark.cs" >}}
+{{< gist "aspose-words-gists" "2936fee38a4d9a8256f95e4276400579" "add-text-watermark.js" >}}
 
 ### Add Image Watermark
 
 The following code example demonstrates how to insert an image watermark in a document by defining [ImageWatermarkOptions](https://reference.aspose.com/words/nodejs-net/aspose.words/imagewatermarkoptions/) using the [setImage](https://reference.aspose.com/words/nodejs-net/aspose.words/watermark/setImage/#jsimage) method:
 
-{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "add-image-watermark.cs" >}}
+{{< gist "aspose-words-gists" "2936fee38a4d9a8256f95e4276400579" "add-image-watermark.js" >}}
 
 Image watermark can be inserted as image, string, or stream.
 
@@ -44,7 +44,7 @@ The watermark can also be inserted using shape class as well. It is very easy to
 
 The following code example inserts a watermark into a Word document:
 
-{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "add-document-watermark.cs" >}}
+{{< gist "aspose-words-gists" "2936fee38a4d9a8256f95e4276400579" "add-document-watermark.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -59,15 +59,15 @@ The [Watermark](https://reference.aspose.com/words/nodejs-net/aspose.words/water
 
 The following code example shows how to remove a watermark from documents:
 
-{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "remove-document-watermark.cs" >}}
+{{< gist "aspose-words-gists" "2936fee38a4d9a8256f95e4276400579" "remove-document-watermark.js" >}}
 
 If the watermarks are added using the [Shape](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/) class object then to remove the watermark from a document you have to set only the name of watermark shape during inserting and then remove watermark shape by an assigned name.
 
 The following code example show you how to set the name of the watermark shape and remove it from the document:
 
-{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "set-shape-name.cs" >}}
+{{< gist "aspose-words-gists" "2936fee38a4d9a8256f95e4276400579" "set-shape-name.js" >}}
 
-{{< gist "aspose-words-gists" "1f690a31c188a851d80d7aed4ff7e44c" "remove-watermark-shape.cs" >}}
+{{< gist "aspose-words-gists" "2936fee38a4d9a8256f95e4276400579" "remove-watermark-shape.js" >}}
 
 ## Add a Watermark in Table Cell
 
@@ -75,4 +75,4 @@ Sometimes you need to insert a watermark/image into a table's cell and display i
 
 The following code example shows how to use this property:
 
-{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "layout-in-cell.cs" >}}
+{{< gist "aspose-words-gists" "3a90c8783e87c53371d103d9350f1d31" "layout-in-cell.js" >}}

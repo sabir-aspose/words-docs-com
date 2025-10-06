@@ -52,7 +52,7 @@ As a result of comparison, documents can be determined as equal or not equal. Th
 
 The following code example shows how to check if two documents are equal or not:
 
-{{< gist "aspose-words-gists" "66cba61d079d8ef1e676820633ba4586" "compare-for-equal.cs" >}}
+{{< gist "aspose-words-gists" "57808d29628dd1680d4c229e84c5456c" "compare-for-equal.js" >}}
 
 ## Specify Advanced Comparing Properties {#specify-advanced-comparing-properties}
 
@@ -66,4 +66,4 @@ Another common property is a choice in which document to show comparison changes
 
 The following code example shows how to set the advanced comparing properties:
 
-{{< gist "aspose-words-gists" "66cba61d079d8ef1e676820633ba4586" "compare-options.cs" >}}
+{{< gist "aspose-words-gists" "57808d29628dd1680d4c229e84c5456c" "compare-options.js" >}}

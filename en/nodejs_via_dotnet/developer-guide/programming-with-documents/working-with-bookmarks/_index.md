@@ -28,7 +28,7 @@ All white spaces in the bookmarks were replaced with underscores. This restricti
 
 The following code example shows how to create a new bookmark:
 
-{{< gist "aspose-words-gists" "c4555b1a088856e21394104faeb86e51" "create-bookmark.cs" >}}
+{{< gist "aspose-words-gists" "6b8a885f5544cddd9bc77edb3ad18692" "create-bookmark.js" >}}
 
 ## Obtain Bookmarks
 
@@ -42,15 +42,15 @@ You can download the sample file of these examples from [Aspose.Words GitHub](ht
 
 The following code example shows how to obtain bookmarks from a bookmark collection:
 
-{{< gist "aspose-words-gists" "c4555b1a088856e21394104faeb86e51" "access-bookmarks.cs" >}}
+{{< gist "aspose-words-gists" "6b8a885f5544cddd9bc77edb3ad18692" "access-bookmarks.js" >}}
 
 The following code example shows how to get or set a bookmark name and text:
 
-{{< gist "aspose-words-gists" "c4555b1a088856e21394104faeb86e51" "update-bookmark-data.cs" >}}
+{{< gist "aspose-words-gists" "6b8a885f5544cddd9bc77edb3ad18692" "update-bookmark-data.js" >}}
 
 The following code example shows how to bookmark a table:
 
-{{< gist "aspose-words-gists" "c4555b1a088856e21394104faeb86e51" "bookmark-table.cs" >}}
+{{< gist "aspose-words-gists" "6b8a885f5544cddd9bc77edb3ad18692" "bookmark-table.js" >}}
 
 If you change the name of a bookmark to a name that already exists in the document, no error will be generated and only the first bookmark will be stored when you save the document.
 
@@ -58,7 +58,7 @@ Note that some bookmarks in the document are assigned to form fields. Moving to 
 
 The following code example shows how to access columns of the bookmarked table:
 
-{{< gist "aspose-words-gists" "c4555b1a088856e21394104faeb86e51" "bookmark-table-columns.cs" >}}
+{{< gist "aspose-words-gists" "6b8a885f5544cddd9bc77edb3ad18692" "bookmark-table-columns.js" >}}
 
 ## Move to a Bookmark
 
@@ -70,6 +70,6 @@ The entire Bookmark (*including the bookmarked content*) can be encapsulated wit
 
 The following code example shows how to show/ hide bookmarks:
 
-{{< gist "aspose-words-gists" "c4555b1a088856e21394104faeb86e51" "show-hide-bookmarks.cs" >}}
+{{< gist "aspose-words-gists" "6b8a885f5544cddd9bc77edb3ad18692" "show-hide-bookmarks.js" >}}
 
-{{< gist "aspose-words-gists" "c4555b1a088856e21394104faeb86e51" "show-hide-bookmarked-content.cs" >}}
+{{< gist "aspose-words-gists" "6b8a885f5544cddd9bc77edb3ad18692" "show-hide-bookmarked-content.js" >}}

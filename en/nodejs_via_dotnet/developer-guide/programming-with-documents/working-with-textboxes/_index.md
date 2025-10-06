@@ -20,7 +20,7 @@ In Aspose.Words, [TextBox](https://reference.aspose.com/words/nodejs-net/aspose.
 
 The following code example shows how to check if the `TextBox` can be linked to the target Textbox:
 
-{{< gist "aspose-words-gists" "68b6041746b3d6bf5137cff8e6385b5f" "create-link.cs" >}}
+{{< gist "aspose-words-gists" "e78f2e5545401312af45ab0be0f09bb2" "create-link.js" >}}
 
 ## Check TextBox Sequence
 
@@ -28,7 +28,7 @@ There are several ways to display text in a shape. The [textBox](https://referen
 
 The following code example shows how to check if **TextBox** is a Head, Tail, or Middle of the sequence:
 
-{{< gist "aspose-words-gists" "68b6041746b3d6bf5137cff8e6385b5f" "check-sequence.cs" >}}
+{{< gist "aspose-words-gists" "e78f2e5545401312af45ab0be0f09bb2" "check-sequence.js" >}}
 
 ## Breaking a Link
 
@@ -36,4 +36,4 @@ Using the [textBox](https://reference.aspose.com/words/nodejs-net/aspose.words.d
 
 The following code example shows how to break a link for a **TextBox**:
 
-{{< gist "aspose-words-gists" "68b6041746b3d6bf5137cff8e6385b5f" "break-link.cs" >}}
+{{< gist "aspose-words-gists" "e78f2e5545401312af45ab0be0f09bb2" "break-link.js" >}}

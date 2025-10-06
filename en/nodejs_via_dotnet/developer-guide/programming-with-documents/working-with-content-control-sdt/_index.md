@@ -36,15 +36,15 @@ In this version of Aspose.Words, the following types of SDT or content control c
 
 The following code example demonstrates how to create content control of type checkbox.
 
-{{< gist "aspose-words-gists" "089defec1b191de967e6099effeabda7" "sdt-check-box.cs" >}}
+{{< gist "aspose-words-gists" "625644238d5cac4a2215ccfe46030666" "sdt-check-box.js" >}}
 
 The following code example demonstrates how to create content control of type rich text box.
 
-{{< gist "aspose-words-gists" "089defec1b191de967e6099effeabda7" "sdt-rich-text-box.cs" >}}
+{{< gist "aspose-words-gists" "625644238d5cac4a2215ccfe46030666" "sdt-rich-text-box.js" >}}
 
 The following code example demonstrates how to create content control of the type combo box.
 
-{{< gist "aspose-words-gists" "089defec1b191de967e6099effeabda7" "sdt-combo-box.cs" >}}
+{{< gist "aspose-words-gists" "625644238d5cac4a2215ccfe46030666" "sdt-combo-box.js" >}}
 
 ## How to update Content Controls
 
@@ -52,11 +52,11 @@ This section explains how to update the values of SDT or content control program
 
 The following code example shows how to set the current state of the checkbox:
 
-{{< gist "aspose-words-gists" "089defec1b191de967e6099effeabda7" "current-state-of-check-box.cs" >}}
+{{< gist "aspose-words-gists" "625644238d5cac4a2215ccfe46030666" "current-state-of-check-box.js" >}}
 
 The following code example shows how to modify content controls of type plain text box, drop-down list and picture:
 
-{{< gist "aspose-words-gists" "089defec1b191de967e6099effeabda7" "modify-sdt.cs" >}}
+{{< gist "aspose-words-gists" "625644238d5cac4a2215ccfe46030666" "modify-sdt.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -70,7 +70,7 @@ You can bind content controls with XML data (*custom XML part*) in Word document
 
 The following code example shows how to bind content control to custom XML parts:
 
-{{< gist "aspose-words-gists" "089defec1b191de967e6099effeabda7" "bind-sdt-to-custom-xml-part.cs" >}}
+{{< gist "aspose-words-gists" "625644238d5cac4a2215ccfe46030666" "bind-sdt-to-custom-xml-part.js" >}}
 
 ## XMLMapping of Structured Document Tag Range
 
@@ -78,7 +78,7 @@ You can get the mapping of this structured document tag range to XML data in a c
 
 The following code example shows how to set XML mapping:
 
-{{< gist "aspose-words-gists" "089defec1b191de967e6099effeabda7" "sdt-range-start-xml-mapping.cs" >}}
+{{< gist "aspose-words-gists" "625644238d5cac4a2215ccfe46030666" "sdt-range-start-xml-mapping.js" >}}
 
 ## Clear Contents of a Content Control
 
@@ -86,7 +86,7 @@ You can clear the contents of a content control with displaying a placeholder. [
 
 The following code example shows how to clear the content of content control:
 
-{{< gist "aspose-words-gists" "089defec1b191de967e6099effeabda7" "clear-sdt.cs" >}}
+{{< gist "aspose-words-gists" "625644238d5cac4a2215ccfe46030666" "clear-sdt.js" >}}
 
 ## Change Content Control Background and Border Colors
 
@@ -97,7 +97,7 @@ The [StructuredDocumentTag.color](https://reference.aspose.com/words/nodejs-net/
 
 The following code example shows how to change the color of content control:
 
-{{< gist "aspose-words-gists" "089defec1b191de967e6099effeabda7" "sdt-color.cs" >}}
+{{< gist "aspose-words-gists" "625644238d5cac4a2215ccfe46030666" "sdt-color.js" >}}
 
 ## How to Set Style to Format Text Typed into the Content Control
 
@@ -111,7 +111,7 @@ Note that only Linked and Character styles can be applied to content control. An
 
 The following code example shows how to set the style of content control:
 
-{{< gist "aspose-words-gists" "089defec1b191de967e6099effeabda7" "sdt-style.cs" >}}
+{{< gist "aspose-words-gists" "625644238d5cac4a2215ccfe46030666" "sdt-style.js" >}}
 
 ## Working with Repeating Section Content Control
 
@@ -119,4 +119,4 @@ The repeating section content control allows repeating the content contained wit
 
 The following code example shows how to bind a repeating section content control to a table:
 
-{{< gist "aspose-words-gists" "089defec1b191de967e6099effeabda7" "repeating-section-mapped-to-custom-xml-part.cs" >}}
+{{< gist "aspose-words-gists" "625644238d5cac4a2215ccfe46030666" "repeating-section-mapped-to-custom-xml-part.js" >}}

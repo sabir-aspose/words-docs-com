@@ -40,7 +40,7 @@ The pictures below show a representation of the **Table** formatting features in
 
 The following code example shows how to apply an outline border to a table:
 
-{{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "apply-outline-border.cs" >}}
+{{< gist "aspose-words-gists" "6d14807d3df5bb7a531673f3b67ed3f7" "apply-outline-border.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -50,7 +50,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 The following code example shows how to build a table with all borders enabled (grid):
 
-{{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "build-table-with-borders.cs" >}}
+{{< gist "aspose-words-gists" "6d14807d3df5bb7a531673f3b67ed3f7" "build-table-with-borders.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -75,7 +75,7 @@ The pictures below show a representation of the **Row** formatting features in M
 
 The following code example shows how to modify the table row formatting:
 
-{{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "modify-row-formatting.cs" >}}
+{{< gist "aspose-words-gists" "6d14807d3df5bb7a531673f3b67ed3f7" "modify-row-formatting.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -104,7 +104,7 @@ The pictures below show a representation of the **Cell** formatting features in 
 
 The following code example shows how to modify the formatting of a table cell:
 
-{{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "modify-cell-formatting.cs" >}}
+{{< gist "aspose-words-gists" "6d14807d3df5bb7a531673f3b67ed3f7" "modify-cell-formatting.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -114,7 +114,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 The following code example shows how to set the amount of space (in points) to add to the left/top/right/bottom of the contents of the cell:
 
-{{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "cell-padding.cs" >}}
+{{< gist "aspose-words-gists" "6d14807d3df5bb7a531673f3b67ed3f7" "cell-padding.js" >}}
 
 ## Specify Row Heights
 
@@ -135,7 +135,7 @@ Rule options for specifying the height of an object can be set using the [Height
 
 The following code example shows how to create a table that contains a single cell and apply row formatting:
 
-{{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "apply-row-formatting.cs" >}}
+{{< gist "aspose-words-gists" "6d14807d3df5bb7a531673f3b67ed3f7" "apply-row-formatting.js" >}}
 
 ## Specifying Table and Cell Widths
 
@@ -208,13 +208,13 @@ Using the [Table.preferredWidth](https://reference.aspose.com/words/nodejs-net/a
 
 The following code example shows how to set the table to auto-fit to 50% of the page width:
 
-{{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "auto-fit-page-width.cs" >}}
+{{< gist "aspose-words-gists" "6d14807d3df5bb7a531673f3b67ed3f7" "auto-fit-page-width.js" >}}
 
 Using the [CellFormat.preferredWidth](https://reference.aspose.com/words/nodejs-net/aspose.words.tables/cellformat/preferredwidth/) property on a given cell will adjust its preferred width.
 
 The following code example shows how to set the different preferred width settings:
 
-{{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "preferred-width-settings.cs" >}}
+{{< gist "aspose-words-gists" "6d14807d3df5bb7a531673f3b67ed3f7" "preferred-width-settings.js" >}}
 
 #### Finding Preferred Width Type and Value
 
@@ -222,7 +222,7 @@ You can use the [type](https://reference.aspose.com/words/nodejs-net/aspose.word
 
 The following code example shows how to retrieve the preferred width type of a table cell:
 
-{{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "retrieve-preferred-width-type.cs" >}}
+{{< gist "aspose-words-gists" "6d14807d3df5bb7a531673f3b67ed3f7" "retrieve-preferred-width-type.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -246,7 +246,7 @@ It is important to know that the autofit method is actually a shortcut that appl
 
 The following code example shows how to set a table to shrink or grow each cell according to its contents:
 
-{{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "allow-auto-fit.cs" >}}
+{{< gist "aspose-words-gists" "6d14807d3df5bb7a531673f3b67ed3f7" "allow-auto-fit.js" >}}
 
 #### AutoFit Table to Window
 
@@ -262,7 +262,7 @@ When autofitting to a window is applied to a table, the following operations are
 
 The following code example shows how to autofit a table to the page width:
 
-{{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "auto-fit-table-to-page-width.cs" >}}
+{{< gist "aspose-words-gists" "6d14807d3df5bb7a531673f3b67ed3f7" "auto-fit-table-to-page-width.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -285,7 +285,7 @@ When the table is autofitted the content, the following steps are actually perfo
 
 The following code example shows how to autofit a table to its content:
 
-{{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "auto-fit-table-to-contents.cs" >}}
+{{< gist "aspose-words-gists" "6d14807d3df5bb7a531673f3b67ed3f7" "auto-fit-table-to-contents.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -309,7 +309,7 @@ Note that if no width is specified for **CellFormat.Width**, the default value o
 
 The following code example shows how to disable autofit and enable fixed width for the specified table:
 
-{{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "auto-fit-table-to-fixed-column-widths.cs" >}}
+{{< gist "aspose-words-gists" "6d14807d3df5bb7a531673f3b67ed3f7" "auto-fit-table-to-fixed-column-widths.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -353,7 +353,7 @@ An example of how these options are applied to a real table in a document can be
 
 The following code example shows how to set the spacing between cells:
 
-{{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "allow-cell-spacing.cs" >}}
+{{< gist "aspose-words-gists" "6d14807d3df5bb7a531673f3b67ed3f7" "allow-cell-spacing.js" >}}
 
 ## Applying Borders and Shading
 
@@ -367,4 +367,4 @@ The pictures below show the border and shadow settings in Microsoft Word and the
 
 The following code example shows how to format a table and cell with different borders and shadings:
 
-{{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "format-table-and-cell-with-different-borders.cs" >}}
+{{< gist "aspose-words-gists" "6d14807d3df5bb7a531673f3b67ed3f7" "format-table-and-cell-with-different-borders.js" >}}

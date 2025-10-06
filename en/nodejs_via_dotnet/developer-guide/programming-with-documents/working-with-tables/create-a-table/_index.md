@@ -64,15 +64,15 @@ The process of creating a table can be clearly seen in the following picture:
 
 The following code example shows how to create a simple table using **DocumentBuilder** with default formatting:
 
-{{< gist "aspose-words-gists" "10307fa0baf630b07d0cbdae30119bf3" "create-simple-table.cs" >}}
+{{< gist "aspose-words-gists" "ba24a0bcb1eecc75eb8db4c8e7f5616c" "create-simple-table.js" >}}
 
 The following code example shows how to create a formatted table using DocumentBuilder:
 
-{{< gist "aspose-words-gists" "10307fa0baf630b07d0cbdae30119bf3" "formatted-table.cs" >}}
+{{< gist "aspose-words-gists" "ba24a0bcb1eecc75eb8db4c8e7f5616c" "formatted-table.js" >}}
 
 The following code example shows how to insert a nested table using DocumentBuilder:
 
-{{< gist "aspose-words-gists" "10307fa0baf630b07d0cbdae30119bf3" "nested-table.cs" >}}
+{{< gist "aspose-words-gists" "ba24a0bcb1eecc75eb8db4c8e7f5616c" "nested-table.js" >}}
 
 ## Create a Table via DOM (Document Object Model)
 
@@ -88,7 +88,7 @@ This method of creating a table uses the same table defaults as when using the *
 
 The following code example shows how to build a new table from scratch by adding the appropriate child nodes to the document tree:
 
-{{< gist "aspose-words-gists" "10307fa0baf630b07d0cbdae30119bf3" "insert-table-directly.cs" >}}
+{{< gist "aspose-words-gists" "ba24a0bcb1eecc75eb8db4c8e7f5616c" "insert-table-directly.js" >}}
 
 ##Create a Table from HTML
 
@@ -98,7 +98,7 @@ Using the **InsertHtml** method, users can insert tables into the document via t
 
 The following code example shows how to insert a table into a document from a string containing HTML tags:
 
-{{< gist "aspose-words-gists" "10307fa0baf630b07d0cbdae30119bf3" "insert-table-from-html.cs" >}}
+{{< gist "aspose-words-gists" "ba24a0bcb1eecc75eb8db4c8e7f5616c" "insert-table-from-html.js" >}}
 
 ## Insert a Copy of an Existing Table 
 
@@ -108,7 +108,7 @@ The same technique can be used to add copies of an existing row or cell to a tab
 
 The following code example shows how to duplicate a table using node constructors:
 
-{{< gist "aspose-words-gists" "10307fa0baf630b07d0cbdae30119bf3" "clone-complete-table.cs" >}}
+{{< gist "aspose-words-gists" "ba24a0bcb1eecc75eb8db4c8e7f5616c" "clone-complete-table.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -118,7 +118,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 The following code example shows how to clone the last row of a table and append it to the table:
 
-{{< gist "aspose-words-gists" "10307fa0baf630b07d0cbdae30119bf3" "clone-last-row.cs" >}}
+{{< gist "aspose-words-gists" "ba24a0bcb1eecc75eb8db4c8e7f5616c" "clone-last-row.js" >}}
 
 {{% alert color="primary" %}}
 

@@ -18,4 +18,4 @@ To manipulate a table to join with another table, we just need to move the rows 
 
 The following code example shows how to merge rows from two tables into one:
 
-{{< gist "aspose-words-gists" "b0735c64408bcb2c063f96f7c9d5af75" "combine-rows.cs" >}}
+{{< gist "aspose-words-gists" "9cc6f2ce785d8c91aa932c98aeed304d" "combine-rows.js" >}}

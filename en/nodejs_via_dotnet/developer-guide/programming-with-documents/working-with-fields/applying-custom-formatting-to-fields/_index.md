@@ -22,4 +22,4 @@ If you want to evaluate `IF` condition after mail merge, you can use the [Evalua
 
 The following code example shows how to use this method:
 
-{{< gist "aspose-words-gists" "79b46682fbfd7f02f64783b163ed95fc" "evaluate-if-condition.cs" >}}
+{{< gist "aspose-words-gists" "b62cbbccff1a140de484012aafd71fa2" "evaluate-if-condition.js" >}}

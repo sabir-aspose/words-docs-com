@@ -44,7 +44,7 @@ You can also use the [ListFormat.listLevelNumber](https://reference.aspose.com/w
 
 Below example shows how to build a multilevel list.
 
-{{< gist "aspose-words-gists" "a1dfeba1e0480d5b277a61742c8921af" "multilevel-list-formatting.cs" >}}
+{{< gist "aspose-words-gists" "d8326242115a099a83c0072f78763ca2" "multilevel-list-formatting.js" >}}
 
 ## Specify Formatting for a List Level
 
@@ -56,4 +56,4 @@ You can restart a list for each section using the [isRestartAtEachSection](https
 
 The following code example shows how to create a list and restart it for each section:
 
-{{< gist "aspose-words-gists" "a1dfeba1e0480d5b277a61742c8921af" "restart-list-at-each-section.cs" >}}
+{{< gist "aspose-words-gists" "d8326242115a099a83c0072f78763ca2" "restart-list-at-each-section.js" >}}

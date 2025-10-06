@@ -20,4 +20,4 @@ The [ConvertUtil](https://reference.aspose.com/words/nodejs-net/aspose.words/con
 
 The following code example shows how to specify page properties in inches:
 
-{{< gist "aspose-words-gists" "f266e937d2c656f9441071e9a7b053c1" "convert-between-measurement-units.cs" >}}
+{{< gist "aspose-words-gists" "0fd389e71a7e1ef74e6e48e94d37be5d" "convert-between-measurement-units.js" >}}

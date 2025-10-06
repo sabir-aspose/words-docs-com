@@ -26,7 +26,7 @@ Use the [text](https://reference.aspose.com/words/nodejs-net/aspose.words/range/
 
 The following code example shows how to get a plain, unformatted text of a range:
 
-{{< gist "aspose-words-gists" "9164e9c0658006e51db723b0742c12fc" "ranges-get-text.cs" >}}
+{{< gist "aspose-words-gists" "5abf4b66965fca92533f9a266a06c7ed" "ranges-get-text.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -40,7 +40,7 @@ Range allows the deletion of all characters of the range by calling [delete](htt
 
 The following code example shows how to delete all characters of a range:
 
-{{< gist "aspose-words-gists" "9164e9c0658006e51db723b0742c12fc" "ranges-delete-text.cs" >}}
+{{< gist "aspose-words-gists" "5abf4b66965fca92533f9a266a06c7ed" "ranges-delete-text.js" >}}
 
 {{% alert color="primary" %}}
 

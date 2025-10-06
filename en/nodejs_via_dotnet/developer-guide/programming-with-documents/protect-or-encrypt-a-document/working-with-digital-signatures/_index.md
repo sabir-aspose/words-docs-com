@@ -30,7 +30,7 @@ An important point to note is that a document loaded and then saved using Aspose
 
 Due to this, if you process documents uploaded to a server this could potentially mean you may corrupt a document uploaded to your server in this way without knowing. Therefore it is best to check for digital signatures on a document and take the appropriate action if any are found, for example an alert can be sent to the client informing them that the document they are passing contains digital signatures which will be lost if it is processed. You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/tree/main/Data/Digitally%20signed.docx).
 
-{{< gist "aspose-words-gists" "bdc15a6de6b25d9d4e66f2ce918fc01b" "detect-document-signatures.cs" >}}
+{{< gist "aspose-words-gists" "246abc8bf535665565cc872be9b805ac" "detect-document-signatures.js" >}}
 
 The code above uses the [FileFormatUtil.detectFileFormat](https://reference.aspose.com/words/nodejs-net/aspose.words/fileformatutil/detectFileFormat/) method to detect if a document contains digital signatures without loading the document first. This provides an efficient and safe way to check a document for signatures before processing them. When executed, the method returns a [FileFormatInfo](https://reference.aspose.com/words/nodejs-net/aspose.words/fileformatinfo/) object which provides the property [FileFormatInfo.hasDigitalSignature](https://reference.aspose.com/words/nodejs-net/aspose.words/fileformatinfo/hasdigitalsignature/). This property returns true if the document contains one or more digital signatures. It’s important to note that this method does not validate the signatures, it only determines if signatures are present. Validating digital signatures is covered in the next section.
 
@@ -70,7 +70,7 @@ You can sign source document using given [CertificateHolder](https://reference.a
 
 Below example shows how to sign Word document using signature provider identifier. The cryptographic service provider (CSP) is an independent software module that actually performs cryptography algorithms for authentication, encoding, and encryption. MS Office reserves the value of {00000000-0000-0000-0000-000000000000} for its default signature provider.
 
-{{< gist "aspose-words-gists" "bdc15a6de6b25d9d4e66f2ce918fc01b" "remove-signatures.cs" >}}
+{{< gist "aspose-words-gists" "246abc8bf535665565cc872be9b805ac" "remove-signatures.js" >}}
 
 ### Create New Signature Line Sign Word Document using Provider Identifier
 
@@ -84,4 +84,4 @@ Aspose.Words also provides the ability to retrieve the digital signature value f
 
 The following code example shows how to obtain the digital signature value as a byte array from a document:
 
-{{< gist "aspose-words-gists" "bdc15a6de6b25d9d4e66f2ce918fc01b" "signature-value.cs" >}}
+{{< gist "aspose-words-gists" "246abc8bf535665565cc872be9b805ac" "signature-value.js" >}}

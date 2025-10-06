@@ -41,7 +41,7 @@ The [DocumentProperty](https://reference.aspose.com/words/nodejs-net/aspose.word
 
 The following code example shows how to enumerate all built-in and custom properties in a document:
 
-{{< gist "aspose-words-gists" "0593a8803015363f3026f648332e7026" "enumerate-properties.cs" >}}
+{{< gist "aspose-words-gists" "9bd62e688457850bceba59bc2c0ead99" "enumerate-properties.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -63,7 +63,7 @@ To remove custom properties, use the [remove](https://reference.aspose.com/words
 
 The following code example checks whether a custom property with a given name exists in a document and adds a few more custom document properties:
 
-{{< gist "aspose-words-gists" "0593a8803015363f3026f648332e7026" "add-custom-properties.cs" >}}
+{{< gist "aspose-words-gists" "9bd62e688457850bceba59bc2c0ead99" "add-custom-properties.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -73,7 +73,7 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 The following code example shows how to remove a custom document property:
 
-{{< gist "aspose-words-gists" "0593a8803015363f3026f648332e7026" "remove-custom-properties.cs" >}}
+{{< gist "aspose-words-gists" "9bd62e688457850bceba59bc2c0ead99" "remove-custom-properties.js" >}}
 
 ## Update Built-In Document Properties
 
@@ -91,7 +91,7 @@ Aspose.Words provides the [addLinkToContent](https://reference.aspose.com/words/
 
 The following code example shows how to configure a link to a custom property:
 
-{{< gist "aspose-words-gists" "0593a8803015363f3026f648332e7026" "configuring-link-to-content.cs" >}}
+{{< gist "aspose-words-gists" "9bd62e688457850bceba59bc2c0ead99" "configuring-link-to-content.js" >}}
 
 ## Get Document Variables
 
@@ -99,7 +99,7 @@ You can get a collection of document variables using the [variables](https://ref
 
 The following code example shows how to add and access document variables:
 
-{{< gist "aspose-words-gists" "0593a8803015363f3026f648332e7026" "get-variables.cs" >}}
+{{< gist "aspose-words-gists" "9bd62e688457850bceba59bc2c0ead99" "get-variables.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -113,7 +113,7 @@ If you want to share a Word document with other people, you may want to remove p
 
 The following code example shows how to remove personal information:
 
-{{< gist "aspose-words-gists" "0593a8803015363f3026f648332e7026" "remove-personal-information.cs" >}}
+{{< gist "aspose-words-gists" "9bd62e688457850bceba59bc2c0ead99" "remove-personal-information.js" >}}
 
 {{% alert color="primary" %}}
 

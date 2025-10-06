@@ -35,7 +35,7 @@ You can use one of the [replace](https://reference.aspose.com/words/nodejs-net/a
 
 The following code example shows how to find the string “_CustomerName_” and replace it with the string *“James Bond”*:
 
-{{< gist "aspose-words-gists" "27c3408b2c7fbee8d6dc6a1c8b61c105" "replace-with-string.cs" >}}
+{{< gist "aspose-words-gists" "a652819331ab7eff5560cac42bb71ad2" "replace-with-string.js" >}}
 
 You can notice the difference between the document before applying simple string replacement:
 
@@ -75,7 +75,7 @@ Note that the metacharacter **&&** equals to **&**. For example, if you need to 
 
 The following code example shows how to replace text with paragraph and page break:
 
-{{< gist "aspose-words-gists" "27c3408b2c7fbee8d6dc6a1c8b61c105" "replace-text-containing-meta-characters.cs" >}}
+{{< gist "aspose-words-gists" "a652819331ab7eff5560cac42bb71ad2" "replace-text-containing-meta-characters.js" >}}
 
 ## Find and Replace String in Header/Footer of a Document {#find-and-replace-string-in-header-or-footer-of-a-document}
 
@@ -91,7 +91,7 @@ And after applying header string replacement:
 
 The following code example shows how to replace the text of the footer section in your document:
 
-{{< gist "aspose-words-gists" "27c3408b2c7fbee8d6dc6a1c8b61c105" "replace-text-in-footer.cs" >}}
+{{< gist "aspose-words-gists" "a652819331ab7eff5560cac42bb71ad2" "replace-text-in-footer.js" >}}
 
 You can notice the difference between the document before applying footer string replacement:
 
@@ -109,7 +109,7 @@ Aspose.Words provides many find and replace properties for ignoring text such as
 
 The following code example shows how to ignore text inside delete revisions:
 
-{{< gist "aspose-words-gists" "27c3408b2c7fbee8d6dc6a1c8b61c105" "ignore-text-inside-delete-revisions.cs" >}}
+{{< gist "aspose-words-gists" "a652819331ab7eff5560cac42bb71ad2" "ignore-text-inside-delete-revisions.js" >}}
 
 ## Customize Find and Replace Operation {#customize-find-and-replace-operation}
 
@@ -117,4 +117,4 @@ Aspose.Words provides many different properties to find and replace text such as
 
 The following code example shows how to highlight a specific word in your document:
 
-{{< gist "aspose-words-gists" "27c3408b2c7fbee8d6dc6a1c8b61c105" "highlight-color.cs" >}}
+{{< gist "aspose-words-gists" "a652819331ab7eff5560cac42bb71ad2" "highlight-color.js" >}}

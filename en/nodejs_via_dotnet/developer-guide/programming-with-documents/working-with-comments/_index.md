@@ -31,11 +31,11 @@ Aspose.Words allows you to add comments in several ways:
 
 The following code example shows how to add a comment to a paragraph using the **Comment** class:
 
-{{< gist "aspose-words-gists" "70902b20df8b1f6b0459f676e21623bb" "add-comments.cs" >}}
+{{< gist "aspose-words-gists" "f8f4978e43b554cf1c3f88982244c535" "add-comments.js" >}}
 
 The following code example shows how to add a comment to a paragraph using a region of text and the **CommentRangeStart** and **CommentRangeEnd** classes:
 
-{{< gist "aspose-words-gists" "70902b20df8b1f6b0459f676e21623bb" "anchor-comment.cs" >}}
+{{< gist "aspose-words-gists" "f8f4978e43b554cf1c3f88982244c535" "anchor-comment.js" >}}
 
 ## Extract or Remove Comments
 
@@ -69,7 +69,7 @@ The [getChildNodes](https://reference.aspose.com/words/nodejs-net/aspose.words/c
 
 The following code example shows how to extract the author name, date&time and text of all comments in the document:
 
-{{< gist "aspose-words-gists" "70902b20df8b1f6b0459f676e21623bb" "extract-comments.cs" >}}
+{{< gist "aspose-words-gists" "f8f4978e43b554cf1c3f88982244c535" "extract-comments.js" >}}
 
 ### How to Extract Comments of a Specified Author
 
@@ -79,7 +79,7 @@ The overloaded method that extracts the Comments from a particular author is alm
 
 The following code example shows how to extract the author name, date&time and text of the comments by the specified author:
 
-{{< gist "aspose-words-gists" "70902b20df8b1f6b0459f676e21623bb" "extract-comments-by-author.cs" >}}
+{{< gist "aspose-words-gists" "f8f4978e43b554cf1c3f88982244c535" "extract-comments-by-author.js" >}}
 
 ### How to Remove Comments
 
@@ -87,19 +87,19 @@ If you are removing all comments, there is no need to move through the collectio
 
 The following code example shows how to remove all comments in the document:
 
-{{< gist "aspose-words-gists" "70902b20df8b1f6b0459f676e21623bb" "remove-comments.cs" >}}
+{{< gist "aspose-words-gists" "f8f4978e43b554cf1c3f88982244c535" "remove-comments.js" >}}
 
 When you need to selectively remove comments, the process becomes more similar to the code we used for comment extraction.
 
 The following code example shows how to remove comments by the specified author:
 
-{{< gist "aspose-words-gists" "70902b20df8b1f6b0459f676e21623bb" "remove-comments-by-author.cs" >}}
+{{< gist "aspose-words-gists" "f8f4978e43b554cf1c3f88982244c535" "remove-comments-by-author.js" >}}
 
 The main point to highlight here is the use of the for operator. Unlike the simple extraction, here you want to delete a comment. A suitable trick is to iterate the collection backwards from the last [Comment](https://reference.aspose.com/words/nodejs-net/aspose.words/comment/) to the first one. The reason for this if you start from the end and move backwards, the index of the preceding items remains unchanged, and you can work your way back to the first item in the collection.
 
 The following code example shows the methods for the comments extraction and removal:
 
-{{< gist "aspose-words-gists" "70902b20df8b1f6b0459f676e21623bb" "process-comments.cs" >}}
+{{< gist "aspose-words-gists" "f8f4978e43b554cf1c3f88982244c535" "process-comments.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -113,7 +113,7 @@ Using Aspose.Words you can also remove comments between the **CommentRangeStart*
 
 The following code example shows how to remove text between **CommentRangeStart** and **CommentRangeEnd**:
 
-{{< gist "aspose-words-gists" "70902b20df8b1f6b0459f676e21623bb" "remove-range-text.cs" >}}
+{{< gist "aspose-words-gists" "f8f4978e43b554cf1c3f88982244c535" "remove-range-text.js" >}}
 
 ## Add or Remove Comment's Reply
 
@@ -123,7 +123,7 @@ You can use [removeReply](https://reference.aspose.com/words/nodejs-net/aspose.w
 
 The following code example shows how to add a reply to comment and remove comment's reply:
 
-{{< gist "aspose-words-gists" "70902b20df8b1f6b0459f676e21623bb" "add-remove-comment-reply.cs" >}}
+{{< gist "aspose-words-gists" "f8f4978e43b554cf1c3f88982244c535" "add-remove-comment-reply.js" >}}
 
 ## Read Comment's Reply
 
@@ -131,4 +131,4 @@ The [replies](https://reference.aspose.com/words/nodejs-net/aspose.words/comment
 
 The following code example shows how to iterate through a comment's replies and resolved them:
 
-{{< gist "aspose-words-gists" "70902b20df8b1f6b0459f676e21623bb" "comment-resolved-and-replies.cs" >}}
+{{< gist "aspose-words-gists" "f8f4978e43b554cf1c3f88982244c535" "comment-resolved-and-replies.js" >}}

@@ -23,4 +23,4 @@ We can create two tables from the original table by following these simple steps
 
 The following code example shows how to split a table into two tables on a specific row:
 
-{{< gist "aspose-words-gists" "4ab56c5443822fa44f4cac1f45af32b7" "split-table.cs" >}}
+{{< gist "aspose-words-gists" "b8cd11852d8ab0968ecdda0e2baeda15" "split-table.js" >}}

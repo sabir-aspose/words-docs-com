@@ -32,13 +32,13 @@ Pass a single string representing a file that contains the image to [insertImag
 
 The following code example shows how to insert an inline image at the cursor position into a document:
 
-{{< gist "aspose-words-gists" "6f849e51240635a6322ab0460938c922" "insert-inline-image.cs" >}}
+{{< gist "aspose-words-gists" "e2b8f833f9ab5de7c0598ddfd0ab1414" "insert-inline-image.js" >}}
 
 ### Inserting a Floating (Absolutely Positioned) Image
 
 The following code example shows how to insert a floating image from a file or `URL` at a specified position and size:
 
-{{< gist "aspose-words-gists" "6f849e51240635a6322ab0460938c922" "insert-floating-image.cs" >}}
+{{< gist "aspose-words-gists" "e2b8f833f9ab5de7c0598ddfd0ab1414" "insert-floating-image.js" >}}
 
 ## How to Extract Images from a Document
 
@@ -52,7 +52,7 @@ All images are stored inside [Shape](https://reference.aspose.com/words/nodejs-n
 
 The following code example shows how to extract images from a document and save them as files:
 
-{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "extract-images.cs" >}}
+{{< gist "aspose-words-gists" "433f5122fe18fdc24a406528b70b0020" "extract-images.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -66,9 +66,9 @@ This example demonstrates you to add the same or different barcodes on all or sp
 
 The following code example shows how to insert a barcode image on each page of a document:
 
-{{< gist "aspose-words-gists" "6f849e51240635a6322ab0460938c922" "insert-barcode-image.cs" >}}
+{{< gist "aspose-words-gists" "e2b8f833f9ab5de7c0598ddfd0ab1414" "insert-barcode-image.js" >}}
 
-{{< gist "aspose-words-gists" "6f849e51240635a6322ab0460938c922" "insert-barcode-into-footer.cs" >}}
+{{< gist "aspose-words-gists" "e2b8f833f9ab5de7c0598ddfd0ab1414" "insert-barcode-into-footer.js" >}}
 
 ## Lock Aspect Ratio of Image
 
@@ -76,7 +76,7 @@ The aspect ratio of a geometric shape is the ratio of its sizes in different dim
 
 The following code example shows how to work with aspect ratio:
 
-{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "aspect-ratio-locked.cs" >}}
+{{< gist "aspose-words-gists" "3a90c8783e87c53371d103d9350f1d31" "aspect-ratio-locked.js" >}}
 
 ## How to Get Actual Bounds of Shape in Points
 
@@ -84,7 +84,7 @@ If you want the actual bounding box of the shape as rendered on the page, you ca
 
 The following code example shows how to use this property:
 
-{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "get-actual-shape-bounds-points.cs" >}}
+{{< gist "aspose-words-gists" "3a90c8783e87c53371d103d9350f1d31" "get-actual-shape-bounds-points.js" >}}
 
 ## Crop Images
 
@@ -92,7 +92,7 @@ The cropping of an image usually refers to the removal of the unwanted outer p
 
 The following code example shows how to achieve this using Aspose.Words API:
 
-{{< gist "aspose-words-gists" "6f849e51240635a6322ab0460938c922" "crop-images.cs" >}}
+{{< gist "aspose-words-gists" "e2b8f833f9ab5de7c0598ddfd0ab1414" "crop-images.js" >}}
 
 ## Saving Images as WMF
 

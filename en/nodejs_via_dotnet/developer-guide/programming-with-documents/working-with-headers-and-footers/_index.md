@@ -20,7 +20,7 @@ If you want to add a document header or footer programmatically, the easiest way
 
 The following code example shows how to add a header and footer for document pages:
 
-{{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "create-header-footer.cs" >}}
+{{< gist "aspose-words-gists" "af238004afed43ffa79beb305a41e642" "create-header-footer.js" >}}
 
 ## Specify Header or Footer Options
 
@@ -35,7 +35,7 @@ You can specify three different header types and three different footer types fo
 
 The following code example shows how to add a header for odd document pages:
 
-{{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "header-footer-type.cs" >}}
+{{< gist "aspose-words-gists" "af238004afed43ffa79beb305a41e642" "header-footer-type.js" >}}
 
 ### Specify Whether to Display Different Headers or Footers for the First Page
 
@@ -43,13 +43,13 @@ As said above, you can also set a different header or footer for the first page.
 
 The following code example shows how to set the header for the first page only:
 
-{{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "different-first-page.cs" >}}
+{{< gist "aspose-words-gists" "af238004afed43ffa79beb305a41e642" "different-first-page.js" >}}
 
 ### Specify Whether to Display Different Headers or Footers for Odd or Even Pages
 
  Next, you will want to set different headers or footers for odd and even pages in a document. To do this, you need to set the [oddAndEvenPagesHeaderFooter](https://reference.aspose.com/words/nodejs-net/aspose.words/pagesetup/oddandevenpagesheaderfooter/) flag to `true` and then specyfy the values **HeaderPrimary** and **HeaderEven**, or **FooterPrimary** and **FooterEven**.
 
-{{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "odd-even-pages.cs" >}}
+{{< gist "aspose-words-gists" "af238004afed43ffa79beb305a41e642" "odd-even-pages.js" >}}
 
 ### Insert an Absolutely Positioned Image into the Header
 
@@ -57,7 +57,7 @@ To place an image in a header or footer, use the **HeaderPrimary** header type o
 
 The following code example shows how to add an image to a header:
 
-{{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "insert-image.cs" >}}
+{{< gist "aspose-words-gists" "af238004afed43ffa79beb305a41e642" "insert-image.js" >}}
 
 ### Set Font and Paragraph Properties for Header or Footer Text
 
@@ -65,7 +65,7 @@ With Aspose.Words you can set the font and paragraph properties, use the **Heade
 
 The following code example shows how to set the text in the header to Arial, bold, size 14, and center alignment:
 
-{{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "font-props.cs" >}}
+{{< gist "aspose-words-gists" "af238004afed43ffa79beb305a41e642" "font-props.js" >}}
 
 ### Insert Page Numbers into the Header or Footer
 
@@ -73,7 +73,7 @@ If necessary, you can add page numbers to the header or footer. To do this, use 
 
 The following code example shows how to add page numbers to the footer on the right:
 
-{{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "page-numbers.cs" >}}
+{{< gist "aspose-words-gists" "af238004afed43ffa79beb305a41e642" "page-numbers.js" >}}
 
 ### Use Headers or Footers Defined in the Previous Section
 
@@ -81,7 +81,7 @@ If you need to copy the header or footer from the previous section, you can do t
 
 The following code example shows how to copy the header or footer from the previous section:
 
-{{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "copy-headers-footers-from-previous-section.cs" >}}
+{{< gist "aspose-words-gists" "af238004afed43ffa79beb305a41e642" "copy-headers-footers-from-previous-section.js" >}}
 
 ### Ensure Header or Footer appearance when Using Different Page Orientations and Page Size
 
@@ -89,7 +89,7 @@ Aspose.Words allows you to provide the appearance of a header or footer when usi
 
 The following example shows how to do this:
 
-{{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "link-to-previous-header-footer.cs" >}}
+{{< gist "aspose-words-gists" "af238004afed43ffa79beb305a41e642" "link-to-previous-header-footer.js" >}}
 
 ## How to Remove Only Headers or Only Footers
 
@@ -97,7 +97,7 @@ Each section in a document can have up to three headers and up to three footers 
 
 The following code example shows how to remove all footers from all sections but leave headers intact. You can remove only headers in a similar way:
 
-{{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "remove-footers.cs" >}}
+{{< gist "aspose-words-gists" "af238004afed43ffa79beb305a41e642" "remove-footers.js" >}}
 
 {{% alert color="primary" %}}
 

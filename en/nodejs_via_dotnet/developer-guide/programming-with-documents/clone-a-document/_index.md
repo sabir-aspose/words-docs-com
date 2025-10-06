@@ -36,4 +36,4 @@ Note that when applying the cloning method all document properties will be clone
 
 The following code example shows how to clone a document and create a duplicate of a section in that document:
 
-{{< gist "aspose-words-gists" "b2f62f736a2090163de7b0f221cf46d4" "clone-document.cs" >}}
+{{< gist "aspose-words-gists" "4140b2f1857750e685e7bf1b2d9ba8dd" "clone-document.js" >}}

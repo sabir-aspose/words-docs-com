@@ -27,7 +27,7 @@ You can set the position of an inline table using the Aspose.Words API and the [
 
 The following code example shows how to set the position of an inline table:
 
-{{< gist "aspose-words-gists" "8df1ad0825619cab7c80b571c6e6ba99" "inline-table-position.cs" >}}
+{{< gist "aspose-words-gists" "b55c18ec2f5fe3f033f8d24c508b6a0f" "inline-table-position.js" >}}
 
 ## Get Floating Table Alignment
 
@@ -37,7 +37,7 @@ With **other types of text wrapping**, you can get inline table alignment using 
 
 The following code example shows how to get the table's alignment:
 
-{{< gist "aspose-words-gists" "8df1ad0825619cab7c80b571c6e6ba99" "get-table-position.cs" >}}
+{{< gist "aspose-words-gists" "b55c18ec2f5fe3f033f8d24c508b6a0f" "get-table-position.js" >}}
 
 ## Get Floating Table Position
 
@@ -53,7 +53,7 @@ The following code example shows how to get the table's alignment:
 
 The following code example shows how to get the position of a floating table:
 
-{{< gist "aspose-words-gists" "8df1ad0825619cab7c80b571c6e6ba99" "get-floating-table-position.cs" >}}
+{{< gist "aspose-words-gists" "b55c18ec2f5fe3f033f8d24c508b6a0f" "get-floating-table-position.js" >}}
 
 ## Set Floating Table Position
 
@@ -63,7 +63,7 @@ It is important to know that alignment and horizontal and vertical distance are 
 
 The following code example shows how to set the position of a floating table:
 
-{{< gist "aspose-words-gists" "8df1ad0825619cab7c80b571c6e6ba99" "floating-table-position.cs" >}}
+{{< gist "aspose-words-gists" "b55c18ec2f5fe3f033f8d24c508b6a0f" "floating-table-position.js" >}}
 
 ## Get Distance between Table and Surrounding Text
 
@@ -76,4 +76,4 @@ Aspose.Words also provides an opportunity to find out the distances between tabl
 
 The following code example shows how to get the distance between a table and its surrounding text:
 
-{{< gist "aspose-words-gists" "8df1ad0825619cab7c80b571c6e6ba99" "distance-between-table-surrounding-text.cs" >}}
+{{< gist "aspose-words-gists" "b55c18ec2f5fe3f033f8d24c508b6a0f" "distance-between-table-surrounding-text.js" >}}

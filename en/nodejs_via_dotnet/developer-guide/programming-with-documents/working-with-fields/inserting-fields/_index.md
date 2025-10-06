@@ -32,13 +32,13 @@ If your field code has a parameter containing a space then it must be enclosed w
 
 The following code example shows how to inserts a merge field into a document using **DocumentBuilder**:
 
-{{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "insert-field.cs" >}}
+{{< gist "aspose-words-gists" "045f68a3af8a7ef327733a8b74034ec5" "insert-field.js" >}}
 
 The same technique is used to insert fields nested within other fields.
 
 The following code example shows how to insert fields nested within another field using **DocumentBuilder**:
 
-{{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "insert-nested-fields.cs" >}}
+{{< gist "aspose-words-gists" "045f68a3af8a7ef327733a8b74034ec5" "insert-nested-fields.js" >}}
 
 ### Specify Locale at Field Level
 
@@ -46,7 +46,7 @@ A language identifier is a standard international numeric abbreviation for the l
 
 The following code example shows how to make use of this option:
 
-{{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "specify-locale-at-field-level.cs" >}}
+{{< gist "aspose-words-gists" "045f68a3af8a7ef327733a8b74034ec5" "specify-locale-at-field-level.js" >}}
 
 ### Insert Untyped/Empty Field
 
@@ -54,7 +54,7 @@ If you want to insert untyped/empty fields ({}) just like Microsoft Word allows,
 
 The following code example shows how to insert an empty field into the document:
 
-{{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "insert-field-none.cs" >}}
+{{< gist "aspose-words-gists" "045f68a3af8a7ef327733a8b74034ec5" "insert-field-none.js" >}}
 
 ## Inserting Fields into a Document using FieldBuilder
 
@@ -62,7 +62,7 @@ The alternative way to insert fields in Aspose.Words is the [FieldBuilder](https
 
 The following code example shows how to insert a field into a document using **FieldBuilder**:
 
-{{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "insert-field-using-field-builder.cs" >}}
+{{< gist "aspose-words-gists" "045f68a3af8a7ef327733a8b74034ec5" "insert-field-using-field-builder.js" >}}
 
 ## Inserting Fields using DOM
 
@@ -80,7 +80,7 @@ The `MERGEFIELD` field in Word document can be represented by the [FieldMergeFie
 
 The following code example shows how to add a `Merge` Field using DOM to a paragraph in a document:
 
-{{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "insert-merge-field-using-dom.cs" >}}
+{{< gist "aspose-words-gists" "045f68a3af8a7ef327733a8b74034ec5" "insert-merge-field-using-dom.js" >}}
 
 ### Inserting Mail Merge `ADDRESSBLOCK` field into a Document using DOM
 
@@ -94,7 +94,7 @@ The `ADDRESSBLOCK` field is used to insert a Mail Merge address block in Word do
 
 The following code example shows how to add the Mail Merge `ADDRESSBLOCK` Field using DOM to a paragraph in a document:
 
-{{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "insert-address-block-field-using-dom.cs" >}}
+{{< gist "aspose-words-gists" "045f68a3af8a7ef327733a8b74034ec5" "insert-address-block-field-using-dom.js" >}}
 
 ### Inserting `ADVANCE` field into a Document without using DocumentBuilder
 
@@ -106,7 +106,7 @@ The `ADVANCE` field is used to offset subsequent text within a line to the left,
 
 The following code example shows how to add the `ADVANCE` Field using DOM to a paragraph in a document.
 
-{{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "insert-advance-field-without-document-builder.cs" >}}
+{{< gist "aspose-words-gists" "045f68a3af8a7ef327733a8b74034ec5" "insert-advance-field-without-document-builder.js" >}}
 
 ### Inserting `ASK` field into a Document without using DocumentBuilder
 
@@ -119,7 +119,7 @@ The `ASK` field is used to prompt the user for text to assign to a Bookmark in W
 
 The following code example shows how to add the `ASK` Field using DOM to a paragraph in a document:
 
-{{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "insert-ask-field-without-document-builder.cs" >}}
+{{< gist "aspose-words-gists" "045f68a3af8a7ef327733a8b74034ec5" "insert-ask-field-without-document-builder.js" >}}
 
 ### Inserting `AUTHOR` field into a Document without using DocumentBuilder
 
@@ -129,7 +129,7 @@ The `AUTHOR` field is used to specify the name of Document's author from the `Do
 
 The following code example shows how to add the `AUTHOR` Field using DOM to a paragraph in a document:
 
-{{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "insert-author-field.cs" >}}
+{{< gist "aspose-words-gists" "045f68a3af8a7ef327733a8b74034ec5" "insert-author-field.js" >}}
 
 ### Inserting `INCLUDETEXT` field into a Document without using DocumentBuilder
 
@@ -140,7 +140,7 @@ The `INCLUDETEXT` field inserts the text and graphics contained in the document 
 
 The following code example shows how to add the `INCLUDETEXT` field using DOM to a paragraph in a document:
 
-{{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "insert-field-include-text-without-document-builder.cs" >}}
+{{< gist "aspose-words-gists" "045f68a3af8a7ef327733a8b74034ec5" "insert-field-include-text-without-document-builder.js" >}}
 
 ### Inserting `TOA` field into a Document without using DocumentBuilder
 
@@ -152,4 +152,4 @@ You can use the [FieldToa](https://reference.aspose.com/words/nodejs-net/aspose.
 
 The following code example shows how to add the `TOA` field using DOM to a paragraph in a document:
 
-{{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "insert-toa-field-without-document-builder.cs" >}}
+{{< gist "aspose-words-gists" "045f68a3af8a7ef327733a8b74034ec5" "insert-toa-field-without-document-builder.js" >}}

@@ -26,7 +26,7 @@ Form fields are a particular case of Word fields that allows "interaction" with 
 
 The following code example shows how to insert a combobox form field into a document:
 
-{{< gist "aspose-words-gists" "b09907fef4643433271e4e0e912921b0" "insert-form-fields.cs" >}}
+{{< gist "aspose-words-gists" "a317eda2c6381dd30c7eb70510e51d52" "insert-form-fields.js" >}}
 
 ### Insert a Text Input
 
@@ -34,7 +34,7 @@ Use the [insertTextInput](https://reference.aspose.com/words/nodejs-net/aspose.w
 
 The following code example shows how to insert a text input form field into a document:
 
-{{< gist "aspose-words-gists" "b09907fef4643433271e4e0e912921b0" "insert-text-input-form-field.cs" >}}
+{{< gist "aspose-words-gists" "a317eda2c6381dd30c7eb70510e51d52" "insert-text-input-form-field.js" >}}
 
 ### Insert a Check Box
 
@@ -42,7 +42,7 @@ Call [insertCheckBox](https://reference.aspose.com/words/nodejs-net/aspose.word
 
 The following code example shows how to insert a checkbox form field into a document:
 
-{{< gist "aspose-words-gists" "b09907fef4643433271e4e0e912921b0" "insert-check-box-form-field.cs" >}}
+{{< gist "aspose-words-gists" "a317eda2c6381dd30c7eb70510e51d52" "insert-check-box-form-field.js" >}}
 
 ### Insert a Combo Box
 
@@ -50,7 +50,7 @@ Call [insertComboBox](https://reference.aspose.com/words/nodejs-net/aspose.word
 
 The following code example shows how to insert a Combobox form field into a document:
 
-{{< gist "aspose-words-gists" "b09907fef4643433271e4e0e912921b0" "insert-combo-box-form-field.cs" >}}
+{{< gist "aspose-words-gists" "a317eda2c6381dd30c7eb70510e51d52" "insert-combo-box-form-field.js" >}}
 
 ## Obtain Form Fields
 
@@ -64,19 +64,19 @@ You can download the sample file of the following examples from [Aspose.Words Gi
 
 The following code example shows how to get a collection of form fields:
 
-{{< gist "aspose-words-gists" "b09907fef4643433271e4e0e912921b0" "form-fields-get-form-fields-collection.cs" >}}
+{{< gist "aspose-words-gists" "a317eda2c6381dd30c7eb70510e51d52" "form-fields-get-form-fields-collection.js" >}}
 
 You can get a particular form field by its index or name.
 
 The following code example shows how to access form fields:
 
-{{< gist "aspose-words-gists" "b09907fef4643433271e4e0e912921b0" "form-fields-get-by-name.cs" >}}
+{{< gist "aspose-words-gists" "a317eda2c6381dd30c7eb70510e51d52" "form-fields-get-by-name.js" >}}
 
 The [FormField](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/formfield/) properties allow you to work with form field name, type, and result.
 
 The following code example shows how to work with form field name, type, and result:
 
-{{< gist "aspose-words-gists" "b09907fef4643433271e4e0e912921b0" "form-fields-work-with-properties.cs" >}}
+{{< gist "aspose-words-gists" "a317eda2c6381dd30c7eb70510e51d52" "form-fields-work-with-properties.js" >}}
 
 ## Format Form Fields
 
@@ -84,4 +84,4 @@ The [font](https://reference.aspose.com/words/nodejs-net/aspose.words/inline/fon
 
 The following code example shows how to apply font formatting to the **FormField**:
 
-{{< gist "aspose-words-gists" "b09907fef4643433271e4e0e912921b0" "form-fields-font-formatting.cs" >}}
+{{< gist "aspose-words-gists" "a317eda2c6381dd30c7eb70510e51d52" "form-fields-font-formatting.js" >}}

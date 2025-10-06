@@ -30,7 +30,7 @@ Typically, text replacement should be done at the cell level (per cell) or at th
 
 The following code example shows how to replace all instances of a string of text in the cells of an entire table:
 
-{{< gist "aspose-words-gists" "458eb4fd5bd1de8b06fab4d1ef1acdc6" "replace-text.cs" >}}
+{{< gist "aspose-words-gists" "1693b4ac01f19ec81c9618649b62acb8" "replace-text.js" >}}
 
 ## Extract Plain Text from Table or Cell
 
@@ -38,13 +38,13 @@ Using the **Range** object, you can also call methods on the entire table range 
 
 The following code example shows how to print the text range of a table:
 
-{{< gist "aspose-words-gists" "458eb4fd5bd1de8b06fab4d1ef1acdc6" "extract-text.cs" >}}
+{{< gist "aspose-words-gists" "1693b4ac01f19ec81c9618649b62acb8" "extract-text.js" >}}
 
 The same technique is used to extract content from individual table cells only.
 
 The following code example shows how to print a text range of row and table elements:
 
-{{< gist "aspose-words-gists" "458eb4fd5bd1de8b06fab4d1ef1acdc6" "print-text-range-row-and-table.cs" >}}
+{{< gist "aspose-words-gists" "1693b4ac01f19ec81c9618649b62acb8" "print-text-range-row-and-table.js" >}}
 
 ## Working with Alternative Table Text
 
@@ -54,4 +54,4 @@ In Aspose.Words, you can also add a table title and description using the [title
 
 The following code example shows how to set the title and description properties of a table:
 
-{{< gist "aspose-words-gists" "458eb4fd5bd1de8b06fab4d1ef1acdc6" "table-title-and-description.cs" >}}
+{{< gist "aspose-words-gists" "1693b4ac01f19ec81c9618649b62acb8" "table-title-and-description.js" >}}

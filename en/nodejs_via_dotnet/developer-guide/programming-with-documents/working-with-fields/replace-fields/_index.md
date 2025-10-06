@@ -37,7 +37,7 @@ However, in the header, the `PAGE` field translates well to static run of text. 
 
 The following code example shows how to replace the field with its most recent result:
 
-{{< gist "aspose-words-gists" "f3592014d179ecb43905e37b2a68bc92" "unlink-fields.cs" >}}
+{{< gist "aspose-words-gists" "5745cef9bae16cdf430ed2906034a61e" "unlink-fields.js" >}}
 
 ## Convert Certain Field Types in Specific Document Parts
 
@@ -55,11 +55,11 @@ The [FieldType](https://reference.aspose.com/words/nodejs-net/aspose.words.field
 
 The following code example shows how to select fields of a specific type – *targetFieldType* in a specific node – *compositeNode* and then convert them to static text:
 
-{{< gist "aspose-words-gists" "f3592014d179ecb43905e37b2a68bc92" "convert-fields-to-static-text.cs" >}}
+{{< gist "aspose-words-gists" "5745cef9bae16cdf430ed2906034a61e" "convert-fields-to-static-text.js" >}}
 
 The following code example shows how to convert all `IF` fields in a document to static text:
 
-{{< gist "aspose-words-gists" "f3592014d179ecb43905e37b2a68bc92" "unlink-fields-in-document.cs" >}}
+{{< gist "aspose-words-gists" "5745cef9bae16cdf430ed2906034a61e" "unlink-fields-in-document.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -69,8 +69,8 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 The following code  example shows how to convert all `PAGE` fields in a Body of a document to static text:
 
-{{< gist "aspose-words-gists" "f3592014d179ecb43905e37b2a68bc92" "unlink-fields-in-body.cs" >}}
+{{< gist "aspose-words-gists" "5745cef9bae16cdf430ed2906034a61e" "unlink-fields-in-body.js" >}}
 
 The following code  example shows how to convert all `IF` fields in the last paragraph to static text:
 
-{{< gist "aspose-words-gists" "f3592014d179ecb43905e37b2a68bc92" "unlink-fields-in-paragraph.cs" >}}
+{{< gist "aspose-words-gists" "5745cef9bae16cdf430ed2906034a61e" "unlink-fields-in-paragraph.js" >}}

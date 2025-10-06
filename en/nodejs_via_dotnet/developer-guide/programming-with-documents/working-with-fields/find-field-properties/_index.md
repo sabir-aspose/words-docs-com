@@ -16,4 +16,4 @@ A field that is inserted using [DocumentBuilder](https://reference.aspose.com/wo
 
 The following code example shows how to find the field code and field result:
 
-{{< gist "aspose-words-gists" "7c2b7b650a88375b1d438746f78f0d64" "field-code.cs" >}}
+{{< gist "aspose-words-gists" "56db351e3569b23ecfe91a2ef9339fa7" "field-code.js" >}}

@@ -32,7 +32,7 @@ The main method is to be able to move the cursor position to a specific node in 
 
 The following code example shows how to move the [DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/) to different nodes in a document:
 
-{{< gist "aspose-words-gists" "1a2c340d1a9dde6fe70c2733084d9aab" "move-to-node.cs" >}}
+{{< gist "aspose-words-gists" "811254d9cf25578ceaa32a1d990f70fa" "move-to-node.js" >}}
 
 But besides the basic [moveTo](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/moveTo/) method, there are more specific ones.
 
@@ -42,7 +42,7 @@ You can go to the beginning or the end of your document using the [moveToDocumen
 
 The following code example shows how to move the cursor position to the beginning or the end of a document:
 
-{{< gist "aspose-words-gists" "1a2c340d1a9dde6fe70c2733084d9aab" "move-to-document-start-end.cs" >}}
+{{< gist "aspose-words-gists" "811254d9cf25578ceaa32a1d990f70fa" "move-to-document-start-end.js" >}}
 
 ### Navigate With Bookmarks
 
@@ -50,7 +50,7 @@ You can mark a place that you want to find and move to it again easily. You can 
 
 The following code examples shows how to move a cursor position to a bookmark:
 
-{{< gist "aspose-words-gists" "1a2c340d1a9dde6fe70c2733084d9aab" "move-to-bookmark.cs" >}}
+{{< gist "aspose-words-gists" "811254d9cf25578ceaa32a1d990f70fa" "move-to-bookmark.js" >}}
 
 ### Navigate to Table Cells
 
@@ -58,7 +58,7 @@ You can move to a table cell by using the [moveToCell](https://reference.aspose.
 
 The following code example shows how to move a cursor position to a specified table cell:
 
-{{< gist "aspose-words-gists" "1a2c340d1a9dde6fe70c2733084d9aab" "move-to-table-cell.cs" >}}
+{{< gist "aspose-words-gists" "811254d9cf25578ceaa32a1d990f70fa" "move-to-table-cell.js" >}}
 
 ### Navigate to a Field
 
@@ -66,7 +66,7 @@ You can move to a specific field in your document by using the [moveToField](htt
 
 The following code example shows how to move the document builder cursor to a specific field:
 
-{{< gist "aspose-words-gists" "1a2c340d1a9dde6fe70c2733084d9aab" "move-to-merge-field.cs" >}}
+{{< gist "aspose-words-gists" "811254d9cf25578ceaa32a1d990f70fa" "move-to-merge-field.js" >}}
 
 ### Navigate to a Header or Footer
 
@@ -74,7 +74,7 @@ You can move to the beginning of a header or footer by using the [moveToHeaderFo
 
 The following code example shows how to move document builder cursor to a document header or footer:
 
-{{< gist "aspose-words-gists" "1a2c340d1a9dde6fe70c2733084d9aab" "move-to-headers-footers.cs" >}}
+{{< gist "aspose-words-gists" "811254d9cf25578ceaa32a1d990f70fa" "move-to-headers-footers.js" >}}
 
 ### Navigate to a Section or Paragraph
 
@@ -82,4 +82,4 @@ You can move to a specific section or paragraph by using the [moveToParagraph](h
 
 The following code example shows how to move to a specific section and a specific paragraph in a document:
 
-{{< gist "aspose-words-gists" "1a2c340d1a9dde6fe70c2733084d9aab" "move-to-section.cs" >}}
+{{< gist "aspose-words-gists" "811254d9cf25578ceaa32a1d990f70fa" "move-to-section.js" >}}

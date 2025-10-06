@@ -45,7 +45,7 @@ You can also write ***BoldItalic*** text.
 
 The following code snippet can be used to produce the above given markdown document.
 
-{{< gist "aspose-words-gists" "19de942ef8827201c1dca99f76c59133" "emphases.cs" >}}
+{{< gist "aspose-words-gists" "757cf7d3534a39730cf3290d418681ab" "emphases.js" >}}
 
 ## Markdown Document with Headings
 
@@ -64,7 +64,7 @@ The following produces headings:
 
 The following code snippet can be used to produce the above given markdown document.
 
-{{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "heading.cs" >}}
+{{< gist "aspose-words-gists" "6558fa20d4ebd9a86b255fe67ca67eb1" "heading.js" >}}
 
 ## Markdown Document with Block Quotes
 
@@ -85,7 +85,7 @@ We support blockquotes in Markdown:
 
 The following code snippet can be used to produce the above given markdown document.
 
-{{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "quote.cs" >}}
+{{< gist "aspose-words-gists" "6558fa20d4ebd9a86b255fe67ca67eb1" "quote.js" >}}
 
 ## Markdown Document with Horizontal Rule
 
@@ -99,13 +99,13 @@ We support Horizontal rules (Thematic breaks) in Markdown:
 
 The following code snippet can be used to produce the above given markdown document.
 
-{{< gist "aspose-words-gists" "ad463bf5f128fe6e6c1485df3c046a4c" "insert-horizontal-rule.cs" >}}
+{{< gist "aspose-words-gists" "3a90c8783e87c53371d103d9350f1d31" "insert-horizontal-rule.js" >}}
 
 ## Reading a Markdown Document
 
 The following code snippet shows you how to read a markdown document.
 
-{{< gist "aspose-words-gists" "19de942ef8827201c1dca99f76c59133" "read-markdown-document.cs" >}}
+{{< gist "aspose-words-gists" "757cf7d3534a39730cf3290d418681ab" "read-markdown-document.js" >}}
 
 ## Specify Markdown Save Options
 
@@ -113,10 +113,10 @@ Aspose.Words API provides [MarkdownSaveOptions](https://reference.aspose.com/wor
 
 The following code example demonstrated how to specify various Markdown save options.
 
-{{< gist "aspose-words-gists" "51b4cb9c451832f23527892e19c7bca6" "images-folder.cs" >}}
+{{< gist "aspose-words-gists" "a2fee7fa3d8e5704ce24f041be9a4821" "images-folder.js" >}}
 
 ## How to Align Content Inside the Table while Exporting into Markdown
 
 Aspose.Words API provides [TableContentAlignment](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/tablecontentalignment/) enumeration which defines alignment directions to align contents in tables while exporting into the Markdown document. The following code example demonstrates how to align content inside the table.
 
-{{< gist "aspose-words-gists" "19de942ef8827201c1dca99f76c59133" "markdown-table-content-alignment.cs" >}}
+{{< gist "aspose-words-gists" "757cf7d3534a39730cf3290d418681ab" "markdown-table-content-alignment.js" >}}

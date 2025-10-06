@@ -59,7 +59,7 @@ If you need to check if a document has a write protection password that restrict
 
 The following code example shows how to make a document read-only:
 
-{{< gist "aspose-words-gists" "7cf6735e83804ba8942663695b22ee42" "read-only-protection.cs" >}}
+{{< gist "aspose-words-gists" "2a464f0279e5751f4ef94d7daf395e52" "read-only-protection.js" >}}
 
 ## Remove Read-Only Restriction
 
@@ -67,4 +67,4 @@ If you do not want a user to open your document as read-only, you can simply set
 
 The following code example shows how to remove read-only access for a document:
 
-{{< gist "aspose-words-gists" "7cf6735e83804ba8942663695b22ee42" "remove-read-only-restriction.cs" >}}
+{{< gist "aspose-words-gists" "2a464f0279e5751f4ef94d7daf395e52" "remove-read-only-restriction.js" >}}

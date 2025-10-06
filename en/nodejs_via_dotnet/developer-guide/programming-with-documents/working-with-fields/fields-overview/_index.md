@@ -252,4 +252,4 @@ A field which is inserted using [DocumentBuilder.insertField](https://reference.
 
 Below example shows how to rename merge fields in a Word document.
 
-{{< gist "aspose-words-gists" "9e90defe4a7bcafb004f73a2ef236986" "rename-merge-fields.cs" >}}
+{{< gist "aspose-words-gists" "ce43c0268e53b9e7df2f581cafc2d748" "rename-merge-fields.js" >}}

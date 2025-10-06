@@ -22,7 +22,7 @@ If you want OLE Object, call the [insertOleObject](https://reference.aspose.com
 
 The following code example shows how to insert OLE Object into a document:
 
-{{< gist "aspose-words-gists" "4996b573cf231d9f66ab0d1f3f981222" "insert-ole-object.cs" >}}
+{{< gist "aspose-words-gists" "82ca803e5833cb807b7e1c5111066cb0" "insert-ole-object.js" >}}
 
 ### Set File Name and Extension when Inserting OLE Object
 
@@ -48,7 +48,7 @@ OLE objects can also be inserted into documents as images.
 
 The following code example shows how to insert OLE Object as an icon. For this purpose, the [DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/) class exposes the [insertOleObjectAsIcon](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertoleobjectasicon/) method:
 
-{{< gist "aspose-words-gists" "4996b573cf231d9f66ab0d1f3f981222" "insert-ole-object-as-icon.cs" >}}
+{{< gist "aspose-words-gists" "82ca803e5833cb807b7e1c5111066cb0" "insert-ole-object-as-icon.js" >}}
 
 The following code example shows how to inserts an embedded OLE object as an icon from a stream into the document:
 
@@ -62,7 +62,7 @@ The [DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words
 
 The following code example shows how to insert an online video from *Vimeo* into a document:
 
-{{< gist "aspose-words-gists" "4996b573cf231d9f66ab0d1f3f981222" "insert-online-video.cs" >}}
+{{< gist "aspose-words-gists" "82ca803e5833cb807b7e1c5111066cb0" "insert-online-video.js" >}}
 
 The second overload works with all other video resources and takes embedded HTML code as a parameter. The HTML code for embedding a video may vary depending on the provider, so contact the respective provider for details.
 

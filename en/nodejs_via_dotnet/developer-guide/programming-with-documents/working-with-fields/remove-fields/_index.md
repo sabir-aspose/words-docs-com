@@ -18,7 +18,7 @@ To remove a field inserted into a document using [DocumentBuilder.insertField](h
 
 The following code example shows how to remove a field from the document:
 
-{{< gist "aspose-words-gists" "8c604665c1b97795df7a1e665f6b44ce" "remove-field.cs" >}}
+{{< gist "aspose-words-gists" "87f60ea5f7e177ac68f6daae9ff2e883" "remove-field.js" >}}
 
 {{% alert color="primary" %}}
 

@@ -16,4 +16,4 @@ Now it is even more convenient to work with OfficeMath Type Objects. In Aspose.W
 
 The following code examples shows how to make use of these properties:
 
-{{< gist "aspose-words-gists" "e19d5874b376b07466fd7a397d554648" "math-equations.cs" >}}
+{{< gist "aspose-words-gists" "7a6483a866277e7ecf45b19756b1da06" "math-equations.js" >}}

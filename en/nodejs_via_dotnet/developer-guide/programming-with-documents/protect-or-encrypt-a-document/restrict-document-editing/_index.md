@@ -55,11 +55,11 @@ In Microsoft Word, you can restrict editing in a similar way using both:
 
 The following code example shows how to add password protection to your document:
 
-{{< gist "aspose-words-gists" "856ba85fa704fa728b0ec20aafddd16b" "password-protection.cs" >}}
+{{< gist "aspose-words-gists" "d9e52f106d399d80f5df382419349f58" "password-protection.js" >}}
 
 The following code example shows how to restrict editing in a document so only editing in form fields is possible:
 
-{{< gist "aspose-words-gists" "856ba85fa704fa728b0ec20aafddd16b" "allow-only-form-fields-protect.cs" >}}
+{{< gist "aspose-words-gists" "d9e52f106d399d80f5df382419349f58" "allow-only-form-fields-protect.js" >}}
 
 ## Remove Document Protection
 
@@ -67,7 +67,7 @@ Aspose.Words allows you to remove protection from a document with simple and dir
 
 The following code example shows how to remove protection from your document:
 
-{{< gist "aspose-words-gists" "856ba85fa704fa728b0ec20aafddd16b" "remove-document-protection.cs" >}}
+{{< gist "aspose-words-gists" "d9e52f106d399d80f5df382419349f58" "remove-document-protection.js" >}}
 
 ## Specify Unrestricted Editable Regions
 
@@ -77,10 +77,10 @@ Aspose.Words allows you to mark the parts that can be changed in your document u
 
 The following code example shows how to mark the whole document as read-only and specify editable regions in it:
 
-{{< gist "aspose-words-gists" "856ba85fa704fa728b0ec20aafddd16b" "unrestricted-editable-regions.cs" >}}
+{{< gist "aspose-words-gists" "d9e52f106d399d80f5df382419349f58" "unrestricted-editable-regions.js" >}}
 
 You can also choose different document editing restrictions for different sections.
 
 The following code example shows how to add a restriction for the entire document, and then remove the restriction for one of the sections:
 
-{{< gist "aspose-words-gists" "856ba85fa704fa728b0ec20aafddd16b" "unrestricted-section.cs" >}}
+{{< gist "aspose-words-gists" "d9e52f106d399d80f5df382419349f58" "unrestricted-section.js" >}}

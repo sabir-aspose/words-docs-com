@@ -74,7 +74,7 @@ We will also define a custom method to easily generate a document from extracted
 
 The following code example shows how to take a list of nodes and inserts them into a new document:
 
-{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "generate-document.cs" >}}
+{{< gist "aspose-words-gists" "433f5122fe18fdc24a406528b70b0020" "generate-document.js" >}}
 
 ## Extract Content Between Paragraphs
 
@@ -84,7 +84,7 @@ The code below accomplishes this task. The appropriate paragraphs are extracted 
 
 The following code example shows how to extract the content between specific paragraphs using the **extractContent** method above:
 
-{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "extract-content-between-paragraphs.cs" >}}
+{{< gist "aspose-words-gists" "433f5122fe18fdc24a406528b70b0020" "extract-content-between-paragraphs.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -98,7 +98,7 @@ We can extract content between any combinations of block level or inline nodes. 
 
 The following code example shows how to extract the content between a paragraph and table using the **extractContent** method:
 
-{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "extract-content-between-block-level-nodes.cs" >}}
+{{< gist "aspose-words-gists" "433f5122fe18fdc24a406528b70b0020" "extract-content-between-block-level-nodes.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -116,9 +116,9 @@ In a proper implementation this should be run in a loop to extract content betwe
 
 The following code example shows how to extract content between paragraphs with specific styles using the **extractContent** method:
 
-{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "extract-content-between-paragraph-styles.cs" >}}
+{{< gist "aspose-words-gists" "433f5122fe18fdc24a406528b70b0020" "extract-content-between-paragraph-styles.js" >}}
 
-{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "paragraphs-by-style-name.cs" >}}
+{{< gist "aspose-words-gists" "433f5122fe18fdc24a406528b70b0020" "paragraphs-by-style-name.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -132,7 +132,7 @@ You can extract content between inline nodes such as a [Run](https://reference.a
 
 The following code example shows how to extract content between specific runs of the same paragraph using the **extractContent** method:
 
-{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "extract-content-between-runs.cs" >}}
+{{< gist "aspose-words-gists" "433f5122fe18fdc24a406528b70b0020" "extract-content-between-runs.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -148,7 +148,7 @@ In our case let’s set the last parameter passed to the **extractContent** meth
 
 The following code example shows how to extract content between a specific field and paragraph in the document using the **extractContent** method:
 
-{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "extract-content-using-field.cs" >}}
+{{< gist "aspose-words-gists" "433f5122fe18fdc24a406528b70b0020" "extract-content-using-field.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -162,7 +162,7 @@ In a document the content that is defined within a bookmark is encapsulated by t
 
 The following code example shows how to extract the content referenced a bookmark using the **extractContent** method:
 
-{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "extract-content-between-bookmark.cs" >}}
+{{< gist "aspose-words-gists" "433f5122fe18fdc24a406528b70b0020" "extract-content-between-bookmark.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -178,7 +178,7 @@ The comment encapsulates the heading, first paragraph and the table in the secon
 
 The following code example shows how to do this:
 
-{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "extract-content-between-comment-range.cs" >}}
+{{< gist "aspose-words-gists" "433f5122fe18fdc24a406528b70b0020" "extract-content-between-comment-range.js" >}}
 
 {{% alert color="primary" %}}
 
@@ -202,7 +202,7 @@ Calling [toString](https://reference.aspose.com/words/nodejs-net/aspose.words/no
 
 The following code example shows the difference between calling the [getText](https://reference.aspose.com/words/nodejs-net/aspose.words/node/gettext/) and [toString](https://reference.aspose.com/words/nodejs-net/aspose.words/node/tostring/) methods on a node:
 
-{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "simple-extract-text.cs" >}}
+{{< gist "aspose-words-gists" "433f5122fe18fdc24a406528b70b0020" "simple-extract-text.js" >}}
 
 ### Using `SaveFormat.Text`
 
@@ -214,7 +214,7 @@ This example saves the document as follows:
 
 The following code example shows how to save a document in TXT format:
 
-{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "docx-to-txt.cs" >}}
+{{< gist "aspose-words-gists" "433f5122fe18fdc24a406528b70b0020" "docx-to-txt.js" >}}
 
 ## Extract Images from Shapes
 
@@ -222,4 +222,4 @@ You may need to extract document images to perform some tasks. Aspose.Words allo
 
 The following code example shows how to extract images from a document:
 
-{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "extract-images.cs" >}}
+{{< gist "aspose-words-gists" "433f5122fe18fdc24a406528b70b0020" "extract-images.js" >}}
