@@ -22,7 +22,7 @@ Use [startBookmark](https://reference.aspose.com/words/nodejs-net/aspose.words/d
 
 {{% alert color="primary" %}}
 
-All white spaces in the bookmarks were replaced with underscores. This restriction came from MS Word formats, since bookmarks in MS Word formats, like DOCX or DOC, cannot have white spaces. However, PDF allows such bookmarks. So now, if you need to use bookmarks in PDF or XPS outlines, you can use them with white spaces.
+All white spaces in the bookmarks were replaced with underscores. This restriction came from Microsoft Word formats, since bookmarks in MS Word formats, like DOCX or DOC, cannot have white spaces. However, PDF allows such bookmarks. So now, if you need to use bookmarks in PDF or XPS outlines, you can use them with white spaces.
 
 {{% /alert %}}
 

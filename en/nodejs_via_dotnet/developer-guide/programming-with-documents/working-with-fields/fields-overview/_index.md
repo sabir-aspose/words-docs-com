@@ -225,29 +225,6 @@ When Aspose.Words calculates a field result, it often needs to parse a string in
 - By default the [FieldOptions.fieldUpdateCultureSource](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldoptions/fieldupdateculturesource/) property is set to [FieldUpdateCultureSource.CurrentThread](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldupdateculturesource/) which formats fields using the current thread culture.
 - This property can be set to [FieldUpdateCultureSource.FieldCode](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldupdateculturesource/) so the language set from the field code of the field is used for formatting instead.
 
-#### Formatting using the Current Thread’s Culture
-
-To control the culture used during field calculation, just use the **locale.setlocale** method to set the culture of your choice before invoking field calculation.
-Below example shows how to change the culture used in formatting fields during update.
-
-{{< gist "aspose-words-gists" "9e90defe4a7bcafb004f73a2ef236986" "change-locale.cs" >}}
-
-Using the current culture to format fields allows a system to easily and consistently control how all fields in the document are formatted during field update.
-
-#### Formatting using the Culture in the Document
-
-On the other hand, Microsoft Word formats each individual field based off the language of the text found in the field (specifically, the runs from the field code). Sometimes during field update this may be the desired behavior, for example if you have globalized documents containing content made up of many different languages and would like each fields to honor the locale used from the text. Aspose.Words also supports this functionality.
-
-The [Document](https://reference.aspose.com/words/nodejs-net/aspose.words/document/) class provides a [fieldOptions](https://reference.aspose.com/words/nodejs-net/aspose.words/document/fieldoptions/) property which contains members which can be used to control how fields are updated within the document. Below example shows how to specify where the culture used for date formatting during field update and Mail Merge is chosen from.
-
-{{< gist "aspose-words-gists" "9e90defe4a7bcafb004f73a2ef236986" "change-field-update-culture-source.cs" >}}
-
-## Finding the Field Code and Field Result
-
-A field which is inserted using [DocumentBuilder.insertField](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertfield/) returns a [Field](https://reference.aspose.com/words/nodejs-net/aspose.words/field/) object. This is a facade class which provides useful methods to quickly find such properties of a field. Below example shows how to get names of all merge fields in a document.
-
-{{< gist "aspose-words-gists" "9e90defe4a7bcafb004f73a2ef236986" "get-field-names.cs" >}}
-
 ## How to Rename Merge Fields
 
 Below example shows how to rename merge fields in a Word document.

@@ -68,7 +68,7 @@ However if the marker nodes are inline (a child of a paragraph) then the situati
    1. If a [BookmarkStart](https://reference.aspose.com/words/nodejs-net/aspose.words/bookmarkstart/) or [BookmarkEnd](https://reference.aspose.com/words/nodejs-net/aspose.words/bookmarkend/) node is passed, this option defines if the bookmark is included or just the content between the bookmark range.
    1. If a [CommentRangeStart](https://reference.aspose.com/words/nodejs-net/aspose.words/commentrangestart/) or [CommentRangeEnd](https://reference.aspose.com/words/nodejs-net/aspose.words/commentrangeend/) node is passed, this option defines if the comment itself is to be included or just the content in the comment range.
 
-The implementation of the **extract_content** method you can find [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/DocsExamples/DocsExamples/programming_with_documents/contents_management/extract_content_helper.py). This method will be referred to in the scenarios in this article.
+The implementation of the **extractContent** method you can find [here](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/tree/main/Examples/DocsExamples/DocsExamples/Programming%20with%20Documents/Contents%20Management/Extract%20content%20helper.js). This method will be referred to in the scenarios in this article.
 
 We will also define a custom method to easily generate a document from extracted nodes. This method is used in many of the scenarios below and simply creates a new document and imports the extracted content into it.
 
@@ -80,7 +80,7 @@ The following code example shows how to take a list of nodes and inserts them in
 
 This demonstrates how to use the method above to extract content between specific paragraphs. In this case, we want to extract the body of the letter found in the first half of the document. We can tell that this is between the 7 th and 11 th paragraph.
 
-The code below accomplishes this task. The appropriate paragraphs are extracted using the [CompositeNode.getСhild](https://reference.aspose.com/words/nodejs-net/aspose.words/compositenode/getChild/) method on the document and passing the specified indices. We then pass these nodes to the **extract_content** method and state that these are to be included in the extraction. This method will return the copied content between these nodes which are then inserted into a new document.
+The code below accomplishes this task. The appropriate paragraphs are extracted using the [CompositeNode.getСhild](https://reference.aspose.com/words/nodejs-net/aspose.words/compositenode/getChild/) method on the document and passing the specified indices. We then pass these nodes to the **extractСontent** method and state that these are to be included in the extraction. This method will return the copied content between these nodes which are then inserted into a new document.
 
 The following code example shows how to extract the content between specific paragraphs using the **extractContent** method above:
 
@@ -142,7 +142,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ## Extract Content using a Field
 
-To use a field as marker, the [FieldStart](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldstart/) node should be passed. The last parameter to the **extract_content** method will define if the entire field is to be included or not. Let’s extract the content between the “FullName” merge field and a paragraph in the document. We use the [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/moveToMergeField/) method of [DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/) class. This will return the [FieldStart](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldstart/) node from the name of merge field passed to it.
+To use a field as marker, the [FieldStart](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldstart/) node should be passed. The last parameter to the **extractContent** method will define if the entire field is to be included or not. Let’s extract the content between the “FullName” merge field and a paragraph in the document. We use the [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/moveToMergeField/) method of [DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/) class. This will return the [FieldStart](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldstart/) node from the name of merge field passed to it.
 
 In our case let’s set the last parameter passed to the **extractContent** method to `False` to exclude the field from the extraction. We will render the extracted content to PDF.
 

@@ -75,9 +75,3 @@ The shading texture is set with a [TextureIndex](https://reference.aspose.com/w
 The following code example shows how to apply borders and shading to a paragraph:
 
 {{< gist "aspose-words-gists" "fc7e411a082bdf9bd715a4cf28552213" "apply-borders-and-shading-to-paragraph.js" >}}
-
-## Count Paragraph Lines
-
-If you want to count the number of lines in a paragraph for any Word document, the following code sample can be used:
-
-{{< gist "aspose-words-gists" "4b5526c3c0d9cad73e05fb4b18d2c3d2" "get-paragraph-lines.cs" >}}

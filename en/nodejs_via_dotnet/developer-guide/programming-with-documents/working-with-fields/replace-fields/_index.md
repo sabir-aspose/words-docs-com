@@ -23,7 +23,7 @@ The diagram below shows how the `IF` field is stored in a document:
 
 ![update-remove-a-field-aspose-words](updating-and-removing-a-field-1.png)
 
-The structure can also be seen below in hierarchical form using the [demo project *“DocumentExplorer”*](https://github.com/aspose-words/Aspose.Words-for-.NET)*.*
+The structure can also be seen below in hierarchical form using the [demo project *“DocumentExplorer”*](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Examples/DocsExamples/DocumentExplorer)*.*
 
 ![update-remove-a-field-aspose-words-2](updating-and-removing-a-field-2.png)
 

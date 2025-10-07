@@ -45,24 +45,6 @@ And after applying simple string replacement:
 
 <img src="after-simple-string-replacement.png" alt="after-simple-string-replacement" style="width:600px"/>
 
-### Find and Replace Text using Regular Expressions {#find-and-replace-text-using-regular-expressions}
-
-A regular expression is a pattern that describes a certain sequence of text. Suppose you want to replace all double occurrences of a word with a single word occurrence. Then you can apply the following regular expression to specify the double-word pattern: `([a-zA-Z]+) \1`.
-
-Use the [replaceRegex](https://reference.aspose.com/words/nodejs-net/aspose.words/range/replaceRegex/) method to search and replace particular character combinations by setting the regular expression parameter as the pattern to find matches.
-
-The following code example shows how to replace strings that match a regular expression pattern with a specified replacement string:
-
-{{< gist "aspose-words-gists" "27c3408b2c7fbee8d6dc6a1c8b61c105" "replace-with-regex.cs" >}}
-
-You can notice the difference between the document before applying string replacement with regular expressions:
-
-<img src="before-replacement-with-regular-expressions.png" alt="before-replacement-with-regular-expressions" style="width:600px"/>
-
-And after applying string replacement with regular expressions:
-
-<img src="after-replacement-with-regular-expressions.png" alt="after-replacement-with-regular-expressions" style="width:600px"/>
-
 ### Find and Replace String using Metacharacters {#find-and-replace-text-using-metacharacters}
 
 You can use metacharacters in the search string or the replacement string if a particular text or phrase is composed of multiple paragraphs, sections, or pages. Some of the metacharacters include **&p** for a paragraph break, **&b** for a section break, **&m** for a page break, and **&l** for a line break.

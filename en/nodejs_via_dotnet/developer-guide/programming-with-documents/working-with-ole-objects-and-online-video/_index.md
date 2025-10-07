@@ -24,24 +24,6 @@ The following code example shows how to insert OLE Object into a document:
 
 {{< gist "aspose-words-gists" "82ca803e5833cb807b7e1c5111066cb0" "insert-ole-object.js" >}}
 
-### Set File Name and Extension when Inserting OLE Object
-
-OLE package is a legacy and "undocumented" way to store embedded objects if an OLE handler is unknown.
-
-Early Windows versions such as Windows 3.1, 95, and 98 had a Packager.exe application that could be used to embed any type of data into the document. This application is now excluded from Windows, but Microsoft Word and other applications still use it to embed data if the OLE handler is missing or unknown. The `OlePackage` class allows users to access the OLE Package properties.
-
-The following code example shows how to set the file name, extension, and display name for OLE Package:
-
-{{< gist "aspose-words-gists" "4996b573cf231d9f66ab0d1f3f981222" "insert-ole-objectwith-ole-package.cs" >}}
-
-### Get Access to OLE Object Raw Data
-
-Users can access OLE object data using various properties and methods of the `OleFormat` class. For example, it is possible to get the `OLE` object raw data or the path and name of a source file for the linked OLE object.
-
-The following code example shows how to get OLE Object raw data using the [getRawData](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/oleformat/getrawdata/) method:
-
-{{< gist "aspose-words-gists" "4996b573cf231d9f66ab0d1f3f981222" "get-access-to-ole-object-raw-data.cs" >}}
-
 ### Insert OLE Object as an Icon
 
 OLE objects can also be inserted into documents as images.
@@ -49,10 +31,6 @@ OLE objects can also be inserted into documents as images.
 The following code example shows how to insert OLE Object as an icon. For this purpose, the [DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/) class exposes the [insertOleObjectAsIcon](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertoleobjectasicon/) method:
 
 {{< gist "aspose-words-gists" "82ca803e5833cb807b7e1c5111066cb0" "insert-ole-object-as-icon.js" >}}
-
-The following code example shows how to inserts an embedded OLE object as an icon from a stream into the document:
-
-{{< gist "aspose-words-gists" "4996b573cf231d9f66ab0d1f3f981222" "insert-ole-object-as-icon-using-stream.cs" >}}
 
 ## Insert Online Video
 
@@ -71,7 +49,3 @@ The second overload works with all other video resources and takes embedded HTML
 Please note that the document will be automatically optimized for MS Word 2013 to show video.
 
 {{% /alert %}}
-
-The following code example shows how to insert an online video into a document using such HTML code:
-
-{{< gist "aspose-words-gists" "4996b573cf231d9f66ab0d1f3f981222" "insert-online-video-with-embed-html.cs" >}}

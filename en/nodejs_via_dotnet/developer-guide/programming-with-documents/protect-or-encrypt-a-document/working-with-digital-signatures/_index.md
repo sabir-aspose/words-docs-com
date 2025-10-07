@@ -52,32 +52,6 @@ The most important property to check with digital signatures is the validity of 
 
 Each signature can also be individually validated by calling [DigitalSignature.isValid](https://reference.aspose.com/words/nodejs-net/aspose.words/digitalsignature/isValid/). A signature can return not valid for several reasons, for instance the document has been changed since signing or the certificate has expired. Additionally extra details of the signature can also be accessed. The code sample below shows how to validate each signature in a document and display basic information about the signature. You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/tree/main/Data/Digitally%20signed.docx).
 
-## Signing Word Documents
-
-[DigitalSignatureUtil](https://reference.aspose.com/words/nodejs-net/aspose.words.digitalsignatures/digitalsignatureutil/) class provides methods for signing document. [DigitalSignatureUtil.sign](https://reference.aspose.com/words/nodejs-net/aspose.words.digitalsignatures/digitalsignatureutil/sign/) method signs source document using given [CertificateHolder](https://reference.aspose.com/words/nodejs-net/aspose.words.digitalsignatures/certificateholder/) with digital signature and writes signed document to destination stream. 
-
-Below example shows how to sign simple document. 
-
-{{< gist "aspose-words-gists" "bdc15a6de6b25d9d4e66f2ce918fc01b" "sign-document.cs" >}}
-
-### Signing Word document with Signature Line
-
-You can sign source document using given [CertificateHolder](https://reference.aspose.com/words/nodejs-net/aspose.words.digitalsignatures/certificateholder/) and [SignOptions](https://reference.aspose.com/words/nodejs-net/aspose.words.digitalsignatures/signoptions/) with digital signature and writes signed document to destination file. Using [SignOptions](https://reference.aspose.com/words/nodejs-net/aspose.words.digitalsignatures/signoptions/) class you can specify options for document signing. Below example shows how to create new signature line and sign document. 
-
-{{< gist "aspose-words-gists" "bdc15a6de6b25d9d4e66f2ce918fc01b" "create-new-signature-line-and-set-provider-id.cs" >}}
-
-### Signing Word Document using Signature Provider Identifier
-
-Below example shows how to sign Word document using signature provider identifier. The cryptographic service provider (CSP) is an independent software module that actually performs cryptography algorithms for authentication, encoding, and encryption. MS Office reserves the value of {00000000-0000-0000-0000-000000000000} for its default signature provider.
-
-{{< gist "aspose-words-gists" "246abc8bf535665565cc872be9b805ac" "remove-signatures.js" >}}
-
-### Create New Signature Line Sign Word Document using Provider Identifier
-
-Below example shows how to create signature line and sign Word document using signature provider identifier.
-
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Protect or Encrypt Document-working_with_digital_sinatures-CreateNewSignatureLineAndSetProviderID.py" >}}
-
 ## Retrieve the Digital Signature Value
 
 Aspose.Words also provides the ability to retrieve the digital signature value from a digitally signed document as a byte array using the [SignatureValue](https://reference.aspose.com/words/nodejs-net/aspose.words/digitalsignature/signatureValue/) property.
@@ -85,3 +59,17 @@ Aspose.Words also provides the ability to retrieve the digital signature value f
 The following code example shows how to obtain the digital signature value as a byte array from a document:
 
 {{< gist "aspose-words-gists" "246abc8bf535665565cc872be9b805ac" "signature-value.js" >}}
+
+## Remove Digital Signatures
+
+Aspose.Words allows you to remove all digital signatures from a signed document using the [removeAllSignatures](https://reference.aspose.com/words/nodejs-net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#buffer_unknown/) method.
+
+The following code example shows how to load and remove digital signatures from a document:
+
+{{< gist "aspose-words-gists" "246abc8bf535665565cc872be9b805ac" "remove-signatures.js" >}}
+
+{{% alert color="primary" %}}
+
+Note that you can not remove only one digital signature within your document.
+
+{{% /alert %}}

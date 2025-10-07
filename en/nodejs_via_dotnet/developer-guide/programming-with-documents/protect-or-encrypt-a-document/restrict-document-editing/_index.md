@@ -63,7 +63,7 @@ The following code example shows how to restrict editing in a document so only e
 
 ## Remove Document Protection
 
-Aspose.Words allows you to remove protection from a document with simple and direct document modification. You can either remove the document protection without knowing the actual password or provide the correct password to unlock the document by using the [unrotect](https://reference.aspose.com/words/nodejs-net/aspose.words/document/unprotect/) method. Both removing ways have no difference.
+Aspose.Words allows you to remove protection from a document with simple and direct document modification. You can either remove the document protection without knowing the actual password or provide the correct password to unlock the document by using the [unprotect](https://reference.aspose.com/words/nodejs-net/aspose.words/document/unprotect/) method. Both removing ways have no difference.
 
 The following code example shows how to remove protection from your document:
 
