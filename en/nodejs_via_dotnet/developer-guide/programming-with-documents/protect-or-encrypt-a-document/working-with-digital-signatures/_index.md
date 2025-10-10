@@ -52,6 +52,8 @@ The most important property to check with digital signatures is the validity of 
 
 Each signature can also be individually validated by calling [DigitalSignature.isValid](https://reference.aspose.com/words/nodejs-net/aspose.words/digitalsignature/isValid/). A signature can return not valid for several reasons, for instance the document has been changed since signing or the certificate has expired. Additionally extra details of the signature can also be accessed. The code sample below shows how to validate each signature in a document and display basic information about the signature. You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/tree/main/Data/Digitally%20signed.docx).
 
+{{< gist "aspose-words-gists" "246abc8bf535665565cc872be9b805ac" "access-and-verify-signature.js" >}}
+
 ## Retrieve the Digital Signature Value
 
 Aspose.Words also provides the ability to retrieve the digital signature value from a digitally signed document as a byte array using the [SignatureValue](https://reference.aspose.com/words/nodejs-net/aspose.words/digitalsignature/signatureValue/) property.
