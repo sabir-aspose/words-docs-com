@@ -50,9 +50,17 @@ A document can have multiple digital signatures. These signatures can all be acc
 
 The most important property to check with digital signatures is the validity of each signature in the document. All signatures in the document can be validated at once by calling the [DigitalSignatureCollection.isValid](https://reference.aspose.com/words/nodejs-net/aspose.words.digitalsignatures/digitalsignaturecollection/isValid/) property. This will return true if all signatures in the document are valid or if the document has no signatures and false if at least one digital signature is not valid.
 
-Each signature can also be individually validated by calling [DigitalSignature.isValid](https://reference.aspose.com/words/nodejs-net/aspose.words/digitalsignature/isValid/). A signature can return not valid for several reasons, for instance the document has been changed since signing or the certificate has expired. Additionally extra details of the signature can also be accessed. The code sample below shows how to validate each signature in a document and display basic information about the signature. You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/tree/main/Data/Digitally%20signed.docx).
+Each signature can also be individually validated by calling [DigitalSignature.isValid](https://reference.aspose.com/words/nodejs-net/aspose.words/digitalsignature/isValid/). A signature can return not valid for several reasons, for instance the document has been changed since signing or the certificate has expired. Additionally extra details of the signature can also be accessed.
+
+The following code example shows how to validate each signature in a document and display basic information about the signature:
 
 {{< gist "aspose-words-gists" "246abc8bf535665565cc872be9b805ac" "access-and-verify-signature.js" >}}
+
+{{% alert color="primary" %}}
+
+You can download template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/tree/main/Data/Digitally%20signed.docx).
+
+{{% /alert %}}
 
 ## Retrieve the Digital Signature Value
 

@@ -50,7 +50,7 @@ When you execute a mail merge, all fields in the document will be automatically 
 
 ## Update Fields Having Dirty Attribute
 
-The w:dirty is a field-level attribute that will refresh only the field you specify when the document is opened. It tells MS Word to only refresh this field the next time the document is opened. You can use the [UpdateDirtyFields](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/updatedirtyfields/) property to specify whether to update the fields with the dirty attribute. When the value of **UpdateDirtyFields** is set to *true*, all fields having *true* value for [Field.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/field/isdirty/) or [FieldChar.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/isdirty/) property are updated on document load.
+The w:dirty is a field-level attribute that will refresh only the field you specify when the document is opened. It tells MS Word to only refresh this field the next time the document is opened. You can use the [UpdateDirtyFields](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/updatedirtyfields/) property to specify whether to update the fields with the dirty attribute. When the value of **UpdateDirtyFields** is set to *true*, all fields having *true* value for [Field.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/field/isdirty/) or [FieldChar.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/isdirty/) property are updated on document load.
 
 The following code example shows how to update fields having the dirty attribute:
 
