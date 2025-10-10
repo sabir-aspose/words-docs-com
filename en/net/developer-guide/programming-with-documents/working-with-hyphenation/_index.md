@@ -49,7 +49,7 @@ The following features of Aspose.Words algorithms should be taken into account:
 
 ## Loading Hyphenation Dictionaries
 
-To use the hyphenation feature, first register a hyphenation dictionary.The following code example shows how to load hyphenation dictionaries for the specified languages from a file:
+To use the hyphenation feature, first register a hyphenation dictionary. The following code example shows how to load hyphenation dictionaries for the specified languages from a file:
 
 {{< gist "aspose-words-gists" "a52aacf87a36f7881ba29d25de92fb83" "hyphenate-words.cs" >}}
 

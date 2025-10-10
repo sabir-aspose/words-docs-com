@@ -81,7 +81,7 @@ The following code example shows how to replace text with paragraph and page bre
 
 You can find and replace text in the header/footer section of a Word document using the [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/) class.
 
-The following code example shows how to replace the text of the header section in your document:
+The following code example shows how to replace the text of the footer section in your document:
 
 {{< gist "aspose-words-gists" "27c3408b2c7fbee8d6dc6a1c8b61c105" "replace-text-in-footer.cs" >}}
 
