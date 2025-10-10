@@ -8,8 +8,6 @@ type: docs
 weight: 29
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
-ai_search_scope: words_nodejs
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2025-07-09-10-05-05
 ---

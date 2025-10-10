@@ -8,8 +8,6 @@ type: docs
 weight: 28
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
-ai_search_scope: words_nodejs
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/working-with-pdfa-or-pdfua/
 timestamp: 2025-07-09-10-05-05
 ---

@@ -1,0 +1,64 @@
+---
+title: Updating Fields Python
+second_title: Aspose.Words for Node.js via .NET
+articleTitle: Update Fields
+linktitle: Update Fields
+description: "Update fields in a document in different ways and using different option in Node.js."
+type: docs
+weight: 30
+ai_search_scope: words_nodejs
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+url: /nodejs-net/update-fields/
+timestamp: 2025-07-09-10-05-05
+---
+
+Typically, a field inserted into Microsoft Word already contains an up to date value. For example, if the field is a formula or a page number, it will contain the correct calculated value for the given version of the document. But if you have an application that generates or modifies a document with fields like merging two documents or populating it with data, then ideally all fields must be updated for the document to be useful.
+
+## How to Update Fields
+
+When a document is loaded, Aspose.Words mimics the behavior of Microsoft Word with the option to automatically update fields is switched off. The behavior can be summarized as follows:
+
+- when you open/save a document the fields remain intact
+- you can explicitly update all fields in a document (e.g. rebuild TOC) when you need to
+- when you print/render to PDF or XPS the fields related to page-numbering in headers/footers are updated
+- when you execute Mail Merge all fields are updated automatically
+
+### Update Fields Programmatically
+
+To explicitly update fields in the whole document, simply call [updateFields](https://reference.aspose.com/words/nodejs-net/aspose.words/document/updatefields/). To update fields contained in part of a document, obtain a [Range](https://reference.aspose.com/words/nodejs-net/aspose.words/range/) object and call the [updateFields](https://reference.aspose.com/words/nodejs-net/aspose.words/range/updatefields/) method. In Aspose.Words, you can obtain a **Range** for any node in the document tree, such as [Section](https://reference.aspose.com/words/nodejs-net/aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/nodejs-net/aspose.words/headerfooter/), [Paragraph](https://reference.aspose.com/words/nodejs-net/aspose.words/paragraph/), etc. using the [Node.range](https://reference.aspose.com/words/nodejs-net/aspose.words/node/range/) property. You can update the result of a single field by calling the [update](https://reference.aspose.com/words/nodejs-net/aspose.words/field/update/#default) method.
+
+### Automatic Update of Page-Related Fields During Rendering
+
+When you execute conversion of a document to a fixed-page format e.g. to PDF or XPS, then Aspose.Words will automatically update page layout-related fields `PAGE`, `PAGEREF` found in headers/footers of the document. This behavior mimics the behavior of Microsoft Word when printing a document.
+
+If you want to update all other fields in the document, then you need to call [updateFields](https://reference.aspose.com/words/nodejs-net/aspose.words/document/updatefields/) before rendering the document.
+
+The following code example shows how to update all fields before rendering a document:
+
+{{< gist "aspose-words-gists" "c75335b04abcee0bc8636813bd1b02e8" "update-doc-fields.js" >}}
+
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/tree/main/Data/Rendering.docx).
+
+{{% /alert %}}
+
+### Automatic Field Update During Mail Merge
+
+When you execute a mail merge, all fields in the document will be automatically updated. This is because the Mail Merge is a case of a field update. The program encounters a Mail Merge field and needs to update its result, which involves grabbing the value from the data source and inserting it into the field. The logic is of course more complicated, for example, when the end of the document/mail merge region is reached but there is still further data to be merged, then the region needs to be duplicated and the new set of fields updated.
+
+## Update Fields Having Dirty Attribute
+
+The w:dirty is a field-level attribute that will refresh only the field you specify when the document is opened. It tells MS Word to only refresh this field the next time the document is opened. You can use the [updateDirtyFields](https://reference.aspose.com/words/nodejs-net/aspose.words.loading/loadoptions/updatedirtyfields/) property to specify whether to update the fields with the dirty attribute. When the value of **updateDirtyFields** is set to `True`, all fields having `True` value for [Field.isDirty](https://reference.aspose.com/words/nodejs-net/aspose.words/field/isdirty/) or [FieldChar.isDirty](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldchar/isdirty/) property are updated on document load.
+
+The following code example shows how to update fields having the dirty attribute:
+
+{{< gist "aspose-words-gists" "757cf7d3534a39730cf3290d418681ab" "update-dirty-fields.js" >}}
+
+## Update LastSavedTime Property Before Saving
+
+You can use [SaveOptions.updateLastSavedTimeProperty](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/) property whether to update the corresponding built-in document property [lastSavedTime](https://reference.aspose.com/words/nodejs-net/aspose.words.properties/builtindocumentproperties/lastsavedtime/) when saving the document.
+
+The following code example shows how to update this property:
+
+{{< gist "aspose-words-gists" "03144d2d1bfafb75c89d385616fdf674" "update-last-saved-time.js" >}}
