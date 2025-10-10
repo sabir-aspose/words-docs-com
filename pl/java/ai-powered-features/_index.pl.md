@@ -1,4 +1,4 @@
----
+﻿---
 title: AI - funkcje zasilane
 second_title: Aspose.Words dla Java
 articleTitle: AI - funkcje zasilane
@@ -16,7 +16,7 @@ Aspose.Words zawiera teraz funkcje oparte na AI, które mają na celu usprawnien
 
 W tej sekcji omówimy wszystko, co musisz wiedzieć o korzystaniu z obsługiwanych funkcji AI w Aspose.Words. Od praktycznych wskazówek po szczegółowe instrukcje, staramy się pomóc ci w pełni wykorzystać te ulepszenia.
 
-* [Obsługiwane Modele AI ](/words/java/supported-ai-models/)
-* [Podsumuj dokument](/words/java/summarize-a-document/)
-* [Przetłumacz dokument](/words/java/translate-a-document/)
-* [Sprawdzanie Gramatyki](/words/java/grammar-checking/)
+* [Obsługiwane Modele AI ](/words/pl/java/supported-ai-models/)
+* [Podsumuj dokument](/words/pl/java/summarize-a-document/)
+* [Przetłumacz dokument](/words/pl/java/translate-a-document/)
+* [Sprawdzanie Gramatyki](/words/pl/java/grammar-checking/)

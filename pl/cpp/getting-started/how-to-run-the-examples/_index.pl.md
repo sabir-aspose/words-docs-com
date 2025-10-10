@@ -36,7 +36,7 @@ Po otrzymaniu kopii repozytorium może się okazać, że:
 
 Aby uruchomić przykłady, otwórz plik rozwiązania w Visual Studio i zbuduj projekt:
 
-- W przypadku przykładów **API Reference** struktura opiera się na nazwach klas, w przypadku przykładów **Docs** opiera się głównie na [Deweloper Guiled](/words/cpp/developer-guide/) sekcja dokumentacji.
+- W przypadku przykładów **API Reference** struktura opiera się na nazwach klas, w przypadku przykładów **Docs** opiera się głównie na [Deweloper Guiled](/words/pl/cpp/developer-guide/) sekcja dokumentacji.
 - Przy pierwszym uruchomieniu zależności zostaną automatycznie pobrane przez NuGet.
 - Folder **Data** w folderze głównym **Examples** zawiera pliki wejściowe, które zostały użyte w przykładach.
 - Wszystkie przykłady można uruchomić jako testy jednostkowe.
@@ -68,7 +68,7 @@ Rozwiązanie dla Visual Studio zostanie wygenerowane w `Examples\DocsExamples\bu
 
 Aby uruchomić przykłady, otwórz plik rozwiązania w Visual Studio i zbuduj projekt:
 
-- W przypadku przykładów **API Reference** struktura opiera się na nazwach klas, w przypadku przykładów **Docs** opiera się głównie na [Deweloper Guiled](/words/cpp/developer-guide/) sekcja dokumentacji.
+- W przypadku przykładów **API Reference** struktura opiera się na nazwach klas, w przypadku przykładów **Docs** opiera się głównie na [Deweloper Guiled](/words/pl/cpp/developer-guide/) sekcja dokumentacji.
 - Folder **Data** w folderze głównym **Examples** zawiera pliki wejściowe, które zostały użyte w przykładach.
 - Wszystkie przykłady można uruchomić jako testy jednostkowe.
 
@@ -99,7 +99,7 @@ cmake --build Examples/DocsExamples/build
 cmake -E chdir Examples/DocsExamples/build ctest --verbose
 {{< /highlight >}}
 
-- W przypadku przykładów **API Reference** struktura opiera się na nazwach klas, w przypadku przykładów **Docs** opiera się głównie na [Deweloper Guiled](/words/cpp/developer-guide/) sekcja dokumentacji.
+- W przypadku przykładów **API Reference** struktura opiera się na nazwach klas, w przypadku przykładów **Docs** opiera się głównie na [Deweloper Guiled](/words/pl/cpp/developer-guide/) sekcja dokumentacji.
 - Folder **Data** w folderze głównym **Examples** zawiera pliki wejściowe, które zostały użyte w przykładach.
 - Wszystkie przykłady można uruchomić jako testy jednostkowe.
 

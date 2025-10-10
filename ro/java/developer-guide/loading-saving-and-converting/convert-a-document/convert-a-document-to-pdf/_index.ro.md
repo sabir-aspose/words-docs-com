@@ -1,4 +1,4 @@
----
+﻿---
 title: Conversia unui Document în PDF în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Conversia unui Document în PDF
@@ -47,7 +47,7 @@ Rețineți că, cu aceeași tehnică, puteți converti orice document în format
 
 ### Conversia la diferite PDF standarde {#converting-to-various-pdf-standards}
 
-Aspose.Words oferă enumerarea [PdfCompliace ](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)pentru a sprijini conversia DOC sau DOCX în diferite standarde de format PDF (cum ar fi PDF 1.7, PDF 1.5, etc.).
+Aspose.Words oferă enumerarea [PdfCompliance ](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)pentru a sprijini conversia DOC sau DOCX în diferite standarde de format PDF (cum ar fi PDF 1.7, PDF 1.5, etc.).
 
 Următorul exemplu de cod demonstrează cum se convertește un document în PDF 1.7 folosind [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) Cu conformitate cu PDF17:
 
@@ -81,6 +81,6 @@ Utilizarea proprietății **OptimizeOutput** poate afecta acuratețea afișării
 
 ## Vezi Și
 
-- Articolul [Redare](/words/java/rendering/) pentru mai multe informații despre pagina fixă și formatele de aspect de flux
-- Articolul [Conversia în format de pagină fixă](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) pentru mai multe informații despre aspectul paginii
-- Articolul [Specificați opțiunile De redare la conversia în PDF](/words/java/specify-rendering-options-when-converting-to-pdf/) pentru mai multe informații despre utilizarea clasei `PdfSaveOptions`
+- Articolul [Redare](/words/ro/java/rendering/) pentru mai multe informații despre pagina fixă și formatele de aspect de flux
+- Articolul [Conversia în format de pagină fixă](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) pentru mai multe informații despre aspectul paginii
+- Articolul [Specificați opțiunile De redare la conversia în PDF](/words/ro/java/specify-rendering-options-when-converting-to-pdf/) pentru mai multe informații despre utilizarea clasei `PdfSaveOptions`

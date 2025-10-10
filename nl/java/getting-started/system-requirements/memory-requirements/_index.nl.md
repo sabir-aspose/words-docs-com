@@ -1,4 +1,4 @@
----
+﻿---
 title: Geheugenvereisten
 second_title: Aspose.Words voor Java
 articleTitle: Geheugenvereisten
@@ -47,5 +47,5 @@ Als uw profilering resultaten wijzen op een mogelijk geheugen probleem in Aspose
 ## Zie ook
 
 * [Renderen](/words/nl/java/rendering/)
-* [Mail Merge en relatie](/words/java/mail-merge-and-reporting/)
+* [Mail Merge en relatie](/words/nl/java/mail-merge-and-reporting/)
 * [Werken met Velden](/words/nl/java/working-with-fields/)

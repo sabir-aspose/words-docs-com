@@ -1,4 +1,4 @@
----
+﻿---
 title: Especificar opções de renderização ao converter para PDF
 second_title: Aspose.Words para C++
 articleTitle: Especificar opções de renderização ao converter para PDF
@@ -96,7 +96,7 @@ A resolução é calculada de acordo com o tamanho real da imagem na página.
 
 ## Incorporação de Fontes no formato Adobe PDF
 
-Aspose.Words também permite controlar como as fontes são incorporadas nos documentos PDF resultantes. As fontes precisam ser incorporadas em qualquer documento Adobe PDF para garantir que o documento possa ser renderizado corretamente em qualquer máquina (Veja mais detalhes sobre a renderização de fontes na seção [Utilização De Fontes TrueType ](/words/cpp/using-truetype-fonts/)). Por padrão, Aspose.Words incorpora um subconjunto de fontes usadas no documento no PDF gerado. Neste caso, apenas os glifos (caracteres) utilizados no documento são guardados em PDF.
+Aspose.Words também permite controlar como as fontes são incorporadas nos documentos PDF resultantes. As fontes precisam ser incorporadas em qualquer documento Adobe PDF para garantir que o documento possa ser renderizado corretamente em qualquer máquina (Veja mais detalhes sobre a renderização de fontes na seção [Utilização De Fontes TrueType ](/words/pt/cpp/using-truetype-fonts/)). Por padrão, Aspose.Words incorpora um subconjunto de fontes usadas no documento no PDF gerado. Neste caso, apenas os glifos (caracteres) utilizados no documento são guardados em PDF.
 
 ### Quando usar fontes completas e quando subconjunto
 

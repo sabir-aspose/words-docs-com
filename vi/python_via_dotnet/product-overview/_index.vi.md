@@ -1,4 +1,4 @@
----
+﻿---
 title: Tổng quan về sản phẩm
 second_title: Aspose.Words cho Python via .NET
 articleTitle: Tổng quan về sản phẩm
@@ -56,7 +56,7 @@ Bạn có thể chuyển đổi toàn bộ tài liệu hoặc các trang cụ th
 
 #### Báo cáo
 
-Tạo tài liệu hoặc báo cáo từ đầu hoặc bằng cách điền dữ liệu vào mẫu từ nguồn dữ liệu hoặc đối tượng kinh doanh. Để biết thêm thông tin về báo cáo và tìm nạp dữ liệu từ cơ sở dữ liệu, hãy xem phần [Mail Merge và báo cáo](/words/python-net/mail-merge-and-reporting/) và [Công cụ báo cáo LINQ](/words/python-net/linq-reporting-engine/).
+Tạo tài liệu hoặc báo cáo từ đầu hoặc bằng cách điền dữ liệu vào mẫu từ nguồn dữ liệu hoặc đối tượng kinh doanh. Để biết thêm thông tin về báo cáo và tìm nạp dữ liệu từ cơ sở dữ liệu, hãy xem phần [Mail Merge và báo cáo](/words/vi/python-net/mail-merge-and-reporting/) và [Công cụ báo cáo LINQ](/words/python-net/linq-reporting-engine/).
 
 ### Nền tảng độc lập
 

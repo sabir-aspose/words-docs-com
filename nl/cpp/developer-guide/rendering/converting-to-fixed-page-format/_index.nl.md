@@ -28,7 +28,7 @@ Microsoft Word is de meest geavanceerde tekstbewerkingstoepassing in Windows van
 
 ## Zie Ook
 
-* [Wat Is een Page Layout](/words/cpp/what-is-a-page-layout/)
-* [Een pagina-indeling maken](/words/cpp/creating-a-page-layout/)
-* [Een Document opslaan in een vaste paginaindeling](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Opmaakopties Opgeven](/words/cpp/specify-layout-options/)
+* [Wat Is een Page Layout](/words/nl/cpp/what-is-a-page-layout/)
+* [Een pagina-indeling maken](/words/nl/cpp/creating-a-page-layout/)
+* [Een Document opslaan in een vaste paginaindeling](/words/nl/cpp/saving-a-document-to-fixed-page-format/)
+* [Opmaakopties Opgeven](/words/nl/cpp/specify-layout-options/)

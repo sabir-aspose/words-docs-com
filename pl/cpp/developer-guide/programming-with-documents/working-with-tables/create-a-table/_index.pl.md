@@ -112,7 +112,7 @@ Poniższy przykład kodu pokazuje, jak sklonować ostatni wiersz tabeli i dołą
 
 {{< gist "aspose-words-gists" "aa87055754447c86ae5fb2d4766130f3" "clone-last-row.h" >}}
 
-Jeśli szukasz tworzenia tabel w dokumencie, które rosną dynamicznie z każdym rekordem ze źródła danych, powyższa metoda nie jest zalecana. Zamiast tego pożądaną wydajność można łatwiej osiągnąć za pomocą Mail merge z regionami. Możesz dowiedzieć się więcej o tej technice w [Mail Merge z regionami](/words/cpp/types-of-mail-merge-operations/) sekcji.
+Jeśli szukasz tworzenia tabel w dokumencie, które rosną dynamicznie z każdym rekordem ze źródła danych, powyższa metoda nie jest zalecana. Zamiast tego pożądaną wydajność można łatwiej osiągnąć za pomocą Mail merge z regionami. Możesz dowiedzieć się więcej o tej technice w [Mail Merge z regionami](/words/pl/cpp/types-of-mail-merge-operations/) sekcji.
 
 ## Porównaj sposoby tworzenia tabeli
 

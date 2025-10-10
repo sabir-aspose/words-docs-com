@@ -1,4 +1,4 @@
----
+﻿---
 title: 與儲存在 SharePoint 的文件一起工作
 second_title: Aspose.Words for .NET
 articleTitle: 與儲存在 SharePoint 的文件一起工作
@@ -20,7 +20,7 @@ Microsoft SharePoint 在線是一組以網路為基礎的技術，讓組織能�
 2。 設定一個即時沙盒 [according to the video tutorial](https://www.youtube.com/watch?v=ojQcS9ZQmes)
 3。 根據 [Setting up an app-only principal with tenant permissions](https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azureacs) 中描述的方式，為 SharePoint Online 创建基於應用程式的憑證
 4. 上傳名為"TestDoc.docx"的文件到根溝通網站中的"共同文件"文件夹中
-5. 購買 Aspose.Words 授權，或使用 [Free Trial or a 30-day Temporary License](/words/net/licensing/)
+5. 購買 Aspose.Words 授權，或使用 [Free Trial or a 30-day Temporary License](/words/zh-hant/net/licensing/)
 
 {{% alert color="primary" %}}
 
@@ -266,6 +266,6 @@ namespace SPOnlineExample
 
 ## 見也
 
-"-文章[Rendering](/words/net/rendering/)提供了有關固定頁面和流式排版的詳細資訊。"
-"-該文章 [Converting to Fixed-page Format](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) 提供有關頁面排版的更多資訊。"
--該文章[Specify Rendering Options When Converting to PDF](/words/net/specify-rendering-options-when-converting-to-pdf/)提供有關使用 [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) 類別的更多資訊。
+"-文章[Rendering](/words/zh-hant/net/rendering/)提供了有關固定頁面和流式排版的詳細資訊。"
+"-該文章 [Converting to Fixed-page Format](/words/zh-hant/net/converting-to-fixed-page-format/#what-is-a-page-layout) 提供有關頁面排版的更多資訊。"
+-該文章[Specify Rendering Options When Converting to PDF](/words/zh-hant/net/specify-rendering-options-when-converting-to-pdf/)提供有關使用 [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) 類別的更多資訊。

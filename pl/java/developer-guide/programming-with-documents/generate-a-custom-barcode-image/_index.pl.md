@@ -1,4 +1,4 @@
----
+﻿---
 title: Utwórz kod kreskowy w Java
 second_title: Aspose.Words dla Java
 articleTitle: Generuj obraz niestandardowego kodu kreskowego
@@ -55,7 +55,7 @@ Możesz również zapisać dokument z załadowanym lub nowo wstawionym kodem kre
 
 {{% alert color="primary" %}}
 
-Aby uzyskać więcej informacji na temat konwersji dokumentów z jednego formatu do innego, zapoznaj się z sekcją dokumentacji [Convert a Document](/words/java/convert-a-document/).
+Aby uzyskać więcej informacji na temat konwersji dokumentów z jednego formatu do innego, zapoznaj się z sekcją dokumentacji [Convert a Document](/words/pl/java/convert-a-document/).
 
 {{% /alert %}}
 

@@ -3,7 +3,7 @@ title: Convert Word to Excel in Java
 second_title: Aspose.Words for Java
 articleTitle: Convert a Document to Excel
 linktitle: Convert a Document to Excel
-description: "Convert PDF to Excel, XML to Excel, DOCX to Excel Java. Save a document in various formats to XLSX using Java."
+description: "Convert XML to Excel, Word to Excel (including DOCX to Excel) in Java. Save a document in various formats to XLSX using Java."
 type: docs
 weight: 15
 ai_search_scope: words_java
@@ -18,16 +18,13 @@ Converting documents from one format to another is the flagship feature of Aspos
 
 Converting a document to XLSX is a rather complicated process. To save your document to XLSX format using Aspose.Words, use the [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) class and the new `Xlsx` element in the [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) enumeration. As mentioned above, you can save the document in any load format supported by Aspose.Words to XLSX.
 
-The following code example shows how to save PDF to XLSX:
+The following code example shows how to save DOCX to XLSX:
 
-{{< highlight java >}}
-Document doc = new Document(getMyDir() + "Pdf Document.pdf");
-doc.save(getArtifactsDir() + "BaseConversions.PdfToXlsx.xlsx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "82fb3ee435d5abdc1472a58774ebe98c" "docx-to-xlsx.java" >}}
 
 {{% alert color="primary" %}}
 
-Sometimes it is necessary to specify additional options, which can affect the result of saving a document as a XLSX. These options can be specified by the use of the [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) class, containing properties that determine how the XLSX output will be displayed.
+Sometimes it is necessary to specify additional options, which can affect the result of saving a document as a XLSX. These options can be specified using the [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) class, containing properties that determine how the XLSX output will be displayed.
 
 {{% /alert %}}
 
@@ -37,21 +34,7 @@ Also using Aspose.Words, you can find a specific string or regular expression in
 
 The following code example shows how to perform find and replace operation and save result to XLSX:
 
-{{< highlight java >}}
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.writeln("Ruby bought a ruby necklace.");
-
-// We can use a "FindReplaceOptions" object to modify the find-and-replace process.
-FindReplaceOptions options = new FindReplaceOptions();
-// Set the "MatchCase" flag to "true" to apply case sensitivity while finding strings to replace.
-// Set the "MatchCase" flag to "false" to ignore character case while searching for text to replace.
-options.setMatchCase(true);
-
-doc.getRange().replace("Ruby", "Jade", options);
-doc.save(getArtifactsDir() + "BaseConversions.FindReplaceXlsx.xlsx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "50971daf8f0c9ef4b0250c4a526b1652" "find-replace-xlsx.java" >}}
 
 ## Specify Compression Level When Saving to XLSX
 
@@ -59,13 +42,7 @@ You can also specify the compression level when saving using the [CompressionLev
 
 The following code example shows how to specify the compression level when saving to XLSX format:
 
-{{< highlight java >}}
-Document doc = new Document(getMyDir() + "Document.docx");
-XlsxSaveOptions saveOptions = new XlsxSaveOptions();
-saveOptions.setCompressionLevel(CompressionLevel.MAXIMUM);
-
-doc.save(getArtifactsDir() + "BaseConversions.CompressXlsx.xlsx", saveOptions);
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "50971daf8f0c9ef4b0250c4a526b1652" "compress-xlsx.java" >}}
 
 ## See Also
 

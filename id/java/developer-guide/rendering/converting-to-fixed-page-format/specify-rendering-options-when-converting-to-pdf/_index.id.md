@@ -96,7 +96,7 @@ Resolusi dihitung sesuai dengan ukuran gambar sebenarnya pada halaman.
 
 ## Menyematkan Font dalam Format Adobe PDF
 
-Aspose.Words juga memungkinkan Anda mengontrol bagaimana font disematkan ke dalam dokumen PDF yang dihasilkan. Font perlu disematkan ke dalam dokumen Adobe PDF apa pun untuk memastikan bahwa dokumen dapat dirender dengan benar di mesin mana pun (lihat detail selengkapnya tentang rendering font di bagian [Menggunakan Font TrueType](/words/java/using-truetype-fonts/)). Secara default, Aspose.Words menyematkan subset font yang digunakan dalam dokumen ke dalam PDF yang dihasilkan. Dalam hal ini, hanya mesin terbang (karakter) yang digunakan dalam dokumen yang disimpan ke PDF.
+Aspose.Words juga memungkinkan Anda mengontrol bagaimana font disematkan ke dalam dokumen PDF yang dihasilkan. Font perlu disematkan ke dalam dokumen Adobe PDF apa pun untuk memastikan bahwa dokumen dapat dirender dengan benar di mesin mana pun (lihat detail selengkapnya tentang rendering font di bagian [Menggunakan Font TrueType](/words/id/java/using-truetype-fonts/)). Secara default, Aspose.Words menyematkan subset font yang digunakan dalam dokumen ke dalam PDF yang dihasilkan. Dalam hal ini, hanya mesin terbang (karakter) yang digunakan dalam dokumen yang disimpan ke PDF.
 
 ### Kapan Menggunakan Font Lengkap dan Kapan Subset
 

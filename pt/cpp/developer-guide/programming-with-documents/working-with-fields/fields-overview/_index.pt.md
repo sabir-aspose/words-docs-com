@@ -1,4 +1,4 @@
----
+﻿---
 title: Visão geral dos campos Em C++
 second_title: Aspose.Words para C++
 articleTitle: Visão Geral Dos Campos
@@ -29,7 +29,7 @@ Um campo consiste em:
 
 ![fields-overview-aspose-words-cpp-1](fields-overview-1.png)
 
-O conteúdo que compõe o código do campo é armazenado como nós [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) entre [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) e [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/). O resultado do campo é armazenado entre os nós **FieldSeparator** e [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) e pode ser composto por vários tipos de conteúdo. Normalmente, o resultado do campo contém apenas texto composto por nós **Run**, no entanto, é possível que o nó **FieldEnd** esteja localizado em um parágrafo completamente diferente, tornando assim o resultado do campo composto por [nós de nível de bloco](/words/cpp/logical-levels-of-nodes-in-a-document/) como **Table** e **Paragraph** Nós também.
+O conteúdo que compõe o código do campo é armazenado como nós [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) entre [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) e [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/). O resultado do campo é armazenado entre os nós **FieldSeparator** e [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) e pode ser composto por vários tipos de conteúdo. Normalmente, o resultado do campo contém apenas texto composto por nós **Run**, no entanto, é possível que o nó **FieldEnd** esteja localizado em um parágrafo completamente diferente, tornando assim o resultado do campo composto por [nós de nível de bloco](/words/pt/cpp/logical-levels-of-nodes-in-a-document/) como **Table** e **Paragraph** Nós também.
 
 Aqui está uma visão de como um campo é armazenado em Aspose.Words usando o exemplo "*DocumentExplorer"*.
 
@@ -37,7 +37,7 @@ Aqui está uma visão de como um campo é armazenado em Aspose.Words usando o ex
 
 ## Campos no modelo de objecto do documento Aspose.Words (DOM)
 
-Quando um documento é carregado em Aspose.Words, os campos do documento são carregados no [Aspose.Words Modelo Do Objecto Do Documento](/words/cpp/aspose-words-document-object-model/) como um conjunto de componentes separados (nós). Um único campo é carregado como uma coleção de nós **FieldStart**, **FieldSeparator** e **FieldEnd** juntamente com o conteúdo entre esses nós. Se um campo não tiver um resultado de campo, não haverá nó **FieldSeparator**. Todos esses nós são sempre encontrados inline (como filhos de [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) ou [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
+Quando um documento é carregado em Aspose.Words, os campos do documento são carregados no [Aspose.Words Modelo Do Objecto Do Documento](/words/pt/cpp/aspose-words-document-object-model/) como um conjunto de componentes separados (nós). Um único campo é carregado como uma coleção de nós **FieldStart**, **FieldSeparator** e **FieldEnd** juntamente com o conteúdo entre esses nós. Se um campo não tiver um resultado de campo, não haverá nó **FieldSeparator**. Todos esses nós são sempre encontrados inline (como filhos de [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) ou [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
 
 Em Aspose.Words cada um dos **FieldXXX** nós deriva de [FieldChar](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_char/). Esta classe fornece uma propriedade para verificar o tipo de campo representado pelo nó especificado através da propriedade [FieldType](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldchar/get_fieldtype/). Por exemplo, **FieldType.FieldMergeField** representa um campo de mesclagem no documento.
 

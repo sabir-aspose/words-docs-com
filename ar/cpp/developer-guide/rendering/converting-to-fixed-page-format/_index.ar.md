@@ -1,4 +1,4 @@
----
+﻿---
 title: التحويل إلى تنسيق الصفحة الثابتة في C++
 second_title: Aspose.Words ل C++
 articleTitle: التحويل إلى تنسيق الصفحة الثابتة
@@ -28,7 +28,7 @@ Microsoft Word هو تطبيق تحرير النص الأكثر تقدما في 
 
 ## أنظر أيضا
 
-* [ما هو تخطيط الصفحة](/words/cpp/what-is-a-page-layout/)
-* [إنشاء تخطيط الصفحة](/words/cpp/creating-a-page-layout/)
-* [حفظ مستند بتنسيق صفحة ثابتة](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [تحديد خيارات التخطيط](/words/cpp/specify-layout-options/)
+* [ما هو تخطيط الصفحة](/words/ar/cpp/what-is-a-page-layout/)
+* [إنشاء تخطيط الصفحة](/words/ar/cpp/creating-a-page-layout/)
+* [حفظ مستند بتنسيق صفحة ثابتة](/words/ar/cpp/saving-a-document-to-fixed-page-format/)
+* [تحديد خيارات التخطيط](/words/ar/cpp/specify-layout-options/)

@@ -1,4 +1,4 @@
----
+﻿---
 title: Lưu Vào Định dạng trang Cố định trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Lưu Tài liệu sang Định dạng trang Cố định
@@ -17,7 +17,7 @@ Khi lưu tài liệu sang định dạng trang cố định, các tùy chọn k�
 - Số lượng và phạm vi của các trang có trong tài liệu đầu ra ([PageIndex](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pageset/), [PageCount](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pageset/)).
 - Tiến trình lưu tài liệu từng trang ([PageSavingCallback](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pagesavingcallback/)).
 - Một tập hợp các ký tự được sử dụng để hiển thị số ([NumeralFormat](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_numeralformat/)).
-- Một trình phát metafile ([MetafileRenderingOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_metafilerenderingoptions/)). Để biết thêm chi tiết, hãy xem [Xử Lý Windows Metafiles](/words/cpp/handling-windows-metafiles/) bài viết.
+- Một trình phát metafile ([MetafileRenderingOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_metafilerenderingoptions/)). Để biết thêm chi tiết, hãy xem [Xử Lý Windows Metafiles](/words/vi/cpp/handling-windows-metafiles/) bài viết.
 - Tỷ lệ chất lượng để nén lại hình ảnh JPEG, giá trị của hình ảnh này có thể hơi khác nhau, tùy thuộc vào định dạng lưu đã chọn ([JpegQuality](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_jpegquality/)).
 - Tối ưu hóa đồ họa vector trong Aspose.Words đầu ra ([OptimizeOutput](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_optimizeoutput/)).
 - Tùy chọn đồ họa khi lưu Vào Các định dạng Tiff, Png, Bmp, Jpeg, Emf ([UseAntiAliasing](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_useantialiasing/), [UseHighQualityRendering](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_usehighqualityrendering/)).

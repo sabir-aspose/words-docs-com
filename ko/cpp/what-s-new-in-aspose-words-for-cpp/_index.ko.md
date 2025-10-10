@@ -420,7 +420,7 @@ TXT문서를 로드할 때 하이퍼링크를 인식하는 기능은 새로운[D
 
 {{% alert color="primary" %}}
 
-에 대해 자세히 알아보기 [Aspose.WordsC++23.9릴리스 노트](/words/cpp/aspose-words-for-cpp-23-9-release-notes/).
+에 대해 자세히 알아보기 [Aspose.WordsC++23.9릴리스 노트](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-9-release-notes/).
 에 대해 자세히 알아보기 [Aspose.WordsC++23.10릴리스 노트](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-10-release-notes/).
 에 대해 자세히 알아보기 [Aspose.WordsC++23.11릴리스 노트](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-11-release-notes/).
 에 대해 자세히 알아보기 [Aspose.WordsC++23.12릴리스 노트](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-12-release-notes/).
@@ -431,6 +431,6 @@ TXT문서를 로드할 때 하이퍼링크를 인식하는 기능은 새로운[D
 
 {{% alert color="primary" %}}
 
-이 페이지에는 지난 2 년간의 최신 릴리스 뉴스가 포함되어 있습니다. 이전 릴리스에 대한 자세한 내용은 [릴리스 노트'](/words/cpp/release-notes/) 관련 섹션의 페이지.
+이 페이지에는 지난 2 년간의 최신 릴리스 뉴스가 포함되어 있습니다. 이전 릴리스에 대한 자세한 내용은 [릴리스 노트'](https://releases.aspose.com/words/cpp/release-notes/) 관련 섹션의 페이지.
 
 {{% /alert %}}

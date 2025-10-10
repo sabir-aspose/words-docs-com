@@ -1,4 +1,4 @@
----
+﻿---
 title: Werk Met Afdelings in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Werk Met Afdelings
@@ -38,7 +38,7 @@ Jy kan ook die [SectionStart](https://reference.aspose.com/words/python-net/aspo
 
 ## Bestuur'n Afdeling
 
-Aangesien'n gedeelte'n normale saamgestelde knoop is, kan die hele knoopmanipulasie API gebruik word om afdelings te manipuleer: om afdelings by te voeg, te verwyder en ander bewerkings op afdelings te doen. Jy kan meer lees oor nodes in die artikel [Aspose.Words Dokument Voorwerp Model (DOM)](/words/python-net/aspose-words-document-object-model/).
+Aangesien'n gedeelte'n normale saamgestelde knoop is, kan die hele knoopmanipulasie API gebruik word om afdelings te manipuleer: om afdelings by te voeg, te verwyder en ander bewerkings op afdelings te doen. Jy kan meer lees oor nodes in die artikel [Aspose.Words Dokument Voorwerp Model (DOM)](/words/af/python-net/aspose-words-document-object-model/).
 
 Aan die ander kant kan jy ook die `DocumentBuilder` API gebruik om met afdelings te werk. In hierdie artikel sal ons fokus op hierdie spesifieke manier van werk met afdelings.
 
@@ -155,4 +155,4 @@ Die volgende kode voorbeeld toon hoe om die bladsy eienskappe in alle afdelings 
 ## Sien Ook
 
 - [Logiese Vlakke Van Nodusse in'n Dokument](/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
-- [Voeg Dokumente in en Voeg By](/words/python-net/insert-and-append-documents/)
+- [Voeg Dokumente in en Voeg By](/words/af/python-net/insert-and-append-documents/)

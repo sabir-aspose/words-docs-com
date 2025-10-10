@@ -38,7 +38,7 @@ También puede usar la enumeración [SectionStart](https://reference.aspose.com/
 
 ## Administrar una Sección
 
-Dado que una sección es un nodo compuesto normal, toda la manipulación de nodos API se puede utilizar para manipular secciones: para agregar, eliminar y otras operaciones en secciones. Puede leer más sobre los nodos en el artículo [Aspose.Words Modelo de objetos de documento (DOM)](/words/java/aspose-words-document-object-model/).
+Dado que una sección es un nodo compuesto normal, toda la manipulación de nodos API se puede utilizar para manipular secciones: para agregar, eliminar y otras operaciones en secciones. Puede leer más sobre los nodos en el artículo [Aspose.Words Modelo de objetos de documento (DOM)](/words/es/java/aspose-words-document-object-model/).
 
 Por otro lado, también puedes usar el `DocumentBuilder` API para trabajar con secciones. En este artículo, nos centraremos en esta forma particular de trabajar con secciones.
 
@@ -154,5 +154,5 @@ El siguiente ejemplo de código muestra cómo modificar las propiedades de la p�
 
 ## Véase También
 
-- [Niveles Lógicos de Nodos en un Documento](/words/java/logical-levels-of-nodes-in-a-document/)
-- [Insertar y Adjuntar Documentos](/words/java/insert-and-append-documents/)
+- [Niveles Lógicos de Nodos en un Documento](/words/es/java/logical-levels-of-nodes-in-a-document/)
+- [Insertar y Adjuntar Documentos](/words/es/java/insert-and-append-documents/)

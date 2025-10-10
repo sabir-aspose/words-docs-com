@@ -5,7 +5,7 @@ articleTitle: Licensing and Subscription
 linktitle: Licensing and Subscription
 description: "Aspose.Words for Python via .NET provides different plans for purchase or offers a Free Trial and a 30-day Temporary License for evaluation using Licensing and Subscription policies."
 type: docs
-weight: 40
+weight: 13
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/licensing/

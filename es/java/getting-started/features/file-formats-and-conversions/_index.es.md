@@ -29,7 +29,7 @@ El siguiente ejemplo de código muestra cómo convertir un documento:
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "docx-to-pdf.java" >}}
 
-Para obtener más detalles sobre cómo cargar, convertir y guardar documentos, consulte [Cargar, Guardar y Convertir](/words/java/loading-saving-and-converting/) sección.
+Para obtener más detalles sobre cómo cargar, convertir y guardar documentos, consulte [Cargar, Guardar y Convertir](/words/es/java/loading-saving-and-converting/) sección.
 
 ## Alta Fidelidad
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: FAQ
 second_title: Aspose.Words cho C++
 articleTitle: FAQ
@@ -12,7 +12,7 @@ timestamp: 2024-01-31-14-23-37
 
 Trang này chứa câu trả lời cho các câu hỏi thường gặp nhất. Vui lòng tìm hiểu trang hiện tại – có lẽ điều này sẽ cho phép bạn giải quyết vấn đề của mình một cách nhanh chóng.
 
-Nếu bạn chưa tìm thấy câu trả lời cho câu hỏi của mình, bạn có thể hỏi trên diễn đàn hỗ trợ. Để biết thông tin về cách báo cáo đúng câu hỏi hoặc vấn đề của bạn, hãy xem [Hỗ Trợ Kỹ Thuật](/words/cpp/technical-support/) trang.
+Nếu bạn chưa tìm thấy câu trả lời cho câu hỏi của mình, bạn có thể hỏi trên diễn đàn hỗ trợ. Để biết thông tin về cách báo cáo đúng câu hỏi hoặc vấn đề của bạn, hãy xem [Hỗ Trợ Kỹ Thuật](/words/vi/cpp/technical-support/) trang.
 
 {{% alert color="primary" %}}
 
@@ -32,7 +32,7 @@ Chi tiết có thể được tìm thấy trong tài liệu của chúng tôi.
 
 **Q: nó có nghĩa là gì"Aspose.Words không yêu cầu các ứng dụng của bên thứ ba"?**
 
-Aspose.Words cho C++ không cần phải cài đặt bất kỳ ứng dụng của bên thứ ba hoặc các gói phần mềm bổ sung để làm việc. Chỉ cần tải xuống và cài đặt Aspose.Words như được mô tả trong ["Cài đặt"](/words/cpp/installation/) bài viết và bắt đầu.
+Aspose.Words cho C++ không cần phải cài đặt bất kỳ ứng dụng của bên thứ ba hoặc các gói phần mềm bổ sung để làm việc. Chỉ cần tải xuống và cài đặt Aspose.Words như được mô tả trong ["Cài đặt"](/words/vi/cpp/installation/) bài viết và bắt đầu.
 
 ------
 
@@ -40,7 +40,7 @@ Aspose.Words cho C++ không cần phải cài đặt bất kỳ ứng dụng c�
 
 Aspose.Words cho C++ bao gồm hầu hết các môi trường phát triển và nền tảng triển khai phổ biến. API của nó có thể được sử dụng để phát triển các ứng dụng cho một loạt các hệ điều hành như Windows, Linux Và Mac OS và các nền tảng khác nhau.
 
-Để biết chi tiết, hãy xem [Tổng Quan Về Sản Phẩm](/words/cpp/product-overview/) trang.
+Để biết chi tiết, hãy xem [Tổng Quan Về Sản Phẩm](/words/vi/cpp/product-overview/) trang.
 
 ------
 
@@ -48,7 +48,7 @@ Aspose.Words cho C++ bao gồm hầu hết các môi trường phát triển và
 
 Aspose.Words cho C++ hỗ trợ hầu hết các định dạng tài liệu phổ biến như DOC, DOCX, HTML, Markdown, PDF, XML, và những người khác.
 
-Bạn có thể xem danh sách đầy đủ các định dạng được hỗ trợ trên [Định Dạng Tài Liệu Được Hỗ Trợ](/words/cpp/supported-document-formats/) trang.
+Bạn có thể xem danh sách đầy đủ các định dạng được hỗ trợ trên [Định Dạng Tài Liệu Được Hỗ Trợ](/words/vi/cpp/supported-document-formats/) trang.
 
 ------
 
@@ -56,7 +56,7 @@ Bạn có thể xem danh sách đầy đủ các định dạng được hỗ tr
 
 Bạn có thể làm điều này theo hai cách – sử dụng phiên bản Dùng Thử hoặc Giấy phép Tạm thời 30 ngày. Phiên bản Dùng thử giống như phiên bản đã mua, nó cung cấp chức năng sản phẩm đầy đủ nhưng thêm hình mờ đánh giá ở đầu tài liệu khi tải và lưu và giới hạn kích thước tài liệu tối đa ở vài trăm đoạn. Giấy phép Tạm thời cho phép bạn kiểm tra Aspose.Words mà không bị Hạn chế Dùng Thử trong 30 ngày.
 
-Xem các [Cấp phép Và Đăng ký](/words/cpp/licensing/) trang để biết thêm thông tin.
+Xem các [Cấp phép Và Đăng ký](/words/vi/cpp/licensing/) trang để biết thêm thông tin.
 
 {{% alert color="primary" %}}
 
@@ -70,31 +70,31 @@ Bạn cũng có thể thử một số tính năng phổ biến nhất Aspose.Wo
 
 Để mua giấy phép Aspose.Words, bạn cần đến [Mua hàng](https://purchase.aspose.com/buy) trang, chọn sản phẩm" Aspose.Words " và loại giấy phép phù hợp với bạn. Sau đó thêm giấy phép vào giỏ Hàng của bạn và làm theo hướng dẫn Giỏ Hàng.
 
-Sau khi mua, xin giấy phép như được mô tả trong [Giấy Phép Đã Mua](/words/cpp/licensing/#purchased-license) phần.
+Sau khi mua, xin giấy phép như được mô tả trong [Giấy Phép Đã Mua](/words/vi/cpp/licensing/) phần.
 
-Chi tiết về cách cài đặt Aspose.Words có thể được đọc trên [Cài đặt](/words/cpp/installation/) trang.
+Chi tiết về cách cài đặt Aspose.Words có thể được đọc trên [Cài đặt](/words/vi/cpp/installation/) trang.
 
 ------
 
 **Q: làm thế nào tôi có thể nhận được hỗ trợ?**
 
-Sử dụng diễn đàn hỗ trợ kỹ thuật miễn phí. Để biết chi tiết về cách báo cáo đúng sự cố và những việc cần làm trước khi liên hệ với diễn đàn, hãy xem [Hỗ Trợ Kỹ Thuật](/words/cpp/technical-support/) trang.
+Sử dụng diễn đàn hỗ trợ kỹ thuật miễn phí. Để biết chi tiết về cách báo cáo đúng sự cố và những việc cần làm trước khi liên hệ với diễn đàn, hãy xem [Hỗ Trợ Kỹ Thuật](/words/vi/cpp/technical-support/) trang.
 
 ## Kết xuất Tài liệu
 
 {{% alert color="primary" %}}
 
-Bạn có thể tìm thêm thông tin chi tiết về kết xuất trong [Kết xuất](/words/cpp/rendering/) phần tài liệu.
+Bạn có thể tìm thêm thông tin chi tiết về kết xuất trong [Kết xuất](/words/vi/cpp/rendering/) phần tài liệu.
 
 {{% /alert %}}
 
 **Q: Tại sao bố cục và phông chữ trong tài liệu đầu ra khác với bản gốc?**
 
-Phông chữ có thể không khả dụng hoặc định dạng phông chữ được hỗ trợ bởi Microsoft Word nhưng không được hỗ trợ bởi Aspose.Words. Aspose.Words sẽ thực hiện [thay thế phông chữ](/words/cpp/manipulate-and-substitute-truetype-fonts/).
+Phông chữ có thể không khả dụng hoặc định dạng phông chữ được hỗ trợ bởi Microsoft Word nhưng không được hỗ trợ bởi Aspose.Words. Aspose.Words sẽ thực hiện [thay thế phông chữ](/words/vi/cpp/manipulate-and-substitute-truetype-fonts/).
 
 Để kiểm tra xem phông chữ có bị thiếu không:
 
-- Trong Aspose.Words sử dụng cảnh báo Thay Thế Phông chữ (để biết chi tiết, hãy xem Phần "Cách Nhận Biết Rằng Phông Chữ Đã Được Thay thế" của [Thao Tác Và Thay Thế Phông Chữ TrueType ](/words/cpp/manipulate-and-substitute-truetype-fonts/) bài viết).
+- Trong Aspose.Words sử dụng cảnh báo Thay Thế Phông chữ (để biết chi tiết, hãy xem Phần "Cách Nhận Biết Rằng Phông Chữ Đã Được Thay thế" của [Thao Tác Và Thay Thế Phông Chữ TrueType ](/words/vi/cpp/manipulate-and-substitute-truetype-fonts/) bài viết).
 - Trong Microsoft Word mở hộp thoại" Thay Thế Phông chữ " (Tệp → Tùy chọn → Nâng cao → Thay Thế Phông chữ).
 
 ------
@@ -121,7 +121,7 @@ Vâng, bạn làm. Do đó, khi sao chép phông chữ, hãy nhớ rằng hầu 
 
 {{% alert color="primary" %}}
 
-Bạn có thể tìm thêm thông tin chi tiết về lập trình với các tài liệu trong [Lập Trình Với Tài liệu](/words/cpp/programming-with-documents/) phần tài liệu.
+Bạn có thể tìm thêm thông tin chi tiết về lập trình với các tài liệu trong [Lập Trình Với Tài liệu](/words/vi/cpp/programming-with-documents/) phần tài liệu.
 
 {{% /alert %}}
 
@@ -133,7 +133,7 @@ Kết quả nối thêm xuất hiện trên một trang riêng biệt vì sự k
 
 {{% alert color="primary" %}}
 
-Bạn có thể tìm thêm thông tin chi tiết về việc chuyển đổi tài liệu trong [Chuyển đổi Tài liệu](/words/cpp/convert-a-document/) phần tài liệu.
+Bạn có thể tìm thêm thông tin chi tiết về việc chuyển đổi tài liệu trong [Chuyển đổi Tài liệu](/words/vi/cpp/convert-a-document/) phần tài liệu.
 
 {{% /alert %}}
 
@@ -156,7 +156,7 @@ doc->Save(outputPath);
 
 {{% alert color="primary" %}}
 
-Bạn có thể tìm thêm thông tin chi tiết về lập trình với các tài liệu trong [Lập Trình Với Tài liệu](/words/cpp/programming-with-documents/) phần tài liệu.
+Bạn có thể tìm thêm thông tin chi tiết về lập trình với các tài liệu trong [Lập Trình Với Tài liệu](/words/vi/cpp/programming-with-documents/) phần tài liệu.
 
 {{% /alert %}}
 

@@ -14,7 +14,7 @@ Esistono diversi modi per inserire campi in un documento:
 
 - usando [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)
 - usando [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/)
-- servendosi [Aspose.Words Modello oggetto documento (DOM)](/words/java/aspose-words-document-object-model/)
+- servendosi [Aspose.Words Modello oggetto documento (DOM)](/words/it/java/aspose-words-document-object-model/)
 
 In questo articolo, esamineremo ogni modo in modo più dettagliato e analizzeremo come inserire determinati campi utilizzando queste opzioni.
 
@@ -80,7 +80,7 @@ L'esempio di codice seguente mostra come inserire un campo in un documento utili
 
 ## Inserimento di campi usando DOM
 
-È inoltre possibile inserire vari tipi di campi utilizzando [Aspose.Words Modello oggetto documento (DOM)](/words/java/aspose-words-document-object-model/). In questa sezione, vedremo alcuni esempi.
+È inoltre possibile inserire vari tipi di campi utilizzando [Aspose.Words Modello oggetto documento (DOM)](/words/it/java/aspose-words-document-object-model/). In questa sezione, vedremo alcuni esempi.
 
 ### Inserimento di un campo di unione in un documento utilizzando DOM
 

@@ -85,7 +85,7 @@ Aspose.Words还使您能够使用分段分隔符来分割文档并将其保存�
 
 {{% alert color="primary" %}}
 
-您可以使用任何 [Aspose.Words支持的输出格式](/words/java/supported-document-formats/).
+您可以使用任何 [Aspose.Words支持的输出格式](/words/zh/java/supported-document-formats/).
 
 {{% /alert %}}
 

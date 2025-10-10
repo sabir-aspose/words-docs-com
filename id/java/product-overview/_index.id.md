@@ -18,7 +18,7 @@ Aspose.Words adalah pustaka kelas lintas platform yang memungkinkan aplikasi And
 
 Dengan menggunakan Aspose.Words, Anda dapat membuat, memodifikasi, mengonversi, merender, dan mencetak dokumen tanpa bergantung pada aplikasi pihak ketiga, seperti Microsoft Word, atau Office Automation.
 
-Perlu dicatat bahwa Anda dapat mengonversi dokumen dari format pemuatan apa pun yang didukung ke format penyimpanan apa pun yang didukung, misalnya, format Microsoft Word menjadi PDF, HTML, atau Markdown, HTML menjadi DOCX, dan seterusnya. Baca lebih lanjut tentang mengonversi dokumen di [Konversikan Dokumen](/words/java/convert-a-document/) bagian.
+Perlu dicatat bahwa Anda dapat mengonversi dokumen dari format pemuatan apa pun yang didukung ke format penyimpanan apa pun yang didukung, misalnya, format Microsoft Word menjadi PDF, HTML, atau Markdown, HTML menjadi DOCX, dan seterusnya. Baca lebih lanjut tentang mengonversi dokumen di [Konversikan Dokumen](/words/id/java/convert-a-document/) bagian.
 
 Pilihan populer lainnya dari perpustakaan kami adalah *Reports and Mails*. Pengguna kami menghasilkan *Reports* keuangan, medis, dan lainnya yang disesuaikan secara individual dan sangat kompleks. Dengan demikian, dokumen yang dihasilkan terlihat seperti Anda membuat laporan secara manual menggunakan editor teks biasa. Opsi lain, *Mail*, menyediakan kemampuan untuk menghasilkan ribuan dan jutaan dokumen berbasis templat yang sederhana namun tetap pribadi dengan sangat cepat.
 
@@ -46,21 +46,21 @@ Aspose.Words untuk fitur Java dapat dibagi menjadi empat area utama.
 
 Kemampuan untuk mengonversi dokumen dengan mudah dan andal adalah salah satu fitur utama Aspose.Words.
 
-Komprehensif [impor dan ekspor dokumen](/words/java/loading-saving-and-converting/) dengan [lebih dari 35 format file yang disertakan](/words/java/supported-document-formats/) memungkinkan pengguna mengonversi dokumen dari [salah satu format populer](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) menjadi [another](https://reference.aspose.com/words/java/com.aspose.words/saveformat/), misalnya, dari DOCX menjadi PDF, JPEG, atau Markdown.
+Komprehensif [impor dan ekspor dokumen](/words/id/java/loading-saving-and-converting/) dengan [lebih dari 35 format file yang disertakan](/words/id/java/supported-document-formats/) memungkinkan pengguna mengonversi dokumen dari [salah satu format populer](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) menjadi [another](https://reference.aspose.com/words/java/com.aspose.words/saveformat/), misalnya, dari DOCX menjadi PDF, JPEG, atau Markdown.
 
 #### Model Objek Dokumen (DOM)
 
-Akses terprogram melalui API yang kaya ke semua elemen dokumen dan pemformatan memungkinkan untuk membuat, memodifikasi, mengekstrak, menyalin, membagi, menggabungkan, dan mengganti konten dokumen. Cari tahu lebih lanjut di [Aspose.Words Model Objek Dokumen (DOM)](/words/java/aspose-words-document-object-model/) bagian.
+Akses terprogram melalui API yang kaya ke semua elemen dokumen dan pemformatan memungkinkan untuk membuat, memodifikasi, mengekstrak, menyalin, membagi, menggabungkan, dan mengganti konten dokumen. Cari tahu lebih lanjut di [Aspose.Words Model Objek Dokumen (DOM)](/words/id/java/aspose-words-document-object-model/) bagian.
 
 #### Rendering
 
-Kami menggunakan istilah tersebut [Merender dalam Aspose.Words](/words/java/rendering/) untuk menggambarkan proses pengubahan dokumen menjadi format file atau media, paginasi atau yang memiliki konsep pages.
+Kami menggunakan istilah tersebut [Merender dalam Aspose.Words](/words/id/java/rendering/) untuk menggambarkan proses pengubahan dokumen menjadi format file atau media, paginasi atau yang memiliki konsep pages.
 
 Anda dapat mengonversi seluruh dokumen atau halaman tertentu menjadi PDF atau XPS untuk membuat dokumen sisi server, mencetaknya, atau merender halaman. Dan semua ini dengan ketelitian tinggi-persis seperti Microsoft Word yang akan melakukannya.
 
 #### Pelaporan
 
-Hasilkan dokumen atau laporan dari awal atau dengan mengisi templat dengan data dari sumber data atau objek bisnis. Untuk informasi selengkapnya tentang pelaporan dan pengambilan data dari basis data, lihat [Mail Merge dan Pelaporan](/words/java/mail-merge-and-reporting/) dan [LINQ Mesin Pelapis](/words/java/linq-reporting-engine/) bagian.
+Hasilkan dokumen atau laporan dari awal atau dengan mengisi templat dengan data dari sumber data atau objek bisnis. Untuk informasi selengkapnya tentang pelaporan dan pengambilan data dari basis data, lihat [Mail Merge dan Pelaporan](/words/id/java/mail-merge-and-reporting/) dan [LINQ Mesin Pelapis](/words/java/linq-reporting-engine/) bagian.
 
 ### Kemandirian Platform
 
@@ -104,8 +104,8 @@ Pengembang yang sebelumnya telah menggunakan Otomatisasi Microsoft Word dalam pr
 
 ## Harga dan Kebijakan
 
-Silakan kunjungi [Fizinan](/words/java/licensing/) halaman untuk informasi tentang lisensi dan meninjau [Informasi Harga](https://purchase.aspose.com/pricing/words/family/) halaman untuk detail harga.
+Silakan kunjungi [Fizinan](/words/id/java/licensing/) halaman untuk informasi tentang lisensi dan meninjau [Informasi Harga](https://purchase.aspose.com/pricing/words/family/) halaman untuk detail harga.
 
 ## Dukungan Teknis
 
-Untuk informasi lebih lanjut tentang dukungan teknis Aspose.Words, lihat [Halaman dukungan](/words/java/technical-support/).
+Untuk informasi lebih lanjut tentang dukungan teknis Aspose.Words, lihat [Halaman dukungan](/words/id/java/technical-support/).

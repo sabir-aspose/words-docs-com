@@ -1,4 +1,4 @@
----
+﻿---
 title: Belgeleri Java'da karşılaştır
 second_title: Aspose.Words için Java
 articleTitle: Belgeleri Karşılaştır
@@ -36,7 +36,7 @@ Karşılaştırılacak iki belge için genel kısıtlama, karşılaştırma yön
 
 {{% alert color="primary" %}}
 
-Şu anda bir [supported file formats](/words/java/supported-document-formats/) içindeki herhangi iki belgeyi karşılaştırabileceğinizi unutmayın. Temel olarak, belge nesnelerini karşılaştırabilir ve hatta herhangi belirli bir formatta olmadan bu nesneleri ilk elden oluşturabilirsiniz.
+Şu anda bir [supported file formats](/words/tr/java/supported-document-formats/) içindeki herhangi iki belgeyi karşılaştırabileceğinizi unutmayın. Temel olarak, belge nesnelerini karşılaştırabilir ve hatta herhangi belirli bir formatta olmadan bu nesneleri ilk elden oluşturabilirsiniz.
 
 {{% /alert %}}
 

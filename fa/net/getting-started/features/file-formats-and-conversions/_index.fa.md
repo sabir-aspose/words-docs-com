@@ -1,4 +1,4 @@
----
+﻿---
 title: فرمت ها و تبدیل فایل ها
 second_title: Aspose.Words برای .NET
 articleTitle: فرمت ها و تبدیل فایل ها
@@ -29,7 +29,7 @@ timestamp: 2024-01-31-14-23-37
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "docx-to-pdf.cs" >}}
 
-برای جزئیات بیشتر در مورد بارگیری، تبدیل و ذخیره اسناد، به بخش [بارگیری، ذخیره و تبدیل](/words/cpp/loading-saving-and-converting/) مراجعه کنید.
+برای جزئیات بیشتر در مورد بارگیری، تبدیل و ذخیره اسناد، به بخش [بارگیری، ذخیره و تبدیل](/words/fa/cpp/loading-saving-and-converting/) مراجعه کنید.
 
 ## وفاداری بالا
 

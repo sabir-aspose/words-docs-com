@@ -47,7 +47,7 @@ Všimněte si, že se stejnou technikou můžete převést libovolný formátov�
 
 ### Převést do různých PDF Normy {#convert-to-various-pdf-standards}
 
-Aspose.Words poskytuje [PdfCompliace](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) počet podporující konverzi DOC nebo DOCX na různé standardy formátu PDF (např. PDF 1.7, PDF 1.5 atd.).
+Aspose.Words poskytuje [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) počet podporující konverzi DOC nebo DOCX na různé standardy formátu PDF (např. PDF 1.7, PDF 1.5 atd.).
 
 Následující příklad kódu ukazuje, jak převést dokument na PDF 1.7 pomocí [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) dodržování [PDF17](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf17):
 
@@ -90,5 +90,5 @@ Použití **OptimizeOutput** vlastnost může ovlivnit přesnost zobrazení obsa
 ## Viz také
 
 - Ten článek. [Renderování](/words/cs/python-net/rendering/) pro více informací o formátech pevných stránek a průtoků
-- Ten článek. [Převod na formát pevné stránky](/words/python-net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) pro více informací o rozložení stránky
+- Ten článek. [Převod na formát pevné stránky](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) pro více informací o rozložení stránky
 - Ten článek. [Specifikovat možnosti renderování při převodu do PDF](/words/cs/python-net/specify-rendering-options-when-converting-to-pdf/) pro více informací o použití [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) třída

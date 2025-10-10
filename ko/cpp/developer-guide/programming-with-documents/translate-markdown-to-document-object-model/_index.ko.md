@@ -1,4 +1,4 @@
----
+﻿---
 title: 번역 Markdown 객체 모델을 문서화하려면(DOM)
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 번역 Markdown 객체 모델을 문서화하려면(DOM)
@@ -12,7 +12,7 @@ timestamp: 2024-10-21-11-17-44
 
 문서의 내용과 서식을 프로그래밍 방식으로 읽고,조작하고,수정하려면 문서의 내용을 다음과 같이 번역해야 합니다. Aspose.Words 문서 개체 모델(DOM).
 
-워드 문서와는 달리, Markdown 에 부합하지 않습니다 DOM 에 설명 [Aspose.Words 문서 개체 모델(DOM)](/words/cpp/aspose-words-document-object-model/) 기사 그러나, Aspose.Words 번역을 위한 자체 메커니즘을 제공합니다 Markdown 문서 DOM 텍스트 서식,표,머리글 및 기타와 같은 요소로 성공적으로 작업 할 수 있습니다.
+워드 문서와는 달리, Markdown 에 부합하지 않습니다 DOM 에 설명 [Aspose.Words 문서 개체 모델(DOM)](/words/ko/cpp/aspose-words-document-object-model/) 기사 그러나, Aspose.Words 번역을 위한 자체 메커니즘을 제공합니다 Markdown 문서 DOM 텍스트 서식,표,머리글 및 기타와 같은 요소로 성공적으로 작업 할 수 있습니다.
 
 이 문서에서는 다양한 방법을 설명합니다 markdown 특징은 Aspose.Words DOM 그리고 다시 Markdown 형식
 
@@ -105,5 +105,5 @@ Aspose.Words 또한 테이블을 다음과 같이 번역 할 수 있습니다 DO
 
 ## 또한 참조
 
-* [함께 작업 Markdown 특징](/words/cpp/working-with-markdown-features/)
+* [함께 작업 Markdown 특징](/words/ko/cpp/working-with-markdown-features/)
 

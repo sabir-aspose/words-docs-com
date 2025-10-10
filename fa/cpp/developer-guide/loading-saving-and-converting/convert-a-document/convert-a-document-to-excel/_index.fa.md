@@ -1,4 +1,4 @@
----
+﻿---
 title: تبدیل ورد به اکسل در C++
 second_title: Aspose.Words برای C++
 articleTitle: تبدیل یک سند به اکسل
@@ -61,5 +61,5 @@ doc->Save(ArtifactsDir + u"BaseConversions.CompressXlsx.xlsx", saveOptions);
 
 ## بایگانی برچسب برای:
 
-- بخش مستندات [محافظت یا رمزگذاری یک سند](/words/cpp/protect-or-encrypt-a-document/) برای اطلاعات بیشتر در مورد حفاظت و رمزگذاری یک سند
-- مقاله [پیدا کردن و جایگزین کردن](/words/cpp/find-and-replace/) برای اطلاعات بیشتر در مورد پیدا کردن و جایگزینی محتوای مورد نظر خود
+- بخش مستندات [محافظت یا رمزگذاری یک سند](/words/fa/cpp/protect-or-encrypt-a-document/) برای اطلاعات بیشتر در مورد حفاظت و رمزگذاری یک سند
+- مقاله [پیدا کردن و جایگزین کردن](/words/fa/cpp/find-and-replace/) برای اطلاعات بیشتر در مورد پیدا کردن و جایگزینی محتوای مورد نظر خود

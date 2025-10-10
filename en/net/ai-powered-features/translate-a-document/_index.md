@@ -14,7 +14,7 @@ timestamp: 2024-12-13-06-40-00
 
 Document translation is a frequently needed option in the age of high digitalization. Aspose.Words supports document translation using *Google* generative language models, which allows developers to translate texts content into more than 300 languages.
 
-Use the [Translate](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/translate/) method to translate your documents into any language represented in the [Language](https://reference.aspose.com/words/net/aspose.words.ai/language/) enumeration. Note that if the source document contains several languages, the Google AI-based model will be able to translate all supported languages. If the model cannot recognize the language in some text fragments, then you will be returned a document with these untranslated fragments and with the rest of the text translated.
+Use the [Translate](https://reference.aspose.com/words/net/aspose.words.ai/aimodel/translate/) method to translate your documents into any language represented in the [Language](https://reference.aspose.com/words/net/aspose.words.ai/language/) enumeration. Note that if the source document contains several languages, the Google AI-based model will be able to translate all supported languages. If the model cannot recognize the language in some text fragments, then you will be returned a document with these untranslated fragments and with the rest of the text translated.
 
 The following code example shows how to use the *Gemini 1.5 Flash* model in Aspose.Words to translate a document into Arabic:
 

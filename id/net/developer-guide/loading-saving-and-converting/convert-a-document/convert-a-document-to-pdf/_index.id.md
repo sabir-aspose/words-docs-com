@@ -1,22 +1,22 @@
----
-title: Konversi Word ke PDF di C#
+﻿---
+title: Mengkonversi Word ke PDF di C#
 second_title: Aspose.Words untuk .NET
-articleTitle: Konversikan Dokumen ke PDF
-linktitle: Konversikan Dokumen ke PDF
-description: "Konversikan dokumen ke PDF menggunakan C#. Konversi DOCX ke PDF C#. Berbagai format input didukung, termasuk format Word, OpenOffice, Image, dan eBook."
+articleTitle: Mengubah dokumen ke PDF
+linktitle: Mengubah dokumen ke PDF
+description: "Mengkonversi Word ke PDF di C#. Contoh kode sederhana untuk konversi DOCX ke PDF. Mendukung semua format Word dan gambar."
 type: docs
 weight: 10
 url: /id/net/convert-a-document-to-pdf/
 timestamp: 2024-09-25-11-08-55
 ---
 
-Kemampuan untuk mengkonversi dokumen dengan mudah dan andal dari satu format ke format lainnya adalah fitur utama Aspose.Words. Salah satu format konversi yang paling populer adalah PDF – format tata letak tetap, yang mempertahankan tampilan asli dokumen selama rendering di berbagai platform. Istilah "render" digunakan di Aspose.Words untuk menggambarkan proses mengubah dokumen menjadi format file yang diberi halaman atau memiliki konsep halaman.
+Kemampuan untuk mengkonversi dokumen dengan mudah dan handal dari satu format ke format lain adalah fitur utama Aspose.Words. PDF adalah salah satu format paling populer untuk konversi – ini adalah format dengan tata letak tetap yang mempertahankan tampilan asli dokumen saat rendering di berbagai platform. Istilah "rendering" digunakan dalam Aspose.Words untuk menggambarkan proses mengubah dokumen menjadi format file yang dipaginasi atau memiliki konsep halaman.
 
-## Konversikan Dokumen Word ke PDF
+## Mengkonversi dokumen Word ke PDF
 
-Konversi dari Word ke PDF merupakan proses yang agak rumit yang memerlukan beberapa tahapan perhitungan. Mesin tata letak Aspose.Words meniru cara kerja mesin tata letak halaman Microsoft Word, membuat dokumen keluaran PDF terlihat sedekat mungkin dengan apa yang Anda lihat di Microsoft Word.
+Konversi dari Word ke PDF adalah proses yang cukup kompleks yang memerlukan beberapa tahap perhitungan. Mesin tata letak Aspose.Words meniru cara kerja mesin tata letak halaman Microsoft Word, membuat dokumen PDF keluaran terlihat sedekat mungkin dengan yang dapat Anda lihat di Microsoft Word.
 
-Dengan Aspose.Words Anda dapat mengonversi dokumen secara terprogram dari format Word, seperti DOC atau DOCX, ke PDF tanpa menggunakan Microsoft Office. Artikel ini menjelaskan cara melakukan konversi ini.
+Dengan Aspose.Words, Anda dapat mentransformasi dokumen secara programatis dari format Word, seperti DOC atau DOCX, ke PDF tanpa menggunakan Microsoft Office. Artikel ini menjelaskan cara melakukan konversi ini.
 
 {{% alert color="primary" %}}
 
@@ -24,12 +24,12 @@ Perhatikan bahwa jumlah halaman dalam dokumen mempengaruhi waktu konversi.
 
 {{% /alert %}}
 
-### Konversi DOCX atau DOC ke PDF
+### Mengkonversi DOCX atau DOC ke PDF
 
-Mengonversi format dokumen DOC atau DOCX ke format PDF di Aspose.Words sangat mudah dan dapat dilakukan hanya dengan dua baris kode yaitu:
+Mengubah dari format dokumen DOC atau DOCX ke format PDF di Aspose.Words sangat mudah dan dapat dicapai hanya dengan dua baris kode yang:
 
-1. Muat dokumen Anda ke dalam objek [Document](https://reference.aspose.com/words/net/aspose.words/document/) menggunakan salah satu konstruktornya dengan menentukan nama dokumen dengan ekstensi formatnya.
-1. Aktifkan salah satu metode [Document.Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/) pada objek **Document** dan tentukan format output yang diinginkan sebagai PDF dengan memasukkan nama file berekstensi ".PDF".
+1. Muat dokumen Anda ke dalam objek [Document](https://reference.aspose.com/words/net/aspose.words/document/) menggunakan salah satu konstruktornya dengan menentukan nama dokumen beserta ekstensi formatnya.
+1. Panggil salah satu metode [Document.Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/) pada objek **Document** dan tentukan format output yang diinginkan sebagai PDF dengan memasukkan nama file dengan ekstensi ".PDF".
 
 Contoh kode berikut menunjukkan cara mengkonversi dokumen dari DOCX ke PDF menggunakan metode [Save](https://reference.aspose.com/words/net/aspose.words/document/save/):
 
@@ -39,25 +39,25 @@ Anda dapat mengunduh file template contoh ini dari [Aspose.Words GitHub](https:/
 
 {{% alert color="primary" %}}
 
-Terkadang perlu menentukan opsi tambahan, yang dapat memengaruhi hasil penyimpanan dokumen sebagai PDF. Pilihan ini dapat ditentukan dengan menggunakan kelas [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/), yang berisi properti yang menentukan bagaimana keluaran PDF akan ditampilkan.
+Terkadang perlu untuk menentukan opsi tambahan yang dapat mempengaruhi hasil penyimpanan dokumen sebagai PDF. Opsi ini dapat ditentukan dengan menggunakan kelas [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/), yang berisi properti yang menentukan bagaimana output PDF akan ditampilkan.
 
-Perhatikan bahwa dengan teknik yang sama, Anda dapat mengonversi dokumen format tata letak aliran apa pun ke format PDF.
+Perhatikan bahwa dengan teknik yang sama, Anda dapat mentransformasi dokumen format flow-layout apa pun ke format PDF.
 
 {{% /alert %}}
 
-### Konversikan ke Standar PDF yang Berbeda
+### Mengubah ke berbagai standar PDF
 
-Aspose.Words menyediakan [Kepatuhan Pdf](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/)enumeration untuk mendukung konversi DOC atau DOCX ke berbagai standar format PDF (seperti PDF 1.7, PDF 1.5, dll.).
+Aspose.Words menyediakan enumerasi [PdfCompliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) untuk mendukung konversi DOC atau DOCX ke berbagai standar format PDF (seperti PDF 1.7, PDF 1.5, dll.).
 
-Contoh kode berikut menunjukkan cara mengonversi dokumen ke PDF 1.7 menggunakan [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) sesuai dengan PDF17:
+Contoh kode berikut menunjukkan cara mengkonversi dokumen ke PDF 1.7 menggunakan [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) dengan kepatuhan terhadap PDF17:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "conversion-to-pdf17.cs" >}}
 
-## Konversi Gambar ke PDF
+## Mengkonversi gambar ke PDF
 
-Mengonversi ke PDF tidak dibatasi oleh format dokumen Microsoft Word. Format apa pun yang didukung oleh Aspose.Words, termasuk yang dibuat secara terprogram, juga dapat dikonversi ke PDF. Misalnya, kita dapat mengonversi gambar satu halaman, seperti JPEG, PNG, BMP, EMF, atau WMF, serta gambar multi halaman, seperti TIFF dan GIF, ke PDF.
+Konversi ke PDF tidak terbatas pada format dokumen Microsoft Word. Format apa pun yang didukung oleh Aspose.Words, termasuk yang dibuat secara programatis, juga dapat diubah ke PDF. Misalnya, kita dapat mengkonversi gambar halaman tunggal, seperti JPEG, PNG, BMP, EMF, atau WMF, serta gambar multi-halaman, seperti TIFF dan GIF, ke PDF.
 
-Contoh kode berikut menunjukkan cara mengonversi gambar JPEG dan TIFF ke PDF:
+Contoh kode berikut menunjukkan cara mentransformasi gambar JPEG dan TIFF ke PDF:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "image-to-pdf.cs" >}}
 
@@ -65,9 +65,9 @@ Contoh kode berikut menunjukkan cara mengonversi gambar JPEG dan TIFF ke PDF:
 
 Agar kode ini berfungsi, Anda perlu menambahkan referensi ke Aspose.Words dan `System.Drawing` ke proyek Anda.
 
-## Kurangi Ukuran Keluaran PDF
+## Mengurangi ukuran output PDF
 
-Saat menyimpan ke PDF, Anda dapat menentukan apakah Anda ingin mengoptimalkan hasilnya. Untuk melakukan ini, Anda perlu menyetel tanda [OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) ke true, lalu kanvas bertumpuk dan kanvas kosong yang berlebihan akan dihapus, glyph tetangga dengan format yang sama akan digabungkan.
+Saat menyimpan ke PDF, Anda dapat menentukan apakah Anda ingin mengoptimalkan output. Untuk melakukan ini, Anda perlu mengatur flag [OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) ke true, dan kemudian kanvas bersarang yang berlebihan dan kosong akan dihapus, glyph yang berdekatan dengan format yang sama akan digabungkan.
 
 Contoh kode berikut menunjukkan cara mengoptimalkan output:
 
@@ -75,18 +75,18 @@ Contoh kode berikut menunjukkan cara mengoptimalkan output:
 
 {{% alert color="primary" %}}
 
-Penggunaan properti **OptimizeOutput** dapat mempengaruhi keakuratan tampilan konten.
+Menggunakan properti **OptimizeOutput** dapat mempengaruhi akurasi tampilan konten.
 
 {{% /alert %}}
 
 ## Lihat juga
 
-- Artikel [Render](/words/id/net/rendering/) untuk informasi lebih lanjut tentang format halaman tetap dan tata letak alur
-- Artikel [Mengonversi ke Format Halaman Tetap](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) untuk informasi lebih lanjut tentang tata letak halaman
-- Artikel [Tentukan Opsi Rendering Saat Mengonversi ke PDF](/words/id/net/specify-rendering-options-when-converting-to-pdf/) untuk informasi lebih lanjut tentang penggunaan kelas `PdfSaveOptions`
-- Artikel [Pelajari Fitur Konversi ke PDF/A dan PDF/UA](/words/id/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) yang menjelaskan standar PDF mana dan ISO yang relevan untuk standar PDF yang mendukung Aspose.Words
-- Artikel [Standar PDF Mana yang Lebih Baik untuk Dipilih](/words/id/net/which-pdf-standard-is-better-to-choose/) untuk menentukan standar PDF mana yang masuk akal untuk kasus tertentu
+- Artikel [Rendering](/words/id/net/rendering/) untuk informasi lebih lanjut tentang format halaman tetap dan flow-layout
+- Artikel [Konversi ke format halaman tetap](/words/id/net/converting-to-fixed-page-format/#what-is-a-page-layout) untuk informasi lebih lanjut tentang tata letak halaman
+- Artikel [Menentukan opsi rendering saat mengubah ke PDF](/words/id/net/specify-rendering-options-when-converting-to-pdf/) untuk informasi lebih lanjut tentang penggunaan kelas `PdfSaveOptions`
+- Artikel [Pelajari fitur konversi ke PDF/A dan PDF/UA](/words/id/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) yang menjelaskan standar PDF mana dan ISO yang relevan untuk standar PDF yang didukung Aspose.Words
+- Artikel [Standar PDF mana yang lebih baik untuk dipilih](/words/id/net/which-pdf-standard-is-better-to-choose/) untuk menentukan standar PDF mana yang masuk akal untuk kasus mana
 
-- Artikel [Bekerja dengan PDF/A atau PDF/UA](/words/id/net/working-with-pdfa-or-pdfua/) menjelaskan persyaratan konten dokumen dalam format PDF/A dan PDF/UA – terutama persyaratan untuk struktur dan font
+- Artikel [Bekerja dengan PDF/A atau PDF/UA](/words/id/net/working-with-pdfa-or-pdfua/) menjelaskan persyaratan konten dokumen dalam format PDF/A dan PDF/UA – terutama persyaratan struktur dan font
 
-- Artikel [Peringatan Masalah Aksesibilitas Saat Menyimpan ke PDF/A dan PDF/UA](/words/id/net/warnings-when-saving-to-pdfa-and-pdfua/) menjelaskan persyaratan aksesibilitas konten yang diberlakukan PDF/A dan PDF/UA
+- Artikel [Peringatan masalah aksesibilitas saat menyimpan ke PDF/A dan PDF/UA](/words/id/net/warnings-when-saving-to-pdfa-and-pdfua/) menjelaskan persyaratan aksesibilitas konten apa yang diberlakukan PDF/A dan PDF/UA

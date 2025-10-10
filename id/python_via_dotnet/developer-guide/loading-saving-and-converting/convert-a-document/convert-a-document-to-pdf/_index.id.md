@@ -47,7 +47,7 @@ Perhatikan bahwa dengan teknik yang sama, Anda dapat mengonversi dokumen format 
 
 ### Konversikan ke Berbagai Standar PDF {#convert-to-various-pdf-standards}
 
-Aspose.Words menyediakan enumerasi [PdfCompliace](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) untuk mendukung konversi DOC atau DOCX ke berbagai standar format PDF (seperti PDF 1.7, PDF 1.5, dll.).
+Aspose.Words menyediakan enumerasi [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) untuk mendukung konversi DOC atau DOCX ke berbagai standar format PDF (seperti PDF 1.7, PDF 1.5, dll.).
 
 Contoh kode berikut menunjukkan cara mengonversi dokumen ke PDF 1.7 menggunakan [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) dengan kepatuhan terhadap [PDF17](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf17):
 
@@ -90,5 +90,5 @@ Penggunaan properti **OptimizeOutput** dapat mempengaruhi keakuratan tampilan ko
 ## Lihat juga
 
 - Artikel [Render](/words/id/python-net/rendering/) untuk informasi lebih lanjut tentang format halaman tetap dan tata letak alur
-- Artikel [Mengonversi ke Format Halaman Tetap](/words/python-net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) untuk informasi lebih lanjut tentang tata letak halaman
+- Artikel [Mengonversi ke Format Halaman Tetap](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) untuk informasi lebih lanjut tentang tata letak halaman
 - Artikel [Tentukan Opsi Rendering Saat Mengonversi ke PDF](/words/id/python-net/specify-rendering-options-when-converting-to-pdf/) untuk informasi lebih lanjut tentang penggunaan kelas [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/)

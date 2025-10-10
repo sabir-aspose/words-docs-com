@@ -85,7 +85,7 @@ Aspose.Wordsยังช่วยให้คุณสามารถใช้�
 
 {{% alert color="primary" %}}
 
-คุณสามารถใช้ใดๆ [รูปแบบการส่งออกที่รองรับโดยAspose.คำ](/words/java/supported-document-formats/).
+คุณสามารถใช้ใดๆ [รูปแบบการส่งออกที่รองรับโดยAspose.คำ](/words/th/java/supported-document-formats/).
 
 {{% /alert %}}
 

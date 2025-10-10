@@ -5,7 +5,7 @@ articleTitle: Platforms and Interoperability
 linktitle: Supported Platforms
 description: "Use Aspose.Words when building applications for .NET, Java, and C++, PHP, Python, and other languages."
 type: docs
-weight: 50
+weight: 150
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/platforms-and-interoperability/

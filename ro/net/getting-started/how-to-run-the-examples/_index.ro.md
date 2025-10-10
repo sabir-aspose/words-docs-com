@@ -1,4 +1,4 @@
----
+﻿---
 title: Cum să rulezi exemplele
 second_title: Aspose.Words pentru .NET
 articleTitle: Cum să rulezi exemplele
@@ -21,7 +21,7 @@ Te rugăm să te asiguri că îndeplinești următoarele cerințe înainte de a 
 1. Visual Studio Cod, Visual Studio 2019.
 2. Instalat NuGet Package Manager și cea mai recentă versiune NuGet API pentru Visual Studio.
 3. Selectată **nuget.org** opțiune în caseta de dialog "Instrumente → Opțiuni" sub "NuGet Package Manager → Sursă de pachete".
-4. O conexiune activă la internet pentru a utiliza `NuGet` Funcția de restaurare automată a pachetelor în proiectul "Exemple. Dacă nu ai o conexiune activă la internet pe mașina unde sunt să fie executate exemplele, verifică articolul [Installation](/words/net/installation/) și adaugă manual un referință la Aspose.Words.dll în proiectul "Exemple".
+4. O conexiune activă la internet pentru a utiliza `NuGet` Funcția de restaurare automată a pachetelor în proiectul "Exemple. Dacă nu ai o conexiune activă la internet pe mașina unde sunt să fie executate exemplele, verifică articolul [Installation](/words/ro/net/installation/) și adaugă manual un referință la Aspose.Words.dll în proiectul "Exemple".
 
 ## Descarcă și rulează exemplele
 
@@ -34,7 +34,7 @@ După ce ai primit o copie a depozitului, ai putea găsi că:
 
 Pentru a rula exemplele, deschideţi fişierul soluţiei în Visual Studio şi construiţi proiectul:
 
-Pentru **API Reference** exemple, structura este bazată pe numele claselor, pentru **Docs** exemple se bazează în mare parte pe secțiunea de documentație [Developer Guiled](/words/net/developer-guide/).
+Pentru **API Reference** exemple, structura este bazată pe numele claselor, pentru **Docs** exemple se bazează în mare parte pe secțiunea de documentație [Developer Guiled](/words/ro/net/developer-guide/).
 - În prima rulare dependențele vor fi descărcate automat prin NuGet.
 - Folderul **Data** din directorul rădăcină al lui **Examples** conține fișiere de intrare care au fost utilizate în exemple.
 "- Toate exemplele pot fi rulate ca teste unitar."

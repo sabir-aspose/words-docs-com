@@ -38,7 +38,7 @@ Anda juga dapat menggunakan pencacahan [SectionStart](https://reference.aspose.c
 
 ## Kelola Bagian
 
-Karena suatu bagian adalah simpul komposit normal, seluruh manipulasi simpul API dapat digunakan untuk memanipulasi bagian: untuk menambah, menghapus, dan operasi lain pada bagian. Anda dapat membaca lebih lanjut tentang node di artikel [Aspose.Words Model Objek Dokumen (DOM)](/words/java/aspose-words-document-object-model/).
+Karena suatu bagian adalah simpul komposit normal, seluruh manipulasi simpul API dapat digunakan untuk memanipulasi bagian: untuk menambah, menghapus, dan operasi lain pada bagian. Anda dapat membaca lebih lanjut tentang node di artikel [Aspose.Words Model Objek Dokumen (DOM)](/words/id/java/aspose-words-document-object-model/).
 
 Di sisi lain, Anda juga dapat menggunakan `DocumentBuilder` API untuk bekerja dengan bagian. Pada artikel ini, kami akan fokus pada cara khusus bekerja dengan bagian-bagian ini.
 
@@ -154,5 +154,5 @@ Contoh kode berikut menunjukkan cara mengubah properti halaman di semua bagian:
 
 ## Lihat Juga
 
-- [Tingkat Logis dari Node dalam Dokumen](/words/java/logical-levels-of-nodes-in-a-document/)
-- [Mengidentifikasi dan Menambah Dokumen](/words/java/insert-and-append-documents/)
+- [Tingkat Logis dari Node dalam Dokumen](/words/id/java/logical-levels-of-nodes-in-a-document/)
+- [Mengidentifikasi dan Menambah Dokumen](/words/id/java/insert-and-append-documents/)

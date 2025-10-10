@@ -1,4 +1,4 @@
----
+﻿---
 title: Conversia în format fix-pagina în C#
 second_title: Aspose.Words pentru .NET
 articleTitle: Conversia în format cu pagini fixe
@@ -75,7 +75,7 @@ După ce este construită structura paginii și se calculează geometria obiecte
 - Numărul și intervalul paginilor conținut în documentul de ieșire ([PageCount](https://reference.aspose.com/words/net/aspose.words/document/pagecount/)).
 - Progresul salvării pe pagini ale documentului ([PageSavingCallback](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/)).
 Un set de caractere care sunt folosite pentru a reprezenta numere [NumeralFormat](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/numeralformat/).
-- Un player de meta-fişiere ([MetafileRenderingOptions](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/)). Pentru mai multe detalii vezi articolul [Handling Windows Metafiles](/words/net/handling-windows-metafiles/).
+- Un player de meta-fişiere ([MetafileRenderingOptions](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/)). Pentru mai multe detalii vezi articolul [Handling Windows Metafiles](/words/ro/net/handling-windows-metafiles/).
 - O rată de calitate pentru recompresia imaginilor JPEG, valoarea căreia poate diferi ușor, în funcție de formatul de salvare selectat ([JpegQuality](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/)).
 "- Optimizarea graficelor vectoriale în Aspose.Words ieșire ([OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) )."
 Opțiuni grafice atunci când se salvează în formatul Tiff, Png, Bmp, Jpeg, Emf ([UseAntiAliasing](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/useantialiasing/), [UseHighQualityRendering](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/usehighqualityrendering/)).

@@ -1,4 +1,4 @@
----
+﻿---
 title: Bir belgenin PDF'ye dönüştürülmesi Java içinde
 second_title: Aspose.Words için Java
 articleTitle: Bir belgesi PDF'ye dönüştürün
@@ -47,7 +47,7 @@ Nihayetinde aynı tekniği kullanarak herhangi bir akış düzeni biçimli belge
 
 ### Farklı PDF Standartlarına Dönüştür {#converting-to-various-pdf-standards}
 
-Aspose.Words çeşitli PDF biçim standartlarını (örneğin, PDF 1.7, PDF 1.5 vb.) desteklemek için DOC veya DOCX'i dönüştürmek için [PdfCompliace ](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) numaralandırmasını sağlar.
+Aspose.Words çeşitli PDF biçim standartlarını (örneğin, PDF 1.7, PDF 1.5 vb.) desteklemek için DOC veya DOCX'i dönüştürmek için [PdfCompliance ](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) numaralandırmasını sağlar.
 
 Aşağıdaki kod örneği bir belgeyi PDF 1.7 formatına dönüştürmenin nasıl yapılacağını [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/)'i kullanarak PDF17 uyumluluğuna sahip olarak göstermektedir:
 
@@ -81,6 +81,6 @@ Aşağıdaki kod örneği, çıktıyı nasıl optimize edeceğini göstermektedi
 
 ## Ayrıca bakınız
 
-- The article [Rendering](/words/java/rendering/) daha fazla bilgi için sabit-sayfa ve akış düzeni formatları
-- Makale [Converting to Fixed-page Format](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) sayfa düzenine dair daha fazla bilgi için
-- [Specify Rendering Options When Converting to PDF](/words/java/specify-rendering-options-when-converting-to-pdf/) makalesi daha fazla bilgi için, `PdfSaveOptions` sınıfını kullanma
+- The article [Rendering](/words/tr/java/rendering/) daha fazla bilgi için sabit-sayfa ve akış düzeni formatları
+- Makale [Converting to Fixed-page Format](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) sayfa düzenine dair daha fazla bilgi için
+- [Specify Rendering Options When Converting to PDF](/words/tr/java/specify-rendering-options-when-converting-to-pdf/) makalesi daha fazla bilgi için, `PdfSaveOptions` sınıfını kullanma

@@ -4,6 +4,8 @@ second_title: Aspose.Words for Node.js via .NET
 articleTitle: Convert a Document
 linktitle: Convert a Document
 type: docs
+ai_search_scope: words_nodejs
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/convert-a-document/
 weight: 30
 aliases:

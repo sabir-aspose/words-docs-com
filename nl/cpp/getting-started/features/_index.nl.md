@@ -37,7 +37,7 @@ Aspose.Words biedt gebruikers een breed scala aan functies. Gebruikers kunnen ee
 
 ## Beperking
 
-- Ondersteunt beperkte set bestandsindelingen (*see [Supported Document Formats](/words/cpp/supported-document-formats/) for details*)
+- Ondersteunt beperkte set bestandsindelingen (*see [Supported Document Formats](/words/nl/cpp/supported-document-formats/) for details*)
 - Geen ondersteuning voor gecodeerde documenten
 - Geen ondersteuning voor het downloaden van externe bronnen van Internet
 - Beperkte en onstabiele ondersteuning voor Renderfuncties

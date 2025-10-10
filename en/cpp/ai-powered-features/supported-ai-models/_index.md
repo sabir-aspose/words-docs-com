@@ -9,16 +9,30 @@ description: "Aspose.Words for C++ supports OpenAI and Google AI models for summ
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/supported-ai-models/
-timestamp: 2025-03-17-19-00-00
+timestamp: 2025-08-07-08-12-25
 ---
 
-Aspose.Words now leverages advanced AI models to enhance document processing and analysis. With the Aspose.Words.AI namespace, developers can access features that utilize AI for tasks like document summarization and analysis, integrating generative language models from industry leaders.
+Aspose.Words now leverages advanced AI models to enhance document processing and analysis. With the Aspose.Words.AI namespace, developers can access AI-powered features such as document summarization and analysis, document translation, and grammar checking by integrating generative language models from industry leaders.
 
-Aspose.Words library currently supports integration with OpenAI, Google, and Claude models' families. These models bring powerful capabilities for working with documents. By enabling seamless interaction with these AI tools, Aspose.Words simplifies complex tasks and enhances productivity for developers.
+## Supported Model Types
 
-You can create a model instance using the [Create](https://reference.aspose.com/words/cpp/aspose.words.ai/aimodel/create/) method of the [AiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/aimodel/) class. The full list of supported model types is listed in the [AiModelType](https://reference.aspose.com/words/cpp/aspose.words.ai/aimodeltype/) enumeration.
+Aspose.Words library currently supports integration with:
 
-The following code example shows how to create a new instance of **AiModel** class.
+* OpenAI,
+* Google,
+* and Claude models' families.
+
+These models bring powerful capabilities for working with documents. By enabling seamless interaction with these AI tools, Aspose.Words simplifies complex tasks and enhances productivity for developers.
+
+{{% alert color="primary" %}}
+
+The full list of supported model types is listed in the [AiModelType](https://reference.aspose.com/words/cpp/aspose.words.ai/aimodeltype/) enumeration.
+
+{{% /alert %}}
+
+You can create a model instance using the [Create](https://reference.aspose.com/words/cpp/aspose.words.ai/aimodel/create/) method of the [AiModel](https://reference.aspose.com/words/cpp/aspose.words.ai/aimodel/) class.
+
+The following code example shows how to create a new instance of **AiModel** class:
 
 {{< highlight cpp >}}
 static System::SharedPtr<Aspose::Words::AI::AiModel> Aspose::Words::AI::AiModel::Create(Aspose::Words::AI::AiModelType modelType)
@@ -29,3 +43,40 @@ static System::SharedPtr<Aspose::Words::AI::AiModel> Aspose::Words::AI::AiModel:
 For more information, check the [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/) API documentation.
 
 {{% /alert %}}
+
+## Using Self-hosted LLM Implementations
+
+With Aspose.Words, developers can also integrate self-hosted LLMs (Large Language Models), providing an alternative to OpenAI/Anthropic/Google's hosted services.
+
+The following code example shows how to create a self-hosted LLM based on OpenAI's generative language model:
+
+{{< highlight cpp >}}
+void SelfHostedModel()
+{
+    auto doc = MakeObject<Document>(MyDir + u"Big document.docx");
+
+    SharedPtr<AiModel> model = SharedPtr<CustomAiModel>()->WithApiKey(u"API_KEY");
+
+    auto translatedDoc = model->Translate(doc, Language::Russian);
+    translatedDoc->Save(ArtifactsDir + u"AI.SelfHostedModel.docx");
+}
+
+class CustomAiModel : public OpenAiModel
+{
+    /// <summary>
+    /// Gets custom URL of the model.
+    /// </summary>
+    System::String get_Url() override
+    {
+        return u"https://localhost/";
+    }
+
+    /// <summary>
+    /// Gets model name.
+    /// </summary>
+    System::String get_Name() override
+    {
+        return u"my-model-24b";
+    }
+}
+{{< /highlight >}}

@@ -65,5 +65,5 @@ Aspose.Words - це бібліотека класів, призначена дл
 
 ## Дивіться також
 
-* [Aspose.Words Об'єктна модель документа (DOM)](/words/cpp/aspose-words-document-object-model/)
-* [Логічні рівні вузлів у документі](/words/cpp/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Об'єктна модель документа (DOM)](/words/uk/cpp/aspose-words-document-object-model/)
+* [Логічні рівні вузлів у документі](/words/uk/cpp/logical-levels-of-nodes-in-a-document/)

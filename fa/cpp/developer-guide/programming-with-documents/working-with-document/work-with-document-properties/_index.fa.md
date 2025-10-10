@@ -1,4 +1,4 @@
----
+﻿---
 title: کار با ویژگی های سند در C++
 second_title: Aspose.Words برای C++
 articleTitle: کار با ویژگی های سند
@@ -15,7 +15,7 @@ timestamp: 2024-01-31-14-23-37
 * سیستم یا داخلی که شامل مقادیر مانند عنوان سند، نام نویسنده، آمار سند و دیگران است.
 * تعریف شده توسط کاربر یا سفارشی، به عنوان جفت نام و ارزش ارائه شده است که در آن کاربر می تواند نام و ارزش را تعریف کند.
 
-مفید است بدانید که اطلاعات مربوط به API و شماره نسخه به طور مستقیم به اسناد خروجی نوشته شده است. به عنوان مثال، پس از تبدیل یک سند به PDF، Aspose.Words فیلد "Application" را با "Aspose.Words "و فیلد" PDF Producer "را با"Aspose.Words برای C++ YY.M. N "، که در آن *YY.M.N* نسخه Aspose.Words برای تبدیل استفاده می شود. برای جزئیات بیشتر، به [نام ژنراتور یا تولید کننده در اسناد خروجی گنجانده شده است](/words/cpp/generator-or-producer-name-included-in-output-documents/).
+مفید است بدانید که اطلاعات مربوط به API و شماره نسخه به طور مستقیم به اسناد خروجی نوشته شده است. به عنوان مثال، پس از تبدیل یک سند به PDF، Aspose.Words فیلد "Application" را با "Aspose.Words "و فیلد" PDF Producer "را با"Aspose.Words برای C++ YY.M. N "، که در آن *YY.M.N* نسخه Aspose.Words برای تبدیل استفاده می شود. برای جزئیات بیشتر، به [نام ژنراتور یا تولید کننده در اسناد خروجی گنجانده شده است](/words/fa/cpp/generator-or-producer-name-included-in-output-documents/).
 
 {{% alert color="primary" %}}
 

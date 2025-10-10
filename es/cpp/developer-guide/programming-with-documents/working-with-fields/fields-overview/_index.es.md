@@ -1,4 +1,4 @@
----
+﻿---
 title: Descripción general de los campos en C++
 second_title: Aspose.Words para C++
 articleTitle: Descripción General de los Campos
@@ -29,7 +29,7 @@ Un campo consta de:
 
 ![fields-overview-aspose-words-cpp-1](fields-overview-1.png)
 
-El contenido que compone el código de campo se almacena como [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) nodos entre [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) y [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/). El resultado del campo se almacena entre los nodos **FieldSeparator** y [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) y puede estar formado por varios tipos de contenido. Normalmente, el resultado del campo contiene solo texto compuesto por **Run** nodos, sin embargo, es posible que el nodo **FieldEnd** se ubique en un párrafo completamente diferente y, por lo tanto, el resultado del campo esté compuesto por [nodos a nivel de bloque](/words/cpp/logical-levels-of-nodes-in-a-document/) como **Table** y **Paragraph** nodos también.
+El contenido que compone el código de campo se almacena como [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) nodos entre [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) y [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/). El resultado del campo se almacena entre los nodos **FieldSeparator** y [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) y puede estar formado por varios tipos de contenido. Normalmente, el resultado del campo contiene solo texto compuesto por **Run** nodos, sin embargo, es posible que el nodo **FieldEnd** se ubique en un párrafo completamente diferente y, por lo tanto, el resultado del campo esté compuesto por [nodos a nivel de bloque](/words/es/cpp/logical-levels-of-nodes-in-a-document/) como **Table** y **Paragraph** nodos también.
 
 A continuación, se muestra una vista de cómo se almacena un campo en Aspose.Words utilizando el ejemplo " *DocumentExplorer"*.
 
@@ -37,7 +37,7 @@ A continuación, se muestra una vista de cómo se almacena un campo en Aspose.Wo
 
 ## Campos en el Modelo de Objetos de Documento Aspose.Words (DOM)
 
-Cuando se carga un documento en Aspose.Words, los campos del documento se cargan en el [Aspose.Words Modelo de Objetos de Documento](/words/cpp/aspose-words-document-object-model/) como un conjunto de componentes separados (nodos). Un solo campo se carga como una colección de nodos **FieldStart**, **FieldSeparator** y **FieldEnd** junto con el contenido entre estos nodos. Si un campo no tiene un resultado de campo, entonces no habrá un nodo **FieldSeparator**. Todos estos nodos siempre se encuentran en línea (como hijos de [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) o [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
+Cuando se carga un documento en Aspose.Words, los campos del documento se cargan en el [Aspose.Words Modelo de Objetos de Documento](/words/es/cpp/aspose-words-document-object-model/) como un conjunto de componentes separados (nodos). Un solo campo se carga como una colección de nodos **FieldStart**, **FieldSeparator** y **FieldEnd** junto con el contenido entre estos nodos. Si un campo no tiene un resultado de campo, entonces no habrá un nodo **FieldSeparator**. Todos estos nodos siempre se encuentran en línea (como hijos de [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) o [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)).
 
 En Aspose.Words cada uno de los **FieldXXX** nodos deriva de [FieldChar](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_char/). Esta clase proporciona una propiedad para verificar el tipo de campo representado por el nodo especificado a través de la propiedad [FieldType](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldchar/get_fieldtype/). Por ejemplo, **FieldType.FieldMergeField** representa un campo de combinación en el documento.
 

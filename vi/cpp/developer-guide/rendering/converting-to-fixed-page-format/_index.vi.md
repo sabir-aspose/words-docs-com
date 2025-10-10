@@ -1,4 +1,4 @@
----
+﻿---
 title: Chuyển Đổi Sang Định dạng trang Cố định trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Chuyển đổi Sang Định dạng trang Cố định
@@ -28,7 +28,7 @@ Microsoft Word là ứng dụng chỉnh sửa văn bản tiên tiến nhất tro
 
 ## Xem Thêm
 
-* [Bố Cục Trang Là gì](/words/cpp/what-is-a-page-layout/)
-* [Tạo Bố Cục Trang](/words/cpp/creating-a-page-layout/)
-* [Lưu Tài liệu sang Định dạng trang Cố định](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Chỉ Định Tùy Chọn Bố Cục](/words/cpp/specify-layout-options/)
+* [Bố Cục Trang Là gì](/words/vi/cpp/what-is-a-page-layout/)
+* [Tạo Bố Cục Trang](/words/vi/cpp/creating-a-page-layout/)
+* [Lưu Tài liệu sang Định dạng trang Cố định](/words/vi/cpp/saving-a-document-to-fixed-page-format/)
+* [Chỉ Định Tùy Chọn Bố Cục](/words/vi/cpp/specify-layout-options/)

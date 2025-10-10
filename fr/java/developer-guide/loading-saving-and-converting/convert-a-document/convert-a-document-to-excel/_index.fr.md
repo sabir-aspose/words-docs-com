@@ -67,5 +67,5 @@ doc.save(getArtifactsDir() + "BaseConversions.CompressXlsx.xlsx", saveOptions);
 
 ## Voir Aussi
 
-- Section de documentation [Protéger ou chiffrer un document](/words/java/protect-or-encrypt-a-document/) pour plus d'informations sur la protection et le chiffrement d'un document
-- L'article [Trouver et Remplacer](/words/java/find-and-replace/) pour plus d'informations sur la recherche et le remplacement du contenu souhaité
+- Section de documentation [Protéger ou chiffrer un document](/words/fr/java/protect-or-encrypt-a-document/) pour plus d'informations sur la protection et le chiffrement d'un document
+- L'article [Trouver et Remplacer](/words/fr/java/find-and-replace/) pour plus d'informations sur la recherche et le remplacement du contenu souhaité

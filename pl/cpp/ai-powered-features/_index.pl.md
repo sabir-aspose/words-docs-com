@@ -1,4 +1,4 @@
----
+﻿---
 title: AI - funkcje zasilane
 second_title: Aspose.Words dla C++
 articleTitle: AI - funkcje zasilane
@@ -16,7 +16,7 @@ Aspose.Words zawiera teraz funkcje oparte na AI, które mają na celu usprawnien
 
 W tej sekcji omówimy wszystko, co musisz wiedzieć o korzystaniu z obsługiwanych funkcji AI w Aspose.Words. Od praktycznych wskazówek po szczegółowe instrukcje, staramy się pomóc ci w pełni wykorzystać te ulepszenia.
 
-* [Obsługiwane Modele AI ](/words/cpp/supported-ai-models/)
-* [Podsumuj dokument](/words/cpp/summarize-a-document/)
-* [Przetłumacz dokument](/words/cpp/translate-a-document/)
-* [Sprawdzanie Gramatyki](/words/cpp/grammar-checking/)
+* [Obsługiwane Modele AI ](/words/pl/cpp/supported-ai-models/)
+* [Podsumuj dokument](/words/pl/cpp/summarize-a-document/)
+* [Przetłumacz dokument](/words/pl/cpp/translate-a-document/)
+* [Sprawdzanie Gramatyki](/words/pl/cpp/grammar-checking/)

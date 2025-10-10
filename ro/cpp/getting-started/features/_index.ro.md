@@ -1,4 +1,4 @@
----
+﻿---
 title: Caracteristici
 second_title: Aspose.Words pentru C++
 articleTitle: Caracteristici Acceptate
@@ -37,7 +37,7 @@ Aspose.Words oferă utilizatorilor o gamă largă de caracteristici. Utilizatori
 
 ## Limitări
 
-- Suporta set limitat de formate de fișiere (*see [Supported Document Formats](/words/cpp/supported-document-formats/) for details*)
+- Suporta set limitat de formate de fișiere (*see [Supported Document Formats](/words/ro/cpp/supported-document-formats/) for details*)
 - Nu există suport pentru documente criptate
 - Nu există suport pentru descărcarea resurselor la distanță de pe Internet
 - Suport limitat și instabil pentru funcțiile De redare

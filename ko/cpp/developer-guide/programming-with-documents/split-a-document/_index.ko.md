@@ -1,4 +1,4 @@
----
+﻿---
 title: 문서 분할 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 문서 분할
@@ -67,7 +67,7 @@ Aspose.Words 또한 섹션 나누기를 사용하여 문서를 분할하고 다�
 
 {{% alert color="primary" %}}
 
-당신은 어떤 것을 사용할 수 있습니다 [지원되는 출력 형식 Aspose.Words](/words/cpp/supported-document-formats/).
+당신은 어떤 것을 사용할 수 있습니다 [지원되는 출력 형식 Aspose.Words](/words/ko/cpp/supported-document-formats/).
 
 {{% /alert %}}
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Prezentare Generală A Tabelului
 second_title: Aspose.Words pentru Java
 articleTitle: Prezentare Generală A Tabelului
@@ -65,5 +65,5 @@ Aspose.Words are un număr de clase legate de tabele– [Tables](https://referen
 
 ## Vezi Și
 
-* [Aspose.Words Model Obiect Document (DOM)](/words/java/aspose-words-document-object-model/)
-* [Nivelurile logice ale nodurilor dintr-un Document](/words/java/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Model Obiect Document (DOM)](/words/ro/java/aspose-words-document-object-model/)
+* [Nivelurile logice ale nodurilor dintr-un Document](/words/ro/java/logical-levels-of-nodes-in-a-document/)

@@ -1,4 +1,4 @@
----
+﻿---
 title: Ausstattung
 second_title: Aspose.Words für C++
 articleTitle: Unterstützte Funktionen
@@ -37,7 +37,7 @@ Aspose.Words bietet Benutzern eine Vielzahl von Funktionen. Benutzer können ein
 
 ## Nkungen
 
-- Unterstützt eine begrenzte Anzahl von Dateiformaten (*see [Supported Document Formats](/words/cpp/supported-document-formats/) for details*)
+- Unterstützt eine begrenzte Anzahl von Dateiformaten (*see [Supported Document Formats](/words/de/cpp/supported-document-formats/) for details*)
 - Keine Unterstützung für verschlüsselte Dokumente
 - Keine Unterstützung für das Herunterladen von Remote-Ressourcen aus dem Internet
 - Eingeschränkte und instabile Unterstützung für Rendering-Funktionen

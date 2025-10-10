@@ -1,4 +1,4 @@
----
+﻿---
 title: فرمت فایل ها و تبدیل ها
 second_title: Aspose.Words برای C++
 articleTitle: چرا تبدیل ویژگی پرچمدار Aspose.Words است ؟
@@ -29,7 +29,7 @@ timestamp: 2024-09-24-14-35-44
 
 {{< gist "aspose-words-gists" "b9784b73e288805e08fba6e3fc5ae2af" "docx-to-pdf.h" >}}
 
-برای جزئیات بیشتر در مورد بارگذاری، تبدیل و ذخیره اسناد، به [بارگیری، ذخیره و تبدیل](/words/cpp/loading-saving-and-converting/) بخش.
+برای جزئیات بیشتر در مورد بارگذاری، تبدیل و ذخیره اسناد، به [بارگیری، ذخیره و تبدیل](/words/fa/cpp/loading-saving-and-converting/) بخش.
 
 ## وفاداری بالا
 

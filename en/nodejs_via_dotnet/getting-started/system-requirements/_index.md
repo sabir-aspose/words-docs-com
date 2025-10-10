@@ -5,7 +5,9 @@ articleTitle: System Requirements
 linktitle: System Requirements
 description: "Before you start working with Aspose.Words for Node.js via .NET, ensure that you meet the operating system, platform and environment requirements so the activities on your devices are properly accounted for."
 type: docs
-weight: 50
+weight: 5
+ai_search_scope: words_nodejs
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/system-requirements/
 aliases: [/nodejs/system-requirements/]
 timestamp: 2025-04-18-18-03-32

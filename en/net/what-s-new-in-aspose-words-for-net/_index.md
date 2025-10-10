@@ -9,16 +9,55 @@ weight: 10
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/what-s-new-in-aspose-words-for-net/
-timestamp: 2025-06-23-21-02-49
+timestamp: 2025-09-10-11-12-25
 ---
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for .NET 25.5, 25.6
+## Aspose.Words for .NET 25.9
+
+Aspose.Words 25.9 enhances document loading reliability, expands shape and text formatting, improves Markdown export with math support, and strengthens font handling diagnostics.
+
+### Converting, Loading, and Saving Documents
+
+#### Control How Corrupted Documents Are Opened <sup>25.9</sup>
+
+The ability to control how corrupted documents are opened has been introduced by adding a new [RecoveryMode](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/recoverymode/) option.
+
+#### Export Mathematical Equations to LaTeX Expression <sup>25.9</sup>
+
+The ability to export mathematical [equations](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/officemathexportmode/) (Office Math) to LaTeX expressions has been introduced.
+
+### Rendering
+
+#### Fine-tune Shadow Effects <sup>25.9</sup>
+
+The ability to fine-tune [shadow effects](https://reference.aspose.com/words/net/aspose.words.drawing/shadowformat/) has been enhanced by introducing new public properties.
+
+#### Improve Diagnostics for Font Substitution <sup>25.9</sup>
+The ability to improve diagnostics and error handling for [font substitution](https://reference.aspose.com/words/net/aspose.words/fontsubstitutionwarninginfo/) has been implemented by adding typed warnings.
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for .NET 25.9 Release Notes](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-9-release-notes/).
+
+{{% /alert %}}
+
+## Aspose.Words for .NET 25.5, 25.6, 25.7, 25.8
 
 Aspose.Words 25.5 enhances chart customization with new styling options and improves Markdown export by offering control over how empty paragraphs are handled.
 
 Aspose.Words 25.6 enhances rendering precision and visualization features by introducing advanced image export options, improved MathML handling, and better chart representation.
+
+Aspose.Words 25.7 introduces AI enhancements with support for self-hosted LLMs, more precise control during text replacement, flexible table row visibility, and richer typography with OpenType Font Variations.
+
+Aspose.Words 25.8 expands capabilities for Markdown import/export, enhances Find and Replace with an option to ignore Office Math objects, introduces print job page tracking, and provides greater control over page extraction.
+
+### AI-powered Features
+
+#### Integrating a Self-Hosted LLM <sup>25.7</sup>
+
+The ability to integrate and use self-hosted LLM (Large Language Model) has been introduced, providing greater privacy and control over AI-powered document features.
 
 ### Converting, Loading, and Saving Documents
 
@@ -29,6 +68,14 @@ The ability to control how empty paragraphs are exported to Markdown has been in
 #### Export Multi-page Documents to Raster Image Formats <sup>25.6</sup>
 
 The ability to export multi-page documents to raster image formats (such as PNG and JPEG) with [customizable layouts](https://reference.aspose.com/words/net/aspose.words.saving/multipagelayout/) – Horizontal, Vertical, or Grid – has been introduced by extending image export functionality.
+
+#### Export Non-compatible Tables to Raw HTML <sup>25.8</sup>
+
+The ability to control how non-compatible tables are rendered when exporting to raw HTML has been introduced by adding the new [MarkdownExportAsHtml](https://reference.aspose.com/words/net/aspose.words.saving/markdownexportashtml/) enumeration.
+
+#### Specify Character for Soft Line Breaks When Importing to Markdown <sup>25.8</sup>
+
+The ability to specify a character for soft line breaks when importing to Markdown has been introduced by adding the new [SoftLineBreakCharacter](https://reference.aspose.com/words/net/aspose.words.loading/markdownloadoptions/softlinebreakcharacter/) property.
 
 ### Rendering
 
@@ -44,15 +91,29 @@ The rendering of connector lines in MathML expressions has been implemented to e
 
 The rendering of legends for ["Waterfall" charts](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseriestype/) has been introduced, increasing data transparency and improving the interpretability of these charts.
 
+#### Support for OpenType Font Variations <sup>25.7</sup>
+
+Initial support for OpenType Font Variations has been implemented, allowing for more flexible and expressive typographic rendering.
+
 ### Other
 
 * The ability to wrap mathematical formulas containing multiple slashes has been enhanced, improving layout clarity and formula legibility. <sup>25.6</sup>
+* A new [ReplacingArgs.MatchEndNode](https://reference.aspose.com/words/net/aspose.words.replacing/replacingargs/matchendnode/) property has been added to enable more precise control during text replacement operations across document content. <sup>25.7</sup>
+* The ability to programmatically show or hide specific table rows has been introduced by adding the [Row.Hidden](https://reference.aspose.com/words/net/aspose.words.tables/row/hidden/) property. <sup>25.7</sup>
+* A new [IgnoreOfficeMath](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignoreofficemath/) property has been added to ignore Office Math objects when searching and replacing. <sup>25.8</sup>
+* A new [PagesRemaining](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/pagesremaining/) property has been added to check the number of pages remaining in a print job. <sup>25.8</sup>
+* New options have been added to the [PageExtractOptions](https://reference.aspose.com/words/net/aspose.words/pageextractoptions/) class to provide more control over the page extraction process. <sup>25.8</sup>
+
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for .NET 25.5 Release Notes](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-5-release-notes/).
 
 Learn more about [Aspose.Words for .NET 25.6 Release Notes](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-6-release-notes/).
+
+Learn more about [Aspose.Words for .NET 25.7 Release Notes](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-7-release-notes/).
+
+Learn more about [Aspose.Words for .NET 25.8 Release Notes](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-25-8-release-notes/).
 
 {{% /alert %}}
 
@@ -70,7 +131,7 @@ Aspose.Words 25.4 introduces support for new paper sizes, enables advanced HTML 
 
 #### Document AI Grammar Checking
 
-* The ability to check the grammar of the provided document using OpenAI generative models has been introduced by adding a new [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/checkgrammar/) method. <sup>25.1</sup>
+* The ability to check the grammar of the provided document using OpenAI generative models has been introduced by adding a new [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/aimodel/checkgrammar/) method. <sup>25.1</sup>
 * The AI-powered Grammar Checking feature has been updated to support all models available in the [AiModelType](https://reference.aspose.com/words/net/aspose.words.ai/aimodeltype/) enumeration. <sup>25.3</sup>
 
 #### Summarization Using Anthropic Generative Language Models <sup>25.2</sup>
@@ -153,7 +214,7 @@ Support for document summarization using **OpenAI** and **Google** generative la
 
 #### Text translation using Google's generative language models <sup>24.12</sup>
 
-The ability to translate text using Google's generative language models has been implemented in Aspose.Words by adding the [Translate](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/translate/) method and the [Language](https://reference.aspose.com/words/net/aspose.words.ai/language/) enumeration to the [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) namespace.
+The ability to translate text using Google's generative language models has been implemented in Aspose.Words by adding the [Translate](https://reference.aspose.com/words/net/aspose.words.ai/aimodel/translate/) method and the [Language](https://reference.aspose.com/words/net/aspose.words.ai/language/) enumeration to the [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) namespace.
 
 ### Low Code <sup>24.12</sup>
 
@@ -410,83 +471,6 @@ Learn more about [Aspose.Words for .NET 24.2 Release Notes](https://releases.asp
 Learn more about [Aspose.Words for .NET 24.3 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-3-release-notes/).
 
 Learn more about [Aspose.Words for .NET 24.4 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words for .NET 23.9, 23.10, 23.11, 23.12
-
-Aspose.Words 23.9 expands rendering options, metafile rendering emulation, and markdown save options.
-
-Aspose.Words 23.10 improves rendering, expands options for loading and saving documents, and allows users to merge documents in new ways.
-
-Aspose.Words 23.11 enhances the work with revisions, XLSX format and fonts on chart legend with additional options.
-
-Aspose.Words 23.12 introduces new properties and enumerations for working with PDF and OOXML documents, as well as support for WebP images.
-
-### Rendering and Printing
-
-#### Customizing Axes Titles in DrawingML Charts <sup>23.9</sup>
-
-The capability to customize axis titles in DrawingML charts has been introduced by the implementation of a new public class [ChartAxisTitle](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxistitle/) and [Title](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/title/) property.
-
-#### Determining the Vertical Position of Fonts within a Paragraph <sup>23.9</sup>
-
-It is now possible to define the vertical position of fonts within a paragraph using the new public [BaselineAlignment](https://reference.aspose.com/words/net/aspose.words/paragraphformat/baselinealignment/) property and the new [BaselineAlignment](https://reference.aspose.com/words/net/aspose.words/baselinealignment/) enumeration.
-
-#### Foreground Color Control <sup>23.10</sup>
-
-The ability to retrieve the foreground color without modifiers has been added to the [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) and [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) classes via the **BaseForeColor** property.
-
-#### Expanding the Functionality of Charts <sup>23.10</sup>
-
-The functionality of the [ChartDataPointCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapointcollection/), [ChartSeries](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseries/), and [ChartFormat](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartformat/) classes has been expanded with new methods and properties.
-
-#### Automatically Adjust and Fit an Image into a Shape <sup>23.10</sup>
-
-A simple way to automatically adjust and fit an image within a particular shape has been provided through the new [FitImageToShape](https://reference.aspose.com/words/net/aspose.words.drawing/imagedata/fitimagetoshape/) method.
-
-#### Default Font Formatting for DrawingML Chart Legend Entries <sup>23.11</sup>
-
-The ability to specify default font formatting for legend entries of DrawingML charts has been added via the [Font](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartlegend/font/) property. This feature facilitates a more streamlined and consistent appearance for chart elements, improving the overall document aesthetics.
-
-#### Specify Page Layout when Opening PDF in Reader <sup>23.12</sup>
-
-The ability to specify the page layout to be used when opening a document in a PDF reader has been added through the introduction of a new [PageLayout](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/pagelayout/) property to the [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) class and the introduction of a new [PdfPageLayout](https://reference.aspose.com/words/net/aspose.words.saving/pdfpagelayout/) enumeration.
-
-### Loading and Saving Documents
-
-#### Specifying a Folder Name to Construct Image URIs in Markdown <sup>23.9</sup>
-
-The [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) class has been expanded by including the [ImagesFolderAlias](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imagesfolderalias/) property, which allows to specifies the name of the folder used to construct image URIs written into the Markdown document.
-
-#### Reduce PDF Output Size <sup>23.10</sup>
-
-Various PDF rendering optimizations to reduce output size when utilizing [OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) settings have been implemented.
-
-#### Recognize Hyperlinks when Loading TXT Documents <sup>23.10</sup>
-
-The feature to recognize hyperlinks when loading TXT documents has been implemented by adding a new [DetectHyperlinks](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/detecthyperlinks/) property.
-
-### Other
-
-* Metafile rendering emulation to determine rasterization size has been implemented, specifically for WMF pen width and EMF cosmetic pen width. To achieve this, the **ScaleWmfFontsToMetafileSize** property was replaced with the [EmulateRenderingToSizeOnPage](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/) property and the [EmulateRenderingToSizeOnPageResolution](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/) property was added. <sup>23.9</sup>
-* A simplified method for inserting one document into another document at the current cursor position has been introduced using the [InsertDocumentInline](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertdocumentinline/) method. <sup>23.10</sup>
-* The ability to access and modify style properties has been added through the introduction of the new [Locked](https://reference.aspose.com/words/net/aspose.words/style/locked/) property.  <sup>23.10</sup>
-* A generic type parameter has been added to the methods of the [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/) class. <sup>23.10</sup>
-* A way to control when a certain revision should be accepted/rejected or not has been implemented by using the [Accept](https://reference.aspose.com/words/net/aspose.words/revisioncollection/accept/) and [Reject](https://reference.aspose.com/words/net/aspose.words/revisioncollection/reject/) methods. This enhancement grants users finer control over the revision process. <sup>23.11</sup>
-* The ability to write all sections of a document onto the same XLSX worksheet has been provided through the new [XlsxSectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsectionmode/) enumeration type and the new [SectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/sectionmode/) property. <sup>23.11</sup>
-* A way to control how ZIP64 format extensions will be used for OOXML documents has been implemented through the new Zip64Mode property of the `OoxmlSaveOptions` class and the new Zip64Mode enumeration. <sup>23.12</sup>
-* Support for WebP image has been introduced. Please note that this feature is only available for .NetStandart and .NET6+ versions. <sup>23.12</sup>
-
-{{% alert color="primary" %}}
-
-Learn more about [Aspose.Words for .NET 23.9 Release Notes](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-9-release-notes/).
-
-Learn more about [Aspose.Words for .NET 23.10 Release Notes](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-10-release-notes/).
-
-Learn more about [Aspose.Words for .NET 23.11 Release Notes](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-11-release-notes/).
-
-Learn more about [Aspose.Words for .NET 23.12 Release Notes](https://releases.aspose.com/words/net/release-notes/2023/aspose-words-for-net-23-12-release-notes/).
 
 {{% /alert %}}
 

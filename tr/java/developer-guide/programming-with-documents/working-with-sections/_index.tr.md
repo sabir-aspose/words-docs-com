@@ -1,4 +1,4 @@
----
+﻿---
 title: Bölümlerle Çalışmak İçin Java ile Birlikte
 second_title: Aspose.Words için Java
 articleTitle: Bölümlerle Çalışma
@@ -38,7 +38,7 @@ YeniSütun, YeniSayfa, EşittirSayfa ve ZıtSayfa gibi yalnızca ilk bölüm iç
 
 ## Bir Bölümü Yönet
 
-Çünkü bölüm bir normal bileşik düğüm, tüm düğüm manipülasyonu API bölümlerin manipüle edilmesi için kullanılabilir: ekleme, kaldırma ve diğer bölümler üzerindeki işlemler. Düğümler hakkında daha fazla bilgi için makaleyi [Aspose.Words Document Object Model (DOM)](/words/java/aspose-words-document-object-model/) okuyabilirsiniz.
+Çünkü bölüm bir normal bileşik düğüm, tüm düğüm manipülasyonu API bölümlerin manipüle edilmesi için kullanılabilir: ekleme, kaldırma ve diğer bölümler üzerindeki işlemler. Düğümler hakkında daha fazla bilgi için makaleyi [Aspose.Words Document Object Model (DOM)](/words/tr/java/aspose-words-document-object-model/) okuyabilirsiniz.
 
 Öte yandan, bölümlere çalışmak için de `DocumentBuilder` API kullanabilirsiniz. Bu makaledeki odak nokta bu özel bölüm çalışma şekli olacaktır.
 
@@ -154,5 +154,5 @@ Aşağıdaki kod örneğinde tüm bölümlerde sayfa özelliklerini nasıl deği
 
 ## Ayrıca bakınız
 
-- [Logical Levels of Nodes in a Document](/words/java/logical-levels-of-nodes-in-a-document/)
-- [Insert and Append Documents](/words/java/insert-and-append-documents/)
+- [Logical Levels of Nodes in a Document](/words/tr/java/logical-levels-of-nodes-in-a-document/)
+- [Insert and Append Documents](/words/tr/java/insert-and-append-documents/)

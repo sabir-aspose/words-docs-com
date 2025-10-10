@@ -1,4 +1,4 @@
----
+﻿---
 title: 바코드 생성법
 second_title: Aspose.Words를 위한 .NET
 articleTitle: 사용자 정의 바코드 이미지 생성하기
@@ -55,7 +55,7 @@ Aspose.Words은 사용자 지정 바코드를 생성하기 위한 인터페이�
 
 {{% alert color="primary" %}}
 
-한 형식에서 다른 형식으로 변환하는 문서에 대한 자세한 내용은 [Convert a Document](/words/net/convert-a-document/) 설명서를 참조하세요.
+한 형식에서 다른 형식으로 변환하는 문서에 대한 자세한 내용은 [Convert a Document](/words/ko/net/convert-a-document/) 설명서를 참조하세요.
 
 {{% /alert %}}
 

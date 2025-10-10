@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words pentru .NET prin COM Interop
 second_title: Aspose.Words pentru .NET
 articleTitle: Cum să utilizați Aspose.Words pentru .NET prin COM Interop
@@ -32,11 +32,11 @@ Iată subiectele pe care va trebui să le stăpâniți în cele din urmă:
 
 - Utilizarea a COM obiecte în limbajul tău de programare. Vezi documentația limbajului tău de programare și subiectele specifice limbajului din această documentație.
 Lucrul cu COM obiecte expuse de .NET COM Interop. Vedeți [Interoperating With Unmanaged Code](https://learn.microsoft.com/en-us/dotnet/framework/interop/) și [Exposing .NET Framework Components to COM](https://learn.microsoft.com/en-us/dotnet/framework/interop/exposing-dotnet-components-to-com) în MSDN.
-- Aspose.Words modelul de obiect al documentului. Vedeți la Aspose.Words, [Developer Guide](/words/net/developer-guide/) și [API Reference](https://reference.aspose.com/words/net/).
+- Aspose.Words modelul de obiect al documentului. Vedeți la Aspose.Words, [Developer Guide](/words/ro/net/developer-guide/) și [API Reference](https://reference.aspose.com/words/net/).
 
 ## Înregistrați Aspose.Words pentru .NET cu COM Interop
 
-După [installation Aspose.Words for .NET](/words/net/installation/), aveți nevoie să înregistrați Aspose.Words pentru COM Interop folosind utilitarul `regasm.exe`.
+După [installation Aspose.Words for .NET](/words/ro/net/installation/), aveți nevoie să înregistrați Aspose.Words pentru COM Interop folosind utilitarul `regasm.exe`.
 
 `regasm.exe` este un instrument inclus în .NET Framework SDK. Toate instrumentele .NET Framework SDK sunt situate în `%windir%\Microsoft .NET\Framework\<FrameworkVersion>\` director, de exemplu *C:\Windows\Microsoft. NET\Framework\v4.0.30319*.
 

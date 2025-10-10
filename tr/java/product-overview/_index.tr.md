@@ -1,4 +1,4 @@
----
+﻿---
 title: Ürün Genel Bakış
 second_title: Aspose.Words için Java
 articleTitle: Ürün Genel Bakış
@@ -18,7 +18,7 @@ Aspose.Words çapraz platform sınıf kitaplığıdır, uygulamanızın belgeler
 
 Aspose.Words kullanarak, üçüncü taraf uygulamalara, örneğin Microsoft Word veya Office Automation'ye güvenmeden belgeleri oluşturabilir, değiştirebilir, dönüştürebilir, görüntüleyebilir ve yazdırılabilir.
 
-Dikkate alınması gereken bir nokta, herhangi bir desteklenen yükleme formatından herhangi bir desteklenen kaydetme formatına bir belgeyi dönüştürebileceğinizdir, örneğin," Microsoft Word "formatları PDF'ye, HTML'e veya" Markdown, "HTML'i DOCX'e ve benzeri. Daha fazla belgeyi dönüştürme hakkında [Convert a Document](/words/java/convert-a-document/) bölümünde oku.
+Dikkate alınması gereken bir nokta, herhangi bir desteklenen yükleme formatından herhangi bir desteklenen kaydetme formatına bir belgeyi dönüştürebileceğinizdir, örneğin," Microsoft Word "formatları PDF'ye, HTML'e veya" Markdown, "HTML'i DOCX'e ve benzeri. Daha fazla belgeyi dönüştürme hakkında [Convert a Document](/words/tr/java/convert-a-document/) bölümünde oku.
 
 Kütüphanemizdeki başka bir popüler seçenek, *Raporlar ve E-postalar*'dır. Kullanıcılarımız yüksek derecede karmaşık bireysel olarak uyarlanmış finansal, tıbbi ve diğer *Reports*'ları oluşturur. Böylece oluşturulan belge el ile bir düzenli metin düzenleyicisi kullanarak rapor oluşturursanız tıpkısı gibi görünecektir. Başka bir seçenek, *Mail* bize binlerce ve milyonlarca basit ama hala kişisel şablon tabanlı belge üretme yeteneği sağlar.
 
@@ -46,21 +46,21 @@ Aspose.Words özellik Java için dört ana alanlara ayrılabilir.
 
 Belgeleri kolayca ve güvenilir bir şekilde dönüştürebilme yeteneği Aspose.Words'ın başlıca özelliklerinden biridir.
 
-[document import and export](/words/java/loading-saving-and-converting/) kapsamlı [over 35 supported file formats](/words/java/supported-document-formats/) kullanıcıların belgeleri [one popular format](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) 'den [another](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) 'ye dönüştürmelerine izin verir, örneğin, DOCX'den PDF'ye, JPEG'e veya Markdown'e.
+[document import and export](/words/tr/java/loading-saving-and-converting/) kapsamlı [over 35 supported file formats](/words/tr/java/supported-document-formats/) kullanıcıların belgeleri [one popular format](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) 'den [another](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) 'ye dönüştürmelerine izin verir, örneğin, DOCX'den PDF'ye, JPEG'e veya Markdown'e.
 
 #### Document Object Model (DOM)
 
-Tüm belge öğelerine ve biçimlendirmeye zengin API aracılığıyla programlı erişim, içeriği oluşturmayı, değiştirmeyi, ayıklamayı, kopyalamayı, bölmeyi, birleştirme ve değiştirerek belge içeriğini oluşturmanızı sağlar. Daha fazlasını şu [Aspose.Words Document Object Model (DOM)](/words/java/aspose-words-document-object-model/) bölümünde öğrenin.
+Tüm belge öğelerine ve biçimlendirmeye zengin API aracılığıyla programlı erişim, içeriği oluşturmayı, değiştirmeyi, ayıklamayı, kopyalamayı, bölmeyi, birleştirme ve değiştirerek belge içeriğini oluşturmanızı sağlar. Daha fazlasını şu [Aspose.Words Document Object Model (DOM)](/words/tr/java/aspose-words-document-object-model/) bölümünde öğrenin.
 
 #### Rندرleme
 
-Biz belgeyi dosya biçimine ya da bir ortama dönüştürme sürecini tanımlamak için [Rendering in Aspose.Words](/words/java/rendering/) terimini kullanıyoruz. Bu sayfalandırılmış ya da sayfaların kavramına sahip bir ortam olabilir.
+Biz belgeyi dosya biçimine ya da bir ortama dönüştürme sürecini tanımlamak için [Rendering in Aspose.Words](/words/tr/java/rendering/) terimini kullanıyoruz. Bu sayfalandırılmış ya da sayfaların kavramına sahip bir ortam olabilir.
 
 Tüm belgeleri veya belirli sayfaları PDF'ye dönüştürebilir veya XPS'i sunucu tarafı belgelerini oluşturmak, yazdırmak veya sayfalar oluşturmak için kullanabilirsiniz. Ve bütün bunlar yüksek sadeliği ile - tam olarak Microsoft Word'ın onu yapacağı gibi.
 
 #### Raporlama
 
-Başlangıçtan belgeleri veya raporları oluşturun veya veri kaynaklarından veya iş nesnelerinden şablonları doldurarak doldurun. Veritabanından veri almanın ve raporlamanın daha fazla bilgisi için [Mail Merge and Reporting](/words/java/mail-merge-and-reporting/) ve [LINQ Reporting Engine](/words/java/linq-reporting-engine/) bölümleri bölümüne bakın.
+Başlangıçtan belgeleri veya raporları oluşturun veya veri kaynaklarından veya iş nesnelerinden şablonları doldurarak doldurun. Veritabanından veri almanın ve raporlamanın daha fazla bilgisi için [Mail Merge and Reporting](/words/tr/java/mail-merge-and-reporting/) ve [LINQ Reporting Engine](/words/java/linq-reporting-engine/) bölümleri bölümüne bakın.
 
 ### Platform Bağımsızlığı
 
@@ -104,8 +104,8 @@ Aspose.Words tek bir iş parçacığının aynı anda bir belge üzerinde çalı
 
 ## Fiyatlandırma ve Politikalar
 
-Lütfen lisanslar hakkında bilgi içeren [Licensing](/words/java/licensing/) sayfasını ziyaret edin ve fiyatlandırma hakkında ayrıntılı bilgi içeren [Pricing Information](https://purchase.aspose.com/pricing/words/family/) sayfasını inceleyin.
+Lütfen lisanslar hakkında bilgi içeren [Licensing](/words/tr/java/licensing/) sayfasını ziyaret edin ve fiyatlandırma hakkında ayrıntılı bilgi içeren [Pricing Information](https://purchase.aspose.com/pricing/words/family/) sayfasını inceleyin.
 
 ## Teknik Destek
 
-Daha fazla bilgi için Aspose.Words teknik destek, lütfen [Support page](/words/java/technical-support/) bakın.
+Daha fazla bilgi için Aspose.Words teknik destek, lütfen [Support page](/words/tr/java/technical-support/) bakın.

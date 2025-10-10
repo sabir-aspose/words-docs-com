@@ -1,4 +1,4 @@
----
+﻿---
 title: Lucrul cu secțiuni în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrul cu secțiuni
@@ -38,7 +38,7 @@ De asemenea, puteți utiliza enumerarea [SectionStart](https://reference.aspose.
 
 ## Gestionarea unei secțiuni
 
-Deoarece o secțiune este un nod compus normal, întreaga manipulare a nodului API poate fi utilizată pentru a manipula secțiuni: pentru a adăuga, elimina și alte operații pe secțiuni. Puteți citi mai multe despre noduri în articol [Aspose.Words Model Obiect Document (DOM)](/words/cpp/aspose-words-document-object-model/).
+Deoarece o secțiune este un nod compus normal, întreaga manipulare a nodului API poate fi utilizată pentru a manipula secțiuni: pentru a adăuga, elimina și alte operații pe secțiuni. Puteți citi mai multe despre noduri în articol [Aspose.Words Model Obiect Document (DOM)](/words/ro/cpp/aspose-words-document-object-model/).
 
 Pe de altă parte, puteți utiliza și `DocumentBuilder` API pentru a lucra cu secțiuni. În acest articol, ne vom concentra asupra acestui mod special de a lucra cu secțiuni.
 
@@ -154,5 +154,5 @@ Următorul exemplu de cod arată cum să modificați proprietățile paginii în
 
 ## Vezi Și
 
-- [Nivelurile logice ale nodurilor dintr-un Document](/words/cpp/logical-levels-of-nodes-in-a-document/)
-- [Inserați și adăugați documente](/words/cpp/insert-and-append-documents/)
+- [Nivelurile logice ale nodurilor dintr-un Document](/words/ro/cpp/logical-levels-of-nodes-in-a-document/)
+- [Inserați și adăugați documente](/words/ro/cpp/insert-and-append-documents/)

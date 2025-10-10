@@ -1,4 +1,4 @@
----
+﻿---
 title: AI-các Tính năng được hỗ trợ
 second_title: Aspose.Words cho C++
 articleTitle: AI-các Tính năng được hỗ trợ
@@ -16,7 +16,7 @@ Aspose.Words bây giờ bao gồm các tính năng AI-powered được thiết k
 
 Trong phần này, chúng tôi sẽ đề cập đến mọi thứ bạn cần biết về việc sử dụng các tính năng AI được hỗ trợ trong Aspose.Words. Từ các mẹo thực tế đến hướng dẫn chi tiết, chúng tôi mong muốn giúp bạn tận dụng tối đa những cải tiến này.
 
-* [Mô Hình AI Được Hỗ Trợ](/words/cpp/supported-ai-models/)
-* [Tóm tắt Một Tài liệu](/words/cpp/summarize-a-document/)
-* [Dịch Một Tài liệu](/words/cpp/translate-a-document/)
-* [Kiểm Tra Ngữ Pháp](/words/cpp/grammar-checking/)
+* [Mô Hình AI Được Hỗ Trợ](/words/vi/cpp/supported-ai-models/)
+* [Tóm tắt Một Tài liệu](/words/vi/cpp/summarize-a-document/)
+* [Dịch Một Tài liệu](/words/vi/cpp/translate-a-document/)
+* [Kiểm Tra Ngữ Pháp](/words/vi/cpp/grammar-checking/)

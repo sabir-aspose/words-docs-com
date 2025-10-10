@@ -1,4 +1,4 @@
----
+﻿---
 title: Hoe Om Voorbeelde Uit Te voer
 second_title: Aspose.Words vir C++
 articleTitle: Hoe Om Voorbeelde Uit Te voer
@@ -36,7 +36,7 @@ Nadat jy'n afskrif van die bewaarplek gekry het, kan jy vind dat:
 
 Om die voorbeelde uit te voer, maak die oplossing lêer in Visual Studio en bou die projek:
 
-- Vir **API Reference** voorbeelde, is die struktuur gebaseer op klas name, vir **Docs** voorbeelde is dit meestal gebaseer op die [Ontwikkelaar Guiled](/words/cpp/developer-guide/) dokumentasie afdeling.
+- Vir **API Reference** voorbeelde, is die struktuur gebaseer op klas name, vir **Docs** voorbeelde is dit meestal gebaseer op die [Ontwikkelaar Guiled](/words/af/cpp/developer-guide/) dokumentasie afdeling.
 - Op die eerste run, sal die afhanklikhede outomaties afgelaai word via NuGet.
 - Die **Data** gids by die wortel gids van **Examples** bevat insette lêers wat gebruik is in die voorbeelde.
 - Alle voorbeelde kan as eenheidstoetse uitgevoer word.
@@ -68,7 +68,7 @@ Die oplossing vir Visual Studio sal gegenereer word in die `Examples\DocsExample
 
 Om die voorbeelde uit te voer, maak die oplossing lêer in Visual Studio en bou die projek:
 
-- Vir **API Reference** voorbeelde, is die struktuur gebaseer op klas name, vir **Docs** voorbeelde is dit meestal gebaseer op die [Ontwikkelaar Guiled](/words/cpp/developer-guide/) dokumentasie afdeling.
+- Vir **API Reference** voorbeelde, is die struktuur gebaseer op klas name, vir **Docs** voorbeelde is dit meestal gebaseer op die [Ontwikkelaar Guiled](/words/af/cpp/developer-guide/) dokumentasie afdeling.
 - Die **Data** gids by die wortel gids van **Examples** bevat insette lêers wat gebruik is in die voorbeelde.
 - Alle voorbeelde kan as eenheidstoetse uitgevoer word.
 
@@ -99,7 +99,7 @@ cmake --build Examples/DocsExamples/build
 cmake -E chdir Examples/DocsExamples/build ctest --verbose
 {{< /highlight >}}
 
-- Vir **API Reference** voorbeelde, is die struktuur gebaseer op klas name, vir **Docs** voorbeelde is dit meestal gebaseer op die [Ontwikkelaar Guiled](/words/cpp/developer-guide/) dokumentasie afdeling.
+- Vir **API Reference** voorbeelde, is die struktuur gebaseer op klas name, vir **Docs** voorbeelde is dit meestal gebaseer op die [Ontwikkelaar Guiled](/words/af/cpp/developer-guide/) dokumentasie afdeling.
 - Die **Data** gids by die wortel gids van **Examples** bevat insette lêers wat gebruik is in die voorbeelde.
 - Alle voorbeelde kan as eenheidstoetse uitgevoer word.
 

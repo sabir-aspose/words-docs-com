@@ -10,7 +10,7 @@ url: /zh/java/supported-features-on-document-save/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words允许用户使用各种格式的文档，并为此提供了广泛的功能。 例如，用户可以从头开始创建文档或加载它，进行一些更改，然后将这些更改保存在输出文件中的任何 [支持的导出格式](/words/java/supported-document-formats/). 在以所选格式保存文档的同时，用户可以应用各种保存选项。
+Aspose.Words允许用户使用各种格式的文档，并为此提供了广泛的功能。 例如，用户可以从头开始创建文档或加载它，进行一些更改，然后将这些更改保存在输出文件中的任何 [支持的导出格式](/words/zh/java/supported-document-formats/). 在以所选格式保存文档的同时，用户可以应用各种保存选项。
 
 {{% alert color="primary" %}}
 
@@ -21,7 +21,7 @@ Aspose.Words允许用户使用各种格式的文档，并为此提供了广泛�
 有关函数的完整列表，请参阅API reference:
 
 - [保存所有格式的选项](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/)
-- [固定页面保存选项](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/)为 [固定页面格式](/words/java/converting-to-fixed-page-format/)：PDF，XPS，图像和其他
+- [固定页面保存选项](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/)为 [固定页面格式](/words/zh/java/converting-to-fixed-page-format/)：PDF，XPS，图像和其他
 - [PDF保存选项](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/)为PDF格式
 - [OOXML保存选项](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/)为DOCX, DOCM, DOTX, DOTM, 或FlatOpc格式
 - [DOC保存选项](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/)用于DOC和DOT格式

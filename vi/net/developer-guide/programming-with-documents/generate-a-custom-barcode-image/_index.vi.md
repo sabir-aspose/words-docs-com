@@ -1,4 +1,4 @@
----
+﻿---
 title: Làm sao để Tạo mã vạch
 second_title: Aspose.Words cho .NET
 articleTitle: Tạo mã Barcode tùy chỉnh
@@ -55,7 +55,7 @@ Bạn cũng có thể lưu tài liệu với mã vạch đã tải hoặc mới 
 
 {{% alert color="primary" %}}
 
-Để biết thêm thông tin về việc chuyển đổi tài liệu từ một định dạng sang một định dạng khác, hãy xem phần tài liệu [Convert a Document](/words/net/convert-a-document/).
+Để biết thêm thông tin về việc chuyển đổi tài liệu từ một định dạng sang một định dạng khác, hãy xem phần tài liệu [Convert a Document](/words/vi/net/convert-a-document/).
 
 {{% /alert %}}
 

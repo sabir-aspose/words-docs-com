@@ -27,7 +27,7 @@ timestamp: 2024-01-31-14-23-37
 
 {{% alert color="primary" %}}
 
-Существуют нюансы перевода Markdown в объектную модель документа Aspose.Words (DOM), описанные в статье [Перевести Markdown в объектную модель документа (DOM)](/words/python-net/translate-markdown-to-document-object-model/).
+Существуют нюансы перевода Markdown в объектную модель документа Aspose.Words (DOM), описанные в статье [Перевести Markdown в объектную модель документа (DOM)](/words/ru/python-net/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

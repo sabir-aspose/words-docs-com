@@ -6,6 +6,8 @@ linktitle: How to Run the Examples
 description: "Download Aspose.Words for Node.js via .NET examples from our GitHub repository and learn how to run them to become more familiar with the Aspose.Words possibilities and features."
 type: docs
 weight: 110
+ai_search_scope: words_nodejs
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/how-to-run-the-examples/
 aliases: [/nodejs/how-to-run-the-examples/]
 timestamp: 2025-04-18-14-07-04

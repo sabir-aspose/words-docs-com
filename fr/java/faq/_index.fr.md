@@ -12,7 +12,7 @@ timestamp: 2024-01-31-14-23-37
 
 Cette page contient les réponses aux questions les plus fréquemment posées. Veuillez lire la page actuelle – cela vous permettra peut-être de résoudre votre problème rapidement.
 
-Si vous n'avez pas trouvé la réponse à votre question, vous pouvez la poser sur le forum d'assistance. Pour savoir comment signaler correctement votre question ou votre problème, consultez le [Soutien Technique](/words/java/technical-support/) page.
+Si vous n'avez pas trouvé la réponse à votre question, vous pouvez la poser sur le forum d'assistance. Pour savoir comment signaler correctement votre question ou votre problème, consultez le [Soutien Technique](/words/fr/java/technical-support/) page.
 
 {{% alert color="primary" %}}
 
@@ -32,7 +32,7 @@ Les détails peuvent être trouvés dans notre documentation.
 
 **Q: Que signifie "Aspose.Words ne nécessite pas d'applications tierces"?**
 
-Aspose.Words pour Java n'a pas besoin d'installer d'applications tierces ou de progiciels supplémentaires pour fonctionner. Il suffit de télécharger et d'installer Aspose.Words comme décrit dans le [Montage](/words/java/installation/) article et commencez.
+Aspose.Words pour Java n'a pas besoin d'installer d'applications tierces ou de progiciels supplémentaires pour fonctionner. Il suffit de télécharger et d'installer Aspose.Words comme décrit dans le [Montage](/words/fr/java/installation/) article et commencez.
 
 ------
 
@@ -40,7 +40,7 @@ Aspose.Words pour Java n'a pas besoin d'installer d'applications tierces ou de p
 
 Aspose.Words pour Java couvre la plupart des environnements de développement et des plates-formes de déploiement populaires. Its API peut être utilisé pour développer des applications pour une large gamme de systèmes d'exploitation tels que Windows, Linux et Mac OS, et diverses plates-formes.
 
-Pour plus de détails, voir le [Aperçu du Produit](/words/java/product-overview/) page et le [Plateformes et Interopstabilité](/words/java/platforms-and-interoperability/) section.
+Pour plus de détails, voir le [Aperçu du Produit](/words/fr/java/product-overview/) page et le [Plateformes et Interopstabilité](/words/java/platforms-and-interoperability/) section.
 
 ------
 
@@ -48,7 +48,7 @@ Pour plus de détails, voir le [Aperçu du Produit](/words/java/product-overview
 
 Aspose.Words pour Java prend en charge la plupart des formats de documents populaires tels que DOC, DOCX, HTML, Markdown, PDF, XML, et d'autres.
 
-Vous pouvez voir la liste complète des formats pris en charge sur le [Formats de Document Pris En Charge](/words/java/supported-document-formats/) page.
+Vous pouvez voir la liste complète des formats pris en charge sur le [Formats de Document Pris En Charge](/words/fr/java/supported-document-formats/) page.
 
 ------
 
@@ -56,7 +56,7 @@ Vous pouvez voir la liste complète des formats pris en charge sur le [Formats d
 
 Vous pouvez le faire de deux manières: en utilisant la version d'essai ou une licence temporaire de 30 jours. La version d'essai est la même que celle achetée, elle fournit toutes les fonctionnalités du produit mais ajoute un filigrane évaluatif en haut du document lors du chargement et de l'enregistrement et limite la taille maximale du document à quelques centaines de paragraphes. Une licence temporaire vous permet de tester Aspose.Words sans restrictions d'essai pendant 30 jours.
 
-Voir le [Licence et Abonnement](/words/java/licensing/) page pour plus d'informations.
+Voir le [Licence et Abonnement](/words/fr/java/licensing/) page pour plus d'informations.
 
 {{% alert color="primary" %}}
 
@@ -70,31 +70,31 @@ Vous pouvez également essayer certaines des fonctionnalités Aspose.Words les p
 
 Pour acheter une licence Aspose.Words, vous devez vous rendre sur le [Achat](https://purchase.aspose.com/buy) page, sélectionnez le produit "Aspose.Words " et le type de licence qui vous convient. Ajoutez ensuite la licence à votre panier et suivez les instructions du panier.
 
-Après l'achat, demandez la licence comme décrit dans le [Licence Achetée](/words/java/licensing/#purchased-license) section.
+Après l'achat, demandez la licence comme décrit dans le [Licence Achetée](/words/fr/java/licensing/) section.
 
-Les détails sur la façon d'installer Aspose.Words peuvent être lus sur le [Montage](/words/java/installation/) page.
+Les détails sur la façon d'installer Aspose.Words peuvent être lus sur le [Montage](/words/fr/java/installation/) page.
 
 ------
 
 **Q: Comment puis-je obtenir de l'aide?**
 
-Utilisez le forum de support technique gratuit. Pour plus de détails sur la façon de signaler correctement un problème et ce qui doit être fait avant de contacter le forum, consultez le [Soutien Technique](/words/java/technical-support/) page.
+Utilisez le forum de support technique gratuit. Pour plus de détails sur la façon de signaler correctement un problème et ce qui doit être fait avant de contacter le forum, consultez le [Soutien Technique](/words/fr/java/technical-support/) page.
 
 ## Rendu d'un Document
 
 {{% alert color="primary" %}}
 
-Vous pouvez trouver des informations plus détaillées sur le rendu dans le [Rendu](/words/java/rendering/) section de documentation.
+Vous pouvez trouver des informations plus détaillées sur le rendu dans le [Rendu](/words/fr/java/rendering/) section de documentation.
 
 {{% /alert %}}
 
 **Q: Pourquoi la mise en page et les polices du document de sortie sont-elles différentes de l'original?**
 
-La police peut ne pas être disponible ou le format de police est pris en charge par Microsoft Word mais pas par Aspose.Words. Aspose.Words se produira [remplacement de la police](/words/java/manipulate-and-substitute-truetype-fonts/).
+La police peut ne pas être disponible ou le format de police est pris en charge par Microsoft Word mais pas par Aspose.Words. Aspose.Words se produira [remplacement de la police](/words/fr/java/manipulate-and-substitute-truetype-fonts/).
 
 Pour vérifier si la police est manquante:
 
-- Dans Aspose.Words, utilisez les avertissements de substitution de police (pour plus de détails, voir la section "Comment reconnaître que la police a été remplacée" du [Manipuler et substituer TrueType Politiques](/words/java/manipulate-and-substitute-truetype-fonts/) l'article).
+- Dans Aspose.Words, utilisez les avertissements de substitution de police (pour plus de détails, voir la section "Comment reconnaître que la police a été remplacée" du [Manipuler et substituer TrueType Politiques](/words/fr/java/manipulate-and-substitute-truetype-fonts/) l'article).
 - Dans Microsoft Word, ouvrez la boîte de dialogue "Substitution de police" (Fichier → Options → Avancé → Substitution de police).
 
 ------
@@ -121,7 +121,7 @@ Oui, vous le faites. Par conséquent, lorsque vous copiez des polices, gardez à
 
 {{% alert color="primary" %}}
 
-Vous pouvez trouver des informations plus détaillées sur Mail Merge dans le [Mail Merge et rapports](/words/java/mail-merge-and-reporting/) section de documentation.
+Vous pouvez trouver des informations plus détaillées sur Mail Merge dans le [Mail Merge et rapports](/words/fr/java/mail-merge-and-reporting/) section de documentation.
 
 {{% /alert %}}
 
@@ -145,7 +145,7 @@ C'est parce que les régions de fusion dans le modèle ne sont pas correctement 
 Cela est dû au fait que la relation entre les tables parent et enfant n'est pas configurée ou qu'elle est mal configurée. Il est nécessaire de:
 
 - Assurez l'intégrité des données dans votre **DataSet** et utilisez l'objet **DataRelation** pour représenter la relation parent-enfant entre les tables de données associées.
-- Consultez la section "Comment configurer les relations de données dans Imbriquées Mail Merge avec des régions" dans l'article [Imbriqué Mail Merge avec des régions](/words/java/nested-mail-merge-with-regions/).
+- Consultez la section "Comment configurer les relations de données dans Imbriquées Mail Merge avec des régions" dans l'article [Imbriqué Mail Merge avec des régions](/words/fr/java/nested-mail-merge-with-regions/).
 
 ------
 
@@ -159,7 +159,7 @@ Désactivez les contraintes de clé étrangère lorsque vous créez un **DataRel
 
 {{% alert color="primary" %}}
 
-Vous pouvez trouver des informations plus détaillées sur la programmation avec des documents dans le [Programmation avec des documents](/words/java/programming-with-documents/) section de documentation.
+Vous pouvez trouver des informations plus détaillées sur la programmation avec des documents dans le [Programmation avec des documents](/words/fr/java/programming-with-documents/) section de documentation.
 
 {{% /alert %}}
 
@@ -171,7 +171,7 @@ Le résultat de l'ajout apparaît sur une page distincte en raison d'une différ
 
 {{% alert color="primary" %}}
 
-Vous pouvez trouver des informations plus détaillées sur la conversion d'un document dans le [Convertir un Document](/words/java/convert-a-document/) section de documentation.
+Vous pouvez trouver des informations plus détaillées sur la conversion d'un document dans le [Convertir un Document](/words/fr/java/convert-a-document/) section de documentation.
 
 {{% /alert %}}
 
@@ -193,7 +193,7 @@ doc.save(dataDir + "output.pdf", SaveFormat.Pdf);
 
 {{% alert color="primary" %}}
 
-Vous pouvez trouver des informations plus détaillées sur la programmation avec des documents dans le [Programmation avec des documents](/words/java/programming-with-documents/) section de documentation.
+Vous pouvez trouver des informations plus détaillées sur la programmation avec des documents dans le [Programmation avec des documents](/words/fr/java/programming-with-documents/) section de documentation.
 
 {{% /alert %}}
 
@@ -253,4 +253,4 @@ catch (Exception e)
 
 **Q: Comment imprimer un document?**
 
-Pour une réponse détaillée, lisez l'article [Impression d'un Document par programmation ou à l'aide de Boîtes de dialogue](/words/java/print-a-document-programmatically-or-using-dialogs/).
+Pour une réponse détaillée, lisez l'article [Impression d'un Document par programmation ou à l'aide de Boîtes de dialogue](/words/fr/java/print-a-document-programmatically-or-using-dialogs/).

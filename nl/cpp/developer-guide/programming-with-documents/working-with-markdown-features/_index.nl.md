@@ -27,7 +27,7 @@ De Markdown feature implementatie volgt meestal de `CommonMark` specificatie in 
 
 {{% alert color="primary" %}}
 
-Er zijn nuances van het vertalen van Markdown naar het Aspose.Words Document Object Model (DOM), beschreven in het artikel [Markdown vertalen naar Document Object Model (DOM)](/words/cpp/translate-markdown-to-document-object-model/).
+Er zijn nuances van het vertalen van Markdown naar het Aspose.Words Document Object Model (DOM), beschreven in het artikel [Markdown vertalen naar Document Object Model (DOM)](/words/nl/cpp/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

@@ -420,7 +420,7 @@ Aspose.Words 23.12 ویژگی ها و شمارش های جدید برای کار
 
 {{% alert color="primary" %}}
 
-اطلاعات بیشتر در مورد [Aspose.Words برای C++ 23.9 یادداشت های انتشار](/words/cpp/aspose-words-for-cpp-23-9-release-notes/).
+اطلاعات بیشتر در مورد [Aspose.Words برای C++ 23.9 یادداشت های انتشار](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-9-release-notes/).
 اطلاعات بیشتر در مورد [Aspose.Words برای C++ 23.10 یادداشت های انتشار](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-10-release-notes/).
 اطلاعات بیشتر در مورد [Aspose.Words برای C++ 23.11 یادداشت های انتشار](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-11-release-notes/).
 اطلاعات بیشتر در مورد [Aspose.Words برای C++ 23.12 یادداشت های انتشار](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-12-release-notes/).
@@ -431,6 +431,6 @@ Aspose.Words 23.12 ویژگی ها و شمارش های جدید برای کار
 
 {{% alert color="primary" %}}
 
-این صفحه شامل آخرین اخبار انتشار در 2 سال گذشته است. برای جزئیات بیشتر در مورد انتشارات قبلی، به [یادداشت های انتشار'](/words/cpp/release-notes/) صفحات در بخش های مربوطه.
+این صفحه شامل آخرین اخبار انتشار در 2 سال گذشته است. برای جزئیات بیشتر در مورد انتشارات قبلی، به [یادداشت های انتشار'](https://releases.aspose.com/words/cpp/release-notes/) صفحات در بخش های مربوطه.
 
 {{% /alert %}}

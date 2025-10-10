@@ -38,7 +38,7 @@ Możesz także użyć wyliczenia [SectionStart](https://reference.aspose.com/wor
 
 ## Zarządzaj sekcją
 
-Ponieważ sekcja jest normalnym węzłem złożonym, Cała manipulacja węzłem API może być używana do manipulowania sekcjami: dodawania, usuwania i innych operacji na sekcjach. Możesz przeczytać więcej o węzłach w artykule [Aspose.Words Obiektowy Model Dokumentu (DOM)](/words/cpp/aspose-words-document-object-model/).
+Ponieważ sekcja jest normalnym węzłem złożonym, Cała manipulacja węzłem API może być używana do manipulowania sekcjami: dodawania, usuwania i innych operacji na sekcjach. Możesz przeczytać więcej o węzłach w artykule [Aspose.Words Obiektowy Model Dokumentu (DOM)](/words/pl/cpp/aspose-words-document-object-model/).
 
 Z drugiej strony możesz również użyć `DocumentBuilder` API do pracy z sekcjami. W tym artykule skupimy się na tym konkretnym sposobie pracy z sekcjami.
 
@@ -154,5 +154,5 @@ Poniższy przykład kodu pokazuje, jak zmodyfikować właściwości strony we ws
 
 ## Zobacz także
 
-- [Logiczne poziomy węzłów w dokumencie](/words/cpp/logical-levels-of-nodes-in-a-document/)
-- [Wstawianie i dołączanie dokumentów](/words/cpp/insert-and-append-documents/)
+- [Logiczne poziomy węzłów w dokumencie](/words/pl/cpp/logical-levels-of-nodes-in-a-document/)
+- [Wstawianie i dołączanie dokumentów](/words/pl/cpp/insert-and-append-documents/)

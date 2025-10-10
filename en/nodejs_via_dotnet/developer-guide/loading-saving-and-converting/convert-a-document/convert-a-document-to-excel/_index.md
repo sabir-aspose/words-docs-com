@@ -6,6 +6,8 @@ linktitle: Convert a Document to Excel
 description: "Convert PDF to Excel, XML to Excel, DOCX to Excel Node.js. Save a document in various formats to XLSX using Node.js."
 type: docs
 weight: 15
+ai_search_scope: words_nodejs
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/convert-a-document-to-excel/
 timestamp: 2025-04-21-14-23-37
 ---
@@ -28,7 +30,7 @@ doc.save("BaseConversions.PdfToXlsx.xlsx");
 
 {{% alert color="primary" %}}
 
-Sometimes it is necessary to specify additional options, which can affect the result of saving a document as a XLSX. These options can be specified by the use of the [XlsxSaveOptions](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/xlsxsaveoptions/) class, containing properties that determine how the XLSX output will be displayed.
+Sometimes it is necessary to specify additional options, which can affect the result of saving a document as a XLSX. These options can be specified using the [XlsxSaveOptions](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/xlsxsaveoptions/) class, containing properties that determine how the XLSX output will be displayed.
 
 {{% /alert %}}
 

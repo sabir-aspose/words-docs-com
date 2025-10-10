@@ -6,6 +6,8 @@ linktitle: File Formats and Conversions
 description: "Convert documents from any supported load to save format with just two lines of Node.js code. It provides high-quality conversions."
 type: docs
 weight: 40
+ai_search_scope: words_nodejs
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/file-formats-and-conversions/
 aliases:
  - /nodejs/high-quality-conversions/

@@ -1,4 +1,4 @@
----
+﻿---
 title: Merhaba Dünya!
 second_title: Basit bir Aspose.Words nasıl Java için kullanılacağına dair bir örnek
 articleTitle: Merhaba Dünya!
@@ -12,7 +12,7 @@ timestamp: 2024-01-27-14-07-04
 
 A "Merhaba Dünya!" kodu genellikle yazmak için kullanılan ilk basit örnek olan "Aspose.Words için Java" ve doğru şekilde kurulduğunu garanti etmek için bir sağlık testi olarak kullanılabilir.
 
-" Aspose.Words için Java " kitaplığı geliştiricilere Word ve web belgeleri oluşturmak, değiştirmek, birleştirmek, dönüştürmek, karşılaştırmak için doğrudan erişim sağlar. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML ve daha birçok dosya formatı [supported](/words/java/supported-document-formats/) 'dir.
+" Aspose.Words için Java " kitaplığı geliştiricilere Word ve web belgeleri oluşturmak, değiştirmek, birleştirmek, dönüştürmek, karşılaştırmak için doğrudan erişim sağlar. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML ve daha birçok dosya formatı [supported](/words/tr/java/supported-document-formats/) 'dir.
 
 Be low code snippet şu adımları izler:
 

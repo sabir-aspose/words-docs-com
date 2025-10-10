@@ -82,5 +82,5 @@ Aspose.Words осигурява [PdfComplace](https://reference.aspose.com/words
 ## Вижте също
 
 - Статията [Нанасяне](/words/bg/java/rendering/) за повече информация относно форматите на фиксирана страница и на дебита
-- Статията [Преобразуване във формат с фиксирана страница](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) за повече информация в оформлението на страницата
+- Статията [Преобразуване във формат с фиксирана страница](/words/java/converting-to-fixed-page-format/#what-is-a-page-layout) за повече информация в оформлението на страницата
 - Статията [Подобен на настройките при преображе в PDF](/words/bg/java/specify-rendering-options-when-converting-to-pdf/) за повече информация относно употребата на `PdfSaveOptions` клас

@@ -1,4 +1,4 @@
----
+﻿---
 title: Làm việc với Markdown tính năng trong Java
 second_title: Aspose.Words cho Java
 articleTitle: Làm việc với Markdown Tính năng
@@ -27,7 +27,7 @@ Tính năng Markdown thực hiện theo phần lớn thông số kỹ thuật `C
 
 {{% alert color="primary" %}}
 
-Có những sự nuan chu của việc dịch Markdown thành Aspose.Words Document Object Model (DOM), được mô tả trong bài viết [Translate Markdown to Document Object Model (DOM)](/words/java/translate-markdown-to-document-object-model/).
+Có những sự nuan chu của việc dịch Markdown thành Aspose.Words Document Object Model (DOM), được mô tả trong bài viết [Translate Markdown to Document Object Model (DOM)](/words/vi/java/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

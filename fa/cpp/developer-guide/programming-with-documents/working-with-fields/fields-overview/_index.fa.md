@@ -1,4 +1,4 @@
----
+﻿---
 title: نمای کلی فیلدها در C++
 second_title: Aspose.Words برای C++
 articleTitle: نمای کلی زمینه ها
@@ -29,7 +29,7 @@ Aspose.Words یک کتابخانه کلاس است که برای پردازش س
 
 ![fields-overview-aspose-words-cpp-1](fields-overview-1.png)
 
-محتوایی که کد فیلد را تشکیل می دهد به عنوان گره های [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) بین [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) و [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/) ذخیره می شود. نتیجه فیلد بین گره های **FieldSeparator** و [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) ذخیره می شود و می تواند از انواع مختلف محتوا تشکیل شود. به طور معمول نتیجه فیلد فقط شامل متن تشکیل شده از گره های **Run** است، با این حال ممکن است گره **FieldEnd** در یک پاراگراف کاملا متفاوت قرار گیرد و بنابراین نتیجه فیلد شامل [گره های سطح بلوک](/words/cpp/logical-levels-of-nodes-in-a-document/) مانند گره های **Table** و **Paragraph** نیز.
+محتوایی که کد فیلد را تشکیل می دهد به عنوان گره های [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) بین [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start/) و [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator/) ذخیره می شود. نتیجه فیلد بین گره های **FieldSeparator** و [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end/) ذخیره می شود و می تواند از انواع مختلف محتوا تشکیل شود. به طور معمول نتیجه فیلد فقط شامل متن تشکیل شده از گره های **Run** است، با این حال ممکن است گره **FieldEnd** در یک پاراگراف کاملا متفاوت قرار گیرد و بنابراین نتیجه فیلد شامل [گره های سطح بلوک](/words/fa/cpp/logical-levels-of-nodes-in-a-document/) مانند گره های **Table** و **Paragraph** نیز.
 
 در اینجا یک نمای از چگونگی ذخیره یک فیلد در Aspose.Words با استفاده از مثال "*DocumentExplorer"* است.
 
@@ -37,7 +37,7 @@ Aspose.Words یک کتابخانه کلاس است که برای پردازش س
 
 ## فیلد های موجود در مدل Aspose.Words Document Object (DOM)
 
-هنگامی که یک سند به Aspose.Words بارگذاری می شود، فیلد های سند به Aspose.Words بارگذاری می شوند. [Aspose.Words مدل شی سند](/words/cpp/aspose-words-document-object-model/) به عنوان مجموعه ای از اجزای جداگانه (گره ها). یک فیلد واحد به عنوان مجموعه ای از گره های **FieldStart**، **FieldSeparator** و **FieldEnd** همراه با محتوای بین این گره ها بارگذاری می شود. اگر یک فیلد نتیجه فیلد نداشته باشد، هیچ گره **FieldSeparator** وجود نخواهد داشت. همه این گره ها همیشه در خط (به عنوان کودکان [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) یا [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)) یافت می شوند.
+هنگامی که یک سند به Aspose.Words بارگذاری می شود، فیلد های سند به Aspose.Words بارگذاری می شوند. [Aspose.Words مدل شی سند](/words/fa/cpp/aspose-words-document-object-model/) به عنوان مجموعه ای از اجزای جداگانه (گره ها). یک فیلد واحد به عنوان مجموعه ای از گره های **FieldStart**، **FieldSeparator** و **FieldEnd** همراه با محتوای بین این گره ها بارگذاری می شود. اگر یک فیلد نتیجه فیلد نداشته باشد، هیچ گره **FieldSeparator** وجود نخواهد داشت. همه این گره ها همیشه در خط (به عنوان کودکان [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph) یا [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag/)) یافت می شوند.
 
 در Aspose.Words هر یک از گره های **FieldXXX** از [FieldChar](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_char/) مشتق شده است. این کلاس یک ویژگی برای بررسی نوع فیلد نشان داده شده توسط گره مشخص شده از طریق ویژگی [FieldType](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldchar/get_fieldtype/) فراهم می کند. به عنوان مثال **FieldType.FieldMergeField** نشان دهنده یک فیلد ادغام در سند است.
 

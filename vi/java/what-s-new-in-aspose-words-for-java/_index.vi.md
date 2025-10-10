@@ -470,7 +470,7 @@ Tính năng nhận dạng siêu liên kết khi tải tài liệu TXT đã đư�
 
 {{% alert color="primary" %}}
 
-Tìm hiểu thêm về [Aspose.Words cho Java 23.9 Ghi Chú Phát Hành](/words/java/aspose-words-for-java-23-9-release-notes/).
+Tìm hiểu thêm về [Aspose.Words cho Java 23.9 Ghi Chú Phát Hành](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-9-release-notes/).
 
 Tìm hiểu thêm về [Aspose.Words cho Java 23.10 Ghi Chú Phát Hành](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 

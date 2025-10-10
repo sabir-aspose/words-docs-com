@@ -1,4 +1,4 @@
----
+﻿---
 title: Lucrul cu Markdown Caracteristici în C#
 second_title: Aspose.Words pentru .NET
 articleTitle: Lucrul cu caracteristici Markdown
@@ -27,7 +27,7 @@ HorizontalRule este un paragraf cu forma de linie orizontală.
 
 {{% alert color="primary" %}}
 
-Există nuanțe de traducere Markdown în Aspose.Words Document Object Model ( DOM ), descrisă în articolul [Translate Markdown to Document Object Model (DOM)](/words/net/translate-markdown-to-document-object-model/).
+Există nuanțe de traducere Markdown în Aspose.Words Document Object Model ( DOM ), descrisă în articolul [Translate Markdown to Document Object Model (DOM)](/words/ro/net/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

@@ -14,7 +14,7 @@ Il existe plusieurs façons d'insérer des champs dans un document:
 
 - en utilisant [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)
 - en utilisant [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/)
-- en utilisant [Aspose.Words Modèle d'objet de document (DOM)](/words/java/aspose-words-document-object-model/)
+- en utilisant [Aspose.Words Modèle d'objet de document (DOM)](/words/fr/java/aspose-words-document-object-model/)
 
 Dans cet article, nous examinerons chaque méthode plus en détail et analyserons comment insérer certains champs à l'aide de ces options.
 
@@ -80,7 +80,7 @@ L'exemple de code suivant montre comment insérer un champ dans un document à l
 
 ## Insertion de champs à l'aide de DOM
 
-Vous pouvez également insérer différents types de champs en utilisant [Aspose.Words Modèle d'objet de document (DOM)](/words/java/aspose-words-document-object-model/). Dans cette section, nous examinerons quelques exemples.
+Vous pouvez également insérer différents types de champs en utilisant [Aspose.Words Modèle d'objet de document (DOM)](/words/fr/java/aspose-words-document-object-model/). Dans cette section, nous examinerons quelques exemples.
 
 ### Insertion d'un champ de fusion dans un document à l'aide de DOM
 

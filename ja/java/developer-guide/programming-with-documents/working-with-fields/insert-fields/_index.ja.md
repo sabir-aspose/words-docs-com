@@ -14,7 +14,7 @@ timestamp: 2024-01-27-14-07-04
 
 - [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)を使用する
 - [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/)を使用する
-- を使用して [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/java/aspose-words-document-object-model/)
+- を使用して [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/ja/java/aspose-words-document-object-model/)
 
 この記事では、それぞれの方法をより詳細に見て、これらのオプションを使用して特定のフィールドを挿入する方法を分析します。
 
@@ -80,7 +80,7 @@ Aspose.Wordsにフィールドを挿入する別の方法は[FieldBuilder](https
 
 ## DOMを使用したフィールドの挿入
 
-次を使用して、さまざまなタイプのフィールドを挿入することもできます [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/java/aspose-words-document-object-model/). このセクションでは、いくつかの例を見ていきます。
+次を使用して、さまざまなタイプのフィールドを挿入することもできます [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/ja/java/aspose-words-document-object-model/). このセクションでは、いくつかの例を見ていきます。
 
 ### DOMを使用した文書への差し込み項目の挿入
 

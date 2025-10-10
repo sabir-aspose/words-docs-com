@@ -75,7 +75,7 @@ Aspose.Words قابلیت طرح بندی صفحه را به صورت داخلی
 - تعداد و محدوده صفحات موجود در سند خروجی ([PageIndex](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/), [PageCount](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
 - پیشرفت ذخیره اسناد صفحه به صفحه ([PageSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
 - مجموعه ای از کاراکترها که برای رندر اعداد استفاده می شوند ([NumeralFormat](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
-- یک پخش کننده متافیل ([MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/). برای جزئیات بیشتر، به [Dest zden به Windows Metafiles](/words/java/handling-windows-metafiles/) مقاله.
+- یک پخش کننده متافیل ([MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/). برای جزئیات بیشتر، به [Dest zden به Windows Metafiles](/words/fa/java/handling-windows-metafiles/) مقاله.
 - نرخ کیفیت برای فشرده سازی مجدد تصاویرJPEG، که ارزش آن ممکن است کمی متفاوت باشد، بسته به فرمت ذخیره انتخاب شده ([JpegQuality](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/).
 - بهینه سازی گرافیک وکتور در خروجی Aspose.Words ([OptimizeOutput](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
 - گزینه های گرافیکی هنگام صرفه جویی در فرمت های Tiff، Png، Bmp، Jpeg، Emf ([UseAntiAliasing](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/#getUseAntiAliasing)، [UseHighQualityRendering](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).

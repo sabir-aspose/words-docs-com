@@ -1,4 +1,4 @@
----
+﻿---
 title: Chỉ định tùy chọn render khi chuyển đổi sang PDF
 second_title: Aspose.Words cho Java
 articleTitle: Chỉ định tùy chọn render khi chuyển đổi sang PDF
@@ -96,7 +96,7 @@ Mã ví dụ sau cho thấy cách thay đổi độ phân giải của hình ả
 
 ## Đóng Cấy Phông chữ trong Định Dạng Adobe PDF
 
-Aspose.Words cũng cho phép bạn kiểm soát cách kiểu chữ được nhúng trong tài liệu PDF kết quả. Phông chữ cần phải nhúng vào bất kỳ tài liệu PDF của Adobe nào để đảm bảo rằng tài liệu có thể được hiển thị chính xác trên bất kỳ máy tính nào (xem thêm chi tiết về việc hiển thị phông chữ trong phần [Using TrueType Fonts](/words/java/using-truetype-fonts/)). Theo mặc định, Aspose.Words nhúng một tập hợp các phông chữ được sử dụng trong tài liệu vào tập tin PDF được tạo ra. Trong trường hợp này, chỉ những ký tự glyph được sử dụng trong tài liệu là được lưu vào PDF.
+Aspose.Words cũng cho phép bạn kiểm soát cách kiểu chữ được nhúng trong tài liệu PDF kết quả. Phông chữ cần phải nhúng vào bất kỳ tài liệu PDF của Adobe nào để đảm bảo rằng tài liệu có thể được hiển thị chính xác trên bất kỳ máy tính nào (xem thêm chi tiết về việc hiển thị phông chữ trong phần [Using TrueType Fonts](/words/vi/java/using-truetype-fonts/)). Theo mặc định, Aspose.Words nhúng một tập hợp các phông chữ được sử dụng trong tài liệu vào tập tin PDF được tạo ra. Trong trường hợp này, chỉ những ký tự glyph được sử dụng trong tài liệu là được lưu vào PDF.
 
 ### Khi nào nên dùng Full fonts và khi nào nên dùng Subsets
 

@@ -67,7 +67,7 @@ Aspose.Words також дозволяє використовувати розр
 
 {{% alert color="primary" %}}
 
-Ви можете використовувати будь-який [вихідний формат, підтримуваний Aspose.Words](/words/cpp/supported-document-formats/).
+Ви можете використовувати будь-який [вихідний формат, підтримуваний Aspose.Words](/words/uk/cpp/supported-document-formats/).
 
 {{% /alert %}}
 

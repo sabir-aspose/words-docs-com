@@ -123,7 +123,7 @@ Aspose.Words支持使用[InsertHtml](https://reference.aspose.com/words/java/com
 
 {{% /alert %}}
 
-如果您正在考虑在文档中创建与数据源中的每条记录一起动态增长的表，则不建议使用上述方法。 相反，通过使用带有区域的Mail merge更容易实现所需的输出。 你可以在 [Mail Merge与区域](/words/java/types-of-mail-merge-operations/) 节。
+如果您正在考虑在文档中创建与数据源中的每条记录一起动态增长的表，则不建议使用上述方法。 相反，通过使用带有区域的Mail merge更容易实现所需的输出。 你可以在 [Mail Merge与区域](/words/zh/java/types-of-mail-merge-operations/) 节。
 
 ## 比较创建表的方法
 

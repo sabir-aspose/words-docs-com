@@ -1,4 +1,4 @@
----
+﻿---
 title: Specificați opțiunile De redare la conversia în PDF
 second_title: Aspose.Words pentru Java
 articleTitle: Specificați opțiunile De redare la conversia în PDF
@@ -96,7 +96,7 @@ Rezoluția este calculată în funcție de dimensiunea reală a imaginii de pe p
 
 ## Încorporarea fonturilor în format Adobe PDF
 
-Aspose.Words de asemenea, vă permite să controlați modul în care fonturile sunt încorporate în documentele PDF rezultate. Fonturile trebuie să fie încorporate în orice document Adobe PDF pentru a vă asigura că documentul poate fi redat corect pe orice mașină (consultați mai multe detalii despre redarea fontului în secțiune [Folosind TrueType Fonturi](/words/java/using-truetype-fonts/)). În mod implicit, Aspose.Words încorporează un subset de fonturi utilizate în document în PDF generat. În acest caz, numai glifele (caracterele) utilizate în document sunt salvate în PDF.
+Aspose.Words de asemenea, vă permite să controlați modul în care fonturile sunt încorporate în documentele PDF rezultate. Fonturile trebuie să fie încorporate în orice document Adobe PDF pentru a vă asigura că documentul poate fi redat corect pe orice mașină (consultați mai multe detalii despre redarea fontului în secțiune [Folosind TrueType Fonturi](/words/ro/java/using-truetype-fonts/)). În mod implicit, Aspose.Words încorporează un subset de fonturi utilizate în document în PDF generat. În acest caz, numai glifele (caracterele) utilizate în document sunt salvate în PDF.
 
 ### Când să utilizați fonturi complete și când să Subsetați
 

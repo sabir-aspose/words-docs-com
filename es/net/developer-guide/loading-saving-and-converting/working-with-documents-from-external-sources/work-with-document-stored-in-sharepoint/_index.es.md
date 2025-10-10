@@ -1,4 +1,4 @@
----
+﻿---
 title: Trabajar con un documento almacenado en un SharePoint en línea
 second_title: Aspose.Words para .NET
 articleTitle: Trabajar con un documento almacenado en un SharePoint en línea
@@ -267,5 +267,5 @@ Como resultado, el archivo "TestDoc.pdf" debe colocarse en la carpeta "Documento
 ## Ver también
 
 - El artículo [Representación](/words/es/net/rendering/) para obtener más información sobre los formatos de página fija y diseño de flujo.
-- El artículo ["Conversión a formato de página fija"](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) para más información sobre el diseño de la página.
+- El artículo ["Conversión a formato de página fija"](/words/es/net/converting-to-fixed-page-format/#what-is-a-page-layout) para más información sobre el diseño de la página.
 - El artículo [Especificar opciones de renderizado al convertir a PDF](/words/es/net/specify-rendering-options-when-converting-to-pdf/) para más información sobre el uso de la clase [PdfSaveOptions](https://reference.aspose.com/words/es/net/aspose.words.saving/pdfsaveoptions/)

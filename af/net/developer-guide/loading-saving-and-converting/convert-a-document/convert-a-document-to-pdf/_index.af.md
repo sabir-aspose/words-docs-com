@@ -1,37 +1,37 @@
 ---
-title: Omskep Woord na PDF in C#
+title: Omskep Word na PDF in C#
 second_title: Aspose.Words vir .NET
-articleTitle: Skakel'n Dokument om na PDF
-linktitle: Skakel'n Dokument om na PDF
-description: "Skakel'n dokument om na PDF met C#. Omskep DOCX na PDF C#. Verskeie invoer formate word ondersteun, insluitend Word, OpenOffice, Beeld en eBook formate."
+articleTitle: Verander dokument na PDF
+linktitle: Verander dokument na PDF
+description: "Omskep Word na PDF in C#. Eenvoudige kode voorbeelde vir DOCX na PDF omskepping. Ondersteun alle Word formate en beelde."
 type: docs
 weight: 10
 url: /af/net/convert-a-document-to-pdf/
 timestamp: 2024-09-25-11-08-55
 ---
 
-Die vermoë om dokumente maklik en betroubaar van een formaat na'n ander te omskep, is'n belangrike kenmerk van Aspose.Words. Een van die mees gewilde formate vir die omskakeling is PDF – 'n vaste uitleg-formaat, wat bewaar die oorspronklike voorkoms van'n dokument tydens sy lewering op verskeie platforms. Die "lewering" term word gebruik in Aspose.Words om te beskryf die proses van die omskakeling van'n dokument in'n lêer formaat wat is gepagineer of het die konsep van die bladsye.
+Die vermoë om dokumente maklik en betroubaar van een formaat na 'n ander te omskep is 'n kernfunksie van Aspose.Words. PDF is een van die gewildste formate vir omskepping – dit is 'n formaat met vaste uitleg wat die oorspronklike voorkoms van 'n dokument behou tydens weergawe op verskillende platforms. Die term "weergawe" word in Aspose.Words gebruik om die proses te beskryf van die verander van 'n dokument na 'n lêerformaat wat gepagineer is of die konsep van bladsye het.
 
-## Skakel'n Word-Dokument om na PDF
+## Omskep Word dokument na PDF
 
-Omskakeling van Woord na PDF is'n taamlik komplekse proses wat verskeie stadiums van berekening vereis. Aspose.Words uitleg enjin naboots die manier waarop die Microsoft Word se bladsy uitleg enjin werk, maak PDF uitset dokumente lyk so naby as moontlik aan wat jy kan sien in Microsoft Word.
+Omskepping van Word na PDF is 'n redelik komplekse proses wat verskeie stadiums van berekening vereis. Die uitleg-enjin van Aspose.Words boots die werking van Microsoft Word se bladsy-uitleg enjin na, wat maak dat PDF uitset dokumente so na as moontlik lyk aan wat jy in Microsoft Word kan sien.
 
-Met Aspose.Words kan jy'n dokument programmaties omskakel Van Woordformate, soos DOC of DOCX, na PDF sonder om Microsoft Office te gebruik. Hierdie artikel verduidelik hoe om hierdie omskakeling uit te voer.
+Met Aspose.Words kan jy programmaties 'n dokument van Word formate, soos DOC of DOCX, na PDF omskakel sonder om Microsoft Office te gebruik. Hierdie artikel verduidelik hoe om hierdie omskepping uit te voer.
 
 {{% alert color="primary" %}}
 
-Let daarop dat die aantal bladsye in'n dokument die omskakelingstyd beïnvloed.
+Let daarop dat die aantal bladsye in 'n dokument die omskeppingstyd beïnvloed.
 
 {{% /alert %}}
 
 ### Omskep DOCX of DOC na PDF
 
-Omskakeling van die DOC of DOCX dokument formaat in die PDF formaat in Aspose.Words is baie maklik en kan bereik word met net twee reëls van die kode wat:
+Verander van DOC of DOCX dokument formaat na PDF formaat in Aspose.Words is baie eenvoudig en kan bereik word met slegs twee lyne kode wat:
 
-1. Laai jou dokument in'n [Document](https://reference.aspose.com/words/net/aspose.words/document/) voorwerp met behulp van een van sy konstruktors deur die spesifiseer van die dokument naam met sy formaat uitbreiding.
-1. Roep een van die [Document.Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/) metodes op die **Document** voorwerp en spesifiseer die gewenste uitset formaat as PDF deur die invoer van'n lêernaam met die ".PDF" uitbreiding.
+1. Laai jou dokument in 'n [Document](https://reference.aspose.com/words/net/aspose.words/document/) objek deur een van sy konstruktors te gebruik deur die dokument naam met sy formaat uitbreiding te spesifiseer.
+1. Roep een van die [Document.Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/) metodes op die **Document** objek aan en spesifiseer die gewenste uitset formaat as PDF deur 'n lêer naam met die ".PDF" uitbreiding in te voer.
 
-Die volgende kode voorbeeld toon hoe om'n dokument van DOCX te omskep in PDF met behulp van die [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) metode:
+Die volgende kode voorbeeld toon hoe om 'n dokument van DOCX na PDF te omskep deur die [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) metode te gebruik:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "docx-to-pdf.cs" >}}
 
@@ -39,25 +39,25 @@ Jy kan die sjabloon lêer van hierdie voorbeeld aflaai van [Aspose.Words GitHub]
 
 {{% alert color="primary" %}}
 
-Soms is dit nodig om addisionele opsies te spesifiseer, wat die resultaat van die stoor van'n dokument as'n PDF kan beïnvloed. Hierdie opsies kan gespesifiseer word deur die gebruik van die [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) klas, wat eienskappe bevat wat bepaal hoe die PDF uitset vertoon sal word.
+Soms is dit nodig om addisionele opsies te spesifiseer wat die resultaat van die stoor van 'n dokument as PDF kan beïnvloed. Hierdie opsies kan gespesifiseer word deur die [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) klas te gebruik, wat eienskappe bevat wat bepaal hoe die PDF uitset vertoon sal word.
 
-Let daarop dat met dieselfde tegniek, kan jy enige vloei-uitleg formaat dokument om te skakel na PDF formaat.
+Let daarop dat met dieselfde tegniek jy enige vloei-uitleg formaat dokument na PDF formaat kan omskakel.
 
 {{% /alert %}}
 
-### Skakel Na Verskillende PDF Standaarde
+### Verander na verskillende PDF standaarde
 
-Aspose.Words bied die [PdfCompliace ](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/)opsomming te ondersteun die omskakeling van DOC of DOCX in verskeie PDF formaat standaarde (soos PDF 1.7, PDF 1.5, ens.).
+Aspose.Words bied die [PdfCompliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) opsomming om die omskepping van DOC of DOCX na verskeie PDF formaat standaarde (soos PDF 1.7, PDF 1.5, ens.) te ondersteun.
 
-Die volgende kode voorbeeld demonstreer hoe om'n dokument te omskep in PDF 1.7 met behulp van [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) met ooreenstemming met PDF17:
+Die volgende kode voorbeeld demonstreer hoe om 'n dokument na PDF 1.7 te omskep deur [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) te gebruik met nakoming van PDF17:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "conversion-to-pdf17.cs" >}}
 
-## Skakel Beelde om na PDF
+## Omskep beelde na PDF
 
-Omskakeling na PDF word nie beperk deur Microsoft Word dokumentformate nie. Enige formaat ondersteun deur Aspose.Words, insluitend programmaties geskep, kan ook omgeskakel word na PDF. Byvoorbeeld, kan ons enkele bladsy beelde, soos JPEG, PNG, BMP, EMF, of WMF, sowel as meerbladsy-beelde, soos TIFF en GIF, tot PDF.
+Omskepping na PDF is nie beperk tot Microsoft Word dokument formate nie. Enige formaat wat deur Aspose.Words ondersteun word, insluitend dié wat programmaties geskep is, kan ook na PDF verander word. Byvoorbeeld, ons kan enkelbladsy beelde, soos JPEG, PNG, BMP, EMF, of WMF, sowel as meerbladsy beelde, soos TIFF en GIF, na PDF omskep.
 
-Die volgende kode voorbeeld toon hoe om JPEG en TIFF beelde te omskep in PDF:
+Die volgende kode voorbeeld toon hoe om JPEG en TIFF beelde na PDF te omskakel:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "image-to-pdf.cs" >}}
 
@@ -65,28 +65,28 @@ Die volgende kode voorbeeld toon hoe om JPEG en TIFF beelde te omskep in PDF:
 
 Om hierdie kode te laat werk, moet jy verwysings na Aspose.Words en `System.Drawing` by jou projek voeg.
 
-## Verminder PDF Uitset Grootte
+## Verminder PDF uitset grootte
 
-Wanneer jy stoor na PDF, kan jy spesifiseer of jy die uitset wil optimaliseer. Om dit te doen, moet jy die [OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) vlag op waar stel, en dan sal oorbodige geneste doeke en leë doeke verwyder word, naburige glywe met dieselfde formatering sal gekonketen word.
+Wanneer jy na PDF stoor, kan jy spesifiseer of jy die uitset wil optimeer. Om dit te doen, moet jy die [OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) vlag op waar stel, en dan sal oortollige geneste en leë kanvasse verwyder word, aangrensende glywe met dieselfde formatering sal saamgevoeg word.
 
-Die volgende kode voorbeeld toon hoe om die uitset te optimaliseer:
+Die volgende kode voorbeeld toon hoe om die uitset te optimeer:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "optimize-output.cs" >}}
 
 {{% alert color="primary" %}}
 
-Die gebruik van die **OptimizeOutput** eienskap kan die akkuraatheid van inhoud vertoon beïnvloed.
+Die gebruik van die **OptimizeOutput** eienskap kan die akkuraatheid van inhoud vertoning beïnvloed.
 
 {{% /alert %}}
 
-## Sien Ook
+## Sien ook
 
-- Die artikel [Lewering](/words/net/rendering/) vir meer inligting oor die vaste bladsy en vloei-uitleg formate
-- Die artikel [Omskakeling Na Vaste bladsy Formaat](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) vir meer inligting oor die bladsy uitleg
-- Die artikel [Spesifiseer Vertoonopsies Wanneer U Na PDFOmskakel](/words/net/specify-rendering-options-when-converting-to-pdf/) vir meer inligting oor die gebruik van die `PdfSaveOptions` klas
-- Die artikel [Leer Kenmerke van Omskakeling na PDF/A en PDF/UA](/words/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) beskryf watter PDF standaard en die relevante ISO vir PDF standaarde ondersteun Aspose.Words
-- Die artikel [Watter PDF Standaard Is Beter Om Te Kies](/words/net/which-pdf-standard-is-better-to-choose/) om te bepaal watter PDF standaarde sin maak vir watter gevalle
+- Die artikel [Weergawe](/words/af/net/rendering/) vir meer inligting oor vaste bladsy en vloei-uitleg formate
+- Die artikel [Omskepping na vaste bladsy formaat](/words/af/net/converting-to-fixed-page-format/#what-is-a-page-layout) vir meer inligting oor bladsy uitleg
+- Die artikel [Spesifiseer weergawe opsies wanneer jy na PDF verander](/words/af/net/specify-rendering-options-when-converting-to-pdf/) vir meer inligting oor die gebruik van die `PdfSaveOptions` klas
+- Die artikel [Leer die kenmerke van omskepping na PDF/A en PDF/UA](/words/af/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) wat beskryf watter PDF standaard en relevante ISO's vir PDF standaarde deur Aspose.Words ondersteun word
+- Die artikel [Watter PDF standaard is beter om te kies](/words/af/net/which-pdf-standard-is-better-to-choose/) om te bepaal watter PDF standaarde sin maak vir watter gevalle
 
-- Die artikel [Werk met PDF/A of PDF/UA](/words/net/working-with-pdfa-or-pdfua/) beskryf die vereistes vir die dokumentinhoud in PDF/A en PDF/UA formate-hoofsaaklik die vereistes vir die struktuur en lettertipes
+- Die artikel [Werk met PDF/A of PDF/UA](/words/af/net/working-with-pdfa-or-pdfua/) beskryf die vereistes vir dokument inhoud in PDF/A en PDF/UA formate – hoofsaaklik die vereistes vir struktuur en lettertipes
 
-- Die artikel [Toeganklikheid Uitgawe Waarskuwings Wanneer Stoor na PDF/A en PDF/UA](/words/net/warnings-when-saving-to-pdfa-and-pdfua/) beskryf wat inhoud toeganklikheid vereistes PDF/A en PDF/UA oplê
+- Die artikel [Waarskuwings vir toeganklikheid probleme wanneer jy na PDF/A en PDF/UA stoor](/words/af/net/warnings-when-saving-to-pdfa-and-pdfua/) beskryf watter inhoud toeganklikheid vereistes PDF/A en PDF/UA oplê

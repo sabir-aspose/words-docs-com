@@ -1,4 +1,4 @@
----
+﻿---
 title: Lavorare con le proprietà del documento in C++
 second_title: Aspose.Words per C++
 articleTitle: Lavorare con le proprietà del documento
@@ -15,7 +15,7 @@ Le proprietà del documento consentono di memorizzare alcune informazioni utili 
 * Sistema o built-in che contengono valori come titolo del documento, nome dell'autore, statistiche del documento e altri.
 * Definito dall'utente o personalizzato, fornito come coppie nome-valore in cui l'utente può definire sia il nome che il valore.
 
-È utile sapere che le informazioni sull'API e sul numero di versione sono scritte direttamente nei documenti di output. Ad esempio, quando si converte un documento in PDF, Aspose.Words riempie il campo "Applicazione" con "Aspose.Words" e il campo "PDF Produttore " con "Aspose.Words per C++ YY.M. N", dove *YY.M.N* è la versione di Aspose.Words utilizzata per la conversione. Per maggiori dettagli, vedere [Nome del generatore o del produttore incluso nei documenti di output](/words/cpp/generator-or-producer-name-included-in-output-documents/).
+È utile sapere che le informazioni sull'API e sul numero di versione sono scritte direttamente nei documenti di output. Ad esempio, quando si converte un documento in PDF, Aspose.Words riempie il campo "Applicazione" con "Aspose.Words" e il campo "PDF Produttore " con "Aspose.Words per C++ YY.M. N", dove *YY.M.N* è la versione di Aspose.Words utilizzata per la conversione. Per maggiori dettagli, vedere [Nome del generatore o del produttore incluso nei documenti di output](/words/it/cpp/generator-or-producer-name-included-in-output-documents/).
 
 {{% alert color="primary" %}}
 

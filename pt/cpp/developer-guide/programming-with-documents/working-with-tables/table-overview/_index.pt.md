@@ -1,4 +1,4 @@
----
+﻿---
 title: Visão Geral Da Tabela
 second_title: Aspose.Words para C++
 articleTitle: Visão Geral Da Tabela
@@ -65,5 +65,5 @@ Em Aspose.Words, Todas as classes e propriedades relacionadas às tabelas estão
 
 ## Ver Também
 
-* [Aspose.Words Modelo De Objecto Do Documento (DOM)](/words/cpp/aspose-words-document-object-model/)
-* [Níveis lógicos de nós em um documento](/words/cpp/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Modelo De Objecto Do Documento (DOM)](/words/pt/cpp/aspose-words-document-object-model/)
+* [Níveis lógicos de nós em um documento](/words/pt/cpp/logical-levels-of-nodes-in-a-document/)

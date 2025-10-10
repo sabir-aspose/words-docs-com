@@ -1,4 +1,4 @@
----
+﻿---
 title: Vertaal Markdown na DOM
 second_title: Aspose.Words vir .NET
 articleTitle: Vertaal Markdown Na Dokument Objek Model (DOM)
@@ -12,7 +12,7 @@ timestamp: 2024-10-21-11-17-44
 
 Om die inhoud en formatering van'n dokument programmaties te lees, te manipuleer en te verander, moet jy dit vertaal na die Aspose.Words Document Object Model (DOM).
 
-In teenstelling met Word-dokumente, voldoen Markdown nie aan die DOM wat in Die [Aspose.Words Dokument Voorwerp Model (DOM)](/words/net/aspose-words-document-object-model/) artikel. Aspose.Words bied egter sy eie meganisme vir die vertaling van Markdown dokumente na DOM en terug, sodat ons suksesvol kan werk met hul elemente soos teks opmaak, tabelle, koptekste, en ander.
+In teenstelling met Word-dokumente, voldoen Markdown nie aan die DOM wat in Die [Aspose.Words Dokument Voorwerp Model (DOM)](/words/af/net/aspose-words-document-object-model/) artikel. Aspose.Words bied egter sy eie meganisme vir die vertaling van Markdown dokumente na DOM en terug, sodat ons suksesvol kan werk met hul elemente soos teks opmaak, tabelle, koptekste, en ander.
 
 Hierdie artikel verduidelik hoe die verskillende markdown kenmerke vertaal kan word in Aspose.Words DOM en terug na Markdown formaat.
 
@@ -174,5 +174,5 @@ builder.Writeln("d"); {{< /highlight >}} |  |
 
 ## Sien Ook
 
-* [Werk met Markdown Funksies](/words/net/working-with-markdown-features/)
+* [Werk met Markdown Funksies](/words/af/net/working-with-markdown-features/)
 

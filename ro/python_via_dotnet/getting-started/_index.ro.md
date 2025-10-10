@@ -1,4 +1,4 @@
----
+﻿---
 title: Noțiuni De Bază
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Noțiuni De Bază
@@ -14,11 +14,11 @@ Acest Noțiuni de bază oferă o introducere la Aspose.Words fundamentele. Pentr
 
 Pentru a afla mai multe despre Aspose.Words, selectați secțiunea corespunzătoare:
 
-- [Instalare](/words/python-net/installation/) - oferă informații despre cum se instalează Aspose.Words
-- [Hello World](/words/python-net/hello-world/) - oferă informații despre cum să testați că software-ul destinat compilării sau rulării codului sursă este instalat corect
-- [Formate De Documente Acceptate](/words/python-net/supported-document-formats/) - oferă informații despre formatele acceptate
-- [Caracteristici Acceptate](/words/python-net/features/) - oferă informații despre ce caracteristici sunt acceptate la încărcarea sau salvarea unui document în diferite formate
-- [Licențiere și abonament](/words/python-net/licensing/) - oferă informații despre aplicarea unei licențe și utilizarea mai multor produse Aspose
-- [Cerințe De Sistem](/words/python-net/system-requirements/) - oferă informații despre cerințele sistemului și mediului de dezvoltare
-- [Cum să rulați exemplele](/words/python-net/how-to-run-the-examples/) - descrie cum să descărcați și să rulați exemplele și ce cerințe software trebuie îndeplinite
+- [Instalare](/words/ro/python-net/installation/) - oferă informații despre cum se instalează Aspose.Words
+- [Hello World](/words/ro/python-net/hello-world/) - oferă informații despre cum să testați că software-ul destinat compilării sau rulării codului sursă este instalat corect
+- [Formate De Documente Acceptate](/words/ro/python-net/supported-document-formats/) - oferă informații despre formatele acceptate
+- [Caracteristici Acceptate](/words/ro/python-net/features/) - oferă informații despre ce caracteristici sunt acceptate la încărcarea sau salvarea unui document în diferite formate
+- [Licențiere și abonament](/words/ro/python-net/licensing/) - oferă informații despre aplicarea unei licențe și utilizarea mai multor produse Aspose
+- [Cerințe De Sistem](/words/ro/python-net/system-requirements/) - oferă informații despre cerințele sistemului și mediului de dezvoltare
+- [Cum să rulați exemplele](/words/ro/python-net/how-to-run-the-examples/) - descrie cum să descărcați și să rulați exemplele și ce cerințe software trebuie îndeplinite
 

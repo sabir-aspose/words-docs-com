@@ -12,7 +12,7 @@ timestamp: 2024-01-27-14-07-04
 
 "Ahoj, Světe!"kód je často prvním jednoduchým příkladem pro zápis uisng" Aspose.Words pro C++ " a lze jej také použít jako test zdravého rozumu k zajištění správné instalace softwaru určeného ke kompilaci nebo spuštění zdrojového kódu.
 
-Knihovna" Aspose.Words pro C++ " poskytuje vývojářům přímý přístup k vytváření, úpravám, sloučení, převodu, porovnání Word a webových dokumentů. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML a mnoho dalších formátů souborů je [podporovat](/words/cpp/supported-document-formats/).
+Knihovna" Aspose.Words pro C++ " poskytuje vývojářům přímý přístup k vytváření, úpravám, sloučení, převodu, porovnání Word a webových dokumentů. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML a mnoho dalších formátů souborů je [podporovat](/words/cs/cpp/supported-document-formats/).
 
 Below code úryvek následuje tyto kroky:
 

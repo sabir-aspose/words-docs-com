@@ -21,7 +21,7 @@ Simply use the [Save](https://reference.aspose.com/words/java/com.aspose.words/
 
 The following code example shows how to load and save a document to a file:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSave-LoadAndSave.java" >}}
+{{< gist "aspose-words-gists" "9d2a393f6dff9d785e7747a48e590d9d" "load-and-save.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -35,7 +35,7 @@ Pass a stream object to the [Save](https://reference.aspose.com/words/java/com.a
 
 The following code example shows how to load and save a document to a stream:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSaveToStream-LoadAndSaveToStream.java" >}}
+{{< gist "aspose-words-gists" "9d2a393f6dff9d785e7747a48e590d9d" "load-and-save-to-stream.java" >}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
 
@@ -45,4 +45,4 @@ Aspose.Words supports saving a document into PCL (Printer Command Language). Asp
 
 The following code example shows how to save a document to PCL using save options:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToPCL-ConvertDocumentToPCL.java" >}}
+{{< gist "aspose-words-gists" "9d2a393f6dff9d785e7747a48e590d9d" "rasterize-transformed-elements.java" >}}

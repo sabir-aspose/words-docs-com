@@ -1,4 +1,4 @@
----
+﻿---
 title: C++で文書を分割する
 second_title: C++の場合Aspose.Words
 articleTitle: 文書を分割する
@@ -67,7 +67,7 @@ Aspose.Wordsでは、セクション区切りを使用して文書を分割し�
 
 {{% alert color="primary" %}}
 
-あなたは任意のものを使うことができます [Aspose.Wordsでサポートされている出力形式](/words/cpp/supported-document-formats/).
+あなたは任意のものを使うことができます [Aspose.Wordsでサポートされている出力形式](/words/ja/cpp/supported-document-formats/).
 
 {{% /alert %}}
 

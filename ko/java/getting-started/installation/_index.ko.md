@@ -10,7 +10,7 @@ url: /ko/java/installation/
 timestamp: 2024-01-27-14-07-04
 ---
 
-당신의 기계가 만나는 것을 확인하십시오 [시스템 요구 사항](/words/java/system-requirements/) 시작하기 전에.
+당신의 기계가 만나는 것을 확인하십시오 [시스템 요구 사항](/words/ko/java/system-requirements/) 시작하기 전에.
 
 이 문서에서는 컴퓨터에Java에 대해Aspose.Words을 설치하는 방법을 설명합니다.
 

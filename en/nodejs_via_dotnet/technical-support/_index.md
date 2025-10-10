@@ -7,6 +7,8 @@ type: docs
 description: "Aspose.Words for Node.js via .NET provides free technical support available to all users. Please report your question, issue, or feature request using Aspose Free Support Forum."
 doc_version: 2025-04-18-19-55
 weight: 80
+ai_search_scope: words_nodejs
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/technical-support/
 aliases: [/nodejs/technical-support/]
 timestamp: 2025-04-18-12-56-02

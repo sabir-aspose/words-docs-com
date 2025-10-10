@@ -1,4 +1,4 @@
----
+﻿---
 title: 문서를 다음으로 변환 PDF 그 안에 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 문서를 다음으로 변환 PDF
@@ -47,7 +47,7 @@ timestamp: 2024-10-21-08-52-03
 
 ### 다른 것으로 변환 PDF 표준 {#converting-to-various-pdf-standards}
 
-Aspose.Words 제공 [PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) 의 변환을 지원하기 위한 열거 DOC 또는 DOCX 다양한 PDF 형식 표준(예: PDF 1.7, PDF 1.5 그 밖의).
+Aspose.Words 제공 [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) 의 변환을 지원하기 위한 열거 DOC 또는 DOCX 다양한 PDF 형식 표준(예: PDF 1.7, PDF 1.5 그 밖의).
 
 다음 코드 예제에서는 문서를 다음과 같이 변환하는 방법을 보여 줍니다 PDF 1.7 사용 [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) 준수 PDF17:
 
@@ -67,6 +67,6 @@ Aspose.Words 제공 [PdfCompliace](https://reference.aspose.com/words/cpp/aspose
 
 ## 또한 참조
 
-- 기사 [렌더링](/words/cpp/rendering/) 고정 페이지 및 플로우 레이아웃 형식에 대한 자세한 내용은
-- 기사 [고정 페이지 형식으로 변환](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) 페이지 레이아웃에 대한 자세한 내용은
-- 기사 [로 변환할 때 렌더링 옵션 지정 PDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) 사용에 대한 자세한 내용은 `PdfSaveOptions` 클래스
+- 기사 [렌더링](/words/ko/cpp/rendering/) 고정 페이지 및 플로우 레이아웃 형식에 대한 자세한 내용은
+- 기사 [고정 페이지 형식으로 변환](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) 페이지 레이아웃에 대한 자세한 내용은
+- 기사 [로 변환할 때 렌더링 옵션 지정 PDF](/words/ko/cpp/specify-rendering-options-when-converting-to-pdf/) 사용에 대한 자세한 내용은 `PdfSaveOptions` 클래스

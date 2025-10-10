@@ -1,4 +1,4 @@
----
+﻿---
 title: 在C#中操縱和替代TrueType字體
 second_title: Aspose.Words for .NET
 articleTitle: 操控和替換 TrueType 字型
@@ -208,7 +208,7 @@ Aspose.Words 提供預設的字體替代設定，供 Google Noto 字體使用。
 
 ## Where Aspose.Words Looks for Fonts
 
-Aspose.Words 會自動在檔案系統上尋找 TrueType 字體。 通常你可以仰賴 Aspose.Words 的預設動作來找到 `TrueType` 字體，但有時你需要指定自己包含 TrueType 字體的資料夾。 [Specifying TrueType Fonts Location](/words/net/specifying-truetype-fonts-location/)這個話題描述Aspose.Words在哪裡尋找字體以及如何指定自己的字體位置。
+Aspose.Words 會自動在檔案系統上尋找 TrueType 字體。 通常你可以仰賴 Aspose.Words 的預設動作來找到 `TrueType` 字體，但有時你需要指定自己包含 TrueType 字體的資料夾。 [Specifying TrueType Fonts Location](/words/zh-hant/net/specifying-truetype-fonts-location/)這個話題描述Aspose.Words在哪裡尋找字體以及如何指定自己的字體位置。
 
 ## 在 Aspose.Words 和 Microsoft Word 中字型格式處理的差異
 

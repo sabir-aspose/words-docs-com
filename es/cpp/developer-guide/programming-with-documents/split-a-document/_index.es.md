@@ -1,4 +1,4 @@
----
+﻿---
 title: Dividir un documento en C++
 second_title: Aspose.Words para C++
 articleTitle: Dividir un Documento
@@ -67,7 +67,7 @@ En esta sección se describen varios casos de uso de dividir documentos por pagi
 
 {{% alert color="primary" %}}
 
-Puedes usar cualquiera [formato de salida compatible con Aspose.Words](/words/cpp/supported-document-formats/).
+Puedes usar cualquiera [formato de salida compatible con Aspose.Words](/words/es/cpp/supported-document-formats/).
 
 {{% /alert %}}
 

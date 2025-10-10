@@ -6,6 +6,8 @@ linktitle: Detect File Format and Check Format Compatibility
 description: "Determine the file format in Node.js if you are not sure what the actual content of the file is, or to check the format compatibility."
 type: docs
 weight: 20
+ai_search_scope: words_nodejs
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/detect-file-format-and-check-format-compatibility/
 aliases: [/nodejs/detect-file-format-and-check-format-compatibility/]
 timestamp: 2025-04-21-11-17-44

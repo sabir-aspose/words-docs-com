@@ -1,4 +1,4 @@
----
+﻿---
 title: Ürüne Genel Bakış
 second_title: Aspose.Words için C++
 articleTitle: Ürüne Genel Bakış
@@ -16,7 +16,7 @@ Hoş geldiniz Aspose.Words için C++!
 
 Aspose.Words, uygulamalarınızın çok çeşitli belge işleme görevlerini gerçekleştirmesini sağlayan platformlar arası bir sınıf kitaplığıdır.
 
-Aspose.Words kullanarak, bir belgeyi desteklenen herhangi bir yükleme biçiminden desteklenen herhangi bir kaydetme biçimine dönüştürebilirsiniz; örneğin, Word biçimleri PDF, HTML veya Markdown, HTML ila DOCX vb. Belgeleri dönüştürme hakkında daha fazla bilgi için [Bir Belgeyi Dönüştürme](/words/cpp/convert-a-document/) bölüm.
+Aspose.Words kullanarak, bir belgeyi desteklenen herhangi bir yükleme biçiminden desteklenen herhangi bir kaydetme biçimine dönüştürebilirsiniz; örneğin, Word biçimleri PDF, HTML veya Markdown, HTML ila DOCX vb. Belgeleri dönüştürme hakkında daha fazla bilgi için [Bir Belgeyi Dönüştürme](/words/tr/cpp/convert-a-document/) bölüm.
 
 Aspose.Words ile Microsoft Word veya Office Automation gibi üçüncü taraf uygulamalara güvenmeden belgeler oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
 
@@ -42,21 +42,21 @@ Aspose.Words için C++ özellikler dört ana alana ayrılabilir.
 
 Belgeleri kolayca ve güvenilir bir şekilde dönüştürme yeteneği Aspose.Words 'ın temel özelliklerinden biridir.
 
-Kapsamlı [belge içe ve dışa aktarma](/words/cpp/loading-saving-and-converting/) ile [35'in üzerinde desteklenen dosya formatı](/words/cpp/supported-document-formats/) kullanıcıların belgeleri [one popular format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) 'dan [another](https://reference.aspose.com/words/cpp/aspose.words/saveformat/)'e, örneğin DOCX'den PDF'a, JPEG veya Markdown'ya dönüştürmelerine olanak tanır.
+Kapsamlı [belge içe ve dışa aktarma](/words/tr/cpp/loading-saving-and-converting/) ile [35'in üzerinde desteklenen dosya formatı](/words/tr/cpp/supported-document-formats/) kullanıcıların belgeleri [one popular format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) 'dan [another](https://reference.aspose.com/words/cpp/aspose.words/saveformat/)'e, örneğin DOCX'den PDF'a, JPEG veya Markdown'ya dönüştürmelerine olanak tanır.
 
 #### Belge Nesne Modeli (DOM)
 
-Tüm belge öğelerine ve biçimlendirmeye zengin bir API aracılığıyla programlı erişim, belge içeriği oluşturmaya, değiştirmeye, çıkarmaya, kopyalamaya, bölmeye, birleştirmeye ve değiştirmeye olanak tanır. Daha fazla bilgi edinin [Aspose.Words Belge Nesne Modeli (DOM)](/words/cpp/aspose-words-document-object-model/) bölüm.
+Tüm belge öğelerine ve biçimlendirmeye zengin bir API aracılığıyla programlı erişim, belge içeriği oluşturmaya, değiştirmeye, çıkarmaya, kopyalamaya, bölmeye, birleştirmeye ve değiştirmeye olanak tanır. Daha fazla bilgi edinin [Aspose.Words Belge Nesne Modeli (DOM)](/words/tr/cpp/aspose-words-document-object-model/) bölüm.
 
 #### İşleme
 
-Terimi kullanıyoruz [Aspose.Words içinde oluşturma](/words/cpp/rendering/) bir belgeyi sayfalandırılmış veya sayfa kavramına sahip bir dosya biçimine veya ortama dönüştürme işlemini tanımlamak için.
+Terimi kullanıyoruz [Aspose.Words içinde oluşturma](/words/tr/cpp/rendering/) bir belgeyi sayfalandırılmış veya sayfa kavramına sahip bir dosya biçimine veya ortama dönüştürme işlemini tanımlamak için.
 
 Sunucu tarafı belgeleri oluşturmak için tüm belgeleri veya belirli sayfaları PDF veya XPS'ye dönüştürebilir, yazdırabilirsiniz. Ve tüm bunlar yüksek doğrulukla - aynen Microsoft Word 'ın yapacağı gibi.
 
 #### Raporlama
 
-Sıfırdan veya şablonları veri kaynaklarından veya iş nesnelerinden gelen verilerle doldurarak belgeler veya raporlar oluşturun. Raporlama ve veritabanlarından veri alma hakkında daha fazla bilgi için bkz. [Mail Merge ve Raporlama](/words/cpp/mail-merge-and-reporting/).
+Sıfırdan veya şablonları veri kaynaklarından veya iş nesnelerinden gelen verilerle doldurarak belgeler veya raporlar oluşturun. Raporlama ve veritabanlarından veri alma hakkında daha fazla bilgi için bkz. [Mail Merge ve Raporlama](/words/tr/cpp/mail-merge-and-reporting/).
 
 ### Platform Bağımsızlığı
 
@@ -86,8 +86,8 @@ Projelerinde daha önce Microsoft Word Otomasyonu kullanmış olan geliştiricil
 
 ## Fiyatlandırma ve Politikalar
 
-Lütfen ziyaret edin [Lisanslama](/words/cpp/licensing/) lisanslar hakkında bilgi almak ve gözden geçirmek için sayfa [Fiyat Bilgisi](https://purchase.aspose.com/pricing/words/family/) fiyatlandırma ile ilgili ayrıntılar için sayfa.
+Lütfen ziyaret edin [Lisanslama](/words/tr/cpp/licensing/) lisanslar hakkında bilgi almak ve gözden geçirmek için sayfa [Fiyat Bilgisi](https://purchase.aspose.com/pricing/words/family/) fiyatlandırma ile ilgili ayrıntılar için sayfa.
 
 ## Teknik Destek
 
-Aspose.Words teknik destek hakkında daha fazla bilgi için şu adrese bir göz atın: [destek sayfası](/words/cpp/technical-support/).
+Aspose.Words teknik destek hakkında daha fazla bilgi için şu adrese bir göz atın: [destek sayfası](/words/tr/cpp/technical-support/).

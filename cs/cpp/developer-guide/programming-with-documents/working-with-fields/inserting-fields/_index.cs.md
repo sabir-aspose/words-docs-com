@@ -14,7 +14,7 @@ Existuje několik různých způsobů, jak vložit pole do dokumentu:
 
 - použití [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/)
 - použití [FieldBuilder](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldbuilder/)
-- použití [Aspose.Words Model Objektu Dokumentu (DOM)](/words/cpp/aspose-words-document-object-model/)
+- použití [Aspose.Words Model Objektu Dokumentu (DOM)](/words/cs/cpp/aspose-words-document-object-model/)
 
 V tomto článku se podíváme na každou cestu podrobněji a analyzujeme, jak vložit určitá pole pomocí těchto možností.
 
@@ -64,7 +64,7 @@ Následující příklad kódu ukazuje, jak vložit pole do dokumentu pomocí **
 
 ## Vkládání polí pomocí DOM
 
-Můžete také vložit různé typy polí pomocí [Aspose.Words Model Objektu Dokumentu (DOM)](/words/cpp/aspose-words-document-object-model/). V této části se podíváme na několik příkladů.
+Můžete také vložit různé typy polí pomocí [Aspose.Words Model Objektu Dokumentu (DOM)](/words/cs/cpp/aspose-words-document-object-model/). V této části se podíváme na několik příkladů.
 
 ### Vložení slučovacího pole do dokumentu pomocí DOM
 

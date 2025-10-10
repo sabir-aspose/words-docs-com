@@ -1,14 +1,14 @@
 ---
 title: Supported Document Formats
-second_title: Aspose.Words for Java
+second_title: Aspose.Words for .NET
 articleTitle: Supported Document Formats
 linktitle: Supported Document Formats
 type: docs
-description: "Edit source documents in many popular formats, as well as freely convert files from one format to another using Java."
-weight: 30
-ai_search_scope: words_java
+description: "Edit source documents in many popular formats, as well as freely convert files from one format to another using C#."
+weight: 16
+ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
-url: /java/supported-document-formats/
+url: /net/supported-document-formats/
 timestamp: 2024-10-21-11-17-44
 ---
 
@@ -18,7 +18,7 @@ See the [File Format Wiki](https://docs.fileformat.com/) for more details on eac
 
 {{% /alert %}}
 
-The following table indicates the input and output file formats supported by Aspose.Words for Java:
+The following table indicates the input and output file formats supported by Aspose.Words for .NET:
 
 | Format | Description | Load | Save | Remarks |
 | :- | :- | :- | :- | :- |
@@ -39,25 +39,25 @@ The following table indicates the input and output file formats supported by Asp
 | `WordML` | Microsoft Word 2003 WordprocessingML format | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`HTML`](https://docs.fileformat.com/web/html/) | HTML or XHTML format | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`MHTML`](https://docs.fileformat.com/web/mhtml/) | MHTML (Web archive) format | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
-| [`MOBI`](https://docs.fileformat.com/ebook/mobi/) | MOBI is an eBook format used by the `MobiPocket` Reader and Amazon Kindle Readers | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
-| [`AZW3`](https://docs.fileformat.com/ebook/azw3/) | AZW3 is an eBook format used by Amazon Kindle readers | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
+| [`MOBI`](https://docs.fileformat.com/ebook/mobi/) | eBook format used by the `MobiPocket` Reader and Amazon Kindle Readers | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
+| [`AZW3`](https://docs.fileformat.com/ebook/azw3/) | eBook format used by Amazon Kindle readers | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`CHM`](https://docs.fileformat.com/web/chm/) | CHM (Compiled HTML Help) format | {{< emoticons/tick >}} |  | |
 | [`ODT`](https://docs.fileformat.com/word-processing/odt/) | ODF Text Document | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`OTT`](https://docs.fileformat.com/word-processing/ott/) | ODF Text Document Template | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`TXT`](https://docs.fileformat.com/word-processing/txt/) | Plain Text | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`MD`](https://docs.fileformat.com/word-processing/md/) | Markdown Document | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
-| [`PDF`](https://docs.fileformat.com/pdf/) | Adobe Portable Document format |  | {{< emoticons/tick >}} |  |
-| [`EPS`](https://docs.fileformat.com/page-description-language/eps/) | Encapsulated Postscript file format |  | {{< emoticons/tick >}} |  |
+| [`PDF`](https://docs.fileformat.com/pdf/) | Adobe Portable Document format | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
+| [`EPS`](https://docs.fileformat.com/page-description-language/eps/) | Encapsulated Postscript file format |  |{{< emoticons/tick >}} |  |
 | [`XPS`](https://docs.fileformat.com/page-description-language/xps/) | Saves the document in the XPS (XML Paper Specification) format |  | {{< emoticons/tick >}} |  |
 | `XamlFixed` | Saves the document in the Extensible Application Markup Language (XAML) format as a fixed document |  | {{< emoticons/tick >}} |  |
 | [`SVG`](https://docs.fileformat.com/page-description-language/svg/) | Saves the document in the SVG (Scalable Vector Graphics) format |  | {{< emoticons/tick >}} |  |
 | `HtmlFixed` | Saves the document in the HTML format using absolutely positioned elements |  | {{< emoticons/tick >}} |  |
 | `OpenXps` | Saves the document in the OpenXPS (Ecma-388) format |  | {{< emoticons/tick >}} |  |
 | [`PS`](https://docs.fileformat.com/page-description-language/ps/) | Saves the document in the PS (PostScript) format |  | {{< emoticons/tick >}} |  |
-| [`PCL`](https://docs.fileformat.com/page-description-language/pcl/) | Saves the document in the PCL (Printer Control Language) format |  | {{< emoticons/tick >}} |  |
+| [`PCL`](https://docs.fileformat.com/page-description-language/pcl/) | Saves the document in the PCL (Printer Control Language) format. |  | {{< emoticons/tick >}} |  |
 | [`EPUB`](https://docs.fileformat.com/ebook/epub/) | IDPF EPUB format | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
-| `XamlFlow` | **Beta**<br />Saves the document in the Extensible Application Markup Language (XAML) format as a flow document |  | {{< emoticons/tick >}} |  |
-| `XamlFlowPack` | **Beta**<br />Saves the document in the Extensible Application Markup Language (XAML) package format as a flow document |  | {{< emoticons/tick >}} |  |
+| `XamlFlow` | Saves the document in the Extensible Application Markup Language (XAML) format as a flow document |  | {{< emoticons/tick >}} |  |
+| `XamlFlowPack` | Saves the document in the Extensible Application Markup Language (XAML) package format as a flow document |  | {{< emoticons/tick >}} |  |
 | [`TIFF`](https://docs.fileformat.com/image/tiff/) | Renders a page or pages of the document and saves them into a single or multipage TIFF file |  | {{< emoticons/tick >}} |  |
 | [`PNG`](https://docs.fileformat.com/image/png/) | Renders a page of the document and saves it as a PNG file |  | {{< emoticons/tick >}} |  |
 | [`BMP`](https://docs.fileformat.com/image/bmp/) | Renders a page of the document and saves it as a BMP file |  | {{< emoticons/tick >}} |  |

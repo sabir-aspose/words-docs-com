@@ -1,4 +1,4 @@
----
+﻿---
 title: Lucrul cu secțiuni în C#
 second_title: Aspose.Words pentru .NET
 articleTitle: Lucrul cu secțiuni
@@ -38,7 +38,7 @@ De asemenea puteți folosi enumerarea [SectionStart](https://reference.aspose.co
 
 ## Gestionează o secțiune
 
-Întrucât secțiunea este un nod compus obișnuit, întreaga manipulare de noduri API poate fi folosită pentru a manipula secțiunile: pentru a adăuga, elimina și alte operații pe secțiuni. Poţi citi mai multe despre noduri în articolul [Aspose.Words Document Object Model (DOM)](/words/net/aspose-words-document-object-model/).
+Întrucât secțiunea este un nod compus obișnuit, întreaga manipulare de noduri API poate fi folosită pentru a manipula secțiunile: pentru a adăuga, elimina și alte operații pe secțiuni. Poţi citi mai multe despre noduri în articolul [Aspose.Words Document Object Model (DOM)](/words/ro/net/aspose-words-document-object-model/).
 
 Pe de altă parte, poți folosi și `DocumentBuilder` API pentru a lucra cu secțiuni. În acest articol ne vom concentra pe această modalitate specifică de a lucra cu secțiuni.
 
@@ -155,5 +155,5 @@ Exemplul de cod de mai jos arată cum să modificați proprietățile paginii î
 ## Vezi și
 
 * [Logical Levels of Nodes in a Document](/words/net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
-* [Insert and Append Documents](/words/net/insert-and-append-documents/)
+* [Insert and Append Documents](/words/ro/net/insert-and-append-documents/)
 

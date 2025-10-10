@@ -1,4 +1,4 @@
----
+﻿---
 title: Markdown DOM 'a çevirin
 second_title: Aspose.Words için Java
 articleTitle: Bir Markdown Document Object Model'a çevirin (DOM)
@@ -12,7 +12,7 @@ timestamp: 2024-10-21-11-17-44
 
 Belgenin içeriğini ve biçimlendirmesini programlı olarak okumak, değiştirmek ve değiştirmek için, bunu Aspose.Words Document Object Model ( DOM ) 'e çevirmek gerekir.
 
-Word belgeleriyle çelişkili olarak, Markdown makale [Aspose.Words Document Object Model (DOM)](/words/java/aspose-words-document-object-model/) içinde açıklanan DOM'ü takip etmez. Bununla birlikte, Aspose.Words kendi mekanizmasını çevirerek Markdown belgeleri için DOM ve geri çevirme, bu nedenle metin biçimlendirme, tablolar, başlıklar vb. gibi öğeleri ile başarıyla çalışabiliriz.
+Word belgeleriyle çelişkili olarak, Markdown makale [Aspose.Words Document Object Model (DOM)](/words/tr/java/aspose-words-document-object-model/) içinde açıklanan DOM'ü takip etmez. Bununla birlikte, Aspose.Words kendi mekanizmasını çevirerek Markdown belgeleri için DOM ve geri çevirme, bu nedenle metin biçimlendirme, tablolar, başlıklar vb. gibi öğeleri ile başarıyla çalışabiliriz.
 
 Bu makale, çeşitli markdown özelliklerinin nasıl Aspose.Words DOM ve geri Markdown formatına çevrildiğini gösterir.
 
@@ -98,5 +98,5 @@ Aspose.Words ayrıca aşağıda gösterildiği gibi tabloları DOM'e çevirmeniz
 
 ## Ayrıca bakınız
 
-* [Working with Markdown Features](/words/java/working-with-markdown-features/)
+* [Working with Markdown Features](/words/tr/java/working-with-markdown-features/)
 

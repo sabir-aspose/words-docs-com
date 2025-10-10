@@ -1,4 +1,4 @@
----
+﻿---
 title: Skep BarCode in Java
 second_title: Aspose.Words vir Java
 articleTitle: Genereer'n Pasgemaakte BarCode - Beeldlêer
@@ -55,7 +55,7 @@ U kan die dokument ook stoor met die gelaaide of nuut ingevoegde strepieskode in
 
 {{% alert color="primary" %}}
 
-Vir meer inligting oor die omskakeling van dokumente van een formaat na'n ander, sien die [Skakel'n Dokument om](/words/java/convert-a-document/) dokumentasie afdeling.
+Vir meer inligting oor die omskakeling van dokumente van een formaat na'n ander, sien die [Skakel'n Dokument om](/words/af/java/convert-a-document/) dokumentasie afdeling.
 
 {{% /alert %}}
 

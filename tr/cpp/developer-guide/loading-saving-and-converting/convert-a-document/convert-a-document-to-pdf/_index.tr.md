@@ -1,4 +1,4 @@
----
+﻿---
 title: Bir Belgeyi C++'de PDF'a Dönüştürün
 second_title: Aspose.Words için C++
 articleTitle: Bir Belgeyi PDF konumuna Dönüştürme
@@ -47,7 +47,7 @@ Aynı teknikle, herhangi bir akış düzeni biçimi belgesini PDF biçimine dön
 
 ### Farklı PDF Standartlara Dönüştür {#converting-to-various-pdf-standards}
 
-Aspose.Words, DOC veya DOCX'in çeşitli PDF format standartlarına dönüştürülmesini desteklemek için [PdfCompliace](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) numaralandırmasını sağlar (ör. PDF 1.7, PDF 1.5, vb.).
+Aspose.Words, DOC veya DOCX'in çeşitli PDF format standartlarına dönüştürülmesini desteklemek için [PdfCompliance](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_compliance/) numaralandırmasını sağlar (ör. PDF 1.7, PDF 1.5, vb.).
 
 Aşağıdaki kod örneği, bir belgenin PDF 17'ye uygun olarak [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) kullanılarak PDF 1.7'ye nasıl dönüştürüleceğini göstermektedir:
 
@@ -67,6 +67,6 @@ Bu kodun çalışması için projenize Aspose.Words ve `System.Drawing` başvuru
 
 ## Ayrıca bakınız
 
-- Makale [İşleme](/words/cpp/rendering/) sabit sayfa ve akış düzeni biçimleri hakkında daha fazla bilgi için
-- Makale [Sabit Sayfa Biçimine Dönüştürme](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) sayfa düzeni hakkında daha fazla bilgi için
-- Makale [PDF'ye Dönüştürürken Oluşturma Seçeneklerini Belirtin](/words/cpp/specify-rendering-options-when-converting-to-pdf/) `PdfSaveOptions` sınıfını kullanma hakkında daha fazla bilgi için
+- Makale [İşleme](/words/tr/cpp/rendering/) sabit sayfa ve akış düzeni biçimleri hakkında daha fazla bilgi için
+- Makale [Sabit Sayfa Biçimine Dönüştürme](/words/cpp/converting-to-fixed-page-format/#what-is-a-page-layout) sayfa düzeni hakkında daha fazla bilgi için
+- Makale [PDF'ye Dönüştürürken Oluşturma Seçeneklerini Belirtin](/words/tr/cpp/specify-rendering-options-when-converting-to-pdf/) `PdfSaveOptions` sınıfını kullanma hakkında daha fazla bilgi için

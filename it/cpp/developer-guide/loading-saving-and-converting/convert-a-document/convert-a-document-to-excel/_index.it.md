@@ -1,4 +1,4 @@
----
+﻿---
 title: Convertire Word in Excel in C++
 second_title: Aspose.Words per C++
 articleTitle: Convertire un documento in Excel
@@ -61,5 +61,5 @@ doc->Save(ArtifactsDir + u"BaseConversions.CompressXlsx.xlsx", saveOptions);
 
 ## Vedi anche
 
-- Sezione documentazione [Proteggere o crittografare un documento](/words/cpp/protect-or-encrypt-a-document/) per ulteriori informazioni sulla protezione e la crittografia di un documento
-- Articolo [Trova e sostituisci](/words/cpp/find-and-replace/) per ulteriori informazioni sulla ricerca e la sostituzione del contenuto desiderato
+- Sezione documentazione [Proteggere o crittografare un documento](/words/it/cpp/protect-or-encrypt-a-document/) per ulteriori informazioni sulla protezione e la crittografia di un documento
+- Articolo [Trova e sostituisci](/words/it/cpp/find-and-replace/) per ulteriori informazioni sulla ricerca e la sostituzione del contenuto desiderato

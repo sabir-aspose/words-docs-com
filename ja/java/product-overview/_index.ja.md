@@ -18,7 +18,7 @@ Aspose.Wordsは、アプリケーションがさまざまなドキュメント�
 
 Aspose.Wordsを使用すると、Microsoft WordやOffice Automationなどのサードパーティのアプリケーションに依存することなく、ドキュメントを作成、変更、変換、レンダリング、および印刷できます。Aspose.Wordsを使用すると、ドキュメントを作成、変更、変換、レンダリング、および印刷できます。
 
-ドキュメントを任意のサポートされているロード形式から任意のサポートされている保存形式に変換できることに注意してください。Microsoft Word形式をPDF、HTML、またはMarkdown、HTMLをDOCXに変換するなどです。 ドキュメントの変換の詳細については、次を参照してください。 [文書を変換する](/words/java/convert-a-document/) セクション。
+ドキュメントを任意のサポートされているロード形式から任意のサポートされている保存形式に変換できることに注意してください。Microsoft Word形式をPDF、HTML、またはMarkdown、HTMLをDOCXに変換するなどです。 ドキュメントの変換の詳細については、次を参照してください。 [文書を変換する](/words/ja/java/convert-a-document/) セクション。
 
 私たちのライブラリのもう1つの一般的なオプションは*Reports and Mails*です。 私達のユーザーは非常に複雑なそれぞれ調節された財政、医学、および他の*Reports*を発生させる。 そうすることで、生成されたドキュメントは、通常のテキストエディタを使用してレポートを手動で作成したように見えます。 別のオプション*Mail*は、数千、数百万のシンプルだが個人的なテンプレートベースのドキュメントを非常に迅速に生成する機能を提供します。
 
@@ -46,21 +46,21 @@ Aspose.WordsのJavaフィーチャは、四つの主要な領域に分けるこ�
 
 文書を簡単かつ確実に変換する機能は、Aspose.Wordsの主な機能の1つです。
 
-総合 [ドキュメントのインポートとエクスポート](/words/java/loading-saving-and-converting/) と [35以上のサポートされているファイル形式](/words/java/supported-document-formats/) DOCXからPDF、JPEG、Markdownなど、[一つの一般的な形式](https://reference.aspose.com/words/java/com.aspose.words/loadformat/)から[another](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)にドキュメントを変換できます。
+総合 [ドキュメントのインポートとエクスポート](/words/ja/java/loading-saving-and-converting/) と [35以上のサポートされているファイル形式](/words/ja/java/supported-document-formats/) DOCXからPDF、JPEG、Markdownなど、[一つの一般的な形式](https://reference.aspose.com/words/java/com.aspose.words/loadformat/)から[another](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)にドキュメントを変換できます。
 
 #### ドキュメントオブジェクトモデル(DOM)
 
-すべての文書要素と書式設定への豊富なAPIを介したプログラムによるアクセスにより、文書コンテンツを作成、変更、抽出、コピー、分割、結合、および置 の詳細をご覧ください [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/java/aspose-words-document-object-model/) セクション。
+すべての文書要素と書式設定への豊富なAPIを介したプログラムによるアクセスにより、文書コンテンツを作成、変更、抽出、コピー、分割、結合、および置 の詳細をご覧ください [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/ja/java/aspose-words-document-object-model/) セクション。
 
 #### レンダリング
 
-私たちは、用語を使用します [Aspose.Wordsでのレンダリング](/words/java/rendering/) 文書をファイル形式または媒体に変換するプロセスを説明するために、ページ化された、またはページの概念を持っています。
+私たちは、用語を使用します [Aspose.Wordsでのレンダリング](/words/ja/java/rendering/) 文書をファイル形式または媒体に変換するプロセスを説明するために、ページ化された、またはページの概念を持っています。
 
 ドキュメント全体または特定のページをPDFまたはXPSに変換して、サーバー側のドキュメントを生成したり、印刷したり、ページを表示したりできます。 そして、これはすべて忠実度が高く、Microsoft Wordがそれを行ったのとまったく同じです。
 
 #### 報告
 
-最初から、またはデータソースまたはビジネスオブジェクトからのデータをテンプレートに入力して、ドキュメントまたはレポートを生成します。 データベースからのデータのレポートおよびフェッチの詳細については、 [Mail Mergeと報告](/words/java/mail-merge-and-reporting/) と [LINQレポートエンジン](/words/java/linq-reporting-engine/) セクション。
+最初から、またはデータソースまたはビジネスオブジェクトからのデータをテンプレートに入力して、ドキュメントまたはレポートを生成します。 データベースからのデータのレポートおよびフェッチの詳細については、 [Mail Mergeと報告](/words/ja/java/mail-merge-and-reporting/) と [LINQレポートエンジン](/words/java/linq-reporting-engine/) セクション。
 
 ### プラットフォームの独立性
 
@@ -104,8 +104,8 @@ Aspose.Wordsには150以上のパブリッククラスと列挙があります�
 
 ## 価格とポリシー
 
-をご覧ください [ライセンス](/words/java/licensing/) ライセンスの情報とレビューのためのページ [価格情報](https://purchase.aspose.com/pricing/words/family/) 価格の詳細については、ページ.
+をご覧ください [ライセンス](/words/ja/java/licensing/) ライセンスの情報とレビューのためのページ [価格情報](https://purchase.aspose.com/pricing/words/family/) 価格の詳細については、ページ.
 
 ## 技術サポート
 
-Aspose.Wordsテクニカルサポートの詳細については、以下を参照してください [サポートページ](/words/java/technical-support/).
+Aspose.Wordsテクニカルサポートの詳細については、以下を参照してください [サポートページ](/words/ja/java/technical-support/).

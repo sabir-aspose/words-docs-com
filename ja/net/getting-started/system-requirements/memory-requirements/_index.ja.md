@@ -1,4 +1,4 @@
----
+﻿---
 title: メモリ要件
 second_title: .NET用Aspose.Words
 articleTitle: メモリ要件
@@ -48,5 +48,5 @@ Aspose.Words は、さまざまな形式のドキュメントを処理するた�
 
 * [Visual Studio (C#、Visual Basic、C++、F#) でのメモリ使用量を測定します。](https://learn.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2022)
 * [レンダリング](/words/ja/net/rendering/)
-* [Mail Merge とレポート](/words/net/mail-merge-and-reporting/)
+* [Mail Merge とレポート](/words/ja/net/mail-merge-and-reporting/)
 * [フィールドの操作](/words/ja/net/working-with-fields/)

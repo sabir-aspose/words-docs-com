@@ -1,4 +1,4 @@
----
+﻿---
 title: Enregistrement au format de page fixe en C++
 second_title: Aspose.Words pour C++
 articleTitle: Enregistrement d'un document au format de page fixe
@@ -17,7 +17,7 @@ Lors de l'enregistrement de documents dans des formats de pages fixes, les optio
 - Le nombre et la plage de pages contenues dans le document de sortie([PageIndex](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pageset/), [PageCount](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pageset/)).
 - Progression de l'enregistrement du document page par page ([PageSavingCallback](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pagesavingcallback/)).
 - Un ensemble de caractères utilisés pour le rendu des nombres ([NumeralFormat](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_numeralformat/)).
-- Un lecteur de métafichier ([MetafileRenderingOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_metafilerenderingoptions/)). Pour plus de détails, voir le [Gestion des métafichiers Windows ](/words/cpp/handling-windows-metafiles/) l'article.
+- Un lecteur de métafichier ([MetafileRenderingOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_metafilerenderingoptions/)). Pour plus de détails, voir le [Gestion des métafichiers Windows ](/words/fr/cpp/handling-windows-metafiles/) l'article.
 - Un taux de qualité pour la recompression des images JPEG, dont la valeur peut différer légèrement, en fonction du format de sauvegarde sélectionné ([JpegQuality](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_jpegquality/)).
 - Optimisation des graphiques vectoriels en sortie Aspose.Words ([OptimizeOutput](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_optimizeoutput/)).
 - Options graphiques lors de l'enregistrement aux formats Tiff, Png, Bmp, Jpeg, Emf ([UseAntiAliasing](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_useantialiasing/), [UseHighQualityRendering](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_usehighqualityrendering/)).

@@ -1,4 +1,4 @@
----
+﻿---
 title: Cara Membuat Kode Baris
 second_title: Aspose.Words untuk .NET
 articleTitle: Membuat sebuah Barcode kustom Gambar
@@ -55,7 +55,7 @@ Anda juga dapat menyimpan dokumen dengan barcode yang telah diisi atau disisipka
 
 {{% alert color="primary" %}}
 
-Untuk informasi lebih lanjut tentang konversi dokumen dari satu format ke format lainnya, lihat bagian dokumentasi [Convert a Document](/words/net/convert-a-document/).
+Untuk informasi lebih lanjut tentang konversi dokumen dari satu format ke format lainnya, lihat bagian dokumentasi [Convert a Document](/words/id/net/convert-a-document/).
 
 {{% /alert %}}
 

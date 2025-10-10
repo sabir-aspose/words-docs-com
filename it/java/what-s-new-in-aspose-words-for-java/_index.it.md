@@ -470,7 +470,7 @@ La funzione per riconoscere i collegamenti ipertestuali durante il caricamento d
 
 {{% alert color="primary" %}}
 
-Scopri di più su [Aspose.Wordsper Java 23.9 Note di rilascio](/words/java/aspose-words-for-java-23-9-release-notes/).
+Scopri di più su [Aspose.Wordsper Java 23.9 Note di rilascio](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-9-release-notes/).
 
 Scopri di più su [Aspose.Wordsper Java 23.10 Note di rilascio](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: 表格概覽
 second_title:  Aspose.Words for .NET
 articleTitle: 表格概覽
@@ -65,5 +65,5 @@ Aspose.Words是一個用於處理各種格式的文件-PDF、HTML、不同 Micro
 
 ## 另看
 
-* [Aspose.Words Document Object Model (DOM)](/words/net/aspose-words-document-object-model/)
-* [Logical Levels of Nodes in a Document](/words/net/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Document Object Model (DOM)](/words/zh-hant/net/aspose-words-document-object-model/)
+* [Logical Levels of Nodes in a Document](/words/zh-hant/net/logical-levels-of-nodes-in-a-document/)

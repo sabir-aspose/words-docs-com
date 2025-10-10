@@ -1,4 +1,4 @@
----
+﻿---
 title: Lucraţi cu proprietăţile documentelor în C#
 second_title: Aspose.Words pentru .NET
 articleTitle: Lucrează cu Proprietățile Documentului
@@ -15,7 +15,7 @@ Proprietățile documentului permit stocarea unor informații utile despre docum
 * Sistem sau încorporat care conține valori precum titlul documentului, numele autorului, statistici ale documentului și altele.
 * Definit de utilizator sau particular, furnizat ca perechi cu nume și valoare, în care utilizatorul poate defini atât numele cât și valoarea.
 
-Este util să știți că informațiile despre API și numărul de versiune sunt scrise direct în documentele de ieșire. De exemplu, la convertirea unui document în format PDF, Aspose.Words completează câmpul "Aplicație" cu "Aspose.Words", și câmpul "PDF Producer" cu "Aspose.Words pentru .NET YY.M.N", unde *YY.M.N* reprezintă versiunea de Aspose.Words folosită pentru conversie. Pentru detalii suplimentare, vezi [Generator or Producer Name Included in Output Documents](/words/net/generator-or-producer-name-included-in-output-documents/).
+Este util să știți că informațiile despre API și numărul de versiune sunt scrise direct în documentele de ieșire. De exemplu, la convertirea unui document în format PDF, Aspose.Words completează câmpul "Aplicație" cu "Aspose.Words", și câmpul "PDF Producer" cu "Aspose.Words pentru .NET YY.M.N", unde *YY.M.N* reprezintă versiunea de Aspose.Words folosită pentru conversie. Pentru detalii suplimentare, vezi [Generator or Producer Name Included in Output Documents](/words/ro/net/generator-or-producer-name-included-in-output-documents/).
 
 {{% alert color="primary" %}}
 

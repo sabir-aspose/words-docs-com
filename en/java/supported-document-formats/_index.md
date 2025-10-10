@@ -1,14 +1,15 @@
 ---
 title: Supported Document Formats
-second_title: Aspose.Words for Node.js via .NET
+second_title: Aspose.Words for Java
 articleTitle: Supported Document Formats
 linktitle: Supported Document Formats
 type: docs
-description: "Edit source documents in many popular formats, as well as freely convert files from one format to another using Node.js."
-weight: 20
-url: /nodejs-net/supported-document-formats/
-aliases: [/nodejs/supported-document-formats/]
-timestamp: 2025-04-18-11-17-44
+description: "Edit source documents in many popular formats, as well as freely convert files from one format to another using Java."
+weight: 6
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+url: /java/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}
@@ -17,7 +18,7 @@ See the [File Format Wiki](https://docs.fileformat.com/) for more details on eac
 
 {{% /alert %}}
 
-The following table indicates the input and output file formats supported by Aspose.Words for Node.js via .NET:
+The following table indicates the input and output file formats supported by Aspose.Words for Java:
 
 | Format | Description | Load | Save | Remarks |
 | :- | :- | :- | :- | :- |
@@ -45,8 +46,8 @@ The following table indicates the input and output file formats supported by Asp
 | [`OTT`](https://docs.fileformat.com/word-processing/ott/) | ODF Text Document Template | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`TXT`](https://docs.fileformat.com/word-processing/txt/) | Plain Text | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`MD`](https://docs.fileformat.com/word-processing/md/) | Markdown Document | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
-| [`PDF`](https://docs.fileformat.com/pdf/) | Adobe Portable Document format | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
-| [`EPS`](https://docs.fileformat.com/page-description-language/eps/) | Encapsulated Postscript file format |  |{{< emoticons/tick >}} |  |
+| [`PDF`](https://docs.fileformat.com/pdf/) | Adobe Portable Document format |  | {{< emoticons/tick >}} |  |
+| [`EPS`](https://docs.fileformat.com/page-description-language/eps/) | Encapsulated Postscript file format |  | {{< emoticons/tick >}} |  |
 | [`XPS`](https://docs.fileformat.com/page-description-language/xps/) | Saves the document in the XPS (XML Paper Specification) format |  | {{< emoticons/tick >}} |  |
 | `XamlFixed` | Saves the document in the Extensible Application Markup Language (XAML) format as a fixed document |  | {{< emoticons/tick >}} |  |
 | [`SVG`](https://docs.fileformat.com/page-description-language/svg/) | Saves the document in the SVG (Scalable Vector Graphics) format |  | {{< emoticons/tick >}} |  |

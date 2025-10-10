@@ -1,4 +1,4 @@
----
+﻿---
 title: Maak een streepjescodes aan Java
 second_title: Aspose.Words voor Java
 articleTitle: Genereer een Aangepaste Barcode Afbeelding
@@ -55,7 +55,7 @@ U kunt het document ook opslaan met de geladen of nieuw ingevoerde streepjescode
 
 {{% alert color="primary" %}}
 
-Voor meer informatie over het converteren van documenten van een formaat naar een ander, zie de [Convert a Document](/words/java/convert-a-document/) documentatie sectie.
+Voor meer informatie over het converteren van documenten van een formaat naar een ander, zie de [Convert a Document](/words/nl/java/convert-a-document/) documentatie sectie.
 
 {{% /alert %}}
 

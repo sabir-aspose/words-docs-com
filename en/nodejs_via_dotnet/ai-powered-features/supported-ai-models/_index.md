@@ -6,6 +6,8 @@ linktitle: Supported AI Models
 type: docs
 weight: 10
 description: "Aspose.Words for Node.js supports OpenAI and Google AI models for summarization and translation documents. Use Aspose.Words with Gpt-4o, Gpt-4o mini, Gpt-4 Turbo, GPT-3.5 Turbo, Gemini 1.5 Flash, Gemini 1.5 Flash-8B, Gemini 1.5 Pro."
+ai_search_scope: words_nodejs
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/supported-ai-models/
 timestamp: 2025-05-12-12-00-00
 ---

@@ -42,10 +42,10 @@ Aspose.Words يوفر مجموعة واسعة من الميزات للعمل م�
 
 تتطلب العمليات الأكثر تعقيدا مثل العرض (التحويل إلى تنسيقات الصفحات الثابتة) وتحديث الحقول وتقسيم الصفحة وغيرها، بالنسبة لبعض المستندات موارد أكثر 20 مرة من الذاكرة المخصصة بواسطة المستند الذي تم تحميله في Aspose.Words DOM.
 
-إذا كانت نتائج التنميط الخاصة بك تشير إلى مشكلة محتملة في الذاكرة في Aspose.Words، فيرجى الاتصال بنا [فريق الدعم](/words/java/technical-support/) وتشمل جميع المعلومات التشخيصية.
+إذا كانت نتائج التنميط الخاصة بك تشير إلى مشكلة محتملة في الذاكرة في Aspose.Words، فيرجى الاتصال بنا [فريق الدعم](/words/ar/java/technical-support/) وتشمل جميع المعلومات التشخيصية.
 
 ## أنظر أيضا
 
-* [تقديم](/words/java/rendering/)
-* [Mail Merge والإبلاغ](/words/java/mail-merge-and-reporting/)
-* [العمل مع الحقول](/words/java/working-with-fields/)
+* [تقديم](/words/ar/java/rendering/)
+* [Mail Merge والإبلاغ](/words/ar/java/mail-merge-and-reporting/)
+* [العمل مع الحقول](/words/ar/java/working-with-fields/)

@@ -1,4 +1,4 @@
----
+﻿---
 title: เค้าโครงหน้าในC++คืออะไร
 second_title: Aspose.WordsสำหรับC++
 articleTitle: เค้าโครงหน้าคืออะไร
@@ -20,6 +20,6 @@ Aspose.Wordsใช้ฟังก์ชันการจัดวางหน�
 
 ## ดูเพิ่มเติม
 
-* [การสร้างเค้าโครงหน้า](/words/cpp/creating-a-page-layout/)
-* [การบันทึกเอกสารในรูปแบบหน้าถาวร](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [ระบุตัวเลือกเค้าโครง](/words/cpp/specify-layout-options/)
+* [การสร้างเค้าโครงหน้า](/words/th/cpp/creating-a-page-layout/)
+* [การบันทึกเอกสารในรูปแบบหน้าถาวร](/words/th/cpp/saving-a-document-to-fixed-page-format/)
+* [ระบุตัวเลือกเค้าโครง](/words/th/cpp/specify-layout-options/)

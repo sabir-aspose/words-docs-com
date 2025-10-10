@@ -29,7 +29,7 @@ O exemplo de código a seguir mostra como converter um documento:
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "docx-to-pdf.java" >}}
 
-Para obter mais detalhes sobre como carregar, converter e salvar documentos, consulte o [Carregamento, poupan valuetech](/words/java/loading-saving-and-converting/) secção.
+Para obter mais detalhes sobre como carregar, converter e salvar documentos, consulte o [Carregamento, poupan valuetech](/words/pt/java/loading-saving-and-converting/) secção.
 
 ## Alta Fidelidade
 

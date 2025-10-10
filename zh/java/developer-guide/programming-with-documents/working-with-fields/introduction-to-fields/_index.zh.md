@@ -29,7 +29,7 @@ Aspose.Words是一个为服务器端处理Microsoft Word文档而设计的类库
 
 ![fields-aspose-words-java](/words/java/introduction-to-fields/introduction-to-fields-1.png)
 
-构成字段代码的内容存储为[FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/)和[FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/)之间的[Run](https://reference.aspose.com/words/java/com.aspose.words/run/)节点。 字段结果存储在**FieldSeparator**和[FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/)节点之间，可以由各种类型的内容组成。 通常，字段结果只包含由运行节点组成的文本，但是FieldEnd节点可能位于完全不同的段落中，从而使字段结果由 [块级节点](/words/java/logical-levels-of-nodes-in-a-document/) 如**Table**和**Paragraph**节点为好。
+构成字段代码的内容存储为[FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/)和[FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/)之间的[Run](https://reference.aspose.com/words/java/com.aspose.words/run/)节点。 字段结果存储在**FieldSeparator**和[FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/)节点之间，可以由各种类型的内容组成。 通常，字段结果只包含由运行节点组成的文本，但是FieldEnd节点可能位于完全不同的段落中，从而使字段结果由 [块级节点](/words/zh/java/logical-levels-of-nodes-in-a-document/) 如**Table**和**Paragraph**节点为好。
 
 下面是一个如何通过使用"*DocumentExplorer"*示例在Aspose.Words中存储字段的视图，该示例可以在 [Github](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/java/com/aspose/words/examples/viewers_visualizers/document_explorer).
 

@@ -12,7 +12,7 @@ timestamp: 2024-01-31-14-23-37
 
 本页包含最常见问题的答案。 请了解当前页面-也许这可以让您快速解决问题。
 
-如果您还没有找到问题的答案，您可以在支持论坛上询问。 有关如何正确报告您的问题或问题的信息，请参阅 [技术支持](/words/java/technical-support/) 页。
+如果您还没有找到问题的答案，您可以在支持论坛上询问。 有关如何正确报告您的问题或问题的信息，请参阅 [技术支持](/words/zh/java/technical-support/) 页。
 
 {{% alert color="primary" %}}
 
@@ -32,7 +32,7 @@ Aspose.WordsforJava是一个类库，允许您的应用程序执行各种文档�
 
 **问："Aspose.Words不需要第三方应用程序"是什么意思？**
 
-Aspose.Words对于Java不需要安装任何第三方应用程序或额外的软件包工作。 只需下载并安装Aspose.Words，如 [安装工程](/words/java/installation/) 文章并开始。
+Aspose.Words对于Java不需要安装任何第三方应用程序或额外的软件包工作。 只需下载并安装Aspose.Words，如 [安装工程](/words/zh/java/installation/) 文章并开始。
 
 ------
 
@@ -40,7 +40,7 @@ Aspose.Words对于Java不需要安装任何第三方应用程序或额外的软�
 
 Aspose.WordsforJava涵盖了大多数流行的开发环境和部署平台。 它的API可用于为各种操作系统（如Windows、Linux和Mac OS）以及各种平台开发应用程序。
 
-有关详细信息，请参阅 [产品概览](/words/java/product-overview/) 页和 [平台和Interop可读性](/words/java/platforms-and-interoperability/) 节。
+有关详细信息，请参阅 [产品概览](/words/zh/java/product-overview/) 页和 [平台和Interop可读性](/words/java/platforms-and-interoperability/) 节。
 
 ------
 
@@ -48,7 +48,7 @@ Aspose.WordsforJava涵盖了大多数流行的开发环境和部署平台。 它
 
 Aspose.WordsforJava支持大多数流行的文档格式，例如DOC, DOCX, HTML, Markdown, PDF, XML, 和其他人。
 
-您可以在 [支持的文档格式](/words/java/supported-document-formats/) 页。
+您可以在 [支持的文档格式](/words/zh/java/supported-document-formats/) 页。
 
 ------
 
@@ -56,7 +56,7 @@ Aspose.WordsforJava支持大多数流行的文档格式，例如DOC, DOCX, HTML,
 
 您可以通过两种方式执行此操作-使用试用版或30天临时许可证。 试用版与购买的版本相同，它提供完整的产品功能，但在加载和保存时在文档顶部添加评估水印，并将最大文档大小限制为几百个段落。 临时许可证允许您在没有试用限制的情况下测试Aspose.Words30天。
 
-查看 [许可和订阅](/words/java/licensing/) 页以获取更多信息。
+查看 [许可和订阅](/words/zh/java/licensing/) 页以获取更多信息。
 
 {{% alert color="primary" %}}
 
@@ -70,31 +70,31 @@ Aspose.WordsforJava支持大多数流行的文档格式，例如DOC, DOCX, HTML,
 
 要购买Aspose.Words许可证，您需要转到 [购买](https://purchase.aspose.com/buy) 页，选择"Aspose.Words"产品和适合您的许可证类型。 然后将许可证添加到购物车并按照购物车说明操作。
 
-购买后，按照 [购买许可证](/words/java/licensing/#purchased-license) 节。
+购买后，按照 [购买许可证](/words/zh/java/licensing/) 节。
 
-有关如何安装Aspose.Words的详细信息，请参阅 [安装工程](/words/java/installation/) 页。
+有关如何安装Aspose.Words的详细信息，请参阅 [安装工程](/words/zh/java/installation/) 页。
 
 ------
 
 **问：如何获得支持？**
 
-使用免费的技术支持论坛。 有关如何正确报告问题以及在联系论坛之前需要做些什么的详细信息，请参阅 [技术支持](/words/java/technical-support/) 页。
+使用免费的技术支持论坛。 有关如何正确报告问题以及在联系论坛之前需要做些什么的详细信息，请参阅 [技术支持](/words/zh/java/technical-support/) 页。
 
 ## 呈现文档
 
 {{% alert color="primary" %}}
 
-你可以在 [渲染图](/words/java/rendering/) 文件科。
+你可以在 [渲染图](/words/zh/java/rendering/) 文件科。
 
 {{% /alert %}}
 
 **问：为什么输出文档中的布局和字体与原始文档不同？**
 
-字体可能不可用，或者字体格式由Microsoft Word支持，但Aspose.Words不支持。 Aspose.Words将执行 [字体替换](/words/java/manipulate-and-substitute-truetype-fonts/).
+字体可能不可用，或者字体格式由Microsoft Word支持，但Aspose.Words不支持。 Aspose.Words将执行 [字体替换](/words/zh/java/manipulate-and-substitute-truetype-fonts/).
 
 检查字体是否丢失:
 
-- 在Aspose.Words中使用字体替换警告（有关详细信息，请参阅 [操作和替换TrueType字体](/words/java/manipulate-and-substitute-truetype-fonts/) 文章）。
+- 在Aspose.Words中使用字体替换警告（有关详细信息，请参阅 [操作和替换TrueType字体](/words/zh/java/manipulate-and-substitute-truetype-fonts/) 文章）。
 - 在Microsoft Word中打开"字体替换"对话框（文件→选项→高级→字体替换）。
 
 ------
@@ -121,7 +121,7 @@ Aspose.WordsforJava支持大多数流行的文档格式，例如DOC, DOCX, HTML,
 
 {{% alert color="primary" %}}
 
-有关Mail Merge的详细资料，请参阅 [Mail Merge和报告](/words/java/mail-merge-and-reporting/) 文件科。
+有关Mail Merge的详细资料，请参阅 [Mail Merge和报告](/words/zh/java/mail-merge-and-reporting/) 文件科。
 
 {{% /alert %}}
 
@@ -145,7 +145,7 @@ Aspose.WordsforJava支持大多数流行的文档格式，例如DOC, DOCX, HTML,
 这是因为父表和子表之间的关系未设置或设置不正确。 有必要:
 
 - 确保**DataSet**内的数据完整性，并使用**DataRelation**对象表示相关数据表之间的父子关系。
-- 检查文章中的"如何在带有区域的嵌套Mail Merge中设置数据关系"一节 [带有区域的嵌套Mail合并](/words/java/nested-mail-merge-with-regions/).
+- 检查文章中的"如何在带有区域的嵌套Mail Merge中设置数据关系"一节 [带有区域的嵌套Mail合并](/words/zh/java/nested-mail-merge-with-regions/).
 
 ------
 
@@ -159,7 +159,7 @@ Aspose.WordsforJava支持大多数流行的文档格式，例如DOC, DOCX, HTML,
 
 {{% alert color="primary" %}}
 
-你可以在 [使用文档编程](/words/java/programming-with-documents/) 文件科。
+你可以在 [使用文档编程](/words/zh/java/programming-with-documents/) 文件科。
 
 {{% /alert %}}
 
@@ -171,7 +171,7 @@ Aspose.WordsforJava支持大多数流行的文档格式，例如DOC, DOCX, HTML,
 
 {{% alert color="primary" %}}
 
-您可以在 [转换文档](/words/java/convert-a-document/) 文件科。
+您可以在 [转换文档](/words/zh/java/convert-a-document/) 文件科。
 
 {{% /alert %}}
 
@@ -193,7 +193,7 @@ doc.save(dataDir + "output.pdf", SaveFormat.Pdf);
 
 {{% alert color="primary" %}}
 
-你可以在 [使用文档编程](/words/java/programming-with-documents/) 文件科。
+你可以在 [使用文档编程](/words/zh/java/programming-with-documents/) 文件科。
 
 {{% /alert %}}
 
@@ -253,4 +253,4 @@ catch (Exception e)
 
 **问：如何打印文档？**
 
-有关详细答案，请了解文章 [以编程方式或使用对话框打印文档](/words/java/print-a-document-programmatically-or-using-dialogs/).
+有关详细答案，请了解文章 [以编程方式或使用对话框打印文档](/words/zh/java/print-a-document-programmatically-or-using-dialogs/).

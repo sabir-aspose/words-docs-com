@@ -1,4 +1,4 @@
----
+﻿---
 title: Ürüne Genel Bakış
 second_title: Python via .NET için Aspose.Words
 articleTitle: Ürüne Genel Bakış
@@ -56,7 +56,7 @@ Sunucu tarafı belgeleri oluşturmak için tüm belgeleri veya belirli sayfalar�
 
 #### Raporlama
 
-Sıfırdan veya şablonları veri kaynaklarından veya iş nesnelerinden alınan verilerle doldurarak belgeler veya raporlar oluşturun. Veritabanlarından veri raporlama ve alma hakkında daha fazla bilgi için [Mail Merge ve Raporlama](/words/python-net/mail-merge-and-reporting/) ve [LINQ Raporlama Motoru](/words/python-net/linq-reporting-engine/) bölümlerine bakın.
+Sıfırdan veya şablonları veri kaynaklarından veya iş nesnelerinden alınan verilerle doldurarak belgeler veya raporlar oluşturun. Veritabanlarından veri raporlama ve alma hakkında daha fazla bilgi için [Mail Merge ve Raporlama](/words/tr/python-net/mail-merge-and-reporting/) ve [LINQ Raporlama Motoru](/words/python-net/linq-reporting-engine/) bölümlerine bakın.
 
 ### Platform Bağımsızlığı
 

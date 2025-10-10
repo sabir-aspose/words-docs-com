@@ -9,7 +9,7 @@ weight: 10
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /cpp/manipulate-and-substitute-truetype-fonts/
-timestamp: 2024-10-21-11-17-44
+timestamp: 2025-10-02-08-12-25
 ---
 
 Aspose.Words requires TrueType fonts for a variety of tasks, including rendering documents to fixed-page formats, for example, PDF or XPS. When Aspose.Words renders a document, it needs to perform embedding and subset embedding of TrueType fonts into the resulting document, which is a normal practice during a document generation, including popular PDF or XPS formats. This ensures that the document will appear the same to any viewer. Moreover, the XPS specification requires fonts to always be embedded in the document.
@@ -20,6 +20,12 @@ To ensure Aspose.Words accurately measures the characters and successfully embed
 1. There must be sufficient TrueType fonts available to Aspose.Words, preferably with the same font family names as the ones used in the document.
 
 Note that the font in the document represents an entity, such as family name, style, size, color, that is different from the `TrueType` font (physical font) entity. Aspose.Words resolves the font in the document to a physical font at some stage of processing. This enables certain tasks, most commonly the task of calculating text size during layout construction and embedding/subsetting to fixed-page formats. A number of other less popular tasks, such as font resolving and substitution while loading HTML or embedding/subsetting to some flow formats, are likewise enabled.
+
+{{% alert color="primary" %}}
+
+You can get more information about a font substitution warning issued by Aspose.Words when loading or saving a document using the **FontSubstitutionWarningInfo** class.
+
+{{% /alert %}}
 
 ## Where Aspose.Words Looks for Fonts
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Przegląd produktów
 second_title: Aspose.Words dla Python via .NET
 articleTitle: Przegląd produktów
@@ -56,7 +56,7 @@ Możesz konwertować całe dokumenty lub poszczególne strony do formatu PDF lub
 
 #### Raportowanie
 
-Generuj dokumenty lub raporty od podstaw lub wypełniając szablony danymi ze źródeł danych lub obiektów biznesowych. Więcej informacji na temat raportowania i pobierania danych z baz danych znajdziesz w sekcjach [Mail Merge i raportowanie](/words/python-net/mail-merge-and-reporting/) i [Silnik raportowania LINQ](/words/python-net/linq-reporting-engine/).
+Generuj dokumenty lub raporty od podstaw lub wypełniając szablony danymi ze źródeł danych lub obiektów biznesowych. Więcej informacji na temat raportowania i pobierania danych z baz danych znajdziesz w sekcjach [Mail Merge i raportowanie](/words/pl/python-net/mail-merge-and-reporting/) i [Silnik raportowania LINQ](/words/python-net/linq-reporting-engine/).
 
 ### Niezależność Platformy
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: ویژگی ها
 second_title: Aspose.Words برای C++
 articleTitle: ویژگی های پشتیبانی شده
@@ -37,7 +37,7 @@ Aspose.Words به کاربران طیف گسترده ای از ویژگی ها �
 
 ## محدودیت ها
 
-- پشتیبانی از مجموعه محدودی از فرمت های فایل (*see [Supported Document Formats](/words/cpp/supported-document-formats/) for details*)
+- پشتیبانی از مجموعه محدودی از فرمت های فایل (*see [Supported Document Formats](/words/fa/cpp/supported-document-formats/) for details*)
 - عدم پشتیبانی از اسناد رمزگذاری شده
 - عدم پشتیبانی از دانلود منابع از راه دور از اینترنت
 - پشتیبانی محدود و ناپایدار از ویژگی های رندر

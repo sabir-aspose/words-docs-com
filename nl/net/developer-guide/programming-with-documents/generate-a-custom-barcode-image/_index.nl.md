@@ -1,4 +1,4 @@
----
+﻿---
 title: Hoe maak je een streepjescode
 second_title: Aspose.Words voor .NET
 articleTitle: Genereer een aangepaste Barcode afbeelding
@@ -55,7 +55,7 @@ U kunt het document ook opslaan met de geladen of nieuw ingevoerde streepjescode
 
 {{% alert color="primary" %}}
 
-Voor meer informatie over het converteren van documenten van een vormaat naar een ander, zie de [Convert a Document](/words/net/convert-a-document/) documentatiesectie.
+Voor meer informatie over het converteren van documenten van een vormaat naar een ander, zie de [Convert a Document](/words/nl/net/convert-a-document/) documentatiesectie.
 
 {{% /alert %}}
 

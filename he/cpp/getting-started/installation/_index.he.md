@@ -10,7 +10,7 @@ url: /he/cpp/installation/
 timestamp: 2024-09-24-14-35-44
 ---
 
-לוודא שלך מכונה פוגש את [דרישות מערכת](/words/cpp/system-requirements/) לפני שתתחיל.
+לוודא שלך מכונה פוגש את [דרישות מערכת](/words/he/cpp/system-requirements/) לפני שתתחיל.
 
 מאמר זה מסביר כיצד להתקין Aspose.Words עבור C++ במחשב שלך.
 

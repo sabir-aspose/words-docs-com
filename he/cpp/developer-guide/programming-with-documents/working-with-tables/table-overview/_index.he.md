@@ -65,5 +65,5 @@ Aspose.Words היא ספריית כיתות המיועדת לעיבוד מסמכ
 
 ## ראה גם
 
-* [Aspose.Words מודל אובייקט מסמך (DOM)](/words/cpp/aspose-words-document-object-model/)
-* [רמות לוגיות של צמתים במסמך](/words/cpp/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words מודל אובייקט מסמך (DOM)](/words/he/cpp/aspose-words-document-object-model/)
+* [רמות לוגיות של צמתים במסמך](/words/he/cpp/logical-levels-of-nodes-in-a-document/)

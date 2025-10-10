@@ -1,4 +1,4 @@
----
+﻿---
 title: Что такое макет страницы в C++
 second_title: Aspose.Words для C++
 articleTitle: Что такое макет страницы
@@ -20,6 +20,6 @@ Aspose.Words реализует внутреннюю функционально�
 
 ## Смотрите также
 
-* [Создание макета страницы](/words/cpp/creating-a-page-layout/)
-* [Сохранение документа в формате фиксированной страницы](/words/cpp/saving-a-document-to-fixed-page-format/)
-* [Укажите параметры компоновки](/words/cpp/specify-layout-options/)
+* [Создание макета страницы](/words/ru/cpp/creating-a-page-layout/)
+* [Сохранение документа в формате фиксированной страницы](/words/ru/cpp/saving-a-document-to-fixed-page-format/)
+* [Укажите параметры компоновки](/words/ru/cpp/specify-layout-options/)

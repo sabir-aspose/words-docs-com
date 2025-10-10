@@ -12,7 +12,7 @@ timestamp: 2024-10-21-11-17-44
 
 Чтобы программно считывать содержимое и форматирование документа, манипулировать им и изменять их, вам необходимо преобразовать его в объектную модель документа Aspose.Words (DOM).
 
-В отличие от документов Word, Markdown не соответствует DOM, описанному в объектной модели документа [Aspose.Words (DOM).](/words/python-net/aspose-words-document-object-model/) статья. Однако Aspose.Words предоставляет свой собственный механизм для перевода документов Markdown в документы DOM и обратно, так что мы можем успешно работать с их элементами, такими как форматирование текста, таблицы, заголовки и другие.
+В отличие от документов Word, Markdown не соответствует DOM, описанному в объектной модели документа [Aspose.Words (DOM).](/words/ru/python-net/aspose-words-document-object-model/) статья. Однако Aspose.Words предоставляет свой собственный механизм для перевода документов Markdown в документы DOM и обратно, так что мы можем успешно работать с их элементами, такими как форматирование текста, таблицы, заголовки и другие.
 
 В этой статье объясняется, как различные функции markdown могут быть переведены в формат Aspose.Words DOM и обратно в формат Markdown.
 
@@ -268,5 +268,5 @@ builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.ordered_lis
 
 ## Смотрите также
 
-* [Работа с Markdown функциями](/words/python-net/working-with-markdown-features/)
+* [Работа с Markdown функциями](/words/ru/python-net/working-with-markdown-features/)
 

@@ -85,7 +85,7 @@ Bagian ini menjelaskan beberapa kasus penggunaan untuk membagi dokumen dengan pa
 
 {{% alert color="primary" %}}
 
-Anda dapat menggunakan apa saja [format keluaran yang dihasilkan oleh Aspose.Words](/words/java/supported-document-formats/).
+Anda dapat menggunakan apa saja [format keluaran yang dihasilkan oleh Aspose.Words](/words/id/java/supported-document-formats/).
 
 {{% /alert %}}
 

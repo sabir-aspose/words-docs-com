@@ -1,4 +1,4 @@
----
+﻿---
 title: Convertiți PDF în alte formate de documente în C#
 second_title: Aspose.Words pentru .NET
 articleTitle: Converteste PDF-ul în alte formate de documente
@@ -63,7 +63,7 @@ Unele caracteristici sunt încă în stadiu incipient de dezvoltare sau incluse 
 
 | Excepție | Descriere |
 | -------------------------------- | ------------------------------------------------------------ |
-| `FileLoadException` | Un fișier PDF nu poate fi procesat pentru un anumit motiv. <br /> {{% alert color="primary" %}}Puteți raporta problema echipei de dezvoltare pentru o anchetă detaliată folosind [technical support](/words/net/technical-support/). {{% /alert %}} |
+| `FileLoadException` | Un fișier PDF nu poate fi procesat pentru un anumit motiv. <br /> {{% alert color="primary" %}}Puteți raporta problema echipei de dezvoltare pentru o anchetă detaliată folosind [technical support](/words/ro/net/technical-support/). {{% /alert %}} |
 | `DrmProtectedFileException` | Un fișier PDF este protejat de Adobe DRM și nu poate fi decodat de Pdf2Word. |
 | `PasswordProtectedFileException` | Parola corectă trebuie furnizată pentru un fișier PDF protejat prin parolă. |
 

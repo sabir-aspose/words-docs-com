@@ -1,4 +1,4 @@
----
+﻿---
 title: 문서 비교 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 문서 비교
@@ -36,7 +36,7 @@ timestamp: 2024-01-27-14-07-04
 
 {{% alert color="primary" %}}
 
-당신은 내 두 문서를 비교할 수 있습니다 [지원되는 파일 형식](/words/cpp/supported-document-formats/). 문서 개체를 비교할 수 있으며 특정 형식 없이도 처음부터 해당 개체를 만들 수 있습니다.
+당신은 내 두 문서를 비교할 수 있습니다 [지원되는 파일 형식](/words/ko/cpp/supported-document-formats/). 문서 개체를 비교할 수 있으며 특정 형식 없이도 처음부터 해당 개체를 만들 수 있습니다.
 
 {{% /alert %}}
 

@@ -420,7 +420,7 @@ La funzione per riconoscere i collegamenti ipertestuali durante il caricamento d
 
 {{% alert color="primary" %}}
 
-Scopri di più su [Aspose.Wordsper C++ 23.9 Note di rilascio](/words/cpp/aspose-words-for-cpp-23-9-release-notes/).
+Scopri di più su [Aspose.Wordsper C++ 23.9 Note di rilascio](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-9-release-notes/).
 Scopri di più su [Aspose.Wordsper C++ 23.10 Note di rilascio](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-10-release-notes/).
 Scopri di più su [Aspose.Wordsper C++ 23.11 Note di rilascio](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-11-release-notes/).
 Scopri di più su [Aspose.Wordsper C++ 23.12 Note di rilascio](https://releases.aspose.com/words/cpp/release-notes/2023/aspose-words-for-cpp-23-12-release-notes/).
@@ -431,6 +431,6 @@ Scopri di più su [Aspose.Wordsper C++ 23.12 Note di rilascio](https://releases.
 
 {{% alert color="primary" %}}
 
-Questa pagina contiene le ultime notizie di rilascio degli ultimi 2 anni. Per i dettagli sulle versioni precedenti, vedere [Note di rilascio'](/words/cpp/release-notes/) pagine nelle relative sezioni.
+Questa pagina contiene le ultime notizie di rilascio degli ultimi 2 anni. Per i dettagli sulle versioni precedenti, vedere [Note di rilascio'](https://releases.aspose.com/words/cpp/release-notes/) pagine nelle relative sezioni.
 
 {{% /alert %}}

@@ -6,6 +6,8 @@ linktitle: Loading, Saving and Converting
 description: "How to convert a document from one format to another, such as Word to PDF or HTML to Markdown, as well as how to load and save a document using Node.js."
 type: docs
 weight: 10
+ai_search_scope: words_nodejs
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /nodejs-net/loading-saving-and-converting/
 aliases: [/nodejs/loading-saving-and-converting/]
 timestamp: 2025-01-21-14-07-04

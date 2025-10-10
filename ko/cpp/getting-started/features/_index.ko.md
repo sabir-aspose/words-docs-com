@@ -1,4 +1,4 @@
----
+﻿---
 title: 특징
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 지원되는 기능
@@ -37,7 +37,7 @@ Aspose.Words 다양한 기능을 사용자에게 제공합니다. 사용자는 �
 
 ## 제한 사항
 
-- 제한된 파일 형식 지원(*see [Supported Document Formats](/words/cpp/supported-document-formats/) for details*)
+- 제한된 파일 형식 지원(*see [Supported Document Formats](/words/ko/cpp/supported-document-formats/) for details*)
 - 암호화 된 문서에 대한 지원 없음
 - 인터넷에서 원격 리소스 다운로드에 대한 지원 없음
 - 렌더링 기능에 대한 제한적이고 불안정한 지원

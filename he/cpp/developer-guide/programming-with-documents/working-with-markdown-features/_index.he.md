@@ -27,7 +27,7 @@ timestamp: 2024-01-31-14-23-37
 
 {{% alert color="primary" %}}
 
-יש ניואנסים של תרגום Markdown למודל אובייקט המסמך Aspose.Words (DOM), המתואר במאמר [תרגם Markdown לתעד מודל אובייקט (DOM)](/words/cpp/translate-markdown-to-document-object-model/).
+יש ניואנסים של תרגום Markdown למודל אובייקט המסמך Aspose.Words (DOM), המתואר במאמר [תרגם Markdown לתעד מודל אובייקט (DOM)](/words/he/cpp/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

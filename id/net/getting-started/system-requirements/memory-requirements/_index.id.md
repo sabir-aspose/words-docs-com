@@ -1,4 +1,4 @@
----
+﻿---
 title: Persyaratan Memori
 second_title: Aspose.Words untuk .NET
 articleTitle: Persyaratan Memori
@@ -48,5 +48,5 @@ Jika hasil pembuatan profil Anda menunjukkan kemungkinan masalah memori di Aspos
 
 * [Ukur penggunaan memori di Visual Studio (C#, Visual Basic, C++, F#)](https://learn.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2022)
 * [Render](/words/id/net/rendering/)
-* [Mail Merge dan Pelaporan](/words/net/mail-merge-and-reporting/)
+* [Mail Merge dan Pelaporan](/words/id/net/mail-merge-and-reporting/)
 * [Bekerja dengan Bidang](/words/id/net/working-with-fields/)

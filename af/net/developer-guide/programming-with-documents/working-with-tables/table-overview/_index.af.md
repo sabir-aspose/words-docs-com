@@ -1,4 +1,4 @@
----
+﻿---
 title: Tabel Oorsig
 second_title: Aspose.Words vir .NET
 articleTitle: Tabel Oorsig
@@ -65,5 +65,5 @@ In Aspose.Words, is alle klasse en eienskappe wat verband hou met tabelle vervat
 
 ## Sien Ook
 
-* [Aspose.Words Dokument Voorwerp Model (DOM)](/words/net/aspose-words-document-object-model/)
-* [Logiese Vlakke Van Nodusse in'n Dokument](/words/net/logical-levels-of-nodes-in-a-document/)
+* [Aspose.Words Dokument Voorwerp Model (DOM)](/words/af/net/aspose-words-document-object-model/)
+* [Logiese Vlakke Van Nodusse in'n Dokument](/words/af/net/logical-levels-of-nodes-in-a-document/)

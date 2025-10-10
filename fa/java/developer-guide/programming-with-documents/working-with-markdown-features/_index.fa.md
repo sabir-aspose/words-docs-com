@@ -27,7 +27,7 @@ timestamp: 2024-01-31-14-23-37
 
 {{% alert color="primary" %}}
 
-تفاوت های ظریف ترجمه Markdown به مدل شیء سند Aspose.Words (DOM) وجود دارد که در مقاله شرح داده شده است [ترجمه Markdown به مستند سازی مدل شی (DOM)](/words/java/translate-markdown-to-document-object-model/).
+تفاوت های ظریف ترجمه Markdown به مدل شیء سند Aspose.Words (DOM) وجود دارد که در مقاله شرح داده شده است [ترجمه Markdown به مستند سازی مدل شی (DOM)](/words/fa/java/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 
