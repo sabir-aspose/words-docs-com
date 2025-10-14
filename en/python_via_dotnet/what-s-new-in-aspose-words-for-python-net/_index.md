@@ -14,9 +14,11 @@ timestamp: 2025-09-11-11-12-25
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Python via .NET 25.9
+## Aspose.Words for Python via .NET 25.9, 25.10
 
 Aspose.Words 25.9 enhances document loading reliability, expands shape and text formatting, and improves Markdown export with math support.
+
+Aspose.Words 25.10 introduces enhancements to text and PDF exports and improves accessibility compliance.
 
 ### Converting, Loading, and Saving Documents
 
@@ -24,9 +26,20 @@ Aspose.Words 25.9 enhances document loading reliability, expands shape and text 
 
 The ability to control how corrupted documents are opened has been introduced by adding a new [recovery_mode](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/recovery_mode/) option.
 
-#### Export Mathematical Equations to LaTeX Expression <sup>25.9</sup>
+#### Export Mathematical Equations to LaTeX Expression
 
-The ability to export mathematical [equations](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/office_math_export_mode/) (Office Math) to LaTeX expressions has been introduced.
+The ability to export mathematical equations (Office Math) to LaTeX expressions has been introduced:
+
+* For export to Markdown format using the [MarkdownSaveOptions.office_math_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/office_math_export_mode/) property. <sup>25.9</sup>
+* For export to TXT format using the [TxtSaveOptions.office_math_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/txtsaveoptions/office_math_export_mode/) property. <sup>25.10</sup>
+
+#### Control Floating Shape Tagging When Exporting to PDF <sup>25.10</sup>
+
+A new save option [export_floating_shapes_as_inline_tag](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/export_floating_shapes_as_inline_tag/) has been added to provide precise control over the tagging of floating shapes as either inline or block-level elements, improving layout accuracy and accessibility.
+
+#### PDF/UA Export & Accessibility <sup>25.10</sup>
+
+Compliance with PDF/UA standards has been improved by correctly tagging horizontal rules as artifacts, enhancing a better experience for users of assistive technologies.
 
 ### Rendering
 
@@ -37,6 +50,8 @@ The ability to fine-tune [shadow effects](https://reference.aspose.com/words/pyt
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for Python via .NET 25.9 Release Notes](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-9-release-notes/).
+
+Learn more about [Aspose.Words for Python via .NET 25.10 Release Notes](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-10-release-notes/).
 
 {{% /alert %}}
 

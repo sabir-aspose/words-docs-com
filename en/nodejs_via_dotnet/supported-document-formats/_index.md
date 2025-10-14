@@ -47,7 +47,7 @@ The following table indicates the input and output file formats supported by Asp
 | [`OTT`](https://docs.fileformat.com/word-processing/ott/) | ODF Text Document Template | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`TXT`](https://docs.fileformat.com/word-processing/txt/) | Plain Text | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`MD`](https://docs.fileformat.com/word-processing/md/) | Markdown Document | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
-| [`PDF`](https://docs.fileformat.com/pdf/) | Adobe Portable Document format | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
+| [`PDF`](https://docs.fileformat.com/pdf/) | Adobe Portable Document format |  | {{< emoticons/tick >}} |  |
 | [`EPS`](https://docs.fileformat.com/page-description-language/eps/) | Encapsulated Postscript file format |  |{{< emoticons/tick >}} |  |
 | [`XPS`](https://docs.fileformat.com/page-description-language/xps/) | Saves the document in the XPS (XML Paper Specification) format |  | {{< emoticons/tick >}} |  |
 | `XamlFixed` | Saves the document in the Extensible Application Markup Language (XAML) format as a fixed document |  | {{< emoticons/tick >}} |  |
