@@ -14,9 +14,11 @@ timestamp: 2025-09-17-07-02-49
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Java 25.9
+## Aspose.Words for Java 25.9, 25.10
 
 Aspose.Words 25.9 enhances document loading reliability, expands shape and text formatting, improves Markdown export with math support, and strengthens font handling diagnostics.
+
+Aspose.Words 25.10 introduces enhancements to text and PDF exports, improves accessibility compliance, and adds new options for resource management during Markdown export.
 
 ### Converting, Loading, and Saving Documents
 
@@ -24,9 +26,24 @@ Aspose.Words 25.9 enhances document loading reliability, expands shape and text 
 
 The ability to control how corrupted documents are opened has been introduced by adding a new [RecoveryMode](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getRecoveryMode) option.
 
-#### Export Mathematical Equations to LaTeX Expression <sup>25.9</sup>
+#### Export Mathematical Equations to LaTeX Expression
 
-The ability to export mathematical [equations](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getOfficeMathExportMode) (Office Math) to LaTeX expressions has been introduced.
+The ability to export mathematical equations (Office Math) to LaTeX expressions has been introduced:
+
+* For export to Markdown format using the [MarkdownSaveOptions.OfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getOfficeMathExportMode) property. <sup>25.9</sup>
+* For export to TXT format using the [TxtSaveOptions.OfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getOfficeMathExportMode) property. <sup>25.10</sup>
+
+#### Control Floating Shape Tagging When Exporting to PDF <sup>25.10</sup>
+
+A new save option [ExportFloatingShapesAsInlineTag](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getExportFloatingShapesAsInlineTag) has been added to provide precise control over the tagging of floating shapes as either inline or block-level elements, improving layout accuracy and accessibility.
+
+#### Control How Images and Other External Resources are Exported to Markdown <sup>25.10</sup>
+
+A new [resource-saving callback](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getResourceSavingCallback) has been implemented to give developers greater flexibility in controlling how images and other external resources are exported.
+
+#### PDF/UA Export & Accessibility <sup>25.10</sup>
+
+Compliance with PDF/UA standards has been improved by correctly tagging horizontal rules as artifacts, enhancing a better experience for users of assistive technologies.
 
 ### Rendering
 
@@ -40,6 +57,8 @@ The ability to improve diagnostics and error handling for [font substitution](ht
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for Java 25.9 Release Notes](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-9-release-notes/).
+
+Learn more about [Aspose.Words for Java 25.10 Release Notes](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-10-release-notes/).
 
 {{% /alert %}}
 
