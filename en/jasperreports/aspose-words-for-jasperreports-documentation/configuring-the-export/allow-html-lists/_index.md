@@ -6,7 +6,8 @@ linktitle: Converting HTML Lists to Word Lists
 description: "Aspose Words for JasperReports can convert Html lists into Words lists with bullets and numbers."
 type: docs
 weight: 230
-url: /jasperreports/allow-html-lists/
+url: /jasperreports/converting-html-lists-to-word-lists/
+aliases: [/jasperreports/allow-html-lists/]
 timestamp: 2025-10-27-17-45-04
 ---
 
