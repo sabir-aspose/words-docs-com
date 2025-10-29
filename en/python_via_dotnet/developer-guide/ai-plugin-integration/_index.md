@@ -17,4 +17,4 @@ This section provides the information about using AI plugins based on Aspose.Wor
 
 |Plugin|Repository|Functionality|
 |---|---|---|
-|[MarkItDown Plugin](/python-net/markitdown-plugin)|[Aspose.Words for MarkItDown](https://github.com/aspose-words/Aspose.Words-for-MarkItDown)|Converts `.docx`, `.pdf`, `.html`, `.epub`, `.doc`, `.rtf`, `.odt`, `.mhtml` etc. files to Markdown format. |	
+|[MarkItDown Plugin](/words/python-net/markitdown-plugin)|[Aspose.Words for MarkItDown](https://github.com/aspose-words/Aspose.Words-for-MarkItDown)|Converts `.docx`, `.pdf`, `.html`, `.epub`, `.doc`, `.rtf`, `.odt`, `.mhtml` etc. files to Markdown format. |	
