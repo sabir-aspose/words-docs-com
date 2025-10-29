@@ -70,7 +70,7 @@ from markitdown import MarkItDown
 md = MarkItDown(enable_plugins=False) # Set to True to enable the plugin  
 result = md.convert("test.doc")  
 print(result.text_content)  
-{{< highlight >}}  
+{{< /highlight >}}  
 
 
 ## Set License
@@ -92,7 +92,7 @@ set ASPOSE_WORDS_LICENSE_PATH=c:\path\to\license\aspose.words.lic
 from markitdown import MarkItDown  
 
 LicenseManager().apply_license("/path/to/license/aspose.words.lic")  
-{{< highlight >}}  
+{{< /highlight >}}  
 
 ## Running Tests
 
