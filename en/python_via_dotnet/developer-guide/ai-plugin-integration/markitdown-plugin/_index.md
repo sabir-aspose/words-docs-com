@@ -67,7 +67,7 @@ Basic usage in Python:
 {{< highlight python >}}  
 from markitdown import MarkItDown  
 
-md = MarkItDown(enable_plugins=False) # Set to True to enable the plugin  
+md = MarkItDown(enable_plugins=True) # Set to True to enable the plugin  
 result = md.convert("test.doc")  
 print(result.text_content)  
 {{< /highlight >}}  
@@ -89,7 +89,7 @@ set ASPOSE_WORDS_LICENSE_PATH=c:\path\to\license\aspose.words.lic
 ```
 **Python API:**
 {{< highlight python >}}  
-from markitdown import MarkItDown  
+from aspose_words_markitdown import LicenseManager
 
 LicenseManager().apply_license("/path/to/license/aspose.words.lic")  
 {{< /highlight >}}  
