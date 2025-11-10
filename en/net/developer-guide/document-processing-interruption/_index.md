@@ -28,7 +28,7 @@ It is useful to know that Aspose.Words also allows to interrupt document process
 
 By integrating a `CancellationToken` into your document processing logic, you can safely and efficiently stop the operation when needed.
 
-The following example shows how to use a `CancellationToken` to interrupt a document processing task:
+The following code example shows how to use a `CancellationToken` to interrupt a document processing task:
 
 {{< highlight csharp >}}
 // Arrange
@@ -124,5 +124,31 @@ private class CancelationCallback :
     }
 
     private CancellationToken mToken;
+}
+{{< /highlight >}}
+
+## Document Processing Interruption Using Low Code
+
+If complex document processing is not required, a similar approach using Low Code can be used. In this case, you will need an overload of the [Execute](https://reference.aspose.com/words/net/aspose.words.lowcode/processor/execute/#execute_1) method that accepts a `CancellationToken` as a parameter.
+
+The following code example shows how to interrupt a document processing task with Low Code:
+
+{{< highlight csharp >}}
+using (CancellationTokenSource cts = new CancellationTokenSource())
+{
+    // Simulate user cancel after short delay
+    Task.Run(() => {
+        Thread.Sleep(20);
+        cts.Cancel();
+    });
+
+    try
+    {
+        Converter.Create().From(MyDir + "Simple.docx").To(ArtifactsDir + "Processor.ExecuteAsync.pdf").Execute(cts.Token);
+    }
+    catch (OperationCanceledException ex)
+    {
+        Console.WriteLine($"Cancellation reason: '{ex.Message}'");
+    }
 }
 {{< /highlight >}}
