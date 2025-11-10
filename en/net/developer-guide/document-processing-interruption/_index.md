@@ -18,17 +18,17 @@ Sometimes it is necessary to gracefully interrupt document processing without fo
 
 ## CancellationToken for Interrupting Document Processing
 
-.NET has a widely used 'CancellationToken' structure. It is a built-in mechanism for safely and controlled closure of asynchronous operations.
+.NET has a widely used `CancellationToken` structure. It is a built-in mechanism for safely and controlled closure of asynchronous operations.
 
-The 'CancellationToken' structure in .NET provides a standardized mechanism that allows developers to monitor and respond to cancellation requests during asynchronous or long-running operations.
+The `CancellationToken` structure in .NET provides a standardized mechanism that allows developers to monitor and respond to cancellation requests during asynchronous or long-running operations.
 
-It is useful to know that Aspose.Words also allows to interrupt document processing using callbacks, where a 'CancellationToken' can be used as a process interruption trigger.
+It is useful to know that Aspose.Words also allows to interrupt document processing using callbacks, where a `CancellationToken` can be used as a process interruption trigger.
 
 ## How to Use a CancellationToken
 
-By integrating a 'CancellationToken' into your document processing logic, you can safely and efficiently stop the operation when needed.
+By integrating a `CancellationToken` into your document processing logic, you can safely and efficiently stop the operation when needed.
 
-The following example shows how to use a 'CancellationToken' to interrupt a document processing task:
+The following example shows how to use a `CancellationToken` to interrupt a document processing task:
 
 {{< highlight csharp >}}
 // Arrange
