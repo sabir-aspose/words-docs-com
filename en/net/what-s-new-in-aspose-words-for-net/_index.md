@@ -9,7 +9,7 @@ weight: 10
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /net/what-s-new-in-aspose-words-for-net/
-timestamp: 2025-09-10-11-12-25
+timestamp: 2025-11-17-11-12-25
 ---
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
@@ -72,7 +72,7 @@ The ability to improve diagnostics and error handling for [font substitution](ht
 
     * [A new callback interface](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/), similar to `IWarningCallback`, has been introduced to allow programmatic control over page skipping during print operations.
     * A new public property has been added to accurately [retrieve the actual number of pages](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/totalpagesprinted/) rendered by a print job.
-    * The ability to specify distinct target printers for [color and monochrome](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/totalpagesprinted/) (black & white) pages within a single print job has also been introduced.
+    * The ability to specify distinct target printers for [color and monochrome](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/colormode/) (black & white) pages within a single print job has also been introduced.
 
 {{% alert color="primary" %}}
 

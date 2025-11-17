@@ -9,16 +9,24 @@ weight: 5
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2025-09-11-11-12-25
+timestamp: 2025-11-17-11-12-25
 ---
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Python via .NET 25.9, 25.10
+## Aspose.Words for Python via .NET 25.9, 25.10, 25.11
 
 Aspose.Words 25.9 enhances document loading reliability, expands shape and text formatting, and improves Markdown export with math support.
 
 Aspose.Words 25.10 introduces enhancements to text and PDF exports and improves accessibility compliance.
+
+Aspose.Words 25.11 expands AI integration capabilities, as well as enhances Markdown export.
+
+### AI-powered Features
+
+#### Сonfigure AI Model Service Endpoints <sup>25.11</sup>
+
+The ability to configure [AI model](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodel/) service endpoints has been introduced by adding support for specifying [custom URLs](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodel/url/) and [request timeouts](https://reference.aspose.com/words/python-net/aspose.words.ai/aimodel/timeout/), allowing greater flexibility in AI-powered integrations.
 
 ### Converting, Loading, and Saving Documents
 
@@ -32,6 +40,10 @@ The ability to export mathematical equations (Office Math) to LaTeX expressions 
 
 * For export to Markdown format using the [MarkdownSaveOptions.office_math_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/office_math_export_mode/) property. <sup>25.9</sup>
 * For export to TXT format using the [TxtSaveOptions.office_math_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/txtsaveoptions/office_math_export_mode/) property. <sup>25.10</sup>
+
+#### Improved Document Conversion Fidelity to Markdown <sup>25.11</sup>
+
+The fidelity of document conversion to Markdown has been improved by enabling the [export of OfficeMath objects](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownofficemathexportmode/) into LaTeX format, ensuring compatibility with MarkItDown renderers.
 
 #### Control Floating Shape Tagging When Exporting to PDF <sup>25.10</sup>
 
@@ -52,6 +64,8 @@ The ability to fine-tune [shadow effects](https://reference.aspose.com/words/pyt
 Learn more about [Aspose.Words for Python via .NET 25.9 Release Notes](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-9-release-notes/).
 
 Learn more about [Aspose.Words for Python via .NET 25.10 Release Notes](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-10-release-notes/).
+
+Learn more about [Aspose.Words for Python via .NET 25.11 Release Notes](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-11-release-notes/).
 
 {{% /alert %}}
 

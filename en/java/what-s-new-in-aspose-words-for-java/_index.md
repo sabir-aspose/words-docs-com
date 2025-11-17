@@ -9,16 +9,24 @@ weight: 2
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 url: /java/what-s-new-in-aspose-words-for-java/
-timestamp: 2025-09-17-07-02-49
+timestamp: 2025-11-17-11-12-25
 ---
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Java 25.9, 25.10
+## Aspose.Words for Java 25.9, 25.10, 25.11
 
 Aspose.Words 25.9 enhances document loading reliability, expands shape and text formatting, improves Markdown export with math support, and strengthens font handling diagnostics.
 
 Aspose.Words 25.10 introduces enhancements to text and PDF exports, improves accessibility compliance, and adds new options for resource management during Markdown export.
+
+Aspose.Words 25.11 expands AI integration capabilities, enhances Markdown export, and introduces advanced control over print operations.
+
+### AI-powered Features
+
+#### Сonfigure AI Model Service Endpoints <sup>25.11</sup>
+
+The ability to configure [AI model](https://reference.aspose.com/words/java/com.aspose.words/aimodel/) service endpoints has been introduced by adding support for specifying [custom URLs](https://reference.aspose.com/words/java/com.aspose.words/aimodel/#getUrl) and [request timeouts](https://reference.aspose.com/words/java/com.aspose.words/aimodel/#getTimeout), allowing greater flexibility in AI-powered integrations.
 
 ### Converting, Loading, and Saving Documents
 
@@ -32,6 +40,10 @@ The ability to export mathematical equations (Office Math) to LaTeX expressions 
 
 * For export to Markdown format using the [MarkdownSaveOptions.OfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getOfficeMathExportMode) property. <sup>25.9</sup>
 * For export to TXT format using the [TxtSaveOptions.OfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getOfficeMathExportMode) property. <sup>25.10</sup>
+
+#### Improved Document Conversion Fidelity to Markdown <sup>25.11</sup>
+
+The fidelity of document conversion to Markdown has been improved by enabling the [export of OfficeMath objects](https://reference.aspose.com/words/java/com.aspose.words/markdownofficemathexportmode/) into LaTeX format, ensuring compatibility with MarkItDown renderers.
 
 #### Control Floating Shape Tagging When Exporting to PDF <sup>25.10</sup>
 
@@ -54,11 +66,21 @@ The ability to fine-tune [shadow effects](https://reference.aspose.com/words/jav
 #### Improve Diagnostics for Font Substitution <sup>25.9</sup>
 The ability to improve diagnostics and error handling for [font substitution](https://reference.aspose.com/words/java/com.aspose.words/fontsubstitutionwarninginfo/) has been implemented by adding typed warnings.
 
+### Other
+
+* new advanced print control options have been added: <sup>25.11</sup>
+
+    * [A new callback interface](https://reference.aspose.com/words/java/com.aspose.words/asposewordsprintdocument/), similar to `IWarningCallback`, has been introduced to allow programmatic control over page skipping during print operations.
+    * A new public property has been added to accurately [retrieve the actual number of pages](https://reference.aspose.com/words/java/com.aspose.words/asposewordsprintdocument/#getTotalPagesPrinted) rendered by a print job.
+    * The ability to specify distinct target printers for [color and monochrome](https://reference.aspose.com/words/java/com.aspose.words/asposewordsprintdocument/#getColorMode) (black & white) pages within a single print job has also been introduced.
+
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for Java 25.9 Release Notes](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-9-release-notes/).
 
 Learn more about [Aspose.Words for Java 25.10 Release Notes](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-10-release-notes/).
+
+Learn more about [Aspose.Words for Java 25.11 Release Notes](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-11-release-notes/).
 
 {{% /alert %}}
 
