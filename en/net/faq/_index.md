@@ -15,6 +15,14 @@ url: /net/faq/
 timestamp: 2024-11-18-12-56-02
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains technical FAQs related to Aspose.Words .NET, providing answers to common issues and questions.
+
+{{% /alert %}}
+
 This page contains answers to the most frequently asked questions. Please learn the current page – perhaps this will allow you to solve your problem quickly.
 
 If you have not found the answer to your question, you can ask on the support forum. For information on how to properly report your question or problem, see the [Technical Support](/words/net/technical-support/) page.
