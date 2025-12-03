@@ -12,6 +12,14 @@ url: /net/using-and-configuring-crm-document-generator/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to use and configure the CRM Document Generator for assembling Word documents.
+
+{{% /alert %}}
+
 ## Create Template using word
 
 - Open Microsoft Word and Create the Template.

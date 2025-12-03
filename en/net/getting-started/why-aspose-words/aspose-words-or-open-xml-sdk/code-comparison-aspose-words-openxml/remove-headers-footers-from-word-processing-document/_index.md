@@ -13,6 +13,14 @@ aliases: [/net/remove-the-headers-and-footers-from-a-word-processing-document/]
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to remove headers and footers from a document.
+
+{{% /alert %}}
+
 On this page we will look at how to remove headers or footers from a Word processing document using Aspose.Words or Open XML SDK.
 
 {{< nosnippet >}}

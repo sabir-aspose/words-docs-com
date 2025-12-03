@@ -12,6 +12,14 @@ url: /net/work-with-document-stored-in-liferay/
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with documents stored in Liferay CMS.
+
+{{% /alert %}}
+
 Liferay Portal is an open source enterprise portal software platform designed for developing web portals and websites. Liferay provides a document management system as part of its portal platform, allowing users to create, organize, store, and manage documents in a collaborative and efficient manner. This document management functionality is often referred to as Liferay Document Library.
 
 In this article, we will cover a common scenario for comparing documents uploaded to the root of "Documents and Media" library and uploading the resulting document back.

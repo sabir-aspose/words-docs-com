@@ -12,6 +12,14 @@ url: /net/using-and-configuring-crm-quote-generator/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to use and configure the CRM Quote Generator for generating CRM quotes.
+
+{{% /alert %}}
+
 ## Create Template
 
 - Go to Quote Templates in CRM.

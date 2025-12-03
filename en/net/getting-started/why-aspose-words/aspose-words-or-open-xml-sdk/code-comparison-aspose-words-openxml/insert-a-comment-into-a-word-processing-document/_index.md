@@ -12,6 +12,14 @@ url: /net/insert-a-comment-into-a-word-processing-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to insert a comment into a Word document.
+
+{{% /alert %}}
+
 On this page we will look at how to insert a comment into a word processing document using Aspose.Words or Open XML SDK.
 
 {{< nosnippet >}}

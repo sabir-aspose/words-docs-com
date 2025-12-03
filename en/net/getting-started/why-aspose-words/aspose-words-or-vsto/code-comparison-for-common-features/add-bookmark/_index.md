@@ -12,6 +12,14 @@ url: /net/add-bookmark/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page outlines how to add bookmarks to a Word document programmatically using Aspose.Words.
+
+{{% /alert %}}
+
 ## VSTO
 
 {{< highlight csharp >}}

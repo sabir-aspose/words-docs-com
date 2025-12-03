@@ -13,6 +13,14 @@ aliases: [/net/template-syntax/#setting-background-color-dynamically]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to set background color dynamically during template processing.
+
+{{% /alert %}}
+
 You can set text background color for document contents dynamically using `backColor` tags. Syntax of a `backColor` tag is defined as follows.
 
 {{< highlight csharp >}}

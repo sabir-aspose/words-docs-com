@@ -12,6 +12,14 @@ url: /net/specify-layout-options/
 timestamp: 2024-07-10-08-10-45
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to configure layout options that affect pagination and rendering.
+
+{{% /alert %}}
+
 Aspose.Words enables you to create output documents with various layouts, depending on the parameters specified in properties of the [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/) class. Some of these properties resemble some of the Microsoft Word user interface menu options – they will be described in this article.
 
 For a complete list of parameters such as [ContinuousSectionPageNumberingRestart](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart/) to calculate page numbers in a continuous section that restarts page numbering, or [IgnorePrinterMetrics](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/ignoreprintermetrics/) to ignore the "Use printer metrics to lay out document" compatibility option, see the [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/) class page.

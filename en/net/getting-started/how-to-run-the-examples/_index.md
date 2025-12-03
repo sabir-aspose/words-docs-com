@@ -12,6 +12,14 @@ url: /net/how-to-run-the-examples/
 timestamp: 2024-10-24-11-44-28
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to run the provided examples.
+
+{{% /alert %}}
+
 To become more familiar with the Aspose.Words possibilities and features we provide examples that can be downloaded from our GitHub repository, run, and learn in detail.
 
 In this article, you can find the system requirements, as well as information on how to run the examples.

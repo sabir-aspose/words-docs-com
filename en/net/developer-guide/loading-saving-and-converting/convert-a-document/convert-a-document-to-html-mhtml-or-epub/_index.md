@@ -12,6 +12,14 @@ url: /net/convert-a-document-to-html-mhtml-or-epub/
 timestamp: 2024-07-09-19-00-42
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to convert Word documents to HTML, MHTML, or EPUB, and describes the key options that influence layout and formatting during export.
+
+{{% /alert %}}
+
 Documents in HTML and MHTML flow-layout formats are also very popular and can be used on any web platform. For that reason, converting documents to HTML and MHTML is an important feature of Aspose.Words.
 
 EPUB (short for "Electronic Publication") is an HTML-based format commonly used for electronic book distribution. This format is fully supported in Aspose.Words for exporting electronic books that are compatible with most reading devices.

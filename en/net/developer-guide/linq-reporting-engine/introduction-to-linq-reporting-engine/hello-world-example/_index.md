@@ -12,6 +12,14 @@ url: /net/hello-world-example/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains the “Hello World” example as the simplest introduction to Aspose.Words.
+
+{{% /alert %}}
+
 {{% alert color="primary" %}}
 
 A "Hello, World" example is traditionally used to introduce features of a programming language or software with a simple use case. Here is the example for LINQ Reporting Engine.

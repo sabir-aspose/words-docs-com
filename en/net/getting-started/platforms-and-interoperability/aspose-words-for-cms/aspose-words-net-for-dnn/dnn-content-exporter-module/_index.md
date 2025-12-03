@@ -12,6 +12,14 @@ url: /net/dnn-content-exporter-module/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains the DNN Content Exporter module and shows how to export various types of content into documents.
+
+{{% /alert %}}
+
 Advance DNN Content Exporter Module using [Aspose.Words for .NET](https://releases.aspose.com/words/net/) allow users to export online contents into a Word Document, OpenDocument, PDF and Image formats (Jpeg, Png, Tiff) from selected DNN Skin Pane or Full Page using Aspose.Words and send output file to browser for Open/Download to local system.
 
 ![dnn-content-exporter-module-aspose-words-net-1](dnn-content-exporter-module-1.png)

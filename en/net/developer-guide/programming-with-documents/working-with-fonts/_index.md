@@ -12,6 +12,14 @@ url: /net/working-with-fonts/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with fonts, including substitution rules and embedding.
+
+{{% /alert %}}
+
 A font is a set of characters with a certain size, color, and design. Aspose.Words allows you to work with fonts using the [Fonts](https://reference.aspose.com/words/net/aspose.words.fonts/) namespace and the [Font](https://reference.aspose.com/words/net/aspose.words/font/) class.
 
 ## Font Formatting

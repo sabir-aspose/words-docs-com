@@ -12,6 +12,14 @@ url: /net/split-table/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to split a table into multiple tables.
+
+{{% /alert %}}
+
 A table, represented in the Aspose.Words Document Object Model, is made up of independent rows and cells, making it easy to split a table.
 
 To manipulate a table to split it into two tables, we just need to move some of the rows from the original table to the new one. To do this, we need to pick the row by which we want to split the table.

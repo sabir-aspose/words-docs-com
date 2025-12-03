@@ -13,6 +13,14 @@ aliases: [/net/introduction-and-creating-tables/]
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to create a table in a Word document programmatically and discusses styling, formatting, and content population.
+
+{{% /alert %}}
+
 Aspose.Words allows users to create tables in a document from scratch and provides several different methods for doing so. This article presents details on how to add formatted tables to your document using each method, as well as a comparison of each method at the end of the article.
 
 ## Default Table Styles

@@ -12,6 +12,14 @@ url: /net/convert-a-document-to-an-image/
 timestamp: 2024-07-09-19-00-42
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to convert a Word document into images (e.g., PNG, JPEG) using Aspose.Words.
+
+{{% /alert %}}
+
 Sometimes it is required to get an image instead of documents in other formats, such as DOCX or PDF. For example, you need to add a preview of any document page to your website or application, or create a "scan" of a document to send an invoice. This is when you may need to convert a document in any [supported load format](https://reference.aspose.com/words/net/aspose.words/loadformat/) to an image, again, in any [supported save format](https://reference.aspose.com/words/net/aspose.words/saveformat/).
 
 ## Convert to Image {#convert-to-image-format}

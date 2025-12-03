@@ -12,6 +12,14 @@ url: /net/open-a-word-processing-document-for-read-only-access/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to open a Word document with read-only access using different loading approaches.
+
+{{% /alert %}}
+
 Sometimes you want to open a document to inspect or retrieve some information, and you want to do so in such a way that the document remains unchanged. In these instances, you want to open the document as read-only.
 
 {{< nosnippet >}}

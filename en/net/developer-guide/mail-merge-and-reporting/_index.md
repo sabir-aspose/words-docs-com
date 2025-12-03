@@ -15,6 +15,14 @@ url: /net/mail-merge-and-reporting/
 timestamp: 2024-07-11-08-07-06
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how Mail Merge and reporting features work in Aspose.Words and shows how to generate documents from data sources.
+
+{{% /alert %}}
+
 Mail Merge is a popular feature for quickly and easily creating documents such as letters, labels, and envelopes. Aspose.Words enables you to generate documents from templates with Mail Merge fields.
 
 A Mail Merge field is a field that you can insert into a mail merge template to include specific values from a data source record in output documents. For example, you can insert a merge field in an email template so that the greeting will have the recipient’s first name rather than a generic “Hello!”. Aspose.Words places data from an external source, such as a database or file, into these fields and formats them. The resulting document is saved in the specified folder.

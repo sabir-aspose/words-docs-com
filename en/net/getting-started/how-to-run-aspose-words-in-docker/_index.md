@@ -12,6 +12,14 @@ url: /net/how-to-run-aspose-words-in-docker/
 timestamp: 2024-08-19-11-05-36
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to run Aspose.Words inside Docker containers.
+
+{{% /alert %}}
+
 Microservices, in conjunction with containerization make it possible to easily combine technologies. Docker allows you to easily integrate Aspose.Words functionality into your application, regardless of what technology is in your development stack.
 
 In case you are targeting microservices, or if the main technology in your stack is not .NET, C++ or Java, but you need Aspose.Words functionality, or if you already use Docker in your stack, then you may be interested in utilizing Aspose.Words in a Docker container.

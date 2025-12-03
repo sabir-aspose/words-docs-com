@@ -12,6 +12,14 @@ url: /net/change-text-in-a-table/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to change text within table cells programmatically with Aspose.Words.
+
+{{% /alert %}}
+
 On this page we will look at how to change text in a table using Aspose.Words or Open XML SDK.
 
 {{< nosnippet >}}

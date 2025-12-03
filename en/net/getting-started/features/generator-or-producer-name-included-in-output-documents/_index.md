@@ -12,6 +12,14 @@ url: /net/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how Aspose.Words writes generator or producer metadata into output documents.
+
+{{% /alert %}}
+
 You can easily know if a document is produced by using Aspose.Words for .NET. You can also find the version number of Aspose.Words for .NET that was used to create a particular output document. Aspose.Words directly writes this information into the generated document.
 
 The version number is specified in the format *YY.MM.N* or *YY.M.N*, for example, 23.12.0 or 24.1.0.<br />

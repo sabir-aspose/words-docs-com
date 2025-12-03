@@ -12,6 +12,14 @@ url: /net/setting-text-color-dynamically/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to set text color dynamically using template expressions.
+
+{{% /alert %}}
+
 You can set a font color for text contents dynamically using `textColor` tags. Syntax of a `textColor` tag is defined as follows.
 
 {{< highlight csharp >}}

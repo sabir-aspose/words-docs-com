@@ -12,6 +12,14 @@ url: /net/open-and-add-text-to-word-document/
 timestamp: 2024-01-30-16-22-34
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to open an existing document and add text programmatically.
+
+{{% /alert %}}
+
 On this page we will look at how to open an existing document and add text into it using Aspose.Words or Open XML SDK.
 
 {{< nosnippet >}}

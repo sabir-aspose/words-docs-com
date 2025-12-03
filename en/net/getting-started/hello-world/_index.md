@@ -12,6 +12,14 @@ url: /net/hello-world/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes a basic Hello World example.
+
+{{% /alert %}}
+
 A "Hello, World!" code is often the first simple example to write uisng "Aspose.Words for .NET", and it can also be used as a sanity test to ensure the software intended to compile or run source code is correctly installed.
 
 "Aspose.Words for .NET" C# library gives developers direct access to create, modify, merge, convert, compare Word and Web documents. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML and many other file formats are [supported](/words/net/supported-document-formats/).

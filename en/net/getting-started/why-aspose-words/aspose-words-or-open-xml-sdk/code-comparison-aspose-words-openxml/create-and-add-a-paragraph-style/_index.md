@@ -12,6 +12,14 @@ url: /net/create-and-add-a-paragraph-style/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to create a paragraph style and apply it to document text to achieve consistent formatting.
+
+{{% /alert %}}
+
 On this page we will look at how to create and add a paragraph style.
 
 {{< nosnippet >}}

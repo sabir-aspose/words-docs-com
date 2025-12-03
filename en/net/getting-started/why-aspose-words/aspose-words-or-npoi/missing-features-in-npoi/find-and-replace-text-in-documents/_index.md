@@ -13,6 +13,14 @@ aliases: [/net/using-find-and-replace-in-npoi/]
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to find and replace text in Word documents with various matching options.
+
+{{% /alert %}}
+
 {{% alert color="primary" %}}
 
 See more details in the [Find and Replace](/words/net/find-and-replace/) article.

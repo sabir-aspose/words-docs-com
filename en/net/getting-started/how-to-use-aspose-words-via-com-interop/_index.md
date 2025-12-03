@@ -12,6 +12,14 @@ url: /net/how-to-use-aspose-words-via-com-interop/
 timestamp: 2024-09-25-11-08-55
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to use Aspose.Words via COM interop.
+
+{{% /alert %}}
+
 The information in this topic applies to scenarios where you want to use Aspose.Words for .NET via COM Interop in any of the following programming languages:
 
 - ASP

@@ -12,6 +12,14 @@ url: /net/rendering/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how rendering works in Aspose.Words, including pagination and output formats.
+
+{{% /alert %}}
+
 We use the term "rendering" in Aspose.Words to describe the process of converting a document into a file format or a medium that is paginated or has the concept of pages. We are talking about rendering of a document into pages. The following diagram shows what rendering is in Aspose.Words.
 
 ![rendering_aspose-words](rendering-1.png)

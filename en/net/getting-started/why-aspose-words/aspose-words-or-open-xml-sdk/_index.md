@@ -13,6 +13,14 @@ aliases: [/net/why-not-open-xml-sdk/]
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains why Aspose.Words may be preferred over the Open XML SDK for advanced document operations.
+
+{{% /alert %}}
+
 Sometimes we get the following question: why should we use Aspose products rather than the free Open XML SDK? This question is easy to answer: features and functionality.
 
 The Open XML SDK and Aspose.Words do not compete with each other because they address quite different needs and audiences. The Open XML SDK is a class library that provides a strongly typed way to work with OOXML documents. Aspose.Words is a very useful document processing library that provides great support for all Microsoft Word and other document formats.

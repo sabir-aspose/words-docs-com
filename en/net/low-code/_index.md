@@ -12,6 +12,14 @@ url: /net/low-code/
 timestamp: 2025-04-22-07-08-55
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains low-code options for using Aspose.Words, including automating common document-processing tasks with minimal code.
+
+{{% /alert %}}
+
 Aspose.Words for .NET provides the [Aspose.Words.LowCode](https://reference.aspose.com/words/net/aspose.words.lowcode/) namespace, which simplifies common document processing tasks. This API is designed for developers who want to accomplish high-level operations such as document comparison, content extraction, image conversion, and text replacement with minimal effort.
 
 The LowCode API is ideal for scenarios where quick implementation is more important than fine-grained control. Let's take a closer look at the LowCode capabilities of Aspose.Words for .NET.

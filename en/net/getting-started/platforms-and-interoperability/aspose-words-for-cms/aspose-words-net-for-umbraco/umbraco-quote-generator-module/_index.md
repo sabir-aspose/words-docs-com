@@ -12,6 +12,14 @@ url: /net/umbraco-quote-generator-module/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how the Umbraco Quote Generator module creates quote documents automatically.
+
+{{% /alert %}}
+
 Aspose .NET Quote Generator for Umbraco is an open source module from Aspose that enable users to generate Quotes in your Umbraco site without requiring any other software. It uses the powerful features of Aspose.Words for .NET to allow you to easily generate quotations.
 
 ## Module Features

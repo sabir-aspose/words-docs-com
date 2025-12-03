@@ -12,6 +12,14 @@ url: /net/position-a-table/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to position tables precisely within a document using layout and formatting options.
+
+{{% /alert %}}
+
 There are floating tables and inline tables:
 
 * **Inline tables** are placed on the same layer as the text and are placed in a flow of text that only surrounds the table above and below. Inline tables will always appear between the paragraphs where you placed them.

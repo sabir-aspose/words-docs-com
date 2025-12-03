@@ -12,6 +12,14 @@ url: /net/linq-reporting-engine-or-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains the differences between the LINQ Reporting Engine and Mail Merge and helps you determine which approach fits different reporting scenarios.
+
+{{% /alert %}}
+
 Aspose.Words provides two solutions for automatic filling template documents with data: Mail Merge and LINQ Reporting Engine. But what is the difference between the two and which solution is better to choose? Let us make a closer look at each.
 
 ## Mail Merge Features

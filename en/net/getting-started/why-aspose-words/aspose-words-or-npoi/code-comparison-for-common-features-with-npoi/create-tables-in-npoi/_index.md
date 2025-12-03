@@ -12,6 +12,14 @@ url: /net/create-tables-in-npoi/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to create tables using NPOI and highlights differences from Aspose.Words table APIs.
+
+{{% /alert %}}
+
 ## Aspose.Words - Create Tables
 
 In **Aspose.Words** a table is normally inserted using **DocumentBuilder**. The following methods are used to build a table. Other methods will also be used to insert content into the table cells.

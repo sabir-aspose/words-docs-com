@@ -12,6 +12,14 @@ url: /net/mono-framework/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how Aspose.Words works within the Mono Framework and outlines compatibility considerations.
+
+{{% /alert %}}
+
 ## This section includes the following topics: 
 
 - [How to Run Aspose.Words with Mono](/words/net/how-to-run-aspose-words-with-mono/)

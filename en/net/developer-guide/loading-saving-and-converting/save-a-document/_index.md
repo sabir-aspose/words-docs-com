@@ -14,6 +14,14 @@ url: /net/save-a-document/
 timestamp: 2024-07-09-19-00-42
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to save a document in different formats using Aspose.Words.
+
+{{% /alert %}}
+
 Most of the tasks you need to perform with Aspose.Words involve saving a document. To save a document Aspose.Words provides the [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) method of the [Document](https://reference.aspose.com/words/net/aspose.words/document/) class. There are overloads that allow saving a document to a file, stream, or ASP.NET HttpResponse object for sending to a client browser. The document can be saved in any save format supported by Aspose.Words. For the list of all supported save formats, see the [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) enumeration.
 
 ## Save to a File {#save-a-document-to-a-file}

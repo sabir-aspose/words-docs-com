@@ -12,6 +12,14 @@ url: /net/xamarin-and-net-standard-2-0-limitations-and-api-differences/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains limitations and API differences for Xamarin and .NET Standard 2.0 environments.
+
+{{% /alert %}}
+
 Xamarin DLLs are always built using the latest stable versions of Xamarin.Android, Xamarin.iOS and `Xamarin.Mac` respectively. If you face problems with using Aspose.Words in your Xamarin application, please make sure you have the latest Xamarin versions installed. Sometimes Aspose.Words' Xamarin DLLs built with the latest Xamarin version do not work with older versions of Xamarin.
 
 ## Limitations and Restrictions

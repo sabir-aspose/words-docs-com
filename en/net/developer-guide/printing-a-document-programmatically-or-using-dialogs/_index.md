@@ -12,6 +12,14 @@ url: /net/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to print documents programmatically or through print dialogs using Aspose.Words.
+
+{{% /alert %}}
+
 This article describes how to print a word processing document from an ASP.NET or Windows Service application using Aspose.Words and the `XpsPrint` API. It also demonstrates the methods of printing a document with Settings, Print preview, and Print progress dialogs, and explains how to reduce the time of the first call to print a document.
 
 ## Printing a Document on a Server via the `XpsPrint` API

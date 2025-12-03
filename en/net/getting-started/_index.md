@@ -12,6 +12,14 @@ url: /net/getting-started/
 timestamp: 2024-09-25-11-08-55
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to get started with Aspose.Words for .NET, including installation and first steps.
+
+{{% /alert %}}
+
 This Getting Started provides an introduction to Aspose.Words fundamentals. For users new to Aspose.Words, this is the fastest way to learn the basic requirements and capabilities.
 
 To find out more about Aspose.Words, select the appropriate section:

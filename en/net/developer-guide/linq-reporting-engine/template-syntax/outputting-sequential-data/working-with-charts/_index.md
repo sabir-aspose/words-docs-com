@@ -12,6 +12,14 @@ url: /net/linq-working-with-charts/
 timestamp: 2024-02-16-10-54-23
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with charts using the LINQ Reporting Engine, including chart templates, data binding, and supported chart types.
+
+{{% /alert %}}
+
 LINQ Reporting Engine enables you to use charts to represent your sequential data. To declare a chart that is going to be populated with data dynamically within your template, do the following steps:
 
 1. Add a chart to your template at the place where you want it to appear in a result document.

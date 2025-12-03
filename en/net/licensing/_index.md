@@ -12,6 +12,14 @@ url: /net/licensing/
 timestamp: 2024-10-24-11-44-28
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how licensing works in Aspose.Words for .NET, including how to apply licenses, evaluation mode behavior, and common issues.
+
+{{% /alert %}}
+
 Sometimes, in order to study the system better, you want to dive into the code as fast as possible. To make this easier, Aspose.Words provides different plans for purchase or offers a Free Trial and a 30-day Temporary License for evaluation.
 
 {{% alert color="primary" %}}

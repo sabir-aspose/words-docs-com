@@ -12,6 +12,14 @@ url: /net/get-document-properties-in-npoi/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to read document properties using NPOI.
+
+{{% /alert %}}
+
 ## Aspose.Words - Get Document Properties
 
 Document properties allow some useful information to be stored along with the document. There are system (built-in) and user defined (custom) properties. Built-in properties contain such things as document title, author's name, document statistics, and so on. Custom properties are just name-value pairs where user defines both the name and value.

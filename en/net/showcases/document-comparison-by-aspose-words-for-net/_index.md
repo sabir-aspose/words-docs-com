@@ -12,6 +12,14 @@ url: /net/document-comparison-by-aspose-words-for-net/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how Aspose.Words performs document comparison and how to analyze resulting revisions.
+
+{{% /alert %}}
+
 This section provides a showcase describing document comparison with Aspose.Words.
 
 To learn more, select the corresponding section:

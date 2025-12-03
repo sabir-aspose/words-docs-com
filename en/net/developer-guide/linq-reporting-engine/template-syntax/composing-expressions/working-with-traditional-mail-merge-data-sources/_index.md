@@ -12,6 +12,14 @@ url: /net/working-with-mail-merge-data-sources/
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with mail-merge data sources of various types.
+
+{{% /alert %}}
+
 LINQ Reporting Engine enables you to use a simplified syntax in template expressions to work with traditional Aspose.Words Mail Merge data source objects. See the following sections for more information.
 
 ## Working with DataSet objects

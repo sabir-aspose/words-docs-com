@@ -13,6 +13,14 @@ aliases: [/net/work-with-text-document/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with plain text documents using Aspose.Words.
+
+{{% /alert %}}
+
 In this article, we will learn what options can be useful for working with a text document via Aspose.Words. Please note that this is not a complete list of available options, but only an example of working with some of them.
 
 ## Add Bi-Directional Marks

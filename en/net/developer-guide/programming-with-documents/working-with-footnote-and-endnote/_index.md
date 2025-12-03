@@ -12,6 +12,14 @@ url: /net/working-with-footnote-and-endnote/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with footnotes and endnotes.
+
+{{% /alert %}}
+
 Aspose.Words also provides some classes, methods and properties for working with footnotes and endnotes.
 
 ## Insert Endnote and Set Numbering Options

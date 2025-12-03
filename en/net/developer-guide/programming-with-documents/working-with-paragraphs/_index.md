@@ -12,6 +12,14 @@ url: /net/working-with-paragraphs/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with paragraphs programmatically.
+
+{{% /alert %}}
+
 A paragraph is a set of characters combined into a logical block and ending with a special character – a *paragraph break*. In Aspose.Words, a paragraph is represented by the [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) class.
 
 ## Insert a Paragraph

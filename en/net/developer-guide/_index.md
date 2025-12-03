@@ -12,6 +12,14 @@ url: /net/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes the developer guide and provides an overview of major topics relevant to building solutions with Aspose.Words.
+
+{{% /alert %}}
+
 This Developer Guide provides information on using Aspose.Words in a variety of practical scenarios. Its articles provide suggestions and tips that will help using specific features, achieve a certain document appearance or make a use case possible.
 
 To learn more about Aspose.Words features, select the corresponding section:

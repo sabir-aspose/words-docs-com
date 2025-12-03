@@ -12,6 +12,14 @@ url: /net/document-merger-for-dynamics-crm/
 timestamp: 2024-01-30-16-22-34
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes the Document Merger for Dynamics CRM, which combines multiple documents or templates.
+
+{{% /alert %}}
+
 This provide functionality to automatically merge two documents into single or creating new document using existing documents.
 Major features of this Addon are:
 

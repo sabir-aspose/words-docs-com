@@ -13,6 +13,14 @@ url: /net/convert-pdf-to-other-document-formats/
 timestamp: 2024-07-09-19-00-42
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to convert PDF files into other formats supported by Aspose.Words, including Word, HTML, and image types.
+
+{{% /alert %}}
+
 Aspose.Words can load even such a complex format as PDF. This opens up new opportunities: it is possible to convert PDF to Word or other formats that bring users far ahead in solving many applied problems.
 
 ## Prerequisites

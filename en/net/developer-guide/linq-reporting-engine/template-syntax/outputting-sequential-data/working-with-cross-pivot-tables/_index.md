@@ -12,6 +12,14 @@ url: /net/working-with-cross-pivot-tables/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with cross-pivot tables in document templates.
+
+{{% /alert %}}
+
 *A cross or pivot table* is a document table growing in the both directions – vertically and horizontally – depending on bound data. You can build a cross (pivot) table by nesting a table-column data band into a table-row data band as follows.
 
 <table class="outputting-sequential-data">

@@ -13,6 +13,14 @@ aliases: [/net/template-syntax/#working-with-content-controls]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with content controls conceptually and programmatically.
+
+{{% /alert %}}
+
 LINQ Reporting Engine enables you to perform certain operations on content controls dynamically while building a report.
 
 **Note** – To work with content controls in template documents using Microsoft Word®, you may need to [show the Developer tab on its ribbon](https://docs.microsoft.com/en-us/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon?view=vs-2022).
