@@ -12,6 +12,14 @@ url: /net/inlining-syntax-error-messages-into-templates/
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to inline syntax error messages in templates when using the reporting engine.
+
+{{% /alert %}}
+
 By default, LINQ Reporting Engine throws an exception when encounters a template syntax error. Such an exception provides information on a reason of the error and specifies a tag or expression part where the error is encountered. In most cases, this information is enough to find a place in a template causing the error and fix it.
 
 However, when dealing with complex templates containing a large number of tags, it becomes harder to find an exact place in a template causing an error. To make things easier, the engine supports the `ReportBuildOptions.InlineErrorMessages` option that enables inlining of a syntax error message into a template document at an exact position where the error occurs during runtime. 

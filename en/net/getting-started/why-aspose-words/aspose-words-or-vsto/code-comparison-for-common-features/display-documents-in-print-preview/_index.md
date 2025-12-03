@@ -12,6 +12,14 @@ url: /net/display-documents-in-print-preview/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to display documents in print preview mode and discusses rendering prerequisites.
+
+{{% /alert %}}
+
 ## VSTO Words
 
 Below is the code to show Print Preview of the document.

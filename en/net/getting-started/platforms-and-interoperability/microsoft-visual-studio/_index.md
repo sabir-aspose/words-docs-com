@@ -12,6 +12,14 @@ url: /net/aspose-words-net-for-visualstudio/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page outlines how Aspose.Words integrates with Visual Studio for document processing development.
+
+{{% /alert %}}
+
 This section includes the following topics
 
 - [Visual Studio Export GridView To Word Control](/words/net/visual-studio-export-gridview-to-word-control/)

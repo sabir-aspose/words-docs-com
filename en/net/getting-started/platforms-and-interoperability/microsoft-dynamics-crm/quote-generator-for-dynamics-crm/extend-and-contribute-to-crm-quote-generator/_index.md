@@ -12,6 +12,14 @@ url: /net/extend-and-contribute-to-crm-quote-generator/
 timestamp: 2024-01-30-16-22-34
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to extend the CRM Quote Generator.
+
+{{% /alert %}}
+
 You can download the latest source code at:
 
 - [CodePlex](https://www.microsoft.com/ru-ru/?p=asposenetcrm).

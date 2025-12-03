@@ -12,6 +12,14 @@ url: /net/document-generator-for-dynamics-crm/
 timestamp: 2024-10-24-11-44-28
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains the Document Generator for Dynamics CRM and demonstrates automated document creation from CRM records.
+
+{{% /alert %}}
+
 The Aspose Document Generator is an open-source add-on to be used in Microsoft Dynamic CRM. This add-on is capable of automatically generate a document using a template defined. One-click will generate a document for individual contact based on the template selected. This can be used with all versions of Microsoft Dynamics CRM 2011.
 Major features of this Addon are:
 

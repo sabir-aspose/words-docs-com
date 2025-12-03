@@ -12,6 +12,14 @@ url: /net/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains security considerations for web applications that load external resources through Aspose.Words.
+
+{{% /alert %}}
+
 By default, Aspose.Words for .NET can load remote resources such as images, CSS styles, or external HTML documents when importing documents or inserting images using the DocumentBuilder. This behavior allows you to process your documents in full detail but can be a reason of some security risks if the library is a part of a web application.
 
 In this article, we take a look at common security issues that can arise when loading external resources and provide recommendations on how to avoid such problems.

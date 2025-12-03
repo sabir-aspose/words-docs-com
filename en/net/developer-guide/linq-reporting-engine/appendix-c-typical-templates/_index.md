@@ -12,6 +12,14 @@ url: /net/typical-templates/
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains typical document templates used for mail merge and LINQ reporting.
+
+{{% /alert %}}
+
 This section contains examples of templates for typical scenarios. Every example is given using one of the following data source objects:
 
 - `manager`, an instance of the `Manager` class

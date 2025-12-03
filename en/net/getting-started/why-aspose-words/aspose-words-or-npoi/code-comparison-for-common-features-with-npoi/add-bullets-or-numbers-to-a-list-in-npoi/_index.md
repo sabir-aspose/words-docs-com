@@ -12,6 +12,14 @@ url: /net/add-bullets-or-numbers-to-a-list-in-npoi/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to insert bulleted or numbered lists into a document using the NPOI interface with Aspose.Words.
+
+{{% /alert %}}
+
 ## Aspose.Words - Add bullets or numbers to a list
 
 The **Lists** class is used to Add bullets or numbers to a list in word documents

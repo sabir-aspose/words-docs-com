@@ -12,6 +12,14 @@ url: /net/grammar-checking/
 timestamp: 2025-03-17-19-00-00
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains the grammar checking capabilities available in Aspose.Words.
+
+{{% /alert %}}
+
 Checking grammar in documents is important to ensure clarity, professionalism, and accuracy. Well-written documents leave a positive impression and avoid misunderstandings. Grammar checks help identify and correct errors quickly, saving time and improving quality.
 
 Aspose.Words allows users to check grammar and detect errors in documents using the OpenAI, Google, and Claude models' families listed in the [AiModelType](https://reference.aspose.com/words/net/aspose.words.ai/aimodeltype/) enumeration. Use the [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/aimodel/checkgrammar/) method, available in the [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) namespace. **CheckGrammar** analyzes the text in a document and highlights grammatical problems.

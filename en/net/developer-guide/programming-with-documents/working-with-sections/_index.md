@@ -12,6 +12,14 @@ url: /net/working-with-sections/
 timestamp: 2024-09-25-11-08-55
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with document sections.
+
+{{% /alert %}}
+
 Sometimes you want a document that does not have the same formatting across all pages. For example, you may need to modify page number formats, have different page size and orientation, or have the first document page as a cover page without any numbering. You can achieve that with sections.
 
 Sections are level nodes that control headers and footers, orientation, columns, margins, page number formatting, and others.

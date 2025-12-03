@@ -12,6 +12,14 @@ url: /net/using-operators-linq/
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to use template operators supported by the LINQ Reporting Engine.
+
+{{% /alert %}}
+
 The following table contains predefined and user-defined operators that LINQ Reporting Engine enables you to use in template expressions.
 
 <table class="using operators">

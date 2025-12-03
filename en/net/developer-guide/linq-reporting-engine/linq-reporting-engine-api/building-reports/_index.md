@@ -12,6 +12,14 @@ url: /net/building-reports/
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to build reports (e.g., invoices, letters) using Aspose.Words’ Reporting Engine.
+
+{{% /alert %}}
+
 To build a report from a template, you can use one of the `ReportingEngine.BuildReport` overloads. The following table describes the parameters of these overloads.
 
 | Parameter | Description |

@@ -12,6 +12,14 @@ url: /net/specify-default-fonts/
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to specify default fonts for rendering and layout.
+
+{{% /alert %}}
+
 {{% alert color="primary" %}}
 
 See more details in the [Manipulating and Substitution TrueType Fonts](/words/net/manipulating-and-substitution-truetype-fonts/) article.

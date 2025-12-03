@@ -26,6 +26,14 @@ aliases:
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes supported file formats and conversion rules for Aspose.Words.
+
+{{% /alert %}}
+
 {{% alert color="primary" %}}
 
 **Try online**

@@ -13,6 +13,14 @@ aliases: [/net/template-syntax/#inserting-documents-dynamically]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes inserting HTML dynamically into documents.
+
+{{% /alert %}}
+
 You can insert HTML to your reports dynamically by using one of the following two options.
 
 The first one is using of an expression tag with an `html` switch applied as follows.

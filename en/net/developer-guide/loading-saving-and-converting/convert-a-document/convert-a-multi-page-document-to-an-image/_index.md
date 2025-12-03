@@ -12,6 +12,14 @@ url: /net/convert-a-multi-page-document-to-an-image/
 timestamp: 2025-06-18-10-00-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to convert multi-page documents into multi-frame images, including configuration of image size, resolution, and page range.
+
+{{% /alert %}}
+
 Aspose.Words for .NET allows users to export multi-page documents to raster images. This can be useful for generating previews, archives, or visual representations of documents for non-editable use.
 
 ## What Formats Support Multi-page Export?

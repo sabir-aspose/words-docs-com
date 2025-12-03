@@ -12,6 +12,14 @@ url: /net/applying-custom-formatting-to-fields/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page outlines how to apply custom formatting to fields (like merge fields or document variables) in Aspose.Words.
+
+{{% /alert %}}
+
 Sometimes users need to apply custom formatting to fields. In this article, we will look at a couple of examples of how this can be done.
 
 To learn more options, see the full list of properties for each field type in the corresponding class in the [Fields namespace](https://reference.aspose.com/words/net/aspose.words.fields/).

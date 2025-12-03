@@ -12,6 +12,14 @@ url: /net/code-comparison-for-common-features/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains general code comparisons for common features across different document-processing libraries.
+
+{{% /alert %}}
+
 This section includes the following topics
 
 - [Changing Page Setup for Whole Document using Aspose.Words](/words/net/changing-page-setup-for-whole-document-using-aspose-words/)

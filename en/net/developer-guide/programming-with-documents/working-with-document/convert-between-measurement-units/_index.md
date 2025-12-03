@@ -12,6 +12,14 @@ url: /net/convert-between-measurement-units/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to convert between various measurement units—such as points, inches, and millimeters—when working with document layout.
+
+{{% /alert %}}
+
 Most of the object properties provided in the Aspose.Words API that represent some measurement, such as width or height, margins, and various distances, accept values in points, where 1 inch equals 72 points. Sometimes this is not convenient and points need to be converted to other units.
 
 Aspose.Words provides the [ConvertUtil](https://reference.aspose.com/words/net/aspose.words/convertutil/) class that provides helper functions to convert between various measurement units. It enables to convert:

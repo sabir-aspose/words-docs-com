@@ -12,6 +12,14 @@ url: /net/working-with-footers-in-npoi/
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with footers in NPOI when handling Word documents.
+
+{{% /alert %}}
+
 ## Aspose.Words - Working with Footers
 
 Below is the code to demonstrate how to insert footer in word document:

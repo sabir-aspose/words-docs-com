@@ -12,6 +12,14 @@ url: /net/delete-comments-by-all-or-a-specific-author/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to delete comments from all authors or specific authors in a Word document.
+
+{{% /alert %}}
+
 On this page we will look at how to remove comments of all or a specific author using Aspose.Words or Open XML SDK.
 
 {{< nosnippet >}}

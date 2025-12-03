@@ -12,6 +12,14 @@ url: /net/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to set rendering options when converting to PDF.
+
+{{% /alert %}}
+
 The PDF format is a fixed-page format that is very popular among users and widely supported by various applications, because a PDF document looks the same on any device. For that reason, converting to PDF is an important feature of Aspose.Words.
 
 PDF is a complex format. Several stages of calculations are required in the process of converting a document to PDF, including the layout calculation. Since these stages include complex computations, they are time-consuming. Also, the PDF format is rather complex by itself. It has a specific file structure, graphics model and font embedding. Moreover, it features some complex output functionality, such as document structure tags, encryption, digital signatures, and editable forms.

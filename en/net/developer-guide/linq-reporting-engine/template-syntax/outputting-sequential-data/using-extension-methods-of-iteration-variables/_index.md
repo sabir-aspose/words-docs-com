@@ -12,6 +12,14 @@ url: /net/using-extension-methods-of-iteration-variables/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to use extension methods of iteration variables in template loops.
+
+{{% /alert %}}
+
 LINQ Reporting Engine provides special extension methods for iteration variables of any type. You can normally use these extension methods in template expressions. The following list describes the extension methods.
 
 - IndexOf()

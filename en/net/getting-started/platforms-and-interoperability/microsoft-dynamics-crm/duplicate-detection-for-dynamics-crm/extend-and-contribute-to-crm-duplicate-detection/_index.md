@@ -12,6 +12,14 @@ url: /net/extend-and-contribute-to-crm-duplicate-detection/
 timestamp: 2024-10-24-11-44-28
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to contribute to CRM Duplicate Detection extensions.
+
+{{% /alert %}}
+
 You can download the latest source code at:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Dynamics%20CRM/Aspose.DuplicateDocument)

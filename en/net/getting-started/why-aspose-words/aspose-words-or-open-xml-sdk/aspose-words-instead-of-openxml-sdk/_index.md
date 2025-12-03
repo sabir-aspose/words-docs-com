@@ -13,6 +13,14 @@ aliases: [/net/aspose-words-net-for-openxml/]
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how Aspose.Words offers broader functionality compared to Open XML SDK for complex document operations.
+
+{{% /alert %}}
+
 When a user needs to create, modify, and manage documents programmatically, it is always important to choose the right tool that fits the particular document development needs. This article aims to help developers make the right decision by comparing Aspose.Words and Open XML SDK.
 
 It is worth noting once again that Aspose.Words and the Open XML SDK can do similar things, but Aspose.Words' functionality is much broader and is not limited to creating only OOXML documents.

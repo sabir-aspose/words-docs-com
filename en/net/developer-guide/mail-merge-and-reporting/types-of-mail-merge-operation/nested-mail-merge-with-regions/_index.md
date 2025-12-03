@@ -16,6 +16,14 @@ url: /net/nested-mail-merge-with-regions/
 timestamp: 2024-07-11-08-07-06
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to perform a nested mail merge with regions to generate hierarchical or grouped data layouts.
+
+{{% /alert %}}
+
 In some scenarios, you may need to use nested Mail Merge with regions. Nested merge is a feature that enables you to merge hierarchical data from your data source into your merge template to easily populate your document. Basically, the hierarchical data is represented as a set of data items, and hierarchical relationships describe how the data items are related to each other (one item of data is the parent of another one).
 
 Aspose.Words allows you to perform a Mail Merge operation with nested regions. You can use this feature if you have a data source that is organized into a tree-like structure and you want to execute a Mail Merge operation to populate a template with hierarchical data.

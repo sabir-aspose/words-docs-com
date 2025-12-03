@@ -12,6 +12,14 @@ url: /net/resize-image-in-word-document/
 timestamp: 2024-05-02-11-51-44
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to resize images inside a Word document using Aspose.Words.
+
+{{% /alert %}}
+
 {{% alert color="primary" %}}
 
 See more details in the [Working with Images](/words/net/working-with-images/) documentation section.

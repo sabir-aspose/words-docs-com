@@ -12,6 +12,14 @@ url: /net/encrypt-a-document/
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to encrypt Word documents using passwords and various encryption algorithms.
+
+{{% /alert %}}
+
 Encryption is the process that translates readable text to meaningless sequences of bytes so it can only be read by the person who has the decryption key or the secret code. This process plays an important role in securing your content. It helps to encode the content, verify the origin of a document, prove that the content has not been modified after it was sent, and ensure that the data from the document is safe.
 
 This article explains how Aspose.Words allows you to encrypt a document and how to check if a document has encryption or not.

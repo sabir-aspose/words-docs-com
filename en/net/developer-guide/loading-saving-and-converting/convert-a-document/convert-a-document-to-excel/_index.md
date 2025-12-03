@@ -12,6 +12,14 @@ url: /net/convert-a-document-to-excel/
 timestamp: 2024-07-09-19-00-42
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page outlines how to convert a Word document to Excel format (XLS/XLSX) using Aspose.Words.
+
+{{% /alert %}}
+
 Converting documents from one format to another is the flagship feature of Aspose.Words. You can convert documents in any available [load format](https://reference.aspose.com/words/net/aspose.words/loadformat/) also to XLSX format.
 
 ## Convert a Document to XLSX

@@ -12,6 +12,14 @@ url: /net/insert-picture-in-document/
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to insert images into a document.
+
+{{% /alert %}}
+
 {{% alert color="primary" %}}
 
 See more details in the [Working with Images](/words/net/working-with-images/) documentation section.

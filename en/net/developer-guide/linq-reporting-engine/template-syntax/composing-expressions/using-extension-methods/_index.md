@@ -12,6 +12,14 @@ url: /net/using-extension-methods-linq/
 timestamp: 2024-02-16-10-54-23
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to use extension methods within LINQ Reporting Engine templates.
+
+{{% /alert %}}
+
 LINQ Reporting Engine enables you to use the following built-in extension methods in template expressions:
 
 - Extension methods mimicking the ones for `IEnumerable<T>` (see "Appendix A. Enumeration Extension Methods" for more information)

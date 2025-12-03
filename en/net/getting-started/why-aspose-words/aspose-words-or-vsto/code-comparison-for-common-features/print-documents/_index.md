@@ -12,6 +12,14 @@ url: /net/print-documents/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to print documents using Aspose.Words and details printer-related options.
+
+{{% /alert %}}
+
 ## VSTO Words
 
 Call the **PrintOut** method of the **Document** object that you want to print.The following code example prints the active entire document or any current active page.

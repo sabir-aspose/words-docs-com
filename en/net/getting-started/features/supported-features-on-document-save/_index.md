@@ -174,6 +174,14 @@ aliases:
 timestamp: 2024-09-25-11-08-55
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains which features Aspose.Words supports on document save.
+
+{{% /alert %}}
+
 Aspose.Words allows users to work with documents in various formats and provides a wide range of features for this. For example, users can create a document from scratch or load it, make some changes, and then save those changes in the output file in any [supported export format](/words/net/supported-document-formats/). While saving the document in the selected format, the user can apply various save options.
 
 {{% alert color="primary" %}}

@@ -12,6 +12,14 @@ url: /net/about-aspose-words-and-sharepoint/
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how Aspose.Words integrates with SharePoint to enable server-side document generation, conversion, and management.
+
+{{% /alert %}}
+
 {{% alert color="primary" %}}
 
 Note that there are two products in the Aspose.Words family that can be used with Microsoft SharePoint: 

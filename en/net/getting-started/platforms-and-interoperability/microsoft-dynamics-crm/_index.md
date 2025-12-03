@@ -12,6 +12,14 @@ url: /net/aspose-words-net-for-crm/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page outlines how Aspose.Words supports integration with content management systems (CMS) for document generation.
+
+{{% /alert %}}
+
 ## What is Microsoft Dynamics CRM?
 
 Microsoft Dynamics CRM is a customer relationship management software package developed by Microsoft. Out of the box, the product focuses mainly on Sales, Marketing, and Service (help desk) sectors, but Microsoft has been marketing Dynamics CRM as an XRM platform and has been encouraging partners to use its proprietary (.NET based) framework to customize it. It is part of the Microsoft Dynamics family of business applications.

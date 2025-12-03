@@ -12,6 +12,14 @@ url: /net/microsoft-sharepoint/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how Aspose.Words integrates with Microsoft SharePoint for document processing workflows.
+
+{{% /alert %}}
+
 ## This section includes the following topics: 
 
 - [About Aspose.Words and SharePoint](/words/net/about-aspose-words-and-sharepoint/)

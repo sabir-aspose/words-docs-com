@@ -12,6 +12,14 @@ url: /net/visual-studio-export-gridview-to-word-control/
 timestamp: 2024-10-24-11-44-28
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to export a GridView to Word using a Visual Studio control.
+
+{{% /alert %}}
+
 Export GridView To Word Control is an ASP.NET server control which allows exporting contents of GridView into Word Processing document using [Aspose.Words](https://products.aspose.com/words/). It adds **Export to Word** button on top of the `GridView` control. Clicking the button dynamically exports the content of the `GridView` control to a Word Processing document and then automatically downloads the exported file to the disk location selected by the user in just couple of seconds.
 
 ## Module Features

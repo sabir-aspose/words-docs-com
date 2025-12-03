@@ -12,6 +12,14 @@ url: /net/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page outlines how to clean up unnecessary or redundant content in a Word document using Aspose.Words.
+
+{{% /alert %}}
+
 Sometimes you may need to remove unused or duplicate information to reduce the size of the output document and processing time.
 
 While you can find and remove unused data, such as styles or lists, or duplicate information manually, it will be much more convenient to do this using features and capabilities provided by Aspose.Words.

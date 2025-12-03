@@ -12,6 +12,14 @@ url: /net/create-a-word-processing-document/
 timestamp: 2024-01-30-16-22-34
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to create a new Word processing document from scratch and insert basic content such as paragraphs and runs.
+
+{{% /alert %}}
+
 On this page we will look at how to create a document using Aspose.Words or Open XML SDK.
 
 {{< nosnippet >}}

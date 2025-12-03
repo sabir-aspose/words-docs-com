@@ -12,6 +12,14 @@ url: /net/linq-reporting-engine-api/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains the LINQ Reporting Engine API and provides an overview of its main classes, methods, and document-generation pipeline.
+
+{{% /alert %}}
+
 {{% alert color="primary" %}}
 
 Classes of the LINQ Reporting Engine are located within the `Aspose.Words.Reporting` namespace. The main of the classes is `ReportingEngine`. All the functionality required to build a report from a template is assembled within the class.

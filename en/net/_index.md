@@ -12,6 +12,14 @@ is_root: true
 timestamp: 2024-09-25-11-08-55
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains the core capabilities of Aspose.Words for .NET for creating, manipulating, converting, and rendering Word documents programmatically.
+
+{{% /alert %}}
+
 <img src="home_1" alt="aspose-words-net-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
 
 **Welcome to Aspose.Words for .NET!**

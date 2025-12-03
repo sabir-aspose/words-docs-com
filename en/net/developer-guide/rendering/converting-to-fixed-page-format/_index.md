@@ -12,6 +12,14 @@ url: /net/converting-to-fixed-page-format/
 timestamp: 2024-07-10-08-10-45
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes converting Word documents to fixed-page formats such as PDF, XPS, and images, with explanations of pagination behavior.
+
+{{% /alert %}}
+
 Aspose.Words implements its own page layout engine. Prior to delving into its specifications, it is worthwhile to first discuss document at a high level. When thinking about a document, users typically imagine a number of paper sheets containing words, images, tables, and charts. Documents can be of various types, such as text, spreadsheets, slides, CAD drawings, flowcharts, and, therefore, can have essentially different layouts. Most applications allow sending documents to a printer; this is when a user can actually view the document’s final intended appearance.
 
 ## Displaying a Document in Various Applications

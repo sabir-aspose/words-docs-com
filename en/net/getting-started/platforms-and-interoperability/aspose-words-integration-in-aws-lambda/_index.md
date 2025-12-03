@@ -13,6 +13,14 @@ url: /net/integration-in-aws-lambda/
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to use Aspose.Words inside AWS Lambda.
+
+{{% /alert %}}
+
 In case you are targeting to create an application in the cloud, and you need Aspose.Words functionality and probably integration with other Amazon services, you may be interested in using Aspose.Words in AWS Lambda.
 
 This article describes possible scenarios for using Aspose.Words for .NET when building applications for  Amazon Web Services.

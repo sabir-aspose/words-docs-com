@@ -12,6 +12,14 @@ url: /net/inserting-table/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to insert a table via code.
+
+{{% /alert %}}
+
 ## VSTO
 
 {{< highlight csharp >}}

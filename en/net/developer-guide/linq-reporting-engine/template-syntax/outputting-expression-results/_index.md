@@ -13,6 +13,14 @@ aliases: [/net/template-syntax/#outputting-expression-results]
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to output expression results during template processing with the LINQ Reporting Engine.
+
+{{% /alert %}}
+
 You can output expression results to your reports using expression tags. An expression tag denotes a placeholder for an expression result within a template. While building a report, the corresponding expression is evaluated, and this placeholder is replaced with the formatted result of the expression. 
 
 An expression tag has no name and consists of the following elements:

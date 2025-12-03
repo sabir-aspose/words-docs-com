@@ -13,6 +13,14 @@ aliases: [/net/using-and-configuring-crm-oneclick-word-document-generator/]
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to use and configure the CRM OneClick Generator for quick document creation.
+
+{{% /alert %}}
+
 ## Create Template and Add in CRM
 
 - Open word and create a template.

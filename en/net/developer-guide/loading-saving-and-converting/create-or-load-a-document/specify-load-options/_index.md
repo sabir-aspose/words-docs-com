@@ -12,6 +12,14 @@ url: /net/specify-load-options/
 timestamp: 2024-07-09-19-00-42
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to specify load options when opening a document.
+
+{{% /alert %}}
+
 When loading a document, you can set some advanced properties. Aspose.Words provides you with the [LoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/) class, which allows more precise control of the load process. Some load formats have a corresponding class that holds load options for this load format, for example, there is [PdfLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/) for loading to PDF format or [TxtLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/) for loading to TXT. This article provides examples of working with options of the **LoadOptions** class.
 
 ## Set Microsoft Word Version to Change the Appearance

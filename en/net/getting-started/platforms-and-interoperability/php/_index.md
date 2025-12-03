@@ -12,6 +12,14 @@ url: /net/aspose-words-net-for-php/
 timestamp: 2024-10-24-11-44-28
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page outlines how to use Aspose.Words in PHP-based projects through its .NET API.
+
+{{% /alert %}}
+
 Project Aspose.Words .NET for PHP shows how different tasks can be performed using Aspose.Words .NET APIs in PHP. This project is aimed to provide useful examples for PHP Developers who want to utilise Aspose.Words for .NET in their PHP Projects.
 
 ## Introduction Aspose.Words .NET for PHP

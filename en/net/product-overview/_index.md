@@ -12,6 +12,14 @@ url: /net/product-overview/
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains the Aspose.Words for .NET product’s purpose, features, and technical capabilities at a high level.
+
+{{% /alert %}}
+
 <img src="product-overview_1" alt="aspose-words-product" align="left" style="width:64px; margin: 0 30px 30px 0"/>
 
 Welcome to Aspose.Words for .NET!

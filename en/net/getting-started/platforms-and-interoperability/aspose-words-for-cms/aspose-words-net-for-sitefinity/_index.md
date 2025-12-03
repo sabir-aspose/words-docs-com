@@ -12,6 +12,14 @@ url: /net/aspose-words-net-for-sitefinity/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how Aspose.Words can be used in Sitefinity CMS for document generation.
+
+{{% /alert %}}
+
 ## What is Sitefinity?
 
 Sitefinity is a modern ASP.NET based web Content Management System (CMS), delivering intuitive web content management and robust development environment for business professionals. Here are the projects we have created for this popular CMS.

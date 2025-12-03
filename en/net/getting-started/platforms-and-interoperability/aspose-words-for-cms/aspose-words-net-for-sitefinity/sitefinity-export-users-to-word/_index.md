@@ -12,6 +12,14 @@ url: /net/sitefinity-export-users-to-word/
 timestamp: 2024-10-24-11-44-28
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to export Sitefinity users to Word documents.
+
+{{% /alert %}}
+
 Aspose .NET Export Users to Word for SiteFinity Module allows developers to export SiteFinity Users into Microsoft Word or OpenOffice Document. This module demonstrates the powerful document building feature provided by Aspose.Words.
 
 ## System Requirements and Supported Platforms

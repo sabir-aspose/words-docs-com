@@ -12,6 +12,14 @@ url: /net/working-with-table-column-data-bands/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with table-column data bands in templates.
+
+{{% /alert %}}
+
 You can build tables growing horizontally rather than vertically by using table-column data bands.
 
 A table-column data band represents a data band, which body occupies a rectangular area of cells of a single document table. The body of such a band starts at the beginning of the top-left cell of a corresponding area and ends at the end of its bottom-right cell. Typically, this area consists of one or several table columns as follows.

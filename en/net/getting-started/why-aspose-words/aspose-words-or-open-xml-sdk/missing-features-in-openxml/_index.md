@@ -37,6 +37,14 @@ aliases:
 timestamp: 2025-03-24-10-00-05
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains missing features in OpenXML SDK compared to Aspose.Words and highlights advantages of using Aspose.Words.
+
+{{% /alert %}}
+
 As already described in previous articles, there are operations with documents that are faster and more conveniently to perform using Aspose.Words than Open XML SDK. But there are also operations that are not provided by OpenXML. You can try to achieve the desired result using auxiliary tools and options, but even if successful, it will be quite expensive.
 
 The following table contains some of the popular features supported by Aspose.Words and missed in Open XML SDK:

@@ -13,6 +13,14 @@ aliases: [/net/template-syntax/#inserting-bookmarks-dynamically]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to insert bookmarks dynamically in reporting templates.
+
+{{% /alert %}}
+
 You can insert bookmarks to your reports dynamically using `bookmark` tags. Syntax of a `bookmark` tag is defined as follows.
 
 {{< highlight csharp >}}

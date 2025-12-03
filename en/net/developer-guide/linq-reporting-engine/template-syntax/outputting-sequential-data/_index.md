@@ -13,6 +13,14 @@ aliases: [/net/template-syntax/#outputting-sequential-data]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to output sequential data such as lists or tables using template syntax.
+
+{{% /alert %}}
+
 You can output a sequence of elements of the same type to your report using a data band. A *data band* has a body that represents a template for a single element of such a sequence. While building a report, sequence elements are enumerated, and the following procedure takes place for each of the elements:
 
 1. The data band body is duplicated and appended to the report.

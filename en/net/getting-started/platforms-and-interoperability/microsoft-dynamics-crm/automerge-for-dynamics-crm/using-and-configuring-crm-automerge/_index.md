@@ -12,6 +12,14 @@ url: /net/using-and-configuring-crm-automerge/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to use and configure CRM AutoMerge for automated document creation.
+
+{{% /alert %}}
+
 ## Create Template and Upload
 
 Below are the steps to create and upload Template in CRM

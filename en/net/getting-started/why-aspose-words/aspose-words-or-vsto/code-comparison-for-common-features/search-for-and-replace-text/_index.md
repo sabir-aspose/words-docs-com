@@ -12,6 +12,14 @@ url: /net/search-for-and-replace-text/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to search for and replace text across the entire document.
+
+{{% /alert %}}
+
 ## VSTO
 
 {{< highlight csharp >}}

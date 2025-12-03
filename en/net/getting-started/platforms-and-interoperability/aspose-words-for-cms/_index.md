@@ -12,6 +12,14 @@ url: /net/aspose-words-for-cms/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to use Aspose.Words within Microsoft Dynamics CRM to generate and manage Word documents.
+
+{{% /alert %}}
+
 Aspose.Words allows you to work with the following content management systems:
 
 - [DNN](/words/net/aspose-words-net-for-dnn/)
