@@ -13,6 +13,14 @@ aliases: [/net/insert-checkboxes-html-or-images-during-mail-merge/]
 timestamp: 2024-07-11-08-07-06
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to insert checkboxes, text inputs, or images during mail merge.
+
+{{% /alert %}}
+
 The merge engine takes a document as input, looks for `MERGEFIELD` fields in it, and replaces them with the data obtained from the data source. Typically, plain text and HTML are inserted, but Aspose.Words users can also generate a document that handles more unusual scenarios for Mail Merge fields.
 
 Powerful Aspose.Words functionality allows you to extend the Mail Merge process:

@@ -12,6 +12,14 @@ url: /net/remove-all-comments-from-documents/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to remove all comments from a document programmatically.
+
+{{% /alert %}}
+
 ## VSTO Words
 
 Call the **DeleteAllComments** method of the Document from which you want to remove comments.The following code example removes all comments from the active document. To use this code example, run it from the `ThisAddIn` class in your project.

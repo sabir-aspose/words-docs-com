@@ -12,6 +12,14 @@ url: /net/specifying-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to configure TrueType font locations for rendering.
+
+{{% /alert %}}
+
 This topic describes the default behavior of Aspose.Words when it looks for TrueType fonts, including operating system specific differences, and demonstrates how to specify user font sources.
 
 The [FontSourceBase](https://reference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/) class is used to specify various font sources. There are several implementations of the **FontSourceBase** class:

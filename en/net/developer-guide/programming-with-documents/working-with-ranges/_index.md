@@ -12,6 +12,14 @@ url: /net/working-with-ranges/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with ranges to manipulate spans of content.
+
+{{% /alert %}}
+
 {{% alert color="primary" %}}
 
 In Aspose.Words, a Range is a “flat window” into an otherwise tree-like model of the document.

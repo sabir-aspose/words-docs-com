@@ -12,6 +12,14 @@ url: /net/working-with-vba-macros/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with VBA macros, including enabling and modifying them.
+
+{{% /alert %}}
+
 Visual Basic for Applications (VBA) for Microsoft Word is a simple but powerful programming language that can be used to extend the functionality. Aspose.Words API provides three classes to get access to the VBA project source code:
 
 - The [VBAProject](https://reference.aspose.com/words/net/aspose.words.vba/vbaproject/) class provides access to VBA project information

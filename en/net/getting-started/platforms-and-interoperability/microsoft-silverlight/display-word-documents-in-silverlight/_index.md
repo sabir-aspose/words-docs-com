@@ -12,6 +12,14 @@ url: /net/display-word-documents-in-silverlight/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to display Word documents in Silverlight using Aspose.Words-processed output.
+
+{{% /alert %}}
+
 {{% alert color="primary" %}}
 
 You can download the complete source code of the `SilverlightViewer` sample [here](https://releases.aspose.com/words/net/).

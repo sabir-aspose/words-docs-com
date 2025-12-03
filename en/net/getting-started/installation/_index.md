@@ -12,6 +12,14 @@ url: /net/installation/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes installation steps for Aspose.Words.
+
+{{% /alert %}}
+
 Make sure your machine meets the [system requirements](/words/net/system-requirements/) before you begin.
 
 This article explains how to install Aspose.Words for .NET on your computer.

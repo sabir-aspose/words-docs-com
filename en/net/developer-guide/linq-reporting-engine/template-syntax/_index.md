@@ -12,6 +12,14 @@ url: /net/template-syntax/
 timestamp: 2024-09-25-11-08-55
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains the syntax used in document templates for mail merge and LINQ reporting.
+
+{{% /alert %}}
+
 A typical template for LINQ Reporting Engine is composed of common document contents and tags that describe the template’s structure and data bindings. You can form these tags using just running text that can occupy multiple paragraphs to be more descriptive. 
 
 A tag body must meet the following requirements:

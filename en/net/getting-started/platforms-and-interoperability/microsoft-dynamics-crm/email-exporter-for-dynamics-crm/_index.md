@@ -12,6 +12,14 @@ url: /net/email-exporter-for-dynamics-crm/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes the Email Exporter for Dynamics CRM for generating document-based email outputs.
+
+{{% /alert %}}
+
 The Aspose.Words Email Exporter is an open source add-on for Dynamics CRM. It is capable of exporting email body (in HTML) to a word document. It also provides feature to retrieve embedded images inside the emails tracked from Outlook. You can download the generated file instantly and you can choose to attach the generated file with the same email under notes. In addition, it allows you to save the document in multiple formats like DOC, DOCX, BMP, HTML, JPEG, PDF, PNG, RTF and TXT. Aspose.Words Email Exporter can be used with all versions of CRM 2013 on-premises, CRM 2015 on-premises and CRM Online.
 
 Major features of this Addon are:

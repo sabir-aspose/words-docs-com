@@ -12,6 +12,14 @@ url: /net/extract-images-from-word-document-in-npoi/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to extract images using NPOI APIs.
+
+{{% /alert %}}
+
 ## Aspose.Words - Extract Images from Document
 
 To extract all images or images having specific type from the document, follow these steps:

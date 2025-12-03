@@ -12,6 +12,14 @@ url: /net/loading-and-saving-documents/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to load and save documents using Aspose.Words, covering supported formats, options, and common scenarios.
+
+{{% /alert %}}
+
 This section contains the following
 
 - [Load Text File in PHP](/words/net/load-text-file-in-php/)

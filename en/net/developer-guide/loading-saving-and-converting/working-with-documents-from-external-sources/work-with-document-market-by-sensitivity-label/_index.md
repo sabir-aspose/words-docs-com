@@ -12,6 +12,14 @@ url: /net/work-with-document-market-by-sensitivity-label/
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with documents marked by sensitivity labels.
+
+{{% /alert %}}
+
 Sensitivity labels from Microsoft Purview Information Protection let you classify and protect your organization's data, while making sure that user productivity and their ability to collaborate is not hindered. After a sensitivity label is applied to a document, any configured protection settings for that label are enforced on the content.
 
 You can configure a sensitivity label to:

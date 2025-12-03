@@ -12,6 +12,14 @@ url: /net/rendering-shapes-separately-from-a-document/
 timestamp: 2024-07-10-14-38-57
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to render shapes separately from the rest of the document.
+
+{{% /alert %}}
+
 When processing documents, a common task is to extract all images found in the document and export them to an external location. This task becomes simple with the Aspose.Words API, which already provides the functionality for extracting and saving image data. However, sometimes you may want to similarly extract other types of graphic content that is represented by a different type of drawing object, for example, a text box containing paragraphs, arrow shapes, and a small image. There is no straightforward way of rendering this object since it is a combination of individual content elements. You may also encounter a case when the contents have been grouped together into the object that looks like a single image.
 
 Aspose.Words provides functionality for extracting this type of content in the same way you can extract a simple image from a shape as rendered content. This article describes how to utilize this functionality to render shapes independently of the document.

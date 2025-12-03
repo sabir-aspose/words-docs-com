@@ -12,6 +12,14 @@ url: /net/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains table concepts and operations in Aspose.Words.
+
+{{% /alert %}}
+
 Aspose.Words is a class library designed for server-side processing of documents in various formats – PDF, HTML, different Microsoft Word formats and others – and supports tables in the following ways:
 
 * tables in a document are preserved during open/save and conversions

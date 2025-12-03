@@ -12,6 +12,14 @@ url: /net/working-with-styles-and-themes/
 timestamp: 2024-10-24-11-44-28
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with styles and themes.
+
+{{% /alert %}}
+
 The [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) class is used to manage built-in and apply user-defined settings to styles.
 
 ## Accessing Styles

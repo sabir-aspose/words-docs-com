@@ -12,6 +12,14 @@ url: /net/changing-page-setup-for-whole-document-using-aspose-words/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to modify page setup properties (margins, size, orientation) for an entire document using Aspose.Words.
+
+{{% /alert %}}
+
 Page setup is a set of formatting attributes which is stored in each section of a Word document. Microsoft Word Automation’s `ActiveDocument.Range`.PageSetup is a “shortcut” to set the same page setup for all sections of a document. Aspose.Words only provides access to the page setup of individual sections via the `Section.PageSetup` property so any document-wide changes to page setup must be applied for all sections.
 
 ## VSTO

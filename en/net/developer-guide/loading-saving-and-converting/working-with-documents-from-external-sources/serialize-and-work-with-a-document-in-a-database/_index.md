@@ -12,6 +12,14 @@ url: /net/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-07-09-19-00-42
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to serialize a document to a database and how to reload it from storage.
+
+{{% /alert %}}
+
 One of the tasks you may need to get done when working with documents is storing and retrieving **Document** objects to and from a database. For example, this would be necessary if you were implementing any type of content management system. All previous versions of documents must be stored in the database system. The ability to store documents in the database is also extremely useful when your application provides a web-based service.
 
 Aspose.Words provides an ability to convert a document into a byte array for subsequent work with this document in a database.

@@ -13,6 +13,14 @@ aliases: [/net/template-syntax/#using-variables]
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to use variables in templates for dynamic content generation.
+
+{{% /alert %}}
+
 LINQ Reporting Engine enables you to use variables in template documents. Variables are useful when you need to calculate an expensive value just once and access it multiple times in a template. Also, calculation of complex values such as running (progressive) totals may require variables, see “Appendix C. Typical Templates” to get an example.
 
 You can declare a variable in a template using a var tag as follows.

@@ -12,6 +12,14 @@ url: /net/convert-word-document-to-tiff/
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to convert Word documents to TIFF format, including multipage output and compression options.
+
+{{% /alert %}}
+
 {{% alert color="primary" %}}
 
 To convert a Word document to TIFF, simply invoke the [Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/) method and specify a file name with the “.TIFF” extension.

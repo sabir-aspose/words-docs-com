@@ -12,6 +12,14 @@ url: /net/working-with-common-conditional-blocks/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with common conditional blocks in templates.
+
+{{% /alert %}}
+
 A common conditional block is a conditional block which body starts and ends within paragraphs that belong to a single story or table cell.
 
 If a conditional block belongs to a single paragraph, it can be used as a replacement for an expression tag that involves the ternary “`?:`” operator. For example, given that `items` is an enumeration, you can use the following template to represent the count of elements in the enumeration.

@@ -13,6 +13,14 @@ aliases: [/net/aspose-words-net-for-npoi/]
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes the advantages of using Aspose.Words compared to NPOI for Word document processing.
+
+{{% /alert %}}
+
 Sometimes we get the following question: why should we use Aspose products rather than the NPOI? This question is easy to answer: features and functionality.
 
 NPOI (NET version of POI Java project) is an open source project that can help you read or write files in Microsoft Office formats. As part of the current comparison, consider the following NPOI components –  HWPF and XWPF:

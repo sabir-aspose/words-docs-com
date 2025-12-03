@@ -12,6 +12,14 @@ url: /net/insert-hyperlink/
 timestamp: 2024-09-25-11-08-55
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to insert a hyperlink.
+
+{{% /alert %}}
+
 {{% alert color="primary" %}}
 
 See more details in the [Working with Hyperlinks and HTML](/words/net/working-with-hyperlinks/) article.

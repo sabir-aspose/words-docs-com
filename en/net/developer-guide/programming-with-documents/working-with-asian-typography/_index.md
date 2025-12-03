@@ -12,6 +12,14 @@ url: /net/working-with-asian-typography/
 timestamp: 2024-02-01-16-17-05
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with Asian typography features such as line breaking and character spacing.
+
+{{% /alert %}}
+
 Asian Typography is a set of options for text paragraphs in documents written in Asian languages.
 
 Aspose.Words supports Asian Typography using the [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat/) class and some of its properties.

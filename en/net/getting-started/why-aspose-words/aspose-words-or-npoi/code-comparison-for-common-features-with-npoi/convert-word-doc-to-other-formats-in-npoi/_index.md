@@ -12,6 +12,14 @@ url: /net/convert-word-doc-to-other-formats-in-npoi/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to convert Word documents to other formats when using NPOI and contrasts the workflow with Aspose.Words capabilities.
+
+{{% /alert %}}
+
 ## Microsoft Word - Conversion to Other Formats
 
 Documents can be converted to other formats using Save As option in File menu.

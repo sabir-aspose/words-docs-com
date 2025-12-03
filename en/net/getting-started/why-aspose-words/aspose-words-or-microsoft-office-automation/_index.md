@@ -13,6 +13,14 @@ aliases: [/net/why-not-automation/]
 timestamp: 2024-01-30-16-22-34
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains the differences between Aspose.Words and Microsoft Office Automation (Office interop).
+
+{{% /alert %}}
+
 Often, users need not only to do some single operation with a document, for example, to convert it from one format to another, but also to complete a full cycle of work with this document, dictated by some workflow. In this case, a tool is required that provides powerful functionality for working with documents in popular formats and allows users to solve a wide range of applied problems.
 
 When choosing a specific solution, users compare products and evaluate the benefits. There are often times when the choice is between Aspose and Microsoft Office Automation. Therefore, here at Aspose.Words, we often hear two questions: 

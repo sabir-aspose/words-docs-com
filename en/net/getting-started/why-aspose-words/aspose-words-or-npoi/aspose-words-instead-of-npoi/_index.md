@@ -12,6 +12,14 @@ url: /net/aspose-words-instead-of-npoi
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes why you might choose Aspose.Words over NPOI for rich document processing tasks.
+
+{{% /alert %}}
+
 When a user needs to programmatically create, modify, and manage documents, it is always important to choose the right tool that suits the specific document development needs. This article aims to help developers make the right decision when comparing Aspose.Words and NPOI.
 
 It is worth noting again that Aspose.Words for .NET enables you to perform a wide variety of document processing tasks directly in your .NET applications. With Aspose.Words, you can create, modify, convert, display, and print documents without using Microsoft Word.

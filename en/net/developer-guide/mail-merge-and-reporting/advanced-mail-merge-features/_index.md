@@ -15,6 +15,14 @@ url: /net/advanced-mail-merge-features/
 timestamp: 2024-07-11-08-07-06
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains the advanced mail merge features available in Aspose.Words, such as conditional regions, nested mail merge, and more.
+
+{{% /alert %}}
+
 Aspose.Words provides some additional Mail Merge properties and methods that allow you to perform further customization of the Mail Merge process either in simple Mail Merge or Mail Merge with regions.
 
 Advanced Mail Merge features include, but are not limited to, obtaining information about template structure before performing a Mail Merge operation, setting rules for a Mail Merge operation, and cleaning up during a Mail Merge operation. This article will cover only a few properties and examples to show you how to use advanced features.

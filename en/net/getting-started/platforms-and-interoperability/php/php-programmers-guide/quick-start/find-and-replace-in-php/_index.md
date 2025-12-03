@@ -12,6 +12,14 @@ url: /net/find-and-replace-in-php/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to perform find-and-replace operations in PHP using Aspose.Words.
+
+{{% /alert %}}
+
 ## Aspose.Words - Find and Replace Example
 
 Find and Replace Example

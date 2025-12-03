@@ -12,6 +12,14 @@ url: /net/converting-a-document-with-images-using-aspose-words-in-azure-function
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to convert documents containing images using Aspose.Words in Azure Functions while handling environment-specific font and rendering constraints.
+
+{{% /alert %}}
+
 Conversion of documents with images to fixed page formats using Aspose.Words in Azure Functions does not work properly at deployment to Azure, having images not retained. However, such a conversion works properly on a local machine. The reason behind this problem is that SkiaSharp native assets are not properly published. The issue is reported to Azure in [Github](https://github.com/Azure/Azure-Functions/issues/622).
 
 In order to resolve the problem, you can add the following section in the .csproj file that makes native assets copied properly:

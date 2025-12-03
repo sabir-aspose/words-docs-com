@@ -12,6 +12,14 @@ url: /net/supported-platforms/
 timestamp: 2024-10-24-11-44-28
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains supported platforms and frameworks.
+
+{{% /alert %}}
+
 ## .NET Framework
 
 You can confidently use Aspose.Words for .NET to build any type of x86 or x64 (32-bit or 64-bit) .NET application including ASP.NET, Web Services and WinForms. Aspose.Words for .NET is easy to deploy because it consists of just a single assembly without any dependencies (except on the .NET Framework itself). `Aspose.Words.dll` is CLS compliant, written entirely in C# and contains only safe managed code. Aspose.Words for .NET supports all versions of the Microsoft .NET Framework from 2.0 to 4.8. A single MSI installer is provided that caters both for 32-bit and 64-bit environments. The installer contains the following items:

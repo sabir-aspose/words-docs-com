@@ -12,6 +12,14 @@ url: /net/showcases/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains real-world showcases demonstrating how Aspose.Words solves document-automation tasks.
+
+{{% /alert %}}
+
 In the Showcases section, we show you examples of projects using some Aspose.Words features in addition to the code snippets described in the documentation above. These projects differ from most snippets in that they demonstrate many functions of Aspose.Words working together.
 
 Join us for showcases where we explore the power of our solutions and your next steps to making Aspose.Words your strategy.

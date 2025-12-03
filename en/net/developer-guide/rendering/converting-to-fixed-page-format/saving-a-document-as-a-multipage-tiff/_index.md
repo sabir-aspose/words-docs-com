@@ -12,6 +12,14 @@ url: /net/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-07-10-14-38-57
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to save a document as a multi-page TIFF image.
+
+{{% /alert %}}
+
 When working with documents, you often need to convert your document to a raster image file(s). This is especially relevant if you have to present your document in a readable and printable, but not editable format. For example, you can use a raster image of the first page of your document as a preview. This article describes how to convert a document to a raster image using the example of the TIFF format – one of the more popular image formats.
 
 ## Converting DOC to Multi-Page TIFF

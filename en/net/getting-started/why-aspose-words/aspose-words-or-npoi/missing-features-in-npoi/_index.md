@@ -41,6 +41,14 @@ aliases:
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains which features are missing in NPOI compared to Aspose.Words and why Aspose.Words covers advanced scenarios.
+
+{{% /alert %}}
+
 As already described in previous articles, there are operations with documents that are faster and more conveniently to perform using Aspose.Words than NPOI. But there are also operations that are not provided by NPOI (HWPF and XWPF). You can try to achieve the desired result using auxiliary tools and options, but even if successful, it will be quite expensive.
 
 The following table contains some of the popular features supported by Aspose.Words and missed in NPOI (HWPF and XWPF):

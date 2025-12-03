@@ -12,6 +12,14 @@ url: /net/document-comparison-getting-started/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to get started with comparing documents using Aspose.Words’ built-in comparison engine.
+
+{{% /alert %}}
+
 Aspose.Words for .NET compares two Microsoft Word documents and shows the differences between them. You can see what text has been added, removed, or unchanged.
 
 Document Comparison is built using Aspose.Words for .NET, HTML5, jQuery, Bootstrap and ASP.NET.

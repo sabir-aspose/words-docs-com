@@ -12,6 +12,14 @@ url: /net/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to protect or encrypt a document using various security options.
+
+{{% /alert %}}
+
 The main reason to protect or encrypt a document is to apply more control over who can access the document or who can edit it. Applying protection to your documents, you avoid common risks such as copying or modifying documents without permission, as well as data leakage.
 
 Some of the most popular formats when working with documents are Microsoft Word formats or formats that can be exported from Word. That's why many users are interested in the same document protection options that Microsoft Word provides. Despite the complexity of these options, Aspose.Words supports most of them, so it makes it an excellent solution for working with documents.

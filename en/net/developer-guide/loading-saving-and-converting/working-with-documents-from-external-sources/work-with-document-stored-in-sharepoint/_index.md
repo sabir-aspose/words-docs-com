@@ -12,6 +12,14 @@ url: /net/work-with-document-stored-in-sharepoint/
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with documents stored in SharePoint.
+
+{{% /alert %}}
+
 Microsoft SharePoint Online is a collection of web-based technologies that make it easy for organizations to store, share, and manage digital information. You can work with documents stored in the "Shared Documents" folder in SharePoint using our powerful Aspose.Words for .NET.
 
 In this article, we will cover a common scenario for converting a document uploaded to the "Shared Documents" folder to PDF format and uploading the resulting document back to the folder.

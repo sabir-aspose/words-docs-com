@@ -13,6 +13,14 @@ aliases: [/net/template-syntax/#merging-table-cells-dynamically]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to merge table cells dynamically during document generation using template logic.
+
+{{% /alert %}}
+
 You can merge table cells with equal textual contents within your reports dynamically using `cellMerge` tags. The syntax of a `cellMerge` tag is defined as follows.
 
 {{< highlight csharp >}}

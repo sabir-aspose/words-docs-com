@@ -12,6 +12,14 @@ url: /net/working-with-watermark/
 timestamp: 2025-04-16-07-02-05
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with watermarks in Word documents.
+
+{{% /alert %}}
+
 This topic discusses how to work programmatically with watermark using Aspose.Words. A watermark is a background image that displays behind the text in a document. A watermark can contain a text or an image represented by the [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) class.
 
 {{% alert color="primary" %}}

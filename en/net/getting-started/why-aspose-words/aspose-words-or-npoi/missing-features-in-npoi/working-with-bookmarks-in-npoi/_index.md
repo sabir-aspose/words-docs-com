@@ -12,6 +12,14 @@ url: /net/working-with-bookmarks-in-npoi/
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with bookmarks in NPOI when handling Word documents.
+
+{{% /alert %}}
+
 {{% alert color="primary" %}}
 
 See more details in the [Working with Bookmarks](/words/net/working-with-bookmarks/) article.

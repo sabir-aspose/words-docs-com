@@ -12,6 +12,14 @@ url: /net/get-and-set-bookmark-text/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to get and set bookmark text.
+
+{{% /alert %}}
+
 On this page we will look at how to get and set bookmark text in a document using Aspose.Words or Open XML SDK.
 
 {{< nosnippet >}}

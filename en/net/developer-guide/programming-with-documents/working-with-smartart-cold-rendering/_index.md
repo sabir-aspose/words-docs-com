@@ -13,6 +13,14 @@ url: /net/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how SmartArt cold rendering works when converting documents.
+
+{{% /alert %}}
+
 SmartArt graphics are used to quickly and easily create a visual representation of information. You simply choose from a large number of layouts that best suits your situation. This ease of use makes SmartArt graphics quite popular for some purposes.
 
 Microsoft Word generates and saves the pre-rendered drawing along with the `SmartArt` object. In most cases, the pre-rendered drawing is rendered well by Aspose.Words and no additional actions are required. However, if the document is saved by other applications, the pre-rendered SmartArt drawing may be missing or incorrect. In this case, the `SmartArt` object itself should be laid-out and rendered using Aspose.Words. We call this process the `SmartArt` Cold Rendering.

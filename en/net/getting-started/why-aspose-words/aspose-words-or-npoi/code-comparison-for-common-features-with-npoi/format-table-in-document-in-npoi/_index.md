@@ -12,6 +12,14 @@ url: /net/format-table-in-document-in-npoi/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to format tables using NPOI.
+
+{{% /alert %}}
+
 ## Aspose.Words - Format Table in Document
 
 {{% alert color="primary" %}}

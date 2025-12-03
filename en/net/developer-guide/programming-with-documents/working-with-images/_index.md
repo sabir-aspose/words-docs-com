@@ -14,6 +14,14 @@ aliases:
 timestamp: 2024-05-02-11-51-44
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with images inside Word documents.
+
+{{% /alert %}}
+
 Aspose.Words allows users to work with images in a very flexible way. In this article, you can explore only some of the possibilities of working with images.
 
 ## How to Insert an Image {#insert-an-image}

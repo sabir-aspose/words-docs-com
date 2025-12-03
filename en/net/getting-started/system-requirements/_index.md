@@ -12,6 +12,14 @@ url: /net/system-requirements/
 timestamp: 2025-03-17-19-00-00
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains system requirements for using Aspose.Words.
+
+{{% /alert %}}
+
 Aspose.Words for .NET does not require any third party product such as Microsoft Word to be installed. Aspose.Words itself is an engine for creating, modifying, converting, and rendering of documents in various formats, including Microsoft Word document formats.
 
 ## Supported Operating Systems

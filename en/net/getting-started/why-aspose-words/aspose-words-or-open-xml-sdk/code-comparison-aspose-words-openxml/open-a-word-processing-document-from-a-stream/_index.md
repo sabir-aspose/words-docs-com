@@ -12,6 +12,14 @@ url: /net/open-a-word-processing-document-from-a-stream/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to open a Word document from a stream and manage stream-based loading.
+
+{{% /alert %}}
+
 On this page we will look at how to load a document from a stream using Aspose.Words or Open XML SDK.
 
 {{< nosnippet >}}

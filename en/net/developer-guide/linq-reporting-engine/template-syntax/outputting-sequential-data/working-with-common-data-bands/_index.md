@@ -12,6 +12,14 @@ url: /net/working-with-common-data-bands/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with common data bands in templates to repeat content.
+
+{{% /alert %}}
+
 A common data band is a data band whose body starts and ends within paragraphs that belong to a single story or table cell.
 
 In particular, a common data band can be entirely located within a single paragraph. In this case, while building a report, the band is replaced with contents that are entirely located within the same paragraph as well. The following example illustrates such a scenario. Given that `items` are an enumeration of the strings “item1”, “item2”, and “item3”, you can use the following template to enumerate them with commas in a single paragraph.

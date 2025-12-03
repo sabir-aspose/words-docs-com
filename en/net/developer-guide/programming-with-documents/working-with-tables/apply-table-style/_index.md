@@ -12,6 +12,14 @@ url: /net/working-with-tablestyle/
 timestamp: 2024-02-02-12-07-36
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with table styles.
+
+{{% /alert %}}
+
 A table style defines a set of formatting that can be easily applied to a table. Formatting such as borders, shading, alignment, and font can be set in a table style and applied to many tables for a consistent appearance.
 
 Aspose.Words supports applying a table style to a table and also reading properties of any table style. Table styles are preserved during loading and saving in the following ways:

@@ -12,6 +12,14 @@ url: /net/memory-requirements/
 timestamp: 2024-09-25-11-08-55
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains memory requirements of Aspose.Words and provides guidance for optimizing memory usage in large or complex documents.
+
+{{% /alert %}}
+
 Aspose.Words provides a wide range of features to work with documents in various formats. It is important to note that there is no limit on the maximum size of a document file that Aspose.Words can process or render. The only limitation is the amount of RAM (memory) available on your side.
 
 ## How Much Memory Aspose.Words Needs

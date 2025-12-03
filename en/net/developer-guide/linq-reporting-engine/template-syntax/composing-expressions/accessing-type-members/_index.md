@@ -12,6 +12,14 @@ url: /net/accessing-type-members-linq/
 timestamp: 2024-02-16-10-54-23
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to access type members via LINQ when using Aspose.Words’s reporting engine.
+
+{{% /alert %}}
+
 LINQ Reporting Engine enables you to access the following public (static and instance) members of accessible types (see “Working with Types” for more information) in template expressions:
 
 - Fields

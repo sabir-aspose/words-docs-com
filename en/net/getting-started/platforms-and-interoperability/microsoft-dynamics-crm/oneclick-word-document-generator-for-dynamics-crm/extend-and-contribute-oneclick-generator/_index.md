@@ -13,6 +13,14 @@ aliases: [/net/extend-and-contribute-to-crm-oneclick-word-document-generator/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to extend and contribute to the OneClick Generator solution.
+
+{{% /alert %}}
+
 You can download the latest source code at:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Dynamics%20CRM/Aspose%20OneClick%20Word%20Document%20Generator).

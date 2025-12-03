@@ -12,6 +12,14 @@ url: /net/visual-studio-export-repeater-to-word-control/
 timestamp: 2024-10-24-11-44-28
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to export a Repeater to Word using a Visual Studio control.
+
+{{% /alert %}}
+
 Export Repeater To Word Control is an ASP.NET server control which helps in exporting contents of Repeater to Word Processing Document using ﻿[Aspose.Words](https://products.aspose.com/words/). It adds **Export to Word** button on top of the Repeater control. Clicking the button dynamically exports the content of the Repeater control to a Word Processing document and then automatically downloads the exported file to the disk location selected by the user in just couple of seconds.
 
 ## Module Features

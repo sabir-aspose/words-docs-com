@@ -12,6 +12,14 @@ url: /net/structured-document-tags-or-content-control/
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains structured document tags (content controls) and how to work with them.
+
+{{% /alert %}}
+
 
 Structured document tags (SDT or content control) allow to embed customer-defined semantics as well as its behavior and appearance into a document.
 

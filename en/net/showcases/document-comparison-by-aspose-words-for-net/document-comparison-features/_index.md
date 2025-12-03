@@ -12,6 +12,14 @@ url: /net/document-comparison-features/
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains features related to document comparison, including granularity settings and comparison options.
+
+{{% /alert %}}
+
 In this article, we will take a look at the most popular document comparison features.
 
 ## Compare Text in Word Documents and Highlight Changes

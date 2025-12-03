@@ -12,6 +12,14 @@ url: /net/linq-reporting-engine/
 timestamp: 2024-09-25-11-08-55
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains the overall purpose, architecture, and workflow of the LINQ Reporting Engine when generating documents from templates.
+
+{{% /alert %}}
+
 This section provides the information you need to create reports from template documents using the LINQ Reporting Engine. The information is divided into the following sections:
 
 - [Introduction to LINQ Reporting Engine](/words/net/introduction-to-linq-reporting-engine/) describes main features and advantages of the engine

@@ -12,6 +12,14 @@ url: /net/add-picture/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to embed pictures into Word documents programmatically using Aspose.Words.
+
+{{% /alert %}}
+
 ## VSTO
 
 {{< highlight csharp >}}

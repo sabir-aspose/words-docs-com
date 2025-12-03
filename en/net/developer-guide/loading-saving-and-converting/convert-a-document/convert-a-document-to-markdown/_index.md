@@ -13,6 +13,14 @@ url: /net/convert-a-document-to-markdown/
 timestamp: 2024-07-10-08-10-45
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to convert a Word document to Markdown and outlines the Markdown save options that control formatting precision and compatibility.
+
+{{% /alert %}}
+
 Markdown is a popular format used to markup text and its further converting to HTML, PDF, DOCX, or other formats. Many developers choose this format for writing documentation, preparing articles for publication on blogs, describing projects, and so on.
 
 Markdown is so popular because it is easy to work with this format, as well as it can be quite simply converted to other formats. For this reason, Aspose.Words provides the ability to convert a document in [any supported load format](https://reference.aspose.com/words/net/aspose.words/loadformat/) to Markdown and vice versa – Aspose.Words also supports most popular [save formats](https://reference.aspose.com/words/net/aspose.words/saveformat/).

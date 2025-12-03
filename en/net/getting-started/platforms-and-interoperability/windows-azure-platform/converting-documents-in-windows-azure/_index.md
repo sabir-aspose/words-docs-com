@@ -12,6 +12,14 @@ url: /net/converting-documents-in-windows-azure/
 timestamp: 2024-01-30-16-22-34
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to perform document conversions in Windows Azure and details deployment considerations for cloud environments.
+
+{{% /alert %}}
+
 Aspose.Words on Windows Azure provides an ability to load, convert, and save documents. For this purpose, you can create an application that:
 
 1. Implements a simple ASP.NET form, enabling the user to load a document and specify the desired output format.

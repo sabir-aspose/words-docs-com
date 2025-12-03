@@ -12,6 +12,14 @@ url: /net/append-documents-in-php/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page outlines how to append documents in a PHP context using Aspose.Words’s merge capabilities.
+
+{{% /alert %}}
+
 ## Aspose.Words - Append Documents Example
 
 Find and Replace Example
