@@ -12,6 +12,14 @@ url: /net/restricting-access-to-type-members/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to restrict access to external type members when using the Reporting Engine.
+
+{{% /alert %}}
+
 In scenarios where report templates are created by a third party, it can make sense to restrict access of a template author to members of types sensitive from a security point of view. LINQ Reporting Engine provides API to accomplish this as illustrated with the following example. Given that `SomeClass1` and `SomeClass2` are types which members should be inaccessible by the engine through template syntax, you can use the following code snippet to make the engine restrict the access.
 
 {{< highlight csharp >}}

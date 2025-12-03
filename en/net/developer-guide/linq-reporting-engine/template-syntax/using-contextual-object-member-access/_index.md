@@ -13,6 +13,14 @@ aliases: [/net/template-syntax/#using-contextual-object-member-access]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how contextual member access works in templates when resolving object properties.
+
+{{% /alert %}}
+
 You can make your templates less cumbersome using the contextual object member access feature. This feature enables you to access members of some objects without specifying the objects' identifiers in template expressions. An object to which the feature can be applied is determined depending on a context as follows:
 
 - Inside a data band body, the object is resolved to the innermost iteration variable.

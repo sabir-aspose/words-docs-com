@@ -17,6 +17,14 @@ aliases:
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes a code comparison of common document-processing features between Aspose.Words and NPOI.
+
+{{% /alert %}}
+
 This section has the following topics:
 
 - [Working with Documents Aspose VS NPOI](/words/net/code-comparison-for-common-features-with-npoi/)

@@ -12,6 +12,14 @@ url: /net/extend-and-contribute-to-crm-automerge/
 timestamp: 2024-10-24-11-44-28
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to extend and contribute to CRM AutoMerge functionality.
+
+{{% /alert %}}
+
 You can download the latest source code at:
 
 - [CodePlex](https://www.microsoft.com/ru-ru/?p=asposenetcrm).

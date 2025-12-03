@@ -12,6 +12,14 @@ url: /net/windows-azure-platform/
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how Aspose.Words works on the Windows Azure platform.
+
+{{% /alert %}}
+
 This section includes articles that describe possible scenarios for using Aspose.Words for .NET when building applications for the Windows Azure Platform.
 
 Note that If this is your first time working with Windows Azure, please refer to the dedicated Windows Azure development resources. Articles in this section deliberately do not describe the detailed steps required to develop and deploy a Windows Azure application. Instead, the purpose of these articles is to demonstrate how Aspose.Words works well in the cloud.

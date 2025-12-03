@@ -13,6 +13,14 @@ aliases: [/net/template-syntax/#inserting-documents-dynamically]
 timestamp: 2024-05-08-14-20-48
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to insert documents dynamically.
+
+{{% /alert %}}
+
 You can insert contents of outer documents to your reports dynamically using `doc` tags. A `doc` tag denotes a placeholder within a template for a document to be inserted during runtime. 
 
 Syntax of a `doc` tag is defined as follows.

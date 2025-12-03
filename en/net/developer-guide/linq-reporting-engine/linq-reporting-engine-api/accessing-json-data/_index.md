@@ -12,6 +12,14 @@ url: /net/accessing-json-data/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to supply JSON data to Aspose.Words using JsonDataSource, supporting both simple and complex JSON structures.
+
+{{% /alert %}}
+
 To access JSON data while building a report, you can pass a `JsonDataSource` instance to the engine as a data source.
 
 Using of `JsonDataSource` enables you to work with typed values of JSON elements in template documents. For more convenience, the set of simple JSON types is extended as follows:

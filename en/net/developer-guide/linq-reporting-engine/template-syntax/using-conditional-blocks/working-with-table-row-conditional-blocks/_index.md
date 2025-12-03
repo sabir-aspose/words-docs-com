@@ -12,6 +12,14 @@ url: /net/working-with-table-row-conditional-blocks-linq/
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with table-row conditional blocks in LINQ templates.
+
+{{% /alert %}}
+
 A table-row conditional block is a conditional block which body occupies single or multiple rows of a single document table. The body of such a block (as well as the body of its every template option) starts at the beginning of the first occupied row and ends at the end of the last occupied row as follows.
 
 **Note** – Table rows occupied by different template options in the following template are highlighted with different colors.

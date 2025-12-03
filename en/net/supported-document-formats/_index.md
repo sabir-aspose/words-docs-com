@@ -12,6 +12,14 @@ url: /net/supported-document-formats/
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains which document formats Aspose.Words can load and save.
+
+{{% /alert %}}
+
 {{% alert color="primary" %}}
 
 See the [File Format Wiki](https://docs.fileformat.com/) for more details on each file format.

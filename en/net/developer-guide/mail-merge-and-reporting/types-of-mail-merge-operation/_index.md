@@ -15,6 +15,14 @@ url: /net/types-of-mail-merge-operations/
 timestamp: 2024-07-11-08-07-06
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains the different types of mail-merge operations supported by Aspose.Words and when to use each.
+
+{{% /alert %}}
+
 The main idea of Mail Merge is to automatically create a document or multiple documents based on your template and data fetched from your data source. Aspose.Words allows you to perform two different types of Mail Merge operations: simple Mail Merge and Mail Merge with regions.
 
 The most common example of using simple Mail Merge is when you want to send a document for different clients by including their names at the beginning of the document. To do this, you need to create merge fields such as *First Name* and *Last Name* in your template, and then fill them in with data from your data source. Whereas the most common example of using Mail Merge with regions is when you want to send a document that includes specific orders with the list of all items within each order. To do this, you will need to create merge regions inside your template – own region for each order, in order to fill it with all required data for the items.

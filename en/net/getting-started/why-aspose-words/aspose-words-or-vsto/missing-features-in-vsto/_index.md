@@ -20,6 +20,14 @@ aliases:
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains missing features in VSTO relative to Aspose.Words and why Aspose.Words is better suited for automation.
+
+{{% /alert %}}
+
 As already described in previous articles, there are operations with documents that are faster and more conveniently to perform using Aspose.Words than VSTO. But there are also operations that are not provided by VSTO. You can try to achieve the desired result using auxiliary tools and options, but even if successful, it will be quite expensive.
 
 The following table contains some of the popular features supported by Aspose.Words and missed in VSTO:

@@ -12,6 +12,14 @@ url: /net/create-empty-document-in-npoi/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to create an empty document using NPOI and compares its behavior to Aspose.Words document creation.
+
+{{% /alert %}}
+
 ## Aspose.Words - Create Empty Document
 
 Call the Document constructor without parameters to create a new blank document.

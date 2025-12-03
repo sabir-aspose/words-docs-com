@@ -12,6 +12,14 @@ url: /net/aspose-words-net-for-kentico/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how Aspose.Words can be used in Kentico CMS environments to generate and manipulate documents.
+
+{{% /alert %}}
+
 This section has the following topics:
 
 - [Kentico Content Exporter Module](/words/net/kentico-content-exporter-module/)

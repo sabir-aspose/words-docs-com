@@ -12,6 +12,14 @@ url: /net/insert-image-in-npoi/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to insert an image using NPOI.
+
+{{% /alert %}}
+
 ## Aspose.Words - Insert Image
 
 This example inserts an image from a file at a specified position and size

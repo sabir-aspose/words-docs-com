@@ -12,6 +12,14 @@ url: /net/how-to-extract-selected-content-between-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to extract selected content between nodes in a document.
+
+{{% /alert %}}
+
 When working with documents, it is important to be able to easily extract content from a specific range within a document. However, the content may consist of complex elements such as paragraphs, tables, images, etc.
 
 Regardless of what content needs to be extracted, the method to extract that content will always be determined by which nodes are selected to extract content between. These can be entire text bodies or simple text runs.

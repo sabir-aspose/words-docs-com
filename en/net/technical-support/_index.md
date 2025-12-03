@@ -14,6 +14,14 @@ url: /net/technical-support/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to contact Aspose technical support and what support channels are available.
+
+{{% /alert %}}
+
 Aspose provides unlimited free technical support for all of its products. Support is available to all users, including evaluation. The main avenue of support is [Aspose.Forums](https://forum.aspose.com/c/words/8).
 
 {{% alert color="primary" %}}

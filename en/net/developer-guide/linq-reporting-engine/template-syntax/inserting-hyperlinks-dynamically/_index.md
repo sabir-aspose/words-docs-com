@@ -13,6 +13,14 @@ aliases: [/net/template-syntax/#inserting-hyperlinks-dynamically]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains inserting hyperlinks dynamically.
+
+{{% /alert %}}
+
 You can insert hyperlinks to your reports dynamically using `link` tags. Syntax of a `link` tag is defined as follows.
 
 {{< highlight csharp >}}

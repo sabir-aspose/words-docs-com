@@ -12,6 +12,14 @@ url: /net/umbraco-content-exporter-module/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how the Umbraco Content Exporter module exports CMS content to Word documents.
+
+{{% /alert %}}
+
 ## Export to Word
 
 Umbraco’s Export to Word macro allow users to export online content into a Microsoft Word document using [Aspose.Words](https://products.aspose.com/words/). This macro makes it super simple to get an offline copy of your favorite online content for editing, sharing and printing in most popular Microsoft Word formats (DOC/DOCX). It adds a simple **Export to Word** button at any desired location on the web page. Clicking the button exports the page content to a Word document and automatically downloads the file to a disk location selected by the user in just seconds.

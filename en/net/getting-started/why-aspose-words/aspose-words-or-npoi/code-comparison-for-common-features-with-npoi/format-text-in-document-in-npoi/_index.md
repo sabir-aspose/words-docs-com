@@ -12,6 +12,14 @@ url: /net/format-text-in-document-in-npoi/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to format document text using NPOI.
+
+{{% /alert %}}
+
 ## Aspose.Words - Format Text in Document
 
 Current font formatting is represented by a **Font** object returned by the **DocumentBuilder.Font** property. The **Font** class contains a wide variety of the font properties possible in Microsoft Word.

@@ -12,6 +12,14 @@ url: /net/aspose-words-net-for-umbraco/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains the use of Aspose.Words in Umbraco CMS for dynamically generating Word documents.
+
+{{% /alert %}}
+
 This section has the following topics:
 
 - [Umbraco Content Exporter Module](/words/net/umbraco-content-exporter-module/)

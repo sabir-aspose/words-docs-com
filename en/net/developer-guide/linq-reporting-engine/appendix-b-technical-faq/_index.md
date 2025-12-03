@@ -12,6 +12,14 @@ url: /net/appendix-b-technical-faq/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains technical FAQs related to Aspose.Words .NET, providing answers to common issues and questions.
+
+{{% /alert %}}
+
 {{% alert color="primary" %}}
 
 This section reveals some technical aspects and implementation details related to LINQ Reporting Engine. This information can be useful for you while making design decisions for your applications. The information is provided in a question-answer form.

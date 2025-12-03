@@ -12,6 +12,14 @@ url: /net/working-with-charts/
 timestamp: 2024-02-05-15-07-18
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with charts inside Word documents.
+
+{{% /alert %}}
+
 New [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) method was added into the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) class. So, let's see how to insert a simple column chart into the document using the [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) method.
 
 ## How to Insert a Chart

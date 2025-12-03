@@ -12,6 +12,14 @@ url: /net/search-and-replace-text-in-document-part/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to search and replace text within a specific document part.
+
+{{% /alert %}}
+
 On this page we will look at how to find and replace text from a document part using Aspose.Words or Open XML SDK.
 
 {{< nosnippet >}}

@@ -12,6 +12,14 @@ url: /net/aspose-words-net-for-word/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to use Aspose.Words together with Microsoft Word for document automation.
+
+{{% /alert %}}
+
 ## Aspose.Words for .NET
 
 Aspose.Words for .NET is an advanced class library for .NET that enables you to perform a wide range of document processing tasks directly within your .NET applications.

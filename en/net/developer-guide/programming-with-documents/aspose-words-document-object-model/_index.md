@@ -12,6 +12,14 @@ url: /net/aspose-words-document-object-model/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains the in-memory Document Object Model (DOM) provided by Aspose.Words for navigating and modifying Word documents programmatically.
+
+{{% /alert %}}
+
 The Aspose.Words Document Object Model (DOM) is an in-memory representation of a Word document. The Aspose.Words DOM allows you to programmatically read, manipulate, and modify the content and formatting of a Word document.
 
 This section describes the main classes of the Aspose.Words DOM and their relationships. By using the Aspose.Words DOM classes, you can obtain programmatic access to document elements and formatting.

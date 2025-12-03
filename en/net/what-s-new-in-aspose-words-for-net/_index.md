@@ -12,6 +12,14 @@ url: /net/what-s-new-in-aspose-words-for-net/
 timestamp: 2025-11-17-11-12-25
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains what’s new in recent Aspose.Words for .NET releases.
+
+{{% /alert %}}
+
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
 ## Aspose.Words for .NET 25.9, 25.10, 25.11

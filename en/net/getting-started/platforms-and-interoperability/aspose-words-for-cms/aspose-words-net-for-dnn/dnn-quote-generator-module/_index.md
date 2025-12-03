@@ -12,6 +12,14 @@ url: /net/dnn-quote-generator-module/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes the DNN Quote Generator module, which creates quote documents dynamically.
+
+{{% /alert %}}
+
 Aspose .NET Quote Generator for DNN is an open source module from Aspose that enable users to generate Quotations in your DNN website without requiring any other software. It uses the powerful features of Aspose.Words for .NET to allow you to easily generate quotations.
 
 This initial version of the module is enriched with the following features to make the quote generating process effective, simple and easy to use.

@@ -12,6 +12,14 @@ url: /net/using-and-configuring-crm-duplicate-detection/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to use and configure CRM Duplicate Detection for managing duplicate records.
+
+{{% /alert %}}
+
 This section show you how to use Aspose .NET Duplicate Detection with Dialog:
 
 1. Open Settings -> Processes within CRM and hit New.

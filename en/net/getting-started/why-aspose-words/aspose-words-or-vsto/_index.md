@@ -13,6 +13,14 @@ aliases: [/net/aspose-words-net-for-vsto/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes the benefits of using Aspose.Words rather than VSTO for scalable, server-side document manipulation.
+
+{{% /alert %}}
+
 When you need to compare which product is best for your solution, there are many criteria to evaluate, but the main focus will often be the functionality and effort required to use the product.
 
 If you are looking for a faster, simpler, and lighter file format library to process files, then you might want to compare Aspose.Words for .NET and VSTO. Then you will be able to notice that in fact these products do not compete, but solve slightly different user tasks.

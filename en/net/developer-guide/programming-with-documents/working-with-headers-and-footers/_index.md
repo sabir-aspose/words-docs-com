@@ -12,6 +12,14 @@ url: /net/working-with-headers-and-footers/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with headers and footers using Aspose.Words.
+
+{{% /alert %}}
+
 Aspose.Words allows users to work with headers and footers in a document. A header is text that is placed at the top of a page, and a footer is text at the bottom of a page. Typically, these areas are used to insert information that should be repeated on all or some pages of the document, such as page numbers, creation date, company information, and so on.
 
 ## Create Headers or Footers using DocumentBuilder

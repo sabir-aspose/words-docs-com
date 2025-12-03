@@ -12,6 +12,14 @@ url: /net/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
 timestamp: 2024-09-05-11-07-10
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to generate custom barcode images for DISPLAYBARCODE fields.
+
+{{% /alert %}}
+
 A barcode is a visual representation of data in the form of parallel lines or patterns. Barcodes are widely used in various industries such as retail, logistics, healthcare, banking, and many others.
 
 Microsoft Word allows users to embed barcodes directly into documents using fields. Users can insert a specific type of barcode, such as a QR code or a linear barcode, using the [BARCODE](https://learn.microsoft.com/en-us/openspecs/office_standards/ms-oi29500/cbc893c0-9683-416d-84c6-407a92451c19) field.

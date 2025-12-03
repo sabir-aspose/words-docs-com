@@ -12,6 +12,14 @@ url: /net/helloworld-example-in-php/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to run a Hello World example in PHP.
+
+{{% /alert %}}
+
 ## Aspose.Words - HelloWorld Example
 
 Hello World Example

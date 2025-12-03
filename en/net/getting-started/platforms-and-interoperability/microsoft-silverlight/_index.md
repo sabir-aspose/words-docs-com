@@ -12,6 +12,14 @@ url: /net/microsoft-silverlight/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains the capabilities and limitations of using Aspose.Words within Microsoft Silverlight applications.
+
+{{% /alert %}}
+
 ## This section includes the following topics: 
 
 - [Display Word Documents in Silverlight](/words/net/display-word-documents-in-silverlight/)

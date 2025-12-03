@@ -12,6 +12,14 @@ url: /net/inserting-fields/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to insert fields programmatically.
+
+{{% /alert %}}
+
 There are several different ways to insert fields into a document:
 
 * using [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)

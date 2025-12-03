@@ -12,6 +12,14 @@ url: /net/autofit-setting-to-tables/
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page outlines how to enable auto-fitting of table cells in Word documents when using Aspose.Words.
+
+{{% /alert %}}
+
 {{% alert color="primary" %}}
 
 See more details in the [Applying Formatting](/words/net/applying-formatting/) article of the [Working with Tables](/words/net/working-with-tables/) documentation section.

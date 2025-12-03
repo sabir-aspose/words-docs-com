@@ -12,6 +12,14 @@ url: /net/working-with-columns-and-rows/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with table columns and rows programmatically.
+
+{{% /alert %}}
+
 For more control over how tables work, learn how to manipulate columns and rows.
 
 ## Find the Table Element Index {#find-the-index-of-table-elements}

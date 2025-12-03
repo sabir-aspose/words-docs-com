@@ -12,6 +12,14 @@ url: /net/find-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to locate field properties in a document programmatically.
+
+{{% /alert %}}
+
 A field that is inserted using [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) returns a [Field](https://reference.aspose.com/words/net/aspose.words.fields/field/) object. This is a faсade class that provides useful methods to quickly find some properties of a field.
 
 The following code example shows how to find the field code and field result:

@@ -13,6 +13,14 @@ aliases: [/net/code-comparison-for-common-features-with-openxml/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains a code comparison between Aspose.Words and the Open XML SDK to highlight trade-offs.
+
+{{% /alert %}}
+
 This section contains a code comparison for some common features implemented in Aspose.Words and Open XML SDK.
 
 As stated, the Open XML SDK and Aspose.Words do not compete with each other because they serve different customer needs. Nevertheless, if you have not yet been able to choose between these solutions, take a look at how the same functions are implemented in Aspose.Words and Open XML SDK.

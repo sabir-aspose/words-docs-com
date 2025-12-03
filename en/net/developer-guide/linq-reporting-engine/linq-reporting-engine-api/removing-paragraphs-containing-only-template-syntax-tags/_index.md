@@ -12,6 +12,14 @@ url: /net/removing-paragraphs-containing-only-template-syntax-tags/
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to remove paragraphs that contain only template syntax tags during document generation.
+
+{{% /alert %}}
+
 While building a report, some paragraphs containing only template syntax tags can become empty after the tags are removed or replaced with empty values. To remove such paragraphs from the report, you can apply the `ReportBuildOptions.RemoveEmptyParagraphs` option as shown in the following example.
 
 {{< highlight csharp >}}

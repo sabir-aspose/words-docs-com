@@ -12,6 +12,14 @@ url: /net/ai-powered-features/
 timestamp: 2025-03-17-19-00-00
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes the AI-powered features in Aspose.Words, such as intelligent document analysis and content generation.
+
+{{% /alert %}}
+
 Aspose.Words now includes AI-powered features designed to make document processing smarter and more efficient. These tools leverage advanced machine learning to perform tasks like document summarization, offering developers more powerful capabilities to streamline their workflows.
 
 In this section, we will cover everything you need to know about using supported AI features in Aspose.Words. From practical tips to detailed instructions, we aim to help you make the most of these enhancements.

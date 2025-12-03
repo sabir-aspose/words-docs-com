@@ -12,6 +12,14 @@ url: /net/working-with-headers-in-npoi/
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with headers in NPOI.
+
+{{% /alert %}}
+
 ## Aspose.Words - Working with Headers
 
 The following sample code demonstrates how to create headers/footers using Document object.

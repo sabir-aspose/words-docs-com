@@ -12,6 +12,14 @@ url: /net/accessing-csv-data/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page outlines how to use CSV data in Aspose.Words reporting by connecting it through CsvDataSource for template-based document generation.
+
+{{% /alert %}}
+
 To access CSV data while building a report, you can pass a `CsvDataSource` instance to the engine as a data source.
 
 Using of `CsvDataSource` enables you to work with typed values rather than just strings in template documents. Although CSV as a format does not define a way to store values of types other than strings, `CsvDataSource` is capable to recognize values of the following types by their string representations:

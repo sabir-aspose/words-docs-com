@@ -13,6 +13,14 @@ aliases: [/net/template-syntax/#restarting-list-numbering-dynamically]
 timestamp: 2024-02-16-10-54-23
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to restart list numbering dynamically during templated document generation.
+
+{{% /alert %}}
+
 You can restart list numbering within your documents dynamically using `restartNum` tags. In particular, this feature is useful when working with a nested numbered list within a data band as shown in the following example.
 
 Assume that you have the `Order` and `Service` classes defined in your application as follows.

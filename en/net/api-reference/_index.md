@@ -12,6 +12,14 @@ url: /net/api-reference/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains the API reference for Aspose.Words for .NET, listing all the supported classes, methods, and properties.
+
+{{% /alert %}}
+
 Aspose.Words for .NET is a class library that enables your applications to perform a great range of document processing tasks. With Aspose.Words you can generate, modify, convert, render, and print documents without utilizing Microsoft Word, that is, Microsoft Word is not required in order to use Aspose.Words.
 
 Aspose.Words for .NET is written completely in C#, is CLS compliant, and contains only safe managed code.

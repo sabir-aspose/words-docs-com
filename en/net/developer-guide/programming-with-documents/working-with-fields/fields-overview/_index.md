@@ -12,6 +12,14 @@ url: /net/fields-overview/
 timestamp: 2024-09-25-11-08-55
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how fields work in Word documents and how to manipulate them via Aspose.Words.
+
+{{% /alert %}}
+
 Aspose.Words is a class library designed for server-side processing of Microsoft Word documents and supports fields in the following ways:
 
 - all fields in a document are preserved during open/save and conversions

@@ -12,6 +12,14 @@ url: /net/using-lexical-tokens/
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how lexical tokens work within template expressions.
+
+{{% /alert %}}
+
 The following table describes lexical tokens that you can use in template expressions and restrictions on these tokens’ usage comparing with C# Language Specification 5.0.
 
 | Token | Restrictions |

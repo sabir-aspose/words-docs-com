@@ -12,6 +12,14 @@ url: /net/protect-documents-and-parts-of-documents/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to protect entire documents or specific regions against editing.
+
+{{% /alert %}}
+
 You can add protection to Word documents to prevent users from making any edits to the document.
 
 ## VSTO Words

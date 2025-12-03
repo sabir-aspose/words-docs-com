@@ -12,6 +12,14 @@ url: /net/document-processing-interruption/
 timestamp: 2025-10-15-11-08-55
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to detect and handle processing interruptions for long-running document tasks.
+
+{{% /alert %}}
+
 Document processing in .NET applications can involve complex and time-consuming operations, such as loading and saving large files, building the document layout, updating fields, or retrieving external resources.
 
 Sometimes it is necessary to gracefully interrupt document processing without forcibly terminating the application or leaving resources in an inconsistent state. To ensure greater control over these long-running tasks, the processing flow can be managed using appropriate callbacks.

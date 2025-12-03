@@ -14,6 +14,14 @@ weight: 10
 timestamp: 2024-07-09-19-00-42
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to create or load a document from various sources, including streams, files, and byte arrays.
+
+{{% /alert %}}
+
 Almost any task that you want to perform with Aspose.Words involves loading a document. The `Document` class represents a document loaded into memory. The document has several overloaded constructors allowing you to create a blank document or to load it from a file or stream. The document can be loaded in any load format supported by Aspose.Words. For the list of all supported load formats, see the [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/) enumeration.
 
 ## Create a New Document {#create-a-new-document}

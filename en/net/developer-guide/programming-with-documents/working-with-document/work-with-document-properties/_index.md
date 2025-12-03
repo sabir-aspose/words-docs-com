@@ -12,6 +12,14 @@ url: /net/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to read and modify document properties.
+
+{{% /alert %}}
+
 Document properties allow storing some useful information about your document. These properties can be divided into two groups:
 
 * System or built-in that contain values such as document title, author name, document statistics, and others.

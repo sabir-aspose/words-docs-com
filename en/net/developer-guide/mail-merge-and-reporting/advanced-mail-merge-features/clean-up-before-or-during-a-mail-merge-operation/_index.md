@@ -15,6 +15,14 @@ url: /net/clean-up-before-or-during-mail-merge/
 timestamp: 2024-07-11-08-07-06
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to perform cleanup operations before or during a mail merge to ensure document integrity.
+
+{{% /alert %}}
+
 Aspose.Words allows you to apply different cleaning and removing options such as deleting merge fields before performing a Mail Merge operation or removing unused regions during a Mail Merge operation. This section will explain how to delete merged fields and how to set up a removing option.
 
 ## Delete Merged Fields

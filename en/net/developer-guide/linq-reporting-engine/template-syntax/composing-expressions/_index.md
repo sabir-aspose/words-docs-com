@@ -13,6 +13,14 @@ aliases: [/net/template-syntax/#composing-expressions]
 timestamp: 2024-09-25-11-08-55
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to compose and evaluate expressions in the Aspose.Words LINQ Reporting Engine.
+
+{{% /alert %}}
+
 *Expression* is a central concept of the template syntax. Every tag is bound with an expression that is evaluated during runtime, and its result is used by LINQ Reporting Engine according to the tag's role.
 
 Expressions are composed of operands and operators according to [C# Language Specification 5.0](https://www.microsoft.com/en-us/download/details.aspx?id=7029) with several restrictions. See the following sections for more information.

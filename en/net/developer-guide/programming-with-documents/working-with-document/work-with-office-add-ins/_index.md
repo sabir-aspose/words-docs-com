@@ -13,6 +13,14 @@ aliases: [/net/work-with-web-extensions/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with Office Add-ins that incorporate Aspose.Words.
+
+{{% /alert %}}
+
 Sometimes you might want to give access to interface controls that run code to modify documents. Aspose.Words API provides the `WebExtensions` namespace, which grants various classes to customize elements and attributes extending the XML vocabulary for representing Office Add-ins.
 
 WebExtensions namespace can be conditionally divided into:

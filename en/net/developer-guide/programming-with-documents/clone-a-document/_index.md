@@ -12,6 +12,14 @@ url: /net/clone-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page describes how to clone (deep-copy) a document or parts of it using Aspose.Words.
+
+{{% /alert %}}
+
 Cloning a document is the process of creating an identical copy of an original document, which can improve performance and save you from potential memory leaks.
 
 This article will explain the main use cases of cloning a document and how to create a document clone using Aspose.Words.

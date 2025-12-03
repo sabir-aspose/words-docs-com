@@ -12,6 +12,14 @@ url: /net/working-with-hyperlinks/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with hyperlinks inside Word documents.
+
+{{% /alert %}}
+
 A hyperlink in Microsoft Word documents is the `HYPERLINK` field. In Aspose.Words, hyperlinks are implemented through the [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) class.
 
 ## Insert a Hyperlink

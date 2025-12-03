@@ -12,6 +12,14 @@ url: /net/working-with-merged-cells/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*What is this page about?*
+
+This page explains how to work with merged table cells.
+
+{{% /alert %}}
+
 Sometimes certain rows in a table require a heading or large blocks of text that take up the full width of the table. For proper design of the table, the user can merge several table cells into one. Aspose.Words supports merged cells when working with all input formats, including importing HTML content.
 
 ## How to Merge Table Cells
