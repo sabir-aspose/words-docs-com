@@ -8,6 +8,7 @@ description: "Tarnslate a Markdown document to Document Object Model and back us
 weight: 20
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cpp/translate-markdown-to-document-object-model/
 timestamp: 2024-10-21-11-17-44
 ---

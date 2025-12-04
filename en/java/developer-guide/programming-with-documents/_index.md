@@ -8,6 +8,7 @@ description: "Use the Aspose.Words Document Object Model classes to programmatic
 weight: 340
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /java/programming-with-documents/
 aliases:
 - /java/contents-management/

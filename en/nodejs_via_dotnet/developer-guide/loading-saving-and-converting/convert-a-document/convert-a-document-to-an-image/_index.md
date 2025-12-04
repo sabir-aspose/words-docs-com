@@ -8,6 +8,7 @@ description: "Convert a document to image format (JPG, PNG, etc). Create a docum
 weight: 43
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nodejs-net/convert-a-document-to-an-image/
 aliases: [/nodejs/convert-a-document-to-an-image/]
 timestamp: 2025-04-21-14-07-04

@@ -8,6 +8,7 @@ type: docs
 weight: 110
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nodejs-net/how-to-run-the-examples/
 aliases: [/nodejs/how-to-run-the-examples/]
 timestamp: 2025-04-18-14-07-04
