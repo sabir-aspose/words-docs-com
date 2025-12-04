@@ -8,6 +8,7 @@ description: "The `Document` class provides various document properties and meth
 weight: 40
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cpp/working-with-document/
 timestamp: 2024-01-30-16-22-34
 ---

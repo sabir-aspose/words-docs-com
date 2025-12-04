@@ -8,6 +8,7 @@ type: docs
 weight: 60
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /java/removing-paragraphs-containing-only-template-syntax-tags/
 timestamp: 2024-07-02-05-47-58
 ---

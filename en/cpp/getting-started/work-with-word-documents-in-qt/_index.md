@@ -9,6 +9,7 @@ keywords: "create a document Qt Creator, load a document Qt Creator, use Aspose 
 weight: 120
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cpp/work-with-word-documents-in-qt/
 timestamp: 2024-07-11-16-13-28
 ---

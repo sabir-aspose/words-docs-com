@@ -6,10 +6,9 @@ linktitle: Grammar Checking
 type: docs
 weight: 40
 description: "Check a document grammar. Aspose.Words for Node.js via .NET allows users to check grammar and detect errors in documents using OpenAI, Google, and Anthropic models."
-ai_search_scope: nodejs_net
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nodejs-net/grammar-checking/
 timestamp: 2025-05-16-12-00-00
 ---

@@ -8,6 +8,7 @@ type: docs
 weight: 40
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nodejs-net/rendering-shapes-separately-from-a-document/
 timestamp: 2025-07-09-10-05-05
 ---

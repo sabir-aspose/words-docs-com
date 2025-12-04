@@ -8,6 +8,7 @@ type: docs
 weight: 15
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nodejs-net/product-overview/
 aliases: [/nodejs/product-overview/]
 timestamp: 2025-04-15-14-23-37
