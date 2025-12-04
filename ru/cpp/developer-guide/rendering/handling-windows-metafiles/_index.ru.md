@@ -6,6 +6,9 @@ linktitle: Обработка метафайлов Windows
 description: "Aspose.Words для C++ реализован собственный проигрыватель метафайлов Windows для воспроизведения формата метафайла на всех платформах, поддерживает работу с основными функциями метафайла и может выполнять резервный переход к другому типу проигрывателя метафайлов."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/handling-windows-metafiles/
 timestamp: 2024-01-30-16-22-34
 ---

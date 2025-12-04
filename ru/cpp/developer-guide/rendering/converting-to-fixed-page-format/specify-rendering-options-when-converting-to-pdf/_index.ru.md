@@ -6,6 +6,9 @@ linktitle: Укажите параметры рендеринга при пре�
 description: "Преобразуйте документ в формат PDF с расширенными параметрами, используя C++. Используйте PdfSaveOptions, чтобы изменить результат сохранения документа в формате PDF."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

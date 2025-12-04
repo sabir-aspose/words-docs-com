@@ -6,6 +6,9 @@ linktitle: Работа с макросами VBA
 description: "Создавайте, считывайте, записывайте, клонируйте макросы VBA в документе и управляйте ими с помощью Python."
 type: docs
 weight: 410
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/working-with-vba-macros/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Слияние настольных клеток
 description: "Как объединить столовые клетки в C#. Проверьте, слиты ли ячейки в таблице с помощью C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/working-with-merged-cells/
 timestamp: 2024-01-27-14-07-04
 ---

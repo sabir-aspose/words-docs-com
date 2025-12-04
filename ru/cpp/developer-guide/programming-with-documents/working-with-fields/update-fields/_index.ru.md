@@ -6,6 +6,9 @@ linktitle: Обновлять поля
 description: "Узнайте, как обновлять поля в C++. Обновляйте поля программно или используйте автоматическое обновление полей с помощью C++ API."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/update-fields/
 timestamp: 2024-01-27-14-07-04
 ---

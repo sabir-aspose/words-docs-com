@@ -6,6 +6,9 @@ linktitle: Безопасность Веб-Приложений При Загр�
 type: docs
 description: "Загружать удаленные ресурсы, что может быть причиной угроз безопасности. Ознакомьтесь с общими проблемами безопасности и решениями для них в Java."
 weight: 120
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/java/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-27-14-07-04
 ---

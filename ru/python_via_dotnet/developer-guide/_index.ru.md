@@ -6,6 +6,9 @@ linktitle: Руководство для разработчика
 description: "В этом руководстве для разработчика описаны практические сценарии и советы, которые помогут вам использовать определенные функции Aspose.Words для Python via .NET, добиться определенного внешнего вида документа или реализовать возможные варианты использования."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

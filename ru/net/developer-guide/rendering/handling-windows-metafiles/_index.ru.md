@@ -6,6 +6,9 @@ linktitle: Обработка Windows Метафилы
 description: "Aspose.Words для .NET реализует собственную Windows Metafile Player для воспроизведения формата Metafile на всех платформах и поддерживает обработку основных функций метафайла и может выполнять резервное копирование на другой тип метафайлового плеера с использованием C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/handling-windows-metafiles/
 timestamp: 2024-07-10-14-38-57
 ---

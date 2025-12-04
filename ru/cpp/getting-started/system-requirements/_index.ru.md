@@ -6,6 +6,9 @@ linktitle: Системные требования
 description: "Прежде чем приступить к работе с Aspose.Words для C++, убедитесь, что вы соответствуете требованиям к операционной системе, платформе, фреймворкам и среде, чтобы должным образом учитывать действия на ваших устройствах."
 type: docs
 weight: 70
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/system-requirements/
 timestamp: 2024-07-11-16-13-28
 ---

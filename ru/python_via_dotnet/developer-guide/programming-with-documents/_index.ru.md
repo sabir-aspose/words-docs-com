@@ -6,6 +6,9 @@ linktitle: Программирование с использованием до
 type: docs
 description: "Используйте Aspose с использованием `Python.Words` Классов объектной модели документа для программного создания, изменения документов и управления ими с помощью python-net. Работайте со свойствами, настройками и содержимым документа, а также с внешним видом документа, управляя цветами, формами, шрифтами и другой графикой."
 weight: 60
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

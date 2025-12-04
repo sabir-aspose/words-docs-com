@@ -6,6 +6,9 @@ linktitle: Работа с верхними и нижними колонтиту
 description: "Создавайте верхние и нижние колонтитулы документа, управляйте ими и удаляйте с помощью Python."
 type: docs
 weight: 150
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/working-with-headers-and-footers/
 timestamp: 2024-01-27-14-07-04
 ---

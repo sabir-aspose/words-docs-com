@@ -6,6 +6,9 @@ linktitle: Специальные возможности Выдают преду
 description: "PDF/A и PDF/UA предъявляют требования к доступности, связанные с содержимым документа. При сохранении в PDF/A или PDF/UA в Python и возникновении проблемы, нарушающей соответствие требованиям, выдается предупреждение."
 type: docs
 weight: 29
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

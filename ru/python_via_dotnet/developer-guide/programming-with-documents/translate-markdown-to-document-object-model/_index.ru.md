@@ -6,6 +6,9 @@ linktitle: Преобразовать Markdown в объектную модел�
 type: docs
 description: "Преобразуйте документ Markdown в объектную модель документа и обратно, используя Python. Таким образом, вы можете работать со сложными существующими Markdown и программно создавать документ Markdown с нуля."
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/translate-markdown-to-document-object-model/
 timestamp: 2024-10-21-11-17-44
 ---

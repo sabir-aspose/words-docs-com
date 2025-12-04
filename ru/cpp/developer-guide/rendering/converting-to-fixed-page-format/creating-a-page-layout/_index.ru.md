@@ -6,6 +6,9 @@ linktitle: Создание макета страницы
 description: "Создание макета страницы может быть дорогостоящей процедурой. Aspose.Words Макет страницы будет создаваться только тогда, когда это необходимо: для отображения страниц документа, получения значения поля, экспорта документа в HTML и т.д."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/creating-a-page-layout/
 timestamp: 2024-09-24-14-35-44
 ---

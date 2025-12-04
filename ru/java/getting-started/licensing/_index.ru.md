@@ -6,6 +6,9 @@ linktitle: Лицензирование и подписка
 description: "Aspose.Words для Java предлагаются различные тарифные планы для покупки или бесплатная пробная версия и 30-дневная временная лицензия для ознакомления с политикой лицензирования и подписки."
 type: docs
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/java/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

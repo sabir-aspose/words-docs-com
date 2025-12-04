@@ -6,6 +6,9 @@ linktitle: Имя генератора или производителя, вкл
 description: "Aspose.Words для .NET Добавьте к документу имя генератора и номер версии, который использовался для его создания. Эти данные можно найти в документе способами, которые зависят от формата выходного файла с использованием C#."
 type: docs
 weight: 60
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

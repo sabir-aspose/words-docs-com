@@ -6,6 +6,9 @@ linktitle: Режим FIPS
 description: "Aspose.Words для Java использует несколько алгоритмов криптографии и хэширования при обработке документов в соответствии со стандартами FIPS."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/java/fips-mode/
 timestamp: 2024-05-08-10-19-58
 ---

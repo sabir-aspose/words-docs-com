@@ -6,6 +6,9 @@ linktitle: Манипулирование шрифтами TrueType и их за
 description: "Aspose.Words для Python via .NET можно вставить правильные шрифты TrueType в результирующий документ, чтобы обеспечить его точное отображение. Если шрифт или определенный символ недоступны, Aspose.Words выполняет поиск подходящей замены шрифта или использует резервный механизм изменения шрифта."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/manipulating-and-substitution-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: Специальные возможности Выдают преду
 description: "PDF/A и PDF/UA предъявляют требования к доступности, связанные с содержимым документа. При сохранении в PDF/A или PDF/UA в C++, если проблема нарушает соответствие требованиям, выдается предупреждение."
 type: docs
 weight: 39
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

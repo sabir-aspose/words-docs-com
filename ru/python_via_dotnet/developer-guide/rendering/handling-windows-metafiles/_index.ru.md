@@ -6,6 +6,9 @@ linktitle: Обработка метафайлов Windows
 description: "Aspose.Words for Python via .NET реализует свой собственный проигрыватель метафайлов Windows для воспроизведения формата метафайлов на всех платформах и поддерживает работу с основными функциями метафайлов, а также может выполнять переход к другому типу проигрывателя метафайлов."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

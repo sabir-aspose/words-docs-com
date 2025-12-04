@@ -6,6 +6,9 @@ linktitle: Загрузка, сохранение и преобразовани�
 description: "Как преобразовать документ из одного формата в другой, например из Word в PDF или из HTML в Markdown, а также как загрузить и сохранить документ с помощью Python."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---

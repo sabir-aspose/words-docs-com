@@ -6,6 +6,9 @@ linktitle: Настройка свойств поля
 description: "Узнайте, как настроить свойства полей в Python. Переименуйте объединяемые поля или получите результаты для полей без узла-разделителя в Python via .NET."
 type: docs
 weight: 27
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Название генератора или производител
 description: "Aspose.Words для Java добавьте в документ название генератора и номер версии, которые использовались для его создания. Эти данные можно найти в документе способами, которые зависят от формата выходного файла."
 type: docs
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/java/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

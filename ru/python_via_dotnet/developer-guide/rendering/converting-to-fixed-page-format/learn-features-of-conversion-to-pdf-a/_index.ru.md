@@ -6,6 +6,9 @@ linktitle: Изучите особенности преобразования в
 description: "Преобразуйте в PDF/A-1, PDF/A-2, PDF/A-4 и PDF/UA с помощью Python. Выберите наилучший стандарт PDF для преобразования документа с помощью Python via .NET."
 type: docs
 weight: 25
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/learn-features-of-conversion-to-pdf-a/
 timestamp: 2024-01-31-14-23-37
 ---
