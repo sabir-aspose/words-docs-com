@@ -7,6 +7,9 @@ type: docs
 description: "Выполните два разных типа операций mail merge: простые Mail Merge и Mail Merge с регионами, используя C++. Простой Mail Merge повторяет весь документ для каждой записи источника данных, тогда как Mail Merge с регионами повторяет только определенные области для каждой записи."
 keywords: "how to execute Mail Merge c++"
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/types-of-mail-merge-operations/
 timestamp: 2024-09-24-14-35-44
 ---

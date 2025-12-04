@@ -8,6 +8,9 @@ weight: 10
 description: "Aspose.Words для Java поддерживает модели OpenAI и Google AI для составления резюме и перевода документов. Используйте Aspose.Words с Gpt-4o, Gpt-4o mini, Gpt-4 Turbo, GPT-3.5 Turbo, Gemini 1.5 Flash, Gemini 1.5 Flash-8B, Gemini 1.5 Pro."
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/java/supported-ai-models/
 timestamp: 2024-11-26-12-00-00
 ---

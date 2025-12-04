@@ -6,6 +6,9 @@ linktitle: Настройки шрифта FallBack из XML
 description: "Механизм восстановления шрифта используется, когда шрифт разрешен, но он не содержит определенного символа. В этом случае Aspose.Words пытается использовать один из резервных шрифтов для символа."
 type: docs
 weight: 14
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/font-fallback-settings-from-xml/
 timestamp: 2024-09-24-14-35-44
 ---

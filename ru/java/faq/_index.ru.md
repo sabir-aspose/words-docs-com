@@ -6,6 +6,9 @@ linktitle: FAQ
 type: docs
 description: "Aspose.Words для Java ответов на наиболее часто задаваемые вопросы. Изучите эту страницу, чтобы быстро решить вашу проблему по общим вопросам или конкретным темам."
 weight: 75
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/java/faq/
 timestamp: 2024-01-31-14-23-37
 ---

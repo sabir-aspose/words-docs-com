@@ -6,6 +6,9 @@ linktitle: Объединить ячейки таблицы
 description: "Как объединить ячейки таблицы в C++. Проверьте, объединены ли ячейки в таблице с помощью C++."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/merge-table-cells/
 timestamp: 2024-01-27-14-07-04
 ---

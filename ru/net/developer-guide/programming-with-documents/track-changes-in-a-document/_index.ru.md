@@ -6,6 +6,9 @@ linktitle: Отслеживание изменений в документе
 description: "Отслеживать изменения в контенте и форматировании, сделанные вами или другими пользователями C#. Доступ к отдельным изменениям в документе и применение к ним различных свойств."
 type: docs
 weight: 270
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

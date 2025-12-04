@@ -6,6 +6,9 @@ linktitle: Работа с разделами
 description: "Понимание концепций разделов документа и методов работы с ними с помощью Java. Вставка раздела в документ Java. Удаление раздела Java. Копирование разделов между документами."
 type: docs
 weight: 120
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/java/working-with-sections/
 timestamp: 2024-01-31-14-23-37
 ---

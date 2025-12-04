@@ -6,6 +6,9 @@ linktitle: Какой стандарт PDF лучше выбрать
 description: "Выберите наилучший стандарт PDF для экспорта результата вашей задачи программирования на C++. Какой стандарт PDF лучше – PDF 1.7, PDF 2.0, PDF/A-1, PDF/A-2 или PDF/UA."
 type: docs
 weight: 37
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/which-pdf-standard-is-better-to-choose/
 timestamp: 2024-01-27-14-07-04
 ---

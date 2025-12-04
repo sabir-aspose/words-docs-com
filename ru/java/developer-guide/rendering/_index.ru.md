@@ -6,6 +6,9 @@ linktitle: Визуализация
 description: "Используйте функцию рендеринга Aspose.Words для Java, чтобы отформатировать документ с потоковым макетом в виде страниц и преобразовать такой документ или выбранные страницы в другой документ (PDF, HTML, XPS, и т.д.) или изображение (TIFF, PNG, SVG и т.д.) форматы для просмотра, дальнейшего преобразования или печати."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/java/rendering/
 timestamp: 2024-01-27-14-07-04
 ---

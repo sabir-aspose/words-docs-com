@@ -6,6 +6,9 @@ linktitle: Работа с SmartArt холодным рендерингом
 type: docs
 description: "Aspose.Words для Java выполняет SmartArt холодный рендеринг, что означает размещение и рендеринг объектов SmartArt, если предварительно отрендеренный чертеж SmartArt отсутствует или неверен."
 weight: 330
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/java/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

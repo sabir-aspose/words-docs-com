@@ -6,6 +6,9 @@ linktitle: Открыть документ, доступный только дл
 description: "Сделайте ваш документ доступным только для чтения, чтобы его содержимое можно было копировать или читать, но не изменять."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/open-a-document-read-only/
 timestamp: 2024-01-27-14-07-04
 ---

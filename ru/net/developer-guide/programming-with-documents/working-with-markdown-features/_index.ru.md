@@ -6,6 +6,9 @@ linktitle: Работать с Markdown Особенности
 description: "Как реализовать Markdown особенности использования C#. Все функции представлены в виде соответствующих стилей или прямого форматирования."
 type: docs
 weight: 420
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/working-with-markdown-features/
 timestamp: 2024-01-31-14-23-37
 ---

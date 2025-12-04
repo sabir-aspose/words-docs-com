@@ -6,6 +6,9 @@ linktitle: Работа с документами из внешних источ
 description: "Как загрузить документы из внешних источников C#. Загрузка PDF, DOCX, DOC, RTF, ODT, EPUB, HTML и других файлов из SharePoint База данных для дальнейшей обработки с использованием C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/working-with-documents-from-external-sources/
 timestamp: 2024-01-27-14-07-04
 ---

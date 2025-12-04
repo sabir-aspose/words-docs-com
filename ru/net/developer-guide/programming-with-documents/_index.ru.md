@@ -6,6 +6,9 @@ linktitle: Программирование с документами
 type: docs
 description: "Используйте Aspose.Words Document Object Model классы для программного создания, изменения и управления документами .NET использовать C#. Работа со свойствами документа, настройками и контентом, а также с внешним видом документа посредством управления цветами, формами, шрифтами и другой графикой."
 weight: 60
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

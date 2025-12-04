@@ -6,6 +6,9 @@ linktitle: Разделенный стол
 description: "Разделить таблицу на Java. Как разделить одну таблицу на две отдельные таблицы Java."
 type: docs
 weight: 100
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/java/split-table/
 timestamp: 2024-01-27-14-07-04
 ---

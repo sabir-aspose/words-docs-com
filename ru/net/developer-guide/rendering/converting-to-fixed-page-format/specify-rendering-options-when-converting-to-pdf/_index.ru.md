@@ -6,6 +6,9 @@ linktitle: Укажите параметры рендеринга при кон�
 description: "Преобразование документа в PDF с использованием расширенных опций C#. Преобразовать формы DOCX в PDF C#. Используйте PdfSaveOptions, чтобы изменить результат сохранения документа в PDF."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

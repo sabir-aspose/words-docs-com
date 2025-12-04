@@ -6,6 +6,9 @@ linktitle: Системные требования
 description: "Прежде чем начать работать с Aspose.Words для .NET, Убедитесь, что вы соответствуете требованиям операционной системы, платформы, фреймворков и окружающей среды, поэтому действия на ваших устройствах должным образом учитываются для использования. C#."
 type: docs
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/system-requirements/
 timestamp: 2024-02-01-16-17-05
 ---

@@ -6,6 +6,9 @@ linktitle: Преобразовать документ в изображение
 type: docs
 description: "Преобразовать документ в формат изображения (JPG, PNG и т.д.). Создайте предварительный просмотр документа или создайте сканирование документа для отправки счета с использованием C#."
 weight: 43
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/convert-a-document-to-an-image/
 timestamp: 2024-07-09-19-00-42
 ---

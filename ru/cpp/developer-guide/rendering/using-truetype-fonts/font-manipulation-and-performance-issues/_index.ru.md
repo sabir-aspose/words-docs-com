@@ -6,6 +6,9 @@ linktitle: Манипулирование шрифтами и проблемы �
 description: "Aspose.Words для C++ использует полное название шрифта, фамилию, версию, стиль для поиска необходимых данных о шрифте или подходящей замены запрашиваемого шрифта. FontSettings позволяет ускорить загрузку документов."
 type: docs
 weight: 11
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/font-manipulation-and-performance-issues/
 timestamp: 2024-09-24-14-35-44
 ---

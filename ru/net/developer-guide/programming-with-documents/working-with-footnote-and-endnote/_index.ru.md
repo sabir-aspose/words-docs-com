@@ -6,6 +6,9 @@ linktitle: Работа с Footnote и Endnote
 description: "Как манипулировать сносками и энднотами с помощью C#."
 type: docs
 weight: 160
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/working-with-footnote-and-endnote/
 timestamp: 2024-01-27-14-07-04
 ---

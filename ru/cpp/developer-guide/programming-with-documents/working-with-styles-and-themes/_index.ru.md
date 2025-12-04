@@ -6,6 +6,9 @@ linktitle: Работа со стилями
 description: "Расширенные возможности форматирования Microsoft Word, работа со стилями и темами с использованием C++."
 type: docs
 weight: 110
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/working-with-styles-and-themes/
 timestamp: 2024-01-30-16-22-34
 ---

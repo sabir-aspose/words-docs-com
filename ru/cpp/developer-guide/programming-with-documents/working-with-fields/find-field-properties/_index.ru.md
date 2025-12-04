@@ -6,6 +6,9 @@ linktitle: Поиск свойств поля
 description: "Как найти некоторые свойства поля, такие как код поля и результат поля, в C++."
 type: docs
 weight: 25
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/find-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

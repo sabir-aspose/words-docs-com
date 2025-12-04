@@ -6,6 +6,9 @@ linktitle: Обсуждение Document Builder
 type: docs
 description: "DocumentBuilder позволяет создавать динамические документы с нуля или добавлять новые элементы к уже существующим. C#. DocumentBuilder предоставляет способы вставки текста, флажков, таблиц, изображений и других элементов контента в .NET."
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

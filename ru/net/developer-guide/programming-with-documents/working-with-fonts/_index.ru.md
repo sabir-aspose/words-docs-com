@@ -6,6 +6,9 @@ linktitle: Работа с шрифтами
 description: "Форматирование шрифтов в деталях с использованием C#. Отметка акцента в C#. Получите интервал строки шрифта с помощью C#."
 type: docs
 weight: 230
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/working-with-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

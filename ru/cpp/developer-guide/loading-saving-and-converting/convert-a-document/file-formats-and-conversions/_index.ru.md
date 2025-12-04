@@ -6,6 +6,9 @@ linktitle: Конверсия - это флагманская функция Asp
 description: "Конвертируйте документы из любого поддерживаемого загружаемого формата в сохраняемый с помощью всего двух строк кода на C++. Это обеспечивает высококачественное преобразование."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/file-formats-and-conversions/
 timestamp: 2024-09-24-14-35-44
 ---

@@ -6,6 +6,9 @@ linktitle: Преобразование документа в HTML, MHTML или
 description: "Преобразование документа практически из любого формата в HTML или MHTML, а также в формат EPUB с использованием C#. Вы также можете указать варианты сохранения для управления выходным документом."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/convert-a-document-to-html-mhtml-or-epub/
 timestamp: 2024-07-09-19-00-42
 ---

@@ -6,6 +6,9 @@ linktitle: Обзор продукта
 description: "Aspose.Words for Android via Java - это библиотека классов `Java`, которая позволяет разработчикам Android выполнять широкий спектр задач по обработке документов."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/java/android-product-overview/
 timestamp: 2024-01-27-14-07-04
 ---

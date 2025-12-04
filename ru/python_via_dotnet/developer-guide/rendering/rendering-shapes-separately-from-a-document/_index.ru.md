@@ -6,6 +6,9 @@ linktitle: Визуализация фигур отдельно от докум�
 description: "Извлекайте различные графические объекты, такие как изображения, текстовое поле, содержащее абзацы, или фигуры со стрелками, при обработке документа и экспортируйте их во внешнее расположение с помощью Python."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

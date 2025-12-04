@@ -6,6 +6,9 @@ linktitle: Сохранение документа как многострани
 description: "Преобразовать документ в многостраничный TIFF C#. Чтобы определить, как документ отображается на изображении, нужно указать дополнительные опции: разрешение, количество страниц, бинаризацию изображения и т.д."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-07-10-14-38-57
 ---

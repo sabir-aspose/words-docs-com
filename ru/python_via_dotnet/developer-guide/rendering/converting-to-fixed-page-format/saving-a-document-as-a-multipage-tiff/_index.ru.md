@@ -6,6 +6,9 @@ linktitle: Сохранение многостраничного докумен�
 description: "Преобразуйте документ в многостраничный TIFF с помощью Python. Чтобы определить, как документ будет отображаться на изображении, вам необходимо указать дополнительные параметры: разрешение, количество страниц, бинаризацию изображения и т.д."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

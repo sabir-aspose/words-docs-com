@@ -6,6 +6,9 @@ linktitle: Укажите истинное Тип расположения шр�
 description: "Укажите различные Правда Источники шрифтов типа: системная папка, источники пользователей, загрузка шрифтов из потока, файловая система или память с использованием C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/specifying-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

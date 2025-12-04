@@ -6,6 +6,9 @@ linktitle: Обзор конструктора документов
 type: docs
 description: "DocumentBuilder позволяет создавать динамические документы с нуля или добавлять новые элементы к существующим с помощью Python. DocumentBuilder предоставляет методы для вставки текста, checkbox строк, таблиц, изображений и других элементов содержимого в Python."
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

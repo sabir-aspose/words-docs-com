@@ -4,6 +4,9 @@ second_title: Aspose.Words для Python via .NET
 articleTitle: Создайте или загрузите документ
 linktitle: Создайте или загрузите документ
 type: docs
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/create-or-load-a-document/
 description: "Создайте пустой документ или загрузите его из файла или потока, используя Python."
 keywords: "create a document python, load a document python, create a blank document python, load a document from file python, load a document from stream python, create a document Aspose python, load a document Aspose python, load formats supported by Aspose.Words python"

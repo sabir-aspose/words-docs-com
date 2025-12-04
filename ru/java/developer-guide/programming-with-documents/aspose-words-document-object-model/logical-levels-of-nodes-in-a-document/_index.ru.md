@@ -6,6 +6,9 @@ linktitle: Логические уровни узлов в документе
 type: docs
 description: "В документации Aspose.Words для Java упоминаются логические уровни узлов – уровень блока, встроенный уровень или уровень строки. Уровень узла используется для описания местоположения в дереве документа, где обычно находится узел."
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/java/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

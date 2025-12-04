@@ -6,6 +6,9 @@ linktitle: Используйте DocumentBuilder для вставки элем
 type: docs
 description: "Вставьте элементы документа с помощью конструктора документов в Java."
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/java/use-documentbuilder-to-insert-document-elements/
 timestamp: 2024-01-27-14-07-04
 ---

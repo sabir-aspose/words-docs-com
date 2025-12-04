@@ -6,6 +6,9 @@ linktitle: Системные требования
 description: "Прежде чем приступить к работе с Aspose.Words вместо Java, убедитесь, что вы соответствуете требованиям операционной системы, платформы, фреймворков и среды, чтобы должным образом учитывать действия на ваших устройствах."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/java/system-requirements/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Преобразовать документ в Excel
 description: "Преобразование PDF в Excel, XML в Excel, DOCX в Excel C#. Сохранить документ в различных форматах для XLSX C#."
 type: docs
 weight: 15
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/convert-a-document-to-excel/
 timestamp: 2024-07-09-19-00-42
 ---

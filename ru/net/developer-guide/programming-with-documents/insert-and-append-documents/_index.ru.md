@@ -6,6 +6,9 @@ linktitle: Включить и добавить документы
 description: "Объедините документы в один: вставьте или добавьте документ в новый или существующий, используя поиск и замену, объединение поля, закладки или просто в конце документа. C#."
 type: docs
 weight: 80
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---
