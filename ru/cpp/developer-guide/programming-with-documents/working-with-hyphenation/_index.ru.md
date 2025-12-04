@@ -6,6 +6,9 @@ linktitle: Работа с расстановкой переносов
 description: "Используйте расстановку переносов для более компактного оформления текста с помощью C++. Он предоставляет расширенные алгоритмы для работы со словарями расстановки переносов, использует словари OpenOffice."
 type: docs
 weight: 220
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/working-with-hyphenation/
 timestamp: 2024-01-30-16-22-34
 ---

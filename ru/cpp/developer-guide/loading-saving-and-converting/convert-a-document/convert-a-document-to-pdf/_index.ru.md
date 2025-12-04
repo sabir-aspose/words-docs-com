@@ -6,6 +6,9 @@ linktitle: Преобразование документа в формат PDF
 description: "Преобразуйте документ в PDF с помощью C++. Поддерживаются различные форматы ввода, включая Word, OpenOffice, форматы изображений и электронных книг."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/convert-a-document-to-pdf/
 timestamp: 2024-10-21-08-52-03
 ---

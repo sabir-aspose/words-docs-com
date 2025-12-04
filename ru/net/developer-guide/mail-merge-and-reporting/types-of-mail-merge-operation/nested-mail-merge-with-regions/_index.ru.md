@@ -7,6 +7,9 @@ type: docs
 description: "Выполните операцию Mail Merge с вложенными областями, используя C#. Вложенное слияние - это функция, которая позволяет вам объединять иерархические данные из вашего источника данных в ваш шаблон слияния."
 keywords: "mail merge with nested regions c#"
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/nested-mail-merge-with-regions/
 timestamp: 2024-07-11-08-07-06
 ---

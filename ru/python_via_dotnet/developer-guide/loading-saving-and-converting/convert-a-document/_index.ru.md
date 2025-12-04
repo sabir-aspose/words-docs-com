@@ -4,6 +4,9 @@ second_title: Aspose.Words для Python via .NET
 articleTitle: Преобразование документа
 linktitle: Преобразование документа
 type: docs
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/convert-a-document/
 weight: 30
 description: "Легко конвертируйте документы из одного формата в другой с помощью Python. Вы можете работать со всеми наиболее популярными форматами, такими как Microsoft Word, такие как DOCX или DOC, форматы OpenDocument, такие как ODT или OTT, веб-форматы, такие как HTML или XHTML, текстовые форматы, такие как MarkDown или TXT и другие."

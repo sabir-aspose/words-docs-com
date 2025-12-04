@@ -6,6 +6,9 @@ linktitle: Руководство для разработчиков
 description: "Этот разработчик Руководство описывает практические сценарии и советы, которые помогут вам использовать конкретные Aspose.Words для .NET особенности, достичь определенного вида документа или сделать возможным вариант использования."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

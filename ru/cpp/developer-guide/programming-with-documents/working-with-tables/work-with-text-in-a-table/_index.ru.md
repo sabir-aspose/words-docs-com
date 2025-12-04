@@ -6,6 +6,9 @@ linktitle: Работа с текстом в таблице
 description: "Замените текст в таблице на C++. Извлеките обычный текст из таблицы или ячейки с помощью C++."
 type: docs
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/work-with-text-in-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

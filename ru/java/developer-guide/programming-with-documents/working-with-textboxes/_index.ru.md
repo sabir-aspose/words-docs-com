@@ -6,6 +6,9 @@ linktitle: Работа со связанными TextBoxes
 description: "Введение в функцию связанных текстовых полей в Aspose.Words для Java."
 type: docs
 weight: 250
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/java/working-with-linked-textboxes/
 timestamp: 2024-01-27-14-07-04
 ---

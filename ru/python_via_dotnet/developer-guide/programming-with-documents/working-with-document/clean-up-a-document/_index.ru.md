@@ -6,6 +6,9 @@ linktitle: Очистка документа
 description: "Удалите неиспользуемую или дублирующуюся информацию, чтобы уменьшить размер выходных данных и время обработки, используя Python. Удалите неиспользуемые стили, неиспользуемые встроенные стили, повторяющиеся стили или неиспользуемые списки."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

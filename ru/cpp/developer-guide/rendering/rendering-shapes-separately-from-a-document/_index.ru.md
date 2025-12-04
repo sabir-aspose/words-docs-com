@@ -6,6 +6,9 @@ linktitle: Визуализация фигур отдельно от докум�
 description: "Извлекайте различные графические объекты, такие как изображения, текстовое поле, содержащее абзацы, или фигуры со стрелками, при обработке документа и экспортируйте их во внешнее хранилище."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

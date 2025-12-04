@@ -6,6 +6,9 @@ linktitle: Работа с системой управления контент�
 type: docs
 description: "Расширенное управление содержимым документов, как создавать элементы управления содержимым (структурированные теги документов) и манипулировать ими с помощью C++."
 weight: 390
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/structured-document-tags-or-content-control/
 timestamp: 2024-01-27-14-07-04
 ---

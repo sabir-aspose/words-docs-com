@@ -6,6 +6,9 @@ linktitle: Определение формата файла и проверка 
 description: "Получите информацию о формате документа перед его открытием, чтобы избежать возникновения исключения, если вы не уверены, каково фактическое содержимое файла, используя Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/java/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

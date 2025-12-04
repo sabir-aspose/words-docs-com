@@ -6,6 +6,9 @@ linktitle: Сериализовать документ в базе данных 
 description: "Преобразуйте документ в массив байт для работы с этим документом в базе данных. Вы можете сохранять документ в базе данных и извлекать его из базы данных, используя Java."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/java/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-01-27-14-07-04
 ---

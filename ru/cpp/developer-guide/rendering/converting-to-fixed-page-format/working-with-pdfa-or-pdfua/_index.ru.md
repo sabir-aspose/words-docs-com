@@ -6,6 +6,9 @@ linktitle: Работа с PDF/A или PDF/UA
 description: "Преобразуйте в PDF/A-1, PDF/A-2, PDF/A-4 и PDF/UA с помощью C++. При преобразовании в документы PDF/A возникает несколько проблем, и Aspose.Words для C++ решает их."
 type: docs
 weight: 38
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/working-with-pdfa-or-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

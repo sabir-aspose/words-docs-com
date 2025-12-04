@@ -6,6 +6,9 @@ linktitle: Разделить документ
 description: "Разделите документ на несколько файлов, используя C#. Используйте функцию разделения для эффективного разделения документа по заголовкам или разделам, а также по страницам или диапазонам страниц."
 type: docs
 weight: 90
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

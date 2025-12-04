@@ -6,6 +6,9 @@ linktitle: Безопасность Веб-Приложений При Загр�
 type: docs
 description: "Загружать удаленные ресурсы, что может быть причиной угроз безопасности. Рассмотрим распространенные проблемы безопасности и их решения в C++."
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-30-16-22-34
 ---

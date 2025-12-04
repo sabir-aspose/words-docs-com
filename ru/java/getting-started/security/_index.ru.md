@@ -6,6 +6,9 @@ linktitle: Примечания по безопасности
 type: docs
 description: "Aspose.Words для Java признает общие стандарты безопасности и придерживается их, чтобы обеспечить высокий уровень защиты данных. Рассмотрим возможные проблемы с безопасностью и рекомендации по их устранению."
 weight: 120
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/java/security/
 timestamp: 2024-01-27-14-07-04
 ---

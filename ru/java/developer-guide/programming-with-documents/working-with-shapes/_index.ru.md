@@ -6,6 +6,9 @@ linktitle: Работа с формами
 type: docs
 description: "Знакомство с языком разметки фигур, создание фигур различных типов с помощью Java."
 weight: 280
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/java/working-with-shapes/
 timestamp: 2024-01-27-14-07-04
 ---

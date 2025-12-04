@@ -6,6 +6,9 @@ linktitle: Заметки безопасности
 type: docs
 description: "Aspose.Words для .NET Признает и придерживается общих стандартов безопасности для обеспечения высокого уровня безопасности данных. Посмотрите на возможные проблемы безопасности и рекомендации о том, как избежать их использования. C#."
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/security/
 timestamp: 2024-01-27-14-07-04
 ---

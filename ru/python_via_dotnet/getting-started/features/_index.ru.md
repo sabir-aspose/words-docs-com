@@ -6,6 +6,9 @@ linktitle: Поддерживаемые функции
 description: "Aspose.Words for Python via .NET предоставляет пользователям широкий спектр функций - от простого преобразования и модификации документов до создания структурированных и визуально привлекательных документов или автоматизации отчетности."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/features/
 timestamp: 2024-10-21-11-17-44
 ---

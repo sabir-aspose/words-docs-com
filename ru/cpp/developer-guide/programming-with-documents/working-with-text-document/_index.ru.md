@@ -6,6 +6,9 @@ linktitle: Работа с текстовым документом
 description: "Расширенная обработка текстовых документов, списков, BiDi, верхних и нижних колонтитулов с использованием C++."
 type: docs
 weight: 430
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/working-with-text-document/
 timestamp: 2024-01-27-14-07-04
 ---

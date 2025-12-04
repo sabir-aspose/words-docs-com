@@ -6,6 +6,9 @@ linktitle: Отслеживать изменения в документе
 description: "Отслеживайте изменения содержимого и форматирования, внесенные вами или другими пользователями, с помощью Python. Получайте доступ к отдельным редакциям документа и применяйте к ним различные свойства."
 type: docs
 weight: 270
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

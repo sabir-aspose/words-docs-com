@@ -6,6 +6,9 @@ linktitle: Работа с документом, отмеченным этике
 description: "Преобразование Word с приложенной этикеткой чувствительности в PDF C#. Работа с документами, отмеченными метками чувствительности – различными форматами ввода, включая Word, OpenOffice, Image и eBook."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/work-with-document-market-by-sensitivity-label/
 timestamp: 2024-01-31-14-23-37
 ---

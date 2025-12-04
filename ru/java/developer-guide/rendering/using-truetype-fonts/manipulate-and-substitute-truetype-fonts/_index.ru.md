@@ -6,6 +6,9 @@ linktitle: Манипулирование шрифтами TrueType и их за
 description: "Aspose.Words для Java может вставлять правильные шрифты TrueType в результирующий документ, чтобы обеспечить его точное отображение, или искать подходящую замену шрифта, или использовать резервный механизм изменения шрифта."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/java/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -8,6 +8,9 @@ linktitle: Техническая поддержка
 type: docs
 description: "Aspose.Words для .NET Предоставляет бесплатную техническую поддержку всем пользователям. Пожалуйста, сообщите свой вопрос, вопрос или запрос функции с помощью форума бесплатной поддержки Aspose."
 weight: 80
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/technical-support/
 timestamp: 2024-01-27-14-07-04
 ---

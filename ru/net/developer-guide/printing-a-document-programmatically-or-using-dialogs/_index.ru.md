@@ -6,6 +6,9 @@ linktitle: Печать документа Программно или с пом
 description: "Распечатать документ на a Server Использование неуправляемого XpsPrint API или через выбранный принтер с настройками и диалогами предварительного просмотра печати в C#."
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-31-14-23-37
 ---

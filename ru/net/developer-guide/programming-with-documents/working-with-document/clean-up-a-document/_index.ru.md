@@ -6,6 +6,9 @@ linktitle: Очистить документ
 description: "Удалить неиспользуемую или дублированную информацию, чтобы уменьшить размер вывода и время обработки. C#. Удалите неиспользованные стили, неиспользованные встроенные стили, дублирующие стили или неиспользованные списки."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

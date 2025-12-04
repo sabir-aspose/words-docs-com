@@ -6,6 +6,9 @@ linktitle: Разделение документа
 description: "Aspose.Words для Java предоставляет вам эффективный способ разделения одного документа на несколько документов по заголовкам или разделам, а также по страницам или диапазонам страниц."
 type: docs
 weight: 90
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/java/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Обзор полей
 description: "Поля подробно описаны, коды полей и результаты полей объяснены в Aspose.Words для .NET."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/fields-overview/
 timestamp: 2024-09-25-11-08-55
 ---

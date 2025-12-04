@@ -6,6 +6,9 @@ linktitle: Разделение документа
 description: "Разделите документ на несколько файлов с помощью C++. Используйте функцию разделения, чтобы эффективно разделить документ по заголовкам или разделам, а также по страницам или диапазонам страниц."
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

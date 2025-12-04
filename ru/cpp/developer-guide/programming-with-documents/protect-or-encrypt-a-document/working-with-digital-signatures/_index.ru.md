@@ -6,6 +6,9 @@ linktitle: Работа с цифровыми подписями
 description: "Ставьте цифровую подпись на документах и обнаруживайте, подсчитывайте, проверяйте и удаляйте существующие цифровые подписи."
 type: docs
 weight: 160
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/working-with-digital-signatures/
 timestamp: 2024-01-27-14-07-04
 ---

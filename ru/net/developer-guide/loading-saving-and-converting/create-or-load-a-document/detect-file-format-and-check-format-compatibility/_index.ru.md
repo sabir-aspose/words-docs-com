@@ -6,6 +6,9 @@ linktitle: Обнаружение формата файла и проверка 
 description: "Определить формат файла в C# Если вы не уверены, каково фактическое содержание файла, или проверить совместимость формата."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

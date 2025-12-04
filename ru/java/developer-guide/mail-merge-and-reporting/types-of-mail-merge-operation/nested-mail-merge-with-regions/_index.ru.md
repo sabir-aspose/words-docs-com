@@ -7,6 +7,9 @@ type: docs
 description: "Выполните операцию Mail Merge с вложенными областями. Вложенное слияние - это функция, которая позволяет вам объединять иерархические данные из вашего источника данных в шаблон слияния с помощью Java."
 keywords: "mail merge with nested regions Java, Nested Mail Merge Regions"
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/java/nested-mail-merge-with-regions/
 timestamp: 2024-01-27-14-07-04
 ---
