@@ -8,6 +8,7 @@ type: docs
 weight: 80
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/insert-and-append-documents/
 aliases:
  - /python/join-and-append-documents/

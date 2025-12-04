@@ -7,6 +7,7 @@ type: docs
 weight: 30
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /java/convert-a-document/
 aliases: [/java/converting-a-document/]
 description: "Easily convert documents from one format to another. You can work with all the most popular formats like Microsoft Word formats such as DOCX or DOC, OpenDocument formats such as ODT or  OTT, web formats such as HTML or XHTML, text formats such as MarkDown or TXT, and others using Java."

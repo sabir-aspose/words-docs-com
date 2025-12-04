@@ -9,6 +9,7 @@ keywords: "save a document c++, save a document to file c++, save a document to 
 weight: 20
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cpp/save-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -8,6 +8,7 @@ description: "Simplify document processing tasks like compare, convert, split, m
 weight: 23
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cpp/low-code/
 timestamp: 2025-05-07-07-08-55
 ---

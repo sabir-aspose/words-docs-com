@@ -8,6 +8,7 @@ description: "Document watermark manipulation using Java."
 weight: 70
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /java/working-with-watermark/
 aliases: [/java/how-to-add-a-watermark-to-a-document/]
 timestamp: 2025-04-22-08-07-04

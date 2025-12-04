@@ -8,6 +8,7 @@ type: docs
 weight: 130
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nodejs-net/features/
 aliases:
  - /nodejs/feature-overview/

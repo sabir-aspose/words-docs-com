@@ -8,6 +8,7 @@ description: "Find a string or regular expression pattern in your document and r
 weight: 100
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cpp/find-and-replace/
 timestamp: 2024-01-27-14-07-04
 ---

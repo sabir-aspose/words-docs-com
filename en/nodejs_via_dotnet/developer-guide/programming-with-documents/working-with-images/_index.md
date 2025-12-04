@@ -8,6 +8,7 @@ type: docs
 weight: 300
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nodejs-net/working-with-images/
 timestamp: 2025-07-09-10-05-05
 ---

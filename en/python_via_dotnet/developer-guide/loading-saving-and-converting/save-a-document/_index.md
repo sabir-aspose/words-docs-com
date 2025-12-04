@@ -10,6 +10,7 @@ keywords: "save a document python, save a document to file python, save a docume
 weight: 20
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/save-a-document/
 aliases: [/python/save-a-document/]
 timestamp: 2024-01-27-14-07-04

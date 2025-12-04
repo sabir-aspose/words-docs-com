@@ -8,6 +8,7 @@ description: "Document Object Model (DOM) is an in-memory representation of a Wo
 weight: 10
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nodejs-net/aspose-words-document-object-model/
 timestamp: 2025-07-09-10-05-05
 ---

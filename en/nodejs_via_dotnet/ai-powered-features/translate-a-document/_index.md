@@ -6,10 +6,9 @@ linktitle: Translate a Document
 type: docs
 weight: 30
 description: "Translate a document. Aspose.Words for Node.js via .NET simplifies document translation using AI models, allowing you to specify the target language."
-ai_search_scope: nodejs_net
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nodejs-net/translate-a-document/
 timestamp: 2025-05-16-12-00-00
 ---

@@ -8,6 +8,7 @@ description: "Advanced document content management, how to create and manipulate
 weight: 390
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /java/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---

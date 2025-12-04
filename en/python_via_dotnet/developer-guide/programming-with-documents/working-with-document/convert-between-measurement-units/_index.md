@@ -8,6 +8,7 @@ type: docs
 weight: 20
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/convert-between-measurement-units/
 aliases: [/python/convert-between-measurement-units/]
 timestamp: 2024-01-27-14-07-04

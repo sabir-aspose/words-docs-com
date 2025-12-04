@@ -8,6 +8,7 @@ weight: 30
 description: "Learn an explanation and examples of Aspose.Words for C++ classes and methods to generate, convert, modify, render, and print documents without using Microsoft Word."
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cpp/api-reference/
 timestamp: 2024-01-30-16-22-34
 ---

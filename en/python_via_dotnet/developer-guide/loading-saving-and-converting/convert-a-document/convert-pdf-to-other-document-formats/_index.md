@@ -9,6 +9,7 @@ keywords: convert pdf to other formats python
 weight: 45
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/convert-pdf-to-other-document-formats/
 aliases: [/python/convert-pdf-to-other-document-formats/]
 timestamp: 2024-01-27-14-07-04
