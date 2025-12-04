@@ -8,6 +8,7 @@ type: docs
 weight: 28
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /net/working-with-pdfa-or-pdfua/
 timestamp: 2024-07-10-14-38-57
 ---

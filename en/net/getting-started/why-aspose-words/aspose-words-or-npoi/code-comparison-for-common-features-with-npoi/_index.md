@@ -8,6 +8,7 @@ type: docs
 weight: 10
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /net/code-comparison-for-common-features-with-npoi/
 aliases:
   - /net/working-with-tables-aspose-vs-npoi/

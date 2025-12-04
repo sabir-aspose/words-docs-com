@@ -8,6 +8,7 @@ type: docs
 weight: 40
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /net/aspose-words-or-npoi/
 aliases: [/net/aspose-words-net-for-npoi/]
 timestamp: 2024-01-31-14-23-37
