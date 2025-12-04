@@ -8,6 +8,7 @@ description: "Use Aspose.Words to build applications for .NET, Java, C ++, Pytho
 weight: 150
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /net/platforms-and-interoperability/
 aliases: [/net/plugins/]
 timestamp: 2024-01-27-14-07-04

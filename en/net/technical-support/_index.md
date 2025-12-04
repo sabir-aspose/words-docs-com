@@ -10,6 +10,7 @@ description: "Aspose.Words for .NET provides free technical support available to
 weight: 80
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /net/technical-support/
 timestamp: 2024-01-27-14-07-04
 ---

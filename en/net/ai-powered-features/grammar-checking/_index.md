@@ -8,6 +8,7 @@ weight: 40
 description: "Check a document grammar. Aspose.Words for .NET allows users to check grammar and detect errors in documents using OpenAI, Google, and Claude models."
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /net/grammar-checking/
 timestamp: 2025-03-17-19-00-00
 ---
