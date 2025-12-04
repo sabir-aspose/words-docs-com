@@ -10,6 +10,7 @@ keywords: "save a document Node.js, save a document to file Node.js, save a docu
 weight: 20
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nodejs-net/save-a-document/
 aliases: [/nodejs/save-a-document/]
 timestamp: 2025-04-21-14-07-04

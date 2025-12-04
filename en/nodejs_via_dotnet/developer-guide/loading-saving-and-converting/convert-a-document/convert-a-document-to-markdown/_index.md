@@ -9,6 +9,7 @@ keywords: how to convert a document to markdown Node.js
 weight: 40
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nodejs-net/convert-a-document-to-markdown/
 aliases: [/nodejs/convert-a-document-to-markdown/]
 timestamp: 2025-04-21-14-07-04

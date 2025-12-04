@@ -9,6 +9,7 @@ keywords: convert pdf to other formats Node.js
 weight: 45
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nodejs-net/convert-pdf-to-other-document-formats/
 aliases: [/nodejs/convert-pdf-to-other-document-formats/]
 timestamp: 2025-04-21-14-07-04

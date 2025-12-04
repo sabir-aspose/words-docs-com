@@ -8,6 +8,7 @@ weight: 20
 description: "Summarize a document. Aspose.Words for Node.js simplifies document summarization using OpenAI, Google and Anthropic AI models by allowing you to specify the summary length."
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nodejs-net/summarize-a-document/
 timestamp: 2025-05-12-12-00-00
 ---

@@ -8,6 +8,7 @@ description: "Export multi-page documents to raster images (JPG, PNG, GIF, BMP, 
 weight: 45
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cpp/convert-a-multi-page-document-to-an-image/
 timestamp: 2025-07-16-11-12-25
 ---

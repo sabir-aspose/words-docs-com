@@ -8,6 +8,7 @@ type: docs
 weight: 15
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nodejs-net/nodejs-notes/
 aliases: [/nodejs/nodejs-notes/]
 timestamp: 2025-04-17-14-07-04

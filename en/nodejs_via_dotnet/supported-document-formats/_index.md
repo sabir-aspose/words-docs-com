@@ -8,6 +8,7 @@ description: "Edit source documents in many popular formats, as well as freely c
 weight: 17
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nodejs-net/supported-document-formats/
 aliases: [/nodejs/supported-document-formats/]
 timestamp: 2025-04-18-11-17-44
