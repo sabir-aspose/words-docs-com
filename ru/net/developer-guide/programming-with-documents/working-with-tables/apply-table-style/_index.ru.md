@@ -6,6 +6,9 @@ linktitle: Применяйте стиль стола
 description: "Расширенный формат таблицы C#. Создайте стиль стола, используя C#. Применять стиль стола C#."
 type: docs
 weight: 80
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/working-with-tablestyle/
 timestamp: 2024-02-02-12-07-36
 ---

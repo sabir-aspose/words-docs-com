@@ -6,6 +6,9 @@ linktitle: Установка
 description: "Устанавливать Aspose.Words для .NET использовать Visual Studio Такие инструменты, как Manage NuGet Packages или Package Manager Console Установщик MSI. Используйте Full Trust разрешение, установленное C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/installation/
 timestamp: 2024-01-27-14-07-04
 ---

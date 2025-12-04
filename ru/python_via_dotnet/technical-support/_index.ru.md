@@ -7,6 +7,9 @@ type: docs
 description: "Aspose.Words for Python via .NET предоставляет бесплатную техническую поддержку, доступную всем пользователям. Пожалуйста, сообщите о своем вопросе, неполадке или запросе функции на бесплатном форуме поддержки Aspose."
 doc_version: 2024-11-18-19-55
 weight: 80
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/technical-support/
 timestamp: 2024-11-18-12-56-02
 ---

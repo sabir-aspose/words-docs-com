@@ -6,6 +6,9 @@ linktitle: Структурированные теги документа или
 description: "Внедрите определяемую пользователем семантику, а также ее поведение и внешний вид в документ, используя теги структурированного документа (SDT или элемент управления содержимым) в Python."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/structured-document-tags-or-content-control/
 timestamp: 2024-01-31-14-23-37
 ---

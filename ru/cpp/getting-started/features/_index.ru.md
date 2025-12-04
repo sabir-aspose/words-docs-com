@@ -6,6 +6,9 @@ linktitle: Поддерживаемые функции
 description: "Aspose.Words для C++ предоставляет пользователям широкий спектр возможностей - от простого преобразования и модификации документов до создания структурированных и визуально привлекательных документов или автоматизации отчетности."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/features/
 timestamp: 2024-01-27-14-07-04
 ---

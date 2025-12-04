@@ -6,6 +6,9 @@ linktitle: Как запустить примеры
 description: "Скачать Aspose.Words для C++ приведите примеры из нашего репозитория GitHub и узнайте, как их запускать, чтобы лучше ознакомиться с возможностями и функциональными возможностями Aspose.Words."
 type: docs
 weight: 110
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/how-to-run-the-examples/
 timestamp: 2024-07-11-16-13-28
 ---

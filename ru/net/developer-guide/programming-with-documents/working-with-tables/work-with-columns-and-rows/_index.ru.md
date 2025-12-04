@@ -6,6 +6,9 @@ linktitle: Работа с колоннами и рядами
 description: "Работа с частями таблицы - строками, столбцами и ячейками с использованием C#. Указать Header Row C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/working-with-columns-and-rows/
 timestamp: 2024-01-27-14-07-04
 ---

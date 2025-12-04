@@ -7,6 +7,9 @@ type: docs
 description: "При выполнении операции Mail Merge используйте различные источники данных, в том числе файл XML с использованием C#. Основным преимуществом использования XML является возможность определения иерархии непосредственно в документе."
 keywords: "mail merge xml data source c#"
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/mail-merge-with-xml-data-source/
 timestamp: 2024-07-11-08-07-06
 ---

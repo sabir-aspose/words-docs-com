@@ -6,6 +6,9 @@ linktitle: Клонирование документа
 type: docs
 description: "Клонируйте документ, чтобы получить его идентичную копию. При создании копии узлы и свойства исходного документа клонируются с помощью Java."
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/java/clone-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

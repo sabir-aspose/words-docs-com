@@ -6,6 +6,9 @@ linktitle: Работа с разделами
 description: "Создавайте разделы и разрывы разделов в документе и управляйте ими с помощью Python. Вставьте раздел в документ Python. Удалите раздел Python. Скопируйте разделы между документами."
 type: docs
 weight: 120
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/working-with-sections/
 timestamp: 2024-09-25-11-08-55
 ---

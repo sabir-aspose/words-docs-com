@@ -6,6 +6,9 @@ linktitle: Защитить или зашифровать документ
 description: "Aspose.Words для .NET Предоставляет только чтение, шифрование документа, ограниченное редактирование и цифровые подписи для защиты документов с использованием C#. Aspose.Words поддерживает большинство Варианты защиты слова."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

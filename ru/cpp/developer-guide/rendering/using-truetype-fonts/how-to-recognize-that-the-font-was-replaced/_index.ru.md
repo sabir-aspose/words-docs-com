@@ -6,6 +6,9 @@ linktitle: Как распознать, Что Шрифт Был Заменен
 description: "Если вы не уверены, почему изменился формат документа или почему определенный шрифт выглядит не так, как ожидалось, вам могут помочь сообщения с предупреждениями о замене шрифта."
 type: docs
 weight: 13
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/how-to-recognize-that-the-font-was-replaced/
 timestamp: 2024-09-24-14-35-44
 ---

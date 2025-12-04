@@ -5,6 +5,9 @@ articleTitle: Преобразование документа
 linktitle: Преобразование документа
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/java/convert-a-document/
 description: "Легко конвертируйте документы из одного формата в другой. Вы можете работать со всеми наиболее популярными форматами, такими как Microsoft Word, такие как DOCX или DOC, форматы OpenDocument, такие как ODT или OTT, веб-форматы, такие как HTML или XHTML, текстовые форматы, такие как MarkDown или TXT, а другие используют Java."
 timestamp: 2024-09-25-11-08-55

@@ -6,6 +6,9 @@ linktitle: Сохранение документа в формате много�
 description: "Преобразуйте документ в многостраничный формат TIFF с помощью C++. Чтобы определить, как документ будет отображаться на изображении, вам необходимо указать дополнительные параметры: разрешение, количество страниц, бинаризацию изображения и т.д."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

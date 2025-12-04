@@ -6,6 +6,9 @@ linktitle: Работа с надстройками Office
 description: "Aspose.Words для Python via .NET предусмотрены различные классы для работы с надстройками Office. Вы можете добавить панель задач через веб-расширение и настроить свойства панели и расширения."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

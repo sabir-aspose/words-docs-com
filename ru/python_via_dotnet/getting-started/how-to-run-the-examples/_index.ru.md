@@ -6,6 +6,9 @@ linktitle: Как запускать примеры
 description: "Загрузите примеры Aspose.Words для Python via .NET из нашего репозитория GitHub и узнайте, как их запускать, чтобы лучше ознакомиться с возможностями Aspose.Words и функциональными возможностями."
 type: docs
 weight: 110
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/how-to-run-the-examples/
 timestamp: 2024-01-27-14-07-04
 ---

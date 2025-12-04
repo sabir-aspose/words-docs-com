@@ -6,6 +6,9 @@ linktitle: Работа с расстановкой переносов
 description: "Используйте расстановку переносов для более компактного размещения текста с помощью Python. Он предоставляет расширенные алгоритмы для работы со словарями расстановки переносов, использует словари OpenOffice."
 type: docs
 weight: 220
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---

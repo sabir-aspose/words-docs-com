@@ -6,6 +6,9 @@ linktitle: Обзор таблицы
 description: "Работайте с таблицами и их компонентами, такими как ячейки, строки, столбцы, в Aspose.Words для Java. Как работать с таблицами в Java."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/java/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

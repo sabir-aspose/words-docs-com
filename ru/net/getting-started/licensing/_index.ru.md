@@ -6,6 +6,9 @@ linktitle: Лицензирование и подписка
 description: "Aspose.Words для .NET предоставляет различные планы покупки или предлагает бесплатную пробную версию и 30-дневную временную лицензию для оценки с использованием политики лицензирования и подписки. C#."
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

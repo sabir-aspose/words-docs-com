@@ -6,6 +6,9 @@ linktitle: Работа с комментариями
 description: "Как добавлять, удалять комментарии в документе или манипулировать ими с помощью Python."
 type: docs
 weight: 260
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/working-with-comments/
 timestamp: 2024-01-27-14-07-04
 ---

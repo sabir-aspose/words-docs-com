@@ -6,6 +6,9 @@ linktitle: Погрузка, экономия и конвертация
 description: "Как конвертировать документ из одного формата в другой, например, Word в PDF или HTML Markdown, Как загрузить и сохранить документ с помощью C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/net/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---

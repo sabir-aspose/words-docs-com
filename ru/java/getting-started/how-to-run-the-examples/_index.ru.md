@@ -6,6 +6,9 @@ linktitle: Как запускать примеры
 type: docs
 description: "Загрузите примеры Aspose.Words для Java из нашего репозитория GitHub и узнайте, как их запускать, чтобы лучше ознакомиться с возможностями и функциональностью Aspose.Words."
 weight: 130
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/java/how-to-run-the-examples/
 timestamp: 2024-01-27-14-07-04
 ---

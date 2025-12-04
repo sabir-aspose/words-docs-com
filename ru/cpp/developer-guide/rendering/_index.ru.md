@@ -6,6 +6,9 @@ linktitle: Визуализация
 description: "Воспользуйся Aspose.Words для C++ функция рендеринга для форматирования документа flow-layout в страницы и преобразования такого документа или выбранных страниц в другие форматы документов (PDF, HTML, XPS и т.д.) или изображений (TIFF, PNG, SVG и т.д.) для просмотра, дальнейшего преобразования или печати."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/rendering/
 timestamp: 2024-01-30-16-22-34
 ---

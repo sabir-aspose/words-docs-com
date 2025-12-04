@@ -6,6 +6,9 @@ linktitle: Определение формата файла и проверка 
 description: "Укажите формат файла в поле Python, если вы не уверены в фактическом содержимом файла или для проверки совместимости форматов."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

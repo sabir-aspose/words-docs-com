@@ -6,6 +6,9 @@ linktitle: Привет, Мир
 description: "Создайте, отредактируйте и сохраните свой первый документ в любом поддерживаемом формате, используя Aspose.Words для C++ чтобы ощутить его простоту и мощь в C++."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/cpp/hello-world/
 timestamp: 2024-01-27-14-07-04
 ---
