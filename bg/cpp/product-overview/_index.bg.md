@@ -6,6 +6,9 @@ linktitle: Преглед На Продукта
 description: "Aspose.Words C++ е софтуерна библиотека, предназначена за създаване, модифициране, конвертиране, рендиране и отпечатване на документи, без да се разчита на друг софтуер."
 type: docs
 weight: 5
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/product-overview/
 timestamp: 2024-06-05-14-43-57
 ---

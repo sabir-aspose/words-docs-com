@@ -6,6 +6,9 @@ linktitle: Werk Met Kommentaar
 description: "Hoe om kommentaar in'n dokument by te voeg, te verwyder of te manipuleer deur Python te gebruik."
 type: docs
 weight: 260
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/python-net/working-with-comments/
 timestamp: 2024-01-27-14-07-04
 ---

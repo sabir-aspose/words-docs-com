@@ -6,6 +6,9 @@ linktitle: 系统要求
 description: "在开始使用Aspose.WordsforJava之前，请确保您满足操作系统、平台、框架和环境要求，以便正确考虑设备上的活动。"
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/system-requirements/
 timestamp: 2024-01-27-14-07-04
 ---

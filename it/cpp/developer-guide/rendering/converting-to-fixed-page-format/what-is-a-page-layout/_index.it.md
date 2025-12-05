@@ -6,6 +6,9 @@ linktitle: Cos'è un layout di pagina
 description: "Scopriamo cos'è un layout di pagina. Un layout di pagina descrive la geometria del contenuto contenuto in un documento."
 type: docs
 weight: 5
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/cpp/what-is-a-page-layout/
 timestamp: 2024-09-24-14-35-44
 ---

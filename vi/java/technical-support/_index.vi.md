@@ -6,6 +6,9 @@ linktitle: Hỗ trợ kỹ thuật
 type: docs
 description: "Aspose.Words cho Java cung cấp hỗ trợ kỹ thuật miễn phí có sẵn cho tất cả người dùng. Xin vui lòng báo cáo câu hỏi, vấn đề hoặc yêu cầu tính năng của bạn sử dụng Aspose Free Support Forum."
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/technical-support/
 timestamp: 2024-01-27-14-07-04
 ---

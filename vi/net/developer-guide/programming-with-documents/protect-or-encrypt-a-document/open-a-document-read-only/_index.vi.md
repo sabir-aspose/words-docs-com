@@ -6,6 +6,9 @@ linktitle: Mở một tài liệu chỉ đọc
 description: "Đặt tài liệu của bạn ở chế độ chỉ đọc để có thể sao chép hoặc đọc nội dung nhưng không thể sửa đổi bằng C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/open-a-document-read-only/
 timestamp: 2024-01-27-14-07-04
 ---

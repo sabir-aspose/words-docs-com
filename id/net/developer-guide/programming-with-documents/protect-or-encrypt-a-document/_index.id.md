@@ -6,6 +6,9 @@ linktitle: Melindungi atau Mengenkripsi Dokumen
 description: "Aspose.Words untuk .NET menyediakan Read-Only, Encrypt a Document, Restrict Editing, dan Digital Signatures untuk perlindungan dokumen menggunakan C#. Aspose.Words mendukung sebagian besar opsi perlindungan Word."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/net/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

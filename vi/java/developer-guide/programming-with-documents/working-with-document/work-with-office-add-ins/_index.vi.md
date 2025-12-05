@@ -6,6 +6,9 @@ linktitle: Làm việc với các tiện ích mở rộng của Office
 description: "Aspose.Words cho Java cung cấp các lớp khác nhau để làm việc với Add-in của Office. Bạn có thể thêm Task Pane thông qua phần mở rộng web và tùy chỉnh thuộc tính của thanh và các tiện ích mở rộng."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Požadavky na systém
 description: "Než začnete pracovat s Aspose.Words místo Java, zajistit, abyste splnili požadavky na operační systém, platformu, rámce a životní prostředí, takže činnosti na vašich zařízeních jsou řádně zaúčtovány."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/java/system-requirements/
 timestamp: 2024-01-27-14-07-04
 ---

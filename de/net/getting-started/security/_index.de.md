@@ -6,6 +6,9 @@ linktitle: Sicherheitshinweise
 type: docs
 description: "Aspose.Words für .NET erkennt und befolgt gängige Sicherheitsstandards, um ein hohes Maß an Datensicherheit zu gewährleisten. Sehen Sie sich mögliche Sicherheitsprobleme und Empfehlungen an, wie Sie diese mithilfe von C# vermeiden können."
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/security/
 timestamp: 2024-01-27-14-07-04
 ---

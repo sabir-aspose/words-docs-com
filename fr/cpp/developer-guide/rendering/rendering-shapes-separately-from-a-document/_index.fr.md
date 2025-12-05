@@ -6,6 +6,9 @@ linktitle: Rendu des formes Séparément d'un document
 description: "Extrayez divers objets graphiques, tels que des images, une zone de texte contenant des paragraphes ou des formes de flèche, lors du traitement d'un document, et exportez-les vers un emplacement externe."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

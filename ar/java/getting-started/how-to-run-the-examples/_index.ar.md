@@ -6,6 +6,9 @@ linktitle: كيفية تشغيل الأمثلة
 type: docs
 description: "قم بتنزيل Aspose.Words لأمثلة Java من مستودعنا GitHub وتعلم كيفية تشغيلها لتصبح أكثر دراية بالإمكانيات والميزات Aspose.Words."
 weight: 130
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/how-to-run-the-examples/
 timestamp: 2024-01-27-14-07-04
 ---

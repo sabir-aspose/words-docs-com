@@ -6,6 +6,9 @@ linktitle: Вкажіть вірний Тип Розташування шриф�
 description: "Вказати різні Про нас Тип джерел шрифтів: папка системи, джерела користувачів, завантаження шрифтів з потоку, файлова система або пам'ять за допомогою C#й"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/specifying-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

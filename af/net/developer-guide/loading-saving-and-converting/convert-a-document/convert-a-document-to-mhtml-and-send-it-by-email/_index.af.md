@@ -6,6 +6,9 @@ linktitle: Skakel'n Dokument om na MHTML En Stuur Dit Per E-Pos
 description: "Skakel'n dokument van byna enige formaat na die MHTML formaat en stuur die resultaat dokument per e-pos met behulp van C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/convert-a-document-to-mhtml-and-send-it-by-email/
 timestamp: 2024-07-09-19-00-42
 ---

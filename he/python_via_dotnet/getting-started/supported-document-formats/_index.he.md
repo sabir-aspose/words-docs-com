@@ -6,6 +6,9 @@ linktitle: תגיות Document Formats
 type: docs
 description: "Edit Source מסמכים בפורמטים פופולריים רבים, כמו גם להמיר קבצים באופן חופשי מפורמט אחד למשנהו באמצעות שימוש Python."
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/python-net/supported-document-formats/
 timestamp: 2024-10-21-11-17-44
 ---

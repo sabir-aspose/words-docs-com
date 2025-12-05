@@ -6,6 +6,9 @@ linktitle: Merhaba Dünya
 description: "İlk belgenizi kullanarak desteklenen herhangi bir biçimde oluşturun, düzenleyin ve kaydedin Aspose.Words için C++ sadeliğini ve gücünü C++ 'de deneyimlemek."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/hello-world/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: ตรวจสอบรูปแบบไฟล์และตรว
 description: "ขอรับข้อมูลเกี่ยวกับรูปแบบเอกสารก่อนที่จะเปิดเพื่อหลีกเลี่ยงข้อยกเว้นหากคุณไม่แน่ใจว่าเนื้อหาจริงของแฟ้มกำลังใช้Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

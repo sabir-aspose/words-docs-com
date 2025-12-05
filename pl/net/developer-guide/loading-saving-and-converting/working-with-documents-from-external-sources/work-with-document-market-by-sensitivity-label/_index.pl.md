@@ -6,6 +6,9 @@ linktitle: Pracuj z dokumentem oznaczonym etykietą czułości
 description: "Konwertuj program Word z zastosowaną etykietą czułości na format PDF za pomocą C#. Pracuj z dokumentami oznaczonymi etykietami czułości – różnymi formatami wejściowymi, w tym Word, OpenOffice, Image i eBook."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/work-with-document-market-by-sensitivity-label/
 timestamp: 2024-01-31-14-23-37
 ---

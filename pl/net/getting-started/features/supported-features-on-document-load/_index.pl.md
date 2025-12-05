@@ -6,6 +6,9 @@ linktitle: Obsługiwane funkcje podczas ładowania dokumentu
 description: "Załaduj i przekonwertuj dokument w większości popularnych formatów i obsługuje wiele funkcji Microsoft Word przy użyciu C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/supported-features-on-document-load/
 timestamp: 2024-01-27-14-07-04
 ---

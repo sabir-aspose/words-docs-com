@@ -7,6 +7,9 @@ type: docs
 description: "PDF를 DOCX, DOC와 같은 Word 형식, JPG 또는 PNG와 같은 이미지 형식 또는 C#을 사용하여 Aspose.Words에서 지원하는 기타 형식으로 변환합니다."
 keywords: convert pdf to other formats c#
 weight: 45
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/convert-pdf-to-other-document-formats/
 timestamp: 2024-07-09-19-00-42
 ---

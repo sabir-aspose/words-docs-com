@@ -6,6 +6,9 @@ linktitle: Recursos suportados
 description: "Aspose.Words para .NET oferece aos usuários uma ampla gama de recursos, desde a simples conversão e modificação de documentos até a criação de documentos estruturados e visualmente atraentes ou a automatização de relatórios usando C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/net/features/
 timestamp: 2024-10-21-11-17-44
 ---

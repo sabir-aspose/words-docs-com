@@ -6,6 +6,9 @@ linktitle: Werken met grafieken Door vorm.Grafiekobject
 description: "Grafieken in detail, hoe grafiek gekoppeld is aan shape node in Aspose.Words voor C++."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/working-with-charts-through-shape-chart-object/
 timestamp: 2024-01-27-14-07-04
 ---

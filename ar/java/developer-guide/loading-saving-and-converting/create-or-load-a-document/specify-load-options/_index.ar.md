@@ -6,6 +6,9 @@ linktitle: حدد خيارات التحميل
 description: "قم بتعيين الخصائص المتقدمة عند تحميل مستند باستخدام Java للحصول على تحكم أكثر دقة في العملية."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/specify-load-options/
 timestamp: 2024-01-27-14-07-04
 ---

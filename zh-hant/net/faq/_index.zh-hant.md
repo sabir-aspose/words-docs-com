@@ -8,6 +8,9 @@ linktitle: 常见問題解答
 type: docs
 description: " Aspose.Words for .NET 回答了最常問的問題。 將此頁面記住，以快速解決您在一般問題或特定主題上的問題。"
 weight: 75
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/faq/
 timestamp: 2024-11-18-12-56-02
 ---

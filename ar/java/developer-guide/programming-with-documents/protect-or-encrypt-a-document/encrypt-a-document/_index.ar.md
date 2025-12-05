@@ -6,6 +6,9 @@ linktitle: تشفير مستند
 description: "قم بتشفير المستند باستخدام خوارزميات التشفير المناسبة لتنسيقات مستندات محددة في Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/encrypt-a-document/
 timestamp: 2024-10-21-11-17-44
 ---

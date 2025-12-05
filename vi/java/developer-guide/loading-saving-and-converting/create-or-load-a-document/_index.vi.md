@@ -5,6 +5,9 @@ articleTitle: Tạo hoặc Tải một Tài liệu
 linktitle: Tạo hoặc Tải một Tài liệu
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/create-or-load-a-document/
 description: "Aspose.Words cho phép bạn tạo một tài liệu trống hoặc tải nó từ tệp hoặc luồng bằng cách sử dụng Java."
 timestamp: 2024-01-27-14-07-04

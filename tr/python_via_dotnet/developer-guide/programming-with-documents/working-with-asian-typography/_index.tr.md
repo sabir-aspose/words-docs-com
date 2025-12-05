@@ -6,6 +6,9 @@ linktitle: Asya Tipografisi ile Çalışmak
 description: "Python'i kullanarak Asya tipografisiyle çalışın. Python'te Asya ve Latin metinleri arasındaki Boşluğu ayarlayın."
 type: docs
 weight: 240
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/python-net/working-with-asian-typography/
 timestamp: 2024-02-01-16-17-05
 ---

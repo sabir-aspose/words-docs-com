@@ -6,6 +6,9 @@ linktitle: Робота з цифровими підписами
 description: "Визначте документи та виявляти, підрахувати та видалити існуючі цифрові підписи Pythonй"
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/python-net/working-with-digital-signatures/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Übersicht über den Dokumentenersteller
 type: docs
 description: "Mit DocumentBuilder können Sie dynamische Dokumente von Grund auf neu erstellen oder mit C++ neue Elemente zu vorhandenen hinzufügen. DocumentBuilder bietet Methoden zum Einfügen von Text, Kontrollkästchen, Tabellen, Bildern und anderen Inhaltselementen in C++."
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/cpp/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

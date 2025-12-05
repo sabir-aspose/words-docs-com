@@ -6,6 +6,9 @@ linktitle: Poznaj funkcje konwersji do PDF/A i PDF/UA
 description: "Konwertuj na PDF/A-1, PDF/A-2, PDF/A-4 i PDF/UA używając C++. Wybierz najlepszy standard PDF do konwersji dokumentu za pomocą С++."
 type: docs
 weight: 35
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/learn-features-of-conversion-to-pdf-a-pdf-ua/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: Често задавани въпроси
 type: docs
 description: "Aspose.Words вместо Java отговаря на най-често задаваните въпроси. Научете тази страница за бързо решаване на проблема си по общи въпроси или конкретни теми."
 weight: 75
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/faq/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: Umgang mit Windows-Metadateien
 description: "Aspose.Words für .NET implementiert seinen eigenen Windows-Metadatei-Player, um das Metadateiformat auf allen Plattformen abzuspielen, unterstützt die Handhabung der grundlegenden Metadateifunktionen und kann mithilfe von C# auf einen anderen Typ von Metadatei-Player zurückgreifen."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/handling-windows-metafiles/
 timestamp: 2024-07-10-14-38-57
 ---

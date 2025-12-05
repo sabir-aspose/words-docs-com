@@ -6,6 +6,9 @@ linktitle: Làm Việc Với Content Control SDT
 type: docs
 description: "Quản lý nội dung tài liệu nâng cao, cách tạo và thao tác điều khiển nội dung (Thẻ Tài liệu Có Cấu trúc) bằng C++."
 weight: 390
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/structured-document-tags-or-content-control/
 timestamp: 2024-01-27-14-07-04
 ---

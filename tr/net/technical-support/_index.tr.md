@@ -8,6 +8,9 @@ linktitle: Teknik Destek
 type: docs
 description: ".NET için Aspose.Words, tüm kullanıcılara ücretsiz teknik destek sağlar. Lütfen sorunuzu, sorununuzu veya özellik isteğinizi Aspose Ücretsiz Destek Forumunu kullanarak bildirin."
 weight: 80
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/technical-support/
 timestamp: 2024-01-27-14-07-04
 ---

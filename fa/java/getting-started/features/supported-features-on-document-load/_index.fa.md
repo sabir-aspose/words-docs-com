@@ -6,6 +6,9 @@ linktitle: ویژگی های پشتیبانی شده در بار سند
 description: "بارگذاری و تبدیل یک سند در اکثر فرمت های محبوب و پشتیبانی از بسیاری از ویژگی های Microsoft Word."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/supported-features-on-document-load/
 timestamp: 2024-01-27-14-07-04
 ---

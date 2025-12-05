@@ -6,6 +6,9 @@ linktitle: 이미지 작업
 description: ".NET용 Aspose.Words에서 제공하는 세부적인 이미지 모양과 고급 기능입니다."
 type: docs
 weight: 300
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/working-with-images/
 timestamp: 2024-05-02-11-51-44
 ---

@@ -6,6 +6,9 @@ linktitle: 以靜態文字取代欄位
 description: "學會如何在C#中用文字取代欄位。 透過 .NET API 來用靜態資料取代欄位。"
 type: docs
 weight: 37
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/replace-fields/
 timestamp: 2024-01-27-14-07-04
 ---

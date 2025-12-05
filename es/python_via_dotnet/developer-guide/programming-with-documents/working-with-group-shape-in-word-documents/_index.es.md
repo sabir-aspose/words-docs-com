@@ -6,6 +6,9 @@ linktitle: Trabajar con forma de grupo en documentos de Word
 description: "Agregue forma de grupo a un documento usando Python."
 type: docs
 weight: 290
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/python-net/how-to-add-group-shape-into-a-word-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -7,6 +7,9 @@ type: docs
 description: "Birleştirme alanlarını gerçekleştirmeden önce silme gibi farklı temizleme ve kaldırma seçenekleri uygulayın. Mail Merge bir işlem sırasında kullanılmayan bölgelerin çalıştırılması veya çıkarılması Mail Merge operasyon."
 keywords: "cleanup options Mail Merge c#"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/clean-up-before-or-during-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

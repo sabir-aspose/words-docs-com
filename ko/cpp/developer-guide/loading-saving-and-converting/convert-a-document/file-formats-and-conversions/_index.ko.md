@@ -6,6 +6,9 @@ linktitle: 변환은 Aspose.Words'주력 기능
 description: "두 줄의 형식을 저장하기 위해 지원되는 부하에서 문서를 변환 C++ 코드 그것은 높은 품질의 변환을 제공합니다."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/file-formats-and-conversions/
 timestamp: 2024-09-24-14-35-44
 ---

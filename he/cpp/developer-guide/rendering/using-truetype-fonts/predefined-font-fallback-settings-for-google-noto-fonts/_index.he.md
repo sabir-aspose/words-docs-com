@@ -6,6 +6,9 @@ linktitle: גופן מוגדר מראש FallBack הגדרות עבור Google No
 description: "Aspose.Words מספק הגדרות החזרה של גופן מוגדרות מראש עבור Google Noto גופנים. אלה גופנים בחינם המורשים תחת SIL רישיון גופן פתוח, שניתן להוריד מ Google Noto גופנים."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/predefined-font-fallback-settings-for-google-noto-fonts/
 timestamp: 2024-09-24-14-35-44
 ---

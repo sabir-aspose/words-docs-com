@@ -6,6 +6,9 @@ linktitle: Tegniese Ondersteuning
 type: docs
 description: "Aspose.Words vir Java bied gratis tegniese ondersteuning beskikbaar vir alle gebruikers. Rapporteer asseblief jou vraag, kwessie of funksie versoek Met Behulp Van Aspose Free Support Forum."
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/java/technical-support/
 timestamp: 2024-01-27-14-07-04
 ---

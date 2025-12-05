@@ -8,6 +8,7 @@ weight: 25
 description: "Aspose.Words за Java въвежда AI - захранвани инструменти като обобщаване на документи за повишаване на ефективността. Научете как да използвате AI - захранвани функции със съвети и подробни указания."
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/ai-powered-features/
 timestamp: 2025-03-17-19-00-00
 ---

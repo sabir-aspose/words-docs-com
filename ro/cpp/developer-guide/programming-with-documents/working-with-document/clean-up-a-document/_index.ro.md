@@ -6,6 +6,9 @@ linktitle: Curățați un Document
 description: "Eliminați informațiile neutilizate sau duplicate pentru a reduce dimensiunea de ieșire și timpul de procesare folosind C++. Eliminați stilurile neutilizate, stilurile încorporate neutilizate, stilurile duplicate sau listele neutilizate."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Lưu tài liệu dưới dạng TIFF nhiều trang
 description: "Chuyển đổi tài liệu thành TIFF nhiều trang bằng Python. Để xác định cách tài liệu được hiển thị trên hình ảnh, bạn cần chỉ định các tùy chọn bổ sung: độ phân giải, số trang, nhị phân hình ảnh, v.v."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

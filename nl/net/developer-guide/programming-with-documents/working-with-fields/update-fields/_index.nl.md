@@ -6,6 +6,9 @@ linktitle: Velden bijwerken
 description: "Leer hoe u velden kunt bijwerken in C#. Velden programmamatisch bijwerken of automatische veldupdate gebruiken .NET API."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/update-fields/
 timestamp: 2024-01-27-14-07-04
 ---

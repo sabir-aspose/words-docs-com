@@ -6,6 +6,9 @@ linktitle: Join Tables
 description: "Geavanceerde tafelmanipulaties. Twee tabellen samenvoegen tot één C++. Tabellen samenvoegen met C++."
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/join-tables/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Konvertieren eines Dokuments in PDF
 description: "Konvertieren Sie ein Dokument in Word oder ein anderes unterstütztes Format in PDF, wodurch das ursprüngliche Erscheinungsbild eines Dokuments beim Rendern auf verschiedenen Plattformen mit Java erhalten bleibt."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/convert-a-document-to-pdf/
 timestamp: 2024-01-31-14-23-37
 ---

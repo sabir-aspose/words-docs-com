@@ -6,6 +6,9 @@ linktitle: 조작 및 대체 TrueType 글꼴
 description: "Aspose.Words 에 대한 C++ 올바른 것을 포함 할 수 있습니다 TrueType 결과 문서에 글꼴을 삽입하여 정확하게 표시되도록 합니다. 글꼴 또는 특정 문자를 사용할 수 없는 경우, Aspose.Words 적절한 글꼴 교체를 검색하거나 글꼴 대체 메커니즘을 사용합니다."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

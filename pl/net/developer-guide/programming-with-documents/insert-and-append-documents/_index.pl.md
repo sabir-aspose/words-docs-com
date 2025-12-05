@@ -6,6 +6,9 @@ linktitle: Wstaw i dołącz dokumenty
 description: "Łącz dokumenty w jeden: wstaw lub dołącz dokument do nowego lub istniejącego za pomocą funkcji Znajdź i zamień, pola scalania, zakładki lub po prostu na końcu dokumentu w C#."
 type: docs
 weight: 80
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

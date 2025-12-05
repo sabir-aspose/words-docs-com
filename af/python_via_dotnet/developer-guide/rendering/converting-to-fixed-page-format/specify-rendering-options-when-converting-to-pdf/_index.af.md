@@ -6,6 +6,9 @@ linktitle: Spesifiseer Vertoonopsies Wanneer U na PDFOmskakel
 description: "Skakel'n dokument om na PDF met gevorderde opsies met Python. Gebruik PdfSaveOptions om die resultaat van die stoor van'n dokument te verander na PDF formaat."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/python-net/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

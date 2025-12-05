@@ -6,6 +6,9 @@ linktitle: کار با تایپوگرافی آسیایی
 description: "کار با تایپوگرافی آسیایی با استفاده از C++. تنظیم فضای بین متن آسیایی و لاتین در C++."
 type: docs
 weight: 240
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/working-with-asian-typography/
 timestamp: 2024-02-01-16-17-05
 ---

@@ -6,6 +6,9 @@ linktitle: לתפעל ולהחליף TrueType גופנים
 description: "Aspose.Words עבור C++ ניתן להטביע את הגופנים הנכונים TrueType במסמך שהתקבל כדי להבטיח שהוא יוצג במדויק. אם גופן או תו ספציפי אינם זמינים, Aspose.Words מחפש החלפת גופן מתאימה או משתמש במנגנון החזרה של הגופן."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

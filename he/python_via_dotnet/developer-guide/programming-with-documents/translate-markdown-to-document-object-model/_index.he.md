@@ -6,6 +6,9 @@ linktitle: תרגום Markdown to to Document Object Model ()DOM)
 type: docs
 description: "טארינסלט Markdown מסמך Document Object Model חזרה לשימוש Python. אז אתה יכול לעבוד עם קיים מורכב Markdown באופן יזום ליצור Markdown מסמך מאפס"
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/python-net/translate-markdown-to-document-object-model/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: Bekerja dengan Bentuk
 type: docs
 description: "Pengantar bahasa markup bentuk, membuat bentuk dari berbagai jenis menggunakan C++."
 weight: 280
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/cpp/working-with-shapes/
 timestamp: 2024-01-27-14-07-04
 ---

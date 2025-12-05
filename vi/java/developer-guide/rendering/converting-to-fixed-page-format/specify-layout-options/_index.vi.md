@@ -6,6 +6,9 @@ linktitle: Chỉ định các tùy chọn bố cục
 description: "Tạo ra các tài liệu đầu ra với nhiều bố cục, tùy thuộc vào tham số được chỉ định trong Tài liệu bằng Java."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/specify-layout-options/
 timestamp: 2024-01-27-14-07-04
 ---

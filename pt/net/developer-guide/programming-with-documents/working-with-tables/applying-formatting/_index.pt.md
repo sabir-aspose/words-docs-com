@@ -6,6 +6,9 @@ linktitle: Aplicar formatação de tabela
 description: "Formatação de tabela em detalhes usando C#. Use C# para formatar todas as partes da tabela."
 type: docs
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/net/applying-formatting/
 timestamp: 2024-01-27-14-07-04
 ---

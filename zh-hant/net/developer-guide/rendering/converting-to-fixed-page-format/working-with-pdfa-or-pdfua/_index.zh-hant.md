@@ -6,6 +6,9 @@ linktitle: 與 PDF/A 或 PDF/UA 一起工作
 description: "透過 C# 將檔案轉換為 PDF/A-1、PDF/A-2、PDF/A-4 和 PDF/UA。 在將文件轉換為 PDF/A 文檔時有幾種問題，而 Aspose.Words 則可解決這些問題。"
 type: docs
 weight: 28
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/working-with-pdfa-or-pdfua/
 timestamp: 2024-07-10-14-38-57
 ---

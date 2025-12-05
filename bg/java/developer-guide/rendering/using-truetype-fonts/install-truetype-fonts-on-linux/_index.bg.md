@@ -6,6 +6,9 @@ linktitle: Инсталиране на вярно Тип шрифтове на L
 description: "Aspose.Words вместо Java позволява предаване на създаден документ Microsoft Word на Linux машина с най-добра точност."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/install-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

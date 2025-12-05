@@ -6,6 +6,9 @@ linktitle: 안녕하세요
 description: "Java에Aspose.Words을 사용하여 지원되는 형식으로 첫 번째 문서를 작성,편집 및 저장하여Java의 단순성과 힘을 경험하십시오."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/hello-world/
 timestamp: 2024-01-27-14-07-04
 ---

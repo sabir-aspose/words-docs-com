@@ -6,6 +6,9 @@ linktitle: แทรก Checkboxการป้อนข้อความหร
 description: "แทรกช่องทำเครื่องหมายหรือช่องใส่ข้อความในระหว่าง Mail Merge ใช้ C++. ยังแทรกภาพจากฐานข้อมูลในช่วง Mail Merge ใน C++."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/insert-checkboxes-text-input-or-images-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

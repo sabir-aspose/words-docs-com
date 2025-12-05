@@ -6,6 +6,9 @@ linktitle: Hạn Chế Chỉnh Sửa Tài Liệu
 description: "Hạn chế chỉnh sửa tài liệu bằng cách đặt loại hạn chế bằng C++. Bạn cũng có thể xóa bảo vệ và tạo các vùng có thể chỉnh sửa không hạn chế."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Convertir un documento en una imagen
 type: docs
 description: "Convierta un documento a formato de imagen (JPG, PNG, etc.). Cree una vista previa del documento o cree un escaneo de documento para enviar una factura usando Python."
 weight: 43
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/python-net/convert-a-document-to-an-image/
 timestamp: 2024-01-27-14-07-04
 ---

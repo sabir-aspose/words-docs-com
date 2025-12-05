@@ -6,6 +6,9 @@ linktitle: ایجاد یک طرح بندی صفحه
 description: "ایجاد طرح صفحه می تواند یک روش پرهزینه باشد. Aspose.Words فقط در صورت لزوم یک طرح صفحه ایجاد می کند: برای ارائه صفحات سند، برای به دست آوردن یک مقدار فیلد، برای صادرات یک سند به HTML و غیره."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/creating-a-page-layout/
 timestamp: 2024-09-24-14-35-44
 ---

@@ -6,6 +6,9 @@ linktitle: 로드 옵션 지정
 description: "보다 정확하게 부하 프로세스를 제어 할 수 있습니다."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/specify-load-options/
 timestamp: 2024-01-30-16-22-34
 ---

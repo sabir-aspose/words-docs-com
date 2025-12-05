@@ -6,6 +6,9 @@ linktitle: Xử lý siêu tệp Windows
 description: "Aspose.Words dành cho Python via .NET triển khai trình phát Siêu tệp Windows của riêng mình để phát định dạng Siêu tệp trên tất cả các nền tảng và hỗ trợ xử lý các tính năng siêu tệp cơ bản cũng như có thể thực hiện dự phòng cho một loại trình phát siêu tệp khác."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Làm việc với các đối tượng OLE và video trực tuyến
 description: "Chèn các đối tượng ole hoặc vodeo trực tuyến vào tài liệu bằng Python."
 type: docs
 weight: 360
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/working-with-ole-objects/
 timestamp: 2024-01-27-14-07-04
 ---

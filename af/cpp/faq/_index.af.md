@@ -6,6 +6,9 @@ linktitle: FAQ
 type: docs
 description: "Aspose.Words vir C++ beantwoord die mees algemene vrae. Leer hierdie bladsy om u probleem oor algemene vrae of spesifieke onderwerpe vinnig op te los."
 weight: 75
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/faq/
 timestamp: 2024-01-31-14-23-37
 ---

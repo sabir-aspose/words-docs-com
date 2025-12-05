@@ -6,6 +6,9 @@ linktitle: 문서의 변경 내용 추적
 description: "Python를 사용하여 귀하 또는 다른 사람이 변경한 콘텐츠 및 서식을 추적하세요. 문서의 개별 개정판에 액세스하고 다양한 속성을 적용합니다."
 type: docs
 weight: 270
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

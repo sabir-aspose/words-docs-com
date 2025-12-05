@@ -8,6 +8,7 @@ weight: 40
 description: "Sprawdź gramatykę dokumentu. Aspose.Words dla Java umożliwia użytkownikom sprawdzanie gramatyki i wykrywanie błędów w dokumentach za pomocą modeli OpenAI, Google i Claude."
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/grammar-checking/
 timestamp: 2025-03-17-19-00-00
 ---

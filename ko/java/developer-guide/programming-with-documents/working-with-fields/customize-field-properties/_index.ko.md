@@ -6,6 +6,9 @@ linktitle: 필드 속성 사용자 지정
 description: "Java에서 필드 속성을 사용자 지정하는 방법을 알아봅니다. 병합 필드의 이름을 바꾸거나Java에 구분 노드가 없는 필드의 결과를 얻습니다."
 type: docs
 weight: 27
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

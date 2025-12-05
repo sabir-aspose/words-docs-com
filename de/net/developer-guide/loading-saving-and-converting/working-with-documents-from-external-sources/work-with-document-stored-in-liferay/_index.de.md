@@ -6,6 +6,9 @@ linktitle: Arbeiten Sie mit einem in einem Liferay gespeicherten Dokument
 description: "Vergleichen Sie in Liferay freigegebene Word-Dokumente mit C#. Arbeiten Sie mit Dokumenten, die in Liferay gespeichert sind – verschiedene Eingabeformate, darunter Word, OpenOffice, Image und eBook."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/work-with-document-stored-in-liferay/
 timestamp: 2024-01-31-14-23-37
 ---

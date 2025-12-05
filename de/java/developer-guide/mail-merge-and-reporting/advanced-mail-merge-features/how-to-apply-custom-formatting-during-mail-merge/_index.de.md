@@ -6,6 +6,9 @@ linktitle: So wenden Sie benutzerdefinierte Formatierungen während Mail Merge a
 type: docs
 description: "Wenden Sie während einer Mail Merge-Operation mit Java eine benutzerdefinierte Formatierung an."
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/how-to-apply-custom-formatting-during-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

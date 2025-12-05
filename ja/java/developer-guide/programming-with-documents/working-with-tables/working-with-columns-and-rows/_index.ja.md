@@ -6,6 +6,9 @@ linktitle: 列と行の操作
 description: "Javaを使用して、テーブルの一部–行、列、およびセルを操作します。 ヘッダー行Javaを指定します。"
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/working-with-columns-and-rows/
 timestamp: 2024-01-27-14-07-04
 ---

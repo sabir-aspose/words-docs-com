@@ -6,6 +6,9 @@ linktitle:  Aspose.Words for .NET的新功能是什麼？
 type: docs
 description: "Aspose.Words for .NET 每天都擴展和提升。 在這個頁面，你可以學習關於產品巨大的和最令人感興趣的特點。"
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/what-s-new-in-aspose-words-for-net/
 timestamp: 2025-01-15-11-43-05
 ---

@@ -6,6 +6,9 @@ linktitle: Hallo Wêreld
 description: "Skep, wysig en stoor jou eerste dokument in enige ondersteun formaat met behulp van Aspose.Words vir Python via .NET om sy eenvoud en krag in Python te ervaar."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/python-net/hello-world/
 timestamp: 2024-01-27-14-07-04
 ---

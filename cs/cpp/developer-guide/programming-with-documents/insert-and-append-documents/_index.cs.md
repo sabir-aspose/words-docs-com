@@ -6,6 +6,9 @@ linktitle: Vkládání a připojování dokumentů
 description: "Zkombinujte dokumenty do jednoho: vložte nebo připojte dokument do nového nebo existujícího pomocí najít a nahradit, sloučit pole, záložku nebo jednoduše na konci dokumentu."
 type: docs
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

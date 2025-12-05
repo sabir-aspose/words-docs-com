@@ -6,6 +6,9 @@ linktitle: نکات امنیتی
 type: docs
 description: "Aspose.Words for .NET استانداردهای امنیتی رایج را برای اطمینان از سطح بالایی از امنیت داده ها تشخیص می دهد و از آنها پیروی می کند. به مسائل امنیتی احتمالی و توصیه هایی در مورد نحوه جلوگیری از آنها با استفاده از C# نگاه کنید."
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/security/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Làm việc Với Chú Thích Cuối Trang và Chú Thích Cuối Tra
 description: "Cách thao tác chú thích cuối trang và chú thích cuối trang bằng C++."
 type: docs
 weight: 160
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/working-with-footnote-and-endnote/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Cum să rulezi Aspose.Words în Docker
 type: docs
 description: "Integrare Aspose.Words funcționalitate în aplicația dvs. folosind Docker indiferent de tehnologia pe care o utilizați în stiva dvs. de dezvoltare. Învață cum să folosești Aspose. Words într-un Docker container în C#."
 weight: 120
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/how-to-run-aspose-words-in-docker/
 timestamp: 2024-08-19-11-05-36
 ---

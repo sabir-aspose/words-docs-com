@@ -6,6 +6,9 @@ linktitle: המרת מסמך ל HTML, MHTML או EPUB
 description: "המרת מסמך כמעט מכל פורמט ל HTML או MHTML, כמו גם ל EPUB פורמט באמצעות C++. ניתן גם לציין אפשרויות שמירה לניהול מסמך הפלט."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/convert-a-document-to-html-mhtml-or-epub/
 timestamp: 2024-10-21-08-52-03
 ---

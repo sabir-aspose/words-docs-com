@@ -6,6 +6,9 @@ linktitle: Przegląd Narzędzia Do Tworzenia Dokumentów
 type: docs
 description: "DocumentBuilder umożliwia tworzenie dynamicznych dokumentów od podstaw lub dodawanie nowych elementów do istniejących za pomocą C++. DocumentBuilder zapewnia Metody wstawiania tekstu, checkboxes, tabel, obrazów i innych elementów zawartości w C++."
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

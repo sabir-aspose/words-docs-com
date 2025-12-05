@@ -6,6 +6,9 @@ linktitle: Een document beschermen of versleutelen
 description: "Aspose.Words voor Python via .NET biedt alleen-lezen, een document versleutelen, bewerken beperken en digitale handtekeningen voor documentbescherming. Aspose.Words ondersteunt de meeste Woordenbeschermingsmogelijkheden."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/python-net/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

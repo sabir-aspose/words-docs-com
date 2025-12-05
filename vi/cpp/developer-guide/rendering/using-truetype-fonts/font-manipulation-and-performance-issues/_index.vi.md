@@ -6,6 +6,9 @@ linktitle: Các Vấn đề Về Thao tác phông chữ và Hiệu suất
 description: "Aspose.Words cho C++ sử dụng tên đầy đủ phông chữ, họ, phiên bản, kiểu để tìm dữ liệu phông chữ cần thiết hoặc thay thế phù hợp cho phông chữ được yêu cầu. FontSettings cho phép bạn tăng tốc độ tải tài liệu."
 type: docs
 weight: 11
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/font-manipulation-and-performance-issues/
 timestamp: 2024-09-24-14-35-44
 ---

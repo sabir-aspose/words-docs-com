@@ -6,6 +6,9 @@ linktitle: Python ve .NET Versiyon Farkları
 description: "Python via .NET için Aspose.Words, .NET için Aspose.Words'in bir sarmalayıcısıdır; bu sayfada bu iki ürünün özellikleri ve API'indeki farklılıklar açıklanmaktadır."
 type: docs
 weight: 15
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/python-net/python-notes/
 timestamp: 2024-01-27-14-07-04
 ---

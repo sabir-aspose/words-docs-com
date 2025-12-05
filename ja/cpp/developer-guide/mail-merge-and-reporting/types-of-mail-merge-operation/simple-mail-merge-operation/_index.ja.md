@@ -7,6 +7,9 @@ type: docs
 description: "テンプレート内のmail mergeフィールドにデータソースから必要なデータを入力するには、単純なmail mergeを使用します。Microsoft Wordの古典的なmail mergeに似ています。 テンプレートに1つ以上の差し込み項目を追加し、単純なmail merge操作を実行します。"
 keywords: "how to execute Mail Merge c++"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/simple-mail-merge-operation/
 timestamp: 2024-09-24-14-35-44
 ---

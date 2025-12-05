@@ -6,6 +6,9 @@ linktitle: Превод Markdown до Document Object Model (DOM)
 type: docs
 description: "Превод Markdown документ към Document Object Model и обратно използване C#. Така че можете да работите със сложни съществуващи Markdown и програмно създаване на Markdown документ от нулата."
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/translate-markdown-to-document-object-model/
 timestamp: 2024-10-21-11-17-44
 ---

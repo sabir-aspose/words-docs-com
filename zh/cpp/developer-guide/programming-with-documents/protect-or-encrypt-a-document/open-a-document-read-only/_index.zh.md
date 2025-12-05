@@ -6,6 +6,9 @@ linktitle: 以只读方式打开文档
 description: "使您的文档只读，以便内容可以复制或读取，但不能修改。"
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/open-a-document-read-only/
 timestamp: 2024-01-27-14-07-04
 ---

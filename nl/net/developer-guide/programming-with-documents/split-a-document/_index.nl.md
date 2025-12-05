@@ -6,6 +6,9 @@ linktitle: Een document splitsen
 description: "Een document splitsen in verschillende bestanden met behulp van C#. Gebruik de split-functie om een document effectief te splitsen naar rubrieken of secties, en per pagina of paginabereik."
 type: docs
 weight: 90
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

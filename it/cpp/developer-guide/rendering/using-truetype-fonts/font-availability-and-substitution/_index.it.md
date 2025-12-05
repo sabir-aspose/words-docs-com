@@ -6,6 +6,9 @@ linktitle: Disponibilità e sostituzione dei caratteri
 description: "Quando il font di sostituzione esatto non può essere trovato, Aspose.Words deve sostituirlo con un font simile. Questo articolo descrive il processo di ricerca del font più adatto."
 type: docs
 weight: 12
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/cpp/font-availability-and-substitution/
 timestamp: 2024-09-24-14-35-44
 ---

@@ -6,6 +6,9 @@ linktitle: Laden, opslaan en converteren
 description: "Hoe u een document converteert van de ene indeling naar de andere, zoals Word naar PDF of HTML naar Markdown, en hoe u een document laadt en opslaat met C++."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Làm việc với văn bản trong bảng
 description: "Thay thế văn bản trong bảng trong Python. Trích xuất văn bản thuần túy từ bảng hoặc ô bằng Python."
 type: docs
 weight: 60
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/work-with-text-in-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: לנקות מסמך
 description: "להסיר מידע לא משומש או כפול כדי להפחית את גודל התפוקה ואת זמן העיבוד באמצעות C#. להסיר סגנונות לא בשימוש, סגנונות לא מנוצלים, סגנונות כפולים או רשימות לא בשימוש."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

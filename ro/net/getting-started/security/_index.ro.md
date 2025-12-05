@@ -6,6 +6,9 @@ linktitle: Notă de securitate
 type: docs
 description: "Aspose.Words pentru .NET recunoaște și respectă standardele de securitate comune pentru a asigura un nivel ridicat al securității datelor Uită-te la posibile probleme de securitate și recomandări pentru a le evita folosind C#."
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/security/
 timestamp: 2024-01-27-14-07-04
 ---

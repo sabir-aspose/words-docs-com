@@ -6,6 +6,9 @@ linktitle: Detekovat formát souboru a kontrolovat kompatibilitu formátu
 description: "Určete formát souboru ve Python pokud si nejste jisti, jaký je skutečný obsah souboru, nebo zda chcete zkontrolovat kompatibilitu formátu."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/python-net/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

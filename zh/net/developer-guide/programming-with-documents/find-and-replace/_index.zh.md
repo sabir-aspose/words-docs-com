@@ -6,6 +6,9 @@ linktitle: 查找和替换
 type: docs
 description: "在文档中查找字符串或正则表达式模式，然后使用 C# 将其替换为所需的文本。"
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/find-and-replace/
 timestamp: 2024-01-27-14-07-04
 ---

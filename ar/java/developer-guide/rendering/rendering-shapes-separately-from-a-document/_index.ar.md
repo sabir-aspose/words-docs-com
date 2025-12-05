@@ -6,6 +6,9 @@ linktitle: عرض الأشكال بشكل منفصل عن المستند
 description: "استخراج كائنات رسومية مختلفة، مثل الصور أو مربع النص الذي يحتوي على فقرات أو أشكال الأسهم، عند معالجة مستند، وتصديرها إلى موقع خارجي باستخدام Java."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

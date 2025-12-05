@@ -6,6 +6,9 @@ linktitle: テーブルスタイルの適用
 description: "高度なテーブルの書式設定C++。 C++を使用してテーブルスタイルを作成します。 テーブルスタイルC++を適用します。"
 type: docs
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/working-with-tablestyle/
 timestamp: 2024-01-27-14-07-04
 ---

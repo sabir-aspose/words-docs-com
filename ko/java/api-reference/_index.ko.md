@@ -6,6 +6,9 @@ linktitle: API Reference
 type: docs
 weight: 30
 description: "Microsoft Word을 사용하지 않고 문서를 생성,변환,수정,렌더링 및 인쇄하는Java클래스와 메서드에 대한Aspose.Words의 설명과 예제를 배웁니다."
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/api-reference/
 timestamp: 2024-01-27-14-07-04
 ---

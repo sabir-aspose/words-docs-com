@@ -6,6 +6,9 @@ linktitle: Werk met'n Dokument Gestoor in'n Liferay
 description: "Vergelyk Word dokumente gedeel in Liferay met behulp van C#. Werk met dokumente gestoor in Liferay – verskeie insette formate, insluitend Word, OpenOffice, Beeld en eBook."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/work-with-document-stored-in-liferay/
 timestamp: 2024-01-31-14-23-37
 ---

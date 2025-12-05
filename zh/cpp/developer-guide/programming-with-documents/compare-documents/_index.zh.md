@@ -6,6 +6,9 @@ linktitle: 比较文件
 type: docs
 description: "比较任何支持格式的两个文档，并使用C++显示内容更改。 您可以在比较时应用高级选项。"
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/compare-documents/
 timestamp: 2024-01-27-14-07-04
 ---

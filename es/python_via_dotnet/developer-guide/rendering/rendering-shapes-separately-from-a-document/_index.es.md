@@ -6,6 +6,9 @@ linktitle: Representar formas por separado de un documento
 description: "Extraiga varios objetos gráficos, como imágenes, cuadros de texto que contienen párrafos o formas de flechas, al procesar un documento, y expórtelos a una ubicación externa mediante Python."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/python-net/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

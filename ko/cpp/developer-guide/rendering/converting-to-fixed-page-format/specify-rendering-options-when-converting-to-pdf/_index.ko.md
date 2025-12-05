@@ -6,6 +6,9 @@ linktitle: 로 변환할 때 렌더링 옵션 지정 PDF
 description: "문서를 다음으로 변환 PDF 고급 옵션을 사용하여 C++. 사용 PdfSaveOptions 문서를 저장한 결과를 다음으로 변경하려면 PDF 형식"
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

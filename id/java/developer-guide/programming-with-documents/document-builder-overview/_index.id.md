@@ -6,6 +6,9 @@ linktitle: Ikhtisar Pembuat Dokumen
 type: docs
 description: "DocumentBuilder memungkinkan Anda membuat dokumen dinamis dari awal atau menambahkan elemen baru ke elemen yang sudah ada. DocumentBuilder menyediakan metode untuk menyisipkan teks, checkbox es, tabel, gambar, dan elemen konten lainnya dalam Java."
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/java/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

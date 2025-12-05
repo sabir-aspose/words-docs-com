@@ -6,6 +6,9 @@ linktitle: ドキュメント読み込み時にサポートされる機能
 description: "Python を使用して、サポートされている形式でドキュメントを読み込みます。あらゆるサイズのドキュメントをインポートして変換します。"
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/python-net/supported-features-on-document-load/
 timestamp: 2024-01-31-14-23-37
 ---

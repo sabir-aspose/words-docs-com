@@ -6,6 +6,9 @@ linktitle: Điều hướng với con trỏ
 description: "Điều hướng giữa các nút khác nhau trong một tài liệu, chẳng hạn như một đoạn văn, dấu đánh dấu hoặc ký tự cụ thể bằng cách sử dụng Java."
 type: docs
 weight: 5
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/navigation-with-cursor/
 timestamp: 2024-01-27-14-07-04
 ---

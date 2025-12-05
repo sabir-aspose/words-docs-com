@@ -7,6 +7,9 @@ type: docs
 description: "İki farklı tür gerçekleştirin Mail Merge işlemler: basit Mail Merge ve Mail Merge bölgeleri kullanarak C++. Basit Mail Merge her veri kaynağı kaydı için belgenin tamamını tekrarlar, oysa Mail Merge bölgelerle, kayıt başına yalnızca belirlenmiş bölgeleri tekrarlar."
 keywords: "how to execute Mail Merge c++"
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/types-of-mail-merge-operations/
 timestamp: 2024-09-24-14-35-44
 ---

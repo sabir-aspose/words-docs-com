@@ -6,6 +6,9 @@ linktitle: 转换为PDF时指定渲染选项
 description: "使用 C++ 的高级选项将文档转换为 PDF。使用 PdfSaveOptions 将文档保存为 PDF 格式的结果更改为。"
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

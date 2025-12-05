@@ -6,6 +6,9 @@ linktitle: 필드 업데이트
 description: "Java에서 필드를 업데이트하는 방법을 알아봅니다. 프로그래밍 방식으로 필드 업데이트 또는JavaAPI를 사용하여 자동 필드 업데이트 사용"
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/update-field/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Arbeiten mit Dokument
 type: docs
 description: "Die `Document`-Klasse stellt mithilfe von Python verschiedene Dokumenteigenschaften und -methoden bereit. Sie verwenden die `Document`-Klasse als Ausgangspunkt für alles, was Sie mit Aspose.Words für Python ausführen möchten. Das `Document`-Objekt kann in einer Datei oder einem Stream gespeichert und auch an einen Browser gesendet werden."
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/python-net/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---

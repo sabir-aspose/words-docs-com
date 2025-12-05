@@ -6,6 +6,9 @@ linktitle: Personalizar propriedades do campo
 description: "Aprenda como personalizar propriedades de campo em Python. Renomeie campos de mesclagem ou obtenha resultados para campos sem nó separador em Python via .NET."
 type: docs
 weight: 27
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/python-net/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Práce s ovládáním obsahu SDT
 type: docs
 description: "Pokročilá správa obsahu dokumentů, jak vytvářet a manipulovat s ovládáním obsahu (strukturované značky dokumentů) pomocí Java."
 weight: 390
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/java/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---

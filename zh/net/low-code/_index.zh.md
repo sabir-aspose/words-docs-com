@@ -8,6 +8,7 @@ description: "使用Low CodeAPI简化比较、转换、拆分、合并、查找�
 weight: 33
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/low-code/
 timestamp: 2025-04-22-07-08-55
 ---

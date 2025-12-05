@@ -6,6 +6,9 @@ linktitle: Lavorare con i caratteri di controllo
 description: "Introduzione all'utilizzo dei caratteri di controllo in Aspose.Words per .NET."
 type: docs
 weight: 400
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/working-with-control-characters/
 timestamp: 2024-01-27-14-07-04
 ---

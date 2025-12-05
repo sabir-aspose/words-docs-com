@@ -7,6 +7,9 @@ type: docs
 description: "执行两种不同类型的 Mail Merge 操作：简单 Mail Merge 和 Mail Merge 使用区域 C++. 简单 Mail Merge 每个数据源记录重复整个文档，而 Mail Merge 对于区域，每条记录只重复指定的区域。"
 keywords: "how to execute Mail Merge c++"
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/types-of-mail-merge-operations/
 timestamp: 2024-09-24-14-35-44
 ---

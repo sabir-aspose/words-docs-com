@@ -6,6 +6,9 @@ linktitle: Làm Việc Với Kiểu Chữ Châu Á
 description: "Làm việc Với Kiểu Chữ Châu á bằng cách sử dụng C++. Điều Chỉnh Không gian giữa Văn Bản Châu á và Latin trong C++."
 type: docs
 weight: 240
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/working-with-asian-typography/
 timestamp: 2024-02-01-16-17-05
 ---

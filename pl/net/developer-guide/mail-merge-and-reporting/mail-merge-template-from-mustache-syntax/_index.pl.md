@@ -7,6 +7,9 @@ type: docs
 description: "Twórz szablony ze składnią Mustache za pomocą C#. Składnia Mustache jest jedyną opcją do użycia z szablonami, które nie zawierają pól (HTML lub TXT). W przypadku szablonów Word masz dwie opcje: pola lub składnię Mustache."
 keywords: "mail merge template mustache syntax c#"
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/mail-merge-template-from-mustache-syntax/
 timestamp: 2024-07-11-08-07-06
 ---

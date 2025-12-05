@@ -6,6 +6,9 @@ linktitle: จัดการและแทนที่แบบอักษร
 description: "Aspose.Words สำหรับ .NET สามารถฝังแบบอักษร TrueType ที่ถูกต้องลงในเอกสารผลลัพธ์เพื่อให้แน่ใจว่าจะแสดงอย่างถูกต้องโดยใช้ C# หากไม่มีแบบอักษรหรืออักขระเฉพาะ Aspose.Words จะค้นหาการแทนที่แบบอักษรที่เหมาะสมหรือใช้กลไกทางเลือกแบบอักษร"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/manipulating-and-substitution-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

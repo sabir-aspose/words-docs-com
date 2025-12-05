@@ -6,6 +6,9 @@ linktitle: Об'єднати комірки таблиці
 description: "Як об'єднати комірки таблиці за допомогою C++. Перевірте, чи об'єднані комірки в таблиці за допомогою C++."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/merge-table-cells/
 timestamp: 2024-01-27-14-07-04
 ---

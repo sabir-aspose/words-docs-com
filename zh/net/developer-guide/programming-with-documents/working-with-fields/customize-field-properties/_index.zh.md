@@ -6,6 +6,9 @@ linktitle: 自定义字段属性
 description: "了解如何在 C# 中自定义字段属性。重命名合并字段或获取 .NET 中没有分隔符节点的字段的结果。"
 type: docs
 weight: 27
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -7,6 +7,9 @@ type: docs
 description: "Konvertieren Sie PDF-Dateien mithilfe von `Python.Words` in Word-Formate wie DOCX, DOC, Bildformate wie JPG oder PNG oder andere von Aspose unterstützte Formate."
 keywords: convert pdf to other formats python
 weight: 45
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/python-net/convert-pdf-to-other-document-formats/
 timestamp: 2024-01-27-14-07-04
 ---

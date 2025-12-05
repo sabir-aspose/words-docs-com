@@ -6,6 +6,9 @@ linktitle: Chuyển đổi Tài liệu sang PDF
 description: "Chuyển đổi tài liệu trong Word hoặc bất kỳ định dạng nào được hỗ trợ khác sang PDF, giữ nguyên vẻ ngoài ban đầu của tài liệu khi hiển thị trên các nền tảng khác nhau bằng Java."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/convert-a-document-to-pdf/
 timestamp: 2024-01-31-14-23-37
 ---

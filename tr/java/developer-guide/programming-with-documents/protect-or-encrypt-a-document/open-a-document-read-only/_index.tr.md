@@ -6,6 +6,9 @@ linktitle: Yalnızca Okuma Olarak Bir Belge Aç
 description: "İçeriğin kopyalanmasına veya okunmasına izin vermek ama değiştirilmesine izin vermemek için belgenizi salt okunur hale getirin Java kullanarak."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/open-a-document-read-only/
 timestamp: 2024-01-27-14-07-04
 ---

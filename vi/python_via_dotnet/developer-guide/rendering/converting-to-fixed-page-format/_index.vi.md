@@ -6,6 +6,9 @@ linktitle: Chuyển đổi sang định dạng trang cố định
 description: "Lưu tài liệu sang các định dạng PDF, XPS, HTML, XAML, PostScript và PCL bằng Python."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/converting-to-fixed-page-format/
 timestamp: 2024-01-31-14-23-37
 ---

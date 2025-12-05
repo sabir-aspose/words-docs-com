@@ -6,6 +6,9 @@ linktitle: Visão Geral Da Tabela
 description: "Trabalhar com tabelas e seus componentes, como células, linhas, colunas em Aspose.Words para C++. Como trabalhar com tabelas em C++."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

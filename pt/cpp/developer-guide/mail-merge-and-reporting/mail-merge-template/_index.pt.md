@@ -7,6 +7,9 @@ type: docs
 description: "Criar um Mail Merge modelo para definir conteúdo fixo em documentos de saída e, em seguida, gerar documentos de mesclagem usando os campos de mesclagem."
 keywords: "create Mail Merge template с++"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/mail-merge-template/
 timestamp: 2024-01-31-14-23-37
 ---

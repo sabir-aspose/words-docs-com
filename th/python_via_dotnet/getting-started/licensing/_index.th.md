@@ -6,6 +6,9 @@ linktitle: การออกใบอนุญาตและการสมั
 description: "Aspose.Words สำหรับ Python via .NET มีแผนที่แตกต่างกันสำหรับการซื้อ หรือเสนอการทดลองใช้ฟรีและใบอนุญาตชั่วคราว 30 วันสำหรับการประเมินโดยใช้นโยบายการให้สิทธิ์การใช้งานและการสมัครสมาชิก"
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/python-net/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

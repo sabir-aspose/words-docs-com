@@ -6,6 +6,9 @@ linktitle: Připojit tabulky
 description: "Připojit tabulky C#. Jak sloučit dvě tabulky do jedné C#."
 type: docs
 weight: 90
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/net/join-tables/
 timestamp: 2024-01-27-14-07-04
 ---

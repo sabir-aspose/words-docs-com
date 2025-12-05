@@ -4,6 +4,9 @@ second_title: Aspose.Words untuk .NET
 articleTitle: Buat atau Muat Dokumen
 linktitle: Buat atau Muat Dokumen
 type: docs
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/net/create-or-load-a-document/
 description: "Buat dokumen kosong atau memuatnya dari file atau aliran menggunakan C#."
 keywords: "create a document c#, load a document c#, create a blank document c#, load a document from file c#, load a document from stream c#, create a document Aspose .NET, load a document Aspose .NET, load formats supported by Aspose.Words .NET"

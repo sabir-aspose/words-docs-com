@@ -6,6 +6,9 @@ linktitle: Dostosuj właściwości pola
 description: "Dowiedz się, jak dostosować właściwości pola w Java. Zmień nazwę pola połączenia lub uzyskać wyniki dla pól bez węzła separatora w Java."
 type: docs
 weight: 27
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

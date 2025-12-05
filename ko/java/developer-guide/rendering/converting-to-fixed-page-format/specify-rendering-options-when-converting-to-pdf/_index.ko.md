@@ -6,6 +6,9 @@ linktitle: PDF로 변환할 때 렌더링 옵션 지정
 description: "고급 옵션을 사용하여 문서를PDF로 변환합니다. PdfSaveOptions을 사용하여Java을 사용하여 문서를PDF형식으로 저장한 결과를 변경합니다."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

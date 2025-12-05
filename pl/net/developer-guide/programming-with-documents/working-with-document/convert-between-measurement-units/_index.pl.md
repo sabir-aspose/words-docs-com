@@ -6,6 +6,9 @@ linktitle: Konwersja między jednostkami miary
 description: "Aspose.Words dla .NET może pomóc w konwertowaniu jednostek miary, na przykład cali na punkty i punkty na cale, piksele na punkty, punkty na piksele przy użyciu formatu C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/convert-between-measurement-units/
 timestamp: 2024-01-27-14-07-04
 ---

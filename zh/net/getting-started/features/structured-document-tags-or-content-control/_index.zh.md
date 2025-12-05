@@ -6,6 +6,9 @@ linktitle: 结构化文档标签或内容控制
 description: "使用 C# 处理结构化文档标签或内容控件。"
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/structured-document-tags-or-content-control/
 timestamp: 2024-01-31-14-23-37
 ---

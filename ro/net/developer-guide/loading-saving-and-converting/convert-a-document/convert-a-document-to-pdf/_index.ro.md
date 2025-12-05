@@ -6,6 +6,9 @@ linktitle: Transforma document în PDF
 description: "Converti Word în PDF în C#. Exemple de cod simple pentru conversie DOCX în PDF. Suportă toate formatele Word și imaginile."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/convert-a-document-to-pdf/
 timestamp: 2024-09-25-11-08-55
 ---

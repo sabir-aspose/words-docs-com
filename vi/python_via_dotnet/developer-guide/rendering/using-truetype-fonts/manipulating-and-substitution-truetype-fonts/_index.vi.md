@@ -6,6 +6,9 @@ linktitle: Thao tác và thay thế phông chữ TrueType
 description: "Aspose.Words cho Python via .NET có thể nhúng đúng phông chữ TrueType vào tài liệu thu được để đảm bảo rằng nó hiển thị chính xác. Nếu không có phông chữ hoặc ký tự cụ thể, Aspose.Words sẽ tìm kiếm phông chữ thay thế phù hợp hoặc sử dụng cơ chế Dự phòng phông chữ."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/manipulating-and-substitution-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

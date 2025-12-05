@@ -6,6 +6,9 @@ linktitle: Gebruik TrueType Lettertipes
 description: "Hoe om die regte lettertipe of die geskikte vervanging daarvan te vind, indien die vereiste lettertipe nie gevind kan word nie, vir korrekte weergawe met behulp van Aspose.Words vir Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/java/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

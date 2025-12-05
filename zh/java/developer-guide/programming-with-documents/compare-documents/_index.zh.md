@@ -6,6 +6,9 @@ linktitle: 比较文件
 type: docs
 description: "比较任何支持格式的两个文档并显示内容更改。 使用Java进行比较时，可以应用高级选项。"
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/compare-documents/
 timestamp: 2024-01-27-14-07-04
 ---

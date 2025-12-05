@@ -6,6 +6,9 @@ linktitle: Werken met velden
 description: "Inleiding tot veldfunctie in Aspose.Words voor .NET."
 type: docs
 weight: 370
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/working-with-fields/
 timestamp: 2024-01-27-14-07-04
 ---

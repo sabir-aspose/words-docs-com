@@ -6,6 +6,9 @@ linktitle: Робота з SmartArt холодним рендерингом
 type: docs
 description: "Aspose.Words для C++ робить SmartArt холодний рендеринг, що означає розміщення та рендеринг об'єктів SmartArt, якщо попередньо відтворений Малюнок SmartArt відсутній або неправильний."
 weight: 330
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

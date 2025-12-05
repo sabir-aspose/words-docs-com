@@ -6,6 +6,9 @@ linktitle: Práce s vlastnostmi dokumentu
 description: "Aspose.Words místo Python umožňuje ukládat některé užitečné informace o vašem dokumentu, jako je API a číslo verze nebo autorizované Date, ve vestavěných nebo vlastních vlastnostech dokumentů."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/python-net/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

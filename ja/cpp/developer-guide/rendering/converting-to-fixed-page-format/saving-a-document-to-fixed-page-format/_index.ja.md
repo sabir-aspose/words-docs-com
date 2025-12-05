@@ -6,6 +6,9 @@ linktitle: 文書を固定ページ形式で保存する
 description: "ドキュメントを固定ページ形式（PDF、XPS、HTML、XAML、PostScript、およびPCL）に保存するにはどうすればよいですか？ 指示を参照してください。"
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/saving-a-document-to-fixed-page-format/
 timestamp: 2024-09-24-14-35-44
 ---

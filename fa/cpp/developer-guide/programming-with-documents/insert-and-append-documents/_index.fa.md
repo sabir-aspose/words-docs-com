@@ -6,6 +6,9 @@ linktitle: اسناد را وارد و اضافه کنید
 description: "اسناد را به یک ترکیب کنید: یک سند را با استفاده از find and replace، merge field، bookmark یا به سادگی در انتهای سند وارد یا به یک سند جدید یا موجود اضافه کنید."
 type: docs
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

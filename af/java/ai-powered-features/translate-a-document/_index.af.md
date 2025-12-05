@@ -8,6 +8,7 @@ weight: 30
 description: "Vertaal'n dokument. Aspose.Words vir Java vereenvoudig dokumentvertaling met Behulp Van Google AI modelle, sodat jy die teikentaal kan spesifiseer."
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/java/translate-a-document/
 timestamp: 2025-03-17-19-00-00
 ---

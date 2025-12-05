@@ -7,6 +7,9 @@ type: docs
 description: "다음을 수행하기 전에 병합 필드 삭제와 같은 다양한 정리 및 제거 옵션을 적용하십시오 Mail Merge 작업 또는 동안 사용되지 않는 영역을 제거 Mail Merge 작동."
 keywords: "cleanup options Mail Merge c#"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/clean-up-before-or-during-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

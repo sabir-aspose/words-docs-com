@@ -6,6 +6,9 @@ linktitle: Aperçu du Tableau
 description: "Travaillez avec des tableaux et leurs composants tels que des cellules, des lignes, des colonnes dans Aspose.Words pour Java. Comment travailler avec des tables dans Java."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Een document omzetten naar Excel
 description: "PDF omzetten naar Excel, XML naar Excel, DOCX naar Excel C#. Een document opslaan in verschillende formaten naar XLSX met behulp van C#."
 type: docs
 weight: 15
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/convert-a-document-to-excel/
 timestamp: 2024-07-09-19-00-42
 ---

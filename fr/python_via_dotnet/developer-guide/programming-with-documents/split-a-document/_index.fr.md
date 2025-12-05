@@ -6,6 +6,9 @@ linktitle: Fractionner un document
 description: "Divisez un document en plusieurs fichiers à l'aide de Python. Utilisez la fonction de fractionnement pour diviser efficacement un document par titres ou sections, ainsi que par pages ou par plages de pages."
 type: docs
 weight: 90
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

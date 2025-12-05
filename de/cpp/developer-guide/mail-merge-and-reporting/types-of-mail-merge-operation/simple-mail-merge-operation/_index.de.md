@@ -7,6 +7,9 @@ type: docs
 description: "Ein einfaches Mail Merge wird verwendet, um die Mail Merge –Felder in Ihrer Vorlage mit den erforderlichen Daten aus Ihrer Datenquelle zu füllen - es ähnelt dem klassischen Mail Merge in Microsoft Word. Fügen Sie ein oder mehrere Seriendruckfelder in Ihre Vorlage ein und führen Sie dann die einfache Operation Mail Merge aus."
 keywords: "how to execute Mail Merge c++"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/cpp/simple-mail-merge-operation/
 timestamp: 2024-09-24-14-35-44
 ---

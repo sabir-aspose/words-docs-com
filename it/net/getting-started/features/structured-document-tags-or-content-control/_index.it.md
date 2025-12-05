@@ -6,6 +6,9 @@ linktitle: Tag di documenti strutturati o controllo del contenuto
 description: "Lavora con tag di documenti strutturati o controlli di contenuto utilizzando C#."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/structured-document-tags-or-content-control/
 timestamp: 2024-01-31-14-23-37
 ---

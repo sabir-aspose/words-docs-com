@@ -6,6 +6,9 @@ linktitle: Formatteren toepassen
 description: "Tabelopmaak in details met behulp van Python. Gebruik Python om elk deel van de tabel te formatteren."
 type: docs
 weight: 70
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/python-net/applying-formatting/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Dọn dẹp một tài liệu
 description: "Xóa thông tin không sử dụng hoặc trùng lặp để giảm kích thước đầu ra và thời gian xử lý bằng Python. Xóa các kiểu không sử dụng, kiểu tích hợp không sử dụng, kiểu trùng lặp hoặc danh sách không sử dụng."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

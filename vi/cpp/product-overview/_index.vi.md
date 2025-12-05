@@ -6,6 +6,9 @@ linktitle: Tổng Quan Về Sản Phẩm
 description: "Aspose.Words cho C++ là một thư viện phần mềm được thiết kế để tạo, sửa đổi, chuyển đổi, kết xuất và in tài liệu mà không cần dựa vào bất kỳ phần mềm nào khác."
 type: docs
 weight: 5
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/product-overview/
 timestamp: 2024-06-05-14-43-57
 ---

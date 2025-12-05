@@ -6,6 +6,9 @@ linktitle: 使用文档编程
 type: docs
 description: "使用 Aspose 通过 `Python.Words` Document Object Model 类通过 python-net 以编程方式创建、修改和管理文档。通过管理颜色、形状、字体和其他图形来处理文档属性、设置和内容以及文档外观。"
 weight: 60
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

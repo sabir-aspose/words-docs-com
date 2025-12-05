@@ -6,6 +6,9 @@ linktitle: PDF/AとPDF/UAに保存するときのアクセシビリティの問�
 description: "PDF/AとPDF/UAは、文書コンテンツに関連するアクセシビリティ要件を課します。 C++でPDF/AまたはPDF/UAに保存し、問題がコンプライアンスに違反すると、警告が発行されます。"
 type: docs
 weight: 39
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

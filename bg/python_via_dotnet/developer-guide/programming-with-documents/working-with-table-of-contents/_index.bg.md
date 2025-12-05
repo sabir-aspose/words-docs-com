@@ -6,6 +6,9 @@ linktitle: Работа с Съдържание
 description: "Вмъкване и управление на `Таблица на съдържанието` в документ, като се използва Python."
 type: docs
 weight: 170
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/python-net/working-with-table-of-contents/
 timestamp: 2024-10-21-11-17-44
 ---

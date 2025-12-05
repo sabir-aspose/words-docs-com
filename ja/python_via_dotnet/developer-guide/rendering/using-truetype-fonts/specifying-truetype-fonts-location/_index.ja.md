@@ -6,6 +6,9 @@ linktitle: TrueType フォントの場所を指定する
 description: "さまざまな TrueType フォント ソースを指定します: システム フォルダー、ユーザー ソース、ストリームからのフォントの読み込み、Python を使用したファイル システムまたはメモリ。"
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/python-net/specifying-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

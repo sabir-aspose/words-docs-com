@@ -6,6 +6,9 @@ linktitle: 図形の操作
 type: docs
 description: "Shape markup languageの概要、Javaを使用して異なるタイプの図形を作成します。"
 weight: 280
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/working-with-shapes/
 timestamp: 2024-01-27-14-07-04
 ---

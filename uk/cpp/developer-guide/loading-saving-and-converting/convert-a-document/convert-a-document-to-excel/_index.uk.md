@@ -6,6 +6,9 @@ linktitle: Перетворення документа в Excel
 description: "Перетворіть PDF в Excel, XML в Excel, DOCX в Excel C++. Збережіть документ у різних форматах у XLSX за допомогою C++."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/convert-a-document-to-excel/
 timestamp: 2024-01-31-14-23-37
 ---

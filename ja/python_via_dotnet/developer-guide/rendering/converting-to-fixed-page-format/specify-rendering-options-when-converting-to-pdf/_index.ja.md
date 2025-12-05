@@ -6,6 +6,9 @@ linktitle: PDF への変換時のレンダリング オプションの指定
 description: "Python を使用して、高度なオプションを使用してドキュメントを PDF に変換します。 PdfSaveOptions を使用して、ドキュメントを PDF 形式で保存した結果を変更します。"
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/python-net/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

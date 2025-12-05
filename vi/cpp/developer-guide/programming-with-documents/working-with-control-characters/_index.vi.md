@@ -6,6 +6,9 @@ linktitle: Làm Việc Với Các Nhân Vật Điều Khiển
 description: "Giới thiệu làm việc với các nhân vật điều khiển trong Aspose.Words cho C++."
 type: docs
 weight: 400
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/working-with-control-characters/
 timestamp: 2024-01-27-14-07-04
 ---

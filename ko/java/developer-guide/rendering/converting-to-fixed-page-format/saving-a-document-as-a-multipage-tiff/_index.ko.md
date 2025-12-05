@@ -6,6 +6,9 @@ linktitle: 다중 페이지로 문서 저장TIFF
 description: "TIFF형식의 예에서 설명하는 래스터 이미지로 문서를 변환합니다. TIFF이 표시되는 방법을 확인하려면Java을 사용하여 해상도,페이지 수,이미지 이진화 등의 추가 옵션을 지정해야합니다."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Impression d'un document par programme ou à l'aide de boîtes de dia
 description: "Imprimez un document sur un Server à l'aide du XpsPrint API non géré ou via une imprimante sélectionnée avec les boîtes de dialogue Paramètres et Aperçu avant impression en C#."
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-31-14-23-37
 ---

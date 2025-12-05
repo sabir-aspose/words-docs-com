@@ -7,6 +7,9 @@ type: docs
 description: "Mail merge sederhana digunakan untuk mengisi kolom Mail Merge di dalam templat Anda dengan data yang diperlukan dari sumber data Anda-ini mirip dengan Mail Merge klasik di Microsoft Word. Tambahkan satu atau lebih bidang gabungan di templat Anda, lalu jalankan operasi Mail Merge sederhana."
 keywords: "how to execute Mail Merge c++"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/cpp/simple-mail-merge-operation/
 timestamp: 2024-09-24-14-35-44
 ---

@@ -6,6 +6,9 @@ linktitle: רמות לוגיות של צמתים במסמך
 type: docs
 description: "ב Aspose.Words עבור C++ תיעוד הזכיר רמות לוגיות של צמתים-רמת בלוק, רמה מוטבעת או רמת שורה. רמת הצומת משמשת כדי לתאר את המיקום בעץ המסמך שבו הצומת מתרחשת בדרך כלל."
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

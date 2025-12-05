@@ -6,6 +6,9 @@ linktitle: 함께 작업 PDF/A 또는 PDF/UA
 description: "로 변환 PDF/A-1, PDF/A-2, PDF/A-4 그리고 PDF/UA 사용 C++. 로 변환 할 때 몇 가지 문제가 있습니다 PDF/A 문서 및 Aspose.Words 에 대한 C++ 그들을 해결합니다."
 type: docs
 weight: 38
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/working-with-pdfa-or-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

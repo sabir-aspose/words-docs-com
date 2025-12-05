@@ -6,6 +6,9 @@ linktitle: Aspose.Words Belge Nesne Modeli (DOM)
 type: docs
 description: "Belge Nesne Modeli (DOM), bir Word belgesinin bellek içi temsilidir. C++ kullanarak bir Word belgesinin içeriğini ve biçimlendirmesini okuyun, değiştirin ve değiştirin."
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/aspose-words-document-object-model/
 timestamp: 2024-01-27-14-07-04
 ---

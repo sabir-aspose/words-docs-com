@@ -6,6 +6,9 @@ linktitle: Licențiere și abonament
 description: "Aspose.Words pentru Client oferă diferite planuri de cumpărare sau oferă o perioadă de încercare gratuită și o licență temporară de 30 pentru evaluare utilizând politicile de licențiere și abonament."
 type: docs
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/licensing/
 timestamp: 2024-10-24-11-44-28
 ---

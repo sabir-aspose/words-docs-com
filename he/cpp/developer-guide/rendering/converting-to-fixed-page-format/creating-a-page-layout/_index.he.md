@@ -6,6 +6,9 @@ linktitle: יצירת פריסת עמוד
 description: "יצירת פריסת עמוד יכולה להיות הליך יקר. Aspose.Words תיצור פריסת עמוד רק כאשר יש צורך: לעבד דפי מסמכים, להשיג ערך שדה, לייצא מסמך ל HTML וכו'."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/creating-a-page-layout/
 timestamp: 2024-09-24-14-35-44
 ---

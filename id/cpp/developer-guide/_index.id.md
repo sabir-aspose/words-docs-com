@@ -6,6 +6,9 @@ linktitle: Panduan Pengembang
 description: "Panduan Pengembang ini menjelaskan skenario praktis dan kiat untuk membantu Anda menggunakan aplikasi tertentu Aspose.Words untuk C++ fitur, mencapai tampilan dokumen tertentu, atau memungkinkan kasus penggunaan."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/cpp/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

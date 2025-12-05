@@ -7,6 +7,9 @@ type: docs
 description: "Realice dos tipos diferentes de operaciones Mail Merge: Mail Merge simple y Mail Merge con regiones. Simple Mail Merge repite todo el documento por cada registro de origen de datos, mientras que Mail Merge con regiones repite solo las regiones designadas por registro usando Java."
 keywords: "how to execute Mail Merge java, Mail Merge Java, Simple Mail Merge"
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/java/types-of-mail-merge-operations/
 timestamp: 2024-01-27-14-07-04
 ---

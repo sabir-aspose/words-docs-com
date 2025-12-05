@@ -6,6 +6,9 @@ linktitle: Trabajar con texto en una tabla
 description: "Reemplazar texto en una tabla en C#. Extraiga texto sin formato de una tabla o celda usando C#."
 type: docs
 weight: 60
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/work-with-text-in-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

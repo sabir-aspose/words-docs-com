@@ -6,6 +6,9 @@ linktitle: 목차 작업
 description: "Python를 이용하여 문서에 '목차'를 삽입하고 관리합니다."
 type: docs
 weight: 170
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/working-with-table-of-contents/
 timestamp: 2024-10-21-11-17-44
 ---

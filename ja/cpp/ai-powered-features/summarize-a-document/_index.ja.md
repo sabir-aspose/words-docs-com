@@ -8,6 +8,7 @@ weight: 20
 description: "文書を要約します。 Aspose.WordsのためのC++ 要約の長さを指定できるようにすることで、OpenAIモデルとGoogleAIモデルを使用して文書の要約を簡素化します。"
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/summarize-a-document/
 timestamp: 2025-03-17-19-00-00
 ---

@@ -6,6 +6,9 @@ linktitle: Een Document converteren naar PDF
 description: "Converteer een document naar PDF met C++. Verschillende invoerformaten worden ondersteund, waaronder Word, OpenOffice, Image en eBook formaten."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/convert-a-document-to-pdf/
 timestamp: 2024-10-21-08-52-03
 ---

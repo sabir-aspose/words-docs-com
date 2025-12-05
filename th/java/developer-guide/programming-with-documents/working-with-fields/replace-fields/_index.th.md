@@ -6,6 +6,9 @@ linktitle: แทนที่ฟิลด์ด้วยข้อความแ
 description: "เรียนรู้วิธีการแทนที่ฟิลด์ด้วยข้อความในJava แทนที่ฟิลด์ด้วยข้อมูลแบบคงที่โดยใช้JavaAPI."
 type: docs
 weight: 37
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/replace-fields/
 timestamp: 2024-01-27-14-07-04
 ---

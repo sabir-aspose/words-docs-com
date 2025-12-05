@@ -6,6 +6,9 @@ linktitle: Конвертиране на документ към HTML и изп�
 description: "Конвертиране на документ от почти всеки формат във формат MHTML и изпращане на документа за резултат по електронна поща, използвайки C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/convert-a-document-to-mhtml-and-send-it-by-email/
 timestamp: 2024-07-09-19-00-42
 ---

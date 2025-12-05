@@ -6,6 +6,9 @@ linktitle: Ondersteunde documentformaten
 type: docs
 description: "Bewerk brondocumenten in vele populaire formaten, evenals vrij converteren van bestanden van het ene formaat naar het andere met behulp van Java."
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/java/supported-document-formats/
 timestamp: 2024-10-21-11-17-44
 ---

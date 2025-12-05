@@ -6,6 +6,9 @@ linktitle: การพิมพ์เอกสารโดยทางโปร
 description: "พิมพ์เอกสารบน Server โดยใช้ XpsPrint API ที่ไม่มีการจัดการ หรือผ่านเครื่องพิมพ์ที่เลือกด้วยกล่องโต้ตอบการตั้งค่าและตัวอย่างก่อนพิมพ์ใน C#"
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-31-14-23-37
 ---

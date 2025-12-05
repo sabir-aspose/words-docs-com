@@ -6,6 +6,9 @@ linktitle: テーブルを配置する
 description: "C++でテーブルの位置を指定します。 テーブルの配置を取得し、c++を使用して浮動テーブルの位置を取得および設定します。"
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/position-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

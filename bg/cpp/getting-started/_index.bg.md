@@ -6,6 +6,9 @@ linktitle: Първи Стъпки
 type: docs
 description: "Използвайте това въведение в Aspose.Words за C++ Основи, за да започнете да осъзнавате стойността на Aspose.Words за вашия бизнес."
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/getting-started/
 timestamp: 2024-09-25-11-08-55
 ---

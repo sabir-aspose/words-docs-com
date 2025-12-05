@@ -6,6 +6,9 @@ linktitle: Bekerja dengan Daftar Isi
 description: "Bidang Daftar Isi secara detail. Cara membuat dan memodifikasi kolom `TOC` menggunakan C#. Masukkan `TOC` C#."
 type: docs
 weight: 170
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/net/working-with-table-of-contents/
 timestamp: 2024-10-21-11-17-44
 ---

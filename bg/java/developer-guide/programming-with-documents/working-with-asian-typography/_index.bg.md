@@ -6,6 +6,9 @@ linktitle: Работа с азиатска типография
 description: "Работа с азиатска типография с помощта на Java. Настройте пространството между азиатски и латински текст в Java."
 type: docs
 weight: 240
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/working-with-asian-typography/
 timestamp: 2024-01-27-14-07-04
 ---

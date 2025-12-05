@@ -6,6 +6,9 @@ linktitle: Лицензиране и записване
 description: "Aspose.Words вместо Python via .NET предоставя различни планове за закупуване или предлага безплатен пробен период и 30-дневен временен лиценз за оценка, като използва правила за лицензиране и абонамент."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/python-net/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

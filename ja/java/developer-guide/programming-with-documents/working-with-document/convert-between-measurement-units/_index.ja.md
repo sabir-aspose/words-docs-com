@@ -6,6 +6,9 @@ linktitle: 測定単位間の変換
 description: "JavaのAspose.Wordsは、インチからポイント、ポイントからインチ、ピクセルからポイント、ポイントからピクセルなどの測定単位間で変換する方法に役立ちます。"
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/convert-between-measurement-units/
 timestamp: 2024-01-27-14-07-04
 ---

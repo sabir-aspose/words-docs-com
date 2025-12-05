@@ -6,6 +6,9 @@ linktitle: Lucrul cu imagini
 type: docs
 description: "Introducere în funcția de imagine, cum să creați și să manipulați imaginea folosind C++."
 weight: 300
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/working-with-images/
 timestamp: 2024-01-27-14-07-04
 ---

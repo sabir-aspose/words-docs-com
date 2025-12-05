@@ -6,6 +6,9 @@ linktitle: ドキュメントを複数ページの TIFF として保存する
 description: "C# を使用してドキュメントをマルチページ TIFF に変換します。ドキュメントが画像上でどのように表示されるかを決定するには、解像度、ページ数、画像の二値化などの追加オプションを指定する必要があります。"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-07-10-14-38-57
 ---

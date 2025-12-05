@@ -6,6 +6,9 @@ linktitle: รูปแบบเอกสารที่รองรับ
 type: docs
 description: "แก้ไขเอกสารต้นฉบับในรูปแบบยอดนิยมมากมาย รวมถึงแปลงไฟล์จากรูปแบบหนึ่งไปเป็นอีกรูปแบบหนึ่งได้อย่างอิสระโดยใช้ C#"
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/supported-document-formats/
 timestamp: 2024-10-21-11-17-44
 ---

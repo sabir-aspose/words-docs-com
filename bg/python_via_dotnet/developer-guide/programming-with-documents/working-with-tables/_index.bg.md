@@ -6,6 +6,9 @@ linktitle: Работа с таблици
 description: "Работа с таблици в документ, използвайки Python. Въвеждане на работа с таблици и понятия таблица възел в Aspose.Words вместо Python."
 type: docs
 weight: 190
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/python-net/working-with-tables/
 timestamp: 2024-01-27-14-07-04
 ---

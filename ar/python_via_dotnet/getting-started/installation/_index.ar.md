@@ -6,6 +6,9 @@ linktitle: تثبيت
 description: "قم بتثبيت Aspose.Words لـ Python باستخدام أدوات Visual Studio مثل Manage NuGet Packages أو Package Manager Console ومثبت MSI. استخدم مجموعة أذونات Full Trust."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/installation/
 timestamp: 2024-01-27-14-07-04
 ---

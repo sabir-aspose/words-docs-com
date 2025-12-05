@@ -6,6 +6,9 @@ linktitle: 制御文字の操作
 description: "での制御文字の操作の概要 C++の場合Aspose.Words."
 type: docs
 weight: 400
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/working-with-control-characters/
 timestamp: 2024-01-27-14-07-04
 ---

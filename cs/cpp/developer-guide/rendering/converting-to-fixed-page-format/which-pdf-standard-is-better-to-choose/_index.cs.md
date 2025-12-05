@@ -6,6 +6,9 @@ linktitle: Který standard PDF je lepší zvolit
 description: "Vyberte nejlepší PDF standard pro export výsledku vaší programovací úlohy do C++. Který PDF standard je lepší– PDF 1.7, PDF 2.0, PDF/A-1, PDF/A-2, nebo PDF/UA."
 type: docs
 weight: 37
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/which-pdf-standard-is-better-to-choose/
 timestamp: 2024-01-27-14-07-04
 ---

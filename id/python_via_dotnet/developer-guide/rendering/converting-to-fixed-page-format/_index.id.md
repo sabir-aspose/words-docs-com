@@ -6,6 +6,9 @@ linktitle: Mengonversi ke Format Halaman Tetap
 description: "Simpan dokumen ke format PDF, XPS, HTML, XAML, PostScript, dan PCL menggunakan Python."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/python-net/converting-to-fixed-page-format/
 timestamp: 2024-01-31-14-23-37
 ---

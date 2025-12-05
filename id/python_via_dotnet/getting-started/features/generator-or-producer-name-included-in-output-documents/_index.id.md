@@ -6,6 +6,9 @@ linktitle: Nama Generator atau Produser Dicantumkan dalam Dokumen Keluaran
 description: "Aspose.Words untuk Python via .NET tambahkan ke dokumen nama generator dan nomor versi yang digunakan untuk membuatnya. Data ini dapat ditemukan dalam dokumen dengan cara yang bergantung pada format file keluaran."
 type: docs
 weight: 60
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/python-net/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

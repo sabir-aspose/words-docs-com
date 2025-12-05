@@ -6,6 +6,9 @@ linktitle: Word文書のオプションと外観を操作する
 description: "Javaを使用して、さまざまなMicrosoft Wordバージョン間の違いを考慮してWord文書の外観を制御します。"
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/work-with-word-document-options-and-appearance/
 timestamp: 2024-01-27-14-07-04
 ---

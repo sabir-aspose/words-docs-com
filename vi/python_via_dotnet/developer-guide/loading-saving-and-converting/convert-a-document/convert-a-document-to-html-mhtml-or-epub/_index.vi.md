@@ -6,6 +6,9 @@ linktitle: Chuyển đổi tài liệu sang HTML, MHTML hoặc EPUB
 description: "Chuyển đổi tài liệu từ hầu hết mọi định dạng sang HTML hoặc MHTML, cũng như sang định dạng EPUB bằng Python. Bạn cũng có thể chỉ định các tùy chọn lưu để quản lý tài liệu đầu ra."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/convert-a-document-to-html-mhtml-or-epub/
 timestamp: 2024-01-27-14-07-04
 ---

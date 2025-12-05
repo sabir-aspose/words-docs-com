@@ -6,6 +6,9 @@ linktitle: 라이선스 및 구독
 description: ".NET용 Aspose.Words는 다양한 구매 계획을 제공하거나 C#의 라이센스 및 구독 정책을 사용하여 평가할 수 있는 무료 평가판과 30일 임시 라이센스를 제공합니다."
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

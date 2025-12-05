@@ -6,6 +6,9 @@ linktitle: 與列及行一起工作
 description: "使用 C# 處理表格中的部分元素 – 行、欄位和單元格。 指定C#中的標題行。"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/working-with-columns-and-rows/
 timestamp: 2024-01-27-14-07-04
 ---

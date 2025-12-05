@@ -8,6 +8,7 @@ weight: 40
 description: "检查文档语法。 Aspose.Words为Python 允许用户使用OpenAI，Google和Claude模型检查语法并检测文档中的错误。"
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/grammar-checking/
 timestamp: 2025-03-17-19-00-00
 ---

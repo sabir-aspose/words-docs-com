@@ -6,6 +6,9 @@ linktitle: TrueTypeフォントの操作と置換
 description: "C++の場合Aspose.Words 結果のドキュメントに正しいTrueTypeフォントを埋め込み、正確に表示されるようにすることができます。 フォントまたは特定の文字が使用できない場合、Aspose.Wordsは適切なフォント置換を検索するか、フォントフォールバックメカニズムを使用します。"
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

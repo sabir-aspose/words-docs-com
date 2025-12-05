@@ -6,6 +6,9 @@ linktitle: Bir Belgeyi Koruyun veya Şifreleyin
 description: ".NET için Aspose.Words, C# kullanarak belge koruması için Salt Okunur, Belgeyi Şifrele, Düzenlemeyi Kısıtla ve Dijital İmzalar sağlar. Aspose.Words çoğu Word koruma seçeneğini destekler."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

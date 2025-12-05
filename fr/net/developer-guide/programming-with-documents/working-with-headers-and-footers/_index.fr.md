@@ -6,6 +6,9 @@ linktitle: Travailler avec les en-têtes et les pieds de page
 description: "Comment manipuler les en-têtes et pieds de page à l'aide de C#. Créez des en-têtes et des pieds de page C#. Supprimez les en-têtes ou pieds de page C#."
 type: docs
 weight: 150
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/working-with-headers-and-footers/
 timestamp: 2024-01-27-14-07-04
 ---

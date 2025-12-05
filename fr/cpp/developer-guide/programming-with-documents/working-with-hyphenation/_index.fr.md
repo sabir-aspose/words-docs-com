@@ -6,6 +6,9 @@ linktitle: Travailler avec la césure
 description: "Utilisez la césure pour un arrangement plus compact du texte en utilisant C++. Il fournit des algorithmes avancés pour travailler avec des dictionnaires de césure, utilise des dictionnaires OpenOffice."
 type: docs
 weight: 220
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/working-with-hyphenation/
 timestamp: 2024-01-30-16-22-34
 ---

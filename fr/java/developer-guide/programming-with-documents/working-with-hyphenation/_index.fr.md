@@ -6,6 +6,9 @@ linktitle: Travailler avec la césure
 description: "Utilisez la césure pour un arrangement plus compact du texte. Il fournit des algorithmes avancés pour travailler avec des dictionnaires de césure, utilise OpenOffice dictionnaires utilisant Java."
 type: docs
 weight: 220
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 查找字段属性
 description: "如何在Java中找到一些字段属性，如字段代码和字段结果"
 type: docs
 weight: 25
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/find-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Zacházení Windows Metafily
 description: "Aspose.Words místo Python via .NET provádí vlastní Windows Metafile přehrávač pro přehrávání formátu Metafile na všech platformách a podporuje manipulaci se základními metafile funkcemi a může provádět zálohování na jiný typ metafile přehrávače."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/python-net/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

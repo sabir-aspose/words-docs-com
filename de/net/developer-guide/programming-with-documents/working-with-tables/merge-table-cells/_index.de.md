@@ -6,6 +6,9 @@ linktitle: Tabellenzellen zusammenführen
 description: "So führen Sie Tabellenzellen in C# zusammen. Überprüfen Sie, ob Zellen in einer Tabelle mit C# zusammengeführt werden."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/working-with-merged-cells/
 timestamp: 2024-01-27-14-07-04
 ---

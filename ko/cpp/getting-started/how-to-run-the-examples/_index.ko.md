@@ -6,6 +6,9 @@ linktitle: 예제를 실행하는 방법
 description: "다운로드 Aspose.Words 에 대한 C++ 우리의 예 GitHub 저장소와 더 익숙해지기 위해 그들을 실행하는 방법에 대해 알아보십시오 Aspose.Words 가능성과 기능."
 type: docs
 weight: 110
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/how-to-run-the-examples/
 timestamp: 2024-07-11-16-13-28
 ---

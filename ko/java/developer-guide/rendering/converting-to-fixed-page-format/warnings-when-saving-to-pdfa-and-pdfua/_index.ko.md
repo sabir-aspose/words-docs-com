@@ -6,6 +6,9 @@ linktitle: PDF/A및PDF/UA에 저장할 때 접근성 문제 경고
 description: "PDF/A및PDF/UA은 문서 내용과 관련된 접근성 요구 사항을 부과합니다. Java에서PDF/A또는PDF/UA으로 저장하고 문제가 준수를 위반하면 경고가 발령됩니다."
 type: docs
 weight: 29
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

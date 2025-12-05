@@ -6,6 +6,9 @@ linktitle: فونت های TrueType را روی Linux نصب کنید
 description: "Aspose.Words for Python اجازه می دهد تا یک سند ایجاد شده با استفاده از Microsoft Word در دستگاه Linux را با بهترین دقت ارائه کنید. برای انجام این کار، فایل های فونت را از یک دستگاه Windows کپی کنید یا یک بسته فونت `TrueType` را روی دستگاه Linux خود نصب کنید."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/installing-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

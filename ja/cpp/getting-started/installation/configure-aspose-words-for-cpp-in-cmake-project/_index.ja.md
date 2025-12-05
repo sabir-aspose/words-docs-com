@@ -6,6 +6,9 @@ linktitle: 設定 C++の場合Aspose.Words CMakeプロジェクトで
 description: "設定 C++の場合Aspose.Words あなたのCMakeであなたのアプリケーションを構築します。"
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/configure-aspose-words-for-cpp-in-cmake-project/
 timestamp: 2024-10-24-11-44-28
 ---

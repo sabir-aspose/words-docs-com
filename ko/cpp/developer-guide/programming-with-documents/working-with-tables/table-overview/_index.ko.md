@@ -6,6 +6,9 @@ linktitle: 테이블 개요
 description: "셀,행,열과 같은 테이블 및 해당 구성 요소로 작업 Aspose.Words 에 대한 C++. 테이블 작업 방법 C++."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

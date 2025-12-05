@@ -6,6 +6,9 @@ linktitle: Převést dokument na Excel
 description: "Převést PDF na Excel, XML na Excel, DOCX na Excel Python. Uložit dokument v různých formátech do XLSX pomocí Python."
 type: docs
 weight: 15
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/python-net/convert-a-document-to-excel/
 timestamp: 2024-01-31-14-23-37
 ---

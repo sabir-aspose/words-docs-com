@@ -6,6 +6,9 @@ linktitle: Noțiuni De Bază
 type: docs
 description: "Utilizați această introducere pentru Aspose.Words pentru Java fundamente pentru a începe realizarea valorii Aspose.Words pentru afacerea dvs."
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/java/getting-started/
 timestamp: 2024-09-25-11-08-55
 ---

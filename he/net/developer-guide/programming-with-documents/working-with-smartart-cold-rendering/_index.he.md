@@ -7,6 +7,9 @@ description: "מבוא חכם צורות אמנות באמצעות C#."
 type: docs
 description: "Aspose.Words עבור .NET מבצעים חכמים אמנות קר רנדרינג, כלומר הוא מניח והופך אובייקטים SmartArt אם הציור החכם מראש הוא חסר או לא נכון באמצעות שימוש C#."
 weight: 330
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

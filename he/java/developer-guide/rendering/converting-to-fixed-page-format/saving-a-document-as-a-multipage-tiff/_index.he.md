@@ -6,6 +6,9 @@ linktitle: שמירת מסמך כ- Multipage TIFF
 description: "להמיר מסמך לדימוי raster, אשר נדונ על הדוגמה של פורמט TIFF. כדי לקבוע כיצד TIFF מוצג עליך לציין אפשרויות נוספות: החלטה, מספר דפים, בינאריות תמונות, וכו ' Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

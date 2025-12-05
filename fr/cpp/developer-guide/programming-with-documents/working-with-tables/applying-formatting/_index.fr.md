@@ -6,6 +6,9 @@ linktitle: Appliquer la mise en forme
 description: "Formatage des tableaux en détails en utilisant C++. Utilisation de C++ pour formater chaque partie du tableau."
 type: docs
 weight: 70
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/applying-formatting/
 timestamp: 2024-10-21-11-17-44
 ---

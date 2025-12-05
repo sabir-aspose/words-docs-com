@@ -6,6 +6,9 @@ linktitle: Înserare câmpuri
 description: "Cum să inserezi câmpuri într-un document folosind C# - învață diferite modalități cu exemple de cod."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/inserting-fields/
 timestamp: 2024-01-27-14-07-04
 ---

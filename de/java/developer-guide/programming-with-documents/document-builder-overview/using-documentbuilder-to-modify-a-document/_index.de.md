@@ -6,6 +6,9 @@ linktitle: DocumentBuilder zum Ändern eines Dokuments verwenden
 type: docs
 description: "Verwenden Sie den Dokumentgenerator, um ein Dokument einfach in Java zu ändern."
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/using-documentbuilder-to-modify-a-document/
 timestamp: 2024-10-21-11-17-44
 ---

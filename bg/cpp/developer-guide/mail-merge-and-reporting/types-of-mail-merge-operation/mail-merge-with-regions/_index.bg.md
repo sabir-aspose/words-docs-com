@@ -7,6 +7,9 @@ type: docs
 description: "Създайте различни региони във вашия шаблон, за да имате специални области, които можете просто да попълните с вашите данни. Използвайте Mail Merge С региони, ако искате да вмъкнете таблици, редове с повтарящи се данни, за да накарате документите си да растат динамично."
 keywords: "how to execute Mail Merge c++"
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/mail-merge-with-regions/
 timestamp: 2024-09-24-14-35-44
 ---

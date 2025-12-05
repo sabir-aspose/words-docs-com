@@ -6,6 +6,9 @@ linktitle: صدور مجوز و اشتراک
 description: "Aspose.Words برای С plans برنامه های مختلفی برای خرید ارائه می دهد یا یک آزمایش رایگان و یک مجوز موقت 30 روزه برای ارزیابی با استفاده از سیاست های مجوز و اشتراک ارائه می دهد."
 type: docs
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/licensing/
 timestamp: 2024-10-24-11-44-28
 ---

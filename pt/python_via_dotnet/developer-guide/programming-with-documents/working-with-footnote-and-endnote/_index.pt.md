@@ -6,6 +6,9 @@ linktitle: Trabalhando com nota de rodapé e nota final
 description: "Insira notas de rodapé ou notas finais em um documento e especifique suas opções usando Python."
 type: docs
 weight: 160
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/python-net/working-with-footnote-and-endnote/
 timestamp: 2024-01-27-14-07-04
 ---

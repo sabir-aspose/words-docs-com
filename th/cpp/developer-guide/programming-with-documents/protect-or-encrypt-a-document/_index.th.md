@@ -6,6 +6,9 @@ linktitle: ปกป้องหรือเข้ารหัสเอกสา
 description: "Aspose.WordsสำหรับC++ ให้แบบอ่านอย่างเดียวเข้ารหัสเอกสารจำกัดการแก้ไขและลายเซ็นดิจิทัลสำหรับการป้องกั Aspose.Wordsรองรับตัวเลือกการป้องกันคำมากที่สุด."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

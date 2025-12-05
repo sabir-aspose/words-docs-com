@@ -6,6 +6,9 @@ linktitle: Skakel'n Dokument om na HTML, MHTML of EPUB
 description: "Gebruik Aspose.Words vir Java om dokumente van Word of enige ander ondersteun formate om te skakel na HTML, MHTML, of EPUB."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/java/convert-a-document-to-html-mhtml-or-epub/
 timestamp: 2024-10-21-08-52-03
 ---

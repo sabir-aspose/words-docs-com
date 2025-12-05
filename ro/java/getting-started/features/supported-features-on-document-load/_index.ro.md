@@ -6,6 +6,9 @@ linktitle: Caracteristici acceptate la încărcarea documentelor
 description: "Încărcați și convertiți un document în majoritatea formatelor populare și acceptă o mulțime de funcții Microsoft Word."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/java/supported-features-on-document-load/
 timestamp: 2024-01-27-14-07-04
 ---

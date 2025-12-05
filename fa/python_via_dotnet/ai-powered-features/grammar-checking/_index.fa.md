@@ -8,6 +8,7 @@ weight: 40
 description: "یک دستور زبان سند را بررسی کنید. Aspose.Words برای Python به کاربران اجازه می دهد تا گرامر را بررسی کنند و خطاهای اسناد را با استفاده از مدل های OpenAI، گوگل و Claude تشخیص دهند."
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/grammar-checking/
 timestamp: 2025-03-17-19-00-00
 ---

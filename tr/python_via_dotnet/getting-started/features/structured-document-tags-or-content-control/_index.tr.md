@@ -6,6 +6,9 @@ linktitle: Yapılandırılmış Belge Etiketleri veya İçerik Kontrolü
 description: "Python'teki Yapılandırılmış belge etiketlerini (SDT veya içerik kontrolü) kullanarak müşteri tanımlı anlambilimin yanı sıra davranışını ve görünümünü bir belgeye ekleyin."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/python-net/structured-document-tags-or-content-control/
 timestamp: 2024-01-31-14-23-37
 ---

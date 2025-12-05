@@ -6,6 +6,9 @@ linktitle: 文書内の変更を追跡する
 description: "C++を使用して、自分や他の人が行ったコンテンツや書式設定の変更を追跡します。 ドキュメント内の個々のリビジョンにアクセスし、さまざまなプロパティを適用します。"
 type: docs
 weight: 270
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/track-changes-in-a-document/
 timestamp: 2024-01-30-16-22-34
 ---

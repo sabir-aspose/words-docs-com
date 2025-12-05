@@ -8,6 +8,7 @@ weight: 30
 description: "Tradurre un documento. Aspose.Wordsper .NET semplifica la traduzione di documenti utilizzando i modelli Google AI, consentendo di specificare la lingua di destinazione."
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/translate-a-document/
 timestamp: 2024-12-13-06-40-00
 ---

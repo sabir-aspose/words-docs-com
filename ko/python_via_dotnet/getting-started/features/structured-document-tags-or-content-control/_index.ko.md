@@ -6,6 +6,9 @@ linktitle: 구조화된 문서 태그 또는 콘텐츠 제어
 description: "Python의 구조화된 문서 태그(SDT 또는 콘텐츠 제어)를 사용하여 고객이 정의한 의미와 해당 동작 및 모양을 문서에 포함합니다."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/structured-document-tags-or-content-control/
 timestamp: 2024-01-31-14-23-37
 ---

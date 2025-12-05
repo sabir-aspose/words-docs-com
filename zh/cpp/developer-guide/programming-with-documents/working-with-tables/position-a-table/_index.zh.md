@@ -6,6 +6,9 @@ linktitle: 放置一张桌子
 description: "在C++中指定表位置。 获取表对齐，使用C++获取和设置浮动表位置。"
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/position-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: مکان فونت TrueType را مشخص کنید
 description: "منابع مختلف فونت TrueType را مشخص کنید: پوشه سیستم، منابع کاربر، بارگیری فونت ها از یک جریان، سیستم فایل یا حافظه با استفاده از Python."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/specifying-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

@@ -6,6 +6,9 @@ linktitle: العمل مع الأقسام
 description: "فهم مفاهيم قسم الوثيقة وممارسات التلاعب باستخدام Java. أدخل قسما في مستند Java. إزالة القسم Java. نسخ الأقسام بين المستندات."
 type: docs
 weight: 120
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/working-with-sections/
 timestamp: 2024-01-31-14-23-37
 ---

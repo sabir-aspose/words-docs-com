@@ -6,6 +6,9 @@ linktitle: Sokmak Checkboxes, Metin Girişi veya Resimler
 description: "Sırasında onay kutuları veya metin giriş alanları ekleyin Mail Merge kullanım C++. Ayrıca sırasında bir Veritabanından görüntüler ekleyin Mail Merge içinde C++."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/insert-checkboxes-text-input-or-images-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

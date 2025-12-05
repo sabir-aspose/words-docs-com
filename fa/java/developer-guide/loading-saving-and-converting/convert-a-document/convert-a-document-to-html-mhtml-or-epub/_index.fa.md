@@ -6,6 +6,9 @@ linktitle: تبدیل یک سند به HTML، MHTML یا EPUB
 description: "از Aspose.Words برای Java برای تبدیل اسناد از ورد یا هر فرمت پشتیبانی شده دیگر به HTML، MHTML یا EPUB استفاده کنید."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/convert-a-document-to-html-mhtml-or-epub/
 timestamp: 2024-10-21-08-52-03
 ---

@@ -6,6 +6,9 @@ linktitle: Come eseguire gli esempi
 description: "Scarica esempi Aspose.Words per Python via .NET dal nostro repository GitHub e scopri come eseguirli per acquisire maggiore familiarità con le possibilità e le funzionalità di Aspose.Words."
 type: docs
 weight: 110
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/python-net/how-to-run-the-examples/
 timestamp: 2024-01-27-14-07-04
 ---

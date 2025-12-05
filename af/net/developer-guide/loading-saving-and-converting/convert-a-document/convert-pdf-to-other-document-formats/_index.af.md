@@ -7,6 +7,9 @@ type: docs
 description: "Skakel PDF om Na Woordformate soos DOCX, DOC, beeldformate soos JPG of PNG, of enige ander formate wat ondersteun word deur Aspose.Words met behulp van C#."
 keywords: convert pdf to other formats c#
 weight: 45
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/convert-pdf-to-other-document-formats/
 timestamp: 2024-07-09-19-00-42
 ---

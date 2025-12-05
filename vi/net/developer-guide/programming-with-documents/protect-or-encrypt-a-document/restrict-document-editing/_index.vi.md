@@ -6,6 +6,9 @@ linktitle: Hạn chế chỉnh sửa tài liệu
 description: "Hạn chế chỉnh sửa tài liệu bằng cách đặt loại hạn chế bằng C#. Bạn cũng có thể loại bỏ bảo vệ và tạo các vùng có thể chỉnh sửa không hạn chế."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -8,6 +8,7 @@ description: "Manipulation du filigrane du document à l'aide de C++."
 weight: 340
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/working-with-watermark/
 timestamp: 2025-05-07-07-22-34
 ---

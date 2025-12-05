@@ -6,6 +6,9 @@ linktitle: 分割テーブル
 description: "Python での分割テーブル。 1 つのテーブルを 2 つの別々のテーブルに分割する方法 Python。"
 type: docs
 weight: 100
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/python-net/split-table/
 timestamp: 2024-01-27-14-07-04
 ---

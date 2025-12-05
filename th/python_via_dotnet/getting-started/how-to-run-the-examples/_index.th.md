@@ -6,6 +6,9 @@ linktitle: วิธีการเรียกใช้ตัวอย่าง
 description: "ดาวน์โหลดตัวอย่าง Aspose.Words สำหรับ Python via .NET จากพื้นที่เก็บข้อมูล GitHub ของเรา และเรียนรู้วิธีเรียกใช้เพื่อให้คุ้นเคยกับความเป็นไปได้และฟีเจอร์ต่างๆ ของ Aspose.Words มากขึ้น"
 type: docs
 weight: 110
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/python-net/how-to-run-the-examples/
 timestamp: 2024-01-27-14-07-04
 ---

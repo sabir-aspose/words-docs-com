@@ -6,6 +6,9 @@ linktitle: Trabalhando com hifenização
 description: "Use hifenização para um arranjo mais compacto do texto. Ele fornece algoritmos avançados para trabalhar com dicionários de hifenização, usa OpenOffice dicionários usando Java."
 type: docs
 weight: 220
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/java/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -7,6 +7,9 @@ type: docs
 description: "执行两种不同类型的Mail Merge操作：简单的Mail Merge和带有区域的Mail Merge。 简单的Mail Merge按每个数据源记录重复整个文档，而带有区域的Mail Merge使用Java只重复每个记录指定的区域。"
 keywords: "how to execute Mail Merge java, Mail Merge Java, Simple Mail Merge"
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/types-of-mail-merge-operations/
 timestamp: 2024-01-27-14-07-04
 ---

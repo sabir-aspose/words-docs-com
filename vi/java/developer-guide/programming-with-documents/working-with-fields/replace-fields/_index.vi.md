@@ -6,6 +6,9 @@ linktitle: Thay thế Trường với Văn bản tĩnh
 description: "Học cách thay thế trường với văn bản trong Java. Thay thế các trường với dữ liệu tĩnh bằng cách sử dụng Java API."
 type: docs
 weight: 37
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/replace-fields/
 timestamp: 2024-01-27-14-07-04
 ---

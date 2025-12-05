@@ -6,6 +6,9 @@ linktitle: Verdeel'n Dokument
 description: "Verdeel'n dokument in verskeie lêers met C++. Gebruik die gesplete funksie om'n dokument effektief te verdeel volgens opskrifte of afdelings, sowel as volgens bladsye of bladsyreekse."
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

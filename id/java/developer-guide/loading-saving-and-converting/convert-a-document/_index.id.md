@@ -5,6 +5,9 @@ articleTitle: Konversikan Dokumen
 linktitle: Konversikan Dokumen
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/java/convert-a-document/
 description: "Konversi dokumen dengan mudah dari satu format ke format lainnya. Anda dapat bekerja dengan semua format paling populer seperti format Microsoft Word seperti DOCX atau DOC, format OpenDocument seperti ODT atau OTT, format web seperti HTML atau XHTML, format teks seperti MarkDown atau TXT, dan lainnya menggunakan Java."
 timestamp: 2024-09-25-11-08-55

@@ -6,6 +6,9 @@ linktitle: 與目錄一起工作
 description: "詳細資料中的目錄欄位。 如何透過C#來建立和修改`TOC`欄位。 插入 `TOC` C#。"
 type: docs
 weight: 170
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/working-with-table-of-contents/
 timestamp: 2024-10-21-11-17-44
 ---

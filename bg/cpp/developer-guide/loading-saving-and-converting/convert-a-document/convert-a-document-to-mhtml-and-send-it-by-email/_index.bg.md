@@ -6,6 +6,9 @@ linktitle: Конвертиране на документ в MHTML и изпра
 description: "Конвертирайте документ от почти всеки формат във формат MHTML и изпратете документа с резултат по електронна поща."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/convert-a-document-to-mhtml-and-send-it-by-email/
 timestamp: 2024-01-27-14-07-04
 ---

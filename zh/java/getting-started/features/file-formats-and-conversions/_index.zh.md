@@ -6,6 +6,9 @@ linktitle: 文件格式和转换
 description: "只需两行Java代码即可从任何支持的负载转换文档以保存格式。 它使用Java提供高质量的转换。"
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/file-formats-and-conversions/
 timestamp: 2024-01-31-14-23-37
 ---

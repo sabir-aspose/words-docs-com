@@ -6,6 +6,9 @@ linktitle: 将文档转换为 HTML、MHTML 或 EPUB
 description: "将文档从几乎任何格式转换为 HTML 或 MHTML，以及使用 Python 转换为 EPUB 格式。您还可以指定用于管理输出文档的保存选项。"
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/convert-a-document-to-html-mhtml-or-epub/
 timestamp: 2024-01-27-14-07-04
 ---

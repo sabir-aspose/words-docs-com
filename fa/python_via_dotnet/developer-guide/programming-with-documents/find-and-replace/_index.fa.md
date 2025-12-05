@@ -6,6 +6,9 @@ linktitle: پیدا کنید و جایگزین کنید
 type: docs
 description: "یک رشته یا الگوی عبارت منظم را در سند خود پیدا کنید و آن را با متنی که می خواهید با استفاده از Python جایگزین کنید."
 weight: 100
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/find-and-replace/
 timestamp: 2024-01-27-14-07-04
 ---

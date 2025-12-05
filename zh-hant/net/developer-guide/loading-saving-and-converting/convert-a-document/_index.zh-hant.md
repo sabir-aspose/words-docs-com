@@ -4,6 +4,9 @@ second_title: Aspose.Words for .NET
 articleTitle: 轉換一個文件
 linktitle: 轉換一個文件
 type: docs
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/convert-a-document/
 weight: 30
 description: "用C#輕鬆將檔案從一個格式轉為另一個格式。 您可以工作於所有最受歡迎的格式，包括 Microsoft Word 的格式，如 DOCX 或 DOC、OpenDocument 格式，如 ODT 或 OTT、網路格式，如 HTML 或 XHTML、文字格式，如 Markdown 或 TXT 等。"

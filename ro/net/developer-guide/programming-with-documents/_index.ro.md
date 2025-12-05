@@ -6,6 +6,9 @@ linktitle: Programare cu documente
 type: docs
 description: "Folosiți clasele Aspose.Words și Document Object Model pentru a crea programatic, modifica și gestiona documente cu .NET folosind C#. `Lucrați cu proprietățile documentului, setările și conținutul, precum și cu aspectul documentului prin gestionarea culorilor, formele, fonturile și alte elemente grafice.`"
 weight: 60
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

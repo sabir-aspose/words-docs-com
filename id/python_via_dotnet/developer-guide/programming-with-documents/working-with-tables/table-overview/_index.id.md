@@ -6,6 +6,9 @@ linktitle: Ikhtisar Tabel
 description: "Bekerja dengan tabel dan komponennya seperti sel, baris, kolom di Aspose.Words untuk Python. Cara bekerja dengan tabel di Python."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/python-net/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

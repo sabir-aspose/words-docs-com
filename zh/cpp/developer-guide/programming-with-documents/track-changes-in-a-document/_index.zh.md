@@ -6,6 +6,9 @@ linktitle: 跟踪文档中的更改
 description: "跟踪您或其他人使用C++对内容和格式所做的更改。 访问文档中的各个修订并对其应用各种属性。"
 type: docs
 weight: 270
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/track-changes-in-a-document/
 timestamp: 2024-01-30-16-22-34
 ---

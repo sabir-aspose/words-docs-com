@@ -6,6 +6,9 @@ linktitle: 配置 Aspose.Words为C++ 在CMake项目中
 description: "配置 Aspose.Words为C++ 在你的CMake并构建你的应用程序。"
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/configure-aspose-words-for-cpp-in-cmake-project/
 timestamp: 2024-10-24-11-44-28
 ---

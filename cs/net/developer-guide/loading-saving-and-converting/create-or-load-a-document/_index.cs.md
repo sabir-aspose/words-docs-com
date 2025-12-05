@@ -4,6 +4,9 @@ second_title: Aspose.Words místo .NET
 articleTitle: Vytvořit nebo načíst dokument
 linktitle: Vytvořit nebo načíst dokument
 type: docs
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/net/create-or-load-a-document/
 description: "Vytvořit prázdný dokument nebo jej načíst ze souboru nebo streamu pomocí C#."
 keywords: "create a document c#, load a document c#, create a blank document c#, load a document from file c#, load a document from stream c#, create a document Aspose .NET, load a document Aspose .NET, load formats supported by Aspose.Words .NET"

@@ -6,6 +6,9 @@ linktitle: Как да управляваме примерите
 type: docs
 description: "Изтегляне Aspose.Words вместо Java примери от нашия GitHub хранилище и се научите как да ги управлявате, за да стане по-добре запознати с Aspose.Words възможности и характеристики."
 weight: 130
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/how-to-run-the-examples/
 timestamp: 2024-01-27-14-07-04
 ---

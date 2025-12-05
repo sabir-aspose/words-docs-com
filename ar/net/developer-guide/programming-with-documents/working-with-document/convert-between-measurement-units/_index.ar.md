@@ -6,6 +6,9 @@ linktitle: التحويل بين وحدات القياس
 description: "يمكن أن يساعدك Aspose.Words for .NET في كيفية التحويل بين وحدات القياس، على سبيل المثال، البوصات إلى نقاط ومن النقاط إلى بوصات، ومن البكسل إلى نقاط، ومن النقاط إلى بكسل باستخدام C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/convert-between-measurement-units/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Работа с хипениране
 description: "Използване на тиретата за по-компактно подреждане на текст Python. Той предоставя усъвършенствани алгоритми за работа с речници за тирета, използва речници OpenOffice."
 type: docs
 weight: 220
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/python-net/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---

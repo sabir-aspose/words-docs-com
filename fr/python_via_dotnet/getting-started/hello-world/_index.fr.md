@@ -6,6 +6,9 @@ linktitle: Bonjour le monde
 description: "Créez, modifiez et enregistrez votre premier document dans n'importe quel format pris en charge à l'aide de Aspose.Words pour Python via .NET pour découvrir sa simplicité et sa puissance en Python."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/hello-world/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Nombre del generador o productor incluido en los documentos de salida
 description: "Aspose.Words para .NET agrega al documento el nombre del generador y el número de versión que se utilizó para crearlo. Estos datos se pueden encontrar en el documento de formas que dependen del formato del archivo de salida utilizando C#."
 type: docs
 weight: 60
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

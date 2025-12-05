@@ -6,6 +6,9 @@ linktitle: Hallo Wêreld
 description: "Skep, wysig en stoor jou eerste dokument in enige ondersteun formaat met behulp van Aspose.Words vir C++ om sy eenvoud en krag in C++ te ervaar."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/hello-world/
 timestamp: 2024-01-27-14-07-04
 ---

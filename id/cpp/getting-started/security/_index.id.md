@@ -6,6 +6,9 @@ linktitle: Catatan Keamanan
 type: docs
 description: "Aspose.Words untuk C++ mengakui dan mematuhi standar keamanan umum untuk memastikan tingkat keamanan data yang tinggi. Lihatlah kemungkinan masalah keamanan dan rekomendasi tentang cara menghindarinya."
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/cpp/security/
 timestamp: 2024-01-27-14-07-04
 ---

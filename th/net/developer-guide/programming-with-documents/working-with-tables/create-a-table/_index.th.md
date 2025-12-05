@@ -6,6 +6,9 @@ linktitle: สร้างตาราง
 description: "คำแนะนำเกี่ยวกับวิธีสร้างตารางใน C# ในรูปแบบต่างๆ สร้างตารางใน C# สำหรับเอกสารของคุณ"
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---

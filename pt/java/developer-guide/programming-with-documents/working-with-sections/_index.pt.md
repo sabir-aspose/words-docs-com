@@ -6,6 +6,9 @@ linktitle: Trabalhar com secções
 description: "Compreender os conceitos da secção de documentos e as práticas de manipulação utilizando Java. Inserir Secção num documento Java. Remover a secção Java. Copiar secções entre documentos."
 type: docs
 weight: 120
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/java/working-with-sections/
 timestamp: 2024-01-31-14-23-37
 ---

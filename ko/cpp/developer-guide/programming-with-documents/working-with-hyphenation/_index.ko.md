@@ -6,6 +6,9 @@ linktitle: 하이픈 넣기 작업
 description: "다음을 사용하여 텍스트의 보다 컴팩트한 배열을 위해 하이픈 넣기를 사용합니다 C++. 그것은 하이픈 사전 작업을 고급 알고리즘을 제공,사용 OpenOffice 사전."
 type: docs
 weight: 220
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/working-with-hyphenation/
 timestamp: 2024-01-30-16-22-34
 ---

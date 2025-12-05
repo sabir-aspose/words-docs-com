@@ -6,6 +6,9 @@ linktitle: שימוש אמיתי סוגפונטים
 description: "Aspose.Words עבור Python via .NET יכול למצוא את הגופן הנכון או את ההחלפה המתאימה שלו עבור יישום מסמך נכון. זה מבטיח כי ההבדל בין המסמך המוצג לבין המקור הוא מינימלי כאשר אין מספיק מידע על גופן."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/python-net/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

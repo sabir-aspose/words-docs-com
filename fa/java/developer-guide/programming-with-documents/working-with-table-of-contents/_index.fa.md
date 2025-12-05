@@ -6,6 +6,9 @@ linktitle: کار با جدول محتویات
 description: "جدول زمینه محتوا در جزئیات. چگونه با استفاده از Java فیلد `TOC` را ایجاد و تغییر دهیم."
 type: docs
 weight: 170
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/working-with-table-of-contents/
 timestamp: 2024-10-21-11-17-44
 ---

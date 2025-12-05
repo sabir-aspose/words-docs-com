@@ -6,6 +6,9 @@ linktitle: 启用 OpenType 功能
 description: "使用 C# 的高级排版功能。"
 type: docs
 weight: 25
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/enable-opentype-features/
 timestamp: 2024-07-10-14-38-57
 ---

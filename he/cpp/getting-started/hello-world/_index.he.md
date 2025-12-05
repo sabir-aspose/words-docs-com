@@ -6,6 +6,9 @@ linktitle: שלום עולם
 description: "צור, ערוך ושמור את המסמך הראשון שלך בכל פורמט נתמך באמצעות Aspose.Words ל C++ לחוות את הפשטות והעוצמה שלו ב C++."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/hello-world/
 timestamp: 2024-01-27-14-07-04
 ---

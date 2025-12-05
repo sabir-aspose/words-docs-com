@@ -6,6 +6,9 @@ linktitle: Trabalhando com Hifenização
 description: "Use a hifenização para uma organização de texto mais compacta usando Python. Fornece algoritmos avançados para trabalhar com dicionários de hifenização, usa dicionários OpenOffice."
 type: docs
 weight: 220
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/python-net/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---

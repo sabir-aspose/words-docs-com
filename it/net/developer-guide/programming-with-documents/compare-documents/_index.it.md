@@ -6,6 +6,9 @@ linktitle: Confronta documenti
 description: "Confronta due documenti in qualsiasi formato supportato e mostra le modifiche al contenuto utilizzando C#. Puoi applicare opzioni avanzate durante il confronto."
 type: docs
 weight: 60
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/compare-documents/
 timestamp: 2024-01-27-14-07-04
 ---

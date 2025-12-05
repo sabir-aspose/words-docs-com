@@ -4,6 +4,9 @@ second_title: Aspose.Words для .NET
 articleTitle: Створити або завантажити документ
 linktitle: Створити або завантажити документ
 type: docs
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/create-or-load-a-document/
 description: "Створити порожній документ або завантажити його з файлу або потоку за допомогою C#й"
 keywords: "create a document c#, load a document c#, create a blank document c#, load a document from file c#, load a document from stream c#, create a document Aspose .NET, load a document Aspose .NET, load formats supported by Aspose.Words .NET"

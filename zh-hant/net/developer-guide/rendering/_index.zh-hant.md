@@ -6,6 +6,9 @@ linktitle: 渲染
 description: "用 Aspose.Words 的 .NET 渲染功能將流式布局文件格式化為頁面，並將此文件或選定的頁面轉換為其他文件（PDF、HTML、XPS 等）或圖像（TIFF、PNG、SVG 等）格式以供查看、進一步轉換或列印，同時使用 C#。"
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/rendering/
 timestamp: 2024-01-27-14-07-04
 ---

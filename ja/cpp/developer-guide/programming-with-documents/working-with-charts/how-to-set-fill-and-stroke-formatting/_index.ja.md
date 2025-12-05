@@ -6,6 +6,9 @@ linktitle: チャートの操作
 description: "チャート機能の紹介、c++を使用してチャートを作成および操作する方法。"
 type: docs
 weight: 170
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/how-to-set-fill-and-stroke-formatting/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Inserați Checkboxes, introducere Text sau imagini
 description: "Introduceți checkboxes sau câmpuri de introducere a textului în timpul Mail Merge folosind C++. De asemenea, Introduceți imagini dintr-o bază de date în timpul Mail Merge în C++."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/insert-checkboxes-text-input-or-images-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

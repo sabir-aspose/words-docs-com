@@ -6,6 +6,9 @@ linktitle: Lettertype FallBack instellingen van XML
 description: "Het lettertype fallback mechanisme wordt gebruikt wanneer het lettertype is opgelost, maar het bevat geen specifiek teken. In dit geval probeert Aspose.Words een van de fallback-lettertypen voor het teken te gebruiken."
 type: docs
 weight: 14
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/font-fallback-settings-from-xml/
 timestamp: 2024-09-24-14-35-44
 ---

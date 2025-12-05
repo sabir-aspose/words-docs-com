@@ -8,6 +8,7 @@ weight: 35
 description: "Aspose.Wordsのための.NET 効率を高めるために文書の要約のようなAIを搭載したツールを導入します。 ヒントと詳細なガイダンスでAI搭載の機能の使用方法を学びます。"
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/ai-powered-features/
 timestamp: 2025-03-17-19-00-00
 ---

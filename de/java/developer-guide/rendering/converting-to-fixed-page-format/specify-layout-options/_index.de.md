@@ -6,6 +6,9 @@ linktitle: Layoutoptionen angeben
 description: "Erstellen Sie Ausgabedokumente mit verschiedenen Layouts, abhängig von den im Dokument mit Java angegebenen Parametern."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/specify-layout-options/
 timestamp: 2024-01-27-14-07-04
 ---

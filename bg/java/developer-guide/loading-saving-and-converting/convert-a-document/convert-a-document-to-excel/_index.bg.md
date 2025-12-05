@@ -6,6 +6,9 @@ linktitle: Конвертиране на документ в Excel
 description: "Конвертиране на PDF в Excel, XML към Excel, DOX към Excel Java. Запис на документ в различни формати за XLSX чрез Java."
 type: docs
 weight: 15
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/convert-a-document-to-excel/
 timestamp: 2024-01-31-14-23-37
 ---

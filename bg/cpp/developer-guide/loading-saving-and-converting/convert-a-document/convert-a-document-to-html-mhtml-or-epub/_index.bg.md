@@ -6,6 +6,9 @@ linktitle: Конвертиране на документ в HTML, MHTML или 
 description: "Конвертирайте документ от почти всеки формат до HTML или MHTML, както и до EPUB формат, използвайки C++. Можете също да зададете опции за записване за управление на изходния документ."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/convert-a-document-to-html-mhtml-or-epub/
 timestamp: 2024-10-21-08-52-03
 ---

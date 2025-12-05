@@ -6,6 +6,9 @@ linktitle: Làm việc với danh sách
 description: "Tạo, chỉ định định dạng và khởi động lại danh sách trong tài liệu bằng Python."
 type: docs
 weight: 200
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/working-with-lists/
 timestamp: 2024-01-27-14-07-04
 ---

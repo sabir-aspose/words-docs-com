@@ -6,6 +6,9 @@ linktitle: 结构化文档标签或内容控制
 description: "使用 Python 中的结构化文档标签（SDT 或内容控制）将客户定义的语义及其行为和外观嵌入到文档中。"
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/structured-document-tags-or-content-control/
 timestamp: 2024-01-31-14-23-37
 ---

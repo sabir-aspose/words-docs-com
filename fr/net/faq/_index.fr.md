@@ -8,6 +8,9 @@ linktitle: FAQ
 type: docs
 description: "Aspose.Words pour .NET répond aux questions les plus fréquemment posées. Apprenez cette page pour résoudre rapidement votre problème sur des questions générales ou des sujets spécifiques."
 weight: 75
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/faq/
 timestamp: 2024-11-18-12-56-02
 ---

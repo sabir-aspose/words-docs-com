@@ -6,6 +6,9 @@ linktitle: Áp Dụng Kiểu Bảng
 description: "Định dạng bảng nâng cao C++. Tạo kiểu bảng bằng C++. Áp dụng kiểu bảng C++."
 type: docs
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/working-with-tablestyle/
 timestamp: 2024-01-27-14-07-04
 ---

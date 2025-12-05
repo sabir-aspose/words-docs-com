@@ -6,6 +6,9 @@ linktitle: 読み込み、保存、変換
 description: "WordからPDFやHTMLからMarkdownなど、ある形式から別の形式に文書を変換する方法、およびC++を使用して文書を読み込んで保存する方法。"
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---

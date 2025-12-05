@@ -6,6 +6,9 @@ linktitle: המרה היא Aspose.Words ' תכונת הדגל
 description: "המרת מסמכים מכל עומס נתמך כדי לשמור פורמט עם רק שתי שורות של C++ קוד. הוא מספק המרות באיכות גבוהה."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/file-formats-and-conversions/
 timestamp: 2024-09-24-14-35-44
 ---

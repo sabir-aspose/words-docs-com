@@ -8,6 +8,7 @@ weight: 10
 description: "Aspose.Words cho .NET hỗ trợ Các mô hình OpenAI Và Google AI để tóm tắt và dịch tài liệu. Sử dụng Aspose.Words với Gpt-4o, Gpt-4o mini, Gpt-4 Turbo, GPT-3.5 Turbo, Gemini 1.5 Flash, Gemini 1.5 Flash-8b, Gemini 1.5 Pro."
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/supported-ai-models/
 timestamp: 2025-03-17-19-00-00
 ---

@@ -6,6 +6,9 @@ linktitle: 문서를 Excel로 변환
 description: "PDF를 Excel로, XML을 Excel로, DOCX를 Excel C#로 변환합니다. C#를 사용하여 다양한 형식의 문서를 XLSX에 저장합니다."
 type: docs
 weight: 15
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/convert-a-document-to-excel/
 timestamp: 2024-07-09-19-00-42
 ---

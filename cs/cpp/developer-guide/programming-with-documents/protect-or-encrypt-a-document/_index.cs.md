@@ -6,6 +6,9 @@ linktitle: Ochrana nebo šifrování dokumentu
 description: "Aspose.Words pro C++ poskytuje pouze pro čtení, šifrování dokumentu, omezení úprav a digitální podpisy pro ochranu dokumentů. Aspose.Words podporuje většinu možností ochrany Word."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

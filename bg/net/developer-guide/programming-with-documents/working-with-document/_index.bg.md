@@ -6,6 +6,9 @@ linktitle: Работа с документ
 type: docs
 description: "На `Document` клас осигурява различни свойства и методи на документи, използвайки C#. Използвайте `Document` клас като отправна точка за това, което искате да изпълните с Aspose.Words вместо .NET. На `Document` обектът може да бъде записан във файл или поток и също да бъде изпратен на браузър."
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---

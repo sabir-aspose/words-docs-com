@@ -6,6 +6,9 @@ linktitle: 固定ページ形式への変換
 description: "C# を使用してドキュメントを PDF、XPS、HTML、XAML、PostScript、および PCL 形式で保存します。"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/converting-to-fixed-page-format/
 timestamp: 2024-07-10-08-10-45
 ---

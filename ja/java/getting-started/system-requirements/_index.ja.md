@@ -6,6 +6,9 @@ linktitle: システム要件
 description: "Aspose.WordsとJavaの作業を開始する前に、オペレーティングシステム、プラットフォーム、フレームワーク、および環境の要件を満たしていることを確認して、デバイス上のアクティビティが適切に考慮されていることを確認してください。"
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/system-requirements/
 timestamp: 2024-01-27-14-07-04
 ---

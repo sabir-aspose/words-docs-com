@@ -6,6 +6,9 @@ linktitle: Trabalhar com suplementos do Office
 description: "Aspose.Words para C++ fornece várias classes para trabalhar com suplementos do Office. Pode adicionar o painel de tarefas através da extensão web e personalizar as propriedades do painel e da extensão."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

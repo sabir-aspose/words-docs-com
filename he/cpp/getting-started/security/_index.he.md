@@ -6,6 +6,9 @@ linktitle: הערות אבטחה
 type: docs
 description: "Aspose.Words עבור C++ מזהה ומקפיד על תקני אבטחה נפוצים כדי להבטיח רמה גבוהה של אבטחת מידע. בדוק בעיות אבטחה אפשריות והמלצות כיצד להימנע מהן."
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/security/
 timestamp: 2024-01-27-14-07-04
 ---

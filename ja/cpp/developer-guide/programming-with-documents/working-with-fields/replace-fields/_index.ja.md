@@ -6,6 +6,9 @@ linktitle: フィールドを静的テキストに置き換える
 description: "C++でフィールドをテキストに置き換える方法について説明します。 C++APIを使用して、フィールドを静的データに置き換えます。"
 type: docs
 weight: 37
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/replace-fields/
 timestamp: 2024-01-27-14-07-04
 ---

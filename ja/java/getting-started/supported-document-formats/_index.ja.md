@@ -6,6 +6,9 @@ linktitle: サポートされているドキュメント形式
 type: docs
 description: "ソース文書を多くの一般的な形式で編集したり、Javaを使用してファイルをある形式から別の形式に自由に変換したりできます。"
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/supported-document-formats/
 timestamp: 2024-10-21-11-17-44
 ---

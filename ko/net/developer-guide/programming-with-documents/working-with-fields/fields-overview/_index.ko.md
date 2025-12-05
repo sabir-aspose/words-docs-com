@@ -6,6 +6,9 @@ linktitle: 필드 개요
 description: ".NET용 Aspose.Words에 설명된 세부 정보, 필드 코드 및 필드 결과의 필드 기능입니다."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/fields-overview/
 timestamp: 2024-09-25-11-08-55
 ---

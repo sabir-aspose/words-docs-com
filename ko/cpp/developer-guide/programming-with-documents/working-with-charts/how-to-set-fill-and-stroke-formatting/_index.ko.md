@@ -6,6 +6,9 @@ linktitle: 차트 작업
 description: "차트 기능 소개,다음을 사용하여 차트를 만들고 조작하는 방법 C++."
 type: docs
 weight: 170
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/how-to-set-fill-and-stroke-formatting/
 timestamp: 2024-01-27-14-07-04
 ---

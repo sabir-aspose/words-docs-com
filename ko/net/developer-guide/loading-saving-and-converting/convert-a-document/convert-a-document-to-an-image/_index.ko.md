@@ -6,6 +6,9 @@ linktitle: 문서를 이미지로 변환
 type: docs
 description: "문서를 이미지 형식(JPG, PNG 등)으로 변환합니다. C#를 사용하여 송장을 보내려면 문서 미리보기를 생성하거나 문서 스캔을 생성하세요."
 weight: 43
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/convert-a-document-to-an-image/
 timestamp: 2024-07-09-19-00-42
 ---

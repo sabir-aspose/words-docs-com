@@ -6,6 +6,9 @@ linktitle: 使用形状
 type: docs
 description: "介绍形状标记语言，使用Java创建不同类型的形状。"
 weight: 280
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/working-with-shapes/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Obsługa Windows Metaplików
 description: "Aspose.Words for C++ implementuje własny Windows Metafile player do odtwarzania formatu Metafile na wszystkich platformach i obsługuje obsługę podstawowych funkcji metafile i może wykonać rezerwę do innego typu odtwarzacza metafile."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/handling-windows-metafiles/
 timestamp: 2024-01-30-16-22-34
 ---

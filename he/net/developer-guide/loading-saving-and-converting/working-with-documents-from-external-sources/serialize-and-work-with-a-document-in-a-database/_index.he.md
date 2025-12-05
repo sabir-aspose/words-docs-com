@@ -6,6 +6,9 @@ linktitle: Serialize ולעבוד עם מסמך במסד נתונים
 description: "להפוך מסמך למערך עוטה לעבודה עם מסמך זה במסד נתונים באמצעות שימוש C#. אתה יכול לאחסן ולאחזר מסמך אל וממסד הנתונים."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-07-09-19-00-42
 ---

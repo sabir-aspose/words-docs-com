@@ -6,6 +6,9 @@ linktitle: Niveles Lógicos de Nodos en un Documento
 type: docs
 description: "En Aspose.Words para Java, la documentación mencionaba niveles lógicos de nodos: nivel de bloque, nivel en línea o nivel de fila. El nivel de nodo se usa para describir la ubicación en el árbol de documentos donde normalmente se encuentra el nodo."
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/java/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 外部リソースロード時の Web アプリケーションのセ�
 type: docs
 description: "リモート リソースをロードします。これはセキュリティ リスクの原因となる可能性があります。一般的なセキュリティ問題と、C# を使用したその解決策を見てみましょう。"
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-27-14-07-04
 ---

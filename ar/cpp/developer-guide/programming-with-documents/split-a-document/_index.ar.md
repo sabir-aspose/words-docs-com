@@ -6,6 +6,9 @@ linktitle: تقسيم مستند
 description: "تقسيم مستند إلى عدة ملفات باستخدام C++. استخدم ميزة الانقسام لتقسيم المستند بشكل فعال حسب العناوين أو الأقسام، وكذلك حسب الصفحات أو نطاقات الصفحات."
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

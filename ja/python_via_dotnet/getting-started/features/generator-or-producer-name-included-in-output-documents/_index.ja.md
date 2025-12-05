@@ -6,6 +6,9 @@ linktitle: 出力ドキュメントに含まれるジェネレーターまたは
 description: "Aspose.Words for Python via .NET は、ドキュメントの作成に使用されたジェネレーター名とバージョン番号をドキュメントに追加します。このデータは、出力ファイル形式に応じてドキュメント内で見つけることができます。"
 type: docs
 weight: 60
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/python-net/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

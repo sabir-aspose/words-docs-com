@@ -6,6 +6,9 @@ linktitle: Uittreksel Inhoud Tussen Nodes
 type: docs
 description: "Onttrek dokumentinhoud in verskillende met behulp van Java."
 weight: 140
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/java/extract-selected-content-between-nodes/
 timestamp: 2024-01-27-14-07-04
 ---

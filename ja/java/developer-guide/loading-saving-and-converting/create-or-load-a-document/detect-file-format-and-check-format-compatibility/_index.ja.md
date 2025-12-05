@@ -6,6 +6,9 @@ linktitle: ファイル形式の検出と形式の互換性の確認
 description: "ファイルの実際の内容がJavaを使用しているかどうかわからない場合に例外を回避するために、開く前に文書形式に関する情報を取得します。"
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

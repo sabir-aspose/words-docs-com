@@ -6,6 +6,9 @@ linktitle: Formate și conversii de fișiere
 description: "Converti documente de la orice încărcătură acceptată la formatul Save cu doar două linii de cod C#. El oferă convertiții de înaltă calitate."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/file-formats-and-conversions/
 timestamp: 2024-01-31-14-23-37
 ---

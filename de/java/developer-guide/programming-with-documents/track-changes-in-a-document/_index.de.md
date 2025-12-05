@@ -6,6 +6,9 @@ linktitle: Verfolgen von Änderungen in einem Dokument
 description: "Verfolgen Sie Änderungen an Inhalten und Formatierungen, die von Ihnen oder anderen vorgenommen wurden. Greifen Sie auf einzelne Revisionen in einem Dokument zu und wenden Sie mit Java verschiedene Eigenschaften auf sie an."
 type: docs
 weight: 270
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

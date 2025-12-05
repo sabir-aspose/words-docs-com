@@ -8,6 +8,7 @@ weight: 35
 description: "Aspose.Words برای Python معرفی ابزارهای AI مانند خلاصه سازی اسناد برای افزایش کارایی. یاد بگیرید که چگونه از ویژگی های AI با راهنمایی و راهنمایی دقیق استفاده کنید."
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/ai-powered-features/
 timestamp: 2025-03-17-19-00-00
 ---

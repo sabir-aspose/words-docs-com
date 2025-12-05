@@ -6,6 +6,9 @@ linktitle: การจัดการเมตาไฟล์Windows
 description: "Aspose.WordsสำหรับC++ นินการของตัวเองWindowsผู้เล่นเมตาไฟล์ในการเล่นรูปแบบเมตาไฟล์บนแพลตฟอร์มทั้งหมดและสนั."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/handling-windows-metafiles/
 timestamp: 2024-01-30-16-22-34
 ---

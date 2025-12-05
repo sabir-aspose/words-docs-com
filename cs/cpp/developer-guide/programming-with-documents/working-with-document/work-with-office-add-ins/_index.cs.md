@@ -6,6 +6,9 @@ linktitle: Práce s doplňky Office
 description: "Aspose.Words pro C++ poskytuje různé třídy pro práci s doplňky Office. Podokno úloh můžete přidat pomocí webového rozšíření a přizpůsobit vlastnosti podokna a rozšíření."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

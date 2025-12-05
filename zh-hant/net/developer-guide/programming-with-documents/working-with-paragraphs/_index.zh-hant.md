@@ -6,6 +6,9 @@ linktitle: 與段落合作
 description: "在 C# 文檔中插入一段落。 在 C# 中設定段落樣式。 與段落風格分隔符 C# 一起工作。 使用C#操作段落節點。"
 type: docs
 weight: 210
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/working-with-paragraphs/
 timestamp: 2024-01-27-14-07-04
 ---

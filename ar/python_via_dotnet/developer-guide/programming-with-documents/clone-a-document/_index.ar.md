@@ -6,6 +6,9 @@ linktitle: استنساخ مستند
 type: docs
 description: "استنساخ مستند للحصول على نسخته المطابقة باستخدام Python. عند إنشاء نسخة، يتم استنساخ العقد وخصائص المستند الأصلي."
 weight: 70
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/clone-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

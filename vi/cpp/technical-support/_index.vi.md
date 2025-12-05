@@ -6,6 +6,9 @@ linktitle: Hỗ Trợ Kỹ Thuật
 type: docs
 description: "Aspose.Words cho C++ cung cấp hỗ trợ kỹ thuật miễn phí có sẵn cho tất cả người dùng. Vui lòng báo cáo câu hỏi, vấn đề hoặc yêu cầu tính năng của bạn bằng Diễn đàn Hỗ trợ Miễn phí Aspose."
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/technical-support/
 timestamp: 2024-01-27-14-07-04
 ---

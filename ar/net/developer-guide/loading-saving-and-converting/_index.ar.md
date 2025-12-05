@@ -6,6 +6,9 @@ linktitle: التحميل والحفظ والتحويل
 description: "كيفية تحويل مستند من تنسيق إلى آخر، مثل Word إلى PDF أو HTML إلى Markdown، بالإضافة إلى كيفية تحميل مستند وحفظه باستخدام C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---

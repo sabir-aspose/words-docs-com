@@ -6,6 +6,9 @@ linktitle: Pengenalan dan Pembuatan Tabel
 description: "Membuat dan mengelola tabel dalam dokumen menggunakan Python."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/python-net/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---

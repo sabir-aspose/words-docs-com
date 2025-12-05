@@ -6,6 +6,9 @@ linktitle: 产品概览
 description: "Aspose.WordsforAndroidviaJava是一个`Java`类库，使Android开发人员能够执行大量的文档处理任务。"
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/android-product-overview/
 timestamp: 2024-01-27-14-07-04
 ---

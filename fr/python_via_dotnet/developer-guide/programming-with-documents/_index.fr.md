@@ -6,6 +6,9 @@ linktitle: Programmation avec des documents
 type: docs
 description: "Utilisez Aspose à l'aide des classes `Python.Words` Document Object Model pour créer, modifier et gérer des documents par programme avec python-net. Travaillez avec les propriétés, les paramètres et le contenu des documents, ainsi qu'avec leur apparence grâce à la gestion des couleurs, des formes, des polices et d'autres graphiques."
 weight: 60
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

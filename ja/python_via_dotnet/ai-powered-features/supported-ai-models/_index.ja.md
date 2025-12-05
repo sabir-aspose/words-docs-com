@@ -8,6 +8,7 @@ weight: 10
 description: "Aspose.WordsのためのPython 要約および翻訳文書のためのOpenAIおよびGoogleAIモデルをサポートします。 Aspose.WordsはGpt-4o、Gpt-4omini、Gpt-4Turbo、GPT-3.5Turbo、Gemini 1.5 Flash、Gemini 1.5 Flash-8B、Gemini1.5Proで使用します。"
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/python-net/supported-ai-models/
 timestamp: 2025-03-17-19-00-00
 ---

@@ -6,6 +6,9 @@ linktitle: צור טבלה
 description: "דרכים שונות ליצור טבלאות באמצעות C++. צור טבלה ב C++ עבור המסמך שלך. הוסף טבלה ב C++."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: Arbeiten Sie mit Office-Add-Ins
 description: "Aspose.Words für Python via .NET bietet verschiedene Klassen für die Arbeit mit Office-Add-Ins. Sie können den Aufgabenbereich über eine Weberweiterung hinzufügen und die Bereichs- und Erweiterungseigenschaften anpassen."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/python-net/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

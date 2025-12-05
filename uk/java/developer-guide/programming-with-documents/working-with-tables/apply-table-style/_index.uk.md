@@ -6,6 +6,9 @@ linktitle: Застосовувати стиль столу
 description: "Розширений форматування таблиці Javaй Створення стилю таблиці за допомогою Javaй Вступ до розширеного форматування таблиці, стилі таблиці за допомогою Javaй"
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/java/working-with-tablestyle/
 timestamp: 2024-01-27-14-07-04
 ---

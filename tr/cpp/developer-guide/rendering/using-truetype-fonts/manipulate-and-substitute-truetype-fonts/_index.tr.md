@@ -6,6 +6,9 @@ linktitle: TrueType Yazı Tiplerini Değiştirme ve Değiştirme
 description: "Aspose.Words için C++ doğru görüntülendiğinden emin olmak için ortaya çıkan belgeye doğru TrueType yazı tiplerini gömebilir. Bir yazı tipi veya belirli bir karakter kullanılamıyorsa, Aspose.Words uygun bir yazı tipi değişimi arar veya Yazı Tipi geri dönüş mekanizmasını kullanır."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

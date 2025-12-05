@@ -8,6 +8,7 @@ weight: 40
 description: "Überprüfen Sie die Grammatik eines Dokuments. Aspose.Words für Python ermöglicht Benutzern das Überprüfen der Grammatik und das Erkennen von Fehlern in Dokumenten mithilfe der Modelle OpenAI, Google und Claude."
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/python-net/grammar-checking/
 timestamp: 2025-03-17-19-00-00
 ---

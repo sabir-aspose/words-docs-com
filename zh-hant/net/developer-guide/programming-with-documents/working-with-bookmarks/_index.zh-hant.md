@@ -6,6 +6,9 @@ linktitle: 與書籤一起工作
 description: "了解書籤概念和如何使用 C# 在程式中儲存書籤。"
 type: docs
 weight: 180
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/working-with-bookmarks/
 timestamp: 2024-01-27-14-07-04
 ---

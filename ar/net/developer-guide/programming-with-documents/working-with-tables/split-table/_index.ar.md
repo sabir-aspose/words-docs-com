@@ -6,6 +6,9 @@ linktitle: جدول الانقسام
 description: "تقسيم الجدول في C#. كيفية تقسيم جدول واحد إلى جدولين منفصلين C#."
 type: docs
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/split-table/
 timestamp: 2024-01-27-14-07-04
 ---

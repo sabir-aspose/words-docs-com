@@ -6,6 +6,9 @@ linktitle: sabit sayfa biçimine dönüştürme
 description: "Aspose.Words için Java kendi sayfa düzen motoru uygulamasını mümkün kılar, bu da PDF ve XPS gibi sabit sayfa formatlarının hepsini üretebilir ve çeşitli görüntü formatlarını oluşturur."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/converting-to-fixed-page-format/
 timestamp: 2024-01-31-14-23-37
 ---

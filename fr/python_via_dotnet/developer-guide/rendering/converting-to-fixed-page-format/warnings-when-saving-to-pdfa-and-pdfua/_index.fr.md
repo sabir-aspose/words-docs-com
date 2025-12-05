@@ -6,6 +6,9 @@ linktitle: Avertissements relatifs aux problèmes d'accessibilité lors de l'enr
 description: "PDF/A et PDF/UA imposent des exigences d'accessibilité liées au contenu du document. Lors de l'enregistrement au format PDF/A ou PDF/UA dans Python et que le problème ne respecte pas la conformité, un avertissement est émis."
 type: docs
 weight: 29
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: עבודה עם מסמך
 type: docs
 description: "המחלקה `Document` מספקת תכונות ושיטות מסמך שונות באמצעות C++. אתה משתמש בכיתה `Document` כנקודת ההתחלה לכל מה שאתה רוצה לבצע עם Aspose.Words עבור C++. ניתן לשמור את האובייקט `Document` בקובץ או בזרם וגם לשלוח אותו לדפדפן."
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/working-with-document/
 timestamp: 2024-01-30-16-22-34
 ---

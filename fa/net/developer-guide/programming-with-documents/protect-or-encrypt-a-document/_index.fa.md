@@ -6,6 +6,9 @@ linktitle: از یک سند محافظت یا رمزگذاری کنید
 description: "Aspose.Words for .NET برای محافظت از اسناد با استفاده از C#، فقط خواندنی، رمزگذاری یک سند، محدود کردن ویرایش و امضای دیجیتال را فراهم می‌کند. Aspose.Words از اکثر گزینه های حفاظتی Word پشتیبانی می کند."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

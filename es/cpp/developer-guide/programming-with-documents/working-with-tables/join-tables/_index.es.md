@@ -6,6 +6,9 @@ linktitle: Unir Tablas
 description: "Manipulaciones avanzadas de tablas. Cómo fusionar dos tablas en una C++. Unir tablas usando C++."
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/cpp/join-tables/
 timestamp: 2024-01-27-14-07-04
 ---

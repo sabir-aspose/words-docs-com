@@ -6,6 +6,9 @@ linktitle: 필드 속성 사용자 정의
 description: "C#에서 필드 속성을 사용자 정의하는 방법을 알아보세요. 병합 필드의 이름을 바꾸거나 .NET에 구분 노드가 없는 필드에 대한 결과를 얻습니다."
 type: docs
 weight: 27
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

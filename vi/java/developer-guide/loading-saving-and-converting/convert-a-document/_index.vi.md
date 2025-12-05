@@ -5,6 +5,9 @@ articleTitle: Chuyển đổi một Tài liệu
 linktitle: Chuyển đổi một Tài liệu
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/convert-a-document/
 description: "Chuyển đổi dễ dàng các tài liệu từ một định dạng sang định dạng khác. Bạn có thể làm việc với tất cả các định dạng phổ biến nhất như Microsoft Word định dạng như DOCX hoặc DOC, định dạng OpenDocument như ODT hoặc OTT, các định dạng web như HTML hoặc XHTML, các định dạng văn bản như MarkDown hoặc TXT, và nhiều hơn nữa bằng cách sử dụng Java."
 timestamp: 2024-09-25-11-08-55

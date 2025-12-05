@@ -6,6 +6,9 @@ linktitle: Navigation avec Curseur
 description: "Naviguez entre les différents nœuds d'un document, tels qu'un paragraphe, un signet ou un caractère spécifique à l'aide de Java."
 type: docs
 weight: 5
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/navigation-with-cursor/
 timestamp: 2024-01-27-14-07-04
 ---

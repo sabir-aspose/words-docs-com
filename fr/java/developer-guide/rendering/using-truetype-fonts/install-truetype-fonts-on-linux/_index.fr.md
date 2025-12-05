@@ -6,6 +6,9 @@ linktitle: Installer TrueType Polices sur Linux
 description: "Aspose.Words pour Java permet de rendre un document créé à l'aide de Microsoft Word sur une machine Linux avec la meilleure précision."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/install-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

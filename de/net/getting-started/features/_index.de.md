@@ -6,6 +6,9 @@ linktitle: Unterstützte Funktionen
 description: "Aspose.Words für .NET bietet Benutzern eine Vielzahl von Funktionen, von der einfachen Konvertierung und Änderung von Dokumenten über die Erstellung strukturierter und optisch ansprechender Dokumente bis hin zur Automatisierung der Berichterstellung mithilfe von C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/features/
 timestamp: 2024-10-21-11-17-44
 ---

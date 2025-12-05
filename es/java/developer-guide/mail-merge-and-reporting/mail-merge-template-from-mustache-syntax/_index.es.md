@@ -7,6 +7,9 @@ type: docs
 description: "Cree plantillas con sintaxis Mustache. La sintaxis Mustache es la única opción que se puede usar con plantillas que no contienen campos (HTML o TXT). Con las plantillas de Word, tiene dos opciones: campos o sintaxis Mustache usando Java."
 keywords: "mail merge template mustache syntax java, Mail Merge java, mustache syntax java"
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/java/mail-merge-template-from-mustache-syntax/
 timestamp: 2024-01-27-14-07-04
 ---

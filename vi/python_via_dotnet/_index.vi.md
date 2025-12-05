@@ -5,6 +5,9 @@ linktitle: Aspose.Words cho Python via .NET
 description: "Aspose.Words cho Python via .NET là thư viện lớp cho phép ứng dụng của bạn thực hiện nhiều tác vụ xử lý tài liệu – tạo, sửa đổi, chuyển đổi và hiển thị tài liệu."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/
 is_root: true
 timestamp: 2024-09-25-11-08-55

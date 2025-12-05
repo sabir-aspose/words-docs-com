@@ -6,6 +6,9 @@ linktitle: Utilisation de SDT de contrôle de contenu
 description: "Gestion avancée du contenu des documents, comment créer et manipuler des contrôles de contenu (balises de document structurées) à l'aide de C#."
 type: docs
 weight: 390
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---

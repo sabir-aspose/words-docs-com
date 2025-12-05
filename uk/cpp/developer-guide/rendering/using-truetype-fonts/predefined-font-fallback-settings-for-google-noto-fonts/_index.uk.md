@@ -6,6 +6,9 @@ linktitle: Заздалегідь визначені Налаштування ш
 description: "Aspose.Words надає заздалегідь визначені резервні Налаштування шрифту для шрифтів Google Noto. Це безкоштовні шрифти, ліцензовані за ліцензією SIL Open Font License, які можна завантажити з сайту Google Noto Fonts."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/predefined-font-fallback-settings-for-google-noto-fonts/
 timestamp: 2024-09-24-14-35-44
 ---

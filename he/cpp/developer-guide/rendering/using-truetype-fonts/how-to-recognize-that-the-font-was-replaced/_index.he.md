@@ -6,6 +6,9 @@ linktitle: כיצד לזהות שהגופן הוחלף
 description: "אם אינך בטוח מדוע פריסת המסמך השתנתה או מדוע גופן מסוים אינו נראה כצפוי, הודעות אזהרות להחלפת גופנים יכולות לעזור."
 type: docs
 weight: 13
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/how-to-recognize-that-the-font-was-replaced/
 timestamp: 2024-09-24-14-35-44
 ---

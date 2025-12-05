@@ -6,6 +6,9 @@ linktitle: Licence et abonnement
 description: "Aspose.Words pour .NET propose différents plans d'achat ou propose un essai gratuit et une licence temporaire de 30 jours pour l'évaluation à l'aide des politiques de licence et d'abonnement en C#."
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

@@ -7,6 +7,9 @@ type: docs
 description: "สร้างภูมิภาคต่างๆในเทมเพลตของคุณเพื่อให้มีพื้นที่พิเศษที่คุณสามารถกรอกข้อมูลของคุณได้ ใช้ Mail Merge ด้วยพื้นที่หากคุณต้องการแทรกตารางแถวที่มีข้อมูลซ้ำเพื่อให้เอกสารของคุณเติบโตแบบได."
 keywords: "how to execute Mail Merge c++"
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/mail-merge-with-regions/
 timestamp: 2024-09-24-14-35-44
 ---

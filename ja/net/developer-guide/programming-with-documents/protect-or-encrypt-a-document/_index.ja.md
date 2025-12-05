@@ -6,6 +6,9 @@ linktitle: ドキュメントを保護または暗号化する
 description: "Aspose.Words for .NET は、C# を使用したドキュメント保護のため、読み取り専用、ドキュメントの暗号化、編集の制限、およびデジタル署名を提供します。 Aspose.Words は、ほとんどの Word 保護オプションをサポートしています。"
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

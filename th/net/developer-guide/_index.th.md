@@ -6,6 +6,9 @@ linktitle: คู่มือนักพัฒนา
 description: "คู่มือนักพัฒนานี้จะอธิบายสถานการณ์จริงและเคล็ดลับเพื่อช่วยให้คุณใช้คุณสมบัติ Aspose.Words สำหรับ .NET ที่เฉพาะเจาะจง บรรลุลักษณะที่ปรากฏของเอกสาร หรือทำให้กรณีการใช้งานเป็นไปได้"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

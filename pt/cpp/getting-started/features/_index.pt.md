@@ -6,6 +6,9 @@ linktitle: Recursos Suportados
 description: "Aspose.Words Para C++ fornece aos usuários uma ampla gama de recursos, desde a simples conversão e modificação de documentos até a criação de documentos estruturados e visualmente atraentes ou a automação de relatórios."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/features/
 timestamp: 2024-01-27-14-07-04
 ---

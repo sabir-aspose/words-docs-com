@@ -8,6 +8,7 @@ weight: 20
 description: "یک سند را خلاصه کنید. Aspose.Words برای Python خلاصه سازی اسناد را با استفاده از مدل های OpenAI و Google AI ساده می کند و به شما اجازه می دهد طول خلاصه را مشخص کنید."
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/summarize-a-document/
 timestamp: 2025-03-17-19-00-00
 ---

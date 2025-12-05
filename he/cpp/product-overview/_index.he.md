@@ -6,6 +6,9 @@ linktitle: סקירת מוצר
 description: "Aspose.Words עבור C++ היא ספריית תוכנה שנועדה ליצור, לשנות, להמיר, לעבד ולהדפיס מסמכים מבלי להסתמך על תוכנה אחרת."
 type: docs
 weight: 5
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/product-overview/
 timestamp: 2024-06-05-14-43-57
 ---

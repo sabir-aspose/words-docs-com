@@ -6,6 +6,9 @@ linktitle: Chỉ định vị trí của TrueType Fonts
 description: "Chỉ ra các nguồn TrueType khác nhau: thư mục hệ thống, nguồn người dùng, tải phông chữ từ một luồng, một hệ thống tệp hoặc bộ nhớ bằng cách sử dụng Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/specify-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

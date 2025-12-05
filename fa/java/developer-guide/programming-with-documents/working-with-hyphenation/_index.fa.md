@@ -6,6 +6,9 @@ linktitle: کار با خط کش
 description: "از خط کش برای ترتیب متن جمع و جورتر استفاده کنید. این الگوریتم های پیشرفته ای را برای کار با دیکشنری های هیفناسیون فراهم می کند، از دیکشنری های OpenOffice با استفاده از Java استفاده می کند."
 type: docs
 weight: 220
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---

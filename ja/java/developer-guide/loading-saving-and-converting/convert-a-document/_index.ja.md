@@ -5,6 +5,9 @@ articleTitle: 文書を変換する
 linktitle: 文書を変換する
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/convert-a-document/
 description: "文書をある形式から別の形式に簡単に変換できます。 DOCXやDOCなどのMicrosoft Word形式、ODTやOTTなどのOpenDocument形式、HTMLやXHTMLなどのweb形式、MarkDownやTXTなどのテキスト形式、Javaを使用したその他の最も一般的な形式で作業できます。"
 timestamp: 2024-09-25-11-08-55

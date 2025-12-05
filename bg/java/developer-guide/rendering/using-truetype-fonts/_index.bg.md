@@ -6,6 +6,9 @@ linktitle: Използване на истината Тип шрифтове
 description: "Как да намерим правилния шрифт или подходящата му замяна, ако не може да бъде намерен необходимият шрифт, за да бъде използван правилният превод Aspose.Words вместо Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

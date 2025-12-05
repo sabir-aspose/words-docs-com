@@ -6,6 +6,9 @@ linktitle: 페이지 레이아웃 만들기
 description: "페이지 레이아웃을 만드는 것은 비용이 많이 드는 절차가 될 수 있습니다. Aspose.Words 필요한 경우에만 페이지 레이아웃을 만듭니다:문서 페이지를 렌더링하고,필드 값을 얻고,문서를 내보내려면 HTML 그 밖의"
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/creating-a-page-layout/
 timestamp: 2024-09-24-14-35-44
 ---

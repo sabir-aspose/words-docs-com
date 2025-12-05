@@ -6,6 +6,9 @@ linktitle: การทำงานกับรูปภาพ
 description: "รูปร่างของภาพในรายละเอียดและคุณสมบัติขั้นสูงที่ Aspose.Words สำหรับ .NET มอบให้"
 type: docs
 weight: 300
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/working-with-images/
 timestamp: 2024-05-02-11-51-44
 ---

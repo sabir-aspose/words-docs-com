@@ -6,6 +6,9 @@ linktitle: Tìm Và Thay thế
 type: docs
 description: "Tìm một chuỗi hoặc mẫu biểu thức chính quy trong tài liệu của bạn và thay thế nó bằng văn bản bạn muốn sử dụng C++."
 weight: 100
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/find-and-replace/
 timestamp: 2024-01-27-14-07-04
 ---

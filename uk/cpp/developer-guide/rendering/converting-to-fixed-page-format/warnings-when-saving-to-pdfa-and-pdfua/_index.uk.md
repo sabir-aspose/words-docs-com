@@ -6,6 +6,9 @@ linktitle: Спеціальні можливості видають попере
 description: "PDF/A і PDF/UA висувають вимоги до доступності, пов'язані з вмістом документа. При збереженні в PDF/A або PDF/UA в C++ і виникненні проблеми, що порушує відповідність вимогам, видається попередження."
 type: docs
 weight: 39
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

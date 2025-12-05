@@ -6,6 +6,9 @@ linktitle: Преглед На Конструктора На Документи
 type: docs
 description: "DocumentBuilder Позволява ви да създавате динамични документи от нулата или да добавяте нови елементи към съществуващите, като използвате C++. DocumentBuilder осигурява методи за вмъкване на текст, checkboxЕС, таблици, изображения и други елементи на съдържанието в C++."
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

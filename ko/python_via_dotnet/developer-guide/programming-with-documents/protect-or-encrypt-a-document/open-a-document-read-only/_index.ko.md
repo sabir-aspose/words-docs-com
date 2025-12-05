@@ -6,6 +6,9 @@ linktitle: 문서를 읽기 전용으로 열기
 description: "Python를 사용하여 콘텐츠를 복사하거나 읽을 수 있지만 수정할 수 없도록 문서를 읽기 전용으로 만드세요."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/open-a-document-read-only/
 timestamp: 2024-01-27-14-07-04
 ---

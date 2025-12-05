@@ -6,6 +6,9 @@ linktitle: 使用 Markdown 功能
 description: "如何使用 Python 实现 Markdown 功能。所有功能都表示为相应的样式或直接格式。"
 type: docs
 weight: 420
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/working-with-markdown-features/
 timestamp: 2024-01-31-14-23-37
 ---

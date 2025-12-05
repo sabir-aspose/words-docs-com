@@ -6,6 +6,9 @@ linktitle: 使用表单字段
 description: "使用 Python 在文档中插入、获取或格式化表单字段。"
 type: docs
 weight: 380
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/working-with-form-fields/
 timestamp: 2024-01-27-14-07-04
 ---

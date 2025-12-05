@@ -6,6 +6,9 @@ linktitle: Bekerja dengan Objek OLE
 description: "Buat dan modifikasi penyematan OLE di dokumen Anda menggunakan C++."
 type: docs
 weight: 360
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/cpp/working-with-ole-objects/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Arbeiten mit SmartArt Kaltrendern
 type: docs
 description: "Aspose.Words für Java führt SmartArt Cold Rendering durch, was bedeutet, dass SmartArt Objekte angelegt und gerendert werden, wenn die vorgerenderte SmartArt Zeichnung fehlt oder falsch ist."
 weight: 330
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

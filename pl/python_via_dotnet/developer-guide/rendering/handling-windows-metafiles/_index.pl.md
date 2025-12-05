@@ -6,6 +6,9 @@ linktitle: Obsługa metaplików Windows
 description: "Aspose.Words for Python via .NET implementuje własny odtwarzacz metaplików Windows do odtwarzania formatu metaplików na wszystkich platformach i obsługuje obsługę podstawowych funkcji metaplików oraz może wykonać awarię do innego typu odtwarzacza metaplików."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/python-net/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

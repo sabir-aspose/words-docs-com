@@ -6,6 +6,9 @@ linktitle: Praca z obrazami
 type: docs
 description: "Kształty obrazów w szczegółach i zaawansowanych funkcji dostarczonych przez Aspose.Words zamiast Java."
 weight: 300
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/working-with-images/
 timestamp: 2024-01-27-14-07-04
 ---

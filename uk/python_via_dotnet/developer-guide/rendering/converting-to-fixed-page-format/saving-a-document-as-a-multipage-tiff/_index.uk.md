@@ -6,6 +6,9 @@ linktitle: Економія документу як багатосторінко
 description: "Перетворення документа в багатосторінковий TIFF за допомогою Pythonй Щоб визначити, як відображається документ на зображення, потрібно вказати додаткові параметри: дозвіл, кількість сторінок, бінаризація зображень тощо."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/python-net/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

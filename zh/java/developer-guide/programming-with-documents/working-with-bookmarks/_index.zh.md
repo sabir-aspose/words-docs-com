@@ -6,6 +6,9 @@ linktitle: 使用书签
 description: "了解书签概念以及如何使用Java在程序中使用书签。"
 type: docs
 weight: 180
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/working-with-bookmarks/
 timestamp: 2024-01-27-14-07-04
 ---

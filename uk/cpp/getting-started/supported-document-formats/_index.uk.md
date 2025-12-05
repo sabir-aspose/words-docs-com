@@ -6,6 +6,9 @@ linktitle: Підтримувані формати документів
 type: docs
 description: "Редагуйте вихідні документи у багатьох популярних форматах, а також вільно конвертуйте файли з одного формату в інший за допомогою C++."
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/supported-document-formats/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -5,6 +5,9 @@ linktitle: Python via .NET 格式的 Aspose.Words
 description: "Aspose.Words for Python via .NET 是一个类库，使您的应用程序能够执行各种文档处理任务 - 生成、修改、转换和呈现文档。"
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/
 is_root: true
 timestamp: 2024-09-25-11-08-55

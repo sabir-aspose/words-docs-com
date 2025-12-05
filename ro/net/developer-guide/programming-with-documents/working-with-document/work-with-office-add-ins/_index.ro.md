@@ -6,6 +6,9 @@ linktitle: Lucrează cu Add-in-urile de birou
 description: "Aspose.Words pentru .NET oferă diverse clase pentru a lucra cu add-in-uri Office folosind C#. Poți adăuga un panou de sarcini prin extensie și particulariza proprietățile panoului și ale extensiei."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

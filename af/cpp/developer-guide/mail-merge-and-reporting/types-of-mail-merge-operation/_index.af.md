@@ -7,6 +7,9 @@ type: docs
 description: "Voer twee verskillende tipes Mail Merge operasies uit: eenvoudige Mail Merge en Mail Merge met streke wat C++ gebruik. Simple Mail Merge herhaal die hele dokument per databron rekord, terwyl Mail Merge met streke herhaal slegs aangewese streke per rekord."
 keywords: "how to execute Mail Merge c++"
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/types-of-mail-merge-operations/
 timestamp: 2024-09-24-14-35-44
 ---

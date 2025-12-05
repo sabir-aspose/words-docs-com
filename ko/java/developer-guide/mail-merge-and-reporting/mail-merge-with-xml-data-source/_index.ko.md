@@ -7,6 +7,9 @@ type: docs
 description: "Mail Merge작업을 수행할 때XML파일을 포함하여 다양한 데이터 원본을 사용합니다. XML를 사용하는 가장 큰 장점은Java의 문서에서 계층을 직접 정의할 수 있다는 것입니다."
 keywords: "mail merge XML data source Java, Mail Merge Java"
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/mail-merge-with-xml-data-source/
 timestamp: 2024-01-27-14-07-04
 ---

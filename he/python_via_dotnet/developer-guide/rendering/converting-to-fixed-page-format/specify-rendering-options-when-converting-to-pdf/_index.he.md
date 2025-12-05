@@ -6,6 +6,9 @@ linktitle: "המונחים: Rendering Options When Converting to PDF"
 description: "המרת מסמך ל- PDF עם אפשרויות מתקדמות Python. השתמש באפשרות PdfSaveOptions כדי לשנות את התוצאה של שמירת מסמך לפורמט PDF."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/python-net/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: データベース内のドキュメントをシリアル化して操
 description: "C# を使用してデータベース内でこのドキュメントを操作できるように、ドキュメントをバイト配列に変換します。ドキュメントをデータベースに保存したり、データベースから取得したりできます。"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-07-09-19-00-42
 ---

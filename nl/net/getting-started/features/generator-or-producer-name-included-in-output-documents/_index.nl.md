@@ -6,6 +6,9 @@ linktitle: Generator of producentnaam opgenomen in uitvoerdocumenten
 description: "Aspose.Words voor .NET voeg aan het document de naam van de generator en versienummer dat werd gebruikt om het te maken. Deze gegevens kunnen worden gevonden in het document op manieren die afhankelijk zijn van de uitvoer bestandsformaat met behulp van C#."
 type: docs
 weight: 60
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: PDF/A 및 PDF/UA로 저장할 때 접근성 문제 경고
 description: "PDF/A 및 PDF/UA는 문서 콘텐츠와 관련된 접근성 요구 사항을 부과합니다. Python의 PDF/A 또는 PDF/UA로 저장하고 문제가 규정 준수를 위반하는 경우 경고가 표시됩니다."
 type: docs
 weight: 29
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

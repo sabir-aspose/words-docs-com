@@ -6,6 +6,9 @@ linktitle: Theo dõi các thay đổi trong tài liệu
 description: "Theo dõi các thay đổi về nội dung và định dạng do bạn hoặc người khác thực hiện bằng C#. Truy cập các bản sửa đổi riêng lẻ trong tài liệu và áp dụng các thuộc tính khác nhau cho chúng."
 type: docs
 weight: 270
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

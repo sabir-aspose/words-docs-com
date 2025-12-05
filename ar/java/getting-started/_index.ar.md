@@ -6,6 +6,9 @@ linktitle: الشروع في العمل
 type: docs
 description: "استخدم هذه المقدمة إلى Aspose.Words لأساسيات Java لبدء تحقيق قيمة Aspose.Words لعملك."
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/getting-started/
 timestamp: 2024-09-25-11-08-55
 ---

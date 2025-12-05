@@ -6,6 +6,9 @@ linktitle: Sistem Gereksinimleri
 description: "Başlamadan önce Aspose.Words için Java ile çalışırken işletim sistemi, platform, çerçeveler ve ortam gereksinimlerini karşıladığınızı doğrulayın böylece cihazlarınızda gerçekleşecek olaylar doğru bir şekilde hesaplanır."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/system-requirements/
 timestamp: 2024-01-27-14-07-04
 ---

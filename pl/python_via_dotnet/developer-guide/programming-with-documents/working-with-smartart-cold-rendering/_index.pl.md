@@ -6,6 +6,9 @@ linktitle: Praca z renderowaniem na zimno SmartArt
 type: docs
 description: "Aspose.Words dla Python via .NET wykonuje renderowanie grafiki SmartArt na zimno, co oznacza, że układa i renderuje obiekty SmartArt, jeśli brakuje wstępnie wyrenderowanego rysunku SmartArt lub jest on nieprawidłowy."
 weight: 330
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/python-net/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

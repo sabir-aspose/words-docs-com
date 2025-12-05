@@ -6,6 +6,9 @@ linktitle: Installeer TrueType Lettertipes op Linux
 description: "Aspose.Words vir C++ laat'n dokument wat met Microsoft Word op'n Linux masjien geskep is, met die beste akkuraatheid weergee. Om dit te bereik, kopieer lettertipe lêers van'n Windows masjien of Installeer'n `TrueType` lettertipe pakket op jou Linux masjien."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/install-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

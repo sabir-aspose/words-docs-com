@@ -7,6 +7,9 @@ type: docs
 description: "Un simplu Mail Merge este folosit pentru a umple câmpurile Mail Merge din șablonul dvs. cu datele necesare din sursa de date – este similar cu clasicul Mail Merge din Microsoft Word. Adăugați unul sau mai multe câmpuri de îmbinare în șablonul dvs. și apoi executați operația simplă mail merge."
 keywords: "how to execute Mail Merge c++"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/simple-mail-merge-operation/
 timestamp: 2024-09-24-14-35-44
 ---

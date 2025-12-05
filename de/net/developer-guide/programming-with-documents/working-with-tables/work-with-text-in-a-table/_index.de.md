@@ -6,6 +6,9 @@ linktitle: Arbeiten Sie mit Text in einer Tabelle
 description: "Ersetzen Sie Text in einer Tabelle in C#. Extrahieren Sie einfachen Text aus einer Tabelle oder Zelle mit C#."
 type: docs
 weight: 60
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/work-with-text-in-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

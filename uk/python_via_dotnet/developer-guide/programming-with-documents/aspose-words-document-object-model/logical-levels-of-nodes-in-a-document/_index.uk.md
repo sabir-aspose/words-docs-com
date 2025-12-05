@@ -6,6 +6,9 @@ linktitle: Логічні рівні імен у документі
 type: docs
 description: "У Aspose.Words для Python via .NET документація зазначено логічні рівні вузлів – рівень блоків, рівень інлайн або рівень рядка. Рівень вершини використовується для опису місця розташування в дереві документа, де зазвичай відбувається вузол."
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/python-net/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

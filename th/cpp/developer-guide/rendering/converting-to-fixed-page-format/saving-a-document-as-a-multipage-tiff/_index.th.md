@@ -6,6 +6,9 @@ linktitle: การบันทึกเอกสารเป็นหลาย
 description: "แปลงเอกสารเป็นหลายหน้าTIFFโดยใช้C++ เพื่อกำหนดวิธีการที่เอกสารจะปรากฏบนภาพที่คุณจะต้องระบุตัวเลือกเพิ่มเติม:ความละเ."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

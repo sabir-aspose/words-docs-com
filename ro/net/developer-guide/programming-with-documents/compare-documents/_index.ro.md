@@ -6,6 +6,9 @@ linktitle: Comparați documentele
 description: "Comparaţi două documente în orice format acceptat şi afişaţi modificările de conţinut folosind C#. Poţi aplica opţiuni avansate atunci când compari."
 type: docs
 weight: 60
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/compare-documents/
 timestamp: 2024-01-27-14-07-04
 ---

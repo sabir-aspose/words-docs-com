@@ -6,6 +6,9 @@ linktitle: Öffnen Sie ein Dokument schreibgeschützt
 description: "Machen Sie Ihr Dokument schreibgeschützt, damit der Inhalt mit Python kopiert oder gelesen, aber nicht geändert werden kann."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/python-net/open-a-document-read-only/
 timestamp: 2024-01-27-14-07-04
 ---

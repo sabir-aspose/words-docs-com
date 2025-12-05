@@ -6,6 +6,9 @@ linktitle: Belge Kaydetmede Desteklenen Özellikler
 description: "Bir belgeyi en popüler formatlarda kaydedin ve C# kullanarak birçok Microsoft Word özelliğini destekler."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/supported-features-on-document-save/
 timestamp: 2024-09-25-11-08-55
 ---

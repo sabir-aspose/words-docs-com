@@ -6,6 +6,9 @@ linktitle: 테이블 셀 병합
 description: "테이블 셀을 병합하는 방법 C++. 테이블의 셀이 다음을 사용하여 병합되는지 확인합니다 C++."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/merge-table-cells/
 timestamp: 2024-01-27-14-07-04
 ---

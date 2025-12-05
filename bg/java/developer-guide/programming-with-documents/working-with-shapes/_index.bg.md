@@ -6,6 +6,9 @@ linktitle: Работа с форми
 type: docs
 description: "Въведение във формата маркиращ език, създаване на форми от различни видове използване Java."
 weight: 280
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/working-with-shapes/
 timestamp: 2024-01-27-14-07-04
 ---

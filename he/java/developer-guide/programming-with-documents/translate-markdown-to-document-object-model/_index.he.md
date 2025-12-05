@@ -6,6 +6,9 @@ linktitle: תרגום Markdown to to Document Object Model ()DOM)
 type: docs
 description: "טארינסלט Markdown מסמך Document Object Model ובחזרה. אז אתה יכול לעבוד עם קיים מורכב Markdown כנות יוצרות Markdown מסמך באמצעות Java."
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/translate-markdown-to-document-object-model/
 timestamp: 2024-10-21-11-17-44
 ---

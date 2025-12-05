@@ -6,6 +6,9 @@ linktitle: Lưu ý về An ninh
 type: docs
 description: "Aspose.Words cho Java công nhận và tuân thủ các tiêu chuẩn an ninh phổ biến để đảm bảo mức độ bảo mật dữ liệu cao. Nhìn vào các vấn đề an ninh có thể xảy ra và khuyến nghị về cách tránh chúng."
 weight: 120
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/security/
 timestamp: 2024-01-27-14-07-04
 ---

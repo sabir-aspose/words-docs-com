@@ -6,6 +6,9 @@ linktitle: Construire une table à partir d'un DataTable
 description: "Exemple de remplissage d'un tableau de documents à partir d'une base de données externe à l'aide de C#."
 type: docs
 weight: 120
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/how-to-build-a-table-from-a-datatable/
 timestamp: 2024-09-25-11-08-55
 ---

@@ -6,6 +6,9 @@ linktitle: Documenten invoegen en toevoegen
 description: "Documenten combineren in één: een document invoegen of toevoegen aan een nieuw of bestaand document met behulp van vinden en vervangen, merge-veld, bladwijzer, of gewoon aan het document eindigen in Java."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/java/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 문서 분할
 description: "다음을 사용하여 문서를 여러 파일로 분할 C++. 분할 기능을 사용하여 표제 또는 섹션,페이지 또는 페이지 범위별로 문서를 효과적으로 분할할 수 있습니다."
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

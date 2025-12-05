@@ -6,6 +6,9 @@ linktitle: Các Tính Năng Được Hỗ Trợ
 description: "Aspose.Words cho C++ cung cấp cho người dùng một loạt các tính năng từ chuyển đổi và sửa đổi tài liệu đơn giản sang tạo tài liệu có cấu trúc và hấp dẫn trực quan hoặc tự động báo cáo."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/features/
 timestamp: 2024-01-27-14-07-04
 ---

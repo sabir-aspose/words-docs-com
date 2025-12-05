@@ -6,6 +6,9 @@ linktitle: Paragraflarla Çalışmak
 description: "C# belgesine bir paragraf ekleyin. C#'te paragraf stillerini ayarlayın. Paragraf stili ayırıcı C# ile çalışın. C#'i kullanarak paragraf düğümünü değiştirin."
 type: docs
 weight: 210
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/working-with-paragraphs/
 timestamp: 2024-01-27-14-07-04
 ---

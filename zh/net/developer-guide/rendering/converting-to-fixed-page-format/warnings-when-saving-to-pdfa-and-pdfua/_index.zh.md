@@ -6,6 +6,9 @@ linktitle: 保存为 PDF/A 和 PDF/UA 时出现辅助功能问题警告
 description: "PDF/A 和 PDF/UA 施加了与文档内容相关的可访问性要求。当保存为 C# 中的 PDF/A 或 PDF/UA 且问题违反合规性时，会发出警告。"
 type: docs
 weight: 29
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

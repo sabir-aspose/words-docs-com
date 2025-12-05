@@ -6,6 +6,9 @@ linktitle: Windowsメタファイルの処理
 description: "Aspose.WordsforJavaは、すべてのプラットフォームでメタファイル形式を再生する独自のWindowsメタファイルプレーヤーを実装し、基本的なメタファイル機能の処理をサポー"
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

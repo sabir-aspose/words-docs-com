@@ -6,6 +6,9 @@ linktitle: Travailler avec les propriétés du document
 description: "Aspose.Words pour Python permet de stocker certaines informations utiles sur votre document, telles que API et le numéro de version ou Date autorisé, dans les propriétés de document intégrées ou personnalisées."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

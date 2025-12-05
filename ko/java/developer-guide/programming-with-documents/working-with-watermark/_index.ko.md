@@ -8,6 +8,7 @@ description: "Java을 사용한 문서 워터마크 조작."
 weight: 70
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/working-with-watermark/
 timestamp: 2025-04-22-08-07-04
 ---

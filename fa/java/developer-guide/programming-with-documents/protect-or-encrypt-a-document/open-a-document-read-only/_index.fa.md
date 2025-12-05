@@ -6,6 +6,9 @@ linktitle: باز کردن یک سند فقط برای خواندن
 description: "سند خود را فقط برای خواندن قرار دهید تا محتوای آن کپی یا خوانده شود، اما با استفاده از Java اصلاح نشود."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/open-a-document-read-only/
 timestamp: 2024-01-27-14-07-04
 ---

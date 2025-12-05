@@ -4,6 +4,9 @@ second_title: Aspose.Words für .NET
 articleTitle: Konvertieren Sie ein Dokument
 linktitle: Konvertieren Sie ein Dokument
 type: docs
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/convert-a-document/
 weight: 30
 description: "Konvertieren Sie Dokumente mithilfe von C# ganz einfach von einem Format in ein anderes. Sie können mit allen gängigen Formaten wie Microsoft Word-Formaten wie DOCX oder DOC, OpenDocument-Formaten wie ODT oder OTT, Webformaten wie HTML oder XHTML, Textformaten wie MarkDown oder TXT und anderen arbeiten."

@@ -6,6 +6,9 @@ linktitle: Renderowanie kształtów oddzielnie od dokumentu
 description: "Wyodrębnij różne obiekty graficzne, takie jak obrazy, pola tekstowe zawierające akapity lub kształty strzałek podczas przetwarzania dokumentu i wyeksportuj je do lokalizacji zewnętrznej za pomocą Python."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/python-net/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

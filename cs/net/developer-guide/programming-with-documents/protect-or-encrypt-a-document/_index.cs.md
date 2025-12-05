@@ -6,6 +6,9 @@ linktitle: Chránit nebo zašifrovat dokument
 description: "Aspose.Words místo .NET poskytuje pouze pro čtení, šifrování dokumentu, editaci omezení a digitální podpisy pro ochranu dokumentů pomocí C#. Aspose.Words podporuje většinu Možnosti ochrany slov."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/net/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

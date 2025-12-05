@@ -6,6 +6,9 @@ linktitle: Sabit Sayfa Biçimine Dönüştürme
 description: "Belgeleri şuraya kaydet PDF, XPS, HTML, XAML, PostScript, ve PCL biçimleri."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/converting-to-fixed-page-format/
 timestamp: 2024-09-24-14-35-44
 ---

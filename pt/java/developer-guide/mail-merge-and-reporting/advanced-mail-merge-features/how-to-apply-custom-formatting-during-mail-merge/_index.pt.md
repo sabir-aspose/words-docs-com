@@ -6,6 +6,9 @@ linktitle: Como aplicar a formatação personalizada durante Mail Merge
 type: docs
 description: "Aplicar formatação personalizada durante uma operação Mail Merge utilizando Java."
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/java/how-to-apply-custom-formatting-during-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

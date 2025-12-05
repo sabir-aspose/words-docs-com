@@ -6,6 +6,9 @@ linktitle: תמיכה טכנית
 type: docs
 description: "Aspose.Words עבור Python via .NET מספק תמיכה טכנית חינם זמין לכל המשתמשים. נא לדווח על השאלה שלך, הבעיה או הבקשה המאפיין באמצעות פורום תמיכה חינם."
 weight: 80
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/python-net/technical-support/
 timestamp: 2024-11-18-12-56-02
 ---

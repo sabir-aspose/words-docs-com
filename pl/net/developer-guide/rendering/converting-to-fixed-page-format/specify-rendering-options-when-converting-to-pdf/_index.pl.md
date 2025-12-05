@@ -6,6 +6,9 @@ linktitle: Określ opcje renderowania podczas konwersji do formatu PDF
 description: "Konwertuj dokument na format PDF za pomocą zaawansowanych opcji za pomocą C#. Konwertuj formularze DOCX na format PDF C#. Użyj opcji PdfSaveOptions, aby zmienić wynik zapisania dokumentu w formacie PDF."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

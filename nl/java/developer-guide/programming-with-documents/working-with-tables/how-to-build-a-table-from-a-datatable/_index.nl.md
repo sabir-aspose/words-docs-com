@@ -6,6 +6,9 @@ linktitle: Bouw een tabel van een DataTable
 description: "Voorbeeld van het invullen van documenttabel uit externe database met behulp van Java."
 type: docs
 weight: 130
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/java/how-to-build-a-table-from-a-datatable/
 timestamp: 2024-01-27-14-07-04
 ---

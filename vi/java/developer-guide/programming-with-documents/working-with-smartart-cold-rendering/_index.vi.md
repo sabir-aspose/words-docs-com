@@ -6,6 +6,9 @@ linktitle: Làm việc với SmartArt Cold Rendering
 type: docs
 description: "Aspose.Words cho Java thực hiện SmartArt Cold Rendering, có nghĩa là nó sắp xếp và hiển thị đồ họa SmartArt nếu hình vẽ SmartArt đã được xử lý trước bị thiếu hoặc sai."
 weight: 330
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

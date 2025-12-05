@@ -6,6 +6,9 @@ linktitle: Проследяване на промени в документ
 description: "Проследяване на промени в съдържанието и форматирането, направени от вас или други, използващи C++. Достъп до отделни ревизии в документ и прилагане на различни свойства към тях."
 type: docs
 weight: 270
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/track-changes-in-a-document/
 timestamp: 2024-01-30-16-22-34
 ---

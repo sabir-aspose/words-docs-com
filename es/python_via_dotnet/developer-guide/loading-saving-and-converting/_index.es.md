@@ -6,6 +6,9 @@ linktitle: Cargar, guardar y convertir
 description: "Cómo convertir un documento de un formato a otro, como Word a PDF o HTML a Markdown, además de cómo cargar y guardar un documento usando Python."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/python-net/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---

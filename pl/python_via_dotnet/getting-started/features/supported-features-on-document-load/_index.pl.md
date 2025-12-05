@@ -6,6 +6,9 @@ linktitle: Obsługiwane funkcje podczas ładowania dokumentu
 description: "Załaduj dokument w dowolnym obsługiwanym formacie za pomocą Python. Importuj i konwertuj dokument dowolnego rozmiaru."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/python-net/supported-features-on-document-load/
 timestamp: 2024-01-31-14-23-37
 ---

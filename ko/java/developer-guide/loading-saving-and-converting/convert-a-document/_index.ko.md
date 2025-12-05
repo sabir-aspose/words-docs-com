@@ -5,6 +5,9 @@ articleTitle: 문서 변환
 linktitle: 문서 변환
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/convert-a-document/
 description: "한 형식에서 다른 형식으로 문서를 쉽게 변환 할 수 있습니다. DOCX또는DOC과 같은Microsoft Word형식,ODT또는OTT과 같은OpenDocument형식,HTML또는XHTML과 같은 웹 형식,MarkDown또는TXT과 같은 텍스트 형식 및Java를 사용하는 다른 형식과 같이 가장 널리 사용되는 모든 형식으로 작업할 수 있습니다."
 timestamp: 2024-09-25-11-08-55

@@ -6,6 +6,9 @@ linktitle: Arbeiten mit Abschnitten
 description: "Erstellen und verwalten Sie Abschnitte und Abschnittsumbrüche in einem Dokument mit Python. Abschnitt in ein Python-Dokument einfügen. Abschnitt Python entfernen. Abschnitte zwischen Dokumenten kopieren."
 type: docs
 weight: 120
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/python-net/working-with-sections/
 timestamp: 2024-09-25-11-08-55
 ---

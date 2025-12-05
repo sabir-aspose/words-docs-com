@@ -6,6 +6,9 @@ linktitle: 使用内容控制SDT
 type: docs
 description: "高级文档内容管理，如何使用C++创建和操作内容控件（结构化文档标签）。"
 weight: 390
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/structured-document-tags-or-content-control/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Запис на документ като Multipage TIFF
 description: "Конвертиране на документ в образ на растер, който се обсъжда на примера на TIFF формат. За да определите как се показва TIFF, трябва да посочите допълнителни опции: резолюция, брой страници, бинаризация на изображенията и т.н. Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

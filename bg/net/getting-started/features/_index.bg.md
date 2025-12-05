@@ -6,6 +6,9 @@ linktitle: Поддържани функции
 description: "Aspose.Words вместо .NET предоставя на потребителите широк спектър от функции от просто конвертиране и промяна на документи до създаване на структурирани и визуално привлекателни документи или автоматизирано докладване, като използва C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/features/
 timestamp: 2024-10-21-11-17-44
 ---

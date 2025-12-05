@@ -6,6 +6,9 @@ linktitle: ระบุตัวเลือกการแสดงผลเม
 description: "แปลงเอกสารเป็นPDFด้วยตัวเลือกขั้นสูง ใช้PdfSaveOptionsเพื่อเปลี่ยนผลลัพธ์ของการบันทึกเอกสารเป็นรูปแบบPDFโดยใช้Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

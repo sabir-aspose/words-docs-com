@@ -6,6 +6,9 @@ linktitle: การทำงานกับรูปทรง
 description: "ข้อมูลเบื้องต้นเกี่ยวกับภาษามาร์กอัปรูปร่าง การสร้างรูปร่างประเภทต่างๆ โดยใช้ C#"
 type: docs
 weight: 280
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/working-with-shapes/
 timestamp: 2024-01-27-14-07-04
 ---

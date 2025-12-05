@@ -6,6 +6,9 @@ linktitle: セキュリティに関する注意事項
 type: docs
 description: "Aspose.Words for .NET は、一般的なセキュリティ標準を認識して準拠し、高レベルのデータ セキュリティを保証します。考えられるセキュリティ問題と、C# を使用して問題を回避する方法に関する推奨事項を確認します。"
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/security/
 timestamp: 2024-01-27-14-07-04
 ---

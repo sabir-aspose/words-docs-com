@@ -6,6 +6,9 @@ linktitle: Định dạng và chuyển đổi tệp
 description: "Chuyển đổi tài liệu từ bất kỳ tải được hỗ trợ nào để lưu định dạng chỉ bằng hai dòng mã Python. Nó cung cấp chuyển đổi chất lượng cao."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/file-formats-and-conversions/
 timestamp: 2024-01-31-14-23-37
 ---

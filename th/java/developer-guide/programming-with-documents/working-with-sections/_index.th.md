@@ -6,6 +6,9 @@ linktitle: การทำงานกับส่วน
 description: "การทำความเข้าใจแนวคิดส่วนเอกสารและการปฏิบัติในการจัดการโดยใช้Java แทรกส่วนลงในเอกสารJava ลบส่วนJava คัดลอกส่วนระหว่างเอกสาร."
 type: docs
 weight: 120
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/working-with-sections/
 timestamp: 2024-01-31-14-23-37
 ---

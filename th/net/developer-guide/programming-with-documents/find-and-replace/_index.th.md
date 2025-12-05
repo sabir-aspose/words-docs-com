@@ -6,6 +6,9 @@ linktitle: ค้นหาและแทนที่
 type: docs
 description: "ค้นหารูปแบบสตริงหรือนิพจน์ทั่วไปในเอกสารของคุณและแทนที่ด้วยข้อความที่คุณต้องการโดยใช้ C#"
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/find-and-replace/
 timestamp: 2024-01-27-14-07-04
 ---

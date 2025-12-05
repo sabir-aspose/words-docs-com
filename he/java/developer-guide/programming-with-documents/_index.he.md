@@ -6,6 +6,9 @@ linktitle: תכנות עם מסמכים
 type: docs
 description: "השתמש Aspose.Words Document Object Model שיעורים כדי ליצור, לשנות, לנהל מסמכים עם Java. עבודה עם תכונות מסמך, הגדרות ותוכן, כמו גם עם מראה מסמך באמצעות ניהול צבעים, צורות, גופנים וגרפיקה אחרים."
 weight: 340
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

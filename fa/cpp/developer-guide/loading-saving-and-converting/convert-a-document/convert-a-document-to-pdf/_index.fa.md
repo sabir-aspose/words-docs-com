@@ -6,6 +6,9 @@ linktitle: تبدیل یک سند به PDF
 description: "تبدیل یک سند به PDF با استفاده از C++. فرمت های ورودی مختلف از جمله فرمت های Word، OpenOffice، Image و eBook پشتیبانی می شوند."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/convert-a-document-to-pdf/
 timestamp: 2024-10-21-08-52-03
 ---

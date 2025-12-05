@@ -6,6 +6,9 @@ linktitle: Specificați TrueType Locația Fonturilor
 description: "Specificați diverse surse de fonturi TrueType: folder de sistem, surse de utilizator, încărcarea fonturilor dintr-un flux, un sistem de fișiere sau memorie folosind Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/java/specify-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

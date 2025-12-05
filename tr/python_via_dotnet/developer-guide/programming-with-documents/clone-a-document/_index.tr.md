@@ -6,6 +6,9 @@ linktitle: Bir Belgeyi Klonlama
 type: docs
 description: "Python'i kullanarak aynı kopyasını elde etmek için bir belgeyi kopyalayın. Bir kopya oluşturulurken orijinal belgenin düğümleri ve özellikleri kopyalanır."
 weight: 70
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/python-net/clone-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Seril hóa và làm việc với một tài liệu trong cơ sở d�
 description: "Chuyển một tài liệu thành một mảng byte cho việc làm việc với tài liệu đó trong một cơ sở dữ liệu. Bạn có thể lưu trữ và lấy lại một tài liệu từ và đến cơ sở dữ liệu bằng cách sử dụng Java."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-01-27-14-07-04
 ---

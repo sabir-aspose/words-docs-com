@@ -6,6 +6,9 @@ linktitle: اعمال سبک جدول
 description: "فرمت جدول پیشرفته Java. با استفاده از Java یک سبک جدول ایجاد کنید. مقدمه ای بر قالب بندی پیشرفته جدول، سبک های جدول با استفاده از Java."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/working-with-tablestyle/
 timestamp: 2024-01-27-14-07-04
 ---

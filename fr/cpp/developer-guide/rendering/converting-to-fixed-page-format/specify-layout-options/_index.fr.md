@@ -6,6 +6,9 @@ linktitle: Spécifier Les Options De Mise En Page
 description: "Spécifiez les options de mise en page pour différentes mises en page de documents."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/specify-layout-options/
 timestamp: 2024-01-27-14-07-04
 ---

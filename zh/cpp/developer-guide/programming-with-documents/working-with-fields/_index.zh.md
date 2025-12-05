@@ -6,6 +6,9 @@ linktitle: 与领域合作
 description: "字段功能介绍 Aspose.Words对于C++."
 type: docs
 weight: 370
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/working-with-fields/
 timestamp: 2024-01-30-16-22-34
 ---

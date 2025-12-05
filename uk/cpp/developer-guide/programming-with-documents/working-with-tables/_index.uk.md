@@ -6,6 +6,9 @@ linktitle: Робота з таблицями
 description: "Як працювати з таблицями в C++. Ознайомлення з концепціями роботи з таблицями і табличними вузлами в Aspose.Words для C++."
 type: docs
 weight: 190
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/working-with-tables/
 timestamp: 2024-01-27-14-07-04
 ---

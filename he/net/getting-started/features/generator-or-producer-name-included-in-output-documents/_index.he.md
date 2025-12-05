@@ -6,6 +6,9 @@ linktitle: גנרטור או שם מפיק הכלולים במסמכים חיצ�
 description: "Aspose.Words עבור .NET הוסף את המסמך שם הגנרטור ומספר הגרסה המשמש ליצירתו. נתונים אלה ניתן למצוא במסמך בדרכים תלויות בתבנית קובץ הפלט באמצעות C#."
 type: docs
 weight: 60
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

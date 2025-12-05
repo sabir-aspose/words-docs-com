@@ -6,6 +6,9 @@ linktitle: Guardar um documento com várias páginas TIFF
 description: "Converta um documento em uma imagem raster, que é discutida no exemplo do formato TIFF. Para determinar como TIFF é exibido, você precisa especificar opções adicionais: Resolução, número de páginas, binarização de imagens, etc.usando Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/java/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 文書の編集を制限する
 description: "制限の種類を設定して、文書の編集を制限します。 また、Javaを使用して保護を削除し、無制限の編集可能領域を作成することもできます。"
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---

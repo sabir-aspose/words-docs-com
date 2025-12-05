@@ -6,6 +6,9 @@ linktitle: نصب و راه اندازی
 description: "نصب کنید Aspose.Words برای C++ با استفاده از بسته های مدیریت NuGet یا Package Manager Console و همچنین نصب کننده دستی."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/installation/
 timestamp: 2024-09-24-14-35-44
 ---

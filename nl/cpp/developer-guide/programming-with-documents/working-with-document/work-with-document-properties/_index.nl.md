@@ -6,6 +6,9 @@ linktitle: Werken met Documenteigenschappen
 description: "Met Aspose.Words voor C++ kunt u nuttige informatie over uw document opslaan, zoals API en versienummer of geautoriseerde datum, in ingebouwde of aangepaste Documenteigenschappen."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

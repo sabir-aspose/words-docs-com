@@ -6,6 +6,9 @@ linktitle: 문서를 다중 페이지로 저장 TIFF
 description: "문서를 여러 페이지로 변환 TIFF 사용 C++. 이미지에 문서가 표시되는 방법을 확인하려면 해상도,페이지 수,이미지 이진화 등 추가 옵션을 지정해야합니다."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

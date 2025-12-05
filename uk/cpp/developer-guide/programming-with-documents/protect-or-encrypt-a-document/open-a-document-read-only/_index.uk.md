@@ -6,6 +6,9 @@ linktitle: Відкрити документ, доступний лише для
 description: "Зробіть документ лише для читання, щоб його вміст можна було копіювати або читати, але не змінювати."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/open-a-document-read-only/
 timestamp: 2024-01-27-14-07-04
 ---

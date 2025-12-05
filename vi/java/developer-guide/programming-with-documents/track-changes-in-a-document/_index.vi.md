@@ -6,6 +6,9 @@ linktitle: Theo dõi thay đổi trong một tài liệu
 description: "Theo dõi các thay đổi về nội dung và định dạng do bạn hoặc người khác thực hiện. Truy cập các phiên bản riêng lẻ trong một tài liệu và áp dụng nhiều thuộc tính cho chúng bằng Java."
 type: docs
 weight: 270
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

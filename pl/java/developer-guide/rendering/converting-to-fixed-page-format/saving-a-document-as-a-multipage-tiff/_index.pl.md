@@ -6,6 +6,9 @@ linktitle: Zapisywanie dokumentu jako multipage TIFF
 description: "Konwertuj dokument na obraz rastrowy, który jest omawiany na przykładzie formatu TIFF. Aby określić sposób wyświetlania TIFF należy określić dodatkowe opcje: rozdzielczość, liczba stron, binaryzacja obrazu, itp. Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

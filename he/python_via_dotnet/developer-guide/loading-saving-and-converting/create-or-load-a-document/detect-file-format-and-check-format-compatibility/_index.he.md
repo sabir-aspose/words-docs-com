@@ -6,6 +6,9 @@ linktitle: Detect File Format ו- Check Compatibility
 description: "לקבוע את תבנית הקובץ Python אם אינך בטוח מהו התוכן האמיתי של הקובץ, או לבדוק את תאימות הפורמט."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/python-net/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

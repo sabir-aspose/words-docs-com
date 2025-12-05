@@ -6,6 +6,9 @@ linktitle: Stoor'n Dokument as'n Veelbladsy TIFF
 description: "Skakel'n dokument na'n multi-bladsy TIFF met behulp van C++. Om te bepaal hoe die dokument op die prent vertoon word, moet u addisionele opsies spesifiseer: resolusie, aantal bladsye, beeldbinarisering, ens."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

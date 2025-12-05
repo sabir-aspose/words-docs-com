@@ -6,6 +6,9 @@ linktitle: 处理Windows元文件
 description: "Aspose.WordsforJava实现自己的Windows元文件播放器，以在所有平台上播放元文件格式，并支持基本元文件功能的处理，并可以执行回退到不同类型的元文件播放器。"
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

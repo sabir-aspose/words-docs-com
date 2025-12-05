@@ -6,6 +6,9 @@ linktitle: Pelajari Fitur Konversi ke PDF/A dan PDF/UA
 description: "Konversikan ke PDF/A-1, PDF/A-2, PDF/A-4 dan PDF/UA menggunakan Python. Pilih standar PDF terbaik untuk mengonversi dokumen menggunakan Python via .NET."
 type: docs
 weight: 25
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/python-net/learn-features-of-conversion-to-pdf-a/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: إنشاء جدول
 description: "دليل لكيفية عمل جدول في C# بعدة طرق. قم بإنشاء جدول في C# للمستند الخاص بك."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: Dateiformate und Konvertierungen
 description: "Konvertieren Sie Dokumente aus jedem unterstützten Ladeformat in ein sicheres Format mit nur zwei Zeilen C#-Code. Es bietet qualitativ hochwertige Konvertierungen."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/file-formats-and-conversions/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: اعمال سبک جدول
 description: "قالب بندی جدول پیشرفته C#. یک سبک جدول با استفاده از C# ایجاد کنید. اعمال سبک جدول C#."
 type: docs
 weight: 80
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/working-with-tablestyle/
 timestamp: 2024-02-02-12-07-36
 ---

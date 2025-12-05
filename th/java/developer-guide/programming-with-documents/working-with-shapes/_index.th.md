@@ -6,6 +6,9 @@ linktitle: การทำงานกับรูปร่าง
 type: docs
 description: "รู้เบื้องต้นเกี่ยวกับภาษามาร์กอัปสร้างรูปร่างที่แตกต่างกันโดยใช้Java."
 weight: 280
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/working-with-shapes/
 timestamp: 2024-01-27-14-07-04
 ---

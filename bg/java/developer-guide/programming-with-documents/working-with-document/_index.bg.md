@@ -6,6 +6,9 @@ linktitle: Работа с документ
 type: docs
 description: "На `Document` Класът осигурява различни свойства и методи на документите. Ти използвай `Document` клас като отправна точка за това, което искате да изпълните с Aspose.Words вместо Java. На `Document` обект може да бъде записан във файл или поток и също да бъде изпратен на браузър."
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---

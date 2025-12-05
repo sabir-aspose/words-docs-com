@@ -6,6 +6,9 @@ linktitle: Voeg Dokumente in en Voeg By
 description: "Kombineer dokumente in een: voeg of voeg'n dokument in'n nuwe of bestaande een met behulp van vind en vervang, voeg veld saam, boekmerk, of eenvoudig aan die dokument einde in Python."
 type: docs
 weight: 80
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/python-net/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

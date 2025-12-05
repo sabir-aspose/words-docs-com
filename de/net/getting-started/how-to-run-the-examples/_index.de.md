@@ -6,6 +6,9 @@ linktitle: So führen Sie die Beispiele aus
 description: "Laden Sie Aspose.Words für .NET-Beispiele aus unserem GitHub-Repository herunter und erfahren Sie, wie Sie sie ausführen, um sich mit den Aspose.Words-Möglichkeiten und -Funktionen mithilfe von C# besser vertraut zu machen."
 type: docs
 weight: 110
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/how-to-run-the-examples/
 timestamp: 2024-10-24-11-44-28
 ---

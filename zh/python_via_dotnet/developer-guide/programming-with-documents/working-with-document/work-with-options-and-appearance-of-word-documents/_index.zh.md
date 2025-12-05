@@ -6,6 +6,9 @@ linktitle: 使用 Word 文档的选项和外观
 description: "使用 Python 控制 Word 文档的外观，同时考虑各种 Microsoft Word 版本之间的差异。"
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/work-with-word-document-options-and-appearance/
 timestamp: 2024-01-27-14-07-04
 ---

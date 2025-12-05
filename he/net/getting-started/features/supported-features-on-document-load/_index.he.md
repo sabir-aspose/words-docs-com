@@ -6,6 +6,9 @@ linktitle: תכונות תמיכה ב- Document Load
 description: "לטעון ולהמיר מסמך ברוב הפורמטים הפופולריים ותומך בהרבה Microsoft Word תכונות באמצעות C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/supported-features-on-document-load/
 timestamp: 2024-01-27-14-07-04
 ---

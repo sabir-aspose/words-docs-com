@@ -6,6 +6,9 @@ linktitle: 发牌事宜
 description: "通过Java为Android授权Aspose.Words。"
 type: docs
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/licensing-android/
 timestamp: 2024-02-02-12-07-36
 ---

@@ -6,6 +6,9 @@ linktitle: استخدام خطوط تروتايب
 description: "يمكن لـ Aspose.Words for .NET العثور على الخط الصحيح أو البديل المناسب له لعرض المستند الصحيح باستخدام C#. وهذا يضمن أن يكون الفرق بين المستند المعروض والأصل في حده الأدنى عندما لا تكون هناك معلومات كافية حول الخط."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

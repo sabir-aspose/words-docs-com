@@ -8,6 +8,7 @@ weight: 20
 description: "문서를 요약합니다. Aspose.Words의 경우C++는 요약 길이를 지정할 수 있도록 하여OpenAI및 구글AI모델을 사용하여 문서 요약을 단순화합니다."
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/summarize-a-document/
 timestamp: 2025-03-17-19-00-00
 ---

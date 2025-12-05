@@ -6,6 +6,9 @@ linktitle: Vergelyk Dokumente
 type: docs
 description: "Vergelyk twee dokumente in enige ondersteun formate en toon inhoud veranderinge met behulp van C++. U kan gevorderde opsies toepas wanneer u vergelyk."
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/compare-documents/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 创建表
 description: "使用Java在文档中创建表的不同方法。"
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---

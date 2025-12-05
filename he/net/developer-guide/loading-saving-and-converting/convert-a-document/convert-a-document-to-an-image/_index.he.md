@@ -6,6 +6,9 @@ linktitle: להפוך מסמך לצילום
 type: docs
 description: "להמיר מסמך לתבנית תמונה (JPG, PNG וכו '). צור מסמך תצוגה מקדימה או ליצור סריקת מסמך כדי לשלוח חשבונית באמצעות C#."
 weight: 43
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/convert-a-document-to-an-image/
 timestamp: 2024-07-09-19-00-42
 ---

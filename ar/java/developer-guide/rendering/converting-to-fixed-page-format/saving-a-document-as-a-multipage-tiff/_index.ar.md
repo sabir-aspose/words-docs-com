@@ -6,6 +6,9 @@ linktitle: حفظ مستند كصفحة متعددة TIFF
 description: "تحويل مستند إلى صورة نقطية، والتي تمت مناقشتها في مثال تنسيق TIFF. لتحديد كيفية عرض TIFF، تحتاج إلى تحديد خيارات إضافية: الدقة، وعدد الصفحات، وثنائية الصورة، وما إلى ذلك باستخدام Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 도형 작업
 type: docs
 description: "Java을 사용하여 다른 유형의 모양을 만드는 모양 마크 업 언어에 대한 소개."
 weight: 280
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/working-with-shapes/
 timestamp: 2024-01-27-14-07-04
 ---

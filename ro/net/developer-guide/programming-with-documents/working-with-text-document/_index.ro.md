@@ -6,6 +6,9 @@ linktitle: Lucrul cu documentul text
 description: "Procesarea avansată a documentelor TXT, liste, BiDi, antet/post-foot, folosind C#."
 type: docs
 weight: 430
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/working-with-text-document/
 timestamp: 2024-01-27-14-07-04
 ---

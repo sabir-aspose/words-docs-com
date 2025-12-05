@@ -6,6 +6,9 @@ linktitle: טיפול Windows מטא-קבצים
 description: "Aspose.Words עבור C++ מיישם את נגן המטאפיל שלו Windows כדי לשחק פורמט מטאפיל בכל הפלטפורמות ותומך בטיפול בתכונות המטאפיל הבסיסיות ויכול לבצע נסיגה לסוג אחר של נגן מטאפיל."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/handling-windows-metafiles/
 timestamp: 2024-01-30-16-22-34
 ---

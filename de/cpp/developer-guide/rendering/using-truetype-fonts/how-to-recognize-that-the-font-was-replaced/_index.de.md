@@ -6,6 +6,9 @@ linktitle: So erkennen Sie, dass die Schriftart ersetzt wurde
 description: "Wenn Sie nicht sicher sind, warum sich das Layout eines Dokuments geändert hat oder warum eine bestimmte Schriftart nicht wie erwartet aussieht, können Warnmeldungen zum Ersetzen von Schriftarten hilfreich sein."
 type: docs
 weight: 13
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/cpp/how-to-recognize-that-the-font-was-replaced/
 timestamp: 2024-09-24-14-35-44
 ---

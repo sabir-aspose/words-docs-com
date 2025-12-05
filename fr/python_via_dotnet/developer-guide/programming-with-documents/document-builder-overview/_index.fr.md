@@ -6,6 +6,9 @@ linktitle: Présentation du générateur de documents
 type: docs
 description: "DocumentBuilder vous permet de créer des documents dynamiques à partir de zéro ou d'ajouter de nouveaux éléments à ceux existants à l'aide de Python. DocumentBuilder fournit des méthodes pour insérer du texte, des cases à cocher, des tableaux, des images et d'autres éléments de contenu dans Python."
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

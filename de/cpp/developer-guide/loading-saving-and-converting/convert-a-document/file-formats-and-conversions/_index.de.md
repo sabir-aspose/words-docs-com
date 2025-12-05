@@ -6,6 +6,9 @@ linktitle: Konvertierung ist Aspose.Words' Flaggschiff-Funktion
 description: "Konvertieren Sie Dokumente aus jedem unterstützten Lade- in Speicherformat mit nur zwei Zeilen C++ -Code. Es bietet qualitativ hochwertige Konvertierungen."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/cpp/file-formats-and-conversions/
 timestamp: 2024-09-24-14-35-44
 ---

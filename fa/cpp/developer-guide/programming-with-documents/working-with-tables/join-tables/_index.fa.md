@@ -6,6 +6,9 @@ linktitle: به جداول بپیوندید
 description: "دستکاری جدول پیشرفته. چگونه دو جدول را در یک C++ ادغام کنیم. با استفاده از C++ به جداول بپیوندید."
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/join-tables/
 timestamp: 2024-01-27-14-07-04
 ---

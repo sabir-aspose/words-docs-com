@@ -6,6 +6,9 @@ linktitle: 创建表
 description: "使用 C++ 创建表格的不同方法。使用 C++ 为您的文档创建表格。使用 C++ 添加表格。"
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---

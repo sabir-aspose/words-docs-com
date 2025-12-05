@@ -6,6 +6,9 @@ linktitle: Primeros Pasos
 type: docs
 description: "Utilice esta introducción a Aspose.Words para conocer los fundamentos de Java para comenzar a darse cuenta del valor de Aspose.Words para su negocio."
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/java/getting-started/
 timestamp: 2024-09-25-11-08-55
 ---

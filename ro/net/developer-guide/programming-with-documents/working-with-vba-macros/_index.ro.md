@@ -6,6 +6,9 @@ linktitle: Lucrul cu macro-uri VBA
 description: "`Lucrând cu proiecte de documente VBA utilizând C#`."
 type: docs
 weight: 410
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/working-with-vba-macros/
 timestamp: 2024-01-27-14-07-04
 ---

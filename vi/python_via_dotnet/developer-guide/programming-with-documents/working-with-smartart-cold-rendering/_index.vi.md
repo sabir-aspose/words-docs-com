@@ -6,6 +6,9 @@ linktitle: Làm việc với SmartArt Cold Rendering
 type: docs
 description: "Aspose.Words dành cho Python via .NET thực hiện Kết xuất nguội SmartArt, nghĩa là nó sắp xếp và hiển thị các đối tượng SmartArt nếu bản vẽ SmartArt được kết xuất trước bị thiếu hoặc không chính xác."
 weight: 330
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

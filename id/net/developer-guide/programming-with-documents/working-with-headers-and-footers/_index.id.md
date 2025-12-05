@@ -6,6 +6,9 @@ linktitle: Bekerja dengan Header dan Footer
 description: "Cara memanipulasi header dan footer menggunakan C#. Buat header dan footer C#. Hapus header atau footer C#."
 type: docs
 weight: 150
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/net/working-with-headers-and-footers/
 timestamp: 2024-01-27-14-07-04
 ---

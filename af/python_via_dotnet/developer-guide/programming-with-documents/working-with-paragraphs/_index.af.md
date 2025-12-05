@@ -6,6 +6,9 @@ linktitle: Werk Met Paragrawe
 description: "Voeg paragraaf in en spesifiseer die opmaak daarvan in'n dokument met Python."
 type: docs
 weight: 210
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/python-net/working-with-paragraphs/
 timestamp: 2024-01-27-14-07-04
 ---

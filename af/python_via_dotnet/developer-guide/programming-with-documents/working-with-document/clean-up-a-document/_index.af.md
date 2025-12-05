@@ -6,6 +6,9 @@ linktitle: Maak'n Dokument skoon
 description: "Verwyder ongebruikte of duplikaat inligting om uitset grootte en verwerking tyd te verminder met behulp van Python. Verwyder ongebruikte style, ongebruikte ingeboude style, duplikaatstyle of ongebruikte lyste."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/python-net/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

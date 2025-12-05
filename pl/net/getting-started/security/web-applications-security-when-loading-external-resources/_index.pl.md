@@ -6,6 +6,9 @@ linktitle: Bezpieczeństwo aplikacji internetowych podczas ładowania zasobów z
 type: docs
 description: "Załaduj zdalne zasoby, które mogą być przyczyną zagrożeń bezpieczeństwa. Przyjrzyj się częstym problemom związanym z bezpieczeństwem i ich rozwiązaniom przy użyciu C#."
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-27-14-07-04
 ---

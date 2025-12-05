@@ -6,6 +6,9 @@ linktitle: Felder aktualisieren
 description: "Aktualisieren Sie Felder in einem Dokument auf unterschiedliche Weise und mit unterschiedlichen Optionen in Python."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/python-net/update-fields/
 timestamp: 2024-01-27-14-07-04
 ---

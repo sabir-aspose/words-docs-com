@@ -6,6 +6,9 @@ linktitle: 技术支持
 type: docs
 description: "Aspose.Words为C++ 为所有用户提供免费的技术支持。 请报告您的问题,问题,或功能要求使用Aspose免费支持论坛."
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/technical-support/
 timestamp: 2024-01-27-14-07-04
 ---

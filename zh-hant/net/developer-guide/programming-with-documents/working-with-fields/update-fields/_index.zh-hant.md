@@ -6,6 +6,9 @@ linktitle: 更新欄位
 description: "了解如何在C#中更新欄位。 以程式方式更新欄位或使用 .NET API 的自動欄位更新。"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/update-fields/
 timestamp: 2024-01-27-14-07-04
 ---

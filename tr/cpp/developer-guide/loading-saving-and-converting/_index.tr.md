@@ -6,6 +6,9 @@ linktitle: Yükleme, Kaydetme ve Dönüştürme
 description: "Word'den PDF 'ye veya HTML 'den Markdown'a gibi bir belgenin bir biçimden diğerine nasıl dönüştürüleceğinin yanı sıra C++ kullanarak bir belgenin nasıl yüklenip kaydedileceği."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---

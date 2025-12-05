@@ -6,6 +6,9 @@ linktitle: הגנה או הצפנה של מסמך
 description: "הצפנה מסמך, הגבלת העריכה, השתמש בחתימות דיגיטליות להגנה על מסמכים. Aspose.Words תומך ברוב אפשרויות הגנת Word באמצעות Java."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

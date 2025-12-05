@@ -6,6 +6,9 @@ linktitle: フィールドプロパティのカスタマイズ
 description: "C++でフィールドプロパティをカスタマイズする方法について説明します。 C++では、差し込み項目の名前を変更するか、区切りノードなしの項目の結果を取得します。"
 type: docs
 weight: 27
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

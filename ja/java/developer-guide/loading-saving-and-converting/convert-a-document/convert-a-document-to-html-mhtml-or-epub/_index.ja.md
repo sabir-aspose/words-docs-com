@@ -6,6 +6,9 @@ linktitle: ドキュメントをHTML、MHTML、またはEPUBに変換します
 description: "文書をWordまたはその他のサポートされている形式からHTML、MHTML、またはEPUBに変換するには、JavaにAspose.Wordsを使用します。"
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/convert-a-document-to-html-mhtml-or-epub/
 timestamp: 2024-10-21-08-52-03
 ---

@@ -6,6 +6,9 @@ linktitle: Làm việc với Markdown Tính năng
 description: "Cách thực hiện các tính năng Markdown bằng cách sử dụng Java. Tất cả các tính năng được thể hiện như các kiểu tương ứng hoặc định dạng trực tiếp."
 type: docs
 weight: 420
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/working-with-markdown-features/
 timestamp: 2024-01-31-14-23-37
 ---

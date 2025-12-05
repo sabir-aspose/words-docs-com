@@ -6,6 +6,9 @@ linktitle: Lucrul cu mese
 description: "Lucrați cu tabele într-un document folosind Python. Introducerea de a lucra cu tabele și concepte de noduri de masă în Aspose.Words pentru Python."
 type: docs
 weight: 190
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/python-net/working-with-tables/
 timestamp: 2024-01-27-14-07-04
 ---

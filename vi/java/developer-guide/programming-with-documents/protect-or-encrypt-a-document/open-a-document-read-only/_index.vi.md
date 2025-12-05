@@ -6,6 +6,9 @@ linktitle: Mở Tài liệu Đọc Một Mình
 description: "Làm cho tài liệu của bạn chỉ đọc để nội dung có thể được sao chép hoặc đọc nhưng không được sửa đổi bằng Java."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/open-a-document-read-only/
 timestamp: 2024-01-27-14-07-04
 ---

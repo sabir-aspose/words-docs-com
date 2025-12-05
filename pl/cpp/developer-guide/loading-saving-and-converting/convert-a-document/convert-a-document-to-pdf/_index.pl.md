@@ -6,6 +6,9 @@ linktitle: Konwertuj dokument na PDF
 description: "Konwertuj dokument na PDF za pomocą C++. Obsługiwane są różne formaty wejściowe, w tym formaty Word, OpenOffice, Image i eBook."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/convert-a-document-to-pdf/
 timestamp: 2024-10-21-08-52-03
 ---

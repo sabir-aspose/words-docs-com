@@ -6,6 +6,9 @@ linktitle: 폰트 FallBack 에서 설정 XML
 description: "글꼴 대체 메커니즘은 글꼴이 확인될 때 사용되지만 특정 문자를 포함하지 않습니다. 이 경우, Aspose.Words 문자에 대 한 대체 글꼴 중 하나를 사용 하려고 합니다."
 type: docs
 weight: 14
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/font-fallback-settings-from-xml/
 timestamp: 2024-09-24-14-35-44
 ---

@@ -6,6 +6,9 @@ linktitle: Уеб приложения сигурност при зарежда�
 type: docs
 description: "Зареждане на отдалечени ресурси, това може да бъде причина за рискове за сигурността. Разгледайте общите въпроси на сигурността и техните решения, като използвате C#."
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-27-14-07-04
 ---

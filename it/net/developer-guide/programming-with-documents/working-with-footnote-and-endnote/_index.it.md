@@ -6,6 +6,9 @@ linktitle: Lavorare con la nota a piè di pagina e la nota di chiusura
 description: "Come manipolare le note a piè di pagina e le note di chiusura utilizzando C#."
 type: docs
 weight: 160
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/working-with-footnote-and-endnote/
 timestamp: 2024-01-27-14-07-04
 ---

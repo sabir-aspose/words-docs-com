@@ -6,6 +6,9 @@ linktitle: Zamień pola na tekst statyczny
 description: "Dowiedz się, jak zastąpić pola tekstem w C#. Zastąp pola danymi statycznymi przy użyciu formatu .NET API."
 type: docs
 weight: 37
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/replace-fields/
 timestamp: 2024-01-27-14-07-04
 ---

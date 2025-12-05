@@ -6,6 +6,9 @@ linktitle: 转换为PDF时指定渲染选项
 description: "使用高级选项将文档转换为PDF。 使用PdfSaveOptions可使用Java将文档保存为PDF格式的结果更改为PDF格式。"
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

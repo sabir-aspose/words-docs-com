@@ -6,6 +6,9 @@ linktitle: วิธีการเรียกใช้ตัวอย่าง
 type: docs
 description: "ดาวน์โหลดAspose.WordsสำหรับJavaตัวอย่างจากพื้นที่เก็บข้อมูลGitHubของเราและเรียนรู้วิธีการเรียกใช้เพื่อให้คุ้นเคยกับความเป็นไปได้และคุณลักษณะAspose.Wordsมากขึ้น."
 weight: 130
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/how-to-run-the-examples/
 timestamp: 2024-01-27-14-07-04
 ---

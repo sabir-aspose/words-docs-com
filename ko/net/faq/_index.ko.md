@@ -8,6 +8,9 @@ linktitle: 자주하는 질문
 type: docs
 description: ".NET용 Aspose.Words는 가장 자주 묻는 질문에 답변합니다. 일반적인 질문이나 특정 주제에 대한 문제를 빠르게 해결하려면 이 페이지를 알아보세요."
 weight: 75
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/faq/
 timestamp: 2024-11-18-12-56-02
 ---

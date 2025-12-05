@@ -6,6 +6,9 @@ linktitle: עבודה עם מסמך מסומן על ידי תווית רגישו
 description: "המרת Word עם תווית רגישות יישומית ל- PDF באמצעות C#. עבודה עם מסמכים המסומנים על ידי תוויות רגישות - פורמטים קלט שונים, כולל Word, OpenOffice, Image ו- eBook."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/work-with-document-market-by-sensitivity-label/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -8,6 +8,7 @@ weight: 20
 description: "Resumir un documento. Aspose.Words por .NET simplifica el resumen de documentos utilizando los modelos OpenAI y Google AI al permitirle especificar la longitud del resumen."
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/summarize-a-document/
 timestamp: 2025-03-17-19-00-00
 ---

@@ -6,6 +6,9 @@ linktitle: Tabel Oorsig
 description: "Werk met tabelle en hul komponente soos selle, rye, kolomme in Aspose.Words vir Python. Hoe om te werk met tabelle in Python."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/python-net/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

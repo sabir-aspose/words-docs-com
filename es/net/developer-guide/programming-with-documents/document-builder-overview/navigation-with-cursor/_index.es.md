@@ -6,6 +6,9 @@ linktitle: Navegación con Cursor
 description: "Navegue entre diferentes nodos dentro de un documento, como un párrafo, un marcador o un carácter específico usando C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/navigation-with-cursor/
 timestamp: 2024-01-27-14-07-04
 ---

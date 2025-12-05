@@ -6,6 +6,9 @@ linktitle: Hassasiyet Etiketiyle İşaretlenmiş Bir Belgeyle Çalışma
 description: "C#'i kullanarak, duyarlılık etiketi uygulanmış Word'ü PDF'ye dönüştürün. Hassasiyet etiketleriyle işaretlenmiş belgelerle (Word, OpenOffice, Image ve e-Kitap dahil olmak üzere çeşitli giriş formatlarıyla) çalışın."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/work-with-document-market-by-sensitivity-label/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -7,6 +7,9 @@ type: docs
 description: "یک Mail Merge ساده برای پر کردن فیلد های Mail Merge در داخل قالب شما با داده های مورد نیاز از منبع داده شما استفاده می شود – این شبیه به کلاسیک Mail Merge در Microsoft Word است. یک یا چند فیلد ادغام را در قالب خود اضافه کنید و سپس عملیات ساده Mail Merge را اجرا کنید."
 keywords: "how to execute Mail Merge c++"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/simple-mail-merge-operation/
 timestamp: 2024-09-24-14-35-44
 ---

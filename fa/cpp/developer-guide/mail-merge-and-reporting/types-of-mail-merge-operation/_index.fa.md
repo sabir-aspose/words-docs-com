@@ -7,6 +7,9 @@ type: docs
 description: "انجام دو نوع مختلف از عملیات mail merge: ساده Mail Merge و Mail Merge با مناطق با استفاده از C++. ساده Mail Merge کل سند را در هر رکورد منبع داده تکرار می کند، در حالی که Mail Merge با مناطق فقط مناطق مشخص شده را در هر رکورد تکرار می کند."
 keywords: "how to execute Mail Merge c++"
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/types-of-mail-merge-operations/
 timestamp: 2024-09-24-14-35-44
 ---

@@ -6,6 +6,9 @@ linktitle: 안녕하세요
 description: "다음을 사용하여 지원되는 모든 형식으로 첫 번째 문서 작성,편집 및 저장 Aspose.Words 에 대한 C++ 그것의 간명 및 힘을 안으로 경험하기 위하여 C++."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/hello-world/
 timestamp: 2024-01-27-14-07-04
 ---

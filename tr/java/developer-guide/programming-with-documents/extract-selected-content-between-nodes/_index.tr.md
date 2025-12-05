@@ -6,6 +6,9 @@ linktitle: Düğümler Arasında İçeriği Çıkar
 type: docs
 description: "Farklı bir tarzda belgenin içeriğini çıkarma Java."
 weight: 140
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/extract-selected-content-between-nodes/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -7,6 +7,9 @@ type: docs
 description: "Een eenvoudige Mail Merge wordt gebruikt om de Mail Merge velden in uw sjabloon te vullen met de vereiste gegevens uit uw gegevensbron – het is vergelijkbaar met de klassieke Mail Merge in Microsoft Word. Voeg een of meer samenvoegvelden toe aan uw sjabloon en voer vervolgens de eenvoudige Mail Merge - bewerking uit."
 keywords: "how to execute Mail Merge c++"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/simple-mail-merge-operation/
 timestamp: 2024-09-24-14-35-44
 ---

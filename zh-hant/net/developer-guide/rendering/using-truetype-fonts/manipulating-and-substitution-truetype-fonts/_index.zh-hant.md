@@ -6,6 +6,9 @@ linktitle: 操控和替換 TrueType 字型
 description: "`.NET 的 Aspose.Words 可以將正確的 TrueType 字體嵌入到結果文件中，以確保使用 C# 時顯示準確。` 如果字體或特定字符不可用，Aspose.Words會尋找合適的字體替代品或使用字體回退機制。"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/manipulating-and-substitution-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

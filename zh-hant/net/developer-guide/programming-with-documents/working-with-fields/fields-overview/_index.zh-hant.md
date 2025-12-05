@@ -6,6 +6,9 @@ linktitle: 欄位概述
 description: "欄位功能在細節中，欄位代碼和欄位結果解釋在 Aspose.Words 中為 .NET。。"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/fields-overview/
 timestamp: 2024-09-25-11-08-55
 ---

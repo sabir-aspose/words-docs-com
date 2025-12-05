@@ -6,6 +6,9 @@ linktitle: ذخیره یک سند به صورت چند صفحه ای TIFF
 description: "یک سند را به یک تصویر رستر تبدیل کنید که در مثال فرمت TIFF مورد بحث قرار می گیرد. برای تعیین نحوه نمایش TIFF باید گزینه های اضافی را مشخص کنید: وضوح، تعداد صفحات، باینریزه شدن تصویر و غیره با استفاده از Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

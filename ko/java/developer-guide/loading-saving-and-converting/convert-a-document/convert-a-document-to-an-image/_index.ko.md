@@ -6,6 +6,9 @@ linktitle: 문서를 이미지로 변환
 type: docs
 description: "문서를 이미지 형식(JPG,PNG등)으로 변환합니다. 문서 미리보기를 만들거나Java을 사용하여 송장을 보낼 문서 스캔을 만듭니다."
 weight: 35
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/convert-a-document-to-an-image/
 timestamp: 2024-01-27-14-07-04
 ---

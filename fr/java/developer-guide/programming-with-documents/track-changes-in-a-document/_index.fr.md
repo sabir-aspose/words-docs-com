@@ -6,6 +6,9 @@ linktitle: Suivre les modifications dans un document
 description: "Suivez les modifications apportées au contenu et à la mise en forme par vous ou d'autres personnes. Accédez aux révisions individuelles d'un document et appliquez-leur diverses propriétés à l'aide de Java."
 type: docs
 weight: 270
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

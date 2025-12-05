@@ -6,6 +6,9 @@ linktitle: Veldeigenschappen aanpassen
 description: "Leer hoe veldeigenschappen aan te passen in C#. Samenvoegvelden hernoemen of resultaten verkrijgen voor velden zonder scheidingsknooppunt in .NET."
 type: docs
 weight: 27
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

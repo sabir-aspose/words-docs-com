@@ -8,6 +8,7 @@ weight: 30
 description: "문서를 번역합니다. Aspose.Words에 대한Python대상 언어를 지정할 수 있도록 구글AI모델을 사용하여 문서 번역을 단순화합니다."
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/translate-a-document/
 timestamp: 2025-01-15-16-40-05
 ---

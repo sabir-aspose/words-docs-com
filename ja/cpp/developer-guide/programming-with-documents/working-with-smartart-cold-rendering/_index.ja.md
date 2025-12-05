@@ -6,6 +6,9 @@ linktitle: SmartArtコールドレンダリングの操作
 type: docs
 description: "C++の場合Aspose.Words つまり、事前にレンダリングされたSmartArt図面が欠落しているか正しくない場合にSmartArtオブジェクトをレイアウトしてレンダリングします。"
 weight: 330
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

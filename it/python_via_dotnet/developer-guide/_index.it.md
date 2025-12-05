@@ -6,6 +6,9 @@ linktitle: Guida per gli sviluppatori
 description: "Questa guida per gli sviluppatori descrive scenari pratici e suggerimenti per aiutarti a utilizzare specifiche funzionalità di Aspose.Words per Python via .NET, ottenere un determinato aspetto del documento o rendere possibile un caso d'uso."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/python-net/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

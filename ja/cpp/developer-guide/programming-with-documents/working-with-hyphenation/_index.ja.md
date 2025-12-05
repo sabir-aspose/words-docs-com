@@ -6,6 +6,9 @@ linktitle: ハイフネーションの操作
 description: "C++を使用してテキストをよりコンパクトに配置するには、ハイフネーションを使用します。 ハイフネーション辞書で動作する高度なアルゴリズムを提供し、OpenOffice辞書を使用します。"
 type: docs
 weight: 220
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/working-with-hyphenation/
 timestamp: 2024-01-30-16-22-34
 ---

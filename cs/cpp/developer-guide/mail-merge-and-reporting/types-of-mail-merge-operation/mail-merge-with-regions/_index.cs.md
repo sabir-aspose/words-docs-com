@@ -7,6 +7,9 @@ type: docs
 description: "Vytvořte v šabloně různé oblasti, abyste měli speciální oblasti, které můžete jednoduše vyplnit svými daty. Pokud chcete vložit tabulky, použijte Mail Merge s regiony, řádky s opakujícími se daty, aby vaše dokumenty dynamicky rostly."
 keywords: "how to execute Mail Merge c++"
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/mail-merge-with-regions/
 timestamp: 2024-09-24-14-35-44
 ---

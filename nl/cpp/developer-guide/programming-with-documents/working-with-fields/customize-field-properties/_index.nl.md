@@ -6,6 +6,9 @@ linktitle: Veldeigenschappen Aanpassen
 description: "Leer hoe u veldeigenschappen in C++ kunt aanpassen. Hernoem samenvoegvelden of verkrijg resultaten voor velden zonder scheidingsknooppunt in C++."
 type: docs
 weight: 27
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -5,6 +5,9 @@ linktitle: Aspose.Words对于C++
 description: "使用C++生成、修改、转换、呈现和打印文档。"
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/
 is_root: true
 timestamp: 2024-09-25-11-08-55

@@ -6,6 +6,9 @@ linktitle: Tentukan Opsi Tata Letak
 description: "Tentukan Opsi Tata Letak untuk berbagai tata letak dokumen menggunakan C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/net/specify-layout-options/
 timestamp: 2024-07-10-08-10-45
 ---

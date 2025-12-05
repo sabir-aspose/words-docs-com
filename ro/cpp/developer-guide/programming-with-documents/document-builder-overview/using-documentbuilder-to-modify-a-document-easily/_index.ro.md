@@ -6,6 +6,9 @@ linktitle: Folosind DocumentBuilder pentru a modifica un Document cu ușurință
 type: docs
 description: "Utilizați document builder pentru a modifica un document cu ușurință în C++."
 weight: 190
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/using-documentbuilder-to-modify-a-document-easily/
 timestamp: 2024-01-27-14-07-04
 ---

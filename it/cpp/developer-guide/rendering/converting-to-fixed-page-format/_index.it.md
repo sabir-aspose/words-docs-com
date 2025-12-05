@@ -6,6 +6,9 @@ linktitle: Conversione in formato a pagina fissa
 description: "Salva i documenti nei formati PDF, XPS, HTML, XAML, PostScript e PCL."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/cpp/converting-to-fixed-page-format/
 timestamp: 2024-09-24-14-35-44
 ---

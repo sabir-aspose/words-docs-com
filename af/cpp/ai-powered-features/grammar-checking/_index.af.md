@@ -8,6 +8,7 @@ weight: 40
 description: "Gaan'n dokumentgrammatika na. Aspose.Words vir C++ laat gebruikers toe om grammatika te kontroleer en foute in dokumente op te spoor met behulp van OpenAI, Google en Claude modelle."
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/grammar-checking/
 timestamp: 2025-03-17-19-00-00
 ---

@@ -6,6 +6,9 @@ linktitle: Aprire un documento di sola lettura
 description: "Rendi il documento di sola lettura in modo che il contenuto possa essere copiato o letto, ma non modificato usando Java."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/java/open-a-document-read-only/
 timestamp: 2024-01-27-14-07-04
 ---

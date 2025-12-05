@@ -6,6 +6,9 @@ linktitle: 표 서식 적용
 description: "세부 사항의 테이블 서식. Java을 사용하여 테이블의 모든 부분을 포맷합니다."
 type: docs
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/applying-formatting/
 timestamp: 2024-01-27-14-07-04
 ---

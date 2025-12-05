@@ -6,6 +6,9 @@ linktitle: Прилагане На Стил На Таблица
 description: "Разширено форматиране на таблица C++. Създайте стил на таблица, като използвате C++. Прилагане на стил на таблица C++."
 type: docs
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/working-with-tablestyle/
 timestamp: 2024-01-27-14-07-04
 ---

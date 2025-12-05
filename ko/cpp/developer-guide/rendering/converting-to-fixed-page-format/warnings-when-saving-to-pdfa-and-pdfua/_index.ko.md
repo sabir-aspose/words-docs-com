@@ -6,6 +6,9 @@ linktitle: 에 저장할 때 접근성 문제 경고 PDF/A 그리고 PDF/UA
 description: "PDF/A 그리고 PDF/UA 문서 내용과 관련된 접근성 요구 사항을 부과합니다. 에 저장할 때 PDF/A 또는 PDF/UA 그 안에 C++ 그리고 이 문제는 준수를 위반하고 경고가 발령됩니다."
 type: docs
 weight: 39
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

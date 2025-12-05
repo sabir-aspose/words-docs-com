@@ -6,6 +6,9 @@ linktitle: Tạo Bố Cục Trang
 description: "Tạo bố cục trang có thể là một thủ tục tốn kém. Aspose.Words sẽ chỉ tạo bố cục trang khi cần thiết: hiển thị các trang tài liệu, lấy giá trị trường, xuất tài liệu sang HTML, v. v."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/creating-a-page-layout/
 timestamp: 2024-09-24-14-35-44
 ---

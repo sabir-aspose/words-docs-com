@@ -6,6 +6,9 @@ linktitle: Lisensi dan Langganan
 description: "Aspose.Words untuk .NET memberikan paket pembelian yang berbeda atau menawarkan Uji Coba Gratis dan Lisensi Sementara 30 hari untuk evaluasi menggunakan kebijakan Lisensi dan Berlangganan dalam C#."
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/net/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

@@ -6,6 +6,9 @@ linktitle: Enregistrer un document au format TIFF multipage
 description: "Convertissez un document en TIFF multipage à l'aide de C#. Pour déterminer comment le document est affiché sur l'image, vous devez spécifier des options supplémentaires: résolution, nombre de pages, binarisation de l'image, etc."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-07-10-14-38-57
 ---

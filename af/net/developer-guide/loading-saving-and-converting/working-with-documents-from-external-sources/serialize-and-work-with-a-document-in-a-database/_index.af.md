@@ -6,6 +6,9 @@ linktitle: Serialiseer en Werk met'n Dokument In'n Databasis
 description: "Omskep'n dokument in'n byte skikking vir werk met hierdie dokument in'n databasis met behulp van C#. Jy kan stoor en haal'n dokument na en van die databasis."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-07-09-19-00-42
 ---

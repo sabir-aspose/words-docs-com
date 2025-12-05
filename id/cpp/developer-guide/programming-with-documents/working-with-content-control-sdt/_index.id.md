@@ -6,6 +6,9 @@ linktitle: Bekerja dengan Kontrol Konten SDT
 type: docs
 description: "Manajemen konten dokumen tingkat lanjut, cara membuat dan memanipulasi kontrol konten (Tag Dokumen Terstruktur) menggunakan C++."
 weight: 390
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/cpp/structured-document-tags-or-content-control/
 timestamp: 2024-01-27-14-07-04
 ---

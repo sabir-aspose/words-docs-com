@@ -6,6 +6,9 @@ linktitle: Travailler avec Content Control SDT
 type: docs
 description: "Gestion avancée du contenu des documents, comment créer et manipuler des contrôles de contenu (Balises de document structurées) à l'aide de C++."
 weight: 390
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/structured-document-tags-or-content-control/
 timestamp: 2024-01-27-14-07-04
 ---

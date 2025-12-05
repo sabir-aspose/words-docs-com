@@ -6,6 +6,9 @@ linktitle: 加密文档
 description: "使用适用于 Python 中特定文档格式的适当加密算法来加密您的文档。"
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/encrypt-a-document/
 timestamp: 2024-10-21-11-17-44
 ---

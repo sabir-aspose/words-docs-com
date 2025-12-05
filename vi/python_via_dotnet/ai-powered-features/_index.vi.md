@@ -8,6 +8,7 @@ weight: 35
 description: "Aspose.Words cho Python giới thiệu các công cụ AI-powered như tóm tắt tài liệu để tăng hiệu quả. Tìm hiểu cách sử dụng các tính năng được hỗ trợ AI với các mẹo và hướng dẫn chi tiết."
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/ai-powered-features/
 timestamp: 2025-03-17-19-00-00
 ---

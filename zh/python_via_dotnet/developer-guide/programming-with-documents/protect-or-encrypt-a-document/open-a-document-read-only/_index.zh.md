@@ -6,6 +6,9 @@ linktitle: 以只读方式打开文档
 description: "将文档设置为只读，以便可以复制或读取内容，但不能使用 Python 进行修改。"
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/open-a-document-read-only/
 timestamp: 2024-01-27-14-07-04
 ---

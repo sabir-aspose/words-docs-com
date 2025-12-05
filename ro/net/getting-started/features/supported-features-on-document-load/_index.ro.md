@@ -6,6 +6,9 @@ linktitle: Funcționalități suportate la încărcarea documentului
 description: "Încarcă şi converteşte un document în majoritatea formatelor populare şi suportă multe dintre Microsoft Word caracteristici folosind C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/supported-features-on-document-load/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 字体FallBack从XML设置
 description: "字体回退机制在字体解析时使用，但不包含特定字符。 在这种情况下，Aspose.Words尝试使用字符的后备字体之一。"
 type: docs
 weight: 14
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/font-fallback-settings-from-xml/
 timestamp: 2024-09-24-14-35-44
 ---

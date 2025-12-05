@@ -6,6 +6,9 @@ linktitle: تنسيقات المستندات المدعومة
 type: docs
 description: "قم بتحرير المستندات المصدر بالعديد من التنسيقات الشائعة، وكذلك تحويل الملفات بحرية من تنسيق إلى آخر باستخدام Java."
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/supported-document-formats/
 timestamp: 2024-10-21-11-17-44
 ---

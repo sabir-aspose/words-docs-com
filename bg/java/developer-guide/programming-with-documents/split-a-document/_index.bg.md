@@ -6,6 +6,9 @@ linktitle: Разделяне на документ
 description: "Aspose.Words вместо Java Ви предоставя ефективен начин да разделите един документ на няколко документа по заглавия или раздели, както и страници или интервали от страници."
 type: docs
 weight: 90
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

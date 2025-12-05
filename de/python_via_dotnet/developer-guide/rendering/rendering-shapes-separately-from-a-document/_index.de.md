@@ -6,6 +6,9 @@ linktitle: Formen getrennt von einem Dokument rendern
 description: "Extrahieren Sie bei der Verarbeitung eines Dokuments verschiedene Grafikobjekte wie Bilder, Textfelder mit Absätzen oder Pfeilformen und exportieren Sie sie mit Python an einen externen Speicherort."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/python-net/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

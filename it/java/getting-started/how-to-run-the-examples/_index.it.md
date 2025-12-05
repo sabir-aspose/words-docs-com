@@ -6,6 +6,9 @@ linktitle: Come eseguire gli esempi
 type: docs
 description: "Scarica Aspose.Words per Java esempi dal nostro repository GitHub e impara come eseguirli per acquisire maggiore familiarità con le possibilità e le funzionalità di Aspose.Words."
 weight: 130
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/java/how-to-run-the-examples/
 timestamp: 2024-01-27-14-07-04
 ---

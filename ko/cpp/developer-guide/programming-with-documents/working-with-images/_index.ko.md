@@ -6,6 +6,9 @@ linktitle: 이미지 작업
 type: docs
 description: "이미지 기능 소개,다음을 사용하여 이미지를 만들고 조작하는 방법 C++."
 weight: 300
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/working-with-images/
 timestamp: 2024-01-27-14-07-04
 ---

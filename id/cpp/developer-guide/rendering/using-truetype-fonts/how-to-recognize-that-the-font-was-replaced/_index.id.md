@@ -6,6 +6,9 @@ linktitle: Bagaimana Mengenali Bahwa Font Telah Diganti
 description: "Jika Anda tidak yakin mengapa tata letak dokumen berubah atau mengapa font tertentu tidak terlihat seperti yang diharapkan, pesan peringatan penggantian font dapat membantu."
 type: docs
 weight: 13
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/cpp/how-to-recognize-that-the-font-was-replaced/
 timestamp: 2024-09-24-14-35-44
 ---

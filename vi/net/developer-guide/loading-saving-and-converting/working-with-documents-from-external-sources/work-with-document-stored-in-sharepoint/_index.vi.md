@@ -6,6 +6,9 @@ linktitle: Làm việc với tài liệu được lưu trữ trong SharePoint tr
 description: "Chuyển đổi Word được chia sẻ trong SharePoint sang PDF bằng C#. Làm việc với các tài liệu được lưu trữ trong SharePoint – nhiều định dạng đầu vào khác nhau, bao gồm Word, OpenOffice, Hình ảnh và Sách điện tử."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/work-with-document-stored-in-sharepoint/
 timestamp: 2024-10-21-11-17-44
 ---

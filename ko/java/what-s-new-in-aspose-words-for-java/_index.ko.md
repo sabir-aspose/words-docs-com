@@ -8,6 +8,7 @@ description: "Aspose.Words에 대한Java매일 확장하고 향상시킵니다. 
 weight: 2
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/what-s-new-in-aspose-words-for-java/
 timestamp: 2025-06-23-21-02-49
 ---

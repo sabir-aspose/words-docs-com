@@ -6,6 +6,9 @@ linktitle: Chèn Checkboxes, Nhập Văn bản hoặc Hình ảnh
 description: "Chèn checkbox es hoặc các trường nhập văn bản trong Mail Merge sử dụng C#. Cũng chèn hình ảnh từ Cơ sở dữ liệu trong Mail Merge trong C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/insert-checkboxes-text-input-or-images-mail-merge/
 timestamp: 2024-07-11-08-07-06
 ---

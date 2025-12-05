@@ -6,6 +6,9 @@ linktitle: Waar gebruiken Typelettertypen
 description: "Aspose.Words voor .NET kan het juiste lettertype of de geschikte vervanging voor de juiste document rendering vinden met behulp van C#. Dit zorgt ervoor dat het verschil tussen het weergegeven document en het origineel minimaal is als er onvoldoende informatie over een lettertype is."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

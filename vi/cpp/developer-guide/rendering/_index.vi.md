@@ -6,6 +6,9 @@ linktitle: Kết xuất
 description: "Sử dụng Aspose.Words cho C++ tính năng kết xuất để định dạng tài liệu bố cục luồng thành các trang và chuyển đổi tài liệu đó hoặc các trang đã chọn sang các tài liệu khác (PDF, HTML, XPS, v. v.) hoặc hình ảnh(TIFF, PNG, SVG, v. v.) các định dạng để xem, chuyển đổi thêm hoặc in."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/rendering/
 timestamp: 2024-01-30-16-22-34
 ---

@@ -6,6 +6,9 @@ linktitle: Редагування документів обмеження
 description: "Обмеження редагування документа шляхом встановлення типу обмеження Pythonй Ви також можете видалити захист і зробити обмежені редаговані регіони."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/python-net/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---

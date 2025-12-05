@@ -6,6 +6,9 @@ linktitle: Візуалізація
 description: "Використовуйте функцію візуалізації Aspose.Words для C++, щоб відформатувати документ із потоковим макетом як сторінки та перетворити такий документ або вибрані сторінки в інші документи (PDF, HTML, XPS, і т. д.) або зображення (TIFF, PNG, SVG і т.д.) формати для перегляду, подальшого перетворення або друку."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/rendering/
 timestamp: 2024-01-30-16-22-34
 ---

@@ -4,6 +4,9 @@ second_title: Aspose.Words pour Python via .NET
 articleTitle: Créer ou charger un document
 linktitle: Créer ou charger un document
 type: docs
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/create-or-load-a-document/
 description: "Créez un document vierge ou chargez-le à partir d'un fichier ou d'un flux à l'aide de Python."
 keywords: "create a document python, load a document python, create a blank document python, load a document from file python, load a document from stream python, create a document Aspose python, load a document Aspose python, load formats supported by Aspose.Words python"

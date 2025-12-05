@@ -6,6 +6,9 @@ linktitle: Práce s dokumentem
 type: docs
 description: "Třída `Document` poskytuje různé vlastnosti a metody dokumentu pomocí C++. Třídu `Document` použijete jako výchozí bod pro cokoli, co chcete provést s Aspose.Words pro C++. Objekt `Document` lze uložit do souboru nebo streamu a také odeslat do prohlížeče."
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/working-with-document/
 timestamp: 2024-01-30-16-22-34
 ---

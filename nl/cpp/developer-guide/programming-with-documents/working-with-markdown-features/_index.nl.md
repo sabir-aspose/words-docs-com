@@ -6,6 +6,9 @@ linktitle: Werken met Markdown functies
 description: "Hoe Markdown functies te implementeren met C++. Alle functies worden weergegeven als overeenkomstige stijlen of directe opmaak."
 type: docs
 weight: 420
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/working-with-markdown-features/
 timestamp: 2024-01-31-14-23-37
 ---

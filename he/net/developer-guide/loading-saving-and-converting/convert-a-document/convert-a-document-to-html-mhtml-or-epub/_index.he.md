@@ -6,6 +6,9 @@ linktitle: להמיר מסמך ל- HTML, MHTML או EPUB
 description: "להמיר מסמך כמעט מכל פורמט ל- HTML או MHTML, כמו גם לתבנית EPUB באמצעות C#. ניתן גם לציין אפשרויות הצלה לניהול מסמך הפלט."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/convert-a-document-to-html-mhtml-or-epub/
 timestamp: 2024-07-09-19-00-42
 ---

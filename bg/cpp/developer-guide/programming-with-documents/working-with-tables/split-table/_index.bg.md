@@ -6,6 +6,9 @@ linktitle: Сплит Таблица
 description: "Разделете таблицата в C++. Как да разделите една таблица на две отделни таблици C++."
 type: docs
 weight: 100
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/split-table/
 timestamp: 2024-01-27-14-07-04
 ---

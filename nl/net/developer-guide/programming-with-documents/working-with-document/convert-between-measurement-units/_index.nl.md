@@ -6,6 +6,9 @@ linktitle: Converteren tussen meeteenheden
 description: "Aspose.Words voor .NET kan u helpen met het omzetten tussen meeteenheden, bijvoorbeeld, inches naar punten en punten naar inches, pixels naar punten, punten naar pixels met behulp van C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/convert-between-measurement-units/
 timestamp: 2024-01-27-14-07-04
 ---

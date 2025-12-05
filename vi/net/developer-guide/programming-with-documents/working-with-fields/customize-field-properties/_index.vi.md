@@ -6,6 +6,9 @@ linktitle: Tùy chỉnh thuộc tính trường
 description: "Tìm hiểu cách tùy chỉnh thuộc tính trường trong C#. Đổi tên các trường hợp nhất hoặc lấy kết quả cho các trường không có nút phân cách trong .NET."
 type: docs
 weight: 27
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

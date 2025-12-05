@@ -6,6 +6,9 @@ linktitle: Aspose.Words Obiektowy Model Dokumentu (DOM)
 type: docs
 description: "Model obiektowy dokumentu (DOM) jest reprezentacją dokumentu Word w pamięci. Odczytywanie, manipulowanie i modyfikowanie zawartości i formatowania dokumentu Word przy użyciu C++."
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/aspose-words-document-object-model/
 timestamp: 2024-01-27-14-07-04
 ---

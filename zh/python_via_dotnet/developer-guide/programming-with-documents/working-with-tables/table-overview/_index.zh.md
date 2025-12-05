@@ -6,6 +6,9 @@ linktitle: 表概览
 description: "使用 Aspose.Words for Python 中的表格及其组件，例如单元格、行、列。如何使用 Python 中的表格。"
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

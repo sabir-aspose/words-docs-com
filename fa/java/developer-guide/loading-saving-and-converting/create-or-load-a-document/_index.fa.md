@@ -5,6 +5,9 @@ articleTitle: ایجاد یا بارگذاری یک سند
 linktitle: ایجاد یا بارگذاری یک سند
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/create-or-load-a-document/
 description: "Aspose.Words شما را قادر می سازد تا یک سند خالی ایجاد کنید یا آن را از یک فایل یا جریان با استفاده از Java بارگذاری کنید."
 timestamp: 2024-01-27-14-07-04

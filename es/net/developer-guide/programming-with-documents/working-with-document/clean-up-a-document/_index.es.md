@@ -6,6 +6,9 @@ linktitle: Limpiar un documento
 description: "Elimine la información no utilizada o duplicada para reducir el tamaño de salida y el tiempo de procesamiento utilizando C#. Elimine estilos no utilizados, estilos integrados no utilizados, estilos duplicados o listas no utilizadas."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

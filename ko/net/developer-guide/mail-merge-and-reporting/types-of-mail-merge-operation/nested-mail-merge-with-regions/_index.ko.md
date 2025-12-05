@@ -7,6 +7,9 @@ type: docs
 description: "C#를 사용하여 중첩된 영역으로Mail Merge작업을 수행합니다. 중첩 병합은 데이터 원본의 계층적 데이터를 병합 템플릿으로 병합할 수 있는 기능입니다."
 keywords: "mail merge with nested regions c#"
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/nested-mail-merge-with-regions/
 timestamp: 2024-07-11-08-07-06
 ---

@@ -6,6 +6,9 @@ linktitle: Aspose.Words Modèle d'objet de document (DOM)
 type: docs
 description: "Le modèle d'objet de document (DOM) est une représentation en mémoire d'un document Word. Lisez, manipulez et modifiez le contenu et la mise en forme d'un document Word à l'aide de C++."
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/aspose-words-document-object-model/
 timestamp: 2024-01-27-14-07-04
 ---

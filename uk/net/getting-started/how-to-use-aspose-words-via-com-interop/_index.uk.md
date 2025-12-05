@@ -6,6 +6,9 @@ linktitle: Як використовувати Aspose.Words для .NET Заре
 type: docs
 description: "Зареєструватися Aspose.Words для .NET Зареєструватися COM Interop в Python, PHP, VBScript, JScript та інші мови програмування."
 weight: 130
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/how-to-use-aspose-words-via-com-interop/
 timestamp: 2024-09-25-11-08-55
 ---

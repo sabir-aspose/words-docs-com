@@ -6,6 +6,9 @@ linktitle: 를 통해 차트 작업 Shape.Chart 개체
 description: "세부 차트,차트가 모양 노드와 연결된 방법 Aspose.Words 에 대한 C++."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/working-with-charts-through-shape-chart-object/
 timestamp: 2024-01-27-14-07-04
 ---

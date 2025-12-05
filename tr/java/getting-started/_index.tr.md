@@ -6,6 +6,9 @@ linktitle: Başlarken
 type: docs
 description: "Bu girişimi Aspose.Words için Java temel kavramları için kullanın ve Aspose.Words'in işiniz için değerini anlamaya başlamak için."
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/getting-started/
 timestamp: 2024-09-25-11-08-55
 ---

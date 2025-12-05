@@ -6,6 +6,9 @@ linktitle: Giới thiệu về Trường hợp
 description: "Tính năng trường trong chi tiết, mã trường và kết quả được giải thích ở Aspose.Words cho Java."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/introduction-to-fields/
 timestamp: 2024-09-25-11-08-55
 ---

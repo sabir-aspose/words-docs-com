@@ -6,6 +6,9 @@ linktitle: Използване DocumentBuilder Вмъкване на елеме
 type: docs
 description: "Вмъкване на елементи на документа с помощта на създателя на документа в Java."
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/use-documentbuilder-to-insert-document-elements/
 timestamp: 2024-01-27-14-07-04
 ---

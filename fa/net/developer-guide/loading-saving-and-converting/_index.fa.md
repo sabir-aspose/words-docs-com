@@ -6,6 +6,9 @@ linktitle: بارگیری، ذخیره و تبدیل
 description: "نحوه تبدیل یک سند از یک فرمت به فرمت دیگر، مانند Word به PDF یا HTML به Markdown، و همچنین نحوه بارگیری و ذخیره یک سند با استفاده از C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---

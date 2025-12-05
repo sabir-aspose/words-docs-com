@@ -6,6 +6,9 @@ linktitle: 시스템 요구 사항
 description: "Java에 대해Aspose.Words작업을 시작하기 전에 운영 체제,플랫폼,프레임워크 및 환경 요구 사항을 충족해야 장치의 활동이 제대로 고려됩니다."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/system-requirements/
 timestamp: 2024-01-27-14-07-04
 ---

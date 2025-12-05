@@ -6,6 +6,9 @@ linktitle: Konwersja na format strony Fixed
 description: "Aspose.Words zamiast Java wdraża własny silnik układu stron umożliwiający mu produkcję wszystkich stałych formatów stron, takich jak PDF, XPS, i różne formaty obrazów."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/converting-to-fixed-page-format/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: Програмиране с документи
 type: docs
 description: "Използвайте класовете Aspose.Words обектен модел на документ, за да програмно създавате, променяте и управлявате документи, използвайки C++. Работа със свойства на документа, настройки и съдържание, както и с външния вид на документа чрез управлението на цветове, фигури, шрифтове и други графики."
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

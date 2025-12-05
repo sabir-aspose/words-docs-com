@@ -6,6 +6,9 @@ linktitle: Chuyển đổi một tài liệu thành hình ảnh
 type: docs
 description: "Chuyển đổi một tài liệu sang định dạng hình ảnh (JPG, PNG, v.v.). Tạo bản xem tài liệu hoặc tạo bản quét tài liệu để gửi hóa đơn bằng cách sử dụng Java."
 weight: 35
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/convert-a-document-to-an-image/
 timestamp: 2024-01-27-14-07-04
 ---

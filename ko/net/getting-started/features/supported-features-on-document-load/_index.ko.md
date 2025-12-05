@@ -6,6 +6,9 @@ linktitle: 문서 로드 시 지원되는 기능
 description: "가장 널리 사용되는 형식의 문서를 로드하고 변환하며 C#를 사용하여 다양한 Microsoft Word 기능을 지원합니다."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/supported-features-on-document-load/
 timestamp: 2024-01-27-14-07-04
 ---

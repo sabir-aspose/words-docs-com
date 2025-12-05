@@ -6,6 +6,9 @@ linktitle: Applica stile tabella
 description: "Formattazione avanzata della tabella C++. Creare uno stile di tabella utilizzando C++. Applicare lo stile di tabella C++."
 type: docs
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/cpp/working-with-tablestyle/
 timestamp: 2024-01-27-14-07-04
 ---

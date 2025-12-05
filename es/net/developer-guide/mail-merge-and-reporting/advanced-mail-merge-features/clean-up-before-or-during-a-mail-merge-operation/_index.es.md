@@ -7,6 +7,9 @@ type: docs
 description: "Aplique diferentes opciones de limpieza y eliminación, como eliminar campos de combinación antes de realizar una operación Mail Merge o eliminar regiones no utilizadas durante una operación Mail Merge con C#."
 keywords: "cleanup options Mail Merge c#"
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/clean-up-before-or-during-mail-merge/
 timestamp: 2024-07-11-08-07-06
 ---

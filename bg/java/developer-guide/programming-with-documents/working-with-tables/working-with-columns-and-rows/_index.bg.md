@@ -6,6 +6,9 @@ linktitle: Работа с колони и редове
 description: "Работа с части от таблица, колони и клетки, използващи Java. Посочване на реда на заглавните части Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/working-with-columns-and-rows/
 timestamp: 2024-01-27-14-07-04
 ---

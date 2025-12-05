@@ -6,6 +6,9 @@ linktitle: الميزات المدعومة
 description: "يوفر Aspose.Words for Python via .NET للمستخدمين مجموعة واسعة من الميزات بدءًا من تحويل المستندات وتعديلها ببساطة إلى إنشاء مستندات منظمة وجذابة بصريًا أو أتمتة التقارير."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/features/
 timestamp: 2024-10-21-11-17-44
 ---

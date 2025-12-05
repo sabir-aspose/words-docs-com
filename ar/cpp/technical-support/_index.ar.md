@@ -6,6 +6,9 @@ linktitle: الدعم الفني
 type: docs
 description: "Aspose.Words ل C++ يوفر الدعم الفني المجاني المتاح لجميع المستخدمين. الرجاء الإبلاغ عن سؤالك, قضية,أو طلب ميزة باستخدام منتدى الدعم المجاني."
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/technical-support/
 timestamp: 2024-01-27-14-07-04
 ---

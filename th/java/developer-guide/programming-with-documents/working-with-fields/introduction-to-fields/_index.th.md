@@ -6,6 +6,9 @@ linktitle: รู้เบื้องต้นเกี่ยวกับฟิ
 description: "ฟิลด์คุณลักษณะในรายละเอียดรหัสฟิลด์และผลลัพธ์ฟิลด์อธิบายในAspose.WordsสำหรับJava."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/introduction-to-fields/
 timestamp: 2024-09-25-11-08-55
 ---

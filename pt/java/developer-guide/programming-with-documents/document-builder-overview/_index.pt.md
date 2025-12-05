@@ -6,6 +6,9 @@ linktitle: Visão Geral Do Document Builder
 type: docs
 description: "DocumentBuilder permite criar documentos dinâmicos a partir do zero ou adicionar novos elementos aos existentes. DocumentBuilder fornece métodos para inserir texto, checkbox es, tabelas, imagens e outros elementos de conteúdo em Java."
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/java/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: עבודה עם אפשרויות והופעת מסמכי Word
 description: "לשלוט במראה של מסמכי Word לקחת בחשבון את ההבדל בין שונים Microsoft Word גרסאות באמצעות Java."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/work-with-word-document-options-and-appearance/
 timestamp: 2024-01-27-14-07-04
 ---

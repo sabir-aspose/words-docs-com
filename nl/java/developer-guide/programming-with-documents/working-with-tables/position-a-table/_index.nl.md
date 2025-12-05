@@ -6,6 +6,9 @@ linktitle: Plaats een tabel
 description: "Tabelpositie opgeven in Java. Krijg een tabel uitlijning, krijgen en instellen drijvende tabel positie met behulp van Java."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/java/position-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

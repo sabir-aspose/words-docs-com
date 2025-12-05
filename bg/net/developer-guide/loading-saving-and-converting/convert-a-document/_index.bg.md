@@ -4,6 +4,9 @@ second_title: Aspose.Words вместо .NET
 articleTitle: Конвертиране на документ
 linktitle: Конвертиране на документ
 type: docs
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/convert-a-document/
 weight: 30
 description: "Лесно конвертиране на документи от един формат в друг чрез използване C#. Можете да работите с всички най-популярни формати като Microsoft Word формати като DOCX или DOC, формати с отворен документ като OTT или OTT, уеб формати като HTML или XHTML, текстови формати като MarkDown или TXT, и други."

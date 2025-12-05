@@ -6,6 +6,9 @@ linktitle: フィールドの更新
 description: "C++でフィールドを更新する方法について説明します。 プログラムで項目を更新するか、C++APIを使用して自動項目更新を使用します。"
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/update-fields/
 timestamp: 2024-01-27-14-07-04
 ---

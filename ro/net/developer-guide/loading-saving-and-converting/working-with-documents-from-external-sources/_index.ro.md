@@ -6,6 +6,9 @@ linktitle: Lucrul cu documente de la surse externe
 description: "Cum să încărcăm documente din surse externe în C#. Încarcă fișiere PDF, DOCX, DOC, RTF, ODT, EPUB, HTML și alte tipuri de fișiere din SharePoint sau dintr-o bază de date pentru a fi prelucrate în continuare folosind C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/working-with-documents-from-external-sources/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -7,6 +7,9 @@ type: docs
 description: "مناطق مختلفی را در قالب خود ایجاد کنید تا مناطق خاصی داشته باشید که می توانید به سادگی با داده های خود پر کنید. از Mail Merge با مناطق استفاده کنید اگر می خواهید جداول، ردیف هایی با داده های تکراری را وارد کنید تا اسناد شما به طور پویا رشد کنند."
 keywords: "how to execute Mail Merge c++"
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/mail-merge-with-regions/
 timestamp: 2024-09-24-14-35-44
 ---

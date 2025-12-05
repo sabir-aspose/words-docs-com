@@ -6,6 +6,9 @@ linktitle: Arbeiten mit SmartArt Cold Rendering
 type: docs
 description: "Aspose.Words für Python via .NET führt SmartArt Cold Rendering durch, was bedeutet, dass es SmartArt-Objekte anordnet und rendert, wenn die vorgerenderte SmartArt-Zeichnung fehlt oder falsch ist."
 weight: 330
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/python-net/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

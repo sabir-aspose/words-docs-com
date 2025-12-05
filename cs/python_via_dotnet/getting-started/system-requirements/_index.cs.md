@@ -6,6 +6,9 @@ linktitle: Požadavky na systém
 description: "Než začnete pracovat s Aspose.Words místo Python via .NET, zajistit, abyste splnili požadavky na operační systém, platformu a životní prostředí, takže činnosti na vašich zařízeních jsou řádně zaúčtovány."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/python-net/system-requirements/
 timestamp: 2024-04-27-18-03-32
 ---

@@ -6,6 +6,9 @@ linktitle: Metin Belgesiyle Çalışmak
 description: "C# kullanarak gelişmiş TXT belge işleme, listeler, BiDi, üstbilgi/altbilgi."
 type: docs
 weight: 430
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/working-with-text-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Hoe Om Pasmaak Toe te Pas tydens Mail Merge
 type: docs
 description: "Pas pasgemaakte opmaak toe tydens'n Mail Merge - bewerking met Java."
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/java/how-to-apply-custom-formatting-during-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

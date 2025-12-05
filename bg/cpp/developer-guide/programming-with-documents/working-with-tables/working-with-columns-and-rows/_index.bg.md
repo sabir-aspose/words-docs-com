@@ -6,6 +6,9 @@ linktitle: Работа с колони и редове
 description: "Работа с части от таблица – редове, колони и клетки, използващи C++. Посочете Заглавния Ред C++."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/working-with-columns-and-rows/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: API Reference
 type: docs
 weight: 40
 description: ".NET 類別和方法的說明及範例，以 Aspose.Words 的形式解釋如何生成、轉換、修改、顯示和列印文件，而不使用 Microsoft Word 。"
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/api-reference/
 timestamp: 2024-01-27-14-07-04
 ---

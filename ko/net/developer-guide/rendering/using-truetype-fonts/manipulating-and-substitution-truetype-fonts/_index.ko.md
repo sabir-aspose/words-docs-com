@@ -6,6 +6,9 @@ linktitle: 트루타입 글꼴 조작 및 대체
 description: ".NET용 Aspose.Words는 결과 문서에 올바른 트루타입 글꼴을 포함시켜 C#을 사용하여 정확하게 표시되도록 할 수 있습니다. 글꼴이나 특정 문자를 사용할 수 없는 경우 Aspose.Words는 적합한 글꼴 대체를 검색하거나 글꼴 대체 메커니즘을 사용합니다."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/manipulating-and-substitution-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

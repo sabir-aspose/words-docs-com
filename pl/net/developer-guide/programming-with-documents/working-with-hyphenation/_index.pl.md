@@ -6,6 +6,9 @@ linktitle: Praca z dzieleniem wyrazów
 description: "Użyj dzielenia wyrazów, aby uzyskać bardziej zwarty układ tekstu w formacie C#. Zapewnia zaawansowane algorytmy do pracy ze słownikami dzielenia wyrazów, wykorzystuje słowniki OpenOffice."
 type: docs
 weight: 220
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---

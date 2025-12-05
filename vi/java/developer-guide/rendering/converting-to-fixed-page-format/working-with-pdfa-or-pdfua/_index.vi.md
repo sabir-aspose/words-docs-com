@@ -6,6 +6,9 @@ linktitle: Làm việc với PDF/A hoặc PDF/UA
 description: "Chuyển sang PDF/A-1, PDF/A-2, PDF/A-4 và PDF/UA bằng Java. Có vài vấn đề khi chuyển đổi sang các tài liệu PDF/A, và Aspose.Words cho Java giải quyết chúng."
 type: docs
 weight: 28
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/working-with-pdfa-or-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

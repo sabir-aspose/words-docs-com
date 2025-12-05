@@ -6,6 +6,9 @@ linktitle: Sử dụng Phông chữ TrueType
 description: "Cách tìm được phông chữ đúng hoặc sự thay thế phù hợp nếu phông chữ cần thiết không thể tìm thấy, cho việc hiển thị chính xác sử dụng Aspose.Words cho Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Trabajar con Texto en una tabla
 description: "Reemplace el texto en una tabla en Java. Extraiga texto sin formato de la Tabla o Celda usando Java."
 type: docs
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/java/extract-text-from-and-replace-text-in-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Bekerja dengan SDT Kontrol Konten
 description: "Dengan menggunakan python Anda dapat menyematkan semantik yang ditentukan pelanggan serta perilaku dan tampilannya ke dalam dokumen."
 type: docs
 weight: 390
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/python-net/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---

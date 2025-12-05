@@ -6,6 +6,9 @@ linktitle: Redarea
 description: "Utilizați Aspose.Words pentru caracteristica de redare .NET pentru a formata un document cu aranjare în coloane în pagini și pentru a converti un astfel de document sau pagini selectate în alte documente (PDF, HTML, XPS, etc.) sau imagini (TIFF, PNG, SVG, etc.) pentru vizualizare, conversii ulterioare sau imprimare folosind C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/rendering/
 timestamp: 2024-01-27-14-07-04
 ---

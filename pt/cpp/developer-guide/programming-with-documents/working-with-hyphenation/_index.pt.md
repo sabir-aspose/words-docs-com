@@ -6,6 +6,9 @@ linktitle: Trabalhando com hifenização
 description: "Use hifenização para um arranjo mais compacto do texto usando C++. Ele fornece algoritmos avançados para trabalhar com dicionários de hifenização, usa dicionários OpenOffice."
 type: docs
 weight: 220
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/working-with-hyphenation/
 timestamp: 2024-01-30-16-22-34
 ---

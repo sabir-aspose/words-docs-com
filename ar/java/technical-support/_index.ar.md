@@ -6,6 +6,9 @@ linktitle: الدعم الفني
 type: docs
 description: "Aspose.Words ل Java يوفر الدعم الفني المجاني المتاحة لجميع المستخدمين. الرجاء الإبلاغ عن سؤالك, قضية,أو طلب ميزة باستخدام منتدى الدعم المجاني."
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/technical-support/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Преобразуване във формат с фиксирана 
 description: "Запис на документи в PDF, XPS, HTML, XAML, PostScript и PCL формати, използвайки C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/converting-to-fixed-page-format/
 timestamp: 2024-07-10-08-10-45
 ---

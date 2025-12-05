@@ -6,6 +6,9 @@ linktitle: سریال سازی و کار با یک سند در یک پایگاه
 description: "تبدیل یک سند به یک آرایه بایت برای کار با این سند در یک پایگاه داده. شما می توانید یک سند را به و از پایگاه داده با استفاده از Java ذخیره و بازیابی کنید."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-01-27-14-07-04
 ---

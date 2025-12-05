@@ -6,6 +6,9 @@ linktitle: Bir Belgeyi Koruyun veya Şifreleyin
 description: "Aspose.Words için C++ belge koruması için Salt Okunur, Belgeyi Şifreler, Düzenlemeyi Kısıtlar ve Dijital İmzalar sağlar. Aspose.Words çoğu Kelime koruma seçeneğini destekler."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

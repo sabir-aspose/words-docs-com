@@ -6,6 +6,9 @@ linktitle: ภาพรวมตัวสร้างเอกสาร
 type: docs
 description: "DocumentBuilder ช่วยให้คุณสร้างเอกสารแบบไดนามิกตั้งแต่เริ่มต้นหรือเพิ่มองค์ประกอบใหม่ให้กับเอกสารที่มีอยู่โดยใช้ Python DocumentBuilder มีวิธีแทรกข้อความ ช่องทำเครื่องหมาย ตาราง รูปภาพ และองค์ประกอบเนื้อหาอื่นๆ ใน Python"
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/python-net/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: แทรกและผนวกเอกสาร
 description: "รวมเอกสารเข้าด้วยกัน:แทรกหรือต่อท้ายเอกสารลงในใหม่หรือที่มีอยู่โดยใช้การค้นหาและแทนที่,ผสาน,บุ๊กมาร์ก,หรือเพียงแค่ที่สิ้นสุดของเอกสารในJava."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

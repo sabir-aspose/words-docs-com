@@ -6,6 +6,9 @@ linktitle: 如何Mail MergePDF到单词转换
 type: docs
 description: "Aspose.WordsforJava提供了一些高级的Mail Merge功能，允许您将PDF合并为单词转换。"
 weight: 100
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/how-to-mail-merge-pdf-to-word-conversion/
 timestamp: 2024-01-27-14-07-04
 ---

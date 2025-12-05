@@ -6,6 +6,9 @@ linktitle: 產品概覽
 description: "Aspose.Words for .NET是一款專為在不依賴任何其他軟體的情況下，編造、修改、轉換、渲染與列印文件而設計之軟體程式庫。"
 type: docs
 weight: 15
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/product-overview/
 timestamp: 2024-01-31-14-23-37
 ---

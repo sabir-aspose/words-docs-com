@@ -6,6 +6,9 @@ linktitle: Arbeiten mit asiatischer Typografie
 description: "Arbeiten Sie mit asiatischer Typografie mit C#. Passen Sie den Abstand zwischen asiatischem und lateinischem Text in C# an."
 type: docs
 weight: 240
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/working-with-asian-typography/
 timestamp: 2024-02-01-16-17-05
 ---

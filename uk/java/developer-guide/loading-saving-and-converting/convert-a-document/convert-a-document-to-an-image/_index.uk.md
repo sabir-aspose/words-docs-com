@@ -6,6 +6,9 @@ linktitle: Перетворення документа в зображення
 type: docs
 description: "Перетворення документа в формат зображення (JPG, PNG тощо). Створіть попередній перегляд документа або створіть сканування документів для відправки рахунку-фактури Javaй"
 weight: 35
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/java/convert-a-document-to-an-image/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 许可和订阅
 description: "Aspose.Words for .NET 提供不同的购买计划，或提供免费试用版和 30 天临时许可证，以使用 C# 中的许可和订阅策略进行评估。"
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

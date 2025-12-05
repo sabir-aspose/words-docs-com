@@ -6,6 +6,9 @@ linktitle: フィールドの更新
 description: "Javaのフィールドを更新する方法を学習します。 プログラムでフィールドを更新するか、JavaAPIを使用して自動フィールド更新を使用します"
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/update-field/
 timestamp: 2024-01-27-14-07-04
 ---

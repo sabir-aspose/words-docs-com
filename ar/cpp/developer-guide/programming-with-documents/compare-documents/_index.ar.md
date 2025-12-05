@@ -6,6 +6,9 @@ linktitle: قارن المستندات
 type: docs
 description: "قارن بين وثيقتين بأي تنسيقات مدعومة ويعرض تغييرات المحتوى باستخدام C++. يمكنك تطبيق خيارات متقدمة عند المقارنة."
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/compare-documents/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Робота з заголовками та ногами
 description: "Створення, управління та видалення заголовків та нижніх колонок у документі Pythonй"
 type: docs
 weight: 150
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/python-net/working-with-headers-and-footers/
 timestamp: 2024-01-27-14-07-04
 ---

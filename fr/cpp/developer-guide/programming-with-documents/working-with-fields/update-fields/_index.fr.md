@@ -6,6 +6,9 @@ linktitle: Mettre à Jour les Champs
 description: "Apprenez à mettre à jour les champs en C++. Mettez à jour les champs par programme ou utilisez la mise à jour automatique des champs à l'aide de l'API C++."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/update-fields/
 timestamp: 2024-01-27-14-07-04
 ---

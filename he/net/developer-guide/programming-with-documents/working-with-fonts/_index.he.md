@@ -6,6 +6,9 @@ linktitle: עבודה עםפונטים
 description: "עיצוב עיניים בפרטים באמצעות C#. סימן הדגשה C#. קבל קו גופן ספאק באמצעות C#."
 type: docs
 weight: 230
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/working-with-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

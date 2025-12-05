@@ -6,6 +6,9 @@ linktitle: จำกัดการแก้ไขเอกสาร
 description: "จำกัดการแก้ไขเอกสารโดยการตั้งค่าชนิดข้อจำกัดโดยใช้C++ Protectionลบการป้องกันและทำให้ภูมิภาคที่สามารถแก้ไขได้ไม่จำกัด."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---

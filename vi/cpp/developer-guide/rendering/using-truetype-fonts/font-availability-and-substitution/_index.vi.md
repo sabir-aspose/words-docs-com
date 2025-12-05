@@ -6,6 +6,9 @@ linktitle: Tính khả dụng và Thay thế phông chữ
 description: "Khi không thể tìm thấy phông chữ thay thế chính xác, Aspose.Words phải thay thế nó bằng một phông chữ tương tự. Bài viết này mô tả quá trình tìm phông chữ phù hợp nhất."
 type: docs
 weight: 12
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/font-availability-and-substitution/
 timestamp: 2024-09-24-14-35-44
 ---

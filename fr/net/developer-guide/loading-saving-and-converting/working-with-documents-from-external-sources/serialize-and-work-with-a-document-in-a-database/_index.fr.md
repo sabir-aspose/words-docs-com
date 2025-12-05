@@ -6,6 +6,9 @@ linktitle: Sérialiser et travailler avec un document dans une base de données
 description: "Convertissez un document en tableau d'octets pour travailler avec ce document dans une base de données à l'aide de C#. Vous pouvez stocker et récupérer un document vers et depuis la base de données."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-07-09-19-00-42
 ---

@@ -6,6 +6,9 @@ linktitle: Dịch Markdown Sang Mô Hình Đối tượng Tài liệu (DOM)
 type: docs
 description: "Tarnslate một Markdown tài liệu Để Mô Hình Đối tượng Tài liệu và trở lại bằng cách sử dụng C++. Vì vậy, bạn có thể làm việc với Markdown phức tạp hiện có và lập trình tạo tài liệu Markdown từ đầu."
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/translate-markdown-to-document-object-model/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -7,6 +7,9 @@ type: docs
 description: "Aspose.Words vir C++ kan geïntegreer word binne Qt Om Word dokumente in Qt aansoeke te skep en te manipuleer."
 keywords: "create a document Qt Creator, load a document Qt Creator, use Aspose C++ with Qt creator, load a document Aspose C++, load formats supported by Aspose.Words C++"
 weight: 120
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/work-with-word-documents-in-qt/
 timestamp: 2024-07-11-16-13-28
 ---

@@ -6,6 +6,9 @@ linktitle: Vytvoření rozvržení stránky
 description: "Vytvoření rozvržení stránky může být nákladný postup. Aspose.Words vytvoří rozvržení stránky pouze v případě, že je to nutné: vykreslit stránky dokumentu, získat hodnotu pole, exportovat dokument do HTML atd."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/creating-a-page-layout/
 timestamp: 2024-09-24-14-35-44
 ---

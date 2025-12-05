@@ -6,6 +6,9 @@ linktitle: PDF/A 또는 PDF/UA 작업
 description: "Python를 사용하여 PDF/A-1, PDF/A-2, PDF/A-4 및 PDF/UA로 변환합니다. PDF/A 문서로 변환할 때 몇 가지 문제가 있는데 Aspose.Words for Python가 이 문제를 해결합니다."
 type: docs
 weight: 28
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/working-with-pdfa-or-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

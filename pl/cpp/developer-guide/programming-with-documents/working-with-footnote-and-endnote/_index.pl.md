@@ -6,6 +6,9 @@ linktitle: Praca z przypisem i przypisem końcowym
 description: "Jak manipulować przypisami i przypisami końcowymi za pomocą C++."
 type: docs
 weight: 160
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/working-with-footnote-and-endnote/
 timestamp: 2024-01-27-14-07-04
 ---

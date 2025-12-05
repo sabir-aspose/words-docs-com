@@ -6,6 +6,9 @@ linktitle: Configuration requise
 description: "Avant de commencer à travailler avec Aspose.Words pour .NET, assurez-vous de respecter les exigences en matière de système d'exploitation, de plate-forme, de frameworks et d'environnement afin que les activités sur vos appareils soient correctement prises en compte à l'aide de C#."
 type: docs
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/system-requirements/
 timestamp: 2024-02-01-16-17-05
 ---

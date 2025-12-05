@@ -6,6 +6,9 @@ linktitle: Клон документів
 type: docs
 description: "Підтвердіть документ, щоб отримати його ідентичну копію. При створенні копіювальних вузлів і властивостей оригінального документа клонуються за допомогою Javaй"
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/java/clone-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

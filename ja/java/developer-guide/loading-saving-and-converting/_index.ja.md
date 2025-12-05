@@ -6,6 +6,9 @@ linktitle: 読み込み、保存、変換
 description: "ドキュメントをある形式から別の形式に読み込んだり、保存したり、変換したりするときのAspose.WordsforJava機能について説明します。"
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---

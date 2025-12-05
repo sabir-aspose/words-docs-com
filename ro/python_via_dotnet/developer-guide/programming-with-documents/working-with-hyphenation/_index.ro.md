@@ -6,6 +6,9 @@ linktitle: Lucrul cu Cratimare
 description: "Utilizați cratimarea pentru un aranjament mai compact al textului folosind Python. Oferă algoritmi avansați pentru a lucra cu dicționare de cratimare, folosește dicționare OpenOffice."
 type: docs
 weight: 220
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/python-net/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---

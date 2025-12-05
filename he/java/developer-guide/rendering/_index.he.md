@@ -6,6 +6,9 @@ linktitle: Rendering
 description: "שימוש בשימוש Aspose.Words עבור Java להפוך את התכונה כדי לעצב מסמך עיכוב זרימה לתוך דפים להמיר מסמך כזה או דפים נבחרים מסמך אחר (PDF, HTML, HTML, XPS, וכו ') או תמונה (TIFF, PNG, SVG וכו ') פורמטים לצפייה, המרות נוספות, או הדפסה."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/rendering/
 timestamp: 2024-01-27-14-07-04
 ---

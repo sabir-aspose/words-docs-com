@@ -6,6 +6,9 @@ linktitle: إدراج وإلحاق المستندات
 description: "دمج المستندات في مستند واحد: قم بإدراج مستند أو إلحاقه بمستند جديد أو موجود باستخدام البحث والاستبدال، أو حقل الدمج، أو الإشارة المرجعية، أو ببساطة في نهاية المستند في C#."
 type: docs
 weight: 80
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

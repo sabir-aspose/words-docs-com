@@ -6,6 +6,9 @@ linktitle: Mail MergePDF단어 변환 방법
 type: docs
 description: "Aspose.WordsJava에 대해PDF을 단어 변환에 병합할 수 있는 고급Mail Merge기능을 제공합니다."
 weight: 100
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/how-to-mail-merge-pdf-to-word-conversion/
 timestamp: 2024-01-27-14-07-04
 ---

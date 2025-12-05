@@ -6,6 +6,9 @@ linktitle: 放置桌子
 description: "指定 Python 中的表格位置。使用 Python 获取表格对齐方式、获取和设置浮动表格位置。"
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/position-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Работа Windows Метафили
 description: "Aspose.Words вместо Python via .NET прилага своя собствена Windows Metafile player да играе Metafile формат на всички платформи и поддържа управлението на основните функции метафил и може да изпълнява обратно към различен тип метафиле плейър."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/python-net/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

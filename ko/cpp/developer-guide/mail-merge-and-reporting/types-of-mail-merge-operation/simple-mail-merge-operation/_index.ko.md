@@ -7,6 +7,9 @@ type: docs
 description: "간단한 Mail Merge 채우기 위하여 이용됩니다 Mail Merge 데이터 소스에서 필요한 데이터와 템플릿 내부의 필드-그것은 고전과 유사하다 Mail Merge 그 안에 Microsoft Word. 템플릿에 하나 이상의 병합 필드를 추가한 다음 단순 필드를 실행합니다 Mail Merge 작동."
 keywords: "how to execute Mail Merge c++"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/simple-mail-merge-operation/
 timestamp: 2024-09-24-14-35-44
 ---

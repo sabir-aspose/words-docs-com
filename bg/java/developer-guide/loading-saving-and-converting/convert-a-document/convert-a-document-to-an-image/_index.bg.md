@@ -6,6 +6,9 @@ linktitle: Преобразуване на документ в изображе�
 type: docs
 description: "Конвертиране на документ във формат на изображение (JPG, PNG и др.). Създаване на преглед на документ или създаване на сканиране на документ, за да изпрати фактура, използвайки Java."
 weight: 35
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/convert-a-document-to-an-image/
 timestamp: 2024-01-27-14-07-04
 ---

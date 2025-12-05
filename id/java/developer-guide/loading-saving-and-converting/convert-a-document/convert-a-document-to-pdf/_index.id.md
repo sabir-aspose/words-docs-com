@@ -6,6 +6,9 @@ linktitle: Konversikan Dokumen menjadi PDF
 description: "Konversikan dokumen dalam Word atau format lain yang didukung ke PDF, yang mempertahankan tampilan asli dokumen selama perenderannya di berbagai platform menggunakan Java."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/java/convert-a-document-to-pdf/
 timestamp: 2024-01-31-14-23-37
 ---

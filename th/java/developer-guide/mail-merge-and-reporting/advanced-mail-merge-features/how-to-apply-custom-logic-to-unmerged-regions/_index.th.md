@@ -6,6 +6,9 @@ linktitle: วิธีการใช้ลอจิกแบบกำหนด
 type: docs
 description: "ใช้ตรรกะแบบกำหนดเองกับพื้นที่ที่ไม่รวมระหว่างการดำเนินการMail Mergeโดยใช้Java."
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/how-to-apply-custom-logic-to-unmerged-regions/
 timestamp: 2024-01-27-14-07-04
 ---

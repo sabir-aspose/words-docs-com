@@ -6,6 +6,9 @@ linktitle: سیستم مورد نیاز
 description: "قبل از شروع کار با Aspose.Words برای .NET، مطمئن شوید که سیستم عامل، پلتفرم، چارچوب‌ها و شرایط محیطی را برآورده می‌کنید تا فعالیت‌های دستگاه‌های شما به درستی با استفاده از C# محاسبه شوند."
 type: docs
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/system-requirements/
 timestamp: 2024-02-01-16-17-05
 ---

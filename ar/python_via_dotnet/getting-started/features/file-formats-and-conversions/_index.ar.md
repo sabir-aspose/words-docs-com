@@ -6,6 +6,9 @@ linktitle: تنسيقات الملفات والتحويلات
 description: "قم بتحويل المستندات من أي تحميل مدعوم لحفظ التنسيق باستخدام سطرين فقط من كود Python. يوفر تحويلات عالية الجودة."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/file-formats-and-conversions/
 timestamp: 2024-01-31-14-23-37
 ---

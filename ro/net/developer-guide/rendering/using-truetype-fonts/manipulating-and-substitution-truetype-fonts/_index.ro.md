@@ -6,6 +6,9 @@ linktitle: Manipulează şi înlocuieşte Fonturile TrueType
 description: "Aspose.Words pentru .NET poate insera fonturile corecte TrueType în documentul rezultat pentru a se asigura că acesta este afișat corect folosind C#. Dacă un font sau caracter specific nu este disponibil, Aspose.Words caută o înlocuire a fontului sau folosește mecanismul de recuperare a fontului."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/manipulating-and-substitution-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

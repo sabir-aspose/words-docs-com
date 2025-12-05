@@ -6,6 +6,9 @@ linktitle: Joindre des tables
 description: "Joignez des tables dans un document à l'aide de Python. Comment fusionner deux tables en une seule dans Python."
 type: docs
 weight: 90
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/join-tables/
 timestamp: 2024-01-27-14-07-04
 ---

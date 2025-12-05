@@ -7,6 +7,9 @@ type: docs
 description: "Eseguire un'operazione Mail Merge con regioni nidificate usando C#. L'unione nidificata è una funzionalità che consente di unire i dati gerarchici dall'origine dati al modello di unione."
 keywords: "mail merge with nested regions c#"
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/nested-mail-merge-with-regions/
 timestamp: 2024-07-11-08-07-06
 ---

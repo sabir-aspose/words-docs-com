@@ -6,6 +6,9 @@ linktitle: Làm việc với Các Cột và Hàng
 description: "Làm việc với các phần của bảng-hàng, cột và ô bằng C++. Chỉ Định Hàng Tiêu Đề C++."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/working-with-columns-and-rows/
 timestamp: 2024-01-27-14-07-04
 ---

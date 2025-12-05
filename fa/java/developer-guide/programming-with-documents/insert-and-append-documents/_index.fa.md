@@ -6,6 +6,9 @@ linktitle: اسناد را وارد و اضافه کنید
 description: "اسناد را به یک ترکیب کنید: یک سند را به یک سند جدید یا موجود با استفاده از find and replace، merge field، bookmark یا به سادگی در انتهای سند در Java وارد یا اضافه کنید."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

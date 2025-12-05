@@ -8,6 +8,9 @@ linktitle: Często zadawane pytania
 type: docs
 description: "Aspose.Words dla .NET odpowiada na najczęściej zadawane pytania. Zapoznaj się z tą stroną, aby szybko rozwiązać swój problem w zakresie ogólnych pytań lub konkretnych tematów."
 weight: 75
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/faq/
 timestamp: 2024-11-18-12-56-02
 ---

@@ -6,6 +6,9 @@ linktitle: PDF/A ve PDF/UA'ya Kaydederken Erişilebilirlik Sorunu Uyarıları
 description: "PDF/A ve PDF/UA, belge içeriğiyle ilgili erişilebilirlik gereksinimleri uygular. C#'te PDF/A veya PDF/UA'ya kaydederken sorun uyumluluğu ihlal ettiğinde bir uyarı verilir."
 type: docs
 weight: 29
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

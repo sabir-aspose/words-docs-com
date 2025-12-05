@@ -6,6 +6,9 @@ linktitle: Làm việc với tài liệu được lưu trữ trong Liferay
 description: "So sánh các tài liệu Word được chia sẻ trong Liferay bằng C#. Làm việc với các tài liệu được lưu trữ trong Liferay – nhiều định dạng đầu vào khác nhau, bao gồm Word, OpenOffice, Hình ảnh và Sách điện tử."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/work-with-document-stored-in-liferay/
 timestamp: 2024-01-31-14-23-37
 ---

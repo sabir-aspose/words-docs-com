@@ -6,6 +6,9 @@ linktitle: پیگیری تغییرات در یک سند
 description: "تغییرات محتوا و قالب بندی انجام شده توسط شما یا دیگران را با استفاده از C++ ردیابی کنید. به بازنگری های فردی در یک سند دسترسی داشته باشید و ویژگی های مختلفی را برای آنها اعمال کنید."
 type: docs
 weight: 270
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/track-changes-in-a-document/
 timestamp: 2024-01-30-16-22-34
 ---

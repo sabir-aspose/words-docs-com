@@ -6,6 +6,9 @@ linktitle: แปลงเอกสารเป็นPDF
 description: "แปลงเอกสารเป็นPDFโดยใช้C++ รูปแบบการป้อนข้อมูลต่างๆได้รับการสนับสนุนรวมทั้งคำOpenOfficeรูปภาพและรูปแบบeBook."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/convert-a-document-to-pdf/
 timestamp: 2024-10-21-08-52-03
 ---

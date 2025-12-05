@@ -8,6 +8,9 @@ linktitle: Pertanyaan Umum
 type: docs
 description: "Aspose.Words untuk .NET menjawab pertanyaan yang paling sering diajukan. Pelajari halaman ini untuk menyelesaikan masalah Anda dengan cepat pada pertanyaan umum atau topik tertentu."
 weight: 75
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/net/faq/
 timestamp: 2024-11-18-12-56-02
 ---

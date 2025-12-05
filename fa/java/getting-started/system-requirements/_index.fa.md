@@ -6,6 +6,9 @@ linktitle: الزامات سیستم
 description: "قبل از شروع کار با Aspose.Words برای Java، اطمینان حاصل کنید که سیستم عامل، پلتفرم، چارچوب ها و الزامات محیط را برآورده می کنید تا فعالیت های دستگاه های شما به درستی محاسبه شود."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/system-requirements/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Bekerja dengan Dokumen
 type: docs
 description: "Kelas `Document` menyediakan berbagai properti dan metode dokumen menggunakan Python. Anda menggunakan kelas `Document` sebagai titik awal untuk apa pun yang ingin Anda lakukan dengan Aspose.Words untuk Python. Objek `Document` dapat disimpan ke file atau stream dan juga dikirim ke browser."
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/python-net/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---

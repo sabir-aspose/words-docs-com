@@ -6,6 +6,9 @@ linktitle: Práce s dokumentem označeným značkou citlivosti
 description: "Převést Word s použitím štítku citlivosti na PDF pomocí C#. Práce s dokumenty označenými štítky citlivosti, různé vstupní formáty, včetně Word, OpenOffice, Image a eBook."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/net/work-with-document-market-by-sensitivity-label/
 timestamp: 2024-01-31-14-23-37
 ---

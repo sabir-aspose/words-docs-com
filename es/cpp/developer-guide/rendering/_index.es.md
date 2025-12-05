@@ -6,6 +6,9 @@ linktitle: Renderizado
 description: "Uso Aspose.Words para C++ función de representación para formatear un documento de diseño de flujo en páginas y convertir dicho documento o páginas seleccionadas en otros documentos (PDF, HTML, XPS, etc.) o imágenes (TIFF, PNG, SVG, etc.) formatos para visualización, conversiones adicionales o impresión."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/cpp/rendering/
 timestamp: 2024-01-30-16-22-34
 ---

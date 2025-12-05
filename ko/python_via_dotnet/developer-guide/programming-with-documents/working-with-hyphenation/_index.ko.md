@@ -6,6 +6,9 @@ linktitle: 하이픈 넣기 작업
 description: "Python를 사용하여 텍스트를 보다 간결하게 배열하려면 하이픈을 사용하세요. 하이픈 사전 작업을 위한 고급 알고리즘을 제공하고 OpenOffice 사전을 사용합니다."
 type: docs
 weight: 220
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---

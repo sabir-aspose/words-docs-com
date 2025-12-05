@@ -6,6 +6,9 @@ linktitle: کار با خط فاصله
 description: "از خط فاصله برای چیدمان فشرده تر متن با استفاده از C# استفاده کنید. این الگوریتم های پیشرفته ای را برای کار با دیکشنری های خط خطی ارائه می دهد، از دیکشنری های OpenOffice استفاده می کند."
 type: docs
 weight: 220
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---

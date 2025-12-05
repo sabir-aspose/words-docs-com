@@ -6,6 +6,9 @@ linktitle: Melacak Perubahan dalam Dokumen
 description: "Lacak perubahan pada konten dan pemformatan yang dibuat oleh Anda atau orang lain. Akses revisi individual dalam dokumen dan terapkan berbagai properti padanya menggunakan Java."
 type: docs
 weight: 270
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/java/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Логически нива на възли в документ
 type: docs
 description: "В Aspose.Words за C++ документация се споменават логически нива на възли-ниво блок, ниво инлайн или ниво ред. Нивото на възела се използва за описание на местоположението в документното дърво, където обикновено се появява възелът."
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

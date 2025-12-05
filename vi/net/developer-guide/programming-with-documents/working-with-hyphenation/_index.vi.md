@@ -6,6 +6,9 @@ linktitle: Làm việc với dấu gạch nối
 description: "Sử dụng dấu gạch nối để sắp xếp văn bản gọn hơn bằng C#. Nó cung cấp các thuật toán nâng cao để làm việc với từ điển gạch nối, sử dụng từ điển OpenOffice."
 type: docs
 weight: 220
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---

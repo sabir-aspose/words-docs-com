@@ -6,6 +6,9 @@ linktitle: تحويل مستند إلى HTML أو MHTML أو EPUB
 description: "قم بتحويل مستند من أي تنسيق تقريبًا إلى HTML أو MHTML، بالإضافة إلى تنسيق EPUB باستخدام C#. يمكنك أيضًا تحديد خيارات الحفظ لإدارة مستند الإخراج."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/convert-a-document-to-html-mhtml-or-epub/
 timestamp: 2024-07-09-19-00-42
 ---

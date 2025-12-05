@@ -6,6 +6,9 @@ linktitle: Kurulum
 description: "Yüklemek Aspose.Words için C++ Manage NuGet Paketlerini veya Package Manager Console 'yi ve manuel yükleyiciyi kullanma."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/installation/
 timestamp: 2024-09-24-14-35-44
 ---

@@ -6,6 +6,9 @@ linktitle: Začínáme
 type: docs
 description: "Použijte tento úvod do Aspose.Words pro C++ Základy a začněte si uvědomovat hodnotu Aspose.Words pro vaše podnikání."
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/getting-started/
 timestamp: 2024-09-25-11-08-55
 ---

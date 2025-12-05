@@ -6,6 +6,9 @@ linktitle: Trabajar con Separación silábica
 description: "Use la separación silábica para una disposición más compacta del texto usando C++. Proporciona algoritmos avanzados para trabajar con diccionarios de separación silábica, utiliza diccionarios OpenOffice."
 type: docs
 weight: 220
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/cpp/working-with-hyphenation/
 timestamp: 2024-01-30-16-22-34
 ---

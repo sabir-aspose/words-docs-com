@@ -6,6 +6,9 @@ linktitle: Manipularea Windows Metafișiere
 description: "Aspose.Words pentru C++ implementează propriul Windows Metafile player pentru a reda formatul Metafile pe toate platformele și sprijină manipularea caracteristicilor metafile de bază și poate efectua rezervă la un alt tip de metafile player."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/handling-windows-metafiles/
 timestamp: 2024-01-30-16-22-34
 ---

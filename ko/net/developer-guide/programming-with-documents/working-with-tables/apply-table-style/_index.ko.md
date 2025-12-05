@@ -6,6 +6,9 @@ linktitle: 표 스타일 적용
 description: "고급 테이블 형식 C#. C#를 사용하여 테이블 스타일을 만듭니다. 테이블 스타일 C#를 적용합니다."
 type: docs
 weight: 80
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/working-with-tablestyle/
 timestamp: 2024-02-02-12-07-36
 ---

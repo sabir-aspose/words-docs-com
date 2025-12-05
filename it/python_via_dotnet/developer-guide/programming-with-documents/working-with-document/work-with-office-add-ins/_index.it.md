@@ -6,6 +6,9 @@ linktitle: Lavora con i componenti aggiuntivi di Office
 description: "Aspose.Words per Python via .NET fornisce varie classi per lavorare con i componenti aggiuntivi di Office. È possibile aggiungere il riquadro attività tramite estensione Web e personalizzare il riquadro e le proprietà dell'estensione."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/python-net/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -7,6 +7,9 @@ type: docs
 description: "إنشاء قوالب مع Mustache بناء الجملة باستخدام Python. بناء الجملة Mustache هو الخيار الوحيد للاستخدام مع القوالب التي لا تحتوي على حقول (HTML أو TXT). مع Word قوالب، لديك خياران: الحقول أو Mustache بناء الجملة."
 keywords: "mail merge template mustache syntax python"
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/mail-merge-template-from-mustache-syntax/
 timestamp: 2024-01-27-14-07-04
 ---

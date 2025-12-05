@@ -6,6 +6,9 @@ linktitle: Systeemeisen
 description: "Voordat u gaat werken met Aspose.Words voor Java, Zorg ervoor dat u voldoet aan de eisen van het besturingssysteem, het platform, de kaders en de omgeving, zodat de activiteiten op uw apparaten goed worden verantwoord."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/java/system-requirements/
 timestamp: 2024-01-27-14-07-04
 ---

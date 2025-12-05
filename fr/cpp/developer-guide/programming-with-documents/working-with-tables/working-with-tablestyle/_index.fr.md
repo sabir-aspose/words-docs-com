@@ -6,6 +6,9 @@ linktitle: Appliquer un Style de Tableau
 description: "Formatage de table avancé C++. Créez un style de tableau en utilisant C++. Appliquez le style de tableau C++."
 type: docs
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/working-with-tablestyle/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Jak spustit příklady
 description: "Stáhněte si Aspose.Words pro C++ příklady z našeho repozitáře GitHub a naučte se, jak je spouštět, abyste se lépe seznámili s možnostmi a funkcemi Aspose.Words."
 type: docs
 weight: 110
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/how-to-run-the-examples/
 timestamp: 2024-07-11-16-13-28
 ---

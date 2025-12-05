@@ -6,6 +6,9 @@ linktitle: Omskakeling Na Vaste bladsy Formaat
 description: "Aspose.Words vir Java implementeer sy eie bladsy uitleg enjin sodat dit al die vaste bladsy formate, soos PDF, XPS, en verskeie beeld formate te produseer."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/java/converting-to-fixed-page-format/
 timestamp: 2024-01-31-14-23-37
 ---

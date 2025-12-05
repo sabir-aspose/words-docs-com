@@ -7,6 +7,9 @@ type: docs
 description: "执行一个 Mail Merge 使用嵌套区域操作 C++. 嵌套合并是一种功能，使您能够将来自数据源的分层数据合并到合并模板中。"
 keywords: "mail merge with nested regions c++"
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/nested-mail-merge-with-regions/
 timestamp: 2024-09-24-14-35-44
 ---

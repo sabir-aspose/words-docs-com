@@ -6,6 +6,9 @@ linktitle: Salvarea unui Document ca pagină multiplă TIFF
 description: "Convertiți un document într-o pagină multiplă TIFF folosind C++. Pentru a determina modul în care documentul este afișat pe imagine, trebuie să specificați opțiuni suplimentare: rezoluție, număr de pagini, binarizare a imaginii etc."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

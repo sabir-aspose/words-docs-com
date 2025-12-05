@@ -7,6 +7,9 @@ type: docs
 description: "Thực hiện hai loại khác nhau của Mail Merge hoạt động: đơn giản Mail Merge và Mail Merge với các khu vực sử dụng C++. Đơn giản Mail Merge lặp lại toàn bộ tài liệu cho mỗi bản ghi nguồn dữ liệu, trong khi Mail Merge với các khu vực chỉ lặp lại các khu vực được chỉ định cho mỗi bản ghi."
 keywords: "how to execute Mail Merge c++"
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/types-of-mail-merge-operations/
 timestamp: 2024-09-24-14-35-44
 ---

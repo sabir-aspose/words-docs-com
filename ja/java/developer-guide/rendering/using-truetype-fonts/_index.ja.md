@@ -6,6 +6,9 @@ linktitle: TrueTypeフォントの使用
 description: "JavaにAspose.Wordsを使用して正しいレンダリングを行うために、必要なフォントが見つからない場合に適切なフォントまたはその適切な置換を見つける方法。"
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

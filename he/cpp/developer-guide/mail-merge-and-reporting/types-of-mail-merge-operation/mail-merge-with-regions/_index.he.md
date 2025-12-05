@@ -7,6 +7,9 @@ type: docs
 description: "צור אזורים שונים בתבנית שלך כך שיהיו אזורים מיוחדים שתוכל פשוט למלא בנתונים שלך. השתמש ב Mail Merge עם אזורים אם ברצונך להוסיף טבלאות, שורות עם נתונים חוזרים כדי לגרום למסמכים שלך לגדול באופן דינמי."
 keywords: "how to execute Mail Merge c++"
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/mail-merge-with-regions/
 timestamp: 2024-09-24-14-35-44
 ---

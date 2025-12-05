@@ -6,6 +6,9 @@ linktitle: Завантаження, збереження та перетвор�
 description: "Як перетворити документ з одного формату в інший, наприклад Word в PDF або HTML в Markdown, а також як завантажити і зберегти документ за допомогою C#й"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---

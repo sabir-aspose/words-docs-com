@@ -6,6 +6,9 @@ linktitle: Livelli logici di nodi in un documento
 type: docs
 description: "Nella documentazione Aspose.Words per Java sono menzionati i livelli logici dei nodi: livello di blocco, livello di linea o livello di riga. Il livello di nodo viene utilizzato per descrivere la posizione nella struttura del documento in cui il nodo è in genere si verificano."
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/java/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

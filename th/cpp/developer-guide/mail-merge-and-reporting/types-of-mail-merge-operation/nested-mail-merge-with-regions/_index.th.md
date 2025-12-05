@@ -7,6 +7,9 @@ type: docs
 description: "ดำเนินการ Mail Merge การทำงานกับพื้นที่ที่ซ้อนกันโดยใช้ C++. ผสานซ้อนกันเป็นคุณลักษณะที่ช่วยให้คุณสามารถผสานข้อมูลลำดับชั้นจากแหล่งข้อมูลของคุณ."
 keywords: "mail merge with nested regions c++"
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/nested-mail-merge-with-regions/
 timestamp: 2024-09-24-14-35-44
 ---

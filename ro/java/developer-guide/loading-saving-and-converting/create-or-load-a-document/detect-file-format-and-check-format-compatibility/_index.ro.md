@@ -6,6 +6,9 @@ linktitle: Detectați formatul fișierului și verificați compatibilitatea form
 description: "Obțineți informații despre formatul documentului înainte de a-l deschide pentru a evita o excepție dacă nu sunteți sigur care este conținutul real al fișierului folosind Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/java/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

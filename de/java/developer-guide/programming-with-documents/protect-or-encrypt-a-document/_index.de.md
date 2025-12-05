@@ -6,6 +6,9 @@ linktitle: Schützen oder Verschlüsseln eines Dokuments
 description: "Verschlüsseln Sie ein Dokument, beschränken Sie die Bearbeitung, verwenden Sie digitale Signaturen zum Schutz von Dokumenten. Aspose.Words unterstützt die meisten Wortschutzoptionen mit Java."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

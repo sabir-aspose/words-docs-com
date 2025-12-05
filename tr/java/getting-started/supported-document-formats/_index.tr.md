@@ -6,6 +6,9 @@ linktitle: Desteklenen Belge Biçimleri
 type: docs
 description: "Birçok popüler biçimde kaynak belgeleri düzenleyin ve Java'ı kullanarak bir biçimde diğerine kolayca dönüştürün."
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/supported-document-formats/
 timestamp: 2024-10-21-11-17-44
 ---

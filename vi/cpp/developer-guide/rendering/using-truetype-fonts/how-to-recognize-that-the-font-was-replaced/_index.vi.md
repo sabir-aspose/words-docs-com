@@ -6,6 +6,9 @@ linktitle: Làm Thế nào Để Nhận Ra Rằng Phông Chữ Đã Được Tha
 description: "Nếu bạn không chắc tại sao bố cục của tài liệu đã thay đổi hoặc tại sao một phông chữ nhất định trông không như mong đợi, các thông báo cảnh báo thay thế phông chữ có thể hữu ích."
 type: docs
 weight: 13
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/how-to-recognize-that-the-font-was-replaced/
 timestamp: 2024-09-24-14-35-44
 ---

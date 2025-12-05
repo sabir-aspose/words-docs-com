@@ -6,6 +6,9 @@ linktitle: Cum să recunoașteți că fontul a fost înlocuit
 description: "Dacă nu sunteți sigur de ce s-a schimbat aspectul unui document sau de ce un anumit font nu arată așa cum era de așteptat, mesajele de avertizare privind substituirea fontului vă pot ajuta."
 type: docs
 weight: 13
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/how-to-recognize-that-the-font-was-replaced/
 timestamp: 2024-09-24-14-35-44
 ---

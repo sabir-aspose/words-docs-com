@@ -6,6 +6,9 @@ linktitle: 설치
 description: "Maven리포지토리에서Java에 대해Aspose.Words을 설치합니다. pom.xml에서Java종속성에 대해Aspose.Words을 정의합니다"
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/installation/
 timestamp: 2024-01-27-14-07-04
 ---

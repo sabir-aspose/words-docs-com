@@ -6,6 +6,9 @@ linktitle: Работа със заглавни части и стъпала
 description: "Създаване, управление и премахване на заглавни части и подметки в документ, използвайки Python."
 type: docs
 weight: 150
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/python-net/working-with-headers-and-footers/
 timestamp: 2024-01-27-14-07-04
 ---

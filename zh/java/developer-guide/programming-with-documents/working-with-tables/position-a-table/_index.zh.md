@@ -6,6 +6,9 @@ linktitle: 放置一张桌子
 description: "在Java中指定表位置。 获取表格对齐，使用Java获取并设置浮动表格位置。"
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/position-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

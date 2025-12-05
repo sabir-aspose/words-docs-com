@@ -8,8 +8,6 @@ weight: 30
 description: "Переведите документ. Aspose.Words для Python упрощает перевод документов с помощью моделей Google AI, позволяя указать язык перевода."
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
-ai_search_scope: words_python
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ru/python-net/translate-a-document/
 timestamp: 2025-01-15-16-40-05

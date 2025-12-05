@@ -6,6 +6,9 @@ linktitle: Einen Tisch positionieren
 description: "Geben Sie die Tabellenposition in C++ an. Holen Sie sich eine Tabellenausrichtung, holen und setzen Sie die schwebende Tabellenposition mit C++."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/cpp/position-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

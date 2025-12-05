@@ -6,6 +6,9 @@ linktitle: Cách sử dụng ví dụ
 description: "Cách chạy Aspose.Words cho Android bằng Java ví dụ."
 type: docs
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/how-to-use-the-examples/
 timestamp: 2024-01-27-14-07-04
 ---

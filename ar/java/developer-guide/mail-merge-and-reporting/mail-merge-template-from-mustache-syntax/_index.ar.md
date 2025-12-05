@@ -7,6 +7,9 @@ type: docs
 description: "إنشاء قوالب مع Mustache بناء الجملة. بناء الجملة Mustache هو الخيار الوحيد للاستخدام مع القوالب التي لا تحتوي على حقول (HTML أو TXT). باستخدام قوالب الكلمات، لديك خياران: الحقول أو Mustache بناء الجملة باستخدام Java."
 keywords: "mail merge template mustache syntax java, Mail Merge java, mustache syntax java"
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/mail-merge-template-from-mustache-syntax/
 timestamp: 2024-01-27-14-07-04
 ---

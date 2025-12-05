@@ -6,6 +6,9 @@ linktitle: Làm việc Với Dấu Trang
 description: "Hiểu các khái niệm dấu trang và cách đánh dấu có thể được sử dụng trong chương trình của bạn bằng cách sử dụng C++."
 type: docs
 weight: 180
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/working-with-bookmarks/
 timestamp: 2024-01-27-14-07-04
 ---

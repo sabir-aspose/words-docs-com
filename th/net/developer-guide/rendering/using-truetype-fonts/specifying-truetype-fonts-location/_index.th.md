@@ -6,6 +6,9 @@ linktitle: ระบุตำแหน่งแบบอักษร TrueType
 description: "ระบุแหล่งที่มาของแบบอักษร TrueType ต่างๆ: โฟลเดอร์ระบบ แหล่งที่มาของผู้ใช้ การโหลดแบบอักษรจากสตรีม ระบบไฟล์ หรือหน่วยความจำโดยใช้ C#"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/specifying-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

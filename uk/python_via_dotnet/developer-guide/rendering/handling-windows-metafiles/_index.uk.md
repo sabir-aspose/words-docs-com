@@ -6,6 +6,9 @@ linktitle: Рушники Windows Метафайли
 description: "Aspose.Words для Python via .NET реалізує власну Windows Метафайловий програвач для відтворення формату Metafile на всіх платформах і підтримує обробку базових функцій метафайлу і може виконувати випадання до різних типів метафайлів."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/python-net/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

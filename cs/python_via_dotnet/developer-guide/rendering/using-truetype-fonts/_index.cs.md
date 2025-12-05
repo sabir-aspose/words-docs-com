@@ -6,6 +6,9 @@ linktitle: Použití pravdy Typ písma
 description: "Aspose.Words místo Python via .NET může najít správné písmo nebo jeho vhodnou náhradu pro správné vykreslování dokumentů. To zajišťuje, že rozdíl mezi zobrazeným dokumentem a originálem je minimální, pokud není dostatek informací o písmu."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/python-net/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

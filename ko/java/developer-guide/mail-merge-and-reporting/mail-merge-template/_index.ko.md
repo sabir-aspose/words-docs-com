@@ -7,6 +7,9 @@ type: docs
 description: "Mail Merge템플릿을 만들어 출력 문서에서 고정된 내용을 정의한 다음Java의 병합 필드를 사용하여 병합 문서를 생성합니다."
 keywords: "create Mail Merge template Java, Mail Merge Java"
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/mail-merge-template/
 timestamp: 2024-01-31-14-23-37
 ---

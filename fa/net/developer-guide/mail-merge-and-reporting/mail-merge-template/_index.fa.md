@@ -7,6 +7,9 @@ type: docs
 description: "یک قالب Mail Merge برای تعریف محتوای ثابت در اسناد خروجی ایجاد کنید و سپس اسناد ادغام را با استفاده از فیلد های ادغام در C# تولید کنید."
 keywords: "create Mail Merge template с#"
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/mail-merge-template/
 timestamp: 2024-07-11-08-07-06
 ---

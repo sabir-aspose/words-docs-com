@@ -6,6 +6,9 @@ linktitle: 使用书签
 description: "如何使用 Python 插入、获取、移动、显示或隐藏书签。"
 type: docs
 weight: 180
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/working-with-bookmarks/
 timestamp: 2024-01-27-14-07-04
 ---

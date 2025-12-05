@@ -8,6 +8,7 @@ weight: 10
 description: "Aspose.Words für C++ unterstützt OpenAI - und Google AI -Modelle für Zusammenfassungs- und Übersetzungsdokumente. Verwenden Sie Aspose.Words mit Gpt-4o, Gpt-4o mini, Gpt-4 Turbo, GPT-3.5 Turbo, Gemini 1.5 Flash, Gemini 1.5 Flash-8B, Gemini 1.5 Pro."
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/cpp/supported-ai-models/
 timestamp: 2025-03-17-19-00-00
 ---

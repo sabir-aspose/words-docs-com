@@ -8,6 +8,7 @@ weight: 35
 description: "Aspose.Words pentru Python introduce instrumente bazate pe AI, cum ar fi rezumarea documentelor, pentru a spori eficiența. Aflați cum să utilizați AI - funcții alimentate cu sfaturi și îndrumări detaliate."
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/python-net/ai-powered-features/
 timestamp: 2025-03-17-19-00-00
 ---

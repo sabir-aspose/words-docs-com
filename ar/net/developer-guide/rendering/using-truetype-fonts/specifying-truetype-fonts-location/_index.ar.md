@@ -6,6 +6,9 @@ linktitle: تحديد موقع خطوط تروتايب
 description: "حدد مصادر خطوط TrueType المتنوعة: مجلد النظام، أو مصادر المستخدم، أو تحميل الخطوط من التدفق، أو نظام الملفات، أو الذاكرة باستخدام C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/specifying-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

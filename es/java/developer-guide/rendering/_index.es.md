@@ -6,6 +6,9 @@ linktitle: Renderizado
 description: "Utilice la función de representación Aspose.Words para Java para formatear un documento de diseño de flujo en páginas y convertir dicho documento o páginas seleccionadas en otro documento (PDF, HTML, XPS, etc.) o imagen (TIFF, PNG, SVG, etc.) formatos para visualización, conversiones adicionales o impresión."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/java/rendering/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: API Reference
 type: docs
 weight: 40
 description: "เรียนรู้คำอธิบายและตัวอย่าง Aspose.Words สำหรับคลาส .NET และวิธีการสร้าง แปลง แก้ไข แสดงผล และพิมพ์เอกสารโดยไม่ต้องใช้ Microsoft Word"
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/api-reference/
 timestamp: 2024-01-27-14-07-04
 ---

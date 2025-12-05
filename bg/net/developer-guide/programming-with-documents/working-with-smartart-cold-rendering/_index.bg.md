@@ -7,6 +7,9 @@ description: "Въведение в Smart Художествени форми, �
 type: docs
 description: "Aspose.Words вместо .NET изпълнява Smart Art Cold Rendering, което означава, че тя се излага и прави SmartArt обекти, ако предварително получени SmartArt рисунка е липсва или неправилно използване C#."
 weight: 330
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

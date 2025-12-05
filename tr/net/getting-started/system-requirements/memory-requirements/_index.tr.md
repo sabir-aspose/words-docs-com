@@ -6,6 +6,9 @@ linktitle: Bellek Gereksinimleri
 description: ".NET için Aspose.Words'in belgelerle çalışması için ne kadar bellek gerekir? Ayrıntıları öğrenin."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/memory-requirements/
 timestamp: 2024-09-25-11-08-55
 ---

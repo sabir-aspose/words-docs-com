@@ -6,6 +6,9 @@ linktitle: セキュリティノート
 type: docs
 description: "C++の場合Aspose.Words 高いレベルのデータセキュリティを確保するために、共通のセキュリティ基準を認識し、遵守します。 可能性のあるセキュリティ上の問題と、それらを回避する方法に関する推奨事項を確認してください。"
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/security/
 timestamp: 2024-01-27-14-07-04
 ---

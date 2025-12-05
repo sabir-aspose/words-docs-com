@@ -6,6 +6,9 @@ linktitle: Sisipkan dan Lampirkan Dokumen
 description: "Gabungkan dokumen menjadi satu: masukkan atau tambahkan dokumen ke dokumen baru atau yang sudah ada menggunakan cari dan ganti, gabungkan bidang, bookmark, atau cukup di akhir dokumen di C#."
 type: docs
 weight: 80
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/net/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

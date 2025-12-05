@@ -6,6 +6,9 @@ linktitle: La conversione è Aspose.Words ' Flagship Feature
 description: "Converti documenti da qualsiasi carico supportato per salvare il formato con solo due righe di codice C++. Fornisce conversioni di alta qualità."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/cpp/file-formats-and-conversions/
 timestamp: 2024-09-24-14-35-44
 ---

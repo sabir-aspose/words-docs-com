@@ -6,6 +6,9 @@ linktitle: 與文字文件合作
 description: "進階 txt 文檔處理、清單、從右向左、標題/页脚，使用 C#。"
 type: docs
 weight: 430
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/working-with-text-document/
 timestamp: 2024-01-27-14-07-04
 ---

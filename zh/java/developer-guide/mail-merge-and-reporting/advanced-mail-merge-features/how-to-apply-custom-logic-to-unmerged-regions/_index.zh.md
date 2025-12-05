@@ -6,6 +6,9 @@ linktitle: 如何将自定义逻辑应用于未合并区域
 type: docs
 description: "使用Java在Mail Merge操作期间将自定义逻辑应用于未合并的区域。"
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/how-to-apply-custom-logic-to-unmerged-regions/
 timestamp: 2024-01-27-14-07-04
 ---

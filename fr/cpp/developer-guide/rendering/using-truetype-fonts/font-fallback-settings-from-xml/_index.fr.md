@@ -6,6 +6,9 @@ linktitle: Paramètres de police FallBack à partir de XML
 description: "Le mécanisme de secours de la police est utilisé lorsque la police est résolue, mais elle ne contient pas de caractère spécifique. Dans ce cas, Aspose.Words essaie d'utiliser l'une des polices de secours pour le caractère."
 type: docs
 weight: 14
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/font-fallback-settings-from-xml/
 timestamp: 2024-09-24-14-35-44
 ---
