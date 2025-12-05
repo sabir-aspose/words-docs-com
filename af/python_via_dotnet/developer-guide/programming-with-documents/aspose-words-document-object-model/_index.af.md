@@ -6,6 +6,9 @@ linktitle: Aspose.Words Dokument Voorwerp Model (DOM)
 type: docs
 description: "Dokument Object Model (DOM) is'n in-geheue voorstelling van'n Word dokument. Lees, manipuleer en verander die inhoud en formatering van'n Word-dokument met behulp van Python."
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/python-net/aspose-words-document-object-model/
 timestamp: 2024-01-27-14-07-04
 ---

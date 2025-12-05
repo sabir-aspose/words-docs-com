@@ -6,6 +6,9 @@ linktitle: Logické úrovně uzlů v dokumentu
 type: docs
 description: "In Aspose.Words místo Java dokumentace zmínila logické úrovně uzlů, úroveň bloku, inline úroveň nebo úroveň řádku. Úroveň uzlu se používá k popisu umístění ve stromu dokumentu, kde se obvykle vyskytuje uzel."
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/java/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

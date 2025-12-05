@@ -6,6 +6,9 @@ linktitle: 查找欄位屬性
 description: "如何在C#中找到一些字段屬性，如字段代碼和字段結果。"
 type: docs
 weight: 25
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/find-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -5,6 +5,9 @@ linktitle: Aspose.Words para Python via .NET
 description: "Aspose.Words para Python via .NET es una biblioteca de clases que permite que sus aplicaciones realicen una gran variedad de tareas de procesamiento de documentos: generar, modificar, convertir y representar documentos."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/python-net/
 is_root: true
 timestamp: 2024-09-25-11-08-55

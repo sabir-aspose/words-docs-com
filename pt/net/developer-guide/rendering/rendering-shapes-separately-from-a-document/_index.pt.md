@@ -6,6 +6,9 @@ linktitle: Renderizando formas separadamente de um documento
 description: "Extraia vários objetos gráficos, como imagens, caixas de texto contendo parágrafos ou formas de setas, ao processar um documento, e exporte-os para um local externo usando C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/net/rendering-shapes-separately-from-a-document/
 timestamp: 2024-07-10-14-38-57
 ---

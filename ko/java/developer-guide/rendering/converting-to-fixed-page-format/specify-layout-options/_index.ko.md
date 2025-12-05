@@ -6,6 +6,9 @@ linktitle: 레이아웃 옵션 지정
 description: "Java을 사용하여 문서에 지정된 매개 변수에 따라 다양한 레이아웃으로 출력 문서를 만듭니다."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/specify-layout-options/
 timestamp: 2024-01-27-14-07-04
 ---

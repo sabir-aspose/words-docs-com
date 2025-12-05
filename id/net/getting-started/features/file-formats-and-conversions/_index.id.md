@@ -6,6 +6,9 @@ linktitle: Format dan Konversi File
 description: "Konversikan dokumen dari pemuatan apa pun yang didukung ke format penyimpanan hanya dengan dua baris kode C#. Ini memberikan konversi berkualitas tinggi."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/net/file-formats-and-conversions/
 timestamp: 2024-01-31-14-23-37
 ---

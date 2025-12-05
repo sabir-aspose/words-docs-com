@@ -7,6 +7,9 @@ type: docs
 description: "با استفاده از C# قالب هایی با نحو Mustache ایجاد کنید. Mustache نحو تنها گزینه ای است که با قالب هایی که شامل فیلد نیستند (HTML یا TXT) استفاده می شود. با قالب های Word، شما دو گزینه دارید: فیلدها یا نحو Mustache."
 keywords: "mail merge template mustache syntax c#"
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/mail-merge-template-from-mustache-syntax/
 timestamp: 2024-07-11-08-07-06
 ---

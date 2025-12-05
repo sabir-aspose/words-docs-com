@@ -6,6 +6,9 @@ linktitle: Спліт документів
 description: "Aspose.Words для Java надає вам ефективний спосіб розбити один документ на декілька документів за допомогою заголовків або розділів, а також сторінок або діапазонів сторінок."
 type: docs
 weight: 90
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/java/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

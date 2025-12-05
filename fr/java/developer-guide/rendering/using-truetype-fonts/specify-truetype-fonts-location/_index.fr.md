@@ -6,6 +6,9 @@ linktitle: Spécifiez TrueType Emplacement des polices
 description: "Spécifiez diverses sources de polices TrueType: dossier système, sources utilisateur, chargement des polices à partir d'un flux, d'un système de fichiers ou de la mémoire à l'aide de Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/specify-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

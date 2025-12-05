@@ -4,6 +4,9 @@ second_title: .NET için Aspose.Words
 articleTitle: Belge Oluşturun veya Yükleyin
 linktitle: Belge Oluşturun veya Yükleyin
 type: docs
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/create-or-load-a-document/
 description: "Boş bir belge oluşturun veya bunu C# kullanarak bir dosyadan veya akıştan yükleyin."
 keywords: "create a document c#, load a document c#, create a blank document c#, load a document from file c#, load a document from stream c#, create a document Aspose .NET, load a document Aspose .NET, load formats supported by Aspose.Words .NET"

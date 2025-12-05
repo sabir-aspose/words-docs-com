@@ -6,6 +6,9 @@ linktitle: Pengaturan FallBack Font yang telah Ditentukan Sebelumnya untuk Googl
 description: "Aspose.Words menyediakan pengaturan fallback font yang telah ditentukan sebelumnya untuk font Google Noto. Ini adalah font gratis yang dilisensikan di bawah Lisensi Font Terbuka SIL, yang dapat diunduh dari Font Google Noto."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/cpp/predefined-font-fallback-settings-for-google-noto-fonts/
 timestamp: 2024-09-24-14-35-44
 ---

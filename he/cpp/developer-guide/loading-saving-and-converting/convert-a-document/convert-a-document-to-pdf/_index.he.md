@@ -6,6 +6,9 @@ linktitle: המרת מסמך ל - PDF
 description: "המרת מסמך ל PDF באמצעות C++. פורמטים שונים של קלט נתמכים, כולל פורמטים Word, OpenOffice, תמונה ו eBook."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/convert-a-document-to-pdf/
 timestamp: 2024-10-21-08-52-03
 ---

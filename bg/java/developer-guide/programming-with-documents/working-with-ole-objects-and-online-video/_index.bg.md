@@ -6,6 +6,9 @@ linktitle: Работа с Оле обекти
 description: "Създаване и промяна на OLE вграждане във вашия документ с помощта на Java."
 type: docs
 weight: 360
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/working-with-ole-objects/
 timestamp: 2024-01-27-14-07-04
 ---

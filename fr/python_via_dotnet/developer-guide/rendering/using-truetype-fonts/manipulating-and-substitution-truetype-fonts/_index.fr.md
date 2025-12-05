@@ -6,6 +6,9 @@ linktitle: Manipuler et remplacer les polices TrueType
 description: "Aspose.Words pour Python via .NET peut intégrer les polices TrueType correctes dans le document résultant pour garantir qu'il s'affiche avec précision. Si une police ou un caractère spécifique n'est pas disponible, Aspose.Words recherche une police de remplacement appropriée ou utilise le mécanisme de secours des polices."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/manipulating-and-substitution-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

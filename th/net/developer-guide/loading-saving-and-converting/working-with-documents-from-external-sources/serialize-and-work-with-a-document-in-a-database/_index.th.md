@@ -6,6 +6,9 @@ linktitle: ทำให้เป็นอนุกรมและทำงาน
 description: "แปลงเอกสารเป็นอาร์เรย์ไบต์สำหรับการทำงานกับเอกสารนี้ในฐานข้อมูลโดยใช้ C# คุณสามารถจัดเก็บและดึงเอกสารเข้าและออกจากฐานข้อมูลได้"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-07-09-19-00-42
 ---

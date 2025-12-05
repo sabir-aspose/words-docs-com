@@ -7,6 +7,9 @@ type: docs
 description: "Použijte různé možnosti čištění a odebrání, jako je odstranění polí sloučení před provedením operace Mail Merge nebo odstranění nepoužívaných oblastí během operace Mail Merge pomocí C#."
 keywords: "cleanup options Mail Merge c#"
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/net/clean-up-before-or-during-mail-merge/
 timestamp: 2024-07-11-08-07-06
 ---

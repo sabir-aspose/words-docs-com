@@ -6,6 +6,9 @@ linktitle: Lucrul cu controlul conținutului SDT
 type: docs
 description: "Gestionarea avansată a conținutului documentelor, modul de creare și manipulare a controalelor de conținut (etichete de documente structurate) folosind C++."
 weight: 390
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/structured-document-tags-or-content-control/
 timestamp: 2024-01-27-14-07-04
 ---

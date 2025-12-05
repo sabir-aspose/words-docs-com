@@ -7,6 +7,9 @@ type: docs
 description: "Efectuați două tipuri diferite de operații mail merge: simple Mail Merge și Mail Merge cu regiuni. Simplu Mail Merge repetă întregul document pentru fiecare înregistrare sursă de date, în timp ce Mail Merge cu regiuni repetă numai regiunile desemnate pentru fiecare înregistrare folosind Java."
 keywords: "how to execute Mail Merge java, Mail Merge Java, Simple Mail Merge"
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/java/types-of-mail-merge-operations/
 timestamp: 2024-01-27-14-07-04
 ---

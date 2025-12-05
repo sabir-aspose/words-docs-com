@@ -6,6 +6,9 @@ linktitle: Práce s hyfenací
 description: "Použití pomlčky pro kompaktnější uspořádání textu pomocí C#. Poskytuje pokročilé algoritmy pro práci s pomlčkami slovníky, používá OpenOffice slovníky."
 type: docs
 weight: 220
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/net/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---

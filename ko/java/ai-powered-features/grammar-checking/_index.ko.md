@@ -8,6 +8,7 @@ weight: 40
 description: "문서 문법을 확인하십시오. Java에 대한Aspose.Words은 사용자가 문법을 확인하고OpenAI,구글,Claude모델을 사용하여 문서의 오류를 감지 할 수 있습니다."
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/grammar-checking/
 timestamp: 2025-03-17-19-00-00
 ---

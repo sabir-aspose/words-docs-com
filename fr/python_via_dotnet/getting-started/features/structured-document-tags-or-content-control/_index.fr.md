@@ -6,6 +6,9 @@ linktitle: Balises de documents structurés ou contrôle de contenu
 description: "Intégrez la sémantique définie par le client ainsi que son comportement et son apparence dans un document à l'aide de balises de document structuré (SDT ou contrôle de contenu) dans Python."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/structured-document-tags-or-content-control/
 timestamp: 2024-01-31-14-23-37
 ---

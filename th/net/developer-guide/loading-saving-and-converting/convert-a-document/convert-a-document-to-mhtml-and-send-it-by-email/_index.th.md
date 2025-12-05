@@ -6,6 +6,9 @@ linktitle: แปลงเอกสารเป็น MHTML และส่ง�
 description: "แปลงเอกสารจากเกือบทุกรูปแบบเป็นรูปแบบ MHTML และส่งเอกสารผลลัพธ์ทางอีเมลโดยใช้ C#"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/convert-a-document-to-mhtml-and-send-it-by-email/
 timestamp: 2024-07-09-19-00-42
 ---

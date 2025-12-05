@@ -6,6 +6,9 @@ linktitle: Ketersediaan dan Penggantian Font
 description: "Jika font pengganti yang tepat tidak dapat ditemukan, Aspose.Words harus menggantinya dengan font yang serupa. Artikel ini menjelaskan proses menemukan font yang paling cocok."
 type: docs
 weight: 12
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/cpp/font-availability-and-substitution/
 timestamp: 2024-09-24-14-35-44
 ---

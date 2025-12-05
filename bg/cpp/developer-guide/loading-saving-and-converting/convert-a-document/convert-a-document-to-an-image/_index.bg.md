@@ -6,6 +6,9 @@ linktitle: Конвертиране на документ в изображен�
 type: docs
 description: "Конвертиране на документ във формат на изображение (JPG, PNG и т.н.). Създайте визуализация на документ или създайте сканиране на документ, за да изпратите фактура."
 weight: 43
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/convert-a-document-to-an-image/
 timestamp: 2024-01-30-16-22-34
 ---

@@ -4,6 +4,9 @@ second_title: Aspose.Words pentru .NET
 articleTitle: Creează sau Încarcă un Document
 linktitle: Creează sau Încarcă un Document
 type: docs
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/create-or-load-a-document/
 description: "Creați un document gol sau încărcați-l dintr-un fișier sau flux folosind C#."
 keywords: "create a document c#, load a document c#, create a blank document c#, load a document from file c#, load a document from stream c#, create a document Aspose .NET, load a document Aspose .NET, load formats supported by Aspose.Words .NET"

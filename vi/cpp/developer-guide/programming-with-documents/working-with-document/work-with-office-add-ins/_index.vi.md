@@ -6,6 +6,9 @@ linktitle: Làm việc Với Các Tiện Ích Bổ Sung Văn Phòng
 description: "Aspose.Words cho C++ cung cấp các lớp học khác nhau để làm việc với Các Tiện ích Bổ sung Văn phòng. Bạn có thể thêm Ngăn Tác vụ thông qua tiện ích mở rộng web và tùy chỉnh các thuộc tính ngăn và tiện ích mở rộng."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

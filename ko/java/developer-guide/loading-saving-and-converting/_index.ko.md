@@ -6,6 +6,9 @@ linktitle: 로드,저장 및 변환
 description: "한 형식에서 다른 형식으로 문서를로드,저장 또는 변환 할 때Java기능에 대해Aspose.Words에 대해 알아보십시오."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---

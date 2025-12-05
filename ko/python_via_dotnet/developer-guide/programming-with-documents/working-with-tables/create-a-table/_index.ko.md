@@ -6,6 +6,9 @@ linktitle: 소개 및 테이블 생성
 description: "Python를 사용하여 문서에서 테이블을 만들고 관리합니다."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---

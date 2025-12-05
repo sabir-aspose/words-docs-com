@@ -6,6 +6,9 @@ linktitle: Rendering di forme separatamente da un documento
 description: "Estrarre vari oggetti grafici, ad esempio immagini, caselle di testo contenenti paragrafi o forme di freccia, durante l'elaborazione di un documento ed esportarli in una posizione esterna utilizzando Java."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/java/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

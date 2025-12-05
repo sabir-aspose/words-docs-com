@@ -6,6 +6,9 @@ linktitle: کار با کنترل محتوا SDT
 type: docs
 description: "مدیریت محتوای اسناد پیشرفته، نحوه ایجاد و دستکاری کنترل محتوا (تگ های اسناد ساختاری) با استفاده از Java."
 weight: 390
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---

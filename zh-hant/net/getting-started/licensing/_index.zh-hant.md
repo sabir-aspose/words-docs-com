@@ -6,6 +6,9 @@ linktitle: 授權與訂閱
 description: "Aspose.Words for .NET提供不同的購買方案，並提供免費試用和使用 C# ライセンス及訂閱政策進行評估的 30 天臨時授權。"
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/licensing/
 timestamp: 2024-10-24-11-44-28
 ---

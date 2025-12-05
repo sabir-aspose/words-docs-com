@@ -6,6 +6,9 @@ linktitle: Работа с опции и външен вид на Word доку�
 description: "Контролирайте външния вид на документите Word, като вземете предвид разликата между различните версии Microsoft Word."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/work-with-word-document-options-and-appearance/
 timestamp: 2024-01-27-14-07-04
 ---

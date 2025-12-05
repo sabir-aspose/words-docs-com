@@ -8,6 +8,9 @@ linktitle: Câu hỏi thường gặp
 type: docs
 description: "Aspose.Words cho .NET trả lời các câu hỏi thường gặp nhất. Tìm hiểu trang này để nhanh chóng giải quyết vấn đề của bạn về các câu hỏi chung hoặc chủ đề cụ thể."
 weight: 75
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/faq/
 timestamp: 2024-11-18-12-56-02
 ---

@@ -6,6 +6,9 @@ linktitle: Felderübersicht
 description: "Sie können mit Python auf die Feldänderung zugreifen. Felder des Dokuments werden in das Aspose.Words Document Object Model (DOM) geladen."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/python-net/fields-overview/
 timestamp: 2024-10-21-11-17-44
 ---

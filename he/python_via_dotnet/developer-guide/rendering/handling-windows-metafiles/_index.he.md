@@ -6,6 +6,9 @@ linktitle: Handling Windows Metafiles
 description: "Aspose.Words עבור Python via .NET ליישם את עצמו Windows שחקן metafile לשחק פורמט Metafile על כל הפלטפורמות ותומכת בטיפול של תכונות metafile בסיסיות ויכול לבצע נפילה לסוג אחר של שחקן metafile."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/python-net/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

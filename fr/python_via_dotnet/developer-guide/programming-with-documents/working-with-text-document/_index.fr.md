@@ -6,6 +6,9 @@ linktitle: Travailler avec un document texte
 description: "Travaillez avec un document texte et modifiez ses objets à l'aide de Python."
 type: docs
 weight: 430
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/working-with-text-document/
 timestamp: 2024-01-27-14-07-04
 ---

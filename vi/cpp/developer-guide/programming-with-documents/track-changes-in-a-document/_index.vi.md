@@ -6,6 +6,9 @@ linktitle: Theo Dõi Các Thay đổi Trong Tài liệu
 description: "Theo dõi các thay đổi đối với nội dung và định dạng do bạn hoặc người khác thực hiện bằng C++. Truy cập các bản sửa đổi riêng lẻ trong một tài liệu và áp dụng các thuộc tính khác nhau cho chúng."
 type: docs
 weight: 270
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/track-changes-in-a-document/
 timestamp: 2024-01-30-16-22-34
 ---

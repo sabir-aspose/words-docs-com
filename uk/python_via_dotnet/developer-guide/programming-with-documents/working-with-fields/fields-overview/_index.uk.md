@@ -6,6 +6,9 @@ linktitle: Огляд поля
 description: "Ви можете змінити поле доступу за допомогою Pythonй Поле документа завантажуються в Aspose.Words Document Object Model (Українська)DOM)."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/python-net/fields-overview/
 timestamp: 2024-10-21-11-17-44
 ---

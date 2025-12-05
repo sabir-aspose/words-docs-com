@@ -6,6 +6,9 @@ linktitle: Cloner un document
 type: docs
 description: "Clonez un document pour obtenir sa copie identique à l'aide de Python. Lors de la création d'une copie, les nœuds et les propriétés du document original sont clonés."
 weight: 70
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/clone-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

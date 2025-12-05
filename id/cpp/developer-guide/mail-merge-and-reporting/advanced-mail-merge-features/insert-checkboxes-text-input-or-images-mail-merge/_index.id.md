@@ -6,6 +6,9 @@ linktitle: Sisipkan Checkboxes, Masukan Teks, atau Gambar
 description: "Sisipkan kotak centang atau kolom input teks selama Mail Merge menggunakan C++. Sisipkan juga gambar dari Database selama Mail Merge dalam C++."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/cpp/insert-checkboxes-text-input-or-images-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Productoverzicht
 description: "Aspose.Words for C++ is een softwarebibliotheek die is ontworpen om documenten te maken, te wijzigen, te converteren, weer te geven en af te drukken zonder afhankelijk te zijn van andere software."
 type: docs
 weight: 5
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/product-overview/
 timestamp: 2024-06-05-14-43-57
 ---

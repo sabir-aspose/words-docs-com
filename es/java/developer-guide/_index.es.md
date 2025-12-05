@@ -6,6 +6,9 @@ linktitle: Guía para Desarrolladores
 description: "Aprenda la Guía para desarrolladores Aspose.Words para Java para obtener más casos de uso, sugerencias y detalles técnicos."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/java/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

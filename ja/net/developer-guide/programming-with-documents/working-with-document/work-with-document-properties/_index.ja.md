@@ -6,6 +6,9 @@ linktitle: ドキュメントのプロパティを操作する
 description: "Aspose.Words for .NET を使用すると、C# を使用して、API やバージョン番号、承認済み Date などのドキュメントに関する有用な情報を組み込みまたはカスタムのドキュメント プロパティに保存できます。"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

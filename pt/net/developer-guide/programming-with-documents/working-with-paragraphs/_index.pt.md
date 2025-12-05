@@ -6,6 +6,9 @@ linktitle: Trabalhando com parágrafos
 description: "Insira um parágrafo em um documento C#. Defina estilos de parágrafo em C#. Trabalhe com o separador de estilo de parágrafo C#. Manipule o nó do parágrafo usando C#."
 type: docs
 weight: 210
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/net/working-with-paragraphs/
 timestamp: 2024-01-27-14-07-04
 ---

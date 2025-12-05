@@ -7,6 +7,9 @@ type: docs
 description: "Crie modelos com sintaxe Mustache usando Python. A sintaxe Mustache é a única opção a utilizar com modelos que não contêm campos (HTML ou TXT). Com Word modelos, você tem duas opções: campos ou Mustache sintaxe."
 keywords: "mail merge template mustache syntax python"
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/python-net/mail-merge-template-from-mustache-syntax/
 timestamp: 2024-01-27-14-07-04
 ---

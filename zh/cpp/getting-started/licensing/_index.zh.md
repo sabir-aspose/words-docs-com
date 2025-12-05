@@ -6,6 +6,9 @@ linktitle: 许可和订阅
 description: "Aspose.Words对于С++提供不同的购买计划或提供免费试用和使用许可和订阅策略进行评估的30天临时许可证。"
 type: docs
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/licensing/
 timestamp: 2024-10-24-11-44-28
 ---

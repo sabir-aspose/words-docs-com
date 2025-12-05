@@ -6,6 +6,9 @@ linktitle: フィールドの紹介
 description: "フィールドは、JavaのAspose.Wordsで説明されている詳細、フィールドコード、フィールド結果の機能です。"
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/introduction-to-fields/
 timestamp: 2024-09-25-11-08-55
 ---

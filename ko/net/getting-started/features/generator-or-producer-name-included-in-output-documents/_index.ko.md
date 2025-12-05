@@ -6,6 +6,9 @@ linktitle: 출력 문서에 포함된 생성자 또는 생산자 이름
 description: ".NET용 Aspose.Words는 문서를 생성하는 데 사용된 생성기 이름과 버전 번호를 문서에 추가합니다. 이 데이터는 C#을 사용하는 출력 파일 형식에 따라 문서에서 찾을 수 있습니다."
 type: docs
 weight: 60
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

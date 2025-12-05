@@ -6,6 +6,9 @@ linktitle: التلاعب واستبدال TrueType الخطوط
 description: "Aspose.Words ل C++ يمكن تضمين الصحيح TrueType الخطوط في المستند الناتج للتأكد من أنه يعرض بدقة. في حالة عدم توفر خط أو حرف معين، Aspose.Words يبحث عن بديل مناسب للخط أو يستخدم آلية احتياطي الخط."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

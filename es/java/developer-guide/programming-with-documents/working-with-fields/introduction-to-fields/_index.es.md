@@ -6,6 +6,9 @@ linktitle: Introducción a los Campos
 description: "Los campos aparecen en detalles, códigos de campo y resultados de campo explicados en Aspose.Words para Java."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/java/introduction-to-fields/
 timestamp: 2024-09-25-11-08-55
 ---

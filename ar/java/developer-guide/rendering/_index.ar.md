@@ -6,6 +6,9 @@ linktitle: تقديم
 description: "استخدم Aspose.Words لـ Java ميزة العرض لتنسيق مستند تخطيط التدفق إلى صفحات وتحويل مثل هذا المستند أو الصفحات المحددة إلى مستند آخر(PDF, HTML, XPS, الخ.) أو صورة (TIFF, PNG, SVG, الخ.) تنسيقات للعرض أو المزيد من التحويلات أو الطباعة."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/rendering/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 在文件屬性中工作
 description: "Aspose.Words for .NET 透過 C# 在內建或自訂的文件屬性中儲存一些關於您的文件的有用資訊，例如 API 和版本號碼或授權 Date。"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

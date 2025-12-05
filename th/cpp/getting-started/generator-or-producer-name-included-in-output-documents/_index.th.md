@@ -6,6 +6,9 @@ linktitle: ชื่อผู้ผลิตในเอกสารที่ส
 description: "Aspose.WordsสำหรับC++ เพิ่มลงในเอกสารชื่อเครื่องกำเนิดไฟฟ้าและหมายเลขรุ่นที่ใช้ในการสร้าง ข้อมูลนี้สามารถพบได้ในเอกสารในรูปแบบที่ขึ้นอยู่กับรูปแบบไฟล์ที่ส่งออก."
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: 필드 속성 찾기
 description: "Java에서 필드 코드 및 필드 결과와 같은 일부 필드 속성을 찾는 방법"
 type: docs
 weight: 25
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/find-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 콘텐츠 제어 SDT 작업
 description: "Python을 사용하면 고객이 정의한 의미뿐만 아니라 해당 동작 및 모양도 문서에 포함할 수 있습니다."
 type: docs
 weight: 390
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---

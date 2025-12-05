@@ -6,6 +6,9 @@ linktitle: Shapes afzonderlijk van een Document weergeven
 description: "Pak bij het verwerken van een document verschillende grafische objecten uit, zoals afbeeldingen, tekstvak met alinea ' s of pijlvormen, en exporteer deze naar een externe locatie."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

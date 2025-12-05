@@ -6,6 +6,9 @@ linktitle: המרת מסמך ל- Excel
 description: "להמיר PDF ל- Excel, XML ל- Excel, DOCX ל- Excel C#. שמור מסמך בפורמטים שונים כדי XLSX C#."
 type: docs
 weight: 15
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/convert-a-document-to-excel/
 timestamp: 2024-07-09-19-00-42
 ---

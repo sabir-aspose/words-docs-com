@@ -6,6 +6,9 @@ linktitle: ファイル形式と変換
 description: "サポートされている任意のロードからドキュメントをJavaコードのわずか二行で保存形式に変換します。 Javaを使用して高品質の変換を提供します。"
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/file-formats-and-conversions/
 timestamp: 2024-01-31-14-23-37
 ---

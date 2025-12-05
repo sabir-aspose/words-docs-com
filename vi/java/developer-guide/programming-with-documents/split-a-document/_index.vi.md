@@ -6,6 +6,9 @@ linktitle: Chia một Tài liệu
 description: "Aspose.Words cho Java cung cấp cho bạn một cách hiệu quả để chia một tài liệu thành nhiều tài liệu bằng các tiêu đề hoặc phần, cũng như trang hoặc phạm vi trang."
 type: docs
 weight: 90
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

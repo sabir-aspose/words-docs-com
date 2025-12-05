@@ -6,6 +6,9 @@ linktitle: ویژگی های پشتیبانی شده
 description: "Aspose.Words برای Java به کاربران طیف گسترده ای از ویژگی ها را از تبدیل و تغییر اسناد به ایجاد اسناد ساختاری و بصری جذاب یا گزارش خودکار ارائه می دهد."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/features/
 timestamp: 2024-10-21-11-17-44
 ---

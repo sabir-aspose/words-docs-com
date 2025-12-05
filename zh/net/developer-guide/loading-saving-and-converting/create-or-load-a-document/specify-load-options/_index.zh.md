@@ -6,6 +6,9 @@ linktitle: 指定加载选项
 description: "使用C#更准确地控制加载过程。"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/specify-load-options/
 timestamp: 2024-07-09-19-00-42
 ---

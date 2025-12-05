@@ -6,6 +6,9 @@ linktitle: PDF'ye Dönüştürürken İşleme Seçeneklerini Belirtin
 description: "Python'i kullanarak gelişmiş seçeneklerle bir belgeyi PDF'ye dönüştürün. Bir belgeyi PDF biçiminde kaydetmenin sonucunu değiştirmek için PdfSaveOptions'ı kullanın."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/python-net/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

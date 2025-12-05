@@ -6,6 +6,9 @@ linktitle: Niveaux logiques des nœuds dans un document
 type: docs
 description: "Dans la documentation Aspose.Words pour .NET, les niveaux logiques de nœuds sont mentionnés: niveau bloc, niveau en ligne ou niveau ligne en utilisant C#. Le niveau de nœud est utilisé pour décrire l'emplacement dans l'arborescence du document où se trouve généralement le nœud."
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

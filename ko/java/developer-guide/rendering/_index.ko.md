@@ -6,6 +6,9 @@ linktitle: 렌더링
 description: "Java렌더링 기능에Aspose.Words을 사용하여 플로우 레이아웃 문서를 페이지로 포맷하고 해당 문서 또는 선택한 페이지를 다른 문서로 변환합니다(PDF, HTML, XPS, 그 밖의)또는 이미지(TIFF, PNG, SVG, 그 밖의)보기,추가 변환 또는 인쇄를 위한 형식."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/rendering/
 timestamp: 2024-01-27-14-07-04
 ---

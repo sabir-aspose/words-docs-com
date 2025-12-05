@@ -6,6 +6,9 @@ linktitle: Převod dokumentu na HTML, MHTML nebo EPUB
 description: "Převeďte dokument z téměř jakéhokoli formátu do HTML nebo MHTML a také do EPUB formátu pomocí C++. Můžete také zadat možnosti uložení pro správu výstupního dokumentu."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/convert-a-document-to-html-mhtml-or-epub/
 timestamp: 2024-10-21-08-52-03
 ---

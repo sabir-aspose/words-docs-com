@@ -6,6 +6,9 @@ linktitle: 使用链接TextBoxes
 description: "介绍Aspose.Words中Java的链接文本框功能."
 type: docs
 weight: 250
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/working-with-linked-textboxes/
 timestamp: 2024-01-27-14-07-04
 ---

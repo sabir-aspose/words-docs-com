@@ -6,6 +6,9 @@ linktitle: 테이블 만들기
 description: "다음을 사용하여 테이블을 만드는 다양한 방법 C++. 테이블 만들기 C++ 당신의 문서를 위해. 테이블 추가 C++."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---

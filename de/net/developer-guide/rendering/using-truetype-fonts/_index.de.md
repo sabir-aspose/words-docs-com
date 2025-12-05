@@ -6,6 +6,9 @@ linktitle: Verwendung von TrueType-Schriftarten
 description: "Aspose.Words für .NET kann die richtige Schriftart oder den passenden Ersatz für die korrekte Dokumentwiedergabe mithilfe von C# finden. Dadurch wird sichergestellt, dass der Unterschied zwischen dem angezeigten Dokument und dem Original minimal ist, wenn nicht genügend Informationen zu einer Schriftart vorhanden sind."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

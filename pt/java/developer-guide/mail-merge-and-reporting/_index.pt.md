@@ -7,6 +7,9 @@ type: docs
 description: "Mail Merge é um recurso popular para a criação rápida de documentos. Aspose.Words for Java leva a funcionalidade padrão Mail Merge e avança muitos passos à frente, transformando-a em uma solução de relatórios completa que permite criar documentos ainda mais complexos, como relatórios, catálogos, inventários e faturas."
 keywords: "how to use Mail Merge Java"
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/java/mail-merge-and-reporting/
 timestamp: 2024-01-27-14-07-04
 ---

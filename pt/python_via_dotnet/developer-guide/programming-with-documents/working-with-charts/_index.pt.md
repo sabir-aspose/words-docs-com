@@ -6,6 +6,9 @@ linktitle: Trabalhando com gráficos
 description: "Crie e modifique gráficos de vários tipos em um documento usando Python."
 type: docs
 weight: 310
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/python-net/working-with-charts/
 timestamp: 2024-01-27-14-07-04
 ---

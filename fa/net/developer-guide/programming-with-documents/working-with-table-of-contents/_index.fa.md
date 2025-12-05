@@ -6,6 +6,9 @@ linktitle: کار با فهرست مطالب
 description: "قسمت جدول محتوا با جزئیات. نحوه ایجاد و تغییر فیلد `TOC` با استفاده از C#. `TOC` C# را درج کنید."
 type: docs
 weight: 170
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/working-with-table-of-contents/
 timestamp: 2024-10-21-11-17-44
 ---

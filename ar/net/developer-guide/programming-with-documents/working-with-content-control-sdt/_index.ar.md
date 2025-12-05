@@ -6,6 +6,9 @@ linktitle: العمل مع التحكم في المحتوى SDT
 description: "الإدارة المتقدمة لمحتوى المستند، وكيفية إنشاء عناصر التحكم في المحتوى ومعالجتها (علامات المستندات المنظمة) باستخدام C#."
 type: docs
 weight: 390
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: 도형 작업
 type: docs
 description: "모양 마크업 언어 소개,다음을 사용하여 다양한 유형의 모양 만들기 C++."
 weight: 280
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/working-with-shapes/
 timestamp: 2024-01-27-14-07-04
 ---

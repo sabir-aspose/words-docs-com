@@ -6,6 +6,9 @@ linktitle: Skakel'n Dokument Om Na Excel
 description: "Omskep PDF Na Excel, XML Na Excel, DOCX na Excel Java. Stoor'n dokument in verskillende formate na XLSX met behulp van Java."
 type: docs
 weight: 15
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/java/convert-a-document-to-excel/
 timestamp: 2024-01-31-14-23-37
 ---

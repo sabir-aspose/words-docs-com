@@ -6,6 +6,9 @@ linktitle: Śledzenie zmian w dokumencie
 description: "Śledź zmiany w treści i formatowaniu wprowadzone przez Ciebie lub inne osoby za pomocą C++. Uzyskaj dostęp do poszczególnych wersji dokumentu i zastosuj do nich różne właściwości."
 type: docs
 weight: 270
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/track-changes-in-a-document/
 timestamp: 2024-01-30-16-22-34
 ---

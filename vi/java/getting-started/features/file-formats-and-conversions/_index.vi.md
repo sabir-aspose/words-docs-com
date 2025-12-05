@@ -6,6 +6,9 @@ linktitle: Định dạng và Chuyển đổi Tập tin
 description: "Chuyển đổi tài liệu từ bất kỳ tải lượng nào được hỗ trợ đến định dạng lưu với chỉ hai dòng Java mã. Nó cung cấp các chuyển đổi chất lượng cao sử dụng Java."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/file-formats-and-conversions/
 timestamp: 2024-01-31-14-23-37
 ---

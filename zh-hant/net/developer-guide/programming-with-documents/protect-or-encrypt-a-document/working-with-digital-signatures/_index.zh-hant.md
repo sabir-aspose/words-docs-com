@@ -6,6 +6,9 @@ linktitle: 與數字簽名一起工作
 description: "用 C# 來デジタル署名文件並検出、計數、驗證、移除現有的数字签名。"
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/working-with-digital-signatures/
 timestamp: 2024-01-27-14-07-04
 ---

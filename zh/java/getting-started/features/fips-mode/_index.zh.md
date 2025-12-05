@@ -6,6 +6,9 @@ linktitle: FIPS模式
 description: "Aspose.WordsforJava在处理文档时使用多种加密和哈希算法以符合FIPS标准。"
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/fips-mode/
 timestamp: 2024-05-08-10-19-58
 ---

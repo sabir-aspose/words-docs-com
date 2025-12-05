@@ -6,6 +6,9 @@ linktitle: 以只讀模式打開文件
 description: "讓你的檔案僅供讀取，以便可以複製或閱讀其內容，但無法修改它，C#。"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/open-a-document-read-only/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Werken met Smart Art Cold Rendering
 type: docs
 description: "Aspose.Words voor Python via .NET voert Smart uit Art Cold Rendering, wat betekent dat het SmartArt objecten legt en maakt als de SmartArt tekening ontbreekt of onjuist is."
 weight: 330
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/python-net/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

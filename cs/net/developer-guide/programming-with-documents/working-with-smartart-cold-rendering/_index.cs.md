@@ -7,6 +7,9 @@ description: "Úvod do chytrých Umělecké tvary používající C#."
 type: docs
 description: "Aspose.Words místo .NET provádí Smart Umění Cold Rendering, což znamená, že to stanoví a dělá objekty SmartArt, pokud před-rendered SmartArt výkres chybí nebo nesprávné použití C#."
 weight: 330
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/net/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

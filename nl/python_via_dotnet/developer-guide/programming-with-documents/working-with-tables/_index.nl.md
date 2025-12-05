@@ -6,6 +6,9 @@ linktitle: Werken met tabellen
 description: "Werk met tabellen in een document met behulp van Python. Inleiding tot het werk met tabellen en tabellen in Aspose.Words voor Python."
 type: docs
 weight: 190
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/python-net/working-with-tables/
 timestamp: 2024-01-27-14-07-04
 ---

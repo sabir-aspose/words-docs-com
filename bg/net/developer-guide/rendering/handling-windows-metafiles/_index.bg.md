@@ -6,6 +6,9 @@ linktitle: Работа Windows Метафили
 description: "Aspose.Words вместо .NET прилага своя собствена Windows Metafile player да играе Metafile формат на всички платформи и поддържа управлението на основните функции метафил и може да извърши обратно към различен тип метафилей играч, използвайки C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/handling-windows-metafiles/
 timestamp: 2024-07-10-14-38-57
 ---

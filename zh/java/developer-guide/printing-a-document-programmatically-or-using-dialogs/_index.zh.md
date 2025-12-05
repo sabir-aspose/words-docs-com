@@ -6,6 +6,9 @@ linktitle: 以编程方式或使用对话框打印文档
 description: "通过设置、打印预览和打印进度对话框使用Java打印文档。"
 type: docs
 weight: 55
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-27-14-07-04
 ---

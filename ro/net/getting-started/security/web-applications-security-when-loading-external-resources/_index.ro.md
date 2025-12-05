@@ -6,6 +6,9 @@ linktitle: Siguranța aplicațiilor web la încărcarea resurselor externe
 type: docs
 description: "Încarcă resursele de la distanță care pot fi o cauză pentru riscuri de securitate. Aruncă o privire asupra problemelor de securitate comun și soluții lor folosind C#."
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 使用Ole对象
 description: "使用Java在文档中创建和修改OLE嵌入。"
 type: docs
 weight: 360
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/working-with-ole-objects/
 timestamp: 2024-01-27-14-07-04
 ---

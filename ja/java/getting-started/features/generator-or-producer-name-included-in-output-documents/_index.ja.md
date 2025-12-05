@@ -6,6 +6,9 @@ linktitle: 出力文書に含まれるジェネレータ名またはプロデュ
 description: "Aspose.WordsforJava作成に使用されたジェネレータ名とバージョン番号をドキュメントに追加します。 このデータは、出力ファイル形式に依存する方法で文書内に見つけることができます。"
 type: docs
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

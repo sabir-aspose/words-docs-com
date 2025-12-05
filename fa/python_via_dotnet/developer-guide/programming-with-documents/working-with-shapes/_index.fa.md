@@ -6,6 +6,9 @@ linktitle: کار با Shapes
 description: "ایجاد و مدیریت اشکال، اشیاء اوله در یک سند با استفاده از Python."
 type: docs
 weight: 280
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/working-with-shapes/
 timestamp: 2024-01-27-14-07-04
 ---

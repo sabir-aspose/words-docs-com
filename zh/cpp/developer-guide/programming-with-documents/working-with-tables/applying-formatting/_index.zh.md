@@ -6,6 +6,9 @@ linktitle: 应用格式
 description: "使用C++的详细表格格式。 使用C++格式化表的每个部分."
 type: docs
 weight: 70
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/applying-formatting/
 timestamp: 2024-10-21-11-17-44
 ---

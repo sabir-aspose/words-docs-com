@@ -6,6 +6,9 @@ linktitle: 섹션 작업
 description: "다음을 사용하여 문서 섹션 개념 및 조작 관행 이해 C++. 문서에 섹션 삽입 C++. 섹션 제거 C++. 문서 사이에 섹션을 복사합니다."
 type: docs
 weight: 120
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/working-with-sections/
 timestamp: 2024-01-31-14-23-37
 ---

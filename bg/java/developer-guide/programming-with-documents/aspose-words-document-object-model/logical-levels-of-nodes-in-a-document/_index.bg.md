@@ -6,6 +6,9 @@ linktitle: Логически нива на възлите в документ
 type: docs
 description: "В Aspose.Words вместо Java документиране споменатите логически нива на възлите на блок ниво, inline ниво, или ниво ред. Нивото на възела се използва за описване на местоположението в дървото на документа, където обикновено се появява възелът."
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

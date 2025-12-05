@@ -6,6 +6,9 @@ linktitle: Sekuriteit Notas
 type: docs
 description: "Aspose.Words vir Java erken en voldoen aan gemeenskaplike sekuriteitstandaarde om'n hoë vlak van data sekuriteit te verseker. Kyk na moontlike veiligheidskwessies en aanbevelings oor hoe om dit te vermy."
 weight: 120
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/java/security/
 timestamp: 2024-01-27-14-07-04
 ---

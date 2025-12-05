@@ -6,6 +6,9 @@ linktitle: ドキュメントを MHTML に変換して電子メールで送信�
 description: "C# を使用して、ほぼすべての形式のドキュメントを MHTML 形式に変換し、結果のドキュメントを電子メールで送信します。"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/convert-a-document-to-mhtml-and-send-it-by-email/
 timestamp: 2024-07-09-19-00-42
 ---

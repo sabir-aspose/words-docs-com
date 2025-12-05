@@ -6,6 +6,9 @@ linktitle: تبدیل یک سند به MHTML و ارسال آن از طریق ا
 description: "هر سندی را به فرمت MHTML تبدیل کنید و سپس آن را با استفاده از یک محصول خانوادگی Aspose دیگر در Java با ایمیل ارسال کنید."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/convert-a-document-to-mhtml-and-send-it-by-email/
 timestamp: 2024-01-27-14-07-04
 ---

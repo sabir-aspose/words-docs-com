@@ -6,6 +6,9 @@ linktitle: התקן TrueType גופנים ב Linux
 description: "Aspose.Words עבור C++ מאפשר עיבוד מסמך שנוצר באמצעות Microsoft Word במכונה Linux בדיוק הטוב ביותר. כדי להשיג זאת, העתק קבצי גופנים ממחשב Windows או התקן חבילת גופנים `TrueType` במחשב Linux שלך."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/install-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

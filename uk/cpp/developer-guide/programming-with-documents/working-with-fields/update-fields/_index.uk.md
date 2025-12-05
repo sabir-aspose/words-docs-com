@@ -6,6 +6,9 @@ linktitle: Оновлювати поля
 description: "Дізнайтеся, як оновити поля в C++. Оновлюйте поля програмно або використовуйте автоматичне оновлення полів за допомогою C++ API."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/update-fields/
 timestamp: 2024-01-27-14-07-04
 ---

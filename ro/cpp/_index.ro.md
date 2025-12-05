@@ -5,6 +5,9 @@ linktitle: Aspose.Words pentru C++
 description: "Generați, modificați, convertiți, randați și imprimați documente folosind C++."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/
 is_root: true
 timestamp: 2024-09-25-11-08-55

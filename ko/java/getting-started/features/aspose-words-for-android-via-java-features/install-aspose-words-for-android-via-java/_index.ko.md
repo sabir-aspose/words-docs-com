@@ -6,6 +6,9 @@ linktitle: Java를 통해Android에 대해Aspose.Words을 설치합니다.
 description: "Java를 통해Android에Aspose.Words을 설치합니다."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/install-aspose-words-for-android-via-java/
 timestamp: 2024-01-27-14-07-04
 ---

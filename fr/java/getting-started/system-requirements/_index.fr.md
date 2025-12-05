@@ -6,6 +6,9 @@ linktitle: Configuration Système Requise
 description: "Avant de commencer à travailler avec Aspose.Words pour Java, assurez-vous de respecter les exigences du système d'exploitation, de la plate-forme, des frameworks et de l'environnement afin que les activités sur vos appareils soient correctement comptabilisées."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/system-requirements/
 timestamp: 2024-01-27-14-07-04
 ---

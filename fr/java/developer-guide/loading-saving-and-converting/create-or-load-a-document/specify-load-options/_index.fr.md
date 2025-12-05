@@ -6,6 +6,9 @@ linktitle: Spécifier Les Options De Chargement
 description: "Définissez des propriétés avancées lors du chargement d'un document à l'aide de Java pour obtenir un contrôle plus précis du processus."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/specify-load-options/
 timestamp: 2024-01-27-14-07-04
 ---

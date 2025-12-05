@@ -6,6 +6,9 @@ linktitle: Een document opslaan als Multipage TIFF
 description: "Een document omzetten naar een TIFF met meerdere pagina's C#. Om te bepalen hoe het document wordt weergegeven op de afbeelding moet u extra opties opgeven: resolutie, aantal pagina's, image binarization, etc."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-07-10-14-38-57
 ---

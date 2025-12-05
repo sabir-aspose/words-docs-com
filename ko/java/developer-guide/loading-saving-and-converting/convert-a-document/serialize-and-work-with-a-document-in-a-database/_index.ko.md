@@ -6,6 +6,9 @@ linktitle: 데이터베이스의 문서 직렬화 및 작업
 description: "데이터베이스에서 이 문서 작업을 위해 문서를 바이트 배열로 변환합니다. Java을 사용하여 데이터베이스에서 문서를 저장하고 검색할 수 있습니다."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-01-27-14-07-04
 ---

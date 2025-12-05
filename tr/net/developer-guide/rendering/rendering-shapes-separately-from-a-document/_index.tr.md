@@ -6,6 +6,9 @@ linktitle: Şekilleri Belgeden Ayrı Olarak Oluşturma
 description: "Bir belgeyi işlerken resimler, paragraf içeren metin kutusu veya ok şekilleri gibi çeşitli grafik nesnelerini çıkarın ve bunları C# kullanarak harici bir konuma aktarın."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/rendering-shapes-separately-from-a-document/
 timestamp: 2024-07-10-14-38-57
 ---

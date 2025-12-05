@@ -6,6 +6,9 @@ linktitle: Gestion des métafichiers Windows
 description: "Aspose.Words pour Python via .NET implémente son propre lecteur de métafichier Windows pour lire le format de métafichier sur toutes les plates-formes, prend en charge la gestion des fonctionnalités de base des métafichiers et peut effectuer un repli vers un autre type de lecteur de métafichier."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

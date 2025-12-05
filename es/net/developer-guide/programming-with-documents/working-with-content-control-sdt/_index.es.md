@@ -6,6 +6,9 @@ linktitle: Trabajar con SDT de control de contenido
 description: "Gestión avanzada del contenido de los documentos, cómo crear y manipular controles de contenido (etiquetas de documentos estructurados) utilizando C#."
 type: docs
 weight: 390
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---

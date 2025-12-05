@@ -6,6 +6,9 @@ linktitle: DocumentBuilderを使用して文書要素を挿入します
 type: docs
 description: "Javaにドキュメントビルダーを使用してドキュメント要素を挿入します。"
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/use-documentbuilder-to-insert-document-elements/
 timestamp: 2024-01-27-14-07-04
 ---

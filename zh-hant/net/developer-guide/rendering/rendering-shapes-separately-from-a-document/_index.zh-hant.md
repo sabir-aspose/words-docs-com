@@ -6,6 +6,9 @@ linktitle: 從文件中分別渲染形狀
 description: "從處理文件中提取各種圖形對象，例如圖像、包含段落的文本框或箭頭形狀，然後使用 C# 將它們輸出到外部位置。"
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/rendering-shapes-separately-from-a-document/
 timestamp: 2024-07-10-14-38-57
 ---

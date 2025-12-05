@@ -6,6 +6,9 @@ linktitle: הגנה או הצפנה של מסמך
 description: "Aspose.Words עבור .NET מספק לקריאה בלבד, הצפנה מסמך, הגבלת עריכה וחתימות דיגיטליות להגנה על מסמכים באמצעות שימוש C#. Aspose.Words תומך ברוב אפשרויות הגנת מילים"
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

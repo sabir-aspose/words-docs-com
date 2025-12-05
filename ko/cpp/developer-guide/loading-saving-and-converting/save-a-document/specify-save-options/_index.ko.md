@@ -6,6 +6,9 @@ linktitle: 저장 옵션 지정
 description: "더 정확하게 저장 프로세스를 제어 할 수 있습니다."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/specify-save-options/
 timestamp: 2024-01-27-14-07-04
 ---

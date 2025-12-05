@@ -6,6 +6,9 @@ linktitle: Chuyển đổi Sang Định dạng trang Cố định
 description: "Lưu tài liệu vào PDF, XPS, HTML, XAML, PostScript, và PCL định dạng."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/converting-to-fixed-page-format/
 timestamp: 2024-09-24-14-35-44
 ---

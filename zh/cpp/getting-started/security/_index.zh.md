@@ -6,6 +6,9 @@ linktitle: 保安须知
 type: docs
 description: "Aspose.Words为C++ 确认并遵守共同的安全标准，以确保高水平的数据安全。 查看可能的安全问题以及如何避免它们的建议。"
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/security/
 timestamp: 2024-01-27-14-07-04
 ---

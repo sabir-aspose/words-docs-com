@@ -6,6 +6,9 @@ linktitle: 삽입 Checkbox텍스트 입력 또는 이미지
 description: "동안 확인란 또는 텍스트 입력 필드 삽입 Mail Merge 사용 C++. 또한 동안 데이터베이스에서 이미지를 삽입 Mail Merge 그 안에 C++."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/insert-checkboxes-text-input-or-images-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

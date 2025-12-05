@@ -6,6 +6,9 @@ linktitle: Manipular y sustituir fuentes TrueType
 description: "Aspose.Words para .NET puede incrustar las fuentes TrueType correctas en el documento resultante para garantizar que se muestre con precisión utilizando C#. Si una fuente o un carácter específico no está disponible, Aspose.Words busca una fuente de reemplazo adecuada o utiliza el mecanismo de reserva de fuentes."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/manipulating-and-substitution-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

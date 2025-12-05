@@ -6,6 +6,9 @@ linktitle: Requisiti di sistema
 description: "Prima di iniziare a lavorare con Aspose.Words per .NET, assicurati di soddisfare i requisiti del sistema operativo, della piattaforma, dei framework e dell'ambiente in modo che le attività sui tuoi dispositivi vengano adeguatamente contabilizzate utilizzando C#."
 type: docs
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/system-requirements/
 timestamp: 2024-02-01-16-17-05
 ---

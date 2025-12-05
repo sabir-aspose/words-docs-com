@@ -6,6 +6,9 @@ linktitle: Разделяне на документ
 description: "Разделяне на документ на няколко файла, използвайки Python. Използвайте разделената функция, за да разделите ефективно документ по заглавия или раздели, както и по страници или по страници."
 type: docs
 weight: 90
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/python-net/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

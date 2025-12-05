@@ -6,6 +6,9 @@ linktitle: 使用样式和主题
 description: "使用 Python 访问和管理文档中的样式和主题。"
 type: docs
 weight: 110
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/working-with-styles-and-themes/
 timestamp: 2024-01-27-14-07-04
 ---

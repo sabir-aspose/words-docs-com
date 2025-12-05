@@ -6,6 +6,9 @@ linktitle: Trabajar con imágenes
 description: "Formas de imágenes en detalles y funciones avanzadas proporcionadas por Aspose.Words para .NET."
 type: docs
 weight: 300
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/working-with-images/
 timestamp: 2024-05-02-11-51-44
 ---

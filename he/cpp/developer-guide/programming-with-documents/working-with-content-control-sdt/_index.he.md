@@ -6,6 +6,9 @@ linktitle: עבודה עם בקרת תוכן SDT
 type: docs
 description: "ניהול תוכן מסמכים מתקדם, כיצד ליצור ולתפעל בקרות תוכן (תגי מסמך מובנים) באמצעות C++."
 weight: 390
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/structured-document-tags-or-content-control/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Strukturierte Dokument-Tags oder Inhaltskontrolle
 description: "Betten Sie kundenspezifische Semantik sowie deren Verhalten und Erscheinungsbild in ein Dokument ein, indem Sie strukturierte Dokument-Tags (SDT oder Inhaltskontrolle) in Python verwenden."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/python-net/structured-document-tags-or-content-control/
 timestamp: 2024-01-31-14-23-37
 ---

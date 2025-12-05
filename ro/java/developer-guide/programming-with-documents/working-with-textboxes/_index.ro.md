@@ -6,6 +6,9 @@ linktitle: Lucrul cu Linked TextBoxes
 description: "Introducere în caracteristica textboxes legate în Aspose.Words pentru Java."
 type: docs
 weight: 250
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/java/working-with-linked-textboxes/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: ติดตามการเปลี่ยนแปลงในเ
 description: "ติดตามการเปลี่ยนแปลงเนื้อหาและการจัดรูปแบบที่คุณหรือผู้อื่นโดยใช้C++ เข้าถึงการแก้ไขแต่ละรายการในเอกสารและใช้คุณสมบัติต่างๆกับพวกเขา."
 type: docs
 weight: 270
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/track-changes-in-a-document/
 timestamp: 2024-01-30-16-22-34
 ---

@@ -6,6 +6,9 @@ linktitle: Werk Met Kantoor Byvoegings
 description: "Aspose.Words vir .NET bied verskeie klasse vir die werk met Kantoor Byvoegings met behulp van C#. U kan Taakpaneel byvoeg via webuitbreiding en die paneel-en uitbreidingseienskappe aanpas."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

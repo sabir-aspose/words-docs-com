@@ -6,6 +6,9 @@ linktitle: Commencer
 type: docs
 description: "Utilisez cette introduction aux principes fondamentaux de Aspose.Words for .NET pour commencer à réaliser la valeur de Aspose.Words pour votre entreprise."
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/getting-started/
 timestamp: 2024-09-25-11-08-55
 ---

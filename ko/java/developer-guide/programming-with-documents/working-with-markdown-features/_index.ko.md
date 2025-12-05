@@ -6,6 +6,9 @@ linktitle: Markdown기능 사용
 description: "Java를 사용하여Markdown기능을 구현하는 방법. 모든 기능은 해당 스타일 또는 직접 포맷으로 표시됩니다."
 type: docs
 weight: 420
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/working-with-markdown-features/
 timestamp: 2024-01-31-14-23-37
 ---

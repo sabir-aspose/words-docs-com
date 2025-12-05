@@ -6,6 +6,9 @@ linktitle: افزودن یا تغییر پیوندها
 description: "چگونه با استفاده از Java یک لینک به سند خود اضافه کنیم."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/working-with-hyperlinks/
 timestamp: 2024-01-27-14-07-04
 ---

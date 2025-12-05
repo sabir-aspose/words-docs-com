@@ -6,6 +6,9 @@ linktitle: Requisiti di sistema
 description: "Prima di iniziare a lavorare con Aspose.Words per C++, assicurarsi di soddisfare i requisiti del sistema operativo, della piattaforma, dei framework e dell'ambiente in modo che le attività sui dispositivi siano correttamente contabilizzate."
 type: docs
 weight: 70
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/cpp/system-requirements/
 timestamp: 2024-07-11-16-13-28
 ---

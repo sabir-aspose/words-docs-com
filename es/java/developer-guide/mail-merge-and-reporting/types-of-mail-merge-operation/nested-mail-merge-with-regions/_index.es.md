@@ -7,6 +7,9 @@ type: docs
 description: "Realice una operación Mail Merge con regiones anidadas. La combinación anidada es una función que le permite combinar datos jerárquicos de su fuente de datos en su plantilla de combinación usando Java."
 keywords: "mail merge with nested regions Java, Nested Mail Merge Regions"
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/java/nested-mail-merge-with-regions/
 timestamp: 2024-01-27-14-07-04
 ---

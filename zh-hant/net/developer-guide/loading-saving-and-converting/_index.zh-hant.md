@@ -6,6 +6,9 @@ linktitle: 載入、儲存和轉換
 description: "如何將文件從一個格式轉換到另一個格式，例如 Word 到 PDF 或 HTML 到 Markdown，以及如何使用 C# 加載和儲存文件。"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---

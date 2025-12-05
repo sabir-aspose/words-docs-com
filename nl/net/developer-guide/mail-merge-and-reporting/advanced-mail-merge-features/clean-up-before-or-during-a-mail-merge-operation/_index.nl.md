@@ -7,6 +7,9 @@ type: docs
 description: "Pas verschillende opties voor opschonen en verwijderen toe, zoals het verwijderen van samenvoegvelden voordat u een Mail Merge - bewerking uitvoert of het verwijderen van ongebruikte gebieden tijdens een Mail Merge - bewerking met C#."
 keywords: "cleanup options Mail Merge c#"
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/clean-up-before-or-during-mail-merge/
 timestamp: 2024-07-11-08-07-06
 ---

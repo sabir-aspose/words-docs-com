@@ -6,6 +6,9 @@ linktitle: 렌더링
 description: "사용 Aspose.Words 에 대한 C++ 플로우 레이아웃 문서를 페이지로 포맷하고 이러한 문서 또는 선택한 페이지를 다른 문서로 변환하는 렌더링 기능(PDF, HTML, XPS 그 밖의)또는 이미지(TIFF, PNG, SVG 그 밖의)보기,추가 변환 또는 인쇄를 위한 형식."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/rendering/
 timestamp: 2024-01-30-16-22-34
 ---

@@ -8,6 +8,9 @@ linktitle: Asistență tehnică
 type: docs
 description: "Aspose.Words pentru .NET oferă asistență tehnică gratuită disponibilă tuturor utilizatorilor. Vă rugăm să raportați întrebarea, problema sau cererea de caracteristică folosind Forumul de asistență Aspose Free."
 weight: 80
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/technical-support/
 timestamp: 2024-01-27-14-07-04
 ---

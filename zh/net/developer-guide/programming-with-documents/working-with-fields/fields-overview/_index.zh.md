@@ -6,6 +6,9 @@ linktitle: 领域概述
 description: "字段的详细信息、字段代码和字段结果在 Aspose.Words for .NET 中进行了解释。"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/fields-overview/
 timestamp: 2024-09-25-11-08-55
 ---

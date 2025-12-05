@@ -6,6 +6,9 @@ linktitle: ロードオプションの指定
 description: "プロセスのより正確な制御を得るために、Javaを使用して文書を読み込むときに高度なプロパティを設定します。"
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/specify-load-options/
 timestamp: 2024-01-27-14-07-04
 ---

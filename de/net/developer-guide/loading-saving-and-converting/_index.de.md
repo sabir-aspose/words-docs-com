@@ -6,6 +6,9 @@ linktitle: Laden, Speichern und Konvertieren
 description: "So konvertieren Sie ein Dokument von einem Format in ein anderes, z. B. Word in PDF oder HTML in Markdown, und wie laden und speichern Sie ein Dokument mit C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---

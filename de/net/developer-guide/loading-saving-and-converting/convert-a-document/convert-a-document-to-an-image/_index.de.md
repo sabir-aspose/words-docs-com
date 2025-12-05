@@ -6,6 +6,9 @@ linktitle: Konvertieren Sie ein Dokument in ein Bild
 type: docs
 description: "Konvertieren Sie ein Dokument in ein Bildformat (JPG, PNG usw.). Erstellen Sie eine Dokumentenvorschau oder erstellen Sie einen Dokumentenscan, um eine Rechnung mit C# zu versenden."
 weight: 43
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/convert-a-document-to-an-image/
 timestamp: 2024-07-09-19-00-42
 ---

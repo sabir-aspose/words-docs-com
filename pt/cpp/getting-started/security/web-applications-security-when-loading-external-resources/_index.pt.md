@@ -6,6 +6,9 @@ linktitle: Segurança De Aplicações Web Ao Carregar Recursos Externos
 type: docs
 description: "Carregar recursos remotos, o que pode ser motivo de riscos de segurança. Dê uma olhada nos problemas de segurança comuns e suas soluções em C++."
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-30-16-22-34
 ---

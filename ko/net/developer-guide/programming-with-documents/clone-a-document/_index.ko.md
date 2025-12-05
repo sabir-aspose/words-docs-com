@@ -6,6 +6,9 @@ linktitle: 문서 복제
 type: docs
 description: "C#를 사용하여 문서를 복제하여 동일한 사본을 얻으세요. 복사본을 만들 때 원본 문서의 노드와 속성이 복제됩니다."
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/clone-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

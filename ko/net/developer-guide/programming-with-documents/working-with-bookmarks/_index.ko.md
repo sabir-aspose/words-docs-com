@@ -6,6 +6,9 @@ linktitle: 북마크 작업
 description: "북마크 개념과 C#를 사용하여 프로그램에서 북마크를 사용하는 방법을 이해합니다."
 type: docs
 weight: 180
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/working-with-bookmarks/
 timestamp: 2024-01-27-14-07-04
 ---

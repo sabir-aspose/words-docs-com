@@ -6,6 +6,9 @@ linktitle: Xử lý siêu tệp Windows
 description: "Aspose.Words dành cho .NET triển khai trình phát Siêu tệp Windows của riêng mình để phát định dạng Metafile trên tất cả các nền tảng và hỗ trợ xử lý các tính năng siêu tệp cơ bản, đồng thời có thể thực hiện dự phòng cho một loại trình phát siêu tệp khác bằng C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/handling-windows-metafiles/
 timestamp: 2024-07-10-14-38-57
 ---

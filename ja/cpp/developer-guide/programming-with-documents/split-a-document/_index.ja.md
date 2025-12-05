@@ -6,6 +6,9 @@ linktitle: 文書を分割する
 description: "C++を使用してドキュメントを複数のファイルに分割します。 分割機能を使用すると、見出しやセクション、ページまたはページ範囲ごとに文書を効果的に分割できます。"
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

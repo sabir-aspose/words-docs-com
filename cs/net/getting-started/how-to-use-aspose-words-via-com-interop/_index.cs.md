@@ -6,6 +6,9 @@ linktitle: Jak se používá Aspose.Words místo .NET prostřednictvím COM Inte
 type: docs
 description: "Použití Aspose.Words místo .NET prostřednictvím COM Interop tro Python, PHP, VBScript, JScript a další programovací jazyky."
 weight: 130
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/net/how-to-use-aspose-words-via-com-interop/
 timestamp: 2024-09-25-11-08-55
 ---

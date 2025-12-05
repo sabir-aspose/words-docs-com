@@ -6,6 +6,9 @@ linktitle: Uložení dokumentu jako multistránkového TIFF
 description: "Převést dokument na rastrový obraz, který je diskutován na příkladu formátu TIFF. Chcete-li určit, jak se TIFF zobrazí, musíte zadat další možnosti: rozlišení, počet stránek, binární zobrazení obrazu, atd. pomocí Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/java/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

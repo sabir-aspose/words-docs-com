@@ -6,6 +6,9 @@ linktitle: Робота з документом
 type: docs
 description: "Клас `Document` надає різні властивості та методи документа, використовуючи C++. Ви використовуєте клас `Document` Як вихідну точку для всього, що ви хочете виконати за допомогою Aspose.Words для C++. Об'єкт `Document` може бути збережений у файл або потік, а також відправлений в браузер."
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/working-with-document/
 timestamp: 2024-01-30-16-22-34
 ---

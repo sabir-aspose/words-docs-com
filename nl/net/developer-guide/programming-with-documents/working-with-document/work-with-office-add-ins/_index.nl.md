@@ -6,6 +6,9 @@ linktitle: Werken met Office-invoegtoepassingen
 description: "Aspose.Words voor .NET biedt verschillende klassen voor het werken met Office Add-ins gebruiken C#. U kunt Taakpaneel toevoegen via webextensie en de paneel- en uitbreidingseigenschappen aanpassen."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

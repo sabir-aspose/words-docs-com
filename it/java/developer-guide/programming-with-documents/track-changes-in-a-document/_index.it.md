@@ -6,6 +6,9 @@ linktitle: Tenere traccia delle modifiche in un documento
 description: "Tieni traccia delle modifiche apportate al contenuto e alla formattazione da te o da altri. Accedere a singole revisioni in un documento e applicare varie proprietà utilizzando Java."
 type: docs
 weight: 270
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/java/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

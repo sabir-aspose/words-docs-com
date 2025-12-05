@@ -6,6 +6,9 @@ linktitle: 文档生成器概述
 type: docs
 description: "DocumentBuilder允许您从头开始构建动态文档或使用C++向现有文档添加新元素。 DocumentBuilder提供了在C++中插入文本、复选框、表、图像和其他内容元素的方法。"
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

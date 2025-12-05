@@ -6,6 +6,9 @@ linktitle: Вимоги до пам'яті
 description: "Скільки пам'яті Aspose.Words для Java вимагати роботи з документами? Дізнайтеся подробиці."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/java/memory-requirements/
 timestamp: 2024-09-25-11-08-55
 ---

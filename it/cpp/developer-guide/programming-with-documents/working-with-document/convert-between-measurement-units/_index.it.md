@@ -6,6 +6,9 @@ linktitle: Conversione tra unità di misura
 description: "Aspose.Words per C++ può aiutarti a convertire tra unità di misura, ad esempio, pollici in punti e punti in pollici, pixel in punti, punti in pixel."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/cpp/convert-between-measurement-units/
 timestamp: 2024-01-27-14-07-04
 ---

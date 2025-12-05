@@ -6,6 +6,9 @@ linktitle: การทำงานกับยัติภังค์
 description: "ใช้ยัติภังค์สำหรับการจัดเรียงข้อความที่มีขนาดกะทัดรัดมากขึ้นโดยใช้C++ จะมีขั้นตอนวิธีการขั้นสูงในการทำงานกับพจนานุกรมยัติภังค์ใช้พจนานุกรมOpenOffice."
 type: docs
 weight: 220
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/working-with-hyphenation/
 timestamp: 2024-01-30-16-22-34
 ---

@@ -6,6 +6,9 @@ linktitle: Клониране на документ
 type: docs
 description: "Клониране на документ за получаване на същото копие чрез C#. При създаването на копие се клонират възли и свойства на оригиналния документ."
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/clone-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

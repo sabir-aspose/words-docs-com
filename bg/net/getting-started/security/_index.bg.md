@@ -6,6 +6,9 @@ linktitle: Бележки по сигурността
 type: docs
 description: "Aspose.Words вместо .NET признава и спазва общи стандарти за сигурност, за да гарантира високо ниво на сигурност на данните. Вижте възможните проблеми със сигурността и препоръки за това как да се избегне използването им C#."
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/security/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Запис на промените в документ
 description: "Проследяване на промените в съдържанието и форматирането, направени от вас или други, използвайки C#. Достъп до индивидуални ревизии в документ и прилагане на различни свойства за тях."
 type: docs
 weight: 270
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

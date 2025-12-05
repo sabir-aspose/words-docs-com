@@ -6,6 +6,9 @@ linktitle: Praca z dokumentami ze źródeł zewnętrznych
 description: "Jak załadować dokumenty ze źródeł zewnętrznych do C#. Załaduj pliki PDF, DOCX, DOC, RTF, ODT, EPUB, HTML i inne pliki z formatu SharePoint lub bazy danych w celu dalszego przetwarzania za pomocą C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/working-with-documents-from-external-sources/
 timestamp: 2024-01-27-14-07-04
 ---

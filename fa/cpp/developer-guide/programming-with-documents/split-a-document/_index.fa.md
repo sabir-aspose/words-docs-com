@@ -6,6 +6,9 @@ linktitle: تقسیم یک سند
 description: "یک سند را با استفاده از C++ به چندین فایل تقسیم کنید. از ویژگی split برای تقسیم موثر یک سند بر اساس عناوین یا بخش ها و همچنین بر اساس صفحات یا محدوده صفحات استفاده کنید."
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

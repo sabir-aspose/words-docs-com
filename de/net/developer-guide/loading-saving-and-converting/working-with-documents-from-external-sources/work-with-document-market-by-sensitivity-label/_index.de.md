@@ -6,6 +6,9 @@ linktitle: Arbeiten Sie mit einem Dokument, das mit einem Vertraulichkeitsetiket
 description: "Konvertieren Sie Word mit angewendeter Vertraulichkeitsbezeichnung mithilfe von C# in PDF. Arbeiten Sie mit Dokumenten, die durch eine Vertraulichkeitsbezeichnung gekennzeichnet sind – verschiedene Eingabeformate, darunter Word, OpenOffice, Image und eBook."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/work-with-document-market-by-sensitivity-label/
 timestamp: 2024-01-31-14-23-37
 ---

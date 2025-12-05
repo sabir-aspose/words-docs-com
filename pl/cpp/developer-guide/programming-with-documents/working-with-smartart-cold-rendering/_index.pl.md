@@ -6,6 +6,9 @@ linktitle: Praca z renderowaniem na zimno SmartArt
 type: docs
 description: "Aspose.Words dla C++ wykonuje SmartArt renderowanie na zimno, co oznacza, że układa i renderuje SmartArt obiekty, jeśli brakuje wstępnie renderowanego rysunku SmartArt lub jest niepoprawny."
 weight: 330
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -8,6 +8,7 @@ weight: 30
 description: "Dịch một tài liệu. Aspose.Words cho .NET đơn giản hóa dịch tài liệu bằng Các mô hình Google AI, cho phép bạn chỉ định ngôn ngữ đích."
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/translate-a-document/
 timestamp: 2024-12-13-06-40-00
 ---

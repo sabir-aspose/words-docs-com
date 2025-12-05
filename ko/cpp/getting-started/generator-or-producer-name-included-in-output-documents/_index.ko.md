@@ -6,6 +6,9 @@ linktitle: 출력 문서의 생산자 이름
 description: "Aspose.Words 에 대한 C++ 문서에 생성기 이름과 그것을 만드는 데 사용된 버전 번호를 추가합니다. 이 데이터는 출력 파일 형식에 따라 달라지는 방식으로 문서에서 찾을 수 있습니다."
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

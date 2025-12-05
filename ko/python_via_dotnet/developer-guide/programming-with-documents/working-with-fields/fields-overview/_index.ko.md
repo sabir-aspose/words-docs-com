@@ -6,6 +6,9 @@ linktitle: 필드 개요
 description: "Python를 사용하여 필드 수정에 액세스할 수 있습니다. 문서의 필드는 Aspose.Words Document Object Model(DOM)로 로드됩니다."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/fields-overview/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: Tổng quan về bảng
 description: "Làm việc với các bảng và các thành phần của chúng như ô, hàng, cột trong Aspose.Words cho Python. Cách làm việc với bảng trong Python."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

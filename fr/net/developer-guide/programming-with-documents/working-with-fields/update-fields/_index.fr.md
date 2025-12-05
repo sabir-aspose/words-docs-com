@@ -6,6 +6,9 @@ linktitle: Mettre à jour les champs
 description: "Découvrez comment mettre à jour les champs dans C#. Mettez à jour les champs par programme ou utilisez la mise à jour automatique des champs à l'aide de .NET API."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/update-fields/
 timestamp: 2024-01-27-14-07-04
 ---

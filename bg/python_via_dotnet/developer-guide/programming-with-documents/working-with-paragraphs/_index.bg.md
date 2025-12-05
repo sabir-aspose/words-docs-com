@@ -6,6 +6,9 @@ linktitle: Работа с абзаци
 description: "Вмъква се параграф и се посочва форматирането му в документ, като се използва Python."
 type: docs
 weight: 210
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/python-net/working-with-paragraphs/
 timestamp: 2024-01-27-14-07-04
 ---

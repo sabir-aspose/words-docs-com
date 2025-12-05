@@ -6,6 +6,9 @@ linktitle: ドキュメント保存でサポートされる機能
 description: "ドキュメントをほとんどの一般的な形式で保存し、C# を使用した多くの Microsoft Word 機能をサポートします。"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/supported-features-on-document-save/
 timestamp: 2024-09-25-11-08-55
 ---

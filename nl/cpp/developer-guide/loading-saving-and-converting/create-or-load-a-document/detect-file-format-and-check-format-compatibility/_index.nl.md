@@ -6,6 +6,9 @@ linktitle: Detecteer bestandsindeling en controleer Formaatcompatibiliteit
 description: "Bepaal de bestandsindeling in C++ als u niet zeker weet wat de werkelijke inhoud van het bestand is, of om de compatibiliteit van de indeling te controleren."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: Cloner un Document
 type: docs
 description: "Cloner un document pour obtenir sa copie identique en utilisant C++. Lors de la création d'une copie, les nœuds et les propriétés du document d'origine sont clonés."
 weight: 70
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/clone-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

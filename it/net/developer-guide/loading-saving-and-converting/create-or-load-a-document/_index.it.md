@@ -4,6 +4,9 @@ second_title: Aspose.Words per .NET
 articleTitle: Crea o carica un documento
 linktitle: Crea o carica un documento
 type: docs
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/create-or-load-a-document/
 description: "Crea un documento vuoto o caricalo da un file o stream utilizzando C#."
 keywords: "create a document c#, load a document c#, create a blank document c#, load a document from file c#, load a document from stream c#, create a document Aspose .NET, load a document Aspose .NET, load formats supported by Aspose.Words .NET"

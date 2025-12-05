@@ -6,6 +6,9 @@ linktitle: 使用列和行
 description: "使用 C# 处理表格的各个部分 - 行、列和单元格。指定标题行 C#。"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/working-with-columns-and-rows/
 timestamp: 2024-01-27-14-07-04
 ---

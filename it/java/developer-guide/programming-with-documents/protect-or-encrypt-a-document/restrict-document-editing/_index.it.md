@@ -6,6 +6,9 @@ linktitle: Limita la modifica dei documenti
 description: "Limitare la modifica di un documento impostando un tipo di restrizione. Puoi anche rimuovere la protezione e rendere le regioni modificabili senza restrizioni usando Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/java/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---

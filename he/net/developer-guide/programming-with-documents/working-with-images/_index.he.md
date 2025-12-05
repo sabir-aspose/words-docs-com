@@ -6,6 +6,9 @@ linktitle: עבודה עם תמונות
 description: "צורות צילום בפרטים ותכונות מתקדמות המסופקות על ידי Aspose.Words עבור .NET."
 type: docs
 weight: 300
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/working-with-images/
 timestamp: 2024-05-02-11-51-44
 ---

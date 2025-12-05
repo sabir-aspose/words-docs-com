@@ -6,6 +6,9 @@ linktitle: Работа със стилове и теми
 description: "Засилено Microsoft Word форматиране на функции, работа със стилове и теми, използващи Java."
 type: docs
 weight: 110
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/working-with-styles-and-themes/
 timestamp: 2024-01-27-14-07-04
 ---

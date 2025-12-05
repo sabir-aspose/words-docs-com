@@ -6,6 +6,9 @@ linktitle: 지원되는 기능
 description: "Aspose.Words 에 대한 C++ 단순히 문서를 변환 및 수정하는 것부터 구조화되고 시각적으로 매력적인 문서를 작성하거나 보고를 자동화하는 것까지 다양한 기능을 사용자에게 제공합니다."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/features/
 timestamp: 2024-01-27-14-07-04
 ---

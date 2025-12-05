@@ -6,6 +6,9 @@ linktitle: Korzystanie z czcionek TrueType
 description: "Aspose.Words for .NET może znaleźć odpowiednią czcionkę lub odpowiedni jej zamiennik w celu prawidłowego renderowania dokumentu przy użyciu formatu C#. Dzięki temu różnica między wyświetlanym dokumentem a oryginałem jest minimalna, gdy nie ma wystarczających informacji o czcionce."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

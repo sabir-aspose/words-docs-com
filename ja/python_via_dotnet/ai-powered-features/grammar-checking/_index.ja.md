@@ -8,6 +8,7 @@ weight: 40
 description: "文書の文法を確認してください。 Aspose.WordsのためのPython ユーザーはOpenAI、Google、Claudeモデルを使用して文法をチェックし、文書のエラーを検出できます。"
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/python-net/grammar-checking/
 timestamp: 2025-03-17-19-00-00
 ---

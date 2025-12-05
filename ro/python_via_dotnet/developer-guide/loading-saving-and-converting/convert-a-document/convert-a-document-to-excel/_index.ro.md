@@ -6,6 +6,9 @@ linktitle: Conversia unui Document în Excel
 description: "Convertiți PDF în Excel, XML în Excel, DOCX în Excel Python. Salvați un document în diferite formate în XLSX folosind Python."
 type: docs
 weight: 15
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/python-net/convert-a-document-to-excel/
 timestamp: 2024-01-31-14-23-37
 ---

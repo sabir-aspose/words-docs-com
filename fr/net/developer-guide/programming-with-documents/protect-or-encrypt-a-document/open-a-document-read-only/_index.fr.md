@@ -6,6 +6,9 @@ linktitle: Ouvrir un document en lecture seule
 description: "Rendez votre document en lecture seule afin que le contenu puisse être copié ou lu, mais pas modifié à l'aide de C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/open-a-document-read-only/
 timestamp: 2024-01-27-14-07-04
 ---

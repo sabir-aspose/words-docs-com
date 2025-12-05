@@ -6,6 +6,9 @@ linktitle: 使用文本文档
 description: "高级TXT文档处理，列表，BiDi，页眉/页脚，使用C++。"
 type: docs
 weight: 430
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/working-with-text-document/
 timestamp: 2024-01-27-14-07-04
 ---

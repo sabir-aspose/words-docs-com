@@ -6,6 +6,9 @@ linktitle: 以光標導航
 description: "透過 C# 在不同的節點之間导航，例如段落、書籤或特定字元。"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/navigation-with-cursor/
 timestamp: 2024-01-27-14-07-04
 ---

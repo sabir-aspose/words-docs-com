@@ -6,6 +6,9 @@ linktitle: 開発者ガイド
 description: "より多くのユースケース、ヒント、技術的な詳細を取得するには、Aspose.WordsforJava開発者ガイドをご覧ください。"
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

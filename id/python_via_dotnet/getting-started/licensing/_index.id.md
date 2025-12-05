@@ -6,6 +6,9 @@ linktitle: Lisensi dan Langganan
 description: "Aspose.Words untuk Python via .NET memberikan paket pembelian yang berbeda atau menawarkan Uji Coba Gratis dan Lisensi Sementara 30 hari untuk evaluasi menggunakan kebijakan Lisensi dan Berlangganan."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/python-net/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

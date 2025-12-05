@@ -8,6 +8,7 @@ weight: 30
 description: "Traduceți un document. Aspose.Words pentru C++ simplifică traducerea documentelor folosind modelele Google AI, permițându-vă să specificați limba țintă."
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/translate-a-document/
 timestamp: 2025-03-17-19-00-00
 ---

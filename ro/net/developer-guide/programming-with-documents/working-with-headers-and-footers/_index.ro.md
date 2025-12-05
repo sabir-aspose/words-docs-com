@@ -6,6 +6,9 @@ linktitle: Lucrarea cu anteturi și subsoluri
 description: "Cum se manipulează antetele și subsolurile folosind C#. Creați anteturi și subsoluri în C#. Înlătură anteturi sau subsoluri C#."
 type: docs
 weight: 150
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/working-with-headers-and-footers/
 timestamp: 2024-01-27-14-07-04
 ---

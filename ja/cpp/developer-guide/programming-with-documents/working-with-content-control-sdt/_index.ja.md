@@ -6,6 +6,9 @@ linktitle: コンテンツコントロールSDTの操作
 type: docs
 description: "高度な文書コンテンツ管理、C++を使用してコンテンツコントロール（構造化文書タグ）を作成および操作する方法。"
 weight: 390
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/structured-document-tags-or-content-control/
 timestamp: 2024-01-27-14-07-04
 ---

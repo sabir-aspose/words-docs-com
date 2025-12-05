@@ -6,6 +6,9 @@ linktitle: コンテンツコントロールSDTの操作
 type: docs
 description: "高度な文書コンテンツ管理、Javaを使用してコンテンツコントロール(構造化文書タグ)を作成および操作する方法。"
 weight: 390
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---

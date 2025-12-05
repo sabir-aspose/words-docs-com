@@ -6,6 +6,9 @@ linktitle: دستکاری و جایگزینی فونت های TrueType
 description: "Aspose.Words for .NET می‌تواند فونت‌های TrueType صحیح را در سند به‌دست‌آمده تعبیه کند تا اطمینان حاصل شود که با استفاده از C# به دقت نمایش داده می‌شود. اگر یک فونت یا یک کاراکتر خاص در دسترس نباشد، Aspose.Words به دنبال جایگزینی مناسب برای فونت می‌گردد یا از مکانیسم Font backback استفاده می‌کند."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/manipulating-and-substitution-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: Systemanforderung
 description: "Bevor Sie mit der Arbeit beginnen Aspose.Words für C++, stellen Sie sicher, dass Sie die Anforderungen an Betriebssystem, Plattform, Frameworks und Umgebung erfüllen, damit die Aktivitäten auf Ihren Geräten ordnungsgemäß berücksichtigt werden."
 type: docs
 weight: 70
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/cpp/system-requirements/
 timestamp: 2024-07-11-16-13-28
 ---

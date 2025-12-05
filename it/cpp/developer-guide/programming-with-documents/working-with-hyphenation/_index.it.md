@@ -6,6 +6,9 @@ linktitle: Lavorare con la sillabazione
 description: "Utilizzare la sillabazione per una disposizione più compatta del testo utilizzando C++. Fornisce algoritmi avanzati per lavorare con dizionari di sillabazione, utilizza dizionari OpenOffice."
 type: docs
 weight: 220
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/cpp/working-with-hyphenation/
 timestamp: 2024-01-30-16-22-34
 ---

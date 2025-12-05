@@ -6,6 +6,9 @@ linktitle: Ръководство За Разработчици
 description: "Това ръководство за разработчици описва практически сценарии и съвети, които да ви помогнат да използвате конкретни Aspose.Words за C++ функции, да постигнете определен вид на документа или да направите възможен случай на използване."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

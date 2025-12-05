@@ -6,6 +6,9 @@ linktitle: Как да използваме примерите
 description: "Изтегляне Aspose.Words вместо Python via .NET примери от нашия GitHub хранилище и се научите как да ги управлявате, за да станете по-запознати с Aspose.Words възможности и характеристики."
 type: docs
 weight: 110
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/python-net/how-to-run-the-examples/
 timestamp: 2024-01-27-14-07-04
 ---

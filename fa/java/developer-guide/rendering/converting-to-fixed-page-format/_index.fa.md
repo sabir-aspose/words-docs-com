@@ -6,6 +6,9 @@ linktitle: تبدیل به فرمت صفحه ثابت
 description: "Aspose.Words برای Java موتور طرح بندی صفحه خود را پیاده سازی می کند که آن را قادر می سازد تا تمام فرمت های صفحه ثابت مانند PDF، XPS و فرمت های مختلف تصویر را تولید کند."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/converting-to-fixed-page-format/
 timestamp: 2024-01-31-14-23-37
 ---

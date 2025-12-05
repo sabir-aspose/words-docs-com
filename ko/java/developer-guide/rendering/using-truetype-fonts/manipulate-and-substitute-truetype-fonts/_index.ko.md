@@ -6,6 +6,9 @@ linktitle: TrueType글꼴 조작 및 대체
 description: "Aspose.Words의 경우Java는 올바른TrueType글꼴을 결과 문서에 포함시켜 정확하게 표시되도록 하거나 적절한 글꼴 대체를 검색하거나 글꼴 대체 메커니즘을 사용할 수 있습니다."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

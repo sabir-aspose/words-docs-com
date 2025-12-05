@@ -6,6 +6,9 @@ linktitle: پیدا کردن و جایگزین کردن
 type: docs
 description: "یک رشته یا الگوی عبارت منظم را در سند خود پیدا کنید و آن را با متن مورد نظر خود با استفاده از Java جایگزین کنید."
 weight: 100
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/find-and-replace/
 timestamp: 2024-01-27-14-07-04
 ---

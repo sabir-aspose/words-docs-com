@@ -6,6 +6,9 @@ linktitle: Práce s vlastnostmi dokumentu
 description: "Aspose.Words pro C++ umožňuje ukládat některé užitečné informace o dokumentu, například API a Číslo verze nebo autorizované Datum, ve vestavěných nebo vlastních vlastnostech dokumentu."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

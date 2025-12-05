@@ -7,6 +7,9 @@ type: docs
 description: "ดำเนินการสองประเภทที่แตกต่างกัน Mail Merge การดำเนินงาน:ง่าย Mail Merge และ Mail Merge กับภูมิภาคที่ใช้ C++. ง่าย Mail Merge ซ้ำเอกสารทั้งหมดต่อแต่ละบันทึกแหล่งข้อมูลในขณะที่ Mail Merge ด้วยภูมิภาคซ้ำภูมิภาคที่กำหนดเฉพาะต่อระเบียน."
 keywords: "how to execute Mail Merge c++"
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/types-of-mail-merge-operations/
 timestamp: 2024-09-24-14-35-44
 ---

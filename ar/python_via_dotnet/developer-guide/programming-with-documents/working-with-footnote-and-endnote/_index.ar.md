@@ -6,6 +6,9 @@ linktitle: العمل مع الحواشي السفلية والتعليقات ا
 description: "قم بإدراج الحواشي أو التعليقات الختامية في المستند وحدد خياراته باستخدام Python."
 type: docs
 weight: 160
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/working-with-footnote-and-endnote/
 timestamp: 2024-01-27-14-07-04
 ---

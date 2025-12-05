@@ -4,6 +4,9 @@ second_title: Aspose.Words برای .NET
 articleTitle: تبدیل یک سند
 linktitle: تبدیل یک سند
 type: docs
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/convert-a-document/
 weight: 30
 description: "با استفاده از C# به راحتی اسناد را از یک فرمت به فرمت دیگر تبدیل کنید. شما می توانید با همه فرمت های محبوب مانند فرمت های Microsoft Word مانند DOCX یا DOC، فرمت های OpenDocument مانند ODT یا OTT، فرمت های وب مانند HTML یا XHTML، فرمت های متنی مانند MarkDown یا TXT و غیره کار کنید."

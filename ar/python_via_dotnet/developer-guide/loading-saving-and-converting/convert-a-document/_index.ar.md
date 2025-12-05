@@ -4,6 +4,9 @@ second_title: Aspose.Words لـ Python via .NET
 articleTitle: تحويل مستند
 linktitle: تحويل مستند
 type: docs
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/convert-a-document/
 weight: 30
 description: "قم بتحويل المستندات بسهولة من تنسيق إلى آخر باستخدام Python. يمكنك العمل مع جميع التنسيقات الأكثر شيوعًا مثل تنسيقات Microsoft Word مثل DOCX أو DOC، وتنسيقات OpenDocument مثل ODT أو OTT، وتنسيقات الويب مثل HTML أو XHTML، وتنسيقات النص مثل MarkDown أو TXT وغيرها."

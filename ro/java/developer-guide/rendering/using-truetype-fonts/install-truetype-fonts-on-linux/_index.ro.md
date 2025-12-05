@@ -6,6 +6,9 @@ linktitle: Instalați TrueType fonturi pe Linux
 description: "Aspose.Words pentru Java permite redarea unui document creat folosind Microsoft Word pe o mașină Linux cu cea mai bună precizie."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/java/install-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

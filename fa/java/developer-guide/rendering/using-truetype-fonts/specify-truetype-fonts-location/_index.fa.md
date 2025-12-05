@@ -6,6 +6,9 @@ linktitle: مکان فونت ها را مشخص کنید TrueType
 description: "منابع مختلف فونت TrueType را مشخص کنید: پوشه سیستم، منابع کاربر، بارگذاری فونت ها از یک جریان، یک سیستم فایل یا حافظه با استفاده از Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/specify-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

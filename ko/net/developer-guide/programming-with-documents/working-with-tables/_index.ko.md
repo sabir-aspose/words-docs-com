@@ -6,6 +6,9 @@ linktitle: 테이블 작업
 description: "C#에서 테이블로 작업하는 방법. .NET용 Aspose.Words에서 테이블 및 테이블 노드 개념을 사용하는 방법을 소개합니다."
 type: docs
 weight: 190
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/working-with-tables/
 timestamp: 2024-01-27-14-07-04
 ---

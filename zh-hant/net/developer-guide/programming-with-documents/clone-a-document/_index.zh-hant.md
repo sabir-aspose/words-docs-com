@@ -6,6 +6,9 @@ linktitle: 清除文件
 type: docs
 description: "透過 C# 克隆文件以取得其複製版本。 當建立一份複本時，原始文件的節點和屬性會複製出來。"
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/clone-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

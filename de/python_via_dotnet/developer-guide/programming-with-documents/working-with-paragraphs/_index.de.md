@@ -6,6 +6,9 @@ linktitle: Arbeiten mit Absätzen
 description: "Fügen Sie einen Absatz ein und legen Sie seine Formatierung in einem Dokument mit Python fest."
 type: docs
 weight: 210
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/python-net/working-with-paragraphs/
 timestamp: 2024-01-27-14-07-04
 ---

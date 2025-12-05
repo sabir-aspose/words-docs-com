@@ -6,6 +6,9 @@ linktitle: テーブルを配置する
 description: "C# でテーブルの位置を指定します。 C# を使用してテーブルの位置合わせを取得し、フローティング テーブルの位置を取得および設定します。"
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/position-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

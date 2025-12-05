@@ -6,6 +6,9 @@ linktitle: はじめに
 type: docs
 description: "この導入を使用して C++の場合Aspose.Words あなたのビジネスのためのAspose.Wordsの価値の実現を開始するための基礎。"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/getting-started/
 timestamp: 2024-09-25-11-08-55
 ---

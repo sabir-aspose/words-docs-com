@@ -6,6 +6,9 @@ linktitle: 與圖像合作
 description: "在 Aspose.Words 為 .NET 提供的細節和進階功能中，以圖形來表示圖像。"
 type: docs
 weight: 300
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/working-with-images/
 timestamp: 2024-05-02-11-51-44
 ---

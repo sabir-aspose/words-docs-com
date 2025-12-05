@@ -7,6 +7,9 @@ description: "C# 中使用 SmartArt 圖形之介紹。"
 type: docs
 description: "Aspose.Words for .NET 在 SmartArt 上执行智能艺术冷呈现，即在预呈现的智能艺术绘图丢失或不正确时使用 C# 布局和呈现 SmartArt 对象。"
 weight: 330
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

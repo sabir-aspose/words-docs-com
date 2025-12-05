@@ -6,6 +6,9 @@ linktitle: 안녕하세요 세계
 description: ".NET용 Aspose.Words를 사용하여 지원되는 형식으로 첫 번째 문서를 생성, 편집 및 저장하여 C#의 단순성과 강력함을 경험해 보세요."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/hello-world/
 timestamp: 2024-01-27-14-07-04
 ---

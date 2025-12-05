@@ -6,6 +6,9 @@ linktitle: Arbeiten mit Inhaltskontrolle SDT
 type: docs
 description: "Erweitertes Dokumentinhaltsmanagement, Erstellen und Bearbeiten von Inhaltssteuerelementen (strukturierte Dokument-Tags) mit Java."
 weight: 390
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---

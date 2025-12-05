@@ -6,6 +6,9 @@ linktitle: 문서 저장 시 지원되는 기능
 description: "Python를 사용하여 지원되는 형식으로 문서를 저장하세요. 모든 크기의 문서를 변환하고 내보낼 수 있습니다."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/supported-features-on-document-save/
 timestamp: 2024-01-31-14-23-37
 ---

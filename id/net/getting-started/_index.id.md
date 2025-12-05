@@ -6,6 +6,9 @@ linktitle: Mulai
 type: docs
 description: "Gunakan pengenalan dasar-dasar Aspose.Words untuk .NET ini untuk mulai menyadari nilai Aspose.Words bagi bisnis Anda."
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/net/getting-started/
 timestamp: 2024-09-25-11-08-55
 ---

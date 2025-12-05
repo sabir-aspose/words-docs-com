@@ -6,6 +6,9 @@ linktitle: Entwicklerhandbuch
 description: "Erfahren Sie Aspose.Words für Java Entwicklerhandbuch, um weitere Anwendungsfälle, Tipps und technische Details zu erhalten."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

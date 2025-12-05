@@ -6,6 +6,9 @@ linktitle: 查找和替换
 type: docs
 description: "在文档中查找字符串或正则表达式模式，并使用Java将其替换为所需的文本。"
 weight: 100
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/find-and-replace/
 timestamp: 2024-01-27-14-07-04
 ---

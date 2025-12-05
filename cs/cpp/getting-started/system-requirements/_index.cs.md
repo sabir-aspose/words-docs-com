@@ -6,6 +6,9 @@ linktitle: Požadavek
 description: "Než začnete pracovat s Aspose.Words pro C++, Ujistěte se, že splňujete požadavky na operační systém, platformu, rámce a prostředí, aby byly aktivity na vašich zařízeních řádně zohledněny."
 type: docs
 weight: 70
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/system-requirements/
 timestamp: 2024-07-11-16-13-28
 ---

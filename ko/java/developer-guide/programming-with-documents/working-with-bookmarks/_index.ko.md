@@ -6,6 +6,9 @@ linktitle: 북마크 작업
 description: "책갈피 개념 및Java을 사용하여 프로그램에서 책갈피를 사용할 수 있는 방법을 이해합니다."
 type: docs
 weight: 180
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/working-with-bookmarks/
 timestamp: 2024-01-27-14-07-04
 ---

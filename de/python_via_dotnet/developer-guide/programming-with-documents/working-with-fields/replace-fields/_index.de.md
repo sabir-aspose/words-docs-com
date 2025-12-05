@@ -6,6 +6,9 @@ linktitle: Ersetzen Sie Felder durch statischen Text
 description: "Erfahren Sie, wie Sie Felder in Python durch Text ersetzen. Ersetzen Sie Felder mithilfe des Python via .NET-API durch statische Daten."
 type: docs
 weight: 37
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/python-net/replace-fields/
 timestamp: 2024-01-27-14-07-04
 ---

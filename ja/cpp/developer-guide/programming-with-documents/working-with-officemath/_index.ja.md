@@ -6,6 +6,9 @@ linktitle: OfficeMathでの作業
 type: docs
 description: "のオフィス数学機能の紹介 C++の場合Aspose.Words."
 weight: 320
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/working-with-officemath/
 timestamp: 2024-01-27-14-07-04
 ---

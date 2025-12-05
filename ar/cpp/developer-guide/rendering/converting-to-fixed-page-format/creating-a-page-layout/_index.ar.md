@@ -6,6 +6,9 @@ linktitle: إنشاء تخطيط الصفحة
 description: "يمكن أن يكون إنشاء تخطيط الصفحة إجراء مكلفا. Aspose.Words ستنشئ تخطيط صفحة فقط عندما يكون ذلك ضروريا: لعرض صفحات المستند، للحصول على قيمة حقل، لتصدير مستند إلى HTML، إلخ."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/creating-a-page-layout/
 timestamp: 2024-09-24-14-35-44
 ---

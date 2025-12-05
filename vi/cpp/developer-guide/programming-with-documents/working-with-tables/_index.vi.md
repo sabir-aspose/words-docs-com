@@ -6,6 +6,9 @@ linktitle: Làm Việc Với Các Bảng
 description: "Làm thế nào để làm việc với các bảng trong C++. Giới thiệu để làm việc với các bảng Và Khái niệm Nút Bảng trong Aspose.Words cho C++."
 type: docs
 weight: 190
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/working-with-tables/
 timestamp: 2024-01-27-14-07-04
 ---

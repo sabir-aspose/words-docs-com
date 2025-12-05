@@ -8,6 +8,7 @@ weight: 20
 description: "Résumez un document. Aspose.Words pour C++ simplifie la synthèse des documents à l'aide des modèles OpenAI et Google AI en vous permettant de spécifier la longueur du résumé."
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/summarize-a-document/
 timestamp: 2025-03-17-19-00-00
 ---

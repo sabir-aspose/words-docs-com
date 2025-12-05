@@ -6,6 +6,9 @@ linktitle: 프로그래밍 방식으로 또는 대화 상자를 사용하여 문
 description: "관리되지 않는 XpsPrint API를 사용하거나 C#의 설정 및 인쇄 미리 보기 대화 상자가 있는 선택한 프린터를 통해 Server의 문서를 인쇄합니다."
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-31-14-23-37
 ---

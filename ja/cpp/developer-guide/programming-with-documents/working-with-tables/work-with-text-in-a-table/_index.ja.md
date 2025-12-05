@@ -6,6 +6,9 @@ linktitle: テーブル内のテキストを操作する
 description: "C++でテーブル内のテキストを置き換えます。 C++を使用してテーブルまたはセルからプレーンテキストを抽出します。"
 type: docs
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/work-with-text-in-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

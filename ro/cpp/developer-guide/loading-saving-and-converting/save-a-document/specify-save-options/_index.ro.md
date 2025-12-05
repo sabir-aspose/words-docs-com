@@ -6,6 +6,9 @@ linktitle: Specificați Opțiunile De Salvare
 description: "Controlați mai precis procesul de salvare."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/specify-save-options/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Lavorare con intestazioni e piè di pagina
 description: "Come manipolare intestazioni e piè di pagina utilizzando C#. Crea intestazioni e piè di pagina C#. Rimuovere intestazioni o piè di pagina C#."
 type: docs
 weight: 150
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/working-with-headers-and-footers/
 timestamp: 2024-01-27-14-07-04
 ---

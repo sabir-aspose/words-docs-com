@@ -6,6 +6,9 @@ linktitle: Docker에서 Aspose.Words를 실행하는 방법
 type: docs
 description: "개발 스택에 어떤 기술이 있는지에 관계없이 Docker를 사용하여 Aspose.Words 기능을 애플리케이션에 통합하세요. C#의 Docker 컨테이너에서 Aspose .Words를 사용하는 방법을 알아보세요."
 weight: 120
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/how-to-run-aspose-words-in-docker/
 timestamp: 2024-08-19-11-05-36
 ---

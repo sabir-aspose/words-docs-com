@@ -6,6 +6,9 @@ linktitle: Arbeiten mit Feldern
 description: "So arbeiten Sie mit Feldern in einem Dokument mithilfe von Python."
 type: docs
 weight: 370
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/python-net/working-with-fields/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -4,6 +4,9 @@ second_title: Aspose.Words pentru .NET
 articleTitle: Converteste un document
 linktitle: Converteste un document
 type: docs
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/convert-a-document/
 weight: 30
 description: "Convertiţi cu uşurinţă documente dintr-un format în altul folosind C#. Puteți lucra cu toate cele mai populare formate precum Microsoft Word cum ar fi DOCX sau DOC, formate OpenDocument cum ar fi ODT sau OTT, formate web cum ar fi HTML sau XHTML, formate de text cum ar fi Markdown sau TXT și altele."

@@ -6,6 +6,9 @@ linktitle: การทำงานกับตัวอักษรเอเช
 description: "ทำงานร่วมกับตัวอักษรเอเชียโดยใช้C++ ปรับช่องว่างระหว่างข้อความเอเชียและภาษาละตินในC++."
 type: docs
 weight: 240
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/working-with-asian-typography/
 timestamp: 2024-02-01-16-17-05
 ---

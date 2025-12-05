@@ -6,6 +6,9 @@ linktitle: 保護或加密檔案
 description: " Aspose.Words for .NET 提供用 C# 保護文件的只讀、加密文件、限制編輯和數字簽名功能。 Aspose.Words 支援大多數 Word 保護選項。"
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

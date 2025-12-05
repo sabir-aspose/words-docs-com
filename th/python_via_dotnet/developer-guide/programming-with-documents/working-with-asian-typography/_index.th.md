@@ -6,6 +6,9 @@ linktitle: การทำงานกับตัวอักษรเอเช
 description: "ทำงานกับการพิมพ์แบบเอเชียโดยใช้ Python ปรับช่องว่างระหว่างข้อความเอเชียและละตินใน Python"
 type: docs
 weight: 240
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/python-net/working-with-asian-typography/
 timestamp: 2024-02-01-16-17-05
 ---

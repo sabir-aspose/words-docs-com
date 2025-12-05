@@ -6,6 +6,9 @@ linktitle: Работа с контрол на съдържанието SDT
 type: docs
 description: "Разширено управление на съдържанието на документи, как да създавате и манипулирате контроли на съдържание (структурирани етикети на документи), използвайки C++."
 weight: 390
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/structured-document-tags-or-content-control/
 timestamp: 2024-01-27-14-07-04
 ---

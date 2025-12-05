@@ -6,6 +6,9 @@ linktitle: Beskerm of Enkripteer'n Dokument
 description: "Aspose.Words vir .NET bied Lees-Alleen, Enkripteer'n Dokument, Beperk Redigering, en Digitale Handtekeninge vir dokument beskerming met behulp van C#. Aspose.Words ondersteun die meeste Woordbeskermingsopsies."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

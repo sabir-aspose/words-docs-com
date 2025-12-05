@@ -6,6 +6,9 @@ linktitle: 插入和追加文档
 description: "将文档合并为一个：使用查找和替换、合并字段、书签或简单地在Java中的文档结尾处将文档插入或附加到新的或现有的文档中。"
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

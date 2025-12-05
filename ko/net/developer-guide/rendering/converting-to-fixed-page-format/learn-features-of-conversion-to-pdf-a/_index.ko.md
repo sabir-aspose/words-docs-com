@@ -6,6 +6,9 @@ linktitle: PDF/A 및 PDF/UA로 변환 기능 알아보기
 description: "C#를 사용하여 PDF/A-1, PDF/A-2, PDF/A-4 및 PDF/UA로 변환합니다. C#를 사용하여 문서를 변환하려면 가장 적합한 PDF 표준을 선택하세요."
 type: docs
 weight: 25
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/learn-features-of-conversion-to-pdf-a-pdf-ua/
 timestamp: 2024-01-31-14-23-37
 ---

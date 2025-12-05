@@ -6,6 +6,9 @@ linktitle: テーブルの結合
 description: "高度なテーブル操作。 2つのテーブルを1つのC++にマージする方法。 C++を使用してテーブルを結合します。"
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/join-tables/
 timestamp: 2024-01-27-14-07-04
 ---

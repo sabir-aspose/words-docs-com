@@ -6,6 +6,9 @@ linktitle: Aspose.Words文档对象模型(DOM)
 type: docs
 description: "文档对象模型(DOM)是Word文档的内存表示形式。 使用Java读取、操作和修改Word文档的内容和格式。"
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/aspose-words-document-object-model/
 timestamp: 2024-01-27-14-07-04
 ---

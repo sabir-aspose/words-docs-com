@@ -6,6 +6,9 @@ linktitle: Tùy Chỉnh Thuộc Tính Trường
 description: "Tìm hiểu cách tùy chỉnh thuộc tính trường trong C++. Đổi tên các trường hợp nhất hoặc nhận kết quả cho các trường không có nút phân tách trong C++."
 type: docs
 weight: 27
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

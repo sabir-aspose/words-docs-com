@@ -6,6 +6,9 @@ linktitle: Formatos de documentos suportados
 type: docs
 description: "Edite documentos de origem em muitos formatos populares, bem como converta arquivos livremente de um formato para outro usando Python."
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/python-net/supported-document-formats/
 timestamp: 2024-10-21-11-17-44
 ---

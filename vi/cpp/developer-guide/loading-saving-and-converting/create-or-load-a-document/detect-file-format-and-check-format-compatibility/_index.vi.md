@@ -6,6 +6,9 @@ linktitle: Phát hiện Định dạng Tệp Và Kiểm Tra Khả năng Tương 
 description: "Xác định định dạng tệp trong C++ nếu bạn không chắc nội dung thực tế của tệp là gì hoặc để kiểm tra khả năng tương thích định dạng."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

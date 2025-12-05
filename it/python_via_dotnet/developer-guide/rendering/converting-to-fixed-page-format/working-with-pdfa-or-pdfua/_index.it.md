@@ -6,6 +6,9 @@ linktitle: Lavorare con PDF/A o PDF/UA
 description: "Converti in PDF/A-1, PDF/A-2, PDF/A-4 e PDF/UA utilizzando Python. Ci sono alcuni problemi durante la conversione in documenti PDF/A e Aspose.Words per Python li risolve."
 type: docs
 weight: 28
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/python-net/working-with-pdfa-or-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

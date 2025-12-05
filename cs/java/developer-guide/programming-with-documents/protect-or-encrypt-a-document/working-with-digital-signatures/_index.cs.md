@@ -6,6 +6,9 @@ linktitle: Práce s digitálními podpisy
 description: "Digitální podpis dokumentů a zjištění, počet, ověření a odstranění stávajících digitálních podpisů pomocí Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/java/working-with-digital-signatures/
 timestamp: 2024-01-27-14-07-04
 ---

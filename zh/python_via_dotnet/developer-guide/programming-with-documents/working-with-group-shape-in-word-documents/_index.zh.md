@@ -6,6 +6,9 @@ linktitle: 在 Word 文档中使用 Group 形状
 description: "使用 Python 将 group shape 添加到文档中。"
 type: docs
 weight: 290
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/how-to-add-group-shape-into-a-word-document/
 timestamp: 2024-01-27-14-07-04
 ---

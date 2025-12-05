@@ -6,6 +6,9 @@ linktitle: Застосувати форматування таблиці
 description: "Форматування таблиці деталей за допомогою C#й Зареєструватися C# для форматування кожної частини таблиці."
 type: docs
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/applying-formatting/
 timestamp: 2024-01-27-14-07-04
 ---

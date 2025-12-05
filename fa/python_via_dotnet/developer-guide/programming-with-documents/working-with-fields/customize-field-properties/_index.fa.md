@@ -6,6 +6,9 @@ linktitle: ویژگی های فیلد را سفارشی کنید
 description: "با نحوه سفارشی کردن خصوصیات فیلد در Python آشنا شوید. تغییر نام فیلدهای ادغام یا به دست آوردن نتایج برای فیلدهای بدون گره جداکننده در Python via .NET."
 type: docs
 weight: 27
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

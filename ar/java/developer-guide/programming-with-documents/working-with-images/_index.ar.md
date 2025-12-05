@@ -6,6 +6,9 @@ linktitle: العمل مع الصور
 type: docs
 description: "الأشكال صورة في التفاصيل والميزات المتقدمة التي تقدمها Aspose.Words ل Java."
 weight: 300
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/working-with-images/
 timestamp: 2024-01-27-14-07-04
 ---

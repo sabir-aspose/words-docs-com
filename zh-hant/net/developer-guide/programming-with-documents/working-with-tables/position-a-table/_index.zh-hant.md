@@ -6,6 +6,9 @@ linktitle: 定位桌子
 description: "在C#中指定表格位置。 使用C#來獲取表格對齊和設定浮動表格位置。"
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/position-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

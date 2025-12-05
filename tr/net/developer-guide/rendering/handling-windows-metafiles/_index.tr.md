@@ -6,6 +6,9 @@ linktitle: Windows Meta Dosyalarını Kullanma
 description: ".NET için Aspose.Words, tüm platformlarda Meta Dosyası formatını oynatmak için kendi Windows Meta Dosyası oynatıcısını uygular ve temel meta dosyası özelliklerinin işlenmesini destekler ve C# kullanarak farklı türde bir meta dosyası oynatıcısına geri dönüş gerçekleştirebilir."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/handling-windows-metafiles/
 timestamp: 2024-07-10-14-38-57
 ---

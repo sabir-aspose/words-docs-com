@@ -5,6 +5,9 @@ articleTitle: Конвертувати документ
 linktitle: Конвертувати документ
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/java/convert-a-document/
 description: "Легко конвертуйте документи з одного формату в інший формат. Ви можете працювати з усіма найбільш популярними форматами, такими як Microsoft Word Формати, такі як DOCX або DOC, формати OpenDocument, такі як ODT або OTT, веб-формати, такі як HTML або XHTML, текстові формати, такі як MarkDown або TXT, та інші за допомогою Javaй"
 timestamp: 2024-09-25-11-08-55

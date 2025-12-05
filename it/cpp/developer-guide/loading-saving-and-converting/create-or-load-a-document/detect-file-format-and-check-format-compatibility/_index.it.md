@@ -6,6 +6,9 @@ linktitle: Rileva il formato del file e verifica la compatibilità del formato
 description: "Determinare il formato del file in C++ se non si è sicuri di quale sia il contenuto effettivo del file o per verificare la compatibilità del formato."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/cpp/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

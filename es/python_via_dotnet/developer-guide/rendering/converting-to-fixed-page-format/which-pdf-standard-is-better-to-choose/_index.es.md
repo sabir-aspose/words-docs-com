@@ -6,6 +6,9 @@ linktitle: ¿Qué estándar de PDF es mejor elegir?
 description: "Elija el mejor estándar PDF para exportar el resultado de su tarea de programación en Python. ¿Qué estándar de PDF es mejor? PDF 1.7, PDF 2.0, PDF/A-1, PDF/A-2 o PDF/UA."
 type: docs
 weight: 27
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/python-net/which-pdf-standard-is-better-to-choose/
 timestamp: 2024-01-27-14-07-04
 ---

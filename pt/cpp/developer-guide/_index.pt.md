@@ -6,6 +6,9 @@ linktitle: Guia Do Desenvolvedor
 description: "Este guia do desenvolvedor descreve cenários práticos e dicas para ajudá-lo a usar Aspose.Words para C++ características, alcançar uma certa aparência de documento ou tornar possível um caso de uso."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

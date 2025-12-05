@@ -6,6 +6,9 @@ linktitle: 파일 형식 및 변환
 description: "단 두 줄의 Python 코드로 지원되는 모든 로드의 문서를 저장 형식으로 변환하세요. 고품질의 변환을 제공합니다."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/file-formats-and-conversions/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: フィールドの挿入
 description: "`DocumentBuilder` または DOM (Document Object Model) を使用するなど、さまざまな方法で Python のドキュメントにフィールドを挿入します。"
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/python-net/inserting-fields/
 timestamp: 2024-09-25-11-08-55
 ---

@@ -6,6 +6,9 @@ linktitle: 插入字段
 description: "如何使用 C# 将字段插入文档 - 通过代码示例了解不同的方法。"
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/inserting-fields/
 timestamp: 2024-01-27-14-07-04
 ---

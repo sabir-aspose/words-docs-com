@@ -6,6 +6,9 @@ linktitle: ویژگی های پشتیبانی شده در ذخیره سند
 description: "سند خود را با استفاده از Python در هر قالب پشتیبانی شده ذخیره کنید. یک سند با هر اندازه ای را تبدیل و صادر کنید."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/supported-features-on-document-save/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -7,6 +7,9 @@ type: docs
 description: "Простий Mail Merge використовується для заповнення полів Mail Merge у вашому шаблоні необхідними даними з вашого джерела даних – це аналогічно класичному Mail Merge у Microsoft Word. Додайте одне або кілька полів для об'єднання у свій шаблон, а потім виконайте просту операцію Mail Merge."
 keywords: "how to execute Mail Merge c++"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/simple-mail-merge-operation/
 timestamp: 2024-09-24-14-35-44
 ---

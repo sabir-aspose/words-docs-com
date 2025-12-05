@@ -6,6 +6,9 @@ linktitle: המרת פורמט קבוע-עמוד
 description: "Aspose.Words עבור Java ליישם את מנוע הפריסה בעמוד משלה המאפשר לייצר את כל פורמטי העמוד הקבועים, כגון PDF, PDF, XPS, פורמטי תמונה שונים."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/converting-to-fixed-page-format/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: Робота з текстом в таблиці
 description: "Заміна тексту в таблиці Pythonй Витяг Plain Text з таблиці або клітинки за допомогою Pythonй"
 type: docs
 weight: 60
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/python-net/work-with-text-in-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

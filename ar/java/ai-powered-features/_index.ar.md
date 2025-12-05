@@ -8,6 +8,7 @@ weight: 25
 description: "Aspose.Words ل Java يقدم أدوات تعمل بالطاقة AI مثل تلخيص المستندات لتعزيز الكفاءة. تعرف على كيفية استخدام الميزات التي تعمل بالطاقة AI مع النصائح والإرشادات التفصيلية."
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/ai-powered-features/
 timestamp: 2025-03-17-19-00-00
 ---

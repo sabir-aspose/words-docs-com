@@ -6,6 +6,9 @@ linktitle: Travailler avec un document stocké dans un SharePoint Online
 description: "Convertissez Word partagé dans SharePoint en PDF à l'aide de C#. Travaillez avec des documents stockés au format SharePoint – différents formats d'entrée, notamment Word, OpenOffice, Image et eBook."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/work-with-document-stored-in-sharepoint/
 timestamp: 2024-10-21-11-17-44
 ---

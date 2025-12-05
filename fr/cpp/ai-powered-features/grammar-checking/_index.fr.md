@@ -8,6 +8,7 @@ weight: 40
 description: "Vérifiez la grammaire d'un document. Aspose.Words pour C++ permet aux utilisateurs de vérifier la grammaire et de détecter les erreurs dans les documents à l'aide des modèles OpenAI, Google et Claude."
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/grammar-checking/
 timestamp: 2025-03-17-19-00-00
 ---

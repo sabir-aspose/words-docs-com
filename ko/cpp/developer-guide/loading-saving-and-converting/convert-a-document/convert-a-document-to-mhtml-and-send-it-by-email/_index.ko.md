@@ -6,6 +6,9 @@ linktitle: 문서를 다음으로 변환 MHTML 그리고 이메일로 보내
 description: "에 거의 모든 형식에서 문서를 변환 MHTML 형식 및 전자 메일로 결과 문서를 보낼 수 있습니다."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/convert-a-document-to-mhtml-and-send-it-by-email/
 timestamp: 2024-01-27-14-07-04
 ---

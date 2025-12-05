@@ -6,6 +6,9 @@ linktitle: Güvenlik Notları
 type: docs
 description: ".NET için Aspose.Words, yüksek düzeyde veri güvenliği sağlamak için ortak güvenlik standartlarını tanır ve bunlara uyar. Olası güvenlik sorunlarına ve C# kullanarak bunların nasıl önlenebileceğine ilişkin önerilere bakın."
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/security/
 timestamp: 2024-01-27-14-07-04
 ---

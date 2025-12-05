@@ -6,6 +6,9 @@ linktitle: Werk met OfficeMath
 type: docs
 description: "Inleiding Tot Kantoor Wiskunde funksie in Aspose.Words vir C++."
 weight: 320
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/working-with-officemath/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Travailler avec des polices
 description: "Formatage des polices en détails à l'aide de C#. Marque d'accentuation dans C#. Obtenez l’espacement des lignes de police à l’aide de C#."
 type: docs
 weight: 230
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/working-with-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

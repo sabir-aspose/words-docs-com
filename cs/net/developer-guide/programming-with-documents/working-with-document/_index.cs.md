@@ -6,6 +6,9 @@ linktitle: Spolupráce s dokumentem
 type: docs
 description: "• `Document` třída poskytuje různé vlastnosti a metody dokumentů pomocí C#. Použij `Document` třída jako výchozí bod pro cokoliv, co chcete předvést Aspose.Words místo .NET. • `Document` objekt lze uložit do souboru nebo streamu a také poslat do prohlížeče."
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/net/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---

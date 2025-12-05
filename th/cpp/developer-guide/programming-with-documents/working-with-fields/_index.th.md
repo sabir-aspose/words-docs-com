@@ -6,6 +6,9 @@ linktitle: การทำงานกับฟิลด์
 description: "รู้เบื้องต้นเกี่ยวกับคุณลักษณะฟิลด์ใน Aspose.WordsสำหรับC++."
 type: docs
 weight: 370
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/working-with-fields/
 timestamp: 2024-01-30-16-22-34
 ---

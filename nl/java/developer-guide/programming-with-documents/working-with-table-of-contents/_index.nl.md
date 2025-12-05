@@ -6,6 +6,9 @@ linktitle: Werken met Inhoudsopgave
 description: "Inhoudsopgave veld in details. Aanmaken en wijzigen `TOC` veld gebruiken Java."
 type: docs
 weight: 170
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/java/working-with-table-of-contents/
 timestamp: 2024-10-21-11-17-44
 ---

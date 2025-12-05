@@ -6,6 +6,9 @@ linktitle: 生成器或生產商名稱包含在輸出文件中
 description: "Aspose.Words for .NET在文檔中加上創建文檔的生成器名稱及版本號。 這些資料可以在使用C#的輸出檔案格式，以不同的方式來找到。"
 type: docs
 weight: 60
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

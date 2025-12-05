@@ -6,6 +6,9 @@ linktitle: Personalizza le proprietà dei campi
 description: "Scopri come personalizzare le proprietà dei campi in C++. Rinominare i campi di unione o ottenere risultati per i campi senza nodo separatore in C++."
 type: docs
 weight: 27
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/cpp/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Zastosuj Formatowanie
 description: "Formatowanie tabeli w szczegółach za pomocą C++. Używanie C++ do formatowania każdej części tabeli."
 type: docs
 weight: 70
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/applying-formatting/
 timestamp: 2024-10-21-11-17-44
 ---

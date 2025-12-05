@@ -6,6 +6,9 @@ linktitle: sistem gereksinimleri
 description: "Python via .NET için Aspose.Words ile çalışmaya başlamadan önce, cihazlarınızdaki etkinliklerin doğru şekilde hesaba katılması için işletim sistemi, platform ve ortam gereksinimlerini karşıladığınızdan emin olun."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/python-net/system-requirements/
 timestamp: 2024-04-27-18-03-32
 ---

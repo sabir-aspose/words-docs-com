@@ -6,6 +6,9 @@ linktitle: نمای کلی زمینه ها
 description: "فیلد ها در جزئیات، کدهای فیلد و نتایج فیلد توضیح داده شده در Aspose.Words برای C++."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/fields-overview/
 timestamp: 2024-01-27-14-07-04
 ---

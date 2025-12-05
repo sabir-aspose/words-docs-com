@@ -5,6 +5,9 @@ articleTitle: Створити або завантажити документ
 linktitle: Створити або завантажити документ
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/java/create-or-load-a-document/
 description: "Aspose.Words дозволяє створювати порожній документ або завантажувати його з файлу або потокового передавання Javaй"
 timestamp: 2024-01-27-14-07-04

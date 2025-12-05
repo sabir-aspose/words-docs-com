@@ -6,6 +6,9 @@ linktitle: Personalizar propiedades de campo
 description: "Aprenda a personalizar las propiedades de los campos en C#. Cambie el nombre de los campos de combinación u obtenga resultados para campos sin nodo separador en .NET."
 type: docs
 weight: 27
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

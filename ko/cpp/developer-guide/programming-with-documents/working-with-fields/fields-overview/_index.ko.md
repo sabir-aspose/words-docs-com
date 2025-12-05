@@ -6,6 +6,9 @@ linktitle: 필드 개요
 description: "필드는 세부 사항,필드 코드 및 필드 결과에 설명되어 있습니다 Aspose.Words 에 대한 C++."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/fields-overview/
 timestamp: 2024-01-27-14-07-04
 ---

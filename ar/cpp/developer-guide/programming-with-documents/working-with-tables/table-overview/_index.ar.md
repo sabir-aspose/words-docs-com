@@ -6,6 +6,9 @@ linktitle: نظرة عامة على الجدول
 description: "العمل مع الجداول ومكوناتها مثل الخلايا والصفوف والأعمدة في Aspose.Words ل C++. كيفية العمل مع الجداول في C++."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

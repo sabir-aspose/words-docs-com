@@ -6,6 +6,9 @@ linktitle: Áp dụng định dạng tùy chỉnh cho các trường
 description: "Định dạng và đánh giá kết quả trường bằng C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/applying-custom-formatting-to-fields/
 timestamp: 2024-01-27-14-07-04
 ---

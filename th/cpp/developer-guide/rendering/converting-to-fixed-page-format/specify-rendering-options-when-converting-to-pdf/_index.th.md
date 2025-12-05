@@ -6,6 +6,9 @@ linktitle: ระบุตัวเลือกการแสดงผลเม
 description: "แปลงเอกสารเป็นPDFด้วยตัวเลือกขั้นสูงโดยใช้C++ ใช้PdfSaveOptionsเพื่อเปลี่ยนผลลัพธ์ของการบันทึกเอกสารเป็นรูปแบบPDF."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

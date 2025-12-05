@@ -6,6 +6,9 @@ linktitle: Warnungen zu Barrierefreiheitsproblemen beim Speichern in PDF/A und P
 description: "PDF/A und PDF/UA stellen Barrierefreiheitsanforderungen in Bezug auf Dokumentinhalte. Beim Speichern in PDF/A oder PDF/UA in C# und das Problem verstößt gegen die Compliance, wird eine Warnung ausgegeben."
 type: docs
 weight: 29
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

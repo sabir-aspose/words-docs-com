@@ -6,6 +6,9 @@ linktitle: Bir Belgeyi Çok Sayfalı TIFF Olarak Kaydetme
 description: "C#'i kullanarak bir belgeyi çok sayfalı TIFF'e dönüştürün. Belgenin görüntüde nasıl görüntüleneceğini belirlemek için ek seçenekleri belirtmeniz gerekir: çözünürlük, sayfa sayısı, görüntü ikilileştirme vb."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-07-10-14-38-57
 ---

@@ -6,6 +6,9 @@ linktitle: کار با امضای دیجیتال
 description: "اسناد را به صورت دیجیتالی امضا کنید و امضاهای دیجیتال موجود را با استفاده از Python شناسایی، شمارش، تأیید و حذف کنید."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/working-with-digital-signatures/
 timestamp: 2024-01-27-14-07-04
 ---

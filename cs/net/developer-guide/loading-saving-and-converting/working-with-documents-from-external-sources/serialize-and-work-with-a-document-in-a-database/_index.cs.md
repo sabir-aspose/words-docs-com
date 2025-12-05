@@ -6,6 +6,9 @@ linktitle: Sérializovat a pracovat s dokumentem v databázi
 description: "Převést dokument do pole byte pro práci s tímto dokumentem v databázi pomocí C#. Můžete uložit a získat dokument do a z databáze."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/net/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-07-09-19-00-42
 ---

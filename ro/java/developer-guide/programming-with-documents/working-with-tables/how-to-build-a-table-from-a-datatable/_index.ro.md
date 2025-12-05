@@ -6,6 +6,9 @@ linktitle: Construiți un tabel dintr-un DataTable
 description: "Exemplu de completare a tabelului de documente din Baza de date externă folosind Java."
 type: docs
 weight: 130
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/java/how-to-build-a-table-from-a-datatable/
 timestamp: 2024-01-27-14-07-04
 ---

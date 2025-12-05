@@ -6,6 +6,9 @@ linktitle: 序列化與資料庫中的文件工作
 description: "把一份文件轉換成字節陣列，以便在使用C#時可以在資料庫中處理該份文件。 您可以儲存並從資料庫中擷取一份文件。"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-07-09-19-00-42
 ---

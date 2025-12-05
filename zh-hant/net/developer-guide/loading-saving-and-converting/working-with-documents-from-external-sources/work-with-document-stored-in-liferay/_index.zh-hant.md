@@ -6,6 +6,9 @@ linktitle: 與儲存在 Liferay 的文件一起工作
 description: "透過 C# 比較在 Liferay 分享的 Word 文檔。 與儲存在 Liferay 的文件工作 - 各種輸入格式，包括 Word、OpenOffice、Image 和電子書。"
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/work-with-document-stored-in-liferay/
 timestamp: 2024-01-31-14-23-37
 ---

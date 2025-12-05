@@ -6,6 +6,9 @@ linktitle: 自訂欄位屬性
 description: "學會如何在 C# 中自訂欄位屬性。 重命名合併欄位或取得 .NET 中無分號節點的欄位結果。"
 type: docs
 weight: 27
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

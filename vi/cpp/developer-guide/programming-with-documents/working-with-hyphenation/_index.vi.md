@@ -6,6 +6,9 @@ linktitle: Làm việc Với Gạch Nối
 description: "Sử dụng dấu gạch nối để sắp xếp văn bản nhỏ gọn hơn bằng cách sử dụng C++. Nó cung cấp các thuật toán nâng cao để làm việc với từ điển gạch nối, sử dụng từ điển OpenOffice."
 type: docs
 weight: 220
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/working-with-hyphenation/
 timestamp: 2024-01-30-16-22-34
 ---

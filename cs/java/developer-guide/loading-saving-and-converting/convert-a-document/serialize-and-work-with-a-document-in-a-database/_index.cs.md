@@ -6,6 +6,9 @@ linktitle: Serializace a práce s dokumentem v databázi
 description: "Převést dokument do byte pole pro práci s tímto dokumentem v databázi. Můžete uložit a získat dokument do a z databáze pomocí Java."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/java/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-01-27-14-07-04
 ---

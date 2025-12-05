@@ -6,6 +6,9 @@ linktitle: Menggunakan Font TrueType
 description: "Aspose.Words untuk Python via .NET dapat menemukan font yang tepat atau penggantinya yang sesuai untuk rendering dokumen yang benar. Hal ini memastikan bahwa perbedaan antara dokumen yang ditampilkan dan dokumen asli menjadi minimal ketika informasi tentang font tidak mencukupi."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/python-net/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

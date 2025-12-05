@@ -6,6 +6,9 @@ linktitle: 系統需求
 description: "在開始使用 Aspose.Words for .NET 之前，請確保您已滿足作業系統、平台、框架和環境要求，以便可正常使用 C# 來計算您的裝置上的活動。"
 type: docs
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/system-requirements/
 timestamp: 2024-02-01-16-17-05
 ---

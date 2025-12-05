@@ -6,6 +6,9 @@ linktitle: Lavorare con i componenti aggiuntivi di Office
 description: "Aspose.Words per Java fornisce varie classi per lavorare con i componenti aggiuntivi di Office. È possibile aggiungere Riquadro attività tramite estensione Web e personalizzare le proprietà del riquadro e dell'estensione."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/java/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 필드에 사용자 지정 서식 적용
 description: "다음을 사용하여 필드 결과 서식 지정 및 평가 C++."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/applying-custom-formatting-to-fields/
 timestamp: 2024-01-27-14-07-04
 ---

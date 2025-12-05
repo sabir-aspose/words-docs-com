@@ -6,6 +6,9 @@ linktitle: 应用表格样式
 description: "高级表格格式Java。 使用Java创建表格样式。 高级表格格式介绍，使用Java的表格样式。"
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/working-with-tablestyle/
 timestamp: 2024-01-27-14-07-04
 ---

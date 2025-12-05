@@ -6,6 +6,9 @@ linktitle: Note di sicurezza
 type: docs
 description: "Aspose.Words per Java riconosce e aderisce agli standard di sicurezza comuni per garantire un elevato livello di sicurezza dei dati. Guarda i possibili problemi di sicurezza e le raccomandazioni su come evitarli."
 weight: 120
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/java/security/
 timestamp: 2024-01-27-14-07-04
 ---

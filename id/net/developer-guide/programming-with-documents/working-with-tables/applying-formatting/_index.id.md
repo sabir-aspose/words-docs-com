@@ -6,6 +6,9 @@ linktitle: Terapkan Pemformatan Tabel
 description: "Pemformatan tabel secara detail menggunakan C#. Gunakan C# untuk memformat setiap bagian tabel."
 type: docs
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/net/applying-formatting/
 timestamp: 2024-01-27-14-07-04
 ---

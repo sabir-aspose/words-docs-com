@@ -6,6 +6,9 @@ linktitle: Accesibilitate - avertismente la salvarea în PDF/A și PDF/UA
 description: "PDF/A și PDF/UA impun cerințe de accesibilitate legate de conținutul documentului. Când se salvează în PDF/A sau PDF/UA în C # și problema încalcă conformitatea, este emisă o avertizare."
 type: docs
 weight: 29
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

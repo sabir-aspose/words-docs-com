@@ -6,6 +6,9 @@ linktitle: 테이블의 텍스트 작업
 description: "Java에서 테이블의 텍스트를 바꿉니다. Java을 사용하여 테이블 또는 셀에서 일반 텍스트를 추출합니다."
 type: docs
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/extract-text-from-and-replace-text-in-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

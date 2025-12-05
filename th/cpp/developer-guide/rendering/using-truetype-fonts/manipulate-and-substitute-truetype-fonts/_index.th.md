@@ -6,6 +6,9 @@ linktitle: จัดการและแทนที่แบบอักษร
 description: "Aspose.WordsสำหรับC++ สามารถฝังแบบอักษรที่ถูกต้องTrueTypeลงในเอกสารที่ได้เพื่อให้แน่ใจว่ามันแสดงได้อย่างถูกต้อง ถ้าแบบอักษรหรืออักขระที่ระบุไม่พร้อมใช้งานAspose.Wordsค้นหาการแทนที่แบบอักษรที่เหมาะสมหรือใช้."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

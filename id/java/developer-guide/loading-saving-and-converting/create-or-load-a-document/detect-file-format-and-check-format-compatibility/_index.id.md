@@ -6,6 +6,9 @@ linktitle: Deteksi Format File dan Periksa Kompatibilitas Format
 description: "Dapatkan informasi tentang format dokumen sebelum membukanya untuk menghindari pengecualian jika Anda tidak yakin dengan konten sebenarnya dari file yang menggunakan Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/java/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: Geliştirici Kılavuzu
 description: "Bu Geliştirici Kılavuzu, .NET için belirli Aspose.Words özelliklerini kullanmanıza, belirli bir belge görünümü elde etmenize veya bir kullanım senaryosunu mümkün kılmanıza yardımcı olacak pratik senaryoları ve ipuçlarını açıklar."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

@@ -6,6 +6,9 @@ linktitle: Manipuluj i zastępuj czcionki TrueType
 description: "Aspose.Words for Python via .NET może osadzić prawidłowe czcionki TrueType w dokumencie wynikowym, aby zapewnić jego dokładne wyświetlanie. Jeśli czcionka lub określony znak nie jest dostępny, Aspose.Words wyszukuje odpowiedni zamiennik czcionki lub korzysta z mechanizmu zastępczego czcionki."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/python-net/manipulating-and-substitution-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

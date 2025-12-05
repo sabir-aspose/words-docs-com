@@ -6,6 +6,9 @@ linktitle: Office Eklentileriyle Çalışma
 description: "Aspose.Words için C++ Office Eklentileriyle çalışmak için çeşitli sınıflar sağlar. Web uzantısı aracılığıyla Görev Bölmesi ekleyebilir ve bölme ve uzantı özelliklerini özelleştirebilirsiniz."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

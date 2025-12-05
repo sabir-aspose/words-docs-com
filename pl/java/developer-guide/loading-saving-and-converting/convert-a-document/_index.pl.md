@@ -5,6 +5,9 @@ articleTitle: Przelicz dokument
 linktitle: Przelicz dokument
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/convert-a-document/
 description: "Łatwo konwertować dokumenty z jednego formatu na inny. Możesz pracować ze wszystkimi najbardziej popularnymi formatami jak Microsoft Word formaty, takie jak DOCX lub DOC, formaty OpenDocument, takie jak ODT lub OTT, formaty internetowe, takie jak HTML lub XHTML, formaty tekstowe, takie jak MarkDown lub TXT i inne używane Java."
 timestamp: 2024-09-25-11-08-55

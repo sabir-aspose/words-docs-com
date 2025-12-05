@@ -6,6 +6,9 @@ linktitle: Wymagania dotyczące układu
 description: "Przed rozpoczęciem pracy z Aspose.Words zamiast Java, zapewnić spełnianie wymagań systemu operacyjnego, platformy, ram i środowiska, tak aby działania na urządzeniach są prawidłowo rozliczane."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/system-requirements/
 timestamp: 2024-01-27-14-07-04
 ---

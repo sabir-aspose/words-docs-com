@@ -6,6 +6,9 @@ linktitle: Доступність та заміна шрифтів
 description: "Якщо не вдається знайти точний замінний шрифт, Aspose.Words потрібно замінити його подібним шрифтом. У цій статті описується процес пошуку найбільш підходящого шрифту."
 type: docs
 weight: 12
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/font-availability-and-substitution/
 timestamp: 2024-09-24-14-35-44
 ---

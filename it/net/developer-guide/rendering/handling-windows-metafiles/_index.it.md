@@ -6,6 +6,9 @@ linktitle: Gestione dei metafile Windows
 description: "Aspose.Words per .NET implementa il proprio lettore di metafile Windows per riprodurre il formato Metafile su tutte le piattaforme e supporta la gestione delle funzionalità di metafile di base e può eseguire il fallback su un diverso tipo di lettore di metafile utilizzando C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/handling-windows-metafiles/
 timestamp: 2024-07-10-14-38-57
 ---

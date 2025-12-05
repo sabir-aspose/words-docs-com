@@ -6,6 +6,9 @@ linktitle: Fonte predefinida FallBack definições para Fontes Google Noto
 description: "Aspose.Words fornece configurações de fallback de fonte predefinidas para Fontes Google Noto. Estas são fontes gratuitas licenciadas sob SIL Open Font License, que podem ser descarregadas a partir de Google Noto Fonts."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/predefined-font-fallback-settings-for-google-noto-fonts/
 timestamp: 2024-09-24-14-35-44
 ---

@@ -6,6 +6,9 @@ linktitle: Windows Meta Dosyalarının işlenmesi
 description: "Aspose.Words için C++ meta dosyası biçimini tüm platformlarda oynatmak için kendi Windows Meta dosyası yürütücüsünü uygular ve temel meta dosyası özelliklerinin işlenmesini destekler ve farklı türde bir meta dosyası yürütücüsüne geri dönüş gerçekleştirebilir."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/handling-windows-metafiles/
 timestamp: 2024-01-30-16-22-34
 ---

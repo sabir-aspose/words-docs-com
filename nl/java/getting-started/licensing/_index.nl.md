@@ -6,6 +6,9 @@ linktitle: Licentie en abonnement
 description: "Aspose.Words voor Java biedt verschillende plannen voor aankoop of biedt een gratis proefperiode en een 30-daagse tijdelijke licentie voor evaluatie met behulp van licentie- en abonnementsbeleid."
 type: docs
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/java/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

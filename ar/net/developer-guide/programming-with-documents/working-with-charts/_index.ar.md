@@ -6,6 +6,9 @@ linktitle: العمل مع الرسوم البيانية
 description: "مقدمة إلى ميزة الرسم البياني، وكيفية إنشاء الرسوم البيانية ومعالجتها باستخدام C#."
 type: docs
 weight: 310
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/working-with-charts/
 timestamp: 2024-02-05-15-07-18
 ---

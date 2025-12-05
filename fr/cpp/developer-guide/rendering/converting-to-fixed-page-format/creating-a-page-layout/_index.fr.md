@@ -6,6 +6,9 @@ linktitle: Création d'une mise en page
 description: "La création d'une mise en page peut être une procédure coûteuse. Aspose.Words créera une mise en page uniquement lorsque cela est nécessaire: pour afficher les pages du document, pour obtenir une valeur de champ, pour exporter un document au format HTML, etc."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/creating-a-page-layout/
 timestamp: 2024-09-24-14-35-44
 ---

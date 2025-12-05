@@ -6,6 +6,9 @@ linktitle: Use DocumentBuilder para Inserir Elementos do documento
 type: docs
 description: "Insira elementos do documento usando o document builder em C++."
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/use-documentbuilder-to-insert-document-elements/
 timestamp: 2024-01-27-14-07-04
 ---

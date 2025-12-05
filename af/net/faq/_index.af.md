@@ -8,6 +8,9 @@ linktitle: FAQ
 type: docs
 description: "Aspose.Words vir .NET beantwoord die mees algemene vrae. Leer hierdie bladsy om u probleem oor algemene vrae of spesifieke onderwerpe vinnig op te los."
 weight: 75
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/faq/
 timestamp: 2024-11-18-12-56-02
 ---

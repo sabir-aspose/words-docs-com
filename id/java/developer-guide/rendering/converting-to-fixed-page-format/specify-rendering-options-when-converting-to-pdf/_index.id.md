@@ -6,6 +6,9 @@ linktitle: Tentukan Opsi Rendering Saat Mengonversi ke PDF
 description: "Konversikan dokumen menjadi PDF dengan opsi lanjutan. Gunakan PdfSaveOptions untuk mengubah hasil penyimpanan dokumen ke format PDF menggunakan Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/java/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

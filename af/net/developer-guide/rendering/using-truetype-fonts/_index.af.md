@@ -6,6 +6,9 @@ linktitle: Gebruik TrueType Lettertipes
 description: "Aspose.Words vir .NET kan die regte lettertipe of die geskikte vervanging daarvan vind vir die korrekte weergawe van dokumente met behulp van C#. Dit verseker dat die verskil tussen die vertoon dokument en die oorspronklike is minimaal wanneer daar nie genoeg inligting oor'n lettertipe."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

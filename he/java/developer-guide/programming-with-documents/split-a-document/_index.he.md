@@ -6,6 +6,9 @@ linktitle: פיצול מסמך
 description: "Aspose.Words עבור Java מספק לך דרך יעילה לפצל מסמך אחד למסמכים מרובים על ידי כותרות או קטעים, כמו גם דפים או טווחי דפים."
 type: docs
 weight: 90
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

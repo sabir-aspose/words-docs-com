@@ -7,6 +7,9 @@ type: docs
 description: "Извършете операция Mail Merge с вложени региони, използвайки C#. Вложено обединяване е функция, която ви позволява да обедините йерархични данни от вашия източник на данни във вашия шаблон за обединяване."
 keywords: "mail merge with nested regions c#"
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/nested-mail-merge-with-regions/
 timestamp: 2024-07-11-08-07-06
 ---

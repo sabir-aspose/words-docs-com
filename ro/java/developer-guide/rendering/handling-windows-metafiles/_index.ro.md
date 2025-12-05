@@ -6,6 +6,9 @@ linktitle: Manipularea Windows Metafișiere
 description: "Aspose.Words pentru Java implementează propriul Windows Metafile player pentru a reda formatul Metafile pe toate platformele și sprijină manipularea caracteristicilor metafile de bază și poate efectua rezervă la un alt tip de metafile player."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/java/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

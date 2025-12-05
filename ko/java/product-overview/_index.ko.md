@@ -6,6 +6,9 @@ linktitle: 제품 개요
 description: "Java에 대한Aspose.Words은 다른 소프트웨어에 의존하지 않고 문서를 생성,수정,변환,렌더링 및 인쇄하도록 설계된 소프트웨어 라이브러리입니다."
 type: docs
 weight: 5
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/product-overview/
 timestamp: 2024-01-31-14-23-37
 ---

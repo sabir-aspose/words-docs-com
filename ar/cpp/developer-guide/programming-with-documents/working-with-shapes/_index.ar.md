@@ -6,6 +6,9 @@ linktitle: العمل مع الأشكال
 type: docs
 description: "مقدمة في تشكيل لغة الترميز، وإنشاء أشكال من أنواع مختلفة باستخدام C++."
 weight: 280
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/working-with-shapes/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: サンプルの実行方法
 description: "GitHub リポジトリから Aspose.Words for .NET のサンプルをダウンロードし、それらを実行する方法を学び、C# を使用した Aspose.Words の可能性と機能をさらに詳しく理解してください。"
 type: docs
 weight: 110
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/how-to-run-the-examples/
 timestamp: 2024-10-24-11-44-28
 ---

@@ -6,6 +6,9 @@ linktitle: TrueType Yazı Tipi Konumunu Belirtin
 description: "Çeşitli TrueType font kaynaklarını belirtin: sistem klasörü, kullanıcı kaynakları, bir akıştan font yükleme, dosya sistemi veya bellek."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/specify-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

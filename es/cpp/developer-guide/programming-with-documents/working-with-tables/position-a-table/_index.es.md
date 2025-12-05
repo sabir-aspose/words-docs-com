@@ -6,6 +6,9 @@ linktitle: Colocar una Mesa
 description: "Especifique la posición de la tabla en C++. Obtenga una alineación de tabla, obtenga y establezca la posición de la tabla flotante usando C++."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/cpp/position-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

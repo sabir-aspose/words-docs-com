@@ -6,6 +6,9 @@ linktitle: המר בין יחידות מדידה
 description: "Aspose.Words עבור C++ יכול לעזור לך כיצד להמיר בין יחידות מדידה, למשל, אינץ 'לנקודות ונקודות לאינץ', פיקסלים לנקודות, נקודות לפיקסלים."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/convert-between-measurement-units/
 timestamp: 2024-01-27-14-07-04
 ---

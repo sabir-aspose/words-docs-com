@@ -7,6 +7,9 @@ type: docs
 description: "Prosty Mail Merge służy do wypełnienia pól Mail Merge w szablonie wymaganymi danymi ze źródła danych – jest podobny do klasycznego Mail Merge w Microsoft Word. Dodaj jedno lub więcej pól scalania w szablonie, a następnie wykonaj prostą operację Mail Merge."
 keywords: "how to execute Mail Merge c++"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/simple-mail-merge-operation/
 timestamp: 2024-09-24-14-35-44
 ---

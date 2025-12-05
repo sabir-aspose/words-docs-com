@@ -6,6 +6,9 @@ linktitle: Ekle ve Ekle Belgeleri
 description: "Birleştir belgeler bir tanesine: yeni veya mevcut bir belgeye belge eklemek veya eklemek için bul ve değiştir, birleştir alan, yer imi, ya da basitçe Java bitişinde belge sonuna bir belge ekleyin."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

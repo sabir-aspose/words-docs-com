@@ -6,6 +6,9 @@ linktitle: 문서와 별도로 모양 렌더링
 description: "문서 처리 시 이미지, 문단이 포함된 텍스트 상자, 화살표 모양 등 다양한 그래픽 객체를 추출하고, C#를 이용하여 외부 위치로 내보낼 수 있습니다."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/rendering-shapes-separately-from-a-document/
 timestamp: 2024-07-10-14-38-57
 ---

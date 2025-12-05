@@ -6,6 +6,9 @@ linktitle: Bir Tabloyu Konumlandır
 description: "Tablo konumunu C++ olarak belirtin. Tablo hizalamasını alın, C++ kullanarak kayan tablo konumunu alın ve ayarlayın."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/position-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

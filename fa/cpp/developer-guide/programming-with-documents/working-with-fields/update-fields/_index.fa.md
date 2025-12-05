@@ -6,6 +6,9 @@ linktitle: زمینه های به روز رسانی
 description: "یاد بگیرید که چگونه فیلد ها را در C++ به روز کنید. فیلد ها را به صورت برنامه ریزی شده به روز کنید یا از آپدیت خودکار فیلد با استفاده از C++ API استفاده کنید."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/update-fields/
 timestamp: 2024-01-27-14-07-04
 ---

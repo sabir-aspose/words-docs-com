@@ -6,6 +6,9 @@ linktitle: 표의 텍스트 작업
 description: "Python의 테이블에 있는 텍스트를 바꿉니다. Python를 사용하여 테이블이나 셀에서 일반 텍스트를 추출합니다."
 type: docs
 weight: 60
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/work-with-text-in-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

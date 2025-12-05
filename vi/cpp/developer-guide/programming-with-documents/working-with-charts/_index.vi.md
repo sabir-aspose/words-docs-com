@@ -6,6 +6,9 @@ linktitle: Làm việc với Biểu Đồ
 description: "Giới thiệu về tính năng Biểu đồ, cách tạo và thao tác biểu đồ bằng C++."
 type: docs
 weight: 310
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/working-with-charts/
 timestamp: 2024-01-27-14-07-04
 ---

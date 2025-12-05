@@ -6,6 +6,9 @@ linktitle: Práce Se Seznamy
 description: "Úvod do funkce formátování číslování v Aspose.Words pro C++."
 type: docs
 weight: 200
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/working-with-lists/
 timestamp: 2024-01-30-16-22-34
 ---

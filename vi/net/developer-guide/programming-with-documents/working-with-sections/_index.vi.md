@@ -6,6 +6,9 @@ linktitle: Làm việc với các phần
 description: "Hiểu các khái niệm về phần tài liệu và thực hành thao tác bằng C#. Chèn phần vào tài liệu C#. Xóa phần C#. Sao chép các phần giữa các Tài liệu."
 type: docs
 weight: 120
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/working-with-sections/
 timestamp: 2024-09-25-11-08-55
 ---

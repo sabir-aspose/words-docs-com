@@ -7,6 +7,9 @@ type: docs
 description: "Convierta PDF a formatos de Word como DOCX, DOC, formatos de imagen como JPG o PNG, o cualquier otro formato admitido por Aspose.Words usando C#."
 keywords: convert pdf to other formats c#
 weight: 45
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/convert-pdf-to-other-document-formats/
 timestamp: 2024-07-09-19-00-42
 ---

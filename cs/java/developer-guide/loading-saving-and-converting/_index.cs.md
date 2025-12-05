@@ -6,6 +6,9 @@ linktitle: Načítání, ukládání a převod
 description: "Poznejte Aspose.Words místo Java funkce při načítání, ukládání nebo převodu dokumentů z jednoho formátu do druhého."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/java/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---

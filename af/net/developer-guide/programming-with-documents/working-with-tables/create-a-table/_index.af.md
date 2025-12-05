@@ -6,6 +6,9 @@ linktitle: Skep'n Tabel
 description: "'n gids oor hoe om'n tabel in C# op verskillende maniere te maak. Skep tabel in C# vir jou dokument."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---

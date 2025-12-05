@@ -6,6 +6,9 @@ linktitle: Cách chạy các ví dụ
 description: "Tải xuống các ví dụ Aspose.Words cho .NET từ kho lưu trữ GitHub của chúng tôi và tìm hiểu cách chạy chúng để làm quen hơn với các khả năng và tính năng của Aspose.Words bằng C#."
 type: docs
 weight: 110
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/how-to-run-the-examples/
 timestamp: 2024-10-24-11-44-28
 ---

@@ -6,6 +6,9 @@ linktitle: Формати файлів і конверсії
 description: "Перетворення документів з будь-якого підтримуваного навантаження для збереження формату з двома лініями Java код. Ми забезпечуємо якісне перетворення Javaй"
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/java/file-formats-and-conversions/
 timestamp: 2024-01-31-14-23-37
 ---

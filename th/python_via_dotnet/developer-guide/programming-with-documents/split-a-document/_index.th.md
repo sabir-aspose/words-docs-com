@@ -6,6 +6,9 @@ linktitle: แยกเอกสาร
 description: "แยกเอกสารออกเป็นหลายไฟล์โดยใช้ Python ใช้คุณลักษณะการแยกเพื่อแบ่งเอกสารตามหัวเรื่องหรือส่วน ตลอดจนตามหน้าหรือตามช่วงหน้าอย่างมีประสิทธิภาพ"
 type: docs
 weight: 90
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/python-net/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

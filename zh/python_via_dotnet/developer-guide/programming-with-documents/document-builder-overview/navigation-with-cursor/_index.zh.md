@@ -6,6 +6,9 @@ linktitle: 用光标导航
 description: "使用 Python 在文档中的不同节点（例如段落、书签或特定字符）之间导航。"
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/navigation-with-cursor/
 timestamp: 2024-01-27-14-07-04
 ---

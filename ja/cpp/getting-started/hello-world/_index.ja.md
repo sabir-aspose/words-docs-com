@@ -6,6 +6,9 @@ linktitle: こんにちは世界
 description: "を使用して、サポートされている任意の形式であなたの最初の文書を作成、編集、保存 C++の場合Aspose.Words c++でそのシンプルさとパワーを体験する。"
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/hello-world/
 timestamp: 2024-01-27-14-07-04
 ---

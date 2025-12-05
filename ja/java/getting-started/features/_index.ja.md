@@ -6,6 +6,9 @@ linktitle: サポートされる機能
 description: "Aspose.WordsforJavaは、単純に文書を変換して変更することから、構造化された視覚的に魅力的な文書を作成したり、レポートを自動化することまで、幅広い機能をユーザーに提供します。"
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/features/
 timestamp: 2024-10-21-11-17-44
 ---

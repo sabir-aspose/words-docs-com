@@ -6,6 +6,9 @@ linktitle: Bir Belgeyi Programatik Olarak Yazdırma veya Diyaloglar Kullanarak
 description: "Ayarlar, Yazdırma Önizleme ve yazdırma ilerleme iletişim kutularını kullanarak bir belgeyi Java'e yazdırın."
 type: docs
 weight: 55
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-27-14-07-04
 ---

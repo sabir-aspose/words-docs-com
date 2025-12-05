@@ -6,6 +6,9 @@ linktitle: TrueTypeフォントの使用
 description: "C++の場合Aspose.Words 適切なフォントまたは適切なドキュメントレンダリングのための適切な代替品を見つけることができます。 これにより、フォントに関する十分な情報がない場合に、表示される文書と元の文書との差が最小限に抑えられます。"
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

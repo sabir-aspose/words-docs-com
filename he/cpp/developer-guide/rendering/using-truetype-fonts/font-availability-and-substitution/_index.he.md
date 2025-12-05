@@ -6,6 +6,9 @@ linktitle: זמינות גופן והחלפה
 description: "כאשר לא ניתן למצוא את גופן ההחלפה המדויק, Aspose.Words חייב להחליף אותו בגופן דומה במקום. מאמר זה מתאר את תהליך מציאת הגופן המתאים ביותר."
 type: docs
 weight: 12
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/font-availability-and-substitution/
 timestamp: 2024-09-24-14-35-44
 ---

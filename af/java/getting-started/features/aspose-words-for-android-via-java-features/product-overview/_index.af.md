@@ -6,6 +6,9 @@ linktitle: Produk Oorsig
 description: "Aspose.Words vir Android via Java is'n `Java` klasbiblioteek wat Android ontwikkelaars in staat stel om'n groot verskeidenheid dokumentverwerkingstake uit te voer."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/java/android-product-overview/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: حماية أو تشفير مستند
 description: "يوفر Aspose.Words for Python via .NET إمكانية القراءة فقط وتشفير المستند وتقييد التحرير والتوقيعات الرقمية لحماية المستندات. يدعم Aspose.Words معظم خيارات حماية Word."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

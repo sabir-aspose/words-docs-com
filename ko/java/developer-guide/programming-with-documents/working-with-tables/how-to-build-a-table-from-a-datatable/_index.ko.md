@@ -6,6 +6,9 @@ linktitle: DataTable에서 테이블 빌드
 description: "Java을 사용하여 외부 데이터베이스에서 문서 테이블을 채우는 예."
 type: docs
 weight: 130
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/how-to-build-a-table-from-a-datatable/
 timestamp: 2024-01-27-14-07-04
 ---

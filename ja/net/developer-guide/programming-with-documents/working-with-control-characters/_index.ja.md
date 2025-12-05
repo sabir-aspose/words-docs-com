@@ -6,6 +6,9 @@ linktitle: 制御文字の使用
 description: "Aspose.Words for .NET での制御文字の操作の概要。"
 type: docs
 weight: 400
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/working-with-control-characters/
 timestamp: 2024-01-27-14-07-04
 ---

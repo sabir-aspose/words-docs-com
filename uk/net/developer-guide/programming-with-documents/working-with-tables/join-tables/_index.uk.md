@@ -6,6 +6,9 @@ linktitle: Приєднати таблиці
 description: "Вхідні таблиці в C#й Як об'єднати два таблиці в одну C#й"
 type: docs
 weight: 90
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/join-tables/
 timestamp: 2024-01-27-14-07-04
 ---

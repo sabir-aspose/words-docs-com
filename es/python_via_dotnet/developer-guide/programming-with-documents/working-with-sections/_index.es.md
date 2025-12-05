@@ -6,6 +6,9 @@ linktitle: Trabajar con secciones
 description: "Cree y administre secciones y saltos de sección en un documento usando Python. Insertar sección en un documento Python. Eliminar la sección Python. Copie secciones entre documentos."
 type: docs
 weight: 120
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/python-net/working-with-sections/
 timestamp: 2024-09-25-11-08-55
 ---

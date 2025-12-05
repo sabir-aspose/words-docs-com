@@ -6,6 +6,9 @@ linktitle: In tài liệu theo chương trình hoặc sử dụng hộp thoại
 description: "In tài liệu trên Server bằng XpsPrint API không được quản lý hoặc qua máy in đã chọn với Hộp thoại Xem trước và Cài đặt In ở dạng C#."
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-31-14-23-37
 ---

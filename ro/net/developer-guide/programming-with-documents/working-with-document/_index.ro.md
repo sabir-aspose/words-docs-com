@@ -6,6 +6,9 @@ linktitle: Lucrul cu Documente
 type: docs
 description: "Clasa `Document` oferă diverse proprietăți ale documentului și metode folosind C#. Utilizați clasa `Document` ca punct de plecare pentru orice doriți să efectuați cu Aspose.Words pentru .NET. Obiectul `Document` poate fi salvat într-un fişier sau într-un flux, precum şi transmis unui browser."
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---

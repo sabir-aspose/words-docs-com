@@ -6,6 +6,9 @@ linktitle: Salvando um documento como TIFF de várias páginas
 description: "Converta um documento em TIFF de várias páginas usando C#. Para determinar como o documento é exibido na imagem você precisa especificar opções adicionais: resolução, número de páginas, binarização da imagem, etc."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/net/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-07-10-14-38-57
 ---

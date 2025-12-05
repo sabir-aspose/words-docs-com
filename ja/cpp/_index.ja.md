@@ -5,6 +5,9 @@ linktitle: C++の場合Aspose.Words
 description: "C++を使用してドキュメントを生成、変更、変換、レンダリング、および印刷します。"
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/
 is_root: true
 timestamp: 2024-09-25-11-08-55

@@ -6,6 +6,9 @@ linktitle: Як запустити приклади
 description: "Завантажити Aspose.Words для .NET Приклади GitHub репозиторій і дізнатися, як запустити їх, щоб стати більш знайомим з Aspose.Words можливості та особливості використання C#й"
 type: docs
 weight: 110
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/how-to-run-the-examples/
 timestamp: 2024-10-24-11-44-28
 ---

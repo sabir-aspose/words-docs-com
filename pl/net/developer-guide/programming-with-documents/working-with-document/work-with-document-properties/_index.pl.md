@@ -6,6 +6,9 @@ linktitle: Pracuj z właściwościami dokumentu
 description: "Aspose.Words dla .NET umożliwia przechowywanie niektórych przydatnych informacji o dokumencie, takich jak API i numer wersji lub autoryzowany Date, we wbudowanych lub niestandardowych właściwościach dokumentu przy użyciu C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: 문서를 PDF로 변환
 description: "Python를 사용하여 문서를 PDF로 변환합니다. Word, OpenOffice, Image 및 eBook 형식을 포함한 다양한 입력 형식이 지원됩니다."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/convert-a-document-to-pdf/
 timestamp: 2024-01-31-14-23-37
 ---

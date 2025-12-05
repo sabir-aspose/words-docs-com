@@ -6,6 +6,9 @@ linktitle: Overzicht Van Document Builder
 type: docs
 description: "Met DocumentBuilder kunt u dynamische documenten helemaal opnieuw maken of nieuwe elementen toevoegen aan bestaande documenten met behulp van C++. DocumentBuilder biedt methoden voor het invoegen van tekst, checkboxes, tabellen, afbeeldingen en andere inhoudselementen in C++."
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

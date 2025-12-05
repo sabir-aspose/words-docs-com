@@ -6,6 +6,9 @@ linktitle: Làm Việc Với Các Phần
 description: "Hiểu các khái niệm phần tài liệu và thực hành thao tác bằng cách sử dụng C++. Chèn phần vào tài liệu C++. Xóa phần C++. Sao chép các phần Giữa Các Tài liệu."
 type: docs
 weight: 120
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/working-with-sections/
 timestamp: 2024-01-31-14-23-37
 ---

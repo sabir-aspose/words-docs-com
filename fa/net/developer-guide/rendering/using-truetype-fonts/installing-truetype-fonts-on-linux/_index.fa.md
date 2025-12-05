@@ -6,6 +6,9 @@ linktitle: فونت های TrueType را روی Linux نصب کنید
 description: "Aspose.Words for .NET اجازه می دهد تا سند ایجاد شده با استفاده از Microsoft Word در دستگاه Linux را با بهترین دقت با استفاده از C# ارائه دهید. برای انجام این کار، فایل‌های فونت را از یک دستگاه Windows کپی کنید یا یک بسته فونت `TrueType` را روی دستگاه Linux خود در C# نصب کنید."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/installing-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

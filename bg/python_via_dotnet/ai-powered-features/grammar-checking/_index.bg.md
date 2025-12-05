@@ -8,6 +8,7 @@ weight: 40
 description: "Проверете граматиката на документа. Aspose.Words за Python позволява на потребителите да проверяват граматиката и да откриват грешки в документи, използвайки модели OpenAI, Гугъл и Claude."
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/python-net/grammar-checking/
 timestamp: 2025-03-17-19-00-00
 ---

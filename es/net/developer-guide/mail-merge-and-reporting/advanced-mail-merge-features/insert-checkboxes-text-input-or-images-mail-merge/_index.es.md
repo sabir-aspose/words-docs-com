@@ -6,6 +6,9 @@ linktitle: Insertar Checkbox es, Entrada de texto o Imágenes
 description: "Inserte checkbox es o campos de entrada de texto durante Mail Merge usando C#. También inserte imágenes de una base de datos durante Mail Merge en C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/insert-checkboxes-text-input-or-images-mail-merge/
 timestamp: 2024-07-11-08-07-06
 ---

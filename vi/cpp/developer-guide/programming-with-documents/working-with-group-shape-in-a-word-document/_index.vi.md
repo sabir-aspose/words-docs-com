@@ -6,6 +6,9 @@ linktitle: Làm việc với Group Shapes Trong Tài Liệu Word
 description: "Nhóm và ungrouping hình dạng bằng cách sử dụng C++."
 type: docs
 weight: 290
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/how-to-add-group-shape-into-a-word-document/
 timestamp: 2024-01-27-14-07-04
 ---

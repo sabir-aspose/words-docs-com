@@ -7,6 +7,9 @@ type: docs
 description: "Crie um modelo Mail Merge para definir conteúdo fixo em documentos de saída e, em seguida, gere documentos de mesclagem usando os campos de mesclagem em C#."
 keywords: "create Mail Merge template с#"
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/net/mail-merge-template/
 timestamp: 2024-07-11-08-07-06
 ---

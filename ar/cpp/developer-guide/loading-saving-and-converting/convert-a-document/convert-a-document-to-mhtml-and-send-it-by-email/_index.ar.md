@@ -6,6 +6,9 @@ linktitle: تحويل مستند إلى MHTML وإرساله عبر البريد
 description: "تحويل مستند من أي تنسيق تقريبا إلى تنسيق MHTML وإرسال المستند الناتج عن طريق البريد الإلكتروني."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/convert-a-document-to-mhtml-and-send-it-by-email/
 timestamp: 2024-01-27-14-07-04
 ---

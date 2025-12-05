@@ -6,6 +6,9 @@ linktitle: 字体可用性和替代性
 description: "当找不到确切的替换字体时，Aspose.Words必须将其替换为类似的字体。 本文介绍了找到最合适字体的过程。"
 type: docs
 weight: 12
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/font-availability-and-substitution/
 timestamp: 2024-09-24-14-35-44
 ---

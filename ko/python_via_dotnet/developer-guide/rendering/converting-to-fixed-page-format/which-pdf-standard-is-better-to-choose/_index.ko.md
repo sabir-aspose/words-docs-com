@@ -6,6 +6,9 @@ linktitle: 어떤 PDF 표준을 선택하는 것이 더 낫습니까?
 description: "프로그래밍 작업 결과를 Python로 내보내려면 가장 적합한 PDF 표준을 선택하세요. PDF 1.7, PDF 2.0, PDF/A-1, PDF/A-2 또는 PDF/UA 중 어떤 PDF 표준이 더 좋습니다."
 type: docs
 weight: 27
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/which-pdf-standard-is-better-to-choose/
 timestamp: 2024-01-27-14-07-04
 ---

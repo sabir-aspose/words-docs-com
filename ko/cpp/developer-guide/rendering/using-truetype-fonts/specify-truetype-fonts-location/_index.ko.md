@@ -6,6 +6,9 @@ linktitle: 지정 TrueType 글꼴 위치
 description: "다양한 지정 TrueType 글꼴 소스:시스템 폴더,사용자 소스,스트림,파일 시스템 또는 메모리에서 글꼴로드."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/specify-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

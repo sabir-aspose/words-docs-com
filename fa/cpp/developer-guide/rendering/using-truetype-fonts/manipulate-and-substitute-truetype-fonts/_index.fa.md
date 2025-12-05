@@ -6,6 +6,9 @@ linktitle: دستکاری و جایگزینی فونت های TrueType
 description: "Aspose.Words برای C++ می تواند فونت های صحیح TrueType را در سند حاصل قرار دهد تا اطمینان حاصل شود که به طور دقیق نمایش داده می شود. اگر یک فونت یا یک کاراکتر خاص در دسترس نباشد، Aspose.Words برای جایگزینی فونت مناسب جستجو می کند یا از مکانیزم فونت پشتیبان استفاده می کند."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

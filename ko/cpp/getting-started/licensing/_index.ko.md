@@ -6,6 +6,9 @@ linktitle: 라이선스 및 구독
 description: "Aspose.Words 구입을위한 다른 계획을 제공하거나 라이센스 및 구독 정책을 사용하여 평가를위한 무료 평가판 및 30 일 임시 라이센스를 제공합니다."
 type: docs
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/licensing/
 timestamp: 2024-10-24-11-44-28
 ---

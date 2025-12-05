@@ -6,6 +6,9 @@ linktitle: Alan Özelliklerini Bul
 description: "Bir alan kodu ve bir alan sonucu gibi bazı alan özelliklerini Java içinde nasıl bulabilirim?"
 type: docs
 weight: 25
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/find-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

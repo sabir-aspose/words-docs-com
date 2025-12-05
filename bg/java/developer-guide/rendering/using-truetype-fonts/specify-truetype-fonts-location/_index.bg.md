@@ -6,6 +6,9 @@ linktitle: Да се посочи вярно Тип шрифтове Место�
 description: "Посочете различни Вярно е. Тип източници на шрифт: системна папка, потребителски източници, зареждане на шрифтове от поток, файлова система или памет, използвайки Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/specify-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

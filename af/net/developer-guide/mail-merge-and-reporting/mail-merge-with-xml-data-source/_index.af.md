@@ -7,6 +7,9 @@ type: docs
 description: "Gebruik'n verskeidenheid databronne wanneer u'n Mail Merge - operasie uitvoer, insluitend'n XML - lêer met C#. Die belangrikste voordeel van die gebruik van XML is die vermoë om'n hiërargie direk in die dokument te definieer."
 keywords: "mail merge xml data source c#"
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/mail-merge-with-xml-data-source/
 timestamp: 2024-07-11-08-07-06
 ---

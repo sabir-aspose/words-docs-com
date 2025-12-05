@@ -6,6 +6,9 @@ linktitle: كيفية تشغيل الأمثلة
 description: "تحميل Aspose.Words ل C++ أمثلة من مستودعنا GitHub وتعلم كيفية تشغيلها لتصبح أكثر دراية بالإمكانيات والميزات Aspose.Words."
 type: docs
 weight: 110
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/how-to-run-the-examples/
 timestamp: 2024-07-11-16-13-28
 ---

@@ -6,6 +6,9 @@ linktitle: Logiczne poziomy węzłów w dokumencie
 type: docs
 description: "W dokumentacji Aspose.Words dla C++ wymienione poziomy logiczne węzłów – poziom bloku, poziom inline lub poziom wiersza. Poziom węzła służy do opisania lokalizacji w drzewie dokumentów, w której zwykle występuje węzeł."
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

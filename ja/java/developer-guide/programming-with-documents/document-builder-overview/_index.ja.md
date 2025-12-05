@@ -6,6 +6,9 @@ linktitle: ドキュメントビルダーの概要
 type: docs
 description: "DocumentBuilder動的なドキュメントを最初から作成したり、既存のドキュメントに新しい要素を追加したりできます。 DocumentBuilderは、テキスト、checkboxes、テーブル、画像、およびその他のコンテンツ要素をJavaに挿入するメソッドを提供します。"
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

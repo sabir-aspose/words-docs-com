@@ -6,6 +6,9 @@ linktitle: Balises de documents structurés ou contrôle de contenu
 description: "Travaillez avec des balises de documents structurés ou des contrôles de contenu à l'aide de C#."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/structured-document-tags-or-content-control/
 timestamp: 2024-01-31-14-23-37
 ---

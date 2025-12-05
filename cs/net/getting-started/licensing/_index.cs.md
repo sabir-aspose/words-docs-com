@@ -6,6 +6,9 @@ linktitle: Licence a předplatné
 description: "Aspose.Words místo .NET poskytuje různé plány na nákup nebo nabízí Free Trial a 30-denní dočasná licence pro hodnocení pomocí licenčních a předplatných podmínek v C#."
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/net/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

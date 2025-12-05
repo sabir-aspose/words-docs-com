@@ -6,6 +6,9 @@ linktitle: Navigation avec le curseur
 description: "Naviguez entre différents nœuds au sein d'un document tel qu'un paragraphe, un signet ou un caractère spécifique à l'aide de Python."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/navigation-with-cursor/
 timestamp: 2024-01-27-14-07-04
 ---

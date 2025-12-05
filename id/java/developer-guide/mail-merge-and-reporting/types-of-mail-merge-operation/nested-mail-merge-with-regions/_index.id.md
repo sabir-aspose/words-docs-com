@@ -7,6 +7,9 @@ type: docs
 description: "Lakukan operasi Mail Merge dengan wilayah bersarang. Penggabungan bersarang adalah fitur yang memungkinkan Anda menggabungkan data hierarki dari sumber data ke dalam templat penggabungan menggunakan Java."
 keywords: "mail merge with nested regions Java, Nested Mail Merge Regions"
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/java/nested-mail-merge-with-regions/
 timestamp: 2024-01-27-14-07-04
 ---

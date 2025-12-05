@@ -6,6 +6,9 @@ linktitle: Een document afdrukken Programmatisch of dialoogvensters gebruiken
 description: "Een document afdrukken op een Server het gebruik van de niet-beheerde XpsPrint API of via een geselecteerde printer met instellingen en afdrukvoorbeelddialoogvensters in C#."
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-31-14-23-37
 ---

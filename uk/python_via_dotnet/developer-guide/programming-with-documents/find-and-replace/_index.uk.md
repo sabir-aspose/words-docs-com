@@ -6,6 +6,9 @@ linktitle: Знайти і замінити
 type: docs
 description: "Знайти рядок або звичайний шаблон виразу у вашому документі і замінити його текстом, який ви хочете використовувати Pythonй"
 weight: 100
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/python-net/find-and-replace/
 timestamp: 2024-01-27-14-07-04
 ---

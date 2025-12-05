@@ -6,6 +6,9 @@ linktitle: การสนับสนุนด้านเทคนิค
 type: docs
 description: "Aspose.WordsสำหรับC++ ให้การสนับสนุนทางเทคนิคฟรีสำหรับผู้ใช้ทั้งหมด โปรดรายงานคำถามของคุณปัญหาหรือการร้องขอคุณลักษณะโดยใช้ฟอรั่มการสนับสนุนฟรี."
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/technical-support/
 timestamp: 2024-01-27-14-07-04
 ---

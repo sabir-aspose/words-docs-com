@@ -6,6 +6,9 @@ linktitle: 필드 삽입
 description: "C#를 사용하여 문서에 필드를 삽입하는 방법 - 코드 예제를 통해 다양한 방법을 알아보세요."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/inserting-fields/
 timestamp: 2024-01-27-14-07-04
 ---

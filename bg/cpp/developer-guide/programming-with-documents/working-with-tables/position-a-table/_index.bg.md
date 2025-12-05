@@ -6,6 +6,9 @@ linktitle: Позиция на маса
 description: "Посочете позицията на таблицата в C++. Вземете подравняване на таблицата, вземете и задайте позиция на плаваща таблица, използвайки C++."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/position-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

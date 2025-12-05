@@ -6,6 +6,9 @@ linktitle: العمل مع الطباعة الآسيوية
 description: "العمل مع الطباعة الآسيوية باستخدام C#. ضبط المسافة بين النص الآسيوي واللاتيني في C#."
 type: docs
 weight: 240
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/working-with-asian-typography/
 timestamp: 2024-02-01-16-17-05
 ---

@@ -6,6 +6,9 @@ linktitle: 양식 필드 작업
 description: "양식 필드 기능 이해,다음을 사용하여 양식 필드 작업 C++."
 type: docs
 weight: 380
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/working-with-form-fields/
 timestamp: 2024-01-27-14-07-04
 ---

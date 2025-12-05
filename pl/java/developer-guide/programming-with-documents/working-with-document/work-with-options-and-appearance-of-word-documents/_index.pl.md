@@ -6,6 +6,9 @@ linktitle: Praca z opcjami i wyglądem dokumentów słownych
 description: "Kontrola wyglądu dokumentów Word biorąc pod uwagę różnicę między różnymi Microsoft Word z wykorzystaniem wersji Java."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/work-with-word-document-options-and-appearance/
 timestamp: 2024-01-27-14-07-04
 ---

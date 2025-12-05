@@ -6,6 +6,9 @@ linktitle: Enkripteer'n Dokument
 description: "Enkripteer u dokument met behulp van toepaslike enkripsiealgoritmes vir spesifieke dokumentformate."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/encrypt-a-document/
 timestamp: 2024-10-21-11-17-44
 ---

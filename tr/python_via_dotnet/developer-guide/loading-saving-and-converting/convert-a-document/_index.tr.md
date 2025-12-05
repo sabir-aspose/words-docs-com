@@ -4,6 +4,9 @@ second_title: Python via .NET için Aspose.Words
 articleTitle: Belgeyi Dönüştür
 linktitle: Belgeyi Dönüştür
 type: docs
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/python-net/convert-a-document/
 weight: 30
 description: "Python kullanarak belgeleri kolayca bir formattan diğerine dönüştürün. DOCX veya DOC gibi Microsoft Word formatları, ODT veya OTT gibi OpenDocument formatları, HTML veya XHTML gibi web formatları, MarkDown veya TXT gibi metin formatları ve diğerleri gibi en popüler formatların tümü ile çalışabilirsiniz."

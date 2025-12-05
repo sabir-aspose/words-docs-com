@@ -6,6 +6,9 @@ linktitle: تقسیم یک سند
 description: "با استفاده از C# یک سند را به چندین فایل تقسیم کنید. از ویژگی تقسیم برای تقسیم مؤثر یک سند بر اساس سرفصل ها یا بخش ها و همچنین بر اساس صفحات یا محدوده صفحات استفاده کنید."
 type: docs
 weight: 90
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

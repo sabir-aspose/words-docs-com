@@ -6,6 +6,9 @@ linktitle: การแสดงผลรูปร่างแยกต่าง
 description: "แยกวัตถุกราฟิกต่างๆเช่นรูปภาพกล่องข้อความที่ประกอบด้วยย่อหน้าหรือรูปร่างลูกศรเมื่อป."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

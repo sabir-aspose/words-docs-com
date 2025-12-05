@@ -6,6 +6,9 @@ linktitle: Ładowanie, zapisywanie i konwertowanie
 description: "Jak przekonwertować dokument z jednego formatu na inny, taki jak Word na PDF lub HTML na Markdown, a także jak załadować i zapisać dokument za pomocą C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Trabalhe com suplementos do Office
 description: "Aspose.Words para Python via .NET oferece várias classes para trabalhar com suplementos do Office. Você pode adicionar o painel de tarefas por meio da extensão da web e personalizar o painel e as propriedades da extensão."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/python-net/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

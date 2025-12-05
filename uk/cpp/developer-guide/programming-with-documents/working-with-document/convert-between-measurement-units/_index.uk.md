@@ -6,6 +6,9 @@ linktitle: Перетворення між одиницями вимірюван
 description: "Aspose.Words для C++ може допомогти вам з перетворенням одиниць вимірювання, наприклад, дюймів в точки, точок в дюймах, пікселів в точках, точок в пікселях."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/convert-between-measurement-units/
 timestamp: 2024-01-27-14-07-04
 ---

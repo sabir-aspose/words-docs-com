@@ -6,6 +6,9 @@ linktitle: Lavora con colonne e righe
 description: "Lavorare con parti di una tabella: righe, colonne e celle utilizzando C#. Specificare la riga di intestazione C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/working-with-columns-and-rows/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: סקירה כללית של בונה מסמכים
 type: docs
 description: "DocumentBuilder מאפשר לך לבנות מסמכים דינמיים מאפס או להוסיף אלמנטים חדשים לקיימים באמצעות C++. DocumentBuilder מספק שיטות להוספת טקסט, checkbox, טבלאות, תמונות ורכיבי תוכן אחרים ב C++."
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

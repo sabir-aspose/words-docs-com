@@ -6,6 +6,9 @@ linktitle: תכונות נתמכות
 description: "Aspose.Words עבור C++ מספק למשתמשים מגוון רחב של תכונות, החל מהמרה ושינוי מסמכים ליצירת מסמכים מובנים ומושכים חזותית או אוטומציה של דיווח."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/features/
 timestamp: 2024-01-27-14-07-04
 ---

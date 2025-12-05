@@ -6,6 +6,9 @@ linktitle: Werk Met Dokumente van Eksterne Bronne
 description: "Hoe om dokumente van eksterne bronne in C# te laai. Laai PDF, DOCX, DOC, RTF, ODT, EPUB, HTML en ander lêers van SharePoint of databasis vir verdere verwerking met behulp van C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/working-with-documents-from-external-sources/
 timestamp: 2024-01-27-14-07-04
 ---

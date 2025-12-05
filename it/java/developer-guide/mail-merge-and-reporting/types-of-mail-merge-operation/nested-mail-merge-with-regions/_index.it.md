@@ -7,6 +7,9 @@ type: docs
 description: "Eseguire un'operazione Mail Merge con regioni annidate. L'unione nidificata è una funzionalità che consente di unire dati gerarchici dall'origine dati al modello di unione utilizzando Java."
 keywords: "mail merge with nested regions Java, Nested Mail Merge Regions"
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/java/nested-mail-merge-with-regions/
 timestamp: 2024-01-27-14-07-04
 ---

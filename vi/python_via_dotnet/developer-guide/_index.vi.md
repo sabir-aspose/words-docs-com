@@ -6,6 +6,9 @@ linktitle: Hướng dẫn dành cho nhà phát triển
 description: "Hướng dẫn dành cho nhà phát triển này mô tả các tình huống và mẹo thực tế nhằm giúp bạn sử dụng các tính năng Aspose.Words cho Python via .NET cụ thể, đạt được giao diện tài liệu nhất định hoặc biến một trường hợp sử dụng thành hiện thực."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

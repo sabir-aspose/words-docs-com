@@ -6,6 +6,9 @@ linktitle: เริ่มต้นใช้งาน
 type: docs
 description: "ใช้บทนำนี้กับAspose.WordsสำหรับJavaพื้นฐานที่จะเริ่มตระหนักถึงมูลค่าของAspose.Wordsสำหรับธุรกิจของคุณ."
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/getting-started/
 timestamp: 2024-09-25-11-08-55
 ---

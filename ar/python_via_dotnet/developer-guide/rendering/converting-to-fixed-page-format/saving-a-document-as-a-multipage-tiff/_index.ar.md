@@ -6,6 +6,9 @@ linktitle: حفظ مستند بتنسيق TIFF متعدد الصفحات
 description: "تحويل مستند إلى ملف TIFF متعدد الصفحات باستخدام Python. لتحديد كيفية عرض المستند على الصورة، يلزمك تحديد خيارات إضافية: الدقة، وعدد الصفحات، والتحويل الثنائي للصورة، وما إلى ذلك."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

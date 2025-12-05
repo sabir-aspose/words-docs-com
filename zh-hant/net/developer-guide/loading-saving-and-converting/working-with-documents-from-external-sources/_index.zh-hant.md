@@ -6,6 +6,9 @@ linktitle: 從外部來源作業文件
 description: "C# 如何從外部來源載入文件。 從 SharePoint 加載 PDF、DOCX、DOC、RTF、ODT、EPUB、HTML 和其他檔案，以便使用 C# 進行進一步處理。"
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/working-with-documents-from-external-sources/
 timestamp: 2024-01-27-14-07-04
 ---

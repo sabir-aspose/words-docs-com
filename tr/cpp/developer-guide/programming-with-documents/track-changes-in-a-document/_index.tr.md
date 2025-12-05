@@ -6,6 +6,9 @@ linktitle: Belgedeki Değişiklikleri İzleme
 description: "Siz veya başkaları tarafından C++ kullanılarak yapılan içerik ve biçimlendirmedeki değişiklikleri izleyin. Bir belgedeki tek tek revizyonlara erişin ve bunlara çeşitli özellikler uygulayın."
 type: docs
 weight: 270
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/track-changes-in-a-document/
 timestamp: 2024-01-30-16-22-34
 ---

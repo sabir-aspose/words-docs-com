@@ -6,6 +6,9 @@ linktitle: คุณสมบัติที่รองรับ
 description: "Aspose.Words สำหรับ .NET มอบคุณสมบัติที่หลากหลายแก่ผู้ใช้ ตั้งแต่การแปลงและแก้ไขเอกสารไปจนถึงการสร้างเอกสารที่มีโครงสร้างและสวยงามสะดุดตา หรือการรายงานอัตโนมัติโดยใช้ C#"
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/features/
 timestamp: 2024-10-21-11-17-44
 ---

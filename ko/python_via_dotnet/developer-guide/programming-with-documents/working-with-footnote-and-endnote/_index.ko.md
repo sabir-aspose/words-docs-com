@@ -6,6 +6,9 @@ linktitle: 각주 및 미주 작업
 description: "문서에 fpotnotes 또는 endnotes를 삽입하고 Python를 사용하여 해당 옵션을 지정합니다."
 type: docs
 weight: 160
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/working-with-footnote-and-endnote/
 timestamp: 2024-01-27-14-07-04
 ---

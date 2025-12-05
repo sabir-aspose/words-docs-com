@@ -8,6 +8,7 @@ description: "使用Low CodeAPI简化文档处理任务，如比较、转换、�
 weight: 23
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/low-code/
 timestamp: 2025-05-07-07-08-55
 ---

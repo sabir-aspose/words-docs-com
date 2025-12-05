@@ -6,6 +6,9 @@ linktitle: Overzicht documentbouwer
 type: docs
 description: "DocumentBuilder stelt u in staat om dynamische documenten vanaf nul te bouwen of nieuwe elementen toe te voegen aan bestaande documenten. DocumentBuilder biedt methoden voor het invoegen van tekst, checkboxen, tabellen, afbeeldingen en andere inhoud elementen in Java."
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/java/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

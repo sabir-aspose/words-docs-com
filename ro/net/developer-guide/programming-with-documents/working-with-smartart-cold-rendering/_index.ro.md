@@ -7,6 +7,9 @@ description: "Introducere în formele SmartArt folosind C#."
 type: docs
 description: "Aspose.Words pentru .NET efectuează redarea rece a SmartArt, ceea ce înseamnă că plasează și redă obiecte SmartArt dacă desenul SmartArt pre-renderizat este lipsă sau incorect folosind C#."
 weight: 330
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

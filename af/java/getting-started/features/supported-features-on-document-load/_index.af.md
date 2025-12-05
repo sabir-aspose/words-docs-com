@@ -6,6 +6,9 @@ linktitle: Ondersteunde Kenmerke op Dokumentlading
 description: "Laai en omskep'n dokument in die meeste gewilde formate en ondersteun baie Microsoft Word funksies."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/java/supported-features-on-document-load/
 timestamp: 2024-01-27-14-07-04
 ---

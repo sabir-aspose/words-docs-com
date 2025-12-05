@@ -4,6 +4,9 @@ second_title: Aspose.Words vir Python via .NET
 articleTitle: Skep Of Laai'n Dokument
 linktitle: Skep Of Laai'n Dokument
 type: docs
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/python-net/create-or-load-a-document/
 description: "Skep'n leë dokument of laai dit vanaf'n lêer of stroom met Python."
 keywords: "create a document python, load a document python, create a blank document python, load a document from file python, load a document from stream python, create a document Aspose python, load a document Aspose python, load formats supported by Aspose.Words python"

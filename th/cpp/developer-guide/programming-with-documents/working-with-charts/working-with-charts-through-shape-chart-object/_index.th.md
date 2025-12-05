@@ -6,6 +6,9 @@ linktitle: การทำงานกับแผนภูมิผ่านSha
 description: "แผนภูมิในรายละเอียดวิธีการเชื่อมโยงกับแผนภูมิโหนดรูปร่างใน Aspose.WordsสำหรับC++."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/working-with-charts-through-shape-chart-object/
 timestamp: 2024-01-27-14-07-04
 ---

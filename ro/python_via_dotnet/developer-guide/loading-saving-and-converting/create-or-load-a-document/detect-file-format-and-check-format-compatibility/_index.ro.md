@@ -6,6 +6,9 @@ linktitle: Detectați formatul fișierului și verificați compatibilitatea form
 description: "Determinați formatul fișierului în Python dacă nu sunteți sigur care este conținutul real al fișierului sau pentru a verifica compatibilitatea formatului."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/python-net/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

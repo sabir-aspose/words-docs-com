@@ -6,6 +6,9 @@ linktitle: 분할 테이블
 description: "분할 테이블 C++. 하나의 테이블을 두 개의 개별 테이블로 분할하는 방법 C++."
 type: docs
 weight: 100
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/split-table/
 timestamp: 2024-01-27-14-07-04
 ---

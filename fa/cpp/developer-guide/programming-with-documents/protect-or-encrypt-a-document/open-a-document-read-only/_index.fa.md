@@ -6,6 +6,9 @@ linktitle: باز کردن یک سند فقط برای خواندن
 description: "سند خود را فقط برای خواندن تهیه کنید تا محتوا کپی یا خوانده شود، اما اصلاح نشود."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/open-a-document-read-only/
 timestamp: 2024-01-27-14-07-04
 ---

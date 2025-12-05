@@ -6,6 +6,9 @@ linktitle: Níveis lógicos de nós em um documento
 type: docs
 description: "Em Aspose.Words para C++ a documentação mencionou níveis lógicos de nós – nível de bloco, nível embutido ou nível de linha. O nível do nó é usado para descrever o local na árvore de documentos onde o nó é normalmente ocorrer."
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

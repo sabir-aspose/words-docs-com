@@ -6,6 +6,9 @@ linktitle: 指定加载选项
 description: "使用Java加载文档时设置高级属性，以获得对过程的更精确控制。"
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/specify-load-options/
 timestamp: 2024-01-27-14-07-04
 ---

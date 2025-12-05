@@ -6,6 +6,9 @@ linktitle: Запазване на документ като многослой�
 description: "Конвертирайте документ в няколко страници TIFF, като използвате C++. За да определите как документът се показва на изображението, трябва да зададете допълнителни опции: резолюция, брой страници, бинаризация на изображението и т.н."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

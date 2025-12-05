@@ -7,6 +7,9 @@ type: docs
 description: "Execute uma operação Mail Merge com regiões aninhadas usando C#. A mesclagem aninhada é um recurso que permite mesclar dados hierárquicos de sua fonte de dados em seu modelo de mesclagem."
 keywords: "mail merge with nested regions c#"
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/net/nested-mail-merge-with-regions/
 timestamp: 2024-07-11-08-07-06
 ---

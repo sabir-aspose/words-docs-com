@@ -7,6 +7,9 @@ type: docs
 description: "Eseguire un'operazione Mail Merge con regioni nidificate utilizzando C++. L'unione nidificata è una funzionalità che consente di unire i dati gerarchici dall'origine dati al modello di unione."
 keywords: "mail merge with nested regions c++"
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/cpp/nested-mail-merge-with-regions/
 timestamp: 2024-09-24-14-35-44
 ---

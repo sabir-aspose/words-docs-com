@@ -6,6 +6,9 @@ linktitle: 與形狀一起工作
 description: "shape markup language 之介紹，如何透過 C# 來創造不同種類的圖形。"
 type: docs
 weight: 280
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/working-with-shapes/
 timestamp: 2024-01-27-14-07-04
 ---

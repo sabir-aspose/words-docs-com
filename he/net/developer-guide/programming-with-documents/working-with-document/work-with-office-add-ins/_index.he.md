@@ -6,6 +6,9 @@ linktitle: עבודה עם Office Add-ins
 description: "Aspose.Words עבור .NET מספק שיעורים שונים לעבודה עם Office Add-ins באמצעות C#. אתה יכול להוסיף משימות Pane באמצעות הרחבה לאינטרנט ולהתאים אישית את המחבת ואת התכונות הרחבה."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

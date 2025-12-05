@@ -6,6 +6,9 @@ linktitle: الميزات المدعومة
 description: "Aspose.Words إلى عن على Java يوفر للمستخدمين مجموعة واسعة من الميزات من مجرد تحويل المستندات وتعديلها إلى إنشاء مستندات منظمة وجذابة بصريا أو أتمتة التقارير."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/features/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: テーブルを作成する
 description: "C++を使用してテーブルを作成するさまざまな方法。 ドキュメント用にC++でテーブルを作成します。 C++でテーブルを追加します。"
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---

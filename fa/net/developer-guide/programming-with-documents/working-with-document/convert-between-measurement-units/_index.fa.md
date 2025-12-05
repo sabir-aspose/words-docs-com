@@ -6,6 +6,9 @@ linktitle: تبدیل بین واحدهای اندازه گیری
 description: "Aspose.Words for .NET می تواند به شما در نحوه تبدیل بین واحدهای اندازه گیری، به عنوان مثال، اینچ به نقطه و نقطه به اینچ، پیکسل به نقطه، نقطه به پیکسل با استفاده از C# کمک کند."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/convert-between-measurement-units/
 timestamp: 2024-01-27-14-07-04
 ---

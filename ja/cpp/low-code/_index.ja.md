@@ -8,6 +8,7 @@ description: "比較、変換、分割、マージ、検索、置換などの文
 weight: 23
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/low-code/
 timestamp: 2025-05-07-07-08-55
 ---

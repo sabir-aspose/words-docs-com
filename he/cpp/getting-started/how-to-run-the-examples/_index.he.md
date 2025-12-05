@@ -6,6 +6,9 @@ linktitle: כיצד להפעיל את הדוגמאות
 description: "הורד Aspose.Words עבור C++ דוגמאות מהמאגר GitHub שלנו ולמד כיצד להפעיל אותן כדי להכיר יותר את האפשרויות והתכונות Aspose.Words."
 type: docs
 weight: 110
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/how-to-run-the-examples/
 timestamp: 2024-07-11-16-13-28
 ---

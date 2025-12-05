@@ -6,6 +6,9 @@ linktitle: 문서 암호화
 description: "C#의 특정 문서 형식에 적합한 암호화 알고리즘을 사용하여 문서를 암호화하세요."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/encrypt-a-document/
 timestamp: 2024-10-21-11-17-44
 ---

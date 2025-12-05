@@ -6,6 +6,9 @@ linktitle: Встановити Правда Тип шрифтів на Linux
 description: "Aspose.Words для Java дозволяє надати документ, створений за допомогою Microsoft Word на Linux машина з найкращою точністю."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/java/install-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

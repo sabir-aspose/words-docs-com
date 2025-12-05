@@ -6,6 +6,9 @@ linktitle: ドキュメントを画像に変換する
 type: docs
 description: "ドキュメントを画像形式 (JPG、PNG など) に変換します。 C# を使用して請求書を送信するには、ドキュメント プレビューを作成するか、ドキュメント スキャンを作成します。"
 weight: 43
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/convert-a-document-to-an-image/
 timestamp: 2024-07-09-19-00-42
 ---

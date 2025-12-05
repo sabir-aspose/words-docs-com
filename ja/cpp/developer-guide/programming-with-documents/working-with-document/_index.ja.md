@@ -6,6 +6,9 @@ linktitle: ドキュメントの操作
 type: docs
 description: "`Document`クラスは、C++を使用してさまざまなドキュメントプロパティとメソッドを提供します。 あなたは`Document`クラスをあなたが実行したいものの出発点として使用します C++の場合Aspose.Words. `Document`オブジェクトは、ファイルまたはストリームに保存し、ブラウザに送信することもできます。"
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/working-with-document/
 timestamp: 2024-01-30-16-22-34
 ---

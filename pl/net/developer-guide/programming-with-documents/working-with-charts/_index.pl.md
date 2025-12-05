@@ -6,6 +6,9 @@ linktitle: Praca z wykresami
 description: "Wprowadzenie do funkcji wykresów, jak tworzyć i manipulować wykresami za pomocą C#."
 type: docs
 weight: 310
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/working-with-charts/
 timestamp: 2024-02-05-15-07-18
 ---

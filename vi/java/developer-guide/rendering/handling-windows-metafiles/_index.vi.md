@@ -6,6 +6,9 @@ linktitle: Xử lý  Windows  metafiles
 description: "Aspose.Words cho Java thực hiện người chơi Windows của riêng nó để chơi định dạng Metafile trên tất cả các nền tảng và hỗ trợ xử lý các tính năng cơ bản của metafile và có thể thực hiện chuyển đổi đến một loại khác của người chơi metafile."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

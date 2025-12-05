@@ -6,6 +6,9 @@ linktitle: Aplicați Stilul Tabelului
 description: "Formatare avansată a tabelului Java. Creați un stil de tabel folosind Java. Introducere în formatarea tabelului avansat, stiluri de tabel folosind Java."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/java/working-with-tablestyle/
 timestamp: 2024-01-27-14-07-04
 ---

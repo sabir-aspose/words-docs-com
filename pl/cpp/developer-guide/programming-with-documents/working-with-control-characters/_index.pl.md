@@ -6,6 +6,9 @@ linktitle: Praca Ze Znakami Kontrolnymi
 description: "Wprowadzenie do pracy ze znakami kontrolnymi w Aspose.Words dla C++."
 type: docs
 weight: 400
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/working-with-control-characters/
 timestamp: 2024-01-27-14-07-04
 ---

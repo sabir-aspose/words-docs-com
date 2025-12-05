@@ -6,6 +6,9 @@ linktitle: 適用表格格式化
 description: "使用 C# 在詳細資料中格式化表格。 使用 C# 來格式化表格中的每個部分。"
 type: docs
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/applying-formatting/
 timestamp: 2024-01-27-14-07-04
 ---

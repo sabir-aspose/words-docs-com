@@ -6,6 +6,9 @@ linktitle: با افزونه های آفیس کار کنید
 description: "Aspose.Words for .NET کلاس های مختلفی را برای کار با افزونه های آفیس با استفاده از C# فراهم می کند. می توانید Task Pane را از طریق برنامه افزودنی وب اضافه کنید و ویژگی های صفحه و برنامه افزودنی را سفارشی کنید."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

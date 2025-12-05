@@ -7,6 +7,9 @@ type: docs
 description: "Mail Merge is'n gewilde kenmerk vir die vinnige skep van dokumente met behulp van C++. Aspose.Words vir C++ neem die standaard Mail Merge funksionaliteit en bevorder dit baie stappe vorentoe, en verander dit in'n volwaardige verslagdoeningsoplossing wat jou toelaat om selfs meer komplekse dokumente soos verslae, katalogusse, voorraad en fakture te skep."
 keywords: "how to use Mail Merge c++"
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/mail-merge-and-reporting/
 timestamp: 2024-01-30-16-22-34
 ---

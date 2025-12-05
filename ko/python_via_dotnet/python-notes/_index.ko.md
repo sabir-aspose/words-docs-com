@@ -6,6 +6,9 @@ linktitle: Python 및 .NET 버전 차이점
 description: "Aspose.Words for Python via .NET는 Aspose.Words for .NET의 래퍼입니다. 이 페이지에서는 이 두 제품의 기능과 API의 차이점을 설명합니다."
 type: docs
 weight: 15
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/python-notes/
 timestamp: 2024-01-27-14-07-04
 ---

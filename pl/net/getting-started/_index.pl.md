@@ -6,6 +6,9 @@ linktitle: Pierwsze kroki
 type: docs
 description: "Skorzystaj z tego wprowadzenia do podstaw Aspose.Words dla .NET, aby zacząć zdawać sobie sprawę z wartości Aspose.Words dla Twojej firmy."
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/getting-started/
 timestamp: 2024-09-25-11-08-55
 ---

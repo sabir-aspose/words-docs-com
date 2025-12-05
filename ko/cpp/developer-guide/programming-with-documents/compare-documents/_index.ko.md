@@ -6,6 +6,9 @@ linktitle: 문서 비교
 type: docs
 description: "지원되는 형식의 두 문서를 비교하고 다음을 사용하여 콘텐츠 변경 사항을 보여줍니다 C++. 비교할 때 고급 옵션을 적용 할 수 있습니다."
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/compare-documents/
 timestamp: 2024-01-27-14-07-04
 ---

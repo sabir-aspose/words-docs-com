@@ -8,6 +8,9 @@ linktitle: SSS
 type: docs
 description: ".NET için Aspose.Words en sık sorulan soruları yanıtlıyor. Genel sorular veya belirli konularla ilgili sorununuzu hızlı bir şekilde çözmek için bu sayfayı öğrenin."
 weight: 75
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/faq/
 timestamp: 2024-11-18-12-56-02
 ---

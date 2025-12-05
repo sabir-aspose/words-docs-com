@@ -6,6 +6,9 @@ linktitle: Arbeiten Sie mit Optionen und Erscheinungsbild von Word-Dokumenten
 description: "Steuern Sie das Erscheinungsbild von Word-Dokumenten unter Berücksichtigung der Unterschiede zwischen verschiedenen Microsoft Word-Versionen mithilfe von C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/work-with-word-document-options-and-appearance/
 timestamp: 2024-01-27-14-07-04
 ---

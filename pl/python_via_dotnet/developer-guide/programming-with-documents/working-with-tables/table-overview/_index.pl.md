@@ -6,6 +6,9 @@ linktitle: Przegląd tabeli
 description: "Pracuj z tabelami i ich komponentami, takimi jak komórki, wiersze, kolumny w Aspose.Words dla Python. Jak pracować z tabelami w Python."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/python-net/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

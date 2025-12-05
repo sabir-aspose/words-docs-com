@@ -6,6 +6,9 @@ linktitle: 插入欄位
 description: "透過 C# 將欄位插入到文件中 – 學習不同方式與程式碼範例。"
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/inserting-fields/
 timestamp: 2024-01-27-14-07-04
 ---

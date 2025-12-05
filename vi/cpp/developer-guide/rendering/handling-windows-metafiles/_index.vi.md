@@ -6,6 +6,9 @@ linktitle: Xử Lý Windows Metafiles
 description: "Aspose.Words cho C++ triển khai trình phát Metafile Windows của riêng mình để phát Định dạng Metafile trên tất cả các nền tảng và hỗ trợ xử lý các tính năng metafile cơ bản và có thể thực hiện dự phòng cho một loại trình phát metafile khác."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/handling-windows-metafiles/
 timestamp: 2024-01-30-16-22-34
 ---

@@ -6,6 +6,9 @@ linktitle: Protejarea sau criptarea unui Document
 description: "Aspose.Words pentru C++ oferă doar citire, criptarea unui Document, restricționarea editării și semnăturile digitale pentru protecția documentelor. Aspose.Words acceptă majoritatea opțiunilor de protecție a cuvintelor."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

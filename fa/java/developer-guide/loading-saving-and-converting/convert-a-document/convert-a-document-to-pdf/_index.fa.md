@@ -6,6 +6,9 @@ linktitle: تبدیل یک سند به PDF
 description: "تبدیل یک سند در ورد یا هر فرمت پشتیبانی شده دیگر به PDF، که ظاهر اصلی یک سند را در طول ارائه آن در سیستم عامل های مختلف با استفاده از Java حفظ می کند."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/convert-a-document-to-pdf/
 timestamp: 2024-01-31-14-23-37
 ---

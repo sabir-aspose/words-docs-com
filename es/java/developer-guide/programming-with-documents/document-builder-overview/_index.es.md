@@ -6,6 +6,9 @@ linktitle: Descripción General del Generador de Documentos
 type: docs
 description: "DocumentBuilder le permite crear documentos dinámicos desde cero o agregar nuevos elementos a los existentes. DocumentBuilder proporciona métodos para insertar texto, checkbox es, tablas, imágenes y otros elementos de contenido en Java."
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/java/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Kết nối các bảng
 description: "Kết hợp các bảng trong Java. Chỉnh sửa bảng nâng cao, kết hợp và chia tách bằng Java."
 type: docs
 weight: 90
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/join-tables/
 timestamp: 2024-01-27-14-07-04
 ---

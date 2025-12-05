@@ -6,6 +6,9 @@ linktitle: Lêerformate en Omskakelings
 description: "Omskep dokumente van enige ondersteunde vrag na stoor formaat met net twee reëls Java kode. Dit bied hoë kwaliteit omskakelings met behulp van Java."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/java/file-formats-and-conversions/
 timestamp: 2024-01-31-14-23-37
 ---

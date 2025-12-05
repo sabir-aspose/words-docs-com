@@ -6,6 +6,9 @@ linktitle: 使用内容控制 SDT
 description: "使用 python，您可以将客户定义的语义及其行为和外观嵌入到文档中。"
 type: docs
 weight: 390
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---

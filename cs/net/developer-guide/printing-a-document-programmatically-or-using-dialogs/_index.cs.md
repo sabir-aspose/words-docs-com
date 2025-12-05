@@ -6,6 +6,9 @@ linktitle: Tisk dokumentu Programově nebo pomocí dialogů
 description: "Vytisknout dokument na Server pomocí neřízeného XpsPrintu API nebo pomocí vybrané tiskárny s Dialogy Nastavení a náhledu tisku v C#."
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/net/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-31-14-23-37
 ---

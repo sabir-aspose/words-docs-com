@@ -6,6 +6,9 @@ linktitle: ชื่อตัวสร้างหรือผู้ผลิต
 description: "Aspose.Words สำหรับ Python via .NET จะเพิ่มชื่อตัวสร้างและหมายเลขเวอร์ชันที่ใช้ในการสร้างลงในเอกสาร ข้อมูลนี้สามารถพบได้ในเอกสารในลักษณะที่ขึ้นอยู่กับรูปแบบไฟล์เอาต์พุต"
 type: docs
 weight: 60
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/python-net/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

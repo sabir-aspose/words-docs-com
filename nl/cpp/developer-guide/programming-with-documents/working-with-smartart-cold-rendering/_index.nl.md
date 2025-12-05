@@ -6,6 +6,9 @@ linktitle: Werken met SmartArt koude Rendering
 type: docs
 description: "Aspose.Words voor C++ voert SmartArt koude Rendering uit, wat betekent dat het SmartArt objecten uitlegt en rendert als de vooraf gerenderde SmartArt tekening ontbreekt of onjuist is."
 weight: 330
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

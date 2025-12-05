@@ -6,6 +6,9 @@ linktitle: Niveles lógicos de nodos en un documento
 type: docs
 description: "En la documentación Aspose.Words para Python via .NET se mencionan niveles lógicos de nodos: nivel de bloque, nivel en línea o nivel de fila. El nivel de nodo se utiliza para describir la ubicación en el árbol del documento donde normalmente se encuentra el nodo."
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/python-net/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

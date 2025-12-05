@@ -6,6 +6,9 @@ linktitle: Работа с документ, съхраняван в SharePoint 
 description: "Convert Word shared in SharePoint за PDF използване C#. Работа с документи, съхранявани в SharePoint ... различни входни формати, включително Word, OpenOffice, Image и eBook."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/work-with-document-stored-in-sharepoint/
 timestamp: 2024-10-21-11-17-44
 ---

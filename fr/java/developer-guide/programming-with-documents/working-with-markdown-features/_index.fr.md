@@ -6,6 +6,9 @@ linktitle: Travailler avec Markdown Fonctionnalités
 description: "Comment implémenter Markdown fonctionnalités en utilisant Java. Toutes les fonctionnalités sont représentées sous forme de styles correspondants ou de formatage direct."
 type: docs
 weight: 420
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/working-with-markdown-features/
 timestamp: 2024-01-31-14-23-37
 ---

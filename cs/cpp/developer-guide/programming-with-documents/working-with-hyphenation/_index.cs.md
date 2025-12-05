@@ -6,6 +6,9 @@ linktitle: Práce s dělením slov
 description: "Použijte dělení slov pro kompaktnější uspořádání textu pomocí C++. Poskytuje pokročilé algoritmy pro práci se slovníky dělení slov, používá slovníky OpenOffice."
 type: docs
 weight: 220
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/working-with-hyphenation/
 timestamp: 2024-01-30-16-22-34
 ---

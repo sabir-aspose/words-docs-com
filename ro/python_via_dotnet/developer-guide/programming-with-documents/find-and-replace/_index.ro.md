@@ -6,6 +6,9 @@ linktitle: Găsiți și înlocuiți
 type: docs
 description: "Găsiți un șir sau un model de expresie regulată în documentul dvs. și înlocuiți-l cu textul dorit folosind Python."
 weight: 100
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/python-net/find-and-replace/
 timestamp: 2024-01-27-14-07-04
 ---

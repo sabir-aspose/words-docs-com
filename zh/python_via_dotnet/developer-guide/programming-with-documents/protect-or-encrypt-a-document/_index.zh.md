@@ -6,6 +6,9 @@ linktitle: 保护或加密文档
 description: "Aspose.Words for Python via .NET 提供只读、加密文档、限制编辑和数字签名来保护文档。 Aspose.Words 支持大多数 Word 保护选项。"
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

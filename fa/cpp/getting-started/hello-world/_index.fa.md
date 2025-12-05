@@ -6,6 +6,9 @@ linktitle: سلام دنیا
 description: "ایجاد، ویرایش و ذخیره اولین سند خود را در هر فرمت پشتیبانی شده با استفاده از Aspose.Words برای C++ برای تجربه سادگی و قدرت آن در C++."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/hello-world/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Comparer des documents
 description: "Comparez deux documents dans tous les formats pris en charge et affiche les modifications de contenu à l'aide de Python. Vous pouvez appliquer des options avancées lors de la comparaison."
 type: docs
 weight: 60
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/compare-documents/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Chèn và nối tài liệu
 description: "Kết hợp tài liệu thành một: chèn hoặc nối tài liệu vào tài liệu mới hoặc hiện có bằng cách sử dụng tìm và thay thế, hợp nhất trường, đánh dấu trang hoặc đơn giản là ở cuối tài liệu trong Python."
 type: docs
 weight: 80
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

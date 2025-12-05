@@ -6,6 +6,9 @@ linktitle: Belge ile Çalışmak
 type: docs
 description: "The `Document` sınıfı çeşitli belge özellikleri ve yöntemler sağlar. `Document` sınıfını, Aspose.Words ile yapmak istediğiniz her şey için başlangıç noktası olarak kullanırsınız. Java `Document` nesnesi kaydedilebilir bir dosyaya veya akışa ve ayrıca bir tarayıcıya gönderilebilir."
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---

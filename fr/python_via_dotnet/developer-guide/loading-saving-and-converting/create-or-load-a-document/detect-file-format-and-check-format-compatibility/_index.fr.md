@@ -6,6 +6,9 @@ linktitle: Détecter le format de fichier et vérifier la compatibilité des for
 description: "Déterminez le format de fichier dans Python si vous n'êtes pas sûr du contenu réel du fichier ou pour vérifier la compatibilité du format."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

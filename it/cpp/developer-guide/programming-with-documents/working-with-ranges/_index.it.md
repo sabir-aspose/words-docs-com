@@ -6,6 +6,9 @@ linktitle: Lavorare con le gamme
 description: "Introduzione alla funzione Range in Aspose.Words per C++."
 type: docs
 weight: 130
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/cpp/working-with-ranges/
 timestamp: 2024-01-27-14-07-04
 ---

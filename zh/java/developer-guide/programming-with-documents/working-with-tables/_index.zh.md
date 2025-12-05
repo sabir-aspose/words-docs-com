@@ -6,6 +6,9 @@ linktitle: 使用表格
 description: "如何处理Java中的表。 介绍Aspose.Words中Java的表节点概念."
 type: docs
 weight: 190
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/working-with-tables/
 timestamp: 2024-01-27-14-07-04
 ---

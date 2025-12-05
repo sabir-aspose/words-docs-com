@@ -6,6 +6,9 @@ linktitle: 表内のテキストを操作する
 description: "C# の表内のテキストを置換します。 C# を使用してテーブルまたはセルからプレーン テキストを抽出します。"
 type: docs
 weight: 60
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/work-with-text-in-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

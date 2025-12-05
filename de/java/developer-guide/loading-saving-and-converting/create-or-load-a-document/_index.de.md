@@ -5,6 +5,9 @@ articleTitle: Dokument erstellen oder laden
 linktitle: Dokument erstellen oder laden
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/create-or-load-a-document/
 description: "Mit Aspose.Words können Sie ein leeres Dokument erstellen oder es mit Java aus einer Datei oder einem Stream laden."
 timestamp: 2024-01-27-14-07-04

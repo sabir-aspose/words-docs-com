@@ -6,6 +6,9 @@ linktitle: Mengubah dokumen ke PDF
 description: "Mengkonversi Word ke PDF di C#. Contoh kode sederhana untuk konversi DOCX ke PDF. Mendukung semua format Word dan gambar."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/net/convert-a-document-to-pdf/
 timestamp: 2024-09-25-11-08-55
 ---

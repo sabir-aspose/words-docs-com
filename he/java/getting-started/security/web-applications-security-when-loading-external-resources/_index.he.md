@@ -6,6 +6,9 @@ linktitle: דרישות אינטרנט אבטחה בעת טעינת משאבים
 type: docs
 description: "לטעון משאבים מרחוק, זה יכול להיות סיבה של סיכונים ביטחוניים. הסתכלו על בעיות אבטחה נפוצות ועל הפתרונות שלהם Java."
 weight: 120
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-27-14-07-04
 ---

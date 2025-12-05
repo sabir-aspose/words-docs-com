@@ -6,6 +6,9 @@ linktitle: 檔案格式與轉換
 description: "將任何支援的載入檔案轉換成儲存格式，只需兩行C#程式碼。 它提供高品質的轉換。"
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/file-formats-and-conversions/
 timestamp: 2024-01-31-14-23-37
 ---

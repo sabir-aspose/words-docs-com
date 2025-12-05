@@ -6,6 +6,9 @@ linktitle: ความต้องการของระบบ
 description: "ก่อนที่คุณจะเริ่มทำงานกับ Aspose.WordsสำหรับC++ ตรวจสอบให้แน่ใจว่าคุณตอบสนองระบบปฏิบัติการแพลตฟอร์มกรอบและความต้องการด้านสิ่งแวดล้อมเพื่อให้กิจกรรมบนอุปกรณ์ของคุณมีสัดส่วนอย่างถูกต้อง."
 type: docs
 weight: 70
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/system-requirements/
 timestamp: 2024-07-11-16-13-28
 ---

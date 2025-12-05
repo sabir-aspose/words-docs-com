@@ -6,6 +6,9 @@ linktitle: 파일 형식 감지 및 형식 호환성 확인
 description: "파일의 실제 내용이Java을 사용하고 있는지 확실하지 않은 경우 예외를 피하기 위해 문서 형식을 열기 전에 문서 형식에 대한 정보를 얻습니다."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

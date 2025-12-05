@@ -6,6 +6,9 @@ linktitle: 将文档转换为PDF
 description: "使用C++将文档转换为PDF。 支持各种输入格式，包括Word，OpenOffice，Image和eBook格式。"
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/convert-a-document-to-pdf/
 timestamp: 2024-10-21-08-52-03
 ---

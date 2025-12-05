@@ -6,6 +6,9 @@ linktitle: Wie man Mail Merge PDF in Word konvertiert
 type: docs
 description: "Aspose.Words für Java bietet einige erweiterte Mail Merge -Funktionen, mit denen Sie die Konvertierung von PDF in Word zusammenführen können."
 weight: 100
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/how-to-mail-merge-pdf-to-word-conversion/
 timestamp: 2024-01-27-14-07-04
 ---

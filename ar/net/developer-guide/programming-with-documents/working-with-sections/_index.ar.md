@@ -6,6 +6,9 @@ linktitle: العمل مع الأقسام
 description: "فهم مفاهيم قسم المستندات وممارسات المعالجة باستخدام C#. إدراج قسم في مستند C#. إزالة القسم C#. نسخ الأقسام بين المستندات."
 type: docs
 weight: 120
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/working-with-sections/
 timestamp: 2024-09-25-11-08-55
 ---

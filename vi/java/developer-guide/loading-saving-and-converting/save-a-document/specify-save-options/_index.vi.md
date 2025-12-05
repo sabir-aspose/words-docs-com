@@ -6,6 +6,9 @@ linktitle: Chỉ định Tùy chọn Lưu
 description: "Thiết lập các thuộc tính nâng cao khi lưu một tài liệu bằng Java để có quyền kiểm soát chính xác hơn đối với quá trình."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/specify-save-options/
 timestamp: 2024-01-27-14-07-04
 ---

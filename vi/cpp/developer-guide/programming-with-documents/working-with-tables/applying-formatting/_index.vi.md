@@ -6,6 +6,9 @@ linktitle: Áp Dụng Định Dạng
 description: "Định dạng bảng trong chi tiết sử dụng C++. Sử dụng C++ để định dạng mọi phần của bảng."
 type: docs
 weight: 70
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/applying-formatting/
 timestamp: 2024-10-21-11-17-44
 ---

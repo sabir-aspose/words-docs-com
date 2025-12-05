@@ -6,6 +6,9 @@ linktitle: Opslaan opties specificeren
 description: "Het opslaan met behulp van nauwkeurigere controle C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/specify-save-options/
 timestamp: 2024-07-09-19-00-42
 ---

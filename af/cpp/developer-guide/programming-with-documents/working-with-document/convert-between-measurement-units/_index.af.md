@@ -6,6 +6,9 @@ linktitle: Skakel Tussen Maateenhede Om
 description: "Aspose.Words vir C++ kan u help met die omskakeling tussen meeteenhede, byvoorbeeld duim na punte en punte na duim, pixels na punte, punte na pixels."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/convert-between-measurement-units/
 timestamp: 2024-01-27-14-07-04
 ---

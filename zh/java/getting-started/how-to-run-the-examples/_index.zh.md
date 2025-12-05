@@ -6,6 +6,9 @@ linktitle: 如何运行示例
 type: docs
 description: "从我们的GitHub存储库下载Aspose.WordsforJava示例，并学习如何运行它们以更熟悉Aspose.Words的可能性和特性。"
 weight: 130
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/how-to-run-the-examples/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 라이선스 및 구독
 description: "Aspose.WordsJava의 경우 다른 구매 계획을 제공하거나 무료 평가판과 라이선스 및 구독 정책을 사용하여 평가를 위한 30 일 임시 라이선스를 제공합니다."
 type: docs
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

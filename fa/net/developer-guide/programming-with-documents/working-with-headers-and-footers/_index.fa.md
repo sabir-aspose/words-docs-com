@@ -6,6 +6,9 @@ linktitle: کار با هدر و پاورقی
 description: "نحوه دستکاری هدرها و پاورقی ها با استفاده از C#. ایجاد سرصفحه و پاورقی C#. سرصفحه یا پاورقی C# را حذف کنید."
 type: docs
 weight: 150
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/working-with-headers-and-footers/
 timestamp: 2024-01-27-14-07-04
 ---

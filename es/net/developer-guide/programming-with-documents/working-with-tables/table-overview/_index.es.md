@@ -6,6 +6,9 @@ linktitle: Descripción general de la tabla
 description: "Trabaje con tablas y sus componentes, como celdas, filas y columnas en Aspose.Words para .NET. Cómo trabajar con tablas en C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Перетворити Markdown в об'єктну модель до�
 type: docs
 description: "Перетворіть документ Markdown в об'єктну модель документа і назад, використовуючи C++. Таким чином, ви можете працювати зі складними існуючими Markdown і програмно створювати документ Markdown з нуля."
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/translate-markdown-to-document-object-model/
 timestamp: 2024-10-21-11-17-44
 ---

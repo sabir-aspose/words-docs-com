@@ -6,6 +6,9 @@ linktitle: Các tính năng được hỗ trợ
 description: "Aspose.Words cho Python via .NET cung cấp cho người dùng nhiều tính năng từ chuyển đổi và sửa đổi tài liệu đơn giản đến tạo tài liệu có cấu trúc và hấp dẫn trực quan hoặc tự động hóa báo cáo."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/features/
 timestamp: 2024-10-21-11-17-44
 ---

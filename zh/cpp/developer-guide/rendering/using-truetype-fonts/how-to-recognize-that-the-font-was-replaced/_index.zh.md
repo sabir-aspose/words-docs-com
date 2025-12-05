@@ -6,6 +6,9 @@ linktitle: 如何识别字体被替换
 description: "如果您不确定文档布局发生更改的原因或某些字体看起来不像预期的那样，字体替换警告消息可以提供帮助。"
 type: docs
 weight: 13
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/how-to-recognize-that-the-font-was-replaced/
 timestamp: 2024-09-24-14-35-44
 ---

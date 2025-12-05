@@ -6,6 +6,9 @@ linktitle: Tireleme ile Çalışmak
 description: "C# kullanarak metnin daha derli toplu düzenlenmesi için tirelemeyi kullanın. Tireleme sözlükleriyle çalışmak için gelişmiş algoritmalar sağlar, OpenOffice sözlüklerini kullanır."
 type: docs
 weight: 220
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---

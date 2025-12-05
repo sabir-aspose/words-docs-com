@@ -6,6 +6,9 @@ linktitle: Criar uma tabela
 description: "Diferentes maneiras de criar tabelas usando C++. Crie uma tabela em C++ para seu documento. Adicione uma tabela em C++."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---

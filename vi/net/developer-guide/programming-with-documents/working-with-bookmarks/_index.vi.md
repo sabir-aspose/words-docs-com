@@ -6,6 +6,9 @@ linktitle: Làm việc với Dấu trang
 description: "Hiểu các khái niệm về dấu trang và cách sử dụng dấu trang trong chương trình của bạn bằng C#."
 type: docs
 weight: 180
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/working-with-bookmarks/
 timestamp: 2024-01-27-14-07-04
 ---

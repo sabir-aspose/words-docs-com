@@ -6,6 +6,9 @@ linktitle: 文書をHTML、MHTML、またはEPUBに変換する
 description: "文書をほぼすべての形式からHTMLまたはMHTMLに変換し、C++を使用してEPUB形式に変換します。 また、出力文書を管理するための保存オプションを指定することもできます。"
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/convert-a-document-to-html-mhtml-or-epub/
 timestamp: 2024-10-21-08-52-03
 ---

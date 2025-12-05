@@ -6,6 +6,9 @@ linktitle: Trabajando con OfficeMath
 type: docs
 description: "Introducción a la función Matemática de Office en Aspose.Words para Java."
 weight: 320
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/java/working-with-officemath/
 timestamp: 2024-01-27-14-07-04
 ---

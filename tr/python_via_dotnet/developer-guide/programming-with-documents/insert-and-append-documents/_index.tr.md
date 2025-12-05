@@ -6,6 +6,9 @@ linktitle: Belge Ekleme ve Ekleme
 description: "Belgeleri tek bir belgede birleştirin: Bul ve değiştir, alanı birleştir, yer imini kullanarak veya yalnızca Python'teki belgenin sonunu kullanarak bir belgeyi yeni veya mevcut bir belgeye ekleyin veya ekleyin."
 type: docs
 weight: 80
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/python-net/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Obnovovací tvary Samostatně od dokumentu
 description: "Extrahovat různé grafické objekty, jako jsou obrázky, textové pole obsahující odstavce, nebo tvary šipek, při zpracování dokumentu, a exportovat je do externího umístění pomocí Java."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/java/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

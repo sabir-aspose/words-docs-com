@@ -6,6 +6,9 @@ linktitle: إجراء تسلسل والعمل مع مستند في قاعدة ب
 description: "قم بتحويل مستند إلى مصفوفة بايت للعمل مع هذا المستند في قاعدة بيانات باستخدام C#. يمكنك تخزين واسترجاع مستند من وإلى قاعدة البيانات."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-07-09-19-00-42
 ---

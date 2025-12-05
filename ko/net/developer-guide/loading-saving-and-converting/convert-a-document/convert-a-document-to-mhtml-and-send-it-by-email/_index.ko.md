@@ -6,6 +6,9 @@ linktitle: 문서를 MHTML로 변환하고 이메일로 보내기
 description: "거의 모든 형식의 문서를 MHTML 형식으로 변환하고 C#를 사용하여 결과 문서를 이메일로 보냅니다."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/convert-a-document-to-mhtml-and-send-it-by-email/
 timestamp: 2024-07-09-19-00-42
 ---

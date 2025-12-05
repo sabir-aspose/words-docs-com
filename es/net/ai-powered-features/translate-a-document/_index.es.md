@@ -8,6 +8,7 @@ weight: 30
 description: "Traducir un documento. Aspose.Words por .NET simplifica la traducción de documentos mediante los modelos de Google AI, lo que le permite especificar el idioma de destino."
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/translate-a-document/
 timestamp: 2024-12-13-06-40-00
 ---

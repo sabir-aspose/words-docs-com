@@ -6,6 +6,9 @@ linktitle: 북마크 작업
 description: "책갈피 개념 이해 및 책갈피를 사용하여 프로그램에서 사용할 수있는 방법 C++."
 type: docs
 weight: 180
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/working-with-bookmarks/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Inserir Checkboxes, entrada de texto ou imagens
 description: "Inserir caixas de seleção ou campos de entrada de texto durante Mail Merge utilização C++. Inserir também imagens de uma base de dados durante Mail Merge em C++."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/insert-checkboxes-text-input-or-images-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

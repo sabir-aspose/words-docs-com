@@ -6,6 +6,9 @@ linktitle: การทำงานกับส่วนหัวและส่
 description: "วิธีจัดการส่วนหัวและส่วนท้ายโดยใช้ C# สร้างส่วนหัวและส่วนท้าย C# ลบส่วนหัวหรือส่วนท้าย C#"
 type: docs
 weight: 150
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/working-with-headers-and-footers/
 timestamp: 2024-01-27-14-07-04
 ---

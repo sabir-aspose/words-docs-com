@@ -6,6 +6,9 @@ linktitle: แปลงระหว่างหน่วยการวัด
 description: "Aspose.Words สำหรับ .NET สามารถช่วยคุณในการแปลงหน่วยการวัดต่างๆ เช่น นิ้วเป็นพอยต์และชี้เป็นนิ้ว พิกเซลเป็นพอยต์ ชี้เป็นพิกเซลโดยใช้ C#"
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/convert-between-measurement-units/
 timestamp: 2024-01-27-14-07-04
 ---

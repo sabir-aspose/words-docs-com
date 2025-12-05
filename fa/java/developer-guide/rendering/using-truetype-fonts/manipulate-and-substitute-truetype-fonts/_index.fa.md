@@ -6,6 +6,9 @@ linktitle: دستکاری و جایگزینی فونت های TrueType
 description: "Aspose.Words برای Java می تواند فونت های صحیح TrueType را در سند حاصل جاسازی کند تا اطمینان حاصل شود که به طور دقیق نمایش داده می شود یا برای جایگزینی مناسب فونت جستجو می کند یا از مکانیزم فونت پشتیبان استفاده می کند."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

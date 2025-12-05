@@ -6,6 +6,9 @@ linktitle: Veritabanındaki Bir Belgeyi Serileştirme ve Çalışma
 description: "C# kullanarak bir veritabanında bu belgeyle çalışmak için bir belgeyi bayt dizisine dönüştürün. Bir belgeyi veritabanına kaydedebilir ve veritabanından alabilirsiniz."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-07-09-19-00-42
 ---

@@ -7,6 +7,9 @@ type: docs
 description: "Thực hiện hai loại hoạt động Mail Merge khác nhau: đơn giản Mail Merge và Mail Merge với các vùng sử dụng C#. Đơn giản Mail Merge lặp lại toàn bộ tài liệu trên mỗi bản ghi nguồn dữ liệu, trong khi Mail Merge với các vùng chỉ lặp lại các vùng được chỉ định trên mỗi bản ghi."
 keywords: "how to execute Mail Merge c#"
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/types-of-mail-merge-operations/
 timestamp: 2024-07-11-08-07-06
 ---

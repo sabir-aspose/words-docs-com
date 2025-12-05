@@ -6,6 +6,9 @@ linktitle: Ghi Chú Bảo Mật
 type: docs
 description: "Aspose.Words cho C++ công nhận và tuân thủ các tiêu chuẩn bảo mật chung để đảm bảo mức độ bảo mật dữ liệu cao. Xem xét các vấn đề bảo mật có thể xảy ra và các khuyến nghị về cách tránh chúng."
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/security/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: ใช้DocumentBuilderเพื่อแก้ไขเอกสา
 type: docs
 description: "ใช้ตัวสร้างเอกสารเพื่อแก้ไขเอกสารได้อย่างง่ายดายในC++."
 weight: 190
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/using-documentbuilder-to-modify-a-document-easily/
 timestamp: 2024-01-27-14-07-04
 ---

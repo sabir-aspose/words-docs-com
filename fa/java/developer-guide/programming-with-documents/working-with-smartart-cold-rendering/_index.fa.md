@@ -6,6 +6,9 @@ linktitle: کار با SmartArt رندر سرد
 type: docs
 description: "Aspose.Words برای Java رندر سرد SmartArt را انجام می دهد، به این معنی که اگر نقاشی پیش از رندر SmartArt گم شده یا نادرست باشد، اشیاء SmartArt را قرار می دهد و رندر می کند."
 weight: 330
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

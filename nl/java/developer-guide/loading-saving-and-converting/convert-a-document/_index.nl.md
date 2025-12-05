@@ -5,6 +5,9 @@ articleTitle: Een document omzetten
 linktitle: Een document omzetten
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/java/convert-a-document/
 description: "Eenvoudig documenten converteren van het ene formaat naar het andere. U kunt werken met alle meest populaire formaten zoals Microsoft Word formaten zoals DOCX of DOC, OpenDocument formaten zoals ODT of OTT, webformaten zoals HTML of XHTML, tekstformaten zoals MarkDown of TXT, en andere gebruiken Java."
 timestamp: 2024-09-25-11-08-55

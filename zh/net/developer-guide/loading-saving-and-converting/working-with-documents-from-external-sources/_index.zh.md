@@ -6,6 +6,9 @@ linktitle: 处理外部来源的文档
 description: "如何从外部源加载 C# 文档。从 SharePoint 或数据库加载 PDF、DOCX、DOC、RTF、ODT、EPUB、HTML 和其他文件，以便使用 C# 进行进一步处理。"
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/working-with-documents-from-external-sources/
 timestamp: 2024-01-27-14-07-04
 ---

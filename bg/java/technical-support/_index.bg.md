@@ -6,6 +6,9 @@ linktitle: Техническа поддръжка
 type: docs
 description: "Aspose.Words вместо Java предоставя безплатна техническа подкрепа на всички потребители. Моля, докладвайте вашия въпрос, издаване, или функция заявка чрез Aspose Free Support Forum."
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/technical-support/
 timestamp: 2024-01-27-14-07-04
 ---

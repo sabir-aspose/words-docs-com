@@ -7,6 +7,9 @@ type: docs
 description: "의 두 가지 유형을 수행 Mail Merge 운영:단순 Mail Merge 그리고 Mail Merge 지역을 사용하여 C++. 단순 Mail Merge 각 데이터 소스 레코드당 전체 문서를 반복하는 반면 Mail Merge 영역은 레코드 당 지정된 영역 만 반복합니다."
 keywords: "how to execute Mail Merge c++"
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/types-of-mail-merge-operations/
 timestamp: 2024-09-24-14-35-44
 ---

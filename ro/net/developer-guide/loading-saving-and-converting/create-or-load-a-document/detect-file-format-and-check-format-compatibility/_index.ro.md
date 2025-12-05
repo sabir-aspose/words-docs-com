@@ -6,6 +6,9 @@ linktitle: Detectează formatul fișierului și compatibilitatea formatului
 description: "Determină formatul fișierului în C# dacă nu ești sigur de conținutul efectiv al fișierului sau pentru a verifica compatibilitatea formatului."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

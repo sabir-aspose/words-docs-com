@@ -6,6 +6,9 @@ linktitle: การทำงานกับคุณสมบัติ Markdown
 description: "วิธีใช้คุณสมบัติ Markdown โดยใช้ C# คุณลักษณะทั้งหมดจะแสดงเป็นรูปแบบที่สอดคล้องกันหรือการจัดรูปแบบโดยตรง"
 type: docs
 weight: 420
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/working-with-markdown-features/
 timestamp: 2024-01-31-14-23-37
 ---

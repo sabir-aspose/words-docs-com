@@ -6,6 +6,9 @@ linktitle: Конвертиране на документ към MHTML и изп
 description: "Конвертиране на всеки документ във формат MHTML и след това го изпратите по електронна поща с помощта на още един семеен продукт Aspose в Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/convert-a-document-to-mhtml-and-send-it-by-email/
 timestamp: 2024-01-27-14-07-04
 ---

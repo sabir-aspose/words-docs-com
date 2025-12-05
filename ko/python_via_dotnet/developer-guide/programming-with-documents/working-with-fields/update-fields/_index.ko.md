@@ -6,6 +6,9 @@ linktitle: 필드 업데이트
 description: "Python의 다른 옵션을 사용하고 다양한 방법으로 문서의 필드를 업데이트합니다."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/update-fields/
 timestamp: 2024-01-27-14-07-04
 ---

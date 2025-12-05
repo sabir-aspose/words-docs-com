@@ -6,6 +6,9 @@ linktitle: フォームフィールドの操作
 description: "フォームフィールドの機能を理解し、C++を使用してフォームフィールドを操作します。"
 type: docs
 weight: 380
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/working-with-form-fields/
 timestamp: 2024-01-27-14-07-04
 ---

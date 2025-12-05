@@ -6,6 +6,9 @@ linktitle: Об'ємні клітини таблиці
 description: "Як об'єднати клітинки таблиці в C#й Перевірте, чи об'єднані клітинки в таблиці за допомогою C#й"
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/working-with-merged-cells/
 timestamp: 2024-01-27-14-07-04
 ---

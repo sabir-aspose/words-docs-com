@@ -6,6 +6,9 @@ linktitle: Stelselvereistes
 description: "Voordat jy begin werk Aspose.Words vir .NET, verseker dat u aan die bedryfstelsel, platform, raamwerke en omgewingsvereistes voldoen, sodat die aktiwiteite op u toestelle behoorlik verantwoord word met behulp van C#."
 type: docs
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/system-requirements/
 timestamp: 2024-02-01-16-17-05
 ---

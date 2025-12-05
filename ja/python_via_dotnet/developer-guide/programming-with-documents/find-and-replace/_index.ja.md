@@ -6,6 +6,9 @@ linktitle: 検索と置換
 type: docs
 description: "文書内で文字列または正規表現パターンを検索し、Python を使用して必要なテキストに置き換えます。"
 weight: 100
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/python-net/find-and-replace/
 timestamp: 2024-01-27-14-07-04
 ---

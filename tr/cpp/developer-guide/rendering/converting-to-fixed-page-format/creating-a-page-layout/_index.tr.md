@@ -6,6 +6,9 @@ linktitle: Sayfa Düzeni Oluşturma
 description: "Sayfa düzeni oluşturmak maliyetli bir prosedür olabilir. Aspose.Words yalnızca gerektiğinde bir sayfa düzeni oluşturacaktır: belge sayfalarını oluşturmak, bir alan değeri elde etmek, bir belgeyi HTML 'e dışa aktarmak vb."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/creating-a-page-layout/
 timestamp: 2024-09-24-14-35-44
 ---

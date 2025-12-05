@@ -6,6 +6,9 @@ linktitle: Personnaliser les Propriétés du Champ
 description: "Découvrez comment personnaliser les propriétés de champ dans Java. Renommez les champs de fusion ou obtenez des résultats pour les champs sans nœud séparateur dans Java."
 type: docs
 weight: 27
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

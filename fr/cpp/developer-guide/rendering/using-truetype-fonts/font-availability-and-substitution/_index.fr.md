@@ -6,6 +6,9 @@ linktitle: Disponibilité et Substitution des Polices
 description: "Lorsque la police de substitution exacte est introuvable, Aspose.Words doit la remplacer par une police similaire à la place. Cet article décrit le processus de recherche de la police la plus appropriée."
 type: docs
 weight: 12
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/font-availability-and-substitution/
 timestamp: 2024-09-24-14-35-44
 ---

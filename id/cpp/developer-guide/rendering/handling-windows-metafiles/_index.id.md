@@ -6,6 +6,9 @@ linktitle: Menangani Windows Metafile
 description: "Aspose.Words untuk C++ mengimplementasikan pemutar Metafile Windows miliknya sendiri untuk memutar format Metafile di semua platform dan mendukung penanganan fitur metafile dasar dan dapat melakukan fallback ke jenis pemutar metafile yang berbeda."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/cpp/handling-windows-metafiles/
 timestamp: 2024-01-30-16-22-34
 ---

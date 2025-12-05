@@ -6,6 +6,9 @@ linktitle: العمل مع المستندات من مصادر خارجية
 description: "كيفية تحميل المستندات من مصادر خارجية في C#. قم بتحميل ملفات PDF وDOCX وDOC وRTF وODT وEPUB وHTML وغيرها من الملفات من SharePoint أو قاعدة البيانات لمزيد من المعالجة باستخدام C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/working-with-documents-from-external-sources/
 timestamp: 2024-01-27-14-07-04
 ---

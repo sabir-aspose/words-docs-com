@@ -6,6 +6,9 @@ linktitle: 選擇哪一種PDF標準更好
 description: "選擇最佳的 PDF 標準，以輸出 C# 程式設計任務的結果。 哪一種 PDF 標準更好？PDF 1.7、PDF 2.0、PDF/A-1、PDF/A-2 或 PDF/UA？"
 type: docs
 weight: 27
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/which-pdf-standard-is-better-to-choose/
 timestamp: 2024-01-27-14-07-04
 ---

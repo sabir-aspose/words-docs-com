@@ -6,6 +6,9 @@ linktitle: Een Document converteren naar een afbeelding
 type: docs
 description: "Converteer een document naar afbeeldingsindeling (JPG, PNG, enz.). Maak een documentvoorbeeld of maak een documentscan om een factuur te verzenden."
 weight: 43
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/convert-a-document-to-an-image/
 timestamp: 2024-01-30-16-22-34
 ---

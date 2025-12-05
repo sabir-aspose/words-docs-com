@@ -6,6 +6,9 @@ linktitle: Teknik Destek
 type: docs
 description: "Aspose.Words için Java tüm kullanıcıların erişebileceği ücretsiz teknik destek sağlar. Lütfen sorununuzu, sorunuzu veya özellik isteğinizi Aspose Ücretsiz Destek Forumu aracılığıyla bildiririn."
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/technical-support/
 timestamp: 2024-01-27-14-07-04
 ---

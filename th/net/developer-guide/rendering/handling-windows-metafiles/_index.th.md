@@ -6,6 +6,9 @@ linktitle: การจัดการไฟล์ Windows Metafile
 description: "Aspose.Words สำหรับ .NET ใช้โปรแกรมเล่น Windows Metafile ของตัวเองเพื่อเล่นรูปแบบ Metafile บนทุกแพลตฟอร์ม และรองรับการจัดการคุณสมบัติ Metafile พื้นฐาน และสามารถใช้ทางเลือกสำรองไปยังโปรแกรมเล่น Metafile ประเภทอื่นโดยใช้ C#"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/handling-windows-metafiles/
 timestamp: 2024-07-10-14-38-57
 ---

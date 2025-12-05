@@ -6,6 +6,9 @@ linktitle: Aperçu du tableau
 description: "Travaillez avec des tableaux et leurs composants tels que des cellules, des lignes et des colonnes dans Aspose.Words pour .NET. Comment travailler avec des tableaux en C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Arbeiten mit Tabellen
 description: "Wie man mit Tabellen in C++ arbeitet. Einführung in die Arbeit mit Tabellen und Tabellenknotenkonzepten in Aspose.Words für C++."
 type: docs
 weight: 190
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/cpp/working-with-tables/
 timestamp: 2024-01-27-14-07-04
 ---

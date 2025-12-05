@@ -6,6 +6,9 @@ linktitle: Огляд продукту
 description: "Aspose.Words для .NET – це програмна бібліотека, призначена для створення, редагування, перетворення, рендерингу та друку документів без перекриття на будь-якому іншому програмному забезпеченні."
 type: docs
 weight: 15
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/product-overview/
 timestamp: 2024-01-31-14-23-37
 ---

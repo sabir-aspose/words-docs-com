@@ -6,6 +6,9 @@ linktitle: Creați un tabel
 description: "Diferite moduri de a crea tabele folosind C++. Creați tabel în C++ pentru documentul dvs. Adăugați un tabel în C++."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---

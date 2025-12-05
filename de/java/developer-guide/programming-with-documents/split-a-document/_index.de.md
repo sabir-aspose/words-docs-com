@@ -6,6 +6,9 @@ linktitle: Teilen eines Dokuments
 description: "Aspose.Words für Java bietet Ihnen eine effiziente Möglichkeit, ein Dokument nach Überschriften oder Abschnitten sowie nach Seiten oder Seitenbereichen in mehrere Dokumente aufzuteilen."
 type: docs
 weight: 90
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

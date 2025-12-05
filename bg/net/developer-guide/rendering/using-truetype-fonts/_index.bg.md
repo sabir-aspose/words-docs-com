@@ -6,6 +6,9 @@ linktitle: Използване на истината Тип шрифтове
 description: "Aspose.Words вместо .NET може да намерите правилния шрифт или подходящата му замяна за правилно представяне на документ C#. Това гарантира, че разликата между показвания документ и оригинала е минимална, когато няма достатъчно информация за шрифта."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

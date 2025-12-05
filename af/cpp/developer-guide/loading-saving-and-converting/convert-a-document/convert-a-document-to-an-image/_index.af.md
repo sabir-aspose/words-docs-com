@@ -6,6 +6,9 @@ linktitle: Skakel'n Dokument om Na'n Beeldlêer
 type: docs
 description: "Skakel'n dokument om na beeldformaat (JPG, PNG, ens.). Skep'n dokumentvoorskou of skep'n dokumentskandering om'n faktuur te stuur."
 weight: 43
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/convert-a-document-to-an-image/
 timestamp: 2024-01-30-16-22-34
 ---

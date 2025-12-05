@@ -6,6 +6,9 @@ linktitle: Converteşte un document într-o imagine
 type: docs
 description: "Converteste un document într-un format imagine (JPG, PNG, etc.). Creați o previzualizare de document sau creați un scan pentru a trimite o factură folosind C#."
 weight: 43
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/convert-a-document-to-an-image/
 timestamp: 2024-07-09-19-00-42
 ---

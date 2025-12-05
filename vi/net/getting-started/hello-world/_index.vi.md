@@ -6,6 +6,9 @@ linktitle: Chào thế giới
 description: "Tạo, chỉnh sửa và lưu tài liệu đầu tiên của bạn ở bất kỳ định dạng được hỗ trợ nào bằng cách sử dụng Aspose.Words cho .NET để trải nghiệm tính đơn giản và sức mạnh của nó trong C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/hello-world/
 timestamp: 2024-01-27-14-07-04
 ---

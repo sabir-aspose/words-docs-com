@@ -6,6 +6,9 @@ linktitle: Een document opruimen
 description: "Verwijder ongebruikte of dubbele informatie om de uitvoergrootte en verwerkingstijd te verminderen met behulp van C#. Verwijder ongebruikte stijlen, ongebruikte ingebouwde stijlen, dubbele stijlen of ongebruikte lijsten."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

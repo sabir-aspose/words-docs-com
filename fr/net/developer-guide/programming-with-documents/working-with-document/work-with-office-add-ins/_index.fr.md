@@ -6,6 +6,9 @@ linktitle: Travailler avec les compléments Office
 description: "Aspose.Words pour .NET propose diverses classes pour travailler avec des compléments Office à l'aide de C#. Vous pouvez ajouter le volet des tâches via une extension Web et personnaliser les propriétés du volet et de l'extension."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

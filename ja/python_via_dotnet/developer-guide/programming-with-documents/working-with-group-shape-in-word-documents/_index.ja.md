@@ -6,6 +6,9 @@ linktitle: Word 文書での Group 図形の操作
 description: "Python を使用して group shape をドキュメントに追加します。"
 type: docs
 weight: 290
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/python-net/how-to-add-group-shape-into-a-word-document/
 timestamp: 2024-01-27-14-07-04
 ---

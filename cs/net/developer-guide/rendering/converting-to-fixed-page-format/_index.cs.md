@@ -6,6 +6,9 @@ linktitle: Převod na formát pevné stránky
 description: "Uložit dokumenty do PDF, XPS, HTML, XAML, PostScript a PCL formáty pomocí C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/net/converting-to-fixed-page-format/
 timestamp: 2024-07-10-08-10-45
 ---

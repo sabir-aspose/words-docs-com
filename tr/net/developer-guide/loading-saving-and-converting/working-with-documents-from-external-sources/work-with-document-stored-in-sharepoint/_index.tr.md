@@ -6,6 +6,9 @@ linktitle: SharePoint Online'da Saklanan Bir Belgeyle Çalışma
 description: "SharePoint'te paylaşılan Word'ü C# kullanarak PDF'ye dönüştürün. SharePoint'te (Word, OpenOffice, Image ve e-Kitap dahil olmak üzere çeşitli giriş formatlarında) depolanan belgelerle çalışın."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/work-with-document-stored-in-sharepoint/
 timestamp: 2024-10-21-11-17-44
 ---

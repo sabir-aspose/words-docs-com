@@ -6,6 +6,9 @@ linktitle: Zmiany ścieżki w dokumencie
 description: "Ścieżka zmiany treści i formatowania dokonane przez Ciebie lub innych. Dostęp do indywidualnych zmian w dokumencie i stosować różne właściwości do nich za pomocą Java."
 type: docs
 weight: 270
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -7,6 +7,9 @@ type: docs
 description: "Aspose.WordsสำหรับJavaมีคุณลักษณะขั้นสูงMail Mergeบางอย่างที่ช่วยให้คุณสามารถดำเนินการเพิ่มเติมMail Mergeการปรับแต่ ตัวอย่างเช่นการได้รับข้อมูลเกี่ยวกับโครงสร้างแม่แบบกฎการตั้งค่าการทำความสะอาดหลังจากการดำเนินการMail Mergeและอื่นๆ."
 keywords: "use advanced Mail Merge features java, Mail Merge java"
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/advanced-mail-merge-features/
 timestamp: 2024-01-27-14-07-04
 ---

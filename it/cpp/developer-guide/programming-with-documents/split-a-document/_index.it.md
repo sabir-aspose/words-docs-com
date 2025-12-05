@@ -6,6 +6,9 @@ linktitle: Dividere un documento
 description: "Dividere un documento in più file utilizzando C++. Utilizzare la funzione dividi per dividere efficacemente un documento per intestazioni o sezioni, nonché per pagine o intervalli di pagine."
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/cpp/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

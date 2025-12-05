@@ -6,6 +6,9 @@ linktitle: TrueType Yazı Tiplerini Belirt
 description: "Çeşitli TrueType yazı tipi kaynaklarını belirtin: sistem klasörü, kullanıcı kaynakları, akıştan yazı tipleri yükleme, dosya sistemi veya bellekte Java kullanarak."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/specify-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

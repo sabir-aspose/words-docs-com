@@ -7,6 +7,9 @@ description: "مقدمه ای بر اشکال SmartArt با استفاده از 
 type: docs
 description: "Aspose.Words for .NET رندر سرد SmartArt را انجام می‌دهد، به این معنی که اگر طرح SmartArt از قبل رندر شده وجود نداشته باشد یا با استفاده از C# نادرست باشد، اشیاء SmartArt را نمایش می‌دهد و رندر می‌کند."
 weight: 330
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

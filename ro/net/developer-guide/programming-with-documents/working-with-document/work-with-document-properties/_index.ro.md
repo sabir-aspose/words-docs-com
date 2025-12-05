@@ -6,6 +6,9 @@ linktitle: Lucrează cu Proprietățile Documentului
 description: "Aspose.Words pentru .NET permite stocarea unor informații utile despre documentul tău, cum ar fi API și numărul de versiune sau autorizat Date, în proprietăți documentare încorporate sau personalizate folosind C#"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

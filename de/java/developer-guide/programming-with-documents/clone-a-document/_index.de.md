@@ -6,6 +6,9 @@ linktitle: Klonen eines Dokuments
 type: docs
 description: "Klonen Sie ein Dokument, um eine identische Kopie zu erhalten. Beim Erstellen einer Kopie werden Knoten und Eigenschaften des Originaldokuments mit Java geklont."
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/clone-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

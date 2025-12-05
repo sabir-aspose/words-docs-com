@@ -6,6 +6,9 @@ linktitle: Aperçu du Produit
 description: "Aspose.Words pour Android via Java est une bibliothèque de classes `Java` qui permet aux développeurs Android d'effectuer une grande variété de tâches de traitement de documents."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/android-product-overview/
 timestamp: 2024-01-27-14-07-04
 ---

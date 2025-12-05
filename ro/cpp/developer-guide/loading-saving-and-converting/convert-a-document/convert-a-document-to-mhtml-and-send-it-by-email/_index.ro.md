@@ -6,6 +6,9 @@ linktitle: Convertiți un Document în MHTML și trimiteți-l prin e-mail
 description: "Convertiți un document din aproape orice format în formatul MHTML și trimiteți documentul rezultat prin e-mail."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/convert-a-document-to-mhtml-and-send-it-by-email/
 timestamp: 2024-01-27-14-07-04
 ---

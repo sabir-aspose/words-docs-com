@@ -6,6 +6,9 @@ linktitle: Visão geral do Construtor de Documentos
 type: docs
 description: "DocumentBuilder permite criar documentos dinâmicos do zero ou adicionar novos elementos aos existentes usando C#. DocumentBuilder fornece métodos para inserir texto, caixas de seleção, tabelas, imagens e outros elementos de conteúdo em .NET."
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/net/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

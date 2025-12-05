@@ -6,6 +6,9 @@ linktitle: Dividir un Documento
 description: "Aspose.Words para Java le proporciona una forma eficiente de dividir un documento en varios documentos por encabezados o secciones, así como por páginas o rangos de páginas."
 type: docs
 weight: 90
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/java/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

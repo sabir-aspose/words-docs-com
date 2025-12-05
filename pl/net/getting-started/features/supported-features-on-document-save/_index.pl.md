@@ -6,6 +6,9 @@ linktitle: Obsługiwane funkcje przy zapisywaniu dokumentu
 description: "Zapisz dokument w większości popularnych formatów i obsługuje wiele funkcji Microsoft Word przy użyciu C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/supported-features-on-document-save/
 timestamp: 2024-09-25-11-08-55
 ---

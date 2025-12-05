@@ -6,6 +6,9 @@ linktitle: 将Markdown转换为文档对象模型(DOM)
 type: docs
 description: "将Markdown文档转换为文档对象模型并返回。 因此，您可以使用复杂的现有Markdown，并使用Java从头开始以编程方式创建Markdown文档。"
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/translate-markdown-to-document-object-model/
 timestamp: 2024-10-21-11-17-44
 ---

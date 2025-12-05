@@ -8,6 +8,7 @@ weight: 30
 description: "Traduceți un document. Aspose.Words pentru .NET simplifică traducerea documentelor folosind modelele Google AI, permițându-vă să specificați limba țintă."
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/translate-a-document/
 timestamp: 2024-12-13-06-40-00
 ---

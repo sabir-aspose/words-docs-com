@@ -6,6 +6,9 @@ linktitle: Menyimpan Dokumen sebagai Multipage TIFF
 description: "Konversikan dokumen menjadi multi-halaman TIFF menggunakan C++. Untuk menentukan bagaimana dokumen ditampilkan pada gambar, Anda perlu menentukan opsi tambahan: resolusi, jumlah halaman, binarisasi gambar, dll."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/cpp/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

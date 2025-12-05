@@ -6,6 +6,9 @@ linktitle: Fusionner les cellules du tableau
 description: "Comment fusionner les cellules d'un tableau dans Python. Vérifiez si les cellules d'un tableau sont fusionnées à l'aide de Python."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/working-with-merged-cells/
 timestamp: 2024-01-27-14-07-04
 ---

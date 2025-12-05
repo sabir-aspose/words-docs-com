@@ -6,6 +6,9 @@ linktitle: Formate De Documente Acceptate
 type: docs
 description: "Editați documentele sursă în multe formate populare, precum și convertiți liber fișiere dintr-un format în altul folosind Java."
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/java/supported-document-formats/
 timestamp: 2024-10-21-11-17-44
 ---

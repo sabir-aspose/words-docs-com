@@ -6,6 +6,9 @@ linktitle: Een Document opslaan als een Multipagina TIFF
 description: "Converteer een document naar een TIFF met meerdere pagina ' s met C++. Om te bepalen hoe het document op de afbeelding wordt weergegeven, moet u extra opties opgeven: resolutie, aantal pagina ' s, binarisatie van afbeeldingen, enz."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

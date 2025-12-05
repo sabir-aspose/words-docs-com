@@ -6,6 +6,9 @@ linktitle: 将文档转化为 PDF
 description: "在 C# 中将 Word 转换为 PDF。DOCX 转 PDF 的简单代码示例。支持所有 Word 格式和图片。"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/convert-a-document-to-pdf/
 timestamp: 2024-09-25-11-08-55
 ---

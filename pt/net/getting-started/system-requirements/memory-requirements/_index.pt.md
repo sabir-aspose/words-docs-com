@@ -6,6 +6,9 @@ linktitle: Requisitos de memória
 description: "Quanta memória o Aspose.Words para .NET requer para trabalhar com documentos? Aprenda os detalhes."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/net/memory-requirements/
 timestamp: 2024-09-25-11-08-55
 ---

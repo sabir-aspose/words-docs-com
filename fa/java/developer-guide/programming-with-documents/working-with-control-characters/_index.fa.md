@@ -6,6 +6,9 @@ linktitle: کار با کاراکترهای کنترل
 description: "مقدمه ای بر کار با کاراکترهای کنترل در Aspose.Words برای Java."
 type: docs
 weight: 400
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/working-with-control-characters/
 timestamp: 2024-01-27-14-07-04
 ---

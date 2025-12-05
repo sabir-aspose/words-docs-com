@@ -6,6 +6,9 @@ linktitle: 画像の操作
 type: docs
 description: "Javaに対してAspose.Wordsによって提供される詳細と高度な機能の画像形状。"
 weight: 300
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/working-with-images/
 timestamp: 2024-01-27-14-07-04
 ---

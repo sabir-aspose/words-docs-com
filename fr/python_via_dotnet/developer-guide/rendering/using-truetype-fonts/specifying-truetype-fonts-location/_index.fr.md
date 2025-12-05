@@ -6,6 +6,9 @@ linktitle: Spécifier l'emplacement des polices TrueType
 description: "Spécifiez diverses sources de polices TrueType: dossier système, sources utilisateur, chargement de polices à partir d'un flux, d'un système de fichiers ou d'une mémoire à l'aide de Python."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/specifying-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

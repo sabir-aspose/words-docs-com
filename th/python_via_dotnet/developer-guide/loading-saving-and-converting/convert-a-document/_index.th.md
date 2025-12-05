@@ -4,6 +4,9 @@ second_title: Aspose.Words สำหรับ Python via .NET
 articleTitle: แปลงเอกสาร
 linktitle: แปลงเอกสาร
 type: docs
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/python-net/convert-a-document/
 weight: 30
 description: "แปลงเอกสารจากรูปแบบหนึ่งไปเป็นอีกรูปแบบหนึ่งได้อย่างง่ายดายโดยใช้ Python คุณสามารถทำงานกับรูปแบบยอดนิยมทั้งหมด เช่น รูปแบบ Microsoft Word เช่น DOCX หรือ DOC, รูปแบบ OpenDocument เช่น ODT หรือ OTT, รูปแบบเว็บ เช่น HTML หรือ XHTML, รูปแบบข้อความ เช่น MarkDown หรือ TXT และอื่นๆ"

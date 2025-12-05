@@ -6,6 +6,9 @@ linktitle: Praca z dodatkiem do pakietu Office
 description: "Aspose.Words zamiast Java zapewnia różne klasy do pracy z Office Add- ins. Możesz dodać Task Pane przez rozszerzenie strony internetowej i dostosować właściwości tafli i rozszerzenia."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

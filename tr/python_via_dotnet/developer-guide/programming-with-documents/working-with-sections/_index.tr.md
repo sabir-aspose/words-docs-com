@@ -6,6 +6,9 @@ linktitle: Bölümlerle Çalışmak
 description: "Python'i kullanarak bir belgede bölümler ve bölüm sonları oluşturun ve yönetin. Bir belgenin Python'ine bölüm ekleyin. Python bölümünü kaldırın. Belgeler arasında bölümleri kopyalayın."
 type: docs
 weight: 120
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/python-net/working-with-sections/
 timestamp: 2024-09-25-11-08-55
 ---

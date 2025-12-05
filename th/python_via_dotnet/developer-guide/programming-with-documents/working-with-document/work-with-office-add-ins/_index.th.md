@@ -6,6 +6,9 @@ linktitle: ทำงานกับ Add-in ของ Office
 description: "Aspose.Words สำหรับ Python via .NET มีคลาสต่างๆ สำหรับการทำงานกับ Office Add-in คุณสามารถเพิ่มบานหน้าต่างงานผ่านทางส่วนขยายเว็บและปรับแต่งบานหน้าต่างและคุณสมบัติส่วนขยายได้"
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/python-net/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

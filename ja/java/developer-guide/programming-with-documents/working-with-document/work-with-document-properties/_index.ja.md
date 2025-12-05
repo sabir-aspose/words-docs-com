@@ -6,6 +6,9 @@ linktitle: ドキュメントプロパティの操作
 description: "Aspose.WordsforJavaを使用すると、APIやバージョン番号、承認された日付など、ドキュメントに関する有用な情報を組み込みまたはカスタムドキュメントプロパティ"
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: Vytvořit tabulku
 description: "Různé způsoby vytváření tabulek ve vašem dokumentu pomocí Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/java/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---

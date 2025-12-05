@@ -6,6 +6,9 @@ linktitle: ตารางแยก
 description: "แยกตารางเป็นC++ วิธีการแยกตารางหนึ่งออกเป็นสองตารางแยกC++."
 type: docs
 weight: 100
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/split-table/
 timestamp: 2024-01-27-14-07-04
 ---

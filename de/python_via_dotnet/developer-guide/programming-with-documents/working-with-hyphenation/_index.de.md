@@ -6,6 +6,9 @@ linktitle: Arbeiten mit Silbentrennung
 description: "Verwenden Sie die Silbentrennung für eine kompaktere Anordnung des Textes mit Python. Es bietet erweiterte Algorithmen für die Arbeit mit Silbentrennungswörterbüchern und verwendet OpenOffice-Wörterbücher."
 type: docs
 weight: 220
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/python-net/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---

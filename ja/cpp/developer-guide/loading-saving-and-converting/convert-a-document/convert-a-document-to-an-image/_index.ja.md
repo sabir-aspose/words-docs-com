@@ -6,6 +6,9 @@ linktitle: 文書を画像に変換する
 type: docs
 description: "文書を画像形式（JPG、PNGなど）に変換します。 ドキュメントプレビューを作成するか、ドキュメントスキャンを作成して請求書を送信します。"
 weight: 43
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/convert-a-document-to-an-image/
 timestamp: 2024-01-30-16-22-34
 ---

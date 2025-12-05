@@ -6,6 +6,9 @@ linktitle: یک سند را به MHTML تبدیل کنید و آن را از ط�
 description: "یک سند را تقریباً از هر فرمتی به فرمت MHTML تبدیل کنید و سند نتیجه را با استفاده از C# از طریق ایمیل ارسال کنید."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/convert-a-document-to-mhtml-and-send-it-by-email/
 timestamp: 2024-07-09-19-00-42
 ---

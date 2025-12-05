@@ -6,6 +6,9 @@ linktitle: 開發者指南
 description: "此開發者指南描述實用場景與秘訣，以助您使用特定 Aspose.Words 來利用 .NET 功能、達成特定文件呈現或使某個案例可能。"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

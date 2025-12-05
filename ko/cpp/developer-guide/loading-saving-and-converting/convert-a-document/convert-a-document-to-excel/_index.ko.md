@@ -6,6 +6,9 @@ linktitle: 엑셀 문서 변환
 description: "변환 PDF 엑셀, XML 엑셀, DOCX 엑셀 C++. 에 다양한 형식으로 문서를 저장 XLSX 사용 C++."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/convert-a-document-to-excel/
 timestamp: 2024-01-31-14-23-37
 ---

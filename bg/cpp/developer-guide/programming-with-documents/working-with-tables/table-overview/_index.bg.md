@@ -6,6 +6,9 @@ linktitle: Преглед На Таблицата
 description: "Работете с таблици и техните компоненти, като клетки, редове, колони в Aspose.Words за C++. Как да работите с таблиците в C++."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

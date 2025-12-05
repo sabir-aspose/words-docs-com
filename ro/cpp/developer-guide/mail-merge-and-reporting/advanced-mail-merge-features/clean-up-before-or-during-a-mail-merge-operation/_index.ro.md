@@ -7,6 +7,9 @@ type: docs
 description: "Aplicați diferite opțiuni de curățare și eliminare, cum ar fi ștergerea câmpurilor de îmbinare înainte de a efectua o operație Mail Merge sau eliminarea regiunilor neutilizate în timpul unei operații mail merge."
 keywords: "cleanup options Mail Merge c#"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/clean-up-before-or-during-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

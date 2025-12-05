@@ -6,6 +6,9 @@ linktitle: 테이블의 텍스트 작업
 description: "테이블의 텍스트 바꾸기 C++. 다음을 사용하여 테이블 또는 셀에서 일반 텍스트 추출 C++."
 type: docs
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/work-with-text-in-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

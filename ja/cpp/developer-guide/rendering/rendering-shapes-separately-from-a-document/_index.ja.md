@@ -6,6 +6,9 @@ linktitle: ドキュメントとは別に図形をレンダリングする
 description: "文書を処理するときに、画像、段落を含むテキストボックス、矢印図形などのさまざまなグラフィックオブジェクトを抽出し、外部の場所にエクスポートします。"
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

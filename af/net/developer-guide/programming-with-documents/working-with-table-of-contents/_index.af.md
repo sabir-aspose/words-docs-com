@@ -6,6 +6,9 @@ linktitle: Werk Met Inhoudsopgawe
 description: "Tabel Van Inhoud veld in besonderhede. Hoe om `TOC` veld te skep en te verander met C#. Voeg `TOC` C# in."
 type: docs
 weight: 170
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/working-with-table-of-contents/
 timestamp: 2024-10-21-11-17-44
 ---

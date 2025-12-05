@@ -6,6 +6,9 @@ linktitle: 使用 TrueType 字体
 description: "Aspose.Words for .NET 可以找到正确的字体或其合适的替代品，以使用 C# 正确呈现文档。这可以确保当没有足够的字体信息时，显示的文档与原始文档之间的差异最小。"
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

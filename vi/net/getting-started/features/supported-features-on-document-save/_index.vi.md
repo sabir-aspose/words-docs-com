@@ -6,6 +6,9 @@ linktitle: Các tính năng được hỗ trợ khi lưu tài liệu
 description: "Lưu tài liệu ở hầu hết các định dạng phổ biến và hỗ trợ nhiều tính năng Microsoft Word bằng C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/supported-features-on-document-save/
 timestamp: 2024-09-25-11-08-55
 ---

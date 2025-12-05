@@ -6,6 +6,9 @@ linktitle: 了解如何將檔案轉換成 PDF/A 和 PDF/UA 的功能
 description: "透過C#將檔案轉換成PDF/A-1、PDF/A-2、PDF/A-4和PDF/UA。 透過使用C#來選擇要轉換的文件的最佳PDF標準。"
 type: docs
 weight: 25
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/learn-features-of-conversion-to-pdf-a-pdf-ua/
 timestamp: 2024-01-31-14-23-37
 ---

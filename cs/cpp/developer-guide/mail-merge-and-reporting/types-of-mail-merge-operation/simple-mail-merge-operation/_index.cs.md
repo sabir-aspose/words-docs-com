@@ -7,6 +7,9 @@ type: docs
 description: "Jednoduchý Mail Merge se používá k vyplnění polí Mail Merge uvnitř šablony požadovanými daty ze zdroje dat – je podobný klasickému Mail Merge v Microsoft Word. Přidejte do šablony jedno nebo více polí sloučení a poté proveďte jednoduchou operaci Mail Merge."
 keywords: "how to execute Mail Merge c++"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/simple-mail-merge-operation/
 timestamp: 2024-09-24-14-35-44
 ---

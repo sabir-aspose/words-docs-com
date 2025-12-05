@@ -6,6 +6,9 @@ linktitle: 로 변환의 기능을 알아보기 PDF/A 그리고 PDF/UA
 description: "로 변환 PDF/A-1, PDF/A-2, PDF/A-4 그리고 PDF/UA 사용 C++. 최고의 선택 PDF 표준은 2015 년 10 월 15 일에 문서를 변환 할 수 있습니다."
 type: docs
 weight: 35
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/learn-features-of-conversion-to-pdf-a-pdf-ua/
 timestamp: 2024-01-31-14-23-37
 ---

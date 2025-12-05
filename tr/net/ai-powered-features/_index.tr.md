@@ -8,6 +8,7 @@ weight: 35
 description: "Aspose.Words için .NET verimliliği artırmak için belge özetleme gibi AI destekli araçlar sunar. İpuçları ve ayrıntılı kılavuzlarla AI destekli özellikleri nasıl kullanacağınızı öğrenin."
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/ai-powered-features/
 timestamp: 2025-03-17-19-00-00
 ---

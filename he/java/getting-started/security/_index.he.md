@@ -6,6 +6,9 @@ linktitle: הערות אבטחה
 type: docs
 description: "Aspose.Words עבור Java מזהה ומציית לתקני אבטחה משותפים על מנת להבטיח רמה גבוהה של אבטחת מידע. ראה בעיות אבטחה אפשריות והמלצות כיצד להימנע מהן."
 weight: 120
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/security/
 timestamp: 2024-01-27-14-07-04
 ---

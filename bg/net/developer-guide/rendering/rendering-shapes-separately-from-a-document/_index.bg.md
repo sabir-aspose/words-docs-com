@@ -6,6 +6,9 @@ linktitle: Преносими форми Отделно от документ
 description: "Извличане на различни графични обекти, като изображения, текстова кутия, съдържаща параграфи, или форми на стрелки, при обработка на документ, и ги експортират към външно място, използвайки C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/rendering-shapes-separately-from-a-document/
 timestamp: 2024-07-10-14-38-57
 ---

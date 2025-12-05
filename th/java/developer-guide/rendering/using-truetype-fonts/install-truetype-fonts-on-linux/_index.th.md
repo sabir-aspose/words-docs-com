@@ -6,6 +6,9 @@ linktitle: ติดตั้งTrueTypeแบบอักษรบนLinux
 description: "Aspose.WordsสำหรับJavaช่วยให้การแสดงผลเอกสารที่สร้างขึ้นโดยใช้Microsoft Wordบนเครื่องจักรLinuxด้วยความแม่นยำที่สุ."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/install-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

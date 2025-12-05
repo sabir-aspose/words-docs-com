@@ -6,6 +6,9 @@ linktitle: Pracuj z dodatkami pakietu Office
 description: "Aspose.Words dla Python via .NET udostępnia różne klasy do pracy z dodatkami pakietu Office. Możesz dodać okienko zadań poprzez rozszerzenie internetowe i dostosować właściwości panelu i rozszerzenia."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/python-net/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

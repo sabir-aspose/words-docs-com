@@ -6,6 +6,9 @@ linktitle: Uso de fuentes TrueType
 description: "Cómo encontrar la fuente correcta o su reemplazo adecuado, si no se puede encontrar la fuente requerida, para una representación correcta usando Aspose.Words para Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/java/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

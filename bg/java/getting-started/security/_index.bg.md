@@ -6,6 +6,9 @@ linktitle: Бележки по сигурността
 type: docs
 description: "Aspose.Words вместо Java признава и се придържа към общи стандарти за сигурност, за да гарантира високо ниво на сигурност на данните. Вижте възможните проблеми със сигурността и препоръки как да ги избегнете."
 weight: 120
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/security/
 timestamp: 2024-01-27-14-07-04
 ---

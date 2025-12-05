@@ -6,6 +6,9 @@ linktitle: التعامل مع ملفات التعريف Windows
 description: "يقوم Aspose.Words for Python via .NET بتنفيذ مشغل Windows Metafile الخاص به لتشغيل تنسيق Metafile على جميع الأنظمة الأساسية ويدعم التعامل مع ميزات ملف التعريف الأساسية ويمكنه إجراء رجوع إلى نوع مختلف من مشغل ملفات التعريف."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

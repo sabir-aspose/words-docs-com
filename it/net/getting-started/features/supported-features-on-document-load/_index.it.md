@@ -6,6 +6,9 @@ linktitle: Funzionalità supportate nel caricamento del documento
 description: "Carica e converti un documento nella maggior parte dei formati più diffusi e supporta molte funzionalità Microsoft Word utilizzando C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/supported-features-on-document-load/
 timestamp: 2024-01-27-14-07-04
 ---

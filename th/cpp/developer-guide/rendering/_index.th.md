@@ -6,6 +6,9 @@ linktitle: การแสดงผล
 description: "ใช้ Aspose.WordsสำหรับC++ คุณลักษณะการแสดงผลเพื่อจัดรูปแบบเอกสารโครงร่างโฟลวเป็นหน้าและแปลงเอกสารหรื(PDF, HTML, XPS, ฯลฯ)หรือภาพ(TIFF, PNG, SVG, ฯลฯ)รูปแบบสำหรับการดูการแปลงเพิ่มเติมหรือการพิมพ์."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/rendering/
 timestamp: 2024-01-30-16-22-34
 ---

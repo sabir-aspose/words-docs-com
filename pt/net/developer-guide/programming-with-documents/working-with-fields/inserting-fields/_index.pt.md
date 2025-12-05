@@ -6,6 +6,9 @@ linktitle: Inserir campos
 description: "Como inserir campos em um documento usando C# – aprenda diferentes maneiras com exemplos de código."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/net/inserting-fields/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Làm việc với Đầu trang và Chân trang
 description: "Cách thao tác đầu trang, chân trang bằng C#. Tạo đầu trang và chân trang C#. Xóa đầu trang hoặc chân trang C#."
 type: docs
 weight: 150
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/working-with-headers-and-footers/
 timestamp: 2024-01-27-14-07-04
 ---

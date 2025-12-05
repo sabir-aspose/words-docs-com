@@ -6,6 +6,9 @@ linktitle: 支持的文档加载功能
 description: "以大多数流行格式加载和转换文档，并支持许多Microsoft Word功能。"
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/supported-features-on-document-load/
 timestamp: 2024-01-27-14-07-04
 ---

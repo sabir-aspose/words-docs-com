@@ -7,6 +7,9 @@ type: docs
 description: "Mail Merge작업을 수행하기 전에 병합 필드를 삭제하거나Java를 사용하여Mail Merge작업을 수행하는 동안 사용하지 않는 영역을 제거하는 것과 같은 다른 정리 및 제거 옵션을 적용합니다."
 keywords: "cleanup options Mail Merge c#"
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/clean-up-before-or-during-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

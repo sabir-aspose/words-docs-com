@@ -6,6 +6,9 @@ linktitle: Speichern eines Dokuments als mehrseitiges TIFF
 description: "Konvertieren Sie ein Dokument in ein Rasterbild, das am Beispiel des Formats TIFF erläutert wird. Um zu bestimmen, wie TIFF angezeigt wird, müssen Sie zusätzliche Optionen angeben: Auflösung, Anzahl der Seiten, Bildbinarisierung usw. mit Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

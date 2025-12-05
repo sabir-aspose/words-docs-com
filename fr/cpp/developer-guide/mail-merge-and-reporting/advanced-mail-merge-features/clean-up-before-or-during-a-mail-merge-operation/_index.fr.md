@@ -7,6 +7,9 @@ type: docs
 description: "Appliquez différentes options de nettoyage et de suppression, telles que la suppression des champs de fusion avant d'effectuer une opération Mail Merge ou la suppression des régions inutilisées pendant une opération mail merge."
 keywords: "cleanup options Mail Merge c#"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/clean-up-before-or-during-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

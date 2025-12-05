@@ -6,6 +6,9 @@ linktitle: Restringir A Edição De Documentos
 description: "Restrinja a edição de um documento definindo um tipo de restrição. Você também pode remover a proteção e tornar regiões editáveis irrestritas usando Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/java/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---

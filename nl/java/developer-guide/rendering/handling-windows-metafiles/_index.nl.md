@@ -6,6 +6,9 @@ linktitle: Behandeling Windows Metabestanden
 description: "Aspose.Words voor Java voert zijn eigen Windows Metafile speler om Metafile formaat af te spelen op alle platforms en ondersteunt de behandeling van de basis metafile functies en kan terugval uitvoeren naar een ander type metafile speler."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/java/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

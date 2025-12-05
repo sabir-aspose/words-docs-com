@@ -6,6 +6,9 @@ linktitle: SmartArt콜드 렌더링 작업
 type: docs
 description: "Aspose.Words에 대한Java는SmartArt콜드 렌더링을 수행합니다.이는 미리 렌더링된SmartArt도면이 없거나 잘못된 경우SmartArt객체를 배치하고 렌더링한다는 것을 의미합니다."
 weight: 330
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Manipuleren en vervangen TrueType Lettertypen
 description: "Aspose.Words voor Java kan de juiste TrueType-lettertypen insluiten in het resulterende document om ervoor te zorgen dat het nauwkeurig wordt weergegeven, of naar een geschikte lettertypevervanging zoekt, of het Font-fallbackmechanisme gebruikt."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/java/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

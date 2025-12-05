@@ -6,6 +6,9 @@ linktitle: Positionieren Sie einen Tisch
 description: "Geben Sie die Tabellenposition in C# an. Erhalten Sie eine Tabellenausrichtung, ermitteln Sie die schwebende Tabellenposition und legen Sie sie mithilfe von C# fest."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/position-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

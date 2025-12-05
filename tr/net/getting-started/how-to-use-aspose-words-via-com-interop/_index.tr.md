@@ -6,6 +6,9 @@ linktitle: COM Interop aracılığıyla .NET için Aspose.Words Nasıl Kullanıl
 type: docs
 description: "Python, PHP, VBScript, JScript ve diğer programlama dillerinde COM Interop aracılığıyla .NET için Aspose.Words'i kullanın."
 weight: 130
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/how-to-use-aspose-words-via-com-interop/
 timestamp: 2024-09-25-11-08-55
 ---

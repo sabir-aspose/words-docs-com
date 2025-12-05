@@ -6,6 +6,9 @@ linktitle: Care PDF Standard este mai bine să alegeți
 description: "Alegeți cel mai bun standard PDF pentru a exporta rezultatul sarcinii dvs. de programare în Python. Care PDF standard este mai bun– PDF 1.7, PDF 2.0, PDF/A-1, PDF/A-2, sau PDF/UA."
 type: docs
 weight: 27
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/python-net/which-pdf-standard-is-better-to-choose/
 timestamp: 2024-01-27-14-07-04
 ---

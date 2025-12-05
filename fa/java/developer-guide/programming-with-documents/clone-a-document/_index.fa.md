@@ -6,6 +6,9 @@ linktitle: یک سند را کلان کنید
 type: docs
 description: "یک سند را کلان کنید تا کپی یکسان آن را دریافت کنید. هنگام ایجاد یک کپی، گره ها و خواص سند اصلی با استفاده از Java شبیه سازی می شوند."
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/clone-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

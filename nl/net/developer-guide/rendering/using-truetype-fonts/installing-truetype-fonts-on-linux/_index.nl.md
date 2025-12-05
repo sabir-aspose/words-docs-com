@@ -6,6 +6,9 @@ linktitle: Waar installeren Lettertypen typen op Linux
 description: "Aspose.Words voor .NET laat het renderen van een document aangemaakt met Microsoft Word op a Linux machine met de beste nauwkeurigheid gebruiken C#. Om dit te bereiken, kopieer lettertypebestanden van een Windows machine of installatie a `TrueType` lettertypepakket op uw Linux machine in C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/installing-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

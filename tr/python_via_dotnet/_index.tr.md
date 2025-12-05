@@ -5,6 +5,9 @@ linktitle: Python via .NET için Aspose.Words
 description: "Python via .NET için Aspose.Words, uygulamalarınızın çok çeşitli belge işleme görevlerini (belge oluşturma, değiştirme, dönüştürme ve işleme) gerçekleştirmesine olanak tanıyan bir sınıf kitaplığıdır."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/python-net/
 is_root: true
 timestamp: 2024-09-25-11-08-55

@@ -6,6 +6,9 @@ linktitle: Membuat Tata Letak Halaman
 description: "Membuat tata letak halaman bisa menjadi prosedur yang mahal. Aspose.Words akan membuat tata letak halaman hanya jika diperlukan: untuk merender halaman dokumen, untuk mendapatkan nilai bidang, untuk mengekspor dokumen ke HTML, dll."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/cpp/creating-a-page-layout/
 timestamp: 2024-09-24-14-35-44
 ---

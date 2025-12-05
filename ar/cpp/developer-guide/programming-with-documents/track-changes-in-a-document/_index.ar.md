@@ -6,6 +6,9 @@ linktitle: تتبع التغييرات في المستند
 description: "تتبع التغييرات على المحتوى والتنسيق الذي أجريته أنت أو الآخرون باستخدام C++. الوصول إلى المراجعات الفردية في مستند وتطبيق خصائص مختلفة عليها."
 type: docs
 weight: 270
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/track-changes-in-a-document/
 timestamp: 2024-01-30-16-22-34
 ---

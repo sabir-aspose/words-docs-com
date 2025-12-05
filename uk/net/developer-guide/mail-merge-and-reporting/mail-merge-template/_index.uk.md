@@ -7,6 +7,9 @@ type: docs
 description: "Створіть шаблон Mail Merge для визначення фіксованого вмісту у вихідних документах, а потім створіть документи, що об'єднуються, використовуючи поля об'єднання в C#."
 keywords: "create Mail Merge template с#"
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/mail-merge-template/
 timestamp: 2024-07-11-08-07-06
 ---

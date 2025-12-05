@@ -6,6 +6,9 @@ linktitle: Schriftmanipulation und Leistungsprobleme
 description: "Aspose.Words für C++ verwendet den vollständigen Namen der Schriftart, den Familiennamen, die Version und den Stil, um die erforderlichen Schriftdaten oder einen geeigneten Ersatz für die angeforderte Schriftart zu finden. FontSettings ermöglicht es Ihnen, das Laden der Dokumente zu beschleunigen."
 type: docs
 weight: 11
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/cpp/font-manipulation-and-performance-issues/
 timestamp: 2024-09-24-14-35-44
 ---

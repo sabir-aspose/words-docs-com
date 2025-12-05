@@ -6,6 +6,9 @@ linktitle: 글꼴 조작 및 성능 문제
 description: "Aspose.Words 에 대한 C++ 필요한 글꼴 데이터 또는 요청 된 글꼴에 적합한 교체를 찾기 위해 글꼴 전체 이름,가족 이름,버전,스타일을 사용합니다. FontSettings 당신은 문서의 로딩 속도를 높일 수 있습니다."
 type: docs
 weight: 11
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/font-manipulation-and-performance-issues/
 timestamp: 2024-09-24-14-35-44
 ---

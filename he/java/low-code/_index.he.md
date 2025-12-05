@@ -8,6 +8,7 @@ description: "פשט משימות עיבוד מסמכים כמו השוואה, �
 weight: 23
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/low-code/
 timestamp: 2025-04-22-07-08-55
 ---

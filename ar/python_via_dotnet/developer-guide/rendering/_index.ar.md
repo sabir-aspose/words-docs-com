@@ -6,6 +6,9 @@ linktitle: استدعاء
 description: "استخدم ميزة عرض Aspose.Words for Python via .NET لتنسيق مستند تخطيط التدفق إلى صفحات وتحويل هذا المستند أو الصفحات المحددة إلى مستندات أخرى (PDF وHTML وXPS وما إلى ذلك) أو تنسيقات صور (TIFF وPNG وSVG وما إلى ذلك) لتنسيقات العرض أو التحويلات الإضافية أو الطباعة."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/rendering/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: یادداشت های امنیتی
 type: docs
 description: "Aspose.Words برای Java استانداردهای امنیتی مشترک را برای اطمینان از سطح بالایی از امنیت داده ها به رسمیت می شناسد و رعایت می کند. به مسائل امنیتی احتمالی و توصیه هایی در مورد چگونگی اجتناب از آنها نگاه کنید."
 weight: 120
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/security/
 timestamp: 2024-01-27-14-07-04
 ---

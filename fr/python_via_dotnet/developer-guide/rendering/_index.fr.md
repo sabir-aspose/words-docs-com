@@ -6,6 +6,9 @@ linktitle: Le rendu
 description: "Utilisez la fonction de rendu Aspose.Words pour Python via .NET pour formater un document de mise en page en pages et convertir un tel document ou des pages sélectionnées en d'autres formats de documents (PDF, HTML, XPS, etc.) ou d'images (TIFF, PNG, SVG, etc.) pour visualisation, conversions ultérieures ou impression."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/rendering/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: تشخیص فرمت فایل و بررسی سازگاری فرمت
 description: "قبل از باز کردن آن اطلاعات مربوط به فرمت سند را دریافت کنید تا از استثنا جلوگیری کنید اگر مطمئن نیستید که محتوای واقعی فایل از Java استفاده می کند."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

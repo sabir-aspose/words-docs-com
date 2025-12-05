@@ -8,6 +8,7 @@ weight: 30
 description: "Tradurre un documento. Aspose.Wordsper Python semplifica la traduzione di documenti utilizzando i modelli Google AI, consentendo di specificare la lingua di destinazione."
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/python-net/translate-a-document/
 timestamp: 2025-01-15-16-40-05
 ---

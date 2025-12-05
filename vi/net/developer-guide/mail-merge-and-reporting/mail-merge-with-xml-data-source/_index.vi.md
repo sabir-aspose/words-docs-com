@@ -7,6 +7,9 @@ type: docs
 description: "Sử dụng nhiều nguồn dữ liệu khác nhau khi thực hiện thao tác Mail Merge, bao gồm tệp XML bằng C#. Ưu điểm chính của việc sử dụng XML là khả năng xác định thứ bậc trực tiếp trong tài liệu."
 keywords: "mail merge xml data source c#"
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/mail-merge-with-xml-data-source/
 timestamp: 2024-07-11-08-07-06
 ---

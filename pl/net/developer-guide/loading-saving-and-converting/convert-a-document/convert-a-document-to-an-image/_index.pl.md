@@ -6,6 +6,9 @@ linktitle: Konwertuj dokument na obraz
 type: docs
 description: "Konwertuj dokument na format obrazu (JPG, PNG itp.). Utwórz podgląd dokumentu lub utwórz skan dokumentu, aby wysłać fakturę za pomocą C#."
 weight: 43
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/convert-a-document-to-an-image/
 timestamp: 2024-07-09-19-00-42
 ---

@@ -6,6 +6,9 @@ linktitle: Licențiere și abonament
 description: "Aspose.Words pentru .NET oferă planuri diferite de achiziție sau oferă un Test Gratuit și o Licență Temporară de 30 de zile pentru evaluare folosind politici de licențiere și abonament în C#."
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

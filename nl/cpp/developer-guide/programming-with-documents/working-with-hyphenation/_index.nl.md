@@ -6,6 +6,9 @@ linktitle: Werken met Hyphenation
 description: "Gebruik afbreekstreepjes voor een compactere rangschikking van tekst met C++. Het biedt geavanceerde algoritmen om te werken met afbreekwoordenboeken, gebruikt OpenOffice woordenboeken."
 type: docs
 weight: 220
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/working-with-hyphenation/
 timestamp: 2024-01-30-16-22-34
 ---

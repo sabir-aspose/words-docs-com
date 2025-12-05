@@ -6,6 +6,9 @@ linktitle: 处理存储在 Liferay 中的文档
 description: "使用 C# 比较 Liferay 中共享的 Word 文档。处理存储在 Liferay 中的文档 - 各种输入格式，包括 Word、OpenOffice、图像和电子书。"
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/work-with-document-stored-in-liferay/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: Manipuluj i zastępuj czcionki TrueType
 description: "Aspose.Words zamiast Java może osadzić poprawne czcionki TrueType w dokumencie, który został uzyskany, aby upewnić się, że wyświetla się dokładnie lub szuka odpowiedniej wymiany czcionki lub korzysta z mechanizmu awaryjnego Font."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

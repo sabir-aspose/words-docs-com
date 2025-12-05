@@ -6,6 +6,9 @@ linktitle: 外部ソースからのドキュメントの操作
 description: "外部ソースからドキュメントを C# にロードする方法。 PDF、DOCX、DOC、RTF、ODT、EPUB、HTML、およびその他のファイルを SharePoint またはデータベースからロードし、C# を使用してさらに処理します。"
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/working-with-documents-from-external-sources/
 timestamp: 2024-01-27-14-07-04
 ---

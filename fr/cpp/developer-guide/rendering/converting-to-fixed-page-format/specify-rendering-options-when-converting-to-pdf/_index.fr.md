@@ -6,6 +6,9 @@ linktitle: Spécifiez les options de rendu Lors de la conversion en PDF
 description: "Convertissez un document en PDF avec des options avancées en utilisant C++. Utilisez PdfSaveOptions pour modifier le résultat de l'enregistrement d'un document au format PDF."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

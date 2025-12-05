@@ -6,6 +6,9 @@ linktitle: להמיר מסמך ל- HTML, MHTML או EPUB
 description: "להמיר מסמך כמעט מכל פורמט ל- HTML או MHTML, כמו גם לתבנית EPUB באמצעות Python. ניתן גם לציין אפשרויות הצלה לניהול מסמך הפלט."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/python-net/convert-a-document-to-html-mhtml-or-epub/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: ترجمة Markdown لتوثيق نموذج الكائن (DOM)
 type: docs
 description: "تارنسلات Markdown وثيقة لتوثيق نموذج الكائن والعودة. حتى تتمكن من العمل مع مجمع موجود Markdown وإنشاء مستند Markdown برمجيا من البداية باستخدام Java."
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/translate-markdown-to-document-object-model/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: 处理标有敏感度标签的文档
 description: "使用 C# 将应用了敏感度标签的 Word 转换为 PDF。处理标有敏感度标签的文档 - 各种输入格式，包括 Word、OpenOffice、图像和电子书。"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/work-with-document-market-by-sensitivity-label/
 timestamp: 2024-01-31-14-23-37
 ---

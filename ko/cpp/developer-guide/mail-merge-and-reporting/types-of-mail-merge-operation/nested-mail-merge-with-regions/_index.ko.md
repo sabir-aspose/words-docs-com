@@ -7,6 +7,9 @@ type: docs
 description: "수행 Mail Merge 다음을 사용하여 중첩 된 영역을 사용한 작업 C++. 중첩 병합은 데이터 원본의 계층적 데이터를 병합 템플릿으로 병합할 수 있는 기능입니다."
 keywords: "mail merge with nested regions c++"
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/nested-mail-merge-with-regions/
 timestamp: 2024-09-24-14-35-44
 ---

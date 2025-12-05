@@ -6,6 +6,9 @@ linktitle: العمل مع الوثيقة
 type: docs
 description: "توفر فئة `Document` خصائص وطرق مختلفة للمستند باستخدام C++. يمكنك استخدام فئة `Document` كنقطة انطلاق لكل ما تريد القيام به مع Aspose.Words ل C++. يمكن حفظ الكائن `Document` في ملف أو دفق وإرساله أيضا إلى متصفح."
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/working-with-document/
 timestamp: 2024-01-30-16-22-34
 ---

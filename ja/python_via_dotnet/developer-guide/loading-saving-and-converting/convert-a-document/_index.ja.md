@@ -4,6 +4,9 @@ second_title: Python via .NET用Aspose.Words
 articleTitle: ドキュメントを変換する
 linktitle: ドキュメントを変換する
 type: docs
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/python-net/convert-a-document/
 weight: 30
 description: "Python を使用して、ドキュメントをある形式から別の形式に簡単に変換できます。 DOCX や DOC などの Microsoft Word 形式、ODT や OTT などの OpenDocument 形式、HTML や XHTML などの Web 形式、MarkDown や TXT などのテキスト形式など、最も一般的な形式をすべて使用できます。"

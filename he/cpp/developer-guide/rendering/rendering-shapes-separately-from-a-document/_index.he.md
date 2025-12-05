@@ -6,6 +6,9 @@ linktitle: עיבוד צורות בנפרד ממסמך
 description: "חלץ אובייקטים גרפיים שונים, כגון תמונות, תיבת טקסט המכילה פסקאות או צורות חץ, בעת עיבוד מסמך וייצא אותם למיקום חיצוני."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

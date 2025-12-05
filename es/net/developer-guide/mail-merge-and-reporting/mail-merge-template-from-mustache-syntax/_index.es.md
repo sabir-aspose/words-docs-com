@@ -7,6 +7,9 @@ type: docs
 description: "Cree plantillas con sintaxis Mustache usando C#. La sintaxis Mustache es la única opción que se puede usar con plantillas que no contienen campos (HTML o TXT). Con las plantillas Word, tiene dos opciones: campos o sintaxis Mustache."
 keywords: "mail merge template mustache syntax c#"
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/mail-merge-template-from-mustache-syntax/
 timestamp: 2024-07-11-08-07-06
 ---

@@ -6,6 +6,9 @@ linktitle: Rendu
 description: "Utilisation Aspose.Words pour C++ fonction de rendu pour formater un document de mise en page de flux en pages et convertir un tel document ou des pages sélectionnées en d'autres documents (PDF, HTML, XPS, etc.) ou des images (TIFF, PNG, SVG, etc.) formats pour la visualisation, les conversions ultérieures ou l'impression."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/rendering/
 timestamp: 2024-01-30-16-22-34
 ---

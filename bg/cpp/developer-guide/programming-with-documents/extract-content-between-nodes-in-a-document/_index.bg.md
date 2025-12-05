@@ -6,6 +6,9 @@ linktitle: Извличане На Съдържание Между Възли
 type: docs
 description: "Извличане на съдържанието на документа в различни използване C++."
 weight: 140
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/how-to-extract-selected-content-between-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

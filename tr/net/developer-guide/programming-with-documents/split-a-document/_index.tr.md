@@ -6,6 +6,9 @@ linktitle: Belgeyi Böl
 description: "C# kullanarak bir belgeyi birkaç dosyaya bölün. Bir belgeyi başlıklara veya bölümlere, ayrıca sayfalara veya sayfa aralıklarına göre etkili bir şekilde bölmek için bölme özelliğini kullanın."
 type: docs
 weight: 90
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

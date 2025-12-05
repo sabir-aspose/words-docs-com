@@ -6,6 +6,9 @@ linktitle: Come riconoscere che il font è stato sostituito
 description: "Se non sei sicuro del motivo per cui il layout di un documento è cambiato o perché un determinato font non sembra come previsto, i messaggi di avviso di sostituzione del font possono essere d'aiuto."
 type: docs
 weight: 13
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/cpp/how-to-recognize-that-the-font-was-replaced/
 timestamp: 2024-09-24-14-35-44
 ---

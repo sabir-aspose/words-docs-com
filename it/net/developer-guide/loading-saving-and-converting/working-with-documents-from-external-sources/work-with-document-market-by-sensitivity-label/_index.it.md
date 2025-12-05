@@ -6,6 +6,9 @@ linktitle: Lavorare con un documento contrassegnato da un'etichetta di riservate
 description: "Converti Word con etichetta di riservatezza applicata in PDF utilizzando C#. Lavora con documenti contrassegnati da etichette di riservatezza: vari formati di input, tra cui Word, OpenOffice, Image ed eBook."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/work-with-document-market-by-sensitivity-label/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: Extraer Contenido Entre Nodos
 type: docs
 description: "Extraer el contenido del documento de forma diferente usando Java."
 weight: 140
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/java/extract-selected-content-between-nodes/
 timestamp: 2024-01-27-14-07-04
 ---

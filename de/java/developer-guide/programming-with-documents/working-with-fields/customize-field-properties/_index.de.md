@@ -6,6 +6,9 @@ linktitle: Feldeigenschaften anpassen
 description: "Erfahren Sie, wie Sie Feldeigenschaften in Java anpassen. Benennen Sie Seriendruckfelder um oder erhalten Sie Ergebnisse für Felder ohne Trennknoten in Java."
 type: docs
 weight: 27
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

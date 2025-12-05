@@ -6,6 +6,9 @@ linktitle: 문서에 있는 노드의 논리적 수준
 type: docs
 description: ".NET 문서에 대한 Aspose.Words에서는 노드의 논리적 수준(블록 수준, 인라인 수준 또는 C#을 사용하는 행 수준)을 언급했습니다. 노드 수준은 일반적으로 노드가 발생하는 문서 트리의 위치를 설명하는 데 사용됩니다."
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

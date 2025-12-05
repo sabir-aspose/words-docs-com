@@ -6,6 +6,9 @@ linktitle: 開発者ガイド
 description: "この開発者ガイドでは、特定の Aspose.Words for .NET 機能を使用したり、特定のドキュメントの外観を実現したり、ユースケースを可能にしたりするのに役立つ実践的なシナリオとヒントについて説明します。"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

@@ -6,6 +6,9 @@ linktitle: 텍스트 문서 작업
 description: "C#를 사용한 고급 TXT 문서 처리, 목록, BiDi, 머리글/바닥글."
 type: docs
 weight: 430
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/working-with-text-document/
 timestamp: 2024-01-27-14-07-04
 ---

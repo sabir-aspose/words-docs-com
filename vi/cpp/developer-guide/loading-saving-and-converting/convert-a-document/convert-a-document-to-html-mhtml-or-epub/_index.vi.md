@@ -6,6 +6,9 @@ linktitle: Chuyển Đổi Tài liệu thành HTML, MHTML hoặc EPUB
 description: "Chuyển đổi tài liệu từ hầu hết mọi định dạng sang HTML hoặc MHTML, cũng như định dạng EPUB bằng C++. Bạn cũng có thể chỉ định các tùy chọn lưu để quản lý tài liệu đầu ra."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/convert-a-document-to-html-mhtml-or-epub/
 timestamp: 2024-10-21-08-52-03
 ---

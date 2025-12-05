@@ -6,6 +6,9 @@ linktitle: Предварително дефинирани шрифтове Fall
 description: "Aspose.Words осигурява предварително дефинирани настройки за резервен шрифт за Google Noto шрифтове. Това са безплатни шрифтове, лицензирани под SIL отворен лиценз за шрифтове, които могат да бъдат изтеглени от Google Noto шрифтове."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/predefined-font-fallback-settings-for-google-noto-fonts/
 timestamp: 2024-09-24-14-35-44
 ---

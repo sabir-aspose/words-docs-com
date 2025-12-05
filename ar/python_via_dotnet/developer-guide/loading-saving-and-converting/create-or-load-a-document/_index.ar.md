@@ -4,6 +4,9 @@ second_title: Aspose.Words لـ Python via .NET
 articleTitle: إنشاء أو تحميل مستند
 linktitle: إنشاء أو تحميل مستند
 type: docs
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/create-or-load-a-document/
 description: "قم بإنشاء مستند فارغ أو تحميله من ملف أو دفق باستخدام Python."
 keywords: "create a document python, load a document python, create a blank document python, load a document from file python, load a document from stream python, create a document Aspose python, load a document Aspose python, load formats supported by Aspose.Words python"

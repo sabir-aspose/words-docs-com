@@ -6,6 +6,9 @@ linktitle: ドキュメントをPDFに変更
 description: "C#でWordをPDFに変換。DOCXからPDFへの変換の簡単なコード例。すべてのWordフォーマットと画像をサポート。"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/convert-a-document-to-pdf/
 timestamp: 2024-09-25-11-08-55
 ---

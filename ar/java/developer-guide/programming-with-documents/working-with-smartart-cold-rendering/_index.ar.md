@@ -6,6 +6,9 @@ linktitle: العمل مع SmartArt التقديم البارد
 type: docs
 description: "Aspose.Words إلى عن على Java ينفذ SmartArt عرض بارد، مما يعني أنه يحدد ويعرض SmartArt كائنات إذا كان الرسم SmartArt المعروض مسبقا مفقودا أو غير صحيح."
 weight: 330
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

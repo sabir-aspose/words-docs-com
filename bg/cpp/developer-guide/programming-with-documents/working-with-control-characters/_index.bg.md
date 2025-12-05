@@ -6,6 +6,9 @@ linktitle: Работа С Контролни Знаци
 description: "Въведение в работата с контролни знаци в Aspose.Words за C++."
 type: docs
 weight: 400
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/working-with-control-characters/
 timestamp: 2024-01-27-14-07-04
 ---

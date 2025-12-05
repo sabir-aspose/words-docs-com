@@ -6,6 +6,9 @@ linktitle: Handling Windows Metafiles
 description: "Aspose.Words עבור .NET ליישם את עצמו Windows שחקן metafile לשחק פורמט Metafile על כל הפלטפורמות ותומכת בטיפול של תכונות metafile בסיסיות ויכול לבצע נפילה לסוג אחר של שחקן metafile באמצעות C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/handling-windows-metafiles/
 timestamp: 2024-07-10-14-38-57
 ---

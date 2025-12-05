@@ -6,6 +6,9 @@ linktitle: 시작 하기
 type: docs
 description: "이 소개를 사용하여 Aspose.Words 에 대한 C++ 의 가치를 실현하기 시작하는 기본 Aspose.Words 당신의 사업을 위해."
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/getting-started/
 timestamp: 2024-09-25-11-08-55
 ---

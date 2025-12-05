@@ -6,6 +6,9 @@ linktitle: Thao Tác Và Thay Thế Phông Chữ TrueType
 description: "Aspose.Words cho C++ có thể nhúng phông chữ TrueType chính xác vào tài liệu kết quả để đảm bảo rằng nó hiển thị chính xác. Nếu một phông chữ hoặc một ký tự cụ thể không có sẵn, Aspose.Words tìm kiếm một sự thay thế phông chữ phù hợp hoặc sử dụng cơ chế dự phòng Phông chữ."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

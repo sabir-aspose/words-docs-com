@@ -6,6 +6,9 @@ linktitle: Werk Met Velde
 description: "Hoe om te werk met velde in'n dokumente met behulp van Python."
 type: docs
 weight: 370
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/python-net/working-with-fields/
 timestamp: 2024-01-27-14-07-04
 ---

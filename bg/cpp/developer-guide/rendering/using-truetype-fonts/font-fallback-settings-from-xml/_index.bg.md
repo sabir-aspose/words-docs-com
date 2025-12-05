@@ -6,6 +6,9 @@ linktitle: Шрифт FallBack Настройки от XML
 description: "Резервният механизъм за шрифта се използва, когато шрифтът е решен, но не съдържа конкретен знак. В този случай Aspose.Words се опитва да използва един от резервните шрифтове за героя."
 type: docs
 weight: 14
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/font-fallback-settings-from-xml/
 timestamp: 2024-09-24-14-35-44
 ---

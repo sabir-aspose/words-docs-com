@@ -6,6 +6,9 @@ linktitle: การจัดการไฟล์ Windows Metafile
 description: "Aspose.Words สำหรับ Python via .NET ใช้โปรแกรมเล่น Windows Metafile ของตัวเองเพื่อเล่นรูปแบบ Metafile บนทุกแพลตฟอร์ม และรองรับการจัดการคุณสมบัติ metafile พื้นฐาน และสามารถใช้ทางเลือกแทนโปรแกรมเล่น metafile ประเภทอื่นได้"
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/python-net/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

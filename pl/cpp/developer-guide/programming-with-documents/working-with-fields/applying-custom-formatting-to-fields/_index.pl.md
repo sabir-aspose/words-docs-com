@@ -6,6 +6,9 @@ linktitle: Zastosuj niestandardowe formatowanie do pól
 description: "Formatuj i oceniaj wyniki pól za pomocą C++."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/applying-custom-formatting-to-fields/
 timestamp: 2024-01-27-14-07-04
 ---

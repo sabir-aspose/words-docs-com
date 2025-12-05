@@ -6,6 +6,9 @@ linktitle: So führen Sie die Beispiele aus
 description: "Laden Sie Aspose.Words für Python via .NET-Beispiele aus unserem GitHub-Repository herunter und erfahren Sie, wie Sie sie ausführen, um sich mit den Möglichkeiten und Funktionen von Aspose.Words vertraut zu machen."
 type: docs
 weight: 110
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/python-net/how-to-run-the-examples/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 使用样式和主题
 description: "增强的Microsoft Word格式化功能，使用Java处理样式和主题。"
 type: docs
 weight: 110
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/working-with-styles-and-themes/
 timestamp: 2024-01-27-14-07-04
 ---

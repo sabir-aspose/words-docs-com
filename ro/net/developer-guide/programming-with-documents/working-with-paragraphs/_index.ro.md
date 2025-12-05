@@ -6,6 +6,9 @@ linktitle: Lucrul cu paragrafele
 description: "Inserare paragraf într-un document în C#. Stabilește stiluri de paragraf în C#. Lucrează cu separatorul de stil paragraf în C#. Manipulează nodul de paragraf folosind C#."
 type: docs
 weight: 210
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/working-with-paragraphs/
 timestamp: 2024-01-27-14-07-04
 ---

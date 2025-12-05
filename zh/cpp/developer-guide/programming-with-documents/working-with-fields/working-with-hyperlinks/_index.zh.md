@@ -6,6 +6,9 @@ linktitle: 添加或修改超链接
 description: "如何使用以下方法将超链接添加到文档中 Aspose.Words对于C++."
 type: docs
 weight: 180
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/working-with-hyperlinks/
 timestamp: 2024-01-27-14-07-04
 ---

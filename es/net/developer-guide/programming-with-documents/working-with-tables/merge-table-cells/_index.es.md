@@ -6,6 +6,9 @@ linktitle: Fusionar celdas de tabla
 description: "Cómo fusionar celdas de tablas en C#. Compruebe si las celdas de una tabla están combinadas usando C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/working-with-merged-cells/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 섹션 작업
 description: "C#를 사용하여 문서 섹션 개념 및 조작 방법을 이해합니다. 문서 C#에 섹션을 삽입합니다. C# 섹션을 삭제하세요. 문서 간에 섹션을 복사합니다."
 type: docs
 weight: 120
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/working-with-sections/
 timestamp: 2024-09-25-11-08-55
 ---

@@ -7,6 +7,9 @@ type: docs
 description: "出力ドキュメント内の固定コンテンツを定義するMail Mergeテンプレートを作成し、Javaの差し込み項目を使用して差し込み文書を生成します。"
 keywords: "create Mail Merge template Java, Mail Merge Java"
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/mail-merge-template/
 timestamp: 2024-01-31-14-23-37
 ---

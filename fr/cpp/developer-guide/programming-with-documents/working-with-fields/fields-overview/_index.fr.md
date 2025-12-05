@@ -6,6 +6,9 @@ linktitle: Aperçu des Champs
 description: "Les champs sont détaillés, les codes de champ et les résultats de champ expliqués dans Aspose.Words pour C++."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/fields-overview/
 timestamp: 2024-01-27-14-07-04
 ---

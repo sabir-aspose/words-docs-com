@@ -6,6 +6,9 @@ linktitle: Phát hiện định dạng tệp và kiểm tra tính tương thích
 description: "Xác định định dạng tệp trong C# nếu bạn không chắc chắn nội dung thực sự của tệp là gì hoặc để kiểm tra tính tương thích của định dạng."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: Работа с маси
 description: "Как да работите с таблиците в C++. Въвеждане за работа с таблици и концепции за възли на таблици в Aspose.Words за C++."
 type: docs
 weight: 190
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/working-with-tables/
 timestamp: 2024-01-27-14-07-04
 ---

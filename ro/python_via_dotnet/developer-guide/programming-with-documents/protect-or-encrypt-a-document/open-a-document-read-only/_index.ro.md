@@ -6,6 +6,9 @@ linktitle: Deschiderea unui Document numai în citire
 description: "Faceți documentul numai în citire, astfel încât conținutul să poată fi copiat sau citit, dar nu modificat folosind Python."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/python-net/open-a-document-read-only/
 timestamp: 2024-01-27-14-07-04
 ---

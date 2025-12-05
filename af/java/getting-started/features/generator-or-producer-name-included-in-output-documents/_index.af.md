@@ -6,6 +6,9 @@ linktitle: Generator Of Produsent Naam Ingesluit In Uitset Dokumente
 description: "Aspose.Words vir Java voeg by die dokument die naam van die kragopwekker en weergawe nommer wat gebruik is om dit te skep. Hierdie data kan in die dokument gevind word op maniere wat afhang van die uitvoer lêer formaat."
 type: docs
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/java/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

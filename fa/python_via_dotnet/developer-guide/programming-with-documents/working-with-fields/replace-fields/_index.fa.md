@@ -6,6 +6,9 @@ linktitle: فیلدها را با متن ثابت جایگزین کنید
 description: "یاد بگیرید که چگونه فیلدها را با متن در Python جایگزین کنید. با استفاده از Python via .NET API فیلدها را با داده های ثابت جایگزین کنید."
 type: docs
 weight: 37
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/replace-fields/
 timestamp: 2024-01-27-14-07-04
 ---

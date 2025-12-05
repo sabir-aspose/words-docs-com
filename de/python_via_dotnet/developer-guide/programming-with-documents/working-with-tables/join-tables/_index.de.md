@@ -6,6 +6,9 @@ linktitle: Tische verbinden
 description: "Verknüpfen Sie Tabellen in einem Dokument mit Python. So führen Sie in Python zwei Tabellen zu einer zusammen."
 type: docs
 weight: 90
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/python-net/join-tables/
 timestamp: 2024-01-27-14-07-04
 ---

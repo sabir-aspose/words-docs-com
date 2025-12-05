@@ -6,6 +6,9 @@ linktitle: Aan De Slag
 type: docs
 description: "Gebruik deze inleiding tot Aspose.Words voor C++ fundamentals om te beginnen met het realiseren van de waarde van Aspose.Words voor uw bedrijf."
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/getting-started/
 timestamp: 2024-09-25-11-08-55
 ---

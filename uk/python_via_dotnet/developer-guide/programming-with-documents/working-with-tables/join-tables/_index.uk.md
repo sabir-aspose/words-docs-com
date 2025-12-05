@@ -6,6 +6,9 @@ linktitle: Приєднати таблиці
 description: "Приєднати таблиці в документі Pythonй Як об'єднати два столи в одну в Pythonй"
 type: docs
 weight: 90
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/python-net/join-tables/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Werk Met Afdelings
 description: "Verstaan dokument afdeling konsepte en manipulasie praktyke met behulp van C#. Voeg afdeling in'n dokument C#. Verwyder afdeling C#. Kopieer afdelings tussen Dokumente."
 type: docs
 weight: 120
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/working-with-sections/
 timestamp: 2024-09-25-11-08-55
 ---

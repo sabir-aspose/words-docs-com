@@ -6,6 +6,9 @@ linktitle: 支持的文档格式
 type: docs
 description: "编辑许多流行格式的源文档，以及使用C++自由地将文件从一种格式转换为另一种格式。"
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/supported-document-formats/
 timestamp: 2024-10-21-11-17-44
 ---

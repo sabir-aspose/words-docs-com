@@ -6,6 +6,9 @@ linktitle: تبدیل Aspose.Words' ویژگی پرچمدار است
 description: "تبدیل اسناد از هر بار پشتیبانی شده برای ذخیره فرمت با تنها دو خط از کد C++. این تبدیل با کیفیت بالا را فراهم می کند."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/file-formats-and-conversions/
 timestamp: 2024-09-24-14-35-44
 ---

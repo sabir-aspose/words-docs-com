@@ -8,6 +8,7 @@ weight: 35
 description: "Aspose.Words für .NET führt AI-basierte Tools wie Dokumentzusammenfassung ein, um die Effizienz zu steigern. Erfahren Sie, wie Sie AI -basierte Funktionen mit Tipps und detaillierten Anleitungen verwenden."
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/ai-powered-features/
 timestamp: 2025-03-17-19-00-00
 ---

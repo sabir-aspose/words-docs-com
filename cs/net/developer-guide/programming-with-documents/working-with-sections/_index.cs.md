@@ -6,6 +6,9 @@ linktitle: Spolupráce se sekcemi
 description: "Pochopení pojmů a manipulačních postupů sekce dokumentů C#. Vložit oddíl do dokumentu C#. Odstranit část C#. Kopírovat oddíly mezi dokumenty."
 type: docs
 weight: 120
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/net/working-with-sections/
 timestamp: 2024-09-25-11-08-55
 ---

@@ -6,6 +6,9 @@ linktitle: La conversión es la característica insignia de Aspose.Words
 description: "Convierta documentos de cualquier carga compatible para guardarlos en formato con solo dos líneas de código C++. Proporciona conversiones de alta calidad."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/cpp/file-formats-and-conversions/
 timestamp: 2024-09-24-14-35-44
 ---

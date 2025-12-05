@@ -6,6 +6,9 @@ linktitle: Práce s textem v tabulce
 description: "Nahradit text v tabulce v Java. Extrahovat prostý text z tabulky nebo buňky pomocí Java."
 type: docs
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/java/extract-text-from-and-replace-text-in-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

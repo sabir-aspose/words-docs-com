@@ -6,6 +6,9 @@ linktitle: 了解转换为PDF/A和PDF/UA的功能
 description: "转换为PDF/A-1, PDF/A-2, PDF/A-4 和PDF/UA使用C++。 选择使用С++转换文档的最佳PDF标准。"
 type: docs
 weight: 35
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/learn-features-of-conversion-to-pdf-a-pdf-ua/
 timestamp: 2024-01-31-14-23-37
 ---

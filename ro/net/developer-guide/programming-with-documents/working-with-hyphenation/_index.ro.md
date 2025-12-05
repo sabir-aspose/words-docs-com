@@ -6,6 +6,9 @@ linktitle: Lucrul cu Hyphenation
 description: "Folosiţi iperenitarea pentru o mai compactă aranjare a textului folosind C#. Oferă algoritmi avansați pentru lucrul cu dicționare de hiper-legare, folosește dicționarele OpenOffice."
 type: docs
 weight: 220
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---

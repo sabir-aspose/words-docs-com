@@ -6,6 +6,9 @@ linktitle: Fonctionnalités prises en charge lors de l'enregistrement de documen
 description: "Enregistrez un document dans la plupart des formats populaires et prend en charge de nombreuses fonctionnalités Microsoft Word à l'aide de C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/supported-features-on-document-save/
 timestamp: 2024-09-25-11-08-55
 ---

@@ -6,6 +6,9 @@ linktitle: 고정 페이지 형식으로 변환
 description: "Python를 사용하여 문서를 PDF, XPS, HTML, XAML, PostScript 및 PCL 형식으로 저장합니다."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/converting-to-fixed-page-format/
 timestamp: 2024-01-31-14-23-37
 ---

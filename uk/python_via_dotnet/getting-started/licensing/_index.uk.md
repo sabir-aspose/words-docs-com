@@ -6,6 +6,9 @@ linktitle: Ліцензування та підписка
 description: "Aspose.Words для Python via .NET забезпечує різні плани придбання або пропонує безкоштовну пробну та 30-денну Тимчасову ліцензію на оцінку за допомогою політики ліцензування та підписки."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/python-net/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

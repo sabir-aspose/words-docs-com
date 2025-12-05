@@ -6,6 +6,9 @@ linktitle: サポートされている機能
 description: "Aspose.Words for Python via .NET は、単純なドキュメントの変換および変更から、構造化された視覚的に魅力的なドキュメントの作成やレポートの自動化まで、幅広い機能をユーザーに提供します。"
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/python-net/features/
 timestamp: 2024-10-21-11-17-44
 ---

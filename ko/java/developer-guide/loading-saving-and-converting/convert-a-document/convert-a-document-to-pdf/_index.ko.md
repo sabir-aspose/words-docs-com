@@ -6,6 +6,9 @@ linktitle: 문서를PDF로 변환
 description: "단어 또는 기타 지원되는 형식의 문서를PDF로 변환하여Java을 사용하여 다양한 플랫폼에서 렌더링하는 동안 문서의 원래 모양을 유지합니다."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/convert-a-document-to-pdf/
 timestamp: 2024-01-31-14-23-37
 ---

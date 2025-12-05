@@ -6,6 +6,9 @@ linktitle: Lucrul Cu Caractere De Control
 description: "Introducere în lucrul cu caractere de control în Aspose.Words pentru Python."
 type: docs
 weight: 400
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/python-net/working-with-control-characters/
 timestamp: 2024-01-27-14-07-04
 ---

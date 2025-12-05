@@ -6,6 +6,9 @@ linktitle: Fonte FallBack definições de XML
 description: "O mecanismo de fallback da fonte é usado quando a fonte é resolvida, mas não contém um caractere específico. Nesse caso, Aspose.Words tenta usar uma das fontes de fallback para o caractere."
 type: docs
 weight: 14
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/font-fallback-settings-from-xml/
 timestamp: 2024-09-24-14-35-44
 ---

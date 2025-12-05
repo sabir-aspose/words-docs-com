@@ -6,6 +6,9 @@ linktitle: 제품 개요
 description: "Aspose.Words 에 대한 C++ 다른 소프트웨어에 의존하지 않고 문서를 생성,수정,변환,렌더링 및 인쇄하도록 설계된 소프트웨어 라이브러리입니다."
 type: docs
 weight: 5
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/product-overview/
 timestamp: 2024-06-05-14-43-57
 ---

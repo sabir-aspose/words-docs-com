@@ -6,6 +6,9 @@ linktitle: نظرة عامة على منشئ المستندات
 type: docs
 description: "DocumentBuilder يسمح لك بإنشاء مستندات ديناميكية من البداية أو إضافة عناصر جديدة إلى العناصر الموجودة. DocumentBuilder يوفر طرق لإدراج النص ،checkbox وفاق، والجداول، والصور، وعناصر المحتوى الأخرى في Java."
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 트루타입 글꼴 위치 지정
 description: "C#를 사용하여 시스템 폴더, 사용자 소스, 스트림에서 글꼴 로드, 파일 시스템 또는 메모리 등 다양한 트루타입 글꼴 소스를 지정합니다."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/specifying-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

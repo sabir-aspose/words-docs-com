@@ -6,6 +6,9 @@ linktitle: Arbeiten mit Dokumenteigenschaften
 description: "Aspose.Words für Java ermöglicht das Speichern einiger nützlicher Informationen zu Ihrem Dokument, z. B. API und Versionsnummer oder autorisiertes Datum, in integrierten oder benutzerdefinierten Dokumenteigenschaften."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

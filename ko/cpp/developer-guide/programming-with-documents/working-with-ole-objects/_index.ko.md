@@ -6,6 +6,9 @@ linktitle: 함께 작업 OLE 개체
 description: "생성 및 수정 OLE 다음을 사용하여 문서에 포함 C++."
 type: docs
 weight: 360
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/working-with-ole-objects/
 timestamp: 2024-01-27-14-07-04
 ---

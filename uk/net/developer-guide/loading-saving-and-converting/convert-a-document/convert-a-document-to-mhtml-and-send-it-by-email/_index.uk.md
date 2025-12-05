@@ -6,6 +6,9 @@ linktitle: Перетворення документа в MHTML і Надісл�
 description: "Перетворення документа з практично будь-якого формату в формат MHTML і відправте документ на результат за допомогою електронної пошти C#й"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/convert-a-document-to-mhtml-and-send-it-by-email/
 timestamp: 2024-07-09-19-00-42
 ---

@@ -6,6 +6,9 @@ linktitle: Posicione uma mesa
 description: "Especifique a posição da tabela em C#. Obtenha um alinhamento da tabela, obtenha e defina a posição da tabela flutuante usando C#."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/net/position-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 워드 문서의 옵션 및 모양 작업
 description: "계정에Java를 사용하여 다양한Microsoft Word버전의 차이를 복용 워드 문서의 모양을 제어 할 수 있습니다."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/work-with-word-document-options-and-appearance/
 timestamp: 2024-01-27-14-07-04
 ---

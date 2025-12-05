@@ -6,6 +6,9 @@ linktitle: 열 및 행 작업
 description: "다음을 사용하여 테이블 부분(행,열 및 셀)으로 작업 C++. 머리글 행 지정 C++."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/working-with-columns-and-rows/
 timestamp: 2024-01-27-14-07-04
 ---

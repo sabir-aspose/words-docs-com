@@ -6,6 +6,9 @@ linktitle: Guardar um documento com várias páginas TIFF
 description: "Converta um documento em um TIFF de várias páginas usando C++. Para determinar como o documento é exibido na imagem, é necessário especificar opções adicionais: Resolução, número de páginas, binarização da imagem, etc."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

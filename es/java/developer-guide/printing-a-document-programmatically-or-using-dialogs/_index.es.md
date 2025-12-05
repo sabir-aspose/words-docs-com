@@ -6,6 +6,9 @@ linktitle: Imprimir un Documento mediante Programación o mediante Diálogos
 description: "Imprima un documento con Java a través de los cuadros de diálogo Configuración, Vista previa de impresión y Progreso de impresión."
 type: docs
 weight: 55
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/java/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-27-14-07-04
 ---

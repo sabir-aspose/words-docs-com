@@ -6,6 +6,9 @@ linktitle: Вказати параметри макета
 description: "Вказати Layout Варіанти різних макетів документів за допомогою C#й"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/specify-layout-options/
 timestamp: 2024-07-10-08-10-45
 ---

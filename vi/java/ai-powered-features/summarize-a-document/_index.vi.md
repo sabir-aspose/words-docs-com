@@ -8,6 +8,7 @@ weight: 20
 description: "Tóm tắt một tài liệu. Aspose.Words cho Java đơn giản hóa việc tóm tắt tài liệu bằng cách sử dụng Các mô hình OpenAI Và Google AI bằng cách cho phép bạn chỉ định độ dài tóm tắt."
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/summarize-a-document/
 timestamp: 2025-03-17-19-00-00
 ---

@@ -6,6 +6,9 @@ linktitle: کار با سند متنی
 description: "با یک سند متنی کار کنید و اشیاء آن را با استفاده از Python تغییر دهید."
 type: docs
 weight: 430
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/working-with-text-document/
 timestamp: 2024-01-27-14-07-04
 ---

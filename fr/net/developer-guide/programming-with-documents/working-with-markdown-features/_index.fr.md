@@ -6,6 +6,9 @@ linktitle: Travailler avec les fonctionnalités Markdown
 description: "Comment implémenter les fonctionnalités Markdown à l'aide de C#. Toutes les fonctionnalités sont représentées sous forme de styles correspondants ou de formatage direct."
 type: docs
 weight: 420
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/working-with-markdown-features/
 timestamp: 2024-01-31-14-23-37
 ---

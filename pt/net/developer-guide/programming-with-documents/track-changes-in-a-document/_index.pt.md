@@ -6,6 +6,9 @@ linktitle: Rastrear alterações em um documento
 description: "Rastreie alterações no conteúdo e na formatação feitas por você ou por outras pessoas usando C#. Acesse revisões individuais em um documento e aplique diversas propriedades a elas."
 type: docs
 weight: 270
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/net/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

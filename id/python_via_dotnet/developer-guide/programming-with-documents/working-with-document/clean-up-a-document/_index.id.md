@@ -6,6 +6,9 @@ linktitle: Bersihkan Dokumen
 description: "Hapus informasi yang tidak terpakai atau duplikat untuk mengurangi ukuran keluaran dan waktu pemrosesan menggunakan Python. Hapus gaya yang tidak digunakan, gaya bawaan yang tidak digunakan, gaya duplikat, atau daftar yang tidak digunakan."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/python-net/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

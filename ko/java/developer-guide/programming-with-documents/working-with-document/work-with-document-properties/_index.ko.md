@@ -6,6 +6,9 @@ linktitle: 문서 속성 작업
 description: "Aspose.WordsJava의 경우API및 버전 번호 또는 승인된 날짜와 같은 문서에 대한 유용한 정보를 기본 제공 또는 사용자 지정 문서 속성에 저장할 수 있습니다."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

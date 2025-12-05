@@ -6,6 +6,9 @@ linktitle: Робота з надбудовами Office
 description: "Aspose.Words для C++ надає різні класи для роботи з надбудовами Office. Ви можете додати панель завдань через веб-розширення та налаштувати властивості панелі та розширення."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

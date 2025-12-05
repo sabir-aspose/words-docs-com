@@ -6,6 +6,9 @@ linktitle: Seriëler maken en werken met een document in een database
 description: "Een document omzetten in een byte-array voor werk met dit document in een database. U kunt een document van en naar de database opslaan en ophalen met behulp van Java."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/java/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: ทำงานกับคุณสมบัติเอกสาร
 description: "Aspose.Words สำหรับ Python ช่วยให้สามารถจัดเก็บข้อมูลที่เป็นประโยชน์เกี่ยวกับเอกสารของคุณ เช่น API และหมายเลขเวอร์ชันหรือ Date ที่ได้รับอนุญาต ในคุณสมบัติเอกสารในตัวหรือแบบกำหนดเอง"
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/python-net/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

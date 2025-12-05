@@ -6,6 +6,9 @@ linktitle: הדפסה מסמך מתודולוגיה או שימוש באבחון
 description: "הדפסה מסמך באמצעות Java באמצעות הגדרות, הדפסה Preview, ומדפי התקדמות הדפסה."
 type: docs
 weight: 55
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-27-14-07-04
 ---
