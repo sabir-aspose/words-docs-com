@@ -6,6 +6,9 @@ linktitle: Přizpůsobení Vlastností Pole
 description: "Přečtěte si, jak přizpůsobit vlastnosti pole v C++. Přejmenujte slučovací pole nebo Získejte výsledky pro pole bez oddělovacího uzlu v C++."
 type: docs
 weight: 27
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

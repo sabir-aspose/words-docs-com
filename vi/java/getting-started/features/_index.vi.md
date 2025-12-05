@@ -6,6 +6,9 @@ linktitle: Các tính năng được hỗ trợ
 description: "Aspose.Words cho Java cung cấp người dùng một loạt các tính năng từ việc chuyển đổi và sửa đổi đơn giản tài liệu để tạo ra các tài liệu được cấu trúc và hấp dẫn về mặt thị giác hoặc tự động hóa báo cáo."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/features/
 timestamp: 2024-10-21-11-17-44
 ---

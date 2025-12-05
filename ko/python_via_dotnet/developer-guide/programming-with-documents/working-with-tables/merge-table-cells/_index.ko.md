@@ -6,6 +6,9 @@ linktitle: 표 셀 병합
 description: "Python에서 표 셀을 병합하는 방법. Python를 사용하여 테이블의 셀이 병합되었는지 확인하세요."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/working-with-merged-cells/
 timestamp: 2024-01-27-14-07-04
 ---

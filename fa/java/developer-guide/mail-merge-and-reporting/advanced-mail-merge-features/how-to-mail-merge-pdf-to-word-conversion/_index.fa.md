@@ -6,6 +6,9 @@ linktitle: چگونه Mail Merge PDF به تبدیل کلمه
 type: docs
 description: "Aspose.Words برای Java برخی از ویژگی های پیشرفته Mail Merge را فراهم می کند که به شما اجازه می دهد PDF را به تبدیل کلمه ادغام کنید."
 weight: 100
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/how-to-mail-merge-pdf-to-word-conversion/
 timestamp: 2024-01-27-14-07-04
 ---

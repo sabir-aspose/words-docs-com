@@ -6,6 +6,9 @@ linktitle: 在 Office 程式補件中工作
 description: ".NET 的 Aspose.Words 提供各種 C# 工作於 Office Add-in 的類別。 您可以透過網路 Erweiterung來新增 Task Pane，並可自訂 Task Pane 和 Extension 的設定。"
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

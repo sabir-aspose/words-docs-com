@@ -6,6 +6,9 @@ linktitle: Montage
 description: "Installez Aspose.Words pour Java à partir du référentiel Maven. Définissez la dépendance Aspose.Words pour Java dans votre pom.xml"
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/installation/
 timestamp: 2024-01-27-14-07-04
 ---

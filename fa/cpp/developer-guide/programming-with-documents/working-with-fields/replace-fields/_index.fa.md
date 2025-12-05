@@ -6,6 +6,9 @@ linktitle: فیلد ها را با متن استاتیک جایگزین کنید
 description: "یاد بگیرید که چگونه فیلد ها را با متن در C++ جایگزین کنید. فیلد ها را با داده های استاتیک با استفاده از C++ API جایگزین کنید."
 type: docs
 weight: 37
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/replace-fields/
 timestamp: 2024-01-27-14-07-04
 ---

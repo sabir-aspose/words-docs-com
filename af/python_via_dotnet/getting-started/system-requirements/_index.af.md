@@ -6,6 +6,9 @@ linktitle: Stelselvereistes
 description: "Voordat jy begin werk Aspose.Words vir Python via .NET, verseker dat u aan die vereistes van die bedryfstelsel, platform en omgewing voldoen, sodat die aktiwiteite op u toestelle behoorlik verantwoord word."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/python-net/system-requirements/
 timestamp: 2024-04-27-18-03-32
 ---

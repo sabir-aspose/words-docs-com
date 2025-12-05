@@ -6,6 +6,9 @@ linktitle: Praca z Headers i Footers
 description: "Jak manipulować nagłówkami i stopkami za pomocą Java."
 type: docs
 weight: 150
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/working-with-headers-and-footers/
 timestamp: 2024-01-27-14-07-04
 ---

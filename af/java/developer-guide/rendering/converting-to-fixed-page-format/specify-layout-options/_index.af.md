@@ -6,6 +6,9 @@ linktitle: Spesifiseer Uitleg Opsies
 description: "Skep uitvoerdokumente met verskillende uitlegte, afhangende van die parameters wat in die Dokument gespesifiseer word met behulp van Java."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/java/specify-layout-options/
 timestamp: 2024-01-27-14-07-04
 ---

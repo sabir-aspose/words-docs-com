@@ -7,6 +7,9 @@ type: docs
 description: "Use uma variedade de fontes de dados ao executar uma operação Mail Merge, incluindo um arquivo XML. A principal vantagem de usar XML é a capacidade de definir uma hierarquia diretamente no documento em Java."
 keywords: "mail merge XML data source Java, Mail Merge Java"
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/java/mail-merge-with-xml-data-source/
 timestamp: 2024-01-27-14-07-04
 ---

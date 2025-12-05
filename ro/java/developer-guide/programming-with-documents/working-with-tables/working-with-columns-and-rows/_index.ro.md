@@ -6,6 +6,9 @@ linktitle: Lucrați cu coloane și rânduri
 description: "Lucrul cu părți ale unui tabel – rânduri, coloane și celule folosind Java. Specificați Rândul Antet Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/java/working-with-columns-and-rows/
 timestamp: 2024-01-27-14-07-04
 ---

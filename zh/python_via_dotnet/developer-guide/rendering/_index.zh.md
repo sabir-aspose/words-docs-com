@@ -6,6 +6,9 @@ linktitle: 渲染
 description: "使用 Aspose.Words 进行 Python via .NET 渲染功能将流程布局文档格式化为页面，并将此类文档或选定页面转换为其他文档（PDF、HTML、XPS 等）或图像（TIFF、PNG、SVG 等）格式，以供查看、进一步转换或打印。"
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/rendering/
 timestamp: 2024-01-27-14-07-04
 ---

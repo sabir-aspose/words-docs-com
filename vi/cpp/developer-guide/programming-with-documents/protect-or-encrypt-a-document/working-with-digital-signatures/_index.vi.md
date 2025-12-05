@@ -6,6 +6,9 @@ linktitle: Làm việc Với Chữ Ký Số
 description: "Kỹ thuật số ký tài liệu và phát hiện, đếm, xác minh, và loại bỏ chữ ký số hiện có."
 type: docs
 weight: 160
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/working-with-digital-signatures/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: So führen Sie die Beispiele aus
 description: "Herunterladen Aspose.Words für C++ beispiele aus unserem GitHub Repository und lernen, wie man sie ausführt, um sich mit den Aspose.Words Möglichkeiten und Funktionen vertraut zu machen."
 type: docs
 weight: 110
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/cpp/how-to-run-the-examples/
 timestamp: 2024-07-11-16-13-28
 ---

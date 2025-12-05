@@ -6,6 +6,9 @@ linktitle: Programmation avec des Documents
 type: docs
 description: "Utilisez les classes de modèle d'objet de document Aspose.Words pour créer, modifier et gérer par programmation des documents avec Java. Travaillez avec les propriétés, les paramètres et le contenu du document, ainsi qu'avec l'apparence du document grâce à la gestion des couleurs, des formes, des polices et d'autres graphiques."
 weight: 340
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

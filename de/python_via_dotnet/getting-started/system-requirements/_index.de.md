@@ -6,6 +6,9 @@ linktitle: System Anforderungen
 description: "Bevor Sie mit Aspose.Words für Python via .NET arbeiten, stellen Sie sicher, dass Sie die Betriebssystem-, Plattform- und Umgebungsanforderungen erfüllen, damit die Aktivitäten auf Ihren Geräten ordnungsgemäß berücksichtigt werden."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/python-net/system-requirements/
 timestamp: 2024-04-27-18-03-32
 ---

@@ -7,6 +7,9 @@ type: docs
 description: "Führen Sie eine Mail Merge-Operation mit verschachtelten Bereichen aus. Die verschachtelte Zusammenführung ist eine Funktion, mit der Sie hierarchische Daten aus Ihrer Datenquelle mit Java in Ihre Zusammenführungsvorlage zusammenführen können."
 keywords: "mail merge with nested regions Java, Nested Mail Merge Regions"
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/nested-mail-merge-with-regions/
 timestamp: 2024-01-27-14-07-04
 ---

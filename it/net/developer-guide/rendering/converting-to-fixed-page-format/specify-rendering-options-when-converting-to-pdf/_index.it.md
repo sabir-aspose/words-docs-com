@@ -6,6 +6,9 @@ linktitle: Specifica le opzioni di rendering durante la conversione in PDF
 description: "Converti un documento in PDF con opzioni avanzate utilizzando C#. Converti moduli DOCX in PDF C#. Utilizzare PdfSaveOptions per modificare il risultato del salvataggio di un documento in PDF."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

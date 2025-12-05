@@ -6,6 +6,9 @@ linktitle: Ostrzeżenia o dostępności podczas zapisywania do PDF / A i PDF / U
 description: "PDF / A i PDF / UA nakładają wymogi dostępności związane z treścią dokumentu. Podczas zapisywania do PDF / A lub PDF / UA w Java i problem narusza zgodność, wydaje się ostrzeżenie."
 type: docs
 weight: 29
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

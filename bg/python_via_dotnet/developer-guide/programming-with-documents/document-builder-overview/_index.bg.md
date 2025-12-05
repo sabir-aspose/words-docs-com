@@ -6,6 +6,9 @@ linktitle: Преглед на строителя на документи
 type: docs
 description: "DocumentBuilder ви позволява да създавате динамични документи от нулата или да добавяте нови елементи към съществуващи такива, като използвате Python. DocumentBuilder предоставя методи за вмъкване на текст, чекови кутии, таблици, изображения и други елементи на съдържание в Python."
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/python-net/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

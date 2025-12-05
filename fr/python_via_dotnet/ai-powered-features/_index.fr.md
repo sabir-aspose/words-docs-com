@@ -8,6 +8,7 @@ weight: 35
 description: "Aspose.Words pour Python introduit des outils alimentés par AI comme la synthèse de documents pour améliorer l'efficacité. Apprenez à utiliser les fonctionnalités alimentées par AI avec des astuces et des conseils détaillés."
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/ai-powered-features/
 timestamp: 2025-03-17-19-00-00
 ---

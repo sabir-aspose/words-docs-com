@@ -6,6 +6,9 @@ linktitle: Travailler avec les notes de bas de page et de fin
 description: "Insérez des notes de fond ou des notes de fin dans un document et spécifiez ses options à l'aide de Python."
 type: docs
 weight: 160
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/working-with-footnote-and-endnote/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Lucrul cu imagini
 description: "Formele imaginilor în detaliile și caracteristicile avansate furnizate de Aspose.Words pentru .NET."
 type: docs
 weight: 300
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/working-with-images/
 timestamp: 2024-05-02-11-51-44
 ---

@@ -6,6 +6,9 @@ linktitle: Chiết xuất nội dung giữa các nút
 type: docs
 description: "Kích xuất nội dung tài liệu với cách khác nhau sử dụng Java."
 weight: 140
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/extract-selected-content-between-nodes/
 timestamp: 2024-01-27-14-07-04
 ---

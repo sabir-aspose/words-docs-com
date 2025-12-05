@@ -6,6 +6,9 @@ linktitle: ترجمه Markdown به مستند سازی مدل شی (DOM)
 type: docs
 description: "Tarnslate یک سند Markdown برای مستند کردن مدل شی و بازگشت. بنابراین شما می توانید با Markdown پیچیده موجود کار کنید و به صورت برنامه ریزی شده یک سند Markdown از ابتدا با استفاده از Java ایجاد کنید."
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/translate-markdown-to-document-object-model/
 timestamp: 2024-10-21-11-17-44
 ---

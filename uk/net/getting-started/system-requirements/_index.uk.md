@@ -6,6 +6,9 @@ linktitle: Вимоги до системи
 description: "Перед тим як почати роботу з Aspose.Words для .NET, Забезпечте, що ви відповідаєте операційній системі, платформі, рамки та вимоги до навколишнього середовища, щоб діяльність на ваших пристроях була належним чином зарахована для використання C#й"
 type: docs
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/system-requirements/
 timestamp: 2024-02-01-16-17-05
 ---

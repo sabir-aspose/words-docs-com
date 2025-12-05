@@ -6,6 +6,9 @@ linktitle: العمل مع التوقيعات الرقمية
 description: "قم بتوقيع المستندات رقميًا واكتشف التوقيعات الرقمية الموجودة وعدها والتحقق منها وإزالتها باستخدام Python."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/working-with-digital-signatures/
 timestamp: 2024-01-27-14-07-04
 ---

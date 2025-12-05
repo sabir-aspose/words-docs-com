@@ -6,6 +6,9 @@ linktitle: Manipular y sustituir las fuentes TrueType
 description: "Aspose.Words para Java puede incrustar las fuentes TrueType correctas en el documento resultante para garantizar que se muestre con precisión, o buscar un reemplazo de fuente adecuado, o utiliza el mecanismo de respaldo de fuentes."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/java/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

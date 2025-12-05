@@ -6,6 +6,9 @@ linktitle: Belgelerle Programlama
 type: docs
 description: "C++ kullanarak belgeleri programlı olarak oluşturmak, değiştirmek ve yönetmek için Aspose.Words Belge Nesne Modeli sınıflarını kullanın. Renklerin, şekillerin, yazı tiplerinin ve diğer grafiklerin yönetimi yoluyla belge özellikleri, ayarları ve içeriğinin yanı sıra belge görünümüyle çalışın."
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

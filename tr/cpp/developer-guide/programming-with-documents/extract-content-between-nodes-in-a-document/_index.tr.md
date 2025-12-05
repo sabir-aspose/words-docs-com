@@ -6,6 +6,9 @@ linktitle: Düğümler Arasındaki İçeriği Ayıkla
 type: docs
 description: "C++ kullanarak farklı belge içeriği ayıklanıyor."
 weight: 140
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/how-to-extract-selected-content-between-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

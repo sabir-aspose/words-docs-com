@@ -6,6 +6,9 @@ linktitle: Tuần tự hóa và làm việc với một tài liệu trong cơ s�
 description: "Chuyển đổi tài liệu thành mảng byte để làm việc với tài liệu này trong cơ sở dữ liệu bằng C#. Bạn có thể lưu trữ và truy xuất tài liệu đến và từ cơ sở dữ liệu."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-07-09-19-00-42
 ---

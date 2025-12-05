@@ -6,6 +6,9 @@ linktitle: Joindre des tables
 description: "Joignez des tables dans C#. Comment fusionner deux tables en un seul C#."
 type: docs
 weight: 90
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/join-tables/
 timestamp: 2024-01-27-14-07-04
 ---

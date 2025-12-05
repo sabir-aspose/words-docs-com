@@ -6,6 +6,9 @@ linktitle: Avisos de problemas de acessibilidade ao salvar em PDF/A e PDF/UA
 description: "PDF/A e PDF/UA impõem requisitos de acessibilidade relacionados ao conteúdo do documento. Ao salvar em PDF/A ou PDF/UA em C# e o problema violar a conformidade, um aviso será emitido."
 type: docs
 weight: 29
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/net/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

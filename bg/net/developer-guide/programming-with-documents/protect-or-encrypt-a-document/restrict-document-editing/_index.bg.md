@@ -6,6 +6,9 @@ linktitle: Редактиране на ограничен документ
 description: "Ограничаване на редактиране на документ чрез задаване на тип ограничение, като се използва C#. Можете също така да премахнете защитата и да направите неограничени региони за редактиране."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---

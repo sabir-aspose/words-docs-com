@@ -6,6 +6,9 @@ linktitle: 파일 형식 및 변환
 description: "Java코드의 두 줄 형식을 저장하는 지원되는 부하에서 문서를 변환합니다. Java을 사용하여 고품질 변환을 제공합니다."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/file-formats-and-conversions/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: Caracteristici Acceptate
 description: "Aspose.Words pentru Python via .NET oferă utilizatorilor o gamă largă de funcții, de la simpla conversie și modificare a documentelor la crearea de documente structurate și atrăgătoare din punct de vedere vizual sau automatizarea raportării."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/python-net/features/
 timestamp: 2024-10-21-11-17-44
 ---

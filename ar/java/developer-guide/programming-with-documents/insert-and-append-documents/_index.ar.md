@@ -6,6 +6,9 @@ linktitle: إدراج المستندات وإلحاقها
 description: "دمج المستندات في مستند واحد: أدخل أو ألحق مستندا في مستند جديد أو موجود باستخدام البحث والاستبدال أو حقل الدمج أو الإشارة المرجعية أو ببساطة في نهاية المستند بـ Java."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Конвертиране между измервателните ед
 description: "Aspose.Words вместо .NET може да ви помогне с това как да конвертирате между измервателните единици, например, инча към точки и точки към инча, пиксели към точки, точки към пиксели, използвайки C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/convert-between-measurement-units/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 與受敏感標籤標記的文件一起工作
 description: "用 C#將帶有適用敏感標籤的 Word 轉換為 PDF。 與附有敏感標籤的文件一起工作–各種輸入格式，包括Word、OpenOffice、圖片和電子書。"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/work-with-document-market-by-sensitivity-label/
 timestamp: 2024-01-31-14-23-37
 ---

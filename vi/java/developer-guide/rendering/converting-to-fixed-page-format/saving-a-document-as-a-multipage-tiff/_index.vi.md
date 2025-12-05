@@ -6,6 +6,9 @@ linktitle: Lưu một Tài liệu dưới dạng TIFF nhiều trang
 description: "Chuyển đổi tài liệu thành một hình ảnh raster, được thảo luận trên ví dụ của định dạng TIFF. Để xác định cách TIFF hiển thị bạn cần phải chỉ định các tùy chọn bổ sung: độ phân giải, số trang, hình ảnh nhị phân hóa, v.v. bằng Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: SharePoint オンラインに保存されているドキュメント�
 description: "SharePoint で共有されている Word を C# を使用して PDF に変換します。 SharePoint に保存されたドキュメントを操作します。Word、OpenOffice、画像、電子ブックなどのさまざまな入力形式が使用できます。"
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/work-with-document-stored-in-sharepoint/
 timestamp: 2024-10-21-11-17-44
 ---

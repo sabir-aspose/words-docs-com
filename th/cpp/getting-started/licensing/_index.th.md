@@ -6,6 +6,9 @@ linktitle: การออกใบอนุญาตและการสมั
 description: "Aspose.Wordsสำหรับ С ++ ให้แผนการที่แตกต่างกันสำหรับการซื้อหรือมีการทดลองใช้ฟรีและใบอนุญาตชั่วคร."
 type: docs
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/licensing/
 timestamp: 2024-10-24-11-44-28
 ---

@@ -6,6 +6,9 @@ linktitle: Rozdělit dokument
 description: "Rozdělit dokument do několika souborů pomocí C#. Pomocí split funkce efektivně rozdělit dokument o nadpisy nebo oddíly, stejně jako na stránkách nebo podle rozsahů stránek."
 type: docs
 weight: 90
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/net/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

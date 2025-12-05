@@ -6,6 +6,9 @@ linktitle: Utilisation du contrôle de contenu SDT
 type: docs
 description: "Gestion avancée du contenu des documents, comment créer et manipuler des contrôles de contenu (Balises de document structurées) à l'aide de Java."
 weight: 390
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: 乾淨地打掃一份文件
 description: "使用 C# 移除未使用的或重複的信息，以減少輸出大小和處理時間。 移除未使用的樣式、未使用的內建樣式、重複的樣式，或未使用的清單。"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

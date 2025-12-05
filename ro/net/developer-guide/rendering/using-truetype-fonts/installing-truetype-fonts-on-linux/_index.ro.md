@@ -6,6 +6,9 @@ linktitle: Instalează fonturi TrueType pe Linux
 description: "Aspose.Words pentru .NET permite redarea unui document creat folosind Microsoft Word pe o Linux mașină cu cea mai mare acuratețe utilizând C#. Pentru a realiza acest lucru copiați fișiere de font dintr-o Windows mașină sau instalați un `TrueType` pachet de fonturi pe mașina dvs. Linux în C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/installing-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: แปลงเอกสารเป็น PDF
 description: "แปลงเอกสารเป็น PDF โดยใช้ Python รองรับรูปแบบการป้อนข้อมูลที่หลากหลาย รวมถึงรูปแบบ Word, OpenOffice, รูปภาพ และ eBook"
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/python-net/convert-a-document-to-pdf/
 timestamp: 2024-01-31-14-23-37
 ---

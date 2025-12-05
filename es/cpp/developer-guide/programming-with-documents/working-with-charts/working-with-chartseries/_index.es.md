@@ -6,6 +6,9 @@ linktitle: Trabajando con ChartSeries
 description: "Ajuste de series de gráficos usando C++."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/cpp/working-with-chartseries/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Logiczne poziomy węzłów w dokumencie
 type: docs
 description: "W Aspose.Words zamiast Java dokumentacja wspomniała poziomy logiczne węzłów - poziom bloku, poziom inline- lub poziom wiersza. Poziom węzła służy do opisu lokalizacji w drzewie dokumentów, w którym zazwyczaj występuje węzeł."
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Batasi Pengeditan Dokumen
 description: "Batasi pengeditan dokumen dengan mengatur jenis pembatasan menggunakan C#. Anda juga dapat menghapus perlindungan dan membuat wilayah yang dapat diedit tidak dibatasi."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/net/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---

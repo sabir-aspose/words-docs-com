@@ -5,6 +5,9 @@ linktitle: Aspose.Words cho Java
 description: "Tạo, sửa đổi, chuyển đổi, trình bày và in tài liệu bằng Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/
 is_root: true
 timestamp: 2024-09-25-11-08-55

@@ -6,6 +6,9 @@ linktitle: Bir Belgeyi PDF'ye Dönüştürme
 description: "Python'i kullanarak bir belgeyi PDF'ye dönüştürün. Word, OpenOffice, Resim ve e-Kitap formatları dahil olmak üzere çeşitli giriş formatları desteklenir."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/python-net/convert-a-document-to-pdf/
 timestamp: 2024-01-31-14-23-37
 ---

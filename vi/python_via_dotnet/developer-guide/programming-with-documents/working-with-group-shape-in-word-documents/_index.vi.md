@@ -6,6 +6,9 @@ linktitle: Làm việc với Hình dạng Group trong Tài liệu Word
 description: "Thêm group shape vào tài liệu bằng Python."
 type: docs
 weight: 290
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/how-to-add-group-shape-into-a-word-document/
 timestamp: 2024-01-27-14-07-04
 ---

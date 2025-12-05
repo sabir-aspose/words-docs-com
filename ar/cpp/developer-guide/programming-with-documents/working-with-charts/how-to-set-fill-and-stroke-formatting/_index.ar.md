@@ -6,6 +6,9 @@ linktitle: العمل مع الرسوم البيانية
 description: "مقدمة في ميزة الرسم البياني، وكيفية إنشاء المخططات ومعالجتها باستخدام C++."
 type: docs
 weight: 170
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/how-to-set-fill-and-stroke-formatting/
 timestamp: 2024-01-27-14-07-04
 ---

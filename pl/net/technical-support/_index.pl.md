@@ -8,6 +8,9 @@ linktitle: Pomoc techniczna
 type: docs
 description: "Aspose.Words for .NET zapewnia bezpłatną pomoc techniczną dostępną dla wszystkich użytkowników. Zgłoś swoje pytanie, problem lub prośbę o funkcję za pomocą bezpłatnego forum wsparcia Aspose."
 weight: 80
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/technical-support/
 timestamp: 2024-01-27-14-07-04
 ---

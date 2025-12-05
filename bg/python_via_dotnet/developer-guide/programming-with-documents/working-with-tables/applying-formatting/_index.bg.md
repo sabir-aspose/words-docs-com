@@ -6,6 +6,9 @@ linktitle: Прилагане на форматиране
 description: "Форматиране на таблица в детайли, като се използва Python. Използване Python форматиране на всяка част от таблицата."
 type: docs
 weight: 70
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/python-net/applying-formatting/
 timestamp: 2024-01-27-14-07-04
 ---

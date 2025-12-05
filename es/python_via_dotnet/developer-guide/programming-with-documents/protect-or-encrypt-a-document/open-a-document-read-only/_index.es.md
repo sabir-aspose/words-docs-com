@@ -6,6 +6,9 @@ linktitle: Abrir un documento de solo lectura
 description: "Haga que su documento sea de solo lectura para que el contenido pueda copiarse o leerse, pero no modificarse mediante Python."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/python-net/open-a-document-read-only/
 timestamp: 2024-01-27-14-07-04
 ---

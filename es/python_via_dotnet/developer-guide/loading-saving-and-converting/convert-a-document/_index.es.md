@@ -4,6 +4,9 @@ second_title: Aspose.Words para Python via .NET
 articleTitle: Convertir un documento
 linktitle: Convertir un documento
 type: docs
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/python-net/convert-a-document/
 weight: 30
 description: "Convierta fácilmente documentos de un formato a otro utilizando Python. Puede trabajar con todos los formatos más populares, como formatos Microsoft de Word como DOCX o DOC, formatos OpenDocument como ODT u OTT, formatos web como HTML o XHTML, formatos de texto como MarkDown o TXT, y otros."

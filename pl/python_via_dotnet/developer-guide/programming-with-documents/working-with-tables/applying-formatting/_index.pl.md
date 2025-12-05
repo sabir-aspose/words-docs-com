@@ -6,6 +6,9 @@ linktitle: Zastosuj formatowanie
 description: "Szczegóły formatowania tabeli przy użyciu Python. Użyj Python, aby sformatować każdą część tabeli."
 type: docs
 weight: 70
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/python-net/applying-formatting/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Installation
 description: "Installieren Sie Aspose.Words für .NET mit Visual Studio-Tools wie Manage NuGet Packages oder Package Manager Console und dem MSI-Installationsprogramm. Verwenden Sie den Full Trust-Berechtigungssatz in C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/installation/
 timestamp: 2024-01-27-14-07-04
 ---

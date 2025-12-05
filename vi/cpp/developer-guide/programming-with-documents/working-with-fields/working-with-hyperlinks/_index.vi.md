@@ -6,6 +6,9 @@ linktitle: Thêm Hoặc Sửa Đổi Siêu Liên Kết
 description: "Cách thêm siêu liên kết vào tài liệu của bạn bằng cách sử dụng Aspose.Words cho C++."
 type: docs
 weight: 180
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/working-with-hyperlinks/
 timestamp: 2024-01-27-14-07-04
 ---

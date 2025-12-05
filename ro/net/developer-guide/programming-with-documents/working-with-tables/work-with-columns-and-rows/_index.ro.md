@@ -6,6 +6,9 @@ linktitle: Lucrul cu coloane și rânduri
 description: "`Lucrul cu părți ale unei tabele – rânduri, coloane și celule folosind C#`. Specificați rând antet în C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/working-with-columns-and-rows/
 timestamp: 2024-01-27-14-07-04
 ---

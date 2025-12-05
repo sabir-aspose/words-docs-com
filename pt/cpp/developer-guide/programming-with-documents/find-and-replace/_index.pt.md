@@ -6,6 +6,9 @@ linktitle: Localizar e substituir
 type: docs
 description: "Encontre um padrão de string ou expressão regular em seu documento e substitua-o pelo texto desejado usando C++."
 weight: 100
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/find-and-replace/
 timestamp: 2024-01-27-14-07-04
 ---

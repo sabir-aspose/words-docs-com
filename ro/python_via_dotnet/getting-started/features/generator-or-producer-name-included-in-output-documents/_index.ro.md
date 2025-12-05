@@ -6,6 +6,9 @@ linktitle: Numele generatorului sau al producătorului inclus în documentele de
 description: "Aspose.Words pentru Python via .NET adăugați la document numele generatorului și numărul versiunii care au fost utilizate pentru a-l crea. Aceste date pot fi găsite în document în moduri care depind de formatul fișierului de ieșire."
 type: docs
 weight: 60
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/python-net/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

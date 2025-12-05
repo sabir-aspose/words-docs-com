@@ -6,6 +6,9 @@ linktitle: Bezpieczeństwo Aplikacji Internetowych Podczas Ładowania Zasobów Z
 type: docs
 description: "Załaduj zasoby zdalne, które mogą być przyczyną zagrożeń bezpieczeństwa. Spójrz na typowe problemy bezpieczeństwa i ich rozwiązania w C++."
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-30-16-22-34
 ---

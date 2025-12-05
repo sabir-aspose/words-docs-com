@@ -6,6 +6,9 @@ linktitle: Aspose.Words مدل شیء سند (DOM)
 type: docs
 description: "مدل شیء سند (DOM) یک نمایش در حافظه یک سند ورد است. خواندن، دستکاری و تغییر محتوا و قالب بندی یک سند ورد با استفاده از C++."
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/aspose-words-document-object-model/
 timestamp: 2024-01-27-14-07-04
 ---

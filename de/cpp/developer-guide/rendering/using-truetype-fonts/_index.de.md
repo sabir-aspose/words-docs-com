@@ -6,6 +6,9 @@ linktitle: TrueType-Schriftarten verwenden
 description: "Aspose.Words für C++ kann die richtige Schriftart oder ihren geeigneten Ersatz für die korrekte Dokumentenwiedergabe finden. Dies stellt sicher, dass der Unterschied zwischen dem angezeigten Dokument und dem Original minimal ist, wenn nicht genügend Informationen zu einer Schriftart vorhanden sind."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/cpp/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

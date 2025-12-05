@@ -6,6 +6,9 @@ linktitle: Очищення документа
 description: "Видаліть невикористану або дубльовану інформацію, щоб зменшити розмір виводу та час обробки, використовуючи C++. Видаліть невикористані стилі, невикористані вбудовані стилі, повторювані стилі або невикористані списки."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

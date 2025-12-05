@@ -6,6 +6,9 @@ linktitle: ویژگی های فیلد را سفارشی کنید
 description: "با نحوه سفارشی کردن خصوصیات فیلد در C# آشنا شوید. تغییر نام فیلدهای ادغام یا به دست آوردن نتایج برای فیلدهای بدون گره جداکننده در .NET."
 type: docs
 weight: 27
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

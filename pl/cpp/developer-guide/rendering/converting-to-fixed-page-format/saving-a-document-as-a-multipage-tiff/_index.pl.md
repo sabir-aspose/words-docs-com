@@ -6,6 +6,9 @@ linktitle: Zapisywanie dokumentu jako wielostronicowego TIFF
 description: "Konwertuj dokument na wielostronicowy TIFF za pomocą C++. Aby określić, w jaki sposób dokument jest wyświetlany na obrazie, należy określić dodatkowe opcje: rozdzielczość, liczbę stron, binaryzację obrazu itp."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

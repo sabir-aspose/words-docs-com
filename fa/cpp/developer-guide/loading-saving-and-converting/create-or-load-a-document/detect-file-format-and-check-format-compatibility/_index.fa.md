@@ -6,6 +6,9 @@ linktitle: تشخیص فرمت فایل و بررسی سازگاری فرمت
 description: "اگر مطمئن نیستید که محتوای واقعی فایل چیست یا برای بررسی سازگاری فرمت، فرمت فایل را در C++ تعیین کنید."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

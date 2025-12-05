@@ -6,6 +6,9 @@ linktitle: Bekerja dengan Tanda Hubung
 description: "Gunakan tanda hubung untuk susunan teks yang lebih ringkas menggunakan C#. Ini menyediakan algoritma tingkat lanjut untuk bekerja dengan kamus tanda hubung, menggunakan kamus OpenOffice."
 type: docs
 weight: 220
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/net/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---

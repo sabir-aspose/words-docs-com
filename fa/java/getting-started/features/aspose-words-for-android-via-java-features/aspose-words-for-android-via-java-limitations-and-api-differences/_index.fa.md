@@ -6,6 +6,9 @@ linktitle: Aspose.Words برای Android از طریق Java محدودیت ها 
 description: "Aspose.Words برای Android از طریق Java ویژگی ها و API تفاوت در مقایسه با Aspose.Words معمولی برای Java نسخه."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/aspose-words-for-android-via-java-limitations-and-api-differences/
 timestamp: 2024-01-27-14-07-04
 ---

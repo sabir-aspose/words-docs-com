@@ -6,6 +6,9 @@ linktitle: Bir Tabloda Metinle Çalışın
 description: "Bir tablodaki metni Java ile değiştirin. Tablo veya Hücreden Basit Metni Java kullanarak ayıkla."
 type: docs
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/extract-text-from-and-replace-text-in-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

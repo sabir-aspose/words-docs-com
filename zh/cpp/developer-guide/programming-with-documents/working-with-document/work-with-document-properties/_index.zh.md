@@ -6,6 +6,9 @@ linktitle: 使用文档属性
 description: "Aspose.Words对于C++ 允许在内置或自定义文档属性中存储有关文档的一些有用信息，例如API和版本号或授权日期。"
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

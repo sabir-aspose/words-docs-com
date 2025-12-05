@@ -6,6 +6,9 @@ linktitle: Licențiere și abonament
 description: "Aspose.Words pentru Java oferă diferite planuri de cumpărare sau oferă o încercare gratuită și o licență temporară de 30 de zile pentru evaluare folosind Politici de licențiere și abonament."
 type: docs
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/java/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

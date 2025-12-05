@@ -6,6 +6,9 @@ linktitle: Đang tải, lưu và chuyển đổi
 description: "Cách chuyển đổi tài liệu từ định dạng này sang định dạng khác, chẳng hạn như Word sang PDF hoặc HTML sang Markdown, cũng như cách tải và lưu tài liệu bằng C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---

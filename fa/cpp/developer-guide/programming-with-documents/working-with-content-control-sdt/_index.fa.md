@@ -6,6 +6,9 @@ linktitle: کار با کنترل محتوا SDT
 type: docs
 description: "مدیریت محتوای اسناد پیشرفته، نحوه ایجاد و دستکاری کنترل محتوا (تگ های اسناد ساختاری) با استفاده از C++."
 weight: 390
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/structured-document-tags-or-content-control/
 timestamp: 2024-01-27-14-07-04
 ---

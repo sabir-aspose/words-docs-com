@@ -6,6 +6,9 @@ linktitle: Bekerja dengan Kolom dan Baris
 description: "Bekerja dengan bagian tabel – baris, kolom, dan sel menggunakan Python. Tentukan Python Baris Header."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/python-net/working-with-columns-and-rows/
 timestamp: 2024-01-27-14-07-04
 ---

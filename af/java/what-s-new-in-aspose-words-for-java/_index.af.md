@@ -8,6 +8,7 @@ description: "Aspose.Words vir Java brei en verbeter daagliks. Op hierdie bladsy
 weight: 2
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/java/what-s-new-in-aspose-words-for-java/
 timestamp: 2025-06-23-21-02-49
 ---

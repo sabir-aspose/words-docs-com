@@ -6,6 +6,9 @@ linktitle: Travailler avec la césure
 description: "Utilisez la césure pour une disposition plus compacte du texte à l’aide de C#. Il fournit des algorithmes avancés pour travailler avec des dictionnaires de césure et utilise des dictionnaires OpenOffice."
 type: docs
 weight: 220
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---

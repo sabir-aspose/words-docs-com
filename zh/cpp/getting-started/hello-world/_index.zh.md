@@ -6,6 +6,9 @@ linktitle: 你好世界
 description: "使用任何支持的格式创建、编辑和保存您的第一个文档 Aspose.Words为C++ 在C++中体验它的简单和力量。"
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/hello-world/
 timestamp: 2024-01-27-14-07-04
 ---

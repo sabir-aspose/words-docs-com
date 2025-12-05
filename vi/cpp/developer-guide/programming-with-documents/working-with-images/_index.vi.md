@@ -6,6 +6,9 @@ linktitle: Làm Việc Với Hình Ảnh
 type: docs
 description: "Giới thiệu Về Tính năng Hình ảnh, cách tạo và thao tác hình ảnh bằng C++."
 weight: 300
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/working-with-images/
 timestamp: 2024-01-27-14-07-04
 ---

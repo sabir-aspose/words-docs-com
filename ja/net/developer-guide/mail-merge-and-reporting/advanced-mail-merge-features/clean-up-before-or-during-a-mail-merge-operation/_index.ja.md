@@ -7,6 +7,9 @@ type: docs
 description: "Mail Merge操作を実行する前に差し込み項目を削除したり、Mail Merge操作中にC#を使用して未使用領域を削除したりするなど、さまざまなクリーニングおよび削除オプ"
 keywords: "cleanup options Mail Merge c#"
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/clean-up-before-or-during-mail-merge/
 timestamp: 2024-07-11-08-07-06
 ---

@@ -6,6 +6,9 @@ linktitle: Empezando
 type: docs
 description: "Utilice esta introducción a los fundamentos de Aspose.Words para Python via .NET para comenzar a darse cuenta del valor de Aspose.Words para su negocio."
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/python-net/getting-started/
 timestamp: 2024-09-25-11-08-55
 ---

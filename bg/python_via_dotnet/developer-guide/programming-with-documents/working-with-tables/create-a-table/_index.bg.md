@@ -6,6 +6,9 @@ linktitle: Въведение и създаване на таблици
 description: "Създаване и управление на таблици в документ, използвайки Python."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/python-net/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: Nettoyer un Document
 description: "Supprimez les informations inutilisées ou en double pour réduire la taille de la sortie et le temps de traitement à l'aide de C++. Supprimez les styles inutilisés, les styles intégrés inutilisés, les styles en double ou les listes inutilisées."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

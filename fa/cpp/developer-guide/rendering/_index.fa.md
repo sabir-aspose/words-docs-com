@@ -6,6 +6,9 @@ linktitle: رندر کردن
 description: "استفاده کنید Aspose.Words برای C++ ویژگی رندر برای قالب بندی یک سند طرح جریان به صفحات و تبدیل چنین سند یا صفحات انتخاب شده به اسناد دیگر(PDF, HTML, XPS, و غیره) یا تصاویر (TIFF, PNG, SVG, و غیره) فرمت هایی برای مشاهده، تبدیل بیشتر یا چاپ."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/rendering/
 timestamp: 2024-01-30-16-22-34
 ---

@@ -6,6 +6,9 @@ linktitle: Trabalhando com tipografia asiática
 description: "Trabalhe com tipografia asiática usando Python. Ajuste o espaço entre texto asiático e latino em Python."
 type: docs
 weight: 240
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/python-net/working-with-asian-typography/
 timestamp: 2024-02-01-16-17-05
 ---

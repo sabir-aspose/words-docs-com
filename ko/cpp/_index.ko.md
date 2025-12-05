@@ -5,6 +5,9 @@ linktitle: Aspose.Words 에 대한 C++
 description: "다음을 사용하여 문서 생성,수정,변환,렌더링 및 인쇄 C++."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/
 is_root: true
 timestamp: 2024-09-25-11-08-55

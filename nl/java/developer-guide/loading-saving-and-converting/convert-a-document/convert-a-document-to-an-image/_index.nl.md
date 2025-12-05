@@ -6,6 +6,9 @@ linktitle: Een document omzetten naar een afbeelding
 type: docs
 description: "Een document omzetten naar afbeeldingsformaat (JPG, PNG, etc). Een documentvoorbeeld aanmaken of een documentscan maken om een factuur te versturen met behulp van Java."
 weight: 35
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/java/convert-a-document-to-an-image/
 timestamp: 2024-01-27-14-07-04
 ---

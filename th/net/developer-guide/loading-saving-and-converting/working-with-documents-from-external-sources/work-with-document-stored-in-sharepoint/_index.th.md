@@ -6,6 +6,9 @@ linktitle: ทำงานกับเอกสารที่เก็บไว
 description: "แปลง Word ที่แชร์ใน SharePoint เป็น PDF โดยใช้ C# ทำงานกับเอกสารที่จัดเก็บไว้ใน SharePoint – รูปแบบอินพุตที่หลากหลาย รวมถึง Word, OpenOffice, Image และ eBook"
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/work-with-document-stored-in-sharepoint/
 timestamp: 2024-10-21-11-17-44
 ---

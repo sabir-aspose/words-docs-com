@@ -6,6 +6,9 @@ linktitle: Problèmes de Manipulation et de Performances des Polices
 description: "Aspose.Words pour C++ utilise le nom complet de la police, le nom de famille, la version, le style pour trouver les données de police requises ou un remplacement approprié pour la police demandée. FontSettings vous permet d'accélérer le chargement des documents."
 type: docs
 weight: 11
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/font-manipulation-and-performance-issues/
 timestamp: 2024-09-24-14-35-44
 ---

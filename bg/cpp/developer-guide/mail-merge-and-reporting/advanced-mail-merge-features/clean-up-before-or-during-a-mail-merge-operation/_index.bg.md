@@ -7,6 +7,9 @@ type: docs
 description: "Приложете различни опции за почистване и премахване, като например изтриване на полета за обединяване, преди да извършите операция Mail Merge или премахване на неизползвани региони по време на операция Mail Merge."
 keywords: "cleanup options Mail Merge c#"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/clean-up-before-or-during-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

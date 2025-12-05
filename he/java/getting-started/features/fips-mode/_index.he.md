@@ -6,6 +6,9 @@ linktitle: מצב FIPS
 description: "Aspose.Words עבור Java משתמשים במספר אלגוריתמים של הצפנה ושישה בעת עיבוד מסמכים כדי לציית לסטנדרטים של FIPS."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/fips-mode/
 timestamp: 2024-05-08-10-19-58
 ---

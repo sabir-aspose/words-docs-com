@@ -6,6 +6,9 @@ linktitle: 安裝
 description: "使用 Visual Studio 工具（如 Manage NuGet Packages 或 Package Manager Console）以及 MSI 安裝器，安裝 .NET 的 Aspose.Words。 在 C# 中使用 Full Trust 權限組。"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/installation/
 timestamp: 2024-01-27-14-07-04
 ---

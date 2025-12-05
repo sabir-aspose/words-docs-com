@@ -6,6 +6,9 @@ linktitle: 在节点之间提取内容
 type: docs
 description: "使用C++在不同的文档内容中提取."
 weight: 140
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/how-to-extract-selected-content-between-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

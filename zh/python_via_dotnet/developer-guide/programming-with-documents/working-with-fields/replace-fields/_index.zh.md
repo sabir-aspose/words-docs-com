@@ -6,6 +6,9 @@ linktitle: 用静态文本替换字段
 description: "了解如何用 Python 中的文本替换字段。使用 Python via .NET API 将字段替换为静态数据。"
 type: docs
 weight: 37
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/replace-fields/
 timestamp: 2024-01-27-14-07-04
 ---

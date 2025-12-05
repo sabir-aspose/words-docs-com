@@ -6,6 +6,9 @@ linktitle: Вставка та додавання документів
 description: "Об'єднуйте документи в один: вставляйте або додавайте документ в новий або існуючий, використовуючи функцію пошуку і заміни, поле об'єднання, закладку або просто в кінці документа."
 type: docs
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

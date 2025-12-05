@@ -6,6 +6,9 @@ linktitle: Trabajar con complementos de Office
 description: "Aspose.Words para .NET proporciona varias clases para trabajar con complementos de Office mediante C#. Puede agregar el Panel de tareas a través de una extensión web y personalizar el panel y las propiedades de la extensión."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

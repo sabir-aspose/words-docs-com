@@ -6,6 +6,9 @@ linktitle: 限制文档编辑
 description: "通过设置限制类型来限制编辑文档。 您还可以使用Java删除保护并创建不受限制的可编辑区域。"
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---

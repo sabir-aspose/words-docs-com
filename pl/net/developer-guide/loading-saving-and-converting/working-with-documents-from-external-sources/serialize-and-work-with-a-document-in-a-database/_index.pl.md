@@ -6,6 +6,9 @@ linktitle: Serializacja i praca z dokumentem w bazie danych
 description: "Konwertuj dokument na tablicę bajtów do pracy z tym dokumentem w bazie danych za pomocą C#. Możesz przechowywać i pobierać dokumenty do i z bazy danych."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-07-09-19-00-42
 ---

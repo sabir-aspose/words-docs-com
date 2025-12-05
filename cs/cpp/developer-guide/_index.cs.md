@@ -6,6 +6,9 @@ linktitle: Průvodce Pro Vývojáře
 description: "Tato příručka pro vývojáře popisuje praktické scénáře a tipy, které vám pomohou použít konkrétní funkce Aspose.Words pro C++, dosáhnout určitého vzhledu dokumentu nebo umožnit případ použití."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

@@ -6,6 +6,9 @@ linktitle: Chỉ Định Các Tùy chọn Kết Xuất Khi Chuyển đổi thàn
 description: "Chuyển đổi tài liệu thành PDF với các tùy chọn nâng cao bằng C++. Sử dụng PdfSaveOptions để thay đổi kết quả lưu tài liệu thành định dạng PDF."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

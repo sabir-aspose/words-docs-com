@@ -6,6 +6,9 @@ linktitle: Limpar um documento
 description: "Remova informações não utilizadas ou duplicadas para reduzir o tamanho da saída e o tempo de processamento usando C++. Remover estilos não utilizados, estilos incorporados não utilizados, estilos duplicados ou listas não utilizadas."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

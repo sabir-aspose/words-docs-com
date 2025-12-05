@@ -6,6 +6,9 @@ linktitle: Робота з макросами VBA
 description: "Робота з проектами документа VBA з використанням C++."
 type: docs
 weight: 410
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/working-with-vba-macros/
 timestamp: 2024-01-30-16-22-34
 ---

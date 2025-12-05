@@ -6,6 +6,9 @@ linktitle: Rimuovi campi
 description: "Scopri come rimuovere i campi in C#. Rimuovere i campi a livello di codice utilizzando .NET API."
 type: docs
 weight: 35
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/remove-fields/
 timestamp: 2024-01-27-14-07-04
 ---

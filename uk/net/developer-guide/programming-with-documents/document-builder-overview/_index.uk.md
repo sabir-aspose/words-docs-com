@@ -6,6 +6,9 @@ linktitle: Огляд конструктора документів
 type: docs
 description: "DocumentBuilder дозволяє побудувати динамічні документи з нуля або додати нові елементи до існуючих C#й DocumentBuilder надає методи вставляти текст, прапорці, таблиці, зображення та інші елементи вмісту в .NETй"
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

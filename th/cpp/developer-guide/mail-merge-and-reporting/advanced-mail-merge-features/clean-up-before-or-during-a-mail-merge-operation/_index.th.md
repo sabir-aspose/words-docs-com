@@ -7,6 +7,9 @@ type: docs
 description: "ใช้การทำความสะอาดที่แตกต่างกันและการลบตัวเลือกเช่นการลบเขตข้อมูลผสานก่อนที่จ Mail Merge การดำเนินการหรือการลบพื้นที่ที่ไม่ได้ใช้ในระหว่าง Mail Merge การดำเนินงาน."
 keywords: "cleanup options Mail Merge c#"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/clean-up-before-or-during-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

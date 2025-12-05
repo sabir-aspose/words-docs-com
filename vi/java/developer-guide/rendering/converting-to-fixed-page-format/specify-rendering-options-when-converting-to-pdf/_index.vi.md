@@ -6,6 +6,9 @@ linktitle: Chỉ định tùy chọn render khi chuyển đổi sang PDF
 description: "Chuyển đổi tài liệu thành tệp PDF với các tùy chọn nâng cao. Sử dụng PdfSaveOptions để thay đổi kết quả khi lưu một tài liệu sang định dạng PDF bằng cách sử dụng Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

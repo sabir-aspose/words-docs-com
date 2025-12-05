@@ -6,6 +6,9 @@ linktitle: 문서를MHTML으로 변환하고 이메일로 보냅니다
 description: "모든 문서를MHTML형식으로 변환한 다음Java에 있는 아스 포스 제품군을 하나 더 사용하여 전자 메일로 보냅니다."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/convert-a-document-to-mhtml-and-send-it-by-email/
 timestamp: 2024-01-27-14-07-04
 ---

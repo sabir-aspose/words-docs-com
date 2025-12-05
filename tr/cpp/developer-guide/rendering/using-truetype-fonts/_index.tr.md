@@ -6,6 +6,9 @@ linktitle: TrueType Yazı Tiplerini Kullanma
 description: "Aspose.Words için C++ doğru yazı tipini veya doğru belge oluşturma için uygun yerini bulabilir. Bu, bir yazı tipi hakkında yeterli bilgi olmadığında görüntülenen belge ile orijinal arasındaki farkın minimum düzeyde olmasını sağlar."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

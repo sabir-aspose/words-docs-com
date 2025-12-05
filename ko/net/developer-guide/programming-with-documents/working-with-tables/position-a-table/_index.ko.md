@@ -6,6 +6,9 @@ linktitle: 테이블 배치
 description: "C#에서 테이블 위치를 지정합니다. C#를 사용하여 테이블 정렬을 가져오고 부동 테이블 위치를 가져오고 설정합니다."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/position-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

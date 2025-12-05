@@ -6,6 +6,9 @@ linktitle: Ikhtisar Pembuat Dokumen
 type: docs
 description: "DocumentBuilder memungkinkan Anda membuat dokumen dinamis dari awal atau menambahkan elemen baru ke yang sudah ada menggunakan C#. DocumentBuilder menyediakan metode untuk menyisipkan teks, kotak centang, tabel, gambar, dan elemen konten lainnya di .NET."
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/net/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

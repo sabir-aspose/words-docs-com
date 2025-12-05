@@ -6,6 +6,9 @@ linktitle: ロード、保存、変換
 description: "Word から PDF、HTML から Markdown など、ドキュメントをある形式から別の形式に変換する方法と、C# を使用してドキュメントを読み込んで保存する方法。"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---

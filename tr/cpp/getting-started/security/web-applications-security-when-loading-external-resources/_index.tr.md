@@ -6,6 +6,9 @@ linktitle: Dış Kaynakları Yüklerken Web Uygulamaları Güvenliği
 type: docs
 description: "Uzak kaynakları yükleyin, bu güvenlik risklerinin bir nedeni olabilir. Genel güvenlik sorunlarına ve çözümlerine C++ içinde bir göz atın."
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-30-16-22-34
 ---

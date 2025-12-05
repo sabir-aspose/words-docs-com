@@ -6,6 +6,9 @@ linktitle: 将文档转换为 PDF
 description: "使用 Python 将文档转换为 PDF。支持多种输入格式，包括Word、OpenOffice、图像和电子书格式。"
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/convert-a-document-to-pdf/
 timestamp: 2024-01-31-14-23-37
 ---

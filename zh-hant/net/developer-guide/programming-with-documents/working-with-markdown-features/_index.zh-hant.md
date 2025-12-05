@@ -6,6 +6,9 @@ linktitle: 與 Markdown 功能工作
 description: "如何以C#實作Markdown功能。 所有功能都表示為對應的風格或直接格式。"
 type: docs
 weight: 420
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/working-with-markdown-features/
 timestamp: 2024-01-31-14-23-37
 ---

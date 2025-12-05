@@ -6,6 +6,9 @@ linktitle: 테이블 조인
 description: "C#에서 테이블을 조인합니다. 두 테이블을 하나의 C#로 병합하는 방법."
 type: docs
 weight: 90
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/join-tables/
 timestamp: 2024-01-27-14-07-04
 ---

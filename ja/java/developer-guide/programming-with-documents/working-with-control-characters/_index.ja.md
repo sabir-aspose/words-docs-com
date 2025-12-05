@@ -6,6 +6,9 @@ linktitle: 制御文字の操作
 description: "JavaのAspose.Wordsの制御文字を操作するための概要です。"
 type: docs
 weight: 400
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/working-with-control-characters/
 timestamp: 2024-01-27-14-07-04
 ---

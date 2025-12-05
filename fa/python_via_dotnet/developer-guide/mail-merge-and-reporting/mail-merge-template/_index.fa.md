@@ -7,6 +7,9 @@ type: docs
 description: "یک قالب Mail Merge برای تعریف محتوای ثابت در اسناد خروجی ایجاد کنید و سپس اسناد ادغام را با استفاده از فیلد های ادغام در Python تولید کنید."
 keywords: "create Mail Merge template python"
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/mail-merge-template/
 timestamp: 2024-01-31-14-23-37
 ---

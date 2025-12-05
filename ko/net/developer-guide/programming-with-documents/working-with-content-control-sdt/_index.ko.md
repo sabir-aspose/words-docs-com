@@ -6,6 +6,9 @@ linktitle: 콘텐츠 제어 SDT 작업
 description: "고급 문서 콘텐츠 관리, C#를 사용하여 콘텐츠 컨트롤(구조화된 문서 태그)을 만들고 조작하는 방법."
 type: docs
 weight: 390
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---

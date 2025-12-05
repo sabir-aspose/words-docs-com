@@ -6,6 +6,9 @@ linktitle: Font FallBack Setări din XML
 description: "Mecanismul de rezervă a fontului este utilizat atunci când fontul este rezolvat, dar nu conține un caracter specific. În acest caz, Aspose.Words încearcă să utilizeze unul dintre fonturile de rezervă pentru personaj."
 type: docs
 weight: 14
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/font-fallback-settings-from-xml/
 timestamp: 2024-09-24-14-35-44
 ---

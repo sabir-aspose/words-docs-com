@@ -8,6 +8,9 @@ linktitle: Apoyo técnico
 type: docs
 description: "Aspose.Words para .NET proporciona soporte técnico gratuito disponible para todos los usuarios. Informe su pregunta, problema o solicitud de función mediante el Foro de soporte gratuito de Aspose."
 weight: 80
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/technical-support/
 timestamp: 2024-01-27-14-07-04
 ---

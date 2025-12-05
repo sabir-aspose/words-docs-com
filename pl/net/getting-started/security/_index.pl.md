@@ -6,6 +6,9 @@ linktitle: Uwagi dotyczące bezpieczeństwa
 type: docs
 description: "Aspose.Words for .NET rozpoznaje i przestrzega powszechnych standardów bezpieczeństwa, aby zapewnić wysoki poziom bezpieczeństwa danych. Zapoznaj się z możliwymi problemami związanymi z bezpieczeństwem i zaleceniami, jak ich uniknąć, korzystając z formatu C#."
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/security/
 timestamp: 2024-01-27-14-07-04
 ---

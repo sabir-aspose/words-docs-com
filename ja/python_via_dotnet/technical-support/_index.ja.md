@@ -6,6 +6,9 @@ linktitle: テクニカルサポート
 type: docs
 description: "Aspose.Words for Python via .NET は、すべてのユーザーが利用できる無料のテクニカル サポートを提供します。 Aspose 無料サポート フォーラムを使用して、質問、問題、または機能リクエストを報告してください。"
 weight: 80
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/python-net/technical-support/
 timestamp: 2024-11-18-12-56-02
 ---

@@ -6,6 +6,9 @@ linktitle: עבודה עם מקף
 description: "השתמש במקף לסידור טקסט קומפקטי יותר באמצעות C++. הוא מספק אלגוריתמים מתקדמים לעבודה עם מילוני מקף, משתמש במילונים OpenOffice."
 type: docs
 weight: 220
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/working-with-hyphenation/
 timestamp: 2024-01-30-16-22-34
 ---

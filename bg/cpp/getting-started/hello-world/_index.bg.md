@@ -6,6 +6,9 @@ linktitle: Здравей Свят
 description: "Създавайте, редактирайте и запазете първия си документ във всеки поддържан формат, като използвате Aspose.Words за C++, за да изпитате неговата простота и сила в C++."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/hello-world/
 timestamp: 2024-01-27-14-07-04
 ---

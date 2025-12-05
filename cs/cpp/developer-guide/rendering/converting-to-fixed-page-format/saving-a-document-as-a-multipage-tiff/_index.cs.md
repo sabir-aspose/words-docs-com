@@ -6,6 +6,9 @@ linktitle: Uložení dokumentu jako vícestránkové TIFF
 description: "Převeďte dokument na vícestránkový TIFF pomocí C++. Chcete-li zjistit, jak je dokument zobrazen na obrázku, musíte zadat další možnosti: rozlišení, počet stránek, binarizace obrázků atd."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

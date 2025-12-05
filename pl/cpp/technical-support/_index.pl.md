@@ -6,6 +6,9 @@ linktitle: Wsparcie Techniczne
 type: docs
 description: "Aspose.Words for C++ zapewnia bezpłatne wsparcie techniczne dostępne dla wszystkich użytkowników. Zgłoś swoje pytanie, problem lub prośbę o funkcję za pomocą Aspose Free Support Forum."
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/technical-support/
 timestamp: 2024-01-27-14-07-04
 ---

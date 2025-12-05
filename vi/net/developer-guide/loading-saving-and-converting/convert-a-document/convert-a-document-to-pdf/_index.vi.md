@@ -6,6 +6,9 @@ linktitle: Biến đổi tài liệu thành PDF
 description: "Chuyển đổi Word sang PDF trong C#. Ví dụ mã đơn giản để chuyển đổi DOCX sang PDF. Hỗ trợ tất cả định dạng Word và hình ảnh."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/convert-a-document-to-pdf/
 timestamp: 2024-09-25-11-08-55
 ---

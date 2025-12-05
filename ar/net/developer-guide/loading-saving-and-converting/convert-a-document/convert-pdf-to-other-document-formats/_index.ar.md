@@ -7,6 +7,9 @@ type: docs
 description: "قم بتحويل تنسيقات PDF إلى Word مثل DOCX أو DOC أو تنسيقات الصور مثل JPG أو PNG أو أي تنسيقات أخرى يدعمها Aspose.Words باستخدام C#."
 keywords: convert pdf to other formats c#
 weight: 45
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/convert-pdf-to-other-document-formats/
 timestamp: 2024-07-09-19-00-42
 ---

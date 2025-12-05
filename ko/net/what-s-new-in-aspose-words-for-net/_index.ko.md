@@ -8,6 +8,7 @@ description: "Aspose.Words에 대한.NET매일 확장하고 향상시킵니다. 
 weight: 10
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/what-s-new-in-aspose-words-for-net/
 timestamp: 2025-06-23-21-02-49
 ---

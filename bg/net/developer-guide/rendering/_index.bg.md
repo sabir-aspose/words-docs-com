@@ -6,6 +6,9 @@ linktitle: Внасяне
 description: "Използване Aspose.Words вместо .NET представяне на функция за форматиране на документ за възпроизвеждане на потоци в страници и конвертиране на такъв документ или избрани страници в други документи (PDF, HTML, XPS, и т.н.) или изображения (TIFF, PNG, SVG и т.н.) формати за гледане, по-нататъшно преобразуване или отпечатване с помощта на C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/rendering/
 timestamp: 2024-01-27-14-07-04
 ---

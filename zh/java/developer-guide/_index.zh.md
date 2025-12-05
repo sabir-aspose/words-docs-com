@@ -6,6 +6,9 @@ linktitle: 开发人员指南
 description: "了解Aspose.WordsforJava开发人员指南，以获取更多用例、提示和技术细节。"
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

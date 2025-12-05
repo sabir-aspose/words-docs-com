@@ -6,6 +6,9 @@ linktitle: Utilização De Fontes TrueType
 description: "Aspose.Words para C++ pode encontrar a fonte certa ou seu substituto adequado para a renderização correta do documento. Isso garante que a diferença entre o documento exibido e o original seja mínima quando não houver informações suficientes sobre uma fonte."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

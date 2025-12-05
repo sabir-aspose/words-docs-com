@@ -6,6 +6,9 @@ linktitle: Systeemeisen
 description: "Voordat u gaat werken met Aspose.Words voor Python via .NET, Zorg ervoor dat u voldoet aan de eisen van het besturingssysteem, het platform en de omgeving, zodat de activiteiten op uw apparaten goed worden verantwoord."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/python-net/system-requirements/
 timestamp: 2024-04-27-18-03-32
 ---

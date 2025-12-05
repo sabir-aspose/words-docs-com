@@ -6,6 +6,9 @@ linktitle: 將文件轉換為 HTML、MHTML 或 EPUB
 description: "以 C# 將文件從幾乎任何格式轉換為 HTML 或 MHTML，以及使用 EPUB 格式。 您也可以為管理輸出文件而指定儲存選項。"
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/convert-a-document-to-html-mhtml-or-epub/
 timestamp: 2024-07-09-19-00-42
 ---

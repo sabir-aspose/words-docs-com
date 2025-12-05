@@ -6,6 +6,9 @@ linktitle: سریال سازی و کار با یک سند در یک پایگاه
 description: "یک سند را به آرایه بایتی برای کار با این سند در پایگاه داده با استفاده از C# تبدیل کنید. شما می توانید یک سند را به و از پایگاه داده ذخیره و بازیابی کنید."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-07-09-19-00-42
 ---

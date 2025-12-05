@@ -6,6 +6,9 @@ linktitle: اسناد را مقایسه کنید
 type: docs
 description: "دو سند را در هر فرمت پشتیبانی شده مقایسه کنید و تغییرات محتوا را نشان دهید. شما می توانید گزینه های پیشرفته را هنگام مقایسه با استفاده از Java اعمال کنید."
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/compare-documents/
 timestamp: 2024-01-27-14-07-04
 ---

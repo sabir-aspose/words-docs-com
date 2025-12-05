@@ -7,6 +7,9 @@ type: docs
 description: "Maak verschillende regio ' s in uw sjabloon om speciale gebieden te hebben die u eenvoudig kunt vullen met uw gegevens. Gebruik Mail Merge Met regio ' s als u tabellen, rijen met herhalende gegevens wilt invoegen om uw documenten dynamisch te laten groeien."
 keywords: "how to execute Mail Merge c++"
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/mail-merge-with-regions/
 timestamp: 2024-09-24-14-35-44
 ---

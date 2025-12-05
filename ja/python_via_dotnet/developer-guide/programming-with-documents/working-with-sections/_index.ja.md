@@ -6,6 +6,9 @@ linktitle: セクションの操作
 description: "Python を使用して、ドキュメント内のセクションとセクション区切りを作成および管理します。セクションをドキュメント Python に挿入します。セクションPythonを削除します。ドキュメント間でセクションをコピーします。"
 type: docs
 weight: 120
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/python-net/working-with-sections/
 timestamp: 2024-09-25-11-08-55
 ---

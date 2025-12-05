@@ -6,6 +6,9 @@ linktitle: ドキュメントを PDF に変換する
 description: "Python を使用してドキュメントを PDF に変換します。 Word、OpenOffice、画像、電子書籍形式など、さまざまな入力形式がサポートされています。"
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/python-net/convert-a-document-to-pdf/
 timestamp: 2024-01-31-14-23-37
 ---

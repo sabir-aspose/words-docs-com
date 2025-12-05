@@ -6,6 +6,9 @@ linktitle: Намерете и заменете
 type: docs
 description: "Намерете низ или шаблон на регулярен израз във вашия документ и го заместете с текста, който искате да използвате C++."
 weight: 100
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/find-and-replace/
 timestamp: 2024-01-27-14-07-04
 ---

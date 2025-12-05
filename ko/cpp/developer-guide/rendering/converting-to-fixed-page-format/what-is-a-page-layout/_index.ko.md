@@ -6,6 +6,9 @@ linktitle: 페이지 레이아웃은 무엇입니까
 description: "페이지 레이아웃이 무엇인지 알아 보겠습니다. 페이지 레이아웃은 문서에 포함된 콘텐츠의 지오메트리를 설명합니다."
 type: docs
 weight: 5
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/what-is-a-page-layout/
 timestamp: 2024-09-24-14-35-44
 ---

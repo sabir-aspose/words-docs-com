@@ -6,6 +6,9 @@ linktitle: Hình thành
 description: "Sử dụng Aspose.Words cho tính năng hiển thị Java để định dạng một tài liệu bố cục luồng thành các trang và chuyển đổi một tài liệu hoặc các trang được chọn như vậy sang một tài liệu khác (PDF, HTML, XPS, v.v.) hoặc hình ảnh (TIFF, PNG, SVG, v.v.) cho việc xem, các chuyển đổi tiếp theo hay in ấn."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/rendering/
 timestamp: 2024-01-27-14-07-04
 ---

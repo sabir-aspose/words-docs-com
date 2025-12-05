@@ -7,6 +7,9 @@ type: docs
 description: "만들기 Mail Merge 출력 문서에서 고정된 내용을 정의한 다음 병합 필드를 사용하여 병합 문서를 생성하는 템플릿입니다."
 keywords: "create Mail Merge template с++"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/mail-merge-template/
 timestamp: 2024-01-31-14-23-37
 ---

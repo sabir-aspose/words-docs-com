@@ -6,6 +6,9 @@ linktitle: Làm việc với các tính năng của Markdown
 description: "Cách triển khai các tính năng Markdown bằng Python. Tất cả các tính năng được thể hiện dưới dạng kiểu tương ứng hoặc định dạng trực tiếp."
 type: docs
 weight: 420
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/working-with-markdown-features/
 timestamp: 2024-01-31-14-23-37
 ---

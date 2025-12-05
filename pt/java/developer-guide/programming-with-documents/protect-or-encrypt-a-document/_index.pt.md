@@ -6,6 +6,9 @@ linktitle: Proteger ou encriptar um documento
 description: "Criptografar um documento, restringir a edição, usar assinaturas digitais para proteção de documentos. Aspose.Words suporta a maioria das opções de proteção de palavras usando Java."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/java/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 파일 형식 감지 및 형식 호환성 확인
 description: "파일의 실제 내용이 무엇인지 확실하지 않거나 형식 호환성을 확인하려면 C#에서 파일 형식을 결정하십시오."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

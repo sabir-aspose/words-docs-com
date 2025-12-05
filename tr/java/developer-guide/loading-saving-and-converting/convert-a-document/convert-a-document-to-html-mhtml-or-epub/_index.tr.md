@@ -6,6 +6,9 @@ linktitle: Bir Belgeyi HTML, MHTML veya EPUB'ye Dönüştürün
 description: "Aspose.Words için Java belgeleri Word veya desteklenen diğer biçimlerden HTML, MHTML veya EPUB'ye dönüştürmek."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/convert-a-document-to-html-mhtml-or-epub/
 timestamp: 2024-10-21-08-52-03
 ---

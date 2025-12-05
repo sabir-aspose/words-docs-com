@@ -6,6 +6,9 @@ linktitle: متطلبات النظام
 description: "قبل البدء في العمل مع Aspose.Words for .NET، تأكد من استيفاء نظام التشغيل والنظام الأساسي وأطر العمل ومتطلبات البيئة بحيث يتم حساب الأنشطة الموجودة على أجهزتك بشكل صحيح باستخدام C#."
 type: docs
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/system-requirements/
 timestamp: 2024-02-01-16-17-05
 ---

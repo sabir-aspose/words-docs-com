@@ -6,6 +6,9 @@ linktitle: Abrir um documento apenas leitura
 description: "Torne o seu documento apenas de leitura para que o conteúdo possa ser copiado ou lido, mas não modificado."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/open-a-document-read-only/
 timestamp: 2024-01-27-14-07-04
 ---

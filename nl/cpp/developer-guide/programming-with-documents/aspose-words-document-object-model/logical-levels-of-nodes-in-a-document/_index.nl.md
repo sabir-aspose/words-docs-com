@@ -6,6 +6,9 @@ linktitle: Logische niveaus van knooppunten in een Document
 type: docs
 description: "In Aspose.Words voor C++ documentatie vermeld logische niveaus van knooppunten – blokniveau, inline niveau of rijniveau. Het knoopniveau wordt gebruikt om de locatie in de documentboom te beschrijven waar de knoop meestal voorkomt."
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

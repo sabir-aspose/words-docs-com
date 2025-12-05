@@ -6,6 +6,9 @@ linktitle: Ganti Bidang dengan Teks Statis
 description: "Pelajari cara mengganti bidang dengan teks di C++. Ganti bidang dengan data statis menggunakan C++ API."
 type: docs
 weight: 37
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/cpp/replace-fields/
 timestamp: 2024-01-27-14-07-04
 ---

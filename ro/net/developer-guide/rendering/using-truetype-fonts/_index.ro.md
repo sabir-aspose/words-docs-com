@@ -6,6 +6,9 @@ linktitle: Folosind fonturi TrueType
 description: "Aspose.Words pentru .NET poate găsi fontul potrivit sau înlocuirea sa potrivită pentru redarea corectă a documentului folosind C#. Acesta asigură diferenţa între documentul afişat şi cel original este minim când nu există suficiente informaţii despre un font."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

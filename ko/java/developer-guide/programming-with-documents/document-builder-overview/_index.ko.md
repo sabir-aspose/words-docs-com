@@ -6,6 +6,9 @@ linktitle: 문서 작성기 개요
 type: docs
 description: "DocumentBuilder을 사용하면 처음부터 동적 문서를 작성하거나 기존 문서에 새 요소를 추가할 수 있습니다. DocumentBuilder은Java에 텍스트,checkbox에스,표,이미지 및 기타 콘텐츠 요소를 삽입하는 방법을 제공합니다."
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

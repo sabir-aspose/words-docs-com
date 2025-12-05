@@ -6,6 +6,9 @@ linktitle: 與文書工作
 type: docs
 description: "`Document`類別以C#提供各種文件屬性和方法。 您用 `Document` 類作為您想要在 .NET 中使用 Aspose.Words 的開始點。 `Document``物件可儲存於檔案或流中，也可以傳輸至瀏覽器。"
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---

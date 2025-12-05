@@ -6,6 +6,9 @@ linktitle: Bekerja dengan Rendering Dingin SmartArt
 type: docs
 description: "Aspose.Words untuk Java melakukan Rendering Dingin SmartArt, artinya ia menjabarkan dan merender objek SmartArt jika gambar SmartArt yang dirender sebelumnya hilang atau salah."
 weight: 330
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/java/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

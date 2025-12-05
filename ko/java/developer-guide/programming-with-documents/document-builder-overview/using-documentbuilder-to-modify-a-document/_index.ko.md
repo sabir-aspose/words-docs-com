@@ -6,6 +6,9 @@ linktitle: DocumentBuilder을 사용하여 문서 수정
 type: docs
 description: "문서 작성기를 사용하여Java에서 문서를 쉽게 수정할 수 있습니다."
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/using-documentbuilder-to-modify-a-document/
 timestamp: 2024-10-21-11-17-44
 ---

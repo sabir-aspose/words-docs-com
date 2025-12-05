@@ -6,6 +6,9 @@ linktitle: שם המפיק במסמכי פלט
 description: "Aspose.Words עבור C++ הוסף למסמך את שם הגנרטור ומספר הגרסה ששימשו ליצירתו. ניתן למצוא נתונים אלה במסמך בדרכים התלויות בפורמט קובץ הפלט."
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

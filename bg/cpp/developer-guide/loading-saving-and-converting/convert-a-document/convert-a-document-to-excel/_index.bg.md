@@ -6,6 +6,9 @@ linktitle: Конвертиране на документ в Ексел
 description: "Конвертирайте PDF в Ексел, XML в Ексел, DOCX в Ексел C++. Запишете документ в различни формати до XLSX, като използвате C++."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/convert-a-document-to-excel/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: تقديم
 description: "استخدام Aspose.Words ل C++ ميزة التقديم لتنسيق مستند تخطيط التدفق إلى صفحات وتحويل مثل هذا المستند أو الصفحات المحددة إلى مستندات أخرى(PDF, HTML, XPS, الخ.) أو الصور (TIFF, PNG, SVG, الخ.) تنسيقات للعرض أو المزيد من التحويلات أو الطباعة."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/rendering/
 timestamp: 2024-01-30-16-22-34
 ---

@@ -7,6 +7,9 @@ type: docs
 description: "Creați diferite regiuni în șablonul dvs. pentru a avea zone speciale pe care le puteți completa pur și simplu cu datele dvs. Utilizați Mail Merge cu regiuni dacă doriți să inserați tabele, rânduri cu date repetate pentru ca documentele dvs. să crească dinamic."
 keywords: "how to execute Mail Merge c++"
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/mail-merge-with-regions/
 timestamp: 2024-09-24-14-35-44
 ---

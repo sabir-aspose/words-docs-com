@@ -7,6 +7,9 @@ type: docs
 description: "以C#將PDF檔案轉換為Word格式，如DOCX、DOC、图像格式，如JPG或PNG，或任何其他由Aspose.Words支援的格式。"
 keywords: convert pdf to other formats c#
 weight: 45
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/convert-pdf-to-other-document-formats/
 timestamp: 2024-07-09-19-00-42
 ---

@@ -6,6 +6,9 @@ linktitle: 通过Shape.Chart对象处理图表
 description: "详细图表，图表如何与形状节点链接 Aspose.Words对于C++."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/working-with-charts-through-shape-chart-object/
 timestamp: 2024-01-27-14-07-04
 ---

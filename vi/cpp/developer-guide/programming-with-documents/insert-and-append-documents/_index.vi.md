@@ -6,6 +6,9 @@ linktitle: Chèn Và Nối Thêm Tài liệu
 description: "Kết hợp các tài liệu thành một: chèn hoặc nối một tài liệu vào một tài liệu mới hoặc hiện có bằng cách sử dụng tìm và thay thế, hợp nhất trường, đánh dấu hoặc đơn giản là ở cuối tài liệu."
 type: docs
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Tổng quan về sản phẩm
 description: "Aspose.Words cho .NET là thư viện phần mềm được thiết kế để tạo, sửa đổi, chuyển đổi, kết xuất và in tài liệu mà không cần dựa vào bất kỳ phần mềm nào khác."
 type: docs
 weight: 15
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/product-overview/
 timestamp: 2024-01-31-14-23-37
 ---

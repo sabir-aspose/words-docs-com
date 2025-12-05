@@ -6,6 +6,9 @@ linktitle: العمل مع العرض البارد SmartArt
 type: docs
 description: "يقوم Aspose.Words for Python via .NET بتنفيذ SmartArt Cold Rendering، مما يعني أنه يحدد ويعرض كائنات SmartArt إذا كان رسم SmartArt المعروض مسبقًا مفقودًا أو غير صحيح."
 weight: 330
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

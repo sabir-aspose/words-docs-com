@@ -8,6 +8,7 @@ description: "Thao tác hình mờ tài liệu bằng Java."
 weight: 70
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/working-with-watermark/
 timestamp: 2025-04-22-08-07-04
 ---

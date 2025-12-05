@@ -7,6 +7,9 @@ type: docs
 description: "使用C#对嵌套区域执行Mail Merge操作。 嵌套合并是一种功能，使您能够将来自数据源的分层数据合并到合并模板中。"
 keywords: "mail merge with nested regions c#"
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/nested-mail-merge-with-regions/
 timestamp: 2024-07-11-08-07-06
 ---

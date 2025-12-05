@@ -6,6 +6,9 @@ linktitle: カーソルを使ったナビゲーション
 description: "段落、ブックマーク、またはJavaを使用して特定の文字など、ドキュメント内の異なるノード間を移動します。"
 type: docs
 weight: 5
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/navigation-with-cursor/
 timestamp: 2024-01-27-14-07-04
 ---

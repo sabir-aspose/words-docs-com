@@ -6,6 +6,9 @@ linktitle: کار با ویژگی های سند
 description: "Aspose.Words برای Java اجازه می دهد تا برخی از اطلاعات مفید در مورد سند شما، مانند API و شماره نسخه یا تاریخ مجاز، در ویژگی های سند داخلی یا سفارشی ذخیره شود."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

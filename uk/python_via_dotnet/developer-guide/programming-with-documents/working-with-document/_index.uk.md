@@ -6,6 +6,9 @@ linktitle: Робота з документами
 type: docs
 description: "Про нас `Document` Клас надає різні властивості документів і способи використання Pythonй Ви використовуєте `Document` клас як початкова точка для того, що ви хочете виконати з Aspose.Words для Pythonй Про нас `Document` об'єкт може бути збережений в файлі або потоковому режимі, а також відправлений в браузер."
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/python-net/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---

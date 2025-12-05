@@ -6,6 +6,9 @@ linktitle: 文件建構器概覽
 type: docs
 description: "DocumentBuilder 讓您使用 C# 从头开始构建动态文档或向现有文档添加新元素。 DocumentBuilder 提供方法在 .NET 中插入文字、驗選方塊、表格、圖片和其他內容元素。"
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: اعمال قالب بندی
 description: "قالب بندی جدول در جزئیات با استفاده از C++. با استفاده از C++ برای قالب بندی هر قسمت از جدول."
 type: docs
 weight: 70
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/applying-formatting/
 timestamp: 2024-10-21-11-17-44
 ---

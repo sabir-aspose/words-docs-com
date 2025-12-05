@@ -6,6 +6,9 @@ linktitle: 開始使用
 type: docs
 description: "請使用此介紹給 Aspose.Words 的 .NET 基礎，以開始體會 Aspose.Words 對您的事業的價值。"
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/getting-started/
 timestamp: 2024-09-25-11-08-55
 ---

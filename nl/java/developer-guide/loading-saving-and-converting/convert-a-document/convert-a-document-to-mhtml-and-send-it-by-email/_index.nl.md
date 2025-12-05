@@ -6,6 +6,9 @@ linktitle: Een document omzetten naar MHTML en verzenden Het per e-mail
 description: "Converteer elk document naar het MHTML-formaat en stuur het dan per e-mail met behulp van een meer Aspose familie product in Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/java/convert-a-document-to-mhtml-and-send-it-by-email/
 timestamp: 2024-01-27-14-07-04
 ---

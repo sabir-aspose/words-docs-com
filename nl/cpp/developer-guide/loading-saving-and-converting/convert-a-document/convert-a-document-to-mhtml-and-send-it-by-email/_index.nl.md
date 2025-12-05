@@ -6,6 +6,9 @@ linktitle: Converteer een Document naar MHTML en stuur het per e-mail
 description: "Converteer een document van bijna elke indeling naar de indeling MHTML en stuur het resultaatdocument per e-mail."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/convert-a-document-to-mhtml-and-send-it-by-email/
 timestamp: 2024-01-27-14-07-04
 ---

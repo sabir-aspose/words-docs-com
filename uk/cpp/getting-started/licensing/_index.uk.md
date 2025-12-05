@@ -6,6 +6,9 @@ linktitle: Ліцензування та підписка
 description: "Aspose.Words for C++ надає різні тарифні плани для придбання або пропонує безкоштовну пробну версію та 30-денну тимчасову ліцензію для ознайомлення з політикою ліцензування та підписки."
 type: docs
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/licensing/
 timestamp: 2024-10-24-11-44-28
 ---

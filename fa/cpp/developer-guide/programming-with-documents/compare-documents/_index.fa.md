@@ -6,6 +6,9 @@ linktitle: اسناد را مقایسه کنید
 type: docs
 description: "دو سند را در هر فرمت پشتیبانی شده مقایسه کنید و تغییرات محتوا را با استفاده از C++ نشان دهید. شما می توانید گزینه های پیشرفته را هنگام مقایسه اعمال کنید."
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/compare-documents/
 timestamp: 2024-01-27-14-07-04
 ---

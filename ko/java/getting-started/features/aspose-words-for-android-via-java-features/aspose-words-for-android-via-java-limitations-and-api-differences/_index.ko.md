@@ -6,6 +6,9 @@ linktitle: Java제한 및API차이점을 통해Android에 대해Aspose.Words
 description: "Java버전의 일반Aspose.Words에 비해Java기능과API차이를 통해Android에 대한Aspose.Words."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/aspose-words-for-android-via-java-limitations-and-api-differences/
 timestamp: 2024-01-27-14-07-04
 ---

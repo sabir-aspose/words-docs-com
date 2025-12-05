@@ -6,6 +6,9 @@ linktitle: 취급 Windows 메타파일
 description: "Aspose.Words 에 대한 C++ 자체 구현 Windows 메타 파일 플레이어는 모든 플랫폼에서 메타 파일 형식을 재생하고 기본 메타 파일 기능의 처리를 지원하고 메타 파일 플레이어의 다른 유형에 대체를 수행 할 수 있습니다."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/handling-windows-metafiles/
 timestamp: 2024-01-30-16-22-34
 ---

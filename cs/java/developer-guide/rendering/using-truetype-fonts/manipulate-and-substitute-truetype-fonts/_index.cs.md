@@ -6,6 +6,9 @@ linktitle: Manipulovat a nahradit TrueType písma
 description: "Aspose.Words místo Java může vložit správná písma TrueType do výsledného dokumentu, aby bylo zajištěno, že se zobrazí přesně, nebo hledat vhodnou výměnu písma, nebo používá mechanizmus zálohování písma."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/java/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

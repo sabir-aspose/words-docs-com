@@ -6,6 +6,9 @@ linktitle: کار با سند
 type: docs
 description: "کلاس `Document` ویژگی ها و روش های مختلف سند را ارائه می دهد. شما از کلاس `Document` به عنوان نقطه شروع برای هر کاری که می خواهید با Aspose.Words برای Java انجام دهید استفاده می کنید. شی `Document` را می توان در یک فایل یا جریان ذخیره کرد و همچنین به مرورگر ارسال کرد."
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---

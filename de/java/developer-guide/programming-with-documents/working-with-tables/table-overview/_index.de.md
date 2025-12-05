@@ -6,6 +6,9 @@ linktitle: Tabellenübersicht
 description: "Arbeiten Sie mit Tabellen und ihren Komponenten wie Zellen, Zeilen, Spalten in Aspose.Words für Java. Wie man mit Tabellen in Java arbeitet."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

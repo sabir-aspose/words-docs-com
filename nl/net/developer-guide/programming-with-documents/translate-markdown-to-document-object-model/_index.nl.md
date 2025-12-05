@@ -6,6 +6,9 @@ linktitle: Vertalen Markdown tot Document Object Model (DOM)
 type: docs
 description: "Vertaal a Markdown document aan Document Object Model en terug gebruiken C#. Dus je kunt werken met complexe bestaande Markdown en programmatisch een Markdown document vanaf nul."
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/translate-markdown-to-document-object-model/
 timestamp: 2024-10-21-11-17-44
 ---

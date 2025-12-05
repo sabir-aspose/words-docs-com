@@ -6,6 +6,9 @@ linktitle: 민감도 레이블이 표시된 문서 작업
 description: "C#를 사용하여 민감도 레이블이 적용된 Word를 PDF로 변환합니다. 민감도 레이블이 표시된 문서(Word, OpenOffice, Image, eBook 등 다양한 입력 형식)로 작업하세요."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/work-with-document-market-by-sensitivity-label/
 timestamp: 2024-01-31-14-23-37
 ---

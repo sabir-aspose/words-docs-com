@@ -6,6 +6,9 @@ linktitle: Dokumente vergleichen
 type: docs
 description: "Vergleicht zwei Dokumente in beliebigen unterstützten Formaten und zeigt Inhaltsänderungen mit C++ an. Sie können beim Vergleichen erweiterte Optionen anwenden."
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/cpp/compare-documents/
 timestamp: 2024-01-27-14-07-04
 ---

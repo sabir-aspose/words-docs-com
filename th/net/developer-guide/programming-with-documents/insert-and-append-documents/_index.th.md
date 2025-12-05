@@ -6,6 +6,9 @@ linktitle: แทรกและผนวกเอกสาร
 description: "รวมเอกสารเป็นหนึ่งเดียว: แทรกหรือต่อท้ายเอกสารในเอกสารใหม่หรือที่มีอยู่โดยใช้การค้นหาและแทนที่ ผสานฟิลด์ บุ๊กมาร์ก หรือเพียงแค่ที่ส่วนท้ายของเอกสารใน C#"
 type: docs
 weight: 80
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

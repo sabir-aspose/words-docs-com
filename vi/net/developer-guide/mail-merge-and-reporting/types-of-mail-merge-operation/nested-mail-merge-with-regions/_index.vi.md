@@ -7,6 +7,9 @@ type: docs
 description: "Thực hiện thao tác Mail Merge với các vùng lồng nhau bằng C#. Hợp nhất lồng nhau là một tính năng cho phép bạn hợp nhất dữ liệu phân cấp từ nguồn dữ liệu của mình vào mẫu hợp nhất của bạn."
 keywords: "mail merge with nested regions c#"
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/nested-mail-merge-with-regions/
 timestamp: 2024-07-11-08-07-06
 ---

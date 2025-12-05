@@ -6,6 +6,9 @@ linktitle: تحويل مستند إلى Excel
 description: "تحويل PDF إلى Excel، XML إلى Excel، DOCX إلى Excel C#. احفظ مستندًا بتنسيقات مختلفة إلى XLSX باستخدام C#."
 type: docs
 weight: 15
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/convert-a-document-to-excel/
 timestamp: 2024-07-09-19-00-42
 ---

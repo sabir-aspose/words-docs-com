@@ -6,6 +6,9 @@ linktitle: 指定 TrueType 字体位置
 description: "指定各种 TrueType 字体源：系统文件夹、用户源、使用 Python 从流、文件系统或内存加载字体。"
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/specifying-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

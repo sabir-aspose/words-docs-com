@@ -6,6 +6,9 @@ linktitle: Актуализиране На Полетата
 description: "Научете как да актуализирате полетата в C++. Актуализирайте полетата програмно или използвайте автоматична актуализация на полетата, като използвате C++ API."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/update-fields/
 timestamp: 2024-01-27-14-07-04
 ---

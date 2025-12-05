@@ -6,6 +6,9 @@ linktitle: Personnaliser les Propriétés du Champ
 description: "Apprenez à personnaliser les propriétés des champs en C++. Renommez les champs de fusion ou obtenez des résultats pour les champs sans nœud séparateur en C++."
 type: docs
 weight: 27
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

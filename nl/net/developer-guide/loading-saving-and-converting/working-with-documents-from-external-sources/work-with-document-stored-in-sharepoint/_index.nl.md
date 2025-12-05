@@ -6,6 +6,9 @@ linktitle: Werk met een document opgeslagen in een SharePoint Online
 description: "Word gedeeld in omzetten SharePoint PDF gebruiken C#. Werken met opgeslagen documenten SharePoint Verschillende invoerformaten, waaronder Word, OpenOffice, Image en eBook."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/work-with-document-stored-in-sharepoint/
 timestamp: 2024-10-21-11-17-44
 ---

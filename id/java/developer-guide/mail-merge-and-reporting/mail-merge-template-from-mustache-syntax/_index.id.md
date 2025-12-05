@@ -7,6 +7,9 @@ type: docs
 description: "Buat templat dengan sintaks Mustache. sintaks Mustache adalah satu-satunya pilihan untuk digunakan dengan templat yang tidak berisi bidang (HTML atau TXT). Dengan templat Word, Anda memiliki dua opsi: bidang atau sintaks Mustache menggunakan Java."
 keywords: "mail merge template mustache syntax java, Mail Merge java, mustache syntax java"
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/java/mail-merge-template-from-mustache-syntax/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: はじめる
 type: docs
 description: "この Aspose.Words for .NET の基礎の概要を使用して、ビジネスにとっての Aspose.Words の価値を認識し始めてください。"
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/getting-started/
 timestamp: 2024-09-25-11-08-55
 ---

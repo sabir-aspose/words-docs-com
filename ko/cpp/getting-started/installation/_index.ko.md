@@ -6,6 +6,9 @@ linktitle: 설치
 description: "설치 Aspose.Words 에 대한 C++ 관리 사용 NuGet 패키지 또는 Package Manager Console,그리고 수동 설치 프로그램."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/installation/
 timestamp: 2024-09-24-14-35-44
 ---

@@ -6,6 +6,9 @@ linktitle: 検出檔案格式並檢查格式相容性
 description: "在不確定檔案實際內容或要檢查檔案格式相容性時，用C#決定檔案格式。"
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

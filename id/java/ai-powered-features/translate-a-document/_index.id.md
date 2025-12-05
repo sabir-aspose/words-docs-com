@@ -8,6 +8,7 @@ weight: 30
 description: "Terjemahkan dokumen. Aspose.Words untuk Java menyederhanakan terjemahan dokumen menggunakan model Google AI, memungkinkan Anda menentukan bahasa target."
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/java/translate-a-document/
 timestamp: 2025-03-17-19-00-00
 ---

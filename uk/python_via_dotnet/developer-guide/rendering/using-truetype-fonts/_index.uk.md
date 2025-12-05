@@ -6,6 +6,9 @@ linktitle: Використання Тип Шрифти
 description: "Aspose.Words для Python via .NET може знайти правильний шрифт або його відповідну заміну для коректного відображення документа. Це гарантує, що різниця між виведеним документом і оригінальним є мінімальним, коли не вистачає інформації про шрифт."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/python-net/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

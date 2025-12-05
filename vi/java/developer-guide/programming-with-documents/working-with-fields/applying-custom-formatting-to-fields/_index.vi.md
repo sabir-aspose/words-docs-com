@@ -6,6 +6,9 @@ linktitle: Áp dụng Định dạng Tùy chỉnh cho Các trường
 description: "Định dạng và đánh giá các trường kết quả sử dụng Java."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/applying-custom-formatting-to-fields/
 timestamp: 2024-01-27-14-07-04
 ---

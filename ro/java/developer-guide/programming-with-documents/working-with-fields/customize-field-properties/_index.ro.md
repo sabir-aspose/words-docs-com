@@ -6,6 +6,9 @@ linktitle: Personalizați Proprietățile Câmpului
 description: "Aflați cum să personalizați proprietățile câmpului în Java. Redenumiți câmpurile de îmbinare sau obțineți rezultate pentru câmpurile fără nod separator în Java."
 type: docs
 weight: 27
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/java/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

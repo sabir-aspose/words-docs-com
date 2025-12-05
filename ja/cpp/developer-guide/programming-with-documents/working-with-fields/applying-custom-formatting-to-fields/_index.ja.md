@@ -6,6 +6,9 @@ linktitle: カスタム書式設定をフィールドに適用する
 description: "C++を使用してフィールドの結果を書式設定し、評価します。"
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/applying-custom-formatting-to-fields/
 timestamp: 2024-01-27-14-07-04
 ---

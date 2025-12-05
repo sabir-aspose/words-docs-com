@@ -6,6 +6,9 @@ linktitle: Logische Ebenen von Knoten in einem Dokument
 type: docs
 description: "In der Aspose.Words for .NET-Dokumentation werden logische Ebenen von Knoten erwähnt – Blockebene, Inline-Ebene oder Zeilenebene unter Verwendung von C#. Die Knotenebene wird verwendet, um die Position im Dokumentbaum zu beschreiben, an der der Knoten normalerweise auftritt."
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

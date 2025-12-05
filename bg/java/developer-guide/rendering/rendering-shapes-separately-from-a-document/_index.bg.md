@@ -6,6 +6,9 @@ linktitle: Преносими форми Отделно от документ
 description: "Извличане на различни графични обекти, като например изображения, текстова кутия, съдържаща параграфи, или форми на стрелки, при обработка на документ, и ги експортирате към външно място, като използвате Java."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Документи
 description: "Об'єднайте документи в одну: вставте або додайте документ на новий або існуючий, використовуючи пошук і заміну, об'єднати поле, закладку або просто в документі, кінець в Pythonй"
 type: docs
 weight: 80
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/python-net/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

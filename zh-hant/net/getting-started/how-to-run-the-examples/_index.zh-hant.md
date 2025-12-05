@@ -6,6 +6,9 @@ linktitle: 如何運行範例
 description: "從我們的 GitHub 儲存庫下載 Aspose.Words 的 .NET 範例，並學會如何使用 C# 來運行它們以熟悉 Aspose.Words 的可能性與功能。"
 type: docs
 weight: 110
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/how-to-run-the-examples/
 timestamp: 2024-10-24-11-44-28
 ---

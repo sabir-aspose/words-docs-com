@@ -8,6 +8,7 @@ weight: 20
 description: "总结一个文档。 Aspose.Words为.NET 通过允许您指定摘要长度，使用OpenAI和GoogleAI模型简化文档摘要。"
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/summarize-a-document/
 timestamp: 2025-03-17-19-00-00
 ---

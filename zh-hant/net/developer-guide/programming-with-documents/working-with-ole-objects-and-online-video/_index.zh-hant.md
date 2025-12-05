@@ -6,6 +6,9 @@ linktitle: 與 OLE 物件和線上影片一起工作
 description: "透過 C# 在文件中建立並修改 OLE 嵌入。"
 type: docs
 weight: 360
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/working-with-ole-objects/
 timestamp: 2024-01-27-14-07-04
 ---

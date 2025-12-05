@@ -6,6 +6,9 @@ linktitle: Wijzigingen in een Document bijhouden
 description: "Houd wijzigingen in inhoud en opmaak bij die door u of anderen zijn aangebracht met behulp van C++. Krijg toegang tot afzonderlijke revisies in een document en pas verschillende eigenschappen toe."
 type: docs
 weight: 270
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/track-changes-in-a-document/
 timestamp: 2024-01-30-16-22-34
 ---

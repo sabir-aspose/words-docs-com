@@ -8,6 +8,9 @@ linktitle: FAQ
 type: docs
 description: "Aspose.Words pentru .NET răspunde la întrebările cel mai frecvente. Învaţă această pagină pentru a-ţi rezolva rapid problema privind întrebări generale sau subiecte specifice."
 weight: 75
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/faq/
 timestamp: 2024-11-18-12-56-02
 ---

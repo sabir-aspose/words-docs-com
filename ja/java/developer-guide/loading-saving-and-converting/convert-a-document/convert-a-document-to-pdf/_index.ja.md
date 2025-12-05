@@ -6,6 +6,9 @@ linktitle: 文書をPDFに変換する
 description: "Wordまたはその他のサポートされている形式の文書をPDFに変換します。Javaを使用して、さまざまなプラットフォームでのレンダリング中に文書の元の外観を維持します。"
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/convert-a-document-to-pdf/
 timestamp: 2024-01-31-14-23-37
 ---

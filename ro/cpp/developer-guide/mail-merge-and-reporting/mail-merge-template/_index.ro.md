@@ -7,6 +7,9 @@ type: docs
 description: "Creați un șablon Mail Merge pentru a defini conținutul fix în documentele de ieșire, apoi generați documente de îmbinare utilizând câmpurile de îmbinare."
 keywords: "create Mail Merge template с++"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/mail-merge-template/
 timestamp: 2024-01-31-14-23-37
 ---

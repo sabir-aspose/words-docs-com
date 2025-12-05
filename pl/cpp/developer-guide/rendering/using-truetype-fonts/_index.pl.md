@@ -6,6 +6,9 @@ linktitle: Używanie Czcionek TrueType
 description: "Aspose.Words dla C++ można znaleźć odpowiednią czcionkę lub jej odpowiedni zamiennik dla prawidłowego renderowania dokumentu. Gwarantuje to, że różnica między wyświetlanym dokumentem a oryginałem jest minimalna, gdy nie ma wystarczającej ilości informacji o czcionce."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

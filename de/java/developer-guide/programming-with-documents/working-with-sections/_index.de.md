@@ -6,6 +6,9 @@ linktitle: Arbeiten mit Abschnitten
 description: "Verständnis von Dokumentabschnittskonzepten und Manipulationspraktiken mit Java. Fügt einen Abschnitt in ein Dokument Java ein. Abschnitt Java entfernen. Kopieren Sie Abschnitte zwischen Dokumenten."
 type: docs
 weight: 120
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/working-with-sections/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: İçerik Kontrolü ile Çalışmak SDT
 type: docs
 description: "Gelişmiş belge içeriği yönetimi, Java kullanarak içerik kontrollerini (Yapılandırılmış Belge Etiketleri) nasıl oluşturup manipüle edeceğini gösterir."
 weight: 390
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---

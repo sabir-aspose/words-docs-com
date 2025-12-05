@@ -6,6 +6,9 @@ linktitle: Вкажіть розташування шрифтів TrueType
 description: "Вкажіть різні джерела шрифтів TrueType: системну папку, користувацькі джерела, завантаження шрифтів із потоку, файлову систему або пам'ять."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/specify-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

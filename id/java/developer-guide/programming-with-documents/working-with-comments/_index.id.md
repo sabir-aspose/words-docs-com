@@ -6,6 +6,9 @@ linktitle: Bekerja dengan Komentar
 description: "Bekerja dengan komentar menggunakan Java."
 type: docs
 weight: 260
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/java/working-with-comments/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 将文档保存为固定页面格式
 description: "如何将文档保存为固定页面格式– PDF, XPS, HTML, XAML, PostScript, 和PCL？ 请参阅说明。"
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/saving-a-document-to-fixed-page-format/
 timestamp: 2024-09-24-14-35-44
 ---

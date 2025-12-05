@@ -6,6 +6,9 @@ linktitle: Уеб приложения сигурност при зарежда�
 type: docs
 description: "Зареждане на отдалечени ресурси, това може да бъде причина за рискове за сигурността. Обърнете внимание на общите въпроси на сигурността и техните решения в Java."
 weight: 120
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-27-14-07-04
 ---

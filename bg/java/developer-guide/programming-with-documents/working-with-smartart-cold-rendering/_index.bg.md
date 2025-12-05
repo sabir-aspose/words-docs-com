@@ -6,6 +6,9 @@ linktitle: Работа с Smart Art Cold Rendering
 type: docs
 description: "Aspose.Words вместо Java изпълнява Smart Изкуството Cold Rendering, което означава, че тя се полага и прави SmartArt обекти, ако предварително-отдаден SmartArt рисунка е липсва или неправилно."
 weight: 330
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

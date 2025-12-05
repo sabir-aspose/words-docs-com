@@ -6,6 +6,9 @@ linktitle: Tworzenie układu strony
 description: "Tworzenie układu strony może być kosztowną procedurą. Aspose.Words utworzy układ strony tylko wtedy, gdy będzie to konieczne: aby renderować strony dokumentu, uzyskać wartość pola, wyeksportować dokument do HTML itp."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/creating-a-page-layout/
 timestamp: 2024-09-24-14-35-44
 ---

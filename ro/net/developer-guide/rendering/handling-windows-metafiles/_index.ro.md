@@ -6,6 +6,9 @@ linktitle: Manipularea Windows fișierelor metafile
 description: "Aspose.Words pentru .NET implementează propriul său Windows metafila player pentru a reda fișiere în format metafila pe toate platformele și acceptă gestionarea caracteristicilor de bază ale metafilei și poate efectua o cădere înapoi către un alt tip de metafila player folosind C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/handling-windows-metafiles/
 timestamp: 2024-07-10-14-38-57
 ---

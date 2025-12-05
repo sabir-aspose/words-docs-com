@@ -6,6 +6,9 @@ linktitle: Làm việc với thuộc tính tài liệu
 description: "Aspose.Words cho Python cho phép lưu trữ một số thông tin hữu ích về tài liệu của bạn, chẳng hạn như API và Số phiên bản hoặc Date được ủy quyền, trong các thuộc tính tài liệu tùy chỉnh hoặc tích hợp sẵn."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

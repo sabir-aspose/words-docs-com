@@ -6,6 +6,9 @@ linktitle: Chránit nebo zašifrovat dokument
 description: "Aspose.Words místo Python via .NET poskytuje Read-Only, šifrování dokumentu, editaci omezení a digitální podpisy pro ochranu dokumentů. Aspose.Words podporuje většinu Možnosti ochrany slov."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/python-net/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

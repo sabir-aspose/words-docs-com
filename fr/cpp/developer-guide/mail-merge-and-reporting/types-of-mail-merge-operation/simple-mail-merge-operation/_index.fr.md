@@ -7,6 +7,9 @@ type: docs
 description: "Un simple Mail Merge est utilisé pour remplir les champs Mail Merge à l'intérieur de votre modèle avec les données requises de votre source de données – il est similaire au classique Mail Merge dans Microsoft Word. Ajoutez un ou plusieurs champs de fusion dans votre modèle, puis exécutez l'opération simple mail merge."
 keywords: "how to execute Mail Merge c++"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/simple-mail-merge-operation/
 timestamp: 2024-09-24-14-35-44
 ---

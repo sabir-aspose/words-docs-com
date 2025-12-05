@@ -6,6 +6,9 @@ linktitle: Skep'n Bladsyuitleg
 description: "Die skep van'n bladsy uitleg kan'n duur prosedure wees. Aspose.Words sal slegs'n bladsy-uitleg skep wanneer dit nodig is: om dokumentbladsye weer te gee, om'n veldwaarde te verkry, om'n dokument na HTML uit te voer, ens."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/creating-a-page-layout/
 timestamp: 2024-09-24-14-35-44
 ---

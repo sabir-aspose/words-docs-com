@@ -6,6 +6,9 @@ linktitle: ذخیره یک سند به عنوان TIFF چند صفحه ای
 description: "با استفاده از Python یک سند را به یک TIFF چند صفحه ای تبدیل کنید. برای تعیین نحوه نمایش سند روی تصویر، باید گزینه های اضافی را مشخص کنید: وضوح، تعداد صفحات، باینری سازی تصویر و غیره."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

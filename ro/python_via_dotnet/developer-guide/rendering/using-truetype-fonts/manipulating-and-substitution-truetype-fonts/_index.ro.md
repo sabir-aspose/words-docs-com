@@ -6,6 +6,9 @@ linktitle: Manipulați și înlocuiți fonturile TrueType
 description: "Aspose.Words pentru Python via .NET poate încorpora corect TrueType fonturile în documentul rezultat pentru a se asigura că se afișează cu precizie. Dacă un font sau un anumit caracter nu este disponibil, Aspose.Words caută o înlocuire adecvată a fontului sau utilizează mecanismul de rezervă a fontului."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/python-net/manipulating-and-substitution-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: ภาพรวมตาราง
 description: "ทำงานกับตารางและส่วนประกอบต่างๆ เช่น เซลล์ แถว คอลัมน์ใน Aspose.Words สำหรับ Python วิธีทำงานกับตารางในรูปแบบ Python"
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/python-net/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

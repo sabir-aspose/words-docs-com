@@ -6,6 +6,9 @@ linktitle: Conversia unui Document în PDF
 description: "Convertiți un document în Word sau în orice alt format acceptat în PDF, care păstrează aspectul original al unui document în timpul redării sale pe diferite platforme folosind Java."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/java/convert-a-document-to-pdf/
 timestamp: 2024-01-31-14-23-37
 ---

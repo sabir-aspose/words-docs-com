@@ -6,6 +6,9 @@ linktitle: Systeemeisen
 description: "Voordat u gaat werken met Aspose.Words voor .NET, ervoor zorgen dat u voldoet aan de eisen van het besturingssysteem, platform, kaders en omgeving, zodat de activiteiten op uw apparaten correct worden verwerkt met behulp van C#."
 type: docs
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/system-requirements/
 timestamp: 2024-02-01-16-17-05
 ---

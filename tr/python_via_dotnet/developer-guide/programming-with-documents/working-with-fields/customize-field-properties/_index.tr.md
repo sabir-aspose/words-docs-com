@@ -6,6 +6,9 @@ linktitle: Alan Özelliklerini Özelleştir
 description: "Python'te alan özelliklerini nasıl özelleştireceğinizi öğrenin. Birleştirme alanlarını yeniden adlandırın veya Python via .NET'de ayırıcı düğümü olmayan alanlar için sonuçlar elde edin."
 type: docs
 weight: 27
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/python-net/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

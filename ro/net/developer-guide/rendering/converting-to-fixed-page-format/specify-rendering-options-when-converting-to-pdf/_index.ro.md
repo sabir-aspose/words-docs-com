@@ -6,6 +6,9 @@ linktitle: Specificați opțiunile de redare atunci când convertați în PDF
 description: "Converteste un document la PDF cu opțiuni avansate folosind C#. Convertiți formularele DOCX în PDF C#. Utilizați PdfSaveOptions pentru a schimba rezultatul salvării unui document către PDF."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

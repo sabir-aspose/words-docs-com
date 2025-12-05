@@ -6,6 +6,9 @@ linktitle: Een Document alleen-lezen openen
 description: "Maak uw document alleen-lezen zodat de inhoud kan worden gekopieerd of gelezen, maar niet gewijzigd."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/open-a-document-read-only/
 timestamp: 2024-01-27-14-07-04
 ---

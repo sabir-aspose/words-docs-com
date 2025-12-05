@@ -6,6 +6,9 @@ linktitle: Aprenda as características da conversão para PDF/A e PDF/UA
 description: "Converta para PDF/A-1, PDF/A-2, PDF/A-4 e PDF/UA usando C++. Escolha o melhor padrão PDF para converter um documento usando С++."
 type: docs
 weight: 35
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/learn-features-of-conversion-to-pdf-a-pdf-ua/
 timestamp: 2024-01-31-14-23-37
 ---

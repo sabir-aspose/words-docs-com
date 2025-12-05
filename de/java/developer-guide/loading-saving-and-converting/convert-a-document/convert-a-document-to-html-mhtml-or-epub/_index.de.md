@@ -6,6 +6,9 @@ linktitle: Konvertieren eines Dokuments in HTML, MHTML oder EPUB
 description: "Verwenden Sie Aspose.Words für Java, um Dokumente aus Word oder anderen unterstützten Formaten in HTML, MHTML oder EPUB zu konvertieren."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/convert-a-document-to-html-mhtml-or-epub/
 timestamp: 2024-10-21-08-52-03
 ---

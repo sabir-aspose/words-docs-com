@@ -6,6 +6,9 @@ linktitle: 限制文档编辑
 description: "通过使用C++设置限制类型来限制编辑文档。 您还可以删除保护并使不受限制的可编辑区域。"
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---

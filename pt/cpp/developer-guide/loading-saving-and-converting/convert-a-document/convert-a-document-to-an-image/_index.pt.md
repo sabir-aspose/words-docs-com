@@ -6,6 +6,9 @@ linktitle: Converter um documento numa imagem
 type: docs
 description: "Converter um documento para o formato de imagem (JPG, PNG, etc). Crie uma pré-visualização de documento ou uma digitalização de documento para enviar uma fatura."
 weight: 43
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/convert-a-document-to-an-image/
 timestamp: 2024-01-30-16-22-34
 ---

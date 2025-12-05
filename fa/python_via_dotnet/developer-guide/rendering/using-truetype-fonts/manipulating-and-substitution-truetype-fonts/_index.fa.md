@@ -6,6 +6,9 @@ linktitle: دستکاری و جایگزینی فونت های TrueType
 description: "Aspose.Words for Python via .NET می‌تواند فونت‌های TrueType صحیح را در سند حاصل جاسازی کند تا از نمایش دقیق آن اطمینان حاصل کند. اگر یک فونت یا یک کاراکتر خاص در دسترس نباشد، Aspose.Words به دنبال جایگزینی مناسب برای فونت می‌گردد یا از مکانیسم Font backback استفاده می‌کند."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/manipulating-and-substitution-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

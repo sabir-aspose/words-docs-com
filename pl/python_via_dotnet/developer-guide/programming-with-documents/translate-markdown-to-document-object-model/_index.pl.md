@@ -6,6 +6,9 @@ linktitle: Przetłumacz Markdown na Document Object Model (DOM)
 type: docs
 description: "Przekształć dokument Markdown do formatu Document Object Model i z powrotem, używając formatu Python. Możesz więc pracować ze złożonym istniejącym Markdown i programowo tworzyć dokument Markdown od zera."
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/python-net/translate-markdown-to-document-object-model/
 timestamp: 2024-10-21-11-17-44
 ---

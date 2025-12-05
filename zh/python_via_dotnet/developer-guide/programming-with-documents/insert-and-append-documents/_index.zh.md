@@ -6,6 +6,9 @@ linktitle: 插入和附加文档
 description: "将文档合并为一个：使用查找和替换、合并字段、书签或直接在 Python 中的文档末尾将文档插入或附加到新的或现有的文档中。"
 type: docs
 weight: 80
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

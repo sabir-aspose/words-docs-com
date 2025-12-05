@@ -6,6 +6,9 @@ linktitle: השוואת מסמכים
 description: "השוואת שני מסמכים בכל פורמטים נתמך ומציגה שינויים בתוכן באמצעות C#. אתה יכול ליישם אפשרויות מתקדמות בעת השוואת."
 type: docs
 weight: 60
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/compare-documents/
 timestamp: 2024-01-27-14-07-04
 ---

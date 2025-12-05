@@ -6,6 +6,9 @@ linktitle: Làm việc với phông chữ
 description: "Định dạng phông chữ chi tiết bằng C#. Dấu nhấn mạnh trong C#. Nhận khoảng cách dòng phông chữ bằng C#."
 type: docs
 weight: 230
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/working-with-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

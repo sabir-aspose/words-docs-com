@@ -6,6 +6,9 @@ linktitle: מקם טבלה
 description: "ציין מיקום טבלה ב C++. קבל יישור טבלה, קבל והגדר מיקום טבלה צף באמצעות C++."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/position-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

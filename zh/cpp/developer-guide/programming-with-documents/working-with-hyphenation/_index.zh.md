@@ -6,6 +6,9 @@ linktitle: 使用连字符
 description: "使用连字符可以使用C++实现更紧凑的文本排列。 它提供了先进的算法与断字字典工作，使用OpenOffice字典。"
 type: docs
 weight: 220
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/working-with-hyphenation/
 timestamp: 2024-01-30-16-22-34
 ---

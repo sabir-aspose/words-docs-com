@@ -6,6 +6,9 @@ linktitle: Manejo de metarchivos Windows
 description: "Aspose.Words para .NET implementa su propio reproductor de metarchivos Windows para reproducir el formato de metarchivos en todas las plataformas y admite el manejo de las funciones básicas de metarchivos y puede realizar un respaldo a un tipo diferente de reproductor de metarchivos usando C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/handling-windows-metafiles/
 timestamp: 2024-07-10-14-38-57
 ---

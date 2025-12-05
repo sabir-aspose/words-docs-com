@@ -6,6 +6,9 @@ linktitle: システム要求
 description: "Aspose.Words for .NET の使用を開始する前に、C# を使用してデバイス上のアクティビティが適切に考慮されるように、オペレーティング システム、プラットフォーム、フレームワーク、および環境の要件を満たしていることを確認してください。"
 type: docs
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/system-requirements/
 timestamp: 2024-02-01-16-17-05
 ---

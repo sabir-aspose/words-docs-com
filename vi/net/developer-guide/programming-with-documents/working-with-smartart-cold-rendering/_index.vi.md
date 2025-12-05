@@ -7,6 +7,9 @@ description: "Giới thiệu về hình dạng SmartArt bằng C#."
 type: docs
 description: "Aspose.Words dành cho .NET thực hiện Kết xuất nguội SmartArt, nghĩa là nó sắp xếp và hiển thị các đối tượng SmartArt nếu bản vẽ SmartArt được kết xuất trước bị thiếu hoặc không chính xác khi sử dụng C#."
 weight: 330
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Lavorare con le sezioni
 description: "Comprensione dei concetti di sezione del documento e delle pratiche di manipolazione utilizzando C#. Inserisci la sezione in un documento C#. Rimuovere la sezione C#. Copia sezioni tra documenti."
 type: docs
 weight: 120
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/working-with-sections/
 timestamp: 2024-09-25-11-08-55
 ---

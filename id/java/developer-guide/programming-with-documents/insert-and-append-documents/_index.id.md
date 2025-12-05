@@ -6,6 +6,9 @@ linktitle: Menyisipkan dan Menambahkan Dokumen
 description: "Menggabungkan dokumen menjadi satu: menyisipkan atau menambahkan dokumen ke dokumen baru atau yang sudah ada menggunakan temukan dan ganti, gabungkan bidang, bookmark, atau cukup di akhir dokumen dengan Java."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/java/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

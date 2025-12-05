@@ -6,6 +6,9 @@ linktitle: Tìm Hiểu Các Tính năng Của Chuyển đổi thành PDF/A và P
 description: "Chuyển đổi sang PDF/A-1, PDF/A-2, PDF/A-4 và PDF/UA sử dụng C++. Chọn tiêu chuẩn PDF tốt nhất để chuyển đổi tài liệu bằng С."
 type: docs
 weight: 35
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/learn-features-of-conversion-to-pdf-a-pdf-ua/
 timestamp: 2024-01-31-14-23-37
 ---

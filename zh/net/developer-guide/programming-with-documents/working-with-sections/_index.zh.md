@@ -6,6 +6,9 @@ linktitle: 使用部分
 description: "使用 C# 了解文档部分概念和操作实践。将节插入文档 C#。删除 C# 部分。复制文档之间的部分。"
 type: docs
 weight: 120
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/working-with-sections/
 timestamp: 2024-09-25-11-08-55
 ---

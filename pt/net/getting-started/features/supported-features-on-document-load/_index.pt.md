@@ -6,6 +6,9 @@ linktitle: Recursos suportados no carregamento de documentos
 description: "Carregue e converta um documento na maioria dos formatos populares e oferece suporte a vários recursos Microsoft Word usando C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/net/supported-features-on-document-load/
 timestamp: 2024-01-27-14-07-04
 ---

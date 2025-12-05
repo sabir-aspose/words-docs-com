@@ -6,6 +6,9 @@ linktitle: Điều hướng bằng con trỏ
 description: "Điều hướng giữa các nút khác nhau trong tài liệu, chẳng hạn như đoạn văn, dấu trang hoặc ký tự cụ thể bằng C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/navigation-with-cursor/
 timestamp: 2024-01-27-14-07-04
 ---

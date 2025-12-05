@@ -6,6 +6,9 @@ linktitle: Guardar un documento como TIFF de varias páginas
 description: "Convierta un documento a TIFF de varias páginas usando Python. Para determinar cómo se muestra el documento en la imagen, debe especificar opciones adicionales: resolución, número de páginas, binarización de la imagen, etc."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/python-net/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

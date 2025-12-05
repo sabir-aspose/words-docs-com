@@ -8,6 +8,7 @@ weight: 35
 description: "Aspose.Wordsสำหรับ.NET แนะนำเครื่องมือที่ใช้พลังงานAIเช่นการสรุปเอกสารเพื่อเพิ่มประสิทธิภาพ เรียนรู้วิธีการใช้คุณลักษณะขับเคลื่อนAIพร้อมเคล็ดลับและคำแนะนำโดยละเอียด."
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/ai-powered-features/
 timestamp: 2025-03-17-19-00-00
 ---

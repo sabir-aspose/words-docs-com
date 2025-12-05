@@ -6,6 +6,9 @@ linktitle: تنظيف وثيقة
 description: "قم بإزالة المعلومات غير المستخدمة أو المكررة لتقليل حجم الإخراج ووقت المعالجة باستخدام C++. قم بإزالة الأنماط غير المستخدمة أو الأنماط المضمنة غير المستخدمة أو الأنماط المكررة أو القوائم غير المستخدمة."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Leer Kenmerke van Omskakeling na PDF/A en PDF/UA
 description: "Skakel om na PDF/A-1, PDF/A-2, PDF/A-4 en PDF/UA met behulp van Python. Kies die beste PDF standaard om'n dokument te omskep met Python via .NET."
 type: docs
 weight: 25
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/python-net/learn-features-of-conversion-to-pdf-a/
 timestamp: 2024-01-31-14-23-37
 ---

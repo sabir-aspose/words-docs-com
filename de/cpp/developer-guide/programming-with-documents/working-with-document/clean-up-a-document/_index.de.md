@@ -6,6 +6,9 @@ linktitle: Bereinigen eines Dokuments
 description: "Entfernen Sie nicht verwendete oder doppelte Informationen, um die Ausgabegröße und die Verarbeitungszeit mit C++ zu reduzieren. Entfernen Sie nicht verwendete Stile, nicht verwendete integrierte Stile, doppelte Stile oder nicht verwendete Listen."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/cpp/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

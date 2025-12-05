@@ -6,6 +6,9 @@ linktitle: Lucrați cu programe de completare Office
 description: "Aspose.Words pentru Java oferă diverse clase pentru lucrul cu programe de completare Office. Puteți adăuga Panoul de activități prin extensia web și puteți personaliza proprietățile panoului și extensiei."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/java/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

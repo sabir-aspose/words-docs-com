@@ -6,6 +6,9 @@ linktitle: Формати документів
 type: docs
 description: "Редагувати вихідні документи в багатьох популярних форматах, а також вільно конвертувати файли з одного формату в інший формат Javaй"
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/java/supported-document-formats/
 timestamp: 2024-10-21-11-17-44
 ---

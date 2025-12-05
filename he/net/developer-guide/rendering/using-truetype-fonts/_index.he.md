@@ -6,6 +6,9 @@ linktitle: שימוש אמיתי סוגפונטים
 description: "Aspose.Words עבור .NET יכול למצוא את הגופן הנכון או את ההחלפה המתאימה שלו עבור מסמך הנכון. C#. זה מבטיח כי ההבדל בין המסמך המוצג לבין המקור הוא מינימלי כאשר אין מספיק מידע על גופן."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

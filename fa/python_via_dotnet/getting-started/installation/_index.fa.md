@@ -6,6 +6,9 @@ linktitle: نصب و راه اندازی
 description: "Aspose.Words را برای Python با استفاده از ابزارهای Visual Studio مانند Manage NuGet Packages یا Package Manager Console و نصب کننده MSI نصب کنید. از مجموعه مجوز Full Trust استفاده کنید."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/installation/
 timestamp: 2024-01-27-14-07-04
 ---

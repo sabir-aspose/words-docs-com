@@ -6,6 +6,9 @@ linktitle: Lavorare con i grafici
 description: "Introduzione alla funzione Grafico, come creare e manipolare grafici utilizzando C++."
 type: docs
 weight: 170
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/cpp/how-to-set-fill-and-stroke-formatting/
 timestamp: 2024-01-27-14-07-04
 ---

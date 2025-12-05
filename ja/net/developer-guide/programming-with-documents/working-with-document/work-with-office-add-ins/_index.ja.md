@@ -6,6 +6,9 @@ linktitle: Office アドインの使用
 description: "Aspose.Words for .NET は、C# を使用して Office アドインを操作するためのさまざまなクラスを提供します。 Web 拡張機能を介してタスク ウィンドウを追加し、ウィンドウと拡張機能のプロパティをカスタマイズできます。"
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

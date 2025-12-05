@@ -6,6 +6,9 @@ linktitle: 轉換測量單位
 description: "C# 中的 Aspose.Words .NET 可以協助您如何在測量單位之間進行轉換，例如從英寸到點數以及從點數到英寸、像素到點數以及點數到像素。"
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/convert-between-measurement-units/
 timestamp: 2024-01-27-14-07-04
 ---

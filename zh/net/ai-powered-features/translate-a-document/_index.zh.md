@@ -8,6 +8,7 @@ weight: 30
 description: "翻译文档。 Aspose.Words为.NET 使用GoogleAI模型简化文档翻译，允许您指定目标语言。"
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/translate-a-document/
 timestamp: 2024-12-13-06-40-00
 ---

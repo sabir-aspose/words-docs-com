@@ -6,6 +6,9 @@ linktitle: 应用格式设置
 description: "使用 Python 详细说明表格格式。使用 Python 格式化表格的每个部分。"
 type: docs
 weight: 70
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/applying-formatting/
 timestamp: 2024-01-27-14-07-04
 ---

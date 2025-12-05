@@ -6,6 +6,9 @@ linktitle: Vertoon Vorms Afsonderlik van'n Dokument
 description: "Onttrek verskeie grafiese voorwerpe, soos beelde, tekskassie met paragrawe, of pylvorms, wanneer'n dokument verwerk word, en voer dit na'n eksterne plek uit met behulp van C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/rendering-shapes-separately-from-a-document/
 timestamp: 2024-07-10-14-38-57
 ---

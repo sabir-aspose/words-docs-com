@@ -6,6 +6,9 @@ linktitle: Налаштування властивостей поля
 description: "Дізнайтеся, як налаштувати властивості полів у C++. Перейменуйте Комбіновані поля або отримайте результати для полів без вузла роздільника в C++."
 type: docs
 weight: 27
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Postępowanie Windows Metafile
 description: "Aspose.Words zamiast Java wdraża własne Windows Metafile gracz do odtwarzania formatu Metafile na wszystkich platformach i obsługuje obsługę podstawowych funkcji metafile i może wykonywać zwroty do innego typu metafile gracza."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

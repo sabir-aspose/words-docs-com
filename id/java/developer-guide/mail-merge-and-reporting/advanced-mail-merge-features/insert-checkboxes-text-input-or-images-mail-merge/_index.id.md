@@ -6,6 +6,9 @@ linktitle: Sisipkan Checkboxes, Masukan Teks, atau Gambar
 description: "Sisipkan checkbox es atau kolom input teks selama Mail Merge menggunakan Java. Sisipkan juga gambar dari Database selama Mail Merge dalam Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/java/insert-checkboxes-text-input-or-images-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

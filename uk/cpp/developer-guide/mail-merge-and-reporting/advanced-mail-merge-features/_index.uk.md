@@ -7,6 +7,9 @@ type: docs
 description: "Aspose.Words для C++ надає деякі розширені функції Mail Merge, які дозволяють виконувати подальше налаштування Mail Merge. Наприклад, отримання інформації про структуру шаблону, налаштування правил, очищення після операції Mail Merge та інші."
 keywords: "use advanced Mail Merge features c++"
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/advanced-mail-merge-features/
 timestamp: 2024-01-27-14-07-04
 ---

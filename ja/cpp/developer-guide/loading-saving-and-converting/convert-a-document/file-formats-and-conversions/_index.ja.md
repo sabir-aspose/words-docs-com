@@ -6,6 +6,9 @@ linktitle: 変換はAspose.Words`のフラッグシップ機能です
 description: "C++コードのわずか二行でフォーマットを保存するためにサポートされている任意の負荷から文書を変換します。 これは、高品質の変換を提供します。"
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/file-formats-and-conversions/
 timestamp: 2024-09-24-14-35-44
 ---

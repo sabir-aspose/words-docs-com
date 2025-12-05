@@ -6,6 +6,9 @@ linktitle: TrueType Lettertypen Gebruiken
 description: "Aspose.Words voor C++ kan het juiste lettertype of de geschikte vervanging vinden voor de juiste documentweergave. Dit zorgt ervoor dat het verschil tussen het weergegeven document en het origineel minimaal is wanneer er niet genoeg informatie over een lettertype is."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

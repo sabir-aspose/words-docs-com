@@ -6,6 +6,9 @@ linktitle: OpenType 기능 활성화
 description: "C#를 사용한 고급 타이포그래피 기능."
 type: docs
 weight: 25
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/enable-opentype-features/
 timestamp: 2024-07-10-14-38-57
 ---

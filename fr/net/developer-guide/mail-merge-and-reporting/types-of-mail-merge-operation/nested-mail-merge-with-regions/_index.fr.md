@@ -7,6 +7,9 @@ type: docs
 description: "Effectuez une opération Mail Merge avec des régions imbriquées à l'aide de C#. La fusion imbriquée est une fonctionnalité qui vous permet de fusionner des données hiérarchiques de votre source de données dans votre modèle de fusion."
 keywords: "mail merge with nested regions c#"
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/nested-mail-merge-with-regions/
 timestamp: 2024-07-11-08-07-06
 ---

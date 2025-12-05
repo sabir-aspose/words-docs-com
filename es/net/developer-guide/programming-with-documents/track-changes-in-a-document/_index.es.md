@@ -6,6 +6,9 @@ linktitle: Seguimiento de cambios en un documento
 description: "Realice un seguimiento de los cambios de contenido y formato realizados por usted u otras personas mediante C#. Acceda a revisiones individuales en un documento y aplíqueles varias propiedades."
 type: docs
 weight: 270
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Bekerja dengan Gambar
 type: docs
 description: "Bentuk gambar dalam detail dan fitur lanjutan yang disediakan oleh Aspose.Words untuk Java."
 weight: 300
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/java/working-with-images/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: طباعة مستند برمجياً أو باستخدام مربعا
 description: "اطبع مستندًا على Server باستخدام XpsPrint API غير المُدار أو عبر طابعة محددة باستخدام الإعدادات ومربعات حوار معاينة الطباعة بتنسيق C#."
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-31-14-23-37
 ---

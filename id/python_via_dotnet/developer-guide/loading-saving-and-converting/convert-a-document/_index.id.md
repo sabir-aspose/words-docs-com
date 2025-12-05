@@ -4,6 +4,9 @@ second_title: Aspose.Words untuk Python via .NET
 articleTitle: Konversi Dokumen
 linktitle: Konversi Dokumen
 type: docs
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/python-net/convert-a-document/
 weight: 30
 description: "Konversi dokumen dengan mudah dari satu format ke format lainnya menggunakan Python. Anda dapat bekerja dengan semua format terpopuler seperti format Microsoft Word seperti DOCX atau DOC, format OpenDocument seperti ODT atau OTT, format web seperti HTML atau XHTML, format teks seperti MarkDown atau TXT, dan lain-lain."

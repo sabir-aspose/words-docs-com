@@ -6,6 +6,9 @@ linktitle: 更新字段
 description: "了解如何更新 C# 中的字段。以编程方式更新字段或使用 .NET API 自动字段更新。"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/update-fields/
 timestamp: 2024-01-27-14-07-04
 ---

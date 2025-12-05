@@ -6,6 +6,9 @@ linktitle: Werk Met Style en Temas
 description: "Verbeterde Microsoft Word formatering funksies, werk met style en temas met behulp van Java."
 type: docs
 weight: 110
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/java/working-with-styles-and-themes/
 timestamp: 2024-01-27-14-07-04
 ---

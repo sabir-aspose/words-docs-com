@@ -6,6 +6,9 @@ linktitle: Suchen und Ersetzen
 type: docs
 description: "Suchen Sie eine Zeichenfolge oder ein Muster für reguläre Ausdrücke in Ihrem Dokument und ersetzen Sie es mit C++ durch den gewünschten Text."
 weight: 100
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/cpp/find-and-replace/
 timestamp: 2024-01-27-14-07-04
 ---

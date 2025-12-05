@@ -7,6 +7,9 @@ type: docs
 description: "ดำเนินการสองประเภทของการดำเนินงานMail Merge:ง่ายMail MergeและMail Mergeกับภูมิภาค ง่ายMail Mergeทำซ้ำเอกสารทั้งหมดต่อแต่ละระเบียนแหล่งข้อมูล,ในขณะที่Mail Mergeกับภูมิภาคซ้ำเฉพาะภูมิภาคที่กำหนดต่อเร็กคอร์ดโดยใช้Java."
 keywords: "how to execute Mail Merge java, Mail Merge Java, Simple Mail Merge"
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/types-of-mail-merge-operations/
 timestamp: 2024-01-27-14-07-04
 ---

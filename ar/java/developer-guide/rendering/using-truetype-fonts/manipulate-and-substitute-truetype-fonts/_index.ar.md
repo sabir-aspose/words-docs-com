@@ -6,6 +6,9 @@ linktitle: التلاعب واستبدال TrueType الخطوط
 description: "Aspose.Words ل Java يمكن تضمين الصحيح TrueType الخطوط في الوثيقة الناتجة للتأكد من أنه يعرض بدقة، أو البحث عن بديل الخط المناسب، أو يستخدم آلية تراجع الخط."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

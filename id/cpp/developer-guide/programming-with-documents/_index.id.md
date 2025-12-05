@@ -6,6 +6,9 @@ linktitle: Pemrograman dengan Dokumen
 type: docs
 description: "Gunakan kelas Model Objek Dokumen Aspose.Words untuk membuat, memodifikasi, dan mengelola dokumen secara terprogram menggunakan C++. Bekerja dengan properti dokumen, pengaturan, dan konten, serta dengan tampilan dokumen melalui pengelolaan warna, bentuk, font, dan grafik lainnya."
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/cpp/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

@@ -6,6 +6,9 @@ linktitle: Làm Việc Với Danh Sách
 description: "Giới thiệu về tính năng định dạng đánh số trong Aspose.Words cho C++."
 type: docs
 weight: 200
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/working-with-lists/
 timestamp: 2024-01-30-16-22-34
 ---

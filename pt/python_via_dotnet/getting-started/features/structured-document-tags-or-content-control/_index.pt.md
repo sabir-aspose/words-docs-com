@@ -6,6 +6,9 @@ linktitle: Tags de documentos estruturados ou controle de conteúdo
 description: "Incorpore a semântica definida pelo cliente, bem como seu comportamento e aparência em um documento usando tags de documento estruturadas (SDT ou controle de conteúdo) em Python."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/python-net/structured-document-tags-or-content-control/
 timestamp: 2024-01-31-14-23-37
 ---

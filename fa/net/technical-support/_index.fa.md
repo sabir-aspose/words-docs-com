@@ -8,6 +8,9 @@ linktitle: پشتیبانی فنی
 type: docs
 description: "Aspose.Words for .NET پشتیبانی فنی رایگان را برای همه کاربران فراهم می کند. لطفاً سؤال، مشکل یا درخواست ویژگی خود را با استفاده از انجمن پشتیبانی رایگان Aspose گزارش دهید."
 weight: 80
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/technical-support/
 timestamp: 2024-01-27-14-07-04
 ---

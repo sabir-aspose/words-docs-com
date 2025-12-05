@@ -6,6 +6,9 @@ linktitle: المستويات المنطقية للعقد في المستند
 type: docs
 description: "في وثائق Aspose.Words for .NET، تم ذكر المستويات المنطقية للعقد - مستوى الكتلة، أو المستوى المضمّن، أو مستوى الصف باستخدام C#. يتم استخدام مستوى العقدة لوصف الموقع في شجرة المستندات حيث توجد العقدة عادةً."
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

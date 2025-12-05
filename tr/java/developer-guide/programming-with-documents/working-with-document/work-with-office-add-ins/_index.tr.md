@@ -6,6 +6,9 @@ linktitle: Ofis Eklentileri ile Çalışın
 description: "Aspose.Words için Java çeşitli Office Eklentileri ile çalışmak için sınıflar sağlar. Görev Penceresi'ni ekleyebilir ve bölme özelliklerini ve uzantı özelliklerini özelleştirebilirsiniz."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

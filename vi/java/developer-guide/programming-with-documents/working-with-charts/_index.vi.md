@@ -6,6 +6,9 @@ linktitle: Làm việc với biểu đồ
 description: "Giới thiệu về tính năng biểu đồ, cách tạo và thao tác với các biểu đồ bằng Java."
 type: docs
 weight: 310
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/working-with-charts/
 timestamp: 2024-01-27-14-07-04
 ---

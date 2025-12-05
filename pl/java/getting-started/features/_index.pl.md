@@ -6,6 +6,9 @@ linktitle: Obsługiwane funkcje
 description: "Aspose.Words zamiast Java zapewnia użytkownikom szeroki wachlarz funkcji od prostej konwersji i modyfikacji dokumentów do tworzenia ustrukturyzowanych i wizualnie atrakcyjnych dokumentów lub automatyzacji sprawozdawczości."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/features/
 timestamp: 2024-10-21-11-17-44
 ---

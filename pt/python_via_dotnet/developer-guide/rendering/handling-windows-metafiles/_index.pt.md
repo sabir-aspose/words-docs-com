@@ -6,6 +6,9 @@ linktitle: Tratamento de metarquivos Windows
 description: "Aspose.Words para Python via .NET implementa seu próprio reprodutor de metarquivo Windows para reproduzir o formato Metarquivo em todas as plataformas e suporta o manuseio dos recursos básicos de metarquivo e pode executar fallback para um tipo diferente de reprodutor de metarquivo."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/python-net/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

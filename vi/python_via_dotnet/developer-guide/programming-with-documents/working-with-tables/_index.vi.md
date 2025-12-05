@@ -6,6 +6,9 @@ linktitle: Làm việc với bảng
 description: "Làm việc với các bảng trong tài liệu bằng Python. Giới thiệu cách làm việc với các bảng và khái niệm nút Bảng trong Aspose.Words cho Python."
 type: docs
 weight: 190
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/working-with-tables/
 timestamp: 2024-01-27-14-07-04
 ---

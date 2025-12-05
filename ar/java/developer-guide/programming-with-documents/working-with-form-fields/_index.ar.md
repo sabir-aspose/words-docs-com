@@ -6,6 +6,9 @@ linktitle: العمل مع حقول النموذج
 description: "ميزة فهم حقول النموذج، والعمل مع حقول النموذج باستخدام Java."
 type: docs
 weight: 380
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/working-with-form-fields/
 timestamp: 2024-01-27-14-07-04
 ---

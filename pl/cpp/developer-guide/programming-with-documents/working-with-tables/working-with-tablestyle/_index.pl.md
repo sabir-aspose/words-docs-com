@@ -6,6 +6,9 @@ linktitle: Zastosuj Styl Tabeli
 description: "Zaawansowane formatowanie tabeli C++. Utwórz styl tabeli za pomocą C++. Zastosuj styl tabeli C++."
 type: docs
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/working-with-tablestyle/
 timestamp: 2024-01-27-14-07-04
 ---

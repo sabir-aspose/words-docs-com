@@ -6,6 +6,9 @@ linktitle: Lucrul cu documentul
 type: docs
 description: "Clasa `Document` oferă diverse proprietăți și metode ale documentului. Utilizați clasa `Document` ca punct de plecare pentru orice doriți să efectuați Aspose.Words pentru Java. Obiectul `Document` poate fi salvat într-un fișier sau flux și, de asemenea, trimis la un browser."
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/java/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---

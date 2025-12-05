@@ -6,6 +6,9 @@ linktitle: Rendu des formes séparément d'un document
 description: "Extrayez divers objets graphiques, tels que des images, des zones de texte contenant des paragraphes ou des formes de flèches, lors du traitement d'un document, et exportez-les vers un emplacement externe à l'aide de Python."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

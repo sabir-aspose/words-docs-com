@@ -6,6 +6,9 @@ linktitle: תכונות תמיכה
 description: "Aspose.Words עבור Python via .NET מספק למשתמשים מגוון רחב של תכונות פשוט להמיר ולשנות מסמכים ליצירת מסמכים ממושכים וויזואלית או דיווח אוטומטי."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/python-net/features/
 timestamp: 2024-10-21-11-17-44
 ---

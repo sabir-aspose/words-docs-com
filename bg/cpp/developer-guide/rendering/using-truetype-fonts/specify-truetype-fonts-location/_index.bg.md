@@ -6,6 +6,9 @@ linktitle: Посочете TrueType Местоположение На Шриф�
 description: "Посочете различни TrueType източници на шрифтове: системна папка, потребителски източници, зареждане на шрифтове от поток, файлова система или памет."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/specify-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

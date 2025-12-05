@@ -6,6 +6,9 @@ linktitle: Rileva il formato del file e verifica la compatibilità del formato
 description: "Ottenere informazioni sul formato del documento prima di aprirlo per evitare un'eccezione se non si è sicuri di quale sia il contenuto effettivo del file Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/java/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

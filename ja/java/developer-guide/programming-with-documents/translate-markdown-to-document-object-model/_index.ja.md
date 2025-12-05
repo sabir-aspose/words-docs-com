@@ -6,6 +6,9 @@ linktitle: Markdownをドキュメントオブジェクトモデルに変換(DOM
 type: docs
 description: "オブジェクトモデルを文書化して戻すMarkdown文書をTarnslateします。 したがって、複雑な既存のMarkdownを操作し、Javaを使用してプログラムでMarkdownドキュメントを最初から作成できます。"
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/translate-markdown-to-document-object-model/
 timestamp: 2024-10-21-11-17-44
 ---

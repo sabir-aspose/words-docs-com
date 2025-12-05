@@ -6,6 +6,9 @@ linktitle: Dołącz do tabel
 description: "Łącz tabele w dokumencie za pomocą Python. Jak połączyć dwie tabele w jedną w Python."
 type: docs
 weight: 90
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/python-net/join-tables/
 timestamp: 2024-01-27-14-07-04
 ---

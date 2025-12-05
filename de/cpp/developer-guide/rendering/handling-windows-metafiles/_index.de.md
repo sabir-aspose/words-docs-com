@@ -6,6 +6,9 @@ linktitle: Umgang mit Windows Metadateien
 description: "Aspose.Words für C++ implementiert einen eigenen Windows Metadatei-Player zum Abspielen des Metadateiformats auf allen Plattformen und unterstützt die Handhabung der grundlegenden Metadateifunktionen und kann einen Fallback auf einen anderen Typ von Metadatei-Player durchführen."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/cpp/handling-windows-metafiles/
 timestamp: 2024-01-30-16-22-34
 ---

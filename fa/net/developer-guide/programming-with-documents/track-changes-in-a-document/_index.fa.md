@@ -6,6 +6,9 @@ linktitle: ردیابی تغییرات در یک سند
 description: "ردیابی تغییرات محتوا و قالب‌بندی ایجاد شده توسط شما یا دیگران با استفاده از C#. به ویرایش‌های جداگانه در یک سند دسترسی داشته باشید و ویژگی‌های مختلفی را برای آنها اعمال کنید."
 type: docs
 weight: 270
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -8,6 +8,7 @@ weight: 40
 description: "Controleer de grammatica van een document. Aspose.Words voor C++ hiermee kunnen gebruikers grammatica controleren en fouten in documenten detecteren met behulp van OpenAI, Google en Claude modellen."
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/grammar-checking/
 timestamp: 2025-03-17-19-00-00
 ---

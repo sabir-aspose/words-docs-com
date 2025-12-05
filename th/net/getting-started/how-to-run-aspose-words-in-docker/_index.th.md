@@ -6,6 +6,9 @@ linktitle: วิธีเรียกใช้ Aspose.Words ในรูปแ�
 type: docs
 description: "รวมฟังก์ชัน Aspose.Words เข้ากับแอปพลิเคชันของคุณโดยใช้ Docker โดยไม่คำนึงถึงเทคโนโลยีที่อยู่ในกลุ่มการพัฒนาของคุณ เรียนรู้วิธีใช้ Aspose .Words ในคอนเทนเนอร์ Docker ใน C#"
 weight: 120
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/how-to-run-aspose-words-in-docker/
 timestamp: 2024-08-19-11-05-36
 ---

@@ -6,6 +6,9 @@ linktitle: แท็กเอกสารที่มีโครงสร้า
 description: "ทำงานกับแท็กเอกสารที่มีโครงสร้างหรือการควบคุมเนื้อหาโดยใช้ C#"
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/structured-document-tags-or-content-control/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: Aspose.Words için Android aracılığıyla Java Özellikler
 description: "Bu bölüm Aspose.Words için Java ve Aspose.Words için Android arasında özelliklerin kullanılabilirliği hakkında bir karşılaştırma sağlar, Java aracılığıyla."
 type: docs
 weight: 90
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/aspose-words-for-android-via-java-features/
 timestamp: 2024-10-21-11-17-44
 ---

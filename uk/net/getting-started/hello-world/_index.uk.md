@@ -6,6 +6,9 @@ linktitle: Привіт світ
 description: "Створення, редагування та збереження Вашого першого документа в будь-якому форматі підтримки Aspose.Words для .NET щоб випробувати свою простоту і силу в C#й"
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/hello-world/
 timestamp: 2024-01-27-14-07-04
 ---

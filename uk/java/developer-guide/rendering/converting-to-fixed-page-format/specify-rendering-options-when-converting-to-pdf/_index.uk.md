@@ -6,6 +6,9 @@ linktitle: Вказати параметри рендерингу при кон�
 description: "Перетворення документа в PDF з розширеними опціями. Використовуйте PdfSaveOptions для зміни результату збереження документа у форматі PDF за допомогою Javaй"
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/java/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

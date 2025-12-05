@@ -6,6 +6,9 @@ linktitle: 機密ラベルでマークされたドキュメントの操作
 description: "C# を使用して、機密ラベルが適用された Word を PDF に変換します。 Word、OpenOffice、画像、電子書籍など、さまざまな入力形式で機密ラベルでマークされたドキュメントを操作します。"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/work-with-document-market-by-sensitivity-label/
 timestamp: 2024-01-31-14-23-37
 ---

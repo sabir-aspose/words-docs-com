@@ -6,6 +6,9 @@ linktitle: 병합되지 않은 영역에 사용자 지정 논리를 적용하는
 type: docs
 description: "Java을 사용하는Mail Merge작업 중에 병합되지 않은 영역에 사용자 지정 논리를 적용합니다."
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/how-to-apply-custom-logic-to-unmerged-regions/
 timestamp: 2024-01-27-14-07-04
 ---

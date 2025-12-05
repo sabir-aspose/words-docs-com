@@ -6,6 +6,9 @@ linktitle: 與儲存在 SharePoint 的文件一起工作
 description: "用C#將Word共享在SharePoint中的檔案轉換為PDF。 與儲存在 SharePoint 的檔案一起工作– 各種不同的輸入格式，包括 Word、OpenOffice、影像和電子書。"
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/work-with-document-stored-in-sharepoint/
 timestamp: 2024-10-21-11-17-44
 ---

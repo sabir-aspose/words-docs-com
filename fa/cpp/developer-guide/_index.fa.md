@@ -6,6 +6,9 @@ linktitle: راهنمای توسعه دهنده
 description: "این راهنمای توسعه دهنده سناریوهای عملی و نکاتی را برای کمک به شما در استفاده از Aspose.Words برای C++ ویژگی ها، دستیابی به یک ظاهر سند خاص، یا ایجاد یک مورد استفاده ممکن است."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

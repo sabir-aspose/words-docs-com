@@ -5,6 +5,9 @@ articleTitle: Bir Belge Dönüştür
 linktitle: Bir Belge Dönüştür
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/convert-a-document/
 description: "Bir biçimde diğerine kolayca belge dönüştürün. DOCX veya DOC gibi en popüler biçimlerden herhangi biri gibi tüm Microsoft Word biçimleri ve OpenDocument biçimleri ODT veya OTT gibi, web biçimleri HTML veya XHTML gibi, metin biçimleri MarkDown veya TXT gibi ve diğerleri ile çalışabilirsiniz Java."
 timestamp: 2024-09-25-11-08-55

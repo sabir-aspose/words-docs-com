@@ -6,6 +6,9 @@ linktitle: 필드 업데이트
 description: "C#에서 필드를 업데이트하는 방법을 알아보세요. 프로그래밍 방식으로 필드를 업데이트하거나 .NET API을 사용하여 자동 필드 업데이트를 사용합니다."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/update-fields/
 timestamp: 2024-01-27-14-07-04
 ---

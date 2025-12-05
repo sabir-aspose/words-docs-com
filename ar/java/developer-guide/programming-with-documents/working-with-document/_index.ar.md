@@ -6,6 +6,9 @@ linktitle: العمل مع الوثيقة
 type: docs
 description: "توفر فئة `Document` خصائص وطرق مختلفة للمستند. يمكنك استخدام فئة `Document` كنقطة انطلاق لكل ما تريد تنفيذه باستخدام Aspose.Words لـ Java. يمكن حفظ الكائن `Document` في ملف أو دفق وإرساله أيضا إلى متصفح."
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---

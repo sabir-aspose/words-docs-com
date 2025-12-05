@@ -6,6 +6,9 @@ linktitle: Checkboxes, Metin Girişi veya Resim Ekleme
 description: "C# kullanarak Mail Merge sırasında checkbox es veya metin giriş alanları ekleyin. Ayrıca Mail Merge sırasında C# içindeki bir Veritabanından görüntüler ekleyin."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/insert-checkboxes-text-input-or-images-mail-merge/
 timestamp: 2024-07-11-08-07-06
 ---

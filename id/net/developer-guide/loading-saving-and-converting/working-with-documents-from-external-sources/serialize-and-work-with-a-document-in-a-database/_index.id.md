@@ -6,6 +6,9 @@ linktitle: Membuat serial dan Bekerja dengan Dokumen dalam Database
 description: "Ubah dokumen menjadi array byte untuk bekerja dengan dokumen ini dalam database menggunakan C#. Anda dapat menyimpan dan mengambil dokumen ke dan dari database."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/net/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-07-09-19-00-42
 ---

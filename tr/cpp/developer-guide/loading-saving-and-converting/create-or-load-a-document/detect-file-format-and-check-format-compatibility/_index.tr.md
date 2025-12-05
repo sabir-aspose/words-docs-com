@@ -6,6 +6,9 @@ linktitle: Dosya Biçimini Algıla ve Biçim Uyumluluğunu Kontrol Et
 description: "Dosyanın gerçek içeriğinin ne olduğundan emin değilseniz veya biçim uyumluluğunu denetlemek için dosya biçimini C++ olarak belirleyin."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

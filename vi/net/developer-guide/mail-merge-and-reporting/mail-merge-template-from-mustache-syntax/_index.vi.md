@@ -7,6 +7,9 @@ type: docs
 description: "Tạo mẫu với cú pháp Mustache bằng cách sử dụng C#. Cú pháp Mustache là tùy chọn duy nhất để sử dụng với các mẫu không chứa các trường (HTML hoặc TXT). Với các mẫu Word, bạn có hai tùy chọn: trường hoặc cú pháp Mustache."
 keywords: "mail merge template mustache syntax c#"
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/mail-merge-template-from-mustache-syntax/
 timestamp: 2024-07-11-08-07-06
 ---

@@ -6,6 +6,9 @@ linktitle: 删除字段
 description: "了解如何删除 Python 中的字段。使用 Python via .NET API 以编程方式删除字段。"
 type: docs
 weight: 35
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/remove-fields/
 timestamp: 2024-01-27-14-07-04
 ---

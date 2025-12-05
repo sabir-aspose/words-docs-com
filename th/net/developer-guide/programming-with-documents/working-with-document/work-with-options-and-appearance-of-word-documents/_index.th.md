@@ -6,6 +6,9 @@ linktitle: ทำงานกับตัวเลือกและรูปล
 description: "ควบคุมลักษณะที่ปรากฏของเอกสาร Word โดยคำนึงถึงความแตกต่างระหว่าง Microsoft Word เวอร์ชันต่างๆ โดยใช้ C#"
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/work-with-word-document-options-and-appearance/
 timestamp: 2024-01-27-14-07-04
 ---

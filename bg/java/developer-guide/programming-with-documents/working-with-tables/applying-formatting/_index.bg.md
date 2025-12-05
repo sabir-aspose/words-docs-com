@@ -6,6 +6,9 @@ linktitle: Прилагане на форматиране на таблица
 description: "Форматиране на таблицата в детайли. Използване Java форматиране на всяка част от таблицата."
 type: docs
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/applying-formatting/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Bekerja dengan Add-in Office
 description: "Aspose.Words untuk C++ menyediakan berbagai kelas untuk bekerja dengan Add-in Office. Anda dapat menambahkan Panel Tugas melalui ekstensi web dan menyesuaikan panel dan properti ekstensi."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/cpp/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 文档中节点的逻辑级别
 type: docs
 description: "在 Aspose.Words for .NET 文档中提到了节点的逻辑级别 - 使用 C# 的块级别、内联级别或行级别。节点级别用于描述该节点在文档树中通常出现的位置。"
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

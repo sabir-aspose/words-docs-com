@@ -6,6 +6,9 @@ linktitle: 使用字体
 description: "使用 Python 自定义字体设置。"
 type: docs
 weight: 230
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/working-with-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

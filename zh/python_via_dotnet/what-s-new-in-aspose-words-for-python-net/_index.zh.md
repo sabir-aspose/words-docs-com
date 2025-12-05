@@ -8,6 +8,7 @@ description: "Aspose.Words为Python via .NET 每天扩展和增强。 在这个�
 weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/what-s-new-in-aspose-words-for-python-net/
 timestamp: 2025-06-23-21-02-49
 ---

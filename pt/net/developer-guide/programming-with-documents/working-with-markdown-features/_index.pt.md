@@ -6,6 +6,9 @@ linktitle: Trabalhando com recursos Markdown
 description: "Como implementar recursos Markdown usando C#. Todos os recursos são representados como estilos correspondentes ou formatação direta."
 type: docs
 weight: 420
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/net/working-with-markdown-features/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: 安全说明
 type: docs
 description: "Aspose.Words for .NET 认可并遵守通用安全标准，以确保高水平的数据安全。查看可能的安全问题以及有关如何使用 C# 避免这些问题的建议。"
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/security/
 timestamp: 2024-01-27-14-07-04
 ---

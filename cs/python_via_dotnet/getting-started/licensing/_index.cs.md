@@ -6,6 +6,9 @@ linktitle: Licence a předplatné
 description: "Aspose.Words místo Python via .NET poskytuje různé plány na nákup nebo nabízí bezplatnou zkušební verzi a 30denní dočasnou licenci na hodnocení pomocí licenčních a předplatných zásad."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/python-net/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

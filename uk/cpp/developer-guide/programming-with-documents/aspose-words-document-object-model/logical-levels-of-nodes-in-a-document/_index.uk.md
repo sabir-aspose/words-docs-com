@@ -6,6 +6,9 @@ linktitle: Логічні рівні вузлів у документі
 type: docs
 description: "У документації Aspose.Words для C++ згадуються логічні рівні вузлів – рівень блоку, вбудований рівень або рівень рядка. Рівень вузла використовується для опису розташування в дереві документа, де зазвичай знаходиться вузол."
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

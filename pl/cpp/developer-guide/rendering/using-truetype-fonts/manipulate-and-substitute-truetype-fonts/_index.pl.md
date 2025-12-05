@@ -6,6 +6,9 @@ linktitle: Manipulowanie i zastępowanie czcionek TrueType
 description: "Aspose.Words dla C++ może osadzić poprawne czcionki TrueType w wynikowym dokumencie, aby upewnić się, że wyświetla się dokładnie. Jeśli czcionka lub określony znak nie jest dostępny, Aspose.Words wyszukuje odpowiedni zamiennik czcionki lub używa mechanizmu rezerwowego czcionki."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

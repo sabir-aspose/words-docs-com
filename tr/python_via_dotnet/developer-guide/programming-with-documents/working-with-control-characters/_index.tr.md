@@ -6,6 +6,9 @@ linktitle: Kontrol Karakterleriyle Çalışmak
 description: "Python için Aspose.Words'te kontrol karakterleriyle çalışmaya giriş."
 type: docs
 weight: 400
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/python-net/working-with-control-characters/
 timestamp: 2024-01-27-14-07-04
 ---

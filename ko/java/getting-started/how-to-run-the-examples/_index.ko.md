@@ -6,6 +6,9 @@ linktitle: 예제를 실행하는 방법
 type: docs
 description: "우리의GitHub저장소에서Java예제에 대한Aspose.Words을 다운로드하고Aspose.Words가능성과 기능에 더 익숙해지기 위해 실행하는 방법에 대해 알아 봅니다."
 weight: 130
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/how-to-run-the-examples/
 timestamp: 2024-01-27-14-07-04
 ---

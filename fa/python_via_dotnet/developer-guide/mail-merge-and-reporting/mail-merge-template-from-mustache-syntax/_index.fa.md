@@ -7,6 +7,9 @@ type: docs
 description: "با استفاده از Python قالب هایی با نحو Mustache ایجاد کنید. Mustache نحو تنها گزینه ای است که با قالب هایی که شامل فیلد (HTML یا TXT نیستند استفاده می شود. با قالب های Word، شما دو گزینه دارید: فیلدها یا نحو Mustache."
 keywords: "mail merge template mustache syntax python"
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/mail-merge-template-from-mustache-syntax/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Een document afdrukken Programmatisch of dialoogvensters gebruiken
 description: "Een document afdrukken met Java via Instellingen, Afdrukvoorbeeld, en Print voortgangsdialoogvensters."
 type: docs
 weight: 55
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/java/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-27-14-07-04
 ---

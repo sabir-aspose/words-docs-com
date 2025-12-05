@@ -6,6 +6,9 @@ linktitle: Gestructureerde document-tags of inhoudscontrole
 description: "Integreer klant-gedefinieerde semantiek en zijn gedrag en verschijning in een document met behulp van gestructureerde document tags (SDT of inhoudscontrole) in Python."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/python-net/structured-document-tags-or-content-control/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: So sánh tài liệu
 description: "So sánh hai tài liệu ở bất kỳ định dạng được hỗ trợ nào và hiển thị các thay đổi nội dung bằng C#. Bạn có thể áp dụng các tùy chọn nâng cao khi so sánh."
 type: docs
 weight: 60
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/compare-documents/
 timestamp: 2024-01-27-14-07-04
 ---

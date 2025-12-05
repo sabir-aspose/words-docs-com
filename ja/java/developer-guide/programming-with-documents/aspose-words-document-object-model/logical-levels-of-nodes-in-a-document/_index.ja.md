@@ -6,6 +6,9 @@ linktitle: ドキュメント内のノードの論理レベル
 type: docs
 description: "Aspose.WordsforJavaのドキュメントでは、ノードの論理レベル（ブロックレベル、インラインレベル、または行レベル）について説明しました。 ノードレベルは、ノードが通常発生するドキュメントツリー内の場所を記述するために使用されます。"
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

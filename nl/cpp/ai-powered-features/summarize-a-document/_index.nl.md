@@ -8,6 +8,7 @@ weight: 20
 description: "Een document samenvatten. Aspose.Words voor C++ vereenvoudigt het samenvatten van documenten met behulp van OpenAI - en Google AI - modellen door u in staat te stellen de lengte van de samenvatting op te geven."
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/summarize-a-document/
 timestamp: 2025-03-17-19-00-00
 ---

@@ -6,6 +6,9 @@ linktitle: TrueType Yazı Tiplerini Linux'a Yükle
 description: "Aspose.Words için Java'de, bir Microsoft Word ile oluşturulan bir belgeyi en iyi doğruluğu olan bir Linux makinesinde işleyebilirsiniz."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/install-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

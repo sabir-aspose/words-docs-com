@@ -6,6 +6,9 @@ linktitle: איך לרוץ Aspose.Words פנימה Docker
 type: docs
 description: "המונחים Aspose.Words פונקציונליות ביישום שלך Docker ללא קשר למה הטכנולוגיה נמצאת בערימה הפיתוח שלך. למד כיצד להשתמש As נניח מילים ב Docker מיכל C#."
 weight: 120
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/how-to-run-aspose-words-in-docker/
 timestamp: 2024-08-19-11-05-36
 ---

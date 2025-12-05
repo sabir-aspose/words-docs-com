@@ -7,6 +7,9 @@ type: docs
 description: "להמיר PDF לפורמטי Word כגון DOCX, DOC, פורמטי תמונות כגון JPG או PNG, או כל פורמטים אחרים הנתמכות על ידי Aspose.Words באמצעות שימוש C#."
 keywords: convert pdf to other formats c#
 weight: 45
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/convert-pdf-to-other-document-formats/
 timestamp: 2024-07-09-19-00-42
 ---

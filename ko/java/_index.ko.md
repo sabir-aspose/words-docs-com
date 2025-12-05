@@ -5,6 +5,9 @@ linktitle: Aspose.Words(으)로 Java
 description: "Java을 사용하여 문서를 생성,수정,변환,렌더링 및 인쇄합니다."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/
 is_root: true
 timestamp: 2024-09-25-11-08-55

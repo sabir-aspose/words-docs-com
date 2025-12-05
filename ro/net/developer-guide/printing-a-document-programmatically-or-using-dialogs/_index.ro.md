@@ -6,6 +6,9 @@ linktitle: Tipărirea unui document programatic sau utilizând dialoguri
 description: "Imprimă un document pe o Server folosind XpsPrint necontrolat API sau printr-o imprimantă selectată cu Setări și ferestre de dialog Previzualizare a imprimării în C#."
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: 將文件轉換成圖像
 type: docs
 description: "將文件轉換為圖片格式 (JPG，PNG 等)。 使用 C# 创建文件預覽或掃描以發送帳單。"
 weight: 43
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/convert-a-document-to-an-image/
 timestamp: 2024-07-09-19-00-42
 ---

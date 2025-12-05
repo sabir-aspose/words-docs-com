@@ -6,6 +6,9 @@ linktitle: Określ lokalizację czcionek TrueType
 description: "Określ różne źródła czcionek TrueType: folder systemowy, źródła użytkownika, ładowanie czcionek ze strumienia, system plików lub pamięć za pomocą C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/specifying-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

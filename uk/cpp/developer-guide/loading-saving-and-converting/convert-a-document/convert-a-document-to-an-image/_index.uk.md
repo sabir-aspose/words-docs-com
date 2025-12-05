@@ -6,6 +6,9 @@ linktitle: Перетворення документа в зображення
 type: docs
 description: "Перетворіть документ в графічний формат (JPG, PNG і т.д.). Створіть попередній перегляд документа або сканування документа для надсилання рахунку-фактури."
 weight: 43
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/convert-a-document-to-an-image/
 timestamp: 2024-01-30-16-22-34
 ---

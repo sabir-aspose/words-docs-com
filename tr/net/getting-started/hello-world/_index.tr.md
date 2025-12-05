@@ -6,6 +6,9 @@ linktitle: Selam Dünya
 description: "C#'deki basitliği ve gücü deneyimlemek için .NET için Aspose.Words'i kullanarak ilk belgenizi desteklenen herhangi bir formatta oluşturun, düzenleyin ve kaydedin."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/hello-world/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Noțiuni De Bază
 type: docs
 description: "Utilizați această introducere pentru Aspose.Words pentru Python via .NET fundamente pentru a începe realizarea valorii Aspose.Words pentru afacerea dvs."
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/python-net/getting-started/
 timestamp: 2024-09-25-11-08-55
 ---

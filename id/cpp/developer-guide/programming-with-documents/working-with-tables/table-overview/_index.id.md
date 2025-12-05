@@ -6,6 +6,9 @@ linktitle: Gambaran Umum Tabel
 description: "Bekerja dengan tabel dan komponennya seperti sel, baris, kolom di Aspose.Words untuk C++. Cara bekerja dengan tabel di C++."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/cpp/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

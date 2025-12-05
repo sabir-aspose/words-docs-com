@@ -6,6 +6,9 @@ linktitle: تحويل مستند الى بي دي اف
 description: "تحويل ورد الى بي دي اف في C#. أمثلة كود بسيطة لتحويل DOCX الى PDF. يدعم جميع صيغ ورد والصور."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/convert-a-document-to-pdf/
 timestamp: 2024-09-25-11-08-55
 ---

@@ -6,6 +6,9 @@ linktitle: Монтаж
 description: "Инсталиране Aspose.Words вместо .NET приложение Visual Studio инструменти като Manage NuGet Packages или Package Manager Console и инсталатора на MSI. Използвайте Full Trust разрешение за въвеждане C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/installation/
 timestamp: 2024-01-27-14-07-04
 ---

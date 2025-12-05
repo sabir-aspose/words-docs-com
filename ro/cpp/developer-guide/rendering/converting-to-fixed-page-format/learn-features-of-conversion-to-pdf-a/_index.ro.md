@@ -6,6 +6,9 @@ linktitle: Aflați caracteristicile conversiei în PDF/A și PDF/UA
 description: "Conversia la PDF/A-1, PDF/A-2, PDF/A-4 și PDF/UA Folosind C++. Alegeți cel mai bun standard PDF pentru a converti un document utilizând versiunea standard."
 type: docs
 weight: 35
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/learn-features-of-conversion-to-pdf-a-pdf-ua/
 timestamp: 2024-01-31-14-23-37
 ---

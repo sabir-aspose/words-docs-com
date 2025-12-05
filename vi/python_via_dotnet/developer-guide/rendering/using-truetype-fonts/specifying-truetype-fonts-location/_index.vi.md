@@ -6,6 +6,9 @@ linktitle: Chỉ định vị trí phông chữ TrueType
 description: "Chỉ định các nguồn phông chữ TrueType khác nhau: thư mục hệ thống, nguồn người dùng, tải phông chữ từ luồng, hệ thống tệp hoặc bộ nhớ bằng Python."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/specifying-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

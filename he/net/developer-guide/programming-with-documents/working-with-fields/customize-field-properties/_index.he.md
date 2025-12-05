@@ -6,6 +6,9 @@ linktitle: Customize Field Properties
 description: "למד כיצד להתאים אישית תכונות שדה C#. Rename משלב שדות או להשיג תוצאות עבור שדות ללא שיתוק .NET."
 type: docs
 weight: 27
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

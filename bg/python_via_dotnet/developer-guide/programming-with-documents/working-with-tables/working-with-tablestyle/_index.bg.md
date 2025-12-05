@@ -6,6 +6,9 @@ linktitle: Прилагане на стил на таблица
 description: "Разширено форматиране на таблицата C#. Създаване на стил на таблица с помощта Python. Прилагане стил на таблица Python."
 type: docs
 weight: 80
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/python-net/working-with-tablestyle/
 timestamp: 2024-01-27-14-07-04
 ---

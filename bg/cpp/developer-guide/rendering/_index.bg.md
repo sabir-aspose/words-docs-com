@@ -6,6 +6,9 @@ linktitle: Рендериране
 description: "Използвайте Aspose.Words за C++ функция за рендиране, за да форматирате документ за оформление на потока в страници и да конвертирате такъв документ или избрани страници в други документи (PDF, HTML, XPS, и т.н.) или изображения (TIFF, PNG, SVG, и т.н.) формати за преглед, по-нататъшни реализации или печат."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/rendering/
 timestamp: 2024-01-30-16-22-34
 ---

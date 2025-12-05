@@ -6,6 +6,9 @@ linktitle: 保安须知
 type: docs
 description: "Aspose.WordsforJava认可并遵守通用安全标准，以确保高水平的数据安全。 查看可能的安全问题以及如何避免它们的建议。"
 weight: 120
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/security/
 timestamp: 2024-01-27-14-07-04
 ---

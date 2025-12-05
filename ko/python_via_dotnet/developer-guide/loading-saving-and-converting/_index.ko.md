@@ -6,6 +6,9 @@ linktitle: 로드, 저장 및 변환
 description: "Word에서 PDF로, HTML에서 Markdown로 문서를 한 형식에서 다른 형식으로 변환하는 방법과 Python를 사용하여 문서를 로드하고 저장하는 방법."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---

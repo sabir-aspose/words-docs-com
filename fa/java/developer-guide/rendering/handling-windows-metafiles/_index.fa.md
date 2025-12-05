@@ -6,6 +6,9 @@ linktitle: دست زدن به Windows Metafiles
 description: "Aspose.Words برای Java پخش کننده متافایل Windows خود را برای پخش فرمت Metafile در همه پلتفرم‌ها پیاده‌سازی می‌کند و از مدیریت ویژگی‌های اصلی متافایل پشتیبانی می‌کند و می‌تواند به نوع دیگری از پخش‌کننده متافایل بازگشتی انجام دهد."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

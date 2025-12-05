@@ -6,6 +6,9 @@ linktitle: เรียนรู้คุณสมบัติของการ
 description: "แปลงเป็น PDF/A-1, PDF/A-2, PDF/A-4 และ PDF/UA โดยใช้ Python เลือกมาตรฐาน PDF ที่ดีที่สุดเพื่อแปลงเอกสารโดยใช้ Python via .NET"
 type: docs
 weight: 25
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/python-net/learn-features-of-conversion-to-pdf-a/
 timestamp: 2024-01-31-14-23-37
 ---

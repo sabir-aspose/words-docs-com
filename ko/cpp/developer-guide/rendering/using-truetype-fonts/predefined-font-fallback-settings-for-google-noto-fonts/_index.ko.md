@@ -6,6 +6,9 @@ linktitle: 미리 정의 된 글꼴 FallBack 에 대한 설정 Google Noto 글�
 description: "Aspose.Words 에 대한 미리 정의 된 글꼴 대체 설정을 제공합니다 Google Noto 글꼴 이 무료 글꼴은 SIL 오픈 글꼴 라이센스,에서 다운로드 할 수 있습니다 Google Noto 글꼴"
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/predefined-font-fallback-settings-for-google-noto-fonts/
 timestamp: 2024-09-24-14-35-44
 ---

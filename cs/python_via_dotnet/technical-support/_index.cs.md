@@ -6,6 +6,9 @@ linktitle: Technická podpora
 type: docs
 description: "Aspose.Words místo Python via .NET poskytuje bezplatnou technickou podporu všem uživatelům. Prosím nahlašte svůj dotaz, číslo nebo požadavek na funkci pomocí fóra podpory zdarma."
 weight: 80
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/python-net/technical-support/
 timestamp: 2024-11-18-12-56-02
 ---

@@ -6,6 +6,9 @@ linktitle: 필드를 정적 텍스트로 바꾸기
 description: "C#에서 필드를 텍스트로 바꾸는 방법을 알아보세요. .NET API을 사용하여 필드를 정적 데이터로 바꿉니다."
 type: docs
 weight: 37
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/replace-fields/
 timestamp: 2024-01-27-14-07-04
 ---

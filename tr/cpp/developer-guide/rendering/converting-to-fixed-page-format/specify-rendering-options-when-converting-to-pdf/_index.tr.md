@@ -6,6 +6,9 @@ linktitle: PDF'a Dönüştürürken Oluşturma Seçeneklerini Belirtin
 description: "C++ kullanarak gelişmiş seçeneklerle bir belgeyi PDF'e dönüştürün. Belgeyi kaydetme sonucunu PDF biçimine değiştirmek için PdfSaveOptions öğesini kullanın."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

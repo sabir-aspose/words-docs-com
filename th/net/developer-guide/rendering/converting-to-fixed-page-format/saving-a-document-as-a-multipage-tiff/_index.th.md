@@ -6,6 +6,9 @@ linktitle: การบันทึกเอกสารเป็น TIFF แบ
 description: "แปลงเอกสารเป็น TIFF หลายหน้าโดยใช้ C# เพื่อกำหนดวิธีการแสดงเอกสารบนรูปภาพ คุณต้องระบุตัวเลือกเพิ่มเติม: ความละเอียด จำนวนหน้า ไบนาไรเซชันของรูปภาพ ฯลฯ"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-07-10-14-38-57
 ---

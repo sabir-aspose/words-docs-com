@@ -6,6 +6,9 @@ linktitle: Trabajar con gráficos a través del objeto Shape.Chart
 description: "Gráficos en detalles, cómo se vincula el gráfico con el nodo de forma en Aspose.Words para C++."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/cpp/working-with-charts-through-shape-chart-object/
 timestamp: 2024-01-27-14-07-04
 ---

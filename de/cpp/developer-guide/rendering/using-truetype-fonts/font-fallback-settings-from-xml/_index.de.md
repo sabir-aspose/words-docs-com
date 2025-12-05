@@ -6,6 +6,9 @@ linktitle: Schrift FallBack Einstellungen von XML
 description: "Der Schriftarten-Fallback-Mechanismus wird verwendet, wenn die Schriftart aufgelöst ist, aber kein bestimmtes Zeichen enthält. In diesem Fall versucht Aspose.Words, eine der Fallback-Schriftarten für das Zeichen zu verwenden."
 type: docs
 weight: 14
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/cpp/font-fallback-settings-from-xml/
 timestamp: 2024-09-24-14-35-44
 ---

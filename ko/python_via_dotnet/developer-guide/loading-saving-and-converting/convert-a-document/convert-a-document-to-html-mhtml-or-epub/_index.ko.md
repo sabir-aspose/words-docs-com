@@ -6,6 +6,9 @@ linktitle: 문서를 HTML, MHTML 또는 EPUB로 변환
 description: "Python를 사용하여 거의 모든 형식의 문서를 HTML 또는 MHTML은 물론 EPUB 형식으로 변환합니다. 출력 문서 관리를 위한 저장 옵션을 지정할 수도 있습니다."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/convert-a-document-to-html-mhtml-or-epub/
 timestamp: 2024-01-27-14-07-04
 ---

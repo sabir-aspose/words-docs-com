@@ -6,6 +6,9 @@ linktitle: 入门
 type: docs
 description: "使用此 Aspose.Words 简介了解 Python via .NET 基础知识，开始实现 Aspose.Words 对您的业务的价值。"
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/getting-started/
 timestamp: 2024-09-25-11-08-55
 ---

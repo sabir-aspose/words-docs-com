@@ -6,6 +6,9 @@ linktitle: Werk met een document gemarkeerd door een gevoelige label
 description: "Word converteren met toegepaste gevoeligheid label naar PDF met behulp van C#. Werk met documenten gemarkeerd door een gevoeligheid labels"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/work-with-document-market-by-sensitivity-label/
 timestamp: 2024-01-31-14-23-37
 ---

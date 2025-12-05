@@ -6,6 +6,9 @@ linktitle: 테이블 분할
 description: "C#의 분할 테이블. 하나의 테이블을 두 개의 별도 테이블 C#로 분할하는 방법."
 type: docs
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/split-table/
 timestamp: 2024-01-27-14-07-04
 ---

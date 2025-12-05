@@ -6,6 +6,9 @@ linktitle: SmartArt Soğuk İşleme ile Çalışma
 type: docs
 description: "Aspose.Words için C++ SmartArt Soğuk İşleme gerçekleştirir, yani önceden oluşturulmuş SmartArt çizim eksik veya yanlışsa SmartArt nesneleri yerleştirir ve işler."
 weight: 330
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

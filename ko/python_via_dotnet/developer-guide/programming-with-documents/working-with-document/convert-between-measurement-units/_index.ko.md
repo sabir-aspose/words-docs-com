@@ -6,6 +6,9 @@ linktitle: 측정 단위 간 변환
 description: "Python via .NET용 Aspose.Words는 측정 단위(예: 인치에서 포인트로, 포인트에서 인치로, 픽셀에서 포인트로, 포인트에서 픽셀로)를 변환하는 방법에 도움을 줄 수 있습니다."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/convert-between-measurement-units/
 timestamp: 2024-01-27-14-07-04
 ---

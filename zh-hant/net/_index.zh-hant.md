@@ -5,6 +5,9 @@ linktitle: Aspose.Words for .NET
 description: "使用 C# 生成、修改、轉換、渲染並列印文件。"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/
 is_root: true
 timestamp: 2024-09-25-11-08-55

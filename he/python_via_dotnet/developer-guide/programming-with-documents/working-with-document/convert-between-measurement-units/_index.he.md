@@ -6,6 +6,9 @@ linktitle: להמיר בין יחידות מדידה
 description: "Aspose.Words עבור Python via .NET יכול לעזור לך עם איך להמיר בין יחידות מדידה, למשל, אינץ ' נקודות נקודות נקודות נקודות, פיקסלים נקודות, נקודות פיקסלים."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/python-net/convert-between-measurement-units/
 timestamp: 2024-01-27-14-07-04
 ---

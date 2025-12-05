@@ -6,6 +6,9 @@ linktitle: Trabalhando com SmartArt renderização a frio
 type: docs
 description: "Aspose.Words para Java executa SmartArt renderização a frio, o que significa que ele apresenta e renderiza SmartArt objetos se o desenho SmartArt pré-renderizado estiver ausente ou incorreto."
 weight: 330
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/java/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

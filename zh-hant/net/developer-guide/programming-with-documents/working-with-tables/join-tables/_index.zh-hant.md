@@ -6,6 +6,9 @@ linktitle: 結合表格
 description: "在 C# 中結合資料表。 如何將兩個表格合併成一個C#。"
 type: docs
 weight: 90
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/join-tables/
 timestamp: 2024-01-27-14-07-04
 ---

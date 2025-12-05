@@ -6,6 +6,9 @@ linktitle: Produsent Naam In Uitset Dokumente
 description: "Aspose.Words vir C++ voeg by die dokument die naam van die kragopwekker en weergawe nommer wat gebruik is om dit te skep. Hierdie data kan in die dokument gevind word op maniere wat afhang van die uitvoer lêer formaat."
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -7,6 +7,9 @@ type: docs
 description: "Chuyển đổi tài liệu ở bất kỳ định dạng tải được hỗ trợ nào sang Markdown và ngược lại bằng C#."
 keywords: how to convert a document to markdown c#
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/convert-a-document-to-markdown/
 timestamp: 2024-07-10-08-10-45
 ---

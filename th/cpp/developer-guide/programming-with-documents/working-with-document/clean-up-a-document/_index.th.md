@@ -6,6 +6,9 @@ linktitle: ทำความสะอาดเอกสาร
 description: "ลบข้อมูลที่ไม่ได้ใช้หรือซ้ำกันเพื่อลดขนาดเอาต์พุตและเวลาในการประมวลผลโดยใช้C++ ลบรูปแบบที่ไม่ได้ใช้รูปแบบในตัวรูปแบบที่ซ้ำกันหรือรายการที่ไม่ได้ใช้."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

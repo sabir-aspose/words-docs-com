@@ -6,6 +6,9 @@ linktitle: پشتیبانی فنی
 type: docs
 description: "Aspose.Words for Python via .NET پشتیبانی فنی رایگان را برای همه کاربران فراهم می کند. لطفاً سؤال، مشکل یا درخواست ویژگی خود را با استفاده از انجمن پشتیبانی رایگان Aspose گزارش دهید."
 weight: 80
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/technical-support/
 timestamp: 2024-11-18-12-56-02
 ---

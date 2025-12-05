@@ -6,6 +6,9 @@ linktitle: Lucrul cu nota de subsol și nota de final
 description: "Cum se manipulează notele de subsol și notele de final folosind Java."
 type: docs
 weight: 160
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/java/working-with-footnote-and-endnote/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Làm việc với Tài liệu
 type: docs
 description: "Lớp `Document` cung cấp các thuộc tính và phương thức tài liệu khác nhau bằng C#. Bạn sử dụng lớp `Document` làm điểm bắt đầu cho bất kỳ điều gì bạn muốn thực hiện với Aspose.Words cho .NET. Đối tượng `Document` có thể được lưu vào một tệp hoặc luồng và cũng có thể được gửi tới trình duyệt."
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---

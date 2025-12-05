@@ -6,6 +6,9 @@ linktitle: Sistem Gereksinimleri
 description: "Çalışmaya başlamadan önce Aspose.Words için C++, işletim sistemi, platform, çerçeveler ve ortam gereksinimlerini karşıladığınızdan emin olun, böylece cihazlarınızdaki etkinliklerin doğru bir şekilde muhasebeleştirilmesini sağlayın."
 type: docs
 weight: 70
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/system-requirements/
 timestamp: 2024-07-11-16-13-28
 ---

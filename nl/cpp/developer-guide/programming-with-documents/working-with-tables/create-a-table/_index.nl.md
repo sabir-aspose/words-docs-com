@@ -6,6 +6,9 @@ linktitle: Een tabel maken
 description: "Verschillende manieren om tabellen te maken met C++. Maak een tabel in C++ voor uw document. Voeg een tabel toe in C++."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---

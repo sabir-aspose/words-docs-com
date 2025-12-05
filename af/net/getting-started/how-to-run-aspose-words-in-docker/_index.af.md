@@ -6,6 +6,9 @@ linktitle: Hoe om te Hardloop Aspose.Words In Docker
 type: docs
 description: "Integreer Aspose.Words funksionaliteit in jou aansoek met Docker, ongeag watter tegnologie in jou ontwikkelingstapel is. Leer Hoe Om Aspose te gebruik .Woorde in'n Docker houer in C#."
 weight: 120
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/how-to-run-aspose-words-in-docker/
 timestamp: 2024-08-19-11-05-36
 ---

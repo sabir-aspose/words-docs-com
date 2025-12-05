@@ -6,6 +6,9 @@ linktitle: 스타일 및 테마 작업
 description: "Java를 사용하여 스타일과 테마 작업,Microsoft Word서식 기능을 강화했다."
 type: docs
 weight: 110
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/working-with-styles-and-themes/
 timestamp: 2024-01-27-14-07-04
 ---

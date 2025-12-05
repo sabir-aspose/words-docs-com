@@ -6,6 +6,9 @@ linktitle: ویژگی های پشتیبانی شده
 description: "Aspose.Words برای C++ کاربران را با طیف گسترده ای از ویژگی ها از تبدیل و تغییر اسناد به ایجاد اسناد ساختاری و بصری جذاب یا گزارش خودکار فراهم می کند."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/features/
 timestamp: 2024-01-27-14-07-04
 ---

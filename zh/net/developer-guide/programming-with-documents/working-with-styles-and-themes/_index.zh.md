@@ -6,6 +6,9 @@ linktitle: 使用样式和主题
 description: "高级 Microsoft Word 格式化功能，使用 C# 处理样式和主题。"
 type: docs
 weight: 110
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/working-with-styles-and-themes/
 timestamp: 2024-10-24-11-44-28
 ---

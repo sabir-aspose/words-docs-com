@@ -6,6 +6,9 @@ linktitle: Лицензиране и абонамент
 description: "Aspose.Words за С++ предоставя различни планове за покупка или предлага безплатен пробен период и 30-дневен временен лиценз за оценка, използвайки политики за лицензиране и абонамент."
 type: docs
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/licensing/
 timestamp: 2024-10-24-11-44-28
 ---

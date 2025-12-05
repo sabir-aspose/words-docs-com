@@ -6,6 +6,9 @@ linktitle: 제품 개요
 description: "Aspose.Words에 대한Android비아Java은Android개발자가 다양한 문서 처리 작업을 수행할 수 있도록 하는`Java`클래스 라이브러리입니다."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/android-product-overview/
 timestamp: 2024-01-27-14-07-04
 ---

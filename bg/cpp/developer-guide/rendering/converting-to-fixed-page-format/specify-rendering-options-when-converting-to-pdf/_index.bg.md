@@ -6,6 +6,9 @@ linktitle: Задаване на опции за рендиране при ко�
 description: "Конвертирайте документ в PDF с разширени опции, като използвате C++. Използвайте PdfSaveOptions, за да промените резултата от записването на документ във формат PDF."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

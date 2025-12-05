@@ -6,6 +6,9 @@ linktitle: Sklonuj dokument
 type: docs
 description: "Sklonuj dokument, aby uzyskać jego identyczną kopię za pomocą C++. Podczas tworzenia kopii klonowane są węzły i właściwości oryginalnego dokumentu."
 weight: 70
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/clone-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Làm việc với Các Đối tượng OLE
 description: "Tạo và sửa đổi OLE nhúng vào tài liệu của bạn bằng C++."
 type: docs
 weight: 360
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/working-with-ole-objects/
 timestamp: 2024-01-27-14-07-04
 ---

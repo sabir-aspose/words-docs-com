@@ -6,6 +6,9 @@ linktitle: 문서 프로그래밍
 type: docs
 description: "사용 Aspose.Words 다음을 사용하여 프로그래밍 방식으로 문서를 생성,수정 및 관리하는 문서 개체 모델 클래스 C++. 색상,모양,글꼴 및 기타 그래픽 관리를 통해 문서 모양뿐만 아니라 문서 속성,설정 및 내용으로 작업하십시오."
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

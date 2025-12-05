@@ -6,6 +6,9 @@ linktitle: Робота зі виносками та висновком
 description: "Як маніпулювати виносками та кінцевими примітками за допомогою C++."
 type: docs
 weight: 160
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/working-with-footnote-and-endnote/
 timestamp: 2024-01-27-14-07-04
 ---

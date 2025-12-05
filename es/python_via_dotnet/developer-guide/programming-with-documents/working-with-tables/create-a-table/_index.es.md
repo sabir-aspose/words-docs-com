@@ -6,6 +6,9 @@ linktitle: Introducción y creación de tablas
 description: "Cree y administre tablas en un documento usando Python."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/python-net/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---

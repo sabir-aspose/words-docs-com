@@ -6,6 +6,9 @@ linktitle: PDF/AとPDF/UAへの変換の特徴を学ぶ
 description: "に変換するPDF/A-1, PDF/A-2, PDF/A-4 そして、PDF/UAはJavaを使用します。 Javaを使用して文書を変換するには、最適なPDF標準を選択します。"
 type: docs
 weight: 25
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/learn-features-of-conversion-to-pdf-a-pdf-ua/
 timestamp: 2024-01-31-14-23-37
 ---

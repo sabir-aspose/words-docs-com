@@ -6,6 +6,9 @@ linktitle: Програмиране с документи
 type: docs
 description: "Използване на композитора `Python.Words` Document Object Model класове за програмиране да създават, променят и управляват документи с Python-net. Работете с документни свойства, настройки и съдържание, както и с документен външен вид чрез управление на цветове, форми, шрифтове и други графики."
 weight: 60
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/python-net/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

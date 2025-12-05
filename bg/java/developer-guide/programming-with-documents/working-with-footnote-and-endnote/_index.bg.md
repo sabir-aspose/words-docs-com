@@ -6,6 +6,9 @@ linktitle: Работа с бележки и бележки
 description: "Как да манипулирате бележки под линия и крайни бележки, използвайки Java."
 type: docs
 weight: 160
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/working-with-footnote-and-endnote/
 timestamp: 2024-01-27-14-07-04
 ---

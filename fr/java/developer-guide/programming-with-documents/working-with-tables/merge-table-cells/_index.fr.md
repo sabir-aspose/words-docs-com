@@ -6,6 +6,9 @@ linktitle: Fusionner Les Cellules Du Tableau
 description: "Comment fusionner des cellules de tableau dans Java. Vérifiez si les cellules d'un tableau sont fusionnées à l'aide de Java."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/working-with-merged-cells/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: قم بتثبيت خطوط TrueType على Linux
 description: "يسمح Aspose.Words for .NET بعرض مستند تم إنشاؤه باستخدام Microsoft Word على جهاز Linux بأفضل دقة باستخدام C#. لتحقيق ذلك، انسخ ملفات الخطوط من جهاز Windows أو قم بتثبيت حزمة خطوط `TrueType` على جهاز Linux الخاص بك بتنسيق C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/installing-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 了解转换为 PDF/A 和 PDF/UA 的功能
 description: "使用 Python 转换为 PDF/A-1、PDF/A-2、PDF/A-4 和 PDF/UA。选择最佳的 PDF 标准来使用 Python via .NET 转换文档。"
 type: docs
 weight: 25
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/learn-features-of-conversion-to-pdf-a/
 timestamp: 2024-01-31-14-23-37
 ---

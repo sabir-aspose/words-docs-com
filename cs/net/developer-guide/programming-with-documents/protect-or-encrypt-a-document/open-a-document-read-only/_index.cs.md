@@ -6,6 +6,9 @@ linktitle: Otevřít pouze pro čtení dokumentu
 description: "Udělejte si dokument pouze pro čtení tak, aby obsah mohl být kopírován nebo čten, ale nebyl upraven pomocí C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/net/open-a-document-read-only/
 timestamp: 2024-01-27-14-07-04
 ---

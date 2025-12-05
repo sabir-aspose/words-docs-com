@@ -6,6 +6,9 @@ linktitle: 與範圍工作
 description: ".NET 中的 Aspose.Words 範圍功能簡介。"
 type: docs
 weight: 130
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/working-with-ranges/
 timestamp: 2024-01-27-14-07-04
 ---

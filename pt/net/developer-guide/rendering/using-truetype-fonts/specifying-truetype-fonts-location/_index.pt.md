@@ -6,6 +6,9 @@ linktitle: Especifique a localização das fontes TrueType
 description: "Especifique várias fontes de fonte TrueType: pasta do sistema, fontes do usuário, carregamento de fontes de um fluxo, sistema de arquivos ou memória usando C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/net/specifying-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

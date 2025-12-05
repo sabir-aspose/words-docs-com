@@ -6,6 +6,9 @@ linktitle: Tieni traccia delle modifiche in un documento
 description: "Tieni traccia delle modifiche al contenuto e alla formattazione apportate da te o da altri utilizzando Python. Accedi alle singole revisioni di un documento e applica loro varie proprietà."
 type: docs
 weight: 270
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/python-net/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

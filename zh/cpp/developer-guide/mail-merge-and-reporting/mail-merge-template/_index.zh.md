@@ -7,6 +7,9 @@ type: docs
 description: "创建一个 Mail Merge 模板以定义输出文档中的固定内容，然后使用合并字段生成合并文档。"
 keywords: "create Mail Merge template с++"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/mail-merge-template/
 timestamp: 2024-01-31-14-23-37
 ---

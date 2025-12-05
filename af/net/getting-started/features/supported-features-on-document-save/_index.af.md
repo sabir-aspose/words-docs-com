@@ -6,6 +6,9 @@ linktitle: Ondersteunde Kenmerke Op Dokument Stoor
 description: "Stoor'n dokument in die meeste gewilde formate en ondersteun baie Microsoft Word funksies met C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/supported-features-on-document-save/
 timestamp: 2024-09-25-11-08-55
 ---

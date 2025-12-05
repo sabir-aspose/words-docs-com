@@ -6,6 +6,9 @@ linktitle: تبدیل یک سند به اکسل
 description: "تبدیل PDF به اکسل, XML به اکسل, DOCX به اکسل Java. یک سند را در فرمت های مختلف به XLSX با استفاده از Java ذخیره کنید."
 type: docs
 weight: 15
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/convert-a-document-to-excel/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: Dosya Biçimlerine ve Dönüşümlere
 description: "Kaydetmek için desteklenen herhangi bir yükten belgeleri dönüştürün iki satır Java koduyla. O, Java'u kullanarak yüksek kaliteli dönüştürmeler sağlar."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/file-formats-and-conversions/
 timestamp: 2024-01-31-14-23-37
 ---

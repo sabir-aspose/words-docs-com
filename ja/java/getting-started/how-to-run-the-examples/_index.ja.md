@@ -6,6 +6,9 @@ linktitle: 例を実行する方法
 type: docs
 description: "GitHubリポジトリからAspose.WordsforJavaの例をダウンロードし、Aspose.Wordsの可能性と機能をよりよく理解するためにそれらを実行する方法を学びます。"
 weight: 130
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/how-to-run-the-examples/
 timestamp: 2024-01-27-14-07-04
 ---

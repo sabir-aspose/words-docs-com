@@ -8,6 +8,9 @@ linktitle: คำถามที่พบบ่อย
 type: docs
 description: "Aspose.Words สำหรับ .NET ตอบคำถามที่พบบ่อย เรียนรู้หน้านี้เพื่อแก้ไขปัญหาของคุณอย่างรวดเร็วสำหรับคำถามทั่วไปหรือหัวข้อเฉพาะ"
 weight: 75
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/faq/
 timestamp: 2024-11-18-12-56-02
 ---

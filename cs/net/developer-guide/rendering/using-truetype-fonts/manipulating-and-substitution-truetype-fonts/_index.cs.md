@@ -6,6 +6,9 @@ linktitle: Manipulovat a nahradit TrueType písma
 description: "Aspose.Words místo .NET může vložit správná písma TrueType do výsledného dokumentu, aby bylo zajištěno, že zobrazí přesně pomocí C#. Pokud není k dispozici písmo nebo konkrétní znak, Aspose.Words hledá vhodnou výměnu písma nebo používá mechanismus zpětného získání písma."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/net/manipulating-and-substitution-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

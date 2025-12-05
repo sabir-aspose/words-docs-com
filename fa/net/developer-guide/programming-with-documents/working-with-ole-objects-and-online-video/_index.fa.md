@@ -6,6 +6,9 @@ linktitle: کار با اشیاء OLE و ویدیوی آنلاین
 description: "با استفاده از C# تعبیه OLE را در سند خود ایجاد و اصلاح کنید."
 type: docs
 weight: 360
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/working-with-ole-objects/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: לזהות קובץ פורמט ולבדוק פורמט תאימות
 description: "קבע את פורמט הקובץ ב C++ אם אינך בטוח מהו התוכן בפועל של הקובץ, או כדי לבדוק את תאימות הפורמט."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

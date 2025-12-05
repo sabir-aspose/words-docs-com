@@ -6,6 +6,9 @@ linktitle: Windows메타 파일 처리
 description: "Aspose.Words에 대한Java는 모든 플랫폼에서 메타 파일 형식을 재생하기 위해 자체Windows메타 파일 플레이어를 구현하고 기본 메타 파일 기능의 처리를 지원하며 다른 유형의 메타 파일 플레이어로 대체를 수행 할 수 있습니다."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

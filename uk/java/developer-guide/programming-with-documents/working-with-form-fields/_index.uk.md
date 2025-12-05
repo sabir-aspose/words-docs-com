@@ -6,6 +6,9 @@ linktitle: Робота з полями форм
 description: "Розуміння функцій формових полів, що працюють з полеми форми, використовуючи Javaй"
 type: docs
 weight: 380
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/java/working-with-form-fields/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Praca z dodatkami pakietu Office
 description: "Aspose.Words for C++ udostępnia różne klasy do pracy z dodatkami pakietu Office. Możesz dodać Okienko zadań za pomocą rozszerzenia internetowego i dostosować właściwości okienka i rozszerzenia."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

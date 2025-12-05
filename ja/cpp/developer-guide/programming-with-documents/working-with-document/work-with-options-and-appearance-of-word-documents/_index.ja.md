@@ -6,6 +6,9 @@ linktitle: Word文書のオプションと外観を操作する
 description: "さまざまなMicrosoft Wordバージョン間の違いを考慮して、Word文書の外観を制御します。"
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/work-with-word-document-options-and-appearance/
 timestamp: 2024-01-27-14-07-04
 ---

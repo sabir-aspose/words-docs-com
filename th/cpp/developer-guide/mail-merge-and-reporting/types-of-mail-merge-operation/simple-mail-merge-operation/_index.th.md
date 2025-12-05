@@ -7,6 +7,9 @@ type: docs
 description: "ง่าย Mail Merge จะใช้ในการกรอกข้อมูล Mail Merge ฟิลด์ภายในเทมเพลตของคุณด้วยข้อมูลที่จำเป็นจากแหล่งข้อมูลของคุณ-มันคล้ายกับคลาสสิก Mail Merge ใน Microsoft Word. เพิ่มอย่างน้อยหนึ่งเขตข้อมูลผสานในแม่แบบของคุณและดำเนินการอย่างง่าย Mail Merge การดำเนินงาน."
 keywords: "how to execute Mail Merge c++"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/simple-mail-merge-operation/
 timestamp: 2024-09-24-14-35-44
 ---

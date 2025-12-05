@@ -6,6 +6,9 @@ linktitle: Podziel dokument
 description: "Podziel dokument na kilka plików za pomocą Python. Użyj funkcji podziału, aby skutecznie podzielić dokument według nagłówków lub sekcji, a także według stron lub zakresów stron."
 type: docs
 weight: 90
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/python-net/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

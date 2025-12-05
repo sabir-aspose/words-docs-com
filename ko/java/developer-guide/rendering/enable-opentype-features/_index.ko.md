@@ -6,6 +6,9 @@ linktitle: OpenType기능 사용
 description: "Java에 대한Aspose.Words의 고급 타이포그래피 기능."
 type: docs
 weight: 25
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/enable-opentype-features/
 timestamp: 2024-01-27-14-07-04
 ---

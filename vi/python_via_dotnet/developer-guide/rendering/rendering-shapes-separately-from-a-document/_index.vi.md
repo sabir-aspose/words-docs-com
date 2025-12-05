@@ -6,6 +6,9 @@ linktitle: Hiển thị hình dạng riêng biệt từ tài liệu
 description: "Trích xuất các đối tượng đồ họa khác nhau, chẳng hạn như hình ảnh, hộp văn bản chứa đoạn văn hoặc hình mũi tên khi xử lý tài liệu và xuất chúng sang vị trí bên ngoài bằng Python."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

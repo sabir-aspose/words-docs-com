@@ -6,6 +6,9 @@ linktitle: Cập Nhật Các Trường
 description: "Tìm hiểu cách cập nhật các trường trong C++. Cập nhật các trường theo chương trình hoặc sử dụng cập nhật trường tự động bằng C++ API."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/update-fields/
 timestamp: 2024-01-27-14-07-04
 ---

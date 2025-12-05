@@ -6,6 +6,9 @@ linktitle: Trova proprietà campo
 description: "Come trovare alcune proprietà del campo come il codice di campo e il risultato del campo in C#."
 type: docs
 weight: 25
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/find-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

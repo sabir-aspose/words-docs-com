@@ -6,6 +6,9 @@ linktitle: 구성 Aspose.Words 에 대한 C++ 그 안에 CMake 프로젝트
 description: "구성 Aspose.Words 에 대한 C++ 당신의 CMake 그리고 당신에게 응용 프로그램을 구축 할 수 있습니다."
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/configure-aspose-words-for-cpp-in-cmake-project/
 timestamp: 2024-10-24-11-44-28
 ---

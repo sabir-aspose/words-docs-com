@@ -6,6 +6,9 @@ linktitle: Bekerja dengan Tanda Tangan Digital
 description: "Tanda tangani dokumen secara digital dan deteksi, hitung, verifikasi, dan hapus tanda tangan digital yang ada menggunakan C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/net/working-with-digital-signatures/
 timestamp: 2024-01-27-14-07-04
 ---

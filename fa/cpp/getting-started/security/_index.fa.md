@@ -6,6 +6,9 @@ linktitle: یادداشت های امنیتی
 type: docs
 description: "Aspose.Words برای C++ به رسمیت می شناسد و به استانداردهای امنیتی مشترک برای اطمینان از سطح بالایی از امنیت داده ها پایبند است. به مسائل امنیتی احتمالی و توصیه هایی در مورد چگونگی اجتناب از آنها نگاه کنید."
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/security/
 timestamp: 2024-01-27-14-07-04
 ---

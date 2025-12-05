@@ -6,6 +6,9 @@ linktitle: วิธีการเรียกใช้ตัวอย่าง
 description: "ดาวน์โหลด Aspose.WordsสำหรับC++ ตัวอย่างจากพื้นที่เก็บข้อมูลGitHubของเราและเรียนรู้วิธีการเรียกใช้เพื่อให้คุ้นเคยกับความเป็นไปได้และคุณลักษณะAspose.Wordsมากขึ้น."
 type: docs
 weight: 110
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/how-to-run-the-examples/
 timestamp: 2024-07-11-16-13-28
 ---

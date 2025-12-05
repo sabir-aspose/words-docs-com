@@ -6,6 +6,9 @@ linktitle: ใช้สไตล์ตาราง
 description: "การจัดรูปแบบตารางขั้นสูง C# สร้างสไตล์ตารางโดยใช้ C# ใช้รูปแบบตาราง C#"
 type: docs
 weight: 80
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/working-with-tablestyle/
 timestamp: 2024-02-02-12-07-36
 ---

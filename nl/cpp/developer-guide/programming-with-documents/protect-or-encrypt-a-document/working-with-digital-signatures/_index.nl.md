@@ -6,6 +6,9 @@ linktitle: Werken met digitale handtekeningen
 description: "Documenten digitaal ondertekenen en bestaande digitale handtekeningen detecteren, tellen, verifiëren en verwijderen."
 type: docs
 weight: 160
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/working-with-digital-signatures/
 timestamp: 2024-01-27-14-07-04
 ---

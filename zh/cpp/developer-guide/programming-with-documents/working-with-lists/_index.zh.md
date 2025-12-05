@@ -6,6 +6,9 @@ linktitle: 使用列表
 description: "编号格式化功能简介 Aspose.Words对于C++."
 type: docs
 weight: 200
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/working-with-lists/
 timestamp: 2024-01-30-16-22-34
 ---

@@ -6,6 +6,9 @@ linktitle: Hiển Thị Hình Dạng Riêng biệt Với Tài liệu
 description: "Trích xuất các đối tượng đồ họa khác nhau, chẳng hạn như hình ảnh, hộp văn bản chứa các đoạn văn hoặc hình mũi tên, khi xử lý tài liệu và xuất chúng sang vị trí bên ngoài."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

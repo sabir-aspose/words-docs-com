@@ -6,6 +6,9 @@ linktitle: العمل مع المخططات من خلال Shape.Chart كائن
 description: "الرسوم البيانية في التفاصيل، كيف يرتبط الرسم البياني مع عقدة الشكل في Aspose.Words ل C++."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/working-with-charts-through-shape-chart-object/
 timestamp: 2024-01-27-14-07-04
 ---

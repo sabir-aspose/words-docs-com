@@ -6,6 +6,9 @@ linktitle: Note di sicurezza
 type: docs
 description: "Aspose.Words per C++ riconosce e aderisce agli standard di sicurezza comuni per garantire un elevato livello di sicurezza dei dati. Guarda i possibili problemi di sicurezza e le raccomandazioni su come evitarli."
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/cpp/security/
 timestamp: 2024-01-27-14-07-04
 ---

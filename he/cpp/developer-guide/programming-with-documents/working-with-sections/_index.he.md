@@ -6,6 +6,9 @@ linktitle: עבודה עם סעיפים
 description: "הבנת מושגי סעיף מסמך ושיטות מניפולציה באמצעות C++. הכנס קטע למסמך C++. הסר את הקטע C++. העתק קטעים בין מסמכים."
 type: docs
 weight: 120
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/working-with-sections/
 timestamp: 2024-01-31-14-23-37
 ---

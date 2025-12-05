@@ -6,6 +6,9 @@ linktitle: Insérer et joindre des documents
 description: "Combinez des documents en un seul: insérez ou ajoutez un document dans un document nouveau ou existant en utilisant la recherche et le remplacement, le champ de fusion, le signet ou simplement à la fin du document dans Python."
 type: docs
 weight: 80
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

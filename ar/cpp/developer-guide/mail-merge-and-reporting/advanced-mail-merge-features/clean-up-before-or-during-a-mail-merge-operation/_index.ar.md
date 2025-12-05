@@ -7,6 +7,9 @@ type: docs
 description: "قم بتطبيق خيارات تنظيف وإزالة مختلفة مثل حذف حقول الدمج قبل إجراء عملية Mail Merge أو إزالة المناطق غير المستخدمة أثناء عملية mail merge."
 keywords: "cleanup options Mail Merge c#"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/clean-up-before-or-during-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

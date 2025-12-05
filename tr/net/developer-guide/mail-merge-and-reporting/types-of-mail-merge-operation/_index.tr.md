@@ -7,6 +7,9 @@ type: docs
 description: "İki farklı türde Mail Merge işlem gerçekleştirin: C# kullanan bölgelerle basit Mail Merge ve Mail Merge. Simple Mail Merge, her veri kaynağı kaydı başına belgenin tamamını tekrarlar, oysa Mail Merge with regions, kayıt başına yalnızca belirlenmiş bölgeleri tekrarlar."
 keywords: "how to execute Mail Merge c#"
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/types-of-mail-merge-operations/
 timestamp: 2024-07-11-08-07-06
 ---

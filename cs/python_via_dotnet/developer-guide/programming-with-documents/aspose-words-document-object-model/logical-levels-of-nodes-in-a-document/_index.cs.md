@@ -6,6 +6,9 @@ linktitle: Logické úrovně uzlů v dokumentu
 type: docs
 description: "In Aspose.Words místo Python via .NET dokumentace zmínila logické úrovně uzlů, úroveň bloku, inline úroveň nebo úroveň řádku. Úroveň nódu se používá k popisu umístění ve stromu dokumentu, kde se uzel obvykle vyskytuje."
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/python-net/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

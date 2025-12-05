@@ -6,6 +6,9 @@ linktitle: فونت از پیش تعریف شده FallBack تنظیمات برا
 description: "Aspose.Words تنظیمات فونت از پیش تعریف شده برای فونت های Google Noto را فراهم می کند. این فونت های رایگان تحت مجوز SIL Open Font License هستند که می توانند از فونت های Google Noto دانلود شوند."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/predefined-font-fallback-settings-for-google-noto-fonts/
 timestamp: 2024-09-24-14-35-44
 ---

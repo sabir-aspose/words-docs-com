@@ -6,6 +6,9 @@ linktitle: ทำงานกับคุณสมบัติของเอก
 description: "Aspose.WordsสำหรับJavaอนุญาตให้จัดเก็บข้อมูลที่เป็นประโยชน์บางอย่างเกี่ยวกับเอกสารของคุณเช่นAPIและหมายเลขรุ่นหรือวันที่ที่ได้รับอนุญาตในคุณสมบัติของเอกสารในตัวหรือแบบกำหนดเอง."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

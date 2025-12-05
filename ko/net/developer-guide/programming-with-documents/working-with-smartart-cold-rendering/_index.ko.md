@@ -7,6 +7,9 @@ description: "C#를 사용한 SmartArt 도형 소개"
 type: docs
 description: ".NET용 Aspose.Words는 SmartArt 콜드 렌더링을 수행합니다. 즉, 사전 렌더링된 SmartArt 드로잉이 누락되거나 C#을 사용하여 올바르지 않은 경우 SmartArt 개체를 배치하고 렌더링합니다."
 weight: 330
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

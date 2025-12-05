@@ -6,6 +6,9 @@ linktitle: Personalizează proprietățile câmpului
 description: "Învață cum să personalizezi proprietățile câmpurilor în C#. Renumează câmpuri de fuziune sau obţine rezultate pentru câmpuri fără nod separator în .NET."
 type: docs
 weight: 27
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

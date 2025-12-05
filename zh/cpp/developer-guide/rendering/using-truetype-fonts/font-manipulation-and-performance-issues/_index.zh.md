@@ -6,6 +6,9 @@ linktitle: 字体操作和性能问题
 description: "Aspose.Words对于C++ 使用字体全名，姓氏，版本，样式来查找所需的字体数据或所需字体的合适替代品。 FontSettings允许您加快文档的加载速度。"
 type: docs
 weight: 11
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/font-manipulation-and-performance-issues/
 timestamp: 2024-09-24-14-35-44
 ---

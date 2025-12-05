@@ -5,6 +5,9 @@ linktitle: Aspose.Words вместо Python via .NET
 description: "Aspose.Words вместо Python via .NET е библиотека клас, която дава възможност на вашите приложения да изпълняват голяма гама от документи за обработка на задачи, генерира, променя, конвертира и прави документи."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/python-net/
 is_root: true
 timestamp: 2024-09-25-11-08-55

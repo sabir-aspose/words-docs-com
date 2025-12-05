@@ -8,6 +8,7 @@ weight: 25
 description: "Aspose.Words для C++ представлені інструменти на основі AI, такі як узагальнення документів для підвищення ефективності. Дізнайтеся, як використовувати функції на основі AI за допомогою порад та детального посібника."
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/ai-powered-features/
 timestamp: 2025-03-17-19-00-00
 ---

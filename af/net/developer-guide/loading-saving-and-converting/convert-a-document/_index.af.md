@@ -4,6 +4,9 @@ second_title: Aspose.Words vir .NET
 articleTitle: Skakel'n Dokument om
 linktitle: Skakel'n Dokument om
 type: docs
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/convert-a-document/
 weight: 30
 description: "Maklik omskep dokumente van een formaat na'n ander met behulp van C#. Jy kan werk met al die meeste gewilde formate soos Microsoft Word formate soos DOCX of DOC, OpenDocument formate soos ODT of OTT, web formate soos HTML of XHTML, teks formate soos MarkDown of TXT, en ander."

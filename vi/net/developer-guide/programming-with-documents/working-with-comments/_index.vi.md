@@ -6,6 +6,9 @@ linktitle: Làm việc với chú thích
 description: "Làm việc với các nhận xét bằng C#."
 type: docs
 weight: 260
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/working-with-comments/
 timestamp: 2024-01-27-14-07-04
 ---

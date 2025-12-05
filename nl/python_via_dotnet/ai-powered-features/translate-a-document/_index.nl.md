@@ -8,6 +8,7 @@ weight: 30
 description: "Vertaal een document. Aspose.Words voor Python vereenvoudigt documentvertaling met behulp van Google AI - modellen, zodat u de doeltaal kunt opgeven."
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/python-net/translate-a-document/
 timestamp: 2025-01-15-16-40-05
 ---

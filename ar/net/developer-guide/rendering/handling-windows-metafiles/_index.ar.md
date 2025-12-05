@@ -6,6 +6,9 @@ linktitle: التعامل مع ملفات التعريف Windows
 description: "يقوم Aspose.Words for .NET بتطبيق مشغل Windows Metafile الخاص به لتشغيل تنسيق Metafile على جميع الأنظمة الأساسية ويدعم التعامل مع ميزات ملف التعريف الأساسية ويمكنه إجراء رجوع إلى نوع مختلف من مشغل ملفات التعريف باستخدام C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/handling-windows-metafiles/
 timestamp: 2024-07-10-14-38-57
 ---

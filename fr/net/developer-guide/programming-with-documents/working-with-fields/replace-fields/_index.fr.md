@@ -6,6 +6,9 @@ linktitle: Remplacer les champs par du texte statique
 description: "Découvrez comment remplacer les champs par du texte dans C#. Remplacez les champs par des données statiques à l'aide du API .NET."
 type: docs
 weight: 37
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/replace-fields/
 timestamp: 2024-01-27-14-07-04
 ---

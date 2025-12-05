@@ -8,6 +8,9 @@ linktitle: سوالات متداول
 type: docs
 description: "Aspose.Words for .NET به سوالات متداول پاسخ می دهد. این صفحه را بیاموزید تا به سرعت مشکل خود را در مورد سوالات عمومی یا موضوعات خاص حل کنید."
 weight: 75
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/faq/
 timestamp: 2024-11-18-12-56-02
 ---

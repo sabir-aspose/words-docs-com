@@ -7,6 +7,9 @@ description: "Inleiding tot SmartArt vorms met behulp van C#."
 type: docs
 description: "Aspose.Words vir .NET voer SmartArt Koue Weergawe uit, wat beteken dat dit SmartArt voorwerpe uitlê en weergee as die vooraf gerenderde SmartArt tekening ontbreek of verkeerd is met behulp van C#."
 weight: 330
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

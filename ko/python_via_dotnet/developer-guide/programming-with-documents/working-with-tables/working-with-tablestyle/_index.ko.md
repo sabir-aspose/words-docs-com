@@ -6,6 +6,9 @@ linktitle: 표 스타일 적용
 description: "고급 테이블 형식 C#. Python를 사용하여 테이블 스타일을 만듭니다. 테이블 스타일 Python를 적용합니다."
 type: docs
 weight: 80
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/working-with-tablestyle/
 timestamp: 2024-01-27-14-07-04
 ---

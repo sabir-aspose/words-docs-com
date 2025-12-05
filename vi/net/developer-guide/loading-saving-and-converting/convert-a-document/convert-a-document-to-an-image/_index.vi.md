@@ -6,6 +6,9 @@ linktitle: Chuyển đổi tài liệu thành hình ảnh
 type: docs
 description: "Chuyển đổi tài liệu sang định dạng hình ảnh (JPG, PNG, v.v.). Tạo bản xem trước tài liệu hoặc tạo bản quét tài liệu để gửi hóa đơn bằng C#."
 weight: 43
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/convert-a-document-to-an-image/
 timestamp: 2024-07-09-19-00-42
 ---

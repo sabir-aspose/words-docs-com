@@ -6,6 +6,9 @@ linktitle: DataTable 에서 테이블 작성
 description: "C#를 사용하여 외부 데이터베이스에서 문서 테이블을 채우는 예입니다."
 type: docs
 weight: 120
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/how-to-build-a-table-from-a-datatable/
 timestamp: 2024-09-25-11-08-55
 ---

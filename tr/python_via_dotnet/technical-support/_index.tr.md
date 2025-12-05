@@ -6,6 +6,9 @@ linktitle: Teknik Destek
 type: docs
 description: "Python via .NET için Aspose.Words, tüm kullanıcılara ücretsiz teknik destek sağlar. Lütfen sorunuzu, sorununuzu veya özellik isteğinizi Aspose Ücretsiz Destek Forumunu kullanarak bildirin."
 weight: 80
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/python-net/technical-support/
 timestamp: 2024-11-18-12-56-02
 ---

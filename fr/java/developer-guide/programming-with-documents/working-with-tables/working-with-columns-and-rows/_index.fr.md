@@ -6,6 +6,9 @@ linktitle: Travailler avec des Colonnes et des Lignes
 description: "Utilisation de parties d'un tableau – lignes, colonnes et cellules à l'aide de Java. Spécifiez la ligne d'en-tête Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/working-with-columns-and-rows/
 timestamp: 2024-01-27-14-07-04
 ---

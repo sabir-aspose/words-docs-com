@@ -6,6 +6,9 @@ linktitle: TrueType글꼴 사용
 description: "Java에 대해Aspose.Words을 사용하여 올바른 렌더링을 위해 필요한 글꼴을 찾을 수없는 경우 올바른 글꼴 또는 적절한 대체자를 찾는 방법."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

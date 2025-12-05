@@ -6,6 +6,9 @@ linktitle: Ölçü Birimleri Arasında Dönüştürme
 description: ".NET için Aspose.Words, ölçü birimleri arasında nasıl dönüşüm yapacağınız konusunda size yardımcı olabilir; örneğin C# kullanarak inçten noktaya ve noktadan inç'e, pikselden noktaya, noktadan piksele."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/convert-between-measurement-units/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Рушники Windows Метафайли
 description: "Aspose.Words для Java реалізує власну Windows Метафайловий програвач для відтворення формату Metafile на всіх платформах і підтримує обробку основних функцій метафайлу і може виконувати випадання до різних типів метафайлів."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/java/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

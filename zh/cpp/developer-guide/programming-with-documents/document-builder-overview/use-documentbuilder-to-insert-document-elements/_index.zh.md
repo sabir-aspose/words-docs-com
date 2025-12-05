@@ -6,6 +6,9 @@ linktitle: 使用DocumentBuilder插入文档元素
 type: docs
 description: "使用 C++ 中的文档构建器插入文档元素。"
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/use-documentbuilder-to-insert-document-elements/
 timestamp: 2024-01-27-14-07-04
 ---

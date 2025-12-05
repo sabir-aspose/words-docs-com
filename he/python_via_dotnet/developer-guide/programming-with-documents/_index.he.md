@@ -6,6 +6,9 @@ linktitle: תכנות עם מסמכים
 type: docs
 description: "השתמש ב As נניח באמצעות `Python.Words` Document Object Model שיעורים כדי ליצור, לשנות, לנהל מסמכים עם python-net. עבודה עם תכונות מסמך, הגדרות ותוכן, כמו גם עם מראה מסמך באמצעות ניהול צבעים, צורות, גופנים וגרפיקה אחרים."
 weight: 60
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/python-net/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

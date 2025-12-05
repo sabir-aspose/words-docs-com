@@ -6,6 +6,9 @@ linktitle: מיקום שולחן
 description: "מיקום שולחן ספציפי Java. קבל היערכות שולחן, לקבל ולהגדיר מיקום שולחן צף באמצעות Java."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/position-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

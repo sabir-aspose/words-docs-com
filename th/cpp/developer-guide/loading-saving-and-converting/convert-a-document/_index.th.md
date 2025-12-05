@@ -7,6 +7,9 @@ type: docs
 description: "ได้อย่างง่ายดายแปลงเอกสารจากรูปแบบหนึ่งไปยังอีกโดยใช้C++ คุณสามารถทำงานกับรูปแบบที่นิยมมากที่สุดทั้งหมดเช่นMicrosoft Wordรูปแบบเช่นDOCXหรือDOC,OpenDocumentรูปแบบเช่นODTหรือOTT,รูปแบบเว็บเช่นHTMLหรือXHTML,รูปแบบข้อความเช่นMarkDownหรือTXTและอื่นๆ."
 keywords: "convert a document c++, convert documents from one format to another c++, convert to markdown c++, convert pdf to docx C++, convert docx to pdf C++, convert doc to pdf C++, convert a document Aspose for C++"
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/convert-a-document/
 timestamp: 2024-09-25-11-08-55
 ---

@@ -6,6 +6,9 @@ linktitle: Зміни відстеження в документі
 description: "Відстежуйте зміни контенту та форматування, зроблені вами або іншими мовами C#й Доступ до індивідуальних ревізій в документі та застосовуються різні властивості до них."
 type: docs
 weight: 270
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

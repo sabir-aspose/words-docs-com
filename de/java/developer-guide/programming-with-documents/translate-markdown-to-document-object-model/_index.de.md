@@ -6,6 +6,9 @@ linktitle: Markdown in Dokumentobjektmodell übersetzen (DOM)
 type: docs
 description: "Tarnen Sie ein Markdown -Dokument in das Dokumentobjektmodell und zurück. So können Sie mit komplexen vorhandenen Markdown arbeiten und mit Java programmgesteuert ein Markdown -Dokument von Grund auf neu erstellen."
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/translate-markdown-to-document-object-model/
 timestamp: 2024-10-21-11-17-44
 ---

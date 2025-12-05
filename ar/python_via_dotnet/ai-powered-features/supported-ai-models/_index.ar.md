@@ -8,6 +8,7 @@ weight: 10
 description: "Aspose.Words ل Python يدعم OpenAI وجوجل AI نماذج لتلخيص وترجمة الوثائق. استخدام Aspose.Words مع Gpt-4o، Gpt-4o مصغرة، Gpt-4 توربو، GPT-3.5 توربو، Gemini 1.5 Flash، Gemini 1.5 Flash -8 ب، Gemini 1.5 برو."
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/supported-ai-models/
 timestamp: 2025-03-17-19-00-00
 ---

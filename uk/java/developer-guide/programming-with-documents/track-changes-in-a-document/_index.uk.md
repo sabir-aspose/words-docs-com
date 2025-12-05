@@ -6,6 +6,9 @@ linktitle: Зміни відстеження в документі
 description: "Відстежуйте зміни вмісту та форматування, зроблені вами або іншими. Доступ до індивідуальних ревізій в документі та застосувати різні властивості до них за допомогою Javaй"
 type: docs
 weight: 270
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/java/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

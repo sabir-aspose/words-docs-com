@@ -6,6 +6,9 @@ linktitle: Instalar TrueType Fuentes en Linux
 description: "Aspose.Words para C++ permite renderizar un documento creado con Microsoft Word en una máquina Linux con la mejor precisión. Para lograr esto, copie los archivos de fuentes de una máquina Windows o Instale un paquete de fuentes `TrueType` en su máquina Linux."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/cpp/install-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

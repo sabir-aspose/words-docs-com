@@ -7,6 +7,9 @@ type: docs
 description: "テンプレートに異なる領域を作成して、データを入力するだけの特別な領域を作成します。 ドキュメントを動的に成長させるために、繰り返しデータを含むテーブル、行を挿入する場合は、領域でmail mergeを使用します。"
 keywords: "how to execute Mail Merge c++"
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/mail-merge-with-regions/
 timestamp: 2024-09-24-14-35-44
 ---

@@ -6,6 +6,9 @@ linktitle: 與水印共事
 description: "使用 C# 文件水印操控 。"
 type: docs
 weight: 340
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/working-with-watermark/
 timestamp: 2024-05-02-11-51-44
 ---

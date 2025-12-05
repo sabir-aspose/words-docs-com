@@ -6,6 +6,9 @@ linktitle: Suport Tehnic
 type: docs
 description: "Aspose.Words pentru Python via .NET oferă suport tehnic gratuit disponibil tuturor utilizatorilor. Vă rugăm să raportați întrebarea, problema, sau cererea caracteristică folosind Aspose Forum Suport gratuit."
 weight: 80
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/python-net/technical-support/
 timestamp: 2024-11-18-12-56-02
 ---

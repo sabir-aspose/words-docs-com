@@ -6,6 +6,9 @@ linktitle: Utilisation Des Caractères De Contrôle
 description: "Introduction à l'utilisation des caractères de contrôle dans Aspose.Words pour Java."
 type: docs
 weight: 400
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/working-with-control-characters/
 timestamp: 2024-01-27-14-07-04
 ---

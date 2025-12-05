@@ -6,6 +6,9 @@ linktitle: Mail Merge동안 사용자 지정 서식을 적용하는 방법
 type: docs
 description: "Java을 사용하여Mail Merge작업 중에 사용자 지정 서식을 적용합니다."
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/how-to-apply-custom-formatting-during-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

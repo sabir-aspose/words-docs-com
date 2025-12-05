@@ -6,6 +6,9 @@ linktitle: 选择哪个PDF标准更好
 description: "选择最佳的PDF标准以在Java中导出编程任务的结果。 哪个PDF标准更好– PDF 1.7, PDF 2.0, PDF/A-1, PDF/A-2, 或PDF/UA。"
 type: docs
 weight: 27
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/which-pdf-standard-is-better-to-choose/
 timestamp: 2024-01-27-14-07-04
 ---

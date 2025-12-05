@@ -6,6 +6,9 @@ linktitle: Lucraţi cu un document stocat într-un SharePoint online
 description: "Conversia documentelor Word partajate în SharePoint la PDF folosind C#. Lucraţi cu documente stocate în SharePoint – diferite formate de intrare, inclusiv Word, OpenOffice, imagine şi e-book."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/work-with-document-stored-in-sharepoint/
 timestamp: 2024-10-21-11-17-44
 ---

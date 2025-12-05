@@ -6,6 +6,9 @@ linktitle: จัดการและแทนที่แบบอักษร
 description: "Aspose.Words สำหรับ Python via .NET สามารถฝังแบบอักษร TrueType ที่ถูกต้องลงในเอกสารผลลัพธ์เพื่อให้แน่ใจว่าจะแสดงได้อย่างถูกต้อง หากไม่มีแบบอักษรหรืออักขระเฉพาะ Aspose.Words จะค้นหาการแทนที่แบบอักษรที่เหมาะสมหรือใช้กลไกทางเลือกแบบอักษร"
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/python-net/manipulating-and-substitution-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

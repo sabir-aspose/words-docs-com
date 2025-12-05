@@ -6,6 +6,9 @@ linktitle: עבודה עם מאפייני מסמך
 description: "Aspose.Words עבור C++ מאפשר לאחסן מידע שימושי על המסמך שלך, כגון API ומספר גרסה או תאריך מורשה, במאפייני מסמך מובנים או מותאמים אישית."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

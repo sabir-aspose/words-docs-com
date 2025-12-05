@@ -6,6 +6,9 @@ linktitle: یک سند را به HTML، MHTML یا EPUB تبدیل کنید
 description: "یک سند را تقریباً از هر فرمتی به HTML یا MHTML و همچنین به فرمت EPUB با استفاده از Python تبدیل کنید. همچنین می توانید گزینه های ذخیره را برای مدیریت سند خروجی مشخص کنید."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/convert-a-document-to-html-mhtml-or-epub/
 timestamp: 2024-01-27-14-07-04
 ---

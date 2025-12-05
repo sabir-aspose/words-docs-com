@@ -7,6 +7,9 @@ type: docs
 description: "Cree una plantilla Mail Merge para definir contenido fijo en los documentos de salida y, a continuación, genere documentos de combinación utilizando los campos de combinación."
 keywords: "create Mail Merge template с++"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/cpp/mail-merge-template/
 timestamp: 2024-01-31-14-23-37
 ---

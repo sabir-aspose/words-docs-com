@@ -6,6 +6,9 @@ linktitle: العمل مع TextBoxes
 description: "مقدمة إلى ميزة مربعات النص المرتبطة في Aspose.Words ل C++."
 type: docs
 weight: 250
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/working-with-textboxes/
 timestamp: 2024-01-27-14-07-04
 ---

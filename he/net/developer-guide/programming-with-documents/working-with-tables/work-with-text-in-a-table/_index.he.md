@@ -6,6 +6,9 @@ linktitle: עבודה עם טקסט בטבלה
 description: "להחליף טקסט בטבלה C#. צילום טקסט רגיל משולחן או תאים באמצעות C#."
 type: docs
 weight: 60
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/work-with-text-in-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

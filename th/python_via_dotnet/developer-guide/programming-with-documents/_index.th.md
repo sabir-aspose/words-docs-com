@@ -6,6 +6,9 @@ linktitle: การเขียนโปรแกรมด้วยเอกส
 type: docs
 description: "ใช้คลาส Aspose โดยใช้คลาส `Python.Words` Document Object Model เพื่อสร้าง แก้ไข และจัดการเอกสารด้วยโปรแกรม python-net ทำงานกับคุณสมบัติเอกสาร การตั้งค่า และเนื้อหา ตลอดจนลักษณะที่ปรากฏของเอกสารผ่านการจัดการสี รูปร่าง แบบอักษร และกราฟิกอื่นๆ"
 weight: 60
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/python-net/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

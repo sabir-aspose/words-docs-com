@@ -7,6 +7,9 @@ type: docs
 description: "Voer twee verskillende tipes Mail Merge operasies uit: eenvoudige Mail Merge en Mail Merge met streke. Simple Mail Merge herhaal die hele dokument per databron rekord, terwyl Mail Merge met streke herhaal slegs aangewese streke per rekord met behulp van Java."
 keywords: "how to execute Mail Merge java, Mail Merge Java, Simple Mail Merge"
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/java/types-of-mail-merge-operations/
 timestamp: 2024-01-27-14-07-04
 ---

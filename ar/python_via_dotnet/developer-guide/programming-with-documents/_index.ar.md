@@ -6,6 +6,9 @@ linktitle: البرمجة بالوثائق
 type: docs
 description: "استخدم فئات Aspose باستخدام `Python.Words` Document Object Model لإنشاء المستندات وتعديلها وإدارتها برمجيًا باستخدام python-net. العمل مع خصائص المستند وإعداداته ومحتواه، وكذلك مظهر المستند من خلال إدارة الألوان والأشكال والخطوط والرسومات الأخرى."
 weight: 60
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

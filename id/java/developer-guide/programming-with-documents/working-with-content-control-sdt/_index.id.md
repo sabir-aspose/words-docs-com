@@ -6,6 +6,9 @@ linktitle: Bekerja dengan Kontrol Konten SDT
 type: docs
 description: "Manajemen konten dokumen tingkat lanjut, cara membuat dan memanipulasi kontrol konten (Tag Dokumen Terstruktur) menggunakan Java."
 weight: 390
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/java/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---

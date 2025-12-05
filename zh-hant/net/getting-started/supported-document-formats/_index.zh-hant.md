@@ -6,6 +6,9 @@ linktitle: 支援的文件格式
 type: docs
 description: "以許多主流格式編輯原始文件，也可以使用 C# 自由地將檔案從一種格式轉換到另一種格式。"
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/supported-document-formats/
 timestamp: 2024-10-21-11-17-44
 ---

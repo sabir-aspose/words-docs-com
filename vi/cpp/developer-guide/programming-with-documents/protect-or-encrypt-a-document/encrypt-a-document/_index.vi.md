@@ -6,6 +6,9 @@ linktitle: Mã hóa Tài liệu
 description: "Mã hóa tài liệu của bạn bằng các thuật toán mã hóa thích hợp cho các định dạng tài liệu cụ thể."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/encrypt-a-document/
 timestamp: 2024-10-21-11-17-44
 ---

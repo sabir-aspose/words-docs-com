@@ -6,6 +6,9 @@ linktitle: 使用表格
 description: "如何使用 C# 中的表格。介绍如何使用 Aspose.Words for .NET 中的表和表节点概念。"
 type: docs
 weight: 190
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/working-with-tables/
 timestamp: 2024-01-27-14-07-04
 ---

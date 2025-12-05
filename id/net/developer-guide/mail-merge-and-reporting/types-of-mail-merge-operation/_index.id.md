@@ -7,6 +7,9 @@ type: docs
 description: "Lakukan dua jenis operasi Mail Merge yang berbeda: Mail Merge sederhana dan Mail Merge dengan wilayah menggunakan C#. Mail Merge sederhana mengulangi seluruh dokumen per setiap catatan sumber data, sedangkan Mail Merge dengan wilayah hanya mengulangi wilayah yang ditentukan per catatan."
 keywords: "how to execute Mail Merge c#"
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/net/types-of-mail-merge-operations/
 timestamp: 2024-07-11-08-07-06
 ---

@@ -6,6 +6,9 @@ linktitle: 테이블 작업
 description: "Java의 테이블 작업 방법. Java에 대한Aspose.Words의 테이블 노드 개념을 소개합니다."
 type: docs
 weight: 190
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/working-with-tables/
 timestamp: 2024-01-27-14-07-04
 ---

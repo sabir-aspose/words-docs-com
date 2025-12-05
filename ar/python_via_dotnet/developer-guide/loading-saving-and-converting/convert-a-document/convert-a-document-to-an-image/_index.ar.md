@@ -6,6 +6,9 @@ linktitle: تحويل مستند إلى صورة
 type: docs
 description: "تحويل مستند إلى تنسيق صورة (JPG، PNG، إلخ). قم بإنشاء معاينة للمستند أو قم بإجراء مسح ضوئي للمستند لإرسال فاتورة باستخدام Python."
 weight: 43
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/convert-a-document-to-an-image/
 timestamp: 2024-01-27-14-07-04
 ---

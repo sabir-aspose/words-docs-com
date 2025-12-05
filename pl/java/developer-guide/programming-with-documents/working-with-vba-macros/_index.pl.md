@@ -6,6 +6,9 @@ linktitle: Współpraca z VBA Macros
 description: "Praca z dokumentami VBA projektów przy użyciu Java."
 type: docs
 weight: 410
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/working-with-vba-macros/
 timestamp: 2024-01-27-14-07-04
 ---

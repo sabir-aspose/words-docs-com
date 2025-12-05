@@ -6,6 +6,9 @@ linktitle: Checkboxes, Texteingaben oder Bilder einfügen
 description: "Fügen Sie checkboxes oder Texteingabefelder während Mail Merge mit Java ein. Fügen Sie auch Bilder aus einer Datenbank während Mail Merge in Java ein."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/insert-checkboxes-text-input-or-images-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

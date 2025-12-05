@@ -6,6 +6,9 @@ linktitle: 什么是页面布局
 description: "让我们弄清楚页面布局是什么。 页面布局描述文档中包含的内容的几何形状。"
 type: docs
 weight: 5
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/what-is-a-page-layout/
 timestamp: 2024-09-24-14-35-44
 ---

@@ -6,6 +6,9 @@ linktitle: 文書のクローンを作成する
 type: docs
 description: "ドキュメントを複製して、同一のコピーを取得します。 コピーを作成するとき、元のドキュメントのノードとプロパティはJavaを使用して複製されます。"
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/clone-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Arbeiten Sie mit digitalen Signaturen
 description: "Signieren Sie Dokumente digital und erkennen, zählen, überprüfen und entfernen Sie vorhandene digitale Signaturen mit C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/working-with-digital-signatures/
 timestamp: 2024-01-27-14-07-04
 ---

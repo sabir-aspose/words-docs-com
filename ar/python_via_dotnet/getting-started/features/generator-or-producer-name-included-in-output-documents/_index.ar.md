@@ -6,6 +6,9 @@ linktitle: اسم المولد أو المنتج مدرج في مستندات ا
 description: "يضيف Aspose.Words for Python via .NET إلى المستند اسم المولد ورقم الإصدار الذي تم استخدامه لإنشائه. يمكن العثور على هذه البيانات في المستند بطرق تعتمد على تنسيق ملف الإخراج."
 type: docs
 weight: 60
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

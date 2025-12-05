@@ -8,6 +8,7 @@ weight: 40
 description: "Periksa tata bahasa dokumen. Aspose.Words untuk .NET memungkinkan pengguna memeriksa tata bahasa dan mendeteksi kesalahan dalam dokumen menggunakan model OpenAI, Google, dan Claude."
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/net/grammar-checking/
 timestamp: 2025-03-17-19-00-00
 ---

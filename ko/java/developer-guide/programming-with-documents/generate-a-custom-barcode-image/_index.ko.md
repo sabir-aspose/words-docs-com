@@ -6,6 +6,9 @@ linktitle: 사용자 정의BarCode이미지 생성
 description: "Java을 사용한 바코드 모양 생성의 예."
 type: docs
 weight: 350
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
 timestamp: 2024-09-05-11-07-10
 ---

@@ -6,6 +6,9 @@ linktitle: تخصيص خصائص الحقل
 description: "تعرف على كيفية تخصيص خصائص الحقل في Python. إعادة تسمية حقول الدمج أو الحصول على نتائج للحقول التي لا تحتوي على عقدة فاصلة في Python via .NET."
 type: docs
 weight: 27
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

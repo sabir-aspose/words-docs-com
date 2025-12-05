@@ -8,6 +8,7 @@ weight: 20
 description: "Обобщете документ. Aspose.Words за C++ опростява обобщаването на документи, използвайки модели OpenAI и Гугъл AI, като ви позволява да зададете дължината на резюмето."
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/summarize-a-document/
 timestamp: 2025-03-17-19-00-00
 ---

@@ -6,6 +6,9 @@ linktitle: Generátor nebo jméno výrobce Zahrnuto ve výstupních dokumentech
 description: "Aspose.Words místo Java přidat do dokumentu jméno generátoru a číslo verze, která byla použita k jeho vytvoření. Tato data lze nalézt v dokumentu způsobem, který závisí na formátu výstupního souboru."
 type: docs
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/java/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

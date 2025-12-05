@@ -6,6 +6,9 @@ linktitle: Nazwa generatora lub producenta zawarta w dokumentach wyjściowych
 description: "Aspose.Words dla Python via .NET dodaje do dokumentu nazwę generatora i numer wersji, która została użyta do jego utworzenia. Dane te można znaleźć w dokumencie w sposób zależny od formatu pliku wyjściowego."
 type: docs
 weight: 60
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/python-net/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

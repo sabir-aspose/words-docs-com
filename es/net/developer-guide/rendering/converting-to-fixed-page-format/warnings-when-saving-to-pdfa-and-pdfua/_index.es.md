@@ -6,6 +6,9 @@ linktitle: Advertencias de problemas de accesibilidad al guardar en PDF/A y PDF/
 description: "PDF/A y PDF/UA imponen requisitos de accesibilidad relacionados con el contenido del documento. Al guardar en PDF/A o PDF/UA en C# y el problema infringe el cumplimiento, se emite una advertencia."
 type: docs
 weight: 29
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

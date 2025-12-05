@@ -7,6 +7,9 @@ type: docs
 description: "Створіть шаблони із синтаксисом Mustache, використовуючи C#. Синтаксис Mustache - це єдиний варіант, який можна використовувати з шаблонами, що не містять полів (HTML або TXT). З шаблонами Word у вас є два варіанти: поля або синтаксис Mustache."
 keywords: "mail merge template mustache syntax c#"
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/mail-merge-template-from-mustache-syntax/
 timestamp: 2024-07-11-08-07-06
 ---

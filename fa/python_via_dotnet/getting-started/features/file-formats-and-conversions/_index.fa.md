@@ -6,6 +6,9 @@ linktitle: فرمت ها و تبدیل فایل ها
 description: "اسناد را از هر بار پشتیبانی شده به فرمت ذخیره تنها با دو خط کد Python تبدیل کنید. این تبدیل با کیفیت بالا را فراهم می کند."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/file-formats-and-conversions/
 timestamp: 2024-01-31-14-23-37
 ---

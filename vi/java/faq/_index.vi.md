@@ -6,6 +6,9 @@ linktitle: Câu hỏi thường gặp
 type: docs
 description: "Aspose.Words cho Java trả lời những câu hỏi thường gặp nhất Học trang này để nhanh chóng giải quyết vấn đề của bạn trong các câu hỏi chung hoặc các chủ đề cụ thể."
 weight: 75
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/faq/
 timestamp: 2024-01-31-14-23-37
 ---

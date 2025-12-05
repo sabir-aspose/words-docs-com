@@ -6,6 +6,9 @@ linktitle: Bảo mật ứng dụng web khi tải tài nguyên bên ngoài
 type: docs
 description: "Tải tài nguyên từ xa, đó có thể là nguyên nhân gây ra rủi ro bảo mật. Hãy xem các vấn đề bảo mật phổ biến và giải pháp của chúng bằng C#."
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-27-14-07-04
 ---

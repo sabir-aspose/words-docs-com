@@ -8,6 +8,7 @@ weight: 30
 description: "Übersetzen Sie ein Dokument. Aspose.Words für .NET vereinfacht die Übersetzung von Dokumenten mithilfe von Google AI -Modellen, sodass Sie die Zielsprache angeben können."
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/translate-a-document/
 timestamp: 2024-12-13-06-40-00
 ---

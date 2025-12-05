@@ -6,6 +6,9 @@ linktitle: Aspose.Words об'єктна модель документа (DOM)
 type: docs
 description: "Об'єктна модель документа (DOM) - це представлення документа Word в пам'яті. Зчитуйте, маніпулюйте та змінюйте вміст та форматування документа Word за допомогою C++."
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/aspose-words-document-object-model/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: تثبيت
 description: "قم بتثبيت Aspose.Words لـ .NET باستخدام أدوات Visual Studio مثل Manage NuGet Packages أو Package Manager Console ومثبت MSI. استخدم إذن Full Trust المعين في ملف C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/installation/
 timestamp: 2024-01-27-14-07-04
 ---

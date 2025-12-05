@@ -6,6 +6,9 @@ linktitle: Работа с изображения
 type: docs
 description: "Въведение в функцията за изображение, как да създавате и манипулирате изображение, използвайки C++."
 weight: 300
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/working-with-images/
 timestamp: 2024-01-27-14-07-04
 ---

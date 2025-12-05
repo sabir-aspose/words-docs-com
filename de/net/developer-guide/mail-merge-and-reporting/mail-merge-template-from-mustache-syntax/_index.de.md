@@ -7,6 +7,9 @@ type: docs
 description: "Erstellen Sie Vorlagen mit Mustache -Syntax mit C#. Die Mustache-Syntax ist die einzige Option, die bei Vorlagen verwendet werden kann, die keine Felder enthalten (HTML oder TXT). Bei Word-Vorlagen haben Sie zwei Möglichkeiten: Felder oder Mustache-Syntax."
 keywords: "mail merge template mustache syntax c#"
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/mail-merge-template-from-mustache-syntax/
 timestamp: 2024-07-11-08-07-06
 ---

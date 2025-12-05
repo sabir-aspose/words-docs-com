@@ -6,6 +6,9 @@ linktitle: Werken met documenten uit externe bronnen
 description: "Hoe documenten van externe bronnen in te laden C#. Laad PDF, DOCX, DOC, RTF, ODT, EPUB, HTML en andere bestanden van SharePoint of database voor verdere verwerking met behulp van C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/working-with-documents-from-external-sources/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Criptografar um documento
 description: "Criptografe seu documento usando algoritmos de criptografia apropriados para formatos de documento específicos em C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/net/encrypt-a-document/
 timestamp: 2024-10-21-11-17-44
 ---

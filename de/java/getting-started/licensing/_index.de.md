@@ -6,6 +6,9 @@ linktitle: Lizenzierung und Abonnement
 description: "Aspose.Words für Java bietet verschiedene Pläne zum Kauf an oder bietet eine kostenlose Testversion und eine temporäre 30-Tage-Lizenz zur Evaluierung unter Verwendung von Lizenz- und Abonnementrichtlinien an."
 type: docs
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

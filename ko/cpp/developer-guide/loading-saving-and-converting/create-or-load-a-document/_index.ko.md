@@ -7,6 +7,9 @@ type: docs
 description: "빈 문서를 만들거나 다음을 사용하여 파일 또는 스트림에서 문서를 로드할 수 있습니다 C++."
 keywords: "create a document c++, load a document c++, create a blank document c++, load a document from file c++, load a document from stream c++, create a document Aspose C++, load a document Aspose C++, load formats supported by Aspose.Words C++"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/create-or-load-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -7,6 +7,9 @@ description: "Einführung in SmartArt-Formen mit C#."
 type: docs
 description: "Aspose.Words für .NET führt SmartArt Cold Rendering durch, was bedeutet, dass es SmartArt-Objekte anordnet und rendert, wenn die vorgerenderte SmartArt-Zeichnung fehlt oder mit C# fehlerhaft ist."
 weight: 330
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

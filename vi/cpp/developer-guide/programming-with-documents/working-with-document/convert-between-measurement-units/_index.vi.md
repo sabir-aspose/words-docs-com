@@ -6,6 +6,9 @@ linktitle: Chuyển Đổi Giữa Các Đơn Vị Đo Lường
 description: "Aspose.Words cho C++ có thể giúp bạn làm thế nào để chuyển đổi giữa các đơn vị đo lường, ví dụ, inch đến điểm và điểm đến inch, điểm ảnh đến điểm, điểm đến điểm ảnh."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/convert-between-measurement-units/
 timestamp: 2024-01-27-14-07-04
 ---

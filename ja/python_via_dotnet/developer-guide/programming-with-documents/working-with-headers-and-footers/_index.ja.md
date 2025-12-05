@@ -6,6 +6,9 @@ linktitle: ヘッダーとフッターの操作
 description: "Python を使用して、ドキュメント内のヘッダーとフッターを作成、管理、削除します。"
 type: docs
 weight: 150
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/python-net/working-with-headers-and-footers/
 timestamp: 2024-01-27-14-07-04
 ---

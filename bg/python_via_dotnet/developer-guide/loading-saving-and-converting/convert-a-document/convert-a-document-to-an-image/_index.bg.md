@@ -6,6 +6,9 @@ linktitle: Преобразуване на документ в изображе�
 type: docs
 description: "Конвертиране на документ във формат на изображението (JPG, PNG и др.). Създаване на преглед на документ или създаване на сканиране на документ за изпращане на фактура с помощта на Python."
 weight: 43
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/python-net/convert-a-document-to-an-image/
 timestamp: 2024-01-27-14-07-04
 ---

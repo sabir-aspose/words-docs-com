@@ -6,6 +6,9 @@ linktitle: Cảnh báo vấn đề về khả năng truy cập khi lưu vào PDF
 description: "PDF/A và PDF/UA áp đặt các yêu cầu về khả năng truy cập liên quan đến nội dung tài liệu. Khi lưu vào PDF/A hoặc PDF/UA trong Python và sự cố vi phạm tuân thủ, cảnh báo sẽ được đưa ra."
 type: docs
 weight: 29
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

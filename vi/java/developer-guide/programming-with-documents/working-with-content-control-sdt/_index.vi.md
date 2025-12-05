@@ -6,6 +6,9 @@ linktitle: Làm việc với Biện pháp kiểm soát nội dung SDT
 type: docs
 description: "Quản lý nội dung tài liệu nâng cao, cách tạo và thao tác với các điều khiển nội dung (Thẻ Tài liệu Cấu trúc) bằng Java."
 weight: 390
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---

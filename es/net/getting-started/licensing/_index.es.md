@@ -6,6 +6,9 @@ linktitle: Licencia y suscripción
 description: "Aspose.Words para .NET ofrece diferentes planes de compra u ofrece una Prueba Gratuita y una Licencia Temporal de 30 días para evaluación utilizando políticas de Licencia y Suscripción en C#."
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

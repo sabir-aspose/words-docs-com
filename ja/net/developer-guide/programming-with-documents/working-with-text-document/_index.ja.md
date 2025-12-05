@@ -6,6 +6,9 @@ linktitle: テキストドキュメントの操作
 description: "C# を使用した高度な TXT ドキュメント処理、リスト、BiDi、ヘッダー/フッター。"
 type: docs
 weight: 430
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/working-with-text-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Chroń lub zaszyfruj dokument
 description: "Aspose.Words dla Python via .NET zapewnia tryb tylko do odczytu, szyfrowanie dokumentu, ograniczenie edycji i podpisy cyfrowe w celu ochrony dokumentów. Aspose.Words obsługuje większość opcji ochrony programu Word."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/python-net/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

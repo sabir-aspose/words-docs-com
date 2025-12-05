@@ -6,6 +6,9 @@ linktitle: 轉換為固定頁面格式
 description: "以C#儲存至PDF、XPS、HTML、XAML、PostScript和PCL格式的文件。"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/converting-to-fixed-page-format/
 timestamp: 2024-07-10-08-10-45
 ---

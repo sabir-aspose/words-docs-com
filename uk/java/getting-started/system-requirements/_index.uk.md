@@ -6,6 +6,9 @@ linktitle: Вимоги до системи
 description: "Перед тим як розпочати роботу Aspose.Words для Java, Забезпечте, що ви відповідаєте операційній системі, платформі, рамки та вимоги до навколишнього середовища, щоб діяльність на ваших пристроях була належним чином зарахована."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/java/system-requirements/
 timestamp: 2024-01-27-14-07-04
 ---

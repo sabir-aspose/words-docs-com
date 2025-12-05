@@ -6,6 +6,9 @@ linktitle: Arbeiten mit Markdown-Funktionen
 description: "So implementieren Sie Markdown -Funktionen mit Java. Alle Funktionen werden als entsprechende Stile oder direkte Formatierung dargestellt."
 type: docs
 weight: 420
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/working-with-markdown-features/
 timestamp: 2024-01-31-14-23-37
 ---

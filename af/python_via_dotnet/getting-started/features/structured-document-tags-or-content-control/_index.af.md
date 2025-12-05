@@ -6,6 +6,9 @@ linktitle: Gestruktureerde Dokument Etikette of Inhoud Beheer
 description: "Insluit kliënt-gedefinieerde semantiek sowel as sy gedrag en voorkoms in'n dokument met Behulp van Gestruktureerde dokument etikette (SDT of inhoud beheer) in Python."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/python-net/structured-document-tags-or-content-control/
 timestamp: 2024-01-31-14-23-37
 ---

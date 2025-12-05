@@ -6,6 +6,9 @@ linktitle: Kurulum
 description: "Manage NuGet Packages veya Package Manager Console gibi Visual Studio araçlarını ve MSI yükleyicisini kullanarak Python için Aspose.Words'i yükleyin. Full Trust izin kümesini kullanın."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/python-net/installation/
 timestamp: 2024-01-27-14-07-04
 ---

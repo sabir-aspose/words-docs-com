@@ -6,6 +6,9 @@ linktitle: Mengonversi ke Format halaman Tetap
 description: "Aspose.Words untuk Java mengimplementasikan mesin tata letak halamannya sendiri yang memungkinkannya menghasilkan semua format halaman tetap, seperti PDF, XPS, dan berbagai format gambar."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/java/converting-to-fixed-page-format/
 timestamp: 2024-01-31-14-23-37
 ---

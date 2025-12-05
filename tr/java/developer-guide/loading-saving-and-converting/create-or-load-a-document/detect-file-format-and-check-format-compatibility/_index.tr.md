@@ -6,6 +6,9 @@ linktitle: Dosya Biçimini Tespit Et ve Biçim Uyumluluğunu Kontrol Et
 description: "Açarken dosya formatı hakkında bilgi elde etmek isteyip istemediğinizi sorun, eğer emin değilseniz dosyanın gerçek içeriğini Java'u kullanın."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

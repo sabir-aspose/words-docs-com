@@ -6,6 +6,9 @@ linktitle: Druk'n Dokument Programmaties of Gebruik Dialoog
 description: "Druk'n dokument op'n Bediener met behulp van die onbeheerde XpsPrint API of via'n geselekteerde drukker met Instellings en Druk Voorskou Dialoog in C#."
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-31-14-23-37
 ---

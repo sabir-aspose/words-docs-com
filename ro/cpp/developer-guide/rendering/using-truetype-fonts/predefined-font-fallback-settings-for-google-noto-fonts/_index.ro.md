@@ -6,6 +6,9 @@ linktitle: Font predefinit FallBack Setări pentru Google Noto fonturi
 description: "Aspose.Words oferă setări predefinite de rezervă pentru fonturile Google Noto. Acestea sunt fonturi gratuite licențiate sub SIL Open Font License, care pot fi descărcate din Google Noto fonturi."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/predefined-font-fallback-settings-for-google-noto-fonts/
 timestamp: 2024-09-24-14-35-44
 ---

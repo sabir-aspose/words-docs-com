@@ -6,6 +6,9 @@ linktitle: Podporované funkce
 description: "Aspose.Words místo Java poskytuje uživatelům širokou škálu funkcí od pouhé přeměny a úpravy dokumentů až po vytvoření strukturovaných a vizuálně atraktivních dokumentů nebo automatického podávání zpráv."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/java/features/
 timestamp: 2024-10-21-11-17-44
 ---

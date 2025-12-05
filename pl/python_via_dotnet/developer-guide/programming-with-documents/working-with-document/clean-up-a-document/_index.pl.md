@@ -6,6 +6,9 @@ linktitle: Oczyść dokument
 description: "Usuń nieużywane lub zduplikowane informacje, aby zmniejszyć rozmiar wyjściowy i czas przetwarzania za pomocą Python. Usuń nieużywane style, nieużywane style wbudowane, zduplikowane style lub nieużywane listy."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/python-net/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

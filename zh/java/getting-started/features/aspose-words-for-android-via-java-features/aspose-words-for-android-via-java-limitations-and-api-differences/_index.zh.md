@@ -6,6 +6,9 @@ linktitle: Aspose.Words对于Android通过Java限制和API差异
 description: "Android 的 Aspose.Words 具有 Java 功能，并且与 Java 版的常规 Aspose.Words 相比具有 API 差异。"
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/aspose-words-for-android-via-java-limitations-and-api-differences/
 timestamp: 2024-01-27-14-07-04
 ---

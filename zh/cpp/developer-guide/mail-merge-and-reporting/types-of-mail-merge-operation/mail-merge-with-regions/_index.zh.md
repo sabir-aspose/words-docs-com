@@ -7,6 +7,9 @@ type: docs
 description: "在模板中创建不同的区域，以便具有可以简单地填充数据的特殊区域。 使用 Mail Merge 如果要插入表，则使用区域，具有重复数据的行以使文档动态增长。"
 keywords: "how to execute Mail Merge c++"
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/mail-merge-with-regions/
 timestamp: 2024-09-24-14-35-44
 ---

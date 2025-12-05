@@ -6,6 +6,9 @@ linktitle: 在 Word 文檔的選項與外觀上工作
 description: "以考慮不同 Microsoft Word 版本之間的差異，使用 C# 控制 Word 文檔的外觀。"
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/work-with-word-document-options-and-appearance/
 timestamp: 2024-01-27-14-07-04
 ---

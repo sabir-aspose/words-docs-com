@@ -6,6 +6,9 @@ linktitle: Ontwikkelgids
 description: "Deze ontwikkelaar Gids beschrijft praktische scenario's en tips om u te helpen specifieke Aspose.Words voor Python via .NET kenmerken, een bepaald document uiterlijk bereiken, of een use case mogelijk maken."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/python-net/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

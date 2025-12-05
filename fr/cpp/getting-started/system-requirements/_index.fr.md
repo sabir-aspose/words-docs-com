@@ -6,6 +6,9 @@ linktitle: Configuration Système Requise
 description: "Avant de commencer à travailler avec Aspose.Words pour C++, assurez-vous de respecter les exigences du système d'exploitation, de la plate-forme, des frameworks et de l'environnement afin que les activités sur vos appareils soient correctement comptabilisées."
 type: docs
 weight: 70
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/system-requirements/
 timestamp: 2024-07-11-16-13-28
 ---

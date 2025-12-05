@@ -6,6 +6,9 @@ linktitle: Beskikbaarheid En Vervanging van lettertipes
 description: "Wanneer die presiese vervanging lettertipe nie gevind kan word nie, moet Aspose.Words dit vervang vir'n soortgelyke lettertipe in plaas daarvan. Hierdie artikel beskryf die proses om die mees geskikte lettertipe te vind."
 type: docs
 weight: 12
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/font-availability-and-substitution/
 timestamp: 2024-09-24-14-35-44
 ---

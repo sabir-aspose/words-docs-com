@@ -6,6 +6,9 @@ linktitle: تعرف على ميزات التحويل إلى PDF/A و PDF/UA
 description: "تحويل إلى PDF/A-1, PDF/A-2, PDF/A-4 و PDF/UA باستخدام Java. اختر أفضل معيار PDF لتحويل مستند باستخدام Java."
 type: docs
 weight: 25
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/learn-features-of-conversion-to-pdf-a-pdf-ua/
 timestamp: 2024-01-31-14-23-37
 ---

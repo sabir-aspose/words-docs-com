@@ -6,6 +6,9 @@ linktitle: Uložení dokumentu jako multistránkového TIFF
 description: "Převést dokument na vícestránkový TIFF pomocí Python. Chcete-li určit, jak je dokument zobrazen na obrázku, musíte zadat další možnosti: rozlišení, počet stránek, binarizování obrazu, atd."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/python-net/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

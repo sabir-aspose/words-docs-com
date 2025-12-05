@@ -6,6 +6,9 @@ linktitle: Aspose.Words для Android Зареєструватися Java Ос�
 description: "Цей розділ забезпечує порівняння доступності функцій між Aspose.Words для Java і Aspose.Words для Android Зареєструватися Javaй"
 type: docs
 weight: 90
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/java/aspose-words-for-android-via-java-features/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: 在載入外部資源時，網路應用程式的安全性
 type: docs
 description: "加載遠端資源，可能會是安全風險的來源。 使用C#看看常見的安全問題及其解決方案。"
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-27-14-07-04
 ---

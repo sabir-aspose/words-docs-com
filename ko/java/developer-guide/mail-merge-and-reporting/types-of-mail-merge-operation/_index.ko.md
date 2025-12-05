@@ -7,6 +7,9 @@ type: docs
 description: "영역을 사용하여 단순Mail Merge및Mail Merge의 두 가지 유형의Mail Merge작업을 수행합니다. 단순Mail Merge은 각 데이터 소스 레코드당 전체 문서를 반복하는 반면,영역이 있는Mail Merge은Java을 사용하여 레코드당 지정된 영역만 반복합니다."
 keywords: "how to execute Mail Merge java, Mail Merge Java, Simple Mail Merge"
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/types-of-mail-merge-operations/
 timestamp: 2024-01-27-14-07-04
 ---

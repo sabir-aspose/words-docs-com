@@ -6,6 +6,9 @@ linktitle: עבודה עם חכם אמנות Cold Rendering
 type: docs
 description: "Aspose.Words עבור Java מבצעים חכמים אמנות קר רנדרינג, כלומר הוא מניח והופך אובייקטים SmartArt אם הציור החכם מראש הוא חסר או לא נכון."
 weight: 330
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

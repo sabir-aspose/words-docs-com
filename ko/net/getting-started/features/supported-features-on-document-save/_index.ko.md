@@ -6,6 +6,9 @@ linktitle: 문서 저장 시 지원되는 기능
 description: "가장 널리 사용되는 형식으로 문서를 저장하고 C#를 사용하여 다양한 Microsoft Word 기능을 지원합니다."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/supported-features-on-document-save/
 timestamp: 2024-09-25-11-08-55
 ---

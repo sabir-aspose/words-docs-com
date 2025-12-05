@@ -6,6 +6,9 @@ linktitle: Сериализиране и работа с документ в б�
 description: "Преобразуване на документ в байт масив за работа с този документ в база данни, използвайки C#. Можете да съхранявате и да изтеглите документ до и от базата данни."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-07-09-19-00-42
 ---

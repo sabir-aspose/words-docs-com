@@ -6,6 +6,9 @@ linktitle: Aplicați Stilul Tabelului
 description: "Formatare avansată a tabelului C++. Creați un stil de tabel folosind C++. Aplicați stilul tabelului C++."
 type: docs
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/working-with-tablestyle/
 timestamp: 2024-01-27-14-07-04
 ---

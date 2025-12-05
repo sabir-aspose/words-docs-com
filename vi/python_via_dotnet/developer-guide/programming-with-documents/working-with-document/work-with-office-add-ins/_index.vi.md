@@ -6,6 +6,9 @@ linktitle: Làm việc với phần bổ trợ Office
 description: "Aspose.Words cho Python via .NET cung cấp nhiều lớp khác nhau để làm việc với Phần bổ trợ Office. Bạn có thể thêm Ngăn tác vụ thông qua tiện ích mở rộng web và tùy chỉnh các thuộc tính của ngăn và tiện ích mở rộng."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

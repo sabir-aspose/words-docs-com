@@ -6,6 +6,9 @@ linktitle: 以程式方式列印文件或透過對話方塊
 description: "在 Server 上列印文件，使用未管理的 XpsPrint API 或透過選定的印表機以設定和列印預覽對話方塊為 C#。"
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-31-14-23-37
 ---

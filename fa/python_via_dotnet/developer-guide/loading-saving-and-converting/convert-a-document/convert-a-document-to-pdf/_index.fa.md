@@ -6,6 +6,9 @@ linktitle: تبدیل یک سند به PDF
 description: "با استفاده از Python یک سند را به PDF تبدیل کنید. فرمت های ورودی مختلفی از جمله فرمت های Word، OpenOffice، Image و eBook پشتیبانی می شوند."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/convert-a-document-to-pdf/
 timestamp: 2024-01-31-14-23-37
 ---

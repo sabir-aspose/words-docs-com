@@ -6,6 +6,9 @@ linktitle: Travailler avec des sections
 description: "Créez et gérez des sections et des sauts de section dans un document à l'aide de Python. Insérer une section dans un document Python. Supprimer la section Python. Copiez des sections entre les documents."
 type: docs
 weight: 120
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/working-with-sections/
 timestamp: 2024-09-25-11-08-55
 ---

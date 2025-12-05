@@ -4,6 +4,9 @@ second_title: Aspose.Words for .NET
 articleTitle: 建立或加載文件
 linktitle: 建立或加載文件
 type: docs
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/create-or-load-a-document/
 description: "透過 C# 建立一個空白的文件或從檔案或串流中載入它。"
 keywords: "create a document c#, load a document c#, create a blank document c#, load a document from file c#, load a document from stream c#, create a document Aspose .NET, load a document Aspose .NET, load formats supported by Aspose.Words .NET"

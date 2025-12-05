@@ -6,6 +6,9 @@ linktitle: فرمت های سند پشتیبانی شده
 type: docs
 description: "اسناد منبع را در بسیاری از فرمت‌های محبوب ویرایش کنید، و همچنین فایل‌ها را آزادانه از یک فرمت به فرمت دیگر با استفاده از C# تبدیل کنید."
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/supported-document-formats/
 timestamp: 2024-10-21-11-17-44
 ---

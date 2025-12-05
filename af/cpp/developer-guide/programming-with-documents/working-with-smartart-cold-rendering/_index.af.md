@@ -6,6 +6,9 @@ linktitle: Werk met SmartArt Koue Weergawe
 type: docs
 description: "Aspose.Words vir C++ voer SmartArt Koue Weergawe uit, wat beteken dat dit SmartArt voorwerpe uitlê en weergee as die vooraf gerenderde SmartArt tekening ontbreek of verkeerd is."
 weight: 330
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

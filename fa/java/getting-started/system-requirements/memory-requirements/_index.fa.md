@@ -6,6 +6,9 @@ linktitle: نیازمندی های حافظه
 description: "Aspose.Words برای Java برای کار با اسناد چقدر حافظه نیاز دارد؟ جزئیات را یاد بگیرید."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/memory-requirements/
 timestamp: 2024-09-25-11-08-55
 ---

@@ -6,6 +6,9 @@ linktitle: Alanları Güncelle
 description: "C++ içindeki alanları nasıl güncelleyeceğinizi öğrenin. Alanları programlı olarak güncelleyin veya C++ API kullanarak otomatik alan güncellemesini kullanın."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/update-fields/
 timestamp: 2024-01-27-14-07-04
 ---

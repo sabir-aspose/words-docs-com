@@ -6,6 +6,9 @@ linktitle: Ładowanie, zapisywanie i konwertowanie
 description: "Dowiedz się więcej Aspose.Words zamiast Java funkcje podczas wczytywania, zapisywania lub konwersji dokumentów z jednego formatu do innego."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---

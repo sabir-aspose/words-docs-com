@@ -6,6 +6,9 @@ linktitle: نام تولید کننده در اسناد خروجی
 description: "Aspose.Words برای C++ نام ژنراتور و شماره نسخه ای که برای ایجاد آن استفاده شده است را به سند اضافه کنید. این داده ها را می توان در سند به روش هایی یافت که به فرمت فایل خروجی بستگی دارد."
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

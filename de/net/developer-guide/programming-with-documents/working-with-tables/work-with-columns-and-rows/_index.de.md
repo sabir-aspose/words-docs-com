@@ -6,6 +6,9 @@ linktitle: Arbeiten Sie mit Spalten und Zeilen
 description: "Arbeiten mit Teilen einer Tabelle – Zeilen, Spalten und Zellen mit C#. Geben Sie die Kopfzeile C# an."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/working-with-columns-and-rows/
 timestamp: 2024-01-27-14-07-04
 ---

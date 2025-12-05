@@ -6,6 +6,9 @@ linktitle: Tách một tài liệu
 description: "Chia tài liệu thành nhiều tệp bằng Python. Sử dụng tính năng phân chia để phân chia tài liệu theo tiêu đề hoặc phần một cách hiệu quả, cũng như theo trang hoặc theo phạm vi trang."
 type: docs
 weight: 90
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

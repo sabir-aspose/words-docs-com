@@ -6,6 +6,9 @@ linktitle: Lập trình với Tài liệu
 type: docs
 description: "Sử dụng các lớp Aspose.Words Document Object Model để lập trình tạo, sửa đổi và quản lý tài liệu với Java. Làm việc với các thuộc tính, cài đặt và nội dung tài liệu cũng như xuất hiện tài liệu thông qua quản lý màu sắc, hình dạng, phông chữ và các đồ họa khác."
 weight: 340
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

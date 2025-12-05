@@ -6,6 +6,9 @@ linktitle: 與分詞一起工作
 description: "透過 C# 來使用段落分詞，使文字排列更緊湊。 它提供了進階演算法來工作與破字詞字典，使用 OpenOffice 字典。"
 type: docs
 weight: 220
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 섹션 작업
 description: "Java을 사용하여 문서 섹션 개념 및 조작 관행을 이해합니다. 문서Java에 섹션을 삽입합니다. 섹션Java을 제거합니다. 문서 사이에 섹션을 복사합니다."
 type: docs
 weight: 120
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/working-with-sections/
 timestamp: 2024-01-31-14-23-37
 ---

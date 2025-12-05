@@ -6,6 +6,9 @@ linktitle: Inserisci e aggiungi documenti
 description: "Combina documenti in uno solo: inserisci o aggiungi un documento in uno nuovo o esistente utilizzando trova e sostituisci, unisci campo, segnalibro o semplicemente alla fine del documento in C#."
 type: docs
 weight: 80
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

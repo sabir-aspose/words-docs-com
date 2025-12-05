@@ -7,6 +7,9 @@ description: "Вступ до Смарт Арт-форми з використа
 type: docs
 description: "Aspose.Words для .NET виконує Смарт Art Cold Rendering, значення того, що він виділяється і надає об'єкти SmartArt, якщо попередньо відреставрований малюнок SmartArt відсутній або неправильний за допомогою C#й"
 weight: 330
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

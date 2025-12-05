@@ -6,6 +6,9 @@ linktitle: עבודה עם Hyphenation
 description: "השתמש בהיסטריה עבור סידור קומפקטי יותר של טקסט באמצעות C#. הוא מספק אלגוריתמים מתקדמים לעבוד עם דיוני ההפניה, משתמש במילוני OpenOffice."
 type: docs
 weight: 220
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---

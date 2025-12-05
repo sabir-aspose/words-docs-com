@@ -6,6 +6,9 @@ linktitle: แทนที่ฟิลด์ด้วยข้อความค
 description: "ดูวิธีแทนที่ช่องด้วยข้อความใน Python แทนที่ฟิลด์ด้วยข้อมูลคงที่โดยใช้ Python via .NET API"
 type: docs
 weight: 37
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/python-net/replace-fields/
 timestamp: 2024-01-27-14-07-04
 ---

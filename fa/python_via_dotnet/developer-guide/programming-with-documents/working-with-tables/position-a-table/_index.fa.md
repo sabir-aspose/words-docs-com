@@ -6,6 +6,9 @@ linktitle: قرار دادن یک جدول
 description: "موقعیت جدول را در Python مشخص کنید. تراز جدول را دریافت کنید، موقعیت جدول شناور را با استفاده از Python دریافت و تنظیم کنید."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/position-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

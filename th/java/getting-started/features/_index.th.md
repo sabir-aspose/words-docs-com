@@ -6,6 +6,9 @@ linktitle: คุณสมบัติที่รองรับ
 description: "Aspose.WordsสำหรับJavaให้ผู้ใช้ที่มีความหลากหลายของคุณสมบัติจากเพียงแค่การแปลงและแก้ไขเอกสา."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/features/
 timestamp: 2024-10-21-11-17-44
 ---

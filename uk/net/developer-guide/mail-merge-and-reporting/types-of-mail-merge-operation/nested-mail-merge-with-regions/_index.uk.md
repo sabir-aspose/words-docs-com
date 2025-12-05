@@ -7,6 +7,9 @@ type: docs
 description: "Виконайте операцію Mail Merge з вкладеними областями, використовуючи C#. Вкладене злиття-це функція, яка дозволяє об'єднувати ієрархічні дані з вашого джерела даних у ваш шаблон злиття."
 keywords: "mail merge with nested regions c#"
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/nested-mail-merge-with-regions/
 timestamp: 2024-07-11-08-07-06
 ---

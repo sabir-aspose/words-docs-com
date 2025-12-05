@@ -6,6 +6,9 @@ linktitle: 使用文档
 type: docs
 description: "`Document`类提供各种文档属性和方法。 您可以使用`Document`类作为要使用Aspose.Words执行Java的任何操作的起点。 `Document`对象可以保存到文件或流中，也可以发送到浏览器。"
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---

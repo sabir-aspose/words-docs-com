@@ -5,6 +5,9 @@ articleTitle: تبدیل یک سند
 linktitle: تبدیل یک سند
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/convert-a-document/
 description: "به راحتی اسناد را از یک فرمت به فرمت دیگر تبدیل کنید. شما می توانید با تمام فرمت های محبوب مانند Microsoft Word فرمت هایی مانند DOCX یا DOC، OpenDocument فرمت هایی مانند ODT یا OTT، فرمت های وب مانند HTML یا XHTML، فرمت های متنی مانند MarkDown یا TXT و دیگران با استفاده از Java کار کنید."
 timestamp: 2024-09-25-11-08-55

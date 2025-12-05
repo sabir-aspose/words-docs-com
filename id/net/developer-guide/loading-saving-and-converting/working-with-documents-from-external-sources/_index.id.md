@@ -6,6 +6,9 @@ linktitle: Bekerja dengan Dokumen dari Sumber Eksternal
 description: "Cara memuat dokumen dari sumber eksternal di C#. Muat PDF, DOCX, DOC, RTF, ODT, EPUB, HTML dan file lainnya dari SharePoint atau database untuk diproses lebih lanjut menggunakan C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/net/working-with-documents-from-external-sources/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -5,6 +5,9 @@ linktitle: Aspose.Words עבור Python via .NET
 description: "Aspose.Words עבור Python via .NET היא ספריית כיתה המאפשרת ליישומים שלך לבצע מגוון גדול של משימות עיבוד מסמכים - ליצור, לשנות, להמיר ולהפוך מסמכים."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/python-net/
 is_root: true
 timestamp: 2024-09-25-11-08-55

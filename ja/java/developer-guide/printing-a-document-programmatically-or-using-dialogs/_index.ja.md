@@ -6,6 +6,9 @@ linktitle: プログラムで文書を印刷するか、ダイアログを使用
 description: "設定、印刷プレビュー、印刷進行状況ダイアログを使用してJavaを使用して文書を印刷します。"
 type: docs
 weight: 55
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-27-14-07-04
 ---

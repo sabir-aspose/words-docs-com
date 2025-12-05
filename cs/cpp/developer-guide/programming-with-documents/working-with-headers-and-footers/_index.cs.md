@@ -6,6 +6,9 @@ linktitle: Práce s záhlaví a zápatí
 description: "Jak manipulovat záhlaví a zápatí pomocí C++."
 type: docs
 weight: 150
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/working-with-headers-and-footers/
 timestamp: 2024-01-27-14-07-04
 ---

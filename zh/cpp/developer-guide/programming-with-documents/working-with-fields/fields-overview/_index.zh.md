@@ -6,6 +6,9 @@ linktitle: 字段概述
 description: "字段功能在详细信息，字段代码和字段结果中解释 Aspose.Words对于C++."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/fields-overview/
 timestamp: 2024-01-27-14-07-04
 ---

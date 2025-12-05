@@ -6,6 +6,9 @@ linktitle: Geben Sie die Renderoptionen beim Konvertieren in PDF an
 description: "Konvertieren Sie ein Dokument mit erweiterten Optionen in PDF. Verwenden Sie PdfSaveOptions, um das Ergebnis des Speicherns eines Dokuments mit Java in das PDF-Format zu ändern."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

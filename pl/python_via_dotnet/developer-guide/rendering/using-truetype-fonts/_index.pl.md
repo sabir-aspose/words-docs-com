@@ -6,6 +6,9 @@ linktitle: Korzystanie z czcionek TrueType
 description: "Aspose.Words for Python via .NET może znaleźć odpowiednią czcionkę lub jej odpowiedni zamiennik w celu prawidłowego renderowania dokumentu. Dzięki temu różnica między wyświetlanym dokumentem a oryginałem jest minimalna, gdy nie ma wystarczających informacji o czcionce."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/python-net/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

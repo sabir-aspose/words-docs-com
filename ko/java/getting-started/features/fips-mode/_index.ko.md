@@ -6,6 +6,9 @@ linktitle: FIPS모드
 description: "Java의Aspose.Words은FIPS표준을 준수하기 위해 문서를 처리할 때 여러 암호화 및 해시 알고리즘을 사용합니다."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/fips-mode/
 timestamp: 2024-05-08-10-19-58
 ---

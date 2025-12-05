@@ -6,6 +6,9 @@ linktitle: Chèn và Thêm Tài liệu
 description: "Kết hợp tài liệu thành một: chèn hoặc nối thêm một tài liệu vào một tài liệu mới hoặc hiện có bằng cách sử dụng tìm và thay thế, kết hợp trường, dấu sách hoặc đơn giản là tại cuối tài liệu trong Java."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

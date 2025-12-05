@@ -7,6 +7,9 @@ type: docs
 description: "בצע פעולה Mail Merge עם אזורים מקוננים באמצעות C#. מיזוג מקונן הוא תכונה המאפשרת לך למזג נתונים היררכיים ממקור הנתונים שלך לתבנית המיזוג שלך."
 keywords: "mail merge with nested regions c#"
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/nested-mail-merge-with-regions/
 timestamp: 2024-07-11-08-07-06
 ---

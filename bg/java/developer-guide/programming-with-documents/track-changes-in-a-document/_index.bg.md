@@ -6,6 +6,9 @@ linktitle: Запис на промените в документ
 description: "Проследете промените в съдържанието и форматирането, направени от вас или други. Достъп до индивидуални ревизии в документ и прилагане на различни свойства за тях използване Java."
 type: docs
 weight: 270
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

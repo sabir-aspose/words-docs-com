@@ -6,6 +6,9 @@ linktitle: معالجة Windows ملفات التعريف
 description: "Aspose.Words ل C++ تنفذ الخاصة Windows ميتافيل لاعب للعب شكل ميتافيل على جميع المنصات ويدعم التعامل مع ميزات ميتافيل الأساسية ويمكن أن تؤدي إلى نوع مختلف من لاعب ميتافيل."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/handling-windows-metafiles/
 timestamp: 2024-01-30-16-22-34
 ---

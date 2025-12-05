@@ -6,6 +6,9 @@ linktitle: Lập Trình Với Tài liệu
 type: docs
 description: "Sử dụng các lớp Mô hình Đối tượng Tài liệu Aspose.Words để lập trình tạo, sửa đổi và quản lý tài liệu bằng C++. Làm việc với các thuộc tính tài liệu, cài đặt và nội dung, cũng như với giao diện tài liệu thông qua việc quản lý màu sắc, hình dạng, phông chữ và đồ họa khác."
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

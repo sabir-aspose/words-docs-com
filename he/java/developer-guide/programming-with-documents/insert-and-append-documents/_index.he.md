@@ -6,6 +6,9 @@ linktitle: הכנס ונספח מסמכים
 description: "שילוב מסמכים לתוך אחד: להוסיף או לאמת מסמך חדש או קיים באמצעות מציאת והחלפה, מיזוג שדה, סימן ספר או פשוט בסוף המסמך בסוף המסמך. Java."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

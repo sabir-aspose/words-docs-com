@@ -7,6 +7,9 @@ type: docs
 description: "Skep verskillende streke in u sjabloon om spesiale gebiede te hê wat u eenvoudig met u data kan vul. Gebruik die Mail Merge met streke as jy tabelle wil invoeg, rye met herhalende data om jou dokumente dinamies te laat groei."
 keywords: "how to execute Mail Merge c++"
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/mail-merge-with-regions/
 timestamp: 2024-09-24-14-35-44
 ---

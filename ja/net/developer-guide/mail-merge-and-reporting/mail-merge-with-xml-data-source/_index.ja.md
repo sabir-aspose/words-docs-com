@@ -7,6 +7,9 @@ type: docs
 description: "Mail Merge操作を実行するときは、C#を使用するXMLファイルなど、さまざまなデータソースを使用します。 XMLを使用する主な利点は、文書内で直接階層を定義できることです。"
 keywords: "mail merge xml data source c#"
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/mail-merge-with-xml-data-source/
 timestamp: 2024-07-11-08-07-06
 ---

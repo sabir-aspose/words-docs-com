@@ -6,6 +6,9 @@ linktitle: Bắt đầu
 type: docs
 description: "Sử dụng bản giới thiệu này cho Aspose.Words cho Java để bắt đầu nhận ra giá trị của Aspose.Words đối với doanh nghiệp của bạn."
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/getting-started/
 timestamp: 2024-09-25-11-08-55
 ---

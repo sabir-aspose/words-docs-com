@@ -6,6 +6,9 @@ linktitle: کار با گزینه ها و ظاهر اسناد Word
 description: "با در نظر گرفتن تفاوت بین نسخه های مختلف Microsoft Word با استفاده از C#، ظاهر اسناد Word را کنترل کنید."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/work-with-word-document-options-and-appearance/
 timestamp: 2024-01-27-14-07-04
 ---

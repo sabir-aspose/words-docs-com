@@ -6,6 +6,9 @@ linktitle: کار با Footnote و Endnote
 description: "چگونه با استفاده از C++ حاشیه ها و حاشیه های پایانی را دستکاری کنیم."
 type: docs
 weight: 160
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/working-with-footnote-and-endnote/
 timestamp: 2024-01-27-14-07-04
 ---

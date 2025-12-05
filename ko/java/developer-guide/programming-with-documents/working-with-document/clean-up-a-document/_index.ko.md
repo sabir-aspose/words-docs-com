@@ -6,6 +6,9 @@ linktitle: 문서 정리
 description: "사용하지 않거나 중복된 정보를 제거하여 출력 크기 및 처리 시간을 줄입니다. Java을 사용하여 사용하지 않는 스타일,사용하지 않는 기본 제공 스타일,중복 스타일 또는 사용하지 않는 목록을 제거합니다."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

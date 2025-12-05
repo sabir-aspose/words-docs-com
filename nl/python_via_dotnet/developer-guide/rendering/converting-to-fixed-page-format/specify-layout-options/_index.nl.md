@@ -6,6 +6,9 @@ linktitle: Opmaakopties specificeren
 description: "Opmaak opgeven Opties voor verschillende documentindelingen Python."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/python-net/specify-layout-options/
 timestamp: 2024-01-27-14-07-04
 ---

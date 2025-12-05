@@ -6,6 +6,9 @@ linktitle: 필드 삽입
 description: "`DocumentBuilder` 또는 DOM(Document Object Model)을 사용하여 다양한 방법으로 Python의 문서에 필드를 삽입합니다."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/inserting-fields/
 timestamp: 2024-09-25-11-08-55
 ---

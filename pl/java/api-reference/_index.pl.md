@@ -6,6 +6,9 @@ linktitle: API Reference
 type: docs
 weight: 30
 description: "Naucz się wyjaśnień i przykładów Aspose.Words zamiast Java klasy i metody generowania, konwersji, modyfikacji, renderowania i drukowania dokumentów bez użycia Microsoft Word."
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/api-reference/
 timestamp: 2024-01-27-14-07-04
 ---

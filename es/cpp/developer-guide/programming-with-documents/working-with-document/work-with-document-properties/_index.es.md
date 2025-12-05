@@ -6,6 +6,9 @@ linktitle: Trabajar con Propiedades de Documentos
 description: "Aspose.Words para C++ permite almacenar cierta información útil sobre su documento, como API y Número de versión o Fecha Autorizada, en propiedades integradas o personalizadas del documento."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/cpp/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

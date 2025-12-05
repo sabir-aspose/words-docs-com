@@ -6,6 +6,9 @@ linktitle: 將文字檔儲存為多頁 TIF
 description: "以 C# 将一份文件轉換為多頁的 TIFF。 要決定文件在您的畫面上的顯示方式，您需要指定其他選項：解析度、頁面數、圖像二值化等。"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-07-10-14-38-57
 ---

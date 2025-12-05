@@ -6,6 +6,9 @@ linktitle: 사무실 추가 기능 작업
 description: "Aspose.Words에 대한Java사무실 추가 기능 작업을위한 다양한 클래스를 제공합니다. 당신은 웹 확장을 통해 작업 창을 추가하고 창 및 확장 속성을 사용자 정의 할 수 있습니다."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 可访问性在保存到PDF/A和PDF/UA时发出警告
 description: "PDF/A 和 PDF/UA 规定了与文档内容相关的可访问性要求。当使用 C++ 保存到 PDF/A 或 PDF/UA 时，如果问题违反了合规性，则会发出警告。"
 type: docs
 weight: 39
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

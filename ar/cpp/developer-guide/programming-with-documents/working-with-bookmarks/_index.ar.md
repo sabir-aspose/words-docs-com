@@ -6,6 +6,9 @@ linktitle: العمل مع الإشارات المرجعية
 description: "فهم المفاهيم المرجعية وكيف المرجعية يمكن استخدامها في البرنامج باستخدام C++."
 type: docs
 weight: 180
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/working-with-bookmarks/
 timestamp: 2024-01-27-14-07-04
 ---

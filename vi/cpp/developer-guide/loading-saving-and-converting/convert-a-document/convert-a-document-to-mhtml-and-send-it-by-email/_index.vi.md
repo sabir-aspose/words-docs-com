@@ -6,6 +6,9 @@ linktitle: Chuyển Đổi Tài liệu thành MHTML Và Gửi Qua Email
 description: "Chuyển đổi tài liệu từ hầu hết mọi định dạng sang định dạng MHTML và gửi tài liệu kết quả qua e-mail."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/convert-a-document-to-mhtml-and-send-it-by-email/
 timestamp: 2024-01-27-14-07-04
 ---

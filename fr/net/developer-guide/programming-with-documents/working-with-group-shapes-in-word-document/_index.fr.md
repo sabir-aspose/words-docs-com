@@ -6,6 +6,9 @@ linktitle: Travailler avec des formes Group dans des documents Word
 description: "Grouping et dissociation de formes à l'aide de C#."
 type: docs
 weight: 290
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/how-to-add-group-shape-into-a-word-document/
 timestamp: 2024-01-27-14-07-04
 ---

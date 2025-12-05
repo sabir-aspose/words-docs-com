@@ -6,6 +6,9 @@ linktitle: İmleç ile Gezinme
 description: "C++ kullanarak bir belgedeki paragraf, yer imi veya belirli bir karakter gibi farklı düğümler arasında gezinin."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/navigation-with-cursor/
 timestamp: 2024-01-27-14-07-04
 ---

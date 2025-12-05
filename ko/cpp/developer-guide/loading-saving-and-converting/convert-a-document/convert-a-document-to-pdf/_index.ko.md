@@ -6,6 +6,9 @@ linktitle: 문서를 다음으로 변환 PDF
 description: "문서를 다음으로 변환 PDF 사용 C++. 단어를 포함하여 다양한 입력 형식이 지원됩니다, OpenOffice,이미지 및 eBook 형식"
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/convert-a-document-to-pdf/
 timestamp: 2024-10-21-08-52-03
 ---

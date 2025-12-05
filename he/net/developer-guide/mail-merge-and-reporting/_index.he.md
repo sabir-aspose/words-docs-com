@@ -7,6 +7,9 @@ type: docs
 description: "Mail Merge היא תכונה פופולרית ליצירת מסמכים במהירות באמצעות C#. Aspose.Words עבור .NET לוקח את הפונקציונליות הסטנדרטית Mail Merge ומקדם אותה צעדים רבים קדימה, והופך אותה לפיתרון דיווח מן המניין המאפשר לך ליצור מסמכים מורכבים עוד יותר כגון דוחות, קטלוגים, מלאי וחשבוניות."
 keywords: "how to use Mail Merge c#"
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/mail-merge-and-reporting/
 timestamp: 2024-07-11-08-07-06
 ---

@@ -6,6 +6,9 @@ linktitle: ドキュメントを使ったプログラミング
 type: docs
 description: "Aspose.Wordsドキュメントオブジェクトモデルクラスを使用して、Javaを使用してドキュメントをプログラムで作成、変更、および管理します。 ドキュメントのプロパティ、設定、コンテンツ、および色、図形、フォント、その他のグラフィックの管理を通じてドキュメントの外観を操作します。"
 weight: 340
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

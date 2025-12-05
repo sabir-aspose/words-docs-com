@@ -6,6 +6,9 @@ linktitle: Trouver et remplacer
 type: docs
 description: "Recherchez un modèle de chaîne ou d'expression régulière dans votre document et remplacez-le par le texte souhaité à l'aide de C#."
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/find-and-replace/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Serializacja i praca z dokumentem w bazie danych
 description: "Konwersja dokumentu do tablicy bajtów do pracy z tym dokumentem w bazie danych. Można przechowywać i pobierać dokument do i z bazy danych za pomocą Java."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-01-27-14-07-04
 ---

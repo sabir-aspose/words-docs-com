@@ -6,6 +6,9 @@ linktitle: Trabalhar com Tipografia asiática
 description: "Trabalhar com Tipografia asiática utilizando Java. Ajuste o espaço entre textos asiáticos e latinos em Java."
 type: docs
 weight: 240
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/java/working-with-asian-typography/
 timestamp: 2024-01-27-14-07-04
 ---

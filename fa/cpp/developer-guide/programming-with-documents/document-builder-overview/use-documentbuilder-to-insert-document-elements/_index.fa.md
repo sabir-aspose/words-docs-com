@@ -6,6 +6,9 @@ linktitle: برای وارد کردن عناصر سند از DocumentBuilder ا�
 type: docs
 description: "عناصر سند را با استفاده از سازنده سند در C++ وارد کنید."
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/use-documentbuilder-to-insert-document-elements/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Lewering
 description: "Gebruik Aspose.Words vir C++ rendering funksie om'n vloei-uitleg dokument in bladsye te formateer en omskep so'n dokument of geselekteerde bladsye na ander dokumente (PDF, HTML, XPS, en so aan.) of beelde (TIFF, PNG, SVG, en so aan.) formate vir besigtiging, verdere omskakelings of drukwerk."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/rendering/
 timestamp: 2024-01-30-16-22-34
 ---

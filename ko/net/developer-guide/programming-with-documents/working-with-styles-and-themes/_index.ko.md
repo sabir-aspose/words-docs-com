@@ -6,6 +6,9 @@ linktitle: 스타일 및 테마 작업
 description: "C#를 사용하여 스타일과 테마로 작업하는 고급 Microsoft Word 형식 지정 기능."
 type: docs
 weight: 110
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/working-with-styles-and-themes/
 timestamp: 2024-10-24-11-44-28
 ---

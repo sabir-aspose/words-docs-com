@@ -6,6 +6,9 @@ linktitle: Bir Belgeyi Temizleme
 description: "C++ kullanarak çıktı boyutunu ve işlem süresini azaltmak için kullanılmayan veya yinelenen bilgileri kaldırın. Kullanılmayan stilleri, kullanılmayan yerleşik stilleri, yinelenen stilleri veya kullanılmayan listeleri kaldırın."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

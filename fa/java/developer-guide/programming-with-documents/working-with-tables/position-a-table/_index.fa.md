@@ -6,6 +6,9 @@ linktitle: یک جدول را قرار دهید
 description: "موقعیت جدول را در Java مشخص کنید. با استفاده از Java یک تراز جدول بدست آورید، موقعیت جدول شناور را بدست آورید و تنظیم کنید."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/position-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

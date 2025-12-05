@@ -6,6 +6,9 @@ linktitle: Hiển thị hình dạng riêng biệt từ tài liệu
 description: "Trích xuất các đối tượng đồ họa khác nhau, chẳng hạn như hình ảnh, hộp văn bản chứa đoạn văn hoặc hình mũi tên khi xử lý tài liệu và xuất chúng sang vị trí bên ngoài bằng C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/rendering-shapes-separately-from-a-document/
 timestamp: 2024-07-10-14-38-57
 ---

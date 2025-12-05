@@ -6,6 +6,9 @@ linktitle: Belge Ekleme ve Ekleme
 description: "Belgeleri bir araya getirin: bul ve değiştir, birleştirme alanı, yer imi veya yalnızca belgenin sonunu kullanarak yeni veya mevcut bir belgeye belge ekleyin veya ekleyin."
 type: docs
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

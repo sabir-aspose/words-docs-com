@@ -6,6 +6,9 @@ linktitle: בעיות מניפולציה וביצועים של גופנים
 description: "Aspose.Words עבור C++ משתמש בגופן שם מלא, שם משפחה, גרסה, סגנון כדי למצוא את נתוני הגופן הנדרשים או תחליף מתאים לגופן המבוקש. FontSettings מאפשר לך להאיץ את טעינת המסמכים."
 type: docs
 weight: 11
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/font-manipulation-and-performance-issues/
 timestamp: 2024-09-24-14-35-44
 ---

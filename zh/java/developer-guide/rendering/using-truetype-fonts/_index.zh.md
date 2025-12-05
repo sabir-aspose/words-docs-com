@@ -6,6 +6,9 @@ linktitle: 使用TrueType字体
 description: "如果找不到所需的字体，如何找到正确的字体或其合适的替代品，以便使用Aspose.WordsforJava进行正确渲染。"
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

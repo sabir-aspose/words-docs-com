@@ -6,6 +6,9 @@ linktitle: Bekerja dengan Tabel
 description: "Cara bekerja dengan tabel dalam Java. Memperkenalkan konsep simpul tabel di Aspose.Words untuk Java."
 type: docs
 weight: 190
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/java/working-with-tables/
 timestamp: 2024-01-27-14-07-04
 ---

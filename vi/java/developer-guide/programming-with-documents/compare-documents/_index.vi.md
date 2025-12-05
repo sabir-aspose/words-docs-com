@@ -6,6 +6,9 @@ linktitle: So sánh tài liệu
 type: docs
 description: "So sánh hai tài liệu ở bất kỳ định dạng nào được hỗ trợ và hiển thị những thay đổi nội dung. Bạn có thể áp dụng các tùy chọn nâng cao khi so sánh bằng cách sử dụng Java."
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/compare-documents/
 timestamp: 2024-01-27-14-07-04
 ---

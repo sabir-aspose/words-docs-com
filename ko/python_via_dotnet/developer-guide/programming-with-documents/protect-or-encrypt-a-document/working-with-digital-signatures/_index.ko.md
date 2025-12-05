@@ -6,6 +6,9 @@ linktitle: 디지털 서명 작업
 description: "Python를 사용하여 문서에 디지털 서명을 하고 기존 디지털 서명을 감지, 계산, 확인 및 제거합니다."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/working-with-digital-signatures/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Vooraf gedefinieerde lettertype FallBack instellingen voor Google Not
 description: "Aspose.Words biedt vooraf gedefinieerde font fallback-instellingen voor Google Noto fonts. Dit zijn gratis lettertypen onder SIL Open Font License, die kunnen worden gedownload van Google Noto Fonts."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/predefined-font-fallback-settings-for-google-noto-fonts/
 timestamp: 2024-09-24-14-35-44
 ---

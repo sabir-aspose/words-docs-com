@@ -6,6 +6,9 @@ linktitle: デジタル署名の操作
 description: "文書にデジタル署名し、既存のデジタル署名を検出、カウント、検証、および削除します。"
 type: docs
 weight: 160
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/working-with-digital-signatures/
 timestamp: 2024-01-27-14-07-04
 ---

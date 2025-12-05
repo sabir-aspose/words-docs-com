@@ -7,6 +7,9 @@ type: docs
 description: "Mustache구문으로 템플릿을 만듭니다. Mustache구문은 필드(HTML또는TXT)를 포함하지 않는 템플릿에 사용할 수 있는 유일한 옵션입니다. 단어 템플릿을 사용하면 필드 또는Java를 사용하는Mustache구문의 두 가지 옵션이 있습니다."
 keywords: "mail merge template mustache syntax java, Mail Merge java, mustache syntax java"
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/mail-merge-template-from-mustache-syntax/
 timestamp: 2024-01-27-14-07-04
 ---

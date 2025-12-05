@@ -5,6 +5,9 @@ articleTitle: تحويل مستند
 linktitle: تحويل مستند
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/convert-a-document/
 description: "تحويل المستندات بسهولة من تنسيق إلى آخر. يمكنك العمل مع جميع التنسيقات الأكثر شيوعا مثل Microsoft Word التنسيقات مثل DOCX أو DOC، OpenDocument التنسيقات مثل ODT أو OTT، وتنسيقات الويب مثل HTML أو XHTML، وتنسيقات النص مثل MarkDown أو TXT، وغيرها باستخدام Java."
 timestamp: 2024-09-25-11-08-55

@@ -6,6 +6,9 @@ linktitle: Робота з документом, позначеною мітко
 description: "Перетворення Word з нанесеною міткою чутливості до PDF за допомогою C#й Робота з документами, позначеними мітками чутливості – різними форматами введення, включаючи Word, OpenOffice, Image та eBook."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/work-with-document-market-by-sensitivity-label/
 timestamp: 2024-01-31-14-23-37
 ---

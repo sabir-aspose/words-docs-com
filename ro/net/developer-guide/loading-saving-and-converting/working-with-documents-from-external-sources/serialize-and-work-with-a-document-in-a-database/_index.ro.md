@@ -6,6 +6,9 @@ linktitle: Serializați și lucrați cu un document într-o bază de date
 description: "Convertiţi un document într-un tablou de octeţi pentru a lucra cu acest document într-o bază de date folosind C#. Puteți stoca și recupera un document către și de la baza de date."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-07-09-19-00-42
 ---

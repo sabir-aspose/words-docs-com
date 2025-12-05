@@ -6,6 +6,9 @@ linktitle: Praca z akapitami
 description: "Wstaw akapit do dokumentu C#. Ustaw style akapitów w C#. Pracuj z separatorem stylu akapitu C#. Manipuluj węzłem akapitu za pomocą C#."
 type: docs
 weight: 210
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/working-with-paragraphs/
 timestamp: 2024-01-27-14-07-04
 ---

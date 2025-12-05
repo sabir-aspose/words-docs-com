@@ -6,6 +6,9 @@ linktitle: Lavora con le proprietà del documento
 description: "Aspose.Words per .NET consente di archiviare alcune informazioni utili sul documento, come API e numero di versione o Date autorizzato, nelle proprietà del documento integrate o personalizzate utilizzando C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

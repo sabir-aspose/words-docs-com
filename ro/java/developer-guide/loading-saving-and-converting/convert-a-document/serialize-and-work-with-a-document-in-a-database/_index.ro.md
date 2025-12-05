@@ -6,6 +6,9 @@ linktitle: Serializați și lucrați cu un Document într-o bază de date
 description: "Convertiți un document într-o matrice de octeți pentru a lucra cu acest document într-o bază de date. Puteți stoca și prelua un document în și din Baza de date folosind Java."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/java/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-01-27-14-07-04
 ---

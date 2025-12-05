@@ -6,6 +6,9 @@ linktitle: פתח מסמך לקריאה בלבד
 description: "הפוך את המסמך לקריאה בלבד כדי שניתן יהיה להעתיק או לקרוא את התוכן, אך לא לשנות אותו."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/open-a-document-read-only/
 timestamp: 2024-01-27-14-07-04
 ---

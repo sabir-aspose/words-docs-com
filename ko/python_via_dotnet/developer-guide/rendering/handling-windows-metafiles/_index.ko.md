@@ -6,6 +6,9 @@ linktitle: Windows 메타파일 처리
 description: "Python via .NET용 Aspose.Words는 자체 Windows 메타파일 플레이어를 구현하여 모든 플랫폼에서 메타파일 형식을 재생하고 기본 메타파일 기능 처리를 지원하며 다른 유형의 메타파일 플레이어로 대체를 수행할 수 있습니다."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

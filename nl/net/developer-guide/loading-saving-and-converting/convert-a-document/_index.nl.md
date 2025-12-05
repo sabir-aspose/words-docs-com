@@ -4,6 +4,9 @@ second_title: Aspose.Words voor .NET
 articleTitle: Een document omzetten
 linktitle: Een document omzetten
 type: docs
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/convert-a-document/
 weight: 30
 description: "Gemakkelijk converteren van documenten van het ene formaat naar het andere met behulp van C#. U kunt werken met alle meest populaire formaten zoals Microsoft Word formaten zoals DOCX of DOC, OpenDocument formaten zoals ODT of OTT, webformaten zoals HTML of XHTML, tekstformaten zoals MarkDown of TXT, en anderen."

@@ -6,6 +6,9 @@ linktitle: Detekovat formát souboru a kontrolovat kompatibilitu formátu
 description: "Získat informace o formátu dokumentu před jeho otevřením, aby se zabránilo výjimku, pokud si nejste jisti, jaký skutečný obsah souboru používá Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/java/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

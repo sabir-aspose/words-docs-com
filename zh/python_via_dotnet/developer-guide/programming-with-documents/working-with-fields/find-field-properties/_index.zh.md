@@ -6,6 +6,9 @@ linktitle: 查找字段属性
 description: "如何在 Python 中查找字段代码和字段结果等字段属性。"
 type: docs
 weight: 25
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/find-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

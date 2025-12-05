@@ -6,6 +6,9 @@ linktitle: Arbeiten Sie mit einem in SharePoint Online gespeicherten Dokument
 description: "Konvertieren Sie in SharePoint freigegebenes Word mithilfe von C# in PDF. Arbeiten Sie mit Dokumenten, die in SharePoint gespeichert sind – verschiedene Eingabeformate, darunter Word, OpenOffice, Image und eBook."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/work-with-document-stored-in-sharepoint/
 timestamp: 2024-10-21-11-17-44
 ---

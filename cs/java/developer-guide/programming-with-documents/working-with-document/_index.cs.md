@@ -6,6 +6,9 @@ linktitle: Spolupráce s dokumentem
 type: docs
 description: "The `Document` třída poskytuje různé vlastnosti a metody dokumentů. Použij `Document` třída jako výchozí bod pro to, co chcete hrát s Aspose.Words místo Java. The `Document` objekt lze uložit do souboru nebo streamu a také poslat do prohlížeče."
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/java/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---

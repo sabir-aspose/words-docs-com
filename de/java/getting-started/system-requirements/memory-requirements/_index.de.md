@@ -6,6 +6,9 @@ linktitle: Speicherbedarf
 description: "Wie viel Speicher benötigt Aspose.Words für Java, um mit Dokumenten zu arbeiten? Lerne die Details."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/memory-requirements/
 timestamp: 2024-09-25-11-08-55
 ---

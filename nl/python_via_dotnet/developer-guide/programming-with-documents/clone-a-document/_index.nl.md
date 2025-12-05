@@ -6,6 +6,9 @@ linktitle: Een document klonen
 type: docs
 description: "Kloon een document om zijn identieke kopie te krijgen met behulp van Python. Bij het maken van een kopie worden knooppunten en eigenschappen van het originele document gekloond."
 weight: 70
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/python-net/clone-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

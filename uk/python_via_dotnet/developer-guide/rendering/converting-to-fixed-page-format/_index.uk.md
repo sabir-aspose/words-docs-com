@@ -6,6 +6,9 @@ linktitle: Перетворення у формат Фіксованого ст�
 description: "Зберегти документи в PDF, XPS, JavaScript licenses API Веб-сайт Go1.13.8 Pythonй"
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/python-net/converting-to-fixed-page-format/
 timestamp: 2024-01-31-14-23-37
 ---

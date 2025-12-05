@@ -6,6 +6,9 @@ linktitle: Appliquer une mise en forme personnalisée aux champs
 description: "Formatez et évaluez le résultat des champs en utilisant C++."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/applying-custom-formatting-to-fields/
 timestamp: 2024-01-27-14-07-04
 ---

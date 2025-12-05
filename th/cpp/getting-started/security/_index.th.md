@@ -6,6 +6,9 @@ linktitle: บันทึกความปลอดภัย
 type: docs
 description: "Aspose.WordsสำหรับC++ ตระหนักและปฏิบัติตามมาตรฐานความปลอดภัยทั่วไปเพื่อให้แน่ใจว่าระดับสูงของการรักษาความปลอดภัยของข้อมูล ดูที่ปัญหาด้านความปลอดภัยที่เป็นไปได้และคำแนะนำเกี่ยวกับวิธีการหลีกเลี่ยงพวกเขา."
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/security/
 timestamp: 2024-01-27-14-07-04
 ---

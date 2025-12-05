@@ -6,6 +6,9 @@ linktitle: درج فیلدها
 description: "نحوه درج فیلدها در یک سند با استفاده از C# - روش های مختلف را با مثال های کد یاد بگیرید."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/inserting-fields/
 timestamp: 2024-01-27-14-07-04
 ---

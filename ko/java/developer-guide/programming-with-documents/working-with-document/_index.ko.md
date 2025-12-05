@@ -6,6 +6,9 @@ linktitle: 문서 작업
 type: docs
 description: "`Document`클래스는 다양한 문서 속성과 메서드를 제공합니다. `Document`클래스를Java에 대해Aspose.Words을 사용하여 수행하려는 작업의 시작점으로 사용합니다. `Document`개체는 파일 또는 스트림에 저장되고 브라우저에도 전송될 수 있습니다."
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 分割表
 description: "C# 中的拆分表。如何将一个表拆分为两个单独的表 C#。"
 type: docs
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/split-table/
 timestamp: 2024-01-27-14-07-04
 ---

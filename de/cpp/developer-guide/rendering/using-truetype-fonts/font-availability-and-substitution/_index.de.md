@@ -6,6 +6,9 @@ linktitle: Verfügbarkeit und Ersetzung von Schriftarten
 description: "Wenn die genaue Ersetzungsschriftart nicht gefunden werden kann, muss Aspose.Words sie stattdessen durch eine ähnliche Schriftart ersetzen. Dieser Artikel beschreibt den Prozess zum Finden der am besten geeigneten Schriftart."
 type: docs
 weight: 12
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/cpp/font-availability-and-substitution/
 timestamp: 2024-09-24-14-35-44
 ---

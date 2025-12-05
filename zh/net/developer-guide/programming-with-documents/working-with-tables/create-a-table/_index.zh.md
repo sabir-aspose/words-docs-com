@@ -6,6 +6,9 @@ linktitle: 创建一个表
 description: "有关如何以多种方式在 C# 中制作表格的指南。在 C# 中为您的文档创建表格。"
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---

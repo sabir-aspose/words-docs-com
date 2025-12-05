@@ -8,6 +8,7 @@ weight: 20
 description: "Resuma um documento. Aspose.Words para Python simplifica a sumarização de documentos utilizando os modelos OpenAI e Google AI, permitindo especificar o comprimento do resumo."
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/python-net/summarize-a-document/
 timestamp: 2025-03-17-19-00-00
 ---

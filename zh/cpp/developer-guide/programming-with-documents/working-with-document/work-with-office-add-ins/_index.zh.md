@@ -6,6 +6,9 @@ linktitle: 使用Office加载项
 description: "Aspose.Words对于C++ 提供用于处理Office加载项的各种类。 您可以通过web扩展添加任务窗格，并自定义窗格和扩展属性。"
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Waar opgeven Locatie lettertypentype
 description: "Verschillende opgeven Waar Type lettertypebronnen: systeemmap, gebruikersbronnen, het laden van lettertypen uit een stroom, een bestandssysteem of geheugen met behulp van Python."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/python-net/specifying-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

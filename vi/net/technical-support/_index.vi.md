@@ -8,6 +8,9 @@ linktitle: Hỗ trợ kỹ thuật
 type: docs
 description: "Aspose.Words cho .NET cung cấp hỗ trợ kỹ thuật miễn phí cho tất cả người dùng. Vui lòng báo cáo câu hỏi, vấn đề hoặc yêu cầu tính năng của bạn bằng Diễn đàn hỗ trợ miễn phí Aspose."
 weight: 80
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/technical-support/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Phông Chữ FallBack Cài đặt từ XML
 description: "Cơ chế dự phòng Phông Chữ được sử dụng khi phông chữ được giải quyết, nhưng nó không chứa một ký tự cụ thể. Trong trường hợp này, Aspose.Words cố gắng sử dụng một trong các phông chữ dự phòng cho ký tự."
 type: docs
 weight: 14
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/font-fallback-settings-from-xml/
 timestamp: 2024-09-24-14-35-44
 ---

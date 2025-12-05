@@ -6,6 +6,9 @@ linktitle: 支援的機能
 description: "Aspose.Words for .NET為使用者提供了一系列功能，從將文件轉換並修改到創建結構化且具有視覺吸引力的文件或使用C#自動編報。"
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/features/
 timestamp: 2024-10-21-11-17-44
 ---

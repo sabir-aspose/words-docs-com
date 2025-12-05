@@ -6,6 +6,9 @@ linktitle: Chuyển đổi là Aspose.Words' Tính năng Hàng đầu
 description: "Chuyển đổi tài liệu từ bất kỳ tải được hỗ trợ nào để lưu định dạng chỉ với hai dòng mã C++. Nó cung cấp chuyển đổi chất lượng cao."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/file-formats-and-conversions/
 timestamp: 2024-09-24-14-35-44
 ---

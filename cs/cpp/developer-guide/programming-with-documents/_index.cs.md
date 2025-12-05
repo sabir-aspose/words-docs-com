@@ -6,6 +6,9 @@ linktitle: Programování s dokumenty
 type: docs
 description: "Pomocí tříd Aspose.Words objektového modelu dokumentu programově vytvářejte, upravujte a spravujte dokumenty pomocí C++. Pracujte s vlastnostmi, nastavením a obsahem dokumentu, stejně jako se vzhledem dokumentu prostřednictvím správy barev, tvarů, písem a další grafiky."
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

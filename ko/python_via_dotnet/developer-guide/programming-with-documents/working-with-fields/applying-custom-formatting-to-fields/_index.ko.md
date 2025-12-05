@@ -6,6 +6,9 @@ linktitle: 필드에 사용자 정의 형식 적용
 description: "Python를 사용하여 필드 결과의 형식을 지정하고 평가합니다."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/applying-custom-formatting-to-fields/
 timestamp: 2024-01-27-14-07-04
 ---

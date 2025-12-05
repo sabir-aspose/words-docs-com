@@ -6,6 +6,9 @@ linktitle: Skakel'n Dokument om na PDF
 description: "Skakel'n dokument in Word of enige ander ondersteunde formaat na PDF, wat die oorspronklike voorkoms van'n dokument behou tydens sy weergawe op verskeie platforms met behulp van Java."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/java/convert-a-document-to-pdf/
 timestamp: 2024-01-31-14-23-37
 ---

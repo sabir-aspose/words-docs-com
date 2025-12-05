@@ -6,6 +6,9 @@ linktitle: Konversikan Dokumen menjadi PDF
 description: "Konversikan dokumen menjadi PDF menggunakan C++. Berbagai format input didukung, termasuk format Word, OpenOffice, Gambar, dan eBook."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/cpp/convert-a-document-to-pdf/
 timestamp: 2024-10-21-08-52-03
 ---

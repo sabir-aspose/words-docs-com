@@ -6,6 +6,9 @@ linktitle: Giấy phép và đăng ký
 description: "Aspose.Words cho Java cung cấp các gói khác nhau để mua sắm hoặc cung cấp một Thử nghiệm miễn phí và Giấy phép tạm thời 30 ngày cho việc đánh giá theo Chính sách cấp phép và đăng ký."
 type: docs
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

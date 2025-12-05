@@ -7,6 +7,9 @@ type: docs
 description: "Skep templates met Mustache sintaksis met behulp van Python. Mustache sintaksis is die enigste opsie om te gebruik met templates wat nie velde bevat nie (HTML of TXT). Met Woord templates, jy het twee opsies: velde of Mustache sintaksis."
 keywords: "mail merge template mustache syntax python"
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/python-net/mail-merge-template-from-mustache-syntax/
 timestamp: 2024-01-27-14-07-04
 ---

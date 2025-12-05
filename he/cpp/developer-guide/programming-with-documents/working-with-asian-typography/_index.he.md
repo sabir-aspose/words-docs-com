@@ -6,6 +6,9 @@ linktitle: עבודה עם טיפוגרפיה אסיאתית
 description: "עבודה עם טיפוגרפיה אסיאתית באמצעות C++. התאם את הרווח בין הטקסט האסייתי והלטיני ב C++."
 type: docs
 weight: 240
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/working-with-asian-typography/
 timestamp: 2024-02-01-16-17-05
 ---

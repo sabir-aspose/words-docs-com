@@ -6,6 +6,9 @@ linktitle: 문서의 노드의 논리적 수준
 type: docs
 description: "Aspose.Words에서Java문서는 블록 수준,인라인 수준 또는 행 수준과 같은 노드의 논리적 수준을 언급했습니다. 노드 수준은 문서 트리에서 노드가 일반적으로 발생하는 위치를 설명하는 데 사용됩니다."
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

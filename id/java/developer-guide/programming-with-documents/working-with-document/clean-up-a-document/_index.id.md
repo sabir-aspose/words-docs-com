@@ -6,6 +6,9 @@ linktitle: Bersihkan Dokumen
 description: "Hapus informasi yang tidak digunakan atau duplikat untuk mengurangi ukuran keluaran dan waktu pemrosesan. Hapus gaya yang tidak digunakan, gaya bawaan yang tidak digunakan, gaya duplikat, atau daftar yang tidak digunakan menggunakan Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/java/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

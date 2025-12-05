@@ -6,6 +6,9 @@ linktitle: Trabajar con fuentes
 description: "Formato de fuente en detalle usando C#. Marca de énfasis en C#. Obtenga el interlineado de fuente usando C#."
 type: docs
 weight: 230
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/working-with-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

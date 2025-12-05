@@ -6,6 +6,9 @@ linktitle: ライセンスとサブスクリプション
 description: "Aspose.Words for .NET は、さまざまな購入プランを提供するか、C# のライセンスおよびサブスクリプション ポリシーを使用した評価用の無料トライアルと 30 日間の一時ライセンスを提供します。"
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

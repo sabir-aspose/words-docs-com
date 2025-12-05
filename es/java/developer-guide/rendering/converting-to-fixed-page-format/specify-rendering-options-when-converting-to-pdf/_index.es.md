@@ -6,6 +6,9 @@ linktitle: Especifique las Opciones de representación Al Convertir a PDF
 description: "Convierta un documento a PDF con opciones avanzadas. Use PdfSaveOptions para cambiar el resultado de guardar un documento en formato PDF usando Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/java/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

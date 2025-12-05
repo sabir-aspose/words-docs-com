@@ -6,6 +6,9 @@ linktitle: حدد TrueType موقع الخطوط
 description: "حدد مصادر خطوط TrueType المختلفة: مجلد النظام أو مصادر المستخدم أو تحميل الخطوط من دفق أو نظام ملفات أو ذاكرة باستخدام Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/specify-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

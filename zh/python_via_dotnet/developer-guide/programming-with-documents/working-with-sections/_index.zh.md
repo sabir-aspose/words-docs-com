@@ -6,6 +6,9 @@ linktitle: 使用部分
 description: "使用 Python 创建和管理文档中的节和分节符。将节插入文档 Python。删除 Python 部分。复制文档之间的部分。"
 type: docs
 weight: 120
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/working-with-sections/
 timestamp: 2024-09-25-11-08-55
 ---

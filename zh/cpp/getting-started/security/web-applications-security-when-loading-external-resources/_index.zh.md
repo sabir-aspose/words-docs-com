@@ -6,6 +6,9 @@ linktitle: 加载外部资源时的Web应用程序安全性
 type: docs
 description: "加载远程资源，这可能是一个安全风险的原因。 查看C++中的常见安全问题及其解决方案。"
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-30-16-22-34
 ---

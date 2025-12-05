@@ -6,6 +6,9 @@ linktitle: Java기능을 통해Android에 대해Aspose.Words
 description: "이 섹션에서는Java에 대한Aspose.Words과Java를 통해Android에 대한Aspose.Words사이의 기능 가용성을 비교합니다."
 type: docs
 weight: 90
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/aspose-words-for-android-via-java-features/
 timestamp: 2024-10-21-11-17-44
 ---

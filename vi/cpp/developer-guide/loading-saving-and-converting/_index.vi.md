@@ -6,6 +6,9 @@ linktitle: Tải, Lưu Và Chuyển đổi
 description: "Cách chuyển đổi tài liệu từ định dạng này sang định dạng khác, chẳng hạn Như Word thành PDF hoặc HTML thành Markdown, cũng như cách tải và lưu tài liệu bằng C++."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---

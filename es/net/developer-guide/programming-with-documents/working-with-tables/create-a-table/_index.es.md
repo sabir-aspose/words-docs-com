@@ -6,6 +6,9 @@ linktitle: Crear una tabla
 description: "Una guía sobre cómo hacer una tabla en C# de varias formas. Cree una tabla en C# para su documento."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---

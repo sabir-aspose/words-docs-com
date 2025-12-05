@@ -5,6 +5,9 @@ articleTitle: 创建或加载文档
 linktitle: 创建或加载文档
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/create-or-load-a-document/
 description: "Aspose.Words使您能够创建空白文档或使用Java从文件或流中加载它。"
 timestamp: 2024-01-27-14-07-04

@@ -6,6 +6,9 @@ linktitle: Přehled Tabulky
 description: "Práce s tabulkami a jejich komponenty, jako jsou buňky, řádky, sloupce v Aspose.Words pro C++. Jak pracovat s tabulkami v C++."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

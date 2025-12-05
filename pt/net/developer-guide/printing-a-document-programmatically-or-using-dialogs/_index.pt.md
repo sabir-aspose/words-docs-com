@@ -6,6 +6,9 @@ linktitle: Imprimindo um documento programaticamente ou usando caixas de diálog
 description: "Imprima um documento em um Server usando o XpsPrint API não gerenciado ou por meio de uma impressora selecionada com configurações e caixas de diálogo de visualização de impressão em C#."
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/net/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-31-14-23-37
 ---

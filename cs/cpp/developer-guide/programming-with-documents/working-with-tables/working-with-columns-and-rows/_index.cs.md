@@ -6,6 +6,9 @@ linktitle: Práce se sloupci a řádky
 description: "Práce s částmi tabulky-řádky, sloupce a buňky pomocí C++. Zadejte Řádek Záhlaví C++."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/working-with-columns-and-rows/
 timestamp: 2024-01-27-14-07-04
 ---

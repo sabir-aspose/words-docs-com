@@ -6,6 +6,9 @@ linktitle: Sao chép Tài liệu
 type: docs
 description: "Sao chép một tài liệu để có được bản sao giống hệt của nó bằng C++. Khi tạo một bản sao, các nút và thuộc tính của tài liệu gốc được nhân bản."
 weight: 70
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/clone-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

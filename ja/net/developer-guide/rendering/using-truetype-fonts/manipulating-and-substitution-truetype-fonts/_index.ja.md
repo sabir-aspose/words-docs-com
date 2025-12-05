@@ -6,6 +6,9 @@ linktitle: TrueType フォントの操作と置換
 description: "Aspose.Words for .NET は、結果として得られるドキュメントに正しい TrueType フォントを埋め込むことができ、C# を使用してドキュメントが正確に表示されるようにします。フォントまたは特定の文字が使用できない場合、Aspose.Words は適切な代替フォントを検索するか、フォント フォールバック メカニズムを使用します。"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/manipulating-and-substitution-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

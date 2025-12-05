@@ -6,6 +6,9 @@ linktitle: Trabalhar com colunas e linhas
 description: "Trabalhar com partes de uma tabela – linhas, colunas e células usando C#. Especifique a linha de cabeçalho C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/net/working-with-columns-and-rows/
 timestamp: 2024-01-27-14-07-04
 ---

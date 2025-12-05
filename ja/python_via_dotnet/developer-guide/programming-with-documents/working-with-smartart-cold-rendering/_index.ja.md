@@ -6,6 +6,9 @@ linktitle: SmartArt コールド レンダリングの使用
 type: docs
 description: "Aspose.Words for Python via .NET は、SmartArt コールド レンダリングを実行します。つまり、事前にレンダリングされた SmartArt 描画が見つからないか正しくない場合、SmartArt オブジェクトをレイアウトしてレンダリングします。"
 weight: 330
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/python-net/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

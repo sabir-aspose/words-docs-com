@@ -6,6 +6,9 @@ linktitle: ファイル形式の検出と形式の互換性の確認
 description: "ファイルの実際の内容がわからない場合、または形式の互換性を確認する場合は、C++でファイル形式を決定します。"
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

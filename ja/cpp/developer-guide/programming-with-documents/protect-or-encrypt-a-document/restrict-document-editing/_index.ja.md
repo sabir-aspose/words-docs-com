@@ -6,6 +6,9 @@ linktitle: 文書の編集を制限する
 description: "C++を使用して制限の種類を設定することで、文書の編集を制限します。 保護を解除して、無制限の編集可能領域を作成することもできます。"
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---

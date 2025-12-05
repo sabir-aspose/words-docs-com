@@ -6,6 +6,9 @@ linktitle: Windows メタファイルの処理
 description: "Aspose.Words for Python via .NET は、すべてのプラットフォームでメタファイル形式を再生するための独自の Windows メタファイル プレーヤーを実装し、基本的なメタファイル機能の処理をサポートし、異なるタイプのメタファイル プレーヤーへのフォールバックを実行できます。"
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/python-net/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

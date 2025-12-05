@@ -6,6 +6,9 @@ linktitle: Ostrzeżenia dotyczące problemów z ułatwieniami dostępu podczas z
 description: "PDF/A i PDF/UA nakładają wymagania dotyczące dostępności związane z zawartością dokumentu. Podczas zapisywania w PDF/A lub PDF/UA w C++, a problem narusza zgodność, wydawane jest Ostrzeżenie."
 type: docs
 weight: 39
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

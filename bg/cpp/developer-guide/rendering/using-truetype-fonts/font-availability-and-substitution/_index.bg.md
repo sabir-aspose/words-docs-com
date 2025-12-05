@@ -6,6 +6,9 @@ linktitle: Наличност и заместване на шрифта
 description: "Когато точният шрифт за заместване не може да бъде намерен, Aspose.Words трябва да го замени с подобен шрифт вместо това. Тази статия описва процеса на намиране на най-подходящия шрифт."
 type: docs
 weight: 12
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/font-availability-and-substitution/
 timestamp: 2024-09-24-14-35-44
 ---

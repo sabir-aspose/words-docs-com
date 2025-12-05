@@ -6,6 +6,9 @@ linktitle: محافظت یا رمزگذاری یک سند
 description: "Aspose.Words برای C++ فقط برای خواندن، رمزگذاری یک سند، محدود کردن ویرایش و امضای دیجیتال برای حفاظت از سند فراهم می کند. Aspose.Words از اکثر گزینه های حفاظت از کلمه پشتیبانی می کند."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

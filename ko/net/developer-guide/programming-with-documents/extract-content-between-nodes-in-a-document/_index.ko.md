@@ -6,6 +6,9 @@ linktitle: 노드 간 콘텐츠 추출
 description: "C#를 사용하여 문서 내용을 다양하게 추출합니다."
 type: docs
 weight: 140
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/how-to-extract-selected-content-between-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Een pagina-indeling maken
 description: "Het maken van een pagina-indeling kan een kostbare procedure zijn. Aspose.Words maakt alleen een pagina-indeling aan als dat nodig is: om documentpagina ' s weer te geven, om een veldwaarde te verkrijgen, om een document naar HTML te exporteren, enz."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/creating-a-page-layout/
 timestamp: 2024-09-24-14-35-44
 ---

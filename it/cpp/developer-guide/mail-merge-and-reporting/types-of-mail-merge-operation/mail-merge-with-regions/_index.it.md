@@ -7,6 +7,9 @@ type: docs
 description: "Crea diverse regioni nel tuo modello per avere aree speciali che puoi semplicemente riempire con i tuoi dati. Utilizzare Mail Merge con regioni se si desidera inserire tabelle, righe con dati ripetuti per far crescere dinamicamente i documenti."
 keywords: "how to execute Mail Merge c++"
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/cpp/mail-merge-with-regions/
 timestamp: 2024-09-24-14-35-44
 ---

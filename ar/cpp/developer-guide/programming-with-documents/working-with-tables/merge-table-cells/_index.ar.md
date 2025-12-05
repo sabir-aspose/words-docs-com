@@ -6,6 +6,9 @@ linktitle: دمج خلايا الجدول
 description: "كيفية دمج خلايا الجدول في C++. تحقق مما إذا تم دمج الخلايا في الجدول باستخدام C++."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/merge-table-cells/
 timestamp: 2024-01-27-14-07-04
 ---

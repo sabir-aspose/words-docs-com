@@ -6,6 +6,9 @@ linktitle: Split Table
 description: "Împărți tabel în C#. Cum să împărți o masă într-una două mese separate C #."
 type: docs
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/split-table/
 timestamp: 2024-01-27-14-07-04
 ---

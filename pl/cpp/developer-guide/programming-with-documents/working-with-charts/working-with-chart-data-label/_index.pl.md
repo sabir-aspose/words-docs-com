@@ -6,6 +6,9 @@ linktitle: Praca z etykietą danych wykresu
 description: "Dostrajanie etykiet danych wykresu za pomocą C++."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/working-with-chart-data-label/
 timestamp: 2024-01-27-14-07-04
 ---

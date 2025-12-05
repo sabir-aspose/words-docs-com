@@ -6,6 +6,9 @@ linktitle: Bir Belgeyi Bir Çok Sayfalı TIFF Olarak Kaydetme
 description: "Bir belgeyi bir raster görüntüye dönüştürün, TIFF formatı örneğinde tartışıldığı gibi. TIFF'in nasıl görüntüleneceğini belirlemek için ek seçenekleri belirtmeniz gerekir: çözünürlük, sayfa sayısı, görüntü ikili hale getirme vb. Java ile."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

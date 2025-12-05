@@ -6,6 +6,9 @@ linktitle: Работа с Markdown Характеристики
 description: "Как да се прилага Markdown функции, използващи Python. Всички функции са представени като съответстващи стилове или директно форматиране."
 type: docs
 weight: 420
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/python-net/working-with-markdown-features/
 timestamp: 2024-01-31-14-23-37
 ---

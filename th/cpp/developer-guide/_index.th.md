@@ -6,6 +6,9 @@ linktitle: คู่มือผู้พัฒนา
 description: "คู่มือนักพัฒนาซอฟต์แวร์นี้อธิบายสถานการณ์จริงและเคล็ดลับที่จะช่วยให้คุณใช้เฉพาะ Aspose.WordsสำหรับC++ คุณสมบัติให้บรรลุลักษณะเอกสารบางอย่างหรือทำให้กรณีการใช้งานที่เป็นไปได้."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

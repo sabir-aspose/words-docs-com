@@ -6,6 +6,9 @@ linktitle: Lavorare con i paragrafi
 description: "Inserisci un paragrafo in un documento C#. Imposta gli stili di paragrafo in C#. Funziona con il separatore di stile di paragrafo C#. Manipolare il nodo del paragrafo utilizzando C#."
 type: docs
 weight: 210
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/working-with-paragraphs/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Настройки на полето
 description: "Научете как да персонализирате свойствата на полето в Java. Преименуване на полета за сливане или получаване на резултати за полета без разделител възел в Java."
 type: docs
 weight: 27
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

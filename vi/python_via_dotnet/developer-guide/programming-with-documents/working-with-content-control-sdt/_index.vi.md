@@ -6,6 +6,9 @@ linktitle: Làm việc với SDT kiểm soát nội dung
 description: "Sử dụng python, bạn có thể nhúng ngữ nghĩa do khách hàng xác định cũng như hành vi và hình thức của nó vào tài liệu."
 type: docs
 weight: 390
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---

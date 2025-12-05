@@ -6,6 +6,9 @@ linktitle: 插入 Checkboxes、文本输入或图像
 description: "期间插入复选框或文本输入字段 Mail Merge 使用 C++. 也从数据库中插入图像 Mail Merge 在 C++."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/insert-checkboxes-text-input-or-images-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

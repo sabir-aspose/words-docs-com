@@ -6,6 +6,9 @@ linktitle: Funcții acceptate pe salvarea documentelor
 description: "Salvați documentul în orice format acceptat folosind Python. Convertiți și exportați un document de orice dimensiune."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/python-net/supported-features-on-document-save/
 timestamp: 2024-01-31-14-23-37
 ---

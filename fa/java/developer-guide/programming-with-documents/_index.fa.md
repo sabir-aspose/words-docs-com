@@ -6,6 +6,9 @@ linktitle: برنامه نویسی با اسناد
 type: docs
 description: "از کلاس های مدل شیء سند Aspose.Words برای ایجاد، اصلاح و مدیریت برنامه ریزی اسناد با Java استفاده کنید. با ویژگی های سند، تنظیمات و محتوا و همچنین با ظاهر سند از طریق مدیریت رنگ ها، اشکال، فونت ها و سایر گرافیک ها کار کنید."
 weight: 340
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

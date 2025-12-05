@@ -6,6 +6,9 @@ linktitle: 與欄位共事
 description: "對 .NET 的 Aspose.Words 中的欄位功能進行介紹。"
 type: docs
 weight: 370
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/working-with-fields/
 timestamp: 2024-01-27-14-07-04
 ---

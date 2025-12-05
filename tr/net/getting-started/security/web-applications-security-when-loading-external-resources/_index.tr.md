@@ -6,6 +6,9 @@ linktitle: Dış Kaynakları Yüklerken Web Uygulamaları Güvenliği
 type: docs
 description: "Güvenlik risklerinin bir nedeni olabilecek uzak kaynakları yükleyin. C# kullanarak yaygın güvenlik sorunlarına ve bunların çözümlerine göz atın."
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-27-14-07-04
 ---

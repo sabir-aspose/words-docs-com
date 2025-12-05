@@ -6,6 +6,9 @@ linktitle: Übersicht über den Dokumentenersteller
 type: docs
 description: "Mit DocumentBuilder können Sie dynamische Dokumente von Grund auf neu erstellen oder vorhandenen Elementen neue Elemente hinzufügen. DocumentBuilder stellt Methoden zum Einfügen von Text, checkboxes, Tabellen, Bildern und anderen Inhaltselementen in Java bereit."
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Clonează un Document
 type: docs
 description: "Clonați un document pentru a obține copia identică. La crearea unei copii, nodurile și proprietățile documentului original sunt clonate folosind Java."
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/java/clone-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

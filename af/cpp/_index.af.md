@@ -5,6 +5,9 @@ linktitle: Aspose.Words vir C++
 description: "Genereer, verander, omskep, lewer en druk dokumente met behulp van C++."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/
 is_root: true
 timestamp: 2024-09-25-11-08-55

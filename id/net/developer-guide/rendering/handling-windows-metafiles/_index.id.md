@@ -6,6 +6,9 @@ linktitle: Menangani Metafile Windows
 description: "Aspose.Words untuk .NET mengimplementasikan pemutar Metafile Windows miliknya sendiri untuk memutar format Metafile di semua platform dan mendukung penanganan fitur metafile dasar dan dapat melakukan fallback ke jenis pemutar metafile berbeda menggunakan C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/net/handling-windows-metafiles/
 timestamp: 2024-07-10-14-38-57
 ---

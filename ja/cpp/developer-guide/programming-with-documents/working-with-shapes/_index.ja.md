@@ -6,6 +6,9 @@ linktitle: 図形の操作
 type: docs
 description: "Shape markup languageの概要、C++を使用してさまざまな型の図形を作成します。"
 weight: 280
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/working-with-shapes/
 timestamp: 2024-01-27-14-07-04
 ---

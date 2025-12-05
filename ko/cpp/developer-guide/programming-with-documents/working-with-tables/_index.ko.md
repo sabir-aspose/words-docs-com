@@ -6,6 +6,9 @@ linktitle: 테이블 작업
 description: "테이블 작업 방법 C++. 테이블 및 테이블 노드 개념 작업에 대한 소개 Aspose.Words 에 대한 C++."
 type: docs
 weight: 190
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/working-with-tables/
 timestamp: 2024-01-27-14-07-04
 ---

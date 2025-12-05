@@ -6,6 +6,9 @@ linktitle: Spécifier Les Options De Mise En Page
 description: "Créez des documents de sortie avec différentes mises en page, en fonction des paramètres spécifiés dans le document à l'aide de Java."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/specify-layout-options/
 timestamp: 2024-01-27-14-07-04
 ---

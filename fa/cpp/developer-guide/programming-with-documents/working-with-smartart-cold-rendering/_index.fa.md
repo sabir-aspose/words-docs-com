@@ -6,6 +6,9 @@ linktitle: کار با SmartArt رندر سرد
 type: docs
 description: "Aspose.Words برای C++ انجام SmartArt رندر سرد، به این معنی که آن را قرار می دهد و رندر SmartArt اشیاء اگر پیش از رندر SmartArt نقاشی از دست رفته یا نادرست است."
 weight: 330
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

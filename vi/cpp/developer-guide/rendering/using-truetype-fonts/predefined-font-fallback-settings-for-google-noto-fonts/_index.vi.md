@@ -6,6 +6,9 @@ linktitle: Phông chữ được xác Định Trước FallBack Cài đặt cho 
 description: "Aspose.Words cung cấp cài đặt dự phòng phông chữ được xác định trước cho phông chữ Google Noto. Đây là những phông chữ miễn phí được cấp phép theo Giấy phép Phông Chữ mở SIL, Có thể tải xuống Từ phông chữ Google Noto."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/predefined-font-fallback-settings-for-google-noto-fonts/
 timestamp: 2024-09-24-14-35-44
 ---

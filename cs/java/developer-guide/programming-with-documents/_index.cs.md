@@ -6,6 +6,9 @@ linktitle: Programování s dokumenty
 type: docs
 description: "Použijte Aspose.Words Document Object Model třídy programově vytvářet, upravovat a spravovat dokumenty s Java. Práce s vlastnostmi dokumentů, nastavením a obsahem, stejně jako s vzhledem dokumentu prostřednictvím správy barev, tvarů, písem a jiné grafiky."
 weight: 340
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/java/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

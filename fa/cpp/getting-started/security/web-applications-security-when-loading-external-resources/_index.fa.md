@@ -6,6 +6,9 @@ linktitle: امنیت برنامه های وب هنگام بارگذاری من�
 type: docs
 description: "منابع از راه دور را بارگذاری کنید، که می تواند دلیل خطرات امنیتی باشد. نگاهی به مسائل امنیتی رایج و راه حل های آنها در C++ بیندازید."
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-30-16-22-34
 ---

@@ -6,6 +6,9 @@ linktitle: Font FallBack Instellings van XML
 description: "Die Lettertipe terugval meganisme word gebruik wanneer die lettertipe opgelos word, maar dit bevat nie'n spesifieke karakter nie. In hierdie geval, Aspose.Words probeer om een van die terugval lettertipes vir die karakter te gebruik."
 type: docs
 weight: 14
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/font-fallback-settings-from-xml/
 timestamp: 2024-09-24-14-35-44
 ---

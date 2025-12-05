@@ -6,6 +6,9 @@ linktitle: 고정 페이지 형식으로 변환
 description: "Java에 대한Aspose.Words은PDF,XPS및 다양한 이미지 형식과 같은 모든 고정 페이지 형식을 생성 할 수있는 자체 페이지 레이아웃 엔진을 구현합니다."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/converting-to-fixed-page-format/
 timestamp: 2024-01-31-14-23-37
 ---

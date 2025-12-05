@@ -6,6 +6,9 @@ linktitle: Работа с документи от външни източниц
 description: "Как да заредите документи от външни източници в C#. Зареждане на PDF, DOCX, DOC, RTF, OTT, EPUB, HTML и други файлове от SharePoint или база данни за по-нататъшна обработка C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/working-with-documents-from-external-sources/
 timestamp: 2024-01-27-14-07-04
 ---

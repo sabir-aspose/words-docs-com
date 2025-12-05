@@ -6,6 +6,9 @@ linktitle: עבודה עם תוספות משרדיות
 description: "Aspose.Words עבור C++ מספק שיעורים שונים לעבודה עם תוספות משרדיות. ניתן להוסיף חלונית משימות באמצעות סיומת אינטרנט ולהתאים אישית את מאפייני החלונית והתוסף."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

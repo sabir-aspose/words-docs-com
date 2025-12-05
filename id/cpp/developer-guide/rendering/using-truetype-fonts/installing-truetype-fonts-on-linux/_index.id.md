@@ -6,6 +6,9 @@ linktitle: Instal Font TrueTypepada Linux
 description: "Aspose.Words untuk C++ mengizinkan rendering dokumen yang dibuat menggunakan Microsoft Word pada mesin Linux dengan akurasi terbaik. Untuk melakukannya, salin file font dari mesin Windows atau Instal paket font `TrueType` ke mesin Linux Anda."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/cpp/install-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

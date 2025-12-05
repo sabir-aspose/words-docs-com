@@ -6,6 +6,9 @@ linktitle: Foire AUX QUESTIONS
 type: docs
 description: "Aspose.Words pour C++ répond aux questions les plus fréquemment posées. Apprenez cette page pour résoudre rapidement votre problème sur des questions générales ou des sujets spécifiques."
 weight: 75
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/faq/
 timestamp: 2024-01-31-14-23-37
 ---

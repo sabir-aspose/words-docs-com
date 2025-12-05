@@ -6,6 +6,9 @@ linktitle: Робота з Hyphenation
 description: "Використовуйте фенацію для більш компактного розташування тексту за допомогою Pythonй Передові алгоритми для роботи з дикціями гіфенацій, використовують словники OpenOffice."
 type: docs
 weight: 220
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/python-net/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---

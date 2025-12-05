@@ -6,6 +6,9 @@ linktitle: Робота з розділами
 description: "Розуміння концепцій розділів документа і методів роботи з ними за допомогою C++. Вставка розділу в документ C++. Видалення розділу C++. Копіювання розділів між документами."
 type: docs
 weight: 120
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/working-with-sections/
 timestamp: 2024-01-31-14-23-37
 ---

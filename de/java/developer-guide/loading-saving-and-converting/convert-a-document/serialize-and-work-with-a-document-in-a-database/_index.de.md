@@ -6,6 +6,9 @@ linktitle: Serialisieren und Arbeiten mit einem Dokument in einer Datenbank
 description: "Konvertieren Sie ein Dokument in ein Byte-Array, um mit diesem Dokument in einer Datenbank zu arbeiten. Sie können ein Dokument mit Java in und aus der Datenbank speichern und abrufen."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-01-27-14-07-04
 ---

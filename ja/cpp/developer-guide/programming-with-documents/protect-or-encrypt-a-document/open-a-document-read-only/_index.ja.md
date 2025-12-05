@@ -6,6 +6,9 @@ linktitle: ドキュメントを読み取り専用で開く
 description: "ドキュメントを読み取り専用にして、コンテンツをコピーまたは読み取りできるようにしますが、変更はできません。"
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/open-a-document-read-only/
 timestamp: 2024-01-27-14-07-04
 ---

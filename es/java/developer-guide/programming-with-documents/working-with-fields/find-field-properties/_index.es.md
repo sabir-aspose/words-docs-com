@@ -6,6 +6,9 @@ linktitle: Buscar Propiedades de Campo
 description: "Cómo encontrar algunas propiedades de campo como el código de campo y el resultado del campo en Java"
 type: docs
 weight: 25
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/java/find-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

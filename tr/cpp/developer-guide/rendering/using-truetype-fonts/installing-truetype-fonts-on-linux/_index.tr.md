@@ -6,6 +6,9 @@ linktitle: TrueType Yazı Tiplerini Linux üzerine yükle
 description: "Aspose.Words için C++ Linux makinede Microsoft Word kullanılarak oluşturulan bir belgenin en iyi doğrulukla oluşturulmasına izin verir. Bunu başarmak için, yazı tipi dosyalarını bir Windows makineden kopyalayın veya `TrueType` yazı tipi paketini Linux makinenize yükleyin."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/install-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

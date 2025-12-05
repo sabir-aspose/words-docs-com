@@ -6,6 +6,9 @@ linktitle: 記憶體需求
 description: "Aspose.Words為 .NET 需要多少記憶體才能與文件一起工作？ 了解細節。"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/memory-requirements/
 timestamp: 2024-09-25-11-08-55
 ---

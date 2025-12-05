@@ -6,6 +6,9 @@ linktitle: التنقل مع المؤشر
 description: "التنقل بين العقد المختلفة داخل مستند مثل فقرة أو إشارة مرجعية أو حرف معين باستخدام Python."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/navigation-with-cursor/
 timestamp: 2024-01-27-14-07-04
 ---

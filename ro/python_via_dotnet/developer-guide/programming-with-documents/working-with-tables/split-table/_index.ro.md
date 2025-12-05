@@ -6,6 +6,9 @@ linktitle: Masă Împărțită
 description: "Masă împărțită în Python. Cum se împarte un tabel în două tabele separate Python."
 type: docs
 weight: 100
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/python-net/split-table/
 timestamp: 2024-01-27-14-07-04
 ---

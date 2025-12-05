@@ -6,6 +6,9 @@ linktitle: Hola Mundo
 description: "Cree, edite y guarde su primer documento en cualquier formato compatible utilizando Aspose.Words para .NET para experimentar su simplicidad y potencia en C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/hello-world/
 timestamp: 2024-01-27-14-07-04
 ---

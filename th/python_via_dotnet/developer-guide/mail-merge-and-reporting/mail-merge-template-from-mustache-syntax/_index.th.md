@@ -7,6 +7,9 @@ type: docs
 description: "สร้างแม่แบบด้วยMustacheไวยากรณ์โดยใช้Python Mustacheไวยากรณ์เป็นตัวเลือกเดียวที่จะใช้กับแม่แบบที่ไม่มีฟิลด์(HTMLหรือTXT) ด้วยแม่แบบWordคุณมีสองตัวเลือก:ฟิลด์หรือไวยากรณ์Mustache."
 keywords: "mail merge template mustache syntax python"
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/python-net/mail-merge-template-from-mustache-syntax/
 timestamp: 2024-01-27-14-07-04
 ---

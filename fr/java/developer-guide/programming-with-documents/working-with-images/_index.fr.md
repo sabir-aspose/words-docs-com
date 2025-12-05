@@ -6,6 +6,9 @@ linktitle: Travailler avec des Images
 type: docs
 description: "Formes d'image dans les détails et fonctionnalités avancées fournies par Aspose.Words pour Java."
 weight: 300
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/working-with-images/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Conversia unui Document într-o imagine
 type: docs
 description: "Convertiți un document în format imagine (JPG, PNG, etc). Creați o previzualizare a documentului sau creați o scanare a documentului pentru a trimite o factură."
 weight: 43
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/convert-a-document-to-an-image/
 timestamp: 2024-01-30-16-22-34
 ---

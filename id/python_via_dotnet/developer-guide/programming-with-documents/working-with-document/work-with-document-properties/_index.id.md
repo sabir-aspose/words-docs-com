@@ -6,6 +6,9 @@ linktitle: Bekerja dengan Properti Dokumen
 description: "Aspose.Words untuk Python memungkinkan penyimpanan beberapa informasi berguna tentang dokumen Anda, seperti API dan Nomor Versi atau Date Resmi, di properti dokumen bawaan atau khusus."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/python-net/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

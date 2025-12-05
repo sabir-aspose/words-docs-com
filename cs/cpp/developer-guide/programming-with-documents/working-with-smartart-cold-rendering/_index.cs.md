@@ -6,6 +6,9 @@ linktitle: Práce s SmartArt Vykreslování za studena
 type: docs
 description: "Aspose.Words pro C++ provádí SmartArt studené Vykreslování, což znamená, že stanoví a vykreslí objekty SmartArt, pokud předem vykreslený SmartArt výkres chybí nebo je nesprávný."
 weight: 330
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

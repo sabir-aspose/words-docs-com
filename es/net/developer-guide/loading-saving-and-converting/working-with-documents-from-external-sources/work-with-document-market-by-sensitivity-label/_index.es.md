@@ -6,6 +6,9 @@ linktitle: Trabajar con un documento marcado con una etiqueta de confidencialida
 description: "Convierta Word con etiqueta de confidencialidad aplicada a PDF usando C#. Trabaje con documentos marcados con etiquetas de confidencialidad: varios formatos de entrada, incluidos Word, OpenOffice, Image y eBook."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/work-with-document-market-by-sensitivity-label/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: Chỉ định tùy chọn bố cục
 description: "Chỉ định Tùy chọn bố cục cho các bố cục tài liệu khác nhau bằng C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/specify-layout-options/
 timestamp: 2024-07-10-08-10-45
 ---

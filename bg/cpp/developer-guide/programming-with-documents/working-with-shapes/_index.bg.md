@@ -6,6 +6,9 @@ linktitle: Работа с форми
 type: docs
 description: "Въведение в езика за маркиране на форми, създаване на форми от различни видове, използвайки C++."
 weight: 280
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/working-with-shapes/
 timestamp: 2024-01-27-14-07-04
 ---

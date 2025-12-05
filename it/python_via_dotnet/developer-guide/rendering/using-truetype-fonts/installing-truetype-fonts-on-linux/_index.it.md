@@ -6,6 +6,9 @@ linktitle: Installa i caratteri TrueType su Linux
 description: "Aspose.Words per Python consente il rendering di un documento creato utilizzando Microsoft Word su una macchina Linux con la massima precisione. A tale scopo, copia i file dei caratteri da un computer Windows o installa un pacchetto di caratteri `TrueType` sul tuo computer Linux."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/python-net/installing-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Format Dokumen yang Didukung
 type: docs
 description: "Edit dokumen sumber dalam banyak format populer, serta konversi file secara bebas dari satu format ke format lainnya menggunakan Java."
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/java/supported-document-formats/
 timestamp: 2024-10-21-11-17-44
 ---

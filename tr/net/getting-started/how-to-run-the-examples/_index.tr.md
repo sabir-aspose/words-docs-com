@@ -6,6 +6,9 @@ linktitle: Örnekler Nasıl Çalıştırılır
 description: "GitHub depomuzdan .NET için Aspose.Words örneklerini indirin ve C# kullanarak Aspose.Words olanaklarına ve özelliklerine daha aşina olmak için bunların nasıl çalıştırılacağını öğrenin."
 type: docs
 weight: 110
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/how-to-run-the-examples/
 timestamp: 2024-10-24-11-44-28
 ---

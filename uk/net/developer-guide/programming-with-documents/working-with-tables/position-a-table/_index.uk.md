@@ -6,6 +6,9 @@ linktitle: Посада столу
 description: "Вказати позицію столу в C#й Отримати вирівнювання столу, отримати і встановити плаваючу позицію столу за допомогою C#й"
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/position-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

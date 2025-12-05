@@ -6,6 +6,9 @@ linktitle: Lavorare con i paragrafi
 description: "Inserisci il paragrafo e specifica la sua formattazione in un documento utilizzando Python."
 type: docs
 weight: 210
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/python-net/working-with-paragraphs/
 timestamp: 2024-01-27-14-07-04
 ---

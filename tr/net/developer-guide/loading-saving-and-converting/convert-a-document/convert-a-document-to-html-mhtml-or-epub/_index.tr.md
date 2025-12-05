@@ -6,6 +6,9 @@ linktitle: Bir Belgeyi HTML, MHTML veya EPUB'a Dönüştürme
 description: "C#'i kullanarak bir belgeyi hemen hemen her formattan HTML veya MHTML'ye ve ayrıca EPUB formatına dönüştürün. Çıktı belgesini yönetmek için kaydetme seçeneklerini de belirleyebilirsiniz."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/convert-a-document-to-html-mhtml-or-epub/
 timestamp: 2024-07-09-19-00-42
 ---

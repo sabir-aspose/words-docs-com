@@ -6,6 +6,9 @@ linktitle: תכנות עם מסמכים
 type: docs
 description: "השתמש בכיתות מודל אובייקט מסמך Aspose.Words כדי ליצור, לשנות ולנהל מסמכים באופן פרוגרמטי באמצעות C++. עבוד עם מאפייני מסמך, הגדרות ותוכן, כמו גם עם מראה מסמך באמצעות ניהול צבעים, צורות, גופנים וגרפיקה אחרת."
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

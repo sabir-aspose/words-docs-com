@@ -6,6 +6,9 @@ linktitle: Licencias y Suscripción
 description: "Aspose.Words for С++ ofrece diferentes planes de compra u ofrece una Prueba Gratuita y una Licencia Temporal de 30 días para su evaluación utilizando Políticas de Licencias y Suscripción."
 type: docs
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/cpp/licensing/
 timestamp: 2024-10-24-11-44-28
 ---

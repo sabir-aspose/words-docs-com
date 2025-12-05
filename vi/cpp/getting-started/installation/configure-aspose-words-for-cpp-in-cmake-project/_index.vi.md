@@ -6,6 +6,9 @@ linktitle: Cấu hình Aspose.Words cho C++ trong Dự án CMake
 description: "Cấu hình Aspose.Words cho C++ trong CMake của bạn và xây dựng ứng dụng cho bạn."
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/configure-aspose-words-for-cpp-in-cmake-project/
 timestamp: 2024-10-24-11-44-28
 ---

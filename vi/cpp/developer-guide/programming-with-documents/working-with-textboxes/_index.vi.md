@@ -6,6 +6,9 @@ linktitle: Làm việc với TextBoxes
 description: "Giới thiệu về tính năng hộp văn bản được liên kết trong Aspose.Words cho C++."
 type: docs
 weight: 250
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/working-with-textboxes/
 timestamp: 2024-01-27-14-07-04
 ---

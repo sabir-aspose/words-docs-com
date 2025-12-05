@@ -6,6 +6,9 @@ linktitle: Làm việc với danh sách
 description: "Giới thiệu về tính năng định dạng số trong Aspose.Words cho Java."
 type: docs
 weight: 200
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/working-with-lists/
 timestamp: 2024-01-27-14-07-04
 ---
