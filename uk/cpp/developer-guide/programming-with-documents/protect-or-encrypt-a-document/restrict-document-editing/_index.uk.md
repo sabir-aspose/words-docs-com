@@ -6,6 +6,9 @@ linktitle: Обмежити редагування документів
 description: "Обмежте редагування документа, встановивши тип обмеження за допомогою C++. Ви також можете зняти захист і створити необмежені області для редагування."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---

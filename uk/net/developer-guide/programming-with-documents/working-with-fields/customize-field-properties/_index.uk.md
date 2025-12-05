@@ -6,6 +6,9 @@ linktitle: Налаштування властивостей поля
 description: "Дізнайтеся, як налаштувати властивості поля в C#й Перейменувати поля злиття або отримати результати для полів без вузла сепаратора .NETй"
 type: docs
 weight: 27
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

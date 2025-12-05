@@ -6,6 +6,9 @@ linktitle: שמירת מסמך כעמוד מרובה TIFF
 description: "המרת מסמך למספר עמודים TIFF באמצעות C++. כדי לקבוע כיצד המסמך מוצג בתמונה עליך לציין אפשרויות נוספות: רזולוציה, מספר עמודים, בינריזציה של תמונה וכו'."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

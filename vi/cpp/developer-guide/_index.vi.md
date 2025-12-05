@@ -6,6 +6,9 @@ linktitle: Hướng Dẫn Phát Triển
 description: "Hướng Dẫn Dành Cho Nhà Phát triển này mô tả các kịch bản và mẹo thực tế để giúp bạn sử dụng cụ thể Aspose.Words cho C++ các tính năng, đạt được một sự xuất hiện tài liệu nhất định, hoặc làm cho một trường hợp sử dụng có thể."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

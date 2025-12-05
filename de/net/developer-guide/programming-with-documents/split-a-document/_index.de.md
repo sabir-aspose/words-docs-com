@@ -6,6 +6,9 @@ linktitle: Teilen Sie ein Dokument
 description: "Teilen Sie ein Dokument mit C# in mehrere Dateien auf. Verwenden Sie die Teilungsfunktion, um ein Dokument effektiv nach Überschriften oder Abschnitten sowie nach Seiten oder Seitenbereichen aufzuteilen."
 type: docs
 weight: 90
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

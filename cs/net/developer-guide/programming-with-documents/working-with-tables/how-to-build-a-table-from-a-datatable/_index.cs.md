@@ -6,6 +6,9 @@ linktitle: Postavit stůl z DataTable
 description: "Příklad vyplnění tabulky dokumentů z externí databáze pomocí C#."
 type: docs
 weight: 120
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/net/how-to-build-a-table-from-a-datatable/
 timestamp: 2024-09-25-11-08-55
 ---

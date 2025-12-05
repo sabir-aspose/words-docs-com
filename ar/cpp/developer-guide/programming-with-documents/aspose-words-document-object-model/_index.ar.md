@@ -6,6 +6,9 @@ linktitle: Aspose.Words نموذج كائن المستند (DOM)
 type: docs
 description: "نموذج كائن المستند (DOM) هو تمثيل في الذاكرة لمستند ورد. قراءة ومعالجة وتعديل محتوى وتنسيق مستند ورد باستخدام C++."
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/aspose-words-document-object-model/
 timestamp: 2024-01-27-14-07-04
 ---

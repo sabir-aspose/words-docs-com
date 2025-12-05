@@ -6,6 +6,9 @@ linktitle: Làm việc với Hyphenation
 description: "Sử dụng dấu gạch nối cho sự sắp xếp chặt chẽ hơn của văn bản. Nó cung cấp các thuật toán tiên tiến để làm việc với các từ điển hy-đen và sử dụng các từ điển OpenOffice Java."
 type: docs
 weight: 220
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---

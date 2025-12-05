@@ -6,6 +6,9 @@ linktitle: Funciones compatibles en el Guardado de documentos
 description: "Guarde un documento en la mayoría de los formatos populares y admite muchas funciones Microsoft Word."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/java/supported-features-on-document-save/
 timestamp: 2024-01-27-14-07-04
 ---

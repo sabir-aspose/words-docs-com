@@ -6,6 +6,9 @@ linktitle: Google Noto Fontlar için Önceden Tanımlanmış Font FallBack Ayarl
 description: "Aspose.Words, Google Noto fontlar için önceden tanımlanmış font geri dönüş ayarları sağlar. Bunlar, Google Noto Fontlardan indirilebilen SIL Açık Font Lisansı altında lisanslanan ücretsiz fontlardır."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/predefined-font-fallback-settings-for-google-noto-fonts/
 timestamp: 2024-09-24-14-35-44
 ---

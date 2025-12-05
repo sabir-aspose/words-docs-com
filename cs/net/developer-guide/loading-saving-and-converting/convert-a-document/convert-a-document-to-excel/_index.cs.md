@@ -6,6 +6,9 @@ linktitle: Převést dokument na Excel
 description: "Převést PDF na Excel, XML na Excel, DOCX na Excel C#. Uložit dokument v různých formátech do XLSX pomocí C#."
 type: docs
 weight: 15
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/net/convert-a-document-to-excel/
 timestamp: 2024-07-09-19-00-42
 ---

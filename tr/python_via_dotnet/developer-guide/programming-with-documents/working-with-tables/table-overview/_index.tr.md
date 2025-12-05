@@ -6,6 +6,9 @@ linktitle: Tabloya Genel Bakış
 description: "Python için Aspose.Words'te tablolarla ve hücreler, satırlar, sütunlar gibi bileşenleriyle çalışın. Python'de tablolarla nasıl çalışılır?"
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/python-net/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

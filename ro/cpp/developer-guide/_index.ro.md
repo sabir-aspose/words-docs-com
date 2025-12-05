@@ -6,6 +6,9 @@ linktitle: Ghidul Dezvoltatorului
 description: "Acest ghid pentru dezvoltatori descrie scenarii practice și sfaturi pentru a vă ajuta să utilizați anumite Aspose.Words pentru C++ caracteristici, obțineți un anumit aspect al documentului sau faceți posibil un caz de utilizare."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

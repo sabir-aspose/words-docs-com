@@ -6,6 +6,9 @@ linktitle: Tabloya Genel Bakış
 description: ".NET için Aspose.Words'te tablolarla ve hücreler, satırlar, sütunlar gibi bileşenleriyle çalışın. C#'deki tablolarla nasıl çalışılır?"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Jak rozpoznat, že písmo bylo nahrazeno
 description: "Pokud si nejste jisti, proč se rozložení dokumentu změnilo nebo proč určité písmo nevypadá podle očekávání, mohou vám pomoci zprávy s upozorněním na nahrazení písma."
 type: docs
 weight: 13
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/how-to-recognize-that-the-font-was-replaced/
 timestamp: 2024-09-24-14-35-44
 ---

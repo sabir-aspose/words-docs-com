@@ -6,6 +6,9 @@ linktitle: 與亞洲書體合作
 description: "使用 C# 在亞洲文字中工作。 在C#中調整亞洲和拉丁文本之間的空間。"
 type: docs
 weight: 240
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/working-with-asian-typography/
 timestamp: 2024-02-01-16-17-05
 ---

@@ -6,6 +6,9 @@ linktitle: Trabajar con tablas
 description: "Trabajar con tablas en un documento usando Python. Introducción al trabajo con tablas y conceptos de nodos de tabla en Aspose.Words para Python."
 type: docs
 weight: 190
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/python-net/working-with-tables/
 timestamp: 2024-01-27-14-07-04
 ---

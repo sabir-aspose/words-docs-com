@@ -6,6 +6,9 @@ linktitle: Licencjonowanie i subskrypcja
 description: "Aspose.Words dla С++ zapewnia różne plany zakupu lub oferuje bezpłatną wersję próbną i 30-dniową tymczasową licencję do oceny przy użyciu zasad licencjonowania i subskrypcji."
 type: docs
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/licensing/
 timestamp: 2024-10-24-11-44-28
 ---

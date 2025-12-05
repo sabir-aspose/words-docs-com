@@ -6,6 +6,9 @@ linktitle: Criando um Layout de página
 description: "Criar um layout de página pode ser um procedimento caro. Aspose.Words criará um layout de página apenas quando for necessário: renderizar páginas de documentos, obter um valor de campo, exportar um documento para HTML, etc."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/creating-a-page-layout/
 timestamp: 2024-09-24-14-35-44
 ---

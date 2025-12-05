@@ -6,6 +6,9 @@ linktitle: Trabajar con marcadores
 description: "Comprender los conceptos de marcadores y cómo se pueden utilizar los marcadores en su programa utilizando C#."
 type: docs
 weight: 180
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/working-with-bookmarks/
 timestamp: 2024-01-27-14-07-04
 ---

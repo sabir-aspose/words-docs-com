@@ -6,6 +6,9 @@ linktitle: Tratamento de metarquivos Windows
 description: "Aspose.Words para .NET implementa seu próprio reprodutor de metarquivo Windows para reproduzir o formato Metarquivo em todas as plataformas e suporta o manuseio dos recursos básicos de metarquivo e pode executar fallback para um tipo diferente de reprodutor de metarquivo usando C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/net/handling-windows-metafiles/
 timestamp: 2024-07-10-14-38-57
 ---

@@ -6,6 +6,9 @@ linktitle: Conversia unui Document în PDF
 description: "Convertiți un document în PDF folosind Python. Sunt acceptate diferite formate de intrare, inclusiv formatele Word, OpenOffice, Image și eBook."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/python-net/convert-a-document-to-pdf/
 timestamp: 2024-01-31-14-23-37
 ---

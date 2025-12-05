@@ -6,6 +6,9 @@ linktitle: Připojit tabulky
 description: "Připojit tabulky v dokumentu pomocí Python. Jak sloučit dvě tabulky do jedné v Python."
 type: docs
 weight: 90
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/python-net/join-tables/
 timestamp: 2024-01-27-14-07-04
 ---

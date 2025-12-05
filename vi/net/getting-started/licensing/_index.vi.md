@@ -6,6 +6,9 @@ linktitle: Cấp phép và đăng ký
 description: "Aspose.Words cho .NET cung cấp các gói mua khác nhau hoặc cung cấp Bản dùng thử miễn phí và Giấy phép tạm thời 30 ngày để đánh giá bằng cách sử dụng các chính sách Cấp phép và Đăng ký trong C#."
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

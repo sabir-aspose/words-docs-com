@@ -8,6 +8,7 @@ weight: 30
 description: "Bir belgeyi çevirin. Aspose.Words için Python Google AI modellerini kullanarak belge çevirisini basitleştirerek hedef dili belirlemenizi sağlar."
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/python-net/translate-a-document/
 timestamp: 2025-01-15-16-40-05
 ---

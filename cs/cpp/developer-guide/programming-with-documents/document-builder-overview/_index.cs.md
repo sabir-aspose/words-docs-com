@@ -6,6 +6,9 @@ linktitle: Přehled Nástroje Pro Tvorbu Dokumentů
 type: docs
 description: "DocumentBuilder umožňuje vytvářet dynamické dokumenty od nuly nebo přidávat nové prvky k existujícím pomocí C++. DocumentBuilder poskytuje metody pro vložení textu, checkboxes, tabulek, obrázků a dalších prvků obsahu do C++."
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

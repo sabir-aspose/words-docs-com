@@ -6,6 +6,9 @@ linktitle: Travailler avec un Document Texte
 description: "Traitement avancé des documents TXT, listes, BiDi, en-têtes / pied de page, en utilisant C++."
 type: docs
 weight: 430
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/working-with-text-document/
 timestamp: 2024-01-27-14-07-04
 ---

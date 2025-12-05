@@ -6,6 +6,9 @@ linktitle: Travailler avec des polices
 description: "Mise en forme de la police dans les détails à l'aide de Java."
 type: docs
 weight: 230
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/working-with-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Travailler avec des Champs
 description: "Introduction à la fonctionnalité de champ dans Aspose.Words pour C++."
 type: docs
 weight: 370
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/working-with-fields/
 timestamp: 2024-01-30-16-22-34
 ---

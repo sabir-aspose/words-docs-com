@@ -6,6 +6,9 @@ linktitle: SharePoint 온라인에 저장된 문서 작업
 description: "C#를 사용하여 SharePoint에서 공유된 Word를 PDF로 변환합니다. Word, OpenOffice, Image 및 eBook을 포함한 다양한 입력 형식인 SharePoint에 저장된 문서로 작업하세요."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/work-with-document-stored-in-sharepoint/
 timestamp: 2024-10-21-11-17-44
 ---

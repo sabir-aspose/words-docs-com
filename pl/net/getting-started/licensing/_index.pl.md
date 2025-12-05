@@ -6,6 +6,9 @@ linktitle: Licencjonowanie i subskrypcja
 description: "Aspose.Words dla .NET oferuje różne plany zakupu lub bezpłatną wersję próbną i 30-dniową licencję tymczasową do oceny przy użyciu zasad licencjonowania i subskrypcji w formacie C#."
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

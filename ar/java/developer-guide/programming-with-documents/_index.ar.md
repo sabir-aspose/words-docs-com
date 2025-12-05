@@ -6,6 +6,9 @@ linktitle: البرمجة مع الوثائق
 type: docs
 description: "استخدم فئات نموذج كائن المستند Aspose.Words لإنشاء المستندات وتعديلها وإدارتها برمجيا باستخدام Java. العمل مع خصائص المستند والإعدادات والمحتوى، وكذلك مع مظهر المستند من خلال إدارة الألوان والأشكال والخطوط والرسومات الأخرى."
 weight: 340
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

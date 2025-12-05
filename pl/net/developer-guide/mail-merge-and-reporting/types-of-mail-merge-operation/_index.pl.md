@@ -7,6 +7,9 @@ type: docs
 description: "Wykonaj dwa różne typy operacji Mail Merge: proste Mail Merge i Mail Merge z regionami używającymi C#. Simple Mail Merge powtarza cały dokument na każdy rekord źródła danych, podczas gdy Mail Merge z regionami powtarza tylko wyznaczone regiony na rekord."
 keywords: "how to execute Mail Merge c#"
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/types-of-mail-merge-operations/
 timestamp: 2024-07-11-08-07-06
 ---

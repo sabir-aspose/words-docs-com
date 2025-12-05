@@ -6,6 +6,9 @@ linktitle: 使用VBA宏
 description: "使用 C++ 处理文档 VBA 项目。"
 type: docs
 weight: 410
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/working-with-vba-macros/
 timestamp: 2024-01-30-16-22-34
 ---

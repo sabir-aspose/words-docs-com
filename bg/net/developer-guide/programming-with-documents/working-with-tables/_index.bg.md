@@ -6,6 +6,9 @@ linktitle: Работа с таблици
 description: "Как да работите с маси в C#. Въвеждане на работа с таблици и понятия таблица възел в Aspose.Words вместо .NET."
 type: docs
 weight: 190
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/working-with-tables/
 timestamp: 2024-01-27-14-07-04
 ---

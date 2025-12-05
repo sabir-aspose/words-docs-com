@@ -6,6 +6,9 @@ linktitle: نام تولید کننده یا تولید کننده در اسنا
 description: "Aspose.Words for Python via .NET نام ژنراتور و شماره نسخه ای را که برای ایجاد آن استفاده شده است به سند اضافه کنید. این داده ها را می توان در سند به روش هایی یافت که به فرمت فایل خروجی بستگی دارد."
 type: docs
 weight: 60
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

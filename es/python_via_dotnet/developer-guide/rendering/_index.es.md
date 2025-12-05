@@ -6,6 +6,9 @@ linktitle: Representación
 description: "Utilice la función de representación Aspose.Words para Python via .NET para formatear un documento de diseño de flujo en páginas y convertir dicho documento o páginas seleccionadas a otros formatos de documentos (PDF, HTML, XPS, etc.) o imágenes (TIFF, PNG, SVG, etc.) para visualizar, realizar más conversiones o imprimir."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/python-net/rendering/
 timestamp: 2024-01-27-14-07-04
 ---

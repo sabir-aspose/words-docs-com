@@ -6,6 +6,9 @@ linktitle: Nome del generatore o del produttore incluso nei documenti di output
 description: "Aspose.Words per Java aggiungere al documento il nome del generatore e il numero di versione utilizzati per crearlo. Questi dati possono essere trovati nel documento in modi che dipendono dal formato del file di output."
 type: docs
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/java/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

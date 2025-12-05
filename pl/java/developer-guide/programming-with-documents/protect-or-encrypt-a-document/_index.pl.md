@@ -6,6 +6,9 @@ linktitle: Chronić lub szyfrować dokument
 description: "Szyfruj dokument, ogranicz edycję, użyj podpisów cyfrowych do ochrony dokumentów. Aspose.Words większość Opcje ochrony słowa Java."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

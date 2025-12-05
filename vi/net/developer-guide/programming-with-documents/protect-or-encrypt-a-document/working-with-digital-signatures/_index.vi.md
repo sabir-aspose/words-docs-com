@@ -6,6 +6,9 @@ linktitle: Làm việc với chữ ký số
 description: "Ký điện tử các tài liệu và phát hiện, đếm, xác minh và xóa chữ ký điện tử hiện có bằng C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/working-with-digital-signatures/
 timestamp: 2024-01-27-14-07-04
 ---

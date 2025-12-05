@@ -6,6 +6,9 @@ linktitle: Enregistrer un Document
 type: docs
 description: "Enregistrez un document dans n'importe quel format pris en charge à l'aide de Java."
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/save-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

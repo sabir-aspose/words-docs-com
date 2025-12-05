@@ -6,6 +6,9 @@ linktitle: 儲存到 PDF/A 和 PDF/UA 時，可存取性問題的警告
 description: "PDF/A 和 PDF/UA 對文件內容進行存取性要求。 在 C# 中儲存到 PDF/A 或 PDF/UA 時，如果問題違反符合性，則會發出警告。"
 type: docs
 weight: 29
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

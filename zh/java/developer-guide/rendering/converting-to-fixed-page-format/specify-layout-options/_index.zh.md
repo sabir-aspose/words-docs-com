@@ -6,6 +6,9 @@ linktitle: 指定布局选项
 description: "创建具有各种布局的输出文档，具体取决于使用Java在文档中指定的参数。"
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/specify-layout-options/
 timestamp: 2024-01-27-14-07-04
 ---

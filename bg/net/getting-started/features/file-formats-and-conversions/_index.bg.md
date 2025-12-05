@@ -6,6 +6,9 @@ linktitle: Файлови формати и реализации
 description: "Конвертиране на документи от всеки поддържан товар, за да се запази формат само с два реда C# Код. Тя осигурява висококачествени преобразувания."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/file-formats-and-conversions/
 timestamp: 2024-01-31-14-23-37
 ---

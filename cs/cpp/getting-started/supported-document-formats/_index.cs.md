@@ -6,6 +6,9 @@ linktitle: Podporované Formáty Dokumentů
 type: docs
 description: "Upravte zdrojové dokumenty v mnoha populárních formátech a také volně převádějte soubory z jednoho formátu do druhého pomocí C++."
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/supported-document-formats/
 timestamp: 2024-10-21-11-17-44
 ---

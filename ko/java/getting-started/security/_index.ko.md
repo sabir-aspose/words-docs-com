@@ -6,6 +6,9 @@ linktitle: 보안 노트
 type: docs
 description: "Aspose.WordsJava의 경우 높은 수준의 데이터 보안을 보장하기 위해 공통 보안 표준을 인식하고 준수합니다. 가능한 보안 문제 및이를 방지하는 방법에 대한 권장 사항을 살펴보십시오."
 weight: 120
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/security/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Liferay'te Saklanan Bir Belgeyle Çalışma
 description: "C# kullanarak Liferay'te paylaşılan Word belgelerini karşılaştırın. Liferay'te saklanan belgelerle çalışın; Word, OpenOffice, Image ve e-Kitap gibi çeşitli giriş formatları."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/work-with-document-stored-in-liferay/
 timestamp: 2024-01-31-14-23-37
 ---

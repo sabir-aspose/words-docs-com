@@ -6,6 +6,9 @@ linktitle: Bir Belgeyi PDF konumuna Dönüştürme
 description: "Bir belgeyi C++ kullanarak PDF'ye dönüştürün. Word, OpenOffice, Image ve eBook formatları dahil olmak üzere çeşitli giriş formatları desteklenir."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/convert-a-document-to-pdf/
 timestamp: 2024-10-21-08-52-03
 ---

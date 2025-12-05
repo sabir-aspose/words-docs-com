@@ -6,6 +6,9 @@ linktitle: 외부 리소스를로드 할 때 웹 응용 프로그램 보안
 type: docs
 description: "보안 위험의 원인이 될 수 있는 원격 리소스를 로드합니다. 일반적인 보안 문제와 그 해결 방법을 살펴보십시오. C++."
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-30-16-22-34
 ---

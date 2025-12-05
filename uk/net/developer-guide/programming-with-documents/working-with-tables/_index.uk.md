@@ -6,6 +6,9 @@ linktitle: Робота з таблицями
 description: "Як працювати з таблицями в C#й Представляємо роботу з таблицями та концепціями вузлів таблиці в Aspose.Words для .NETй"
 type: docs
 weight: 190
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/working-with-tables/
 timestamp: 2024-01-27-14-07-04
 ---

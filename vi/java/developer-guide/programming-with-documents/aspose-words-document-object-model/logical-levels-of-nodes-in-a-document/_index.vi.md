@@ -6,6 +6,9 @@ linktitle: Các Cấp Mức Logic của Các Node Trong Một Tài Liệu
 type: docs
 description: "Trong Aspose.Words cho Java tài liệu đề cập đến các cấp logic của nút – khối mức, inline mức hoặc hàng mức. Cấp độ của nút được dùng để mô tả vị trí trong cây tài liệu mà nút thường xảy ra."
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

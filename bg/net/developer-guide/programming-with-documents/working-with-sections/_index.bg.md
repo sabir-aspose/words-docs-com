@@ -6,6 +6,9 @@ linktitle: Работа с раздели
 description: "Концепция и манипулативни практики в раздела за разбиране на документи C#. Вмъкване на раздел в документ C#. Премахване на раздел C#. Копиране секции между документи."
 type: docs
 weight: 120
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/working-with-sections/
 timestamp: 2024-09-25-11-08-55
 ---

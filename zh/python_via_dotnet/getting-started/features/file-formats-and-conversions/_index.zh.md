@@ -6,6 +6,9 @@ linktitle: 文件格式和转换
 description: "只需两行 Python 代码即可将文档从任何受支持的加载格式转换为保存格式。它提供高质量的转换。"
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/file-formats-and-conversions/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: Manipular e substituir fontes TrueType
 description: "Aspose.Words para C++ pode incorporar as fontes TrueType corretas no documento resultante para garantir que ele seja exibido com precisão. Se uma fonte ou um caractere específico não estiver disponível, Aspose.Words procura uma substituição de fonte adequada ou usa o mecanismo de fallback de fonte."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

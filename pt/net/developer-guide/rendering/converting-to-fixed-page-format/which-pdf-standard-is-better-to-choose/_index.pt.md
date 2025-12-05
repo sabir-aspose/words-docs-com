@@ -6,6 +6,9 @@ linktitle: Qual padrão PDF é melhor escolher
 description: "Escolha o melhor padrão PDF para exportar o resultado da sua tarefa de programação em C#. Qual padrão PDF é melhor – PDF 1.7, PDF 2.0, PDF/A-1, PDF/A-2 ou PDF/UA."
 type: docs
 weight: 27
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/net/which-pdf-standard-is-better-to-choose/
 timestamp: 2024-01-27-14-07-04
 ---

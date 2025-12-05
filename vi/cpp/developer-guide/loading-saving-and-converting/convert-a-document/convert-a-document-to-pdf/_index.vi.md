@@ -6,6 +6,9 @@ linktitle: Chuyển Đổi Tài liệu thành PDF
 description: "Chuyển đổi tài liệu thành PDF bằng C++. Các định dạng đầu vào khác nhau được hỗ trợ, bao gồm Các Định dạng Word, OpenOffice, Image và eBook."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/convert-a-document-to-pdf/
 timestamp: 2024-10-21-08-52-03
 ---

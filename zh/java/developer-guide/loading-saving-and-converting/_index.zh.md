@@ -6,6 +6,9 @@ linktitle: 加载、保存和转换
 description: "在加载、保存文档或将文档从一种格式转换为另一种格式时，了解有关Java功能的Aspose.Words。"
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---

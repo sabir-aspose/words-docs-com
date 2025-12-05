@@ -6,6 +6,9 @@ linktitle: Inserați și adăugați documente
 description: "Combinați documentele într-unul singur: inserați sau adăugați un document într-unul nou sau existent folosind găsiți și înlocuiți, combinați câmpul, marcați sau pur și simplu la sfârșitul documentului în Python."
 type: docs
 weight: 80
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/python-net/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

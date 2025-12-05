@@ -6,6 +6,9 @@ linktitle: Sérialiser et travailler avec un Document dans une base de données
 description: "Convertir un document en un tableau d'octets pour travailler avec ce document dans une base de données. Vous pouvez stocker et récupérer un document vers et depuis la base de données à l'aide de Java."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-01-27-14-07-04
 ---

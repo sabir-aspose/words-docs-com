@@ -6,6 +6,9 @@ linktitle: Lisensie en Inskrywing
 description: "Aspose.Words vir Java bied verskillende planne vir aankoop of bied'n Gratis Proeflopie en'n 30-Dag Tydelike Lisensie vir evaluering met Behulp van Lisensiëring en Inskrywing beleid."
 type: docs
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/java/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

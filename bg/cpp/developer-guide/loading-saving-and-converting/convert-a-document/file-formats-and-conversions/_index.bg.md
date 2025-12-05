@@ -6,6 +6,9 @@ linktitle: Конвертирането е Aspose.Words' водеща функц
 description: "Конвертирайте документи от всяко поддържано натоварване, за да запишете формат само с два реда C++ код. Осигурява висококачествени конверсии."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/file-formats-and-conversions/
 timestamp: 2024-09-24-14-35-44
 ---

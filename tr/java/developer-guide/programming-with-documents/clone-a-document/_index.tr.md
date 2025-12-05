@@ -6,6 +6,9 @@ linktitle: Bir Belgeyi Klonla
 type: docs
 description: "Kopyalama belgeden onun identik bir kopyasını elde etmek. Kopyalamayı yaparken, Java'i kullanarak orijinal belgesindeki düğümler ve özellikler klonlanır."
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/clone-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

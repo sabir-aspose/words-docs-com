@@ -6,6 +6,9 @@ linktitle: 使用表单字段
 description: "了解表单字段功能，使用 C# 处理表单字段。"
 type: docs
 weight: 380
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/working-with-form-fields/
 timestamp: 2024-01-27-14-07-04
 ---

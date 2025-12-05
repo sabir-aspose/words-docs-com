@@ -6,6 +6,9 @@ linktitle: Fitur yang Didukung pada Penyimpanan Dokumen
 description: "Simpan dokumen Anda ke format apa pun yang didukung menggunakan Python. Konversi dan ekspor dokumen dengan ukuran berapa pun."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/python-net/supported-features-on-document-save/
 timestamp: 2024-01-31-14-23-37
 ---

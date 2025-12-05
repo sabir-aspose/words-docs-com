@@ -6,6 +6,9 @@ linktitle: החל עיצוב
 description: "עיצוב טבלה בפרטים באמצעות C++. באמצעות C++ כדי לעצב כל חלק בטבלה."
 type: docs
 weight: 70
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/applying-formatting/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: 使用PDF/A或PDF/UA
 description: "转换为PDF/A-1, PDF/A-2, PDF/A-4 和PDF/UA使用C++。 转换为PDF/A文档时存在一些问题，并且 Aspose.Words对于C++ 解决了他们。"
 type: docs
 weight: 38
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/working-with-pdfa-or-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

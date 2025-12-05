@@ -6,6 +6,9 @@ linktitle: Lucrul cu caracteristici Markdown
 description: "Cum să implementezi caracteristici Markdown folosind C#. Toate caracteristicile sunt reprezentate ca stiluri corespunzătoare sau formatare directă."
 type: docs
 weight: 420
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/working-with-markdown-features/
 timestamp: 2024-01-31-14-23-37
 ---

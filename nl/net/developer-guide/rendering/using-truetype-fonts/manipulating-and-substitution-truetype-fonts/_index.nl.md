@@ -6,6 +6,9 @@ linktitle: Manipuleren en vervangen TrueType Lettertypen
 description: "Aspose.Words voor .NET kan de juiste TrueType-lettertypen insluiten in het resulterende document om ervoor te zorgen dat het nauwkeurig wordt weergegeven met behulp van C#. Als een lettertype of een specifiek teken niet beschikbaar is, Aspose.Words zoekt naar een geschikte lettertypevervanging of gebruikt het Font-fallbackmechanisme."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/manipulating-and-substitution-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

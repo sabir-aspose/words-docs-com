@@ -6,6 +6,9 @@ linktitle: Áp dụng định dạng bảng
 description: "Định dạng bảng chi tiết bằng C#. Sử dụng C# để định dạng mọi phần của bảng."
 type: docs
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/applying-formatting/
 timestamp: 2024-01-27-14-07-04
 ---

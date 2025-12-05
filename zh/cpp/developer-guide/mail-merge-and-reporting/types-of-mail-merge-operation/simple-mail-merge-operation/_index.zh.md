@@ -7,6 +7,9 @@ type: docs
 description: "一个简单的 Mail Merge 用于填充 Mail Merge 模板内的字段包含来自数据源的所需数据-它类似于经典 Mail Merge 在 Microsoft Word. 在模板中添加一个或多个合并字段，然后执行简单的 Mail Merge 操作。"
 keywords: "how to execute Mail Merge c++"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/simple-mail-merge-operation/
 timestamp: 2024-09-24-14-35-44
 ---

@@ -6,6 +6,9 @@ linktitle: حماية أو تشفير مستند
 description: "Aspose.Words ل C++ يوفر للقراءة فقط، وتشفير مستند، وتقييد التحرير، والتوقيعات الرقمية لحماية المستندات. Aspose.Words يدعم معظم خيارات حماية الكلمات."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

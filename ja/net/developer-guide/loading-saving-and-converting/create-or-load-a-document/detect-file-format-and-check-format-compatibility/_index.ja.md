@@ -6,6 +6,9 @@ linktitle: ファイル形式を検出し、形式の互換性をチェックす
 description: "ファイルの実際の内容がわからない場合、または形式の互換性を確認する場合は、C# でファイル形式を確認します。"
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

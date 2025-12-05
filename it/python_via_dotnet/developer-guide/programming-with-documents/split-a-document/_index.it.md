@@ -6,6 +6,9 @@ linktitle: Dividere un documento
 description: "Dividere un documento in più file utilizzando Python. Utilizza la funzione di divisione per dividere in modo efficace un documento per intestazioni o sezioni, nonché per pagine o intervalli di pagine."
 type: docs
 weight: 90
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/python-net/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Wijzigingen in een document volgen
 description: "Track wijzigingen in inhoud en opmaak gemaakt door u of anderen. Toegang tot individuele herzieningen in een document en toepassing van verschillende eigenschappen op hen met behulp van Java."
 type: docs
 weight: 270
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/java/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

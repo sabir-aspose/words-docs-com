@@ -6,6 +6,9 @@ linktitle: Cài đặt
 description: "Cài đặt Aspose.Words cho C++ sử dụng Quản lý NuGet Gói hoặc Package Manager Console, cũng như trình cài đặt thủ công."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/installation/
 timestamp: 2024-09-24-14-35-44
 ---

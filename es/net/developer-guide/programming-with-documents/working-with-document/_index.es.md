@@ -6,6 +6,9 @@ linktitle: Trabajar con documento
 type: docs
 description: "La clase `Document` proporciona varias propiedades y métodos de documentos utilizando C#. Utilice la clase `Document` como punto de partida para cualquier cosa que desee realizar con Aspose.Words para .NET. El objeto `Document` se puede guardar en un archivo o secuencia y también enviar a un navegador."
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---

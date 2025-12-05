@@ -6,6 +6,9 @@ linktitle: 文書のクリーンアップ
 description: "未使用または重複した情報を削除して、出力サイズと処理時間を短縮します。 Javaを使用して、未使用のスタイル、未使用の組み込みスタイル、重複したスタイル、または未使用のリストを削除します。"
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

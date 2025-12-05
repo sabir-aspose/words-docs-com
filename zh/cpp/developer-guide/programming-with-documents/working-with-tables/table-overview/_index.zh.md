@@ -6,6 +6,9 @@ linktitle: 表概述
 description: "使用表格及其组件，例如单元格、行、列Aspose.Words 对于 C++. 如何在 C++ 中使用表格。"
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

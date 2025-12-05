@@ -6,6 +6,9 @@ linktitle: Cara Menjalankan Contoh
 description: "Unduh contoh Aspose.Words untuk Python via .NET dari repositori GitHub kami dan pelajari cara menjalankannya agar lebih memahami kemungkinan dan fitur Aspose.Words."
 type: docs
 weight: 110
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/python-net/how-to-run-the-examples/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Hỗ trợ kỹ thuật
 type: docs
 description: "Aspose.Words cho Python via .NET cung cấp hỗ trợ kỹ thuật miễn phí cho tất cả người dùng. Vui lòng báo cáo câu hỏi, vấn đề hoặc yêu cầu tính năng của bạn bằng Diễn đàn hỗ trợ miễn phí Aspose."
 weight: 80
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/technical-support/
 timestamp: 2024-11-18-12-56-02
 ---

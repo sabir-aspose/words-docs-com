@@ -6,6 +6,9 @@ linktitle: Schützen oder verschlüsseln Sie ein Dokument
 description: "Aspose.Words für .NET bietet Schreibschutz, Verschlüsselung eines Dokuments, Einschränkung der Bearbeitung und digitale Signaturen für den Dokumentschutz mithilfe von C#. Aspose.Words unterstützt die meisten Word-Schutzoptionen."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

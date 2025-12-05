@@ -6,6 +6,9 @@ linktitle: Praca z kształtami Group w dokumentach Word
 description: "Grouping i rozgrupowywanie kształtów przy użyciu C#."
 type: docs
 weight: 290
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/how-to-add-group-shape-into-a-word-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Làm việc với biểu đồ
 description: "Giới thiệu tính năng Biểu đồ, cách tạo và thao tác biểu đồ bằng C#."
 type: docs
 weight: 310
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/working-with-charts/
 timestamp: 2024-02-05-15-07-18
 ---

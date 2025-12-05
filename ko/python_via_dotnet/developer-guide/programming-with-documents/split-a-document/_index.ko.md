@@ -6,6 +6,9 @@ linktitle: 문서 분할
 description: "Python를 사용하여 문서를 여러 파일로 분할합니다. 분할 기능을 사용하면 제목이나 섹션은 물론 페이지나 페이지 범위별로 문서를 효과적으로 분할할 수 있습니다."
 type: docs
 weight: 90
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

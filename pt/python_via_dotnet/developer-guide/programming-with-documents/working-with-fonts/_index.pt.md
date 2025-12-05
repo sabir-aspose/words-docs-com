@@ -6,6 +6,9 @@ linktitle: Trabalhando com fontes
 description: "Personalize as configurações de fonte usando Python."
 type: docs
 weight: 230
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/python-net/working-with-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

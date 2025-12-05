@@ -6,6 +6,9 @@ linktitle: Praca z podpisami cyfrowymi
 description: "Cyfrowy podpis dokumentów i wykrywanie, liczenie, weryfikowanie i usuwanie istniejących podpisów cyfrowych za pomocą Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/working-with-digital-signatures/
 timestamp: 2024-01-27-14-07-04
 ---

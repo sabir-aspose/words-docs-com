@@ -6,6 +6,9 @@ linktitle: การแสดงรูปร่างแยกจากเอก
 description: "แยกออบเจ็กต์กราฟิกต่างๆ เช่น รูปภาพ กล่องข้อความที่มีย่อหน้า หรือรูปร่างลูกศร เมื่อประมวลผลเอกสาร และส่งออกไปยังตำแหน่งภายนอกโดยใช้ Python"
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/python-net/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

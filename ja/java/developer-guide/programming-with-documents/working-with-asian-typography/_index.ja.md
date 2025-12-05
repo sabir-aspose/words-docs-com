@@ -6,6 +6,9 @@ linktitle: アジアのタイポグラフィを扱う
 description: "Javaを使用してアジアのタイポグラフィを操作します。 Javaでアジア語とラテン語のテキストの間のスペースを調整します。"
 type: docs
 weight: 240
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/working-with-asian-typography/
 timestamp: 2024-01-27-14-07-04
 ---

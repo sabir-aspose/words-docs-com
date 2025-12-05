@@ -6,6 +6,9 @@ linktitle: 与文档分开呈现形状
 description: "在处理文档时提取各种图形对象，例如图像、包含段落的文本框或箭头形状，并将它们导出到外部位置。"
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 워드 문서의 옵션 및 모양 작업
 description: "계정에 다양한 사이의 차이를 복용 워드 문서의 모양을 제어 Microsoft Word 버전."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/work-with-word-document-options-and-appearance/
 timestamp: 2024-01-27-14-07-04
 ---

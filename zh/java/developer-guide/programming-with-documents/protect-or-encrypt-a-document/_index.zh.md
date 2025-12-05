@@ -6,6 +6,9 @@ linktitle: 保护或加密文档
 description: "加密文档，限制编辑，使用数字签名进行文档保护。 Aspose.Words支持使用Java的大多数单词保护选项。"
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

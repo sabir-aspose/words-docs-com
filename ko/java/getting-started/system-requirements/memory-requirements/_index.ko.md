@@ -6,6 +6,9 @@ linktitle: 메모리 요구 사항
 description: "Java에 대한Aspose.Words의 메모리는 문서 작업에 얼마나 필요합니까? 세부 사항을 알아보십시오."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/memory-requirements/
 timestamp: 2024-09-25-11-08-55
 ---

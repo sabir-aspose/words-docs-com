@@ -6,6 +6,9 @@ linktitle: Як використовувати приклади
 description: "Як запустити Aspose.Words для Android Зареєструватися Java приклади."
 type: docs
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/java/how-to-use-the-examples/
 timestamp: 2024-01-27-14-07-04
 ---

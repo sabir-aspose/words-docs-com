@@ -6,6 +6,9 @@ linktitle: Làm việc với tài liệu từ các nguồn bên ngoài
 description: "Cách tải tài liệu từ các nguồn bên ngoài trong C#. Tải PDF, DOCX, DOC, RTF, ODT, EPUB, HTML và các tệp khác từ SharePoint hoặc cơ sở dữ liệu để xử lý thêm bằng C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/working-with-documents-from-external-sources/
 timestamp: 2024-01-27-14-07-04
 ---

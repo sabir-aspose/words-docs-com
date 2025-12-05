@@ -6,6 +6,9 @@ linktitle: 對欄位应用自訂格式
 description: "透過 C# 格式化和評估字段結果。"
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/applying-custom-formatting-to-fields/
 timestamp: 2024-01-27-14-07-04
 ---

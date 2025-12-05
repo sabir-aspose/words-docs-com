@@ -7,6 +7,9 @@ type: docs
 description: "Cree plantillas con sintaxis Mustache usando Python. La sintaxis Mustache es la única opción que se puede usar con plantillas que no contienen campos (HTML o TXT). Con las plantillas Word, tiene dos opciones: campos o sintaxis Mustache."
 keywords: "mail merge template mustache syntax python"
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/python-net/mail-merge-template-from-mustache-syntax/
 timestamp: 2024-01-27-14-07-04
 ---

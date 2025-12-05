@@ -8,6 +8,7 @@ weight: 40
 description: "Bir belge dilbilgisini kontrol edin. Aspose.Words için C++ kullanıcıların OpenAI, Google ve Claude modellerini kullanarak dilbilgisini kontrol etmelerine ve belgelerdeki hataları tespit etmelerine olanak tanır."
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/grammar-checking/
 timestamp: 2025-03-17-19-00-00
 ---

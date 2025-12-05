@@ -6,6 +6,9 @@ linktitle: Checkboxes, tekstinvoer of afbeeldingen invoegen
 description: "Voeg checkboxes of tekstinvoervelden in tijdens Mail Merge met behulp van C#. Voeg ook afbeeldingen uit een Database toe tijdens Mail Merge in C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/insert-checkboxes-text-input-or-images-mail-merge/
 timestamp: 2024-07-11-08-07-06
 ---

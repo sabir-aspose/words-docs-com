@@ -6,6 +6,9 @@ linktitle: Een document omzetten naar MHTML en verzenden Het per e-mail
 description: "Converteer een document van bijna elk formaat naar het MHTML-formaat en stuur het resultaatdocument per e-mail met behulp van C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/convert-a-document-to-mhtml-and-send-it-by-email/
 timestamp: 2024-07-09-19-00-42
 ---

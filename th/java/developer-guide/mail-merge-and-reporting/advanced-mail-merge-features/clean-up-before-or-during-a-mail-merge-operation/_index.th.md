@@ -7,6 +7,9 @@ type: docs
 description: "ใช้ตัวเลือกการทำความสะอาดและการลบที่แตกต่างกันเช่นการลบฟิลด์ผสานก่อนดำเนินการดำเนินการMail Mergeหรือลบพื้นที่ที่ไม่ได้ใช้ระหว่างการดำเนินการMail Mergeโดยใช้Java."
 keywords: "cleanup options Mail Merge c#"
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/clean-up-before-or-during-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

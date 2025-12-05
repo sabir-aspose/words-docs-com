@@ -8,6 +8,7 @@ description: "C++ kullanarak filigran manipülasyonunu belgeleyin."
 weight: 340
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/working-with-watermark/
 timestamp: 2025-05-07-07-22-34
 ---

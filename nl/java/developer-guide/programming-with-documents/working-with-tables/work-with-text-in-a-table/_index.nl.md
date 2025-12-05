@@ -6,6 +6,9 @@ linktitle: Werk met tekst in een tabel
 description: "Tekst vervangen in een tabel in Java. Gewoonte tekst uit tabel of cel verwijderen met behulp van Java."
 type: docs
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/java/extract-text-from-and-replace-text-in-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

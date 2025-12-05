@@ -6,6 +6,9 @@ linktitle: Перетворення документа в Excel
 description: "Перетворення PDF в Excel, XML в Excel, DOCX в Excel Pythonй Зберегти документ у різних форматах до XLSX Pythonй"
 type: docs
 weight: 15
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/python-net/convert-a-document-to-excel/
 timestamp: 2024-01-31-14-23-37
 ---

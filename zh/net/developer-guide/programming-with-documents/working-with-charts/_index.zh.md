@@ -6,6 +6,9 @@ linktitle: 使用图表
 description: "图表功能简介，如何使用 C# 创建和操作图表。"
 type: docs
 weight: 310
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/working-with-charts/
 timestamp: 2024-02-05-15-07-18
 ---

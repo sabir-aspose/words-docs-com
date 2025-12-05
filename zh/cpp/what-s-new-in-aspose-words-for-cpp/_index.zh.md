@@ -8,6 +8,7 @@ description: "Aspose.Words为C++ 每天扩展和增强。 在这个页面上，�
 weight: 2
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/what-s-new-in-aspose-words-for-cpp/
 timestamp: 2025-06-23-19-12-25
 ---

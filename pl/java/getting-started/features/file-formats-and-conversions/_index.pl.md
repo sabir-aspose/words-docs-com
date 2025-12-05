@@ -6,6 +6,9 @@ linktitle: Formaty i konwersje plików
 description: "Konwertuj dokumenty z dowolnych obsługiwanych ładunków, aby zapisać format z zaledwie dwoma wierszami Java Kod. Zapewnia wysokiej jakości konwersje za pomocą Java."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/file-formats-and-conversions/
 timestamp: 2024-01-31-14-23-37
 ---

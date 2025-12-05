@@ -7,6 +7,9 @@ type: docs
 description: "قم بإجراء عملية Mail Merge مع المناطق المتداخلة باستخدام C++. الدمج المتداخل هو ميزة تمكنك من دمج البيانات الهرمية من مصدر البيانات في قالب الدمج الخاص بك."
 keywords: "mail merge with nested regions c++"
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/nested-mail-merge-with-regions/
 timestamp: 2024-09-24-14-35-44
 ---

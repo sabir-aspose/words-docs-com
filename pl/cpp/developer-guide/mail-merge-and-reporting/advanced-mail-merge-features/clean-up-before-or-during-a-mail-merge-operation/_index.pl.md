@@ -7,6 +7,9 @@ type: docs
 description: "Zastosuj różne opcje czyszczenia i usuwania, takie jak usuwanie pól scalania przed wykonaniem operacji Mail Merge lub usuwanie nieużywanych regionów podczas operacji Mail Merge."
 keywords: "cleanup options Mail Merge c#"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/clean-up-before-or-during-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

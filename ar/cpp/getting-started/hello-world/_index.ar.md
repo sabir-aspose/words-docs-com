@@ -6,6 +6,9 @@ linktitle: مرحبا العالم
 description: "إنشاء وتحرير وحفظ المستند الأول بأي تنسيق مدعوم باستخدام Aspose.Words ل C++ لتجربة بساطته وقوته في C++."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/hello-world/
 timestamp: 2024-01-27-14-07-04
 ---

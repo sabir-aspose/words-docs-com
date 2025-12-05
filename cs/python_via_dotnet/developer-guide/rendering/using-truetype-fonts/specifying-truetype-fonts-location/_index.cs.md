@@ -6,6 +6,9 @@ linktitle: Upřesněte pravdu Umístění písma typu
 description: "Uveďte různé Pravda. Zdroje písma typu: systémová složka, uživatelské zdroje, načítání písem ze streamu, souborový systém nebo paměť pomocí Python."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/python-net/specifying-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

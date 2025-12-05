@@ -6,6 +6,9 @@ linktitle: Velden Bijwerken
 description: "Meer informatie over het bijwerken van velden in C++. Werk velden programmatisch bij of gebruik automatische veldupdate met behulp van C++ API."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/update-fields/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: עבודה עם מסמך
 type: docs
 description: "The The The `Document` הכיתה מספקת תכונות ושיטות שונות. אתה משתמש `Document` השיעור כנקודת ההתחלה לכל מה שאתה רוצה לעשות Aspose.Words עבור Java. The The The `Document` ניתן להציל את האובייקט לקובץ או לזרם וגם לשלוח לדפדפן."
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---

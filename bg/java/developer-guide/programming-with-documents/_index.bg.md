@@ -6,6 +6,9 @@ linktitle: Програмиране с документи
 type: docs
 description: "Използвайте Aspose.Words Document Object Model класове за програмно създаване, промяна и управление на документи с Java. Работете с документни свойства, настройки и съдържание, както и с документен външен вид чрез управление на цветове, форми, шрифтове и други графики."
 weight: 340
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

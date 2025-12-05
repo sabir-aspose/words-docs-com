@@ -6,6 +6,9 @@ linktitle: Belgeleri Karşılaştır
 type: docs
 description: "Desteklenen formatlardaki iki belgeyi karşılaştırın ve C++ kullanarak içerik değişikliklerini gösterir. Karşılaştırma yaparken gelişmiş seçenekler uygulayabilirsiniz."
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/compare-documents/
 timestamp: 2024-01-27-14-07-04
 ---

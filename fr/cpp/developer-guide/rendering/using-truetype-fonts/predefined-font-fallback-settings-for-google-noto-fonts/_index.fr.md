@@ -6,6 +6,9 @@ linktitle: Paramètres de police prédéfinis FallBack pour les polices Google N
 description: "Aspose.Words fournit des paramètres de remplacement de police prédéfinis pour les polices Google Noto. Ce sont des polices gratuites sous licence SIL Open Font License, qui peuvent être téléchargées à partir de Google Noto Fonts."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/predefined-font-fallback-settings-for-google-noto-fonts/
 timestamp: 2024-09-24-14-35-44
 ---

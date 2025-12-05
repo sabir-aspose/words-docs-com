@@ -6,6 +6,9 @@ linktitle: 指定版面選項
 description: "透過 C# 設定各種文件格式的排版選項。"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/specify-layout-options/
 timestamp: 2024-07-10-08-10-45
 ---

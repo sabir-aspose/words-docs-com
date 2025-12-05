@@ -7,6 +7,9 @@ type: docs
 description: "สร้างเทมเพลตด้วยไวยากรณ์Mustache Mustacheไวยากรณ์เป็นตัวเลือกเดียวที่จะใช้กับแม่แบบที่ไม่มีฟิลด์(HTMLหรือTXT) ด้วยแม่แบบคำคุณมีสองตัวเลือก:ฟิลด์หรือMustacheไวยากรณ์โดยใช้Java."
 keywords: "mail merge template mustache syntax java, Mail Merge java, mustache syntax java"
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/mail-merge-template-from-mustache-syntax/
 timestamp: 2024-01-27-14-07-04
 ---

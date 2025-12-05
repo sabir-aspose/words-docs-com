@@ -6,6 +6,9 @@ linktitle: Fractionner un document
 description: "Diviser un document en plusieurs fichiers en utilisant C++. Utilisez la fonction fractionner pour diviser efficacement un document par en-têtes ou sections, ainsi que par pages ou par plages de pages."
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

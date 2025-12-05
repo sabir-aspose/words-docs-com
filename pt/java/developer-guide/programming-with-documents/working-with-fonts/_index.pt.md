@@ -6,6 +6,9 @@ linktitle: Trabalhar com fontes
 description: "Formatação de fonte em detalhes usando Java."
 type: docs
 weight: 230
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/java/working-with-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

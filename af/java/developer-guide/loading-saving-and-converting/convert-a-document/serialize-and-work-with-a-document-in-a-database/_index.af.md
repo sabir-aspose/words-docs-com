@@ -6,6 +6,9 @@ linktitle: Serialiseer en Werk met'n Dokument In'n Databasis
 description: "Omskep'n dokument in'n byte skikking vir werk met hierdie dokument in'n databasis. Jy kan stoor en haal'n dokument na en van die databasis met behulp van Java."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/java/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-01-27-14-07-04
 ---

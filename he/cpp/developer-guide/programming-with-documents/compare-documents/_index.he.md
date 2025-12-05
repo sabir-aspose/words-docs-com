@@ -6,6 +6,9 @@ linktitle: השוואת מסמכים
 type: docs
 description: "השווה שני מסמכים בכל פורמטים נתמכים ומציג שינויים בתוכן באמצעות C++. ניתן להחיל אפשרויות מתקדמות בעת השוואה."
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/compare-documents/
 timestamp: 2024-01-27-14-07-04
 ---

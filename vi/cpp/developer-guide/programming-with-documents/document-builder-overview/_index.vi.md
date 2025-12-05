@@ -6,6 +6,9 @@ linktitle: Tổng Quan Về Trình Tạo Tài Liệu
 type: docs
 description: "DocumentBuilder cho phép bạn xây dựng các tài liệu động từ đầu hoặc thêm các phần tử mới vào các phần tử hiện có bằng C++. DocumentBuilder cung cấp các phương thức để chèn văn bản, hộp kiểm, bảng, hình ảnh và các thành phần nội dung khác trong C++."
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

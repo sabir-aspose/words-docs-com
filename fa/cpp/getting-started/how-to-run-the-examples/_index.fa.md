@@ -6,6 +6,9 @@ linktitle: نحوه اجرای مثال ها
 description: "دانلود فیلم Aspose.Words برای C++ نمونه هایی از مخزن GitHub ما و یاد بگیرید که چگونه آنها را اجرا کنید تا با امکانات و ویژگی های Aspose.Words آشنا شوید."
 type: docs
 weight: 110
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/how-to-run-the-examples/
 timestamp: 2024-07-11-16-13-28
 ---

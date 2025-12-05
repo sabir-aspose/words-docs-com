@@ -6,6 +6,9 @@ linktitle: התקנה
 description: "התקן Aspose.Words עבור C++ באמצעות ניהול NuGet חבילות או Package Manager Console, כמו גם מתקין ידני."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/installation/
 timestamp: 2024-09-24-14-35-44
 ---

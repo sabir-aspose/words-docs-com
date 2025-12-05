@@ -6,6 +6,9 @@ linktitle: Документи
 description: "Порівняти два документи в будь-яких форматах і показує зміни вмісту Pythonй Ви можете застосувати розширені параметри при порівнянні."
 type: docs
 weight: 60
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/python-net/compare-documents/
 timestamp: 2024-01-27-14-07-04
 ---

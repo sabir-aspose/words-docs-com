@@ -6,6 +6,9 @@ linktitle: Werk Met'n Dokument Gestoor In'n SharePoint Aanlyn
 description: "Skakel woord gedeel in SharePoint om na PDF met behulp van C#. Werk met dokumente gestoor in SharePoint - verskeie insette formate, insluitend Word, OpenOffice, Beeld en eBook."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/work-with-document-stored-in-sharepoint/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: TrueType Yazı Tiplerini Kullanmak
 description: "Doğru bir yazı tipi veya onun uygun değiştirilmesi nasıl bulunur, gerekli yazı tipi bulunamazsa, Aspose.Words kullanarak Java'in doğru görüntülenmesi için."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

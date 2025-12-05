@@ -6,6 +6,9 @@ linktitle: Trabajar con Firmas Digitales
 description: "Firme documentos digitalmente y detecte, cuente, verifique y elimine las firmas digitales existentes."
 type: docs
 weight: 160
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/cpp/working-with-digital-signatures/
 timestamp: 2024-01-27-14-07-04
 ---

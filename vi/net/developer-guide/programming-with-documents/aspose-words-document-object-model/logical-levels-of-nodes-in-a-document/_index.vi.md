@@ -6,6 +6,9 @@ linktitle: Mức độ logic của các nút trong tài liệu
 type: docs
 description: "Trong tài liệu Aspose.Words dành cho .NET đã đề cập đến các mức logic của nút – cấp khối, cấp nội tuyến hoặc cấp hàng sử dụng C#. Cấp độ nút được sử dụng để mô tả vị trí trong cây tài liệu nơi nút thường xuất hiện."
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Conversia în format de pagină fixă
 description: "Aspose.Words pentru Java implementează propriul motor de aspect de pagină care îi permite să producă toate formatele de pagină fixe, cum ar fi PDF, XPS și diferite formate de imagine."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/java/converting-to-fixed-page-format/
 timestamp: 2024-01-31-14-23-37
 ---

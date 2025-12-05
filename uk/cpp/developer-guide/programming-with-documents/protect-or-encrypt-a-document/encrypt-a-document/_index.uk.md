@@ -6,6 +6,9 @@ linktitle: Зашифрувати документ
 description: "Зашифруйте свій документ, використовуючи відповідні алгоритми шифрування для певних форматів документів."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/encrypt-a-document/
 timestamp: 2024-10-21-11-17-44
 ---

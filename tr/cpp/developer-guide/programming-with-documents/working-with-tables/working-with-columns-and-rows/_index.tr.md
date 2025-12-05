@@ -6,6 +6,9 @@ linktitle: Sütun ve Satırlarla Çalışma
 description: "Bir tablonun bölümleriyle çalışmak - C++ kullanarak satırlar, sütunlar ve hücreler. C++ Başlık Satırını belirtin."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/working-with-columns-and-rows/
 timestamp: 2024-01-27-14-07-04
 ---

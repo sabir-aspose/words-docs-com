@@ -6,6 +6,9 @@ linktitle: การทำงานกับฟิลด์
 description: "ข้อมูลเบื้องต้นเกี่ยวกับคุณลักษณะฟิลด์ใน Aspose.Words สำหรับ .NET"
 type: docs
 weight: 370
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/working-with-fields/
 timestamp: 2024-01-27-14-07-04
 ---

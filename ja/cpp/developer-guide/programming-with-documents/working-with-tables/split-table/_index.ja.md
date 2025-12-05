@@ -6,6 +6,9 @@ linktitle: 分割テーブル
 description: "C++でテーブルを分割します。 1つのテーブルを2つの別々のテーブルに分割する方法C++。"
 type: docs
 weight: 100
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/split-table/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Beveiliging van webtoepassingen bij het laden van externe bronnen
 type: docs
 description: "Laad remote resources, dat kan een reden zijn van veiligheidsrisico's. Bekijk gemeenschappelijke veiligheidskwesties en hun oplossingen met behulp van C#."
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-27-14-07-04
 ---

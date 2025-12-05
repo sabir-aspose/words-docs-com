@@ -7,6 +7,9 @@ type: docs
 description: "Виконайте операцію Mail Merge з вкладеними областями, використовуючи C++. Вкладене злиття-це функція, яка дозволяє об'єднувати ієрархічні дані з вашого джерела даних у ваш шаблон злиття."
 keywords: "mail merge with nested regions c++"
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/nested-mail-merge-with-regions/
 timestamp: 2024-09-24-14-35-44
 ---

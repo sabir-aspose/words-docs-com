@@ -6,6 +6,9 @@ linktitle: حذف فیلدها
 description: "با نحوه حذف فیلدها در C# آشنا شوید. با استفاده از .NET API فیلدها را به صورت برنامه نویسی حذف کنید."
 type: docs
 weight: 35
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/remove-fields/
 timestamp: 2024-01-27-14-07-04
 ---

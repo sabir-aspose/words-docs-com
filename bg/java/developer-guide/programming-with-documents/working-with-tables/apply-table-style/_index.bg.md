@@ -6,6 +6,9 @@ linktitle: Прилагане на стил на таблица
 description: "Разширено форматиране на таблицата Java. Създаване на стил на таблица с помощта Java. Въведение в напреднал форматиране на таблица, стилове на таблица, използвайки Java."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/working-with-tablestyle/
 timestamp: 2024-01-27-14-07-04
 ---

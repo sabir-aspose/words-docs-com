@@ -6,6 +6,9 @@ linktitle: Belge ile Çalışma
 type: docs
 description: "`Document` sınıfı, C++ kullanarak çeşitli belge özellikleri ve yöntemleri sağlar. `Document` sınıfını, gerçekleştirmek istediğiniz her şeyin başlangıç noktası olarak kullanırsınız Aspose.Words için C++. `Document` nesnesi bir dosyaya veya akışa kaydedilebilir ve ayrıca bir tarayıcıya gönderilebilir."
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/working-with-document/
 timestamp: 2024-01-30-16-22-34
 ---

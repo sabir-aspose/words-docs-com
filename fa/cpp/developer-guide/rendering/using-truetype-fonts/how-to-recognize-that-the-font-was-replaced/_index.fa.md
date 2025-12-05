@@ -6,6 +6,9 @@ linktitle: چگونه تشخیص دهیم که فونت جایگزین شده ا
 description: "اگر مطمئن نیستید که چرا طرح یک سند تغییر کرده است یا چرا یک فونت خاص به نظر نمی رسد که انتظار می رود، پیام های هشدار جایگزینی فونت می تواند کمک کند."
 type: docs
 weight: 13
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/how-to-recognize-that-the-font-was-replaced/
 timestamp: 2024-09-24-14-35-44
 ---

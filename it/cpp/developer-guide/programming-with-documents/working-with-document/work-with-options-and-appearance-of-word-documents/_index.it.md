@@ -6,6 +6,9 @@ linktitle: Lavorare con le opzioni e l'aspetto dei documenti di Word
 description: "Controlla l'aspetto dei documenti Word tenendo conto della differenza tra le varie versioni Microsoft Word."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/cpp/work-with-word-document-options-and-appearance/
 timestamp: 2024-01-27-14-07-04
 ---

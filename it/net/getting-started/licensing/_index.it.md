@@ -6,6 +6,9 @@ linktitle: Licenza e abbonamento
 description: "Aspose.Words per .NET fornisce diversi piani di acquisto o offre una prova gratuita e una licenza temporanea di 30 giorni per la valutazione utilizzando le politiche di licenza e abbonamento in C#."
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

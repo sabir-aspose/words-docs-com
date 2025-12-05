@@ -6,6 +6,9 @@ linktitle: Vložení Checkboxes, zadávání textu nebo obrázků
 description: "Vložte checkboxES nebo pole pro zadávání textu během Mail Merge pomocí C++. Také vložte obrázky z databáze během Mail Merge v C++."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/insert-checkboxes-text-input-or-images-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

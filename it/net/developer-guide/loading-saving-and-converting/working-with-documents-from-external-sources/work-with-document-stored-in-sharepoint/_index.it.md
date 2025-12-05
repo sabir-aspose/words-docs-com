@@ -6,6 +6,9 @@ linktitle: Lavora con un documento archiviato in un SharePoint online
 description: "Converti Word condiviso in SharePoint in PDF utilizzando C#. Lavora con documenti archiviati in SharePoint: vari formati di input, tra cui Word, OpenOffice, Image ed eBook."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/work-with-document-stored-in-sharepoint/
 timestamp: 2024-10-21-11-17-44
 ---

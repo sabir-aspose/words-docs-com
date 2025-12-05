@@ -6,6 +6,9 @@ linktitle: 与亚洲印刷术合作
 description: "使用C++处理亚洲排版。 在C++中调整亚洲和拉丁文文本之间的空格。"
 type: docs
 weight: 240
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/working-with-asian-typography/
 timestamp: 2024-02-01-16-17-05
 ---

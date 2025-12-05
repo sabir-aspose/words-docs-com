@@ -6,6 +6,9 @@ linktitle: Manipulate and Substitute TrueType Fonts
 description: "Aspose.Words עבור Java יכול להטמיע את הגופנים הנכונים של TrueType לתוך המסמך וכתוצאה מכך כדי להבטיח שהוא מציג במדויק, או לחפש תחליף גופני מתאים, או להשתמש במנגנון Fallback פונט."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

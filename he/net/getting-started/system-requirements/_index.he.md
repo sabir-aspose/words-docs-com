@@ -6,6 +6,9 @@ linktitle: דרישות מערכת
 description: "לפני שתתחיל לעבוד עם Aspose.Words עבור .NET, ודא כי אתה פוגש את מערכת ההפעלה, פלטפורמה, מסגרות, דרישות הסביבה, כך הפעולות במכשירים שלך יש חשבון נכון לשימוש C#."
 type: docs
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/system-requirements/
 timestamp: 2024-02-01-16-17-05
 ---

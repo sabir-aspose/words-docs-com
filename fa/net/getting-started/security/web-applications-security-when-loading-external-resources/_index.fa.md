@@ -6,6 +6,9 @@ linktitle: امنیت برنامه های کاربردی وب هنگام بار�
 type: docs
 description: "بارگیری منابع راه دور، که می تواند دلیلی برای خطرات امنیتی باشد. نگاهی به مسائل امنیتی رایج و راه حل های آنها با استفاده از C# بیندازید."
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-27-14-07-04
 ---

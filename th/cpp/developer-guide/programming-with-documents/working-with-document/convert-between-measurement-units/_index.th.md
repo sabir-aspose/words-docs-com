@@ -6,6 +6,9 @@ linktitle: แปลงระหว่างหน่วยวัด
 description: "Aspose.WordsสำหรับC++ สามารถช่วยให้คุณมีวิธีการแปลงระหว่างหน่วยการวัดเช่นนิ้วเป็นจุดและจุดนิ้วพิกเซลจุด."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/convert-between-measurement-units/
 timestamp: 2024-01-27-14-07-04
 ---

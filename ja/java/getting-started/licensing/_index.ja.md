@@ -6,6 +6,9 @@ linktitle: ライセンスとサブスクリプション
 description: "Aspose.WordsforJavaは、購入のための異なるプランを提供するか、ライセンスおよびサブスクリプションポリシーを使用して評価のための無料試用版と30日間の仮"
 type: docs
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

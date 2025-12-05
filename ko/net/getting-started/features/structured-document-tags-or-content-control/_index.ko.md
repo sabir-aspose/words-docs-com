@@ -6,6 +6,9 @@ linktitle: 구조화된 문서 태그 또는 콘텐츠 제어
 description: "C#를 사용하여 구조화된 문서 태그 또는 콘텐츠 제어 작업을 수행합니다."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/structured-document-tags-or-content-control/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: עבודה עם חתימות דיגיטליות
 description: "חתימה דיגיטלית על מסמכים וזיהוי, ספירה, אימות והסרה של חתימות דיגיטליות קיימות."
 type: docs
 weight: 160
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/working-with-digital-signatures/
 timestamp: 2024-01-27-14-07-04
 ---

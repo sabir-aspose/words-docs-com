@@ -6,6 +6,9 @@ linktitle: Przegląd narzędzia do tworzenia dokumentów
 type: docs
 description: "DocumentBuilder umożliwia budowanie dynamicznych dokumentów od podstaw lub dodawanie nowych elementów do istniejących za pomocą Python. DocumentBuilder udostępnia metody wstawiania tekstu, pól wyboru, tabel, obrazów i innych elementów treści w formacie Python."
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/python-net/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

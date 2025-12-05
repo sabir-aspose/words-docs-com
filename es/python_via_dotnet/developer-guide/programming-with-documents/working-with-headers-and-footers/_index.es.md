@@ -6,6 +6,9 @@ linktitle: Trabajar con encabezados y pies de página
 description: "Cree, administre y elimine encabezados y pies de página en un documento usando Python."
 type: docs
 weight: 150
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/python-net/working-with-headers-and-footers/
 timestamp: 2024-01-27-14-07-04
 ---

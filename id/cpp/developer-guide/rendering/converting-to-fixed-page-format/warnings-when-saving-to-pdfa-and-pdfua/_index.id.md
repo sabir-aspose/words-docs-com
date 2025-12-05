@@ -6,6 +6,9 @@ linktitle: Peringatan Masalah Aksesibilitas Saat Menyimpan ke PDF/A dan PDF/UA
 description: "PDF/A dan PDF/UA memberlakukan persyaratan aksesibilitas yang terkait dengan konten dokumen. Saat menyimpan ke PDF/A atau PDF/UA di C++ dan masalah tersebut melanggar kepatuhan, peringatan akan dikeluarkan."
 type: docs
 weight: 39
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/cpp/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: עבודה עם סעיפים
 description: "הבנת סעיף מושגים ושיטות מניפולציה באמצעות Java. הכנס סעיף במסמך Java. להסיר סעיף Java. העתק קטעים בין מסמכים"
 type: docs
 weight: 120
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/working-with-sections/
 timestamp: 2024-01-31-14-23-37
 ---

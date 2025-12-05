@@ -6,6 +6,9 @@ linktitle: Zadejte Možnosti Vykreslování při převodu na PDF
 description: "Převeďte dokument na PDF s pokročilými možnostmi pomocí C++. Pomocí PdfSaveOptions změňte výsledek uložení dokumentu do formátu PDF."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

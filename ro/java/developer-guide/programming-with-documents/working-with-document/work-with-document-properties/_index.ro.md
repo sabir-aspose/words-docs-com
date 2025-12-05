@@ -6,6 +6,9 @@ linktitle: Lucrați cu proprietățile documentului
 description: "Aspose.Words pentru Java permite stocarea unor informații utile despre documentul dvs., cum ar fi API și numărul versiunii sau data autorizată, în proprietăți încorporate sau personalizate ale documentului."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/java/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

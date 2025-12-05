@@ -6,6 +6,9 @@ linktitle: 문서 보호 또는 암호화
 description: "Aspose.Words 에 대한 C++ 읽기 전용,문서 암호화,편집 제한 및 문서 보호를 위한 디지털 서명을 제공합니다. Aspose.Words 대부분의 단어 보호 옵션을 지원합니다."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

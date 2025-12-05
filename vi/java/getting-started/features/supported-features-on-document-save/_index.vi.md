@@ -6,6 +6,9 @@ linktitle: Các tính năng được hỗ trợ trên tài liệu lưu trữ
 description: "Lưu một tài liệu ở hầu hết định dạng phổ biến và hỗ trợ rất nhiều Microsoft Word tính năng."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/supported-features-on-document-save/
 timestamp: 2024-01-27-14-07-04
 ---

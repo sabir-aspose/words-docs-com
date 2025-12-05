@@ -6,6 +6,9 @@ linktitle: สวัสดีชาวโลก
 description: "สร้าง แก้ไข และบันทึกเอกสารแรกของคุณในรูปแบบที่รองรับโดยใช้ Aspose.Words สำหรับ .NET เพื่อสัมผัสกับความเรียบง่ายและทรงพลังใน C#"
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/hello-world/
 timestamp: 2024-01-27-14-07-04
 ---

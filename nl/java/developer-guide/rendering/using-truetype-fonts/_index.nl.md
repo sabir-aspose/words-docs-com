@@ -6,6 +6,9 @@ linktitle: Waar gebruiken Typelettertypen
 description: "Hoe vind je het juiste lettertype of de geschikte vervanging ervan, als het gewenste lettertype niet gevonden kan worden, voor een correcte weergave met behulp van Aspose.Words voor Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/java/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

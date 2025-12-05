@@ -7,6 +7,9 @@ type: docs
 description: "Aspose.Words pentru .NET oferă câteva funcții avansate Mail Merge care vă permit să efectuați în continuare Mail Merge personalizare folosind C#. De exemplu, obținerea de informații despre structura șablonului, stabilirea regulilor, curățarea după o operație Mail Merge și altele."
 keywords: "use advanced Mail Merge features c#"
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/advanced-mail-merge-features/
 timestamp: 2024-07-11-08-07-06
 ---

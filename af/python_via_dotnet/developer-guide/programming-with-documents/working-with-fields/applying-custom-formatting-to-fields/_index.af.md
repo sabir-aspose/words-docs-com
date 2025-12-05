@@ -6,6 +6,9 @@ linktitle: Pasmaak Opmaak Toe Op Velde
 description: "Formateer en evalueer velde resultaat met behulp van Python."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/python-net/applying-custom-formatting-to-fields/
 timestamp: 2024-01-27-14-07-04
 ---

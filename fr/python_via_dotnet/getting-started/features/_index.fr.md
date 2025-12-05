@@ -6,6 +6,9 @@ linktitle: Fonctionnalités prises en charge
 description: "Aspose.Words pour Python via .NET offre aux utilisateurs un large éventail de fonctionnalités allant de la simple conversion et modification de documents à la création de documents structurés et visuellement attrayants ou à l'automatisation des rapports."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/features/
 timestamp: 2024-10-21-11-17-44
 ---

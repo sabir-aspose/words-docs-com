@@ -6,6 +6,9 @@ linktitle: Посочване на настройките при преобра�
 description: "Конвертиране на документ в PDF с напреднали опции. Използване на PdfSaveOptions за промяна на резултата от запис на документ във формат PDF чрез използване на Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

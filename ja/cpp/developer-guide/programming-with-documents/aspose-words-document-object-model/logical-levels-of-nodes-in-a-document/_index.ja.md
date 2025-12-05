@@ -6,6 +6,9 @@ linktitle: ドキュメント内のノードの論理レベル
 type: docs
 description: "で C++の場合Aspose.Words ドキュメントには、ノードの論理レベル（ブロックレベル、インラインレベル、または行レベル）が記載されています。 ノードレベルは、ノードが通常発生するドキュメントツリー内の場所を記述するために使用されます。"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Економія документу як багатосторінко
 description: "Перетворення документа в растрове зображення, яке обговорюється на прикладі формату TIFF. Щоб визначити, як TIFF виводиться, потрібно вказати додаткові параметри: роздільна здатність, кількість сторінок, бінаризація зображень та ін. Javaй"
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/java/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

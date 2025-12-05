@@ -6,6 +6,9 @@ linktitle: 분야 소개
 description: "필드는Java에 대해Aspose.Words에 설명된 세부 사항,필드 코드 및 필드 결과에 표시됩니다."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/introduction-to-fields/
 timestamp: 2024-09-25-11-08-55
 ---

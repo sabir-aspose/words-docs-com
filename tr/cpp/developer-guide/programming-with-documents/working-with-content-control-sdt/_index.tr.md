@@ -6,6 +6,9 @@ linktitle: Content Control ile Çalışma SDT
 type: docs
 description: "Gelişmiş belge içerik yönetimi, C++ kullanarak içerik denetimlerinin (Yapılandırılmış Belge Etiketleri) nasıl oluşturulacağı ve değiştirileceği."
 weight: 390
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/structured-document-tags-or-content-control/
 timestamp: 2024-01-27-14-07-04
 ---

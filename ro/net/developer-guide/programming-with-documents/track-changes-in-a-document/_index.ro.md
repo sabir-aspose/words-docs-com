@@ -6,6 +6,9 @@ linktitle: Urmărește modificările într-un document
 description: "Urmăriți modificările de conținut și formatare efectuate de tine sau de alții folosind C#. Accesați reviziile individuale dintr-un document și aplicați diverse proprietăți la ele."
 type: docs
 weight: 270
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

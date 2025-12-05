@@ -6,6 +6,9 @@ linktitle: Sistem gereksinimleri
 description: ".NET için Aspose.Words ile çalışmaya başlamadan önce, cihazlarınızdaki etkinliklerin C# kullanımı açısından doğru şekilde hesaba katılması için işletim sistemi, platform, çerçeveler ve ortam gereksinimlerini karşıladığınızdan emin olun."
 type: docs
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/system-requirements/
 timestamp: 2024-02-01-16-17-05
 ---

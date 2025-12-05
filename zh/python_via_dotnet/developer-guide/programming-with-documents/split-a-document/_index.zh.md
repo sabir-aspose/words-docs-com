@@ -6,6 +6,9 @@ linktitle: 拆分文档
 description: "使用 Python 将文档拆分为多个文件。使用拆分功能可以按标题或部分以及按页面或页面范围有效地拆分文档。"
 type: docs
 weight: 90
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

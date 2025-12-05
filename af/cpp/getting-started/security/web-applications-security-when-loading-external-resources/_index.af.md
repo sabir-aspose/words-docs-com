@@ -6,6 +6,9 @@ linktitle: Webtoepassings Sekuriteit Wanneer Eksterne Hulpbronne Gelaai Word
 type: docs
 description: "Laai afgeleë hulpbronne, wat'n rede vir sekuriteitsrisiko's kan wees. Kyk na algemene sekuriteitskwessies en hul oplossings in C++."
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-30-16-22-34
 ---

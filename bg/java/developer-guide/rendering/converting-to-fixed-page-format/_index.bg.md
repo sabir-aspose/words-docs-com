@@ -6,6 +6,9 @@ linktitle: Преобразуване във формат с фиксирана 
 description: "Aspose.Words вместо Java изпълнява собствен макет на страница двигател, който му позволява да произвежда всички фиксирани формати на страниците, като PDF, XPS, и различни формати на изображения."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/converting-to-fixed-page-format/
 timestamp: 2024-01-31-14-23-37
 ---

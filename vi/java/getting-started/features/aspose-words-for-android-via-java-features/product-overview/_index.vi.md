@@ -6,6 +6,9 @@ linktitle: Tổng quan về sản phẩm
 description: "Aspose.Words cho Android qua Java là một thư viện lớp thuộc nhóm Java giúp các nhà phát triển Android thực hiện một loạt các nhiệm vụ xử lý tài liệu."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/android-product-overview/
 timestamp: 2024-01-27-14-07-04
 ---

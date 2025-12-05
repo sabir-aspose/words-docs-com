@@ -6,6 +6,9 @@ linktitle: استفاده از فونت های TrueType
 description: "Aspose.Words برای C++ می تواند فونت مناسب یا جایگزین مناسب آن برای ارائه صحیح اسناد را پیدا کند. این تضمین می کند که تفاوت بین سند نمایش داده شده و اصل حداقل است زمانی که اطلاعات کافی در مورد یک فونت وجود ندارد."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

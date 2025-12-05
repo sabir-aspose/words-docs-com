@@ -6,6 +6,9 @@ linktitle: 將文件轉換為 PDF
 description: "用C#將文件轉換為PDF。 將 DOCX 轉換為 PDF C#。 各種輸入格式皆受支援，包含Word、OpenOffice、Image和eBook格式。"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/convert-a-document-to-pdf/
 timestamp: 2024-09-25-11-08-55
 ---

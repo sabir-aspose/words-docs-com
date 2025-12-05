@@ -6,6 +6,9 @@ linktitle: 로드 옵션 지정
 description: "C#를 사용하여 로드 프로세스를 보다 정확하게 제어합니다."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/specify-load-options/
 timestamp: 2024-07-09-19-00-42
 ---

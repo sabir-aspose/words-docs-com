@@ -6,6 +6,9 @@ linktitle: Köprüleri Ekleme veya Değiştirme
 description: ".NET için Aspose.Words kullanarak C#'teki belgenize nasıl köprü eklenir?"
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/working-with-hyperlinks/
 timestamp: 2024-01-27-14-07-04
 ---

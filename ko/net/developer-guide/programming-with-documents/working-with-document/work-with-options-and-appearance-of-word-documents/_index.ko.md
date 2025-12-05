@@ -6,6 +6,9 @@ linktitle: Word 문서의 옵션 및 모양 작업
 description: "C#를 사용하여 다양한 Microsoft Word 버전 간의 차이를 고려하여 Word 문서의 모양을 제어합니다."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/work-with-word-document-options-and-appearance/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Бележки За Сигурност
 type: docs
 description: "Aspose.Words за C++ признава и се придържа към общи стандарти за сигурност, за да гарантира високо ниво на сигурност на данните. Разгледайте възможните проблеми със сигурността и препоръки как да ги избегнете."
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/security/
 timestamp: 2024-01-27-14-07-04
 ---

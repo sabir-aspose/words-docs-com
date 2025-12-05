@@ -5,6 +5,9 @@ articleTitle: המרת מסמך
 linktitle: המרת מסמך
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/convert-a-document/
 description: "להמיר בקלות מסמכים מתבנית אחת לאחרת. אתה יכול לעבוד עם כל הפורמטים הפופולריים ביותר כמו Microsoft Word פורמטים כגון DOCX או DOC, OpenDocument פורמטים כגון ODT או OTT, פורמטי אינטרנט כגון HTML או XHTML, פורמטים כגון MarkDown או TXT ואחרים באמצעות שימוש ב- ODT או OTT, פורמטי אינטרנט כגון HTML או XHTML, פורמטי טקסט כגון MarkDown או TXT, ואחרים המשתמשים ב-ExT. Java."
 timestamp: 2024-09-25-11-08-55

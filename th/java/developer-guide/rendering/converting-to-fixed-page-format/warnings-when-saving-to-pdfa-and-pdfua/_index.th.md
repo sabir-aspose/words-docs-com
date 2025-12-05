@@ -6,6 +6,9 @@ linktitle: คำเตือนปัญหาการเข้าถึงเ
 description: "PDF/AและPDF/UAกำหนดข้อกำหนดการเข้าถึงที่เกี่ยวข้องกับเนื้อหาเอกสาร เมื่อบันทึกเป็นPDF/AหรือPDF/UAในJavaและปัญหาละเมิดการปฏิบัติตามจะมีการออกคำเตือน."
 type: docs
 weight: 29
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

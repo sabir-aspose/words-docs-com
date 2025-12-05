@@ -6,6 +6,9 @@ linktitle: Nombre del Productor en los Documentos de Salida
 description: "Aspose.Words para C++ agregue al documento el nombre del generador y el número de versión que se utilizó para crearlo. Estos datos se pueden encontrar en el documento de formas que dependen del formato del archivo de salida."
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/cpp/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

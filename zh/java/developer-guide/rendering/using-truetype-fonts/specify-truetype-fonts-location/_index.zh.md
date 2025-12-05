@@ -6,6 +6,9 @@ linktitle: 指定TrueType字体位置
 description: "指定各种TrueType字体源：系统文件夹、用户源、从流加载字体、文件系统或使用Java的内存。"
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/specify-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

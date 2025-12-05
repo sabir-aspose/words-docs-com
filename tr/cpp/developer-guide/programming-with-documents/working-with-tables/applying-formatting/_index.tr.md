@@ -6,6 +6,9 @@ linktitle: Biçimlendirme Uygula
 description: "C++ kullanarak ayrıntılı olarak tablo biçimlendirme. Tablonun her bölümünü biçimlendirmek için C++ kullanın."
 type: docs
 weight: 70
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/applying-formatting/
 timestamp: 2024-10-21-11-17-44
 ---

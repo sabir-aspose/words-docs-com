@@ -6,6 +6,9 @@ linktitle: 고정 페이지 형식으로 변환
 description: "문서 저장 PDF, XPS, HTML, XAML, PostScript,그리고 PCL 형식"
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/converting-to-fixed-page-format/
 timestamp: 2024-09-24-14-35-44
 ---

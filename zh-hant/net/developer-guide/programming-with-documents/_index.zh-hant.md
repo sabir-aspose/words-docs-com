@@ -6,6 +6,9 @@ linktitle: 與文件一起編程
 type: docs
 description: "透過使用 Aspose.Words Document Object Model 類別，以 C# 在 .NET 中以程式方式建立、修改及管理文件。 透過管理顏色、形狀、字體和其他圖形，工作於文件的屬性、設定和內容，以及其樣式。"
 weight: 60
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

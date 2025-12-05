@@ -6,6 +6,9 @@ linktitle: Манипулира и замества TrueType шрифтове
 description: "Aspose.Words за C++ може да вградите правилните TrueType шрифтове в получения документ, за да сте сигурни, че той се показва точно. Ако даден шрифт или конкретен знак не е наличен, Aspose.Words търси подходяща замяна на шрифта или използва механизма за резервиране на шрифта."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

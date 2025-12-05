@@ -6,6 +6,9 @@ linktitle: التعامل مع خطوط TrueType واستبدالها
 description: "يمكن لـ Aspose.Words for .NET تضمين خطوط TrueType الصحيحة في المستند الناتج لضمان عرضه بدقة باستخدام C#. في حالة عدم توفر خط أو حرف معين، يبحث Aspose.Words عن بديل مناسب للخط أو يستخدم آلية الخط الاحتياطي."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/manipulating-and-substitution-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

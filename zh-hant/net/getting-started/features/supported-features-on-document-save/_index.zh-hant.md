@@ -6,6 +6,9 @@ linktitle: Document Save的支援功能
 description: "使用 C# 儲存大部分熱門格式的文件並支援許多 Microsoft Word 功能。"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/supported-features-on-document-save/
 timestamp: 2024-09-25-11-08-55
 ---

@@ -6,6 +6,9 @@ linktitle: 使用文档编程
 type: docs
 description: "使用Aspose.Words文档对象模型类以编程方式使用C++创建、修改和管理文档。 通过对颜色、形状、字体和其他图形的管理，处理文档属性、设置和内容以及文档外观。"
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

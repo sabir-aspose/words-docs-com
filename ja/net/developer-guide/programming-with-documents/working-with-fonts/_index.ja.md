@@ -6,6 +6,9 @@ linktitle: フォントの操作
 description: "C# を使用した詳細なフォントの書式設定。 C#の強調マーク。 C# を使用してフォントの行間隔を取得します。"
 type: docs
 weight: 230
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/working-with-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

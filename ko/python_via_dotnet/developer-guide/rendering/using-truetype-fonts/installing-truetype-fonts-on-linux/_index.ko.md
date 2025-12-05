@@ -6,6 +6,9 @@ linktitle: Linux에 트루타입 글꼴 설치
 description: "Python용 Aspose.Words를 사용하면 Linux 시스템에서 Microsoft Word을 사용하여 생성된 문서를 최고의 정확도로 렌더링할 수 있습니다. 이를 수행하려면 Windows 시스템에서 글꼴 파일을 복사하거나 Linux 시스템에 `TrueType` 글꼴 패키지를 설치하십시오."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/installing-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

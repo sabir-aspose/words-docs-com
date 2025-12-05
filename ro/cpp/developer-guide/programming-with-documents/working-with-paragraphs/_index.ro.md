@@ -6,6 +6,9 @@ linktitle: Lucrul cu paragrafe
 description: "Practici de manipulare a nodurilor de paragraf folosind C++."
 type: docs
 weight: 210
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/working-with-paragraphs/
 timestamp: 2024-01-30-16-22-34
 ---

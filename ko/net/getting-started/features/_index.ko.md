@@ -6,6 +6,9 @@ linktitle: 지원되는 기능
 description: "Aspose.Words for .NET는 단순한 문서 변환 및 수정에서부터 체계적이고 시각적으로 매력적인 문서 생성 또는 C#을 사용한 보고 자동화에 이르기까지 광범위한 기능을 사용자에게 제공합니다."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/features/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: 文書を複数ページとして保存するTIFF
 description: "ドキュメントをラスターイメージに変換します。TIFF形式の例で説明します。 TIFFの表示方法を決定するには、Javaを使用して解像度、ページ数、画像の二値化などの追加オプションを指定する必要があります。"
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

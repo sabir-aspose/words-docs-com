@@ -7,6 +7,9 @@ type: docs
 description: "Skep'n Mail Merge sjabloon om vaste inhoud in uitsetdokumente te definieer, en genereer dan samesmeltingsdokumente met behulp van die samesmeltingsvelde."
 keywords: "create Mail Merge template с++"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/mail-merge-template/
 timestamp: 2024-01-31-14-23-37
 ---

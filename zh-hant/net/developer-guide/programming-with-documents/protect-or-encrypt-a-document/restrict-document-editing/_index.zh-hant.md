@@ -6,6 +6,9 @@ linktitle: 限制文書編輯
 description: "透過使用C#設定限制類型來限制編輯文件。 您也可以移除保護並設定不受限的可編輯區域。"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---

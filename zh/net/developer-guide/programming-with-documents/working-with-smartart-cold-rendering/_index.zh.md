@@ -7,6 +7,9 @@ description: "使用 C# 的 SmartArt 形状简介。"
 type: docs
 description: "Aspose.Words for .NET 执行 SmartArt 冷渲染，这意味着如果预渲染的 SmartArt 绘图丢失或使用 C# 不正确，它会布局并渲染 SmartArt 对象。"
 weight: 330
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

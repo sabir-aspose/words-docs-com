@@ -6,6 +6,9 @@ linktitle: 표현
 description: "Python via .NET 렌더링 기능에 Aspose.Words를 사용하여 흐름 레이아웃 문서를 페이지로 포맷하고 해당 문서나 선택한 페이지를 다른 문서(PDF, HTML, XPS 등) 또는 이미지(TIFF, PNG, SVG 등) 형식으로 변환합니다. 보기, 추가 변환 또는 인쇄."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/rendering/
 timestamp: 2024-01-27-14-07-04
 ---

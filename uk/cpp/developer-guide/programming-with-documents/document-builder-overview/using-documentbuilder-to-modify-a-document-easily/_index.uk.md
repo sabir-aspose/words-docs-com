@@ -6,6 +6,9 @@ linktitle: Використання DocumentBuilder для простої змі
 type: docs
 description: "Використовуйте конструктор документів, щоб легко змінити документ у C++."
 weight: 190
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/using-documentbuilder-to-modify-a-document-easily/
 timestamp: 2024-01-27-14-07-04
 ---

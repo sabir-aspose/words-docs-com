@@ -6,6 +6,9 @@ linktitle: Een Document klonen
 type: docs
 description: "Kloon een document om de identieke kopie te krijgen met C++. Bij het maken van een kopie worden knooppunten en eigenschappen van het originele document gekloond."
 weight: 70
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/clone-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

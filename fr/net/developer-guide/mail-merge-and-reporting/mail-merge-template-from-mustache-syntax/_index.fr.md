@@ -7,6 +7,9 @@ type: docs
 description: "Créez des modèles avec la syntaxe Mustache en utilisant C#. La syntaxe Mustache est la seule option à utiliser avec les modèles qui ne contiennent pas de champs (HTML ou TXT). Avec les modèles Word, vous avez deux options: les champs ou la syntaxe Mustache."
 keywords: "mail merge template mustache syntax c#"
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/mail-merge-template-from-mustache-syntax/
 timestamp: 2024-07-11-08-07-06
 ---

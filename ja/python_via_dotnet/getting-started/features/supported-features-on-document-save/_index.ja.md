@@ -6,6 +6,9 @@ linktitle: ドキュメント保存でサポートされる機能
 description: "Python を使用して、ドキュメントをサポートされている形式で保存します。任意のサイズのドキュメントを変換してエクスポートします。"
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/python-net/supported-features-on-document-save/
 timestamp: 2024-01-31-14-23-37
 ---

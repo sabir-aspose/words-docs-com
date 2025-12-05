@@ -8,6 +8,7 @@ weight: 30
 description: "문서를 번역합니다. Aspose.Words에 대한.NET대상 언어를 지정할 수 있도록 구글AI모델을 사용하여 문서 번역을 단순화합니다."
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/translate-a-document/
 timestamp: 2024-12-13-06-40-00
 ---

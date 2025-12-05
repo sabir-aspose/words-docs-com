@@ -6,6 +6,9 @@ linktitle: Структурирани тагове или контрол на с
 description: "Работа със структурирани документи Етикети или контрол на съдържанието, използвайки C#."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/structured-document-tags-or-content-control/
 timestamp: 2024-01-31-14-23-37
 ---

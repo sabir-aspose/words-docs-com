@@ -6,6 +6,9 @@ linktitle: 使用脚注和尾注
 description: "如何使用Java操作脚注和尾注。"
 type: docs
 weight: 160
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/working-with-footnote-and-endnote/
 timestamp: 2024-01-27-14-07-04
 ---

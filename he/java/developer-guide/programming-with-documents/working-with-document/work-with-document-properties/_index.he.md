@@ -6,6 +6,9 @@ linktitle: עבודה עם Document Properties
 description: "Aspose.Words עבור Java מאפשר אחסון מידע שימושי על המסמך שלך, כגון API מספר גירסה או Authorized Date, במתקני מסמך בנויים או מותאמים אישית."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

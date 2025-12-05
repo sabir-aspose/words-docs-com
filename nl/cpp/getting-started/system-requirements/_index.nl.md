@@ -6,6 +6,9 @@ linktitle: Systeemvereisten
 description: "Voordat u begint te werken met Aspose.Words voor C++, moet u ervoor zorgen dat u voldoet aan de vereisten voor het besturingssysteem, het platform, de frameworks en de omgeving, zodat de activiteiten op uw apparaten correct worden verantwoord."
 type: docs
 weight: 70
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/system-requirements/
 timestamp: 2024-07-11-16-13-28
 ---

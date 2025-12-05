@@ -7,6 +7,9 @@ type: docs
 description: "Converti un documento in qualsiasi formato di caricamento supportato in Markdown e viceversa utilizzando Python."
 keywords: how to convert a document to markdown python
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/python-net/convert-a-document-to-markdown/
 timestamp: 2024-01-27-14-07-04
 ---

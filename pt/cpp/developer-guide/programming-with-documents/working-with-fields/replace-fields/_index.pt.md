@@ -6,6 +6,9 @@ linktitle: Substituir campos por texto estático
 description: "Saiba como substituir campos por texto Em C++. Substitua campos por dados estáticos usando o C++ API."
 type: docs
 weight: 37
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/replace-fields/
 timestamp: 2024-01-27-14-07-04
 ---

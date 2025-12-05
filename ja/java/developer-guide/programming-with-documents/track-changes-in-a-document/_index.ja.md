@@ -6,6 +6,9 @@ linktitle: 文書内の変更を追跡する
 description: "あなたや他の人によって行われたコンテンツや書式設定への変更を追跡します。 ドキュメント内の個々のリビジョンにアクセスし、Javaを使用してさまざまなプロパティを適用します。"
 type: docs
 weight: 270
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

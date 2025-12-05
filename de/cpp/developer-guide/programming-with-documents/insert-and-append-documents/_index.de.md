@@ -6,6 +6,9 @@ linktitle: Dokumente einfügen und anhängen
 description: "Kombinieren Sie Dokumente zu einem Dokument: Fügen Sie ein Dokument mit Suchen und Ersetzen, Seriendruckfeld, Lesezeichen oder einfach am Dokumentende in ein neues oder vorhandenes Dokument ein oder hängen Sie es an."
 type: docs
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/cpp/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

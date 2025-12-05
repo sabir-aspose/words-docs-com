@@ -6,6 +6,9 @@ linktitle: 문서를 다음으로 변환 HTML, MHTML 또는 EPUB
 description: "에 거의 모든 형식에서 문서를 변환 HTML 또는 MHTML,그리고 EPUB 형식을 사용하여 C++. 출력 문서를 관리하기 위한 저장 옵션을 지정할 수도 있습니다."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/convert-a-document-to-html-mhtml-or-epub/
 timestamp: 2024-10-21-08-52-03
 ---

@@ -6,6 +6,9 @@ linktitle: Bezpečnostní poznámky
 type: docs
 description: "Aspose.Words místo .NET uznává a dodržuje společné bezpečnostní normy s cílem zajistit vysokou úroveň bezpečnosti údajů. Podívejte se na možné bezpečnostní otázky a doporučení, jak se vyhnout jejich použití C#."
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/net/security/
 timestamp: 2024-01-27-14-07-04
 ---

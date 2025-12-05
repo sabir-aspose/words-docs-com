@@ -6,6 +6,9 @@ linktitle: Aspose.Words对于Android通过Java功能
 description: "本节通过Java比较Java的Aspose.Words和Android的Aspose.Words之间的功能可用性。"
 type: docs
 weight: 90
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/aspose-words-for-android-via-java-features/
 timestamp: 2024-10-21-11-17-44
 ---

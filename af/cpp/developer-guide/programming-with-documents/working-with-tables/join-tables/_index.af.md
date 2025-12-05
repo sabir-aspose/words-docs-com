@@ -6,6 +6,9 @@ linktitle: Voeg By Tabelle
 description: "Gevorderde tafelmanipulasies. Hoe om twee tabelle saam te voeg in een C++. Sluit tabelle met C++."
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/join-tables/
 timestamp: 2024-01-27-14-07-04
 ---

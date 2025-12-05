@@ -6,6 +6,9 @@ linktitle: نمای کلی محصول
 description: "Aspose.Words برای Android از طریق Java یک کتابخانه کلاس `Java` است که توسعه دهندگان Android را قادر می سازد تا طیف گسترده ای از وظایف پردازش اسناد را انجام دهند."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/android-product-overview/
 timestamp: 2024-01-27-14-07-04
 ---

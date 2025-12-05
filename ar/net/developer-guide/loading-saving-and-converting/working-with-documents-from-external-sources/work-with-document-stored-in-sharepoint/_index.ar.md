@@ -6,6 +6,9 @@ linktitle: العمل مع مستند مخزّن في SharePoint Online
 description: "تحويل Word المشترك في SharePoint إلى PDF باستخدام C#. العمل مع المستندات المخزنة في SharePoint – تنسيقات إدخال مختلفة، بما في ذلك Word وOpenOffice وImage وeBook."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/work-with-document-stored-in-sharepoint/
 timestamp: 2024-10-21-11-17-44
 ---

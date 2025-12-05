@@ -6,6 +6,9 @@ linktitle: 문서의 변경 내용 추적
 description: "다음을 사용하여 귀하 또는 다른 사람이 만든 콘텐츠 및 서식 변경 내용 추적 C++. 문서의 개별 개정에 액세스하고 다양한 속성을 적용합니다."
 type: docs
 weight: 270
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/track-changes-in-a-document/
 timestamp: 2024-01-30-16-22-34
 ---

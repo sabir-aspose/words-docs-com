@@ -6,6 +6,9 @@ linktitle: Lập trình với tài liệu
 type: docs
 description: "Sử dụng các lớp Aspose.Words Document Object Model để tạo, sửa đổi và quản lý tài liệu bằng .NET bằng C# theo chương trình. Làm việc với các thuộc tính, cài đặt và nội dung của tài liệu cũng như giao diện của tài liệu thông qua việc quản lý màu sắc, hình dạng, phông chữ và đồ họa khác."
 weight: 60
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

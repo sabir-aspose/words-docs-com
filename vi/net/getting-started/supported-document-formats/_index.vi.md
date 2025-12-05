@@ -6,6 +6,9 @@ linktitle: Định dạng tài liệu được hỗ trợ
 type: docs
 description: "Chỉnh sửa tài liệu nguồn ở nhiều định dạng phổ biến, cũng như tự do chuyển đổi tệp từ định dạng này sang định dạng khác bằng C#."
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/supported-document-formats/
 timestamp: 2024-10-21-11-17-44
 ---

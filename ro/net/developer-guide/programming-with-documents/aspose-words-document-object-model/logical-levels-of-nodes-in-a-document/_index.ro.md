@@ -6,6 +6,9 @@ linktitle: Niveluri logice ale nodurilor într-un document
 type: docs
 description: "În Aspose.Words pentru documentația .NET a menționat niveluri logice ale nodurilor – nivel bloc, nivel în linie sau nivel rând folosind C#. Nivelul nodului este utilizat pentru a descrie locația în arborele de documente unde nodul apare în mod tipic."
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

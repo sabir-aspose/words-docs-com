@@ -6,6 +6,9 @@ linktitle: Hoe de Voorbeelden uitvoeren
 description: "Downloaden Aspose.Words voor .NET voorbeelden van onze GitHub repository en leren hoe ze te draaien om meer vertrouwd te raken met de Aspose.Words mogelijkheden en functies die C#."
 type: docs
 weight: 110
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/how-to-run-the-examples/
 timestamp: 2024-10-24-11-44-28
 ---

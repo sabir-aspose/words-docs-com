@@ -6,6 +6,9 @@ linktitle: Работа със стилове и теми
 description: "Разширено Microsoft Word форматиране на функции, работа със стилове и теми, използващи C#."
 type: docs
 weight: 110
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/working-with-styles-and-themes/
 timestamp: 2024-10-24-11-44-28
 ---

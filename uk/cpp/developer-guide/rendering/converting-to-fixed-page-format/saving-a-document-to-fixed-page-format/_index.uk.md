@@ -6,6 +6,9 @@ linktitle: Збереження документа у форматі фіксо�
 description: "Як зберегти документ у форматі з фіксованою сторінкою– PDF, XPS, HTML, XAML, PostScript, і PCL? Дивіться інструкції."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/saving-a-document-to-fixed-page-format/
 timestamp: 2024-09-24-14-35-44
 ---

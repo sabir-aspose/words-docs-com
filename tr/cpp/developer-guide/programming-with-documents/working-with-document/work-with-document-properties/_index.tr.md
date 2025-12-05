@@ -6,6 +6,9 @@ linktitle: Belge Özellikleriyle Çalışma
 description: "Aspose.Words için C++ API ve Sürüm Numarası veya Yetkilendirilme Tarihi gibi belgenizle ilgili bazı yararlı bilgilerin yerleşik veya özel belge özelliklerinde depolanmasına izin verir."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

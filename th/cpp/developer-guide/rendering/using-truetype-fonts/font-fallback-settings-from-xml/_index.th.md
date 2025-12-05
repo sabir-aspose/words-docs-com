@@ -6,6 +6,9 @@ linktitle: แบบอักษรFallBackตั้งแต่XML
 description: "กลไกการสำรองแบบอักษรจะใช้เมื่อแบบอักษรได้รับการแก้ไขแต่ไม่มีอักขระเฉพาะ ในกรณีนี้Aspose.Wordsพยายามใช้แบบอักษรทางเลือกหนึ่งสำหรับอักขระ."
 type: docs
 weight: 14
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/font-fallback-settings-from-xml/
 timestamp: 2024-09-24-14-35-44
 ---

@@ -6,6 +6,9 @@ linktitle: Travailler avec des documents provenant de sources externes
 description: "Comment charger des documents provenant de sources externes dans C#. Chargez des fichiers PDF, DOCX, DOC, RTF, ODT, EPUB, HTML et autres fichiers à partir de SharePoint ou d'une base de données pour un traitement ultérieur à l'aide de C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/working-with-documents-from-external-sources/
 timestamp: 2024-01-27-14-07-04
 ---

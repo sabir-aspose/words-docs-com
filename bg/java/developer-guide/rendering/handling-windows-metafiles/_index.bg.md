@@ -6,6 +6,9 @@ linktitle: Работа Windows Metafiles
 description: "Aspose.Words вместо Java прилага своя собствена Windows Metafile player да играе Metafile формат на всички платформи и поддържа управлението на основните функции на метафила и може да извърши обратно към различен тип метафиле плейър."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 프로그래밍 방식으로 문서 인쇄 또는 대화 상자 사�
 description: "설정,인쇄 미리보기 및 인쇄 진행률 대화 상자를 통해Java을 사용하여 문서를 인쇄합니다."
 type: docs
 weight: 55
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-27-14-07-04
 ---

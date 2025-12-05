@@ -6,6 +6,9 @@ linktitle: Робота з зображеннями
 description: "Зображення форм у деталях та розширених функцій, що надаються Aspose.Words для .NETй"
 type: docs
 weight: 300
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/working-with-images/
 timestamp: 2024-05-02-11-51-44
 ---

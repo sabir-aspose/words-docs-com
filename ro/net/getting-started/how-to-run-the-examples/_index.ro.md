@@ -6,6 +6,9 @@ linktitle: Cum să rulezi exemplele
 description: "Descarcă Aspose.Words pentru exemple .NET din depozitul nostru GitHub și învață cum să le execuți ca să devii mai obişnuit cu posibilităţile şi caracteristicile Aspose.Words, folosind C#."
 type: docs
 weight: 110
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/how-to-run-the-examples/
 timestamp: 2024-10-24-11-44-28
 ---

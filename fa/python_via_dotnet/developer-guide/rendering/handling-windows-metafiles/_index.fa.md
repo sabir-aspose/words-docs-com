@@ -6,6 +6,9 @@ linktitle: مدیریت متافایل های Windows
 description: "Aspose.Words for Python via .NET پخش کننده Windows Metafile خود را برای پخش فرمت Metafile در همه پلتفرم ها اجرا می کند و از مدیریت ویژگی های متافایل اصلی پشتیبانی می کند و می تواند به نوع دیگری از پخش کننده متافایل بازگشتی انجام دهد."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

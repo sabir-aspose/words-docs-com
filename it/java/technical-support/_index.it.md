@@ -6,6 +6,9 @@ linktitle: Supporto tecnico
 type: docs
 description: "Aspose.Words per Java fornisce supporto tecnico gratuito disponibile per tutti gli utenti. Si prega di segnalare la tua domanda, problema, o richiesta di funzionalità utilizzando Aspose Forum di supporto gratuito."
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/java/technical-support/
 timestamp: 2024-01-27-14-07-04
 ---

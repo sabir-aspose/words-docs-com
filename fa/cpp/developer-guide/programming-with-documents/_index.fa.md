@@ -6,6 +6,9 @@ linktitle: برنامه نویسی با اسناد
 type: docs
 description: "از کلاس های مدل شیء سند Aspose.Words برای ایجاد، اصلاح و مدیریت برنامه ریزی اسناد با استفاده از C++ استفاده کنید. با ویژگی های سند، تنظیمات و محتوا و همچنین با ظاهر سند از طریق مدیریت رنگ ها، اشکال، فونت ها و سایر گرافیک ها کار کنید."
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

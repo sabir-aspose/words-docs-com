@@ -6,6 +6,9 @@ linktitle: Откриване на файлов формат и проверка
 description: "Определяне на формата на файла в Python ако не сте сигурни какво е действителното съдържание на файла или дали да проверите съвместимостта на формата."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/python-net/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

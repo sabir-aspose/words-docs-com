@@ -6,6 +6,9 @@ linktitle: Práce s chytrými Umění Studené renderování
 type: docs
 description: "Aspose.Words místo Python via .NET provádí Smart Art Cold Rendering, což znamená, že to stanoví a dělá objekty SmartArt, pokud před-rendered SmartArt výkres chybí nebo nesprávné."
 weight: 330
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/python-net/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

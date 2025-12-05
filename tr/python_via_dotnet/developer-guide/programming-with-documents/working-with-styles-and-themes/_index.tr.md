@@ -6,6 +6,9 @@ linktitle: Stiller ve Temalarla Çalışmak
 description: "Python'i kullanarak bir belgedeki stillere ve temalara erişin ve bunları yönetin."
 type: docs
 weight: 110
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/python-net/working-with-styles-and-themes/
 timestamp: 2024-01-27-14-07-04
 ---

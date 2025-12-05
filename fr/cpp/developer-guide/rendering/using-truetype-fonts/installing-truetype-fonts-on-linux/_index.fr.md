@@ -6,6 +6,9 @@ linktitle: Installer TrueType Polices sur Linux
 description: "Aspose.Words pour C++ permet de rendre un document créé à l'aide de Microsoft Word sur une machine Linux avec la meilleure précision. Pour ce faire, copiez les fichiers de polices à partir d'une Windows machine ou Installez un package de polices `TrueType` sur votre Linux machine."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/install-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

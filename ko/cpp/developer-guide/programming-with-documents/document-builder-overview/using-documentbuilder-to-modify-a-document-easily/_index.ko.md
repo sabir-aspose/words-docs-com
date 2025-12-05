@@ -6,6 +6,9 @@ linktitle: 사용 DocumentBuilder 문서를 쉽게 수정하려면
 type: docs
 description: "문서 작성기를 사용하여 문서를 쉽게 수정할 수 있습니다 C++."
 weight: 190
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/using-documentbuilder-to-modify-a-document-easily/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: So führen Sie die Beispiele aus
 type: docs
 description: "Laden Sie Aspose.Words für Java Beispiele aus unserem GitHub Repository herunter und lernen Sie, wie Sie sie ausführen, um sich mit den Aspose.Words Möglichkeiten und Funktionen vertraut zu machen."
 weight: 130
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/how-to-run-the-examples/
 timestamp: 2024-01-27-14-07-04
 ---

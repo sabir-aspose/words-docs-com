@@ -6,6 +6,9 @@ linktitle: ภาพรวมผลิตภัณฑ์
 description: "Aspose.WordsสำหรับC++ เป็นไลบรารีซอฟต์แวร์ที่ออกแบบมาเพื่อสร้างแก้ไขแปลงแสดงผลและพิมพ์เอกสารโดยไม่."
 type: docs
 weight: 5
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/product-overview/
 timestamp: 2024-06-05-14-43-57
 ---

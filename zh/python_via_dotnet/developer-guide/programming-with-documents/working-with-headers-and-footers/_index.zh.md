@@ -6,6 +6,9 @@ linktitle: 使用页眉和页脚
 description: "使用 Python 创建、管理和删除文档中的页眉和页脚。"
 type: docs
 weight: 150
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/working-with-headers-and-footers/
 timestamp: 2024-01-27-14-07-04
 ---

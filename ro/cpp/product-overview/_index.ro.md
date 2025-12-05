@@ -6,6 +6,9 @@ linktitle: Prezentare Generală A Produsului
 description: "Aspose.Words pentru C++ este o bibliotecă software concepută pentru a crea, modifica, converti, reda și imprima documente fără a se baza pe niciun alt software."
 type: docs
 weight: 5
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/product-overview/
 timestamp: 2024-06-05-14-43-57
 ---

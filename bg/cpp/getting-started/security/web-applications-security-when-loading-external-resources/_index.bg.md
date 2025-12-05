@@ -6,6 +6,9 @@ linktitle: Сигурност На Уеб Приложенията При Зар
 type: docs
 description: "Заредете отдалечени ресурси, които могат да бъдат причина за рискове за сигурността. Разгледайте общите проблеми на сигурността и техните решения в C++."
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-30-16-22-34
 ---

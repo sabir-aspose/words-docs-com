@@ -6,6 +6,9 @@ linktitle: پاک کردن یک سند
 description: "حذف اطلاعات استفاده نشده یا تکراری برای کاهش اندازه خروجی و زمان پردازش با استفاده از C++. سبک های استفاده نشده، سبک های داخلی استفاده نشده، سبک های تکراری یا لیست های استفاده نشده را حذف کنید."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

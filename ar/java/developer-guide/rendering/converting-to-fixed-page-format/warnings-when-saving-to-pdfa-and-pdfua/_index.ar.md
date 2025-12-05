@@ -6,6 +6,9 @@ linktitle: تحذيرات مشكلة إمكانية الوصول عند الحف
 description: "PDF/A و PDF/UA يفرضان متطلبات إمكانية الوصول المتعلقة بمحتوى المستند. عند الحفظ إلى PDF/A أو PDF/UA في Java وتنتهك المشكلة الامتثال، يتم إصدار تحذير."
 type: docs
 weight: 29
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

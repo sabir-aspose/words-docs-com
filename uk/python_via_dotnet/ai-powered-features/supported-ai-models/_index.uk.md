@@ -8,6 +8,7 @@ weight: 10
 description: "Aspose.Words для Python підтримує моделі OpenAI та Google AI для складання резюме та перекладу документів. Використовуйте Aspose.Words з Gpt-4o, Gpt-4o mini, Gpt-4 Turbo, GPT-3.5 Turbo, Gemini 1.5 Flash, Gemini 1.5 Flash-8b, Gemini 1.5 Pro."
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/python-net/supported-ai-models/
 timestamp: 2025-03-17-19-00-00
 ---

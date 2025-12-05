@@ -6,6 +6,9 @@ linktitle: Prezentare generală a tabelelor
 description: "Lucraţi cu tabele şi componentele lor cum ar fi celule, rânduri, coloane în Aspose.Words pentru .NET. Cum se lucrează cu tabele în C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

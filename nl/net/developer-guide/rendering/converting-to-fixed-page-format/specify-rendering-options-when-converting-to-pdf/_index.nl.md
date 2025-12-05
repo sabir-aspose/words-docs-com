@@ -6,6 +6,9 @@ linktitle: Renderopties opgeven bij omzetten naar PDF
 description: "Een document omzetten naar PDF met geavanceerde opties C#. DOCX-formulieren omzetten naar PDF C#. Gebruik PdfSaveOptions om het resultaat van het opslaan van een document naar PDF te wijzigen."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

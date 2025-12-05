@@ -6,6 +6,9 @@ linktitle: コメントの操作
 description: "Python を使用してドキュメント内のコメントを追加、削除、または操作する方法。"
 type: docs
 weight: 260
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/python-net/working-with-comments/
 timestamp: 2024-01-27-14-07-04
 ---

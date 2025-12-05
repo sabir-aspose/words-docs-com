@@ -6,6 +6,9 @@ linktitle: מיזוג תאי טבלה
 description: "כיצד למזג תאי טבלה ב C++. בדוק אם תאים בטבלה ממוזגים באמצעות C++."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/merge-table-cells/
 timestamp: 2024-01-27-14-07-04
 ---

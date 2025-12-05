@@ -7,6 +7,9 @@ type: docs
 description: "执行两种不同类型的Mail Merge操作：简单的Mail Merge和带有使用C#的区域的Mail Merge。 简单的Mail Merge按每个数据源记录重复整个文档，而带有区域的Mail Merge只重复每个记录指定的区域。"
 keywords: "how to execute Mail Merge c#"
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/types-of-mail-merge-operations/
 timestamp: 2024-07-11-08-07-06
 ---

@@ -6,6 +6,9 @@ linktitle: Utilisation des polices TrueType
 description: "Aspose.Words pour Python via .NET peut trouver la bonne police ou son remplacement approprié pour un rendu correct du document. Cela garantit que la différence entre le document affiché et l'original est minime lorsqu'il n'y a pas suffisamment d'informations sur une police."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

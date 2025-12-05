@@ -6,6 +6,9 @@ linktitle: คำเตือนปัญหาการเข้าถึงเ
 description: "PDF/A และ PDF/UA กำหนดข้อกำหนดในการเข้าถึงที่เกี่ยวข้องกับเนื้อหาเอกสาร เมื่อบันทึกเป็น PDF/A หรือ PDF/UA ใน C# และปัญหาละเมิดการปฏิบัติตามข้อกำหนด ระบบจะออกคำเตือน"
 type: docs
 weight: 29
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Bekerja dengan Tabel
 description: "Bekerja dengan tabel dalam dokumen menggunakan Python. Memperkenalkan cara bekerja dengan tabel dan konsep node Tabel di Aspose.Words untuk Python."
 type: docs
 weight: 190
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/python-net/working-with-tables/
 timestamp: 2024-01-27-14-07-04
 ---

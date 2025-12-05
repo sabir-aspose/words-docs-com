@@ -6,6 +6,9 @@ linktitle: Speichern eines Dokuments im Festseitenformat
 description: "So speichern Sie ein Dokument in einem Format mit fester Seite – PDF, XPS, HTML, XAML, PostScript, und PCL? Siehe die Anweisungen."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/cpp/saving-a-document-to-fixed-page-format/
 timestamp: 2024-09-24-14-35-44
 ---

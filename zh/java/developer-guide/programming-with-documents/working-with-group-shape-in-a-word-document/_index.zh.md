@@ -6,6 +6,9 @@ linktitle: 在Word文档中使用Group Shapes
 description: "使用Java对形状进行分组和取消分组。"
 type: docs
 weight: 290
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/how-to-add-group-shape-into-a-word-document/
 timestamp: 2024-01-27-14-07-04
 ---

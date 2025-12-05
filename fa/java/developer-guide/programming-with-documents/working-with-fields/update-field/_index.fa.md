@@ -6,6 +6,9 @@ linktitle: زمینه های به روز رسانی
 description: "یاد بگیرید که چگونه فیلد ها را در Java به روز کنید. به روز رسانی فیلد ها به صورت برنامه نویسی یا استفاده از به روز رسانی خودکار فیلد با استفاده از Java API"
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/update-field/
 timestamp: 2024-01-27-14-07-04
 ---

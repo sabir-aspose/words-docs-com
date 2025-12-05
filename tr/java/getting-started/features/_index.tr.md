@@ -6,6 +6,9 @@ linktitle: Desteklenen Özellikler
 description: "Aspose.Words for Java` kullanıcıları, belgeleri basitçe dönüştürmek ve değiştirmekten, yapılandırılmış ve görsel açıdan çekici belgeler oluşturmaya veya raporlamayı otomatikleştirmeye kadar uzanan çok çeşitli özellikler sunar."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/features/
 timestamp: 2024-10-21-11-17-44
 ---

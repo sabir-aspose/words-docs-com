@@ -6,6 +6,9 @@ linktitle: 在轉換為 PDF 時指定渲染選項
 description: "以 C# 的進階選項將文件轉換為 PDF。 將 DOCX 表單轉換為 PDF C#。 請使用 PdfSaveOptions 來改變儲存文書成 PDF 的結果。"
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: 文書をMHTMLに変換し、電子メールで送信します
 description: "任意の文書をMHTML形式に変換してから、JavaのAsposeファミリ製品をもう1つ使用して電子メールで送信します。"
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/convert-a-document-to-mhtml-and-send-it-by-email/
 timestamp: 2024-01-27-14-07-04
 ---

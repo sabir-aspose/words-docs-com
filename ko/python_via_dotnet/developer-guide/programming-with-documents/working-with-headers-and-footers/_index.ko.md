@@ -6,6 +6,9 @@ linktitle: 머리글 및 바닥글 작업
 description: "Python를 사용하여 문서의 머리글과 바닥글을 생성, 관리 및 제거합니다."
 type: docs
 weight: 150
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/working-with-headers-and-footers/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Dokumentbearbeitung einschränken
 description: "Beschränken Sie die Bearbeitung eines Dokuments, indem Sie einen Einschränkungstyp festlegen. Sie können den Schutz auch aufheben und uneingeschränkt bearbeitbare Bereiche mit Java erstellen."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---

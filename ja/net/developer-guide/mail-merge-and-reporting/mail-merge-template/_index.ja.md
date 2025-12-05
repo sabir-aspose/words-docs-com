@@ -7,6 +7,9 @@ type: docs
 description: "出力ドキュメント内の固定コンテンツを定義するMail Mergeテンプレートを作成し、C#の差し込み項目を使用して差し込み文書を生成します。"
 keywords: "create Mail Merge template с#"
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/mail-merge-template/
 timestamp: 2024-07-11-08-07-06
 ---

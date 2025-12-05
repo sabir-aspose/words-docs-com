@@ -6,6 +6,9 @@ linktitle: 序列化和使用数据库中的文档
 description: "将文档转换为字节数组，以便使用 C# 在数据库中处理该文档。您可以在数据库中存储和检索文档。"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-07-09-19-00-42
 ---

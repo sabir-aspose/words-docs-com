@@ -6,6 +6,9 @@ linktitle: Ondersteunde Funksies
 description: "Aspose.Words vir .NET bied gebruikers'n wye verskeidenheid funksies, van die eenvoudige omskakeling en wysiging van dokumente tot die skep van gestruktureerde en visueel aantreklike dokumente of die outomatisering van verslagdoening met behulp van C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/features/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: Sicherheit von Webanwendungen beim Laden externer Ressourcen
 type: docs
 description: "Laden Sie entfernte Ressourcen, was ein Grund für Sicherheitsrisiken sein kann. Werfen Sie einen Blick auf häufige Sicherheitsprobleme und ihre Lösungen in Java."
 weight: 120
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-27-14-07-04
 ---

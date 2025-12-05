@@ -6,6 +6,9 @@ linktitle: Manipuler et remplacer les polices TrueType
 description: "Aspose.Words pour Java peut incorporer les polices TrueType correctes dans le document résultant pour s'assurer qu'il s'affiche avec précision, ou rechercher un remplacement de police approprié, ou utiliser le mécanisme de secours de police."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: Znajdź właściwości pola
 description: "Jak znaleźć pewne właściwości pola, takie jak kod pola i wynik pola Java"
 type: docs
 weight: 25
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/find-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

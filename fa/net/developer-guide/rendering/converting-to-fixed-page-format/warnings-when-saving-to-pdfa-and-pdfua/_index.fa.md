@@ -6,6 +6,9 @@ linktitle: هشدارهای مشکل دسترسی هنگام ذخیره در PDF
 description: "PDF/A و PDF/UA الزامات دسترسی مرتبط با محتوای سند را تحمیل می کنند. هنگامی که در PDF/A یا PDF/UA در C# ذخیره می شود و مشکل مطابقت را نقض می کند، یک هشدار صادر می شود."
 type: docs
 weight: 29
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

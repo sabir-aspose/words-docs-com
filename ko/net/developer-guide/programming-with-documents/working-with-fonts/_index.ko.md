@@ -6,6 +6,9 @@ linktitle: 글꼴 작업
 description: "C#를 사용하여 세부적으로 글꼴 형식을 지정합니다. C#의 강조 표시. C#를 사용하여 글꼴 줄 간격을 얻습니다."
 type: docs
 weight: 230
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/working-with-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

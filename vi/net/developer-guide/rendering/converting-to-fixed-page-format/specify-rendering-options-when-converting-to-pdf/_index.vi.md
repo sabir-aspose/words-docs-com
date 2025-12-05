@@ -6,6 +6,9 @@ linktitle: Chỉ định tùy chọn hiển thị khi chuyển đổi sang PDF
 description: "Chuyển đổi tài liệu sang PDF với các tùy chọn nâng cao bằng C#. Chuyển đổi biểu mẫu DOCX sang PDF C#. Sử dụng PdfSaveOptions để thay đổi kết quả lưu tài liệu thành PDF."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: FAQ
 type: docs
 description: "Aspose.Words pentru C++ răspunde la cele mai frecvente întrebări. Aflați această pagină pentru a vă rezolva rapid problema cu întrebări generale sau subiecte specifice."
 weight: 75
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/faq/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: 领域概述
 description: "您可以使用 Python 访问字段修改。文档的字段被加载到 Aspose.Words Document Object Model (DOM) 中。"
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/fields-overview/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: 필드 속성 사용자 지정
 description: "필드 속성을 사용자 지정하는 방법에 대해 알아봅니다 C++. 병합 필드 이름을 바꾸거나 구분 노드가 없는 필드에 대한 결과 가져오기 C++."
 type: docs
 weight: 27
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

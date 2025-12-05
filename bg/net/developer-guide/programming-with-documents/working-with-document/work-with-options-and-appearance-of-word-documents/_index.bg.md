@@ -6,6 +6,9 @@ linktitle: Работа с опции и външен вид на Word доку�
 description: "Контрол на появата на Word документи, като се вземе предвид разликата между различни Microsoft Word версии, използващи C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/work-with-word-document-options-and-appearance/
 timestamp: 2024-01-27-14-07-04
 ---

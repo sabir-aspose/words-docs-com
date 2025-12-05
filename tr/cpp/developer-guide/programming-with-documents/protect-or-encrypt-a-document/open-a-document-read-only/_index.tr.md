@@ -6,6 +6,9 @@ linktitle: Salt Okunur Belge Açma
 description: "Belgenizi salt okunur hale getirin, böylece içerik kopyalanabilir veya okunabilir, ancak değiştirilemez."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/open-a-document-read-only/
 timestamp: 2024-01-27-14-07-04
 ---

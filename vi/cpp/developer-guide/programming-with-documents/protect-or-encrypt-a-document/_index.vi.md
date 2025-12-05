@@ -6,6 +6,9 @@ linktitle: Bảo vệ Hoặc Mã hóa Tài liệu
 description: "Aspose.Words cho C++ cung Cấp Chỉ Đọc, Mã hóa Tài liệu, Hạn chế Chỉnh Sửa và Chữ ký Số để bảo vệ tài liệu. Aspose.Words hỗ trợ hầu hết Các Tùy chọn Bảo vệ Từ."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

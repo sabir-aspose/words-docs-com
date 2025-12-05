@@ -6,6 +6,9 @@ linktitle: 输出文档中包含的生成器或生产者名称
 description: "Aspose.WordsforJava在文档中添加用于创建它的生成器名称和版本号。 这些数据可以在文档中以取决于输出文件格式的方式找到。"
 type: docs
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

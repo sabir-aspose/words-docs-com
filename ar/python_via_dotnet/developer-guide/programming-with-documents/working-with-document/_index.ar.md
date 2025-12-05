@@ -6,6 +6,9 @@ linktitle: العمل مع الوثيقة
 type: docs
 description: "توفر فئة `Document` خصائص وأساليب متنوعة للمستندات باستخدام Python. يمكنك استخدام فئة `Document` كنقطة بداية لكل ما تريد تنفيذه باستخدام Aspose.Words لـ Python. يمكن حفظ كائن `Document` في ملف أو دفق وإرساله أيضًا إلى المتصفح."
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---

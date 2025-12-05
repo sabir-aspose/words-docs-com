@@ -6,6 +6,9 @@ linktitle: نحوه اجرای مثال ها
 description: "نمونه‌های Aspose.Words برای Python via .NET را از مخزن GitHub ما دانلود کنید و نحوه اجرای آنها را بیاموزید تا با امکانات و ویژگی‌های Aspose.Words بیشتر آشنا شوید."
 type: docs
 weight: 110
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/how-to-run-the-examples/
 timestamp: 2024-01-27-14-07-04
 ---

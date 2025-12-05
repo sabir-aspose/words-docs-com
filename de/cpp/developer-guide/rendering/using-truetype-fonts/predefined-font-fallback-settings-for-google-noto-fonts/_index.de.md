@@ -6,6 +6,9 @@ linktitle: Vordefinierte Schrift FallBack-Einstellungen für Google Noto Schrift
 description: "Aspose.Words bietet vordefinierte Schriftarten-Fallback-Einstellungen für Google Noto-Schriftarten. Dies sind kostenlose Schriftarten, die unter der SIL Open Font License lizenziert sind und von Google Noto Fonts heruntergeladen werden können."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/cpp/predefined-font-fallback-settings-for-google-noto-fonts/
 timestamp: 2024-09-24-14-35-44
 ---

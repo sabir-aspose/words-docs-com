@@ -6,6 +6,9 @@ linktitle: Conversia este caracteristica emblematică a Aspose.Words
 description: "Convertiți documente din orice încărcare acceptată pentru a salva formatul cu doar două linii de cod C++. Oferă conversii de înaltă calitate."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/file-formats-and-conversions/
 timestamp: 2024-09-24-14-35-44
 ---

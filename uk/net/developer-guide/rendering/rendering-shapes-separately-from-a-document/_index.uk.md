@@ -6,6 +6,9 @@ linktitle: Рендерні форми Окремо з документа
 description: "Вилучення різних графічних об'єктів, таких як зображення, текстова коробка, що містить абзаци, або стрілкові форми, при обробці документа і експорт їх на зовнішнє місце за допомогою C#й"
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/rendering-shapes-separately-from-a-document/
 timestamp: 2024-07-10-14-38-57
 ---

@@ -6,6 +6,9 @@ linktitle: Вмъкване и добавяне на документи
 description: "Комбиниране на документи в един: вмъкване или добавяне на документ в нов или съществуващ с помощта на търсене и заместване, обединяване на поле, показалец или просто в края на документа."
 type: docs
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Travailler avec des compléments Office
 description: "Aspose.Words pour Java fournit diverses classes pour travailler avec des compléments Office. Vous pouvez ajouter un volet Office via l'extension Web et personnaliser les propriétés du volet et de l'extension."
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

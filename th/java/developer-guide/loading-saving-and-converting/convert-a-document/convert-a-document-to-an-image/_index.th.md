@@ -6,6 +6,9 @@ linktitle: แปลงเอกสารเป็นรูปภาพ
 type: docs
 description: "แปลงเอกสารเป็นรูปแบบรูปภาพ(JPG,PNG,ฯลฯ) สร้างตัวอย่างเอกสารหรือสร้างเอกสารสแกนเพื่อส่งใบแจ้งหนี้โดยใช้Java."
 weight: 35
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/convert-a-document-to-an-image/
 timestamp: 2024-01-27-14-07-04
 ---

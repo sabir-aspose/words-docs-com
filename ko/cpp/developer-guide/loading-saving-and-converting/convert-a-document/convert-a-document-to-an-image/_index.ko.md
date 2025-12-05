@@ -6,6 +6,9 @@ linktitle: 문서를 이미지로 변환
 type: docs
 description: "문서를 이미지 형식으로 변환(JPG, PNG,등). 문서 미리보기를 만들거나 송장을 보낼 문서 스캔을 만듭니다."
 weight: 43
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/convert-a-document-to-an-image/
 timestamp: 2024-01-30-16-22-34
 ---

@@ -6,6 +6,9 @@ linktitle: Memuat, Menyimpan, dan Mengonversi
 description: "Cara mengubah dokumen dari format satu ke format lainnya, seperti Word ke PDF atau HTML ke Markdown, serta cara memuat dan menyimpan dokumen menggunakan C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/net/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---

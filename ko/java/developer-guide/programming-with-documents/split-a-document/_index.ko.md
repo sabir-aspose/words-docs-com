@@ -6,6 +6,9 @@ linktitle: 문서 분할
 description: "Aspose.WordsJava의 경우 하나의 문서를 제목 또는 섹션,페이지 또는 페이지 범위별로 여러 문서로 분할하는 효율적인 방법을 제공합니다."
 type: docs
 weight: 90
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Officeアドインの操作
 description: "C++の場合Aspose.Words Officeアドインを操作するためのさまざまなクラスを提供します。 Web拡張機能を使用して作業ウィンドウを追加し、ペインと拡張機能のプロパティをカスタマイズできます。"
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

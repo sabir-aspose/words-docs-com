@@ -6,6 +6,9 @@ linktitle: 글꼴이 대체 된 것을 인식하는 방법
 description: "문서의 레이아웃이 변경된 이유 또는 특정 글꼴이 예상대로 보이지 않는 이유를 잘 모르는 경우 글꼴 대체 경고 메시지가 도움이 될 수 있습니다."
 type: docs
 weight: 13
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/how-to-recognize-that-the-font-was-replaced/
 timestamp: 2024-09-24-14-35-44
 ---

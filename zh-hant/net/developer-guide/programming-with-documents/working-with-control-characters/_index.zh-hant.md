@@ -6,6 +6,9 @@ linktitle: 與控制字元工作
 description: "使用控制字元於 Aspose.Words 中工作之入門導覽。"
 type: docs
 weight: 400
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/working-with-control-characters/
 timestamp: 2024-01-27-14-07-04
 ---

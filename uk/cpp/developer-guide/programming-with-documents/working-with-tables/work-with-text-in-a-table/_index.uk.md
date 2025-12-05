@@ -6,6 +6,9 @@ linktitle: Робота з текстом в таблиці
 description: "Замініть текст у таблиці на C++. Витягніть звичайний текст із таблиці або комірки за допомогою C++."
 type: docs
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/work-with-text-in-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

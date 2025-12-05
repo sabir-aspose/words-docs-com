@@ -6,6 +6,9 @@ linktitle: 使用部分
 description: "使用Java理解文档部分的概念和操作实践. 将部分插入文档Java. 删除部分Java。 在文档之间复制部分。"
 type: docs
 weight: 120
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/working-with-sections/
 timestamp: 2024-01-31-14-23-37
 ---

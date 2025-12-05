@@ -8,6 +8,7 @@ weight: 30
 description: "Bir belgeyi çevirin. Aspose.Words için .NET Google AI modellerini kullanarak belge çevirisini basitleştirerek hedef dili belirlemenizi sağlar."
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/translate-a-document/
 timestamp: 2024-12-13-06-40-00
 ---

@@ -6,6 +6,9 @@ linktitle: 찾기 및 바꾸기
 type: docs
 description: "문서에서 문자열 또는 정규식 패턴을 찾아Java을 사용하여 원하는 텍스트로 바꿉니다."
 weight: 100
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/find-and-replace/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Yapılandır Aspose.Words için C++ CMake Projesinde
 description: "Yapılandır Aspose.Words için C++ CMake 'inizde ve uygulamanızı oluşturun."
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/configure-aspose-words-for-cpp-in-cmake-project/
 timestamp: 2024-10-24-11-44-28
 ---

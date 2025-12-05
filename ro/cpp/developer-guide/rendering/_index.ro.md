@@ -6,6 +6,9 @@ linktitle: Redare
 description: "Utilizare Aspose.Words pentru C++ caracteristică De redare pentru a formata un document cu aspect de flux în pagini și pentru a converti un astfel de document sau pagini selectate în alte documente (PDF, HTML, XPS, etc.) sau imagini (TIFF, PNG, SVG, etc.) formate pentru vizualizare, conversii suplimentare sau imprimare."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/rendering/
 timestamp: 2024-01-30-16-22-34
 ---

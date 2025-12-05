@@ -6,6 +6,9 @@ linktitle: 在 Word 文档中使用 Group 形状
 description: "使用 C# 对形状进行 Group 和取消分组。"
 type: docs
 weight: 290
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/how-to-add-group-shape-into-a-word-document/
 timestamp: 2024-01-27-14-07-04
 ---

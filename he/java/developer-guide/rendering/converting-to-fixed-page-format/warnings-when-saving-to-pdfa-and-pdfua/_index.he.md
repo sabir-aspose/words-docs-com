@@ -6,6 +6,9 @@ linktitle: אזהרות בנושא נגישות בעת שמירת PDF/A ו- PDF/
 description: "PDF/A ו- PDF/UA כופים דרישות נגישות הקשורות לתוכן המסמך. בעת שמירת PDF/A או PDF/UA Java הבעיה מפרה את הציות, אזהרה ניתנת."
 type: docs
 weight: 29
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

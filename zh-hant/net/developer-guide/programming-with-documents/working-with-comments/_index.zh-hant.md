@@ -6,6 +6,9 @@ linktitle: 與註解合作
 description: "使用C#處理評論。"
 type: docs
 weight: 260
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/working-with-comments/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Przegląd pól
 description: "Dostęp do modyfikowania pól można uzyskać za pomocą Python. Pola dokumentu są ładowane do formatu Aspose.Words Document Object Model (DOM)."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/python-net/fields-overview/
 timestamp: 2024-10-21-11-17-44
 ---

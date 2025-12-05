@@ -6,6 +6,9 @@ linktitle: In Tài liệu một cách Lập trình hoặc Sử dụng hộp tho�
 description: "In một tài liệu bằng cách sử dụng Java thông qua Settings, Print Preview và hộp thoại tiến trình in ấn."
 type: docs
 weight: 55
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 使用页眉和页脚
 description: "如何使用 C# 操作页眉和页脚。创建页眉和页脚 C#。删除页眉或页脚 C#。"
 type: docs
 weight: 150
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/working-with-headers-and-footers/
 timestamp: 2024-01-27-14-07-04
 ---

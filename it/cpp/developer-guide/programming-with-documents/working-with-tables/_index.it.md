@@ -6,6 +6,9 @@ linktitle: Lavorare con le tabelle
 description: "Come lavorare con le tabelle in C++. Introduzione al lavoro con tabelle e concetti di nodo tabella in Aspose.Words per C++."
 type: docs
 weight: 190
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/cpp/working-with-tables/
 timestamp: 2024-01-27-14-07-04
 ---

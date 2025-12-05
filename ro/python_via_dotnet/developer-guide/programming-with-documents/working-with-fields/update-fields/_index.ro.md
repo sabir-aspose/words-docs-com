@@ -6,6 +6,9 @@ linktitle: Actualizați Câmpurile
 description: "Actualizați câmpurile dintr-un document în moduri diferite și utilizând opțiuni diferite în Python."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/python-net/update-fields/
 timestamp: 2024-01-27-14-07-04
 ---

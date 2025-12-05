@@ -6,6 +6,9 @@ linktitle: 번역 Markdown 객체 모델을 문서화하려면(DOM)
 type: docs
 description: "타너슬레이트 Markdown 문서 대 문서 개체 모델 및 뒤로 사용 C++. 그래서 당신은 복잡한 기존 작업 할 수 있습니다 Markdown 그리고 프로그래밍 방식으로 Markdown 처음부터 문서."
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/translate-markdown-to-document-object-model/
 timestamp: 2024-10-21-11-17-44
 ---

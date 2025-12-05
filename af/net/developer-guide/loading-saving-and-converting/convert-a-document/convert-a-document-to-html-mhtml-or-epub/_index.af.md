@@ -6,6 +6,9 @@ linktitle: Skakel'n Dokument om na HTML, MHTML of EPUB
 description: "Skakel'n dokument van byna enige formaat na HTML of MHTML, sowel as na EPUB formaat met behulp van C#. U kan ook stooropsies spesifiseer vir die bestuur van die uitvoerdokument."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/convert-a-document-to-html-mhtml-or-epub/
 timestamp: 2024-07-09-19-00-42
 ---

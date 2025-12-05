@@ -6,6 +6,9 @@ linktitle: 외부 소스의 문서 작업
 description: "C#에서 외부 소스의 문서를 로드하는 방법. C#를 사용하여 추가 처리를 위해 SharePoint 또는 데이터베이스에서 PDF, DOCX, DOC, RTF, ODT, EPUB, HTML 및 기타 파일을 로드합니다."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/working-with-documents-from-external-sources/
 timestamp: 2024-01-27-14-07-04
 ---

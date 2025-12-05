@@ -6,6 +6,9 @@ linktitle: Bir Belge İçinden Şekilleri Ayrı Olarak Görüntüleme
 description: "Bir belge işlerken çeşitli grafik nesneleri, örneğin resimler, paragraf içeren metin kutuları veya ok şekilleri ayıklayın ve bunları Java kullanarak bir harici konuma dışa aktarın."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 检测文件格式并检查格式兼容性
 description: "在打开文档格式之前获取有关文档格式的信息，以避免在不确定使用Java的文件的实际内容时出现异常。"
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

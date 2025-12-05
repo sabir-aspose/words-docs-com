@@ -6,6 +6,9 @@ linktitle: ادغام سلول های جدول
 description: "نحوه ادغام سلول های جدول در C# بررسی کنید که آیا سلول های یک جدول با استفاده از C# ادغام شده اند یا خیر."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/working-with-merged-cells/
 timestamp: 2024-01-27-14-07-04
 ---

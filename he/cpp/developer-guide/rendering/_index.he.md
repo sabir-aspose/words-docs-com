@@ -6,6 +6,9 @@ linktitle: עיבוד
 description: "השתמש ב Aspose.Words עבור C++ תכונת עיבוד כדי לעצב מסמך פריסת זרימה לדפים ולהמיר מסמך כזה או דפים נבחרים למסמכים אחרים (PDF, HTML, XPS, וכו'.) או תמונות (TIFF, PNG, SVG, וכו'.) פורמטים לצפייה, שינויים נוספים, או הדפסה."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/rendering/
 timestamp: 2024-01-30-16-22-34
 ---

@@ -6,6 +6,9 @@ linktitle: Об'єднання таблиць
 description: "Розширені можливості роботи з таблицями. Як об'єднати дві таблиці в одну C++. Об'єднайте таблиці за допомогою C++."
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/join-tables/
 timestamp: 2024-01-27-14-07-04
 ---

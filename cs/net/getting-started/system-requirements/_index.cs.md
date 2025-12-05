@@ -6,6 +6,9 @@ linktitle: Požadavky na systém
 description: "Než začnete pracovat s Aspose.Words místo .NET, zajistit, abyste splnili požadavky na operační systém, platformu, rámce a životní prostředí, takže činnosti na vašich zařízeních jsou řádně započítány za použití C#."
 type: docs
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/net/system-requirements/
 timestamp: 2024-02-01-16-17-05
 ---

@@ -6,6 +6,9 @@ linktitle: Dokumentbouer Oorsig
 type: docs
 description: "DocumentBuilder laat jou toe om dinamiese dokumente van nuuts af te bou of nuwe elemente by bestaande te voeg met behulp van C#. DocumentBuilder bied metodes om teks, checkboxes, tabelle, beelde en ander inhoud elemente in .NET in te voeg."
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

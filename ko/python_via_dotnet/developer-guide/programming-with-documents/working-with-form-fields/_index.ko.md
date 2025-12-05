@@ -6,6 +6,9 @@ linktitle: 양식 필드 작업
 description: "Python를 사용하여 문서에 양식 필드를 삽입하거나 가져오거나 서식을 지정합니다."
 type: docs
 weight: 380
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/working-with-form-fields/
 timestamp: 2024-01-27-14-07-04
 ---

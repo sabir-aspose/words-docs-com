@@ -6,6 +6,9 @@ linktitle: Licencjonowanie i subskrypcja
 description: "Aspose.Words zamiast Java zapewnia różne plany zakupu lub oferuje Bezpłatne Próbne i 30-dniowa Tymczasowa Licencja do oceny przy użyciu licencjonowania i subskrypcji polityki."
 type: docs
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

@@ -6,6 +6,9 @@ linktitle: 在文件載入時支援的功能
 description: "以C#載入並轉換大多數流行的格式，並支援許多Microsoft Word功能。"
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/supported-features-on-document-load/
 timestamp: 2024-01-27-14-07-04
 ---

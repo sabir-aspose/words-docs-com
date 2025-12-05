@@ -6,6 +6,9 @@ linktitle: Trabajar con PDF/A o PDF/UA
 description: "Convierta a PDF/A-1, PDF/A-2, PDF/A-4 y PDF/UA usando C#. Hay algunos problemas al convertir a documentos PDF/A y Aspose.Words para .NET los resuelve."
 type: docs
 weight: 28
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/working-with-pdfa-or-pdfua/
 timestamp: 2024-07-10-14-38-57
 ---

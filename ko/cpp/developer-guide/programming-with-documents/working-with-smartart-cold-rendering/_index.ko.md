@@ -6,6 +6,9 @@ linktitle: 함께 작업 SmartArt 콜드 렌더링
 type: docs
 description: "Aspose.Words 에 대한 C++ 수행 SmartArt 콜드 렌더링,즉 그것을 배치하고 렌더링합니다 SmartArt 사전 렌더링 된 경우 개체 SmartArt 도면이 없거나 잘못되었습니다."
 weight: 330
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

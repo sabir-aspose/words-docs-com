@@ -8,6 +8,7 @@ weight: 10
 description: "Aspose.Words עבור Java תומך OpenAI וגוגל AI מודלים למסמכי סיכום ותרגום. השתמש Aspose.Words עם Gpt-4o, Gpt-4o מיני, Gpt-4 טורבו, GPT-3.5 טורבו, Gemini 1.5 Flash, Gemini 1.5 Flash-8ב, Gemini 1.5 פרו."
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/supported-ai-models/
 timestamp: 2024-11-26-12-00-00
 ---

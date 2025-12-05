@@ -6,6 +6,9 @@ linktitle: كشف تنسيق الملف والتحقق من توافق التن�
 description: "احصل على معلومات حول تنسيق المستند قبل فتحه لتجنب استثناء إذا لم تكن متأكدا من المحتوى الفعلي للملف الذي يستخدمه Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

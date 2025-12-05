@@ -6,6 +6,9 @@ linktitle: Proteger o Cifrar un Documento
 description: "Aspose.Words para C++ proporciona Solo lectura, Encripta un documento, Restringe la Edición y Firmas digitales para la protección de documentos. Aspose.Words admite la mayoría de las opciones de protección de Word."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/cpp/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

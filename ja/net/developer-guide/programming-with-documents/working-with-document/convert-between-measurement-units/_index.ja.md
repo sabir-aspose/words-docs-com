@@ -6,6 +6,9 @@ linktitle: 測定単位間の変換
 description: "Aspose.Words for .NET は、C# を使用して、インチからポイント、ポイントからインチ、ピクセルからポイント、ポイントからピクセルなどの測定単位間の変換方法を支援します。"
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/convert-between-measurement-units/
 timestamp: 2024-01-27-14-07-04
 ---

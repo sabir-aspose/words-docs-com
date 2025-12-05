@@ -6,6 +6,9 @@ linktitle: Vind en Vervang
 type: docs
 description: "Soek'n string of gereelde uitdrukkingspatroon in u dokument en vervang dit met die teks wat u wil gebruik Python."
 weight: 100
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/python-net/find-and-replace/
 timestamp: 2024-01-27-14-07-04
 ---

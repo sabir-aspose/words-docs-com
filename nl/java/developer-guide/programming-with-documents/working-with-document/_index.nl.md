@@ -6,6 +6,9 @@ linktitle: Werken met document
 type: docs
 description: "De `Document` klasse biedt verschillende document eigenschappen en methoden. U gebruikt de `Document` klasse als startpunt voor wat je wilt uitvoeren met Aspose.Words voor Java. De `Document` object kan worden opgeslagen in een bestand of stream en ook verzonden naar een browser."
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/java/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---

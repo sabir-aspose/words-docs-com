@@ -6,6 +6,9 @@ linktitle: 예제 사용 방법
 description: "Java예제를 통해Android에 대해Aspose.Words을 실행하는 방법."
 type: docs
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/how-to-use-the-examples/
 timestamp: 2024-01-27-14-07-04
 ---

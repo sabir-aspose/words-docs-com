@@ -7,6 +7,9 @@ type: docs
 description: "انجام دو نوع مختلف از عملیات Mail Merge: ساده Mail Merge و Mail Merge با مناطق. ساده Mail Merge کل سند را در هر رکورد منبع داده تکرار می کند، در حالی که Mail Merge با مناطق تنها مناطق مشخص شده در هر رکورد را با استفاده از Java تکرار می کند."
 keywords: "how to execute Mail Merge java, Mail Merge Java, Simple Mail Merge"
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/types-of-mail-merge-operations/
 timestamp: 2024-01-27-14-07-04
 ---

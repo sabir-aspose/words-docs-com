@@ -6,6 +6,9 @@ linktitle: 사용자 정의 바코드 이미지 생성하기
 description: "다음은 C#을 이용한 바코드 모양 생성 예시입니다."
 type: docs
 weight: 350
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
 timestamp: 2024-09-05-11-07-10
 ---

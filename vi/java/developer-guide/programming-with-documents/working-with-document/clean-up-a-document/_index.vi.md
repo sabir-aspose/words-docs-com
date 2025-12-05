@@ -6,6 +6,9 @@ linktitle: Làm Sạch Một Tài liệu
 description: "Loại bỏ thông tin không sử dụng hoặc trùng lặp để giảm kích thước đầu ra và thời gian xử lý. Xóa các kiểu không được sử dụng, các kiểu tích hợp không được sử dụng, các kiểu trùng lặp hoặc danh sách không được sử dụng bằng Java"
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

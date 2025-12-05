@@ -6,6 +6,9 @@ linktitle: Inhalte zwischen Knoten extrahieren
 type: docs
 description: "Extrahieren von Dokumentinhalten in verschiedenen mit Java."
 weight: 140
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/extract-selected-content-between-nodes/
 timestamp: 2024-01-27-14-07-04
 ---

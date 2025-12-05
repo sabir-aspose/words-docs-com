@@ -6,6 +6,9 @@ linktitle: 创建页面布局
 description: "创建页面布局可能是一个昂贵的过程。 Aspose.Words仅在必要时才会创建页面布局：呈现文档页面、获取字段值、将文档导出到HTML等。"
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/creating-a-page-layout/
 timestamp: 2024-09-24-14-35-44
 ---

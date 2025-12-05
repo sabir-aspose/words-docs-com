@@ -6,6 +6,9 @@ linktitle: 使用内容控制SDT
 type: docs
 description: "高级文档内容管理，如何使用Java创建和操作内容控件（结构化文档标签）。"
 weight: 390
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---

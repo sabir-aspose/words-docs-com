@@ -6,6 +6,9 @@ linktitle: Salvarea unui Document ca pagină multiplă TIFF
 description: "Convertiți un document într-o imagine raster, care este discutată pe exemplul formatului TIFF. Pentru a determina modul în care este afișat TIFF, trebuie să specificați opțiuni suplimentare: rezoluție, număr de pagini, binarizare imagine etc. folosind Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/java/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

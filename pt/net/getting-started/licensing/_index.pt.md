@@ -6,6 +6,9 @@ linktitle: Licenciamento e Assinatura
 description: "Aspose.Words for .NET oferece diferentes planos de compra ou oferece uma avaliação gratuita e uma licença temporária de 30 dias para avaliação usando políticas de licenciamento e assinatura em C#."
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/net/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

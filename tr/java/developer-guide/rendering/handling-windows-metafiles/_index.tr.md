@@ -6,6 +6,9 @@ linktitle: İşlem Windows metafilleri
 description: "Aspose.Words için Java uygulamak kendi Windows Metafile oynatıcısını oynatır Metafile biçimini tüm platformlarda ve temel metafile özelliklerini yönetmeyi destekler ve farklı türde bir metafile oynatıcısıya düşebilir."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

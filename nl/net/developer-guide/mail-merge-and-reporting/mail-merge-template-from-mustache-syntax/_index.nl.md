@@ -7,6 +7,9 @@ type: docs
 description: "Maak sjablonen met Mustache syntaxis met C#. Mustache syntaxis is de enige optie om te gebruiken met sjablonen die geen velden bevatten (HTML of TXT). Met Word templates heb je twee opties: velden of Mustache syntaxis."
 keywords: "mail merge template mustache syntax c#"
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/mail-merge-template-from-mustache-syntax/
 timestamp: 2024-07-11-08-07-06
 ---

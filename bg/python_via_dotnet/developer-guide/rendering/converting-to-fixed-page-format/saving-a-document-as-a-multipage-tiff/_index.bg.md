@@ -6,6 +6,9 @@ linktitle: Запис на документ като Multipage TIFF
 description: "Конвертиране на документ в много страници TIFF, използвайки Python. За да определите как документът се показва на изображението, трябва да посочите допълнителни опции: резолюция, брой страници, бинаризация на изображения и др."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/python-net/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

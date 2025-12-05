@@ -6,6 +6,9 @@ linktitle: Làm việc với SmartArt Kết Xuất Lạnh
 type: docs
 description: "Aspose.Words cho C++ thực hiện SmartArt Kết Xuất Lạnh, có nghĩa là nó nằm ngoài và kết xuất các đối tượng SmartArt nếu bản vẽ SmartArt được kết xuất trước bị thiếu hoặc không chính xác."
 weight: 330
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

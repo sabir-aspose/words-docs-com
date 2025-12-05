@@ -6,6 +6,9 @@ linktitle: Traduire Markdown en Modèle d'objet de document (DOM)
 type: docs
 description: "Créez un document Markdown pour documenter le modèle objet et inversement en utilisant C++. Ainsi, vous pouvez travailler avec des Markdown existants complexes et créer par programme un document Markdown à partir de zéro."
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/translate-markdown-to-document-object-model/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: Guía para desarrolladores
 description: "Esta guía para desarrolladores describe escenarios prácticos y consejos para ayudarle a utilizar funciones específicas de Aspose.Words para .NET, lograr una determinada apariencia de documento o hacer posible un caso de uso."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

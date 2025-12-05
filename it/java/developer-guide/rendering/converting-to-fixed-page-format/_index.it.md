@@ -6,6 +6,9 @@ linktitle: Conversione in formato a pagina fissa
 description: "Aspose.Words per Java implementa il proprio motore di layout di pagina che consente di produrre tutti i formati di pagina fissi, come PDF, XPS e vari formati di immagine."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/java/converting-to-fixed-page-format/
 timestamp: 2024-01-31-14-23-37
 ---

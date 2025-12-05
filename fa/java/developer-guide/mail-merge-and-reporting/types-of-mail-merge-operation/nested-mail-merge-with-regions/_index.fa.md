@@ -7,6 +7,9 @@ type: docs
 description: "عملیات Mail Merge را با مناطق آشیانه ای انجام دهید. ادغام آشیانه ای یک ویژگی است که شما را قادر می سازد داده های سلسله مراتبی را از منبع داده خود به قالب ادغام خود با استفاده از Java ادغام کنید."
 keywords: "mail merge with nested regions Java, Nested Mail Merge Regions"
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/nested-mail-merge-with-regions/
 timestamp: 2024-01-27-14-07-04
 ---

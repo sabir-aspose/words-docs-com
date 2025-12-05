@@ -6,6 +6,9 @@ linktitle: Làm việc với tài liệu văn bản
 description: "Xử lý tài liệu TXT nâng cao, danh sách, BiDi, đầu trang/chân trang, sử dụng C#."
 type: docs
 weight: 430
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/working-with-text-document/
 timestamp: 2024-01-27-14-07-04
 ---

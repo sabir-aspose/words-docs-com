@@ -6,6 +6,9 @@ linktitle: Работа с SmartArt студено рендиране
 type: docs
 description: "Aspose.Words за C++ изпълнява SmartArt студено рендиране, което означава, че излага и рендира SmartArt обекти, ако предварително рендираният SmartArt чертеж липсва или е неправилен."
 weight: 330
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

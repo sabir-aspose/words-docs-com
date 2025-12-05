@@ -8,6 +8,9 @@ linktitle: Контакти
 type: docs
 description: "Aspose.Words для .NET Відповіді про найбільш поширені питання. Дізнайтеся цю сторінку, щоб швидко вирішити вашу проблему на загальні питання або конкретні теми."
 weight: 75
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/faq/
 timestamp: 2024-11-18-12-56-02
 ---

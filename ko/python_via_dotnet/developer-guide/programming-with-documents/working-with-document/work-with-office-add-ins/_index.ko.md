@@ -6,6 +6,9 @@ linktitle: Office 추가 기능 사용
 description: "Aspose.Words for Python via .NET는 Office 추가 기능 작업을 위한 다양한 클래스를 제공합니다. 웹 확장을 통해 작업창을 추가하고 창 및 확장 속성을 사용자 지정할 수 있습니다."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

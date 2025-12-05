@@ -6,6 +6,9 @@ linktitle: Umgang mit Windows Metadateien
 description: "Aspose.Words für Java implementiert einen eigenen Windows Metadatei-Player zum Abspielen von Metadateiformaten auf allen Plattformen und unterstützt die Handhabung der grundlegenden Metadateifunktionen und kann einen Fallback auf einen anderen Typ von Metadatei-Player durchführen."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

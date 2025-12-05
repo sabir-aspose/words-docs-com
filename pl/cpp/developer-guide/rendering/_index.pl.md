@@ -6,6 +6,9 @@ linktitle: Rendering
 description: "Użyj funkcji Aspose.Words dla C++ renderowania, aby sformatować dokument układu przepływu na strony i przekonwertować taki dokument lub wybrane strony na inne dokumenty (PDF, HTML, XPS, itp.) lub obrazy (TIFF, PNG, SVG, itp.) formaty do przeglądania, dalszych konwersji lub drukowania."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/rendering/
 timestamp: 2024-01-30-16-22-34
 ---

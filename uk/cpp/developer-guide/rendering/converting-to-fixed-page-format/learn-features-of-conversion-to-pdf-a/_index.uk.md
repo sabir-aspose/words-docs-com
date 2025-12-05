@@ -6,6 +6,9 @@ linktitle: Вивчіть особливості перетворення в PDF
 description: "Перетворити на PDF/A-1, PDF/A-2, PDF/A-4 і PDF/UA, використовуючи C++. Виберіть найкращий стандарт PDF для перетворення документа за допомогою c++."
 type: docs
 weight: 35
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/learn-features-of-conversion-to-pdf-a-pdf-ua/
 timestamp: 2024-01-31-14-23-37
 ---

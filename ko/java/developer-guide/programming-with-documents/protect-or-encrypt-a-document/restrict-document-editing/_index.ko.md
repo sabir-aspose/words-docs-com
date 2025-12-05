@@ -6,6 +6,9 @@ linktitle: 문서 편집 제한
 description: "제한 유형을 설정하여 문서 편집을 제한합니다. Java을 사용하여 보호를 제거하고 제한 없는 편집 가능한 영역을 만들 수도 있습니다."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---

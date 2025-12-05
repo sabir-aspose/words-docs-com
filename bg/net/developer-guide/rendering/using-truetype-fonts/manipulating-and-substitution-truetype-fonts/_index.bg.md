@@ -6,6 +6,9 @@ linktitle: Манипулиране и заместване на шрифтов�
 description: "Aspose.Words вместо .NET може да включи правилните шрифтове TrueType в получения документ, за да се гарантира, че той показва точно използване C#. Ако няма шрифт или специфичен символ, Aspose.Words търсене на подходящ заместител на шрифта или използване на механизма за изтегляне на шрифта."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/manipulating-and-substitution-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

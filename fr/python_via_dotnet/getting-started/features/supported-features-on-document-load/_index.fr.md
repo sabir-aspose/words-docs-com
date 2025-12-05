@@ -6,6 +6,9 @@ linktitle: Fonctionnalités prises en charge lors du chargement de documents
 description: "Chargez votre document dans n'importe quel format pris en charge à l'aide de Python. Importez et convertissez un document de n’importe quelle taille."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/supported-features-on-document-load/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: Създаване на таблица
 description: "Различни начини за създаване на таблици, използващи C++. Създаване на таблица в C++ за вашия документ. Добавете таблица в C++."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: تقييد تحرير المستندات
 description: "تقييد تحرير مستند عن طريق تحديد نوع التقييد باستخدام Python. يمكنك أيضًا إزالة الحماية وإنشاء مناطق غير مقيدة قابلة للتحرير."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Làm việc với Tài liệu
 type: docs
 description: "Lớp `Document` cung cấp nhiều tính năng và phương pháp tài liệu. Bạn sử dụng lớp `Document` làm điểm bắt đầu cho bất cứ điều gì bạn muốn thực hiện với Aspose.Words cho Java. Đối tượng `Document` có thể được lưu vào một tập tin hoặc luồng và cũng có thể được gửi đến trình duyệt."
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---

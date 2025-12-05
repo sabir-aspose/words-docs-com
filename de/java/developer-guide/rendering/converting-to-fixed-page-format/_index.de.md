@@ -6,6 +6,9 @@ linktitle: Konvertierung in das Festseitenformat
 description: "Aspose.Words für Java implementiert eine eigene Seitenlayout-Engine, die es ermöglicht, alle festen Seitenformate wie PDF, XPS und verschiedene Bildformate zu erstellen."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/converting-to-fixed-page-format/
 timestamp: 2024-01-31-14-23-37
 ---

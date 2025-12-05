@@ -6,6 +6,9 @@ linktitle: 开发人员指南
 description: "本开发人员指南介绍了实用的方案和技巧，以帮助您使用特定的 Aspose.Words对于C++ 功能，实现一定的文档外观，或者使一个用例成为可能。"
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

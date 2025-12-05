@@ -6,6 +6,9 @@ linktitle: מדריך מפתח
 description: "מפתח זה מדריך מתאר תרחישים מעשיים וטיפים כדי לעזור לך להשתמש Aspose.Words עבור Python via .NET תכונות, להשיג מראה מסמך מסוים, או לעשות מקרה שימוש אפשרי."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/python-net/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

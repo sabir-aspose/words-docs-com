@@ -6,6 +6,9 @@ linktitle: Folosind TrueType Fonturi
 description: "Aspose.Words pentru C++ poate găsi fontul potrivit sau înlocuirea sa adecvată pentru redarea corectă a documentelor. Acest lucru asigură că diferența dintre documentul afișat și original este minimă atunci când nu există suficiente informații despre un font."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Criando OOXML gráficos do zero
 description: "Como criar gráficos diferentes em seu documento usando C++."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/creating-ooxml-charts-from-scratch-using-aspose-words/
 timestamp: 2024-01-27-14-07-04
 ---

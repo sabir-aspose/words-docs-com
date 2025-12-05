@@ -6,6 +6,9 @@ linktitle: 차트 작업
 description: "차트 기능 소개,Java을 사용하여 차트를 만들고 조작하는 방법."
 type: docs
 weight: 310
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/working-with-charts/
 timestamp: 2024-01-27-14-07-04
 ---

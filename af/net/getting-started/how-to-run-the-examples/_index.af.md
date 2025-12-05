@@ -6,6 +6,9 @@ linktitle: Hoe Om Voorbeelde Uit Te voer
 description: "Aflaai Aspose.Words vir .NET voorbeelde van ons GitHub bewaarplek en leer hoe om hulle uit te voer om meer vertroud te raak met die Aspose.Words moontlikhede en funksies met behulp van C#."
 type: docs
 weight: 110
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/how-to-run-the-examples/
 timestamp: 2024-10-24-11-44-28
 ---

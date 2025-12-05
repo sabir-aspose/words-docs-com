@@ -6,6 +6,9 @@ linktitle: Linux에TrueType글꼴 설치
 description: "Aspose.WordsJava의 경우Linux컴퓨터에서Microsoft Word을 사용하여 만든 문서를 가장 정확하게 렌더링할 수 있습니다."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/install-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

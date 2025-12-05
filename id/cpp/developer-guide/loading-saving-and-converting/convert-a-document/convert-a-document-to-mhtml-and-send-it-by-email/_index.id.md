@@ -6,6 +6,9 @@ linktitle: Konversikan Dokumen menjadi MHTML dan Kirimkan melalui Email
 description: "Konversikan dokumen dari hampir semua format ke format MHTML dan kirimkan dokumen hasilnya melalui email."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/cpp/convert-a-document-to-mhtml-and-send-it-by-email/
 timestamp: 2024-01-27-14-07-04
 ---

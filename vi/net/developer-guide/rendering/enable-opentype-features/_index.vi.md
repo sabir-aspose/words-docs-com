@@ -6,6 +6,9 @@ linktitle: Kích hoạt tính năng OpenType
 description: "Tính năng kiểu chữ nâng cao sử dụng C#."
 type: docs
 weight: 25
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/enable-opentype-features/
 timestamp: 2024-07-10-14-38-57
 ---

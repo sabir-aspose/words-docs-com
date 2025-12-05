@@ -8,6 +8,7 @@ weight: 25
 description: "Aspose.Words por Java presenta herramientas impulsadas por AI, como el resumen de documentos, para aumentar la eficiencia. Aprenda a usar las funciones potenciadas por AI con consejos y orientación detallada."
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/java/ai-powered-features/
 timestamp: 2025-03-17-19-00-00
 ---

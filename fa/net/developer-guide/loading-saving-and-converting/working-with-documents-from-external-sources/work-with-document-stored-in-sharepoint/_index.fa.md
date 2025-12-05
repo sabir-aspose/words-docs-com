@@ -6,6 +6,9 @@ linktitle: با یک سند ذخیره شده در SharePoint Online کار کن
 description: "تبدیل Word به اشتراک گذاشته شده در SharePoint به PDF با استفاده از C#. کار با اسناد ذخیره شده در SharePoint - فرمت های ورودی مختلف، از جمله Word، OpenOffice، Image و eBook."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/work-with-document-stored-in-sharepoint/
 timestamp: 2024-10-21-11-17-44
 ---

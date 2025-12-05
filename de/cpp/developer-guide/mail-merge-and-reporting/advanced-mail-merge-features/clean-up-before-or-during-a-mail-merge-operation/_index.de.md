@@ -7,6 +7,9 @@ type: docs
 description: "Wenden Sie verschiedene Bereinigungs- und Entfernungsoptionen an, z. B. das Löschen von Seriendruckfeldern, bevor Sie einen mail merge-Vorgang ausführen, oder das Entfernen nicht verwendeter Bereiche während eines mail merge-Vorgangs."
 keywords: "cleanup options Mail Merge c#"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/cpp/clean-up-before-or-during-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

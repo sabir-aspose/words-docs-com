@@ -6,6 +6,9 @@ linktitle: 메모리 요구 사항
 description: "문서 작업을 위해 Aspose.Words for .NET에 얼마나 많은 메모리가 필요합니까? 세부 사항을 알아보세요."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/memory-requirements/
 timestamp: 2024-09-25-11-08-55
 ---

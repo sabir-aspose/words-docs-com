@@ -6,6 +6,9 @@ linktitle: 文書の保護または暗号化
 description: "文書を暗号化し、編集を制限し、文書保護のためにデジタル署名を使用します。 Aspose.Wordsは、Javaを使用してほとんどの単語保護オプションをサポートします。"
 type: docs
 weight: 50
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 新增或修改超連結
 description: "如何在C#中透過Aspose.Words為.NET添加超連結到您的文件。"
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/working-with-hyperlinks/
 timestamp: 2024-01-27-14-07-04
 ---

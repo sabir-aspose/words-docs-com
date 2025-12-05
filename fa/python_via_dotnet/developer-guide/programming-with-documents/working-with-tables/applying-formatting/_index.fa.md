@@ -6,6 +6,9 @@ linktitle: اعمال قالب بندی
 description: "قالب بندی جدول در جزئیات با استفاده از Python. از Python برای قالب بندی هر قسمت از جدول استفاده کنید."
 type: docs
 weight: 70
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/applying-formatting/
 timestamp: 2024-01-27-14-07-04
 ---

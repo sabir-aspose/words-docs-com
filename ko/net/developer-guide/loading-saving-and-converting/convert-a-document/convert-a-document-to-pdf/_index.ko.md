@@ -6,6 +6,9 @@ linktitle: 문서를 PDF로 변경
 description: "C#에서 워드를 PDF로 변환. DOCX에서 PDF로 변환하는 간단한 코드 예제. 모든 워드 형식과 이미지를 지원합니다."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/convert-a-document-to-pdf/
 timestamp: 2024-09-25-11-08-55
 ---

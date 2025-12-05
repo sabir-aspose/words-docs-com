@@ -6,6 +6,9 @@ linktitle: Utilisez DocumentBuilder pour insérer des éléments de Document
 type: docs
 description: "Insérez des éléments de document à l'aide du générateur de documents dans Java."
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/use-documentbuilder-to-insert-document-elements/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Melacak Perubahan dalam Dokumen
 description: "Lacak perubahan pada konten dan pemformatan yang dibuat oleh Anda atau orang lain menggunakan C++. Akses revisi individual dalam dokumen dan terapkan berbagai properti padanya."
 type: docs
 weight: 270
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/cpp/track-changes-in-a-document/
 timestamp: 2024-01-30-16-22-34
 ---

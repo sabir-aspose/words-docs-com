@@ -6,6 +6,9 @@ linktitle: Přehled tabulky
 description: "Práce s stoly a jejich komponenty, jako jsou buňky, řádky, sloupce v Aspose.Words místo .NET. Jak pracovat s tabulkami v C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/net/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Робота з PDF/A або PDF/UA
 description: "Перетворення в PDF/A-1, PDF/A-2, PDF/A-4 та PDF/UA за допомогою Javaй Є кілька проблем при конвертації документів PDF/A, і Aspose.Words для Java розчиняє їх."
 type: docs
 weight: 28
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/java/working-with-pdfa-or-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

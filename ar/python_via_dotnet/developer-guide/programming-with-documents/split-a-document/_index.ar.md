@@ -6,6 +6,9 @@ linktitle: تقسيم مستند
 description: "تقسيم مستند إلى عدة ملفات باستخدام Python. استخدم ميزة التقسيم لتقسيم المستند بشكل فعال حسب العناوين أو الأقسام، وكذلك حسب الصفحات أو حسب نطاقات الصفحات."
 type: docs
 weight: 90
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

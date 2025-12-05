@@ -6,6 +6,9 @@ linktitle: การใช้แบบอักษร TrueType
 description: "Aspose.Words สำหรับ .NET สามารถค้นหาแบบอักษรที่ถูกต้องหรือการแทนที่ที่เหมาะสมสำหรับการแสดงเอกสารที่ถูกต้องโดยใช้ C# เพื่อให้แน่ใจว่าความแตกต่างระหว่างเอกสารที่แสดงและต้นฉบับจะมีน้อยที่สุดเมื่อมีข้อมูลเกี่ยวกับแบบอักษรไม่เพียงพอ"
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

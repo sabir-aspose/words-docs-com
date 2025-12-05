@@ -6,6 +6,9 @@ linktitle: המר מסמך ל - MHTML ושלח אותו בדואר אלקטרו�
 description: "המר מסמך כמעט מכל פורמט לפורמט MHTML ושלח את מסמך התוצאה בדואר אלקטרוני."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/convert-a-document-to-mhtml-and-send-it-by-email/
 timestamp: 2024-01-27-14-07-04
 ---

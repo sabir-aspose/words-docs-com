@@ -6,6 +6,9 @@ linktitle: Pisahkan Dokumen
 description: "Pisahkan dokumen menjadi beberapa file menggunakan C#. Gunakan fitur pemisahan untuk membagi dokumen secara efektif berdasarkan judul atau bagian, serta berdasarkan halaman atau rentang halaman."
 type: docs
 weight: 90
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/net/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

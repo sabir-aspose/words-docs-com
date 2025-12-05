@@ -6,6 +6,9 @@ linktitle: Trabalhar com texto numa tabela
 description: "Substitua o texto em uma tabela em Java. Extraia texto simples da tabela ou célula usando Java."
 type: docs
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/java/extract-text-from-and-replace-text-in-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

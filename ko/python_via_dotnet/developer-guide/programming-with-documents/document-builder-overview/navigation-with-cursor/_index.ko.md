@@ -6,6 +6,9 @@ linktitle: 커서를 이용한 탐색
 description: "Python를 사용하여 단락, 책갈피 또는 특정 문자와 같은 문서 내의 여러 노드 간을 탐색합니다."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/navigation-with-cursor/
 timestamp: 2024-01-27-14-07-04
 ---

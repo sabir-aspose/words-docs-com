@@ -6,6 +6,9 @@ linktitle: Nainstalujte TrueType písma na Linux
 description: "Aspose.Words for C++ umožňuje vykreslení dokumentu vytvořeného pomocí Microsoft Word na stroji Linux s nejlepší přesností. Chcete-li toho dosáhnout, zkopírujte soubory písem ze zařízení Windows nebo nainstalujte balíček písem `TrueType` do zařízení Linux."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/install-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

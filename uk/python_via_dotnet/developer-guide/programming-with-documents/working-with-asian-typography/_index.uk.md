@@ -6,6 +6,9 @@ linktitle: Робота з азіатською типографії
 description: "Робота з азіатською типографією Pythonй Регулювання простору між азіатським і латинським текстом Pythonй"
 type: docs
 weight: 240
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/python-net/working-with-asian-typography/
 timestamp: 2024-02-01-16-17-05
 ---

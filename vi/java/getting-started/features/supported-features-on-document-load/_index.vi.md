@@ -6,6 +6,9 @@ linktitle: Tính năng hỗ trợ khi tải tài liệu
 description: "Tải và chuyển đổi tài liệu ở hầu hết các định dạng phổ biến và hỗ trợ rất nhiều Microsoft Word tính năng."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/supported-features-on-document-load/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 连接表
 description: "高级表格操作。 如何将两个表合并为一个C++。 使用C++连接表。"
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/join-tables/
 timestamp: 2024-01-27-14-07-04
 ---

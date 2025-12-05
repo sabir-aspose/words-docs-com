@@ -6,6 +6,9 @@ linktitle: Technische ondersteuning
 type: docs
 description: "Aspose.Words voor Python via .NET biedt gratis technische ondersteuning beschikbaar voor alle gebruikers. Rapporteer uw vraag, probleem of functieverzoek via Aspose Free Support Forum."
 weight: 80
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/python-net/technical-support/
 timestamp: 2024-11-18-12-56-02
 ---

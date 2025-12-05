@@ -6,6 +6,9 @@ linktitle: Rendering
 description: "שימוש בשימוש Aspose.Words עבור Python via .NET להפוך את התכונה כדי לעצב מסמך עיכוב זרימה לתוך דפים ולהפוך מסמך כזה או דפים נבחרים למסמכים אחרים (PDF, HTML, HTML, XPS, וכו ') או תמונות (TIFF, PNG, SVG וכו ') פורמטים לצפייה, המרות נוספות, או הדפסה."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/python-net/rendering/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Sử dụng DocumentBuilder Để Sửa Đổi Tài liệu Một Các
 type: docs
 description: "Sử dụng trình tạo tài liệu để sửa đổi tài liệu một cách dễ dàng trong C++."
 weight: 190
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/using-documentbuilder-to-modify-a-document-easily/
 timestamp: 2024-01-27-14-07-04
 ---

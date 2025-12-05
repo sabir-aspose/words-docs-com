@@ -6,6 +6,9 @@ linktitle: 文書の挿入と追加
 description: "ドキュメントを1つに結合する:検索と置換、差し込み項目、ブックマーク、または単にドキュメントの末尾を使用して、新規または既存のドキュメントにドキュメントを挿入または追加します。"
 type: docs
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

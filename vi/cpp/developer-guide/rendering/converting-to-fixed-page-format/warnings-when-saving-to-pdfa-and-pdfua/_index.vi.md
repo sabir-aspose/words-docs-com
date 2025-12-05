@@ -6,6 +6,9 @@ linktitle: Cảnh Báo Vấn đề về khả Năng Truy Cập Khi Lưu vào PDF
 description: "PDF/A và PDF/UA áp đặt các yêu cầu về khả năng truy cập liên quan đến nội dung tài liệu. Khi lưu vào PDF/A hoặc PDF/UA trong C++ và vấn đề vi phạm tuân thủ, một cảnh báo được đưa ra."
 type: docs
 weight: 39
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

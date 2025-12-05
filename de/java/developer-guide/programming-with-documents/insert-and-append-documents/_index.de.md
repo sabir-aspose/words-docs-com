@@ -6,6 +6,9 @@ linktitle: Dokumente einfügen und anhängen
 description: "Dokumente zu einem kombinieren: Fügen Sie ein Dokument mit Suchen und Ersetzen, Seriendruckfeld, Lesezeichen oder einfach am Dokumentende in Java in ein neues oder vorhandenes Dokument ein oder hängen Sie es an."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

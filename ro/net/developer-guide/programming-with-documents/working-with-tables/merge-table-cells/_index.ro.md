@@ -6,6 +6,9 @@ linktitle: Fuse Celulele Tabelului
 description: "Cum să fuzionezi celulele tabelului în C#. Verificați dacă celulele dintr-o tabelă sunt combinate folosind C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/working-with-merged-cells/
 timestamp: 2024-01-27-14-07-04
 ---

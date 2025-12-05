@@ -6,6 +6,9 @@ linktitle: کار با بوک مارک ها
 description: "درک مفاهیم نشانه گذاری و چگونگی استفاده از نشانه گذاری در برنامه شما با استفاده از Java."
 type: docs
 weight: 180
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/working-with-bookmarks/
 timestamp: 2024-01-27-14-07-04
 ---

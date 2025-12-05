@@ -6,6 +6,9 @@ linktitle: Как да управляваме примерите
 description: "Изтеглете Aspose.Words за C++ примери от нашето GitHub хранилище и научете как да ги изпълнявате, за да се запознаете по-добре с Aspose.Words възможностите и функциите."
 type: docs
 weight: 110
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/how-to-run-the-examples/
 timestamp: 2024-07-11-16-13-28
 ---

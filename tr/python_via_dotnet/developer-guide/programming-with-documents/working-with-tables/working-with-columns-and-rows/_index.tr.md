@@ -6,6 +6,9 @@ linktitle: Sütunlar ve Satırlar ile Çalışma
 description: "Python kullanarak bir tablonun satırları, sütunları ve hücreleri gibi bölümleriyle çalışma. Başlık Satırı Python'i belirtin."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/python-net/working-with-columns-and-rows/
 timestamp: 2024-01-27-14-07-04
 ---

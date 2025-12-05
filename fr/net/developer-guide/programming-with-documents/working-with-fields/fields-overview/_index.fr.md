@@ -6,6 +6,9 @@ linktitle: Aperçu des champs
 description: "Les champs présentent des détails, des codes de champ et des résultats de champ expliqués dans Aspose.Words pour .NET."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/fields-overview/
 timestamp: 2024-09-25-11-08-55
 ---

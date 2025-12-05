@@ -6,6 +6,9 @@ linktitle: Konversi Dokumen ke Excel
 description: "Konversikan PDF ke Excel, XML ke Excel, DOCX ke Excel Java. Simpan dokumen dalam berbagai format ke XLSX menggunakan Java."
 type: docs
 weight: 15
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/java/convert-a-document-to-excel/
 timestamp: 2024-01-31-14-23-37
 ---

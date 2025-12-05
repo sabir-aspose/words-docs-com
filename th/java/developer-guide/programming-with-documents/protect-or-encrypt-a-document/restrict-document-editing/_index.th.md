@@ -6,6 +6,9 @@ linktitle: จำกัดการแก้ไขเอกสาร
 description: "จำกัดการแก้ไขเอกสารโดยการตั้งค่าชนิดข้อจำกัด นอกจากนี้คุณยังสามารถลบการป้องกันและทำให้พื้นที่ที่สามารถแก้ไขได้โดยไม่จำกัดโดยใช้Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---

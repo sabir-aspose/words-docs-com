@@ -6,6 +6,9 @@ linktitle: نظرة عامة على الحقول
 description: "تتميز الحقول بالتفاصيل ورموز الحقول والنتائج الميدانية الموضحة في Aspose.Words لـ .NET."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/fields-overview/
 timestamp: 2024-09-25-11-08-55
 ---

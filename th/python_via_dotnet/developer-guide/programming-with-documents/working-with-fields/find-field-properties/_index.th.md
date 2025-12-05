@@ -6,6 +6,9 @@ linktitle: ค้นหาคุณสมบัติของฟิลด์
 description: "วิธีค้นหาคุณสมบัติของฟิลด์บางอย่าง เช่น โค้ดของฟิลด์ และผลลัพธ์ของฟิลด์เป็น Python"
 type: docs
 weight: 25
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/python-net/find-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

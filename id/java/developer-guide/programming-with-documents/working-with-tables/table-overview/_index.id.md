@@ -6,6 +6,9 @@ linktitle: Gambaran Umum Tabel
 description: "Bekerja dengan tabel dan komponennya seperti sel, baris, kolom dalam Aspose.Words untuk Java. Cara bekerja dengan tabel dalam Java."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/java/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

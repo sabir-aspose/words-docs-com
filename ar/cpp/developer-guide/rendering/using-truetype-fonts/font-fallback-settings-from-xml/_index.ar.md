@@ -6,6 +6,9 @@ linktitle: إعدادات الخط FallBack من XML
 description: "يتم استخدام آلية احتياطي الخط عند حل الخط، ولكنها لا تحتوي على حرف معين. في هذه الحالة، Aspose.Words يحاول استخدام أحد الخطوط الاحتياطية للحرف."
 type: docs
 weight: 14
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/font-fallback-settings-from-xml/
 timestamp: 2024-09-24-14-35-44
 ---

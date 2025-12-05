@@ -8,6 +8,7 @@ weight: 10
 description: "Aspose.Wordsper Java supporta i modelli OpenAI e Google AI per la sintesi e la traduzione dei documenti. Utilizzare Aspose.Words con Gpt-4o, Gpt-4o mini, Gpt-4 Turbo, GPT-3.5 Turbo, Gemini 1.5 Flash, Gemini 1.5 Flash-8B, Gemini 1.5 Pro."
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/java/supported-ai-models/
 timestamp: 2024-11-26-12-00-00
 ---

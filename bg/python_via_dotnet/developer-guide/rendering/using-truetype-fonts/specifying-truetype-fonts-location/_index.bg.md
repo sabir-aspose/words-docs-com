@@ -6,6 +6,9 @@ linktitle: Посочване на вярното Тип шрифтове Мес
 description: "Посочете различни Вярно е. Тип източници на шрифт: системна папка, потребителски източници, зареждане на шрифтове от поток, файлова система или памет, използвайки Python."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/python-net/specifying-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

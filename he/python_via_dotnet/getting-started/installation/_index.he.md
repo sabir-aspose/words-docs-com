@@ -6,6 +6,9 @@ linktitle: מתקן
 description: "התקן Aspose.Words עבור Python באמצעות שימוש Visual Studio כלים כגון Manage NuGet Packages או Package Manager Console ומתקין MSI. השתמש Full Trust רשות"
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/python-net/installation/
 timestamp: 2024-01-27-14-07-04
 ---

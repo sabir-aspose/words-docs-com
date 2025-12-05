@@ -6,6 +6,9 @@ linktitle: 以编程方式或使用对话框打印文档
 description: "使用非托管 XpsPrint API 或通过具有 C# 格式的设置和打印预览对话框的选定打印机打印 Server 上的文档。"
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-31-14-23-37
 ---

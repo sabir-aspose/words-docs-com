@@ -6,6 +6,9 @@ linktitle: 画像の操作
 description: "Python を使用して、ドキュメント内のさまざまな形式の画像を作成および管理します。"
 type: docs
 weight: 300
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/python-net/working-with-images/
 timestamp: 2024-01-27-14-07-04
 ---

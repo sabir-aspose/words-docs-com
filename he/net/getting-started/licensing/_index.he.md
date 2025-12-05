@@ -6,6 +6,9 @@ linktitle: רישוי ומנוי
 description: "Aspose.Words עבור .NET מספק תוכניות שונות לרכישת או מציע משפט חינם ורישיון זמני של 30 יום להערכה באמצעות מדיניות רישוי ומנויות. C#."
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

@@ -6,6 +6,9 @@ linktitle: Obsługiwane formaty dokumentów
 type: docs
 description: "Edytuj dokumenty źródłowe w wielu popularnych formatach, jak również dowolnie konwertuj pliki z jednego formatu do drugiego za pomocą Java."
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/supported-document-formats/
 timestamp: 2024-10-21-11-17-44
 ---

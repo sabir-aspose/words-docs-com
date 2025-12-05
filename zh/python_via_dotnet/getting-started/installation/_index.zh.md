@@ -6,6 +6,9 @@ linktitle: 安装
 description: "使用 Manage NuGet Packages 或 Package Manager Console 等 Visual Studio 工具以及 MSI 安装程序安装 Aspose.Words for Python。使用 Full Trust 权限集。"
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/installation/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: การทำงานกับเอกสาร
 type: docs
 description: "คลาส`Document`มีคุณสมบัติและวิธีการของเอกสารต่างๆ คุณใช้ชั้นเรียน`Document`เป็นจุดเริ่มต้นสำหรับสิ่งที่คุณต้องการดำเนินการด้วยAspose.WordsสำหรับJava วัตถุ`Document`สามารถบันทึกไปยังแฟ้มหรือสตรีมและส่งไปยังเบราว์เซอร์."
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---

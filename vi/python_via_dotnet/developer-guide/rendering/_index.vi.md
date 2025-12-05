@@ -6,6 +6,9 @@ linktitle: Kết xuất
 description: "Sử dụng tính năng hiển thị Aspose.Words cho Python via .NET để định dạng tài liệu bố cục luồng thành các trang và chuyển đổi tài liệu đó hoặc các trang đã chọn sang các định dạng tài liệu khác (PDF, HTML, XPS, v.v.) hoặc hình ảnh (TIFF, PNG, SVG, v.v.) cho xem, chuyển đổi thêm hoặc in."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/rendering/
 timestamp: 2024-01-27-14-07-04
 ---

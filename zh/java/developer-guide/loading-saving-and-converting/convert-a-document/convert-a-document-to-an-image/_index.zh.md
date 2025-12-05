@@ -6,6 +6,9 @@ linktitle: 将文档转换为图像
 type: docs
 description: "将文档转换为图像格式（JPG，PNG等）。 创建文档预览或创建文档扫描以使用Java发送发票。"
 weight: 35
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/convert-a-document-to-an-image/
 timestamp: 2024-01-27-14-07-04
 ---

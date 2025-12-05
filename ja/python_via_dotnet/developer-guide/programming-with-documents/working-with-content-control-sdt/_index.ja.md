@@ -6,6 +6,9 @@ linktitle: コンテンツ コントロール SDT の使用
 description: "Python を使用すると、顧客定義のセマンティクスとその動作や外観をドキュメントに埋め込むことができます。"
 type: docs
 weight: 390
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/python-net/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---

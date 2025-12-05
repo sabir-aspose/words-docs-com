@@ -6,6 +6,9 @@ linktitle: 比較文件
 description: "以 C# 比較兩種任何支援的格式的文件並顯示內容更改。 您在比較時可以選用進階選項。"
 type: docs
 weight: 60
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/compare-documents/
 timestamp: 2024-01-27-14-07-04
 ---

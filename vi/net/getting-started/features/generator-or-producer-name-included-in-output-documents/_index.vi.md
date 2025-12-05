@@ -6,6 +6,9 @@ linktitle: Tên người tạo hoặc nhà sản xuất có trong tài liệu đ
 description: "Aspose.Words cho .NET thêm vào tài liệu tên trình tạo và số phiên bản đã được sử dụng để tạo nó. Dữ liệu này có thể được tìm thấy trong tài liệu theo những cách phụ thuộc vào định dạng tệp đầu ra bằng C#."
 type: docs
 weight: 60
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

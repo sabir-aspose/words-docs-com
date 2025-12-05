@@ -6,6 +6,9 @@ linktitle: Redarea formelor separat de un Document
 description: "Extrageți diverse obiecte grafice, cum ar fi imagini, casetă de text care conține paragrafe sau forme de săgeți, atunci când procesați un document și exportați-le într-o locație externă folosind Python."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/python-net/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

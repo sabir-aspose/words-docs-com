@@ -6,6 +6,9 @@ linktitle: Convertir un documento a PDF
 description: "Convierta un documento a PDF usando Python. Se admiten varios formatos de entrada, incluidos los formatos Word, OpenOffice, Image y eBook."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/python-net/convert-a-document-to-pdf/
 timestamp: 2024-01-31-14-23-37
 ---

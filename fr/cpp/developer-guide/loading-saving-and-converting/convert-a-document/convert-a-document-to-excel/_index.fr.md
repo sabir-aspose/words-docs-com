@@ -6,6 +6,9 @@ linktitle: Convertir un document en Excel
 description: "Convertissez PDF en Excel, XML en Excel, DOCX en Excel C++. Enregistrez un document dans différents formats au format XLSX à l'aide de C++."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/convert-a-document-to-excel/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: 테이블 스타일 적용
 description: "고급 테이블 서식Java. Java을 사용하여 테이블 스타일을 만듭니다. 고급 테이블 서식,Java을 사용하는 테이블 스타일 소개."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/working-with-tablestyle/
 timestamp: 2024-01-27-14-07-04
 ---

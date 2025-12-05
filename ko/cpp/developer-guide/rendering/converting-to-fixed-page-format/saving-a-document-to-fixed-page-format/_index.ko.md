@@ -6,6 +6,9 @@ linktitle: 고정 페이지 형식으로 문서 저장
 description: "고정 페이지 형식으로 문서를 저장하는 방법 – PDF, XPS, HTML, XAML, PostScript,그리고 PCL? 지침을 참조하십시오."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/saving-a-document-to-fixed-page-format/
 timestamp: 2024-09-24-14-35-44
 ---

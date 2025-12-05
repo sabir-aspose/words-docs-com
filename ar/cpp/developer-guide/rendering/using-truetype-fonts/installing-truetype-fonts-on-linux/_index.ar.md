@@ -6,6 +6,9 @@ linktitle: تثبيت TrueType الخطوط على Linux
 description: "Aspose.Words ل C++ يسمح بعرض مستند تم إنشاؤه باستخدام Microsoft Word على جهاز Linux بأفضل دقة. لتحقيق ذلك، انسخ ملفات الخطوط من جهاز Windows أو قم بتثبيت حزمة خطوط `TrueType` على جهازك Linux."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/install-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: إضافة أو تعديل الارتباطات التشعبية
 description: "إضافة ارتباط تشعبي أو استبداله أو تعديله في مستند باستخدام Python."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/working-with-hyperlinks/
 timestamp: 2024-01-27-14-07-04
 ---

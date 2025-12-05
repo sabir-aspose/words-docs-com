@@ -7,6 +7,9 @@ type: docs
 description: "지원되는 로드 형식의 문서를 다음과 같이 변환합니다 Markdown 그리고 그 반대도 마찬가지입니다. C++."
 keywords: how to convert a document to markdown c++, Convert doc to MD C++, convert DOCX to Markdown C++
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/convert-a-document-to-markdown/
 timestamp: 2024-10-21-08-52-03
 ---

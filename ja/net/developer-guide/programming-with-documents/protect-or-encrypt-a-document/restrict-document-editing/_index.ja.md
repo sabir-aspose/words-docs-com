@@ -6,6 +6,9 @@ linktitle: ドキュメントの編集を制限する
 description: "C# を使用して制限タイプを設定し、ドキュメントの編集を制限します。保護を解除して、無制限に編集可能な領域を作成することもできます。"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---

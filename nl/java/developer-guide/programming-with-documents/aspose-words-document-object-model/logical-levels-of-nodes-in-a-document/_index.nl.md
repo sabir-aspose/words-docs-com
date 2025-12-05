@@ -6,6 +6,9 @@ linktitle: Logische Nodesniveaus in een document
 type: docs
 description: "In Aspose.Words voor Java documentatie vermeld logische niveaus van knooppunten blokniveau, inline-niveau, of rijniveau. Het knooppuntniveau wordt gebruikt om de locatie in de documentboom te beschrijven waar het knooppunt meestal voorkomt."
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/java/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

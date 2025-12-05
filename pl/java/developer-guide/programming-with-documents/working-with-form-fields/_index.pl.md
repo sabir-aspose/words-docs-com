@@ -6,6 +6,9 @@ linktitle: Praca z Pola formularza
 description: "Funkcja Understanding Form Fields, praca z Form Fields przy użyciu Java."
 type: docs
 weight: 380
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/working-with-form-fields/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 克隆文档
 type: docs
 description: "使用C++克隆文档以获取其相同的副本。 创建副本时，将克隆原始文档的节点和属性。"
 weight: 70
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/clone-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

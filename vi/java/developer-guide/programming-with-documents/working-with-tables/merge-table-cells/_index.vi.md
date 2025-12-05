@@ -6,6 +6,9 @@ linktitle: Kết hợp các ô bảng
 description: "Cách kết hợp các ô trong Java. Kiểm tra xem các ô trong một bảng có được hợp nhất hay không bằng cách sử dụng Java."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/working-with-merged-cells/
 timestamp: 2024-01-27-14-07-04
 ---

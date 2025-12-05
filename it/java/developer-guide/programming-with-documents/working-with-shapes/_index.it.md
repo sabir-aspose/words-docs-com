@@ -6,6 +6,9 @@ linktitle: Lavorare con le forme
 type: docs
 description: "Introduzione al linguaggio shape markup, creazione di forme di diversi tipi utilizzando Java."
 weight: 280
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/java/working-with-shapes/
 timestamp: 2024-01-27-14-07-04
 ---

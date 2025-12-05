@@ -6,6 +6,9 @@ linktitle: Porovnat dokumenty
 description: "Porovnejte dva dokumenty v podporovaných formátech a zobrazí změny obsahu pomocí C#. Můžete použít pokročilé možnosti při porovnání."
 type: docs
 weight: 60
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/net/compare-documents/
 timestamp: 2024-01-27-14-07-04
 ---

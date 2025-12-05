@@ -6,6 +6,9 @@ linktitle: Spécifier Les Options D'Enregistrement
 description: "Définissez des propriétés avancées lors de l'enregistrement d'un document à l'aide de Java pour fournir un contrôle plus précis sur le processus."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/specify-save-options/
 timestamp: 2024-01-27-14-07-04
 ---

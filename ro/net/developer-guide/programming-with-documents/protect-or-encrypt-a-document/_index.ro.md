@@ -6,6 +6,9 @@ linktitle: Protejează sau criptează un document
 description: "Aspose.Words pentru .NET oferă citire doar, criptare a unui document, restricționare a editării și semnături digitale pentru protecția documentelor folosind C#. ` Aspose.Words acceptă majoritatea opțiunilor de protecție Word."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

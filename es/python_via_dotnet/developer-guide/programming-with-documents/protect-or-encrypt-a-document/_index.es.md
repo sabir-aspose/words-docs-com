@@ -6,6 +6,9 @@ linktitle: Proteger o cifrar un documento
 description: "Aspose.Words para Python via .NET proporciona solo lectura, cifrar un documento, restricción de edición y firmas digitales para protección de documentos. Aspose.Words admite la mayoría de las opciones de protección de Word."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/python-net/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 문서 삽입 및 추가
 description: "문서를 하나로 결합: 찾기 및 바꾸기, 필드 병합, 책갈피를 사용하거나 단순히 C#의 문서 끝에 문서를 새 문서나 기존 문서에 삽입하거나 추가합니다."
 type: docs
 weight: 80
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

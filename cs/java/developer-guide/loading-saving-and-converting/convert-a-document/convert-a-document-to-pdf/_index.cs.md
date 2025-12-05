@@ -6,6 +6,9 @@ linktitle: Převést dokument do PDF
 description: "Převést dokument ve Wordu nebo jiném podporovaném formátu do PDF, který zachovává původní vzhled dokumentu při jeho vykreslování na různých platformách pomocí Java."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/java/convert-a-document-to-pdf/
 timestamp: 2024-01-31-14-23-37
 ---

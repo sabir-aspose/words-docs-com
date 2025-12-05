@@ -6,6 +6,9 @@ linktitle: Hợp Nhất Các Ô Bảng
 description: "Cách hợp nhất các ô bảng trong C++. Kiểm tra xem các ô trong bảng có được hợp nhất hay không bằng C++."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/merge-table-cells/
 timestamp: 2024-01-27-14-07-04
 ---

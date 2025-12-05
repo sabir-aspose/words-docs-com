@@ -6,6 +6,9 @@ linktitle: Travailler avec des Images
 type: docs
 description: "Introduction à la fonctionnalité d'image, comment créer et manipuler une image en utilisant C++."
 weight: 300
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/working-with-images/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 与亚洲印刷术合作
 description: "使用Java处理亚洲排版。 在Java中调整亚洲和拉丁文文本之间的空格。"
 type: docs
 weight: 240
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/working-with-asian-typography/
 timestamp: 2024-01-27-14-07-04
 ---

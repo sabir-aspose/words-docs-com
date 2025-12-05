@@ -6,6 +6,9 @@ linktitle: Cấp phép Và Đăng ký
 description: "Aspose.Words Đối Với С Cung cấp các gói khác nhau để mua hoặc Cung cấp Bản Dùng Thử miễn phí và Giấy phép Tạm thời 30 ngày để đánh giá bằng Cách sử dụng Chính sách Cấp phép và Đăng ký."
 type: docs
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/licensing/
 timestamp: 2024-10-24-11-44-28
 ---

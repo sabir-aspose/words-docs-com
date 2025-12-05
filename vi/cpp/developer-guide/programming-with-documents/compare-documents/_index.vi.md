@@ -6,6 +6,9 @@ linktitle: So Sánh Tài Liệu
 type: docs
 description: "So sánh hai tài liệu ở bất kỳ định dạng được hỗ trợ nào và hiển thị các thay đổi nội dung bằng C++. Bạn có thể áp dụng các tùy chọn nâng cao khi so sánh."
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/compare-documents/
 timestamp: 2024-01-27-14-07-04
 ---

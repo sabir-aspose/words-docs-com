@@ -6,6 +6,9 @@ linktitle: 你好世界
 description: "使用 .NET 的 Aspose.Words 在任何支援的格式中建立、編輯和儲存您的第一份文件，體驗 C# 的簡單與強大。"
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/hello-world/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Поддържани функции за запис на докуме
 description: "Запис на вашия документ във всеки поддържан формат, използвайки Python. Конвертиране и експортиране на документ от всякакъв размер."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/python-net/supported-features-on-document-save/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: Trabajar con párrafos
 description: "Insertar un párrafo en un documento C#. Establecer estilos de párrafo en C#. Trabajar con el separador de estilo de párrafo C#. Manipular el nodo de párrafo usando C#."
 type: docs
 weight: 210
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/working-with-paragraphs/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: עבודה עם טקסט בטבלה
 description: "החלף טקסט בטבלה ב C++. חלץ טקסט רגיל מהטבלה או התא באמצעות C++."
 type: docs
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/work-with-text-in-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

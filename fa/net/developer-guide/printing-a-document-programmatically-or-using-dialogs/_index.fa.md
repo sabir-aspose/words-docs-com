@@ -6,6 +6,9 @@ linktitle: چاپ یک سند به صورت برنامه ای یا با استف
 description: "با استفاده از XpsPrint API مدیریت نشده یا از طریق یک چاپگر انتخابی با تنظیمات و دیالوگ های پیش نمایش چاپ در C#، یک سند را روی یک Server چاپ کنید."
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: עבודה עם SmartArt עיבוד קר
 type: docs
 description: "Aspose.Words עבור C++ מבצע SmartArt עיבוד קר, כלומר הוא פורס ומעבד SmartArt אובייקטים אם הציור SmartArt שהועבר מראש חסר או שגוי."
 weight: 330
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

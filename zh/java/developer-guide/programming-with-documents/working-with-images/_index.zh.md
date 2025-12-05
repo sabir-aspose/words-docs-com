@@ -6,6 +6,9 @@ linktitle: 使用图像
 type: docs
 description: "Aspose.Words为Java提供的详细信息和高级功能中的图像形状。"
 weight: 300
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/working-with-images/
 timestamp: 2024-01-27-14-07-04
 ---

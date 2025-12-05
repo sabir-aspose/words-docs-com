@@ -6,6 +6,9 @@ linktitle: ซึ่งPDFมาตรฐานจะดีกว่าที่
 description: "เลือกPDFมาตรฐานที่ดีที่สุดเพื่อส่งออกผลลัพธ์ของงานการเขียนโปรแกรมของคุณในC++ ซึ่งPDFมาตรฐานจะดีกว่า– PDF 1.7, PDF 2.0, PDF/A-1, PDF/A-2, หรือPDF/UA."
 type: docs
 weight: 37
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/which-pdf-standard-is-better-to-choose/
 timestamp: 2024-01-27-14-07-04
 ---

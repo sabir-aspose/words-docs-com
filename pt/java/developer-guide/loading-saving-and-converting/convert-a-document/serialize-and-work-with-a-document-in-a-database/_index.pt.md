@@ -6,6 +6,9 @@ linktitle: Serializar e trabalhar com um documento numa base de dados
 description: "Converta um documento em uma matriz de bytes para trabalhar com este documento em um banco de dados. Você pode armazenar e recuperar um documento de e para o banco de dados usando Java."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/java/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-01-27-14-07-04
 ---

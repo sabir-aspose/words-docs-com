@@ -7,6 +7,9 @@ type: docs
 description: "แปลง PDF เป็นรูปแบบ Word เช่น DOCX, DOC, รูปแบบรูปภาพ เช่น JPG หรือ PNG หรือรูปแบบอื่นใดที่ Aspose.Words รองรับโดยใช้ C#"
 keywords: convert pdf to other formats c#
 weight: 45
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/convert-pdf-to-other-document-formats/
 timestamp: 2024-07-09-19-00-42
 ---

@@ -6,6 +6,9 @@ linktitle: Hoe te herkennen dat het lettertype is vervangen
 description: "Als u niet zeker weet waarom de lay-out van een document is gewijzigd of waarom een bepaald lettertype er niet uitziet zoals verwacht, kunnen waarschuwingsberichten voor lettertypesubstitutie helpen."
 type: docs
 weight: 13
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/how-to-recognize-that-the-font-was-replaced/
 timestamp: 2024-09-24-14-35-44
 ---

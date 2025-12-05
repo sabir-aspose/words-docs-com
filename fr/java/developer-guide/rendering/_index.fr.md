@@ -6,6 +6,9 @@ linktitle: Rendu
 description: "Utilisez la fonction de rendu Aspose.Words pour Java pour formater un document de mise en page de flux en pages et convertir ce document ou les pages sélectionnées en un autre document (PDF, HTML, XPS, etc.) ou image (TIFF, PNG, SVG, etc.) formats pour la visualisation, les conversions ultérieures ou l'impression."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/rendering/
 timestamp: 2024-01-27-14-07-04
 ---

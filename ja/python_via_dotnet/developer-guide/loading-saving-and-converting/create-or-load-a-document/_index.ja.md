@@ -4,6 +4,9 @@ second_title: Python via .NET用Aspose.Words
 articleTitle: ドキュメントの作成またはロード
 linktitle: ドキュメントの作成またはロード
 type: docs
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/python-net/create-or-load-a-document/
 description: "空のドキュメントを作成するか、Python を使用してファイルまたはストリームからドキュメントをロードします。"
 keywords: "create a document python, load a document python, create a blank document python, load a document from file python, load a document from stream python, create a document Aspose python, load a document Aspose python, load formats supported by Aspose.Words python"

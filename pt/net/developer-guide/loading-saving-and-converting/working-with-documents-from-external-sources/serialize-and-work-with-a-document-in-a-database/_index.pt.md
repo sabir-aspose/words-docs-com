@@ -6,6 +6,9 @@ linktitle: Serializar e trabalhar com um documento em um banco de dados
 description: "Converta um documento em uma matriz de bytes para trabalhar com este documento em um banco de dados usando C#. Você pode armazenar e recuperar um documento de e para o banco de dados."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/net/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-07-09-19-00-42
 ---

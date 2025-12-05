@@ -6,6 +6,9 @@ linktitle: کار با بخش ها
 description: "با استفاده از Python بخش‌ها و بخش‌ها را در یک سند ایجاد و مدیریت کنید. درج بخش در یک سند Python. بخش Python را حذف کنید. بخش هایی را بین اسناد کپی کنید."
 type: docs
 weight: 120
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/working-with-sections/
 timestamp: 2024-09-25-11-08-55
 ---

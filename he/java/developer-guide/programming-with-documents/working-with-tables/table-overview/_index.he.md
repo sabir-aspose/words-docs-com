@@ -6,6 +6,9 @@ linktitle: מצגת שולחן
 description: "עבודה עם טבלאות ורכיביהם כגון תאים, שורות, עמודות Aspose.Words עבור Java. איך לעבוד עם שולחנות Java."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

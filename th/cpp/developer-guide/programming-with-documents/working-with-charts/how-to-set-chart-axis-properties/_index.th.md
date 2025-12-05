@@ -6,6 +6,9 @@ linktitle: วิธีการตั้งค่าคุณสมบัติ
 description: "การปรับแต่งแกนแผนภูมิโดยใช้C++."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/how-to-set-chart-axis-properties/
 timestamp: 2024-01-27-14-07-04
 ---

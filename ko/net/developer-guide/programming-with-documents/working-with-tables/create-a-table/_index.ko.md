@@ -6,6 +6,9 @@ linktitle: 테이블 만들기
 description: "C#에서 다양한 방법으로 테이블을 만드는 방법에 대한 가이드입니다. 문서에 대한 C#에 테이블을 만듭니다."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---

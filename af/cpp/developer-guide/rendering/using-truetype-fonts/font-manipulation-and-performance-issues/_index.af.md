@@ -6,6 +6,9 @@ linktitle: Font Manipulasie En Prestasie Kwessies
 description: "Aspose.Words vir C++ gebruik lettertipe volle naam, familienaam, weergawe, styl om die vereiste lettertipe data of'n geskikte plaasvervanger vir die versoekte lettertipe te vind. FontSettings laat jou toe om die laai van die dokumente te bespoedig."
 type: docs
 weight: 11
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/font-manipulation-and-performance-issues/
 timestamp: 2024-09-24-14-35-44
 ---

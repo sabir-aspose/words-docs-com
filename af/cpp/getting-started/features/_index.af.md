@@ -6,6 +6,9 @@ linktitle: Ondersteunde Funksies
 description: "Aspose.Words vir C++ bied gebruikers'n wye verskeidenheid funksies, van die eenvoudige omskakeling en wysiging van dokumente tot die skep van gestruktureerde en visueel aantreklike dokumente of die outomatisering van verslagdoening."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/features/
 timestamp: 2024-01-27-14-07-04
 ---

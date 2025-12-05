@@ -5,6 +5,9 @@ articleTitle: ליצור או לטעון מסמך
 linktitle: ליצור או לטעון מסמך
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/create-or-load-a-document/
 description: "Aspose.Words מאפשר לך ליצור מסמך ריק או לטעון אותו מקובץ או זרם באמצעות שימוש Java."
 timestamp: 2024-01-27-14-07-04

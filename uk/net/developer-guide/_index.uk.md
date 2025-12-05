@@ -6,6 +6,9 @@ linktitle: Керівництво розробника
 description: "Розробник Керівництво описує практичні сценарії та поради, які допоможуть вам використовувати певні Aspose.Words для .NET особливості, досягають певного вигляду документа, або вносять можливість використання."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

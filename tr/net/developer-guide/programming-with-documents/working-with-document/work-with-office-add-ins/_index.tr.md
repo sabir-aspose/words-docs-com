@@ -6,6 +6,9 @@ linktitle: Office Eklentileriyle Çalışma
 description: ".NET için Aspose.Words, C# kullanarak Office Eklentileriyle çalışmak için çeşitli sınıflar sağlar. Görev Bölmesini web uzantısı aracılığıyla ekleyebilir ve bölmeyi ve uzantı özelliklerini özelleştirebilirsiniz."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

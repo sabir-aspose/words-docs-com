@@ -6,6 +6,9 @@ linktitle: Конвертиране на документ в PDF
 description: "Конвертирайте документ в PDF, като използвате C++. Поддържат се различни входни формати, включително формати Word, OpenOffice, изображение и eBook."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/convert-a-document-to-pdf/
 timestamp: 2024-10-21-08-52-03
 ---

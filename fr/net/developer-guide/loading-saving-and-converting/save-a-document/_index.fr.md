@@ -7,6 +7,9 @@ type: docs
 description: "Enregistrez un document dans n'importe quel format pris en charge à l'aide de C#."
 keywords: "save a document c#, save a document to file c#, save a document to stream c#, save a document Aspose .NET, save formats supported by Aspose.Words .NET"
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/save-a-document/
 timestamp: 2024-07-09-19-00-42
 ---

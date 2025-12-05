@@ -6,6 +6,9 @@ linktitle: Naucz się funkcji konwersji na PDF / A i PDF / UA
 description: "Konwertuj na PDF / A-1, PDF / A-2, PDF / A-4 i PDF / UA używając Java. Wybierz najlepszy standard PDF do konwersji dokumentu za pomocą Java."
 type: docs
 weight: 25
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/java/learn-features-of-conversion-to-pdf-a-pdf-ua/
 timestamp: 2024-01-31-14-23-37
 ---

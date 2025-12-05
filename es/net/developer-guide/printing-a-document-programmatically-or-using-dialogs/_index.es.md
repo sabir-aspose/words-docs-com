@@ -6,6 +6,9 @@ linktitle: Imprimir un documento mediante programación o mediante cuadros de di
 description: "Imprima un documento en un servidor utilizando XpsPrint API no administrado o mediante una impresora seleccionada con Configuración y cuadros de diálogo de vista previa de impresión en C#."
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-31-14-23-37
 ---

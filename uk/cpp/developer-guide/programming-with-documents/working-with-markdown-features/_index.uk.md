@@ -6,6 +6,9 @@ linktitle: Робота з функціями Markdown
 description: "Як реалізувати функції Markdown за допомогою C++. Всі функції представлені у вигляді відповідних стилів або прямого форматування."
 type: docs
 weight: 420
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/working-with-markdown-features/
 timestamp: 2024-01-31-14-23-37
 ---

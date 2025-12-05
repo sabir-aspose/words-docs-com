@@ -6,6 +6,9 @@ linktitle: フォントが置き換えられたことを認識する方法
 description: "ドキュメントのレイアウトが変更された理由や、特定のフォントが期待どおりに表示されない理由がわからない場合は、フォント置換警告メッセージ"
 type: docs
 weight: 13
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/how-to-recognize-that-the-font-was-replaced/
 timestamp: 2024-09-24-14-35-44
 ---

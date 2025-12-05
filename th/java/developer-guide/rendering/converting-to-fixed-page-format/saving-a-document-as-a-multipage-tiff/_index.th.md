@@ -6,6 +6,9 @@ linktitle: การบันทึกเอกสารเป็นหลาย
 description: "แปลงเอกสารเป็นภาพแรสเตอร์ซึ่งกล่าวถึงในตัวอย่างของรูปแบบTIFF ในการกำหนดวิธีแสดงTIFFคุณต้องระบุตัวเลือกเพิ่มเติม:ความละเอียด,จำนวนหน้าเว็บ,ไบนารีภาพ,ฯลฯโดยใช้Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

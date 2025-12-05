@@ -6,6 +6,9 @@ linktitle: Thao tác và Thay thế các phông chữ TrueType
 description: "Bạn Aspose.Words cho Java có thể nhúng các kiểu chữ TrueType chính xác vào tài liệu kết quả để đảm bảo nó được hiển thị chính xác, hoặc tìm kiếm một sự thay thế phông chữ phù hợp, hoặc sử dụng cơ chế phông chữ dự phòng."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

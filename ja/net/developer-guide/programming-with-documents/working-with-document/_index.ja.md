@@ -6,6 +6,9 @@ linktitle: ドキュメントの操作
 type: docs
 description: "`Document` クラスは、C# を使用してさまざまなドキュメント プロパティとメソッドを提供します。 `Document` クラスは、.NET 用の Aspose.Words を使用して実行するあらゆる作業の開始点として使用します。 `Document` オブジェクトは、ファイルまたはストリームに保存したり、ブラウザに送信したりできます。"
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---

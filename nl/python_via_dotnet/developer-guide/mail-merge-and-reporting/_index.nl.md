@@ -7,6 +7,9 @@ type: docs
 description: "Mail Merge is een populaire functie voor het snel maken van documenten met behulp van Python. Aspose.Words for Python via .NET neemt de standaard Mail Merge-functionaliteit en brengt deze vele stappen vooruit, waardoor het een volwaardige rapportageoplossing wordt waarmee u nog complexere documenten kunt maken, zoals rapporten, catalogi, voorraden en facturen."
 keywords: "how to use Mail Merge python"
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/python-net/mail-merge-and-reporting/
 timestamp: 2024-01-27-14-07-04
 ---

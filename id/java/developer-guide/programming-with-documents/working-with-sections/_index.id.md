@@ -6,6 +6,9 @@ linktitle: Bekerja dengan Bagian
 description: "Memahami konsep bagian dokumen dan praktik manipulasi menggunakan Java. Sisipkan bagian ke dalam dokumen Java. Hapus bagian Java. Salin bagian di antara Dokumen."
 type: docs
 weight: 120
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/java/working-with-sections/
 timestamp: 2024-01-31-14-23-37
 ---

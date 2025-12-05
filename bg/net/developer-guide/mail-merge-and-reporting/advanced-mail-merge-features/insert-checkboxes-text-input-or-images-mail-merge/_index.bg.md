@@ -6,6 +6,9 @@ linktitle: Вмъкване CheckboxЕС, въвеждане на текст и�
 description: "Въведете checkboxЕС или полетата за въвеждане на текст по време на Mail Merge използване на C#. Също така вмъквайте изображения от База данни по време на Mail Merge в C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/insert-checkboxes-text-input-or-images-mail-merge/
 timestamp: 2024-07-11-08-07-06
 ---

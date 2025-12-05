@@ -6,6 +6,9 @@ linktitle: ป้องกันหรือเข้ารหัสเอกส
 description: "Aspose.Words สำหรับ .NET มีทั้งแบบอ่านอย่างเดียว เข้ารหัสเอกสาร จำกัดการแก้ไข และลายเซ็นดิจิทัลสำหรับการป้องกันเอกสารโดยใช้ C# Aspose.Words รองรับตัวเลือกการป้องกัน Word ส่วนใหญ่"
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

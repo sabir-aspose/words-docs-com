@@ -6,6 +6,9 @@ linktitle: یک جدول ایجاد کنید
 description: "راهنمای ساخت جدول در C# به روش های مختلف. جدولی را در C# برای سند خود ایجاد کنید."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---

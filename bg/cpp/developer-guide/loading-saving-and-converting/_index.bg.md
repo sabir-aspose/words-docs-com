@@ -6,6 +6,9 @@ linktitle: Зареждане, спестяване и конвертиране
 description: "Как да конвертирате документ от един формат в друг, като например Word до PDF или HTML до Markdown, както и как да заредите и запишете документ, използвайки C++."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---

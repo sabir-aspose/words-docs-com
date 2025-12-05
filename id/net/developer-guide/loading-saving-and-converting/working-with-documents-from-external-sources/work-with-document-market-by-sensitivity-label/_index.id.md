@@ -6,6 +6,9 @@ linktitle: Bekerja dengan Dokumen yang Ditandai dengan Label Sensitivitas
 description: "Konversikan Word dengan label sensitivitas yang diterapkan ke PDF menggunakan C#. Bekerja dengan dokumen yang ditandai dengan label sensitivitas – berbagai format input, termasuk Word, OpenOffice, Image, dan eBook."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/net/work-with-document-market-by-sensitivity-label/
 timestamp: 2024-01-31-14-23-37
 ---

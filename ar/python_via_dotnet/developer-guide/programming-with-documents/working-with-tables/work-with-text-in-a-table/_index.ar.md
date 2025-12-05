@@ -6,6 +6,9 @@ linktitle: العمل مع النص في الجدول
 description: "استبدال النص في جدول في Python. استخراج نص عادي من الجدول أو الخلية باستخدام Python."
 type: docs
 weight: 60
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/work-with-text-in-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

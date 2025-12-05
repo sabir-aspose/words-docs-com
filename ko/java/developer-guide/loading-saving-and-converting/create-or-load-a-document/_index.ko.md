@@ -5,6 +5,9 @@ articleTitle: 문서 만들기 또는 로드
 linktitle: 문서 만들기 또는 로드
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/create-or-load-a-document/
 description: "Aspose.Words을 사용하면Java을 사용하여 빈 문서를 만들거나 파일 또는 스트림에서 문서를 로드할 수 있습니다."
 timestamp: 2024-01-27-14-07-04

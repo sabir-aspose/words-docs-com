@@ -6,6 +6,9 @@ linktitle: Làm việc với các phần
 description: "Tạo và quản lý các phần cũng như ngắt phần trong tài liệu bằng Python. Chèn phần vào tài liệu Python. Xóa phần Python. Sao chép các phần giữa các Tài liệu."
 type: docs
 weight: 120
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/working-with-sections/
 timestamp: 2024-09-25-11-08-55
 ---

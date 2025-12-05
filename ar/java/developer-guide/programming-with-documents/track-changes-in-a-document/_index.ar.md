@@ -6,6 +6,9 @@ linktitle: تتبع التغييرات في المستند
 description: "تتبع التغييرات التي تطرأ على المحتوى والتنسيق الذي أجريته أنت أو غيرك. الوصول إلى المراجعات الفردية في مستند وتطبيق خصائص مختلفة عليها باستخدام Java."
 type: docs
 weight: 270
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

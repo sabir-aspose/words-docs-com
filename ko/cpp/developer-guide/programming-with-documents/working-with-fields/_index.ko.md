@@ -6,6 +6,9 @@ linktitle: 필드 작업
 description: "필드 기능 소개 Aspose.Words 에 대한 C++."
 type: docs
 weight: 370
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/working-with-fields/
 timestamp: 2024-01-30-16-22-34
 ---

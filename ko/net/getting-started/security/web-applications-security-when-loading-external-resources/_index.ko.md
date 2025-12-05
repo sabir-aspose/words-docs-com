@@ -6,6 +6,9 @@ linktitle: 외부 리소스 로드 시 웹 애플리케이션 보안
 type: docs
 description: "보안 위험의 원인이 될 수 있는 원격 리소스를 로드합니다. C#를 사용하여 일반적인 보안 문제와 솔루션을 살펴보세요."
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-27-14-07-04
 ---

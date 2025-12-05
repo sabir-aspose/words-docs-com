@@ -6,6 +6,9 @@ linktitle: ארכיון התגים או Content control
 description: "Embedd Semantics מוגדרת של הלקוח, כמו גם את התנהגותו והופעתו לתוך מסמך באמצעות תגים ממובנים (SDT או בקרת תוכן) ב Python."
 type: docs
 weight: 50
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/python-net/structured-document-tags-or-content-control/
 timestamp: 2024-01-31-14-23-37
 ---

@@ -6,6 +6,9 @@ linktitle: Tên Generator hoặc Nhà Sản xuất Bao gồm trong Tài liệu �
 description: "Cài đặt Aspose.Words cho Java thêm tên và số phiên bản của trình tạo tài liệu được sử dụng để tạo ra nó. Dữ liệu này có thể được tìm thấy trong tài liệu theo những cách phụ thuộc vào định dạng tệp đầu ra."
 type: docs
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

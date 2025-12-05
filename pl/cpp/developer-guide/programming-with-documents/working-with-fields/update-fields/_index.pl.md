@@ -6,6 +6,9 @@ linktitle: Zaktualizuj Pola
 description: "Dowiedz się, jak aktualizować pola w C++. Aktualizuj pola programowo lub użyj automatycznej aktualizacji pól przy użyciu C++ API."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/update-fields/
 timestamp: 2024-01-27-14-07-04
 ---

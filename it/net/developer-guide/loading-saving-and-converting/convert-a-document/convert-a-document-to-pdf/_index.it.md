@@ -6,6 +6,9 @@ linktitle: Trasformare documento in PDF
 description: "Convertire Word in PDF in C#. Semplici esempi di codice per conversione DOCX in PDF. Supporta tutti i formati Word e immagini."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/convert-a-document-to-pdf/
 timestamp: 2024-09-25-11-08-55
 ---

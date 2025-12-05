@@ -6,6 +6,9 @@ linktitle: Xin Chào Thế Giới
 description: "Tạo, chỉnh sửa và lưu tài liệu đầu tiên của bạn ở bất kỳ định dạng được hỗ trợ nào bằng cách sử dụng Aspose.Words cho C++ để trải nghiệm sự đơn giản và sức mạnh của nó trong C++."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/hello-world/
 timestamp: 2024-01-27-14-07-04
 ---

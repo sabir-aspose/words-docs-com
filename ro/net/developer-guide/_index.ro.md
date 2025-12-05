@@ -6,6 +6,9 @@ linktitle: Ghid pentru dezvoltatori
 description: "Acest ghid pentru dezvoltatori descrie scenarii practice și sfaturi pentru a vă ajuta să utilizați anumite Aspose.Words pentru caracteristici .NET, să obțineți o anumită apariție a documentului sau să faceți posibil un caz de utilizare."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

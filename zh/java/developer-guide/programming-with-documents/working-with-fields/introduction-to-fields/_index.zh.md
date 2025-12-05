@@ -6,6 +6,9 @@ linktitle: 领域简介
 description: "字段功能在详细信息,字段代码和字段结果解释在Aspose.Words为Java."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/introduction-to-fields/
 timestamp: 2024-09-25-11-08-55
 ---

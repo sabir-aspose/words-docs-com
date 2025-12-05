@@ -6,6 +6,9 @@ linktitle: Sicherheit von Webanwendungen beim Laden externer Ressourcen
 type: docs
 description: "Wenn Sie Remote-Ressourcen belasten, kann dies ein Grund für Sicherheitsrisiken sein. Werfen Sie einen Blick auf häufige Sicherheitsprobleme und deren Lösungen mit C#."
 weight: 100
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-27-14-07-04
 ---

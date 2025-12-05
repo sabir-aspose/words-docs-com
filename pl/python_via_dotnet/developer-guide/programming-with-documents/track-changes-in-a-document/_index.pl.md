@@ -6,6 +6,9 @@ linktitle: Śledź zmiany w dokumencie
 description: "Śledź zmiany w treści i formatowaniu wprowadzone przez Ciebie lub inne osoby za pomocą Python. Uzyskaj dostęp do poszczególnych wersji dokumentu i zastosuj do nich różne właściwości."
 type: docs
 weight: 270
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/python-net/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

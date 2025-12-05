@@ -6,6 +6,9 @@ linktitle: Đang tải, Lưu và Chuyển đổi
 description: "Học về Aspose.Words cho các tính năng Java khi tải lên, lưu hoặc chuyển đổi tài liệu từ một định dạng sang một định dạng khác."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---

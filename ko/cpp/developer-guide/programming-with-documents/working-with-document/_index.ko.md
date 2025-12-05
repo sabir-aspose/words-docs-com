@@ -6,6 +6,9 @@ linktitle: 문서 작업
 type: docs
 description: "그 `Document` 클래스는 다음을 사용하여 다양한 문서 속성 및 메서드를 제공합니다 C++. 당신은 사용 `Document` 당신이 함께 수행 할 무엇에 대한 시작 지점으로 클래스 Aspose.Words 에 대한 C++. 그 `Document` 객체는 파일이나 스트림에 저장하고 브라우저로 보낼 수 있습니다."
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/working-with-document/
 timestamp: 2024-01-30-16-22-34
 ---

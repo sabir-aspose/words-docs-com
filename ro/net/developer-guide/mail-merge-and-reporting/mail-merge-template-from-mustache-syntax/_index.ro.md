@@ -7,6 +7,9 @@ type: docs
 description: "Creați șabloane cu Mustache sintaxă folosind C#. Mustache sintaxa este singura opțiune de utilizat cu șabloane care nu conțin câmpuri (HTML sau TXT). Cu Word șabloane, aveți două opțiuni: câmpuri sau Mustache sintaxă."
 keywords: "mail merge template mustache syntax c#"
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/mail-merge-template-from-mustache-syntax/
 timestamp: 2024-07-11-08-07-06
 ---

@@ -6,6 +6,9 @@ linktitle: العمل مع خصائص المستند
 description: "Aspose.Words إلى عن على Java يسمح بتخزين بعض المعلومات المفيدة حول المستند الخاص بك، مثل API ورقم الإصدار أو التاريخ المصرح به، في خصائص المستند المضمنة أو المخصصة."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/java/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

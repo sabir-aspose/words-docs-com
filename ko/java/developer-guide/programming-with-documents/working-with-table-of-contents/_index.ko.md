@@ -6,6 +6,9 @@ linktitle: 목차 작업
 description: "자세한 내용 필드의 테이블. Java을 사용하여`TOC`필드를 만들고 수정하는 방법."
 type: docs
 weight: 170
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/working-with-table-of-contents/
 timestamp: 2024-10-21-11-17-44
 ---

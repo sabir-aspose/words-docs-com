@@ -6,6 +6,9 @@ linktitle: 與表單欄位一起工作
 description: "了解理解表單欄位功能，使用C#與表單欄位一起工作。"
 type: docs
 weight: 380
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/working-with-form-fields/
 timestamp: 2024-01-27-14-07-04
 ---

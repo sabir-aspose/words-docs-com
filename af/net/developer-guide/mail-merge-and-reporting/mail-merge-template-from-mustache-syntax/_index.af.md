@@ -7,6 +7,9 @@ type: docs
 description: "Skep templates met Mustache sintaksis met behulp van C#. Mustache sintaksis is die enigste opsie om te gebruik met templates wat nie velde bevat nie (HTML of TXT). Met Woord templates, jy het twee opsies: velde of Mustache sintaksis."
 keywords: "mail merge template mustache syntax c#"
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/mail-merge-template-from-mustache-syntax/
 timestamp: 2024-07-11-08-07-06
 ---

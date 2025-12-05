@@ -6,6 +6,9 @@ linktitle: Tabellenformatierung anwenden
 description: "Tabellenformatierung im Detail. Verwenden Sie Java, um jeden Teil der Tabelle zu formatieren."
 type: docs
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/applying-formatting/
 timestamp: 2024-01-27-14-07-04
 ---

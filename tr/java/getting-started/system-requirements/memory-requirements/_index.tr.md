@@ -6,6 +6,9 @@ linktitle: Bellek Gereksinimleri
 description: "Aspose.Words 'nin belgeleriyle çalışmak için Java' i ne kadar bellek gerektirir? Detayları oku."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/memory-requirements/
 timestamp: 2024-09-25-11-08-55
 ---

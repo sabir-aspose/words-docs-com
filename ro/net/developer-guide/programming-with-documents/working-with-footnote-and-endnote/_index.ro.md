@@ -6,6 +6,9 @@ linktitle: Lucrarea cu Footnote și Endnote
 description: "Cum să manipulezi note de subsol și note finale folosind C#."
 type: docs
 weight: 160
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/working-with-footnote-and-endnote/
 timestamp: 2024-01-27-14-07-04
 ---

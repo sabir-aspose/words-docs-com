@@ -6,6 +6,9 @@ linktitle: 处理 Windows 图元文件
 description: "Aspose.Words for Python via .NET 实现了自己的 Windows 图元文件播放器，可以在所有平台上播放图元文件格式，并支持基本图元文件功能的处理，并且可以执行回退到不同类型的图元文件播放器。"
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

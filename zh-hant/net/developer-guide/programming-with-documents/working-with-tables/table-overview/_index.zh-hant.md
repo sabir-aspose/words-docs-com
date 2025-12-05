@@ -6,6 +6,9 @@ linktitle: 表格概覽
 description: "在 Aspose.Words for .NET 中使用表格及其元件（如單元格、列和行）。 如何在C#中處理表格。"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Trabajar con objetos OLE y vídeo en línea
 description: "Cree y modifique la incrustación OLE en su documento usando C#."
 type: docs
 weight: 360
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/working-with-ole-objects/
 timestamp: 2024-01-27-14-07-04
 ---

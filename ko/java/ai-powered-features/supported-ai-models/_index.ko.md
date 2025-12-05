@@ -8,6 +8,7 @@ weight: 10
 description: "Aspose.Words에 대한Java요약 및 번역 문서에 대한OpenAI구글AI모델을 지원합니다. 사용Aspose.Words는Gpt-4o,Gpt-4o소형,Gpt-4터보,GPT-3.5터보,Gemini 1.5 Flash,Gemini 1.5 Flash-8B,Gemini1.5프로입니다."
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/supported-ai-models/
 timestamp: 2024-11-26-12-00-00
 ---

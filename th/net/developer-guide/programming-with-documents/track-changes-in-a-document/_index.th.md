@@ -6,6 +6,9 @@ linktitle: ติดตามการเปลี่ยนแปลงในเ
 description: "ติดตามการเปลี่ยนแปลงเนื้อหาและการจัดรูปแบบที่คุณหรือผู้อื่นทำโดยใช้ C# เข้าถึงการแก้ไขแต่ละรายการในเอกสารและใช้คุณสมบัติต่างๆ กับการแก้ไขเหล่านั้น"
 type: docs
 weight: 270
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

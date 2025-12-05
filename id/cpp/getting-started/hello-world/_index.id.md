@@ -6,6 +6,9 @@ linktitle: Halo Dunia
 description: "Buat, edit, dan simpan dokumen pertama Anda dalam format apa pun yang didukung menggunakan Aspose.Words untuk C++ untuk mengalami kesederhanaan dan kekuatannya dalam C++."
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/cpp/hello-world/
 timestamp: 2024-01-27-14-07-04
 ---

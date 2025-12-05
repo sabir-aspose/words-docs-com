@@ -6,6 +6,9 @@ linktitle: TrueType lettertypen bewerken en vervangen
 description: "Aspose.Words voor C++ kan de juiste TrueType lettertypen insluiten in het resulterende document om ervoor te zorgen dat het nauwkeurig wordt weergegeven. Als een lettertype of een specifiek teken niet beschikbaar is, zoekt Aspose.Words naar een geschikte lettertypevervanging of gebruikt het font fallback-mechanisme."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

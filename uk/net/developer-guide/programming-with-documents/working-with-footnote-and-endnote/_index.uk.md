@@ -6,6 +6,9 @@ linktitle: Робота з ногами та Endnote
 description: "Як маніпулювати примітки і ендоноти за допомогою C#й"
 type: docs
 weight: 160
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/working-with-footnote-and-endnote/
 timestamp: 2024-01-27-14-07-04
 ---

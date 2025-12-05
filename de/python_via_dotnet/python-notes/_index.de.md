@@ -6,6 +6,9 @@ linktitle: Unterschiede zwischen Python- und .NET-Versionen
 description: "Aspose.Words für Python via .NET ist ein Wrapper von Aspose.Words für .NET. Auf dieser Seite werden die Unterschiede in den Funktionen und im API dieser beiden Produkte beschrieben."
 type: docs
 weight: 15
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/python-net/python-notes/
 timestamp: 2024-01-27-14-07-04
 ---

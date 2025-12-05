@@ -4,6 +4,9 @@ second_title: Aspose.Words vir .NET
 articleTitle: Skep Of Laai'n Dokument
 linktitle: Skep Of Laai'n Dokument
 type: docs
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/net/create-or-load-a-document/
 description: "Skep'n leë dokument of om dit te laai vanaf'n lêer of stroom gebruik C#."
 keywords: "create a document c#, load a document c#, create a blank document c#, load a document from file c#, load a document from stream c#, create a document Aspose .NET, load a document Aspose .NET, load formats supported by Aspose.Words .NET"

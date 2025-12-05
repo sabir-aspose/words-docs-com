@@ -6,6 +6,9 @@ linktitle: Bảo Mật Ứng Dụng Web Khi Tải Tài Nguyên Bên Ngoài
 type: docs
 description: "Tải tài nguyên từ xa, đó có thể là một lý do của rủi ro bảo mật. Hãy xem các vấn đề bảo mật phổ biến và các giải pháp của chúng trong C++."
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-30-16-22-34
 ---

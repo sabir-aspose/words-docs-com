@@ -6,6 +6,9 @@ linktitle: 문서를 다중 페이지 TIFF로 저장
 description: "Python를 사용하여 문서를 여러 페이지로 구성된 TIFF로 변환합니다. 문서가 이미지에 표시되는 방식을 결정하려면 해상도, 페이지 수, 이미지 이진화 등의 추가 옵션을 지정해야 합니다."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

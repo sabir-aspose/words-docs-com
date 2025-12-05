@@ -6,6 +6,9 @@ linktitle: Urmăriți modificările dintr-un Document
 description: "Urmăriți modificările aduse conținutului și formatării făcute de dvs. sau de alții folosind C++. Accesați revizuirile individuale dintr-un document și aplicați-le diverse proprietăți."
 type: docs
 weight: 270
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/track-changes-in-a-document/
 timestamp: 2024-01-30-16-22-34
 ---

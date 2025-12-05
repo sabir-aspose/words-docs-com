@@ -6,6 +6,9 @@ linktitle: Chuyển đổi giữa các đơn vị đo lường
 description: "Aspose.Words cho .NET có thể giúp bạn cách chuyển đổi giữa các đơn vị đo lường, ví dụ: inch thành điểm và điểm thành inch, pixel thành điểm, điểm thành pixel bằng C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/convert-between-measurement-units/
 timestamp: 2024-01-27-14-07-04
 ---

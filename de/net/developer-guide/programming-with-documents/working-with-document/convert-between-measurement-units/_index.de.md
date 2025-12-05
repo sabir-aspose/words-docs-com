@@ -6,6 +6,9 @@ linktitle: Zwischen Maßeinheiten umrechnen
 description: "Aspose.Words für .NET kann Ihnen bei der Umrechnung zwischen Maßeinheiten helfen, z. B. Zoll in Punkte und Punkte in Zoll, Pixel in Punkte, Punkte in Pixel mithilfe von C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/convert-between-measurement-units/
 timestamp: 2024-01-27-14-07-04
 ---

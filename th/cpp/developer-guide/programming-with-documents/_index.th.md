@@ -6,6 +6,9 @@ linktitle: การเขียนโปรแกรมด้วยเอกส
 type: docs
 description: "ใช้คลาสโมเดลอ็อบเจ็กต์ของเอกสารAspose.Wordsเพื่อสร้างแก้ไขและจัดการเอกสารโดยใช้C++ ทำงานกับคุณสมบัติของเอกสารการตั้งค่าและเนื้อหารวมทั้งลักษณะเอกสารผ่านการจัดการสีรูปร่างแบบอักษรและกราฟิกอื่นๆ."
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

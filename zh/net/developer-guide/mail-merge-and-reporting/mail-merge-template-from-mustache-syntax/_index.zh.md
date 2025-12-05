@@ -7,6 +7,9 @@ type: docs
 description: "使用C#使用Mustache语法创建模板。 Mustache语法是与不包含字段（HTML或TXT）的模板一起使用的唯一选项。 使用Word模板，您有两个选项：字段或Mustache语法。"
 keywords: "mail merge template mustache syntax c#"
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/mail-merge-template-from-mustache-syntax/
 timestamp: 2024-07-11-08-07-06
 ---

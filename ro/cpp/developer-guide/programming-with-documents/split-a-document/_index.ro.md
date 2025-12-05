@@ -6,6 +6,9 @@ linktitle: Împărțiți un Document
 description: "Împărțiți un document în mai multe fișiere folosind C++. Utilizați funcția split pentru a împărți eficient un document după titluri sau secțiuni, precum și după pagini sau după intervale de pagini."
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

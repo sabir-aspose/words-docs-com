@@ -6,6 +6,9 @@ linktitle: Lavorare con gli oggetti OLE
 description: "Creare e modificare l'incorporamento OLE nel documento utilizzando C++."
 type: docs
 weight: 360
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/cpp/working-with-ole-objects/
 timestamp: 2024-01-27-14-07-04
 ---

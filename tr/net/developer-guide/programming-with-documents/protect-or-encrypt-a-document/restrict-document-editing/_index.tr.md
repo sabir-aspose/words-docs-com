@@ -6,6 +6,9 @@ linktitle: Belge Düzenlemeyi Kısıtla
 description: "C#'i kullanarak bir kısıtlama türü ayarlayarak belgenin düzenlenmesini kısıtlayın. Ayrıca korumayı kaldırabilir ve sınırsız düzenlenebilir bölgeler oluşturabilirsiniz."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---

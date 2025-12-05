@@ -6,6 +6,9 @@ linktitle: Laden, opslaan en omzetten
 description: "Hoe een document van het ene formaat naar het andere converteren, zoals Word naar PDF of HTML naar Markdown, evenals hoe een document te laden en opslaan met behulp van C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Výstrahy o přístupnosti při ukládání do PDF/A a PDF/UA
 description: "PDF/A a PDF/UA ukládají požadavky na dostupnost související s obsahem dokumentu. Při ukládání do PDF/A nebo PDF/UA v Java a problém porušuje dodržování, je vydáno varování."
 type: docs
 weight: 29
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/java/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

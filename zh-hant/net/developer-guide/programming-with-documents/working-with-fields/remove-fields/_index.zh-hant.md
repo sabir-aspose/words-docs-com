@@ -6,6 +6,9 @@ linktitle: 移除欄位
 description: "學如何在C#中移除欄位。 以程式方式移除欄位，使用 .NET API。"
 type: docs
 weight: 35
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/remove-fields/
 timestamp: 2024-01-27-14-07-04
 ---

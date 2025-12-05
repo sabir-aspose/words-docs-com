@@ -6,6 +6,9 @@ linktitle: "המונחים: shapes בנפרד ממכתב"
 description: "להפיק אובייקטים גרפיים שונים, כגון תמונות, תיבת טקסט המכילה פסקאות, או צורות חץ, בעת עיבוד מסמך, וייצא אותם למיקום חיצוני באמצעות שימוש C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/rendering-shapes-separately-from-a-document/
 timestamp: 2024-07-10-14-38-57
 ---

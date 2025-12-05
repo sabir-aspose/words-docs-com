@@ -6,6 +6,9 @@ linktitle: 产品概览
 description: "Aspose.Words为C++ 是一个软件库，旨在创建，修改，转换，渲染和打印文档，而无需依赖任何其他软件。"
 type: docs
 weight: 5
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/product-overview/
 timestamp: 2024-06-05-14-43-57
 ---

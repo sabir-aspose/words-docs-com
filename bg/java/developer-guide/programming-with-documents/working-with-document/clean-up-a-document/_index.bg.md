@@ -6,6 +6,9 @@ linktitle: Изтриване на документ
 description: "Премахване на неизползвана или дублирана информация за намаляване на размера на изхода и времето за обработка. Премахване на неизползвани стилове, неизползвани вградени стилове, дублирани стилове или неизползвани списъци, като се използва Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 在 Linux 上安装 TrueType 字体
 description: "Aspose.Words for .NET 允许使用 C# 以最佳精度在 Linux 机器上渲染使用 Microsoft Word 创建的文档。要实现此目的，请从 Windows 计算机复制字体文件或以 C# 格式将 `TrueType` 字体包安装到 Linux 计算机上。"
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/installing-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

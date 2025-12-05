@@ -6,6 +6,9 @@ linktitle: Crearea unui aspect de pagină
 description: "Crearea unui aspect de pagină poate fi o procedură costisitoare. Aspose.Words va crea un aspect de pagină numai atunci când este necesar: pentru a reda pagini de document, pentru a obține o valoare de câmp, pentru a exporta un document în HTML etc."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/creating-a-page-layout/
 timestamp: 2024-09-24-14-35-44
 ---

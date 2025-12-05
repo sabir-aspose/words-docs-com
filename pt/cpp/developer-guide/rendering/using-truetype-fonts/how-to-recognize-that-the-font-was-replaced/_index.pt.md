@@ -6,6 +6,9 @@ linktitle: Como reconhecer que a fonte foi substituída
 description: "Se você não sabe por que o layout de um documento foi alterado ou por que uma determinada fonte não tem a aparência esperada, as mensagens de avisos de substituição de fonte podem ajudar."
 type: docs
 weight: 13
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/how-to-recognize-that-the-font-was-replaced/
 timestamp: 2024-09-24-14-35-44
 ---

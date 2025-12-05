@@ -6,6 +6,9 @@ linktitle: Làm cho hình dạng tách rời khỏi một tài liệu
 description: "Lấy ra các đồ họa khác nhau như hình ảnh, khung văn bản chứa đoạn văn, hoặc các hình mũi tên khi xử lý một tài liệu và xuất chúng đến một vị trí bên ngoài bằng Java"
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

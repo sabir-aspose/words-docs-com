@@ -6,6 +6,9 @@ linktitle: 使用字体
 description: "使用 C# 详细说明字体格式。 C# 中的强调标记。使用 C# 获取字体行距。"
 type: docs
 weight: 230
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/working-with-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

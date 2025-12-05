@@ -6,6 +6,9 @@ linktitle: Restreindre l'édition de documents
 description: "Restreindre la modification d'un document en définissant un type de restriction à l'aide de C#. Vous pouvez également supprimer la protection et créer des régions modifiables sans restriction."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---

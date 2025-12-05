@@ -6,6 +6,9 @@ linktitle: 차트 축 속성을 설정하는 방법
 description: "차트 축 튜닝을 사용하여 C++."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/how-to-set-chart-axis-properties/
 timestamp: 2024-01-27-14-07-04
 ---

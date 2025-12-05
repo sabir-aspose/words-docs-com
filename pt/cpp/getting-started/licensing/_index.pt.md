@@ -6,6 +6,9 @@ linktitle: Licenciamento e subscrição
 description: "Aspose.Words Para O7 fornece planos diferentes para compra ou oferece uma avaliação gratuita e uma licença temporária de 30 dias para avaliação usando Políticas de licenciamento e assinatura."
 type: docs
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/licensing/
 timestamp: 2024-10-24-11-44-28
 ---

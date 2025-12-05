@@ -6,6 +6,9 @@ linktitle: نام ژنراتور یا تولید کننده در اسناد خر
 description: "Aspose.Words برای Java نام ژنراتور و شماره نسخه ای که برای ایجاد آن استفاده شده است را به سند اضافه کنید. این داده ها را می توان در سند به روش هایی یافت که به فرمت فایل خروجی بستگی دارد."
 type: docs
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

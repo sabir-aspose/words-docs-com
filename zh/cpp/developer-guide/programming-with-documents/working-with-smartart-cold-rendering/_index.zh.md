@@ -6,6 +6,9 @@ linktitle: 使用SmartArt冷渲染
 type: docs
 description: "Aspose.Words对于C++ 执行SmartArt冷渲染，这意味着如果预渲染的SmartArt绘图丢失或不正确，它将显示并呈现SmartArt对象。"
 weight: 330
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

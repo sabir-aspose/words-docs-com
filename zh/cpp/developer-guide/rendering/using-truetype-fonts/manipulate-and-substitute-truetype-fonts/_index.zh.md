@@ -6,6 +6,9 @@ linktitle: 操作和替换TrueType字体
 description: "Aspose.Words对于C++ 可以将正确的TrueType字体嵌入到生成的文档中，以确保其准确显示。 如果字体或特定字符不可用，Aspose.Words搜索合适的字体替换或使用字体回退机制。"
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

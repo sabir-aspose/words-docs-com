@@ -6,6 +6,9 @@ linktitle: Nahraďte pole statickým textem
 description: "Naučte se, jak nahradit pole textem v C++. Nahraďte pole statickými daty pomocí C++ API."
 type: docs
 weight: 37
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/replace-fields/
 timestamp: 2024-01-27-14-07-04
 ---

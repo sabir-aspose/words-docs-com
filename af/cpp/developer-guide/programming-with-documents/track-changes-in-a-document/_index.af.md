@@ -6,6 +6,9 @@ linktitle: Volg Veranderinge in'n Dokument
 description: "Volg veranderinge aan inhoud en formatering gemaak deur u of ander met behulp van C++. Toegang tot individuele hersienings in'n dokument en pas verskeie eienskappe aan hulle toe."
 type: docs
 weight: 270
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/track-changes-in-a-document/
 timestamp: 2024-01-30-16-22-34
 ---

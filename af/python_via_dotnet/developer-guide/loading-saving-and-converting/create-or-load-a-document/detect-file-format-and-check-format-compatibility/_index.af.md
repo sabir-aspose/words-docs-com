@@ -6,6 +6,9 @@ linktitle: Ontdek Lêerformaat en Kontroleer Formaatversoenbaarheid
 description: "Bepaal die lêerformaat in Python as u nie seker is wat die werklike inhoud van die lêer is nie, of om die formaatversoenbaarheid na te gaan."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/python-net/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

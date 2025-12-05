@@ -6,6 +6,9 @@ linktitle: Hyfenleme ile Çalışmak
 description: "Daha kompakt bir metin düzeni için noktalama kullanın. Noktalama dikşölerini işlemek için gelişmiş algoritmalar sağlar, OpenOffice sözlüklerini kullanır Java."
 type: docs
 weight: 220
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---

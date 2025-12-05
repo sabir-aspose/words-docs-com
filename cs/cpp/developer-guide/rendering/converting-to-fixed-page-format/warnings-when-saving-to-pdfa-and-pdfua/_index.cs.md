@@ -6,6 +6,9 @@ linktitle: Upozornění na problémy s přístupností při ukládání do PDF/A
 description: "PDF/A a PDF/UA ukládají požadavky na přístupnost týkající se obsahu dokumentu. Při ukládání do PDF/A nebo PDF/UA v C++ a problém porušuje dodržování předpisů, je vydáno varování."
 type: docs
 weight: 39
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

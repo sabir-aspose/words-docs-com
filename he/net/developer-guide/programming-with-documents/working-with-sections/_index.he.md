@@ -6,6 +6,9 @@ linktitle: עבודה עם סעיפים
 description: "הבנה של מושגים ותרגולי מניפולציה באמצעות C#. הכנס סעיף במסמך C#. להסיר סעיף C#. העתק קטעים בין מסמכים"
 type: docs
 weight: 120
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/working-with-sections/
 timestamp: 2024-09-25-11-08-55
 ---

@@ -6,6 +6,9 @@ linktitle: ドキュメントプロパティの操作
 description: "C++ の場合は Aspose.Words API やバージョン番号、承認日など、ドキュメントに関する有用な情報を組み込みまたはカスタムのドキュメント プロパティに保存できます。"
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

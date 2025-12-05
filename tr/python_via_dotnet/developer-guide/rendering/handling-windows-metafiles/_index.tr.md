@@ -6,6 +6,9 @@ linktitle: Windows Meta Dosyalarını Kullanma
 description: "Python via .NET için Aspose.Words, tüm platformlarda Meta Dosyası formatını oynatmak için kendi Windows Meta Dosyası oynatıcısını uygular ve temel meta dosyası özelliklerinin işlenmesini destekler ve farklı türde bir meta dosyası oynatıcısına geri dönüş gerçekleştirebilir."
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/python-net/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---

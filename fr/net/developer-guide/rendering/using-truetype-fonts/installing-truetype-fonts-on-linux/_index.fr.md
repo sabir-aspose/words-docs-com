@@ -6,6 +6,9 @@ linktitle: Installer les polices TrueType sur Linux
 description: "Aspose.Words pour .NET permet de restituer un document créé en Microsoft Word sur une machine Linux avec la meilleure précision en utilisant C#. Pour ce faire, copiez les fichiers de polices à partir d'une machine Windows ou installez un package de polices `TrueType` sur votre machine Linux en C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/installing-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

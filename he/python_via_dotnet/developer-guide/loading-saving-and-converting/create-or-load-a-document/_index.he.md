@@ -4,6 +4,9 @@ second_title: Aspose.Words עבור Python via .NET
 articleTitle: ליצור או לטעון מסמך
 linktitle: ליצור או לטעון מסמך
 type: docs
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/python-net/create-or-load-a-document/
 description: "צור מסמך ריק או לטעון אותו מקובץ או מזרם באמצעות שימוש Python."
 keywords: "create a document python, load a document python, create a blank document python, load a document from file python, load a document from stream python, create a document Aspose python, load a document Aspose python, load formats supported by Aspose.Words python"

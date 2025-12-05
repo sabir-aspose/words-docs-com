@@ -6,6 +6,9 @@ linktitle: ドキュメントビルダーの概要
 type: docs
 description: "DocumentBuilder を使用すると、動的なドキュメントを最初から作成したり、C# を使用して既存のドキュメントに新しい要素を追加したりできます。 DocumentBuilder は、テキスト、チェックボックス、表、画像、およびその他のコンテンツ要素を .NET に挿入するメソッドを提供します。"
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

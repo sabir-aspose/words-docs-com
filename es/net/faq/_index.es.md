@@ -8,6 +8,9 @@ linktitle: Preguntas más frecuentes
 type: docs
 description: "Aspose.Words para .NET responde a las preguntas más frecuentes. Conozca esta página para resolver rápidamente su problema sobre preguntas generales o temas específicos."
 weight: 75
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/faq/
 timestamp: 2024-11-18-12-56-02
 ---

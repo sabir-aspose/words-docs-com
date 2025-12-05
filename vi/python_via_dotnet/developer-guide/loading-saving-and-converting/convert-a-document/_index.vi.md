@@ -4,6 +4,9 @@ second_title: Aspose.Words cho Python via .NET
 articleTitle: Chuyển đổi một tài liệu
 linktitle: Chuyển đổi một tài liệu
 type: docs
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/convert-a-document/
 weight: 30
 description: "Dễ dàng chuyển đổi tài liệu từ định dạng này sang định dạng khác bằng Python. Bạn có thể làm việc với tất cả các định dạng phổ biến nhất như định dạng Microsoft Word như DOCX hoặc DOC, định dạng OpenDocument như ODT hoặc OTT, định dạng web như HTML hoặc XHTML, định dạng văn bản như MarkDown hoặc TXT và các định dạng khác."

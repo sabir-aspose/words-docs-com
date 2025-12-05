@@ -6,6 +6,9 @@ linktitle: 개발자 가이드
 description: "이 개발자 가이드에서는 실제 시나리오와 특정 시나리오를 사용하는 데 도움이 되는 팁에 대해 설명합니다 Aspose.Words 에 대한 C++ 기능,특정 문서 모양을 달성하거나 사용 사례를 가능하게합니다."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

@@ -7,6 +7,9 @@ type: docs
 description: "使用Mustache语法创建模板。 Mustache语法是与不包含字段（HTML或TXT）的模板一起使用的唯一选项。 使用Word模板，您有两个选项：字段或使用Java的Mustache语法。"
 keywords: "mail merge template mustache syntax java, Mail Merge java, mustache syntax java"
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/mail-merge-template-from-mustache-syntax/
 timestamp: 2024-01-27-14-07-04
 ---

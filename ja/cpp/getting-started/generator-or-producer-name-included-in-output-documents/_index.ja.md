@@ -6,6 +6,9 @@ linktitle: 出力ドキュメント内のプロデューサー名
 description: "C++の場合Aspose.Words 作成に使用されたジェネレータ名とバージョン番号をドキュメントに追加します。 このデータは、出力ファイル形式に依存する方法で文書内に見つけることができます。"
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

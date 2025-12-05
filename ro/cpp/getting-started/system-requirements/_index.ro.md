@@ -6,6 +6,9 @@ linktitle: Cerințe De Sistem
 description: "Înainte de a începe să lucrați cu Aspose.Words pentru C++, asigurați-vă că îndepliniți cerințele sistemului de operare, platformei, cadrelor și mediului, astfel încât activitățile de pe dispozitivele dvs. să fie contabilizate corespunzător."
 type: docs
 weight: 70
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/cpp/system-requirements/
 timestamp: 2024-07-11-16-13-28
 ---

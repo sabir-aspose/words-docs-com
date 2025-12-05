@@ -7,6 +7,9 @@ type: docs
 description: "Thực hiện một Mail Merge hoạt động với các khu vực lồng nhau bằng cách sử dụng C++. Hợp nhất lồng nhau là một tính năng cho phép bạn hợp nhất dữ liệu phân cấp từ nguồn dữ liệu của mình vào mẫu hợp nhất của bạn."
 keywords: "mail merge with nested regions c++"
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/nested-mail-merge-with-regions/
 timestamp: 2024-09-24-14-35-44
 ---

@@ -6,6 +6,9 @@ linktitle: Trabajar con separación de palabras
 description: "Utilice separación de palabras para una disposición más compacta del texto utilizando Python. Proporciona algoritmos avanzados para trabajar con diccionarios de separación de palabras y utiliza diccionarios de OpenOffice."
 type: docs
 weight: 220
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/python-net/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---

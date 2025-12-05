@@ -6,6 +6,9 @@ linktitle: Şekilleri Belgeden Ayrı Oluşturma
 description: "Bir belgeyi işlerken resimler, paragraflar içeren metin kutusu veya ok şekilleri gibi çeşitli grafik nesnelerini ayıklayın ve bunları harici bir konuma dışa aktarın."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

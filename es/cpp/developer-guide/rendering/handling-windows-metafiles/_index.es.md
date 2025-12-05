@@ -6,6 +6,9 @@ linktitle: Manejo de Windows Metarchivos
 description: "Aspose.Words para C++ implementa su propio reproductor de metarchivos Windows para reproducir el formato de metarchivo en todas las plataformas y admite el manejo de las funciones básicas de metarchivo y puede realizar respaldo a un tipo diferente de reproductor de metarchivo."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/cpp/handling-windows-metafiles/
 timestamp: 2024-01-30-16-22-34
 ---

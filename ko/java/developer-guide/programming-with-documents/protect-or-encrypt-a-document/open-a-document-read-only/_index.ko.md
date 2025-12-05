@@ -6,6 +6,9 @@ linktitle: 읽기 전용 문서 열기
 description: "내용을 복사하거나 읽을 수 있지만Java을 사용하여 수정할 수는 없도록 문서를 읽기 전용으로 만듭니다."
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/open-a-document-read-only/
 timestamp: 2024-01-27-14-07-04
 ---

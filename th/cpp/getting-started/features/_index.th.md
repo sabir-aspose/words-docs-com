@@ -6,6 +6,9 @@ linktitle: คุณสมบัติที่รองรับ
 description: "Aspose.WordsสำหรับC++ ให้ผู้ใช้ที่มีความหลากหลายของคุณสมบัติจากเพียงแค่การแปลงและการปรับเปลี่ยนเอกส."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/cpp/features/
 timestamp: 2024-01-27-14-07-04
 ---

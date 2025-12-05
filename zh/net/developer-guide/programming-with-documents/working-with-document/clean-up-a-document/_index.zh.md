@@ -6,6 +6,9 @@ linktitle: 清理文档
 description: "使用 C# 删除未使用或重复的信息以减少输出大小和处理时间。删除未使用的样式、未使用的内置样式、重复的样式或未使用的列表。"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

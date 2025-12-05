@@ -7,6 +7,9 @@ type: docs
 description: "C#を使用してネストされた領域でMail Merge操作を実行します。 ネストされたマージは、データソースの階層データをマージテンプレートにマージできる機能です。"
 keywords: "mail merge with nested regions c#"
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/nested-mail-merge-with-regions/
 timestamp: 2024-07-11-08-07-06
 ---

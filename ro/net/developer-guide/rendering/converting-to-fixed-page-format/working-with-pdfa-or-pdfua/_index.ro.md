@@ -6,6 +6,9 @@ linktitle: Lucrul cu PDF/A sau PDF/UA
 description: "Conversie în PDF/A-1, PDF/A-2, PDF/A-4 și PDF/UA folosind C#. Există câteva probleme atunci când se convertesc în documente PDF/A, și Aspose.Words pentru .NET rezolvă aceste probleme."
 type: docs
 weight: 28
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/working-with-pdfa-or-pdfua/
 timestamp: 2024-07-10-14-38-57
 ---

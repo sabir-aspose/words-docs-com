@@ -6,6 +6,9 @@ linktitle: Робота з зображеннями
 type: docs
 description: "Вступ до функції зображення, як створити зображення та маніпулювати ним за допомогою C++."
 weight: 300
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/working-with-images/
 timestamp: 2024-01-27-14-07-04
 ---

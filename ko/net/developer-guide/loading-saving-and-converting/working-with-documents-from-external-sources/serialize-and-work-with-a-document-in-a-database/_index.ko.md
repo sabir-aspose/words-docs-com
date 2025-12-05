@@ -6,6 +6,9 @@ linktitle: 데이터베이스의 문서 직렬화 및 작업
 description: "C#를 사용하여 데이터베이스에서 이 문서로 작업하기 위해 문서를 바이트 배열로 변환합니다. 데이터베이스에 문서를 저장하고 데이터베이스에서 검색할 수 있습니다."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-07-09-19-00-42
 ---

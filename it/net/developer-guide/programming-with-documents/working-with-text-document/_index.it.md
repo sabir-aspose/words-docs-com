@@ -6,6 +6,9 @@ linktitle: Lavorare con documenti di testo
 description: "Elaborazione avanzata di documenti TXT, elenchi, BiDi, intestazioni/piè di pagina, utilizzando C#."
 type: docs
 weight: 430
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/working-with-text-document/
 timestamp: 2024-01-27-14-07-04
 ---

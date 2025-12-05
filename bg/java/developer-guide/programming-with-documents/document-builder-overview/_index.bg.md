@@ -6,6 +6,9 @@ linktitle: Преглед на строителя на документи
 type: docs
 description: "DocumentBuilder ви позволява да създавате динамични документи от нулата или да добавяте нови елементи към съществуващи такива. DocumentBuilder предлага методи за вмъкване на текст, кутии, таблици, изображения и други елементи на съдържание в Java."
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

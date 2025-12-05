@@ -6,6 +6,9 @@ linktitle: Nawigacja za pomocą kursora
 description: "Nawiguj między różnymi węzłami w dokumencie, takimi jak akapit, zakładka lub określony znak, używając Python."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/python-net/navigation-with-cursor/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Инсталиране на вярно Тип шрифтове на L
 description: "Aspose.Words вместо .NET позволява предаване на създаден документ Microsoft Word на Linux машина с най-добра точност използване C#. За да постигнете това, копирайте файловете с шрифтове от a Windows машина или инсталиране `TrueType` пакет от шрифтове върху вашия Linux машина в C#."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/installing-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

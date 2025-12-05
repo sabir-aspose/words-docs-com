@@ -6,6 +6,9 @@ linktitle: Werk Met Opsies en Voorkoms Van Word-Dokumente
 description: "Beheer die voorkoms van Word-dokumente met inagneming van die verskil tussen verskillende Microsoft Word weergawes met behulp van Python."
 type: docs
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/python-net/work-with-word-document-options-and-appearance/
 timestamp: 2024-01-27-14-07-04
 ---

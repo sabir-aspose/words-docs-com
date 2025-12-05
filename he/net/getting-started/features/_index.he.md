@@ -6,6 +6,9 @@ linktitle: תכונות תמיכה
 description: "Aspose.Words עבור .NET מספק למשתמשים מגוון רחב של תכונות פשוט להמיר ולשנות מסמכים ליצירת מסמכים מובנים וויזואליים מושכים או דיווח אוטומטי באמצעות שימוש באמצעות שימוש C#."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/features/
 timestamp: 2024-10-21-11-17-44
 ---

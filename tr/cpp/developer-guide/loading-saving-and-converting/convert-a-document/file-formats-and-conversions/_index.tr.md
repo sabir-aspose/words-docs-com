@@ -6,6 +6,9 @@ linktitle: Dönüşüm Aspose.Words ' Amiral Gemisi Özelliğidir
 description: "Desteklenen herhangi bir yükten belgeleri yalnızca iki satırlık C++ kodla kaydetme biçimine dönüştürün. Yüksek kaliteli dönüşümler sağlar."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/file-formats-and-conversions/
 timestamp: 2024-09-24-14-35-44
 ---

@@ -6,6 +6,9 @@ linktitle: เลือกมาตรฐาน PDF ใดดีกว่า
 description: "เลือกมาตรฐาน PDF ที่ดีที่สุดเพื่อส่งออกผลลัพธ์ของงานเขียนโปรแกรมของคุณใน C# มาตรฐาน PDF ไหนดีกว่า – PDF 1.7, PDF 2.0, PDF/A-1, PDF/A-2 หรือ PDF/UA"
 type: docs
 weight: 27
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/which-pdf-standard-is-better-to-choose/
 timestamp: 2024-01-27-14-07-04
 ---

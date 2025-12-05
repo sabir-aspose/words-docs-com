@@ -6,6 +6,9 @@ linktitle: Google Noto字体的预定义字体FallBack设置
 description: "Aspose.Words为Google Noto字体提供预定义的字体回退设置。 这些是根据SIL开放字体许可证授权的免费字体，可以从Google Noto字体下载。"
 type: docs
 weight: 15
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/predefined-font-fallback-settings-for-google-noto-fonts/
 timestamp: 2024-09-24-14-35-44
 ---

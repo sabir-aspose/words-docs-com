@@ -6,6 +6,9 @@ linktitle: تنظیمات فونت FallBack از XML
 description: "مکانیزم فونت پشتیبان زمانی استفاده می شود که فونت حل شود، اما شامل یک کاراکتر خاص نیست. در این حالت، Aspose.Words سعی می کند از یکی از فونت های پشتیبان برای شخصیت استفاده کند."
 type: docs
 weight: 14
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/font-fallback-settings-from-xml/
 timestamp: 2024-09-24-14-35-44
 ---

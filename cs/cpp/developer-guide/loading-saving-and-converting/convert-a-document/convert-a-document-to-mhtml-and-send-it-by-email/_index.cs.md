@@ -6,6 +6,9 @@ linktitle: Převeďte dokument na MHTML a odešlete jej e-mailem
 description: "Převeďte dokument z téměř jakéhokoli formátu do formátu MHTML a odešlete výsledný dokument e-mailem."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/convert-a-document-to-mhtml-and-send-it-by-email/
 timestamp: 2024-01-27-14-07-04
 ---

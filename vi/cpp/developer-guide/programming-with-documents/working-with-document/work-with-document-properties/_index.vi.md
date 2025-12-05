@@ -6,6 +6,9 @@ linktitle: Làm việc Với Thuộc Tính Tài Liệu
 description: "Aspose.Words cho C++ cho phép lưu trữ một số thông tin hữu ích về tài liệu của bạn, chẳng hạn như API Và Số Phiên bản hoặc Ngày Được Ủy quyền, trong các thuộc tính tài liệu tích hợp hoặc tùy chỉnh."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

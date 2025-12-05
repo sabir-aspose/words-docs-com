@@ -6,6 +6,9 @@ linktitle: 插入與追加文件
 description: "將文件合並至一個檔案中：透過尋找與替換、合併欄位、書籤或簡單地於檔案結尾插入，利用C#來挿入或附加一份新的或現有檔案。"
 type: docs
 weight: 80
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 함께 작업 Group Shapes 워드 문서
 description: "다음을 사용하여 모양 그룹화 및 그룹 해제 C++."
 type: docs
 weight: 290
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/how-to-add-group-shape-into-a-word-document/
 timestamp: 2024-01-27-14-07-04
 ---

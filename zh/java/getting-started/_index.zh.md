@@ -6,6 +6,9 @@ linktitle: 开始行动
 type: docs
 description: "使用Aspose.WordsforJavafundamentals的此介绍，开始实现Aspose.Words对您的业务的价值。"
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/getting-started/
 timestamp: 2024-09-25-11-08-55
 ---

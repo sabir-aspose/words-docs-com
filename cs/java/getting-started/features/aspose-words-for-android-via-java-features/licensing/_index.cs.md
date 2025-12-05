@@ -6,6 +6,9 @@ linktitle: Licence
 description: "Licence Aspose.Words místo Android přes Java."
 type: docs
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/java/licensing-android/
 timestamp: 2024-02-02-12-07-36
 ---

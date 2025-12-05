@@ -6,6 +6,9 @@ linktitle: Verfolgen von Änderungen in einem Dokument
 description: "Verfolgen Sie Änderungen an Inhalten und Formatierungen, die Sie oder andere mit C++ vorgenommen haben. Greifen Sie auf einzelne Revisionen in einem Dokument zu und wenden Sie verschiedene Eigenschaften darauf an."
 type: docs
 weight: 270
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/cpp/track-changes-in-a-document/
 timestamp: 2024-01-30-16-22-34
 ---

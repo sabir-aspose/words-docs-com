@@ -7,6 +7,9 @@ type: docs
 description: "يتم استخدام Mail Merge بسيط لملء الحقول Mail Merge داخل القالب الخاص بك بالبيانات المطلوبة من مصدر البيانات الخاص بك – وهو مشابه للكلاسيكية Mail Merge في Microsoft Word. أضف حقلا واحدا أو أكثر من حقول الدمج في القالب الخاص بك ثم قم بتنفيذ العملية البسيطة mail merge."
 keywords: "how to execute Mail Merge c++"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/simple-mail-merge-operation/
 timestamp: 2024-09-24-14-35-44
 ---

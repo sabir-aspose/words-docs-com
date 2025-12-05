@@ -6,6 +6,9 @@ linktitle: تحويل مستند إلى HTML أو MHTML أو EPUB
 description: "قم بتحويل مستند من أي تنسيق تقريبًا إلى HTML أو MHTML، بالإضافة إلى تنسيق EPUB باستخدام Python. يمكنك أيضًا تحديد خيارات الحفظ لإدارة مستند الإخراج."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/convert-a-document-to-html-mhtml-or-epub/
 timestamp: 2024-01-27-14-07-04
 ---

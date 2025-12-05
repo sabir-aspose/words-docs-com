@@ -6,6 +6,9 @@ linktitle: 문서 프로그래밍
 type: docs
 description: "Aspose.Words문서 개체 모델 클래스를 사용하여Java로 문서를 프로그래밍 방식으로 생성,수정 및 관리할 수 있습니다. 색상,모양,글꼴 및 기타 그래픽 관리를 통해 문서 모양뿐만 아니라 문서 속성,설정 및 내용으로 작업하십시오."
 weight: 340
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

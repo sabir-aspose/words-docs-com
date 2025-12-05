@@ -6,6 +6,9 @@ linktitle: Impostazioni carattere FallBack da XML
 description: "Il meccanismo di fallback del font viene utilizzato quando il font viene risolto, ma non contiene un carattere specifico. In questo caso, Aspose.Words tenta di utilizzare uno dei font di riserva per il carattere."
 type: docs
 weight: 14
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/cpp/font-fallback-settings-from-xml/
 timestamp: 2024-09-24-14-35-44
 ---

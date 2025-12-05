@@ -6,6 +6,9 @@ linktitle: Огляд таблиці
 description: "Робота з таблицями та їх компонентами, такими як клітини, рядки, стовпці Aspose.Words для .NETй Як працювати з таблицями в C#й"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Zabezpečení Webových Aplikací Při Načítání Externích Zdroj�
 type: docs
 description: "Načtěte vzdálené zdroje, které mohou být důvodem bezpečnostních rizik. Podívejte se na běžné bezpečnostní problémy a jejich řešení v C++."
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-30-16-22-34
 ---

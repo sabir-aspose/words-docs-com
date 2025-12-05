@@ -6,6 +6,9 @@ linktitle: Lucrând cu Marcaje
 description: "Înțelegerea conceptelor de marcaje de carte și modul în care un marcaj de carte poate fi utilizat în programul dvs. utilizând C#."
 type: docs
 weight: 180
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/working-with-bookmarks/
 timestamp: 2024-01-27-14-07-04
 ---

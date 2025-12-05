@@ -8,6 +8,7 @@ weight: 20
 description: "סכם מסמך. Aspose.Words עבור Java מפשט את סיכום המסמכים באמצעות מודלים OpenAI וגוגל AI בכך שהוא מאפשר לך לציין את אורך הסיכום."
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/summarize-a-document/
 timestamp: 2025-03-17-19-00-00
 ---

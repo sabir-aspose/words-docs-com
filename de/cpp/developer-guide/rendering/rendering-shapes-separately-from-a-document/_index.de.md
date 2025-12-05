@@ -6,6 +6,9 @@ linktitle: Formen getrennt von einem Dokument rendern
 description: "Extrahieren Sie bei der Verarbeitung eines Dokuments verschiedene Grafikobjekte, z. B. Bilder, Textfelder mit Absätzen oder Pfeilformen, und exportieren Sie sie an einen externen Speicherort."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/cpp/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

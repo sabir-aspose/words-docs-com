@@ -6,6 +6,9 @@ linktitle: Menyimpan Dokumen sebagai TIFF Multihalaman
 description: "Konversikan dokumen menjadi TIFF multi-halaman menggunakan C#. Untuk menentukan bagaimana dokumen ditampilkan pada gambar, Anda perlu menentukan opsi tambahan: resolusi, jumlah halaman, binarisasi gambar, dll."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/net/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-07-10-14-38-57
 ---

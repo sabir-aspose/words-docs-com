@@ -6,6 +6,9 @@ linktitle: המרת מסמך לתמונה
 type: docs
 description: "המרת מסמך לפורמט תמונה (JPG, PNG וכו'). צור תצוגה מקדימה של מסמך או צור סריקת מסמכים לשליחת חשבונית."
 weight: 43
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/convert-a-document-to-an-image/
 timestamp: 2024-01-30-16-22-34
 ---

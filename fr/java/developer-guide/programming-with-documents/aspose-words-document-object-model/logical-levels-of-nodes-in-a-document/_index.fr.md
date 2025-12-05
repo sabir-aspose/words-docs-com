@@ -6,6 +6,9 @@ linktitle: Niveaux logiques des nœuds dans un document
 type: docs
 description: "Dans Aspose.Words pour Java, la documentation mentionnait les niveaux logiques des nœuds-niveau bloc, niveau en ligne ou niveau ligne. Le niveau du nœud est utilisé pour décrire l'emplacement dans l'arborescence du document où se trouve généralement le nœud."
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

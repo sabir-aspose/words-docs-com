@@ -6,6 +6,9 @@ linktitle: Limita la modifica dei documenti
 description: "Limita la modifica di un documento impostando un tipo di restrizione utilizzando C#. Puoi anche rimuovere la protezione e creare aree modificabili senza restrizioni."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---

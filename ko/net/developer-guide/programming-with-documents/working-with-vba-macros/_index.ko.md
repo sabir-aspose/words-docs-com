@@ -6,6 +6,9 @@ linktitle: VBA 매크로 작업
 description: "C#를 사용하여 문서 VBA 프로젝트 작업."
 type: docs
 weight: 410
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/working-with-vba-macros/
 timestamp: 2024-01-27-14-07-04
 ---

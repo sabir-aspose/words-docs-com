@@ -6,6 +6,9 @@ linktitle: Монтаж
 description: "Увійти Aspose.Words для .NET використання Visual Studio інструменти, такі як Manage NuGet Packages або Package Manager Console та інсталятор MSI. Використання Full Trust набір документів C#й"
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/net/installation/
 timestamp: 2024-01-27-14-07-04
 ---

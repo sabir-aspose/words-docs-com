@@ -6,6 +6,9 @@ linktitle: Các định dạng tài liệu được hỗ trợ
 type: docs
 description: "Sửa nguồn tài liệu trong nhiều định dạng phổ biến, cũng như chuyển đổi tự do các tập tin từ một định dạng sang một định dạng khác bằng Java."
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/supported-document-formats/
 timestamp: 2024-10-21-11-17-44
 ---

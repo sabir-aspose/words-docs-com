@@ -6,6 +6,9 @@ linktitle: Làm việc với chữ ký số
 description: "Đánh dấu chữ ký số trên các tài liệu và phát hiện, đếm, xác minh, hoặc xóa chữ ký số hiện có bằng Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/working-with-digital-signatures/
 timestamp: 2024-01-27-14-07-04
 ---

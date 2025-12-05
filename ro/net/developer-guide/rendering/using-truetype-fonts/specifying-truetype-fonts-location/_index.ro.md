@@ -6,6 +6,9 @@ linktitle: Specificați locația fonturilor TrueType
 description: "Specifica diferite surse de fonturi TrueType: folderul sistemului, sursele utilizatorului, încărcarea fonturilor dintr-un flux, un sistem de fișiere sau memorie folosind C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/specifying-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

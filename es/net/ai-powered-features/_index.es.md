@@ -8,6 +8,7 @@ weight: 35
 description: "Aspose.Words por .NET presenta herramientas impulsadas por AI, como el resumen de documentos, para aumentar la eficiencia. Aprenda a usar las funciones potenciadas por AI con consejos y orientación detallada."
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/ai-powered-features/
 timestamp: 2025-03-17-19-00-00
 ---

@@ -5,6 +5,9 @@ articleTitle: แปลงเอกสาร
 linktitle: แปลงเอกสาร
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/convert-a-document/
 description: "ได้อย่างง่ายดายแปลงเอกสารจากรูปแบบหนึ่งไปยังอีก คุณสามารถทำงานกับรูปแบบที่นิยมมากที่สุดทั้งหมดเช่นMicrosoft Wordรูปแบบเช่นDOCXหรือDOC,OpenDocumentรูปแบบเช่นODTหรือOTT,รูปแบบเว็บเช่นHTMLหรือXHTML,รูปแบบข้อความเช่นMarkDownหรือTXTและอื่นๆโดยใช้Java."
 timestamp: 2024-09-25-11-08-55

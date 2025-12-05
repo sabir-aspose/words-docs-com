@@ -6,6 +6,9 @@ linktitle: 将文档另存为多页 TIFF
 description: "使用 Python 将文档转换为多页 TIFF。要确定文档在图像上的显示方式，您需要指定其他选项：分辨率、页数、图像二值化等。"
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

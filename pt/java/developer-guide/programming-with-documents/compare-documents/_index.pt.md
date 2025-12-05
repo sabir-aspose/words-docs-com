@@ -6,6 +6,9 @@ linktitle: Comparar Documentos
 type: docs
 description: "Compare dois documentos em qualquer formato suportado e mostre as alterações de conteúdo. Você pode aplicar opções avançadas ao comparar usando Java."
 weight: 60
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/java/compare-documents/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: العمل مع مستند تم وضع علامة عليه بملصق
 description: "تحويل Word مع تسمية الحساسية المطبقة إلى PDF باستخدام C#. العمل مع المستندات التي تحمل علامات حساسية - تنسيقات إدخال مختلفة، بما في ذلك Word وOpenOffice وImage وeBook."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/work-with-document-market-by-sensitivity-label/
 timestamp: 2024-01-31-14-23-37
 ---

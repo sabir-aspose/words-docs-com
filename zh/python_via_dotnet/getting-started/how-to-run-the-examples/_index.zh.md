@@ -6,6 +6,9 @@ linktitle: 如何运行示例
 description: "从我们的 GitHub 存储库下载 Aspose.Words for Python via .NET 示例，并了解如何运行它们以更加熟悉 Aspose.Words 的可能性和功能。"
 type: docs
 weight: 110
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/python-net/how-to-run-the-examples/
 timestamp: 2024-01-27-14-07-04
 ---

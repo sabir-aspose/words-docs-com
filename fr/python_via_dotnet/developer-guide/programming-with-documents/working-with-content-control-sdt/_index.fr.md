@@ -6,6 +6,9 @@ linktitle: Utilisation de SDT de contrôle de contenu
 description: "En utilisant Python, vous pouvez intégrer une sémantique définie par le client ainsi que son comportement et son apparence dans un document."
 type: docs
 weight: 390
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---

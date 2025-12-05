@@ -6,6 +6,9 @@ linktitle: 插入Checkboxes、文本输入或图像
 description: "使用C#在Mail Merge期间插入checkboxes或文本输入字段。 在C#中的Mail Merge期间也从数据库中插入图像。"
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/insert-checkboxes-text-input-or-images-mail-merge/
 timestamp: 2024-07-11-08-07-06
 ---

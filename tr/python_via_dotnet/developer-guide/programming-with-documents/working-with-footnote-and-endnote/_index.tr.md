@@ -6,6 +6,9 @@ linktitle: Dipnot ve Sonnot ile Çalışmak
 description: "Bir belgeye dipnotlar veya son notlar ekleyin ve Python'i kullanarak seçeneklerini belirtin."
 type: docs
 weight: 160
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/python-net/working-with-footnote-and-endnote/
 timestamp: 2024-01-27-14-07-04
 ---

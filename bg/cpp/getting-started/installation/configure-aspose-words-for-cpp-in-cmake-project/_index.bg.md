@@ -6,6 +6,9 @@ linktitle: Конфигуриране на Aspose.Words за C++ в CMake про
 description: "Конфигурирайте Aspose.Words за C++ във вашия CMake и изградете приложение."
 type: docs
 weight: 90
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/configure-aspose-words-for-cpp-in-cmake-project/
 timestamp: 2024-10-24-11-44-28
 ---

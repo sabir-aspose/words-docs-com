@@ -6,6 +6,9 @@ linktitle: Liferay에 저장된 문서 작업
 description: "C#를 사용하여 Liferay에서 공유된 Word 문서를 비교하세요. Word, OpenOffice, Image, eBook 등 다양한 입력 형식의 Liferay에 저장된 문서로 작업하세요."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/work-with-document-stored-in-liferay/
 timestamp: 2024-01-31-14-23-37
 ---

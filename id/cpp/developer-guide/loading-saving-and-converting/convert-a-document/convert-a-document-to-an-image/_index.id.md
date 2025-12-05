@@ -6,6 +6,9 @@ linktitle: Mengonversi Dokumen menjadi Gambar
 type: docs
 description: "Konversikan dokumen ke format gambar (JPG, PNG, dll). Buat pratinjau dokumen atau buat pemindaian dokumen untuk mengirim faktur."
 weight: 43
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/cpp/convert-a-document-to-an-image/
 timestamp: 2024-01-30-16-22-34
 ---

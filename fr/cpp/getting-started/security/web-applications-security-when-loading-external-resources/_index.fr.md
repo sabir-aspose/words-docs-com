@@ -6,6 +6,9 @@ linktitle: Sécurité Des Applications Web Lors Du Chargement De Ressources Exte
 type: docs
 description: "Charger des ressources distantes, cela peut être une raison de risques de sécurité. Jetez un œil aux problèmes de sécurité courants et à leurs solutions en C++."
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/cpp/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-30-16-22-34
 ---

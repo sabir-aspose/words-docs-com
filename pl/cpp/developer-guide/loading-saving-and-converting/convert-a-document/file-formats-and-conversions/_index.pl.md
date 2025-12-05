@@ -6,6 +6,9 @@ linktitle: Konwersja to Aspose.Words' flagowa funkcja
 description: "Konwertuj dokumenty z dowolnego obsługiwanego obciążenia, aby zapisać format za pomocą zaledwie dwóch wierszy kodu C++. Zapewnia konwersje wysokiej jakości."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/file-formats-and-conversions/
 timestamp: 2024-09-24-14-35-44
 ---

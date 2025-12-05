@@ -5,6 +5,9 @@ articleTitle: Een document aanmaken of laden
 linktitle: Een document aanmaken of laden
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/java/create-or-load-a-document/
 description: "Aspose.Words stelt u in staat om een leeg document aan te maken of te laden vanuit een bestand of stream met behulp van Java."
 timestamp: 2024-01-27-14-07-04

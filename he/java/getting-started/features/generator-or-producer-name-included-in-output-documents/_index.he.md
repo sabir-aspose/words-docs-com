@@ -6,6 +6,9 @@ linktitle: גנרטור או שם מפיק הכלול במסמכים חיצונ�
 description: "Aspose.Words עבור Java הוסף את המסמך שם הגנרטור ומספר הגרסה המשמש ליצירתו. מידע זה ניתן למצוא במסמך בדרכים תלויות בתבנית קובץ הפלט."
 type: docs
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

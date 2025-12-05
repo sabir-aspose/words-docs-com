@@ -6,6 +6,9 @@ linktitle: 使用连字符
 description: "使用 C# 使用连字符来更紧凑地排列文本。它提供了高级算法来处理连字词典，使用 OpenOffice 词典。"
 type: docs
 weight: 220
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---

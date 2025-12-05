@@ -7,6 +7,9 @@ type: docs
 description: "Mail Merge는Python를 사용하여 문서를 빠르게 만드는 데 인기있는 기능입니다. Python via .NET의 경우Aspose.Words표준Mail Merge기능을 사용하고 여러 단계 앞서서 보고서,카탈로그,재고 및 송장과 같은 더 복잡한 문서를 만들 수있는 본격적인 보고 솔루션으로 전환합니다."
 keywords: "how to use Mail Merge python"
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/mail-merge-and-reporting/
 timestamp: 2024-01-27-14-07-04
 ---

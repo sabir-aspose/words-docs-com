@@ -6,6 +6,9 @@ linktitle: רישוי ומנוי
 description: "Aspose.Words לסאקסל++ מספק תוכניות שונות לרכישה או מציע ניסיון ללא תשלום ורישיון זמני של 30 יום להערכה באמצעות מדיניות רישוי ומנוי."
 type: docs
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/licensing/
 timestamp: 2024-10-24-11-44-28
 ---

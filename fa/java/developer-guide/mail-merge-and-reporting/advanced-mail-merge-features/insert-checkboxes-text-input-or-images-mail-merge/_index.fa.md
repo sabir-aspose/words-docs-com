@@ -6,6 +6,9 @@ linktitle: Checkboxes، ورودی متن یا تصاویر را وارد کنی
 description: "Checkboxes یا فیلدهای ورودی متن را در طول Mail Merge با استفاده از Java وارد کنید. همچنین تصاویر را از یک پایگاه داده در طول Mail Merge در Java وارد کنید."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/java/insert-checkboxes-text-input-or-images-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---

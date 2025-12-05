@@ -6,6 +6,9 @@ linktitle: Personalizar Propriedades Do Campo
 description: "Saiba como personalizar propriedades de campo em C++. Renomeie mesclar campos ou obtenha resultados para campos sem nó separador em C++."
 type: docs
 weight: 27
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

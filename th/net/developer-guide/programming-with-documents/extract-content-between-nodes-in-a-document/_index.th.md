@@ -6,6 +6,9 @@ linktitle: แยกเนื้อหาระหว่างโหนด
 description: "แยกเนื้อหาเอกสารในรูปแบบต่างๆ โดยใช้ C#"
 type: docs
 weight: 140
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/how-to-extract-selected-content-between-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

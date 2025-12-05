@@ -6,6 +6,9 @@ linktitle: Geef weergaveopties op bij het converteren naar PDF
 description: "Converteer een document naar PDF met geavanceerde opties met behulp van C++. Gebruik PdfSaveOptions om het resultaat van het opslaan van een document in PDF - indeling te wijzigen."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

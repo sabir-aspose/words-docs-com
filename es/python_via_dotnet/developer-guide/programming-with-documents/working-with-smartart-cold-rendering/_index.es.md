@@ -6,6 +6,9 @@ linktitle: Trabajar con renderizado en frío SmartArt
 type: docs
 description: "Aspose.Words para Python via .NET realiza SmartArt Cold Rendering, lo que significa que diseña y representa objetos SmartArt si el dibujo SmartArt pre-renderizado falta o es incorrecto."
 weight: 330
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/python-net/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

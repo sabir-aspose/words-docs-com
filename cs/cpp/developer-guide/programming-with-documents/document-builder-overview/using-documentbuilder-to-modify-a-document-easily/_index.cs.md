@@ -6,6 +6,9 @@ linktitle: Použití DocumentBuilder pro snadnou úpravu dokumentu
 type: docs
 description: "Pomocí nástroje pro tvorbu dokumentů můžete dokument snadno upravit v C++."
 weight: 190
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/cpp/using-documentbuilder-to-modify-a-document-easily/
 timestamp: 2024-01-27-14-07-04
 ---

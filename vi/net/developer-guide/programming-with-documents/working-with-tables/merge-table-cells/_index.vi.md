@@ -6,6 +6,9 @@ linktitle: Hợp nhất các ô trong bảng
 description: "Cách hợp nhất các ô trong bảng trong C#. Kiểm tra xem các ô trong bảng có được hợp nhất bằng C# hay không."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/working-with-merged-cells/
 timestamp: 2024-01-27-14-07-04
 ---

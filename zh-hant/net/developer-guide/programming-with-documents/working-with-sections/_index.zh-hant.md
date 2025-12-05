@@ -6,6 +6,9 @@ linktitle: 與分節一起工作
 description: "透過使用C#來了解文件節的概念與操作方式。 將分節插入 C# 文檔中。 移除C#節。 在文書間複製部分內容。"
 type: docs
 weight: 120
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/working-with-sections/
 timestamp: 2024-09-25-11-08-55
 ---

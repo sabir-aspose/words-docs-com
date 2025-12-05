@@ -6,6 +6,9 @@ linktitle: Aspose.Wordsドキュメントオブジェクトモデル(DOM)
 type: docs
 description: "ドキュメントオブジェクトモデル(DOM)は、Word文書のメモリ内表現です。 Javaを使用してWord文書の内容と書式を読み取り、操作し、変更します。"
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/aspose-words-document-object-model/
 timestamp: 2024-01-27-14-07-04
 ---

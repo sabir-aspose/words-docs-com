@@ -6,6 +6,9 @@ linktitle: اسم المولد أو المنتج مدرج في مستندات ا
 description: "يضيف Aspose.Words for .NET إلى المستند اسم المولد ورقم الإصدار الذي تم استخدامه لإنشائه. يمكن العثور على هذه البيانات في المستند بطرق تعتمد على تنسيق ملف الإخراج باستخدام C#."
 type: docs
 weight: 60
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

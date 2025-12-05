@@ -6,6 +6,9 @@ linktitle: Chuyển Đổi Tài liệu Thành Hình Ảnh
 type: docs
 description: "Chuyển đổi tài liệu sang định dạng hình ảnh (JPG, PNG, v. v.). Tạo bản xem trước tài liệu hoặc tạo bản quét tài liệu để gửi hóa đơn."
 weight: 43
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/convert-a-document-to-an-image/
 timestamp: 2024-01-30-16-22-34
 ---

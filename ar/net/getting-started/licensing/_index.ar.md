@@ -6,6 +6,9 @@ linktitle: الترخيص والاشتراك
 description: "يوفر Aspose.Words for .NET خططًا مختلفة للشراء أو يقدم نسخة تجريبية مجانية وترخيصًا مؤقتًا لمدة 30 يومًا للتقييم باستخدام سياسات الترخيص والاشتراك في C#."
 type: docs
 weight: 55
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/licensing/
 timestamp: 2025-02-12-16-18-40
 ---

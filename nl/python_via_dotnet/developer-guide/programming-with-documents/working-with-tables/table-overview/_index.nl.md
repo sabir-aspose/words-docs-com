@@ -6,6 +6,9 @@ linktitle: Tabel Overzicht
 description: "Werk met tabellen en hun componenten zoals cellen, rijen, kolommen in Aspose.Words voor Python. Hoe te werken met tabellen in Python."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/python-net/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---

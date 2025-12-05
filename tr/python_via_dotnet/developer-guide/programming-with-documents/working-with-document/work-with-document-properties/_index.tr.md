@@ -6,6 +6,9 @@ linktitle: Belge Özellikleriyle Çalışma
 description: "Python için Aspose.Words, belgenizle ilgili API ve Sürüm Numarası veya Yetkili Date gibi bazı yararlı bilgilerin yerleşik veya özel belge özelliklerinde saklanmasına olanak tanır."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/python-net/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

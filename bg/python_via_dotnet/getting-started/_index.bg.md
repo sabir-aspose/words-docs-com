@@ -6,6 +6,9 @@ linktitle: Започване
 type: docs
 description: "Използване на това въведение Aspose.Words вместо Python via .NET основите да започнете да осъзнавате стойността на Aspose.Words за твоя бизнес."
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/python-net/getting-started/
 timestamp: 2024-09-25-11-08-55
 ---

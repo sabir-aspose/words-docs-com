@@ -6,6 +6,9 @@ linktitle: Caricamento, salvataggio e conversione
 description: "Come convertire un documento da un formato a un altro, come Word in PDF o HTML in Markdown, nonché come caricare e salvare un documento utilizzando C#."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Trabalhar com secções
 description: "Entendendo conceitos de seção de documento e práticas de manipulação usando C++. Inserir seção em um documento C++. Remover seção C++. Copiar seções entre documentos."
 type: docs
 weight: 120
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/working-with-sections/
 timestamp: 2024-01-31-14-23-37
 ---

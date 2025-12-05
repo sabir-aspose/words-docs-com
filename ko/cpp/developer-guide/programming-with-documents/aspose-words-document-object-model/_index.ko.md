@@ -6,6 +6,9 @@ linktitle: Aspose.Words 문서 개체 모델(DOM)
 type: docs
 description: "문서 개체 모델(DOM)는 단어 문서의 메모리 내 표현입니다. 다음을 사용하여 단어 문서의 내용 및 서식을 읽고 조작하고 수정합니다 C++."
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/aspose-words-document-object-model/
 timestamp: 2024-01-27-14-07-04
 ---

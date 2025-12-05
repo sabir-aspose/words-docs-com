@@ -6,6 +6,9 @@ linktitle: ドキュメントを使用したプログラミング
 type: docs
 description: "`Python.Words` Document Object Model クラスを使用した Aspose を使用して、Python-net でドキュメントをプログラム的に作成、変更、管理します。ドキュメントのプロパティ、設定、コンテンツを操作するだけでなく、色、形状、フォント、その他のグラフィックの管理を通じてドキュメントの外観を操作します。"
 weight: 60
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/python-net/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---

@@ -6,6 +6,9 @@ linktitle: Was ist ein Seitenlayout
 description: "Lassen Sie uns herausfinden, was ein Seitenlayout ist. Ein Seitenlayout beschreibt die Geometrie des Inhalts eines Dokuments."
 type: docs
 weight: 5
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/cpp/what-is-a-page-layout/
 timestamp: 2024-09-24-14-35-44
 ---

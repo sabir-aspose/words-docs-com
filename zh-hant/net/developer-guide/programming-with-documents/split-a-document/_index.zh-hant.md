@@ -6,6 +6,9 @@ linktitle: 分割文件
 description: "使用C#將文件分割成多個檔案。 透過分段功能，可有效地根據標題或分節來分割文件，也可以根據頁面或頁面範圍來分割。"
 type: docs
 weight: 90
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

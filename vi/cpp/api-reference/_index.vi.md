@@ -6,6 +6,9 @@ linktitle: API Reference
 type: docs
 weight: 30
 description: "Tìm hiểu một lời giải thích và ví dụ về Aspose.Words Cho C++ các lớp và phương thức để tạo, chuyển đổi, sửa đổi, kết xuất và in tài liệu mà không cần sử dụng Microsoft Word."
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/api-reference/
 timestamp: 2024-01-30-16-22-34
 ---

@@ -6,6 +6,9 @@ linktitle: Làm việc với các Phần
 description: "Hiểu các khái niệm phân đoạn tài liệu và thực hành thao tác bằng Java. Chèn một đoạn vào trong một tài liệu Java. Loại bỏ phần Java. Sao chép các đoạn giữa các tài liệu."
 type: docs
 weight: 120
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/working-with-sections/
 timestamp: 2024-01-31-14-23-37
 ---

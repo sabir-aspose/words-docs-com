@@ -6,6 +6,9 @@ linktitle: Especificar TrueType Localização Das Fontes
 description: "Especifique várias fontes de fonte TrueType: pasta do sistema, fontes do Usuário, Carregando fontes de um fluxo, um sistema de arquivos ou memória."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/specify-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---

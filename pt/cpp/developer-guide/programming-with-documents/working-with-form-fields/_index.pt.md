@@ -6,6 +6,9 @@ linktitle: Trabalhar com campos de formulário
 description: "Entendendo o recurso de campos de formulário, trabalhando com campos de formulário usando C++."
 type: docs
 weight: 380
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/working-with-form-fields/
 timestamp: 2024-01-27-14-07-04
 ---

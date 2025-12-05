@@ -6,6 +6,9 @@ linktitle: Làm việc với tài liệu được đánh dấu bằng nhãn nh�
 description: "Chuyển đổi Word có nhãn nhạy cảm được áp dụng sang PDF bằng C#. Làm việc với các tài liệu được đánh dấu bằng nhãn nhạy cảm – nhiều định dạng đầu vào khác nhau, bao gồm Word, OpenOffice, Hình ảnh và Sách điện tử."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/net/work-with-document-market-by-sensitivity-label/
 timestamp: 2024-01-31-14-23-37
 ---

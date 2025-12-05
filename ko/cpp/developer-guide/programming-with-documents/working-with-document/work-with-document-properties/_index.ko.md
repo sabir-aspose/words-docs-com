@@ -6,6 +6,9 @@ linktitle: 문서 속성 작업
 description: "Aspose.Words 에 대한 C++ 다음과 같은 문서에 대한 유용한 정보를 저장할 수 있습니다 API 및 버전 번호 또는 승인 된 날짜,내장 또는 사용자 정의 문서 속성."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---

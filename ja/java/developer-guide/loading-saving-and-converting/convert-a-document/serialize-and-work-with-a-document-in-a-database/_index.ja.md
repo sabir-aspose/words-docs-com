@@ -6,6 +6,9 @@ linktitle: データベース内のドキュメントをシリアル化して操
 description: "データベース内でこの文書を操作するために、文書をバイト配列に変換します。 Javaを使用して、データベースとの間で文書を格納および取得できます。"
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/java/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-01-27-14-07-04
 ---

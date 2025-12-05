@@ -6,6 +6,9 @@ linktitle: تبدیل یک سند به یک تصویر
 type: docs
 description: "تبدیل یک سند به فرمت تصویر (JPG، PNG و غیره). یک پیش نمایش سند ایجاد کنید یا یک اسکن سند برای ارسال فاکتور ایجاد کنید."
 weight: 43
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/convert-a-document-to-an-image/
 timestamp: 2024-01-30-16-22-34
 ---

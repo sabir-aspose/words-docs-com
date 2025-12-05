@@ -6,6 +6,9 @@ linktitle: 문서 로드 시 지원되는 기능
 description: "로드 및 대부분의 인기있는 형식으로 문서를 변환하고Microsoft Word기능을 많이 지원합니다."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/supported-features-on-document-load/
 timestamp: 2024-01-27-14-07-04
 ---

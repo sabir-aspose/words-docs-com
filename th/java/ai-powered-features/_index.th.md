@@ -8,6 +8,7 @@ weight: 25
 description: "Aspose.WordsสำหรับJava แนะนำเครื่องมือที่ใช้พลังงานAIเช่นการสรุปเอกสารเพื่อเพิ่มประสิทธิภาพ เรียนรู้วิธีการใช้คุณลักษณะขับเคลื่อนAIพร้อมเคล็ดลับและคำแนะนำโดยละเอียด."
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/ai-powered-features/
 timestamp: 2025-03-17-19-00-00
 ---

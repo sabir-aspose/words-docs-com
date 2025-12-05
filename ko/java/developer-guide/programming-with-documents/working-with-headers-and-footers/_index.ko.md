@@ -6,6 +6,9 @@ linktitle: 머리글 및 바닥 글 작업
 description: "Java을 사용하여 머리글과 바닥 글을 조작하는 방법."
 type: docs
 weight: 150
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/working-with-headers-and-footers/
 timestamp: 2024-01-27-14-07-04
 ---

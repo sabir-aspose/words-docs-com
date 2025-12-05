@@ -6,6 +6,9 @@ linktitle: Zainstaluj czcionki TrueType w Linux
 description: "Aspose.Words for Python umożliwia renderowanie dokumentu utworzonego przy użyciu formatu Microsoft Word na maszynie Linux z największą dokładnością. Aby to osiągnąć, skopiuj pliki czcionek z maszyny Windows lub zainstaluj pakiet czcionek `TrueType` na maszynie Linux."
 type: docs
 weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/python-net/installing-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

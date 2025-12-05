@@ -6,6 +6,9 @@ linktitle: Dostosuj właściwości pola
 description: "Dowiedz się, jak dostosować właściwości pól w C#. Zmień nazwy pól scalających lub uzyskaj wyniki dla pól bez węzła oddzielającego w formacie .NET."
 type: docs
 weight: 27
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

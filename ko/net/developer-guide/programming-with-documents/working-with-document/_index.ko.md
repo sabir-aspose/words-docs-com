@@ -6,6 +6,9 @@ linktitle: 문서 작업
 type: docs
 description: "`Document` 클래스는 C#를 사용하여 다양한 문서 속성과 메서드를 제공합니다. .NET용 Aspose.Words을 사용하여 수행하려는 모든 작업의 시작점으로 `Document` 클래스를 사용합니다. `Document` 객체는 파일이나 스트림에 저장될 수 있으며 브라우저로 전송될 수도 있습니다."
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/net/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---

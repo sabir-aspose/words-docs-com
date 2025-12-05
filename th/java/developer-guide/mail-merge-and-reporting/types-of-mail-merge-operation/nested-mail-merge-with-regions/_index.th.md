@@ -7,6 +7,9 @@ type: docs
 description: "ดำเนินการ Mail Merge กับภูมิภาคที่ซ้อนกัน การผสานแบบซ้อนกันเป็นฟีเจอร์ที่ช่วยให้คุณผสานข้อมูลตามลำดับชั้นจากแหล่งข้อมูลของคุณลงในเทมเพลตการผสานของคุณโดยใช้ Java."
 keywords: "mail merge with nested regions Java, Nested Mail Merge Regions"
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/nested-mail-merge-with-regions/
 timestamp: 2024-01-27-14-07-04
 ---

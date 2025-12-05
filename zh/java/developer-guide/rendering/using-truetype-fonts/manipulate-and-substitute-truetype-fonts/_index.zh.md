@@ -6,6 +6,9 @@ linktitle: 操作和替换TrueType字体
 description: "Aspose.WordsforJava可以将正确的TrueType字体嵌入到生成的文档中，以确保其准确显示，或搜索合适的字体替换，或使用字体回退机制。"
 type: docs
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---

@@ -6,6 +6,9 @@ linktitle: Comment appliquer une Logique personnalisée aux régions non fusionn
 type: docs
 description: "Appliquez une logique personnalisée aux régions non fusionnées lors d'une opération Mail Merge à l'aide de Java."
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/java/how-to-apply-custom-logic-to-unmerged-regions/
 timestamp: 2024-01-27-14-07-04
 ---

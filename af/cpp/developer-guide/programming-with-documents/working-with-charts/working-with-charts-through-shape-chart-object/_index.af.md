@@ -6,6 +6,9 @@ linktitle: Werk Met Kaarte deur Shape.Chart Voorwerp
 description: "Kaarte in besonderhede, hoe grafiek gekoppel met Vorm node in Aspose.Words vir C++."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/working-with-charts-through-shape-chart-object/
 timestamp: 2024-01-27-14-07-04
 ---

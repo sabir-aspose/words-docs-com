@@ -6,6 +6,9 @@ linktitle: 시스템 요구 사항
 description: "작업을 시작하기 전에 Aspose.Words 에 대한 C++,운영 체제,플랫폼,프레임워크 및 환경 요구 사항을 충족하여 장치의 활동이 적절하게 고려되었는지 확인합니다."
 type: docs
 weight: 70
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/system-requirements/
 timestamp: 2024-07-11-16-13-28
 ---

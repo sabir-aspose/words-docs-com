@@ -6,6 +6,9 @@ linktitle: 찾기 및 바꾸기
 type: docs
 description: "문서에서 문자열이나 정규식 패턴을 찾아 Python를 사용하여 원하는 텍스트로 바꿉니다."
 weight: 100
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/python-net/find-and-replace/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Tổng quan về Document Builder
 type: docs
 description: "DocumentBuilder cho phép bạn xây dựng các tài liệu động từ đầu hoặc thêm các phần tử mới vào những tài liệu hiện có. DocumentBuilder cung cấp các phương pháp để chèn văn bản, hộp kiểm, bảng, hình ảnh và các phần tử nội dung khác trong Java."
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---

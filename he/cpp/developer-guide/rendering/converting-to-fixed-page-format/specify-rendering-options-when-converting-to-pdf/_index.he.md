@@ -6,6 +6,9 @@ linktitle: ציין אפשרויות עיבוד בעת המרה ל - PDF
 description: "המרת מסמך ל PDF עם אפשרויות מתקדמות באמצעות C++. השתמש ב PdfSaveOptions כדי לשנות את התוצאה של שמירת מסמך ל PDF פוּרמָט."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/cpp/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

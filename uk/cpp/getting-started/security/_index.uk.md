@@ -6,6 +6,9 @@ linktitle: Примітки щодо безпеки
 type: docs
 description: "Aspose.Words для C++ визнає загальні стандарти безпеки та дотримується їх, щоб забезпечити високий рівень захисту даних. Розглянемо можливі проблеми з безпекою та рекомендації щодо їх усунення."
 weight: 80
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/security/
 timestamp: 2024-01-27-14-07-04
 ---

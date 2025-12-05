@@ -6,6 +6,9 @@ linktitle: 将文档保存为多页TIFF
 description: "将文档转换为光栅图像，这在TIFF格式的示例中进行了讨论。 要确定TIFF的显示方式，您需要使用Java指定其他选项：分辨率，页数，图像二值化等。"
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

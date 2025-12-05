@@ -6,6 +6,9 @@ linktitle: Знайти і замінити
 type: docs
 description: "Знайдіть у своєму документі рядок або шаблон регулярного виразу та замініть його потрібним текстом, використовуючи C++."
 weight: 100
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/find-and-replace/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Конвертиране на документ в PDF
 description: "Конвертиране на документ в PDF чрез използване Python. Поддържат се различни входни формати, включително Word, OpenOffice, Image и eBook формати."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/python-net/convert-a-document-to-pdf/
 timestamp: 2024-01-31-14-23-37
 ---

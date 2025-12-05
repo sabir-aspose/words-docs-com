@@ -6,6 +6,9 @@ linktitle: کار با افزونه های Office
 description: "Aspose.Words برای C++ کلاس های مختلفی برای کار با افزونه های اداری فراهم می کند. شما می توانید Task Pane را از طریق web extension اضافه کنید و ویژگی های pane و extension را سفارشی کنید."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---

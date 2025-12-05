@@ -6,6 +6,9 @@ linktitle: Lucrează cu un document marcat cu o etichetă de sensibilitate
 description: "Convertaţi un fișier Word cu etichete de sensibilitate aplicate într-un fișier PDF folosind C#. `Lucraţi cu documente marcate cu etichete de sensibilitate – diferite formate de intrare, inclusiv Word, OpenOffice, Imagine şi eBook.`"
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/work-with-document-market-by-sensitivity-label/
 timestamp: 2024-01-31-14-23-37
 ---

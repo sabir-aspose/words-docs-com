@@ -6,6 +6,9 @@ linktitle: עבודה עם מסמך בחנות Liferay
 description: "השוואת מסמכי Word משותפים Liferay באמצעות שימוש C#. עבודה עם מסמכים מאוחסנים Liferay - פורמטי קלט שונים, כולל Word, OpenOffice, Image ו- eBook."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/work-with-document-stored-in-liferay/
 timestamp: 2024-01-31-14-23-37
 ---

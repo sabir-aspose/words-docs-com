@@ -8,6 +8,7 @@ description: "تصدير المستندات متعددة الصفحات إلى �
 weight: 44
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/python-net/convert-a-multi-page-document-to-an-image/
 timestamp: 2025-06-18-10-00-04
 ---

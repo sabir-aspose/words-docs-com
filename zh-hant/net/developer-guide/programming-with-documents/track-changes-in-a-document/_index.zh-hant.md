@@ -6,6 +6,9 @@ linktitle: 在文件中追蹤更改
 description: "使用 C# 追蹤您或他人對內容和格式所做的更改。 在文件中存取個別的編輯版本，並對它們套用各種特性。"
 type: docs
 weight: 270
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

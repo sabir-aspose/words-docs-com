@@ -6,6 +6,9 @@ linktitle: Премахване На Полета
 description: "Научете как да премахнете полетата в C++. Изтрийте полетата програмно, като използвате C++ API."
 type: docs
 weight: 35
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/remove-fields/
 timestamp: 2024-01-27-14-07-04
 ---

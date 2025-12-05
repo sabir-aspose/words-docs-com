@@ -6,6 +6,9 @@ linktitle: ใช้แบบอักษรTrueType
 description: "วิธีการหาแบบอักษรที่เหมาะสมหรือการเปลี่ยนที่เหมาะสมหากไม่สามารถหาแบบอักษรที่จำเป็นสำหรับการแสดงผลที่ถูกต้องโดยใช้Aspose.WordsสำหรับJava."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

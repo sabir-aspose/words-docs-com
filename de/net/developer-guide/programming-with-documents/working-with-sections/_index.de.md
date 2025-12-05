@@ -6,6 +6,9 @@ linktitle: Arbeiten mit Abschnitten
 description: "Verständnis der Konzepte und Bearbeitungspraktiken von Dokumentabschnitten mit C#. Abschnitt in ein C#-Dokument einfügen. Abschnitt C# entfernen. Abschnitte zwischen Dokumenten kopieren."
 type: docs
 weight: 120
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/working-with-sections/
 timestamp: 2024-09-25-11-08-55
 ---

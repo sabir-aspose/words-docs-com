@@ -6,6 +6,9 @@ linktitle: Requisiti di sistema
 description: "Prima di iniziare a lavorare con Aspose.Words per Java, assicurarsi di soddisfare i requisiti del sistema operativo, della piattaforma, dei framework e dell'ambiente in modo che le attività sui dispositivi siano correttamente contabilizzate."
 type: docs
 weight: 80
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/java/system-requirements/
 timestamp: 2024-01-27-14-07-04
 ---

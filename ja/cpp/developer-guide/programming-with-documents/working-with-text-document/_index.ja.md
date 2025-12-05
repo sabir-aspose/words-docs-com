@@ -6,6 +6,9 @@ linktitle: テキスト文書の操作
 description: "高度なTXT文書処理、リスト、BiDi、ヘッダー/フッター、C++を使用して。"
 type: docs
 weight: 430
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/working-with-text-document/
 timestamp: 2024-01-27-14-07-04
 ---

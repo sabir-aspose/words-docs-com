@@ -6,6 +6,9 @@ linktitle: Cài Đặt TrueType phông chữ trên Linux
 description: "Aspose.Words cho C++ cho phép hiển thị tài liệu được tạo bằng Microsoft Word trên máy Linux với độ chính xác tốt nhất. Để thực hiện việc này, hãy sao chép các tệp phông chữ từ máy Windows hoặc Cài đặt gói phông chữ `TrueType` vào máy Linux của bạn."
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/install-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

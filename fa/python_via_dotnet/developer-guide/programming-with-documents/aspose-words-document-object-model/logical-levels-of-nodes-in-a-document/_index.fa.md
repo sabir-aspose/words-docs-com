@@ -6,6 +6,9 @@ linktitle: سطوح منطقی گره ها در یک سند
 type: docs
 description: "در مستندات Aspose.Words برای Python via .NET سطوح منطقی گره ها ذکر شده است - سطح بلوک، سطح درون خطی یا سطح ردیف. سطح گره برای توصیف مکانی در درخت سند که گره معمولاً در آن رخ می دهد استفاده می شود."
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Proteger o cifrar un documento
 description: "Aspose.Words para .NET proporciona solo lectura, cifrar un documento, edición restringida y firmas digitales para la protección de documentos mediante C#. Aspose.Words admite la mayoría de las opciones de protección de Word."
 type: docs
 weight: 50
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

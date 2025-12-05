@@ -6,6 +6,9 @@ linktitle: ทำความสะอาดเอกสาร
 description: "ลบข้อมูลที่ไม่ได้ใช้หรือซ้ำกันเพื่อลดขนาดผลผลิตและเวลาในการประมวลผล ลบสไตล์ที่ไม่ได้ใช้,รูปแบบในตัวที่ไม่ได้ใช้,รูปแบบที่ซ้ำกัน,หรือรายการที่ไม่ได้ใช้โดยใช้Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/java/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: Seriëler maken en werken met een document in een database
 description: "Een document omzetten in een byte-array voor werk met dit document in een database met behulp van C#. U kunt een document van en naar de database opslaan en ophalen."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/net/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-07-09-19-00-42
 ---

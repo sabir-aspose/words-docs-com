@@ -6,6 +6,9 @@ linktitle: Obsługa metaplików Windows
 description: "Aspose.Words dla .NET implementuje własny odtwarzacz metaplików Windows do odtwarzania formatu metaplików na wszystkich platformach i obsługuje obsługę podstawowych funkcji metaplików oraz może wykonać powrót do innego typu odtwarzacza metaplików przy użyciu C#."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/net/handling-windows-metafiles/
 timestamp: 2024-07-10-14-38-57
 ---

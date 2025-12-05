@@ -6,6 +6,9 @@ linktitle: ตรวจจับรูปแบบไฟล์และตรว
 description: "กำหนดรูปแบบไฟล์ใน C# หากคุณไม่แน่ใจว่าเนื้อหาที่แท้จริงของไฟล์คืออะไร หรือเพื่อตรวจสอบความเข้ากันได้ของรูปแบบ"
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

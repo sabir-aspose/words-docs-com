@@ -6,6 +6,9 @@ linktitle: ویرایش اسناد را محدود کنید
 description: "ویرایش یک سند را با تنظیم نوع محدودیت با استفاده از C++ محدود کنید. شما همچنین می توانید حفاظت را حذف کنید و مناطق قابل ویرایش بدون محدودیت را ایجاد کنید."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---

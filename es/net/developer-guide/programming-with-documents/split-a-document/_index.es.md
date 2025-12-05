@@ -6,6 +6,9 @@ linktitle: Dividir un documento
 description: "Divida un documento en varios archivos usando C#. Utilice la función de división para dividir eficazmente un documento por títulos o secciones, así como por páginas o por rangos de páginas."
 type: docs
 weight: 90
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/net/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

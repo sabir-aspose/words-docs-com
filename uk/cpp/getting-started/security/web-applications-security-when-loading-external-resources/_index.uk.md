@@ -6,6 +6,9 @@ linktitle: Безпека Веб-Додатків При Завантаженн�
 type: docs
 description: "Завантажувати віддалені ресурси, що може бути причиною загроз безпеці. Ознайомтеся з загальними проблемами безпеки та рішеннями для них у C++."
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-30-16-22-34
 ---

@@ -6,6 +6,9 @@ linktitle: רמות לוגיות של נקודות במסמך
 type: docs
 description: "In In In Aspose.Words עבור Java תיעוד הזכיר רמות לוגיות של צמתים - רמת בלוק, רמת קו תחתון, או רמת שורות. רמת הצומת משמשת לתיאור המיקום בעץ המסמך שבו מתרחשת בדרך כלל הצומת."
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

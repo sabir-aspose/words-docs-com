@@ -6,6 +6,9 @@ linktitle: 拆分文档
 description: "Aspose.WordsforJava为您提供了一种通过标题或部分以及页面或页面范围将一个文档拆分为多个文档的有效方法。"
 type: docs
 weight: 90
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/java/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

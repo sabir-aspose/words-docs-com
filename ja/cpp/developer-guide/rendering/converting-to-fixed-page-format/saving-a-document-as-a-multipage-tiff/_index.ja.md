@@ -6,6 +6,9 @@ linktitle: ドキュメントを複数ページTIFFとして保存する
 description: "C++を使用して、ドキュメントを複数ページのTIFFに変換します。 文書が画像にどのように表示されるかを決定するには、解像度、ページ数、画像の二値化などの追加オプションを指定する必要があります。"
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/cpp/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

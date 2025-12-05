@@ -6,6 +6,9 @@ linktitle: Збереження багатосторінкового докум�
 description: "Перетворіть документ на багатосторінковий TIFF за допомогою C++. Щоб визначити, як документ відображається на зображенні, вам необхідно вказати додаткові параметри: дозвіл, кількість сторінок, бінаризацію зображення і т. д."
 type: docs
 weight: 40
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/cpp/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

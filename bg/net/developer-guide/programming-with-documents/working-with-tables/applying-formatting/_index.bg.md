@@ -6,6 +6,9 @@ linktitle: Прилагане на форматиране на таблица
 description: "Форматиране на таблица в детайли, като се използва C#. Използване C# форматиране на всяка част от таблицата."
 type: docs
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/net/applying-formatting/
 timestamp: 2024-01-27-14-07-04
 ---

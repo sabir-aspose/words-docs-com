@@ -6,6 +6,9 @@ linktitle: Plaas'n Tabel
 description: "Spesifiseer tabel posisie in C++. Kry'n tabel belyning, kry en stel drywende tafel posisie met behulp van C++."
 type: docs
 weight: 50
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/cpp/position-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

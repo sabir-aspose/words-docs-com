@@ -6,6 +6,9 @@ linktitle: Преглед На Полетата
 description: "Полетата се представят подробно, кодовете на полетата и резултатите от полетата, обяснени в Aspose.Words за C++."
 type: docs
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/fields-overview/
 timestamp: 2024-01-27-14-07-04
 ---

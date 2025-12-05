@@ -6,6 +6,9 @@ linktitle: PDF/A ve PDF/UA'ya Kaydetme Sırasında Erişilebilirlik Sorunu Uyar�
 description: "PDF/A ve PDF/UA, belge içeriğiyle ilgili erişilebilirlik gereksinimleri koyar. PDF/A veya PDF/UA olarak kaydetme Java ve sorunu uyumluluk ihlali durumunda uyarı oluşturulur."
 type: docs
 weight: 29
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/warnings-when-saving-to-pdfa-and-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---

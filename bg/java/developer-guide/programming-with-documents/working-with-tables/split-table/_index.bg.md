@@ -6,6 +6,9 @@ linktitle: Разделяне на таблицата
 description: "Разделяне на таблицата Java. Как да разделим една таблица на две отделни таблици Java."
 type: docs
 weight: 100
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/java/split-table/
 timestamp: 2024-01-27-14-07-04
 ---

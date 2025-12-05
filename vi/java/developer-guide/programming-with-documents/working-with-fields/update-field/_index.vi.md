@@ -6,6 +6,9 @@ linktitle: Cập nhật các trường
 description: "Học cách cập nhật trường trong Java. Cập nhật các trường một cách lập trình hoặc sử dụng cập nhật tự động các trường bằng Java API"
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/update-field/
 timestamp: 2024-01-27-14-07-04
 ---

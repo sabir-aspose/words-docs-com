@@ -6,6 +6,9 @@ linktitle: المستويات المنطقية للعقد في المستند
 type: docs
 description: "في Aspose.Words ل C++ ذكرت الوثائق المستويات المنطقية للعقد-مستوى الكتلة أو المستوى المضمن أو مستوى الصف. يتم استخدام مستوى العقدة لوصف الموقع في شجرة المستندات حيث تحدث العقدة عادة."
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

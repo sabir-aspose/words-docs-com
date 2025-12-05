@@ -6,6 +6,9 @@ linktitle: العمل مع الواصلة
 description: "استخدم الواصلة لترتيب أكثر إحكاما للنص باستخدام C++. يوفر خوارزميات متقدمة للعمل مع قواميس الواصلة، ويستخدم قواميس OpenOffice."
 type: docs
 weight: 220
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/cpp/working-with-hyphenation/
 timestamp: 2024-01-30-16-22-34
 ---

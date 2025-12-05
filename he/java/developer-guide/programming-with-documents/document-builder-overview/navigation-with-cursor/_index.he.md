@@ -6,6 +6,9 @@ linktitle: ניווט עם Cursor
 description: "לנווט בין נקודות שונות בתוך מסמך, כגון פסקה, סימן ספר, או דמות ספציפית באמצעות שימוש Java."
 type: docs
 weight: 5
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/java/navigation-with-cursor/
 timestamp: 2024-01-27-14-07-04
 ---

@@ -6,6 +6,9 @@ linktitle: 도형을 문서와 별도로 렌더링
 description: "문서를 처리 할 때 이미지,단락이 포함 된 텍스트 상자 또는 화살표 모양과 같은 다양한 그래픽 개체를 추출하고Java을 사용하여 외부 위치로 내보냅니다."
 type: docs
 weight: 40
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

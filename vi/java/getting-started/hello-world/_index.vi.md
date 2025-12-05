@@ -6,6 +6,9 @@ linktitle: Xin chào thế giới
 description: "Tạo, chỉnh sửa và lưu tài liệu đầu tiên của bạn trong bất kỳ định dạng nào được hỗ trợ bằng cách sử dụng Aspose.Words cho Java để trải nghiệm sự đơn giản và sức mạnh của nó trong Java."
 type: docs
 weight: 20
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/hello-world/
 timestamp: 2024-01-27-14-07-04
 ---

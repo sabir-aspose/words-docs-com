@@ -4,6 +4,9 @@ second_title: Aspose.Words עבור .NET
 articleTitle: המרת מסמך
 linktitle: המרת מסמך
 type: docs
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/convert-a-document/
 weight: 30
 description: "להמיר בקלות מסמכים מפורמט אחד לאחר באמצעות C#. אתה יכול לעבוד עם כל הפורמטים הפופולריים ביותר כמו Microsoft Word פורמטים כגון DOCX או DOC, OpenDocument פורמטים כגון ODT או OTT, פורמטי אינטרנט כגון HTML או XHTML, פורמטים כגון MarkDown או TXT ואחרים."

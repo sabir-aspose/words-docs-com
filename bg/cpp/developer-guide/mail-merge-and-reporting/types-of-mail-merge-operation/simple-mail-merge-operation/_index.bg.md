@@ -7,6 +7,9 @@ type: docs
 description: "Обикновено Mail Merge се използва за попълване на полетата Mail Merge във вашия шаблон с необходимите данни от вашия източник на данни – това е подобно на класическото Mail Merge във Microsoft Word. Добавете едно или повече полета за обединяване във вашия шаблон и след това изпълнете простата операция Mail Merge."
 keywords: "how to execute Mail Merge c++"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /bg/cpp/simple-mail-merge-operation/
 timestamp: 2024-09-24-14-35-44
 ---

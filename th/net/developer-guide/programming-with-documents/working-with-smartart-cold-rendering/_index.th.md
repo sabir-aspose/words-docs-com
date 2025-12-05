@@ -7,6 +7,9 @@ description: "ข้อมูลเบื้องต้นเกี่ยวก
 type: docs
 description: "Aspose.Words สำหรับ .NET ดำเนินการ SmartArt Cold Rendering ซึ่งหมายความว่าจะจัดวางและเรนเดอร์วัตถุ SmartArt หากภาพวาด SmartArt ที่แสดงผลล่วงหน้าหายไปหรือไม่ถูกต้องโดยใช้ C#"
 weight: 330
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/net/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---

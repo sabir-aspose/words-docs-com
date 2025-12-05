@@ -6,6 +6,9 @@ linktitle: Personalizza le proprietà del campo
 description: "Scopri come personalizzare le proprietà dei campi in Python. Rinominare i campi di unione o ottenere risultati per i campi senza nodo separatore in Python via .NET."
 type: docs
 weight: 27
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/python-net/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---

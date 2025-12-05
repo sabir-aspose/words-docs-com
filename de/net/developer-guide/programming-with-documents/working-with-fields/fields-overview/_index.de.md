@@ -6,6 +6,9 @@ linktitle: Felderübersicht
 description: "Feldfunktionen werden in Details, Feldcodes und Feldergebnissen in Aspose.Words für .NET erläutert."
 type: docs
 weight: 10
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/net/fields-overview/
 timestamp: 2024-09-25-11-08-55
 ---

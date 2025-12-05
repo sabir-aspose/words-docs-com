@@ -6,6 +6,9 @@ linktitle: 설치 TrueType 글꼴 켜기 Linux
 description: "Aspose.Words 에 대한 C++ 다음을 사용하여 만든 문서를 렌더링 할 수 있습니다 Microsoft Word 에 Linux 최고의 정확도를 가진 기계. 이 작업을 수행하려면,에서 글꼴 파일을 복사 Windows 기계 또는 설치 `TrueType` 당신의 위에 글꼴 패키지 Linux 기계"
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/install-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---

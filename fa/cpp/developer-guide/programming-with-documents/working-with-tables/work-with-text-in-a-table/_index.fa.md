@@ -6,6 +6,9 @@ linktitle: کار با متن در یک جدول
 description: "متن را در یک جدول در C++ جایگزین کنید. متن ساده را از جدول یا سلول با استفاده از C++ استخراج کنید."
 type: docs
 weight: 60
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/cpp/work-with-text-in-a-table/
 timestamp: 2024-01-27-14-07-04
 ---

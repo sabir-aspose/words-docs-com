@@ -6,6 +6,9 @@ linktitle: עבודה עם מסמך
 type: docs
 description: "The The The `Document` שיעור מספק תכונות ושיטות שונות באמצעות Python. אתה משתמש `Document` השיעור כנקודת ההתחלה לכל מה שאתה רוצה לעשות Aspose.Words עבור Python. The The The `Document` ניתן להציל את האובייקט לקובץ או לזרם וגם לשלוח לדפדפן."
 weight: 40
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/python-net/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---

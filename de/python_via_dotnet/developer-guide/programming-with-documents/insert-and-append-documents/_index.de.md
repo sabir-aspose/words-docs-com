@@ -6,6 +6,9 @@ linktitle: Dokumente einfügen und anhängen
 description: "Kombinieren Sie Dokumente zu einem: Fügen Sie ein Dokument in ein neues oder vorhandenes ein oder hängen Sie es an, indem Sie `Suchen und Ersetzen`, `Zusammenführen von Feldern`, `Lesezeichen` oder einfach am Ende des Dokuments in Python verwenden."
 type: docs
 weight: 80
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/python-net/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---

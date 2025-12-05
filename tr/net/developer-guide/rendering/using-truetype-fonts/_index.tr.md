@@ -6,6 +6,9 @@ linktitle: TrueType Yazı Tiplerini Kullanma
 description: ".NET için Aspose.Words, C# kullanarak doğru belge oluşturma için doğru yazı tipini veya onun uygun alternatifini bulabilir. Bu, bir yazı tipi hakkında yeterli bilgi olmadığında görüntülenen belge ile orijinal arasındaki farkın minimum düzeyde olmasını sağlar."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/using-truetype-fonts/
 timestamp: 2024-01-27-14-07-04
 ---

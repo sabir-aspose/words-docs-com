@@ -7,6 +7,9 @@ type: docs
 description: "Basit bir Mail Merge doldurmak için kullanılır Mail Merge şablonunuzun içindeki veri kaynağınızdan gerekli verileri içeren alanlar - klasiğe benzer Mail Merge içinde Microsoft Word. Şablonunuza bir veya daha fazla birleştirme alanı ekleyin ve ardından basit olanı yürütün Mail Merge operasyon."
 keywords: "how to execute Mail Merge c++"
 weight: 10
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/cpp/simple-mail-merge-operation/
 timestamp: 2024-09-24-14-35-44
 ---

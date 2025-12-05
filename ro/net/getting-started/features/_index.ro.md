@@ -6,6 +6,9 @@ linktitle: Funcționalități suportate
 description: "Aspose.Words pentru .NET oferă utilizatorilor o gamă largă de caracteristici, începând de la conversia și modificarea simplă a documentelor până la crearea unor documente structurate și vizuale sau automatizarea raportării folosind C #."
 type: docs
 weight: 40
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/features/
 timestamp: 2024-10-21-11-17-44
 ---

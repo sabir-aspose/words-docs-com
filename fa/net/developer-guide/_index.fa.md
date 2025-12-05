@@ -6,6 +6,9 @@ linktitle: راهنمای توسعه دهنده
 description: "این راهنمای برنامه‌نویس سناریوها و نکات عملی را شرح می‌دهد تا به شما کمک کند از Aspose.Words خاص برای ویژگی‌های .NET استفاده کنید، به ظاهر سند خاصی برسید، یا یک مورد استفاده را ممکن کنید."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/net/developer-guide/
 timestamp: 2024-09-25-11-08-55
 ---

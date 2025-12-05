@@ -6,6 +6,9 @@ linktitle: שמירת מסמך כ- Multipage TIFF
 description: "להמיר מסמך ל-iFF Multi-Page באמצעות C#. כדי לקבוע כיצד המסמך מוצג על התמונה שאתה צריך לציין אפשרויות נוספות: החלטה, מספר דפים, חיבת תמונות וכו '."
 type: docs
 weight: 30
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-07-10-14-38-57
 ---

@@ -6,6 +6,9 @@ linktitle: 检测文件格式并检查格式兼容性
 description: "如果您不确定文件的实际内容，或者要检查格式兼容性，请确定 C++ 中的文件格式。"
 type: docs
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---

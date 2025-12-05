@@ -6,6 +6,9 @@ linktitle: Benutzerdefiniertes BarCode-Bild generieren
 description: "Beispiel für die Generierung von Barcode-Formen mit Java."
 type: docs
 weight: 350
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/java/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
 timestamp: 2024-09-05-11-07-10
 ---

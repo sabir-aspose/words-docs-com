@@ -6,6 +6,9 @@ linktitle: Specificare le opzioni di rendering durante la conversione in PDF
 description: "Convertire un documento in PDF con opzioni avanzate utilizzando C++. Utilizzare PdfSaveOptions per modificare il risultato del salvataggio di un documento in formato PDF."
 type: docs
 weight: 30
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/cpp/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---

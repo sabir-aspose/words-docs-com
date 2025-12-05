@@ -6,6 +6,9 @@ linktitle: Робота з OLE Об'єкти та Інтернет-відео
 description: "Вставте оле об'єктів або оліну в документ за допомогою Pythonй"
 type: docs
 weight: 360
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /uk/python-net/working-with-ole-objects/
 timestamp: 2024-01-27-14-07-04
 ---

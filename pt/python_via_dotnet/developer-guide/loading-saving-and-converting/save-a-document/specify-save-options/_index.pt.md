@@ -6,6 +6,9 @@ linktitle: Especifique as opções de salvamento
 description: "Controle com mais precisão o processo de salvamento usando Python."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/python-net/specify-save-options/
 timestamp: 2024-01-27-14-07-04
 ---

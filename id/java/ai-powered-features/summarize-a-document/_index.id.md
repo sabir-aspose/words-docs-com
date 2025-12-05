@@ -8,6 +8,7 @@ weight: 20
 description: "Meringkas dokumen. Aspose.Words untuk Java menyederhanakan peringkasan dokumen menggunakan model OpenAI dan Google AI dengan memungkinkan Anda menentukan panjang ringkasan."
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/java/summarize-a-document/
 timestamp: 2025-03-17-19-00-00
 ---

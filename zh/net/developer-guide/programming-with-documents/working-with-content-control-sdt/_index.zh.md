@@ -6,6 +6,9 @@ linktitle: 使用内容控制 SDT
 description: "高级文档内容管理，如何使用 C# 创建和操作内容控件（结构化文档标签）。"
 type: docs
 weight: 390
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/net/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---

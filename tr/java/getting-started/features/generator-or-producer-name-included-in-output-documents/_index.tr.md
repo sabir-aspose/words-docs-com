@@ -6,6 +6,9 @@ linktitle: Çıktı Belgelerinde Generator veya Üretici İsmi Dahil Edildi
 description: "Aspose.Words için Java'e, oluşturulan belgede kullanılan jeneratör adı ve sürüm numarasını ekleyin. Bu veri, çıktı dosya biçimi bağımlı olarak belgenin farklı yollarla bulunabilir."
 type: docs
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/generator-or-producer-name-included-in-output-documents/
 timestamp: 2024-10-21-11-17-44
 ---

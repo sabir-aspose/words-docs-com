@@ -6,6 +6,9 @@ linktitle: Een document opslaan als Multipage TIFF
 description: "Een document omzetten naar een rasterafbeelding, die wordt besproken op het voorbeeld van het TIFF-formaat. Om te bepalen hoe TIFF wordt weergegeven moet u extra opties opgeven: resolutie, aantal pagina's, image binarization, enz. Java."
 type: docs
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/java/saving-a-document-as-a-multipage-tiff/
 timestamp: 2024-01-27-14-07-04
 ---

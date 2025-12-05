@@ -6,6 +6,9 @@ linktitle: معرفی و ایجاد جداول
 description: "با استفاده از Python جداول را در یک سند ایجاد و مدیریت کنید."
 type: docs
 weight: 10
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fa/python-net/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---

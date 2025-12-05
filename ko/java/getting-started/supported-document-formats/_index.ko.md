@@ -6,6 +6,9 @@ linktitle: 지원되는 문서 형식
 type: docs
 description: "많은 인기있는 형식의 소스 문서를 편집하고Java을 사용하여 파일을 한 형식에서 다른 형식으로 자유롭게 변환합니다."
 weight: 30
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/supported-document-formats/
 timestamp: 2024-10-21-11-17-44
 ---

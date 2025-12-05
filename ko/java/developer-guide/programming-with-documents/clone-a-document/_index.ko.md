@@ -6,6 +6,9 @@ linktitle: 문서 복제
 type: docs
 description: "동일한 복사본을 얻기 위해 문서를 복제합니다. 복사본을 만들 때 원본 문서의 노드와 속성은Java을 사용하여 복제됩니다."
 weight: 70
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/clone-a-document/
 timestamp: 2024-01-27-14-07-04
 ---

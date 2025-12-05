@@ -6,6 +6,9 @@ linktitle: 시작 하기
 type: docs
 description: "이 소개를 사용하여Aspose.Words에 대한Java기본 사항을 사용하여 비즈니스에 대한Aspose.Words의 가치를 실현하십시오."
 weight: 10
+ai_search_scope: words_java
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/java/getting-started/
 timestamp: 2024-09-25-11-08-55
 ---

@@ -6,6 +6,9 @@ linktitle: إدراج الحقول
 description: "كيفية إدراج الحقول في مستند باستخدام C# – تعلم طرقًا مختلفة باستخدام أمثلة التعليمات البرمجية."
 type: docs
 weight: 20
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ar/net/inserting-fields/
 timestamp: 2024-01-27-14-07-04
 ---

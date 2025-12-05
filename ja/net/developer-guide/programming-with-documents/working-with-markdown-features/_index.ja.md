@@ -6,6 +6,9 @@ linktitle: Markdown 機能の使用
 description: "C# を使用して Markdown 機能を実装する方法。すべての機能は、対応するスタイルまたは直接書式設定として表されます。"
 type: docs
 weight: 420
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ja/net/working-with-markdown-features/
 timestamp: 2024-01-31-14-23-37
 ---

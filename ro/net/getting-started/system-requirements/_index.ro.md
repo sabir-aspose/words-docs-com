@@ -6,6 +6,9 @@ linktitle: Cerințe de sistem
 description: "Înainte de a începe să lucrezi cu Aspose.Words pentru .NET, asigură-te că îndeplinești cerințele sistemului de operare, platformei, framework-urilor și mediului astfel încât activitățile pe dispozitivele tale sunt în mod corespunzător contabilizate folosind C#."
 type: docs
 weight: 70
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/system-requirements/
 timestamp: 2024-02-01-16-17-05
 ---

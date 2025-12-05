@@ -6,6 +6,9 @@ linktitle: Travailler avec des graphiques
 description: "Introduction à la fonctionnalité Graphique, comment créer et manipuler des graphiques à l'aide de C#."
 type: docs
 weight: 310
+ai_search_scope: words_net
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/net/working-with-charts/
 timestamp: 2024-02-05-15-07-18
 ---

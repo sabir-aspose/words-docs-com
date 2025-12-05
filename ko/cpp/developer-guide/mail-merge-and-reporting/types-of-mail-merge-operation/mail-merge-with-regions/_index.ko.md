@@ -7,6 +7,9 @@ type: docs
 description: "템플릿에 다른 영역을 만들어 데이터로 간단히 채울 수 있는 특수 영역을 만듭니다. 사용 Mail Merge 영역 사용 테이블을 삽입하려는 경우 반복되는 데이터가 있는 행을 사용하여 문서를 동적으로 확장할 수 있습니다."
 keywords: "how to execute Mail Merge c++"
 weight: 20
+ai_search_scope: words_cpp
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ko/cpp/mail-merge-with-regions/
 timestamp: 2024-09-24-14-35-44
 ---

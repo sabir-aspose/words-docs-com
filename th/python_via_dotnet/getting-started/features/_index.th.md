@@ -6,6 +6,9 @@ linktitle: คุณสมบัติที่รองรับ
 description: "Aspose.Words สำหรับ Python via .NET มอบคุณลักษณะที่หลากหลายแก่ผู้ใช้ ตั้งแต่การแปลงและแก้ไขเอกสารไปจนถึงการสร้างเอกสารที่มีโครงสร้างและสวยงามสะดุดตา หรือการรายงานอัตโนมัติ"
 type: docs
 weight: 30
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/python-net/features/
 timestamp: 2024-10-21-11-17-44
 ---
