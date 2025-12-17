@@ -10,7 +10,7 @@ ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /net/what-s-new-in-aspose-words-for-net/
-timestamp: 2025-12-10-11-12-25
+timestamp: 2025-12-17-11-12-25
 ---
 
 {{% alert color="grey" %}}
@@ -91,7 +91,7 @@ The ability to render Funnel charts in documents has been added.
 
 #### Render VerticalFarEast and HorizontalRotatedFarEast Text Orientations in EQ-field <sup>25.12</sup>
 
-The ability to render VerticalFarEast and HorizontalRotatedFarEast text orientations in EQ-field elements has been introduced.
+The ability to render **VerticalFarEast** and **HorizontalRotatedFarEast** text orientations in EQ-field elements has been introduced.
 
 ### Other
 
