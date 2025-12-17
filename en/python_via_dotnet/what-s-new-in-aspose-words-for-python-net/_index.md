@@ -15,13 +15,15 @@ timestamp: 2025-11-17-11-12-25
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Python via .NET 25.9, 25.10, 25.11
+## Aspose.Words for Python via .NET 25.9, 25.10, 25.11, 25.12
 
 Aspose.Words 25.9 enhances document loading reliability, expands shape and text formatting, and improves Markdown export with math support.
 
 Aspose.Words 25.10 introduces enhancements to text and PDF exports and improves accessibility compliance.
 
 Aspose.Words 25.11 expands AI integration capabilities, as well as enhances Markdown export.
+
+Aspose.Words 25.12 improves rendering accuracy across PDF, HTML-Fixed, and SVG formats, adds support for Variable Fonts and Funnel charts, and enhances text orientation handling in field rendering.
 
 ### AI-powered Features
 
@@ -54,11 +56,27 @@ A new save option [export_floating_shapes_as_inline_tag](https://reference.aspos
 
 Compliance with PDF/UA standards has been improved by correctly tagging horizontal rules as artifacts, enhancing a better experience for users of assistive technologies.
 
+#### Handle Relative Hyperlinks When Exporting to PDF <sup>25.12</sup>
+
+The ability to correctly resolve and handle relative hyperlinks when exporting to PDF has been introduced by adding Base URI processing during document export.
+
 ### Rendering
 
 #### Fine-tune Shadow Effects <sup>25.9</sup>
 
 The ability to fine-tune [shadow effects](https://reference.aspose.com/words/python-net/aspose.words.drawing/shadowformat/) has been enhanced by introducing new public properties.
+
+#### Support for Variable Fonts When Saving Documents to SVG and Html-Fixed <sup>25.12</sup>
+
+Robust support for Variable Fonts when saving documents to SVG and Html-Fixed formats has been added, ensuring that different font variations (including weight, width, and other parameters) defined within a single font file render correctly.
+
+#### Render Funnel Charts <sup>25.12</sup>
+
+The ability to render Funnel charts in documents has been added.
+
+#### Render VerticalFarEast and HorizontalRotatedFarEast Text Orientations in EQ-field <sup>25.12</sup>
+
+The ability to render **VerticalFarEast** and **HorizontalRotatedFarEast** text orientations in EQ-field elements has been introduced.
 
 {{% alert color="primary" %}}
 
@@ -67,6 +85,8 @@ Learn more about [Aspose.Words for Python via .NET 25.9 Release Notes](https://r
 Learn more about [Aspose.Words for Python via .NET 25.10 Release Notes](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-10-release-notes/).
 
 Learn more about [Aspose.Words for Python via .NET 25.11 Release Notes](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-11-release-notes/).
+
+Learn more about [Aspose.Words for Python via .NET 25.12 Release Notes](https://releases.aspose.com/words/python/release-notes/2025/aspose-words-for-python-via-dotnet-25-12-release-notes/).
 
 {{% /alert %}}
 
