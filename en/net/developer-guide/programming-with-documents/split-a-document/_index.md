@@ -135,3 +135,27 @@ Aspose.Words enables you to merge the output split document with another docu
 The following code example shows how to merge a split document with another document:
 
 {{< gist "aspose-words-gists" "6759a1a6b7f448798751d54922a8efcb" "merge-split-documents.cs" >}}
+
+------ 
+
+## Troubleshoot
+
+1. **Problem:** Splitting by headings works only when saving to HTML, and attempts to save to PDF or DOCX produce a single file.  
+   **Solution:** The `DocumentSplitCriteria` enumeration is supported only for HTML output. For other formats, split the document manually using section breaks or the `ExtractPages` method. Example for PDF using page ranges:  
+
+   ```csharp
+   Document srcDoc = new Document("input.docx");
+   Document part = srcDoc.ExtractPages(1, 5);
+   part.Save("output_part.pdf");
+   ```
+
+2. **Problem:** Attempting to split a document while saving to MHTML results in an error.  
+   **Solution:** MHTML does not support the `DocumentSplitCriteria` property. Use an alternative format (HTML, PDF, DOCX) for splitting, or split the document first and then convert each part to MHTML individually.
+
+3. **Problem:** After splitting by pages, the resulting documents show layout differences (missing headers/footers, shifted page numbers).  
+   **Solution:** Ensure each split part retains its original sections. When using `ExtractPages`, the method copies the entire section structure, preserving headers, footers, and page numbering. If custom headers/footers are defined per section, verify that the source document uses section breaks appropriately before splitting.
+
+4. **Problem:** Complex elements such as footnotes, endnotes, or fields are lost or rendered incorrectly in split documents.  
+   **Solution:** `ExtractPages` copies most document elements, but some complex structures may be re‑generated during saving. Use the `DocumentPartSavingCallback` to inspect and adjust each part before it is saved, or split the document by section breaks where these elements are contained within a single section.  
+
+------

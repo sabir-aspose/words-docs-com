@@ -77,3 +77,21 @@ The following files are used in the example above. The file name is on the left 
 |  | Test File (Enc).docx | Encrypted Office Open XML WordprocessingML document. |
 | Unsupported file formats | Test File (JPG).jpg | JPEG image file. |
 
+------  
+
+## FAQ
+
+1. **Q:** How can I detect the file format of a document without loading it into a `Document` object?  
+   **A:** Use the static method `FileFormatUtil.DetectFileFormat(string filePath)`. It returns a `FileFormatInfo` object that contains the detected format, version, and whether the format is supported, all without creating a `Document` instance.
+
+2. **Q:** Which Aspose.Words API method checks whether a detected format is compatible with the library?  
+   **A:** The `FileFormatInfo.IsLoadable` property indicates if the format can be loaded by Aspose.Words. After calling `DetectFileFormat`, inspect this property to decide whether to attempt loading the file.
+
+3. **Q:** Does a successful `DetectFileFormat` call guarantee that the document will open without errors?  
+   **A:** No. `DetectFileFormat` reads only the header information needed to identify the format. The file may still be corrupted, encrypted with an unknown password, or contain unsupported features that cause loading to fail.
+
+4. **Q:** How should I handle files that are not supported when processing a folder of documents?  
+   **A:** After detecting the format, move unsupported files to a separate folder (e.g., “Unsupported”) using `File.Move`. This prevents exceptions during bulk processing and lets you log or review those files later.
+
+5. **Q:** Can `DetectFileFormat` identify encrypted documents?  
+   **A:** Yes. For encrypted Word files, `FileFormatInfo.IsEncrypted` will be `true`. You can then decide whether to prompt for a password or skip the file, depending on your application’s requirements.

@@ -123,3 +123,22 @@ persons.TakeWhile(p => p.Age < 50){{< /highlight >}} |
 persons.Union(otherPersons){{< /highlight >}}An implicit reference conversion must exist between types of items of united enumerations. |
 | `Where(Predicate)` | {{< highlight csharp >}}
 persons.Where(p => p.Age > 18){{< /highlight >}} |
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I use the `ElementAt` extension method in a template expression?  
+   **A:** Write the call directly in the template, e.g., `persons.ElementAt(3)`, to obtain the fourth element (zero‑based indexing). Ensure the source collection contains enough items; otherwise an `ArgumentOutOfRangeException` will be thrown.
+
+2. **Q:** Can I chain multiple ordering methods such as `OrderBy` and `ThenByDescending` in a template?  
+   **A:** Yes. After an `OrderBy` call you can append `ThenBy` or `ThenByDescending` to define secondary sort keys, for example `persons.OrderBy(p => p.Age).ThenByDescending(p => p.Name)`.
+
+3. **Q:** How do I filter a collection using the `Where` extension method in a report?  
+   **A:** Use `persons.Where(p => p.Age > 18)` inside the template. The predicate must return a Boolean value, and the resulting filtered collection can be iterated or further processed with other extension methods.
+
+4. **Q:** Is the `GroupBy` method supported for creating grouped sections in a template?  
+   **A:** Yes. `GroupBy` returns groups that expose a `Key` property. In a template you can iterate over `persons.GroupBy(p => p.Age)`, access each group's `Key`, and then loop through the items belonging to that group.
+
+5. **Q:** What should I do if an extension method is not recognized in my template?  
+   **A:** Verify that the LINQ Reporting Engine is enabled and that the method name matches exactly one of the listed extension methods. Also confirm that the collection implements `IEnumerable` and that any required using directives are present in the template header.

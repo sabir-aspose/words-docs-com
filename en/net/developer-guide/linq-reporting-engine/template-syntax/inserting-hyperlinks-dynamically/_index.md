@@ -37,3 +37,22 @@ In turn, `display_text_expression` defines text to be displayed for the hyperlin
 While building a report, `uri_or_bookmark_expression` and `display_text_expression` are evaluated and their results are used to construct a hyperlink that replaces the corresponding `link` tag then. If `uri_or_bookmark_expression` returns the name of a bookmark in the same document, then the hyperlink navigates to the bookmark. Otherwise, the hyperlink navigates to a corresponding external resource.
 
 **Note** – A `link` tag cannot be used within a chart.
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I link to a bookmark that exists in the same document?  
+   **A:** Pass the bookmark name as the `uri_or_bookmark_expression`. At runtime the engine resolves the name to the corresponding bookmark and creates an internal hyperlink that jumps to that location.
+
+2. **Q:** What is displayed if I omit the `display_text_expression`?  
+   **A:** When the display text is omitted or evaluates to an empty string, the engine uses the string representation of `uri_or_bookmark_expression` as the visible text of the hyperlink.
+
+3. **Q:** Can I provide a `System.Uri` object as the link target?  
+   **A:** Yes. Any object is accepted; its `ToString()` result is used. Supplying a `Uri` instance works directly and the generated hyperlink points to the URI represented by that object.
+
+4. **Q:** Why does a hyperlink not work when I place a `link` tag inside a chart?  
+   **A:** The `link` tag is not supported inside chart elements. Move the tag outside the chart or use a different approach (e.g., inserting the hyperlink after the chart is rendered) to avoid this limitation.
+
+5. **Q:** How can I make the hyperlink open in a new browser window or tab?  
+   **A:** The `link` tag itself does not expose a target attribute. To control the opening behavior, generate the hyperlink as an HTML `<a>` element with `target="_blank"` using the `InsertHtml` method, or post‑process the document to set the appropriate field code.

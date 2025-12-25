@@ -483,3 +483,36 @@ Private Use Area (PUA) characters appear mostly for Windows symbolic fonts like 
     <img src="acrobat-span-tag-actual-text.png" alt="AcrobatSpanTagActualText" style="width:800px"/>
 </details>
 {{% /alert %}}
+
+------  
+
+## FAQ
+
+1. **Q:** How do I convert a Word document to PDF/A‑2a using C#?  
+   **A:** Create a `PdfSaveOptions` object, set its `Compliance` property to `PdfCompliance.PdfA2a`, enable full‑font embedding, and pass the options to `Document.Save`. Example:
+
+   ```csharp
+   Document doc = new Document("input.docx");
+   PdfSaveOptions saveOptions = new PdfSaveOptions
+   {
+       Compliance = PdfCompliance.PdfA2a,
+       EmbedFullFonts = true,
+       FontEmbeddingMode = FontEmbeddingMode.Always
+   };
+   doc.Save("output.pdf", saveOptions);
+   ```
+
+2. **Q:** How can I specify the PDF/A compliance level when saving a document?  
+   **A:** Use the `PdfSaveOptions.Compliance` property. The enum `PdfCompliance` includes values such as `PdfA1b`, `PdfA2a`, `PdfA4`, and `PdfUa`. Set the desired value before calling `Document.Save`.
+
+3. **Q:** What should I do to ensure all required fonts are embedded for PDF/A compliance?  
+   **A:** Set `PdfSaveOptions.EmbedFullFonts` to `true` and `PdfSaveOptions.FontEmbeddingMode` to `FontEmbeddingMode.Always`. This forces Aspose.Words to embed every font used in the document, satisfying the font‑embedding requirement of PDF/A.
+
+4. **Q:** How can I set a document title that appears in the PDF/UA metadata?  
+   **A:** Set the built‑in document property `Title` before saving. The title is written to the PDF’s metadata and satisfies the PDF/UA requirement for a document title.
+
+   ```csharp
+   Document doc = new Document("input.docx");
+   doc.BuiltInDocumentProperties.Title = "Quarterly Report Q1 2024";
+   doc.Save("output.pdf", SaveFormat.Pdf);
+   ```

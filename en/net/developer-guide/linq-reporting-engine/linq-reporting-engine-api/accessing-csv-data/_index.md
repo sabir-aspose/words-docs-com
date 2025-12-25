@@ -117,3 +117,22 @@ Also, you can use `CsvDataLoadOptions` to customize the following characters pla
 - Value separator (the default is comma)
 - Single-line comment start (the default is sharp)
 - Quotation mark enabling to use other special characters within a value (the default is double quotes)
+
+---
+
+## FAQ
+
+1. **Q:** How does `CsvDataSource` determine the data type of a column?  
+   **A:** It parses the string representation of each cell using invariant culture settings. If the value matches the pattern of an `Int64`, `Double`, `Boolean`, or `DateTime`, the corresponding nullable type is assigned; otherwise the value remains a string.
+
+2. **Q:** Can I use the header row of a CSV file as field names in my template?  
+   **A:** Yes. Set `CsvDataLoadOptions` constructor argument `hasHeaders` to `true`. The first row will be treated as column names, which you can reference directly in the template (e.g., `<<[Name]>>`).
+
+3. **Q:** How do I change the delimiter or comment character when loading a CSV file?  
+   **A:** Create a `CsvDataLoadOptions` object and set its `Separator`, `CommentChar`, or `QuoteChar` properties, then pass the options to the `CsvDataSource` constructor.
+
+4. **Q:** My numeric values are being read as strings; what might be wrong?  
+   **A:** Ensure the numbers are formatted using invariant culture (e.g., a dot as the decimal separator) and that no surrounding quotes or spaces prevent parsing. Also verify that `CsvDataLoadOptions` has not overridden the default parsing behavior.
+
+5. **Q:** Is it possible to process very large CSV files with `ReportingEngine`?  
+   **A:** Yes. `CsvDataSource` streams data, so you can work with large files. However, keep memory usage in mind when performing extensive LINQ operations; consider processing data in smaller batches if needed.

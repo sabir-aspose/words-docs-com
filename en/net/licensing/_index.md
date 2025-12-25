@@ -113,7 +113,7 @@ The following code example shows how to initialize a license from a stream using
 A neat way to package a license with your application and make sure it will not be lost is to include it as an embedded resource into one of the assemblies that call Aspose.Words. To include a file as an embedded resource, follow these steps:
 
 1. In Visual Studio, include the .lic file into the project using the “**File | Add Existing Item…**” menu.
-2. Select the file in the Solution Explorer and set “**Build Action to Embedded Resource”** in the Properties window.
+2. Select the file in the Solution Explorer and set “**Build Action to Embedded Resource**” in the Properties window.
 3. In your code, invoke **SetLicense** that passes only the short name of the resource file.
 
 #### Apply Metered License
@@ -156,3 +156,22 @@ If you use multiple Aspose products in your application, such as Aspose.Words an
 
 * Set the License for each Aspose product separately. Even if you have a single license file for all components, for example, "Aspose.Total.lic", you still need to call **SetLicense** separately for each Aspose product that you use in your application.
 * Use the Fully Qualified License Class Name. Each Aspose product has a **License** class in its own namespace. For example, Aspose.Words has [Aspose.Words.License](https://reference.aspose.com/words/net/aspose.words/license/) and `Aspose.Cells` has `Aspose.Cells`.License class. Using the fully qualified class name allows you to avoid confusion as to which license applies to which product.
+
+------ 
+
+## FAQ
+
+1. Q: How do I apply a license to Aspose.Words for .NET?  
+   A: Call the `SetLicense` method of the `Aspose.Words.License` class before using any other Aspose.Words classes. You can pass a file path, a stream, or the short name of an embedded resource containing the license file.
+
+2. Q: What is the difference between a trial license and a temporary license?  
+   A: A trial license is the default evaluation mode that adds a watermark and limits document size. A temporary license removes these restrictions for up to 30 days and is obtained through a request on the Aspose website.
+
+3. Q: Can I rename the license file and still use `SetLicense`?  
+   A: Yes. The license file can have any name; just provide the exact file name (or resource name) you used when calling `SetLicense`.
+
+4. Q: Are licenses from older Aspose.Words versions compatible with newer versions?  
+   A: Licenses are generally forward‑compatible; a license purchased for an older version will work with newer releases of Aspose.Words for .NET. However, features introduced after the license purchase may require a newer license tier.
+
+5. Q: How does metered licensing work and how can I verify its status?  
+   A: Metered licensing uses public and private keys set via `SetMeteredKey`. The library tracks usage and reports it to Aspose servers. Use `IsMeteredLicensed` to check whether the metered license is currently active and reapply the keys if the connection has been lost.

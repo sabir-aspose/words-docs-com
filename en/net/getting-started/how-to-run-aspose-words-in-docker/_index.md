@@ -23,7 +23,7 @@ This page describes how to run Aspose.Words inside Docker containers.
 
 Microservices, in conjunction with containerization make it possible to easily combine technologies. Docker allows you to easily integrate Aspose.Words functionality into your application, regardless of what technology is in your development stack.
 
-In case you are targeting microservices, or if the main technology in your stack is not .NET, C++ or Java, but you need Aspose.Words functionality, or if you already use Docker in your stack, then you may be interested in utilizing Aspose.Words in a Docker container.
+In case you are targeting microservices, or if the main technology in your stack is not .NET, C++ or Java, but you need Aspose.Words functionality, or you already use Docker in your stack, then you may be interested in utilizing Aspose.Words in a Docker container.
 
 ## Prerequisites
 
@@ -155,7 +155,7 @@ RUN apt install libharfbuzz-icu0
 COPY --from=build /app/Aspose.Words.Docker.Sample/out ./
 ENTRYPOINT ["dotnet", "Aspose.Words.Docker.Sample.dll"]
 {{< /highlight >}}
-1. To run the application in Ubuntu 18.04, the Dockerfile remains practically the same (only the tag is changed):<br>
+2. To run the application in Ubuntu 18.04, the Dockerfile remains practically the same (only the tag is changed):<br>
 {{< highlight plain >}}
 FROM mcr.microsoft.com/dotnet/core/sdk:2.2-bionic AS build
 WORKDIR /app
@@ -177,7 +177,7 @@ RUN apt install libharfbuzz-icu0
 COPY --from=build /app/Aspose.Words.Docker.Sample/out ./
 ENTRYPOINT ["dotnet", "Aspose.Words.Docker.Sample.dll"]
 {{< /highlight >}}
-1. To run the application in Alpine Linux, it is required to add the SkiaSharp native assets and use the following Dockerfile:<br>
+3. To run the application in Alpine Linux, it is required to add the SkiaSharp native assets and use the following Dockerfile:<br>
 {{< highlight plain >}}
 FROM mcr.microsoft.com/dotnet/core/sdk:2.2-alpine3.9 AS build
 WORKDIR /app
@@ -198,7 +198,7 @@ RUN apk update && apk upgrade && apk add fontconfig && apk add harfbuzz
 COPY --from=build /app/Aspose.Words.Docker.Sample/out ./
 ENTRYPOINT ["dotnet", "Aspose.Words.Docker.Sample.dll"]
 {{< /highlight >}}
-1. To run the application in RHEL 7, it is required to add the SkiaSharp native assets and use the following Dockerfile:<br>
+4. To run the application in RHEL 7, it is required to add the SkiaSharp native assets and use the following Dockerfile:<br>
 {{< highlight plain >}}
 FROM mcr.microsoft.com/dotnet/core/sdk:2.1 AS build
 WORKDIR /app
@@ -228,3 +228,22 @@ ENTRYPOINT ["/opt/rh/rh-dotnet21/root/usr/bin/dotnet", "Aspose.Words.Docker.Samp
 - Additional information on [.NET Core SDK](https://hub.docker.com/_/microsoft-dotnet-sdk)
 - Use additional NuGet packages: [SkiaSharp.NativeAssets.Linux](https://www.nuget.org/packages/SkiaSharp.NativeAssets.Linux), [SkiaSharp.NativeAssets.Linux.NoDependencies](https://www.nuget.org/packages/SkiaSharp.NativeAssets.Linux.NoDependencies), [Goelze.SkiaSharp.NativeAssets.AlpineLinux](https://www.nuget.org/packages/Goelze.SkiaSharp.NativeAssets.AlpineLinux), [Jellyfin.SkiaSharp.NativeAssets.LinuxArm](https://www.nuget.org/packages/Jellyfin.SkiaSharp.NativeAssets.LinuxArm)
 - [RHEL 7 (x64)](https://hub.docker.com/r/kkamberta/dotnet-21-rhel7)
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I apply an Aspose.Words license when running inside a Docker container?  
+   **A:** Copy the license file into the container (e.g., place it in the project folder) and load it at runtime with `License license = new License(); license.SetLicense("Aspose.Words.lic");`. Ensure the Dockerfile copies the `.lic` file (`COPY Aspose.Words.lic ./`) so it is available to the application.
+
+2. **Q:** Can I use the `Document.Print()` method in a Linux‑based Docker container?  
+   **A:** No. Printing relies on Windows GDI+ APIs and is not supported on Linux containers. To print, run the application in a Windows container or on a Windows host outside Docker.
+
+3. **Q:** Which output formats are supported when saving a document from Docker?  
+   **A:** Aspose.Words supports all standard formats, including PDF, DOCX, DOC, RTF, HTML, MHTML, EPUB, XPS, JPEG, PNG, BMP, TIFF, and SVG. Use `Document.Save("output.pdf", SaveFormat.Pdf);` or the appropriate `SaveFormat` enum value.
+
+4. **Q:** Do I need to install additional native assets for fonts when using SkiaSharp in Docker?  
+   **A:** Yes. Linux containers require `libfontconfig1` (installed in the Dockerfile with `apt-get install -y libfontconfig1`). For Alpine, install `fontconfig` via `apk add fontconfig`. This provides the native dependencies needed by SkiaSharp for rendering.
+
+5. **Q:** Is my existing Aspose.Words license retro‑compatible with older Aspose.Words versions running in Docker?  
+   **A:** Aspose.Words licenses are forward compatible; a license created for a newer version works with older versions, but not vice‑versa. Ensure the license file is placed in the container and loaded as described above.

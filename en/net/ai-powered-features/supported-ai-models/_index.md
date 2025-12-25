@@ -21,7 +21,7 @@ This page explains which AI models Aspose.Words supports for document tasks.
 
 {{% /alert %}}
 
-Aspose.Words now leverages advanced AI models to enhance document processing and analysis. With the Aspose.Words.AI namespace, developers can access AI-powered features such as document summarization and analysis, document translation, and grammar checking by integrating generative language models from industry leaders.
+Aspose.Words now leverages advanced AI models to enhance document processing and analysis. With the Aspose.Words.AI namespace, developers can access AI‑powered features such as document summarization and analysis, document translation, and grammar checking by integrating generative language models from industry leaders.
 
 ## Supported Model Types
 
@@ -57,7 +57,7 @@ For more information, check the [Aspose.Words.AI](https://reference.aspose.com/w
 
 With Aspose.Words, developers can also integrate self-hosted LLMs (Large Language Models), providing an alternative to OpenAI/Anthropic/Google's hosted services.
 
-The following code example shows how to create a self-hosted LLM based on OpenAI's generative language model:
+The following code example shows how to create a self‑hosted LLM based on OpenAI's generative language model:
 
 {{< highlight csharp >}}
 public void SelfHostedModel()
@@ -86,3 +86,22 @@ internal class CustomAiModel : OpenAiModel
     }
 }
 {{< /highlight >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** Which AI model providers are supported by Aspose.Words?  
+   **A:** Aspose.Words supports models from OpenAI, Google (Gemini), and Anthropic’s Claude families. The supported models are exposed through the `AiModelType` enumeration, allowing you to select the desired provider and version.
+
+2. **Q:** How do I create an instance of a specific AI model, such as GPT‑4o?  
+   **A:** Use the static `AiModel.Create` method and pass the corresponding `AiModelType` value. For example:  
+
+   ```csharp
+   AiModel gpt4o = AiModel.Create(AiModelType.OpenAi_Gpt4o);
+   ```
+
+   The returned `AiModel` object can then be used for summarization, translation, or other AI‑driven operations.
+
+3. **Q:** Can I integrate a self‑hosted LLM with Aspose.Words?  
+   **A:** Yes. Derive a class from the appropriate provider base class (e.g., `OpenAiModel`) and override the `Url` and `Name` properties to point to your local endpoint. Instantiate your custom class and use it like any other `AiModel`.

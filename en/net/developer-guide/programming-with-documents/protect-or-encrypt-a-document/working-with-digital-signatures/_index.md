@@ -127,3 +127,22 @@ The following code example shows how to load and remove digital signatures from 
 Note that you can not remove only one digital signature within your document.
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I check whether a document contains any digital signatures?  
+   **A:** Use `FileFormatUtil.DetectFileFormat` to identify the file type and then read the `HasDigitalSignature` property from the `FileFormatInfo` object. This returns `true` if at least one digital signature is present.
+
+2. **Q:** How do I verify the validity of the digital signatures in a document?  
+   **A:** Load the signatures with `DigitalSignatureUtil.LoadSignatures`, then iterate through the returned `DigitalSignatureCollection` and examine each signature’s `IsValid` property. A value of `true` indicates a valid, untampered signature.
+
+3. **Q:** How can I count the number of digital signatures in a document?  
+   **A:** After loading the signatures using `DigitalSignatureUtil.LoadSignatures`, read the `Count` property of the resulting `DigitalSignatureCollection`. This gives the total number of signatures attached to the document.
+
+4. **Q:** What is the recommended way to add a digital signature to a Word document?  
+   **A:** Create a `CertificateHolder` with your X.509 certificate (`CertificateHolder.Create`), configure `SignOptions` as needed, and call `DigitalSignatureUtil.Sign` passing the document, the certificate holder, and the sign options.
+
+5. **Q:** Can I remove a single digital signature from a document?  
+   **A:** No. Aspose.Words currently supports only the removal of all signatures at once via `DigitalSignatureUtil.RemoveAllSignatures`. To remove a specific signature you would need to recreate the document without that signature using external tools.

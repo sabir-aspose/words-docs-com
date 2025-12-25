@@ -76,3 +76,22 @@ Another common property is a choice in which document to show comparison changes
 The following code example shows how to set the advanced comparing properties:
 
 {{< gist "aspose-words-gists" "66cba61d079d8ef1e676820633ba4586" "compare-options.cs" >}}
+
+---
+
+## FAQ
+
+1. **Q:** Which file formats can be compared with Aspose.Words?  
+   **A:** Any format listed in the [supported document formats](/words/net/supported-document-formats/) can be used for comparison, including DOC, DOCX, ODT, RTF, HTML, PDF (as source) and others. The API works with `Document` objects, so you can load a file of any supported type and compare it directly.
+
+2. **Q:** Do the source documents need to be free of revisions before calling `Compare`?  
+   **A:** Yes. Aspose.Words follows the same limitation as Microsoft Word: the documents must not contain existing revisions when `Compare` is invoked. Remove revisions first (e.g., `document.AcceptAllRevisions();`) to avoid unexpected results.
+
+3. **Q:** How can I ignore changes in headers, footers, or formatting during comparison?  
+   **A:** Use the `CompareOptions` class. Set properties such as `IgnoreHeadersAndFooters = true`, `IgnoreFormatting = true`, or `IgnoreComments = true` before calling `document.Compare(otherDoc, author, date, compareOptions);`.
+
+4. **Q:** How do I determine programmatically whether two documents are identical after comparison?  
+   **A:** After calling `Compare`, inspect the `Revisions` collection of the first document. If `document.Revisions.Count == 0`, the documents are considered equal (no detectable changes).
+
+5. **Q:** What is the difference between the `Granularity` and `Target` options?  
+   **A:** `Granularity` controls the level of change tracking—`Character` tracks changes per character, while `Word` tracks per word. `Target` specifies which document will display the revisions (e.g., `CompareOptions.Target = CompareTarget.New;` shows changes in the second document). Adjust both to match the desired comparison behavior.

@@ -88,3 +88,46 @@ The following code example shows how to apply borders and shading to a paragraph
 If you want to count the number of lines in a paragraph for any Word document, the following code sample can be used:
 
 {{< gist "aspose-words-gists" "4b5526c3c0d9cad73e05fb4b18d2c3d2" "get-paragraph-lines.cs" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I insert a new paragraph with text using C#?  
+   **A:** Use `DocumentBuilder.Writeln`. This method writes the supplied text and automatically adds a paragraph break, creating a new paragraph.  
+
+   ```csharp
+   Document doc = new Document();
+   DocumentBuilder builder = new DocumentBuilder(doc);
+   builder.Writeln("First paragraph.");
+   builder.Writeln("Second paragraph.");
+   ```
+
+2. **Q:** How can I change the alignment, indentation, or spacing of a paragraph?  
+   **A:** Access the paragraph’s `ParagraphFormat` object and set its properties such as `Alignment`, `LeftIndent`, `RightIndent`, `SpaceAfter`, and `SpaceBefore`.  
+
+   ```csharp
+   Paragraph para = doc.FirstSection.Body.FirstParagraph;
+   ParagraphFormat format = para.ParagraphFormat;
+   format.Alignment = ParagraphAlignment.Center;
+   format.LeftIndent = 20.0;
+   format.SpaceAfter = 10.0;
+   ```
+
+3. **Q:** What is the recommended way to apply a built‑in style (e.g., Heading 1) to a paragraph?  
+   **A:** Set the `StyleIdentifier` of the paragraph’s `ParagraphFormat`. This works regardless of the document’s language because the identifier is locale‑independent.  
+
+   ```csharp
+   Paragraph para = doc.FirstSection.Body.FirstParagraph;
+   para.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+   ```
+
+4. **Q:** How can I insert a style separator so that two different styles appear in the same logical paragraph?  
+   **A:** Call `DocumentBuilder.InsertStyleSeparator()`. The method inserts a hidden style‑separator character; text before the separator can have one style, and text after it can have another.  
+
+   ```csharp
+   DocumentBuilder builder = new DocumentBuilder(doc);
+   builder.Writeln("Heading text");
+   builder.InsertStyleSeparator();   // Switch style within the same paragraph
+   builder.Writeln("Normal text");
+   ```

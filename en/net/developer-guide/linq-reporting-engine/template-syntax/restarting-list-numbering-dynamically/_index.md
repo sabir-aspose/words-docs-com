@@ -96,3 +96,16 @@ John Smith (43 Vogel Street Roslyn Palmerston North 4414)
 {{< /highlight >}}
 
 **Note** – You can use a `restartNum` tag without a data band to dynamically restart list numbering for a containing paragraph, if needed; for example, the tag can be used to restart list numbering for a document inserted dynamically (see “Inserting Documents Dynamically” for more information).
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I restart list numbering for each iteration of a `foreach` loop?  
+   **A:** Place the `<<restartNum>>` tag immediately before the `<<foreach>>` tag that generates the list items. The tag must be inside the same numbered paragraph, so the numbering restarts when the loop begins for each new parent element.
+
+2. **Q:** Can the `restartNum` tag be used when there is no data band (no `foreach`)?  
+   **A:** Yes. `<<restartNum>>` can be inserted in any numbered paragraph to reset the list numbering at that point, even if the paragraph is not part of a data band. This is useful for inserting externally generated content that should start a new list.
+
+3. **Q:** What happens if I put `<<restartNum>>` inside a nested list?  
+   **A:** The tag restarts numbering for the list that contains the paragraph where it appears. If placed inside a nested list, only that nested list’s numbering is reset, while outer list numbering continues unaffected. Ensure the tag is positioned in the correct paragraph to achieve the desired reset scope.

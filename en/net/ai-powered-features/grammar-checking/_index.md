@@ -25,7 +25,7 @@ Checking grammar in documents is important to ensure clarity, professionalism, a
 
 Aspose.Words allows users to check grammar and detect errors in documents using the OpenAI, Google, and Claude models' families listed in the [AiModelType](https://reference.aspose.com/words/net/aspose.words.ai/aimodeltype/) enumeration. Use the [CheckGrammar](https://reference.aspose.com/words/net/aspose.words.ai/aimodel/checkgrammar/) method, available in the [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) namespace. **CheckGrammar** analyzes the text in a document and highlights grammatical problems.
 
-The following code example shows how to use the GPT-4o mini model in Aspose.Words to check grammar:
+The following code example shows how to use the GPT‑4o mini model in Aspose.Words to check grammar:
 
 {{< gist "aspose-words-gists" "98a646d19cd7708ed0cd3d97b993a053" "ai-grammar.cs" >}}
 
@@ -34,3 +34,25 @@ The following code example shows how to use the GPT-4o mini model in Aspose.Word
 Checking grammar with Aspose.Words improves the quality of your work and makes it easy to integrate proofreading into your projects. For more information, check the [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) API documentation.
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** Which AI models can be used with the `CheckGrammar` method?  
+   **A:** `CheckGrammar` supports the models defined in the `AiModelType` enumeration, which includes OpenAI (e.g., GPT‑4o mini), Google Gemini, and Anthropic Claude families. Choose the model that best fits your accuracy, latency, and cost requirements.
+
+2. **Q:** How do I provide authentication (API key) for the AI service used by Aspose.Words?  
+   **A:** Set the `apiKey` before calling `CheckGrammar`. For example:  
+
+   ```csharp
+   string apiKey = Environment.GetEnvironmentVariable("API_KEY");
+   // Use OpenAI generative language models.
+   AiModel model = AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
+   ```
+
+3. **Q:** What document formats are supported for grammar checking?  
+   **A:** Grammar checking works on any format that Aspose.Words can load, such as DOC, DOCX, RTF, HTML, and PDF (when converted to a Word document first). The content is extracted from the loaded `Document` object, so the original format does not affect the grammar analysis.
+
+5. **Q:** How should I handle large documents to avoid performance issues?  
+   **A:** For very large files, consider processing the document in sections or pages. Use `Document.Split` to create smaller `Document` instances, run `CheckGrammar` on each part, and then merge the results. Additionally, enable streaming by loading the document from a `FileStream` with `LoadOptions` that set `LoadFormat` appropriately, which reduces memory consumption.

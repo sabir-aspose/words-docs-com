@@ -101,3 +101,22 @@ You can notice the difference between the document before applying the **UseNonM
 And after applying the **UseNonMergeFields** property:
 
 <img src="mustache-if-field-2.png" alt="mustache-if-field-2.png" style="width:800px"/>
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I enable Mustache tags to be processed during a mail‑merge operation?  
+   **A:** Set the `MailMerge.UseNonMergeFields` property to `true` before calling `ExecuteWithRegions`. This tells Aspose.Words to treat tags that are not standard MERGEFIELDs (such as `{{FirstName}}`) as data placeholders.
+
+2. **Q:** How can I iterate over a collection of items using Mustache syntax?  
+   **A:** Use the `{{#foreach list}} … {{/foreach list}}` section tags, where *list* is the name of the data table or collection passed to `ExecuteWithRegions`. Everything inside the section is repeated for each row of the list.
+
+3. **Q:** Is it possible to combine Mustache tags with Word `IF` fields?  
+   **A:** Yes. An `IF` field can reference either a MERGEFIELD or a Mustache tag, e.g. `{ IF "{{Gender}}" = MALE "Mr." "Ms." }`. Ensure `UseNonMergeFields` is enabled so the Mustache tag is resolved before the `IF` field is evaluated.
+
+4. **Q:** How do I create a Mustache template programmatically instead of editing a .docx file manually?  
+   **A:** Build a `Document` object, insert the required Mustache placeholders as plain text (e.g., `DocumentBuilder.Write("{{FirstName}}")`), and then save the document in a supported format. The resulting file can be used as a template for mail‑merge.
+
+5. **Q:** After a mail‑merge, why do I sometimes see an empty paragraph above a merged field?  
+   **A:** Empty paragraphs can be introduced when the source template contains a paragraph mark after a placeholder. Remove the extra paragraph mark in the template or trim the result using `DocumentBuilder.MoveToMergeField` and `Paragraph.Remove` after the merge.

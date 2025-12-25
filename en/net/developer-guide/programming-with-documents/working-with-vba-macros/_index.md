@@ -77,3 +77,22 @@ The following code example shows how to remove some references from the collecti
 {{< gist "aspose-words-gists" "d9bac4ed890f81ea3de392ecfeedbc55" "remove-vba-references.cs" >}}
 
 {{< gist "aspose-words-gists" "d9bac4ed890f81ea3de392ecfeedbc55" "get-lib-id-and-reference-path.cs" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** How can I create a new VBA project in a Word document using Aspose.Words for .NET?  
+   **A:** Use the `Document.VbaProject` property to obtain a `VbaProject` instance, then add a new `VbaModule` to its `Modules` collection. Set the module’s `Name` and `Type` (e.g., `VbaModuleType.Procedural`) before saving the document.
+
+2. **Q:** How do I read the source code of an existing VBA macro?  
+   **A:** Retrieve the desired `VbaModule` from `Document.VbaProject.Modules` and access its `SourceCode` property. The property returns the macro’s source as a string, which you can inspect or display.
+
+3. **Q:** How can I modify or replace the source code of a VBA module?  
+   **A:** After obtaining the `VbaModule`, assign a new string to its `SourceCode` property. Save the document afterwards to persist the changes in the VBA project.
+
+4. **Q:** Is it possible to clone an entire VBA project or a single VBA module?  
+   **A:** Yes. Both `VbaProject` and `VbaModule` implement a `Clone()` method that returns a deep copy. You can clone the project and assign it to another document, or clone individual modules and add them to the same or a different project.
+
+5. **Q:** Do I need a separate Aspose.Words license to work with VBA macros?  
+   **A:** No separate license is required. VBA macro manipulation is covered by the standard Aspose.Words for .NET license. Ensure your license file is correctly loaded in your application to avoid evaluation limitations.

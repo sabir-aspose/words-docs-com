@@ -34,3 +34,19 @@ The following code example shows how to use the *Gemini 1.5 Flash* model in Aspo
 Translating documents with Aspose.Words saves time and makes it easy to integrate translation functionality into your projects. For more information, check the [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) API documentation.
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** Which languages can be translated with Aspose.Words AI?  
+   **A:** The translation feature uses Google generative language models, which support more than 300 languages. Any language listed in the `Language` enumeration can be specified as the target language.
+
+2. **Q:** Do I need an internet connection to translate a document?  
+   **A:** Yes. The translation request is sent to Google’s AI service, so a network connection is required for the `Translate` method to work.
+
+3. **Q:** Can I translate only a part of a document, such as a single section or paragraph?  
+   **A:** The `Translate` method works on the whole document. To translate only a portion, extract the desired nodes into a separate `Document` object, call `Translate`, and then replace the original nodes with the translated content.
+
+4. **Q:** What happens if the source document contains multiple languages?  
+   **A:** The AI model attempts to detect each language segment and translate it to the target language. Segments that cannot be recognized will remain untranslated, while the rest of the document will be translated.

@@ -88,10 +88,29 @@ You can also specify one of the additional string formats together with a format
 <<[d]:"MMMM":upper>>
 {{< /highlight >}}
 
-Given that `i` is an integer number, you can convert the number to a lower-case Roman numeral using the following template.
+Given that `i` is an integer number, you can convert the number to a lower‑case Roman numeral using the following template.
 
 {{< highlight xml >}}
 <<[i]:roman:lower>>
 {{< /highlight >}}
 
 **Note** – In contrast to format strings, additional number and string formats must not be enclosed with double quotes.
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I format a numeric value with a custom format string in a template?  
+   **A:** Place the numeric expression inside brackets and add the format string after a colon, enclosed in double quotes, e.g., `<<[price]:"C2">>`. The engine evaluates the expression and applies the .NET format specifier when inserting the result.
+
+2. **Q:** What syntax should I use to format a `DateTime` value?  
+   **A:** Use the same bracketed expression with a .NET date‑time format string, for example `<<[orderDate]:"yyyy.MM.dd">>`. The date is formatted according to the pattern you provide.
+
+3. **Q:** How can I apply string transformations such as upper‑case or title case?  
+   **A:** Append one of the additional string formats after the expression, e.g., `<<[customerName]:upper>>` for upper‑case or `<<[title]:caps>>` to capitalize each word. These formats are not quoted.
+
+4. **Q:** When should I use the `-html` switch in an expression tag?  
+   **A:** Add `-html` when the expression result contains HTML markup that must be rendered as formatted content, e.g., `<<["<b>Bold</b>"] -html>>`. Without the switch, the markup is inserted as plain text.
+
+5. **Q:** Can I combine a format string with an additional string or number format?  
+   **A:** Yes. Place the format string first, then the additional format, separated by colons, for example `<<[amount]:"N2":upper>>` or `<<[i]:roman:lower>>`. The engine applies the .NET format, then the extra transformation.

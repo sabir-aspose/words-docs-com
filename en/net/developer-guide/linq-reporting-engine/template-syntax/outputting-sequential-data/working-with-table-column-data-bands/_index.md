@@ -127,7 +127,7 @@ In this case, the engine produces a report as follows.
 | **Pack**          | **1.5 L**          | **500 ml**         | **1.5 L**         | **500 ml**        |            |
 | **Sold Quantity** | **12**             | **27**             | **5**             | **13**            | **57**     |
 
-To grow a document table horizontally by filling it with master-detail data, you can use nested table-column data bands like in the following template.
+To grow a document table horizontally by filling it with master‑detail data, you can use nested table‑column data bands like in the following template.
 
 <table class="outputting-sequential-data">
 	<tbody>
@@ -152,7 +152,7 @@ In this case, the engine produces a report as follows.
 | ----------------- | ------------------ | --------- | ---------- | ----------------- | --------- | ---------- | ---------- |
 | **Sold Quantity** | **39**             | **12**    | **27**     | **18**            | **5**     | **13**     | **57**     |
 
-You can normally use common data bands nested to table-column data bands as well like in the following template.
+You can normally use common data bands nested to table‑column data bands as well like in the following template.
 
 <table class="outputting-sequential-data">
 	<tbody>
@@ -173,10 +173,29 @@ In this case, the engine produces a report as follows.
 | -------------- | -------------------------- | -------------------------- |
 | **Sold Packs** | **1.5 L**<br /> **500 ml** | **1.5 L**<br /> **500 ml** |
 
-**Note** – Table-column data bands can themselves be nested to table-row data bands (see “Working with Cross (Pivot) Tables” for details), but not conversely: Nesting of table-row data bands into table-column data bands is forbidden.
+**Note** – Table‑column data bands can themselves be nested to table‑row data bands (see “Working with Cross (Pivot) Tables” for details), but not conversely: Nesting of table‑row data bands into table‑column data bands is forbidden.
 
 {{% alert color="primary" %}}
 
-For more examples of templates for typical scenarios involving table-column data bands, see “Appendix C. Typical Templates”.
+For more examples of templates for typical scenarios involving table‑column data bands, see “Appendix C. Typical Templates”.
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I declare a table‑column data band in a template?  
+   **A:** Use the `<<foreach … -horz>>` tag inside the cells that belong to the band. The `-horz` switch tells the engine to repeat the content horizontally across columns. Example: `<<foreach [s in ds.Sales] -horz>> <<[s.Goods.Name]>> <<[/foreach]>>`.
+
+2. **Q:** Can I nest table‑column data bands inside each other?  
+   **A:** Yes. You can place a `<<foreach … -horz>>` block inside another `<<foreach … -horz>>` block to create multi‑level horizontal repetition, such as iterating goods and then packs for each good.
+
+3. **Q:** Is it possible to nest a table‑row data band inside a table‑column data band?  
+   **A:** No. Table‑column data bands may contain other column bands or regular data bands, but a table‑row data band cannot be placed inside a column band. Attempting this will cause the engine to ignore the row band.
+
+4. **Q:** What does the `-horz` switch change in the `foreach` tag?  
+   **A:** The `-horz` switch changes the iteration direction from the default vertical (row‑wise) to horizontal (column‑wise). The engine expands the band across columns, creating a new column for each iteration item.
+
+5. **Q:** How can I calculate aggregates, like a sum, within a table‑column data band?  
+   **A:** Use standard LINQ expressions inside field tags. For example, `<<[ds.Sales.Sum(s => s.Quantity)]>>` will output the total quantity across all sales rows, even when the band is horizontal. The expression is evaluated in the context of the data set.

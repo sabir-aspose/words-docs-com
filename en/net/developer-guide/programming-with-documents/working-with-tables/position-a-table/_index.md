@@ -86,3 +86,22 @@ Aspose.Words also provides an opportunity to find out the distances between tabl
 The following code example shows how to get the distance between a table and its surrounding text:
 
 {{< gist "aspose-words-gists" "8df1ad0825619cab7c80b571c6e6ba99" "distance-between-table-surrounding-text.cs" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I set the alignment of an inline table?  
+   **A:** Use the `Table.Alignment` property. For example, `Table.Alignment = TableAlignment.Center;` aligns the table to the center of the page. The property works only for inline tables.
+
+2. **Q:** How can I retrieve the horizontal and vertical alignment of a floating table?  
+   **A:** Access the `Table.RelativeHorizontalAlignment` and `Table.RelativeVerticalAlignment` properties. These return values such as `RelativeHorizontalAlignment.Page` or `RelativeVerticalAlignment.Margin`, indicating how the floating table is positioned relative to its anchor.
+
+3. **Q:** What properties are required to set the position of a floating table?  
+   **A:** Set `HorizontalAnchor`, `VerticalAnchor`, `AbsoluteHorizontalDistance`, and `AbsoluteVerticalDistance`. You can also use `RelativeHorizontalAlignment` or `RelativeVerticalAlignment`. Note that changing an alignment property resets the corresponding absolute distance to its default.
+
+4. **Q:** How can I control the distance between a table and the surrounding text?  
+   **A:** Use the `DistanceTop`, `DistanceBottom`, `DistanceLeft`, and `DistanceRight` properties of the `Table` object. These properties specify the amount of space on each side of the table in points.
+
+5. **Q:** What does the `AllowOverlap` property do for floating tables?  
+   **A:** `AllowOverlap` determines whether the floating table may overlap other floating objects. Set `Table.AllowOverlap = true;` to permit overlapping, or `false` to prevent it, ensuring the layout respects other objects.

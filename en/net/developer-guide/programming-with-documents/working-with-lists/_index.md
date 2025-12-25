@@ -66,3 +66,22 @@ You can restart a list for each section using the [IsRestartAtEachSection](https
 The following code example shows how to create a list and restart it for each section:
 
 {{< gist "aspose-words-gists" "a1dfeba1e0480d5b277a61742c8921af" "restart-list-at-each-section.cs" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** How do I start a bulleted list using `DocumentBuilder`?  
+   **A:** Call `DocumentBuilder.ListFormat.ApplyBulletDefault()`. This applies the default bullet style to the current paragraph and all subsequent paragraphs until you invoke `RemoveNumbers()`.
+
+2. **Q:** How can I create a multilevel numbered list?  
+   **A:** Begin with `ApplyNumberDefault()` to start a numbered list, then use `ListFormat.ListIndent()` to increase the level and `ListFormat.ListOutdent()` to decrease it. You can also set `ListFormat.ListLevelNumber` to jump directly to a specific level.
+
+3. **Q:** How do I customize the bullet or number style for a particular list level?  
+   **A:** Retrieve the `List` object from the current paragraph (`DocumentBuilder.CurrentParagraph.ListFormat.List`) and access its `ListLevels` collection. For the desired level, set properties such as `NumberStyle`, `Font.Name`, `Alignment`, or `NumberFormat`.
+
+4. **Q:** How can I restart numbering for each new section in a document?  
+   **A:** Set the `IsRestartAtEachSection` property of the `List` to `true`. This works for DOC, DOCX, and RTF formats; for DOCX the document’s `OoxmlCompliance` must be higher than `Ecma376` for the setting to be saved.
+
+5. **Q:** How do I stop list formatting and return to normal paragraphs?  
+   **A:** Invoke `DocumentBuilder.ListFormat.RemoveNumbers()`. This removes any list formatting from the current paragraph and prevents further paragraphs from inheriting list styles.

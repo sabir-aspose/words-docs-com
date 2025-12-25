@@ -48,3 +48,54 @@ The footnote position can be at the bottom of each page or beneath the text on e
 The following code example shows how to set the position of footnote and endnote:
 
 {{< gist "aspose-words-gists" "3b39c2019380ee905e7d9596494916a4" "set-footnote-and-endnote-position.cs" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I insert a footnote or an endnote with DocumentBuilder?  
+   **A:** Use the `DocumentBuilder.InsertFootnote` method and specify the `FootnoteType` enumeration value (`FootnoteType.Footnote` or `FootnoteType.Endnote`). The method returns a `Footnote` object that you can populate with text.
+
+   ```csharp
+   Document doc = new Document();
+   DocumentBuilder builder = new DocumentBuilder(doc);
+   // Insert a footnote
+   Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, true);
+   footnote.AppendChild(new Run(doc, "This is a footnote."));
+   // Insert an endnote
+   Footnote endnote = builder.InsertFootnote(FootnoteType.Endnote, true);
+   endnote.AppendChild(new Run(doc, "This is an endnote."));
+   ```
+
+2. **Q:** How can I change the numbering style of footnotes or endnotes?  
+   **A:** Modify the `NumberStyle` property of `FootnoteOptions` or `EndnoteOptions` on the `Document` object. Supported styles include Arabic, UpperRoman, LowerRoman, UpperLetter, and LowerLetter.
+
+   ```csharp
+   doc.FootnoteOptions.NumberStyle = NumberStyle.UpperRoman;
+   doc.EndnoteOptions.NumberStyle = NumberStyle.LowerLetter;
+   ```
+
+3. **Q:** What property controls the number of columns used for footnote layout?  
+   **A:** The `FootnoteOptions.Columns` property defines how many columns the footnote area uses. Setting it to `0` lets Word decide based on the page layout.
+
+   ```csharp
+   doc.FootnoteOptions.Columns = 2; // Two‑column footnote area
+   ```
+
+4. **Q:** How do I set where footnotes and endnotes appear in the document?  
+   **A:** Use the `FootnoteOptions.Position` and `EndnoteOptions.Position` properties. For footnotes you can choose `FootnotePosition.BottomOfPage` or `FootnotePosition.BeneathText`. For endnotes you can choose `EndnotePosition.EndOfSection` or `EndnotePosition.EndOfDocument`.
+
+   ```csharp
+   doc.FootnoteOptions.Position = FootnotePosition.BottomOfPage;
+   doc.EndnoteOptions.Position = EndnotePosition.EndOfDocument;
+   ```
+
+5. **Q:** Can I convert an existing footnote to an endnote (or vice‑versa) without recreating it?  
+   **A:** Retrieve the `Footnote` node, change its `FootnoteType` property, and optionally move it to the appropriate collection. The change updates the numbering and placement automatically.
+
+   ```csharp
+   // Convert the first footnote to an endnote
+   Footnote footnote = (Footnote)doc.GetChild(NodeType.Footnote, 0, true);
+   footnote.FootnoteType = FootnoteType.Endnote;
+   // After changing the type, the document will treat it as an endnote
+   ```

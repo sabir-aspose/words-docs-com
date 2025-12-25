@@ -150,3 +150,22 @@ Let's take a closer look at these ways of creating tables and compare their pros
 | Via DOM | Fits in better with surrounding code that creates and inserts nodes directly into the DOM without using a **DocumentBuilder** | The table is created "empty": before performing most operations, you must call [EnsureMinimum](https://reference.aspose.com/words/net/aspose.words.tables/table/ensureminimum/) to create any missing child nodes |
 | From HTML | Can create a new table from HTML source using tags like `<table>`, `<tr>`, `<td>` | Not all possible Microsoft Word table formats can be applied to HTML |
 | Cloning an existing table | You can create a copy of an existing table while retaining all row and cell formatting | The appropriate child nodes must be removed before the table is ready for use |
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I create a simple table using `DocumentBuilder`?  
+   **A:** Use `DocumentBuilder.StartTable()`, then repeatedly call `InsertCell()`, add content with methods such as `Writeln()`, finish each row with `EndRow()`, and close the table with `EndTable()`. This sequence builds a table with the default Word styling.
+
+2. **Q:** How can I change the borders or shading of cells in a table?  
+   **A:** After calling `InsertCell()`, modify the `CellFormat` property of the builder, e.g., `builder.CellFormat.Borders.LineStyle = BorderStyle.Single; builder.CellFormat.Shading.BackgroundPatternColor = Color.LightGray;`. The settings apply to the current cell until changed again.
+
+3. **Q:** Is it possible to insert a table from an HTML snippet?  
+   **A:** Yes. Use `DocumentBuilder.InsertHtml(htmlString)` where the HTML contains `<table>`, `<tr>`, and `<td>` tags. Aspose.Words converts the HTML table into a Word table, preserving basic structure and formatting.
+
+4. **Q:** How do I duplicate an existing table while keeping its formatting?  
+   **A:** Retrieve the source `Table` node and call its `Clone(true)` method to create a deep copy. Insert the cloned table into the desired location, e.g., `document.FirstSection.Body.AppendChild(clonedTable);`.
+
+5. **Q:** When creating a table via the DOM, why do I need to call `EnsureMinimum()`?  
+   **A:** A newly created `Table` node is empty. Calling `table.EnsureMinimum()` automatically adds at least one `Row` and one `Cell`, allowing you to safely add content without null‑reference errors.
