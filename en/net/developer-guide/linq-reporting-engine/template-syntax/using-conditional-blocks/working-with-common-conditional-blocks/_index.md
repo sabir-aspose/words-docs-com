@@ -63,3 +63,22 @@ You can use data bands within common conditional blocks as well. For example, gi
 <<else>><<foreach [item in items]>><<[item]>>
 <</foreach>><</if>>
 {{< /highlight >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I test whether a collection is empty inside a `<<if>>` block?  
+   **A:** Use the `Any()` method with a negation operator. Example: `<<if [!items.Any()]>>No items.<</if>>`. The `!` before `items.Any()` returns true when the collection has no elements.
+
+2. **Q:** Are logical operators such as `&&` and `||` supported in the condition expression?  
+   **A:** Yes. You can combine multiple boolean checks using `&&` (AND) and `||` (OR). Example: `<<if [items.Any() && total > 0]>>...<</if>>`.
+
+3. **Q:** How do I obtain the current index of an item inside a `<<foreach>>` loop for even/odd formatting?  
+   **A:** Use the `IndexOf()` function, which returns the zero‑based position of the current item. Example: `<<if [IndexOf() % 2 == 0]>>` for even rows and `<<else>>` for odd rows.
+
+4. **Q:** Can I nest `<<if>>` blocks inside other `<<if>>` or `<<foreach>>` blocks?  
+   **A:** Yes. Conditional blocks can be nested to any depth, allowing complex logic. Ensure each block is properly closed with its corresponding `</if>` or `</foreach>` tag.
+
+5. **Q:** What happens if a condition evaluates to false and there is no `<<else>>` clause?  
+   **A:** The engine simply omits the block’s content; nothing is rendered for that part of the template. Provide an `<<else>>` clause only when you need alternative output.

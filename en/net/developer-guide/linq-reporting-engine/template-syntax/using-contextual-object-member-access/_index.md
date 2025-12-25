@@ -72,3 +72,15 @@ Alternatively, you can use the following template involving the contextual objec
 		</tr>
 	</tbody>
 </table>
+
+------  
+
+## FAQ
+1. **Q:** How can I use contextual object member access inside an IF field?  
+   **A:** Place the IF field around the expression that uses contextual access, e.g., `<<if [Age] > 30>>Adult<<endif>>`. The member `Age` is resolved to the current iteration variable, so the condition works without specifying the variable name.
+
+2. **Q:** What happens if I try to access a member of an outer iteration variable using contextual access?  
+   **A:** Contextual access only resolves to the innermost iteration variable. Attempting to reference an outer variable will result in an error or an empty value. Use the full object identifier (e.g., `outerVar.Property`) for outer scopes.
+
+3. **Q:** Is contextual object member access available in other language APIs such as Java or Python?  
+   **A:** Yes, the same template syntax is supported across all Aspose.Words language bindings, including Java and Python. The feature is part of the template engine, not the programming language, so the same templates can be used regardless of the host language.

@@ -37,7 +37,7 @@ Aspose.Words allows you to control the way you restrict the content using the [P
 * ReadOnly
 * NoProtection
 
-All types are password-secured, and if this password is not entered correctly, a user will not be able to legally change the content of your document. Thus, if your document is returned to you without a requirement to provide the necessary password, this is a sign that something is wrong.
+All types are password‑secured, and if this password is not entered correctly, a user will not be able to legally change the content of your document. Thus, if your document is returned to you without a requirement to provide the necessary password, this is a sign that something is wrong.
 
 If you did not set a password when choosing the security type, other users can simply ignore the protection of your document.
 
@@ -84,7 +84,7 @@ You can restrict editing of your document and at the same time allow changes to 
 
 Aspose.Words allows you to mark the parts that can be changed in your document using the [StartEditableRange](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starteditablerange/) and [EndEditableRange](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endeditablerange/#endeditablerange/) methods.
 
-The following code example shows how to mark the whole document as read-only and specify editable regions in it:
+The following code example shows how to mark the whole document as read‑only and specify editable regions in it:
 
 {{< gist "aspose-words-gists" "856ba85fa704fa728b0ec20aafddd16b" "unrestricted-editable-regions.cs" >}}
 
@@ -93,3 +93,22 @@ You can also choose different document editing restrictions for different sectio
 The following code example shows how to add a restriction for the entire document, and then remove the restriction for one of the sections:
 
 {{< gist "aspose-words-gists" "856ba85fa704fa728b0ec20aafddd16b" "unrestricted-section.cs" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I apply password protection to a document?  
+   **A:** Use the `Document.Protect` method, passing the desired `ProtectionType` and a password string. The password is stored in the document properties and is required to modify the protected content.
+
+2. **Q:** Can I remove protection without knowing the password?  
+   **A:** Yes. Calling `Document.Unprotect()` without a password removes protection regardless of the original password. If you provide the correct password, the document is unlocked in the same way.
+
+3. **Q:** Which editing restriction types are available and what do they allow?  
+   **A:** The `ProtectionType` enumeration includes `AllowOnlyComments`, `AllowOnlyFormFields`, `AllowOnlyRevisions`, `ReadOnly`, and `NoProtection`. Each type limits user actions accordingly—for example, `AllowOnlyFormFields` permits changes only in form fields.
+
+4. **Q:** How can I allow users to edit only specific parts of a protected document?  
+   **A:** Use `DocumentBuilder.StartEditableRange` and `DocumentBuilder.EndEditableRange` to define unrestricted editable regions within a read‑only document. Content inside these ranges can be edited even when the rest of the document is protected.
+
+5. **Q:** Are Aspose.Words licenses retro‑compatible with older library versions?  
+   **A:** Yes. An Aspose.Words license file works with earlier versions of the library, provided the license file format has not changed. However, it is recommended to use a license that matches the major version of the library for full feature support.

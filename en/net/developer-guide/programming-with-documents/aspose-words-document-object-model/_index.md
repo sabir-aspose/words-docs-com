@@ -159,3 +159,23 @@ Typed properties are merely useful shortcuts that sometimes provide easier acces
 The following code example shows how to use typed properties to access nodes of the document tree:
 
 {{< gist "aspose-words-gists" "3e9d92093b2f5995f984791bfc10c944" "typed-access.cs" >}}
+
+------  
+
+## FAQ
+1. **Q:** How can I create a `Document` object directly from a memory stream?  
+   **A:** Use the `Document(Stream)` constructor. Pass a `MemoryStream` that contains the DOCX, PDF, or any supported format bytes. The stream must be positioned at the beginning before creating the document.  
+
+2. **Q:** What is the best way to move a node (e.g., a paragraph) into a header or footer?  
+   **A:** Retrieve the target `HeaderFooter` node via `Section.HeadersFooters[HeaderFooterType.HeaderPrimary]` (or FooterPrimary) and call `AppendChild(node)` on that header/footer. The moved node automatically updates its `ParentNode` reference.  
+
+3. **Q:** How do I add a custom font to a document when the font is not installed on the system?  
+   **A:** Load the font file into a `FontSettings` object with `SetFontsFolder(path, false)`, assign the `FontSettings` to `Document.FontSettings`, and then apply the font name to a `Run.Font.Name`.  
+
+4. **Q:** How can I determine whether a document contains any visible text?  
+   **A:** Iterate through all `Run` nodes using `document.GetChildNodes(NodeType.Run, true)` and check `Run.Text.Trim().Length`. If no run contains non‑whitespace text, the document is effectively empty.  
+
+5. **Q:** How do I use `FindReplaceOptions` to replace text only inside tables?  
+   **A:** Create a `FindReplaceOptions` instance, set `FindReplaceOptions.MatchCase = true` (or other options), and assign a `NodeChangingCallback` that checks `node.ParentNode is Cell`. Then call `document.Range.Replace("old", "new", options)`.  
+
+```

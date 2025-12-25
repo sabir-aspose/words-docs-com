@@ -57,7 +57,7 @@ Users can also restrict document editing by selecting [ProtectionType](https://r
 
 {{% /alert %}}
 
-The **ReadOnlyRecommended** property is password-secured, so if you do not set a password before applying the **ReadOnlyRecommended** property, then other users can simply open the document as if it were unprotected. You access the document protection settings and set a write protection password via the **SetPassword** method.
+The **ReadOnlyRecommended** property is password‑secured, so if you do not set a password before applying the **ReadOnlyRecommended** property, then other users can simply open the document as if it were unprotected. You access the document protection settings and set a write protection password via the **SetPassword** method.
 
 {{% alert color="primary" %}}
 
@@ -78,3 +78,22 @@ If you do not want a user to open your document as read-only, you can simply set
 The following code example shows how to remove read-only access for a document:
 
 {{< gist "aspose-words-gists" "7cf6735e83804ba8942663695b22ee42" "remove-read-only-restriction.cs" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I make a document read‑only with a password?  
+   **A:** Load the document, set `document.WriteProtection.ReadOnlyRecommended = true;` and then call `document.WriteProtection.SetPassword("yourPassword");`. Finally, save the document. The password protects the read‑only recommendation.
+
+2. **Q:** Can I check whether a document is currently write‑protected?  
+   **A:** Yes. Use the `document.WriteProtection.IsWriteProtected` property; it returns `true` if a write‑protection password has been set.
+
+3. **Q:** How can I remove the read‑only recommendation from an existing document?  
+   **A:** Set `document.WriteProtection.ReadOnlyRecommended = false;` or change the protection type to `ProtectionType.NoProtection`, then save the document.
+
+4. **Q:** Is the read‑only password a security feature?  
+   **A:** The password is stored as a document property and can be removed by users who can edit the document’s metadata. It deters casual editing but should not be considered strong security.
+
+5. **Q:** Are Aspose.Words licenses backward compatible with older library versions?  
+   **A:** Yes. An Aspose.Words license file works with earlier versions of the library, provided the license file format has not changed. However, features introduced in newer versions will not be available when using older library releases.

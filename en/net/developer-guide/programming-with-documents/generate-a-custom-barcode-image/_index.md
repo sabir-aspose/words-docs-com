@@ -78,6 +78,19 @@ You can also use the [IBarcodeGenerator](https://reference.aspose.com/words/net/
 
 ## Specify Barcode Options
 
-When working with barcodes, you can set some additional properties. Aspose.Words provides you with the [BarcodeParameters](https://reference.aspose.com/words/net/aspose.words.fields/barcodeparameters/) class – class for barcode parameters to pass-through to BarcodeGenerator.
+When working with barcodes, you can set some additional properties. Aspose.Words provides you with the [BarcodeParameters](https://reference.aspose.com/words/net/aspose.words.fields/barcodeparameters/) class – class for barcode parameters to pass‑through to BarcodeGenerator.
 
-Aspose.Words supports embedded 96 ppi resolution for images generated with [IBarcodeGenerator](https://reference.aspose.com/words/net/aspose.words.fields/ibarcodegenerator/), which limits the minimum size of a barcode image. To address this, developers can manually insert barcode images with the target resolution into a Word document and save them in the required format. For more details and examples on working with barcodes, see the article [Create Custom Barcodes with IBarcodeGenerator](https://docs.aspose.com/barcode/net/how-to-create-custom-barcodes-with-ibarcodegenerator/).
+Aspose.Words supports embedded 96 ppi resolution for images generated with [IBarcodeGenerator](https://reference.aspose.com/words/net/aspose.words.fields/ibarcodegenerator/), which limits the minimum size of a barcode image. To address this, developers can manually insert barcode images with the target resolution into a Word document and save them in the required format. For more details and examples on working with barcodes, see the article [Create Custom Barcodes with IBarcodeGenerator](https://docs.aspose.com/barcode/net/how-to-create-custom-barcodes-with-ibarcodegenerator/).
+
+------  
+
+## FAQ
+
+1. **Q:** Which barcode types are supported by the `DISPLAYBARCODE` field?  
+   **A:** Any barcode type that Microsoft Word recognises (e.g., QR, CODE128, EAN13) can be used. When using Aspose.BarCode you can also use all types listed in the Aspose.BarCode documentation; specify the type via `BarcodeParameters.BarcodeType`.
+
+2. **Q:** What happens if I specify an unsupported barcode type?  
+   **A:** Word will display an error message in the field, and Aspose.Words will not generate an image. Ensure the type string matches a supported value or provide a custom `IBarcodeGenerator` that can handle the requested type.
+
+3. **Q:** Can I control the resolution of the generated barcode images?  
+   **A:** The built‑in `IBarcodeGenerator` renders at 96 ppi. For higher‑resolution barcodes, generate the image yourself (e.g., with Aspose.BarCode) at the desired DPI, insert the image into the document with `DocumentBuilder.InsertImage`, and then remove the original `DISPLAYBARCODE` field if needed.  

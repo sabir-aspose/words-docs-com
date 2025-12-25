@@ -82,20 +82,18 @@ The creation of a .NET object is similar to creation of a normal COM object:
 
 **VBScript**
 
-```
+```vbscript
 Dim helper
 Set helper = CreateObject("Aspose.Words.ComHelper")
- 
 ```
 
 Once created, you are able to access the object’s methods and properties, as if it was a `COM` object:
 
 **VBScript**
 
-```
+```vbscript
 Dim doc
 Set doc = helper.Open("C:\my.doc")
- 
 ```
 
 Some methods have overloads and they will be exposed by COM Interop with a numeric suffix added to them, except for the very first method that stays unchanged. For example, `Document.Save` method overloads become `Document.Save`, `Document.Save_2`, `Document.Save_3`, and so on.
@@ -109,3 +107,19 @@ If you need to use many of the Aspose.Words classes, methods and properties, con
 A good approach is to develop a .NET assembly that references Aspose.Words and does all the work with it, and only exposes the minimal set of classes and methods to unmanaged code. Your application then should work just with your wrapper library.
 
 Reducing the number of classes and methods that you need to invoke via COM Interop could simplify your project, because using .NET classes via COM Interop often requires advanced skills.
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I register Aspose.Words for COM Interop?  
+   **A:** Use the `regasm.exe` utility that ships with the .NET Framework SDK. Run a command similar to `C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe <installdir>\lib\net40-client\Aspose.Words.dll /tlb /codebase`. This registers the assembly, creates the type library (`Aspose.Words.tlb`), and makes the COM classes available to unmanaged code.
+
+2. **Q:** Which ProgIDs are available for Aspose.Words COM Interop?  
+   **A:** The publicly creatable COM classes are `Aspose.Words.ComHelper`, `Aspose.Words.Document`, `Aspose.Words.DocumentBuilder`, and `Aspose.Words.License`. Use these identifiers with `CreateObject` (or the equivalent in your language) to instantiate the corresponding objects.
+
+3. **Q:** Can I open a document from a memory stream using COM Interop?  
+   **A:** Direct stream support is not exposed through COM. The typical approach is to write the stream to a temporary file and then open that file with `Document.Open` (or `ComHelper.Open`). Alternatively, create a .NET wrapper assembly that accepts a byte array and returns a COM-visible document object.
+
+4. **Q:** How are method overloads represented in COM Interop?  
+   **A:** Overloaded methods are exposed with numeric suffixes. The first overload retains the original name (e.g., `Document.Save`), while subsequent overloads become `Document.Save_2`, `Document.Save_3`, etc. Choose the appropriate suffix based on the parameter list you need.

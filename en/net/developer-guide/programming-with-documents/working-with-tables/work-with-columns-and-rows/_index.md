@@ -131,3 +131,22 @@ The following code example shows how to set a table to stay together on the same
 You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Table%20spanning%20two%20pages.docx).
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I obtain the index of a specific table, row, or cell in a document?  
+   **A:** Retrieve the collection of the desired node type using `Document.GetChildNodes(NodeType.Table, true)`, `NodeType.Row`, or `NodeType.Cell`. Then call `NodeCollection.IndexOf(node)` to get its zero‑based index. This works for any node that is a child of the document or a parent node.
+
+2. **Q:** What is the recommended way to insert a new blank column into an existing table?  
+   **A:** Use a helper class that gathers the cells belonging to the target column (by iterating each row and selecting the cell at the column index). For each row, insert a new `Cell` at that position with `Row.Cells.Insert(index, new Cell(document))`. The helper then updates the table layout automatically.
+
+3. **Q:** How do I delete a particular column from a table?  
+   **A:** Iterate through every `Row` in the table and call `Row.Cells.RemoveAt(columnIndex)`. After removal, you may need to call `table.AutoFit(AutoFitBehavior.AutoFitToContents)` to adjust column widths.
+
+4. **Q:** How can I make the first row (or multiple rows) repeat as a header on every page?  
+   **A:** Set the `Row.RowFormat.HeadingFormat` property. Use `HeadingFormat.FirstRow` for a single header row or `HeadingFormat.AllRows` for consecutive rows that should act as headers. Example: `row.RowFormat.HeadingFormat = HeadingFormat.FirstRow;`.
+
+5. **Q:** What steps are required to prevent a row or an entire table from breaking across pages?  
+   **A:** For rows, set `Row.RowFormat.AllowBreakAcrossPages = false`. For tables, set `ParagraphFormat.KeepWithNext = true` on every paragraph inside the table cells except the last paragraph of the table. This keeps the whole table together on a single page.

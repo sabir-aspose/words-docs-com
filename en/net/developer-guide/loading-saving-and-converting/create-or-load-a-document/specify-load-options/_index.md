@@ -25,7 +25,7 @@ When loading a document, you can set some advanced properties. Aspose.Words prov
 
 ## Set Microsoft Word Version to Change the Appearance
 
-Different versions of Microsoft Word application can display documents in differently. For example, there is a well-known problem with OOXML documents such as DOCX or DOTX produced using WPS Office. In such case essential document markup elements may be missing or may be interpreted differently causing Microsoft Word 2019 to show such a document differently compared to Microsoft Word 2010.
+Different versions of Microsoft Word application can display documents in differently. For example, there is a well‑known problem with OOXML documents such as DOCX or DOTX produced using WPS Office. In such case essential document markup elements may be missing or may be interpreted differently causing Microsoft Word 2019 to show such a document differently compared to Microsoft Word 2010.
 
 By default Aspose.Words opens documents using Microsoft Word 2019 rules. If you need to to make document loading appear as it would happen in one of the previous Microsoft Word application versions, you should explicitly specify the desired version using the [MswVersion](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/mswversion/) property of the **LoadOptions** class.
 
@@ -35,7 +35,7 @@ The following code example shows how to set the Microsoft Word version with loa
 
 ## Set Language Preferences to Change the Appearance
 
-The details of displaying a document in Microsoft Word depend not only on the application version and the **MswVersion** property value but also on the language settings. Microsoft Word may show documents differently depending on the "Office Language Preferences" dialog settings, that can be found in "File → Options → Languаge". Using this dialog a user can select, for example, primary language, proofing languages, display languages, and so on. Aspose.Words provides the [LanguagePreferences](https://reference.aspose.com/words/net/aspose.words.loading/languagepreferences/) property as the equivalent of this dialog. If Aspose.Words output differs from the Microsoft Word output, set the appropriate value for **EditingLanguage** – this can improve the output document.
+The details of displaying a document in Microsoft Word depend not only on the application version and the **MswVersion** property value but also on the language settings. Microsoft Word may show documents differently depending on the "Office Language Preferences" dialog settings, that can be found in "File → Options → Languаge". Using this dialog a user can select, for example, primary language, proofing languages, display languages, and so on. Aspose.Words provides the [LanguagePreferences](https://reference.aspose.com/words/net/aspose.words.loading/languagepreferences/) property as the equivalent of this dialog. If Aspose.Words output differs from the Microsoft Word output, set the appropriate value for **EditingLanguage** – this can improve the output document.
 
 The following code example shows how to set Japanese as **EditingLanguage**:
 
@@ -79,7 +79,7 @@ The following code example shows how to set **TempFolder**:
 
 ## Set the Encoding Explicitly
 
-Most modern document formats store their content in Unicode and do not require special handling. On the other hand, there are still many documents that use some pre-Unicode encoding and sometimes either miss encoding information or do not even support encoding information by nature. Aspose.Words tries to automatically detect the appropriate encoding by default, but in a rare case you may need to use an encoding different from the one detected by our encoding recognition algorithm. In this case, use the [Encoding](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/encoding/) property to get or set the encoding.
+Most modern document formats store their content in Unicode and do not require special handling. On the other hand, there are still many documents that use some pre‑Unicode encoding and sometimes either miss encoding information or do not even support encoding information by nature. Aspose.Words tries to automatically detect the appropriate encoding by default, but in a rare case you may need to use an encoding different from the one detected by our encoding recognition algorithm. In this case, use the [Encoding](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/encoding/) property to get or set the encoding.
 
 The following code example shows how to set the encoding to override the automatically chosen encoding:
 
@@ -98,3 +98,22 @@ If you do not know in advance whether the file is encrypted, you can use the [F
 The following code example shows how to verify OpenDocument either it is encrypted or not:
 
 {{< gist "aspose-words-gists" "af95c7a408187bb25cf9137465fe5ce6" "verify-encrypted-document.cs" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I specify which Microsoft Word version is used when loading a document?  
+   **A:** Set the `MswVersion` property of a `LoadOptions` instance to the desired `MswVersion` enum value (e.g., `MswVersion.Word2007`). Pass this `LoadOptions` object to the `Document` constructor.
+
+2. **Q:** What is the recommended way to open a password‑protected Word file?  
+   **A:** Create a `LoadOptions` object, assign the password to its `Password` property, and use the overload `new Document(string fileName, LoadOptions loadOptions)`.
+
+3. **Q:** How do I control the text encoding used when loading a plain‑text document?  
+   **A:** Set the `Encoding` property of `LoadOptions` (or `TxtLoadOptions`) to the required `System.Text.Encoding` (e.g., `Encoding.GetEncoding("windows-1252")`) before loading the document.
+
+4. **Q:** How can I receive warnings about problems that occur during the load process?  
+   **A:** Implement the `IWarningCallback` interface, assign an instance to the `WarningCallback` property of `LoadOptions`, and then load the document. All warnings will be reported through the callback.
+
+5. **Q:** My application throws an OutOfMemoryException when loading a very large document; what can I do?  
+   **A:** Set the `TempFolder` property of `LoadOptions` to a folder on disk. Aspose.Words will write temporary data to this location instead of keeping everything in memory, reducing the risk of memory exhaustion.

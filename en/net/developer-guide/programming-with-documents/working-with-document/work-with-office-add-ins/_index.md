@@ -33,7 +33,7 @@ WebExtensions namespace can be conditionally divided into:
 
 The task panes are interface surfaces that are displayed on the right side of the window in Microsoft Word. Task pane allows users to access interface controls that can run code to modify documents.
 
-For example, using Aspose.Words API, you can add a task pane add-in and customize its appearance.
+For example, using Aspose.Words API, you can add a task pane add‑in and customize its appearance.
 
 ## Using Web Extensions
 
@@ -45,8 +45,20 @@ The following code example shows how to create task panes and add to web extensi
 
 {{< gist "aspose-words-gists" "8c31c018ea71c92828223776b1a113f7" "web-extension-task-panes.cs" >}}
 
-To see a list of task pane add-ins, use the [WebExtensionTaskPanes](https://reference.aspose.com/words/net/aspose.words/document/webextensiontaskpanes/) property.
+To see a list of task pane add‑ins, use the [WebExtensionTaskPanes](https://reference.aspose.com/words/net/aspose.words/document/webextensiontaskpanes/) property.
 
-The following code example shows how to get such a list of add-ins:
+The following code example shows how to get such a list of add‑ins:
 
 {{< gist "aspose-words-gists" "8c31c018ea71c92828223776b1a113f7" "get-list-of-addins.cs" >}}
+
+------  
+
+## FAQ
+1. **Q:** How can I add a task pane add‑in to a Word document using Aspose.Words?  
+   **A:** Create a `WebExtension` object, set its `Type` to `TaskPane`, and configure properties such as `Id` and `Description`. Add the web extension to the document via `Document.WebExtensionList.Add(webExtension)`. Then create a `TaskPane` object, set its appearance properties (e.g., `Width`, `Height`, `DockState`), and add it to the web extension with `webExtension.TaskPane.Add(taskPane)`.
+
+2. **Q:** How do I retrieve the list of task pane add‑ins that are already attached to a document?  
+   **A:** Use the `Document.WebExtensionTaskPanes` property, which returns a `WebExtensionTaskPaneCollection`. Iterate through this collection to read each task pane’s `Id`, `Description`, and other attributes.
+
+3. **Q:** Can I add more than one task pane to the same Word document?  
+   **A:** Yes. A document can contain multiple `WebExtension` objects, each with its own `TaskPane` collection. Simply create additional `WebExtension` instances and add their `TaskPane` objects to the document’s `WebExtensionList`.

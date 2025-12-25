@@ -27,7 +27,7 @@ This page explains how to perform a nested mail merge with regions to generate h
 
 In some scenarios, you may need to use nested Mail Merge with regions. Nested merge is a feature that enables you to merge hierarchical data from your data source into your merge template to easily populate your document. Basically, the hierarchical data is represented as a set of data items, and hierarchical relationships describe how the data items are related to each other (one item of data is the parent of another one).
 
-Aspose.Words allows you to perform a Mail Merge operation with nested regions. You can use this feature if you have a data source that is organized into a tree-like structure and you want to execute a Mail Merge operation to populate a template with hierarchical data.
+Aspose.Words allows you to perform a Mail Merge operation with nested regions. You can use this feature if you have a data source that is organized into a tree‑like structure and you want to execute a Mail Merge operation to populate a template with hierarchical data.
 
 {{% alert color="primary" %}}
 
@@ -71,13 +71,13 @@ You can check the implementation of setting up the data relations manually from 
 
 ## How to Set Up Data Relations in Nested Mail Merge with Regions
 
-You need to set up all data relationships in the parent-child structure to execute the nested Mail Merge with regions correctly. Skipping this important step can lead to a failure in executing the nested Mail Merge with regions.
+You need to set up all data relationships in the parent‑child structure to execute the nested Mail Merge with regions correctly. Skipping this important step can lead to a failure in executing the nested Mail Merge with regions.
 
 When retrieving data for a nested Mail Merge from an XML file using the **ReadXml** method, relationships are automatically created according to the structure of the XML document. However, you need to make sure that correct relations have been created.
 
 If Mail Merge is not working as expected, then you may need to restructure your XML file or explicitly create relations between DataTable objects in the DataSet.
 
-A `DataSet` that has related data tables will use the **DataRelation** object to represent the parent-child relationship between the tables.
+A `DataSet` that has related data tables will use the **DataRelation** object to represent the parent‑child relationship between the tables.
 
 The following code example shows how to establish a `DataRelation` between a customer’s table and an order’s table by using a `DataRelation` object:
 
@@ -85,8 +85,24 @@ The following code example shows how to establish a `DataRelation` between a cus
 
 ## How to Create Data Relations from a Custom Data Source
 
-Implement the [IMailMergeDataSource](https://reference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource/) interface to create relationships in the parent-child structure of your custom data source. Use the [GetChildDataSource](https://reference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource/getchilddatasource/) method to return the relevant child data of a current parent record.
+Implement the [IMailMergeDataSource](https://reference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource/) interface to create relationships in the parent‑child structure of your custom data source. Use the [GetChildDataSource](https://reference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource/getchilddatasource/) method to return the relevant child data of a current parent record.
 
 The following example shows how to create data relations using **GetChildDataSource**:
 
 {{< gist "aspose-words-gists" "c68048adceb3bda6a1511c7d6f5ebf7b" "get-child-data-source.cs" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** My nested mail merge inserts empty paragraphs before each region. How can I remove them?  
+   **A:** Ensure that the merge fields in the template are placed directly adjacent to each other without extra paragraph marks. If an empty paragraph still appears, set `MailMerge.RemoveEmptyParagraphs = true` before executing the merge.
+
+2. **Q:** Can I use a custom data source instead of a `DataSet` for nested regions?  
+   **A:** Yes. Implement the `IMailMergeDataSource` interface and provide a `GetChildDataSource` method that returns another `IMailMergeDataSource` for the child records. Aspose.Words will treat the returned source as the nested region.
+
+3. **Q:** How can I apply conditional logic (IF fields) inside a nested region?  
+   **A:** Use Word’s built‑in IF field syntax inside the region, e.g., `{ IF { MERGEFIELD Quantity } > 0 "In Stock" "Out of Stock" }`. The field will be evaluated for each record during the merge.
+
+4. **Q:** My mail merge fails with “The relationship … does not exist”. What should I check?  
+   **A:** Verify that the `DataRelation` name used in the template matches the relation name in the `DataSet`. Also confirm that the parent and child tables contain the linking columns and that the relation is added to the `DataSet.Relations` collection before calling `ExecuteWithRegions`.

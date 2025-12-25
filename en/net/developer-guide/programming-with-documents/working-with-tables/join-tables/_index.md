@@ -29,3 +29,22 @@ To manipulate a table to join with another table, we just need to move the rows 
 The following code example shows how to merge rows from two tables into one:
 
 {{< gist "aspose-words-gists" "b0735c64408bcb2c063f96f7c9d5af75" "combine-rows.cs" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I join two tables in a Word document using Aspose.Words for .NET?  
+   **A:** Load the document, locate the two `Table` nodes, move each `Row` from the second table into the first using `ImportNode`, add the rows to `firstTable.Rows`, and finally call `secondTable.Remove()` to delete the empty container.
+
+2. **Q:** Will the original formatting of rows (borders, shading, cell width) be preserved after moving them?  
+   **A:** Yes. When you import a row with `firstTable.Document.ImportNode(row, true)`, the `true` flag copies all formatting and style information, so the visual appearance remains unchanged.
+
+3. **Q:** Can I join tables that have a different number of columns?  
+   **A:** Aspose.Words will copy the cells as they exist. If the column counts differ, the resulting table will have the column structure of the first table; extra cells from rows with more columns will be truncated, and missing cells will be added as empty cells to match the first table’s layout.
+
+4. **Q:** After moving rows, the second table is still visible as an empty placeholder. How do I remove it?  
+   **A:** Call `secondTable.Remove();` after all rows have been transferred. This deletes the table node from the document tree, eliminating the empty placeholder.
+
+5. **Q:** Is there a way to join tables without losing any cell borders or shading that are defined on the table level?  
+   **A:** Ensure that the first table already has the desired borders and shading before moving rows. Since row‑level formatting is preserved, the joined table will inherit the first table’s overall border and shading settings. If needed, you can copy table‑level formatting from the second table to the first before the merge.

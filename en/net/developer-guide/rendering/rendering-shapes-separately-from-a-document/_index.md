@@ -33,7 +33,7 @@ A simple image is represented by a **Shape** node of [ShapeType.Image](https:/
 
 ![rendering-shapes-separately-from-a-document_1](rendering-shapes-separately-from-a-document-1.png)
 
-A document can also contain shapes which are grouped together. Grouping can be enabled in Microsoft Word by selecting multiple objects and clicking “Group” in the right-click menu.
+A document can also contain shapes which are grouped together. Grouping can be enabled in Microsoft Word by selecting multiple objects and clicking “Group” in the right‑click menu.
 
 ![rendering-shapes-separately-from-a-document_2](rendering-shapes-separately-from-a-document-2.png)
 
@@ -102,3 +102,22 @@ The below example shows how to create a new Bitmap and Graphics object with the 
 When using the **RenderToSize** or **RenderToScale** methods, the rendered image size is also returned in the [SizeF](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/rendertoscale/) object. This can be assigned to a variable and used if necessary.
 
 The **SizeInPoints** property returns the Shape size measured in points (see [ShapeRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/shaperenderer/). The result is a `SizeF` object containing the width and height.
+
+------ 
+
+## FAQ
+
+1. **Q:** Which image formats can I use when saving a shape with `ShapeRenderer.Save`?  
+   **A:** Any format supported by the `SaveFormat` enumeration can be used, such as JPEG, PNG, BMP, GIF, TIFF, EMF, WMF, and SVG. Specify the desired format through `ImageSaveOptions.SaveFormat`.
+
+2. **Q:** How do I render a shape to a memory stream instead of a file?  
+   **A:** Call `ShapeRenderer.Save(Stream, ImageSaveOptions)` and pass a `MemoryStream` instance. You may provide `null` for `ImageSaveOptions` to use default settings, then retrieve the byte array from the stream.
+
+3. **Q:** How can I determine the size of a shape before rendering it?  
+   **A:** Use `ShapeRenderer.GetSizeInPixels(float scale, float dpi)` to obtain the width and height in pixels, or read `ShapeRenderer.SizeInPoints` for size in points. This helps you create a correctly sized `Bitmap` or `Graphics` object.
+
+4. **Q:** Can a `GroupShape` be rendered the same way as a single `Shape`?  
+   **A:** Yes. Obtain a `ShapeRenderer` for the `GroupShape` via `GroupShape.GetShapeRenderer()` or the constructor, then call `Save`, `RenderToSize`, or `RenderToScale` just like with an individual shape.
+
+5. **Q:** Why does rendering a shape sometimes produce a blank image?  
+   **A:** The shape must be part of the document tree. If the shape has been removed or is detached from the document hierarchy, `ShapeRenderer` will render an empty image. Ensure the shape is inserted into a paragraph or anchored correctly before rendering.

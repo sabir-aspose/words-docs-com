@@ -83,3 +83,27 @@ The following code  example shows how to convert all `PAGE` fields in a Body of 
 The following code  example shows how to convert all `IF` fields in the last paragraph to static text:
 
 {{< gist "aspose-words-gists" "f3592014d179ecb43905e37b2a68bc92" "unlink-fields-in-paragraph.cs" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** How can I replace all fields in a document with their current results?  
+   **A:** Use the static method `FieldHelper.ConvertFieldsToStaticText(document, FieldType.Any)` where `document` is an instance of `Document`. This walks the entire document tree and replaces every field with the text stored in its field result node.
+
+2. **Q:** I only want to replace a specific type of field, such as `IF` fields. How do I do that?  
+   **A:** Pass the desired `FieldType` enumeration value to `ConvertFieldsToStaticText`. For example:  
+   ```csharp
+   Document doc = new Document("input.docx");
+   FieldHelper.ConvertFieldsToStaticText(doc, FieldType.FieldIf);
+   ```  
+   This converts only `IF` fields, leaving all other fields untouched.
+
+3. **Q:** Can I limit the conversion to a particular part of the document, like the body of a section or a single paragraph?  
+   **A:** Yes. The first argument of `ConvertFieldsToStaticText` is any `CompositeNode`. Provide the node you want to process, e.g., `section.Body` or `paragraph.ParentNode`. The method will replace matching fields only within that node.
+
+4. **Q:** Why does converting a `PAGE` field in a header to static text show the same page number on every page?  
+   **A:** Header/footer fields are shared across pages. When a `PAGE` field is replaced with static text, the value is taken from the header’s context (usually the last page of the section) and applied to all pages. To keep correct page numbers, avoid converting `PAGE` fields in headers/footers, or replace them after the document is split into individual pages.
+
+5. **Q:** My field spans multiple paragraphs and `ConvertFieldsToStaticText` throws an exception. What should I do?  
+   **A:** Fields that cross paragraph boundaries should be processed at a higher level. Pass the parent node that contains the whole field (for example, the `Section` or `Body`) instead of an individual `Paragraph`. This ensures the method sees the complete field structure.

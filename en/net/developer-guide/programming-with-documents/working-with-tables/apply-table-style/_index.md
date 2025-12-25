@@ -90,3 +90,22 @@ The following code example shows how to expand the formatting from styles onto t
 You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{% /alert %}}
+
+------  
+
+## FAQ
+
+1. **Q:** How do I create a custom table style programmatically?  
+   **A:** Use the `StyleCollection.Add` method to create a new style, set its `StyleType` to `Table`, and then configure properties such as borders, shading, and font. After configuring, add the style to the document’s `Styles` collection.
+
+2. **Q:** Can I copy a table style from one document to another?  
+   **A:** Yes. Call `StyleCollection.AddCopy(sourceStyle)` on the destination document’s `Styles` collection. This copies the style together with any linked styles it references.
+
+3. **Q:** How can I apply a table style to an existing table?  
+   **A:** Set the table’s `StyleIdentifier` or `StyleName` property to the name of the desired style, or assign a `TableStyle` object to the table’s `Style` property. You can also modify `StyleOptions` to include first column, banded rows, etc.
+
+4. **Q:** What is the purpose of `ExpandTableStylesToDirectFormatting`?  
+   **A:** This method converts the formatting defined by a table style into direct formatting on each row and cell. It is useful when exporting to formats that do not support table styles, ensuring the visual appearance is retained.
+
+5. **Q:** Are table styles preserved when saving to formats other than DOCX/DOC?  
+   **A:** Table styles are fully preserved in DOCX, WordML, and DOC. When saving to other formats (e.g., PDF, HTML), the styles are expanded to direct formatting, so the appearance remains the same even though the style definitions are not retained.

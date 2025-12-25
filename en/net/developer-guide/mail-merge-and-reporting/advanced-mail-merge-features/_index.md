@@ -90,3 +90,22 @@ Aspose.Words allows you to automatically map names of fields in your data source
 The following code example shows how to add a mapped field using the [Add](https://reference.aspose.com/words/net/aspose.words.mailmerging/mappeddatafieldcollection/add/) method when a merge field in a template and a data field in a data source have different names:
 
 {{< gist "aspose-words-gists" "b4bab1bf22437a86d8062e91cf154494" "mapped-data-fields.cs" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I retrieve all merge field names from a template?  
+   **A:** Use the `MailMerge.GetFieldNames()` method. It returns a `StringCollection` containing the names of every merge field present in the document, which you can iterate or display as needed.
+
+2. **Q:** What API lets me obtain the hierarchy of mail‑merge regions?  
+   **A:** Call `MailMerge.GetRegionsHierarchy()`. The method returns a collection of `MailMergeRegionInfo` objects that represent each region and its nested sub‑regions, allowing you to inspect the template structure programmatically.
+
+3. **Q:** My data source uses different column names than the merge fields in the template. How can I map them automatically?  
+   **A:** Use the `MailMerge.MappedDataFields` collection. Add a mapping with `mailMerge.MappedDataFields.Add("DataSourceColumn", "MergeFieldName")`; Aspose.Words will then match the source column to the appropriate merge field during the merge.
+
+4. **Q:** What is the difference between the **NextIf** and **SkipIf** fields?  
+   **A:** `NextIf` merges the next record into the current document only when the specified condition evaluates to true; otherwise it starts a new document. `SkipIf` cancels the current document and moves to the next record when the condition is true, effectively skipping the current record.
+
+5. **Q:** How can I merge multiple records into a single document instead of creating separate documents for each record?  
+   **A:** Insert a `Next` field (or `NextIf` with a true condition) at the point where you want the next record to continue in the same document. During the mail merge, Aspose.Words will use this field to concatenate records rather than starting a new document for each one.

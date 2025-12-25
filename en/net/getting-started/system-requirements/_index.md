@@ -107,3 +107,16 @@ Aspose.Words for .NET can be used to develop applications in any development en
 			<td><ul><li>Microsoft Visual Studio 2010</li><li>Microsoft Visual Studio 2011</li><li>Microsoft Visual Studio 2012</li><li>Microsoft Visual Studio 2013</li><li>Microsoft Visual Studio 2015</li><li>Microsoft Visual Studio 2017</li><li>Microsoft Visual Studio 2019</li><li>Microsoft Visual Studio 2022</li><li>Xamarin.Mac</li><li>Xamarin.Android</li><li>Xamarin.iOS</li><li>MonoDevelop 2.4 and later</li></ul></td>
 			</tr>
 </table>
+
+------ 
+
+## FAQ
+
+1. **Q:** Do I need Microsoft Word installed to use Aspose.Words for .NET?  
+   **A:** No. Aspose.Words is a standalone engine and does not require Microsoft Word or any other third‑party Office product to be installed on the target machine.
+
+2. **Q:** Is a license required for production use?  
+   **A:** Yes. While a free evaluation license is available for testing, a commercial license must be applied for any production deployment. Licenses are forward compatible with newer library versions, but older library versions may not accept licenses generated for newer releases.
+
+3. **Q:** Can I run Aspose.Words on cloud platforms such as AWS or Azure?  
+   **A:** Absolutely. The library works on any cloud service that supports the required .NET runtime, including Amazon Web Services, Microsoft Azure, and other platforms that can host .NET Core/.NET 5+ applications.

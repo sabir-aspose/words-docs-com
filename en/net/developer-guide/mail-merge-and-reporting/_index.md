@@ -89,3 +89,22 @@ The following image shows an example of the output merged document as a result 
 ## See Also
 
 - [Work with Mail Merge templates in Word](https://docs.microsoft.com/en-us/power-platform/admin/work-mail-merge-templates)
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I perform a mail merge with repeating rows (regions) in a table?  
+   **A:** Use the `ExecuteWithRegions` method. Load the template, call `document.MailMerge.ExecuteWithRegions(dataTable)`, where `dataTable` contains the rows to repeat. The method repeats the region defined by `MERGEFIELD TableStart:RegionName` and `MERGEFIELD TableEnd:RegionName` for each data row.
+
+2. **Q:** How do I insert images into a document during a mail merge?  
+   **A:** Include an image merge field (e.g., `MERGEFIELD ImagePath \d`) in the template. In the `MailMergeFieldMergingCallback` event, set `e.ImageFileName` to the image path and optionally specify the image size. Register the callback with `document.MailMerge.FieldMergingCallback = new ImageMergingCallback();`.
+
+3. **Q:** Can I use a custom object collection as the data source for mail merge?  
+   **A:** Yes. Implement the `IMailMergeDataSource` (or `IMailMergeDataSourceRoot` for hierarchical data) interface for your collection. Pass the implementation to `document.MailMerge.Execute(customDataSource)`. This allows you to merge from LINQ queries, business objects, or any custom source.
+
+4. **Q:** How can I run custom code for each merged record, such as applying conditional formatting?  
+   **A:** Subscribe to the `MailMergeFieldMerging` event. In the event handler, examine `e.FieldName` and `e.RecordIndex` and modify `e.Text`, `e.Font`, or other properties of the `DocumentBuilder` that is provided. This gives full control over the content inserted for each field.
+
+5. **Q:** After a mail merge, I get an empty paragraph left above a merged field. How can I remove it?  
+   **A:** In the `MailMergeFieldMerging` event, check if the previous node is an empty `Paragraph`. If so, remove it with `e.FieldNode.PreviousSibling.Remove();`. Alternatively, set `document.MailMerge.RemoveEmptyParagraphs = true` before executing the merge (available in recent versions).

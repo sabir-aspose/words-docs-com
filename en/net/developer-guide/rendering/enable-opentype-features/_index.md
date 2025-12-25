@@ -36,3 +36,13 @@ In a typical application single instance of a text shaper factory is shared amon
 The following code example shows you how to turn on support of OpenType features.
 
 {{< gist "aspose-words-gists" "7840fae2297fa05bba1ca0608cb81bf1" "open-type-features.cs" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** Are OpenType features applied when saving to formats other than PDF or XPS?  
+   **A:** No. Text shaping that uses OpenType features is performed only for PDF and XPS output. Saving to DOCX, RTF, or other formats will not invoke the HarfBuzz shaper, so the features will not be visible in those files.
+
+2. **Q:** What is the recommended way to improve performance when using OpenType features?  
+   **A:** Use a single shared `BasicTextShaperCache` (or a custom cache) across all documents. This avoids repeatedly parsing the same font files, which is an expensive operation, and significantly reduces the time spent on shaping.

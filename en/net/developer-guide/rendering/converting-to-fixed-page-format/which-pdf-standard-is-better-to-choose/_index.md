@@ -54,3 +54,22 @@ PDF/UA should be used if PDF consumers require it. Also it could be used if you 
 It is important to note that PDF/UA-1 output will also be WCAG 2.0 and Section 508 compliant.
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** What is the practical difference between PDF 1.7 and PDF 2.0 when using Aspose.Words?  
+   **A:** Functionally they are very similar; PDF 2.0 adds support for newer features such as an advanced encryption algorithm. Use PDF 2.0 only when you need those features, because older PDF viewers may have compatibility issues.
+
+2. **Q:** When should I choose PDF/A over a regular PDF?  
+   **A:** Choose PDF/A when the document must be archived for long‑term preservation or when a regulatory body requires it. Select the highest PDF/A version that the consumer accepts, as newer versions provide more reliable output.
+
+3. **Q:** How do I decide which PDF/A conformance level (A, B, or U) to use?  
+   **A:** Level A provides full accessibility and is required when the consumer needs it. Levels B and U are lighter and produce smaller files; they are suitable when only visual fidelity (B) or basic accessibility (U) is required.
+
+4. **Q:** What are the benefits of using PDF/UA, and does it increase file size?  
+   **A:** PDF/UA ensures the PDF meets accessibility standards (WCAG 2.0, Section 508). It is ideal when accessibility is a requirement, but the output will be larger than a standard PDF because of the additional tagging and metadata.
+
+5. **Q:** Is there any licensing impact when switching between PDF standards in Aspose.Words?  
+   **A:** No. All PDF standards (PDF 1.7, PDF 2.0, PDF/A, PDF/UA) are fully supported under a regular Aspose.Words license. The license does not need to be changed when you select a different PDF standard.

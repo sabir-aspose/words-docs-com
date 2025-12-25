@@ -25,11 +25,11 @@ This page explains the Aspose.Words for .NET product’s purpose, features, and 
 
 Welcome to Aspose.Words for .NET!
 
-Aspose.Words is a cross-platform class library that enables your applications to perform a wide variety of document processing tasks.
+Aspose.Words is a cross‑platform class library that enables your applications to perform a wide variety of document processing tasks.
 
 Using Aspose.Words, you can convert a document from any supported load format to any supported save format, for example, Word formats to PDF, HTML, or Markdown, PDF to DOCX, and so on. Read more about converting documents in the [Convert a Document](/words/net/convert-a-document/) section.
 
-It is worth noting that with Aspose.Words you can create, modify, convert, render, and print documents without relying on third-party applications, such as Microsoft Word, or Office Automation.
+It is worth noting that with Aspose.Words you can create, modify, convert, render, and print documents without relying on third‑party applications, such as Microsoft Word, or Office Automation.
 
 ## Benefits of Using Aspose.Words
 
@@ -37,7 +37,7 @@ Using Aspose.Words for .NET in your project gives you the following benefits:
 
 - Rich feature set
 - Platform independence
-- Independence from third-party applications
+- Independence from third‑party applications
 - Performance and scalability
 - Minimal learning curve
 
@@ -63,7 +63,7 @@ Programmatic access through a rich API to all document elements and formatting a
 
 We use the term [Rendering in Aspose.Words](/words/net/rendering/) to describe the process of converting a document into a file format or a medium, paginated or that has the concept of pages.
 
-You can convert whole documents or particular pages to PDF or XPS to generate server-side documents, print them, or render pages using .NET Graphics. And all this with high fidelity – exactly like Microsoft Word would have done it.
+You can convert whole documents or particular pages to PDF or XPS to generate server‑side documents, print them, or render pages using .NET Graphics. And all this with high fidelity – exactly like Microsoft Word would have done it.
 
 #### Reporting
 
@@ -73,13 +73,13 @@ Generate documents or reports from scratch or by filling templates with data fro
 
 Aspose.Words for .NET covers most of the popular development environments and deployment platforms. Its API can be used to develop applications for a wide range of operating systems, such as Windows, Linux, and Mac OS, and various platforms.
 
-You can use Aspose.Words for .NET to build any type of 32-bit or 64-bit .NET application, including ASP.NET, WCF, WinForms, etc. In addition, you can utilize Aspose.Words for .NET via COM Interop from ASP, Perl, PHP, and Python.
+You can use Aspose.Words for .NET to build any type of 32‑bit or 64‑bit .NET application, including ASP.NET, WCF, WinForms, etc. In addition, you can utilize Aspose.Words for .NET via COM Interop from ASP, Perl, PHP, and Python.
 
 You can also use Aspose.Words for .NET to build applications with Mono, as well as on Windows Azure, Microsoft SharePoint, Microsoft Silverlight, Xamarin.Android, Xamarin.iOS, and `Xamarin.Mac`.
 
 ### Independence from Other Applications
 
-Aspose.Words does not require third-party applications, for example, Microsoft Office, to be installed on the machine in order to work. All Aspose components are completely independent. This makes Aspose.Words a great alternative to automation in terms of security, stability, scalability/speed, price, and features for working with documents and related tasks.
+Aspose.Words does not require third‑party applications, for example, Microsoft Office, to be installed on the machine in order to work. All Aspose components are completely independent. This makes Aspose.Words a great alternative to automation in terms of security, stability, scalability/speed, price, and features for working with documents and related tasks.
 
 ### Performance and Scalability
 
@@ -93,7 +93,7 @@ Aspose.Words is multithread safe as long as only one thread works on a document 
 
 Although there are over 150 public classes and enumerations in Aspose.Words, the learning curve is minimal because the Aspose.Words API has been carefully designed with the following goals in mind:
 
-- Borrow best practices from other well-known APIs such as Microsoft Word Automation
+- Borrow best practices from other well‑known APIs such as Microsoft Word Automation
 - Borrow best practices from the .NET Framework Design Guidelines
 - Provide a balance of ease of use and detailed manipulation of document elements
 
@@ -109,3 +109,21 @@ Please visit the [Licensing](/words/net/licensing/) page for information on lice
 
 For more information on Aspose.Words technical support, take a look at the [Support page](/words/net/technical-support/).
 
+------ 
+
+## FAQ
+
+1. **Q:** What file formats can Aspose.Words for .NET load and save?  
+   **A:** Aspose.Words supports more than 35 formats. It can load DOC, DOCX, RTF, HTML, MHTML, ODT, PDF, EPUB, and many others, and can save to formats such as PDF, XPS, HTML, JPEG, PNG, TIFF, Markdown, DOCX, etc. See the [Supported Document Formats](/words/net/supported-document-formats/) page for the full list.
+
+2. **Q:** Do I need Microsoft Word or Office installed to use Aspose.Words?  
+   **A:** No. Aspose.Words is completely independent of Microsoft Word or any other third‑party application. All processing is performed by the library itself, which makes it suitable for server environments where Office cannot be installed.
+
+3. **Q:** How do I obtain and apply a license for Aspose.Words?  
+   **A:** Purchase a license from the Aspose site, download the *.lic* file, and load it in your code with `License license = new License(); license.SetLicense("Aspose.Words.lic");`. The license removes evaluation limitations and enables full functionality.
+
+4. **Q:** Is Aspose.Words compatible with .NET 8 and other modern .NET platforms?  
+   **A:** Yes. Aspose.Words for .NET targets .NET Standard 2.0, which is supported by .NET 5, .NET 6, .NET 7, .NET 8, and .NET Core. The same binary works on Windows, Linux, and macOS.
+
+5. **Q:** Is the library thread‑safe when processing multiple documents?  
+   **A:** Aspose.Words is thread‑safe provided that each document instance is accessed by only one thread at a time. Different threads may work on different `Document` objects concurrently without any issues.  

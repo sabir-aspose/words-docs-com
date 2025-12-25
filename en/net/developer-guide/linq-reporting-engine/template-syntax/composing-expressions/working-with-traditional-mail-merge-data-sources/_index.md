@@ -78,4 +78,23 @@ The following example shows, how to use this feature. Given that r is an `IDataR
   r.Name
 {{< /highlight >}}
 
-**Note** – Field names are case-insensitive.
+**Note** – Field names are case‑insensitive.
+
+------  
+
+## FAQ
+
+1. **Q:** How can I reference a `DataTable` inside a `DataSet` from a template?  
+   **A:** Use the dot operator with the table name, e.g., `ds.Persons`. Table names are case‑insensitive, and the `DataSet` instance must be passed to the reporting engine as a data source.
+
+2. **Q:** Can I iterate over rows of a `DataTable` or `DataView` in a template?  
+   **A:** Yes. Treat the `DataTable`/`DataView` as an enumerable and use a `foreach` tag. Inside the loop you can access each row via a variable (e.g., `row`) and use `row.FieldName` to get column values.
+
+3. **Q:** How do I access parent or child rows from a `DataRow` in a template?  
+   **A:** Use the parent or child table name after the row variable, e.g., `row.City` for a single related row or `row.Persons` for a collection of child rows. You can then chain further field accesses like `row.City.Name`.
+
+4. **Q:** What if my data source uses `IDataReader`—can I still use LINQ Reporting Engine features like grouping?  
+   **A:** `IDataReader` can be enumerated, but operations that require caching (grouping, sorting) are not supported. Convert the reader to a `DataTable` first if you need those features.
+
+5. **Q:** How do I read a field from an `IDataRecord` inside a template?  
+   **A:** Use the dot operator with the field name, e.g., `record.Name`. This works when the `IDataRecord` is the current iteration variable of an `IDataReader` enumeration or when it does not implement `IDataReader`.

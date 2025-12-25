@@ -94,3 +94,22 @@ The [Font](https://reference.aspose.com/words/net/aspose.words/inline/font/) pro
 The following code example shows how to apply font formatting to the **FormField**:
 
 {{< gist "aspose-words-gists" "b09907fef4643433271e4e0e912921b0" "form-fields-font-formatting.cs" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** How can I set or change the value of a form field programmatically?  
+   **A:** Use the `Result` property of the `FormField` object. After obtaining the field (by name or index), assign the desired string to `FormField.Result`, and then save the document.
+
+2. **Q:** How do I retrieve the current value entered in a form field?  
+   **A:** Access the same `Result` property. It returns the text that the user has entered or the default value defined when the field was created.
+
+3. **Q:** I need the document to be editable only through its form fields. How can I protect it accordingly?  
+   **A:** Call `Document.Protect(ProtectionType.AllowOnlyFormFields, "password")`. This protects the whole document while still allowing users to fill in the form fields.
+
+4. **Q:** Can I apply font styling (e.g., bold, color) to the text inside a form field?  
+   **A:** Yes. The `FormField.Font` property gives access to a `Font` object. Set properties such as `Bold`, `Color`, or `Size` on this object to format the field’s content.
+
+5. **Q:** How can I check whether a specific form field exists before accessing it?  
+   **A:** Use the `FormFields` collection: `FormField field = document.Range.FormFields["MyField"];` and verify that `field` is not `null` before using it. This prevents exceptions when the field name is misspelled or missing.

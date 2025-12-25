@@ -62,3 +62,16 @@ The good news is that LINQ Reporting Engine can be further extended to fulfill a
 ## See Also
 
 - [List of fields supported by Microsoft Word](https://support.microsoft.com/en-us/office/list-of-field-codes-in-word-1ad6d91a-55a7-4a8d-b535-cf7888659a51)
+
+------ 
+
+## FAQ
+
+1. **Q:** When should I choose Mail Merge over the LINQ Reporting Engine?  
+   **A:** Use Mail Merge if you need to work with existing Microsoft Word mail‑merge templates or require only basic field replacement, calculations, and image insertion. It is ideal when the template is created by end‑users familiar with Word’s native mail‑merge feature. For more complex scenarios—multiple data sources, JSON, custom expressions, or advanced layout control—the LINQ Reporting Engine is a better fit.
+
+2. **Q:** Can a template that contains standard Word mail‑merge fields be processed by the LINQ Reporting Engine?  
+   **A:** No. The LINQ Reporting Engine uses its own plain‑text tag syntax and does not interpret Word’s built‑in mail‑merge fields. If you need to reuse a Word mail‑merge template, you must either keep using Mail Merge or convert the template to the LINQ syntax.
+
+3. **Q:** Do I need a different Aspose.Words license to use the LINQ Reporting Engine?  
+   **A:** No. Both Mail Merge and the LINQ Reporting Engine are part of the same Aspose.Words for .NET library, so a single valid Aspose.Words license covers both features. Ensure the license file is loaded before creating the `Document` object, e.g., `License license = new License(); license.SetLicense("Aspose.Words.lic");`.

@@ -64,3 +64,16 @@ In this case, the engine produces a report as follows.
 | 1    | item1 |
 | 2    | item2 |
 | 3    | item3 |
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I obtain the position of the current item inside a `foreach` loop?  
+   **A:** Use the `IndexOf()` extension method on the iteration variable. It returns a zero‑based index, so the first item is `0`. Example: `<<[item.IndexOf()]>>`.
+
+2. **Q:** How do I generate a sequential number for each item without using Word list numbering?  
+   **A:** Call the `NumberOf()` extension method on the iteration variable. It returns a one‑based index (first item is `1`). Example: `<<[item.NumberOf()]>>` can be placed in a table column to produce numbered rows.
+
+3. **Q:** Can these extension methods be used with custom object types in the collection?  
+   **A:** Yes. The methods are defined on the internal iteration wrapper, so they work with any collection element type—strings, custom classes, or structs. Simply reference `item.IndexOf()` or `item.NumberOf()` in the template regardless of the underlying object type.
