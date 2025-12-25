@@ -52,7 +52,7 @@ You can dynamically add items to comboboxes and dropdown lists defined in your t
 <<item [value_expression] [display_name_expression]>>
 {{< /highlight >}}
 
-Here, `value_expression` defines a value of a combobox or dropdown list item to be added dynamically. This expression is mandatory and must return a non-empty value.
+Here, `value_expression` defines a value of a combobox or dropdown list item to be added dynamically. This expression is mandatory and must return a non‑empty value.
 
 In turn, `display_name_expression` defines a display name of the combobox or dropdown list item to be added. This expression is optional. If it is omitted, then during runtime, a value of `value_expression` is used as a display name as well.
 
@@ -89,3 +89,22 @@ You can normally use common expression tags in content control titles, thus form
 {{< highlight csharp >}}
 <<[s]>>
 {{< /highlight >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I make a checkbox content control checked or unchecked based on data?  
+   **A:** Add a `check` tag to the checkbox title using the syntax `<<check [conditional_expression]>>`. The expression must return a Boolean value; if true, the checkbox is checked, otherwise it remains unchecked. The `check` tag is removed automatically after evaluation.
+
+2. **Q:** What is the correct way to add items to a combobox or dropdown list at runtime?  
+   **A:** Use the `item` tag inside the content control title: `<<item [value_expression] [display_name_expression]>>`. The first argument supplies the item value (required), and the optional second argument supplies the display text. Multiple `item` tags can be placed sequentially or generated inside a `foreach` loop.
+
+3. **Q:** Can I conditionally add a combobox item only when a certain condition is met?  
+   **A:** Yes. Wrap the `item` tag inside an `if` tag, e.g., `<<if [condition]>> <<item [value]>> <</if>>`. The `item` will be added only if the condition evaluates to true.
+
+4. **Q:** Why does a default item appear in a newly inserted dropdown list, and how can I remove it?  
+   **A:** Microsoft Word automatically inserts a placeholder item when a dropdown list is created. This item is not removed by Aspose.Words, so you must delete it manually in the template or programmatically after the document is generated.
+
+5. **Q:** How can I set the title of a content control dynamically using a variable?  
+   **A:** Place an expression tag inside the title, such as `<<[myVariable]>>`. During report generation the variable’s `ToString()` value replaces the tag, producing a dynamic title. This works for any content control type.

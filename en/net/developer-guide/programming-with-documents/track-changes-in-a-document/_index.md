@@ -100,3 +100,49 @@ Note that there is no connection between the revisions themselves and the `Track
 The following code example shows how to apply different properties with revisions:
 
 {{< gist "aspose-words-gists" "e8d71fde166d275d0fc9471c56c3ad39" "shape-revision.cs" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** How do I start tracking changes in a document?  
+   **A:** Call the `StartTrackRevisions()` method on an `Document` instance. This begins recording all subsequent edits as revisions. Example:  
+
+   ```csharp
+   Document doc = new Document("input.docx");
+   doc.StartTrackRevisions();
+   // Perform edits here
+   ```
+
+2. **Q:** How can I stop tracking changes so that later edits are not recorded as revisions?  
+   **A:** Use the `StopTrackRevisions()` method on the same `Document` object. After this call, further modifications will not generate revisions. Example:  
+
+   ```csharp
+   doc.StopTrackRevisions();
+   // Further edits will not be tracked
+   ```
+
+3. **Q:** What is the easiest way to accept all revisions in a tracked document?  
+   **A:** Invoke `AcceptAllRevisions()` on the `Document`. This removes all revision marks and leaves the document in its final state, similar to Word’s “Accept All Changes”. Example:  
+
+   ```csharp
+   doc.AcceptAllRevisions();
+   ```
+
+4. **Q:** How can I check whether a document contains any revisions?  
+   **A:** Use the `HasRevisions` property of the `Document`. It returns `true` if at least one revision exists. Example:  
+
+   ```csharp
+   bool containsRevisions = doc.HasRevisions;
+   ```
+
+5. **Q:** How do I identify move revisions (move‑from and move‑to) after moving a node while tracking is enabled?  
+   **A:** After a move operation, the moved node will have `IsMoveFromRevision` and `IsMoveToRevision` flags set. You can inspect these properties on any `Node` (e.g., a `Paragraph`). Example:  
+
+   ```csharp
+   Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
+   bool isMoveFrom = para.IsMoveFromRevision;
+   bool isMoveTo   = para.IsMoveToRevision;
+   ```
+
+These FAQs address the most common questions users have when working with track changes and revisions in Aspose.Words for .NET.

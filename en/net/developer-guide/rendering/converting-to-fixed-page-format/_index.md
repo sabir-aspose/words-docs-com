@@ -97,3 +97,63 @@ After the page layout is built and the geometry of objects and their position on
 The example below demonstrates how to save a document to JPEG format using the `Save` method and rendering options:
 
 {{< gist "aspose-words-gists" "ebbb90d74ef57db456685052a18f8e86" "get-jpeg-page-range.cs" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** How can I convert a DOCX file to PDF using C#?  
+   **A:** Load the DOCX into an `Aspose.Words.Document` object and call `Save` with `SaveFormat.Pdf`. Aspose.Words automatically builds the page layout if required.  
+
+   ```csharp
+   using Aspose.Words;
+   using Aspose.Words.Saving;
+
+   Document doc = new Document("input.docx");
+   doc.Save("output.pdf", SaveFormat.Pdf);
+   ```
+
+2. **Q:** How do I export only a specific range of pages to a fixed‑page format (e.g., PDF or JPEG)?  
+   **A:** Use `FixedPageSaveOptions` (or `PdfSaveOptions` for PDF) and set the `PageCount` and `PageIndex` properties to define the range.  
+
+   ```csharp
+   using Aspose.Words;
+   using Aspose.Words.Saving;
+
+   Document doc = new Document("input.docx");
+
+   // Export pages 2‑4 to PDF
+   PdfSaveOptions pdfOptions = new PdfSaveOptions();
+   pdfOptions.PageIndex = 1;   // zero‑based index (page 2)
+   pdfOptions.PageCount = 3;   // pages 2,3,4
+   doc.Save("output.pdf", pdfOptions);
+   ```
+
+3. **Q:** How can I control the JPEG quality when saving a document as an image?  
+   **A:** Set the `JpegQuality` property on `FixedPageSaveOptions`. The value ranges from 0 (lowest quality) to 100 (best quality).  
+
+   ```csharp
+   using Aspose.Words;
+   using Aspose.Words.Saving;
+
+   Document doc = new Document("input.docx");
+
+   FixedPageSaveOptions imgOptions = new FixedPageSaveOptions(SaveFormat.Jpeg);
+   imgOptions.JpegQuality = 85;   // 85 % quality
+   doc.Save("output.jpg", imgOptions);
+   ```
+
+4. **Q:** What options are available for saving a document as a TIFF image with high visual quality?  
+   **A:** Use `FixedPageSaveOptions` and enable anti‑aliasing and high‑quality rendering via `UseAntiAliasing` and `UseHighQualityRendering`.  
+
+   ```csharp
+   using Aspose.Words;
+   using Aspose.Words.Saving;
+
+   Document doc = new Document("input.docx");
+
+   FixedPageSaveOptions tiffOptions = new FixedPageSaveOptions(SaveFormat.Tiff);
+   tiffOptions.UseAntiAliasing = true;
+   tiffOptions.UseHighQualityRendering = true;
+   doc.Save("output.tiff", tiffOptions);
+   ```

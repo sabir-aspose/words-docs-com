@@ -182,3 +182,22 @@ Replacer.Create(replacerContext)
 The **Aspose.Words.LowCode** namespace helps you implement high-level document processing tasks quickly with clean, readable syntax. It is especially useful for developers who need speed, simplicity, and maintainable code when working with Word documents.
 
 To explore more advanced options, you can always combine LowCode APIs with the full Aspose.Words object model. See more Low Code examples in the [API documentation](https://reference.aspose.com/words/net/aspose.words.lowcode/).
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I convert a DOCX file to PDF using the LowCode API?  
+   **A:** Use the `Converter` class. In the non‑fluent style call `Converter.Convert("input.docx", "output.pdf");`. In the fluent style create a context with `Converter.Create().From("input.docx").To("output.pdf").Execute();`. The API automatically detects the source and target formats from the file extensions.
+
+2. **Q:** What is the simplest way to compare two Word documents with the LowCode API?  
+   **A:** Call `LowCodeComparer.Compare("doc1.docx", "doc2.docx", "result.docx");` for a quick comparison. If you need custom options, create a `CompareOptions` object and pass it as the fourth argument, or use the fluent `Comparer.Create().From(...).From(...).To(...).Execute();` with a configured `ComparerContext`.
+
+3. **Q:** Can I split a large document into separate parts using LowCode?  
+   **A:** Yes. The `Splitter` class provides a `Split` method that accepts the source file, output file, and split options. The splitter can divide the document by page count, sections, or custom criteria.
+
+4. **Q:** How do I perform a global find‑and‑replace operation with LowCode?  
+   **A:** Use the `Replacer` class. For a quick replace: `Replacer.Replace("source.docx", "result.docx", "oldText", "newText");`. For more control, create a `ReplacerContext`, set replacements with `SetReplacement`, and execute via `Replacer.Create(context).From(...).To(...).Execute();`.
+
+5. **Q:** Is a separate license required to use the LowCode API?  
+   **A:** The LowCode API is covered by the same Aspose.Words license you use for the full library. Apply the license once in your application (e.g., `License license = new License(); license.SetLicense("Aspose.Words.lic");`). After that, all LowCode classes operate under the same licensing terms.

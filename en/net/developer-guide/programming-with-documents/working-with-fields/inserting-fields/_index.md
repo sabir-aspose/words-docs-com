@@ -201,3 +201,62 @@ For more details, see the [FieldToa](https://reference.aspose.com/words/net/asp
 The following code example shows how to add the `TOA` field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "insert-toa-field-without-document-builder.cs" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I insert a `MERGEFIELD` using `DocumentBuilder`?  
+   **A:** Create a `DocumentBuilder` instance, then call `InsertField` with the full field code, e.g.:
+
+   ```csharp
+   Document doc = new Document();
+   DocumentBuilder builder = new DocumentBuilder(doc);
+   builder.InsertField("MERGEFIELD  CustomerName  \\* MERGEFORMAT");
+   doc.Save("MergeField.docx");
+   ```
+
+2. **Q:** My field code contains a space (e.g., a switch value). How should I format it?  
+   **A:** Enclose any parameter that includes spaces in double quotes. For example:
+
+   ```csharp
+   builder.InsertField("IF  \"{ MERGEFIELD  Quantity }\" > 10 \"High\" \"Low\"");
+   ```
+
+   Without the quotes the field parser would truncate the parameter.
+
+3. **Q:** How can I create nested fields, such as an `IF` field that contains a `MERGEFIELD`, using `FieldBuilder`?  
+   **A:** Use the fluent `FieldBuilder` API to add inner fields as arguments:
+
+   ```csharp
+   Document doc = new Document();
+   DocumentBuilder builder = new DocumentBuilder(doc);
+   FieldBuilder ifBuilder = new FieldBuilder(FieldType.FieldIf)
+       .AddArgument("MERGEFIELD  Quantity")
+       .AddArgument("> 10")
+       .AddArgument("High")
+       .AddArgument("Low");
+   builder.InsertField(ifBuilder);
+   doc.Save("NestedIf.docx");
+   ```
+
+4. **Q:** How do I set a specific locale for a field so that numbers are formatted correctly?  
+   **A:** After inserting the field, set its `LocaleId` property to the desired LCID (e.g., 1033 for en‑US):
+
+   ```csharp
+   Document doc = new Document();
+   DocumentBuilder builder = new DocumentBuilder(doc);
+   Field field = builder.InsertField("DATE  \\@ \"MMMM d, yyyy\"");
+   field.LocaleId = 1033; // en-US
+   doc.Save("DateWithLocale.docx");
+   ```
+
+5. **Q:** What is the recommended way to insert an empty (untyped) field `{}`?  
+   **A:** Use `InsertField` with `FieldType.FieldNone`:
+
+   ```csharp
+   Document doc = new Document();
+   DocumentBuilder builder = new DocumentBuilder(doc);
+   builder.InsertField(FieldType.FieldNone, null);
+   doc.Save("EmptyField.docx");
+   ```

@@ -71,3 +71,22 @@ By default, the engine stretches an image filling a textbox to the size of the t
 {{< /highlight >}}
 
 **Note** – If the size of the image is greater than the size of the textbox, then the `fitSizeLim` switch acts like `fitHeight` or `fitWidth`. Otherwise, the `fitSizeLim` switch acts like `fitSize`.
+
+------ 
+
+## FAQ
+
+1. **Q:** What data types can be returned by the image expression?  
+   **A:** The expression may return a `byte[]` containing raw image bytes, a `System.IO.Stream` that can read the image data, a `System.Drawing.Image` object, or a `string` that holds an image URI, a file path, or a Base64‑encoded image.
+
+2. **Q:** How does the engine treat a `Stream` returned from the image expression?  
+   **A:** After the image is built, the engine automatically closes the `Stream`. You do not need to close it manually, and you should not use the stream after the tag is processed.
+
+3. **Q:** Which switch should I use to keep the original aspect ratio of the image?  
+   **A:** Use the `-keepRatio` switch. It stretches the image to fill the textbox while preserving its width‑to‑height ratio.
+
+4. **Q:** How can I make the textbox automatically resize to match the image dimensions?  
+   **A:** Apply the `-fitSize` switch. The engine will adjust the textbox size so that it exactly matches the size of the inserted image.
+
+5. **Q:** What does the `-fitSizeLim` switch do, and when should I use it?  
+   **A:** `-fitSizeLim` resizes the textbox to the image size but never makes the textbox larger than its original dimensions. If the image is larger, the switch behaves like `-fitHeight` or `-fitWidth`; otherwise, it behaves like `-fitSize`. Use it when you want to limit the textbox growth while still fitting the image proportionally.

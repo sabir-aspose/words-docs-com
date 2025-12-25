@@ -241,3 +241,41 @@ There are some differences in processing of font formats in Aspose.Words and Mic
 ## See Also
 
 - [Google Noto Fonts](https://fonts.google.com/noto) to download free fonts
+
+------  
+
+## FAQ
+
+1. **Q:** How can I tell Aspose.Words where to look for custom TrueType fonts?  
+   **A:** Create a `FontSettings` instance and add a folder to its `FontSources` collection, then assign the instance to the `Document` or set it as the default. Example:  
+
+   ```csharp
+   FontSettings fontSettings = new FontSettings();
+   fontSettings.SetFontsFolder(@"C:\MyCustomFonts", false);
+   Document doc = new Document();
+   doc.FontSettings = fontSettings;
+   ```
+
+2. **Q:** How do I enable the FontConfig substitution rule on non‑Windows platforms?  
+   **A:** Set the `FontConfigSubstitution.Enabled` property to `true` on the `SubstitutionSettings` of your `FontSettings`.  
+
+   ```csharp
+   FontSettings fontSettings = new FontSettings();
+   fontSettings.SubstitutionSettings.FontConfigSubstitution.Enabled = true;
+   ```
+
+3. **Q:** I want to disable the table‑based font substitution because it gives unwanted results. How can I do that?  
+   **A:** Turn off the table substitution by setting its `Enabled` property to `false`.  
+
+   ```csharp
+   FontSettings fontSettings = new FontSettings();
+   fontSettings.SubstitutionSettings.TableSubstitution.Enabled = false;
+   ```
+
+4. **Q:** What is the simplest way to load predefined font‑fallback settings for Google Noto fonts?  
+   **A:** Use the `LoadNotoFallbackSettings()` method of the `FontFallbackSettings` obtained from your `FontSettings`.  
+
+   ```csharp
+   FontSettings fontSettings = new FontSettings();
+   fontSettings.FallbackSettings.LoadNotoFallbackSettings();
+   ```

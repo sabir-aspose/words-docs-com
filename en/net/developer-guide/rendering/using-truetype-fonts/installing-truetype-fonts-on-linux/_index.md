@@ -56,3 +56,19 @@ After installing the package, Aspose.Words will find these fonts in the folders�
 ## See Also
 
 - [Liberation Fonts](https://github.com/liberationfonts) as an alternative to standard Windows fonts
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I tell Aspose.Words where the copied TrueType fonts are located?  
+   **A:** Create a `FontSettings` object, add the folder that contains the `.ttf`/`.ttc` files to `FontSettings.FontFolders`, and assign it to the document’s `FontSettings` property.
+   
+2. **Q:** Do I need to register the fonts with the Linux operating system after copying them?  
+   **A:** No. Aspose.Words can use fonts directly from the folder you specify via `FontSettings`. Registering the fonts with the OS is optional and only needed if other applications must use them.
+
+3. **Q:** Will installing the `msttcorefonts` package automatically make the fonts available to Aspose.Words?  
+   **A:** Yes. The package places the fonts in standard system directories (e.g., `/usr/share/fonts/truetype/msttcorefonts`). Aspose.Words scans these locations automatically, so no additional code is required.
+
+4. **Q:** Is a separate license required to use Microsoft fonts with Aspose.Words on Linux?  
+   **A:** Aspose.Words licensing does not cover font licensing. You must comply with the font’s EULA and any distribution rights. Verify that you have the appropriate rights to copy and use the fonts on your Linux server.

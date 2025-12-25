@@ -52,3 +52,22 @@ To replace or modify hyperlinks, it is need to find the hyperlinks in the docume
 The following code example shows how to find all hyperlinks in Word document and changes their `URL` and display name:
 
 {{< gist "aspose-words-gists" "0213851d47551e83af42233f4d075cf6" "replace-hyperlinks.cs" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I insert a hyperlink that points to an external URL?  
+   **A:** Use `DocumentBuilder.InsertHyperlink` with the display text, the full URL (e.g., `https://www.example.com`), and set the third parameter to `false`. After insertion, you can format the link text via `builder.Font` (e.g., set `builder.Font.Color = Color.Blue; builder.Font.Underline = Underline.Single;`).
+
+2. **Q:** How can I create a hyperlink that points to a bookmark inside the same document?  
+   **A:** Pass the bookmark name as the second argument to `InsertHyperlink` and set the third argument to `true`. The method will treat the second argument as a bookmark reference rather than an external URL.
+
+3. **Q:** What is the recommended way to change the display text of an existing hyperlink?  
+   **A:** Locate the `FieldHyperlink` object, access its `Result` node (which holds the displayed text), and replace the text with the new string. After updating, you may need to re‑apply font formatting if the style should differ.
+
+4. **Q:** How can I modify the URL of a hyperlink that is already in the document?  
+   **A:** Find the `FieldHyperlink` instance, then update its `Hyperlink` property (or the field code) with the new URL string. Call `field.Update()` to refresh the field result so the change is reflected in the document.
+
+5. **Q:** Is there a way to remove a hyperlink while keeping its display text?  
+   **A:** Yes. Remove the `FieldHyperlink` node from the document tree but keep its `Result` node (the text). You can do this by extracting the `Result` node, inserting it back into the parent, and then deleting the entire field node hierarchy. This leaves the plain text in the document without the hyperlink.

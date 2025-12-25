@@ -49,7 +49,7 @@ Similar to the previous case, processing a document with a reference to a local 
 
 ### Denial of Service
 
-An attacker could upload a document that either referenced or included extremely large images – the so-called "decompression bombs". When processing these images, the library will consume huge amounts of memory and CPU time.
+An attacker could upload a document that either referenced or included extremely large images – the so‑called "decompression bombs". When processing these images, the library will consume huge amounts of memory and CPU time.
 
 ### Server-Side Request Forgery Via Linked Content
 
@@ -141,3 +141,16 @@ var doc = new Document(documentFilename, disableRemoteResourcesOptions);
 This article is based on the consulting firm Independent Security Evaluators [report](ise-aspose-report.pdf).
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I stop Aspose.Words from loading external images?  
+   **A:** Implement `IResourceLoadingCallback` and return `ResourceLoadingAction.Skip` for `ResourceType.Image`. Assign the callback to `LoadOptions.ResourceLoadingCallback` when creating the `Document`. This prevents the library from fetching any remote image.
+
+2. **Q:** What if I want to block all remote resources, not just images?  
+   **A:** In the callback, examine `args.OriginalUri` and decide whether the resource is local. Return `ResourceLoadingAction.Skip` for any non‑local URI (e.g., HTTP, UNC paths). This disables loading of CSS, HTML, or other external files.
+
+3. **Q:** Will disabling external resources affect the visual layout of the document?  
+   **A:** Yes, placeholders for skipped resources remain empty, which may change the appearance (missing images or styles). However, the document remains safe to process, and you can replace skipped resources with local placeholders if needed.

@@ -81,3 +81,43 @@ In this situation, "current" means the position, paragraph, section, cell, or ro
 Note that the **Font**, **ParagraphFormat**, and **PageSetup** properties are updated whenever you navigate to a different location in the document to reflect the formatting properties of this location.
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I move the cursor to a header or footer using DocumentBuilder?  
+   **A:** Use the `MoveToHeaderFooter` method, specifying the desired `HeaderFooterType` (HeaderPrimary, FooterPrimary, etc.). After moving, any inserted content will appear in that header/footer.  
+
+   ```csharp
+   Document document = new Document();
+   DocumentBuilder builder = new DocumentBuilder(document);
+   // Move to the primary header of the first section
+   builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+   builder.Writeln("Header text");
+   ```
+
+2. **Q:** What is the easiest way to apply bold, italic, or underline formatting to text I write?  
+   **A:** Set the `Font` properties on the `DocumentBuilder` before calling `Write` or `Writeln`. These settings affect all subsequent text until changed.  
+
+   ```csharp
+   DocumentBuilder builder = new DocumentBuilder(document);
+   builder.Font.Name = "Arial";
+   builder.Font.Size = 12;
+   builder.Font.Bold = true;
+   builder.Font.Italic = true;
+   builder.Font.Underline = UnderlineType.Single;
+   builder.Writeln("Bold, italic and underlined text");
+   ```
+
+3. **Q:** How can I create a bookmark and later move the cursor back to it?  
+   **A:** Use `InsertBookmark` to create the bookmark, then `MoveToBookmark` to reposition the cursor.  
+
+   ```csharp
+   DocumentBuilder builder = new DocumentBuilder(document);
+   builder.InsertBookmark("MyBookmark");
+   builder.Writeln("Text inside the bookmark.");
+   // Later...
+   builder.MoveToBookmark("MyBookmark");
+   builder.Writeln("More text after moving back to the bookmark.");
+   ```

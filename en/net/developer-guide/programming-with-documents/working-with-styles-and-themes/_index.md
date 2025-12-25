@@ -99,3 +99,22 @@ Here is how you can get theme properties:
 And here is how you can set theme properties:
 
 {{< gist "aspose-words-gists" "a73b495f610523670f0847331ef4d6fc" "set-theme-properties.cs" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** How can I retrieve all paragraphs that use a specific style, such as *Heading 1*?  
+   **A:** Use `Document.GetChildNodes(NodeType.Paragraph, true)` to obtain all paragraph nodes, then filter them by checking `paragraph.ParagraphFormat.Style.Name`. The helper method `ParagraphsByStyleName` in the article demonstrates this approach.
+
+2. **Q:** What is the easiest way to copy all styles from a template document into another document?  
+   **A:** Call `Document.CopyStylesFromTemplate(string templatePath)` on the target document. This method copies both built‑in and user‑defined styles, redefining any matching style names to match the template while preserving unique styles.
+
+3. **Q:** How do I read or modify the theme colors, fonts, or other theme properties of a document?  
+   **A:** Access the `Document.Theme` property, which returns a `Theme` object. From there you can work with `ThemeColors`, `ThemeFonts`, etc. Example code in the article shows how to get and set these properties using the `Theme` API.
+
+4. **Q:** Can I change the font style (e.g., make text bold or italic) for all runs that use a particular character style?  
+   **A:** Retrieve the runs with `RunsByStyleName(string styleName)`, then iterate through the resulting `Run` collection and modify `run.Font.Bold` or `run.Font.Italic` as needed. This updates every run that is associated with the specified character style.
+
+5. **Q:** How can I add a hyperlink that follows the document’s *Hyperlink* style automatically?  
+   **A:** Create a `Run` with the desired display text, set `run.Font.StyleName = "Hyperlink"`, and assign a `FieldHyperlink` to the run’s parent paragraph. The hyperlink will inherit the formatting defined by the *Hyperlink* style in the document’s theme.

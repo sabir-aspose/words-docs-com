@@ -170,3 +170,22 @@ The cache is also suitable for other scenarios when fonts are loaded over the ne
 If you want to get the list of available fonts, which, for example, can be used to render a PDF document, you can use the [GetAvailableFonts](https://reference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/getavailablefonts/) method, as shown in the following code example. The [PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/) class specifies information about the physical font available to Aspose.Words font engine:
 
 {{< gist "aspose-words-gists" "7e64f6d40825be58a8c12f1307c12964" "available-fonts.cs" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** How can I load a TrueType font from a stream instead of a file?  
+   **A:** Create a class that derives from `StreamFontSource` and override the `OpenFontDataStream()` method to return a `Stream` containing the font data. Then add an instance of this class to `FontSettings` via `SetFontsSources`. Aspose.Words will call `OpenFontDataStream` each time the font is needed, loading it on demand.
+
+2. **Q:** How do I specify multiple custom font folders for Aspose.Words?  
+   **A:** Use `FontSettings.SetFontsFolders(string[] folderPaths, bool recursive)` or create `FolderFontSource` objects for each folder and pass them to `SetFontsSources`. The `recursive` flag tells Aspose.Words to scan sub‑folders as well, allowing you to organize fonts in a hierarchy.
+
+3. **Q:** What is the purpose of the `Priority` property on `FontSourceBase`?  
+   **A:** When the same font family and style exist in more than one source, Aspose.Words selects the font from the source with the highest `Priority` value. Set a larger integer for the source you want to take precedence (e.g., a custom folder with updated fonts can have a higher priority than the system folder).
+
+4. **Q:** How can I improve performance when loading many fonts?  
+   **A:** Build a font search cache once with `FontSettings.SaveSearchCache(Stream cacheStream)` and reuse it on subsequent runs by loading the cache via `FontSettings.SetFontsSources(FontSourceBase[] sources, Stream cacheStream)`. This avoids re‑scanning all font files each time the application starts.
+
+5. **Q:** How can I completely ignore system fonts and use only my custom fonts?  
+   **A:** Do not include `SystemFontSource` in the `FontSettings`. Call `SetFontsSources` with only your custom `FolderFontSource`, `FileFontSource`, `MemoryFontSource`, or `StreamFontSource` instances. Aspose.Words will then look exclusively at the supplied sources for font resolution.

@@ -101,3 +101,50 @@ Using the **OptimizeOutput** property may affect the accuracy of content display
 - The article [Working with PDF/A or PDF/UA](/words/net/working-with-pdfa-or-pdfua/) describes the requirements for the document content in PDF/A and PDF/UA formats – mainly the requirements for the structure and fonts
 
 - The article [Accessibility Issue Warnings When Saving to PDF/A and PDF/UA](/words/net/warnings-when-saving-to-pdfa-and-pdfua/) describes what content accessibility requirements PDF/A and PDF/UA impose
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I convert a DOCX file to PDF using C#?  
+   **A:** Load the DOCX into an `Aspose.Words.Document` object and call its `Save` method with a filename that has a `.pdf` extension. Example:  
+
+   ```csharp
+   Document doc = new Document("input.docx");
+   doc.Save("output.pdf");
+   ```
+
+2. **Q:** How can I set a specific PDF compliance level (e.g., PDF/A‑1b, PDF 1.7) when saving?  
+   **A:** Use `PdfSaveOptions` and set its `Compliance` property to the desired `PdfCompliance` enum value, then pass the options to `Document.Save`. Example:  
+
+   ```csharp
+   PdfSaveOptions options = new PdfSaveOptions();
+   options.Compliance = PdfCompliance.PdfA1b;   // or PdfCompliance.Pdf17, etc.
+   Document doc = new Document("input.docx");
+   doc.Save("output.pdf", options);
+   ```
+
+3. **Q:** What can I do to reduce the size of the generated PDF?  
+   **A:** Enable output optimization by setting `OptimizeOutput` to `true` in `PdfSaveOptions`. This removes redundant canvases and merges identical glyphs, which often reduces file size. Example:  
+
+   ```csharp
+   PdfSaveOptions options = new PdfSaveOptions();
+   options.OptimizeOutput = true;
+   Document doc = new Document("input.docx");
+   doc.Save("output.pdf", options);
+   ```
+
+4. **Q:** Can I convert images such as JPEG or TIFF directly to PDF with Aspose.Words?  
+   **A:** Yes. Create a new `Document`, insert the image(s) using a `DocumentBuilder`, and then save the document as PDF. Example for a TIFF with multiple pages:  
+
+   ```csharp
+   Document doc = new Document();
+   DocumentBuilder builder = new DocumentBuilder(doc);
+   builder.InsertImage("image.tiff");
+   doc.Save("output.pdf");
+   ```
+
+5. **Q:** Do I need a license to use the PDF conversion features of Aspose.Words?  
+   **A:** A license is not required for basic functionality, but without a license the generated PDFs will contain a watermark and evaluation messages. Applying a valid Aspose.Words license removes these restrictions and enables full‑featured performance.  
+
+------

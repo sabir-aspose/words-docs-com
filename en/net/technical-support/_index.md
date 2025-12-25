@@ -46,3 +46,22 @@ When posting your issue, question, or feature request with Aspose.Words, follow 
 
 * Include the original document and possibly the code snippet that is causing the problem. If you need to attach multiple files, zip them into one. It is safe to attach your documents to `Aspose.Forums` because only you and the Aspose developers will have access to the attached files.
 * Try to report one issue per thread. If you have another issue, question, or feature request, please report it in a separate thread.
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I obtain free technical support for Aspose.Words for .NET?  
+   **A:** You can post your question, issue, or feature request on the Aspose.Words Free Support Forum. The development team monitors the forum and typically responds within a few hours.
+
+2. **Q:** Do I need a paid license to use the support forum?  
+   **A:** No. The forum is available to all users, including those using evaluation versions and free trial licenses. Licensing is only required for production deployment of the library.
+
+3. **Q:** Is phone support available for technical problems with Aspose.Words?  
+   **A:** No. Aspose provides technical support exclusively through the online forums and ticketing system. Phone support is limited to sales and purchase inquiries.
+
+4. **Q:** What information should I include when reporting a bug or feature request?  
+   **A:** Attach the original document, a minimal reproducible code snippet, and a clear description of the problem. If you have multiple files, zip them into a single archive before uploading.
+
+5. **Q:** My issue is related to licensing or retro‑compatibility; how should I proceed?  
+   **A:** Include the license file, the version of Aspose.Words you are using, and details about the older version you are targeting. The support team can then verify compatibility and suggest the appropriate solution.

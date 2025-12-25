@@ -72,3 +72,59 @@ You can use the [UpdateLastSavedTimeProperty](https://reference.aspose.com/words
 The following code example shows how to update this property:
 
 {{< gist "aspose-words-gists" "83e5c469d0e72b5114fb8a05a1d01977" "update-last-saved-time.cs" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** How can I update all fields in a document using Aspose.Words for .NET?  
+   **A:** Load the document, call `Document.UpdateFields()`, and then save or render it. This updates every field, including TOC, formulas, and references.  
+
+   ```csharp
+   Document doc = new Document("input.docx");
+   doc.UpdateFields();               // Updates all fields in the document
+   doc.Save("output.docx");
+   ```
+
+2. **Q:** How do I update fields only in a specific part of a document, such as a header or a section?  
+   **A:** Obtain the node that represents the part you want to update, get its `Range`, and call `Range.UpdateFields()`. This updates fields only within that range.  
+
+   ```csharp
+   Document doc = new Document("input.docx");
+   HeaderFooter header = (HeaderFooter)doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary];
+   header.Range.UpdateFields();      // Updates fields only in the header
+   doc.Save("output.docx");
+   ```
+
+3. **Q:** Will page‑number fields be updated automatically when converting a document to PDF or XPS?  
+   **A:** Yes. During rendering to a fixed‑page format, Aspose.Words automatically updates page‑related fields (`PAGE`, `PAGEREF`, etc.) found in headers and footers. If you also need other fields updated, call `Document.UpdateFields()` before rendering.  
+
+   ```csharp
+   Document doc = new Document("input.docx");
+   doc.UpdateFields();               // Optional: update non‑page fields
+   doc.Save("output.pdf");           // Page fields are refreshed automatically
+   ```
+
+4. **Q:** How can I update fields that have the **dirty** attribute when loading a document?  
+   **A:** Set `LoadOptions.UpdateDirtyFields` to `true` when creating the `Document`. This forces Aspose.Words to refresh all fields marked as dirty on load.  
+
+   ```csharp
+   LoadOptions loadOptions = new LoadOptions
+   {
+       UpdateDirtyFields = true
+   };
+   Document doc = new Document("input.docx", loadOptions);
+   doc.Save("output.docx");
+   ```
+
+5. **Q:** How do I ensure the **LastSavedTime** property is updated when saving a document?  
+   **A:** Use `SaveOptions.UpdateLastSavedTimeProperty` and set it to `true` before calling `Save`. This updates the built‑in `LastSavedTime` property to the current time.  
+
+   ```csharp
+   Document doc = new Document("input.docx");
+   SaveOptions saveOptions = new SaveOptions
+   {
+       UpdateLastSavedTimeProperty = true
+   };
+   doc.Save("output.docx", saveOptions);
+   ```

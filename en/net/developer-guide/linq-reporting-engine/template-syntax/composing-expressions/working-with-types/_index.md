@@ -32,3 +32,22 @@ However, you can use the identifier of a visible type in template expressions on
 **Note** – Whereas using generic types' identifiers is forbidden in template expressions, you can use identifiers of nullable types in the shorthand "`T?`" form.
 
 Also, the engine enables you to use anonymous types in template expressions. Such types are useful while composing expressions with grouping by multiple keys. See "Appendix A. Enumeration Extension Methods" for the examples.
+
+------ 
+
+## FAQ
+
+1. **Q:** Which types are allowed in LINQ Reporting Engine template expressions?  
+   **A:** Only *visible* public types whose outer types are also public can be used. The type must not be `void`, must not be an array, and cannot be a generic type (open or closed). Nullable types are allowed using the `T?` shorthand.
+
+2. **Q:** Can I reference a generic type (e.g., `List<T>`) inside a template expression?  
+   **A:** No. Generic types are prohibited in template expressions. If you need to work with collections, pass a non‑generic wrapper or use an anonymous type that contains the required data.
+
+3. **Q:** How do I use a nullable type in a template expression?  
+   **A:** Use the shorthand `T?` syntax. For example, if you have a nullable `int` property `Age?`, you can reference it directly as `Age?` in the expression.
+
+4. **Q:** Are anonymous types supported in template expressions?  
+   **A:** Yes. Anonymous types can be used, which is handy for grouping or projecting multiple keys without defining a dedicated class. They must still satisfy the visibility rules (public members).
+
+5. **Q:** What happens if I try to use an array type in a template expression?  
+   **A:** The engine will reject the expression because array types are not allowed. Convert the array to a collection type that meets the visibility requirements or expose the needed elements through a property.

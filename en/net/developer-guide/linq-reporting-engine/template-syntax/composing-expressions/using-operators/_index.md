@@ -51,3 +51,22 @@ The engine follows operator precedence, associativity, and overload resolution r
 - Whereas the object initializer syntax is supported (including objects of anonymous types), the collection initializer syntax is not.
 
 Also, the engine enables you to use lifted operators in template expressions. 
+
+------ 
+
+## FAQ
+
+1. **Q:** Which operators are available for use in LINQ Reporting Engine template expressions?  
+   **A:** The engine supports primary operators (`x.y`, `x?.y`, `f(x)`, `a[x]`, `a?[x]`, `new`), unary operators (`-`, `!`, `~`, `(T)x`), binary operators (`*`, `/`, `%`, `+`, `-`, `<<`, `>>`, `<`, `>`, `<=`, `>=`, `==`, `!=`, `&`, `^`, `|`, `&&`, `||`, `??`), and the ternary conditional operator (`?:`). Custom user‑defined operators can also be used if they are defined in the data model.
+
+2. **Q:** Can I use the null‑conditional operator (`?.`) inside a template expression?  
+   **A:** Yes, the null‑conditional operator is part of the primary operators supported by the engine, allowing safe navigation of potentially null objects in expressions.
+
+3. **Q:** Are implicit user‑defined conversions applied automatically in template expressions?  
+   **A:** No. Implicit user‑defined conversions are only applied when you explicitly cast the value in the expression. The engine does not perform automatic implicit conversions.
+
+4. **Q:** Is collection initializer syntax (e.g., `new List<int>{1,2,3}`) supported in template expressions?  
+   **A:** No. While object initializer syntax is supported (including anonymous types), collection initializer syntax is not recognized by the LINQ Reporting Engine.
+
+5. **Q:** How does the engine handle indexing of multi‑dimensional arrays?  
+   **A:** Indexing of multi‑dimensional arrays is not supported. You can only index single‑dimensional arrays or collections that expose an indexer.

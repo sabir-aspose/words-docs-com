@@ -51,7 +51,7 @@ The following example shows how to convert DOC to TIFF with configured options:
 
 A TIFF image can be saved in 1bpp b/w format by setting the [PixelFormat](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/pixelformat/) property to Format1bppIndexed pixel format type, and the [TiffCompression](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/tiffcompression/) property to either Ccitt3 or Ccitt4.
 
-For image segmentation, Aspose.Words uses the simplest method — thresholding. This method converts a gray-scale TIFF image into a binary image, using a threshold value. Therefore, when a document needs to be converted to the TIFF file format, it is possible to get or set the threshold for TIFF binarization via the [ThresholdForFloydSteinbergDithering](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdithering/) property. The default value for this property is set to 128, and the higher this value, the darker the image.
+For image segmentation, Aspose.Words uses the simplest method — thresholding. This method converts a gray‑scale TIFF image into a binary image, using a threshold value. Therefore, when a document needs to be converted to the TIFF file format, it is possible to get or set the threshold for TIFF binarization via the [ThresholdForFloydSteinbergDithering](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdithering/) property. The default value for this property is set to 128, and the higher this value, the darker the image.
 
 The following example shows how to perform TIFF binarization with a specified threshold:
 
@@ -60,3 +60,55 @@ The following example shows how to perform TIFF binarization with a specified t
 Below you can compare images on which TIFF binarization was performed at various threshold values:
 
 <img src="saving-a-document-as-a-multipage-tiff-1.jpg" alt="saving-a-document-as-a-multipage-tiff-aspose-words-net" style="width:800px"/>
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I convert a Word document to a multi‑page TIFF using C#?  
+   **A:** Load the document with `Document`, create an `ImageSaveOptions` instance, set `SaveFormat` to `Tiff`, and call `Save` with the desired file name. Aspose.Words automatically creates one TIFF page per document page.  
+
+   ```csharp
+   Document doc = new Document("input.docx");
+   ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
+   doc.Save("output.tiff", options);
+   ```
+
+2. **Q:** How can I control the resolution of the generated TIFF images?  
+   **A:** Set the `Resolution` property (or `HorizontalResolution` / `VerticalResolution`) on `ImageSaveOptions`. The value is in dots per inch (DPI). Higher DPI yields sharper images but larger file size.  
+
+   ```csharp
+   ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
+   options.Resolution = 300; // 300 DPI
+   doc.Save("highres.tiff", options);
+   ```
+
+3. **Q:** I only need pages 2‑4 of the document in the TIFF file. How can I export a page range?  
+   **A:** Use the `PageIndex` and `PageCount` properties of `ImageSaveOptions` to specify the first page (zero‑based) and the number of pages to render.  
+
+   ```csharp
+   ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
+   options.PageIndex = 1;   // start from page 2
+   options.PageCount = 3;   // pages 2,3,4
+   doc.Save("range.tiff", options);
+   ```
+
+4. **Q:** How do I create a black‑and‑white (1 bpp) TIFF with binarization?  
+   **A:** Set `PixelFormat` to `Format1bppIndexed`, choose a suitable `TiffCompression` (e.g., `Ccitt4`), and optionally adjust `ThresholdForFloydSteinbergDithering` to control the binarization threshold.  
+
+   ```csharp
+   ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
+   options.PixelFormat = PixelFormat.Format1bppIndexed;
+   options.TiffCompression = TiffCompression.Ccitt4;
+   options.ThresholdForFloydSteinbergDithering = 150; // 0‑255
+   doc.Save("bw.tiff", options);
+   ```
+
+5. **Q:** Which compression methods are available for TIFF, and how do I choose one?  
+   **A:** `ImageSaveOptions.TiffCompression` supports `None`, `Lzw`, `Ccitt3`, `Ccitt4`, and `Rle`. Use `Ccitt3` or `Ccitt4` for black‑and‑white images, `Lzw` for loss‑less color images, and `Rle` for simple run‑length encoding. Select the method that best balances file size and image quality for your scenario.  
+
+   ```csharp
+   ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
+   options.TiffCompression = TiffCompression.Lzw; // loss‑less color compression
+   doc.Save("compressed.tiff", options);
+   ```

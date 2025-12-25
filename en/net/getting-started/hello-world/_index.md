@@ -37,3 +37,35 @@ Below code snippet follows these steps:
 The following code snippet is a "Hello, World!" example to exhibit working of "Aspose.Words for .NET" API:
 
 {{< gist "aspose-words-gists" "542a463e1857480986d18ec296ed43d5" "hello-world.cs" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I apply my Aspose.Words license to avoid evaluation restrictions?  
+   **A:** Download the license file (`.lic`) from your Aspose account and set it before using any API calls:  
+
+   ```csharp
+   License license = new License();
+   license.SetLicense("Aspose.Words.lic");
+   ```  
+
+   This must be done once per application start‑up; otherwise you will receive a “License not set” exception.
+
+2. **Q:** Which file formats can I save the document to directly from the Hello World example?  
+   **A:** The `Document.Save` method supports all formats listed on the **Supported Document Formats** page, including PDF, DOCX, DOC, RTF, ODT, EPUB, HTML, and more. Specify the desired format by using the appropriate file extension, e.g., `document.Save("output.pdf");`.
+
+3. **Q:** How can I convert the created document to PDF without changing the code that writes the text?  
+   **A:** After building the document, simply call `Save` with a `.pdf` extension:  
+
+   ```csharp
+   Document doc = new Document();
+   DocumentBuilder builder = new DocumentBuilder(doc);
+   builder.Write("Hello, World!");
+   doc.Save("HelloWorld.pdf");
+   ```  
+
+   Aspose.Words automatically performs the conversion.
+
+4. **Q:** Why do I get a “File not found” error when the example tries to open an existing document?  
+   **A:** The `Document` constructor expects a valid path. Ensure the file exists relative to the application’s working directory or provide an absolute path. You can also verify the path with `System.IO.File.Exists(path)` before loading. If the file is embedded as a resource, load it via a stream instead of a file path.

@@ -416,7 +416,6 @@ await outputStream.CopyToAsync(outputFile);
 
 Console.WriteLine("Sensitivity label set to output file.");
 Console.WriteLine("App completed!");
-
 {{< /highlight >}}
 
 ## Execute the Created Example and Check the Result
@@ -431,3 +430,34 @@ As a result, the output file should be created with applied "Confidential.All Em
 ## See Also
 
 - The article [Work with a Document Stored in a `SharePoint` Online](/words/net/work-with-document-stored-in-sharepoint/)
+
+------ 
+
+## Troubleshoot
+
+1. **Problem:** The application throws *“License file not found”* or *“Invalid license”* when creating the `License` object.  
+   **Solution:** Verify that the path supplied to `License.SetLicense` points to a valid Aspose.Words license file and that the file is accessible to the process (correct permissions). Use an absolute path or copy the license file to the output directory and reference it like `@"C:\Licenses\Aspose.Words.lic"`.
+
+2. **Problem:** `labelsManager.RemoveLabel` returns `null` and the document remains encrypted, causing an *“File is protected and cannot be opened”* error.  
+   **Solution:** Ensure the Azure AD application has the required permissions (`Content.SuperUser`, `Content.Writer`, `UnifiedPolicy.Tenant.Read`). After granting admin consent, restart the console app so the new token includes the scopes. Also confirm that the input file is the exact file saved from the Word web app (the label must be present).
+
+3. **Problem:** The watermark added with `doc.Watermark.SetText` does not appear in the saved document.  
+   **Solution:** The `IsSemitrasparent` property is miss‑spelled; the correct property name is `IsSemitransparent`. Use:  
+
+   ```csharp
+   doc.Watermark.SetText("Watermark text",
+       new TextWatermarkOptions { Layout = WatermarkLayout.Diagonal, FontSize = 36, IsSemitransparent = true });
+   ```  
+
+   Re‑save the document after correcting the property.
+
+4. **Problem:** The final file cannot be opened in Office after the label is reapplied; Office shows *“The file is corrupted or unreadable.”*  
+   **Solution:** The `AssignmentMethod` must match the label’s allowed methods. For privileged labels, keep `AssignmentMethod.Privileged`. If the label requires a different method, retrieve it from the label metadata (`label.AssignmentMethod`). Also ensure the output stream’s position is reset before writing to the file:
+
+   ```csharp
+   outputStream.Position = 0;
+   using var outputFile = File.Create(outputFilePath);
+   outputStream.CopyTo(outputFile);
+   ```
+
+   This guarantees the full content is written.

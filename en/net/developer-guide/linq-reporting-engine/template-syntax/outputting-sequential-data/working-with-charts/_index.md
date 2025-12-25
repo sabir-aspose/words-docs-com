@@ -230,3 +230,27 @@ The following code example demonstrates how to set chart series names dynamicall
 You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Chart.docx).
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I include or exclude a chart series based on a condition?  
+   **A:** Use the `<<removeif [conditional_expression]>>` tag in the series name. The conditional expression must return a Boolean value; if it evaluates to true, the series is removed at runtime.
+
+2. **Q:** How do I set the color of a chart series dynamically?  
+   **A:** Add a `<<seriesColor [color_expression]>>` tag to the series name. The color expression can be a known color name, an HTML hex code, an integer RGB value, or a `System.Drawing.Color` object. The expression is evaluated at runtime and the tag is then removed.
+
+3. **Q:** Can I color individual points of a chart series dynamically?  
+   **A:** Yes, use the `<<pointColor [color_expression]>>` tag in the series name. This works for most chart types, but it is not supported for histogram and box‑and‑whisker charts, and only leaf points are colored for treemap and sunburst charts.
+
+4. **Q:** Which chart types are supported by the LINQ Reporting Engine?  
+   **A:** The engine supports column, line, pie, area, scatter, bubble, histogram, treemap, sunburst, box‑and‑whisker, and several other common chart types. Each type has specific requirements for the `x`, `y`, `x2`, `x3`, and `size` expressions.
+
+5. **Q:** What expressions should I use for `x`, `y`, and `size` tags?  
+   **A:**  
+   * `<<x>>` – Returns numeric for scatter/bubble/histogram, string for treemap/sunburst, or numeric/date/string for other charts.  
+   * `<<y>>` – Must return a numeric value for all chart types except histogram (where `y` is not used).  
+   * `<<size>>` – Used only with bubble charts and must return a numeric value representing the bubble size.  
+
+These FAQs address the most common questions users have when working with charts in Aspose.Words for .NET using the LINQ Reporting Engine.

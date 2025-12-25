@@ -77,3 +77,22 @@ After we have seen that an encrypted document cannot be opened without a passwor
 The following code example shows how to try opening an encrypted document with a password:
 
 {{< gist "aspose-words-gists" "af95c7a408187bb25cf9137465fe5ce6" "load-save-encrypted-document.cs" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I encrypt a Word document with a password in C#?  
+   **A:** Create the appropriate save options object for the target format (e.g., `DocSaveOptions` for DOC or `OoxmlSaveOptions` for DOCX) and set its `Password` property. Then call `Document.Save` with those options. The document will be saved encrypted and will require the password to open.
+
+2. **Q:** Which file formats support encryption when saving with Aspose.Words?  
+   **A:** Encryption is supported for DOC/DOT (RC4 40‑bit), DOCX/DOTX/DOCM/DOTM/FlatOPC families (ECMA‑376 AES‑128 + SHA‑1), ODT/OTT (AES‑256 + SHA‑256), and PDF (RC4 40/128‑bit). Formats such as RTF do not support encryption.
+
+3. **Q:** How can I determine whether a document is encrypted before loading it?  
+   **A:** Use `FileFormatInfo.IsEncrypted`. Pass a stream or file path to `FileFormatInfo` and check the `IsEncrypted` boolean. This lets you prompt the user for a password only when necessary.
+
+4. **Q:** What happens if I try to open an encrypted document without providing a password?  
+   **A:** Aspose.Words throws an `IncorrectPasswordException`. Catch this exception, inform the user that a password is required, and optionally request the password to retry loading the document.
+
+5. **Q:** Can I change the encryption algorithm of an already encrypted document?  
+   **A:** Yes. Load the document using the existing password, then save it again with new save options that specify a different `Password` and, if needed, a different encryption algorithm supported by the target format. This re‑encrypts the document using the new settings.

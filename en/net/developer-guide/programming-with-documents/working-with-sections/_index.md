@@ -168,3 +168,31 @@ The following code example shows how to modify the page properties in all sectio
 * [Logical Levels of Nodes in a Document](/words/net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
 * [Insert and Append Documents](/words/net/insert-and-append-documents/)
 
+------ 
+
+## FAQ
+
+1. **Q:** How can I insert a section break at a specific location in a document?  
+   **A:** Use `DocumentBuilder.InsertBreak` with the desired `BreakType`. Position the builder where you want the break, then call the method. The new section will inherit the formatting of the preceding section unless you modify its `PageSetup` afterwards.  
+
+   ```csharp
+   Document doc = new Document();
+   DocumentBuilder builder = new DocumentBuilder(doc);
+   builder.Writeln("First part of the document.");
+   builder.InsertBreak(BreakType.SectionBreakNewPage); // inserts a new section
+   builder.Writeln("Content of the new section.");
+   ```
+
+2. **Q:** How can I copy a section from one document into another document?  
+   **A:** Import the section node using `NodeImporter.ImportNode` with `ImportFormatMode.KeepSourceFormatting`. Then add the imported node to the target document’s `Sections` collection.  
+
+   ```csharp
+   Document source = new Document("Source.docx");
+   Document target = new Document();
+
+   Section sourceSection = source.Sections[0];
+   Section importedSection = (Section)target.ImportNode(sourceSection, true);
+   target.Sections.Add(importedSection);
+
+   target.Save("Target.docx");
+   ```

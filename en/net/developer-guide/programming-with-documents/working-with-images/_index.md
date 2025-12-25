@@ -113,3 +113,22 @@ Aspose.Words provides functionality to save all the available images in a docume
 The following code example shows how to save images as WMF with RTF save options:
 
 {{< gist "aspose-words-gists" "6f849e51240635a6322ab0460938c922" "saving-images-as-wmf.cs" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** How can I insert an image from a stream instead of a file path?  
+   **A:** Use the `DocumentBuilder.InsertImage(Stream)` overload. Create a `FileStream` or `MemoryStream` that contains the image bytes, then call `InsertImage(stream)`. The method returns a `Shape` object that you can further modify (e.g., set size or position).
+
+2. **Q:** How do I add the same barcode image to every page of a document?  
+   **A:** Insert the barcode into the header or footer of each section. Move the builder to the desired header/footer with `MoveToHeaderFooter(HeaderFooterType.HeaderPrimary)` (or the appropriate type) and call `InsertImage(barcodeImage)`. Repeat for each section or use `MoveToSection` to apply it across the document.
+
+3. **Q:** How can I lock the aspect ratio of an inserted image so it isn’t distorted when resized?  
+   **A:** After inserting the image, set the `ShapeBase.AspectRatioLocked` property to `true`. This forces the width and height to scale proportionally whenever you change the shape’s size.
+
+4. **Q:** How do I extract all images from a Word document and save them as separate files?  
+   **A:** Iterate through all `Shape` nodes using `Document.GetChildNodes(NodeType.Shape, true)`. For each shape where `HasImage` is `true`, access `shape.ImageData` and call `Save(filePath)`. The image is saved in its original format.
+
+5. **Q:** How can I crop an image that is already placed in a Word document?  
+   **A:** Use the `Shape.ImageData.CropTop`, `CropBottom`, `CropLeft`, and `CropRight` properties (values are in points) to define the crop area. Adjust these properties as needed before saving or rendering the document.

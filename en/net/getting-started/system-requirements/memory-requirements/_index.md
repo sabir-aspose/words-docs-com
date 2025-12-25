@@ -61,3 +61,22 @@ If your profiling results indicate a possible memory issue in Aspose.Words, plea
 * [Rendering](/words/net/rendering/)
 * [Mail Merge and Reporting](/words/net/mail-merge-and-reporting/)
 * [Working with Fields](/words/net/working-with-fields/)
+
+------ 
+
+## FAQ
+
+1. **Q:** How much memory does Aspose.Words typically need to load a document?  
+   **A:** Aspose.Words usually requires several times the size of the source file. For a 1 MB document, expect roughly 10–20 MB of RAM to build the DOM, though the exact multiplier depends on the format and document complexity.
+
+2. **Q:** Why can two documents of the same file size consume very different amounts of memory?  
+   **A:** Memory usage depends on factors such as the internal structure of the format (e.g., DOCX vs. RTF), the number and size of embedded objects (images, charts), and the complexity of styles and fields. A text‑only DOCX will need far less memory than a DOCX containing large images.
+
+3. **Q:** How can I estimate the memory required for a specific document before processing it?  
+   **A:** Unzip the document (if it’s a ZIP‑based format like DOCX) and examine the uncompressed size. Multiply the uncompressed size by a factor of 2–20 based on the operation you plan to perform (simple conversion vs. rendering). This gives a rough upper bound for RAM needs.
+
+4. **Q:** Which operations cause the highest memory consumption in Aspose.Words?  
+   **A:** Rendering to fixed‑page formats (PDF, XPS), updating fields, and splitting large documents are the most memory‑intensive, often requiring up to 20 × the base DOM memory. Simple tasks such as mail‑merge, find/replace, or format conversion usually stay within a lower multiplier range.
+
+5. **Q:** What can I do to reduce memory usage when processing large documents?  
+   **A:** Process documents in smaller chunks (e.g., split before rendering), dispose of `Document` objects promptly, and use 64‑bit processes with ample RAM. Monitoring with Visual Studio’s memory profiler can help identify unexpected allocations, and you can also adjust the .NET garbage collector settings if needed.

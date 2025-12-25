@@ -123,3 +123,21 @@ If you do not use Mail Merge regions, then it will be similar to Microsoft Word 
 
 {{% /alert %}}
 
+------ 
+
+## FAQ
+
+1. **Q:** What is the main difference between simple Mail Merge and Mail Merge with regions?  
+   **A:** Simple Mail Merge fills merge fields in the whole document and repeats the entire document for each record. Mail Merge with regions repeats only the content inside defined regions (TableStart/TableEnd) for each record, allowing parts of the document to grow dynamically while the rest stays unchanged.
+
+2. **Q:** How can I create a separate merged document for every row in my data source?  
+   **A:** Load the template, execute the simple Mail Merge for a single record, then clone the document (or reload the template) and repeat the operation for each subsequent record. Save each resulting `Document` instance with a unique file name.
+
+3. **Q:** What are the requirements for defining a Mail Merge region?  
+   **A:** A region must have a start field named `TableStart:RegionName` and an end field named `TableEnd:RegionName`. Both fields must reside in the same row or cell, and the field names must exactly match the column names in the corresponding `DataTable`.
+
+4. **Q:** Can I nest Mail Merge regions, and will they work correctly?  
+   **A:** Yes, you can nest regions by placing a child region’s start and end fields inside the parent region’s boundaries. The inner region will be repeated for each parent record, enabling hierarchical data structures such as orders with line items.
+
+5. **Q:** Why does an empty paragraph appear after a merge field, and how can I remove it?  
+   **A:** Aspose.Words treats a paragraph that contains only a merge field as a separate paragraph. If the field is removed during merging, the empty paragraph remains. Use `DocumentBuilder.MoveToMergeField("FieldName")` followed by `DocumentBuilder.RemoveParagraph()` to delete the unwanted paragraph after the merge.

@@ -84,3 +84,22 @@ To output every item into a separate table row, which text is colored dynamicall
 </table>
 
 **Note** – Start and end `textColor` tags can be located either in paragraphs of a single story (or table cell) or in rows of a single document table in the same way as `foreach` tags.
+
+------ 
+
+## FAQ
+
+1. **Q:** What color value formats are accepted by the `textColor` tag?  
+   **A:** The tag accepts a string with a known color name (e.g., “Red”), a string with an HTML hex code (e.g., “#F08080”), an integer representing an RGB value (e.g., `0xFFFF00`), or a .NET `Color` object.
+
+2. **Q:** Can the `textColor` tag be used inside tables or across different cells of the same row?  
+   **A:** Yes. The opening and closing tags may appear in different cells of the same table row or in different paragraphs of the same story, just like `foreach` tags.
+
+3. **Q:** What happens if the text already has a font color applied before the `textColor` tag is evaluated?  
+   **A:** Existing color attributes are left unchanged; the `textColor` tag only colors text that does not already have a color set.
+
+4. **Q:** Is it possible to nest `textColor` tags or combine them with other template tags such as `if` or `foreach`?  
+   **A:** Absolutely. `textColor` tags can be nested and placed inside `if`, `foreach`, or any other conditional block. Each tag is evaluated independently at runtime.
+
+5. **Q:** How can I pass a `Color` value from my data model to the `textColor` tag?  
+   **A:** Ensure the expression returns a `System.Drawing.Color` instance (e.g., `item.Color`). The tag will use that value directly to color the enclosed text.

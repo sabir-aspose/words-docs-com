@@ -58,3 +58,23 @@ The following code example shows how to delete all characters of a range:
 You can download the sample file of this example from [Aspose.Words GitHub](ttps://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I retrieve the plain text of a specific part of a document using a Range?  
+   **A:** Obtain the node that represents the part you are interested in (e.g., a paragraph), then use its `Range.Text` property. The property returns the unformatted text contained in that range.  
+
+2. **Q:** How do I delete a portion of text within a document with a Range?  
+   **A:** Identify the node that encloses the text you want to remove and call `Delete()` on its `Range`. This clears all characters inside the range while keeping the node itself in the document tree.  
+
+3. **Q:** How can I replace text inside a Range?  
+   **A:** Use the `Replace` method of the `Range` class, providing the text to find and the replacement text. The operation works on the raw text of the range, preserving the original formatting of the surrounding nodes.  
+
+   ```csharp
+   Document doc = new Document("Input.docx");
+   Range range = doc.Range; // whole document
+   range.Replace("old value", "new value", new FindReplaceOptions(FindReplaceDirection.Forward));
+   doc.Save("Replaced.docx");
+   ```
