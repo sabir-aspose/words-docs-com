@@ -1,17 +1,17 @@
----
-title: Installation
-second_title: Aspose.Words for .NET
-articleTitle: Installation
-linktitle: Installation
-description: "Install Aspose.Words for .NET using Visual Studio tools such as Manage NuGet Packages or Package Manager Console and the MSI installer. Use the Full Trust permission set in C#."
-type: docs
-weight: 10
-ai_search_scope: words_net
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
-ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /net/installation/
-timestamp: 2024-01-27-14-07-04
----
+---  
+title: Installation  
+second_title: Aspose.Words for .NET  
+articleTitle: Installation  
+linktitle: Installation  
+description: "Install Aspose.Words for .NET using Visual Studio tools such as Manage NuGet Packages or Package Manager Console and the MSI installer. Use the Full Trust permission set in C#."  
+type: docs  
+weight: 10  
+ai_search_scope: words_net  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"  
+url: /net/installation/  
+timestamp: 2024-01-27-14-07-04  
+---  
 
 {{% alert color="grey" %}}
 
@@ -88,3 +88,22 @@ Internet Service Providers hosting multiple applications from different companie
 - **FileIOPermission** is restricted. This means that you can only access files in your application’s virtual directory hierarchy. This also potentially means fonts cannot be read during export.
 
 For these reasons specified above, it is recommended to run Aspose.Words with Full Trust permissions. You may find that some of library features will work when performing different tasks with Medium trust, and some will not, for example, rendering. This can be related to GDI+ image processing calls.
+
+------  
+
+## FAQ
+
+1. **Q:** How do I apply my Aspose.Words license after installing the library?  
+   **A:** Add the license file (e.g., `Aspose.Words.lic`) to your project and load it at runtime with `License license = new License(); license.SetLicense("Aspose.Words.lic");`. This should be done before any Aspose.Words API calls to ensure the evaluation mode is disabled.
+
+2. **Q:** Are licenses from newer Aspose.Words versions compatible with older library versions?  
+   **A:** Yes. Aspose licenses are generally backward compatible; a license generated for a newer version works with older versions of Aspose.Words. However, features introduced after the older version will not be available.
+
+3. **Q:** Do I need to reinstall the license when I update Aspose.Words via NuGet?  
+   **A:** No. The license file is part of your application, not the NuGet package. After updating the package, keep the same license file in your project and continue loading it as before.
+
+4. **Q:** Why does Aspose.Words require Full Trust, and can I run it under Medium Trust?  
+   **A:** Full Trust is needed for operations that access the registry (font enumeration) and the file system outside the application folder. Under Medium Trust, some features—especially rendering to images or PDFs—may fail. If you must use Medium Trust, limit operations to those that do not require external resources.
+
+5. **Q:** What should I do if the installer does not add the assemblies to the GAC or Visual Studio reference list?  
+   **A:** Manually add a reference to the installed DLLs (e.g., `Aspose.Words.dll`) by right‑clicking the project → *Add Reference* → *Browse* to the installation folder. Ensure the target framework of your project matches the DLL version.

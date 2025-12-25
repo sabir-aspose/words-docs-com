@@ -39,3 +39,19 @@ In this case, the engine produces a report as follows.
 | :---------- | :--------------- | :---------- |
 | **E Corp.** | **F & Partners** | **G & Co.** |
 | **H Group** | **I & Sons**     | **J Ent.**  |
+
+---
+
+## FAQ
+
+1. **Q:** What does the `next` tag do inside a data band?  
+   **A:** The `next` tag tells the reporting engine to move the cursor to the next column (or cell) of the current data band row before inserting the following field value. It enables you to place multiple items from the same data source into separate columns of a single row.
+
+2. **Q:** How many `next` tags can I place in one row?  
+   **A:** You can use as many `next` tags as there are columns in the row. Each `next` advances the cursor by one column, so the number of `next` tags should not exceed the number of columns you have defined in the table row.
+
+3. **Q:** Can the `next` tag be combined with other template tags such as `if` or `foreach`?  
+   **A:** Yes. The `next` tag works together with other tags. For example, you can wrap a series of `next`‑separated fields inside a `foreach` loop, or place an `if` condition before a `next` to output a value only when a condition is met.
+
+4. **Q:** Why does the `next` tag sometimes appear to be ignored and all data ends up in the first column?  
+   **A:** This usually happens when the table row does not contain enough cells to accommodate the `next` movements, or when the template syntax is malformed (e.g., missing closing `>>`). Ensure the HTML table row has a `<td>` element for each `next` you use and that all tags are correctly closed. Also verify that the data source actually contains enough items for the loop.

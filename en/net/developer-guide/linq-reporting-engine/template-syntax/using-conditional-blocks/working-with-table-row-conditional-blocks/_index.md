@@ -266,3 +266,22 @@ In this case, the engine produces a report as follows.
 | **Footer** |
 
 **Note** – In the previous examples, tag `<<if [false]>>` is used for the sake of simplicity; you can use any other Boolean expression instead of just `false`.
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I write an IF condition inside a table‑row conditional block?  
+   **A:** Use the `<<if [condition]>>` syntax where *condition* is any Boolean expression that can reference fields of the current data source, e.g., `<<if [Country == "New Zealand"]>>`. Close the block with `<< /if>>`. The block’s rows will be rendered only when the condition evaluates to true.
+
+2. **Q:** What is the purpose of the `-greedy` switch?  
+   **A:** When the opening and closing IF tags are placed in the same table cell, the engine treats the block as a common conditional block by default. Adding `-greedy` (e.g., `<<if [false]>> … << /if -greedy>>`) forces the engine to treat it as a table‑row conditional block, so the entire row is considered part of the condition.
+
+3. **Q:** Can I nest a data band inside a table‑row conditional block?  
+   **A:** Yes. You can place a `<<foreach>>` or other data band inside the body of a table‑row conditional block. This is useful for showing alternate content when the enumeration is empty, as demonstrated in the “No data” example.
+
+4. **Q:** Are table‑row conditional blocks allowed inside table‑column data bands?  
+   **A:** No. Nesting a table‑row conditional block inside a table‑column data band or another conditional block is prohibited. Only table‑column data bands and conditional blocks may be nested inside a table‑row conditional block.
+
+5. **Q:** How can I display a message when the data source for a table‑row block is empty?  
+   **A:** Use an IF condition that checks the enumeration, e.g., `<<if [!clients.Any()]>>No data<<else>>` followed by the normal `<<foreach>>` loop. The “No data” row will be rendered only when the collection is empty.

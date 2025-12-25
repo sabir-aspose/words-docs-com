@@ -64,3 +64,22 @@ In Aspose.Words, you can also add a table title and description using the [Title
 The following code example shows how to set the title and description properties of a table:
 
 {{< gist "aspose-words-gists" "458eb4fd5bd1de8b06fab4d1ef1acdc6" "table-title-and-description.cs" >}}
+
+---
+
+## FAQ
+
+1. **Q:** How can I replace a specific string in all cells of a table?  
+   **A:** Retrieve the table’s `Range` object and call `Range.Replace("oldText", "newText")`. This operation scans every cell, paragraph, and run within the table and substitutes the matching text.
+
+2. **Q:** How do I extract plain text from an entire table versus a single cell?  
+   **A:** For the whole table, use `Table.Range.Text`. For a particular cell, access `Cell.Range.Text`. Both properties return the textual content without any formatting or markup.
+
+3. **Q:** Can I replace text with line breaks or multiple paragraphs inside a cell?  
+   **A:** Yes. Include the special metacharacters `\r` (paragraph break) and `\v` (line break) in the replacement string when calling `Range.Replace`. Aspose.Words will insert the appropriate breaks during the replacement.
+
+4. **Q:** How can I add a title or description to a table for accessibility purposes?  
+   **A:** Set the `Table.Title` and `Table.Description` properties. These are stored in the DOCX file according to the ISO/IEC 29500 standard and are ignored when saving to older Word formats.
+
+5. **Q:** I need to replace text but keep the original formatting; how can I achieve that?  
+   **A:** Use `Range.Replace` together with a `FindReplaceOptions` object where `PreserveFormatting` is set to `true`. This ensures that only the text changes while the original font, style, and other formatting remain intact.

@@ -37,3 +37,22 @@ After the code is run, on attempt to access any member of types `SomeClass1` and
 Restricted types can be set only before building the very first report. Once restricted types are checked for the first time while building a report, they cannot be changed after that and an exception is thrown on attempt to do this. That is why, the recommended place to set restricted types is your application’s startup.
 
 **Note** – To determine whether access to a particular type member should be restricted, some reflective calls are done by the engine under the hood, so for better performance, it is recommended to keep the set of restricted types minimal by restricting access to members of only those types that are crucial in terms of security.
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I restrict access to specific type members in the Reporting Engine?  
+   **A:** Call `ReportingEngine.SetRestrictedTypes` and pass the `Type` objects of the classes whose members must be hidden. This method must be invoked before any report is built.
+
+2. **Q:** When is the appropriate time to call `SetRestrictedTypes`?  
+   **A:** It should be executed during application startup, before the first report generation, because the restriction list is locked after the engine processes the first template.
+
+3. **Q:** What happens if a template tries to use a restricted member?  
+   **A:** By default the engine throws a syntax‑error exception, indicating that the member is unavailable. If the engine is configured to allow missing members, the restricted member is treated as `null` instead of throwing.
+
+4. **Q:** Can I modify the list of restricted types after a report has been built?  
+   **A:** No. Once the engine has validated the restricted types during the first report build, any subsequent attempt to change the list results in an exception.
+
+5. **Q:** Does the restriction also apply to classes derived from a restricted type?  
+   **A:** Yes. All members of derived classes are automatically treated as restricted, providing consistent protection across the inheritance hierarchy.

@@ -51,3 +51,19 @@ engine.BuildReport(...);
 {{< /highlight >}}
 
 **Note –** The message can be printed only instead of a template expression that represents a plain reference to a missing member of an object like in the provided template example; for instance, the message is not used when printing the result of a binary operator, one of which operands references a missing object member.
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I enable the LINQ Reporting Engine to ignore missing members?  
+   **A:** Set the `ReportBuildOptions.AllowMissingMembers` flag on the engine’s `Options` property before calling `BuildReport`. This tells the engine to treat missing members as null literals instead of throwing an exception.
+
+2. **Q:** What is the result of a template expression that references a missing member when `AllowMissingMembers` is enabled?  
+   **A:** The engine substitutes the missing member with a null literal, so the expression produces no output and the report generation continues without errors.
+
+3. **Q:** Can I display a custom message instead of an empty value for missing members?  
+   **A:** Yes. Assign a string to `engine.MissingMemberMessage`. The specified message will be written to the report whenever a plain reference to a missing member is encountered.
+
+4. **Q:** Does the custom missing‑member message work for expressions that use the missing member in calculations or concatenations?  
+   **A:** No. The custom message is applied only to plain member references. If the missing member participates in a binary operator (e.g., arithmetic or string concatenation), the engine still treats it as null, and the expression evaluates accordingly.

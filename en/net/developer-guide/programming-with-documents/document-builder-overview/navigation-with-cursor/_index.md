@@ -92,3 +92,21 @@ You can move to a specific section or paragraph by using the [MoveToParagraph](h
 The following code example shows how to move to a specific section and a specific paragraph in a document:
 
 {{< gist "aspose-words-gists" "1a2c340d1a9dde6fe70c2733084d9aab" "move-to-section.cs" >}}
+
+------  
+
+## FAQ
+1. **Q:** How can I obtain the node where the cursor is currently positioned?  
+   **A:** Use the `DocumentBuilder.CurrentNode` property. It returns the node that the builder is positioned before. If the cursor is at the start of an empty paragraph, the property returns `null`. You can also retrieve the current paragraph or section via `CurrentParagraph` and `CurrentSection`.
+
+2. **Q:** How do I move the cursor to a specific bookmark?  
+   **A:** Call `DocumentBuilder.MoveToBookmark("BookmarkName")`. Ensure the bookmark exists; you can create one with `DocumentBuilder.StartBookmark("BookmarkName")` and `DocumentBuilder.EndBookmark("BookmarkName")`.
+
+3. **Q:** How can I navigate to the header or footer of a particular section?  
+   **A:** Use `DocumentBuilder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary)` or `HeaderFooterType.FooterPrimary`. If you need to target a specific section, set `DocumentBuilder.CurrentSection` first or pass the section index to the method overload.
+
+4. **Q:** How do I move the cursor to a cell inside a table?  
+   **A:** Use `DocumentBuilder.MoveToCell(table, rowIndex, columnIndex)`. Optionally, provide a character offset within the cell to place the cursor at a precise position.
+
+5. **Q:** How can I move the cursor to the beginning or the end of the document?  
+   **A:** Call `DocumentBuilder.MoveToDocumentStart()` to place the cursor at the very start, or `DocumentBuilder.MoveToDocumentEnd()` to place it at the end of the document.

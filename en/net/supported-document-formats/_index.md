@@ -74,3 +74,22 @@ The following table indicates the input and output file formats supported by Asp
 | [`JPEG`](https://docs.fileformat.com/image/jpeg/) | Renders a page of the document and saves it as a JPEG file |  | {{< emoticons/tick >}} |  |
 | [`GIF`](https://docs.fileformat.com/image/gif/) | Renders a page of the document and saves it as a GIF file |  | {{< emoticons/tick >}} |  |
 | WebP | Google image compression format |  | {{< emoticons/tick >}} |  |
+
+------ 
+
+## FAQ
+
+1. **Q:** Which file formats can Aspose.Words for .NET load (import)?
+   **A:** Aspose.Words can load Word‑processing formats such as DOC, DOT, DOCX, DOCM, DOTX, DOTM, FlatOpc variants, XML, RTF, WordML, HTML, MHTML, ODT, OTT, TXT, MD, PDF, EPUB, MOBI, AZW3, CHM, and several e‑book formats. Loading is indicated by a tick (✔) in the “Load” column of the table.
+
+2. **Q:** Which file formats can Aspose.Words for .NET save (export)?
+   **A:** The library can save to all formats that have a tick in the “Save” column, including the same Word‑processing formats as for loading plus additional output formats such as XLSX, EPS, XPS, XamlFixed, SVG, HtmlFixed, OpenXps, PS, PCL, TIFF, PNG, BMP, EMF, JPEG, GIF, WebP, and others listed in the table.
+
+3. **Q:** Can I convert a DOCX document directly to PDF using Aspose.Words for .NET?
+   **A:** Yes. Load the DOCX file (supported for loading) and then call `Document.Save("output.pdf", SaveFormat.Pdf);`. The conversion is performed entirely in memory without needing intermediate files.
+
+4. **Q:** Why does the table show XLSX as a save‑only format?
+   **A:** Aspose.Words does not interpret spreadsheet data, so it cannot load XLSX files. However, it can export a Word document’s tabular content to an XLSX workbook, which is why only the “Save” column is ticked.
+
+5. **Q:** Are there any limitations when saving to image formats such as PNG or JPEG?
+   **A:** Image formats are raster outputs; they render each page as a separate image. Complex layouts, very high‑resolution documents, or documents with many pages may result in large image files or increased memory usage. Use the `ImageSaveOptions` class to control resolution, page range, and other settings.

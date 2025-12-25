@@ -140,3 +140,37 @@ Please note that below are the most popular conversion combinations, and not eve
 			</ul>
 	</div>
 </div>
+
+------ 
+
+## FAQ
+
+1. **Q:** Do I need a license to convert documents with Aspose.Words for .NET?  
+   **A:** No, you can perform conversions using the free evaluation version, but the output will contain a watermark. To remove the watermark and unlock all features, apply a valid Aspose.Words license using `License license = new License(); license.SetLicense("Aspose.Words.lic");`.
+
+2. **Q:** Which file formats can I load and save with Aspose.Words?  
+   **A:** Aspose.Words supports over 100 formats. Loading is governed by the `LoadFormat` enumeration (e.g., DOC, DOCX, ODT, RTF, HTML, MHTML, TXT, MD). Saving uses the `SaveFormat` enumeration (e.g., PDF, XPS, EPUB, HTML, MHTML, PNG, JPEG, TIFF, DOCX, DOC). See the **Supported Document Formats** page for the full list.
+
+3. **Q:** How can I convert a document that is stored in a `Stream`?  
+   **A:** Use the `Document` constructor that accepts a `Stream`, then call `Save` with the desired format. Example:  
+
+   ```csharp
+   using (FileStream inputStream = File.OpenRead("input.docx"))
+   {
+       Document doc = new Document(inputStream);
+       using (FileStream outputStream = File.Create("output.pdf"))
+       {
+           doc.Save(outputStream, SaveFormat.Pdf);
+       }
+   }
+   ```
+
+4. **Q:** How do I create a PDF that complies with PDF/A or PDF/UA standards?  
+   **A:** Use `PdfSaveOptions` and set the appropriate compliance property before saving. Example:  
+
+   ```csharp
+   Document doc = new Document("input.docx");
+   PdfSaveOptions options = new PdfSaveOptions();
+   options.Compliance = PdfCompliance.PdfA1b;   // or PdfCompliance.PdfUa
+   doc.Save("output.pdf", options);
+   ```

@@ -44,3 +44,15 @@ You can also use the [DuplicateStyle](https://reference.aspose.com/words/net/asp
 The following code example shows how to remove duplicate styles from a document:
 
 {{< gist "aspose-words-gists" "669f3d08f45b14f75f9d2cb17fa1056a" "cleanup-duplicate-style.cs" >}}
+
+------  
+
+## FAQ
+1. **Q:** How can I remove only the unused styles from a document?  
+   **A:** Create a `CleanupOptions` instance, set `UnusedStyles` to `true`, and call `document.Cleanup(options)`. This removes styles that are not applied anywhere in the document while leaving used styles intact.
+
+2. **Q:** What is the difference between `UnusedBuiltinStyles` and `UnusedStyles`?  
+   **A:** `UnusedBuiltinStyles` targets the built‑in Word styles (e.g., Normal, Heading 1) that are not used, whereas `UnusedStyles` applies to custom styles defined in the document. Enabling both removes all unused style definitions.
+
+3. **Q:** Can I clean up duplicate styles in a single operation?  
+   **A:** Yes. Set the `DuplicateStyle` property of `CleanupOptions` to `true` and invoke `document.Cleanup(options)`. Aspose.Words will replace duplicate style definitions with a single original style and delete the duplicates.

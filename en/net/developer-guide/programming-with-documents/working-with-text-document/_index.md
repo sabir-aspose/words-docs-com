@@ -85,3 +85,22 @@ The following code example shows how to export list levels using tab characters:
 The following code example shows how to export list levels using space characters:
 
 {{< gist "aspose-words-gists" "ddafc3430967fb4f4f70085fa577d01a" "use-space-for-list-indentation.cs" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I add bi‑directional marks when saving a TXT file?  
+   **A:** Set `TxtSaveOptions.AddBidiMarks` to `true` before calling `Document.Save`. This inserts the Unicode RIGHT‑TO‑LEFT MARK (U+200F) before each RTL run, matching the “Add bi‑directional marks” option in Word.
+
+2. **Q:** Which option controls list detection while loading a plain‑text file?  
+   **A:** Use `TxtLoadOptions.DetectNumberingWithWhitespaces`. When set to `true`, whitespaces are treated as delimiters for numbered lists; when `false`, only dots, brackets or bullet symbols are recognized.
+
+3. **Q:** How do I preserve leading and trailing spaces when importing a TXT document?  
+   **A:** Configure `TxtLoadOptions` properties `LeadingSpacesOptions` and `TrailingSpacesOptions` before loading the document.
+
+4. **Q:** Can I export headers and footers to a plain‑text file?  
+   **A:** Yes. Set `TxtSaveOptions.ExportHeadersFootersMode` to `ExportHeadersFootersMode.All` (or `PrimaryOnly`) to include header/footer text in the saved TXT output.
+
+5. **Q:** How can I control indentation of list levels in the exported TXT?  
+   **A:** Create a `TxtListIndentation` instance, set its `Character` (e.g., `'\t'` for tabs or `' '` for spaces) and `Count` (number of characters per level), then assign it to `TxtSaveOptions.ListIndentation`.

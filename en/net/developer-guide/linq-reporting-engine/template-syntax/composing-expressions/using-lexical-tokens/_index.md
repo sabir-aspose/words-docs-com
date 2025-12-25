@@ -42,3 +42,22 @@ You can use the following identifiers that are not preceded by a member access o
   - Outside a data band body, the object is resolved to a passed data source.
 
 The feature of the omitting of an object identifier while accessing the object’s members is also known as the contextual object member access. See “Using Contextual Object Member Access” for more information.
+
+------ 
+
+## FAQ
+
+1. **Q:** Which keywords are reserved in template expressions?  
+   **A:** Only `true`, `false`, `null`, `new`, and `in` are treated as reserved keywords. All other identifiers can be used freely.
+
+2. **Q:** Can I escape a reserved keyword with the “@” character in a template expression?  
+   **A:** No. The “@” keyword‑escaping syntax that exists in C# is not supported in Aspose.Words template expressions. Use a different identifier name instead.
+
+3. **Q:** Are Unicode escape sequences allowed in identifiers?  
+   **A:** No. Identifiers must be written using literal Unicode characters; escape sequences such as `\uXXXX` are not permitted.
+
+4. **Q:** How do I access a member of the current data object without writing the object name?  
+   **A:** Use contextual object member access. Inside a data band the engine resolves the member to the innermost iteration variable; outside a data band it resolves to the passed data source object.
+
+5. **Q:** Where can I find the list of operators that are valid in template expressions?  
+   **A:** The supported operators are documented in the “Using Operators” section of the reporting engine guide. Common arithmetic (`+`, `-`, `*`, `/`), comparison (`==`, `!=`, `<`, `>`, `<=`, `>=`), logical (`&&`, `||`, `!`) and other operators are available there.

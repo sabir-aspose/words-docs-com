@@ -129,3 +129,29 @@ The same functionality can be applied to selective paragraphs only. To achieve t
 {{< /highlight >}}
 
 For a tag with its name prepended with an exclamation mark, the engine treats a corresponding paragraph or paragraphs as if `ReportBuildOptions.RemoveEmptyParagraphs` was applied. For the rest of tags, the engine behaves as if `ReportBuildOptions.RemoveEmptyParagraphs` was not applied.
+
+------  
+
+## FAQ
+1. **Q:** How do I enable automatic removal of empty paragraphs that contain only template tags?  
+   **A:** Set the `ReportBuildOptions.RemoveEmptyParagraphs` flag on the `ReportingEngine.Options` property before building the report. Example:  
+   ```csharp
+   ReportingEngine engine = new ReportingEngine();
+   engine.Options |= ReportBuildOptions.RemoveEmptyParagraphs;
+   engine.BuildReport(...);
+   ```
+
+2. **Q:** Can I apply the empty‑paragraph removal to only specific tags instead of the whole document?  
+   **A:** Yes. Prefix the tag name with an exclamation mark (`!`) in the template. The engine will treat paragraphs containing those tags as empty and remove them, while leaving other tags unaffected. Example: `<<!foreach [in persons]>>`.
+
+3. **Q:** Why does a paragraph remain after I enabled `RemoveEmptyParagraphs`?  
+   **A:** The paragraph may contain invisible characters such as spaces, tabs, or line‑breaks besides the tag. The option removes a paragraph only when it consists solely of the tag (or tag with an exclamation mark). Remove any extra whitespace from the template to allow the paragraph to be deleted.
+
+4. **Q:** Can `ReportBuildOptions.RemoveEmptyParagraphs` be combined with other `ReportBuildOptions`?  
+   **A:** Absolutely. Use the bitwise OR operator to combine multiple options, e.g.,  
+   ```csharp
+   engine.Options |= ReportBuildOptions.RemoveEmptyParagraphs | ReportBuildOptions.PreserveFormFields;
+   ```
+
+5. **Q:** Does the empty‑paragraph removal affect tables or other container elements?  
+   **A:** The option works at the paragraph level. If a table cell contains only a tag that becomes empty, the entire paragraph (and thus the cell content) is removed, which may collapse the row if it becomes empty. It does not delete the table structure itself.

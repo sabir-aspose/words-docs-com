@@ -74,3 +74,40 @@ Use text shaping for document processing in the following main cases:
 Text shaping will be enabled only when exporting a document to PDF or XPS.
 
 {{% /alert %}}
+
+------  
+
+## FAQ
+
+1. **Q:** How can I make hidden text visible in the rendered document?  
+   **A:** Set the `ShowHiddenText` property of `LayoutOptions` to `true`. This tells Aspose.Words to render hidden text when the document is saved or exported. Example:  
+
+   ```csharp
+   Document doc = new Document("input.docx");
+   LayoutOptions layout = doc.LayoutOptions;
+   layout.ShowHiddenText = true;
+   doc.Save("output.pdf");
+   ```
+
+2. **Q:** My revisions are not appearing in the output; how do I display them?  
+   **A:** Enable revision rendering by configuring `RevisionOptions` and, if desired, `CommentDisplayMode`. Set `RevisionOptions.ShowRevisions` to `true` and choose how revisions are shown (e.g., as balloons). Example:  
+
+   ```csharp
+   Document doc = new Document("tracked.docx");
+   LayoutOptions layout = doc.LayoutOptions;
+   layout.RevisionOptions.ShowRevisions = true;
+   layout.CommentDisplayMode = CommentDisplayMode.ShowInBalloons;
+   doc.Save("tracked_output.pdf");
+   ```
+
+3. **Q:** How do I enable proper rendering of complex scripts and OpenType features?  
+   **A:** Assign a text shaper to `LayoutOptions.TextShaperFactory`. The default shaper handles most cases, but you can specify a custom one if needed. Example:  
+
+   ```csharp
+   Document doc = new Document("complex_script.docx");
+   LayoutOptions layout = doc.LayoutOptions;
+   layout.TextShaperFactory = TextShaperFactory.Default;
+   doc.Save("complex_output.pdf");
+   ```
+
+------  

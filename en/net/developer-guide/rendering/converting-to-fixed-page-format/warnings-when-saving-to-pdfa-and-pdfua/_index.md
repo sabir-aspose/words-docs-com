@@ -1,17 +1,17 @@
----
-title: Warnings When Saving to PDF/A and PDF/UA
-second_title: Aspose.Words for .NET
-articleTitle: Accessibility Issue Warnings When Saving to PDF/A and PDF/UA
-linktitle: Accessibility Issue Warnings When Saving to PDF/A and PDF/UA
-description: "PDF/A and PDF/UA impose accessibility requirements related to document content. When saving to PDF/A or PDF/UA in C# and the issue violates compliance, a warning is issued."
-type: docs
-weight: 29
-ai_search_scope: words_net
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
-ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /net/warnings-when-saving-to-pdfa-and-pdfua/
-timestamp: 2024-01-27-14-07-04
----
+---  
+title: Warnings When Saving to PDF/A and PDF/UA  
+second_title: Aspose.Words for .NET  
+articleTitle: Accessibility Issue Warnings When Saving to PDF/A and PDF/UA  
+linktitle: Accessibility Issue Warnings When Saving to PDF/A and PDF/UA  
+description: "PDF/A and PDF/UA impose accessibility requirements related to document content. When saving to PDF/A or PDF/UA in C# and the issue violates compliance, a warning is issued."  
+type: docs  
+weight: 29  
+ai_search_scope: words_net  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"  
+url: /net/warnings-when-saving-to-pdfa-and-pdfua/  
+timestamp: 2024-01-27-14-07-04  
+---  
 
 {{% alert color="grey" %}}
 
@@ -37,3 +37,42 @@ All warnings are of [WarningType](https://reference.aspose.com/words/net/aspose.
 | "There are tables without header row/column in the document. This violates the compliance requirements. The output document will not be fully compliant." |                        | {{< emoticons/tick >}} |
 | "The document contains Unicode PUA characters. This violates the compliance requirements. The output document will not be fully compliant." | {{< emoticons/tick >}} |                        |
 | "The document contains .notdef glyphs. This violates the compliance requirements. The output document will not be fully compliant." | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+
+------  
+
+## FAQ
+
+1. **Q:** *What kinds of warnings are generated when saving to PDF/A or PDF/UA?*  
+   **A:** Aspose.Words emits warnings of type **WarningType.MinorFormattingLoss** with source **WarningSource.Pdf** for accessibility issues that cannot be automatically fixed. Examples include missing document title (PDF/UA), shapes or tables without alternative text (both PDF/A and PDF/UA), non‑consecutive heading levels (PDF/UA), and presence of Unicode PUA characters (PDF/A).
+
+2. **Q:** *How can I retrieve the list of warnings after saving a document?*  
+   **A:** Use the `PdfSaveOptions` object and subscribe to its `WarningCallback`. The callback receives a `WarningInfo` object for each warning, where you can inspect `WarningInfo.Description`, `WarningInfo.Type`, and `WarningInfo.Source`. Example:
+
+   ```csharp
+   using Aspose.Words;
+   using Aspose.Words.Saving;
+
+   Document doc = new Document("input.docx");
+   PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+   saveOptions.WarningCallback = (WarningInfo info) =>
+   {
+       Console.WriteLine($"Warning: {info.Description}");
+   };
+
+   doc.Save("output.pdf", saveOptions);
+   ```
+
+3. **Q:** *What should I do to fix a “Document title is missing” warning for PDF/UA?*  
+   **A:** Add a title to the Word document before conversion. You can set the title programmatically via the built‑in document properties:
+
+   ```csharp
+   Document doc = new Document("input.docx");
+   doc.BuiltInDocumentProperties.Title = "My Accessible Document";
+   doc.Save("output.pdf", SaveFormat.Pdf);
+   ```
+
+   After adding the title, the warning will no longer appear when saving to PDF/UA.
+
+4. **Q:** *Is there a way to programmatically check whether a saved PDF complies with PDF/A or PDF/UA?*  
+   **A:** Aspose.Words does not perform full compliance validation, but you can examine the warnings collected during saving. If no warnings related to the target standard are reported, the document is likely compliant. For rigorous validation, use a dedicated PDF/A or PDF/UA validator such as Aspose.PDF or third‑party tools.

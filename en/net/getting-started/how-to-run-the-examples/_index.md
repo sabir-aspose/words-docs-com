@@ -65,3 +65,19 @@ You can fork the repository, edit the source code, and create a pull request to 
 ## See Also
 
 - [Details on how to install NuGet Package Manager](https://docs.microsoft.com/nuget/guides/install-nuget)
+
+------ 
+
+## FAQ
+
+1. **Q:** Do I need an Aspose.Words license to run the example projects?  
+   **A:** No. The examples are shipped with a temporary evaluation license, so they can be built and executed without a purchased license. If you add your own license file to the project, the examples will run with full functionality and without evaluation restrictions.
+
+2. **Q:** How can I run the examples on a machine that has no Internet connection?  
+   **A:** First, download the repository and the required NuGet packages on a machine with Internet access. Then copy the entire `packages` folder (or the `Aspose.Words.dll` file) to the offline machine and add a reference to the DLL manually in the project. After that you can build and run the examples without needing to restore packages online.
+
+3. **Q:** Can I run the examples with .NET 8 or Visual Studio 2022?  
+   **A:** Yes. Open the solution in Visual Studio 2022, change the target framework of the example projects to `.NET 8.0` (or any later supported version), restore NuGet packages, and rebuild. The code is compatible with newer .NET versions, but some older sample projects may reference legacy APIs that need minor adjustments.
+
+4. **Q:** Why do I get an “Unable to locate package Aspose.Words” error when building the solution?  
+   **A:** This usually means the NuGet source `nuget.org` is not enabled or the machine cannot reach the internet. Verify that `nuget.org` is selected in **Tools → Options → NuGet Package Manager → Package Sources** and that the network allows access to `https://api.nuget.org/v3/index.json`. If you are behind a proxy, configure the proxy settings in Visual Studio or restore the packages manually as described above.

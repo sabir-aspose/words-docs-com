@@ -131,3 +131,22 @@ The following code example shows how to replace text specified with HTML:
 The following code example shows how to prepend a line number to each line:
 
 {{< gist "aspose-words-gists" "27c3408b2c7fbee8d6dc6a1c8b61c105" "line-counter.cs" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** How can I perform a case‑insensitive find and replace?  
+   **A:** Set the `FindReplaceOptions.MatchCase` property to `false` when calling `Range.Replace`. This tells Aspose.Words to ignore case while searching, so “Customer” and “customer” are treated as the same word.
+
+2. **Q:** How do I replace text using a regular expression?  
+   **A:** Use the overload of `Range.Replace` that accepts a `Regex` object. Pass the pattern to the `Regex` parameter and provide the replacement string. The method will replace every match that satisfies the regular expression.
+
+3. **Q:** How can I replace text only in the main body and ignore headers, footers, or footnotes?  
+   **A:** Configure a `FindReplaceOptions` instance and set `IgnoreHeaderFooter`, `IgnoreFootnotes`, and `IgnoreEndnotes` to `true`. Then pass this options object to the `Replace` method; the operation will be limited to the document body.
+
+4. **Q:** How do I replace a match with HTML markup?  
+   **A:** Implement the `IReplacingCallback` interface and, in the `Replacing` method, insert an `HtmlFragment` node created from the HTML string. Register the callback with `FindReplaceOptions.ReplacingCallback` before calling `Range.Replace`.
+
+5. **Q:** How can I highlight all occurrences of a word instead of replacing it?  
+   **A:** Use `FindReplaceOptions` with `ApplyFont.HighlightColor` set to the desired color and `UseSubstitutions` set to `false`. Call `Range.Replace` with the same search string and an empty replacement; the API will apply the highlight to each found occurrence.

@@ -192,3 +192,47 @@ This mode is most useful when you wish to view your documents on the same platfo
 This setting works only for ANSI (Windows-1252) encoding text. Writing a non-ANSI text to PDF requires the corresponding font to be embedded.
 
 {{% /alert %}}
+
+------  
+
+## FAQ
+
+1. **Q:** How can I save a document as a PDF/A‑2a compliant file?  
+   **A:** Create a `PdfSaveOptions` instance and set its `Compliance` property to `PdfCompliance.PdfA2a`. For PDF/A compliance you should also embed all fonts, e.g., `options.EmbedFullFonts = true;` and disable core‑font substitution with `options.UseCoreFonts = false;`. Then pass the options to `Document.Save`.
+
+2. **Q:** What is the difference between embedding full fonts and subset fonts, and how do I choose?  
+   **A:** Set `PdfSaveOptions.EmbedFullFonts` to `true` to embed the complete font files, which allows later editing of the PDF but increases file size. Set it to `false` to embed only the glyphs used in the document (subsetting), which keeps the PDF smaller but limits further text editing.  
+
+3. **Q:** How do I preserve fillable form fields when converting a Word document to PDF?  
+   **A:** Use the `PreserveFormFields` property of `PdfSaveOptions`:  
+
+   ```csharp
+   PdfSaveOptions options = new PdfSaveOptions();
+   options.PreserveFormFields = true;
+   doc.Save("output.pdf", options);
+   ```  
+
+   This exports Word form fields as interactive PDF form fields.
+
+4. **Q:** My PDF file is too large because of images. How can I downsample them during conversion?  
+   **A:** Configure the `DownsampleOptions` of `PdfSaveOptions`. For example:  
+
+   ```csharp
+   PdfSaveOptions options = new PdfSaveOptions();
+   options.DownsampleOptions.DownsampleImages = true;
+   options.DownsampleOptions.Resolution = 150; // DPI
+   doc.Save("output.pdf", options);
+   ```  
+
+   You can also set `ResolutionThreshold` to downsample only images above a certain resolution.
+
+5. **Q:** How can I export Word bookmarks and headings as PDF outlines?  
+   **A:** Use the `OutlineOptions` within `PdfSaveOptions`. Set `DefaultBookmarksOutlineLevel` to define the level for bookmarks and `HeadingsOutlineLevels` to specify how many heading levels to include. If you need bookmarks from headers/footers, also set `HeaderFooterBookmarksExportMode` (e.g., `HeaderFooterBookmarksExportMode.First`).  
+
+   ```csharp
+   PdfSaveOptions options = new PdfSaveOptions();
+   options.OutlineOptions.DefaultBookmarksOutlineLevel = 1;
+   options.OutlineOptions.HeadingsOutlineLevels = 3;
+   options.HeaderFooterBookmarksExportMode = HeaderFooterBookmarksExportMode.First;
+   doc.Save("output.pdf", options);
+   ```  

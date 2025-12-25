@@ -305,4 +305,23 @@ When there is no person at all, the engine produces a report as follows.
 	</tbody>
 </table>
 
-**Note** – Table-column conditional blocks can themselves be nested to table-row data bands and conditional blocks, but not conversely: Nesting of table-row data bands and conditional blocks into table-column conditional blocks is forbidden.
+**Note** – Table‑column conditional blocks can themselves be nested to table‑row data bands and conditional blocks, but not conversely: Nesting of table‑row data bands and conditional blocks into table‑column conditional blocks is forbidden.
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I enable the `-horz` switch to make a conditional block affect columns instead of rows?  
+   **A:** Add the `-horz` flag directly after the condition in the opening tag, e.g. `<<if [showColumn] -horz>>`. This tells the engine to apply the block to the column range defined by the surrounding cells.
+
+2. **Q:** Can I nest a table‑row conditional block inside a table‑column conditional block?  
+   **A:** No. Table‑column conditional blocks may contain table‑column data bands, but nesting table‑row data bands or row‑level conditional blocks inside a column block is prohibited. Attempting this will raise a template‑validation error.
+
+3. **Q:** What happens if the condition expression references a property that does not exist in the data source?  
+   **A:** The engine throws a `TemplateException` indicating an unknown field. Ensure that the property name matches exactly (case‑sensitive) the members of the object supplied to the reporting engine.
+
+4. **Q:** How can I provide an alternate view when a collection used in a column data band is empty?  
+   **A:** Use an `if` block that checks the collection with the `Any()` method, e.g. `<<if [!persons.Any()] -horz>>No data<<else>>...<</if>>`. Place the alternate content inside the `if` branch.
+
+5. **Q:** Is it possible to hide a column conditionally without using the `-horz` switch?  
+   **A:** The `-horz` switch is required for column‑level conditional logic. Without it, the `if` block operates on rows, so the column will not be hidden. Use `<<if [condition] -horz>>` to hide/show the column.

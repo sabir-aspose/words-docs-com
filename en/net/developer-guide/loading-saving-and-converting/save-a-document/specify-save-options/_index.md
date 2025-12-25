@@ -86,3 +86,50 @@ To control image saving options, the **ImageSaveOptions** class is used. For exa
 The following code example shows how to save a black and white image with one bit per pixel format:
 
 {{< gist "aspose-words-gists" "83e5c469d0e72b5114fb8a05a1d01977" "format1-bpp-indexed.cs" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** How can I encrypt a document with a password when saving it?  
+   **A:** Use the `Password` property of the specific `SaveOptions` class for the target format (e.g., `PdfSaveOptions.Password`, `DocSaveOptions.Password`). Create the options object, set the password, and pass it to `Document.Save`. Example:  
+
+   ```csharp
+   Document doc = new Document("input.docx");
+   PdfSaveOptions options = new PdfSaveOptions();
+   options.Password = "MySecret";
+   doc.Save("output.pdf", options);
+   ```
+
+2. **Q:** How do I receive progress notifications while a large document is being saved?  
+   **A:** Assign a callback to the `ProgressCallback` property of the appropriate `SaveOptions` object. The callback receives the percentage completed and can be used to update UI or logs. Example:  
+
+   ```csharp
+   Document doc = new Document("large.docx");
+   PdfSaveOptions options = new PdfSaveOptions();
+   options.ProgressCallback = new SaveProgressCallback((percent) =>
+   {
+       Console.WriteLine($"Saving progress: {percent}%");
+   });
+   doc.Save("large.pdf", options);
+   ```
+
+3. **Q:** How can I set the PDF compliance level (e.g., PDF/A‑1b) when saving to PDF?  
+   **A:** Use the `Compliance` property of `PdfSaveOptions`. Choose a value from the `PdfCompliance` enumeration such as `PdfCompliance.PdfA1b`. Example:  
+
+   ```csharp
+   Document doc = new Document("report.docx");
+   PdfSaveOptions options = new PdfSaveOptions();
+   options.Compliance = PdfCompliance.PdfA1b;
+   doc.Save("report.pdf", options);
+   ```
+
+4. **Q:** How do I control the pixel format of images generated when saving a document as an image?  
+   **A:** Set the `PixelFormat` property of `ImageSaveOptions` to the desired `System.Drawing.Imaging.PixelFormat` value (e.g., `PixelFormat.Format1bppIndexed` for black‑and‑white). Example:  
+
+   ```csharp
+   Document doc = new Document("diagram.docx");
+   ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
+   options.PixelFormat = System.Drawing.Imaging.PixelFormat.Format1bppIndexed;
+   doc.Save("diagram.jpg", options);
+   ```

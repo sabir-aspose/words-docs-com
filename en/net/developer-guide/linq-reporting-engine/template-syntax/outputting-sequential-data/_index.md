@@ -88,3 +88,22 @@ data_band_body
 - [Working With Charts](/words/net/linq-working-with-charts/)
 - [Using Extension Methods of Iteration Variables](/words/net/using-extension-methods-of-iteration-variables/)
 - [Forcing Movement to Next Item within Data Band](/words/net/forcing-movement-to-next-item-within-data-band/)
+
+------ 
+
+## FAQ
+
+1. **Q:** Do I have to specify the iteration variable type in a `foreach` tag?  
+   **A:** No. The type is optional. If you omit it, the engine infers the type from the sequence you provide. Specify the type only when you need the engine to recognize a custom or external type.
+
+2. **Q:** How can I access the members of the iteration variable without giving it a name?  
+   **A:** When you omit the variable name, you can use the contextual object member access syntax, e.g., `{{Field}}`, to refer directly to the current element’s members inside the data band.
+
+3. **Q:** Is it possible to place a data band inside another data band?  
+   **A:** Yes. Data band bodies may contain nested `foreach` tags, allowing you to output hierarchical data such as master‑detail relationships.
+
+4. **Q:** How do I force the engine to skip to the next item before the current data band body finishes?  
+   **A:** Use the `<<break>>` tag inside the data band body. When the engine encounters this tag, it stops processing the current iteration and moves to the next element in the sequence.
+
+5. **Q:** What kind of expression can I use after the `in` keyword?  
+   **A:** The expression must evaluate to an object that implements `IEnumerable`. Typical examples are collections like `List<T>`, arrays, or any custom enumerable type that the engine can iterate over.

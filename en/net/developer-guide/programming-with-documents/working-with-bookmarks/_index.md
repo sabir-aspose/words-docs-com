@@ -89,3 +89,44 @@ The following code example shows how to show/ hide bookmarks:
 {{< gist "aspose-words-gists" "c4555b1a088856e21394104faeb86e51" "show-hide-bookmarks.cs" >}}
 
 {{< gist "aspose-words-gists" "c4555b1a088856e21394104faeb86e51" "show-hide-bookmarked-content.cs" >}}
+
+---
+
+## FAQ
+
+1. **Q:** How do I create a bookmark in a Word document using C#?  
+   **A:** Use `DocumentBuilder.StartBookmark("MyBookmark")` to mark the start and `DocumentBuilder.EndBookmark("MyBookmark")` to mark the end. Both calls must use the identical bookmark name. Example:  
+
+   ```csharp
+   Document doc = new Document();
+   DocumentBuilder builder = new DocumentBuilder(doc);
+   builder.StartBookmark("MyBookmark");
+   builder.Writeln("Text inside the bookmark.");
+   builder.EndBookmark("MyBookmark");
+   ```
+
+2. **Q:** Can a bookmark name contain spaces?  
+   **A:** In Word formats (DOC, DOCX) spaces are not allowed; Aspose.Words automatically replaces spaces with underscores. PDF and XPS outlines do allow spaces, so you can keep them when exporting to those formats.
+
+3. **Q:** What happens if I add two bookmarks with the same name?  
+   **A:** Aspose.Words does not throw an exception. When the document is saved, only the first bookmark with that name is retained. To avoid data loss, ensure each bookmark name is unique within the document.
+
+4. **Q:** How can I move the cursor to an existing bookmark to insert additional content?  
+   **A:** Call `DocumentBuilder.MoveToBookmark("MyBookmark")`. After the cursor is positioned, you can use any `DocumentBuilder` methods (e.g., `Write`, `InsertTable`, `InsertImage`) to add content at that location.  
+
+   ```csharp
+   DocumentBuilder builder = new DocumentBuilder(doc);
+   builder.MoveToBookmark("MyBookmark");
+   builder.Writeln("Additional text after the bookmark.");
+   ```
+
+5. **Q:** How do I read or modify the text that a bookmark encloses?  
+   **A:** Retrieve the `Bookmark` object from the document’s `BookmarkCollection` and use its `Text` property. Setting this property replaces the entire bookmarked content.  
+
+   ```csharp
+   Bookmark bookmark = doc.Range.Bookmarks["MyBookmark"];
+   string currentText = bookmark.Text;          // read
+   bookmark.Text = "New content for the bookmark"; // replace
+   ```
+
+These FAQs address the most common questions users have when working with bookmarks in Aspose.Words for .NET.

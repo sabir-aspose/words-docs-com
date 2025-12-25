@@ -96,7 +96,6 @@ This section demonstrates you how to produce a markdown document with Horizontal
 {{< highlight csharp >}}
 Insert a horizontal rule shape into the document.
 -----
-
 {{< /highlight >}}
 
 The following code snippet can be used to produce the above given markdown document.
@@ -122,3 +121,22 @@ The following code example demonstrated how to specify various Markdown save opt
 Aspose.Words API provides [TableContentAlignment](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/) enumeration which defines alignment directions to align contents in tables while exporting into the Markdown document. The following code example demonstrates how to align content inside the table.
 
 {{< gist "aspose-words-gists" "19de942ef8827201c1dca99f76c59133" "markdown-table-content-alignment.cs" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** How do I apply bold or italic formatting when generating Markdown with Aspose.Words?  
+   **A:** Use the `Font.Bold` and `Font.Italic` properties on a `Run` or `Paragraph`. When the document is saved as Markdown, these properties are converted to `**bold**` or `*italic*` syntax automatically.
+
+2. **Q:** Which style names are used for Markdown headings?  
+   **A:** Headings are represented by the built‑in heading styles `Heading 1` through `Heading 6`. Setting a paragraph’s `StyleIdentifier` to one of these styles will produce the corresponding `#` to `######` Markdown heading when saved.
+
+3. **Q:** How can I control the appearance of tables when exporting to Markdown?  
+   **A:** Set the `TableContentAlignment` property of `MarkdownSaveOptions` to `Left`, `Center`, or `Right`. This aligns the text inside each table cell in the generated Markdown table.
+
+4. **Q:** What option should I use to include images in the saved Markdown file?  
+   **A:** Use `MarkdownSaveOptions.ImagesFolder` to specify a folder where images will be written, and set `ImagesFolderAlias` if you need a different relative path. The generated Markdown will contain image links pointing to that folder.
+
+5. **Q:** How do I read an existing Markdown file into an Aspose.Words `Document`?  
+   **A:** Load the file with `Document doc = new Document("input.md");`. Aspose.Words parses the Markdown according to the CommonMark specification and creates the corresponding DOM, which you can then manipulate programmatically.

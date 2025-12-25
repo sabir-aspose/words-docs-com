@@ -46,3 +46,19 @@ Using the [BreakForwardLink](https://reference.aspose.com/words/net/aspose.words
 The following code example shows how to break a link for a **TextBox**:
 
 {{< gist "aspose-words-gists" "68b6041746b3d6bf5137cff8e6385b5f" "break-link.cs" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** How can I verify whether one TextBox can be linked to another?  
+   **A:** Use the `TextBox.IsValidLinkTarget(TextBox target)` method. It returns `true` if the current TextBox can be linked to the specified target TextBox, otherwise `false`.
+
+2. **Q:** How do I determine the position of a TextBox within a linked sequence?  
+   **A:** Call the `TextBox.IsHead`, `TextBox.IsTail`, or `TextBox.IsMiddle` properties. These boolean properties indicate whether the TextBox is the first, last, or a middle element in the linked chain.
+
+3. **Q:** What method should I use to break a forward link from a TextBox?  
+   **A:** Invoke `TextBox.BreakForwardLink()`. This removes the link from the current TextBox to the next one in the sequence, leaving the remaining chain intact.
+
+4. **Q:** How can I obtain the Shape that contains a TextBox?  
+   **A:** Access the `TextBox.Parent` property, which returns the `Shape` object that hosts the TextBox. This allows you to manipulate shape-level properties such as size, position, or formatting.

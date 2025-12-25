@@ -32,3 +32,22 @@ ReportingEngine engine = new ReportingEngine();
 engine.KnownTypes.Add(typeof(ImageUtil));
 engine.BuildReport(...);
 {{< /highlight >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I register a custom type with the LINQ Reporting Engine?  
+   **A:** Create an instance of `ReportingEngine`, then call `engine.KnownTypes.Add(typeof(MyCustomClass));` before invoking `engine.BuildReport`. This makes the engine aware of the type used in the template.
+
+2. **Q:** Which types are already known by the engine without registration?  
+   **A:** Primitive and simple .NET types such as `int`, `string`, `bool`, `DateTime`, `double`, and their nullable counterparts are automatically recognized by the engine.
+
+3. **Q:** What requirements must a type meet to be added to `KnownTypes`?  
+   **A:** The type must be public, and any instance members accessed from the template must be public. If the template creates an instance, the type needs a public parameter‑less constructor. Static members can be accessed directly without a constructor.
+
+4. **Q:** Can I add several external types at once?  
+   **A:** Yes. Call `engine.KnownTypes.Add` for each type, or iterate over a collection of `Type` objects and add them in a loop before building the report.
+
+5. **Q:** What happens if a required external type is not added to `KnownTypes`?  
+   **A:** The Reporting Engine throws a `TemplateProcessingException` indicating that the type is unknown, which stops the report generation. Adding the missing type to `KnownTypes` resolves the error.

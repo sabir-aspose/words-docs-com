@@ -30,6 +30,22 @@ bookmarked_content
 <</bookmark>>
 {{< /highlight >}}
 
-Here, `bookmark_expression` defines the name of a bookmark to be inserted during runtime. This expression is mandatory and must return a non-empty value. While building a report, `bookmark_expression` is evaluated and its result is used to construct a bookmark start and end that replace corresponding opening and closing `bookmark` tags respectively.
+Here, `bookmark_expression` defines the name of a bookmark to be inserted during runtime. This expression is mandatory and must return a non‑empty value. While building a report, `bookmark_expression` is evaluated and its result is used to construct a bookmark start and end that replace corresponding opening and closing `bookmark` tags respectively.
 
 **Note** – A `bookmark` tag cannot be used within a chart.
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I define the name of a bookmark dynamically?  
+   **A:** Place an expression that evaluates to the desired bookmark name inside the `bookmark` tag, e.g., `<<bookmark [Customer.Id]>>`. At runtime the expression is evaluated and the resulting string becomes the bookmark name.
+
+2. **Q:** Can I use the `bookmark` tag inside a table, list, or other container elements?  
+   **A:** Yes. The `bookmark` tag works inside tables, lists, paragraphs, and most other document elements. The only restriction is that it cannot be placed inside a chart.
+
+3. **Q:** What happens if the bookmark expression returns an empty string or null?  
+   **A:** The tag is ignored and no bookmark is created. Because the expression must return a non‑empty value, an empty result will cause the engine to skip the bookmark insertion without raising an error.
+
+4. **Q:** How can I reference a bookmark that was created dynamically later in the same report?  
+   **A:** Use the standard Aspose.Words field syntax, such as a `REF` field: `<<field REF [bookmark_name]>>`. The `[bookmark_name]` part should match the expression used when the bookmark was created, allowing you to cross‑reference the dynamic bookmark elsewhere in the document.

@@ -364,3 +364,22 @@ JsonDataLoadOptions options = new JsonDataLoadOptions();
 options.PreserveSpaces = true;
 JsonDataSource dataSource = new JsonDataSource(..., options);
 {{< /highlight >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I load JSON data into Aspose.Words ReportingEngine?  
+   **A:** Create a `JsonDataSource` from a JSON string, file, or stream (optionally supplying `JsonDataLoadOptions`). Then pass the `JsonDataSource` to `ReportingEngine.BuildReport`, optionally specifying the root element name.
+
+2. **Q:** My JSON root element is an array – how should I reference it in the template?  
+   **A:** Supply the array name as the third argument to `BuildReport`. For example, `engine.BuildReport(doc, dataSource, "persons")` lets you iterate with `<<foreach [in persons]>>` in the template.
+
+3. **Q:** How can I control how date strings are parsed from JSON?  
+   **A:** Use `JsonDataLoadOptions.ExactDateTimeParseFormats` to provide one or more date formats that the engine should recognize. Setting this list to an empty collection disables date‑time detection entirely.
+
+4. **Q:** What is the difference between loose and strict parsing modes for simple JSON values?  
+   **A:** In **loose** mode (default) the engine infers the type from the string content, so `"123"` becomes an integer. In **strict** mode the engine respects the JSON literal types, keeping `"123"` as a string unless the JSON explicitly defines a number.
+
+5. **Q:** How can I force the engine to always generate a root object for my JSON data?  
+   **A:** Set `JsonDataLoadOptions.AlwaysGenerateRootObject = true` when constructing the `JsonDataSource`. This ensures a root object is created even when the JSON itself starts with an array or a single property object.
