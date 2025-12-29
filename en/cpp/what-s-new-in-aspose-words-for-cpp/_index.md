@@ -15,13 +15,15 @@ timestamp: 2025-12-01-11-12-25
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for C++ 25.9, 25.10, 25.11
+## Aspose.Words for C++ 25.9, 25.10, 25.11, 25.12
 
 Aspose.Words 25.9 enhances document loading reliability, expands shape and text formatting, improves Markdown export with math support, and strengthens font handling diagnostics.
 
 Aspose.Words 25.10 introduces enhancements to text and PDF exports, improves accessibility compliance, and adds new options for resource management during Markdown export.
 
 Aspose.Words 25.11 expands AI integration capabilities, enhances Markdown export, and introduces advanced control over print operations.
+
+Aspose.Words 25.12 improves rendering accuracy across PDF, HTML-Fixed, and SVG formats, adds support for Variable Fonts and Funnel charts, and enhances text orientation handling in field rendering.
 
 ### AI-powered Features
 
@@ -58,6 +60,10 @@ A new **resource-saving callback** has been implemented to give developers great
 
 Compliance with PDF/UA standards has been improved by correctly tagging horizontal rules as artifacts, enhancing a better experience for users of assistive technologies.
 
+#### Handle Relative Hyperlinks When Exporting to PDF <sup>25.12</sup>
+
+The ability to correctly resolve and handle relative hyperlinks when exporting to PDF has been introduced by adding Base URI processing during document export.
+
 ### Rendering
 
 #### Fine-tune Shadow Effects <sup>25.9</sup>
@@ -66,6 +72,18 @@ The ability to fine-tune [shadow effects](https://reference.aspose.com/words/cpp
 
 #### Improve Diagnostics for Font Substitution <sup>25.9</sup>
 The ability to improve diagnostics and error handling for **font substitution** has been implemented by adding typed warnings.
+
+#### Support for Variable Fonts When Saving Documents to SVG and Html-Fixed <sup>25.12</sup>
+
+Robust support for Variable Fonts when saving documents to SVG and Html-Fixed formats has been added, ensuring that different font variations (including weight, width, and other parameters) defined within a single font file render correctly.
+
+#### Render Funnel Charts <sup>25.12</sup>
+
+The ability to render Funnel charts in documents has been added.
+
+#### Render VerticalFarEast and HorizontalRotatedFarEast Text Orientations in EQ-field <sup>25.12</sup>
+
+The ability to render **VerticalFarEast** and **HorizontalRotatedFarEast** text orientations in EQ-field elements has been introduced.
 
 ### Other
 
@@ -82,6 +100,8 @@ Learn more about [Aspose.Words for C++ 25.9 Release Notes](https://releases.aspo
 Learn more about [Aspose.Words for C++ 25.10 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-10-release-notes/).
 
 Learn more about [Aspose.Words for C++ 25.11 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-11-release-notes/).
+
+Learn more about [Aspose.Words for C++ 25.12 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-12-release-notes/).
 
 {{% /alert %}}
 
