@@ -1,16 +1,16 @@
 ---
-title: C# でドキュメントを読み取り専用で開く
+title: C# でドキュメントを読み取り専用にする
 second_title: .NET用Aspose.Words
-articleTitle: ドキュメントを読み取り専用で開く
-linktitle: ドキュメントを読み取り専用で開く
+articleTitle: ドキュメントを読み取り専用にする
+linktitle: ドキュメントを読み取り専用にする
 description: "ドキュメントを読み取り専用にして、コンテンツをコピーまたは読み取りできるようにしますが、C# を使用して変更することはできません。"
 type: docs
 weight: 10
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /ja/net/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /ja/net/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 レビューが必要なドキュメントがある場合でも、レビュー担当者に内容を無作為に変更されたくない場合があります。 Aspose.Words を使用すると、ドキュメントの権限を読み取り専用にして、コンテンツのコピーや読み取りは可能ですが、変更はできないようにすることができます。これにより、コンテンツがドキュメントに削除されたり、ドキュメントに追加されたりすることがなくなります。

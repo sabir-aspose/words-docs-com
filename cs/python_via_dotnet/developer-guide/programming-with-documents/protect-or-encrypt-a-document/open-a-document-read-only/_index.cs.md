@@ -1,16 +1,16 @@
 ---
-title: Otevřít pouze dokument Python
+title: Nastavení dokumentu pouze pro čtení Python
 second_title: Aspose.Words místo Python via .NET
-articleTitle: Otevřít pouze pro čtení dokumentu
-linktitle: Otevřít pouze pro čtení dokumentu
+articleTitle: Nastavení dokumentu pouze pro čtení
+linktitle: Nastavení dokumentu pouze pro čtení
 description: "Udělejte si dokument pouze pro čtení tak, aby obsah mohl být kopírován nebo čten, ale nebyl upraven pomocí Python."
 type: docs
 weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /cs/python-net/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /cs/python-net/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 Někdy můžete mít dokument, který potřebuje recenzi, ale nechcete, aby recenzenti náhodně upravit svůj obsah. Aspose.Words umožňuje vám povolit pouze čtení vašeho dokumentu tak, aby obsah mohl být kopírován nebo čten, ale nebyl upraven. To zabrání odstranění nebo přidání obsahu do Vašeho dokumentu.

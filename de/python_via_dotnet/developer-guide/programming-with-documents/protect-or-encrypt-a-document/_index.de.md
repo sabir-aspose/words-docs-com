@@ -10,7 +10,7 @@ ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /de/python-net/protect-or-encrypt-a-document/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-12-30-12-07-05
 ---
 
 Der Hauptgrund für den Schutz oder die Verschlüsselung eines Dokuments besteht darin, mehr Kontrolle darüber zu haben, wer auf das Dokument zugreifen oder es bearbeiten kann. Indem Sie Ihre Dokumente schützen, vermeiden Sie häufige Risiken wie das unerlaubte Kopieren oder Ändern von Dokumenten sowie Datenlecks.
@@ -25,7 +25,7 @@ Aspose.Words bietet derzeit die in der folgenden Tabelle aufgeführten Dokumentf
 
 |  Aspose.Words-Schutzfunktion |  Entsprechender Kinderartikel |  Entsprechende MS Word-Funktion |
 |  -------------------------------  |  ------------------------------  |  ------------------------------------------------------------  |
-|  Schreibgeschützt |  "Ein Dokument schreibgeschützt öffnen" |  Immer schreibgeschützt öffnen (Datei → Info → Dokument schützen)<br /> Alternative Funktion: "Zu änderndes Passwort" (Speichern unter → Extras → Allgemeine Optionen → Passwort) |
+|  Schreibgeschützt |  "Dokument schreibgeschützt machen" |  Immer schreibgeschützt öffnen (Datei → Info → Dokument schützen)<br /> Alternative Funktion: "Zu änderndes Passwort" (Speichern unter → Extras → Allgemeine Optionen → Passwort) |
 |  Verschlüsseln Sie ein Dokument |  "Ein Dokument verschlüsseln" |  Mit Passwort verschlüsseln (Datei → Info → Dokument schützen)<br /> Alternative Funktion: "Passwort zum Öffnen" (Speichern unter → Extras → Allgemeine Optionen → Passwort) |
 |  Bearbeitung einschränken |  "Dokumentbearbeitung einschränken" |  Bearbeitung einschränken (Datei – Info – Dokument schützen)<br /> Alternative Funktion: "Bearbeitung einschränken" (Überprüfen → Schützen → Bearbeiten einschränken) |
 |  Digitale Signaturen |  "Arbeiten mit digitalen Signaturen" |  Fügen Sie eine digitale Signatur hinzu (Datei → Info → Dokument schützen) |

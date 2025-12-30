@@ -1,16 +1,16 @@
 ---
-title: Buka Dokumen Hanya-Baca di Python
+title: Jadikan Dokumen Hanya Dapat Dibaca di Python
 second_title: Aspose.Words untuk Python via .NET
-articleTitle: Buka Dokumen Hanya-Baca
-linktitle: Buka Dokumen Hanya-Baca
+articleTitle: Jadikan Dokumen Hanya Dapat Dibaca
+linktitle: Jadikan Dokumen Hanya Dapat Dibaca
 description: "Jadikan dokumen Anda hanya-baca sehingga isinya dapat disalin atau dibaca, namun tidak dimodifikasi menggunakan Python."
 type: docs
 weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /id/python-net/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /id/python-net/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 Terkadang, Anda mungkin memiliki dokumen yang memerlukan peninjauan, namun Anda tidak ingin peninjau mengubah konten Anda secara acak. Aspose.Words memungkinkan Anda menjadikan izin dokumen Anda hanya-baca sehingga konten dapat disalin atau dibaca, namun tidak diubah. Ini akan mencegah konten dihapus atau ditambahkan ke dokumen Anda.

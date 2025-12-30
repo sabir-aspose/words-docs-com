@@ -10,7 +10,7 @@ ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh-hant/net/protect-or-encrypt-a-document/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-12-30-12-07-05
 ---
 
 保護或加密文件的主要原因是要更加控制誰能訪問該文件，或是誰能編輯它。 透過對你的文件施加保護，你可避免一般性的風險，例如未经許可就複製或修改文件以及數據洩漏。

@@ -10,7 +10,7 @@ ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /fr/python-net/protect-or-encrypt-a-document/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-12-30-12-07-05
 ---
 
 La principale raison de protéger ou de chiffrer un document est d’appliquer davantage de contrôle sur qui peut accéder au document ou qui peut le modifier. En appliquant une protection à vos documents, vous évitez les risques courants tels que la copie ou la modification de documents sans autorisation, ainsi que les fuites de données.
@@ -25,7 +25,7 @@ Aspose.Words fournit actuellement les fonctionnalités du document répertoriée
 
 |  Fonction de protection Aspose.Words |  Article enfant correspondant |  Fonctionnalité MS Word correspondante |
 |  -------------------------------  |  ------------------------------  |  ------------------------------------------------------------  |
-|  Lecture seulement |  "Ouvrir un document en lecture seule" |  Toujours ouvrir en lecture seule (Fichier → Informations → Protéger le document)<br /> Fonctionnalité alternative: "Mot de passe à modifier" (Enregistrer sous → Outils → Options générales → Mot de passe) |
+|  Lecture seulement |  "Rendre un document en lecture seule" |  Toujours ouvrir en lecture seule (Fichier → Informations → Protéger le document)<br /> Fonctionnalité alternative: "Mot de passe à modifier" (Enregistrer sous → Outils → Options générales → Mot de passe) |
 |  Chiffrer un document |  "Crypter un document" |  Crypter avec mot de passe (Fichier → Informations → Protéger le document)<br /> Fonctionnalité alternative: "Mot de passe pour ouvrir" (Enregistrer sous → Outils → Options générales → Mot de passe) |
 |  Restreindre la modification |  "Restreindre l'édition de documents" |  Restreindre l'édition (Fichier – Informations – Protéger le document)<br /> Fonctionnalité alternative: "Restreindre les modifications" (Révision → Protéger → Restreindre les modifications) |
 |  Signatures numériques |  "Travailler avec des signatures numériques" |  Ajouter une signature numérique (Fichier → Informations → Protéger le document) |

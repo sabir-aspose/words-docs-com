@@ -1,16 +1,16 @@
 ---
-title: Відкрийте документ для читання C#
+title: Зробити документ доступним лише для читання C#
 second_title: Aspose.Words для .NET
-articleTitle: Відкрийте документ для читання
-linktitle: Відкрийте документ для читання
+articleTitle: Зробити документ доступним лише для читання
+linktitle: Зробити документ доступним лише для читання
 description: "Зробіть свій документ прочитано, щоб вміст міг бути скопійовано або читати, але не змінено з використанням C#й"
 type: docs
 weight: 10
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /uk/net/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /uk/net/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 Іноді ви можете мати документ, який потребує рецензування, але ви не хочете рецензентів випадковим чином змінити ваш контент. Aspose.Words дозволяє зробити дозвіл на читання документів, щоб вміст міг бути скопійовано або читати, але не змінено. Це дозволить запобігти видаленню вмісту або додано до вашого документа.

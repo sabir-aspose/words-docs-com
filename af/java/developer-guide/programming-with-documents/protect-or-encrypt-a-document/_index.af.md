@@ -10,7 +10,7 @@ ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /af/java/protect-or-encrypt-a-document/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-12-30-12-07-05
 ---
 
 Die hoofrede om'n dokument te beskerm of te enkripteer, is om meer beheer toe te pas oor wie toegang tot die dokument kan kry of wie dit kan wysig. Deur beskerming op u dokumente toe te pas, vermy u algemene risiko's soos die kopiëring of wysiging van dokumente sonder toestemming, sowel as datalekkasies.
@@ -25,7 +25,7 @@ Aspose.Words bied tans die dokumentkenmerke wat in die tabel hieronder gelys wor
 
 | Aspose.Words beskerming funksie | Ooreenstemmende kind artikel | Ooreenstemmende MS Woord kenmerk |
 | ------------------------------- | ------------------------------ | ------------------------------------------------------------ |
-| Leesalleen | "Open'n Dokument Leesalleen" | Maak Altyd Leesalleen Oop (Lêer (Lêer)<br />Alternatiewe funksie: "Wagwoord om te verander" (Stoor As Die Beste Gereedskap Van Die Beste, Die Beste, Die Beste, Die Beste, Die Beste, Die Beste, Die Beste, Die Beste |
+| Leesalleen | "Maak 'n Dokument Leesalleen" | Maak Altyd Leesalleen Oop (Lêer (Lêer)<br />Alternatiewe funksie: "Wagwoord om te verander" (Stoor As Die Beste Gereedskap Van Die Beste, Die Beste, Die Beste, Die Beste, Die Beste, Die Beste, Die Beste, Die Beste |
 | Enkripteer'n Dokument | "Enkripteer'n Dokument" | Enkripteer Met Wagwoord (Lêer)<br />Alternatiewe funksie: "Wagwoord om oop te maak" (Stoor As Die Beste Gereedskap Van Die Beste, Die Beste, Die Beste, Die Beste, Die Beste, Die Beste, Die Beste, Die Beste |
 | Beperk Redigering | "Beperk Dokument Redigering" | Beperk Redigering (Lêer-Inligting - Beskerm Dokument)<br />Alternatiewe funksie: "Beperk Redigering" (Resensie) |
 | Digitale Handtekeninge | "Werk Met Digitale Handtekeninge" | Voeg'n Digitale Handtekening (Lêer) |

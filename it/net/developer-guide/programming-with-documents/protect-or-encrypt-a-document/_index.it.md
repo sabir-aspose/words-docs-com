@@ -10,7 +10,7 @@ ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /it/net/protect-or-encrypt-a-document/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-12-30-12-07-05
 ---
 
 Il motivo principale per proteggere o crittografare un documento è applicare un maggiore controllo su chi può accedere al documento o chi può modificarlo. Applicando la protezione ai tuoi documenti, eviti rischi comuni come la copia o la modifica di documenti senza autorizzazione, nonché la fuga di dati.
@@ -25,7 +25,7 @@ Aspose.Words attualmente fornisce le funzionalità del documento elencate nella 
 
 |  Funzionalità di protezione Aspose.Words |  Articolo figlio corrispondente |  Funzionalità MS Word corrispondente |
 |  -------------------------------  |  ------------------------------  |  ------------------------------------------------------------  |
-|  Sola lettura |  "Apri un documento di sola lettura" |  Apri sempre in sola lettura (File → Informazioni → Proteggi documento)<br /> Funzionalità alternativa: "Password da modificare" (Salva con nome → Strumenti → Opzioni generali → Password) |
+|  Sola lettura |  "Rendere un documento di sola lettura" |  Apri sempre in sola lettura (File → Informazioni → Proteggi documento)<br /> Funzionalità alternativa: "Password da modificare" (Salva con nome → Strumenti → Opzioni generali → Password) |
 |  Crittografare un documento |  "Crittografa un documento" |  Crittografa con password (File → Informazioni → Proteggi documento)<br /> Funzionalità alternativa: "Password per aprire" (Salva con nome → Strumenti → Opzioni generali → Password) |
 |  Limita la modifica |  "Limita la modifica del documento" |  Limita modifica (File – Informazioni – Proteggi documento)<br /> Funzionalità alternativa: "Limita modifica" (Rivedi → Proteggi → Limita modifica) |
 |  Firme digitali |  "Lavorare con le firme digitali" |  Aggiungere una firma digitale (File → Informazioni → Proteggi documento) |

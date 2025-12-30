@@ -1,16 +1,16 @@
 ﻿---
-title: Otevření dokumentu pouze pro čtení v C++
+title: Nastavení dokumentu pouze pro čtení v C++
 second_title: Aspose.Words pro C++
-articleTitle: Otevření dokumentu jen pro čtení
-linktitle: Otevření dokumentu jen pro čtení
+articleTitle: Nastavení dokumentu pouze pro čtení
+linktitle: Nastavení dokumentu pouze pro čtení
 description: "Zajistěte, aby byl dokument pouze pro čtení, aby bylo možné obsah kopírovat nebo číst, ale nikoli upravovat."
 type: docs
 weight: 10
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /cs/cpp/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /cs/cpp/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 Někdy můžete mít dokument, který potřebuje recenzi, ale nechcete, aby recenzenti náhodně upravovali váš obsah. Aspose.Words umožňuje nastavit oprávnění vašeho dokumentu pouze pro čtení, aby bylo možné obsah kopírovat nebo číst, ale ne upravovat. Tím zabráníte odebrání nebo přidání obsahu do dokumentu.

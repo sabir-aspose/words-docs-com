@@ -10,7 +10,7 @@ ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/cpp/protect-or-encrypt-a-document/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-12-30-12-07-05
 ---
 
 Alasan utama untuk melindungi atau mengenkripsi dokumen adalah untuk menerapkan kontrol lebih besar atas siapa yang dapat mengakses dokumen atau siapa yang dapat mengeditnya. Menerapkan perlindungan pada dokumen Anda, Anda menghindari risiko umum seperti menyalin atau memodifikasi dokumen tanpa izin, serta kebocoran data.
@@ -25,7 +25,7 @@ Aspose.Words saat ini menyediakan fitur dokumen yang tercantum dalam tabel di ba
 
 | Aspose.Words fitur perlindungan | Artikel turunan yang sesuai | Fitur kata MS yang sesuai |
 | ------------------------------- | ------------------------------ | ------------------------------------------------------------ |
-| Hanya-Baca | "Buka Dokumen Hanya-Baca" | Selalu Buka Hanya-Baca (File → Info → <br />Fitur alternatif: "Kata sandi untuk diubah" (Simpan Sebagai → |
+| Hanya-Baca | "Jadikan Dokumen Hanya Dapat Dibaca" | Selalu Buka Hanya-Baca (File → Info → <br />Fitur alternatif: "Kata sandi untuk diubah" (Simpan Sebagai → |
 | Mengenkripsi Dokumen | "Enkripsi Dokumen" | Enkripsi dengan Kata Sandi (File Info Info → <br />Fitur alternatif: "Kata sandi untuk dibuka" (Simpan Sebagai → |
 | Batasi Pengeditan | "Batasi Pengeditan Dokumen" | Batasi Pengeditan (File – Info-Lindungi Dokumen)<br />Fitur alternatif: "Batasi Pengeditan" (Tinjau → |
 | Tanda Tangan Digital | "Bekerja dengan Tanda Tangan Digital" | Menambahkan Tanda Tangan Digital (File Info Info → |

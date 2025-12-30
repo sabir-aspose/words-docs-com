@@ -1,16 +1,16 @@
 ---
-title: Mở tài liệu chỉ đọc trong C#
+title: Đặt tài liệu ở chế độ chỉ đọc C#
 second_title: Aspose.Words cho .NET
-articleTitle: Mở một tài liệu chỉ đọc
-linktitle: Mở một tài liệu chỉ đọc
+articleTitle: Đặt tài liệu ở chế độ chỉ đọc
+linktitle: Đặt tài liệu ở chế độ chỉ đọc
 description: "Đặt tài liệu của bạn ở chế độ chỉ đọc để có thể sao chép hoặc đọc nội dung nhưng không thể sửa đổi bằng C#."
 type: docs
 weight: 10
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /vi/net/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /vi/net/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 Đôi khi, bạn có thể có một tài liệu cần được xem xét lại nhưng bạn không muốn người đánh giá sửa đổi nội dung của bạn một cách ngẫu nhiên. Aspose.Words cho phép bạn đặt quyền cho tài liệu của mình ở chế độ chỉ đọc để có thể sao chép hoặc đọc nội dung nhưng không được sửa đổi. Điều này sẽ ngăn nội dung bị xóa hoặc thêm vào tài liệu của bạn.

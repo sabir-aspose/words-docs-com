@@ -10,7 +10,7 @@ ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /es/cpp/protect-or-encrypt-a-document/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-12-30-12-07-05
 ---
 
 La razón principal para proteger o cifrar un documento es aplicar más control sobre quién puede acceder al documento o quién puede editarlo. Al aplicar protección a sus documentos, evita riesgos comunes como copiar o modificar documentos sin permiso, así como la fuga de datos.
@@ -25,7 +25,7 @@ Aspose.Words actualmente proporciona las características del documento enumerad
 
 | Aspose.Words función de protección | Artículo secundario correspondiente | Característica correspondiente de MS Word |
 | ------------------------------- | ------------------------------ | ------------------------------------------------------------ |
-| Solo Lectura | "Abrir un documento de solo lectura" | Siempre Abierto de solo lectura (Archivo → Información → Proteger documento)<br />Función alternativa: "Contraseña para modificar" (Guardar como → Herramientas → Opciones generales → Contraseña) |
+| Solo Lectura | "Hacer que un documento sea de solo lectura" | Siempre Abierto de solo lectura (Archivo → Información → Proteger documento)<br />Función alternativa: "Contraseña para modificar" (Guardar como → Herramientas → Opciones generales → Contraseña) |
 | Cifrar un Documento | "Cifrar un documento" | Cifrar con contraseña (Archivo → Información → Proteger documento)<br />Función alternativa: "Contraseña para abrir" (Guardar como → Herramientas → Opciones generales → Contraseña) |
 | Restringir la Edición | "Restringir la Edición de Documentos" | Restringir la Edición (Archivo-Información-Proteger documento)<br />Función alternativa: "Restringir la edición" (Revisar → Proteger → Restringir la edición) |
 | Firmas Digitales | "Trabajar con Firmas Digitales" | Agregar una Firma Digital (Archivo → Información → Proteger documento) |

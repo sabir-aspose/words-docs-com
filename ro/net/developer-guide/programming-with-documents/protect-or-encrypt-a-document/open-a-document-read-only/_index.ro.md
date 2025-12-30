@@ -1,16 +1,16 @@
 ---
-title: Deschide un Document doar pentru citire în C#
+title: Faceți un document doar pentru citire în C#
 second_title: Aspose.Words pentru .NET
-articleTitle: Deschide documentul ca citire doar
-linktitle: Deschide documentul ca citire doar
+articleTitle: Faceți un document doar pentru citire
+linktitle: Faceți un document doar pentru citire
 description: "Fă-ți documentul de doar citire astfel încât conținutul să poată fi copiat sau citit, dar nu modificat folosind C#."
 type: docs
 weight: 10
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /ro/net/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /ro/net/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 Uneori, s-ar putea să ai un document care necesită o revizuire dar nu vrei ca revisorii să modifice în mod aleatoriu conținutul tău. Aspose.Words îți permite să faci permisiunea documentului doar pentru citit, astfel încât conținutul poate fi copiat sau citit, dar nu modificat. Aceasta va împiedica conținutul să fie eliminat sau adăugat la documentul dumneavoastră.

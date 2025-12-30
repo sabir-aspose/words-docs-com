@@ -10,7 +10,7 @@ ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/cpp/protect-or-encrypt-a-document/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-12-30-12-07-05
 ---
 
 Lý do chính để bảo vệ hoặc mã hóa tài liệu là áp dụng nhiều quyền kiểm soát hơn đối với ai có thể truy cập tài liệu hoặc ai có thể chỉnh sửa tài liệu. Áp dụng bảo vệ cho tài liệu của bạn, bạn tránh các rủi ro phổ biến như sao chép hoặc sửa đổi tài liệu mà không được phép, cũng như rò rỉ dữ liệu.
@@ -25,7 +25,7 @@ Aspose.Words hiện đang cung cấp các tính năng tài liệu được liệ
 
 | Aspose.Words tính năng bảo vệ | Bài viết con tương ứng | Tính năng Từ MS tương ứng |
 | ------------------------------- | ------------------------------ | ------------------------------------------------------------ |
-| Chỉ Đọc | "Mở Tài liệu Chỉ Đọc" | Luôn Mở Chỉ Đọc (Tệp → Thông Tin → Bảo Vệ Tài Liệu)<br />Tính năng thay thế:" Mật Khẩu để sửa đổi " (Lưu Dưới Dạng → Công Cụ → Tùy Chọn Chung → Mật Khẩu) |
+| Chỉ Đọc | "Đặt tài liệu ở chế độ chỉ đọc" | Luôn Mở Chỉ Đọc (Tệp → Thông Tin → Bảo Vệ Tài Liệu)<br />Tính năng thay thế:" Mật Khẩu để sửa đổi " (Lưu Dưới Dạng → Công Cụ → Tùy Chọn Chung → Mật Khẩu) |
 | Mã hóa Tài liệu | "Mã hóa Tài liệu" | Mã hóa Bằng Mật Khẩu (Tệp → Thông Tin → Bảo vệ Tài liệu)<br />Tính năng thay thế: "Mật Khẩu để mở" (Lưu Dưới Dạng → Công Cụ → Tùy Chọn Chung → Mật Khẩu) |
 | Hạn Chế Chỉnh Sửa | "Hạn Chế Chỉnh Sửa Tài Liệu" | Hạn Chế Chỉnh Sửa (File-Info-Protect Document)<br />Tính năng thay thế: "Hạn Chế Chỉnh Sửa" (Xem Lại → Bảo Vệ → Hạn Chế Chỉnh Sửa) |
 | Chữ Ký Số | "Làm việc Với Chữ Ký Số" | Thêm Chữ Ký Số (Tệp → Thông Tin → Bảo vệ Tài liệu) |

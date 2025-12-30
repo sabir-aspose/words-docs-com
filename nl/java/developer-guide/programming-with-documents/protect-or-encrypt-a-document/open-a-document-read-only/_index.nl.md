@@ -1,16 +1,16 @@
 ---
 title: Document alleen lezen in Java
 second_title: Aspose.Words voor Java
-articleTitle: Een document alleen-lezen openen
-linktitle: Een document alleen-lezen openen
+articleTitle: Een document alleen-lezen maken
+linktitle: Een document alleen-lezen maken
 description: "Maak uw document alleen-lezen zodat de inhoud kan worden gekopieerd of gelezen, maar niet gewijzigd met behulp van Java."
 type: docs
 weight: 10
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /nl/java/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /nl/java/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 Soms heb je een document dat een review nodig heeft, maar je wilt niet dat beoordelaars willekeurig je inhoud wijzigen. Aspose.Words kunt u de toestemming van uw document alleen-lezen zodat de inhoud kan worden gekopieerd of gelezen, maar niet gewijzigd. Dit voorkomt dat inhoud wordt verwijderd of toegevoegd aan uw document.

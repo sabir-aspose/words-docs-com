@@ -1,16 +1,16 @@
 ---
-title: Otwórz dokument tylko do odczytu w Python
+title: Utwórz dokument tylko do odczytu w Python
 second_title: Aspose.Words dla Python via .NET
-articleTitle: Otwórz dokument tylko do odczytu
-linktitle: Otwórz dokument tylko do odczytu
+articleTitle: Utwórz dokument tylko do odczytu
+linktitle: Utwórz dokument tylko do odczytu
 description: "Ustaw dokument jako tylko do odczytu, aby zawartość mogła być kopiowana lub czytana, ale nie modyfikowana przy użyciu Python."
 type: docs
 weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /pl/python-net/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /pl/python-net/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 Czasami możesz mieć dokument wymagający sprawdzenia, ale nie chcesz, aby recenzenci losowo modyfikowali Twoją treść. Aspose.Words umożliwia ustawienie uprawnień do dokumentu jako tylko do odczytu, dzięki czemu zawartość można kopiować lub czytać, ale nie można jej modyfikować. Zapobiegnie to usunięciu lub dodaniu treści do dokumentu.

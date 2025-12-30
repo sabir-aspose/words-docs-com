@@ -1,17 +1,19 @@
 ---
-title: Open a Document Read-Only in C#
+title: Make a Document Read-Only in C#
 second_title: Aspose.Words for .NET
-articleTitle: Open a Document Read-Only
-linktitle: Open a Document Read-Only
+articleTitle: Make a Document Read-Only
+linktitle: Make a Document Read-Only
 description: "Make your document read-only so that the content can be copied or read, but not modified using C#."
 type: docs
 weight: 10
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /net/open-a-document-read-only/
-aliases: [/net/document-protection/]
-timestamp: 2024-01-27-14-07-04
+url: /net/make-a-document-read-only/
+aliases:
+- /net/document-protection/
+- /net/open-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 {{% alert color="grey" %}}
@@ -32,7 +34,7 @@ Applying the read-only option to your document does not prevent someone from cre
 
 This article explains how to make a document read-only.
 
-## Make a Document Read-Only
+## How to Make a Document Read-Only
 
 Aspose.Words has the public class [WriteProtection](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/) that specifies write protection settings for a document. You do not create instances of this class directly.
 

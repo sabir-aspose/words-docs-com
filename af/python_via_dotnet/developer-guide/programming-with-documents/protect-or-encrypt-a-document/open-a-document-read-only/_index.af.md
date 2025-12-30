@@ -1,16 +1,16 @@
 ---
-title: Open'n Dokument Leesalleen in Python
+title: Maak'n Dokument Leesalleen in Python
 second_title: Aspose.Words vir Python via .NET
-articleTitle: Open'n Leesalleen Dokument
-linktitle: Open'n Leesalleen Dokument
+articleTitle: Maak'n Leesalleen Dokument
+linktitle: Maak'n Leesalleen Dokument
 description: "Maak u dokument leesalleen sodat die inhoud gekopieer of gelees kan word, maar nie met Python gewysig kan word nie."
 type: docs
 weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /af/python-net/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /af/python-net/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 Soms het u'n dokument wat'n hersiening benodig, maar u wil nie hê dat beoordelaars u inhoud lukraak moet verander nie. Aspose.Words laat jou toe om die toestemming van jou dokument leesalleen te maak sodat die inhoud gekopieer of gelees kan word, maar nie gewysig kan word nie. Dit sal voorkom dat inhoud verwyder of by u dokument gevoeg word.

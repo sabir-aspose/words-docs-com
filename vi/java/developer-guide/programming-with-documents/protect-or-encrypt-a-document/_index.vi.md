@@ -10,7 +10,7 @@ ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/java/protect-or-encrypt-a-document/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-12-30-12-07-05
 ---
 
 Lý do chính để bảo vệ hoặc mã hóa một tài liệu là áp dụng sự kiểm soát hơn đối với người có thể truy cập vào tài liệu hoặc người có thể chỉnh sửa nó. Áp dụng bảo vệ cho các tài liệu của bạn, bạn tránh những rủi ro phổ biến như sao chép hoặc sửa đổi các tài liệu mà không có sự cho phép cũng như rò rỉ dữ liệu.
@@ -25,7 +25,7 @@ Aspose.Words hiện đang cung cấp các tính năng tài liệu được liệ
 
 | Aspose.Words tính năng bảo vệ | Bài viết con tương ứng | Tính tương ứng của tính năng MS Word |
 | ------------------------------- | ------------------------------ | ------------------------------------------------------------ |
-| Chỉ Đọc | Mở Tài liệu ở Chế độ Chỉ Đọc | Luôn mở chỉ đọc (File → Thông tin → Bảo vệ Tài liệu) <br />Tính năng thay thế: "Mật khẩu để sửa đổi" (Lưu dưới dạng → Công cụ → Tùy chọn chung → Mật khẩu) |
+| Chỉ Đọc | Đặt tài liệu ở chế độ chỉ đọc | Luôn mở chỉ đọc (File → Thông tin → Bảo vệ Tài liệu) <br />Tính năng thay thế: "Mật khẩu để sửa đổi" (Lưu dưới dạng → Công cụ → Tùy chọn chung → Mật khẩu) |
 | Mã hóa một Tài liệu | Mã hóa một Tài liệu | Mã hóa với mật khẩu (Tệp → Thông tin → Bảo vệ tài liệu)<br />Tính năng thay thế: "Mật khẩu mở" (Lưu là → Công cụ → Tùy chọn chung → Mật khẩu) |
 | Chế độ chỉnh sửa hạn chế | Tắt Chỉnh sửa Tài liệu | Chế độ hạn chế (Tập tin - Thông tin - Bảo vệ tập tin) <br />Tính năng thay thế: "Chế độ hạn chế" (Xem lại → Bảo vệ → Chế độ hạn chế) |
 | Chữ ký số | Làm việc với Chữ ký số | Thêm Chữ ký Số (File → Info → Bảo vệ Tài liệu) |

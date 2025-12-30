@@ -9,8 +9,8 @@ weight: 10
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /zh/cpp/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /zh/cpp/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 有时，您可能有一个文档需要审阅，但您不希望审阅者随机修改您的内容。 Aspose.Words允许您将文档的权限设置为只读，以便可以复制或读取内容，但不能修改内容。 这将防止内容被删除或添加到您的文档中。

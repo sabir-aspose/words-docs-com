@@ -1,16 +1,16 @@
 ---
-title: פתח מסמך לקריאה בלבד C#
+title: הפוך מסמך לקריאה בלבד C#
 second_title: Aspose.Words עבור .NET
-articleTitle: פתח מסמך לקריאה בלבד
-linktitle: פתח מסמך לקריאה בלבד
+articleTitle: הפוך מסמך לקריאה בלבד
+linktitle: הפוך מסמך לקריאה בלבד
 description: "להפוך את המסמך לקריאה בלבד כך שניתן להעתיק את התוכן או לקרוא, אך לא לשנות באמצעות שימוש C#."
 type: docs
 weight: 10
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /he/net/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /he/net/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 לפעמים, ייתכן שיש לך מסמך שזקוק לסקירה, אבל אתה לא רוצה שמבקרים ישתנו באופן אקראי את התוכן שלך. Aspose.Words מאפשר לך להפוך את הרשאת המסמך לקריאה בלבד כך שניתן להעתיק את התוכן או לקרוא, אך לא לשנות. זה ימנע תוכן להסיר או להוסיף למסמכים שלך.

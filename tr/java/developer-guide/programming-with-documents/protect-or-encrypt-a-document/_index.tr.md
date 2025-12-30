@@ -10,7 +10,7 @@ ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/java/protect-or-encrypt-a-document/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-12-30-12-07-05
 ---
 
 Bir belgeyi korumak ya da şifrelemek için ana neden, kimlerin belgenin erişimine sahip olabileceğini ya da düzenleyebileceğini kontrol etmek için daha fazla güç kullanmaktır. Belgenize koruma uygulayarak, izin olmadan belgeleri kopyalama veya değiştirme gibi yaygın risklerden kaçınabilirsiniz, ayrıca veri sızıntısı.

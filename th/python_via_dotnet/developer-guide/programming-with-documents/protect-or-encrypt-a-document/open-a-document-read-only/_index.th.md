@@ -9,8 +9,8 @@ weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /th/python-net/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /th/python-net/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 บางครั้ง คุณอาจมีเอกสารที่จำเป็นต้องตรวจสอบ แต่คุณไม่ต้องการให้ผู้ตรวจสอบสุ่มแก้ไขเนื้อหาของคุณ Aspose.Words อนุญาตให้คุณให้สิทธิ์ในเอกสารของคุณแบบอ่านอย่างเดียว เพื่อให้สามารถคัดลอกหรืออ่านเนื้อหาได้ แต่ไม่สามารถแก้ไขได้ วิธีนี้จะป้องกันไม่ให้เนื้อหาถูกลบหรือเพิ่มลงในเอกสารของคุณ

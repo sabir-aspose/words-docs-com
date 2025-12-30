@@ -10,7 +10,7 @@ ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/cpp/protect-or-encrypt-a-document/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-12-30-12-07-05
 ---
 
 A principal razão para proteger ou criptografar um documento é aplicar mais controle sobre quem pode acessar o documento ou quem pode editá-lo. Ao aplicar proteção aos seus documentos, evita riscos comuns, como copiar ou modificar documentos sem autorização, bem como fugas de dados.
@@ -25,7 +25,7 @@ Aspose.Words fornece actualmente as características do documento enumeradas na 
 
 | Aspose.Words função de protecção | Artigo filho correspondente | Correspondente MS palavra característica |
 | ------------------------------- | ------------------------------ | ------------------------------------------------------------ |
-| Somente Leitura | "Abrir um documento apenas leitura" | Sempre Aberto Apenas Para Leitura (Ficheiro 9 Info 3 Proteger Documento)<br />Recurso alternativo: "Password to modify" (Salvar como "Ferramentas" Opções Gerais "senha") |
+| Somente Leitura | "Tornar um documento de leitura apenas" | Sempre Aberto Apenas Para Leitura (Ficheiro 9 Info 3 Proteger Documento)<br />Recurso alternativo: "Password to modify" (Salvar como "Ferramentas" Opções Gerais "senha") |
 | Criptografar um documento | "Encriptar um documento" | Encriptar com palavra-passe (ficheiro (ficheiro)<br />Recurso alternativo: "senha para abrir" (Salvar como ferramentas de ferramentas de Opções Gerais de Opções Gerais de senha) |
 | Restringir A Edição | "Restringir Edição De Documentos" | Restringir A Edição (Documento File – Info – Protect)<br />Alternativa de recurso: "Restringir a Edição" (Revisão → Proteger → restrição de Edição) |
 | Assinaturas Digitais | "Trabalhar com assinaturas digitais" | Adicionar uma assinatura Digital (ficheiro [ficheiro]] |

@@ -1,16 +1,16 @@
 ---
-title: Apri un documento di sola lettura in C#
+title: Rendere un documento di sola lettura in C#
 second_title: Aspose.Words per .NET
-articleTitle: Apri un documento di sola lettura
-linktitle: Apri un documento di sola lettura
+articleTitle: Rendere un documento di sola lettura
+linktitle: Rendere un documento di sola lettura
 description: "Rendi il tuo documento di sola lettura in modo che il contenuto possa essere copiato o letto, ma non modificato utilizzando C#."
 type: docs
 weight: 10
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /it/net/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /it/net/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 A volte, potresti avere un documento che necessita di una revisione, ma non vuoi che i revisori modifichino i tuoi contenuti in modo casuale. Aspose.Words ti consente di rendere l'autorizzazione del tuo documento di sola lettura in modo che il contenuto possa essere copiato o letto, ma non modificato. Ciò impedirà che il contenuto venga rimosso o aggiunto al documento.

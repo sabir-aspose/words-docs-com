@@ -1,16 +1,18 @@
 ---
-title: Open a Document Read-Only in Node.js
+title: Make a Document Read-Only in Node.js
 second_title: Aspose.Words for Node.js via .NET
-articleTitle: Open a Document Read-Only
-linktitle: Open a Document Read-Only
+articleTitle: Make a Document Read-Only
+linktitle: Make a Document Read-Only
 description: "Make your document read-only so that the content can be copied or read, but not modified using Node.js."
 type: docs
 weight: 10
 ai_search_scope: words_nodejs
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /nodejs-net/open-a-document-read-only/
-timestamp: 2025-07-09-10-05-05
+url: /nodejs-net/make-a-document-read-only/
+aliases:
+- /nodejs-net/open-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 Sometimes, you may have a document that needs a review, but you do not want reviewers to randomly modify your content. Aspose.Words allows you to make the permission of your document read-only so that the content can be copied or read, but not modified. This will prevent content from being removed or added to your document.

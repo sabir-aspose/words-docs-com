@@ -1,5 +1,5 @@
 ﻿---
-title: افتح مستندا للقراءة فقط في Java
+title: اجعل المستند للقراءة فقطJava
 second_title: Aspose.Words ل Java
 articleTitle: افتح مستندا للقراءة فقط
 linktitle: افتح مستندا للقراءة فقط
@@ -9,8 +9,8 @@ weight: 10
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /ar/java/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /ar/java/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 في بعض الأحيان، قد يكون لديك مستند يحتاج إلى مراجعة، لكنك لا تريد أن يقوم المراجعون بتعديل المحتوى الخاص بك بشكل عشوائي. Aspose.Words يسمح لك بإجراء إذن المستند للقراءة فقط بحيث يمكن نسخ المحتوى أو قراءته، ولكن لا يمكن تعديله. سيؤدي هذا إلى منع إزالة المحتوى أو إضافته إلى المستند الخاص بك.

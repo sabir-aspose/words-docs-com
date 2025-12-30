@@ -9,8 +9,8 @@ weight: 10
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /zh-hant/net/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /zh-hant/net/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 有時，你可能會有一份需要審查的文件，但是你不想讓審查人員隨意修改你的內容。透過 Aspose.Words ，您可以設定您的文件權限為只讀，這樣就可以讓内容被複製或閱讀，但不能被修改。 這將防止您的檔案中內容被移除或加入。
