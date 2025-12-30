@@ -1,16 +1,16 @@
 ---
-title: Deschiderea unui Document numai în citire în Python
+title: Faceți un document doar pentru citire în Python
 second_title: Aspose.Words pentru Python via .NET
-articleTitle: Deschiderea unui Document numai în citire
-linktitle: Deschiderea unui Document numai în citire
+articleTitle: Faceți un document doar pentru citire
+linktitle: Faceți un document doar pentru citire
 description: "Faceți documentul numai în citire, astfel încât conținutul să poată fi copiat sau citit, dar nu modificat folosind Python."
 type: docs
 weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /ro/python-net/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /ro/python-net/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 Uneori, este posibil să aveți un document care necesită o recenzie, dar nu doriți ca recenzenții să vă modifice aleatoriu conținutul. Aspose.Words vă permite să faceți permisiunea documentului dvs. numai pentru citire, astfel încât conținutul să poată fi copiat sau citit, dar nu modificat. Acest lucru va împiedica eliminarea sau adăugarea conținutului în documentul dvs.

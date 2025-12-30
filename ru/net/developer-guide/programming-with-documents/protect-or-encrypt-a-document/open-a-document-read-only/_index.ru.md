@@ -1,16 +1,16 @@
 ---
-title: Откройте документ Read-Only in C#
+title: Сделать документ доступным только для чтения C#
 second_title: Aspose.Words для .NET
-articleTitle: Откройте документ только для чтения
-linktitle: Откройте документ только для чтения
+articleTitle: Сделать документ доступным только для чтения
+linktitle: Сделать документ доступным только для чтения
 description: "Сделайте ваш документ только для чтения, чтобы контент мог быть скопирован или прочитан, но не изменен с помощью C#."
 type: docs
 weight: 10
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /ru/net/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /ru/net/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 Иногда у вас может быть документ, который нуждается в обзоре, но вы не хотите, чтобы рецензенты случайным образом изменяли ваш контент. Aspose.Words Позволяет сделать разрешение вашего документа только для чтения, чтобы контент мог быть скопирован или прочитан, но не изменен. Это предотвратит удаление или добавление контента в ваш документ.

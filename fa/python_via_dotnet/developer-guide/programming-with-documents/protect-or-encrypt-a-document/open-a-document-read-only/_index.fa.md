@@ -1,16 +1,16 @@
 ---
-title: یک سند فقط خواندنی را در Python باز کنید
+title: یک سند را فقط خواندنی کنید Python
 second_title: Aspose.Words برای Python via .NET
-articleTitle: یک سند فقط خواندنی را باز کنید
-linktitle: یک سند فقط خواندنی را باز کنید
+articleTitle: یک سند را فقط خواندنی کنید
+linktitle: یک سند را فقط خواندنی کنید
 description: "سند خود را فقط خواندنی کنید تا محتوا قابل کپی یا خواندن باشد، اما با استفاده از Python اصلاح نشود."
 type: docs
 weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /fa/python-net/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /fa/python-net/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 گاهی اوقات، ممکن است سندی داشته باشید که نیاز به بررسی داشته باشد، اما نمی خواهید بازبینان به طور تصادفی محتوای شما را تغییر دهند. Aspose.Words به شما این امکان را می دهد که مجوز سند خود را فقط خواندنی کنید تا محتوا قابل کپی یا خواندن باشد، اما اصلاح نشود. این از حذف یا اضافه شدن محتوا به سند شما جلوگیری می کند.

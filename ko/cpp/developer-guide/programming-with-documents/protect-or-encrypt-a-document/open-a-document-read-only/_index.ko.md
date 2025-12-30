@@ -1,16 +1,16 @@
 ---
-title: 읽기 전용으로 문서 열기 C++
+title: 문서를 읽기 전용으로 설정 C++
 second_title: Aspose.Words 에 대한 C++
-articleTitle: 읽기 전용 문서 열기
-linktitle: 읽기 전용 문서 열기
+articleTitle: 문서를 읽기 전용으로 설정
+linktitle: 문서를 읽기 전용으로 설정
 description: "내용을 복사하거나 읽을 수 있지만 수정할 수는 없도록 문서를 읽기 전용으로 만듭니다."
 type: docs
 weight: 10
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /ko/cpp/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /ko/cpp/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 때때로 검토가 필요한 문서가 있을 수 있지만 검토자가 콘텐츠를 임의로 수정하지 않도록 합니다. Aspose.Words 내용을 복사하거나 읽을 수 있지만 수정할 수는 없도록 문서의 권한을 읽기 전용으로 만들 수 있습니다. 이렇게 하면 콘텐츠가 제거되거나 문서에 추가되는 것을 방지할 수 있습니다.

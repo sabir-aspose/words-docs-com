@@ -10,7 +10,7 @@ ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /net/protect-or-encrypt-a-document/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-12-30-12-07-05
 ---
 
 {{% alert color="grey" %}}
@@ -33,7 +33,7 @@ Aspose.Words currently provides the document features listed in the table below.
 
 | Aspose.Words protection feature | Corresponding child article    | Corresponding MS Word feature                                |
 | ------------------------------- | ------------------------------ | ------------------------------------------------------------ |
-| Read-Only                       | “Open a Document Read-Only”    | Always Open Read-Only (File → Info → Protect Document)<br />Alternative feature: "Password to modify" (Save As → Tools → General Options → Password) |
+| Read-Only                       | “Make a Document Read-Only”    | Always Open Read-Only (File → Info → Protect Document)<br />Alternative feature: "Password to modify" (Save As → Tools → General Options → Password) |
 | Encrypt a Document              | “Encrypt a Document”           | Encrypt with Password (File → Info → Protect Document)<br />Alternative feature: "Password to open" (Save As → Tools → General Options → Password) |
 | Restrict Editing                | “Restrict Document Editing”    | Restrict Editing (File – Info – Protect Document)<br />Alternative feature: "Restrict Editing" (Review → Protect → Restrict Editing) |
 | Digital Signatures              | “Work with Digital Signatures” | Add a Digital Signature (File → Info → Protect Document)     |

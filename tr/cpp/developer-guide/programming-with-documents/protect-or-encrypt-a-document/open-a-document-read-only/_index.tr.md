@@ -1,16 +1,16 @@
 ---
-title: C++ içinde Salt Okunur Bir Belge Açma
+title: C++ içinde Belgeyi Salt Okunur Hale Getir
 second_title: Aspose.Words için C++
-articleTitle: Salt Okunur Belge Açma
-linktitle: Salt Okunur Belge Açma
+articleTitle: Belgeyi Salt Okunur Hale Getir
+linktitle: Belgeyi Salt Okunur Hale Getir
 description: "Belgenizi salt okunur hale getirin, böylece içerik kopyalanabilir veya okunabilir, ancak değiştirilemez."
 type: docs
 weight: 10
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /tr/cpp/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /tr/cpp/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 Bazen gözden geçirilmesi gereken bir belgeniz olabilir, ancak gözden geçirenlerin içeriğinizi rastgele değiştirmesini istemezsiniz. Aspose.Words içeriğin kopyalanabilmesi veya okunabilmesi, ancak değiştirilememesi için belgenizin iznini salt okunur hale getirmenize olanak tanır. Bu, içeriğin kaldırılmasını veya belgenize eklenmesini engeller.

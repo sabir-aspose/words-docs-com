@@ -1,16 +1,16 @@
 ﻿---
-title: Откройте документ, доступный только для чтения, в Python
+title: Сделать документ доступным только для чтения, в Python
 second_title: Aspose.Words для Python via .NET
-articleTitle: Открыть документ, доступный только для чтения
-linktitle: Открыть документ, доступный только для чтения
+articleTitle: Сделать документ доступным только для чтения
+linktitle: Сделать документ доступным только для чтения
 description: "Сделайте ваш документ доступным только для чтения, чтобы его содержимое можно было скопировать или прочитать, но не изменять с помощью Python."
 type: docs
 weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /ru/python-net/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /ru/python-net/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 Иногда у вас может быть документ, который нуждается в проверке, но вы не хотите, чтобы рецензенты произвольно изменяли ваше содержимое. Aspose.Words позволяет настроить разрешение вашего документа только для чтения, чтобы содержимое можно было копировать или читать, но не изменять. Это предотвратит удаление или добавление содержимого в ваш документ.

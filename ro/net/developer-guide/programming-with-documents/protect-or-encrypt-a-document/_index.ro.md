@@ -10,7 +10,7 @@ ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /ro/net/protect-or-encrypt-a-document/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-12-30-12-07-05
 ---
 
 Motivul principal pentru protejarea sau criptarea unui document este să aplicăm mai mult control asupra celor care pot accesa documentul sau cei care îl pot edita. Aplicând protecția asupra documentelor tale, eviți riscuri comune precum copierea sau modificarea documentelor fără permisiune, ca și scurgerea datelor.
@@ -25,7 +25,7 @@ Aspose.Words oferă în prezent caracteristicile de document enumerate în tabel
 
 | Aspose.Words caracteristică de protecție | Articolul corespunzător pentru copii | Caracteristică corespunzătoare din MS Word |
 | ------------------------------- | ------------------------------ | ------------------------------------------------------------ |
-| Citire numai | Deschide documentul ca citire doar | Întotdeauna deschis doar pentru citire (Fișier → Informații → Protejare document)<br />Caracteristică alternativă: "Parolă pentru modificare" (Salvați ca → Instrumente → Opțiuni generale → Parolă) |
+| Citire numai | Faceți un document doar pentru citire | Întotdeauna deschis doar pentru citire (Fișier → Informații → Protejare document)<br />Caracteristică alternativă: "Parolă pentru modificare" (Salvați ca → Instrumente → Opțiuni generale → Parolă) |
 | Criptați un document | "Criptați un document" | Șifrează cu parolă (Fișier → Info → Protejează documentul) <br />Caracteristică alternativă: "Parola pentru deschidere" (Salvare ca → Instrumente → Opțiuni generale → Parolă) |
 | Restricţionează editarea | "Restricționarea Editarea Documentului | Restricţiona Editarea (Fișier – Info – Protejează Documentul)<br />Funcţionalitate alternativă: "Restricţiona Editarea" (Revizuire → Protejează → Restricţionează Editarea) |
 | Semnături digitale | Lucraţi cu Semnături Digitale | Adăugare semnătură digitală (Fișier → Informații → Protejați documentul) |

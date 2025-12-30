@@ -10,7 +10,7 @@ ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pl/cpp/protect-or-encrypt-a-document/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-12-30-12-07-05
 ---
 
 Głównym powodem ochrony lub szyfrowania dokumentu jest zastosowanie większej kontroli nad tym, kto może uzyskać dostęp do dokumentu lub kto może go edytować. Stosując ochronę dokumentów, unikasz typowych zagrożeń, takich jak kopiowanie lub modyfikowanie dokumentów bez pozwolenia, a także wyciek danych.
@@ -25,7 +25,7 @@ Aspose.Words obecnie udostępnia funkcje dokumentu wymienione w poniższej tabel
 
 | Aspose.Words funkcja ochrony | Odpowiedni artykuł podrzędny | Odpowiadające MS Word funkcja |
 | ------------------------------- | ------------------------------ | ------------------------------------------------------------ |
-| Tylko Do Odczytu | "Otwórz dokument Tylko do odczytu" | Zawsze Otwieraj Tylko Do Odczytu (Plik → Informacje → Chroń Dokument)<br />Alternatywna funkcja: "hasło do modyfikacji" (Zapisz jako → Narzędzia → Opcje Ogólne → hasło) |
+| Tylko Do Odczytu | "Utwórz dokument tylko do odczytu" | Zawsze Otwieraj Tylko Do Odczytu (Plik → Informacje → Chroń Dokument)<br />Alternatywna funkcja: "hasło do modyfikacji" (Zapisz jako → Narzędzia → Opcje Ogólne → hasło) |
 | Zaszyfruj dokument | "Zaszyfruj dokument" | Zaszyfruj hasłem (Plik → Informacje → Chroń dokument)<br />Alternatywna funkcja: "hasło do otwarcia" (Zapisz jako → Narzędzia → Opcje Ogólne → hasło) |
 | Ogranicz Edycję | "Ogranicz Edycję Dokumentów" | Ogranicz Edycję (File-Info-Protect Document)<br />Alternatywna funkcja: "Ogranicz edycję "(Recenzja → Chroń → Ogranicz edycję) |
 | Podpisy Cyfrowe | "Praca z podpisami cyfrowymi" | Dodaj podpis cyfrowy (Plik → Informacje → Chroń dokument) |

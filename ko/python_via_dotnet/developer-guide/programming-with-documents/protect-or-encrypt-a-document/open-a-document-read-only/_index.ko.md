@@ -1,16 +1,16 @@
 ---
-title: Python에서 읽기 전용으로 문서 열기
+title: Python문서를 읽기 전용으로 설정
 second_title: Python via .NET용 Aspose.Words
-articleTitle: 문서를 읽기 전용으로 열기
-linktitle: 문서를 읽기 전용으로 열기
+articleTitle: 문서를 읽기 전용으로 설정
+linktitle: 문서를 읽기 전용으로 설정
 description: "Python를 사용하여 콘텐츠를 복사하거나 읽을 수 있지만 수정할 수 없도록 문서를 읽기 전용으로 만드세요."
 type: docs
 weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /ko/python-net/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /ko/python-net/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 검토가 필요한 문서가 있을 수 있지만 검토자가 콘텐츠를 임의로 수정하는 것을 원하지 않는 경우도 있습니다. Aspose.Words를 사용하면 문서의 권한을 읽기 전용으로 설정하여 콘텐츠를 복사하거나 읽을 수는 있지만 수정할 수는 없습니다. 이렇게 하면 콘텐츠가 문서에 제거되거나 추가되는 것을 방지할 수 있습니다.

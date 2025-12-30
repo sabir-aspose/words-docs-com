@@ -1,16 +1,16 @@
 ---
-title: Java içinde bir belgeyi salt okunur olarak açın
+title: Java içinde bir Belgeyi Salt Okunur Hale Getir
 second_title: Aspose.Words için Java
-articleTitle: Yalnızca Okuma Olarak Bir Belge Aç
-linktitle: Yalnızca Okuma Olarak Bir Belge Aç
+articleTitle: Belgeyi Salt Okunur Hale Getir
+linktitle: Belgeyi Salt Okunur Hale Getir
 description: "İçeriğin kopyalanmasına veya okunmasına izin vermek ama değiştirilmesine izin vermemek için belgenizi salt okunur hale getirin Java kullanarak."
 type: docs
 weight: 10
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /tr/java/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /tr/java/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 Bazen bir belgeye ihtiyacınız olabilir inceleme için, ancak gözden geçirenlerin içeriğinizi rastgele değiştirmesini istemeyebilirsiniz. Aspose.Words belgenizin izinlerini salt okunur hale getirmenize olanak tanır böylece içeriği kopyalayıp okuyabilir, ancak değiştirilemez. Bu, içeriğinizin belgenizden kaldırılmasını veya eklenmesini önleyecektir.

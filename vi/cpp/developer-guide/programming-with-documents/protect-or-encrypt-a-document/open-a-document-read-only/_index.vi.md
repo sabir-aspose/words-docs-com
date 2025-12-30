@@ -1,16 +1,16 @@
 ---
-title: Mở Tài liệu Chỉ Đọc trong C++
+title: Đặt tài liệu ở chế độ chỉ đọc C++
 second_title: Aspose.Words cho C++
-articleTitle: Mở Tài Liệu Chỉ Đọc
-linktitle: Mở Tài Liệu Chỉ Đọc
+articleTitle: Đặt tài liệu ở chế độ chỉ đọc
+linktitle: Đặt tài liệu ở chế độ chỉ đọc
 description: "Làm cho tài liệu của bạn chỉ đọc để nội dung có thể được sao chép hoặc đọc, nhưng không được sửa đổi."
 type: docs
 weight: 10
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /vi/cpp/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /vi/cpp/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 Đôi khi, bạn có thể có một tài liệu cần đánh giá, nhưng bạn không muốn người đánh giá sửa đổi ngẫu nhiên nội dung của bạn. Aspose.Words cho phép bạn thực hiện quyền chỉ đọc tài liệu của mình để nội dung có thể được sao chép hoặc đọc, nhưng không được sửa đổi. Điều này sẽ ngăn nội dung bị xóa hoặc thêm vào tài liệu của bạn.

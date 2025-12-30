@@ -1,16 +1,16 @@
 ---
-title: Otwórz dokument Read- Tylko w Java
+title: Utwórz dokument tylko do odczytu w Java
 second_title: Aspose.Words zamiast Java
-articleTitle: Otwórz tylko odczyt dokumentu
-linktitle: Otwórz tylko odczyt dokumentu
+articleTitle: Utwórz dokument tylko do odczytu
+linktitle: Utwórz dokument tylko do odczytu
 description: "Czyń swój dokument read- tylko tak, aby zawartość mogła być kopiowana lub odczytywana, ale nie modyfikowana przy użyciu Java."
 type: docs
 weight: 10
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /pl/java/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /pl/java/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 Czasami możesz mieć dokument, który wymaga przeglądu, ale nie chcesz, aby recenzenci losowo modyfikowali zawartość. Aspose.Words pozwala na odczytanie zgody dokumentu tylko po to, aby zawartość mogła być kopiowana lub odczytana, ale nie modyfikowana. Uniemożliwi to usunięcie lub dodanie treści do dokumentu.

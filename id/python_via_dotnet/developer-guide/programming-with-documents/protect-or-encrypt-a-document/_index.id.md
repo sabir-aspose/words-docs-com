@@ -10,7 +10,7 @@ ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /id/python-net/protect-or-encrypt-a-document/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-12-30-12-07-05
 ---
 
 Alasan utama untuk melindungi atau mengenkripsi dokumen adalah untuk menerapkan kontrol lebih besar terhadap siapa yang dapat mengakses dokumen atau siapa yang dapat mengeditnya. Dengan menerapkan perlindungan pada dokumen Anda, Anda terhindar dari risiko umum seperti menyalin atau memodifikasi dokumen tanpa izin, serta kebocoran data.
@@ -25,7 +25,7 @@ Aspose.Words saat ini menyediakan fitur dokumen yang tercantum pada tabel di baw
 
 |  Fitur perlindungan Aspose.Words |  Artikel anak yang sesuai |  Fitur MS Word yang sesuai |
 |  -------------------------------  |  ------------------------------  |  ------------------------------------------------------------  |
-|  Hanya Baca |  "Buka Dokumen Hanya-Baca" |  Selalu Buka Read-Only (File → Info → Lindungi Dokumen)<br /> Fitur alternatif: "Kata sandi untuk diubah" (Simpan Sebagai → Alat → Opsi Umum → Kata Sandi) |
+|  Hanya Baca |  "Jadikan Dokumen Hanya Dapat Dibaca" |  Selalu Buka Read-Only (File → Info → Lindungi Dokumen)<br /> Fitur alternatif: "Kata sandi untuk diubah" (Simpan Sebagai → Alat → Opsi Umum → Kata Sandi) |
 |  Enkripsi Dokumen |  "Enkripsi Dokumen" |  Enkripsi dengan Kata Sandi (File → Info → Lindungi Dokumen)<br /> Fitur alternatif: "Kata sandi untuk membuka" (Simpan Sebagai → Alat → Opsi Umum → Kata Sandi) |
 |  Batasi Pengeditan |  "Batasi Pengeditan Dokumen" |  Batasi Pengeditan (File – Info – Lindungi Dokumen)<br /> Fitur alternatif: "Batasi Pengeditan" (Tinjau → Lindungi → Batasi Pengeditan) |
 |  Tanda Tangan Digital |  "Bekerja dengan Tanda Tangan Digital" |  Tambahkan Tanda Tangan Digital (File → Info → Lindungi Dokumen) |

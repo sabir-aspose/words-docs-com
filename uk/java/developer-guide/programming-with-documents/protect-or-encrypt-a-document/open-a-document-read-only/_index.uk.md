@@ -1,16 +1,16 @@
 ---
-title: Відкрийте документ для читання Java
+title: Зробити документ доступним лише для читання Java
 second_title: Aspose.Words для Java
-articleTitle: Відкрийте документ для читання
-linktitle: Відкрийте документ для читання
+articleTitle: Зробити документ доступним лише для читання
+linktitle: Зробити документ доступним лише для читання
 description: "Зробіть свій документ прочитано, щоб вміст міг бути скопійовано або читати, але не змінено з використанням Javaй"
 type: docs
 weight: 10
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /uk/java/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /uk/java/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 Іноді ви можете мати документ, який потребує рецензування, але ви не хочете рецензентів випадковим чином змінити ваш контент. Aspose.Words дозволяє вам зробити дозвіл на читання документів, щоб вміст було скопійовано або читати, але не змінено. Це дозволить запобігти видаленню вмісту або додано до вашого документа.

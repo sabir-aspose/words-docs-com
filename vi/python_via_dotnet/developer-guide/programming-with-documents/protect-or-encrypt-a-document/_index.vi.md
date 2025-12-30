@@ -10,7 +10,7 @@ ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /vi/python-net/protect-or-encrypt-a-document/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-12-30-12-07-05
 ---
 
 Lý do chính để bảo vệ hoặc mã hóa tài liệu là để áp dụng nhiều quyền kiểm soát hơn đối với ai có thể truy cập tài liệu hoặc ai có thể chỉnh sửa tài liệu đó. Áp dụng biện pháp bảo vệ cho tài liệu của mình, bạn sẽ tránh được những rủi ro thường gặp như sao chép hoặc sửa đổi tài liệu mà không được phép cũng như rò rỉ dữ liệu.
@@ -25,7 +25,7 @@ Aspose.Words hiện cung cấp các tính năng tài liệu được liệt kê 
 
 |  Tính năng bảo vệ Aspose.Words |  Bài viết con tương ứng |  Tính năng MS Word tương ứng |
 |  -------------------------------  |  ------------------------------  |  ------------------------------------------------------------  |
-|  Chỉ đọc |  "Mở tài liệu chỉ đọc" |  Luôn mở chế độ chỉ đọc (Tệp → Thông tin → Bảo vệ tài liệu)<br /> Tính năng thay thế: "Mật khẩu cần sửa đổi" (Lưu dưới dạng → Công cụ → Tùy chọn chung → Mật khẩu) |
+|  Chỉ đọc |  "Đặt tài liệu ở chế độ chỉ đọc" |  Luôn mở chế độ chỉ đọc (Tệp → Thông tin → Bảo vệ tài liệu)<br /> Tính năng thay thế: "Mật khẩu cần sửa đổi" (Lưu dưới dạng → Công cụ → Tùy chọn chung → Mật khẩu) |
 |  Mã hóa một tài liệu |  "Mã hóa tài liệu" |  Mã hóa bằng mật khẩu (Tệp → Thông tin → Bảo vệ tài liệu)<br /> Tính năng thay thế: "Mật khẩu để mở" (Lưu dưới dạng → Công cụ → Tùy chọn chung → Mật khẩu) |
 |  Hạn chế chỉnh sửa |  "Hạn chế chỉnh sửa tài liệu" |  Hạn chế chỉnh sửa (Tệp – Thông tin – Bảo vệ tài liệu)<br /> Tính năng thay thế: "Hạn chế chỉnh sửa" (Xem lại → Bảo vệ → Hạn chế chỉnh sửa) |
 |  Chữ ký số |  "Làm việc với chữ ký số" |  Thêm chữ ký số (Tệp → Thông tin → Bảo vệ tài liệu) |

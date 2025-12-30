@@ -1,16 +1,16 @@
 ---
-title: باز کردن یک سند فقط برای خواندن در C++
+title: یک سند را فقط خواندنی کنید در C++
 second_title: Aspose.Words برای C++
-articleTitle: باز کردن یک سند فقط برای خواندن
-linktitle: باز کردن یک سند فقط برای خواندن
+articleTitle: یک سند را فقط خواندنی کنید
+linktitle: یک سند را فقط خواندنی کنید
 description: "سند خود را فقط برای خواندن تهیه کنید تا محتوا کپی یا خوانده شود، اما اصلاح نشود."
 type: docs
 weight: 10
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /fa/cpp/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /fa/cpp/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 گاهی اوقات، ممکن است سندی داشته باشید که نیاز به بررسی داشته باشد، اما نمی خواهید بازبینی کنندگان محتوای شما را به طور تصادفی تغییر دهند. Aspose.Words به شما اجازه می دهد تا اجازه خواندن سند خود را فقط به طوری که محتوا می تواند کپی یا خوانده شود، اما اصلاح نشده است. این کار از حذف یا اضافه شدن محتوا به سند شما جلوگیری می کند.

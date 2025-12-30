@@ -1,16 +1,16 @@
 ﻿---
-title: Отваряне на документ само за четене в C++
+title: Направете документ само за четене в C++
 second_title: Aspose.Words за C++
-articleTitle: Отваряне на документ само за четене
-linktitle: Отваряне на документ само за четене
+articleTitle: Направете документ само за четене
+linktitle: Направете документ само за четене
 description: "Направете документа само за четене, така че съдържанието да може да се копира или чете, но да не се променя."
 type: docs
 weight: 10
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /bg/cpp/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /bg/cpp/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 Понякога може да имате документ, който се нуждае от преглед, но не искате проверяващите да променят съдържанието ви на случаен принцип. Aspose.Words Позволява ви да направите разрешение за вашия документ само за четене, така че съдържанието да може да се копира или чете, но не и да се променя. Това ще предотврати премахването или добавянето на съдържание към вашия документ.

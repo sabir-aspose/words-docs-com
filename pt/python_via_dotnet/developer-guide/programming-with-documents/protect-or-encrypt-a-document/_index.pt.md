@@ -10,7 +10,7 @@ ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /pt/python-net/protect-or-encrypt-a-document/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-12-30-12-07-05
 ---
 
 O principal motivo para proteger ou criptografar um documento é aplicar mais controle sobre quem pode acessá-lo ou editá-lo. Aplicando proteção aos seus documentos, você evita riscos comuns como copiar ou modificar documentos sem permissão, bem como vazamento de dados.
@@ -25,7 +25,7 @@ Aspose.Words atualmente fornece os recursos de documento listados na tabela abai
 
 |  Recurso de proteção Aspose.Words |  Artigo filho correspondente |  Recurso correspondente do MS Word |
 |  -------------------------------  |  ------------------------------  |  ------------------------------------------------------------  |
-|  Somente leitura |  "Abrir um documento somente leitura" |  Sempre aberto somente leitura (Arquivo → Informações → Proteger documento)<br /> Recurso alternativo: "Senha para modificar" (Salvar como → Ferramentas → Opções gerais → Senha) |
+|  Somente leitura |  "Tornar um documento de leitura apenas" |  Sempre aberto somente leitura (Arquivo → Informações → Proteger documento)<br /> Recurso alternativo: "Senha para modificar" (Salvar como → Ferramentas → Opções gerais → Senha) |
 |  Criptografar um documento |  "Criptografar um documento" |  Criptografar com senha (Arquivo → Informações → Proteger documento)<br /> Recurso alternativo: "Senha para abrir" (Salvar como → Ferramentas → Opções Gerais → Senha) |
 |  Restringir edição |  "Restringir edição de documentos" |  Restringir edição (Arquivo – Informações – Proteger documento)<br /> Recurso alternativo: "Restringir Edição" (Revisar → Proteger → Restringir Edição) |
 |  Assinaturas digitais |  "Trabalhar com assinaturas digitais" |  Adicione uma assinatura digital (Arquivo → Informações → Proteger documento) |

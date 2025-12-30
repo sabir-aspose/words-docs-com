@@ -1,16 +1,16 @@
 ﻿---
 title: Javaで読み取り専用の文書を開く
 second_title: Aspose.WordsのためのJava
-articleTitle: ドキュメントを読み取り専用で開く
-linktitle: ドキュメントを読み取り専用で開く
+articleTitle: ドキュメントを読み取り専用にする
+linktitle: ドキュメントを読み取り専用にする
 description: "ドキュメントを読み取り専用にして、コンテンツをコピーまたは読み取ることができますが、Javaを使用して変更しないようにします。"
 type: docs
 weight: 10
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /ja/java/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /ja/java/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 場合によっては、レビューが必要なドキュメントがありますが、レビュー担当者がコンテンツをランダムに変更しないようにすることがあります。 Aspose.Wordsドキュメントのアクセス許可を読み取り専用にすることで、コンテンツをコピーまたは読み取りできますが、変更はできません。Aspose.Wordsを使用すると、ドキ これにより、コンテンツが削除されたり、ドキュメントに追加されたりするのを防ぐことができます。

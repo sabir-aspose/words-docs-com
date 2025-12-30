@@ -10,7 +10,7 @@ ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /he/net/protect-or-encrypt-a-document/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-12-30-12-07-05
 ---
 
 הסיבה העיקרית להגן או להצפין מסמך היא להחיל יותר שליטה על מי יכול לגשת למסמך או מי יכול לערוך אותו. החלת הגנה על המסמכים שלך, אתה נמנע סיכונים משותפים כגון העתקה או שינוי מסמכים ללא רשות, כמו גם דליפת נתונים.
@@ -25,7 +25,7 @@ Aspose.Words עכשיו מספק את תכונות המסמך המפורטות �
 
 |  Aspose.Words תכונות הגנה |  מאמר בנושא ילדים |  המונחים: MS תכונה Word |
 |  -------------------------------  |  ------------------------------  |  ------------------------------------------------------------  |
-|  Read-Only |  פתח מסמך לקריאה בלבד |  Always Open Read-Only (File) Protect Document)<br/>תכונה חלופית: "Password to Change" (Save As) Tools |
+|  Read-Only |  הפוך מסמך לקריאה בלבד |  Always Open Read-Only (File) Protect Document)<br/>תכונה חלופית: "Password to Change" (Save As) Tools |
 |  הצפנה מסמך |  "להקריא מסמך" |  מוצפן עם סיסמה (File - Information) Protect Document)<br/>תכונה חלופית: "Password to open" (Save As) Tools |
 |  הגבלת עריכה |  מסמך הגבלת עריכה |  הגבלת עריכה (File - Info - Protect Document)<br/>תכונה חלופית: "Restrict Editing" (ביקורת על הגבלת עריכה) |
 |  חתימה דיגיטלית |  עבודה עם חתימה דיגיטלית |  הוסף חתימה דיגיטלית (File) מסמך הגנה |

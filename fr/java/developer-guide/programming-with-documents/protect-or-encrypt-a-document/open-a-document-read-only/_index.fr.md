@@ -1,16 +1,16 @@
 ﻿---
-title: Ouvrir un document en lecture seule dans Java
+title: Rendre un document en lecture seule dans Java
 second_title: Aspose.Words pour Java
-articleTitle: Ouvrir un Document en lecture seule
-linktitle: Ouvrir un Document en lecture seule
+articleTitle: Rendre un document en lecture seule
+linktitle: Rendre un document en lecture seule
 description: "Rendez votre document en lecture seule afin que le contenu puisse être copié ou lu, mais pas modifié à l'aide de Java."
 type: docs
 weight: 10
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /fr/java/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /fr/java/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 Parfois, vous pouvez avoir un document qui nécessite une révision, mais vous ne voulez pas que les réviseurs modifient votre contenu de manière aléatoire. Aspose.Words vous permet de rendre l'autorisation de votre document en lecture seule afin que le contenu puisse être copié ou lu, mais pas modifié. Cela empêchera le contenu d'être supprimé ou ajouté à votre document.

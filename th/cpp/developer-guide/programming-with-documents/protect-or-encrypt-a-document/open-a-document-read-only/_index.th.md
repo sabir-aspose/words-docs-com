@@ -9,8 +9,8 @@ weight: 10
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /th/cpp/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /th/cpp/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 บางครั้งคุณอาจมีเอกสารที่ต้องการรีวิวแต่คุณไม่ต้องการให้ผู้ตรวจทานทำการสุ่มปรับเปลี่ Aspose.Wordsอนุญาตให้คุณอนุญาตให้เอกสารของคุณอ่านอย่างเดียวเพื่อให้เนื้อหาสามารถคัดลอกหรืออ่ ลบหรือเพิ่มเนื้อหาในเอกสารของคุณ.

@@ -1,16 +1,16 @@
 ---
-title: C#'te Salt Okunur Bir Belge Açma
+title: C#'te Belgeyi Salt Okunur Hale Getir
 second_title: .NET için Aspose.Words
-articleTitle: Salt Okunur Bir Belgeyi Açma
-linktitle: Salt Okunur Bir Belgeyi Açma
+articleTitle: Belgeyi Salt Okunur Hale Getir
+linktitle: Belgeyi Salt Okunur Hale Getir
 description: "İçeriğin kopyalanabilmesi veya okunabilmesi, ancak C# kullanılarak değiştirilememesi için belgenizi salt okunur yapın."
 type: docs
 weight: 10
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /tr/net/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /tr/net/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 Bazen, incelenmesi gereken bir belgeniz olabilir ancak inceleyenlerin içeriğinizi rastgele değiştirmesini istemezsiniz. Aspose.Words, içeriğin kopyalanabilmesi veya okunabilmesi ancak değiştirilmemesi için belgenizin iznini salt okunur yapmanıza olanak tanır. Bu, içeriğin kaldırılmasını veya belgenize eklenmesini önleyecektir.

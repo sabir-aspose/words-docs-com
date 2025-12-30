@@ -10,7 +10,7 @@ ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /nl/cpp/protect-or-encrypt-a-document/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-12-30-12-07-05
 ---
 
 De belangrijkste reden om een document te beschermen of te versleutelen is om meer controle toe te passen over wie toegang heeft tot het document of wie het kan bewerken. Door bescherming toe te passen op uw documenten, vermijdt u veelvoorkomende risico ' s zoals het kopiëren of wijzigen van documenten zonder toestemming, evenals gegevenslekken.
@@ -25,7 +25,7 @@ Aspose.Words biedt momenteel de documentfuncties die in de onderstaande tabel wo
 
 | Aspose.Words beveiligingsfunctie | Corresponderend kinderartikel | Corresponderende MS Word functie |
 | ------------------------------- | ------------------------------ | ------------------------------------------------------------ |
-| Alleen-Lezen | "Open een Document alleen-lezen" | Altijd Alleen-Lezen Openen (Bestand → Info → Document Beschermen)<br />Alternatieve mogelijkheid: "Password to modify "(opslaan als → Tools → Algemene opties → Password) |
+| Alleen-Lezen | "Een document alleen-lezen maken" | Altijd Alleen-Lezen Openen (Bestand → Info → Document Beschermen)<br />Alternatieve mogelijkheid: "Password to modify "(opslaan als → Tools → Algemene opties → Password) |
 | Een Document versleutelen | "Een Document versleutelen" | Versleutelen met wachtwoord (Bestand → Info → Bescherm Document)<br />Alternatieve functie: "wachtwoord om te openen "(opslaan als → Tools → Algemene opties → wachtwoord) |
 | Bewerken Beperken | "Document Bewerken Beperken" | Bewerken Beperken (Bestand-Info-Bescherm Document)<br />Alternatieve functie: "Bewerken beperken "(herzien → beschermen → bewerken beperken) |
 | Digitale Handtekeningen | "Werken met digitale handtekeningen" | Een digitale handtekening toevoegen (Bestand → Info → document beschermen) |

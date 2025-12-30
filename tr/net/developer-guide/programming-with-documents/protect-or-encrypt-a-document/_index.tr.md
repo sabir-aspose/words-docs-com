@@ -10,7 +10,7 @@ ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /tr/net/protect-or-encrypt-a-document/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-12-30-12-07-05
 ---
 
 Bir belgeyi korumanın veya şifrelemenin temel nedeni, belgeye kimin erişebileceği veya onu kimin düzenleyebileceği konusunda daha fazla kontrol uygulamaktır. Belgelerinize koruma uygulayarak, belgelerin izinsiz kopyalanması veya değiştirilmesi ve veri sızıntısı gibi yaygın risklerden kaçınırsınız.
@@ -25,7 +25,7 @@ Aspose.Words şu anda aşağıdaki tabloda listelenen belge özelliklerini sunma
 
 |  Aspose.Words koruma özelliği |  İlgili alt makale |  İlgili MS Word özelliği |
 |  -------------------------------  |  ------------------------------  |  ------------------------------------------------------------  |
-|  Sadece oku |  "Salt Okunur Bir Belgeyi Aç" |  Her Zaman Salt Okunur Aç (Dosya → Bilgi → Belgeyi Koru)<br /> Alternatif özellik: "Değiştirilecek şifre" (Farklı Kaydet → Araçlar → Genel Seçenekler → Şifre) |
+|  Sadece oku |  "Belgeyi Salt Okunur Hale Getir" |  Her Zaman Salt Okunur Aç (Dosya → Bilgi → Belgeyi Koru)<br /> Alternatif özellik: "Değiştirilecek şifre" (Farklı Kaydet → Araçlar → Genel Seçenekler → Şifre) |
 |  Belgeyi Şifrele |  "Belgeyi Şifrele" |  Şifreyle Şifrele (Dosya → Bilgi → Belgeyi Koru)<br /> Alternatif özellik: "Açmak için Şifre" (Farklı Kaydet → Araçlar → Genel Seçenekler → Şifre) |
 |  Düzenlemeyi Kısıtla |  "Belge Düzenlemeyi Sınırla" |  Düzenlemeyi Kısıtla (Dosya – Bilgi – Belgeyi Koru)<br /> Alternatif özellik: "Düzenlemeyi Sınırla" (İncele → Koru → Düzenlemeyi Sınırla) |
 |  Dijital imzalar |  "Dijital İmzalarla Çalışın" |  Dijital İmza Ekleme (Dosya → Bilgi → Belgeyi Koru) |

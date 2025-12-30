@@ -10,7 +10,7 @@ ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /zh/cpp/protect-or-encrypt-a-document/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-12-30-12-07-05
 ---
 
 保护或加密文档的主要原因是对谁可以访问文档或谁可以编辑文档进行更多控制。 对您的文档应用保护，您可以避免常见的风险，如未经许可复制或修改文档，以及数据泄漏。

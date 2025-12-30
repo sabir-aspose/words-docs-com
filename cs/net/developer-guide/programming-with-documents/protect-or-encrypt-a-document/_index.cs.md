@@ -10,7 +10,7 @@ ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cs/net/protect-or-encrypt-a-document/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-12-30-12-07-05
 ---
 
 Hlavním důvodem ochrany nebo šifrování dokumentu je větší kontrola nad tím, kdo může přístup k dokumentu nebo kdo jej může editovat. Při uplatňování ochrany na vaše dokumenty se vyhnete běžným rizikům, jako je kopírování nebo úprava dokumentů bez povolení, jakož i úniku dat.
@@ -25,7 +25,7 @@ Aspose.Words v současné době poskytuje prvky dokumentu uvedené v následují
 
 |  Aspose.Words ochranný prvek |  Odpovídající dětský článek |  Odpovídající členský stát Slovo funkce |
 |  -------------------------------  |  ------------------------------  |  ------------------------------------------------------------  |
-|  Pouze pro čtení |  Otevřít dokument Pouze pro čtení |  Vždy otevírat pouze pro čtení (File → Info → Chraňte dokument)<br/>Alternativní funkce: "Password to modification" (Uložit jako → Nástroje → Obecné možnosti → Heslo) |
+|  Pouze pro čtení |  "Nastavení dokumentu pouze pro čtení" |  Vždy otevírat pouze pro čtení (File → Info → Chraňte dokument)<br/>Alternativní funkce: "Password to modification" (Uložit jako → Nástroje → Obecné možnosti → Heslo) |
 |  Zašifrovat dokument |  Zašifrovat dokument |  Šifrování s heslem (File → Info → Chránit dokument)<br/>Alternativní funkce: "Password to open" (Uložit jako → Nástroje → Obecné možnosti → Heslo) |
 |  Omezování úprav |  Omezení editace dokumentů |  Omezování úprav (Oprava informací o cíli <br/>Alternativní funkce: "Omezení úpravy" (Review → Protect → Restrict Editing) |
 |  Digitální podpisy |  Práce s digitálními podpisy |  Přidat digitální podpis (File → Info → Protect Document) |

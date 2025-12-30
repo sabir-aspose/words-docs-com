@@ -10,7 +10,7 @@ ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /th/python-net/protect-or-encrypt-a-document/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2025-12-30-12-07-05
 ---
 
 เหตุผลหลักในการป้องกันหรือเข้ารหัสเอกสารคือเพื่อใช้การควบคุมมากขึ้นว่าใครสามารถเข้าถึงเอกสารหรือใครสามารถแก้ไขได้ เมื่อใช้การป้องกันกับเอกสารของคุณ คุณจะหลีกเลี่ยงความเสี่ยงทั่วไป เช่น การคัดลอกหรือแก้ไขเอกสารโดยไม่ได้รับอนุญาต รวมถึงข้อมูลรั่วไหล

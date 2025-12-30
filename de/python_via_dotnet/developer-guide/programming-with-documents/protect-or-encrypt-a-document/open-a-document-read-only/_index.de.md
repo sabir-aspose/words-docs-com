@@ -1,16 +1,16 @@
 ---
-title: Öffnen Sie ein Dokument schreibgeschützt in Python
+title: Dokument schreibgeschützt machen in Python
 second_title: Aspose.Words für Python via .NET
-articleTitle: Öffnen Sie ein Dokument schreibgeschützt
-linktitle: Öffnen Sie ein Dokument schreibgeschützt
+articleTitle: Dokument schreibgeschützt machen
+linktitle: Dokument schreibgeschützt machen
 description: "Machen Sie Ihr Dokument schreibgeschützt, damit der Inhalt mit Python kopiert oder gelesen, aber nicht geändert werden kann."
 type: docs
 weight: 10
 ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /de/python-net/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /de/python-net/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 Manchmal haben Sie vielleicht ein Dokument, das einer Überprüfung bedarf, aber Sie möchten nicht, dass Prüfer Ihren Inhalt willkürlich ändern. Mit Aspose.Words können Sie die Berechtigung Ihres Dokuments schreibgeschützt festlegen, sodass der Inhalt kopiert oder gelesen, aber nicht geändert werden kann. Dadurch wird verhindert, dass Inhalte aus Ihrem Dokument entfernt oder hinzugefügt werden.

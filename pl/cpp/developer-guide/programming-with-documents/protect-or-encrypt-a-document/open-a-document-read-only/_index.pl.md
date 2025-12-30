@@ -1,16 +1,16 @@
 ﻿---
-title: Otwórz dokument Tylko do odczytu w C++
+title: Utwórz dokument tylko do odczytu w C++
 second_title: Aspose.Words dla C++
-articleTitle: Otwórz dokument Tylko do odczytu
-linktitle: Otwórz dokument Tylko do odczytu
+articleTitle: Utwórz dokument tylko do odczytu
+linktitle: Utwórz dokument tylko do odczytu
 description: "Ustaw dokument tylko do odczytu, aby zawartość mogła być kopiowana lub odczytywana, ale nie modyfikowana."
 type: docs
 weight: 10
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /pl/cpp/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /pl/cpp/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 Czasami możesz mieć dokument, który wymaga recenzji, ale nie chcesz, aby recenzenci losowo modyfikowali Twoje treści. Aspose.Words umożliwia uprawnienie dokumentu tylko do odczytu, aby zawartość mogła być kopiowana lub odczytywana, ale nie modyfikowana. Zapobiegnie to usuwaniu lub dodawaniu treści do dokumentu.

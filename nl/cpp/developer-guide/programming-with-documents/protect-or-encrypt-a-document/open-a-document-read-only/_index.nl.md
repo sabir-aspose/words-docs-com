@@ -1,16 +1,16 @@
 ﻿---
-title: Een Document alleen-lezen openen in C++
+title: Een document alleen-lezen maken in C++
 second_title: Aspose.Words voor C++
-articleTitle: Een Document alleen-lezen openen
-linktitle: Een Document alleen-lezen openen
+articleTitle: Een document alleen-lezen maken
+linktitle: Een document alleen-lezen maken
 description: "Maak uw document alleen-lezen zodat de inhoud kan worden gekopieerd of gelezen, maar niet gewijzigd."
 type: docs
 weight: 10
 ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /nl/cpp/open-a-document-read-only/
-timestamp: 2024-01-27-14-07-04
+url: /nl/cpp/make-a-document-read-only/
+timestamp: 2025-12-30-12-07-05
 ---
 
 Soms hebt u een document dat een beoordeling nodig heeft, maar u wilt niet dat reviewers uw inhoud willekeurig wijzigen. Met Aspose.Words kunt u de machtiging van uw document alleen-lezen maken, zodat de inhoud kan worden gekopieerd of gelezen, maar niet kan worden gewijzigd. Dit voorkomt dat inhoud wordt verwijderd of toegevoegd aan uw document.
