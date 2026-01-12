@@ -39,7 +39,7 @@ Note that in contrast to Microsoft Word, the PDF format has a limited number of 
 
 The code example below shows how to save a document as PDF with fillable forms with specified Jpeg compression and quality:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-PdfImageCompression.java" >}}
+{{< gist "aspose-words-gists" "a5d65fc091d4330c8b66a17170524341" "image-compression.java" >}}
 
 ## Exporting Document Structure and Custom Properties
 
@@ -49,11 +49,11 @@ PDF logical structure facilities provide a mechanism for incorporating informati
 
 The following example demonstrates how to save a document to PDF format, preserving the document structure:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-ExportDocumentStructure.java" >}}
+{{< gist "aspose-words-gists" "a5d65fc091d4330c8b66a17170524341" "export-document-structure.java" >}}
 
 Aspose.Words also allows you to export document custom properties to PDF, which is demonstrated by the following example:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-CustomPropertiesExport.java" >}}
+{{< gist "aspose-words-gists" "a5d65fc091d4330c8b66a17170524341" "custom-properties-export.java" >}}
 
 ## Exporting Outlines from Bookmarks and Headings in Output PDF
 
@@ -61,7 +61,7 @@ If you want to export bookmarks as outlines in output PDF, you can use the [Def
 
 The code example below shows how to export bookmarks from the first header/footer of a section:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-ExportHeaderFooterBookmarks.java" >}}
+{{< gist "aspose-words-gists" "a5d65fc091d4330c8b66a17170524341" "export-header-footer-bookmarks.java" >}}
 
 The output PDF of this example is shown below:
 
@@ -73,7 +73,7 @@ You can also export headings in the output PDF, using the [HeadingsOutlineLeve
 
 The code example below shows how to export headings with three levels:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-SaveToPdfWithOutline.java" >}}
+{{< gist "aspose-words-gists" "a5d65fc091d4330c8b66a17170524341" "outline-options.java" >}}
 
 The output PDF of this example is depicted below:
 
@@ -93,7 +93,7 @@ Note that it is also possible to set a specific resolution in the [Resolution]
 
 The code example below displays how to change the resolution of images in an output PDF document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-DownsamplingImages.java" >}}
+{{< gist "aspose-words-gists" "a5d65fc091d4330c8b66a17170524341" "downsampling-images.java" >}}
 
 Resolution is calculated according to the real image size on the page.
 
@@ -119,11 +119,11 @@ The [EmbedFullFonts](https://reference.aspose.com/words/java/com.aspose.words/p
 
 The following example demonstrates how to embed full fonts in the output PDF document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-EmbeddAllFonts.java" >}}
+{{< gist "aspose-words-gists" "a5d65fc091d4330c8b66a17170524341" "embedded-all-fonts.java" >}}
 
 The following example demonstrates how to set Aspose.Words to subset fonts in the output PDF:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-EmbeddSubsetFonts.java" >}}
+{{< gist "aspose-words-gists" "a5d65fc091d4330c8b66a17170524341" "embedded-subset-fonts.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -153,7 +153,7 @@ These fonts are replaced with the corresponding core Type 1 fonts, which are pro
 
 The example provided below shows how to set Aspose.Words to avoid embedding core fonts and let the reader to substitute them with PDF Type 1 fonts:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-AvoidEmbeddingCoreFonts.java" >}}
+{{< gist "aspose-words-gists" "a5d65fc091d4330c8b66a17170524341" "avoid-embedding-core-fonts.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -175,7 +175,7 @@ This option can be enabled or disabled by using the [FontEmbeddingMode](https:/
 
 The example below shows how to set Aspose.Words to skip embedding Arial and Times New Roman fonts into a PDF document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-SetFontEmbeddingMode.java" >}}
+{{< gist "aspose-words-gists" "a5d65fc091d4330c8b66a17170524341" "disable-embed-windows-fonts.java" >}}
 
 This mode is most useful when you wish to view your documents on the same platform, preserving the exact appearance of fonts in the output PDF.
 

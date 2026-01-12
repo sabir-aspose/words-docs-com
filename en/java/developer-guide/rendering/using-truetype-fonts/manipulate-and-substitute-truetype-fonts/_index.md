@@ -36,19 +36,15 @@ When Aspose.Words encounters a font in the document for the first time, it attem
 
 Since the procedure described above is time-consuming, it may negatively affect application performance at its first launch. However, each instance of **FontSettings** has its own cache, which could reduce the processing time of subsequent documents. For example, you can share an instance of the **FontSettings** class between different documents, which allows you to speed up the loading of the documents. The following example demonstrates this:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSettings-FontSettingsWithLoadOptions.java" >}}
+{{< gist "aspose-words-gists" "2ed86af96f590e819ced4060b5080c11" "load-option-font-settings.java" >}}
 
 In the case when **FontSettings** is not defined explicitly, Aspose.Words uses the default **FontSettings** instance. This instance is also automatically shared among documents, and can be extracted as follows:
 
-**Java**
-
-{{< highlight csharp >}}
-FontSettings fontSettings = FontSettings.getDefaultInstance();
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "2ed86af96f590e819ced4060b5080c11" "font-settings-default-instance.java" >}}
 
 If you are sure that all processing documents require the same font settings, then it is recommended to set up and utilize the default **FontSettings** instance. Suppose that you need to use the same font sources for all your documents. In this case, you can just amend the default instance as follows:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSettings-FontSettingsFontSource.java" >}}
+{{< gist "aspose-words-gists" "2ed86af96f590e819ced4060b5080c11" "font-settings-font-source.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -191,7 +187,7 @@ fontSettings.getFallbackSettings().loadNotoFallbackSettings();
 
 The following code example demonstrates how to load font fallback settings from an XML file:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-SetFontSettings-SetFontFallbackSettings.java" >}}
+{{< gist "aspose-words-gists" "2ed86af96f590e819ced4060b5080c11" "font-fallback-settings.java" >}}
 
 In the above code example, the following XML file is used:
 
@@ -218,7 +214,7 @@ In the above code example, the following XML file is used:
 
 Aspose.Words provides predefined font fallback settings for Google Noto fonts. These are free fonts licensed under SIL Open Font License, that can be downloaded from Google Noto Fonts. The **FontFallbackSettings** class provides a [LoadNotoFallbackSettings](https://reference.aspose.com/words/java/com.aspose.words/fontfallbacksettings/#loadNotoFallbackSettings) method. It loads predefined fallback settings, which use Google Noto fonts as shown in the code example below:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-SetFontSettings-setPredefinedFontFallbackSettings.java" >}}
+{{< gist "aspose-words-gists" "2ed86af96f590e819ced4060b5080c11" "noto-fallback-settings.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -244,5 +240,3 @@ There are some differences in the processing of font formats in Aspose.Words and
 ## See Also
 
 - [Google Noto Fonts](https://fonts.google.com/noto) to download free fonts
-
-
