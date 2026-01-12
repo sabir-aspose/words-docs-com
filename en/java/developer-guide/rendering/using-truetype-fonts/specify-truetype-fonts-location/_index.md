@@ -29,7 +29,7 @@ Implementation details for some classes are explained below.
 
 There is a special [SystemFontSource](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/) class that is always used by default. It represents all TrueType fonts installed on the system. Therefore, it is possible to create a source list with **SystemFontSource** and any other required sources:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetFontsFolder.java" >}}
+{{< gist "aspose-words-gists" "35680f8755e7a5462dff1d441d05fd5e" "fonts-folders.java" >}}
 
 A single instance of the **SystemFontSource** class is defined by default in [FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/). On different operating systems, fonts may be located in different places. However, using a **FontSettings** instance for each document is not an optimal solution. In the majority of cases, using [DefaultInstance](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/#getDefaultInstance) should be enough.
 
@@ -137,7 +137,7 @@ The [SetFontsFolder](https://reference.aspose.com/words/java/com.aspose.words/f
 
 The following example demonstrates how to set the folder or source, which Aspose.Words will subsequently use to look for TrueType fonts during rendering or embedding of fonts:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetTrueTypeFontsFolder.java" >}}
+{{< gist "aspose-words-gists" "35680f8755e7a5462dff1d441d05fd5e" "true-type-fonts-folder.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -147,9 +147,7 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 An extra Boolean parameter controls whether fonts are scanned recursively through all folders, hence scanning all child folders of a specified folder. The following example demonstrates how to set Aspose.Words to look in multiple folders for TrueType fonts when rendering or embedding fonts:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetMultipleFontsFolder.java" >}}
-
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
+{{< gist "aspose-words-gists" "35680f8755e7a5462dff1d441d05fd5e" "multiple-folders.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -159,24 +157,19 @@ Note the priorities. If there are fonts with the same family name and style in 
 
 If you don’t want to use system fonts at all, Aspose.Words allows you to ignore them and use your own fonts only:
 
-**Java**
-
-{{< highlight csharp >}}
-FontSettings.getDefaultInstance().setFontsFolder("C:\\MyFonts\\", true);
-{{< /highlight >}}
-
+{{< gist "aspose-words-gists" "35680f8755e7a5462dff1d441d05fd5e" "default-instance.java" >}}
 
 ### Priority Property
 
 The [Priority](https://reference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/priority/) property is used when there are fonts with the same family name and style in different font sources. In this case Aspose.Words selects the font from the source with the higher priority value. For example, there is an old version of the font on the system folder and the customer added a new version of the same font in a custom folder.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetFontsFolderWithPriority.java" >}}
+{{< gist "aspose-words-gists" "35680f8755e7a5462dff1d441d05fd5e" "fonts-folders-with-priority.java" >}}
 
 ## Load Fonts from Stream {#loading-fonts-from-stream}
 
 Aspose.Words provides the [StreamFontSource](https://reference.aspose.com/words/java/com.aspose.words/streamfontsource/) class, which allows loading fonts from the stream. To use the stream font source, a user needs to create a derived class from **StreamFontSource** and provide an implementation of the [OpenFontDataStream](https://reference.aspose.com/words/java/com.aspose.words/streamfontsource/#openFontDataStream) method. The **OpenFontDataStream** method could be called several times. For the first time, it will be called when Aspose.Words scans the provided font sources to get a list of available fonts. Later it may be called if the font is used in the document to parse the font data and to embed the font data to some output formats. **StreamFontSource** may be useful because it allows loading the font data only when it is required, and not to store it in the memory for the `FontSettings` lifetime.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-SpecifyTrueTypeFontsLocation-loadingFontsStream.java" >}}
+{{< gist "aspose-words-gists" "35680f8755e7a5462dff1d441d05fd5e" "resource-steam.java" >}}
 
 **StreamFontSource** is an alternative to [MemoryFontSource](https://reference.aspose.com/words/java/com.aspose.words/memoryfontsource/) since it is always possible to load a stream to memory and pass it to **MemoryFontSource**. The difference is that the **MemoryFontSource** is stored in the memory all the time, and the **StreamFontSource** is loaded on demand and disposed of right away. But it may be loaded several times, as described above. In some cases **MemoryFontSource** is preferable, and in others, **StreamFontSource**.
 
@@ -203,4 +196,4 @@ The cache is also suitable for other scenarios when fonts are loaded over the ne
 
 If you want to get the list of available fonts, which, for example, can be used to render a PDF document, you can use the [GetAvailableFonts](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/#getAvailableFonts) method, as shown in the following code example. The [PhysicalFontInfo](https://reference.aspose.com/words/java/com.aspose.words/physicalfontinfo/) class specifies information about the physical font available to Aspose.Words font engine:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-GetAllAvailableFonts.java" >}}
+{{< gist "aspose-words-gists" "35680f8755e7a5462dff1d441d05fd5e" "available-fonts.java" >}}
