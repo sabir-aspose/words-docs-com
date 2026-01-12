@@ -55,11 +55,11 @@ The shape can be exported in any image format specified in the [SaveFormat](htt
 
 The code example below illustrates rendering a shape to an EMF image separately from document, and saving to disk:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-RenderShapeToDisk.java" >}}
+{{< gist "aspose-words-gists" "8a2843b58e5f1d7ad95d2ad0140b87eb" "render-shape-as-emf.java" >}}
 
 The code example below illustrates rendering a shape to a JPEG image separately from document, and saving to a stream:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-RenderShapeToStream.java" >}}
+{{< gist "aspose-words-gists" "8a2843b58e5f1d7ad95d2ad0140b87eb" "render-shape-as-jpeg.java" >}}
 
 The **ImageSaveOptions** class allows you to specify a variety of options that control how the image is rendered. The functionality described above can be applied in the same manner to the **GroupShape** and **Shape** nodes.
 
@@ -69,7 +69,7 @@ Rendering directly to a **Graphics** object allows you to define your own sett
 
 The example below shows how to render a shape to a **Graphics** object separately from the document and apply rotation to the rendered image:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-RenderShapeToGraphics.java" >}}
+{{< gist "aspose-words-gists" "8a2843b58e5f1d7ad95d2ad0140b87eb" "render-shape-to-graphics.java" >}}
 
 Similarly, to the [RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/document/#renderToSize-int-java.awt.Graphics2D-float-float-float-float) method, the [RenderToSize ](https://reference.aspose.com/words/java/com.aspose.words/document/#renderToSize-int-java.awt.Graphics2D-float-float-float-float)method inherited from the [NodeRendererBase](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/) is useful for creating thumbnails of document content. The shape size is specified through the constructor. The **RenderToSize** method accepts the **Graphics** object, the X and Y coordinates of the image position, and the size of the image (width and height) that will be drawn onto the **Graphics** object.
 
@@ -81,7 +81,7 @@ The [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) c
 
 The following example shows how to render a Shape image to a JPEG image separately from the document and save it to the disk:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-RenderShapeImage.java" >}}
+{{< gist "aspose-words-gists" "8a2843b58e5f1d7ad95d2ad0140b87eb" "render-shape-image.java" >}}
 
 ## Retrieving a Shape Size
 
@@ -89,7 +89,7 @@ The [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/sh
 
 The below example shows how to create a new Bitmap and Graphics object with the width and height of the shape to be rendered:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-FindShapeSizes.java" >}}
+{{< gist "aspose-words-gists" "8a2843b58e5f1d7ad95d2ad0140b87eb" "find-shape-sizes.java" >}}
 
 When using the **RenderToSize** or **RenderToScale** methods, the rendered image size is also returned in the [SizeF](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#renderToScale-java.awt.Graphics2D-float-float-float) object. This can be assigned to a variable and used if necessary.
 
