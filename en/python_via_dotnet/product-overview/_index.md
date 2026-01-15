@@ -22,7 +22,7 @@ Aspose.Words is a cross-platform class library that enables your applications to
 
 Using Aspose.Words, you can convert a document from any supported load format to any supported save format, for example, Word formats to PDF, HTML, or Markdown, PDF to DOCX, and so on. Read more about converting documents in the [Convert a Document](/words/python-net/convert-a-document/) section.
 
-It is worth noting that with Aspose.Words you can create, modify, convert, render, and print documents without relying on third-party applications, such as Microsoft Word, or Office Automation.
+It is worth noting that with Aspose.Words you can create, modify, convert, render, and print documents without relying on third‑party applications, such as Microsoft Word, or Office Automation.
 
 ## Benefits of Using Aspose.Words
 
@@ -30,7 +30,7 @@ Using Aspose.Words for Python via .NET in your project gives you the following b
 
 - Rich feature set
 - Platform independence
-- Independence from third-party applications
+- Independence from third‑party applications
 - Performance and scalability
 - Minimal learning curve
 
@@ -56,7 +56,7 @@ Programmatic access through a rich API to all document elements and formatting a
 
 We use the term [Rendering in Aspose.Words](/words/python-net/rendering/) to describe the process of converting a document into a file format or a medium, paginated or that has the concept of pages.
 
-You can convert whole documents or particular pages to PDF or XPS to generate server-side documents. And all this with high fidelity – exactly like Microsoft Word would have done it.
+You can convert whole documents or particular pages to PDF or XPS to generate server‑side documents. And all this with high fidelity – exactly like Microsoft Word would have done it.
 
 #### Reporting
 
@@ -66,11 +66,11 @@ Generate documents or reports from scratch or by filling templates with data fro
 
 Aspose.Words for .NET covers most of the popular development environments and deployment platforms. Its API can be used to develop applications for a wide range of operating systems, such as Windows, Linux, macOS and various platforms.
 
-You can use Aspose.Words for Python via .NET to build any type of 32-bit or 64-bit Python application.
+You can use Aspose.Words for Python via .NET to build any type of 32‑bit or 64‑bit Python application.
 
 ### Independence from Other Applications
 
-Aspose.Words does not require third-party applications, for example, Microsoft Office, to be installed on the machine in order to work. All Aspose components are completely independent. This makes Aspose.Words a great alternative to automation in terms of security, stability, scalability/speed, price, and features for working with documents and related tasks.
+Aspose.Words does not require third‑party applications, for example, Microsoft Office, to be installed on the machine in order to work. All Aspose components are completely independent. This makes Aspose.Words a great alternative to automation in terms of security, stability, scalability/speed, price, and features for working with documents and related tasks.
 
 ### Performance and Scalability
 
@@ -84,7 +84,7 @@ Aspose.Words is multithread safe as long as only one thread works on a document 
 
 Although there are over 150 public classes and enumerations in Aspose.Words, the learning curve is minimal because the Aspose.Words API has been carefully designed with the following goals in mind:
 
-- Borrow best practices from other well-known APIs such as Microsoft Word Automation
+- Borrow best practices from other well‑known APIs such as Microsoft Word Automation
 - Provide a balance of ease of use and detailed manipulation of document elements
 
 Developers who have previously used Microsoft Word Automation in their projects will find the names and behavior of many classes, methods, and properties familiar.
@@ -99,3 +99,21 @@ Please visit the [Licensing](/words/python-net/licensing/) page for information 
 
 For more information on Aspose.Words technical support, take a look at the [support page](/words/net/technical-support/).
 
+------ 
+
+## FAQ
+
+1. **Q:** Can Aspose.Words for Python via .NET run on Linux and macOS?  
+   **A:** Yes. The library is fully cross‑platform and supports Windows, Linux, and macOS. You can install the NuGet package and use it from any Python runtime that runs on these operating systems.
+
+2. **Q:** Is a .NET license file usable with the Python via .NET API?  
+   **A:** Absolutely. The same **Aspose.Total.NET.lic** (or Aspose.Words.NET.lic) file can be applied in Python by calling `license = aw.License(); license.set_license("Aspose.Total.NET.lic")`. The license is product‑agnostic within the .NET family.
+
+3. **Q:** Do I need Microsoft Word or Office installed to use Aspose.Words?  
+   **A:** No. Aspose.Words is a self‑contained library and does not depend on Microsoft Word, Office, or any other third‑party software. All processing is performed internally.
+
+4. **Q:** Which file formats are supported for conversion?  
+   **A:** Over 35 formats are supported for both loading and saving, including DOC, DOCX, ODT, RTF, PDF, XPS, HTML, EPUB, JPEG, PNG, and Markdown. See the **Supported Document Formats** page for the complete list.
+
+5. **Q:** Is Aspose.Words thread‑safe?  
+   **A:** The library is thread‑safe as long as each thread works with its own `Document` instance. Concurrent access to the same `Document` object from multiple threads is not supported. This design allows you to process many documents in parallel safely.

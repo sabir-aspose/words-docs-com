@@ -37,3 +37,24 @@ You can also use the [duplicate_style](https://reference.aspose.com/words/python
 The following code example shows how to remove duplicate styles from a document:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_options_and_settings-CleanupDuplicateStyle.py" >}}
+
+```
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I remove unused styles from a Word document using Aspose.Words for Python?  
+   **A:** Create a `CleanupOptions` instance, set its `unused_styles` (and optionally `unused_builtin_styles`) property to `True`, and call `Document.cleanup(options)`. The method scans the document and deletes any style that is not referenced.
+
+2. **Q:** What is the purpose of the `duplicate_style` option?  
+   **A:** When `duplicate_style` is set to `True`, Aspose.Words replaces every duplicate style with the first occurrence of that style and then removes the redundant definitions, reducing file size and simplifying style management.
+
+3. **Q:** Can the cleanup operation also delete unused lists?  
+   **A:** Yes. Set the `unused_lists` property of `CleanupOptions` to `True` before invoking `Document.cleanup`. This removes list definitions that are not used anywhere in the document.
+
+4. **Q:** Does the cleanup process affect content in headers, footers, or footnotes?  
+   **A:** Cleanup examines the entire document, including headers, footers, footnotes, and endnotes. Unused styles or lists that are only referenced in those sections will be retained; otherwise, they will be removed.
+
+5. **Q:** How can I verify which styles or lists were removed after cleanup?  
+   **A:** After calling `cleanup`, you can iterate through `Document.styles` or `Document.lists` to see the remaining items. Comparing the counts before and after the operation gives a quick indication of what was removed.

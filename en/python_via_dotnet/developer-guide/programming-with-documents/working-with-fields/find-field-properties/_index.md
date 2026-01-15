@@ -24,3 +24,24 @@ Note if you are only looking for the names of merge fields in a document, then y
 The following code example shows how to get names of all merge fields in a document:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-GetFieldNames.py" >}}
+
+```
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I obtain the field code of a field inserted with `DocumentBuilder`?  
+   **A:** After inserting the field, the `InsertField` method returns a `Field` object. Call `field.get_field_code()` to retrieve the full field code string, which includes the field name and its switches.
+
+2. **Q:** How do I read the result (displayed text) of a field?  
+   **A:** Use the `field.result` property. It returns the evaluated result of the field as a string. For example, `field_result = field.result`.
+
+3. **Q:** What is the easiest way to list all merge field names in a document?  
+   **A:** Use the static method `MailMerge.get_field_names(document)`. It returns a list of strings containing the names of every merge field found in the supplied `Document` object.
+
+4. **Q:** Can I differentiate between different field types (e.g., MERGEFIELD, REF, PAGE) programmatically?  
+   **A:** Yes. The `field.type` property returns a `FieldType` enumeration value. Compare it with members such as `aw.fields.FieldType.FIELD_MERGE_FIELD`, `aw.fields.FieldType.FIELD_REF`, etc., to identify the field type.
+
+5. **Q:** How can I modify a field’s code after it has been created?  
+   **A:** Retrieve the field code with `field.get_field_code()`, edit the string as needed, and then assign the modified code back using `field.set_field_code(modified_code)`. After updating, call `field.update()` to re‑evaluate the field.

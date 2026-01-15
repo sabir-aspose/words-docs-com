@@ -67,3 +67,22 @@ The following table indicates the input and output file formats supported by Asp
 | [`JPEG`](https://docs.fileformat.com/image/jpeg/) | Renders a page of the document and saves it as a JPEG file |  | {{< emoticons/tick >}} |  |
 | [`GIF`](https://docs.fileformat.com/image/gif/) | Renders a page of the document and saves it as a GIF file |  | {{< emoticons/tick >}} |  |
 | WebP | Google image compression format |  | {{< emoticons/tick >}} |  |
+
+------ 
+
+## FAQ
+
+1. **Q:** Which file formats can Aspose.Words load?  
+   **A:** Aspose.Words can load a wide range of Word processing formats, including DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, HTML, MHTML, ODT, OTT, TXT, MD, XML, and PDF. It also supports loading of some e‑book formats such as EPUB, MOBI, and AZW3. Formats marked with a tick under the **Load** column in the table are supported for loading.
+
+2. **Q:** Which file formats can Aspose.Words save?  
+   **A:** The library can save documents to most of the formats it can load, plus several additional output types. Supported save formats include DOC, DOCX, DOCM, DOTX, DOTM, RTF, HTML, MHTML, ODT, OTT, TXT, MD, PDF, EPUB, and various image formats (PNG, JPEG, GIF, BMP, EMF, TIFF, SVG). The **Save** column in the table indicates the formats that can be written.
+
+3. **Q:** Can Aspose.Words convert a PDF document to HTML?  
+   **A:** Yes. PDF is a supported input format, and HTML is a supported output format. Load the PDF with `Document doc = new Document("input.pdf");` and then save it using `doc.Save("output.html", SaveFormat.Html);`. This conversion preserves the layout and text as closely as possible.
+
+4. **Q:** Is it possible to export a document as an image such as PNG or JPEG?  
+   **A:** Absolutely. Aspose.Words can render each page of a document to raster image formats. After loading the document, use `doc.Save("page.png", SaveFormat.Png);` or `doc.Save("page.jpeg", SaveFormat.Jpeg);`. You can also generate multi‑page TIFF files by specifying `SaveFormat.Tiff`.
+
+5. **Q:** Does Aspose.Words support e‑book formats like EPUB, MOBI, and AZW3?  
+   **A:** Yes. EPUB is fully supported for both loading and saving. MOBI and AZW3 can be loaded, and you can save to EPUB, which is the recommended e‑book output format for further distribution. Use the appropriate `SaveFormat` enumeration values when calling `Document.Save`.

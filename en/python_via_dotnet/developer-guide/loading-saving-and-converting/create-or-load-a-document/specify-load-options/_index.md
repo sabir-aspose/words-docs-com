@@ -65,3 +65,46 @@ If you do not know in advance whether the file is encrypted, you can use the [F
 The following code example shows how to verify document either it is encrypted or not:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-working_with_file_format-VerifyEncryptedDocument.py" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I load a password‑protected Word document with Aspose.Words for Python?  
+   **A:** Create a `LoadOptions` object, set its `password` property to the document’s password, and pass this object to the `Document` constructor. Example:  
+   ```python
+   from aspose.words import Document, LoadOptions
+   load_options = LoadOptions()
+   load_options.password = "MySecret"
+   doc = Document("encrypted.docx", load_options)
+   ```
+
+2. **Q:** Which property should I use to make Aspose.Words render a document as it would appear in an older version of Microsoft Word?  
+   **A:** Use the `msw_version` property of `LoadOptions`. Set it to the desired `MsWordVersion` enum value (e.g., `MsWordVersion.WORD_2010`). Example:  
+   ```python
+   from aspose.words import Document, LoadOptions, MsWordVersion
+   load_options = LoadOptions()
+   load_options.msw_version = MsWordVersion.WORD2010
+   doc = Document("sample.docx", load_options)
+   ```
+
+3. **Q:** How do I change the language preferences (e.g., editing language) when loading a document?  
+   **A:** Set the `language_preferences` property of `LoadOptions` and assign the desired `EditingLanguage`. Example:  
+   ```python
+   from aspose.words import Document, LoadOptions, EditingLanguage
+   load_options = LoadOptions()
+   load_options.language_preferences.add_editing_language (EditingLanguage.JAPANESE)
+   doc = Document("sample.docx", load_options)
+   ```
+
+4. **Q:** My application runs out of memory when loading a very large document. Is there a way to reduce memory usage?  
+   **A:** Yes. Specify a folder for temporary files using the `temp_folder` property of `LoadOptions`. Aspose.Words will write intermediate data to disk instead of keeping everything in RAM. Example:  
+   ```python
+   from aspose.words import Document, LoadOptions
+   load_options = LoadOptions()
+   load_options.temp_folder = "C:/temp/aw_temp"
+   doc = Document("large.docx", load_options)
+   ```
+
+5. **Q:** The text in a legacy document appears garbled after loading. How can I force a specific encoding?  
+   **A:** Set the `encoding` property of `LoadOptions` to the required `System.Text.Encoding`.

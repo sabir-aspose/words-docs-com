@@ -35,3 +35,22 @@ translated_doc.save(file_name=ARTIFACTS_DIR + "AI.AiTranslate.docx")
 Translating documents with Aspose.Words saves time and makes it easy to integrate translation functionality into your projects. For more information, check the [Aspose.Words.AI](https://reference.aspose.com/words/python-net/aspose.words.ai/) API documentation.
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** Which languages can be used with the `Translate` method?  
+   **A:** The method supports any language defined in the `aw.ai.Language` enumeration, which currently includes over 300 languages provided by Google generative models.
+
+2. **Q:** Do I need a Google API key to use document translation?  
+   **A:** Yes. The AI model must be created with a valid Google API key using `with_api_key`. Without the key the translation request will fail.
+
+3. **Q:** Can a single document contain multiple source languages and still be translated correctly?  
+   **A:** Yes. The Google AI model attempts to detect each language segment in the source document and translates each fragment to the target language. Segments it cannot recognise remain untranslated.
+
+4. **Q:** Is translation available for all file formats supported by Aspose.Words?  
+   **A:** Translation works on any document that can be loaded into an `aw.Document` object (e.g., DOCX, DOC, RTF, HTML, PDF). The output format is determined by the format you save the translated document in.
+
+5. **Q:** How can I change the AI model used for translation?  
+   **A:** Create the model with a different `AiModelType` (e.g., `AiModelType.GEMINI_15_FLASH`, `AiModelType.GEMINI_1_0_PRO`) before calling `translate`. The rest of the code remains the same.

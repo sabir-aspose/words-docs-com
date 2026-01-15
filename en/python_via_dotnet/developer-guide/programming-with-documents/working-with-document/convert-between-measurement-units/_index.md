@@ -23,3 +23,58 @@ The [ConvertUtil](https://reference.aspose.com/words/python-net/aspose.words/con
 The following code example shows how to specify page properties in inches:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_properties-ConvertBetweenMeasurementUnits.py" >}}
+
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I convert inches to points?  
+   **A:** Use `ConvertUtil.inch_to_point`. The method takes a floating‑point value representing inches and returns the equivalent number of points (1 inch = 72 points).  
+   ```python
+   import aspose.words as aw
+
+   inches = 2.5
+   points = aw.ConvertUtil.inch_to_point(inches)
+   print(f"{inches} inches = {points} points")
+   ```
+
+2. **Q:** How do I convert points to inches?  
+   **A:** Call `ConvertUtil.point_to_inch`. It receives a point value and returns the measurement in inches.  
+   ```python
+   import aspose.words as aw
+
+   points = 180
+   inches = aw.ConvertUtil.point_to_inch(points)
+   print(f"{points} points = {inches} inches")
+   ```
+
+3. **Q:** How can I convert pixels to points at the default 96 dpi resolution?  
+   **A:** Use `ConvertUtil.pixel_to_point`. When you omit the DPI argument, 96 dpi is assumed.  
+   ```python
+   import aspose.words as aw
+
+   pixels = 300
+   points = aw.ConvertUtil.pixel_to_point(pixels)   # 96 dpi is used automatically
+   print(f"{pixels} pixels = {points} points at 96 dpi")
+   ```
+
+4. **Q:** How do I convert points to pixels with a custom DPI?  
+   **A:** Use `ConvertUtil.point_to_pixel` and pass the desired DPI value.  
+   ```python
+   import aspose.words as aw
+
+   points = 72
+   dpi = 150
+   pixels = aw.ConvertUtil.point_to_pixel(points, dpi)
+   print(f"{points} points = {pixels} pixels at {dpi} dpi")
+   ```
+
+5. **Q:** I get an error saying `'ConvertUtil' has no attribute 'point_to_twip'`. Why?  
+   **A:** The `ConvertUtil` class does not provide a `point_to_twip` method. Twips are a legacy unit (1 point = 20 twips) and must be converted manually: multiply the point value by 20.  
+   ```python
+   points = 5
+   twips = points * 20
+   print(f"{points} points = {twips} twips")
+   ```
+   If you need a dedicated helper, create a small wrapper function that performs this multiplication.

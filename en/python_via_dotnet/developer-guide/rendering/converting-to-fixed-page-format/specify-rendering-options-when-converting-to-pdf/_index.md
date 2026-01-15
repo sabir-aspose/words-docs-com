@@ -16,7 +16,7 @@ timestamp: 2024-10-21-11-17-44
 
 The PDF format is a fixed-page format that is very popular among users and widely supported by various applications, because a PDF document looks the same on any device. For that reason, converting to PDF is an important feature of Aspose.Words.
 
-PDF is a complex format. Several stages of calculations are required in the process of converting a document to PDF, including the layout calculation. Since these stages include complex computations, they are time-consuming. Also, the PDF format is rather complex by itself. It has a specific file structure, graphics model and font embedding. Moreover, it features some complex output functionality, such as document structure tags, encryption, digital signatures, and editable forms.
+PDF is a complex format. Several stages of calculations are required in the process of converting a document to PDF, including the layout calculation. Since these stages include complex computations, they are time‑consuming. Also, the PDF format is rather complex by itself. It has a specific file structure, graphics model and font embedding. Moreover, it features some complex output functionality, such as document structure tags, encryption, digital signatures, and editable forms.
 
 Aspose.Words layout engine imitates the way Microsoft Word’s page layout engine works. Therefore, Aspose.Words makes PDF output documents look as close as possible to what you can see in Microsoft Word. Sometimes it is necessary to specify additional options, which can affect the result of saving a document into the PDF format. These options can be specified by use of the [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) class, containing the properties that determine how the PDF output will be displayed.
 
@@ -185,3 +185,68 @@ This mode is most useful when you wish to view your documents on the same platfo
 This setting works only for ANSI (Windows-1252) encoding text. Writing a non-ANSI text to PDF requires the corresponding font to be embedded.
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I embed full fonts instead of subsets when saving to PDF?  
+   **A:** Set the `embed_full_fonts` property of `PdfSaveOptions` to `True`. This forces Aspose.Words to embed the complete font files, which is useful if the PDF will be edited later. Example:
+
+   ```python
+   import aspose.words as aw
+
+   doc = aw.Document("input.docx")
+   options = aw.saving.PdfSaveOptions()
+   options.embed_full_fonts = True
+   doc.save("output_full_fonts.pdf", options)
+   ```
+
+2. **Q:** How do I preserve Word form fields as fillable fields in the generated PDF?  
+   **A:** Use the `preserve_form_fields` property of `PdfSaveOptions`. When set to `True`, form controls such as text boxes, check boxes, and combo boxes are exported as interactive PDF form fields.
+
+   ```python
+   import aspose.words as aw
+
+   doc = aw.Document("form.docx")
+   options = aw.saving.PdfSaveOptions()
+   options.preserve_form_fields = True
+   doc.save("form_output.pdf", options)
+   ```
+
+3. **Q:** My PDF file is too large because of images; can I downsample them automatically?  
+   **A:** Yes. Enable downsampling via `downsample_options` (default is enabled). You can also specify a target resolution:
+
+   ```python
+   import aspose.words as aw
+
+   doc = aw.Document("large_images.docx")
+   options = aw.saving.PdfSaveOptions()
+   options.downsample_options.resolution = 150  # DPI
+   doc.save("downsampled.pdf", options)
+   ```
+
+4. **Q:** How can I export Word bookmarks and headings as PDF outlines/bookmarks?  
+   **A:** Set `header_footer_bookmarks_export_mode` (if you need header/footer bookmarks) and `headings_outline_levels` to the desired depth. Example for three heading levels:
+
+   ```python
+   import aspose.words as aw
+
+   doc = aw.Document("bookmarks.docx")
+   options = aw.saving.PdfSaveOptions()
+   options.headings_outline_levels = 3
+   options.header_footer_bookmarks_export_mode = aw.saving.HeaderFooterBookmarksExportMode.ALL
+   doc.save("with_outlines.pdf", options)
+   ```
+
+5. **Q:** I want to keep the PDF file size small by not embedding core fonts; how is this done?  
+   **A:** Set `use_core_fonts` to `True`. This tells Aspose.Words to replace common core fonts (Arial, Times New Roman, Courier New, Symbol) with the standard PDF Type 1 fonts, which are supplied by the viewer.
+
+   ```python
+   import aspose.words as aw
+
+   doc = aw.Document("core_fonts.docx")
+   options = aw.saving.PdfSaveOptions()
+   options.use_core_fonts = True
+   doc.save("core_fonts_optimized.pdf", options)
+   ```

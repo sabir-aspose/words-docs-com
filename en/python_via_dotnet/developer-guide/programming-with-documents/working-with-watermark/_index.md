@@ -81,3 +81,69 @@ Sometimes you need to insert a watermark/image into a table's cell and display i
 The following code example shows how to use this property:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_shapes-LayoutInCell.py" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I add a text watermark with a specific font size and color?  
+   **A:** Create a `TextWatermarkOptions` object, set the `font_name`, `font_size`, and `color` properties, and then call `watermark.set_text("Your Text", options)`. Example:  
+
+   ```python
+   from aspose.words import Document, Watermark, TextWatermarkOptions, Color
+   doc = Document("input.docx")
+   options = TextWatermarkOptions()
+   options.font_name = "Arial"
+   options.font_size = 72
+   options.color = Color.gray
+   Watermark.set_text(doc, "CONFIDENTIAL", options)
+   doc.save("output.docx")
+   ```
+
+2. **Q:** How do I insert an image watermark from a file path or a stream?  
+   **A:** Use `ImageWatermarkOptions` and the `set_image` method. Provide either a file path, a byte array, or a stream to the image. Example:  
+
+   ```python
+   from aspose.words import Document, Watermark, ImageWatermarkOptions
+   doc = Document("input.docx")
+   options = ImageWatermarkOptions()
+   options.scale = 0.5   # optional scaling
+   Watermark.set_image(doc, "logo.png", options)
+   doc.save("output.docx")
+   ```
+
+3. **Q:** What is the recommended way to remove a watermark that was added with the `Watermark` class?  
+   **A:** Call the static `remove` method of the `Watermark` class, passing the document. This removes any watermark added via the `Watermark` API. Example:  
+
+   ```python
+   from aspose.words import Document, Watermark
+   doc = Document("watermarked.docx")
+   Watermark.remove(doc)
+   doc.save("clean.docx")
+   ```
+
+4. **Q:** I added a watermark as a `Shape`. How can I delete it later?  
+   **A:** Assign a unique name to the shape when you create it (e.g., `watermark.name = "MyWatermark"`). Later, retrieve the shape by name from the document’s node collection and remove it. Example:  
+
+   ```python
+   from aspose.words import Document, Shape, ShapeType
+   doc = Document("input.docx")
+   shape = Shape(doc, ShapeType.TEXT_PLAIN_TEXT)
+   shape.name = "MyWatermark"
+   # ... configure shape as watermark ...
+   doc.get_child_nodes(aw.NodeType.SHAPE, True).remove(shape)
+   doc.save("output.docx")
+   ```
+
+5. **Q:** Can I place a watermark inside a table cell but have it appear outside the cell boundaries?  
+   **A:** Yes. Set the shape’s `is_layout_in_cell` property to `False` and ensure the document is optimized for Word 2010 using `CompatibilityOptions.optimize_for`. This forces the watermark to be rendered relative to the page rather than the cell. Example:  
+
+   ```python
+   from aspose.words import Document, Shape, ShapeType, CompatibilityOptions, CompatibilityMode
+   doc = Document("input.docx")
+   shape = Shape(doc, ShapeType.IMAGE)
+   shape.is_layout_in_cell = False
+   doc.compatibility_options.optimize_for(CompatibilityMode.WORD_2010)
+   # add shape to the desired cell
+   doc.save("output.docx")
+   `````

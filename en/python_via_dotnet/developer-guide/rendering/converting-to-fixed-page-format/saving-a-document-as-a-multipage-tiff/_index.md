@@ -44,7 +44,7 @@ The following example shows how to convert DOC to TIFF with configured options:
 
 A TIFF image can be saved in 1bpp b/w format by setting the [pixel_format](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/pixel_format/) property to [FORMAT1BPP_INDEXED](https://reference.aspose.com/words/python-net/aspose.words.saving/imagepixelformat/#format1bpp_indexed) pixel format type, and the [tiff_compression](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/tiff_compression/) property to either [CCITT3](https://reference.aspose.com/words/python-net/aspose.words.saving/tiffcompression/#ccitt3) or [CCITT4](https://reference.aspose.com/words/python-net/aspose.words.saving/tiffcompression/#ccitt4).
 
-For image segmentation, Aspose.Words uses the simplest method — thresholding. This method converts a gray-scale TIFF image into a binary image, using a threshold value. Therefore, when a document needs to be converted to the TIFF file format, it is possible to get or set the threshold for TIFF binarization via the [threshold_for_floyd_steinberg_dithering](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/threshold_for_floyd_steinberg_dithering/) property. The default value for this property is set to 128, and the higher this value, the darker the image.
+For image segmentation, Aspose.Words uses the simplest method — thresholding. This method converts a gray‑scale TIFF image into a binary image, using a threshold value. Therefore, when a document needs to be converted to the TIFF file format, it is possible to get or set the threshold for TIFF binarization via the [threshold_for_floyd_steinberg_dithering](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/threshold_for_floyd_steinberg_dithering/) property. The default value for this property is set to 128, and the higher this value, the darker the image.
 
 The following example shows how to perform TIFF binarization with a specified threshold:
 
@@ -53,3 +53,65 @@ The following example shows how to perform TIFF binarization with a specified t
 Below you can compare images on which TIFF binarization was performed at various threshold values:
 
 <img src="saving-a-document-as-a-multipage-tiff-1.jpg" alt="saving-a-document-as-a-multipage-tiff-aspose-words-net" style="width:800px"/>
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I change the resolution of the saved TIFF image?  
+   **A:** Use the `horizontal_resolution` and `vertical_resolution` properties of `ImageSaveOptions`. Set them to the desired DPI before calling `document.save`. Example:  
+
+   ```python
+   from aspose.words import Document, ImageSaveOptions, SaveFormat
+   doc = Document("input.docx")
+   options = ImageSaveOptions(SaveFormat.TIFF)
+   options.horizontal_resolution = 300
+   options.vertical_resolution = 300
+   doc.save("output.tiff", options)
+   ```
+
+2. **Q:** How do I save only specific pages of a document to a multi‑page TIFF?  
+   **A:** Configure the `page_set` property with a `PageSet` that lists the required page numbers. Example:  
+
+   ```python
+   from aspose.words import Document, ImageSaveOptions, SaveFormat, PageSet
+   doc = Document("input.docx")
+   options = ImageSaveOptions(SaveFormat.TIFF)
+   options.page_set = PageSet(1, 3, 5)   # saves pages 1, 3 and 5
+   doc.save("selected_pages.tiff", options)
+   ```
+
+3. **Q:** Which settings control TIFF compression and how can I choose CCITT4 compression?  
+   **A:** Set the `tiff_compression` property of `ImageSaveOptions` to `TiffCompression.CCITT4`. This is suitable for 1‑bit black‑and‑white images. Example:  
+
+   ```python
+   from aspose.words import Document, ImageSaveOptions, SaveFormat, TiffCompression
+   doc = Document("input.docx")
+   options = ImageSaveOptions(SaveFormat.TIFF)
+   options.tiff_compression = TiffCompression.CCITT4
+   doc.save("compressed.tiff", options)
+   ```
+
+4. **Q:** How can I produce a 1‑bit black‑and‑white TIFF image?  
+   **A:** Set `pixel_format` to `ImagePixelFormat.FORMAT1BPP_INDEXED` and choose an appropriate compression (CCITT3 or CCITT4). Example:  
+
+   ```python
+   from aspose.words import Document, ImageSaveOptions, SaveFormat, ImagePixelFormat, TiffCompression
+   doc = Document("input.docx")
+   options = ImageSaveOptions(SaveFormat.TIFF)
+   options.pixel_format = ImagePixelFormat.FORMAT1BPP_INDEXED
+   options.tiff_compression = TiffCompression.CCITT3
+   doc.save("bw.tiff", options)
+   ```
+
+5. **Q:** How do I adjust the threshold used for TIFF binarization?  
+   **A:** Use the `threshold_for_floyd_steinberg_dithering` property. The default is 128; increase the value for a darker image. Example:  
+
+   ```python
+   from aspose.words import Document, ImageSaveOptions, SaveFormat, TiffBinarizationMethod
+   doc = Document("input.docx")
+   options = ImageSaveOptions(SaveFormat.TIFF)
+   options.tiff_binarization_method = TiffBinarizationMethod.FLOYD_STEINBERG_DITHERING
+   options.threshold_for_floyd_steinberg_dithering = 150
+   doc.save("threshold.tiff", options)
+   ```

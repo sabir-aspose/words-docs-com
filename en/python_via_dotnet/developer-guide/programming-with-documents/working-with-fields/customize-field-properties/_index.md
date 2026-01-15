@@ -30,3 +30,67 @@ Aspose.Words provides a property to obtain the field's result for fields that do
 The following code example shows the usage of [display_result](https://reference.aspose.com/words/python-net/aspose.words.fields/field/display_result/) property:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-FieldDisplayResults.py" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I rename a `MERGEFIELD` in a Word document using Python?  
+   **A:** Load the document, iterate through its fields, cast each `FieldMergeField` and set the `field_name` property to the new name. After updating, save the document. Example:
+
+   ```python
+   import aspose.words as aw
+
+   doc = aw.Document("input.docx")
+   for field in doc.range.fields:
+       if isinstance(field, aw.fields.FieldMergeField):
+           merge_field = aw.fields.FieldMergeField(field)
+           merge_field.field_name = "NewFieldName"
+   doc.save("output.docx")
+   ```
+
+2. **Q:** How do I retrieve the display result of a field that has no separator node?  
+   **A:** Use the `display_result` property of the `Field` object. It returns the value that Word would show for the field even when the field result is not stored in the document.
+
+   ```python
+   import aspose.words as aw
+
+   doc = aw.Document("input.docx")
+   for field in doc.range.fields:
+       print(f"Field type: {field.type}, Display result: {field.display_result}")
+   ```
+
+3. **Q:** Can I change the author name of an `AUTHOR` field programmatically?  
+   **A:** Yes. Cast the field to `FieldAuthor` and set its `author_name` property, then save the document.
+
+   ```python
+   import aspose.words as aw
+
+   doc = aw.Document("input.docx")
+   for field in doc.range.fields:
+       if isinstance(field, aw.fields.FieldAuthor):
+           author_field = aw.fields.FieldAuthor(field)
+           author_field.author_name = "John Doe"
+   doc.save("output.docx")
+   ```
+
+4. **Q:** How can I determine whether a field contains a separator node?  
+   **A:** The `has_separator` property of a `Field` indicates the presence of a separator. It returns `True` if the field has a separator node, otherwise `False`.
+
+   ```python
+   import aspose.words as aw
+
+   doc = aw.Document("input.docx")
+   for field in doc.range.fields:
+       print(f"Field type: {field.type}, Has separator: {field.has_separator}")
+   ```
+
+5. **Q:** Is it possible to list all available properties for a specific field type?  
+   **A:** Yes. Each field type has a dedicated class in the `aspose.words.fields` namespace. You can refer to the documentation for that class (e.g., `FieldMergeField`, `FieldAuthor`) to see all its properties and methods. In code, you can use `dir()` on an instance to inspect available members.
+
+   ```python
+   import aspose.words as aw
+
+   merge_field = aw.fields.FieldMergeField()
+   print(dir(merge_field))   # Shows all properties and methods of FieldMergeField
+   ```

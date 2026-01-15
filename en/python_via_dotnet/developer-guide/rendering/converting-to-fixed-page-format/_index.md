@@ -110,3 +110,46 @@ imageOptions.page_count = 1
 imageOptions.jpeg_quality = 80
 doc.save(docs_base.artifacts_dir + "Rendering.JpegCustomOptions.jpg", imageOptions)
 {{< /highlight >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I save only specific pages of a document to a fixed‑page format?  
+   **A:** Use the `page_set` property of `FixedPageSaveOptions`. Create a `PageSet` with the desired page numbers and assign it to the options before calling `save`. Example:  
+
+   ```python
+   options = aw.saving.PdfSaveOptions()
+   options.page_set = aw.saving.PageSet(1, 3)
+   doc.save("SelectedPages.pdf", options)
+   ```
+
+2. **Q:** Which option controls the JPEG image quality when saving a document as JPEG?  
+   **A:** Set the `jpeg_quality` property on `ImageSaveOptions`. The value is an integer from 0 to 100, where higher numbers give better quality. Example:  
+
+   ```python
+   jpegOptions = aw.saving.ImageSaveOptions(aw.SaveFormat.JPEG)
+   jpegOptions.jpeg_quality = 85
+   doc.save("HighQuality.jpg", jpegOptions)
+   ```
+
+3. **Q:** Do I need to call `update_page_layout()` before saving to a fixed‑page format?  
+   **A:** It is not required; Aspose.Words automatically creates or updates the layout when a fixed‑page save is performed. Call `update_page_layout()` only if you have made changes that affect layout and want to ensure the layout is current before performing other operations.
+
+4. **Q:** How can I export a document to grayscale PDF?  
+   **A:** Set the `color_mode` property of `PdfSaveOptions` to `aw.saving.ColorMode.GRAYSCALE`. Example:  
+
+   ```python
+   pdfOptions = aw.saving.PdfSaveOptions()
+   pdfOptions.color_mode = aw.saving.ColorMode.GRAYSCALE
+   doc.save("Grayscale.pdf", pdfOptions)
+   ```
+
+5. **Q:** What option should I use to improve rendering performance for vector graphics?  
+   **A:** Enable `optimize_output` on the appropriate `FixedPageSaveOptions` (e.g., `PdfSaveOptions`). This reduces the size of vector data while preserving visual fidelity. Example:  
+
+   ```python
+   pdfOptions = aw.saving.PdfSaveOptions()
+   pdfOptions.optimize_output = True
+   doc.save("Optimized.pdf", pdfOptions)
+   ```

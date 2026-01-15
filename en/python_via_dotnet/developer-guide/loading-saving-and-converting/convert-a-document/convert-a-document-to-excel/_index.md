@@ -81,3 +81,22 @@ doc.save(ARTIFACTS_DIR + "BaseConversions.CompressXlsx.xlsx", saveOptions)
 
 - Documentation section [Protect or Encrypt a Document](/words/python-net/protect-or-encrypt-a-document/) for more information about protecting and encrypting a document
 - The article [Find and Replace](/words/python-net/find-and-replace/) for more more information about finding and replacing the content you want
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I convert a PDF file to XLSX using Aspose.Words for Python?  
+   **A:** Load the PDF with `Document`, then call `save` specifying an XLSX file name. Aspose.Words automatically converts the PDF content to an Excel workbook.
+
+2. **Q:** Which source document formats can be saved as XLSX?  
+   **A:** Any format that Aspose.Words can load — such as DOC, DOCX, RTF, HTML, PDF, ODT, and more — can be saved directly to XLSX using the same `save` method.
+
+3. **Q:** How can I control the compression of the generated XLSX file?  
+   **A:** Create an `XlsxSaveOptions` instance, set its `compression_level` property (e.g., `CompressionLevel.MAXIMUM`), and pass the options object to `Document.save`.
+
+4. **Q:** Can I perform find‑and‑replace operations before converting to XLSX?  
+   **A:** Yes. Use `Document.range.replace` (optionally with a `FindReplaceOptions` object) to modify the document, then save the updated document to XLSX.
+
+5. **Q:** Is a license required to convert documents to XLSX?  
+   **A:** A valid Aspose.Words license removes evaluation watermarks and enables full functionality, including conversion to XLSX. Without a license, the conversion works but the output will contain evaluation notices.
