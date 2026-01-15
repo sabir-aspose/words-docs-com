@@ -41,7 +41,7 @@ Aspose.Words MCP Server supports the following features:
 - Watermarks (text/image)
 - Export as Base64 (DOCX, PDF, etc.), advanced export options
 - Render page to image (PNG, etc.)
-- In-memory document management: copy, save as, list, delete, merge
+- In‑memory document management: copy, save as, list, delete, merge
 
 ## How to Install Aspose.Words MCP Server
 
@@ -144,3 +144,22 @@ Aspose.Words MCP Server supports the following integration options:
 
 - **Claude Desktop MCP**: add this server with `streamable-http` or `sse` transport and the URL printed by the server at startup.
 - **Any MCP (JSON) clients**: configure the matching transport and path.
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I apply an Aspose.Words license to the MCP server?  
+   **A:** Set the `ASPOSE_WORDS_LICENSE_PATH` environment variable to the full path of your `.lic` file before starting the server, or pass the path via the `license_path` argument of `run_server(...)`. The server will load the license on startup; if the file is missing or invalid, it runs in evaluation mode.
+
+2. **Q:** How can I change the transport used by the MCP server?  
+   **A:** Define the `MCP_TRANSPORT` environment variable with one of the supported values: `stdio`, `streamable-http`, or `sse`. The server reads this variable at launch and configures the corresponding transport automatically.
+
+3. **Q:** How do I run the MCP server on a custom host and port?  
+   **A:** Use the `MCP_HOST` and `MCP_PORT` environment variables to specify the desired address and port, e.g., `export MCP_HOST=127.0.0.1` and `export MCP_PORT=9090` before starting the server.
+
+4. **Q:** What should I do if the server fails to start because the license is reported as invalid?  
+   **A:** Verify that the license file is a valid Aspose.Words for Python via .NET license (not an Aspose.Total.NET.lic file), ensure the path is correct, and confirm that the license matches the product version. If the license is correct, restart the server; otherwise, the server will operate in evaluation mode.
+
+5. **Q:** Can I use an Aspose.Total.NET.lic file with the MCP server for Python?  
+   **A:** No. The MCP server requires a license specifically for Aspose.Words for Python via .NET. An Aspose.Total.NET.lic does not cover this product, so you need to obtain a separate Aspose.Words license.

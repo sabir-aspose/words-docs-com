@@ -85,3 +85,22 @@ You can move to a specific section or paragraph by using the [move_to_paragraph]
 The following code example shows how to move to a specific section and a specific paragraph in a document:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-add_content_using_document_builder-MoveToSection.py" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I obtain the node that the cursor is currently positioned on?  
+   **A:** Use the `DocumentBuilder.current_node` property. It returns the `Node` object where the cursor resides, or `None` if the cursor is at the end of an empty paragraph. You can also retrieve the current paragraph with `DocumentBuilder.current_paragraph` or the current section with `DocumentBuilder.current_section`.
+
+2. **Q:** How do I move the cursor to a specific bookmark?  
+   **A:** Call `DocumentBuilder.move_to_bookmark("BookmarkName")`. Replace `"BookmarkName"` with the name you assigned to the bookmark when creating it. The cursor will be placed at the start of that bookmark.
+
+3. **Q:** What is the correct way to navigate to a particular cell in a table?  
+   **A:** Use `DocumentBuilder.move_to_cell(table, row_index, column_index)`. Provide the `Table` object and zero‑based indices for the row and column. Optionally, you can pass a character offset to position the cursor inside the cell.
+
+4. **Q:** How can I move the cursor to the header or footer of a document?  
+   **A:** Invoke `DocumentBuilder.move_to_header_footer(HeaderFooterType.HEADER, header_index)` or `DocumentBuilder.move_to_header_footer(HeaderFooterType.FOOTER, footer_index)`. The `header_index`/`footer_index` selects which header/footer (primary, first, even) you want to target.
+
+5. **Q:** How do I quickly move the cursor to the very start or end of the document?  
+   **A:** Use `DocumentBuilder.move_to_document_start()` to place the cursor at the beginning, and `DocumentBuilder.move_to_document_end()` to place it at the end of the document. These methods are useful for inserting content at the document boundaries.

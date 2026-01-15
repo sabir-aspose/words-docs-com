@@ -863,3 +863,57 @@ LINQ Reporting Engine uses reflection calls while accessing members of custom ex
 That is why, the engine provides a strategy minimizing the reflection usage. The strategy is based upon the runtime type generation. That is, the engine generates a proxy type per an external type. The proxy directly calls members of the corresponding external type, the engine to access these members in a uniform way with no reflection involved. The proxy is [lazily initialized](https://en.wikipedia.org/wiki/Lazy_initialization) and reused in further. Thus, the reflection is used only while building the proxy.
 
 Although this strategy can significantly minimize the reflection usage in a long run, it creates a performance overhead of the runtime type generation. So, if you deal with small data collections all the time while building your reports, consider the disabling of the strategy. You can control the enabling of the strategy through the [ReportingEngine.use_reflection_optimization](https://reference.aspose.com/words/python-net/aspose.words.reporting/reportingengine/use_reflection_optimization/) static property. By default, the strategy is enabled.
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I remove paragraphs that become empty after the template tags are processed?  
+   **A:** Set the `ReportBuildOptions.REMOVE_EMPTY_PARAGRAPHS` flag on the engine before building the report. The engine will then delete any paragraph that contains only template syntax tags or evaluates to an empty string.  
+
+   ```python
+   engine = aw.reporting.ReportingEngine()
+   engine.options |= aw.reporting.ReportBuildOptions.REMOVE_EMPTY_PARAGRAPHS
+   engine.build_report(doc, data_source)
+   ```
+
+2. **Q:** What should I do when a template tries to access a member that does not exist on the data object?  
+   **A:** Enable `ReportBuildOptions.ALLOW_MISSING_MEMBERS`. With this option the engine treats missing members as `null` instead of throwing an exception, allowing the report to continue rendering.  
+
+   ```python
+   engine = aw.reporting.ReportingEngine()
+   engine.options |= aw.reporting.ReportBuildOptions.ALLOW_MISSING_MEMBERS
+   engine.build_report(doc, data_source)
+   ```
+
+3. **Q:** Can I have syntax‑error messages appear directly in the generated document?  
+   **A:** Yes. Activate `ReportBuildOptions.INLINE_ERROR_MESSAGES`. When this option is on, the engine inserts a bold error message at the location of the faulty tag and returns `False` from `build_report` instead of raising an exception.  
+
+   ```python
+   engine = aw.reporting.ReportingEngine()
+   engine.options |= aw.reporting.ReportBuildOptions.INLINE_ERROR_MESSAGES
+   success = engine.build_report(doc, data_source)
+   if not success:
+       # The document now contains inline error messages.
+       pass
+   ```
+
+4. **Q:** My reports are small and I notice a performance hit from reflection. How can I disable the reflection‑optimization strategy?  
+   **A:** Set the static property `ReportingEngine.use_reflection_optimization` to `False` before creating the engine instance. This forces the engine to use direct calls, which is faster for small data sets.  
+
+   ```python
+   aw.reporting.ReportingEngine.use_reflection_optimization = False
+   engine = aw.reporting.ReportingEngine()
+   engine.build_report(doc, data_source)
+   ```
+
+5. **Q:** How do I specify a custom root object name when loading XML, JSON, or CSV data?  
+   **A:** Pass the desired root name as the third argument to `ReportingEngine.build_report`. This tells the engine which collection in the data source should be treated as the root for iteration.  
+
+   ```python
+   engine = aw.reporting.ReportingEngine()
+   # For XML data where the root collection is "persons"
+   engine.build_report(doc, xml_data_source, "persons")
+   # For JSON data where the root collection is "managers"
+   engine.build_report(doc, json_data_source, "managers")
+   ```

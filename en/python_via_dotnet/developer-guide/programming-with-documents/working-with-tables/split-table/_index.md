@@ -25,3 +25,22 @@ We can create two tables from the original table by following these simple steps
 The following code example shows how to split a table into two tables on a specific row:
 
 {{< gist "aspose-words-gists" "d31be78b25b463dd4eb31c85c60fc549" "split-table.py" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I split a table into two tables at a specific row?  
+   **A:** Create an empty clone of the original table using `Table.clone(False)`, insert the clone after the original table, then move each row starting from the split row to the new table with `originalTable.Rows.Remove(row)` and `newTable.Rows.Add(row)`. This preserves the original table’s formatting while separating the rows.
+
+2. **Q:** Does cloning a table copy its formatting?  
+   **A:** Yes. When you clone a table with `deep=False`, the table’s properties (borders, shading, width, etc.) are copied, but the child rows and cells are not. The new empty table therefore retains the same visual style as the source table.
+
+3. **Q:** Can I split a table that contains merged cells?  
+   **A:** Merged cells that span rows being moved will be split automatically, which may break the original merge. After splitting, you may need to re‑apply merging on the affected cells in each resulting table.
+
+4. **Q:** How do I split a table into more than two parts?  
+   **A:** Perform the split operation repeatedly. For each additional part, create another empty clone, insert it after the previous table, and move the required rows into it. The same `clone` and `move rows` logic applies each time.
+
+5. **Q:** Will splitting a table affect the surrounding document layout?  
+   **A:** No. Because the new table is inserted immediately after the original, the flow of paragraphs, headers, and footers remains unchanged. Only the rows are redistributed between the two tables.

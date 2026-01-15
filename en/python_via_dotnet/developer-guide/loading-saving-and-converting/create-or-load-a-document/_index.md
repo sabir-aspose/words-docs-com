@@ -28,7 +28,7 @@ The following code example shows how to create a document using the document bui
 {{< highlight python >}}
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
-            
+
 builder.write("Hello world!")
 
 doc.save(docs_base.artifacts_dir + "out.docx")
@@ -70,3 +70,36 @@ The following code example shows how to open a document from a stream:
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx).
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I create a completely blank Word document?  
+   **A:** Instantiate the `Document` class without any arguments. The resulting document contains a single empty section and paragraph, which matches the “New document” created by Microsoft Word. Example:  
+   ```python
+   doc = aw.Document()
+   ```
+
+2. **Q:** How can I load an existing document from a file path?  
+   **A:** Pass the full file name (including extension) to the `Document` constructor. Aspose.Words automatically detects the format based on the extension. Example:  
+   ```python
+   doc = aw.Document("C:/Docs/Report.docx")
+   ```
+
+3. **Q:** What is the correct way to load a document from a memory stream?  
+   **A:** Create a stream (e.g., `io.FileIO`) that contains the document bytes and give that stream to the `Document` constructor. Example:  
+   ```python
+   stream = io.FileIO(docs_base.my_dir + "Document.docx")
+
+   doc = aw.Document(stream)
+   stream.close()
+   ```
+
+4. **Q:** Can I use a .NET license file (e.g., `Aspose.Total.NET.lic`) with Aspose.Words for Python via .NET?  
+   **A:** Absolutely. The Python API runs on top of the .NET library, so you can load a .NET license file in the same way as in a C# project. Example:  
+   ```python
+   license = aw.License()
+   license.set_license("C:/Licenses/Aspose.Total.NET.lic")
+   ``` 
+   After setting the license, all subsequent operations will be licensed for the Python environment.

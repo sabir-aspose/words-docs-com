@@ -95,3 +95,28 @@ Aspose.Words allows you to customize your template through many properties. Temp
 ## See Also
 
 * For more details about how to create templates in Microsoft Word manually, please check the [Create a Template](https://support.microsoft.com/en-us/office/save-a-word-document-as-a-template-cb17846d-ecec-49d4-82ea-a6f5e3e8b9ae) article in the Microsoft Documentation
+
+
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I create a Mail Merge template programmatically in Python?  
+   **A:** Use `DocumentBuilder` to build a new `Document`, insert text input fields and merge fields with `insert_text_input` and `insert_field`. After constructing the template, return `builder.document` and save it or use it directly for a mail merge operation.
+
+2. **Q:** How do I define a Mail Merge region (start and end) in the template?  
+   **A:** Insert two merge fields that mark the region boundaries, e.g., `builder.insert_field("MERGEFIELD TableStart \\* MERGEFORMAT")` at the beginning and `builder.insert_field("MERGEFIELD TableEnd \\* MERGEFORMAT")` at the end. The region will be processed by `MailMerge.ExecuteWithRegions` using the same field names.
+
+3. **Q:** Can I use a Mustache template together with Aspose.Words Mail Merge?  
+   **A:** Yes. Create the template as a Mustache file (e.g., `.mustache`), then load it with `aw.Document("template.mustache")`. After rendering the Mustache placeholders, perform the standard Mail Merge on the resulting document.
+
+4. **Q:** How can I change the font size of text that is inserted via `insert_text_input`?  
+   **A:** Set the font properties on the `DocumentBuilder` before inserting the field:  
+   ```python
+   builder.font.size = 12   # points
+   builder.insert_text_input("TextInput", aw.fields.TextFormFieldType.REGULAR, "", "Sample", 0)
+   ```
+
+5. **Q:** How do I load an existing template and execute a Mail Merge in Python?  
+   **A:** Load the template with `aw.Document("Template.docx")`, then call `document.mail_merge.execute(data_table)` or `execute_with_regions` for regions. The merge fields in the template will be replaced with data from the provided `DataTable` or list of dictionaries.

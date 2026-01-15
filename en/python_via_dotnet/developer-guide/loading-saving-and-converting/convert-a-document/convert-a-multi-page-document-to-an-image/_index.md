@@ -66,5 +66,44 @@ options.page_layout.back_color = aspose.pydrawing.Color.light_gray
 options.page_layout.border_color = aspose.pydrawing.Color.blue
 options.page_layout.border_width = 2
 
-doc.save(file_name='ImageSaveOptions.GridLayout.jpg', save_options=options)
+doc.save(file_name='ImageSaveOptions.GridLayout.png', save_options=options)
 {{< /highlight >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I export only specific pages of a document to an image?  
+   **A:** Use the `PageSet` property of `ImageSaveOptions`. For example:  
+   ```csharp
+   options = aw.saving.ImageSaveOptions(aw.SaveFormat.JPEG)
+   options.page_set = aw.saving.PageSet(ranges=[aw.saving.PageRange(1, 2)])   // export pages 2-3, PageSet has zero-based index
+   doc.save('SelectedPages.jpg', options)
+   ```
+
+2. **Q:** How do I change the resolution (DPI) of the exported image?  
+   **A:** Set the `vertical_resolution` or `horizontal_resolution` property on `ImageSaveOptions`. Higher DPI yields larger, higher‑quality images:  
+   ```csharp
+   options = aw.saving.ImageSaveOptions(aw.SaveFormat.PNG)
+   options.horizontal_resolution = 72   // 72 DPI
+   doc.save('HighRes.png', options)
+   ```
+
+3. **Q:** Can I create a multi‑frame TIFF where each page is a separate frame?  
+   **A:** Yes. Choose the `TiffFrames` layout and save using the TIFF format:  
+   ```csharp
+   options = aw.saving.ImageSaveOptions(aw.SaveFormat.TIFF)
+   options.page_layout = aw.saving.MultiPageLayout.tiff_frames()
+   doc.save('MultiFrame.tiff', options)
+   ```
+
+4. **Q:** What is the difference between `SinglePage` and `Grid` layouts?  
+   **A:** `SinglePage` saves only the first page (or the page specified by `PageSet`). `Grid` arranges multiple pages in a matrix, letting you define the number of columns and spacing between pages.
+
+5. **Q:** How can I customize the background and border of the layout?  
+   **A:** Use the `back_color`, `border_color`, and `border_width` properties of the `page_layout` object:  
+   ```csharp
+   options.page_layout.back_color = aspose.pydrawing.Color.white
+   options.page_layout.border_color = aspose.pydrawing.Color.black
+   options.page_layout.border_width = 1
+   ```

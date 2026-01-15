@@ -376,3 +376,22 @@ The pictures below show the border and shadow settings in Microsoft Word and the
 The following code example shows how to format a table and cell with different borders and shadings:
 
 {{< gist "aspose-words-gists" "cc27d25b7638915607d1d60373c08da9" "format-table-and-cell-with-different-borders.py" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I add an outline border around the whole table?  
+   **A:** After the table contains at least one row, call `Table.SetBorder(BorderType.LINE, LineStyle.SINGLE, 1.0, Color.Black, True)` or use `Table.SetBorders()` to set the same border for all sides. The border is applied to the table node itself.
+
+2. **Q:** What is the recommended way to set a specific width for a table column or a single cell?  
+   **A:** Use the `PreferredWidth` property. For a column, set `Table.PreferredWidth = PreferredWidth.FromPercent(30)` (or `FromPoints(72)`). For an individual cell, set `CellFormat.PreferredWidth = PreferredWidth.FromPoints(100)`.
+
+3. **Q:** How do I make a table automatically fit to the page width or to its contents?  
+   **A:** Call `Table.AutoFit(AutoFitBehavior.AUTO_FIT_TO_WINDOW)` to fit the table to the page width, or `Table.AutoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)` to size columns based on the cell contents. You can also control this manually via `Table.AllowAutoFit` and `Table.PreferredWidth`.
+
+4. **Q:** How can I add spacing between cells (cell spacing) in a table?  
+   **A:** Set `Table.AllowCellSpacing = True` and then assign a value to `Table.CellSpacing = 5.0` (points). This inserts the same amount of space between all cells.
+
+5. **Q:** How do I set padding inside a table cell?  
+   **A:** Use the `CellFormat` padding properties, e.g., `CellFormat.PaddingTop = 5.0`, `CellFormat.PaddingBottom = 5.0`, `CellFormat.PaddingLeft = 8.0`, and `CellFormat.PaddingRight = 8.0`. These values are measured in points.

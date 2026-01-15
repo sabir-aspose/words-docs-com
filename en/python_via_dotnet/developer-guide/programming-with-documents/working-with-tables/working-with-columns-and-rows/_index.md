@@ -124,3 +124,22 @@ The following code example shows how to set a table to stay together on the same
 You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Table%20spanning%20two%20pages.docx).
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I obtain the index of a specific table, row, or cell in a document?  
+   **A:** Retrieve the collection of tables with `Document.get_child_nodes(NodeType.TABLE, True)`, then call `IndexOf(table)` to get the table index. For rows, use `Table.get_child_nodes(NodeType.ROW, True)` and `IndexOf(row)`. For cells, use `Row.get_child_nodes(NodeType.CELL, True)` and `IndexOf(cell)`.
+
+2. **Q:** What is the recommended way to insert a new column into an existing table?  
+   **A:** Iterate through each `Row` in the target `Table` and call `Row.insert_before(Cell(), column_index)` (or `Row.append_child(Cell())` to add at the end). A helper class that aggregates the cells of a column can simplify this process.
+
+3. **Q:** How do I remove a column from a table?  
+   **A:** Loop through all rows of the table and call `Row.remove_child(Row.get_child_nodes(NodeType.CELL, True)[column_index])`. Ensure the column index is within the range of cells for each row.
+
+4. **Q:** How can I make the first row (or multiple rows) repeat as a header on every page?  
+   **A:** Set `Row.row_format.heading_format = True` for each header row. This marks the rows as header rows, causing Word to repeat them on each page when the table spans multiple pages. Header rows are not supported in nested tables.
+
+5. **Q:** How can I prevent a row or an entire table from breaking across pages?  
+   **A:** For rows, set `Row.row_format.allow_break_across_pages = False`. For tables, iterate through all paragraphs inside the table cells and set `Paragraph.paragraph_format.keep_with_next = True`, except for the last paragraph in the table where it should be `False`. This keeps the table together on a single page.

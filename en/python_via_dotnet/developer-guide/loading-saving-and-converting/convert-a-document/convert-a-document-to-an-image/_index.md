@@ -37,3 +37,59 @@ There are also properties that apply to a certain format, for example, [jpeg_qua
 The following code example shows how to create a preview of the first document page with applying some additional settings:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_image_save_options-GetJpegPageRange.py" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I convert only selected pages of a document to images?  
+   **A:** Use the `ImageSaveOptions.page_set` property to specify a collection of page numbers. For example, to convert pages 1 and 3 only:
+
+   ```python
+   from aspose.words import Document, ImageSaveOptions, SaveFormat, PageSet
+
+   doc = Document("input.docx")
+   options = ImageSaveOptions(SaveFormat.Jpeg)
+   options.page_set = PageSet(page=1)   # pages are zero-based index
+   doc.save("output.jpeg", options)
+   ```
+
+2. **Q:** How do I change the resolution of the generated image?  
+   **A:** Set `horizontal_resolution` and `vertical_resolution` (in DPI) on `ImageSaveOptions`. Higher DPI yields a larger, higher‑quality image.
+
+   ```python
+   options = ImageSaveOptions(SaveFormat.Png)
+   options.horizontal_resolution = 300
+   options.vertical_resolution = 300
+   doc.save("high_res.png", options)
+   ```
+
+3. **Q:** How can I control JPEG quality when saving as JPEG?  
+   **A:** Adjust the `jpeg_quality` property (0‑100). A higher value gives better quality but larger file size.
+
+   ```python
+   options = ImageSaveOptions(SaveFormat.Jpeg)
+   options.jpeg_quality = 85   # typical high‑quality setting
+   doc.save("photo.jpeg", options)
+   ```
+
+4. **Q:** Is it possible to change the pixel format of the output image?  
+   **A:** Yes. Use the `pixel_format` property with values from the `ImagePixelFormat` enumeration (e.g., `FORMAT_24BPP_RGB`, `FORMAT_32BPP_RGB`).
+
+   ```python
+   from aspose.words.saving import ImagePixelFormat
+
+   options = ImageSaveOptions(SaveFormat.Tiff)
+   options.pixel_format = ImagePixelFormat.FORMAT_24BPP_RGB
+   doc.save("output.tiff", options)
+   ```
+
+5. **Q:** Can I convert a PDF document directly to an image using Aspose.Words for Python via .NET?  
+   **A:** Absolutely. Load the PDF with `Document`, configure `ImageSaveOptions`, and save it in the desired image format.
+
+   ```python
+   doc = Document("source.pdf")
+   options = ImageSaveOptions(SaveFormat.Jpeg)
+   options.page_set = PageSet(1)   # second page only
+   doc.save("pdf_page2.jpeg", options)
+   ```

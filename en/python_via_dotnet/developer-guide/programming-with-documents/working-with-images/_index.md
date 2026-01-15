@@ -186,3 +186,40 @@ Aspose.Words provides functionality to save all the available images in a docume
 The following code example shows how to save images as WMF with RTF save options:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_rtf_save_options-SavingImagesAsWmf.py" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I insert an inline image at the current cursor position?  
+   **A:** Use `DocumentBuilder.insert_image()` with a file path string. The method returns a `Shape` object representing the inserted image, which you can further manipulate if needed. Example:  
+   ```python
+   doc = aw.Document()
+   builder = aw.DocumentBuilder(doc)
+   builder.insert_image(docs_base.images_dir + "Logo.jpg")
+   doc.save(docs_base.artifacts_dir + "InlineImage.docx")
+   ```
+
+2. **Q:** How can I place an image as a floating object with custom position and size?  
+   **A:** Call the overload of `insert_image` that accepts positioning parameters such as `RelativeHorizontalPosition`, `RelativeVerticalPosition`, offsets, width, height, and `WrapType`. This creates a floating `Shape` that can be moved independently of the text flow. Example:  
+   ```python
+   builder.insert_image(
+       docs_base.images_dir + "Logo.jpg",
+       aw.drawing.RelativeHorizontalPosition.MARGIN, 100,
+       aw.drawing.RelativeVerticalPosition.MARGIN, 100,
+       200, 100,
+       aw.drawing.WrapType.SQUARE)
+   ```
+
+3. **Q:** What is the recommended way to extract all images from a Word document?  
+   **A:** Retrieve all `Shape` nodes via `Document.get_child_nodes(NodeType.SHAPE, True)`, filter those where `Shape.has_image` is `True`, and then use `Shape.image_data.save(file_path)` to write each image to disk. This works for any image type stored in the document.
+
+4. **Q:** How do I lock or unlock the aspect ratio of an inserted image?  
+   **A:** After inserting the image, set the `aspect_ratio_locked` property of the returned `Shape`. Setting it to `False` allows independent width and height adjustments; setting it to `True` preserves the original proportion. Example:  
+   ```python
+   shape = builder.insert_image(docs_base.images_dir + "Logo.jpg")
+   shape.aspect_ratio_locked = False
+   ```
+
+5. **Q:** How can I obtain the actual size and position of an image as it appears on the page?  
+   **A:** Use the `bounds_in_points` property of the shape’s renderer: `shape.get_shape_renderer().bounds_in_points`. It returns a rectangle with `x`, `y`, `width`, and `height` measured in points, reflecting the rendered size after any scaling or wrapping. This is useful for precise layout calculations.

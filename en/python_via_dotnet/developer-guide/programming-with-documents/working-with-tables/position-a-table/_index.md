@@ -78,3 +78,22 @@ Aspose.Words also provides an opportunity to find out the distances between tabl
 The following code example shows how to get the distance between a table and its surrounding text:
 
 {{< gist "aspose-words-gists" "1768d04dbe9222138611d5ad4047beef" "distance-between-table-surrounding-text.py" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I change the alignment of an inline table?  
+   **A:** Use the `Table.Alignment` property. Set it to one of the `TableAlignment` enum values such as `CENTER`, `LEFT`, or `RIGHT` to align the table relative to the page margins.
+
+2. **Q:** Which properties let me read the alignment of a floating table?  
+   **A:** For floating tables with text wrapping set to **Around**, read `Table.RelativeHorizontalAlignment` and `Table.RelativeVerticalAlignment`. These return values from the `RelativeHorizontalAlignment` and `RelativeVerticalAlignment` enums.
+
+3. **Q:** What is the correct way to position a floating table at a specific location?  
+   **A:** Set the appropriate anchor (`Table.HorizontalAnchor`, `Table.VerticalAnchor`) and then specify either the absolute distances (`Table.AbsoluteHorizontalDistance`, `Table.AbsoluteVerticalDistance`) **or** the relative alignments. Remember that changing a relative alignment resets the corresponding absolute distance to its default.
+
+4. **Q:** How can I obtain the distances between a table and the surrounding text?  
+   **A:** Use the four distance properties: `Table.DistanceTop`, `Table.DistanceBottom`, `Table.DistanceLeft`, and `Table.DistanceRight`. Each returns the distance in points.
+
+5. **Q:** How do I change the text wrapping mode of a table to enable floating positioning?  
+   **A:** Set the `Table.TextWrapping` property to `TextWrapping.Around`. After that, you can manipulate the floating‑table properties such as anchors, distances, and alignments.

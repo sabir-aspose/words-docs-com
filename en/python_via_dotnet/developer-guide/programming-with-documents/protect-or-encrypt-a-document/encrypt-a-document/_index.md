@@ -137,3 +137,22 @@ doc = aw.Document(artifacts_dir + "OoxmlSaveOptions.Password.docx", aw.loading.L
 
 self.assertEqual("Hello world!", doc.get_text().strip())
 {{< /highlight >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I encrypt a Word document using Aspose.Words for Python?  
+   **A:** Choose the SaveOptions class that matches the target format (e.g., `DocSaveOptions` for DOC, `OoxmlSaveOptions` for DOCX), set its `password` property to the desired password, and then save the document with those options.
+
+2. **Q:** Which file formats support encryption when saving with Aspose.Words?  
+   **A:** DOC, DOCX, DOCM, DOTX, DOTM, FlatOpc, ODT, OTT, and PDF support encryption. Formats such as RTF do **not** support encryption.
+
+3. **Q:** How can I determine whether a document is encrypted before loading it?  
+   **A:** Use `aw.FileFormatUtil.detect_file_format(path)` to obtain a `FileFormatInfo` object and check its `is_encrypted` property. This lets you prompt the user for a password only when necessary.
+
+4. **Q:** How do I open an encrypted document programmatically?  
+   **A:** Create a `LoadOptions` object with the password (`aw.loading.LoadOptions("MyPassword")`) and pass it to the `Document` constructor: `doc = aw.Document(path, load_options)`.
+
+5. **Q:** What happens if I try to open an encrypted document without providing a password?  
+   **A:** Aspose.Words throws a `PasswordRequiredException`. Catch this exception to inform the user that a password is required, or supply the correct password via `LoadOptions`.

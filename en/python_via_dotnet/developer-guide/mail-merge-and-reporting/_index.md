@@ -59,7 +59,6 @@ The following code example shows how to create a simple template and fill it wit
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Mail Merge and Reporting-base_operations-SimpleMailMerge.py" >}}
 
-
 ## Merged Documents of a Mail Merge Operation {#merged-documents-of-a-mail-merge-operation}
 
 A merged document is the result of the Mail Merge operation when you merge the template with the data source. All merge fields within the merged document are replaced with actual data from your data source.
@@ -75,3 +74,23 @@ The following image shows an example of the output merged document as a result 
 ## See Also
 
 - [Work with Mail Merge templates in Word](https://docs.microsoft.com/en-us/power-platform/admin/work-mail-merge-templates)
+
+------ 
+
+## FAQ
+
+1. **Q:** What data source types can I use with Mail Merge in Aspose.Words for Python?  
+   **A:** In the current Python via .NET version only an array of objects (e.g., a list of dictionaries or a list of custom objects) is supported as the data source. Other data source types such as `DataTable` or `IDataReader` are not yet available but are planned for future releases.
+
+2. **Q:** Can I use mail‑merge regions (repeating rows) in the Python version?  
+   **A:** No. Mail‑merge regions, which allow a table row to repeat for each record, are not supported in the Python via .NET API at this time. You would need to perform the repetition manually using a loop and `DocumentBuilder` or wait for a future update.
+
+3. **Q:** After performing a mail merge, how can I generate a Table of Contents automatically?  
+   **A:** Insert a TOC field (`{ TOC \\o "1-3" \\h \\z \\u }`) in the template before the merge. After the merge completes, call `doc.update_fields()` to refresh the TOC. Example:  
+
+   ```python
+   doc = Document("TemplateWithToc.docx")
+   doc.mail_merge.execute(data)
+   doc.update_fields()
+   doc.save("ResultWithToc.docx")
+   ```

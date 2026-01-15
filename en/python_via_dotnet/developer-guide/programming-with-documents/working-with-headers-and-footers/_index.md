@@ -107,3 +107,67 @@ The following code example shows how to remove all footers from all sections but
 You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Header%20and%20footer%20types.docx).
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** Does `Document.get_child_nodes(NodeType.PARAGRAPH, True)` include paragraphs that are inside headers or footers?  
+   **A:** Yes. When `is_deep` is set to `True`, the method traverses the entire document tree, including `HeaderFooter` nodes. To obtain only body paragraphs you must filter out nodes whose `ParentNode` is a `HeaderFooter` object.
+
+2. **Q:** How can I retrieve all paragraphs from a specific header, for example the odd‑page header?  
+   **A:** Access the header through the section’s `HeadersFooters` collection and then iterate its `Paragraphs` collection:  
+
+   ```python
+   from aspose.words import Document, HeaderFooterType
+   doc = Document("input.docx")
+   header = doc.sections[0].headers_footers[HeaderFooterType.HEADER_PRIMARY]
+   for paragraph in header.paragraphs:
+       print(paragraph.to_txt())
+   ```
+
+3. **Q:** What is the recommended way to copy a header from the previous section into the current one?  
+   **A:** Clone the header node from the previous section and assign it to the current section’s `HeadersFooters` collection:  
+
+   ```python
+   from aspose.words import Document, HeaderFooterType
+   doc = Document("input.docx")
+   prev_header = doc.sections[0].headers_footers[HeaderFooterType.HEADER_PRIMARY]
+   cloned_header = prev_header.clone()
+   doc.sections[1].headers_footers.add(cloned_header)
+   ```
+
+4. **Q:** How do I set different headers for the first page, odd pages, and even pages?  
+   **A:** Enable the corresponding flags on `PageSetup` and then create headers of the appropriate `HeaderFooterType`:  
+
+   ```python
+   from aspose.words import Document, HeaderFooterType, PageSetup
+   doc = Document()
+   section = doc.sections[0]
+   section.page_setup.different_first_page_header_footer = True
+   section.page_setup.odd_and_even_pages_header_footer = True
+
+   builder = DocumentBuilder(doc)
+   # First page header
+   builder.move_to_header_footer(HeaderFooterType.HEADER_FIRST)
+   builder.writeln("First page header")
+   # Odd page header
+   builder.move_to_header_footer(HeaderFooterType.HEADER_PRIMARY)
+   builder.writeln("Odd page header")
+   # Even page header
+   builder.move_to_header_footer(HeaderFooterType.HEADER_EVEN)
+   builder.writeln("Even page header")
+   ```
+
+5. **Q:** After inserting a PAGE field for page numbers in a footer, the numbers do not appear when I open the document.  
+   **A:** The field must be evaluated. Call `Document.update_fields()` before saving, or open the document in a viewer that updates fields automatically:  
+
+   ```python
+   from aspose.words import Document, DocumentBuilder
+   doc = Document()
+   builder = DocumentBuilder(doc)
+   builder.move_to_header_footer(HeaderFooterType.FOOTER_PRIMARY)
+   builder.insert_field("PAGE", "")
+   doc.update_fields()
+   doc.save("output.docx")
+   ```
