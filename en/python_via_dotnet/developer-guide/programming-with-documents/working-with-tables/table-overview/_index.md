@@ -70,3 +70,22 @@ In Aspose.Words, all classes and properties related to tables are contained in t
 
 * [Aspose.Words Document Object Model (DOM)](/words/python-net/aspose-words-document-object-model/)
 * [Logical Levels of Nodes in a Document](/words/python-net/logical-levels-of-nodes-in-a-document/)
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I retrieve all tables in a document, including those located in headers, footers, footnotes, or comments?  
+   **A:** Use `Document.get_child_nodes(NodeType.TABLE, True)` which returns a collection of all `Table` nodes in the entire document tree. The `True` argument ensures that nodes from the main story, headers, footers, footnotes, and comments are included.
+
+2. **Q:** How do I add a new row to an existing table?  
+   **A:** Create a `Row` object, add the required number of `Cell` objects to it, and then append the row to the table with `Table.append_child(row)`. Each new cell can be populated with a `Paragraph` containing the desired text.
+
+3. **Q:** What is the correct way to merge cells horizontally in a table?  
+   **A:** Set the first cell’s `cell_format.horizontal_merge` property to `HorizontalMerge.FIRST` and the subsequent cells that should be merged to `HorizontalMerge.PREVIOUS`. This merges the cells into a single larger cell while preserving the table layout.
+
+4. **Q:** Why do two consecutive tables sometimes appear as a single table, and how can I prevent this?  
+   **A:** Word treats adjacent tables as one unless there is at least one empty paragraph between them. Insert an empty `Paragraph` node after the first table (`document.append_child(Paragraph())`) to keep the tables separate.
+
+5. **Q:** How can I access a specific cell by its row and column indexes?  
+   **A:** Use `Table.rows[rowIndex].cells[cellIndex]` where `rowIndex` and `cellIndex` are zero‑based. This returns the `Cell` object, allowing you to read or modify its contents.

@@ -122,3 +122,24 @@ Aspose.Words enables you to merge the output split document with another docu
 The following code example shows how to merge a split document with another document:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Split Documents-split_document-MergeSplitDocuments.py" >}}
+
+```
+
+------ 
+
+## FAQ
+
+1. Q: How can I split a document by a specific heading level (e.g., only Heading 2)?
+   A: Set the `document_split_criteria` to `HEADING_PARAGRAPH` and assign the desired level to the `document_split_heading_level` property of `HtmlSaveOptions`. Only paragraphs formatted with that heading level will be used as split points.
+
+2. Q: Which output formats support splitting by headings?
+   A: Currently, splitting by headings is supported only when saving to HTML. Other formats such as DOCX, PDF, or EPUB will preserve the whole document or split only by sections/page breaks.
+
+3. Q: Can I split a document into separate files by page ranges in one operation?
+   A: Yes. Use the `Document.extract_pages(start_page, end_page)` method to obtain a sub‑document for each range, then save each sub‑document using any supported format.
+
+4. Q: Is it possible to split a document while preserving the original layout and styles?
+   A: Aspose.Words retains the original layout, styles, and formatting for each split part. However, minor differences may appear for complex layouts, especially when converting to formats other than the source.
+
+5. Q: How do I split a document that contains section breaks without using `document_split_criteria`?
+   A: Load the document, iterate through its `Sections` collection, clone each section into a new `Document` object, and save each clone. This approach works for any output format supported by Aspose.Words.

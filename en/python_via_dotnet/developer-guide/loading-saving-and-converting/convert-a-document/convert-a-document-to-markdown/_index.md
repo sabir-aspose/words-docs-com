@@ -74,3 +74,27 @@ There are several nuances and interesting cases, having learned which you can wo
 
 * SetextHeading that allows you to create multi-line headings in Markdown, while regular headings in Markdown can only be single-line. SetextHeading is based on a "Heading N" style, and its level can only be 1 or 2. If N in "Heading N" is greater than or equal to 2, then the corresponding SetextHeading is based on "Heading 2", otherwise on "Heading 1".
 * Different markers for the first level of bulleted lists ("-", "+" or "*", the default marker is “-”.) and different types of numbering for ordered lists ("." or ")", the default marker is ".").
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I convert a document to Markdown using Aspose.Words for Python via .NET?  
+   **A:** Load the source document with `Document doc = new Document("source.docx");` and then call `doc.save("output.md", SaveFormat.MARKDOWN);`. The API automatically handles the conversion based on the file extensions.
+
+2. **Q:** How can I control where images are saved when exporting to Markdown?  
+   **A:** Create a `MarkdownSaveOptions` object, set its `images_folder` property to the desired path, and pass the options to `save`. Example:  
+   ```python
+   MarkdownSaveOptions options = new MarkdownSaveOptions()
+   options.images_folder = "C:/ExportedImages" + "Images" 
+   doc.save("output.md", options)
+   ```
+
+3. **Q:** Is there a way to adjust the alignment of tables in the generated Markdown?  
+   **A:** Yes. Use the `table_content_alignment` property of `MarkdownSaveOptions`. Set it to `TableContentAlignment.LEFT`, `CENTER`, or `RIGHT` before saving.
+
+4. **Q:** Which heading styles are recognized when converting to Markdown?  
+   **A:** Paragraphs styled with Heading 1 through Heading 6 are converted to Markdown headings (`#` to `######`). For multi‑line headings you can use the `SetextHeading` style, which maps to the Setext syntax.
+
+5. **Q:** Can I convert a Markdown file back to DOCX or PDF?  
+   **A:** Absolutely. Load the Markdown file using `LoadFormat.MARKDOWN` and then save it to any supported format, e.g., `doc.save("output.docx", SaveFormat.DOCX);` or `doc.save("output.pdf", SaveFormat.PDF);`.

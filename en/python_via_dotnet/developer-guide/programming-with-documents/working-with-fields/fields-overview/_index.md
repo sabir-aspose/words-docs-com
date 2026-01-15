@@ -100,9 +100,9 @@ To remove a field in Microsoft Word:
 
 ## Fields in Aspose.Words
 
-When a document is loaded into Aspose.Words, the fields of the document are loaded into the Aspose.Words Document Object Model as a set of separate components (nodes). A single field is loaded as a collection of [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/), [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/) and [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/) nodes along with the content in between these nodes. If a field does not have a field result then there will be no [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/) node. All of these nodes are always found inline (as children of [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) or [SmartTag](https://reference.aspose.com/words/python-net/aspose.words.markup/smarttag/).
+When a document is loaded into Aspose.Words, the fields of the document are loaded into the Aspose.Words Document Object Model as a set of separate components (nodes). A single field is loaded as a collection of [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/), [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/) and [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/) nodes along with the content in between these nodes. If a field does not have a field result then there will be no [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/) node. All of these nodes are always found inline (as children of [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) or [SmartTag](https://reference.aspose.com/words/python-net/aspose.words.markup/smarttag/)).
 
-The content which makes up the field code is stored as [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) nodes between the [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/) and [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/). The field result is stored between the [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/) and [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/) nodes and can be made up of various types of content. Normally the field result contains just text made up of [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) nodes, however it is possible for the [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/) node to be located in a completely different paragraph, and thus making the field result comprised of block level nodes such as [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) and [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) nodes as well.
+The content which makes up the field code is stored as [Run](https://reference.aspose.com/words/python-net/aspose.words.run/) nodes between the [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/) and [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/). The field result is stored between the [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/) and [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/) nodes and can be made up of various types of content. Normally the field result contains just text made up of [Run](https://reference.aspose.com/words/python-net/aspose.words.run/) nodes, however it is possible for the [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/) node to be located in a completely different paragraph, and thus making the field result comprised of block level nodes such as [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) and [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) nodes as well.
 
 In Aspose.Words each of the **FieldXXX** nodes derives from [FieldChar](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldchar/). This class provides a property to check the type of field represented by the specified node through the [FieldChar.field_type](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldchar/field_type/) property. For example [FieldType.FIELD_MERGE_FIELD](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldtype/#field_merge_field) represents a merge field in the document.
 
@@ -247,7 +247,7 @@ The [Document](https://reference.aspose.com/words/python-net/aspose.words/docume
 
 ## Finding the Field Code and Field Result
 
-A field which is inserted using [DocumentBuilder.insert_field](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_field/) returns a [Field](https://reference.aspose.com/words/python-net/aspose.words.fields/field/) object. This is a façade class which provides useful methods to quickly find such properties of a field. Note if you are only looking for the names of merge fields in the document then you can instead use the built-in method [MailMerge.get_field_names](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/get_field_names/). Below example shows how to get names of all merge fields in a document.
+A field which is inserted using [DocumentBuilder.insert_field](https://reference.aspose.com/words/python-net/aspose.words.documentbuilder/insert_field/) returns a [Field](https://reference.aspose.com/words/python-net/aspose.words.fields/field/) object. This is a façade class which provides useful methods to quickly find such properties of a field. Note if you are only looking for the names of merge fields in the document then you can instead use the built-in method [MailMerge.get_field_names](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/get_field_names/). Below example shows how to get names of all merge fields in a document.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-GetFieldNames.py" >}}
 
@@ -256,3 +256,72 @@ A field which is inserted using [DocumentBuilder.insert_field](https://reference
 Below example shows how to rename merge fields in a Word document.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-RenameMergeFields.py" >}}
+
+```
+
+
+------ 
+
+## FAQ
+
+1. Q: How can I retrieve the names of all merge fields in a document?  
+   A: Use the `MailMerge.get_field_names()` method of the `Document` object. It returns a list of strings representing each merge field name. Example:
+
+   ```python
+   import aspose.words as aw
+
+   doc = aw.Document("Input.docx")
+   field_names = doc.mail_merge.get_field_names()
+   for name in field_names:
+       print(name)
+   ```
+
+2. Q: How do I rename a merge field in a Word document?  
+   A: Load the document, locate each `Field` node of type `MERGEFIELD`, change its `field_name` property, and then update the document. Example:
+
+   ```python
+   import aspose.words as aw
+
+   doc = aw.Document("Input.docx")
+   for field in doc.get_child_nodes(aw.NodeType.FIELD, True):
+       if isinstance(field, aw.fields.Field) and field.type == aw.fields.FieldType.FIELD_MERGE_FIELD:
+           field.field_name = "NewName"
+   doc.save("Renamed.docx")
+   ```
+
+3. Q: How can I update all fields in a document programmatically?  
+   A: Call the `update_fields()` method on the `Document` object. This updates every field that Aspose.Words can calculate.
+
+   ```python
+   import aspose.words as aw
+
+   doc = aw.Document("Input.docx")
+   doc.update_fields()
+   doc.save("Updated.docx")
+   ```
+
+4. Q: How do I change the culture used for date and number formatting when updating fields?  
+   A: Set the `field_options.field_update_culture_source` property on the `Document` to either `FieldUpdateCultureSource.CURRENT_THREAD` or `FieldUpdateCultureSource.FIELD_CODE`, and optionally adjust the thread locale.
+
+   ```python
+   import aspose.words as aw
+   import locale
+
+   locale.setlocale(locale.LC_ALL, "fr_FR")
+   doc = aw.Document("Input.docx")
+   doc.field_options.field_update_culture_source = aw.fields.FieldUpdateCultureSource.CURRENT_THREAD
+   doc.update_fields()
+   doc.save("CultureUpdated.docx")
+   ```
+
+5. Q: How can I access the field code and field result of a specific field?  
+   A: After locating the `Field` node, use its `field_code` property to read the code and the `result` property (or `field_result`) to read the evaluated result.
+
+   ```python
+   import aspose.words as aw
+
+   doc = aw.Document("Input.docx")
+   field = doc.get_child_nodes(aw.NodeType.FIELD, True)[0]  # example: first field
+   print("Code:", field.field_code)
+   print("Result:", field.result)
+   ```

@@ -94,3 +94,21 @@ The following code example shows how to export list levels using space character
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_txt_save_options-UseSpaceCharacterPerLevelForListIndentation.py" >}}
 
+------ 
+
+## FAQ
+
+1. Q: How can I include headers and footers when saving a document as plain text?  
+   A: Set the `export_headers_footers_mode` property of `TxtSaveOptions` to one of the enum values: `ALL_AT_END` to place them at the end of the file, `PRIMARY_ONLY` to export only primary headers/footers at the start and end of each section, or `NONE` to omit them completely.
+
+2. Q: How do I control the indentation of list levels in a TXT export?  
+   A: Use the `list_indentation` property of `TxtSaveOptions`. Create a `TxtListIndentation` object, specify the `character` (e.g., tab `"\t"` or space `" "` ) and the `count` (number of characters per level), then assign it to `options.list_indentation`.
+
+3. Q: Can I preserve leading and trailing spaces when loading a TXT file?  
+   A: Yes. Configure `TxtLoadOptions` with the appropriate `leading_spaces` and `trailing_spaces` settings (e.g., `Trim`, `Preserve`, or `ConvertToIndent`) before calling `Document.Load`.
+
+4. Q: How do I make Aspose.Words detect the text direction (RTL or LTR) of a TXT document during import?  
+   A: Set the `document_direction` property of `TxtLoadOptions` to `DocumentDirection.AUTO` (default) to let the library detect direction, or explicitly set it to `DocumentDirection.LEFT_TO_RIGHT` or `DocumentDirection.RIGHT_TO_LEFT` as needed.
+
+5. Q: What does the `add_bidi_marks` option do when saving to TXT?  
+   A: When `add_bidi_marks` is `True`, Aspose.Words inserts a Unicode RIGHT-TO-LEFT MARK (U+200F) before each bi‑directional run, ensuring correct display of mixed‑direction text in the plain‑text output.

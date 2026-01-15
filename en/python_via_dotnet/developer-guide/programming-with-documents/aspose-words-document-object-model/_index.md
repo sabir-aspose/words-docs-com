@@ -152,3 +152,21 @@ Typed properties are merely useful shortcuts that sometimes provide easier acces
 The following code example shows how to use typed properties to access nodes of the document tree:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_node-TypedAccess.py" >}}
+
+---  
+
+## FAQ
+
+1. **Q:** How can I obtain only the paragraphs that belong to the main body of a document?  
+   **A:** Access the body of a section and use its typed collection:  
+
+   ```python
+   Document doc = aw.Document("input.docx")
+   Body body = doc.first_section.body
+   ParagraphCollection body_paragraphs = body.paragraphs
+   ```  
+
+   This returns the paragraphs that are directly inside the document body, excluding those in headers, footers, footnotes, etc.
+
+2. **Q:** What is the purpose of the `Node.node_type` property and the `NodeType` enumeration?  
+   **A:** `Node.node_type` returns a value from the `NodeType` enumeration that identifies the concrete type of the node (e.g., `NodeType.PARAGRAPH`, `NodeType.TABLE`). The `NodeType` enum is used for comparisons, filtering, and selecting nodes of a particular kind when traversing the DOM.

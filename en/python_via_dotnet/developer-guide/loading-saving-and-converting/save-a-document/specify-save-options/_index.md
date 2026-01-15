@@ -69,3 +69,62 @@ To control image saving options, the [ImageSaveOptions](https://reference.aspose
 The following code example shows how to save a black and white image with one bit per pixel format:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_image_save_options-Format1BppIndexed.py" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I set a password to encrypt a document when saving?  
+   **A:** Use the SaveOptions class that corresponds to the target format (e.g., `DocSaveOptions` for DOC/DOT, `OoxmlSaveOptions` for DOCX) and assign the desired password to its `password` property. Then pass this options object to `Document.save`.  
+
+   ```python
+   import aspose.words as aw
+
+   doc = aw.Document("input.docx")
+   options = aw.saving.DocSaveOptions()
+   options.password = "Secret123"
+   doc.save("output.doc", options)
+   ```
+
+2. **Q:** How do I update the document creation time before saving?  
+   **A:** Set the `created_time` property of the document’s built‑in properties, or enable `update_created_time_property` on the SaveOptions object. The updated time will be written to the file when you call `save`.  
+
+   ```python
+   import aspose.words as aw
+   from datetime import datetime, timezone
+
+   doc = aw.Document("input.docx")
+   doc.built_in_document_properties.created_time = datetime(2023, 5, 1, tzinfo=timezone.utc)
+
+   options = aw.saving.PdfSaveOptions()
+   options.update_created_time_property = True
+   doc.save("output.pdf", options)
+   ```
+
+3. **Q:** How can I prevent the **LastSavedTime** property from being changed on save?  
+   **A:** Set the `update_last_saved_time_property` of the appropriate SaveOptions object to `False` before calling `save`. This tells Aspose.Words to leave the existing value untouched.  
+
+   ```python
+   import aspose.words as aw
+
+   doc = aw.Document("input.docx")
+   options = aw.saving.OoxmlSaveOptions()
+   options.update_last_saved_time_property = False
+   doc.save("output.docx", options)
+   ```
+
+4. **Q:** How do I control the pixel format of images generated during saving?  
+   **A:** Use `ImageSaveOptions.pixel_format` and assign a value from the `ImagePixelFormat` enumeration (e.g., `ImagePixelFormat.FORMAT_32BPP_ARGB` for a black‑and‑white image). The option is applied when saving to an image format.  
+
+   ```python
+   import aspose.words as aw
+   from aspose.words.saving import ImagePixelFormat
+
+   doc = aw.Document("input.docx")
+   options = aw.saving.ImageSaveOptions()
+   options.pixel_format = ImagePixelFormat.FORMAT_32BPP_ARGB
+   doc.save("output.png", options)
+   ```
+
+5. **Q:** Which SaveOptions class should I use for a specific output format?  
+   **A:** Each output format has its own derived SaveOptions class: `PdfSaveOptions` for PDF, `HtmlSaveOptions` for HTML, `DocSaveOptions` for DOC/DOT, `OoxmlSaveOptions` for DOCX/DOCM, `ImageSaveOptions` for PNG/JPEG/BMP, `MhtmlSaveOptions` for MHTML, etc. Instantiate the class that matches the desired format and configure its properties before saving.  

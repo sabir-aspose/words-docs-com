@@ -13,7 +13,7 @@ url: /python-net/replace-fields/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Replacing fields is often required when you wish to save your document as a static copy. For example, when sending as an attachment in an e-mail. Converting fields such as `DATE` or `TIME` to static text will allow the document to display the same date as when it was sent. Also, in some situations, you may need to remove the conditional `IF` fields from your document and replace them with the most recent text result instead. For example, converting the result of the `IF` field to static text so it will no longer dynamically change its value when fields in the document are updated.
+Replacing fields is often required when you wish to save your document as a static copy. For example, when sending as an attachment in an e‑mail. Converting fields such as `DATE` or `TIME` to static text will allow the document to display the same date as when it was sent. Also, in some situations, you may need to remove the conditional `IF` fields from your document and replace them with the most recent text result instead. For example, converting the result of the `IF` field to static text so it will no longer dynamically change its value when fields in the document are updated.
 
 The diagram below shows how the `IF` field is stored in a document:
 
@@ -48,7 +48,7 @@ For example, you can pass a [Document](https://reference.aspose.com/words/python
 
 {{% alert color="primary" %}}
 
-When passing a block-level node such as a [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/), be aware that in some cases, fields can span across multiple paragraphs. If this happens it is recommended to pass the parent of the composite instead to avoid this.
+When passing a block‑level node such as a [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/), be aware that in some cases, fields can span across multiple paragraphs. If this happens it is recommended to pass the parent of the composite instead to avoid this.
 
 {{% /alert %}}
 
@@ -75,3 +75,22 @@ The following code  example shows how to convert all `PAGE` fields in a Body of 
 The following code  example shows how to convert all `IF` fields in the last paragraph to static text:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ConvertFieldsInParagraph.py" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I replace all fields in a document with their current results?  
+   **A:** Use the static method `FieldsHelper.ConvertFieldsToStaticText` and pass the `Document` object as the composite node together with `FieldType.ANY`. This walks the whole document and replaces every field with its latest result.
+
+2. **Q:** I only want to convert fields of a specific type, such as `IF` fields. How do I do that?  
+   **A:** Call `FieldsHelper.ConvertFieldsToStaticText` with the document (or a body/paragraph) and the desired `FieldType` enumeration value, e.g., `FieldType.FIELD_IF`. Only fields matching that type will be converted.
+
+3. **Q:** My fields span multiple paragraphs; the conversion does not work when I pass a `Paragraph` node.  
+   **A:** When a field crosses paragraph boundaries, pass the parent node (e.g., the containing `Body` or `Section`) instead of the individual paragraph. This ensures the whole field is processed.
+
+4. **Q:** After converting `PAGE` fields in a header, all pages show the same number. Why?  
+   **A:** Converting a `PAGE` field in a header replaces it with a static run that reflects the value on the last page of the section. To keep correct page numbers, avoid converting `PAGE` fields in headers/footers or handle them separately after conversion.
+
+5. **Q:** Can I convert fields only in a particular section of the document?  
+   **A:** Yes. Retrieve the `Section` object, then its `Body`, and pass that `Body` to `ConvertFieldsToStaticText`. Only fields inside that section will be affected.

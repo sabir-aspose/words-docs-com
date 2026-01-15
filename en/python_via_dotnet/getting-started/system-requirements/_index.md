@@ -70,3 +70,22 @@ Aspose.Words for Python via .NET supports any 64-bit or 32-bit operating system 
 - `libpython` shared Python library. The `--enable-shared` Python build option is disabled by default, some Python distributions do not contain the `libpython` shared library. For some linux platforms, the `libpython` shared library can be installed using the package manager, for example: `sudo apt-get install libpython3.7`. The common issue is that `libpython` library is installed in a different location than the standard system location for shared libraries. The issue can be fixed by using the Python build options to set alternate library paths when compiling Python, or fixed by creating a symbolic link to the `libpython` library file in the system standard location for shared libraries. Typically, the `libpython` shared library file name is `libpythonX.Ym.so.1.0` for Python 3.5-3.7, or `libpythonX.Y.so.1.0` for Python 3.8 or later (for example: libpython3.7m.so.1.0, libpython3.9.so.1.0).
 
 Supported Linux configurations are presented in [Aspose.Words-for-Python-via-.NET/Dockerfile](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Dockerfile).
+
+------ 
+
+## FAQ
+
+1. **Q:** Does Aspose.Words for Python via .NET run on Linux and macOS?  
+   **A:** Yes. The library supports most 64‑bit and 32‑bit Linux distributions (Ubuntu, OpenSUSE, CentOS, etc.) and macOS versions 10.14+ (x86_64) and 11.0+ (arm64). Only the standard GCC‑6+ runtime and .NET Core dependencies are required; the .NET runtime itself does not need to be installed separately.
+
+2. **Q:** Do I need Microsoft Word or any other Office product installed on the machine?  
+   **A:** No. Aspose.Words is a self‑contained engine and works independently of Microsoft Word or any other third‑party Office suite.
+
+3. **Q:** Can a .NET license (e.g., Aspose.Total.NET.lic) be used with the Python‑via‑.NET API?  
+   **A:** Yes. The same .NET license file can be applied to the Python wrapper. Load it in Python with `aspose.words.License()` and call `set_license("Aspose.Total.NET.lic")`. Ensure the license file matches the product version you are using.
+
+4. **Q:** What additional libraries are required on Linux for Python 3.5‑3.7?  
+   **A:** You must have the `pymalloc` build of Python and the `libpython` shared library (e.g., `libpython3.7m.so.1.0`). Install it via the package manager (`sudo apt-get install libpython3.7`) or create a symbolic link to the library if it resides in a non‑standard location.
+
+5. **Q:** Is the .NET Core Runtime required to be installed on the target machine?  
+   **A:** No. The Aspose.Words for Python via .NET package bundles the necessary .NET Core runtime components, so a separate installation of .NET Core Runtime is not needed. Only the native dependencies listed above must be present.

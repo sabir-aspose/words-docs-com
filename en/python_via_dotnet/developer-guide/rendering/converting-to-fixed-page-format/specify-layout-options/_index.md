@@ -52,3 +52,60 @@ The following code example shows how to customize revisions display:
 The image below shows how Aspose.Words renders comments and the Delete revisions:
 
 <img src="specify-layout-options-4.png" alt="comments_and_revisions_example_aspose_words_net" style="width:800px"/>
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I show hidden text in the rendered document?  
+   **A:** Set the `show_hidden_text` property of the document’s `LayoutOptions` to `True`. Example:  
+   ```python
+   import aspose.words as aw
+
+   doc = aw.Document("input.docx")
+   doc.layout_options.show_hidden_text = True
+   doc.save("output.pdf")
+   ```
+
+2. **Q:** How do I display paragraph marks (¶) when rendering a document?  
+   **A:** Enable the `show_paragraph_marks` property on `LayoutOptions`. Example:  
+   ```python
+   import aspose.words as aw
+
+   doc = aw.Document("input.docx")
+   doc.layout_options.show_paragraph_marks = True
+   doc.save("output.pdf")
+   ```
+
+3. **Q:** Which setting controls whether comments are rendered in the output?  
+   **A:** Use the `comment_display_mode` property. Set it to `CommentDisplayMode.SHOW_IN_BALLOONS` to display comments as balloons, or to `CommentDisplayMode.HIDE` to hide them. Example:  
+   ```python
+   import aspose.words as aw
+
+   doc = aw.Document("input.docx")
+   doc.layout_options.comment_display_mode = aw.CommentDisplayMode.SHOW_IN_BALLOONS
+   doc.save("output.pdf")
+   ```
+
+4. **Q:** How can I show revisions (track changes) in the generated document?  
+   **A:** Enable `revision_options.show` and optionally configure colors via `RevisionOptions`. Example:  
+   ```python
+   import aspose.words as aw
+
+   doc = aw.Document("input.docx")
+   doc.layout_options.revision_options.show = True
+   # Set custom colors if needed
+   doc.layout_options.revision_options.insertion_color = aw.Color.red
+   doc.layout_options.revision_options.deletion_color = aw.Color.blue
+   doc.save("output.pdf")
+   ```
+
+5. **Q:** What does the `ignore_printer_metrics` option do?  
+   **A:** When set to `True`, Aspose.Words ignores the printer’s DPI and other metrics, laying out the document using screen metrics only. This can produce consistent layout across different printers. Example:  
+   ```python
+   import aspose.words as aw
+
+   doc = aw.Document("input.docx")
+   doc.layout_options.ignore_printer_metrics = True
+   doc.save("output.pdf")
+   ```

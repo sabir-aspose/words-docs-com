@@ -104,3 +104,22 @@ doc.write_protection.read_only_recommended = False
 doc.protect(aw.ProtectionType.NO_PROTECTION)
 doc.save(docs_base.artifacts_dir + "DocumentProtection.RemoveReadOnlyRestriction.docx")
 {{< /highlight >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I make a document read‑only using Aspose.Words for Python?  
+   **A:** Set a password with `doc.write_protection.set_password("yourPassword")`, enable the read‑only recommendation with `doc.write_protection.read_only_recommended = True`, and then apply the protection using `doc.protect(aw.ProtectionType.READ_ONLY)`.
+
+2. **Q:** Is a password required to use the `read_only_recommended` property?  
+   **A:** No, the property can be set without a password, but without a password any user can remove the recommendation by clearing the property. Adding a password makes the setting harder to bypass.
+
+3. **Q:** What is the difference between `read_only_recommended` and `doc.protect(ProtectionType.READ_ONLY)`?  
+   **A:** `read_only_recommended` only suggests that the document should be opened as read‑only; it does not enforce protection. `doc.protect(ProtectionType.READ_ONLY)` actually enforces the read‑only mode and, when combined with a password, prevents editing unless the password is supplied.
+
+4. **Q:** How can I remove the read‑only restriction from a document?  
+   **A:** Set `doc.write_protection.read_only_recommended = False` and call `doc.protect(aw.ProtectionType.NO_PROTECTION)`. This clears both the recommendation and any applied protection.
+
+5. **Q:** Does making a document read‑only stop users from copying its content?  
+   **A:** No. Read‑only protection only prevents modifications to the document. Users can still select, copy, and paste the content unless additional restrictions (e.g., encryption) are applied.

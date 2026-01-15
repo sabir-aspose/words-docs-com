@@ -103,3 +103,28 @@ Another common property is a choice in which document to show comparison changes
 The following code example shows how to set the advanced comparing properties:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-compare_documents-CompareOptions.py" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** How can I retrieve only the inserted or deleted text after a comparison?  
+   **A:** After calling `Document.compare`, all differences are stored in the `Document.revisions` collection. Iterate through this collection and filter by `Revision.revision_type`. Use `RevisionType.INSERTION` for inserted text and `RevisionType.DELETION` for deleted text.
+
+2. **Q:** Which `CompareOptions` should I set to ignore changes in headers and footers?  
+   **A:** Set `compare_options.ignore_headers_and_footers = True` before calling `compare`. This tells the engine to skip any differences found in header/footer sections.
+
+   ```python
+   options = aw.Comparing.CompareOptions()
+   options.ignore_headers_and_footers = True
+   doc1.compare(doc2, "author", datetime.today(), options)
+   ```
+
+3. **Q:** How do I change the granularity of comparison to character level?  
+   **A:** Use the `granularity` property of `CompareOptions` and assign `aw.Comparing.CompareGranularity.CHARACTER`. This makes the comparison track changes at the character level rather than the default word level.
+
+   ```python
+   options = aw.Comparing.CompareOptions()
+   options.granularity = aw.Comparing.CompareGranularity.CHARACTER
+   doc1.compare(doc2, "author", datetime.today(), options)
+   ```

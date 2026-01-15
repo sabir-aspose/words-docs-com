@@ -122,3 +122,19 @@ The following code example shows how to remove personal information:
 Setting this option does not actually remove personal information while processing a document in Aspose.Words and affects only the Microsoft Word behavior.
 
 {{% /alert %}}
+
+------  
+
+## FAQ
+
+1. **Q:** *Can I modify built‑in document properties such as Title or Author?*  
+   **A:** Yes, you can change the values of built‑in properties, but you cannot add new built‑in properties or remove existing ones. Use the `built_in_document_properties` collection to set the desired values.
+
+2. **Q:** *How can I list all custom document properties in a document?*  
+   **A:** Iterate over the `custom_document_properties` collection. Each item is a `DocumentProperty` object, and you can read its `name`, `value`, and type‑specific getters (e.g., `to_string()`, `to_int()`).
+
+3. **Q:** *Is it possible to prevent Aspose.Words from writing the Application and PDF Producer fields in generated PDFs?*  
+   **A:** No. Aspose.Words always writes its product name and version to those fields, and this information cannot be removed or altered through the API.
+
+4. **Q:** *Can I create a custom property that automatically reflects the content of a bookmark or field?*  
+   **A:** Yes. Use the `add_link_to_content` method of `custom_document_properties` and provide the bookmark or field name as the link source. The property will update whenever the linked content changes.

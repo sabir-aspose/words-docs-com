@@ -70,3 +70,21 @@ The following files are used in the example above. The file name is on the left 
 |  | Test File (Enc).docx | Encrypted Office Open XML WordprocessingML document. |
 | Unsupported file formats | Test File (JPG).jpg | JPEG image file. |
 
+------ 
+
+## FAQ
+
+1. **Q:** How can I determine a document’s format without loading it into a `Document` object?  
+   **A:** Use `FileFormatUtil.detect_file_format(file_path)`. The method returns a `FileFormatInfo` object that contains the detected format, load format, and whether the format is supported, all without opening the file.
+
+2. **Q:** Does `detect_file_format` guarantee that the file can be opened successfully afterwards?  
+   **A:** No. The method only reads enough bytes to identify the format; it does not perform full validation. A file may still cause an exception when loaded if it is corrupted or partially supported.
+
+3. **Q:** Which file formats are considered supported by Aspose.Words for Python via .NET?  
+   **A:** Supported formats include DOC, DOT, DOCX, DOCM, DOTX, DOTM, XML (Flat OPC), RTF, WORDML (Word 2003), HTML, MHTML, ODT, OTT, and others. See the full list of supported formats on the [Supported Document Formats](https://docs.aspose.com/words/python-net/supported-document-formats/) page.
+
+4. **Q:** How should I handle files that `detect_file_format` reports as unsupported?  
+   **A:** You can skip processing them, move them to a separate folder, or log a warning. Attempting to load an unsupported file with `Document` will raise an exception.
+
+5. **Q:** Can `detect_file_format` identify encrypted documents, and do I need a license to work with them?  
+   **A:** Yes, it can detect encrypted DOC/DOCX files and will mark them as encrypted in `FileFormatInfo`. You must provide a valid license and, if required, the password before loading the document.

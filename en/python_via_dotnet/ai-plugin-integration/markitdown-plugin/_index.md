@@ -119,3 +119,35 @@ To run unit tests for **Aspose.Words for MarkItDown**, follow these steps:
   ```bash
   pytest
   ```
+
+------  
+
+## FAQ  
+
+1. **Q:** Can a **Aspose.Total.NET** license be used with the Aspose.Words for Python via .Net library?  
+   **A:** No. A license file that is issued for the .NET version of Aspose.Total (e.g., `Aspose.Total.NET.lic`) is not valid for the Python‑via‑.Net wrapper. You must obtain a license specifically for **Aspose.Words for Python via .Net** (e.g., `aspose.words.lic`). Using a .NET‑only license will result in a “license is not valid for this product” error.
+
+2. **Q:** How do I apply the Aspose.Words license when using the MarkItDown plugin in Python?  
+   **A:** Set the environment variable `ASPOSE_WORDS_LICENSE_PATH` to the full path of your `aspose.words.lic` file, or call the helper class provided by the plugin:  
+
+   ```python
+   from aspose_words_markitdown import LicenseManager
+   LicenseManager().apply_license("/full/path/to/aspose.words.lic")
+   ```  
+
+   This must be done before any conversion operation is executed.
+
+3. **Q:** Why do I receive the error **“RuntimeError: Proxy error(InvalidOperationException): The license is not valid for this product.”**?  
+   **A:** This error occurs when the license file does not match the product you are using. Common causes are: using a .NET‑only license, using an expired or corrupted license file, or the license file not being found at the path specified by the environment variable. Verify that you are using a valid **Aspose.Words for Python via .Net** license and that the path is correct.
+
+4. **Q:** Does the MarkItDown plugin require a separate license from the Aspose.Words library?  
+   **A:** No. The plugin itself is open‑source and distributed under the MIT license. It only depends on the commercial **Aspose.Words for Python via .Net** library, so you need a license only for that library, not for the plugin.
+
+5. **Q:** How can I confirm that the plugin is correctly installed and recognized by MarkItDown?  
+   **A:** Run `markitdown --list-plugins`. The output should contain a line similar to:  
+
+   ```
+   * aspose_words_markitdown  (package: aspose_words_markitdown)
+   ```  
+
+   If the plugin appears in the list, it is installed correctly. You can also perform a quick conversion with `markitdown sample.doc -o out.md --use-plugins` and verify that the output file is generated without errors.
