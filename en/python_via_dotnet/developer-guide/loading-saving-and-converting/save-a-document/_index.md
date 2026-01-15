@@ -50,3 +50,21 @@ The following code example shows how to save a document to PCL using save option
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_pcl_save_options-RasterizeTransformedElements.py" >}}
 
+------ 
+
+## FAQ
+
+1. **Q:** How does Aspose.Words decide which format to use when I call `document.save("output.docx")`?  
+   **A:** When saving to a file, Aspose.Words infers the format from the file extension. The extension “.docx” maps to `SaveFormat.DOCX`, “.pdf” to `SaveFormat.PDF`, and so on.
+
+2. **Q:** Do I need to specify a `SaveFormat` when saving a document to a stream?  
+   **A:** Yes. When the destination is a stream, the format cannot be inferred, so you must pass the desired `SaveFormat` (e.g., `SaveFormat.PDF`) as the second argument to `save`.
+
+3. **Q:** Can I save a document directly to a memory stream for further processing?  
+   **A:** Absolutely. Create a `MemoryStream` (or `io.BytesIO` in Python), call `document.save(stream, SaveFormat.PDF)`, and then use the stream’s contents as needed, such as sending it over a network or attaching it to an email.
+
+4. **Q:** What options are available when saving a document to PCL?  
+   **A:** Use the `PclSaveOptions` class to control PCL‑specific settings, such as rasterizing transformed elements, setting the resolution, or specifying whether to embed fonts. Pass an instance of this class to `document.save(stream, pcl_save_options)`.
+
+5. **Q:** Is it possible to change the font size of the entire document while saving?  
+   **A:** Font size changes must be applied to the document’s content before calling `save`. You can iterate through all `Run` nodes, modify their `Font.Size` property, and then save the document in the desired format.

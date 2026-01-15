@@ -15,3 +15,16 @@ timestamp: 2024-01-27-14-07-04
 ---
 
 This section provides the information about LINQ Reporting Engine API in Aspose.Words for Python via .NET, the information about template syntax is provided in the [Aspose.Words for .NET documentation](/words/net/linq-reporting-engine/).
+
+------ 
+
+## FAQ
+
+1. **Q:** Can I use the LINQ Reporting Engine with Python via .NET?  
+   **A:** Yes. Aspose.Words for Python via .NET includes the LINQ Reporting Engine API, allowing you to generate reports from template documents using LINQ syntax directly from Python code.
+
+2. **Q:** Where can I find the template syntax reference for the LINQ Reporting Engine?  
+   **A:** The full template syntax is documented in the Aspose.Words for .NET guide. You can access it through the link provided in this page: *Aspose.Words for .NET documentation → LINQ Reporting Engine*.
+
+3. **Q:** What features of the LINQ Reporting Engine are supported in the Python API?  
+   **A:** All core features available in the .NET version are exposed to Python, including data binding, conditional sections, repeating sections, and custom functions. The behavior and supported expressions are identical to the .NET implementation.

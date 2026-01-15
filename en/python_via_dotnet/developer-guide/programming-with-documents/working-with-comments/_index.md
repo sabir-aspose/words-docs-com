@@ -153,3 +153,55 @@ The [replies](https://reference.aspose.com/words/python-net/aspose.words/comment
 The following code example shows how to iterate through a comment's replies and resolved them:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_comments-CommentResolvedandReplies.py" >}}
+
+------ 
+
+## FAQ
+
+1. Q: How can I extract all comments from a Word document using Python?  
+   A: Load the document with `aw.Document`, then call `doc.get_child_nodes(aw.NodeType.COMMENT, True)` to obtain a `NodeCollection` of `Comment` objects. Iterate the collection to read each comment’s `author`, `date_time`, and `text`. Example:  
+
+   ```python
+   doc = aw.Document("input.docx")
+   comments = doc.get_child_nodes(aw.NodeType.COMMENT, True)
+   for comment in comments:
+       print(f"Author: {comment.author}, Date: {comment.date_time}, Text: {comment.text}")
+   ```
+
+2. Q: How do I extract only the comments made by a specific author?  
+   A: After retrieving the full comment collection, filter it by the `author` property.  
+
+   ```python
+   target_author = "ks"
+   for comment in comments:
+       if comment.author == target_author:
+           print(f"[{target_author}] {comment.text}")
+   ```
+
+3. Q: What is the recommended way to remove all comments or only those from a particular author?  
+   A: For removing all comments, call `clear()` on the `NodeCollection`. To remove selectively, iterate the collection **backwards** and call `remove()` on matching comments.  
+
+   ```python
+   # Remove all
+   comments.clear()
+
+   # Remove only author "ks"
+   for i in range(comments.count - 1, -1, -1):
+       if comments[i].author == "ks":
+           comments[i].remove()
+   ```
+
+4. Q: How can I add a reply to a comment and what limitation should I be aware of?  
+   A: Use the `add_reply(reply_text)` method on a `Comment` object. Microsoft Word only supports a single level of replies, so attempting to add a second reply will raise an `InvalidOperationException`.  
+
+   ```python
+   comment = comments[0]                     # first comment
+   comment.add_reply("Thanks for the suggestion.")
+   ```
+
+5. Q: Does `get_child_nodes` also retrieve comments that are located in headers or footers?  
+   A: Yes. When the `recursive` parameter is set to `True`, `get_child_nodes` searches the entire document tree, including headers, footers, footnotes, and other story ranges, and returns any `Comment` nodes it finds.  
+
+   ```python
+   all_comments = doc.get_child_nodes(aw.NodeType.COMMENT, True)  # includes header/footer comments
+   ```

@@ -39,3 +39,22 @@ multiDocumentSummary.save(ArtifactsDir + "AI.AiSummarize.Multi.docx")
 Summarizing documents with Aspose.Words saves time and helps you focus on essential information. For more information, check the [aspose.words.ai](https://reference.aspose.com/words/python-net/aspose.words.ai/) API documentation.
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** Which AI models can I use for document summarization?  
+   **A:** Aspose.Words for Python via .NET supports OpenAI models (e.g., GPT‑4o, GPT‑4o‑mini), Google Gemini models, and Anthropic Claude models. The full list is defined in the `aw.ai.AiModelType` enumeration.
+
+2. **Q:** How do I control the length of the generated summary?  
+   **A:** Set the `summary_length` property of `aw.ai.SummarizeOptions` to one of the values in `aw.ai.SummaryLength` (e.g., `SHORT`, `MEDIUM`, `LONG`). The chosen value influences how concise or detailed the summary will be.
+
+3. **Q:** Can I summarize more than one document in a single request?  
+   **A:** Yes. Pass a list of `aw.Document` objects to the `summarize` method. The model will generate a combined summary for all supplied documents.
+
+4. **Q:** Do I need a separate license for using the AI summarization feature?  
+   **A:** No additional license is required beyond a valid Aspose.Words for Python via .NET license. The AI features are included with the standard product license.
+
+5. **Q:** Is the summarization feature available on Linux platforms?  
+   **A:** Yes. Aspose.Words for Python via .NET runs on Linux, and the AI summarization APIs work the same way as on Windows, provided the required runtime dependencies are installed.

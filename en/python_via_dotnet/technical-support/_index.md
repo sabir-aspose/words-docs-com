@@ -38,3 +38,25 @@ When posting your issue, question, or feature request with Aspose.Words, follow 
 
 * Include the original document and possibly the code snippet that is causing the problem. If you need to attach multiple files, zip them into one. It is safe to attach your documents to `Aspose.Forums` because only you and the Aspose developers will have access to the attached files.
 * Try to report one issue per thread. If you have another issue, question, or feature request, please report it in a separate thread.
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I use a .NET license file (e.g., *Aspose.Total.NET.lic*) with Aspose.Words for Python via .NET?  
+   **A:** Load the license in Python by creating a `License` object from the `aspose.words` namespace and calling `set_license` with the path to the .NET license file, e.g.:  
+   ```python
+   import aspose.words as aw
+   license = aw.License()
+   license.set_license(r"C:/path/to/Aspose.Total.NET.lic")
+   ```  
+   The same license file works for all Aspose products included in the bundle.
+
+2. **Q:** Why do I receive the error *“The license is not valid for this product”* when setting the license?  
+   **A:** This error occurs when the license file does not contain a valid entry for Aspose.Words or when the file is corrupted. Verify that the license file includes a `<Product>Words</Product>` entry and that you are using the latest version of Aspose.Words for Python via .NET.
+
+3. **Q:** How should I report a technical issue to get the fastest response?  
+   **A:** Post a new thread in the [Aspose.Words Forum](https://forum.aspose.com/c/words/8) with a clear title, a minimal reproducible code snippet, and the original document (or a zip containing all files). Include the exact error message and the version of Aspose.Words you are using.
+
+4. **Q:** Does Aspose provide phone support for technical problems?  
+   **A:** No. Phone support is limited to sales and purchase inquiries. All technical questions should be posted on the Aspose Forums, where the development team responds within a few hours.

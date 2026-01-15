@@ -13,7 +13,7 @@ url: /python-net/supported-ai-models/
 timestamp: 2025-03-17-19-00-00
 ---
 
-Aspose.Words now leverages advanced AI models to enhance document processing and analysis. With the Aspose.Words.AI namespace, developers can access AI-powered features such as document summarization and analysis, document translation, and grammar checking by integrating generative language models from industry leaders.
+Aspose.Words now leverages advanced AI models to enhance document processing and analysis. With the Aspose.Words.AI namespace, developers can access AI‑powered features such as document summarization and analysis, document translation, and grammar checking by integrating generative language models from industry leaders.
 
 ## Supported Model Types
 
@@ -45,3 +45,36 @@ def create(self, model_type: aspose.words.ai.AiModelType):
 For more information, check the [aspose.words.ai](https://reference.aspose.com/words/python-net/aspose.words.ai/) API documentation.
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** Which AI model families are currently supported by Aspose.Words for Python?  
+   **A:** Aspose.Words supports models from OpenAI, Google (Gemini), and Anthropic Claude families. The specific models are exposed through the `AiModelType` enumeration, such as `OpenAI_Gpt4Turbo`, `Google_Gemini1_5Flash`, and `Claude_Instant`.
+
+2. **Q:** How do I create an `AiModel` instance for a particular model type?  
+   **A:** Use the static `create` method of the `AiModel` class and pass a value from the `AiModelType` enumeration. Example:  
+
+   ```python
+   import aspose.words.ai as ai
+
+   model = ai.AiModel.create(ai.AiModelType.OpenAI_Gpt4Turbo)
+   ```
+
+3. **Q:** Can I retrieve the list of all supported model types programmatically?  
+   **A:** Yes. The `AiModelType` enumeration provides all supported values. You can iterate over it using Python’s `dir` or `Enum` utilities:
+
+   ```python
+   import aspose.words.ai as ai
+   from enum import Enum
+
+   for model_type in ai.AiModelType:
+       print(model_type.name)
+   ```
+
+4. **Q:** Is it possible to switch the AI model used for summarization at runtime?  
+   **A:** Absolutely. Create a new `AiModel` with the desired `AiModelType` and pass it to the summarization API each time you call it. The previous model instance does not need to be disposed.
+
+5. **Q:** Are the latest OpenAI models such as **GPT‑4o** and **GPT‑4 Turbo** supported?  
+   **A:** Yes. They are represented in the enumeration as `OpenAI_Gpt4o` and `OpenAI_Gpt4Turbo`. Use these values when creating the `AiModel` to access the newest capabilities.

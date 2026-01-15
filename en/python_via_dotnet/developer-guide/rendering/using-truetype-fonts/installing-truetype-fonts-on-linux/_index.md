@@ -49,3 +49,33 @@ After installing the package, Aspose.Words will find these fonts in the folders�
 ## See Also
 
 - [Liberation Fonts](https://pagure.io/liberation-fonts) as an alternative to standard Windows fonts
+
+------ 
+
+## FAQ
+
+1. **Q:** Does Aspose.Words for Python via .NET run on Linux?  
+   **A:** Yes. Aspose.Words for Python via .NET is fully supported on Linux distributions. The only additional requirement is that the fonts used in the source documents must be available on the Linux machine, either by copying them or by installing a TrueType font package.
+
+2. **Q:** How can I tell Aspose.Words where my custom fonts are located?  
+   **A:** Use the `FontSettings` class to point to the folder that contains the `.ttf`/`.ttc` files. Example:
+
+   ```python
+   import aspose.words as aw
+
+   font_settings = aw.FontSettings()
+   font_settings.set_fonts_folder("/home/user/custom_fonts", True)   # True = search sub‑folders
+
+   doc = aw.Document("input.docx")
+   doc.font_settings = font_settings
+   doc.save("output.pdf")
+   ```
+
+3. **Q:** What happens if a required font is missing on Linux?  
+   **A:** Aspose.Words substitutes the missing font with a fallback font that is available on the system. This can change the appearance of the resulting PDF or rendered document, so installing the original Windows fonts is recommended for accurate rendering.
+
+4. **Q:** Is it necessary to register the copied fonts with the Linux operating system?  
+   **A:** No. When you use `FontSettings.set_fonts_folder`, Aspose.Words loads the fonts directly from the specified directory without requiring system‑wide registration.
+
+5. **Q:** Can I use open‑source fonts such as Liberation fonts instead of Microsoft fonts?  
+   **A:** Yes. Liberation fonts provide metric‑compatible replacements for Arial, Times New Roman, and Courier New. Installing them via the Linux package manager works the same way as installing Microsoft fonts, and Aspose.Words will automatically use them if they are available.

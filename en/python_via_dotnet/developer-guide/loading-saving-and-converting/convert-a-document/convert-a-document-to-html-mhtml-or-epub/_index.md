@@ -34,16 +34,16 @@ doc.save(dataDir + "Document", aw.SaveFormat.HTML)
 
 To convert a document to MHTML or EPUB, use [SaveFormat.MHTML](https://reference.aspose.com/words/python-net/aspose.words/saveformat/#mhtml) or [SaveFormat.EPUB](https://reference.aspose.com/words/python-net/aspose.words/saveformat/#epub) respectively.
 
-## Convert a Document with Round-trip Information
+## Convert a Document with Round‑trip Information
 
-The HTML format does not support many Microsoft Word features, and if we need to restore a document model as close to the original as possible, we need to save some extra information within the HTML file. Such information is also called "round-trip information". For this purpose, Aspose.Words provides an ability to export round-trip information when saving to HTML, MHTML, or EPUB using the **export_roundtrip_information** property. Saving the round-trip information allows to restore document properties such as tabs, comments, headers, and footers during the loading documents of the listed formats back into a [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) object.
+The HTML format does not support many Microsoft Word features, and if we need to restore a document model as close to the original as possible, we need to save some extra information within the HTML file. Such information is also called "round‑trip information". For this purpose, Aspose.Words provides an ability to export round‑trip information when saving to HTML, MHTML, or EPUB using the **export_roundtrip_information** property. Saving the round‑trip information allows to restore document properties such as tabs, comments, headers, and footers during the loading documents of the listed formats back into a [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) object.
 
 The default value is *True* for HTML and *False* for MHTML and EPUB:
 
-- When *True*, the round-trip information is exported as - aw - * CSS properties of the corresponding HTML elements
-- When *False*, there is no round-trip information to be output into produced files
+- When *True*, the round‑trip information is exported as - aw - * CSS properties of the corresponding HTML elements
+- When *False*, there is no round‑trip information to be output into produced files
 
-The following code example shows how to export round-trip information when converting a document from DOCX into HTML:
+The following code example shows how to export round‑trip information when converting a document from DOCX into HTML:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_html_save_options-ExportRoundtripInformation.py" >}}
 
@@ -80,7 +80,7 @@ However, there is no individual property for CSS. The behavior of the [fonts_fo
 
 Aspose.Words provides an ability to specify whether font resources should be embedded into HTML in Base64 encodings. To perform this, use the [export_fonts_as_base64](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/export_fonts_as_base64/) property – this is an extension of the [export_font_resources](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/export_font_resources/) property. By default, its value is *False*, and fonts are written into separate files. But if this option is set to *True*, fonts will be embedded into the document's CSS in Base64 encoding. The [export_fonts_as_base64](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/export_fonts_as_base64/) property only affects HTML format and does not affect EPUB and MHTML.
 
-The following code example shows how to export Base64-encoded fonts to HTML:
+The following code example shows how to export Base64‑encoded fonts to HTML:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_html_save_options-ExportFontsAsBase64.py" >}}
 
@@ -122,3 +122,21 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 {{% /alert %}}
 
+------ 
+
+## FAQ
+
+1. **Q:** How can I change the folder where images, fonts and other resources are saved when converting to HTML?  
+   **A:** Use the `resource_folder` property of `HtmlSaveOptions`. You can also set `fonts_folder`, `images_folder` and `css_style_sheet_file_name` individually. If the specified folder does not exist, Aspose.Words creates it automatically.
+
+2. **Q:** How do I embed fonts directly into the generated HTML file?  
+   **A:** Set `export_fonts_as_base64` to `True` on an `HtmlSaveOptions` instance. This causes fonts to be written as Base64‑encoded data URIs inside the CSS of the HTML output.
+
+3. **Q:** What is “round‑trip information” and when should I enable it?  
+   **A:** Round‑trip information stores Word‑specific data (such as comments, headers, footers, and tab settings) in the HTML so that loading the HTML back into a `Document` restores those features. It is enabled by default for HTML (`export_roundtrip_information = True`). Disable it only if you need a cleaner HTML without extra CSS.
+
+4. **Q:** Can I convert a PDF file to HTML using Aspose.Words?  
+   **A:** Yes. First, load PDF files to convert them to HTML. Then save the resulting document as HTML.
+
+5. **Q:** How do I customize the EPUB conversion, for example to split the content by headings?  
+   **A:** Create an `HtmlSaveOptions` object, set `document_split_criteria` to `aw.saving.DocumentSplitCriteria.HEADING_PARAGRAPH`, configure any other options (encoding, export properties, etc.), set `save_format` to `aw.SaveFormat.EPUB`, and pass the options to `Document.save`. This splits the EPUB into separate HTML files at each heading level.

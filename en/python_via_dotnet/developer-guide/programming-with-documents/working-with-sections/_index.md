@@ -160,3 +160,22 @@ The following code example shows how to modify the page properties in all sectio
 
 - [Logical Levels of Nodes in a Document](/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
 - [Insert and Append Documents](/words/python-net/insert-and-append-documents/)
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I insert a specific type of section break (e.g., new page or continuous) using Python?  
+   **A:** Use the `DocumentBuilder.InsertBreak` method and pass the desired `BreakType` enumeration value, such as `BreakType.SECTION_BREAK_NEW_PAGE` or `BreakType.SECTION_BREAK_CONTINUOUS`. The builder inserts the break at the current cursor position.
+
+2. **Q:** What is the recommended way to move a section to a different position in the document?  
+   **A:** Retrieve the section from the `Document.Sections` collection, remove it with `Sections.Remove(section)`, and then insert it at the new index using `Sections.Insert(index, section)`. This preserves the section’s formatting and content.
+
+3. **Q:** How do I copy a section from one document into another without losing its formatting?  
+   **A:** Load both documents, obtain the source `Section`, and import it into the target document with `NodeImporter.ImportNode(sourceSection, True, ImportFormatMode.KEEP_SOURCE_FORMATTING)`. Then add the imported node to the target document’s `Sections` collection.
+
+4. **Q:** Can I clear the text of headers and footers without deleting the header/footer objects themselves?  
+   **A:** Yes. Call `Section.ClearHeadersFooters()` to remove all header/footer text while keeping the objects intact. If you also need to remove shapes, use `Section.DeleteHeaderFooterShapes()` afterwards.
+
+5. **Q:** When I create a new section, why does it sometimes lack a body or paragraph, and how can I ensure it has one?  
+   **A:** A newly created `Section` may be empty. Invoke `Section.EnsureMinimum()` which automatically adds a `Body` node and at least one empty `Paragraph`, allowing you to start inserting content immediately.

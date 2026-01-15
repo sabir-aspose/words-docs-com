@@ -17,9 +17,9 @@ aliases:
 timestamp: 2024-10-21-11-17-44
 ---
 
-Aspose.Words provides users with a wide range of features. Users can perform a huge amount of document-related tasks – from simply converting documents from one supported format to another and modifying those documents during the conversion process to business tasks, such as creating structured and visually appealing documents or automating reporting.
+Aspose.Words provides users with a wide range of features. Users can perform a huge amount of document‑related tasks – from simply converting documents from one supported format to another and modifying those documents during the conversion process to business tasks, such as creating structured and visually appealing documents or automating reporting.
 
-Modern document formats and standards are complex, and when you require document conversion or other document processing features in your project, the only practical solution is often to rely on a third-party component that implements the desired functionality. But using a third-party component always carries some risk. One of the unique risks in document processing is the question about how completely and correctly the library implements a particular document format or standard.
+Modern document formats and standards are complex, and when you require document conversion or other document processing features in your project, the only practical solution is often to rely on a third‑party component that implements the desired functionality. But using a third‑party component always carries some risk. One of the unique risks in document processing is the question about how completely and correctly the library implements a particular document format or standard.
 
 Aspose is committed to delivering the most complete and accurate implementations of document formats and standards. The Aspose.Words team demonstrates their commitment to interoperability by providing detailed implementation notes for supported document formats across multiple platforms.
 
@@ -86,7 +86,7 @@ Aspose.Words provides a rich object model that consists of over 100 public class
 | Rebuild and update Table Of Contents (TOC) fields exactly like Microsoft Word does it. | {{< emoticons/tick >}} |
 | Copy and move document elements between documents. | {{< emoticons/tick >}} |
 | Join and split documents. | {{< emoticons/tick >}} |
-| Get and set built-in and custom document properties. | {{< emoticons/tick >}} |
+| Get and set built‑in and custom document properties. | {{< emoticons/tick >}} |
 | Specify document protection, open protected and encrypted documents. | {{< emoticons/tick >}} |
 | Find and replace text, enumerate over document content. | {{< emoticons/tick >}} |
 | Accept all revisions in a document. | {{< emoticons/tick >}} |
@@ -141,3 +141,22 @@ LINQ Reporting Engine is an advanced reporting tool enabling you to generate doc
 | Built-in support of data relations (master-detail) | {{< emoticons/tick >}} |
 | Comprehensive support of various data manipulations such as grouping, sorting, filtering, and others directly in templates | {{< emoticons/tick >}} |
 | WYSIWYG: A generated document retains the same formatting of its elements as a corresponding template has | {{< emoticons/tick >}} |
+
+------ 
+
+## FAQ
+
+1. **Q:** What new features have been added to Aspose.Words for Python via .NET in the last four months?  
+   **A:** The product release notes list all recent enhancements. In the past four months the library received updates such as improved PDF/A‑2b compliance, new image rendering options (including GIF support), enhanced mail‑merge region handling, and additional conversion options for EPUB and XPS. See the “Release Notes” section of the documentation for the complete list.
+
+2. **Q:** Can an Aspose.Total.NET license be used with Aspose.Words for Python via .NET?  
+   **A:** Yes. The Aspose.Total.NET license file contains a bundled license for all Aspose .NET components, including Aspose.Words. Load the license in Python with `license = aw.License(); license.set_license("Aspose.Total.NET.lic")`. The same license works across supported platforms.
+
+3. **Q:** Does Aspose.Words for Python via .NET run on Linux and macOS, and what are the system requirements?  
+   **A:** The library is cross‑platform and runs on Windows, macOS (x86_64 or arm64) and many Linux distributions. Required components are GCC 6 or newer, the .NET Core runtime libraries (the runtime itself is not required), and the shared `libpython` library for the Python version you use. Detailed Linux/macOS prerequisites are described in the “Supported Platforms” section of this page.
+
+4. **Q:** Is a license required to generate or update a Table of Contents (TOC) in a document?  
+   **A:** No. Creating, updating, or rebuilding a TOC is fully functional in the evaluation version. However, the evaluation version adds a watermark to the output document. A valid license removes the watermark but is not required for the TOC functionality itself.
+
+5. **Q:** How can I extract insertion and deletion blocks from a document comparison using Aspose.Words for Python via .NET?  
+   **A:** Perform a comparison with `doc.compare(otherDoc, "author", DateTime.now())`. The resulting document contains `Revision` objects. Iterate the `RevisionCollection` and check `revision.type` for `RevisionType.INSERTION` or `RevisionType.DELETION`. The text of each revision can be accessed via `revision.get_text()`. This allows you to collect all inserted or deleted blocks programmatically.

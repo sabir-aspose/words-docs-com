@@ -122,3 +122,19 @@ The repeating section content control allows repeating the content contained wit
 The following code example shows how to bind a repeating section content control to a table:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_sdt-CreatingTableRepeatingSectionMappedToCustomXmlPart.py" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I apply a style to the text that a user types into a content control?  
+   **A:** Use the `StructuredDocumentTag.style` or `StructuredDocumentTag.style_name` property. Only linked or character styles are supported; attempting to apply a paragraph style will raise an exception.
+
+2. **Q:** Does `doc.get_child_nodes(aw.NodeType.PARAGRAPH, True)` return paragraphs that are inside headers and footers?  
+   **A:** Yes. When the `include_child_nodes` argument is set to `True`, the method traverses the entire document tree, including `HeaderFooter` sections, and returns all descendant paragraph nodes.
+
+3. **Q:** How do I bind a content control to a custom XML part?  
+   **A:** Retrieve the `StructuredDocumentTag.xml_mapping` property of the control and call its `set_mapping(custom_xml_part, xpath)` method to associate the control with the desired XML node.
+
+4. **Q:** Why can't I clear a content control that contains revisions?  
+   **A:** The `StructuredDocumentTag.clear()` method does not work on controls that have pending revisions. Accept or reject the revisions first, then call `clear()` to remove the content.

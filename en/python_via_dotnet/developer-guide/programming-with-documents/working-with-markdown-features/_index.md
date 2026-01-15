@@ -122,3 +122,22 @@ The following code example demonstrated how to specify various Markdown save opt
 Aspose.Words API provides [TableContentAlignment](https://reference.aspose.com/words/python-net/aspose.words.saving/tablecontentalignment/) enumeration which defines alignment directions to align contents in tables while exporting into the Markdown document. The following code example demonstrates how to align content inside the table.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_markdown_save_options-ExportIntoMarkdownWithTableContentAlignment.py" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** How are headings represented when converting a document to Markdown?  
+   **A:** Headings are stored as paragraphs that use the built‑in *Heading 1* through *Heading 6* styles. When saved as Markdown, Aspose.Words writes them as `#` … `######` prefixes that correspond to the heading level.
+
+2. **Q:** How can I control the alignment of table cells in the generated Markdown file?  
+   **A:** Use the `MarkdownSaveOptions.table_content_alignment` property and set it to a value from the `TableContentAlignment` enumeration (e.g., `TableContentAlignment.LEFT`, `CENTER`, or `RIGHT`). The setting determines how the pipe‑separated table columns are aligned in the output.
+
+3. **Q:** Can I include a table of contents in a Markdown document created with Aspose.Words?  
+   **A:** Yes. Insert a TOC field in the document (`doc.Range.Fields.Add(doc.FirstSection.Body, aw.fields.FieldType.FIELD_TOC, True)`). When the document is saved as Markdown, the TOC is rendered as a list of links that point to the generated heading anchors.
+
+4. **Q:** How do I apply bold and italic formatting in Markdown using the API?  
+   **A:** Set `Font.Bold = True` for bold text and `Font.Italic = True` for italic text on the relevant `Run` objects. When saved, Aspose.Words emits `**bold**` and `*italic*` markup respectively.
+
+5. **Q:** What options are available to customize the Markdown output?  
+   **A:** The `MarkdownSaveOptions` class lets you control many aspects, such as `ExportHeadersFooters`, `ExportImagesAsBase64`, `ExportListItemsAsTaskList`, and `TableContentAlignment`. Adjust these properties before calling `doc.Save("output.md", saveOptions)` to tailor the generated Markdown.

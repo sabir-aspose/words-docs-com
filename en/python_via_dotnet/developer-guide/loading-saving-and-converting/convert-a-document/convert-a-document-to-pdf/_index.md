@@ -93,6 +93,54 @@ Using the **OptimizeOutput** property may affect the accuracy of content display
 
 ## See Also
 
-- The article [Rendering](/words/python-net/rendering/) for more information on the fixed-page and flow-layout formats
-- The article [Converting to Fixed-page Format](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) for more information on the page layout
-- The article [Specify Rendering Options When Converting to PDF](/words/python-net/specify-rendering-options-when-converting-to-pdf/) for more information on using the [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) class
+- The article [Rendering](/words/python-net/rendering/) for more information on the fixed‑page and flow‑layout formats  
+- The article [Converting to Fixed‑page Format](/words/python-net/converting-to-fixed-page-format/#what-is-a-page-layout) for more information on the page layout  
+- The article [Specify Rendering Options When Converting to PDF](/words/python-net/specify-rendering-options-when-converting-to-pdf/) for more information on using the [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) class  
+
+------  
+
+## FAQ
+
+1. **Q:** How do I convert a DOCX file to PDF using Aspose.Words for Python via .NET?  
+   **A:** Load the DOCX into a `Document` object and call its `save` method with a filename that ends with `.pdf`. Example:  
+   ```python
+   from aspose.words import Document
+   doc = Document("input.docx")
+   doc.save("output.pdf")
+   ```
+
+2. **Q:** How can I create a PDF that complies with a specific PDF standard (e.g., PDF 1.7)?  
+   **A:** Use `PdfSaveOptions` and set its `compliance` property to the desired `PdfCompliance` value before saving. Example:  
+   ```python
+   doc = aw.Document("input.docx")
+   options = aw.saving.PdfSaveOptions()
+   options.compliance = PdfCompliance.PDF17
+   doc.save("output.pdf", options)
+   ```
+
+3. **Q:** What is the recommended way to reduce the size of the generated PDF?  
+   **A:** Enable the `optimize_output` flag in `FixedPageSaveOptions` (or `PdfSaveOptions`). This removes redundant canvases and merges identical glyphs. Example:  
+   ```python
+   doc = aw.Document("input.docx")
+   options = aw.saving.PdfSaveOptions()
+   options.optimize_output = True
+   doc.save("output.pdf", options)
+   ```
+
+4. **Q:** Can I convert image files such as JPEG, PNG, or multi‑page TIFF to PDF?  
+   **A:** Yes. Load the image using `Document` (or `Image` for multi‑page formats) and save it as PDF. Example for a JPEG:  
+   ```python
+   doc = aw.Document("photo.jpg")
+   doc.save("photo.pdf")
+   ```
+
+5. **Q:** Is it possible to convert multiple images (e.g., a set of PNG files) into a single PDF document?  
+   **A:** Create a new `Document`, insert each image as a separate section or page using `DocumentBuilder`, then save the document as PDF. Example:  
+   ```python
+   pdf_doc = aw.Document()
+   builder = aw.DocumentBuilder(pdf_doc)
+   for image_path in ["page1.png", "page2.png"]:
+       builder.insert_image(image_path)
+       builder.insert_break()
+   pdf_doc.save("combined.pdf")
+   ```

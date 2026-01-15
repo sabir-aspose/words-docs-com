@@ -48,7 +48,7 @@ The following code example shows how to work with the **IsLayoutInCell** propert
 
 You can create a snip corner rectangle using Aspose.Words. The shape types are [SINGLE_CORNER_SNIPPED](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapetype/#single_corner_snipped), [TOP_CORNERS_SNIPPED](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapetype/#top_corners_snipped), [DIAGONAL_CORNERS_SNIPPED](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapetype/#diagonal_corners_snipped), [TOP_CORNERS_ONE_ROUNDED_ONE_SNIPPED](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapetype/#top_corners_one_rounded_one_snipped), [SINGLE_CORNER_ROUNDED](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapetype/#single_corner_rounded), [TOP_CORNERS_ROUNDED](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapetype/#top_corners_rounded), and [DIAGONAL_CORNERS_ROUNDED](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapetype/#diagonal_corners_rounded).
 
-The DML shape is created using [insert_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_shape/) method with these shape types. These types cannot be used to create VML shapes. Attempt to create shape by using the public constructor of the [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) class raises the "NotSupportedException" exception.
+The DML shape is created using [insert_shape](https://reference.aspose.com/words/python-net/aspose.words.documentbuilder/insert_shape/) method with these shape types. These types cannot be used to create VML shapes. Attempt to create shape by using the public constructor of the [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) class raises the "NotSupportedException" exception.
 
 The following code example shows how to insert these type of shapes into the document:
 
@@ -80,7 +80,7 @@ The following code example shows how to work with the **HasSmartArt** property:
 
 ## Insert Horizontal Rule into Document
 
-You can insert horizontal rule shape into a document using the [insert_horizontal_rule](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_horizontal_rule/) method.
+You can insert horizontal rule shape into a document using the [insert_horizontal_rule](https://reference.aspose.com/words/python-net/aspose.words.documentbuilder/insert_horizontal_rule/) method.
 
 The following code example shows how to do this:
 
@@ -113,3 +113,22 @@ You can use [convert_shape_to_office_math](https://reference.aspose.com/words/py
 The following code example shows how to convert shapes to Office Math objects:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Load Options-working_with_load_options-ConvertShapeToOfficeMath.py" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I insert a shape with a specific size and position?  
+   **A:** Use `DocumentBuilder.insert_shape(shape_type, width, height)` for inline shapes or `DocumentBuilder.insert_shape(shape_type, width, height, left, top, wrap_type)` for floating shapes. The method creates a DML shape that retains its properties when saved in a format that supports DML.
+
+2. **Q:** How can I lock the aspect ratio of a shape?  
+   **A:** Set the `aspect_ratio_locked` property of the shape (or `ShapeBase` object) to `True`. This prevents the shape from being distorted when its size is changed.
+
+3. **Q:** What property controls whether a shape is placed inside a table cell?  
+   **A:** Use the `is_layout_in_cell` property. Setting it to `True` forces the shape to be rendered inside the cell boundaries; `False` places it outside the cell.
+
+4. **Q:** How do I detect if a shape contains a SmartArt diagram?  
+   **A:** Check the `has_smart_art` property of the `Shape` object. It returns `True` when the shape encapsulates a SmartArt object.
+
+5. **Q:** How can I insert an OLE object as an icon with a custom caption?  
+   **A:** Call `Shape.insert_ole_object_as_icon(file_path, icon_file_path, caption)`. Ensure the icon image is 32 × 32 pixels for correct display.

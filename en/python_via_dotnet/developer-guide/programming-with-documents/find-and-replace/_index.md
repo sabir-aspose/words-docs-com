@@ -33,7 +33,7 @@ Aspose.Words presents the find and replace functionality with the [aspose.words.
 
 ### Find and Replace Text using Simple String Replacement {#find-and-replace-text-using-simple-string-replacement}
 
-You can use one of the [replace](https://reference.aspose.com/words/python-net/aspose.words/range/replace/) and [replace_regex](https://reference.aspose.com/words/python-net/aspose.words/range/replace_regex/) methods to find or replace a particular string and return the number of replacements that were made. In this case, you can specify a string to be replaced, a string that will replace all its occurrences, whether the replacement is case-sensitive, and whether only stand-alone words will be affected.
+You can use one of the [replace](https://reference.aspose.com/words/python-net/aspose.words/range/replace/) and [replace_regex](https://reference.aspose.com/words/python-net/aspose.words/range/replace_regex/) methods to find or replace a particular string and return the number of replacements that were made. In this case, you can specify a string to be replaced, a string that will replace all its occurrences, whether the replacement is case-sensitive, and whether only stand‑alone words will be affected.
 
 The following code example shows how to find the string “_CustomerName_” and replace it with the string *“James Bond”*:
 
@@ -62,7 +62,7 @@ And after applying simple string replacement:
 
 ### Find and Replace Text using Regular Expressions {#find-and-replace-text-using-regular-expressions}
 
-A regular expression is a pattern that describes a certain sequence of text. Suppose you want to replace all double occurrences of a word with a single word occurrence. Then you can apply the following regular expression to specify the double-word pattern: `([a-zA-Z]+) \1`.
+A regular expression is a pattern that describes a certain sequence of text. Suppose you want to replace all double occurrences of a word with a single word occurrence. Then you can apply the following regular expression to specify the double‑word pattern: `([a-zA-Z]+) \1`.
 
 Use the [replace_regex](https://reference.aspose.com/words/python-net/aspose.words/range/replace_regex/) method to search and replace particular character combinations by setting the regular expression parameter as the pattern to find matches.
 
@@ -147,3 +147,56 @@ Aspose.Words provides many different properties to find and replace text such as
 The following code example shows how to highlight a specific word in your document:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-find_and_replace-FindAndHighlight.py" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** How can I replace text only in the main body and exclude headers and footers?  
+   **A:** Load the document, obtain the body node, and call `replace` on its range. The header and footer ranges remain untouched. Example:
+
+   ```python
+   doc = aw.Document("input.docx")
+   body = doc.get_child_nodes(aw.NodeType.BODY, True)[0]
+   body.range.replace("OldText", "NewText", aw.replacing.FindReplaceOptions())
+   doc.save("output.docx")
+   ```
+
+2. **Q:** How do I ignore inserted or deleted revisions while performing a find and replace?  
+   **A:** Set the corresponding flags in `FindReplaceOptions`. For example, to skip deleted text:
+
+   ```python
+   options = aw.replacing.FindReplaceOptions()
+   options.ignore_deleted = True
+   doc.range.replace("placeholder", "real value", options)
+   ```
+
+   Use `ignore_inserted = True` to skip inserted revisions.
+
+3. **Q:** How can I perform a case‑insensitive find and replace?  
+   **A:** Use the `match_case` property of `FindReplaceOptions` and set it to `False`:
+
+   ```python
+   options = aw.replacing.FindReplaceOptions()
+   options.match_case = False
+   doc.range.replace("Aspose", "Aspose.Words", options)
+   ```
+
+4. **Q:** How do I replace repeated words using a regular expression?  
+   **A:** Supply a regex pattern to `replace_regex`. To collapse double words:
+
+   ```python
+   pattern = r"([a-zA-Z]+) \1"
+   replacement = r"\1"
+   doc.range.replace_regex(pattern, replacement, aw.replacing.FindReplaceOptions())
+   ```
+
+5. **Q:** How can I insert line, paragraph, or page breaks in the replacement text?  
+   **A:** Use metacharacters `&l`, `&p`, `&m` in the replacement string. Example inserting a paragraph break:
+
+   ```python
+   options = aw.replacing.FindReplaceOptions()
+   doc.range.replace("PLACEHOLDER", "First line&pSecond line", options)
+   ```
+
+These FAQs address the most common questions users have when working with find and replace in Aspose.Words for Python via .NET.
