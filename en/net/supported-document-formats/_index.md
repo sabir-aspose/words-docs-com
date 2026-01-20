@@ -10,7 +10,7 @@ ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /net/supported-document-formats/
-timestamp: 2024-10-21-11-17-44
+timestamp: 2026-01-20-11-12-25
 ---
 
 {{% alert color="grey" %}}
@@ -67,6 +67,7 @@ The following table indicates the input and output file formats supported by Asp
 | [`EPUB`](https://docs.fileformat.com/ebook/epub/) | IDPF EPUB format | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | `XamlFlow` | Saves the document in the Extensible Application Markup Language (XAML) format as a flow document |  | {{< emoticons/tick >}} |  |
 | `XamlFlowPack` | Saves the document in the Extensible Application Markup Language (XAML) package format as a flow document |  | {{< emoticons/tick >}} |  |
+| `Docling` | Saves the document in Docling JSON format |  | {{< emoticons/tick >}} |  |
 | [`TIFF`](https://docs.fileformat.com/image/tiff/) | Renders a page or pages of the document and saves them into a single or multipage TIFF file |  | {{< emoticons/tick >}} |  |
 | [`PNG`](https://docs.fileformat.com/image/png/) | Renders a page of the document and saves it as a PNG file |  | {{< emoticons/tick >}} |  |
 | [`BMP`](https://docs.fileformat.com/image/bmp/) | Renders a page of the document and saves it as a BMP file |  | {{< emoticons/tick >}} |  |
