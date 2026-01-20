@@ -10,7 +10,7 @@ ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /net/system-requirements/
-timestamp: 2025-03-17-19-00-00
+timestamp: 2026-01-20-11-12-25
 ---
 
 {{% alert color="grey" %}}
@@ -87,11 +87,11 @@ Aspose.Words for .NET also supports .NET Standard 2.0 specification and its impl
 <table>  
 	<tr>
 			<td style="font-weight: bold; width:400px">Specification</td>
-			<td style="font-weight: bold; width:400px">Implementations</td>
+			<td style="font-weight: bold; width:400px">Implemented by</td>
 		</tr>
   <tr>
 			<td>.NET Standard 2.0</td>
-			<td><ul><li>.NET Core 2.0</li><li>.NET Core 2.1</li><li>.NET Core 2.2</li><li>.NET Core 3.0</li><li>.NET Core 3.1</li><li>.NET 5.0</li><li>.NET 6.0</li><li>.NET 7.0</li><li>.NET 8.0</li><li>.NET 9.0+</li></ul></td>
+			<td><ul><li>.NET Core 2.0</li><li>.NET Core 2.1</li><li>.NET Core 2.2</li><li>.NET Core 3.0</li><li>.NET Core 3.1</li><li>.NET 5.0</li><li>.NET 6.0</li><li>.NET 7.0</li><li>.NET 8.0</li><li>.NET 9.0</li><li>.NET 10.0</li></ul></td>
 			</tr>
 </table>
 
