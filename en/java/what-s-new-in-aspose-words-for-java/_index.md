@@ -10,10 +10,48 @@ ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /java/what-s-new-in-aspose-words-for-java/
-timestamp: 2025-11-17-11-12-25
+timestamp: 2026-01-23-11-12-25
 ---
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
+
+## Aspose.Words for Java 26.1
+
+Aspose.Words 26.1 introduces Docling JSON export, enhances AI and document merging capabilities, and significantly improves PDF compliance, accessibility, and rendering accuracy for fields and mathematical equations.
+
+### AI-powered Features
+
+#### Direct Instantiation of Google AI Models <sup>26.1</sup>
+
+The ability to work directly with Google AI models has been introduced by enabling [direct instantiation of the GoogleAiModel class](https://reference.aspose.com/words/java/com.aspose.words/googleaimodel/#constructors) in the **Aspose.Words.AI** namespace.
+
+### Supported Formats
+
+#### New Docling JSON Export Format <sup>26.1</sup>
+
+The ability to export documents to the **Docling JSON format** has been introduced.
+
+### Converting, Loading, and Saving Documents
+
+#### PDF AcroForm Tagging <sup>26.1</sup>
+
+The ability to improve PDF accessibility has been introduced by adding support for tagging **PDF AcroForms**, making exported documents more accessible to assistive technologies.
+
+### Rendering
+
+#### Extended PDF Conformance Standards <sup>26.1</sup>
+
+The **PdfSaveOptions** functionality has been extended by the [PreserveFormFields](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPreserveFormFields) property to be compatible with all PDF compliance standards (including PDF/A and PDF/UA).
+
+#### Rendering MathML using an East Asian Font <sup>26.1</sup>
+
+The ability to correctly render **MathML** content with **East Asian characters** has been introduced, while preserving Latin and Hebrew text when an East Asian font is specified.
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for Java 26.1 Release Notes](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-26-1-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words for Java 25.9, 25.10, 25.11, 25.12
 
@@ -454,75 +492,6 @@ Learn more about [Aspose.Words for Java 24.6 Release Notes](https://releases.asp
 Learn more about [Aspose.Words for Java 24.7 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-7-release-notes/).
 
 Learn more about [Aspose.Words for Java 24.8 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words for Java 24.1, 24.2, 24.3, 24.4
-
-Aspose.Words 24.1 improves the experience around managing stroke colors, enhances OLE objects and LINQ reporting, as well as introduces a new Bibliography Sources public API.
-
-Aspose.Words 24.2 expanded Charts API, style management, and LINQ options. This version of Aspose.Words also introduced the capability to specify SvgSaveOptions during rendering, more flexible control loading Markdown files, and working with reference text for footnotes and endnotes.
-
-Aspose.Words 24.3 introduces a new TIFF Reader/Writer and Emulation of binary raster operations for WMF metafiles. Aspose.Words 24.3 also continues to expand the Charts API.
-
-Aspose.Words 24.4 enhances saving formats, some rendering options, as well as improves work with digital signatures.
-
-### Supported Formats <sup>24.4</sup>
-
-The modern **WebP** image format is now supported in Aspose.Words. You can now read and insert WebP images into documents, as well as save images in WebP format.
-
-### Rendering and Printing
-
-#### Stroke Color Control <sup>24.1</sup>
-
-The [Stroke](https://reference.aspose.com/words/java/com.aspose.words/stroke/) class has been extended with a set of new public properties related to managing stroke colors: [ForeThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeThemeColor) and [BackThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackThemeColor), [ForeTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeTintAndShade) and [BackTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackTintAndShade).
-
-#### DrawingML Charts API Extension <sup>24.2 / 24.3 / 24.4</sup>
-
-The **DrawingML Charts API** continues to be expanded.
-
-#### Embed Fonts Declared in @font-face Rules <sup>24.4</sup>
-
-Added an ability to embed fonts declared in @font-face rules into the resulting document’s font definitions has been introduced by adding a new [SupportFontFaceRules](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/#getSupportFontFaceRules) property.
-
-#### Work with Glow and Reflection Formatting <sup>24.4</sup>
-
-The ability to work with glow and reflection formatting for a drawing object has been implemented.
-
-### Loading and Saving Documents
-
-#### Specify SvgSaveOptions During Rendering <sup>24.2</sup>
-
-The capability to specify [SvgSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/svgsaveoptions/) during rendering has been added using the [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/).[Save](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#save-java.io.OutputStream-com.aspose.words.SvgSaveOptions) and [OfficeMathRenderer](https://reference.aspose.com/words/java/com.aspose.words/officemathrenderer/).[Save](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#save-java.io.OutputStream-com.aspose.words.SvgSaveOptions) methods.
-
-#### Preserve Empty Lines when Loading Markdown files <sup>24.2</sup>
-
-The ability to preserve empty lines when loading Markdown files has been added.
-
-#### A New TIFF Reader/Writer <sup>24.3</sup>
-
-A new TIFF reader/writer for Aspose.Words for .NET Standard, .NET 6 and later has been developed. Aspose.Words for .NET 24.3 added support for reading TIFF images with JPEG and Old JPEG compression types, and also significantly improved the quality of read and write operations.
-
-### Other
-
-* The capability to modify the text of the `TextBox` OLE control has been introduced by adding a new [Text](https://reference.aspose.com/words/java/com.aspose.words/textboxcontrol/#getText) property to the new [TextBoxControl](https://reference.aspose.com/words/java/com.aspose.words/textboxcontrol/) class. 24.1 <sup>24.1</sup>
-* The Bibliography Sources public API was implemented by adding a few new [Bibliography](https://reference.aspose.com/words/java/com.aspose.words/bibliography/), [Source](https://reference.aspose.com/words/java/com.aspose.words/source/), [ContributorCollection](https://reference.aspose.com/words/java/com.aspose.words/contributorcollection/), [Contributor](https://reference.aspose.com/words/java/com.aspose.words/contributor/), [Corporate](https://reference.aspose.com/words/java/com.aspose.words/corporate/), [PersonCollection](https://reference.aspose.com/words/java/com.aspose.words/personcollection/) and [Person](https://reference.aspose.com/words/java/com.aspose.words/person/) classes and a [SourceType](https://reference.aspose.com/words/java/com.aspose.words/sourcetype/) enumeration, as well as by adding a new [Bibliography](https://reference.aspose.com/words/java/com.aspose.words/document/#getBibliography) property to the [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) class. <sup>24.1</sup>
-* An API to limit access to type members using template syntax for the LINQ Reporting Engine has been provided. <sup>24.1</sup>
-* New public properties [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/), and [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) for enhanced style management have been added to the [Style](https://reference.aspose.com/words/net/aspose.words/style/) class. <sup>24.2</sup>
-* The functionality to retrieve the actual reference mark text for footnotes and endnotes has been enhanced with the [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) property and the [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) method. <sup>24.2</sup>
-* Compatibility with `Word 2016` charts for the `LINQ Reporting Engine` has been enabled. <sup>24.2</sup>
-* Emulation of binary raster operations for WMF metafiles has been implemented. <sup>24.3</sup>
-* The capability to define signature options for documents within **SaveOptions** has been enabled by adding a new [DigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturedetails/) class with new public members, as well as adding new properties to the [OoxmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) and [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/) classes. <sup>24.4</sup>
-
-{{% alert color="primary" %}}
-
-Learn more about [Aspose.Words for Java 24.1 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-1-release-notes/).
-
-Learn more about [Aspose.Words for Java 24.2 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/).
-
-Learn more about [Aspose.Words for Java 24.3 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/).
-
-Learn more about [Aspose.Words for Java 24.4 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-4-release-notes/).
 
 {{% /alert %}}
 
