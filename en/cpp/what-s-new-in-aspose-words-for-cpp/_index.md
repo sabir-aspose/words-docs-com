@@ -10,10 +10,36 @@ ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2025-12-01-11-12-25
+timestamp: 2026-01-28-11-12-25
 ---
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
+
+## Aspose.Words for С++ 26.1
+
+Aspose.Words 26.1 significantly improves PDF compliance, accessibility, and rendering accuracy for fields and mathematical equations.
+
+### Converting, Loading, and Saving Documents
+
+#### PDF AcroForm Tagging <sup>26.1</sup>
+
+The ability to improve PDF accessibility has been introduced by adding support for tagging **PDF AcroForms**, making exported documents more accessible to assistive technologies.
+
+### Rendering
+
+#### Extended PDF Conformance Standards <sup>26.1</sup>
+
+The **PdfSaveOptions** functionality has been extended by the [PreserveFormFields](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_preserveformfields/) property to be compatible with all PDF compliance standards (including PDF/A and PDF/UA).
+
+#### Rendering MathML using an East Asian Font <sup>26.1</sup>
+
+The ability to correctly render **MathML** content with **East Asian characters** has been introduced, while preserving Latin and Hebrew text when an East Asian font is specified.
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for C++ 26.1 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-26-1-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words for C++ 25.9, 25.10, 25.11, 25.12
 
@@ -432,65 +458,6 @@ Learn more about [Aspose.Words for C++ 24.5 Release Notes](https://releases.aspo
 Learn more about [Aspose.Words for C++ 24.6 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-6-release-notes/).
 
 Learn more about [Aspose.Words for C++ 24.7 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-7-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words for C++ 24.1, 24.2, 24.3, 24.4
-
-Aspose.Words 24.1 improves the experience around managing stroke colors, enhances OLE objects, as well as introduces a new Bibliography Sources public API.
-
-Aspose.Words 24.2 expanded Charts API and style management. This version of Aspose.Words also introduced the capability to specify SvgSaveOptions during rendering, more flexible control loading Markdown files, and working with reference text for footnotes and endnotes.
-
-Aspose.Words 24.3 introduces Emulation of binary raster operations for WMF metafiles and also continues to expand the Charts API.
-
-Aspose.Words 24.4 enhances some rendering options, as well as improves work with digital signatures.
-
-### Rendering and Printing
-
-#### Stroke Color Control <sup>24.1</sup>
-
-The [Stroke](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/) class has been extended with a set of new public properties related to managing stroke colors: [ForeThemeColor](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/get_forethemecolor/) and [BackThemeColor](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/get_backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/get_foretintandshade/) and [BackTintAndShade](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/get_backtintandshade/).
-
-#### DrawingML Charts API Extension <sup>24.2 / 24.3 / 24.4</sup>
-
-The **DrawingML Charts API** continues to be expanded.
-
-#### Embed Fonts Declared in @font-face Rules <sup>24.4</sup>
-
-Added an ability to embed fonts declared in @font-face rules into the resulting document’s font definitions has been introduced by adding a new [SupportFontFaceRules](https://reference.aspose.com/words/cpp/aspose.words.loading/htmlloadoptions/get_supportfontfacerules/) property.
-
-#### Work with Glow and Reflection Formatting <sup>24.4</sup>
-
-The ability to work with glow and reflection formatting for a drawing object has been implemented.
-
-### Loading and Saving Documents
-
-#### Specify SvgSaveOptions During Rendering <sup>24.2</sup>
-
-The capability to specify [SvgSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/svgsaveoptions/) during rendering has been added using the [ShapeRenderer](https://reference.aspose.com/words/cpp/aspose.words.rendering/shaperenderer/).[Save](https://reference.aspose.com/words/cpp/aspose.words.rendering/noderendererbase/save/) and [OfficeMathRenderer](https://reference.aspose.com/words/cpp/aspose.words.rendering/officemathrenderer/).[Save](https://reference.aspose.com/words/cpp/aspose.words.rendering/noderendererbase/save/) methods.
-
-#### Preserve Empty Lines when Loading Markdown files <sup>24.2</sup>
-
-The ability to preserve empty lines when loading Markdown files has been added.
-
-### Other
-
-- The capability to modify the text of the `TextBox` OLE control has been introduced by adding a new **Text** property to the new **TextBoxControl** class. <sup>24.1</sup>
-- The Bibliography Sources public API was implemented through the adding a new namespace [Aspose.Words.Bibliography](https://reference.aspose.com/words/cpp/aspose.words.bibliography/) with its new classes and enumerations, and through the adding a new [Bibliography](https://reference.aspose.com/words/cpp/aspose.words/document/get_bibliography/) property to the [Document](https://reference.aspose.com/words/cpp/aspose.words/document/) class. <sup>24.1</sup>
-- New public properties [Priority](https://reference.aspose.com/words/cpp/aspose.words/style/get_priority/), [UnhideWhenUsed](https://reference.aspose.com/words/cpp/aspose.words/style/get_unhidewhenused/), and [SemiHidden](https://reference.aspose.com/words/cpp/aspose.words/style/get_semihidden/) for enhanced style management have been added to the [Style](https://reference.aspose.com/words/cpp/aspose.words/style/) class. <sup>24.2</sup>
-- The functionality to retrieve the actual reference mark text for footnotes and endnotes has been enhanced with the [ActualReferenceMark](https://reference.aspose.com/words/cpp/aspose.words.notes/footnote/get_actualreferencemark/) property and the [UpdateActualReferenceMarks](https://reference.aspose.com/words/cpp/aspose.words/document/updateactualreferencemarks/) method. <sup>24.2</sup>
-- Emulation of binary raster operations for WMF metafiles has been implemented. <sup>24.3</sup>
-- The capability to define signature options for documents within **SaveOptions** has been enabled by adding a new **DigitalSignatureDetails** class with new public members, as well as adding new properties to the [OoxmlSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/docsaveoptions/) and [OdtSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/odtsaveoptions/) classes. <sup>24.4</sup>
-
-{{% alert color="primary" %}}
-
-Learn more about [Aspose.Words for C++ 24.1 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-1-release-notes/).
-
-Learn more about [Aspose.Words for C++ 24.2 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-2-release-notes/).
-
-Learn more about [Aspose.Words for C++ 24.3 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-3-release-notes/).
-
-Learn more about [Aspose.Words for C++ 24.4 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-4-release-notes/).
 
 {{% /alert %}}
 
