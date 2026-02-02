@@ -15,7 +15,7 @@ timestamp: 2024-01-31-14-23-37
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page explains how to print documents programmatically or through print dialogs using Aspose.Words.
 

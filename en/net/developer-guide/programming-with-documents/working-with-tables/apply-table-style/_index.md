@@ -15,7 +15,7 @@ timestamp: 2024-02-02-12-07-36
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page explains how to work with table styles.
 

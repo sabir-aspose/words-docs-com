@@ -15,7 +15,7 @@ timestamp: 2024-10-21-11-17-44
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page explains how the Kentico Content Exporter module uses Aspose.Words to export Kentico CMS content into Word documents and describes its setup and workflow.
 

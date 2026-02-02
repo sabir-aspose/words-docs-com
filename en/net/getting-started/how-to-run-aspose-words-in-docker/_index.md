@@ -15,7 +15,7 @@ timestamp: 2024-08-19-11-05-36
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page describes how to run Aspose.Words inside Docker containers.
 

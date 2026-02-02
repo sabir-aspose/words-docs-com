@@ -17,7 +17,7 @@ timestamp: 2024-09-25-11-08-55
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page explains how to programmatically work with documents—including editing, formatting, and generating content—using Aspose.Words.
 

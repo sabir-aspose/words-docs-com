@@ -16,7 +16,7 @@ timestamp: 2024-07-10-08-10-45
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page explains how to convert a Word document to Markdown and outlines the Markdown save options that control formatting precision and compatibility.
 

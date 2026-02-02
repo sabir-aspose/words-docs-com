@@ -15,7 +15,7 @@ timestamp: 2024-01-27-14-07-04
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page outlines how Aspose.Words supports integration with content management systems (CMS) for document generation.
 

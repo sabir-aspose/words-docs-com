@@ -13,6 +13,12 @@ url: /python-net/supported-ai-models/
 timestamp: 2025-03-17-19-00-00
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page outlines the AI model families supported by Aspose.Words for Python via .NET and explains how to create `AiModel` instances using the `AiModelType` enumeration.
+{{% /alert %}}
+
 Aspose.Words now leverages advanced AI models to enhance document processing and analysis. With the Aspose.Words.AI namespace, developers can access AI‑powered features such as document summarization and analysis, document translation, and grammar checking by integrating generative language models from industry leaders.
 
 ## Supported Model Types

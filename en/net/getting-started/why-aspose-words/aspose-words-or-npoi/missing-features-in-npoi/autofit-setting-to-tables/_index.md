@@ -15,7 +15,7 @@ timestamp: 2024-01-31-14-23-37
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page outlines how to enable auto-fitting of table cells in Word documents when using Aspose.Words.
 

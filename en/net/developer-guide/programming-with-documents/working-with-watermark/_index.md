@@ -15,7 +15,7 @@ timestamp: 2025-04-16-07-02-05
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page explains how to work with watermarks in Word documents.
 
