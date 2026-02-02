@@ -16,6 +16,14 @@ aliases:
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page describes the document‑save capabilities of Aspose.Words for Python via .NET, including supported format conversions and options for saving large documents with limited memory by specifying a temporary folder.
+
+{{% /alert %}}
+
 Aspose.Words has some of the most advanced conversion support of the common word processing formats.
 
 All imported documents loaded into Aspose.Words can be exported to any other supported format. Features are preserved during conversion. Conversion between formats gives some of the best conversion results out there. 

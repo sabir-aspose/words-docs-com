@@ -14,6 +14,12 @@ aliases: [/python/getting-started/]
 timestamp: 2024-09-25-11-08-55
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page introduces Aspose.Words for Python via .NET fundamentals and directs readers to detailed sections on installation, a hello‑world test, supported formats, features, licensing, system requirements, and running examples.
+{{% /alert %}}
+
 This Getting Started provides an introduction to Aspose.Words fundamentals. For users new to Aspose.Words, this is the fastest way to learn the basic requirements and capabilities.
 
 To find out more about Aspose.Words, select the appropriate section:
@@ -25,4 +31,3 @@ To find out more about Aspose.Words, select the appropriate section:
 - [Licensing and Subscription](/words/python-net/licensing/) – provides information on applying a license and using multiple Aspose products
 - [System Requirements](/words/python-net/system-requirements/) – provides information about system and development environment requirements
 - [How to Run the Examples](/words/python-net/how-to-run-the-examples/) – describes how to download and run the examples and what software requirements must be met
-

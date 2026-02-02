@@ -14,6 +14,14 @@ aliases: [/python/how-to-run-the-examples/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page provides the system requirements and step‑by‑step instructions for downloading the Aspose.Words for Python via .NET example repository from GitHub and running the example unit tests locally.
+
+{{% /alert %}}
+
 To become more familiar with the Aspose.Words possibilities and features we provide examples that can be downloaded from our GitHub repository, run, and learn in detail.
 
 In this article, you can find the system requirements, as well as information on how to run the examples.

@@ -17,6 +17,13 @@ aliases:
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page provides an overview of the features supported by Aspose.Words for Python via .NET, including platform compatibility, file format import/export, rendering, document content and formatting capabilities, mail‑merge, and reporting functionalities.
+
+{{% /alert %}}
+
 Aspose.Words provides users with a wide range of features. Users can perform a huge amount of document‑related tasks – from simply converting documents from one supported format to another and modifying those documents during the conversion process to business tasks, such as creating structured and visually appealing documents or automating reporting.
 
 Modern document formats and standards are complex, and when you require document conversion or other document processing features in your project, the only practical solution is often to rely on a third‑party component that implements the desired functionality. But using a third‑party component always carries some risk. One of the unique risks in document processing is the question about how completely and correctly the library implements a particular document format or standard.

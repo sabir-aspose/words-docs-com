@@ -14,6 +14,12 @@ aliases: [/python/licensing/]
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page explains the licensing options for Aspose.Words for Python via .NET, including free trial, temporary, purchased, and metered licenses, and provides guidance on applying licenses via files, streams, or metered keys.  
+{{% /alert %}}
+
 Sometimes, in order to study the system better, you want to dive into the code as fast as possible. To make this easier, Aspose.Words provides different plans for purchase or offers a Free Trial and a 30-day Temporary License for evaluation.
 
 {{% alert color="primary" %}}

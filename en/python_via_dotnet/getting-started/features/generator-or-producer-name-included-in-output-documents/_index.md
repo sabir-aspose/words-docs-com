@@ -14,6 +14,14 @@ aliases: [/python/generator-or-producer-name-included-in-output-documents/]
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page explains how Aspose.Words for Python via .NET embeds its generator name and version into various output document formats, shows where to locate that information for each format, and notes how to remove it if desired.
+
+{{% /alert %}}
+
 You can easily know if a document is produced by using Aspose.Words for Python via .NET. You can also find the version number of Aspose.Words for Python via .NET that was used to create a particular output document. Aspose.Words directly writes this information into the generated document.
 
 The version number is specified in the format *YY.MM.N* or *YY.M.N*, for example, 23.12.0 or 24.1.0.<br />

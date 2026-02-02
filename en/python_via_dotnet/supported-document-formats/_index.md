@@ -14,6 +14,14 @@ aliases: [/python/supported-document-formats/]
 timestamp: 2026-01-23-11-12-25
 ---
 
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page lists the document formats that Aspose.Words for Python via .NET can load and save, indicating support for various Word, HTML, PDF, e‑book, image, and other file types.
+
+{{% /alert %}}
+
 {{% alert color="primary" %}}
 
 See the [File Format Wiki](https://docs.fileformat.com/) for more details on each file format.
