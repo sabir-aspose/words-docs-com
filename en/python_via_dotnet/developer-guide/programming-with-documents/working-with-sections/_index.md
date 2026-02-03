@@ -11,8 +11,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/working-with-sections/
 aliases: [/python/working-with-sections/]
-timestamp: 2024-09-25-11-08-55
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page shows how to create, modify, and manage document sections and section breaks using Aspose.Words for Python via .NET, including inserting, removing, moving, cloning, copying sections, and customizing layout, headers/footers, and page properties.
+
+{{% /alert %}}
 
 Sometimes you want a document that does not have the same formatting across all pages. For example, you may need to modify page number formats, have different page size and orientation, or have the first document page as a cover page without any numbering. You can achieve that with sections.
 

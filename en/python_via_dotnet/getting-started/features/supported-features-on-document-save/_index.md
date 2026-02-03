@@ -13,8 +13,16 @@ url: /python-net/supported-features-on-document-save/
 aliases: 
   - /python/document-saving-overview/
   - /python/supported-features-on-document-save/
-timestamp: 2024-01-31-14-23-37
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page describes the document‑save capabilities of Aspose.Words for Python via .NET, including supported format conversions and options for saving large documents with limited memory by specifying a temporary folder.
+
+{{% /alert %}}
 
 Aspose.Words has some of the most advanced conversion support of the common word processing formats.
 

@@ -11,8 +11,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/installation/
 aliases: [/python/installation/]
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page provides step‑by‑step instructions for installing Aspose.Words for Python via .NET, including system‑requirements guidance, the `pip install aspose-words` command, and a basic code example demonstrating usage.
+{{% /alert %}}
 
 Make sure your machine meets the [system requirements](/words/python-net/system-requirements/) before you begin.
 

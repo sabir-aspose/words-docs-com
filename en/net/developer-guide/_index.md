@@ -15,7 +15,7 @@ timestamp: 2024-09-25-11-08-55
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page describes the developer guide and provides an overview of major topics relevant to building solutions with Aspose.Words.
 

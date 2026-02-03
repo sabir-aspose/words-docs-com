@@ -16,7 +16,7 @@ timestamp: 2024-02-16-10-54-23
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page explains how to restart list numbering dynamically during templated document generation.
 

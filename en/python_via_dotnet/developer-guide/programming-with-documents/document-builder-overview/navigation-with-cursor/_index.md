@@ -11,8 +11,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/navigation-with-cursor/
 aliases: [/python/navigation-with-cursor/]
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page shows how to use Aspose.Words for Python via .NET DocumentBuilder to detect the current cursor position and navigate to various document nodes, including the start/end of the document, bookmarks, table cells, fields, headers/footers, sections, and paragraphs.
+{{% /alert %}}
 
 While working with a document, even if it is a short or long one, you will need to navigate through your document. Navigation with a virtual cursor represents the ability to navigate between different nodes in a document.
 

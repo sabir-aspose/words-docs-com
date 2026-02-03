@@ -10,8 +10,16 @@ ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2026-01-23-11-12-25
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page lists the most notable new features and enhancements introduced in recent Aspose.Words for Python via .NET releases, organized by version and feature category.
+
+{{% /alert %}}
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
@@ -169,7 +177,7 @@ Initial support for OpenType Font Variations has been implemented, allowing for 
 * The ability to wrap mathematical formulas containing multiple slashes has been enhanced, improving layout clarity and formula legibility. <sup>25.6</sup>
 * The ability to programmatically show or hide specific table rows has been introduced by adding the **Row.Hidden** property. <sup>25.7</sup>
 * A new **ignore_office_math** property has been added to ignore Office Math objects when searching and replacing. <sup>25.8</sup>
-* New options have been added to the [PageExtractOptions](https://reference.aspose.com/words/python-net/aspose.words/pageextractoptions/) class to provide more control over the page extraction process. <sup>25.8</sup>
+* New options have been added to the [PageExtractOptions](https://reference.aspose.com/words/python-net/aspose.words.pageextractoptions/) class to provide more control over the page extraction process. <sup>25.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -223,7 +231,7 @@ Saving to HTML and SVG formats has been enhanced by adding **id_prefix** and **r
 
 #### Improved Typographic Control <sup>25.2</sup>
 
-The [number_spacing](https://reference.aspose.com/words/python-net/aspose.words/font/number_spacing/)  property has been added for improved typographic control.
+The [number_spacing](https://reference.aspose.com/words/python-net/aspose.words.font/number_spacing/)  property has been added for improved typographic control.
 
 #### Controlling Font Selection for Ambiguous Characters <sup>25.3</sup>
 
@@ -242,7 +250,7 @@ The ability to remove JavaScript from hyperlink URLs during HTML export has been
 * PDF logical structure has been improved with support for TOA, BIBLIOGRAPHY, and INDEX fields. <sup>25.2</sup>
 * The [add_single_level_list](https://reference.aspose.com/words/python-net/aspose.words.lists/listcollection/add_single_level_list/#listtemplate) method has been introduced for improved list handling. <sup>25.2</sup>
 * A new property [attachments_embedding_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/attachments_embedding_mode/) has been added to replace **EmbedAttachments** to improve PDF attachments' export. Also, new values have been added to the [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) enumeration to support PDF/A version attachments. Additionally, attachments are now supported with encryption. <sup>25.3</sup>
-* The ability to set an image watermark from a stream has been introduced by adding a new overload to the [SetImage](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_image/#bytesio_imagewatermarkoptions) method. <sup>25.4</sup>
+* The ability to set an image watermark from a stream has been introduced by adding a new overload to the [SetImage](https://reference.aspose.com/words/python-net/aspose.words.watermark/set_image/#bytesio_imagewatermarkoptions) method. <sup>25.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -288,11 +296,11 @@ Rendering of graduations on radial charts has been implemented.
 
 #### CommandButton ActiveX Controls <sup>24.10</sup>
 
-The ability to create CommandButton ActiveX controls has been introduced by adding a new public method [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_forms_2_ole_control/) and a new public class [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/).
+The ability to create CommandButton ActiveX controls has been introduced by adding a new public method [insert_forms_2_ole_control](https://reference.aspose.com/words/python-net/aspose.words.documentbuilder/insert_forms_2_ole_control/) and a new public class [Forms2OleControl](https://reference.aspose.com/words/python-net/aspose.words.drawing.ole/forms2olecontrol/).
 
 #### Control Shape Visibility <sup>24.10</sup>
 
-A new public property [hidden](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/hidden/) has been added to control the visibility of shapes.
+A new public property [hidden](https://reference.aspose.com/words/python-net/aspose.words.drawing.shapebase/hidden/) has been added to control the visibility of shapes.
 
 #### Changes in Pie and Doughnut Charts <sup>24.10</sup>
 
@@ -336,10 +344,10 @@ The ability to sign documents with XAdES-EPES level XML-DSig signatures has been
 
 ### Other
 
-* A new public method [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/) has been added to group shapes. <sup>24.9</sup>
-* A new public method [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_structured_document_tag/) has been added to insert **StructuredDocumentTags** into a document. <sup>24.9</sup>
+* A new public method [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words.documentbuilder/insert_group_shape/) has been added to group shapes. <sup>24.9</sup>
+* A new public method [insert_structured_document_tag](https://reference.aspose.com/words/python-net/aspose.words.documentbuilder/insert_structured_document_tag/) has been added to insert **StructuredDocumentTags** into a document. <sup>24.9</sup>
 * Public access to footnote/endnote separators has been provided by adding a few public classes and properties. <sup>24.9</sup>
-* The ability to group individual shapes, group shapes together, and directly group both shapes and group shapes has been introduced by adding the [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_group_shape/#float_float_float_float_shapebaselist) method. <sup>24.10</sup>
+* The ability to group individual shapes, group shapes, and directly group both shapes and group shapes has been introduced by adding the [insert_group_shape](https://reference.aspose.com/words/python-net/aspose.words.documentbuilder/insert_group_shape/#float_float_float_float_shapebaselist) method. <sup>24.10</sup>
 * Big5 encoding handling for TrueType cmap tables has been improved. <sup>24.10</sup>
 * Support for outdated Taiwanese fonts has been enhanced. <sup>24.10</sup>
 * To access extended document properties, read-only properties have been added to the [BuiltInDocumentProperties](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/) class. <sup>24.11</sup>
@@ -393,7 +401,7 @@ The ability to customize chart data labels such as **Orientation** and **Rotatio
 
 #### Custom Number Styling for List Levels <sup>24.7</sup>
 
-A setter for the public property [custom_number_style_format](https://reference.aspose.com/words/python-net/aspose.words.lists/listlevel/custom_number_style_format/) has been added. You can now define a custom number styling for list levels.
+A setter for the public property [custom_number_style_format](https://reference.aspose.com/words/python-net/aspose.words.lists.listlevel/custom_number_style_format/) has been added. You can now define a custom number styling for list levels.
 
 #### Changes in working with ActiveX <sup>24.7</sup>
 
@@ -431,14 +439,14 @@ The ability to streamline data analysis workflows with improved comparison funct
 
 ### Other
 
-* The function to eliminate empty pages from a document has been implemented by adding the [remove_blank_pages](https://reference.aspose.com/words/python-net/aspose.words/document/remove_blank_pages/) method. <sup>24.5</sup>
-* The ability  to check for the presence of VBA macros without loading a document has been provided by adding the [has_macros](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/has_macros/) property. <sup>24.5</sup>
+* The function to eliminate empty pages from a document has been implemented by adding the [remove_blank_pages](https://reference.aspose.com/words/python-net/aspose.words.document/remove_blank_pages/) method. <sup>24.5</sup>
+* The ability  to check for the presence of VBA macros without loading a document has been provided by adding the [has_macros](https://reference.aspose.com/words/python-net/aspose.words.fileformatinfo/has_macros/) property. <sup>24.5</sup>
 * Keeping source numbering while inserting a document using the LINQ Reporting Engine is now supported. <sup>24.5</sup>
-* A new [date_time_utc](https://reference.aspose.com/words/python-net/aspose.words/comment/date_time_utc/) property has been added – this provides a more precise timestamp for comments, improving organization and traceability. <sup>24.6</sup>
+* A new [date_time_utc](https://reference.aspose.com/words/python-net/aspose.words.comment/date_time_utc/) property has been added – this provides a more precise timestamp for comments, improving organization and traceability. <sup>24.6</sup>
 * The datetime format is now automatically detected for seamless export to XLSX format. <sup>24.7</sup>
 * The public property [is_protected](https://reference.aspose.com/words/python-net/aspose.words.vba/vbaproject/is_protected/), which allows you to verify whether a VBA project is protected, has been added. <sup>24.7</sup>
 * Font information has been expanded with the **embedding_licensing_rights** property added to the [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) and [PhysicalFontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/physicalfontinfo/) classes. <sup>24.8</sup>
-* A way to efficiently clear section headers and footers while preserving watermarks has been added to more accurately work with document structure. To clear section headers and footers, use the new public method [clear_headers_footers](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/#default). <sup>24.8</sup>
+* A way to efficiently clear section headers and footers while preserving watermarks has been added to more accurately work with document structure. To clear section headers and footers, use the new public method [clear_headers_footers](https://reference.aspose.com/words/python-net/aspose.words.section/clear_headers_footers/#default). <sup>24.8</sup>
 * Digital signing of XPS documents using [XpsSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/) has been enabled – a new property [digital_signature_details](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/digital_signature_details/) has been added for this purpose. <sup>24.8</sup>
 
 {{% alert color="primary" %}}

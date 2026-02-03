@@ -11,8 +11,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/working-with-smartart-cold-rendering/
 aliases: [/python/working-with-smartart-cold-rendering/]
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page explains Aspose.Words for Python via .NET’s SmartArt Cold Rendering feature, how to invoke it (including the `update_smart_art_drawing` method), lists the supported SmartArt layouts, and provides visual comparisons with Microsoft Word rendering.
+{{% /alert %}}
 
 SmartArt graphics are used to quickly and easily create a visual representation of information. You simply choose from a large number of layouts that best suits your situation. This ease of use makes SmartArt graphics quite popular for some purposes.
 

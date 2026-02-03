@@ -11,8 +11,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/track-changes-in-a-document/
 aliases: [/python/track-changes-in-a-document/]
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to use Aspose.Words for Python via .NET to track changes in a document, covering starting and stopping tracking, accessing and managing individual revisions, and accepting or rejecting them. Code examples illustrate common revision operations such as accepting all changes and handling moved nodes.
+{{% /alert %}}
 
 The functionality of track changes, also known as reviewing, allows you to track changes to content and formatting made by you or other users. This track changes feature with Aspose.Words supports track changes in Microsoft Word. With this functionality, you can access individual revisions in your document and apply different properties to them.
 

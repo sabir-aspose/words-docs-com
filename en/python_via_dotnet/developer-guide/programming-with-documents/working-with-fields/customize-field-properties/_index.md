@@ -10,8 +10,14 @@ ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/customize-field-properties/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to modify field properties—such as renaming MERGEFIELDs or changing AUTHOR field attributes—and retrieve a field's display result using Aspose.Words for Python via .NET, with concrete code examples.
+{{% /alert %}}
 
 Aspose.Words provides the ability to programmatically interact with various field properties. In this article, we will look at a couple of examples so that you understand the basic principle of working with field properties. You can see the full list of properties for each field type in the corresponding class in the [Fields module](https://reference.aspose.com/words/python-net/aspose.words.fields/).
 

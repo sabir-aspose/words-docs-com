@@ -15,7 +15,7 @@ timestamp: 2025-12-30-12-07-05
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page explains how to protect or encrypt a document using various security options.
 

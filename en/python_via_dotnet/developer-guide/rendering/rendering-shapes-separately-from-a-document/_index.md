@@ -11,8 +11,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/rendering-shapes-separately-from-a-document/
 aliases: [/python/rendering-shapes-separately-from-a-document/]
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page explains how to use Aspose.Words for Python via .NET to render individual shapes, group shapes, and shape images from a Word document to image files or streams, and how to obtain shape size information.
+
+{{% /alert %}}
 
 When processing documents, a common task is to extract all images found in the document and export them to an external location. This task becomes simple with the Aspose.Words API, which already provides the functionality for extracting and saving image data. However, sometimes you may want to similarly extract other types of graphic content that is represented by a different type of drawing object, for example, a text box containing paragraphs, arrow shapes, and a small image. There is no straightforward way of rendering this object since it is a combination of individual content elements. You may also encounter a case when the contents have been grouped together into the object that looks like a single image.
 
@@ -49,7 +56,7 @@ When rendering a [Shape](https://reference.aspose.com/words/python-net/aspose.wo
 
 ## Rendering to File or Stream
 
-The [save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/) method provides overloads that render a shape directly to a file or stream. Both overloads accept an instance of the [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) class, which allows to define options for rendering the shape. This works in the same way as the [Document.save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) method. Even though this parameter is required, you can pass a null value, specifying that there are no custom options.
+The [save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/) method provides overloads that render a shape directly to a file or stream. Both overloads accept an instance of the [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) class, which allows to define options for rendering the shape. This works in the same way as the [Document.save](https://reference.aspose.com/words/python-net/aspose.words.document/save/) method. Even though this parameter is required, you can pass a null value, specifying that there are no custom options.
 
 The shape can be exported in any image format specified in the [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/) enumeration. For example, the image can be rendered as a raster image, such as JPEG by specifying the [SaveFormat.JPEG](https://reference.aspose.com/words/python-net/aspose.words/saveformat/#jpeg) enumeration, or as a vector image, such as EMF by specifying the [SaveFormat.EMF](https://reference.aspose.com/words/python-net/aspose.words/saveformat/#emf).
 
@@ -107,5 +114,3 @@ shape.get_shape_renderer().save(docs_base.artifacts_dir + "TestFile.RenderShapeI
 The [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) class also provides functionality to retrieve the size of the shape in pixels through the [get_size_in_pixels](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/get_size_in_pixels/) method. This method accepts two float (Single) parameters – the scale and DPI, which are used in calculation of the shape size when the shape is rendered. The method returns the **Size** object, which contains the width and height of the calculated size. This is useful when it is required to know the size of the rendered shape in advance. The [size_in_points](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/size_in_points/) property returns the Shape size measured in points. The result is a **SizeF** object containing the width and height. Also you can use [bounds_in_points](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/bounds_in_points/) property to get actual bounds of the shape.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_shapes-GetActualShapeBoundsPoints.py" >}}
-
-

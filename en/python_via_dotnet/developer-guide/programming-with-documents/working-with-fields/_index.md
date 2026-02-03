@@ -11,8 +11,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/working-with-fields/
 aliases: [/python/working-with-fields/]
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page explains how to work with fields in documents using Aspose.Words for Python via .NET, covering their structure and how to manipulate them programmatically.
+{{% /alert %}}
 
 **Fields** in a document are like placeholders where useful data can be inserted. For example, a field can be a page reference, formula, or a Mail Merge field.
 

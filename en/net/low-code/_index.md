@@ -15,7 +15,7 @@ timestamp: 2025-04-22-07-08-55
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page explains low-code options for using Aspose.Words, including automating common document-processing tasks with minimal code.
 

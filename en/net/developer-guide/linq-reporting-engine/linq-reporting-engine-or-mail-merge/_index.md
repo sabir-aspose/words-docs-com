@@ -15,7 +15,7 @@ timestamp: 2024-01-27-14-07-04
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page explains the differences between the LINQ Reporting Engine and Mail Merge and helps you determine which approach fits different reporting scenarios.
 

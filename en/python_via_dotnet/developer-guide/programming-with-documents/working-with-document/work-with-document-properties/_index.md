@@ -11,8 +11,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/work-with-document-properties/
 aliases: [/python/work-with-document-properties/]
-timestamp: 2024-01-31-14-23-37
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page describes how to use Aspose.Words for Python via .NET to access, enumerate, add, remove, and update built‑in and custom document properties, link custom properties to content, work with document variables, and remove personal information from Word documents.
+
+{{% /alert %}}
 
 Document properties allow storing some useful information about your document. These properties can be divided into two groups:
 

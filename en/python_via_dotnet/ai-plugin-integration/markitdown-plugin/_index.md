@@ -11,8 +11,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/markitdown-plugin/
 aliases: [/python/markitdown-plugin/]
-timestamp: 2025-12-19-11-09-00
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page describes the Aspose.Words for MarkItDown plugin, including its features, installation steps, usage via CLI and Python API, licensing requirements, and how to run its tests.
+{{% /alert %}}
 
 **Aspose.Words for MarkItDown** is a free plugin for [MarkItDown](https://github.com/microsoft/markitdown) based on [Aspose.Words for Python via .Net](https://products.aspose.com/words/python-net/) commercial library.  
 The plugin is designed for parsing multiple document formats and converting them into Markdown suitable for AI processing.  

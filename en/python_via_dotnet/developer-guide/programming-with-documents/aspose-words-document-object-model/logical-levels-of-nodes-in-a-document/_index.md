@@ -11,8 +11,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/logical-levels-of-nodes-in-a-document/
 aliases: [/python/logical-levels-of-nodes-in-a-document/]
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page describes the logical levels of nodes in Aspose.Words for Python via .NET—document/section, block, inline, and table/row/cell levels—and lists the classes that belong to each level.
+
+{{% /alert %}}
 
 This documentation sometimes refers to a group of node classes as belonging to a "level" in a document, such as "block-level", "inline-level" (also known as "inline"), or “row-level” nodes. These levels in a document are differentiated purely logically and are not explicitly expressed by inheritance or other Aspose.Words DOM means. The node level is used to describe the place in the document tree where the node would typically occur.
 
@@ -72,7 +80,7 @@ Inline-level elements are represented by the following classes:
 
 - [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) – runs of text formatted differently
 - [BookmarkStart](https://reference.aspose.com/words/python-net/aspose.words/bookmarkstart/) and [BookmarkEnd](https://reference.aspose.com/words/python-net/aspose.words/bookmarkend/) represent bookmarks
-- [CommentRangeStart](https://reference.aspose.com/words/python-net/aspose.words/commentrangestart/), [CommentRangeEnd](https://reference.aspose.com/words/python-net/aspose.words/commentrangeend/), [Comment](https://reference.aspose.com/words/python-net/aspose.words/comment/) and [Footnote](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/) represent annotations
+- [CommentRangeStart](https://reference.aspose.com/words/python-net/aspose.words.commentrangestart/), [CommentRangeEnd](https://reference.aspose.com/words/python-net/aspose.words.commentrangeend/), [Comment](https://reference.aspose.com/words/python-net/aspose.words.comment/) and [Footnote](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/) represent annotations
 - [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/), [FieldChar](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldchar/), [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/) and [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/) that represent field characters, and [FormField](https://reference.aspose.com/words/python-net/aspose.words.fields/formfield/) represent Word fields
 - [SpecialChar](https://reference.aspose.com/words/python-net/aspose.words/specialchar/) represents special characters in the document
 - [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) and [GroupShape](https://reference.aspose.com/words/python-net/aspose.words.drawing/groupshape/) represent shapes, drawings, images, etc.
@@ -92,7 +100,7 @@ Shapes can be grouped inside each other using [GroupShape](https://reference.asp
 
 {{% alert color="primary" %}}
 
-Footnotes and comments can contain text, therefore [Footnote](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/) and [Comment](https://reference.aspose.com/words/python-net/aspose.words/comment/) nodes in Aspose.Words can contain block-level nodes.
+Footnotes and comments can contain text, therefore [Footnote](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/) and [Comment](https://reference.aspose.com/words/python-net/aspose.words.comment/) nodes in Aspose.Words can contain block-level nodes.
 
 {{% /alert %}}
 

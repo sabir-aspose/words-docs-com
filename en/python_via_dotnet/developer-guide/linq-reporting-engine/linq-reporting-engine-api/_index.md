@@ -11,8 +11,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/linq-reporting-engine-api/
 aliases: [/python/linq-reporting-engine-api/]
-timestamp: 2024-10-21-11-17-44
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page explains how to use the LINQ Reporting Engine API in Aspose.Words for Python via .NET to build reports from templates, covering XML, JSON, and CSV data sources and various engine options such as removing empty paragraphs, handling missing members, inlining error messages, and reflection optimization.
+{{% /alert %}}
 
 {{% alert color="primary" %}}
 
@@ -687,16 +693,14 @@ Result document
 {{< highlight text >}}
 Name: John Doe, Age: 30, Date of Birth: 01.04.1989
 Name: Jane Doe, Age: 27, Date of Birth: 31.01.1992
-Name: John Smith, Age: 51, Date of Birth: 08.03.1968
-
-Average age: 36
+Name: John Smith, Age: 51, Date of Birth: 01.04.1989
 {{< /highlight >}}
 
 Also, you can use [CsvDataLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.reporting/csvdataloadoptions/) to customize the following characters playing special roles while loading CSV data:
 
 - Value separator (the default is comma)
 - Single-line comment start (the default is sharp)
-- Quotation mark enabling to use other special characters within a value (the default is double quotes)
+- **Quotation mark enabling to use other special characters within a value (the default is double quotes)**
 
 ## Removing Paragraphs Containing Only Template Syntax Tags
 
@@ -824,7 +828,7 @@ However, if [ReportBuildOptions.ALLOW_MISSING_MEMBERS](https://reference.aspose.
 
 By default, LINQ Reporting Engine throws an exception when encounters a template syntax error. Such an exception provides information on a reason of the error and specifies a tag or expression part where the error is encountered. In most cases, this information is enough to find a place in a template causing the error and fix it.
 
-However, when dealing with complex templates containing a large number of tags, it becomes harder to find an exact place in a template causing an error. To make things easier, the engine supports the [ReportBuildOptions.INLINE_ERROR_MESSAGES](https://reference.aspose.com/words/python-net/aspose.words.reporting/reportbuildoptions/#inline_error_messages) option that enables inlining of a syntax error message into a template document at an exact position where the error occurs during runtime. 
+However, when dealing with complex templates containing a large number of tags, it becomes harder to find an exact place in the template causing an error. To make things easier, the engine supports the [ReportBuildOptions.INLINE_ERROR_MESSAGES](https://reference.aspose.com/words/python-net/aspose.words.reporting/reportbuildoptions/#inline_error_messages) option that enables inlining of a syntax error message into a template document at an exact position where the error occurs during runtime. 
 
 **Note** – A template syntax error message is written using a bold font to make it more apparent.
 
@@ -853,67 +857,13 @@ else :
 	# Do something with a report containing a template syntax error.
 {{< /highlight >}}
 
-**Note** – When [ReportBuildOptions.INLINE_ERROR_MESSAGES](https://reference.aspose.com/words/python-net/aspose.words.reporting/reportbuildoptions/#inline_error_messages) is not applied, [ReportingEngine.build_report](https://reference.aspose.com/words/python-net/aspose.words.reporting/reportingengine/build_report/) overloads return `True` if there were no template syntax errors encountered or throw an exception otherwise.
+**Note** – When [ReportBuildOptions.INLINE_ERROR_MESSAGES] is not applied, [ReportingEngine.build_report](https://reference.aspose.com/words/python-net/aspose.words.reporting/reportingengine/build_report/) overloads return `True` if there were no template syntax errors encountered or throw an exception otherwise.
 
 
 ## Optimizing Reflection Calls
 
 LINQ Reporting Engine uses reflection calls while accessing members of custom external types. However, reflection calls are much slower than direct calls, which create a performance overhead.
 
-That is why, the engine provides a strategy minimizing the reflection usage. The strategy is based upon the runtime type generation. That is, the engine generates a proxy type per an external type. The proxy directly calls members of the corresponding external type, the engine to access these members in a uniform way with no reflection involved. The proxy is [lazily initialized](https://en.wikipedia.org/wiki/Lazy_initialization) and reused in further. Thus, the reflection is used only while building the proxy.
+That is why, the engine provides a strategy minimizing the reflection usage. The strategy is based upon the runtime type generation. That is, the engine generates a proxy type per an external type. The proxy directly calls members of the corresponding external type, the engine to access these members in a uniform way with no reflection involved. The proxy is [lazily initialized](https://www.wikipedia.org/wiki/Lazy_initialization) and reused in further. Thus, the
 
-Although this strategy can significantly minimize the reflection usage in a long run, it creates a performance overhead of the runtime type generation. So, if you deal with small data collections all the time while building your reports, consider the disabling of the strategy. You can control the enabling of the strategy through the [ReportingEngine.use_reflection_optimization](https://reference.aspose.com/words/python-net/aspose.words.reporting/reportingengine/use_reflection_optimization/) static property. By default, the strategy is enabled.
-
------- 
-
-## FAQ
-
-1. **Q:** How can I remove paragraphs that become empty after the template tags are processed?  
-   **A:** Set the `ReportBuildOptions.REMOVE_EMPTY_PARAGRAPHS` flag on the engine before building the report. The engine will then delete any paragraph that contains only template syntax tags or evaluates to an empty string.  
-
-   ```python
-   engine = aw.reporting.ReportingEngine()
-   engine.options |= aw.reporting.ReportBuildOptions.REMOVE_EMPTY_PARAGRAPHS
-   engine.build_report(doc, data_source)
-   ```
-
-2. **Q:** What should I do when a template tries to access a member that does not exist on the data object?  
-   **A:** Enable `ReportBuildOptions.ALLOW_MISSING_MEMBERS`. With this option the engine treats missing members as `null` instead of throwing an exception, allowing the report to continue rendering.  
-
-   ```python
-   engine = aw.reporting.ReportingEngine()
-   engine.options |= aw.reporting.ReportBuildOptions.ALLOW_MISSING_MEMBERS
-   engine.build_report(doc, data_source)
-   ```
-
-3. **Q:** Can I have syntax‑error messages appear directly in the generated document?  
-   **A:** Yes. Activate `ReportBuildOptions.INLINE_ERROR_MESSAGES`. When this option is on, the engine inserts a bold error message at the location of the faulty tag and returns `False` from `build_report` instead of raising an exception.  
-
-   ```python
-   engine = aw.reporting.ReportingEngine()
-   engine.options |= aw.reporting.ReportBuildOptions.INLINE_ERROR_MESSAGES
-   success = engine.build_report(doc, data_source)
-   if not success:
-       # The document now contains inline error messages.
-       pass
-   ```
-
-4. **Q:** My reports are small and I notice a performance hit from reflection. How can I disable the reflection‑optimization strategy?  
-   **A:** Set the static property `ReportingEngine.use_reflection_optimization` to `False` before creating the engine instance. This forces the engine to use direct calls, which is faster for small data sets.  
-
-   ```python
-   aw.reporting.ReportingEngine.use_reflection_optimization = False
-   engine = aw.reporting.ReportingEngine()
-   engine.build_report(doc, data_source)
-   ```
-
-5. **Q:** How do I specify a custom root object name when loading XML, JSON, or CSV data?  
-   **A:** Pass the desired root name as the third argument to `ReportingEngine.build_report`. This tells the engine which collection in the data source should be treated as the root for iteration.  
-
-   ```python
-   engine = aw.reporting.ReportingEngine()
-   # For XML data where the root collection is "persons"
-   engine.build_report(doc, xml_data_source, "persons")
-   # For JSON data where the root collection is "managers"
-   engine.build_report(doc, json_data_source, "managers")
-   ```
+---

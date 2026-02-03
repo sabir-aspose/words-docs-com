@@ -15,7 +15,7 @@ timestamp: 2025-03-17-19-00-00
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page explains the grammar checking capabilities available in Aspose.Words.
 

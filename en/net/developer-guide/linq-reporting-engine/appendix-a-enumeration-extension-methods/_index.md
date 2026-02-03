@@ -15,7 +15,7 @@ timestamp: 2024-10-21-11-17-44
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page describes the enumeration extension methods available in Aspose.Words, helping to extend enum functionality.
 

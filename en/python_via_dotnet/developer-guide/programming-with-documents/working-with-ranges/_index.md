@@ -11,8 +11,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/working-with-ranges/
 aliases: [/python/working-with-ranges/]
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page explains how to use the Aspose.Words Range object in Python via .NET to access and modify document content, and provides code examples for retrieving plain text and deleting text within a range.
+
+{{% /alert %}}
 
 {{% alert color="primary" %}}
 

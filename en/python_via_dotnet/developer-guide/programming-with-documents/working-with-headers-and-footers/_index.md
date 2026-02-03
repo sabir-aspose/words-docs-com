@@ -11,8 +11,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/working-with-headers-and-footers/
 aliases: [/python/working-with-headers-and-footers/]
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page shows how to create, customize, and remove headers and footers in Word documents using Aspose.Words for Python via .NET, covering header/footer types, image insertion, font and paragraph settings, page numbers, and handling different page orientations and sections.
+{{% /alert %}}
 
 Aspose.Words allows users to work with headers and footers in a document. A header is text that is placed at the top of a page, and a footer is text at the bottom of a page. Typically, these areas are used to insert information that should be repeated on all or some pages of the document, such as page numbers, creation date, company information, and so on.
 

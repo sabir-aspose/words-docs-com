@@ -10,8 +10,16 @@ ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/remove-fields/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to programmatically remove fields from a Word document using Aspose.Words for Python via .NET, including a code example that utilizes the `Field.remove` method.
+
+{{% /alert %}}
 
 Sometimes it is necessary to remove a field from the document. This may occur when it is to be replaced with a different field type or when the field is no longer needed in the document. For example a `TOC` field when saving to HTML.
 

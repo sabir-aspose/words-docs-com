@@ -15,7 +15,7 @@ timestamp: 2024-12-13-06-40-00
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page explains how to translate a document using Aspose.Words and describes available translation workflows.
 

@@ -11,8 +11,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/compare-documents/
 aliases: [/python/compare-documents/]
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to use Aspose.Words for Python via .NET to compare two documents, retrieve revision changes, and configure advanced comparison options such as ignoring headers/footers, formatting, or setting granularity.  
+{{% /alert %}}
 
 Comparing documents is a process that identifies changes between two documents and contains the changes as revisions. This process compares any two documents, including versions of one specific document, then the changes between both documents will be shown as revisions in the first document.
 

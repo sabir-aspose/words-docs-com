@@ -11,8 +11,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/learn-features-of-conversion-to-pdf-a/
 aliases: [/python/learn-features-of-conversion-to-pdf-a/]
-timestamp: 2024-01-31-14-23-37
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page describes the PDF/A‑1, PDF/A‑2, PDF/A‑4, and PDF/UA‑1 standards supported by Aspose.Words for Python via .NET, explains how to select compliance using `PdfSaveOptions.compliance`, and provides relevant ISO references and additional resources.  
+{{% /alert %}}
 
 PDF is a fixed page format that is very popular among users and is widely supported by various applications, as a PDF document looks the same on any device. For this reason, converting to PDF is an important feature of Aspose.Words.
 

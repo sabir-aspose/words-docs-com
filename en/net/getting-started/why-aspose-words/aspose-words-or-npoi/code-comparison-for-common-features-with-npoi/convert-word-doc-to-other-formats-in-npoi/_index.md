@@ -15,7 +15,7 @@ timestamp: 2024-01-27-14-07-04
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page explains how to convert Word documents to other formats when using NPOI and contrasts the workflow with Aspose.Words capabilities.
 

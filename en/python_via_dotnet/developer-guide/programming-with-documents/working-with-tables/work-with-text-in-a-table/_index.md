@@ -10,8 +10,16 @@ ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/work-with-text-in-a-table/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to work with text in an existing table using Aspose.Words for Python, covering text replacement, plain‑text extraction from tables or cells, and setting a table’s title and description.
+
+{{% /alert %}}
 
 As mentioned in previous articles, a table usually contains plain text, although other content such as images or even other tables can be placed in table cells.
 
@@ -56,4 +64,3 @@ In Aspose.Words, you can also add a table title and description using the [Title
 The following code example shows how to set the title and description properties of a table:
 
 {{< gist "aspose-words-gists" "a47401178cba165f62701f6c94e8a4ec" "table-title-and-description.py" >}}
-

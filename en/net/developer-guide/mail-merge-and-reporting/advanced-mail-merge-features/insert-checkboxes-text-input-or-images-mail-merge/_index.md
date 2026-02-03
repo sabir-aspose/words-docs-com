@@ -16,7 +16,7 @@ timestamp: 2024-07-11-08-07-06
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page describes how to insert checkboxes, text inputs, or images during mail merge.
 

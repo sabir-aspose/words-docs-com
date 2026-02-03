@@ -11,8 +11,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/specify-load-options/
 aliases: [/python/specify-load-options/]
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page shows how to use the `LoadOptions` class in Aspose.Words for Python via .NET to customize document loading, including setting the Microsoft Word version, language preferences, temporary folder, encoding, and loading encrypted documents.
+{{% /alert %}}
 
 When loading a document, you can set some advanced properties. Aspose.Words provides you with the [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/) class, which allows more precise control of the load process. Some load formats have a corresponding class that holds load options for this load format, for example, there is [PdfLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/pdfloadoptions/) for loading to PDF format or [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) for loading to TXT. This article provides examples of working with options of the [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/) class.
 

@@ -11,8 +11,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/convert-between-measurement-units/
 aliases: [/python/convert-between-measurement-units/]
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to use Aspose.Words for Python via .NET's `ConvertUtil` class to convert between measurement units such as inches, points, pixels, and millimeters, including examples of setting page properties in inches.
+
+{{% /alert %}}
 
 Most of the object properties provided in the Aspose.Words API that represent some measurement, such as width or height, margins, and various distances, accept values in points, where 1 inch equals 72 points. Sometimes this is not convenient and points need to be converted to other units.
 
@@ -23,7 +31,6 @@ The [ConvertUtil](https://reference.aspose.com/words/python-net/aspose.words/con
 The following code example shows how to specify page properties in inches:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_properties-ConvertBetweenMeasurementUnits.py" >}}
-
 
 ------ 
 

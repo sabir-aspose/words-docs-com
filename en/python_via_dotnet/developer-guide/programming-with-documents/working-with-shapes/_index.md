@@ -13,8 +13,14 @@ url: /python-net/working-with-shapes/
 aliases:
 - /python/working-with-shapes/
 - /python/working-with-graphic-elements/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to create, modify, and query various shape types in Word documents using Aspose.Words for Python via .NET, providing code examples for inserting shapes, setting properties such as aspect ratio and layout, handling special shapes, and working with OLE objects and Office Math conversion.
+{{% /alert %}}
 
 This topic discusses how to work programmatically with shapes using Aspose.Words.
 
@@ -108,7 +114,7 @@ Maximum size of the icon must be 32x32 for the correct display.
 
 ## Import Shapes with Math XML as Shapes into DOM
 
-You can use [convert_shape_to_office_math](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/convert_shape_to_office_math/) property to convert the shapes with EquationXML to Office Math objects. The default value of this property corresponds to MS Word behavior i.e. shapes with equation XML are not converted to Office math objects.
+You can use [convert_shape_to_office_math](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/convert_shape_to_office_math/) property to convert the shapes with EquationXML to Office Math objects. The default value of this property corresponds to MS Word behavior i.e. shapes with equation XML are not converted to Office Math objects.
 
 The following code example shows how to convert shapes to Office Math objects:
 

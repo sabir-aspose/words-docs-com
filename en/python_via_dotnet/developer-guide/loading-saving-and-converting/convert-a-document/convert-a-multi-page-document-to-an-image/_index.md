@@ -10,8 +10,14 @@ ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/convert-a-multi-page-document-to-an-image/
-timestamp: 2025-06-18-10-00-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page explains how to use Aspose.Words for Python via .NET to export multi‑page documents to raster image formats, detailing supported formats, MultiPageLayout options, and providing code examples for various layouts and customizations.
+{{% /alert %}}
 
 Aspose.Words for Python via .NET allows users to export multi-page documents to raster images. This can be useful for generating previews, archives, or visual representations of documents for non-editable use.
 

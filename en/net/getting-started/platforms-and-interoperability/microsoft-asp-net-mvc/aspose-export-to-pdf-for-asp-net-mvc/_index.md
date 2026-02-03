@@ -15,7 +15,7 @@ timestamp: 2024-10-24-11-44-28
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page explains how to add an “Export to PDF” feature to ASP.NET MVC applications using Aspose.Words.
 

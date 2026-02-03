@@ -12,8 +12,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/convert-a-document-to-markdown/
 aliases: [/python/convert-a-document-to-markdown/]
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page shows how to use Aspose.Words for Python via .NET to convert documents between supported formats and Markdown, including code examples, save options, and supported Markdown features.
+{{% /alert %}}
 
 Markdown is a popular format used to markup text and its further converting to HTML, PDF, DOCX, or other formats. Many developers choose this format for writing documentation, preparing articles for publication on blogs, describing projects, and so on.
 

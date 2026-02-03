@@ -15,7 +15,7 @@ timestamp: 2024-10-21-11-17-44
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page explains how to inline syntax error messages in templates when using the reporting engine.
 

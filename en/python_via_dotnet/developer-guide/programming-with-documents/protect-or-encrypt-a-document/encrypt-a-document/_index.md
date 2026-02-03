@@ -11,8 +11,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/encrypt-a-document/
 aliases: [/python/encrypt-a-document/]
-timestamp: 2024-10-21-11-17-44
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to encrypt documents using Aspose.Words for Python via .NET, how to detect whether a document is encrypted, and how to open encrypted files with or without a password, including details on supported formats and encryption options.
+
+{{% /alert %}}
 
 Encryption is the process that translates readable text to meaningless sequences of bytes so it can only be read by the person who has the decryption key or the secret code. This process plays an important role in securing your content. It helps to encode the content, verify the origin of a document, prove that the content has not been modified after it was sent, and ensure that the data from the document is safe.
 

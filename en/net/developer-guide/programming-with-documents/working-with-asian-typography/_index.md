@@ -15,7 +15,7 @@ timestamp: 2024-02-01-16-17-05
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page explains how to work with Asian typography features such as line breaking and character spacing.
 

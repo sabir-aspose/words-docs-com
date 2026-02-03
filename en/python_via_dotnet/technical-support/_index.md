@@ -12,8 +12,13 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/technical-support/
 aliases: [/python/technical-support/]
-timestamp: 2024-11-18-12-56-02
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page describes how to access free technical support for Aspose.Words for Python via .NET, including using the Aspose Forums, reporting issues or feature requests, and licensing instructions.{{% /alert %}}
 
 Aspose provides unlimited free technical support for all of its products. Support is available to all users, including evaluation. The main avenue of support is [Aspose.Forums](https://forum.aspose.com/c/words/8).
 

@@ -10,8 +10,16 @@ ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/translate-a-document/
-timestamp: 2025-01-15-16-40-05
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page shows how to translate a document with Aspose.Words for Python via .NET using Google generative AI models, including a code example with the Gemini 1.5 Flash model.
+
+{{% /alert %}}
 
 Document translation is a frequently needed option in the age of high digitalization. Aspose.Words supports document translation using *Google* generative language models, which allows developers to translate texts content into more than 300 languages.
 

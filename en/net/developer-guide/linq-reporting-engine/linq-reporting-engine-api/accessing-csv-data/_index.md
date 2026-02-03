@@ -15,7 +15,7 @@ timestamp: 2024-01-27-14-07-04
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page outlines how to use CSV data in Aspose.Words reporting by connecting it through CsvDataSource for template-based document generation.
 

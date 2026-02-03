@@ -15,7 +15,7 @@ timestamp: 2024-01-30-16-22-34
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page describes the Document Merger for Dynamics CRM, which combines multiple documents or templates.
 
