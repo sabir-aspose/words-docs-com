@@ -13,6 +13,14 @@ url: /python-net/which-pdf-standard-is-better-to-choose/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page explains how to choose among PDF standards (PDF 1.7, PDF 2.0, PDF/A‑1/‑2, and PDF/UA) when using Aspose.Words for Python, outlining the scenarios and requirements for each.
+
+{{% /alert %}}
+
 For some tasks, certain PDF standards will fit better or vice versa worse. In this article, we will try to determine which PDF standards for which cases it makes sense to choose.
 
 {{% alert color="primary" %}}

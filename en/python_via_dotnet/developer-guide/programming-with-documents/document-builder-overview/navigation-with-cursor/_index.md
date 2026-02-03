@@ -14,6 +14,12 @@ aliases: [/python/navigation-with-cursor/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page shows how to use Aspose.Words for Python via .NET DocumentBuilder to detect the current cursor position and navigate to various document nodes, including the start/end of the document, bookmarks, table cells, fields, headers/footers, sections, and paragraphs.
+{{% /alert %}}
+
 While working with a document, even if it is a short or long one, you will need to navigate through your document. Navigation with a virtual cursor represents the ability to navigate between different nodes in a document.
 
 Within a short document, moving around in a document is simple as you can move the insertion point even by using the keyboard's arrow keys or by clicking the mouse to locate the insertion point wherever you want. But once you have a large document that has many pages, these basic techniques will be insufficient.

@@ -14,6 +14,13 @@ aliases: [/python/saving-a-document-as-a-multipage-tiff/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This article demonstrates how to convert a document to a multi‑page TIFF using Aspose.Words for Python via .NET, including basic conversion and configuring rendering options such as resolution, page range, compression, color mode, and binarization.
+
+{{% /alert %}}
+
 When working with documents, you often need to convert your document to a raster image file(s). This is especially relevant if you have to present your document in a readable and printable, but not editable format. For example, you can use a raster image of the first page of your document as a preview. This article describes how to convert a document to a raster image using the example of the TIFF format – one of the more popular image formats.
 
 ## Converting DOC to Multi-Page TIFF

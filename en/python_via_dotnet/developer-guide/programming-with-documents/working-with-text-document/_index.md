@@ -16,6 +16,12 @@ aliases:
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to use various Aspose.Words for Python via .NET options for loading and saving plain‑text (TXT) documents, including bi‑directional marks, list detection, space handling, text direction, header/footer export, and list indentation, with code examples for each feature.
+{{% /alert %}}
+
 In this article, we will learn what options can be useful for working with a text document via Aspose.Words. Please note that this is not a complete list of available options, but only an example of working with some of them.
 
 ## Add Bi-Directional Marks

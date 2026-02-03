@@ -14,6 +14,12 @@ aliases: [/python/working-with-watermark/]
 timestamp: 2025-04-16-07-02-05
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to use Aspose.Words for Python via .NET to add, customize, and remove text or image watermarks in Word documents. It includes code examples for inserting watermarks via the Watermark class, using shapes, and handling watermarks inside table cells.  
+{{% /alert %}}
+
 This topic discusses how to work programmatically with watermark using Aspose.Words. A watermark is a background image that displays behind the text in a document. A watermark can contain a text or an image represented by the [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/) class.
 
 {{% alert color="primary" %}}
@@ -146,4 +152,4 @@ The following code example shows how to use this property:
    doc.compatibility_options.optimize_for(CompatibilityMode.WORD_2010)
    # add shape to the desired cell
    doc.save("output.docx")
-   `````
+   ```

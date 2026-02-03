@@ -14,6 +14,14 @@ aliases: [/python/working-with-comments/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to add, extract, and remove comments and comment replies in Word documents using Aspose.Words for Python via .NET, providing code examples for each operation.
+
+{{% /alert %}}
+
 {{% alert color="primary" %}}
 
 **Try online**

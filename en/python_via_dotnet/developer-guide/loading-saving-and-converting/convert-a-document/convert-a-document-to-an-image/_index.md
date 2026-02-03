@@ -14,6 +14,12 @@ aliases: [/python/convert-a-document-to-an-image/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page shows how to convert documents to image formats (e.g., JPEG, PNG, BMP) using Aspose.Words for Python via .NET, and explains how to customize the conversion with ImageSaveOptions such as page selection, resolution, quality, and pixel format.
+{{% /alert %}}
+
 Sometimes it is required to get an image instead of documents in other formats, such as DOCX or PDF. For example, you need to add a preview of any document page to your website or application, or create a "scan" of a document to send an invoice. This is when you may need to convert a document in any [supported load format](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) to an image, again, in any [supported save format](https://reference.aspose.com/words/python-net/aspose.words/saveformat/).
 
 ## Convert to Image Format {#convert-to-image-format}

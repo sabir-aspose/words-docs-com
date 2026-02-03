@@ -14,6 +14,14 @@ aliases: [/python/working-with-paragraphs/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page shows how to work with paragraphs in Aspose.Words for Python via .NET, including inserting paragraphs, formatting them, applying styles and style separators, and adding borders and shading, with code examples for each task.
+
+{{% /alert %}}
+
 A paragraph is a set of characters combined into a logical block and ending with a special character – a *paragraph break*. In Aspose.Words, a paragraph is represented by the [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) class.
 
 ## Insert a Paragraph

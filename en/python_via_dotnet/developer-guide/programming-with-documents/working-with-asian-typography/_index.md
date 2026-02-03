@@ -13,6 +13,12 @@ url: /python-net/working-with-asian-typography/
 timestamp: 2024-02-01-16-17-05
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page shows how to use Aspose.Words for Python to manage Asian typography, including automatically adjusting spacing between Asian and Latin text and configuring line‑break options. It provides code examples that demonstrate the relevant ParagraphFormat properties such as AddSpaceBetweenFarEastAndAlpha, AddSpaceBetweenFarEastAndDigit, FarEastLineBreakControl, WordWrap, and HangingPunctuation.
+{{% /alert %}}
+
 Asian Typography is a set of options for text paragraphs in documents written in Asian languages.
 
 Aspose.Words supports Asian Typography using the [ParagraphFormat](https://reference.aspose.com/words/python-net/aspose.words/paragraphformat/) class and some of its properties.

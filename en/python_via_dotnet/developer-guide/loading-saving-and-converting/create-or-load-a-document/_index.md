@@ -17,6 +17,14 @@ weight: 10
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page shows how to create a new blank document and how to load an existing document from a file or a stream using Aspose.Words for Python via .NET, with code examples for the `Document` and `DocumentBuilder` classes.
+
+{{% /alert %}}
+
 Almost any task that you want to perform with Aspose.Words involves loading a document. The [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) class represents a document loaded into memory. The document has several overloaded constructors allowing you to create a blank document or to load it from a file or stream. The document can be loaded in any load format supported by Aspose.Words. For the list of all supported load formats, see the [LoadFormat](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) enumeration.
 
 ## Create a New Document

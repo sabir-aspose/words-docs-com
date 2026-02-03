@@ -14,6 +14,14 @@ aliases: [/python/specify-save-options/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to use Aspose.Words SaveOptions classes in Python via .NET to control various aspects of document saving, such as format‑specific options, encryption, timestamps, and image pixel format, with code examples.
+
+{{% /alert %}}
+
 When saving a document, you can set some advanced properties. Aspose.Words provides you with the [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) class, which allows more precise control of the save process. There are overloads of the [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) method that accept a [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) object – it should be an object of a class derived from the [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) class. Each save format has a corresponding class that holds save options for this save format, for example, there is [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) for saving to PDF format or [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) for saving to an image. This article provides examples of working with some options classes derived from [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/).
 
 The following code example shows how to set the save options before saving the document into HTML:

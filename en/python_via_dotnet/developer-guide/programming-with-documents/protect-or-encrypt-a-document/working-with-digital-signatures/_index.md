@@ -14,6 +14,14 @@ aliases: [/python/working-with-digital-signatures/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page explains how to detect, verify, and create digital signatures in supported document formats using Aspose.Words for Python via .NET, covering signature handling on Word, PDF, macros, and retrieving signature values.
+
+{{% /alert %}}
+
 A digital signature is used to authenticate a document to establish that the sender of the document is who they say they are and the content of the document has not been tampered with.
 
 Aspose.Words supports documents with digital signatures and provides access to them allowing you to detect and validate digital signatures on a document and sign a generated PDF document with a supplied certificate. At the present time digital signatures are supported on DOC, OOXML and ODT documents. Signing of generated documents is supported in PDF format.

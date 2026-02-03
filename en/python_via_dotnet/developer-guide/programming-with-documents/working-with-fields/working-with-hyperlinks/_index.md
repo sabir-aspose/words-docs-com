@@ -16,6 +16,14 @@ aliases:
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to insert, replace, and modify hyperlink fields in Word documents using Aspose.Words for Python via .NET, with code examples using `DocumentBuilder.insert_hyperlink` and the `FieldHyperlink` class. It also explains how to apply font formatting to hyperlinks and how to locate and update existing hyperlink nodes.
+
+{{% /alert %}}
+
 A hyperlink in Microsoft Word documents is the `HYPERLINK` field. In Aspose.Words, hyperlinks are implemented through the [FieldHyperlink](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldhyperlink/) class.
 
 ## Inserting a Hyperlink

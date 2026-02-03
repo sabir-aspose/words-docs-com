@@ -14,6 +14,12 @@ aliases: [/python/working-with-tablestyle/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to create, copy, apply, and manage table styles using Aspose.Words for Python via .NET, including setting conditional formatting and expanding styles to direct formatting.
+{{% /alert %}}
+
 A table style defines a set of formatting that can be easily applied to a table. Formatting such as borders, shading, alignment, and font can be set in a table style and applied to many tables for a consistent appearance.
 
 Aspose.Words supports applying a table style to a table and also reading properties of any table style. Table styles are preserved during loading and saving in the following ways:

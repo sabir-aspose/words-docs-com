@@ -14,6 +14,12 @@ aliases: [/python/working-with-hyphenation/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page explains how to use hyphenation in Aspose.Words for Python via .NET, covering hyphenation dictionaries, the underlying algorithm, loading dictionaries, and the impact of hyphenation on document layout and justification.
+{{% /alert %}}
+
 Sometimes it is necessary to use hyphenation for a more compact arrangement of text in a document. At the same time, it is important to understand that the specifics of word hyphenation may differ for each language.
 
 At the present time, hyphenation is not used as often as it used to be, especially in English texts. Nevertheless, the use of this feature can have a serious impact on user documents – hyphenation affects the layout and, as a result, the appearance of the output files, for example, in PDF format.

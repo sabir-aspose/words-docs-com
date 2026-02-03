@@ -16,6 +16,12 @@ aliases:
 timestamp: 2024-09-25-11-08-55
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page introduces the Aspose.Words for Python via .NET programming‑with‑documents section, describing how to use the Document Object Model to create, modify, and manage document content, properties, and visual elements, and provides links to detailed articles on each topic.
+{{% /alert %}}
+
 This section provides information on how to programmatically create, modify, and manage documents with the Aspose.Words Document Object Model classes. Articles in this section describe a wide range of document manipulation tasks enabling you to work with document properties, settings, content, and its elements.
 
 The visual appearance of documents is another important topic covered in this section that includes articles on working with colors, shapes, fonts, and other graphical elements.

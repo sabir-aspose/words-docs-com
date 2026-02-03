@@ -13,6 +13,12 @@ url: /python-net/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page provides an overview of table handling in Aspose.Words for Python, describing the table structure, nodes (Table, Row, Cell), and how to work with them. It also explains nesting, the need for an empty paragraph between consecutive tables, and points to the Aspose.Words.Tables module for related classes and properties.
+{{% /alert %}}
+
 Aspose.Words is a class library designed for server-side processing of documents in various formats – PDF, HTML, different Microsoft Word formats and others – and supports tables in the following ways:
 
 * tables in a document are preserved during open/save and conversions

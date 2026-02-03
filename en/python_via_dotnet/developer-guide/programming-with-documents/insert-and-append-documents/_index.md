@@ -16,6 +16,12 @@ aliases:
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to use Aspose.Words for Python via .NET to insert or append one document into another, covering methods such as `insert_document`, `insert_document_inline`, `append_document`, and manual node import with options for formatting and placement.
+{{% /alert %}}
+
 Sometimes it is required to combine several documents into one. You can do this manually or you can use Aspose.Words insert or append feature.
 
 The insert operation allows you to insert the content of previously created documents into a new or existing one.

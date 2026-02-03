@@ -13,6 +13,13 @@ url: /python-net/split-table/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page explains how to split an existing table into two separate tables in Aspose.Words for Python by cloning the original table (without its rows) and moving rows from a specified split point to the new table.
+
+{{% /alert %}}
+
 A table, represented in the Aspose.Words Document Object Model, is made up of independent rows and cells, making it easy to split a table.
 
 To manipulate a table to split it into two tables, we just need to move some of the rows from the original table to the new one. To do this, we need to pick the row by which we want to split the table.

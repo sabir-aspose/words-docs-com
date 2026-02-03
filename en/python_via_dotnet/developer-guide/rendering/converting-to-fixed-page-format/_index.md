@@ -14,6 +14,12 @@ aliases: [/python/converting-to-fixed-page-format/]
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page explains how Aspose.Words for Python via .NET creates and manages page layouts, and how to save documents to various fixed‑page formats (PDF, XPS, JPEG, etc.) using the appropriate saving options.
+{{% /alert %}}
+
 Aspose.Words implements its own page layout engine. Prior to delving into its specifications, it is worthwhile to first discuss document at a high level. When thinking about a document, users typically imagine a number of paper sheets containing words, images, tables, and charts. Documents can be of various types, such as text, spreadsheets, slides, CAD drawings, flowcharts, and, therefore, can have essentially different layouts. Most applications allow sending documents to a printer; this is when a user can actually view the document’s final intended appearance.
 
 ## Displaying a Document in Various Applications

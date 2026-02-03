@@ -14,6 +14,12 @@ aliases: [/python/working-with-smartart-cold-rendering/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page explains Aspose.Words for Python via .NET’s SmartArt Cold Rendering feature, how to invoke it (including the `update_smart_art_drawing` method), lists the supported SmartArt layouts, and provides visual comparisons with Microsoft Word rendering.
+{{% /alert %}}
+
 SmartArt graphics are used to quickly and easily create a visual representation of information. You simply choose from a large number of layouts that best suits your situation. This ease of use makes SmartArt graphics quite popular for some purposes.
 
 Microsoft Word generates and saves the pre-rendered drawing along with the `SmartArt` object. In most cases, the pre-rendered drawing is rendered well by Aspose.Words and no additional actions are required. However, if the document is saved by other applications, the pre-rendered SmartArt drawing may be missing or incorrect. In this case, the `SmartArt` object itself should be laid-out and rendered using Aspose.Words. We call this process the `SmartArt` Cold Rendering.

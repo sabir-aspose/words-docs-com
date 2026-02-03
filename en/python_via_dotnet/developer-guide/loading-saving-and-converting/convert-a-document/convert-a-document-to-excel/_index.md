@@ -13,6 +13,13 @@ url: /python-net/convert-a-document-to-excel/
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page shows how to use Aspose.Words for Python via .NET to convert documents of any supported format to XLSX, including examples of basic conversion, find‑and‑replace before saving, and configuring compression with `XlsxSaveOptions`.
+
+{{% /alert %}}
+
 Converting documents from one format to another is the flagship feature of Aspose.Words. You can convert documents in any available [load format](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) also to XLSX format.
 
 ## Convert a Document to XLSX

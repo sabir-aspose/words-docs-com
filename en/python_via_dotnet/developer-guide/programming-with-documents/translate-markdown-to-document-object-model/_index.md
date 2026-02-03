@@ -14,6 +14,12 @@ aliases: [/python/translate-markdown-to-document-object-model/]
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page explains how to translate Markdown documents to the Aspose.Words Document Object Model (DOM) and back using Python via .NET, detailing the mapping of Markdown features to DOM elements and providing code examples.
+{{% /alert %}}
+
 To programmatically read, manipulate, and modify the content and formatting of a document, you need to translate it to the Aspose.Words Document Object Model (DOM).
 
 In contrast to Word documents, Markdown does not conform to the DOM described in the [Aspose.Words Document Object Model (DOM)](/words/python-net/aspose-words-document-object-model/) article. However, Aspose.Words provides its own mechanism for translating Markdown documents to DOM and back, so that we can successfully work with their elements such as text formatting, tables, headers, and others.
@@ -182,7 +188,7 @@ builder = aw.DocumentBuilder()
 
 fencedCode = builder.document.styles.add(aw.StyleType.PARAGRAPH, "FencedCode")
 builder.paragraph_format.style = fencedCode
-builder.writeln("This is an fenced code")
+builder.writeln("This is a fenced code")
 
 fencedCodeWithInfo = builder.document.styles.add(aw.StyleType.PARAGRAPH, "FencedCode.C#")
 builder.paragraph_format.style = fencedCodeWithInfo

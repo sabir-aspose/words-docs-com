@@ -14,6 +14,14 @@ aliases: [/python/linq-reporting-engine/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page provides information about using the LINQ Reporting Engine API in Aspose.Words for Python via .NET and points to the .NET documentation for template syntax and supported features.
+
+{{% /alert %}}
+
 This section provides the information about LINQ Reporting Engine API in Aspose.Words for Python via .NET, the information about template syntax is provided in the [Aspose.Words for .NET documentation](/words/net/linq-reporting-engine/).
 
 ------ 

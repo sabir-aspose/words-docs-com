@@ -14,6 +14,14 @@ aliases: [/python/working-with-footnote-and-endnote/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to insert footnotes and endnotes in a Word document using Aspose.Words for Python via .NET, and how to configure their numbering, layout columns, and positions.
+
+{{% /alert %}}
+
 Aspose.Words also provides some classes, methods and properties for working with footnotes and endnotes.
 
 ## Insert Endnote and Set Numbering Options

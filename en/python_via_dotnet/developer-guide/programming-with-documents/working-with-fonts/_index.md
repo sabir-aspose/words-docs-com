@@ -14,6 +14,12 @@ aliases: [/python/working-with-fonts/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to use Aspose.Words for Python via .NET to format fonts, retrieve line spacing, and apply emphasis marks, providing code examples for each operation.
+{{% /alert %}}
+
 A font is a set of characters with a certain size, color, and design. Aspose.Words allows you to work with fonts using the [fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/) module and the [Font](https://reference.aspose.com/words/python-net/aspose.words/font/) class.
 
 ## Font Formatting

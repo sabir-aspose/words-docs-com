@@ -14,6 +14,14 @@ aliases: [/python/work-with-document-properties/]
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page describes how to use Aspose.Words for Python via .NET to access, enumerate, add, remove, and update built‑in and custom document properties, link custom properties to content, work with document variables, and remove personal information from Word documents.
+
+{{% /alert %}}
+
 Document properties allow storing some useful information about your document. These properties can be divided into two groups:
 
 * System or built-in that contain values such as document title, author name, document statistics, and others.

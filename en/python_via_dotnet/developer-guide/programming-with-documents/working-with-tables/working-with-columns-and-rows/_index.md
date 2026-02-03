@@ -14,6 +14,13 @@ aliases: [/python/working-with-columns-and-rows/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page shows how to manipulate table columns and rows using Aspose.Words for Python via .NET, including retrieving indexes, inserting or removing columns, defining header rows, and preventing rows or tables from breaking across pages.
+
+{{% /alert %}}
+
 For more control over how tables work, learn how to manipulate columns and rows.
 
 ## Finding the Table Element Index

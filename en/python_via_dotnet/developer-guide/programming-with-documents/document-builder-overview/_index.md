@@ -14,6 +14,14 @@ aliases: [/python/document-builder-overview/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page introduces the Aspose.Words DocumentBuilder class for Python via .NET, describing how it enables creation and modification of documents, navigation using a virtual cursor, and insertion of various elements such as text, tables, images, and fields with formatting. It also includes code examples that demonstrate building documents, applying formatting, and moving the cursor to specific locations.
+
+{{% /alert %}}
+
 [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) is a powerful class that associates with [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) and enables you to build dynamic documents from scratch or add new elements to an existing one.
 
 [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) provides methods to insert text, checkboxes, ole objects, paragraphs, lists, tables, images, and other content elements. It allows you to specify fonts, paragraph or section formatting, and perform other operations.

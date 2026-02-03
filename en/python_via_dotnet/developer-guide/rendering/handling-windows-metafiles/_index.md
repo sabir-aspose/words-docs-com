@@ -14,6 +14,14 @@ aliases: [/python/handling-windows-metafiles/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page explains how Aspose.Words for Python via .NET processes Windows Metafile (WMF, EMF, EMF+) images, including rendering options, limited raster‑operation support, and fallback mechanisms for converting metafiles to raster or vector formats.
+
+{{% /alert %}}
+
 Windows Metafile format is an image file format that can contain both vector and raster graphics. This format is used to store graphics data in memory or on-disk files. A metafile stores a list of function calls in the Windows Graphics Device Interface (GDI) that must be executed to display the image on the screen. The system interprets and executes these commands in the display context.
 
 Formerly, Windows Metafile was the only vector image format supported by Microsoft Word. Microsoft Word now also supports SVG format, but the metafile format is still commonly used in Word documents. Also, Metafile could be an interchange format for some other applications, such as Microsoft Visio. Essentially, the main purpose of Metafile is to ensure the exchange of graphical information between Windows applications.

@@ -14,6 +14,14 @@ aliases: [/python/working-with-table-of-contents/]
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page explains how to insert, update, customize, and remove Table of Contents (TOC) fields in Word documents using Aspose.Words for Python via .NET, covering switches, TC fields, and style modifications.
+
+{{% /alert %}}
+
 Often you will work with documents containing a table of contents (TOC). Using Aspose.Words you can insert your own table of contents or completely rebuild existing table of contents in the document using just a few lines of code. This article outlines how to work with the table of contents field and demonstrates:
 
 - How to insert a brand new `TOC`

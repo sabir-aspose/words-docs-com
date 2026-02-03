@@ -17,6 +17,13 @@ aliases:
 timestamp: 2025-12-30-12-07-05
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to apply and remove read‑only protection on a document using Aspose.Words for Python via .NET, including code examples for setting a password, enabling the read‑only recommendation, and applying protection types.
+
+{{% /alert %}}
+
 Sometimes, you may have a document that needs a review, but you do not want reviewers to randomly modify your content. Aspose.Words allows you to make the permission of your document read-only so that the content can be copied or read, but not modified. This will prevent content from being removed or added to your document.
 
 {{% alert color="primary" %}}

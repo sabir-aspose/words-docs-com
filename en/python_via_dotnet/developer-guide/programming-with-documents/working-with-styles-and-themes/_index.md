@@ -14,6 +14,14 @@ aliases: [/python/working-with-styles-and-themes/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to access, modify, and query document styles and themes using Aspose.Words for Python via .NET, including examples for retrieving content by style, copying styles between documents, and getting/setting theme properties.
+
+{{% /alert %}}
+
 The [StyleCollection](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/) class is used to manage built-in and apply user-defined settings to styles.
 
 ## Accessing Styles

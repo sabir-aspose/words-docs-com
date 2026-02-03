@@ -13,6 +13,12 @@ url: /python-net/position-a-table/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page shows how to use Aspose.Words for Python to retrieve and modify the alignment, position, and surrounding‑text distances of both inline and floating tables, with code examples for each operation.
+{{% /alert %}}
+
 There are floating tables and inline tables:
 
 * **Inline tables** are placed on the same layer as the text and are placed in a flow of text that only surrounds the table above and below. Inline tables will always appear between the paragraphs where you placed them.

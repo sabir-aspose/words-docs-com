@@ -14,6 +14,12 @@ aliases: [/python/restrict-document-editing/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page shows how to use Aspose.Words for Python via .NET to apply editing restrictions, add or remove document protection, and define unrestricted editable regions in a Word document.
+{{% /alert %}}
+
 Sometimes you may need to limit the ability to edit a document and only allow certain actions with it. This can be useful to prevent other people from editing sensitive and confidential information in your document.
 
 Aspose.Words allows you to restrict editing a document by setting a restriction type. In addition, Aspose.Words also enables you to specify write protection settings for a document.

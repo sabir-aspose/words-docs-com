@@ -17,6 +17,14 @@ url: /python-net/mail-merge-and-reporting/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page explains how to use Aspose.Words for Python via .NET to perform mail‑merge and reporting, covering templates, supported data‑source types, and providing example code for generating merged documents.
+
+{{% /alert %}}
+
 Mail Merge is a popular feature for quickly and easily creating documents such as letters, labels, and envelopes. Aspose.Words enables you to generate documents from templates with Mail Merge fields.
 
 A Mail Merge field is a field that you can insert into a mail merge template to include specific values from a data source record in output documents. For example, you can insert a merge field in an email template so that the greeting will have the recipient’s first name rather than a generic “Hello!”. Aspose.Words places data from an external source, such as a database or file, into these fields and formats them. The resulting document is saved in the specified folder.

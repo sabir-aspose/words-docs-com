@@ -14,6 +14,13 @@ aliases: [/python/working-with-markdown-features/]
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to create, read, and customize Markdown documents using Aspose.Words for Python via .NET, including supported Markdown features, code examples for each feature, and options for saving Markdown output such as table alignment.
+
+{{% /alert %}}
+
 This topic discusses how to implement Markdown features using Aspose.Words. Markdown is a simple way to format plain text that can easily be converted to HTML. Aspose.Words supports the following Markdown features:
 
 - Headings

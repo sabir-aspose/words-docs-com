@@ -16,6 +16,12 @@ aliases:
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to create, modify, and query various shape types in Word documents using Aspose.Words for Python via .NET, providing code examples for inserting shapes, setting properties such as aspect ratio and layout, handling special shapes, and working with OLE objects and Office Math conversion.
+{{% /alert %}}
+
 This topic discusses how to work programmatically with shapes using Aspose.Words.
 
 The shapes in Aspose.Words represent an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture. A Word document can contain one or more different shapes. Shapes of the document are represented by the [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) class.
@@ -108,7 +114,7 @@ Maximum size of the icon must be 32x32 for the correct display.
 
 ## Import Shapes with Math XML as Shapes into DOM
 
-You can use [convert_shape_to_office_math](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/convert_shape_to_office_math/) property to convert the shapes with EquationXML to Office Math objects. The default value of this property corresponds to MS Word behavior i.e. shapes with equation XML are not converted to Office math objects.
+You can use [convert_shape_to_office_math](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/convert_shape_to_office_math/) property to convert the shapes with EquationXML to Office Math objects. The default value of this property corresponds to MS Word behavior i.e. shapes with equation XML are not converted to Office Math objects.
 
 The following code example shows how to convert shapes to Office Math objects:
 

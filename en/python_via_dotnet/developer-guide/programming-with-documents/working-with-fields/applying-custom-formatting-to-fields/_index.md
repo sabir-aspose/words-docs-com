@@ -13,6 +13,14 @@ url: /python-net/applying-custom-formatting-to-fields/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to apply custom formatting to fields in Aspose.Words for Python via .NET, including an example of evaluating an IF field condition using the `EvaluateCondition` method.
+
+{{% /alert %}}
+
 Sometimes users need to apply custom formatting to fields. In this article, we will look at a couple of examples of how this can be done.
 
 To learn more options, see the full list of properties for each field type in the corresponding class in the [Fields module](https://reference.aspose.com/words/python-net/aspose.words.fields/).

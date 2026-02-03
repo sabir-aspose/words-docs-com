@@ -14,6 +14,14 @@ aliases: [/python/how-to-add-group-shape-into-a-word-document/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page shows how to create a GroupShape—by adding individual Shape objects—to a Word document using Aspose.Words for Python via .NET.
+
+{{% /alert %}}
+
 Sometimes you need to add a group shape into a Word document. Such a group shape consists of multiple shapes.
 
 In Microsoft Word, you can quickly add a group shape using the Group command/button. An individual shape in a group can be moved separately.

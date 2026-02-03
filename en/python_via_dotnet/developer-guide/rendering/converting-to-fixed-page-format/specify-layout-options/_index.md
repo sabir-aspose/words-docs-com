@@ -14,6 +14,13 @@ aliases: [/python/specify-layout-options/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to use the `LayoutOptions` class in Aspose.Words for Python via .NET to control document layout features such as hidden text, paragraph marks, comment rendering, and revision display. It provides property descriptions, UI equivalents, and code examples.
+
+{{% /alert %}}
+
 Aspose.Words enables you to create output documents with various layouts, depending on the parameters specified in properties of the [LayoutOptions](https://reference.aspose.com/words/python-net/aspose.words.layout/layoutoptions/) class. Some of these properties resemble some of the Microsoft Word user interface menu options – they will be described in this article.
 
 For a complete list of parameters such as [continuous_section_page_numbering_restart](https://reference.aspose.com/words/python-net/aspose.words.layout/layoutoptions/continuous_section_page_numbering_restart/) to calculate page numbers in a continuous section that restarts page numbering, or [ignore_printer_metrics](https://reference.aspose.com/words/python-net/aspose.words.layout/layoutoptions/ignore_printer_metrics/) to ignore the "Use printer metrics to lay out document" compatibility option, see the [LayoutOptions](https://reference.aspose.com/words/python-net/aspose.words.layout/layoutoptions/) class page.

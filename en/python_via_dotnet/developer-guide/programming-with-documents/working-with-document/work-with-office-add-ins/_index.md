@@ -16,6 +16,14 @@ aliases:
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page explains how to use Aspose.Words for Python via .NET to create and manage Office Add‑ins, specifically task‑pane web extensions, with examples of adding, listing, and customizing task panes via the WebExtension and TaskPane classes.
+
+{{% /alert %}}
+
 Sometimes you might want to give access to interface controls that run code to modify documents. Aspose.Words API provides the [webextensions](https://reference.aspose.com/words/python-net/aspose.words.webextensions/) module, which grants various classes to customize elements and attributes extending the XML vocabulary for representing Office Add-ins.
 
 WebExtensions namespace can be conditionally divided into:

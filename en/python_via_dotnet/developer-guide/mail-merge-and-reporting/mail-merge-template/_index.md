@@ -15,6 +15,13 @@ aliases: [/python/mail-merge-template/]
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page shows how to programmatically create a Mail Merge template in Python using Aspose.Words for Python via .NET, illustrating the insertion of text input fields and merge fields with the `DocumentBuilder` class. It also provides example code and notes on customizing template properties.
+
+{{% /alert %}}
+
 It is common to use a merge template as the base document for a Mail Merge operation either if it is a simple Mail Merge or Mail Merge with regions. Mail merge with regions is more powerful and popular than the simple mail merge. Simple Mail Merge is considered as a particular case of Mail Merge with regions where the region is the entire document. All is explained in the next article “Types of Mail Merge Operation” in more detail.
 
 The template ensures that the text in the output merged document is formatted correctly, and the Mail Merge operation guarantees that the text from the data source is correctly entered into the merge template.
