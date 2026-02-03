@@ -13,8 +13,14 @@ url: /python-net/join-tables/
 aliases: 
 - /python/joining-and-splitting-tables/
 - /python-net/joining-and-splitting-tables/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page shows how to join two tables in a Word document using Aspose.Words for Python via .NET by moving rows from the second table to the first and then removing the second table's container.
+{{% /alert %}}
 
 A table, represented in the Aspose.Words Document Object Model, is made up of independent rows and cells, making it easy to join tables.
 

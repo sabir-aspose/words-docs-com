@@ -11,8 +11,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/specify-rendering-options-when-converting-to-pdf/
 aliases: [/python/specify-rendering-options-when-converting-to-pdf/]
-timestamp: 2024-10-21-11-17-44
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to use the **PdfSaveOptions** class in Aspose.Words for Python via .NET to customize PDF conversion, covering options such as fillable forms, document structure export, bookmark and heading outlines, image downsampling, and font‑embedding settings, with accompanying code examples.
+
+{{% /alert %}}
 
 The PDF format is a fixed-page format that is very popular among users and widely supported by various applications, because a PDF document looks the same on any device. For that reason, converting to PDF is an important feature of Aspose.Words.
 

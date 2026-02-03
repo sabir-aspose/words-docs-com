@@ -11,15 +11,23 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/working-with-content-control-sdt/
 aliases: [/python/working-with-content-control-sdt/]
-timestamp: 2024-01-31-14-23-37
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to create, modify, bind, clear, style, and work with repeating section content controls (Structured Document Tags) using Aspose.Words for Python via .NET, providing code examples for each operation.
+
+{{% /alert %}}
 
 In Microsoft Word, you can create a form by starting with a template and adding content controls, including checkboxes, text boxes, date pickers, and drop-down lists. In Aspose.Words, a Structured Document Tag or content control from any document loaded into Aspose.Words is imported as a [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) node. Structured document tags (SDT or content control) allow embedding customer-defined semantics as well as its behaviour and appearance into a document. [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) can occur in a document in the following places:
 
-- Block-level - Among paragraphs and tables, as a child of a [Body](https://reference.aspose.com/words/python-net/aspose.words/body/), [HeaderFooter](https://reference.aspose.com/words/python-net/aspose.words/headerfooter/), [Comment](https://reference.aspose.com/words/python-net/aspose.words/comment/), [Footnote](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/) or a [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) node
-- Row-level - Among rows in a table, as a child of a [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) node
-- Cell-level - Among cells in a table row, as a child of a [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) node
-- Inline-level - Among inline content inside, as a child of a [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/)
+- Block-level - Among paragraphs and tables, as a child of a [Body](https://reference.aspose.com/words/python-net/aspose.words.body/), [HeaderFooter](https://reference.aspose.com/words/python-net/aspose.words.headerfooter/), [Comment](https://reference.aspose.com/words/python-net/aspose.words.comment/), [Footnote](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/) or a [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing.shape/) node
+- Row-level - Among rows in a table, as a child of a [Table](https://reference.aspose.com/words/python-net/aspose.words.tables.table/) node
+- Cell-level - Among cells in a table row, as a child of a [Row](https://reference.aspose.com/words/python-net/aspose.words.tables.row/) node
+- Inline-level - Among inline content inside, as a child of a [Paragraph](https://reference.aspose.com/words/python-net/aspose.words.paragraph/)
 - Nested inside another [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/)
 
 ## Inserting Content Controls into a Document
@@ -103,7 +111,7 @@ The following code example shows how to change the color of content control:
 
 ## How to Set Style to Format Text Typed into the Content Control
 
-If you want to set the style of content control, you can use [StructuredDocumentTag.style](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/style/) or [StructuredDocumentTag.style_name](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/style_name/) properties. When you type the text into content control in the output document, the typed text will have the style "Quote".
+If you want to set the style of content control, you can use [StructuredDocumentTag.style](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/style/) or [StructuredDocumentTag.style_name](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/style_name/) properties. When you type the text into content control in the output document, the typed text will have the style "Quote".
 
 {{% alert color="primary" %}}
 

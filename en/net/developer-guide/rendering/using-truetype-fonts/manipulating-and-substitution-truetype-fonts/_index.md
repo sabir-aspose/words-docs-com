@@ -15,7 +15,7 @@ timestamp: 2025-09-11-11-12-25
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page explains how Aspose.Words handles TrueType fonts, including font substitution, embedding, and fallback rules.
 

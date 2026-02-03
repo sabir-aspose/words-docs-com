@@ -11,8 +11,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/detect-file-format-and-check-format-compatibility/
 aliases: [/python/detect-file-format-and-check-format-compatibility/]
-timestamp: 2024-10-21-11-17-44
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to use Aspose.Words for Python via .NET to detect a document’s file format without loading it and to verify format compatibility, including code samples for processing multiple files and organizing them by supported, encrypted, or unsupported formats.
+
+{{% /alert %}}
 
 Sometimes it is necessary to determine the format of a document before opening because the file extension does not guarantee that the contents of the file are appropriate. For example, it is known that Crystal Reports often outputs documents in RTF format, but gives them the .doc extension.
 

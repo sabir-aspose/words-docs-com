@@ -16,7 +16,7 @@ timestamp: 2024-01-31-14-23-37
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page describes the advantages of using Aspose.Words compared to NPOI for Word document processing.
 

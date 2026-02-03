@@ -16,7 +16,7 @@ timestamp: 2024-10-21-11-17-44
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page describes how to find and replace text in Word documents with various matching options.
 

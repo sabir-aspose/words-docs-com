@@ -11,8 +11,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/applying-formatting/
 aliases: [/python/applying-formatting/]
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This article demonstrates how to use Aspose.Words for Python via .NET to apply formatting to tables, rows, and cells—including borders, shading, widths, heights, autofit, and spacing—through code examples and API references.
+
+{{% /alert %}}
 
 Each element of a table can be applied with different formatting. For example, table formatting will be applied to the entire table, row formatting to only particular rows, cell formatting to only certain cells.
 

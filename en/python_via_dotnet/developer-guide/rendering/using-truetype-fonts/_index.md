@@ -11,8 +11,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/using-truetype-fonts/
 aliases: [/python/using-truetype-fonts/]
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page explains how to use TrueType fonts with Aspose.Words for Python via .NET, covering loading fonts from custom folders, handling missing fonts through substitution, embedding fonts in output files, setting a default font, and listing available fonts at runtime.
+{{% /alert %}}
 
 When working with documents, you often have to use different fonts, styles, and sizes. Documents can contain any number of fonts, which are not necessarily limited to the fonts that are installed in the operating system. The fonts can be completely different, such as fonts taken from other operating systems, purchased, or created by users themselves.
 

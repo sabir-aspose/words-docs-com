@@ -11,8 +11,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/clean-up-a-document/
 aliases: [/python/clean-up-a-document/]
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page shows how to use Aspose.Words for Python via .NET to remove unused or duplicate styles and lists from a Word document by configuring `CleanupOptions` and invoking `Document.cleanup`. Code examples illustrate removing unused styles, unused lists, and duplicate styles.
+
+{{% /alert %}}
 
 Sometimes you may need to remove unused or duplicate information to reduce the size of the output document and processing time.
 

@@ -11,8 +11,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/rendering/
 aliases: [/python/rendering/]
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page explains Aspose.Words' rendering process for Python via .NET, describing how flow‑layout documents are paginated and converted to various fixed‑layout formats such as PDF, XPS, HTML, images, and SVG, and outlines the capabilities of its page layout engine.  
+{{% /alert %}}
 
 We use the term "rendering" in Aspose.Words to describe the process of converting a document into a file format or a medium that is paginated or has the concept of pages. We are talking about rendering of a document into pages. The following diagram shows what rendering is in Aspose.Words.
 

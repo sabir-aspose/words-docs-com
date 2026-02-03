@@ -10,8 +10,14 @@ ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/working-with-pdfa-or-pdfua/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page explains the PDF/A and PDF/UA compliance requirements when converting Word documents to PDF with Aspose.Words for Python, and provides guidance on handling document structure, artifacts, language, alternate text, replacement text, and font issues to achieve compliant output.
+{{% /alert %}}
 
 PDF/A and PDF/UA format imposes several requirements related to the document content that cannot be fulfilled during automatic conversion from a document in Word format to PDF. These requirements should be verified and corrected either in a Word document before conversion or in a PDF document after conversion in order to produce a fully PDF/A and PDF/UA compliant document.
 

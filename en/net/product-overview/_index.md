@@ -15,7 +15,7 @@ timestamp: 2024-01-31-14-23-37
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page explains the Aspose.Words for .NET product’s purpose, features, and technical capabilities at a high level.
 

@@ -10,8 +10,14 @@ ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/warnings-when-saving-to-pdfa-and-pdfua/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page describes the accessibility‑related warnings that Aspose.Words for Python generates when saving documents to PDF/A or PDF/UA, and provides a table of the specific warning messages and their applicability to each format.
+{{% /alert %}}
 
 PDF/A and PDF/UA formats impose a number of accessibility requirements related to document content that cannot be fulfilled during automatic conversion from Word to PDF. These requirements are described in the previous article *"Working with PDF/A or PDF/UA"*. Now warnings are issued for some of these problems.
 

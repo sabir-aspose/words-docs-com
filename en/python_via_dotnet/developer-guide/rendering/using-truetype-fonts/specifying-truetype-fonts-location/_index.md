@@ -11,8 +11,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/specifying-truetype-fonts-location/
 aliases: [/python/specifying-truetype-fonts-location/]
-timestamp: 2024-10-24-11-44-28
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page explains how Aspose.Words for Python via .NET locates TrueType fonts on different operating systems and demonstrates how to configure custom font sources (system, folder, stream, file, memory) using the FontSettings and FontSourceBase classes.
+{{% /alert %}}
 
 This topic describes the default behavior of Aspose.Words when it looks for TrueType fonts, including operating system specific differences, and demonstrates how to specify user font sources.
 

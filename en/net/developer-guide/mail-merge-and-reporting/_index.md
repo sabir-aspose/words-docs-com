@@ -18,7 +18,7 @@ timestamp: 2024-07-11-08-07-06
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page explains how Mail Merge and reporting features work in Aspose.Words and shows how to generate documents from data sources.
 

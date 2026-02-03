@@ -11,8 +11,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/working-with-tables/
 aliases: [/python/working-with-tables/]
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page introduces table concepts (cells, rows, columns) and demonstrates how to create, edit, and manipulate tables and their contents (text, images, fields, nested tables) using Aspose.Words for Python via .NET.
+{{% /alert %}}
 
 A **table** in a document is a great way to structure similar data. That is why tables are a common content formatting element and are supported by most formats in one form or another.
 

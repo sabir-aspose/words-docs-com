@@ -12,8 +12,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/mail-merge-template-from-mustache-syntax/
 aliases: [/python/mail-merge-template-from-mustache-syntax/]
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page explains how to create and work with Mustache syntax templates in Aspose.Words for Python via .NET, covering template creation, Mail Merge with regions, foreach tags, combining with IF fields, and enabling non‑merge fields.
+
+{{% /alert %}}
 
 Aspose.Words allows you to create templates with mustache syntax in addition to the familiar templates. A Mustache is an alternative variant of template syntax that consists of tag names enclosed by `{{ }}` and is backed by a model object that contains the data for the template.
 
@@ -76,3 +84,5 @@ You can notice the difference between the document before applying the [use_non_
 And after applying the [use_non_merge_fields](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/use_non_merge_fields/) property:
 
 <img src="mustache-if-field-2.png" alt="mustache-if-field-2.png" style="width:800px"/>
+
+```

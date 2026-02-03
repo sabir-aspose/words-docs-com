@@ -11,8 +11,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/aspose-words-document-object-model/
 aliases: [/python/aspose-words-document-object-model/]
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page provides an overview of the Aspose.Words Document Object Model (DOM) for Python via .NET, detailing its core classes, node hierarchy, and methods for navigating and manipulating a Word document’s in‑memory object tree.
+{{% /alert %}}
 
 The Aspose.Words Document Object Model (DOM) is an in-memory representation of a Word document. The Aspose.Words DOM allows you to programmatically read, manipulate, and modify the content and formatting of a Word document.
 

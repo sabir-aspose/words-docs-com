@@ -11,8 +11,15 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/working-with-form-fields/
 aliases: [/python/working-with-form-fields/]
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to insert, retrieve, and format form fields in a Word document using Aspose.Words for Python via .NET. It includes examples for inserting text input, check box, and combo box fields, accessing them via the FormFieldCollection, and applying font formatting.
+
+{{% /alert %}}
 
 A document that contains fill-in blanks (fields) is known as a form. For example, you can create a registration form in Microsoft Word that uses drop-down lists from which users can select entries. The `Form` field is a location where a particular type of data, such as a name or address, is stored. Form fields in Microsoft Word include text input, combobox and checkbox.
 
@@ -47,7 +54,7 @@ doc.save(docs_base.artifacts_dir + "WorkingWithFormFields.document_builder_inser
 
 ### Insert a Check Box
 
-Call [insert_check_box](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_check_box/) to insert a checkbox into the document.
+Call [insert_check_box](https://reference.aspose.com/words/python-net/aspose.words.documentbuilder/insert_check_box/) to insert a checkbox into the document.
 
 The following code example shows how to insert a checkbox form field into a document:
 
@@ -62,7 +69,7 @@ doc.save(docs_base.artifacts_dir + "WorkingWithFormFields.document_builder_inser
 
 ### Insert a Combo Box
 
-Call [insert_combo_box](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_combo_box/) to insert a Combobox into the document.
+Call [insert_combo_box](https://reference.aspose.com/words/python-net/aspose.words.documentbuilder/insert_combo_box/) to insert a Combobox into the document.
 
 The following code example shows how to insert a Combobox form field into a document:
 

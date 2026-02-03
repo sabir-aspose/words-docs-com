@@ -13,8 +13,14 @@ url: /python-net/working-with-ole-objects/
 aliases:
 - /python/working-with-ole-objects-and-online-video/
 - /python-net/working-with-ole-objects-and-online-video/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to insert OLE objects—including setting package properties, accessing raw data, and inserting as icons—and how to embed online videos (via URL or HTML embed code) into Word documents using Aspose.Words for Python via .NET.  
+{{% /alert %}}
 
 OLE (Object Linking and Embedding) is a technology by which users can work with documents containing "objects" created or edited by third-party applications. That is, OLE allows an editing application to export these "objects" to another editing application and then import them with additional content.
 

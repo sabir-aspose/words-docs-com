@@ -15,7 +15,7 @@ timestamp: 2024-07-10-14-38-57
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page explains how to enable OpenType font features such as ligatures and stylistic sets.
 

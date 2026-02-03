@@ -15,7 +15,7 @@ timestamp: 2026-01-20-11-12-25
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page explains what’s new in recent Aspose.Words for .NET releases.
 

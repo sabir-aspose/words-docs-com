@@ -15,7 +15,7 @@ timestamp: 2024-09-25-11-08-55
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page explains the core capabilities of Aspose.Words for .NET for creating, manipulating, converting, and rendering Word documents programmatically.
 

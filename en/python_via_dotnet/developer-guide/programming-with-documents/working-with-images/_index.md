@@ -11,8 +11,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/working-with-images/
 aliases: [/python/working-with-images/]
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to insert, extract, modify, and save images in Word documents using Aspose.Words for Python via .NET, covering inline and floating insertion, barcode insertion, aspect‑ratio control, cropping, bounds retrieval, and format conversion.
+{{% /alert %}}
 
 Aspose.Words allows users to work with images in a very flexible way. In this article, you can explore only some of the possibilities of working with images.
 

@@ -15,7 +15,7 @@ timestamp: 2024-05-02-11-51-44
 
 {{% alert color="grey" %}}
 
-*What is this page about?*
+*Purpose Summary. What is this page about?*
 
 This page explains how to resize images inside a Word document using Aspose.Words.
 

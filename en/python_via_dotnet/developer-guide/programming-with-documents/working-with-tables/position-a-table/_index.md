@@ -10,8 +10,14 @@ ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/position-a-table/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page shows how to use Aspose.Words for Python to retrieve and modify the alignment, position, and surrounding‑text distances of both inline and floating tables, with code examples for each operation.
+{{% /alert %}}
 
 There are floating tables and inline tables:
 

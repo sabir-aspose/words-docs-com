@@ -11,8 +11,16 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/how-to-extract-selected-content-between-nodes-in-a-document/
 aliases: [/python/how-to-extract-selected-content-between-nodes-in-a-document/]
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to extract content between various document nodes—such as paragraphs, tables, runs, fields, bookmarks, and comments—using Aspose.Words for Python, providing the reusable `extract_content` method and multiple code examples.
+
+{{% /alert %}}
 
 When working with documents, it is important to be able to easily extract content from a specific range within a document. However, the content may consist of complex elements such as paragraphs, tables, images, etc.
 
@@ -61,14 +69,14 @@ To extract the content from your document you need to call the **extract_content
 
 However if the marker nodes are inline (a child of a paragraph) then the situation becomes more complex, as it is necessary to split the paragraph at the inline node, be it a run, bookmark fields etc. Content in the cloned parent nodes not present between the markers is removed. This process is used to ensure that the inline nodes will still retain the formatting of the parent paragraph. The method will also run checks on the nodes passed as parameters and throws an exception if either node is invalid. The parameters to be passed to this method are:
 
-1. **startNode** and **endNode**. The first two parameters are the nodes which define where the extraction of the content is to begin and to end at respectively. These nodes can be both block level ([Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/), [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) or inline level (e.g [Run](https://reference.aspose.com/words/python-net/aspose.words/run/), [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/), [BookmarkStart](https://reference.aspose.com/words/python-net/aspose.words/bookmarkstart/) etc.):
+1. **startNode** and **endNode**. The first two parameters are the nodes which define where the extraction of the content is to begin and to end at respectively. These nodes can be both block level ([Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/), [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) or inline level (e.g [Run](https://reference.aspose.com/words/python-net/aspose.words/run/), [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/), [BookmarkStart](https://reference.aspose.com/words/python-net/aspose.words.bookmarkstart/) etc.):
    1. To pass a field you should pass the corresponding [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/) object.
-   1. To pass bookmarks, the [BookmarkStart](https://reference.aspose.com/words/python-net/aspose.words/bookmarkstart/) and [BookmarkEnd](https://reference.aspose.com/words/python-net/aspose.words/bookmarkend/) nodes should be passed.
-   1. To pass comments, the [CommentRangeStart](https://reference.aspose.com/words/python-net/aspose.words/commentrangestart/) and [CommentRangeEnd](https://reference.aspose.com/words/python-net/aspose.words/commentrangeend/) nodes should be used.
+   1. To pass bookmarks, the [BookmarkStart](https://reference.aspose.com/words/python-net/aspose.words.bookmarkstart/) and [BookmarkEnd](https://reference.aspose.com/words/python-net/aspose.words.bookmarkend/) nodes should be passed.
+   1. To pass comments, the [CommentRangeStart](https://reference.aspose.com/words/python-net/aspose.words.commentrangestart/) and [CommentRangeEnd](https://reference.aspose.com/words/python-net/aspose.words.commentrangeend/) nodes should be used.
 1. **isInclusive**. Defines if the markers are included in the extraction or not. If this option is set to false and the same node or consecutive nodes are passed, then an empty list will be returned:
    1. If a [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/) node is passed then this option defines if the whole field is to be included or excluded.
-   1. If a [BookmarkStart](https://reference.aspose.com/words/python-net/aspose.words/bookmarkstart/) or [BookmarkEnd](https://reference.aspose.com/words/python-net/aspose.words/bookmarkend/) node is passed, this option defines if the bookmark is included or just the content between the bookmark range.
-   1. If a [CommentRangeStart](https://reference.aspose.com/words/python-net/aspose.words/commentrangestart/) or [CommentRangeEnd](https://reference.aspose.com/words/python-net/aspose.words/commentrangeend/) node is passed, this option defines if the comment itself is to be included or just the content in the comment range.
+   1. If a [BookmarkStart](https://reference.aspose.com/words/python-net/aspose.words.bookmarkstart/) or [BookmarkEnd](https://reference.aspose.com/words/python-net/aspose.words.bookmarkend/) node is passed, this option defines if the bookmark is included or just the content between the bookmark range.
+   1. If a [CommentRangeStart](https://reference.aspose.com/words/python-net/aspose.words.commentrangestart/) or [CommentRangeEnd](https://reference.aspose.com/words/python-net/aspose.words.commentrangeend/) node is passed, this option defines if the comment itself is to be included or just the content in the comment range.
 
 The implementation of the **extract_content** method you can find [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/DocsExamples/DocsExamples/programming_with_documents/contents_management/extract_content_helper.py). This method will be referred to in the scenarios in this article.
 
@@ -144,7 +152,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ## Extract Content using a Field
 
-To use a field as marker, the [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/) node should be passed. The last parameter to the **extract_content** method will define if the entire field is to be included or not. Let’s extract the content between the “FullName” merge field and a paragraph in the document. We use the [DocumentBuilder.move_to_merge_field](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/move_to_merge_field/) method of [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) class. This will return the [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/) node from the name of merge field passed to it.
+To use a field as marker, the [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/) node should be passed. The last parameter to the **extract_content** method will define if the entire field is to be included or not. Let’s extract the content between the “FullName” merge field and a paragraph in the document. We use the [DocumentBuilder.move_to_merge_field](https://reference.aspose.com/words/python-net/aspose.words.documentbuilder/move_to_merge_field/) method of [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words.documentbuilder/) class. This will return the [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/) node from the name of merge field passed to it.
 
 In our case let’s set the last parameter passed to the **extract_content** method to `False` to exclude the field from the extraction. We will render the extracted content to PDF.
 
@@ -160,7 +168,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ## Extract Content from a Bookmark
 
-In a document the content that is defined within a bookmark is encapsulated by the [BookmarkStart](https://reference.aspose.com/words/python-net/aspose.words/bookmarkstart/) and [BookmarkEnd](https://reference.aspose.com/words/python-net/aspose.words/bookmarkend/) nodes. Content found between these two nodes make up the bookmark. You can pass either of these nodes as any marker, even ones from different bookmarks, as long as the starting marker appears before the ending marker in the document. We will extract this content into a new document using the code below. The **isInclusive** parameter option shows how to retain or discard the bookmark.
+In a document the content that is defined within a bookmark is encapsulated by the [BookmarkStart](https://reference.aspose.com/words/python-net/aspose.words.bookmarkstart/) and [BookmarkEnd](https://reference.aspose.com/words/python-net/aspose.words.bookmarkend/) nodes. Content found between these two nodes make up the bookmark. You can pass either of these nodes as any marker, even ones from different bookmarks, as long as the starting marker appears before the ending marker in the document. We will extract this content into a new document using the code below. The **isInclusive** parameter option shows how to retain or discard the bookmark.
 
 The following code example shows how to extract the content referenced a bookmark using the **extract_content** method:
 
@@ -174,7 +182,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ## Extract Content from a Comment
 
-A comment is made up of the [CommentRangeStart](https://reference.aspose.com/words/python-net/aspose.words/commentrangestart/), [CommentRangeEnd](https://reference.aspose.com/words/python-net/aspose.words/commentrangeend/) and [Comment](https://reference.aspose.com/words/python-net/aspose.words/comment/) nodes. All of these nodes are inline. The first two nodes encapsulate the content in the document which is referenced by the comment, as seen in the screenshot below. The [Comment](https://reference.aspose.com/words/python-net/aspose.words/comment/) node itself is an [InlineStory](https://reference.aspose.com/words/python-net/aspose.words/inlinestory/) that can contain paragraphs and runs. It represents the message of the comment as seen as a comment bubble in the review pane. As this node is inline and a descendant of a body you can also extract the content from inside this message as well.
+A comment is made up of the [CommentRangeStart](https://reference.aspose.com/words/python-net/aspose.words.commentrangestart/), [CommentRangeEnd](https://reference.aspose.com/words/python-net/aspose.words.commentrangeend/) and [Comment](https://reference.aspose.com/words/python-net/aspose.words.comment/) nodes. All of these nodes are inline. The first two nodes encapsulate the content in the document which is referenced by the comment, as seen in the screenshot below. The [Comment](https://reference.aspose.com/words/python-net/aspose.words.comment/) node itself is an [InlineStory](https://reference.aspose.com/words/python-net/aspose.words.inlinestory/) that can contain paragraphs and runs. It represents the message of the comment as seen as a comment bubble in the review pane. As this node is inline and a descendant of a body you can also extract the content from inside this message as well.
 
 The comment encapsulates the heading, first paragraph and the table in the second section. Let’s extract this comment into a new document. The **isInclusive** option dictates if the comment itself is kept or discarded.
 

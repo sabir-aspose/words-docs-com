@@ -11,8 +11,14 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/inserting-fields/
 aliases: [/python/inserting-fields/]
-timestamp: 2024-09-25-11-08-55
+timestamp: 2026-02-03-11-08-55
 ---
+
+{{% alert color="grey" %}}
+*Purpose Summary. What is this page about?*
+
+This page demonstrates how to insert various types of fields into a Word document using Aspose.Words for Python via .NET, covering methods with DocumentBuilder, FieldBuilder, and the Document Object Model (DOM), each illustrated with code examples.
+{{% /alert %}}
 
 There are several different ways to insert fields into a document:
 
