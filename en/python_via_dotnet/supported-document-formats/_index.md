@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/supported-document-formats/
 aliases: [/python/supported-document-formats/]
-timestamp: 2026-01-23-11-12-25
+timestamp: 2026-02-03-11-08-55
 ---
 
 {{% alert color="grey" %}}

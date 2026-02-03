@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/specifying-truetype-fonts-location/
 aliases: [/python/specifying-truetype-fonts-location/]
-timestamp: 2024-10-24-11-44-28
+timestamp: 2026-02-03-11-08-55
 ---
 
 {{% alert color="grey" %}}

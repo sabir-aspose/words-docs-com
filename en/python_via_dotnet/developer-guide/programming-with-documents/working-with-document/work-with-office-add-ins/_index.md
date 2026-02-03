@@ -13,7 +13,7 @@ url: /python-net/work-with-office-add-ins/
 aliases:
  - /python/work-with-web-extensions/
  - /python/work-with-office-add-ins/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
 
 {{% alert color="grey" %}}

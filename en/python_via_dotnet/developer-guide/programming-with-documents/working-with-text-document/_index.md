@@ -13,7 +13,7 @@ url: /python-net/working-with-text-document/
 aliases:
 - /python/work-with-text-document/
 - /python-net/work-with-text-document/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
 
 {{% alert color="grey" %}}

@@ -13,7 +13,7 @@ url: /python-net/supported-features-on-document-save/
 aliases: 
   - /python/document-saving-overview/
   - /python/supported-features-on-document-save/
-timestamp: 2024-01-31-14-23-37
+timestamp: 2026-02-03-11-08-55
 ---
 
 {{% alert color="grey" %}}

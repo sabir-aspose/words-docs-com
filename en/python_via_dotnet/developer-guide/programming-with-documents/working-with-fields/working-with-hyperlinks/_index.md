@@ -13,7 +13,7 @@ url: /python-net/working-with-hyperlinks/
 aliases:
 - /python/working-with-hyperlinks-and-html/
 - /python-net/working-with-hyperlinks-and-html/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
 
 {{% alert color="grey" %}}

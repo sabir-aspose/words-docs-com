@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/manipulating-and-substitution-truetype-fonts/
 aliases: [/python/manipulating-and-substitution-truetype-fonts/]
-timestamp: 2024-10-21-11-17-44
+timestamp: 2026-02-03-11-08-55
 ---
 
 {{% alert color="grey" %}}

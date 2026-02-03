@@ -11,7 +11,7 @@ ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/protect-or-encrypt-a-document/
 aliases: [/python/protect-or-encrypt-a-document/]
-timestamp: 2025-12-30-12-07-05
+timestamp: 2026-02-03-11-08-55
 ---
 
 {{% alert color="grey" %}}

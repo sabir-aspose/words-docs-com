@@ -13,7 +13,7 @@ url: /python-net/update-fields/
 aliases:
 - /python/updating-and-removing-a-field/
 - /python-net/updating-and-removing-a-field/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
 
 {{% alert color="grey" %}}

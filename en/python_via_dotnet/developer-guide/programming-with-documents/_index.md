@@ -13,7 +13,7 @@ url: /python-net/programming-with-documents/
 aliases:
 - /python-net-net/programming-with-documents/
 - /python-net/contents-management/
-timestamp: 2024-09-25-11-08-55
+timestamp: 2026-02-03-11-08-55
 ---
 
 {{% alert color="grey" %}}

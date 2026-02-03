@@ -14,7 +14,7 @@ aliases:
  - /python/document-protection/
  - /python/open-a-document-read-only/
  - /python-net/open-a-document-read-only/
-timestamp: 2025-12-30-12-07-05
+timestamp: 2026-02-03-11-08-55
 ---
 
 {{% alert color="grey" %}}

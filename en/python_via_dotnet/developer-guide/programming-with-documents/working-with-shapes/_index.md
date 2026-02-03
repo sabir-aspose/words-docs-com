@@ -13,7 +13,7 @@ url: /python-net/working-with-shapes/
 aliases:
 - /python/working-with-shapes/
 - /python/working-with-graphic-elements/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
 
 {{% alert color="grey" %}}

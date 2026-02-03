@@ -13,7 +13,7 @@ url: /python-net/work-with-word-document-options-and-appearance/
 aliases:
  - /python/work-with-document-options-and-settings/
  - /python/work-with-word-document-options-and-appearance/
-timestamp: 2024-01-27-14-07-04
+timestamp: 2026-02-03-11-08-55
 ---
 
 {{% alert color="grey" %}}
