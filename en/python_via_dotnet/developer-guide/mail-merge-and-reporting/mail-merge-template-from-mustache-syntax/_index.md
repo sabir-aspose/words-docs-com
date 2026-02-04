@@ -84,5 +84,3 @@ You can notice the difference between the document before applying the [use_non_
 And after applying the [use_non_merge_fields](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/use_non_merge_fields/) property:
 
 <img src="mustache-if-field-2.png" alt="mustache-if-field-2.png" style="width:800px"/>
-
-```
