@@ -76,3 +76,28 @@ The following code example shows how to show/ hide bookmarks.
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-bookmarks-ShowHideBookmarks-ShowHideBookmarks_call.java" >}}
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-bookmarks-ShowHideBookmarks-ShowHideBookmarks.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I insert a new bookmark using Aspose.Words for Java?  
+   **A:** Create a `DocumentBuilder` for your document, call `builder.startBookmark("MyBookmark")` at the start position, add the desired content, and then call `builder.endBookmark("MyBookmark")`. The same name must be used for both calls.
+
+2. **Q:** How do I retrieve the text stored inside an existing bookmark?  
+   **A:** Obtain the `Bookmark` object from the document’s bookmark collection:  
+   ```java
+   Document doc = new Document("input.docx");
+   Bookmark bookmark = doc.getRange().getBookmarks().get("MyBookmark");
+   String text = bookmark.getText();
+   ```  
+   The `getText()` method returns the full text enclosed by the bookmark.
+
+3. **Q:** Is it possible to rename a bookmark after it has been created?  
+   **A:** Yes. After retrieving the `Bookmark` object, call `bookmark.setName("NewName")`. Ensure the new name is unique; if a duplicate exists, only the first bookmark with that name will be saved.
+
+4. **Q:** How can I move the cursor to a bookmark to insert rich content?  
+   **A:** Use `DocumentBuilder.moveToBookmark("MyBookmark")`. Once the builder’s cursor is positioned, you can insert paragraphs, tables, images, etc., just as with any other `DocumentBuilder` operation.
+
+5. **Q:** How can I conditionally show or hide the content of a bookmark?  
+   **A:** Wrap the bookmark inside an `IF` field that evaluates a merge field or custom document variable. When the condition is true, the bookmark’s content is displayed; otherwise, it is hidden. This technique is demonstrated in the “Show Hide Bookmark Content” example.

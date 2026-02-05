@@ -40,3 +40,22 @@ The footnote position can be at the bottom of each page or beneath the text on e
 The following code example shows how to set the position of footnote and endnote:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithFootnote-SetFootnoteAndEndNotePosition.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I insert a footnote or an endnote with DocumentBuilder?  
+   **A:** Use `DocumentBuilder.insertFootnote(FootnoteType type, String text)`. Pass `FootnoteType.FOOTNOTE` for a footnote or `FootnoteType.ENDNOTE` for an endnote, and provide the content string.
+
+2. **Q:** Can I change the numbering style (e.g., Roman, Arabic) of footnotes or endnotes?  
+   **A:** Yes. Access the options via `Document.getFootnoteOptions()` or `Document.getEndnoteOptions()` and call `setNumberStyle(FootnoteNumberStyle style)` / `setNumberStyle(EndnoteNumberStyle style)` to set the desired numbering format.
+
+3. **Q:** How do I control how many columns footnotes are displayed in?  
+   **A:** Set the `Columns` property on the document’s `FootnoteOptions`: `document.getFootnoteOptions().setColumns(int columns)`. A value of `0` lets Word decide based on page layout.
+
+4. **Q:** What properties determine where footnotes and endnotes appear in the document?  
+   **A:** Use `FootnoteOptions.setPosition(FootnotePosition position)` to choose between `BOTTOM_OF_PAGE` or `BENEATH_TEXT`. For endnotes, use `EndnoteOptions.setPosition(EndnotePosition position)` with values `END_OF_SECTION` or `END_OF_DOCUMENT`.
+
+5. **Q:** How can I retrieve existing footnotes or endnotes from a loaded document?  
+   **A:** The `Document` class provides `getFootnotes()` and `getEndnotes()` collections. Iterate over them, e.g., `for (Footnote footnote : document.getFootnotes()) { /* process */ }`. This lets you read, modify, or remove individual notes.

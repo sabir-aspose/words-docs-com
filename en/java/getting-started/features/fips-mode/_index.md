@@ -69,4 +69,21 @@ UnapprovedSecurityOperationException: You cannot use a key with size 1024 for RS
 
 For more details on the approved algorithms list, see [BouncyCastle User Guide](https://downloads.bouncycastle.org/fips-java/docs/BC-FJA-UserGuide-1.0.1.pdf), “Cipher Algorithms (Symmetric)”.
 
+------ 
 
+## FAQ
+
+1. **Q:** How do I enable FIPS mode in Aspose.Words for Java?  
+   **A:** Call the static method `SecuritySettings.startFipsMode();` before performing any document operations. This switches the library to FIPS‑compliant mode for the entire application lifetime.
+
+2. **Q:** How can I verify that Aspose.Words is currently running in FIPS mode?  
+   **A:** Use `SecuritySettings.isInFipsMode();` which returns `true` when FIPS mode is active and `false` otherwise.
+
+3. **Q:** Can I switch back to General mode after enabling FIPS mode?  
+   **A:** No. Once `startFipsMode()` is called, the mode cannot be changed back to General at runtime; you must restart the application without calling the method.
+
+4. **Q:** What happens if I try to use a non‑FIPS‑approved algorithm, such as Blowfish, while FIPS mode is on?  
+   **A:** Aspose.Words throws an `UnapprovedSecurityOperationException` indicating that the algorithm is not on the approved list. You must use a FIPS‑approved algorithm instead.
+
+5. **Q:** Does the .NET version of Aspose.Words support FIPS mode?  
+   **A:** No. Aspose.Words for .NET uses the standard Bouncy Castle library, which does not include the FIPS‑validated module, so FIPS mode is not available on that platform.

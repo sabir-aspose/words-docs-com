@@ -338,3 +338,22 @@ The pictures below show the border and shadow settings in Microsoft Word and the
 The following code example shows how to format a table and cell with different borders and shadings:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "format-table-and-cell-with-different-borders.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I set a fixed width for a specific table column?  
+   **A:** Use the `CellFormat.PreferredWidth` property on the target cell and set it with `PreferredWidth.fromPoints(double)` or `PreferredWidth.fromPercent(double)`. The column will adopt this width unless AutoFit overrides it.
+
+2. **Q:** What is the difference between `AllowAutoFit` and `PreferredWidth`?  
+   **A:** `AllowAutoFit` lets the table automatically resize columns based on content. `PreferredWidth` defines an explicit width that the table or cell tries to achieve. If AutoFit is enabled, explicit widths may be ignored.
+
+3. **Q:** How do I add spacing between cells (cell spacing) programmatically?  
+   **A:** Set `Table.setAllowCellSpacing(true)` and then assign a spacing value with `Table.setCellSpacing(double)` (the spacing is measured in points).
+
+4. **Q:** How can I apply different border styles to the first row only?  
+   **A:** Access the first `Row` object, retrieve its `RowFormat`, and use `RowFormat.getBorders().setLineStyle(LineStyle.SINGLE)` (or other styles) to customize the borders for that row alone.
+
+5. **Q:** How do I control row height and ensure it is respected?  
+   **A:** Use `Row.getRowFormat().setHeight(double)` to set the height in points and `Row.getRowFormat().setHeightRule(HeightRule.EXACT)` to enforce the exact height, preventing Word from adjusting it automatically.

@@ -224,3 +224,22 @@ You may need to extract document images to perform some tasks. Aspose.Words allo
 The following code example shows how to extract images from a document:
 
 {{< gist "aspose-words-gists" "433f5122fe18fdc24a406528b70b0020" "extract-images.js" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I specify whether the start and end markers should be included in the extracted content?  
+   **A:** Pass `true` for the `isInclusive` argument when calling `extractContent` to keep the marker nodes in the result. Pass `false` to exclude them, which will return only the nodes that lie strictly between the markers.
+
+2. **Q:** Can I extract content when the start and end nodes are of different types (e.g., a paragraph and a table)?  
+   **A:** Yes. The helper method works with any combination of block‑level or inline nodes. Provide the appropriate node objects (e.g., `Paragraph` and `Table`) and the method will split inline nodes as needed and clone the intervening block‑level nodes.
+
+3. **Q:** What happens if I pass the same node for both `startNode` and `endNode` with `isInclusive` set to `false`?  
+   **A:** The method returns an empty list because there is no content between identical markers when they are excluded. If `isInclusive` is `true`, the single node itself is returned as the extracted content.
+
+4. **Q:** How can I extract the content of a bookmark without keeping the bookmark tags themselves?  
+   **A:** Pass the `BookmarkStart` (or `BookmarkEnd`) node as one of the markers and set `isInclusive` to `false`. The extracted nodes will contain only the content inside the bookmark, not the bookmark start/end nodes.
+
+5. **Q:** Is it possible to extract only the plain text of the selected range without any formatting or control characters?  
+   **A:** After obtaining the extracted nodes, you can create a temporary `Document`, import the nodes, and then call `document.save` with `SaveFormat.Text` or use `node.getText()` on the root node to retrieve plain text without formatting or Word control characters.

@@ -34,3 +34,22 @@ translatedDoc.save("AI.AiTranslate.docx");
 Translating documents with Aspose.Words saves time and makes it easy to integrate translation functionality into your projects. For more information, check the [Java API documentation](https://reference.aspose.com/words/java/com.aspose.words/).
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** Do I need a Google API key to use the translation feature?  
+   **A:** Yes. The translation functionality relies on Google generative models, so you must provide a valid API key when creating the `AiModel` instance.
+
+2. **Q:** Which languages can I translate to?  
+   **A:** Any language listed in the `Language` enumeration (over 300 languages) is supported. Use `Language.<LANGUAGE>` to specify the target language.
+
+3. **Q:** Can I translate only a part of a document, such as a single section?  
+   **A:** The `translate` method works on the whole `Document` object. To translate a specific part, extract that part into a separate `Document`, translate it, and then replace the original content.
+
+4. **Q:** What happens if the source document contains multiple languages?  
+   **A:** The model attempts to detect and translate each language it recognizes. Segments in unsupported or unrecognizable languages remain unchanged in the output document.
+
+5. **Q:** Can I choose a different AI model for translation?  
+   **A:** Yes. When creating the model, use `AiModel.create(AiModelType.<MODEL>)` with any supported model type (e.g., `GEMINI_15_FLASH`, `GEMINI_1_0_PRO`). The chosen model determines translation quality and speed.

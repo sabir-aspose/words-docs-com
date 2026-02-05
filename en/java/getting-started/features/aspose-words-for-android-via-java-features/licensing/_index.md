@@ -149,3 +149,33 @@ If you use several Aspose products in an application, for example Aspose.Words a
   Even if you have a single license file for all components, for example 'Aspose.Total.Android.Java.lic', you still need to call the `License.SetLicense` method separately for each Aspose product.
 - Use fully qualified License class name.
   Each Aspose product has a `License` class in its namespace. For example, Aspose.Words has com.aspose.words.License and `Aspose.Cells` has com.aspose.cells.License class. Using the fullyqualified class name allows you to avoid any confusion about which license is applied to which product.
+
+------  
+
+## FAQ
+
+1. **Q:** How do I apply a license in Aspose.Words for Android via Java?  
+   **A:** Create an instance of `com.aspose.words.License` and call `setLicense` with either a file path, an `InputStream`, or a resource ID. The call must be made once per application domain and before any other Aspose.Words classes are used. Example (from a file):  
+
+   ```java
+   License license = new License();
+   FileInputStream stream = new FileInputStream("/mnt/sdcard/MyLicense.lic");
+   license.setLicense(stream);
+   ```
+
+2. **Q:** I get a “Cannot find license filename” exception – what is wrong?  
+   **A:** The most common cause is an extra hidden “.xml” extension added by the browser or Windows hiding extensions. Verify the actual file name on disk and rename it to remove any extra extension (e.g., `Aspose.Words.Android.Java.lic`). Then pass the exact name to `setLicense`.
+
+3. **Q:** Can I rename the license file to a custom name?  
+   **A:** Yes. The license file can have any name; just supply that exact name or path when calling `license.setLicense`. The API does not depend on a specific file name.
+
+4. **Q:** How do I use a metered license with Aspose.Words for Android via Java?  
+   **A:** Instantiate `com.aspose.words.Metered`, then call `setMeteredKey` with your public and private keys. This can be used in addition to the traditional XML license. Example:  
+
+   ```java
+   Metered metered = new Metered();
+   metered.setMeteredKey(publicKey, privateKey);
+   ```
+
+5. **Q:** Do I need to set a license for each Aspose product I use?  
+   **A:** Yes. Even if you have a single “total” license file, you must call `License.SetLicense` (or the equivalent for each product) for every Aspose component (e.g., Words, Cells) you use, preferably using the fully‑qualified class name to avoid ambiguity.

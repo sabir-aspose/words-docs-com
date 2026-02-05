@@ -77,3 +77,19 @@ The [OptimizeFor](https://reference.aspose.com/words/cpp/aspose.words.settings/c
 The following code example shows how to optimize document content for Microsoft Word 2016:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-SetCompatibilityOptions-OptimizeFor.cpp" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** How can I set the zoom level that Word uses when the document is opened?  
+   **A:** Use the `ViewOptions` object of the document and call `set_ZoomPercent(50);` (or any desired percentage). The setting is stored in the document and Word will apply it on open.
+
+2. **Q:** Which properties control the number of lines per page or characters per line?  
+   **A:** Access the document’s `PageSetup` via `Document::GetPageSetup()` and use `set_LinesPerPage(int)` and `set_CharactersPerLine(int)` to define the grid size.
+
+3. **Q:** How do I add or change editing languages for a document?  
+   **A:** Create a `LanguagePreferences` instance, call `AddEditingLanguage(LanguageCode::Japanese);` (or another language) and assign it to the document’s `LoadOptions`. You can also set the default editing language with `SetDefaultEditingLanguage(LanguageCode::Russian);`.
+
+4. **Q:** How can I prevent Word from opening a document in Compatibility mode?  
+   **A:** Call `CompatibilityOptions::OptimizeFor(MswVersion::Word2016);` on the document and, if needed, set `Compliance` to `Iso29500_2008_Transitional` or higher. This tells Word to treat the file as created for the specified version.

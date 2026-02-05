@@ -79,3 +79,41 @@ To control image saving options, the **ImageSaveOptions** class is used. For exa
 The following code example shows how to save a black and white image with one bit per pixel format:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-ImageColorFilters-SaveImageToOnebitPerPixel.cpp" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** How can I set a password when saving a document to PDF in C++?  
+   **A:** Use the `PdfSaveOptions` class and assign the desired password to its `Password` property. Then pass the `PdfSaveOptions` instance to `Document::Save`. Example:  
+
+   ```cpp
+   Aspose::Words::Saving::PdfSaveOptions saveOptions;
+   saveOptions.set_Password(u"Secret123");
+   doc->Save(u"Encrypted.pdf", saveOptions);
+   ```
+
+2. **Q:** Which property lets me receive progress notifications while a document is being saved?  
+   **A:** Assign an implementation of `IProgressCallback` to the `ProgressCallback` property of the appropriate `SaveOptions` class (e.g., `DocxSaveOptions`). The callback’s `Notify` method will be called periodically with the percentage completed.
+
+3. **Q:** How do I update the document’s creation time before saving?  
+   **A:** Set the `CreatedTime` property of the document’s built‑in properties, then enable `UpdateCreatedTimeProperty` on the `SaveOptions` you use.  
+
+   ```cpp
+   doc->get_BuiltInDocumentProperties()->set_CreatedTime(Aspose::System::DateTime::Now);
+   Aspose::Words::Saving::SaveOptions saveOptions;
+   saveOptions.set_UpdateCreatedTimeProperty(true);
+   doc->Save(u"output.docx", saveOptions);
+   ```
+
+4. **Q:** Can I force the last‑saved timestamp to be refreshed when saving?  
+   **A:** Yes. Set `UpdateLastSavedTimeProperty` to `true` on the `SaveOptions` object you pass to `Document::Save`. This makes Aspose.Words write the current UTC time to the `LastSavedTime` property.
+
+5. **Q:** How can I save an image generated from a document as a 1‑bit black‑and‑white PNG?  
+   **A:** Use `ImageSaveOptions`, set its `PixelFormat` to `PixelFormat::Format1bppIndexed`, and then save the document page as an image.  
+
+   ```cpp
+   Aspose::Words::Saving::ImageSaveOptions imgOptions;
+   imgOptions.set_PixelFormat(Aspose::Words::Saving::PixelFormat::Format1bppIndexed);
+   doc->Save(u"page.png", imgOptions);
+   ```

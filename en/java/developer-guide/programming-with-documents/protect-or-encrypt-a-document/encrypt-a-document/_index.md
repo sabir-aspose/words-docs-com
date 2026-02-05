@@ -69,3 +69,22 @@ After we have seen that an encrypted document cannot be opened without a passwor
 The following code example shows how to try opening an encrypted document with a password:
 
 {{< gist "aspose-words-gists" "821ff3a1df0c75b2af641299b393fb60" "load-save-encrypted-document.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I encrypt a Word document with a password using Aspose.Words for Java?  
+   **A:** Use the appropriate save‑options class for the target format (e.g., `DocSaveOptions` for DOC or `OoxmlSaveOptions` for DOCX) and set its `setPassword("yourPassword")` method before calling `Document.save`. The document will be saved encrypted and will require the password to open.
+
+2. **Q:** Which file formats support encryption when saving with Aspose.Words for Java?  
+   **A:** DOC, DOCX, DOCM, DOTX, DOTM, FlatOPC, ODT, OTT, and PDF support encryption. Formats such as RTF do **not** support encryption. Each format uses its own set of supported algorithms (e.g., RC4 for DOC, ECMA‑376 AES128 for DOCX, AES256 for ODT, RC4 for PDF).
+
+3. **Q:** How can I determine whether a document is encrypted before loading it?  
+   **A:** Create a `FileFormatInfo` instance by calling `FileFormatUtil.detectFileFormat(filePath)`. Then check the `isEncrypted()` property. If it returns `true`, the document is encrypted and you must supply the password when loading.
+
+4. **Q:** What exception is thrown if I try to open an encrypted document without providing a password?  
+   **A:** Aspose.Words throws a `IncorrectPasswordException`. Catch this exception to prompt the user for the correct password or to handle the error gracefully.
+
+5. **Q:** Can I choose a different encryption algorithm for a specific format?  
+   **A:** Yes. Each save‑options class exposes algorithm‑specific properties (e.g., `setEncryptionAlgorithm(EncryptionAlgorithm.AES256)` for ODT or `setEncryptionAlgorithm(EncryptionAlgorithm.RC4_128)` for PDF). Set the desired algorithm before saving the document.

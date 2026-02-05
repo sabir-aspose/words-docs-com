@@ -25,7 +25,6 @@ The following code example shows how to check if the `TextBox` can be linked to 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Linked-Textboxes-WorkingWithLinkedTextboxes-CreateALink.cpp" >}}
 
-
 ## Check TextBox Sequence
 
 There are several ways to display text in a shape. The [TextBox](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/get_textbox/) can be the Head, Middle, or Tail of a sequence.
@@ -41,3 +40,34 @@ Using the [BreakForwardLink](https://reference.aspose.com/words/cpp/aspose.words
 The following code example shows how to break a link for a **TextBox**:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Linked-Textboxes-WorkingWithLinkedTextboxes-BreakALink.cpp" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I verify that one TextBox can be linked to another TextBox?  
+   **A:** Use the `TextBox::IsValidLinkTarget` method. Pass the target `TextBox` instance to this method; it returns `true` if the link is allowed, otherwise `false`. This check prevents linking incompatible text boxes.
+
+2. **Q:** How do I determine whether a TextBox is the head, middle, or tail of a linked sequence?  
+   **A:** The `TextBox` class provides the properties `IsHead`, `IsMiddle`, and `IsTail`. Inspect these boolean properties to know the position of the current TextBox within the linked chain.
+
+3. **Q:** What is the correct way to break an existing forward link from a TextBox?  
+   **A:** Call the `BreakForwardLink()` method on the `TextBox` you want to detach. This removes the link to the next TextBox while leaving the rest of the chain intact.
+
+4. **Q:** How can I obtain the Shape that contains a given TextBox?  
+   **A:** Use the `Parent` property of the `TextBox`. It returns a pointer to the owning `Shape` object, allowing you to access shape‑level properties such as position, size, or fill.
+
+5. **Q:** How do I link two TextBoxes together programmatically?  
+   **A:** After confirming the link is valid with `IsValidLinkTarget`, assign the target TextBox to the source using `SetLinkTarget`. Example:  
+
+   ```cpp
+   Aspose::Words::Drawing::TextBox* sourceBox = sourceShape->GetTextBox();
+   Aspose::Words::Drawing::TextBox* targetBox = targetShape->GetTextBox();
+
+   if (sourceBox->IsValidLinkTarget(targetBox))
+   {
+       sourceBox->SetLinkTarget(targetBox);
+   }
+   ```  
+
+   This creates a forward link from `sourceBox` to `targetBox`.

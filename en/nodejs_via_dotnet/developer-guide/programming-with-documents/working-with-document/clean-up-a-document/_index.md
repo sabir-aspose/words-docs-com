@@ -36,3 +36,22 @@ You can also use the [duplicateStyle](https://reference.aspose.com/words/nodejs-
 The following code example shows how to remove duplicate styles from a document:
 
 {{< gist "aspose-words-gists" "c2ead2f41ca20b28eac045c61a41279e" "cleanup-duplicate-style.js" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I remove unused built‑in styles without affecting custom styles?  
+   **A:** Set `CleanupOptions.unusedBuiltinStyles` to `true` while leaving `CleanupOptions.unusedStyles` as `false`. This tells the `Document.cleanup` method to target only the built‑in styles that are not referenced in the document, preserving all custom styles you have defined.
+
+2. **Q:** Can I clean up unused lists but keep list definitions that are used later in the document?  
+   **A:** Yes. Enable `CleanupOptions.unusedLists` before calling `Document.cleanup`. The method will delete only those list definitions that have no references; any list that is used anywhere in the document remains intact.
+
+3. **Q:** What does the `duplicateStyle` option do, and when should I use it?  
+   **A:** When `CleanupOptions.duplicateStyle` is set to `true`, Aspose.Words replaces every duplicate style with the first occurrence of that style and then removes the duplicates. Use this option when you suspect the document contains many identical style definitions that increase file size unnecessarily.
+
+4. **Q:** I enabled cleanup options but the document size did not change. Why?  
+   **A:** The cleanup operation only removes items that are truly unused or duplicated. If the document already has no unused styles, lists, or duplicate styles, the size will remain the same. Verify the options you have enabled and inspect the document to ensure there are removable elements.
+
+5. **Q:** Is it safe to run `Document.cleanup` on a document that contains tracked changes?  
+   **A:** Yes. The cleanup process works on the underlying document structure and does not interfere with revision tracking. However, if you also need to remove revisions, call `Document.acceptAllRevisions` before or after cleanup as required.

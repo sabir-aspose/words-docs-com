@@ -18,3 +18,22 @@ A field that is inserted using [DocumentBuilder](https://reference.aspose.com/wo
 The following code example shows how to find the field code and field result:
 
 {{< gist "aspose-words-gists" "56db351e3569b23ecfe91a2ef9339fa7" "field-code.js" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I retrieve the field code of a field in Aspose.Words for Node.js?  
+   **A:** Use the `field.getFieldCode()` method on the `Field` object. The returned string contains the complete field code, including the field type and any switches.
+
+2. **Q:** How do I obtain the displayed result (field result) of a field?  
+   **A:** Call the `field.getResult()` method. This returns the text that Word shows after the field is evaluated, such as the merged value of a MERGEFIELD.
+
+3. **Q:** Can I differentiate between the field code and the field result while iterating through all fields in a document?  
+   **A:** Yes. When looping through `document.getRange().getFields()`, call `field.getFieldCode()` for the definition and `field.getResult()` for the current output. This lets you process each part separately.
+
+4. **Q:** Is it possible to get the type of a field (e.g., MERGEFIELD, PAGE) programmatically?  
+   **A:** The field type can be inferred from the field code string. The first word of the code returned by `field.getFieldCode()` is the field type. You can split the string on whitespace to extract it.
+
+5. **Q:** Are there other useful properties of a `Field` object I can access?  
+   **A:** Besides `getFieldCode()` and `getResult()`, you can use `field.isLocked()` to check if the field is locked, `field.update()` to force an update, and `field.remove()` to delete the field from the document.

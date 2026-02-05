@@ -65,7 +65,6 @@ System::SharedPtr<MailMergeRegionInfo> regionInfo = doc->get_MailMerge()->GetReg
 
 {{< /highlight >}}
 
-
 {{% alert color="primary" %}}
 
 You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).
@@ -79,3 +78,22 @@ Aspose.Words allows you to automatically map names of fields in your data source
 The following code example shows how to add a mapped field using the [Add](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mappeddatafieldcollection/add/) method when a merge field in a template and a data field in a data source have different names:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-GetFieldNames-MappedDataFields.cpp" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I retrieve all merge field names from a template?  
+   **A:** Use the `MailMerge::GetFieldNames()` method. It returns a `System::ArrayPtr<System::String>` containing every merge field name found in the document, which you can iterate or display as needed.
+
+2. **Q:** How do I obtain the hierarchy of mail‑merge regions in my template?  
+   **A:** Call `MailMerge::GetRegionsHierarchy()`. The method returns a `System::SharedPtr<MailMergeRegionInfo>` object that provides the region name, parent region, and child regions, allowing you to understand nested region structures.
+
+3. **Q:** My data source field names differ from the merge field names in the document. How can I map them automatically?  
+   **A:** Use the `MailMerge::get_MappedDataFields()` collection. Add a mapping with `MappedDataFields->Add("DataSourceField", "MergeField")`. After mapping, `Execute` will match the fields correctly without renaming the template.
+
+4. **Q:** What is the difference between the **NextIf** and **SkipIf** fields, and when should I use each?  
+   **A:** `NextIf` merges the next data record into the current document only when its condition is true; otherwise it starts a new document. `SkipIf` cancels the current document and moves to the next record when the condition is true, effectively skipping records that meet the condition. Use `NextIf` to include optional records and `SkipIf` to exclude unwanted records.
+
+5. **Q:** How can I merge the next data record into the same document instead of creating a new one?  
+   **A:** Insert a `FieldNext` field (`{ NEXT }`) at the point where you want the next record to appear. During `MailMerge::Execute`, Aspose.Words will continue merging into the current document rather than starting a new file.

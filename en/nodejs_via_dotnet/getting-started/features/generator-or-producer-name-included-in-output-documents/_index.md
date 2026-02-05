@@ -72,3 +72,32 @@ Also there is an addition to the variants shown in the table. The version number
 These additional situations are not described in the table above.
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I find the generator name and version that Aspose.Words added to a saved document?  
+   **A:** The generator information is stored differently depending on the output format. For binary formats like **DOC** and **DOT** it appears as an 8‑byte string (`AWN.YY.M.N`). For XML‑based formats (DOCX, DOCM, HTML, etc.) it is written as a comment or a `<meta name="generator">` tag. Open the file with a binary editor, unzip the package, or view the source to locate the string as described in the table.
+
+2. **Q:** I want to prevent Aspose.Words from writing the generator name and version into my output files. How do I do that?  
+   **A:** Set the `RemoveGeneratorInfo` property on the appropriate `SaveOptions` object before calling `Document.Save`. Example for PDF:
+
+   ```csharp
+   Aspose.Words.Document doc = new Aspose.Words.Document("input.docx");
+   Aspose.Words.Saving.PdfSaveOptions saveOptions = new Aspose.Words.Saving.PdfSaveOptions();
+   saveOptions.RemoveGeneratorInfo = true;
+   doc.Save("output.pdf", saveOptions);
+   ```
+
+   The same property exists on other format‑specific `SaveOptions` classes (e.g., `DocxSaveOptions`, `HtmlSaveOptions`).
+
+3. **Q:** Which `SaveOptions` class should I use to control the generator information for a specific format?  
+   **A:** Use the format‑specific `SaveOptions` class that matches the desired output. For example:  
+   * **DOCX:** `Aspose.Words.Saving.DocxSaveOptions`  
+   * **HTML:** `Aspose.Words.Saving.HtmlSaveOptions`  
+   * **PDF:** `Aspose.Words.Saving.PdfSaveOptions`  
+   After creating the appropriate options object, set `RemoveGeneratorInfo = true` and pass it to `Document.Save`.
+
+4. **Q:** Does the presence of a license affect the generator information?  
+   **A:** No. The generator string is written regardless of licensing. However, a valid license removes the evaluation watermark; the generator info can still be removed independently using `RemoveGeneratorInfo`.

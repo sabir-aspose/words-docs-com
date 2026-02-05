@@ -36,8 +36,27 @@ The following code example shows how to check if **TextBox** is a Head, Tail, o
 
 ## Break a Link
 
-Using the [BreakForwardLink](https://reference.aspose.com/words/java/com.aspose.words/textbox/#breakForwardLink) method you can break the link to the next **TextBox**.
+Using the [BreakForwardLink](https://reference.aspose.com/words/java/com.aspose.words.textbox/#breakForwardLink) method you can break the link to the next **TextBox**.
 
 The following code example shows how to break a link for a **TextBox**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-LinkedTextboxes-WorkingWithLinkedTextboxes-BreakALink.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I check if a `TextBox` can be linked to another `TextBox`?  
+   **A:** Call `textBox.isValidLinkTarget(targetTextBox)`. The method returns `true` when the two text boxes belong to the same document and satisfy the linking rules; otherwise it returns `false`.
+
+2. **Q:** How do I obtain the shape that contains a linked `TextBox`?  
+   **A:** Use the `textBox.getParent()` property. It returns the parent `Shape` object, allowing you to access shape‑level properties or navigate to the linked shape.
+
+3. **Q:** How can I determine whether a `TextBox` is the head, middle, or tail of a linked sequence?  
+   **A:** The `TextBox` class provides `isHead()`, `isMiddle()`, and `isTail()` methods. Checking these methods tells you the position of the text box within the linked chain.
+
+4. **Q:** How do I break a forward link from a `TextBox`?  
+   **A:** Invoke `textBox.breakForwardLink()`. This removes the link to the next text box in the sequence, leaving the current box isolated.
+
+5. **Q:** Can I link a `TextBox` to a shape that is not a `TextBox`?  
+   **A:** No. Linking is only supported between `TextBox` objects. Attempting to link to other shape types will cause `isValidLinkTarget` to return `false` and the link operation will be ignored.

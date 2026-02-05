@@ -21,7 +21,7 @@ Adding text or other content to the table is carried out using the appropriate m
 
 The table, like any other node in Aspose.Words, has access to the [Range](https://reference.aspose.com/words/nodejs-net/aspose.words/range/) object. Using the table range object, you can replace text in a table.
 
-The ability to use special characters when replacing is currently supported, so it is possible to replace existing text with multi-paragraph text. To do this, you need to use the special metacharacters described in the corresponding [Replace](https://reference.aspose.com/words/nodejs-net/aspose.words/range/replace/) method.
+The ability to use special characters when replacing is currently supported, so it is possible to replace existing text with multi‑paragraph text. To do this, you need to use the special metacharacters described in the corresponding [Replace](https://reference.aspose.com/words/nodejs-net/aspose.words/range/replace/) method.
 
 {{% alert color="primary" %}}
 
@@ -56,3 +56,22 @@ In Aspose.Words, you can also add a table title and description using the [title
 The following code example shows how to set the title and description properties of a table:
 
 {{< gist "aspose-words-gists" "1693b4ac01f19ec81c9618649b62acb8" "table-title-and-description.js" >}}
+
+------  
+
+## FAQ  
+
+1. **Q:** How can I replace text throughout an entire table with a single call?  
+   **A:** Obtain the table’s `Range` object (`table.get_Range()`) and call `range.replace(oldText, newText)`. This replaces every occurrence of *oldText* in all cells of the table.  
+
+2. **Q:** Can the replacement text contain line breaks or multiple paragraphs?  
+   **A:** Yes. Use the special metacharacters (`\\r` for a new line, `\\p` for a new paragraph) in the replacement string as described in the `Range.replace` documentation.  
+
+3. **Q:** What is the easiest way to get the plain text of a specific cell?  
+   **A:** Access the cell’s `Range` (`cell.get_Range()`) and read its `text` property. This returns the cell’s content without any formatting tags.  
+
+4. **Q:** How do I set a table title and description for accessibility purposes?  
+   **A:** Use the `title` and `description` properties of the `Table` object (`table.title = "My Table"; table.description = "Summary of sales data";`). These are stored in the DOCX file and are visible to screen readers.  
+
+5. **Q:** Is it possible to replace text only in certain columns while leaving others untouched?  
+   **A:** Iterate through the desired columns, retrieve each cell’s `Range`, and call `replace` on that range only. This gives fine‑grained control over which parts of the table are modified.  

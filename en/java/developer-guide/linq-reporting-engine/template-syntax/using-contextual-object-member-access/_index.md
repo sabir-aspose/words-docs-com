@@ -64,3 +64,22 @@ Alternatively, you can use the following template involving the contextual objec
 		</tr>
 	</tbody>
 </table>
+
+------ 
+
+## FAQ
+
+1. **Q:** How does contextual object member access differ from regular member access in template expressions?  
+   **A:** Contextual access lets you omit the object identifier; the engine automatically resolves the member to the innermost iteration variable (inside a data band) or to the passed data source (outside a data band). Regular access requires you to specify the full path, such as `ds.Persons.Name`.
+
+2. **Q:** Can I use contextual object member access to reference an outer iteration variable from within a nested loop?  
+   **A:** No. Inside a data band, contextual access always resolves to the innermost iteration variable. To reach an outer variable you must use the regular object member syntax with the appropriate identifier.
+
+3. **Q:** How can I count the number of items in a data source using contextual syntax?  
+   **A:** Use the `count()` method on the collection name without a prefix, e.g., `<<[Persons.count()]>>` when the template is outside a data band, or `<<[count()]>>` inside a `foreach` that iterates over `Persons`.
+
+4. **Q:** What happens if I try to use contextual member access outside a data band body?  
+   **A:** The engine resolves the member to the passed data source object. If no data source is supplied, the expression will fail with a “member not found” error. In such cases, specify the full data source identifier.
+
+5. **Q:** Is it possible to mix contextual and regular member access in the same template?  
+   **A:** Yes. You can use contextual syntax where it is allowed and fall back to regular syntax for cases that require explicit object references, such as accessing outer loop variables or when you need clarity in complex templates.

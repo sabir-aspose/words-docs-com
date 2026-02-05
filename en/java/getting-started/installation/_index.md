@@ -53,3 +53,29 @@ Aspose hosts all Java APIs in [Maven repository](https://releases.aspose.com/wor
 ## See Also
 
 * [Download Aspose.Words from Maven](https://releases.aspose.com/words/java/)
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I apply a license for Aspose.Words for Java?  
+   **A:** Place the license file (e.g., `Aspose.Words.Java.lic`) in a location accessible to your application and load it at startup:
+
+   ```java
+   com.aspose.words.License license = new com.aspose.words.License();
+   license.setLicense("path/to/Aspose.Words.Java.lic");
+   ```
+
+   Loading the license disables evaluation limitations for the entire JVM process.
+
+2. **Q:** Which Maven repository should I use for Aspose.Words for Java?  
+   **A:** Use the Aspose Maven repository `https://releases.aspose.com/java/repo/`. Add it to the `<repositories>` section of your `pom.xml` as shown in the installation steps. This repository hosts all supported versions of the library.
+
+3. **Q:** How can I select a specific version of Aspose.Words for Java?  
+   **A:** Set the desired version number in the `<version>` element of the dependency. For example, `<version>22.11</version>` uses version 22.11. You can browse available versions on the Aspose Maven repository page.
+
+4. **Q:** What Java versions are supported by the Aspose.Words for Java library?  
+   **A:** The library provides classifiers for different JDKs (e.g., `jdk8`, `jdk11`, `jdk17`). Choose the classifier that matches the JDK you compile and run against. The `jdk17` classifier is recommended for Java 17 and later.
+
+5. **Q:** Do I need to include the `javadoc` classifier in my Maven dependency?  
+   **A:** The `javadoc` classifier is optional and only provides API documentation JARs. It is not required for runtime functionality. You can omit it if you do not need the generated Javadoc files.

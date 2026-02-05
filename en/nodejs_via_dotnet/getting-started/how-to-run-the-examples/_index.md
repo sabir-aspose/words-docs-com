@@ -54,3 +54,19 @@ Please feel free to reach out using our [Aspose.Words Product Family Forum](http
 If you like to add or improve an example, we encourage you to contribute to the project. All examples and showcase projects in this repository are open source and can be freely used in your applications.
 
 You can fork the repository, edit the source code, and create a pull request to contribute. We will review the changes and include them in the repository if found helpful.
+
+------  
+
+## FAQ  
+
+1. **Q:** Do I need a license file to run the example tests?  
+   **A:** The examples are shipped with a temporary trial license, so they run out‑of‑the‑box. If you want to test your own license, replace the `License` file in the project root with your license file and ensure the code loads it before any Aspose.Words API calls.
+
+2. **Q:** Which version of Node.js is required for the examples?  
+   **A:** The examples require Node.js 14.17.0 or later. Using an older version may cause syntax errors or missing module support. You can verify your version with `node -v`.
+
+3. **Q:** How can I run a single example test instead of all tests?  
+   **A:** Use the Jest command with the `--findRelatedTests` option followed by the test file name, e.g., `jest --findRelatedTests ExBookmarks.test.js`. This runs only the specified test and its dependencies.
+
+4. **Q:** What should I do if `npm test` fails with missing modules or other errors?  
+   **A:** First run `npm install` in the **ApiExamples** or **DocExamples** folder to restore all required packages. If the problem persists, delete the `node_modules` folder and the `package-lock.json` file, then run `npm install` again. Ensure you have an active internet connection and that your proxy settings (if any) allow npm to download packages.  

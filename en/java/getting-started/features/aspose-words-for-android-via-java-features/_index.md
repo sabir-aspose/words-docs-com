@@ -91,8 +91,6 @@ Aspose.Words provides detailed programmatic access to formatting properties of a
 
 You can use Aspose.Words as a reporting solution on its own. Design your reports in Microsoft Word and then have Aspose.Words populate documents with data from various data sources.
 
-
-
 | Feature | Aspose.Words for Java | Aspose.Words for Android via Java |
 | :- | :- | :- |
 | Use all standard Microsoft Word Mail Merge fields in your reports including `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
@@ -120,3 +118,22 @@ LINQ Reporting Engine is an advanced reporting tool enabling you to generate doc
 | Built-in support of data relations (master-detail) | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Comprehensive support of various data manipulations such as grouping, sorting, filtering, and others directly in templates | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | WYSIWYG: A generated document retains the same formatting of its elements as a corresponding template has | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+
+------ 
+
+## FAQ
+
+1. **Q:** Does Aspose.Words for Android support rendering document pages to raster image formats such as TIFF or BMP?  
+   **A:** No. Raster image rendering (Multipage TIFF, BMP) is not available on Android. You can render pages to PNG, EMF, JPEG, or GIF instead.
+
+2. **Q:** Can I print a Word document directly from Aspose.Words for Android via Java?  
+   **A:** Printing is not supported through the Aspose.Words API on Android. Export the document to PDF (or another printable format) and use Android’s native printing framework to print it.
+
+3. **Q:** How do I apply a license to Aspose.Words for Android via Java?  
+   **A:** Use the same `License` class as in the Java version. Load your `.lic` file (for example from the assets folder) and call `License license = new License(); license.setLicense("Aspose.Words.lic");`.
+
+4. **Q:** Are all Mail Merge fields, regions and events available on the Android platform?  
+   **A:** Yes. The full set of Mail Merge capabilities—including standard fields, nested `IF` conditions, regions, and event‑driven formatting—works identically on Android as on the regular Java library.
+
+5. **Q:** Is the LINQ Reporting Engine usable with Aspose.Words for Android via Java?  
+   **A:** The LINQ Reporting Engine is supported on Android via Java, allowing you to embed C#‑style LINQ syntax, loops, conditions, and data source handling directly inside Word templates.

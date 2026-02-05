@@ -258,3 +258,22 @@ series2.Format.Stroke.Weight = 5;
 
 doc.Save("LineColorAndWeight.docx");
 {{< /highlight >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I set date/time values on a chart axis?  
+   **A:** Use the `ChartAxis.setNumberFormat(String)` method with a date‑time format string (e.g., `"mm/dd/yyyy"`). First obtain the axis via `chart.getAxisX()` or `chart.getAxisY()`, then call `setNumberFormat`. You can also set the axis bounds with `AxisBound` objects that accept `Date` values.
+
+2. **Q:** How do I change the number format of axis labels?  
+   **A:** Call `ChartAxis.setNumberFormat(String format)` on the desired axis. For example, `chart.getAxisY().setNumberFormat("#,##0.00")` will display values with two decimal places and thousand separators.
+
+3. **Q:** How can I hide or show a chart axis?  
+   **A:** Set the `ChartAxis.setHidden(boolean)` property. `chart.getAxisY().setHidden(true)` hides the Y‑axis, while setting it to `false` makes it visible again.
+
+4. **Q:** How do I customize the fill color of a chart series or a single data point?  
+   **A:** Access the `ChartFormat` of the series or data point. For a series: `series.getFormat().getFill().setForeColor(Color.getRed())`. For a data point: `dataPoint.getFormat().getFill().setForeColor(Color.getGreen())`.
+
+5. **Q:** How can I align multi‑line axis labels?  
+   **A:** Use `ChartAxis.setTickLabelAlignment(int alignment)`. Pass one of the alignment constants defined in `ChartAxis` (e.g., `ChartAxisAlignment.Center`, `ChartAxisAlignment.Left`). This aligns the tick labels for better readability when they span multiple lines.

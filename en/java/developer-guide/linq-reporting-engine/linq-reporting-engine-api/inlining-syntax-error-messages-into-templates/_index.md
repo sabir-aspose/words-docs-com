@@ -50,3 +50,22 @@ else
 {{< /highlight >}}
 
 **Note** – When `ReportBuildOptions.INLINE_ERROR_MESSAGES` is not applied, `ReportingEngine.buildReport` overloads return `true` if there were no template syntax errors encountered or throw an exception otherwise.
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I enable inline syntax error messages for a report?  
+   **A:** Create a `ReportingEngine` instance and set its options to `ReportBuildOptions.INLINE_ERROR_MESSAGES` before calling `buildReport`. This tells the engine to embed syntax error messages directly into the generated document instead of throwing an exception.
+
+2. **Q:** What does the boolean result of `buildReport` indicate when inline error messages are enabled?  
+   **A:** The method returns `true` if the report was built without any template‑syntax errors. It returns `false` when a syntax error was detected and inlined into the document, allowing you to handle the two cases separately.
+
+3. **Q:** Are runtime evaluation errors (e.g., division by zero) also inlined with this option?  
+   **A:** No. Only syntax‑related errors are inlined. Errors that occur while evaluating expressions are still thrown as exceptions because they cannot be represented as inline messages.
+
+4. **Q:** Can I change the appearance (font, color) of the inlined error messages?  
+   **A:** The engine writes error messages using a bold font by default. Custom styling is not configurable through the API; you would need to post‑process the document to modify the formatting after the report is generated.
+
+5. **Q:** Does enabling `INLINE_ERROR_MESSAGES` suppress all exceptions from the reporting engine?  
+   **A:** It suppresses exceptions that are caused by template syntax errors only. Other exceptions (e.g., I/O errors, missing data sources) are still thrown and must be handled in the usual way.

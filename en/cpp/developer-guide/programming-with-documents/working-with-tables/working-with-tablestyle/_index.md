@@ -29,7 +29,7 @@ The following code example shows how to create a new user defined table style:
 
 {{< gist "aspose-words-gists" "aeee44b29c42f9e9404ce57a80305383" "create-table-style.h" >}}
 
-## Copy an Existing Table Style 
+## Copy an Existing Table Style  
 
 If necessary, you can copy a table style that already exists in a certain document into your style collection using the `AddCopy` method.
 
@@ -37,9 +37,9 @@ It is important to know that with this copying, the linked styles are also copie
 
 The following code example shows how to import a style from one document to another document:
 
-EXAMPLE
+EXAMPLE  
 
-## Apply an Existing Table Style
+## Apply an Existing Table Style  
 
 Aspose.Words provides a [TableStyle](https://reference.aspose.com/words/cpp/aspose.words/tablestyle/) inherited from the [Style](https://reference.aspose.com/words/cpp/aspose.words/style/) class. **TableStyle** facilitates the user to apply different style options like as shading, padding, indentation, [CellSpacing](https://reference.aspose.com/words/cpp/aspose.words/tablestyle/get_cellspacing/) and [Font](https://reference.aspose.com/words/cpp/aspose.words/style/get_font/), etc.
 
@@ -63,16 +63,33 @@ The pictures below show a representation of the **Table Styles** in Microsoft Wo
 
 ![formatting-table-style-aspose-words-cpp](applying-formatting-10.png)
 
-## Take Formatting from Table Style and Apply it as Direct Formatting
+## Take Formatting from Table Style and Apply it as Direct Formatting  
 
 Aspose.Words also provides the [ExpandTableStylesToDirectFormatting](https://reference.aspose.com/words/cpp/aspose.words/document/expandtablestylestodirectformatting/) method to take formatting found on a table style and expands it onto the rows and cells of the table as direct formatting. Try combining formatting with table style and cell style.
 
-{{% alert color="primary" %}}
-
-This method will not override any other formatting already applied to the table through a row or cell format.
-
+{{% alert color="primary" %}}  
+This method will not override any other formatting already applied to the table through a row or cell format.  
 {{% /alert %}}
 
 The following code example shows how to expand the formatting from styles onto table rows and cells as direct formatting:
 
 {{< gist "aspose-words-gists" "aeee44b29c42f9e9404ce57a80305383" "expand-formatting-on-cells-and-row-from-style.h" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** How do I create a custom table style in C++?  
+   **A:** Use the `StyleCollection::Add` method to create a new `TableStyle`. Set the desired properties (borders, shading, font, etc.) on the style object, then add it to the document’s `StyleCollection`. The style can later be applied to any `Table` via its `Style` property.
+
+2. **Q:** Can I copy a table style from another document?  
+   **A:** Yes. Load the source document, retrieve the required `TableStyle`, and use `StyleCollection::AddCopy` on the target document’s `StyleCollection`. This copies the style together with any linked styles.
+
+3. **Q:** How do I apply an existing table style to a table?  
+   **A:** After creating or loading a `Table`, set its `StyleIdentifier` or `StyleName` property to the name of the desired style, or assign the `TableStyle` object directly to the table’s `Style` property.
+
+4. **Q:** How can I define conditional formatting (e.g., header row shading) for a table style?  
+   **A:** Access the `ConditionalStyleCollection` of the `TableStyle` and add a `ConditionalStyle` for the required `ConditionalStyleType` (e.g., `ConditionalStyleType::HeaderRow`). Configure the formatting (shading, font, etc.) on that `ConditionalStyle`.
+
+5. **Q:** What if I need the style’s formatting as direct formatting on the table cells?  
+   **A:** Call `Document::ExpandTableStylesToDirectFormatting()`. This expands all style‑based formatting into explicit formatting on each row and cell, preserving the appearance while removing the style reference.  

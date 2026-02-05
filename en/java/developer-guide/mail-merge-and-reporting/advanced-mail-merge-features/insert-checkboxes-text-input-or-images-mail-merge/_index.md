@@ -69,3 +69,21 @@ The following code example shows how to set various image properties:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeImageField-FieldMergingHandler.java" >}}
 
+------  
+
+## FAQ
+
+1. **Q:** How can I insert a checkbox form field during a mail merge?  
+   **A:** Implement a custom `IFieldMergingCallback` (or `FieldMergingCallback` in Java) and, in the `fieldMerging` method, detect the target merge field name. Replace the field with a `CheckBoxFormField` created via `DocumentBuilder.insertCheckBox`. Return the new field in the callback so the merge engine inserts it instead of plain text.
+
+2. **Q:** How do I add a text input form field using mail merge?  
+   **A:** In the same `fieldMerging` callback, create a `TextFormField` with `DocumentBuilder.insertTextInput`. Set its name, default text, and size as needed, then assign it to the merge field. The callback replaces the merge field with the interactive text box.
+
+3. **Q:** How can I insert images that are stored in a database BLOB during mail merge?  
+   **A:** Use an image merge field (`Image:MyField`) in the template. In the `fieldMerging` callback, retrieve the BLOB as a `byte[]` or `InputStream`, then set `ImageFieldMergingArgs.setImageStream` (or `setImageBytes`) to supply the image data to the engine.
+
+4. **Q:** How can I control the size, rotation, or wrap type of an inserted image?  
+   **A:** Inside the `fieldMerging` callback, obtain the `Shape` object from `ImageFieldMergingArgs.getShape()`. You can then set properties such as `setWidth`, `setHeight`, `setWrapType`, and `setRotationAngle` to fully customize the image appearance.
+
+5. **Q:** Do I need a licensed version of Aspose.Words to use form fields or image insertion in mail merge?  
+   **A:** Yes. While the evaluation version allows basic mail merge, inserting form fields, customizing image properties, and using callbacks are fully supported only with a valid Aspose.Words license. Apply the license at the start of your application with `License license = new License(); license.setLicense("Aspose.Words.Java.lic");`.

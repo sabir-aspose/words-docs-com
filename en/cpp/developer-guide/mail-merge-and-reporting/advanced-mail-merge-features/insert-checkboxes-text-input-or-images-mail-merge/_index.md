@@ -69,3 +69,22 @@ The following code example shows how to set various image properties:
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Mail-Merge-MailMergeImageField-ImageFieldMergingHandler.cpp" >}}
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Mail-Merge-MailMergeImageField-DataSourceRoot.cpp" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I insert a checkbox form field during a mail merge in C++?  
+   **A:** Implement a custom class that inherits from `Aspose::Words::MailMerging::IFieldMergingCallback`. In the `FieldMerging` method, detect the merge field name and replace it with a `FormField` of type `CheckBox`. Use `DocumentBuilder` to insert the checkbox at the field’s position and then remove the original merge field.
+
+2. **Q:** How can I insert a text input form field during a mail merge?  
+   **A:** In the same `IFieldMergingCallback` implementation, when the merge field name matches a text input placeholder, create a `FormField` of type `TextInput`. Set its `Name` and optionally its default text, then replace the merge field node with this form field.
+
+3. **Q:** How do I insert images from a database using mail merge?  
+   **A:** Use an image merge field named `Image:FieldName`. In the `FieldMerging` callback, retrieve the image bytes from the database, create a `System::IO::MemoryStream` (or `std::istream`) and assign it to `ImageFieldMergingArgs::set_ImageStream`. The engine will insert the image automatically.
+
+4. **Q:** How can I control image size or wrap type when inserting images via mail merge?  
+   **A:** Inside the `FieldMerging` method, obtain the `Shape` object from `ImageFieldMergingArgs::get_Shape()`. Set properties such as `Shape::set_Width`, `Shape::set_Height`, and `Shape::set_WrapType` to adjust size and text wrapping.
+
+5. **Q:** How do I apply an Aspose.Words license in a C++ application to avoid evaluation limitations?  
+   **A:** Create an instance of `Aspose::Words::License`, then call `SetLicense` with the path to your `.lic` file, e.g., `Aspose::Words::License license; license.SetLicense(u"Licenses/Aspose.Words.CPP.lic");`. Place this code before any document processing to ensure the license is active.

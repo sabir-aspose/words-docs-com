@@ -50,3 +50,22 @@ The second overload works with all other video resources and takes embedded HTML
 Please note that the document will be automatically optimized for MS Word 2013 to show video.
 
 {{% /alert %}}
+
+------  
+
+## FAQ
+
+1. **Q:** How do I insert an OLE object into a Word document using Node.js?  
+   **A:** Use `DocumentBuilder.insertOleObject(progId, filePath, isIcon, iconFilePath, width, height)`. Provide the OLE object's ProgID (e.g., `"Word.Document"`), the source file path, and optionally specify whether to display it as an icon and its dimensions.
+
+2. **Q:** Can I insert an OLE object as an icon instead of the full object?  
+   **A:** Yes. Call `DocumentBuilder.insertOleObjectAsIcon(progId, filePath, iconFilePath, width, height)`. The method inserts the object as an image that, when double‑clicked, opens the embedded file.
+
+3. **Q:** Which video platforms are supported by `insertOnlineVideo`?  
+   **A:** The first overload of `insertOnlineVideo` directly supports YouTube and Vimeo URLs. For other platforms, use the overload that accepts raw HTML embed code.
+
+4. **Q:** How can I control the size of an inserted online video?  
+   **A:** Use the overload `insertOnlineVideo(url, width, height)` or `insertOnlineVideo(html, width, height)` to specify the desired dimensions in points.
+
+5. **Q:** My OLE object appears as a broken link or does not display; what could be wrong?  
+   **A:** Ensure the `ProgId` matches the installed application on the target machine and that the source file path is correct. If the object is inserted as an icon, verify that the icon file exists and is accessible.

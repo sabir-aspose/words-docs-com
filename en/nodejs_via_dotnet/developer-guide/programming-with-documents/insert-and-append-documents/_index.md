@@ -102,3 +102,22 @@ Note that the [Section](https://reference.aspose.com/words/nodejs-net/aspose.wor
 The following code example shows how to append one document to another while keeping the content from splitting across two pages:
 
 {{< gist "aspose-words-gists" "814f45acd0c15059a9680cb661081d0f" "different-page-setup.js" >}}
+
+------ 
+
+## FAQ
+
+1. Q: How do I insert an entire document at the current cursor position using DocumentBuilder in Node.js?  
+   A: Load the source document with `new Document("Source.docx")`, create a `DocumentBuilder` for the destination document, and call `builder.insertDocument(sourceDoc, ImportFormatMode.KeepSourceFormatting)`. This inserts the source as a separate section while preserving its original formatting.
+
+2. Q: How can I insert a document at a specific bookmark?  
+   A: First move the builder to the bookmark with `builder.moveToBookmark("MyBookmark")`, then call `builder.insertDocument(sourceDoc, ImportFormatMode.UseDestinationStyles)` (or another mode). The source content will be placed immediately after the bookmark.
+
+3. Q: What is the difference between `insertDocument` and `insertDocumentInline`?  
+   A: `insertDocument` inserts the source document as a distinct section, keeping its own page setup and headers/footers. `insertDocumentInline` merges the source content into the current paragraph as inline nodes, which can be useful when you want the inserted text to flow with surrounding content.
+
+4. Q: How do I append a document to the end of another document?  
+   A: Load both documents and call `destinationDoc.appendDocument(sourceDoc, ImportFormatMode.KeepSourceFormatting)`. The source document is added after the last node of the destination document.
+
+5. Q: How can I control formatting when inserting or appending documents?  
+   A: Use `ImportFormatMode` to choose how styles are handled (`UseDestinationStyles`, `KeepSourceFormatting`, `KeepDifferentStyles`). Additionally, create an `ImportFormatOptions` object to set options such as `ignoreHeaderFooter`, `ignoreTextBoxes`, `keepSourceNumbering`, `mergePastedLists`, and `smartStyleBehavior`, then pass it to the insert/append method. This lets you fine‑tune which elements are kept or ignored during the operation.

@@ -55,3 +55,22 @@ The table below shows example pictures of Aspose.Words Cold Rendering of some st
 | **Circular Bending Process**  | <img src="circular-bending-process-aspose.png" alt="circular_bending_process_aspose"/> | <img src="circular-bending-process-word.png" alt="circular_bending_process_word"/> |
 | **Repeating Bending Process** | <img src="repearing-bending-process-aspose.png" alt="repearing_bending_process_aspose"/> | <img src="repearing-bending-process-word.png" alt="repearing_bending_process_word"/> |
 | **Trapezoid List**            | <img src="trapezoid-list-aspose.png" alt="trapezoid_list_aspose"/> | <img src="trapezoid-list-word.png" alt="trapezoid_list_word"/> |
+
+------  
+
+## FAQ
+
+1. **Q:** How can I force Aspose.Words to perform cold rendering when the pre‑rendered SmartArt drawing is incorrect?  
+   **A:** Call the `Shape.updateSmartArtDrawing()` method on each `Shape` that contains a SmartArt object. This forces Aspose.Words to discard the existing drawing and lay out the SmartArt anew.
+
+2. **Q:** Is cold rendering performed automatically if the pre‑rendered drawing is missing?  
+   **A:** Yes. When Aspose.Words loads a document and detects that a SmartArt object has no associated drawing, it automatically performs cold rendering without any additional code.
+
+3. **Q:** Which SmartArt layout groups are fully supported by Aspose.Words for Java?  
+   **A:** The fully supported groups are **List**, **Process**, **Relationship**, and **Matrix**. The documentation table lists the exact layouts within each group.
+
+4. **Q:** How do I update the drawings for all SmartArt objects in a document with a single call?  
+   **A:** Iterate through all `Shape` nodes, check `shape.isSmartArt()`, and invoke `shape.updateSmartArtDrawing()`. The sample code in the article demonstrates this pattern.
+
+5. **Q:** Can I determine programmatically whether a SmartArt object already has a pre‑rendered drawing?  
+   **A:** Yes. Use `shape.getSmartArt().hasSmartArtDrawing()` (or the equivalent property in the Java API) to check if the drawing exists before deciding whether to call `updateSmartArtDrawing()`.

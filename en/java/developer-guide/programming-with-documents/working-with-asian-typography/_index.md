@@ -38,3 +38,22 @@ The following code example shows how to use these properties:
 The following code example shows how to change Asian paragraph spacing and indents:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-ChangeAsianParagraphSpacingandIndents.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I enable automatic spacing between Asian characters and Latin letters or numbers?  
+   **A:** Set `ParagraphFormat.AddSpaceBetweenFarEastAndAlpha` to `true` for spacing with Latin letters and `ParagraphFormat.AddSpaceBetweenFarEastAndDigit` to `true` for spacing with digits. These properties can be applied to a `Paragraph` or globally via a `DocumentBuilder`.
+
+2. **Q:** Which properties control line‑break behavior for Asian text?  
+   **A:** Use `ParagraphFormat.FarEastLineBreakControl` to prevent line breaks within Asian words, `ParagraphFormat.WordWrap` to enable/disable wrapping, and `ParagraphFormat.HangingPunctuation` to control hanging punctuation for East Asian scripts.
+
+3. **Q:** How do I adjust spacing and indents specifically for Asian paragraphs?  
+   **A:** Modify `ParagraphFormat.FirstLineIndent`, `LeftIndent`, `RightIndent`, and `SpaceAfter`/`SpaceBefore` while the `ParagraphFormat` is set to an Asian language context. The examples in this article demonstrate these settings.
+
+4. **Q:** Are there any font considerations when working with Asian typography?  
+   **A:** Aspose.Words uses the fonts installed on the system. Ensure the required CJK fonts (e.g., SimSun, MS Mincho) are available, or use `FontSettings` to load custom fonts so that Asian characters render correctly.
+
+5. **Q:** Can I disable Asian typography features for a document that contains only Latin text?  
+   **A:** Yes. Set the three properties (`AddSpaceBetweenFarEastAndAlpha`, `AddSpaceBetweenFarEastAndDigit`, `FarEastLineBreakControl`) to `false` or leave them at their default values; Aspose.Words will then treat the text as regular Latin script.

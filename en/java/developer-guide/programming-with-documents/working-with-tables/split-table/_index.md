@@ -25,3 +25,19 @@ We can create two tables from the original table by following these simple steps
 The following code example shows how to split a table into two tables on a specific row:
 
 {{< gist "aspose-words-gists" "ff5affdcea04dcd20d1b872f9503dbfe" "split-table.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I split a table at a specific row using Aspose.Words for Java?  
+   **A:** Load the document, locate the target `Table` node, clone the table without its child nodes (`Table clonedTable = (Table) originalTable.deepClone(false);`), insert the cloned table after the original, then move each `Row` starting from the split row to the cloned table using `clonedTable.appendChild(row);`. This creates two independent tables.
+
+2. **Q:** Does cloning a table also clone its rows and cells?  
+   **A:** By default `deepClone(true)` copies the table together with all its rows and cells. To split a table you should use `deepClone(false)` so only the table structure is cloned; the rows are then moved manually to the new table.
+
+3. **Q:** After splitting, how do I preserve the original table’s formatting in the new table?  
+   **A:** The cloned table inherits the original table’s formatting (borders, shading, width, etc.) because the clone copies the table’s properties. Since you move existing `Row` objects, their individual formatting is retained as well. If you need to adjust spacing, modify `Table.setAllowAutoFit(false)` or set `Table.getRowFormat().setHeight(...)` on the new table.
+
+4. **Q:** Can I split a table without affecting the surrounding document layout (e.g., page breaks or spacing)?  
+   **A:** Yes. Insert the cloned table immediately after the original with `originalTable.getParentNode().insertAfter(clonedTable, originalTable);`. This keeps the flow of paragraphs unchanged. If a page break is required, insert a `Paragraph` with a page break (`Paragraph pageBreak = new Paragraph(doc); pageBreak.appendChild(new Break(BreakType.PAGE_BREAK));`) between the two tables.

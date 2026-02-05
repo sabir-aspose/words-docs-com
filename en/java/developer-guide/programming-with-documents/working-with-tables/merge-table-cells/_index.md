@@ -87,3 +87,22 @@ Sometimes it is not possible to detect which cells are merged because some newer
 The following code example shows the above method in operation:
 
 {{< gist "aspose-words-gists" "4fe6fda3615c0c441401e2131533d93b" "convert-to-horizontally-merged-cells.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I merge cells horizontally using `DocumentBuilder`?  
+   **A:** Create the table with `DocumentBuilder`, then for the first cell in the merge set `cell.getCellFormat().setHorizontalMerge(CellMerge.First)`. For each subsequent cell that should be merged, set `CellMerge.Previous`. After the merged range, set the next cell’s `HorizontalMerge` to `CellMerge.None` to stop the merge.
+
+2. **Q:** How can I merge cells vertically?  
+   **A:** The process is analogous to horizontal merging but uses the `VerticalMerge` property. Set `CellMerge.First` on the top‑most cell of the column, `CellMerge.Previous` on the cells below, and reset to `CellMerge.None` after the merged block.
+
+3. **Q:** How can I determine whether a particular cell is part of a merged group?  
+   **A:** Inspect the cell’s format: `cell.getCellFormat().getHorizontalMerge()` and `cell.getCellFormat().getVerticalMerge()`. If either returns `CellMerge.First` or `CellMerge.Previous`, the cell participates in a merge; `CellMerge.None` means it is not merged.
+
+4. **Q:** Is there a way to merge a rectangular range of cells programmatically?  
+   **A:** Yes. Loop through the cells in the desired range and set the appropriate `HorizontalMerge` and `VerticalMerge` values. Typically you set `CellMerge.First` on the top‑left cell, `CellMerge.Previous` on the remaining cells in the first row for horizontal merges, and similarly use `VerticalMerge` for rows. Aspose.Words also provides helper methods (e.g., a custom `mergeRange` method) that encapsulate this logic.
+
+5. **Q:** My table appears to have merged cells, but the merge flags are missing. How can I fix this?  
+   **A:** Use the `Table.convertToHorizontallyMergedCells()` method. It analyses the visual widths of cells, inserts missing cells where needed, and sets the correct `HorizontalMerge` flags so that the merged state is represented accurately in the document model. This resolves issues where Word exported a merged cell as a single wide cell without flags.

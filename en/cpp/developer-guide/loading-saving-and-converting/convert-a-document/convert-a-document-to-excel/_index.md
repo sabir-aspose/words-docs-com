@@ -66,3 +66,28 @@ doc->Save(ArtifactsDir + u"BaseConversions.CompressXlsx.xlsx", saveOptions);
 
 - Documentation section [Protect or Encrypt a Document](/words/cpp/protect-or-encrypt-a-document/) for more information about protecting and encrypting a document
 - The article [Find and Replace](/words/cpp/find-and-replace/) for more more information about finding and replacing the content you want
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I convert a PDF document to Excel (XLSX) using Aspose.Words for C++?  
+   **A:** Load the PDF with the `Document` class and call `Save` specifying an XLSX file name. Aspose.Words automatically detects the source format and writes the spreadsheet. Example:  
+   ```cpp
+   auto doc = MakeObject<Document>(MyDir + u"Pdf Document.pdf");
+   doc->Save(ArtifactsDir + u"Result.xlsx");
+   ```
+
+2. **Q:** Can I perform find‑and‑replace on a document before saving it as Excel?  
+   **A:** Yes. Use `FindReplaceOptions` together with `Range::Replace` to modify the document content, then save the updated document to XLSX. The same code shown in the “Find and Replace When Saving to XLSX” section applies.
+
+3. **Q:** How do I control the compression level of the generated XLSX file?  
+   **A:** Create an `XlsxSaveOptions` instance, set its `CompressionLevel` property (e.g., `CompressionLevel::Maximum`), and pass the options to `Document::Save`. This reduces file size at the cost of longer save time.
+
+4. **Q:** Do I need a license to convert documents to Excel, and how do I apply it in C++?  
+   **A:** A license is required for production use to remove evaluation watermarks and enable full functionality. Load the license file with the `License` class before any document operations:  
+   ```cpp
+   auto license = MakeObject<License>();
+   license->SetLicense(u"Path/To/Aspose.Words.CPP.lic");
+   ```
+   After setting the license, all conversion features work without restrictions.

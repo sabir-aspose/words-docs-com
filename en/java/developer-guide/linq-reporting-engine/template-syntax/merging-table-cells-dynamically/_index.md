@@ -237,3 +237,22 @@ Then, a result document looks as follows.
 </table>
 
 **Note** – You could use `<<cellMerge [invoice.getNumber()]>>` instead of `<<cellMerge [invoice.indexOf()]>>` to get the same effect, but using of `indexOf()` is a more generic approach.
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I merge cells only horizontally with a `cellMerge` tag?  
+   **A:** Add the `-horz` switch to the tag: `<<cellMerge -horz>>`. This tells the engine to merge successive cells in the same row when their textual contents match.
+
+2. **Q:** Can a single `cellMerge` tag merge cells both vertically and horizontally?  
+   **A:** Yes. Use the `-both` switch: `<<cellMerge -both>>`. The engine will attempt to merge cells in both directions, provided all merging requirements are satisfied.
+
+3. **Q:** What conditions must be met for cells to merge dynamically?  
+   **A:** (a) Each cell must contain a `cellMerge` tag with the same direction switch. (b) Cells must not already be part of another merge in a conflicting direction (unless `-both` is used). (c) The textual content of the cells must be identical after trimming leading/trailing whitespace.
+
+4. **Q:** How can I prevent cells from merging across different data items, such as different invoices?  
+   **A:** Supply an expression to the `cellMerge` tag that evaluates differently for each data group, e.g., `<<cellMerge [invoice.indexOf()]>>`. The engine will only merge cells when the expression returns equal values.
+
+5. **Q:** Is it safe to use `cellMerge` tags inside a table data band?  
+   **A:** Yes. `cellMerge` tags are designed to work inside table data bands and will be processed during the rendering of each band iteration.

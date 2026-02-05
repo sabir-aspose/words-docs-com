@@ -47,13 +47,28 @@ The following code example shows how to build a multilevel list:
 
 ## Specify Formatting for a List Level
 
-List-level objects are created automatically when a list is created. Use the properties and methods of the [ListLevel](https://reference.aspose.com/words/java/com.aspose.words/listlevel/) class to control the formatting of individual levels of a list.
+List-level objects are created automatically when a list is created. Use the properties and methods of the [ListLevel](https://reference.aspose.com/words/java/com.aspose.words.listlevel/) class to control the formatting of individual levels of a list.
 
 ## Restart List for each Section
 
-You can restart a list for each section using the [IsRestartAtEachSection](https://reference.aspose.com/words/java/com.aspose.words/list/#isRestartAtEachSection) property. Note that this option is supported only in RTF, DOC and DOCX document formats. This option will be written to DOCX only if OoxmlCompliance is higher then Ecma376.
+You can restart a list for each section using the [IsRestartAtEachSection](https://reference.aspose.com/words/java/com.aspose.words.list/#isrestartateachsection) property. Note that this option is supported only in RTF, DOC and DOCX document formats. This option will be written to DOCX only if OoxmlCompliance is higher then Ecma376.
 
 The following code example shows how to create a list and restart it for each section:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Lists-WorkingWithList-SetRestartAtEachSection.java" >}}
 
+------  
+
+## FAQ
+
+1. **Q:** How do I start a bulleted list using Aspose.Words for Java?  
+   **A:** Use the `DocumentBuilder` object, access its `ListFormat` property, and call `applyBulletDefault()`. The bullet formatting will be applied to the current paragraph and all subsequent paragraphs until `removeNumbers()` is called.
+
+2. **Q:** How can I create a multilevel numbered list and control each level’s appearance?  
+   **A:** After starting a list with `applyNumberDefault()`, use `ListLevel` objects (available via `builder.getListFormat().getList().getListLevels()`) to set properties such as `numberStyle`, `font`, `alignment`, and `tabPosition` for each level (0‑8). Adjust the level with `listIndent()` and `listOutdent()` as needed.
+
+3. **Q:** Is it possible to restart numbering for each new section in a document?  
+   **A:** Yes. Set the `IsRestartAtEachSection` property of the `List` object to `true`. This works for RTF, DOC, and DOCX formats and is written to DOCX only when the document’s `OoxmlCompliance` is higher than `Ecma376`.
+
+4. **Q:** How do I retrieve or change the current list level of a paragraph?  
+   **A:** Use the `getListLevelNumber()` method of `ListFormat` to read the level, and `setListLevelNumber(int level)` to change it. Levels are zero‑based, ranging from 0 to 8.

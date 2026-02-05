@@ -21,7 +21,7 @@ Aspose.Words provides functionality for extracting this type of content in the s
 
 All the content in a document drawing layer is represented by the [Shape](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/) or [GroupShape](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/groupshape/) node in the Aspose.Words Document Object Module (DOM). Such contents can be text boxes, images, AutoShapes, OLE objects, etc. Some fields are also imported as shapes, for example, the `INCLUDEPICTURE` field.
 
-A simple image is represented by a [Shape](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/) node of [ShapeType.Image](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shapetype/). This shape node has no child nodes but the image data contained within this shape node can be accessed by the [Shape.imageData](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/imageData/) property. On the other hand, a shape can also be made up of many child nodes. For instance, a text box shape, which is represented by the [ShapeType.textBox](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/textBox/) property, can be made up of many nodes, such as [Paragraph](https://reference.aspose.com/words/nodejs-net/aspose.words/paragraph/) and **Table**. Most shapes can include the [Paragraph](https://reference.aspose.com/words/nodejs-net/aspose.words/paragraph/) and **Table** block-level nodes. These are the same nodes as those appearing in the main body. Shapes are always parts of some paragraph, either included directly inline or anchored to the [Paragraph](https://reference.aspose.com/words/nodejs-net/aspose.words/paragraph/), but “floating” anywhere in the document page.
+A simple image is represented by a [Shape](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/) node of [ShapeType.Image](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shapetype/). This shape node has no child nodes but the image data contained within this shape node can be accessed by the [Shape.imageData](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/imageData/) property. On the other hand, a shape can also be made up of many child nodes. For instance, a text box shape, which is represented by the [ShapeType.textBox](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/textBox/) property, can be made up of many nodes, such as [Paragraph](https://reference.aspose.com/words/nodejs-net/aspose.words/paragraph/) and **Table**. Most shapes can include the [Paragraph](https://reference.aspose.com/words/nodejs-net/aspose.words.paragraph/) and **Table** block-level nodes. These are the same nodes as those appearing in the main body. Shapes are always parts of some paragraph, either included directly inline or anchored to the [Paragraph](https://reference.aspose.com/words/nodejs-net/aspose.words.paragraph/), but “floating” anywhere in the document page.
 
 ![rendering-shapes-separately-from-a-document_1](rendering-shapes-separately-from-a-document-1.png)
 
@@ -48,9 +48,9 @@ When rendering a [Shape](https://reference.aspose.com/words/nodejs-net/aspose.wo
 
 ## Rendering to File or Stream
 
-The [save](https://reference.aspose.com/words/nodejs-net/aspose.words.rendering/noderendererbase/save/) method provides overloads that render a shape directly to a file or stream. Both overloads accept an instance of the [ImageSaveOptions](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/imagesaveoptions/) class, which allows to define options for rendering the shape. This works in the same way as the [Document.save](https://reference.aspose.com/words/nodejs-net/aspose.words/document/save/) method. Even though this parameter is required, you can pass a null value, specifying that there are no custom options.
+The [save](https://reference.aspose.com/words/nodejs-net/aspose.words.rendering/noderendererbase/save/) method provides overloads that render a shape directly to a file or stream. Both overloads accept an instance of the [ImageSaveOptions](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/imagesaveoptions/) class, which allows to define options for rendering the shape. This works in the same way as the [Document.save](https://reference.aspose.com/words/nodejs-net/aspose.words.document/save/) method. Even though this parameter is required, you can pass a null value, specifying that there are no custom options.
 
-The shape can be exported in any image format specified in the [SaveFormat](https://reference.aspose.com/words/nodejs-net/aspose.words/saveformat/) enumeration. For example, the image can be rendered as a raster image, such as JPEG by specifying the [SaveFormat.Jpeg](https://reference.aspose.com/words/nodejs-net/aspose.words/saveformat/) enumeration, or as a vector image, such as EMF by specifying the [SaveFormat.Emf](https://reference.aspose.com/words/nodejs-net/aspose.words/saveformat/).
+The shape can be exported in any image format specified in the [SaveFormat](https://reference.aspose.com/words/nodejs-net/aspose.words.saveformat/) enumeration. For example, the image can be rendered as a raster image, such as JPEG by specifying the [SaveFormat.Jpeg](https://reference.aspose.com/words/nodejs-net/aspose.words.saveformat/) enumeration, or as a vector image, such as EMF by specifying the [SaveFormat.Emf](https://reference.aspose.com/words/nodejs-net/aspose.words.saveformat/).
 
 The code example below illustrates rendering a shape to an EMF image separately from document, and saving to disk:
 
@@ -75,3 +75,22 @@ The following example shows how to render a Shape image to a JPEG image separate
 The [ShapeRenderer](https://reference.aspose.com/words/nodejs-net/aspose.words.rendering/shaperenderer/) class also provides functionality to retrieve the size of the shape in pixels through the **getSizeInPixels** method. This method accepts two float (Single) parameters – the scale and DPI, which are used in calculation of the shape size when the shape is rendered. The method returns the **Size** object, which contains the width and height of the calculated size. This is useful when it is required to know the size of the rendered shape in advance. The [sizeInPoints2](hhttps://reference.aspose.com/words/nodejs-net/aspose.words.rendering/noderendererbase/sizeInPoints2/) property returns the Shape size measured in points. The result is a **SizeF** object containing the width and height. Also you can use [boundsInPoints2](https://reference.aspose.com/words/nodejs-net/aspose.words.rendering/noderendererbase/boundsInPoints2/) property to get actual bounds of the shape.
 
 {{< gist "aspose-words-gists" "3a90c8783e87c53371d103d9350f1d31" "get-actual-shape-bounds-points.js" >}}
+
+------ 
+
+## FAQ
+
+1. Q: How can I render a shape to an image file using Node.js?  
+   A: Retrieve a `ShapeRenderer` for the shape via `shape.getShapeRenderer()` (or by passing the shape to the `ShapeRenderer` constructor). Then call `shapeRenderer.save(filePath, imageSaveOptions)` where `imageSaveOptions` specifies the desired format (e.g., `SaveFormat.Jpeg` or `SaveFormat.Emf`). The method writes the rendered image directly to the specified file.
+
+2. Q: Is it possible to render a shape directly to a stream instead of a file?  
+   A: Yes. Use the same `ShapeRenderer.save(stream, imageSaveOptions)` overload, passing a writable Node.js stream (such as a `fs.WriteStream`). The shape is rendered into the stream, allowing you to send it over HTTP, store it in memory, or chain further processing.
+
+3. Q: How do I obtain the size of a shape before rendering it?  
+   A: Call `shapeRenderer.getSizeInPixels(scale, dpi)` to get a `Size` object with width and height in pixels. For size in points, use the `sizeInPoints2` property, which returns a `SizeF`. These values help you decide the appropriate image dimensions or DPI settings.
+
+4. Q: Can a GroupShape containing multiple shapes be rendered as a single image?  
+   A: Absolutely. Retrieve a `ShapeRenderer` for the `GroupShape` instance and invoke `save` just like with a regular shape. The renderer composites all child shapes into one image, preserving their relative positions.
+
+5. Q: What happens if I try to render a shape that is not part of the document tree?  
+   A: Rendering will produce a blank output because the shape must be attached to the document hierarchy. Ensure the shape is inserted into a paragraph or anchored to the document before calling `ShapeRenderer`. If the shape is detached, add it to the document first (e.g., `document.getFirstSection().getBody().appendChild(shape)`).

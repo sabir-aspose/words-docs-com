@@ -90,3 +90,22 @@ If you do not know in advance whether the file is encrypted, you can use the [F
 The following code example shows how to verify OpenDocument either it is encrypted or not:
 
 {{< gist "aspose-words-gists" "821ff3a1df0c75b2af641299b393fb60" "verify-encrypted-document.java" >}}
+
+------ 
+
+## FAQ
+
+1. Q: How can I load a document using a specific Microsoft Word version?  
+   A: Create a `LoadOptions` object and set its `MswVersion` property to the desired `MswVersion` enum value (e.g., `MswVersion.Word2007`). Pass this `LoadOptions` instance to the `Document` constructor.
+
+2. Q: What should I do if the document’s encoding is detected incorrectly?  
+   A: Set the `Encoding` property of `LoadOptions` to the required `java.nio.charset.Charset` (e.g., `Charset.forName("Windows-1252")`) before loading the document.
+
+3. Q: How can I load a password‑protected Word file?  
+   A: Provide a `LoadOptions` object with its `Password` property set to the document’s password, then use this object when constructing the `Document`.
+
+4. Q: How do I receive warnings about problems that occur while loading a document?  
+   A: Implement the `IWarningCallback` interface, assign an instance to the `WarningCallback` property of `LoadOptions`, and then load the document with those options.
+
+5. Q: Is there a way to limit memory usage when loading very large documents?  
+   A: Yes. Set the `TempFolder` property of `LoadOptions` to a folder path where Aspose.Words can write temporary files, reducing RAM consumption during loading.

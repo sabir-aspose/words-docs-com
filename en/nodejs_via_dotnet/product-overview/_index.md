@@ -18,11 +18,11 @@ timestamp: 2025-04-15-14-23-37
 
 Welcome to Aspose.Words for Node.js via .NET!
 
-Aspose.Words is a cross-platform class library that enables your applications to perform a wide variety of document processing tasks.
+Aspose.Words is a cross‑platform class library that enables your applications to perform a wide variety of document processing tasks.
 
 Using Aspose.Words, you can convert a document from any supported load format to any supported save format, for example, Word formats to PDF, HTML, or Markdown, PDF to DOCX, and so on. Read more about converting documents in the [Convert a Document](/words/nodejs-net/convert-a-document/) section.
 
-It is worth noting that with Aspose.Words you can create, modify, convert, render, and print documents without relying on third-party applications, such as Microsoft Word, or Office Automation.
+It is worth noting that with Aspose.Words you can create, modify, convert, render, and print documents without relying on third‑party applications, such as Microsoft Word, or Office Automation.
 
 ## Benefits of Using Aspose.Words
 
@@ -30,7 +30,7 @@ Using Aspose.Words for Node.js via .NET in your project gives you the following 
 
 - Rich feature set
 - Platform independence
-- Independence from third-party applications
+- Independence from third‑party applications
 - Performance and scalability
 - Minimal learning curve
 
@@ -56,11 +56,11 @@ Programmatic access through a rich API to all document elements and formatting a
 
 We use the term [Rendering in Aspose.Words](/words/nodejs-net/rendering/) to describe the process of converting a document into a file format or a medium, paginated or that has the concept of pages.
 
-You can convert whole documents or particular pages to PDF or XPS to generate server-side documents. And all this with high fidelity – exactly like Microsoft Word would have done it.
+You can convert whole documents or particular pages to PDF or XPS to generate server‑side documents. And all this with high fidelity – exactly like Microsoft Word would have done it.
 
 ### Independence from Other Applications
 
-Aspose.Words does not require third-party applications, for example, Microsoft Office, to be installed on the machine in order to work. All Aspose components are completely independent. This makes Aspose.Words a great alternative to automation in terms of security, stability, scalability/speed, price, and features for working with documents and related tasks.
+Aspose.Words does not require third‑party applications, for example, Microsoft Office, to be installed on the machine in order to work. All Aspose components are completely independent. This makes Aspose.Words a great alternative to automation in terms of security, stability, scalability/speed, price, and features for working with documents and related tasks.
 
 ### Performance and Scalability
 
@@ -74,7 +74,7 @@ Aspose.Words is multithread safe as long as only one thread works on a document 
 
 Although there are over 150 public classes and enumerations in Aspose.Words, the learning curve is minimal because the Aspose.Words API has been carefully designed with the following goals in mind:
 
-- Borrow best practices from other well-known APIs such as Microsoft Word Automation
+- Borrow best practices from other well‑known APIs such as Microsoft Word Automation
 - Provide a balance of ease of use and detailed manipulation of document elements
 
 Developers who have previously used Microsoft Word Automation in their projects will find the names and behavior of many classes, methods, and properties familiar.
@@ -89,3 +89,28 @@ Please visit the [Licensing](/words/nodejs-net/licensing/) page for information 
 
 For more information on Aspose.Words technical support, take a look at the [support page](/words/nodejs-net/technical-support/).
 
+------ 
+
+## FAQ
+
+1. **Q:** How do I apply a license for Aspose.Words for Node.js via .NET?  
+   **A:** Create an instance of `Aspose.Words.License` in your .NET code and call `SetLicense` with the path to your `.lic` file. Example:  
+
+   ```csharp
+   Aspose.Words.License license = new Aspose.Words.License();
+   license.SetLicense("Aspose.Words.lic");
+   ```
+
+   Place the license file in a location accessible to the application (e.g., the project root or a secure folder). The license is applied globally for the process.
+
+2. **Q:** Is Aspose.Words for Node.js via .NET compatible with .NET 8?  
+   **A:** Yes. The library targets .NET Standard 2.0 and .NET 6, which are both compatible with .NET 8. You can reference the NuGet package in a .NET 8 project without additional configuration.
+
+3. **Q:** Where can I find detailed pricing and licensing information?  
+   **A:** All pricing tiers, subscription options, and license types are listed on the [Pricing Information](https://purchase.aspose.com/pricing/words/family/) page. Licensing details, including how to obtain and apply a license, are described on the [Licensing](/words/nodejs-net/licensing/) page.
+
+4. **Q:** Does the free trial have any limitations?  
+   **A:** The trial version is fully functional but adds a small watermark to generated documents and is limited to 30 days of use. For production use, purchase a license to remove the watermark and unlock unlimited usage.
+
+5. **Q:** How can I safely use Aspose.Words in a multithreaded environment?  
+   **A:** Aspose.Words is thread‑safe as long as each thread works with its own `Document` instance. Do not share a single `Document` object across threads. Create and dispose of documents within the thread that uses them, or use a thread‑local pool if you need to reuse objects.

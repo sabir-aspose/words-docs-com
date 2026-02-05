@@ -105,3 +105,22 @@ Here is how you can get theme properties:
 And here is how you can set theme properties:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Theme-SetThemeProperties-SetThemeProperties.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I retrieve all paragraphs that use a specific style?  
+   **A:** Use `Document.getChildNodes(NodeType.PARAGRAPH, true)` to obtain all paragraphs, then filter them by checking `paragraph.getParagraphFormat().getStyle().getName()` against the desired style name. The helper method `ParagraphsByStyleName` in the article demonstrates this approach.
+
+2. **Q:** How do I get all runs (character formatting) that have a particular style?  
+   **A:** Call `Document.getChildNodes(NodeType.RUN, true)` to collect all runs, and filter with `run.getFont().getStyle().getName()`. The `RunsByStyleName` method in the article provides a ready‑to‑use example.
+
+3. **Q:** How can I insert a style separator so that a single line contains two different paragraph styles?  
+   **A:** Insert a `StyleSeparator` node at the desired position inside a paragraph. In Java you can create it with `StyleSeparator separator = new StyleSeparator(document); paragraph.appendChild(separator);` and then add the second run with the alternate style after the separator.
+
+4. **Q:** How do I copy all styles from a template document into another document?  
+   **A:** Load the template with `Document template = new Document("Template.docx");` and the target document with `Document target = new Document("Target.docx");`. Then call `target.copyStylesFromTemplate(template);`. This copies matching styles and adds any unique styles from the template.
+
+5. **Q:** How can I read or modify the theme colors, fonts, or other theme properties of a document?  
+   **A:** Access the theme via `Theme theme = document.getTheme();`. You can read colors with `theme.getColors().getAccent1()` and fonts with `theme.getFonts().getMajor()`. To change a property, assign a new value, e.g., `theme.getColors().setAccent1(Color.getBlue());` and then save the document. The code snippets in the “How to Manipulate Theme Properties” section illustrate both reading and setting these values.

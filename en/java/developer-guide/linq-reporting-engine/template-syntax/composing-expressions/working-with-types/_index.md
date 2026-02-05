@@ -22,3 +22,22 @@ However, you can use the identifier of a visible type in template expressions on
 - The type identifier does not contain generic type arguments.
 
 Also, the engine enables you to use anonymous types in template expressions. Such types are useful while composing expressions with grouping by multiple keys. See “Appendix A. Enumeration Extension Methods” for the examples.
+
+------ 
+
+## FAQ
+
+1. **Q:** What qualifies as a *visible* type for use in LINQ Reporting Engine template expressions?  
+   **A:** A visible type must be a public class (or struct) whose containing (outer) types are also public. The type cannot be `void`, an array, or contain generic type arguments in its identifier.
+
+2. **Q:** Can I reference generic types or arrays directly in a template expression?  
+   **A:** No. The engine does not allow identifiers that include generic type arguments (e.g., `List<T>`) or array types (e.g., `String[]`). Use a non‑generic wrapper or a concrete type instead.
+
+3. **Q:** How can I use an anonymous type inside a template expression?  
+   **A:** Create the anonymous type in your data source (e.g., `var item = new { Id = 1, Name = "John" };`) and pass it to the engine. In the template you can access its members directly, such as `<<[item.Id]>>` and `<<[item.Name]>>`.
+
+4. **Q:** Why does a template expression fail when I try to use a nested public class?  
+   **A:** All outer types of the nested class must be public. If any containing class is non‑public, the nested type is not considered visible and its identifier cannot be used in the template.
+
+5. **Q:** Are Java primitive types (e.g., `int`, `double`) usable in template expressions?  
+   **A:** Yes. Primitive types are treated as visible types, so you can reference them directly in expressions, such as `<<[order.Total]>>` where `Total` is a `double`.

@@ -26,3 +26,22 @@ The following code example shows how to use the *Gemini 1.5 Flash* model in Aspo
 Translating documents with Aspose.Words saves time and makes it easy to integrate translation functionality into your projects. For more information, check the [Aspose.Words.AI](https://reference.aspose.com/words/nodejs-net/aspose.words.ai/) API documentation.
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I translate a document using Aspose.Words for Node.js via .NET?  
+   **A:** Call the `translate` method of the `Aspose.Words.AI` namespace, passing the source `Document` and a target language from the `Language` enumeration. The method returns a new `Document` containing the translated content.
+
+2. **Q:** Which AI models can be used for translation?  
+   **A:** Aspose.Words supports models from Google, OpenAI, and Anthropic. The example uses the Gemini 1.5 Flash model, but you can select any supported model by configuring the `AiModel` property before calling `translate`.
+
+3. **Q:** What happens if the source document contains multiple languages?  
+   **A:** The translation engine attempts to detect each language fragment and translate it to the target language. Fragments that cannot be recognized remain unchanged in the output document.
+
+4. **Q:** Why are some parts of my document not translated?  
+   **A:** Untranslated fragments may be due to unsupported source languages, extremely short text that the model cannot identify, or formatting that interferes with language detection. Verify that the source language is among the supported list and consider preprocessing the document to isolate translatable text.
+
+5. **Q:** Do I need a separate license for the translation feature?  
+   **A:** No additional Aspose.Words license is required. However, you must have valid credentials (API key, token, etc.) for the chosen AI provider (Google, OpenAI, or Anthropic) because the translation is performed by their external service.

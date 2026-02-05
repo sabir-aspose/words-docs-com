@@ -60,7 +60,26 @@ By default, a document being inserted is not checked against template syntax and
 
 When a `build` switch is used, the engine treats a document being inserted as a template that can access the following data available at the scope of a corresponding `doc` tag:
 
-- Data sources
-- Variables
-- A contextual object (see “Using Contextual Object Member Access” for more information)
-- Known external types (see “Setting up Known External Types” for more information)
+- Data sources  
+- Variables  
+- A contextual object (see “Using Contextual Object Member Access” for more information)  
+- Known external types (see “Setting up Known External Types” for more information)  
+
+------  
+
+## FAQ  
+
+1. **Q:** How do I insert a document from a file path using a `doc` tag?  
+   **A:** Place a `doc` tag in the template and provide the file path as a string expression, e.g. `<<doc ["C:/Docs/Appendix.docx"]>>`. At runtime the engine loads the file and replaces the tag with its content.
+
+2. **Q:** I want the inserted document to keep its original formatting. Which switch should I use?  
+   **A:** Add the `-sourceStyles` switch to the tag: `<<doc [docExpression] -sourceStyles>>`. This tells the engine to preserve the source document’s styles instead of mapping them to the template’s styles.
+
+3. **Q:** My inserted document contains numbered lists, but the numbering continues from the template list. How can I keep the numbering separate?  
+   **A:** Use the `-sourceNumbering` switch: `<<doc [docExpression] -sourceNumbering>>`. This prevents the engine from merging list identifiers and retains the original numbering of the inserted document.
+
+4. **Q:** Can I insert a single‑paragraph document inline so that it adopts the surrounding paragraph’s formatting?  
+   **A:** Yes. Apply the `-inline` switch: `<<doc [docExpression] -inline>>`. The engine removes the trailing paragraph break of the inserted document and places its text inside the same paragraph that contains the tag.
+
+5. **Q:** How can I populate merge fields inside the inserted document with data from my report?  
+   **A:** Add the `-build` switch: `<<doc [docExpression] -build>>`. The inserted document is treated as a template and can use the same data sources, variables, and contextual objects that are available at the location of the `doc` tag.  

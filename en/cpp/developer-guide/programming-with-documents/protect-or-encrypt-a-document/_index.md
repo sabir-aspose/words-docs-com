@@ -45,3 +45,55 @@ Note that the exact names of features and the paths to them in Microsoft Word ma
 ## See Also
 
 * Try our [Free online documents unlocker](https://products.aspose.app/words/unlock)
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I encrypt a Word document with a password using Aspose.Words for C++?  
+   **A:** Load the document, call `Protect` with the `ReadOnly` protection type and provide the opening password, then save the file. Example:  
+
+   ```cpp
+   System::SharedPtr<Aspose::Words::Document> doc = System::MakeObject<Aspose::Words::Document>(u"input.docx");
+   doc->Protect(Aspose::Words::Protection::ProtectionType::ReadOnly, u"", u"MyOpenPassword");
+   doc->Save(u"encrypted.docx");
+   ```
+
+2. **Q:** How do I make a document read‑only without requiring a password?  
+   **A:** Use the `Protect` method with the `ReadOnly` protection type and pass an empty string for the password. The document can be opened by anyone but cannot be edited.  
+
+   ```cpp
+   System::SharedPtr<Aspose::Words::Document> doc = System::MakeObject<Aspose::Words::Document>(u"input.docx");
+   doc->Protect(Aspose::Words::Protection::ProtectionType::ReadOnly, u"", u"");
+   doc->Save(u"readonly.docx");
+   ```
+
+3. **Q:** How can I restrict editing to comments or tracked changes only?  
+   **A:** Choose the appropriate `ProtectionType`—`Comments` or `TrackedChanges`—when calling `Protect`. This limits the user to adding comments or using tracked changes, respectively.  
+
+   ```cpp
+   // Restrict to comments only
+   doc->Protect(Aspose::Words::Protection::ProtectionType::Comments, u"", u"");
+   // Restrict to tracked changes only
+   doc->Protect(Aspose::Words::Protection::ProtectionType::TrackedChanges, u"", u"");
+   ```
+
+4. **Q:** How do I add a digital signature to a document with Aspose.Words for C++?  
+   **A:** Use `DigitalSignatureUtil::Sign`, providing the document, the path to a PKCS#12 certificate, and the certificate password.  
+
+   ```cpp
+   System::SharedPtr<Aspose::Words::Document> doc = System::MakeObject<Aspose::Words::Document>(u"input.docx");
+   Aspose::Words::DigitalSignatureUtil::Sign(doc, u"mycert.pfx", u"certPassword");
+   doc->Save(u"signed.docx");
+   ```
+
+5. **Q:** How can I apply a license to remove evaluation limitations?  
+   **A:** Create a `License` object and call `SetLicense` with the path to your `.lic` file before using any Aspose.Words functionality.  
+
+   ```cpp
+   System::SharedPtr<Aspose::Words::License> license = System::MakeObject<Aspose::Words::License>();
+   license->SetLicense(u"Aspose.Words.CPP.lic");
+   // Now the library works in licensed mode
+   ```
+
+------

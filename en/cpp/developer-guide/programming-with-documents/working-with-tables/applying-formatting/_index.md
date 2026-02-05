@@ -29,7 +29,7 @@ To apply formatting to a table, you can use the properties available on the corr
 
 {{% alert color="primary" %}}
 
-Note that the table must have at least one row before the table properties can be applied. This means that when building a table with the [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/), this formatting must be done after the first call to [InsertCell](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertcell/), or after the first row is added to the table, or when nodes are inserted directly into the DOM.
+Note that the table must have at least one row before the table properties can be applied. This means that when building a table with the [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/), this formatting must be done after the first call to [InsertCell](https://reference.aspose.com/words/cpp/aspose.words.documentbuilder/insertcell/), or after the first row is added to the table, or when nodes are inserted directly into the DOM.
 
 {{% /alert %}}
 
@@ -181,7 +181,7 @@ By default, a table can be described as being fitted to 100% of the available sp
 
 Using the [Table.PreferredWidth](https://reference.aspose.com/words/cpp/aspose.words.tables/table/get_preferredwidth/) property will adjust its preferred width relative to its container: page, text column, or outer table cell if it is a nested table.
 
-The following code example shows how to set the table to auto-fit to 50% of the page width:
+The following code example shows how to set the table to auto‑fit to 50% of the page width:
 
 {{< gist "aspose-words-gists" "4f1d7039f19f9f49472a50cc0d0fc475" "auto-fit-to-page-width.h" >}}
 
@@ -319,3 +319,22 @@ The pictures below show the border and shadow settings in Microsoft Word and the
 The following code example shows how to format a table and cell with different borders and shadings:
 
 {{< gist "aspose-words-gists" "4f1d7039f19f9f49472a50cc0d0fc475" "format-table-and-cell-with-different-borders.h" >}}
+
+------ 
+
+## FAQ
+
+1. Q: How do I apply a border to an entire table in C++?  
+   A: Use the `Table::SetBorders` method and pass a `BorderInfo` object that defines the line style, color, and width. After creating the table with `DocumentBuilder`, call `SetBorders` before saving the document.
+
+2. Q: What is the recommended way to set a table’s width to a specific percentage of the page?  
+   A: Create a `PreferredWidth` object with `PreferredWidth::FromPercent(percentage)` and assign it to `Table::set_PreferredWidth`. Ensure the table has at least one row before setting the property.
+
+3. Q: How can I make a table automatically adjust its columns to the content?  
+   A: Enable autofit to content by calling `Table::AutoFit(AutoFitBehavior::AutoFitToContents)`. This clears any existing preferred widths and lets each cell grow or shrink based on its contents.
+
+4. Q: Why does my row height setting have no effect?  
+   A: Row height is ignored when `AllowAutoFit` is true. Disable autofit for the table (`Table::set_AllowAutoFit(false)`) or set the `HeightRule` to `HeightRule::Exactly` before assigning a value to `RowFormat::set_Height`.
+
+5. Q: How do I add spacing between cells?  
+   A: Set the `AllowCellSpacing` property of the `Table` to `true` and then specify the desired spacing using `Table::set_CellSpacing(double spacing)`. This works only after the table contains at least one row.

@@ -21,7 +21,7 @@ The ability to easily and reliably convert documents from one format to another 
 Almost any task that you want to perform with Aspose.Words involves loading or saving a document in some format. As mentioned in previous sections, the [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) enumeration specifies all *load* or *import* formats supported by Aspose.Words, and the [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) enumeration specifies all *save* or *export* formats supported by Aspose.Words. Thus, Aspose.Words can convert a document from any supported load format into any supported save format. As a rule, such a conversion requires several stages of calculation. However from the user perspective conversion from a document format to another one is itself very simple, and can be accomplished with just two steps:
 
 1. Load your document into a [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) object using one of its constructors.
-1. Invoke one of the [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String-int) methods on the **Document** object and specify the desired output format.
+2. Invoke one of the [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String-int) methods on the **Document** object and specify the desired output format.
 
 {{% alert color="primary" %}}
 
@@ -104,3 +104,28 @@ Please note that below are the most popular conversion combinations, and not eve
 			</ul>
 	</div>
 </div>
+
+------ 
+
+## FAQ
+
+1. **Q: How do I convert a Word document to PDF using Aspose.Words for Java?**  
+   **A:** Load the source file with `Document doc = new Document("input.docx");` and then call `doc.save("output.pdf", SaveFormat.PDF);`. The `SaveFormat` enumeration defines the target format.
+
+2. **Q: Which file formats can Aspose.Words for Java load and save?**  
+   **A:** The library supports dozens of formats. Loading formats are listed in the `LoadFormat` enum (e.g., DOC, DOCX, RTF, ODT, HTML, MHTML, MD, TXT). Saving formats are listed in the `SaveFormat` enum (e.g., PDF, PNG, JPEG, HTML, EPUB, MD, TXT). See the supported‑document‑formats page for the full list.
+
+3. **Q: Can I convert a Markdown file to PDF or Word directly?**  
+   **A:** Yes. Load the Markdown file with `Document doc = new Document("input.md");` and then save it to the desired format, for example `doc.save("output.pdf", SaveFormat.PDF);` or `doc.save("output.docx", SaveFormat.DOCX);`.
+
+4. **Q: How do I convert a password‑protected document?**  
+   **A:** First set the password on the `LoadOptions` object, load the document, then save it without the password (or with a new one). Example:  
+   ```java
+   LoadOptions loadOptions = new LoadOptions();
+   loadOptions.setPassword("oldPassword");
+   Document doc = new Document("protected.docx", loadOptions);
+   doc.save("unprotected.pdf", SaveFormat.PDF);
+   ```
+
+5. **Q: Do I need a license to perform document conversion in production?**  
+   **A:** A license is not required for basic conversion, but without a license the output will contain a watermark and evaluation limits apply. Apply a license by loading the `.lic` file with `License license = new License(); license.setLicense("Aspose.Words.Java.lic");`. This removes watermarks and unlocks full functionality.

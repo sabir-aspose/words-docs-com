@@ -59,17 +59,36 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% /alert %}}
 
-## How to Set Up Data Relations in Nested Mail Merge with Regions
+## How to Set Up Data Relations in Nested Mail Merge with Regions  
 
-You need to set up all data relationships in the parent-child structure to execute the nested Mail Merge with regions correctly. Skipping this important step can lead to a failure in executing the nested Mail Merge with regions.
+You need to set up all data relationships in the parent‑child structure to execute the nested Mail Merge with regions correctly. Skipping this important step can lead to a failure in executing the nested Mail Merge with regions.
 
 When retrieving data for a nested Mail Merge from an XML file using the **ReadXml** method, relationships are automatically created according to the structure of the XML document. However, you need to make sure that correct relations have been created.
 
 If Mail Merge is not working as expected, then you may need to restructure your XML file or explicitly create relations between DataTable objects in the DataSet.
 
-A `DataSet` that has related data tables will use the **DataRelation** object to represent the parent-child relationship between the tables.
+A `DataSet` that has related data tables will use the **DataRelation** object to represent the parent‑child relationship between the tables.
 
-The following code example shows how to establish a `DataRelation` between a customer’s table and an order’s table by using a `DataRelation` object:
-{{< highlight java >}}
-dataSet.getRelations().add(new DataRelation("OrderToItem", orderTable.getColumns().get("Order_Id"), itemTable.getColumns().get("Order_Id"), false));
+The following code example shows how to establish a `DataRelation` between a customer’s table and an order’s table by using a `DataRelation` object:  
+{{< highlight java >}}  
+dataSet.getRelations().add(new DataRelation("OrderToItem", orderTable.getColumns().get("Order_Id"), itemTable.getColumns().get("Order_Id"), false));  
 {{< /highlight >}}
+
+------  
+
+## FAQ  
+
+1. **Q:** What is the difference between a regular Mail Merge region and a nested Mail Merge region?  
+   **A:** A regular region merges data from a single table, while a nested region merges data from a child table that is related to the parent table. The child region must be placed inside the parent region in the template, and the data source must contain a `DataRelation` that defines the parent‑child link.
+
+2. **Q:** How do I create the required `DataRelation` when my data comes from an XML file?  
+   **A:** If you load the XML with `DataSet.readXml`, Aspose.Words will automatically infer relationships based on the XML hierarchy. If the relationships are not inferred correctly, you can create them manually using `DataSet.getRelations().add(new DataRelation(...))` as shown in the example.
+
+3. **Q:** My nested Mail Merge produces only the parent rows and no child rows. What could be wrong?  
+   **A:** This usually means the region names in the template do not match the table names or the `DataRelation` is missing or incorrectly defined. Verify that the child region name matches the child table name and that the `DataRelation` connects the correct parent and child columns.
+
+4. **Q:** Can I use a database `ResultSet` instead of an XML file for nested Mail Merge?  
+   **A:** Yes. Fill a `DataSet` with `DataTable`s retrieved from the database, then create the necessary `DataRelation`s between those tables before calling `mailMerge.executeWithRegions(dataSet)`.
+
+5. **Q:** Is it possible to perform a nested Mail Merge with more than two levels (e.g., Order → Item → SubItem)?  
+   **A:** Absolutely. You can nest any number of regions as long as each child region has a corresponding `DataRelation` that links it to its immediate parent table. Ensure the template reflects the same hierarchy.  

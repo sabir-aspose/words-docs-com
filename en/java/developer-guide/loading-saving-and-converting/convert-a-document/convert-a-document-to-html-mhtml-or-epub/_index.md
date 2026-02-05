@@ -94,3 +94,22 @@ You can download the template file of this example from [Aspose.Words GitHub](
 ## See Also
 
 - [How to export round-trip information when saving to HTML](/words/java/custom-styles-used-for-proper-aspose-words-html-roundtrip/)
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I convert a DOCX file to HTML using Aspose.Words for Java?  
+   **A:** Load the document with `Document document = new Document("input.docx");` and call `document.save("output.html", SaveFormat.HTML);`. You can also pass an `HtmlSaveOptions` instance to customize the output.
+
+2. **Q:** How do I embed fonts directly into the generated HTML file?  
+   **A:** Set `HtmlSaveOptions options = new HtmlSaveOptions(); options.setExportFontsAsBase64(true);` before saving. This embeds the font files as Base64 strings inside the CSS, eliminating external font files.
+
+3. **Q:** Where can I control the folder where images and other resources are saved during HTML conversion?  
+   **A:** Use `HtmlSaveOptions` properties such as `setResourceFolder("resources")`, `setImagesFolder("resources/images")`, and `setFontsFolder("resources/fonts")`. These properties define the physical locations for the exported resources.
+
+4. **Q:** How can I preserve Word features like comments, headers, and footers when converting to HTML?  
+   **A:** Enable round‑trip information by setting `options.setExportRoundtripInformation(true);`. This adds special `aw-*` CSS attributes that allow the document to be re‑loaded with those features intact.
+
+5. **Q:** What is the simplest way to convert a document to EPUB format?  
+   **A:** Call `document.save("output.epub", SaveFormat.EPUB);`. For advanced control, pass an `HtmlSaveOptions` object to the `save` method and specify EPUB‑specific options.

@@ -40,7 +40,6 @@ The following code example shows how to load and save a document to a stream:
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).
 
-
 ## Save to PCL {#save-a-document-to-pcl}
 
 Aspose.Words supports saving a document into PCL (Printer Command Language). Aspose.Words can save documents into PCL 6 (PCL 6 Enhanced or PCL XL) format. The `PclSaveOptions` class can be used to specify additional options when saving a document into the PCL format.
@@ -48,3 +47,22 @@ Aspose.Words supports saving a document into PCL (Printer Command Language). Asp
 The following code example shows how to save a document to PCL using save options:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ConvertDocumentToPCL-ConvertDocumentToPCL.cpp" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How does Aspose.Words determine the file format when I call `Document::Save("output.pdf")`?  
+   **A:** The library infers the format from the file extension. In the example, the `.pdf` extension tells Aspose.Words to save the document as PDF. If you need to override this behavior, pass a `SaveOptions` object with the desired `SaveFormat`.
+
+2. **Q:** Can I save a document directly to a memory stream in C++?  
+   **A:** Yes. Create a `System::IO::MemoryStream`, then call `document.Save(memoryStream, SaveFormat::Pdf)` (or any other format). After saving, you can retrieve the byte array with `memoryStream->ToArray()`.
+
+3. **Q:** Which file formats are supported for saving with Aspose.Words for C++?  
+   **A:** All formats listed in the `SaveFormat` enumeration are supported, including DOC, DOCX, PDF, XPS, PCL, HTML, EPUB, and many others. Refer to the [SaveFormat](https://reference.aspose.com/words/cpp/aspose.words/saveformat/) documentation for the complete list.
+
+4. **Q:** How can I customize the PDF output when saving a document?  
+   **A:** Use `PdfSaveOptions` to control PDF-specific settings such as compliance level, image compression, font embedding, and document security. Pass the configured options to `Document::Save(stream, pdfOptions)`.
+
+5. **Q:** Is it possible to obtain the saved document as a byte array without writing to disk?  
+   **A:** Yes. Save the document to a `MemoryStream` as described above, then call `memoryStream->ToArray()` to get the raw bytes, which you can send over a network, store in a database, or process further.

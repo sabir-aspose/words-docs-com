@@ -149,3 +149,22 @@ The following code example shows how to highlight positive numbers with green co
 The following code example shows how to prepend a line number to each line:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Find-Replace-ReplaceWithHTML-LineCounter.cpp" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I perform a simple string replacement in C++ with Aspose.Words?  
+   **A:** Use the `Range::Replace` method, passing the text to find, the replacement text, and optionally a `FindReplaceOptions` object to control case‑sensitivity or whole‑word matching. The method returns the number of replacements made.
+
+2. **Q:** Can I use regular expressions for find and replace?  
+   **A:** Yes. Call `Range::Replace` with the `Regex` property of `FindReplaceOptions` set to your pattern and specify the replacement string. This allows complex matches such as duplicate words or date formats.
+
+3. **Q:** How can I replace text inside headers or footers?  
+   **A:** Retrieve the desired `HeaderFooter` via `Document::get_FirstSection()->get_HeadersFooters()->idx_get(HeaderFooterType::HeaderPrimary)` (or `FooterPrimary`) and call `Range::Replace` on its `Range` object just like with the main document body.
+
+4. **Q:** I need to ignore certain parts of the document (e.g., fields, footnotes) during replacement. How is this done?  
+   **A:** Set the appropriate flags on a `FindReplaceOptions` instance, such as `set_IgnoreFields(true)`, `set_IgnoreFootnotes(true)`, or `set_IgnoreDeleted(true)`, and pass this options object to `Range::Replace`.
+
+5. **Q:** How do I replace matched text with HTML or custom formatting?  
+   **A:** Implement the `IReplacingCallback` interface and assign an instance to `FindReplaceOptions::set_ReplacingCallback`. In the callback, create the required nodes (e.g., `DocumentBuilder` to insert HTML) and replace the original run. This enables insertion of styled text, images, or other markup.

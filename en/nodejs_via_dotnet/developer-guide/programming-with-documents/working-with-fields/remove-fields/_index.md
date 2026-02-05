@@ -26,3 +26,22 @@ The following code example shows how to remove a field from the document:
 You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/tree/main/Data/Various%20fields.docx).
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I remove a specific field type (e.g., a TOC) from a document?  
+   **A:** Locate the field by iterating through `document.getRange().getFields()` and checking `field.getType()`. When the desired type is found, call `field.remove()`. This removes the field node while preserving the surrounding document structure.
+
+2. **Q:** Is there a way to remove all fields from a document in one step?  
+   **A:** Yes. Retrieve the collection of fields with `let fields = document.getRange().getFields();` and loop backwards (from `fields.getCount() - 1` to `0`) calling `fields.get(i).remove();`. Looping backwards prevents index shifting as fields are deleted.
+
+3. **Q:** Does calling `Field.remove()` also delete the field result text that is displayed in the document?  
+   **A:** `Field.remove()` deletes the entire field node, including its result text. If you need to keep the result text, read `field.getResult()` before removal and insert it back as a plain run.
+
+4. **Q:** Can I remove a field that was inserted with `DocumentBuilder.insertField` without using the returned `Field` object?  
+   **A:** Yes. After insertion, you can retrieve the field via `document.getRange().getFields().get(document.getRange().getFields().getCount() - 1)` (the last field) and then call `remove()`. However, keeping the reference returned by `insertField` is more efficient.
+
+5. **Q:** What happens to bookmarks or hyperlinks that reference a field I have removed?  
+   **A:** Removing a field does not automatically update bookmarks or hyperlinks that point to the field’s start or end positions. After removal, you may need to adjust those references manually or recreate them if required.

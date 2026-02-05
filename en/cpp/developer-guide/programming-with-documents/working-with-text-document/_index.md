@@ -73,3 +73,22 @@ The following code example shows how to export list levels using space character
 The following code example shows how to export list levels using default indentation:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-WorkingWithTxt-DefaultLevelForListIndentation.cpp" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** How can I enable bi‑directional marks when saving a TXT document?  
+   **A:** Set the `AddBidiMarks` property of `TxtSaveOptions` to `true` before calling `Document::Save`. This inserts the Unicode RIGHT‑TO‑LEFT MARK (U+200F) before each BiDi run, preserving the correct visual order for Arabic or Hebrew text.
+
+2. **Q:** Which option controls the detection of numbered list items when loading a plain‑text file?  
+   **A:** Use the `DetectNumberingWithWhitespaces` property of `TxtLoadOptions`. When set to `true`, whitespaces are treated as delimiters for list numbers, allowing recognition of Arabic‑style numbering such as “1. 1.2”. Set it to `false` to rely only on punctuation characters.
+
+3. **Q:** How do I trim leading and trailing spaces while importing a TXT file?  
+   **A:** Configure `TxtLoadOptions::set_LeadingSpaces` and `TxtLoadOptions::set_TrailingSpaces` to `TxtLeadingSpaces::Trim` and `TxtTrailingSpaces::Trim` respectively. Then load the document with these options; the spaces will be removed during import.
+
+4. **Q:** Can headers and footers be exported to a plain‑text file?  
+   **A:** Yes. Set `ExportHeadersFootersMode` on `TxtSaveOptions` to `ExportHeadersFootersMode::All` (or `PrimaryOnly`) to include header and footer text in the generated TXT output.
+
+5. **Q:** How can I customize list indentation when saving to TXT (tabs, spaces, or default)?  
+   **A:** Create a `TxtListIndentation` object, set its `Character` to `'\t'` for tabs or `' '` for spaces, and specify the `Count` (e.g., `4` for four spaces). Assign this object to `TxtSaveOptions::set_ListIndentation`. If you leave the character as `'\0'` and count as `0`, no indentation is added.

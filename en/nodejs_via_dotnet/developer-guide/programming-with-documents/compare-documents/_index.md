@@ -68,3 +68,38 @@ Another common property is a choice in which document to show comparison changes
 The following code example shows how to set the advanced comparing properties:
 
 {{< gist "aspose-words-gists" "57808d29628dd1680d4c229e84c5456c" "compare-options.js" >}}
+
+
+
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I apply my Aspose.Words license before performing a document comparison?  
+   **A:** Load the license file using the `License` class before creating any `Document` objects. For example:  
+
+   ```javascript
+   const asposewords = require('aspose.words');
+   let license = new asposewords.License();
+   license.setLicense("Aspose.Words.lic");
+   ```
+
+   This ensures that all subsequent operations, including comparison, run without evaluation limitations.
+
+2. **Q:** How can I determine programmatically whether two documents are identical after comparison?  
+   **A:** After calling `document1.compare(document2, "Author", compareOptions)`, inspect the `revisions` collection of the first document. If `document1.getRevisions().getCount()` returns zero, the documents are considered equal.
+
+3. **Q:** Which option should I use to ignore formatting changes during comparison?  
+   **A:** Set the `ignoreFormatting` property of `CompareOptions` to `true`. This tells the engine to treat font, style, and other formatting modifications as non‑significant, so only textual changes appear as revisions.
+
+4. **Q:** Can I compare documents that are loaded from streams or have no file extension?  
+   **A:** Yes. Use the `Document` constructor that accepts a stream or a byte array, optionally providing a `LoadOptions` object to specify the format. Example:  
+
+   ```javascript
+   let stream = fs.readFileSync("doc1");
+   let doc1 = new asposewords.Document(stream, new asposewords.LoadOptions());
+   ```
+
+5. **Q:** What file formats are supported for document comparison?  
+   **A:** Aspose.Words can compare any formats it can load, including DOC, DOCX, ODT, RTF, HTML, PDF (as source), and many others. The comparison result is always produced as a Word document (DOCX) with revisions.

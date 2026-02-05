@@ -103,3 +103,21 @@ Aspose.Words also allows to translate tables into DOM, as shown below:
 
 * [Working with Markdown Features](/words/java/working-with-markdown-features/)
 
+------ 
+
+## FAQ
+
+1. **Q:** How can I convert a Markdown file to a Word document using Aspose.Words for Java?  
+   **A:** Load the Markdown file with `Document doc = new Document("input.md");` and then save it in a Word format, e.g., `doc.save("output.docx");`. The library automatically parses the Markdown and builds the corresponding DOM.
+
+2. **Q:** Is it possible to convert a Word document back to Markdown?  
+   **A:** Yes. After loading a Word document (`Document doc = new Document("input.docx");`), call `doc.save("output.md");`. Aspose.Words will translate the DOM back to Markdown, preserving supported elements.
+
+3. **Q:** Which style names are used for Markdown headings when they are imported?  
+   **A:** Headings are mapped to built‑in styles named `Heading 1` … `Heading 9`. The importer expects the exact pattern without extra prefixes or suffixes; otherwise the text is treated as a normal paragraph.
+
+4. **Q:** How are bulleted and ordered lists represented in the DOM?  
+   **A:** Bulleted lists use `ListFormat.applyBulletDefault();` while ordered lists use `ListFormat.applyNumberDefault();`. The first‑level marker can be `-`, `+`, `*` for bullets and `.` or `)` for numbers.
+
+5. **Q:** What classes are used for images and hyperlinks during conversion?  
+   **A:** Images become `Shape` objects (`Shape shape = new Shape(doc, ShapeType.IMAGE);`). Hyperlinks and autolinks are represented by `FieldHyperlink` fields, which can be accessed via `FieldHyperlink field = (FieldHyperlink) node;`.

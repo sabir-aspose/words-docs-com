@@ -220,3 +220,22 @@ Most of the object properties provided in the Aspose.Words API that represents s
 The following code example shows how to specify page properties in inches.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ConvertBetweenMeasurementUnits-ConvertBetweenMeasurementUnits.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I move the DocumentBuilder cursor to a specific location such as a paragraph, table cell, or bookmark?  
+   **A:** Use the appropriate `moveTo…` method: `moveToParagraph(int paragraphIndex, int characterIndex)`, `moveToCell(int tableIndex, int rowIndex, int columnIndex, int characterIndex)`, or `moveToBookmark(String bookmarkName)`. These methods position the cursor before the target node, allowing subsequent insertions.
+
+2. **Q:** Will inserting text at a bookmark overwrite the existing bookmark text?  
+   **A:** No. Inserting after moving to a bookmark adds content without replacing the bookmark’s original text. If the bookmark is linked to a form field, the inserted text becomes part of the field code and will not be displayed.
+
+3. **Q:** How do I navigate to a header or footer and then return to the main document body?  
+   **A:** Call `moveToHeaderFooter(HeaderFooterType type)` to enter the header/footer. After finishing, use `moveToSection(int sectionIndex)` (typically the same section index) to return to the main story.
+
+4. **Q:** How can I move to a merge field and remove it using DocumentBuilder?  
+   **A:** Use `moveToMergeField(String fieldName)`. The method moves the cursor just after the specified merge field and deletes the field, allowing you to insert custom content at that position.
+
+5. **Q:** What is the recommended way to set page dimensions using inches instead of points?  
+   **A:** Utilize `ConvertUtil.inchToPoint(double inches)` to convert inches to points, then assign the result to page properties such as `PageSetup.setPageWidth` and `PageSetup.setPageHeight`. This keeps the code readable while using the API’s point‑based measurements.

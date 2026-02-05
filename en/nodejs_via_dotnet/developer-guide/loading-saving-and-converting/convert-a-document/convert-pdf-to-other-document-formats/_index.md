@@ -64,6 +64,45 @@ During a PDF document conversion, one of the following exceptions might happen:
 | -------------------------------- | ------------------------------------------------------------ |
 | *FileLoadException*              | A PDF file cannot be processed for some reason.<br />{{% alert color="primary" %}}You can report the issue to the development team for a detailed investigation using the [technical support](/words/nodejs-net/technical-support/).{{% /alert %}} |
 | *DrmProtectedFileException*      | A PDF file is protected by Adobe DRM and cannot be decoded by Pdf2Word. |
-| *PasswordProtectedFileException* | The correct password must be provided for a password-protected PDF. |
+| *PasswordProtectedFileException* | The correct password must be provided for a password‑protected PDF. |
 
+------ 
 
+## Troubleshoot
+
+1. **Problem:** *FileLoadException* is thrown when loading a PDF.  
+   **Solution:** Verify that the file path is correct and the file is not corrupted. Ensure the PDF version is supported by Aspose.Words. If the file is large, increase the memory limit for the Node.js process or load the document in smaller page ranges using `PdfLoadOptions.PageIndex` and `PdfLoadOptions.PageCount`.
+
+2. **Problem:** *DrmProtectedFileException* occurs during conversion.  
+   **Solution:** Aspose.Words does not support Adobe DRM‑protected PDFs. Remove DRM protection with a tool that can legally decrypt the file before loading it with Aspose.Words, or obtain an unprotected version of the PDF.
+
+3. **Problem:** *PasswordProtectedFileException* is raised for a password‑protected PDF.  
+   **Solution:** Supply the password through `PdfLoadOptions`. Example:  
+
+   ```javascript
+   const aspose = require("aspose.words");
+   const loadOptions = new aspose.words.loading.PdfLoadOptions();
+   loadOptions.password = "MySecretPassword";
+   const doc = new aspose.words.Document("protected.pdf", loadOptions);
+   doc.save("output.docx");
+   ```
+
+4. **Problem:** Images are missing in the converted Word document.  
+   **Solution:** Ensure that `PdfLoadOptions.SkipPdfImages` is set to `false` (the default). If it has been changed, reset it:  
+
+   ```javascript
+   const loadOptions = new aspose.words.loading.PdfLoadOptions();
+   loadOptions.skipPdfImages = false; // keep images
+   const doc = new aspose.words.Document("source.pdf", loadOptions);
+   ```
+
+5. **Problem:** Only a subset of pages is converted or the output is empty.  
+   **Solution:** Check the values of `PdfLoadOptions.PageIndex` and `PdfLoadOptions.PageCount`. Setting `PageIndex` to `0` and `PageCount` to a value greater than the total pages loads the entire document. Example:  
+
+   ```javascript
+   const loadOptions = new aspose.words.loading.PdfLoadOptions();
+   loadOptions.pageIndex = 0;   // start from the first page
+   loadOptions.pageCount = 0;   // 0 means all pages
+   const doc = new aspose.words.Document("source.pdf", loadOptions);
+   doc.save("full_output.docx");
+   ```

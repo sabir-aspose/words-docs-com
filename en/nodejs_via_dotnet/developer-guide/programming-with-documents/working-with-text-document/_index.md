@@ -73,3 +73,22 @@ The following code example shows how to export list levels using tab characters:
 The following code example shows how to export list levels using space characters:
 
 {{< gist "aspose-words-gists" "ee038b97a80cf17ce52665651e81d832" "use-space-for-list-indentation.js" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I include bi‑directional marks when saving a document to plain text?  
+   **A:** Set the `addBidiMarks` property of `TxtSaveOptions` to `true`. This inserts a RIGHT‑TO‑LEFT MARK (U+200F) before each BiDi run, ensuring correct display of Arabic or Hebrew text in the exported TXT file.
+
+2. **Q:** My numbered lists are not recognized when loading a TXT file. What should I do?  
+   **A:** Enable `detectNumberingWithWhitespaces` on `TxtLoadOptions`. When set to `true`, the loader treats whitespaces as valid delimiters for list numbers, allowing both “1.” and “1 ” styles to be detected correctly.
+
+3. **Q:** How do I control leading and trailing spaces while importing a TXT document?  
+   **A:** Use the `leadingSpaces` and `trailingSpaces` options of `TxtLoadOptions`. You can choose to trim, preserve, or convert leading spaces to indents, and similarly decide how trailing spaces are handled.
+
+4. **Q:** Can I export headers and footers to a plain‑text file?  
+   **A:** Yes. Set the `exportHeadersFootersMode` property of `TxtSaveOptions` to the desired mode (e.g., `ExportHeadersFootersMode.All`). This determines whether headers, footers, or both are included in the TXT output.
+
+5. **Q:** How can I customize list indentation in the exported TXT file?  
+   **A:** Configure the `listIndentation` property of `TxtSaveOptions` with a `TxtListIndentation` object. Specify the character (tab `'\t'` or space `' '` ) and the count of characters per list level to achieve the required indentation style.

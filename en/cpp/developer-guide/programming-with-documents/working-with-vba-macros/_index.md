@@ -58,3 +58,23 @@ You can also clone VBA modules if needed.
 The following code example shows how to clone the VBA Module using the [Clone](https://reference.aspose.com/words/cpp/aspose.words.vba/vbamodule/clone/) property which creates a copy of the existing project:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-WorkingWithVbaMacros-CloneVbaModule.cpp" >}}
+
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I apply an Aspose.Words license when working with VBA macros in C++?  
+   **A:** Load the license file using `Aspose::Words::License license; license.SetLicense("Aspose.Words.CPP.lic");` before creating any `Document` objects. The license covers all features, including VBA project access, so the API will work without evaluation limitations.
+
+2. **Q:** Can I clone an entire VBA project from one document to another?  
+   **A:** Yes. Retrieve the source project's `VbaProject` via `Document sourceDoc; sourceDoc.VbaProject;`, then assign it to the target document with `targetDoc.VbaProject = sourceDoc.VbaProject->Clone();`. This creates a deep copy of the project and all its modules.
+
+3. **Q:** How can I read the source code of a specific VBA macro module?  
+   **A:** Access the module through the collection: `VbaModule* module = doc.VbaProject->Modules->GetByName("Module1");` and then read the code with `String code = module->GetSourceCode();`. The returned string contains the full VBA source.
+
+4. **Q:** Is it possible to modify a VBA macro’s source code and save the changes back to the document?  
+   **A:** Yes. After obtaining the `VbaModule`, call `module->SetSourceCode(newCode);` where `newCode` is a `String` containing the updated VBA code. Save the document afterwards to persist the changes.
+
+5. **Q:** Are there any limitations when manipulating VBA macros with Aspose.Words for C++?  
+   **A:** The API supports reading, writing, cloning, and deleting VBA projects and modules, but it does not execute VBA code. Also, certain protected or encrypted VBA projects may require the appropriate password to be set via `VbaProject->Password`. Ensure the document is not password‑protected for VBA unless you provide the password.

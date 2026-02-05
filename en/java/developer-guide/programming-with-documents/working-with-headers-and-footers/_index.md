@@ -106,3 +106,22 @@ The following code example shows how to remove all footers from all sections but
 You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Footer.docx).
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I set a different header or footer only for the first page of a document?  
+   **A:** Set `PageSetup.setDifferentFirstPageHeaderFooter(true)` on the section. Then use `HeaderFooterType.HEADER_FIRST` or `FooterFirst` to access and edit the first‑page header/footer.
+
+2. **Q:** What steps are required to have separate headers/footers for odd and even pages?  
+   **A:** Enable `PageSetup.setOddAndEvenPagesHeaderFooter(true)`. After that, create or modify `HeaderPrimary`/`FooterPrimary` for odd pages and `HeaderEven`/`FooterEven` for even pages.
+
+3. **Q:** How do I copy the header/footer from the previous section without recreating it manually?  
+   **A:** Set `section.getHeadersFooters().linkToPrevious(true)`. The section will automatically use the header/footer objects from the preceding section.
+
+4. **Q:** Can I use `DocumentBuilder` to move directly to a header or footer of a specific section?  
+   **A:** Yes. Call `builder.moveToHeaderFooter(section.getHeadersFooters().getByHeaderFooterType(HeaderFooterType.HEADER_PRIMARY))`. After moving, you can insert text, images, or fields.
+
+5. **Q:** How can I remove only the footers (or only the headers) from every section in a document?  
+   **A:** Iterate through `document.getSections()`, then for each section call `section.getHeadersFooters().removeAll(HeaderFooterType.FOOTER_PRIMARY)`, `FOOTER_FIRST`, and `FOOTER_EVEN` (or the corresponding header types) to delete only the unwanted parts.

@@ -60,3 +60,22 @@ Follow the instructions below to manually configure Aspose.Words for C++ in your
 	cmake --build build
 	./build/app
 	{{< /highlight >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I apply a license for Aspose.Words for C++?  
+   **A:** After obtaining the `.lic` file, place it in a location accessible to your application and call `Aspose::Words::License license; license.SetLicense("path/to/Aspose.Words.Cpp.lic");` early in your code (e.g., at the start of `main`). This activates the full functionality without evaluation limitations.
+
+2. **Q:** CMake reports “Could not find package Aspose.Words.Cpp”. What should I check?  
+   **A:** Ensure the `Aspose.Words.Cpp` folder (containing the `Aspose.Words.CppConfig.cmake` file) is located in the same directory as your `CMakeLists.txt` or specify its path explicitly with `-D Aspose_Words_Cpp_DIR=/full/path/to/Aspose.Words.Cpp`. Also verify that you are using CMake 3.18 or newer.
+
+3. **Q:** Can I install Aspose.Words for C++ in a custom directory and still use `find_package`?  
+   **A:** Yes. After copying the package to a custom location, add the directory to `CMAKE_PREFIX_PATH` or pass it via the command line: `cmake -S . -B build -D CMAKE_PREFIX_PATH=/custom/path`. The `find_package` call will then locate the package.
+
+4. **Q:** What is the minimum CMake version required for this configuration?  
+   **A:** The example uses `cmake_minimum_required(VERSION 3.18)`. Versions prior to 3.18 lack proper support for the `CONFIG` mode used by Aspose.Words for C++ packages, so upgrade to at least 3.18.
+
+5. **Q:** Do I need to link the `Threads` library on Windows as well?  
+   **A:** Yes. The `Threads` component is required on all platforms. On Windows, CMake will resolve `Threads::Threads` to the appropriate system threading library, so the same `target_link_libraries` line works unchanged.

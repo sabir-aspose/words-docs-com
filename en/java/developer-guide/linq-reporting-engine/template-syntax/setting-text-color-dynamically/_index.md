@@ -76,3 +76,22 @@ To output every item into a separate table row, which text is colored dynamicall
 </table>
 
 **Note** – Start and end `textColor` tags can be located either in paragraphs of a single story (or table cell) or in rows of a single document table in the same way as `foreach` tags.
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I specify a color using a hexadecimal HTML code in a `textColor` tag?  
+   **A:** Place the hex code as a string inside the tag’s expression, e.g., `<<textColor ["#1E90FF"]>>`. The engine parses the string and applies the corresponding RGB color at runtime.
+
+2. **Q:** Is it possible to pass a `java.awt.Color` object returned from a method to the `textColor` tag?  
+   **A:** Yes. The expression can return a `Color` instance, such as `<<textColor [item.getColor()]>>`. The tag will use the exact RGB values of the returned `Color` object.
+
+3. **Q:** What happens if the text already has a color applied before the `textColor` tag is evaluated?  
+   **A:** The existing color is preserved; the `textColor` tag only affects text that does **not** already have a color defined. This prevents overriding manually set colors.
+
+4. **Q:** Can I nest `textColor` tags or use them inside a `foreach` loop?  
+   **A:** Both are supported. Nested tags allow hierarchical coloring, and using `textColor` inside `foreach` lets you apply a different color for each iteration based on the data source.
+
+5. **Q:** I receive a “Tag end is unexpected” error when using `textColor`. What could be wrong?  
+   **A:** The error usually indicates a mismatched opening/closing tag or an invalid expression. Ensure the opening tag is `<<textColor [expression]>>` and the closing tag is exactly `<</textColor>>`, with no extra characters or missing brackets.

@@ -126,3 +126,26 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 {{% /alert %}}
 
+------ 
+
+## FAQ
+
+1. **Q:** How do I convert a DOCX file to HTML with Aspose.Words for Node.js?  
+   **A:** Load the document using `new aw.Document("input.docx")` and call `doc.save("output.html", aw.SaveFormat.Html);`. The `SaveFormat` enum tells the API which format to produce.
+
+2. **Q:** How can I store images, fonts, and CSS files in a separate folder when saving to HTML?  
+   **A:** Create an `HtmlSaveOptions` object, set `resourceFolder`, `fontsFolder`, and/or `imagesFolder` to the desired paths, then pass the options to `doc.save`. Example:  
+   ```js
+   var options = new aw.Saving.HtmlSaveOptions();
+   options.resourceFolder = "./html_resources";
+   doc.save("output.html", options);
+   ```
+
+3. **Q:** Is it possible to embed fonts directly into the generated HTML?  
+   **A:** Yes. Set `options.exportFontsAsBase64 = true;` on an `HtmlSaveOptions` instance before saving. The fonts will be encoded in Base64 and placed inside the CSS of the HTML file.
+
+4. **Q:** How can I preserve Word features such as comments, headers, and footers during HTML conversion?  
+   **A:** Enable round‑trip information by setting `options.exportRoundtripInformation = true;` (the default for HTML). This stores extra data in the HTML that Aspose.Words can read back to reconstruct those Word features.
+
+5. **Q:** What is the recommended way to convert a document to EPUB format?  
+   **A:** Use `HtmlSaveOptions`, set `saveOptions.saveFormat = aw.SaveFormat.Epub;` and configure any additional options (encoding, split criteria, etc.), then call `doc.save("output.epub", saveOptions);`. This produces a valid EPUB file with the specified settings.

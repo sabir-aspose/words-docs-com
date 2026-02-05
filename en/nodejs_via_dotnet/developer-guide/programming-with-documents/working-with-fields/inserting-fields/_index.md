@@ -154,3 +154,33 @@ You can use the [FieldToa](https://reference.aspose.com/words/nodejs-net/aspose.
 The following code example shows how to add the `TOA` field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "045f68a3af8a7ef327733a8b74034ec5" "insert-toa-field-without-document-builder.js" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I insert a field using `DocumentBuilder` in Node.js?  
+   **A:** Create a `DocumentBuilder` instance for your document and call `insertField(fieldCode, fieldResult)`. The `fieldCode` is the full Word field code (e.g., `"MERGEFIELD  CustomerName"`). If you pass `null` for `fieldResult`, Aspose.Words will automatically update the field value when the document is saved.
+
+2. **Q:** How can I insert nested fields or fields whose parameters contain spaces?  
+   **A:** Enclose parameters that contain spaces in double quotes inside the field code. For nested fields, build the inner field first, obtain its field code string, and include it in the outer field code. Example: `builder.insertField('IF "{ MERGEFIELD  Amount }" > 1000 "High" "Low"', null);`.
+
+3. **Q:** How do I insert an empty (untyped) field such as `{}`?  
+   **A:** Use `insertField` with `FieldType.FieldNone`. Example:  
+   ```javascript
+   let builder = new aspose.words.DocumentBuilder(doc);
+   builder.insertField(aspose.words.fields.FieldType.FieldNone, null);
+   ```  
+   This creates a placeholder field that can later be edited manually in Word.
+
+4. **Q:** What are the differences between `DocumentBuilder`, `FieldBuilder`, and the DOM for inserting fields?  
+   **A:** `DocumentBuilder` inserts fields directly at the current cursor position and is simple for one‑off insertions. `FieldBuilder` provides a fluent API to construct complex field codes, set switches, and nest fields before insertion. The DOM approach creates field objects (e.g., `FieldMergeField`) that can be added to any node in the document tree, giving full control over placement and allowing manipulation of field properties after creation.
+
+5. **Q:** How can I set the locale for a field to control its formatting (e.g., dates, numbers)?  
+   **A:** After inserting the field, set its `localeId` property to the desired LCID. Example:  
+   ```javascript
+   let builder = new aspose.words.DocumentBuilder(doc);
+   let field = builder.insertField('MERGEFIELD  OrderDate \\@ "MM/dd/yyyy"', null);
+   field.localeId = 1033; // English - United States
+   ```  
+   The specified locale determines how the field formats dates, numbers, and currency.

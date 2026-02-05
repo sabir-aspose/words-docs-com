@@ -154,5 +154,24 @@ To solve the problem, rename the file to remove the invisible .xml extension. We
 
 If you use multiple Aspose products in your application, such as Aspose.Words and `Aspose.Cells`, here are a few useful tips:
 
-* Set the License for each Aspose product separately. Even if you have a single license file for all components, for example, "Aspose.Total.lic", you still need to call **SetLicense** separately for each Aspose product that you use in your application.
+* Set the License for each Aspose product separately. Even if you have a single license file for all components, for example, "Aspose.Total.lic", you still need to call **SetLicense** separately for each Aspose product that you use in your application.  
 * Use the Fully Qualified License Class Name. Each Aspose product has a **License** class in its own namespace. For example, Aspose.Words has [Aspose.Words.License](https://reference.aspose.com/words/cpp/aspose.words/license/) and `Aspose.Cells` has `Aspose.Cells`.License class. Using the fully qualified class name allows you to avoid confusion as to which license applies to which product.
+
+------  
+
+## FAQ
+
+1. **Q:** How do I apply a license in C++ using the Aspose.Words API?  
+   **A:** Create an instance of `Aspose::Words::License` and call its `SetLicense` method, passing either the file name, a full path, or a stream. The call must be made before any other Aspose.Words classes are used.
+
+2. **Q:** Where should I place the license file so that Aspose.Words can find it automatically?  
+   **A:** The library searches several locations in order: the folder containing `Aspose.Words_*.dll`, the folder of the calling assembly, the entry assembly folder, and finally embedded resources. Placing the file in the same directory as `Aspose.Words_*.dll` and using just the file name is the simplest approach.
+
+3. **Q:** I get a “Cannot find license filename” exception – what is causing it?  
+   **A:** Some browsers add a hidden `.xml` extension to the downloaded license file, and Windows may hide extensions, making the file appear as `Aspose.Words.LIC`. Rename the file to remove the extra `.xml` extension and ensure the exact name is passed to `SetLicense`.
+
+4. **Q:** How can I embed the license file as a resource on Windows or Linux?  
+   **A:** On Windows, add the license as a `RCDATA` resource in a `.rc` file and reference it by its resource ID. On Linux, compile the binary with the resource data (e.g., using `objcopy`). Then load the resource into a memory stream and pass that stream to `SetLicense`.
+
+5. **Q:** Can I use a single license file for multiple Aspose products (e.g., Words and Cells)?  
+   **A:** Yes, a total license file can cover several products, but you must call `SetLicense` for each product’s `License` class separately, using the fully‑qualified class name to avoid ambiguity.

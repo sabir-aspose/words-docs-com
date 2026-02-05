@@ -160,3 +160,31 @@ The following code example shows how to modify the page properties in all sectio
 
 - [Logical Levels of Nodes in a Document](/words/java/logical-levels-of-nodes-in-a-document/)
 - [Insert and Append Documents](/words/java/insert-and-append-documents/)
+
+------ 
+
+## FAQ
+
+1. Q: How can I insert a section break at a specific location in a Java document?  
+   A: Use `DocumentBuilder.insertBreak(BreakType.SectionBreakNewPage)` (or another `BreakType`) at the desired cursor position. Create a `DocumentBuilder` for the document, move the cursor to the target node, then call `insertBreak`.  
+
+2. Q: What is the safest way to remove a section break without losing the formatting of surrounding sections?  
+   A: Locate the `Section` node that contains the break, then call `section.getPreviousSibling().remove()` or remove the `Section` node itself using `section.remove()`. After removal, the content before the break inherits the formatting of the following section, so you may need to copy the required `PageSetup` settings before removal.  
+
+3. Q: How do I clone a section and insert the clone into the same document or another document?  
+   A: Call `Section clonedSection = (Section) originalSection.deepClone();` and then add it to the target document’s `Sections` collection with `targetDoc.getSections().add(clonedSection);`. If the target document is different, import the cloned node first using `targetDoc.importNode(clonedSection, true)`.  
+
+4. Q: How can I set different headers or footers for the first page and for odd/even pages within a section?  
+   A: Access the `Section` object and set `section.getPageSetup().setDifferentFirstPageHeaderFooter(true);` and `section.getPageSetup().setOddAndEvenPagesHeaderFooter(true);`. Then create or modify the `HeaderFooter` objects for `HeaderFooterType.HEADER_FIRST`, `HEADER_EVEN`, and `HEADER_PRIMARY` as needed.  
+
+5. Q: How can I change the page size and orientation for only one section?  
+   A: Retrieve the `Section` you want to modify and use its `PageSetup` property:  
+
+   ```java
+   Section section = doc.getSections().get(2); // example index
+   PageSetup setup = section.getPageSetup();
+   setup.setPaperSize(PaperSize.A4);
+   setup.setOrientation(Orientation.LANDSCAPE);
+   ```  
+
+   This affects only the selected section, leaving other sections unchanged.

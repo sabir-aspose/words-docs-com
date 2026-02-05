@@ -155,3 +155,22 @@ Typed properties are merely useful shortcuts that sometimes provide easier acces
 The following code example shows how to use typed properties to access nodes of the document tree:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-TypedAccessToChildrenAndParent-.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I determine the type of a node (e.g., Paragraph, Table) in the DOM?  
+   **A:** Call `Node.getNodeType()`, which returns a value from the `NodeType` enumeration such as `NodeType.Paragraph` or `NodeType.Table`. This lets you identify the node without casting.
+
+2. **Q:** What properties let me navigate to a node’s parent, children, or siblings?  
+   **A:** Use `Node.getParentNode()` for the parent, `CompositeNode.getFirstChild()` / `CompositeNode.getLastChild()` for the first and last child, `CompositeNode.getChildNodes()` for the full collection, and `Node.getPreviousSibling()` / `Node.getNextSibling()` for adjacent siblings.
+
+3. **Q:** How do I create a new node (for example, a Paragraph) and add it to a document?  
+   **A:** Instantiate the node with a reference to the owning `Document`, e.g., `Paragraph paragraph = new Paragraph(document);`, then insert it using `parentNode.appendChild(paragraph);` or by using `DocumentBuilder` methods such as `builder.writeln("Text");`.
+
+4. **Q:** Can I clone or copy a node to another location or another document?  
+   **A:** Use `Node.deepClone()` to duplicate a node within the same document. To move a node to a different document, call `Document.importNode(node, true)` on the target document and then append the imported node to the desired parent.
+
+5. **Q:** Is it possible to use `DocumentBuilder` to navigate to a specific node in the DOM?  
+   **A:** Yes. After obtaining a reference to the target node, call `builder.moveTo(node);`. You can also use `builder.moveToDocumentStart()` or `builder.moveToDocumentEnd()` to position the builder at the beginning or end of the document before inserting new content.

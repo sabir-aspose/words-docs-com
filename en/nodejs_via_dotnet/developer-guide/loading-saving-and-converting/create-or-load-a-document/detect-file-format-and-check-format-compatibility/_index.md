@@ -70,3 +70,18 @@ The following files are used in the example above. The file name is on the left 
 |  | Test File (Enc).docx | Encrypted Office Open XML WordprocessingML document. |
 | Unsupported file formats | Test File (JPG).jpg | JPEG image file. |
 
+------  
+
+## FAQ
+
+1. **Q:** How can I determine a document’s format without loading it into a `Document` object?  
+   **A:** Use the static method `FileFormatUtil.detectFileFormat(filePath)`. It reads only the header bytes of the file and returns a `FileFormatInfo` object that contains the detected format, extension, and whether the format is supported by Aspose.Words.
+
+2. **Q:** What does `detectFileFormat` return for a file whose format is not supported?  
+   **A:** The returned `FileFormatInfo` will have the `isRecognized` property set to `false` and the `loadFormat` property will be `LoadFormat.UNKNOWN`. This lets you skip or move the file without throwing an exception.
+
+3. **Q:** How can I verify that the detected format is actually supported for loading?  
+   **A:** Check the `loadFormat` property of the `FileFormatInfo`. If it is not `LoadFormat.UNKNOWN`, the format is one of the formats that Aspose.Words can load. You may still need to handle encrypted or corrupted files separately.
+
+4. **Q:** What should I do if `detectFileFormat` indicates a supported format but loading the document still fails?  
+   **A:** The detection step only reads a small portion of the file. If loading fails, the file may be corrupted, encrypted with an unknown password, or contain features not handled by the current version. Catch the exception, inspect its message, and consider validating the file (e.g., checking for encryption with `Document.isEncrypted`) before retrying.  

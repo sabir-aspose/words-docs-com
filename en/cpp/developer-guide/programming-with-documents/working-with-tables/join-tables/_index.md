@@ -21,3 +21,22 @@ To manipulate a table to join with another table, we just need to move the rows 
 The following code example shows how to merge rows from two tables into one:
 
 {{< gist "aspose-words-gists" "e89b24cb8b77096687e8e6567018c087" "combine-rows.h" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I join two tables in a Word document using Aspose.Words for C++?  
+   **A:** Retrieve the first and second `Table` nodes, iterate through the rows of the second table and call `firstTable->AppendChild(row->Clone(true))` for each row. After all rows are moved, remove the second table node with `secondTable->Remove()`.
+
+2. **Q:** Will the formatting of the original rows be preserved after joining tables?  
+   **A:** Yes. When rows are cloned with `Clone(true)`, all formatting, cell widths, and styles are copied to the destination table, so the visual appearance remains unchanged.
+
+3. **Q:** What should I do if the two tables have a different number of columns?  
+   **A:** Ensure both tables have the same column count before moving rows. You can add missing cells to rows of the second table using `Row->AppendChild(new Cell())` so that the merged table stays well‑structured.
+
+4. **Q:** Can I join tables that are located in headers, footers, or different sections?  
+   **A:** Yes. Access the tables through their containing `HeaderFooter` or `Section` objects, perform the same row‑moving logic, and then remove the now‑empty container if needed.
+
+5. **Q:** Is there a single API method that automatically joins tables?  
+   **A:** Aspose.Words does not provide a dedicated “JoinTables” method. The recommended approach is to manually move rows as demonstrated in the code sample. This gives you full control over formatting and handling of edge cases.

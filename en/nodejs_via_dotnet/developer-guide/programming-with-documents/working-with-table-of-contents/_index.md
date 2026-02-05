@@ -120,3 +120,22 @@ Firstly the [FieldStart](https://reference.aspose.com/words/nodejs-net/aspose.wo
 If you want to extract a table of contents from any Word document, the following code sample can be used.
 
 {{< gist "aspose-words-gists" "e0ccef8441be6a8e2de5810acdefd25a" "extract-toc.js" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I insert a Table of Contents using Aspose.Words for Node.js?  
+   **A:** Create a `DocumentBuilder`, call `insertTableOfContents` with the desired switches, then add heading content. After insertion, call `document.updateFields()` followed by `document.updatePageLayout()` to populate the TOC.
+
+2. **Q:** My TOC shows “?” instead of page numbers after insertion. What should I do?  
+   **A:** The page numbers are generated only after the document layout is calculated. Ensure you call `document.updatePageLayout()` **after** `document.updateFields()`. This builds the layout and fills in the correct page numbers.
+
+3. **Q:** How can I limit the TOC to specific heading levels?  
+   **A:** Use the `\o` switch in the field code (e.g., `\\o "1-2"` for levels 1‑2) or the `\t` switch to map custom styles to specific levels. Pass the switch string to `insertTableOfContents`.
+
+4. **Q:** What is the recommended way to remove a TOC from a document?  
+   **A:** Locate the `FieldStart` nodes whose `fieldType` is `FieldType.FieldToc`, collect all nodes up to the matching `FieldEnd`, and remove them from the document’s node collection.
+
+5. **Q:** How can I extract the entries of an existing TOC programmatically?  
+   **A:** Iterate through the document’s fields, find those with `fieldType` equal to `FieldType.FieldToc`, and read the `result` property of each field. The result contains the formatted TOC entries.

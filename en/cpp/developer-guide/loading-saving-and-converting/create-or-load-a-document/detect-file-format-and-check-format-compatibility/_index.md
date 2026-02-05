@@ -69,3 +69,21 @@ The following files are used in the example above. The file name is on the left 
 |  | Test File (Enc).docx | Encrypted Office Open XML WordprocessingML document. |
 | Unsupported file formats | Test File (JPG).jpg | JPEG image file. |
 
+------ 
+
+## FAQ
+
+1. **Q:** How can I determine the file format of a document without loading it into a `Document` object?  
+   **A:** Use the static method `FileFormatUtil::DetectFileFormat` and pass the file path. It returns a `FileFormatInfo` object that contains properties such as `GetFileFormatType()` and `IsEncrypted`. This call reads only the header bytes, so no `Document` is created and no exception is thrown for unsupported formats.
+
+2. **Q:** What information does `FileFormatInfo` provide for encrypted files?  
+   **A:** The `IsEncrypted` property of `FileFormatInfo` is set to `true` when the detected format is encrypted. You can still obtain the file format type, but you must provide the correct password when later loading the file with `Document`.
+
+3. **Q:** How can I check whether a detected format is supported by the current Aspose.Words version before attempting to load it?  
+   **A:** Compare the `FileFormatInfo::GetFileFormatType()` value against the `FileFormat` enumeration. All values listed in the enumeration are supported. If the value is `FileFormat::Unknown` or `FileFormat::Unsupported`, skip loading or handle the file separately.
+
+4. **Q:** Why does `DetectFileFormat` sometimes report a supported format, yet loading the document still throws an exception?  
+   **A:** `DetectFileFormat` reads only a small portion of the file to identify the format. Corrupted files, partially downloaded files, or files that contain unsupported features may still be identified as a known format but fail during full parsing. In such cases, catch the exception from `Document` construction and log the detailed error message.
+
+5. **Q:** Can `DetectFileFormat` differentiate between DOC and DOCX files that share the same `.doc` extension?  
+   **A:** Yes. The method examines the file header, so a DOCX (Office Open XML) file will be reported as `FileFormat::Docx` even if its extension is `.doc`. This allows you to correctly handle files regardless of their extensions.

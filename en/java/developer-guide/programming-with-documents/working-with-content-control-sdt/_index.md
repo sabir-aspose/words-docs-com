@@ -13,7 +13,7 @@ url: /java/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---
 
-In Microsoft Word, you can create a form by starting with a template and adding content controls, including checkboxes, text boxes, date pickers, and drop-down lists. In Aspose.Words, a Structured Document Tag or content control from any document loaded into Aspose.Words is imported as a StructuredDocumentTag node. Structured document tags (SDT or content control) allow embedding customer-defined semantics as well as its behaviour and appearance into a document.
+In Microsoft Word, you can create a form by starting with a template and adding content controls, including checkboxes, text boxes, date pickers, and drop‑down lists. In Aspose.Words, a Structured Document Tag or content control from any document loaded into Aspose.Words is imported as a StructuredDocumentTag node. Structured document tags (SDT or content control) allow embedding customer‑defined semantics as well as its behaviour and appearance into a document.
 
 StructuredDocumentTag can occur in a document in the following places:
 
@@ -57,7 +57,7 @@ The following code example shows how to set the current state of the checkbox:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SetCurrentStateOfCheckBox-SetCurrentStateOfCheckBox.java" >}}
 
-The following code example shows how to modify content controls of type plain text box, drop-down list and picture:
+The following code example shows how to modify content controls of type plain text box, drop‑down list and picture:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ModifyContentControls-ModifyContentControls.java" >}}
 
@@ -77,7 +77,7 @@ The following code example shows how to bind content control to custom XML part
 
 ## Clear Contents of a Content Control
 
-You can clear the contents of a content control with displaying a placeholder. **StructuredDocumentTag.clear()** method clears contents of this structured document tag and displays a placeholder if it is defined. However, It is not possible to clear the contents of a content control if it has revisions. If a content control has no placeholder, five spaces are inserted like in MS Word (except repeating sections, repeating section items, groups, check-boxes, citations). If a content control is mapped to custom XML, the referenced XML node is cleared.
+You can clear the contents of a content control with displaying a placeholder. **StructuredDocumentTag.clear()** method clears contents of this structured document tag and displays a placeholder if it is defined. However, It is not possible to clear the contents of a content control if it has revisions. If a content control has no placeholder, five spaces are inserted like in MS Word (except repeating sections, repeating section items, groups, check‑boxes, citations). If a content control is mapped to custom XML, the referenced XML node is cleared.
 
 The following code example shows how to clear the content of content control:
 
@@ -110,9 +110,27 @@ The following code example shows how to set the style of content control:
 
 ## Working with Repeating Section Content Control
 
-The repeating section content control allows repeating the content contained within it. Using Aspose.Words, the structured document tag nodes of the repeating section and repeating section item types can be created and for this purpose, [SdtType enumeration type](https://reference.aspose.com/words/java/com.aspose.words/sdttype/) provides REPEATING_SECTION_ITEM member.
+The repeating section content control allows repeating the content contained within it. Using Aspose.Words, the structured document tag nodes of the repeating section and repeating section item types can be created and for this purpose, [SdtType enumeration type](https://reference.aspose.com/words/java/com.aspose.words.SdtType/) provides REPEATING_SECTION_ITEM member.
 
 The following code example shows how to bind a repeating section content control to a table:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-StructuredDocumentTag-WorkingWithStructuredDocumentTag-CreatingTableRepeatingSectionMappedToCustomXmlPart.java" >}}
 
+------ 
+
+## FAQ
+
+1. **Q:** How can I create a checkbox content control in Java?  
+   **A:** Instantiate a `StructuredDocumentTag` with `SdtType.CHECKBOX`, set its properties (e.g., title, placeholder), and insert it into the desired node (e.g., `Document.getFirstSection().getBody().appendChild(structuredDocumentTag);`).
+
+2. **Q:** How do I set or read the checked state of a checkbox content control?  
+   **A:** Use the `StructuredDocumentTag.setChecked(boolean)` method to set the state and `StructuredDocumentTag.isChecked()` to read the current state.
+
+3. **Q:** How can I bind a content control to a custom XML part?  
+   **A:** Create a `CustomXmlPart`, add it to the document (`document.getCustomXmlParts().add(customXmlPart);`), then call `structuredDocumentTag.setXmlMapping(customXmlPart, "/Root/Element", null);` to map the control to the XML node.
+
+4. **Q:** How can I change the background or border color of a content control?  
+   **A:** Set the `StructuredDocumentTag.setColor(java.awt.Color)` property. The color is used for the hover background and the border when the control is active.
+
+5. **Q:** How can I specify the display format for a date content control?  
+   **A:** Use `structuredDocumentTag.setDateDisplayFormat("MM/dd/yyyy");` to define the format string that Word will use to display the date value. This does not affect the underlying date value stored in the XML.

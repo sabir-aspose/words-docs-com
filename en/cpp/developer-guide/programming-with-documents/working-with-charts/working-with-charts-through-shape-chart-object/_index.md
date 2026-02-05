@@ -22,3 +22,45 @@ For example, let's change the Chart title or legend behavior:
 The code generates the followings results:
 
 ![line-chart-aspose-words-cpp](working-with-charts-6.png)
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I change the chart title programmatically?  
+   **A:** Use the `Chart.Title` property. Set `Chart.Title.Text` to the desired string and optionally adjust formatting via `Chart.Title.Font`. Example:  
+   ```cpp
+   Shape* chartShape = doc->GetChildNodes(NodeType::Shape, true)->idx(0)->Cast<Shape>();
+   Chart* chart = chartShape->get_Chart();
+   chart->get_Title()->set_Text(u"Quarterly Sales");
+   chart->get_Title()->get_Font()->set_Size(14);
+   ```
+
+2. **Q:** How do I hide or show the chart legend?  
+   **A:** The legend visibility is controlled by `Chart.Legend`. Set `Chart.Legend.Visible` to `true` or `false`. Example:  
+   ```cpp
+   chart->get_Legend()->set_Visible(false); // hides the legend
+   ```
+
+3. **Q:** Can I change the chart type after it has been created?  
+   **A:** Yes. Assign a new `ChartType` to `Chart.Type`. For instance, to convert a line chart to a bar chart:  
+   ```cpp
+   chart->set_Type(ChartType::Bar);
+   ```
+
+4. **Q:** How can I modify the data series values of an existing chart?  
+   **A:** Access the `Chart.Series` collection, retrieve the desired `ChartSeries`, and update its `Values`. Example:  
+   ```cpp
+   ChartSeries* series = chart->get_Series()->idx(0);
+   series->get_Values()->Clear();
+   series->get_Values()->Add(150);
+   series->get_Values()->Add(200);
+   series->get_Values()->Add(250);
+   ```
+
+5. **Q:** Is it possible to format the axis labels (e.g., number format, font)?  
+   **A:** Yes. Use `Chart.AxisX` and `Chart.AxisY` to adjust label formatting. Example:  
+   ```cpp
+   chart->get_AxisX()->get_NumberFormat()->set_FormatCode(u"#,##0");
+   chart->get_AxisY()->get_Font()->set_Bold(true);
+   ```

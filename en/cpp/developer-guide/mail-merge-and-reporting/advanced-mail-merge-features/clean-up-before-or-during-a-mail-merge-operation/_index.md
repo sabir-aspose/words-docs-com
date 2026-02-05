@@ -92,3 +92,59 @@ Aspose.Words allows you to remove empty table rows by assigning the **RemoveEmpt
 The following code example shows how to remove empty table rows that contain Mail Merge regions from a document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Mail-Merge-MailMergeCleanUp-RemoveEmptyTableRows.cpp" >}}
+
+```
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I delete all merge fields from a template before performing a mail merge?  
+   **A:** Use the `DeleteFields` method of the `MailMerge` object. It removes every merge field without executing a mail merge, leaving the rest of the document untouched.  
+
+   ```cpp
+   System::SharedPtr<Aspose::Words::Document> doc = MakeObject<Aspose::Words::Document>(u"Template.docx");
+   doc->get_MailMerge()->DeleteFields();
+   doc->Save(u"CleanTemplate.docx");
+   ```
+
+2. **Q:** Which `CleanupOptions` remove empty paragraphs that become blank after a mail merge?  
+   **A:** Set the `RemoveEmptyParagraphs` flag in the `CleanupOptions` enumeration. It deletes paragraphs that contain only unmerged fields or become empty after field removal.  
+
+   ```cpp
+   System::SharedPtr<Aspose::Words::Document> doc = MakeObject<Aspose::Words::Document>(u"Template.docx");
+   doc->get_MailMerge()->set_CleanupOptions(
+       Aspose::Words::MailMerging::MailMergeCleanupOptions::RemoveEmptyParagraphs);
+   doc->get_MailMerge()->Execute(u"DataSource");
+   ```
+
+3. **Q:** How do I automatically remove merge fields that have no matching column in the data source?  
+   **A:** Enable the `RemoveUnusedFields` option. During execution, any field without a corresponding column (or with a null value) is removed from the document.  
+
+   ```cpp
+   System::SharedPtr<Aspose::Words::Document> doc = MakeObject<Aspose::Words::Document>(u"Template.docx");
+   doc->get_MailMerge()->set_CleanupOptions(
+       Aspose::Words::MailMerging::MailMergeCleanupOptions::RemoveUnusedFields);
+   doc->get_MailMerge()->Execute(u"DataSource");
+   ```
+
+4. **Q:** What is the best way to delete outer fields (e.g., IF, formula) that contain a merge field after the merge?  
+   **A:** Use the `RemoveContainingFields` flag. It removes the outer field only when the inner merge field has been merged or removed, mimicking Word’s native behavior.  
+
+   ```cpp
+   System::SharedPtr<Aspose::Words::Document> doc = MakeObject<Aspose::Words::Document>(u"Template.docx");
+   doc->get_MailMerge()->set_CleanupOptions(
+       Aspose::Words::MailMerging::MailMergeCleanupOptions::RemoveContainingFields);
+   doc->get_MailMerge()->Execute(u"DataSource");
+   ```
+
+5. **Q:** How can I get rid of empty table rows that only contain merge fields?  
+   **A:** Combine the `RemoveEmptyTableRows` flag with your other cleanup options. Rows that become empty after field removal are automatically deleted.  
+
+   ```cpp
+   System::SharedPtr<Aspose::Words::Document> doc = MakeObject<Aspose::Words::Document>(u"Template.docx");
+   doc->get_MailMerge()->set_CleanupOptions(
+       Aspose::Words::MailMerging::MailMergeCleanupOptions::RemoveEmptyTableRows |
+       Aspose::Words::MailMerging::MailMergeCleanupOptions::RemoveEmptyParagraphs);
+   doc->get_MailMerge()->Execute(u"DataSource");
+   ```

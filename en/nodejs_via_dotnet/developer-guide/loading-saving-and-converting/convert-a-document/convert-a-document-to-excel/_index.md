@@ -81,3 +81,19 @@ doc.save("BaseConversions.CompressXlsx.xlsx", saveOptions);
 
 - Documentation section [Protect or Encrypt a Document](/words/nodejs-net/protect-or-encrypt-a-document/) for more information about protecting and encrypting a document
 - The article [Find and Replace](/words/nodejs-net/find-and-replace/) for more more information about finding and replacing the content you want
+
+------ 
+
+## FAQ
+
+1. **Q:** Which document formats can be converted to Excel using Aspose.Words for Node.js?  
+   **A:** Any format that Aspose.Words can load can be saved as XLSX. This includes DOC, DOCX, RTF, HTML, PDF, ODT, and many others. Load the source file with `new aw.Document("source.ext")` and then call `save` with an `.xlsx` filename or use `XlsxSaveOptions`.
+
+2. **Q:** How do I convert a PDF file to an XLSX file in Node.js?  
+   **A:** Load the PDF with `new aw.Document("input.pdf")` and call `save` specifying an XLSX filename, e.g., `doc.save("output.xlsx");`. No additional options are required unless you need custom formatting.
+
+3. **Q:** Can I perform find‑and‑replace before saving a document as XLSX?  
+   **A:** Yes. Use the `doc.range.replace(oldText, newText, options)` method (optionally configuring `FindReplaceOptions` for case‑sensitivity, regex, etc.) and then save the document to XLSX. The replacement is reflected in the resulting spreadsheet.
+
+4. **Q:** How can I control the compression level of the generated XLSX file?  
+   **A:** Create an instance of `aw.Saving.XlsxSaveOptions`, set its `compressionLevel` property (e.g., `CompressionLevel.Maximum`), and pass the options to `doc.save`, like `doc.save("output.xlsx", saveOptions);`. This reduces file size at the cost of longer processing time.

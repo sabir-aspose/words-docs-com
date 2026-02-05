@@ -51,3 +51,29 @@ To use Aspose.Words for C++ in your applications, follow these steps:
 1. Download the latest files
 2. Unzip the folder into a production environment
 3. To use Aspose.Words for C++, refer to the Include and Lib folders in your project
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I install Aspose.Words for C++ using NuGet in Visual Studio?  
+   **A:** Open Visual Studio, choose **Manage NuGet Packages**, search for “Aspose.Words.Cpp”, select the package and click **Install**. NuGet will download the binaries and automatically add the required references to your project.
+
+2. **Q:** What is the command to install or update Aspose.Words for C++ from the Package Manager Console?  
+   **A:** To install a specific version, run  
+   `Install-Package Aspose.Words.Cpp -Version 21.3.0`.  
+   To update to the latest version, run `Update-Package Aspose.Words.Cpp`. The console will download the package and update the project references.
+
+3. **Q:** How do I install Aspose.Words for C++ manually without using NuGet?  
+   **A:** Download the ZIP package from the NuGet Gallery’s **Manual download** link. Extract the archive, then add the `include` folder to your compiler’s include path and the `lib` folder to the linker’s library path. Finally, link against the appropriate Aspose.Words library files.
+
+4. **Q:** After a manual installation, how do I reference the Aspose.Words libraries in my C++ project?  
+   **A:** In your project settings, add the extracted `include` directory to **Additional Include Directories** and the `lib` directory to **Additional Library Directories**. Then, add the required `.lib` files (e.g., `Aspose.Words.Cpp.lib`) to **Additional Dependencies** and ensure the corresponding DLLs are available at runtime.
+
+5. **Q:** Do I need a license to use Aspose.Words for C++, and how do I apply it?  
+   **A:** A license is required for production use to remove evaluation limitations. After obtaining the license file (`Aspose.Words.Cpp.lic`), load it at the start of your application with:  
+   ```cpp
+   Aspose::Words::License* license = new Aspose::Words::License();
+   license->SetLicense(u"Path/To/Aspose.Words.Cpp.lic");
+   ```  
+   This activates the full functionality of the library.

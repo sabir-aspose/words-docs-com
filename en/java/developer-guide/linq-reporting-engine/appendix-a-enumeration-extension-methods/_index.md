@@ -113,3 +113,22 @@ public class Person
  persons.union(otherPersons){{< /highlight >}}An implicit reference conversion must exist between types of items of united enumerations. |
 | `where(Predicate)` | {{< highlight csharp >}}
  persons.where(p => p.getAge() > 18){{< /highlight >}} |
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I obtain the index of the current item inside a `foreach` loop in a template?  
+   **A:** Use the built‑in `index` variable that the LINQ Reporting Engine provides for each iteration. Inside the `foreach` tag you can write `<<#= index>>` to output the zero‑based position of the current element.
+
+2. **Q:** Is there a way to access the previous element while iterating over a collection?  
+   **A:** The engine does not expose a direct `previous()` method. A common workaround is to use `skip(1)` together with `first()` on a sliced collection, e.g., `persons.skip(1).first()` gives the element after the first one, which you can compare with the current index.
+
+3. **Q:** How do I group items by a calculated key, such as age, and then iterate over each group?  
+   **A:** Use the `groupBy` extension method. Example: `persons.groupBy(p => p.getAge())` returns a collection of groups. Inside the template you can iterate: `<<foreach [group in persons.groupBy(p => p.getAge())]>> Age: <<group.Key>> Count: <<group.count()>> <<endforeach>>`.
+
+4. **Q:** What extension methods should I use to sort a collection by multiple fields?  
+   **A:** First apply `orderBy` (or `orderByDescending`) with the primary key, then chain `thenBy` or `thenByDescending` for secondary keys. Example: `persons.orderBy(p => p.getAge()).thenByDescending(p => p.getName()).thenBy(p => p.getChildren().count())`.
+
+5. **Q:** How can I check whether any element in a collection satisfies a condition?  
+   **A:** Use the `any(Predicate)` method. Example: `persons.any(p => p.getAge() > 65)` returns `true` if at least one person is older than 65, otherwise `false`.

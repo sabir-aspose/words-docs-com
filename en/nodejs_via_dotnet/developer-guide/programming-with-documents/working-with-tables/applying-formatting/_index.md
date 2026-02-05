@@ -369,3 +369,22 @@ The pictures below show the border and shadow settings in Microsoft Word and the
 The following code example shows how to format a table and cell with different borders and shadings:
 
 {{< gist "aspose-words-gists" "6d14807d3df5bb7a531673f3b67ed3f7" "format-table-and-cell-with-different-borders.js" >}}
+
+------
+
+## FAQ
+
+1. Q: How can I set a table’s width to a specific percentage of the page?  
+   A: Use the `PreferredWidth.FromPercent` method on the table’s `PreferredWidth` property, e.g., `table.preferredWidth = PreferredWidth.fromPercent(50);`. This makes the table occupy 50 % of the available page width.
+
+2. Q: How do I disable AutoFit and give each column a fixed width?  
+   A: Set `table.allowAutoFit = false;` and then assign a width to each cell via `cell.cellFormat.width = 72;` (points). Fixed widths remain unchanged when the content grows.
+
+3. Q: What properties control row height and its rule?  
+   A: Use `row.rowFormat.height = 30;` to set the height in points and `row.rowFormat.heightRule = HeightRule.atLeast;` (or `exactly`, `auto`) to define how the height is applied.
+
+4. Q: How can I add spacing between cells?  
+   A: Enable cell spacing with `table.allowCellSpacing = true;` and optionally set `table.cellSpacing = 5;` (points) to control the amount of space.
+
+5. Q: What is the difference between applying borders to a table versus a cell?  
+   A: Use `table.setBorders(border);` to affect the whole table, while `cell.cellFormat.borders` lets you style individual cells. Row borders can be set via `row.rowFormat.borders`, but shading is only available on tables and cells.

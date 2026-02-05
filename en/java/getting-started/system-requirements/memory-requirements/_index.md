@@ -49,6 +49,25 @@ If your profiling results indicate a possible memory issue in Aspose.Words, plea
 
 ## See Also
 
-* [Rendering](/words/java/rendering/)
-* [Mail Merge and Reporting](/words/java/mail-merge-and-reporting/)
-* [Working with Fields](/words/java/working-with-fields/)
+* [Rendering](/words/java/rendering/)  
+* [Mail Merge and Reporting](/words/java/mail-merge-and-reporting/)  
+* [Working with Fields](/words/java/working-with-fields/)  
+
+------  
+
+## FAQ
+
+1. **Q:** *How can I estimate the RAM needed for a specific document?*  
+   **A:** Start with the document’s file size, then apply a multiplier that depends on the format and content complexity. Simple text‑only DOCX files often need 10‑20 × the file size, while documents with many images or complex layouts can require 20 × or more. Use the example calculations in the article as a guideline and adjust based on your own profiling.
+
+2. **Q:** *Why does a small DOCX file sometimes consume a lot of memory?*  
+   **A:** Memory usage is driven by the internal DOM representation, not just the compressed file size. Elements such as paragraphs, runs, styles, and embedded objects each allocate Java objects. A document with many pages, styles, or hidden elements can expand dramatically after unzipping and loading.
+
+3. **Q:** *What should I do if I encounter an OutOfMemoryError while processing a document?*  
+   **A:** Reduce the document’s complexity (e.g., split large documents, downsize images), increase the JVM heap size (`-Xmx`), or process the document in smaller chunks (e.g., load sections separately). If the problem persists, contact Aspose support with profiling data.
+
+4. **Q:** *Does the memory requirement differ between operations like conversion, mail‑merge, and rendering?*  
+   **A:** Yes. Simple operations (e.g., format conversion, mail‑merge) usually need a few times the document size, while rendering to fixed‑page formats (PDF, XPS) or updating fields can require up to 20 × the size due to additional layout calculations and rasterization.
+
+5. **Q:** *Can I monitor Aspose.Words memory usage at runtime?*  
+   **A:** Use standard Java profiling tools (e.g., VisualVM, JConsole) to observe heap usage before and after loading a document. Measuring the difference gives an approximate memory footprint of the Aspose.Words DOM for that document.
