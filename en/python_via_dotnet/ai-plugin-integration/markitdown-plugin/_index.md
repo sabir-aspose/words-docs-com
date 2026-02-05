@@ -42,7 +42,7 @@ You'll need to obtain valid license for Aspose.Words. The package will install t
 
 ## How to Install Aspose.Words for MarkItDown
 
-To install Aspose.Words MCP Server via pip, run the following:
+To install Aspose.Words for MarkItDown via pip, run the following:
 
 ```bash
 pip install aspose-words-markitdown
