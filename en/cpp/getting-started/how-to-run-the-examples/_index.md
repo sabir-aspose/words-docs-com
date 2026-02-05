@@ -121,3 +121,22 @@ You can fork the repository, edit the source code, and create a pull request to 
 ## See Also
 
 - [Details on how to install NuGet Package Manager](https://docs.microsoft.com/nuget/guides/install-nuget)
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I run the examples on a machine without Internet access?  
+   **A:** Download the CMake package from the Aspose download site and place the `Aspose.Words.Cpp` and `CodePorting.Native.Cs2Cpp_*` folders in the repository root before building. All required binaries are then available locally, so NuGet restore is not needed.
+
+2. **Q:** Do I need to apply a license to run the example projects?  
+   **A:** The examples work without a license but will add a watermark to generated documents. To remove the watermark, place a valid `Aspose.Words.Cpp` license file (e.g., `License.txt`) in the executable’s working directory and call `Aspose::Words::License license; license.SetLicense("License.txt");` at the start of your program.
+
+3. **Q:** Which version of Visual Studio is required for the NuGet‑based examples?  
+   **A:** Visual Studio 2022 (or later) is required because the examples target the C++20 standard and rely on the latest MSVC toolset that ships with VS 2022.
+
+4. **Q:** How do I build and run the Linux examples using CMake?  
+   **A:** After installing Clang, Ninja, and CMake (≥ 3.16), execute the commands shown in the Linux section: configure with `cmake -S Examples/DocsExamples -B Examples/DocsExamples/build -D CMAKE_BUILD_TYPE=Release`, build with `cmake --build Examples/DocsExamples/build`, and run the tests with `cmake -E chdir Examples/DocsExamples/build ctest --verbose`.
+
+5. **Q:** Can I run the example projects as unit tests from the command line?  
+   **A:** Yes. After building the solution, navigate to the `build` directory and execute `ctest --verbose` (Linux/macOS) or run the generated test runner executable (Windows). This will execute all example unit tests and display their results.

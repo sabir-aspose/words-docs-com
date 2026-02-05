@@ -15,7 +15,7 @@ timestamp: 2024-01-27-14-07-04
 
 Most of the object properties provided in the Aspose.Words API that represent some measurement, such as width or height, margins, and various distances, accept values in points, where 1 inch equals 72 points. Sometimes this is not convenient and points need to be converted to other units.
 
-Aspose.Words provides the [ConvertUtil](https://reference.aspose.com/words/cpp/class/aspose.words.convert_util) class that provides helper functions to convert between various measurement units. It enables converting inches, pixels and millimeters to points, points to inches and pixels, and converting pixels from one resolution to another.Converting pixels to points and vice versa can be performed at 96 dpi (dots per inch) resolutions or specified dpi resolution.
+Aspose.Words provides the [ConvertUtil](https://reference.aspose.com/words/cpp/class/aspose.words.convert_util) class that provides helper functions to convert between various measurement units. It enables converting inches, pixels and millimeters to points, points to inches and pixels, and converting pixels from one resolution to another. Converting pixels to points and vice versa can be performed at 96 dpi (dots per inch) resolutions or specified dpi resolution.
 
 The **ConvertUtil** class is especially useful when setting various page properties because, for instance, inches are more common measurement units than points.
 
@@ -23,3 +23,36 @@ The following code example shows how to specify page properties in inches:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-ConvertUtil-UtilityClasses-ConvertBetweenMeasurementUnits.cpp" >}}
 
+------ 
+
+## FAQ
+
+1. **Q:** How do I convert inches to points using Aspose.Words for C++?  
+   **A:** Call `Aspose::Words::ConvertUtil::InchesToPoints(double inches)`. For example:  
+   ```cpp
+   double points = Aspose::Words::ConvertUtil::InchesToPoints(2.5); // 2.5 inches = 180 points
+   ```
+
+2. **Q:** How can I convert points to pixels at a specific DPI?  
+   **A:** Use `Aspose::Words::ConvertUtil::PointsToPixels(double points, double dpi)`. Example:  
+   ```cpp
+   int pixels = Aspose::Words::ConvertUtil::PointsToPixels(72, 96); // 72 points = 96 pixels at 96 dpi
+   ```
+
+3. **Q:** Is there a method to convert millimeters to points?  
+   **A:** Yes, `Aspose::Words::ConvertUtil::MillimetersToPoints(double millimeters)`. Example:  
+   ```cpp
+   double points = Aspose::Words::ConvertUtil::MillimetersToPoints(25.4); // 25.4 mm = 72 points
+   ```
+
+4. **Q:** How do I convert pixels from one resolution to another?  
+   **A:** Use `Aspose::Words::ConvertUtil::PixelsToPixels(int pixels, double sourceDpi, double targetDpi)`. Example:  
+   ```cpp
+   int newPixels = Aspose::Words::ConvertUtil::PixelsToPixels(200, 96, 300); // 200 px at 96 dpi → equivalent at 300 dpi
+   ```
+
+5. **Q:** Can ConvertUtil convert points back to inches?  
+   **A:** Yes, call `Aspose::Words::ConvertUtil::PointsToInches(double points)`. Example:  
+   ```cpp
+   double inches = Aspose::Words::ConvertUtil::PointsToInches(144); // 144 points = 2 inches
+   ```

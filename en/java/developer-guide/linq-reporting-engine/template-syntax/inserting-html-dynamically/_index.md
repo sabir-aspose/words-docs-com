@@ -38,3 +38,19 @@ In its base usage, an `html` tag behaves exactly the same as an expression tag w
 {{< highlight csharp >}}
 <<html [html_text_expression] -sourceStyles>>
 {{< /highlight >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I insert HTML using an expression tag with the `-html` switch?  
+   **A:** Place the expression inside double‑angle brackets and add the `-html` switch, e.g., `<<[myHtml] -html>>`. The engine evaluates the expression, treats the result as HTML, and inserts it while applying the template’s styles.
+
+2. **Q:** When should I prefer the `html` tag over an expression tag with `-html`?  
+   **A:** Use the `html` tag when you want a clear placeholder in the template that will be completely replaced by the evaluated HTML at runtime. It is especially handy for larger HTML blocks or when you need the `sourceStyles` option.
+
+3. **Q:** Can I use the `html` tag inside a chart?  
+   **A:** No. The `html` tag is forbidden within chart definitions. Attempting to do so will cause a runtime error. Use plain text or image placeholders inside charts instead.
+
+4. **Q:** How can I preserve the original HTML styling (fonts, colors, etc.) when inserting it?  
+   **A:** Add the `-sourceStyles` switch to the `html` tag, e.g., `<<html [myHtml] -sourceStyles>>`. This tells the engine to keep the HTML’s own styling rather than mapping it to the template’s styles.

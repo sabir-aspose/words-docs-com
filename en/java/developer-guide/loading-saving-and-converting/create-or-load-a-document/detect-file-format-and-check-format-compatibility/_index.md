@@ -1,17 +1,17 @@
----
-title: Detect File Format
-second_title: Aspose.Words for Java
-articleTitle: Detect File Format and Check Format Compatibility
-linktitle: Detect File Format and Check Format Compatibility
-description: "Obtain information about the document format before opening it to avoid an exception if you are not sure what the actual content of the file is using Java."
-type: docs
-weight: 20
-ai_search_scope: words_java
-ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
-ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
-url: /java/detect-file-format-and-check-format-compatibility/
-timestamp: 2024-10-21-11-17-44
----
+---  
+title: Detect File Format  
+second_title: Aspose.Words for Java  
+articleTitle: Detect File Format and Check Format Compatibility  
+linktitle: Detect File Format and Check Format Compatibility  
+description: "Obtain information about the document format before opening it to avoid an exception if you are not sure what the actual content of the file is using Java."  
+type: docs  
+weight: 20  
+ai_search_scope: words_java  
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"  
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"  
+url: /java/detect-file-format-and-check-format-compatibility/  
+timestamp: 2024-10-21-11-17-44  
+---  
 
 Sometimes it is necessary to determine the format of a document before opening because the file extension does not guarantee that the contents of the file are appropriate. For example, it is known that Crystal Reports often outputs documents in RTF format, but gives them the .doc extension.
 
@@ -69,3 +69,21 @@ The following files are used in the example above. The file name is on the left 
 |  | Test File (Enc).docx | Encrypted Office Open XML WordprocessingML document. |
 | Unsupported file formats | Test File (JPG).jpg | JPEG image file. |
 
+------  
+
+## FAQ
+
+1. **Q:** How can I determine a document’s format without loading it into a `Document` object?  
+   **A:** Use the static method `FileFormatUtil.detectFileFormat(String filePath)`. It returns a `FileFormatInfo` object that contains properties such as `getFileFormatType()` and `isEncrypted()`, allowing you to identify the format safely.
+
+2. **Q:** What information does `FileFormatInfo` provide?  
+   **A:** It tells you the detected `FileFormatType` (e.g., DOCX, RTF, HTML), whether the file is encrypted, and the version of the format if applicable. You can query these via methods like `getFileFormatType()` and `isEncrypted()`.
+
+3. **Q:** Does a successful `DetectFileFormat` call guarantee that the file can be opened by Aspose.Words?  
+   **A:** No. `DetectFileFormat` only reads enough header data to identify the format. The file may still be corrupted or contain unsupported features, which could cause an exception when you later load it.
+
+4. **Q:** How should I handle encrypted files when checking format compatibility?  
+   **A:** `FileFormatInfo.isEncrypted()` will be `true` for encrypted documents. You can move them to a separate folder or prompt the user for a password before attempting to load them with `Document.load(String, LoadOptions)`.
+
+5. **Q:** Can I use `DetectFileFormat` to process many files in a folder automatically?  
+   **A:** Yes. Combine `FileFormatUtil.detectFileFormat` with `java.io.File.listFiles()` (or `Directory.getFiles` in the example) to iterate over each file, evaluate its format, and then move or categorize the file based on the returned `FileFormatInfo`.

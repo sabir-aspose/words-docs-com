@@ -23,3 +23,22 @@ ReportingEngine engine = new ReportingEngine();
 engine.getKnownTypes().add(ImageUtil.class);
 engine.buildReport(...);
 {{< /highlight >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I register a custom Java class so that the LINQ Reporting Engine can use it in a template?  
+   **A:** Create an instance of `ReportingEngine`, then add the class object to the engine’s known‑types set via `engine.getKnownTypes().add(YourClass.class);`. After that, call `engine.buildReport(...)` to process the template.
+
+2. **Q:** Which types are already known by the engine without any configuration?  
+   **A:** The engine automatically knows `Object`, `String`, and all Java primitive types (e.g., `int`, `double`, `boolean`) and their wrapper classes. No additional registration is required for these.
+
+3. **Q:** Can I add several custom types at once?  
+   **A:** Yes. Call `engine.getKnownTypes().addAll(Arrays.asList(TypeA.class, TypeB.class, TypeC.class));` or add them individually in a loop before building the report.
+
+4. **Q:** How can I remove a previously added type from the known‑types set?  
+   **A:** Use the `remove` method on the set: `engine.getKnownTypes().remove(UnwantedClass.class);`. This is useful if the class should no longer be accessible in templates.
+
+5. **Q:** Do I need to register primitive wrapper classes (e.g., `Integer`, `Double`) manually?  
+   **A:** No. Primitive types and their corresponding wrapper classes are included by default, so you only need to register user‑defined classes or third‑party types.

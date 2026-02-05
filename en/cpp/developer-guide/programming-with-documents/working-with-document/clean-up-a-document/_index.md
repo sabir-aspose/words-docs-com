@@ -36,3 +36,32 @@ You can also use the [DuplicateStyle](https://reference.aspose.com/words/cpp/asp
 The following code example shows how to remove duplicate styles from a document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Document-Working with document options and settings-CleanupDuplicateStyle.h" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** What does the `Document::Cleanup` method do?  
+   **A:** `Document::Cleanup` analyses the document according to the options set in a `CleanupOptions` object and removes or consolidates unused or duplicate elements such as styles, built‑in styles, lists, and duplicate style definitions. It does not alter the visible content of the document.
+
+2. **Q:** How can I remove only unused custom styles from a document?  
+   **A:** Create a `CleanupOptions` instance, set `UnusedStyles` to `true`, and pass it to `Document::Cleanup`. Example:  
+   ```cpp
+   Aspose::Words::CleanupOptions options;
+   options.set_UnusedStyles(true);
+   document.Cleanup(options);
+   ```
+
+3. **Q:** How do I eliminate duplicate styles while keeping the original style intact?  
+   **A:** Enable the `DuplicateStyle` option in `CleanupOptions`. The method will replace all occurrences of duplicate styles with the first (original) style and then delete the duplicates.  
+   ```cpp
+   Aspose::Words::CleanupOptions options;
+   options.set_DuplicateStyle(true);
+   document.Cleanup(options);
+   ```
+
+4. **Q:** Can the cleanup process also remove unused built‑in styles and lists?  
+   **A:** Yes. Set `UnusedBuiltinStyles` and/or `UnusedLists` to `true` in the `CleanupOptions` object before calling `Cleanup`. This will purge any built‑in styles or list definitions that are not referenced in the document.
+
+5. **Q:** Will using `Cleanup` affect the formatting or layout of the document?  
+   **A:** No. Cleanup only removes or merges internal definitions that are not used. The visible text, formatting, and layout remain unchanged, but the file size may be reduced and processing can become faster.

@@ -134,3 +134,22 @@ Note that the **Section** and **PageSetup** properties do not control how two do
 The following code example shows how to append one document to another while keeping the content from splitting across two pages:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "different-page-setup.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I insert a whole document at the current cursor position using `DocumentBuilder`?  
+   **A:** Create a `DocumentBuilder` for the destination document, load the source document, and call `builder.insertDocument(sourceDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);`. The `ImportFormatMode` determines how styles are merged.
+
+2. **Q:** How do I insert a document while performing a find‑and‑replace operation?  
+   **A:** Implement the `IReplacingCallback` interface, and in the `replacing` method obtain the `DocumentBuilder` from the `ReplacingArgs`. Then call `builder.insertDocument(sourceDoc, ImportFormatMode.USE_DESTINATION_STYLES);`. Register the callback with `findReplaceOptions.setReplacingCallback(myCallback);` before executing `document.getRange().replace(findReplaceOptions);`.
+
+3. **Q:** How can I insert a document into a merge field during a Mail Merge?  
+   **A:** Implement `IFieldMergingCallback`. In the `fieldMerging` method, move the `DocumentBuilder` to the merge field using `builder.moveToMergeField(fieldName);` and call `builder.insertDocument(sourceDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING);`. Assign the callback to `document.getMailMerge().setFieldMergingCallback(myCallback);` before calling `mailMerge.execute(...);`.
+
+4. **Q:** What is the correct way to insert a document at a bookmark?  
+   **A:** Use `DocumentBuilder.moveToBookmark("MyBookmark");` to position the builder at the bookmark, then call `builder.insertDocument(sourceDoc, ImportFormatMode.KEEP_DIFFERENT_STYLES);`. The inserted content will appear immediately after the bookmark.
+
+5. **Q:** How can I control formatting when inserting or appending documents?  
+   **A:** Pass an `ImportFormatMode` (e.g., `USE_DESTINATION_STYLES`, `KEEP_SOURCE_FORMATTING`, `KEEP_DIFFERENT_STYLES`) to `insertDocument` or `appendDocument`. For finer control, create an `ImportFormatOptions` object and set properties such as `setIgnoreHeaderFooter(true)`, `setIgnoreTextBoxes(true)`, or `setMergePastedLists(true)`, then supply it to the method overload that accepts `ImportFormatOptions`. You can also adjust the resulting layout by modifying the destination section’s `PageSetup` (e.g., `section.getPageSetup().setSectionStart(SectionStart.NEW_PAGE);`).

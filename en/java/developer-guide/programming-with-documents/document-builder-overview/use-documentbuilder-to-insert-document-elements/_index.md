@@ -215,3 +215,22 @@ You can create a snip corner rectangle using Aspose.Words. The shape types are S
 You can use `LoadOptions.ConvertShapeToOfficeMath` property to convert the shapes with EquationXML to Office Math objects. The default value of this property corresponds to MS Word behavior i.e. shapes with equation XML are not converted to Office math objects.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-ConvertShapeToOfficeMath.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I insert another Word document into the current document with DocumentBuilder?  
+   **A:** Load the source document into a `Document` object and call `DocumentBuilder.insertDocument(sourceDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING)`. This inserts the entire source document at the builder’s current position while preserving its original formatting.
+
+2. **Q:** What is the easiest way to insert an image at a specific size?  
+   **A:** Use the overload `DocumentBuilder.insertImage(String filePath, double width, double height)`. The method returns a `Shape` object that you can further adjust (e.g., set wrapping style) if needed.
+
+3. **Q:** How do I create a bookmark and later move the cursor to it?  
+   **A:** Call `builder.startBookmark("MyBookmark")`, add the desired content, then `builder.endBookmark("MyBookmark")`. To navigate back, use `builder.moveToBookmark("MyBookmark")`.
+
+4. **Q:** How can I insert a MERGEFIELD or other field programmatically?  
+   **A:** Use `builder.insertField(FieldType.FIELD_MERGE_FIELD, false).setFieldCode("MERGEFIELD  MyField  \\* MERGEFORMAT")`. After insertion you can set the field’s result or let Word update it later.
+
+5. **Q:** Can I insert raw HTML content and keep its formatting?  
+   **A:** Yes. Pass the HTML string to `builder.insertHtml(htmlString)`. Aspose.Words parses the HTML and converts it into the corresponding Word elements, preserving styles, tables, and images where possible.

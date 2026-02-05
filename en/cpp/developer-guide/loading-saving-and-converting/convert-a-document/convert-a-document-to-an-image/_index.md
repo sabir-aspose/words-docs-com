@@ -37,3 +37,35 @@ The following code example shows how to create a preview of the first document p
 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ConvertWordDocument-ConvertDocumentToImage.cpp" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I convert a Word document to a JPEG image using Aspose.Words for C++?  
+   **A:** Load the document with `System::SharedPtr<Aspose::Words::Document> doc = System::MakeObject<Aspose::Words::Document>(u"input.docx");`, create an `ImageSaveOptions` object, set `SaveFormat` to `SaveFormat::Jpeg`, and call `doc->Save(u"output.jpg", saveOptions);`.
+
+2. **Q:** Can I convert only selected pages of a document to images?  
+   **A:** Yes. Use the `PageSet` property of `ImageSaveOptions`. For example, `saveOptions->set_PageSet(System::MakeObject<Aspose::Words::Saving::PageSet>(1, 1));` converts only page 1.
+
+3. **Q:** Which options let me control the resolution and quality of the saved image?  
+   **A:** `HorizontalResolution`, `VerticalResolution`, and `Resolution` control DPI. `JpegQuality` (0‑100) adjusts JPEG compression, while `TiffCompression` sets TIFF compression type. Adjust these on the `ImageSaveOptions` instance before saving.
+
+4. **Q:** How can I change the pixel format or color mode of the output image?  
+   **A:** Set `PixelFormat` (e.g., `PixelFormat::Format24bppRgb`) and `ImageColorMode` (e.g., `ImageColorMode::Grayscale`) on the `ImageSaveOptions` object to modify the image’s color representation.
+
+5. **Q:** How do I generate separate image files for every page in a document?  
+   **A:** Loop through the page count, update `PageSet` for each page, and call `Save` with a distinct file name, e.g.:
+
+   ```cpp
+   System::SharedPtr<Aspose::Words::Document> doc = System::MakeObject<Aspose::Words::Document>(u"input.docx");
+   System::SharedPtr<Aspose::Words::Saving::ImageSaveOptions> options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(SaveFormat::Png);
+   for (int i = 0; i < doc->get_PageCount(); ++i)
+   {
+       options->set_PageSet(System::MakeObject<Aspose::Words::Saving::PageSet>(i + 1, 1));
+       System::String fileName = System::String::Format(u"page_{0}.png", i + 1);
+       doc->Save(fileName, options);
+   }
+   ```
+
+   This creates one image per page with the specified format and options.

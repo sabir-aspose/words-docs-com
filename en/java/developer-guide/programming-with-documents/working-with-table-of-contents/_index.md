@@ -152,3 +152,22 @@ Firstly the `FieldStart` nodes of each `TOC` are collected and stored. The speci
 If you want to extract a table of contents from any Word document, the following code sample can be used.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-ExtractTableOfContents-ExtractTableOfContents.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I insert a Table of Contents using Aspose.Words for Java?  
+   **A:** Create a `Document` and a `DocumentBuilder`, then call `DocumentBuilder.insertTableOfContents(String switches)`. Pass the desired field switches (e.g., `\\o \"1-3\" \\h \\z \\u`) to control which headings are included and how the TOC is formatted.
+
+2. **Q:** After editing the document, how can I refresh an existing TOC?  
+   **A:** Call `document.updateFields()` followed by `document.updatePageLayout()`. The first method populates the TOC entries, and the second calculates and inserts the correct page numbers.
+
+3. **Q:** Which switch should I use to include custom heading styles in the TOC?  
+   **A:** Use the `\\t` switch. Provide a list of custom style names and the level they should appear at, for example: `\\t \"MyCustomStyle,1,AnotherStyle,2\"`. Combine it with the `\\o` switch to also include built‑in headings.
+
+4. **Q:** How can I hide page numbers or make TOC entries clickable hyperlinks?  
+   **A:** Add the `\\n` switch to omit page numbers for specified levels, and the `\\h` switch to generate hyperlink entries. For example: `\\o \"1-3\" \\h \\n \"1-1\"` will create hyperlinks and hide page numbers for level 1.
+
+5. **Q:** What is the recommended way to delete a TOC from a document?  
+   **A:** Locate the `FieldStart` nodes whose `FieldType` is `FieldType.FieldTOC`, collect all nodes up to the matching `FieldEnd`, and remove them from the document tree. This removes the field and its contents without affecting other fields.

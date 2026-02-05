@@ -76,3 +76,31 @@ Please note that the document will be automatically optimized for MS Word 2013 t
 The following code example shows how to insert an online video into a document using such HTML code:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Video-InsertOnlineVideo-InsertOnlineVideoWithEmbedHtml.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I insert an OLE object from a file stream in Java?  
+   **A:** Use `DocumentBuilder.insertOleObject(InputStream stream, String progId, boolean isLinked, InputStream iconStream)`. Provide the object’s ProgID (e.g., `"Word.Document"`), the data stream, and optionally an icon stream.
+
+2. **Q:** How can I set a custom file name, extension, and display name for an OLE package?  
+   **A:** Create an `OlePackage` instance, then call `setFileName()`, `setExtension()`, and `setDisplayName()` before inserting it with `DocumentBuilder.insertOleObject`.
+
+3. **Q:** What is the way to retrieve the raw binary data of an embedded OLE object?  
+   **A:** Obtain the `OleFormat` object from the OLE node (`OleFormat ole = (OleFormat)node;`) and call `ole.getRawData()` to get a byte array containing the original data.
+
+4. **Q:** How can I insert an OLE object as an icon rather than as embedded content?  
+   **A:** Use `DocumentBuilder.insertOleObjectAsIcon(InputStream stream, String progId, String iconFileName, String iconDisplayName)`; this inserts the object and displays the specified icon image.
+
+5. **Q:** How can I detect whether a document contains any OLE objects?  
+   **A:** Iterate through the document’s OLE nodes:  
+   ```java
+   NodeCollection oleNodes = doc.getChildNodes(NodeType.OBJECT, true);
+   for (Node node : oleNodes) {
+       if (node instanceof OleFormat) {
+           // OLE object found
+       }
+   }
+   ```  
+   If the collection is non‑empty, the document includes OLE objects.

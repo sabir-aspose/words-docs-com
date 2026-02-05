@@ -81,3 +81,22 @@ The following code example shows how to export list levels using space character
 The following code example shows how to export list levels using default indentation:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-defaultLevelForListIndentation.java" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** How can I include headers and footers when saving a document as plain text?  
+   **A:** Set the `ExportHeadersFootersMode` property of `TxtSaveOptions` to the desired mode (e.g., `ExportHeadersFootersMode.All`). This tells Aspose.Words to write header and footer text into the resulting TXT file.
+
+2. **Q:** How do I control list indentation in the exported TXT file?  
+   **A:** Use the `ListIndentation` property of `TxtSaveOptions`. You can specify a character (tab, space, or custom) and the number of such characters per list level to achieve the required indentation.
+
+3. **Q:** How can I preserve leading and trailing spaces when loading a TXT file?  
+   **A:** Configure `TxtLoadOptions` with the appropriate `LeadingSpaces` and `TrailingSpaces` settings (e.g., `LeadingSpaces.Preserve` and `TrailingSpaces.Preserve`). This prevents Aspose.Words from trimming or converting those spaces.
+
+4. **Q:** What does the `AddBidiMarks` option do and when should I use it?  
+   **A:** When `AddBidiMarks` is true, Aspose.Words inserts a RIGHT‑TO‑LEFT MARK (U+200F) before each bi‑directional run in the exported text. Enable it when the document contains Arabic or Hebrew text and you need the correct visual order in plain‑text files.
+
+5. **Q:** How can I detect the text direction (RTL/LTR) of a TXT document during import?  
+   **A:** Use the `DocumentDirection` property of `TxtLoadOptions`. After loading, the property reflects the detected direction, allowing you to handle right‑to‑left or left‑to‑right content appropriately.

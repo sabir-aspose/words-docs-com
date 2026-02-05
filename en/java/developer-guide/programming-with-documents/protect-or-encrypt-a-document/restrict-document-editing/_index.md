@@ -85,3 +85,22 @@ You can also choose different document editing restrictions for different sectio
 The following code example shows how to add a restriction for the entire document, and then remove the restriction for one of the sections:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-UnrestrictedSection.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I apply password protection to a document?  
+   **A:** Use the `Document.protect(ProtectionType, password)` method, passing the desired `ProtectionType` and a string password. The password is stored in the document and is required to remove or change the protection.
+
+2. **Q:** Can I remove protection without knowing the password?  
+   **A:** Yes. Call `Document.unprotect()` without arguments; this removes protection regardless of the password. Use the overload `unprotect(String password)` only when you want to verify the password before removing protection.
+
+3. **Q:** Which restriction type allows users to fill only form fields?  
+   **A:** Use `ProtectionType.ALLOW_ONLY_FORM_FIELDS` when calling `Document.protect`. This lets users edit form fields while keeping the rest of the document read‑only.
+
+4. **Q:** How can I create editable regions inside a read‑only document?  
+   **A:** With a `DocumentBuilder`, call `startEditableRange()` before the region and `endEditableRange()` after it. Content inside this range can be edited even when the document is protected with `ProtectionType.READ_ONLY`.
+
+5. **Q:** How can I check whether a document is currently protected?  
+   **A:** Inspect the `Document.getProtectionType()` property. If it returns `ProtectionType.NO_PROTECTION`, the document is unprotected; otherwise it returns the active restriction type.

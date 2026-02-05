@@ -168,3 +168,56 @@ You can easily insert an HTML string that contains an HTML fragment or whole HTM
 Below code example shows how to insert horizontal rule shape into a document using `DocumentBuilder->InsertHorizontalRule` method.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertHorizontalRule-DocumentBuilderInsertHorizontalRule.cpp" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I apply a license to Aspose.Words for C++?  
+   **A:** Create an `Aspose::Words::License` object, load the license file (or stream) with `SetLicense`, and then use the library. Example:  
+
+   ```cpp
+   #include <Aspose.Words.Cpp/License.h>
+
+   Aspose::Words::License license;
+   license.SetLicense(u"LicenseFile.lic");   // or license.SetLicense(u"license.xml");
+   ```
+
+2. **Q:** What is the correct way to insert an inline image using DocumentBuilder?  
+   **A:** Use `DocumentBuilder->InsertImage` with the image file path (or stream). The method returns a `Shape` that you can further format. Example:  
+
+   ```cpp
+   Aspose::Words::DocumentBuilder builder(document);
+   Aspose::Words::Shape* shape = builder.InsertImage(u"picture.png");
+   shape->set_Width(200.0);
+   shape->set_Height(150.0);
+   ```
+
+3. **Q:** How can I insert a bookmark that spans multiple paragraphs?  
+   **A:** Call `StartBookmark` before the first paragraph, insert the content, then call `EndBookmark` after the last paragraph. The same bookmark name must be used for both calls. Example:  
+
+   ```cpp
+   Aspose::Words::DocumentBuilder builder(document);
+   builder.StartBookmark(u"MyRange");
+   builder.Writeln(u"First paragraph.");
+   builder.Writeln(u"Second paragraph.");
+   builder.EndBookmark(u"MyRange");
+   ```
+
+4. **Q:** Which method should I use to add a floating (absolutely positioned) image?  
+   **A:** Use the overload of `InsertImage` that accepts position and size parameters, then set the `Shape`’s `WrapType` to `WrapType::Square` (or another wrap). Example:  
+
+   ```cpp
+   Aspose::Words::DocumentBuilder builder(document);
+   Aspose::Words::Shape* shape = builder.InsertImage(u"logo.png", 100.0, 100.0, 300.0, 200.0);
+   shape->set_WrapType(Aspose::Words::WrapType::Square);
+   ```
+
+5. **Q:** How do I insert HTML content that contains custom styling?  
+   **A:** Pass the HTML string directly to `DocumentBuilder->InsertHtml`. The method parses the HTML and preserves supported styling. Example:  
+
+   ```cpp
+   Aspose::Words::DocumentBuilder builder(document);
+   System::String html = u"<p style='color:blue; font-weight:bold;'>Styled text</p>";
+   builder.InsertHtml(html);
+   ```

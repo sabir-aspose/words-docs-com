@@ -151,3 +151,26 @@ Typed properties are merely useful shortcuts that sometimes provide easier acces
 The following code example shows how to use typed properties to access nodes of the document tree:
 
 {{< gist "aspose-words-gists" "581adffafc4abd2deaf7d140c4698990" "typed-access.js" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** How can I obtain the type of a node in the DOM?  
+   **A:** Use the `node.nodeType` property, which returns a value from the `NodeType` enumeration (e.g., `NodeType.Paragraph`, `NodeType.Table`). This lets you identify the kind of element without casting.
+
+2. **Q:** What is the correct way to get a node’s parent?  
+   **A:** Access the `node.parentNode` property. If the node is the document root or has not been added to the tree, `parentNode` will be `null`.
+
+3. **Q:** How do I iterate over all child nodes of a composite node?  
+   **A:** Use `compositeNode.getChildNodes()` to obtain a live collection, then loop through it with `for (let child of compositeNode.getChildNodes()) { … }`. Alternatively, traverse using `firstChild` and `nextSibling`.
+
+4. **Q:** Do I need to cast a node to a specific class such as `Paragraph`?  
+   **A:** When the node’s `nodeType` indicates a specific type, you can assign it directly to the typed class in Node.js:  
+   ```javascript
+   const paragraph = node; // node is a Paragraph because node.nodeType === NodeType.Paragraph
+   ```  
+   The typed properties (`firstParagraph`, `lastParagraph`, etc.) also provide direct access without explicit casting.
+
+5. **Q:** How can I verify which document a node belongs to?  
+   **A:** Use the `node.document` property. It returns the `Document` instance that owns the node, which is useful for ensuring the node is part of a loaded document before performing operations.

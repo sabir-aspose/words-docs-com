@@ -123,3 +123,16 @@ The following code example shows how to load and remove digital signatures from 
 Note that you can not remove only one digital signature within your document.
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** Do I need a licensed copy of Aspose.Words to use digital signature features?  
+   **A:** Yes. Digital signature functionality is fully available only with a valid Aspose.Words license. In evaluation mode the library works, but certain features may be limited or watermarked.
+
+2. **Q:** Can I remove a single digital signature from a document?  
+   **A:** No. Aspose.Words can only remove all signatures at once using `RemoveAllSignatures`. Individual signature removal is not supported.
+
+3. **Q:** Is it possible to sign a PDF that was generated from a Word document?  
+   **A:** Yes. After generating the PDF, use `DigitalSignatureUtil.Sign` with a `CertificateHolder` and appropriate `SignOptions` to apply a digital signature to the PDF.

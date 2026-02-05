@@ -38,3 +38,27 @@ When posting your issue, question, or feature request with Aspose.Words, follow 
 
 * Include the original document and possibly the code snippet that is causing the problem. If you need to attach multiple files, zip them into one. It is safe to attach your documents to `Aspose.Forums` because only you and the Aspose developers will have access to the attached files.
 * Try to report one issue per thread. If you have another issue, question, or feature request, please report it in a separate thread.
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I apply a license for Aspose.Words in a Node.js‑via‑.NET project?  
+   **A:** Load the license file using the `Aspose.Words.License` class in your .NET code before creating any `Document` objects. Example:  
+   ```csharp
+   Aspose.Words.License license = new Aspose.Words.License();
+   license.SetLicense("Aspose.Words.lic");
+   ```
+   Ensure the license file is deployed with your application and the path is correct.
+
+2. **Q:** Where can I find the API reference for licensing and other classes?  
+   **A:** The complete API reference for Aspose.Words for Node.js via .NET is available at https://reference.aspose.com/words/nodejs-net/. Look under the **License** section for details on the `License` class and its methods.
+
+3. **Q:** What should I include when posting a support request on the forum?  
+   **A:** Attach the original document (or a zip containing all relevant files), a minimal reproducible code snippet, the exact version of Aspose.Words you are using, and a clear description of the problem. This helps the support team reproduce and resolve the issue quickly.
+
+4. **Q:** Is phone support available for technical questions?  
+   **A:** No. Aspose provides technical support exclusively through the free support forum and the issue‑tracking system. Phone support is limited to sales and purchase inquiries only.
+
+5. **Q:** How can I verify that my license is correctly applied?  
+   **A:** After setting the license, you can check the `License.IsLicensed` property (or simply attempt an operation that requires a license, such as saving a PDF). If the operation succeeds without a trial watermark or limitation message, the license is active.

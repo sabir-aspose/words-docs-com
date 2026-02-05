@@ -109,3 +109,42 @@ The following code example shows how to remove all footers from all sections but
 You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I remove all footers while keeping the headers intact?  
+   **A:** Iterate through each `Section` in the document, access its `Footers` collection, and call `Clear()` or remove each footer node. Example:  
+
+   ```cpp
+   for (auto& section : System::IterateOver(doc->get_Sections()))
+   {
+       section->get_Footers()->Clear();
+   }
+   ```
+
+2. **Q:** How do I set a different header/footer for the first page only?  
+   **A:** Set `PageSetup->set_DifferentFirstPageHeaderFooter(true)` on the section, then modify `HeaderFirst`/`FooterFirst`. The first‑page header/footer will be used while other pages use the primary header/footer.
+
+3. **Q:** What is the easiest way to add right‑aligned page numbers to a footer?  
+   **A:** Use `DocumentBuilder` to move to the footer, set `ParagraphFormat->set_Alignment(ParagraphAlignment::Right)`, and insert a PAGE field:  
+
+   ```cpp
+   DocumentBuilder builder(doc);
+   builder.MoveToHeaderFooter(HeaderFooterType::FooterPrimary);
+   builder.get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Right);
+   builder.InsertField(u"PAGE", u"");
+   ```
+
+4. **Q:** How can I insert an image into a header at an absolute position?  
+   **A:** Move the builder to `HeaderPrimary`, then call `InsertImage` with the desired coordinates and size:  
+
+   ```cpp
+   DocumentBuilder builder(doc);
+   builder.MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
+   builder.InsertImage(u"logo.png", 0.0, 0.0, 100.0, 50.0);
+   ```
+
+5. **Q:** Why does a header disappear after I change a section’s page orientation?  
+   **A:** Changing orientation can break the link to the previous section’s header/footer. Ensure `HeaderFooter->set_LinkToPrevious(false)` before modifying the orientation, or copy the required header/footer after the change.

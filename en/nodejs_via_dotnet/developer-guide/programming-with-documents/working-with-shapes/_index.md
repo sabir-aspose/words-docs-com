@@ -110,3 +110,22 @@ You can use [convertShapeToOfficeMath](https://reference.aspose.com/words/nodejs
 The following code example shows how to convert shapes to Office Math objects:
 
 {{< gist "aspose-words-gists" "3a90c8783e87c53371d103d9350f1d31" "convert-shape-to-office-math.js" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** How do I insert an inline shape versus a floating shape?  
+   **A:** Use `DocumentBuilder.insertShape` and set the `WrapType` property. For an inline shape, set `WrapType` to `WrapType.Inline`; for a floating shape, set it to `WrapType.Square` (or another wrap type) and optionally specify the position with `Left` and `Top`.  
+
+2. **Q:** How can I lock the aspect ratio of a shape so it doesn’t get distorted when resized?  
+   **A:** Set the `aspectRatioLocked` property of the shape’s `ShapeBase` to `true`. This ensures the width‑to‑height ratio remains constant when the shape is resized programmatically or by the user.  
+
+3. **Q:** How can I determine whether a shape contains a SmartArt object?  
+   **A:** Check the `hasSmartArt` property of the `Shape` instance. It returns `true` if the shape is a SmartArt diagram, allowing you to handle it differently (e.g., skip processing or apply specific formatting).  
+
+4. **Q:** How do I insert an OLE object as an icon with a custom caption?  
+   **A:** Call `Shape.insert_ole_object_as_icon` on a `Shape` created with `InsertShape`. Provide the file path of the OLE source, the icon image path, and the desired caption string. The icon size must be 32 × 32 pixels for correct display.  
+
+5. **Q:** How can I set the vertical alignment of text inside a textbox shape?  
+   **A:** Use the `verticalAnchor` property of the `TextBox` (which derives from `Shape`). Assign one of the `VerticalAnchor` enum values such as `Top`, `Center`, or `Bottom` to control where the text is positioned vertically within the textbox.

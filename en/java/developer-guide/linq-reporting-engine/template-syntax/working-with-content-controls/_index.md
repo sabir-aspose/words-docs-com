@@ -43,7 +43,7 @@ You can dynamically add items to comboboxes and dropdown lists defined in your t
 <<item [value_expression] [display_name_expression]>>
 {{< /highlight >}}
 
-Here, `value_expression` defines a value of a combobox or dropdown list item to be added dynamically. This expression is mandatory and must return a non-empty value.
+Here, `value_expression` defines a value of a combobox or dropdown list item to be added dynamically. This expression is mandatory and must return a non‑empty value.
 
 In turn, `display_name_expression` defines a display name of the combobox or dropdown list item to be added. This expression is optional. If it is omitted, then during runtime, a value of `value_expression` is used as a display name as well.
 
@@ -80,3 +80,22 @@ You can normally use common expression tags in content control titles, thus form
 {{< highlight csharp >}}
 <<[s]>>
 {{< /highlight >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I set a checkbox content control to checked or unchecked based on data?  
+   **A:** Add a `check` tag to the checkbox title, e.g., `<<check [order.IsPaid]>>`. The expression must return a Boolean; if true, the checkbox is checked, otherwise it remains unchecked. The tag is removed after evaluation.
+
+2. **Q:** How can I add items to a combobox or dropdown list at runtime?  
+   **A:** Use the `item` tag inside the content control title: `<<item [value] [displayName]>>`. Place multiple `item` tags or put them inside a `foreach` loop to add many items dynamically.
+
+3. **Q:** Is it possible to set the title of a content control dynamically?  
+   **A:** Yes. Insert an expression tag directly in the title, such as `<<[customer.Name]>>`. The expression is evaluated and the resulting string becomes the control’s title.
+
+4. **Q:** Can I conditionally add a combobox item?  
+   **A:** Combine `if` and `item` tags: `<<if [product.InStock]>> <<item [product.Id] [product.Name]>> <<endif>>`. The item is added only when the condition evaluates to true.
+
+5. **Q:** Word adds a default item to a new combobox; how do I remove it?  
+   **A:** The default item must be removed manually in the template before processing, or you can delete it programmatically after the document is generated using the `ContentControl.Remove` method.

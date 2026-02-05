@@ -51,4 +51,21 @@ The following code example shows how to update this property:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkingWithSaveOptions-UpdateLastSavedTimeProperty.cpp" >}}
 
+------ 
 
+## FAQ
+
+1. **Q:** How can I update all fields in a document using C++?  
+   **A:** Load the document, call `Document::UpdateFields()`, and then save the document. This updates every field, including TOC, page numbers, and formula fields.  
+
+2. **Q:** How do I update fields only in a specific part of a document, such as a header or a section?  
+   **A:** Obtain the `Range` of the target node (e.g., `HeaderFooter* header = ...; Range* range = header->get_Range();`) and call `range->UpdateFields()`. Only fields inside that range are refreshed.  
+
+3. **Q:** Are page‑related fields like `PAGE` and `PAGEREF` updated automatically when converting to PDF or XPS?  
+   **A:** Yes. During rendering to fixed‑page formats, Aspose.Words automatically updates page‑related fields in headers and footers. For other fields you must call `UpdateFields()` before rendering.  
+
+4. **Q:** Does Mail Merge automatically update fields, or must I call `UpdateFields()` after a merge?  
+   **A:** Mail Merge automatically updates all fields that are part of the merge operation. No additional call to `UpdateFields()` is required unless you have other fields that need refreshing.  
+
+5. **Q:** How can I ensure the `LastSavedTime` built‑in property reflects the current time when saving?  
+   **A:** Set `SaveOptions::UpdateLastSavedTimeProperty` to `true` before saving the document. This updates the `LastSavedTime` property to the current system time.  

@@ -43,7 +43,7 @@ The following example shows how to convert DOC to TIFF with configured options:
 
 A TIFF image can be saved in 1bpp b/w format by setting the [PixelFormat](https://reference.aspose.com/words/cpp/aspose.words.saving/imagesaveoptions/get_pixelformat/) property to Format1bppIndexed pixel format type, and the `TiffCompression` property to either Ccitt3 or Ccitt4.
 
-For image segmentation, Aspose.Words uses the simplest method — thresholding. This method converts a gray-scale TIFF image into a binary image, using a threshold value. Therefore, when a document needs to be converted to the TIFF file format, it is possible to get or set the threshold for TIFF binarization via the [ThresholdForFloydSteinbergDithering](https://reference.aspose.com/words/cpp/aspose.words.saving/imagesaveoptions/get_thresholdforfloydsteinbergdithering/) property. The default value for this property is set to 128, and the higher this value, the darker the image.
+For image segmentation, Aspose.Words uses the simplest method — thresholding. This method converts a gray‑scale TIFF image into a binary image, using a threshold value. Therefore, when a document needs to be converted to the TIFF file format, it is possible to get or set the threshold for TIFF binarization via the [ThresholdForFloydSteinbergDithering](https://reference.aspose.com/words/cpp/aspose.words.saving/imagesaveoptions/get_thresholdforfloydsteinbergdithering/) property. The default value for this property is set to 128, and the higher this value, the darker the image.
 
 The following example shows how to perform TIFF binarization with a specified threshold:
 
@@ -52,3 +52,22 @@ The following example shows how to perform TIFF binarization with a specified t
 Below you can compare images on which TIFF binarization was performed at various threshold values:
 
 ![save-a-document-as-a-multipage-tiff-aspose-words-cpp](saving-a-document-as-a-multipage-tiff-1.jpg)
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I save a document as a multipage TIFF in C++ with Aspose.Words?  
+   **A:** Create a `Document` object, configure an `ImageSaveOptions` instance with `SaveFormat::Tiff`, set any desired options (resolution, page range, compression, etc.), and call `Document::Save("output.tiff", saveOptions);`.
+
+2. **Q:** How can I control the DPI (resolution) of the generated TIFF images?  
+   **A:** Set the `Resolution` property of `ImageSaveOptions`, or set `HorizontalResolution` and `VerticalResolution` individually to the required DPI value before saving.
+
+3. **Q:** Which property defines the compression type for the TIFF file?  
+   **A:** Use the `TiffCompression` property of `ImageSaveOptions`. Common values are `TiffCompression::Ccitt3`, `TiffCompression::Ccitt4`, `TiffCompression::Lzw`, etc.
+
+4. **Q:** How do I create a black‑and‑white (1 bpp) TIFF and adjust its binarization threshold?  
+   **A:** Set `PixelFormat` to `PixelFormat::Format1bppIndexed`, choose a `TiffBinarizationMethod` (e.g., `TiffBinarizationMethod::FloydSteinbergDithering`), and set `ThresholdForFloydSteinbergDithering` to a value between 0 and 255 (default is 128).
+
+5. **Q:** How can I export only specific pages of a document to the TIFF output?  
+   **A:** Configure `PageIndex` (zero‑based start page) and `PageCount` (number of pages to render) on the `ImageSaveOptions` object before calling `Save`. This limits the TIFF to the selected page range.

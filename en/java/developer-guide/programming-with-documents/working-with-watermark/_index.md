@@ -82,3 +82,22 @@ Sometimes you need to insert a watermark/image into a table's cell and display i
 The following code example shows how to use this property:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-SetShapeLayoutInCell.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I add a watermark to only a specific page in a document?  
+   **A:** Insert the watermark into a header/footer that is linked only to the desired page (e.g., using a different first‑page header). Set the watermark’s `Name` property so you can later remove or modify it without affecting other pages.
+
+2. **Q:** Can I control the opacity of a text or image watermark?  
+   **A:** Yes. Use `TextWatermarkOptions.setOpacity(double)` for text watermarks or `ImageWatermarkOptions.setOpacity(double)` for image watermarks. The value ranges from 0.0 (fully transparent) to 1.0 (fully opaque).
+
+3. **Q:** How do I remove a watermark that was added without specifying a name?  
+   **A:** If the watermark was added without a name, you can retrieve all shapes of type `ShapeType.WATERMARK` from the document’s headers/footers and call `remove()` on the matching shape. Naming the watermark when adding it (`watermark.Name("MyMark")`) simplifies later removal.
+
+4. **Q:** Is it possible to add a watermark inside a table cell and have it appear behind the cell’s text?  
+   **A:** Yes. Set `ShapeBase.setIsLayoutInCell(false)` on the watermark shape and ensure the document is optimized for Word 2010 (`CompatibilityOptions.optimizeFor(CompatibilityOptions.OPTIMIZE_FOR_WORD_2010)`). This places the watermark outside the cell layout while keeping it visually aligned with the table.
+
+5. **Q:** Can I add a watermark to a document that is being generated in memory (without saving to disk first)?  
+   **A:** Absolutely. Create a `Document` instance from a stream or from scratch, apply the watermark using the `Watermark` class, and then save the document directly to a `ByteArrayOutputStream` or any other output stream. No intermediate file is required.

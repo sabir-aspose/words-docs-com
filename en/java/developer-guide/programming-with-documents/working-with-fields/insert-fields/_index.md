@@ -211,3 +211,22 @@ For more details, see the [FieldToa](https://reference.aspose.com/words/java/co
 The following code example shows how to add the `TOA` field using DOM to a paragraph in a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertTOAField-InsertTOAField.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I insert a simple field, such as a MERGEFIELD, using DocumentBuilder?  
+   **A:** Use `DocumentBuilder.insertField(String fieldCode, boolean updateField)`. Pass the full field code (e.g., `"MERGEFIELD  CustomerName"`). Set `updateField` to `true` to let Aspose.Words calculate the result automatically, or `false` to keep the result empty.
+
+2. **Q:** What is the recommended way to insert a field when I need to set switches or nested fields?  
+   **A:** Use the `FieldBuilder` class. It provides a fluent API to add switches, set arguments, and embed nested fields without manually constructing the field code string.
+
+3. **Q:** How can I insert an empty (untyped) field that Word represents as `{}`?  
+   **A:** Call `DocumentBuilder.insertField(FieldType.FieldNone, false)`. This creates a placeholder field with no type, which you can later edit in Word.
+
+4. **Q:** Is it possible to set a specific locale for a field, for example to format dates in French?  
+   **A:** Yes. After inserting the field, set its `LocaleId` property to the desired LCID (e.g., `field.setLocaleId(1036)` for French). The field will format its result according to that locale.
+
+5. **Q:** How do I add a field using the DOM without using DocumentBuilder?  
+   **A:** Create an instance of the appropriate field class (e.g., `FieldMergeField`, `FieldAsk`, `FieldAdvance`) and insert it into the document tree with `Paragraph.appendChild(field)`. This method gives full control over the field’s properties.

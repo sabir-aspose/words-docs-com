@@ -43,3 +43,28 @@ engine.buildReport(...);
 {{< /highlight >}}
 
 **Note –** The message can be printed only instead of a template expression that represents a plain reference to a missing member of an object like in the provided template example; for instance, the message is not used when printing the result of a binary operator, one of which operands references a missing object member.
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I enable the engine to treat missing members as null values?  
+   **A:** Set the `ReportBuildOptions.ALLOW_MISSING_MEMBERS` option on the `ReportingEngine` before building the report:
+
+   ```java
+   ReportingEngine engine = new ReportingEngine();
+   engine.setOptions(ReportBuildOptions.ALLOW_MISSING_MEMBERS);
+   engine.buildReport(...);
+   ```
+
+2. **Q:** What happens if I access a missing member without enabling `ALLOW_MISSING_MEMBERS`?  
+   **A:** The engine throws a `RuntimeException` indicating that the member does not exist. The report generation stops unless the exception is caught.
+
+3. **Q:** Can I display a custom message instead of an empty value when a missing member is accessed?  
+   **A:** Yes. After enabling `ALLOW_MISSING_MEMBERS`, call `engine.setMissingMemberMessage("YourMessage")`. The specified message will be written wherever a missing member is referenced directly.
+
+4. **Q:** Does `ALLOW_MISSING_MEMBERS` affect expressions that use missing members inside binary operations?  
+   **A:** No. The custom message is only applied to plain member references (e.g., `<<[obj.Missing]>>`). If the missing member participates in a binary operation, the engine still treats the result as `null` and does not replace it with the custom message.
+
+5. **Q:** Is the `ALLOW_MISSING_MEMBERS` option available in other language APIs (e.g., .NET)?  
+   **A:** Yes. The same functionality exists in the .NET version of Aspose.Words under `ReportBuildOptions.AllowMissingMembers`. The usage pattern is analogous—set the option on the reporting engine before building the report.

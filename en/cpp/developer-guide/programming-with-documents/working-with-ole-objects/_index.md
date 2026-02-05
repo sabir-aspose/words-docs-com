@@ -15,7 +15,7 @@ url: /cpp/working-with-ole-objects/
 timestamp: 2024-01-27-14-07-04
 ---
 
-OLE (Object Linking and Embedding) is a technology by which users can work with documents containing "objects" created or edited by third-party applications. That is, OLE allows an editing application to export these "objects" to another editing application and then import them with additional content.
+OLE (Object Linking and Embedding) is a technology by which users can work with documents containing "objects" created or edited by third‑party applications. That is, OLE allows an editing application to export these "objects" to another editing application and then import them with additional content.
 
 In this article, we will talk about inserting an OLE object and setting its properties into a document.
 
@@ -78,3 +78,22 @@ Please note that the document will be automatically optimized for MS Word 2013 t
 The following code example shows how to insert an online video into a document using such HTML code:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Document-Add content using DocumentBuilder-InsertOnlineVideoWithEmbedHtml.h" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I insert an OLE object into a Word document using C++?  
+   **A:** Use `DocumentBuilder::InsertOleObject` and provide the object's ProgID (e.g., `"Word.Document"`). You can also specify the file name, display name, and other parameters as needed.
+
+2. **Q:** How can I set a custom file name, extension, and display name for an OLE package?  
+   **A:** Create an `OlePackage` instance, set its `FileName`, `Extension`, and `DisplayName` properties, then pass it to `InsertOleObject` to embed the package with the desired metadata.
+
+3. **Q:** How can I retrieve the raw binary data of an embedded OLE object?  
+   **A:** Access the `OleFormat` of the OLE object node and call `OleFormat::GetRawData()`. The method returns a `System::ArrayPtr<uint8_t>` containing the object's binary content.
+
+4. **Q:** How do I insert an OLE object as an icon rather than as an embedded object?  
+   **A:** Use `DocumentBuilder::InsertOleObjectAsIcon`, providing the ProgID and optionally an image stream for the icon. This inserts the OLE object as a clickable picture.
+
+5. **Q:** What is the easiest way to embed an online video (e.g., YouTube or Vimeo) into a document?  
+   **A:** Call `DocumentBuilder::InsertOnlineVideo` with the video URL for supported platforms. For other providers, use the overload that accepts the embed HTML code returned by the video service.

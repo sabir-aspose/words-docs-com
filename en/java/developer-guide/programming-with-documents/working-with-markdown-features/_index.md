@@ -120,6 +120,30 @@ The following code example demonstrated how to specify various Markdown save opt
 
 ## How to Align Content Inside the Table while Exporting into Markdown
 
-Aspose.Words API provides [TableContentAlignment](https://reference.aspose.com/words/java/com.aspose.words/tablecontentalignment/) enumeration which defines alignment directions to align contents in tables while exporting into the Markdown document. The following code example demonstrates how to align content inside the table.
+Aspose.Words API provides [TableContentAlignment](https://reference.aspose.com/words/java/com.aspose.words.tablecontentalignment/) enumeration which defines alignment directions to align contents in tables while exporting into the Markdown document. The following code example demonstrates how to align content inside the table.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-ExportIntoMarkdownWithTableContentAlignment.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** Which Markdown elements are currently supported by Aspose.Words for Java?  
+   **A:** Aspose.Words for Java implements the CommonMark subset and supports headings (levels 1‑6), bold and italic emphasis, block quotes, horizontal rules, and tables (when using `TableContentAlignment`). Each element is mapped to a corresponding Word style or direct formatting.
+
+2. **Q:** How can I convert an existing Markdown file to a Word document (.docx) using Java?  
+   **A:** Load the Markdown file with `MarkdownLoadOptions` and then save it as a DOCX. Example:  
+   ```java
+   Document doc = new Document("input.md", new MarkdownLoadOptions());
+   doc.save("output.docx");
+   ```  
+   The load options let you control how unknown tags are handled.
+
+3. **Q:** Can I preserve custom styles or additional formatting when converting Markdown to Word?  
+   **A:** Yes. By customizing `MarkdownLoadOptions` you can map specific Markdown constructs to custom Word styles. Use the `setStyleIdentifier` or `setStyleName` methods to associate a Markdown element with a style defined in the target document.
+
+4. **Q:** How do I export a Word document to Markdown while controlling the alignment of table contents?  
+   **A:** Use `MarkdownSaveOptions` together with the `TableContentAlignment` enumeration. Set the desired alignment (e.g., `TableContentAlignment.Center`) on the save options before calling `save`. This ensures table cells are rendered with the chosen alignment in the resulting Markdown file.
+
+5. **Q:** Is it possible to enable additional CommonMark extensions, such as task lists or footnotes, during conversion?  
+   **A:** Aspose.Words for Java follows the core CommonMark specification. Extensions like task lists or footnotes are not natively supported, but you can preprocess the Markdown (e.g., replace extension syntax with standard Markdown) before loading it with `MarkdownLoadOptions`.

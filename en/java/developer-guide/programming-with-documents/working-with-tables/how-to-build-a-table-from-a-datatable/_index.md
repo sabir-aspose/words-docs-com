@@ -49,3 +49,22 @@ The following code example shows how to import the data from a `DataTable` and i
 The table shown in the picture below is produced by running the above code.
 
 ![build-a-table-from-a-datatable-aspose-words-java-2](how-to-build-a-table-from-a-datatable-2.png)
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I insert an image stored as a byte array into a table cell?  
+   **A:** Use `DocumentBuilder.insertImage(byte[] imageBytes)` while the builder’s cursor is positioned inside the desired cell. After inserting the image you may call `DocumentBuilder.endRow()` to continue with the next cell.
+
+2. **Q:** What is the easiest way to apply a predefined table style after the table is built?  
+   **A:** Retrieve the `Table` node (the first child of the builder’s current paragraph) and call `table.setStyleIdentifier(StyleIdentifier.LIGHT_LIST)` (or any other `StyleIdentifier`). The style is applied to the whole table instantly.
+
+3. **Q:** Is there a more automatic approach than writing code for each column when populating a table from a `DataTable`?  
+   **A:** Yes. Aspose.Words’ **Mail Merge with Regions** can map a `DataTable` directly to a table in a template. Create a region in the template (`<<TableStart:Data>> … <<TableEnd:Data>>`) and call `document.getMailMerge().executeWithRegions(dataTable)`. This eliminates manual iteration.
+
+4. **Q:** How should I handle `null` values in the `DataTable` while building the table?  
+   **A:** Check each cell value before writing. If the value is `null`, write an empty string or a placeholder, e.g. `builder.writeln("")`. This prevents `NullPointerException` and keeps the table layout consistent.
+
+5. **Q:** Can I merge cells or set column widths after the table has been created?  
+   **A:** Yes. After `endTable()`, locate the `Table` node, then use `Cell.merge(Cell other)` to merge cells horizontally or vertically. Column widths can be set via `Table.getFirstRow().getCells().get(i).getCellFormat().setWidth(width)`. Adjust widths before saving the document.

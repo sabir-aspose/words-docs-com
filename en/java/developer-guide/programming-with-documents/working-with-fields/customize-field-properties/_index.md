@@ -30,3 +30,19 @@ Aspose.Words provides a property to obtain the field's result for fields that do
 The following code example shows the usage of [DisplayResult](https://reference.aspose.com/words/java/com.aspose.words/field/#getDisplayResult) property:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldDisplayResult-FieldDisplayResult.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I rename a `MERGEFIELD` in a Word document using Aspose.Words for Java?  
+   **A:** Load the document, iterate through its fields, locate `FieldMergeField` instances, and call `setFieldName("NewName")` on each field you wish to rename. After updating, save the document.
+
+2. **Q:** How do I obtain the result of a field that has no field separator (the “fake” result) in Java?  
+   **A:** Use the `Field.getDisplayResult()` property. This returns the value that Word would display for the field even when the field does not contain a separate result node.
+
+3. **Q:** How can I change the author name of an `AUTHOR` field programmatically?  
+   **A:** Cast the field to `FieldAuthor` and call `setAuthorName("New Author")`. The change is reflected when the document is saved or when the field is updated.
+
+4. **Q:** Is it possible to modify other field‑specific properties such as date or numeric formats?  
+   **A:** Yes. Each field type exposes its own set of properties (e.g., `FieldDate.setDateTimeFormat`, `FieldFormula.setFormula`). Adjust these properties as needed and then update the field to apply the new formatting.

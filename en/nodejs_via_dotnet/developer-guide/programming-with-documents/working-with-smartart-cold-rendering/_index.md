@@ -55,3 +55,22 @@ The table below shows example pictures of Aspose.Words Cold Rendering of some st
 | **Circular Bending Process**  | <img src="circular-bending-process-aspose.png" alt="circular_bending_process_aspose"/> | <img src="circular-bending-process-word.png" alt="circular_bending_process_word"/> |
 | **Repeating Bending Process** | <img src="repearing-bending-process-aspose.png" alt="repearing_bending_process_aspose"/> | <img src="repearing-bending-process-word.png" alt="repearing_bending_process_word"/> |
 | **Trapezoid List**            | <img src="trapezoid-list-aspose.png" alt="trapezoid_list_aspose"/> | <img src="trapezoid-list-word.png" alt="trapezoid_list_word"/> |
+
+------ 
+
+## FAQ
+
+1. **Q:** What is SmartArt Cold Rendering in Aspose.Words for Node.js?  
+   **A:** Cold Rendering is the process where Aspose.Words lays out and renders a SmartArt diagram itself when the pre‑rendered drawing stored in the document is missing or incorrect. This ensures the diagram appears correctly even if the source file did not contain a valid drawing.
+
+2. **Q:** How can I force Aspose.Words to re‑render a SmartArt diagram that has an incorrect pre‑rendered drawing?  
+   **A:** Call the `Shape.updateSmartArtDrawing()` method on each SmartArt shape. This explicitly triggers cold rendering for that diagram, replacing the faulty drawing with a newly generated one.
+
+3. **Q:** Which method updates the SmartArt drawing programmatically?  
+   **A:** The method is `Shape.updateSmartArtDrawing()`. It is available on the `Shape` class that represents a SmartArt object.
+
+4. **Q:** Which SmartArt layout groups are fully supported by Aspose.Words?  
+   **A:** Fully supported groups include **List**, **Process**, **Matrix**, and **Relationship** layouts. The documentation lists the exact layouts within each group that render completely.
+
+5. **Q:** How can I determine whether a SmartArt diagram was rendered using cold rendering?  
+   **A:** After loading the document, inspect the `Shape` object’s `IsSmartArt` property and compare the rendered appearance with the original. If the pre‑rendered drawing is missing or you have called `updateSmartArtDrawing()`, the diagram has been cold‑rendered.

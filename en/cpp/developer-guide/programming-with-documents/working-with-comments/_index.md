@@ -133,3 +133,24 @@ The [Replies](https://reference.aspose.com/words/cpp/aspose.words/comment/get_re
 The following code example shows how to iterate through a comment's replies and resolved them:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Comments-ProcessComments-CommentResolvedandReplies.cpp" >}}
+
+------ 
+
+## FAQ
+
+1. Q: How can I extract all comments from a Word document using C++?  
+   A: Load the document with `Document doc("input.docx");`, call `doc.GetChildNodes(NodeType::Comment, true)` to obtain a `NodeCollection` of `Comment` objects, then iterate the collection to read each comment’s `Author`, `DateTime`, and `Text`.  
+
+2. Q: How do I extract comments that belong to a specific author?  
+   A: After obtaining the `Comment` collection, check each comment’s `Author` property inside the loop and process only those that match the desired author name (e.g., `"ks"`).  
+
+3. Q: What is the simplest way to remove all comments from a document?  
+   A: Retrieve the `Comment` collection as above and call `comments.Clear();` on the collection, then save the document. This removes every comment in one operation.  
+
+4. Q: How can I delete comments from only one author while keeping others?  
+   A: Iterate the `Comment` collection backwards (using a for‑loop from `Count-1` to `0`), and call `Remove()` on each comment whose `Author` matches the target author. Iterating backwards prevents index shifting.  
+
+5. Q: How do I add a reply to a comment and what limitation should I be aware of?  
+   A: Use `Comment->AddReply("Reply text");`. Microsoft Word only supports a single level of replies, so attempting to add a second reply to the same comment will throw an `InvalidOperationException`.  
+
+------

@@ -130,3 +130,22 @@ In this case, the engine produces a report as follows.
 |             | **Ted LeMark**   | **0**      | **110000** | **345000** | **380000** |
 
 Combining all the described approaches, you can create cross (pivot) tables of almost any complexity.
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I define a cross (pivot) table in a Word template?  
+   **A:** Use a nested structure where a table‑row data band (`<<foreach [m in ds.Managers]>>`) contains a table‑column data band (`<<foreach [y in years] -horz>>`). The outer band iterates vertically (rows) and the inner band iterates horizontally (columns), producing a matrix of values.
+
+2. **Q:** How can I add row and column totals to a cross table?  
+   **A:** Add an extra row and/or column that use the same LINQ expressions but call `sum` on the collection. For example, `<<[m.Contracts.sum(c => c.Price)]>>` gives the total for a manager, and `<<[ds.Contracts.where(c => c.Year == y).sum(c => c.Price)]>>` gives the total for a year.
+
+3. **Q:** What does the `-horz` modifier do in a `foreach` tag?  
+   **A:** The `-horz` modifier tells the reporting engine to repeat the enclosed content horizontally, creating a new column for each iteration instead of a new row.
+
+4. **Q:** How do I merge cells dynamically inside a cross table?  
+   **A:** Insert the `cellMerge` tag (or `cellMerge -horz` for horizontal merging) in the template where you want cells to be combined. The engine will merge the cells of the current row or column based on the tag’s position.
+
+5. **Q:** Why do I get the error “Table‑row and table‑column regions cannot cross”?  
+   **A:** This occurs when a table‑row data band and a table‑column data band overlap inside the same cell. Each band must start and end in its own cell; move one of the bands to a separate cell to resolve the conflict.

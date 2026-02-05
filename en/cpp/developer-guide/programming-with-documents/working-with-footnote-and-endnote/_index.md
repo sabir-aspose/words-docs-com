@@ -1,5 +1,5 @@
 ---
-title: Working with Footnote and Endnote in C++
+title: Working with Footnote and Endnote
 second_title: Aspose.Words for C++
 articleTitle: Working with Footnote and Endnote
 linktitle: Working with Footnote and Endnote
@@ -40,3 +40,47 @@ The footnote position can be at the bottom of each page or beneath the text on e
 The following code example shows how to set the position of footnote and endnote:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkingWithFootnote-SetFootnoteAndEndNotePosition.cpp" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I change the numbering format of footnotes or endnotes?  
+   **A:** Use the `FootnoteOptions::set_NumberStyle` or `EndnoteOptions::set_NumberStyle` property on the document’s `FootnoteOptions`/`EndnoteOptions` object. For example:  
+
+   ```cpp
+   System::SharedPtr<Aspose::Words::Notes::FootnoteOptions> footnoteOpts = doc->get_FootnoteOptions();
+   footnoteOpts->set_NumberStyle(Aspose::Words::Notes::NumberStyle::UpperRoman);
+   ```
+
+2. **Q:** How can I retrieve all footnotes or endnotes from a document?  
+   **A:** The document provides `get_Footnotes()` and `get_Endnotes()` collections. Iterate over them to access each note’s properties, such as its text:  
+
+   ```cpp
+   for (auto footnote : System::IterateOver(doc->get_Footnotes()))
+   {
+       System::String text = footnote->GetText();
+       // Process text...
+   }
+   ```
+
+3. **Q:** How can I detect whether a document contains any footnotes or endnotes?  
+   **A:** Check the `Count` property of the respective collections. If the count is greater than zero, the document contains those notes:  
+
+   ```cpp
+   bool hasFootnotes = doc->get_Footnotes()->get_Count() > 0;
+   bool hasEndnotes  = doc->get_Endnotes()->get_Count() > 0;
+   ```
+
+4. **Q:** Can I convert an existing endnote to a footnote (or vice‑versa) after it has been inserted?  
+   **A:** Aspose.Words does not provide a direct conversion method. Remove the original note using `Remove()` and re‑insert a new note of the desired type with `DocumentBuilder::InsertFootnote`, specifying `NoteType::Footnote` or `NoteType::Endnote`.  
+
+   ```cpp
+   // Remove existing endnote
+   endnote->Remove();
+
+   // Insert a footnote at the same location
+   System::SharedPtr<Aspose::Words::DocumentBuilder> builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+   builder->MoveTo(endnote->get_Paragraph());
+   builder->InsertFootnote(Aspose::Words::Notes::NoteType::Footnote, Aspose::Words::Notes::FootnoteType::Normal, System::String(u"New footnote text"));
+   ```

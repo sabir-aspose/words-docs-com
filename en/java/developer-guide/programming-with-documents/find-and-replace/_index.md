@@ -87,7 +87,6 @@ The following code example shows how to replace the text of the header section i
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-ReplaceTextInHeader.java" >}}
 
-
 You can notice the difference between the document before applying header string replacement:
 
 <img src="before-applying-header-string-replacement.png" alt="before-applying-header-string-replacement-aspose-words-java" style="width:600px"/>
@@ -106,7 +105,6 @@ header.getRange().replace("Aspose.Words", "Remove", options);
 With the following:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-ReplaceTextInFooter.java" >}}
-
 
 You can notice the difference between the document before applying footer string replacement:
 
@@ -134,7 +132,6 @@ The following code example shows how to highlight a specific word in your docume
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-CustomizeFindAndReplaceOperation.java" >}}
 
-
 Aspose.Words allows you to use the [IReplacingCallback](https://reference.aspose.com/words/java/com.aspose.words/ireplacingcallback/) interface to create and call a custom method during a replace operation. You may have some use cases where you need to customize the find and replace operation such as replacing text specified with a regular expression with HTML tags, so basically you will apply replace with inserting HTML.
 
 If you need to replace a string with an HTML tag, apply the **IReplacingCallback** interface to customize the find and replace operation so the match starts at the beginning of a run with the match node of your document. Let us provide several examples of using **IReplacingCallback**.
@@ -143,7 +140,6 @@ The following code example shows how to replace text specified with HTML:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-ReplaceWithHtml.java" >}}
 
-
 The following code example shows how to highlight positive numbers with green color and negative numbers with red color:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-NumberHighlightCallback.java" >}}
@@ -151,3 +147,22 @@ The following code example shows how to highlight positive numbers with green co
 The following code example shows how to prepend a line number to each line:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-TestLineCounter.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I replace text with HTML markup while preserving the document’s formatting?  
+   **A:** Implement the `IReplacingCallback` interface and, in the `replacing` method, insert the HTML using `DocumentBuilder.insertHtml`. Set `FindReplaceOptions.setReplacingCallback` to your callback instance, then call `Range.replace` with a regex that matches the placeholder.
+
+2. **Q:** What is the easiest way to replace a merge field without affecting its surrounding runs?  
+   **A:** Use `Range.replace` with the exact merge‑field name (e.g., `"«CustomerName»"`) and set `FindReplaceOptions.setMatchWholeWord(true)`. This replaces the whole field node, leaving other runs untouched.
+
+3. **Q:** How do I ignore text inside deleted revisions or footnotes during a replace operation?  
+   **A:** Configure `FindReplaceOptions` by enabling `setIgnoreDeleted(true)` and/or `setIgnoreFootnotes(true)`. Pass the options to `Range.replace` and the engine will skip those nodes.
+
+4. **Q:** Can I use metacharacters to insert line or page breaks in the replacement string?  
+   **A:** Yes. Include `&l` for a line break, `&p` for a paragraph break, `&m` for a page break, or `&b` for a section break in the replacement text. Escape an ampersand with `&&` if you need a literal `&`.
+
+5. **Q:** How can I replace text only in headers or footers without affecting the main body?  
+   **A:** Iterate through each `HeaderFooter` via `Document.getFirstSection().getHeadersFooters()`, then call `headerFooter.getRange().replace(search, replace, options)` on the header/footer range only. This isolates the operation to those parts.

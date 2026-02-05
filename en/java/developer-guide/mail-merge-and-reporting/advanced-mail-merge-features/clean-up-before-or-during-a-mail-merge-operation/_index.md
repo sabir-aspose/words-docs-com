@@ -110,3 +110,22 @@ Aspose.Words allows you to remove empty table rows by assigning the **RemoveEmpt
 The following code example shows how to remove empty table rows that contain Mail Merge regions from a document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeCleanUp-RemoveEmptyTableRows.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I delete all merge fields from a template before running a mail merge?  
+   **A:** Use the `Document.MailMerge.DeleteFields()` method. This removes every merge field in the document without performing a mail merge, leaving the rest of the content untouched.
+
+2. **Q:** Which `CleanupOptions` flag removes empty paragraphs that remain after a mail merge?  
+   **A:** Set `MailMerge.CleanupOptions` to include `MailMergeCleanupOptions.RemoveEmptyParagraphs`. The option automatically deletes paragraphs that become empty because all their merge fields were removed or merged with null data.
+
+3. **Q:** How do I ensure unused mail‑merge regions are removed when merging multiple data sources?  
+   **A:** Enable the `RemoveUnusedRegions` flag on the **last** call to `MailMerge.Execute` or `ExecuteWithRegions`. This removes any region that does not have a matching data source in the final merge operation.
+
+4. **Q:** What option removes outer fields (e.g., IF or formula fields) that contain a merge field which was deleted?  
+   **A:** Use `MailMergeCleanupOptions.RemoveContainingFields`. It deletes the containing field when the inner merge field is either merged with data or removed as unused.
+
+5. **Q:** How can I delete empty table rows that only contain merge fields?  
+   **A:** Add the `RemoveEmptyTableRows` flag to `MailMerge.CleanupOptions`. During the mail merge, rows that consist solely of empty or removed merge fields will be removed automatically.

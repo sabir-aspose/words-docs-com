@@ -14,7 +14,7 @@ aliases: [/java/how-to-replace-or-modify-hyperlinks-and-replace-fields-with-stat
 timestamp: 2024-01-27-14-07-04
 ---
 
-Replacing fields is often required when you wish to save your document as a static copy. For example, when sending as an attachment in an e-mail. Converting fields such as `DATE` or `TIME` to static text will allow the document to display the same date as when it was sent. Also, in some situations, you may need to remove the conditional `IF` fields from your document and replace them with the most recent text result instead. For example, converting the result of the `IF` field to static text so it will no longer dynamically change its value when fields in the document are updated.
+Replacing fields is often required when you wish to save your document as a static copy. For example, when sending as an attachment in an e‑mail. Converting fields such as `DATE` or `TIME` to static text will allow the document to display the same date as when it was sent. Also, in some situations, you may need to remove the conditional `IF` fields from your document and replace them with the most recent text result instead. For example, converting the result of the `IF` field to static text so it will no longer dynamically change its value when fields in the document are updated.
 
 The diagram below shows how the `IF` field is stored in a document:
 
@@ -70,3 +70,22 @@ The following code  example shows how to convert all `PAGE` fields in a Body of 
 The following code  example shows how to convert all `IF` fields in the last paragraph to static text:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-ConvertFieldsInParagraph-ConvertFieldsInParagraph.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I replace a field with its current result as static text?  
+   **A:** Use the `FieldHelper.convertFieldsToStaticText` method, passing the node that contains the field (e.g., `Document`, `Body`, or `Paragraph`) and the specific `FieldType`. The method replaces the field code with the field’s last evaluated result, leaving plain text in the document.
+
+2. **Q:** Which field types should not be replaced with static text in headers or footers?  
+   **A:** Fields that depend on page context, such as `PAGE`, `NUMPAGES`, and other pagination‑related fields, should be avoided in headers/footers because converting them to static text will cause the same value to appear on every page.
+
+3. **Q:** How do I replace fields only in a particular part of the document, like a single section body?  
+   **A:** Retrieve the desired `CompositeNode` (for example, `Section.getBody()`) and pass it to `convertFieldsToStaticText`. This limits the conversion to that node and its descendants, leaving the rest of the document untouched.
+
+4. **Q:** What if a field spans multiple paragraphs—will the conversion still work?  
+   **A:** When a field crosses paragraph boundaries, pass the parent node that contains the whole field (e.g., the `Section` or `Document`) instead of an individual `Paragraph`. This ensures the method can locate the complete field structure and replace it correctly.
+
+5. **Q:** How can I safely replace `PAGE` fields in a header without breaking page numbering?  
+   **A:** Instead of converting the `PAGE` field to static text, copy its current result into a plain `Run` node and then remove the original field. This preserves the displayed page number for the current state while preventing further automatic updates.

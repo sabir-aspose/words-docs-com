@@ -32,3 +32,25 @@ The Asian Typography tab of the paragraph properties dialog box in Microsoft Wor
 The following code example shows how to use these properties:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentBuilderSetFormatting-SetAsianTypographyLinebreakGroupProp.cpp" >}}
+
+
+
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I automatically add space between Asian characters and Latin letters in a document using C++?  
+   **A:** Use the `ParagraphFormat::set_AddSpaceBetweenFarEastAndAlpha(true)` method on the paragraph’s format. This inserts a space between Far‑East (CJK) characters and alphabetic characters. Apply the setting to each paragraph you need or set it as the default for newly created paragraphs.
+
+2. **Q:** How do I add space between Asian characters and digits?  
+   **A:** Call `ParagraphFormat::set_AddSpaceBetweenFarEastAndDigit(true)`. This property inserts a space between Far‑East characters and numeric digits, improving readability when both appear together.
+
+3. **Q:** Which properties control line‑break behavior for Asian typography?  
+   **A:** The properties `FarEastLineBreakControl`, `WordWrap`, and `HangingPunctuation` of `ParagraphFormat` let you enable or disable line‑break control, word wrapping, and hanging punctuation for Far‑East text. Set them via the corresponding `set_` methods.
+
+4. **Q:** Do I need any special configuration to make Asian typography work on Linux?  
+   **A:** Ensure the required Asian fonts are installed on the Linux system. If a needed font is missing, configure `FontSettings::get_SubstitutionSettings()` to substitute an available font. The Asian typography properties work cross‑platform once appropriate fonts are accessible.
+
+5. **Q:** Can I apply these Asian typography settings to an existing document without rebuilding it?  
+   **A:** Yes. Load the document, iterate through its `Paragraphs`, modify the `ParagraphFormat` properties as needed, and then save the document. The changes are applied in‑place.

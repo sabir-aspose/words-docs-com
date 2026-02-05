@@ -85,7 +85,7 @@ The following code example shows how to build a table which includes Header Rows
 
 ## Keep Tables and Rows from Breaking across Pages
 
-There are times where the contents of a table should not be split across pages. For instance, if a title is above a table, the title and table should always be kept together on the same page to preserve proper appearance.
+There are times where the contents of a table should not be split across pages. For instance, a title is above a table, the title and table should always be kept together on the same page to preserve proper appearance.
 
 There are two separate techniques that are useful to achieve this functionality:
 
@@ -94,7 +94,7 @@ There are two separate techniques that are useful to achieve this functionality:
 
 By default, the above properties are disabled.
 
-### Keep a Row from Breaking Across Pages
+### Keep a Row from Breaking across Pages
 
 This involves restricting content inside the cells of a row from being split across a page. In Microsoft Word, this can found under Table Properties as the option “Allow row to break across pages”. In Aspose.Words this is found under the [RowFormat](https://reference.aspose.com/words/nodejs-net/aspose.words.tables/rowformat/) object of a [Row](https://reference.aspose.com/words/nodejs-net/aspose.words.tables/row/) as the property [RowFormat.allowBreakAcrossPages](https://reference.aspose.com/words/nodejs-net/aspose.words.tables/rowformat/allowbreakacrosspages/).
 
@@ -108,7 +108,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% /alert %}}
 
-### Keep a Table from Breaking Across Pages
+### Keep a Table from Breaking across Pages
 
 To stop the table from splitting across pages, we need to specify that we want the content contained within the table to stay together.
 
@@ -123,3 +123,22 @@ The following code example shows how to set a table to stay together on the same
 You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Node.js-via-.NET/tree/main/Data/Table%20spanning%20two%20pages.docx).
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I insert a new blank column into an existing table?  
+   **A:** Use the helper `Column` class to collect cells at the same index across all rows, then call `insertColumn` on the table. The sample `insert-blank-column.js` demonstrates creating a new `Cell` and inserting it at the desired column index for each row.
+
+2. **Q:** What is the recommended way to delete a column from a table?  
+   **A:** Iterate through each row, retrieve the cell at the column index you want to remove, and call `remove()` on that cell. The `remove-column.js` example shows this approach, ensuring the table structure stays consistent.
+
+3. **Q:** How do I make the first row of a table repeat as a header on every page?  
+   **A:** Set the `HeadingFormat` property of the row’s `RowFormat` to `true`. For multiple header rows, set this property on each consecutive row at the top of the table. See `repeat-rows-on-subsequent-pages.js` for a complete example.
+
+4. **Q:** How can I prevent a row from breaking across pages?  
+   **A:** Set `RowFormat.allowBreakAcrossPages` to `false` for the row. This disables the “Allow row to break across pages” option. The `row-format-disable-break-across-pages.js` snippet illustrates the setting.
+
+5. **Q:** How do I keep an entire table together on a single page?  
+   **A:** Enable `keepWithNext` for every paragraph inside the table cells, except the last paragraph of the table. The `keep-table-together.js` example shows how to traverse the table’s paragraphs and apply the property.

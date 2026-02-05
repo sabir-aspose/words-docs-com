@@ -78,3 +78,29 @@ Aspose.Words also provides an opportunity to find out the distances between tabl
 The following code example shows how to get the distance between a table and its surrounding text:
 
 {{< gist "aspose-words-gists" "eb66dfc4c4820add33be9df57ba4c4cd" "distance-between-table-surrounding-text.h" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I change the alignment of an inline table?  
+   **A:** Use the `Table::set_Alignment()` method and pass one of the `TableAlignment` enum values (e.g., `TableAlignment::Center`). This aligns the table relative to the page margins.
+
+2. **Q:** Which properties let me read the horizontal and vertical alignment of a floating table?  
+   **A:** Retrieve `Table::get_RelativeHorizontalAlignment()` and `Table::get_RelativeVerticalAlignment()`. They return the `RelativeHorizontalAlignment` and `RelativeVerticalAlignment` enum values that describe the table’s placement.
+
+3. **Q:** How can I set the exact position of a floating table?  
+   **A:** Set the anchor properties (`HorizontalAnchor`, `VerticalAnchor`) and then specify distances with `AbsoluteHorizontalDistance` and `AbsoluteVerticalDistance`. For example:  
+   ```cpp
+   Table* table = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0)->as_Table();
+   table->set_HorizontalAnchor(HorizontalAnchor::Page);
+   table->set_VerticalAnchor(VerticalAnchor::Paragraph);
+   table->set_AbsoluteHorizontalDistance(72.0); // 1 inch
+   table->set_AbsoluteVerticalDistance(36.0);   // 0.5 inch
+   ```
+
+4. **Q:** What method returns the distances between a table and surrounding text?  
+   **A:** Use `Table::get_DistanceTop()`, `Table::get_DistanceBottom()`, `Table::get_DistanceLeft()`, and `Table::get_DistanceRight()`. Each returns the distance in points, which you can convert to inches or centimeters as needed.
+
+5. **Q:** Why does setting `RelativeHorizontalAlignment` reset `AbsoluteHorizontalDistance`?  
+   **A:** In Aspose.Words, alignment and absolute distance are mutually exclusive for floating tables. Changing one automatically clears the other to avoid contradictory positioning. Set either alignment **or** absolute distances, but not both simultaneously.

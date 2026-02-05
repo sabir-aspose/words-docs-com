@@ -35,7 +35,7 @@ You can try this functionality with our [Free online document splitter](https://
 
 ## Split a Document Using Different Criteria {#split-a-document-using-different-criteria}
 
-Aspose.Words allows you to split EPUB or HTML documents into chapters according to various criteria. In the process, the style and layout of the source document are preserved for the output documents.
+Aspose.Words allows you to split EPUB or HTML documents into chapters according to various criteria. In the process, the style and layout of the source document is preserved for the output documents.
 
 You can specify criteria using the [DocumentSplitCriteria](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/documentsplitcriteria/) enumeration. So you can divide a document into chapters using one of the following criteria or combine more than one criteria together:
 
@@ -121,3 +121,21 @@ Aspose.Words enables you to merge the output split document with another docu
 The following code example shows how to merge a split document with another document:
 
 {{< gist "aspose-words-gists" "76d266d6b68098eb4e95e484fe85538e" "merge-split-documents.js" >}}
+
+------
+## FAQ
+
+1. **Q:** How can I split a document by specific heading levels in Node.js?  
+   **A:** Use the `documentSplitCriteria` set to `HeadingParagraph` and specify the desired level with `documentSplitHeadingLevel`. Load the document with `new asposewords.Document(...)`, set the criteria on `HtmlSaveOptions`, and call `save`. This splits the document at headings of the chosen level.
+
+2. **Q:** What is the easiest way to split a document by page ranges?  
+   **A:** Call the `extractPages(startPage, endPage)` method on the `Document` object. The method returns a new `Document` containing only the pages in the specified range, which you can then save in any supported format.
+
+3. **Q:** Can the split parts be saved directly as PDF files?  
+   **A:** Yes. After splitting (by headings, sections, pages, or ranges), simply use `PdfSaveOptions` or call `document.save("output.pdf")` on each resulting `Document` instance to produce PDF files.
+
+4. **Q:** How do I merge several split documents back into a single file?  
+   **A:** Load each split part as a `Document` and use the `appendDocument` method to concatenate them. After appending all parts, save the combined document in the desired format.
+
+5. **Q:** Do I need a license to use the splitting and merging features?  
+   **A:** The splitting and merging APIs are fully functional in the evaluation version, but the output will contain a watermark. To remove watermarks and unlock full capabilities, apply a valid Aspose.Words license using `License license = new License(); license.setLicense("Aspose.Words.lic");`.

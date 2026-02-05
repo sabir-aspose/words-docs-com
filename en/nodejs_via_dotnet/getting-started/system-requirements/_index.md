@@ -47,3 +47,22 @@ Aspose.Words for Node.js via .NET supports Microsoft Windows® x64 platform and 
         <td>Planned for November 2025</td>
     </tr>
 </table>
+
+------ 
+
+## FAQ
+
+1. **Q:** Which operating systems are officially supported by Aspose.Words for Node.js via .NET?  
+   **A:** Currently the library supports Microsoft Windows x64 platforms (including Windows Server editions and desktop versions from Windows 7 to Windows 11). macOS and Linux support are scheduled for release in December 2025 and November 2025 respectively.
+
+2. **Q:** What is the minimum Node.js version required?  
+   **A:** The library requires Node.js 14.17.0 or newer. Using a newer LTS version (e.g., Node 18 or Node 20) is recommended for best performance and security.
+
+3. **Q:** Is Aspose.Words for Node.js via .NET compatible with .NET 8 or .NET 6?  
+   **A:** Yes. The .NET 8 runtime is fully supported, and the library also works with .NET 6, .NET 5, and .NET Core 3.1. Ensure you reference the appropriate NuGet package version that matches your target framework.
+
+4. **Q:** When will Linux and macOS be supported?  
+   **A:** macOS support is planned for December 2025, and Linux support is planned for November 2025. Until those dates, Windows remains the only officially supported platform.
+
+5. **Q:** Do I need a Microsoft Word installation or a separate license file to use the library?  
+   **A:** No. Aspose.Words for Node.js via .NET is a self‑contained engine and does not require Microsoft Word to be installed. However, a valid Aspose.Words license file is required to remove evaluation limitations and enable full functionality. The license can be applied programmatically via `License license = new License(); license.SetLicense("Aspose.Words.lic");`.

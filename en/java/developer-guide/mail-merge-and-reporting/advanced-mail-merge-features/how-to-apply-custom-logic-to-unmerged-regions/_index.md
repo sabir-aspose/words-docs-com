@@ -160,3 +160,22 @@ Shows how to specify only the `ContactDetails` region to be handled through the 
 Calling this overload with the specified ArrayList will create the data source which only contains data rows for the specified regions. Regions other than the `ContactDetails` region will not be handled and will be removed automatically by the Mail Merge engine instead. The result of the above call using the code in our original handler is shown below. 
 
 ![apply-custom-logic-to-unmerged-regions-aspose-words-java-5](how-to-apply-custom-logic-to-unmerged-regions-6.png)
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I stop Aspose.Words from automatically deleting unused mail‑merge regions?  
+   **A:** Set `MailMergeCleanupOptions.RemoveUnusedRegions` to `false` before executing the mail merge. This leaves all regions in the document so you can process the empty ones yourself with a custom `IFieldMergingCallback`.
+
+2. **Q:** What is the best way to locate the unmerged regions in a document?  
+   **A:** Call `Document.MailMerge.GetFieldNames()` to retrieve every merge field, then look for fields whose names start with `TableStart` or `TableEnd`. Those markers define the boundaries of each region.
+
+3. **Q:** How do I replace an empty region with a custom message?  
+   **A:** In your `IFieldMergingCallback` implementation, check if `FieldMergingArgs.FieldValue` equals the marker you set (e.g., `"FirstField"`). If it does, assign the desired text to `FieldMergingArgs.Text`; the mail‑merge engine will insert that text into the field.
+
+4. **Q:** How can I remove a table that contains an unused region together with its heading?  
+   **A:** Within the callback, examine `FieldMergingArgs.FieldNode` to find its ancestor `Table`. If the table exists, call `table.Remove()`. To also delete a preceding heading, check the previous sibling node for a paragraph with a heading style and remove it as well.
+
+5. **Q:** Is it possible to apply custom logic only to selected regions?  
+   **A:** Yes. Use the overload of `ExecuteCustomLogicOnEmptyRegions` that accepts an `ArrayList` of region names. Only those regions will be passed to your handler; all other empty regions will be removed automatically by the mail‑merge engine.

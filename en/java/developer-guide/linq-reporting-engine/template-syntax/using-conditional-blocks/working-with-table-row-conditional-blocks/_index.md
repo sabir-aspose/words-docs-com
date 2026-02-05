@@ -258,3 +258,22 @@ In this case, the engine produces a report as follows.
 | **Footer** |
 
 **Note** – In the previous examples, tag `<<if [false]>>` is used for the sake of simplicity; you can use any other Boolean expression instead of just `false`.
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I define a table‑row conditional block in a template?  
+   **A:** Enclose the rows that belong to the block with `<<if [condition]>> … <<else>> … <<endif>>` (or `<<elseif>>`). The opening tag must be placed in the first cell of the first row, and the closing tag in the last cell of the last row of the block.
+
+2. **Q:** Can I nest table‑row conditional blocks inside data bands?  
+   **A:** Yes. Table‑row conditional blocks can be placed inside `foreach` or other data‑band tags, allowing each row to be rendered conditionally per item. The opposite—nesting a table‑row block inside a table‑column block—is not allowed.
+
+3. **Q:** What does the `-greedy` switch do for a single‑cell conditional block?  
+   **A:** By default, if the opening and closing `if/elseif/else` tags are in the same cell, the engine treats the block as a common (non‑row) conditional block. Adding `-greedy` forces the engine to treat it as a table‑row conditional block, so the whole row participates in the condition.
+
+4. **Q:** How can I show a “No data” message when a data band enumeration is empty?  
+   **A:** Use a conditional block that checks the enumeration with `!enumeration.any()`. Example: `<<if [!clients.any()]>>No data<<else>>…<<endif>>`. Place this block in a row that spans the required columns.
+
+5. **Q:** Are there any nesting restrictions for table‑row conditional blocks?  
+   **A:** Table‑row conditional blocks can be nested inside table‑column data bands and conditional blocks, but you cannot nest a table‑row block inside another table‑row block or inside a table‑column block. Attempting to do so will cause the engine to ignore the inner block.

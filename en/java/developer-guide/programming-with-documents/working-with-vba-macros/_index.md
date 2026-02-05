@@ -58,3 +58,26 @@ You can also clone VBA modules if needed.
 The following code example demonstrates how to clone the VBA Module using the [Clone](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#deepClone) property which creates a copy of the existing project. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithVbaMacros-CloneVbaModule.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I apply an Aspose.Words license when working with VBA macros in Java?  
+   **A:** Load the license file using `License license = new License(); license.setLicense("Aspose.Words.Java.lic");` before creating or loading any document. The license must be set once per application domain; otherwise, the library runs in evaluation mode and may add watermarks.
+
+2. **Q:** Can Aspose.Words execute VBA macros embedded in a Word document?  
+   **A:** No. Aspose.Words can read, modify, and clone VBA projects, but it does not execute VBA code. Execution of macros must be performed in Microsoft Word or another environment that supports VBA.
+
+3. **Q:** How can I read the source code of a specific VBA module?  
+   **A:** Retrieve the module from the `VBAModulesCollection` and use the `getSourceCode()` method:  
+   ```java
+   VbaModule module = document.getVbaProject().getModules().getByName("Module1");
+   String source = module.getSourceCode();
+   ```
+
+4. **Q:** What is the recommended way to modify the source code of a VBA macro?  
+   **A:** Use the `setSourceCode(String)` method on the `VbaModule` instance after obtaining the module. Save the document afterwards to persist the changes.
+
+5. **Q:** How do I clone an entire VBA project or a single module?  
+   **A:** Both `VbaProject` and `VbaModule` implement a deep clone method. Call `VbaProject clonedProject = originalProject.deepClone();` or `VbaModule clonedModule = originalModule.deepClone();` and assign the cloned object to the target document.

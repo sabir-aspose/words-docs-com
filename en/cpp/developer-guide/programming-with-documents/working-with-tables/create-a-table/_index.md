@@ -35,7 +35,7 @@ A table can be inline if it is tightly positioned, or floating if it can be posi
 
 {{% /alert %}}
 
-## Create a Table with DocumentBuilder
+## Create a Table with DocumentBuilder  
 
 In Aspose.Words, users can create a table in a document using the [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/). The basic algorithm for creating a table is as follows:
 
@@ -130,3 +130,22 @@ Let's take a closer look at these ways of creating tables and compare their pros
 | Via DOM | Fits in better with surrounding code that creates and inserts nodes directly into the DOM without using a **DocumentBuilder** | The table is created "empty": before performing most operations, you must call [EnsureMinimum](https://reference.aspose.com/words/cpp/aspose.words.tables/table/ensureminimum/) to create any missing child nodes |
 | From HTML | Can create a new table from HTML source using tags like `<table>`, `<tr>`, `<td>` | Not all possible Microsoft Word table formats can be applied to HTML |
 | Cloning an existing table | You can create a copy of an existing table while retaining all row and cell formatting | The appropriate child nodes must be removed before the table is ready for use |
+
+------  
+
+## FAQ
+
+1. **Q:** How can I duplicate an existing table and insert the copy elsewhere in the document?  
+   **A:** Load the source table, call `Aspose::Words::Node::Clone(true)` to create a deep clone, and then insert the cloned node using `InsertAfter` or `AppendChild` on the target node. The cloned table retains all formatting, borders, and cell styles.
+
+2. **Q:** What is the correct way to merge cells horizontally or vertically?  
+   **A:** Use the `Cell::get_CellFormat()->set_HorizontalMerge(Aspose::Words::Tables::CellMerge::First)` for the first cell and `CellMerge::Previous` for the cells that should be merged with it. For vertical merging, set `VerticalMerge` in the same way on the cells in the same column.
+
+3. **Q:** How do I create a nested table inside a cell?  
+   **A:** After inserting a cell with `DocumentBuilder::InsertCell()`, call `DocumentBuilder::StartTable()` while the cursor is still inside that cell. Build the inner table as usual and finish it with `EndTable()`. The outer table remains intact.
+
+4. **Q:** Can I insert a table from an HTML string?  
+   **A:** Yes. Use `DocumentBuilder::InsertHtml(const System::String& html)` where the HTML contains `<table>`, `<tr>`, and `<td>` tags. The method converts the HTML markup into a Word table, preserving basic cell contents and simple formatting.
+
+5. **Q:** Why does a table created via the DOM appear empty after I add rows and cells?  
+   **A:** When a `Table` node is created directly, it starts with no child rows. Call `Table::EnsureMinimum(1)` (or a higher number) before adding content to guarantee that at least one `Row` and `Cell` exist. After that you can safely append rows, cells, and other nodes.

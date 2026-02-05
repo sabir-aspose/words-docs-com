@@ -71,3 +71,34 @@ If you do not want a user to open your document as read-only, you can simply set
 The following code example shows how to remove read-only access for a document:
 
 {{< gist "aspose-words-gists" "2a464f0279e5751f4ef94d7daf395e52" "remove-read-only-restriction.js" >}}
+
+------ 
+
+## FAQ
+
+1. Q: How can I make a document read‑only without requiring a password?  
+   A: Set the `readOnlyRecommended` property to `true` on the document’s `WriteProtection` object and do not call `setPassword`. The document will open in read‑only mode, but users can still remove the recommendation by changing the setting in Word.
+
+2. Q: How do I set a password that forces users to open the document as read‑only?  
+   A: After loading the document, call `document.writeProtection.setPassword("MyPassword")` and then set `document.writeProtection.readOnlyRecommended = true`. When the file is opened, Word will prompt for the password before allowing edits.
+
+3. Q: How can I programmatically verify whether a document is write‑protected?  
+   A: Use the `isWriteProtected` property:  
+   ```javascript
+   const Document = require("aspose.words").Document;
+   const doc = new Document("input.docx");
+   const protected = doc.writeProtection.isWriteProtected;
+   console.log("Write protected:", protected);
+   ```
+
+4. Q: What is the correct way to remove the read‑only recommendation from a document?  
+   A: Set `readOnlyRecommended` to `false` and optionally clear the password with `setPassword("")`. Example:  
+   ```javascript
+   const doc = new Document("protected.docx");
+   doc.writeProtection.readOnlyRecommended = false;
+   doc.writeProtection.setPassword("");
+   doc.save("unprotected.docx");
+   ```
+
+5. Q: What is the difference between `readOnlyRecommended` and `ProtectionType.ReadOnly`?  
+   A: `readOnlyRecommended` only suggests that the document be opened in read‑only mode and can be combined with a password; it does not enforce editing restrictions. `ProtectionType.ReadOnly` (used via `document.protectionType = ProtectionType.ReadOnly`) applies a stronger protection that disables editing features in Word, similar to the “Restrict Editing” feature. Use `ProtectionType` when you need to prevent any modifications, not just suggest read‑only.

@@ -85,4 +85,23 @@ Also, you can use a `backColor` tag to set a solid-fill color for a shape dynami
 <<backColor [“red”]>><<text inside shape&lt;&lt;/backColor>>
 {{< /highlight >}}
 
-During runtime, an expression declared within the opening `backColor` tag is evaluated and the shape’s solid-fill color is set accordingly. The opening and closing `backColor` tags are removed then.
+During runtime, an expression declared within the opening `backColor` tag is evaluated and the shape’s solid‑fill color is set accordingly. The opening and closing `backColor` tags are removed then.
+
+------ 
+
+## FAQ
+
+1. **Q:** What types of values can I use in a `backColor` tag expression?  
+   **A:** The expression may return a string with a known color name (e.g., “red”), a string with an HTML hex code (e.g., “#F08080”), an integer representing an RGB value (e.g., `0xFFFF00`), or a `java.awt.Color` object.
+
+2. **Q:** Can `backColor` tags be nested inside each other?  
+   **A:** Yes. Nested `backColor` tags are supported; the innermost tag overrides the outer one for the enclosed text, and all tags are stripped after processing.
+
+3. **Q:** How do I apply a dynamic background color to a shape’s text?  
+   **A:** Insert a shape with “No fill”, place opening and closing `backColor` tags inside the shape’s textbox around the text, and use an expression that returns a supported color value. At runtime the shape’s solid‑fill color will be set to the evaluated color.
+
+4. **Q:** Are `backColor` tags usable inside tables or data‑band blocks such as `foreach`?  
+   **A:** Absolutely. `backColor` tags work the same way inside table cells, rows, or any data band. They may span across cells as long as they remain within the same story.
+
+5. **Q:** What happens to text that already has a background color when a `backColor` tag is applied?  
+   **A:** Existing background colors are left unchanged; the `backColor` tag only affects text that does not already have a background color applied.

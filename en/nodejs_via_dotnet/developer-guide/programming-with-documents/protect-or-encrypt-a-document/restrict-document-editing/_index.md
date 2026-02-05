@@ -19,7 +19,7 @@ Aspose.Words allows you to restrict editing a document by setting a restriction 
 
 This article explains how to use Aspose.Words to select a restriction type, how to add or remove protection, and how to make unrestricted editable regions.
 
-## Select Editing Restriction Type
+## Select Editing Restriction Type  
 
 Aspose.Words allows you to control the way you restrict the content using the [ProtectionType](https://reference.aspose.com/words/nodejs-net/aspose.words/protectiontype/) enumeration parameter. This will enable you to select an exact type of protection such as the following:
 
@@ -29,7 +29,7 @@ Aspose.Words allows you to control the way you restrict the content using the [P
 * [ReadOnly](https://reference.aspose.com/words/nodejs-net/aspose.words/protectiontype/)
 * [NoProtection](https://reference.aspose.com/words/nodejs-net/aspose.words/protectiontype/)
 
-All types are password-secured, and if this password is not entered correctly, a user will not be able to legally change the content of your document. Thus, if your document is returned to you without a requirement to provide the necessary password, this is a sign that something is wrong.
+All types are password‑secured, and if this password is not entered correctly, a user will not be able to legally change the content of your document. Thus, if your document is returned to you without a requirement to provide the necessary password, this is a sign that something is wrong.
 
 If you did not set a password when choosing the security type, other users can simply ignore the protection of your document.
 
@@ -39,7 +39,7 @@ Note that the password being set is just a property in a document that can be re
 
 {{% /alert %}}
 
-## Add Document Protection
+## Add Document Protection  
 
 Adding protection to your document is a simple process, as all you need to do is apply one of the protection methods detailed in this section.
 
@@ -62,7 +62,7 @@ The following code example shows how to restrict editing in a document so only e
 
 {{< gist "aspose-words-gists" "d9e52f106d399d80f5df382419349f58" "allow-only-form-fields-protect.js" >}}
 
-## Remove Document Protection
+## Remove Document Protection  
 
 Aspose.Words allows you to remove protection from a document with simple and direct document modification. You can either remove the document protection without knowing the actual password or provide the correct password to unlock the document by using the [unprotect](https://reference.aspose.com/words/nodejs-net/aspose.words/document/unprotect/) method. Both removing ways have no difference.
 
@@ -70,13 +70,13 @@ The following code example shows how to remove protection from your document:
 
 {{< gist "aspose-words-gists" "d9e52f106d399d80f5df382419349f58" "remove-document-protection.js" >}}
 
-## Specify Unrestricted Editable Regions
+## Specify Unrestricted Editable Regions  
 
 You can restrict editing of your document and at the same time allow changes to selected parts of it. So, anyone who opens your document will be able to access these unrestricted parts and make changes to the content.
 
 Aspose.Words allows you to mark the parts that can be changed in your document using the [startEditableRange](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/starteditablerange/) and [endEditableRange](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/endeditablerange/) methods.
 
-The following code example shows how to mark the whole document as read-only and specify editable regions in it:
+The following code example shows how to mark the whole document as read‑only and specify editable regions in it:
 
 {{< gist "aspose-words-gists" "d9e52f106d399d80f5df382419349f58" "unrestricted-editable-regions.js" >}}
 
@@ -85,3 +85,22 @@ You can also choose different document editing restrictions for different sectio
 The following code example shows how to add a restriction for the entire document, and then remove the restriction for one of the sections:
 
 {{< gist "aspose-words-gists" "d9e52f106d399d80f5df382419349f58" "unrestricted-section.js" >}}
+
+------  
+
+## FAQ  
+
+1. **Q:** How do I apply password protection to a document in Node.js?  
+   **A:** Use the `Document.protect` method, passing the desired `ProtectionType` and a password string. The password is stored in the document properties and will be required to modify the protected content.  
+
+2. **Q:** Can I remove protection from a document without knowing the password?  
+   **A:** No. The `Document.unprotect` method requires the correct password if one was set. If the document was protected without a password, calling `unprotect()` without arguments will remove the protection.  
+
+3. **Q:** How can I determine whether a document is protected and which protection type is applied?  
+   **A:** Check the `Document.protectionType` property. It returns a value from the `ProtectionType` enumeration, such as `ReadOnly`, `AllowOnlyFormFields`, or `NoProtection`.  
+
+4. **Q:** How do I create unrestricted editable regions inside a read‑only document?  
+   **A:** Use a `DocumentBuilder` to call `StartEditableRange` before the region and `EndEditableRange` after it. Content inside this range can be edited even when the rest of the document is read‑only.  
+
+5. **Q:** Is it possible to change the protection type of an already protected document?  
+   **A:** Yes, but you must first call `Document.unprotect` with the current password, then apply a new protection using `Document.protect` with the desired `ProtectionType`.  

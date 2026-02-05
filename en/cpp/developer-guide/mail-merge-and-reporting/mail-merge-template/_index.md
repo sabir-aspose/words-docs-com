@@ -1,5 +1,5 @@
 ---
-title: Mail Merge Template in C++
+title: Mail Merge Template
 second_title: Aspose.Words for C++
 articleTitle: Mail Merge Template
 linktitle: Mail Merge Template
@@ -32,7 +32,7 @@ In addition, you can add a Mail Merge region in your template by inserting two M
 
 You can create a template and add specific merge fields to it, that will be replaced by the values from the data source either manually, for example, using Microsoft Word, or programmatically using Aspose.Words. In this article, we will look at the programmatic way of creating a template.
 
-Use the [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/) class to create the required merge template using Aspose.Words. You can include a text, a merge field, and a line break in such a template using the [InsertTextInput](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/inserttextinput/), [InsetField](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertfield/), and [InsertParagraph](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertparagraph/) methods.
+Use the [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/) class to create the required merge template using Aspose.Words. You can include a text, a merge field, and a line break in such a template using the [InsertTextInput](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/inserttextinput/), [InsertField](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertfield/), and [InsertParagraph](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertparagraph/) methods.
 
 The following code example shows how to create a Mail Merge template:
 
@@ -73,3 +73,22 @@ You can also check the implementation of the `HandleMergeField` class from [Aspo
 ## See Also
 
 * For more details about how to create templates in Microsoft Word manually, please check the [Create a Template](https://support.microsoft.com/en-us/office/save-a-word-document-as-a-template-cb17846d-ecec-49d4-82ea-a6f5e3e8b9ae) article in the Microsoft Documentation
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I create a Mail Merge template programmatically in C++?  
+   **A:** Use the `DocumentBuilder` class to build a new `Document`. Insert static text with `InsertTextInput`, add merge fields with `InsertField`, and create line breaks with `InsertParagraph`. After building the template, save it (e.g., `DocumentBuilder::Document->Save(u"Template.docx");`). The saved file can then be used as the source for `Document::MailMerge`.
+
+2. **Q:** How can I insert an image during a Mail Merge operation?  
+   **A:** Implement a custom `IFieldMergingCallback` and handle the `ImageFieldMergingArgs` in its `ImageFieldMerging` method. Set the image file name (`ImageFieldMergingArgs::ImageFileName`) and optionally adjust `ImageWidth` and `ImageHeight`. Register the callback with `Document::MailMerge::FieldMergingCallback`.
+
+3. **Q:** What is the easiest way to add check boxes or HTML content with Mail Merge?  
+   **A:** Use the `Text` property of `FieldMergingArgs` to supply the desired markup. For check boxes, insert the Unicode character (e.g., `u"\u2610"` for an empty box) or a Word content control. For HTML, set `FieldMergingArgs::Text` to the HTML string and enable `Document::MailMerge::UseNonMergeFields` if needed.
+
+4. **Q:** How can I customize the font and paragraph formatting of merged text?  
+   **A:** Inside the `FieldMergingCallback`, modify `FieldMergingArgs::Field->Font` (e.g., `FieldMergingArgs::Field->Font->Size = 12;`) and `FieldMergingArgs::Field->ParagraphFormat` (e.g., `FieldMergingArgs::Field->ParagraphFormat->Alignment = Aspose::Words::ParagraphAlignment::Center;`). These changes affect the inserted text for that specific merge field.
+
+5. **Q:** Do I need to set a license before using Mail Merge in C++?  
+   **A:** Yes. Create an `Aspose::Words::License` object, call `SetLicense` with the path to your `.lic` file, and ensure this code runs before any `Document` or `DocumentBuilder` operations. Without a valid license, the library works in evaluation mode and may add watermarks or limit functionality.

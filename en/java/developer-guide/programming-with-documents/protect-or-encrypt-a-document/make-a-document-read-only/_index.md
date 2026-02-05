@@ -72,3 +72,19 @@ If you do not want a user to open your document as read-only, you can simply set
 The following code example shows how to remove read-only access for a document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-RemoveReadOnlyRestriction.java" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** How do I make a document read‑only with Aspose.Words for Java?  
+   **A:** Load the document, obtain its `WriteProtection` object via `document.getProtection()`, set `setReadOnlyRecommended(true)`, optionally call `setPassword("yourPassword")`, and then save the document. The `ReadOnlyRecommended` flag tells Word to open the file in read‑only mode.
+
+2. **Q:** Can I require a password to modify the document while still allowing read‑only access?  
+   **A:** Yes. After enabling `ReadOnlyRecommended`, call `writeProtection.setPassword("modifyPassword")`. Users can open the file without a password, but any attempt to edit will prompt for the password you supplied.
+
+3. **Q:** How can I verify whether a document is write‑protected?  
+   **A:** Use the `WriteProtection` object's `isWriteProtected()` property. It returns `true` if a password has been set or if `ReadOnlyRecommended` is enabled.
+
+4. **Q:** How do I remove the read‑only recommendation or any write protection from a document?  
+   **A:** Set `writeProtection.setReadOnlyRecommended(false)` and optionally `writeProtection.setPassword(null)`. You can also change the protection type to `ProtectionType.NO_PROTECTION` before saving. This restores normal editing capabilities.

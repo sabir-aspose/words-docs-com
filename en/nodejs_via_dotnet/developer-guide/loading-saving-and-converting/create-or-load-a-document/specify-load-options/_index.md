@@ -65,3 +65,22 @@ If you do not know in advance whether the file is encrypted, you can use the [F
 The following code example shows how to verify document either it is encrypted or not:
 
 {{< gist "aspose-words-gists" "50a58d2d88c2177a9a4888b5d0e4de81" "verify-encrypted-document.js" >}}
+
+------ 
+
+## FAQ
+
+1. Q: How can I load a document using a specific Microsoft Word version?  
+   A: Set the `mswVersion` property of a `LoadOptions` instance to the desired `MsWordVersion` enum value (e.g., `MsWordVersion.Word2010`) and pass this object to the `Document` constructor.
+
+2. Q: Which property controls language‑specific rendering when loading a document?  
+   A: Use the `languagePreferences` property of `LoadOptions`. Within it, set `editingLanguage` (e.g., `EditingLanguage.Japanese`) to match the language preferences you need.
+
+3. Q: My application runs out of memory when loading a large file; what can I do?  
+   A: Assign a folder path to the `tempFolder` property of `LoadOptions`. Aspose.Words will write temporary data to that folder instead of keeping everything in RAM, reducing memory pressure.
+
+4. Q: How do I force a particular text encoding while loading a document?  
+   A: Set the `encoding` property of `LoadOptions` to the required `System.Text.Encoding` (e.g., `Encoding.GetEncoding("windows-1252")`) before opening the document.
+
+5. Q: What is the recommended way to open a password‑protected Word file?  
+   A: Create a `LoadOptions` object, set its `password` property to the document’s password, and pass this object to the `Document` constructor. You can also check `FileFormatUtil` → `FileFormatInfo.IsEncrypted` beforehand.

@@ -123,3 +123,22 @@ disableRemoteResourcesHandler->set_ResourceLoadingCallback(System::MakeObject<Di
 This article is based on the consulting firm Independent Security Evaluators [report](ise-aspose-report.pdf).
 
 {{% /alert %}}
+
+------  
+
+## FAQ
+
+1. **Q:** How can I stop Aspose.Words for C++ from loading external images?  
+   **A:** Implement a custom class that inherits from `IResourceLoadingCallback` and return `ResourceLoadingAction::Skip` when `args->get_ResourceType()` equals `ResourceType::Image`. Register the handler via `LoadOptions::set_ResourceLoadingCallback` before loading the document.
+
+2. **Q:** I want to allow only local files but block any remote HTTP/HTTPS resources. How do I achieve this?  
+   **A:** In your `IResourceLoadingCallback` implementation, examine `args->get_OriginalUri()`. If the URI scheme is `"file"` (or the path is a UNC/local file), return `ResourceLoadingAction::Default`; otherwise return `ResourceLoadingAction::Skip`. This lets local resources load while remote ones are ignored.
+
+3. **Q:** Will disabling external resource loading affect the visual layout of the document?  
+   **A:** Yes. Images, CSS, or linked HTML that are skipped will not appear in the rendered document, which may alter layout or cause missing placeholders. Test your templates after disabling loading to ensure the final appearance meets expectations.
+
+4. **Q:** How can I detect when a document attempts to load a remote resource without actually loading it?  
+   **A:** Inside `ResourceLoading`, you can log or collect the `args->get_OriginalUri()` before deciding to skip. This lets you audit which external resources the document references while keeping them from being fetched.
+
+5. **Q:** Can I apply different resource‑loading policies to different documents in the same application?  
+   **A:** Yes. Create a separate `LoadOptions` instance for each document, assign the appropriate `IResourceLoadingCallback` implementation, and pass the options to the `Document` constructor. This isolates the settings per document.

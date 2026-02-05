@@ -46,3 +46,35 @@ PDF/UA should be used if PDF consumers require it. Also it could be used if you 
 It is important to note that PDF/UA-1 or PDF/UA-2 output will generally comply with WCAG 2.0 and Section 508.
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** What is the practical difference between PDF 1.7 and PDF 2.0 output in Aspose.Words?  
+   **A:** PDF 2.0 adds support for newer PDF features such as the **PdfEncryptionAlgorithm.Aes256** encryption method. Functionally the documents look the same, but older PDF viewers may not fully support PDF 2.0. Use PDF 2.0 only when you need those new features; otherwise stick with PDF 1.7 for maximum compatibility.
+
+2. **Q:** When should I choose a PDF/A version instead of a regular PDF?  
+   **A:** Choose PDF/A when the document must be archived for long‑term preservation or when a regulatory body requires it. PDF/A guarantees that all fonts, colors, and resources are embedded, making the file self‑contained. If no archival requirement exists, a regular PDF (PDF 1.7 or 2.0) is usually smaller and faster to generate.
+
+3. **Q:** How can I set a specific PDF/A conformance level (e.g., PDF/A‑2b) in Node.js?  
+   **A:** Use **PdfSaveOptions** and set its **pdfStandard** and **compliance** properties. Example:
+
+   ```javascript
+   const aw = require("aspose.words");
+   const doc = new aw.Document("input.docx");
+
+   const saveOptions = new aw.saving.PdfSaveOptions();
+   saveOptions.pdfStandard = aw.saving.PdfStandard.PdfA2;
+   saveOptions.compliance = aw.saving.PdfCompliance.PdfA2b; // or PdfA2a / PdfA2u
+
+   doc.save("output.pdf", saveOptions);
+   ```
+
+   This generates a PDF/A‑2b compliant file.
+
+4. **Q:** What is PDF/UA and when is it required?  
+   **A:** PDF/UA (Universal Accessibility) is a PDF standard that ensures the document is accessible to people with disabilities, complying with WCAG 2.0 and Section 508. Use PDF/UA when your audience includes users who rely on assistive technologies or when accessibility is a legal requirement.
+
+5. **Q:** Does using PDF 2.0 increase the file size or cause compatibility problems?  
+   **A:** PDF 2.0 itself does not significantly increase file size; the size impact comes from the optional features you enable (e.g., advanced encryption, embedded color profiles). The main risk is compatibility: some older PDF readers may not fully support PDF 2.0 features, which can lead to rendering issues. Test the generated PDF with the target viewers if you decide to use PDF 2.0.

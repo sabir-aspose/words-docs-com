@@ -42,3 +42,22 @@ The engine follows operator precedence, associativity, and overload resolution r
 - Whereas the object initializer syntax is supported (including objects of anonymous types), the collection initializer syntax is not.
 
 Also, the engine enables you to use lifted operators in template expressions. In Java, operands of lifted operators are represented by primitive type class wrappers like `Integer`, `Double`, and others, in contrast to nullable types in C#. That is, for example, given that variables a and b are of the `Integer` type and the value of a is `null`, expression "a + b" is evaluated to `null` by the engine, whereas it throws an exception in Java during runtime.
+
+------ 
+
+## FAQ
+
+1. **Q:** How does the `==` operator evaluate strings in a template expression?  
+   **A:** In the LINQ Reporting Engine the `==` (and `!=`) operator compares the actual text of the strings, not their object references. Therefore two different `String` objects containing the same characters are considered equal. This behavior differs from the default Java reference comparison.
+
+2. **Q:** Can I use collection initializer syntax (e.g., `{1, 2, 3}`) inside a template?  
+   **A:** No. The engine supports object initializer syntax, including anonymous types, but collection initializer syntax is not implemented. To create a collection you need to instantiate it explicitly in your data source before passing it to the template.
+
+3. **Q:** What happens when I apply an arithmetic operator to a `null` operand?  
+   **A:** The engine uses lifted operators: if any operand of an arithmetic expression is `null`, the whole expression evaluates to `null` instead of throwing a `NullPointerException`. This allows safe calculations on nullable wrapper types such as `Integer` or `Double`.
+
+4. **Q:** How can I use the ternary operator to provide a default value?  
+   **A:** The ternary operator `condition ? valueIfTrue : valueIfFalse` works the same as in Java. Example: `<<#= total != null ? total : 0>>` will output `total` when it is not `null`; otherwise it outputs `0`.
+
+5. **Q:** Are there any operator‑precedence differences I should be aware of compared to standard Java?  
+   **A:** The engine follows the precedence rules defined in the C# specification, which are largely compatible with Java. Most operators (e.g., `*`, `+`, `&&`, `||`) have the same precedence, but be cautious with the null‑coalescing operator `??`, which does not exist in Java and has its own precedence level in the engine.

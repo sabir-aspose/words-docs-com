@@ -69,3 +69,38 @@ After we have seen that an encrypted document cannot be opened without a passwor
 The following code example shows how to try opening an encrypted document with a password:
 
 {{< gist "aspose-words-gists" "b4e8a7baa7d3c08127f9a043487de21b" "load-save-encrypted-document.h" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** Which file formats can be encrypted when saving with Aspose.Words for C++?  
+   **A:** Encryption is supported for DOC, DOCX/DOTX/DOCM/DOTM, Flat OPC families, ODT/OTT, and PDF. Formats such as RTF do **not** support encryption.
+
+2. **Q:** How can I choose a specific encryption algorithm for a DOCX file?  
+   **A:** Use `OoxmlSaveOptions` and set the `EncryptionAlgorithm` property. For example:  
+
+   ```cpp
+   Aspose::Words::Saving::OoxmlSaveOptions saveOptions;
+   saveOptions.set_Password(u"MyPassword");
+   saveOptions.set_EncryptionAlgorithm(Aspose::Words::Saving::EncryptionAlgorithm::Aes128);
+   doc->Save(u"encrypted.docx", saveOptions);
+   ```
+
+3. **Q:** How do I determine whether a document is encrypted before loading it?  
+   **A:** Call `FileFormatInfo::IsEncrypted` on the file path. This property returns `true` if the file is encrypted, allowing you to prompt the user for a password before attempting to load the document.
+
+4. **Q:** What exception is thrown if I try to open an encrypted document without providing a password?  
+   **A:** Aspose.Words throws `IncorrectPasswordException`. Catch this exception to inform the user that a password is required or to request the correct password.
+
+5. **Q:** Can I encrypt a PDF document with Aspose.Words, and which algorithms are available?  
+   **A:** Yes. Use `PdfSaveOptions` and set the `Password` property. The only encryption algorithm currently available for PDF is RC4 (40‑bit or 128‑bit). Example:  
+
+   ```cpp
+   Aspose::Words::Saving::PdfSaveOptions pdfOptions;
+   pdfOptions.set_Password(u"PdfPass");
+   pdfOptions.set_EncryptionAlgorithm(Aspose::Words::Saving::EncryptionAlgorithm::Rijndael);
+   doc->Save(u"encrypted.pdf", pdfOptions);
+   ```
+
+These FAQs address the most common questions related to document encryption with Aspose.Words for C++.

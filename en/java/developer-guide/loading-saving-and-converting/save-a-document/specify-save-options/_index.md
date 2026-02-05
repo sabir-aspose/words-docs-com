@@ -78,3 +78,22 @@ To control image saving options, the **ImageSaveOptions** class is used. For exa
 The following code example shows how to save a black and white image with one bit per pixel format:
 
 {{< gist "aspose-words-gists" "a6f7799aa265589fb56915bb1e401b05" "format1-bpp-indexed.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I encrypt a saved document with a password in Java?  
+   **A:** Use the format‑specific `SaveOptions` class (e.g., `DocSaveOptions`, `PdfSaveOptions`) and set its `setPassword(String)` method. Then pass the options object to `Document.save(String, SaveOptions)`. The encryption method (RC4, AES) is chosen automatically based on the format.
+
+2. **Q:** Is there a way to receive progress updates while a large document is being saved?  
+   **A:** Yes. Implement the `IProgressCallback` interface and assign an instance to the `setProgressCallback(IProgressCallback)` property of the appropriate `SaveOptions`. The callback will be invoked periodically with the percentage completed.
+
+3. **Q:** How do I change the document’s creation time before saving?  
+   **A:** Set the `CreatedTime` property of the `BuiltInDocumentProperties` object (`document.getBuiltInDocumentProperties().setCreatedTime(Date)`). To make the saved file reflect this value, enable `setUpdateCreatedTimeProperty(true)` on the `SaveOptions`.
+
+4. **Q:** Can I prevent the `LastSavedTime` property from being updated when I save a document?  
+   **A:** Yes. Set `setUpdateLastSavedTimeProperty(false)` on the `SaveOptions` you pass to `Document.save`. This tells Aspose.Words to keep the existing `LastSavedTime` value.
+
+5. **Q:** How can I save images generated from a document as black‑and‑white (1‑bit) PNGs?  
+   **A:** Use `ImageSaveOptions` and set `setPixelFormat(PixelFormat.Format1bppIndexed)`. Then call `document.save("output.png", imageSaveOptions)`. The resulting PNG will be a 1‑bit per pixel black‑and‑white image.

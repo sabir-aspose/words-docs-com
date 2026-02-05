@@ -78,3 +78,22 @@ Aspose.Words also provides an opportunity to find out the distances between tabl
 The following code example shows how to get the distance between a table and its surrounding text:
 
 {{< gist "aspose-words-gists" "b55c18ec2f5fe3f033f8d24c508b6a0f" "distance-between-table-surrounding-text.js" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I change the horizontal alignment of a floating table in Node.js?  
+   **A:** Use the `relativeHorizontalAlignment` property of the `Table` object. Assign a value from the `RelativeHorizontalAlignment` enum (e.g., `RelativeHorizontalAlignment.Left`). Setting this property automatically resets any previously set `absoluteHorizontalDistance`.
+
+2. **Q:** Which property controls the vertical distance of a floating table from its anchor paragraph?  
+   **A:** The `absoluteVerticalDistance` property defines the exact vertical offset (in points) from the anchor. You can set it directly, but note that changing `relativeVerticalAlignment` will reset this value to its default.
+
+3. **Q:** How do I prevent a floating table from overlapping other floating objects?  
+   **A:** Set the `allowOverlap` property to `false`. This tells Aspose.Words to automatically reposition the table if it would intersect another floating shape.
+
+4. **Q:** Can I retrieve the distances between a table and surrounding text?  
+   **A:** Yes. Use the `distanceTop`, `distanceBottom`, `distanceLeft`, and `distanceRight` properties of the `Table` object. They return the spacing (in points) that the table maintains on each side.
+
+5. **Q:** What is the difference between `horizontalAnchor` and `relativeHorizontalAlignment`?  
+   **A:** `horizontalAnchor` specifies the reference point (e.g., page, margin, column) used for positioning the table. `relativeHorizontalAlignment` defines how the table aligns relative to that anchor (left, center, right). Both must be set appropriately to achieve the desired placement.

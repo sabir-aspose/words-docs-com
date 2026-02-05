@@ -135,3 +135,22 @@ If you use multiple Aspose products in your application, such as Aspose.Words an
 
 * Set the License for each Aspose product separately. Even if you have a single license file for all components, for example, "Aspose.Total.lic", you still need to call [setLicense](https://reference.aspose.com/words/nodejs-net/aspose.words/license/setLicense/) separately for each Aspose product that you use in your application.
 * Use the Fully Qualified License Class Name. Each Aspose product has a **License** class in its own namespace. For example, Aspose.Words has [aspose.words.License](https://reference.aspose.com/words/nodejs-net/aspose.words/license/) and `Aspose.Cells` has **aspose.cells.License** class. Using the fully qualified class name allows you to avoid confusion as to which license applies to which product.
+
+------ 
+
+## FAQ
+
+1. Q: How do I apply a license in Aspose.Words for Node.js via .NET?  
+   A: Call the `aspose.words.License.setLicense()` method before using any other Aspose.Words classes. You can pass a file path, a Buffer object, or use the metered licensing API. The call should be made once per application domain, typically at startup.
+
+2. Q: What is the difference between a trial license and a temporary license?  
+   A: A trial license is free and provides full functionality but adds an evaluative watermark and limits document size. A temporary license removes these restrictions for 30 days and requires you to request a key from the Aspose website.
+
+3. Q: Why do I get a “Cannot find license filename” exception?  
+   A: Some browsers append a hidden `.xml` extension to the downloaded `.lic` file, and Windows may hide extensions by default. Rename the file to remove the extra `.xml` part or disable the “hide extensions” setting, then pass the correct file name to `setLicense`.
+
+4. Q: How can I use a metered license and what are the best practices?  
+   A: Obtain the public and private keys from Aspose, then call `aspose.words.metered.setMeteredKey(publicKey, privateKey)`. Call this method only once and keep the library instance alive to allow proper consumption tracking. Ensure a stable internet connection for the metered service.
+
+5. Q: Do I need to set the license for each Aspose product separately?  
+   A: Yes. Even if you have a single license file covering multiple products, you must invoke the `setLicense` method for each product (e.g., `aspose.words.License` and `aspose.cells.License`). Using fully qualified class names helps avoid confusion.

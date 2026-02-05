@@ -13,7 +13,7 @@ url: /nodejs-net/summarize-a-document/
 timestamp: 2025-05-12-12-00-00
 ---
 
-Summarizing documents is a valuable tool for content review, quick insights, or preparing abstracts. Aspose.Words supports document summarization using AI-powered models, making it easier to process long text. This feature, available in the [aspose.words.ai](https://reference.aspose.com/words/nodejs-net/aspose.words.ai/) module, integrates advanced generative language models from *OpenAI*, *Google* and *Anthropic*. 
+Summarizing documents is a valuable tool for content review, quick insights, or preparing abstracts. Aspose.Words supports document summarization using AI‑powered models, making it easier to process long text. This feature, available in the [aspose.words.ai](https://reference.aspose.com/words/nodejs-net/aspose.words.ai/) module, integrates advanced generative language models from *OpenAI*, *Google* and *Anthropic*. 
 
 You can specify various options for summarizing document content. Use the [summarize](https://reference.aspose.com/words/nodejs-net/aspose.words.ai/iaimodeltext/summarize/) method to generate a summary of your document. You can also set summary length using the [summaryLength](https://reference.aspose.com/words/nodejs-net/aspose.words.ai/summarizeoptions/summarylength/) property.
 
@@ -26,3 +26,19 @@ With Aspose.Words, implementing document summarization is straightforward. The f
 Summarizing documents with Aspose.Words saves time and helps you focus on essential information. For more information, check the [aspose.words.ai](https://reference.aspose.com/words/nodejs-net/aspose.words.ai/) API documentation.
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** Which AI models can be used with the `summarize` method?  
+   **A:** The method supports OpenAI models (e.g., GPT‑4o), Google Gemini models, and Anthropic Claude models. Select the model by setting the `model` property of `SummarizeOptions`.
+
+2. **Q:** Is a separate Aspose.Words license required to use the AI summarization feature?  
+   **A:** No. The AI summarization feature is included in the regular Aspose.Words for Node.js via .NET license. Apply a valid Aspose.Words license as you would for any other operation.
+
+3. **Q:** Can I use the summarization API with .NET 8 projects?  
+   **A:** Yes. Aspose.Words for Node.js via .NET is compatible with .NET 8, so the `summarize` method works in .NET 8 applications without additional configuration.
+
+4. **Q:** What should I do if the `summarize` call throws an exception about missing model credentials?  
+   **A:** Ensure that the API key or authentication token for the selected AI provider (OpenAI, Google, or Anthropic) is supplied. You can set the credentials globally in the environment or assign them to the `credentials` property of `SummarizeOptions` before invoking `summarize`.

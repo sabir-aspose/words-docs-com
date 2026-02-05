@@ -73,3 +73,28 @@ You can also use the [IBarcodeGenerator](https://reference.aspose.com/words/java
 When working with barcodes, you can set some additional properties. Aspose.Words provides you with the [BarcodeParameters](https://reference.aspose.com/words/java/com.aspose.words/barcodeparameters/) class – class for barcode parameters to pass-through to BarcodeGenerator.
 
 Aspose.Words supports embedded 96 ppi resolution for images generated with [IBarcodeGenerator](https://reference.aspose.com/words/java/com.aspose.words/ibarcodegenerator/), which limits the minimum size of a barcode image. To address this, developers can manually insert barcode images with the target resolution into a Word document and save them in the required format. For more details and examples on working with barcodes, see the article [Read Barcodes from Word Documents](https://docs.aspose.com/barcode/java/read-barcode-from-word-document/).
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I programmatically insert a `DISPLAYBARCODE` field into a Word document?  
+   **A:** Create a `DocumentBuilder`, use `InsertField` with the field code syntax, e.g.  
+   ```java
+   Document doc = new Document();
+   DocumentBuilder builder = new DocumentBuilder(doc);
+   builder.insertField("{ DISPLAYBARCODE \"1234567890\" CODE128 }");
+   ```  
+   After inserting the field, you can assign a custom `IBarcodeGenerator` implementation to render the barcode when the document is saved.
+
+2. **Q:** What is the purpose of the `IBarcodeGenerator` interface?  
+   **A:** `IBarcodeGenerator` lets you supply your own barcode rendering logic. Implement the `generateBarcodeImage(BarcodeParameters parameters)` method to return a `java.awt.image.BufferedImage`. Aspose.Words calls this method for each `DISPLAYBARCODE` field when saving to formats that do not support native barcode rendering (e.g., PDF).
+
+3. **Q:** Which barcode types are supported by Aspose.Words out‑of‑the‑box?  
+   **A:** The `BarcodeParameters.getBarcodeType()` property accepts any barcode type that Microsoft Word recognises (QR, CODE128, EAN13, etc.). If you need additional types, use Aspose.BarCode or another library inside your `IBarcodeGenerator` implementation.
+
+4. **Q:** How can I control the resolution or size of the generated barcode image?  
+   **A:** Set the `Resolution` property on `BarcodeParameters` (default 96 ppi). You can also specify width and height in the field switches (`\h` for height, `\w` for width). Example: `{ DISPLAYBARCODE "Data" QR \h 720 \w 300 }`.
+
+5. **Q:** Do I need a license to use barcode generation with Aspose.Words for Java?  
+   **A:** Yes. To remove evaluation limitations and enable full functionality (including custom `IBarcodeGenerator`), apply a valid Aspose.Words for Java license via `License license = new License(); license.setLicense("Aspose.Words.Java.lic");`. The same license also covers any Aspose.BarCode usage if you integrate the two libraries.

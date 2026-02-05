@@ -112,10 +112,29 @@ The following code example shows how to disable breaking rows across pages for e
 
 To stop the table from splitting across pages, we need to specify that we want the content contained within the table to stay together.
 
-To do this, Aspose.Words uses a method, which allows users to select a table and enable the [KeepWithNext](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#getKeepWithNext) parameter to true for each paragraph within the table cells. The exception is the last paragraph in the table, which should be set to false.
+To do this, Aspose.Words uses a method, which allows users to select a table and enable the [KeepWithNext](https://reference.aspose.com/words/java/com.aspose.words.paragraphformat/#getKeepWithNext) parameter to true for each paragraph within the table cells. The exception is the last paragraph in the table, which should be set to false.
 
 <img src="keeping-tables-and-rows-from-breaking-across-pages-3.png" alt="keep-tables-from-breaking-across-pages-aspose-words-java" style="width:500px"/>
 
 The following code example shows how to set a table to stay together on the same page:
 
 {{< gist "aspose-words-gists" "14f5cea1b896ffd04f143627939e0878" "keep-table-together.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I insert a new blank column into an existing table?  
+   **A:** Use a helper class that gathers cells by column index, then iterate through each row and insert a new `Cell` at the desired position. After insertion, you may need to adjust column widths to maintain layout.
+
+2. **Q:** What is the recommended way to remove a column from a table?  
+   **A:** Iterate over all rows of the table and call `Row.getCells().removeAt(columnIndex)` for the column you want to delete. Ensure that any merged cells spanning the removed column are handled appropriately.
+
+3. **Q:** How do I make the first row of a table repeat as a header on every page?  
+   **A:** Set `Row.getRowFormat().setHeadingFormat(true)` on the first row (or on multiple consecutive rows) before saving the document. This marks the rows as header rows that Word repeats on each page.
+
+4. **Q:** How can I prevent a table row from breaking across pages?  
+   **A:** Set `Row.getRowFormat().setAllowBreakAcrossPages(false)` for the rows you want to keep together. This disables the “Allow row to break across pages” option.
+
+5. **Q:** How do I keep an entire table on the same page without splitting?  
+   **A:** For each paragraph inside the table cells, set `Paragraph.getParagraphFormat().setKeepWithNext(true)`, except for the last paragraph in the table where it should be `false`. This forces Word to keep the table together when possible.

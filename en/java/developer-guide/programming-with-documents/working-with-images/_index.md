@@ -70,3 +70,22 @@ Aspose.Words provides functionality to save all the available images in a docume
 The following code example shows how to save images as WMF with RTF save options:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithRtfSaveOptions-SavingImagesAsWmf.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I extract all images from a Word document using Aspose.Words for Java?  
+   **A:** Load the document, retrieve all `Shape` nodes with `document.getChildNodes(NodeType.SHAPE, true)`, iterate the collection, check `shape.hasImage()`, then obtain the image bytes via `shape.getImageData().getImageBytes()` and write them to files.
+
+2. **Q:** What is the recommended way to add a barcode image to every page of a document?  
+   **A:** Use `DocumentBuilder` to navigate to each section’s header or footer with `moveToHeaderFooter(HeaderFooterType.HEADER_PRIMARY)` (or footer), then call `insertImage(byte[])` with the barcode image data. Repeat for all sections to place the barcode on each page.
+
+3. **Q:** How do I lock the aspect ratio of an image after inserting it?  
+   **A:** After inserting the image, the returned `Shape` object represents the picture. Call `shape.setAspectRatioLocked(true)` to keep the original width‑to‑height proportion when the shape is resized.
+
+4. **Q:** Can I crop an image that is already inside a Word document?  
+   **A:** Yes. Obtain the `Shape` that contains the image and use the cropping properties: `shape.getImageData().setCropTop(value)`, `setCropBottom(value)`, `setCropLeft(value)`, and `setCropRight(value)`. The values are specified as percentages (0.0 to 1.0).
+
+5. **Q:** How can I save all images in a document as WMF when converting to RTF?  
+   **A:** Create an `RtfSaveOptions` instance, set `options.setImageSavingCallback(new ImageSavingCallback() { … })` and inside the callback save each image with `ImageSaveOptions.setImageFormat(ImageFormat.WMF)`. Then call `document.save("output.rtf", options)` to produce an RTF where all images are stored as WMF.

@@ -50,8 +50,8 @@ Children:
 Source code
 
 {{< highlight java >}}
-Document doc = ...             // Loading a template document.
-XmlDataSource dataSource = ... // Loading XML.
+Document doc = ...;             // Loading a template document.
+XmlDataSource dataSource = ...; // Loading XML.
 
 ReportingEngine engine = new ReportingEngine();
 engine.buildReport(doc, dataSource);
@@ -241,3 +241,34 @@ Contracts:
 – I & Sons ($100000)
 – J Ent. ($100000)
 {{< /highlight >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How does `XmlDataSource` determine the data type of an XML element?  
+   **A:** When loading XML, `XmlDataSource` examines the string representation of each element or attribute. If the text matches the invariant‑culture format of a long, double, boolean, or date, the engine converts it to the corresponding .NET type. This enables arithmetic operations and formatting in templates.
+
+2. **Q:** How can I format dates or numbers in a template that uses `XmlDataSource`?  
+   **A:** Use the format specifier after the field name inside the tag. For example, `<<[Birth]:"dd.MM.yyyy">>` formats a date, and `<<[Price]:"#,##0">>` formats a numeric value with thousand separators. The format string follows the standard .NET formatting rules.
+
+3. **Q:** What is the purpose of the `_Text` suffix when referencing repeated simple‑type elements?  
+   **A:** For a repeated simple element such as `<Child>`, the tag `<<[Child]>>` iterates over the collection, while `<<[Child_Text]>>` accesses the text value of the current item. This allows you to output the value without creating an extra loop.
+
+4. **Q:** How do I force the engine to always generate a root object for the XML data?  
+   **A:** Create an `XmlDataLoadOptions` instance, set `AlwaysGenerateRootObject` to `true`, and pass the options when constructing the `XmlDataSource`:
+
+   ```java
+   XmlDataLoadOptions options = new XmlDataLoadOptions();
+   options.setAlwaysGenerateRootObject(true);
+   XmlDataSource dataSource = new XmlDataSource(xmlFilePath, options);
+   ```
+
+5. **Q:** Can I specify a custom root object name when building the report?  
+   **A:** Yes. Pass the desired root name as the third argument to `engine.buildReport`. For example:
+
+   ```java
+   engine.buildReport(doc, dataSource, "employees");
+   ```
+
+   In the template you would then use `<<foreach [in employees]>>` to iterate over the collection.

@@ -66,3 +66,32 @@ The following table indicates the file formats supported by Aspose.Words for C++
 | [`EMF`](https://docs.fileformat.com/image/emf/) | Renders a page of the document and saves it as a vector EMF (Enhanced Meta File) file |  | {{< emoticons/tick >}} |  |
 | [`JPEG`](https://docs.fileformat.com/image/jpeg/) | Renders a page of the document and saves it as a JPEG file |  | {{< emoticons/tick >}} |  |
 | [`GIF`](https://docs.fileformat.com/image/gif/) | Renders a page of the document and saves it as a GIF file |  | {{< emoticons/tick >}} |  |
+
+------ 
+
+## FAQ
+
+1. **Q:** Which document formats can Aspose.Words for C++ both load and save?  
+   **A:** Aspose.Words for C++ can load formats such as DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, XML, MD, HTML, and many others. It can save to all loadable formats plus PDF, XPS, SVG, EPS, PS, PCL, various image formats (PNG, JPEG, TIFF, etc.), and e‑book formats like EPUB, MOBI, and AZW3. The table above shows the exact load/save support for each format.
+
+2. **Q:** Can I convert a Markdown (`.md`) file to a Word document (`.docx`) using Aspose.Words for C++?  
+   **A:** Yes. Load the Markdown file with `Document doc("input.md");` and then save it as DOCX: `doc->Save("output.docx");`. The conversion preserves headings, lists, tables, and basic formatting supported by the Markdown parser.
+
+3. **Q:** How do I generate a PDF from C++ code with Aspose.Words?  
+   **A:** Create a `Document` object, optionally modify it, and call `Save` with the PDF extension:  
+   ```cpp
+   System::SharedPtr<Aspose::Words::Document> doc = System::MakeObject<Aspose::Words::Document>("input.docx");
+   doc->Save("output.pdf");
+   ```  
+   The library automatically handles font embedding and layout conversion.
+
+4. **Q:** Is it possible to convert RTF to HTML while keeping the original formatting (e.g., header text rotation)?  
+   **A:** Yes. Load the RTF file and save it as HTML:  
+   ```cpp
+   System::SharedPtr<Aspose::Words::Document> doc = System::MakeObject<Aspose::Words::Document>("input.rtf");
+   doc->Save("output.html");
+   ```  
+   Aspose.Words preserves most formatting, including rotated text, tables, and styles. For fine‑tuned control, use `HtmlSaveOptions` to adjust CSS handling.
+
+5. **Q:** Are there any limitations when converting to or from e‑book formats such as MOBI or AZW3?  
+   **A:** Conversion to MOBI and AZW3 is supported for saving only; these formats cannot be loaded. When saving, complex Word features (e.g., advanced tables, certain WordArt) may be simplified to fit the e‑book specifications. Use `EpubSaveOptions` or `MobiSaveOptions` to control image quality and metadata.

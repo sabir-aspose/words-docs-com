@@ -25,7 +25,7 @@ The following example shows how to convert DOCX to HTML with specifying a save f
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ConvertDocumentToHTML-ConvertDocxToHtml.cpp" >}}
 
-To convert a document to MHTML or EPUB, use `SaveFormat.Mhtml` or `SaveFormat.Epub` respectively.
+To convert a document to MHTML or EPUB, use `SaveFormat::Mhtml` or `SaveFormat::Epub` respectively.
 
 ## Convert a Document with Round-trip Information
 
@@ -33,10 +33,10 @@ The HTML format does not support many Microsoft Word features, and if we need to
 
 The default value is **true** for HTML and **false** for MHTML and EPUB:
 
-- When **true**, the round-trip information is exported as - aw - * CSS properties of the corresponding HTML elements
-- When **false**, there is no round-trip information to be output into produced files
+- When **true**, the round‑trip information is exported as - aw - * CSS properties of the corresponding HTML elements
+- When **false**, there is no round‑trip information to be output into produced files
 
-The following code example shows how to export round-trip information when converting a document from DOCX into HTML:
+The following code example shows how to export round‑trip information when converting a document from DOCX into HTML:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ConvertDocumentToHTML-ConvertDocumentToHtmlWithRoundtrip.cpp" >}}
 
@@ -73,7 +73,7 @@ However, there is no individual property for CSS. The behavior of the **FontsFo
 
 Aspose.Words provides an ability to specify whether font resources should be embedded into HTML in Base64 encodings. To perform this, use the [ExportFontsAsBase64](https://reference.aspose.com/words/cpp/aspose.words.saving/htmlsaveoptions/get_exportfontsasbase64/) property – this is an extension of the [ExportFontResources](https://reference.aspose.com/words/cpp/aspose.words.saving/htmlsaveoptions/get_exportfontresources/) property. By default, its value is **false**, and fonts are written into separate files. But if this option is set to **true**, fonts will be embedded into the document's CSS in Base64 encoding. The **ExportFontsAsBase64** property only affects HTML format and does not affect EPUB and MHTML.
 
-The following code example shows how to export Base64-encoded fonts to HTML:
+The following code example shows how to export Base64‑encoded fonts to HTML:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ConvertDocumentToHTML-ExportFontsAsBase64.cpp" >}}
 
@@ -90,3 +90,32 @@ The following code example shows how to converts a Word document to EPUB with sp
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).
 
 {{% /alert %}}
+
+------  
+
+## FAQ
+
+1. **Q:** How do I convert a DOCX file to HTML using Aspose.Words for C++?  
+   **A:** Load the document with `Document doc("input.docx");` and call `doc.Save("output.html", SaveFormat::Html);`. This uses the default `HtmlSaveOptions`.  
+
+2. **Q:** How can I preserve Word‑specific features (round‑trip information) when saving to HTML?  
+   **A:** Create an `HtmlSaveOptions` object, set `options.set_ExportRoundtripInformation(true);`, and pass it to `Document::Save`. This embeds additional CSS that allows the document to be re‑loaded with tabs, comments, headers, and footers restored.  
+
+3. **Q:** Where can I specify the folder for images, fonts, and other resources generated during HTML conversion?  
+   **A:** Use `HtmlSaveOptions options;` then set `options.set_ResourceFolder("Resources");`, `options.set_ImagesFolder("Resources/Images");`, and `options.set_FontsFolder("Resources/Fonts");`. The folders are created automatically if they do not exist.  
+
+4. **Q:** How do I embed fonts directly into the HTML file as Base64 strings?  
+   **A:** Set `options.set_ExportFontsAsBase64(true);` on an `HtmlSaveOptions` instance before saving. This causes font files to be encoded in Base64 and placed inside the generated CSS, eliminating external font files.  
+
+5. **Q:** What is the recommended way to convert a document to EPUB with custom options?  
+   **A:** Although EPUB uses `HtmlSaveOptions`, you pass the same options to `Document::Save` with `SaveFormat::Epub`. For example:  
+
+   ```cpp
+   HtmlSaveOptions options;
+   options.set_ExportFontResources(true);
+   options.set_ExportImagesAsBase64(true);
+   Document doc("input.docx");
+   doc.Save("output.epub", SaveFormat::Epub, &options);
+   ```  
+
+   This lets you control font embedding, image handling, and other EPUB‑specific settings.

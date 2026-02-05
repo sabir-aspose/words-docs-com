@@ -78,3 +78,22 @@ This method will not override any other formatting already applied to the table 
 The following code example shows how to expand the formatting from styles onto table rows and cells as direct formatting:
 
 {{< gist "aspose-words-gists" "f1d06175603c48e6dabf5a2eea01207c" "expand-formatting-on-cells-and-row-from-style.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I create a custom table style in Java?  
+   **A:** Use the `StyleCollection.add` method on the document’s style collection, specifying a name and `StyleType.TABLE`. After creating the style, set its properties such as `Font`, `Shading`, `Borders`, and `ParagraphFormat`. Finally, add the style to the collection so it can be applied to tables.
+
+2. **Q:** Can I copy a table style from another document?  
+   **A:** Yes. Load the source document, retrieve the desired `Style` from its `StyleCollection`, and call `StyleCollection.addCopy(sourceStyle)` on the target document’s style collection. This copies the style together with any linked styles.
+
+3. **Q:** What is the simplest way to apply an existing table style to a table?  
+   **A:** Set the table’s `StyleIdentifier`, `StyleName`, or `Style` property. For example, `table.setStyleIdentifier(StyleIdentifier.TABLE_GRID_LIGHT)` or `table.setStyleName("MyCustomStyle")`. The table will immediately reflect the style’s formatting.
+
+4. **Q:** How can I add conditional formatting (e.g., header row shading) to a table style?  
+   **A:** Access the style’s `ConditionalStyleCollection` via `TableStyle.getConditionalStyles()`. Retrieve the `ConditionalStyle` for `ConditionalStyleType.HEADER_ROW` and modify its `Shading`, `Font`, or other properties. The conditional formatting is applied automatically to the matching table area.
+
+5. **Q:** How do I convert a table style into direct formatting on a table’s rows and cells?  
+   **A:** Call `Document.expandTableStylesToDirectFormatting()` after the table has the style applied. This method expands all style‑based formatting into explicit formatting on each row and cell, preserving the appearance while removing the style reference.

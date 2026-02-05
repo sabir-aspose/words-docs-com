@@ -160,3 +160,67 @@ The following code example shows how to modify the page properties in all sectio
 
 - [Logical Levels of Nodes in a Document](/words/cpp/logical-levels-of-nodes-in-a-document/)
 - [Insert and Append Documents](/words/cpp/insert-and-append-documents/)
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I insert a section break at a specific location in a document?  
+   **A:** Use `DocumentBuilder::InsertBreak` with the appropriate `BreakType` value (e.g., `BreakType::SectionBreakNewPage`). Position the builder where you want the break, then call the method.  
+
+   ```cpp
+   Aspose::Words::Document doc(u"input.docx");
+   Aspose::Words::DocumentBuilder builder(&doc);
+   // Move to the desired location
+   builder.MoveToParagraph(5);
+   // Insert a new page section break
+   builder.InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
+   doc.Save(u"output.docx");
+   ```
+
+2. **Q:** What is the recommended way to remove an entire section or just its content?  
+   **A:** To delete a whole section, remove it from the `Sections` collection: `doc->get_Sections()->RemoveAt(index)`. To keep the section but clear its body, call `section->ClearContent()`.  
+
+   ```cpp
+   Aspose::Words::Document doc(u"input.docx");
+   // Remove the third section completely
+   doc->get_Sections()->RemoveAt(2);
+   // Or clear content of the first section
+   Aspose::Words::SectionPtr firstSection = doc->get_FirstSection();
+   firstSection->ClearContent();
+   doc->Save(u"output.docx");
+   ```
+
+3. **Q:** How can I copy a section from one document into another document?  
+   **A:** Import the source section node into the target document with `DocumentBase::ImportNode`, then add it to the target's `Sections` collection.  
+
+   ```cpp
+   Aspose::Words::Document sourceDoc(u"source.docx");
+   Aspose::Words::Document targetDoc(u"target.docx");
+   Aspose::Words::SectionPtr sourceSection = sourceDoc->get_Sections()->idx_get(0);
+   Aspose::Words::Node* imported = targetDoc->ImportNode(sourceSection, true);
+   targetDoc->get_Sections()->Add(Aspose::Words::System::ExplicitCast<Aspose::Words::Section>(imported));
+   targetDoc->Save(u"merged.docx");
+   ```
+
+4. **Q:** How do I duplicate a section within the same document?  
+   **A:** Call `Section::Clone(true)` to create a deep copy, then insert the cloned section at the desired position in the `Sections` collection.  
+
+   ```cpp
+   Aspose::Words::Document doc(u"input.docx");
+   Aspose::Words::SectionPtr original = doc->get_Sections()->idx_get(0);
+   Aspose::Words::SectionPtr clone = System::ExplicitCast<Aspose::Words::Section>(original->Clone(true));
+   doc->get_Sections()->Insert(1, clone); // Insert after the first section
+   doc->Save(u"output.docx");
+   ```
+
+5. **Q:** How can I clear all headers and footers (including shapes) from a specific section?  
+   **A:** Use `Section::ClearHeadersFooters()` to remove header/footer text, then `Section::DeleteHeaderFooterShapes()` to delete any shapes inside them.  
+
+   ```cpp
+   Aspose::Words::Document doc(u"input.docx");
+   Aspose::Words::SectionPtr sec = doc->get_Sections()->idx_get(0);
+   sec->ClearHeadersFooters();
+   sec->DeleteHeaderFooterShapes();
+   doc->Save(u"output.docx");
+   ```

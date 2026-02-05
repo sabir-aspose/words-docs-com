@@ -64,3 +64,22 @@ Aspose.Words successfully plays metafile to raster using GDI+ on .NET, which mak
 Secondly, there is an option for EMF+ Dual metafile to fallback from playing the EMF+ part to the EMF part. It is controlled by [emfPlusDualRenderingMode](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/metafilerenderingoptions/emfPlusDualRenderingMode/). If there are some issues occur when playing the EMF part, then fallback to raster may be performed as well.
 
 As for raster operations, if the [emulateRasterOperations](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/metafilerenderingoptions/emulateRasterOperations/) is disabled, then raster operations are considered as not supported, which triggers fallback to bitmap metafile player if it is enabled. Therefore, if you have a metafile with raster operations, but you do not want to use raster operations emulation and yet want to get the vector output with substitution graphics, then select the [MetafileRenderingMode.Vector](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/metafilerenderingmode/).
+
+------ 
+
+## FAQ
+
+1. Q: How can I control the way Aspose.Words renders Windows Metafiles?
+   A: Use the **MetafileRenderingOptions** class. Set properties such as **renderingMode**, **emulateRasterOperations**, and **emfPlusDualRenderingMode** to specify whether the metafile is rendered as vector, raster, or falls back to a simpler format.
+
+2. Q: What does the **renderingMode** property affect when saving a document that contains metafiles?
+   A: **renderingMode** determines the primary rendering strategy. `MetafileRenderingMode.Vector` tries to keep the output vector‑based, `MetafileRenderingMode.Raster` forces rasterisation, and `MetafileRenderingMode.Fallback` lets Aspose.Words substitute unsupported features with bitmap graphics.
+
+3. Q: How do I enable or disable raster‑operation emulation for WMF/EMF files?
+   A: Set **emulateRasterOperations** to `true` to let Aspose.Words emulate raster operations (required for many ternary operations). Setting it to `false` disables emulation, causing those operations to be treated as unsupported and triggering fallback to the bitmap player.
+
+4. Q: How can I control fallback for EMF+ Dual metafiles that contain both EMF and EMF+ parts?
+   A: Use the **emfPlusDualRenderingMode** property. It lets you specify whether the engine should fall back from the EMF+ part to the EMF part when rendering problems occur.
+
+5. Q: Why does rendering a metafile with many raster operations sometimes take longer?
+   A: When **emulateRasterOperations** is enabled, Aspose.Words rasterises the affected device surface, which is computationally intensive. The more raster‑operation records present, the greater the performance impact.

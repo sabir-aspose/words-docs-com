@@ -13,7 +13,7 @@ url: /java/working-with-table-column-conditional-blocks/
 timestamp: 2024-01-27-14-07-04
 ---
 
-A table-column conditional block represents a conditional block, which body occupies a rectangular area of cells of a single document table. The body of such a block (as well as the body of its every template option) starts at the beginning of the top-left cell of a corresponding area and ends at the end of its bottom-right cell. Typically, this area consists of one or several table columns as follows.
+A table-column conditional block represents a conditional block, which body occupies a rectangular area of cells of a single document table. The body of such a block (as well as the body of its every template option) starts at the beginning of the top‑left cell of a corresponding area and ends at the end of its bottom‑right cell. Typically, this area consists of one or several table columns as follows.
 
 **Note** – Table cells occupied by different template options in the following templates are highlighted with different colors.
 
@@ -295,3 +295,22 @@ When there is no person at all, the engine produces a report as follows.
 </table>
 
 **Note** – Table-column conditional blocks can themselves be nested to table-row data bands and conditional blocks, but not conversely: Nesting of table-row data bands and conditional blocks into table-column conditional blocks is forbidden.
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I hide or show a whole table column with a conditional block?  
+   **A:** Use a table‑column conditional block with the `-horz` switch and place the condition inside `<<if … -horz>> … <<else>> … <<endif>>`. When the Boolean variable (e.g., `showRepresentatives`) is `true`, the column content is rendered; otherwise the column is omitted.
+
+2. **Q:** What does the `-horz` switch do in a conditional block?  
+   **A:** The `-horz` switch tells the reporting engine to apply the conditional logic to table columns instead of rows. Without it, the block would affect whole rows, which is the default behavior for table‑row conditional blocks.
+
+3. **Q:** Can I nest a table‑column conditional block inside a table‑column data band?  
+   **A:** Yes. Table‑column conditional blocks may contain table‑column data bands, allowing you to provide alternate content (e.g., “No data”) when the data band is empty.
+
+4. **Q:** Is it possible to place a table‑column conditional block inside a table‑row conditional block?  
+   **A:** No. Nesting a table‑row conditional block or data band inside a table‑column conditional block is prohibited. The allowed nesting direction is only from column blocks to row blocks, not the reverse.
+
+5. **Q:** How can I provide an alternative view when a column’s data source is empty?  
+   **A:** Use an `if` condition that checks the collection with `!collection.any()` inside a table‑column conditional block. For example: `<<if [!persons.any()] -horz>>No data<<else>> <<foreach [p in persons] -horz>> … <<endif>>`. This renders “No data” when the collection is empty and the normal column content otherwise.

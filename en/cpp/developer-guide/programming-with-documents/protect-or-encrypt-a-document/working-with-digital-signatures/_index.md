@@ -113,3 +113,22 @@ The following code example shows how to load and remove digital signatures from 
 Note that you can not remove only one digital signature within your document.
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** Do I need a separate license to use digital signatures in Aspose.Words?  
+   **A:** No. Digital signature functionality is included in the standard Aspose.Words license. You only need a valid Aspose.Words license file to enable all features, including signing.
+
+2. **Q:** Why do digital signatures disappear after loading and saving a document?  
+   **A:** When a document is loaded, modified, and saved, Aspose.Words does not preserve existing digital signatures. This is a known limitation; you should detect signatures before processing and re‑apply them afterward if needed.
+
+3. **Q:** Can I remove only one digital signature from a document?  
+   **A:** Currently Aspose.Words can only remove all signatures at once using `RemoveAllSignatures`. To delete a specific signature you would need to use external tools or re‑sign the document without that signature.
+
+4. **Q:** How can I verify whether a digital signature is valid?  
+   **A:** Load the signatures with `DigitalSignatureUtil::LoadSignatures` and iterate through the collection, checking each signature’s `IsValid` property. A true value indicates the signature is cryptographically valid.
+
+5. **Q:** Is it possible to add a digital signature to a macro‑enabled document?  
+   **A:** No. Aspose.Words does not support digital signatures on macros. You must remove macros or use Microsoft Word to sign the macro‑enabled file after the macros are added.

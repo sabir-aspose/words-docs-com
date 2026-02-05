@@ -46,3 +46,22 @@ PDF/UA should be used if PDF consumers require it. Also it could be used if you 
 It is important to note that PDF/UA-1 output will also be WCAG 2.0 and Section 508 compliant.
 
 {{% /alert %}}
+
+------ 
+
+## FAQ
+
+1. **Q:** What is the practical difference between PDF 1.7 and PDF 2.0 when using Aspose.Words for C++?  
+   **A:** Functionally they are very similar; PDF 2.0 adds support for newer features such as an advanced encryption algorithm. Use PDF 2.0 only when you need those features, otherwise PDF 1.7 offers broader compatibility with older viewers.
+
+2. **Q:** When should I choose PDF/A over regular PDF output?  
+   **A:** Choose PDF/A when the document must be archived for long‑term preservation or when a regulatory body requires it. Select the highest PDF/A version (e.g., PDF/A‑2) that the consumer accepts, and pick the appropriate conformance level (A, B, or U) based on accessibility needs.
+
+3. **Q:** Does PDF/UA increase the file size compared to a normal PDF?  
+   **A:** Yes, PDF/UA adds extra metadata and structure to meet accessibility standards, which typically results in a larger file size than a non‑accessible PDF.
+
+4. **Q:** Can I use the new encryption algorithm available in PDF 2.0 with Aspose.Words for C++?  
+   **A:** Yes. When you generate a PDF 2.0 document you can enable the new encryption algorithm via the `PdfSaveOptions` class. Keep in mind that some older PDF readers may not support this algorithm.
+
+5. **Q:** Is there any impact on performance when generating PDF/A or PDF/UA documents?  
+   **A:** Generating PDF/A or PDF/UA may be slightly slower because Aspose.Words performs additional validation and adds required metadata. The impact is usually minimal, but it can be noticeable for very large documents.

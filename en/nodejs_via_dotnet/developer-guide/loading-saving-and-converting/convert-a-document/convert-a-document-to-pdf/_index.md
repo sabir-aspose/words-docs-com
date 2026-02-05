@@ -78,7 +78,6 @@ The following code example shows how to convert JPEG and TIFF images to PDF:
 
 {{< gist "aspose-words-gists" "38c6608baa855f951a4e117a721bdaae" "convert-image-to-pdf.js" >}}
 
-
 ## Reduce PDF Output Size
 
 When saving to PDF, you can specify whether you want to optimize the output. To do this, you need to set the [optimizeOutput](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) flag to true, and then redundant nested canvases and empty canvases will be removed, neighbor glyphs with the same formatting will be concatenated.
@@ -106,3 +105,38 @@ Using the **OptimizeOutput** property may affect the accuracy of content display
 - The article [Rendering](/words/nodejs-net/rendering/) for more information on the fixed-page and flow-layout formats
 - The article [Converting to Fixed-page Format](/words/nodejs-net/converting-to-fixed-page-format/#what-is-a-page-layout) for more information on the page layout
 - The article [Specify Rendering Options When Converting to PDF](/words/nodejs-net/specify-rendering-options-when-converting-to-pdf/) for more information on using the [PdfSaveOptions](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/pdfsaveoptions/) class
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I convert a Word document to PDF with Aspose.Words for Node.js?  
+   **A:** Load the document into an `aw.Document` instance and call `save` with a filename that ends with `.pdf`. The library automatically detects the output format from the extension.  
+
+   ```js
+   const aw = require('@aspose/words');
+   let doc = new aw.Document("Sample.docx");
+   doc.save("Sample_converted.pdf");
+   ```
+
+2. **Q:** How can I create a PDF that complies with a specific PDF standard (e.g., PDF/A‑1b or PDF 1.7)?  
+   **A:** Use `aw.saving.PdfSaveOptions`, set its `compliance` property to the desired `PdfCompliance` value, and pass the options to `Document.save`.  
+
+   ```js
+   const aw = require('@aspose/words');
+   let doc = new aw.Document("Report.docx");
+   let options = new aw.saving.PdfSaveOptions();
+   options.compliance = aw.saving.PdfCompliance.PdfA1b; // or Pdf17, PdfA2b, etc.
+   doc.save("Report_PDF_A1b.pdf", options);
+   ```
+
+3. **Q:** My generated PDF is larger than expected. How can I reduce its size?  
+   **A:** Enable output optimization by setting `optimizeOutput` to `true` on the save options (inherited from `FixedPageSaveOptions`). This removes redundant canvases and merges identical glyph runs.  
+
+   ```js
+   const aw = require('@aspose/words');
+   let doc = new aw.Document("LargeDoc.docx");
+   let options = new aw.saving.PdfSaveOptions();
+   options.optimizeOutput = true;
+   doc.save("LargeDoc_optimized.pdf", options);
+   ```

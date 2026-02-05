@@ -162,4 +162,31 @@ In this case, the engine produces a report as follows.
 | **Tony Anderson** |
 | **July James** |
 
-For more examples of templates for typical scenarios involving table-row data bands, see “Appendix C. Typical Templates”.
+For more examples of templates for typical scenarios involving table‑row data bands, see “Appendix C. Typical Templates”.
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I force a data band that has its opening and closing `foreach` tags in the same cell to be treated as a table‑row data band?  
+   **A:** Add the `-greedy` switch to the closing tag. Example: `<<foreach [m in ds.Managers]>>...<< /foreach -greedy>>`. The greedy switch tells the engine to treat the band as a table‑row band even when the tags are in a single cell.
+
+2. **Q:** Is it possible to nest common (row‑independent) data bands inside a table‑row data band?  
+   **A:** Yes. You can place any common data band (e.g., a `foreach` that outputs a list of values) inside the body of a table‑row data band. The outer table‑row band controls the rows, while the inner common band repeats its content within a single cell.
+
+3. **Q:** How do I calculate a sum of a numeric column inside a table‑row data band?  
+   **A:** Use a LINQ expression inside a tag, for example `<<[ds.Contracts.Sum(c => c.Price)]>>`. The expression is evaluated once for the whole data set and the result is inserted into the cell.
+
+4. **Q:** What is the correct way to create a master‑detail report using nested table‑row data bands?  
+   **A:** Place an outer `foreach` that iterates over the master collection (e.g., managers) and inside its row add another `foreach` that iterates over the related detail collection (e.g., contracts). Example:  
+
+   ```text
+   <<foreach [m in ds.Managers]>> <<[m.Name]>>
+   <<foreach [c in m.Contracts]>> <<[c.Clients.Name]>> <<[c.Price]>> <</foreach>>
+   <</foreach>>
+   ```
+
+   This produces a row for each manager and rows for each of their contracts.
+
+5. **Q:** Can I nest a table‑row data band inside a table‑column data band?  
+   **A:** No. Nesting a table‑row data band into a table‑column data band is not supported and will cause an error. Only common data bands or other table‑column bands may be nested inside a table‑row band.

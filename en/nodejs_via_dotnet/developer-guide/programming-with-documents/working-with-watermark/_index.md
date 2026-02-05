@@ -53,7 +53,6 @@ You can download the template file of this example from [here](https://github.c
 
 {{% /alert %}}
 
-
 ## Remove Watermark from a Document
 
 The [Watermark](https://reference.aspose.com/words/nodejs-net/aspose.words/watermark/) class provides the remove method to remove the watermark from a document.
@@ -77,3 +76,22 @@ Sometimes you need to insert a watermark/image into a table's cell and display i
 The following code example shows how to use this property:
 
 {{< gist "aspose-words-gists" "3a90c8783e87c53371d103d9350f1d31" "layout-in-cell.js" >}}
+
+------  
+
+## FAQ
+
+1. **Q:** How do I add a text watermark to a document using Node.js?  
+   **A:** Create a `Watermark` object, configure a `TextWatermarkOptions` instance with the desired text, font, color, etc., and call `watermark.setText(options)`. Finally, save the document.
+
+2. **Q:** Can I insert an image as a watermark, and what formats are supported?  
+   **A:** Yes. Use `ImageWatermarkOptions` to specify the image source (file path, stream, or base‑64 string). All image formats supported by Aspose.Words (PNG, JPEG, BMP, GIF, TIFF) can be used.
+
+3. **Q:** How can I remove a watermark that was added with the `Watermark` class?  
+   **A:** Call `watermark.remove()` on the document’s `Watermark` instance. This removes any watermark added via the `Watermark` API.
+
+4. **Q:** My watermark was added using a `Shape`; how do I delete it?  
+   **A:** When inserting the shape, assign a unique name (e.g., `watermarkShape.setName("MyWatermark")`). Later retrieve the shape by name with `document.getChild(NodeType.SHAPE, true).where(s => s.getName() === "MyWatermark")` and call `shape.remove()`.
+
+5. **Q:** Is it possible to place a watermark inside a table cell but have it appear outside the cell boundaries?  
+   **A:** Set the shape’s `isLayoutInCell` property to `false` and ensure the document compatibility is set to Word 2010 or later using `document.getSettings().getCompatibilityOptions().optimizeFor(CompatibilityOptions.OPTIMIZE_FOR_WORD_2010)`. This makes the watermark render outside the cell while being anchored to it.

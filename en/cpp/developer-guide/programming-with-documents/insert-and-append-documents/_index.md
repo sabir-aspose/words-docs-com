@@ -124,3 +124,45 @@ Note that the **Section** and **PageSetup** properties do not control how two do
 The following code example shows how to append one document to another while keeping the content from splitting across two pages:
 
 {{< gist "aspose-words-gists" "34934bfeabca5cf3dd3ca3c277e85771" "different-page-setup.h" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I apply a license for Aspose.Words in a C++ project?  
+   **A:** Create an `Aspose::Words::License` object, load the license file (e.g., `Aspose.Words.lic`) using `SetLicense`, and keep the object alive for the lifetime of the application. Example:  
+
+   ```cpp
+   System::SharedPtr<Aspose::Words::License> license = System::MakeObject<Aspose::Words::License>();
+   license->SetLicense(u"../Licenses/Aspose.Words.lic");
+   ```
+
+2. **Q:** What is the difference between `InsertDocument` and `AppendDocument`?  
+   **A:** `InsertDocument` inserts the source document at the current cursor position of a `DocumentBuilder`, preserving the surrounding content. `AppendDocument` adds the source document to the end of the target document without needing a builder. Use `InsertDocument` when you need to place content in the middle; use `AppendDocument` for simple concatenation.
+
+3. **Q:** How can I keep the original formatting of the source document when inserting or appending?  
+   **A:** Pass `ImportFormatMode::KeepSourceFormatting` (or `KeepDifferentStyles`) to the method. For example:  
+
+   ```cpp
+   builder->InsertDocument(sourceDoc, Aspose::Words::ImportFormatMode::KeepSourceFormatting);
+   targetDoc->AppendDocument(sourceDoc, Aspose::Words::ImportFormatMode::KeepSourceFormatting);
+   ```
+
+4. **Q:** How do I insert a document at a specific bookmark?  
+   **A:** Move the `DocumentBuilder` to the bookmark with `MoveToBookmark("MyBookmark")` and then call `InsertDocument`. Example:  
+
+   ```cpp
+   System::SharedPtr<Aspose::Words::DocumentBuilder> builder = System::MakeObject<Aspose::Words::DocumentBuilder>(targetDoc);
+   builder->MoveToBookmark(u"MyBookmark");
+   builder->InsertDocument(sourceDoc, Aspose::Words::ImportFormatMode::UseDestinationStyles);
+   ```
+
+5. **Q:** How can I import only a single node (e.g., a paragraph) from one document to another?  
+   **A:** Use `NodeImporter::ImportNode` to clone the node, then insert it with `InsertAfter` or `AppendChild`. Example:  
+
+   ```cpp
+   System::SharedPtr<Aspose::Words::Node> para = sourceDoc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(0);
+   System::SharedPtr<Aspose::Words::NodeImporter> importer = System::MakeObject<Aspose::Words::NodeImporter>(para, targetDoc, Aspose::Words::ImportFormatMode::UseDestinationStyles);
+   System::SharedPtr<Aspose::Words::Node> importedPara = importer->ImportNode(para, true);
+   targetDoc->get_FirstSection()->get_Body()->AppendChild(importedPara);
+   ```

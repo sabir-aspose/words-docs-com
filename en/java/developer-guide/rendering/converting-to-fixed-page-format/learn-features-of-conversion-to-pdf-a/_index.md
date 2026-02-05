@@ -52,5 +52,31 @@ To learn more about the different PDF standards, check the following ISOs:
 * [How to change text language in Adobe Acrobat](https://helpx.adobe.com/acrobat/using/editing-document-structure-content-tags.html#add_alternate_text_and_supplementary_information_to_tags)
 * [How to add alternative text to a shape, picture, chart, SmartArt graphic, or other object in Microsoft Word](https://support.microsoft.com/en-us/office/add-alternative-text-to-a-shape-picture-chart-smartart-graphic-or-other-object-44989b2a-903c-4d9a-b742-6a75b451c669)
 * [How to add alternate text and supplementary information to tags](https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html) (or read the same information in the [Adobe Acrobat User Guide](https://helpx.adobe.com/acrobat/using/editing-document-structure-content-tags.html#add_alternate_text_and_supplementary_information_to_tags))
-* [How to set up ActualText entry for text](https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html), the “Add Actual Text for an Abbreviated Term, Formula, or Non-Unicode Symbol” section
+* [How to set up ActualText entry for text](https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html), the “Add Actual Text for an Abbreviated Term, Formula, or Non‑Unicode Symbol” section
 * [Unicode mapping for common Windows symbolic fonts](http://www.alanwood.net/demos/webdings.html)
+
+------ 
+
+## FAQ
+
+1. **Q:** How do I specify the PDF/A compliance level when saving a document?  
+   **A:** Use `PdfSaveOptions` and set its `Compliance` property to the desired `PdfCompliance` enum value (e.g., `PdfCompliance.PDF_A_2`). Then pass the options to `Document.save`. Example:  
+
+   ```java
+   Document doc = new Document("input.docx");
+   PdfSaveOptions options = new PdfSaveOptions();
+   options.setCompliance(PdfCompliance.PDF_A_2);
+   doc.save("output.pdf", options);
+   ```
+
+2. **Q:** Does Aspose.Words automatically embed all fonts for PDF/A conversion?  
+   **A:** Yes. When a PDF/A compliance level is selected, the library forces full font embedding. You can also explicitly enable it with `options.setEmbedFullFonts(true)` to be certain.
+
+3. **Q:** Can I encrypt a PDF/A document?  
+   **A:** PDF/A specifications require that the document be unencrypted. If you set encryption on a PDF/A output, Aspose.Words will ignore the encryption settings and produce an unencrypted PDF/A file.
+
+4. **Q:** How can I generate PDF/UA‑1 compliant documents with proper accessibility tags?  
+   **A:** Set the compliance to `PdfCompliance.PDF_UA_1`. The library will automatically tag the document structure, add language information, and embed all fonts. You can further customize tags using `PdfSaveOptions.setCreatePdfFormFields(true)` if form fields are present.
+
+5. **Q:** My source document contains transparent images; can they be kept when converting to PDF/A?  
+   **A:** Transparency is not allowed in PDF/A‑1, but it is supported in PDF/A‑2 and PDF/A‑4. Choose one of those compliance levels (e.g., `PdfCompliance.PDF_A_2`) to retain transparency. If you use PDF/A‑1, the library will flatten the transparency automatically.

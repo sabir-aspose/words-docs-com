@@ -44,3 +44,22 @@ The following code examples shows how to apply custom formatting to the `TIME` f
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldUpdateCulture-FieldUpdateCulture.java" >}}
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldUpdateCultureProvider-FieldUpdateCultureProvider.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I format a date field with a custom pattern?  
+   **A:** Implement `IFieldResultFormatter` and return the formatted string using `SimpleDateFormat`. In the `formatResult` method, detect the field type (e.g., `FieldDate`) and apply the desired pattern such as `"dd.MM.yyyy"`.
+
+2. **Q:** What switch should I use to apply a numeric format to a field result?  
+   **A:** Use the numeric format switch `\# "#.##"` (or any valid .NET/Java numeric format string) inside the field code. The custom formatter can also apply this switch programmatically.
+
+3. **Q:** How do I evaluate an `IF` field after performing a mail merge?  
+   **A:** Call `FieldIf.evaluateCondition()` on the `FieldIf` object. This method returns a boolean indicating the result of the expression without needing to update the whole document.
+
+4. **Q:** How can I change the culture used by the `TIME` field?  
+   **A:** Implement `IFieldUpdateCultureProvider` and return a `CultureInfo` that matches your required time format. Register the provider with `Document.updateFields()` or set it on the specific `FieldTime` instance.
+
+5. **Q:** Is it possible to apply an ordinal number format (e.g., 1st, 2nd) to a field?  
+   **A:** Yes. Use the number format switch `\* Ordinal` in the field code, or return the ordinal string from your `IFieldResultFormatter` implementation for the field’s result.

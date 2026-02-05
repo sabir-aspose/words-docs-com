@@ -20,3 +20,19 @@ That is why, the engine provides a strategy minimizing the reflection usage. The
 Although this strategy can significantly minimize the reflection usage in a long run, it creates a performance overhead of the runtime type generation. So, if you deal with small data collections all the time while building your reports, consider the disabling of the strategy.
 
 You can control the enabling of the strategy through the `ReportingEngine.setUseReflectionOptimization` static property. By default, the strategy is enabled.
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I disable reflection optimization in the LINQ Reporting Engine?  
+   **A:** Call `ReportingEngine.setUseReflectionOptimization(false);` before generating any reports. This turns off the proxy‑generation mechanism, so the engine will use direct reflection for each member access.
+
+2. **Q:** When is it advisable to turn off reflection optimization?  
+   **A:** If your reports are built from very small data collections (e.g., a few dozen records), the cost of generating proxy types may outweigh the benefit of avoiding reflection. In such cases, disabling the optimization can reduce overall processing time.
+
+3. **Q:** How do I know whether reflection optimization is currently enabled?  
+   **A:** The API does not provide a getter for the flag. The typical approach is to set the desired state explicitly at application start or to benchmark the report generation with and without the optimization to infer its effect.
+
+4. **Q:** Does disabling reflection optimization affect thread safety?  
+   **A:** No. The optimization itself is thread‑safe; disabling it simply removes the proxy‑generation step. Your existing multithreaded usage of the reporting engine remains safe.

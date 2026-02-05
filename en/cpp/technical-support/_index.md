@@ -36,3 +36,22 @@ When posting your issue, question, or feature request with Aspose.Words, follow 
 
 * Include the original document and possibly the code snippet that is causing the problem. If you need to attach multiple files, zip them into one. It is safe to attach your documents to `Aspose.Forums` because only you and the Aspose developers will have access to the attached files.
 * Try to report one issue per thread. If you have another issue, question, or feature request, please report it in a separate thread.
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I obtain a license for Aspose.Words for C++?  
+   **A:** Licenses are purchased through the Aspose website. After purchase you receive a license file (`.lic`) that you load in your application using `License license = new License(); license.SetLicense("Aspose.Words.Cpp.lic");`. A free 30‑day trial is also available via the Aspose download page.
+
+2. **Q:** Where should I post my technical question or issue?  
+   **A:** All technical questions should be posted on the **Aspose.Words Free Support Forum**: https://forum.aspose.com/c/words/8. The development team monitors this forum and replies directly.
+
+3. **Q:** What information should I include when reporting an issue?  
+   **A:** Provide the Aspose.Words for C++ version, a minimal reproducible code snippet, the input document (or a zipped package if multiple files are needed), and a clear description of the expected vs. actual behavior. This helps the team diagnose the problem quickly.
+
+4. **Q:** How long does it usually take to receive a response on the forum?  
+   **A:** Most questions are answered within a few hours. Response time can vary depending on the time zone of the support engineers and the complexity of the issue.
+
+5. **Q:** Can I get phone support for technical problems with Aspose.Words?  
+   **A:** No. Phone support is limited to sales and purchase inquiries. All technical support is provided through the free support forum and the documentation.

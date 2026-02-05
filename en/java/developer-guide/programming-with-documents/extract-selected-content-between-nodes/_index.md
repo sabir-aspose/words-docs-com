@@ -306,3 +306,22 @@ You may need to extract document images to perform some tasks. Aspose.Words allo
 The following code example shows how to extract images from a document:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-images.java" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I extract content between two specific nodes in a Word document using Aspose.Words for Java?  
+   **A:** Locate the start and end nodes (e.g., Paragraph, Run, FieldStart, BookmarkStart) using the document object model, then call the provided `ExtractContent(Node startNode, Node endNode, boolean isInclusive)` helper. The method returns a list of cloned nodes that you can insert into a new `Document` with `Document.appendDocument` or by importing each node individually.
+
+2. **Q:** What does the **IsInclusive** parameter control in the `ExtractContent` method?  
+   **A:** When **IsInclusive** is `true`, the start and end marker nodes themselves are included in the extracted range. When `false`, only the content *between* the markers is returned. This is useful for excluding merge fields, bookmarks, or comment markers from the result.
+
+3. **Q:** Can I use a bookmark or a comment as markers for extraction?  
+   **A:** Yes. Pass the `BookmarkStart`/`BookmarkEnd` nodes or the `CommentRangeStart`/`CommentRangeEnd` nodes as the start and end parameters. The helper will correctly handle inline markers and will retain or discard the bookmark/comment based on the **IsInclusive** flag.
+
+4. **Q:** How do I extract only the plain text of a document without formatting or control characters?  
+   **A:** Use `Node.getText()` for raw text with control characters, or `Node.toString(new SaveOptions(SaveFormat.Text))` to obtain clean plain text. Alternatively, save the whole document with `Document.save(outputStream, SaveFormat.Text)` for a UTF‑8 encoded text file.
+
+5. **Q:** Is it possible to extract images from a document while extracting other content?  
+   **A:** Yes. Iterate through the document’s `NodeType.SHAPE` nodes, check `Shape.getShapeType() == ShapeType.IMAGE`, and call `Shape.getImageData().toByteArray()` to obtain the image bytes. You can store the images separately and still use the `ExtractContent` method for the surrounding text, tables, or paragraphs.

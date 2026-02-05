@@ -38,3 +38,18 @@ Using the [textBox](https://reference.aspose.com/words/nodejs-net/aspose.words.d
 The following code example shows how to break a link for a **TextBox**:
 
 {{< gist "aspose-words-gists" "e78f2e5545401312af45ab0be0f09bb2" "break-link.js" >}}
+
+------ 
+
+## FAQ
+
+1. **Q:** How can I obtain the parent `Shape` of a `TextBox`?  
+   **A:** Use the `parent` property of the `TextBox` object. It returns the `Shape` that contains the textbox, allowing you to access shape‑level properties or other linked shapes.  
+
+2. **Q:** How do I determine whether a `TextBox` is the head, middle, or tail of a linked sequence?  
+   **A:** The `Shape.textBox` object exposes the boolean properties `isHead`, `isMiddle`, and `isTail`. Check these properties to know the position of the textbox within the linked chain.  
+
+3. **Q:** What method should I call to break an existing link between two `TextBox` objects?  
+   **A:** Call the `breakLink()` method on the `Shape.textBox` instance. This removes the link to the next textbox in the sequence, leaving the current textbox isolated.  
+
+---
