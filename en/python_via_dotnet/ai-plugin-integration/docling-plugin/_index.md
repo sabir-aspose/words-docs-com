@@ -91,14 +91,12 @@ LicenseManager().apply_license("/path/to/license/aspose.words.lic")
 
 To run unit tests for **Aspose.Words for Docling**, follow these steps:
 
-1. Navigate to the package directory:
-  From the root of the repository, change into the package directory:
+1. Navigate to the package directory. From the root of the repository, change into the package directory:
   ```bash
   cd /packages/aspose-words-docling/tests
   ```
 
-2. Install test dependencies:
-  Make sure `pytest` is installed:
+2. Install test dependencies. Make sure `pytest` is installed:
   ```bash
   pip install pytest
   ```
