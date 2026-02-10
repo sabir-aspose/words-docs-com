@@ -10,7 +10,7 @@ ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /net/what-s-new-in-aspose-words-for-net/
-timestamp: 2026-01-20-11-12-25
+timestamp: 2026-02-10-11-12-25
 ---
 
 {{% alert color="grey" %}}
@@ -23,9 +23,11 @@ This page explains what’s new in recent Aspose.Words for .NET releases.
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for .NET 26.1
+## Aspose.Words for .NET 26.1, 26.2
 
 Aspose.Words 26.1 expands platform support with .NET 10.0, introduces Docling JSON export, enhances AI and document merging capabilities, and significantly improves PDF compliance, accessibility, and rendering accuracy for fields and mathematical equations.
+
+Aspose.Words 26.2 improves chart customization, enhances the visual quality of mathematical equations, and aligns table layout behavior more closely with modern Microsoft Word rendering logic.
 
 ### AI-powered Features
 
@@ -61,9 +63,23 @@ The **PdfSaveOptions** functionality has been extended by the [PreserveFormField
 
 The ability to correctly render **MathML** content with **East Asian characters** has been introduced, while preserving Latin and Hebrew text when an East Asian font is specified.
 
+#### EQ-matrix MathML Elements Rendering <sup>26.2</sup>
+
+The rendering of EQ-matrix MathML elements has been improved to achieve higher visual fidelity in mathematical content.
+
+#### Orientation And Rotation of Chart Titles and Axis Titles <sup>26.2</sup>
+
+The ability to control the [orientation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/charttitle/orientation/) and [rotation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/charttitle/rotation/) of chart titles and axis titles has been introduced, allowing more flexible and precise chart layout customization.
+
+### Other
+
+The handling of adjacent tables has been updated by implementing the latest Microsoft Word logic for merging or separating tables during layout processing. <sup>26.2</sup>
+
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for .NET 26.1 Release Notes](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-26-1-release-notes/).
+
+Learn more about [Aspose.Words for .NET 26.2 Release Notes](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-26-2-release-notes/).
 
 {{% /alert %}}
 
