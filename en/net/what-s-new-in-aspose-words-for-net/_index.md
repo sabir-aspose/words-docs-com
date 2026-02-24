@@ -10,7 +10,7 @@ ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /net/what-s-new-in-aspose-words-for-net/
-timestamp: 2026-02-12-11-12-25
+timestamp: 2026-02-24-11-12-25
 ---
 
 {{% alert color="grey" %}}
@@ -73,7 +73,7 @@ The ability to control the [orientation](https://reference.aspose.com/words/net/
 
 ### Other
 
-The handling of adjacent tables has been updated by implementing the latest Microsoft Word logic for merging or separating tables during layout processing. <sup>26.2</sup>
+* The handling of adjacent tables has been updated by implementing the latest Microsoft Word logic for merging or separating tables during layout processing. <sup>26.2</sup>
 
 {{% alert color="primary" %}}
 
