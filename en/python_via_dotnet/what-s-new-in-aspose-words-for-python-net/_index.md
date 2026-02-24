@@ -10,7 +10,7 @@ ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2026-02-03-11-08-55
+timestamp: 2026-02-24-11-12-25
 ---
 
 {{% alert color="grey" %}}
@@ -23,9 +23,11 @@ This page lists the most notable new features and enhancements introduced in rec
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Python via .NET 26.1
+## Aspose.Words for Python via .NET 26.1, 26.2
 
 Aspose.Words 26.1 introduces Docling JSON export, enhances AI and document merging capabilities, and significantly improves PDF compliance for fields.
+
+Aspose.Words 26.2 improves chart customization, enhances the visual quality of mathematical equations, and aligns table layout behavior more closely with modern Microsoft Word rendering logic.
 
 ### AI-powered Features
 
@@ -45,9 +47,23 @@ The ability to export documents to the **Docling JSON format** has been introduc
 
 The **PdfSaveOptions** functionality has been extended by the [preserve_form_fields](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/preserve_form_fields/) property to be compatible with all PDF compliance standards (including PDF/A and PDF/UA).
 
+#### EQ-matrix MathML Elements Rendering <sup>26.2</sup>
+
+The rendering of EQ-matrix MathML elements has been improved to achieve higher visual fidelity in mathematical content.
+
+#### Orientation And Rotation of Chart Titles and Axis Titles <sup>26.2</sup>
+
+The ability to control the [orientation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/charttitle/orientation/) and [rotation](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/charttitle/rotation/) of chart titles and axis titles has been introduced, allowing more flexible and precise chart layout customization.
+
+### Other
+
+* The handling of adjacent tables has been updated by implementing the latest Microsoft Word logic for merging or separating tables during layout processing. <sup>26.2</sup>
+
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for Python via .NET 26.1 Release Notes](https://releases.aspose.com/words/python/release-notes/2026/aspose-words-for-python-via-dotnet-26-1-release-notes/).
+
+Learn more about [Aspose.Words for Python via .NET 26.2 Release Notes](https://releases.aspose.com/words/python/release-notes/2026/aspose-words-for-python-via-dotnet-26-2-release-notes/).
 
 {{% /alert %}}
 

@@ -10,14 +10,24 @@ ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /java/what-s-new-in-aspose-words-for-java/
-timestamp: 2026-01-23-11-12-25
+timestamp: 2026-02-24-11-12-25
 ---
+
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page lists the most notable new features and enhancements introduced in recent Aspose.Words for Java releases, organized by version and feature category.
+
+{{% /alert %}}
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Java 26.1
+## Aspose.Words for Java 26.1, 26.2
 
 Aspose.Words 26.1 introduces Docling JSON export, enhances AI and document merging capabilities, and significantly improves PDF compliance, accessibility, and rendering accuracy for fields and mathematical equations.
+
+Aspose.Words 26.2 improves chart customization, enhances the visual quality of mathematical equations, and aligns table layout behavior more closely with modern Microsoft Word rendering logic.
 
 ### AI-powered Features
 
@@ -47,9 +57,23 @@ The **PdfSaveOptions** functionality has been extended by the [PreserveFormField
 
 The ability to correctly render **MathML** content with **East Asian characters** has been introduced, while preserving Latin and Hebrew text when an East Asian font is specified.
 
+#### EQ-matrix MathML Elements Rendering <sup>26.2</sup>
+
+The rendering of EQ-matrix MathML elements has been improved to achieve higher visual fidelity in mathematical content.
+
+#### Orientation And Rotation of Chart Titles and Axis Titles <sup>26.2</sup>
+
+The ability to control the **orientation** and **rotation** of chart titles and axis titles has been introduced, allowing more flexible and precise chart layout customization.
+
+### Other
+
+* The handling of adjacent tables has been updated by implementing the latest Microsoft Word logic for merging or separating tables during layout processing. <sup>26.2</sup>
+
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for Java 26.1 Release Notes](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-26-1-release-notes/).
+
+Learn more about [Aspose.Words for Java 26.2 Release Notes](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-26-2-release-notes/).
 
 {{% /alert %}}
 
