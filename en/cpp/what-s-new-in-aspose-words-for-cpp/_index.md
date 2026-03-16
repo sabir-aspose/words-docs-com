@@ -10,14 +10,16 @@ ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2026-01-28-11-12-25
+timestamp: 2026-03-16-11-12-25
 ---
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for С++ 26.1
+## Aspose.Words for С++ 26.1, 26.2
 
 Aspose.Words 26.1 significantly improves PDF compliance, accessibility, and rendering accuracy for fields and mathematical equations.
+
+Aspose.Words 26.2 improves chart customization, enhances the visual quality of mathematical equations, and aligns table layout behavior more closely with modern Microsoft Word rendering logic.
 
 ### Converting, Loading, and Saving Documents
 
@@ -35,9 +37,23 @@ The **PdfSaveOptions** functionality has been extended by the [PreserveFormField
 
 The ability to correctly render **MathML** content with **East Asian characters** has been introduced, while preserving Latin and Hebrew text when an East Asian font is specified.
 
+#### EQ-matrix MathML Elements Rendering <sup>26.2</sup>
+
+The rendering of EQ-matrix MathML elements has been improved to achieve higher visual fidelity in mathematical content.
+
+#### Orientation And Rotation of Chart Titles and Axis Titles <sup>26.2</sup>
+
+The ability to control the [orientation](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/charttitle/get_orientation/) and [rotation](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/charttitle/get_rotation/) of chart titles and axis titles has been introduced, allowing more flexible and precise chart layout customization.
+
+### Other
+
+* The handling of adjacent tables has been updated by implementing the latest Microsoft Word logic for merging or separating tables during layout processing. <sup>26.2</sup>
+
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for C++ 26.1 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-26-1-release-notes/).
+
+Learn more about [Aspose.Words for C++ 26.2 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-26-2-release-notes/).
 
 {{% /alert %}}
 
@@ -279,185 +295,6 @@ Learn more about [Aspose.Words for C++ 25.2 Release Notes](https://releases.aspo
 Learn more about [Aspose.Words for C++ 25.3 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-3-release-notes/).
 
 Learn more about [Aspose.Words for C++ 25.4 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2025/aspose-words-for-cpp-25-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words for C++ 24.9, 24.10, 24.11, 24.12
-
-Aspose.Words 24.9 introduces group shape insertion and StructuredDocumentTag insertion via DocumentBuilder, enhances radial chart rendering with graduations, improves digital signatures with XAdES-EPES support, adds Markdown underline recognition, and provides access to footnote/endnote separators.
-
-Aspose.Words 24.10 introduces enhanced ActiveX control support with CommandButton creation, new shape visibility control, the ability to group shapes, improved Markdown export for tables, chart formatting for Pie and Doughnut charts, better Big5 encoding handling, and support for outdated Taiwanese fonts.
-
-Aspose.Words 24.11 introduces AI-powered document summarization, enhanced rendering options, improved access to document properties and ActiveX control captioning.
-
-Aspose.Words 24.12 introduces customizable data label placement, Google AI-powered text translation, enhanced Mail Merge cleanup options, and new LowCode processing classes.
-
-### AI-powered Features
-
-#### Document Summarization Using OpenAI and Google <sup>24.11</sup>
-
-Support for document summarization using **OpenAI** and **Google** generative language models has been integrated.
-
-#### Text translation using Google's generative language models <sup>24.12</sup>
-
-The ability to translate text using Google's generative language models has been implemented in Aspose.Words by adding the [Translate](https://reference.aspose.com/words/cpp/aspose.words.ai/iaimodeltext/translate/) method and the [Language](https://reference.aspose.com/words/cpp/aspose.words.ai/language/) enumeration to the [Aspose.Words.AI](https://reference.aspose.com/words/cpp/aspose.words.ai/) namespace.
-
-### Low Code <sup>24.12</sup>
-
-New LowCode classes like [Comparer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/cpp/aspose.words.lowcode/merger/), [Replacer](https://reference.aspose.com/words/cpp/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/cpp/aspose.words.lowcode/splitter/) etc. has been introduced, offering a set of methods that strike the perfect balance between simplicity and flexibility for document processing.
-
-### Rendering and Printing
-
-#### Graduations on Radial Charts <sup>24.9</sup>
-
-Rendering of graduations on radial charts has been implemented.
-
-#### CommandButton ActiveX Controls <sup>24.10</sup>
-
-The ability to create CommandButton ActiveX controls has been introduced by adding a new public method [InsertForms2OleControl](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertforms2olecontrol/) and a new public class **Forms2OleControl**.
-
-#### Control Shape Visibility <sup>24.10</sup>
-
-A new public property [Hidden](https://reference.aspose.com/words/cpp/aspose.words.drawing/shapebase/get_hidden/) has been added to control the visibility of shapes.
-
-#### Changes in Pie and Doughnut Charts <sup>24.10</sup>
-
-Several new public properties have been added to format Pie and Doughnut charts.
-
-#### Control the Rendering of PDF Choice Form Field Borders <sup>24.11</sup>
-
-A new option to control the rendering of PDF choice form field borders has been implemented by adding a new public option **RenderChoiceFormFieldBorder**.
-
-#### Get and Set Format Codes for Chart Data <sup>24.11</sup>
-
-The ability to get and set format codes for chart data has been added by implementing the **FormatCode** property in the [ChartXValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartyvaluecollection/) and [BubbleSizeCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/bubblesizecollection/) classes.
-
-#### Render Histogram Charts with Bins and Labels <sup>24.11</sup>
-
-Histogram chart rendering has been improved by allowing for a specified number of bins and labels.
-
-#### Customize the Placement of Data Labels <sup>24.12</sup>
-
-The ability to customize the placement of data labels has been added by introducing new properties to the [ChartDataLabel](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabel/) and [ChartDataLabelCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatalabelcollection/) classes.
-
-### Converting, Loading and Saving Documents
-
-#### Underline Formatting when Loading Markdown Files <sup>24.9</sup>
-
-The option to recognize underline formatting when loading Markdown documents has been incorporated by adding a new public property **ImportUnderlineFormatting**.
-
-#### Exporting tables as HTML when saving to Markdown <sup>24.10</sup>
-
-An option to export tables as HTML when saving documents to Markdown format has been implemented by adding a new public property [ExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_exportashtml/) and an enumeration [MarkdownExportAsHtml](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownexportashtml/).
-
-#### Export PDF with Updated Logical Structure <sup>24.11</sup>
-
-PDF export has been enhanced by including table title properties as PDF logical structure element titles.
-
-### Mail Merge and Reporting
-
-#### Remove Empty Tables during Mail Merge <sup>24.12</sup>
-
-A new **RemoveEmptyTables** option has been added to the [MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/) enumeration to refine Mail Merge output.
-
-### Digital Signatures
-
-#### Sign Documents with XAdES-EPES <sup>24.9</sup>
-
-The ability to sign documents with XAdES-EPES level XML-DSig signatures has been introdused by adding a new public property **XmlDsigLevel** and a new public enumeration **XmlDsigLevel**.
-
-### Other
-
-* A new public method [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/) has been added to group shapes. <sup>24.9</sup>
-* A new public method [InsertStructuredDocumentTag](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertstructureddocumenttag/) has been added to insert **StructuredDocumentTags** into a document. <sup>24.9</sup>
-* Public access to footnote/endnote separators has been provided by adding a few public classes and properties. <sup>24.9</sup>
-* The ability to group individual shapes, group shapes together, and directly group both shapes and group shapes has been introduced by adding the [InsertGroupShape](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertgroupshape/) method. <sup>24.10</sup>
-* Big5 encoding handling for TrueType cmap tables has been improved. <sup>24.10</sup>
-* Support for outdated Taiwanese fonts has been enhanced. <sup>24.10</sup>
-* To access extended document properties, read-only properties have been added to the **BuiltInDocumentProperties** class. <sup>24.11</sup>
-* Setting captions for ActiveX controls has been enabled by adding a new public setter to the **Forms2OleControl.Caption** property. <sup>24.11</sup>
-
-{{% alert color="primary" %}}
-
-Learn more about [Aspose.Words for C++ 24.9 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-9-release-notes/).
-
-Learn more about [Aspose.Words for C++ 24.10 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-10-release-notes/).
-
-Learn more about [Aspose.Words for C++ 24.11 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-11-release-notes/).
-
-Learn more about [Aspose.Words for C++ 24.12 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words for C++ 24.5, 24.6, 24.7
-
-Aspose.Words 24.5 expands options for assemblies, improves rendering capabilities, and expands some other options.
-
-Aspose.Words 24.6 improves rendering options, enhances search and compare functionality, and expands several other features.
-
-Aspose.Words 24.7 changes how you work with ActiveX, expands rendering capabilities, as well as exporting to Markdown and XLSX formats.
-
-### Supported Formats
-
-Starting from version 24.7, export to PDF/UA-2 is supported to ensure accessibility for users with disabilities.
-
-### Rendering and Printing
-
-#### Changes in Charts, Shapes and DrawingML <sup>24.5</sup>
-
-- DrawingML effects rendering for SVG graphics, extending previous functionality limited to images, has been implemented.
-- Support for creating combo charts and adjusting properties such as gap width, overlap, and bubble scale within series groups has been introduced by adding the **ChartSeriesGroup** and **ChartSeriesGroupCollection** classes and the **SeriesGroups** property.
-- Functionality to manipulate the SoftEdge effect of shapes has been implemented by adding the **SoftEdgeFormat** class.
-- The ability to modify adjust values of shapes has been implemented by adding the **AdjustmentCollection** and **Adjustment** public classes and **Adjustments** property.
-
-#### Changes in Charts, Shapes and Drawing <sup>24.6</sup>
-
-- Charting capabilities have been enhanced. You can now create a wider variety of charts, including *Treemaps*, *Sunbursts*, *Histograms*, *Pareto* charts, *Box & Whisker* charts, *Waterfalls*, and *Funnels*. This allows you to visualize your data in a more diverse and informative way.
-- Color control for shadow formatting has been improved. You can gain more precise control over the appearance of your documents by accessing shadow colors.
-- Performance boost for background rendering has been improved. You can significantly speed up the rendering of backgrounds containing small elements thanks to native tiling technology.
-- Realistic gradients for shapes have been added. You can now create DML shapes with non-linear gradients, mimicking the visual style of Microsoft Word for a more polished look.
-
-#### Chart Data Label Customization <sup>24.7</sup>
-
-The ability to customize chart data labels such as **Orientation** and **Rotation** has been added.
-
-#### Custom Number Styling for List Levels <sup>24.7</sup>
-
-A setter for the public property [CustomNumberStyleFormat](https://reference.aspose.com/words/cpp/aspose.words.lists/listlevel/get_customnumberstyleformat/) has been added. You can now define a custom number styling for list levels.
-
-#### Changes in working with ActiveX <sup>24.7</sup>
-
-- The properties of ActiveX objects can now be modified, giving you more control over their behavior.
-- The ability to modify the value of the radio button ActiveX control to enable dynamic interaction has been added.
-- The ability to toggle an ActiveX checkbox to "checked" or "unchecked" has been added.
-
-### Loading and Saving Documents
-
-#### Exporting Links to Markdown Format <sup>24.7</sup>
-
-The ability to control the export of links in Markdown format has been added through the implementation of the [LinkExportMode](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_linkexportmode/) property.
-
-### Search and Compare
-
-#### Advanced Comparison Options <sup>24.6</sup>
-
-The ability to streamline data analysis workflows with improved comparison functionality has been added. This includes a new **IgnoreStoreItemId** option and a redesigned interface for advanced comparisons.
-
-### Other
-
-- The function to eliminate empty pages from a document has been implemented by adding the [RemoveBlankPages](https://reference.aspose.com/words/cpp/aspose.words/document/removeblankpages/) method. <sup>24.5</sup>
-- The ability  to check for the presence of VBA macros without loading a document has been provided by adding the **HasMacros** property. <sup>24.5</sup>
-- A new **DateTimeUtc** property has been added – this provides a more precise timestamp for comments, improving organization and traceability. <sup>24.6</sup>
-- The datetime format is now automatically detected for seamless export to XLSX format. <sup>24.7</sup>
-- The public property [IsProtected](https://reference.aspose.com/words/cpp/aspose.words.vba/vbaproject/get_isprotected/), which allows you to verify whether a VBA project is protected, has been added. <sup>24.7</sup>
-
-{{% alert color="primary" %}}
-
-Learn more about [Aspose.Words for C++ 24.5 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-5-release-notes/).
-
-Learn more about [Aspose.Words for C++ 24.6 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-6-release-notes/).
-
-Learn more about [Aspose.Words for C++ 24.7 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-7-release-notes/).
 
 {{% /alert %}}
 
