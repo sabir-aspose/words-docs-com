@@ -132,7 +132,7 @@ copy-docs-job:
     - echo "$(date '+%Y-%m-%d %H:%M:%S') Removing previous docs version..."
     - ssh $COPY_USER_NAME@$COPY_SERVER_ADDRESS "[ -d $COPY_FOLDER/$DOCS_BUILD_OUTPUT_FOLDER ] && rm -rf $COPY_FOLDER/$DOCS_BUILD_OUTPUT_FOLDER || echo 'Folder does not exist, skipping.'"
     - echo "$(date '+%Y-%m-%d %H:%M:%S') Start copying generated docs..."
-    - scp $DOCS_BUILD_OUTPUT_ARCHIVE/$DOCS_FULL_ARCHIVE_NAME $COPY_USER_NAME@172.20.204.232:$COPY_FOLDER
+    - scp $DOCS_BUILD_OUTPUT_ARCHIVE/$DOCS_FULL_ARCHIVE_NAME $COPY_USER_NAME@$COPY_SERVER_ADDRESS:$COPY_FOLDER
     - echo "$(date '+%Y-%m-%d %H:%M:%S') Docs has copied to the $COPY_FOLDER"
     - echo "$(date '+%Y-%m-%d %H:%M:%S') Unpack the docs"
     - ssh $COPY_USER_NAME@$COPY_SERVER_ADDRESS "tar -xzf $COPY_FOLDER/$DOCS_FULL_ARCHIVE_NAME -C $COPY_FOLDER && rm -rf $COPY_FOLDER/$DOCS_FULL_ARCHIVE_NAME"
