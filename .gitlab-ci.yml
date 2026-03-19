@@ -23,7 +23,7 @@ variables:
   LC_ALL: C.UTF-8
   COPY_USER_NAME: service_words
   DOCS_TEMPLATE_BRANCH_NAME: main
-  COPY_SERVER_ADDRESS: 172.20.204.232
+  COPY_SERVER_ADDRESS: docs.aspose.com
   DOCS_FULL_ARCHIVE_NAME: words-docs.tar.gz
   DOCS_TAMPLATE_PROJECT_NAME: docs-template
   CI_HOME_FOLDER: /opt/gitlab-words-ci
