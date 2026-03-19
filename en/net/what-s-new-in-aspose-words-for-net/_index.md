@@ -10,7 +10,7 @@ ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /net/what-s-new-in-aspose-words-for-net/
-timestamp: 2026-02-24-11-12-25
+timestamp: 2026-03-19-11-12-25
 ---
 
 {{% alert color="grey" %}}
@@ -23,17 +23,23 @@ This page explains what’s new in recent Aspose.Words for .NET releases.
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for .NET 26.1, 26.2
+## Aspose.Words for .NET 26.1, 26.2, 26.3
 
 Aspose.Words 26.1 expands platform support with .NET 10.0, introduces Docling JSON export, enhances AI and document merging capabilities, and significantly improves PDF compliance, accessibility, and rendering accuracy for fields and mathematical equations.
 
 Aspose.Words 26.2 improves chart customization, enhances the visual quality of mathematical equations, and aligns table layout behavior more closely with modern Microsoft Word rendering logic.
+
+Aspose.Words for .NET 26.3 introduces improvements to AI integration, enhances document optimization capabilities, and updates font fallback handling for improved rendering of CJK Unified Ideographs Extension G range.
 
 ### AI-powered Features
 
 #### Direct Instantiation of Google AI Models <sup>26.1</sup>
 
 The ability to work directly with Google AI models has been introduced by enabling [direct instantiation of the GoogleAiModel class](https://reference.aspose.com/words/net/aspose.words.ai/googleaimodel/googleaimodel/) in the **Aspose.Words.AI** namespace.
+
+#### Improved OpenAiModel Capabilities <sup>26.3</sup>
+
+The ability to create an instance of the [OpenAiModel](https://reference.aspose.com/words/net/aspose.words.ai/openaimodel/) class directly has been introduced, simplifying the integration of OpenAI-based AI features into document processing workflows.
 
 ### Supported Formats
 
@@ -71,15 +77,22 @@ The rendering of EQ-matrix MathML elements has been improved to achieve higher v
 
 The ability to control the [orientation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/charttitle/orientation/) and [rotation](https://reference.aspose.com/words/net/aspose.words.drawing.charts/charttitle/rotation/) of chart titles and axis titles has been introduced, allowing more flexible and precise chart layout customization.
 
+#### Font Fallback Table for CJK Unified Ideographs Extension G range <sup>26.3</sup>
+
+Rendering accuracy has been improved by updating the Microsoft Office font fallback table for the CJK Unified Ideographs Extension G range, ensuring more reliable font substitution when rendering documents containing these characters.
+
 ### Other
 
 * The handling of adjacent tables has been updated by implementing the latest Microsoft Word logic for merging or separating tables during layout processing. <sup>26.2</sup>
+* The document optimization capabilities have been improved by extending the [JoinRunsWithSameFormatting](https://reference.aspose.com/words/net/aspose.words/document/joinrunswithsameformatting/) method, enabling more comprehensive content merging. <sup>26.3</sup>
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for .NET 26.1 Release Notes](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-26-1-release-notes/).
 
 Learn more about [Aspose.Words for .NET 26.2 Release Notes](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-26-2-release-notes/).
+
+Learn more about [Aspose.Words for .NET 26.3 Release Notes](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-26-3-release-notes/).
 
 {{% /alert %}}
 
