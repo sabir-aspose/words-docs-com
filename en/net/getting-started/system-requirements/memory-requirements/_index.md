@@ -77,6 +77,3 @@ If your profiling results indicate a possible memory issue in Aspose.Words, plea
 
 4. **Q:** Which operations cause the highest memory consumption in Aspose.Words?  
    **A:** Rendering to fixed‑page formats (PDF, XPS), updating fields, and splitting large documents are the most memory‑intensive, often requiring up to 20 × the base DOM memory. Simple tasks such as mail‑merge, find/replace, or format conversion usually stay within a lower multiplier range.
-
-5. **Q:** What can I do to reduce memory usage when processing large documents?  
-   **A:** Process documents in smaller chunks (e.g., split before rendering), dispose of `Document` objects promptly, and use 64‑bit processes with ample RAM. Monitoring with Visual Studio’s memory profiler can help identify unexpected allocations, and you can also adjust the .NET garbage collector settings if needed.
