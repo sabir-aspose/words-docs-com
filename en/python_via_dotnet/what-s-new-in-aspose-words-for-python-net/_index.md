@@ -10,7 +10,7 @@ ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2026-03-19-11-12-25
+timestamp: 2026-03-24-11-12-25
 ---
 
 {{% alert color="grey" %}}
@@ -169,7 +169,7 @@ Aspose.Words 25.8 expands capabilities for Markdown import/export, enhances Find
 
 #### Export Empty Paragraphs to Markdown <sup>25.5</sup>
 
-The ability to control how empty paragraphs are exported to Markdown has been introduced by adding the [MarkdownEmptyParagraphExportMode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownemptyparagraphexportmode/) enumeration and the **empty_paragraph_export_mode** property.
+The ability to control how empty paragraphs are exported to Markdown has been introduced by adding the [MarkdownEmptyParagraphExportMode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownemptyparagraphexportmode/) enumeration and the [empty_paragraph_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/empty_paragraph_export_mode/) property.
 
 #### Export Multi-page Documents to Raster Image Formats <sup>25.6</sup>
 
