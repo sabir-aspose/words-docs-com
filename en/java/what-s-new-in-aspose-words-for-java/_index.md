@@ -10,7 +10,7 @@ ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /java/what-s-new-in-aspose-words-for-java/
-timestamp: 2026-02-24-11-12-25
+timestamp: 2026-03-30-11-12-25
 ---
 
 {{% alert color="grey" %}}
@@ -23,17 +23,23 @@ This page lists the most notable new features and enhancements introduced in rec
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Java 26.1, 26.2
+## Aspose.Words for Java 26.1, 26.2, 26.3
 
 Aspose.Words 26.1 introduces Docling JSON export, enhances AI and document merging capabilities, and significantly improves PDF compliance, accessibility, and rendering accuracy for fields and mathematical equations.
 
 Aspose.Words 26.2 improves chart customization, enhances the visual quality of mathematical equations, and aligns table layout behavior more closely with modern Microsoft Word rendering logic.
+
+Aspose.Words for .NET 26.3 introduces improvements to AI integration, enhances document optimization capabilities, and updates font fallback handling for improved rendering of CJK Unified Ideographs Extension G range.
 
 ### AI-powered Features
 
 #### Direct Instantiation of Google AI Models <sup>26.1</sup>
 
 The ability to work directly with Google AI models has been introduced by enabling [direct instantiation of the GoogleAiModel class](https://reference.aspose.com/words/java/com.aspose.words/googleaimodel/#constructors) in the **Aspose.Words.AI** namespace.
+
+#### Improved OpenAiModel Capabilities <sup>26.3</sup>
+
+The ability to create an instance of the [OpenAiModel](https://reference.aspose.com/words/java/com.aspose.words/openaimodel/) class directly has been introduced, simplifying the integration of OpenAI-based AI features into document processing workflows.
 
 ### Supported Formats
 
@@ -65,15 +71,22 @@ The rendering of EQ-matrix MathML elements has been improved to achieve higher v
 
 The ability to control the **orientation** and **rotation** of chart titles and axis titles has been introduced, allowing more flexible and precise chart layout customization.
 
+#### Font Fallback Table for CJK Unified Ideographs Extension G range <sup>26.3</sup>
+
+Rendering accuracy has been improved by updating the Microsoft Office font fallback table for the CJK Unified Ideographs Extension G range, ensuring more reliable font substitution when rendering documents containing these characters.
+
 ### Other
 
 * The handling of adjacent tables has been updated by implementing the latest Microsoft Word logic for merging or separating tables during layout processing. <sup>26.2</sup>
+* The document optimization capabilities have been improved by extending the [JoinRunsWithSameFormatting](https://reference.aspose.com/words/java/com.aspose.words/document/#joinRunsWithSameFormatting) method, enabling more comprehensive content merging. <sup>26.3</sup>
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for Java 26.1 Release Notes](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-26-1-release-notes/).
 
 Learn more about [Aspose.Words for Java 26.2 Release Notes](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-26-2-release-notes/).
+
+Learn more about [Aspose.Words for Java 26.3 Release Notes](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-26-3-release-notes/).
 
 {{% /alert %}}
 
@@ -316,206 +329,6 @@ Learn more about [Aspose.Words for Java 25.2 Release Notes](https://releases.asp
 Learn more about [Aspose.Words for Java 25.3 Release Notes](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-3-release-notes/).
 
 Learn more about [Aspose.Words for Java 25.4 Release Notes](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words for Java 24.9, 24.10, 24.11, 24.12
-
-Aspose.Words 24.9 introduces group shape insertion and StructuredDocumentTag insertion via DocumentBuilder, enhances radial chart rendering with graduations, improves digital signatures with XAdES-EPES support, adds Markdown underline recognition, and provides access to footnote/endnote separators.
-
-Aspose.Words 24.10 introduces enhanced ActiveX control support with CommandButton creation, new shape visibility control, the ability to group shapes, improved Markdown export for tables, chart formatting for Pie and Doughnut charts, better Big5 encoding handling, and support for outdated Taiwanese fonts.
-
-Aspose.Words 24.11 introduces AI-powered document summarization, enhanced rendering options, improved access to document properties and ActiveX control captioning.
-
-Aspose.Words 24.12 introduces customizable data label placement, Google AI-powered text translation, enhanced Mail Merge cleanup options, and new LowCode processing classes.
-
-### AI-powered Features
-
-#### Document Summarization Using OpenAI and Google <sup>24.11</sup>
-
-Support for document summarization using **OpenAI** and **Google** generative language models has been integrated.
-
-#### Text translation using Google's generative language models <sup>24.12</sup>
-
-The ability to translate text using Google's generative language models has been implemented in Aspose.Words by adding the [Translate](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#translate-com.aspose.words.Document-int) method and the [Language](https://reference.aspose.com/words/java/com.aspose.words/language/) enumeration.
-
-### Low Code <sup>24.12</sup>
-
-New LowCode classes like [Comparer](https://reference.aspose.com/words/java/com.aspose.words/comparer/), [MailMerger](https://reference.aspose.com/words/java/com.aspose.words/mailmerger/), [Replacer](https://reference.aspose.com/words/java/com.aspose.words/replacer/), [Splitter](https://reference.aspose.com/words/java/com.aspose.words/splitter/) etc. has been introduced, offering a set of methods that strike the perfect balance between simplicity and flexibility for document processing.
-
-### Rendering and Printing
-
-#### Graduations on Radial Charts <sup>24.9</sup>
-
-Rendering of graduations on radial charts has been implemented.
-
-#### CommandButton ActiveX Controls <sup>24.10</sup>
-
-The ability to create CommandButton ActiveX controls has been introduced by adding a new public method [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) and a new public class [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/).
-
-#### Control Shape Visibility <sup>24.10</sup>
-
-A new public property [Hidden](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getHidden) has been added to control the visibility of shapes.
-
-#### Changes in Pie and Doughnut Charts <sup>24.10</sup>
-
-Several new public properties have been added to format Pie and Doughnut charts.
-
-#### Control the Rendering of PDF Choice Form Field Borders <sup>24.11</sup>
-
-A new option to control the rendering of PDF choice form field borders has been implemented by adding a new public option [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getRenderChoiceFormFieldBorder).
-
-#### Get and Set Format Codes for Chart Data <sup>24.11</sup>
-
-The ability to get and set format codes for chart data has been added by implementing the [FormatCode](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/#getFormatCode) property in the [ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/), and [BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/) classes.
-
-#### Render Histogram Charts with Bins and Labels <sup>24.11</sup>
-
-Histogram chart rendering has been improved by allowing for a specified number of bins and labels.
-
-### Converting, Loading and Saving Documents
-
-#### Underline Formatting when Loading Markdown Files <sup>24.9</sup>
-
-The option to recognize underline formatting when loading Markdown documents has been incorporated by adding a new public property [ImportUnderlineFormatting](https://reference.aspose.com/words/java/com.aspose.words/markdownloadoptions/#getImportUnderlineFormatting).
-
-#### Exporting tables as HTML when saving to Markdown <sup>24.10</sup>
-
-An option to export tables as HTML when saving documents to Markdown format has been implemented by adding a new public property [ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml) and an enumeration [MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/).
-
-#### Export PDF with Updated Logical Structure <sup>24.11</sup>
-
-PDF export has been enhanced by including table title properties as PDF logical structure element titles.
-
-### Mail Merge and Reporting
-
-#### Remove Empty Tables during Mail Merge <sup>24.12</sup>
-
-A new **RemoveEmptyTables** option has been added to the [MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/) enumeration to refine Mail Merge output.
-
-### Digital Signatures
-
-#### Sign Documents with XAdES-EPES <sup>24.9</sup>
-
-The ability to sign documents with XAdES-EPES level XML-DSig signatures has been introdused by adding a new public property [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/signoptions/#getXmlDsigLevel) and a new public enumeration [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/xmldsiglevel/)
-
-### Other
-
-* A new public method [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) has been added to group shapes. <sup>24.9</sup>
-* A new public method [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) has been added to insert **StructuredDocumentTags** into a document. <sup>24.9</sup>
-* Public access to footnote/endnote separators has been provided by adding a few public classes and properties. <sup>24.9</sup>
-* The ability to group individual shapes, group shapes together, and directly group both shapes and group shapes has been introduced by adding the [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...) method. <sup>24.10</sup>
-* Big5 encoding handling for TrueType cmap tables has been improved. <sup>24.10</sup>
-* Support for outdated Taiwanese fonts has been enhanced. <sup>24.10</sup>
-* To access extended document properties, read-only properties have been added to the [BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/) class. <sup>24.11</sup>
-* Setting captions for ActiveX controls has been enabled by adding a new public setter to the [Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption) property. <sup>24.11</sup>
-
-{{% alert color="primary" %}}
-
-Learn more about [Aspose.Words for Java 24.9 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
-
-Learn more about [Aspose.Words for Java 24.10 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
-
-Learn more about [Aspose.Words for Java 24.11 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-11-release-notes/).
-
-Learn more about [Aspose.Words for Java 24.12 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words for Java 24.5, 24.6, 24.7, 24.8
-
-Aspose.Words 24.5 expands options for assemblies, improves rendering capabilities, and expands some other options.
-
-Aspose.Words 24.6 improves rendering options, enhances search and compare functionality, and expands several other features.
-
-Aspose.Words 24.7 changes how you work with ActiveX, expands rendering capabilities, as well as exporting to Markdown and XLSX formats.
-
-Aspose.Words 24.8 enhances chart customization with precise control over axis labels, expands font management, improves document structure handling, and adds new capabilities for HTML/XAML export, PDF functionality, document conversion, and digital signatures.
-
-### Supported Formats
-
-Starting from version 24.7, export to PDF/UA-2 is supported to ensure accessibility for users with disabilities.
-
-### Rendering and Printing
-
-#### Changes in Charts, Shapes and DrawingML <sup>24.5</sup>
-
-- DrawingML effects rendering for SVG graphics, extending previous functionality limited to images, has been implemented.
-- Support for creating combo charts and adjusting properties such as gap width, overlap, and bubble scale within series groups has been introduced by adding the [ChartSeriesGroup](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroup/) and [ChartSeriesGroupCollection](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroupcollection/) classes and the [SeriesGroups](https://reference.aspose.com/words/java/com.aspose.words/chart/#getSeriesGroups) property.
-- Functionality to manipulate the SoftEdge effect of shapes has been implemented by adding the [SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/) class.
-- The ability to modify adjust values of shapes has been implemented by adding the [AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/) and [Adjustment](https://reference.aspose.com/words/java/com.aspose.words/adjustment/) public classes and [Adjustments](https://reference.aspose.com/words/java/com.aspose.words/shape/#getAdjustments) property.
-
-#### Changes in Charts, Shapes and Drawing <sup>24.6</sup>
-
-- Charting capabilities have been enhanced. You can now create a wider variety of charts, including *Treemaps*, *Sunbursts*, *Histograms*, *Pareto* charts, *Box & Whisker* charts, *Waterfalls*, and *Funnels*. This allows you to visualize your data in a more diverse and informative way.
-- Color control for shadow formatting has been improved. You can gain more precise control over the appearance of your documents by accessing shadow colors.
-- Performance boost for background rendering has been improved. You can significantly speed up the rendering of backgrounds containing small elements thanks to native tiling technology.
-- Realistic gradients for shapes have been added. You can now create DML shapes with non-linear gradients, mimicking the visual style of Microsoft Word for a more polished look.
-
-#### Chart Data Label Customization <sup>24.7</sup>
-
-The ability to customize chart data labels such as **Orientation** and **Rotation** has been added.
-
-#### Custom Number Styling for List Levels <sup>24.7</sup>
-
-A setter for the public property [CustomNumberStyleFormat](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getCustomNumberStyleFormat) has been added. You can now define a custom number styling for list levels.
-
-#### Changes in working with ActiveX <sup>24.7</sup>
-
-* The properties of ActiveX objects can now be modified, giving you more control over their behavior.
-* The ability to modify the value of the radio button ActiveX control to enable dynamic interaction has been added.
-* The ability to toggle an ActiveX checkbox to "checked" or "unchecked" has been added.
-
-#### Control Over the Chart Axis Tick Labels Orientation and Rotation <sup>24.8</sup>
-
-Precise control over the orientation and rotation of chart axis tick labels has been added for more convenient chart customization – the [AxisTickLabels](https://reference.aspose.com/words/java/com.aspose.words/axisticklabels/) class has been extended with new **Orientation** and **Rotation** properties.
-
-#### Replacing the Backslash with the Yen Sign <sup>24.8</sup>
-
-The backwards compatible HTML and XAML export for replacing the backslash character with the Yen sign has been improved. To achieve this, the **ReplaceBackslashWithYenSign** property has been added to the [HtmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/) and [XamlFlowSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) classes.
-
-#### Using SDT Tags as Form Field Names when Exporting to PDF <sup>24.8</sup>
-
-PDF export with support for using SDT tags as form field names has been enhanced by adding a new **UseSdtTagAsFormFieldName** property to the [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) class.
-
-### Converting, Loading and Saving Documents
-
-#### Exporting Links to Markdown Format <sup>24.7</sup>
-
-The ability to control the export of links in Markdown format has been added through the implementation of the [LinkExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getLinkExportMode) property.
-
-#### LowCode 24.8 <sup>24.8</sup>
-
-A new **LowCode.Converter** class, designed to provide a set of methods for converting various document types with a single line of code, has been introduced.
-
-### Search and Compare
-
-#### Advanced Comparison Options <sup>24.6</sup>
-
-The ability to streamline data analysis workflows with improved comparison functionality has been added. This includes a new [IgnoreStoreItemId](https://reference.aspose.com/words/java/com.aspose.words/advancedcompareoptions/#getIgnoreStoreItemId) option and a redesigned interface for advanced comparisons.
-
-### Other
-
-* The function to eliminate empty pages from a document has been implemented by adding the [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages) method. <sup>24.5</sup>
-* The ability  to check for the presence of VBA macros without loading a document has been provided by adding the [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) property. <sup>24.5</sup>
-* Keeping source numbering while inserting a document using the LINQ Reporting Engine is now supported. <sup>24.5</sup>
-* A new [DateTimeUtc](https://reference.aspose.com/words/java/com.aspose.words/comment/#getDateTimeUtc) property has been added – this provides a more precise timestamp for comments, improving organization and traceability. <sup>24.6</sup>
-* The LINQ Reporting Engine has been improved. Selective removal of empty paragraphs and definition of custom messages for missing object members have been made, leading to cleaner and more informative reports. <sup>24.6</sup>
-* The datetime format is now automatically detected for seamless export to XLSX format. <sup>24.7</sup>
-* The public property [IsProtected](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#isProtected), which allows you to verify whether a VBA project is protected, has been added. <sup>24.7</sup>
-* Font information has been expanded with the **EmbeddingLicensingRights** property added to the [FontInfo](https://reference.aspose.com/words/java/com.aspose.words/fontinfo/) and [PhysicalFontInfo](https://reference.aspose.com/words/java/com.aspose.words/physicalfontinfo/) classes. <sup>24.8</sup>
-* A way to efficiently clear section headers and footers while preserving watermarks has been added to more accurately work with document structure. To clear section headers and footers, use the new public method **ClearHeadersFooters**. <sup>24.8</sup>
-* Digital signing of XPS documents using [XpsSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xpssaveoptions/) has been enabled – a new property **DigitalSignatureDetails** has been added for this purpose. <sup>24.8</sup>
-
-{{% alert color="primary" %}}
-
-Learn more about [Aspose.Words for Java 24.5 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/).
-
-Learn more about [Aspose.Words for Java 24.6 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/).
-
-Learn more about [Aspose.Words for Java 24.7 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-7-release-notes/).
-
-Learn more about [Aspose.Words for Java 24.8 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-8-release-notes/).
 
 {{% /alert %}}
 
