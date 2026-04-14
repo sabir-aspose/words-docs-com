@@ -10,7 +10,7 @@ ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /net/what-s-new-in-aspose-words-for-net/
-timestamp: 2026-03-19-11-12-25
+timestamp: 2026-04-14-11-12-25
 ---
 
 {{% alert color="grey" %}}
@@ -88,11 +88,11 @@ Rendering accuracy has been improved by updating the Microsoft Office font fallb
 
 {{% alert color="primary" %}}
 
-Learn more about [Aspose.Words for .NET 26.1 Release Notes](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-26-1-release-notes/).
+Learn more about [Aspose.Words for .NET 26.1 Release Notes](https://releases.aspose.com/words/net/release-notes/2026/aspose-words-for-net-26-1-release-notes/).
 
-Learn more about [Aspose.Words for .NET 26.2 Release Notes](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-26-2-release-notes/).
+Learn more about [Aspose.Words for .NET 26.2 Release Notes](https://releases.aspose.com/words/net/release-notes/2026/aspose-words-for-net-26-2-release-notes/).
 
-Learn more about [Aspose.Words for .NET 26.3 Release Notes](https://releases.aspose.com/words/net/release-notes/2025/aspose-words-for-net-26-3-release-notes/).
+Learn more about [Aspose.Words for .NET 26.3 Release Notes](https://releases.aspose.com/words/net/release-notes/2026/aspose-words-for-net-26-3-release-notes/).
 
 {{% /alert %}}
 
