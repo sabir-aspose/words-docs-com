@@ -10,7 +10,7 @@ ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /java/what-s-new-in-aspose-words-for-java/
-timestamp: 2026-03-30-11-12-25
+timestamp: 2026-04-14-11-12-25
 ---
 
 {{% alert color="grey" %}}
@@ -82,11 +82,11 @@ Rendering accuracy has been improved by updating the Microsoft Office font fallb
 
 {{% alert color="primary" %}}
 
-Learn more about [Aspose.Words for Java 26.1 Release Notes](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-26-1-release-notes/).
+Learn more about [Aspose.Words for Java 26.1 Release Notes](https://releases.aspose.com/words/java/release-notes/2026/aspose-words-for-java-26-1-release-notes/).
 
-Learn more about [Aspose.Words for Java 26.2 Release Notes](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-26-2-release-notes/).
+Learn more about [Aspose.Words for Java 26.2 Release Notes](https://releases.aspose.com/words/java/release-notes/2026/aspose-words-for-java-26-2-release-notes/).
 
-Learn more about [Aspose.Words for Java 26.3 Release Notes](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-26-3-release-notes/).
+Learn more about [Aspose.Words for Java 26.3 Release Notes](https://releases.aspose.com/words/java/release-notes/2026/aspose-words-for-java-26-3-release-notes/).
 
 {{% /alert %}}
 
