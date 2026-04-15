@@ -10,7 +10,7 @@ ai_search_scope: words_python
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /python-net/what-s-new-in-aspose-words-for-python-net/
-timestamp: 2026-03-24-11-12-25
+timestamp: 2026-04-15-11-12-25
 ---
 
 {{% alert color="grey" %}}
@@ -23,13 +23,15 @@ This page lists the most notable new features and enhancements introduced in rec
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Python via .NET 26.1, 26.2, 26.3
+## Aspose.Words for Python via .NET 26.1, 26.2, 26.3, 26.4
 
 Aspose.Words 26.1 introduces Docling JSON export, enhances AI and document merging capabilities, and significantly improves PDF compliance for fields.
 
 Aspose.Words 26.2 improves chart customization, enhances the visual quality of mathematical equations, and aligns table layout behavior more closely with modern Microsoft Word rendering logic.
 
 Aspose.Words for .NET 26.3 introduces improvements to AI integration, enhances document optimization capabilities, and updates font fallback handling for improved rendering of CJK Unified Ideographs Extension G range.
+
+Aspose.Words 26.4 introduces improvements in PDF export and chart rendering capabilities.
 
 ### AI-powered Features
 
@@ -46,6 +48,12 @@ The ability to create an instance of the [OpenAiModel](https://reference.aspose.
 #### New Docling JSON Export Format <sup>26.1</sup>
 
 The ability to export documents to the **Docling JSON format** has been introduced.
+
+### Converting, Loading, and Saving Documents
+
+#### Improved PDF Logical Structure <sup>26.4</sup>
+
+The ability to improve PDF logical structure by exporting node custom IDs to custom attributes during PDF export has been introduced.
 
 ### Rendering
 
@@ -65,6 +73,10 @@ The ability to control the [orientation](https://reference.aspose.com/words/pyth
 
 Rendering accuracy has been improved by updating the Microsoft Office font fallback table for the CJK Unified Ideographs Extension G range, ensuring more reliable font substitution when rendering documents containing these characters.
 
+#### Enhanced Chart Rendering <sup>26.4</sup>
+
+The ability to enhance chart rendering has been introduced by adding support for funnel chart [data labels](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/), applying chart style settings to leader line rendering, and using locale IDs when rendering default axis titles in DrawingML charts.
+
 ### Other
 
 * The handling of adjacent tables has been updated by implementing the latest Microsoft Word logic for merging or separating tables during layout processing. <sup>26.2</sup>
@@ -77,6 +89,8 @@ Learn more about [Aspose.Words for Python via .NET 26.1 Release Notes](https://r
 Learn more about [Aspose.Words for Python via .NET 26.2 Release Notes](https://releases.aspose.com/words/python/release-notes/2026/aspose-words-for-python-via-dotnet-26-2-release-notes/).
 
 Learn more about [Aspose.Words for Python via .NET 26.3 Release Notes](https://releases.aspose.com/words/python/release-notes/2026/aspose-words-for-python-via-dotnet-26-3-release-notes/).
+
+Learn more about [Aspose.Words for Python via .NET 26.4 Release Notes](https://releases.aspose.com/words/python/release-notes/2026/aspose-words-for-python-via-dotnet-26-4-release-notes/).
 
 {{% /alert %}}
 
