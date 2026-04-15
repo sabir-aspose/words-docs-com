@@ -25,14 +25,7 @@ We will call the [Document](https://reference.aspose.com/words/nodejs-net/aspos
 
 The following code example shows how to create a document using the document builder:
 
-{{< highlight js >}}
-var doc = aw.Document()
-var builder = aw.DocumentBuilder(doc)
-            
-builder.write("Hello world!")
-
-doc.save("out.docx")
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "96e42cb4a611465927f8e7b1b3d546d3" "create-new-document.js" >}}
 
 {{% alert color="primary" %}}
 
