@@ -15,7 +15,7 @@ timestamp: 2024-01-27-14-07-04
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page explains how to supply JSON data to Aspose.Words using JsonDataSource, supporting both simple and complex JSON structures.
 

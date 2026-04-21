@@ -15,7 +15,7 @@ timestamp: 2025-08-07-08-12-25
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page explains which AI models Aspose.Words supports for document tasks.
 

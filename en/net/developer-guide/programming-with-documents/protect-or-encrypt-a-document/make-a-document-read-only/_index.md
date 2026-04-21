@@ -18,7 +18,7 @@ timestamp: 2025-12-30-12-07-05
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page explains how to open a document in read-only mode programmatically.
 

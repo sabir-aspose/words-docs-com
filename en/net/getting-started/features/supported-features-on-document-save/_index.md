@@ -177,7 +177,7 @@ timestamp: 2024-09-25-11-08-55
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page explains which features Aspose.Words supports on document save.
 

@@ -15,7 +15,7 @@ timestamp: 2024-09-25-11-08-55
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page explains memory requirements of Aspose.Words and provides guidance for optimizing memory usage in large or complex documents.
 

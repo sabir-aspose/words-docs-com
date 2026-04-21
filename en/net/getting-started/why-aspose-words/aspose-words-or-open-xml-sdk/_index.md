@@ -16,7 +16,7 @@ timestamp: 2024-01-31-14-23-37
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page explains why Aspose.Words may be preferred over the Open XML SDK for advanced document operations.
 

@@ -40,7 +40,7 @@ timestamp: 2025-03-24-10-00-05
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page explains missing features in OpenXML SDK compared to Aspose.Words and highlights advantages of using Aspose.Words.
 

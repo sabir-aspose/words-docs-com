@@ -18,7 +18,7 @@ timestamp: 2024-07-11-08-07-06
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page explains the different types of mail-merge operations supported by Aspose.Words and when to use each.
 

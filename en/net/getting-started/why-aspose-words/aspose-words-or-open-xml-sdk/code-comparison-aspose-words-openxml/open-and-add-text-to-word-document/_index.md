@@ -15,7 +15,7 @@ timestamp: 2024-01-30-16-22-34
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page explains how to open an existing document and add text programmatically.
 

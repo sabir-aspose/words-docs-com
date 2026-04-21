@@ -16,7 +16,7 @@ timestamp: 2024-01-30-16-22-34
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page explains the differences between Aspose.Words and Microsoft Office Automation (Office interop).
 

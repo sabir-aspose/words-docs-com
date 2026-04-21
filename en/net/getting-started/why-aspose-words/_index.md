@@ -15,7 +15,7 @@ timestamp: 2024-01-27-14-07-04
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page outlines when Aspose.Words is a better choice compared to other document processing solutions.
 

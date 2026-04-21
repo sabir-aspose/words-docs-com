@@ -15,7 +15,7 @@ timestamp: 2024-07-10-14-38-57
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page explains how to render shapes separately from the rest of the document.
 

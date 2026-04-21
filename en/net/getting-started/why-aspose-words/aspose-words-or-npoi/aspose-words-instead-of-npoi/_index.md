@@ -15,7 +15,7 @@ timestamp: 2024-01-31-14-23-37
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page describes why you might choose Aspose.Words over NPOI for rich document processing tasks.
 

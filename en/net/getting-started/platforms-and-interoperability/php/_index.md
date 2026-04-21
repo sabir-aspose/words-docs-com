@@ -15,7 +15,7 @@ timestamp: 2024-10-24-11-44-28
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page outlines how to use Aspose.Words in PHP-based projects through its .NET API.
 

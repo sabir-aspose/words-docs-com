@@ -15,7 +15,7 @@ timestamp: 2024-01-27-14-07-04
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page explains the DNN Content Exporter module and shows how to export various types of content into documents.
 

@@ -15,7 +15,7 @@ timestamp: 2026-01-20-11-12-25
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page explains system requirements for using Aspose.Words.
 

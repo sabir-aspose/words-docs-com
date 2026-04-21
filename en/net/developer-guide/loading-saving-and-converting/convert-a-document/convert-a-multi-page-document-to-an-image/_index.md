@@ -15,7 +15,7 @@ timestamp: 2025-06-18-10-00-04
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page explains how to convert multi-page documents into multi-frame images, including configuration of image size, resolution, and page range.
 

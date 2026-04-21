@@ -17,7 +17,7 @@ timestamp: 2024-05-02-11-51-44
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page explains how to work with images inside Word documents.
 

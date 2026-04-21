@@ -15,7 +15,7 @@ timestamp: 2024-01-27-14-07-04
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page explains warnings that may appear when saving to PDF/A or PDF/UA and how to handle them.
 

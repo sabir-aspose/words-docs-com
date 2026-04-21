@@ -15,7 +15,7 @@ timestamp: 2024-10-21-11-17-44
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page explains how to work with footers in NPOI when handling Word documents.
 
