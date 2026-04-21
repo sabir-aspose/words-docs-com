@@ -44,7 +44,7 @@ timestamp: 2024-01-31-14-23-37
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page explains which features are missing in NPOI compared to Aspose.Words and why Aspose.Words covers advanced scenarios.
 

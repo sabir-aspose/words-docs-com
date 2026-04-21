@@ -15,7 +15,7 @@ timestamp: 2024-01-27-14-07-04
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page explains the features of the LINQ Reporting Engine, detailing its templating syntax, data‑binding options, expressions, and dynamic content capabilities.
 

@@ -16,7 +16,7 @@ timestamp: 2024-07-09-19-00-42
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page describes how to convert PDF files into other formats supported by Aspose.Words, including Word, HTML, and image types.
 

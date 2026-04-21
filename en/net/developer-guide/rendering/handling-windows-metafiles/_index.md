@@ -15,7 +15,7 @@ timestamp: 2024-07-10-14-38-57
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page describes how Aspose.Words handles Windows Metafiles during rendering.
 

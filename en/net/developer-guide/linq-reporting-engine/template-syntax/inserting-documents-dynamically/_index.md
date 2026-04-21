@@ -16,7 +16,7 @@ timestamp: 2024-05-08-14-20-48
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page describes how to insert documents dynamically.
 

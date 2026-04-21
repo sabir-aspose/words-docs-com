@@ -15,7 +15,7 @@ timestamp: 2024-01-27-14-07-04
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page outlines how to apply custom formatting to fields (like merge fields or document variables) in Aspose.Words.
 

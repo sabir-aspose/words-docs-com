@@ -15,7 +15,7 @@ timestamp: 2025-03-17-19-00-00
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page describes the AI-powered features in Aspose.Words, such as intelligent document analysis and content generation.
 

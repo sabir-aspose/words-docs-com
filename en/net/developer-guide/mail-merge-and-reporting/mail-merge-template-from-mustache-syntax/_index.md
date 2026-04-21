@@ -16,7 +16,7 @@ timestamp: 2024-07-11-08-07-06
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page explains how to create mail-merge templates using Mustache syntax and how Aspose.Words interprets template tags.
 

@@ -15,7 +15,7 @@ timestamp: 2024-07-10-08-10-45
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page describes converting Word documents to fixed-page formats such as PDF, XPS, and images, with explanations of pagination behavior.
 

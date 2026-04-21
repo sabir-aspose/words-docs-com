@@ -15,7 +15,7 @@ timestamp: 2024-07-09-19-00-42
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page explains how to serialize a document to a database and how to reload it from storage.
 

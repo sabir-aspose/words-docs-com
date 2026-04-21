@@ -23,7 +23,7 @@ timestamp: 2024-01-31-14-23-37
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page explains missing features in VSTO relative to Aspose.Words and why Aspose.Words is better suited for automation.
 

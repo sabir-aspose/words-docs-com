@@ -15,7 +15,7 @@ timestamp: 2025-10-15-11-08-55
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page explains how to detect and handle processing interruptions for long-running document tasks.
 

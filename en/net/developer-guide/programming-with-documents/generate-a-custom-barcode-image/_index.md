@@ -15,7 +15,7 @@ timestamp: 2024-09-05-11-07-10
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page explains how to generate custom barcode images for DISPLAYBARCODE fields.
 

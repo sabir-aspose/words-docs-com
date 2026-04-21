@@ -15,7 +15,7 @@ timestamp: 2024-10-24-11-44-28
 
 {{% alert color="grey" %}}
 
-*Purpose Summary. What is this page about?*
+## Purpose Summary
 
 This page explains how licensing works in Aspose.Words for .NET, including how to apply licenses, evaluation mode behavior, and common issues.
 
