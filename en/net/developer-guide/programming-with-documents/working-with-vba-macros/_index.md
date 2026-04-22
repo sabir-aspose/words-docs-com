@@ -78,7 +78,9 @@ The following code example shows how to remove some references from the collecti
 
 {{< gist "aspose-words-gists" "d9bac4ed890f81ea3de392ecfeedbc55" "get-lib-id-and-reference-path.cs" >}}
 
-------  
+## Related APIs
+
+------
 
 ## FAQ
 

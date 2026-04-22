@@ -47,7 +47,9 @@ The following code example shows how to break a link for a **TextBox**:
 
 {{< gist "aspose-words-gists" "68b6041746b3d6bf5137cff8e6385b5f" "break-link.cs" >}}
 
-------  
+## Related APIs
+
+------
 
 ## FAQ
 

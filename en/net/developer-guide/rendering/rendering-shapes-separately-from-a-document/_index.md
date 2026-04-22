@@ -103,7 +103,9 @@ When using the **RenderToSize** or **RenderToScale** methods, the rendered image
 
 The **SizeInPoints** property returns the Shape size measured in points (see [ShapeRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/shaperenderer/). The result is a `SizeF` object containing the width and height.
 
------- 
+## Related APIs
+
+------
 
 ## FAQ
 

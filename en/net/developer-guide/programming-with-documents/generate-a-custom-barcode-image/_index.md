@@ -82,7 +82,9 @@ When working with barcodes, you can set some additional properties. Aspose.Words
 
 Aspose.Words supports embedded 96 ppi resolution for images generated with [IBarcodeGenerator](https://reference.aspose.com/words/net/aspose.words.fields/ibarcodegenerator/), which limits the minimum size of a barcode image. To address this, developers can manually insert barcode images with the target resolution into a Word document and save them in the required format. For more details and examples on working with barcodes, see the article [Create Custom Barcodes with IBarcodeGenerator](https://docs.aspose.com/barcode/net/how-to-create-custom-barcodes-with-ibarcodegenerator/).
 
-------  
+## Related APIs
+
+------
 
 ## FAQ
 

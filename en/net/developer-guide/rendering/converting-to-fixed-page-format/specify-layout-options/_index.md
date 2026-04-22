@@ -75,7 +75,9 @@ Text shaping will be enabled only when exporting a document to PDF or XPS.
 
 {{% /alert %}}
 
-------  
+## Related APIs
+
+------
 
 ## FAQ
 

@@ -130,7 +130,9 @@ The same functionality can be applied to selective paragraphs only. To achieve t
 
 For a tag with its name prepended with an exclamation mark, the engine treats a corresponding paragraph or paragraphs as if `ReportBuildOptions.RemoveEmptyParagraphs` was applied. For the rest of tags, the engine behaves as if `ReportBuildOptions.RemoveEmptyParagraphs` was not applied.
 
-------  
+## Related APIs
+
+------
 
 ## FAQ
 1. **Q:** How do I enable automatic removal of empty paragraphs that contain only template tags?  

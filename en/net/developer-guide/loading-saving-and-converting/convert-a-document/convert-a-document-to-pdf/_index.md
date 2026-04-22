@@ -102,7 +102,9 @@ Using the **OptimizeOutput** property may affect the accuracy of content display
 
 - The article [Accessibility Issue Warnings When Saving to PDF/A and PDF/UA](/words/net/warnings-when-saving-to-pdfa-and-pdfua/) describes what content accessibility requirements PDF/A and PDF/UA impose
 
------- 
+## Related APIs
+
+------
 
 ## FAQ
 

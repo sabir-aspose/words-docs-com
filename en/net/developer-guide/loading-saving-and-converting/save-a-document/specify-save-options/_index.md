@@ -87,7 +87,9 @@ The following code example shows how to save a black and white image with one bi
 
 {{< gist "aspose-words-gists" "83e5c469d0e72b5114fb8a05a1d01977" "format1-bpp-indexed.cs" >}}
 
-------  
+## Related APIs
+
+------
 
 ## FAQ
 

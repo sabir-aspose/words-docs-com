@@ -94,7 +94,9 @@ The following code example shows how to add a restriction for the entire documen
 
 {{< gist "aspose-words-gists" "856ba85fa704fa728b0ec20aafddd16b" "unrestricted-section.cs" >}}
 
------- 
+## Related APIs
+
+------
 
 ## FAQ
 

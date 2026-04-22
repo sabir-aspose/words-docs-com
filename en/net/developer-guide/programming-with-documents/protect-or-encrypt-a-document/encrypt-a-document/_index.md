@@ -78,7 +78,9 @@ The following code example shows how to try opening an encrypted document with a
 
 {{< gist "aspose-words-gists" "af95c7a408187bb25cf9137465fe5ce6" "load-save-encrypted-document.cs" >}}
 
------- 
+## Related APIs
+
+------
 
 ## FAQ
 

@@ -33,7 +33,9 @@ engine.KnownTypes.Add(typeof(ImageUtil));
 engine.BuildReport(...);
 {{< /highlight >}}
 
------- 
+## Related APIs
+
+------
 
 ## FAQ
 

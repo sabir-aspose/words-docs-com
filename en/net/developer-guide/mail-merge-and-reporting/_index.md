@@ -90,7 +90,9 @@ The following image shows an example of the output merged document as a result 
 
 - [Work with Mail Merge templates in Word](https://docs.microsoft.com/en-us/power-platform/admin/work-mail-merge-templates)
 
------- 
+## Related APIs
+
+------
 
 ## FAQ
 

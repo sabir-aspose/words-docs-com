@@ -122,7 +122,9 @@ Aspose.Words API provides [TableContentAlignment](https://reference.aspose.com/
 
 {{< gist "aspose-words-gists" "19de942ef8827201c1dca99f76c59133" "markdown-table-content-alignment.cs" >}}
 
-------  
+## Related APIs
+
+------
 
 ## FAQ
 

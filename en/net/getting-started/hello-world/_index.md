@@ -38,7 +38,9 @@ The following code snippet is a "Hello, World!" example to exhibit working of "A
 
 {{< gist "aspose-words-gists" "542a463e1857480986d18ec296ed43d5" "hello-world.cs" >}}
 
------- 
+## Related APIs
+
+------
 
 ## FAQ
 

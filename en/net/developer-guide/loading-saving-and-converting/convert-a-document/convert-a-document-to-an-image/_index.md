@@ -45,7 +45,9 @@ The following code example shows how to create a preview of the first document p
 
 {{< gist "aspose-words-gists" "ebbb90d74ef57db456685052a18f8e86" "get-jpeg-page-range.cs" >}}
 
------- 
+## Related APIs
+
+------
 
 ## FAQ
 

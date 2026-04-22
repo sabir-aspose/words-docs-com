@@ -93,7 +93,9 @@ The following code example shows how to move to a specific section and a specifi
 
 {{< gist "aspose-words-gists" "1a2c340d1a9dde6fe70c2733084d9aab" "move-to-section.cs" >}}
 
-------  
+## Related APIs
+
+------
 
 ## FAQ
 1. **Q:** How can I obtain the node where the cursor is currently positioned?  

@@ -61,7 +61,9 @@ Below you can compare images on which TIFF binarization was performed at various
 
 <img src="saving-a-document-as-a-multipage-tiff-1.jpg" alt="saving-a-document-as-a-multipage-tiff-aspose-words-net" style="width:800px"/>
 
------- 
+## Related APIs
+
+------
 
 ## FAQ
 

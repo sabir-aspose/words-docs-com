@@ -40,7 +40,9 @@ In this case, the engine produces a report as follows.
 | **E Corp.** | **F & Partners** | **G & Co.** |
 | **H Group** | **I & Sons**     | **J Ent.**  |
 
----
+## Related APIs
+
+------
 
 ## FAQ
 

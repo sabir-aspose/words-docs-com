@@ -128,7 +128,9 @@ Note that you can not remove only one digital signature within your document.
 
 {{% /alert %}}
 
------- 
+## Related APIs
+
+------
 
 ## FAQ
 

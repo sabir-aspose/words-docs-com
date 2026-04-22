@@ -242,7 +242,9 @@ There are some differences in processing of font formats in Aspose.Words and Mic
 
 - [Google Noto Fonts](https://fonts.google.com/noto) to download free fonts
 
-------  
+## Related APIs
+
+------
 
 ## FAQ
 

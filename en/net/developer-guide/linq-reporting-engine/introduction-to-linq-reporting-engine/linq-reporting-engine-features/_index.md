@@ -35,7 +35,9 @@ You can use common Aspose.Words Mail Merge data source objects such as [DataSet]
 
 In addition to traditional data sources, the engine enables you to use custom ones. Custom data source objects are not treated in a special way by the engine. That is while working with such objects, you can use the same expression syntax as you use while writing C# code. Moreover, you can use accessible members of any custom type that can implement any complex logic. This feature makes the engine very flexible and suitable almost for any specific need while building a report.
 
------- 
+## Related APIs
+
+------
 
 ## FAQ
 

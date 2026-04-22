@@ -100,7 +100,9 @@ And here is how you can set theme properties:
 
 {{< gist "aspose-words-gists" "a73b495f610523670f0847331ef4d6fc" "set-theme-properties.cs" >}}
 
-------  
+## Related APIs
+
+------
 
 ## FAQ
 

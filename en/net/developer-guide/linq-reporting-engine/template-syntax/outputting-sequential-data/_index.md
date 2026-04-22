@@ -89,7 +89,9 @@ data_band_body
 - [Using Extension Methods of Iteration Variables](/words/net/using-extension-methods-of-iteration-variables/)
 - [Forcing Movement to Next Item within Data Band](/words/net/forcing-movement-to-next-item-within-data-band/)
 
------- 
+## Related APIs
+
+------
 
 ## FAQ
 

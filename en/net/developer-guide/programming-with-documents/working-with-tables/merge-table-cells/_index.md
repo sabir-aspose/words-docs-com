@@ -114,7 +114,9 @@ The following code example shows the above method in operation:
 
 {{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "convert-to-horizontally-merged-cells.cs" >}}
 
------- 
+## Related APIs
+
+------
 
 ## FAQ
 

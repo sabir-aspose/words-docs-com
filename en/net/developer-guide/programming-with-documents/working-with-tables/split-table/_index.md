@@ -34,7 +34,9 @@ The following code example shows how to split a table into two tables on a speci
 
 {{< gist "aspose-words-gists" "4ab56c5443822fa44f4cac1f45af32b7" "split-table.cs" >}}
 
-------  
+## Related APIs
+
+------
 
 ## FAQ
 

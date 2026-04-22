@@ -96,7 +96,9 @@ Given that `i` is an integer number, you can convert the number to a lower‑cas
 
 **Note** – In contrast to format strings, additional number and string formats must not be enclosed with double quotes.
 
------- 
+## Related APIs
+
+------
 
 ## FAQ
 

@@ -91,7 +91,9 @@ The following code example shows how to add a mapped field using the [Add](https
 
 {{< gist "aspose-words-gists" "b4bab1bf22437a86d8062e91cf154494" "mapped-data-fields.cs" >}}
 
------- 
+## Related APIs
+
+------
 
 ## FAQ
 

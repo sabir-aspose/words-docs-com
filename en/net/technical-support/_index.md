@@ -47,7 +47,9 @@ When posting your issue, question, or feature request with Aspose.Words, follow 
 * Include the original document and possibly the code snippet that is causing the problem. If you need to attach multiple files, zip them into one. It is safe to attach your documents to `Aspose.Forums` because only you and the Aspose developers will have access to the attached files.
 * Try to report one issue per thread. If you have another issue, question, or feature request, please report it in a separate thread.
 
------- 
+## Related APIs
+
+------
 
 ## FAQ
 

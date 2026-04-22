@@ -82,7 +82,9 @@ Note that the **Font**, **ParagraphFormat**, and **PageSetup** properties are up
 
 {{% /alert %}}
 
------- 
+## Related APIs
+
+------
 
 ## FAQ
 
