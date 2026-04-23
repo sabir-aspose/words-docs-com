@@ -51,7 +51,9 @@ As you can see from the output document, each order from the **Order** table is 
 
 The following code example shows how to generate an invoice using nested Mail Merge with regions:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e"  "Examples-src-main-java-com-aspose-words-examples-mail_merge-TypesofMailMergeOperations-NestedMailMerge.java" >}}
+{{< gist "aspose-words-gists" "c68048adceb3bda6a1511c7d6f5ebf7b" "nested-mail-merge.cs" >}}
+
+{{< gist "aspose-words-gists" "c68048adceb3bda6a1511c7d6f5ebf7b" "disable-foreign-key-constraints.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -73,6 +75,8 @@ The following code example shows how to establish a `DataRelation` between a cus
 {{< highlight java >}}  
 dataSet.getRelations().add(new DataRelation("OrderToItem", orderTable.getColumns().get("Order_Id"), itemTable.getColumns().get("Order_Id"), false));  
 {{< /highlight >}}
+
+{{< gist "aspose-words-gists" "c68048adceb3bda6a1511c7d6f5ebf7b" "get-child-data-source.cs" >}}
 
 ------  
 

@@ -50,7 +50,7 @@ Mustache is represented as a logic-less order as it lacks any specific control f
 
 The following code example shows how to replace the Mustache tags with specific data:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeUsingMustacheTemplateSyntax-MustacheSyntaxUsingDataTable.java" >}}
+{{< gist "aspose-words-gists" "544788f602e697802e313a641cedb9b8" "mustache-syntax-using-data-table.cs" >}}
 
 You can notice the difference between the document before executing the Mail Merge with regions along with applying the **UseNonMergeFields** property:
 
@@ -84,7 +84,7 @@ For example, you can use `IF` fields if you need to insert “his”, “her”,
 
 The following code example shows how to perform a Mail Merge operation with Mustache tags and `IF` fields:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeUsingMustacheTemplateSyntax-UseOfIfElseMustacheSyntax.java" >}}
+{{< gist "aspose-words-gists" "544788f602e697802e313a641cedb9b8" "use-if-else-mustache.cs" >}}
 
 You can notice the difference between the document before applying the **UseNonMergeFields** property:
 

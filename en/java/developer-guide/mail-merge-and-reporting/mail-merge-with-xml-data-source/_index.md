@@ -56,7 +56,7 @@ The following XML contains the data that is needed to fill in a merge template:
 
 The following code example shows how to load XML data into DataSet and then use it as a data source:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-XMLMailMerge-XMLMailMerge.java" >}}
+{{< gist "aspose-words-gists" "0441f68c5209fec25c47d1a0a203fbb0" "xml-mail-merge.cs" >}}
 
 {{% alert color="primary" %}}
 

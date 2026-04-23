@@ -24,7 +24,7 @@ When you are using some long template that is created by someone else, you may w
 
 The following code example shows how to delete all merge fields from your template without executing a Mail Merge operation:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-GetFieldNames-DeleteFields.java" >}}
+{{< gist "aspose-words-gists" "f39874821cb317d245a769c9ce346fea" "delete-fields.cs" >}}
 
 ## Set Up a `Removing` Option
 
@@ -61,7 +61,7 @@ In both situations the **RemoveEmptyParagraphs** option will automatically remov
 
 The following code example shows how to remove the empty paragraphs:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeCleanUp-RemoveEmptyParagraphs.java" >}}
+{{< gist "aspose-words-gists" "f39874821cb317d245a769c9ce346fea" "remove-empty-paragraphs.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -75,7 +75,7 @@ In previous versions of Aspose.Words, empty Mail Merge regions were removed from
 
 The following code example shows how to remove the unused merge regions:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeCleanUp-RemoveUnmergedRegions.java" >}}
+{{< gist "aspose-words-gists" "f39874821cb317d245a769c9ce346fea" "remove-unmerged-regions.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -91,7 +91,7 @@ Aspose.Words allows you to remove any unused Mail Merge fields by assigning the 
 
 The following code example shows how to remove any unused merge fields from a document automatically during a Mail Merge operation:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeCleanUp-RemoveUnusedFields.java" >}}
+{{< gist "aspose-words-gists" "f39874821cb317d245a769c9ce346fea" "remove-unused-fields.cs" >}}
 
 ### Removing Containing Fields
 
@@ -99,7 +99,7 @@ A merge field can be contained within another field such as an **IF** field or a
 
 The following code example shows how to remove fields that contain merge fields from a document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeCleanUp-RemoveContainingFields.java" >}}
+{{< gist "aspose-words-gists" "f39874821cb317d245a769c9ce346fea" "remove-containing-fields.cs" >}}
 
 **Note**: This option will only remove a containing field if the field was actually merged with data or if the merge field was removed by using the **RemoveUnusedFields** option. This option matches the behavior of Microsoft Word during Mail Merge which always automatically removes outer fields from a merged field and keeps only the plain text result.
 
@@ -109,7 +109,7 @@ Aspose.Words allows you to remove empty table rows by assigning the **RemoveEmpt
 
 The following code example shows how to remove empty table rows that contain Mail Merge regions from a document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeCleanUp-RemoveEmptyTableRows.java" >}}
+{{< gist "aspose-words-gists" "f39874821cb317d245a769c9ce346fea" "remove-empty-table-rows.cs" >}}
 
 ------ 
 

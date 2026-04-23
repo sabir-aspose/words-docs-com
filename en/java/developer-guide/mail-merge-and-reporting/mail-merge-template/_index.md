@@ -36,7 +36,7 @@ Use the [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.wor
 
 The following code example shows how to create a Mail Merge template:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeTemplate-CreateMailMergeTemplate.java" >}}
+{{< gist "aspose-words-gists" "0a1baaa127443b485cc692c8d98ee353" "create-mail-merge-template.cs" >}}
 
 The picture below shows the created template:
 
@@ -52,7 +52,7 @@ You can specify the image properties using the [ImageFieldMergingArgs](https://r
 
 The following code example shows how to specify the image file name and image size:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeFormFields-ImageFieldMerging.java" >}}
+{{< gist "aspose-words-gists" "0a1baaa127443b485cc692c8d98ee353" "image-field-merging.cs" >}}
 
 ### Customize Text Properties
 
@@ -60,7 +60,7 @@ You can use the [Text]https://reference.aspose.com/words/java/com.aspose.words/F
 
 The following code example shows how to insert Check Boxes or HTML during Mail Merge operation:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeFormFields-MailMergeFormFields.java" >}}
+{{< gist "aspose-words-gists" "0a1baaa127443b485cc692c8d98ee353" "mail-merge-form-fields.cs" >}}
 
 {{% alert color="primary" %}}
 
