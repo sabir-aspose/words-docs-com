@@ -19,7 +19,7 @@ variables:
   SYNC_TYPE: words # "words" (https://docs.aspose.com/words/) or "words-qa" (https://docs.aspose.com/words-qa/)
   SYNC_FOLDER: /var/www/docs.aspose.com/html/$SYNC_TYPE
   BRANCH_NAME: master
-  DOCKER_TLS_CERTDIR: "/certs"
+  # DOCKER_TLS_CERTDIR: "/certs"
   # GIT_SSL_NO_VERIFY: "true"  # Add this line to ignore SSL verification, because we have self-signed certificate
 
 stages:
