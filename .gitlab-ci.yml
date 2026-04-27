@@ -96,9 +96,9 @@ build-docs-job:
     - sed -i "s|../md-words|$CI_PROJECT_DIR|g" ./configs/docs.aspose.com-words.toml
     - echo "Current directory $(pwd)"
     - echo "Intalling project dependencies..."
-    # - npm config set strict-ssl false
-    # - npm config set registry http://registry.npmjs.org/
-    # - npm config set cafile $NPM_REGISTRY_CERT_PATH
+    - npm config set strict-ssl false
+    - npm config set registry http://registry.npmjs.org/
+    - npm config set cafile $NPM_REGISTRY_CERT_PATH
     - npm config set registry https://registry.npmjs.org
     - npm ci
     - echo "Documentation build started..."
