@@ -1,6 +1,5 @@
 variables:
   GIT_DEPTH: 1
-  GIT_LFS_SKIP_SMUDGE: "1"
   LANG: C.UTF-8
   LC_ALL: C.UTF-8
   COPY_USER_NAME: service_words
