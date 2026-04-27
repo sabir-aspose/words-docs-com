@@ -59,16 +59,16 @@ build-docs-job:
     - echo "Tune the environment..."
     - *apk_cache_setup
     - npm config set cache "$CI_PROJECT_DIR/.npm-cache"
-    # - sed -i 's/https/http/' /etc/apk/repositories
-    # - apk update
-    # - apk add --no-cache openssl ca-certificates
-    # - sed -i 's/http/https/' /etc/apk/repositories
-    # - update-ca-certificates --fresh
-    # - mkdir -p $NPM_REGISTRY_CERT_DIR
-    # - openssl s_client -showcerts -connect registry.npmjs.org:443 </dev/null 2>/dev/null | openssl x509 -outform PEM > $NPM_REGISTRY_CERT_PATH
-    # - echo "HostName $(hostname), RunnerDescription $CI_RUNNER_DESCRIPTION, ProjectDirectory $CI_PROJECT_DIR, Git Depth $GIT_DEPTH, Docs template url $DOCS_TEMPLATE_GIT_URL, Docs template path $DOCS_TEMPLATE_CONTAINER_PATH, The current branch is $CI_COMMIT_REF_NAME"
-    # - echo "Installing Git..."
-    # - apk update && apk add --no-cache git
+    - sed -i 's/https/http/' /etc/apk/repositories
+    - apk update
+    - apk add --no-cache openssl ca-certificates
+    - sed -i 's/http/https/' /etc/apk/repositories
+    - update-ca-certificates --fresh
+    - mkdir -p $NPM_REGISTRY_CERT_DIR
+    - openssl s_client -showcerts -connect registry.npmjs.org:443 </dev/null 2>/dev/null | openssl x509 -outform PEM > $NPM_REGISTRY_CERT_PATH
+    - echo "HostName $(hostname), RunnerDescription $CI_RUNNER_DESCRIPTION, ProjectDirectory $CI_PROJECT_DIR, Git Depth $GIT_DEPTH, Docs template url $DOCS_TEMPLATE_GIT_URL, Docs template path $DOCS_TEMPLATE_CONTAINER_PATH, The current branch is $CI_COMMIT_REF_NAME"
+    - echo "Installing Git..."
+    - apk update && apk add --no-cache git
     - echo "The current branch is $CI_COMMIT_REF_NAME"
     - apk add gcompat libstdc++ tar git-lfs
     - git lfs install
