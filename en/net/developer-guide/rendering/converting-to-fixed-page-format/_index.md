@@ -100,7 +100,13 @@ The example below demonstrates how to save a document to JPEG format using the
 
 ## Related APIs
 
-------
+
+- [Document](https://reference.aspose.com/words/net/aspose.words/document/)
+- [UpdatePageLayout](https://reference.aspose.com/words/net/aspose.words/document/updatepagelayout/)
+- [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/)
+- [FixedPageSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/)
+- [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsavingoptions/)
+- [SaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/)
 
 ## FAQ
 

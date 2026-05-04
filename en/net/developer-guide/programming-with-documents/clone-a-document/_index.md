@@ -49,7 +49,10 @@ The following code example shows how to clone a document and create a duplicate 
 
 ## Related APIs
 
-------
+
+- [Document.Clone()](https://reference.aspose.com/words/net/aspose.words/document/clone/)
+- [Node.Clone()](https://reference.aspose.com/words/net/aspose.words/node/clone/)
+- [Node.Clone(CloneOptions)](https://reference.aspose.com/words/net/aspose.words/node/clone/)
 
 ## FAQ
 

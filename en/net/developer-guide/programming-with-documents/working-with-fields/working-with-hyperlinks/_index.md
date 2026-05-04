@@ -55,7 +55,11 @@ The following code example shows how to find all hyperlinks in Word document and
 
 ## Related APIs
 
-------
+
+- [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/)
+- [DocumentBuilder.InsertHyperlink](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserthyperlink/)
+- [FieldHyperlink.Hyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/properties/hyperlink/)
+- [FieldHyperlink.Result](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/properties/result/)
 
 ## FAQ
 

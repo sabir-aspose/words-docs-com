@@ -104,6 +104,11 @@ Using the **OptimizeOutput** property may affect the accuracy of content display
 
 ## Related APIs
 
+- [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) class
+- [PdfCompliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) enumeration
+- [Document.Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save()) method
+- [OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) property
+
 ------
 
 ## FAQ

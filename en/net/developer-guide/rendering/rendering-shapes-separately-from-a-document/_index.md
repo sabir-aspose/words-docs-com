@@ -105,7 +105,12 @@ The **SizeInPoints** property returns the Shape size measured in points (see [S
 
 ## Related APIs
 
-------
+
+- **[Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/)** - Represents objects in the drawing layer such as AutoShapes, text boxes, and pictures
+- **[GroupShape](https://reference.aspose.com/words/net/aspose.words.drawing/groupshape/)** - Represents a group of shapes that can be rendered together
+- **[ShapeRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/shaperenderer/)** - Provides methods for rendering shapes to files, streams, or Graphics objects
+- **[ImageSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/)** - Controls rendering options when saving shapes as images
+- **[NodeRendererBase](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/)** - Base class providing common rendering functionality including `RenderToSize` and `RenderToScale` methods
 
 ## FAQ
 

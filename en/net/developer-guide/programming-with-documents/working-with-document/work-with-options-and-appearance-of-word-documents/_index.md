@@ -88,7 +88,12 @@ The following code example shows how to optimize document content for Microsoft 
 
 ## Related APIs
 
-------
+
+- [ViewOptions](https://reference.aspose.com/words/net/aspose.words.settings/viewoptions/)
+- [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup/)
+- [LanguagePreferences](https://reference.aspose.com/words/net/aspose.words.loading/languagepreferences/)
+- [LoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/)
+- [CompatibilityOptions](https://reference.aspose.com/words/net/aspose.words.settings/compatibilityoptions/)
 
 ## FAQ
 

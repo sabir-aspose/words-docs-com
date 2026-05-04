@@ -98,6 +98,12 @@ Given that `i` is an integer number, you can convert the number to a lower‑cas
 
 ## Related APIs
 
+- [Expression tag syntax](/net/template-syntax/#outputting-expression-results): Full documentation on expression tag structure and components
+- [Custom number formats](/net/template-syntax/#number-formats): Additional number formatting options (alphabetic, roman, ordinal, etc.)
+- [Custom string formats](/net/template-syntax/#string-formats): Additional string transformation options (lower, upper, caps, firstCap)
+- [HTML rendering](/net/template-syntax/#html-switch): Using the `-html` switch for HTML content rendering
+- [Format strings](/net/template-syntax/#format-strings): Standard .NET format specifiers for numbers and dates
+
 ------
 
 ## FAQ

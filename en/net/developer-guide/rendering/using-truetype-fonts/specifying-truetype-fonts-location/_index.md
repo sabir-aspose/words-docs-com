@@ -173,7 +173,18 @@ If you want to get the list of available fonts, which, for example, can be use
 
 ## Related APIs
 
-------
+
+- [FontSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/)
+- [FontSourceBase](https://reference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/)
+- [SystemFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/systemfontsource/)
+- [FolderFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/folderfontsource/)
+- [FileFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/filefontsource/)
+- [StreamFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/streamfontsource/)
+- [MemoryFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/memoryfontsource/)
+- [PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/)
+- [FontSettings.DefaultInstance](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/defaultinstance/)
+- [GetSystemFontFolders](https://reference.aspose.com/words/net/aspose.words.fonts/systemfontsource/getsystemfontfolders/)
+
 
 ## FAQ
 
