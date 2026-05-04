@@ -75,7 +75,15 @@ The following code example shows how to update this property:
 
 ## Related APIs
 
-------
+
+- [Document.UpdateFields()](https://reference.aspose.com/words/net/aspose.words/document/updatefields/) — Updates all fields in the document.
+- [Range.UpdateFields()](https://reference.aspose.com/words/net/aspose.words/range/updatefields/) — Updates fields within a specific range (e.g., section, header, paragraph).
+- [Field.Update()](https://reference.aspose.com/words/net/aspose.words.fields/field/update/) — Updates a single field.
+- [LoadOptions.UpdateDirtyFields](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/updatedirtyfields/) — Gets or sets a value indicating whether to update fields marked as dirty when loading a document.
+- [Field.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/field/isdirty/) — Gets or sets a value indicating whether the field result is out of date.
+- [FieldChar.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/isdirty/) — Gets or sets a value indicating whether the field result is out of date.
+- [SaveOptions.UpdateLastSavedTimeProperty](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/) — Gets or sets a value indicating whether to update the `LastSavedTime` built-in document property when saving.
+- [BuiltInDocumentProperties.LastSavedTime](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/lastsavedtime/) — Gets or sets the date and time the document was last saved.
 
 ## FAQ
 

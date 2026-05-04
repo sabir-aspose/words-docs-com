@@ -195,7 +195,24 @@ This setting works only for ANSI (Windows-1252) encoding text. Writing a non-ANS
 
 ## Related APIs
 
-------
+
+- [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/)
+- [PdfCompliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/)
+- [HeaderFooterBookmarksExportMode](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode/)
+- [OutlineOptions](https://reference.aspose.com/words/net/aspose.words.saving/outlineoptions/)
+- [DownsampleOptions](https://reference.aspose.com/words/net/aspose.words.saving/downsampleoptions/)
+
+Properties of PdfSaveOptions:
+- [PreserveFormFields](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/preserveformfields/)
+- [ExportDocumentStructure](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/exportdocumentstructure/)
+- [DefaultBookmarksOutlineLevel](https://reference.aspose.com/words/net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/)
+- [HeaderFooterBookmarksExportMode](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/)
+- [HeadingsOutlineLevels](https://reference.aspose.com/words/net/aspose.words.saving/outlineoptions/headingsoutlinelevels/)
+- [DownsampleImages](https://reference.aspose.com/words/net/aspose.words.saving/downsampleoptions/downsampleimages/)
+- [Resolution](https://reference.aspose.com/words/net/aspose.words.saving/downsampleoptions/resolution/)
+- [EmbedFullFonts](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/)
+- [UseCoreFonts](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usecorefonts/)
+- [FontEmbeddingMode](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/)
 
 ## FAQ
 

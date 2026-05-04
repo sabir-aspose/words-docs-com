@@ -36,7 +36,12 @@ The following code example shows how to split a table into two tables on a speci
 
 ## Related APIs
 
-------
+
+- [`Table`](https://reference.aspose.com/words/net/aspose.words.tables/table/)
+- [`Row`](https://reference.aspose.com/words/net/aspose.words.tables/row/)
+- [`Cell`](https://reference.aspose.com/words/net/aspose.words.tables/cell/)
+- [`DocumentBuilder`](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)
+- [`NodeCollection`](https://reference.aspose.com/words/net/aspose.words/nodecollection/)
 
 ## FAQ
 

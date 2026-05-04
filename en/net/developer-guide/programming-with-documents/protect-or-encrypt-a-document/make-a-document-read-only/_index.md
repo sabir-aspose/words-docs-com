@@ -83,6 +83,12 @@ The following code example shows how to remove read-only access for a document:
 
 ## Related APIs
 
+- [WriteProtection](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/)  
+- [WriteProtection.ReadOnlyRecommended](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/readonlyrecommended/)  
+- [WriteProtection.SetPassword](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/setpassword/)  
+- [WriteProtection.IsWriteProtected](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/iswriteprotected/)  
+- [ProtectionType](https://reference.aspose.com/words/net/aspose.words/protectiontype/)
+
 ------
 
 ## FAQ

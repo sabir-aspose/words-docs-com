@@ -89,7 +89,19 @@ The following code example shows how to get the distance between a table and its
 
 ## Related APIs
 
-------
+
+- [Table.Alignment](https://reference.aspose.com/words/net/aspose.words.tables/table/alignment/)
+- [Table.RelativeHorizontalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativehorizontalalignment/)
+- [Table.RelativeVerticalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativeverticalalignment/)
+- [Table.HorizontalAnchor](https://reference.aspose.com/words/net/aspose.words.tables/table/horizontalanchor/)
+- [Table.VerticalAnchor](https://reference.aspose.com/words/net/aspose.words.tables/table/verticalanchor/)
+- [Table.AbsoluteHorizontalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/absolutehorizontaldistance/)
+- [Table.AbsoluteVerticalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/absoluteverticaldistance/)
+- [Table.AllowOverlap](https://reference.aspose.com/words/net/aspose.words.tables/table/allowoverlap/)
+- [Table.DistanceTop](https://reference.aspose.com/words/net/aspose.words.tables/table/distancetop/)
+- [Table.DistanceBottom](https://reference.aspose.com/words/net/aspose.words.tables/table/distancebottom/)
+- [Table.DistanceLeft](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceleft/)
+- [Table.DistanceRight](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceright/)
 
 ## FAQ
 

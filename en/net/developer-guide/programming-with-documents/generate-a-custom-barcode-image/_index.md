@@ -84,7 +84,11 @@ Aspose.Words supports embedded 96 ppi resolution for images generated with [IB
 
 ## Related APIs
 
-------
+
+- [DisplayBarcode](https://reference.aspose.com/words/net/aspose.words.fields/displaybarcode/)
+- [MergeBarcode](https://reference.aspose.com/words/net/aspose.words.fields/mergebarcode/)
+- [BarcodeParameters](https://reference.aspose.com/words/net/aspose.words.fields/barcodeparameters/)
+- [IBarcodeGenerator](https://reference.aspose.com/words/net/aspose.words.fields/ibarcodegenerator/)
 
 ## FAQ
 

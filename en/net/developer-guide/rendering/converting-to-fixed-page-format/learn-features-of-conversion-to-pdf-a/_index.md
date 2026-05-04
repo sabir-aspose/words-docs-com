@@ -65,7 +65,11 @@ To learn more about the different PDF standards, check the following ISOs:
 
 ## Related APIs
 
-------
+- [`PdfSaveOptions`](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/)
+- [`PdfCompliance`](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/)
+
+------  
+
 
 ## FAQ
 
