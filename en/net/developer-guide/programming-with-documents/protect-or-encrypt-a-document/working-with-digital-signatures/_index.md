@@ -130,7 +130,18 @@ Note that you can not remove only one digital signature within your document.
 
 ## Related APIs
 
-------
+
+- [DigitalSignatureUtil](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/)
+- [DigitalSignatureCollection](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignaturecollection/)
+- [DigitalSignature](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignature/)
+- [CertificateHolder](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/certificateholder/)
+- [SignOptions](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/)
+- [SignatureLineOptions](https://reference.aspose.com/words/net/aspose.words/signaturelineoptions/)
+- [FileFormatUtil.DetectFileFormat](https://reference.aspose.com/words/net/aspose.words/fileformatutil/detectfileformat/)
+- [FileFormatInfo.HasDigitalSignature](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasdigitalsignature/)
+- [DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertsignatureline/)
+- [PdfDigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/pdfdigitalsignaturedetails/)
+- [DigitalSignature.SignatureValue](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/)
 
 ## FAQ
 

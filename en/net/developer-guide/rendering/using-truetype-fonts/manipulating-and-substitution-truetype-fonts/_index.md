@@ -244,6 +244,12 @@ There are some differences in processing of font formats in Aspose.Words and Mic
 
 ## Related APIs
 
+- [FontSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/)
+- [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/)
+- [FontInfoCollection](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfocollection/)
+- [FontSubstitutionWarningInfo](https://reference.aspose.com/words/net/aspose.words/fontsubstitutionwarninginfo/)
+- [FontFallbackSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/)
+
 ------
 
 ## FAQ
