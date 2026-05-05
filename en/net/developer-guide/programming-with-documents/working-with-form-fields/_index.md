@@ -97,6 +97,13 @@ The following code example shows how to apply font formatting to the **FormField
 
 ## Related APIs
 
+- [FormFieldCollection](https://reference.aspose.com/words/net/aspose.words.fields/formfieldcollection/)
+- [FormField](https://reference.aspose.com/words/net/aspose.words.fields/formfield/)
+- [DocumentBuilder.InsertTextInput](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserttextinput/)
+- [DocumentBuilder.InsertCheckBox](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcheckbox/)
+- [DocumentBuilder.InsertComboBox](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcombobox/)
+- [Range.FormFields](https://reference.aspose.com/words/net/aspose.words/range/formfields/)
+
 ------
 
 ## FAQ

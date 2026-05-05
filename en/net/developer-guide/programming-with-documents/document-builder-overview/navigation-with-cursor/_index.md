@@ -95,6 +95,20 @@ The following code example shows how to move to a specific section and a specifi
 
 ## Related APIs
 
+- [DocumentBuilder.CurrentNode](https://reference.aspose.com/words/net/aspose.words/documentbuilder/currentnode/)
+- [DocumentBuilder.CurrentParagraph](https://reference.aspose.com/words/net/aspose.words/documentbuilder/currentparagraph/)
+- [DocumentBuilder.CurrentSection](https://reference.aspose.com/words/net/aspose.words/documentbuilder/currentsection/)
+- [DocumentBuilder.MoveTo](https://reference.aspose.com/words/net/aspose.words/documentbuilder/moveto/)
+- [DocumentBuilder.MoveToBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetobookmark/)
+- [DocumentBuilder.MoveToCell](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetocell/)
+- [DocumentBuilder.MoveToField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetofield/)
+- [DocumentBuilder.MoveToMergeField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetomergefield/)
+- [DocumentBuilder.MoveToHeaderFooter](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetoheaderfooter/)
+- [DocumentBuilder.MoveToParagraph](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetoparagraph/)
+- [DocumentBuilder.MoveToSection](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetosection/)
+- [DocumentBuilder.MoveToDocumentStart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetodocumentstart/)
+- [DocumentBuilder.MoveToDocumentEnd](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetodocumentend/)
+
 ------
 
 ## FAQ

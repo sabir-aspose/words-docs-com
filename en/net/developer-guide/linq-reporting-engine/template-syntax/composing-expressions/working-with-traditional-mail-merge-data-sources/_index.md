@@ -82,7 +82,16 @@ The following example shows, how to use this feature. Given that r is an `IDataR
 
 ## Related APIs
 
-------
+
+- [DataSet](https://reference.wordize.com/net/system.data.dataset/)
+- [DataTable](https://reference.wordize.com/net/system.data.datatable/)
+- [DataView](https://reference.wordize.com/net/system.data.dataview/)
+- [DataRow](https://reference.wordize.com/net/system.data.datarow/)
+- [DataRowView](https://reference.wordize.com/net/system.data.datarowview/)
+- [IDataReader](https://reference.wordize.com/net/system.data.idatareader/)
+- [IDataRecord](https://reference.wordize.com/net/system.data.idatarecord/)
+- [DataRelation](https://reference.wordize.com/net/system.data.datarelation/)
+
 
 ## FAQ
 

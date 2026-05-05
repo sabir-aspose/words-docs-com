@@ -96,7 +96,12 @@ The following code example shows how to add a restriction for the entire documen
 
 ## Related APIs
 
-------
+
+- [ProtectionType](https://reference.aspose.com/words/net/aspose.words/protectiontype/)
+- [Document.Protect(ProtectionType, string)](https://reference.aspose.com/words/net/aspose.words/document/protect/#protect/)
+- [Document.Unprotect()](https://reference.aspose.com/words/net/aspose.words/document/unprotect/#unprotect/)
+- [DocumentBuilder.StartEditableRange()](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starteditablerange/)
+- [DocumentBuilder.EndEditableRange()](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endeditablerange/#endeditablerange/)
 
 ## FAQ
 
