@@ -93,15 +93,19 @@ The following code example shows how to add a mapped field using the [Add](https
 
 ## Related APIs
 
-- [FieldNext](https://reference.aspose.com/words/net/aspose.words.fields/fieldnext/)
-- [FieldNextIf](https://reference.aspose.com/words/net/aspose.words.fields/fieldnextif/)
-- [FieldSkipIf](https://reference.aspose.com/words/net/aspose.words.fields/fieldskipif/)
-- [MailMerge.GetFieldNames()](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getfieldnames/)
-- [MailMerge.GetRegionsHierarchy()](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/)
-- [MailMerge.MappedDataFields](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/mappeddatafields/)
-- [MappedDataFieldCollection.Add()](https://reference.aspose.com/words/net/aspose.words.mailmerging/mappeddatafieldcollection/add/)
 
-------
+- **Mail Merge Rule Fields**:
+  - [FieldNext](https://reference.aspose.com/words/net/aspose.words.fields/fieldnext/)
+  - [FieldNextIf](https://reference.aspose.com/words/net/aspose.words.fields/fieldnextif/)
+  - [FieldSkipIf](https://reference.aspose.com/words/net/aspose.words.fields/fieldskipif/)
+
+- **Template Inspection Methods**:
+  - [MailMerge.GetFieldNames()](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getfieldnames/)
+  - [MailMerge.GetRegionsHierarchy()](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/)
+
+- **Data Mapping**:
+  - [MailMerge.MappedDataFields](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/mappeddatafields/)
+  - [MappedDataFieldCollection.Add()](https://reference.aspose.com/words/net/aspose.words.mailmerging/mappeddatafieldcollection/add/)
 
 ## FAQ
 

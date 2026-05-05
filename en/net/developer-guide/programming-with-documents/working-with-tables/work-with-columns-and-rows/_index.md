@@ -134,7 +134,14 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ## Related APIs
 
-------
+
+- [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/)
+- [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/)
+- [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/)
+- [RowFormat.HeadingFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/headingformat/)
+- [RowFormat.AllowBreakAcrossPages](https://reference.aspose.com/words/net/aspose.words.tables/row/format/properties/allowbreakacrosspages/)
+- [ParagraphFormat.KeepWithNext](https://reference.aspose.com/words/net/aspose.words/paragraphformat/keepwithnext/)
+- [NodeCollection.IndexOf](https://reference.aspose.com/words/net/aspose.words/nodecollection/indexof/)
 
 ## FAQ
 

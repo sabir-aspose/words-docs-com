@@ -103,7 +103,17 @@ The following code example shows how to apply different properties with revision
 
 ## Related APIs
 
-------
+
+- [Revision](https://reference.aspose.com/words/net/aspose.words/revision/)
+- [RevisionGroup](https://reference.aspose.com/words/net/aspose.words/revision/group/)
+- [RevisionType](https://reference.aspose.com/words/net/aspose.words/revisiontype/)
+- [Document.TrackRevisions](https://reference.aspose.com/words/net/aspose.words/document/trackrevisions/)
+- [Document.StartTrackRevisions()](https://reference.aspose.com/words/net/aspose.words/document/starttrackrevisions/)
+- [Document.StopTrackRevisions()](https://reference.aspose.com/words/net/aspose.words/document/stoptrackrevisions/)
+- [Document.AcceptAllRevisions()](https://reference.aspose.com/words/net/aspose.words/document/acceptallrevisions/)
+- [RevisionCollection.RejectAll()](https://reference.aspose.com/words/net/aspose.words/revisioncollection/rejectall/)
+- [Revision.Accept()](https://reference.aspose.com/words/net/aspose.words/revision/accept/)
+- [Revision.Reject()](https://reference.aspose.com/words/net/aspose.words/revision/reject/)
 
 ## FAQ
 

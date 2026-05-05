@@ -102,6 +102,15 @@ And here is how you can set theme properties:
 
 ## Related APIs
 
+- [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) - Manages built-in and user-defined styles in a document.
+- [Document.Styles](https://reference.aspose.com/words/net/aspose.words/documentbase/styles/) - Gets the collection of styles defined in the document.
+- [Document.CopyStylesFromTemplate](https://reference.aspose.com/words/net/aspose.words/documentbase/copystylesfromtemplate/) - Copies all styles from a template document to the current document.
+- [Theme](https://reference.aspose.com/words/net/aspose.words/theme/) - Represents the theme settings of a document.
+- [ThemeFonts](https://reference.aspose.com/words/net/aspose.words/themefonts/) - Represents the fonts used in the document theme.
+- [ThemeColors](https://reference.aspose.com/words/net/aspose.words/themecolors/) - Represents the color scheme used in the document theme.
+- [Paragraph.ParagraphFormat.Style](https://reference.aspose.com/words/net/aspose.words/paragraph/paragraphformat/style/) - Gets or sets the paragraph style applied to the paragraph.
+- [Run.Font.StyleName](https://reference.aspose.com/words/net/aspose.words/font/style/) - Gets or sets the name of the character style applied to the run.
+
 ------
 
 ## FAQ
