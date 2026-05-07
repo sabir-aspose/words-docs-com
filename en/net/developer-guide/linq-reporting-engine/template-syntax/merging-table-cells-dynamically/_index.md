@@ -250,6 +250,12 @@ Then, a result document looks as follows.
 
 ## Limitations and Considerations
 
+- All cells intended for merging must contain a `cellMerge` tag specifying the same direction (`-horz`, `-both`, or vertical by default).
+- Cells must not already be merged in a conflicting direction, except when using the `-both` switch.
+- Merging occurs only when adjacent cells contain identical text after trimming leading and trailing whitespace.
+- When an expression is provided (e.g., `<<cellMerge [expression]>>`), merging is discarded if the expressions evaluate to different values, even if textual content matches.
+- The `cellMerge` tag functions normally within table data bands.
+
 ## Related APIs
 
 ------
