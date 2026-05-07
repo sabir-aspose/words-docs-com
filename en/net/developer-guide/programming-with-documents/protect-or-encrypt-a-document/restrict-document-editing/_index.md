@@ -96,6 +96,11 @@ The following code example shows how to add a restriction for the entire documen
 
 ## Limitations and Considerations
 
+- Aspose.Words protection is not encryption — it stores only a password hash in the document properties and does not secure the document content.
+- Protection does not prevent programmatic access or modification — any Aspose.Words application can remove protection or modify the document regardless of restrictions.
+- The `Protect` method only sets a metadata flag; it does not prevent changes via API calls such as `Document.Unprotect` or `DocumentBuilder.StartEditableRange`.
+- Editable ranges do not override section-level protection settings — they apply only to the document-level protection state and require correct section break types to function as expected.
+
 ## Related APIs
 
 

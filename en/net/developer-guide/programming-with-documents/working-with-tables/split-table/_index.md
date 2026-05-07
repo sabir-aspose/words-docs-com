@@ -36,6 +36,12 @@ The following code example shows how to split a table into two tables on a speci
 
 ## Limitations and Considerations
 
+- **Merged cells**: If a cell spans rows that are divided between the two tables, Aspose.Words will automatically adjust the cell's `RowSpan` so that each table contains a valid cell structure. Cells that no longer span the required rows are split into separate cells.
+
+- **Formatting preservation**: The formatting applied to rows, cells, and the table itself is retained because the rows are moved, not recreated. Any style or direct formatting on the moved rows remains unchanged in the new table.
+
+- **Pagination effects**: Aspose.Words recalculates pagination automatically after the table structure changes. To avoid unexpected pagination shifts, perform the split operation before any layout-dependent processing (e.g., before saving or printing).
+
 ## Related APIs
 
 

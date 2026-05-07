@@ -132,6 +132,14 @@ For a tag with its name prepended with an exclamation mark, the engine treats a 
 
 ## Limitations and Considerations
 
+- The `ReportBuildOptions.RemoveEmptyParagraphs` option works at the paragraph level and only removes paragraphs that consist solely of a template tag (or tag with an exclamation mark). If a paragraph contains invisible characters such as spaces, tabs, or line breaks besides the tag, it will not be removed. Remove any extra whitespace from the template to allow the paragraph to be deleted.
+
+- The option applies globally to all paragraphs in the document when set on `ReportingEngine.Options`. To apply the removal selectively to specific tags, prepend the tag name with an exclamation mark (`!`). For example, use `<<!foreach [in persons]>>` to remove paragraphs containing only that specific tag.
+
+- The option can be combined with other `ReportBuildOptions` using the bitwise OR operator, e.g., `engine.Options |= ReportBuildOptions.RemoveEmptyParagraphs | ReportBuildOptions.PreserveFormFields;`.
+
+- When applied to table cells containing only a template tag, the option removes the entire paragraph (and thus the cell content), which may collapse the row if it becomes empty. The option does not delete the table structure itself.
+
 ## Related APIs
 
 ------

@@ -170,6 +170,32 @@ The following code example shows how to modify the page properties in all sectio
 
 ## Limitations and Considerations
 
+- When removing a section break, the section *before* the break adopts the formatting (including page setup, headers, and footers) of the section *after* the break. This is the opposite of what many developers expect. To avoid unintended layout changes, ensure you understand the section order before removal.
+
+- The `EnsureMinimum()` method only ensures the presence of a `Body` and at least one `Paragraph`. It does *not* create `HeaderFooter` nodes. To ensure headers/footers exist, call `Section.HeadersFooters.EnsureMinimum()` (available since Aspose.Words 22.12+).
+
+- When cloning a `Section` using `Section.Clone()`, the resulting section includes all `HeaderFooter` nodes, but they remain linked to the source document's formatting. If inserting the clone into another document, consider calling `HeaderFooter.RemoveHeaderFooterLinkToPrevious()` (or equivalent) to break inherited formatting.
+
+- When copying sections between documents using `NodeImporter.ImportNode()`, specify `ImportFormatMode.KeepSourceFormatting` to preserve source formatting. Without it, the section may adopt formatting from the target document, potentially causing layout shifts.
+
+- Headers and footers are inherited from the previous section *unless* the current section has its own `HeaderFooter` nodes. To break the inheritance and enable independent editing, create or import a `HeaderFooter` for the desired type (e.g., `HeaderFooterType.HeaderPrimary`) and ensure the section's `PageSetup.DifferentFirstPage` and `PageSetup.DifferentOddEven` settings match your intent.
+
+- Section layout modes (via `Section.LayoutMode`) affect only line grid alignment for East Asian content and have no effect on Western text unless explicitly enabled in `Options`.
+
+- When applying `SectionStart.NewPage`, `EvenPage`, or `OddPage`, ensure the preceding section has a closing section break — otherwise, new content may appear on the wrong page.
+
+- A document must contain at least one section. Removing all sections results in an invalid document state and will throw an `InvalidOperationException`.
+
+{{% alert color="primary" %}}
+
+For additional details, see the official documentation:
+- [Section Class](https://reference.aspose.com/words/net/aspose.words/section/)
+- [SectionCollection Class](https://reference.aspose.com/words/net/aspose.words/sectioncollection/)
+- [PageSetup Class](https://reference.aspose.com/words/net/aspose.words/pagesetup/)
+- [HeaderFooter Class](https://reference.aspose.com/words/net/aspose.words/headerfooter/)
+
+{{% /alert %}}
+
 ## Related APIs
 
 ------
