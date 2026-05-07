@@ -80,6 +80,8 @@ The following example shows, how to use this feature. Given that r is an `IDataR
 
 **Note** – Field names are case‑insensitive.
 
+## Limitations and Considerations
+
 ## Related APIs
 
 

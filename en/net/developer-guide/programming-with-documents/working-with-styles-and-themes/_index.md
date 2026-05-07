@@ -100,6 +100,8 @@ And here is how you can set theme properties:
 
 {{< gist "aspose-words-gists" "a73b495f610523670f0847331ef4d6fc" "set-theme-properties.cs" >}}
 
+## Limitations and Considerations
+
 ## Related APIs
 
 - [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) - Manages built-in and user-defined styles in a document.

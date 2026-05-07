@@ -248,6 +248,8 @@ Then, a result document looks as follows.
 
 **Note** – You could use `<<cellMerge [invoice.Number]>>` instead of `<<cellMerge [invoice.IndexOf()]>>` to get the same effect, but using of `IndexOf()` is a more generic approach.
 
+## Limitations and Considerations
+
 ## Related APIs
 
 ------

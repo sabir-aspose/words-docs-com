@@ -97,6 +97,8 @@ John Smith (43 Vogel Street Roslyn Palmerston North 4414)
 
 **Note** – You can use a `restartNum` tag without a data band to dynamically restart list numbering for a containing paragraph, if needed; for example, the tag can be used to restart list numbering for a document inserted dynamically (see “Inserting Documents Dynamically” for more information).
 
+## Limitations and Considerations
+
 ## Related APIs
 
 ------

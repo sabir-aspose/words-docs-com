@@ -34,6 +34,8 @@ Here, `bookmark_expression` defines the name of a bookmark to be inserted during
 
 **Note** – A `bookmark` tag cannot be used within a chart.
 
+## Limitations and Considerations
+
 ## Related APIs
 
 ------

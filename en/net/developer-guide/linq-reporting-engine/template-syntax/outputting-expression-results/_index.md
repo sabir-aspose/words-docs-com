@@ -96,6 +96,8 @@ Given that `i` is an integer number, you can convert the number to a lower‑cas
 
 **Note** – In contrast to format strings, additional number and string formats must not be enclosed with double quotes.
 
+## Limitations and Considerations
+
 ## Related APIs
 
 - [Expression tag syntax](/net/template-syntax/#outputting-expression-results): Full documentation on expression tag structure and components

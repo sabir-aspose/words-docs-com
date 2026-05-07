@@ -60,6 +60,8 @@ Using of variables has the following restrictions:
 - You can not use the contextual object member access feature against a variable. See “Using Contextual Object Member Access” for more information.
 - Using a `var` tag, you can not redefine the value of an iteration variable or a data source.
 
+## Limitations and Considerations
+
 ## Related APIs
 
 

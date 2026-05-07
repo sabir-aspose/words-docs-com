@@ -82,6 +82,8 @@ Note that the **Font**, **ParagraphFormat**, and **PageSetup** properties are up
 
 {{% /alert %}}
 
+## Limitations and Considerations
+
 ## Related APIs
 
 

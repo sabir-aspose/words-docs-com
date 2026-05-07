@@ -37,6 +37,8 @@ The following code example shows you how to turn on support of OpenType features
 
 {{< gist "aspose-words-gists" "7840fae2297fa05bba1ca0608cb81bf1" "open-type-features.cs" >}}
 
+## Limitations and Considerations
+
 ## Related APIs
 
 ------

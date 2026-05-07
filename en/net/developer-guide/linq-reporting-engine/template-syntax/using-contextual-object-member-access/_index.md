@@ -73,6 +73,8 @@ Alternatively, you can use the following template involving the contextual objec
 	</tbody>
 </table>
 
+## Limitations and Considerations
+
 ## Related APIs
 
 ------

@@ -267,6 +267,8 @@ In this case, the engine produces a report as follows.
 
 **Note** – In the previous examples, tag `<<if [false]>>` is used for the sake of simplicity; you can use any other Boolean expression instead of just `false`.
 
+## Limitations and Considerations
+
 ## Related APIs
 
 ------

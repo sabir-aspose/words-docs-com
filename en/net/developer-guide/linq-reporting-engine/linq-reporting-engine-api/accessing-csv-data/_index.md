@@ -118,6 +118,8 @@ Also, you can use `CsvDataLoadOptions` to customize the following characters pla
 - Single-line comment start (the default is sharp)
 - Quotation mark enabling to use other special characters within a value (the default is double quotes)
 
+## Limitations and Considerations
+
 ## Related APIs
 
 

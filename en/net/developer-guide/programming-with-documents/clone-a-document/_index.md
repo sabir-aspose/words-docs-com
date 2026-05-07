@@ -47,6 +47,8 @@ The following code example shows how to clone a document and create a duplicate 
 
 {{< gist "aspose-words-gists" "b2f62f736a2090163de7b0f221cf46d4" "clone-document.cs" >}}
 
+## Limitations and Considerations
+
 ## Related APIs
 
 

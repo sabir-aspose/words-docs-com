@@ -95,6 +95,8 @@ The following code example shows how to apply font formatting to the **FormField
 
 {{< gist "aspose-words-gists" "b09907fef4643433271e4e0e912921b0" "form-fields-font-formatting.cs" >}}
 
+## Limitations and Considerations
+
 ## Related APIs
 
 - [FormFieldCollection](https://reference.aspose.com/words/net/aspose.words.fields/formfieldcollection/)

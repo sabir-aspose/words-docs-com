@@ -132,6 +132,8 @@ The following code example shows how to prepend a line number to each line:
 
 {{< gist "aspose-words-gists" "27c3408b2c7fbee8d6dc6a1c8b61c105" "line-counter.cs" >}}
 
+## Limitations and Considerations
+
 ## Related APIs
 
 ------

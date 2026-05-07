@@ -91,6 +91,8 @@ The following example shows how to create data relations using **GetChildDataSou
 
 {{< gist "aspose-words-gists" "c68048adceb3bda6a1511c7d6f5ebf7b" "get-child-data-source.cs" >}}
 
+## Limitations and Considerations
+
 ## Related APIs
 
 ------

@@ -49,6 +49,8 @@ The following code example shows how to set the position of footnote and endnote
 
 {{< gist "aspose-words-gists" "3b39c2019380ee905e7d9596494916a4" "set-footnote-and-endnote-position.cs" >}}
 
+## Limitations and Considerations
+
 ## Related APIs
 
 ------

@@ -484,6 +484,8 @@ Private Use Area (PUA) characters appear mostly for Windows symbolic fonts like 
 </details>
 {{% /alert %}}
 
+## Limitations and Considerations
+
 ## Related APIs
 
 ------

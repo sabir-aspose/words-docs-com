@@ -171,6 +171,8 @@ If you want to get the list of available fonts, which, for example, can be use
 
 {{< gist "aspose-words-gists" "7e64f6d40825be58a8c12f1307c12964" "available-fonts.cs" >}}
 
+## Limitations and Considerations
+
 ## Related APIs
 
 

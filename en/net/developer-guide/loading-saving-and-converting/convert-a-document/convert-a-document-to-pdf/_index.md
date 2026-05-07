@@ -102,6 +102,8 @@ Using the **OptimizeOutput** property may affect the accuracy of content display
 
 - The article [Accessibility Issue Warnings When Saving to PDF/A and PDF/UA](/words/net/warnings-when-saving-to-pdfa-and-pdfua/) describes what content accessibility requirements PDF/A and PDF/UA impose
 
+## Limitations and Considerations
+
 ## Related APIs
 
 - [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) class

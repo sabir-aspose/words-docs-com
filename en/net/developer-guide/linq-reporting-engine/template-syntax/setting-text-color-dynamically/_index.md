@@ -85,6 +85,8 @@ To output every item into a separate table row, which text is colored dynamicall
 
 **Note** – Start and end `textColor` tags can be located either in paragraphs of a single story (or table cell) or in rows of a single document table in the same way as `foreach` tags.
 
+## Limitations and Considerations
+
 ## Related APIs
 
 ------

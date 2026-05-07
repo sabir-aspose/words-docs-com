@@ -365,6 +365,8 @@ options.PreserveSpaces = true;
 JsonDataSource dataSource = new JsonDataSource(..., options);
 {{< /highlight >}}
 
+## Limitations and Considerations
+
 ## Related APIs
 
 

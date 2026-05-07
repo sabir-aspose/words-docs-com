@@ -123,6 +123,8 @@ If you do not use Mail Merge regions, then it will be similar to Microsoft Word 
 
 {{% /alert %}}
 
+## Limitations and Considerations
+
 ## Related APIs
 
 ------

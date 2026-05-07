@@ -97,6 +97,8 @@ The following code example shows how to extract images from a document:
 
 {{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "extract-images.cs" >}}
 
+## Limitations and Considerations
+
 ## Related APIs
 
 

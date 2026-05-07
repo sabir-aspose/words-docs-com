@@ -86,6 +86,8 @@ The following code example shows how to optimize document content for Microsoft 
 
 {{< gist "aspose-words-gists" "5d2997d42c1f1fad79b18873f170855f" "optimize-for.cs" >}}
 
+## Limitations and Considerations
+
 ## Related APIs
 
 

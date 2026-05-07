@@ -72,6 +72,8 @@ By default, the engine stretches an image filling a textbox to the size of the t
 
 **Note** – If the size of the image is greater than the size of the textbox, then the `fitSizeLim` switch acts like `fitHeight` or `fitWidth`. Otherwise, the `fitSizeLim` switch acts like `fitSize`.
 
+## Limitations and Considerations
+
 ## Related APIs
 
 ------

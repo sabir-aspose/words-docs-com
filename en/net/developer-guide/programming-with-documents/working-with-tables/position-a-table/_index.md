@@ -87,6 +87,8 @@ The following code example shows how to get the distance between a table and its
 
 {{< gist "aspose-words-gists" "8df1ad0825619cab7c80b571c6e6ba99" "distance-between-table-surrounding-text.cs" >}}
 
+## Limitations and Considerations
+
 ## Related APIs
 
 

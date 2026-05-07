@@ -89,6 +89,8 @@ If you want to count the number of lines in a paragraph for any Word document, t
 
 {{< gist "aspose-words-gists" "4b5526c3c0d9cad73e05fb4b18d2c3d2" "get-paragraph-lines.cs" >}}
 
+## Limitations and Considerations
+
 ## Related APIs
 
 ------

@@ -307,6 +307,8 @@ When there is no person at all, the engine produces a report as follows.
 
 **Note** – Table‑column conditional blocks can themselves be nested to table‑row data bands and conditional blocks, but not conversely: Nesting of table‑row data bands and conditional blocks into table‑column conditional blocks is forbidden.
 
+## Limitations and Considerations
+
 ## Related APIs
 
 ------

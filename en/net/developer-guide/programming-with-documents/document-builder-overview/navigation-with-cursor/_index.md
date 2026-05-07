@@ -93,6 +93,8 @@ The following code example shows how to move to a specific section and a specifi
 
 {{< gist "aspose-words-gists" "1a2c340d1a9dde6fe70c2733084d9aab" "move-to-section.cs" >}}
 
+## Limitations and Considerations
+
 ## Related APIs
 
 - [DocumentBuilder.CurrentNode](https://reference.aspose.com/words/net/aspose.words/documentbuilder/currentnode/)

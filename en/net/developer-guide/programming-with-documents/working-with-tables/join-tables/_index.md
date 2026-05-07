@@ -30,6 +30,8 @@ The following code example shows how to merge rows from two tables into one:
 
 {{< gist "aspose-words-gists" "b0735c64408bcb2c063f96f7c9d5af75" "combine-rows.cs" >}}
 
+## Limitations and Considerations
+
 ## Related APIs
 
 

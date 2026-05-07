@@ -27,6 +27,8 @@ The following code example shows how to convert any document to MHTML and send i
 
 {{< gist "aspose-words-gists" "537e7d4e2ddd23fa701dc4bf315064b9" "docx-to-mhtml.cs" >}}
 
+## Limitations and Considerations
+
 ## Related APIs
 
 ------

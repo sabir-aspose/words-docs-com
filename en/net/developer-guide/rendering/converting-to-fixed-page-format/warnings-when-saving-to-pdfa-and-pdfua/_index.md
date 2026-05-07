@@ -38,6 +38,8 @@ All warnings are of [WarningType](https://reference.aspose.com/words/net/aspose.
 | "The document contains Unicode PUA characters. This violates the compliance requirements. The output document will not be fully compliant." | {{< emoticons/tick >}} |                        |
 | "The document contains .notdef glyphs. This violates the compliance requirements. The output document will not be fully compliant." | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
+## Limitations and Considerations
+
 ## Related APIs
 
 ------

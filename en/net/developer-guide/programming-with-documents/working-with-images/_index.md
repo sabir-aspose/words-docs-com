@@ -114,6 +114,8 @@ The following code example shows how to save images as WMF with RTF save options
 
 {{< gist "aspose-words-gists" "6f849e51240635a6322ab0460938c922" "saving-images-as-wmf.cs" >}}
 
+## Limitations and Considerations
+
 ## Related APIs
 
 

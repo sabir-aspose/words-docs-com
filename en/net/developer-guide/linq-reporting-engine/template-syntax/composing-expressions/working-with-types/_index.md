@@ -33,6 +33,8 @@ However, you can use the identifier of a visible type in template expressions on
 
 Also, the engine enables you to use anonymous types in template expressions. Such types are useful while composing expressions with grouping by multiple keys. See "Appendix A. Enumeration Extension Methods" for the examples.
 
+## Limitations and Considerations
+
 ## Related APIs
 
 ------

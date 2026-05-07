@@ -38,6 +38,8 @@ Restricted types can be set only before building the very first report. Once res
 
 **Note** – To determine whether access to a particular type member should be restricted, some reflective calls are done by the engine under the hood, so for better performance, it is recommended to keep the set of restricted types minimal by restricting access to members of only those types that are crucial in terms of security.
 
+## Limitations and Considerations
+
 ## Related APIs
 
 ------

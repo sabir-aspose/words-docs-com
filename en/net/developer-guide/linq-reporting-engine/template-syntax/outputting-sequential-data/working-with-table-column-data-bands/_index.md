@@ -181,6 +181,8 @@ For more examples of templates for typical scenarios involving table‑column da
 
 {{% /alert %}}
 
+## Limitations and Considerations
+
 ## Related APIs
 
 ------

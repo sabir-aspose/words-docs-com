@@ -160,6 +160,8 @@ The following code example shows how to use typed properties to access nodes of 
 
 {{< gist "aspose-words-gists" "3e9d92093b2f5995f984791bfc10c944" "typed-access.cs" >}}
 
+## Limitations and Considerations
+
 ## Related APIs
 
 ------

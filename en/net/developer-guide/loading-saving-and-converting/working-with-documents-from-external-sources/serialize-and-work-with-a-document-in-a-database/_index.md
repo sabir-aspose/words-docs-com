@@ -101,6 +101,8 @@ The following code example shows how to delete a document from the database, usi
 
 {{< gist "aspose-words-gists" "f8a622f8bc1cf3c2fa8a7a9be359faa2" "delete-from-database.cs" >}}
 
+## Limitations and Considerations
+
 ## Related APIs
 
 ------
