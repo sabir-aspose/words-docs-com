@@ -104,6 +104,12 @@ Using the **OptimizeOutput** property may affect the accuracy of content display
 
 ## Limitations and Considerations
 
+- Converting large or complex documents to PDF may be time- and memory-intensive.
+- Rendering fidelity depends on the availability of fonts — missing fonts are substituted based on system settings.
+- PDF/A and PDF/UA compliance imposes additional requirements: all fonts must be embedded, color spaces must be valid, and content must meet accessibility standards.
+- Using `OptimizeOutput` may slightly affect visual fidelity by merging glyphs or removing empty canvases.
+- Some advanced Word features (e.g., certain drawing objects, complex table layouts, or field codes) may not render identically to Microsoft Word.
+
 ## Related APIs
 
 - [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) class
