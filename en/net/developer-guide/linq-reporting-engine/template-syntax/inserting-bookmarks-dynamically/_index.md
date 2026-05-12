@@ -40,6 +40,10 @@ Here, `bookmark_expression` defines the name of a bookmark to be inserted during
 
 ## Related APIs
 
+- [Bookmark](https://reference.aspose.com/words/net/aspose.words/bookmark/)
+- [BookmarkCollection](https://reference.aspose.com/words/net/aspose.words/bookmarkcollection/)
+- [Document.Bookmarks](https://reference.aspose.com/words/net/aspose.words/document/bookmarks/)
+
 ------
 
 ## FAQ

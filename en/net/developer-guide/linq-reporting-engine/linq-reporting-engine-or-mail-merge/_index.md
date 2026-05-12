@@ -67,6 +67,11 @@ The good news is that LINQ Reporting Engine can be further extended to fulfill a
 
 ## Related APIs
 
+- [Document](https://reference.aspose.com/words/net/aspose.words/document/)
+- [MailMerge](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/)
+- [LinqReportingEngine](https://reference.aspose.com/words/net/aspose.words.reporting/linqreportingengine/)
+- [IMailMergeDataSource](https://reference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource/)
+
 ------
 
 ## FAQ

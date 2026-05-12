@@ -106,6 +106,11 @@ This section covers specific constraints and important considerations for docume
 
 ## Related APIs
 
+- [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) — Save options for DOC/DOT formats, includes [Password](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/password/) property.
+- [OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/) — Save options for DOCX, DOTX, DOCM, DOTM, and FlatOpc formats, includes [Password](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/password/) property.
+- [FileFormatInfo](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/) — Contains [IsEncrypted](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/isencrypted/) property to detect encryption.
+- [IncorrectPasswordException](https://reference.aspose.com/words/net/aspose.words/incorrectpasswordexception/) — Exception thrown when an incorrect password is provided for an encrypted document.
+
 ------
 
 ## FAQ
