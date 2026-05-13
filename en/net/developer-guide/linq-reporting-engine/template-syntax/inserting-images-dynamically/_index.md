@@ -79,8 +79,6 @@ By default, the engine stretches an image filling a textbox to the size of the t
 - By default, images are stretched to fill the textbox without preserving their original aspect ratio.
 - The `-fitSizeLim` switch adjusts the textbox size to fit the image but never increases it beyond the original dimensions; if the image exceeds the textbox, it behaves like `-fitHeight` or `-fitWidth`.
 
-## Related APIs
-
 ------
 
 ## FAQ

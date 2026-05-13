@@ -81,8 +81,6 @@ The following code example shows how to remove read-only access for a document:
 
 {{< gist "aspose-words-gists" "7cf6735e83804ba8942663695b22ee42" "remove-read-only-restriction.cs" >}}
 
-## Limitations and Considerations
-
 ## Related APIs
 
 - [WriteProtection](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/)  

@@ -65,10 +65,6 @@ The following code example shows how to set the title and description properties
 
 {{< gist "aspose-words-gists" "458eb4fd5bd1de8b06fab4d1ef1acdc6" "table-title-and-description.cs" >}}
 
-## Limitations and Considerations
-
-## Related APIs
-
 ------
 
 ## FAQ

@@ -62,8 +62,6 @@ If your profiling results indicate a possible memory issue in Aspose.Words, plea
 * [Mail Merge and Reporting](/words/net/mail-merge-and-reporting/)
 * [Working with Fields](/words/net/working-with-fields/)
 
-## Related APIs
-
 ------
 
 ## FAQ

@@ -51,10 +51,6 @@ The following code example shows how to get such a list of add‑ins:
 
 {{< gist "aspose-words-gists" "8c31c018ea71c92828223776b1a113f7" "get-list-of-addins.cs" >}}
 
-## Limitations and Considerations
-
-## Related APIs
-
 ------
 
 ## FAQ

@@ -140,8 +140,6 @@ For a tag with its name prepended with an exclamation mark, the engine treats a 
 
 - When applied to table cells containing only a template tag, the option removes the entire paragraph (and thus the cell content), which may collapse the row if it becomes empty. The option does not delete the table structure itself.
 
-## Related APIs
-
 ------
 
 ## FAQ

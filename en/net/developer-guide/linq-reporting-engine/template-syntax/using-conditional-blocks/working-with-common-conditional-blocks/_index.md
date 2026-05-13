@@ -64,10 +64,6 @@ You can use data bands within common conditional blocks as well. For example, gi
 <</foreach>><</if>>
 {{< /highlight >}}
 
-## Limitations and Considerations
-
-## Related APIs
-
 ------
 
 ## FAQ

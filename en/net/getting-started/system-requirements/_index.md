@@ -108,8 +108,6 @@ Aspose.Words for .NET can be used to develop applications in any development en
 			</tr>
 </table>
 
-## Related APIs
-
 ------
 
 ## FAQ

@@ -66,8 +66,6 @@ You can fork the repository, edit the source code, and create a pull request to 
 
 - [Details on how to install NuGet Package Manager](https://docs.microsoft.com/nuget/guides/install-nuget)
 
-## Related APIs
-
 ------
 
 ## FAQ

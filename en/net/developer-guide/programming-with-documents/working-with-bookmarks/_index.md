@@ -90,10 +90,6 @@ The following code example shows how to show/ hide bookmarks:
 
 {{< gist "aspose-words-gists" "c4555b1a088856e21394104faeb86e51" "show-hide-bookmarked-content.cs" >}}
 
-## Limitations and Considerations
-
-## Related APIs
-
 ------
 
 ## FAQ

@@ -38,10 +38,6 @@ While building a report, `uri_or_bookmark_expression` and `display_text_expressi
 
 **Note** – A `link` tag cannot be used within a chart.
 
-## Limitations and Considerations
-
-## Related APIs
-
 ------
 
 ## FAQ

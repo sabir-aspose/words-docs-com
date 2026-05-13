@@ -35,8 +35,6 @@ Summarizing documents with Aspose.Words saves time and helps you focus on essent
 
 {{% /alert %}}
 
-## Related APIs
-
 ------
 
 ## FAQ

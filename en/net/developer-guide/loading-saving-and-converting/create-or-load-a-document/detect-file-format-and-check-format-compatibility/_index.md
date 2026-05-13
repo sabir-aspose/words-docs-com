@@ -77,10 +77,6 @@ The following files are used in the example above. The file name is on the left 
 |  | Test File (Enc).docx | Encrypted Office Open XML WordprocessingML document. |
 | Unsupported file formats | Test File (JPG).jpg | JPEG image file. |
 
-## Limitations and Considerations
-
-## Related APIs
-
 ------
 
 ## FAQ

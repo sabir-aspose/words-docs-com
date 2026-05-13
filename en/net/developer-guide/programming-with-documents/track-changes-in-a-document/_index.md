@@ -101,8 +101,6 @@ The following code example shows how to apply different properties with revision
 
 {{< gist "aspose-words-gists" "e8d71fde166d275d0fc9471c56c3ad39" "shape-revision.cs" >}}
 
-## Limitations and Considerations
-
 ## Related APIs
 
 

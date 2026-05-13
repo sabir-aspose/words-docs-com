@@ -108,8 +108,6 @@ A good approach is to develop a .NET assembly that references Aspose.Words and d
 
 Reducing the number of classes and methods that you need to invoke via COM Interop could simplify your project, because using .NET classes via COM Interop often requires advanced skills.
 
-## Related APIs
-
 ------
 
 ## FAQ

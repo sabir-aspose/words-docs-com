@@ -124,10 +124,6 @@ persons.Union(otherPersons){{< /highlight >}}An implicit reference conversion mu
 | `Where(Predicate)` | {{< highlight csharp >}}
 persons.Where(p => p.Age > 18){{< /highlight >}} |
 
-## Limitations and Considerations
-
-## Related APIs
-
 ------
 
 ## FAQ

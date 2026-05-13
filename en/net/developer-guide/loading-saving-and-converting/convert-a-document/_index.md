@@ -141,8 +141,6 @@ Please note that below are the most popular conversion combinations, and not eve
 	</div>
 </div>
 
-## Limitations and Considerations
-
 ## Related APIs
 
 - [Document](https://reference.aspose.com/words/net/aspose.words/document/)

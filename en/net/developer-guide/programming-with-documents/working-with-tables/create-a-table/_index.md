@@ -151,8 +151,6 @@ Let's take a closer look at these ways of creating tables and compare their pros
 | From HTML | Can create a new table from HTML source using tags like `<table>`, `<tr>`, `<td>` | Not all possible Microsoft Word table formats can be applied to HTML |
 | Cloning an existing table | You can create a copy of an existing table while retaining all row and cell formatting | The appropriate child nodes must be removed before the table is ready for use |
 
-## Limitations and Considerations
-
 ## Related APIs
 
 

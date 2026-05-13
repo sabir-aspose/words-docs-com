@@ -193,8 +193,6 @@ This setting works only for ANSI (Windows-1252) encoding text. Writing a non-ANS
 
 {{% /alert %}}
 
-## Limitations and Considerations
-
 ## Related APIs
 
 

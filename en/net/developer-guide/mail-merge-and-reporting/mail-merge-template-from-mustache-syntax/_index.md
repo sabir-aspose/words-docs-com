@@ -102,8 +102,6 @@ And after applying the **UseNonMergeFields** property:
 
 <img src="mustache-if-field-2.png" alt="mustache-if-field-2.png" style="width:800px"/>
 
-## Limitations and Considerations
-
 ## Related APIs
 
 

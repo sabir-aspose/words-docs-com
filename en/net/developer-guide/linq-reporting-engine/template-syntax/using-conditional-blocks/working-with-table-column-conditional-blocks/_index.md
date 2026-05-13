@@ -321,8 +321,6 @@ Limitations and considerations for table-column conditional blocks include:
 
 Note that table-column conditional blocks themselves can be nested inside table-row data bands and conditional blocks.
 
-## Related APIs
-
 ------
 
 ## FAQ

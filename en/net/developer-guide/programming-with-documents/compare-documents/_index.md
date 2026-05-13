@@ -77,8 +77,6 @@ The following code example shows how to set the advanced comparing properties:
 
 {{< gist "aspose-words-gists" "66cba61d079d8ef1e676820633ba4586" "compare-options.cs" >}}
 
-## Limitations and Considerations
-
 ## Related APIs
 
 

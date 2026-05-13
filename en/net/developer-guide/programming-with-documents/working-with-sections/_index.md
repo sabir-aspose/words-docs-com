@@ -196,8 +196,6 @@ For additional details, see the official documentation:
 
 {{% /alert %}}
 
-## Related APIs
-
 ------
 
 ## FAQ

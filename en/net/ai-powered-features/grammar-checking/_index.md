@@ -35,8 +35,6 @@ Checking grammar with Aspose.Words improves the quality of your work and makes i
 
 {{% /alert %}}
 
-## Related APIs
-
 ------
 
 ## FAQ

@@ -63,8 +63,6 @@ To learn more about the different PDF standards, check the following ISOs:
 * [How to set up ActualText entry for text](https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html), the “Add Actual Text for an Abbreviated Term, Formula, or Non‑Unicode Symbol” section
 * [Unicode mapping for common Windows symbolic fonts](http://www.alanwood.net/demos/webdings.html)
 
-## Limitations and Considerations
-
 ## Related APIs
 
 - [`PdfSaveOptions`](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/)

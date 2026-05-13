@@ -273,8 +273,6 @@ In this case, the engine produces a report as follows.
 - When opening and closing IF tags are placed in the same cell of a single-column table row, the engine treats the block as a common conditional block by default.
 - To force the engine to treat such a block as a table-row conditional block, specify the `greedy` switch in the closing tag, for example: `<<if [condition]>> ... << /if -greedy>>`.
 
-## Related APIs
-
 ------
 
 ## FAQ

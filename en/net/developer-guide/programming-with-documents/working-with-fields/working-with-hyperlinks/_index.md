@@ -53,8 +53,6 @@ The following code example shows how to find all hyperlinks in Word document and
 
 {{< gist "aspose-words-gists" "0213851d47551e83af42233f4d075cf6" "replace-hyperlinks.cs" >}}
 
-## Limitations and Considerations
-
 ## Related APIs
 
 

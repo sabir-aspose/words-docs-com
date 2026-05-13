@@ -99,10 +99,6 @@ The following code example shows how to verify OpenDocument either it is encrypt
 
 {{< gist "aspose-words-gists" "af95c7a408187bb25cf9137465fe5ce6" "verify-encrypted-document.cs" >}}
 
-## Limitations and Considerations
-
-## Related APIs
-
 ------
 
 ## FAQ

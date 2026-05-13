@@ -109,8 +109,6 @@ Please visit the [Licensing](/words/net/licensing/) page for information on lice
 
 For more information on Aspose.Words technical support, take a look at the [Support page](/words/net/technical-support/).
 
-## Related APIs
-
 ------
 
 ## FAQ

@@ -63,8 +63,6 @@ The good news is that LINQ Reporting Engine can be further extended to fulfill a
 
 - [List of fields supported by Microsoft Word](https://support.microsoft.com/en-us/office/list-of-field-codes-in-word-1ad6d91a-55a7-4a8d-b535-cf7888659a51)
 
-## Limitations and Considerations
-
 ## Related APIs
 
 - [Document](https://reference.aspose.com/words/net/aspose.words/document/)

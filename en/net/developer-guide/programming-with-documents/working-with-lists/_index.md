@@ -67,10 +67,6 @@ The following code example shows how to create a list and restart it for each se
 
 {{< gist "aspose-words-gists" "a1dfeba1e0480d5b277a61742c8921af" "restart-list-at-each-section.cs" >}}
 
-## Limitations and Considerations
-
-## Related APIs
-
 ------
 
 ## FAQ

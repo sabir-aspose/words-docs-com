@@ -28,10 +28,6 @@ LINQ Reporting Engine enables you to use the following built‑in extension meth
 
 **Note** – Extension methods, other than the built‑in ones, can be used only in the form of plain static methods in template expressions.
 
-## Limitations and Considerations
-
-## Related APIs
-
 ------
 
 ## FAQ

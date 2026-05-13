@@ -35,8 +35,6 @@ Translating documents with Aspose.Words saves time and makes it easy to integrat
 
 {{% /alert %}}
 
-## Related APIs
-
 ------
 
 ## FAQ

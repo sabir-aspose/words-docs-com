@@ -45,10 +45,6 @@ The following code example shows how to remove duplicate styles from a document:
 
 {{< gist "aspose-words-gists" "669f3d08f45b14f75f9d2cb17fa1056a" "cleanup-duplicate-style.cs" >}}
 
-## Limitations and Considerations
-
-## Related APIs
-
 ------
 
 ## FAQ

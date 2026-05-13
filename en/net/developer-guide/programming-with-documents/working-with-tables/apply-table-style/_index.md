@@ -91,8 +91,6 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% /alert %}}
 
-## Limitations and Considerations
-
 ## Related APIs
 
 - [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/)
