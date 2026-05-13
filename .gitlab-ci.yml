@@ -1,7 +1,7 @@
 variables:
   LANG: C.UTF-8
   LC_ALL: C.UTF-8
-  BRANCH_NAME: ci-fix
+  BRANCH_NAME: master
   DOCKER_TLS_CERTDIR: "/certs"
   # GIT_SSL_NO_VERIFY: "true"  # Add this line to ignore SSL verification, because we have self-signed certificate
 
@@ -23,7 +23,7 @@ variables:
   COPY_FOLDER: /home/service_words
   COPY_USER_NAME: service_words
   COPY_SERVER_ADDRESS: 172.20.4.232
-  SYNC_TYPE: words-qa # "words" (https://docs.aspose.com/words/) or "words-qa" (https://docs.aspose.com/words-qa/)
+  SYNC_TYPE: words # "words" (https://docs.aspose.com/words/) or "words-qa" (https://docs.aspose.com/words-qa/)
   SYNC_FOLDER: /var/www/docs.aspose.com/html/$SYNC_TYPE
 
 stages:
