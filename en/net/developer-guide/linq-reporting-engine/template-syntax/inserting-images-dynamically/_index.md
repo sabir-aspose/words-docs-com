@@ -72,7 +72,14 @@ By default, the engine stretches an image filling a textbox to the size of the t
 
 **Note** – If the size of the image is greater than the size of the textbox, then the `fitSizeLim` switch acts like `fitHeight` or `fitWidth`. Otherwise, the `fitSizeLim` switch acts like `fitSize`.
 
------- 
+## Limitations and Considerations
+
+- Image expressions must evaluate to one of the following types: `byte[]`, `System.IO.Stream`, `System.Drawing.Image`, or `string` (containing a URI, file path, or Base64-encoded image).
+- When the expression returns a `Stream`, the engine automatically closes it after building the image; the stream must not be accessed afterward.
+- By default, images are stretched to fill the textbox without preserving their original aspect ratio.
+- The `-fitSizeLim` switch adjusts the textbox size to fit the image but never increases it beyond the original dimensions; if the image exceeds the textbox, it behaves like `-fitHeight` or `-fitWidth`.
+
+------
 
 ## FAQ
 

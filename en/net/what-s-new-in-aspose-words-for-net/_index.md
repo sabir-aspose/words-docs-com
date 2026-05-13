@@ -182,10 +182,9 @@ The ability to render **VerticalFarEast** and **HorizontalRotatedFarEast** text 
 ### Other
 
 * new advanced print control options have been added: <sup>25.11</sup>
-
-    * [A new callback interface](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/), similar to `IWarningCallback`, has been introduced to allow programmatic control over page skipping during print operations.
-    * A new public property has been added to accurately [retrieve the actual number of pages](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/totalpagesprinted/) rendered by a print job.
-    * The ability to specify distinct target printers for [color and monochrome](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/colormode/) (black & white) pages within a single print job has also been introduced.
+* [A new callback interface](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/), similar to `IWarningCallback`, has been introduced to allow programmatic control over page skipping during print operations.
+* A new public property has been added to accurately [retrieve the actual number of pages](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/totalpagesprinted/) rendered by a print job.
+* The ability to specify distinct target printers for [color and monochrome](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/colormode/) (black & white) pages within a single print job has also been introduced.
 
 {{% alert color="primary" %}}
 

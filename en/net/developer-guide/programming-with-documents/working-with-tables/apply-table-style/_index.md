@@ -91,7 +91,20 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% /alert %}}
 
-------  
+## Related APIs
+
+- [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/)
+- [TableStyle](https://reference.aspose.com/words/net/aspose.words/tablestyle/)
+- [ConditionalStyle](https://reference.aspose.com/words/net/aspose.words/conditionalstyle/)
+- [ConditionalStyleCollection](https://reference.aspose.com/words/net/aspose.words/conditionalstylecollection/)
+- [TableStyleOptions](https://reference.aspose.com/words/net/aspose.words.tablestyleoptions/)
+- [StyleCollection.Add](https://reference.aspose.com/words/net/aspose.words/stylecollection/add/)
+- [Document.ExpandTableStylesToDirectFormatting](https://reference.aspose.com/words/net/aspose.words/document/expandtablestylestodirectformatting/)
+- [Table.Style](https://reference.aspose.com/words/net/aspose.words.tables/table/style/)
+- [Table.StyleIdentifier](https://reference.aspose.com/words/net/aspose.words.tables/table/styleidentifier/)
+- [Table.StyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/table/styleoptions/)
+
+------
 
 ## FAQ
 

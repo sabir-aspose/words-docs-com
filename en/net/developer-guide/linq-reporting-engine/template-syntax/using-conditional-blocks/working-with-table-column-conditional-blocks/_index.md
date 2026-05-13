@@ -307,7 +307,21 @@ When there is no person at all, the engine produces a report as follows.
 
 **Note** – Table‑column conditional blocks can themselves be nested to table‑row data bands and conditional blocks, but not conversely: Nesting of table‑row data bands and conditional blocks into table‑column conditional blocks is forbidden.
 
------- 
+## Limitations and Considerations
+
+Limitations and considerations for table-column conditional blocks include:
+
+- **Nesting restrictions**: Table-column conditional blocks can contain table-column data bands, but they cannot contain table-row data bands or table-row conditional blocks. Attempting to nest table-row constructs inside a table-column conditional block will raise a template-validation error.
+
+- **Horizontal switch requirement**: The `-horz` switch is required for column-level conditional logic. Without it, the conditional block operates on rows instead of columns, so columns will not be hidden or shown as intended.
+
+- **Field validation**: The engine throws a `TemplateException` indicating an unknown field when the condition expression references a property that does not exist in the data source. Ensure property names match exactly (case-sensitive) the members of the object supplied to the reporting engine.
+
+- **Empty collection handling**: When using table-column data bands with collections, provide alternate content for empty collections using conditional blocks that check with the `Any()` method, e.g., `<<if [!persons.Any()] -horz>>No data<<else>>...<</if>>`.
+
+Note that table-column conditional blocks themselves can be nested inside table-row data bands and conditional blocks.
+
+------
 
 ## FAQ
 

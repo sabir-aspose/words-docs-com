@@ -91,7 +91,21 @@ The following code example shows how to add a mapped field using the [Add](https
 
 {{< gist "aspose-words-gists" "b4bab1bf22437a86d8062e91cf154494" "mapped-data-fields.cs" >}}
 
------- 
+## Related APIs
+
+
+- **Mail Merge Rule Fields**:
+  - [FieldNext](https://reference.aspose.com/words/net/aspose.words.fields/fieldnext/)
+  - [FieldNextIf](https://reference.aspose.com/words/net/aspose.words.fields/fieldnextif/)
+  - [FieldSkipIf](https://reference.aspose.com/words/net/aspose.words.fields/fieldskipif/)
+
+- **Template Inspection Methods**:
+  - [MailMerge.GetFieldNames()](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getfieldnames/)
+  - [MailMerge.GetRegionsHierarchy()](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/)
+
+- **Data Mapping**:
+  - [MailMerge.MappedDataFields](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/mappeddatafields/)
+  - [MappedDataFieldCollection.Add()](https://reference.aspose.com/words/net/aspose.words.mailmerging/mappeddatafieldcollection/add/)
 
 ## FAQ
 

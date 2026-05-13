@@ -151,7 +151,16 @@ Let's take a closer look at these ways of creating tables and compare their pros
 | From HTML | Can create a new table from HTML source using tags like `<table>`, `<tr>`, `<td>` | Not all possible Microsoft Word table formats can be applied to HTML |
 | Cloning an existing table | You can create a copy of an existing table while retaining all row and cell formatting | The appropriate child nodes must be removed before the table is ready for use |
 
------- 
+## Related APIs
+
+
+- [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)
+- [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/)
+- [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/)
+- [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/)
+- [Node.Clone](https://reference.aspose.com/words/net/aspose.words/node/clone/)
+- [DocumentBuilder.InsertHtml](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserthtml/)
+- [Table.EnsureMinimum](https://reference.aspose.com/words/net/aspose.words.tables/table/ensureminimum/)
 
 ## FAQ
 

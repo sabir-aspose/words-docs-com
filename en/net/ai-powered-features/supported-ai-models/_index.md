@@ -87,7 +87,7 @@ internal class CustomAiModel : OpenAiModel
 }
 {{< /highlight >}}
 
------- 
+------
 
 ## FAQ
 

@@ -248,7 +248,15 @@ Then, a result document looks as follows.
 
 **Note** – You could use `<<cellMerge [invoice.Number]>>` instead of `<<cellMerge [invoice.IndexOf()]>>` to get the same effect, but using of `IndexOf()` is a more generic approach.
 
------- 
+## Limitations and Considerations
+
+- All cells intended for merging must contain a `cellMerge` tag specifying the same direction (`-horz`, `-both`, or vertical by default).
+- Cells must not already be merged in a conflicting direction, except when using the `-both` switch.
+- Merging occurs only when adjacent cells contain identical text after trimming leading and trailing whitespace.
+- When an expression is provided (e.g., `<<cellMerge [expression]>>`), merging is discarded if the expressions evaluate to different values, even if textual content matches.
+- The `cellMerge` tag functions normally within table data bands.
+
+------
 
 ## FAQ
 

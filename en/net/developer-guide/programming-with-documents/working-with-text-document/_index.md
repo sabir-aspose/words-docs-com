@@ -86,7 +86,7 @@ The following code example shows how to export list levels using space character
 
 {{< gist "aspose-words-gists" "ddafc3430967fb4f4f70085fa577d01a" "use-space-for-list-indentation.cs" >}}
 
------- 
+------
 
 ## FAQ
 

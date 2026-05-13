@@ -118,7 +118,13 @@ Also, you can use `CsvDataLoadOptions` to customize the following characters pla
 - Single-line comment start (the default is sharp)
 - Quotation mark enabling to use other special characters within a value (the default is double quotes)
 
----
+## Related APIs
+
+
+- `CsvDataSource` — Provides data from CSV content to the reporting engine.
+- `CsvDataLoadOptions` — Specifies options for loading CSV data, such as handling headers and customizing delimiters.
+- `ReportingEngine` — Builds reports by processing template documents with data sources.
+- `Document` — Represents a document loaded with a template for report generation.
 
 ## FAQ
 

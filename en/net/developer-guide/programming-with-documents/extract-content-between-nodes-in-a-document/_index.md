@@ -97,7 +97,18 @@ The following code example shows how to extract images from a document:
 
 {{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "extract-images.cs" >}}
 
------- 
+## Related APIs
+
+
+- [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/)
+- [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/)
+- [Run](https://reference.aspose.com/words/net/aspose.words/run/)
+- [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/)
+- [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/)
+- [BookmarkStart](https://reference.aspose.com/words/net/aspose.words/bookmark/bookmarkstart/)
+- [BookmarkEnd](https://reference.aspose.com/words/net/aspose.words/bookmark/bookmarkend/)
+- [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words.commentrangestart/)
+- [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words.commentrangeend/)
 
 ## FAQ
 

@@ -84,7 +84,14 @@ The following code  example shows how to convert all `IF` fields in the last par
 
 {{< gist "aspose-words-gists" "f3592014d179ecb43905e37b2a68bc92" "unlink-fields-in-paragraph.cs" >}}
 
-------  
+## Related APIs
+
+- [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/)
+- [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/)
+- [FieldSeparator](https://reference.aspose.com/words/net/aspose.words.fields/fieldseparator/)
+- [FieldType](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/)
+
+------
 
 ## FAQ
 

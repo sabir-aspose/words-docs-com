@@ -34,7 +34,17 @@ Here, `bookmark_expression` defines the name of a bookmark to be inserted during
 
 **Note** – A `bookmark` tag cannot be used within a chart.
 
------- 
+## Limitations and Considerations
+
+- A `bookmark` tag cannot be used within a chart.
+
+## Related APIs
+
+- [Bookmark](https://reference.aspose.com/words/net/aspose.words/bookmark/)
+- [BookmarkCollection](https://reference.aspose.com/words/net/aspose.words/bookmarkcollection/)
+- [Document.Bookmarks](https://reference.aspose.com/words/net/aspose.words/document/bookmarks/)
+
+------
 
 ## FAQ
 

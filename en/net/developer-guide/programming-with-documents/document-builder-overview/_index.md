@@ -82,7 +82,21 @@ Note that the **Font**, **ParagraphFormat**, and **PageSetup** properties are up
 
 {{% /alert %}}
 
------- 
+## Related APIs
+
+
+- [Document](https://reference.aspose.com/words/net/aspose.words/document/)
+- [Font](https://reference.aspose.com/words/net/aspose.words/font/)
+- [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat/)
+- [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup/)
+- [CellFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/cellformat/)
+- [RowFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/rowformat/)
+- [DocumentBuilder.MoveToBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetobookmark/)
+- [DocumentBuilder.InsertBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertbookmark/)
+- [DocumentBuilder.Write](https://reference.aspose.com/words/net/aspose.words/documentbuilder/write/)
+- [DocumentBuilder.Writeln](https://reference.aspose.com/words/net/aspose.words/documentbuilder/write/ln/index/)
+- [DocumentBuilder.InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/)
+- [DocumentBuilder.InsertHtml](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserthtml/)
 
 ## FAQ
 

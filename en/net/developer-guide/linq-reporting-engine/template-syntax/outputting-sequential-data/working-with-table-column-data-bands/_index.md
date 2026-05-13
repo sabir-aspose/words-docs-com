@@ -181,7 +181,7 @@ For more examples of templates for typical scenarios involving table‑column da
 
 {{% /alert %}}
 
------- 
+------
 
 ## FAQ
 

@@ -267,7 +267,13 @@ In this case, the engine produces a report as follows.
 
 **Note** – In the previous examples, tag `<<if [false]>>` is used for the sake of simplicity; you can use any other Boolean expression instead of just `false`.
 
------- 
+## Limitations and Considerations
+
+- Table-row conditional blocks cannot be nested into table-column data bands or conditional blocks. Only table-column data bands and conditional blocks may be nested inside table-row conditional blocks.
+- When opening and closing IF tags are placed in the same cell of a single-column table row, the engine treats the block as a common conditional block by default.
+- To force the engine to treat such a block as a table-row conditional block, specify the `greedy` switch in the closing tag, for example: `<<if [condition]>> ... << /if -greedy>>`.
+
+------
 
 ## FAQ
 

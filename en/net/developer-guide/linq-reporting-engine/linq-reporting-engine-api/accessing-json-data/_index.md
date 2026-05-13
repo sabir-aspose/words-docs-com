@@ -365,7 +365,15 @@ options.PreserveSpaces = true;
 JsonDataSource dataSource = new JsonDataSource(..., options);
 {{< /highlight >}}
 
------- 
+## Related APIs
+
+
+The following APIs are related to working with JSON data in Aspose.Words for .NET:
+
+- [JsonDataSource](https://reference.wordize.com/net/Aspose.Words.Reporting.JsonDataSource.html) - Represents a data source for JSON data that can be used with the reporting engine.
+- [JsonDataLoadOptions](https://reference.wordize.com/net/Aspose.Words.Reporting.JsonDataLoadOptions.html) - Provides options for loading and parsing JSON data.
+- [ReportingEngine](https://reference.wordize.com/net/Aspose.Words.Reporting.ReportingEngine.html) - The main class responsible for building reports using data sources.
+
 
 ## FAQ
 

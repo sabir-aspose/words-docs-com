@@ -86,7 +86,14 @@ The following code example shows how to optimize document content for Microsoft 
 
 {{< gist "aspose-words-gists" "5d2997d42c1f1fad79b18873f170855f" "optimize-for.cs" >}}
 
------- 
+## Related APIs
+
+
+- [ViewOptions](https://reference.aspose.com/words/net/aspose.words.settings/viewoptions/)
+- [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup/)
+- [LanguagePreferences](https://reference.aspose.com/words/net/aspose.words.loading/languagepreferences/)
+- [LoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/)
+- [CompatibilityOptions](https://reference.aspose.com/words/net/aspose.words.settings/compatibilityoptions/)
 
 ## FAQ
 

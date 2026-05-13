@@ -78,7 +78,40 @@ The following code example shows how to try opening an encrypted document with a
 
 {{< gist "aspose-words-gists" "af95c7a408187bb25cf9137465fe5ce6" "load-save-encrypted-document.cs" >}}
 
------- 
+## Limitations and Considerations
+
+This section covers specific constraints and important considerations for document encryption using Aspose.Words:
+
+- **Encryption is write-only**: Once a document is loaded and then saved with encryption, the original unencrypted content is no longer retained in memory. There is no way to extract or retrieve the original plaintext from an encrypted document in Aspose.Words.
+
+- **Encryption algorithm selection**: Aspose.Words does not expose a direct property to choose the encryption algorithm. The algorithm used depends on the output format and save options:
+  - For DOC: RC4 40-bit.
+  - For DOCX/DOTX/DOCM/DOTM/FlatOPC: ECMA-376 Standard Encryption using AES128 + SHA1.
+  - For ODT/OTT: ODF Encryption using AES256 + SHA256.
+  - For PDF: RC4 40-bit or 128-bit, depending on save options.
+
+- **Password policies are not enforced**: Aspose.Words does not validate or enforce password strength or complexity. It is the application developer’s responsibility to enforce appropriate password policies if required.
+
+- **Encryption header compatibility**: While Aspose.Words supports decrypting documents created by other tools (e.g., Microsoft Word) if the correct password is known, encryption compatibility is guaranteed only for documents created with Aspose.Words. interoperability with third-party implementations may vary.
+
+- **No encryption support for all formats**: Not all document formats support encryption. Examples of unsupported formats include RTF, HTML, MHTML, and image formats.
+
+- **Password protection applies only to saving**: Setting a password in save options does not protect an already-loaded document from being modified or saved again without encryption. Each `Save` call must explicitly include encrypted save options to ensure protection.
+
+- **No support for multiple encryption layers**: Aspose.Words does not support applying multiple encryption layers to the same document. Over-encryption (e.g., encrypting an already encrypted document) requires re-saving with a new password and will use the algorithm defined for the output format.
+
+- **Loading encrypted documents with invalid password**: When loading an encrypted document using `Document` constructor with an incorrect password, Aspose.Words throws an `IncorrectPasswordException`. Applications should handle this exception to provide appropriate user feedback.
+
+- **FlatOpc variants**: FlatOpc, FlatOpcTemplate, FlatOpcMacroEnabled, and FlatOpcTemplateMacroEnabled formats use the same encryption mechanism as DOCX (ECMA-376 Standard), but they are not editable in all word processors without conversion to the native DOCX structure.
+
+## Related APIs
+
+- [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) — Save options for DOC/DOT formats, includes [Password](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/password/) property.
+- [OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/) — Save options for DOCX, DOTX, DOCM, DOTM, and FlatOpc formats, includes [Password](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/password/) property.
+- [FileFormatInfo](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/) — Contains [IsEncrypted](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/isencrypted/) property to detect encryption.
+- [IncorrectPasswordException](https://reference.aspose.com/words/net/aspose.words/incorrectpasswordexception/) — Exception thrown when an incorrect password is provided for an encrypted document.
+
+------
 
 ## FAQ
 
