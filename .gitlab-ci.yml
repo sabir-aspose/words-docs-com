@@ -23,7 +23,7 @@ stages:
 
 test:
   stage: test
-  image: node:25.9-slim
+  image: node:25.9-alpine
   extends: .rules:branch
   variables:
     GIT_STRATEGY: none
@@ -36,6 +36,7 @@ test:
   before_script:
     - *apk_cache_setup
     - npm config set cache "$CI_PROJECT_DIR/.npm-cache"
+    - apk add gcompat libstdc++
   script:
     - chmod +x $HUGO_PATH
     - $HUGO_PATH version
@@ -45,8 +46,7 @@ test_docker_connectivity:
   image: docker:29.4
   extends: .rules:branch
   variables:
-    # Ensure the CLI knows where to find your DinD service
-    DOCKER_HOST: tcp://gitlab-words-dind:2375
+    # DOCKER_HOST: tcp://gitlab-words-dind:2375
     DOCKER_TLS_CERTDIR: ""
     GIT_STRATEGY: none
   script:
