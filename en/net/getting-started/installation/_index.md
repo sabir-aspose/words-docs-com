@@ -89,7 +89,7 @@ Internet Service Providers hosting multiple applications from different companie
 
 For these reasons specified above, it is recommended to run Aspose.Words with Full Trust permissions. You may find that some of library features will work when performing different tasks with Medium trust, and some will not, for example, rendering. This can be related to GDI+ image processing calls.
 
-------  
+------
 
 ## FAQ
 

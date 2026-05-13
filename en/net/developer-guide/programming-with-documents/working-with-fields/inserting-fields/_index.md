@@ -202,7 +202,19 @@ The following code example shows how to add the `TOA` field using DOM to a parag
 
 {{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "insert-toa-field-without-document-builder.cs" >}}
 
------- 
+## Related APIs
+
+- [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)
+- [FieldBuilder](https://reference.aspose.com/words/net/aspose.words.fields/fieldbuilder/)
+- [FieldMergeField](https://reference.aspose.com/words/net/aspose.words.fields/fieldmergefield/)
+- [FieldAddressBlock](https://reference.aspose.com/words/net/aspose.words.fields/fieldaddressblock/)
+- [FieldAdvance](https://reference.aspose.com/words/net/aspose.words.fields/fieldadvance/)
+- [FieldAsk](https://reference.aspose.com/words/net/aspose.words.fields/fieldask/)
+- [FieldAuthor](https://reference.aspose.com/words/net/aspose.words.fields/fieldauthor/)
+- [FieldIncludeText](https://reference.aspose.com/words/net/aspose.words.fields/fieldincludetext/)
+- [FieldToa](https://reference.aspose.com/words/net/aspose.words.fields/fieldtoa/)
+
+------
 
 ## FAQ
 

@@ -57,7 +57,14 @@ After installing the package, Aspose.Words will find these fonts in the foldersÂ
 
 - [Liberation Fonts](https://github.com/liberationfonts)Â as an alternative to standard Windows fonts
 
------- 
+## Related APIs
+
+- [FontSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/)
+- [FontSettings.SetFontsSources()](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/setfontsources/)
+- [FontSubstitutionSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontsubstitutionsettings/)
+- [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/)
+
+------
 
 ## FAQ
 

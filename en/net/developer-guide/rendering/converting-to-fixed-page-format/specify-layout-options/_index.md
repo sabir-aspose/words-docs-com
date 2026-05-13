@@ -75,7 +75,13 @@ Text shaping will be enabled only when exporting a document to PDF or XPS.
 
 {{% /alert %}}
 
-------  
+## Related APIs
+
+
+- [`LayoutOptions`](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/)
+- [`RevisionOptions`](https://reference.aspose.com/words/net/aspose.words.layout/revisionoptions/)
+- [`CommentDisplayMode`](https://reference.aspose.com/words/net/aspose.words.layout/commentdisplaymode/)
+- [`TextShaperFactory`](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/textshaperfactory/)
 
 ## FAQ
 

@@ -49,7 +49,7 @@ LINQ Reporting Engine says: "Hello, World."
 
 After the report document is built, you can save it or perform any other tasks on it using [Aspose.Words API](https://reference.aspose.com/words/net/) in your code.
 
------- 
+------
 
 ## FAQ
 

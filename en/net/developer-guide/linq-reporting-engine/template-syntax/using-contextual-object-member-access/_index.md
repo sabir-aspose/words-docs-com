@@ -73,7 +73,7 @@ Alternatively, you can use the following template involving the contextual objec
 	</tbody>
 </table>
 
-------  
+------
 
 ## FAQ
 1. **Q:** How can I use contextual object member access inside an IF field?  

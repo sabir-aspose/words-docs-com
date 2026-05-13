@@ -76,7 +76,7 @@ The following table indicates the input and output file formats supported by Asp
 | [`GIF`](https://docs.fileformat.com/image/gif/) | Renders a page of the document and saves it as a GIF file |  | {{< emoticons/tick >}} |  |
 | WebP | Google image compression format |  | {{< emoticons/tick >}} |  |
 
------- 
+------
 
 ## FAQ
 

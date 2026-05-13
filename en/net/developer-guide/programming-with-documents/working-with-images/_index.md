@@ -114,7 +114,14 @@ The following code example shows how to save images as WMF with RTF save options
 
 {{< gist "aspose-words-gists" "6f849e51240635a6322ab0460938c922" "saving-images-as-wmf.cs" >}}
 
-------  
+## Related APIs
+
+
+- [`DocumentBuilder`](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)
+- [`Shape`](https://reference.aspose.com/words/net/aspose.words.drawing/shape/)
+- [`ShapeBase`](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/)
+- [`ImageData`](https://reference.aspose.com/words/net/aspose.words.drawing/shape/imagedata/)
+- [`NodeRendererBase.BoundsInPoints`](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/boundsinpoints/)
 
 ## FAQ
 

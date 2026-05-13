@@ -87,9 +87,35 @@ The following code example shows how to get the distance between a table and its
 
 {{< gist "aspose-words-gists" "8df1ad0825619cab7c80b571c6e6ba99" "distance-between-table-surrounding-text.cs" >}}
 
------- 
+## Limitations and Considerations
+
+Limitations and considerations for table positioning in Aspose.Words include:
+
+* Horizontal and vertical alignment properties (`RelativeHorizontalAlignment`, `RelativeVerticalAlignment`) and distance properties (`AbsoluteHorizontalDistance`, `AbsoluteVerticalDistance`) are interdependent. Setting one property in each pair will reset the other to its default value.
+* Inline tables can only be positioned using the `Alignment` property and cannot be freely positioned like floating tables.
+* Floating tables require proper anchor setup and their position is always relative to a paragraph anchor, even when using absolute distances.
+* The `AllowOverlap` property only affects the visual layering of floating objects and does not prevent layout conflicts.
+* Distance properties (`DistanceTop`, `DistanceBottom`, etc.) apply to both inline and floating tables but may behave differently depending on text wrapping settings.
+* Table positioning properties only take effect when the document is rendered in a layout-aware context (such as PDF export or print preview).
+
+## Related APIs
+
+- [Table.Alignment](https://reference.aspose.com/words/net/aspose.words.tables/table/alignment/)
+- [Table.RelativeHorizontalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativehorizontalalignment/)
+- [Table.RelativeVerticalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativeverticalalignment/)
+- [Table.HorizontalAnchor](https://reference.aspose.com/words/net/aspose.words.tables/table/horizontalanchor/)
+- [Table.VerticalAnchor](https://reference.aspose.com/words/net/aspose.words.tables/table/verticalanchor/)
+- [Table.AbsoluteHorizontalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/absolutehorizontaldistance/)
+- [Table.AbsoluteVerticalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/absoluteverticaldistance/)
+- [Table.AllowOverlap](https://reference.aspose.com/words/net/aspose.words.tables/table/allowoverlap/)
+- [Table.DistanceTop](https://reference.aspose.com/words/net/aspose.words.tables/table/distancetop/)
+- [Table.DistanceBottom](https://reference.aspose.com/words/net/aspose.words.tables/table/distancebottom/)
+- [Table.DistanceLeft](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceleft/)
+- [Table.DistanceRight](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceright/)
+
 
 ## FAQ
+
 
 1. **Q:** How do I set the alignment of an inline table?  
    **A:** Use the `Table.Alignment` property. For example, `Table.Alignment = TableAlignment.Center;` aligns the table to the center of the page. The property works only for inline tables.
@@ -105,3 +131,4 @@ The following code example shows how to get the distance between a table and its
 
 5. **Q:** What does the `AllowOverlap` property do for floating tables?  
    **A:** `AllowOverlap` determines whether the floating table may overlap other floating objects. Set `Table.AllowOverlap = true;` to permit overlapping, or `false` to prevent it, ensuring the layout respects other objects.
+```

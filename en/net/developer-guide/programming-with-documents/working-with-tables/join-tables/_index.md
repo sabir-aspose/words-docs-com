@@ -30,7 +30,14 @@ The following code example shows how to merge rows from two tables into one:
 
 {{< gist "aspose-words-gists" "b0735c64408bcb2c063f96f7c9d5af75" "combine-rows.cs" >}}
 
------- 
+## Related APIs
+
+
+- `Aspose.Words.Tables.Table` — Represents a table in the document.
+- `Aspose.Words.Tables.Row` — Represents a table row.
+- `Document.ImportNode(Node, bool)` — Imports a node from another document, preserving formatting when the second parameter is `true`.
+- `RowCollection.Add(Node)` — Adds a row to the table's row collection.
+- `Node.Remove()` — Removes the node from the document.
 
 ## FAQ
 

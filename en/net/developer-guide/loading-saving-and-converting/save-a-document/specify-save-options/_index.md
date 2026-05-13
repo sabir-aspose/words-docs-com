@@ -87,7 +87,20 @@ The following code example shows how to save a black and white image with one bi
 
 {{< gist "aspose-words-gists" "83e5c469d0e72b5114fb8a05a1d01977" "format1-bpp-indexed.cs" >}}
 
-------  
+## Related APIs
+
+
+The following APIs are related to specifying save options:
+
+- [SaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/) — Base class for all save options.
+- [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) — Save options for PDF output.
+- [ImageSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/) — Save options for image output.
+- [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) — Save options for DOC/DOT formats.
+- [OdtSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/) — Save options for ODT/OTT formats.
+- [HtmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/) — Save options for HTML/MHTML output.
+- [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) — Save options for Markdown output.
+- [XpsSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/) — Save options for XPS output.
+- [EpubSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/epubsaveoptions/) — Save options for EPUB output.
 
 ## FAQ
 

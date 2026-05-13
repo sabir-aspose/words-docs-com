@@ -55,7 +55,7 @@ It is important to note that PDF/UA-1 output will also be WCAG 2.0 and Section 5
 
 {{% /alert %}}
 
------- 
+------
 
 ## FAQ
 
