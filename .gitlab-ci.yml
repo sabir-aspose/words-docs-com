@@ -48,6 +48,7 @@ test_docker_connectivity:
     # Ensure the CLI knows where to find your DinD service
     DOCKER_HOST: tcp://gitlab-words-dind:2375
     DOCKER_TLS_CERTDIR: ""
+    GIT_STRATEGY: none
   script:
     - docker info
     - echo "Pulling a test image..."
