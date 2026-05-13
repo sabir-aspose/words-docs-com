@@ -23,7 +23,7 @@ stages:
 
 test:
   stage: test
-  image: node:25.9-alpine
+  image: node:25.9-slim
   extends: .rules:branch
   variables:
     GIT_STRATEGY: none
