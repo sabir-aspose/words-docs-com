@@ -2,7 +2,6 @@ variables:
   LANG: C.UTF-8
   LC_ALL: C.UTF-8
   BRANCH_NAME: ci-fix
-  DOCKER_TLS_CERTDIR: "/certs"
   CI_HOME_FOLDER: /opt/gitlab-words-ci
   HUGO_PATH: $CI_HOME_FOLDER/bins/hugo
 
@@ -40,3 +39,26 @@ test:
   script:
     - chmod +x $HUGO_PATH
     - $HUGO_PATH version
+
+test_docker_connectivity:
+  stage: test
+  image: docker:29.4
+  extends: .rules:branch
+  variables:
+    # Ensure the CLI knows where to find your DinD service
+    DOCKER_HOST: tcp://gitlab-words-dind:2375
+    DOCKER_TLS_CERTDIR: ""
+  script:
+    - docker info
+    - echo "Pulling a test image..."
+    - docker pull alpine:latest
+    - echo "Creating a Hello World Dockerfile..."
+    - |
+      cat <<EOF > Dockerfile
+      FROM alpine:latest
+      CMD ["echo", "Hello from inside the built image!"]
+      EOF
+    - echo "Building the image..."
+    - docker build -t hello-world-test .
+    - echo "Running the built image..."
+    - docker run --rm hello-world-test
