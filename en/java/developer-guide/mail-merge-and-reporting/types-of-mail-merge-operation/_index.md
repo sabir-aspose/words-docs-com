@@ -16,6 +16,14 @@ url: /java/types-of-mail-merge-operations/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains the different types of mail-merge operations supported by Aspose.Words and when to use each.
+
+{{% /alert %}}
+
 The main idea of Mail Merge is to automatically create a document or multiple documents based on your template and data fetched from your data source. Aspose.Words allows you to perform two different types of Mail Merge operations: simple Mail Merge and Mail Merge with regions.
 
 The most common example of using simple Mail Merge is when you want to send a document for different clients by including their names at the beginning of the document. To do this, you need to create merge fields such as *First Name* and *Last Name* in your template, and then fill them in with data from your data source. Whereas the most common example of using Mail Merge with regions is when you want to send a document that includes specific orders with the list of all items within each order. To do this, you will need to create merge regions inside your template – own region for each order, in order to fill it with all required data for the items.
@@ -42,7 +50,7 @@ Once your template is ready, you can start performing the simple Mail Merge oper
 
 The following code example shows how to execute a simple Mail Merge operation using one of the [Execute](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#execute-java.lang.String---java.lang.Object) method:
 
-{{< gist "aspose-words-gists" "341b834e9b6a84ac6885e907e0ea4229" "execute-simple-mail-merge.cs" >}}
+{{< gist "aspose-words-gists" "c1173266e34062134a6f4178cd531c15" "execute-simple-mail-merge.java" >}}
 
 You can notice the difference between the document before executing simple mail merge:
 
@@ -58,7 +66,7 @@ In Aspose.Words, the standard Mail Merge operation fills only a single document 
 
 The following code example shows how to generate multiple merged documents during a Mail Merge operation:
 
-{{< gist "aspose-words-gists" "341b834e9b6a84ac6885e907e0ea4229" "produce-multiple-documents.cs" >}}
+{{< gist "aspose-words-gists" "c1173266e34062134a6f4178cd531c15" "produce-multiple-documents.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -86,11 +94,11 @@ Aspose.Words allows you to execute Mail Merge with regions using different [Exec
 
 As a first step, we need to create the `DataSet` to pass it later as an input parameter to the `ExecuteWithRegions` method:
 
-{{< gist "aspose-words-gists" "341b834e9b6a84ac6885e907e0ea4229" "create-data-set.cs" >}}
+{{< gist "aspose-words-gists" "c1173266e34062134a6f4178cd531c15" "create-data-set.java" >}}
 
 The following code example shows how to execute Mail Merge with regions using the [ExecuteWithRegions(DataSet)](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#executeWithRegions-com.aspose.words.net.System.Data.DataSet) method:
 
-{{< gist "aspose-words-gists" "341b834e9b6a84ac6885e907e0ea4229" "mail-merge-with-regions.cs" >}}
+{{< gist "aspose-words-gists" "c1173266e34062134a6f4178cd531c15" "mail-merge-with-regions.java" >}}
 
 You can notice the difference between the document before executing Mail Merge with regions:
 
@@ -111,7 +119,7 @@ If one of these rules is broken, you will get unexpected results or an exception
 
 {{% alert color="primary" %}}
 
-If you do not use Mail Merge regions, then it will be similar to the Microsoft Word mail merge, and the whole document content will be repeated for each record in the data source.
+If you do not use Mail Merge regions, then it will be similar to Microsoft Word mail merge, and the whole document content will be repeated for each record in the data source.
 
 {{% /alert %}}
 

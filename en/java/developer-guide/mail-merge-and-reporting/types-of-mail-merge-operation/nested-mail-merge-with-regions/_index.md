@@ -17,6 +17,14 @@ url: /java/nested-mail-merge-with-regions/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to perform a nested mail merge with regions to generate hierarchical or grouped data layouts.
+
+{{% /alert %}}
+
 In some scenarios, you may need to use nested Mail Merge with regions. Nested merge is a feature that enables you to merge hierarchical data from your data source into your merge template to easily populate your document. Basically, the hierarchical data is represented as a set of data items, and hierarchical relationships describe how the data items are related to each other (one item of data is the parent of another one).
 
 Aspose.Words allows you to perform a Mail Merge operation with nested regions. You can use this feature if you have a data source that is organized into a tree-like structure and you want to execute a Mail Merge operation to populate a template with hierarchical data.
@@ -51,9 +59,7 @@ As you can see from the output document, each order from the **Order** table is 
 
 The following code example shows how to generate an invoice using nested Mail Merge with regions:
 
-{{< gist "aspose-words-gists" "c68048adceb3bda6a1511c7d6f5ebf7b" "nested-mail-merge.cs" >}}
-
-{{< gist "aspose-words-gists" "c68048adceb3bda6a1511c7d6f5ebf7b" "disable-foreign-key-constraints.cs" >}}
+{{< gist "aspose-words-gists" "6ad68bd56dfc60c2162398d02d2fc1a5" "nested-mail-merge.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -61,7 +67,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% /alert %}}
 
-## How to Set Up Data Relations in Nested Mail Merge with Regions  
+## How to Set Up Data Relations in Nested Mail Merge with Regions
 
 You need to set up all data relationships in the parent‑child structure to execute the nested Mail Merge with regions correctly. Skipping this important step can lead to a failure in executing the nested Mail Merge with regions.
 
@@ -72,11 +78,16 @@ If Mail Merge is not working as expected, then you may need to restructure your 
 A `DataSet` that has related data tables will use the **DataRelation** object to represent the parent‑child relationship between the tables.
 
 The following code example shows how to establish a `DataRelation` between a customer’s table and an order’s table by using a `DataRelation` object:  
-{{< highlight java >}}  
-dataSet.getRelations().add(new DataRelation("OrderToItem", orderTable.getColumns().get("Order_Id"), itemTable.getColumns().get("Order_Id"), false));  
-{{< /highlight >}}
 
-{{< gist "aspose-words-gists" "c68048adceb3bda6a1511c7d6f5ebf7b" "get-child-data-source.cs" >}}
+{{< gist "aspose-words-gists" "6ad68bd56dfc60c2162398d02d2fc1a5" "disable-foreign-key-constraints.java" >}}
+
+## How to Create Data Relations from a Custom Data Source
+
+Implement the [IMailMergeDataSource](https://reference.aspose.com/words/java/com.aspose.words/imailmergedatasource/) interface to create relationships in the parent child structure of your custom data source. Use the [GetChildDataSource](https://reference.aspose.com/words/java/com.aspose.words/imailmergedatasource/#getChildDataSource-java.lang.String) method to return the relevant child data of a current parent record.
+
+The following example shows how to create data relations using **GetChildDataSource**:
+
+{{< gist "aspose-words-gists" "6ad68bd56dfc60c2162398d02d2fc1a5" "get-child-data-source.java" >}}
 
 ------  
 
