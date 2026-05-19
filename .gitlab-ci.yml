@@ -35,10 +35,22 @@ default:
     - documentation
     - words
 
-.rules:branch:
+.rules:build:
   rules:
-    - if: "$CI_COMMIT_BRANCH == $BRANCH_NAME"
+    - if: '$CI_COMMIT_BRANCH == $BRANCH_NAME'
       when: on_success
+
+    # TODO: remove after md testing
+    - if: '$CI_COMMIT_BRANCH == "UEX-603-md-endpoints"'
+      when: on_success
+
+    - when: never
+
+.rules:deploy:
+  rules:
+    - if: '$CI_COMMIT_BRANCH == $BRANCH_NAME'
+      when: on_success
+
     - when: never
 
 .scripts:
