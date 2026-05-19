@@ -63,7 +63,7 @@ default:
 build:
   stage: build
   image: node:25.9-alpine
-  extends: .rules:branch
+  extends: .rules:build
   cache:
     key: "$CI_COMMIT_REF_SLUG-apk-npm"
     paths:
@@ -125,6 +125,13 @@ build:
       $DOCS_BUILD_OUTPUT --minify --verbose
     - echo "Documentation build complete, path in the container
       $DOCS_BUILD_OUTPUT"
+
+    # =========================
+    # DEBUG GENERATED MD FILES
+    # =========================
+    - echo "Generated markdown files:"
+    - find $DOCS_BUILD_OUTPUT -name "*.md" | head -20 || true
+
     - echo "Compressing generated documentation..."
     - cd $CI_HOME_FOLDER
     - mkdir -p $DOCS_BUILD_OUTPUT_ARCHIVE
@@ -154,7 +161,7 @@ build:
 deploy:
   stage: deploy
   extends:
-    - .rules:branch
+    - .rules:deploy
     - .ssh_setup
   needs:
     - job: build
