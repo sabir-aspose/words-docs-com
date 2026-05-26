@@ -10,7 +10,7 @@ ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /java/what-s-new-in-aspose-words-for-java/
-timestamp: 2026-04-24-11-12-25
+timestamp: 2026-05-26-11-12-25
 ---
 
 {{% alert color="grey" %}}
@@ -22,6 +22,34 @@ This page lists the most notable new features and enhancements introduced in rec
 {{% /alert %}}
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
+
+## Aspose.Words for Java 26.5
+
+Aspose.Words 26.5 introduces new digital signing and document importing capabilities, improves HTML and field rendering, and enhances support for AAT-enabled fonts in fixed-page output formats.
+
+### Rendering
+
+#### EQ Fields <sup>26.5</sup>
+
+* Support for Far East vertical orientation in HTML within EQ fields has been introduced.
+* Improved visual rendering of the EQ field’s frame has been implemented.
+
+#### AAT-enabled Fonts <sup>26.5</sup>
+
+Improved handling of AAT-enabled fonts when rendering to fixed-page formats has been implemented.
+
+### Other
+
+* The ability to configure various additional digital signing options has been introduced. <sup>26.5</sup>
+* The ability to import nodes with expanded formatting options has been introduced. <sup>26.5</sup>
+* The ability to clear caches to prevent memory leaks has been added. <sup>26.5</sup>
+* The bc-fips library has been updated to version 2.1.2. <sup>26.5</sup>
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for Java 26.5 Release Notes](https://releases.aspose.com/words/java/release-notes/2026/aspose-words-for-java-26-5-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words for Java 26.1, 26.2, 26.3, 26.4
 
@@ -176,10 +204,9 @@ The ability to render **VerticalFarEast** and **HorizontalRotatedFarEast** text 
 ### Other
 
 * new advanced print control options have been added: <sup>25.11</sup>
-
-    * [A new callback interface](https://reference.aspose.com/words/java/com.aspose.words/asposewordsprintdocument/), similar to `IWarningCallback`, has been introduced to allow programmatic control over page skipping during print operations.
-    * A new public property has been added to accurately [retrieve the actual number of pages](https://reference.aspose.com/words/java/com.aspose.words/asposewordsprintdocument/#getTotalPagesPrinted) rendered by a print job.
-    * The ability to specify distinct target printers for [color and monochrome](https://reference.aspose.com/words/java/com.aspose.words/asposewordsprintdocument/#getColorMode) (black & white) pages within a single print job has also been introduced.
+* [A new callback interface](https://reference.aspose.com/words/java/com.aspose.words/asposewordsprintdocument/), similar to `IWarningCallback`, has been introduced to allow programmatic control over page skipping during print operations.
+* A new public property has been added to accurately [retrieve the actual number of pages](https://reference.aspose.com/words/java/com.aspose.words/asposewordsprintdocument/#getTotalPagesPrinted) rendered by a print job.
+* The ability to specify distinct target printers for [color and monochrome](https://reference.aspose.com/words/java/com.aspose.words/asposewordsprintdocument/#getColorMode) (black & white) pages within a single print job has also been introduced.
 
 {{% alert color="primary" %}}
 
@@ -263,85 +290,6 @@ Learn more about [Aspose.Words for Java 25.6 Release Notes](https://releases.asp
 Learn more about [Aspose.Words for Java 25.7 Release Notes](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-7-release-notes/).
 
 Learn more about [Aspose.Words for Java 25.8 Release Notes](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words for Java 25.1, 25.2, 25.3, 25.4
-
-Aspose.Words 25.1 introduces AI-powered grammar checking and enhances document saving with advanced options for HTML, SVG, and Markdown formats.
-
-Aspose.Words 25.2 introduces text summarization with Anthropic AI models, adds MsWorks format support, enhances typographic control, and improves PDF structure and list handling.
-
-Aspose.Words 25.3 enhances an AI-powered grammar checker and font selection with the UpdateAmbiguousTextFont property, as well as improves PDF attachments export.
-
-Aspose.Words 25.4 introduces support for new paper sizes, enables advanced HTML export control, improves watermark handling, and enhances the usability of the LowCode API.
-
-### AI-powered Features
-
-#### Document AI Grammar Checking
-
-* The ability to check the grammar of the provided document using OpenAI generative models has been introduced by adding a new [CheckGrammar](https://reference.aspose.com/words/java/com.aspose.words/iaimodeltext/#checkGrammar-com.aspose.words.Document-com.aspose.words.CheckGrammarOptions) method. <sup>25.1</sup>
-* The AI-powered Grammar Checking feature has been updated to support all models available in the [AiModelType](https://reference.aspose.com/words/java/com.aspose.words/aimodeltype/) enumeration. <sup>25.3</sup>
-
-#### Summarization Using Anthropic Generative Language Models <sup>25.2</sup>
-
-Text summarization using Anthropic generative language models has been enabled by introducing a new public class [AnthropicAiModel](https://reference.aspose.com/words/java/com.aspose.words/anthropicaimodel/).
-
-### Low Code
-
-#### Low Code API Usability <sup>25.4</sup>
-
-Significant improvements to the usability of the **LowCode API** have been introduced, simplifying document processing and reducing the need for repetitive code.
-
-### Supported Formats <sup>25.2</sup>
-
-Starting from version 25.2, compatibility with the new MsWorks load format for Microsoft Works documents has been added.
-
-### Converting, Loading, and Saving Documents
-
-#### Improved Saving to HTML and SVG Formats <sup>25.1</sup>
-
-Saving to HTML and SVG formats has been enhanced by adding **IdPrefix** and **RemoveJavaScriptFromLinks** properties to both the [HtmlFixedSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlfixedsaveoptions/) and [SvgSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/svgsaveoptions/) classes.
-
-#### Set Image Resolution and OfficeMath Output Mode When Saving to Markdown <sup>25.1</sup>
-
-* A new [ImageResolution](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageResolution) option has been added to the [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) class to set the image resolution.
-* A new [OfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getOfficeMathExportMode) option and [MarkdownOfficeMathExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownofficemathexportmode/) enumeration have been and added to the [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) class to set OfficeMath output mode.
-* The ability to set an image watermark from a stream has been introduced by adding a new overload to the [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.io.InputStream-com.aspose.words.ImageWatermarkOptions) method. <sup>25.4</sup>
-
-### Rendering
-
-#### Improved Typographic Control <sup>25.2</sup>
-
-The [NumberSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getNumberSpacing) property has been added for improved typographic control.
-
-#### Controlling Font Selection for Ambiguous Characters <sup>25.3</sup>
-
-A new public property [UpdateAmbiguousTextFont](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateAmbiguousTextFont) has been added to the [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) class to control the font selection according to the character code used.
-
-#### Paper Size Options <sup>25.4</sup>
-
-The ability to use JIS B4 and JIS B5 paper sizes has been introduced by adding new values to the [PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/) enumeration.
-
-#### HTML Output Control <sup>25.4</sup>
-
-The ability to remove JavaScript from hyperlink URLs during HTML export has been introduced by adding the [RemoveJavaScriptFromLinks](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getRemoveJavaScriptFromLinks) property.
-
-### Other
-
-* PDF logical structure has been improved with support for TOA, BIBLIOGRAPHY, and INDEX fields. <sup>25.2</sup>
-* The [AddSingleLevelList](https://reference.aspose.com/words/java/com.aspose.words/listcollection/#addSingleLevelList-int) method has been introduced for improved list handling. <sup>25.2</sup>
-* A new property [AttachmentsEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getAttachmentsEmbeddingMode) has been added to replace **EmbedAttachments** to improve PDF attachments' export. Also, new values have been added to the [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) enumeration to support PDF/A version attachments. Additionally, attachments are now supported with encryption. <sup>25.3</sup>
-
-{{% alert color="primary" %}}
-
-Learn more about [Aspose.Words for Java 25.1 Release Notes](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-1-release-notes/).
-
-Learn more about [Aspose.Words for Java 25.2 Release Notes](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-2-release-notes/).
-
-Learn more about [Aspose.Words for Java 25.3 Release Notes](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-3-release-notes/).
-
-Learn more about [Aspose.Words for Java 25.4 Release Notes](https://releases.aspose.com/words/java/release-notes/2025/aspose-words-for-java-25-4-release-notes/).
 
 {{% /alert %}}
 
