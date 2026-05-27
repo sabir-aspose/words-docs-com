@@ -62,7 +62,7 @@ default:
 
 build:
   stage: build
-  image: node:25.9-alpine
+  image: node:22-alpine
   extends: .rules:build
   cache:
     key: "$CI_COMMIT_REF_SLUG-apk-npm"
@@ -72,6 +72,12 @@ build:
     policy: pull-push
   before_script:
     - *apk_cache_setup
+
+    # Diagnostics
+    - node --version
+    - npm --version
+    - $HUGO_PATH version
+    
     - npm config set cache "$CI_PROJECT_DIR/.npm-cache"
     # - sed -i 's/https/http/' /etc/apk/repositories
     # - apk update
@@ -122,7 +128,7 @@ build:
     - $HUGO_PATH --cleanDestinationDir --source $DOCS_TEMPLATE_CONTAINER_PATH
       --baseURL https://docs.aspose.com/$SYNC_TYPE --contentDir $CI_PROJECT_DIR
       --config config.toml,configs/docs.aspose.com-words.toml --destination
-      $DOCS_BUILD_OUTPUT --minify --verbose
+      $DOCS_BUILD_OUTPUT --verbose
     - echo "Documentation build complete, path in the container
       $DOCS_BUILD_OUTPUT"
 
