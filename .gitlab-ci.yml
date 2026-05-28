@@ -73,10 +73,11 @@ build:
       - .npm-cache/
     policy: pull-push
   before_script:
-    - *apk_cache_setup
+    # - *apk_cache_setup
 
     # Base tools
-    - apk add --no-cache bash curl tar git git-lfs gcompat libstdc++
+    - apt-get update
+    - apt-get install -y bash curl tar git git-lfs
 
     # Install Hugo Extended
     - mkdir -p /tmp/hugo
