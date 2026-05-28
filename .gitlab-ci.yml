@@ -64,7 +64,7 @@ default:
 
 build:
   stage: build
-  image: node:22-alpine
+  image: node:22
   extends: .rules:build
   cache:
     key: "$CI_COMMIT_REF_SLUG-apk-npm"
