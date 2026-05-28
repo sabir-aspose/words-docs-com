@@ -76,6 +76,10 @@ build:
     # Diagnostics
     - node --version
     - npm --version
+    - echo "HUGO_PATH=$HUGO_PATH"
+    - ls -la /opt
+    - ls -la /opt/gitlab-words-ci || true
+    - ls -la /opt/gitlab-words-ci/bins || true
     - $HUGO_PATH version
     
     - npm config set cache "$CI_PROJECT_DIR/.npm-cache"
