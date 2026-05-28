@@ -73,14 +73,20 @@ build:
   before_script:
     - *apk_cache_setup
 
+    # Base tools
+    - apk add --no-cache bash curl tar git git-lfs gcompat libstdc++
+
+    # Install Hugo Extended
+    - mkdir -p /tmp/hugo
+    - curl -L $HUGO_DOWNLOAD_URL -o /tmp/hugo/hugo.tar.gz
+    - tar -xzf /tmp/hugo/hugo.tar.gz -C /tmp/hugo
+    - mv /tmp/hugo/hugo $HUGO_PATH
+    - chmod +x $HUGO_PATH
+
     # Diagnostics
     - node --version
     - npm --version
-    - echo "HUGO_PATH=$HUGO_PATH"
-    - ls -la /opt
-    - ls -la /opt/gitlab-words-ci || true
-    - ls -la /opt/gitlab-words-ci/bins || true
-    - $HUGO_PATH version
+    - hugo version
     
     - npm config set cache "$CI_PROJECT_DIR/.npm-cache"
     # - sed -i 's/https/http/' /etc/apk/repositories
@@ -93,10 +99,13 @@ build:
     # - echo "HostName $(hostname), RunnerDescription $CI_RUNNER_DESCRIPTION, ProjectDirectory $CI_PROJECT_DIR, Git Depth $GIT_DEPTH, Docs template url $DOCS_TEMPLATE_GIT_URL, Docs template path $DOCS_TEMPLATE_CONTAINER_PATH, The current branch is $CI_COMMIT_REF_NAME"
     # - echo "Installing Git..."
     # - apk update && apk add --no-cache git
-    - echo "The current branch is $CI_COMMIT_REF_NAME"
-    - apk add gcompat libstdc++ tar git-lfs
+
+    # Git LFS
     - git lfs install
     - git lfs pull
+
+    - echo "The current branch is $CI_COMMIT_REF_NAME"
+    
     # - git --version
     # - git lfs version
     # - node --version
@@ -104,8 +113,7 @@ build:
     # - tar --version
     # - apk info gcompat
     # - apk info libstdc++
-    - chmod +x $HUGO_PATH
-    - $HUGO_PATH version
+
   script:
     - echo "Navigate to docs template repository location..."
     - mkdir -p $DOCS_TEMPLATE_CONTAINER_PATH
