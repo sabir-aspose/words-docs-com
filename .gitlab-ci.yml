@@ -90,7 +90,8 @@ build:
     # Diagnostics
     - node --version
     - npm --version
-    - hugo version
+    - $HUGO_PATH version
+    - ls -la $HUGO_PATH
     
     - npm config set cache "$CI_PROJECT_DIR/.npm-cache"
     # - sed -i 's/https/http/' /etc/apk/repositories
