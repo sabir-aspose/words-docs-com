@@ -11,6 +11,8 @@ variables:
   DOCS_TEMPLATE_PROJECT_NAME: docs-template
   CI_HOME_FOLDER: /opt/gitlab-words-ci
   HUGO_PATH: $CI_HOME_FOLDER/bins/hugo
+  HUGO_VERSION: "0.151.0"
+  HUGO_DOWNLOAD_URL: "https://github.com/gohugoio/hugo/releases/download/v0.151.0/hugo_extended_0.151.0_Linux-64bit.tar.gz"
   DOCS_TEMPLATE_BRANCH_NAME: main
   DOCS_TEMPLATE_CONTAINER_PATH: $CI_HOME_FOLDER/docs-template
   DOCS_BUILD_OUTPUT: $CI_HOME_FOLDER/$DOCS_BUILD_OUTPUT_FOLDER
@@ -78,6 +80,7 @@ build:
 
     # Install Hugo Extended
     - mkdir -p /tmp/hugo
+    - echo "HUGO_DOWNLOAD_URL=$HUGO_DOWNLOAD_URL"
     - curl -L $HUGO_DOWNLOAD_URL -o /tmp/hugo/hugo.tar.gz
     - tar -xzf /tmp/hugo/hugo.tar.gz -C /tmp/hugo
     - mv /tmp/hugo/hugo $HUGO_PATH
