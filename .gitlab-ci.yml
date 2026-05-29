@@ -143,13 +143,14 @@ build:
     # - npm config set registry https://registry.npmjs.org
     - npm ci
     - echo "Documentation build started..."
-    - $HUGO_PATH \
+    - |
+      $HUGO_PATH \
       --cleanDestinationDir \
-      --source $DOCS_TEMPLATE_CONTAINER_PATH \
-      --baseURL https://docs.aspose.com/$SYNC_TYPE \
-      --contentDir $CI_PROJECT_DIR \
-      --config config.toml,configs/docs.aspose.com-words.toml \
-      --destination $DOCS_BUILD_OUTPUT
+      --source "$DOCS_TEMPLATE_CONTAINER_PATH" \
+      --baseURL "https://docs.aspose.com/$SYNC_TYPE" \
+      --contentDir "$CI_PROJECT_DIR" \
+      --config "config.toml,configs/docs.aspose.com-words.toml" \
+      --destination "$DOCS_BUILD_OUTPUT"
 
     # =========================
     # DEBUG GENERATED MD FILES
