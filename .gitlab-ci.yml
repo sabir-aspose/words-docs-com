@@ -84,6 +84,7 @@ build:
     - echo "HUGO_DOWNLOAD_URL=$HUGO_DOWNLOAD_URL"
     - curl -L $HUGO_DOWNLOAD_URL -o /tmp/hugo/hugo.tar.gz
     - tar -xzf /tmp/hugo/hugo.tar.gz -C /tmp/hugo
+    - mkdir -p $(dirname $HUGO_PATH)
     - mv /tmp/hugo/hugo $HUGO_PATH
     - chmod +x $HUGO_PATH
 
@@ -142,7 +143,9 @@ build:
     # - npm config set registry https://registry.npmjs.org
     - npm ci
     - echo "Documentation build started..."
-    - $HUGO_PATH --cleanDestinationDir --source $DOCS_TEMPLATE_CONTAINER_PATH \
+    - $HUGO_PATH \
+      --cleanDestinationDir \
+      --source $DOCS_TEMPLATE_CONTAINER_PATH \
       --baseURL https://docs.aspose.com/$SYNC_TYPE \
       --contentDir $CI_PROJECT_DIR \
       --config config.toml,configs/docs.aspose.com-words.toml \
