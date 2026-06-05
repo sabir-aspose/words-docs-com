@@ -11,6 +11,8 @@ variables:
   DOCS_TEMPLATE_PROJECT_NAME: docs-template
   CI_HOME_FOLDER: /opt/gitlab-words-ci
   HUGO_PATH: $CI_HOME_FOLDER/bins/hugo
+  HUGO_VERSION: "0.151.0"
+  HUGO_DOWNLOAD_URL: "https://github.com/gohugoio/hugo/releases/download/v0.151.0/hugo_extended_0.151.0_Linux-64bit.tar.gz"
   DOCS_TEMPLATE_BRANCH_NAME: main
   DOCS_TEMPLATE_CONTAINER_PATH: $CI_HOME_FOLDER/docs-template
   DOCS_BUILD_OUTPUT: $CI_HOME_FOLDER/$DOCS_BUILD_OUTPUT_FOLDER
@@ -35,10 +37,22 @@ default:
     - documentation
     - words
 
-.rules:branch:
+.rules:build:
   rules:
-    - if: "$CI_COMMIT_BRANCH == $BRANCH_NAME"
+    - if: '$CI_COMMIT_BRANCH == $BRANCH_NAME'
       when: on_success
+
+    # TODO: remove after md testing
+    - if: '$CI_COMMIT_BRANCH == "UEX-603-md-endpoints"'
+      when: on_success
+
+    - when: never
+
+.rules:deploy:
+  rules:
+    - if: '$CI_COMMIT_BRANCH == $BRANCH_NAME'
+      when: on_success
+
     - when: never
 
 .scripts:
@@ -50,8 +64,8 @@ default:
 
 build:
   stage: build
-  image: node:25.9-alpine
-  extends: .rules:branch
+  image: node:22
+  extends: .rules:build
   cache:
     key: "$CI_COMMIT_REF_SLUG-apk-npm"
     paths:
@@ -59,7 +73,27 @@ build:
       - .npm-cache/
     policy: pull-push
   before_script:
-    - *apk_cache_setup
+    # - *apk_cache_setup
+
+    # Base tools
+    - apt-get update
+    - apt-get install -y bash curl tar git git-lfs
+
+    # Install Hugo Extended
+    - mkdir -p /tmp/hugo
+    - echo "HUGO_DOWNLOAD_URL=$HUGO_DOWNLOAD_URL"
+    - curl -L $HUGO_DOWNLOAD_URL -o /tmp/hugo/hugo.tar.gz
+    - tar -xzf /tmp/hugo/hugo.tar.gz -C /tmp/hugo
+    - mkdir -p $(dirname $HUGO_PATH)
+    - mv /tmp/hugo/hugo $HUGO_PATH
+    - chmod +x $HUGO_PATH
+
+    # Diagnostics
+    - node --version
+    - npm --version
+    - $HUGO_PATH version
+    - ls -la $HUGO_PATH
+    
     - npm config set cache "$CI_PROJECT_DIR/.npm-cache"
     # - sed -i 's/https/http/' /etc/apk/repositories
     # - apk update
@@ -71,10 +105,13 @@ build:
     # - echo "HostName $(hostname), RunnerDescription $CI_RUNNER_DESCRIPTION, ProjectDirectory $CI_PROJECT_DIR, Git Depth $GIT_DEPTH, Docs template url $DOCS_TEMPLATE_GIT_URL, Docs template path $DOCS_TEMPLATE_CONTAINER_PATH, The current branch is $CI_COMMIT_REF_NAME"
     # - echo "Installing Git..."
     # - apk update && apk add --no-cache git
-    - echo "The current branch is $CI_COMMIT_REF_NAME"
-    - apk add gcompat libstdc++ tar git-lfs
+
+    # Git LFS
     - git lfs install
     - git lfs pull
+
+    - echo "The current branch is $CI_COMMIT_REF_NAME"
+    
     # - git --version
     # - git lfs version
     # - node --version
@@ -82,8 +119,7 @@ build:
     # - tar --version
     # - apk info gcompat
     # - apk info libstdc++
-    - chmod +x $HUGO_PATH
-    - $HUGO_PATH version
+
   script:
     - echo "Navigate to docs template repository location..."
     - mkdir -p $DOCS_TEMPLATE_CONTAINER_PATH
@@ -107,12 +143,21 @@ build:
     # - npm config set registry https://registry.npmjs.org
     - npm ci
     - echo "Documentation build started..."
-    - $HUGO_PATH --cleanDestinationDir --source $DOCS_TEMPLATE_CONTAINER_PATH
-      --baseURL https://docs.aspose.com/$SYNC_TYPE --contentDir $CI_PROJECT_DIR
-      --config config.toml,configs/docs.aspose.com-words.toml --destination
-      $DOCS_BUILD_OUTPUT --minify --verbose
-    - echo "Documentation build complete, path in the container
-      $DOCS_BUILD_OUTPUT"
+    - |
+      $HUGO_PATH \
+      --cleanDestinationDir \
+      --source "$DOCS_TEMPLATE_CONTAINER_PATH" \
+      --baseURL "https://docs.aspose.com/$SYNC_TYPE" \
+      --contentDir "$CI_PROJECT_DIR" \
+      --config "config.toml,configs/docs.aspose.com-words.toml" \
+      --destination "$DOCS_BUILD_OUTPUT"
+
+    # =========================
+    # DEBUG GENERATED MD FILES
+    # =========================
+    - echo "Generated markdown files:"
+    - find $DOCS_BUILD_OUTPUT -name "*.md" | head -20 || true
+
     - echo "Compressing generated documentation..."
     - cd $CI_HOME_FOLDER
     - mkdir -p $DOCS_BUILD_OUTPUT_ARCHIVE
@@ -142,7 +187,7 @@ build:
 deploy:
   stage: deploy
   extends:
-    - .rules:branch
+    - .rules:deploy
     - .ssh_setup
   needs:
     - job: build
