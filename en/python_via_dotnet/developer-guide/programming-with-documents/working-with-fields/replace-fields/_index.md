@@ -84,21 +84,24 @@ The following code  example shows how to convert all `IF` fields in the last par
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ConvertFieldsInParagraph.py" >}}
 
------- 
+------
 
 ## FAQ
 
+
 1. **Q:** How can I replace all fields in a document with their current results?  
-   **A:** Use the static method `FieldsHelper.ConvertFieldsToStaticText` and pass the `Document` object as the composite node together with `FieldType.ANY`. This walks the whole document and replaces every field with its latest result.
+   **A:** Call the static method `FieldsHelper.convert_fields_to_static_text()` and pass the `Document` object as the composite node and `FieldType.ANY` as the field type. This recursively walks the document and replaces every field with its most recently calculated result.
 
-2. **Q:** I only want to convert fields of a specific type, such as `IF` fields. How do I do that?  
-   **A:** Call `FieldsHelper.ConvertFieldsToStaticText` with the document (or a body/paragraph) and the desired `FieldType` enumeration value, e.g., `FieldType.FIELD_IF`. Only fields matching that type will be converted.
+2. **Q:** How can I convert only specific field types, such as `IF` fields?  
+   **A:** Pass the target `CompositeNode` (e.g., `Document`, `Body`, or `Section`) and the desired `FieldType` enumeration value (e.g., `FieldType.FIELD_IF`) to `FieldsHelper.convert_fields_to_static_text()`. Only fields matching the specified type will be converted; all others remain unchanged.
 
-3. **Q:** My fields span multiple paragraphs; the conversion does not work when I pass a `Paragraph` node.  
-   **A:** When a field crosses paragraph boundaries, pass the parent node (e.g., the containing `Body` or `Section`) instead of the individual paragraph. This ensures the whole field is processed.
+3. **Q:** Fields span multiple paragraphs, and conversion fails when I pass a `Paragraph` node. Why?  
+   **A:** When a field spans multiple paragraphs, passing a `Paragraph` node will not process the entire field. To ensure full conversion, pass the parent composite node (e.g., `Body` or `Section`) instead, which contains the complete field structure.
 
-4. **Q:** After converting `PAGE` fields in a header, all pages show the same number. Why?  
-   **A:** Converting a `PAGE` field in a header replaces it with a static run that reflects the value on the last page of the section. To keep correct page numbers, avoid converting `PAGE` fields in headers/footers or handle them separately after conversion.
+4. **Q:** Why do all pages show the same page number after converting `PAGE` fields in headers or footers?  
+   **A:** Converting `PAGE` fields in headers/footers replaces them with static text reflecting the last page number of the section. This is a limitation of static conversion: repeated content (headers/footers) loses dynamic context. To preserve dynamic behavior, avoid converting `PAGE` fields in headers/footers.
 
-5. **Q:** Can I convert fields only in a particular section of the document?  
-   **A:** Yes. Retrieve the `Section` object, then its `Body`, and pass that `Body` to `ConvertFieldsToStaticText`. Only fields inside that section will be affected.
+5. **Q:** Can I convert fields only in a specific section or body?  
+   **A:** Yes. Retrieve the target `Section` object and pass its `Body` (or the `Section` itself, depending on node scope) to `FieldsHelper.convert_fields_to_static_text()`. Only fields contained within that node hierarchy will be processed.
+
+
