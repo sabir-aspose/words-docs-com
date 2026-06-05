@@ -169,9 +169,10 @@ Below code example shows how to insert horizontal rule shape into a document usi
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertHorizontalRule-DocumentBuilderInsertHorizontalRule.cpp" >}}
 
------- 
+------
 
 ## FAQ
+
 
 1. **Q:** How do I apply a license to Aspose.Words for C++?  
    **A:** Create an `Aspose::Words::License` object, load the license file (or stream) with `SetLicense`, and then use the library. Example:  
@@ -221,3 +222,6 @@ Below code example shows how to insert horizontal rule shape into a document usi
    System::String html = u"<p style='color:blue; font-weight:bold;'>Styled text</p>";
    builder.InsertHtml(html);
    ```
+
+6. **Q:** How do I insert a table using DocumentBuilder?  
+   **A:** Use `StartTable`, then call `InsertCell` to create cells, populate cell content, and use `EndRow` and `EndTable` to finalize. Formatting is controlled via `CellFormat`, `RowFormat`, and table structure methods.
