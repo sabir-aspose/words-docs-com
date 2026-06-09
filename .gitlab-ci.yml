@@ -153,10 +153,45 @@ build:
       --destination "$DOCS_BUILD_OUTPUT"
 
     # =========================
-    # DEBUG GENERATED MD FILES
+    # DEBUG BUILD OUTPUT
     # =========================
-    - echo "Generated markdown files:"
-    - find $DOCS_BUILD_OUTPUT -name "*.md" | head -20 || true
+    - echo "===== BUILD OUTPUT DIRECTORY ====="
+    - echo "DOCS_BUILD_OUTPUT=$DOCS_BUILD_OUTPUT"
+
+    - echo "===== DIRECTORY SIZE ====="
+    - du -sh "$DOCS_BUILD_OUTPUT" || true
+
+    - echo "===== TOP LEVEL CONTENT ====="
+    - ls -lah "$DOCS_BUILD_OUTPUT" || true
+
+    - echo "===== FIRST 200 GENERATED FILES ====="
+    - find "$DOCS_BUILD_OUTPUT" -type f | sort | head -200 || true
+
+    - echo "===== MARKDOWN FILES ====="
+    - find "$DOCS_BUILD_OUTPUT" -name "*.md" | head -50 || true
+
+    - echo "===== HTML FILES ====="
+    - find "$DOCS_BUILD_OUTPUT" -name "*.html" | head -50 || true
+
+    - echo "===== SAMPLE MARKDOWN CONTENT ====="
+    - |
+      MD_FILE=$(find "$DOCS_BUILD_OUTPUT" -name "*.md" | head -1)
+      if [ -n "$MD_FILE" ]; then
+        echo "Found markdown file: $MD_FILE"
+        head -50 "$MD_FILE"
+      else
+        echo "No markdown files found"
+      fi
+
+    - echo "===== SAMPLE HTML CONTENT ====="
+    - |
+      HTML_FILE=$(find "$DOCS_BUILD_OUTPUT" -name "*.html" | head -1)
+      if [ -n "$HTML_FILE" ]; then
+        echo "Found html file: $HTML_FILE"
+        head -50 "$HTML_FILE"
+      else
+        echo "No html files found"
+      fi
 
     - echo "Compressing generated documentation..."
     - cd $CI_HOME_FOLDER
@@ -168,8 +203,9 @@ build:
     - echo "Documentation compressed."
   artifacts:
     paths:
+      - $DOCS_BUILD_OUTPUT/
       - $DOCS_BUILD_OUTPUT_ARCHIVE/$DOCS_FULL_ARCHIVE_NAME
-    expire_in: 10 minutes
+    expire_in: 1 day
 
 .ssh_setup:
   image: alpine:latest
