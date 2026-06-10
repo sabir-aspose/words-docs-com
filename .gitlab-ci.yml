@@ -152,6 +152,9 @@ build:
       --config "config.toml,configs/docs.aspose.com-words.toml" \
       --destination "$DOCS_BUILD_OUTPUT"
 
+    - echo "===== MD FILES ====="
+    - find "$DOCS_BUILD_OUTPUT" -name "*.md"
+
     - echo "MD COUNT:"
     - find "$DOCS_BUILD_OUTPUT" -name "*.md" | wc -l
 
