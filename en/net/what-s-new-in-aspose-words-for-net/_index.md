@@ -10,7 +10,7 @@ ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /net/what-s-new-in-aspose-words-for-net/
-timestamp: 2026-05-18-11-12-25
+timestamp: 2026-06-16-11-12-25
 ---
 
 {{% alert color="grey" %}}
@@ -23,9 +23,20 @@ This page explains what’s new in recent Aspose.Words for .NET releases.
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for .NET 26.5
+## Aspose.Words for .NET 26.5, 26.6
 
 Aspose.Words 26.5 introduces new digital signing and document importing capabilities, improves HTML and field rendering, and enhances support for AAT-enabled fonts in fixed-page output formats.
+
+Aspose.Words 26.6 introduces printing support for Windows-specific .NET target frameworks, expands document customization capabilities, and improves PDF export quality and form field handling. This release also enhances table layout rendering and PDF hyphenation behavior.
+
+### Converting, Loading, and Saving Documents
+
+#### PDF Export
+
+* Seamless export of datetime form fields to PDF, ensuring accurate transfer of date and time data, has been enabled. <sup>26.6</sup>
+* Support for JavaScript triggers for date/time fields in PDF AcroForms forms has been introduced. This makes exported forms more interactive and responsive. <sup>26.6</sup>
+* Hyphenation rendering has been improved. If the font does not contain an optional hyphen (U+00AD), a visual hyphen is now automatically used, while the text remains fully searchable. <sup>26.6</sup>
+* The overall quality of PDF output has been improved by fully preserving date picker content controls. <sup>26.6</sup>
 
 ### Rendering
 
@@ -38,14 +49,22 @@ Aspose.Words 26.5 introduces new digital signing and document importing capabili
 
 Improved handling of AAT-enabled fonts when rendering to fixed-page formats has been implemented.
 
+#### Printing in .NET Core Apps Running on Windows <sup>26.6</sup>
+
+The ability to use [Document.Print()](https://reference.aspose.com/words/net/aspose.words/document/print/) and related printing APIs in .NET Core applications running on Windows has been introduced by adding Windows-specific target framework monikers (net6.0-windows and net8.0-windows) to the NuGet package.
+
 ### Other
 
 * The ability to configure various additional digital signing options has been introduced. <sup>26.5</sup>
 * The ability to import nodes with expanded formatting options has been introduced. <sup>26.5</sup>
+* The ability to clear custom toolbars and keyboard shortcuts from a document has been introduced by adding a [new method](https://reference.aspose.com/words/net/aspose.words/document/removecustomizations/) for resetting and protecting document settings. <sup>26.6</sup>
+* The handling of repeated table header rows has been improved to provide more consistent rendering and layout in multi-page tables. <sup>26.6</sup>
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for .NET 26.5 Release Notes](https://releases.aspose.com/words/net/release-notes/2026/aspose-words-for-net-26-5-release-notes/).
+
+Learn more about [Aspose.Words for .NET 26.6 Release Notes](https://releases.aspose.com/words/net/release-notes/2026/aspose-words-for-net-26-6-release-notes/).
 
 {{% /alert %}}
 
