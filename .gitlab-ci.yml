@@ -107,7 +107,7 @@ build:
     # - apk update && apk add --no-cache git
 
     # Git LFS
-    - git lfs install
+    - git lfs install --force
     - git lfs pull
 
     - echo "The current branch is $CI_COMMIT_REF_NAME"
