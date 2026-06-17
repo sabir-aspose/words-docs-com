@@ -160,6 +160,9 @@ build:
     - echo "===== SEARCHING FOR MD_TEMPLATE_WORKS ====="
     - find "$DOCS_BUILD_OUTPUT" -name "*.md" -exec grep -H "MD_TEMPLATE_WORKS" {} \; || true
 
+    - echo "===== PAGE TYPES ====="
+    - find "$DOCS_BUILD_OUTPUT" -name "*.md" -exec head -20 {} \;
+
     - echo "MD COUNT:"
     - find "$DOCS_BUILD_OUTPUT" -name "*.md" | wc -l
 
