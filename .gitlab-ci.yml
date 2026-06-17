@@ -157,6 +157,9 @@ build:
     - echo "===== MD FILES ====="
     - find "$DOCS_BUILD_OUTPUT" -name "*.md"
 
+    - echo "===== MD HEAD ====="
+    - find "$DOCS_BUILD_OUTPUT" -name "*.md" -exec head -30 {} \;
+
     - echo "===== SEARCHING FOR MD_TEMPLATE_WORKS ====="
     - find "$DOCS_BUILD_OUTPUT" -name "*.md" -exec grep -H "MD_TEMPLATE_WORKS" {} \; || true
 
