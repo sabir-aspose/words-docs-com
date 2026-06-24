@@ -10,10 +10,36 @@ ai_search_scope: words_cpp
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /cpp/what-s-new-in-aspose-words-for-cpp/
-timestamp: 2026-05-18-11-12-25
+timestamp: 2026-06-24-11-12-25
 ---
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
+
+## Aspose.Words for С++ 26.5
+
+Aspose.Words 26.5 introduces new digital signing and document importing capabilities, improves HTML and field rendering, and enhances support for AAT-enabled fonts in fixed-page output formats.
+
+### Rendering
+
+#### EQ Fields <sup>26.5</sup>
+
+* Support for Far East vertical orientation in HTML within EQ fields has been introduced.
+* Improved visual rendering of the EQ field’s frame has been implemented.
+
+#### AAT-enabled Fonts <sup>26.5</sup>
+
+Improved handling of AAT-enabled fonts when rendering to fixed-page formats has been implemented.
+
+### Other
+
+* The ability to configure various additional digital signing options has been introduced. <sup>26.5</sup>
+* The ability to import nodes with expanded formatting options has been introduced. <sup>26.5</sup>
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for C++ 26.5 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2026/aspose-words-for-cpp-26-5-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words for С++ 26.1, 26.2, 26.3, 26.4
 
