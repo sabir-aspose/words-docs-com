@@ -166,6 +166,15 @@ build:
         --config "config.toml,configs/docs.aspose.com-words.toml" \
         --destination "$DOCS_BUILD_OUTPUT"
 
+    - echo "===== EFFECTIVE CONFIG ====="
+    - $HUGO_PATH config | grep -A5 -B5 MARKDOWN || true
+
+    - echo "===== LAYOUTS IN TEMPLATE ====="
+    - find "$DOCS_TEMPLATE_CONTAINER_PATH/layouts" -name "*.md" | sort | head -50
+
+    - echo "===== OUTPUTS CONFIG ====="
+    - $HUGO_PATH config | grep -i outputs -A20 -B5 || true
+    
     - echo "===== MD FILES ====="
     - find "$DOCS_BUILD_OUTPUT" -name "*.md"
 
