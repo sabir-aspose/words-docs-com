@@ -178,6 +178,9 @@ build:
     - echo "===== MD FILES ====="
     - find "$DOCS_BUILD_OUTPUT" -name "*.md"
 
+    - echo "===== DOCS TYPE COUNT ====="
+    - grep -R '^type:' "$CI_PROJECT_DIR" | sort | uniq -c | sort -nr | head -50 || true
+
     - echo "===== MD HEAD ====="
     - find "$DOCS_BUILD_OUTPUT" -name "*.md" -exec head -30 {} \;
 
