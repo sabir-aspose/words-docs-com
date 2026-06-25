@@ -130,6 +130,11 @@ build:
       .
     - echo "Checkout template $DOCS_TEMPLATE_BRANCH_NAME branch..."
     - git checkout $DOCS_TEMPLATE_BRANCH_NAME
+
+    - echo "===== SEARCH OUTPUTS IN TEMPLATE REPO ====="
+    - grep -R "\[outputs\]" . || true
+    - grep -R "page =" . || true
+
     - echo "Currently on docs template checked out $(git rev-parse HEAD)
       revision"
     - echo "Replace content path in the docs.aspose.com-words.toml..."
@@ -142,6 +147,13 @@ build:
     # - npm config set cafile $NPM_REGISTRY_CERT_PATH
     # - npm config set registry https://registry.npmjs.org
     - npm ci
+
+    - echo "===== CONFIG OUTPUTS ====="
+    - grep -n "\[outputs\]" configs/docs.aspose.com-words.toml || true
+    - grep -n "page =" configs/docs.aspose.com-words.toml || true
+    - grep -n "section =" configs/docs.aspose.com-words.toml || true
+    - grep -n "home =" configs/docs.aspose.com-words.toml || true
+
     - echo "Documentation build started..."
     - |
       $HUGO_PATH \
@@ -175,6 +187,15 @@ build:
     - echo "===== MCP MD FILE ====="
     - head -50 "$DOCS_BUILD_OUTPUT/python-net/aspose-words-mcp-server/index.md" || true
 
+    - echo "===== ALL GENERATED MD FILES ====="
+    - find "$DOCS_BUILD_OUTPUT" -name "*.md" | sort
+
+    - echo "===== ALL GENERATED FILES FOR MCP PAGE ====="
+    - find "$DOCS_BUILD_OUTPUT/python-net/aspose-words-mcp-server" -type f | sort
+
+    - echo "===== CHECK HTML EXISTS ====="
+    - ls -la "$DOCS_BUILD_OUTPUT/python-net/aspose-words-mcp-server/" || true
+    
     - echo "HTML COUNT:"
     - find "$DOCS_BUILD_OUTPUT" -name "*.html" | wc -l
 
