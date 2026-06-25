@@ -166,6 +166,16 @@ build:
         --config "config.toml,configs/docs.aspose.com-words.toml" \
         --destination "$DOCS_BUILD_OUTPUT"
 
+    - echo "===== EFFECTIVE HUGO CONFIG ====="
+    - $HUGO_PATH config > effective-config.txt
+    - grep -n "output" effective-config.txt | head -100
+
+    - echo "===== OUTPUT SETTINGS ====="
+    - grep -i -n "output" effective-config.txt | head -100 || true
+
+    - echo "===== MARKDOWN SETTINGS ====="
+    - grep -i -n "markdown" effective-config.txt | head -100 || true
+
     - echo "===== EFFECTIVE CONFIG ====="
     - $HUGO_PATH config | grep -A5 -B5 MARKDOWN || true
 
