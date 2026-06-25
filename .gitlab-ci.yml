@@ -169,6 +169,7 @@ build:
     - echo "===== EFFECTIVE HUGO CONFIG ====="
     - $HUGO_PATH config > effective-config.txt
     - grep -n "output" effective-config.txt | head -100
+    - grep -n "MARKDOWN" effective-config.txt | head -100
 
     - echo "===== OUTPUT SETTINGS ====="
     - grep -i -n "output" effective-config.txt | head -100 || true
@@ -199,6 +200,9 @@ build:
 
     - echo "===== PAGE TYPES ====="
     - find "$DOCS_BUILD_OUTPUT" -name "*.md" -exec head -20 {} \;
+
+    - echo "===== SAMPLE CONTENT TYPES ====="
+    - grep -R "^type:" "$CI_PROJECT_DIR/en" | head -50
 
     - echo "MD COUNT:"
     - find "$DOCS_BUILD_OUTPUT" -name "*.md" | wc -l
