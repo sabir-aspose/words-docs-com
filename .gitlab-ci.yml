@@ -168,8 +168,9 @@ build:
 
     - echo "===== EFFECTIVE HUGO CONFIG ====="
     - $HUGO_PATH config > effective-config.txt
+    - sed -n '530,580p' effective-config.txt
     - grep -n "output" effective-config.txt | head -100
-    - grep -n "MARKDOWN" effective-config.txt | head -100
+    - grep -ni "markdown" effective-config.txt | head -100 || true
 
     - echo "===== OUTPUT SETTINGS ====="
     - grep -i -n "output" effective-config.txt | head -100 || true
