@@ -169,11 +169,17 @@ build:
     - echo "MD COUNT:"
     - find "$DOCS_BUILD_OUTPUT" -name "*.md" | wc -l
 
+    - echo "===== ALL MD FILES ====="
+    - find "$DOCS_BUILD_OUTPUT" -name "*.md" | sort
+
     - echo "===== MCP MD FILE ====="
     - head -50 "$DOCS_BUILD_OUTPUT/python-net/aspose-words-mcp-server/index.md" || true
 
     - echo "HTML COUNT:"
     - find "$DOCS_BUILD_OUTPUT" -name "*.html" | wc -l
+
+    - echo "===== FIND OUTPUTS IN SOURCE ====="
+    - grep -R "outputs:" "$CI_PROJECT_DIR" | head -50 || true
 
     # =========================
     # DEBUG BUILD OUTPUT
