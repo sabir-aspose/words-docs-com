@@ -170,7 +170,7 @@ build:
     - $HUGO_PATH config > effective-config.txt
     - sed -n '530,580p' effective-config.txt
     - grep -n "output" effective-config.txt | head -100
-    - grep -ni "markdown" effective-config.txt | head -100 || true
+    - grep -n "MARKDOWN" effective-config.txt | head -100 || true
 
     - echo "===== OUTPUT SETTINGS ====="
     - grep -i -n "output" effective-config.txt | head -100 || true
@@ -203,7 +203,7 @@ build:
     - find "$DOCS_BUILD_OUTPUT" -name "*.md" -exec head -20 {} \;
 
     - echo "===== SAMPLE CONTENT TYPES ====="
-    - grep -R "^type:" "$CI_PROJECT_DIR/en" | head -50
+    - grep -R "^type:" "$CI_PROJECT_DIR/en" | head -50 || true
 
     - echo "MD COUNT:"
     - find "$DOCS_BUILD_OUTPUT" -name "*.md" | wc -l
