@@ -130,6 +130,7 @@ build:
       .
     - echo "Checkout template $DOCS_TEMPLATE_BRANCH_NAME branch..."
     - git checkout $DOCS_TEMPLATE_BRANCH_NAME
+
     - echo "Currently on docs template checked out $(git rev-parse HEAD)
       revision"
     - echo "Replace content path in the docs.aspose.com-words.toml..."
@@ -142,21 +143,23 @@ build:
     # - npm config set cafile $NPM_REGISTRY_CERT_PATH
     # - npm config set registry https://registry.npmjs.org
     - npm ci
+
     - echo "Documentation build started..."
     - |
       $HUGO_PATH \
-      --cleanDestinationDir \
-      --source "$DOCS_TEMPLATE_CONTAINER_PATH" \
-      --baseURL "https://docs.aspose.com/$SYNC_TYPE" \
-      --contentDir "$CI_PROJECT_DIR" \
-      --config "config.toml,configs/docs.aspose.com-words.toml" \
-      --destination "$DOCS_BUILD_OUTPUT"
+        --templateMetrics \
+        --templateMetricsHints \
+        --cleanDestinationDir \
+        --source "$DOCS_TEMPLATE_CONTAINER_PATH" \
+        --baseURL "https://docs.aspose.com/$SYNC_TYPE" \
+        --contentDir "$CI_PROJECT_DIR" \
+        --config "config.toml,configs/docs.aspose.com-words.toml" \
+        --destination "$DOCS_BUILD_OUTPUT"
 
-    # =========================
-    # DEBUG GENERATED MD FILES
-    # =========================
-    - echo "Generated markdown files:"
-    - find $DOCS_BUILD_OUTPUT -name "*.md" | head -20 || true
+    - |
+      echo "===== BUILD SUMMARY ====="
+      echo "Markdown: $(find "$DOCS_BUILD_OUTPUT" -name '*.md' | wc -l)"
+      echo "HTML:     $(find "$DOCS_BUILD_OUTPUT" -name '*.html' | wc -l)"
 
     - echo "Compressing generated documentation..."
     - cd $CI_HOME_FOLDER
@@ -168,8 +171,9 @@ build:
     - echo "Documentation compressed."
   artifacts:
     paths:
+      - $DOCS_BUILD_OUTPUT/
       - $DOCS_BUILD_OUTPUT_ARCHIVE/$DOCS_FULL_ARCHIVE_NAME
-    expire_in: 10 minutes
+    expire_in: 1 day
 
 .ssh_setup:
   image: alpine:latest
