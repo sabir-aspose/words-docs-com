@@ -131,10 +131,6 @@ build:
     - echo "Checkout template $DOCS_TEMPLATE_BRANCH_NAME branch..."
     - git checkout $DOCS_TEMPLATE_BRANCH_NAME
 
-    - echo "===== SEARCH OUTPUTS IN TEMPLATE REPO ====="
-    - grep -R "\[outputs\]" . || true
-    - grep -R "page =" . || true
-
     - echo "Currently on docs template checked out $(git rev-parse HEAD)
       revision"
     - echo "Replace content path in the docs.aspose.com-words.toml..."
@@ -148,12 +144,6 @@ build:
     # - npm config set registry https://registry.npmjs.org
     - npm ci
 
-    - echo "===== CONFIG OUTPUTS ====="
-    - grep -n "\[outputs\]" configs/docs.aspose.com-words.toml || true
-    - grep -n "page =" configs/docs.aspose.com-words.toml || true
-    - grep -n "section =" configs/docs.aspose.com-words.toml || true
-    - grep -n "home =" configs/docs.aspose.com-words.toml || true
-
     - echo "Documentation build started..."
     - |
       $HUGO_PATH \
@@ -166,89 +156,10 @@ build:
         --config "config.toml,configs/docs.aspose.com-words.toml" \
         --destination "$DOCS_BUILD_OUTPUT"
 
-    - echo "===== EFFECTIVE HUGO CONFIG ====="
-    - $HUGO_PATH config > effective-config.txt
-    - sed -n '530,580p' effective-config.txt
-    - grep -n "output" effective-config.txt | head -100
-    - grep -n "MARKDOWN" effective-config.txt | head -100 || true
-
-    - echo "===== OUTPUT SETTINGS ====="
-    - grep -i -n "output" effective-config.txt | head -100 || true
-
-    - echo "===== MARKDOWN SETTINGS ====="
-    - grep -i -n "markdown" effective-config.txt | head -100 || true
-
-    - echo "===== EFFECTIVE CONFIG ====="
-    - $HUGO_PATH config | grep -A5 -B5 MARKDOWN || true
-
-    - echo "===== LAYOUTS IN TEMPLATE ====="
-    - find "$DOCS_TEMPLATE_CONTAINER_PATH/layouts" -name "*.md" | sort | head -50
-
-    - echo "===== OUTPUTS CONFIG ====="
-    - $HUGO_PATH config | grep -i outputs -A20 -B5 || true
-    
-    - echo "===== MD FILES ====="
-    - find "$DOCS_BUILD_OUTPUT" -name "*.md"
-
-    - echo "===== DOCS TYPE COUNT ====="
-    - grep -R '^type:' "$CI_PROJECT_DIR" | sort | uniq -c | sort -nr | head -50 || true
-
-    - echo "===== MD HEAD ====="
-    - find "$DOCS_BUILD_OUTPUT" -name "*.md" -exec head -30 {} \;
-
-    - echo "===== SEARCHING FOR MD_TEMPLATE_WORKS ====="
-    - find "$DOCS_BUILD_OUTPUT" -name "*.md" -exec grep -H "MD_TEMPLATE_WORKS" {} \; || true
-
-    - echo "===== PAGE TYPES ====="
-    - find "$DOCS_BUILD_OUTPUT" -name "*.md" -exec head -20 {} \;
-
-    - echo "===== SAMPLE CONTENT TYPES ====="
-    - grep -R "^type:" "$CI_PROJECT_DIR/en" | head -50 || true
-
-    - echo "MD COUNT:"
-    - find "$DOCS_BUILD_OUTPUT" -name "*.md" | wc -l
-
-    - echo "===== ALL MD FILES ====="
-    - find "$DOCS_BUILD_OUTPUT" -name "*.md" | sort
-
-    - echo "===== MCP MD FILE ====="
-    - head -50 "$DOCS_BUILD_OUTPUT/python-net/aspose-words-mcp-server/index.md" || true
-
-    - echo "===== ALL GENERATED MD FILES ====="
-    - find "$DOCS_BUILD_OUTPUT" -name "*.md" | sort
-
-    - echo "===== ALL GENERATED FILES FOR MCP PAGE ====="
-    - find "$DOCS_BUILD_OUTPUT/python-net/aspose-words-mcp-server" -type f | sort
-
-    - echo "===== CHECK HTML EXISTS ====="
-    - ls -la "$DOCS_BUILD_OUTPUT/python-net/aspose-words-mcp-server/" || true
-    
-    - echo "HTML COUNT:"
-    - find "$DOCS_BUILD_OUTPUT" -name "*.html" | wc -l
-
-    - echo "===== FIND OUTPUTS IN SOURCE ====="
-    - grep -R "outputs:" "$CI_PROJECT_DIR" | head -50 || true
-
-    # =========================
-    # DEBUG BUILD OUTPUT
-    # =========================
-    - echo "===== BUILD OUTPUT DIRECTORY ====="
-    - echo "DOCS_BUILD_OUTPUT=$DOCS_BUILD_OUTPUT"
-
-    - echo "===== DIRECTORY SIZE ====="
-    - du -sh "$DOCS_BUILD_OUTPUT" || true
-
-    - echo "===== TOP LEVEL CONTENT ====="
-    - ls -lah "$DOCS_BUILD_OUTPUT" || true
-
-    - echo "===== FIRST 200 GENERATED FILES ====="
-    - find "$DOCS_BUILD_OUTPUT" -type f | sort | head -200 || true
-
-    - echo "===== MARKDOWN FILES ====="
-    - find "$DOCS_BUILD_OUTPUT" -name "*.md" | head -50 || true
-
-    - echo "===== HTML FILES ====="
-    - find "$DOCS_BUILD_OUTPUT" -name "*.html" | head -50 || true
+    - |
+      echo "===== BUILD SUMMARY ====="
+      echo "Markdown: $(find "$DOCS_BUILD_OUTPUT" -name '*.md' | wc -l)"
+      echo "HTML:     $(find "$DOCS_BUILD_OUTPUT" -name '*.html' | wc -l)"
 
     - echo "Compressing generated documentation..."
     - cd $CI_HOME_FOLDER
