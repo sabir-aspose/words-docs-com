@@ -230,5 +230,14 @@ deploy:
         sudo chattr -i \"$COPY_FOLDER/$DOCS_BUILD_OUTPUT_FOLDER\"
         
         echo 'Remote sync successful.'
+
+        echo 'Creating flat Markdown endpoints...''
+
+        sudo find \"$SYNC_FOLDER\" -type f -name "index.md" | while read -r file; do
+          target="\${file%/index.md}.md"
+          sudo cp -f "\$file" "\$target"
+        done
+
+        echo 'Flat Markdown endpoints created.'
       "
     - echo "Documentation deployment complete."
