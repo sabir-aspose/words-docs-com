@@ -13,6 +13,14 @@ url: /java/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44  
 ---  
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to detect file format and verify compatibility before loading a document with Aspose.Words.
+
+{{% /alert %}}
+
 Sometimes it is necessary to determine the format of a document before opening because the file extension does not guarantee that the contents of the file are appropriate. For example, it is known that Crystal Reports often outputs documents in RTF format, but gives them the .doc extension.
 
 Aspose.Words provides an ability to obtain information about the file type in order to avoid an exception if you are not sure what the actual content of the file is.
@@ -69,7 +77,7 @@ The following files are used in the example above. The file name is on the left 
 |  | Test File (Enc).docx | Encrypted Office Open XML WordprocessingML document. |
 | Unsupported file formats | Test File (JPG).jpg | JPEG image file. |
 
-------  
+------
 
 ## FAQ
 

@@ -53,7 +53,6 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% /alert %}}
 
-
 The following code example shows how to get or set a bookmark name and text:
 
 {{< gist "aspose-words-gists" "c4555b1a088856e21394104faeb86e51" "update-bookmark-data.cs" >}}

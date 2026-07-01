@@ -43,7 +43,7 @@ Using Aspose.Words, you can easily retrieve data from a database and store it as
 
 The **ImportTableFromDataTable** method accepts a **DocumentBuilder** object, the **DataTable** containing the data and a flag which specifies if the column heading from the **DataTable** are included at the top of the table. This method builds a table from these parameters using the builder’s current position and formatting. Provides a method to import data from the `DataTable` and insert it into a new table using the DocumentBuilder.
 
-The following data in our **DataTable** is used in this example: 
+The following data in our **DataTable** is used in this example:
 
 ![how-to-build-a-table-from-a-datatable-aspose-words-net](how-to-build-a-table-from-a-datatable-1.png)
 

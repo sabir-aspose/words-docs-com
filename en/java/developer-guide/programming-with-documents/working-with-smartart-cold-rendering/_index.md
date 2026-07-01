@@ -3,8 +3,8 @@ title: Working with SmartArt Cold Rendering in Java
 second_title: Aspose.Words for Java
 articleTitle: Working with SmartArt Cold Rendering
 linktitle: Working with SmartArt Cold Rendering
+description: "Introduction to SmartArt shapes using Java."
 type: docs
-description: "Aspose.Words for Java performs SmartArt Cold Rendering, meaning that it lays out and renders SmartArt objects if the pre-rendered SmartArt drawing is missing or incorrect."
 weight: 330
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -12,6 +12,14 @@ ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /java/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---
+
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how SmartArt cold rendering works when converting documents.
+
+{{% /alert %}}
 
 SmartArt graphics are used to quickly and easily create a visual representation of information. You simply choose from a large number of layouts that best suits your situation. This ease of use makes SmartArt graphics quite popular for some purposes.
 
@@ -27,11 +35,11 @@ Aspose.Words allows you to use a pre-rendered drawing or perform cold rendering:
 
 The following code example shows how to update drawings for all diagrams in the document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-UpdateSmartArtDrawing.java" >}}
+{{< gist "aspose-words-gists" "69fffe75454d325c814eefbe9a99e8d7" "update-smart-art-drawing.java" >}}
 
 ## Support for Standard SmartArt Layouts
 
-Currently, only a limited number of standard Microsoft Word SmartArt layouts are supported. Also, some of these layouts are supported partially, meaning that significant nodes and shapes of the diagram are rendered, but there may be differences between Microsoft Word and Aspose.Words diagram layout.
+Currently, only a limited number of standard Microsoft Word SmartArt layouts are supported. Also, some of these layouts are supported partially, meaning that significant nodes and shapes of the diagram are rendered, but there may be differences between the Microsoft Word and Aspose.Words diagram layout.
 
 The table below lists the fully and partially supported layouts:
 
@@ -51,12 +59,10 @@ The table below shows example pictures of Aspose.Words Cold Rendering of some st
 
 |                               | **Aspose.Words**                                             | **Microsoft Word**                                           |
 | ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Basic Process**             | <img src="basic-process-aspose.png" alt="basic_process_aspose"/> | <img src="basic-process-word.png" alt="basic_process_word"/> |
-| **Circular Bending Process**  | <img src="circular-bending-process-aspose.png" alt="circular_bending_process_aspose"/> | <img src="circular-bending-process-word.png" alt="circular_bending_process_word"/> |
-| **Repeating Bending Process** | <img src="repearing-bending-process-aspose.png" alt="repearing_bending_process_aspose"/> | <img src="repearing-bending-process-word.png" alt="repearing_bending_process_word"/> |
-| **Trapezoid List**            | <img src="trapezoid-list-aspose.png" alt="trapezoid_list_aspose"/> | <img src="trapezoid-list-word.png" alt="trapezoid_list_word"/> |
-
-------  
+| **Basic Process**             | <img src="basic-process-aspose.png" alt="basic_process_aspose-java"/> | <img src="basic-process-word.png" alt="basic_process_word-java"/> |
+| **Circular Bending Process**  | <img src="circular-bending-process-aspose.png" alt="circular_bending_process_aspose-java"/> | <img src="circular-bending-process-word.png" alt="circular_bending_process_word-java"/> |
+| **Repeating Bending Process** | <img src="repearing-bending-process-aspose.png" alt="repearing_bending_process_aspose-java"/> | <img src="repearing-bending-process-word.png" alt="repearing_bending_process_word-java"/> |
+| **Trapezoid List**            | <img src="trapezoid-list-aspose.png" alt="trapezoid_list_aspose-java"/> | <img src="trapezoid-list-word.png" alt="trapezoid_list_word-java"/> |  
 
 ## FAQ
 

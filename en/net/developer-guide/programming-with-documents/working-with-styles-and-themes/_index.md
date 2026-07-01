@@ -39,16 +39,15 @@ The solution for retrieving text formatted with specific styles in a Word docume
 
 ### The Solution
 
-To illustrate how easily Aspose.Words handles retrieving content based on styles, let’s look at an example. In this example, we’re going to retrieve text formatted with a specific paragraph style and a character style from a sample Word document.At a high level, this will involve:# Opening a Word document using the [Document](https://reference.aspose.com/words/net/aspose.words/document/) class.# Getting collections of all paragraphs and all runs in the document.# Selecting only the required paragraphs and runs. Specifically, we’ll retrieve text formatted with the ‘Heading 1’ paragraph style and the ‘Intense Emphasis’ character style from this sample Word document.
+To illustrate how easily Aspose.Words handles retrieving content based on styles, let’s look at an example. In this example, we’re going to retrieve text formatted with a specific paragraph style and a character style from a sample Word document. At a high level, this will involve:# Opening a Word document using the [Document](https://reference.aspose.com/words/net/aspose.words/document/) class.# Getting collections of all paragraphs and all runs in the document.# Selecting only the required paragraphs and runs. Specifically, we’ll retrieve text formatted with the ‘Heading 1’ paragraph style and the ‘Intense Emphasis’ character style from this sample Word document.
 
 ![working-with-styles-and-themes-aspose-words-net](working-with-styles-and-themes-1.png)
-
 
 In this sample document, the text formatted with the ‘Heading 1’ paragraph style is ‘Insert Tab’, ‘Quick Styles’ and ‘Theme’, and the text formatted with the ‘Intense emphasis’ character style is the several instances of blue, italicized, bold text such as ‘galleries’ and ‘overall look’.
 
 ### The Code
 
-The implementation of a style-based query is quite simple in the Aspose.Words document object model, as it simply uses tools that are already in place.Two class methods are implemented for this solution: **ParagraphsByStyleName** – This method retrieves an array of those paragraphs in the document that have a specific style name. **RunsByStyleName** – This method retrieves an array of those runs in the document that have a specific style name.Both these methods are very similar, the only differences being the node types and the representation of the style information within the paragraph and run nodes.Here is an implementation of ParagraphsByStyleName : Below example find all paragraphs formatted with the specified style.
+The implementation of a style-based query is quite simple in the Aspose.Words document object model, as it simply uses tools that are already in place. Two class methods are implemented for this solution: **ParagraphsByStyleName** – This method retrieves an array of those paragraphs in the document that have a specific style name. **RunsByStyleName** – This method retrieves an array of those runs in the document that have a specific style name. Both these methods are very similar, the only differences being the node types and the representation of the style information within the paragraph and run nodes.Here is an implementation of ParagraphsByStyleName : Below example find all paragraphs formatted with the specified style.
 
 {{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "paragraphs-by-style-name.cs" >}}
 
@@ -71,10 +70,9 @@ When both queries are implemented, all you need to do is to pass a document obje
 
 ### End Result
 
-When everything is done, running the sample will display the following output: 
+When everything is done, running the sample will display the following output:
 
 ![styles-and-themes-aspose-words-net](working-with-styles-and-themes-2.png)
-
 
 As you can see, this is a very simple example, showing the number and text of the collected paragraphs and runs in the sample Word document.
 

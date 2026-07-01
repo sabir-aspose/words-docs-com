@@ -13,9 +13,17 @@ url: /java/working-with-asian-typography/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to work with Asian typography features such as line breaking and character spacing.
+
+{{% /alert %}}
+
 Asian Typography is a set of options for text paragraphs in documents written in Asian languages.
 
-Aspose.Words supports Asian Typography using the [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat/) class and some of its properties.
+Aspose.Words supports Asian Typography using the [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/) class and some of its properties.
 
 ## Automatically Adjust Space between Asian and Latin Text or Numbers
 
@@ -23,7 +31,7 @@ If you are designing a template with both East Asian and Latin text and  want to
 
 The following code example shows how to use **AddSpaceBetweenFarEastAndAlpha** and **AddSpaceBetweenFarEastAndDigit** properties:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderSetSpaceBetweenAsianAndLatinText.java" >}}
+{{< gist "aspose-words-gists" "93caa5d439a29d1632a48bdcf8a5efe9" "space-between-asian-and-latin-text.java" >}}
 
 ## Set Line Break Options
 
@@ -31,15 +39,7 @@ The Asian Typography tab of the paragraph properties dialog box in Microsoft Wor
 
 The following code example shows how to use these properties:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-SetAsianTypographyLinebreakGroupProp.java" >}}
-
-## Change Asian Paragraph Spacing and Indents
-
-The following code example shows how to change Asian paragraph spacing and indents:
-
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-ChangeAsianParagraphSpacingandIndents.java" >}}
-
------- 
+{{< gist "aspose-words-gists" "93caa5d439a29d1632a48bdcf8a5efe9" "asian-typography-line-break-group.java" >}}
 
 ## FAQ
 

@@ -37,7 +37,7 @@ Aspose.Words allows you to control the way you restrict the content using the [P
 * ReadOnly
 * NoProtection
 
-All types are password‑secured, and if this password is not entered correctly, a user will not be able to legally change the content of your document. Thus, if your document is returned to you without a requirement to provide the necessary password, this is a sign that something is wrong.
+All types are password-secured, and if this password is not entered correctly, a user will not be able to legally change the content of your document. Thus, if your document is returned to you without a requirement to provide the necessary password, this is a sign that something is wrong.
 
 If you did not set a password when choosing the security type, other users can simply ignore the protection of your document.
 
@@ -84,7 +84,7 @@ You can restrict editing of your document and at the same time allow changes to 
 
 Aspose.Words allows you to mark the parts that can be changed in your document using the [StartEditableRange](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starteditablerange/) and [EndEditableRange](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endeditablerange/#endeditablerange/) methods.
 
-The following code example shows how to mark the whole document as read‑only and specify editable regions in it:
+The following code example shows how to mark the whole document as read-only and specify editable regions in it:
 
 {{< gist "aspose-words-gists" "856ba85fa704fa728b0ec20aafddd16b" "unrestricted-editable-regions.cs" >}}
 

@@ -13,9 +13,17 @@ url: /java/convert-a-document-to-an-image/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Sometimes it is required to get an image instead of documents in other formats, such as DOCX or PDF. For example, you need to add a preview of any document page to your website or application or create a "scan" of a document to send an invoice. This is when you may need to convert a document in any [supported load format](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) to an image, again, in any [supported save format](https://reference.aspose.com/words/java/com.aspose.words/saveformat/).
+{{% alert color="grey" %}}
 
-## Convert to Image Format
+## Purpose Summary
+
+This page explains how to convert a Word document into images (e.g., PNG, JPEG) using Aspose.Words.
+
+{{% /alert %}}
+
+Sometimes it is required to get an image instead of documents in other formats, such as DOCX or PDF. For example, you need to add a preview of any document page to your website or application, or create a "scan" of a document to send an invoice. This is when you may need to convert a document in any [supported load format](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) to an image, again, in any [supported save format](https://reference.aspose.com/words/java/com.aspose.words/saveformat/).
+
+## Convert to Image {#convert-to-image-format}
 
 As with all conversion examples already described, you need to create a new document or load an existing one in any supported format, make the necessary changes, and save it in any available image format, for example, JPEG, PNG, or BMP.
 
@@ -23,7 +31,7 @@ The following code example shows how to convert DOCX to JPEG:
 
 {{< gist "aspose-words-gists" "3e41a25b97b6091491b45ebf20f273b5" "docx-to-jpeg.java" >}}
 
-## Specify Save Options when Converting to an Image
+## Specify Save Options when Converting to Image {#specify-save-options-when-converting-to-an-image}
 
 Aspose.Words provides you with the [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) class, which gives more control over how documents are saved in various image formats. Some properties of this class inherit or overload properties of base classes such as [FixedPageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/) or [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/), but there are also options specific to saving images.
 

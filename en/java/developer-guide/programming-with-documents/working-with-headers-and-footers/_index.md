@@ -3,7 +3,7 @@ title: Working with Headers and Footers in Java
 second_title: Aspose.Words for Java
 articleTitle: Working with Headers and Footers
 linktitle: Working with Headers and Footers
-description: "How to manipulate headers and footers using Java."
+description: "How to manipulate headers and footers using Java. Create headers and footers Java. Remove headers or footers Java."
 type: docs
 weight: 150
 ai_search_scope: words_java
@@ -12,6 +12,14 @@ ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /java/working-with-headers-and-footers/
 timestamp: 2024-01-27-14-07-04
 ---
+
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to work with headers and footers using Aspose.Words.
+
+{{% /alert %}}
 
 Aspose.Words allows users to work with headers and footers in a document. A header is text that is placed at the top of a page, and a footer is text at the bottom of a page. Typically, these areas are used to insert information that should be repeated on all or some pages of the document, such as page numbers, creation date, company information, and so on.
 
@@ -30,7 +38,6 @@ When you add a header or footer to a document, you can set some advanced propert
 ### Specify Header or Footer Type
 
 You can specify three different header types and three different footer types for one document:
-
 1. Header and/or footer for the first page
 2. Header and/or footer for even pages
 3. Header and/or footer for odd pages
@@ -106,8 +113,6 @@ The following code example shows how to remove all footers from all sections but
 You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Footer.docx).
 
 {{% /alert %}}
-
------- 
 
 ## FAQ
 

@@ -1,5 +1,5 @@
 ---
-title: Change Table Style in Word Documents
+title: Change Table Style in Word Documents using C#
 second_title: Aspose.Words for .NET
 articleTitle: Apply Table Style
 linktitle: Apply Table Style

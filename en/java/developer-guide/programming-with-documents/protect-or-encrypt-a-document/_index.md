@@ -3,7 +3,7 @@ title: Protect or Encrypt a Document in Java
 second_title: Aspose.Words for Java
 articleTitle: Protect or Encrypt a Document
 linktitle: Protect or Encrypt a Document
-description: "Encrypt a document, restrict editing, use digital signatures for document protection. Aspose.Words supports most Word protection options using Java."
+description: "Aspose.Words for Java provides Read-Only, Encrypt a Document, Restrict Editing, and Digital Signatures for document protection using Java. Aspose.Words supports most Word protection options."
 type: docs
 weight: 50
 ai_search_scope: words_java
@@ -12,6 +12,14 @@ ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /java/protect-or-encrypt-a-document/
 timestamp: 2025-12-30-12-07-05
 ---
+
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to protect or encrypt a document using various security options.
+
+{{% /alert %}}
 
 The main reason to protect or encrypt a document is to apply more control over who can access the document or who can edit it. Applying protection to your documents, you avoid common risks such as copying or modifying documents without permission, as well as data leakage.
 

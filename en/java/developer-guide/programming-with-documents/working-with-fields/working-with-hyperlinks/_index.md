@@ -3,7 +3,7 @@ title: Working with Hyperlinks in Java
 second_title: Aspose.Words for Java
 articleTitle: Add or Modify Hyperlinks
 linktitle: Add or Modify Hyperlinks
-description: "How to add a hyperlink into your document using Java."
+description: "How to add a hyperlink into your document in Java using Aspose.Words for Java."
 type: docs
 weight: 50
 ai_search_scope: words_java
@@ -12,6 +12,14 @@ ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /java/working-with-hyperlinks/
 timestamp: 2024-01-27-14-07-04
 ---
+
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to work with hyperlinks inside Word documents.
+
+{{% /alert %}}
 
 A hyperlink in Microsoft Word documents is the `HYPERLINK` field. In Aspose.Words, hyperlinks are implemented through the [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) class.
 
@@ -33,7 +41,7 @@ Note that you need to specify font formatting for the hyperlink display text exp
 
 The following code example shows how to insert a hyperlink into a document using [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/):
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHyperlink-DocumentBuilderInsertHyperlink.java" >}}
+{{< gist "aspose-words-gists" "d94085c26baf5235d4e7ab5483980108" "insert-hyperlink.java" >}}
 
 ## Replace or Modify Hyperlinks
 
@@ -43,4 +51,9 @@ To replace or modify hyperlinks, it is need to find the hyperlinks in the docume
 
 The following code example shows how to find all hyperlinks in Word document and changes their `URL` and display name:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Hyperlink-ReplaceHyperlinks-ReplaceHyperlinks.java" >}}
+{{< gist "aspose-words-gists" "d94085c26baf5235d4e7ab5483980108" "replace-hyperlinks.java" >}}
+
+## Related APIs
+
+- [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/)
+- [DocumentBuilder.InsertHyperlink](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHyperlink-java.lang.String-java.lang.String-boolean)

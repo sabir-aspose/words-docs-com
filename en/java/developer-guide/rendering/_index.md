@@ -3,7 +3,7 @@ title: Rendering in Java
 second_title: Aspose.Words for Java
 articleTitle: Rendering
 linktitle: Rendering
-description: "Use Aspose.Words for Java rendering feature to format a flow-layout document into pages and convert such a document or selected pages to another document (PDF, HTML, XPS, etc.) or image (TIFF, PNG, SVG, etc.) formats for viewing, further conversions, or printing."
+description: "Use Aspose.Words for .NET rendering feature to format a flow-layout document into pages and convert such a document or selected pages to other documents (PDF, HTML, XPS, etc.) or images (TIFF, PNG, SVG, etc.) formats for viewing, further conversions, or printing using Java."
 type: docs
 weight: 30
 ai_search_scope: words_java
@@ -13,9 +13,17 @@ url: /java/rendering/
 timestamp: 2024-01-27-14-07-04
 ---
 
-We use the term "rendering" in Aspose.Words to describe the process of converting a document into a file format or a medium that is paginated or has the concept of pages. We are talking about the rendering of a document into pages. The following diagram shows what rendering is in Aspose.Words.
+{{% alert color="grey" %}}
 
-![rendering-aspose-words-java](rendering-1.png)
+## Purpose Summary
+
+This page explains how rendering works in Aspose.Words, including pagination and output formats.
+
+{{% /alert %}}
+
+We use the term "rendering" in Aspose.Words to describe the process of converting a document into a file format or a medium that is paginated or has the concept of pages. We are talking about rendering of a document into pages. The following diagram shows what rendering is in Aspose.Words.
+
+![rendering_aspose_words_java](rendering-1.png)
 
 The rendering features of Aspose.Words enable you to perform the following:
 
@@ -29,12 +37,12 @@ The rendering features of Aspose.Words enable you to perform the following:
 
 ## Flow-layout or Fixed-layout Document Formats {#flow-layout-or-fixed-layout-document-formats}
 
-Most of the document formats that can be loaded into Aspose.Words are known as “flow-layout” formats. Flow-layout formats include DOC, OOXML, RTF, ODT, and HTML. Documents in these formats consist of various elements such as paragraphs, tables, headers, footers, images, fields, and their formatting, for example, bold, italic, font, size. However, the flow-layout formats do not contain information about the position where each particular paragraph or character is displayed on a page.
+Most of the document formats that can be loaded into Aspose.Words are known as “flow-layout” formats. Flow-layout formats include DOC, OOXML, RTF, ODT, and HTML. Documents in these formats consist of various elements such as paragraphs, tables, headers, footers, images, fields and their formatting, for example, bold, italic, font, size. However, the flow-layout formats do not contain information about position where each particular paragraph or character is displayed on a page.
 
-In contrast, the “fixed-layout” (also known as "fixed page") formats such as PDF and XPS contain exact positioning information for all document elements. These formats preserve the original appearance of a document after it was laid out into pages, providing higher accuracy of the displayed information.
+In contrast, the “fixed-layout” (also known as "fixed page") formats such as PDF and XPS contain exact positioning information for all document elements. These formats preserve the original appearance of a document after it was laid out into pages, providing higher accuracy of displayed information.
 
 ## Page Layout Engine {#page-layout-engine}
 
 Aspose.Words implements its own page layout engine that formats a flow-layout document into pages. Aspose.Words implements a number of renderers that either produce a fixed-layout document such as PDF or XPS, or output pages into another medium such as printing or drawing. Note that the export can also be paginated for HTML and XAML. This means that a document can be saved as regular HTML or XAML (flow-layout format), or as "paginated" HTML and XAML that feature absolute positions of elements.
 
-The most important advantage of using Aspose.Words page layout engine is that it mimics the way Microsoft Word’s page layout engine works. Therefore, when you convert a Microsoft Word document into PDF, XPS, or print it using Aspose.Words, the output will appear almost exactly as if it was done by Microsoft Word. Note that Aspose.Words does not utilize Microsoft Word.
+The most important advantage of using the Aspose.Words page layout engine is that it mimics the way Microsoft Word’s page layout engine works. Therefore, when you convert a Microsoft Word document into PDF, XPS, or print it using Aspose.Words, the output will appear almost exactly as if it was done by Microsoft Word. Note that Aspose.Words does not utilize Microsoft Word.

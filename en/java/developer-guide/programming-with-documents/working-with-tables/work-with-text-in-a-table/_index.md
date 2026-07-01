@@ -13,6 +13,14 @@ url: /java/extract-text-from-and-replace-text-in-a-table/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to work with text inside a table, including formatting and extraction.
+
+{{% /alert %}}
+
 As mentioned in previous articles, a table usually contains plain text, although other content such as images or even other tables can be placed in table cells.
 
 Adding text or other content to the table is carried out using the appropriate methods of the [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) class and is described in the **"Create a Table"** article. In this article, we will talk about how to work with text in an already existing table.
@@ -33,7 +41,7 @@ The following code example shows how to replace all instances of a string of tex
 
 {{< gist "aspose-words-gists" "7855fd2588b90f4640bf0540285b5277" "replace-text.java" >}}
 
-## Extract Plain Text from a Table
+## Extract Plain Text from Table or Cell
 
 Using the **Range** object, you can also call methods on the entire table range and extract the table as plain text. To do this, use the [Text](https://reference.aspose.com/words/java/com.aspose.words/range/#Text) property. 
 
@@ -41,15 +49,9 @@ The following code example shows how to print the text range of a table:
 
 {{< gist "aspose-words-gists" "7855fd2588b90f4640bf0540285b5277" "extract-text.java" >}}
 
-{{% alert color="primary" %}}
-
 The same technique is used to extract content from individual table cells only.
 
 The following code example shows how to print a text range of row and table elements:
-
-{{% /alert %}}
-
-The following code example shows how to print the text range of row and table elements.
 
 {{< gist "aspose-words-gists" "7855fd2588b90f4640bf0540285b5277" "print-text-range-row-and-table.java" >}}
 

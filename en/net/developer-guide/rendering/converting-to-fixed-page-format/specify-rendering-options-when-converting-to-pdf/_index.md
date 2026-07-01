@@ -1,5 +1,5 @@
 ---
-title: Options When Converting to PDF
+title: Specify Rendering Options When Converting to PDF using C#
 second_title: Aspose.Words for .NET
 articleTitle: Specify Rendering Options When Converting to PDF
 linktitle: Specify Rendering Options When Converting to PDF
@@ -51,7 +51,7 @@ The code example below shows how to save a document as PDF with fillable forms w
 
 ## Exporting Document Structure and Custom Properties
 
-The [https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/exportdocumentstructure) property enables you to export document structure to PDF output.
+The [ExportDocumentStructure](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/exportdocumentstructure) property enables you to export document structure to PDF output.
 
 PDF logical structure facilities provide a mechanism for incorporating information, regarding the document content structure, into a PDF file. Aspose.Words preserves information about the structure from a Microsoft Word document, such as paragraphs, lists, tables, footnotes/endnotes, etc.
 

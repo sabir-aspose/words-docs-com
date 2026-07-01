@@ -66,6 +66,7 @@ The following code example shows how to insert an empty field into the document:
 {{< gist "aspose-words-gists" "1cf07762df56f15067d6aef90b14b3db" "insert-field-none.cs" >}}
 
 ## Inserting Fields into a Document using FieldBuilder
+
 The alternative way to insert fields in Aspose.Words is the [FieldBuilder](https://reference.aspose.com/words/net/aspose.words.fields/fieldbuilder/) class. It provides fluent interface to specify field switches and argument values as text, nodes or even nested fields.
 
 The following code example shows how to insert a field into a document using **FieldBuilder**:

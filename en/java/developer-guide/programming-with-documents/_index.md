@@ -15,6 +15,14 @@ aliases:
 timestamp: 2024-09-25-11-08-55
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to programmatically work with documents—including editing, formatting, and generating content—using Aspose.Words.
+
+{{% /alert %}}
+
 This section provides information on how to programmatically create, modify, and manage documents with the Aspose.Words Document Object Model classes. Articles in this section describe a wide range of document manipulation tasks enabling you to work with document properties, settings, content, and its elements.
 
 The visual appearance of documents is another important topic covered in this section that includes articles on working with colors, shapes, fonts, and other graphical elements.
@@ -26,9 +34,15 @@ To learn more about Aspose.Words features when programming with documents, selec
 - [Document Builder Overview](/words/java/document-builder-overview/)
 - [Working with Document](/words/java/working-with-document/)
 - [Protect or Encrypt a Document](/words/java/protect-or-encrypt-a-document/)
-- [Working with Styles and Themes](/words/java/working-with-styles/)
+- [Compare Documents](/words/java/compare-documents/)
+- [Clone a Document](/words/java/clone-a-document/)
+- [Insert and Append Documents](/words/java/insert-and-append-documents/)
+- [Split a Document](/words/java/split-a-document/)
+- [Find and Replace](/words/java/find-and-replace/)
+- [Working with Styles and Themes](/words/java/working-with-styles-and-themes/)
 - [Working with Sections](/words/java/working-with-sections/)
 - [Working with Ranges](/words/java/working-with-ranges/)
+- [Extract Content Between Nodes](/words/java/how-to-extract-selected-content-between-nodes-in-a-document/)
 - [Working with Headers and Footers](/words/java/working-with-headers-and-footers/)
 - [Working with Footnote and Endnote](/words/java/working-with-footnote-and-endnote/)
 - [Working with Table of Contents](/words/java/working-with-table-of-contents/)
@@ -38,14 +52,22 @@ To learn more about Aspose.Words features when programming with documents, selec
 - [Working with Paragraphs](/words/java/working-with-paragraphs/)
 - [Working with Hyphenation](/words/java/working-with-hyphenation/)
 - [Working with Fonts](/words/java/working-with-fonts/)
-- [Working with Linked TextBoxes](/words/java/working-with-linked-textboxes/)
-- [Working with Comments](/words/java/working-with-comments/)
 - [Working with Asian Typography](/words/java/working-with-asian-typography/)
-- [Working with Graphic Elements](/words/java/working-with-graphic-elements/)
-- [Working with Ole Objects](/words/java/working-with-ole-objects/)
+- [Working with TextBoxes](/words/java/working-with-textboxes/)
+- [Working with Comments](/words/java/working-with-comments/)
+- [Track Changes in a Document](/words/java/track-changes-in-a-document/)
+- [Working with Shapes](/words/java/working-with-shapes/)
+- [Working with Group Shapes in Word Documents](/words/java/how-to-add-group-shape-into-a-word-document/)
+- [Working with Images](/words/java/working-with-images/)
+- [Working with Charts](/words/java/working-with-charts/)
+- [Working with OfficeMath](/words/java/working-with-officemath/)
+- [Working with SmartArt Cold Rendering](/words/java/working-with-smartart-cold-rendering/)
+- [Working with Watermark](/words/java/working-with-watermark/)
+- [Generate a Custom BarCode Image](/words/java/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/)
+- [Working with Ole Objects and Online Video](/words/java/working-with-ole-objects-and-online-video/)
 - [Working with Fields](/words/java/working-with-fields/)
 - [Working with Form Fields](/words/java/working-with-form-fields/)
-- [Contents Management](/words/java/contents-management/)
+- [Working with Content Control SDT](/words/java/working-with-content-control-sdt/)
 - [Working With Control Characters](/words/java/working-with-control-characters/)
 - [Working with VBA Macros](/words/java/working-with-vba-macros/)
 - [Working with Markdown Features](/words/java/working-with-markdown-features/)

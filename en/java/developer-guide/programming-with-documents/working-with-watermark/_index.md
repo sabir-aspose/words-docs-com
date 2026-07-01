@@ -14,7 +14,15 @@ aliases: [/java/how-to-add-a-watermark-to-a-document/]
 timestamp: 2025-04-22-08-07-04
 ---
 
-This topic discusses how to work programmatically with a watermark using Aspose.Words. A watermark is a background image that displays behind the text in a document. A watermark can contain a text or an image represented by the [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) class.
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to work with watermarks in Word documents.
+
+{{% /alert %}}
+
+This topic discusses how to work programmatically with watermark using Aspose.Words. A watermark is a background image that displays behind the text in a document. A watermark can contain a text or an image represented by the [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) class.
 
 {{% alert color="primary" %}}
 
@@ -32,13 +40,13 @@ In Microsoft Word, a watermark can easily be inserted in a document using the In
 
 The following code example demonstrates how to insert a text watermark in a document by defining [TextWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/textwatermarkoptions/) using the [SetText](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setText-java.lang.String) method:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddTextWatermarkWithSpecificOptions.java" >}}
+{{< gist "aspose-words-gists" "45164877cf7053ae51abc84d2e3bc172" "add-text-watermark.java" >}}
 
 ### Add Image Watermark
 
 The following code example demonstrates how to insert an image watermark in a document by defining [ImageWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/imagewatermarkoptions/) using the [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.awt.image.BufferedImage) method:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.java" >}}
+{{< gist "aspose-words-gists" "45164877cf7053ae51abc84d2e3bc172" "add-image-watermark.java" >}}
 
 Image watermark can be inserted as image, string, or stream.
 
@@ -46,44 +54,38 @@ The watermark can also be inserted using shape class as well. It is very easy to
 
 The following code example inserts a watermark into a Word document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-AddWatermarkToADocument-AddWatermarkToADocument.java" >}}
+{{< gist "aspose-words-gists" "45164877cf7053ae51abc84d2e3bc172" "add-document-watermark.java" >}}
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.docx).
 
 {{% /alert %}}
 
 
 ## Remove Watermark from a Document
 
-The [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) class provides the `Remove` method to remove the watermark from a document.
+The [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) class provides the remove method to remove the watermark from a document.
 
-The following code examples shows how to remove a watermark from documents:
+The following code example shows how to remove a watermark from documents:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-RemoveWatermarkFromDocument.java" >}}
+{{< gist "aspose-words-gists" "45164877cf7053ae51abc84d2e3bc172" "remove-document-watermark.java" >}}
 
-To remove the watermark from a document you have to set only the name of the watermark shape during inserting and then remove the watermark shape by an assigned name.
+If the watermarks are added using the [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) class object then to remove the watermark from a document you have to set only the name of watermark shape during inserting and then remove watermark shape by an assigned name.
 
 The following code example show you how to set the name of the watermark shape and remove it from the document:
 
-{{< highlight csharp >}}
+{{< gist "aspose-words-gists" "45164877cf7053ae51abc84d2e3bc172" "set-shape-name.java" >}}
 
-// Set name to be able to remove it afterwards
-watermark.Name("WaterMark");
-{{< /highlight >}}
-
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-RemoveWatermark-RemoveWatermark.java" >}}
+{{< gist "aspose-words-gists" "45164877cf7053ae51abc84d2e3bc172" "remove-watermark-shape.java" >}}
 
 ## Add a Watermark into a Table Cell
 
-Sometimes you need to insert a watermark/image into a table's cell and display it outside the table, you can use [IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell-boolean) property. This property gets or sets a flag indicating whether the shape is displayed inside a table or outside of it. Note that this property works only when you optimize the document for Microsoft Word 2010 using the [OptimizeFor](https://reference.aspose.com/words/java/com.aspose.words/compatibilityoptions/#optimizeFor-int) method. 
+Sometimes you need to insert a watermark/image into a table's cell and display it outside the table, you can use the [IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell-boolean) property. This property gets or sets a flag indicating whether the shape is displayed inside a table or outside of it. Note that this property works only when you optimize the document for Microsoft Word 2010 using the [OptimizeFor](https://reference.aspose.com/words/java/com.aspose.words/compatibilityoptions/#optimizeFor-int) method.
 
 The following code example shows how to use this property:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-SetShapeLayoutInCell.java" >}}
-
------- 
+{{< gist "aspose-words-gists" "ae9835338c044aaa3ac54592b7062db8" "layout-in-cell.java" >}}
 
 ## FAQ
 

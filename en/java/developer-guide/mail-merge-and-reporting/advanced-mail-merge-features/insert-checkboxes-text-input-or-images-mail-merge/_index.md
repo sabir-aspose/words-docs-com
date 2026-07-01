@@ -14,6 +14,14 @@ aliases: [/java/insert-checkboxes-html-or-images-during-mail-merge/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page describes how to insert checkboxes, text inputs, or images during mail merge.
+
+{{% /alert %}}
+
 The merge engine takes a document as input, looks for `MERGEFIELD` fields in it, and replaces them with the data obtained from the data source. Typically, plain text and HTML are inserted, but Aspose.Words users can also generate a document that handles more unusual scenarios for Mail Merge fields.
 
 Powerful Aspose.Words functionality allows you to extend the Mail Merge process:
@@ -27,11 +35,11 @@ Sometimes it is necessary to perform a Mail Merge operation so that not text is 
 
 The following screenshot of a Word document shows a template with merge fields:
 
-![insert-checkboxes-html-or-images-during-mail-merge-aspose-words-java-1](insert-checkboxes-html-or-images-during-mail-merge_1.jpeg)
+<img src="insert-checkboxes-html-or-images-during-mail-merge-1.jpeg" alt="insert-checkboxes-or-images-mail-merge-aspose-words-java" style="width:600px"/>
 
 This screenshot of the Word document below shows the already generated document:
 
-![insert-checkboxes-html-or-images-during-mail-merge-aspose-words-java-2](insert-checkboxes-html-or-images-during-mail-merge-2.png)
+<img src="insert-checkboxes-html-or-images-during-mail-merge-2.png" alt="insert-checkboxes-html-or-images-mail-merge-aspose-words-java" style="width:600px"/>
 
 {{% alert color="primary" %}}
 
@@ -41,9 +49,9 @@ Note that some fields were replaced with plain text, some fields were replaced w
 
 The following code example shows how to insert checkboxes and input text fields into a document during a mail merge:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeFormFields-MailMergeFormFields.java" >}}
+{{< gist "aspose-words-gists" "5088a3aa54a6cb4f6dc8ee8a4e19da52" "mail-merge-form-fields.java" >}}
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeFormFields-HandleMergeField.java" >}}
+{{< gist "aspose-words-gists" "1aaa54a374c2ea8cda06bae3d084108e" "handle-merge-field.java" >}}
 
 ## Insert Images during Mail Merge
 
@@ -55,7 +63,9 @@ During a mail merge, when an image Mail Merge field is encountered in a document
 
 The following code example shows how to insert images stored in a database BLOB field into a report:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeImageFromBlob.java" >}}
+{{< gist "aspose-words-gists" "1aaa54a374c2ea8cda06bae3d084108e" "mail-merge-image-from-blob.java" >}}
+
+{{< gist "aspose-words-gists" "1aaa54a374c2ea8cda06bae3d084108e" "handle-merge-image-field-from-blob.java" >}}
 
 ### Set Image Properties during Mail Merge
 
@@ -65,9 +75,11 @@ Currently, using [ImageFieldMergingArgs](https://reference.aspose.com/words/java
 
 The following code example shows how to set various image properties:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeImageField-MailMergeImageField.java" >}}
+{{< gist "aspose-words-gists" "1aaa54a374c2ea8cda06bae3d084108e" "mail-merge-image-field.java" >}}
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeImageField-FieldMergingHandler.java" >}}
+{{< gist "aspose-words-gists" "1aaa54a374c2ea8cda06bae3d084108e" "image-field-merging-handler.java" >}}
+
+{{< gist "aspose-words-gists" "1aaa54a374c2ea8cda06bae3d084108e" "data-source-root.java" >}}
 
 ------  
 

@@ -13,6 +13,14 @@ url: /java/convert-a-document-to-excel/
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page outlines how to convert a Word document to Excel format (XLS/XLSX) using Aspose.Words.
+
+{{% /alert %}}
+
 Converting documents from one format to another is the flagship feature of Aspose.Words. You can convert documents in any available [load format](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) also to XLSX format.
 
 ## Convert a Document to XLSX

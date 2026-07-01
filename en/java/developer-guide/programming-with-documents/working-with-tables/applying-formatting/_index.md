@@ -14,9 +14,17 @@ aliases: [/java/applying-formatting-to-table-row-and-cell/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to apply styling and formatting to document content in Aspose.Words.
+
+{{% /alert %}}
+
 Each element of a table can be applied with different formatting. For example, table formatting will be applied to the entire table, row formatting to only particular rows, cell formatting to only certain cells.
 
-Aspose.Words provides a rich API to retrieve and apply formatting to a table. You can use the [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/), and [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) nodes to set formatting.
+Aspose.Words provides a rich API to retrieve and apply formatting to a table. You can use the [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/), and [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) nodes to set the formatting.
 
 In this article, we will talk about how to apply formatting to different table nodes and what table formatting settings Aspose.Words supports.
 
@@ -26,31 +34,43 @@ In this section, we will look at applying formatting to various table nodes.
 
 ### Table Level Formatting
 
-To apply formatting to a table you can use the properties available on the corresponding **Table** node using the [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/), and [TableCollection](https://reference.aspose.com/words/java/com.aspose.words/tablecollection/) classes.
+To apply formatting to a table, you can use the properties available on the corresponding **Table** node using the [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/), and [TableCollection](https://reference.aspose.com/words/java/com.aspose.words/tablecollection/) classes.
 
 {{% alert color="primary" %}}
 
-Note that the table must have at least one row before the table properties can be applied. This means that when building a table with the [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/), this formatting must be done after the first call to [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell()), or after the first row is added to the table, or when nodes are inserted directly into the DOM.
+Note that the table must have at least one row before the table properties can be applied. This means that when building a table with the [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/), this formatting must be done after the first call to [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell(), or after the first row is added to the table, or when nodes are inserted directly into the DOM.
 
 {{% /alert %}}
 
 The pictures below show a representation of the **Table** formatting features in Microsoft Word and their corresponding properties in Aspose.Words.
 
-![apply-formatting-to-table-level-aspose-words-java](applying-formatting-to-table-row-and-cell-1.png)
+![formattin-features-table-level-aspose-words-net](applying-formatting-1.png)
 
-![apply-formatting-to-table-level-aspose-words-java](applying-formatting-to-table-row-and-cell-2.png)
+![formatting-table-options-aspose-words-net](applying-formatting-2.png)
 
 The following code example shows how to apply an outline border to a table:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "apply-outline-border.java" >}}
 
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
+
+{{% /alert %}}
+
 The following code example shows how to build a table with all borders enabled (grid):
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "build-table-with-borders.java" >}}
 
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
+
+{{% /alert %}}
+
 ### Row Level Formatting
 
-Row-level** formatting can be controlled using the [Row](https://reference.aspose.com/words/java/com.aspose.words/row/), [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/), and [RowCollection](https://reference.aspose.com/words/java/com.aspose.words/rowcollection/) classes.
+**Row-level** formatting can be controlled using the [Row](https://reference.aspose.com/words/java/com.aspose.words/row/), [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/), and [RowCollection](https://reference.aspose.com/words/java/com.aspose.words/rowcollection/) classes.
 
 {{% alert color="primary" %}}
 
@@ -60,11 +80,17 @@ Note that a **Row** can only be a child node of a **Table**. At the same time, t
 
 The pictures below show a representation of the **Row** formatting features in Microsoft Word and their corresponding properties in Aspose.Words.
 
-![apply-formatting-to-row-level-aspose-words-java](applying-formatting-to-table-row-and-cell-3.png)
+![formatting-row-level-aspose-words-net](applying-formatting-3.png)
 
 The following code example shows how to modify the table row formatting:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "modify-row-formatting.java" >}}
+
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
+
+{{% /alert %}}
 
 ### Cell Level Formatting
 
@@ -80,19 +106,25 @@ In addition to the **Paragraph**, you can also insert a **Table** into a **Cell*
 
 The pictures below show a representation of the **Cell** formatting features in Microsoft Word and their corresponding properties in Aspose.Words.
 
-![apply-formatting-to-cell-level-aspose-words-java](applying-formatting-to-table-row-and-cell-4.png)
+![formatting-cell-level-aspose-words-net](applying-formatting-4.png)
 
-![apply-auto-formatting-to-row-level-aspose-words-java](applying-formatting-to-table-row-and-cell-5.png)
+![auto-formatting-cell-level-aspose-words-net](applying-formatting-5.png)
 
 The following code example shows how to modify the formatting of a table cell:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "modify-cell-formatting.java" >}}
 
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
+
+{{% /alert %}}
+
 The following code example shows how to set the amount of space (in points) to add to the left/top/right/bottom of the contents of the cell:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "cell-padding.java" >}}
 
-## Specifying Row Heights
+## Specify Row Heights
 
 The simplest way to set the row height is to use the **DocumentBuilder**. Using the appropriate **RowFormat** properties, you can set the default height setting or apply a different height for each row in the table.
 
@@ -105,7 +137,7 @@ At the same time, a different height can be set for each row – this allows you
 
 {{% alert color="primary" %}}
 
-Rule options for specifying the height of an object can be set using the [HeightRule](https://reference.aspose.com/words/java/com.aspose.words/heightrule/) fields.
+Rule options for specifying the height of an object can be set using the [HeightRule](https://reference.aspose.com/words/java/com.aspose.words/heightrule/) enumeration.
 
 {{% /alert %}}
 
@@ -148,17 +180,17 @@ The desired width of a table or individual cells is defined through the preferre
 
 The appropriate preferred width type and value are set using the methods of the [PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/) class:
 
-- the [Auto](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#AUTO) field to specify auto or “no preferred width”
-- the [FromPercent](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#fromPercent-double) method to specify a percentage width
-- the [FromPoints](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#fromPoints-double) method to specify the width in points
+* the [Auto](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#AUTO) method to specify auto or “no preferred width”
+* the [FromPercent](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#fromPercent-double) method to specify a percentage width
+* the [FromPoints](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#fromPoints-double) method to specify the width in points
 
 The pictures below show a representation of the *preferred width setting features* in Microsoft Word and their corresponding properties in Aspose.Words.
 
-![formatting-table-properties-aspose-words-java](applying-formatting-8.png)
+![formatting-table-properties-aspose-words-net](applying-formatting-8.png)
 
 An example of how these options are applied to a real table in a document can be seen in the picture below.
 
-![table-applied-options-java](applying-formatting-9.png)
+![table-applied-options-net](applying-formatting-9.png)
 
 {{% alert color="primary" %}}
 
@@ -200,6 +232,12 @@ The following code example shows how to retrieve the preferred width type of a t
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "retrieve-preferred-width-type.java" >}}
 
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
+
+{{% /alert %}}
+
 ### How to Set Autofit
 
 The [AllowAutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowAutoFit) property allows cells in a table to grow and shrink according to a selected criterion. For example, you can use the **AutoFit to Window** option to fit the table to the width of the page, and the **AutoFit to Content** option to allow each cell to grow or shrink according to its content.
@@ -218,10 +256,6 @@ The following code example shows how to set a table to shrink or grow each cell 
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "allow-auto-fit.java" >}}
 
-We will use the following table to apply the various auto fit settings as a demonstration.
-
-<img src="how-to-apply-different-autofit-settings-to-a-table-1.png" alt="apply-different-autofit-settings-to-a-table-aspose-words-java" style="width:500px"/>
-
 #### AutoFit Table to Window
 
 When autofitting to a window is applied to a table, the following operations are actually performed behind the scenes:
@@ -238,9 +272,11 @@ The following code example shows how to autofit a table to the page width:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "auto-fit-table-to-page-width.java" >}}
 
-An example of how these options are applied to the above table can be seen in the picture below.
+{{% alert color="primary" %}}
 
-<img src="how-to-apply-different-autofit-settings-to-a-table-2.png" alt="autofit-table-aspose-words-java" style="width:500px"/>
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
+
+{{% /alert %}}
 
 #### AutoFit Table to Content
 
@@ -259,9 +295,11 @@ The following code example shows how to autofit a table to its content:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "auto-fit-table-to-contents.java" >}}
 
-An example of how these options are applied to the above table can be seen in the picture below.
+{{% alert color="primary" %}}
 
-<img src="how-to-apply-different-autofit-settings-to-a-table-3.png" alt="resize-column-autofit-settings-aspose-words-java" style="width:500px"/>
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
+
+{{% /alert %}}
 
 #### Disable AutoFit in Table and Use Fixed Column Widths
 
@@ -281,9 +319,11 @@ The following code example shows how to disable autofit and enable fixed width f
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "auto-fit-table-to-fixed-column-widths.java" >}}
 
-An example of how these options are applied to the above table can be seen in the picture below.
+{{% alert color="primary" %}}
 
-<img src="how-to-apply-different-autofit-settings-to-a-table-4.png" alt="disable-autofit-settings-to-a-table-aspose-words-java" style="width:500px"/>
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
+
+{{% /alert %}}
 
 ### Order of Precedence when Calculating Cell Width
 
@@ -295,7 +335,7 @@ Aspose.Words uses the following order for calculating cell widths:
 
 | Order | Property                                                     | Description |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 1     | [AllowAutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowAutoFit) is determined | If **AutoFit** is enabled:<br>- the table may grow past the preferred width to accommodate the content – it usually does not shrink below the preferred width<br>- any change to the **CellFormat.Width** value is ignored and the cell will fit to its contents instead |
+| 1     | [AllowAutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowAutoFit) is determined | If **AutoFit** is enabled:<br>- the table may grow past the preferred width to accommodate the content - it usually does not shrink below the preferred width<br>- any change to the **CellFormat.Width** value is ignored and the cell will fit to its contents instead |
 | 2     | [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) with a value of **Points** or **Percent** | **CellFormat.Width** is ignored                              |
 | 3     | [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) with a value of **Auto** | The value from **CellFormat.Width** is copied and becomes the cell's preferred width (in points) |
 
@@ -313,11 +353,11 @@ While creating a fixed table layout, specify the cell width. A cell without widt
 
 ## Allow Spacing Between Cells
 
-You can get or set any additional space between table cells similar to the "Сell spacing" option in Microsoft Word. This can be done using the [AllowCellSpacing](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowCellSpacing) property.
+You can get or set any additional space between table cells similar to the "Cell spacing" option in Microsoft Word. This can be done using the [AllowCellSpacing](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowCellSpacing) property.
 
 An example of how these options are applied to a real table in a document can be seen in the picture below.
 
-<img src="applying-formatting-10.png" alt="formatting-spacing-between-cells-aspose-words-java" style="width:500px"/>
+<img src="applying-formatting-10.png" alt="formatting-spacing-between-cells-aspose-words-net-java" style="width:500px"/>
 
 The following code example shows how to set the spacing between cells:
 
@@ -329,17 +369,13 @@ Borders and shading can be applied either to the entire table using [Table.SetBo
 
 The pictures below show the border and shadow settings in Microsoft Word and their corresponding properties in Aspose.Words.
 
-![apply-borders-shading-aspose-words-java-1](applying-formatting-to-table-row-and-cell-6.png)
+![formatting-border-line-aspose-words-net](applying-formatting-6.png)
 
-
-![apply-borders-shading-aspose-words-java-2](applying-formatting-to-table-row-and-cell-7.png)
-
+![formatting-cell-color-aspose-words-net](applying-formatting-7.png)
 
 The following code example shows how to format a table and cell with different borders and shadings:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "format-table-and-cell-with-different-borders.java" >}}
-
------- 
 
 ## FAQ
 

@@ -45,9 +45,6 @@ The pictures below show a representation of the **Table** formatting features in
 
 ![formattin-features-table-level-aspose-words-net](applying-formatting-1.png)
 
-
-
-
 ![formatting-table-options-aspose-words-net](applying-formatting-2.png)
 
 The following code example shows how to apply an outline border to a table:
@@ -192,7 +189,7 @@ The pictures below show a representation of the *preferred width setting feature
 
 An example of how these options are applied to a real table in a document can be seen in the picture below.
 
-![todo:image_alt_text](applying-formatting-9.png)
+![table-applied-options-net](applying-formatting-9.png)
 
 {{% alert color="primary" %}}
 
@@ -308,7 +305,6 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 If a table has autofit disabled and fixed column widths are used instead, the following steps are performed:
 
 1. **Table.AllowAutoFit** property is disabled so columns do not grow or shrink to their content
-
 2. The preferred width of the entire table is removed from **Table.PreferredWidth**, **CellFormat.PreferredWidth** is removed from all table cells
 3. The end result is a table whose column widths are determined by the [CellFormat.Width](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/width/) property, and whose columns are not automatically resized when the user enters text or when the page is resized
 
@@ -338,7 +334,7 @@ Aspose.Words uses the following order for calculating cell widths:
 
 | Order | Property                                                     | Description |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 1     | [AllowAutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/allowautofit/) is determined | If **AutoFit** is enabled:<br>- the table may grow past the preferred width to accommodate the content – it usually does not shrink below the preferred width<br>- any change to the **CellFormat.Width** value is ignored and the cell will fit to its contents instead |
+| 1     | [AllowAutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/allowautofit/) is determined | If **AutoFit** is enabled:<br>- the table may grow past the preferred width to accommodate the content - it usually does not shrink below the preferred width<br>- any change to the **CellFormat.Width** value is ignored and the cell will fit to its contents instead |
 | 2     | [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/) with a value of **Points** or **Percent** | **CellFormat.Width** is ignored                              |
 | 3     | [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/) with a value of **Auto** | The value from **CellFormat.Width** is copied and becomes the cell's preferred width (in points) |
 
@@ -356,7 +352,7 @@ While creating a fixed table layout, specify the cell width. A cell without widt
 
 ## Allow Spacing Between Cells
 
-You can get or set any additional space between table cells similar to the "Сell spacing" option in Microsoft Word. This can be done using the [AllowCellSpacing](https://reference.aspose.com/words/net/aspose.words.tables/table/allowcellspacing/) property.
+You can get or set any additional space between table cells similar to the "Cell spacing" option in Microsoft Word. This can be done using the [AllowCellSpacing](https://reference.aspose.com/words/net/aspose.words.tables/table/allowcellspacing/) property.
 
 An example of how these options are applied to a real table in a document can be seen in the picture below.
 

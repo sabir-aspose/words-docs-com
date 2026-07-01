@@ -1,9 +1,9 @@
 ---
-title: Convert a Document to HTML, MHTML or EPUB
+title: Convert a Document to HTML, MHTML or EPUB in Java
 second_title: Aspose.Words for Java
 articleTitle: Convert a Document to HTML, MHTML or EPUB
 linktitle: Convert a Document to HTML, MHTML or EPUB
-description: "Use Aspose.Words for Java to convert documents from Word or any other supported formats to HTML, MHTML, or EPUB."
+description: "Convert a document from almost any format to HTML or MHTML, as well as to EPUB format using Java. You can also specify save options for managing the output document."
 type: docs
 weight: 20
 ai_search_scope: words_java
@@ -12,6 +12,14 @@ ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /java/convert-a-document-to-html-mhtml-or-epub/
 timestamp: 2024-10-21-08-52-03
 ---
+
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to convert Word documents to HTML, MHTML, or EPUB, and describes the key options that influence layout and formatting during export.
+
+{{% /alert %}}
 
 Documents in HTML and MHTML flow-layout formats are also very popular and can be used on any web platform. For that reason, converting documents to HTML and MHTML is an important feature of Aspose.Words.
 
@@ -48,7 +56,7 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 ## Specify Save Options when Conversion to HTML
 
-Aspose.Words allows converting a Word document to HTML using default or custom save options. Few examples of custom save options are described below.
+Aspose.Words allows to convert a Word document to HTML using default or custom save options. Few examples of custom save options are described below.
 
 ### Specify a Folder for Saving Resources
 

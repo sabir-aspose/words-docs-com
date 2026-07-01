@@ -3,7 +3,7 @@ title: Work with Document Properties in Java
 second_title: Aspose.Words for Java
 articleTitle: Work with Document Properties
 linktitle: Work with Document Properties
-description: "Aspose.Words for Java allows storing some useful information about your document, such as API and Version Number or Authorized Date, in built-in or custom document properties."
+description: "Aspose.Words for Java allows storing some useful information about your document, such as API and Version Number or Authorized Date, in built-in or custom document properties using Java."
 type: docs
 weight: 10
 ai_search_scope: words_java
@@ -13,12 +13,20 @@ url: /java/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to read and modify document properties.
+
+{{% /alert %}}
+
 Document properties allow storing some useful information about your document. These properties can be divided into two groups:
 
 * System or built-in that contain values such as document title, author name, document statistics, and others.
 * User-defined or custom, provided as name-value pairs where the user can define both the name and value.
 
-It is useful to know that information about API and Version Number is directly written to output documents. For example, upon converting a document to PDF, Aspose.Words fills in the "Application" field with "Aspose.Words", and the "PDF Producer" field with "Aspose.Words for Java YY.M.N", where *YY.M.N* is the version of Aspose.Words used for conversion. For more details, see [Generator or Producer Name Included in Output Documents](/words/java/generator-or-producer-name-included-in-output-documents/).
+It is useful to know that information about API and version number is directly written to output documents. For example, when converting a document to PDF, Aspose.Words fills in the "Application" field with "Aspose.Words", and the "PDF Producer" field with "Aspose.Words for Java YY.M.N", where YY.M.N is the version of Aspose.Words used for conversion. For more details, see the Java documentation on Generator or Producer Name Included in Output Documents.
 
 {{% alert color="primary" %}}
 
@@ -38,11 +46,11 @@ To access document properties in Aspose.Words use:
 
 **BuiltInDocumentProperties** additionally provides access to document properties through a set of entered properties that return values of the appropriate type. **CustomDocumentProperties** enable you to add or remove document properties from a document.
 
-The [DocumentProperty](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/) class allows you to get the name, value, and type of a document property. [Value]https://reference.aspose.com/words/java/com.aspose.words/documentproperty#Value) returns an object, but there is a set of methods allowing you to get the property value converted to a specific type. After you get to know what type the property is, you can use one of the **DocumentProperty.ToXXX** methods, such as **DocumentProperty.**[ToString](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toString) and **DocumentProperty.**[ToInt](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toInt), to obtain the value of the appropriate type.
+The [DocumentProperty](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/) class allows you to get the name, value, and type of a document property. [ToString](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toString) returns an object, but there is a set of methods allowing you to get the property value converted to a specific type. After you get to know what type the property is, you can use one of the **DocumentProperty.ToXXX** methods, such as **DocumentProperty.**[ToInt](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toInt) and **DocumentProperty.**[ToInt](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toInt), to obtain the value of the appropriate type.
 
 The following code example shows how to enumerate all built-in and custom properties in a document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocProperties-EnumerateProperties.java" >}}
+{{< gist "aspose-words-gists" "feb3c519327ef97a854a50fe24cebba7" "enumerate-properties.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -52,7 +60,7 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 In Microsoft Word, you can access document properties using the “File → Properties” menu.
 
-<img src="work-with-document-properties-1.png" alt="work-with-document-properties-aspose-words-java.png" style="width:400px"/>
+<img src="work-with-document-properties-1.png" alt="work-with-document-properties-1-java.png" style="width:400px"/>
 
 ## Add or Remove Document Properties
 
@@ -64,7 +72,7 @@ To remove custom properties, use the [Remove](https://reference.aspose.com/words
 
 The following code example checks whether a custom property with a given name exists in a document and adds a few more custom document properties:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocProperties-CustomAdd.java" >}}
+{{< gist "aspose-words-gists" "feb3c519327ef97a854a50fe24cebba7" "add-custom-properties.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -74,17 +82,17 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 The following code example shows how to remove a custom document property:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocProperties-CustomRemove.java" >}}
+{{< gist "aspose-words-gists" "feb3c519327ef97a854a50fe24cebba7" "remove-custom-properties.java" >}}
 
 ## Update Built-In Document Properties
 
 Aspose.Words does not automatically update document properties, as Microsoft Word does with some properties, but provides a method to update some statistical built-in document properties. Call the [UpdateWordCount](https://reference.aspose.com/words/java/com.aspose.words/document/#updateWordCount) method to recalculate and update the following properties:
 
-* [Characters](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties#Characters)
-* [CharactersWithSpaces](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties#CharactersWithSpaces)
-* [Words](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties#Words)
-* [Paragraphs](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties#Paragraphs)
-* [Lines](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties#Lines)
+* [Characters](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getCharacters)
+* [CharactersWithSpaces](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getCharactersWithSpaces)
+* [Words](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getWords)
+* [Paragraphs](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getParagraphs)
+* [Lines](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getLines)
 
 ## Create a New Custom Property Linked to Content
 
@@ -92,7 +100,7 @@ Aspose.Words provides the [AddLinkToContent](https://reference.aspose.com/words/
 
 The following code example shows how to configure a link to a custom property:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocProperties-ConfiguringLinkToContent.java" >}}
+{{< gist "aspose-words-gists" "feb3c519327ef97a854a50fe24cebba7" "configuring-link-to-content.java" >}}
 
 ## Get Document Variables
 
@@ -100,7 +108,7 @@ You can get a collection of document variables using the [Variables](https://ref
 
 The following code example shows how to enumerate document variables:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-GetDocumentVariables-GetDocumentVariables.java" >}}
+{{< gist "aspose-words-gists" "feb3c519327ef97a854a50fe24cebba7" "get-variables.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -111,6 +119,10 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 ## Remove Personal Information from Document
 
 If you want to share a Word document with other people, you may want to remove personal information such as author name and company. To do this use the [RemovePersonalInformation](https://reference.aspose.com/words/java/com.aspose.words/document/#getRemovePersonalInformation) property to set the flag indicating that Microsoft Word will remove all user information from comments, revisions, and document properties upon saving the document.
+
+The following code example shows how to remove personal information:
+
+{{< gist "aspose-words-gists" "feb3c519327ef97a854a50fe24cebba7" "remove-personal-information.java" >}}
 
 {{% alert color="primary" %}}
 

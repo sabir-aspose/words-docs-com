@@ -13,11 +13,19 @@ url: /java/specify-load-options/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to specify load options when opening a document.
+
+{{% /alert %}}
+
 When loading a document, you can set some advanced properties. Aspose.Words provides you with the [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) class, which allows more precise control of the load process. Some load formats have a corresponding class that holds load options for this load format, for example, there is [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) for loading to PDF format or [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) for loading to TXT. This article provides examples of working with options of the **LoadOptions** class.
 
 ## Set Microsoft Word Version to Change the Appearance
 
-Different versions of the Microsoft Word application can display documents in differently. For example, there is a well-known problem with OOXML documents such as DOCX or DOTX produced using WPS Office. In such cases, essential document markup elements may be missing or may be interpreted differently causing Microsoft Word 2019 to show such a document differently compared to Microsoft Word 2010.
+Different versions of Microsoft Word application can display documents in differently. For example, there is a well-known problem with OOXML documents such as DOCX or DOTX produced using WPS Office. In such case essential document markup elements may be missing or may be interpreted differently causing Microsoft Word 2019 to show such a document differently compared to Microsoft Word 2010.
 
 By default Aspose.Words opens documents using Microsoft Word 2019 rules. If you need to to make document loading appear as it would happen in one of the previous Microsoft Word application versions, you should explicitly specify the desired version using the [MswVersion](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getMswVersion) property of the **LoadOptions** class.
 
@@ -91,7 +99,7 @@ The following code example shows how to verify OpenDocument either it is encrypt
 
 {{< gist "aspose-words-gists" "821ff3a1df0c75b2af641299b393fb60" "verify-encrypted-document.java" >}}
 
------- 
+------
 
 ## FAQ
 

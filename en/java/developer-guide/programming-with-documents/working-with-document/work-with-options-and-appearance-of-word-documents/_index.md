@@ -1,5 +1,5 @@
 ---
-title: Options and Appearance of Word Documents
+title: Options and Appearance Word Document
 second_title: Aspose.Words for Java
 articleTitle: Work with Options and Appearance of Word Documents
 linktitle: Work with Options and Appearance of Word Documents
@@ -14,6 +14,14 @@ aliases: [/java/work-with-document-options-and-settings/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains Word document options that affect appearance such as view, zoom, and compatibility settings.
+
+{{% /alert %}}
+
 Sometimes you may need to change the appearance of a document, for example, set language preferences or the number of lines per page.Aspose.Words provides the ability to control how the document will be displayed, as well as some additional options. This article describes such possibilities.
 
 ## Set Document Display Options
@@ -22,11 +30,11 @@ You can control how a document will be displayed in Microsoft Word using the [Vi
 
 The following code example shows how to ensure that a document is displayed at 50% when opened in Microsoft Word:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SetViewOptions-SetViewOptions.java" >}}
+{{< gist "aspose-words-gists" "2e73ea09c5fcbcb9f7b99f01602ecd34" "set-view-option.java" >}}
 
 {{% alert color="primary" %}}
 
-You can download the template file for this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/Document/TestFile.doc).
+You can download the template file for this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.docx).
 
 {{% /alert %}}
 
@@ -48,7 +56,7 @@ In Microsoft Word, you can set the same parameters using the "Document Grid" tab
 
 The following code example shows how to set the number of characters per line and the number of lines per page for a Microsoft Word document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentPageSetup-DocumentPageSetup.java" >}}
+{{< gist "aspose-words-gists" "2e73ea09c5fcbcb9f7b99f01602ecd34" "document-page-setup.java" >}}
 
 ## Set Language Preferences
 
@@ -64,11 +72,11 @@ If your Aspose.Words generated document does not look as expected, check the **L
 
 The following code example shows how to add Japanese to editing languages:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SetupLanguagePreferences-AddJapaneseAsEditinglanguages.java" >}}
+{{< gist "aspose-words-gists" "9216df344e0dc0025f5eda608b9f33d8" "add-editing-language.java" >}}
 
 The following code example shows how to set Russian as the default editing language:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SetupLanguagePreferences-SetRussianAsDefaultEditingLanguage.java" >}}
+{{< gist "aspose-words-gists" "2e73ea09c5fcbcb9f7b99f01602ecd34" "set-russian-as-default-editing-language.java" >}}
 
 ## Optimize a Document for a Particular Word Version
 
@@ -76,17 +84,15 @@ The [OptimizeFor](https://reference.aspose.com/words/java/com.aspose.words.compa
 
 The following code example shows how to optimize document content for Microsoft Word 2016:
 
-{{< highlight csharp >}}
-Document doc = new Document(dataDir + "Document.docx");
+{{< gist "aspose-words-gists" "2e73ea09c5fcbcb9f7b99f01602ecd34" "optimize-for.java" >}}
 
-// Set Word2016 version for document
-doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2016);
+## Related APIs
 
-// Save the document.
-doc.save(dataDir + "output.docx");
-{{< /highlight >}}
-
------- 
+- [ViewOptions](https://reference.aspose.com/words/java/com.aspose.words/viewoptions/)
+- [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/)
+- [LanguagePreferences](https://reference.aspose.com/words/java/com.aspose.words/languagepreferences/)
+- [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/)
+- [CompatibilityOptions](https://reference.aspose.com/words/java/com.aspose.words/compatibilityoptions/) 
 
 ## FAQ
 

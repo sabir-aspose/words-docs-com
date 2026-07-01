@@ -13,9 +13,17 @@ url: /java/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-When processing documents, a common task is to extract all images found in the document and export them to an external location. This task becomes simple with the Aspose.Words API, which already provides the functionality for extracting and saving image data. However, sometimes you may want to similarly extract other types of graphic content that are represented by a different type of drawing object, for example, a text box containing paragraphs, arrow shapes, and a small image. There is no straightforward way of rendering this object since it is a combination of individual content elements. You may also encounter a case when the contents have been grouped together into the object that looks like a single image.
+{{% alert color="grey" %}}
 
-Aspose.Words provides functionality for extracting this type of content in the same way you can extract a simple image from shape as rendered content. This article describes how to utilize this functionality to render shapes independently of the document.
+## Purpose Summary
+
+This page explains how to render shapes separately from the rest of the document.
+
+{{% /alert %}}
+
+When processing documents, a common task is to extract all images found in the document and export them to an external location. This task becomes simple with the Aspose.Words API, which already provides the functionality for extracting and saving image data. However, sometimes you may want to similarly extract other types of graphic content that is represented by a different type of drawing object, for example, a text box containing paragraphs, arrow shapes, and a small image. There is no straightforward way of rendering this object since it is a combination of individual content elements. You may also encounter a case when the contents have been grouped together into the object that looks like a single image.
+
+Aspose.Words provides functionality for extracting this type of content in the same way you can extract a simple image from a shape as rendered content. This article describes how to utilize this functionality to render shapes independently of the document.
 
 ## Shape Types in Aspose.Words
 
@@ -29,7 +37,7 @@ A document can also contain shapes which are grouped together. Grouping can be e
 
 ![rendering-shapes-separately-from-a-document-aspose-words-java-2](rendering-shapes-separately-from-a-document-2.png)
 
-In Aspose.Words, these groups of shapes are represented by the [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) node. These can also be invoked in the same way to render the entire group to the image.
+In Aspose.Words, these groups of shapes are represented by the [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) node. These can also be invoked in the same way to render the entire group to image.
 
 ![rendering-shapes-separately-from-a-document-aspose-words-java-3](rendering-shapes-separately-from-a-document-3.png)
 
@@ -63,7 +71,7 @@ The code example below illustrates rendering a shape to a JPEG image separately
 
 The **ImageSaveOptions** class allows you to specify a variety of options that control how the image is rendered. The functionality described above can be applied in the same manner to the **GroupShape** and **Shape** nodes.
 
-## Rendering to a `Graphics` Object
+## Rendering to a Graphics Object
 
 Rendering directly to a **Graphics** object allows you to define your own settings and the state for the **Graphics** object. A common scenario involves rendering a shape directly into a **Graphics** object retrieved from a Windows Form or a Bitmap. When the **Shape** node is rendered, the settings will affect the shape appearance. For example, you can rotate or scale the shape by using the **RotateTransform** or **ScaleTransform** methods for the **Graphics** object.
 
