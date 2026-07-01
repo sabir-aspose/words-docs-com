@@ -14,6 +14,14 @@ url: /java/save-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to save a document in different formats using Aspose.Words.
+
+{{% /alert %}}
+
 Most of the tasks you need to perform with Aspose.Words involve saving a document. To save a document Aspose.Words provides the [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save(java.lang.String)) method of the [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) class. The document can be saved in any save format supported by Aspose.Words. For the list of all supported save formats, see the [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) enumeration.
 
 ## Save to a File {#save-a-document-to-a-file}

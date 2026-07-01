@@ -92,7 +92,6 @@ Note that the **Font**, **ParagraphFormat**, and **PageSetup** properties are up
 - [CellFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/cellformat/)
 - [RowFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/rowformat/)
 - [DocumentBuilder.MoveToBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetobookmark/)
-- [DocumentBuilder.InsertBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertbookmark/)
 - [DocumentBuilder.Write](https://reference.aspose.com/words/net/aspose.words/documentbuilder/write/)
 - [DocumentBuilder.Writeln](https://reference.aspose.com/words/net/aspose.words/documentbuilder/write/ln/index/)
 - [DocumentBuilder.InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/)

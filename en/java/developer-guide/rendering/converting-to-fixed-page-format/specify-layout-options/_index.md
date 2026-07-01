@@ -13,7 +13,15 @@ url: /java/specify-layout-options/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words enables you to create output documents with various layouts, depending on the parameters specified in the [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) property of the **Document**. This property resembles some of the Microsoft Word user interface menu options described in this article.
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to configure layout options that affect pagination and rendering.
+
+{{% /alert %}}
+
+Aspose.Words enables you to create output documents with various layouts, depending on the parameters specified in properties of the [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) class. Some of these properties resemble some of the Microsoft Word user interface menu options – they will be described in this article.
 
 For a complete list of parameters such as [ContinuousSectionPageNumberingRestart](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getContinuousSectionPageNumberingRestart) to calculate page numbers in a continuous section that restarts page numbering, or [IgnorePrinterMetrics](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getIgnorePrinterMetrics) to ignore the "Use printer metrics to lay out document" compatibility option, see the [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) class page.
 
@@ -26,19 +34,19 @@ Aspose.Words allows to manage formatting marks using the following properties:
 
 The page depicted in the example below contains three paragraphs. The second one is hidden. A user can change the **ShowHiddenText** option to display this hidden text on the page. Also, each paragraph has a paragraph mark at the end. The paragraph mark usually is not visible unless the **ShowParagraphMarks** property is set to render it.
 
-![formatting_marks_example_aspose_words_java](specify-layout-options-1.png)
+![specify-layout-options_1_java](specify-layout-options-1.png)
 
 In Microsoft Word, these parameters are set using the "File → Options → Display" dialog box as follows:
 
-![formatting_marks_ms_word_aspose_words_java](specify-layout-options-3.png)
+![specify-layout-options_2_java](specify-layout-options-2.jpg)
 
 ## Comments and Revisions
 
-With Aspose.Words, you can render document comments that will look the same as in Microsoft Word. To specify whether comments are rendered, use the [ShowComments](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) property.
+With Aspose.Words, you can render document comments that will look the same as in Microsoft Word. To specify whether comments are rendered, use the [CommentDisplayMode](https://reference.aspose.com/words/java/com.aspose.words/commentdisplaymode/) property.
 
 In Microsoft Word, this parameter is set using the "Track Changes Options" dialog box, as shown below:
 
-![comments_and_revisions_ms_word_aspose_words_java](specify-layout-options-4.png)
+![specify-layout-options_3_java](specify-layout-options-3.jpg)
 
 Also, Aspose.Words allows you to display revisions in a document. Use the [RevisionOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getRevisionOptions) property of the **LayoutOptions** class to define whether the document revisions are displayed. To control their appearance (revision highlighting color, revision bar color, etc.), use the [RevisonOptions](https://reference.aspose.com/words/java/com.aspose.words/revisionoptions/) class.
 
@@ -46,11 +54,11 @@ You can also have revisions displayed as comments to the content. For this purpo
 
 The following code example shows how to customize revisions display:
 
-{{< gist "aspose-words-gists" "ce015d9bade4e0294485ffb47462ded4" "show-revisions-in-balloons.cs" >}}
+{{< gist "aspose-words-gists" "7c6d4aa20f88d174b3676a704a7b088f" "show-revisions-in-balloons.java" >}}
 
 The image below shows how Aspose.Words renders comments and the Delete revisions:
 
-<img src="specify-layout-options-2.png" alt="comments_and_revisions_example_aspose_words_java" style="width:800px"/>
+<img src="specify-layout-options-4.png" alt="comments_and_revisions_example_aspose_words_java" style="width:800px"/>
 
 ## Text Shaper for Advanced Typography Rendering
 

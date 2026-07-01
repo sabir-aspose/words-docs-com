@@ -29,12 +29,6 @@ This article explains how to do all of the above to validate the authenticity an
 
 {{% alert color="primary" %}}
 
-Note that you can access digital signatures of your document only when running the .NET Framework 2.0 version and above.
-
-{{% /alert %}}
-
-{{% alert color="primary" %}}
-
 **Try online**
 
 You can try this functionality with our [Free online signature](https://products.aspose.app/words/signature).

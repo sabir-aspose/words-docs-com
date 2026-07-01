@@ -14,6 +14,14 @@ url: /java/mail-merge-template-from-mustache-syntax/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to create mail-merge templates using Mustache syntax and how Aspose.Words interprets template tags.
+
+{{% /alert %}}
+
 Aspose.Words allows you to create templates with mustache syntax in addition to the familiar templates. A Mustache is an alternative variant of template syntax that consists of tag names enclosed by   and is backed by a model object that contains the data for the template.
 
 The Mustache syntax is the only option to use with templates that do not contain fields, such as HTML and TXT templates. With Word templates, you have two options either to use fields or Mustache syntax.
@@ -50,7 +58,7 @@ Mustache is represented as a logic-less order as it lacks any specific control f
 
 The following code example shows how to replace the Mustache tags with specific data:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeUsingMustacheTemplateSyntax-MustacheSyntaxUsingDataTable.java" >}}
+{{< gist "aspose-words-gists" "c0c6109b3d172b64370a9684b6330fe4" "mustache-syntax-using-data-table.java" >}}
 
 You can notice the difference between the document before executing the Mail Merge with regions along with applying the **UseNonMergeFields** property:
 
@@ -84,7 +92,7 @@ For example, you can use `IF` fields if you need to insert “his”, “her”,
 
 The following code example shows how to perform a Mail Merge operation with Mustache tags and `IF` fields:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeUsingMustacheTemplateSyntax-UseOfIfElseMustacheSyntax.java" >}}
+{{< gist "aspose-words-gists" "c0c6109b3d172b64370a9684b6330fe4" "use-if-else-mustache.java" >}}
 
 You can notice the difference between the document before applying the **UseNonMergeFields** property:
 

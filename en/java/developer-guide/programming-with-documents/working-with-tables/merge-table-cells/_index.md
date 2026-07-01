@@ -13,6 +13,14 @@ url: /java/working-with-merged-cells/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to work with merged table cells.
+
+{{% /alert %}}
+
 Sometimes certain rows in a table require a heading or large blocks of text that take up the full width of the table. For proper design of the table, the user can merge several table cells into one. Aspose.Words supports merged cells when working with all input formats, including importing HTML content.
 
 ## How to Merge Table Cells
@@ -28,21 +36,25 @@ The values of these properties determine the merge behavior of cells:
 - Any subsequently merged cells will have [CellMerge.Previous](https://reference.aspose.com/words/java/com.aspose.words/cellmerge/#PREVIOUS)
 - A cell that is not merged will have [CellMerge.None](https://reference.aspose.com/words/java/com.aspose.words/cellmerge/#NONE)
 
-![work-with-merged-cells-aspose-words-java](working-with-merged-cells-1.png)
-
 {{% alert color="primary" %}}
 
 Sometimes, when loading existing document cells in a table, they will appear merged. However, it can actually be one long cell – sometimes Microsoft Word exports merged cells this way. This can be confusing when attempting to work with individual cells, but there doesn't seem to be any particular pattern as to when this happens.
 
 {{% /alert %}}
 
-## Checking if a Cell is Merged
+## Check if Cell is Merged
 
 To check if a cell is part of a sequence of merged cells, we simply check the **HorizontalMerge** and **VerticalMerge** properties.
 
 The following code example shows how to print the horizontal and vertical cell merge type:
 
 {{< gist "aspose-words-gists" "4fe6fda3615c0c441401e2131533d93b" "check-cells-merged.java" >}}
+
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Table%20with%20merged%20cells.docx).
+
+{{% /alert %}}
 
 ## Merge Table Cells When Using DocumentBuilder
 
@@ -70,6 +82,14 @@ The following code example shows how to merge a range of cells between two speci
 
 {{< gist "aspose-words-gists" "4fe6fda3615c0c441401e2131533d93b" "merge-cell-range.java" >}}
 
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Table%20with%20merged%20cells.docx).
+
+{{% /alert %}}
+
+Depending on the version of the .NET Framework you are using, you may want to refine this method by turning it into an extension method. In this case, you can call this method directly on a cell to merge a range of cells, such as `cell1.Merge(cell2)`.
+
 ## Vertical and Horizontal Merged Cells in HTML Table
 
 As we have said in previous articles, a table in Microsoft Word is a set of independent rows. Each row has a set of cells that are independent of the cells of other rows. Thus, in the Microsoft Word table there is no such object as a “column”, and “1st column” is something like “the set of the 1st cells of each row in the table”. This allows users to have a table in which, for example, the 1st row consists of two cells – 2cm and 1cm, and the 2nd row consists of two different cells – 1cm and 2cm wide. And Aspose.Words supports this concept of tables.
@@ -80,15 +100,19 @@ A table in HTML has a essentially different structure: each row has the same num
 
 {{< gist "aspose-words-gists" "4fe6fda3615c0c441401e2131533d93b" "horizontal-and-vertical-merge-helper-classes.java" >}}
 
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Table%20with%20merged%20cells.docx).
+
+{{% /alert %}}
+
 ## Convert to Horizontally Merged Cells
 
-Sometimes it is not possible to detect which cells are merged because some newer versions of Microsoft Word no longer use the merge flags when cells are merged horizontally. But for situations where cells are merged into a cell horizontally by their width using merge flags, Aspose.Words provides the `ConvertToHorizontallyMergedCells` method to convert cells. This method simply transforms the table and adds new cells as needed.
+Sometimes it is not possible to detect which cells are merged because some newer versions of Microsoft Word no longer use the merge flags when cells are merged horizontally. But for situations where cells are merged into a cell horizontally by their width using merge flags, Aspose.Words provides the `ConvertToHorizontallyMergedCells` method to convert cells. This method simply transforms the table and adds new cells as needed.
 
 The following code example shows the above method in operation:
 
 {{< gist "aspose-words-gists" "4fe6fda3615c0c441401e2131533d93b" "convert-to-horizontally-merged-cells.java" >}}
-
------- 
 
 ## FAQ
 

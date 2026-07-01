@@ -1,5 +1,5 @@
 ---
-title: Aspose.Words Document Object Model (DOM)
+title: Aspose.Words Document Object Model (DOM) in Java
 second_title: Aspose.Words for Java
 articleTitle: Aspose.Words Document Object Model (DOM)
 linktitle: Aspose.Words Document Object Model (DOM)
@@ -13,17 +13,25 @@ url: /java/aspose-words-document-object-model/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains the in-memory Document Object Model (DOM) provided by Aspose.Words for navigating and modifying Word documents programmatically.
+
+{{% /alert %}}
+
 The Aspose.Words Document Object Model (DOM) is an in-memory representation of a Word document. The Aspose.Words DOM allows you to programmatically read, manipulate, and modify the content and formatting of a Word document.
 
 This section describes the main classes of the Aspose.Words DOM and their relationships. By using the Aspose.Words DOM classes, you can obtain programmatic access to document elements and formatting.
 
-## Create Document Object Tree {#create-a-document-objects-tree}
+## Create a `Document` Object Tree {#create-a-document-objects-tree}
 
 When a document is read into the Aspose.Words DOM, then an object tree is built and different types of elements of the source document have their own DOM tree objects with various properties.
 
 ### Build Document Nodes Tree {#build-document-nodes-tree}
 
-When Aspose.Words reads a Word document into memory, it creates objects of different types that represent various document elements. Every run of a text, paragraph, table, or section is a node, and even the document itself is a node. Aspose.Words defines a class for every document node type.
+When Aspose.Words reads a Word document into memory, it creates objects of different types that represent various document elements. Every run of a text, paragraph, table, or a section is a node, and even the document itself is a node. Aspose.Words defines a class for every document node type.
 
 The document tree in Aspose.Words follows the Composite Design Pattern:
 
@@ -32,7 +40,7 @@ The document tree in Aspose.Words follows the Composite Design Pattern:
 
 The diagram provided below shows inheritance between node classes of the Aspose.Words Document Object Model (DOM). The names of abstract classes are in Italics.
 
-<img src="aspose-words-dom.png" alt="aspose-words-dom" style="width:700px"/>
+<img src="aspose-words-dom.png" alt="aspose-words-dom-java" style="width:700px"/>
 
 {{% alert color="primary" %}}
 
@@ -42,11 +50,11 @@ The Aspose.Words DOM also contains the non-node classes, such as [Style](https:/
 
 Let's look at an example. The following image shows a Microsoft Word document with different types of content.
 
-<img src="document-example.png" alt="document-example" style="width:700px"/>
+<img src="document-example.png" alt="document-example-aspose-words-java" style="width:700px"/>
 
 When reading the above document into the Aspose.Words DOM, the tree of objects is created, as shown in the schema below.
 
-<img src="document-example-dom.png" alt="document-example-dom" style="width:700px"/>
+<img src="document-example-dom.png" alt="dom-aspose-words-java" style="width:700px"/>
 
 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/), [Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/), [Run](https://reference.aspose.com/words/java/com.aspose.words/run/), and all other ellipses on the diagram are Aspose.Words objects that represent elements of the Word document.
 
@@ -58,7 +66,7 @@ The type of each node can be obtained using the [NodeType](https://reference.asp
 
 The following example shows how to get a node type using the **NodeType** enumeration:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-GetNodeType-.java" >}}
+{{< gist "aspose-words-gists" "16d12cc95cfd7e9005840677f303fd48" "get-node-type.java" >}}
 
 ## Document Tree Navigation {#document-tree-navigation}
 
@@ -66,7 +74,7 @@ Aspose.Words represents a document as a node tree, which enables you to navigate
 
 When you open the sample document, presented earlier, in the Document Explorer, the node tree appears exactly as it is represented in Aspose.Words.
 
-<img src="document-in-document-explorer.png" alt="document-in-document-explorer" style="width:680px"/>
+<img src="document-in-document-explorer.png" alt="document-in-document-explorer-java" style="width:680px"/>
 
 {{% alert color="primary" %}}
 
@@ -86,7 +94,7 @@ The nodes that can contain other nodes derive from the [CompositeNode](https://r
 
 The following UML object diagram shows several nodes of the sample document and their relations to each other via the parent, child, and sibling properties:
 
-<img src="document-nodes-relationships.png" alt="document-nodes-relationships" style="width:370px"/>
+<img src="document-nodes-relationships.png" alt="document-nodes-relationships-aspose-words-java" style="width:370px"/>
 
 #### Document is Node Owner
 
@@ -102,7 +110,7 @@ When creating a new paragraph using [DocumentBuilder](https://reference.aspose.c
 
 The following code example shows that when creating any node, a document that will own the node is always defined:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-OwnerDocument-.java" >}}
+{{< gist "aspose-words-gists" "16d12cc95cfd7e9005840677f303fd48" "owner-document.java" >}}
 
 #### Parent Node
 
@@ -114,23 +122,19 @@ Each node has a parent specified by the [ParentNode](https://reference.aspose.co
 
 You can remove a node from its parent by calling the [Remove](https://reference.aspose.com/words/java/com.aspose.words/node/#remove) method.The following code example shows how to access the parent node:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-AccessParentNode-.java" >}}
+{{< gist "aspose-words-gists" "16d12cc95cfd7e9005840677f303fd48" "get-parent-node.java" >}}
 
 #### Child Nodes
 
 The most efficient way to access child nodes of a [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) is via the [FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#FirstChild) and [LastChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#LastChild) properties that return the first and last child nodes, respectively. If there are no child nodes, these properties return *null*.
 
-**CompositeNode** also provides the [ChildNodes](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChildNodes) collection enabling indexed or enumerated access to the child nodes. The **ChildNodes** property is a live collection of nodes, which means that whenever the document is changed, such as when nodes are removed or added, the **ChildNodes** collection is automatically updated.
+**CompositeNode** also provides the [ChildNodes](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChildNodes) method enabling indexed or enumerated access to the child nodes. The **ChildNodes** property is a live collection of nodes, which means that whenever the document is changed, such as when nodes are removed or added, the **ChildNodes** collection is automatically updated.
 
 If a node has no child, then the **ChildNodes** property returns an empty collection. You can check whether the **CompositeNode** contains any child nodes using the [HasChildNodes](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#hasChildNodes) property.
 
 The following code example shows how to enumerate immediate child nodes of a `CompositeNode` using the enumerator provided by the `ChildNodes` collection:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-ChildNodes-enumerateChildrenOfACompositeNodeUsingEnumeratorProvidedByChildNodesCollection.java" >}}
-
-The following code example shows how to enumerate immediate child nodes of a `CompositeNode` using indexed access:
-
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-ChildNodes-enumerateChildrenOfACompositeNodeUsingIndexedAccess.java" >}}
+{{< gist "aspose-words-gists" "16d12cc95cfd7e9005840677f303fd48" "enumerate-child-nodes.java" >}}
 
 #### Sibling Nodes
 
@@ -138,13 +142,13 @@ You can obtain the node that immediately precedes or follows a particular node u
 
 The following code example shows how to efficiently visit all direct and indirect child nodes of a composite node:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-SiblingNodes-.java" >}}
+{{< gist "aspose-words-gists" "16d12cc95cfd7e9005840677f303fd48" "recurse-all-nodes.java" >}}
 
-### Typed Access to Child and Parent Nodes
+### Typed Access to Child and Parent Nodes {#typed-access-to-child-and-parent-nodes}
 
 So far, we have discussed the properties that return one of the base types – **Node** or **CompositeNode**. But sometimes there are situations where you might need to cast values to a specific node class, such as **Run** or **Paragraph**. That is, you cannot completely get away from casting when working with the Aspose.Words DOM, which is composite.
 
-To reduce the need for casting, most Aspose.Words classes provide properties and collections that provide strongly-typed access. There are three basic patterns of typed access:
+To reduce the need for casting, most Aspose.Words classes provide properties and collections that provide strongly typed access. There are three basic patterns of typed access:
 
 - A parent node exposes typed **FirstXXX** and **LastXXX** properties. For example, the **Document** has [FirstSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getFirstSection) and [LastSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getLastSection) properties. Similarly, **Table** has properties such as [FirstRow](https://reference.aspose.com/words/java/com.aspose.words/table/#getFirstRow), [LastRow](https://reference.aspose.com/words/java/com.aspose.words/table/#getLastRow), and others.
 - A parent node exposes a typed collection of child nodes, such as [Document.Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections), [Body.Paragraphs](https://reference.aspose.com/words/java/com.aspose.words/story/#getParagraphs), and others.
@@ -154,9 +158,7 @@ Typed properties are merely useful shortcuts that sometimes provide easier acces
 
 The following code example shows how to use typed properties to access nodes of the document tree:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-TypedAccessToChildrenAndParent-.java" >}}
-
------- 
+{{< gist "aspose-words-gists" "16d12cc95cfd7e9005840677f303fd48" "typed-access.java" >}}
 
 ## FAQ
 

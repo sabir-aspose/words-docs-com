@@ -4,7 +4,7 @@ second_title: Aspose.Words for Java
 articleTitle: Document Builder Overview
 linktitle: Document Builder Overview
 type: docs
-description: "DocumentBuilder allows you to build dynamic documents from scratch or add new elements to existing ones. DocumentBuilder provides methods to insert text, checkboxes, tables, images, and other content elements in Java."
+description: "DocumentBuilder allows you to build dynamic documents from scratch or add new elements to existing ones using Java. DocumentBuilder provides methods to insert text, checkboxes, tables, images, and other content elements in Java."
 weight: 30
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -12,6 +12,14 @@ ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /java/document-builder-overview/
 timestamp: 2024-01-27-14-07-04
 ---
+
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains the basics of the DocumentBuilder API and shows how to construct document elements programmatically.
+
+{{% /alert %}}
 
 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) is a powerful class that associates with [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) and enables you to build dynamic documents from scratch or add new elements to an existing one.
 
@@ -21,7 +29,7 @@ timestamp: 2024-01-27-14-07-04
 
 **DocumentBuilder** complements classes and methods available in the Aspose.Words Document Object Model (DOM) to simplify the most common document building tasks. That is, you can create and modify the content of documents both through the Aspose.Words DOM, which requires a good understanding of the tree structure, and using the DocumentBuilder. The `DocumentBuilder` is a "facade" for the complex **Document** structure that allows you to quickly and easily insert content and formatting.
 
-Operations that are possible with **DocumentBuilder** are also possible when using the classes of the Aspose.Words DOM directly. However, using Aspose.Words DOM classes directly usually require more lines of code than using **DocumentBuilder**.
+Operations that are possible with **DocumentBuilder** are also possible when using the classes of the Aspose.Words DOM directly. However, using Aspose.Words DOM classes directly usually requires more lines of code than using **DocumentBuilder**.
 
 ## Document Navigation
 
@@ -29,7 +37,7 @@ Document navigation is based on the concept of a virtual cursor, with which you 
 
 The following code example shows how to navigate to a bookmark:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToBookmarkEnd-DocumentBuilderMoveToBookmarkEnd.java" >}}
+{{< gist "aspose-words-gists" "f241f6361cb8566b906f0daa559ea33d" "move-to-bookmark-end.java" >}}
 
 ## Document Building and Modifying
 
@@ -47,7 +55,7 @@ To insert a text, pass the string of text you need to insert into the document t
 
 The following code example shows how to create a simple document using a document builder.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-quickstart-HelloWorld-CreateNewDocument.java" >}}
+{{< gist "aspose-words-gists" "ae20848f6cefd3f85ab9bcbbdda340c7" "create-new-document.java" >}}
 
 ### Specify Document Formatting
 
@@ -55,7 +63,7 @@ The [Font](https://reference.aspose.com/words/java/com.aspose.words/documentbuil
 
 The following code example shows how to insert a formatted text using **DocumentBuilder**:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderInsertParagraph.java" >}}
+{{< gist "aspose-words-gists" "f241f6361cb8566b906f0daa559ea33d" "insert-paragraph.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -73,3 +81,17 @@ In this situation, "current" means the position, paragraph, section, cell, or ro
 Note that the **Font**, **ParagraphFormat**, and **PageSetup** properties are updated whenever you navigate to a different location in the document to reflect the formatting properties of this location.
 
 {{% /alert %}}
+
+## Related APIs
+
+- [Document](https://reference.aspose.com/words/java/com.aspose.words/document/)
+- [Font](https://reference.aspose.com/words/java/com.aspose.words/font/)
+- [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/)
+- [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/)
+- [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat)
+- [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat)
+- [DocumentBuilder.MoveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String)
+- [DocumentBuilder.Write](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#write-java.lang.String)
+- [DocumentBuilder.Writeln](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#write-java.lang.String)
+- [DocumentBuilder.InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean)
+- [DocumentBuilder.InsertHtml](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHtml-java.lang.String)

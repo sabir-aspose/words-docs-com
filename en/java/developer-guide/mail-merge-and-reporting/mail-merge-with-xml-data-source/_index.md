@@ -16,6 +16,14 @@ url: /java/mail-merge-with-xml-data-source/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to perform a mail merge using XML as the data source.
+
+{{% /alert %}}
+
 You can use a variety of data sources when performing a Mail Merge operation, including an XML file. The main advantage of using XML is the ability to define a hierarchy right in the document and then simply pass it to Aspose.Words.
 
 This article will describe how to read data from an XML file rather than directly from a database and include XML as the data source to perform a Mail Merge operation.
@@ -56,7 +64,7 @@ The following XML contains the data that is needed to fill in a merge template:
 
 The following code example shows how to load XML data into DataSet and then use it as a data source:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-XMLMailMerge-XMLMailMerge.java" >}}
+{{< gist "aspose-words-gists" "c4826e8042bd86942cd060b5f3bec3d0" "xml-mail-merge.java" >}}
 
 {{% alert color="primary" %}}
 

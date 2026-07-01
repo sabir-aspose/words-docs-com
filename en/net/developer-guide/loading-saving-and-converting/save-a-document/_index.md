@@ -69,12 +69,6 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 This overload of the `Save` method is not available when using the .NET Client Profile DLL. This DLL is located in the **net3.5_ClientProfile** folder. The .NET Client Profile excludes assemblies such as **System.Web**, therefore, **HttpResponse** is not available. This is entirely by design.
 
-This may manifest as an error:
-
-**"No overload for method 'Save' takes '4' parameters."**
-
-If you need to use Aspose.Words in ASP.NET application, It is recommended to use the .NET 2.0 DLL where the correct overload is available, as described in this article.
-
 ## Save to PCL {#save-a-document-to-pcl}
 
 Aspose.Words supports saving a document into PCL (Printer Command Language). Aspose.Words can save documents into PCL 6 (PCL 6 Enhanced or PCL XL) format. The `PclSaveOptions` class can be used to specify additional options when saving a document into the PCL format.

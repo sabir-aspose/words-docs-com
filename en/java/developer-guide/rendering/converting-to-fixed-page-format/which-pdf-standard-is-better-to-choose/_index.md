@@ -13,6 +13,14 @@ url: /java/which-pdf-standard-is-better-to-choose/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to choose an appropriate PDF standard such as PDF/A or PDF/UA.
+
+{{% /alert %}}
+
 For some tasks, certain PDF standards will fit better or vice versa worse. In this article, we will try to determine which PDF standards for which cases it makes sense to choose.
 
 {{% alert color="primary" %}}

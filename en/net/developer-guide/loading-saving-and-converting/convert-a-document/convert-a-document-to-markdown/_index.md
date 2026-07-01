@@ -45,7 +45,6 @@ If the specified **ImagesFolder** does not exist, it will be created automatical
 
 The following code example shows how to specify a folder for images when saving a document to a stream:
 
-**.NET**
 {{< gist "aspose-words-gists" "51b4cb9c451832f23527892e19c7bca6" "images-folder.cs" >}}
 
 ## Specify Save Options when Converting to Markdown

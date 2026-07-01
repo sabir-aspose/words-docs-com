@@ -13,13 +13,23 @@ url: /java/working-with-lists/
 timestamp: 2024-01-27-14-07-04
 ---
 
-A list in a Microsoft Word document is a set of list formatting properties. Lists can be used in your documents to format, arrange, and emphasize text. Lists are a great way to organize data in documents, and they make it easier for readers to understand key points.
+{{% alert color="grey" %}}
 
-Each list can have up to 9 levels and formatting properties, such as number style, start value, indent, tab position, and others are defined separately for each level.
+## Purpose Summary
+
+This page explains how to work with lists, including numbering and formatting.
+
+{{% /alert %}}
+
+A list in a Microsoft Word document is a set of paragraph formatting properties. Lists can be used in documents to structure, arrange, and highlight text. Lists are a great way to organize data in documents in a way that makes it easy for readers to absorb and understand key points.
+
+Each list can have up to 9 levels, and formatting properties such as number style, start value, indentation, tab position, and others are defined separately for each level.
+
+In Aspose.Words, working with lists is represented by the [Lists](https://reference.aspose.com/words/net/aspose.words.lists/) namespace. However, the [List](https://reference.aspose.com/words/java/com.aspose.words/list/) object always belongs to the [ListCollection](https://reference.aspose.com/words/java/com.aspose.words/listcollection/).
 
 This article describes programmatically working with lists using Aspose.Words.
 
-## Creating Lists by Applying List Formatting
+## Create Lists by Applying List Formatting
 
 Aspose.Words allows the easy creation of lists by applying list formatting. [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) provides the [ListFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getListFormat) property that returns a **ListFormat** object. This object has several methods to start and end a list and to increase/decrease the indent. There are two general types of lists in Microsoft Word: bulleted and numbered:
 
@@ -33,17 +43,17 @@ In Word documents, lists may consist of up to nine levels. List formatting for e
 - To increase the list level of the current paragraph by one level, call [ListFormat.ListIndent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listIndent)
 - To decrease the list level of the current paragraph by one level, call [ListFormat.ListOutdent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listOutdent)
 
-The methods change the list level and apply the formatting properties of the new level.
+You can also use the [ListLevelNumber](https://reference.aspose.com/words/java/com.aspose.words/listformat/#setListLevelNumber-int) property to get or set the list level for the paragraph.
 
 {{% alert color="primary" %}}
 
-You can also use the [ListLevelNumber](https://reference.aspose.com/words/java/com.aspose.words/listformat/#getListLevelNumber) property to get or set the list level for the paragraph. The list levels are numbered 0 to 8.
+The list levels are numbered 0 to 8.
 
 {{% /alert %}}
 
 The following code example shows how to build a multilevel list:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetMultilevelListFormatting-DocumentBuilderSetMultilevelListFormatting.java" >}}
+{{< gist "aspose-words-gists" "bcc8db50f6937463ef0f1acd71da30a8" "multilevel-list-formatting.java" >}}
 
 ## Specify Formatting for a List Level
 
@@ -55,9 +65,7 @@ You can restart a list for each section using the [IsRestartAtEachSection](https
 
 The following code example shows how to create a list and restart it for each section:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Lists-WorkingWithList-SetRestartAtEachSection.java" >}}
-
-------  
+{{< gist "aspose-words-gists" "bcc8db50f6937463ef0f1acd71da30a8" "restart-list-at-each-section.java" >}}
 
 ## FAQ
 

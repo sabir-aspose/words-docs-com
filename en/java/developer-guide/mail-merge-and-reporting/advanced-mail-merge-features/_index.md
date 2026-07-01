@@ -16,6 +16,14 @@ url: /java/advanced-mail-merge-features/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains the advanced mail merge features available in Aspose.Words, such as conditional regions, nested mail merge, and more.
+
+{{% /alert %}}
+
 Aspose.Words provides some additional Mail Merge properties and methods that allow you to perform further customization of the Mail Merge process either in simple Mail Merge or Mail Merge with regions.
 
 Advanced Mail Merge features include, but are not limited to, obtaining information about template structure before performing a Mail Merge operation, setting rules for a Mail Merge operation, and cleaning up during a Mail Merge operation. This article will cover only a few properties and examples to show you how to use advanced features.
@@ -45,7 +53,7 @@ You can use either [NextIf](https://reference.aspose.com/words/java/com.aspose.w
 
 The following code example shows how to compare two expressions with **NextIf** or **SkipIf**:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-AdvancedMailMergeFeatures-CompareTwoExpressions.java" >}}
+{{< gist "aspose-words-gists" "7d267f5905ac7f3d5144e8d4126a0d6d" "field-next.java" >}}
 
 ## Obtain Information About Template Structure
 
@@ -57,22 +65,17 @@ You can come across a scenario where you will want to merge data with merge fiel
 
 The following code example shows how to get names of all merge fields in the template:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-GetFieldNames-GetFieldNames.java" >}}
+{{< gist "aspose-words-gists" "7d267f5905ac7f3d5144e8d4126a0d6d" "get-field-names.java" >}}
 
 ### Get Information About Merge Regions
 
 You may have a scenario where you want to understand how your template is structured through the specified merge regions. You can use some methods to gather all necessary information about merge regions or to get the merge regions hierarchy in your template, such as the [GetRegionsHierarchy](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getRegionsHierarchy) method. You can use the properties and methods of the [MailMergeRegionInfo](https://reference.aspose.com/words/java/com.aspose.words/mailmergeregioninfo/) class.The following code example shows how to get merge regions hierarchy:
 
-**Java**
-{{< highlight java >}}
-
-MailMergeRegionInfo regionInfo = doc.getMailMerge().getRegionsHierarchy();
-
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "7d267f5905ac7f3d5144e8d4126a0d6d" "get-regions-hierarchy.java" >}}
 
 The following code example shows how to get specific merge regions inside your template based on their names:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-ExecuteMailMergeWithRegions-GetRegionsByName.java" >}}
+{{< gist "aspose-words-gists" "7d267f5905ac7f3d5144e8d4126a0d6d" "get-regions-by-name.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -86,4 +89,4 @@ Aspose.Words allows you to automatically map names of fields in your data source
 
 The following code example shows how to add a mapped field using the [Add](https://reference.aspose.com/words/java/com.aspose.words/mappeddatafieldcollection/#add-java.lang.String-java.lang.String) method when a merge field in a template and a data field in a data source have different names:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-GetFieldNames-MappedFieldNames.java" >}}
+{{< gist "aspose-words-gists" "7d267f5905ac7f3d5144e8d4126a0d6d" "mapped-data-fields.java" >}}

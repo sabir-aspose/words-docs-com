@@ -3,7 +3,7 @@ title: Track Changes in a Document in Java
 second_title: Aspose.Words for Java
 articleTitle: Track Changes in a Document
 linktitle: Track Changes in a Document
-description: "Track changes to content and formatting made by you or others. Access individual revisions in a document and apply various properties to them using Java."
+description: "Track changes to content and formatting made by you or others using Java. Access individual revisions in a document and apply various properties to them."
 type: docs
 weight: 270
 ai_search_scope: words_java
@@ -13,9 +13,17 @@ url: /java/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to track changes in a document programmatically.
+
+{{% /alert %}}
+
 The functionality of track changes, also known as reviewing, allows you to track changes to content and formatting made by you or other users. This track changes feature with Aspose.Words supports track changes in Microsoft Word. With this functionality, you can access individual revisions in your document and apply different properties to them.
 
-When you enable the track changes feature, all inserted, deleted, and modified elements of the document will be visually highlighted with information about by whom, when, and what was changed. Objects that carry information about what was changed are called “tracking changes”. For example, assume that you want to review a document and make important changes – this may mean that you need to make revisions. Also, you may need to insert comments to discuss some of the changes. That is where tracking changes in documents come in.
+When you enable the track changes feature, all inserted, deleted, and modified elements of the document will be visually highlighted with information about by whom, when, and what was changed. Objects that carry the information about what was changed are called “tracking changes”. For example, assume that you want to review a document and make important changes – this may mean that you need to make revisions. Also, you may need to insert comments to discuss some of the changes. That is where tracking changes in documents come in.
 
 This article explains how to manage and track changes created by many reviewers on the same document, as well as the properties for tracking changes.
 
@@ -27,9 +35,9 @@ Note that the comment feature in Aspose.Words, as well as in Microsoft Word, can
 
 ## What Is a Revision
 
-Before diving into revisions, let’s explain the meaning of revisions. A [revision](https://reference.aspose.com/words/java/com.aspose.words/revision/) is a change that occurs in one node of a document while a revision group, represented by the [RevisionGroup](https://reference.aspose.com/words/java/com.aspose.words/revisiongroup/) class, is a group of sequential revisions that occur in many nodes of a document. Revision is a tool for tracking changes.
+Before diving into revisions, let’s explain the meaning of revisions. A [revision](https://reference.aspose.com/words/java/com.aspose.words/revision/) is a change that occurs in one node of a document while a revision group, represented by the [RevisionGroup](https://reference.aspose.com/words/java/com.aspose.words/revisiongroup/) class, is a group of sequential revisions that occur in many nodes of a document. Basically, revision is a tool for tracking changes.
 
-Revisions are used in the tracking changes feature and within the compare documents feature, where revisions appear as a result of the comparison. So, revisions within the tracking changes feature shows by whom and what was changed.
+Revisions are used in the tracking changes feature and within the compare documents feature, where revisions appear as a result of comparison. So, revisions within the tracking changes feature show by whom and what was changed.
 
 {{% alert color="primary" %}}
 
@@ -66,11 +74,12 @@ Note that the `AcceptAllRevisions` method is similar to the “Accept All Change
 {{% /alert %}}
 
 The following code example shows how to work with tracking changes:
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-TrackChanges-WorkWithTrackChanges.java" >}}
+
+{{< gist "aspose-words-gists" "e8860e1f17807ce23c3c2debcd017e8c" "accept-all-revisions.java" >}}
 
 The following code example shows how revisions are generated when a node is moved within a tracked document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-TrackChanges-GenerateRevisionsWhenMovingNode.java" >}}
+{{< gist "aspose-words-gists" "e8860e1f17807ce23c3c2debcd017e8c" "move-node-in-tracked-document.java" >}}
 
 ## Manage and Store Changes as Revisions
 
@@ -89,4 +98,18 @@ Note that there is no connection between the revisions themselves and the `Track
 {{% /alert %}}
 
 The following code example shows how to apply different properties with revisions:
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-TrackChanges-ApplyDifferentPropertiesWithRevisions.java" >}}
+
+{{< gist "aspose-words-gists" "e8860e1f17807ce23c3c2debcd017e8c" "shape-revision.java" >}}
+
+## Related APIs
+
+- [Revision](https://reference.aspose.com/words/java/com.aspose.words/revision/)
+- [RevisionGroup](https://reference.aspose.com/words/java/com.aspose.words/revision/#getGroup)
+- [RevisionType](https://reference.aspose.com/words/java/com.aspose.words/revisiontype/)
+- [Document.TrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#getTrackRevisions)
+- [Document.StartTrackRevisions()](https://reference.aspose.com/words/java/com.aspose.words/document/#startTrackRevisions-java.lang.String)
+- [Document.StopTrackRevisions()](https://reference.aspose.com/words/java/com.aspose.words/document/#stopTrackRevisions)
+- [Document.AcceptAllRevisions()](https://reference.aspose.com/words/java/com.aspose.words/document/#acceptAllRevisions)
+- [RevisionCollection.RejectAll()](https://reference.aspose.com/words/java/com.aspose.words/revisioncollection/#rejectAll)
+- [Revision.Accept()](https://reference.aspose.com/words/java/com.aspose.words/revision/#accept)
+- [Revision.Reject()](https://reference.aspose.com/words/java/com.aspose.words/revision/#reject)

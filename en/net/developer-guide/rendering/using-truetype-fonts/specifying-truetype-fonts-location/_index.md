@@ -47,7 +47,7 @@ Per-document instances are needed only if it is required to use different font s
 
 In most cases, Windows users do not face significant problems with missed fonts or incorrect layouts. Typically, Aspose.Words goes through a document, and when it encounters a font’s link, successfully fetches the font data from the system folder.
 
-On Windows, Aspose.Words first takes all available fonts from the _%windir%\Fonts folder. This setting will work for you most of the time. You only specify your own fonts folders if you need to. Aspose.Words for .NET also looks for additional fonts registered in the HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts registry key. In addition, Windows 10 enables installation of fonts for the current user. Fonts are placed into the %userprofile%\AppData\Local\Microsoft\Windows\Fonts folder and also specified in the HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts registry, where Aspose.Words will look for these fonts.
+On Windows, Aspose.Words first takes all available fonts from the _%windir%\Fonts folder. This setting will work for you most of the time. You only specify your own fonts folders if you need to. Aspose.Words also looks for additional fonts registered in the HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts registry key. In addition, Windows 10 enables installation of fonts for the current user. Fonts are placed into the %userprofile%\AppData\Local\Microsoft\Windows\Fonts folder and also specified in the HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts registry, where Aspose.Words will look for these fonts.
 
 If a document contains embedded fonts, Aspose.Words can read relevant font data from the document and use it to create the document’s layout. Documents may also contain links to fonts that are not in the system folders, in which case the following scenarios come to work:
 
@@ -86,7 +86,11 @@ The following example demonstrates how to set the folder or source, which Aspose
 
 {{< gist "aspose-words-gists" "7e64f6d40825be58a8c12f1307c12964" "true-type-fonts-folder.cs" >}}
 
+{{% alert color="primary" %}}
+
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx).
+
+{{% /alert %}}
 
 An extra Boolean parameter controls whether fonts are scanned recursively through all folders, hence scanning all child folders of a specified folder. The following example demonstrates how to set Aspose.Words to look in multiple folders for TrueType fonts when rendering or embedding fonts:
 
@@ -112,7 +116,7 @@ The [Priority](https://reference.aspose.com/words/net/aspose.words.fonts/fontso
 
 ## Load Fonts from Stream {#loading-fonts-from-stream}
 
-Aspose.Words provides the [StreamFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/streamfontsource/) class, which allows loading fonts from the stream. To use the stream font source, a user needs to create a derived class from **StreamFontSource** and provide an implementation of the [OpenFontDataStream](https://reference.aspose.com/words/net/aspose.words.fonts/streamfontsource/openfontdatastream/) method. The **OpenFontDataStream** method could be called several times. For the first time, it will be called when Aspose.Words scans the provided font sources to get a list of available fonts. Later it may be called if the font is used in the document to parse the font data and to embed the font data to some output formats. **StreamFontSource** may be useful because it allows loading the font data only when it is required, and not to store it in the memory for the [FontSettings](https://fontsettings/) lifetime.
+Aspose.Words provides the [StreamFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/streamfontsource/) class, which allows loading fonts from the stream. To use the stream font source, a user needs to create a derived class from **StreamFontSource** and provide an implementation of the [OpenFontDataStream](https://reference.aspose.com/words/net/aspose.words.fonts/streamfontsource/openfontdatastream/) method. The **OpenFontDataStream** method could be called several times. For the first time, it will be called when Aspose.Words scans the provided font sources to get a list of available fonts. Later it may be called if the font is used in the document to parse the font data and to embed the font data to some output formats. **StreamFontSource** may be useful because it allows loading the font data only when it is required, and not to store it in the memory for the [FontSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/) lifetime.
 
 {{< gist "aspose-words-gists" "7e64f6d40825be58a8c12f1307c12964" "resource-steam.cs" >}}
 
@@ -134,9 +138,15 @@ The following code example shows how to prepare font sources and generate font s
 
 {{< highlight csharp >}}
 // Prepare font sources and generate font search cache beforehand.
+class MyStreamFontSource : StreamFontSource
+{
+    public MyStreamFontSource(int priority, string cacheKey) : base(priority, cacheKey) { }
+    public override Stream OpenFontDataStream() => File.OpenRead(streamFontPath);
+}
+
 FileFontSource fileSource = new FileFontSource(filePath, fileSourcePriority, fileSourceKey);
 MemoryFontSource memorySource = new MemoryFontSource(fontData, memorySourcePriority, memorySourceKey);
-StreamFontSource streamSource = new SteamFontSourceMemoryImpl(streamSourcePriority, streamSourceKey);
+StreamFontSource streamSource = new MyStreamFontSource(streamSourcePriority, streamSourceKey);
 
 FontSettings settings = new FontSettings();
 
@@ -148,9 +158,15 @@ The following code example shows how to set font sources and load search cache b
 
 {{< highlight csharp >}}
 // Set font sources and load search cache before processing documents. Note that sources should be the same as when saving font search cache.
+class MyStreamFontSource : StreamFontSource
+{
+    public MyStreamFontSource(int priority, string cacheKey) : base(priority, cacheKey) { }
+    public override Stream OpenFontDataStream() => File.OpenRead(streamFontPath);
+}
+
 FileFontSource fileSource = new FileFontSource(filePath, fileSourcePriority, fileSourceKey);
 MemoryFontSource memorySource = new MemoryFontSource(fontData, memorySourcePriority, memorySourceKey);
-StreamFontSource streamSource = new SteamFontSourceMemoryImpl(streamSourcePriority, streamSourceKey);
+StreamFontSource streamSource = new MyStreamFontSource(streamSourcePriority, streamSourceKey);
 
 FontSettings settings = new FontSettings();
 

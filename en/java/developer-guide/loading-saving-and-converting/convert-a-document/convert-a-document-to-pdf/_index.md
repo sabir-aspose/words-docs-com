@@ -15,13 +15,21 @@ url: /java/convert-a-document-to-pdf/
 timestamp: 2024-01-31-14-23-37
 ---
 
-The ability to easily and reliably convert documents from one format to another is a key feature of Aspose.Words. One of the most popular formats for converting is PDF – a fixed-layout format, which preserves the original appearance of a document during its rendering on various platforms. The “rendering” term is used in Aspose.Words to describe the process of converting a document into a file format that is paginated or has the concept of pages.
+{{% alert color="grey" %}}
 
-## Convert a Word Document to PDF {#convert-a-word-document-to-pdf}
+## Purpose Summary
+
+This page explains how to convert Word documents to PDF and details the rendering options that affect fonts, pagination, and visual fidelity.
+
+{{% /alert %}}
+
+The ability to easily and reliably convert documents from one format to another is a key feature of Aspose.Words. One of the most popular formats for converting is PDF – a fixed-layout format, which preserves the original appearance of a document during its rendering on various platforms. The "rendering" term is used in Aspose.Words to describe the process of converting a document into a file format that is paginated or has the concept of pages.
+
+## Convert a Word Document to PDF
 
 Conversion from Word to PDF is a rather complex process that requires several stages of calculation. Aspose.Words layout engine mimics the way Microsoft Word’s page layout engine works, making PDF output documents look as close as possible to what you can see in Microsoft Word.
 
-With Aspose.Words you can programmatically convert a document from DOC or DOCX format to PDF without using Microsoft Office. This article explains how to perform this conversion.
+With Aspose.Words you can programmatically convert a document from Word formats, such as DOC or DOCX, to PDF without using Microsoft Office. This article explains how to perform this conversion.
 
 {{% alert color="primary" %}}
 
@@ -29,14 +37,14 @@ Note that the number of pages in a document affects the conversion time.
 
 {{% /alert %}}
 
-### Converting DOCX or DOC to PDF {#converting-doc-or-docx-to-pdf}
+### Convert DOCX or DOC to PDF
 
 Converting from the DOC or DOCX document format into the PDF format in Aspose.Words is very easy and can be accomplished with just two lines of code that:
 
 1. Load your document into a [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) object using one of its constructors by specifying the document name with its format extension.
 1. Invoke one of the [Document.Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String-int) methods on the **Document** object and specify the desired output format as PDF by entering a file name with the “.PDF” extension.
 
-The following code example shows how to convert a document from DOCX into PDF using the `Save` method:
+The following code example shows how to convert a document from DOCX into PDF using the [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String) method:
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "docx-to-pdf.java" >}}
 
@@ -50,7 +58,7 @@ Note that with the same technique, you can convert any flow-layout format docume
 
 {{% /alert %}}
 
-### Convert to Different PDF Standards {#converting-to-various-pdf-standards}
+### Convert to Different PDF Standards
 
 Aspose.Words provides the [PdfCompliance ](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)enumeration to support the conversion of DOC or DOCX into various PDF format standards (such as PDF 1.7, PDF 1.5, etc.).
 

@@ -1,5 +1,5 @@
 ---
-title: Replace Fields with Text Java
+title: Replace Fields Java
 second_title: Aspose.Words for Java
 articleTitle: Replace Fields with Static Text
 linktitle: Replace Fields with Static Text
@@ -14,7 +14,15 @@ aliases: [/java/how-to-replace-or-modify-hyperlinks-and-replace-fields-with-stat
 timestamp: 2024-01-27-14-07-04
 ---
 
-Replacing fields is often required when you wish to save your document as a static copy. For example, when sending as an attachment in an e‑mail. Converting fields such as `DATE` or `TIME` to static text will allow the document to display the same date as when it was sent. Also, in some situations, you may need to remove the conditional `IF` fields from your document and replace them with the most recent text result instead. For example, converting the result of the `IF` field to static text so it will no longer dynamically change its value when fields in the document are updated.
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to replace fields in a document programmatically.
+
+{{% /alert %}}
+
+Replacing fields is often required when you wish to save your document as a static copy. For example, when sending as an attachment in an e-mail. Converting fields such as `DATE` or `TIME` to static text will allow the document to display the same date as when it was sent. Also, in some situations, you may need to remove the conditional `IF` fields from your document and replace them with the most recent text result instead. For example, converting the result of the `IF` field to static text so it will no longer dynamically change its value when fields in the document are updated.
 
 The diagram below shows how the `IF` field is stored in a document:
 
@@ -25,7 +33,7 @@ The diagram below shows how the `IF` field is stored in a document:
 
 ![update-remove-a-field-aspose-words](updating-and-removing-a-field-1.png)
 
-The structure can also be seen below in hierarchical form using the demo project **“DocumentExplorer”**, which ships with the **Aspose.Words** installer.
+The structure can also be seen below in hierarchical form using the [demo project *“DocumentExplorer”*](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Document_explorer)*.*
 
 ![update-remove-a-field-aspose-words-2](updating-and-removing-a-field-2.png)
 
@@ -39,7 +47,7 @@ However, in the header, the `PAGE` field translates well to static run of text. 
 
 The following code example shows how to replace the field with its most recent result:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UnlinkFields-UnlinkFields.java" >}}
+{{< gist "aspose-words-gists" "13297c901241a5a87660303fbcdd8a92" "unlink-fields.java" >}}
 
 ## Convert Certain Field Types in Specific Document Parts
 
@@ -57,21 +65,32 @@ The [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldty
 
 The following code example shows how to select fields of a specific type – *targetFieldType* in a specific node – *compositeNode* and then convert them to static text:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldHelper-FieldsHelper.java" >}}
+{{< gist "aspose-words-gists" "13297c901241a5a87660303fbcdd8a92" "convert-fields-to-static-text.java" >}}
 
 The following code example shows how to convert all `IF` fields in a document to static text:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-ConvertFieldsInDocument-ConvertFieldsInDocument.java" >}}
+{{< gist "aspose-words-gists" "13297c901241a5a87660303fbcdd8a92" "unlink-fields-in-document.java" >}}
+
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Linked%20fields.docx).
+
+{{% /alert %}}
 
 The following code  example shows how to convert all `PAGE` fields in a Body of a document to static text:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-ConvertFieldsInBody-ConvertFieldsInBody.java" >}}
+{{< gist "aspose-words-gists" "13297c901241a5a87660303fbcdd8a92" "unlink-fields-in-body.java" >}}
 
 The following code  example shows how to convert all `IF` fields in the last paragraph to static text:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-ConvertFieldsInParagraph-ConvertFieldsInParagraph.java" >}}
+{{< gist "aspose-words-gists" "13297c901241a5a87660303fbcdd8a92" "unlink-fields-in-paragraph.java" >}}
 
------- 
+## Related APIs
+
+- [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/)
+- [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/)
+- [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/)
+- [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/)
 
 ## FAQ
 

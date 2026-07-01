@@ -1,5 +1,5 @@
 ---
-title: Customize Field Properties
+title: Customize Field Properties in Java
 second_title: Aspose.Words for Java
 articleTitle: Customize Field Properties
 linktitle: Customize Field Properties
@@ -13,7 +13,15 @@ url: /java/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words provides the ability to programmatically interact with various field properties. In this article, we will look at a couple of examples so that you understand the basic principle of working with field properties. You can see the full list of properties for each field type in the corresponding class.
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to customize field properties such as result formatting, switches, and update behavior.
+
+{{% /alert %}}
+
+Aspose.Words provides the ability to programmatically interact with various field properties. In this article, we will look at a couple of examples so that you understand the basic principle of working with field properties. You can see the full list of properties for each field type in the corresponding class in the [Fields namespace](https://reference.aspose.com/words/net/aspose.words.fields/).
 
 ## Field Property Update
 
@@ -21,7 +29,7 @@ Sometimes users need to change the value of a field property. For example, updat
 
 The following code example shows how to rename merge fields in a Word document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-RenameMergeFields-RenameMergeFields.java" >}}
+{{< gist "aspose-words-gists" "022e103c106b865dff94e9c742357573" "rename-merge-fields.java" >}}
 
 ## Field Display Result
 
@@ -29,9 +37,7 @@ Aspose.Words provides a property to obtain the field's result for fields that do
 
 The following code example shows the usage of [DisplayResult](https://reference.aspose.com/words/java/com.aspose.words/field/#getDisplayResult) property:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldDisplayResult-FieldDisplayResult.java" >}}
-
------- 
+{{< gist "aspose-words-gists" "022e103c106b865dff94e9c742357573" "field-display-results.java" >}} 
 
 ## FAQ
 

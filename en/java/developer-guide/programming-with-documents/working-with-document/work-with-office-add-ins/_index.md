@@ -14,6 +14,14 @@ aliases: [/java/working-with-web-extensions/]
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to work with Office Add-ins that incorporate Aspose.Words.
+
+{{% /alert %}}
+
 Sometimes you might want to give access to interface controls that run code to modify documents. Aspose.Words API provides the `WebExtensions` namespace, which grants various classes to customize elements and attributes extending the XML vocabulary for representing Office Add-ins.
 
 WebExtensions namespace can be conditionally divided into:
@@ -33,17 +41,15 @@ Web Extensions are tools that expand the capabilities of Office applications and
 
 Aspose.Words provides the ability to add Web Extensions of the Task Pane type using the [WebExtension](https://reference.aspose.com/words/java/com.aspose.words.webextension/) and [TaskPane](https://reference.aspose.com/words/java/com.aspose.words.taskpane/) classes, and also allows you to customize the pane and extension properties.
 
-The following code example shows how to create task panes and add to web extension task panes with basic properties: 
+The following code example shows how to create task panes and add to web extension task panes with basic properties:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-WebExtension-WorkingWithWebExtension-UsingWebExtensionTaskPanes.java" >}}
+{{< gist "aspose-words-gists" "b91d438dcc82b6b4a3c8db34ad732c7d" "web-extension-task-panes.java" >}}
 
-To see a list of task pane add-ins, use the [WebExtensionTaskPanes](https://reference.aspose.com/words/java/com.aspose.words.document/#getWebExtensionTaskPanes) property.
+To see a list of task pane add‑ins, use the [WebExtensionTaskPanes](https://reference.aspose.com/words/java/com.aspose.words.document/#getWebExtensionTaskPanes) property.
 
 The following code example shows how to get such a list of add-ins:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-WebExtension-WorkingWithWebExtension-GetListOfAddins.java" >}}
-
------- 
+{{< gist "aspose-words-gists" "b91d438dcc82b6b4a3c8db34ad732c7d" "get-list-of-addins.java" >}}
 
 ## FAQ
 

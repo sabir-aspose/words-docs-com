@@ -3,7 +3,7 @@ title: Clean Up a Document in Java
 second_title: Aspose.Words for Java
 articleTitle: Clean Up a Document
 linktitle: Clean Up a Document
-description: "Remove unused or duplicate information to reduce output size and processing time. Remove unused styles, unused built-in styles, duplicate styles, or unused lists using Java."
+description: "Remove unused or duplicate information to reduce output size and processing time using Java. Remove unused styles, unused built-in styles, duplicate styles, or unused lists."
 type: docs
 weight: 30
 ai_search_scope: words_java
@@ -12,6 +12,14 @@ ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /java/clean-up-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
+
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page outlines how to clean up unnecessary or redundant content in a Word document using Aspose.Words.
+
+{{% /alert %}}
 
 Sometimes you may need to remove unused or duplicate information to reduce the size of the output document and processing time.
 
@@ -27,7 +35,7 @@ You can use the [UnusedLists](https://reference.aspose.com/words/java/com.aspose
 
 The following code example shows how to remove only unused styles from a document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithStyle-CleansUnusedStylesandLists.java" >}}
+{{< gist "aspose-words-gists" "01b0f3024b265f429ec00ffd6ec30407" "cleanup-unused-styles-and-lists.java" >}}
 
 ## Remove Duplicate Information from a Document
 
@@ -35,9 +43,7 @@ You can also use the [DuplicateStyle](https://reference.aspose.com/words/java/co
 
 The following code example shows how to remove duplicate styles from a document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithStyle-CleanupDuplicateStyle.java" >}}
-
------- 
+{{< gist "aspose-words-gists" "01b0f3024b265f429ec00ffd6ec30407" "cleanup-duplicate-style.java" >}}
 
 ## FAQ
 
