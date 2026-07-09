@@ -1,19 +1,27 @@
 ---
-title: Working with Table Styles in Java
+title: Change Table Style in Word Documents using Java
 second_title: Aspose.Words for Java
 articleTitle: Apply Table Style
 linktitle: Apply Table Style
-description: "Advanced table formatting Java. Create a table style using Java. Introduction to advanced table formatting, Table styles using Java."
+description: "Advanced table formatting Java. Create a table style using Java. Apply table style Java."
 type: docs
-aliases:
- - /java/working-with-table-styles/
 weight: 80
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /java/working-with-tablestyle/
+aliases:
+ - /java/working-with-table-styles/
 timestamp: 2024-01-27-14-07-04
 ---
+
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to work with table styles.
+
+{{% /alert %}}
 
 A table style defines a set of formatting that can be easily applied to a table. Formatting such as borders, shading, alignment, and font can be set in a table style and applied to many tables for a consistent appearance.
 
@@ -63,7 +71,7 @@ The following code example shows how to create a new table with a table style ap
 
 The pictures below show a representation of the **Table Styles** in Microsoft Word and their corresponding properties in Aspose.Words.
 
-![table-style-aspose-words-java](working-with-table-styles-1.png)
+![formatting-table-style-aspose-words-net](applying-formatting-10.png)
 
 ## Take Formatting from Table Style and Apply it as Direct Formatting
 
@@ -79,7 +87,24 @@ The following code example shows how to expand the formatting from styles onto t
 
 {{< gist "aspose-words-gists" "f1d06175603c48e6dabf5a2eea01207c" "expand-formatting-on-cells-and-row-from-style.java" >}}
 
------- 
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
+
+{{% /alert %}}
+
+## Related APIs
+
+- [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/)
+- [TableStyle](https://reference.aspose.com/words/java/com.aspose.words/tablestyle/)
+- [ConditionalStyle](https://reference.aspose.com/words/java/com.aspose.words/conditionalstyle/)
+- [ConditionalStyleCollection](https://reference.aspose.com/words/java/com.aspose.words/conditionalstylecollection/)
+- [TableStyleOptions](https://reference.aspose.com/words/java/com.aspose.words/tablestyleoptions/)
+- [StyleCollection.Add](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/#add-int-java.lang.String)
+- [Document.ExpandTableStylesToDirectFormatting](https://reference.aspose.com/words/java/com.aspose.words/document/#expandTableStylesToDirectFormatting)
+- [Table.Style](https://reference.aspose.com/words/java/com.aspose.words/table/#getStyle)
+- [Table.StyleIdentifier](https://reference.aspose.com/words/java/com.aspose.words/table/#getStyleIdentifier)
+- [Table.StyleOptions](https://reference.aspose.com/words/java/com.aspose.words/table/#getStyleOptions)
 
 ## FAQ
 

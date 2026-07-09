@@ -16,6 +16,14 @@ url: /java/specify-save-options/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to specify save options for different output formats.
+
+{{% /alert %}}
+
 When saving a document, you can set some advanced properties. Aspose.Words provides you with the [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) class, which allows more precise control of the save process. There are overloads of the **Save** method that accept a **SaveOptions** object – it should be an object of a class derived from the **SaveOptions** class. Each save format has a corresponding class that holds save options for this save format, for example, there is [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) for saving to PDF format, [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) for saving to Markdown format, or [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) for saving to an image. This article provides examples of working with some options classes derived from **SaveOptions**.
 
 The following code example shows how to set the save options before saving the document into HTML:
@@ -70,6 +78,10 @@ Aspose.Words provides an ability to use the [UpdateLastSavedTimeProperty](http
 The following code example shows how to set this property and save the document:
 
 {{< gist "aspose-words-gists" "a6f7799aa265589fb56915bb1e401b05" "update-last-saved-time.java" >}}
+
+## Control External Resources When Saving a Document into HTML or SVG
+
+To convert HTML or SVG into PDF, simply invoke the [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String) method and specify a file name with the “.PDF” extension. If you want to load images, CSS, etc. from external sources, you can use [IResourceSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/iresourcesavingcallback/).
 
 ## Save Black and White Image with One Bit Per Pixel Format
 

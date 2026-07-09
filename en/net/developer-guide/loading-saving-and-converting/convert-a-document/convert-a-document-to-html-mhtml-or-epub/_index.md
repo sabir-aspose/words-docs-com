@@ -31,8 +31,6 @@ For simple conversion to HTML, MHTML, or EPUB, one of the [Save](https://refere
 
 The following example shows how to convert DOCX to HTML with specifying a save format:
 
-**.NET**
-
 {{< gist "aspose-words-gists" "c0df00d37081f41a7683339fd7ef66c1" "docx-to-html.cs" >}}
 
 To convert a document to MHTML or EPUB, use `SaveFormat.Mhtml` or `SaveFormat.Epub` respectively.

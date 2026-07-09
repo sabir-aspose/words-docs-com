@@ -14,6 +14,15 @@ description: "Aspose.Words enables you to create a blank document or to load it 
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to create or load a document from various sources, including streams, files, and byte arrays.
+
+{{% /alert %}}
+
+
 Almost any task that you want to perform with Aspose.Words involves loading a document. The `Document` class represents a document loaded into memory. The document has several overloaded constructors allowing you to create a blank document or to load it from a file or stream. The document can be loaded in any load format supported by Aspose.Words. For the list of all supported load formats, see the [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) enumeration.
 
 ## Create a New Document {#create-a-new-document}
@@ -33,19 +42,19 @@ Note the default values:
 
 {{% /alert %}}
 
-## Load a Document
+## Load a Document {#load-a-document}
 
 To load an existing document in any of the [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) formats, pass the file name or the stream into one of the Document constructors. The format of the loaded document is automatically determined by its extension.
 
 ### Load from a File {#load-from-a-file}
 
-Pass a file name as a string to the Document constructor to open an existing document from a file.
+Pass a file name as string to the Document constructor to open an existing document from a file.
 
 The following code example shows how to open a document from a file:
 
 {{< gist "aspose-words-gists" "ae20848f6cefd3f85ab9bcbbdda340c7" "open-document.java" >}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.docx).
 
 ### Load from a Stream {#load-from-a-stream}
 
@@ -57,6 +66,6 @@ The following code example shows how to open a document from a stream:
 
 {{% alert color="primary" %}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.docx).
 
 {{% /alert %}}

@@ -131,4 +131,3 @@ Limitations and considerations for table positioning in Aspose.Words include:
 
 5. **Q:** What does the `AllowOverlap` property do for floating tables?  
    **A:** `AllowOverlap` determines whether the floating table may overlap other floating objects. Set `Table.AllowOverlap = true;` to permit overlapping, or `false` to prevent it, ensuring the layout respects other objects.
-```

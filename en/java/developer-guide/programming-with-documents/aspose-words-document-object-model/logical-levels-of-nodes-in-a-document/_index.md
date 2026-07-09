@@ -13,9 +13,17 @@ url: /java/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains the logical levels of document nodes and describes how Aspose.Words structures content internally.
+
+{{% /alert %}}
+
 This documentation sometimes refers to a group of node classes as belonging to a "level" in a document, such as "block-level", "inline-level" (also known as "inline"), or “row-level” nodes. These levels in a document are differentiated purely logically and are not explicitly expressed by inheritance or other Aspose.Words DOM means. The node level is used to describe the place in the document tree where the node would typically occur.
 
-In the previous article, we already talked about the relationship between nodes and the fact that not all nodes are allowed to be a child of any nodes. For example, Cell can only be a Row child, and a Row can only be a Table child, and so on. These relationships are also applicable for the logical division of nodes into levels in the document.
+In the previous article, we already talked about the relationship between nodes and the fact that not all nodes are allowed to be a child of any nodes. For example, Cell can only be a Row child, and a Row can only be a Table child, and so on. These relationships are also applicable for logical division of nodes into levels in the document.
 
 The following sections describe the logical levels of nodes in Aspose.Words and the classes that belong to each level.
 
@@ -55,7 +63,7 @@ Block-level nodes are represented by the following classes:
 - Bookmarks, which occurs both at the block-level and at the inline-level
 - [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/), which represent custom markup and can contain both content and content controls
 
-The following diagram shows the block-level elements.
+The following diagram shows block-level elements.
 
 <img src="block-level.png" alt="block-level-aspose-words-java" style="width:550px"/>
 
@@ -71,10 +79,10 @@ Inline-level elements are represented by the following classes:
 
 - [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) – runs of text formatted differently
 - [BookmarkStart](https://reference.aspose.com/words/java/com.aspose.words/bookmarkstart/) and [BookmarkEnd](https://reference.aspose.com/words/java/com.aspose.words/bookmarkend/) represent bookmarks
-- [CommentRangeStart]https://reference.aspose.com/words/java/com.aspose.words/comment/RangeStart), [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/), [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/) and [Footnote](https://reference.aspose.com/words/java/com.aspose.words/footnote/) represent annotations
-- [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/), [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/), [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/) and [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/) that represent field characters, and [FormField](https://reference.aspose.com/words/java/com.aspose.words/formfield/) represent Word fields
-- [SpecialChar](https://reference.aspose.com/words/java/com.aspose.words/specialchar/) represents special characters in the document
-- [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) and [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) represent shapes, drawings, images, etc.
+- [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/), [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/), [Footnote](https://reference.aspose.com/words/java/com.aspose.words/footnote/) and [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/) represent annotations
+- [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/), [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/), [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/) and [FormField](https://reference.aspose.com/words/java/com.aspose.words/formfield/) that represent field characters, and [SpecialChar](https://reference.aspose.com/words/java/com.aspose.words/specialchar/) represent Word fields
+- [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) represents special characters in the document
+- [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) and [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) represent shapes, drawings, images, etc.
 - SmartTag and StructuredDocumentTag represent custom markup
 
 The following diagram shows the inline-level nodes structure.

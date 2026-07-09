@@ -13,6 +13,14 @@ url: /java/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to split a document into parts programmatically.
+
+{{% /alert %}}
+
 *Splitting* or *split a document* is the process of breaking a large document into a greater number of smaller files. There are various reasons to split a file. For example, you only need some pages from a specific document and not the entire one. Or for privacy reasons, you want to share only some parts of a document with others. With the splitting feature, you can get only the required parts of the document and do the necessary actions with them, for example, to mark up, save, or send.
 
 Aspose.Words provides you with an efficient way to split one document into multiple documents by headings or sections. You can also split a document by pages or by page ranges. Both splitting options will be described in this article.
@@ -62,7 +70,7 @@ If you need to split a document by a specific level of heading paragraphs, such 
 
 The following code example shows how to split a document into smaller parts by heading:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-SplitDocumentByHeadingsHTML.java" >}}
+{{< gist "aspose-words-gists" "c2ec8aa36ef37670eceec8da5c612b86" "split-document-by-headings.java" >}}
 
 Please note that for this criteria, Aspose.Words only supports saving to HTML format when splitting.
 
@@ -72,13 +80,13 @@ When saving to EPUB, the document is not split into several files, and there wil
 
 Aspose.Words also enables you to use section breaks to split documents and save them to HTML. For this purpose, use **SectionBreak** as the **DocumentSplitCriteria**:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-SplitDocumentBySectionsHTML.java" >}}
+{{< gist "aspose-words-gists" "961539231ee8e8975461be3947e750f6" "split-document-by-sections-html.java" >}}
 
 There is another way to split the source document into multiple output documents, and you can choose any output format supported by Aspose.Words.
 
 The following code example shows how to split a document into smaller parts by section breaks (without using the `DocumentSplitCriteria` property):
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-SplitDocumentBySections.java" >}}
+{{< gist "aspose-words-gists" "961539231ee8e8975461be3947e750f6" "split-document-by-sections.java" >}}
 
 ## Split by Pages {#splitting-by-pages}
 
@@ -104,7 +112,7 @@ Aspose.Words enables you to split a multi-page document page by page.
 
 The following code example shows how to divide a document and save each page as a separate document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-SplitDocumentPageByPage.java" >}}
+{{< gist "aspose-words-gists" "961539231ee8e8975461be3947e750f6" "split-document-page-by-page.java" >}}
 
 ### Split a Document by Page Ranges {#split-a-document-by-page-ranges}
 
@@ -112,7 +120,7 @@ Aspose.Words allows splitting a multi-page document by page ranges. You can spli
 
 The following code example shows how to split a document into smaller parts by page range with specific start and end indexes:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-SplitDocumentByPageRange.java" >}}
+{{< gist "aspose-words-gists" "961539231ee8e8975461be3947e750f6" "split-document-by-page-range.java" >}}
 
 ## Callback Option to Save a Document {#callback-option-for-saving-a-document}
 
@@ -126,4 +134,24 @@ Aspose.Words enables you to merge the output split document with another docu
 
 The following code example shows how to merge a split document with another document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-MergeDocuments.java" >}}
+{{< gist "aspose-words-gists" "961539231ee8e8975461be3947e750f6" "merge-split-documents.java" >}}
+
+## Troubleshoot
+
+1. **Problem:** Splitting by headings works only when saving to HTML, and attempts to save to PDF or DOCX produce a single file.  
+   **Solution:** The `DocumentSplitCriteria` enumeration is supported only for HTML output. For other formats, split the document manually using section breaks or the `ExtractPages` method. Example for PDF using page ranges:
+
+```csharp
+   Document srcDoc = new Document("input.docx");
+   Document part = srcDoc.ExtractPages(1, 5);
+   part.Save("output_part.pdf");
+   ```
+
+2. **Problem:** Attempting to split a document while saving to MHTML results in an error.  
+   **Solution:** MHTML does not support the `DocumentSplitCriteria` property. Use an alternative format (HTML, PDF, DOCX) for splitting, or split the document first and then convert each part to MHTML individually.
+
+3. **Problem:** After splitting by pages, the resulting documents show layout differences (missing headers/footers, shifted page numbers).  
+   **Solution:** Ensure each split part retains its original sections. When using `ExtractPages`, the method copies the entire section structure, preserving headers, footers, and page numbering. If custom headers/footers are defined per section, verify that the source document uses section breaks appropriately before splitting.
+
+4. **Problem:** Complex elements such as footnotes, endnotes, or fields are lost or rendered incorrectly in split documents.  
+   **Solution:** `ExtractPages` copies most document elements, but some complex structures may be re‑generated during saving. Use the `DocumentPartSavingCallback` to inspect and adjust each part before it is saved, or split the document by section breaks where these elements are contained within a single section.

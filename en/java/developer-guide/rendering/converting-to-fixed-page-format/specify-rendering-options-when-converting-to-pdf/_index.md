@@ -1,9 +1,9 @@
 ---
-title: Specify Rendering Options When Converting to PDF
+title: Specify Rendering Options When Converting to PDF using Java
 second_title: Aspose.Words for Java
 articleTitle: Specify Rendering Options When Converting to PDF
 linktitle: Specify Rendering Options When Converting to PDF
-description: "Convert a document to PDF with advanced options. Use PdfSaveOptions to change the result of saving a document to PDF format using Java."
+description: "Convert a document to PDF with advanced options using Java. Convert DOCX forms to PDF Java. Use PdfSaveOptions to change the result of saving a document to PDF."
 type: docs
 weight: 20
 ai_search_scope: words_java
@@ -13,11 +13,19 @@ url: /java/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to set rendering options when converting to PDF.
+
+{{% /alert %}}
+
 The PDF format is a fixed-page format that is very popular among users and widely supported by various applications because a PDF document looks the same on any device. For that reason, converting to PDF is an important feature of Aspose.Words.
 
 PDF is a complex format. Several stages of calculations are required in the process of converting a document to PDF, including the layout calculation. Since these stages include complex computations, they are time-consuming. Also, the PDF format is rather complex by itself. It has a specific file structure, graphics model and font embedding. Moreover, it features some complex output functionality, such as document structure tags, encryption, digital signatures, and editable forms.
 
-Aspose.Words layout engine imitates the way Microsoft Word’s page layout engine works. Therefore, Aspose.Words makes PDF output documents look as close as possible to what you can see in Microsoft Word. Sometimes it is necessary to specify additional options, which can affect the result of saving a document into the PDF format. These options can be specified using the [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) class, containing the properties that determine how the PDF output will be displayed.
+Aspose.Words layout engine imitates the way Microsoft Word’s page layout engine works. Therefore, Aspose.Words makes PDF output documents look as close as possible to what you can see in Microsoft Word. Sometimes it is necessary to specify additional options, which can affect the result of saving a document into the PDF format. These options can be specified by use of the [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) class, containing the properties that determine how the PDF output will be displayed.
 
 Some examples of using **PdfSaveOptions** are provided below.
 

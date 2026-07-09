@@ -1,5 +1,5 @@
 ---
-title: Working with Content Control SDT
+title: Working with Content Control SDT in C#
 second_title: Aspose.Words for .NET
 articleTitle: Working with Content Control SDT
 linktitle: Working with Content Control SDT
@@ -122,6 +122,6 @@ The following code example shows how to set the style of content control:
 
 The repeating section content control allows repeating the content contained within it. Using Aspose.Words, the structured document tag nodes of the repeating section and repeating section item types can be created and for this purpose, [SdtType enumeration type](https://reference.aspose.com/words/net/aspose.words.markup/sdttype/) provides **RepeatingSectionItem** property.
 
-The following code example shows how to bind a repeating section content control to a table.
+The following code example shows how to bind a repeating section content control to a table:
 
 {{< gist "aspose-words-gists" "089defec1b191de967e6099effeabda7" "repeating-section-mapped-to-custom-xml-part.cs" >}}

@@ -4,7 +4,7 @@ second_title: Aspose.Words for Java
 articleTitle: Clone a Document
 linktitle: Clone a Document
 type: docs
-description: "Clone a document to get its identical copy. When creating a copy, nodes and properties of the original document are cloned using Java."
+description: "Clone a document to get its identical copy using Java. When creating a copy, nodes and properties of the original document are cloned."
 weight: 70
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -13,6 +13,14 @@ url: /java/clone-a-document/
 aliases: [/java/clone-and-combine-documents/]
 timestamp: 2024-01-27-14-07-04
 ---
+
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page describes how to clone (deep-copy) a document or parts of it using Aspose.Words.
+
+{{% /alert %}}
 
 Cloning a document is the process of creating an identical copy of an original document, which can improve performance and save you from potential memory leaks.
 
@@ -37,4 +45,11 @@ Note that when applying the cloning method all document properties will be clone
 {{% /alert %}}
 
 The following code example shows how to clone a document and create a duplicate of a section in that document:
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CloneDocument-CloneADocument.java" >}}
+
+{{< gist "aspose-words-gists" "faf236ea6d4dc5da50bae0db08b5e0a5" "clone-document.java" >}}
+
+## Related APIs
+
+- [Document.Clone()](https://reference.aspose.com/words/net/aspose.words/document/clone/)
+- [Node.Clone()](https://reference.aspose.com/words/net/aspose.words/node/clone/)
+- [Node.Clone(CloneOptions)](https://reference.aspose.com/words/net/aspose.words/node/clone/)

@@ -13,6 +13,14 @@ url: /java/table-overview/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains table concepts and operations in Aspose.Words.
+
+{{% /alert %}}
+
 Aspose.Words is a class library designed for server-side processing of documents in various formats – PDF, HTML, different Microsoft Word formats and others – and supports tables in the following ways:
 
 * tables in a document are preserved during open/save and conversions
@@ -26,7 +34,7 @@ As already mentioned, the table consists of such elements as **Cell**, **Row** a
 
 This is a common example of a table found in a Microsoft Word document:
 
-![tables-overview-aspose-words-java-1](tables-overview-1.png)
+![tables-overview-aspose-words-net-1](tables-overview-1.png)
 
 ### Table Nodes
 
@@ -50,7 +58,7 @@ The table node does not contain any real content – instead, it is a container 
 - **Row** represents a single table row and contains many **Cell** nodes. In addition, the **Row** provides elements that define how the row is displayed, such as height and alignment.
 - **Cell** is what contains the true content visible in the table and is made up of a **Paragraph** and other block level nodes. Additionally, cells can contain nested tables.
 
-![tables-overview-aspose-words-java-2](tables-overview-2.png)
+![tables-overview-aspose-words-net-2](tables-overview-2.png)
 
 {{% alert color="primary" %}}
 
@@ -64,7 +72,7 @@ The picture above shows that the document contains a table of several rows, whic
 
 It is also worth noting that separating two consecutive tables in a document requires at least one empty paragraph after the table. Without such a paragraph, consecutive tables would be joined together into one. This behavior is identical in both Microsoft Word and Aspose.Words.
 
-Aspose.Words has a number of classes related to tables – [Tables](https://reference.aspose.com/words/java/com.aspose.words/table/), [Rows](https://reference.aspose.com/words/java/com.aspose.words/row/), [Cells](https://reference.aspose.com/words/java/com.aspose.words/cell/), and others.
+In Aspose.Words, all classes and properties related to tables are contained in the [Tables](https://reference.aspose.com/words/java/com.aspose.words/table/) namespace.
 
 ## See Also
 

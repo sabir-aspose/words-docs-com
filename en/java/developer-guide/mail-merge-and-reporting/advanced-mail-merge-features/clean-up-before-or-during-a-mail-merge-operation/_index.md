@@ -1,5 +1,5 @@
 ---
-title: Clean Up Before or During a Mail Merge Operation
+title: Clean Up Before or During Mail Merge
 second_title: Aspose.Words for Java
 articleTitle: Clean Up Before or During a Mail Merge Operation
 linktitle: Clean Up Before or During a Mail Merge Operation
@@ -16,6 +16,14 @@ url: /java/clean-up-before-or-during-mail-merge/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to perform cleanup operations before or during a mail merge to ensure document integrity.
+
+{{% /alert %}}
+
 Aspose.Words allows you to apply different cleaning and removing options such as deleting merge fields before performing a Mail Merge operation or removing unused regions during a Mail Merge operation. This section will explain how to delete merged fields and how to set up a removing option.
 
 ## Delete Merged Fields
@@ -24,7 +32,7 @@ When you are using some long template that is created by someone else, you may w
 
 The following code example shows how to delete all merge fields from your template without executing a Mail Merge operation:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-GetFieldNames-DeleteFields.java" >}}
+{{< gist "aspose-words-gists" "edcbce3062678d7d067aef459c4acb46" "delete-fields.java" >}}
 
 ## Set Up a `Removing` Option
 
@@ -61,7 +69,7 @@ In both situations the **RemoveEmptyParagraphs** option will automatically remov
 
 The following code example shows how to remove the empty paragraphs:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeCleanUp-RemoveEmptyParagraphs.java" >}}
+{{< gist "aspose-words-gists" "edcbce3062678d7d067aef459c4acb46" "remove-empty-paragraphs.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -75,7 +83,7 @@ In previous versions of Aspose.Words, empty Mail Merge regions were removed from
 
 The following code example shows how to remove the unused merge regions:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeCleanUp-RemoveUnmergedRegions.java" >}}
+{{< gist "aspose-words-gists" "edcbce3062678d7d067aef459c4acb46" "remove-unmerged-regions.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -91,7 +99,7 @@ Aspose.Words allows you to remove any unused Mail Merge fields by assigning the 
 
 The following code example shows how to remove any unused merge fields from a document automatically during a Mail Merge operation:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeCleanUp-RemoveUnusedFields.java" >}}
+{{< gist "aspose-words-gists" "edcbce3062678d7d067aef459c4acb46" "remove-unused-fields.java" >}}
 
 ### Removing Containing Fields
 
@@ -99,7 +107,7 @@ A merge field can be contained within another field such as an **IF** field or a
 
 The following code example shows how to remove fields that contain merge fields from a document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeCleanUp-RemoveContainingFields.java" >}}
+{{< gist "aspose-words-gists" "edcbce3062678d7d067aef459c4acb46" "remove-containing-fields.java" >}}
 
 **Note**: This option will only remove a containing field if the field was actually merged with data or if the merge field was removed by using the **RemoveUnusedFields** option. This option matches the behavior of Microsoft Word during Mail Merge which always automatically removes outer fields from a merged field and keeps only the plain text result.
 
@@ -109,7 +117,7 @@ Aspose.Words allows you to remove empty table rows by assigning the **RemoveEmpt
 
 The following code example shows how to remove empty table rows that contain Mail Merge regions from a document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeCleanUp-RemoveEmptyTableRows.java" >}}
+{{< gist "aspose-words-gists" "edcbce3062678d7d067aef459c4acb46" "remove-empty-table-rows.java" >}}
 
 ------ 
 

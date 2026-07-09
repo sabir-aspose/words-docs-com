@@ -13,6 +13,14 @@ url: /java/handling-windows-metafiles/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page describes how Aspose.Words handles Windows Metafiles during rendering.
+
+{{% /alert %}}
+
 Windows Metafile format is an image file format that can contain both vector and raster graphics. This format is used to store graphics data in memory or on-disk files. A metafile stores a list of function calls in the Windows Graphics Device Interface (GDI) that must be executed to display the image on the screen. The system interprets and executes these commands in the display context.
 
 Formerly, Windows Metafile was the only vector image format supported by Microsoft Word. Microsoft Word now also supports SVG format, but the metafile format is still commonly used in Word documents. Also, Metafile could be an interchange format for some other applications, such as Microsoft Visio. Essentially, the main purpose of Metafile is to ensure the exchange of graphical information between Windows applications.
@@ -23,7 +31,7 @@ There are 3 versions of Windows Metafile:
 - EMF – stores call to Win32/GDI.
 - EMF+ Metafile stores call to GDI+. EMF+ Metafile may also be dual, describing the same graphics with both EMF and EMF+ parts.
 
-The existing issue with Windows Metafile is that it is not supported by most non-Word formats, to which documents are usually saved. Therefore, it is required to convert the Metafile format to other raster or vector formats. It is easy to convert Windows Metafile to a raster image on .NET by simply passing it to GDI+, but it is not possible on other platforms since even GDI+ does not provide the functionality to extract the vector graphics from Metafile. To solve these issues, Aspose.Words implements its own Windows Metafile player, which is able to play Metafile format both vector and raster graphics on all platforms.
+The existing issue with Windows Metafile is that it is not supported by most non-Word formats, to which documents are usually saved. Therefore, it is required to convert the Metafile format to other raster or vector formats. It is easy to convert Windows Metafile to raster image on .NET by simply passing it to GDI+, but it is not possible on other platforms since even GDI+ does not provide the functionality to extract the vector graphics from Metafile. To solve these issues, Aspose.Words implements its own Windows Metafile player, which is able to play Metafile format both vector and raster graphics on all platforms.
 
 ## Controlling the Aspose.Words Metafile Player
 

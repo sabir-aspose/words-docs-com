@@ -50,7 +50,7 @@ You can use the same templates for different data sources.
 
 The following XML contains the data that is needed to fill in a merge template:
 
-{{< highlight csharp >}}
+{{< highlight xml >}}
 <?xml version="1.0" encoding="utf-8"?>
 <customers>
 	 <customer Name="John Ben Jan" ID="1" Domain="History" City="Boston"/>

@@ -23,14 +23,14 @@ This page explains how rendering works in Aspose.Words, including pagination and
 
 We use the term "rendering" in Aspose.Words to describe the process of converting a document into a file format or a medium that is paginated or has the concept of pages. We are talking about rendering of a document into pages. The following diagram shows what rendering is in Aspose.Words.
 
-![rendering_aspose-words](rendering-1.png)
+![rendering_aspose_words_net](rendering-1.png)
 
 The rendering features of Aspose.Words enable you to perform the following:
 
 - Convert a document or selected pages to PDF, XPS, HTML, XAML, PostScript, and PCL formats.
 - Convert a document into a multi-page TIFF document, or convert any page into a raster image and save it as BMP, PNG or JPEG.
 - Convert a document page into a Scalable Vector Graphics image (SVG), or convert into a vector image and save it as EMF.
-- Render (draw) a document page at a specific size or scale on the .NET Graphics object to create thumbnails, full sized or scaled images of document pages.
+- Render (draw) a document page at a specific size or scale on the .NET Graphics object to create thumbnails, full-sized or scaled images of document pages.
 - Render a [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) object separately from the document to any image format or to a .NET Graphics object.
 - Display any page of a document in a Windows Form.
 - Print or preview document pages using the standard .NET printing infrastructure.

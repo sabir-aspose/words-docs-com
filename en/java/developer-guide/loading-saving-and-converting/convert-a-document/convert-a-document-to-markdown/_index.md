@@ -14,13 +14,21 @@ url: /java/convert-a-document-to-markdown/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Markdown is a popular format used to markup text and it is further converting to HTML, PDF, DOCX, or other formats. Many developers choose this format for writing documentation, preparing articles for publication on blogs, describing projects, and so on.
+{{% alert color="grey" %}}
 
-Markdown is so popular because it is easy to work with this format, as well as it can be quite simply converted to other formats. For this reason, Aspose.Words provides the ability to convert a document in [any supported load format](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) to Markdown and vice versa – Aspose.Words also supports the most popular [save formats](https://reference.aspose.com/words/java/com.aspose.words/saveformat/).
+## Purpose Summary
+
+This page explains how to convert a Word document to Markdown and outlines the Markdown save options that control formatting precision and compatibility.
+
+{{% /alert %}}
+
+Markdown is a popular format used to markup text and its further converting to HTML, PDF, DOCX, or other formats. Many developers choose this format for writing documentation, preparing articles for publication on blogs, describing projects, and so on.
+
+Markdown is so popular because it is easy to work with this format, as well as it can be quite simply converted to other formats. For this reason, Aspose.Words provides the ability to convert a document in [any supported load format](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) to Markdown and vice versa – Aspose.Words also supports most popular [save formats](https://reference.aspose.com/words/java/com.aspose.words/saveformat/).
 
 Now the functionality for working with the Markdown format is being actively developed to provide you with more opportunities for convenient and comfortable work with documents.
 
-## Convert a Document to Markdown
+## Convert a Document
 
 To convert a document to Markdown, you just need to load a document in any supported format or create a new one programmatically. Then you need to save the document to Markdown format.
 
@@ -28,6 +36,15 @@ The following code example shows how to convert DOCX to Markdown:
 
 {{< gist "aspose-words-gists" "642767bbe8d8bec8eab080120b707990" "docx-to-markdown.java" >}}
 
+You can also specify the physical folder in which you want to save images when exporting a document to Markdown format. By default, Aspose.Words saves images in the same folder where the document file is saved, but you can override this behavior using the [ImagesFolder](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImagesFolder) property.
+
+Specifying a folder via **ImagesFolder** is also useful if you save a document to a stream and Aspose.Words does not have a folder for saving images.
+
+If the specified **ImagesFolder** does not exist, it will be created automatically.
+
+The following code example shows how to specify a folder for images when saving a document to a stream:
+
+{{< gist "aspose-words-gists" "642767bbe8d8bec8eab080120b707990" "images-folder.java" >}}
 
 ## Specify Save Options when Converting to Markdown
 

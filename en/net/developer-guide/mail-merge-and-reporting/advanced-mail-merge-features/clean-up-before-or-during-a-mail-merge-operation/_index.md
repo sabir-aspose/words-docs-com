@@ -119,8 +119,6 @@ The following code example shows how to remove empty table rows that contain Mai
 
 {{< gist "aspose-words-gists" "f39874821cb317d245a769c9ce346fea" "remove-empty-table-rows.cs" >}}
 
-```
-
 ------ 
 
 ## Troubleshoot

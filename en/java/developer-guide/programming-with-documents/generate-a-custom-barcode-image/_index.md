@@ -1,5 +1,5 @@
 ---
-title: Create BarCode in Java
+title: How to Create BarCode using Java
 second_title: Aspose.Words for Java
 articleTitle: Generate a Custom BarCode Image
 linktitle: Generate a Custom BarCode Image
@@ -12,6 +12,14 @@ ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /java/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
 timestamp: 2024-09-05-11-07-10
 ---
+
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to generate custom barcode images for DISPLAYBARCODE fields.
+
+{{% /alert %}}
 
 A barcode is a visual representation of data in the form of parallel lines or patterns. Barcodes are widely used in various industries such as retail, logistics, healthcare, banking, and many others.
 
@@ -70,11 +78,25 @@ You can also use the [IBarcodeGenerator](https://reference.aspose.com/words/java
 
 ## Specify Barcode Options
 
-When working with barcodes, you can set some additional properties. Aspose.Words provides you with the [BarcodeParameters](https://reference.aspose.com/words/java/com.aspose.words/barcodeparameters/) class – class for barcode parameters to pass-through to BarcodeGenerator.
+When working with barcodes, you can set some additional properties. Aspose.Words provides you with the [BarcodeParameters](https://reference.aspose.com/words/java/com.aspose.words/barcodeparameters/) class for barcode parameters to pass-through to BarcodeGenerator.
 
-Aspose.Words supports embedded 96 ppi resolution for images generated with [IBarcodeGenerator](https://reference.aspose.com/words/java/com.aspose.words/ibarcodegenerator/), which limits the minimum size of a barcode image. To address this, developers can manually insert barcode images with the target resolution into a Word document and save them in the required format. For more details and examples on working with barcodes, see the article [Read Barcodes from Word Documents](https://docs.aspose.com/barcode/java/read-barcode-from-word-document/).
+Aspose.Words supports embedded 96 ppi resolution for images generated with [IBarcodeGenerator](https://reference.aspose.com/words/java/com.aspose.words/ibarcodegenerator/), which limits the minimum size of a barcode image. To address this, developers can manually insert barcode images with the target resolution into a Word document and save them in the required format. For more details and examples on working with barcodes, see the article [Create Custom Barcodes with IBarcodeGenerator](https://docs.aspose.com/barcode/net/how-to-create-custom-barcodes-with-ibarcodegenerator/).
 
------- 
+## Limitations and Considerations
+
+- The built-in [IBarcodeGenerator](https://reference.aspose.com/words/java/com.aspose.words/ibarcodegenerator/) implementation renders barcodes at a fixed 96 ppi resolution, which limits the minimum achievable barcode size.
+- Microsoft Word only supports specific barcode types. If an unsupported type is specified via `BarcodeParameters.BarcodeType`, Word will display an error and Aspose.Words will not generate an image.
+- When saving to non-Word formats (e.g., PDF, XPS), Aspose.Words does not perform barcode rendering by default. You must either provide a custom `IBarcodeGenerator` implementation or use an external library such as Aspose.Barcode to render barcodes before saving.
+- The `DisplayBarcode` and `MergeBarcode` field codes are the only supported methods for inserting barcodes programmatically. Legacy barcode fields from older Word versions may not be fully supported.
+- Barcode rendering via `IBarcodeGenerator` is available only when saving to fixed-page formats. For editable Word documents, the barcode remains as a field and rendering occurs in Word.
+- Custom `IBarcodeGenerator` implementations must handle all aspects of barcode generation, including resolution, size, and format conversion, since Aspose.Words does not modify the provided image data.
+
+## Related APIs
+
+- [DisplayBarcode](https://reference.aspose.com/words/java/com.aspose.words/displaybarcode/)
+- [MergeBarcode](https://reference.aspose.com/words/java/com.aspose.words/mergebarcode/)
+- [BarcodeParameters](https://reference.aspose.com/words/java/com.aspose.words/barcodeparameters/)
+- [IBarcodeGenerator](https://reference.aspose.com/words/java/com.aspose.words/ibarcodegenerator/) 
 
 ## FAQ
 

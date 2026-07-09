@@ -3,7 +3,7 @@ title: Working with Hyphenation in Java
 second_title: Aspose.Words for Java
 articleTitle: Working with Hyphenation
 linktitle: Working with Hyphenation
-description: "Use hyphenation for a more compact arrangement of text. It provides advanced algorithms to work with hyphenation dictionaries, uses OpenOffice dictionaries using Java."
+description: "Use hyphenation for a more compact arrangement of text using Java. It provides advanced algorithms to work with hyphenation dictionaries, uses OpenOffice dictionaries."
 type: docs
 weight: 220
 ai_search_scope: words_java
@@ -12,6 +12,14 @@ ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /java/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---
+
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to work with hyphenation dictionaries and automatic hyphenation.
+
+{{% /alert %}}
 
 Sometimes it is necessary to use hyphenation for a more compact arrangement of text in a document. At the same time, it is important to understand that the specifics of word hyphenation may differ for each language.
 
@@ -50,9 +58,9 @@ The following features of Aspose.Words algorithms should be taken into account:
 
 ## Loading Hyphenation Dictionaries
 
-To use the hyphenation feature, first register a hyphenation dictionary.The following code example shows how to load hyphenation dictionaries for the specified languages from a file:
+To use the hyphenation feature, first register a hyphenation dictionary. The following code example shows how to load hyphenation dictionaries for the specified languages from a file:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HyphenateWords-LoadHyphenationDictionaryFromFile.java" >}}
+{{< gist "aspose-words-gists" "b927514236cd586d70faf9fb0476ba23" "hyphenate-words.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -62,7 +70,7 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 The following code example shows how to load hyphenation dictionaries for the specified language from a stream:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HyphenateWords-LoadHyphenationDictionaryFromStream.java" >}}
+{{< gist "aspose-words-gists" "b927514236cd586d70faf9fb0476ba23" "load-hyphenation-dictionary.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -74,7 +82,7 @@ As an alternative to pre-registering hyphenation dictionaries, it is possible to
 
 The following code example shows how to implement the **IHyphenationCallback** interface:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HyphenateWords-HyphenationCallback.java" >}}
+{{< gist "aspose-words-gists" "b927514236cd586d70faf9fb0476ba23" "custom-hyphenation.java" >}}
 
 ## Impact of Hyphenation on Layout
 

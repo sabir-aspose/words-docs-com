@@ -13,6 +13,14 @@ url: /java/position-a-table/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to position tables precisely within a document using layout and formatting options.
+
+{{% /alert %}}
+
 There are floating tables and inline tables:
 
 * **Inline tables** are placed on the same layer as the text and are placed in a flow of text that only surrounds the table above and below. Inline tables will always appear between the paragraphs where you placed them.
@@ -34,7 +42,7 @@ The following code example shows how to set the position of an inline table:
 
 If the table text wrapping is set to **Around**, you can get the table's horizontal and vertical alignment using the [RelativeHorizontalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeHorizontalAlignment) and [RelativeVerticalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeVerticalAlignment) properties.
 
-With **other types of text wrapping**, you can get inline table alignment using the **Alignment** property.
+With **other types of text wrapping**, you can get inline table alignment using the [Alignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getAlignment) property.
 
 The following code example shows how to get the table's alignment:
 
@@ -66,8 +74,6 @@ The following code example shows how to set the position of a floating table:
 
 {{< gist "aspose-words-gists" "0f235c484e5edae70a542ebdaae40fd8" "floating-table-position.java" >}}
 
-{{< gist "aspose-words-gists" "0f235c484e5edae70a542ebdaae40fd8" "relative-horizontal-or-vertical-position.java" >}}
-
 ## Get Distance between Table and Surrounding Text
 
 Aspose.Words also provides an opportunity to find out the distances between tables and surrounding texts:
@@ -80,3 +86,29 @@ Aspose.Words also provides an opportunity to find out the distances between tabl
 The following code example shows how to get the distance between a table and its surrounding text:
 
 {{< gist "aspose-words-gists" "0f235c484e5edae70a542ebdaae40fd8" "distance-between-table-surrounding-text.java" >}}
+
+## Limitations and Considerations
+
+Limitations and considerations for table positioning in Aspose.Words include:
+
+* Horizontal and vertical alignment properties (`RelativeHorizontalAlignment`, `RelativeVerticalAlignment`) and distance properties (`AbsoluteHorizontalDistance`, `AbsoluteVerticalDistance`) are interdependent. Setting one property in each pair will reset the other to its default value.
+* Inline tables can only be positioned using the `Alignment` property and cannot be freely positioned like floating tables.
+* Floating tables require proper anchor setup and their position is always relative to a paragraph anchor, even when using absolute distances.
+* The `AllowOverlap` property only affects the visual layering of floating objects and does not prevent layout conflicts.
+* Distance properties (`DistanceTop`, `DistanceBottom`, etc.) apply to both inline and floating tables but may behave differently depending on text wrapping settings.
+* Table positioning properties only take effect when the document is rendered in a layout-aware context (such as PDF export or print preview).
+
+## Related APIs
+
+- [Table.Alignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getAlignment)
+- [Table.RelativeHorizontalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeHorizontalAlignment)
+- [Table.RelativeVerticalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeVerticalAlignment)
+- [Table.HorizontalAnchor](https://reference.aspose.com/words/java/com.aspose.words/table/#getHorizontalAnchor)
+- [Table.VerticalAnchor](https://reference.aspose.com/words/java/com.aspose.words/table/#getVerticalAnchor)
+- [Table.AbsoluteHorizontalDistance](https://reference.aspose.com/words/java/com.aspose.words/table/#getAbsoluteHorizontalDistance)
+- [Table.AbsoluteVerticalDistance](https://reference.aspose.com/words/java/com.aspose.words/table/#getAbsoluteVerticalDistance)
+- [Table.AllowOverlap](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowOverlap)
+- [Table.DistanceTop](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceTop)
+- [Table.DistanceBottom](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceBottom)
+- [Table.DistanceLeft](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceLeft)
+- [Table.DistanceRight](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceRight)

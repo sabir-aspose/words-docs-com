@@ -66,7 +66,7 @@ The following code example shows how to create a table with two rows where the 
 
 {{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "horizontal-merge.cs" >}}
 
-The following code example shows how to create a two‑column table where the cells in the first column are vertically merged:
+The following code example shows how to create a two-column table where the cells in the first column are vertically merged:
 
 {{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "vertical-merge.cs" >}}
 

@@ -13,6 +13,14 @@ url: /java/split-table/
 timestamp: 2024-01-27-14-07-04
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to split a table into multiple tables.
+
+{{% /alert %}}
+
 A table, represented in the Aspose.Words Document Object Model, is made up of independent rows and cells, making it easy to split a table.
 
 To manipulate a table to split it into two tables, we just need to move some of the rows from the original table to the new one. To do this, we need to pick the row by which we want to split the table.
@@ -26,7 +34,22 @@ The following code example shows how to split a table into two tables on a speci
 
 {{< gist "aspose-words-gists" "ff5affdcea04dcd20d1b872f9503dbfe" "split-table.java" >}}
 
------- 
+## Limitations and Considerations
+
+- **Merged cells**: If a cell spans rows that are divided between the two tables, Aspose.Words will automatically adjust the cell's `RowSpan` so that each table contains a valid cell structure. Cells that no longer span the required rows are split into separate cells.
+
+- **Formatting preservation**: The formatting applied to rows, cells, and the table itself is retained because the rows are moved, not recreated. Any style or direct formatting on the moved rows remains unchanged in the new table.
+
+- **Pagination effects**: Aspose.Words recalculates pagination automatically after the table structure changes. To avoid unexpected pagination shifts, perform the split operation before any layout-dependent processing (e.g., before saving or printing).
+
+## Related APIs
+
+
+- [`Table`](https://reference.aspose.com/words/java/com.aspose.words/table/)
+- [`Row`](https://reference.aspose.com/words/java/com.aspose.words/row/)
+- [`Cell`](https://reference.aspose.com/words/java/com.aspose.words/cell/)
+- [`DocumentBuilder`](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)
+- [`NodeCollection`](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/)
 
 ## FAQ
 

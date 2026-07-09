@@ -13,6 +13,14 @@ url: /java/working-with-markdown-features/
 timestamp: 2024-01-31-14-23-37
 ---
 
+{{% alert color="grey" %}}
+
+## Purpose Summary
+
+This page explains how to work with Markdown features when loading or saving Markdown.
+
+{{% /alert %}}
+
 This topic discusses how to implement Markdown features using Aspose.Words. Markdown is a simple way to format plain text that can easily be converted to HTML. Aspose.Words supports the following Markdown features:
 
 - Headings
@@ -23,17 +31,16 @@ This topic discusses how to implement Markdown features using Aspose.Words. Mark
 
 The Markdown feature implementation mostly follows the `CommonMark` specification in Aspose.Words API and all the features are represented as corresponding styles or direct formatting. Which means that
 
-- Bold and Italic are represented as `Font.Bold` and `Font.Italic`. 
-- Headings are paragraphs with Heading 1 - Heading 6 styles. 
-- Quotes are paragraphs with "Quote" in the style name. 
-- HorizontalRule is a paragraph with a `HorizontalRule` shape.
+- Bold and Italic are accessed via `font.getBold()` / `font.setBold(true)` and `font.getItalic()` / `font.setItalic(true)`.
+- Headings are paragraphs with Heading 1 – Heading 6 styles.
+- Quotes are paragraphs whose style name contains "Quote".
+- HorizontalRule is a paragraph that contains a HorizontalRule shape.
 
 {{% alert color="primary" %}}
 
 There are nuances of translating Markdown to the Aspose.Words Document Object Model (DOM), described in the article [Translate Markdown to Document Object Model (DOM)](/words/java/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
-
 
 ## Markdown Document with Emphases
 
@@ -42,13 +49,12 @@ This section demonstrates you how to produce a markdown document with emphases a
 {{< highlight csharp >}}
 Markdown treats asterisks (*) and underscores (_) as indicators of emphasis.
 You can write **bold** or *italic* text. 
-You can also write ***BoldItalic***text.
+You can also write ***BoldItalic*** text.
 {{< /highlight >}}
 
-The following code snippet can be used to produce the above-given markdown document.
+The following code snippet can be used to produce the above given markdown document.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-MarkdownDocumentWithEmphases.java" >}}
-
+{{< gist "aspose-words-gists" "50b2b6a8785c07713e7c09d772e9a396" "emphases.java" >}}
 
 ## Markdown Document with Headings
 
@@ -67,48 +73,40 @@ The following produces headings:
 
 The following code snippet can be used to produce the above given markdown document.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-MarkdownDocumentWithHeadings.java" >}}
+{{< gist "aspose-words-gists" "4d42109bdf7df29c28ebfe1550c8e259" "heading.java" >}}
 
 ## Markdown Document with Block Quotes
 
 This section demonstrates you how to produce a markdown document with block quotes as given below:
 
 {{< highlight csharp >}}
-We support blockquotes in Markdown:
->*Lorem*
->*ipsum*
->The quotes can be of any level and can be nested:
->>>Quote level 3
->>>
->>>>Nested quote level 4
->
->*Back to first level*
->### Headings are allowed inside Quotes
+> *Blockquote*
+>> *1. Nested blockquote*
+>>
 >{{< /highlight >}}
 
 The following code snippet can be used to produce the above given markdown document.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-MarkdownDocumentWithBlockQuotes.java" >}}
+{{< gist "aspose-words-gists" "4d42109bdf7df29c28ebfe1550c8e259" "quote.java" >}}
 
 ## Markdown Document with Horizontal Rule
 
 This section demonstrates you how to produce a markdown document with Horizontal Rule as given below:
 
 {{< highlight csharp >}}
-We support Horizontal rules (Thematic breaks) in Markdown:
+Insert a horizontal rule shape into the document.
 -----
-
 {{< /highlight >}}
 
-The following code snippet can be used to produce the above-given markdown document.
+The following code snippet can be used to produce the above given markdown document.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-MarkdownDocumentWithHorizontalRule.java" >}}
+{{< gist "aspose-words-gists" "ae9835338c044aaa3ac54592b7062db8" "insert-horizontal-rule.java" >}}
 
 ## Reading a Markdown Document
 
 The following code snippet shows you how to read a markdown document.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-ReadMarkdownDocument.java" >}}
+{{< gist "aspose-words-gists" "50b2b6a8785c07713e7c09d772e9a396" "read-markdown-document.java" >}}
 
 ## Specify Markdown Save Options
 
@@ -116,15 +114,13 @@ Aspose.Words API provides [MarkdownSaveOptions](https://reference.aspose.com/wo
 
 The following code example demonstrated how to specify various Markdown save options.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-SaveAsMD.java" >}}
+{{< gist "aspose-words-gists" "642767bbe8d8bec8eab080120b707990" "images-folder.java" >}}
 
 ## How to Align Content Inside the Table while Exporting into Markdown
 
-Aspose.Words API provides [TableContentAlignment](https://reference.aspose.com/words/java/com.aspose.words.tablecontentalignment/) enumeration which defines alignment directions to align contents in tables while exporting into the Markdown document. The following code example demonstrates how to align content inside the table.
+Aspose.Words API provides [TableContentAlignment](https://reference.aspose.com/words/java/com.aspose.words.tablecontentalignment/) enumeration which defines alignment directions to align contents in tables while exporting into the Markdown document. The following code example demonstrates how to align content inside the table.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-ExportIntoMarkdownWithTableContentAlignment.java" >}}
-
------- 
+{{< gist "aspose-words-gists" "50b2b6a8785c07713e7c09d772e9a396" "markdown-table-content-alignment.java" >}}
 
 ## FAQ
 
