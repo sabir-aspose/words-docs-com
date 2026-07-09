@@ -161,6 +161,100 @@ build:
       echo "Markdown: $(find "$DOCS_BUILD_OUTPUT" -name '*.md' | wc -l)"
       echo "HTML:     $(find "$DOCS_BUILD_OUTPUT" -name '*.html' | wc -l)"
 
+    - |
+      echo "===== POST-PROCESSING MARKDOWN ====="
+
+      while IFS= read -r file; do
+
+          # HTML → Markdown
+          sed -i -E 's|<div class="card-group">||g' "$file"
+          sed -i -E 's|<div class="container">||g' "$file"
+          sed -i -E 's|</div>||g' "$file"
+
+          # card → link
+          sed -i -E ':a;N;$!ba;s|<a href="([^"]+)">[^<]*<h3>([^<]+)</h3>[^<]*<p>([^<]+)</p>|\[\2\](\1) - \3|g' "$file"
+
+          # highlight → fenced code block
+          sed -i -E 's|\{\{< *highlight +([a-zA-Z0-9]+) *>}}|```\1|g' "$file"
+          sed -i -E 's|\{\{< */highlight *>}}|```|g' "$file"
+
+          # hr-first
+          sed -i -E 's|\{\{< *hr-first *>}}|---|g' "$file"
+
+          # quote
+          sed -i -E 's|\{\{% *quote *%}}|> |g' "$file"
+          sed -i -E 's|\{\{% */quote *%}}||g' "$file"
+
+          # alerts
+          sed -i -E 's|\{\{% *alert[^%]*%}}|```|g' "$file"
+          sed -i -E 's|\{\{% */alert[^%]*%}}|```|g' "$file"
+
+          # img
+          sed -i -E 's|<img[^>]*src="([^"]+)"[^>]*alt="([^"]+)"[^>]*/?>|![\2](\1)|g' "$file"
+
+          # i
+          sed -i -E 's|<i[^>]*>[^<]*</i>|* |g' "$file"
+
+          # span
+          sed -i -E 's|<span[^>]*>||g' "$file"
+          sed -i -E 's|</span>||g' "$file"
+
+          # strong
+          sed -i -E 's|<strong>|**|g' "$file"
+          sed -i -E 's|</strong>|**|g' "$file"
+
+          # links
+          sed -i -E 's|<a href="([^"]*)">|\1 - |g' "$file"
+          sed -i -E 's|</a>||g' "$file"
+
+          # api download button
+          sed -i -E 's#<p id="api-button-id">[[:space:]]*<a href="([^"]+)".*>(⬇[[:space:]]*)?([^<]+)</a>[[:space:]]*</p>#(\3)[\1]#g' "$file"
+
+          # typography
+          sed -i -E 's/[“”]/"/g' "$file"
+          sed -i -E 's/[–—]/-/g' "$file"
+          sed -i -E 's/→/-/g' "$file"
+
+          # ul
+          sed -i -E 's|<ul[^>]*>||g' "$file"
+          sed -i -E 's|</ul>||g' "$file"
+
+          # u
+          sed -i -E 's|<u[^>]*>||g' "$file"
+          sed -i -E 's|</u>||g' "$file"
+
+          # li
+          sed -i -E 's|<li[^>]*>||g' "$file"
+          sed -i -E 's|</li>||g' "$file"
+
+          # b
+          sed -i -E 's|<b[^>]*>||g' "$file"
+          sed -i -E 's|</b>||g' "$file"
+
+          # br
+          sed -i -E 's|<br[[:space:]]*/?>|\n|g' "$file"
+          sed -i -E 's|</br>|\n|g' "$file"
+
+          # alert icon
+          sed -i -E 's|<sup class="alert-icon">||g' "$file"
+          sed -i -E 's|</sup>||g' "$file"
+
+          # normalize encoding
+          iconv -f UTF-8 -t UTF-8 "$file" > "$file.tmp" && mv "$file.tmp" "$file"
+
+          # cleanup
+          perl -i -pe 's/\r//g; s/[ \t]+$//;' "$file"
+          perl -i -0777 -pe 's/\n{3,}/\n\n/g' "$file"
+
+      done < <(find "$DOCS_BUILD_OUTPUT" -type f -name "*.md")
+
+     - |
+      echo "===== FINAL CLEANUP ====="
+
+      while IFS= read -r file; do
+          sed -i -E '/^[[:space:]]+$/d' "$file"
+      done < <(find "$DOCS_BUILD_OUTPUT" -type f -name "*.md")
+
     - echo "Compressing generated documentation..."
     - cd $CI_HOME_FOLDER
     - mkdir -p $DOCS_BUILD_OUTPUT_ARCHIVE
