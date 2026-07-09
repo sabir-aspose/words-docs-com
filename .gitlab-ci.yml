@@ -244,7 +244,7 @@ build:
 
       done < <(find "$DOCS_BUILD_OUTPUT" -type f -name "*.md")
 
-     - |
+    - |
       echo "===== FINAL CLEANUP ====="
 
       while IFS= read -r file; do
