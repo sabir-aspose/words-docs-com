@@ -125,17 +125,13 @@ build:
     - mkdir -p $DOCS_TEMPLATE_CONTAINER_PATH
     - cd $DOCS_TEMPLATE_CONTAINER_PATH
     - echo "Fetch docs template repository..."
-    - git clone --depth $GIT_DEPTH
-      https://$DOCS_TEMPLATE_PROJECT_NAME:$DOCS_TEMPLATE_CI_CD_ACCESS_TOKEN@$DOCS_TEMPLATE_GIT_URL
-      .
+    - git clone --depth $GIT_DEPTH https://$DOCS_TEMPLATE_PROJECT_NAME:$DOCS_TEMPLATE_CI_CD_ACCESS_TOKEN@$DOCS_TEMPLATE_GIT_URL .
     - echo "Checkout template $DOCS_TEMPLATE_BRANCH_NAME branch..."
     - git checkout $DOCS_TEMPLATE_BRANCH_NAME
 
-    - echo "Currently on docs template checked out $(git rev-parse HEAD)
-      revision"
+    - echo "Currently on docs template checked out $(git rev-parse HEAD) revision"
     - echo "Replace content path in the docs.aspose.com-words.toml..."
-    - sed -i "s|../md-words|$CI_PROJECT_DIR|g"
-      ./configs/docs.aspose.com-words.toml
+    - sed -i "s|../md-words|$CI_PROJECT_DIR|g" ./configs/docs.aspose.com-words.toml
     - echo "Current directory $(pwd)"
     - echo "Intalling project dependencies..."
     # - npm config set strict-ssl false
@@ -258,10 +254,8 @@ build:
     - echo "Compressing generated documentation..."
     - cd $CI_HOME_FOLDER
     - mkdir -p $DOCS_BUILD_OUTPUT_ARCHIVE
-    - tar --warning=all -czvf $DOCS_FULL_ARCHIVE_NAME
-      ./$DOCS_BUILD_OUTPUT_FOLDER > /dev/null
-    - mv ./$DOCS_FULL_ARCHIVE_NAME
-      $DOCS_BUILD_OUTPUT_ARCHIVE/$DOCS_FULL_ARCHIVE_NAME
+    - tar --warning=all -czvf $DOCS_FULL_ARCHIVE_NAME ./$DOCS_BUILD_OUTPUT_FOLDER > /dev/null
+    - mv ./$DOCS_FULL_ARCHIVE_NAME $DOCS_BUILD_OUTPUT_ARCHIVE/$DOCS_FULL_ARCHIVE_NAME
     - echo "Documentation compressed."
   artifacts:
     paths:
