@@ -22,7 +22,7 @@ for example, a JSON file as follows:
 {{< include html-inserting-data.json >}}
 {{< /highlight >}}
 
-2. In Microsoft Word, create a template document and bind the source of HTML to be inserted to an html-string value by adding
+2. In Microsoft Word, create a template document and bind the source of HTML to be inserted to an HTML-string value by adding
 an `html` tag or an expression tag with an `html` switch at a position within the template's text where to insert HTML, for
 instance, like so:
 {{< highlight "c#" >}}
@@ -88,7 +88,7 @@ for example, a JSON file as follows:
 {{< include html-inserting-with-source-styles-keeping-data.json >}}
 {{< /highlight >}}
 
-2. In Microsoft Word, create a template document and bind the source of HTML to be inserted to an html-string value by adding
+2. In Microsoft Word, create a template document and bind the source of HTML to be inserted to an HTML-string value by adding
 an `html` tag with a `sourceStyles` switch at a position within the template's text where to insert HTML, for instance, like so:
 {{< highlight "c#" >}}
 <<html [statusHtml] -sourceStyles>>

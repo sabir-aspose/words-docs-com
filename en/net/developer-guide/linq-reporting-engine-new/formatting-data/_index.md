@@ -16,7 +16,7 @@ their respective formatting in a template document, and filling the template wit
 \
 <img src="formatting-data.png"
   alt="Formatting data using LINQ Reporting Engine in C#."
-  style="width:864px"/>
+  style="width:868px"/>
 
 The process of building a report with formatted values incorporates the following steps:
 
