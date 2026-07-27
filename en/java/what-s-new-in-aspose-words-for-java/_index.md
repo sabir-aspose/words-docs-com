@@ -10,7 +10,7 @@ ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /java/what-s-new-in-aspose-words-for-java/
-timestamp: 2026-06-24-11-12-25
+timestamp: 2026-07-27-11-12-25
 ---
 
 {{% alert color="grey" %}}
@@ -23,12 +23,13 @@ This page lists the most notable new features and enhancements introduced in rec
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Java 26.5, 26.6
+## Aspose.Words for Java 26.5, 26.6, 26.7
 
 Aspose.Words 26.5 introduces new digital signing and document importing capabilities, improves HTML and field rendering, and enhances support for AAT-enabled fonts in fixed-page output formats.
 
 Aspose.Words 26.6 expands document customization capabilities, and improves PDF export quality and form field handling. This release also enhances table layout rendering and PDF hyphenation behavior.
 
+Aspose.Words 26.7 introduces document readability statistics, expands PDF export capabilities, and improves rendering for mathematical equations, OLE objects, textboxes, and repeated table headers.
 
 ### Converting, Loading, and Saving Documents
 
@@ -38,17 +39,27 @@ Aspose.Words 26.6 expands document customization capabilities, and improves PDF 
 * Support for JavaScript triggers for date/time fields in PDF AcroForms forms has been introduced. This makes exported forms more interactive and responsive. <sup>26.6</sup>
 * Hyphenation rendering has been improved. If the font does not contain an optional hyphen (U+00AD), a visual hyphen is now automatically used, while the text remains fully searchable. <sup>26.6</sup>
 * The overall quality of PDF output has been improved by fully preserving date picker content controls. <sup>26.6</sup>
+* The ability to export numbering fields as PDF AcroForms has been introduced when rendering documents to PDF. <sup>26.7</sup>
+* Link annotation joining has been implemented for tagged PDF output to improve accessibility and document structure. <sup>26.7</sup>
 
 ### Rendering
 
-#### EQ Fields <sup>26.5</sup>
-
-* Support for Far East vertical orientation in HTML within EQ fields has been introduced.
-* Improved visual rendering of the EQ field’s frame has been implemented.
+#### EQ Fields
+* Support for Far East vertical orientation in HTML within EQ fields has been introduced. <sup>26.5</sup>
+* Improved visual rendering of the EQ field’s frame has been implemented. <sup>26.5</sup>
+* The rendering of OLE objects within EQ fields has been implemented. <sup>26.7</sup>
 
 #### AAT-enabled Fonts <sup>26.5</sup>
 
 Improved handling of AAT-enabled fonts when rendering to fixed-page formats has been implemented.
+
+#### Repeated Table Header Row Handling <sup>26.7</sup>
+
+Repeated table header row handling has been improved to provide more accurate document layout during rendering.
+
+#### Alternative Text for Inner Shapes <sup>26.7</sup>
+
+The rendering of alternative text for inner shapes contained in textboxes has been implemented.
 
 ### Other
 
@@ -58,12 +69,17 @@ Improved handling of AAT-enabled fonts when rendering to fixed-page formats has 
 * The bc-fips library has been updated to version 2.1.2. <sup>26.5</sup>
 * The ability to clear custom toolbars and keyboard shortcuts from a document has been introduced by adding a [new method](https://reference.aspose.com/words/java/com.aspose.words/document/#removeCustomizations) for resetting and protecting document settings. <sup>26.6</sup>
 * The handling of repeated table header rows has been improved to provide more consistent rendering and layout in multi-page tables. <sup>26.6</sup>
+* The ability to calculate **Flesch Reading Ease** and **Flesch-Kincaid Grade Level** readability statistics for document text has been introduced by adding the **ReadabilityStatistics** class. <sup>26.7</sup>
+* The ability to clear a custom tab stop from a list level has been introduced by adding a new **RemoveTabStop** method. <sup>26.7</sup>
+* The wrapping algorithm for mathematical equations has been improved to provide more accurate rendering of complex formulas. <sup>26.7</sup>
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for Java 26.5 Release Notes](https://releases.aspose.com/words/java/release-notes/2026/aspose-words-for-java-26-5-release-notes/).
 
 Learn more about [Aspose.Words for Java 26.6 Release Notes](https://releases.aspose.com/words/java/release-notes/2026/aspose-words-for-java-26-6-release-notes/).
+
+Learn more about [Aspose.Words for Java 26.7 Release Notes](https://releases.aspose.com/words/java/release-notes/2026/aspose-words-for-java-26-7-release-notes/).
 
 {{% /alert %}}
 
