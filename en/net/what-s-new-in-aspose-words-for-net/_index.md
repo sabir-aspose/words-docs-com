@@ -10,7 +10,7 @@ ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
 url: /net/what-s-new-in-aspose-words-for-net/
-timestamp: 2026-07-27-11-12-25
+timestamp: 2026-08-11-11-12-25
 ---
 
 {{% alert color="grey" %}}
@@ -23,13 +23,15 @@ This page explains what’s new in recent Aspose.Words for .NET releases.
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for .NET 26.5, 26.6, 26.7
+## Aspose.Words for .NET 26.5, 26.6, 26.7, 26.8
 
 Aspose.Words 26.5 introduces new digital signing and document importing capabilities, improves HTML and field rendering, and enhances support for AAT-enabled fonts in fixed-page output formats.
 
 Aspose.Words 26.6 introduces printing support for Windows-specific .NET target frameworks, expands document customization capabilities, and improves PDF export quality and form field handling. This release also enhances table layout rendering and PDF hyphenation behavior.
 
 Aspose.Words 26.7 introduces document readability statistics, expands PDF export capabilities, and improves rendering for mathematical equations, OLE objects, textboxes, and repeated table headers.
+
+Aspose.Words 26.8 expands digital signature capabilities with support for post-quantum ML-DSA certificates, adds control over XPS compression, and improves PDF export reliability. The release also enhances MathML rendering for inline fractions and improves handling of corrupted JPEG images during PDF export.
 
 ### Converting, Loading, and Saving Documents
 
@@ -41,6 +43,11 @@ Aspose.Words 26.7 introduces document readability statistics, expands PDF export
 * The overall quality of PDF output has been improved by fully preserving date picker content controls. <sup>26.6</sup>
 * The ability to export numbering fields as PDF AcroForms has been introduced when rendering documents to PDF. <sup>26.7</sup>
 * Link annotation joining has been implemented for tagged PDF output to improve accessibility and document structure. <sup>26.7</sup>
+* Improved handling of corrupted JPEG images during PDF export has been introduced through advanced image validation and automatic reprocessing. <sup>26.8</sup>
+
+#### Compression Level When Exporting to XPS <sup>26.8</sup>
+
+The ability to control the compression level of XPS output has been introduced by adding the [CompressionLevel](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/compressionlevel/) property.
 
 ### Rendering
 
@@ -75,6 +82,8 @@ The rendering of alternative text for inner shapes contained in textboxes has be
 * The ability to calculate **Flesch Reading Ease** and **Flesch-Kincaid Grade Level** readability statistics for document text has been introduced by adding the [ReadabilityStatistics](https://reference.aspose.com/words/net/aspose.words/readabilitystatistics/) class. <sup>26.7</sup>
 * The ability to clear a custom tab stop from a list level has been introduced by adding a new [RemoveTabStop](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/removetabstop/) method. <sup>26.7</sup>
 * The wrapping algorithm for mathematical equations has been improved to provide more accurate rendering of complex formulas. <sup>26.7</sup>
+* Support for post-quantum PFX certificates based on ML-DSA has been introduced by [enhancing the digital signature functionality](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/) to allow documents to be signed with post-quantum certificates. <sup>26.8</sup>
+* Improved rendering of inline fractions in MathML objects has been introduced to provide more accurate rendering of mathematical content. <sup>26.8</sup>
 
 {{% alert color="primary" %}}
 
@@ -83,6 +92,8 @@ Learn more about [Aspose.Words for .NET 26.5 Release Notes](https://releases.asp
 Learn more about [Aspose.Words for .NET 26.6 Release Notes](https://releases.aspose.com/words/net/release-notes/2026/aspose-words-for-net-26-6-release-notes/).
 
 Learn more about [Aspose.Words for .NET 26.7 Release Notes](https://releases.aspose.com/words/net/release-notes/2026/aspose-words-for-net-26-7-release-notes/).
+
+Learn more about [Aspose.Words for .NET 26.8 Release Notes](https://releases.aspose.com/words/net/release-notes/2026/aspose-words-for-net-26-8-release-notes/).
 
 {{% /alert %}}
 
