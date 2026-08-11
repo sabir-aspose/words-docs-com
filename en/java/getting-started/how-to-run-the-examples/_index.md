@@ -63,18 +63,19 @@ If you like to add or improve an example, we encourage you to contribute to the 
 
 To contribute, you can fork the repository, edit the source code and create a pull request. We will review the changes and include it in the repository if found helpful.
 
------- 
+------
 
 ## FAQ
+
 
 1. **Q:** How can I build and run the Aspose.Words for Java examples from the command line?  
    **A:** Open a terminal in the root folder of the cloned repository and execute `mvn clean compile exec:java -Dexec.mainClass=com.aspose.words.examples.<ExampleClass>`. Maven will download all required dependencies, compile the sources, and launch the specified example class.
 
 2. **Q:** Which Java Development Kit (JDK) version is required for the examples?  
-   **A:** The examples target JDK 8 or higher. Using a recent JDK (e.g., 11, 17) is recommended to avoid compatibility warnings and to benefit from the latest language features.
+   **A:** The examples target JDK 8 or higher. Using a recent LTS JDK (e.g., 11, 17) is recommended to avoid compatibility warnings and to benefit from the latest language features and performance improvements.
 
 3. **Q:** Do I need a license file to run the example projects?  
-   **A:** A license is not mandatory for running the examples; they work in evaluation mode with limited functionality (e.g., watermarks). To test full features, place a valid `Aspose.Words.Java.lic` file in the project’s root or set the license programmatically as shown in the “Licensing” example.
+   **A:** A license is not mandatory for running the examples; they work in evaluation mode with limited functionality (e.g., watermarks). To test full features, place a valid `Aspose.Words.Java.lic` file in the project's root directory or set the license programmatically as shown in the “Licensing” example.
 
 4. **Q:** How do I run a specific example in IntelliJ IDEA, Eclipse, or NetBeans?  
    **A:** Locate the Java class that contains the `main` method for the desired example (under `src/main/java/com/aspose/words/examples`). Right‑click the class and choose **Run** (IntelliJ/Eclipse) or **Run File** (NetBeans). The IDE will compile the class and display the console output.

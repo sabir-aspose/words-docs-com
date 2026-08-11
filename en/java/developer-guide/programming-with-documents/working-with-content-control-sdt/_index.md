@@ -126,6 +126,8 @@ The following code example shows how to bind a repeating section content contro
 
 {{< gist "aspose-words-gists" "e21394fa5fe859b6608b088a91bc7a7c" "repeating-section-mapped-to-custom-xml-part.java" >}}
 
+------
+
 ## FAQ
 
 1. **Q:** How can I create a checkbox content control in Java?  
@@ -138,7 +140,14 @@ The following code example shows how to bind a repeating section content contro
    **A:** Create a `CustomXmlPart`, add it to the document (`document.getCustomXmlParts().add(customXmlPart);`), then call `structuredDocumentTag.setXmlMapping(customXmlPart, "/Root/Element", null);` to map the control to the XML node.
 
 4. **Q:** How can I change the background or border color of a content control?  
-   **A:** Set the `StructuredDocumentTag.setColor(java.awt.Color)` property. The color is used for the hover background and the border when the control is active.
+   **A:** Set the `StructuredDocumentTag.getColor()` / `StructuredDocumentTag.setColor(java.awt.Color)` properties. The color affects hover background and active border highlighting.
 
 5. **Q:** How can I specify the display format for a date content control?  
    **A:** Use `structuredDocumentTag.setDateDisplayFormat("MM/dd/yyyy");` to define the format string that Word will use to display the date value. This does not affect the underlying date value stored in the XML.
+
+
+6. **Q:** How can I clear the contents of a content control while preserving its placeholder? 
+   **A:** Call `structuredDocumentTag.clear()`. If a placeholder is defined, it will be displayed; otherwise, five spaces are inserted (unless it's a repeating section, group, checkbox, or citation).
+
+7. **Q:** Can I apply any style to a content control?  
+   **A:** Only Linked or Character styles can be applied using `StructuredDocumentTag.setStyle(Style)` or `setStyleName(String)`. Attempting to apply non-linked/character styles throws `InvalidOperationException`.
