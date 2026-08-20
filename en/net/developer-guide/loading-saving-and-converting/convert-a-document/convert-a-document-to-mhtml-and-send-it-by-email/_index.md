@@ -37,11 +37,8 @@ The following code example shows how to convert any document to MHTML and send i
 2. **Q:** Do I need a separate license for Aspose.Email when sending the MHTML file?  
    **A:** Yes. Aspose.Words handles the conversion, while Aspose.Email is a separate product used for SMTP operations. Both products require their own valid licenses.
 
-3. **Q:** Can I customize the MIME type or encoding of the MHTML attachment?  
-   **A:** After saving the document as MHTML (`document.Save("output.mht", SaveFormat.Mhtml)`), you can create an `Aspose.Email.MailMessage`, set the `ContentType` of the attachment, and specify the desired charset before sending.
-
-4. **Q:** Is it possible to convert a document to MHTML without loading the entire file into memory?  
+3. **Q:** Is it possible to convert a document to MHTML without loading the entire file into memory?  
    **A:** Yes. You can open the source document from a stream (`Document doc = new Document(stream)`) and save it directly to a stream in MHTML format, which reduces memory usage for large files.
 
-5. **Q:** How can I ensure the generated MHTML preserves the original document’s fonts and images?  
+4. **Q:** How can I ensure the generated MHTML preserves the original document’s fonts and images?  
    **A:** Aspose.Words embeds referenced resources (fonts, images, CSS) into the MHTML file automatically. Ensure the source document has access to the required resources, or embed them manually using `Document.FontSettings` before saving.

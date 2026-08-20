@@ -40,3 +40,7 @@ The Asian Typography tab of the paragraph properties dialog box in Microsoft Wor
 The following code example shows how to use these properties:
 
 {{< gist "aspose-words-gists" "4f54ffd5c7580f0d146b53e52d986f38" "asian-typography-line-break-group.cs" >}}
+
+## Related APIs
+
+- [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat/)

@@ -120,6 +120,3 @@ The following code example shows how to add a mapped field using the [Add](https
 
 4. **Q:** What is the difference between the **NextIf** and **SkipIf** fields?  
    **A:** `NextIf` merges the next record into the current document only when the specified condition evaluates to true; otherwise it starts a new document. `SkipIf` cancels the current document and moves to the next record when the condition is true, effectively skipping the current record.
-
-5. **Q:** How can I merge multiple records into a single document instead of creating separate documents for each record?  
-   **A:** Insert a `Next` field (or `NextIf` with a true condition) at the point where you want the next record to continue in the same document. During the mail merge, Aspose.Words will use this field to concatenate records rather than starting a new document for each one.
