@@ -56,7 +56,7 @@ The following code example shows how to create a preview of the first document p
    **A:** Aspose.Words supports JPEG, PNG, BMP, GIF, TIFF, and EMF/WMF when using `ImageSaveOptions`. The `SaveFormat` enumeration lists all available formats.
 
 3. **Q:** How can I convert only specific pages of a document to images?  
-   **A:** Set the `PageSet` property of `ImageSaveOptions` to a `PageSet` that defines the required pages, e.g., `saveOptions.PageSet = new PageSet(1, 3);` to export pages 1‑3 only.
+   **A:** Set the `PageSet` property of `ImageSaveOptions` to a `PageSet` that defines the required pages, e.g., `saveOptions.PageSet = new PageSet(1, 5);` to export pages 1‑5 only.
 
 4. **Q:** What options are available to control image quality and resolution?  
    **A:** Use properties such as `JpegQuality` (0‑100), `HorizontalResolution`, `VerticalResolution`, `Resolution`, `Scale`, and `PixelFormat`. Adjusting these values lets you balance file size and visual fidelity.
