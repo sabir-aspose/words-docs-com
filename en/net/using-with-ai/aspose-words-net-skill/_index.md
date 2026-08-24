@@ -92,7 +92,7 @@ This file acts as the entry point and helps the model discover the rest of the d
 
 1. Download the Aspose.Words for .NET Skill package:
 
-    <p id="api-button-id"><a href="https://docs.aspose.com/words/net/using-with-ai/aspose-words-net-skill/aspose-words-net-skill.zip" class="api-button"><strong>⬇ Download</strong> | aspose-words-net-skill.zip</a></p>
+    <p id="api-button-id"><a href="https://docs.aspose.com/words/net/aspose-words-net-skill/aspose-words-net-skill.zip" class="api-button"><strong>⬇ Download</strong> | aspose-words-net-skill.zip</a></p>
 
 2. Extract the content of archive into `skills` folder (generally, it is `.agents/skills/`)
 3. Place the extracted folder inside your coding agent knowledge directory.
