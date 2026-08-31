@@ -31,7 +31,7 @@ To encrypt a document, use the **Password** property to provide a password that 
 
 {{% alert color="primary" %}}
 
-You can find the appropriate **Password** property for the required format. Each document save format in the [Password](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/#getPassword) has a corresponding class containing save options for this format. For example, the [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) property in the [Password](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/#getPassword) class for DOC, or the [OoxmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/) property in the [OoxmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/) class for DOCX, DOCM, DOTX, DOTM, and FlatOpc.
+You can find the appropriate **Password** property for the required format. Each document save format in the [Password](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/#getPassword) has a corresponding class containing save options for this format. For example, the [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) property in the [Password](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/#getPassword) class for DOC, or the [Password](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/#getPassword) property in the [OoxmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/) class for DOCX, DOCM, DOTX, DOTM, and FlatOpc.
 
 {{% /alert %}}
 

@@ -57,7 +57,7 @@ The following subsections describe the options during which you can insert one d
 
 ### Insert a Document During Find and Replace Operation {#insert-a-document-during-find-and-replace-operation}
 
-You can insert documents while performing find and replace operations. For example, a document can contain paragraphs with the text [INTRODUCTION] and [CONCLUSION]. But in the final document, you need to replace those paragraphs with the content obtained from another external document. To achieve that, you will need to create a handler for the replace event.
+You can insert documents while performing find and replace operations. For example, a document can contain paragraphs with the text `INTRODUCTION` and `CONCLUSION`. But in the final document, you need to replace those paragraphs with the content obtained from another external document. To achieve that, you will need to create a handler for the replace event.
 
 The following code example shows how to create a handler for the replacing event to use it later in the inserting process:
 
@@ -69,7 +69,7 @@ The following code example shows how insert content of one document into another
 
 ### Insert a Document During Mail Merge Operation {#insert-a-document-during-mail-merge-operation}
 
-You can insert a document into a merge field during a Mail Merge operation. For example, a Mail Merge template can contain a merge field such as [Summary]. But in the final document, you need to insert content obtained from another external document into this merge field. To achieve that, you will need to create a handler for the merge event.
+You can insert a document into a merge field during a Mail Merge operation. For example, a Mail Merge template can contain a merge field such as `Summary`. But in the final document, you need to insert content obtained from another external document into this merge field. To achieve that, you will need to create a handler for the merge event.
 
 The following code example shows how to create a handler for the merging event to use it later in the inserting process:
 
