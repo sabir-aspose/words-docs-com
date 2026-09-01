@@ -5,7 +5,7 @@ articleTitle: Using With AI
 linktitle: Using With AI
 description: "How to use LLM's to explore Aspose.Words for Java documentation: options and use cases."
 type: docs
-weight: 12
+weight: 3
 ai_search_scope: words_java
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
 ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
@@ -22,6 +22,10 @@ This documentation section explains how to use LLM's to explore Aspose.Words for
 {{% /alert %}}
 
 AI-powered coding assistants are transforming how developers work with technical documentation. Instead of manually searching through documentation pages, you can provide an LLM with direct access to the Aspose.Words knowledge base to receive more accurate answers and code examples.
+
+This section explains:
+
+1. [How to use the Aspose.Words documentation skill](/words/java/aspose-words-java-skill/) to improve the quality and relevance of AI-generated responses
 
 ------
 
