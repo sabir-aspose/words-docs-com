@@ -20,6 +20,9 @@ timestamp: 2026-02-03-11-08-55
 *Purpose Summary. What is this page about?*
 
 This page explains how to create and manage tables in a Word document using Aspose.Words for Python via .NET, covering methods such as DocumentBuilder, direct DOM manipulation, inserting HTML, and cloning existing tables, with code examples and a comparison of each approach.
+
+{{% /alert %}}
+
 Aspose.Words allows users to create tables in a document from scratch and provides several different methods for doing so. This article presents details on how to add formatted tables to your document using each method, as well as a comparison of each method at the end of the article.
 
 ## Default Table Styles
