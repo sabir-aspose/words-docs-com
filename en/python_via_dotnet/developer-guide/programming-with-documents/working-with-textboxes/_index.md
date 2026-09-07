@@ -24,7 +24,7 @@ In Aspose.Words, the [TextBox](https://reference.aspose.com/words/python-net/asp
 
 ## Creating a Link
 
-The **TextBox** class provides [is_valid_link_target](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/is_valid_link_target/) method in order to check whether the **TextBox** can be linked to the target **Textbox**.
+The **TextBox** class provides [is_valid_link_target](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/is_valid_link_target/) method in order to check whether the **TextBox** can be linked to the target **Textbox**.
 
 The following code example shows how to check if the `TextBox` can be linked to the target Textbox:
 
@@ -34,7 +34,7 @@ The following code example shows how to check if the `TextBox` can be linked to 
 
 There are several ways to display text in a shape. The [text_box](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/text_box/) can be the Head, Middle, or Tail of a sequence.
 
-The following code example shows how to check if **TextBox** is a Head, Tail, or Middle of the sequence:
+The following code example shows how to check if **TextBox** is a Head, Tail, or Middle of the sequence:
 
 {{< gist "aspose-words-gists" "eadb3e26bd09add56cb529cd7a0b1c25" "check-sequence.py" >}}
 

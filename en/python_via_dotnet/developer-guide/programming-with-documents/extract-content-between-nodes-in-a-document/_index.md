@@ -65,9 +65,9 @@ The code in this section addresses all of the possible situations described abov
 
 ## How to Extract Content
 
-To extract the content from your document you need to call the **extract_content** method below and pass the appropriate parameters. The underlying basis of this method involves finding block level nodes (paragraphs and tables) and cloning them to create identical copies. If the marker nodes passed are block level then the method is able to simply copy the content on that level and add it to the array.
+To extract the content from your document you need to call the **extract_content** method below and pass the appropriate parameters. The underlying basis of this method involves finding block level nodes (paragraphs and tables) and cloning them to create identical copies. If the marker nodes passed are block level then the method is able to simply copy the content on that level and add it to the array.
 
-However if the marker nodes are inline (a child of a paragraph) then the situation becomes more complex, as it is necessary to split the paragraph at the inline node, be it a run, bookmark fields etc. Content in the cloned parent nodes not present between the markers is removed. This process is used to ensure that the inline nodes will still retain the formatting of the parent paragraph. The method will also run checks on the nodes passed as parameters and throws an exception if either node is invalid. The parameters to be passed to this method are:
+However if the marker nodes are inline (a child of a paragraph) then the situation becomes more complex, as it is necessary to split the paragraph at the inline node, be it a run, bookmark fields etc. Content in the cloned parent nodes not present between the markers is removed. This process is used to ensure that the inline nodes will still retain the formatting of the parent paragraph. The method will also run checks on the nodes passed as parameters and throws an exception if either node is invalid. The parameters to be passed to this method are:
 
 1. **start_node** and **EndNode**. The first two parameters are the nodes which define where the extraction of the content is to begin and to end at respectively. These nodes can be both block level ([Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) , [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/)) or inline level (e.g [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) , [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/) , [BookmarkStart](https://reference.aspose.com/words/python-net/aspose.words.bookmarkstart/) etc.):
    1. To pass a field you should pass the corresponding **FieldStart** object
@@ -88,7 +88,7 @@ The following code example shows how to take a list of nodes and inserts them in
 
 ## Extract Content Between Paragraphs
 
-This demonstrates how to use the method above to extract content between specific paragraphs. In this case, we want to extract the body of the letter found in the first half of the document. We can tell that this is between the 7th and 11th paragraphs.
+This demonstrates how to use the method above to extract content between specific paragraphs. In this case, we want to extract the body of the letter found in the first half of the document. We can tell that this is between the 7th and 11th paragraphs.
 
 The code below accomplishes this task. The appropriate paragraphs are extracted using the [CompositeNode.get_child](https://reference.aspose.com/words/python-net/aspose.words/compositenode/get_child/) method on the document and passing the specified indices. We then pass these nodes to the **extract_content** method and state that these are to be included in the extraction. This method will return the copied content between these nodes which are then inserted into a new document.
 
@@ -104,7 +104,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ## Extract Content Between Different Types of Nodes
 
-We can extract content between any combinations of block-level or inline nodes. In this scenario below we will extract the content between first paragraph and the table in the second section inclusively. We get the markers nodes by calling [Body.first_paragraph](https://reference.aspose.com/words/python-net/aspose.words/story/first_paragraph/) and [CompositeNode.get_child](https://reference.aspose.com/words/python-net/aspose.words/compositenode/get_child/) methods on the second section of the document to retrieve the appropriate **Paragraph** and **Table** nodes. For a slight variation let’s instead duplicate the content and insert it below the original.
+We can extract content between any combinations of block-level or inline nodes. In this scenario below we will extract the content between first paragraph and the table in the second section inclusively. We get the markers nodes by calling [Body.first_paragraph](https://reference.aspose.com/words/python-net/aspose.words/story/first_paragraph/) and [CompositeNode.get_child](https://reference.aspose.com/words/python-net/aspose.words/compositenode/get_child/) methods on the second section of the document to retrieve the appropriate **Paragraph** and **Table** nodes. For a slight variation let’s instead duplicate the content and insert it below the original.
 
 The following code example shows how to extract the content between a paragraph and table using the **extract_content** method:
 
@@ -118,7 +118,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ## Extract Content Between Paragraphs Based on Style
 
-You may need to extract the content between paragraphs of the same or different style, such as between paragraphs marked with heading styles. The code below shows how to achieve this. It is a simple example which will extract the content between the first instance of the “Heading 1” and “Header 3” styles without extracting the headings as well. To do this we set the last parameter to false, which specifies that the marker nodes should not be included.
+You may need to extract the content between paragraphs of the same or different style, such as between paragraphs marked with heading styles. The code below shows how to achieve this. It is a simple example which will extract the content between the first instance of the “Heading 1” and “Header 3” styles without extracting the headings as well. To do this we set the last parameter to false, which specifies that the marker nodes should not be included.
 
 In a proper implementation this should be run in a loop to extract content between all paragraphs of these styles from the document. The extracted content is copied into a new document.
 
@@ -136,7 +136,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ## Extract Content Between Specific Runs
 
-You can extract content between inline nodes such as a [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) as well. **Runs** from different paragraphs can be passed as markers. The code below shows how to extract specific text in-between the same **Paragraph** node.
+You can extract content between inline nodes such as a [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) as well. **Runs** from different paragraphs can be passed as markers. The code below shows how to extract specific text in-between the same **Paragraph** node.
 
 The following code example shows how to extract content between specific runs of the same paragraph using the **extract_content** method:
 
@@ -150,7 +150,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ## Extract Content using a Field
 
-To use a field as marker, the `FieldStart` node should be passed. The last parameter to the `ExtractContent` method will define if the entire field is to be included or not. Let’s extract the content between the “FullName” merge field and a paragraph in the document. We use the [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/) method of [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words.documentbuilder/) class. This will return the **FieldStart** node from the name of merge field passed to it.
+To use a field as marker, the `FieldStart` node should be passed. The last parameter to the `ExtractContent` method will define if the entire field is to be included or not. Let’s extract the content between the “FullName” merge field and a paragraph in the document. We use the [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/) method of [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words.documentbuilder/) class. This will return the **FieldStart** node from the name of merge field passed to it.
 
 In our case let’s set the last parameter passed to the **extract_content** method to `False` to exclude the field from the extraction. We will render the extracted content to PDF.
 
@@ -166,7 +166,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ## Extract Content from a Bookmark
 
-In a document the content that is defined within a bookmark is encapsulated by the `BookmarkStart` and BookmarkEnd nodes. Content found between these two nodes make up the bookmark. You can pass either of these nodes as any marker, even ones from different bookmarks, as long as the starting marker appears before the ending marker in the document. We will extract this content into a new document using the code below. The **is_inclusive** parameter option shows how to retain or discard the bookmark.
+In a document the content that is defined within a bookmark is encapsulated by the `BookmarkStart` and BookmarkEnd nodes. Content found between these two nodes make up the bookmark. You can pass either of these nodes as any marker, even ones from different bookmarks, as long as the starting marker appears before the ending marker in the document. We will extract this content into a new document using the code below. The **is_inclusive** parameter option shows how to retain or discard the bookmark.
 
 The following code example shows how to extract the content referenced a bookmark using the **extract_content** method:
 

@@ -22,7 +22,7 @@ This page demonstrates how to use Aspose.Words SaveOptions classes in Python via
 
 {{% /alert %}}
 
-When saving a document, you can set some advanced properties. Aspose.Words provides you with the [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) class, which allows more precise control of the save process. There are overloads of the **Save** method that accept a **SaveOptions** object – it should be an object of a class derived from the **SaveOptions** class. Each save format has a corresponding class that holds save options for this save format, for example, there is [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) for saving to PDF format, [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) for saving to Markdown format, or [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) for saving to an image. This article provides examples of working with some options classes derived from **SaveOptions**.
+When saving a document, you can set some advanced properties. Aspose.Words provides you with the [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) class, which allows more precise control of the save process. There are overloads of the **Save** method that accept a **SaveOptions** object – it should be an object of a class derived from the **SaveOptions** class. Each save format has a corresponding class that holds save options for this save format, for example, there is [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) for saving to PDF format, [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) for saving to Markdown format, or [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) for saving to an image. This article provides examples of working with some options classes derived from **SaveOptions**.
 
 The following code example shows how to set the save options before saving the document into HTML:
 
@@ -30,7 +30,7 @@ The following code example shows how to set the save options before saving the d
 
 {{% alert color="primary" %}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Rendering.docx).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
@@ -38,15 +38,15 @@ The article describes a few properties you can control when saving a document.
 
 ## Encrypt a Document With a Password
 
-Use the **password** property to get or set a password for an encrypted document. Use the **password** property of the corresponding class to work with the selected document format.
+Use the **password** property to get or set a password for an encrypted document. Use the **password** property of the corresponding class to work with the selected document format.
 
-For example, when saving a document to DOC or DOT format, use the [password](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/password/) property of the [DocSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/) class.
+For example, when saving a document to DOC or DOT format, use the [password](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/password/) property of the [DocSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/) class.
 
 The following code example shows how to set a password to encrypt a document using the RC4 encryption method:
 
 {{< gist "aspose-words-gists" "6548546f98bd830e363bbb567b114850" "encrypt-document-with-password.py" >}}
 
-When saving a document to Odt format, use the [password](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/password/) property of the [OoxmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/) class.
+When saving a document to Odt format, use the [password](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/password/) property of the [OoxmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/) class.
 
 The following code example shows how to load and save OpenDocument encrypted with a password:
 
@@ -70,15 +70,15 @@ The following code example shows how to update the document creation time:
 
 ## Update Last Saved Property
 
-Aspose.Words provides an ability to use the [update_last_saved_time_property](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/update_last_saved_time_property/) property to get or set a value determining whether the [last_saved_time](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/last_saved_time/) property is updated before saving.
+Aspose.Words provides an ability to use the [update_last_saved_time_property](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/update_last_saved_time_property/) property to get or set a value determining whether the [last_saved_time](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/last_saved_time/) property is updated before saving.
 
-The following code example shows how to set this property and save the document:
+The following code example shows how to set this property and save the document:
 
 {{< gist "aspose-words-gists" "b05f6fe5e272263ce37254e9e36a5ae0" "update-last-saved-time.py" >}}
 
 ## Control External Resources When Saving a Document into HTML or SVG
 
-To convert HTML or SVG into PDF, simply invoke the [Save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) method and specify a file name with the “.PDF” extension. If you want to load images, CSS, etc. from external sources, you can use [IResourceSavingCallback](https://reference.aspose.com/words/python-net/aspose.words.saving/iresourcesavingcallback/).
+To convert HTML or SVG into PDF, simply invoke the [Save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) method and specify a file name with the “.PDF” extension. If you want to load images, CSS, etc. from external sources, you can use [IResourceSavingCallback](https://reference.aspose.com/words/python-net/aspose.words.saving/iresourcesavingcallback/).
 
 ## Save Black and White Image with One Bit Per Pixel Format
 

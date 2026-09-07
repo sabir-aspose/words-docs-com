@@ -20,7 +20,7 @@ timestamp: 2026-02-03-11-08-55
 This page demonstrates how to use Aspose.Words for Python via .NET to add, customize, and remove text or image watermarks in Word documents. It includes code examples for inserting watermarks via the Watermark class, using shapes, and handling watermarks inside table cells.  
 {{% /alert %}}
 
-This topic discusses how to work programmatically with watermark using Aspose.Words. A watermark is a background image that displays behind the text in a document. A watermark can contain a text or an image represented by the [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/) class.
+This topic discusses how to work programmatically with watermark using Aspose.Words. A watermark is a background image that displays behind the text in a document. A watermark can contain a text or an image represented by the [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/) class.
 
 {{% alert color="primary" %}}
 
@@ -32,11 +32,11 @@ You can try this functionality with our [Free online document watermark](https:/
 
 ## Add a Watermark to a Document
 
-In Microsoft Word, a watermark can easily be inserted in a document using the Insert Watermark command. Aspose.Words provides the [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/) class to add or remove watermark in documents. Aspose.Words provides the [WatermarkType](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/)enumeration defining three possible types of watermarks (Text, Image, and None) to work with. 
+In Microsoft Word, a watermark can easily be inserted in a document using the Insert Watermark command. Aspose.Words provides the [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/) class to add or remove watermark in documents. Aspose.Words provides the [WatermarkType](https://reference.aspose.com/words/python-net/aspose.words/watermarktype/)enumeration defining three possible types of watermarks (Text, Image, and None) to work with. 
 
 ### Add Text Watermark
 
-The following code example demonstrates how to insert a text watermark in a document by defining [TextWatermarkOptions](https://reference.aspose.com/words/python-net/aspose.words/textwatermarkoptions/) using the [set_text](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_text/) method:
+The following code example demonstrates how to insert a text watermark in a document by defining [TextWatermarkOptions](https://reference.aspose.com/words/python-net/aspose.words/textwatermarkoptions/) using the [set_text](https://reference.aspose.com/words/python-net/aspose.words/watermark/set_text/) method:
 
 {{< gist "aspose-words-gists" "1773c0992ab338091979cdd43e22557c" "add-text-watermark.py" >}}
 
@@ -79,7 +79,7 @@ The following code example show you how to set the name of the watermark shape a
 
 ## Add a Watermark into a Table Cell
 
-Sometimes you need to insert a watermark/image into a table's cell and display it outside the table, you can use the [is_layout_in_cell](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/is_layout_in_cell/) property. This property gets or sets a flag indicating whether the shape is displayed inside a table or outside of it. Note that this property works only when you optimize the document for Microsoft Word 2010 using the [optimize_for](https://reference.aspose.com/words/python-net/aspose.words.settings/compatibilityoptions/optimize_for/) method.
+Sometimes you need to insert a watermark/image into a table's cell and display it outside the table, you can use the [is_layout_in_cell](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/is_layout_in_cell/) property. This property gets or sets a flag indicating whether the shape is displayed inside a table or outside of it. Note that this property works only when you optimize the document for Microsoft Word 2010 using the [optimize_for](https://reference.aspose.com/words/python-net/aspose.words.settings/compatibilityoptions/optimize_for/) method.
 
 The following code example shows how to use this property:
 
