@@ -64,7 +64,7 @@ Aspose.Words – бібліотека класу, призначена для о
 
 Також варто відзначити, що відокремлення двох послідовних таблиць у документі вимагає принаймні одного порожніх абзаців після таблиці. Без такого абзацу, послідовні таблиці будуть об'єднані між собою. Ця поведінка ідентична в обох Microsoft Word і Aspose.Wordsй
 
-Aspose.Words має ряд занять, пов’язаних з таблицями – [Tables](https://reference.aspose.com/words/java/com.aspose.words/table/), [Rows](https://reference.aspose.com/words/java/com.aspose.words/row/), [Cells](https://reference.aspose.com/words/java/com.aspose.words/cell/), та інші.
+Aspose.Words має ряд занять, пов'язаних з таблицями – [Tables](https://reference.aspose.com/words/java/com.aspose.words/table/), [Rows](https://reference.aspose.com/words/java/com.aspose.words/row/), [Cells](https://reference.aspose.com/words/java/com.aspose.words/cell/), та інші.
 
 ## Дивитися ще
 

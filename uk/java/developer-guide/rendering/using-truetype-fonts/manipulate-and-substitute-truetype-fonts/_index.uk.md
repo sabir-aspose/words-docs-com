@@ -137,7 +137,7 @@ FontSettings fontSettings = FontSettings.getDefaultInstance();
 
 Іноді це може бути незрозуміло, чому змінено макет документа, або чому деякі шрифти не виглядають як очікувано. У таких випадках повідомлення про заміщення шрифту, що реалізовані повідомленнями, що містяться [IWarningCallback](https://reference.aspose.com/words/java/com.aspose.words/iwarningcallback/) інтерфейс приходять на допомогу. Вони мають [FontSubstitution](https://reference.aspose.com/words/java/com.aspose.words/warningtype/#FONT-SUBSTITUTION) Тип попередження та стандартний текстовий формат "Фонт"<originalfont>- Не знайдено. Використання<substitutionfont>' шрифт замість. Причини: <reason>", з такими причинами:</reason></substitutionfont></originalfont>
 
-- "визначне ім’я з документа" – за за заміщення [AltName](https://reference.aspose.com/words/java/com.aspose.words/Fontinfo#AltName)
+- "визначне ім'я з документа" – за за заміщення [AltName](https://reference.aspose.com/words/java/com.aspose.words/Fontinfo#AltName)
 - "Файлконфігурація заміщення" - для заміщення правила налаштування шрифту
 - "стабільна заміна" - за заміщення за правилом таблиці
 - "Фільтова заміна інформації" - для заміщення правилом шрифтів

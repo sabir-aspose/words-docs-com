@@ -3,7 +3,7 @@ title: Aspose.Words for Android via Java Features
 second_title: Aspose.Words for Java
 articleTitle: Aspose.Words for Android via Java Features
 linktitle: Aspose.Words for Android via Java Features
-description: "This section provides a comparison of availability of features between Aspose.Words for Java and Aspose.Words for Android via Java."
+description: "This section provides a comparison of availability of features between Aspose.Words for Java and Aspose.Words for Androidvia Java."
 type: docs
 weight: 90
 ai_search_scope: words_java
@@ -13,9 +13,9 @@ url: /java/aspose-words-for-android-via-java-features/
 timestamp: 2024-10-21-11-17-44
 ---
 
-## Aspose.Words for Android via Java Features Overview
+## Aspose.Words for Android via JavaFeatures Overview
 
-This section provides a comparison of availability of features between Aspose.Words for Java and Aspose.Words for Android via Java.
+This section provides a comparison of availability of features between Aspose.Words for Java and Aspose.Words for Androidvia Java.
 
 ### File Formats and Conversions
 
@@ -59,7 +59,7 @@ Aspose.Words provides a rich object model that consists of over 100 public class
 | Access, create and modify document sections, headers and footers. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Access, create and modify footnotes, endnotes and comments. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Access, create and modify Custom XML, SmartTags and Structured Document Tags (Content Controls). | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Access and modify all document elements using **XmlDocument** -like classes and methods. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Access and modify all document elements using**XmlDocument**-like classes and methods. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Update field results `IF`, formula and other popular field types. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Rebuild and update Table Of Contents (TOC) fields exactly like Microsoft Word does it. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Copy and move document elements between documents. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
@@ -98,7 +98,7 @@ You can use Aspose.Words as a reporting solution on its own. Design your reports
 | Populate and dynamically grow tables or fragments in the document from your data source using Mail Merge regions. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Easily generate reports that contain master-detail (parent-child) data such as Order/OrderDetails. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Populate documents with data from any Java data source that implements the `ResultSet` interface. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Populate documents from any data source such as a XML file or business objects by implementing the **IMailMergeDataSource** interface. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Populate documents from any data source such as a XML file or business objects by implementing the**IMailMergeDataSource**interface. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Take precise control, such as number formatting, over how your data is merged using events. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Insert images during mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Programmatically create or modify a Microsoft Word Mail Merge data source for a document. Preserve Mail Merge settings and data sources. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
@@ -127,7 +127,7 @@ LINQ Reporting Engine is an advanced reporting tool enabling you to generate doc
    **A:** No. Raster image rendering (Multipage TIFF, BMP) is not available on Android. You can render pages to PNG, EMF, JPEG, or GIF instead.
 
 2. **Q:** Can I print a Word document directly from Aspose.Words for Android via Java?  
-   **A:** Printing is not supported through the Aspose.Words API on Android. Export the document to PDF (or another printable format) and use Android’s native printing framework to print it.
+   **A:** Printing is not supported through the Aspose.Words API on Android. Export the document to PDF (or another printable format) and use Android's native printing framework to print it.
 
 3. **Q:** How do I apply a license to Aspose.Words for Android via Java?  
    **A:** Use the same `License` class as in the Java version. Load your `.lic` file (for example from the assets folder) and call `License license = new License(); license.setLicense("Aspose.Words.lic");`.

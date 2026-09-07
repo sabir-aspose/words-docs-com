@@ -84,7 +84,7 @@ static class CustomAiModel extends OpenAiModel
 ## FAQ
 
 1. **Q:** Which AI model families are supported by Aspose.Words for Java?  
-   **A:** Aspose.Words for Java supports models from OpenAI, Google (Gemini), and Anthropic’s Claude families. The supported models are listed in the `AiModelType` enumeration.
+   **A:** Aspose.Words for Java supports models from OpenAI, Google (Gemini), and Anthropic's Claude families. The supported models are listed in the `AiModelType` enumeration.
 
 2. **Q:** How do I create an `AiModel` instance for a specific model type?  
    **A:** Use the static `AiModel.create(int modelType)` method, passing the integer value from the `AiModelType` enum that corresponds to the desired model (e.g., `AiModelType.GPT_4O`). The method returns an `AiModel` object ready for translation, summarization, etc.
@@ -96,4 +96,4 @@ static class CustomAiModel extends OpenAiModel
    **A:** No additional license is required. AI capabilities are included with a regular Aspose.Words for Java license. Ensure your license file is loaded correctly using `License license = new License(); license.setLicense("Aspose.Words.Java.lic");`.
 
 5. **Q:** How can I find the integer value for a specific `AiModelType` enumeration member?  
-   **A:** In Java, you can call `AiModelType.GPT_4O.getValue()` (or simply refer to the constant’s name) to obtain its underlying integer value, which you then pass to `AiModel.create`. This value is also documented in the API reference.
+   **A:** In Java, you can call `AiModelType.GPT_4O.getValue()` (or simply refer to the constant's name) to obtain its underlying integer value, which you then pass to `AiModel.create`. This value is also documented in the API reference.

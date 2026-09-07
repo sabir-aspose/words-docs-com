@@ -39,7 +39,7 @@ The following code example shows how to retrieve the index of a table in a docum
 
 Similarly, you may need to make changes to a specific row in a selected table. To do this, you can also refer to a row by its index.
 
-The following code example shows how to retrieve the index of a row in a table:
+The following code example showshow to retrieve the index of a row in a table:
 
 {{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "retrieve-row-index.cs" >}}
 
@@ -67,7 +67,7 @@ The following code example simplifies such operations by proving a facade class 
 
 {{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "column-class.cs" >}}
 
-The following code example shows how to insert a blank column into a table:
+The following code example showshow to insert a blank column into a table:
 
 {{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "insert-blank-column.cs" >}}
 
@@ -104,7 +104,7 @@ By default, the above properties are disabled.
 
 ### Keep a Row from Breaking Across Pages {#keep-a-row-from-breaking-across-pages}
 
-This involves restricting content inside the cells of a row from being split across a page. In Microsoft Word, this can found under Table Properties as the option “Allow row to break across pages”. In Aspose.Words this is found under the [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/) object of a [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) as the property [RowFormat.AllowBreakAcrossPages](https://reference.aspose.com/words/net/aspose.words.tables/row/format/properties/allowbreakacrosspages).
+This involves restricting content inside the cells of a row from being split across a page. In Microsoft Word, this can found under Table Properties as the option “Allow row to break across pages”.In Aspose.Words this is found under the [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/) object of a [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) as the property [RowFormat.AllowBreakAcrossPages](https://reference.aspose.com/words/net/aspose.words.tables/row/format/properties/allowbreakacrosspages).
 
 The following code example shows how to disable breaking rows across pages for each row in a table:
 

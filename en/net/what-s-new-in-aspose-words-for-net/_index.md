@@ -17,7 +17,7 @@ timestamp: 2026-08-11-11-12-25
 
 ## Purpose Summary
 
-This page explains what’s new in recent Aspose.Words for .NET releases.
+This page explains what's new in recent Aspose.Words for .NET releases.
 
 {{% /alert %}}
 
@@ -54,7 +54,7 @@ The ability to control the compression level of XPS output has been introduced b
 #### EQ Fields
 
 * Support for Far East vertical orientation in HTML within EQ fields has been introduced. <sup>26.5</sup>
-* Improved visual rendering of the EQ field’s frame has been implemented. <sup>26.5</sup>
+* Improved visual rendering of the EQ field's frame has been implemented. <sup>26.5</sup>
 * The rendering of OLE objects within EQ fields has been implemented. <sup>26.7</sup>
 
 #### AAT-enabled Fonts <sup>26.5</sup>

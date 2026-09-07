@@ -88,7 +88,7 @@ In Aspose.Words, all classes and properties related to tables are contained in t
    **A:** Create a `Row` object, add the required number of `Cell` objects to it, and then append the row to the table with `Table.append_child(row)`. Each new cell can be populated with a `Paragraph` containing the desired text.
 
 3. **Q:** What is the correct way to merge cells horizontally in a table?  
-   **A:** Set the first cell’s `cell_format.horizontal_merge` property to `HorizontalMerge.FIRST` and the subsequent cells that should be merged to `HorizontalMerge.PREVIOUS`. This merges the cells into a single larger cell while preserving the table layout.
+   **A:** Set the first cell's `cell_format.horizontal_merge` property to `HorizontalMerge.FIRST` and the subsequent cells that should be merged to `HorizontalMerge.PREVIOUS`. This merges the cells into a single larger cell while preserving the table layout.
 
 4. **Q:** Why do two consecutive tables sometimes appear as a single table, and how can I prevent this?  
    **A:** Word treats adjacent tables as one unless there is at least one empty paragraph between them. Insert an empty `Paragraph` node after the first table (`document.append_child(Paragraph())`) to keep the tables separate.

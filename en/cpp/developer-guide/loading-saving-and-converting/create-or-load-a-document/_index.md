@@ -15,11 +15,11 @@ url: /cpp/create-or-load-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Almost any task that you want to perform with Aspose.Words involves loading a document. The `Document` class represents a document loaded into memory. The document has several overloaded constructors allowing you to create a blank document or to load it from a file or stream. The document can be loaded in any load format supported by Aspose.Words. For the list of all supported load formats, see the [LoadFormat](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) enumeration.
+Almost any task that you want to perform with Aspose.Words involves loading a document.The `Document` class represents a document loaded into memory. The document has several overloaded constructors allowing you to create a blank document or to load it from a file or stream.The document can be loaded in any load format supported by Aspose.Words. For the list of all supported load formats, see the[LoadFormat](https://reference.aspose.com/words/cpp/aspose.words/loadformat/)enumeration.
 
 ## Create a New Document {#create-a-new-document}
 
-We will call the [Document](https://reference.aspose.com/words/cpp/class/aspose.words.document) constructor without parameters to create a new blank document. If you want to generate a document programmatically, the simplest way is to use the [DocumentBuilder](https://reference.aspose.com/words/cpp/class/aspose.words.document_builder) class to add document contents.
+We will call the[Document](https://reference.aspose.com/words/cpp/class/aspose.words.document)constructor without parameters to create a new blank document. If you want to generate a document programmatically, the simplest way is to use the[DocumentBuilder](https://reference.aspose.com/words/cpp/class/aspose.words.document_builder)class to add document contents.
 
 The following code example shows how to create a document using the document builder:
 
@@ -46,7 +46,7 @@ The following code example shows how to open a document from a file:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-LoadAndSaveToDisk-OpenDocument.cpp" >}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).
+You can download the template file of this examplefrom[Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).
 
 ### Load from a Stream {#load-from-a-stream}
 
@@ -58,6 +58,6 @@ The following code example shows how to open a document from a stream:
 
 {{% alert color="primary" %}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).
+You can download the template file of this examplefrom[Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).
 
 {{% /alert %}}

@@ -56,7 +56,7 @@ timestamp: 2024-10-21-11-17-44
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Autolink.java" >}} |  |
 | **Link**<br />`[ลิงก์ข้อความ](url)`<br />`[ลิงก์ข้อความ](<url>"title")`<br />`[ลิงก์ข้อความ](url 'title')`<br />`[ลิงก์ข้อความ](url (title))` | คลาส[FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/). |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Link.java" >}} |  |
-| **Image**<br />`![](/words/java/translate-markdown-to-document-object-model/url)`<br />`![ข้อความ](/words/java/translate-markdown-to-document-object-model/<url>"title")`<br />`![ข้อความ](/words/java/translate-markdown-to-document-object-model/url ‘title’)`<br />`![ข้อความ](/words/java/translate-markdown-to-document-object-model/url (title))` | คลาส[Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/). |
+| **Image**<br />`![](/words/java/translate-markdown-to-document-object-model/url)`<br />`![ข้อความ](/words/java/translate-markdown-to-document-object-model/<url>"title")`<br />`![ข้อความ](/words/java/translate-markdown-to-document-object-model/url ‘title')`<br />`![ข้อความ](/words/java/translate-markdown-to-document-object-model/url (title))` | คลาส[Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/). |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Image.java" >}} |  |
 
 ## บล็อกคอนเทนเนอร์
@@ -85,9 +85,9 @@ timestamp: 2024-10-21-11-17-44
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `ParagraphFormat.StyleName = "Quote[some suffix]"`<br />ชื่อต่อท้ายในลักษณะเป็นตัวเลือกแต่ผู้นำเข้าAspose.Wordsใช้หมายเลขเรียงลำดับ 1, 2, 3, .... ในกรณีของคำพูดที่ซ้อนกัน<br />รังจะถูกกำหนดผ่านทางรูปแบบที่สืบทอด. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Quote.java" >}} |  |
-| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | รายการที่มีสัญลักษณ์แสดงโดยใช้หมายเลขย่อหน้า:<br />`ListFormat.ApplyBulletDefault()`<br />สามารถมี 3 ประเภทของรายการสัญลักษณ์ กต่างกันในรูปแบบตัวเลขของระดับแรกมาก เหล่านี้คือ:`‘-’`,`‘+’`หรือ`‘*’`ตามลำดับ. |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | รายการที่มีสัญลักษณ์แสดงโดยใช้หมายเลขย่อหน้า:<br />`ListFormat.ApplyBulletDefault()`<br />สามารถมี 3 ประเภทของรายการสัญลักษณ์ กต่างกันในรูปแบบตัวเลขของระดับแรกมาก เหล่านี้คือ:`‘-'`,`‘+'`หรือ`‘*'`ตามลำดับ. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BulletedList.java" >}} |  |
-| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | รายการสั่งซื้อจะถูกแสดงโดยใช้หมายเลขย่อหน้า:<br />`ListFormat.ApplyNumberDefault()`<br />อาจมีเครื่องหมายรูปแบบหมายเลข 2 ตัว:‘.’และ‘)’ เครื่องหมายเริ่มต้นคือ‘.’. |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | รายการสั่งซื้อจะถูกแสดงโดยใช้หมายเลขย่อหน้า:<br />`ListFormat.ApplyNumberDefault()`<br />อาจมีเครื่องหมายรูปแบบหมายเลข 2 ตัว:‘.'และ‘)' เครื่องหมายเริ่มต้นคือ‘.'. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-OrderedList.java" >}} |  |
 
 ### โต๊ะ

@@ -130,7 +130,7 @@ You can fork the repository, edit the source code, and create a pull request to 
    **A:** Download the CMake package from the Aspose download site and place the `Aspose.Words.Cpp` and `CodePorting.Native.Cs2Cpp_*` folders in the repository root before building. All required binaries are then available locally, so NuGet restore is not needed.
 
 2. **Q:** Do I need to apply a license to run the example projects?  
-   **A:** The examples work without a license but will add a watermark to generated documents. To remove the watermark, place a valid `Aspose.Words.Cpp` license file (e.g., `License.txt`) in the executable’s working directory and call `Aspose::Words::License license; license.SetLicense("License.txt");` at the start of your program.
+   **A:** The examples work without a license but will add a watermark to generated documents. To remove the watermark, place a valid `Aspose.Words.Cpp` license file (e.g., `License.txt`) in the executable's working directory and call `Aspose::Words::License license; license.SetLicense("License.txt");` at the start of your program.
 
 3. **Q:** Which version of Visual Studio is required for the NuGet‑based examples?  
    **A:** Visual Studio 2022 (or later) is required because the examples target the C++20 standard and rely on the latest MSVC toolset that ships with VS 2022.

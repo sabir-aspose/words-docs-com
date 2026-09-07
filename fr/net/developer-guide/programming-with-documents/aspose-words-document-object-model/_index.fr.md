@@ -144,7 +144,7 @@ L'exemple de code suivant montre comment visiter efficacement tous les nœuds en
 
 Jusqu'à présent, nous avons discuté des propriétés qui renvoient l'un des types de base – **Node** ou **CompositeNode**. Mais il arrive parfois que vous deviez convertir des valeurs vers une classe de nœud spécifique, telle que **Run** ou **Paragraph**. Autrement dit, vous ne pouvez pas complètement échapper au casting lorsque vous travaillez avec le Aspose.Words DOM, qui est composite.
 
-Pour réduire le besoin de conversion, la plupart des classes Aspose.Words fournissent des propriétés et des collections qui fournissent un accès fortement typé. Il existe trois modèles de base d’accès typé:
+Pour réduire le besoin de conversion, la plupart des classes Aspose.Words fournissent des propriétés et des collections qui fournissent un accès fortement typé. Il existe trois modèles de base d'accès typé:
 
 - Un nœud parent expose les propriétés typées **FirstXXX** et **LastXXX**. Par exemple, le **Document** possède des propriétés [FirstSection](https://reference.aspose.com/words/fr/net/aspose.words/document/firstsection/) et [LastSection](https://reference.aspose.com/words/fr/net/aspose.words/document/lastsection/). De même, **Table** possède des propriétés telles que [FirstRow](https://reference.aspose.com/words/fr/net/aspose.words.tables/table/firstrow/), [LastRow](https://reference.aspose.com/words/fr/net/aspose.words.tables/table/lastrow/) et autres.
 - Un nœud parent expose une collection typée de nœuds enfants, tels que [Document.Sections](https://reference.aspose.com/words/fr/net/aspose.words/document/sections/), [Body.Paragraphs](https://reference.aspose.com/words/fr/net/aspose.words/story/paragraphs/) et autres.

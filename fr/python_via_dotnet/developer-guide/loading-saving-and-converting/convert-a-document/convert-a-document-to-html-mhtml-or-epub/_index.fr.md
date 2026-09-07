@@ -54,7 +54,7 @@ Vous pouvez télécharger le fichier modèle de cet exemple depuis [Aspose.Words
 
 ## Spécifier les options d'enregistrement lors de la conversion au format HTML
 
-Aspose.Words permet de convertir un document Word en HTML en utilisant les options de sauvegarde par défaut ou personnalisées. Quelques exemples d’options de sauvegarde personnalisées sont décrits ci-dessous.
+Aspose.Words permet de convertir un document Word en HTML en utilisant les options de sauvegarde par défaut ou personnalisées. Quelques exemples d'options de sauvegarde personnalisées sont décrits ci-dessous.
 
 ### Spécifier un dossier pour enregistrer les ressources
 
@@ -75,7 +75,7 @@ Cependant, il n'existe pas de propriété individuelle pour CSS. Le comportement
 - [resource_folder](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/resource_folder/) a une priorité inférieure aux dossiers spécifiés via [fonts_folder](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/fonts_folder/), [images_folder](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/images_folder/) et [css_style_sheet_file_name](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/css_style_sheet_file_name/). Si le dossier spécifié dans le [resource_folder](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/resource_folder/) n'existe pas, il sera créé automatiquement.
 - [resource_folder_alias](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/resource_folder_alias/) a une priorité inférieure à [fonts_folder_alias](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/fonts_folder_alias/) et [images_folder_alias](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/images_folder_alias/). Si [resource_folder_alias](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/resource_folder_alias/) est vide, la valeur de la propriété [resource_folder](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/resource_folder/) sera utilisée pour créer les URI de ressources. Si [resource_folder_alias](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/resource_folder_alias/) est défini sur "." (point), les URI de ressources contiendront uniquement des noms de fichiers sans spécifier de chemin.
 
-### Exporter les ressources de polices d’encodage Base64
+### Exporter les ressources de polices d'encodage Base64
 
 Aspose.Words offre la possibilité de spécifier si les ressources de polices doivent être intégrées au HTML dans les encodages Base64. Pour ce faire, utilisez la propriété [export_fonts_as_base64](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/export_fonts_as_base64/) – il s'agit d'une extension de la propriété [export_font_resources](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/export_font_resources/). Par défaut, sa valeur est *False* et les polices sont écrites dans des fichiers distincts. Mais si cette option est définie sur *True*, les polices seront intégrées dans le CSS du document en encodage Base64. La propriété [export_fonts_as_base64](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/export_fonts_as_base64/) affecte uniquement le format HTML et n'affecte pas EPUB et MHTML.
 

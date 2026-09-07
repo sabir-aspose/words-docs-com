@@ -84,7 +84,7 @@ The following code example shows how to extract the author name, date&time and t
 
 After you have selected **Comment** nodes into a collection, all you have to do is extract the information you need. In this sample, author initials, date, time and the plain text of the comment is combined into one string; you could choose to store it in some other ways instead.
 
-The overloaded method that extracts the Comments from a particular author is almost the same, it just checks the author’s name before adding the info into the array.
+The overloaded method that extracts the Comments from a particular author is almost the same, it just checks the author's name before adding the info into the array.
 
 The following code example shows how to extract the author name, date&time and text of the comments by the specified author:
 
@@ -120,7 +120,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 Using Aspose.Words you can also remove comments between the **CommentRangeStart** and **CommentRangeEnd** nodes.
 
-The following code example shows how to remove text between **CommentRangeStart** and **CommentRangeEnd**:
+The following code example shows how to remove text between**CommentRangeStart** and **CommentRangeEnd**:
 
 {{< gist "aspose-words-gists" "70902b20df8b1f6b0459f676e21623bb" "remove-range-text.cs" >}}
 

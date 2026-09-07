@@ -56,7 +56,7 @@ Ons gebruik'n karakter styl met'n naam wat begin van die woord `InlineCode`, gev
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Autolink.h" >}} |  |
 | **Link**<br />`[link text](url)`<br />`[link text](<url>"title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | Die [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/) klas. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Link.h" >}} |  |
-| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | Die [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) klas. |
+| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title')`<br />`![alt text](url (title))` | Die [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) klas. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Image.h" >}} |  |
 
 ## Houerblokke
@@ -92,9 +92,9 @@ Die tabel hieronder toon voorbeelde van die gebruik van Markdown Komplekse Houer
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `get_ParagraphFormat()->set_StyleName(u"Quote[some suffix]")`<br />Die agtervoegsel in stylnaam is opsioneel, maar Aspose.Words invoerder gebruik die geordende nommers 1, 2, 3, .... in die geval van geneste aanhalings.<br />Die nes word gedefinieer deur die oorgeërfde style. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Quote.h" >}} |  |
-| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Bullet lyste word verteenwoordig met behulp van paragraaf nommering:<br />`get_ListFormat()->ApplyBulletDefault()`<br />Daar kan 3 tipes van koeëllyste wees. Hulle is slegs diff in'n nommering formaat van die heel eerste vlak. Dit is: `‘-’`, `‘+’` of `‘*’` onderskeidelik. |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Bullet lyste word verteenwoordig met behulp van paragraaf nommering:<br />`get_ListFormat()->ApplyBulletDefault()`<br />Daar kan 3 tipes van koeëllyste wees. Hulle is slegs diff in'n nommering formaat van die heel eerste vlak. Dit is: `‘-'`, `‘+'` of `‘*'` onderskeidelik. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-BulletedList.h" >}} |  |
-| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Geordende lyste word verteenwoordig deur paragraafnommering te gebruik:<br />`get_ListFormat()->ApplyNumberDefault()`<br />Daar kan 2 nommer formaat merkers wees: ‘.’ en ‘)’. Die standaard merker is ‘.’. |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Geordende lyste word verteenwoordig deur paragraafnommering te gebruik:<br />`get_ListFormat()->ApplyNumberDefault()`<br />Daar kan 2 nommer formaat merkers wees: ‘.' en ‘)'. Die standaard merker is ‘.'. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-OrderedList.h" >}} |  |
 
 ### Tabelle

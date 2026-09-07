@@ -56,7 +56,7 @@ We gebruiken een tekenstijl met een naam die begint met het woord `InlineCode`, 
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Autolink.h" >}} |  |
 | **Link**<br />`[link text](url)`<br />`[link text](<url>"title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | De [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/) Klasse. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Link.h" >}} |  |
-| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | De [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) Klasse. |
+| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title')`<br />`![alt text](url (title))` | De [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) Klasse. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Image.h" >}} |  |
 
 ## Container Blokken
@@ -92,9 +92,9 @@ De onderstaande tabel toont voorbeelden van het gebruik van Markdown complexe Co
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `get_ParagraphFormat()->set_StyleName(u"Quote[some suffix]")`<br />het achtervoegsel in stijlnaam is optioneel, maar Aspose.Words importeur gebruikt de geordende nummers 1, 2, 3, .... in het geval van geneste citaten.<br />De nesting wordt gedefinieerd via de erfelijke stijlen. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Quote.h" >}} |  |
-| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Lijsten met opsommingstekens worden weergegeven met behulp van paragraafnummering:<br />`get_ListFormat()->ApplyBulletDefault()`<br />Er kunnen 3 soorten lijsten met opsommingstekens zijn. Ze zijn alleen diff in een nummering formaat van het allereerste niveau. Deze zijn: `‘-’`, `‘+’` of `‘*’` respectievelijk. |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Lijsten met opsommingstekens worden weergegeven met behulp van paragraafnummering:<br />`get_ListFormat()->ApplyBulletDefault()`<br />Er kunnen 3 soorten lijsten met opsommingstekens zijn. Ze zijn alleen diff in een nummering formaat van het allereerste niveau. Deze zijn: `‘-'`, `‘+'` of `‘*'` respectievelijk. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-BulletedList.h" >}} |  |
-| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Geordende lijsten worden weergegeven met behulp van paragraafnummering:<br />`get_ListFormat()->ApplyNumberDefault()`<br />Er kunnen 2 getalnotatiemarkeringen zijn: ‘.’ en ‘)’. De standaard marker is ‘.’. |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Geordende lijsten worden weergegeven met behulp van paragraafnummering:<br />`get_ListFormat()->ApplyNumberDefault()`<br />Er kunnen 2 getalnotatiemarkeringen zijn: ‘.' en ‘)'. De standaard marker is ‘.'. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-OrderedList.h" >}} |  |
 
 ### Tabel

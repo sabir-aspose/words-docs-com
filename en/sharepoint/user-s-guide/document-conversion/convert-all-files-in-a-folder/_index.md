@@ -12,7 +12,7 @@ timestamp: 2024-01-27-14-07-04
 
 If you want to convert all files in a folder, you can do so either by selecting **Convert via Aspose.Words** in the ECB of the desired folder while staying in the parent folder, or by selecting **Convert All via Aspose.Words** from the **Action** menu while in the folder itself or in the root of the document library. Whichever way you use, Aspose.Words for SharePoint will try to convert every document in the selected folder or library.
 
-**Convert all files in the subfolder.** 
+**Convert all files in the subfolder.**
 
 ![todo:image_alt_text](convert-all-files-in-a-folder-1.png)
 

@@ -20,7 +20,7 @@ Kayan tablolar ve satır içi tablolar vardır:
 
 Bazen bir tabloyu belgede belirli bir şekilde konumlandırmanız gerekir. Bunu yapmak için hizalama araçlarını kullanmanız ve tablo ile onu çevreleyen metin arasındaki girintileri ayarlamanız gerekir.
 
-Bu yazımızda Aspose.Words’in konumlandırma için hangi seçenekleri sunduğunu ele alacağız.
+Bu yazımızda Aspose.Words'in konumlandırma için hangi seçenekleri sunduğunu ele alacağız.
 
 ## Satır İçi Tablo Konumunu Belirtin
 

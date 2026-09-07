@@ -85,9 +85,9 @@ Bảng dưới đây cho thấy các ví dụ về sử dụng Markdown Complex 
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `ParagraphFormat.StyleName = “Quote[some suffix]”` <br /> hậu tố trong tên phong cách là tùy chọn, nhưng Aspose.Words nhập khẩu sử dụng các số được sắp xếp 1, 2, 3,... trong trường hợp trích dẫn lồng nhau. <br /> Lồng được xác định thông qua phong cách được thừa hưởng. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Quote.java" >}} |  |
-| **BulletedList** <br /> `- Item 1` <br /> `- Item 2` <br /> `   - Item 2a` <br /> `   - Item 2b` | Danh sách không dấu được thể hiện bằng cách đánh số đoạn văn: <br /> `ListFormat.ApplyBulletDefault()` <br /> Có thể có 3 loại danh sách không dấu. Chúng chỉ khác nhau ở định dạng số của cấp đầu tiên. Những cái đó là: `‘-’`, `‘+’` hay `‘*’` tương ứng. |
+| **BulletedList** <br /> `- Item 1` <br /> `- Item 2` <br /> `   - Item 2a` <br /> `   - Item 2b` | Danh sách không dấu được thể hiện bằng cách đánh số đoạn văn: <br /> `ListFormat.ApplyBulletDefault()` <br /> Có thể có 3 loại danh sách không dấu. Chúng chỉ khác nhau ở định dạng số của cấp đầu tiên. Những cái đó là: `‘-'`, `‘+'` hay `‘*'` tương ứng. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BulletedList.java" >}} |  |
-| **OrderedList** <br /> `1. Item 1` <br /> `2. Item 2` <br /> `1) Item 2a` <br /> `2) Item 2b` | Danh sách thứ tự được thể hiện bằng cách đánh số đoạn văn bản: <br /> `ListFormat.ApplyNumberDefault()` <br /> Có 2 dấu phân cách định dạng số: '. ' và ')'. Mーカー mặc định là ‘.’. |
+| **OrderedList** <br /> `1. Item 1` <br /> `2. Item 2` <br /> `1) Item 2a` <br /> `2) Item 2b` | Danh sách thứ tự được thể hiện bằng cách đánh số đoạn văn bản: <br /> `ListFormat.ApplyNumberDefault()` <br /> Có 2 dấu phân cách định dạng số: '. ' và ')'. Mーカー mặc định là ‘.'. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-OrderedList.java" >}} |  |
 
 ### Bảng

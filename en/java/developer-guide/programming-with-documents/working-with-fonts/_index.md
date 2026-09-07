@@ -41,7 +41,7 @@ The [LineSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/
 
 {{< gist "aspose-words-gists" "28f3c389a64ddf0eb53893ec121575c2" "get-font-line-spacing.java" >}}
 
-## Font EmphasisMark
+## FontEmphasisMark
 
 Some East Asian languages use a special emphasis mark to indicate an emphasis. The **Font** class provides the [EmphasisMark](https://reference.aspose.com/words/java/com.aspose.words/font/#getEmphasisMark) property to get or set the [EmphasisMark](https://reference.aspose.com/words/java/com.aspose.words/emphasismark/) enumeration values to be applied when formatting.
 

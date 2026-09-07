@@ -56,7 +56,7 @@ Chúng tôi sử dụng kiểu ký tự có tên bắt đầu từ từ `InlineC
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Autolink.h" >}} |  |
 | **Link**<br />`[link text](url)`<br />`[link text](<url>"title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | Lớp [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/). |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Link.h" >}} |  |
-| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | Lớp [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/). |
+| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title')`<br />`![alt text](url (title))` | Lớp [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/). |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Image.h" >}} |  |
 
 ## Khối Container
@@ -92,9 +92,9 @@ Bảng dưới đây cho thấy các ví dụ về việc sử dụng Markdown C
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `get_ParagraphFormat()->set_StyleName(u"Quote[some suffix]")`<br />Hậu tố trong tên kiểu là tùy chọn, nhưng Aspose.Words nhà nhập khẩu sử dụng các số có thứ tự1, 2, 3, .... trong trường hợp dấu ngoặc kép lồng nhau.<br />Việc làm tổ được xác định thông qua các kiểu được kế thừa. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Quote.h" >}} |  |
-| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Danh sách dấu đầu dòng được biểu diễn bằng cách sử dụng đánh số đoạn văn:<br />`get_ListFormat()->ApplyBulletDefault()`<br />Có thể có 3 loại danh sách dấu đầu dòng. Chúng chỉ khác nhau ở định dạng đánh số ở cấp độ đầu tiên. Đây là: `‘-’`, `‘+’` hoặc `‘*’` tương ứng. |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Danh sách dấu đầu dòng được biểu diễn bằng cách sử dụng đánh số đoạn văn:<br />`get_ListFormat()->ApplyBulletDefault()`<br />Có thể có 3 loại danh sách dấu đầu dòng. Chúng chỉ khác nhau ở định dạng đánh số ở cấp độ đầu tiên. Đây là: `‘-'`, `‘+'` hoặc `‘*'` tương ứng. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-BulletedList.h" >}} |  |
-| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Danh sách có thứ tự được biểu diễn bằng cách sử dụng đánh số đoạn văn:<br />`get_ListFormat()->ApplyNumberDefault()`<br />Có thể có các điểm đánh dấu định dạng số 2: ‘.’ và ‘)’. Điểm đánh dấu mặc định là ‘.’. |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Danh sách có thứ tự được biểu diễn bằng cách sử dụng đánh số đoạn văn:<br />`get_ListFormat()->ApplyNumberDefault()`<br />Có thể có các điểm đánh dấu định dạng số 2: ‘.' và ‘)'. Điểm đánh dấu mặc định là ‘.'. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-OrderedList.h" >}} |  |
 
 ### Bảng

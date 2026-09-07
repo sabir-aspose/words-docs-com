@@ -90,15 +90,15 @@ Note that the [font](https://reference.aspose.com/words/python-net/aspose.words/
 1. **Q:** How can I change the font size of text that I insert after calling `insert_document`?  
    **A:** After inserting another document, set the `Font.Size` property on the `DocumentBuilder` before writing new text. The change affects all subsequent insertions.
 
-2. **Q:** Does `DocumentBuilder.insert_document` preserve the source document’s formatting by default?  
-   **A:** No. By default the destination document’s formatting is applied. To keep the source formatting, pass `ImportFormatMode.KEEP_SOURCE_FORMATTING` as the second argument.  
+2. **Q:** Does `DocumentBuilder.insert_document` preserve the source document's formatting by default?  
+   **A:** No. By default the destination document's formatting is applied. To keep the source formatting, pass `ImportFormatMode.KEEP_SOURCE_FORMATTING` as the second argument.  
 
    ```python
    builder.insert_document(source_doc, aw.ImportFormatMode.KEEP_SOURCE_FORMATTING)
    ```
 
 3. **Q:** How do I move the cursor to a bookmark before inserting content?  
-   **A:** Use `DocumentBuilder.move_to_bookmark("BookmarkName")`. The builder’s cursor will be positioned at the start of the specified bookmark, and any subsequent insertions will occur there.  
+   **A:** Use `DocumentBuilder.move_to_bookmark("BookmarkName")`. The builder's cursor will be positioned at the start of the specified bookmark, and any subsequent insertions will occur there.  
 
    ```python
    builder.move_to_bookmark("MyBookmark")

@@ -107,7 +107,7 @@ The following code example shows how to optimize document content for Microsoft 
    **A:** Create a `LanguagePreferences` object, add the required editing languages (e.g., `languagePreferences.AddEditingLanguage(LanguageId.Japanese)`), and assign it to `LoadOptions.LanguagePreferences` before loading or to `document.LanguagePreferences` after creation. This influences spell‑checking, hyphenation, and character rendering.
 
 4. **Q:** What is the purpose of the `OptimizeFor` method and when should I use it?  
-   **A:** `CompatibilityOptions.OptimizeFor` adjusts the document’s internal structures to match a specific Microsoft Word version, preventing the Compatibility Mode ribbon from appearing. Call it with the target `WordVersion` (e.g., `WordVersion.Word2016`) and optionally set `CompatibilityOptions.Compliance` to `Iso29500_2008_Transitional` or higher for better standards compliance.
+   **A:** `CompatibilityOptions.OptimizeFor` adjusts the document's internal structures to match a specific Microsoft Word version, preventing the Compatibility Mode ribbon from appearing. Call it with the target `WordVersion` (e.g., `WordVersion.Word2016`) and optionally set `CompatibilityOptions.Compliance` to `Iso29500_2008_Transitional` or higher for better standards compliance.
 
 5. **Q:** My document still shows the Compatibility Mode ribbon after calling `OptimizeFor`. What else should I check?  
    **A:** Verify that the `CompatibilityOptions.Compliance` property is set to at least `Iso29500_2008_Transitional`. Also ensure no older compatibility settings remain in the document (e.g., older `CompatibilityOptions` values). Re‑saving the document after applying both settings usually resolves the issue.

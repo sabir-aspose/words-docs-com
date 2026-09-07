@@ -68,4 +68,4 @@ The following code snippet is a "Hello, World!" example to exhibit working of "A
    Aspose.Words automatically performs the conversion.
 
 4. **Q:** Why do I get a “File not found” error when the example tries to open an existing document?  
-   **A:** The `Document` constructor expects a valid path. Ensure the file exists relative to the application’s working directory or provide an absolute path. You can also verify the path with `System.IO.File.Exists(path)` before loading. If the file is embedded as a resource, load it via a stream instead of a file path.
+   **A:** The `Document` constructor expects a valid path. Ensure the file exists relative to the application's working directory or provide an absolute path. You can also verify the path with `System.IO.File.Exists(path)` before loading. If the file is embedded as a resource, load it via a stream instead of a file path.

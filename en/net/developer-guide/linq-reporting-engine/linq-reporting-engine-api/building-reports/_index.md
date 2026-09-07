@@ -17,7 +17,7 @@ timestamp: 2024-10-21-11-17-44
 
 ## Purpose Summary
 
-This page describes how to build reports (e.g., invoices, letters) using Aspose.Words’ Reporting Engine.
+This page describes how to build reports (e.g., invoices, letters) using Aspose.Words' Reporting Engine.
 
 {{% /alert %}}
 

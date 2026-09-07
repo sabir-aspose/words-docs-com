@@ -26,7 +26,7 @@ The [StyleCollection](https://reference.aspose.com/words/python-net/aspose.words
 
 ## Accessing Styles
 
-You can get a collection of styles defined in the document using the [Document.styles](https://reference.aspose.com/words/python-net/aspose.words/documentbase/styles/) property. This collection holds both the built-in and user-defined styles in a document. A particular style could be obtained by its name/alias, style identifier, or index. The following code example demonstrates how to get access to the collection of styles defined in the document.
+You can get a collection of styles defined in the document using the[Document.styles](https://reference.aspose.com/words/python-net/aspose.words/documentbase/styles/)property. This collection holds both the built-in and user-defined styles in a document. A particular style could be obtained by its name/alias, style identifier, or index.The following code example demonstrateshow to get access to the collection of styles defined in the document.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_styles_and_themes-AccessStyles.py" >}}
 
@@ -40,21 +40,21 @@ The solution for retrieving text formatted with specific styles in a Word docume
 
 ### The Solution
 
-To illustrate how easily Aspose.Words handles retrieving content based on styles, let’s look at an example. In this example, we’re going to retrieve text formatted with a specific paragraph style and a character style from a sample Word document. At a high level, this will involve:
+To illustrate how easily Aspose.Words handles retrieving content based on styles, let's look at an example. In this example, we're going to retrieve text formatted with a specific paragraph style and a character style from a sample Word document. At a high level, this will involve:
 - Opening a Word document using the [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) class.
 - Getting collections of all paragraphs and all runs in the document.
-- Selecting only the required paragraphs and runs. Specifically, we’ll retrieve text formatted with the ‘Heading 1’ paragraph style and the ‘Intense Emphasis’ character style from this sample Word document.
+- Selecting only the required paragraphs and runs. Specifically, we'll retrieve text formatted with the ‘Heading 1' paragraph style and the ‘Intense Emphasis' character style from this sample Word document.
 
 ![working-with-styles-and-themes-aspose-words-net](working-with-styles-and-themes-1.png)
 
 
-In this sample document, the text formatted with the ‘Heading 1’ paragraph style is ‘Insert Tab’, ‘Quick Styles’ and ‘Theme’, and the text formatted with the ‘Intense emphasis’ character style is the several instances of blue, italicized, bold text such as ‘galleries’ and ‘overall look’.
+In this sample document, the text formatted with the ‘Heading 1' paragraph style is ‘Insert Tab', ‘Quick Styles' and ‘Theme', and the text formatted with the ‘Intense emphasis' character style is the several instances of blue, italicized, bold text such as ‘galleries' and ‘overall look'.
 
 ### The Code
 
 The implementation of a style-based query is quite simple in the Aspose.Words document object model, as it simply uses tools that are already in place. Two class methods are implemented for this solution:
 - **paragraphs_by_style_name** – This method retrieves an array of those paragraphs in the document that have a specific style name.
-- **runs_by_style_name** – This method retrieves an array of those runs in the document that have a specific style name. Both these methods are very similar, the only differences being the node types and the representation of the style information within the paragraph and run nodes. Here is an implementation of `paragraphs_by_style_name` : Below example find all paragraphs formatted with the specified style.
+- **runs_by_style_name** – This method retrieves an array of those runs in the document that have a specific style name. Both these methods are very similar, the only differences being the node types and the representation of the style information within the paragraph and run nodes. Here is an implementation of `paragraphs_by_style_name` :Below example find all paragraphs formatted with the specified style.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-ParagraphsByStyleName.py" >}}
 
@@ -66,12 +66,12 @@ Note that the second parameter of the [Document.get_child_nodes](https://referen
 
 {{% /alert %}}
 
-It’s also worth pointing out that the paragraphs collection does not create an immediate overhead because paragraphs are loaded into this collection only when you access items in them. Then, all you need to do is to go through the collection, using the standard foreach operator and add paragraphs that have the specified style to the paragraphs_with_style array. The `Paragraph` style name can be found in the [Style.name](https://reference.aspose.com/words/python-net/aspose.words/style/name/) property of the [Paragraph.paragraph_format](https://reference.aspose.com/words/python-net/aspose.words/paragraph/paragraph_format/) object. The implementation of **runs_by_style_name** is almost the same, although we’re obviously using [NodeType.RUN](https://reference.aspose.com/words/python-net/aspose.words/nodetype/#run) to retrieve run nodes. The [Font.style](https://reference.aspose.com/words/python-net/aspose.words/font/style/) property of a [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) object is used to access style information in the [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) nodes. Below example find all runs formatted with the specified style.
+It's also worth pointing out that the paragraphs collection does not create an immediate overhead because paragraphs are loaded into this collection only when you access items in them.Then, all you need to do is to go through the collection, using the standard foreach operator and add paragraphs that have the specified style to the paragraphs_with_style array. The `Paragraph` style name can be found in the [Style.name](https://reference.aspose.com/words/python-net/aspose.words/style/name/) property of the [Paragraph.paragraph_format](https://reference.aspose.com/words/python-net/aspose.words/paragraph/paragraph_format/) object.The implementation of **runs_by_style_name** is almost the same, although we're obviously using [NodeType.RUN](https://reference.aspose.com/words/python-net/aspose.words/nodetype/#run) to retrieve run nodes. The [Font.style](https://reference.aspose.com/words/python-net/aspose.words/font/style/) property of a [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) object is used to access style information in the [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) nodes.Below example find all runs formatted with the specified style.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-RunsByStyleName.py" >}}
 
 
-When both queries are implemented, all you need to do is to pass a document object and specify the style names of the content you want to retrieve: Below example run queries and display results. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Styles.docx).
+When both queries are implemented, all you need to do is to pass a document object and specify the style names of the content you want to retrieve:Below example run queries and display results. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Styles.docx).
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-ExtractContentBasedOnStyles.py" >}}
 

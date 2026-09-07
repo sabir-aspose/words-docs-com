@@ -73,7 +73,7 @@ Aspose.Words now provides high fidelity rendering of document pages.
 | Layout document into pages with high fidelity (exactly like Microsoft Word® would do that) to all the formats below. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Render individual pages or complete documents to PDF or XPS. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Render document pages to BMP images | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/cross >}} | {{< emoticons/cross >}} | {{< emoticons/cross >}} |
-| Render document pages to images (PNG, EMF, JPEG, GIF). | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Render document pages to images (PNG, EMF, JPEG,GIF). | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Render individual shapes from the document into raster or vector images. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Specify image resolution, quality, compression and other options. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Render pages or shapes to a .NET Graphics object with transforms, to a specific size. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
@@ -106,7 +106,7 @@ Aspose.Words provides a rich object model that consists of over 100 public class
 | Preserve or remove VBA macros from the document. Preserve VBA macros digital signature. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Detect and verify digital signatures in documents. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Insert HTML text. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Extract VBA Macros from Word Document. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  | |  |
+| Extract VBA Macros from Word Document. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  ||  |
 
 ## Document Formatting Features
 

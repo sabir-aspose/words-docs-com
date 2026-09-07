@@ -13,7 +13,7 @@ url: /fr/python-net/convert-between-measurement-units/
 timestamp: 2024-01-27-14-07-04
 ---
 
-La plupart des propriétés d'objet fournies dans le Aspose.Words API qui représentent certaines mesures, telles que la largeur ou la hauteur, les marges et diverses distances, acceptent des valeurs en points, où 1 pouce équivaut à 72 points. Parfois, cela n’est pas pratique et les points doivent être convertis en d’autres unités.
+La plupart des propriétés d'objet fournies dans le Aspose.Words API qui représentent certaines mesures, telles que la largeur ou la hauteur, les marges et diverses distances, acceptent des valeurs en points, où 1 pouce équivaut à 72 points. Parfois, cela n'est pas pratique et les points doivent être convertis en d'autres unités.
 
 Aspose.Words fournit la classe [ConvertUtil](https://reference.aspose.com/words/python-net/aspose.words/convertutil/) qui fournit des fonctions d'assistance pour convertir entre différentes unités de mesure. Il permet de convertir les pouces, les pixels et les millimètres en points, les points en pouces et en pixels, et de convertir les pixels d'une résolution à une autre. La conversion de pixels en points et vice versa peut être effectuée à des résolutions de 96 dpi (points par pouce) ou à une résolution dpi spécifiée.
 

@@ -19,13 +19,13 @@ Aspose.Words is a class library available on the most popular platforms that all
         <p>Aspose.Words for .NET is a class library that enables your applications to perform a great range of document processing tasks. Aspose.Words supports DOC, DOCX, RTF, HTML, OpenDocument, PDF, XPS, EPUB, and other formats. With Aspose.Words you can generate, modify, convert, render, and print documents without utilizing Microsoft Word.</p>
         <p>Below are quick links to some useful resources you may need to get started with Aspose.Words for .NET:</p>
         <ul>
-            <li><a href="https://products.aspose.com/words/net/">Aspose.Words for .NET product page</a></li>
+            <li><a href="https://products.aspose.com/words/net/">Aspose.Words for .NETproduct page</a></li>
             <li><a href="/words/net/product-overview/">Aspose.Words for .NET overview</a></li>
             <li><a href="/words/net/developer-guide/">Aspose.Words for .NET features</a></li>
-            <li><a href="https://reference.aspose.com/words/net/">Aspose.Words for .NET – API Reference guide</a></li>
+            <li><a href="https://reference.aspose.com/words/net/">Aspose.Words for .NET –API Reference guide</a></li>
             <li><a href="https://releases.aspose.com/words/net/release-notes/">Aspose.Words for .NET release notes</a></li>
             <li><a href="https://releases.aspose.com/words/net/">Aspose.Words for .NET download</a></li>
-            <li><a href="https://www.nuget.org/packages/Aspose.Words/">Aspose.Words for .NET – NuGet Package</a></li>
+            <li><a href="https://www.nuget.org/packages/Aspose.Words/">Aspose.Words for .NET –NuGet Package</a></li>
             <li><a href="https://github.com/aspose-words/Aspose.Words-for-.NET">Aspose.Words for .NET examples, plugins and showcases</a></li>
             <li><a href="https://forum.aspose.com/c/words/8">Aspose.Words for .NET Free Support Forum</a></li>
             <li><a href="https://helpdesk.aspose.com/">Aspose.Words for .NET Paid Support Helpdesk</a></li>
@@ -69,7 +69,7 @@ Aspose.Words is a class library available on the most popular platforms that all
             <li><a href="https://reference.aspose.com/words/cpp/">Aspose.Words for C++ – API Reference guide</a></li>
             <li><a href="https://releases.aspose.com/words/cpp/release-notes/">Aspose.Words for C++ release notes</a></li>
             <li><a href="https://releases.aspose.com/words/cpp/">Aspose.Words for C++ download</a></li>
-            <li><a href="https://www.nuget.org/packages/Aspose.Words.Cpp/">Aspose.Words for C++ – NuGet Package</a></li>
+            <li><a href="https://www.nuget.org/packages/Aspose.Words.Cpp/">Aspose.Words for C++ –NuGet Package</a></li>
             <li><a href="https://github.com/aspose-words/Aspose.words-for-C/">Aspose.Words for C++ examples, plugins and showcases</a></li>
             <li><a href="https://forum.aspose.com/c/words/8">Aspose.Words for C++ Free Support Forum</a></li>
             <li><a href="https://helpdesk.aspose.com/">Aspose.Words for C++ Paid Support Helpdesk</a></li>
@@ -163,7 +163,7 @@ Aspose.Words is a class library available on the most popular platforms that all
 <div class="row">
     <div class="col-md-6">
         <img src="home_4" alt="Aspose.Words for Reporting Services Product Logo" style="width:50px"/>
-        <p>Have you ever wished to export RDL and RDLC reports as OOXML, DOC, RTF, and WordprocessingML documents from Microsoft SQL Server Reporting Services? With Aspose.Words for Reporting Services, you can do it. Aspose.Words for Reporting Services is a rendering extension aimed at software developers. It supports Microsoft SQL Server 2005, 2008, 2008 R2, 2012, 2014, 2016, 2017, and 2019 Reporting Services, as well as in Microsoft Report Viewer 2005, 2008, 2010, 2012 and 2015.</p>
+        <p>Have you ever wished to export RDL and RDLC reports as OOXML, DOC, RTF, and WordprocessingML documents from Microsoft SQL Server Reporting Services? With Aspose.Words for Reporting Services, you can do it.Aspose.Words for Reporting Services is a rendering extension aimed at software developers. It supports Microsoft SQL Server 2005, 2008, 2008 R2, 2012, 2014, 2016, 2017, and 2019 Reporting Services, as well as in Microsoft Report Viewer 2005, 2008, 2010, 2012 and 2015.</p>
         <p>Below are quick links to some useful resources you may need to get started with Aspose.Words for Reporting Services:</p>
         <ul>
             <li><a href="https://products.aspose.com/words/reporting-services/">Aspose.Words for Reporting Services product page</a></li>

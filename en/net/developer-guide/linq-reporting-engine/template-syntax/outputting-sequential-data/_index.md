@@ -25,7 +25,7 @@ This page explains how to output sequential data such as lists or tables using t
 You can output a sequence of elements of the same type to your report using a data band. A *data band* has a body that represents a template for a single element of such a sequence. While building a report, sequence elements are enumerated, and the following procedure takes place for each of the elements:
 
 1. The data band body is duplicated and appended to the report.
-1. The appended data band body is populated with the element’s data.
+1. The appended data band body is populated with the element's data.
 
 **Note** – A data band body can contain nested data bands.
 
@@ -56,7 +56,7 @@ An opening `foreach` tag defines a `foreach` statement enclosed by brackets. The
     <tr>
 			<td>Iteration Variable Name</td>
       <td>Yes</td>
-      <td><p>You can specify the name of an iteration variable to use it while accessing the variable’s members. The name must be unique within the scope of the corresponding foreach tag.</p><p>If you do not specify the name, you can access the variable’s members using the contextual object member access syntax (see “Using Contextual Object Member Access” for more information).</p></td>
+      <td><p>You can specify the name of an iteration variable to use it while accessing the variable's members. The name must be unique within the scope of the corresponding foreach tag.</p><p>If you do not specify the name, you can access the variable's members using the contextual object member access syntax (see “Using Contextual Object Member Access” for more information).</p></td>
 		</tr>
     <tr>
 			<td>“in” Keyword</td>
@@ -66,7 +66,7 @@ An opening `foreach` tag defines a `foreach` statement enclosed by brackets. The
     <tr>
 			<td>Sequence Expression</td>
       <td>No</td>
-      <td>A sequence expression must return an <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=net-6.0">IEnumerable implementor</a>.</td>
+      <td>A sequence expression must return an <ahref="https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=net-6.0">IEnumerable implementor</a>.</td>
 		</tr>
 	</tbody>
 </table>
@@ -97,7 +97,7 @@ data_band_body
    **A:** No. The type is optional. If you omit it, the engine infers the type from the sequence you provide. Specify the type only when you need the engine to recognize a custom or external type.
 
 2. **Q:** How can I access the members of the iteration variable without giving it a name?  
-   **A:** When you omit the variable name, you can use the contextual object member access syntax, e.g., `{{Field}}`, to refer directly to the current element’s members inside the data band.
+   **A:** When you omit the variable name, you can use the contextual object member access syntax, e.g., `{{Field}}`, to refer directly to the current element's members inside the data band.
 
 3. **Q:** Is it possible to place a data band inside another data band?  
    **A:** Yes. Data band bodies may contain nested `foreach` tags, allowing you to output hierarchical data such as master‑detail relationships.

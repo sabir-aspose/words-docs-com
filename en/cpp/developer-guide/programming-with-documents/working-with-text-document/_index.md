@@ -15,9 +15,9 @@ timestamp: 2024-01-27-14-07-04
 
 In this article, we will learn what options can be useful for working with a text document via Aspose.Words. Please note that this is not a complete list of available options, but only an example of working with some of them.
 
-## Add Bi-Directional Marks
+## AddBi-Directional Marks
 
-You can use the [AddBidiMarks](https://reference.aspose.com/words/cpp/aspose.words.saving/txtsaveoptions/get_addbidimarks/) property to specify whether to add bi-directional marks before each BiDi run when exporting in plain text format. Aspose.Words inserts Unicode Character 'RIGHT-TO-LEFT MARK' (U+200F) before each bi-directional Run in the text. This option corresponds to "Add bi-directional marks" option in MS Word File Conversion dialogue when you export to a Plain Text format. Note that it appears in dialogue only if any of Arabic or Hebrew editing languages are added in MS Word.
+You can usethe [AddBidiMarks](https://reference.aspose.com/words/cpp/aspose.words.saving/txtsaveoptions/get_addbidimarks/) property to specify whether to add bi-directional marks before each BiDi run when exporting in plain text format. Aspose.WordsinsertsUnicode Character 'RIGHT-TO-LEFT MARK' (U+200F) before each bi-directional Run in the text. This option corresponds to "Add bi-directional marks" option in MS Word File Conversiondialoguewhen you export to a Plain Text format. Note that it appears indialogueonly if any of Arabic or Hebrew editing languages are added in MS Word.
 
 The following code example shows how to use **AddBidiMarks** property. The default value of this property is *false*:
 
@@ -25,10 +25,10 @@ The following code example shows how to use **AddBidiMarks** property. The defau
 
 ## Recognize List Items During Loading TXT
 
-Aspose.Words can import list item of a text file as list numbers or plain text in its document object model. The [DetectNumberingWithWhitespaces](https://reference.aspose.com/words/cpp/aspose.words.loading/txtloadoptions/get_detectnumberingwithwhitespaces/) property allows to specify how numbered list items are recognized when a document is imported from plain text format:
+Aspose.Words can import list item of a text file as list numbers or plain text in its document object model. The [DetectNumberingWithWhitespaces](https://reference.aspose.com/words/cpp/aspose.words.loading/txtloadoptions/get_detectnumberingwithwhitespaces/) property allowsto specifyhow numbered list items are recognized when a document is imported from plain text format:
 
-* If this option is set to *true*, whitespaces are also used as list number delimiters: list recognition algorithm for Arabic style numbering (1., 1.1.2.) uses both whitespaces and dot (".") symbols.
-* If this option is set to *false*, lists recognition algorithm detects list paragraphs, when list numbers end with either dot, right bracket or bullet symbols (such as "•", "*", "-" or "o").
+* If this option is set to*true*, whitespaces are also used as list numberdelimiters: list recognition algorithm for Arabic style numbering (1., 1.1.2.) uses both whitespaces and dot (".") symbols.
+* If this option is set to*false*, lists recognition algorithm detects list paragraphs, when list numbers end with either dot, right bracket or bullet symbols (such as "•", "*", "-" or "o").
 
 The following code example shows how to use this property:
 
@@ -44,7 +44,7 @@ The following code example shows how to trim leading and trailing spaces while i
 
 ## Export Header and Footer in Output TXT
 
-If you want to export header and footer in output TXT document, you can use the [ExportHeadersFootersMode](https://reference.aspose.com/words/cpp/aspose.words.saving/txtsaveoptionsbase/get_exportheadersfootersmode/) property. This property specifies the way headers and footers are exported to the plain text format.
+If you want to export header and footer in output TXT document, you can usethe [ExportHeadersFootersMode](https://reference.aspose.com/words/cpp/aspose.words.saving/txtsaveoptionsbase/get_exportheadersfootersmode/) property. This property specifies the way headers and footers are exported to the plain text format.
 
 The following code example shows how to export headers and footers to plain text format:
 
@@ -52,9 +52,9 @@ The following code example shows how to export headers and footers to plain text
 
 ## Export List Indentation in Output TXT
 
-Aspose.Words introduced the [TxtListIndentation](https://reference.aspose.com/words/cpp/aspose.words.saving/txtlistindentation/) class that allows specifying how list levels are indented while exporting to a plain text format. While working with [TxtSaveOption](https://reference.aspose.com/words/cpp/aspose.words.saving/txtsaveoptions/), the [ListIndentation](https://reference.aspose.com/words/cpp/aspose.words.saving/txtsaveoptions/get_listindentation/) property is provided to specify the character to be used for indenting list levels and count specifying how many characters to use as indentation per one list level.
+Aspose.Words introduced the [TxtListIndentation](https://reference.aspose.com/words/cpp/aspose.words.saving/txtlistindentation/) class that allows specifying how list levels are indented while exporting to a plain text format. While working with [TxtSaveOption](https://reference.aspose.com/words/cpp/aspose.words.saving/txtsaveoptions/), the[ListIndentation](https://reference.aspose.com/words/cpp/aspose.words.saving/txtsaveoptions/get_listindentation/) property is provided to specify the character to beused for indenting list levels andcount specifyinghow many characters to use as indentation per one list level.
 
-The default value for character property is '\0' indicating that there is no indentation. For count property, the default value is 0 which means no indentation.
+The default value for character property is'\0' indicating that there is no indentation. For count property, the default value is 0 which means no indentation.
 
 ### Using Tab Character
 

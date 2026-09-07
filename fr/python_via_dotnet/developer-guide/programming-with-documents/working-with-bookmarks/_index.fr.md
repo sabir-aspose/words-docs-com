@@ -19,7 +19,7 @@ Les actions pouvant être effectuées avec les signets à l'aide de Aspose.Words
 
 ## Insérer un signet
 
-Utilisez [start_bookmark](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/start_bookmark/) et [end_bookmark](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_bookmark/) pour créer un signet en marquant respectivement son début et sa fin. N'oubliez pas de transmettre le même nom de signet aux deux méthodes. Les signets d’un document peuvent se chevaucher et s’étendre sur n’importe quelle plage. Les signets mal formés ou les signets avec des noms en double seront ignorés lors de l'enregistrement du document.
+Utilisez [start_bookmark](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/start_bookmark/) et [end_bookmark](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_bookmark/) pour créer un signet en marquant respectivement son début et sa fin. N'oubliez pas de transmettre le même nom de signet aux deux méthodes. Les signets d'un document peuvent se chevaucher et s'étendre sur n'importe quelle plage. Les signets mal formés ou les signets avec des noms en double seront ignorés lors de l'enregistrement du document.
 
 {{% alert color="primary" %}}
 

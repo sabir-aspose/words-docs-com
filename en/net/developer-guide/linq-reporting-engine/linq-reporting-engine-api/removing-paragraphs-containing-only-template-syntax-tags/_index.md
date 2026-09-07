@@ -29,7 +29,7 @@ engine.Options | = ReportBuildOptions.RemoveEmptyParagraphs;
 engine.BuildReport(...);
 {{< /highlight >}}
 
-The difference in the engine’s behavior when the option is applied and not applied is illustrated by the following examples.
+The difference in the engine's behavior when the option is applied and not applied is illustrated by the following examples.
 
 **Example 1**
 

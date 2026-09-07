@@ -37,7 +37,7 @@ Comme vous le savez, de nombreux formats modernes comme DOCX, ODT, etc. sont de 
   * 294 Mo pour le document "A"
   * 7 Mo pour le document "B"
 
-Ainsi, comme vous pouvez le constater, il n’y a pas de dépendance linéaire à la taille du document d’entrée. De nombreux facteurs peuvent affecter la taille de RAM requise: le format du document, sa complexité et sa structure, le nombre d'images et leur format, et bien d'autres facteurs.
+Ainsi, comme vous pouvez le constater, il n'y a pas de dépendance linéaire à la taille du document d'entrée. De nombreux facteurs peuvent affecter la taille de RAM requise: le format du document, sa complexité et sa structure, le nombre d'images et leur format, et bien d'autres facteurs.
 
 ## Comment calculer le multiplicateur de mémoire avec la plus grande précision
 

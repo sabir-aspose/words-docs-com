@@ -3,7 +3,7 @@ title: Introduction
 second_title: Aspose.Words for JasperReports
 articleTitle: Introduction
 linktitle: Introduction
-description: "Aspose.Words for JasperReports provides a number of parameters that affect the resulting Microsoft Word document’s appearance."
+description: "Aspose.Words for JasperReports provides a number of parameters that affect the resulting Microsoft Word document's appearance."
 type: docs
 weight: 70
 url: /jasperreports/introduction/
@@ -12,7 +12,7 @@ timestamp: 2024-01-27-14-07-04
 
 {{% alert color="primary" %}}
 
-Aspose.Words for JasperReports provides a number of parameters that affect the resulting Microsoft Word document’s appearance. There are two ways of setting these parameters’ values, depending on whether you export reports from **JasperReports** or **JasperServer**:
+Aspose.Words for JasperReports provides a number of parameters that affect the resulting Microsoft Word document's appearance. There are two ways of setting these parameters' values, depending on whether you export reports from **JasperReports** or **JasperServer**:
 
 - If you export reports from **JasperReports**, you should set the values in the code. Use the **AWExporterParameter** class that contains the parameters: 
 

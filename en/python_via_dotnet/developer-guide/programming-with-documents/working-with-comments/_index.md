@@ -85,7 +85,7 @@ The following code example shows how to extract the author name, date&time and t
 
 After you have selected [Comment](https://reference.aspose.com/words/python-net/aspose.words/comment/) nodes into a collection, all you have to do is extract the information you need. In this sample, author initials, date, time and the plain text of the comment is combined into one string; you could choose to store it in some other ways instead.
 
-The overloaded method that extracts the Comments from a particular author is almost the same, it just checks the author’s name before adding the info into the array.
+The overloaded method that extracts the Comments from a particular author is almost the same, it just checks the author's name before adding the info into the array.
 
 The following code example shows how to extract the author name, date&time and text of the comments by the specified author:
 
@@ -121,7 +121,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 Using Aspose.Words you can also remove comments between the **CommentRangeStart** and **CommentRangeEnd** nodes.
 
-The following code example shows how to remove text between **CommentRangeStart** and **CommentRangeEnd**:
+The following code example shows how to remove text between**CommentRangeStart** and **CommentRangeEnd**:
 
 {{< highlight python >}}
 # Open the document.
@@ -167,7 +167,7 @@ The following code example shows how to iterate through a comment's replies and 
 ## FAQ
 
 1. Q: How can I extract all comments from a Word document using Python?  
-   A: Load the document with `aw.Document`, then call `doc.get_child_nodes(aw.NodeType.COMMENT, True)` to obtain a `NodeCollection` of `Comment` objects. Iterate the collection to read each comment’s `author`, `date_time`, and `text`. Example:  
+   A: Load the document with `aw.Document`, then call `doc.get_child_nodes(aw.NodeType.COMMENT, True)` to obtain a `NodeCollection` of `Comment` objects. Iterate the collection to read each comment's `author`, `date_time`, and `text`. Example:  
 
    ```python
    doc = aw.Document("input.docx")

@@ -212,7 +212,7 @@ For additional details, see the official documentation:
    ```
 
 2. **Q:** How can I copy a section from one document into another document?  
-   **A:** Import the section node using `NodeImporter.ImportNode` with `ImportFormatMode.KeepSourceFormatting`. Then add the imported node to the target document’s `Sections` collection.  
+   **A:** Import the section node using `NodeImporter.ImportNode` with `ImportFormatMode.KeepSourceFormatting`. Then add the imported node to the target document's `Sections` collection.  
 
    ```csharp
    Document source = new Document("Source.docx");

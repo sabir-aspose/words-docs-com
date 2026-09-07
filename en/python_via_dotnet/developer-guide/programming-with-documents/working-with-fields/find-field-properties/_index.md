@@ -17,7 +17,7 @@ timestamp: 2026-02-03-11-08-55
 
 *Purpose Summary. What is this page about?*
 
-This page demonstrates how to retrieve a field’s code, result, and merge‑field names using Aspose.Words for Python via .NET.
+This page demonstrates how to retrieve a field's code, result, and merge‑field names using Aspose.Words for Python via .NET.
 
 {{% /alert %}}
 
@@ -49,5 +49,5 @@ The following code example shows how to get names of all merge fields in a docum
 4. **Q:** Can I differentiate between different field types (e.g., MERGEFIELD, REF, PAGE) programmatically?  
    **A:** Yes. The `field.type` property returns a `FieldType` enumeration value. Compare it with members such as `aw.fields.FieldType.FIELD_MERGE_FIELD`, `aw.fields.FieldType.FIELD_REF`, etc., to identify the field type.
 
-5. **Q:** How can I modify a field’s code after it has been created?  
+5. **Q:** How can I modify a field's code after it has been created?  
    **A:** Retrieve the field code with `field.get_field_code()`, edit the string as needed, and then assign the modified code back using `field.set_field_code(modified_code)`. After updating, call `field.update()` to re‑evaluate the field.

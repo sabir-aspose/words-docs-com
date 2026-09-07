@@ -15,7 +15,7 @@ timestamp: 2024-01-27-14-07-04
 
 Cette documentation fait parfois référence à un groupe de classes de nœuds comme appartenant à un "niveau" dans un document, tel que les nœuds "niveau bloc", "niveau en ligne" (également appelé "en ligne") ou "niveau ligne".. Ces niveaux dans un document sont différenciés de manière purement logique et ne sont pas explicitement exprimés par héritage ou par d'autres moyens Aspose.Words DOM. Le niveau nœud est utilisé pour décrire l'endroit dans l'arborescence du document où le nœud apparaîtrait généralement.
 
-Dans l'article précédent, nous avons déjà parlé de la relation entre les nœuds et du fait que tous les nœuds ne sont pas autorisés à être les enfants de n'importe quel nœud. Par exemple, Cell ne peut être qu’un enfant Row, et Row ne peut être qu’un enfant Table, et ainsi de suite. Ces relations sont également applicables pour la division logique des nœuds en niveaux dans le document.
+Dans l'article précédent, nous avons déjà parlé de la relation entre les nœuds et du fait que tous les nœuds ne sont pas autorisés à être les enfants de n'importe quel nœud. Par exemple, Cell ne peut être qu'un enfant Row, et Row ne peut être qu'un enfant Table, et ainsi de suite. Ces relations sont également applicables pour la division logique des nœuds en niveaux dans le document.
 
 Les sections suivantes décrivent les niveaux logiques des nœuds dans Aspose.Words et les classes qui appartiennent à chaque niveau.
 

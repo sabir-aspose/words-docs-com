@@ -93,16 +93,16 @@ The following code example shows how to optimize document content for Microsoft 
 ## FAQ
 
 1. **Q:** How can I set the initial zoom level of a document when it is opened in Microsoft Word?  
-   **A:** Use the `ViewOptions` class and set its `zoom_percent` property to the desired percentage (e.g., `50`). Then assign the `ViewOptions` instance to the document’s `view_options` property before saving.
+   **A:** Use the `ViewOptions` class and set its `zoom_percent` property to the desired percentage (e.g., `50`). Then assign the `ViewOptions` instance to the document's `view_options` property before saving.
 
 2. **Q:** Which properties control the number of characters per line and lines per page in a document?  
-   **A:** The `PageSetup` class provides `characters_per_line` and `lines_per_page`. Set these properties on the document’s `page_setup` object to define the document grid used by Word, especially for Asian language layouts.
+   **A:** The `PageSetup` class provides `characters_per_line` and `lines_per_page`. Set these properties on the document's `page_setup` object to define the document grid used by Word, especially for Asian language layouts.
 
 3. **Q:** How do I add or change editing languages for a document?  
    **A:** Create a `LanguagePreferences` object, add the desired language codes (e.g., `"ja-JP"` for Japanese) to its `editing_languages` collection, and assign it to the `load_options.language_preferences` before loading or saving the document.
 
 4. **Q:** What is the purpose of the `optimize_for` method, and when should I use it?  
-   **A:** `optimize_for` configures compatibility options so the document opens without Word’s “Compatibility mode” ribbon for a specific Word version (e.g., `CompatibilityOptions.OptimizeFor.WORD_2016`). Use it when you need the document to behave like it was created in that version.
+   **A:** `optimize_for` configures compatibility options so the document opens without Word's “Compatibility mode” ribbon for a specific Word version (e.g., `CompatibilityOptions.OptimizeFor.WORD_2016`). Use it when you need the document to behave like it was created in that version.
 
 5. **Q:** How can I ensure the document renders correctly for a specific Microsoft Word version?  
    **A:** Set the `LoadOptions.msw_version` property to the target Word version (e.g., `MsWordVersion.WORD_2016`). This makes Aspose.Words emulate the rendering and layout behavior of that Word version during loading.

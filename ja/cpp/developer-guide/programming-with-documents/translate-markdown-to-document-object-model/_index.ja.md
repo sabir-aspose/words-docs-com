@@ -56,7 +56,7 @@ Word文書とは対照的に、Markdownは、Word文書で説明されているD
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Autolink.h" >}} |  |
 | **Link**<br />`[link text](url)`<br />`[link text](<url>"title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/)クラス。 |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Link.h" >}} |  |
-| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/)クラス。 |
+| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title')`<br />`![alt text](url (title))` | [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/)クラス。 |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Image.h" >}} |  |
 
 ## コンテナブロック
@@ -92,9 +92,9 @@ else
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `get_ParagraphFormat()->set_StyleName(u"Quote[some suffix]")`<br />スタイル名の接尾辞はオプションですが、Aspose.Wordsインポーターは順序付けられた番号を使用します1, 2, 3, .... ネストされた引用符の場合。<br />ネストは、継承されたスタイルを介して定義されます。 |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Quote.h" >}} |  |
-| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | 箇条書きリストは、段落番号を使用して表されます:<br />`get_ListFormat()->ApplyBulletDefault()`<br />箇条書きリストには3種類があります。 それらは、最初のレベルの番号付け形式でのみdiffです。 これらは、それぞれ`‘-’`、`‘+’`、または`‘*’`です。 |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | 箇条書きリストは、段落番号を使用して表されます:<br />`get_ListFormat()->ApplyBulletDefault()`<br />箇条書きリストには3種類があります。 それらは、最初のレベルの番号付け形式でのみdiffです。 これらは、それぞれ`‘-'`、`‘+'`、または`‘*'`です。 |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-BulletedList.h" >}} |  |
-| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | 順序付けられたリストは、段落番号を使用して表されます:<br />`get_ListFormat()->ApplyNumberDefault()`<br />2の数値書式マーカー‘.’と‘)’が存在することができます。 デフォルトのマーカーは‘.’です。 |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | 順序付けられたリストは、段落番号を使用して表されます:<br />`get_ListFormat()->ApplyNumberDefault()`<br />2の数値書式マーカー‘.'と‘)'が存在することができます。 デフォルトのマーカーは‘.'です。 |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-OrderedList.h" >}} |  |
 
 ### テーブル

@@ -61,7 +61,7 @@ To merge cells in a table created with the [DocumentBuilder](https://reference.a
 
 Also, you must remember to clear the merge setting for those cells where no merge is required – this can be done by setting the first non-merge cell to **CellMerge.None**. If this is not done, all cells in the table will be merged.
 
-The following code example shows how to create a table with two rows where the cells in the first row are merged horizontally:
+The following code example shows how tocreate a table with two rows where the cells in the first row are merged horizontally:
 
 {{< gist "aspose-words-gists" "b89ea9092bd2486dc056818cf4f73e24" "horizontal-merge.py" >}}
 

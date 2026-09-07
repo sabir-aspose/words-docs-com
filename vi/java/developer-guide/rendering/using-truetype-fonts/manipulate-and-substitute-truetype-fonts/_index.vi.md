@@ -142,7 +142,7 @@ Nếu **FontInfo** có sẵn, quy tắc *substitution FontInfo* sẽ luôn giả
 - "substitution bảng" – để thay thế bằng quy tắc bảng
 "- thông tin phông chữ thay thế" – "cho việc thay thế bằng quy tắc thông tin phông chữ"
 "- "phân thể mặc định" – cho phép thay thế theo quy tắc phông chữ mặc định"
-"- ‘phông chữ đầu tiên có sẵn’ – để thay thế bằng phông chữ đầu tiên có sẵn"
+"- ‘phông chữ đầu tiên có sẵn' – để thay thế bằng phông chữ đầu tiên có sẵn"
 
 ## Cài đặt Font FallBack từ XML
 

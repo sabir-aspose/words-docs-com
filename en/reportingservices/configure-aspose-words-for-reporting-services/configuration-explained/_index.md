@@ -78,9 +78,9 @@ Every export format has its own configuration XML element. Therefore, if you wan
 
    1.1. Add a textbox to any place in the report.
 
-   1.2. Set textbox visibility to **Hidden**. 
+   1.2. Set textbox visibility to **Hidden**.
 
-   1.3. Set textbox name to a **configuration**. 
+   1.3. Set textbox name to a **configuration**.
 
    1.4. Set textbox text to the XML similar to that you would specify in the *&lt;Configuration&gt;* element of the configuration file. For example, to make this particular report be exported in positioned layout mode, set the text to **&lt;DocumentLayout&gt;Positioned&lt;/DocumentLayout&gt;** . You can specify any number of any number of configuration settings in a sequence, for example **&lt;DocumentLayout&gt;Positioned&lt;/DocumentLayout&gt;** **&lt;PageBreaks&gt;OnEachPage&lt;/PageBreaks&gt;&lt;SpacingFactor&gt;0.75&lt;/SpacingFactor&gt;** .
 

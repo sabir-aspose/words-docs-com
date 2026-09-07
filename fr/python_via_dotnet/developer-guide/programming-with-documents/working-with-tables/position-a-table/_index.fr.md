@@ -60,7 +60,7 @@ L'exemple de code suivant montre comment obtenir la position d'une table flottan
 
 Tout comme pour obtenir, vous pouvez définir la position d'une table flottante en utilisant le même Aspose.Words API.
 
-Il est important de savoir que l’alignement et la distance horizontale et verticale sont des propriétés combinées et que l’une peut réinitialiser l’autre. Par exemple, la configuration du **RelativeHorizontalAlignment** réinitialisera le **AbsoluteHorizontalDistance** à sa valeur par défaut et vice versa. Il en va de même pour true pour la disposition verticale.
+Il est important de savoir que l'alignement et la distance horizontale et verticale sont des propriétés combinées et que l'une peut réinitialiser l'autre. Par exemple, la configuration du **RelativeHorizontalAlignment** réinitialisera le **AbsoluteHorizontalDistance** à sa valeur par défaut et vice versa. Il en va de même pour true pour la disposition verticale.
 
 L'exemple de code suivant montre comment définir la position d'une table flottante:
 

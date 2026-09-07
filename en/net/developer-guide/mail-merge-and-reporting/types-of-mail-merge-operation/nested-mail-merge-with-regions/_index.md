@@ -55,7 +55,7 @@ The image below shows how the data from the *Order* table passed to the nested m
 
 <img src="nested-mail-merge-with-regions-2.png" alt="mail_merge_with_nested_regions" style="width:650px"/>
 
-As you can see from the output document, each order from the **Order** table is inserted into the merge template with all order’s related items from the **Item** table. The next order will be inserted along with their items until all the orders and items are listed. The order of nesting Mail Merge with regions in the template must match the data relationships between the tables in the data source.
+As you can see from the output document, each order from the **Order** table is inserted into the merge template with all order's related items from the **Item** table. The next order will be inserted along with their items until all the orders and items are listed. The order of nesting Mail Merge with regions in the template must match the data relationships between the tables in the data source.
 
 The following code example shows how to generate an invoice using nested Mail Merge with regions:
 
@@ -79,7 +79,7 @@ If Mail Merge is not working as expected, then you may need to restructure your 
 
 A `DataSet` that has related data tables will use the **DataRelation** object to represent the parent‑child relationship between the tables.
 
-The following code example shows how to establish a `DataRelation` between a customer’s table and an order’s table by using a `DataRelation` object:
+The following code example shows how to establish a `DataRelation` between a customer's table and an order's table by using a `DataRelation` object:
 
 {{< gist "aspose-words-gists" "c68048adceb3bda6a1511c7d6f5ebf7b" "disable-foreign-key-constraints.cs" >}}
 
@@ -102,7 +102,7 @@ The following example shows how to create data relations using **GetChildDataSou
    **A:** Yes. Implement the `IMailMergeDataSource` interface and provide a `GetChildDataSource` method that returns another `IMailMergeDataSource` for the child records. Aspose.Words will treat the returned source as the nested region.
 
 3. **Q:** How can I apply conditional logic (IF fields) inside a nested region?  
-   **A:** Use Word’s built‑in IF field syntax inside the region, e.g., `{ IF { MERGEFIELD Quantity } > 0 "In Stock" "Out of Stock" }`. The field will be evaluated for each record during the merge.
+   **A:** Use Word's built‑in IF field syntax inside the region, e.g., `{ IF { MERGEFIELD Quantity } > 0 "In Stock" "Out of Stock" }`. The field will be evaluated for each record during the merge.
 
 4. **Q:** My mail merge fails with “The relationship … does not exist”. What should I check?  
    **A:** Verify that the `DataRelation` name used in the template matches the relation name in the `DataSet`. Also confirm that the parent and child tables contain the linking columns and that the relation is added to the `DataSet.Relations` collection before calling `ExecuteWithRegions`.

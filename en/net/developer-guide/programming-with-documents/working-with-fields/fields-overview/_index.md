@@ -42,7 +42,7 @@ A field consists of:
 
 The content which makes up the field code is stored as [Run](https://reference.aspose.com/words/net/aspose.words/run/) nodes between the [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) and [FieldSeparator](https://reference.aspose.com/words/net/aspose.words.fields/fieldseparator/). The field result is stored between the **FieldSeparator** and [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) nodes and can be made up of various types of content. Normally the field result contains just text made up of **Run** nodes, however it is possible for the **FieldEnd** node to be located in a completely different paragraph, and thus making the field result comprised of [block level nodes](/words/net/logical-levels-of-nodes-in-a-document/) such as **Table** and **Paragraph** nodes as well.
 
-Here is a view of how a field is stored in Aspose.Words by using the “*DocumentExplorer”* example which can be found on [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Examples/DocsExamples/DocumentExplorer).
+Here is a view of how a field is stored in Aspose.Words by using the “*DocumentExplorer”*example which can be found on [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Examples/DocsExamples/DocumentExplorer).
 
 ![document-explorer-aspose-words](fields-overview-2.png)
 
@@ -185,7 +185,7 @@ Aspose.Words supports all date and time formatting switches available in Microso
 
 ### Mail Merge Fields
 
-Aspose.Words imposes no limit on the complexity of Mail Merge fields in your documents and supports nested `IF` and formula fields and can even calculate the merge field’s name using a formula.
+Aspose.Words imposes no limit on the complexity of Mail Merge fields in your documents and supports nested `IF` and formula fields and can even calculate the merge field's name using a formula.
 
 Some examples of Mail Merge fields that Aspose.Words supports:
 
@@ -218,7 +218,7 @@ When Aspose.Words calculates a field result, it often needs to parse a string in
 - by default the [FieldUpdateCultureSource](https://reference.aspose.com/words/net/aspose.words.fields/fieldoptions/fieldupdateculturesource/) property is set to [CurrentThread](https://reference.aspose.com/words/net/aspose.words.fields/fieldupdateculturesource/) which formats fields using the current thread culture
 - this property can be set to [FieldCode](https://reference.aspose.com/words/net/aspose.words.fields/fieldupdateculturesource/) so the language set from the field code of the field is used for formatting instead
 
-### Formatting using the Current Thread’s Culture
+### Formatting using the Current Thread's Culture
 
 To control the culture used during field calculation, just set the **Thread.CurrentThread.CurrentCulture** property to a culture of your choice before invoking field calculation.
 

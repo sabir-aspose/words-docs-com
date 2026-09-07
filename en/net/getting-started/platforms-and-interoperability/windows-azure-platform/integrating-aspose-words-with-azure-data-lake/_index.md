@@ -28,7 +28,7 @@ This article explains how to configure a C# project in Visual Studio with ADLA, 
 
 ## Prerequisites
 
-* Active Microsoft Azure subscription. If you don’t have one, create a free account before you begin.
+* Active Microsoft Azure subscription. If you don't have one, create a free account before you begin.
 
 * Visual Studio 2019 or Visual Studio 2017 with installed Azure development.
 

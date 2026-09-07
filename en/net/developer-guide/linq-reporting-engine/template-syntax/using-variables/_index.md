@@ -77,11 +77,11 @@ Using of variables has the following restrictions:
 2. **Q:** Can I explicitly set the variable type, and when should I do it?  
    **A:** Yes. Include the type before the variable name, e.g., `<<var [int total = 0]>>`. Specify the type when the engine must know the exact CLR type, such as for numeric calculations or when the value cannot be inferred.
 
-3. **Q:** Is it possible to change a variable’s type after it has been declared?  
-   **A:** No. Once a variable’s type is defined, it cannot be redefined. Attempting to assign a value of a different type will cause a runtime error.
+3. **Q:** Is it possible to change a variable's type after it has been declared?  
+   **A:** No. Once a variable's type is defined, it cannot be redefined. Attempting to assign a value of a different type will cause a runtime error.
 
 4. **Q:** How can I access the value of a variable later in the same template?  
    **A:** Insert the variable name inside double‑angle brackets, e.g., `<<[myVar]>>`. The engine replaces this placeholder with the current value of `myVar`.
 
-5. **Q:** What restrictions apply when redefining a variable’s value?  
+5. **Q:** What restrictions apply when redefining a variable's value?  
    **A:** You may change the value, but you cannot change its type, use contextual object member access on it, or redefine iteration variables or data‑source variables with a `var` tag.

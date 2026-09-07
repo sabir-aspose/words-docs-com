@@ -17,7 +17,7 @@ Aspose.Words allows users to work with ChartSeriesCollection in a few ways.
 
 ## Working with ChartSeriesCollection of Chart
 
-Let’s look into [ChartSeries](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartseries/) collection. All chart series are available through [ChartSeriesCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartseriescollection/):
+Let's look into [ChartSeries](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartseries/) collection. All chart series are available through [ChartSeriesCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartseriescollection/):
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-CreateColumnChart-ChartSeriesCollection.cpp" >}}
 

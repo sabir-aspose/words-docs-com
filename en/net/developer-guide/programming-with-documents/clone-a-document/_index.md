@@ -65,4 +65,4 @@ The following code example shows how to clone a document and create a duplicate 
    **A:** Individual nodes also implement a `Clone` method. Retrieve the node you want to duplicate (e.g., a `Section` or `Paragraph`) and call its `Clone` method, optionally passing `CloneOptions` to include or exclude child nodes. The returned node can then be inserted into another document.
 
 4. **Q:** Will cloning a protected document retain its protection settings, and can I modify them after cloning?  
-   **A:** The protection settings are part of the document’s properties, so they are cloned as well. After cloning, you can change or remove protection on the cloned document using the `Protection` API without affecting the original document’s protection.
+   **A:** The protection settings are part of the document's properties, so they are cloned as well. After cloning, you can change or remove protection on the cloned document using the `Protection` API without affecting the original document's protection.

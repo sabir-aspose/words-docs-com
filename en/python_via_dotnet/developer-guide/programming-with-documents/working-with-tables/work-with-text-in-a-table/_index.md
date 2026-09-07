@@ -17,7 +17,7 @@ timestamp: 2026-02-03-11-08-55
 
 *Purpose Summary. What is this page about?*
 
-This page demonstrates how to work with text in an existing table using Aspose.Words for Python, covering text replacement, plain‑text extraction from tables or cells, and setting a table’s title and description.
+This page demonstrates how to work with text in an existing table using Aspose.Words for Python, covering text replacement, plain‑text extraction from tables or cells, and setting a table's title and description.
 
 {{% /alert %}}
 

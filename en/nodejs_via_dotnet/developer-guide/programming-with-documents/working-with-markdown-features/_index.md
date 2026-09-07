@@ -13,7 +13,7 @@ url: /nodejs-net/working-with-markdown-features/
 timestamp: 2024-01-31-14-23-37
 ---
 
-This topic discusses how to implement Markdown features using Aspose.Words. Markdown is a simple way to format plain text that can easily be converted to HTML. Aspose.Words supports the following Markdown features:
+This topic discusses how to implement Markdown features using Aspose.Words. Markdown is a simple way to format plain text that can easily be converted to HTML. Aspose.Words supportsthe following Markdown features:
 
 - Headings
 - Blockquotes
@@ -21,11 +21,11 @@ This topic discusses how to implement Markdown features using Aspose.Words. Mark
 - Bold emphasis
 - Italic emphasis
 
-The Markdown feature implementation mostly follows the `CommonMark` specification in Aspose.Words API and all the features are represented as corresponding styles or direct formatting. Which means that
+The Markdown feature implementationmostly follows the `CommonMark` specification in Aspose.Words API and all the features are represented as corresponding styles or direct formatting. Which means that
 
-- Bold and Italic are represented as [Font.bold](https://reference.aspose.com/words/nodejs-net/aspose.words/font/bold/) and [Font.Italic](https://reference.aspose.com/words/nodejs-net/aspose.words/font/italic/). 
-- Headings are paragraphs with Heading 1 - Heading 6 styles. 
-- Quotes are paragraphs with "Quote" in the style name. 
+- Bold and Italic are represented as [Font.bold](https://reference.aspose.com/words/nodejs-net/aspose.words/font/bold/) and [Font.Italic](https://reference.aspose.com/words/nodejs-net/aspose.words/font/italic/).
+- Headings are paragraphs with Heading 1 - Heading 6 styles.
+- Quotes are paragraphs with "Quote" in the style name.
 - HorizontalRule is a paragraph with HorizontalRule shape.
 
 {{% alert color="primary" %}}
@@ -118,6 +118,6 @@ The following code example demonstrated how to specify various Markdown save opt
 
 ## How to Align Content Inside the Table while Exporting into Markdown
 
-Aspose.Words API provides [TableContentAlignment](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/tablecontentalignment/) enumeration which defines alignment directions to align contents in tables while exporting into the Markdown document. The following code example demonstrates how to align content inside the table.
+Aspose.Words API provides[TableContentAlignment](https://reference.aspose.com/words/nodejs-net/aspose.words.saving/tablecontentalignment/) enumeration which defines alignment directions to align contents in tables while exporting into the Markdown document. The following code example demonstrates how to align content inside the table.
 
 {{< gist "aspose-words-gists" "757cf7d3534a39730cf3290d418681ab" "markdown-table-content-alignment.js" >}}

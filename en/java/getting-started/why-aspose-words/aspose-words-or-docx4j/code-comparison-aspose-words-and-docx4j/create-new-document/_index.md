@@ -17,7 +17,7 @@ timestamp: 2024-01-27-14-07-04
 
 Call the Document constructor without parameters to create a new blank document.
 
-If you want to generate a document programmatically, the most reasonable step after creation is to use **DocumentBuilder** to add document contents.
+If you want to generate a document programmatically, the most reasonable step after creation is to use**DocumentBuilder**to add document contents.
 
 **Java**
 

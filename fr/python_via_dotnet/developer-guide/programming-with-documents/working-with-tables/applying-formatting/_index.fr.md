@@ -249,7 +249,7 @@ De plus, la propriété **AllowAutoFit** peut être utilisée conjointement avec
 
 Par défaut, Aspose.Words insère une nouvelle table en utilisant **Ajustement automatique à la fenêtre**. Le tableau sera dimensionné en fonction de la largeur de page disponible. Pour redimensionner un tableau, vous pouvez appeler la méthode [AutoFit](https://reference.aspose.com/words/python-net/aspose.words.tables/table/auto_fit/#autofitbehavior). Cette méthode accepte une énumération [AutoFitBehavior](https://reference.aspose.com/words/python-net/aspose.words.tables/autofitbehavior/) qui spécifie le type d'ajustement automatique appliqué à la table.
 
-Il est important de savoir que la méthode d’ajustement automatique est en réalité un raccourci qui applique simultanément différentes propriétés au tableau. Ce sont des propriétés qui donnent réellement au tableau le comportement observé. Nous discuterons de ces propriétés pour chaque option d’ajustement automatique.
+Il est important de savoir que la méthode d'ajustement automatique est en réalité un raccourci qui applique simultanément différentes propriétés au tableau. Ce sont des propriétés qui donnent réellement au tableau le comportement observé. Nous discuterons de ces propriétés pour chaque option d'ajustement automatique.
 
 L'exemple de code suivant montre comment définir un tableau pour réduire ou agrandir chaque cellule en fonction de son contenu:
 
@@ -346,7 +346,7 @@ Toutes les modifications apportées à la propriété width ne sont pas mises à
 
 {{% alert color="primary" %}}
 
-Lors de la création d’une disposition de tableau fixe, spécifiez la largeur des cellules. Une cellule sans largeur ne peut pas être enregistrée au format DOC. Les formats de documents autres que DOC, tels que DOCX, permettent, en principe, d'enregistrer des cellules sans largeur dans une disposition de tableau fixe.
+Lors de la création d'une disposition de tableau fixe, spécifiez la largeur des cellules. Une cellule sans largeur ne peut pas être enregistrée au format DOC. Les formats de documents autres que DOC, tels que DOCX, permettent, en principe, d'enregistrer des cellules sans largeur dans une disposition de tableau fixe.
 
 {{% /alert %}}
 

@@ -3,7 +3,7 @@ title: Travailler avec des polices dans C#
 second_title: Aspose.Words pour .NET
 articleTitle: Travailler avec des polices
 linktitle: Travailler avec des polices
-description: "Formatage des polices en détails à l'aide de C#. Marque d'accentuation dans C#. Obtenez l’espacement des lignes de police à l’aide de C#."
+description: "Formatage des polices en détails à l'aide de C#. Marque d'accentuation dans C#. Obtenez l'espacement des lignes de police à l'aide de C#."
 type: docs
 weight: 230
 ai_search_scope: words_net
@@ -27,7 +27,7 @@ Les propriétés de remplissage sont également disponibles pour les polices afi
 
 ## Obtenir l'espacement des lignes de police
 
-L'espacement des lignes de police est la distance verticale entre les lignes de base de deux lignes de texte consécutives. Ainsi, l’espacement des lignes inclut l’espace vide entre les lignes ainsi que la hauteur du caractère lui-même.
+L'espacement des lignes de police est la distance verticale entre les lignes de base de deux lignes de texte consécutives. Ainsi, l'espacement des lignes inclut l'espace vide entre les lignes ainsi que la hauteur du caractère lui-même.
 
 La propriété [LineSpacing](https://reference.aspose.com/words/fr/net/aspose.words/font/linespacing/) a été introduite dans la classe **Font** pour obtenir cette valeur, comme le montre l'exemple ci-dessous:
 

@@ -31,17 +31,17 @@ This article describes programmatically working with lists using Aspose.Words.
 
 ## Create Lists by Applying List Formatting
 
-Aspose.Words allows the easy creation of lists by applying list formatting. [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) provides the [ListFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/listformat/) property that returns a **ListFormat** object. This object has several methods to start and end a list and to increase/decrease the indent. There are two general types of lists in Microsoft Word: bulleted and numbered:
+Aspose.Words allows the easy creation of lists by applying list formatting. [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) provides the [ListFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/listformat/) property that returns a **ListFormat** object. This object has several methods to start and end a list and to increase/decrease the indent.There are two general types of lists in Microsoft Word: bulleted and numbered:
 
-- To start a bulleted list, call [ApplyBulletDefault](https://reference.aspose.com/words/net/aspose.words.lists/listformat/applybulletdefault/)
-- To start a numbered list, call [ApplyNumberDefault](https://reference.aspose.com/words/net/aspose.words.lists/listformat/applynumberdefault/)
+- To start a bulleted list, call[ApplyBulletDefault](https://reference.aspose.com/words/net/aspose.words.lists/listformat/applybulletdefault/)
+- To start a numbered list, call[ApplyNumberDefault](https://reference.aspose.com/words/net/aspose.words.lists/listformat/applynumberdefault/)
 
-The bullet or number and formatting are added to the current paragraph and all further paragraphs created using **DocumentBuilder** until [RemoveNumbers](https://reference.aspose.com/words/net/aspose.words.lists/listformat/removenumbers/) is called to stop bulleted list formatting.
+The bullet or number and formatting are added to the current paragraph and all further paragraphs created using**DocumentBuilder**until[RemoveNumbers](https://reference.aspose.com/words/net/aspose.words.lists/listformat/removenumbers/)is called to stop bulleted list formatting.
 
 In Word documents, lists may consist of up to nine levels. List formatting for each level specifies what bullet or number is used, left indent, space between the bullet and text etc. The following methods change the list level and apply the new level's formatting properties:
 
-- To increase the list level of the current paragraph by one level, call [ListIndent](https://reference.aspose.com/words/net/aspose.words.lists/listformat/listindent/)
-- To decrease the list level of the current paragraph by one level, call [ListOutdent](https://reference.aspose.com/words/net/aspose.words.lists/listformat/listoutdent/)
+- To increase the list level of the current paragraph by one level, call[ListIndent](https://reference.aspose.com/words/net/aspose.words.lists/listformat/listindent/)
+- To decrease the list level of the current paragraph by one level, call[ListOutdent](https://reference.aspose.com/words/net/aspose.words.lists/listformat/listoutdent/)
 
 You can also use the [ListLevelNumber](https://reference.aspose.com/words/net/aspose.words.lists/listformat/listlevelnumber/) property to get or set the list level for the paragraph.
 
@@ -81,7 +81,7 @@ The following code example shows how to create a list and restart it for each se
    **A:** Retrieve the `List` object from the current paragraph (`DocumentBuilder.CurrentParagraph.ListFormat.List`) and access its `ListLevels` collection. For the desired level, set properties such as `NumberStyle`, `Font.Name`, `Alignment`, or `NumberFormat`.
 
 4. **Q:** How can I restart numbering for each new section in a document?  
-   **A:** Set the `IsRestartAtEachSection` property of the `List` to `true`. This works for DOC, DOCX, and RTF formats; for DOCX the document’s `OoxmlCompliance` must be higher than `Ecma376` for the setting to be saved.
+   **A:** Set the `IsRestartAtEachSection` property of the `List` to `true`. This works for DOC, DOCX, and RTF formats; for DOCX the document's `OoxmlCompliance` must be higher than `Ecma376` for the setting to be saved.
 
 5. **Q:** How do I stop list formatting and return to normal paragraphs?  
    **A:** Invoke `DocumentBuilder.ListFormat.RemoveNumbers()`. This removes any list formatting from the current paragraph and prevents further paragraphs from inheriting list styles.

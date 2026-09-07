@@ -145,7 +145,7 @@ Combining all the described approaches, you can create cross (pivot) tables of a
    **A:** The `-horz` modifier tells the reporting engine to repeat the enclosed content horizontally, creating a new column for each iteration instead of a new row.
 
 4. **Q:** How do I merge cells dynamically inside a cross table?  
-   **A:** Insert the `cellMerge` tag (or `cellMerge -horz` for horizontal merging) in the template where you want cells to be combined. The engine will merge the cells of the current row or column based on the tag’s position.
+   **A:** Insert the `cellMerge` tag (or `cellMerge -horz` for horizontal merging) in the template where you want cells to be combined. The engine will merge the cells of the current row or column based on the tag's position.
 
 5. **Q:** Why do I get the error “Table‑row and table‑column regions cannot cross”?  
    **A:** This occurs when a table‑row data band and a table‑column data band overlap inside the same cell. Each band must start and end in its own cell; move one of the bands to a separate cell to resolve the conflict.

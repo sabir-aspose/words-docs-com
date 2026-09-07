@@ -3,7 +3,7 @@ title: Appliquer une mise en forme personnalisée aux champs
 second_title: Aspose.Words pour Python via .NET
 articleTitle: Appliquer une mise en forme personnalisée aux champs
 linktitle: Appliquer une mise en forme personnalisée aux champs
-description: "Formatez et évaluez le résultat des champs à l’aide de Python."
+description: "Formatez et évaluez le résultat des champs à l'aide de Python."
 type: docs
 weight: 40
 ai_search_scope: words_python

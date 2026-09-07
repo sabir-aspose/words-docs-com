@@ -61,10 +61,10 @@ Using of variables has the following restrictions:
    **A:** Use the variable name inside double‑angle brackets. For example, after `<<var [total = 0]>`, you can output its value with `<<[total]>>` anywhere later in the document.
 
 3. **Q:** Can I change the type of a variable once it has been created?  
-   **A:** No. The variable’s type is fixed at the first declaration and cannot be redefined. Attempting to declare the same name with a different type will cause a runtime error.
+   **A:** No. The variable's type is fixed at the first declaration and cannot be redefined. Attempting to declare the same name with a different type will cause a runtime error.
 
-4. **Q:** Is it possible to redefine a variable’s value inside a `foreach` loop?  
-   **A:** Yes, you may assign a new value to the same variable inside a loop using another `var` tag, e.g. `<<var [sum = sum + item.Price]>>`. However, you cannot change the variable’s type or redefine an iteration variable itself.
+4. **Q:** Is it possible to redefine a variable's value inside a `foreach` loop?  
+   **A:** Yes, you may assign a new value to the same variable inside a loop using another `var` tag, e.g. `<<var [sum = sum + item.Price]>>`. However, you cannot change the variable's type or redefine an iteration variable itself.
 
 5. **Q:** How do I use a variable to format a date inside a template?  
    **A:** Declare a variable that holds the formatted string, for example: `<<var [java.time.format.DateTimeFormatter fmt = java.time.format.DateTimeFormatter.ofPattern("yyyy-MM-dd")]>>` then `<<var [formattedDate = dateValue.format(fmt)]>>`. Output with `<<[formattedDate]>>`. This avoids repeated formatting calls.

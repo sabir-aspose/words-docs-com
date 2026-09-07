@@ -40,7 +40,7 @@ The [line_spacing](https://reference.aspose.com/words/python-net/aspose.words/fo
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-GetFontLineSpacing.py" >}}
 
-## Font EmphasisMark
+## FontEmphasisMark
 
 Some East Asian languages use a special emphasis mark to indicate an emphasis. The **Font** class provides the [emphasis_mark](https://reference.aspose.com/words/python-net/aspose.words/font/emphasis_mark/) property to get or set [EmphasisMark](https://reference.aspose.com/words/python-net/aspose.words/emphasismark/) enumeration values to be applied in the formatting.
 

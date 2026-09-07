@@ -65,7 +65,7 @@ To use Aspose.Words for C++ in your applications, follow these steps:
    To update to the latest version, run `Update-Package Aspose.Words.Cpp`. The console will download the package and update the project references.
 
 3. **Q:** How do I install Aspose.Words for C++ manually without using NuGet?  
-   **A:** Download the ZIP package from the NuGet Gallery’s **Manual download** link. Extract the archive, then add the `include` folder to your compiler’s include path and the `lib` folder to the linker’s library path. Finally, link against the appropriate Aspose.Words library files.
+   **A:** Download the ZIP package from the NuGet Gallery's **Manual download** link. Extract the archive, then add the `include` folder to your compiler's include path and the `lib` folder to the linker's library path. Finally, link against the appropriate Aspose.Words library files.
 
 4. **Q:** After a manual installation, how do I reference the Aspose.Words libraries in my C++ project?  
    **A:** In your project settings, add the extracted `include` directory to **Additional Include Directories** and the `lib` directory to **Additional Library Directories**. Then, add the required `.lib` files (e.g., `Aspose.Words.Cpp.lib`) to **Additional Dependencies** and ensure the corresponding DLLs are available at runtime.

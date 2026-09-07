@@ -31,7 +31,7 @@ There is no exact way to estimate how much memory Aspose.Words actually consumes
 
 ## How to Calculate the Amount of Memory
 
-Let’s consider two documents:
+Let's consider two documents:
 
 1. DOCX "A"  document – 0.35 MB size (2 thousand pages), text only
 2. DOCX "B" document – 0.35 MB size (just 1 page), with PNG image inside
@@ -73,7 +73,7 @@ If your profiling results indicate a possible memory issue in Aspose.Words, plea
    **A:** Memory usage depends on factors such as the internal structure of the format (e.g., DOCX vs. RTF), the number and size of embedded objects (images, charts), and the complexity of styles and fields. A text‑only DOCX will need far less memory than a DOCX containing large images.
 
 3. **Q:** How can I estimate the memory required for a specific document before processing it?  
-   **A:** Unzip the document (if it’s a ZIP‑based format like DOCX) and examine the uncompressed size. Multiply the uncompressed size by a factor of 2–20 based on the operation you plan to perform (simple conversion vs. rendering). This gives a rough upper bound for RAM needs.
+   **A:** Unzip the document (if it's a ZIP‑based format like DOCX) and examine the uncompressed size. Multiply the uncompressed size by a factor of 2–20 based on the operation you plan to perform (simple conversion vs. rendering). This gives a rough upper bound for RAM needs.
 
 4. **Q:** Which operations cause the highest memory consumption in Aspose.Words?  
    **A:** Rendering to fixed‑page formats (PDF, XPS), updating fields, and splitting large documents are the most memory‑intensive, often requiring up to 20 × the base DOM memory. Simple tasks such as mail‑merge, find/replace, or format conversion usually stay within a lower multiplier range.

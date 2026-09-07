@@ -165,7 +165,7 @@ The following code example shows how to use typed properties to access nodes of 
 1. **Q:** How can I determine the type of a node (e.g., Paragraph, Table) in the DOM?  
    **A:** Call `Node.getNodeType()`, which returns a value from the `NodeType` enumeration such as `NodeType.Paragraph` or `NodeType.Table`. This lets you identify the node without casting.
 
-2. **Q:** What properties let me navigate to a node’s parent, children, or siblings?  
+2. **Q:** What properties let me navigate to a node's parent, children, or siblings?  
    **A:** Use `Node.getParentNode()` for the parent, `CompositeNode.getFirstChild()` / `CompositeNode.getLastChild()` for the first and last child, `CompositeNode.getChildNodes()` for the full collection, and `Node.getPreviousSibling()` / `Node.getNextSibling()` for adjacent siblings.
 
 3. **Q:** How do I create a new node (for example, a Paragraph) and add it to a document?  

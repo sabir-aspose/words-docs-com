@@ -35,11 +35,11 @@ StructuredDocumentTag can occur in a document in the following places:
 Aspose.Words supports the creation of following types of Structured document tags:
 
 - DropDownList
-- ComboBox 
-- Checkbox 
-- Date 
-- BuildingBlockGallery 
-- Group 
+- ComboBox
+- Checkbox
+- Date
+- BuildingBlockGallery
+- Group
 - `Picture`
-- RichText 
+- RichText
 - PlainText

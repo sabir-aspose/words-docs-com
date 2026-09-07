@@ -46,7 +46,7 @@ The engine exhibits similar behavior when dealing with list numbering. By defaul
 <<doc [document_expression] -sourceNumbering>>
 {{< /highlight >}}
 
-Also, you can trim the last paragraph break from a document being inserted by using an `inline` switch. In particular, this feature is useful for a single-paragraph document being inserted, when it is necessary to put the document’s content within the same paragraph that contains a corresponding `doc` tag in order to apply the paragraph’s formatting such as list numbering. The following snippet shows the template syntax for this.
+Also, you can trim the last paragraph break from a document being inserted by using an `inline` switch. In particular, this feature is useful for a single-paragraph document being inserted, when it is necessary to put the document's content within the same paragraph that contains a corresponding `doc` tag in order to apply the paragraph's formatting such as list numbering. The following snippet shows the template syntax for this.
 
 {{< highlight csharp >}}
 <<doc [document_expression] -inline>>
@@ -73,12 +73,12 @@ When a `build` switch is used, the engine treats a document being inserted as a 
    **A:** Place a `doc` tag in the template and provide the file path as a string expression, e.g. `<<doc ["C:/Docs/Appendix.docx"]>>`. At runtime the engine loads the file and replaces the tag with its content.
 
 2. **Q:** I want the inserted document to keep its original formatting. Which switch should I use?  
-   **A:** Add the `-sourceStyles` switch to the tag: `<<doc [docExpression] -sourceStyles>>`. This tells the engine to preserve the source document’s styles instead of mapping them to the template’s styles.
+   **A:** Add the `-sourceStyles` switch to the tag: `<<doc [docExpression] -sourceStyles>>`. This tells the engine to preserve the source document's styles instead of mapping them to the template's styles.
 
 3. **Q:** My inserted document contains numbered lists, but the numbering continues from the template list. How can I keep the numbering separate?  
    **A:** Use the `-sourceNumbering` switch: `<<doc [docExpression] -sourceNumbering>>`. This prevents the engine from merging list identifiers and retains the original numbering of the inserted document.
 
-4. **Q:** Can I insert a single‑paragraph document inline so that it adopts the surrounding paragraph’s formatting?  
+4. **Q:** Can I insert a single‑paragraph document inline so that it adopts the surrounding paragraph's formatting?  
    **A:** Yes. Apply the `-inline` switch: `<<doc [docExpression] -inline>>`. The engine removes the trailing paragraph break of the inserted document and places its text inside the same paragraph that contains the tag.
 
 5. **Q:** How can I populate merge fields inside the inserted document with data from my report?  

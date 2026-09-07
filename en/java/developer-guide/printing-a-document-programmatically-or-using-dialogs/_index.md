@@ -19,7 +19,7 @@ This article describes how to print a word processing document using Aspose.Word
 
 When working with documents, it is often required to print them to a selected printer. It is helpful to utilize a print preview dialog to visually inspect how the printed document will appear and choose relevant print options.
 
-The Aspose.Words has no built-in dialogs or forms but implements the [AsposeWordsPrintDocument](https://reference.aspose.com/words/java/com.aspose.words/asposewordsprintdocument/) class overrides both java.awt.print.Printable and java.awt.print.Pageable.
+The Aspose.Words has no built-in dialogs or forms but implements the[AsposeWordsPrintDocument](https://reference.aspose.com/words/java/com.aspose.words/asposewordsprintdocument/)class overrides bothjava.awt.print.Printableandjava.awt.print.Pageable.
 
 The following example shows how to use these classes to print a document from Aspose.Words via the Print preview and Settings dialogs:
 
@@ -29,7 +29,7 @@ The following example shows how to use these classes to print a document from As
 
 ## Printing Multiple Pages on One Sheet
 
-Aspose.Words implements the **MultipagePrintDocument** class, to fine-tune the printing operation to implement your custom logic by defining the way the document will appear on the printed page. The **MultipagePrintDocument** class provides the ability to print several pages on one sheet of paper.
+Aspose.Words implements the**MultipagePrintDocument**class, to fine-tune the printing operation to implement your custom logic by defining the way the document will appear on the printed page. The**MultipagePrintDocument**class provides the ability to print several pages on one sheet of paper.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-MultiplePagesOnSheet-MultiplePagesOnSheet.java" >}}
 

@@ -44,4 +44,4 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
    **A:** Yes. After insertion, you can retrieve the field via `document.getRange().getFields().get(document.getRange().getFields().getCount() - 1)` (the last field) and then call `remove()`. However, keeping the reference returned by `insertField` is more efficient.
 
 5. **Q:** What happens to bookmarks or hyperlinks that reference a field I have removed?  
-   **A:** Removing a field does not automatically update bookmarks or hyperlinks that point to the field’s start or end positions. After removal, you may need to adjust those references manually or recreate them if required.
+   **A:** Removing a field does not automatically update bookmarks or hyperlinks that point to the field's start or end positions. After removal, you may need to adjust those references manually or recreate them if required.

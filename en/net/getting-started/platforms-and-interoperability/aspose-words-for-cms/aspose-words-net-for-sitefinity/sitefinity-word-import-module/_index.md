@@ -95,7 +95,7 @@ You can download Aspose .NET Word Import for Sitefinity module from one of the f
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_Sitefinity/releases)
 - [Sourceforge](https://sourceforge.net/projects/asposesitefinity/files/)
-- [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-sitefinity/downloads/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-sitefinity/downloads/)
 
 #### Installing
 
@@ -110,7 +110,7 @@ Please extract the downloaded ZIP file. You will need FTP or direct access to th
 
 **Step 2: Register the Aspose .NET Word Import for Sitefinity add-on in Sitefinity**
 
-1. Log into your Sitefinity CMS with an ‘**Administrator**’ account. The login page can be reached by <https://www.mywebsite.com/sitefinity>
+1. Log into your Sitefinity CMS with an ‘**Administrator**' account. The login page can be reached by <https://www.mywebsite.com/sitefinity>
 1. Click **Administration** and then **Settings**.
    The Basic Settings page appears.
 1. **Click the Advanced** **link.** 

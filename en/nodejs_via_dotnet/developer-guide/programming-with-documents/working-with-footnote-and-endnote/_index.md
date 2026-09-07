@@ -49,7 +49,7 @@ The following code example shows how to set the position of footnote and endnote
    **A:** Use the `insertFootnote` method of `DocumentBuilder`. Pass the `FootnoteType.Footnote` or `FootnoteType.Endnote` enum value and the footnote text. The method returns a `Footnote` object that you can further customize.
 
 2. **Q:** How can I change the numbering format of footnotes or endnotes?  
-   **A:** Create an instance of `FootnoteOptions` or `EndnoteOptions` and set its `numberStyle` property (e.g., `NumberStyle.LowerRoman`). Assign the options object to the document’s `footnoteOptions` or `endnoteOptions` property before inserting notes.
+   **A:** Create an instance of `FootnoteOptions` or `EndnoteOptions` and set its `numberStyle` property (e.g., `NumberStyle.LowerRoman`). Assign the options object to the document's `footnoteOptions` or `endnoteOptions` property before inserting notes.
 
 3. **Q:** How do I set the number of columns for footnote layout?  
    **A:** Set the `columns` property of `FootnoteOptions`. A value of `0` lets Word decide based on the page layout; any positive integer forces that many columns.

@@ -61,7 +61,7 @@ Et après avoir appliqué un simple remplacement de chaîne:
 
 ### Rechercher et remplacer du texte à l'aide d'expressions régulières {#find-and-replace-text-using-regular-expressions}
 
-Une expression régulière est un modèle qui décrit une certaine séquence de texte. Supposons que vous souhaitiez remplacer toutes les doubles occurrences d’un mot par une seule occurrence de mot. Vous pouvez ensuite appliquer l'expression régulière suivante pour spécifier le modèle de mot double: `([a-zA-Z]+) \1`.
+Une expression régulière est un modèle qui décrit une certaine séquence de texte. Supposons que vous souhaitiez remplacer toutes les doubles occurrences d'un mot par une seule occurrence de mot. Vous pouvez ensuite appliquer l'expression régulière suivante pour spécifier le modèle de mot double: `([a-zA-Z]+) \1`.
 
 Utilisez la méthode [replace_regex](https://reference.aspose.com/words/python-net/aspose.words/range/replace_regex/) pour rechercher et remplacer des combinaisons de caractères particulières en définissant le paramètre d'expression régulière comme modèle pour rechercher des correspondances.
 

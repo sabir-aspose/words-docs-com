@@ -87,7 +87,7 @@ Dim helper
 Set helper = CreateObject("Aspose.Words.ComHelper")
 ```
 
-Once created, you are able to access the object’s methods and properties, as if it was a `COM` object:
+Once created, you are able to access the object's methods and properties, as if it was a `COM` object:
 
 **VBScript**
 

@@ -44,7 +44,7 @@ The following code example shows how to merge rows from two tables into one:
    **A:** Locate the two `Table` objects in the document, then move each `Row` from the second table into the first using `firstTable.appendChild(row.deepClone(true))`. After all rows are transferred, remove the now‑empty second table with `secondTable.remove()`. Finally, call `doc.updatePageLayout()` to refresh the layout.
 
 2. **Q:** How do I split a joined table back into separate tables?  
-   **A:** Create a new `Table` instance, move the rows you want to separate from the original table into the new one, and insert the new table at the desired position using `firstTable.getParentNode().insertAfter(newTable, firstTable)`. Adjust any required formatting on the new table’s rows and cells.
+   **A:** Create a new `Table` instance, move the rows you want to separate from the original table into the new one, and insert the new table at the desired position using `firstTable.getParentNode().insertAfter(newTable, firstTable)`. Adjust any required formatting on the new table's rows and cells.
 
 3. **Q:** The joined table loses its original formatting after moving rows. What should I do?  
    **A:** Preserve formatting by cloning the row with `row.deepClone(true)`, which copies both content and formatting. After the join, call `firstTable.ensureMinimum()` and `doc.updatePageLayout()` to make sure the table layout is recalculated and the formatting is applied correctly.

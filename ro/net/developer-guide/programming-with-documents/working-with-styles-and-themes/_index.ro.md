@@ -31,7 +31,7 @@ Soluția pentru recuperarea textului formatat cu anumite stiluri într-un docume
 
 ### Soluția
 
-Pentru a ilustra cum ușor Aspose.Words returnează conținut pe baza stilurilor, să aruncăm o privire la un exemplu. În acest exemplu, vom recupera textul formatat cu un anumit stil de paragraf și un stil caracter dintr-un exemplu de document Word.La un nivel general, asta va implica: # Deschiderea unui document Word folosind clasa [Document](https://reference.aspose.com/words/net/aspose.words/document/) # Obținerea colecțiilor tuturor paragrafelor și a tuturor războaielor în document # Selectarea numai a paragrafelor și a războaielor necesare. Mai exact, vom extrage textul formatat cu stilul de paragraful ‘Title 1’ și stilul de caracter ‘Intense Emphasis’ din acest exemplu de document Word.
+Pentru a ilustra cum ușor Aspose.Words returnează conținut pe baza stilurilor, să aruncăm o privire la un exemplu. În acest exemplu, vom recupera textul formatat cu un anumit stil de paragraf și un stil caracter dintr-un exemplu de document Word.La un nivel general, asta va implica: # Deschiderea unui document Word folosind clasa [Document](https://reference.aspose.com/words/net/aspose.words/document/) # Obținerea colecțiilor tuturor paragrafelor și a tuturor războaielor în document # Selectarea numai a paragrafelor și a războaielor necesare. Mai exact, vom extrage textul formatat cu stilul de paragraful ‘Title 1' și stilul de caracter ‘Intense Emphasis' din acest exemplu de document Word.
 
 ![working-with-styles-and-themes-aspose-words-net](working-with-styles-and-themes-1.png)
 

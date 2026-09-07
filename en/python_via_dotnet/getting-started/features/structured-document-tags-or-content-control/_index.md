@@ -35,11 +35,11 @@ Structured document tags (SDT or content control) allow to embed customer-define
 Aspose.Words supports the creation of following types of Structured document tags:
 
 - DropDownList
-- ComboBox 
-- Checkbox 
-- Date 
-- BuildingBlockGallery 
-- Group 
+- ComboBox
+- Checkbox
+- Date
+- BuildingBlockGallery
+- Group
 - `Picture`
-- RichText 
+- RichText
 - PlainText

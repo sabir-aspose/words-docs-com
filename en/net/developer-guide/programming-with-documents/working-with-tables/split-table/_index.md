@@ -57,7 +57,7 @@ The following code example shows how to split a table into two tables on a speci
    **A:** Create a clone of the original `Table` without its child nodes, insert the clone after the original table, then move all rows starting from the chosen split row to the cloned table. This separates the original table into two independent tables.
 
 2. **Q:** What happens to merged cells that cross the split row?  
-   **A:** If a cell spans rows that are divided between the two tables, Aspose.Words will automatically adjust the cell’s `RowSpan` so that each table contains a valid cell structure. Cells that no longer span the required rows are split into separate cells.
+   **A:** If a cell spans rows that are divided between the two tables, Aspose.Words will automatically adjust the cell's `RowSpan` so that each table contains a valid cell structure. Cells that no longer span the required rows are split into separate cells.
 
 3. **Q:** Can I split a table into more than two tables?  
    **A:** Yes. After the first split, repeat the same process on the resulting tables: clone the table you want to split, insert the clone, and move the desired rows. By iterating, you can create any number of separate tables.
@@ -65,5 +65,5 @@ The following code example shows how to split a table into two tables on a speci
 4. **Q:** Will the formatting (borders, shading, etc.) be preserved after splitting?  
    **A:** The formatting applied to rows, cells, and the table itself is retained because the rows are moved, not recreated. Any style or direct formatting on the moved rows remains unchanged in the new table.
 
-5. **Q:** How can I split a table without affecting the document’s pagination?  
+5. **Q:** How can I split a table without affecting the document's pagination?  
    **A:** Perform the split operation before any layout‑dependent processing (e.g., before saving or printing). Aspose.Words recalculates pagination automatically after the table structure changes, ensuring the document flow remains correct.

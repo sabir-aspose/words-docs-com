@@ -75,7 +75,7 @@ Vous pouvez également marquer plusieurs lignes d'en-tête si ces lignes se trou
 
 {{% alert color="primary" %}}
 
-Notez que les lignes d'en-tête ne fonctionnent pas dans les tableaux imbriqués. Autrement dit, si vous avez une table à l’intérieur d’une autre table, ce paramètre n’aura aucun effet. C'est une limitation de Microsoft Word qui ne permet pas cela, pas de Aspose.Words.
+Notez que les lignes d'en-tête ne fonctionnent pas dans les tableaux imbriqués. Autrement dit, si vous avez une table à l'intérieur d'une autre table, ce paramètre n'aura aucun effet. C'est une limitation de Microsoft Word qui ne permet pas cela, pas de Aspose.Words.
 
 {{% /alert %}}
 
@@ -85,7 +85,7 @@ L'exemple de code suivant montre comment créer un tableau comprenant des lignes
 
 ## Empêchez les tableaux et les lignes de se diviser sur plusieurs pages
 
-Il arrive parfois que le contenu d’un tableau ne doive pas être réparti sur plusieurs pages. Par exemple, si un titre se trouve au-dessus d'un tableau, le titre et le tableau doivent toujours être conservés ensemble sur la même page pour préserver leur apparence.
+Il arrive parfois que le contenu d'un tableau ne doive pas être réparti sur plusieurs pages. Par exemple, si un titre se trouve au-dessus d'un tableau, le titre et le tableau doivent toujours être conservés ensemble sur la même page pour préserver leur apparence.
 
 Il existe deux techniques distinctes utiles pour obtenir cette fonctionnalité:
 

@@ -17,7 +17,7 @@ timestamp: 2024-01-31-14-23-37
 
 ## Purpose Summary
 
-This page explains the Aspose.Words for .NET product’s purpose, features, and technical capabilities at a high level.
+This page explains the Aspose.Words for .NET product's purpose, features, and technical capabilities at a high level.
 
 {{% /alert %}}
 

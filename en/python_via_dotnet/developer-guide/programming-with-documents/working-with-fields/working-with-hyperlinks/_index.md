@@ -28,7 +28,7 @@ A hyperlink in Microsoft Word documents is the `HYPERLINK` field. In Aspose.Word
 
 ## Inserting a Hyperlink
 
-Use the [insert_hyperlink](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_hyperlink/) method to insert a hyperlink into the document. This method accepts three parameters:
+Usethe [insert_hyperlink](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_hyperlink/)method to insert a hyperlink into the document. This method accepts three parameters:
 
 1. Text of the link to be displayed in the document
 2. Link destination (URL or a name of a bookmark inside the document)
@@ -48,7 +48,7 @@ The following code example shows how to insert a hyperlink into a document using
 
 ## Replace or Modify Hyperlinks
 
-Hyperlink in Microsoft Word documents is a field. A field in a Word document is a complex structure consisting of multiple nodes that include field start, field code, field separator, field result and field end. Fields can be nested, contain rich content and span multiple paragraphs or sections in a document. 
+Hyperlink in Microsoft Word documents is a field.A field in a Word document is a complex structure consisting of multiple nodes that include field start, field code, field separator, field result and field end. Fields can be nested, contain rich content and span multiple paragraphs or sections in a document.
 
 To replace or modify hyperlinks, it is need to find the hyperlinks in the document and replace either their text, URLs, or both.
 
@@ -80,7 +80,7 @@ The following code example shows how to find all hyperlinks in Word document and
    **A:** Yes. Replace the `FieldHyperlink` with a plain `Run` node that contains the same text. Remove the field start, separator, and end nodes, then insert a `Run` with the original result text.
 
 4. **Q:** How can I apply custom font formatting (e.g., color, underline) to a hyperlink after insertion?  
-   **A:** After calling `insert_hyperlink`, the builder’s `font` property refers to the hyperlink text. Set the desired properties before moving the cursor away.  
+   **A:** After calling `insert_hyperlink`, the builder's `font` property refers to the hyperlink text. Set the desired properties before moving the cursor away.  
 
    ```python
    builder.insert_hyperlink("Aspose", "https://www.aspose.com", False)

@@ -13,7 +13,7 @@ url: /fr/net/protect-or-encrypt-a-document/
 timestamp: 2025-12-30-12-07-05
 ---
 
-La principale raison de protéger ou de chiffrer un document est d’appliquer davantage de contrôle sur qui peut accéder au document ou qui peut le modifier. En appliquant une protection à vos documents, vous évitez les risques courants tels que la copie ou la modification de documents sans autorisation, ainsi que les fuites de données.
+La principale raison de protéger ou de chiffrer un document est d'appliquer davantage de contrôle sur qui peut accéder au document ou qui peut le modifier. En appliquant une protection à vos documents, vous évitez les risques courants tels que la copie ou la modification de documents sans autorisation, ainsi que les fuites de données.
 
 Certains des formats les plus populaires lorsque vous travaillez avec des documents sont les formats Microsoft Word ou les formats pouvant être exportés à partir de Word. C'est pourquoi de nombreux utilisateurs sont intéressés par les mêmes options de protection des documents proposées par Microsoft Word. Malgré la complexité de ces options, Aspose.Words prend en charge la plupart d'entre elles, ce qui en fait une excellente solution pour travailler avec des documents.
 
@@ -21,7 +21,7 @@ Cet article décrit les options proposées par Aspose.Words pour la protection d
 
 ## Options de protection des documents
 
-Aspose.Words fournit actuellement les fonctionnalités du document répertoriées dans le tableau ci-dessous. Vous pouvez trouver les détails sur chacune des fonctionnalités dans l’article enfant correspondant dans la section actuelle.
+Aspose.Words fournit actuellement les fonctionnalités du document répertoriées dans le tableau ci-dessous. Vous pouvez trouver les détails sur chacune des fonctionnalités dans l'article enfant correspondant dans la section actuelle.
 
 |  Fonction de protection Aspose.Words |  Article enfant correspondant |  Fonctionnalité MS Word correspondante |
 |  -------------------------------  |  ------------------------------  |  ------------------------------------------------------------  |

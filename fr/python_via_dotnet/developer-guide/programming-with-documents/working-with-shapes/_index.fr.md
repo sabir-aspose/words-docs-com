@@ -107,6 +107,6 @@ La taille maximale de l'icône doit être de 32x32 pour un affichage correct.
 
 Vous pouvez utiliser la propriété [convert_shape_to_office_math](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/convert_shape_to_office_math/) pour convertir les formes avec EquationXML en objets Office Math. La valeur par défaut de cette propriété correspond au comportement de MS Word, c'est-à-dire que les formes avec une équation XML ne sont pas converties en objets mathématiques Office.
 
-L’exemple de code suivant montre comment convertir des formes en objets Office Math:
+L'exemple de code suivant montre comment convertir des formes en objets Office Math:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Load Options-working_with_load_options-ConvertShapeToOfficeMath.py" >}}

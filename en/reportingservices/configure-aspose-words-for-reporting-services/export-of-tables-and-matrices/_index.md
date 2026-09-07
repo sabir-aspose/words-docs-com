@@ -25,7 +25,7 @@ Visually, the output of both options will look identical most of the time. Diffe
 
 ## Export Tables and Matrices as Tables
 
-When you export a report to a Microsoft Word document format, you would normally want tables and matrices defined in the report to appear as Microsoft Word tables in the resulting document. This produces a document that is easy to subsequently edit in Microsoft Word; that’s why this is the default option.
+When you export a report to a Microsoft Word document format, you would normally want tables and matrices defined in the report to appear as Microsoft Word tables in the resulting document. This produces a document that is easy to subsequently edit in Microsoft Word; that's why this is the default option.
 
 The drawback of this method is that the table in the generated document might look slightly different from the original report design. For example, in Microsoft Word it is not possible to set different top paddings in table cells belonging to one row, whereas it is possible to do that in RDL.
 

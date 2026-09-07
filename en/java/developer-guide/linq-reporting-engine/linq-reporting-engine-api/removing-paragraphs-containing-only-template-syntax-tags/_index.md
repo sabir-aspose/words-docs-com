@@ -21,7 +21,7 @@ engine.setOptions(ReportBuildOptions.REMOVE_EMPTY_PARAGRAPHS);
 engine.buildReport(...);
 {{< /highlight >}}
 
-The difference in the engine’s behavior when the option is applied and not applied is illustrated by the following examples.
+The difference in the engine's behavior when the option is applied and not applied is illustrated by the following examples.
 
 **Example 1**
 

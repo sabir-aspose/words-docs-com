@@ -90,7 +90,7 @@ This section covers specific constraints and important considerations for docume
   - For ODT/OTT: ODF Encryption using AES256 + SHA256.
   - For PDF: RC4 40-bit or 128-bit, depending on save options.
 
-- **Password policies are not enforced**: Aspose.Words does not validate or enforce password strength or complexity. It is the application developer’s responsibility to enforce appropriate password policies if required.
+- **Password policies are not enforced**: Aspose.Words does not validate or enforce password strength or complexity. It is the application developer's responsibility to enforce appropriate password policies if required.
 
 - **Encryption header compatibility**: While Aspose.Words supports decrypting documents created by other tools (e.g., Microsoft Word) if the correct password is known, encryption compatibility is guaranteed only for documents created with Aspose.Words. interoperability with third-party implementations may vary.
 

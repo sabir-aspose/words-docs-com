@@ -41,7 +41,7 @@ The following code example shows how to use these properties:
 ## FAQ
 
 1. **Q:** How can I automatically add space between Asian characters and Latin letters in a document using C++?  
-   **A:** Use the `ParagraphFormat::set_AddSpaceBetweenFarEastAndAlpha(true)` method on the paragraph’s format. This inserts a space between Far‑East (CJK) characters and alphabetic characters. Apply the setting to each paragraph you need or set it as the default for newly created paragraphs.
+   **A:** Use the `ParagraphFormat::set_AddSpaceBetweenFarEastAndAlpha(true)` method on the paragraph's format. This inserts a space between Far‑East (CJK) characters and alphabetic characters. Apply the setting to each paragraph you need or set it as the default for newly created paragraphs.
 
 2. **Q:** How do I add space between Asian characters and digits?  
    **A:** Call `ParagraphFormat::set_AddSpaceBetweenFarEastAndDigit(true)`. This property inserts a space between Far‑East characters and numeric digits, improving readability when both appear together.

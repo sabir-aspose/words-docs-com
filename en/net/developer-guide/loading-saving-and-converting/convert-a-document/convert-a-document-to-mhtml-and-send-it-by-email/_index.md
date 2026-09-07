@@ -40,5 +40,5 @@ The following code example shows how to convert any document to MHTML and send i
 3. **Q:** Is it possible to convert a document to MHTML without loading the entire file into memory?  
    **A:** Yes. You can open the source document from a stream (`Document doc = new Document(stream)`) and save it directly to a stream in MHTML format, which reduces memory usage for large files.
 
-4. **Q:** How can I ensure the generated MHTML preserves the original document’s fonts and images?  
+4. **Q:** How can I ensure the generated MHTML preserves the original document's fonts and images?  
    **A:** Aspose.Words embeds referenced resources (fonts, images, CSS) into the MHTML file automatically. Ensure the source document has access to the required resources, or embed them manually using `Document.FontSettings` before saving.

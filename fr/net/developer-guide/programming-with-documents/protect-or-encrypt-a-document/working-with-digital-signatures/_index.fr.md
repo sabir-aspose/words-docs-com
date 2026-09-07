@@ -43,7 +43,7 @@ Le tableau ci-dessous décrit quelques limitations auxquelles vous pouvez être 
 
 |  Limitation |  Option alternative |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  Perte des signatures numériques sur un document après son chargement et sa sauvegarde. Par conséquent, le traitement d’un document vers un serveur peut entraîner la perte de toutes les signatures numériques sans préavis |  Vérifiez si un document comporte des signatures numériques et prenez les mesures appropriées si vous en trouvez. Par exemple, envoyez une alerte aux clients les informant que le document qu'ils téléchargent contient des signatures numériques qui seront perdues s'il est traité |
+|  Perte des signatures numériques sur un document après son chargement et sa sauvegarde. Par conséquent, le traitement d'un document vers un serveur peut entraîner la perte de toutes les signatures numériques sans préavis |  Vérifiez si un document comporte des signatures numériques et prenez les mesures appropriées si vous en trouvez. Par exemple, envoyez une alerte aux clients les informant que le document qu'ils téléchargent contient des signatures numériques qui seront perdues s'il est traité |
 |  Aspose.Words prend en charge l'utilisation de macros dans un document. Mais Aspose.Words ne prend pas encore en charge les signatures numériques sur les macros |  Exportez le document dans n'importe quel format Word et utilisez Microsoft Word pour ajouter une signature numérique aux macros |
 
 ## Détecter, compter et vérifier les signatures numériques
@@ -52,7 +52,7 @@ Aspose.Words vous permet de détecter la signature numérique dans un document e
 
 Un document peut être signé plusieurs fois, et cela peut être fait par différents utilisateurs. Pour vérifier la validité des signatures numériques, vous devez les charger à partir du document à l'aide de la méthode [LoadSignatures](https://reference.aspose.com/words/fr/net/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures/) et utiliser la propriété [IsValid](https://reference.aspose.com/words/fr/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/). Aspose.Words vous permet également de compter un ensemble de toutes les signatures numériques d'un document à l'aide de la propriété [Count](https://reference.aspose.com/words/fr/net/aspose.words.digitalsignatures/digitalsignaturecollection/count/).
 
-Tout cela constitue un moyen efficace et sûr de vérifier les signatures d’un document avant de le traiter.
+Tout cela constitue un moyen efficace et sûr de vérifier les signatures d'un document avant de le traiter.
 
 L'exemple de code suivant montre comment détecter la présence de signatures numériques et les vérifier:
 

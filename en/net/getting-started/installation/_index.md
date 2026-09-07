@@ -85,7 +85,7 @@ All Aspose .NET components are recommended to run with the *Full Trust* permissi
 Internet Service Providers hosting multiple applications from different companies mostly enforce *Medium Trust* security level. In the case of .NET 2.0, such a security level may impose the following constraints, which may affect the ability of Aspose.Words to perform properly:
 
 - **RegistryPermission** is not available. This means that you cannot access the registry, which is required to enumerate installed fonts when rendering documents.
-- **FileIOPermission** is restricted. This means that you can only access files in your application’s virtual directory hierarchy. This also potentially means fonts cannot be read during export.
+- **FileIOPermission** is restricted. This means that you can only access files in your application's virtual directory hierarchy. This also potentially means fonts cannot be read during export.
 
 For these reasons specified above, it is recommended to run Aspose.Words with Full Trust permissions. You may find that some of library features will work when performing different tasks with Medium trust, and some will not, for example, rendering. This can be related to GDI+ image processing calls.
 

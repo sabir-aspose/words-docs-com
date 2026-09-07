@@ -17,7 +17,7 @@ timestamp: 2024-01-27-14-07-04
 
 ## Purpose Summary
 
-This page describes how to get started with comparing documents using Aspose.Words’ built-in comparison engine.
+This page describes how to get started with comparing documents using Aspose.Words' built-in comparison engine.
 
 {{% /alert %}}
 
@@ -44,9 +44,9 @@ Following are the system requirements to use Document Comparison by Aspose.Words
 
 ## Technical Support
 
-If you find any issues, please report on [GitHub](https://github.com/AsposeShowcase/Document_Comparison_by_Aspose_Words_for_NET/issues).
+If you find any issues, please report on[GitHub](https://github.com/AsposeShowcase/Document_Comparison_by_Aspose_Words_for_NET/issues).
 
-This project is built using Aspose.Words for .NET, which is a commercial component. To get a license, please contact our [sales representatives](https://products.aspose.com/words/net/).
+This project is built using Aspose.Words for .NET, which is a commercial component. To get a license, please contact our[sales representatives](https://products.aspose.com/words/net/).
 
 ## Download and Installation
 

@@ -19,7 +19,7 @@ In Aspose.Words, the [TextBox](https://reference.aspose.com/words/cpp/aspose.wor
 
 ## Create A Link
 
-The **TextBox** class provides [IsValidLinkTarget](https://reference.aspose.com/words/cpp/aspose.words.drawing/textbox/isvalidlinktarget/) method in order to check whether the **TextBox** can be linked to the target **Textbox**.
+The **TextBox** class provides [IsValidLinkTarget](https://reference.aspose.com/words/cpp/aspose.words.drawing/textbox/isvalidlinktarget/) method in order to check whether the**TextBox** can be linked to the target **Textbox**.
 
 The following code example shows how to check if the `TextBox` can be linked to the target Textbox:
 
@@ -29,7 +29,7 @@ The following code example shows how to check if the `TextBox` can be linked to 
 
 There are several ways to display text in a shape. The [TextBox](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/get_textbox/) can be the Head, Middle, or Tail of a sequence.
 
-The following code example shows how to check if **TextBox** is a Head, Tail, or Middle of the sequence:
+The following code example shows how to checkif **TextBox** is a Head, Tail, or Middle of the sequence:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Linked-Textboxes-WorkingWithLinkedTextboxes-CheckSequence.cpp" >}}
 

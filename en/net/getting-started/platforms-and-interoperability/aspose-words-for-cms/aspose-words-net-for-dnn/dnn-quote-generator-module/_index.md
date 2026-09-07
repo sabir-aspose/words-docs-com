@@ -51,7 +51,7 @@ This initial version of the module is enriched with the following features to ma
 - Region & Shapes Find and Update
 - Remove Empty Regions
 - Save document to *.Pdf, *.Doc, *.Docx, *.Odt, *.Tiff, *.Jpeg, *.Png File Format
-- License Verification & Embed     
+- License Verification & Embed 
 
 ![dnn-quote-generator-module_1](dnn-quote-generator-module-1.png)
 
@@ -79,7 +79,7 @@ Once downloaded, please follow these steps to install the module into your DNN w
 1. As directed browse to the location of the downloaded zip file, select it then click **Open**.
 1. Click **Next**, accept the license, continue through the install. When finished click on the **Return** button.
 
-**Note**: If you get an error while uploading the module this is due to the maxRequestLength limit in your DNN installation’s web.config. Open web.config and update maxRequestLength to 20MB by setting **maxRequestLength=”20480″** and try to upload the module again.
+**Note**: If you get an error while uploading the module this is due to the maxRequestLength limit in your DNN installation's web.config. Open web.config and update maxRequestLength to 20MB by setting **maxRequestLength=”20480″** and try to upload the module again.
 
 ## Using
 
@@ -93,12 +93,12 @@ After you have installed Aspose .NET Quote Generator Module for DNN Module it is
 You have successfully added Aspose .NET Quote Generator module to your page. You will be presented with input form to get started
 
 1. Enter (Document Caption, Reference #, Generating Date)
-1. Enter ‘Quotation From’ fields such as (Company Logo, Name, State-Zip, Country)
-1. Enter ‘Quotation To’ fields such as (Customer/Client Name, State-Zip, Country)
+1. Enter ‘Quotation From' fields such as (Company Logo, Name, State-Zip, Country)
+1. Enter ‘Quotation To' fields such as (Customer/Client Name, State-Zip, Country)
 1. You can generate product rows to 99
 1. Enter products details such as (Description, Unit Price, Quantity, VAT percentage selection if applicable )
 1. Enter Quotation description/details And Terms & Conditions to display
-1. Option either to ‘Clear Form Fields’ `OR` Select Export File Format’ from List
+1. Option either to ‘Clear Form Fields' `OR` Select Export File Format' from List
 
 ### How to apply Aspose License?
 
@@ -120,7 +120,7 @@ From the very first days of Aspose, we knew that just giving our customers good 
 
 This is why we offer free support. Anyone who uses our product, whether they have bought them or are using an evaluation, deserves our full attention and respect.
 
-You can log any issues or suggestions related to Aspose.Words .NET for DNN Modules using [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues).
+You can log any issues or suggestions related toAspose.Words .NET for DNN Modules using [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues).
 
 
 ### Extend and Contribute

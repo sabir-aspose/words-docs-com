@@ -108,4 +108,4 @@ John Smith (43 Vogel Street Roslyn Palmerston North 4414)
    **A:** Yes. `<<restartNum>>` can be inserted in any numbered paragraph to reset the list numbering at that point, even if the paragraph is not part of a data band. This is useful for inserting externally generated content that should start a new list.
 
 3. **Q:** What happens if I put `<<restartNum>>` inside a nested list?  
-   **A:** The tag restarts numbering for the list that contains the paragraph where it appears. If placed inside a nested list, only that nested list’s numbering is reset, while outer list numbering continues unaffected. Ensure the tag is positioned in the correct paragraph to achieve the desired reset scope.
+   **A:** The tag restarts numbering for the list that contains the paragraph where it appears. If placed inside a nested list, only that nested list's numbering is reset, while outer list numbering continues unaffected. Ensure the tag is positioned in the correct paragraph to achieve the desired reset scope.

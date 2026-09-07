@@ -36,7 +36,7 @@ Open your project in Visual Studio, right click on the **References** folder and
 
 where `<InstallDir>` is the directory, where you installed or unpacked Aspose.Words for Reporting Services.
 
-Please note that `Aspose.Words.ReportingServices.dll` for ReportViewer 2015 should be used in Visual Studio 2017 (and higher). 
+Please note that `Aspose.Words.ReportingServices.dll` for ReportViewer 2015 should be used in Visual Studio 2017 (and higher).
 
 **Adding a Reference to `Aspose.Words.ReportingServices.dll` to your project.**
 

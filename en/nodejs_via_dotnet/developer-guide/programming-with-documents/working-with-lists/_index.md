@@ -13,7 +13,7 @@ url: /nodejs-net/working-with-lists/
 timestamp: 2025-07-09-10-05-05
 ---
 
-A list in a Microsoft Word document is a set of list formatting properties. Lists can be used in your documents to format, arrange, and emphasize text. Lists are a great way to organize data in documents, and they make it easier for readers to understand key points. 
+A list in a Microsoft Word document is a set of list formatting properties. Lists can be used in your documents to format, arrange, and emphasize text. Lists are a great way to organize data in documents, and they make it easier for readers to understand key points.
 
 Each list can have up to 9 levels and formatting properties, such as number style, start value, indent, tab position etc are defined separately for each level.
 
@@ -23,17 +23,17 @@ This topic describes how to work programmatically with lists using Aspose.Words.
 
 ## Creating Lists by Applying List Formatting
 
-Aspose.Words allows the easy creation of lists by applying list formatting. [DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/) provides the [DocumentBuilder.listFormat](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/listformat/) property that returns a [ListFormat](https://reference.aspose.com/words/nodejs-net/aspose.words.lists/listformat/) object. This object has several methods to start and end a list and to increase/decrease the indent. There are two general types of lists in Microsoft Word: bulleted and numbered.
+Aspose.Words allows the easy creation of lists by applying list formatting. [DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/) provides the [DocumentBuilder.listFormat](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/listformat/) property that returns a [ListFormat](https://reference.aspose.com/words/nodejs-net/aspose.words.lists/listformat/) object. This object has several methods to start and end a list and to increase/decrease the indent.There are two general types of lists in Microsoft Word: bulleted and numbered.
 
-- To start a bulleted list, call [ListFormat.applyBulletDefault](https://reference.aspose.com/words/nodejs-net/aspose.words.lists/listformat/applyBulletDefault/).
-- To start a numbered list, call [ListFormat.applyNumberDefault](https://reference.aspose.com/words/nodejs-net/aspose.words.lists/listformat/applynumberdefault/).
+- To start a bulleted list, call[ListFormat.applyBulletDefault](https://reference.aspose.com/words/nodejs-net/aspose.words.lists/listformat/applyBulletDefault/).
+- To start a numbered list, call[ListFormat.applyNumberDefault](https://reference.aspose.com/words/nodejs-net/aspose.words.lists/listformat/applynumberdefault/).
 
-The bullet or number and formatting are added to the current paragraph and all further paragraphs created using [DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/) until [ListFormat.removeNumbers](https://reference.aspose.com/words/nodejs-net/aspose.words.lists/listformat/removenumbers/) is called to stop bulleted list formatting.
+The bullet or number and formatting are added to the current paragraph and all further paragraphs created using[DocumentBuilder](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/)until[ListFormat.removeNumbers](https://reference.aspose.com/words/nodejs-net/aspose.words.lists/listformat/removenumbers/)is called to stop bulleted list formatting.
 
 In Word documents, lists may consist of up to nine levels. List formatting for each level specifies what bullet or number is used, left indent, space between the bullet and text etc. The following methods change the list level and apply the new level's formatting properties:
 
-- To increase the list level of the current paragraph by one level, call [ListFormat.listIndent](https://reference.aspose.com/words/nodejs-net/aspose.words.lists/listformat/listindent/)
-- To decrease the list level of the current paragraph by one level, call [ListFormat.listOutdent](https://reference.aspose.com/words/nodejs-net/aspose.words.lists/listformat/listoutdent/)
+- To increase the list level of the current paragraph by one level, call[ListFormat.listIndent](https://reference.aspose.com/words/nodejs-net/aspose.words.lists/listformat/listindent/)
+- To decrease the list level of the current paragraph by one level, call[ListFormat.listOutdent](https://reference.aspose.com/words/nodejs-net/aspose.words.lists/listformat/listoutdent/)
 
 The methods change the list level and apply the formatting properties of the new level.
 

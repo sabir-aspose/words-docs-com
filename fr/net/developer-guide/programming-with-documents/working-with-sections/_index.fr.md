@@ -61,7 +61,7 @@ L'exemple de code suivant montre comment supprimer les sauts de section:
 
 {{% alert color="primary" %}}
 
-Notez qu’un saut de section contient des informations sur la section qui le précède, et non sur la section qui le suit. Ainsi, si vous supprimez un saut de section, le texte précédant le saut supprimé obtiendra les propriétés du saut de section qui le suit. Cela peut entraîner la transformation de l'ensemble du document en mode paysage, ou la modification ou la disparition complète des en-têtes et des pieds de page.
+Notez qu'un saut de section contient des informations sur la section qui le précède, et non sur la section qui le suit. Ainsi, si vous supprimez un saut de section, le texte précédant le saut supprimé obtiendra les propriétés du saut de section qui le suit. Cela peut entraîner la transformation de l'ensemble du document en mode paysage, ou la modification ou la disparition complète des en-têtes et des pieds de page.
 
 {{% /alert %}}
 

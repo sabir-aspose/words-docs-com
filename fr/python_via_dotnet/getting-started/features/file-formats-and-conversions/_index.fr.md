@@ -114,7 +114,7 @@ Notez que dans de telles situations, Aspose.Words a la conversion marquée "haut
 
 {{% /alert %}}
 
-Par exemple, il n’existe pas de correspondance simple entre toutes les fonctionnalités des documents HTML et Microsoft Word. Il n'y a pas d'en-têtes/pieds de page, de sections, de champs et d'onglets en HTML. À l’inverse, tous les attributs et règles CSS ne peuvent pas être mappés à un document Microsoft Word.
+Par exemple, il n'existe pas de correspondance simple entre toutes les fonctionnalités des documents HTML et Microsoft Word. Il n'y a pas d'en-têtes/pieds de page, de sections, de champs et d'onglets en HTML. À l'inverse, tous les attributs et règles CSS ne peuvent pas être mappés à un document Microsoft Word.
 
 Vous trouverez ci-dessous un exemple de conversions de DOC vers HTML.
 

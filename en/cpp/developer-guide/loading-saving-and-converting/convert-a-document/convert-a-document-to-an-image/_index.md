@@ -52,7 +52,7 @@ The following code example shows how to create a preview of the first document p
    **A:** `HorizontalResolution`, `VerticalResolution`, and `Resolution` control DPI. `JpegQuality` (0‑100) adjusts JPEG compression, while `TiffCompression` sets TIFF compression type. Adjust these on the `ImageSaveOptions` instance before saving.
 
 4. **Q:** How can I change the pixel format or color mode of the output image?  
-   **A:** Set `PixelFormat` (e.g., `PixelFormat::Format24bppRgb`) and `ImageColorMode` (e.g., `ImageColorMode::Grayscale`) on the `ImageSaveOptions` object to modify the image’s color representation.
+   **A:** Set `PixelFormat` (e.g., `PixelFormat::Format24bppRgb`) and `ImageColorMode` (e.g., `ImageColorMode::Grayscale`) on the `ImageSaveOptions` object to modify the image's color representation.
 
 5. **Q:** How do I generate separate image files for every page in a document?  
    **A:** Loop through the page count, update `PageSet` for each page, and call `Save` with a distinct file name, e.g.:

@@ -64,9 +64,9 @@ The code in this section addresses all of the possible situations described abov
 
 ## How to Extract Content
 
-To extract the content from your document you need to call the **ExtractContent** method below and pass the appropriate parameters. The underlying basis of this method involves finding block level nodes (paragraphs and tables) and cloning them to create identical copies. If the marker nodes passed are block level then the method is able to simply copy the content on that level and add it to the array.
+To extract the content from your document you need to call the **ExtractContent** method below and pass the appropriate parameters.The underlying basis of this method involves finding block level nodes (paragraphs and tables) and cloning them to create identical copies. If the marker nodes passed are block level then the method is able to simply copy the content on that level and add it to the array.
 
-However if the marker nodes are inline (a child of a paragraph) then the situation becomes more complex, as it is necessary to split the paragraph at the inline node, be it a run, bookmark fields etc. Content in the cloned parent nodes not present between the markers is removed. This process is used to ensure that the inline nodes will still retain the formatting of the parent paragraph. The method will also run checks on the nodes passed as parameters and throws an exception if either node is invalid. The parameters to be passed to this method are:
+However if the marker nodes are inline (a child of a paragraph) then the situation becomes more complex, as it is necessary to split the paragraph at the inline node, be it a run, bookmark fields etc.Content in the cloned parent nodes not present between the markers is removed. This process is used to ensure that the inline nodes will still retain the formatting of the parent paragraph.The method will also run checks on the nodes passed as parameters and throws an exception if either node is invalid.The parameters to be passed to this method are:
 
 1. **StartNode** and **EndNode**. The first two parameters are the nodes which define where the extraction of the content is to begin and to end at respectively. These nodes can be both block level ([Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) , [Table](https://reference.aspose.com/words/java/com.aspose.words/table/)) or inline level (e.g [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) , [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/) , [BookmarkStart](https://reference.aspose.com/words/java/com.aspose.words/bookmarkstart/) etc.):
    1. To pass a field you should pass the corresponding **FieldStart** object
@@ -87,7 +87,7 @@ The following code example shows how to take a list of nodes and inserts them in
 
 ## Extract Content Between Paragraphs
 
-This demonstrates how to use the method above to extract content between specific paragraphs. In this case, we want to extract the body of the letter found in the first half of the document. We can tell that this is between the 7th and 11th paragraphs.
+This demonstrates how to use the method above to extract content between specific paragraphs. In this case, we want to extract the body of the letter found in the first half of the document.We can tell that this is between the 7th and 11th paragraphs.
 
 The code below accomplishes this task. The appropriate paragraphs are extracted using the [getChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChild-int-int-boolean) method on the document and passing the specified indices. We then pass these nodes to the **ExtractContent** method and state that these are to be included in the extraction. This method will return the copied content between these nodes which are then inserted into a new document.
 
@@ -103,7 +103,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ## Extract Content Between Different Types of Nodes
 
-We can extract content between any combinations of block-level or inline nodes. In this scenario below we will extract the content between first paragraph and the table in the second section inclusively. We get the markers nodes by calling [getFirstParagraph](https://reference.aspose.com/words/java/com.aspose.words/body/#getFirstParagraph) and [getChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChild-int-int-boolean) methods on the second section of the document to retrieve the appropriate **Paragraph** and **Table** nodes. For a slight variation let’s instead duplicate the content and insert it below the original.
+We can extract content between any combinations of block-level or inline nodes. In this scenario below we will extract the content between first paragraph and the table in the second section inclusively. We get the markers nodes by calling [getFirstParagraph](https://reference.aspose.com/words/java/com.aspose.words/body/#getFirstParagraph) and [getChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChild-int-int-boolean) methods on the second section of the document to retrieve the appropriate **Paragraph** and **Table** nodes.For a slight variation let's instead duplicate the content and insert it below the original.
 
 The following code example shows how to extract the content between a paragraph and table using the **ExtractContent** method:
 
@@ -117,7 +117,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ## Extract Content Between Paragraphs Based on Style
 
-You may need to extract the content between paragraphs of the same or different style, such as between paragraphs marked with heading styles. The code below shows how to achieve this. It is a simple example which will extract the content between the first instance of the “Heading 1” and “Header 3” styles without extracting the headings as well. To do this we set the last parameter to false, which specifies that the marker nodes should not be included.
+You may need to extract the content between paragraphs of the same or different style, such as between paragraphs marked with heading styles.The code below shows how to achieve this. It is a simple example which will extract the content between the first instance of the “Heading 1” and “Header 3” styles without extracting the headings as well. To do this we set the last parameter to false, which specifies that the marker nodes should not be included.
 
 In a proper implementation this should be run in a loop to extract content between all paragraphs of these styles from the document. The extracted content is copied into a new document.
 
@@ -135,7 +135,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ## Extract Content Between Specific Runs
 
-You can extract content between inline nodes such as a [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) as well. **Runs** from different paragraphs can be passed as markers. The code below shows how to extract specific text in-between the same **Paragraph** node.
+You can extract content between inline nodes such as a [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) as well. **Runs** from different paragraphs can be passed as markers.The code below shows how to extract specific text in-between the same **Paragraph** node.
 
 The following code example shows how to extract content between specific runs of the same paragraph using the **ExtractContent** method:
 
@@ -149,9 +149,9 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ## Extract Content using a Field
 
-To use a field as marker, the `FieldStart` node should be passed. The last parameter to the `ExtractContent` method will define if the entire field is to be included or not. Let’s extract the content between the “FullName” merge field and a paragraph in the document. We use the [moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField(java.lang.String) method of [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) class. This will return the **FieldStart** node from the name of merge field passed to it.
+To use a field as marker, the `FieldStart` node should be passed. The last parameter to the `ExtractContent` method will define if the entire field is to be included or not.Let's extract the content between the “FullName” merge field and a paragraph in the document. We use the [moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField(java.lang.String) method of [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) class. This will return the **FieldStart** node from the name of merge field passed to it.
 
-In our case let’s set the last parameter passed to the **ExtractContent** method to false to exclude the field from the extraction. We will render the extracted content to PDF.
+In our case let's set the last parameter passed to the **ExtractContent** method to false to exclude the field from the extraction. We will render the extracted content to PDF.
 
 The following code example shows how to extract content between a specific field and paragraph in the document using the **ExtractContent** method:
 
@@ -165,7 +165,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ## Extract Content from a Bookmark
 
-In a document the content that is defined within a bookmark is encapsulated by the `BookmarkStart` and BookmarkEnd nodes. Content found between these two nodes make up the bookmark. You can pass either of these nodes as any marker, even ones from different bookmarks, as long as the starting marker appears before the ending marker in the document. We will extract this content into a new document using the code below. The **IsInclusive** parameter option shows how to retain or discard the bookmark.
+In a document the content that is defined within a bookmark is encapsulated by the `BookmarkStart` and BookmarkEnd nodes. Content found between these two nodes make up the bookmark. You can pass either of these nodes as any marker, even ones from different bookmarks, as long as the starting marker appears before the ending marker in the document.We will extract this content into a new document using the code below. The **IsInclusive** parameter option shows how to retain or discard the bookmark.
 
 The following code example shows how to extract the content referenced a bookmark using the **ExtractContent** method:
 
@@ -183,7 +183,7 @@ A comment is made up of the CommentRangeStart, CommentRangeEnd and Comment nodes
 
 The **Comment** node itself is an [InlineStory](https://reference.aspose.com/words/java/com.aspose.words/inlinestory/) that can contain paragraphs and runs. It represents the message of the comment as seen as a comment bubble in the review pane. As this node is inline and a descendant of a body you can also extract the content from inside this message as well.
 
-The comment encapsulates the heading, first paragraph and the table in the second section. Let’s extract this comment into a new document. The **IsInclusive** option dictates if the comment itself is kept or discarded.
+The comment encapsulates the heading, first paragraph and the table in the second section. Let's extract this comment into a new document. The **IsInclusive** option dictates if the comment itself is kept or discarded.
 
 The following code example shows how to do this:
 
@@ -277,4 +277,4 @@ The following code example shows how to extract images from a document:
    **A:** Use `Node.getText()` for raw text with control characters, or `Node.toString(new SaveOptions(SaveFormat.Text))` to obtain clean plain text. Alternatively, save the whole document with `Document.save(outputStream, SaveFormat.Text)` for a UTF‑8 encoded text file.
 
 5. **Q:** Is it possible to extract images from a document while extracting other content?  
-   **A:** Yes. Iterate through the document’s `NodeType.SHAPE` nodes, check `Shape.getShapeType() == ShapeType.IMAGE`, and call `Shape.getImageData().toByteArray()` to obtain the image bytes. You can store the images separately and still use the `ExtractContent` method for the surrounding text, tables, or paragraphs.
+   **A:** Yes. Iterate through the document's `NodeType.SHAPE` nodes, check `Shape.getShapeType() == ShapeType.IMAGE`, and call `Shape.getImageData().toByteArray()` to obtain the image bytes. You can store the images separately and still use the `ExtractContent` method for the surrounding text, tables, or paragraphs.

@@ -44,15 +44,15 @@ The following code example shows how to get the table's alignment:
 
  The position of a floating table is determined using the following properties: 
 
-* [horizontalAnchor](https://reference.aspose.com/words/nodejs-net/aspose.words/table/horizontalAnchor/) – an object for calculating the horizontal positioning of a floating table
+* [horizontalAnchor](https://reference.aspose.com/words/nodejs-net/aspose.words/table/horizontalAnchor/) –an object for calculating the horizontal positioning of a floating table
 * [verticalAnchor](https://reference.aspose.com/words/nodejs-net/aspose.words/table/verticalAnchor/) – an object for calculating the vertical positioning of a floating table
-* [absoluteHorizontalDistance](https://reference.aspose.com/words/nodejs-net/aspose.words/table/absoluteHorizontalDistance/) – absolute horizontal floating table position
+* [absoluteHorizontalDistance](https://reference.aspose.com/words/nodejs-net/aspose.words/table/absoluteHorizontalDistance/) –absolute horizontal floating table position
 * [absoluteVerticalDistance](https://reference.aspose.com/words/nodejs-net/aspose.words/table/absoluteVerticalDistance/) – absolute vertical floating table position
-* [allowOverlap](https://reference.aspose.com/words/nodejs-net/aspose.words/table/allowOverlap/) – option to enable/disable overlap with other floating objects
+* [allowOverlap](https://reference.aspose.com/words/nodejs-net/aspose.words/table/allowOverlap/) –option to enable/disable overlap with other floating objects
 * [relativeHorizontalAlignment](https://reference.aspose.com/words/nodejs-net/aspose.words/table/relativeHorizontalAlignment/) – floating table relative horizontal alignment.
 * [relativeVerticalAlignment](https://reference.aspose.com/words/nodejs-net/aspose.words/table/relativeVerticalAlignment/) – floating table relative vertical alignment.
 
-The following code example shows how to get the position of a floating table:
+The following code exampleshows how to get the position of a floating table:
 
 {{< gist "aspose-words-gists" "b55c18ec2f5fe3f033f8d24c508b6a0f" "get-floating-table-position.js" >}}
 

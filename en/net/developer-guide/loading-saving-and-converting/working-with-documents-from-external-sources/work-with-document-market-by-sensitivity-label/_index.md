@@ -429,7 +429,7 @@ As a result, the output file should be created with applied "Confidential.All Em
 
 ## See Also
 
-- The article [Work with a Document Stored in a `SharePoint` Online](/words/net/work-with-document-stored-in-sharepoint/)
+- The article[Work with a Document Stored in a `SharePoint` Online](/words/net/work-with-document-stored-in-sharepoint/)
 
 ------ 
 
@@ -452,7 +452,7 @@ As a result, the output file should be created with applied "Confidential.All Em
    Re‑save the document after correcting the property.
 
 4. **Problem:** The final file cannot be opened in Office after the label is reapplied; Office shows *“The file is corrupted or unreadable.”*  
-   **Solution:** The `AssignmentMethod` must match the label’s allowed methods. For privileged labels, keep `AssignmentMethod.Privileged`. If the label requires a different method, retrieve it from the label metadata (`label.AssignmentMethod`). Also ensure the output stream’s position is reset before writing to the file:
+   **Solution:** The `AssignmentMethod` must match the label's allowed methods. For privileged labels, keep `AssignmentMethod.Privileged`. If the label requires a different method, retrieve it from the label metadata (`label.AssignmentMethod`). Also ensure the output stream's position is reset before writing to the file:
 
    ```csharp
    outputStream.Position = 0;

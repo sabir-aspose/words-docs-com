@@ -27,7 +27,7 @@ La méthode **InsertHyperlink** ajoute toujours des apostrophes au début et à 
 
 {{% alert color="primary" %}}
 
-Notez que vous devez spécifier explicitement le formatage de la police pour le texte affiché du lien hypertexte à l’aide de la propriété `Font`.
+Notez que vous devez spécifier explicitement le formatage de la police pour le texte affiché du lien hypertexte à l'aide de la propriété `Font`.
 
 {{% /alert %}}
 

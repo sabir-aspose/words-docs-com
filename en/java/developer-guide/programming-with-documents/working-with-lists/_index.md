@@ -31,17 +31,17 @@ This article describes programmatically working with lists using Aspose.Words.
 
 ## Create Lists by Applying List Formatting
 
-Aspose.Words allows the easy creation of lists by applying list formatting. [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) provides the [ListFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getListFormat) property that returns a **ListFormat** object. This object has several methods to start and end a list and to increase/decrease the indent. There are two general types of lists in Microsoft Word: bulleted and numbered:
+Aspose.Words allows the easy creation of lists by applying list formatting. [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) provides the [ListFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getListFormat) property that returns a **ListFormat** object. This object has several methods to start and end a list and to increase/decrease the indent.There are two general types of lists in Microsoft Word: bulleted and numbered:
 
-- To start a bulleted list, call [ListFormat.ApplyBulletDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyBulletDefault)
-- To start a numbered list, call [ListFormat.ApplyNumberDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyNumberDefault)
+- To start a bulleted list, call[ListFormat.ApplyBulletDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyBulletDefault)
+- To start a numbered list, call[ListFormat.ApplyNumberDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyNumberDefault)
 
-The bullet or number and formatting are added to the current paragraph and all further paragraphs created using **DocumentBuilder** until [RemoveNumbers](https://reference.aspose.com/words/java/com.aspose.words/listformat/#removeNumbers) is called to stop bulleted list formatting.
+The bullet or number and formatting are added to the current paragraph and all further paragraphs created using**DocumentBuilder**until[RemoveNumbers](https://reference.aspose.com/words/java/com.aspose.words/listformat/#removeNumbers)is called to stop bulleted list formatting.
 
 In Word documents, lists may consist of up to nine levels. List formatting for each level specifies what bullet or number is used, left indent, space between the bullet and text etc. The following methods change the list level and apply the new level's formatting properties:
 
-- To increase the list level of the current paragraph by one level, call [ListFormat.ListIndent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listIndent)
-- To decrease the list level of the current paragraph by one level, call [ListFormat.ListOutdent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listOutdent)
+- To increase the list level of the current paragraph by one level, call[ListFormat.ListIndent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listIndent)
+- To decrease the list level of the current paragraph by one level, call[ListFormat.ListOutdent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listOutdent)
 
 You can also use the [ListLevelNumber](https://reference.aspose.com/words/java/com.aspose.words/listformat/#setListLevelNumber-int) property to get or set the list level for the paragraph.
 
@@ -72,11 +72,11 @@ The following code example shows how to create a list and restart it for each se
 1. **Q:** How do I start a bulleted list using Aspose.Words for Java?  
    **A:** Use the `DocumentBuilder` object, access its `ListFormat` property, and call `applyBulletDefault()`. The bullet formatting will be applied to the current paragraph and all subsequent paragraphs until `removeNumbers()` is called.
 
-2. **Q:** How can I create a multilevel numbered list and control each level’s appearance?  
+2. **Q:** How can I create a multilevel numbered list and control each level's appearance?  
    **A:** After starting a list with `applyNumberDefault()`, use `ListLevel` objects (available via `builder.getListFormat().getList().getListLevels()`) to set properties such as `numberStyle`, `font`, `alignment`, and `tabPosition` for each level (0‑8). Adjust the level with `listIndent()` and `listOutdent()` as needed.
 
 3. **Q:** Is it possible to restart numbering for each new section in a document?  
-   **A:** Yes. Set the `IsRestartAtEachSection` property of the `List` object to `true`. This works for RTF, DOC, and DOCX formats and is written to DOCX only when the document’s `OoxmlCompliance` is higher than `Ecma376`.
+   **A:** Yes. Set the `IsRestartAtEachSection` property of the `List` object to `true`. This works for RTF, DOC, and DOCX formats and is written to DOCX only when the document's `OoxmlCompliance` is higher than `Ecma376`.
 
 4. **Q:** How do I retrieve or change the current list level of a paragraph?  
    **A:** Use the `getListLevelNumber()` method of `ListFormat` to read the level, and `setListLevelNumber(int level)` to change it. Levels are zero‑based, ranging from 0 to 8.

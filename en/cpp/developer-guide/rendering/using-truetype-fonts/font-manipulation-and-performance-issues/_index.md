@@ -13,7 +13,7 @@ url: /cpp/font-manipulation-and-performance-issues/
 timestamp: 2024-09-24-14-35-44
 ---
 
-All available font manipulation mechanisms are contained in the [FontSettings](https://reference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings) class. This class is responsible for fetching fonts within defined font sources as well as for the Font Substitution process, as described below.
+All available font manipulation mechanisms are contained in the[FontSettings](https://reference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings)class.This class is responsible for fetching fonts within defined font sources as well as for the Font Substitution process, as described below.
 
 ## Parsing the Resolved Fonts
 
@@ -27,11 +27,11 @@ When Aspose.Words encounters a font in the document for the first time, it attem
 
 ## Performance Issue When Replacing Fonts
 
-Since the procedure described above is time‑consuming, it may negatively affect application performance at its first launch. However, each instance of **FontSettings** has its own cache, which could reduce the processing time of subsequent documents. For example, you can share an instance of the **FontSettings** class between different documents, which allows you to speed up the loading of the documents. The following example demonstrates this:
+Since the procedure described above is time‑consuming,it may negatively affect application performance at its first launch. However, each instance of**FontSettings**has its own cache, which could reduce the processing time of subsequent documents. For example, you can share an instance of the**FontSettings**class between different documents, which allows you to speed up the loading of the documents. The following example demonstrates this:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-WorkingWithFontSettings-FontSettingsWithLoadOptions.cpp" >}}
 
-In the case when **FontSettings** is not defined explicitly, Aspose.Words uses the default **FontSettings** instance. This instance is also automatically shared among documents, and can be extracted as follows:
+In the case when**FontSettings**is not defined explicitly, Aspose.Words uses the default**FontSettings**instance. This instance is also automatically shared among documents, and can be extracted as follows:
 
 **C++**
 
@@ -41,12 +41,12 @@ System::SharedPtr<FontSettings> fontSettings = System::MakeObject<FontSettings>(
 
 ## Using the Default FontSettings Instance
 
-If you are sure that all processing documents require the same font settings, then it is recommended to set up and utilize the default **FontSettings** instance. Suppose that you need to use the same font sources for all your documents. In this case, you can just amend the default instance as follows:
+If you are sure that all processing documents require the same font settings, then it is recommended to set up and utilize the default**FontSettings**instance.Suppose that you need to use the same font sources for all your documents. In this case, you can just amend the default instance as follows:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-WorkingWithFontSettings-FontSettingsFontSource.cpp" >}}
 
 {{% alert color="primary" %}}
-The custom **FontSettings** have higher priority than the default instance.
+The custom **FontSettings**have higher priority than the default instance.
 {{% /alert %}}
 
 ------  
@@ -66,4 +66,4 @@ The custom **FontSettings** have higher priority than the default instance.
    **A:** Yes. Call `fontSettings->ClearCache();` after modifying the font sources. This forces Aspose.Words to re‑scan the sources the next time a document requests a font, ensuring the new fonts are taken into account.
 
 5. **Q:** How does `FontSettings` affect font substitution, and can I control which fonts are used as substitutes?  
-   **A:** `FontSettings` performs substitution based on the resolved font’s full name, family name, style, etc. You can customize substitution rules via `fontSettings->get_SubstitutionSettings()->AddSubstitutes(u"Arial", System::MakeArray<System::String>({ u"Helvetica", u"FreeSans" }));`. This tells Aspose.Words to prefer the listed fonts when the original font is unavailable.
+   **A:** `FontSettings` performs substitution based on the resolved font's full name, family name, style, etc. You can customize substitution rules via `fontSettings->get_SubstitutionSettings()->AddSubstitutes(u"Arial", System::MakeArray<System::String>({ u"Helvetica", u"FreeSans" }));`. This tells Aspose.Words to prefer the listed fonts when the original font is unavailable.

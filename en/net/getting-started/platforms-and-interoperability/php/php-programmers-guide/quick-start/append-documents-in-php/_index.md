@@ -17,7 +17,7 @@ timestamp: 2024-01-27-14-07-04
 
 ## Purpose Summary
 
-This page outlines how to append documents in a PHP context using Aspose.Words’s merge capabilities.
+This page outlines how to append documents in a PHP context using Aspose.Words's merge capabilities.
 
 {{% /alert %}}
 
@@ -43,6 +43,6 @@ echo "Document appended successfully.\nFile saved at " . $dataDir . "TestFile Ou
 
 ## Download Running Code
 
-Download **Append Documents Example (Aspose.Words)** from any of the below mentioned social coding sites:
+Download **Append Documents Example (Aspose.Words)**fromany of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose_Words_NET_for_PHP/src/aspose/words/quickstart)

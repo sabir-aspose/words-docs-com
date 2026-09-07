@@ -56,7 +56,7 @@ timestamp: 2024-10-21-11-17-44
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Autolink.h" >}} |  |
 | **Link**<br />`[link text](url)`<br />`[link text](<url>"title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | فئة [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/). |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Link.h" >}} |  |
-| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | فئة [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/). |
+| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title')`<br />`![alt text](url (title))` | فئة [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/). |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Image.h" >}} |  |
 
 ## كتل الحاويات
@@ -92,9 +92,9 @@ else
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `get_ParagraphFormat()->set_StyleName(u"Quote[some suffix]")`<br />اللاحقة في اسم النمط اختيارية، ولكن Aspose.Words المستورد يستخدم الأرقام المطلوبة1, 2, 3, .... في حالة الاقتباسات المتداخلة.<br />يتم تعريف التعشيش عبر الأنماط الموروثة. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Quote.h" >}} |  |
-| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | يتم تمثيل القوائم النقطية باستخدام ترقيم الفقرات:<br />`get_ListFormat()->ApplyBulletDefault()`<br />يمكن أن يكون هناك 3 أنواع القوائم النقطية. هم فقط فرق في تنسيق ترقيم من المستوى الأول. هذه هي: `‘-’`، `‘+’` أو `‘*’` على التوالي. |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | يتم تمثيل القوائم النقطية باستخدام ترقيم الفقرات:<br />`get_ListFormat()->ApplyBulletDefault()`<br />يمكن أن يكون هناك 3 أنواع القوائم النقطية. هم فقط فرق في تنسيق ترقيم من المستوى الأول. هذه هي: `‘-'`، `‘+'` أو `‘*'` على التوالي. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-BulletedList.h" >}} |  |
-| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | يتم تمثيل القوائم المرتبة باستخدام ترقيم الفقرات:<br />`get_ListFormat()->ApplyNumberDefault()`<br />يمكن أن يكون هناك 2 علامات تنسيق الأرقام: ‘.’ و ‘)’. العلامة الافتراضية هي ‘.’. |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | يتم تمثيل القوائم المرتبة باستخدام ترقيم الفقرات:<br />`get_ListFormat()->ApplyNumberDefault()`<br />يمكن أن يكون هناك 2 علامات تنسيق الأرقام: ‘.' و ‘)'. العلامة الافتراضية هي ‘.'. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-OrderedList.h" >}} |  |
 
 ### الجداول

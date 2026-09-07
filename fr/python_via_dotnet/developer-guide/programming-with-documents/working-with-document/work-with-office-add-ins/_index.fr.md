@@ -13,9 +13,9 @@ url: /fr/python-net/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Parfois, vous souhaiterez peut-être accorder l’accès aux contrôles d’interface qui exécutent du code pour modifier des documents. Aspose.Words API fournit le module [webextensions](https://reference.aspose.com/words/python-net/aspose.words.webextensions/), qui accorde diverses classes pour personnaliser les éléments et les attributs étendant le vocabulaire XML pour représenter les compléments Office.
+Parfois, vous souhaiterez peut-être accorder l'accès aux contrôles d'interface qui exécutent du code pour modifier des documents. Aspose.Words API fournit le module [webextensions](https://reference.aspose.com/words/python-net/aspose.words.webextensions/), qui accorde diverses classes pour personnaliser les éléments et les attributs étendant le vocabulaire XML pour représenter les compléments Office.
 
-L’espace de noms WebExtensions peut être conditionnellement divisé en:
+L'espace de noms WebExtensions peut être conditionnellement divisé en:
 
 * Objets pour travailler avec le volet des tâches
 * Objets pour travailler avec des extensions Web

@@ -29,7 +29,7 @@ The shortest answer we could give to the second question is that the main reason
 
 Aspose components have been thoroughly tested.
 
-Aspose components are used by companies such as IBM, Hilton, Reader’s Digest, Bank of America, and many more.
+Aspose components are used by companies such as IBM, Hilton, Reader's Digest, Bank of America, and many more.
 
 {{% /alert %}}
 

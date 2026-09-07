@@ -22,7 +22,7 @@ This page demonstrates how to use Aspose.Words SaveOptions classes in Python via
 
 {{% /alert %}}
 
-When saving a document, you can set some advanced properties. Aspose.Words provides you with the [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) class, which allows more precise control of the save process. There are overloads of the [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) method that accept a [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) object – it should be an object of a class derived from the [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) class. Each save format has a corresponding class that holds save options for this save format, for example, there is [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) for saving to PDF format or [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) for saving to an image. This article provides examples of working with some options classes derived from [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/).
+When saving a document, you can set some advanced properties. Aspose.Words provides you with the[SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) class, which allows more precise control of the save process.There are overloads of the [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) method that accept a [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) object – it should be an object of a class derived from the [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) class. Each save format has a corresponding class that holds save options for this save format, for example, there is [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) for saving to PDF format or [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) for saving to an image.This article provides examples of working with some options classes derived from [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/).
 
 The following code example shows how to set the save options before saving the document into HTML:
 
@@ -30,7 +30,7 @@ The following code example shows how to set the save options before saving the d
 
 {{% alert color="primary" %}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Rendering.docx).
+You can download the template file of this examplefrom[Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
@@ -38,15 +38,15 @@ The article describes a few properties you can control when saving a document.
 
 ## Encrypt a Document With a Password
 
-Use the **password** property to get or set a password for an encrypted document. Use the **password** property of the corresponding class to work with the selected document format.
+Use the**password**property to get or set a password for an encrypted document.Use the **password**property of the corresponding class to work with the selected document format.
 
-For example, when saving a document to DOC or DOT format, use the [password](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/password/) property of the [DocSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/) class.
+For example, when saving a document to DOC or DOT format, use the[password](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/password/)property of the[DocSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/)class.
 
 The following code example shows how to set a password to encrypt a document using the RC4 encryption method:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_doc_save_options-EncryptDocumentWithPassword.py" >}}
 
-When saving a document to Docx format, use the [password](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/password/) property of the [OoxmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/) class.
+When saving a document to Docx format, use the[password](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/password/)property of the[OoxmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/)class.
 
 The following code example shows how to load and save Docx encrypted with a password:
 
@@ -64,9 +64,9 @@ The following code example shows how to update the document creation time:
 
 ## Update Last Saved Property
 
-Aspose.Words provides an ability to use the [update_last_saved_time_property](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/update_last_saved_time_property/) property to get or set a value determining whether the [last_saved_time](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/last_saved_time/) property is updated before saving.
+Aspose.Words provides anability to use the[update_last_saved_time_property](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/update_last_saved_time_property/)property to get or set a value determining whether the[last_saved_time](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/last_saved_time/)property is updated before saving.
 
-The following code example shows how to set this property and save the document:
+The followingcode example shows how to set this property and save the document:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_ooxml_save_options-UpdateLastSavedTimeProperty.py" >}}
 
@@ -95,7 +95,7 @@ The following code example shows how to save a black and white image with one bi
    ```
 
 2. **Q:** How do I update the document creation time before saving?  
-   **A:** Set the `created_time` property of the document’s built‑in properties, or enable `update_created_time_property` on the SaveOptions object. The updated time will be written to the file when you call `save`.  
+   **A:** Set the `created_time` property of the document's built‑in properties, or enable `update_created_time_property` on the SaveOptions object. The updated time will be written to the file when you call `save`.  
 
    ```python
    import aspose.words as aw

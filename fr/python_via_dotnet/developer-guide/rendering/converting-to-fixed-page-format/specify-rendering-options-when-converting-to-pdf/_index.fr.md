@@ -89,7 +89,7 @@ Un signet ou un titre de navigation peut avoir différentes apparences dans diff
 
 Aspose.Words offre la possibilité de sous-échantillonner les images afin de réduire la taille du PDF de sortie, à l'aide de la propriété [downsample_options](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/downsample_options/). Le sous-échantillonnage est activé par défaut dans la propriété [downsample_images](https://reference.aspose.com/words/python-net/aspose.words.saving/downsampleoptions/downsample_images/).
 
-A noter qu'il est également possible de définir une résolution spécifique dans la propriété [resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/downsampleoptions/resolution/), ou un seuil de résolution dans la propriété [resolution_threshold](https://reference.aspose.com/words/python-net/aspose.words.saving/downsampleoptions/resolution_threshold/). Dans le second cas, si la résolution de l’image est inférieure à la valeur seuil, le sous-échantillonnage ne s’appliquera pas.
+A noter qu'il est également possible de définir une résolution spécifique dans la propriété [resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/downsampleoptions/resolution/), ou un seuil de résolution dans la propriété [resolution_threshold](https://reference.aspose.com/words/python-net/aspose.words.saving/downsampleoptions/resolution_threshold/). Dans le second cas, si la résolution de l'image est inférieure à la valeur seuil, le sous-échantillonnage ne s'appliquera pas.
 
 L'exemple de code ci-dessous montre comment modifier la résolution des images dans un document PDF de sortie:
 
@@ -139,7 +139,7 @@ Les polices principales et les polices Windows Standard sont les ensembles de po
 
 Aspose.Words fournit des options pour choisir la manière dont les polices sont exportées au format PDF. Vous pouvez choisir soit d'incorporer les polices principales et standard dans le PDF de sortie, soit d'ignorer leur intégration et d'utiliser à la place les polices PDF principales standard ou les polices système sur la machine cible. L'utilisation de l'une ou l'autre de ces options entraîne normalement une réduction significative de la taille des fichiers PDF générés par Aspose.Words.
 
-- Puisque ces options s’excluent mutuellement, vous ne devez en choisir qu’une à la fois.
+- Puisque ces options s'excluent mutuellement, vous ne devez en choisir qu'une à la fois.
 - Lors de l'enregistrement avec la conformité PDF/A-1, toutes les polices utilisées doivent être intégrées au document PDF. Lors d'un enregistrement avec cette conformité, la propriété [use_core_fonts](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_core_fonts/) doit être définie sur *False* et la propriété [font_embedding_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/font_embedding_mode/) doit être définie sur [PdfFontEmbeddingMode.EMBED_ALL](https://reference.aspose.com/words/python-net/aspose.words.saving/pdffontembeddingmode/#embed_all).
 
 ### Incorporation des polices principales

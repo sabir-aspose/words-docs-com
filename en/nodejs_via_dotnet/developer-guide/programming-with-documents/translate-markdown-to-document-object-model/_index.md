@@ -56,7 +56,7 @@ We use a character style with a name that starts from the word `InlineCode`, fol
 {{< gist "aspose-words-gists" "6558fa20d4ebd9a86b255fe67ca67eb1" "autolink.js" >}} |  |
 | **Link**<br />`[link text](url)`<br />`[link text](<url> "title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | The [FieldHyperlink](https://reference.aspose.com/words/nodejs-net/aspose.words.fields/fieldhyperlink/) |
 {{< gist "aspose-words-gists" "6558fa20d4ebd9a86b255fe67ca67eb1" "link.js" >}} |  |
-| **Image**<br />`![](url)`<br />`![alt text](<url> “title”)`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | The [Shape](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/) class. |
+| **Image**<br />`![](url)`<br />`![alt text](<url> “title”)`<br />`![alt text](url ‘title')`<br />`![alt text](url (title))` | The [Shape](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/) class. |
 {{< gist "aspose-words-gists" "6558fa20d4ebd9a86b255fe67ca67eb1" "image.js" >}} |  |
 
 ## Container Blocks

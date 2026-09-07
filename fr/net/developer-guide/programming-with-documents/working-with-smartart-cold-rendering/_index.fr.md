@@ -14,7 +14,7 @@ url: /fr/net/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Les graphiques SmartArt sont utilisés pour créer rapidement et facilement une représentation visuelle des informations. Vous choisissez simplement parmi un grand nombre d’agencements celui qui convient le mieux à votre situation. Cette facilité d'utilisation rend les graphiques SmartArt très populaires à certaines fins.
+Les graphiques SmartArt sont utilisés pour créer rapidement et facilement une représentation visuelle des informations. Vous choisissez simplement parmi un grand nombre d'agencements celui qui convient le mieux à votre situation. Cette facilité d'utilisation rend les graphiques SmartArt très populaires à certaines fins.
 
 Microsoft Word génère et enregistre le dessin pré-rendu avec l'objet `SmartArt`. Dans la plupart des cas, le dessin pré-rendu est bien rendu par Aspose.Words et aucune action supplémentaire n'est requise. Toutefois, si le document est enregistré par d'autres applications, le dessin SmartArt pré-rendu peut être manquant ou incorrect. Dans ce cas, l'objet `SmartArt` lui-même doit être présenté et rendu en utilisant Aspose.Words. Nous appelons ce processus le rendu à froid `SmartArt`.
 

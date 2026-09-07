@@ -56,7 +56,7 @@ The following code example shows how to remove duplicate styles from a document:
 3. **Q:** Can I also clean up unused built‑in styles and lists?  
    **A:** Yes. Set `setUnusedBuiltinStyles(true)` and/or `setUnusedLists(true)` on the same `CleanupOptions` object before calling `cleanup`. All specified unused elements will be removed in one pass.
 
-4. **Q:** Does the cleanup process affect the document’s visible content?  
+4. **Q:** Does the cleanup process affect the document's visible content?  
    **A:** No. Cleanup only removes unused or duplicate style and list definitions; it does not modify the actual text, images, or other visible content of the document.
 
 5. **Q:** Is it possible to combine multiple cleanup options in a single call?  

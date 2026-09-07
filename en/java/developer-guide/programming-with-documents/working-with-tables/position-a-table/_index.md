@@ -52,15 +52,15 @@ The following code example shows how to get the table's alignment:
 
  The position of a floating table is determined using the following properties: 
 
-* [HorizontalAnchor](https://reference.aspose.com/words/java/com.aspose.words/table/#getHorizontalAnchor) – an object for calculating the horizontal positioning of a floating table
+* [HorizontalAnchor](https://reference.aspose.com/words/java/com.aspose.words/table/#getHorizontalAnchor) –an object for calculating the horizontal positioning of a floating table
 * [VerticalAnchor](https://reference.aspose.com/words/java/com.aspose.words/table/#getVerticalAnchor) – an object for calculating the vertical positioning of a floating table
-* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/java/com.aspose.words/table/#getAbsoluteHorizontalDistance) – absolute horizontal floating table position
+* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/java/com.aspose.words/table/#getAbsoluteHorizontalDistance) –absolute horizontal floating table position
 * [AbsoluteVerticalDistance](https://reference.aspose.com/words/java/com.aspose.words/table/#getAbsoluteVerticalDistance) – absolute vertical floating table position
-* [AllowOverlap](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowOverlap) – option to enable/disable overlap with other floating objects
-* [RelativeHorizontalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeHorizontalAlignment) –  floating table relative horizontal alignment.
+* [AllowOverlap](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowOverlap) –option to enable/disable overlap with other floating objects
+* [RelativeHorizontalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeHorizontalAlignment) – floating table relative horizontal alignment.
 * [RelativeVerticalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeVerticalAlignment) –  floating table relative vertical alignment.
 
-The following code example shows how to get the position of a floating table:
+The following code exampleshows how to get the position of a floating table:
 
 {{< gist "aspose-words-gists" "0f235c484e5edae70a542ebdaae40fd8" "get-floating-table-position.java" >}}
 

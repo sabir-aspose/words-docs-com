@@ -113,7 +113,7 @@ And after executing Mail Merge with regions:
 There are some important points that you need to consider when performing a Mail Merge with regions:
 
 * The start point *TableStart:Orders* and the end point *TableEnd:Orders* both need to be in the same row or cell. For example, if you start a merge region in a cell of a table, you must end the merge region in the same row as the first cell.
-* The merge field name must match the column’s name in your DataTable. Unless you have specified mapped fields, the Mail Merge with regions will not be successful for any merge field that has a different name than the column’s name.
+* The merge field name must match the column's name in your DataTable. Unless you have specified mapped fields, the Mail Merge with regions will not be successful for any merge field that has a different name than the column's name.
 
 If one of these rules is broken, you will get unexpected results or an exception may be thrown.
 

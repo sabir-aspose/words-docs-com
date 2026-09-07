@@ -77,7 +77,7 @@ The following code example shows how to remove read-only access for a document:
 ## FAQ
 
 1. Q: How can I make a document read‑only without requiring a password?  
-   A: Set the `readOnlyRecommended` property to `true` on the document’s `WriteProtection` object and do not call `setPassword`. The document will open in read‑only mode, but users can still remove the recommendation by changing the setting in Word.
+   A: Set the `readOnlyRecommended` property to `true` on the document's `WriteProtection` object and do not call `setPassword`. The document will open in read‑only mode, but users can still remove the recommendation by changing the setting in Word.
 
 2. Q: How do I set a password that forces users to open the document as read‑only?  
    A: After loading the document, call `document.writeProtection.setPassword("MyPassword")` and then set `document.writeProtection.readOnlyRecommended = true`. When the file is opened, Word will prompt for the password before allowing edits.

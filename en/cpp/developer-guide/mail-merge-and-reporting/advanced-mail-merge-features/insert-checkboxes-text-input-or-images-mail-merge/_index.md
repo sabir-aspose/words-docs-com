@@ -75,7 +75,7 @@ The following code example shows how to set various image properties:
 ## FAQ
 
 1. **Q:** How do I insert a checkbox form field during a mail merge in C++?  
-   **A:** Implement a custom class that inherits from `Aspose::Words::MailMerging::IFieldMergingCallback`. In the `FieldMerging` method, detect the merge field name and replace it with a `FormField` of type `CheckBox`. Use `DocumentBuilder` to insert the checkbox at the field’s position and then remove the original merge field.
+   **A:** Implement a custom class that inherits from `Aspose::Words::MailMerging::IFieldMergingCallback`. In the `FieldMerging` method, detect the merge field name and replace it with a `FormField` of type `CheckBox`. Use `DocumentBuilder` to insert the checkbox at the field's position and then remove the original merge field.
 
 2. **Q:** How can I insert a text input form field during a mail merge?  
    **A:** In the same `IFieldMergingCallback` implementation, when the merge field name matches a text input placeholder, create a `FormField` of type `TextInput`. Set its `Name` and optionally its default text, then replace the merge field node with this form field.

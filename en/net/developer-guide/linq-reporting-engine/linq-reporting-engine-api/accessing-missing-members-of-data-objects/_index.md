@@ -57,7 +57,7 @@ engine.BuildReport(...);
 ## FAQ
 
 1. **Q:** How can I enable the LINQ Reporting Engine to ignore missing members?  
-   **A:** Set the `ReportBuildOptions.AllowMissingMembers` flag on the engine’s `Options` property before calling `BuildReport`. This tells the engine to treat missing members as null literals instead of throwing an exception.
+   **A:** Set the `ReportBuildOptions.AllowMissingMembers` flag on the engine's `Options` property before calling `BuildReport`. This tells the engine to treat missing members as null literals instead of throwing an exception.
 
 2. **Q:** What is the result of a template expression that references a missing member when `AllowMissingMembers` is enabled?  
    **A:** The engine substitutes the missing member with a null literal, so the expression produces no output and the report generation continues without errors.

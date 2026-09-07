@@ -23,7 +23,7 @@ La classe [FontSourceBase](https://reference.aspose.com/words/fr/net/aspose.word
 - [FileFontSource](https://reference.aspose.com/words/fr/net/aspose.words.fonts/filefontsource)
 - [MemoryFontSource](https://reference.aspose.com/words/fr/net/aspose.words.fonts/memoryfontsource)
 
-Les détails d’implémentation de certaines classes sont expliqués ci-dessous.
+Les détails d'implémentation de certaines classes sont expliqués ci-dessous.
 
 ## Charger les polices à partir du système {#loading-fonts-from-system}
 
@@ -31,7 +31,7 @@ Il existe une classe [SystemFontSource](https://reference.aspose.com/words/fr/ne
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontsFolders-SetFontsFolders.cs" >}}
 
-Une seule instance de la classe **SystemFontSource** est définie par défaut dans [FontSettings](https://reference.aspose.com/words/fr/net/aspose.words.fonts/fontsettings/). Sur différents systèmes d'exploitation, les polices peuvent être situées à différents endroits. Cependant, utiliser une instance **FontSettings** pour chaque document n'est pas une solution optimale. Dans la majorité des cas, l’utilisation du [DefaultInstance](https://reference.aspose.com/words/fr/net/aspose.words.fonts/fontsettings/defaultinstance/) devrait suffire.
+Une seule instance de la classe **SystemFontSource** est définie par défaut dans [FontSettings](https://reference.aspose.com/words/fr/net/aspose.words.fonts/fontsettings/). Sur différents systèmes d'exploitation, les polices peuvent être situées à différents endroits. Cependant, utiliser une instance **FontSettings** pour chaque document n'est pas une solution optimale. Dans la majorité des cas, l'utilisation du [DefaultInstance](https://reference.aspose.com/words/fr/net/aspose.words.fonts/fontsettings/defaultinstance/) devrait suffire.
 
 Les instances par document ne sont nécessaires que s'il est nécessaire d'utiliser différentes sources de polices pour différents documents, ce qui est un cas rare. L'utilisation de plusieurs instances **FontSettings** diminue les performances car elles ne partagent pas le cache.
 

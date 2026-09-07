@@ -68,4 +68,4 @@ In this case, the engine produces a report as follows.
    **A:** Combine `indexOf()` with a conditional expression: `<<[item.indexOf() != 0 ? ", " : ""]>>`. This inserts the separator only when the current index is not zero.
 
 5. **Q:** Are `indexOf()` and `numberOf()` limited to string collections, or can they be used with any enumerable type?  
-   **A:** They work with iteration variables of any type—lists of objects, custom classes, or primitive types—because the methods operate on the position of the item in the sequence, not on the item’s value.
+   **A:** They work with iteration variables of any type—lists of objects, custom classes, or primitive types—because the methods operate on the position of the item in the sequence, not on the item's value.

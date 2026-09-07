@@ -56,7 +56,7 @@ Kami menggunakan gaya karakter dengan nama yang dimulai dari kata `InlineCode`, 
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Autolink.h" >}} |  |
 | **Link**<br />`[link text](url)`<br />`[link text](<url>"title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | Kelas [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/). |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Link.h" >}} |  |
-| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | Kelas [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/). |
+| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title')`<br />`![alt text](url (title))` | Kelas [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/). |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Image.h" >}} |  |
 
 ## Blok Kontainer
@@ -92,9 +92,9 @@ Tabel di bawah ini menunjukkan contoh penggunaan Wadah Kompleks Markdowndalam As
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `get_ParagraphFormat()->set_StyleName(u"Quote[some suffix]")`<br />Sufiks dalam nama gaya bersifat opsional, tetapi pengimpor Aspose.Words menggunakan nomor terurut1, 2, 3, .... dalam kasus tanda kutip bersarang.<br />Bersarang didefinisikan melalui gaya yang diwariskan. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Quote.h" >}} |  |
-| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Daftar berpoin direpresentasikan menggunakan penomoran paragraf:<br />`get_ListFormat()->ApplyBulletDefault()`<br />Mungkin ada 3 jenis daftar berpoin. Mereka hanya berbeda dalam format penomoran tingkat pertama. Ini adalah: `‘-’`, `‘+’` atau `‘*’` masing-masing. |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Daftar berpoin direpresentasikan menggunakan penomoran paragraf:<br />`get_ListFormat()->ApplyBulletDefault()`<br />Mungkin ada 3 jenis daftar berpoin. Mereka hanya berbeda dalam format penomoran tingkat pertama. Ini adalah: `‘-'`, `‘+'` atau `‘*'` masing-masing. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-BulletedList.h" >}} |  |
-| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Daftar terurut direpresentasikan menggunakan penomoran paragraf:<br />`get_ListFormat()->ApplyNumberDefault()`<br />Mungkin ada penanda format angka 2: ‘.’ dan ‘)’. Penanda standarnya adalah ‘.’. |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Daftar terurut direpresentasikan menggunakan penomoran paragraf:<br />`get_ListFormat()->ApplyNumberDefault()`<br />Mungkin ada penanda format angka 2: ‘.' dan ‘)'. Penanda standarnya adalah ‘.'. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-OrderedList.h" >}} |  |
 
 ### Tabel

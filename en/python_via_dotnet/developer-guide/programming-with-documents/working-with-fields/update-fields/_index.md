@@ -59,7 +59,7 @@ When you execute a mail merge, all fields in the document will be automatically 
 
 ## Update Fields Having Dirty Attribute
 
-The w:dirty is a field-level attribute that will refresh only the field you specify when the document is opened. It tells MS Word to only refresh this field the next time the document is opened. You can use [update_dirty_fields](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/update_dirty_fields/) property to specify whether to update the fields with the dirty attribute. When the value of **update_dirty_fields** is set to `True`, all fields having `True` value for [Field.is_dirty](https://reference.aspose.com/words/python-net/aspose.words.fields/field/is_dirty/) or [FieldChar.is_dirty](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldchar/is_dirty/) property are updated on document load.
+The w:dirty is a field-level attribute that will refresh only the field you specify when the document is opened. It tells MS Word to only refresh this field the next time thedocument is opened. You can use[update_dirty_fields](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/update_dirty_fields/) propertyto specify whether to update the fields with the dirty attribute.When the value of **update_dirty_fields** is set to `True`, all fields having `True` value for [Field.is_dirty](https://reference.aspose.com/words/python-net/aspose.words.fields/field/is_dirty/) or [FieldChar.is_dirty](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldchar/is_dirty/) property are updated on document load.
 
 The following code example shows how to update fields having the dirty attribute:
 

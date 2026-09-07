@@ -82,7 +82,7 @@ To output every item into a separate table row, which text is colored dynamicall
 ## FAQ
 
 1. **Q:** How can I specify a color using a hexadecimal HTML code in a `textColor` tag?  
-   **A:** Place the hex code as a string inside the tag’s expression, e.g., `<<textColor ["#1E90FF"]>>`. The engine parses the string and applies the corresponding RGB color at runtime.
+   **A:** Place the hex code as a string inside the tag's expression, e.g., `<<textColor ["#1E90FF"]>>`. The engine parses the string and applies the corresponding RGB color at runtime.
 
 2. **Q:** Is it possible to pass a `java.awt.Color` object returned from a method to the `textColor` tag?  
    **A:** Yes. The expression can return a `Color` instance, such as `<<textColor [item.getColor()]>>`. The tag will use the exact RGB values of the returned `Color` object.

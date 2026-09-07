@@ -135,7 +135,7 @@ Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
 builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
-|  **BulletedList**<br/>`- Item 1`<br/>`- Item 2`<br/> `   - Item 2a`<br/> `   - Item 2b` |  Списки буклетів представлені за допомогою абзацу:<br/>`ListFormat.ApplyBulletDefault()`<br/>Ви можете бути 3 види бюлетенів. Вони розрізняються лише в форматі нумерації першого рівня. Це: `‘-’`, `‘+’` або `‘*’` відповідно |
+|  **BulletedList**<br/>`- Item 1`<br/>`- Item 2`<br/> `   - Item 2a`<br/> `   - Item 2b` |  Списки буклетів представлені за допомогою абзацу:<br/>`ListFormat.ApplyBulletDefault()`<br/>Ви можете бути 3 види бюлетенів. Вони розрізняються лише в форматі нумерації першого рівня. Це: `‘-'`, `‘+'` або `‘*'` відповідно |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
 |  **OrderedList**<br/>`1. Item 1`<br/>`2. Item 2`<br/> `1) Item 2a`<br/> `2) Item 2b` |  Замовлені списки представлені за допомогою абзаців:<br/>`ListFormat.ApplyNumberDefault()`<br/>Відмітки формату 2: "." та ")" Маркувальник за замовчуванням "." |
 |  {{< highlight csharp >}}Document doc = new Document();

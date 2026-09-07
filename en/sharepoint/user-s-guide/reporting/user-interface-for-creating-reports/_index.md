@@ -17,7 +17,7 @@ Aspose.Words for SharePoint lets you create a report with Aspose.Words for Share
 To make a report:
 
 1. Select a report template in a SharePoint document library.
-1. Click **Make Report via Aspose.Words** in the template’s Edit Control Block.<br>
+1. Click **Make Report via Aspose.Words** in the template's Edit Control Block.<br>
    **Selecting Make Reports vie Aspose.Words**<br>
 ![todo:image_alt_text](user-interface-for-creating-reports-1.png)
 

@@ -13,9 +13,9 @@ url: /cpp/font-fallback-settings-from-xml/
 timestamp: 2024-09-24-14-35-44
 ---
 
-There are two different mechanisms used in Aspose.Words — Font substitution and Font fallback. Font substitution is used when the font specified in the document could not be found among the font sources as it was described in the above sections. The Font fallback mechanism is used when the font is resolved, but it does not contain a specific character. In this case, Aspose.Words tries to use one of the fallback fonts for the character.
+There are two different mechanismsused in Aspose.Words— Font substitution and Font fallback. Font substitution is used when the font specified in the document could not be found among the font sources as it was described in the above sections. TheFont fallback mechanism is used when the font is resolved, but it does not contain a specific character. In this case, Aspose.Words tries to use one of the fallback fonts for the character.
 
-There is a [BuildAutomatic](https://reference.aspose.com/words/cpp/aspose.words.fonts/fontfallbacksettings/buildautomatic/) method that automatically builds the fallback settings by scanning available fonts. Since this method may produce a non-optimal fallback setting, you can control the font fallback behavior by using the properties of the [FontFallbackSettings](https://reference.aspose.com/words/cpp/class/aspose.words.fonts.font_fallback_settings) class. This class specifies settings of the font fallback mechanism. You can get an instance of the **FontFallbackSettings** class as follows:
+There is a[BuildAutomatic](https://reference.aspose.com/words/cpp/aspose.words.fonts/fontfallbacksettings/buildautomatic/)method that automatically builds the fallback settings by scanning available fonts. Since this method may produce a non-optimal fallback setting, you can control the font fallback behavior byusing the properties ofthe[FontFallbackSettings](https://reference.aspose.com/words/cpp/class/aspose.words.fonts.font_fallback_settings)class.This class specifies settings of the font fallback mechanism.You can get an instance of the**FontFallbackSettings**class as follows:
 
 **C++**
 
@@ -23,7 +23,7 @@ There is a [BuildAutomatic](https://reference.aspose.com/words/cpp/aspose.words
 System::SharedPtr<FontFallbackSettings> settings = fontSettings->get_FallbackSettings();
 {{< /highlight >}}
 
-Similarly to *Table substitution rule*, this mechanism uses XML tables for configuration. These XML tables can be loaded and saved with the following methods:
+Similarly to*Table substitution rule*, this mechanism uses XML tables for configuration. These XML tablescan be loaded and saved with the following methods:
 
 **C++**
 
@@ -32,9 +32,9 @@ fontSettings->get_FallbackSettings()->Load(u"MyNewFallbackTable.xml");
 fontSettings->get_FallbackSettings()->Save(u"Current_FallbackTable.xml");
 {{< /highlight >}}
 
-The Aspose.Words release includes two tables: *MsOfficeFallbackSetting.xml* and *NotoFallbackSetting.xml*.
+The Aspose.Words release includes two tables:*MsOfficeFallbackSetting.xml*and*NotoFallbackSetting.xml*.
 
-The *MsOfficeFallbackSetting* table defines a replacement strategy for a range of characters, which is similar to the strategy used by Microsoft Word. Thus, the strategy requires the installation of Microsoft Office fonts. *MsOfficeFallbackSetting* can be activated using the following method:
+The*MsOfficeFallbackSetting*table defines a replacement strategyfor a range of characters, which is similarto the strategy used by Microsoft Word. Thus, the strategy requires the installation of Microsoft Office fonts.*MsOfficeFallbackSetting*can be activated using the following method:
 
 **C++**
 
@@ -42,7 +42,7 @@ The *MsOfficeFallbackSetting* table defines a replacement strategy for a rang
 fontSettings->get_FallbackSettings()->LoadMsOfficeFallbackSettings();
 {{< /highlight >}}
 
-The *NotoFallbackSetting* table is created especially for use with Google Noto fonts (see more about Google Noto font settings in the next section) and can be enabled as follows:
+The*NotoFallbackSetting*table is created especially for use with Google Noto fonts (see more about Google Noto font settings in the next section) and can be enabled as follows:
 
 **C++**
 
@@ -50,7 +50,7 @@ The *NotoFallbackSetting* table is created especially for use with Google Noto
 fontSettings->get_FallbackSettings()->LoadNotoFallbackSettings();
 {{< /highlight >}}
 
-The following code example demonstrates how to load font fallback settings from an XML file:
+The following code example demonstrateshow to load font fallback settings from an XML file:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-WorkingWithFontSettings-SetFontFallbackSettings.cpp" >}}
 

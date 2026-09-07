@@ -56,7 +56,7 @@ timestamp: 2024-10-21-11-17-44
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Autolink.java" >}} |  |
 | **Link**<br />`[نص الرابط](url)`<br />`[نص الرابط](<url>"title")`<br />`[نص الرابط](url 'title')`<br />`[نص الرابط](url (title))` | فئة [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/). |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Link.java" >}} |  |
-| **Image**<br />`![](/words/java/translate-markdown-to-document-object-model/url)`<br />`![نص بديل](/words/java/translate-markdown-to-document-object-model/<url>"title")`<br />`![نص بديل](/words/java/translate-markdown-to-document-object-model/url ‘title’)`<br />`![نص بديل](/words/java/translate-markdown-to-document-object-model/url (title))` | فئة [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/). |
+| **Image**<br />`![](/words/java/translate-markdown-to-document-object-model/url)`<br />`![نص بديل](/words/java/translate-markdown-to-document-object-model/<url>"title")`<br />`![نص بديل](/words/java/translate-markdown-to-document-object-model/url ‘title')`<br />`![نص بديل](/words/java/translate-markdown-to-document-object-model/url (title))` | فئة [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/). |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Image.java" >}} |  |
 
 ## كتل الحاويات
@@ -85,9 +85,9 @@ timestamp: 2024-10-21-11-17-44
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `ParagraphFormat.StyleName = "Quote[some suffix]"`<br />اللاحقة في اسم النمط اختيارية، ولكن Aspose.Words المستورد يستخدم الأرقام المطلوبة 1, 2, 3, .... في حالة الاقتباسات المتداخلة.<br />يتم تعريف التعشيش عبر الأنماط الموروثة. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Quote.java" >}} |  |
-| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | يتم تمثيل القوائم النقطية باستخدام ترقيم الفقرات:<br />`ListFormat.ApplyBulletDefault()`<br />يمكن أن يكون هناك 3 أنواع من القوائم النقطية. هم فقط فرق في تنسيق ترقيم من المستوى الأول. هذه هي: `‘-’`، `‘+’` أو `‘*’` على التوالي. |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | يتم تمثيل القوائم النقطية باستخدام ترقيم الفقرات:<br />`ListFormat.ApplyBulletDefault()`<br />يمكن أن يكون هناك 3 أنواع من القوائم النقطية. هم فقط فرق في تنسيق ترقيم من المستوى الأول. هذه هي: `‘-'`، `‘+'` أو `‘*'` على التوالي. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BulletedList.java" >}} |  |
-| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | يتم تمثيل القوائم المرتبة باستخدام ترقيم الفقرات:<br />`ListFormat.ApplyNumberDefault()`<br />يمكن أن يكون هناك 2 علامات تنسيق الأرقام: ‘.’ و ‘)’. العلامة الافتراضية هي ‘.’. |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | يتم تمثيل القوائم المرتبة باستخدام ترقيم الفقرات:<br />`ListFormat.ApplyNumberDefault()`<br />يمكن أن يكون هناك 2 علامات تنسيق الأرقام: ‘.' و ‘)'. العلامة الافتراضية هي ‘.'. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-OrderedList.java" >}} |  |
 
 ### الجداول

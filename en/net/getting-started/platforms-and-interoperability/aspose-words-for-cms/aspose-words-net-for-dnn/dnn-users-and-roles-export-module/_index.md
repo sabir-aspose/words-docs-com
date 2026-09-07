@@ -65,7 +65,7 @@ Once downloaded, please follow these steps to install the module into your DNN w
 
 Please check [this module installation video](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) from DNN for more details
 
-**Note**: If you get an error while uploading the module this is due to the maxRequestLength limit in your DNN installation’s web.config. Open web.config and update maxRequestLength to 20MB by setting **maxRequestLength=”20480″** and try to upload the module again.
+**Note**: If you get an error while uploading the module this is due to the maxRequestLength limit in your DNN installation's web.config. Open web.config and update maxRequestLength to 20MB by setting **maxRequestLength=”20480″** and try to upload the module again.
 
 ## Using
 
@@ -98,7 +98,7 @@ From the very first days of Aspose, we knew that just giving our customers good 
 
 This is why we offer free support. Anyone who uses our product, whether they have bought them or are using an evaluation, deserves our full attention and respect.
 
-You can log any issues or suggestions related to Aspose.Words .NET for DNN Modules using any of the following platforms
+You can log any issues or suggestions related toAspose.Words .NET for DNN Modules using any of the following platforms
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_DNN/issues)
 - [Sourceforge](https://sourceforge.net/projects/asposednn/)

@@ -31,7 +31,7 @@ By default, such a template causes the engine to throw an exception while buildi
 <<var [name] Error! An assignment operator is expected. >>
 {{< /highlight >}}
 
-**Note** – Only messages describing errors in template syntax can be inlined; messages describing errors encountered during expressions’ evaluation cannot.
+**Note** – Only messages describing errors in template syntax can be inlined; messages describing errors encountered during expressions' evaluation cannot.
 
 When `ReportBuildOptions.INLINE_ERROR_MESSAGES` is applied, a `Boolean` value returned by a `ReportingEngine.buildReport` overload indicates whether building of a report was finished successfully or was interrupted because of a template syntax error. This enables you to process reports which building succeeded or failed differently as shown in the following code snippet.
 

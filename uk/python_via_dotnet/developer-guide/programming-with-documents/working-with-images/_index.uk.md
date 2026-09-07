@@ -110,7 +110,7 @@ shape.aspect_ratio_locked = False
 doc.save(docs_base.artifacts_dir+"WorkingWithImages.set_aspect_ratio_locked.doc")
 {{< /highlight >}}
 
-## Як отримати реальні зв’язки форми в точках
+## Як отримати реальні зв'язки форми в точках
 
 Якщо ви хочете, щоб фактична обмежена коробка форми, як надана на сторінці, ви можете досягти цього, використовуючи [bounds_in_points](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/bounds_in_points/) майно.
 

@@ -31,7 +31,7 @@ Il existe certaines nuances dans le fonctionnement de Aspose.Words lors de la co
 
 {{% alert color="primary" %}}
 
-Notez qu’il n’y a aucune exigence de structure logique pour PDF/A-4. Pour cette raison, nous ne prenons pas en compte la version PDF/A-4 dans cette section "Exigences relatives à la structure du document".
+Notez qu'il n'y a aucune exigence de structure logique pour PDF/A-4. Pour cette raison, nous ne prenons pas en compte la version PDF/A-4 dans cette section "Exigences relatives à la structure du document".
 
 {{% /alert %}}
 
@@ -39,7 +39,7 @@ Notez qu’il n’y a aucune exigence de structure logique pour PDF/A-4. Pour ce
 <details>
     <summary>La spécification nous indique ce qui suit (développez pour voir les détails):</summary>
     <p></p>
-    <p>Il est déconseillé aux rédacteurs de générer des informations structurelles ou sémantiques à l’aide de processus automatisés sans vérification appropriée.</p>
+    <p>Il est déconseillé aux rédacteurs de générer des informations structurelles ou sémantiques à l'aide de processus automatisés sans vérification appropriée.</p>
     <p>ISO19005-2, 6.7.1</p>
 </details>
 {{% /alert %}}
@@ -67,7 +67,7 @@ Pour un document PDF/UA-1 avec une structure faible, il est en outre requis que 
     <p>La structure au niveau des blocs peut suivre l'un des deux paradigmes principaux:</p>
     <ol>
       <li>Fortement structuré. Les éléments de regroupement s'imbriquent sur autant de niveaux que nécessaire pour refléter l'organisation du matériel en articles, sections, sous-sections, etc. À chaque niveau, les enfants de l'élément de regroupement doivent être constitués d'un titre (H), d'un ou plusieurs paragraphes (P) pour le contenu à ce niveau et éventuellement d'un ou plusieurs éléments de regroupement supplémentaires pour les sous-sections imbriquées.</li>
-      <li>Faiblement structuré. Le document est relativement plat, n'ayant peut-être qu'un ou deux niveaux d'éléments de regroupement, avec tous les titres, paragraphes et autres BLSE comme enfants immédiats. Dans ce cas, l’organisation du matériel ne se reflète pas dans la structure logique ; cependant, cela peut être exprimé par l'utilisation de rubriques avec des niveaux spécifiques (H1 à H6).</li>
+      <li>Faiblement structuré. Le document est relativement plat, n'ayant peut-être qu'un ou deux niveaux d'éléments de regroupement, avec tous les titres, paragraphes et autres BLSE comme enfants immédiats. Dans ce cas, l'organisation du matériel ne se reflète pas dans la structure logique ; cependant, cela peut être exprimé par l'utilisation de rubriques avec des niveaux spécifiques (H1 à H6).</li>
     </ol>
     <p></p>
     <p>ISO-32000-1, 14.8.4.3.5</p>
@@ -78,7 +78,7 @@ Pour un document PDF/UA-1 avec une structure faible, il est en outre requis que 
 <details>
     <summary>Pour les documents PDF/UA-1, la spécification contient un ajout lié aux niveaux de titre (développez pour voir les détails):</summary>
     <p></p>
-    <p>Si la sémantique du document nécessite une séquence descendante d'en-têtes, une telle séquence doit se dérouler dans un ordre numérique strict et ne doit pas sauter de niveau de titre intermédiaire. H1 H2 H3 est autorisé, tandis que H1 H3 ne l’est pas.</p>
+    <p>Si la sémantique du document nécessite une séquence descendante d'en-têtes, une telle séquence doit se dérouler dans un ordre numérique strict et ne doit pas sauter de niveau de titre intermédiaire. H1 H2 H3 est autorisé, tandis que H1 H3 ne l'est pas.</p>
     <p>ISO-14289-1, 7.4.2</p>
 </details>
 {{% /alert %}}

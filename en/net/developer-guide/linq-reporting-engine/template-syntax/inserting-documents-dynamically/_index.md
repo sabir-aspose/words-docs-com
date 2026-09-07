@@ -55,7 +55,7 @@ The engine exhibits similar behavior when dealing with list numbering. By defaul
 <<doc [document_expression] -sourceNumbering>>
 {{< /highlight >}}
 
-Also, you can trim the last paragraph break from a document being inserted by using an `inline` switch. In particular, this feature is useful for a single-paragraph document being inserted, when it is necessary to put the document’s content within the same paragraph that contains a corresponding `doc` tag in order to apply the paragraph’s formatting such as list numbering. The following snippet shows the template syntax for this.
+Also, you can trim the last paragraph break from a document being inserted by using an `inline` switch. In particular, this feature is useful for a single-paragraph document being inserted, when it is necessary to put the document's content within the same paragraph that contains a corresponding `doc` tag in order to apply the paragraph's formatting such as list numbering. The following snippet shows the template syntax for this.
 
 {{< highlight csharp >}}
 <<doc [document_expression] -inline>>

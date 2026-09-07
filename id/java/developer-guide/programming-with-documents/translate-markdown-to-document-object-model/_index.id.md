@@ -56,7 +56,7 @@ Kami menggunakan gaya karakter dengan nama yang dimulai dari kata `InlineCode`, 
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Autolink.java" >}} |  |
 | **Link**<br />`[teks tautan](url)`<br />`[teks tautan](<url>"title")`<br />`[teks tautan](url 'title')`<br />`[teks tautan](url (title))` | Kelas [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/). |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Link.java" >}} |  |
-| **Image**<br />`![](/words/java/translate-markdown-to-document-object-model/url)`<br />`![teks alternatif](/words/java/translate-markdown-to-document-object-model/<url>"title")`<br />`![teks alternatif](/words/java/translate-markdown-to-document-object-model/url ‘title’)`<br />`![teks alternatif](/words/java/translate-markdown-to-document-object-model/url (title))` | Kelas [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/). |
+| **Image**<br />`![](/words/java/translate-markdown-to-document-object-model/url)`<br />`![teks alternatif](/words/java/translate-markdown-to-document-object-model/<url>"title")`<br />`![teks alternatif](/words/java/translate-markdown-to-document-object-model/url ‘title')`<br />`![teks alternatif](/words/java/translate-markdown-to-document-object-model/url (title))` | Kelas [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/). |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Image.java" >}} |  |
 
 ## Blok Kontainer
@@ -85,9 +85,9 @@ Tabel di bawah ini menunjukkan contoh penggunaan Wadah Kompleks Markdowndalam As
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `ParagraphFormat.StyleName = "Quote[some suffix]"`<br />Akhiran dalam nama gaya bersifat opsional, tetapi pengimpor Aspose.Words menggunakan nomor terurut 1, 2, 3, .... dalam kasus tanda kutip bersarang.<br />Bersarang didefinisikan melalui gaya yang diwariskan. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Quote.java" >}} |  |
-| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Daftar berpoin direpresentasikan menggunakan penomoran paragraf:<br />`ListFormat.ApplyBulletDefault()`<br />Ada 3 jenis daftar berpoin. Mereka hanya berbeda dalam format penomoran tingkat pertama. Ini adalah: `‘-’`, `‘+’` atau `‘*’` masing-masing. |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Daftar berpoin direpresentasikan menggunakan penomoran paragraf:<br />`ListFormat.ApplyBulletDefault()`<br />Ada 3 jenis daftar berpoin. Mereka hanya berbeda dalam format penomoran tingkat pertama. Ini adalah: `‘-'`, `‘+'` atau `‘*'` masing-masing. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BulletedList.java" >}} |  |
-| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Daftar terurut direpresentasikan menggunakan penomoran paragraf:<br />`ListFormat.ApplyNumberDefault()`<br />Bisa ada 2 penanda format angka: ‘.’ dan ‘)’. Penanda standarnya adalah ‘.’. |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Daftar terurut direpresentasikan menggunakan penomoran paragraf:<br />`ListFormat.ApplyNumberDefault()`<br />Bisa ada 2 penanda format angka: ‘.' dan ‘)'. Penanda standarnya adalah ‘.'. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-OrderedList.java" >}} |  |
 
 ### Tabel

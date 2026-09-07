@@ -81,7 +81,7 @@ The code generates the followings results:
 
 ## How to Work with ChartSeriesCollection of Chart
 
-Let’s look into [ChartSeries](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartseries/) collection. All chart series are available through [Chart.series](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/chart/series/) collection:
+Let's look into [ChartSeries](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartseries/) collection. All chart series are available through [Chart.series](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/chart/series/) collection:
 
 {{< gist "aspose-words-gists" "7ce46b3fa44be2f120f85d4e070329db" "chart-series-collection.js" >}}
 
@@ -128,7 +128,7 @@ Please see the result below:
 
 ## How to Define Default Options for ChartDataLabels of ChartSeries
 
-The [ChartDataLabelCollection](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/) class defines properties which can be used to set default options for [ChartDataLabel](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartdatalabel/) for Chart Series. These properties include [showCategoryName](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/), [showBubbleSize](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/), [showPercentage](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/), [showSeriesName](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/), [showValue](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/showvalue/) etc.
+The [ChartDataLabelCollection](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/) class defines properties which can be used to set default options for [ChartDataLabel](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartdatalabel/) for Chart Series. These properties include[showCategoryName](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/), [showBubbleSize](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/), [showPercentage](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/), [showSeriesName](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/), [showValue](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/showvalue/) etc.
 
 {{< gist "aspose-words-gists" "7ce46b3fa44be2f120f85d4e070329db" "default-options-for-data-labels.js" >}}
 
@@ -144,7 +144,7 @@ The following code example shows how to format a number of the data label:
 
 {{< gist "aspose-words-gists" "7ce46b3fa44be2f120f85d4e070329db" "format-number-of-data-label.js" >}}
 
-## How to Set Chart Axis Properties
+## How toSet Chart Axis Properties
 
 If you want to work with chart axis, scaling, and display units for the value axis, please use [ChartAxis](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/chartaxis/), [AxisDisplayUnit](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/axisdisplayunit/), and [AxisScaling](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/axisscaling/) classes.
 
@@ -160,7 +160,7 @@ The following code example shows how to set date/time values to axis properties:
 
 ### How to Format Number Value of Axis
 
-The following code example shows how to change the format of numbers on the value axis:
+The following code example shows how tochange the format of numbers on the value axis:
 
 {{< gist "aspose-words-gists" "7ce46b3fa44be2f120f85d4e070329db" "number-format-for-axis.js" >}}
 
@@ -168,13 +168,13 @@ The following code example shows how to change the format of numbers on the val
 
 The [AxisBound](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing.charts/axisbound/) class represents a minimum or maximum bound of axis values. Bound can be specified as a numeric, date-time or a special "auto" value.
 
-The following code example shows how to set bounds of an axis:
+The following code example shows howto set bounds of an axis:
 
 {{< gist "aspose-words-gists" "7ce46b3fa44be2f120f85d4e070329db" "bounds-of-axis.js" >}}
 
 ### How to Set Interval Unit Between Labels
 
-The following code example shows how to set the interval unit between labels on an axis:
+The following code example shows howto setthe interval unit between labels on an axis:
 
 {{< gist "aspose-words-gists" "7ce46b3fa44be2f120f85d4e070329db" "interval-unit-between-labels-on-axis.js" >}}
 

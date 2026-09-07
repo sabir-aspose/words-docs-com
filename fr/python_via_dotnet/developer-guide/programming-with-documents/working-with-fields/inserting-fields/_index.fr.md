@@ -39,7 +39,7 @@ L'exemple de code suivant montre comment insérer un champ de fusion avec les pa
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-DocumentBuilderInsertField.py" >}}
 
-La même technique est utilisée pour insérer des champs imbriqués dans d’autres champs.
+La même technique est utilisée pour insérer des champs imbriqués dans d'autres champs.
 
 L'exemple de code suivant montre comment insérer des champs imbriqués dans un autre champ à l'aide de **DocumentBuilder**:
 

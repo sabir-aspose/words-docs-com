@@ -56,7 +56,7 @@ Word文書とは対照的に、Markdownは、Word文書で説明されているD
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Autolink.java" >}} |  |
 | **Link**<br />`[リンクテキスト](url)`<br />`[リンクテキスト](<url>"title")`<br />`[リンクテキスト](url 'title')`<br />`[リンクテキスト](url (title))` | [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/)クラス。 |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Link.java" >}} |  |
-| **Image**<br />`![](/words/java/translate-markdown-to-document-object-model/url)`<br />`![代替テキスト](/words/java/translate-markdown-to-document-object-model/<url>"title")`<br />`![代替テキスト](/words/java/translate-markdown-to-document-object-model/url ‘title’)`<br />`![代替テキスト](/words/java/translate-markdown-to-document-object-model/url (title))` | [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)クラス。 |
+| **Image**<br />`![](/words/java/translate-markdown-to-document-object-model/url)`<br />`![代替テキスト](/words/java/translate-markdown-to-document-object-model/<url>"title")`<br />`![代替テキスト](/words/java/translate-markdown-to-document-object-model/url ‘title')`<br />`![代替テキスト](/words/java/translate-markdown-to-document-object-model/url (title))` | [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)クラス。 |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Image.java" >}} |  |
 
 ## コンテナブロック
@@ -85,9 +85,9 @@ Word文書とは対照的に、Markdownは、Word文書で説明されているD
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `ParagraphFormat.StyleName = "Quote[some suffix]"`<br />スタイル名の接尾辞はオプションですが、Aspose.Wordsインポーターは順序付けられた番号を使用します1, 2, 3, .... ネストされた引用符の場合。<br />ネストは、継承されたスタイルを介して定義されます。 |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Quote.java" >}} |  |
-| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | 箇条書きリストは、段落番号を使用して表されます:<br />`ListFormat.ApplyBulletDefault()`<br />箇条書きリストには3種類あります。 それらは、最初のレベルの番号付け形式でのみdiffです。 これらは、それぞれ`‘-’`、`‘+’`、または`‘*’`です。 |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | 箇条書きリストは、段落番号を使用して表されます:<br />`ListFormat.ApplyBulletDefault()`<br />箇条書きリストには3種類あります。 それらは、最初のレベルの番号付け形式でのみdiffです。 これらは、それぞれ`‘-'`、`‘+'`、または`‘*'`です。 |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BulletedList.java" >}} |  |
-| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | 順序付けられたリストは、段落番号を使用して表されます:<br />`ListFormat.ApplyNumberDefault()`<br />‘.’と‘)’の2つの数値書式マーカーがあります。 デフォルトのマーカーは‘.’です。 |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | 順序付けられたリストは、段落番号を使用して表されます:<br />`ListFormat.ApplyNumberDefault()`<br />‘.'と‘)'の2つの数値書式マーカーがあります。 デフォルトのマーカーは‘.'です。 |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-OrderedList.java" >}} |  |
 
 ### テーブル

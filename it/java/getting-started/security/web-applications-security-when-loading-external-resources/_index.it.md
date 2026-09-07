@@ -29,7 +29,7 @@ Ci sono una serie di problemi di sicurezza tipici durante il caricamento di riso
 
 ### Divulgazione delle credenziali tramite immagini collegate
 
-Negli host basati su Windows, i documenti contenenti riferimenti a risorse che utilizzano percorsi UNC come *‘\\example.com\a\b*’ verranno elaborati per impostazione predefinita. In un ambiente di dominio, questo farà sì che l'host per inviare le credenziali di dominio in un formato hash al server specificato.
+Negli host basati su Windows, i documenti contenenti riferimenti a risorse che utilizzano percorsi UNC come *‘\\example.com\a\b*' verranno elaborati per impostazione predefinita. In un ambiente di dominio, questo farà sì che l'host per inviare le credenziali di dominio in un formato hash al server specificato.
 
 Se un utente malintenzionato è in grado di convincere un utente o un server a elaborare un documento con tale collegamento di risorsa che punta a un host controllato, l'utente malintenzionato riceverà le credenziali dell'account utente o del servizio in formato hash NTLM. Tali dati possono quindi essere riutilizzati in un classico attacco pass-the-hash, consentendo all'attaccante di accedere a qualsiasi risorsa come utente o account di servizio della vittima.
 

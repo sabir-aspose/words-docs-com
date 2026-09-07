@@ -23,7 +23,7 @@ La mise en forme du texte n'est effectuée que lors de l'exportation aux formats
 
 {{% /alert %}}
 
-Dans une application typique, une seule instance d’une usine de mise en forme de texte est partagée entre toutes les instances de document. Chaque fois que le façonneur de texte est créé, un fichier de police est accessible. L'analyse d'un fichier de polices est une opération coûteuse, c'est pourquoi la mise en cache est recommandée. Aspose.Words implémente la classe BasicTextShaperCache qui encapsule l'implémentation de l'usine de mise en forme de texte et met en cache les instances de mise en forme de texte renvoyées par l'usine encapsulée.
+Dans une application typique, une seule instance d'une usine de mise en forme de texte est partagée entre toutes les instances de document. Chaque fois que le façonneur de texte est créé, un fichier de police est accessible. L'analyse d'un fichier de polices est une opération coûteuse, c'est pourquoi la mise en cache est recommandée. Aspose.Words implémente la classe BasicTextShaperCache qui encapsule l'implémentation de l'usine de mise en forme de texte et met en cache les instances de mise en forme de texte renvoyées par l'usine encapsulée.
 
 L'exemple de code suivant vous montre comment activer la prise en charge des fonctionnalités OpenType.
 

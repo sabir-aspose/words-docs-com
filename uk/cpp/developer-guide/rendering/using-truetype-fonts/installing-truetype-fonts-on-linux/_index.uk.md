@@ -26,7 +26,7 @@ timestamp: 2024-01-27-14-07-04
 
 ## Копіювання шрифтів з комп'ютера Windows
 
-Простий і швидкий спосіб отримати шрифти TrueType у системі Linux - це скопіювати файли .TTF і .TTC із каталогу C:\Windows\Fonts на комп’ютері Windows у якийсь каталог на вашому Linux машина. Вам не потрібно жодним чином встановлювати або реєструвати ці шрифти на Linux; вам просто потрібно вказати розташування шрифтів за допомогою класу [FontSettings](https://reference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings) у Aspose.Words.
+Простий і швидкий спосіб отримати шрифти TrueType у системі Linux - це скопіювати файли .TTF і .TTC із каталогу C:\Windows\Fonts на комп'ютері Windows у якийсь каталог на вашому Linux машина. Вам не потрібно жодним чином встановлювати або реєструвати ці шрифти на Linux; вам просто потрібно вказати розташування шрифтів за допомогою класу [FontSettings](https://reference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings) у Aspose.Words.
 
 {{% alert color="primary" %}}
 

@@ -44,15 +44,15 @@ The following code example shows how to get the table's alignment:
 
  The position of a floating table is determined using the following properties: 
 
-* [HorizontalAnchor](https://reference.aspose.com/words/cpp/aspose.words.tables/table/get_horizontalanchor/) – an object for calculating the horizontal positioning of a floating table
+* [HorizontalAnchor](https://reference.aspose.com/words/cpp/aspose.words.tables/table/get_horizontalanchor/) –an object for calculating the horizontal positioning of a floating table
 * [VerticalAnchor](https://reference.aspose.com/words/cpp/aspose.words.tables/table/get_verticalanchor/) – an object for calculating the vertical positioning of a floating table
-* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/cpp/aspose.words.tables/table/get_absolutehorizontaldistance/) – absolute horizontal floating table position
+* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/cpp/aspose.words.tables/table/get_absolutehorizontaldistance/) –absolute horizontal floating table position
 * [AbsoluteVerticalDistance](https://reference.aspose.com/words/cpp/aspose.words.tables/table/get_absoluteverticaldistance/) – absolute vertical floating table position
-* [AllowOverlap](https://reference.aspose.com/words/cpp/aspose.words.tables/table/get_allowoverlap/) – option to enable/disable overlap with other floating objects
-* [RelativeHorizontalAlignment](https://reference.aspose.com/words/cpp/aspose.words.tables/table/get_relativehorizontalalignment/) –  floating table relative horizontal alignment.
+* [AllowOverlap](https://reference.aspose.com/words/cpp/aspose.words.tables/table/get_allowoverlap/) –option to enable/disable overlap with other floating objects
+* [RelativeHorizontalAlignment](https://reference.aspose.com/words/cpp/aspose.words.tables/table/get_relativehorizontalalignment/) – floating table relative horizontal alignment.
 * [RelativeVerticalAlignment](https://reference.aspose.com/words/cpp/aspose.words.tables/table/get_relativeverticalalignment/) –  floating table relative vertical alignment.
 
-The following code example shows how to get the position of a floating table:
+The following code exampleshows how to get the position of a floating table:
 
 {{< gist "aspose-words-gists" "eb66dfc4c4820add33be9df57ba4c4cd" "get-floating-table-position.h" >}}
 
@@ -87,7 +87,7 @@ The following code example shows how to get the distance between a table and its
    **A:** Use the `Table::set_Alignment()` method and pass one of the `TableAlignment` enum values (e.g., `TableAlignment::Center`). This aligns the table relative to the page margins.
 
 2. **Q:** Which properties let me read the horizontal and vertical alignment of a floating table?  
-   **A:** Retrieve `Table::get_RelativeHorizontalAlignment()` and `Table::get_RelativeVerticalAlignment()`. They return the `RelativeHorizontalAlignment` and `RelativeVerticalAlignment` enum values that describe the table’s placement.
+   **A:** Retrieve `Table::get_RelativeHorizontalAlignment()` and `Table::get_RelativeVerticalAlignment()`. They return the `RelativeHorizontalAlignment` and `RelativeVerticalAlignment` enum values that describe the table's placement.
 
 3. **Q:** How can I set the exact position of a floating table?  
    **A:** Set the anchor properties (`HorizontalAnchor`, `VerticalAnchor`) and then specify distances with `AbsoluteHorizontalDistance` and `AbsoluteVerticalDistance`. For example:  

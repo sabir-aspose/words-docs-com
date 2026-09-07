@@ -85,7 +85,7 @@ L'exemple de code suivant montre comment copier l'en-tête ou le pied de page de
 
 {{< gist "aspose-words-gists" "2e1b2b28253780881d116e3a873ee668" "copy-headers-footers-from-previous-section.py" >}}
 
-### Assurez l’apparence de l’en-tête ou du pied de page lors de l’utilisation de différentes orientations et tailles de page
+### Assurez l'apparence de l'en-tête ou du pied de page lors de l'utilisation de différentes orientations et tailles de page
 
 Aspose.Words vous permet de donner l'apparence d'un en-tête ou d'un pied de page lorsque vous utilisez différentes orientations et tailles de page.
 

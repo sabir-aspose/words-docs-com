@@ -31,7 +31,7 @@ Esistono numerosi problemi di sicurezza tipici durante il caricamento di risorse
 
 Sugli host basati su Windows, i documenti contenenti riferimenti a risorse che utilizzano percorsi UNC come *'\\example.com\a\b*' verranno elaborati per impostazione predefinita. In un ambiente di dominio, ciò farà sì che l'host invii le proprie credenziali di dominio in un formato hash al server specificato.
 
-Se un utente malintenzionato riesce a convincere un utente o un server a elaborare un documento con un collegamento a una risorsa che punta a un host controllato, riceverà le credenziali dell'utente o dell'account del servizio in formato hash NTLM. Tali dati possono quindi essere riutilizzati in un classico attacco pass-the-hash, consentendo all’aggressore di accedere a qualsiasi risorsa come utente vittima o account di servizio.
+Se un utente malintenzionato riesce a convincere un utente o un server a elaborare un documento con un collegamento a una risorsa che punta a un host controllato, riceverà le credenziali dell'utente o dell'account del servizio in formato hash NTLM. Tali dati possono quindi essere riutilizzati in un classico attacco pass-the-hash, consentendo all'aggressore di accedere a qualsiasi risorsa come utente vittima o account di servizio.
 
 Se l'account in questione utilizza una password debole o indovinabile, l'aggressore potrebbe inoltre eseguire un attacco di cracking della password per recuperare la password dell'account per un ulteriore utilizzo dannoso.
 

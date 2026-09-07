@@ -134,7 +134,7 @@ The following code example shows how to prepend a line number to each line:
 
 ## FAQ
 
-1. **Q:** How can I replace text with HTML markup while preserving the document’s formatting?  
+1. **Q:** How can I replace text with HTML markup while preserving the document's formatting?  
    **A:** Implement the `IReplacingCallback` interface and, in the `replacing` method, insert the HTML using `DocumentBuilder.insertHtml`. Set `FindReplaceOptions.setReplacingCallback` to your callback instance, then call `Range.replace` with a regex that matches the placeholder.
 
 2. **Q:** What is the easiest way to replace a merge field without affecting its surrounding runs?  

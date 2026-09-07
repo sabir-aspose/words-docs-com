@@ -46,7 +46,7 @@ The ability to control the compression level of XPS output has been introduced b
 #### EQ Fields
 
 * Support for Far East vertical orientation in HTML within EQ fields has been introduced. <sup>26.5</sup>
-* Improved visual rendering of the EQ field’s frame has been implemented. <sup>26.5</sup>
+* Improved visual rendering of the EQ field's frame has been implemented. <sup>26.5</sup>
 * The rendering of OLE objects within EQ fields has been implemented. <sup>26.7</sup>
 
 #### AAT-enabled Fonts <sup>26.5</sup>

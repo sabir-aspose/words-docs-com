@@ -12,7 +12,7 @@ timestamp: 2024-01-27-14-07-04
 
 ## Different Conversion Options
 
-Aspose.Words for SharePoint offers a number of flexible options for converting documents. The following options are available during conversion setup:
+Aspose.Words for SharePoint offers a number of flexible options for converting documents.The following options are available during conversion setup:
 
 ### File concatenation
 
@@ -20,7 +20,7 @@ If you select a folder or multiple files for conversion, you can select the **Co
 
 ### Convert files in SubFolders
 
-This option is available under SharePoint 2007 when a folder is selected for conversion. You can recursively convert all of the selected folder's subfolders with this option. During conversion, the same subfolder structure is created below the destination folder. Under SharePoint 2010/2013/2016, the folders are always processed recursively. To process files without subfolders, just select files in a document library view before converting. Do not select any subfolders.
+This option is available under SharePoint 2007 when a folder is selected for conversion. You can recursively convert all of the selected folder's subfolders with this option. During conversion, the same subfolder structure is created below the destination folder.Under SharePoint 2010/2013/2016, the folders are always processed recursively.To process files without subfolders, just select files in a document library view before converting. Do not select any subfolders.
 
 ### Save destination folder option
 
@@ -32,10 +32,10 @@ The destination folder you have selected may already contain some of the files y
 
 ### Browse for destination folder
 
-Corporate sites can consist of dozens of document libraries with complex URLs so manually entering the destination folder `URL` can be a headache. So, to not have to remember the complete path to a library or subfolder, click **Browse** and select a destination folder visually. 
+Corporate sites can consist of dozens of document libraries with complex URLs so manually entering the destination folder `URL` can be a headache. So, to not have to remember the complete path to a library or subfolder, click **Browse** and select a destination folder visually.
 
 
 
-**Different options will help to adjust the conversion process.** 
+**Different options will help to adjust the conversion process.**
 
 ![todo:image_alt_text](conversion-options-1.png)

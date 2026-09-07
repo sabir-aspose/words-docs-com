@@ -51,7 +51,7 @@ From the above table you can see that for some programming languages it is possi
 2. **Q:** Can I use Aspose.Words for .NET on Linux or macOS?  
    **A:** No. The .NET version accessed via COM Interop is limited to Microsoft Windows, as COM is a Windows-only technology. For cross-platform scenarios, use the Java version with a Java-based interoperability layer.
 
-3. **Q:** Why can’t I call static methods or overloaded methods when using COM Interop?  
+3. **Q:** Why can't I call static methods or overloaded methods when using COM Interop?  
    **A:** COM Interop exposes only instance members and does not support method overloading or static members directly. To work around this, create wrapper classes in .NET that expose the required functionality as instance methods, then call those wrappers via COM.
 
 4. **Q:** What interoperability options are available for calling Aspose.Words for Java from other languages?  

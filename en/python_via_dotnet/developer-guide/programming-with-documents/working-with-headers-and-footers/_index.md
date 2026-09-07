@@ -122,7 +122,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
    **A:** Yes. When `is_deep` is set to `True`, the method traverses the entire document tree, including `HeaderFooter` nodes. To obtain only body paragraphs you must filter out nodes whose `ParentNode` is a `HeaderFooter` object.
 
 2. **Q:** How can I retrieve all paragraphs from a specific header, for example the odd‑page header?  
-   **A:** Access the header through the section’s `HeadersFooters` collection and then iterate its `Paragraphs` collection:  
+   **A:** Access the header through the section's `HeadersFooters` collection and then iterate its `Paragraphs` collection:  
 
    ```python
    from aspose.words import Document, HeaderFooterType
@@ -133,7 +133,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
    ```
 
 3. **Q:** What is the recommended way to copy a header from the previous section into the current one?  
-   **A:** Clone the header node from the previous section and assign it to the current section’s `HeadersFooters` collection:  
+   **A:** Clone the header node from the previous section and assign it to the current section's `HeadersFooters` collection:  
 
    ```python
    from aspose.words import Document, HeaderFooterType

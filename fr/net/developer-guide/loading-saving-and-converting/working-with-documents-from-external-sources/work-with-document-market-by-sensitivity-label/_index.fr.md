@@ -13,7 +13,7 @@ url: /fr/net/work-with-document-market-by-sensitivity-label/
 timestamp: 2024-01-31-14-23-37
 ---
 
-Les étiquettes de sensibilité de Microsoft Purview Information Protection vous permettent de classer et de protéger les données de votre organisation, tout en garantissant que la productivité des utilisateurs et leur capacité à collaborer ne sont pas entravées. Une fois qu’une étiquette de confidentialité est appliquée à un document, tous les paramètres de protection configurés pour cette étiquette sont appliqués au contenu.
+Les étiquettes de sensibilité de Microsoft Purview Information Protection vous permettent de classer et de protéger les données de votre organisation, tout en garantissant que la productivité des utilisateurs et leur capacité à collaborer ne sont pas entravées. Une fois qu'une étiquette de confidentialité est appliquée à un document, tous les paramètres de protection configurés pour cette étiquette sont appliqués au contenu.
 
 Vous pouvez configurer une étiquette de sensibilité pour:
 
@@ -37,7 +37,7 @@ Dans cet article, nous aborderons un scénario courant de conversion et de modif
     {{% /alert %}}
 		- Types de comptes pris en charge – sélectionnez "Comptes dans ce répertoire organisationnel uniquement".
 		- L'étape de définition de l'URI de redirection peut être ignorée.
-		- L'ajout d'un certificat peut être ignoré. Utilisez le secret client pour l’accès.
+		- L'ajout d'un certificat peut être ignoré. Utilisez le secret client pour l'accès.
 		- L'ajout d'un identifiant fédéré peut également être ignoré.
 		- Définir les autorisations pour l'application.</br>
 		Sélectionnez "Autorisations API" → "Ajouter une autorisation" → "Interfaces API Microsoft" → "Services de gestion des droits Azure" → "Autorisations d'application" et ajoutez les autorisations "Content.SuperUser", "Content.Writer".</br>
@@ -45,7 +45,7 @@ Dans cet article, nous aborderons un scénario courant de conversion et de modif
 		- Revenez à la page "Autorisations API" et appuyez sur le bouton "Accorder le consentement de l'administrateur pour (Nom du locataire)".
 5. Ouvrez la page d'accueil d'Office 365 et ouvrez l'application Word dans un navigateur.
 6. Créez un nouveau document DOCX avec du contenu.
-7. Dans l'application Word, sur l'onglet "Accueil", sélectionnez le menu "Sensibilité" → "Confidentiel" → "Tous les employés". Le document sera marqué d’une étiquette de sensibilité et crypté.
+7. Dans l'application Word, sur l'onglet "Accueil", sélectionnez le menu "Sensibilité" → "Confidentiel" → "Tous les employés". Le document sera marqué d'une étiquette de sensibilité et crypté.
 8. Sélectionnez l'application "One Drive" et enregistrez le fichier créé sur votre ordinateur local. Déconnectez-vous de votre compte dans l'application de bureau Word. Vérifiez que le document téléchargé ne peut pas être ouvert. Ce sera le fichier d'entrée de l'application.
 
 {{% alert color="primary" %}}

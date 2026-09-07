@@ -52,4 +52,4 @@ Summarizing documents with Aspose.Words saves time and helps you focus on essent
    **A:** Use the `SummaryLength` property of `SummarizeOptions`. It accepts values from the `SummaryLength` enumeration (`VeryShort`, `Short`, `Medium`, `Long`, `VeryLong`) or a custom integer representing the desired number of sentences. The chosen length influences how much content the model returns.
 
 5. **Q:** What happens if the document contains no textual content?  
-   **A:** The summarization call will return an empty string. You can check the document’s text length beforehand using `Document.GetText()` and handle the empty‑result case in your code to avoid unnecessary API calls.
+   **A:** The summarization call will return an empty string. You can check the document's text length beforehand using `Document.GetText()` and handle the empty‑result case in your code to avoid unnecessary API calls.

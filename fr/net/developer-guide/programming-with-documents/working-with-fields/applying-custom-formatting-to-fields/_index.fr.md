@@ -3,7 +3,7 @@ title: Appliquer un formatage personnalisé aux champs dans C#
 second_title: Aspose.Words pour .NET
 articleTitle: Appliquer une mise en forme personnalisée aux champs
 linktitle: Appliquer une mise en forme personnalisée aux champs
-description: "Formatez et évaluez le résultat des champs à l’aide de C#."
+description: "Formatez et évaluez le résultat des champs à l'aide de C#."
 type: docs
 weight: 40
 ai_search_scope: words_net

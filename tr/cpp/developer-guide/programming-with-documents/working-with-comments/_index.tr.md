@@ -58,7 +58,7 @@ Bir belgeden yorumların nasıl çıkarılacağını ve kaldırılacağını gö
 1. Yorumları ayıklamak için:
    1. Foreach operatörünü kullanarak koleksiyona göz atın
    1. Tüm yorumların yazar adını, tarihini ve saatini ve metnini ayıklayın ve listeleyin
-   1. Belirli bir yazar tarafından yazılan yorumların yazar adını, tarihini ve saatini ve metnini ayıklayın ve listeleyin, bu durumda yazar 'ks’
+   1. Belirli bir yazar tarafından yazılan yorumların yazar adını, tarihini ve saatini ve metnini ayıklayın ve listeleyin, bu durumda yazar 'ks'
 1. Yorumları kaldırmak için:
    1. For operatörünü kullanarak koleksiyon boyunca geriye doğru gidin
    1. Yorumları kaldır

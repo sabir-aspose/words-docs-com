@@ -92,7 +92,7 @@ internal class CustomAiModel : OpenAiModel
 ## FAQ
 
 1. **Q:** Which AI model providers are supported by Aspose.Words?  
-   **A:** Aspose.Words supports models from OpenAI, Google (Gemini), and Anthropic’s Claude families. The supported models are exposed through the `AiModelType` enumeration, allowing you to select the desired provider and version.
+   **A:** Aspose.Words supports models from OpenAI, Google (Gemini), and Anthropic's Claude families. The supported models are exposed through the `AiModelType` enumeration, allowing you to select the desired provider and version.
 
 2. **Q:** How do I create an instance of a specific AI model, such as GPT‑4o?  
    **A:** Use the static `AiModel.Create` method and pass the corresponding `AiModelType` value. For example:  

@@ -51,10 +51,10 @@ Below are some of the `Shape` types supported in Aspose.Words. For complete list
    **A:** Any shape type defined in the `ShapeType` enumeration can be added, such as Rectangle, RoundRectangle, Ellipse, Diamond, Triangle, RightTriangle, Parallelogram, Trapezoid, Hexagon, Octagon, etc. The full list is available in the Aspose.Words documentation.
 
 3. **Q:** Can I set the position and size of shapes inside a `GroupShape`?  
-   **A:** Yes. After creating a `Shape`, set its `left`, `top`, `width`, and `height` properties before appending it to the group. These coordinates are relative to the group’s coordinate system.
+   **A:** Yes. After creating a `Shape`, set its `left`, `top`, `width`, and `height` properties before appending it to the group. These coordinates are relative to the group's coordinate system.
 
 4. **Q:** How do I apply fill color or line style to a shape within a `GroupShape`?  
-   **A:** Use the shape’s `fill` and `stroke` objects. For example, `shape.fill.foreColor = asposewords.Color.fromRgb(255, 0, 0);` sets a red fill, and `shape.stroke.color = asposewords.Color.fromRgb(0, 0, 0);` sets a black outline.
+   **A:** Use the shape's `fill` and `stroke` objects. For example, `shape.fill.foreColor = asposewords.Color.fromRgb(255, 0, 0);` sets a red fill, and `shape.stroke.color = asposewords.Color.fromRgb(0, 0, 0);` sets a black outline.
 
 5. **Q:** How can I save the document after adding a `GroupShape`?  
    **A:** Call the `save` method on the `Document` instance, specifying the desired format, e.g., `document.save("GroupShape.docx");`. The document will contain the group shape with all its child shapes.

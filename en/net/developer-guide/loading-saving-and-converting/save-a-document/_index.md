@@ -23,11 +23,11 @@ This page explains how to save a document in different formats using Aspose.Word
 
 {{% /alert %}}
 
-Most of the tasks you need to perform with Aspose.Words involve saving a document. To save a document Aspose.Words provides the [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) method of the [Document](https://reference.aspose.com/words/net/aspose.words/document/) class. There are overloads that allow saving a document to a file, stream, or ASP.NET HttpResponse object for sending to a client browser. The document can be saved in any save format supported by Aspose.Words. For the list of all supported save formats, see the [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) enumeration.
+Most of the tasks you need to perform with Aspose.Words involve saving a document. To save a document Aspose.Words provides the [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) method of the [Document](https://reference.aspose.com/words/net/aspose.words/document/) class. There are overloads that allow saving a document to a file, stream, or ASP.NET HttpResponse object for sending to a client browser. The document can be saved in any save format supported by Aspose.Words. For the list of all supported save formats, see the[SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) enumeration.
 
 ## Save to a File {#save-a-document-to-a-file}
 
-Simply use the [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) method with a file name. Aspose.Words will determine the save format from the file extension that you specify.
+Simply use the[Save](https://reference.aspose.com/words/net/aspose.words/document/save/) method with a file name. Aspose.Words will determine the save format from the file extension that you specify.
 
 The following code example shows how to load and save a document to a file:
 
@@ -35,7 +35,7 @@ The following code example shows how to load and save a document to a file:
 
 {{% alert color="primary" %}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.doc).
+You can download the template file of this examplefrom[Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.doc).
 
 {{% /alert %}}
 
@@ -49,13 +49,13 @@ The following code example shows how to load and save a document to a stream:
 
 {{% alert color="primary" %}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
+You can download the template file of this examplefrom[Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 {{% /alert %}}
 
 ## Send a Document to a Client Browser {#sending-a-document-to-a-client-browser}
 
-In order to send a document to a client browser, use a special overload that takes four parameters: file name, save format, save type, and an ASP.NET HttpResponse object. The way the document will be presented to the user is represented by the [ContentDisposition](https://reference.aspose.com/words/net/aspose.words/contentdisposition/) enumeration, which determines whether the document sent to the browser will provide an option to open itself directly in the browser or in the application associated with the file extension.
+In order to send a document to a client browser, use a special overload that takes four parameters: file name, save format, save type, and an ASP.NETHttpResponse object. The way the document will be presented to the user is represented by the [ContentDisposition](https://reference.aspose.com/words/net/aspose.words/contentdisposition/) enumeration, which determines whether the document sent to the browser will provide an option to open itself directly in the browser or in the application associated with the file extension.
 
 The following code example shows how to send a document to the client browser from an ASP.NET code:
 
@@ -63,7 +63,7 @@ The following code example shows how to send a document to the client browser fr
 
 {{% alert color="primary" %}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
+You can download the template file of this examplefrom[Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 {{% /alert %}}
 
@@ -79,4 +79,4 @@ The following code example shows how to save a document to PCL using save option
 
 ## See Also
 
-- Information about ASP.NET [HttpResponse](https://docs.microsoft.com/en-us/dotnet/api/system.web.httpresponse?view=netframework-4.8) object
+- Information about ASP.NET[HttpResponse](https://docs.microsoft.com/en-us/dotnet/api/system.web.httpresponse?view=netframework-4.8) object

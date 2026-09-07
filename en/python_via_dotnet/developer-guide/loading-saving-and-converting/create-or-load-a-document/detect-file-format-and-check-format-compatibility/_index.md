@@ -18,7 +18,7 @@ timestamp: 2026-02-03-11-08-55
 
 *Purpose Summary. What is this page about?*
 
-This page demonstrates how to use Aspose.Words for Python via .NET to detect a document’s file format without loading it and to verify format compatibility, including code samples for processing multiple files and organizing them by supported, encrypted, or unsupported formats.
+This page demonstrates how to use Aspose.Words for Python via .NET to detect a document's file format without loading it and to verify format compatibility, including code samples for processing multiple files and organizing them by supported, encrypted, or unsupported formats.
 
 {{% /alert %}}
 
@@ -30,7 +30,7 @@ Aspose.Words provides an ability to obtain information about the file type in or
 
 When you are dealing with multiple documents in various file formats, you may need to separate out those files that can be processed by Aspose.Words from those that cannot. You may also want to know why some of the documents cannot be processed.
 
-If you attempt to load a file into a [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) object and Aspose.Words cannot recognize the file format or the format is not supported, Aspose.Words will throw an exception. You can catch those exceptions and analyze them, but Aspose.Words also provides the [detect_file_format](https://reference.aspose.com/words/python-net/aspose.words/fileformatutil/detect_file_format/) method that allows us to quickly determine the file format without loading a document with possible exceptions. This method returns a [FileFormatInfo](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/) object that contains the detected information about the file type.
+If you attempt to load a file into a[Document](https://reference.aspose.com/words/python-net/aspose.words/document/)object and Aspose.Words cannot recognize the file format or the format is not supported, Aspose.Words will throw an exception. You can catch those exceptions and analyze them, but Aspose.Words also provides the[detect_file_format](https://reference.aspose.com/words/python-net/aspose.words/fileformatutil/detect_file_format/) method that allows us to quickly determine the file format without loading a document with possible exceptions.This method returns a[FileFormatInfo](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/)object that contains the detected information about the file type.
 
 {{% alert color="primary" %}}
 
@@ -66,7 +66,7 @@ The following files are used in the example above. The file name is on the left 
 |  | Test File (Docm).docm | Office Open XML WordprocessingML document with macros. |
 |  | Test File (Dotx).dotx | Office Open XML WordprocessingML template. |
 |  | Test File (Dotm).dotm | Office Open XML WordprocessingML template with macros. |
-|  | Test File (XML).xml | FlatOPC OOXML Document. |
+|  | Test File (XML).xml | FlatOPCOOXMLDocument. |
 |  | Test File (RTF).rtf | Rich Text Format document. |
 |  | Test File (WordML).xml | Microsoft Word 2003 WordprocessingML document. |
 |  | Test File (HTML).html | HTML document. |
@@ -82,7 +82,7 @@ The following files are used in the example above. The file name is on the left 
 
 ## FAQ
 
-1. **Q:** How can I determine a document’s format without loading it into a `Document` object?  
+1. **Q:** How can I determine a document's format without loading it into a `Document` object?  
    **A:** Use `FileFormatUtil.detect_file_format(file_path)`. The method returns a `FileFormatInfo` object that contains the detected format, load format, and whether the format is supported, all without opening the file.
 
 2. **Q:** Does `detect_file_format` guarantee that the file can be opened successfully afterwards?  

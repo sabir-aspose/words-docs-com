@@ -56,7 +56,7 @@ timestamp: 2024-10-21-11-17-44
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Autolink.h" >}} |  |
 | **Link**<br />`[link text](url)`<br />`[link text](<url>"title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | 그 [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/) 수업 |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Link.h" >}} |  |
-| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | 그 [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) 수업 |
+| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title')`<br />`![alt text](url (title))` | 그 [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) 수업 |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Image.h" >}} |  |
 
 ## 컨테이너 블록
@@ -92,9 +92,9 @@ else
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `get_ParagraphFormat()->set_StyleName(u"Quote[some suffix]")`<br />스타일 이름의 접미사는 선택 사항이지만 Aspose.Words 수입자는 주문 번호를 사용합니다 1, 2, 3, …. 중첩 된 따옴표의 경우.<br />중첩은 상속된 스타일을 통해 정의됩니다. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Quote.h" >}} |  |
-| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | 글머리 기호 목록은 단락 번호 매기기를 사용하여 표시됩니다:<br />`get_ListFormat()->ApplyBulletDefault()`<br />있을 수 있습니다 3 글 머리 기호 목록의 유형. 그들은 단지 첫 번째 레벨의 번호 형식으로 차이가 있습니다. 이 두가지가: `‘-’`, `‘+’` 또는 `‘*’` 각각 |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | 글머리 기호 목록은 단락 번호 매기기를 사용하여 표시됩니다:<br />`get_ListFormat()->ApplyBulletDefault()`<br />있을 수 있습니다 3 글 머리 기호 목록의 유형. 그들은 단지 첫 번째 레벨의 번호 형식으로 차이가 있습니다. 이 두가지가: `‘-'`, `‘+'` 또는 `‘*'` 각각 |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-BulletedList.h" >}} |  |
-| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | 순서 목록은 단락 번호 매기기를 사용하여 표시됩니다:<br />`get_ListFormat()->ApplyNumberDefault()`<br />있을 수 있습니다 2 숫자 형식 마커: ‘.’ 그리고 ‘)’. 기본 마커는 다음과 같습니다 ‘.’. |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | 순서 목록은 단락 번호 매기기를 사용하여 표시됩니다:<br />`get_ListFormat()->ApplyNumberDefault()`<br />있을 수 있습니다 2 숫자 형식 마커: ‘.' 그리고 ‘)'. 기본 마커는 다음과 같습니다 ‘.'. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-OrderedList.h" >}} |  |
 
 ### 표

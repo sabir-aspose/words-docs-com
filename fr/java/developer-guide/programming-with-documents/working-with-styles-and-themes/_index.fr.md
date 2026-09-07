@@ -33,7 +33,7 @@ Plus précisément, nous allons récupérer du texte formaté avec le style de p
 
 ![working-with-styles-aspose-words-java-1](/words/java/working-with-styles-and-themes/working-with-styles-1.png)
 
-Dans cet exemple de document, le texte formaté avec le style de paragraphe "Heading 1 "est ‘Insérer un onglet" ‘ "Styles rapides" et "Thème", et le texte formaté avec le style de caractère "Accentuation intense’ est les différentes occurrences de texte bleu, en italique et en gras telles que "galeries" et "aspect général".
+Dans cet exemple de document, le texte formaté avec le style de paragraphe "Heading 1 "est ‘Insérer un onglet" ‘ "Styles rapides" et "Thème", et le texte formaté avec le style de caractère "Accentuation intense' est les différentes occurrences de texte bleu, en italique et en gras telles que "galeries" et "aspect général".
 
 L'implémentation d'une requête basée sur le style est assez simple dans le modèle d'objet de document Aspose.Words, car elle utilise simplement des outils déjà en place. Deux méthodes de classe sont implémentées pour cette solution:
 
