@@ -20,22 +20,21 @@ timestamp: 2026-02-03-11-08-55
 *Purpose Summary. What is this page about?*
 
 This page explains how to create and manage tables in a Word document using Aspose.Words for Python via .NET, covering methods such as DocumentBuilder, direct DOM manipulation, inserting HTML, and cloning existing tables, with code examples and a comparison of each approach.
-{{% /alert %}}
-
 Aspose.Words allows users to create tables in a document from scratch and provides several different methods for doing so. This article presents details on how to add formatted tables to your document using each method, as well as a comparison of each method at the end of the article.
 
 ## Default Table Styles
 
 The newly created table is given default values similar to those used in Microsoft Word:
 
-| Table Property | Default in Aspose.Words |
-| :- | :- |
-| `Border Style` | `Single` |
-| `Border Width` | `1/2 pt` |
-| `Border Color` | `Black` |
-| `Left and Right Padding` | `5.4 pts` |
-| `AutoFit Mode` | `AutoFit to Window` |
-| `Allow AutoFit` | `True` |
+| Table Property         | Default in Aspose.Words |
+| :--------------------- | :---------------------- |
+| `Border Style`           | `Single` |
+| `Border Width`           | `1/2 pt`                  |
+| `Border Color`           | `Black` |
+| `Left and Right Padding` | `5.4 pts`                 |
+| `AutoFit Mode`           | `AutoFit to Window`       |
+| `Allow AutoFit`          | `True` |
+
 {{% alert color="primary" %}}
 
 A table can be inline if it is tightly positioned, or floating if it can be positioned anywhere on the page. By default, Aspose.Words always creates inline tables.
@@ -60,16 +59,16 @@ In Aspose.Words, users can create a table in a document using the [DocumentBuild
 
 Important details:
 
-- [StartTable](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/start_table/) can also be called inside a cell, in which case it starts the creation of a nested table within the cell.
-- After calling [InsertCell](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_cell/), a new cell is created, and any content you add using other methods of the [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) class will be added to the current cell. To create a new cell on the same row, call **InsertCell** again.
-- If **InsertCell** is called immediately after [EndRow](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_row/) and the end of a row, the table will continue on a new row.
-- The [EndTable](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_table/) method to end the table should only be called once after calling **EndRow**. Calling **EndTable** moves the cursor from the current cell to the position immediately after the table.
+* [StartTable](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/start_table/) can also be called inside a cell, in which case it starts the creation of a nested table within the cell.
+* After calling [InsertCell](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_cell/), a new cell is created, and any content you add using other methods of the [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) class will be added to the current cell. To create a new cell on the same row, call **insert_cell** again.
+* If **insert_cell** is called immediately after [EndRow](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_row/) and the end of a row, the table will continue on a new row.
+* The [EndTable](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_table/) method to end the table should only be called once after calling **EndRow**. Calling **EndTable** moves the cursor from the current cell to the position immediately after the table.
 
 {{% /alert %}}
 
 The process of creating a table can be clearly seen in the following picture:
 
-<img src="creating-table-process.jpg" alt="creating-table-process" style="zoom:50%;" />
+![creating-table-process](creating-table-process.jpg)
 
 The following code example shows how to create a simple table using **DocumentBuilder** with default formatting:
 
@@ -99,7 +98,7 @@ The following code example shows how to build a new table from scratch by adding
 
 {{< gist "aspose-words-gists" "daa15d229a9e8b9015aa87ff6893f387" "insert-table-directly.py" >}}
 
-##Create a Table from HTML
+## Create a Table from HTML
 
 Aspose.Words supports inserting content into a document from an HTML source using the [InsertHtml](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_html/) method. The input can be a complete HTML page or just a partial snippet.
 
@@ -109,7 +108,7 @@ The following code example shows how to insert a table into a document from a st
 
 {{< gist "aspose-words-gists" "daa15d229a9e8b9015aa87ff6893f387" "insert-table-from-html.py" >}}
 
-## Insert a Copy of an Existing Table 
+## Insert a Copy of an Existing Table
 
 There are often times when you need to create a table based on an already existing table in a document. The easiest way to duplicate a table while retaining all formatting is to clone the Table node using the [Clone](https://reference.aspose.com/words/python-net/aspose.words/node/clone/) method.
 
@@ -135,7 +134,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% /alert %}}
 
-If you are looking at creating tables in a document that grow dynamically with each record from your data source, then the above method is not advised. Instead, the desired output is more easily achieved by using Mail merge with regions.
+If you are looking at creating tables in a document that grow dynamically with each record from your data source, then the above method is not advised. Instead, the desired output is more easily achieved by using Mail merge with regions. You can learn more about this technique in the [Mail Merge with Regions](/words/python-net/types-of-mail-merge-operations/#mail-merge-with-regions) section.
 
 ## Compare Ways to Create a Table
 
@@ -149,3 +148,13 @@ Let's take a closer look at these ways of creating tables and compare their pros
 | Via DOM | Fits in better with surrounding code that creates and inserts nodes directly into the DOM without using a **DocumentBuilder** | The table is created "empty": before performing most operations, you must call [EnsureMinimum](https://reference.aspose.com/words/python-net/aspose.words.tables/table/ensure_minimum/) to create any missing child nodes |
 | From HTML | Can create a new table from HTML source using tags like `<table>`, `<tr>`, `<td>` | Not all possible Microsoft Word table formats can be applied to HTML |
 | Cloning an existing table | You can create a copy of an existing table while retaining all row and cell formatting | The appropriate child nodes must be removed before the table is ready for use |
+
+## Related APIs
+
+- [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/)
+- [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/)
+- [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/)
+- [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/)
+- [Node.clone](https://reference.aspose.com/words/python-net/aspose.words/node/clone/)
+- [DocumentBuilder.insert_html](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_html/)
+- [Table.ensure_minimum](https://reference.aspose.com/words/python-net/aspose.words.tables/table/ensure_minimum/)

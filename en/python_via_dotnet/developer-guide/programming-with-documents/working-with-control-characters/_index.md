@@ -27,6 +27,6 @@ Sometimes you may need to add or remove characters to/from the text. For instanc
 
 The [ControlChar](https://reference.aspose.com/words/python-net/aspose.words/controlchar/) class is a repository for the constants that represent control characters often encountered in documents. It provides both char and string versions of the same constants. For example, string [ControlChar.LINE_BREAK](https://reference.aspose.com/words/python-net/aspose.words/controlchar/#line_break) and char [ControlChar.LINE_BREAK_CHAR](https://reference.aspose.com/words/python-net/aspose.words/controlchar/#line_break_char) has the same value.
 
-The following code example demonstrateshow to use control characters:
+The following code example shows how to use control characters:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_properties-UseControlCharacters.py" >}}
+{{< gist "aspose-words-gists" "4468c998e233b322e3a711efc5a8b27f" "use-control-characters.py" >}}

@@ -134,7 +134,6 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ## Related APIs
 
-
 - [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/)
 - [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/)
 - [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/)

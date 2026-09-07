@@ -36,7 +36,7 @@ You can use the [unused_lists](https://reference.aspose.com/words/python-net/asp
 
 The following code example shows how to remove only unused styles from a document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_options_and_settings-CleanupUnusedStylesandLists.py" >}}
+{{< gist "aspose-words-gists" "2c3fc897d0a048c26c8f76a58eb00b8b" "cleanup-unused-styles-and-lists.py" >}}
 
 ## Remove Duplicate Information from a Document
 
@@ -44,11 +44,7 @@ You can also use the [duplicate_style](https://reference.aspose.com/words/python
 
 The following code example shows how to remove duplicate styles from a document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_options_and_settings-CleanupDuplicateStyle.py" >}}
-
-```
-
------- 
+{{< gist "aspose-words-gists" "2c3fc897d0a048c26c8f76a58eb00b8b" "cleanup-duplicate-style.py" >}} 
 
 ## FAQ
 

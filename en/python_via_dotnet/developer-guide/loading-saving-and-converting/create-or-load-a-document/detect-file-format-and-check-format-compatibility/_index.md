@@ -34,7 +34,7 @@ If you attempt to load a file into a[Document](https://reference.aspose.com/word
 
 {{% alert color="primary" %}}
 
-[detect_file_format](https://reference.aspose.com/words/python-net/aspose.words/fileformatutil/detect_file_format/) only checks the file format but does not validate the file format. There is no guarantee that the file will be opened successfully, even if [detect_file_format](https://reference.aspose.com/words/python-net/aspose.words/fileformatutil/detect_file_format/) returns that it is one of the supported formats. This is because of [detect_file_format](https://reference.aspose.com/words/python-net/aspose.words/fileformatutil/detect_file_format/) method reads only partial file format data, sufficient for checking the file format, but not enough for complete validation.
+The detect_file_format method only checks the file format but does not validate the file format. There is no guarantee that the file will be opened successfully, even if **detect_file_format** returns that it is one of the supported formats. This is because of **detect_file_format** method reads only partial file format data, sufficient for checking the file format, but not enough for complete validation.
 
 {{% /alert %}}
 
@@ -42,19 +42,19 @@ If you attempt to load a file into a[Document](https://reference.aspose.com/word
 
 We can check the format compatibility of all files in the selected folder and sort them by format into corresponding subfolders.
 
-Since we are dealing with contents in a folder, the first thing we need to do is get a collection of all the files in this folder using the **listdir** method of the **os** module.
+In Python, use `import os` and `files = os.listdir(folder_path)` or `from pathlib import Path` and `files = list(Path(folder_path).glob('*'))` to obtain the collection of files.
 
 The following code example shows how to get a list of all the files in the folder:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-working_with_file_format-GetListOfFilesInFolder.py" >}}
+{{< gist "aspose-words-gists" "85de5d316960e79e2ab11a50c4dde445" "get-files.py" >}}
 
-When all the files are collected, the rest of the work is done by the [detect_file_format](https://reference.aspose.com/words/python-net/aspose.words/fileformatutil/detect_file_format/) method, which checks the file format.
+When all the files are collected, the rest of the work is done by the **detect_file_format** method, which checks the file format.
 
 The following code example shows how to iterate over the collected list of files, check the format of each file, and moves each file to the appropriate folder:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-working_with_file_format-CheckFormatCompatibility.py" >}}
+{{< gist "aspose-words-gists" "85de5d316960e79e2ab11a50c4dde445" "check-format-compatibility.py" >}}
 
-The files are moved into appropriate subfolders using the **copyfile** method of the **shutil** module.
+Use Python's standard library, e.g., `import shutil; shutil.move(src_path, dest_path)` or `pathlib.Path(src).rename(dest_path)`.
 
 The following files are used in the example above. The file name is on the left and its description is on the right:
 
@@ -76,9 +76,7 @@ The following files are used in the example above. The file name is on the left 
 |  | Test File (DocPreWord60).doc | Microsoft Word 2.0 document. |
 | Encrypted documents | Test File (Enc).doc | Encrypted Microsoft Word 95/6.0 or Microsoft Word 97 – 2003 document. |
 |  | Test File (Enc).docx | Encrypted Office Open XML WordprocessingML document. |
-| Unsupported file formats | Test File (JPG).jpg | JPEG image file. |
-
------- 
+| Unsupported file formats | Test File (JPG).jpg | JPEG image file. | 
 
 ## FAQ
 

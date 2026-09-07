@@ -43,7 +43,7 @@ Sometimes, when loading existing document cells in a table, they will appear mer
 
 ## Check if Cell is Merged
 
-To check if a cell is part of a sequence of merged cells, we simply check the **HorizontalMerge** and **VerticalMerge** properties.
+To check if a cell is part of a sequence of merged cells, we simply check the **HorizontalMerge** and **vertical_merge** properties.
 
 The following code example shows how to print the horizontal and vertical cell merge type:
 
@@ -57,9 +57,9 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ## Merge Table Cells When Using DocumentBuilder
 
-To merge cells in a table created with the [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/), you need to set the appropriate merge type for each cell where the merge is expected – first **CellMerge.First** and then **CellMerge.Previous**.
+To merge cells in a table created with the [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/), you need to set the appropriate merge type for each cell where the merge is expected – first **CellMerge.FIRST** and then **CellMerge.PREVIOUS**.
 
-Also, you must remember to clear the merge setting for those cells where no merge is required – this can be done by setting the first non-merge cell to **CellMerge.None**. If this is not done, all cells in the table will be merged.
+Also, you must remember to clear the merge setting for those cells where no merge is required – this can be done by setting the first non-merge cell to **CellMerge.NONE**. If this is not done, all cells in the table will be merged.
 
 The following code example shows how tocreate a table with two rows where the cells in the first row are merged horizontally:
 
@@ -86,8 +86,6 @@ The following code example shows how to merge a range of cells between two speci
 You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Table%20with%20merged%20cells.docx).
 
 {{% /alert %}}
-
-Depending on the version of the Framework you are using, you may want to refine this method by turning it into an extension method. In this case, you can call this method directly on a cell to merge a range of cells, such as `cell1.Merge(cell2)`.
 
 ## Convert to Horizontally Merged Cells
 

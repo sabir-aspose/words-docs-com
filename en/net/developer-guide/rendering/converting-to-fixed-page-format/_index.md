@@ -105,7 +105,7 @@ The example below demonstrateshow to save a document to JPEG format usingthe `Sa
 - [UpdatePageLayout](https://reference.aspose.com/words/net/aspose.words/document/updatepagelayout/)
 - [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/)
 - [FixedPageSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/)
-- [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsavingoptions/)
+- [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/)
 - [SaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/)
 
 ## FAQ

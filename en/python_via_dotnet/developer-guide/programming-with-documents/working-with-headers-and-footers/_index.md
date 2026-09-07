@@ -37,7 +37,6 @@ When you add a header or footer to a document, you can set some advanced propert
 ### Specify Header or Footer Type
 
 You can specify three different header types and three different footer types for one document:
-
 1. Header and/or footer for the first page
 2. Header and/or footer for even pages
 3. Header and/or footer for odd pages
@@ -112,9 +111,7 @@ The following code example shows how to remove all footers from all sections but
 
 You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Header%20and%20footer%20types.docx).
 
-{{% /alert %}}
-
------- 
+{{% /alert %}} 
 
 ## FAQ
 

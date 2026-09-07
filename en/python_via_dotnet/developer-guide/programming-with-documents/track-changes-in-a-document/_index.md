@@ -40,7 +40,7 @@ Revisions are used in the tracking changes feature and within the compare docume
 
 {{% alert color="primary" %}}
 
-Note that Microsoft Word does not allow you to view individual revisions, it only allows you to view sequential revisions as a single entity. But Aspose.Words solves this limitation with the [RevisionGroup](https://reference.aspose.com/words/python-net/aspose.words/revisiongroup/) class.
+Note that Microsoft Word does not allow you to view individual revisions, it only allows you to view sequential revisions as a single entity. But Aspose.Words solves this limitation with the **RevisionGroup** class.
 
 {{% /alert %}}
 
@@ -58,7 +58,7 @@ Editing a document usually does not count as a revision until you begin tracking
 
 {{% alert color="primary" %}}
 
-Note that the [start_track_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/start_track_revisions/) method does not change the status of the [track_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/track_revisions/) property and does not use its value for the aim of revision tracking. In addition, if a node was moved from one location to another inside the tracked document, then move revisions will be created, including move-from and move-to range.
+Note that the `StartTrackingRevisions` method does not change the status of the [track_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/track_revisions/) property and does not use its value for the aim of revision tracking. In addition, if a node was moved from one location to another inside the tracked document, then move revisions will be created, including move-from and move-to range.
 
 {{% /alert %}}
 
@@ -68,34 +68,47 @@ All changes will be tracked for one iteration from the moment you start the proc
 
 {{% alert color="primary" %}}
 
-Note that the [accept_all_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/accept_all_revisions/) method is similar to the “Accept All Changes” in Microsoft Word.
+Note that the `AcceptAllRevisions` method is similar to the “Accept All Changes” in Microsoft Word.
 
 {{% /alert %}}
 
 The following code example shows how to work with tracking changes:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_revisions-AcceptAllRevisions.py" >}}
+{{< gist "aspose-words-gists" "d7865443bc71ae2185cc06d34dd30fd6" "accept-all-revisions.py" >}}
 
 The following code example shows how revisions are generated when a node is moved within a tracked document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_revisions-MoveNodeInTrackedDocument.py" >}}
+{{< gist "aspose-words-gists" "d7865443bc71ae2185cc06d34dd30fd6" "move-node-in-tracked-document.py" >}}
 
 ## Manage and Store Changes as Revisions
 
 With the previous tracking changes feature, you can understand which changes were made in your document and who made those changes. While with the [track_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/track_revisions/) feature, you force any changes within your document to be stored as revisions.
 
-Aspose.Words allows you to check if a document has a revision or not by using the [has_revision](https://reference.aspose.com/words/python-net/aspose.words/document/has_revisions/) property. If you do not need to automatically track the changes in your document through the start_track_revisions and stop_track_revisions methods, then you can use the [track_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/track_revisions/) property to check if the changes are tracked while editing a document in Microsoft Word and stored as revisions.
+Aspose.Words allows you to check if a document has a revision or not by using the [has_revision](https://reference.aspose.com/words/python-net/aspose.words/document/has_revisions/) property. If you do not need to automatically track the changes in your document through the StartTrackRevisions and StopTrackRevisions methods, then you can use the `TrackRevisions` property to check if the changes are tracked while editing a document in Microsoft Word and stored as revisions.
 
-The [track_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/track_revisions/) feature makes revisions instead of real DOM changes. But the revisions themselves are separate. For example, If you delete any paragraph, Aspose.Words make it as a revision, marking it as deletion, instead of deleting it.
+The `TrackRevisions` feature makes revisions instead of real DOM changes. But the revisions themselves are separate. For example, If you delete any paragraph, Aspose.Words make it as a revision, marking it as deletion, instead of deleting it.
 
 In addition, Aspose.Words allows you to check if an object was inserted, deleted, or changed formatting using the [is_delete_revision](https://reference.aspose.com/words/python-net/aspose.words/inline/is_delete_revision/), [is_format_revision](https://reference.aspose.com/words/python-net/aspose.words/inline/is_format_revision/), [is_insert_revision](https://reference.aspose.com/words/python-net/aspose.words/inline/is_insert_revision/), [is_move_from_revision](https://reference.aspose.com/words/python-net/aspose.words/inline/is_move_from_revision/), and [is_move_to_revision](https://reference.aspose.com/words/python-net/aspose.words/inline/is_move_to_revision/) properties.
 
 {{% alert color="primary" %}}
 
-Note that there is no connection between the revisions themselves and the [track_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/track_revisions/) property. In addition, you can accept/reject revisions regardless of the tracking changes feature.
+Note that there is no connection between the revisions themselves and the `TrackRevisions` property. In addition, you can accept/reject revisions regardless of the tracking changes feature.
 
 {{% /alert %}}
 
 The following code example shows how to apply different properties with revisions:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_revisions-ShapeRevision.py" >}}
+{{< gist "aspose-words-gists" "d7865443bc71ae2185cc06d34dd30fd6" "shape-revision.py" >}}
+
+## Related APIs
+
+- [Revision](https://reference.aspose.com/words/python-net/aspose.words/revision/)
+- [RevisionGroup](https://reference.aspose.com/words/python-net/aspose.words/revision/group/)
+- [RevisionType](https://reference.aspose.com/words/python-net/aspose.words/revisiontype/)
+- [Document.track_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/track_revisions/)
+- [Document.start_track_revisions()](https://reference.aspose.com/words/python-net/aspose.words/document/start_track_revisions/)
+- [Document.stop_track_revisions()](https://reference.aspose.com/words/python-net/aspose.words/document/stop_track_revisions/)
+- [Document.accept_all_revisions()](https://reference.aspose.com/words/python-net/aspose.words/document/accept_all_revisions/)
+- [RevisionCollection.reject_all()](https://reference.aspose.com/words/python-net/aspose.words/revisioncollection/reject_all/)
+- [Revision.accept()](https://reference.aspose.com/words/python-net/aspose.words/revision/accept/)
+- [Revision.reject()](https://reference.aspose.com/words/python-net/aspose.words/revision/reject/)

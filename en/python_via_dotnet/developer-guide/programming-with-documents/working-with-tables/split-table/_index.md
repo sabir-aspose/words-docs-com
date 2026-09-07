@@ -33,7 +33,21 @@ The following code example shows how to split a table into two tables on a speci
 
 {{< gist "aspose-words-gists" "d31be78b25b463dd4eb31c85c60fc549" "split-table.py" >}}
 
------- 
+## Limitations and Considerations
+
+- **Merged cells**: If a cell spans rows that are divided between the two tables, Aspose.Words will automatically adjust the cell's `RowSpan` so that each table contains a valid cell structure. Cells that no longer span the required rows are split into separate cells.
+
+- **Formatting preservation**: The formatting applied to rows, cells, and the table itself is retained because the rows are moved, not recreated. Any style or direct formatting on the moved rows remains unchanged in the new table.
+
+- **Pagination effects**: Aspose.Words recalculates pagination automatically after the table structure changes. To avoid unexpected pagination shifts, perform the split operation before any layout-dependent processing (e.g., before saving or printing).
+
+## Related APIs
+
+- [`Table`](https://reference.aspose.com/words/python-net/aspose.words.tables/table/)
+- [`Row`](https://reference.aspose.com/words/python-net/aspose.words.tables/row/)
+- [`Cell`](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/)
+- [`DocumentBuilder`](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/)
+- [`NodeCollection`](https://reference.aspose.com/words/python-net/aspose.words/nodecollection/) 
 
 ## FAQ
 

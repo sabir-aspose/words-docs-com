@@ -59,7 +59,7 @@ The following features of Aspose.Words algorithms should be taken into account:
 
 To use the hyphenation feature, first register a hyphenation dictionary. The following code example shows how to load hyphenation dictionaries for the specified languages from a file:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_hyphenation-HyphenateWordsOfLanguages.py" >}}
+{{< gist "aspose-words-gists" "6cfc4dd3ee1b881f904b3ce31a3110f7" "hyphenate-words.py" >}}
 
 {{% alert color="primary" %}}
 
@@ -69,13 +69,19 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 The following code example shows how to load hyphenation dictionaries for the specified language from a stream:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_hyphenation-LoadHyphenationDictionaryForLanguage.py" >}}
+{{< gist "aspose-words-gists" "6cfc4dd3ee1b881f904b3ce31a3110f7" "load-hyphenation-dictionary.py" >}}
 
 {{% alert color="primary" %}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
+
+As an alternative to pre-registering hyphenation dictionaries, it is possible to register only required hyphenation dictionaries “by request”. To achieve that, implement the [IHyphenationCallback](https://reference.aspose.com/words/python-net/aspose.words/ihyphenationcallback/) interface and use the static callback [Callback](https://reference.aspose.com/words/python-net/aspose.words/hyphenation/callback/).
+
+The following code example shows how to implement the **IHyphenationCallback** interface:
+
+{{< gist "aspose-words-gists" "6cfc4dd3ee1b881f904b3ce31a3110f7" "custom-hyphenation.py" >}}
 
 ## Impact of Hyphenation on Layout
 

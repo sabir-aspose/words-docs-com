@@ -29,13 +29,13 @@ Typically, a field inserted into Microsoft Word already contains an up to date v
 When a document is loaded, Aspose.Words mimics the behavior of Microsoft Word with the option to automatically update fields is switched off. The behavior can be summarized as follows:
 
 - when you open/save a document the fields remain intact
-- you can explicitly update all fields in a document (e.g. rebuild TOC) when you need to
+- you can explicitly update all fields in a document, for example, rebuild `TOC`, when you need to
 - when you print/render to PDF or XPS the fields related to page-numbering in headers/footers are updated
 - when you execute Mail Merge all fields are updated automatically
 
 ### Update Fields Programmatically
 
-To explicitly update fields in the whole document, simply call [update_fields](https://reference.aspose.com/words/python-net/aspose.words/document/update_fields/). To update fields contained in part of a document, obtain a [Range](https://reference.aspose.com/words/python-net/aspose.words/range/) object and call the [update_fields](https://reference.aspose.com/words/python-net/aspose.words/range/update_fields/) method. In Aspose.Words, you can obtain a **Range** for any node in the document tree, such as [Section](https://reference.aspose.com/words/python-net/aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/python-net/aspose.words/headerfooter/), [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/), etc. using the [Node.range](https://reference.aspose.com/words/python-net/aspose.words/node/range/) property. You can update the result of a single field by calling the [update](https://reference.aspose.com/words/python-net/aspose.words.fields/field/update/) method.
+To explicitly update fields in the whole document, simply call the [update_fields](https://reference.aspose.com/words/python-net/aspose.words/document/update_fields/) method. To update fields contained in part of a document, obtain a [Range](https://reference.aspose.com/words/python-net/aspose.words/range/) object and call the [update_fields](https://reference.aspose.com/words/python-net/aspose.words/range/update_fields/) method. In Aspose.Words, you can obtain a **Range** for any node in the document tree, such as [Section](https://reference.aspose.com/words/python-net/aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/python-net/aspose.words/headerfooter/) , [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/), etc. using the [Node.range](https://reference.aspose.com/words/python-net/aspose.words/node/range/) property. You can update the result of a single field by calling the [update](https://reference.aspose.com/words/python-net/aspose.words.fields/field/update/) method.
 
 ### Automatic Update of Page-Related Fields During Rendering
 
@@ -45,7 +45,7 @@ If you want to update all other fields in the document, then you need to call [u
 
 The following code example shows how to update all fields before rendering a document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-UpdateDocFields.py" >}}
+{{< gist "aspose-words-gists" "365214c8b2e8c065166447871a1499aa" "update-doc-fields.py" >}}
 
 {{% alert color="primary" %}}
 
@@ -59,16 +59,27 @@ When you execute a mail merge, all fields in the document will be automatically 
 
 ## Update Fields Having Dirty Attribute
 
-The w:dirty is a field-level attribute that will refresh only the field you specify when the document is opened. It tells MS Word to only refresh this field the next time thedocument is opened. You can use[update_dirty_fields](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/update_dirty_fields/) propertyto specify whether to update the fields with the dirty attribute.When the value of **update_dirty_fields** is set to `True`, all fields having `True` value for [Field.is_dirty](https://reference.aspose.com/words/python-net/aspose.words.fields/field/is_dirty/) or [FieldChar.is_dirty](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldchar/is_dirty/) property are updated on document load.
+The w:dirty is a field-level attribute that will refresh only the field you specify when the document is opened. It tells MS Word to only refresh this field the next time the document is opened. You can use the [update_dirty_fields](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/update_dirty_fields/) property to specify whether to update the fields with the dirty attribute. When the value of **update_dirty_fields** is set to *true*, all fields having *true* value for [Field.is_dirty](https://reference.aspose.com/words/python-net/aspose.words.fields/field/is_dirty/) or [FieldChar.is_dirty](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldchar/is_dirty/) property are updated on document load.
 
 The following code example shows how to update fields having the dirty attribute:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Load Options-working_with_load_options-UpdateDirtyFields.py" >}}
+{{< gist "aspose-words-gists" "365214c8b2e8c065166447871a1499aa" "update-dirty-fields.py" >}}
 
 ## Update LastSavedTime Property Before Saving
 
-You can use [SaveOptions.update_last_saved_time_property](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/update_last_saved_time_property/) property whether to update the corresponding built-in document property [last_saved_time](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/last_saved_time/) when saving the document.
+You can use the [SaveOptions.update_last_saved_time_property](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/update_last_saved_time_property/) property whether to update the corresponding built-in document property [last_saved_time](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/last_saved_time/) when saving the document.
 
 The following code example shows how to update this property:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_ooxml_save_options-UpdateLastSavedTimeProperty.py" >}}
+{{< gist "aspose-words-gists" "b05f6fe5e272263ce37254e9e36a5ae0" "update-last-saved-time.py" >}}
+
+## Related APIs
+
+- [Document.update_fields()](https://reference.aspose.com/words/python-net/aspose.words/document/update_fields/) - Updates all fields in the document.
+- [Range.update_fields()](https://reference.aspose.com/words/python-net/aspose.words/range/update_fields/) - Updates fields within a specific range (e.g., section, header, paragraph).
+- [Field.update()](https://reference.aspose.com/words/python-net/aspose.words.fields/field/update/) - Updates a single field.
+- [LoadOptions.update_dirty_fields](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/update_dirty_fields/) - Gets or sets a value indicating whether to update fields marked as dirty when loading a document.
+- [Field.is_dirty](https://reference.aspose.com/words/python-net/aspose.words.fields/field/is_dirty/) - Gets or sets a value indicating whether the field result is out of date.
+- [FieldChar.is_dirty](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldchar/is_dirty/) - Gets or sets a value indicating whether the field result is out of date.
+- [SaveOptions.update_last_saved_time_property](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/update_last_saved_time_property/) - Gets or sets a value indicating whether to update the `last_saved_time` built-in document property when saving.
+- [BuiltInDocumentProperties.last_saved_time](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/last_saved_time/) - Gets or sets the date and time the document was last saved.

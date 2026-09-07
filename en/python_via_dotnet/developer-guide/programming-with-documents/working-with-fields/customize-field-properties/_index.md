@@ -27,7 +27,7 @@ Sometimes users need to change the value of a field property. For example, updat
 
 The following code example shows how to rename merge fields in a Word document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-RenameMergeFields.py" >}}
+{{< gist "aspose-words-gists" "1ead3cc2e51140806a4919331c87eb2d" "rename-merge-fields.py" >}}
 
 ## Field Display Result
 
@@ -35,9 +35,7 @@ Aspose.Words provides a property to obtain the field's result for fields that do
 
 The following code example shows the usage of [display_result](https://reference.aspose.com/words/python-net/aspose.words.fields/field/display_result/) property:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-FieldDisplayResults.py" >}}
-
------- 
+{{< gist "aspose-words-gists" "1ead3cc2e51140806a4919331c87eb2d" "field-display-results.py" >}} 
 
 ## FAQ
 
@@ -49,8 +47,8 @@ The following code example shows the usage of [display_result](https://reference
 
    doc = aw.Document("input.docx")
    for field in doc.range.fields:
-       if isinstance(field, aw.fields.FieldMergeField):
-           merge_field = aw.fields.FieldMergeField(field)
+       if field.type == aw.fields.FieldType.FIELD_MERGE_FIELD:
+           merge_field = field.as_field_merge_field()
            merge_field.field_name = "NewFieldName"
    doc.save("output.docx")
    ```
@@ -74,8 +72,8 @@ The following code example shows the usage of [display_result](https://reference
 
    doc = aw.Document("input.docx")
    for field in doc.range.fields:
-       if isinstance(field, aw.fields.FieldAuthor):
-           author_field = aw.fields.FieldAuthor(field)
+       if field.type == aw.fields.FieldType.FIELD_AUTHOR:
+           author_field = field.as_field_author()
            author_field.author_name = "John Doe"
    doc.save("output.docx")
    ```

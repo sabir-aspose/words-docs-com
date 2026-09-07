@@ -29,3 +29,11 @@ To manipulate a table to join with another table, we just need to move the rows 
 The following code example shows how to merge rows from two tables into one:
 
 {{< gist "aspose-words-gists" "58600aa383a4cba01a02603683e30fd3" "combine-rows.py" >}}
+
+## Related APIs
+
+- `aspose.words.tables.Table` — Represents a table in the document.
+- `aspose.words.tables.Row` — Represents a table row.
+- `document.import_node(node, True)` — Imports a node from another document, preserving formatting when the second argument is `True`.
+- `row_collection.add(node)` — Adds a row to the table's row collection.
+- `node.remove()` — Removes the node from the document.

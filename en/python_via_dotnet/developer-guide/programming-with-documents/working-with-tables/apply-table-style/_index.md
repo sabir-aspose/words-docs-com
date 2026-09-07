@@ -70,23 +70,9 @@ The pictures below show a representation of the **Table Styles** in Microsoft Wo
 
 ![formatting-table-style-aspose-words-python](applying-formatting-10.png)
 
-
-
-## Working with Table Styles
-
-A table style defines a set of formatting that can be easily applied to a table. Formatting such as borders, shading, alignment and font can be set in a table style and applied to many tables for a consistent appearance.
-
-Aspose.Words supports applying a table style to a table and also reading properties of any table style. Table styles are preserved during loading and saving in the following ways:
-
-- Table styles in DOCX and WordML formats are preserved when loading and saving to these formats.
-- Table styles are preserved when loading and saving in the DOC format (but not to any other format).
-- When exporting to other formats, rendering or printing, table styles are expanded to direct formatting on the table so all formatting is preserved.
-
-Currently, you cannot create new table styles. You can only apply in-built table styles or custom table styles which already exist in the document to a table. 
-
 ## Take Formatting from Table Style and Apply it as Direct Formatting
 
-Aspose.Words also provides the [ExpandTableStylesToDirectFormatting](https://reference.aspose.com/words/python-net/aspose.words/document/expand_table_styles_to_direct_formatting/#default) method to take formatting found on a table style and expands it onto the rows and cells of the table as direct formatting. Try combining formatting with table style and cell style.
+Aspose.Words also provides the [expand_table_styles_to_direct_formatting](https://reference.aspose.com/words/python-net/aspose.words/document/expand_table_styles_to_direct_formatting/#default) method to take formatting found on a table style and expands it onto the rows and cells of the table as direct formatting. Try combining formatting with table style and cell style.
 
 {{% alert color="primary" %}}
 
@@ -97,3 +83,22 @@ This method will not override any other formatting already applied to the table 
 The following code example shows how to expand the formatting from styles onto table rows and cells as direct formatting:
 
 {{< gist "aspose-words-gists" "1825da859a3400b9777f6c745a0889aa" "expand-formatting-on-cells-and-row-from-style.py" >}}
+
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
+
+{{% /alert %}}
+
+## Related APIs
+
+- [StyleCollection](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/)
+- [TableStyle](https://reference.aspose.com/words/python-net/aspose.words/tablestyle/)
+- [ConditionalStyle](https://reference.aspose.com/words/python-net/aspose.words/conditionalstyle/)
+- [ConditionalStyleCollection](https://reference.aspose.com/words/python-net/aspose.words/conditionalstylecollection/)
+- [TableStyleOptions](https://reference.aspose.com/words/python-net/aspose.words.tables/tablestyleoptions/)
+- [StyleCollection.add](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/add/)
+- [Document.expand_table_styles_to_direct_formatting](https://reference.aspose.com/words/python-net/aspose.words/document/expand_table_styles_to_direct_formatting/)
+- [Table.style](https://reference.aspose.com/words/python-net/aspose.words.tables/table/style/)
+- [Table.style_identifier](https://reference.aspose.com/words/python-net/aspose.words.tables/table/style_identifier/)
+- [Table.style_options](https://reference.aspose.com/words/python-net/aspose.words.tables/table/style_options/)

@@ -27,8 +27,11 @@ All warnings are of [WarningType](https://reference.aspose.com/words/python-net/
 
 | Description warning value                                    | PDF/A                  | PDF/UA                 |
 | ------------------------------------------------------------ | ---------------------- | ---------------------- |
+| "Document title is missing. This violates the compliance requirements. The output document will not be fully compliant." |                        | {{< emoticons/tick >}} |
 | "The document contains headings which levels are not consecutive. This violates the compliance requirements. The output document will not be fully compliant." |                        | {{< emoticons/tick >}} |
 | "There are shapes without alt text in the document. This violates the compliance requirements. The output document will not be fully compliant." | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | "There are tables without alt text in the document. This violates the compliance requirements. The output document will not be fully compliant." | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| "There are hyperlinks without alt text in the document. This violates the compliance requirements. The output document will not be fully compliant." |                        | {{< emoticons/tick >}} |
+| "There are tables without header row/column in the document. This violates the compliance requirements. The output document will not be fully compliant." |                        | {{< emoticons/tick >}} |
 | "The document contains Unicode PUA characters. This violates the compliance requirements. The output document will not be fully compliant." | {{< emoticons/tick >}} |                        |
 | "The document contains .notdef glyphs. This violates the compliance requirements. The output document will not be fully compliant." | {{< emoticons/tick >}} | {{< emoticons/tick >}} |

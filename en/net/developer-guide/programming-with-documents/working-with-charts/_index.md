@@ -37,7 +37,6 @@ The code produces the following result:
 
 ![create-column-chart-aspose-words-net](working-with-charts-1.png)
 
-
 There are four different overloads for series Add method, which was exposed to cover all possible variants of data sources for all chart types:
 
 {{< gist "aspose-words-gists" "23d39c0b874655d7e7354f1ecc122e39" "insert-column-chart.cs" >}}

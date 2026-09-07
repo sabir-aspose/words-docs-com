@@ -146,7 +146,7 @@ The following code example shows how to efficiently visit all direct and indirec
 
 ### Typed Access to Child and Parent Nodes {#typed-access-to-child-and-parent-nodes}
 
-So far, we have discussed the properties that return one of the base types – **Node** or **CompositeNode**. But sometimes there are situations where you might need to cast values to a specific node class, such as **Run** or **Paragraph**. That is, you cannot completely get away from casting when working with the Aspose.Words DOM, which is composite.
+So far, we have discussed the properties that return one of the base types - **Node** or **CompositeNode**. But sometimes there are situations where you might need to cast values to a specific node class, such as **Run** or **Paragraph**. That is, you cannot completely get away from casting when working with the Aspose.Words DOM, which is composite.
 
 To reduce the need for casting, most Aspose.Words classes provide properties and collections that provide strongly typed access. There are three basic patterns of typed access:
 

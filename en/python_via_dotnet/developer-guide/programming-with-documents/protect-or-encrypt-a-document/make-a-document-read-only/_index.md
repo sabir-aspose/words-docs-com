@@ -46,20 +46,20 @@ Aspose.Words allows you to make a document read-only to restrict editing by usin
 
 In Microsoft Word, you can create a Read-Only document in a similar way using both:
 
-* "Always Open Read-Only" (File → Info → Protect Document)
+* “Always Open Read-Only” (File → Info → Protect Document)
 * "Password to modify" (Save As → Tools → General Options → Password)
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-Users can also restrict document editing by selecting [ProtectionType](https://reference.aspose.com/words/python-net/aspose.words/protectiontype/) as [READ_ONLY](https://reference.aspose.com/words/python-net/aspose.words/protectiontype/#read_only), but this is another feature that provides more advanced protection capabilities. There is such a function in Microsoft Word, respectively, it is implemented in Aspose.Words.
+Users can also restrict document editing by selecting [ProtectionType](https://reference.aspose.com/words/python-net/aspose.words/protectiontype/) as **ReadOnly**, but this is another feature that provides more advanced protection capabilities. There is such a function in Microsoft Word, respectively, it is implemented in Aspose.Words.
 
-[ProtectionType](https://reference.aspose.com/words/python-net/aspose.words/protectiontype/) will be described in detail in one of the following articles – “Restrict Document Editing”.
+**ProtectionType** will be described in detail in one of the following articles – “Restrict Document Editing”.
 
 {{% /alert %}}
 
-The [read_only_recommended](https://reference.aspose.com/words/python-net/aspose.words.settings/writeprotection/read_only_recommended/) property is password-secured, so if you do not set a password before applying the [read_only_recommended](https://reference.aspose.com/words/python-net/aspose.words.settings/writeprotection/read_only_recommended/) property, then other users can simply open the document as if it were unprotected. You access the document protection settings and set a write protection password via the [set_password](https://reference.aspose.com/words/python-net/aspose.words.settings/writeprotection/set_password/) method.
+The **read_only_recommended** property is password‑secured, so if you do not set a password before applying the **read_only_recommended** property, then other users can simply open the document as if it were unprotected. You access the document protection settings and set a write protection password via the **set_password** method.
 
 {{% alert color="primary" %}}
 
@@ -71,48 +71,23 @@ If you need to check if a document has a write protection password that restrict
 
 The following code example shows how to make a document read-only:
 
-{{< highlight python >}}
-import aspose.words as aw
-
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-
-builder.write("Open document as read-only")
-
-# Enter a password that's up to 15 characters long.
-doc.write_protection.set_password("MyPassword")
-
-# Make the document as read-only.
-doc.write_protection.read_only_recommended = True
-
-# Apply write protection as read-only.
-doc.protect(aw.ProtectionType.READ_ONLY)
-doc.save(docs_base.artifacts_dir + "DocumentProtection.ReadOnlyProtection.docx")
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "4240df05013243baa2dbfb7728108b89" "read-only-protection.py" >}}
 
 ## Remove Read-Only Restriction
 
-If you do not want a user to open your document as read-only, you can simply set the [read_only_recommended](https://reference.aspose.com/words/python-net/aspose.words.settings/writeprotection/read_only_recommended/) property to `False` or select [ProtectionType](https://reference.aspose.com/words/python-net/aspose.words/document/protection_type/) as [NO_PROTECTION](https://reference.aspose.com/words/python-net/aspose.words/protectiontype/#no_protection).
+If you do not want a user to open your document as read-only, you can simply set the **read_only_recommended** property to *false* or select **ProtectionType** as **NoProtection**.
 
 The following code example shows how to remove read-only access for a document:
 
-{{< highlight python >}}
-import aspose.words as aw
+{{< gist "aspose-words-gists" "4240df05013243baa2dbfb7728108b89" "remove-read-only-restriction.py" >}}
 
-doc = aw.Document()
-            
-# Enter a password that's up to 15 characters long.
-doc.write_protection.set_password("MyPassword")
+## Related APIs
 
-# Remove the read-only option.
-doc.write_protection.read_only_recommended = False
-
-# Apply write protection without any protection.
-doc.protect(aw.ProtectionType.NO_PROTECTION)
-doc.save(docs_base.artifacts_dir + "DocumentProtection.RemoveReadOnlyRestriction.docx")
-{{< /highlight >}}
-
------- 
+- [WriteProtection](https://reference.aspose.com/words/python-net/aspose.words.settings/writeprotection/)  
+- [WriteProtection.ReadOnlyRecommended](https://reference.aspose.com/words/python-net/aspose.words.settings/writeprotection/read_only_recommended/)  
+- [WriteProtection.SetPassword](https://reference.aspose.com/words/python-net/aspose.words.settings/writeprotection/set_password/)  
+- [WriteProtection.IsWriteProtected](https://reference.aspose.com/words/python-net/aspose.words.settings/writeprotection/is_write_protected/)  
+- [ProtectionType](https://reference.aspose.com/words/python-net/aspose.words/protectiontype/) 
 
 ## FAQ
 

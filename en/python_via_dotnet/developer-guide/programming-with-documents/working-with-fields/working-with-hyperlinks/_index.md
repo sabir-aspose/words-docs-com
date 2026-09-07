@@ -26,9 +26,9 @@ This page demonstrates how to insert, replace, and modify hyperlink fields in Wo
 
 A hyperlink in Microsoft Word documents is the `HYPERLINK` field. In Aspose.Words, hyperlinks are implemented through the [FieldHyperlink](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldhyperlink/) class.
 
-## Inserting a Hyperlink
+## Insert a Hyperlink
 
-Usethe [insert_hyperlink](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_hyperlink/)method to insert a hyperlink into the document. This method accepts three parameters:
+Use the [insert_hyperlink](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_hyperlink/) method to insert a hyperlink into the document. This method accepts three parameters:
 
 1. Text of the link to be displayed in the document
 2. Link destination (URL or a name of a bookmark inside the document)
@@ -44,19 +44,22 @@ Note that you need to specify font formatting for the hyperlink display text exp
 
 The following code example shows how to insert a hyperlink into a document using [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/):
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-add_content_using_document_builder-InsertHyperlink.py" >}}
+{{< gist "aspose-words-gists" "0a77287e9106956f00f83347b104d40b" "insert-hyperlink.py" >}}
 
 ## Replace or Modify Hyperlinks
 
-Hyperlink in Microsoft Word documents is a field.A field in a Word document is a complex structure consisting of multiple nodes that include field start, field code, field separator, field result and field end. Fields can be nested, contain rich content and span multiple paragraphs or sections in a document.
+Hyperlink in Microsoft Word documents is a field. A field in a Word document, as we said earlier, is a complex structure consisting of multiple nodes that include field start, field code, field separator, field result and field end. Fields can be nested, contain rich content and span multiple paragraphs or sections in a document.
 
 To replace or modify hyperlinks, it is need to find the hyperlinks in the document and replace either their text, URLs, or both.
 
 The following code example shows how to find all hyperlinks in Word document and changes their `URL` and display name:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ReplaceHyperlinks.py" >}}
+{{< gist "aspose-words-gists" "0a77287e9106956f00f83347b104d40b" "replace-hyperlinks.py" >}}
 
-------  
+## Related APIs
+
+- [FieldHyperlink](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldhyperlink/)
+- [DocumentBuilder.InsertHyperlink](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_hyperlink/)  
 
 ## FAQ
 
@@ -68,32 +71,32 @@ The following code example shows how to find all hyperlinks in Word document and
    ```
 
 2. **Q:** How do I change the display text of an existing hyperlink without altering its URL?  
-   **A:** Locate the `FieldHyperlink` node, modify its `Result` property (the displayed text), and then update the document.  
+   **A:** Locate the `FieldHyperlink` node, modify its `result` property (the displayed text), and then update the document.  
 
    ```python
-   for field in doc.get_child_nodes(aspose.words.NodeType.FIELD_START, True):
-       if isinstance(field, aspose.words.fields.FieldHyperlink):
-           field.result = "New Display Text"
+   for field in doc.range.fields:
+       if field.type == aw.fields.FieldType.FIELD_HYPERLINK:
+           field.as_field_hyperlink().result = "New Display Text"
    ```
 
 3. **Q:** Is it possible to remove a hyperlink while keeping the link text?  
    **A:** Yes. Replace the `FieldHyperlink` with a plain `Run` node that contains the same text. Remove the field start, separator, and end nodes, then insert a `Run` with the original result text.
 
 4. **Q:** How can I apply custom font formatting (e.g., color, underline) to a hyperlink after insertion?  
-   **A:** After calling `insert_hyperlink`, the builder's `font` property refers to the hyperlink text. Set the desired properties before moving the cursor away.  
+   **A:** After calling `insert_hyperlink`, the builder’s `font` property refers to the hyperlink text. Set the desired properties before moving the cursor away.  
 
    ```python
    builder.insert_hyperlink("Aspose", "https://www.aspose.com", False)
-   builder.font.color = aspose.words.Color.blue
-   builder.font.underline = aspose.words.Underline.SINGLE
+   builder.font.color = aspose.pydrawing.Color.blue
+   builder.font.underline = aw.Underline.SINGLE
    ```
 
 5. **Q:** Can I retrieve a list of all hyperlink URLs in a document?  
-   **A:** Iterate through all `FieldHyperlink` nodes and read their `Hyperlink` property.  
+   **A:** Iterate through all `FieldHyperlink` nodes and read their `address` property.  
 
    ```python
    urls = []
-   for field in doc.get_child_nodes(aspose.words.NodeType.FIELD_START, True):
-       if isinstance(field, aspose.words.fields.FieldHyperlink):
-           urls.append(field.hyperlink)
+   for field in doc.range.fields:
+       if field.type == aw.fields.FieldType.FIELD_HYPERLINK:
+           urls.append(field.as_field_hyperlink().address)
    ```

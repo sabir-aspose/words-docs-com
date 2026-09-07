@@ -56,51 +56,17 @@ When you compare documents, differences of the latter document from the former s
 
 Aspose.Words allows you to identify documents differences using the [compare](https://reference.aspose.com/words/python-net/aspose.words/document/compare/) method – this is similar to the Microsoft Word document compare feature. It allows you to check documents or document versions to find differences and changes, including formatting modifications such as font changes, spacing changes, the addition of words and paragraphs.
 
-As a result of comparison, documents can be determined as equal or not equal. The term "equal" documents means that the comparison method is not able to represent changes as revisions. This means that both document text and text formatting are the same. But there can be other differences between documents. For example, Microsoft Word supports only format revisions for styles, and you cannot represent style insertion/deletion. So documents can have a different set of styles, and the [compare](https://reference.aspose.com/words/python-net/aspose.words/document/compare/) method still produces no revisions.
+As a result of comparison, documents can be determined as equal or not equal. The term “equal” documents means that the comparison method is not able to represent changes as revisions. This means that both document text and text formatting are the same. But there can be other differences between documents. For example, Microsoft Word supports only format revisions for styles, and you cannot represent style insertion/deletion. So documents can have a different set of styles, and the **Compare** method still produces no revisions.
 
 The following code example shows how to check if two documents are equal or not:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-compare_documents-CompareForEqual.py" >}}
+{{< gist "aspose-words-gists" "72754f3b0a3a7f784898a23b59c83d96" "compare-for-equal.py" >}}
 
-The following code example shows how to simply apply the `Compare` method to two documents:
-
-{{< highlight python >}}
-# The source document doc1.
-doc1 = aw.Document()
-builder = aw.DocumentBuilder(doc1)
-builder.writeln("This is the original document.")
-
-# The target document doc2.
-doc2 = aw.Document()
-builder = aw.DocumentBuilder(doc2)
-builder.writeln("This is the edited document.")
-
-# If either document has a revision, an exception will be thrown.
-if (doc1.revisions.count == 0 and doc2.revisions.count == 0) :
-    doc1.compare(doc2, "authorName", datetime.today())
-
-# If doc1 and doc2 are different, doc1 now has some revisions after the comparison, which can now be viewed and processed.
-self.assertEqual(2, doc1.revisions.count)
-
-for r in doc1.revisions :
-    print(f"Revision type: {r.revision_type}, on a node of type \"{r.parent_node.node_type}\"")
-    print(f"\tChanged text: \"{r.parent_node.get_text()}\"")
-
-# All the revisions in doc1 are differences between doc1 and doc2, so accepting them on doc1 transforms doc1 into doc2.
-doc1.revisions.accept_all()
-
-# doc1, when saved, now resembles doc2.
-doc1.save(docs_base.artifacts_dir + "Document.Compare.docx")
-doc1 = aw.Document(docs_base.artifacts_dir + "Document.Compare.docx")
-self.assertEqual(0, doc1.revisions.count)
-self.assertEqual(doc2.get_text().strip(), doc1.get_text().strip())
-{{< /highlight >}}
-
-## Specify Advanced Comparing Properties {#specify-advanced-comparing-properties}
+## Specify Advanced Comparison Options {#specify-advanced-comparing-properties}
 
 There are many different properties of the [CompareOptions](https://reference.aspose.com/words/python-net/aspose.words.comparing/compareoptions/) class which you can apply when you want to compare documents.
 
-For example, Aspose.Words allows you to ignore changes made during a comparison operation for certain types of objects within the original document. You can select the appropriate property for the object type, such as [ignore_headers_and_footers](https://reference.aspose.com/words/python-net/aspose.words.comparing/compareoptions/ignore_headers_and_footers/), [ignore_formatting](https://reference.aspose.com/words/python-net/aspose.words.comparing/compareoptions/ignore_formatting/), [ignore_comments](https://reference.aspose.com/words/python-net/aspose.words.comparing/compareoptions/ignore_comments/), and others by setting them to `True`.
+For example, Aspose.Words allows you to ignore changes made during a comparison operation for certain types of objects within the original document. You can select the appropriate property for the object type, such as [ignore_headers_and_footers](https://reference.aspose.com/words/python-net/aspose.words.comparing/compareoptions/ignore_headers_and_footers/), [ignore_formatting](https://reference.aspose.com/words/python-net/aspose.words.comparing/compareoptions/ignore_formatting/), [ignore_comments](https://reference.aspose.com/words/python-net/aspose.words.comparing/compareoptions/ignore_comments/), and others by setting them to "true".
 
 In addition, Aspose.Words provides the [granularity](https://reference.aspose.com/words/python-net/aspose.words.comparing/compareoptions/granularity/) property with which you can specify whether to track changes by character or by word.
 
@@ -108,9 +74,16 @@ Another common property is a choice in which document to show comparison changes
 
 The following code example shows how to set the advanced comparing properties:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-compare_documents-CompareOptions.py" >}}
+{{< gist "aspose-words-gists" "72754f3b0a3a7f784898a23b59c83d96" "compare-options.py" >}}
 
-------  
+## Related APIs
+
+- [Document.Compare](https://reference.aspose.com/words/python-net/aspose.words/document/compare/) – compares two documents and records differences as revisions
+- [CompareOptions](https://reference.aspose.com/words/python-net/aspose.words.comparing/compareoptions/) – specifies comparison behavior (e.g., ignore headers, formatting, comments)
+- [Granularity](https://reference.aspose.com/words/python-net/aspose.words.comparing/compareoptions/granularity/) – controls whether changes are tracked by character or by word
+- [CompareTarget](https://reference.aspose.com/words/python-net/aspose.words.comparing/compareoptions/target/) – determines which document displays the changes
+- [Revision](https://reference.aspose.com/words/python-net/aspose.words/revision/) – represents a single change detected during comparison
+- [Revisions](https://reference.aspose.com/words/python-net/aspose.words/revisioncollection/) – collection of all changes recorded in the document after comparison  
 
 ## FAQ
 
@@ -121,16 +94,16 @@ The following code example shows how to set the advanced comparing properties:
    **A:** Set `compare_options.ignore_headers_and_footers = True` before calling `compare`. This tells the engine to skip any differences found in header/footer sections.
 
    ```python
-   options = aw.Comparing.CompareOptions()
+   options = aw.comparing.CompareOptions()
    options.ignore_headers_and_footers = True
    doc1.compare(doc2, "author", datetime.today(), options)
    ```
 
 3. **Q:** How do I change the granularity of comparison to character level?  
-   **A:** Use the `granularity` property of `CompareOptions` and assign `aw.Comparing.CompareGranularity.CHARACTER`. This makes the comparison track changes at the character level rather than the default word level.
+   **A:** Use the `granularity` property of `CompareOptions` and assign `aw.comparing.Granularity.CHAR_LEVEL`. This makes the comparison track changes at the character level rather than the default word level.
 
    ```python
-   options = aw.Comparing.CompareOptions()
-   options.granularity = aw.Comparing.CompareGranularity.CHARACTER
+   options = aw.comparing.CompareOptions()
+   options.granularity = aw.comparing.Granularity.CHAR_LEVEL
    doc1.compare(doc2, "author", datetime.today(), options)
    ```

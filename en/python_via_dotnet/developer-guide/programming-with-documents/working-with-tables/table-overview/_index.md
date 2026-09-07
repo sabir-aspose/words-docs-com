@@ -32,7 +32,7 @@ As already mentioned, the table consists of such elements as **Cell**, **Row** a
 
 This is a common example of a table found in a Microsoft Word document:
 
-![tables-overview-aspose-words-python-1](tables-overview-1.png)
+![tables-overview-aspose-words-net-1](tables-overview-1.png)
 
 ### Table Nodes
 
@@ -56,7 +56,7 @@ The table node does not contain any real content – instead, it is a container 
 - **Row** represents a single table row and contains many **Cell** nodes. In addition, the **Row** provides elements that define how the row is displayed, such as height and alignment.
 - **Cell** is what contains the true content visible in the table and is made up of a **Paragraph** and other block level nodes. Additionally, cells can contain nested tables.
 
-![tables-overview-aspose-words-python-2](tables-overview-2.png)
+![tables-overview-aspose-words-net-2](tables-overview-2.png)
 
 {{% alert color="primary" %}}
 
@@ -70,14 +70,12 @@ The picture above shows that the document contains a table of several rows, whic
 
 It is also worth noting that separating two consecutive tables in a document requires at least one empty paragraph after the table. Without such a paragraph, consecutive tables would be joined together into one. This behavior is identical in both Microsoft Word and Aspose.Words.
 
-In Aspose.Words, all classes and properties related to tables are contained in the [Aspose.Words.Tables](https://reference.aspose.com/words/python-net/aspose.words.tables/) module.
+In Aspose.Words, all classes and properties related to tables are contained in the [Aspose.Words.Tables](https://reference.aspose.com/words/python-net/aspose.words.tables/) namespace.
 
 ## See Also
 
 * [Aspose.Words Document Object Model (DOM)](/words/python-net/aspose-words-document-object-model/)
-* [Logical Levels of Nodes in a Document](/words/python-net/logical-levels-of-nodes-in-a-document/)
-
------- 
+* [Logical Levels of Nodes in a Document](/words/python-net/logical-levels-of-nodes-in-a-document/) 
 
 ## FAQ
 
