@@ -28,7 +28,7 @@ The visual appearance of documents is another important topic covered in this se
 
 To learn more about Aspose.Words features when programming with documents, select the corresponding article or group of articles:
 
-- [Aspose.Words Document Object Model (DOM)](/words/python-net/aspose-words-document-object-model/)
+- [Aspose.Words Document Object Model](/words/python-net/aspose-words-document-object-model/)
 - [Translate Markdown to Document Object Model (DOM)](/words/python-net/translate-markdown-to-document-object-model/)
 - [Document Builder Overview](/words/python-net/document-builder-overview/)
 - [Working with Document](/words/python-net/working-with-document/)
@@ -49,7 +49,6 @@ To learn more about Aspose.Words features when programming with documents, selec
 - [Working with Tables](/words/python-net/working-with-tables/)
 - [Working with Lists](/words/python-net/working-with-lists/)
 - [Working with Paragraphs](/words/python-net/working-with-paragraphs/)
-- [Working with Asian Typography](/words/python-net/working-with-asian-typography/)
 - [Working with Hyphenation](/words/python-net/working-with-hyphenation/)
 - [Working with Fonts](/words/python-net/working-with-fonts/)
 - [Working with Asian Typography](/words/python-net/working-with-asian-typography/)
@@ -57,13 +56,14 @@ To learn more about Aspose.Words features when programming with documents, selec
 - [Working with Comments](/words/python-net/working-with-comments/)
 - [Track Changes in a Document](/words/python-net/track-changes-in-a-document/)
 - [Working with Shapes](/words/python-net/working-with-shapes/)
-- [Working with Group Shape in Word Documents](/words/python-net/how-to-add-group-shape-into-a-word-document/)
+- [Working with Group Shapes in Word Documents](/words/python-net/how-to-add-group-shape-into-a-word-document/)
 - [Working with Images](/words/python-net/working-with-images/)
 - [Working with Charts](/words/python-net/working-with-charts/)
 - [Working with OfficeMath](/words/python-net/working-with-officemath/)
 - [Working with SmartArt Cold Rendering](/words/python-net/working-with-smartart-cold-rendering/)
 - [Working with Watermark](/words/python-net/working-with-watermark/)
-- [Working with Ole Objects and Online Video](/words/python-net/working-with-ole-objects/)
+- [Generate a Custom BarCode Image](/words/python-net/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/)
+- [Working with Ole Objects and Online Video](/words/python-net/working-with-ole-objects-and-online-video/)
 - [Working with Fields](/words/python-net/working-with-fields/)
 - [Working with Form Fields](/words/python-net/working-with-form-fields/)
 - [Working with Content Control SDT](/words/python-net/working-with-content-control-sdt/)
@@ -71,3 +71,5 @@ To learn more about Aspose.Words features when programming with documents, selec
 - [Working with VBA Macros](/words/python-net/working-with-vba-macros/)
 - [Working with Markdown Features](/words/python-net/working-with-markdown-features/)
 - [Working with Text Document](/words/python-net/working-with-text-document/)
+
+For a detailed description of classes, methods, and properties refer to the Aspose.Words for Python via .NET API Reference section.

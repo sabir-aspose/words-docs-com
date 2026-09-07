@@ -32,9 +32,9 @@ After creating a clone of your document, you will be able to edit it and perform
 
 ## Creating a Document Clone
 
-Aspose.Words allows you to clone a document using the [clone](https://reference.aspose.com/words/python-net/aspose.words/document/clone/) method that performs a deep copy of the document and returns it. In other words, it will get a full copy of the DOM. The [clone](https://reference.aspose.com/words/python-net/aspose.words/document/clone/) method speeds up the documents generation, and you only need one line of code to get a copy of your document.
+Aspose.Words allows you to clone a document using the [clone](https://reference.aspose.com/words/python-net/aspose.words/document/clone/) method that performs a deep copy of the document and returns it. In other words, it will get a full copy of the DOM. The `clone` method speeds up the documents generation, and you only need one line of code to get a copy of your document.
 
-Cloning produces a new document with the same contents as the original, but with a unique copy of each of the original document's nodes. You can also apply the clone operation to a document node by using the node [clone](https://reference.aspose.com/words/python-net/aspose.words/document/clone/) method, which allows you to duplicate composite document nodes with and without their child nodes.
+Cloning produces a new document with the same contents as the original, but with a unique copy of each of the original document's [nodes](https://reference.aspose.com/words/python-net/aspose.words/node/). You can also apply the clone operation to a document node by using the node [clone](https://reference.aspose.com/words/python-net/aspose.words/document/clone/) method, which allows you to duplicate composite document nodes with and without their child nodes.
 
 {{% alert color="primary" %}}
 
@@ -44,34 +44,12 @@ Note that when applying the cloning method all document properties will be clone
 
 The following code example shows how to clone a document and create a duplicate of a section in that document:
 
-{{< highlight python >}}
-# Create a document.
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-builder.writeln("This is the original document before applying the clone method")
+{{< gist "aspose-words-gists" "e510e7e7b1fd08239ef592aa440675c1" "clone-document.py" >}}
 
-# Clone the document.
-clone = doc.clone().as_document()
+## Related APIs
 
-# Edit the cloned document.
-builder = aw.DocumentBuilder(clone)
-builder.write("Section 1")
-builder.insert_break(aw.BreakType.SECTION_BREAK_NEW_PAGE)
-builder.write("Section 2")
-
-# This shows what is in the document originally. The document has two sections.
-self.assertEqual(clone.sections.count, 2)
-
-# Duplicate the last section and append the copy to the end of the document.
-lastSectionIdx = clone.sections.count - 1
-newSection = clone.sections[lastSectionIdx].clone()
-clone.sections.add(newSection)
-
-# Check what the document contains after we changed it.
-self.assertEqual(clone.sections.count, 3)
-{{< /highlight >}}
-
-------  
+- [Document.clone()](https://reference.aspose.com/words/python-net/aspose.words/document/clone/)
+- [Node.clone(is_clone_children)](https://reference.aspose.com/words/python-net/aspose.words/node/clone/)  
 
 ## FAQ
 

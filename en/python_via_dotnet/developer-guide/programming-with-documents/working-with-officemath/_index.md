@@ -21,8 +21,8 @@ This page shows how to create, justify, and control the display (inline or separ
 
 {{% /alert %}}
 
-Now it is even more convenient to work with OfficeMath Type Objects. In Aspose.Words, the customer can easily Justify and can also manage whether an equation is displayed inline or in a separate line. More so, with the availability of [MathObjectType](https://reference.aspose.com/words/python-net/aspose.words.math/mathobjecttype/); useful controls can be implemented by use this matrix object.
+Now it is even more convenient to work with OfficeMath Type Objects. In Aspose.Words, the customer can easily Justify and can also manage whether an equation is displayed inline or in a separate line. More so, with the availability of **MathObjectType**; useful controls can be implemented by use this matrix object.
 
 The following code examples shows how to make use of these properties:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_office_math-MathEquations.py" >}}
+{{< gist "aspose-words-gists" "5a8ece68405d1cacf71c2cdca1a0207a" "math-equations.py" >}}

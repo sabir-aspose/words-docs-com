@@ -1,0 +1,104 @@
+---
+title: Types of Mail Merge Operation in Python
+second_title: Aspose.Words for Python via .NET
+articleTitle: Types of Mail Merge Operation
+linktitle: Types of Mail Merge Operation
+aliases:
+  - /python/how-to-execute-mail-merge/
+type: docs
+description: "Perform two different types of Mail Merge operations: simple Mail Merge and Mail Merge with regions using Python. Simple Mail Merge repeats the entire document per each data source record, whereas Mail Merge with regions repeats only designated regions per record."
+keywords: "how to execute Mail Merge python"
+weight: 20
+ai_search_scope: words_python
+ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
+ai_search_fast_endpoint: "https://docsearch.api.aspose.cloud/search"
+url: /python-net/types-of-mail-merge-operations/
+timestamp: 2026-08-24-10-00-00
+---
+
+{{% alert color="grey" %}}
+
+*Purpose Summary. What is this page about?*
+
+This page explains the different types of Mail Merge operations supported by Aspose.Words for Python via .NET – simple Mail Merge and Mail Merge with regions – and when to use each.
+
+{{% /alert %}}
+
+The main idea of Mail Merge is to automatically create a document or multiple documents based on your template and data fetched from your data source. Aspose.Words allows you to perform two different types of Mail Merge operations: simple Mail Merge and Mail Merge with regions.
+
+The most common example of using simple Mail Merge is when you want to send a document for different clients by including their names at the beginning of the document. To do this, you need to create merge fields such as *First Name* and *Last Name* in your template, and then fill them in with data from your data source. Whereas the most common example of using Mail Merge with regions is when you want to send a document that includes specific orders with the list of all items within each order. To do this, you will need to create merge regions inside your template – own region for each order, in order to fill it with all required data for the items.
+
+The main difference between both merge operations is that simple Mail Merge (without regions) repeats the entire document per each data source record, whereas Mail Merge with regions repeats only designated regions per record. You can think of a simple Mail Merge operation as a particular case of merge with regions where the only region is the whole document.
+
+{{% alert color="primary" %}}
+
+The [MailMerge](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/) class represents a Mail Merge functionality. With its properties, you can customize the required behavior before executing a Mail Merge operation.
+
+{{% /alert %}}
+
+## Simple Mail Merge Operation {#simple-mail-merge-operation}
+
+A simple Mail Merge is used to fill the Mail Merge fields inside your template with the required data from your data source (single table representation). So it is similar to the classic Mail Merge in Microsoft Word.
+
+You can add one or more merge fields in your template and then execute the simple Mail Merge operation. It is recommended to use it if your template does not contain any merge regions.
+
+The main limitation of using this type is the whole document content will be repeated for each record in the data source.
+
+### How to Execute a Simple Mail Merge Operation {#how-to-execute-a-simple-mail-merge-operation}
+
+Once your template is ready, you can start performing the simple Mail Merge operation. Aspose.Words allows you to execute a simple Mail Merge operation using the [execute](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/execute/) method, which accepts either an array of field names along with an array of values, or a custom data source object.
+
+The following code example shows how to execute a simple Mail Merge operation using the [execute](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/execute/) method:
+
+{{< gist "aspose-words-gists" "fb9f060ef919d2925e6ca14ec544aca0" "execute-simple-mail-merge.py" >}}
+
+## Mail Merge with Regions
+
+You can create different regions in your template to have special areas that you can simply fill with your data. Use the Mail Merge with regions if you want to insert tables, rows with repeating data to make your documents dynamically grow by specifying those regions within your template.
+
+You can create nested (child) regions as well as merge regions. The main advantage of using this type is to dynamically increase parts inside a document. See more details in the next article "Nested Mail Merge with Regions".
+
+{{% alert color="primary" %}}
+
+Information about a Mail Merge region can be obtained using the [MailMergeRegionInfo](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmergeregioninfo/) class.
+
+{{% /alert %}}
+
+### How to Execute Mail Merge with Regions
+
+A Mail Merge region is a specific part inside a document that has a start point and an end point. Both points are represented as Mail Merge fields that have specific names *"TableStart:XXX"* and *"TableEnd:XXX"*. All content that is included in a Mail Merge region will automatically be repeated for every record in the data source.
+
+Aspose.Words allows you to execute Mail Merge with regions using the [execute_with_regions](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/execute_with_regions/) method. In Aspose.Words for Python via .NET, this method accepts a data source object that implements the [IMailMergeDataSource](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/imailmergedatasource/) interface, or a [IMailMergeDataSourceRoot](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/imailmergedatasourceroot/) object when your data has several top-level regions.
+
+The `table_name` property of your data source is matched against the region name specified in the template. See the "Nested Mail Merge with Regions" article for a complete example of a custom data source that populates both a parent and a child region.
+
+### Limitations of Mail Merge with Regions
+
+There are some important points that you need to consider when performing a Mail Merge with regions:
+
+* The start point *TableStart:Orders* and the end point *TableEnd:Orders* both need to be in the same row or cell. For example, if you start a merge region in a cell of a table, you must end the merge region in the same row as the first cell.
+* The merge field name must match the field name provided by your data source. Unless you have specified mapped fields, the Mail Merge with regions will not be successful for any merge field that has a different name than the name returned by the data source.
+
+If one of these rules is broken, you will get unexpected results or an exception may be thrown.
+
+{{% alert color="primary" %}}
+
+If you do not use Mail Merge regions, then it will be similar to Microsoft Word mail merge, and the whole document content will be repeated for each record in the data source.
+
+{{% /alert %}}
+
+------
+
+## FAQ
+
+1. **Q:** What is the main difference between simple Mail Merge and Mail Merge with regions?
+   **A:** Simple Mail Merge fills merge fields in the whole document and repeats the entire document for each record. Mail Merge with regions repeats only the content inside defined regions (TableStart/TableEnd) for each record, allowing parts of the document to grow dynamically while the rest stays unchanged.
+
+2. **Q:** What are the requirements for defining a Mail Merge region?
+   **A:** A region must have a start field named `TableStart:RegionName` and an end field named `TableEnd:RegionName`. Both fields must reside in the same row or cell, and the region name must match the `table_name` property of the corresponding data source.
+
+3. **Q:** Can I nest Mail Merge regions, and will they work correctly?
+   **A:** Yes, you can nest regions by placing a child region's start and end fields inside the parent region's boundaries. The inner region will be repeated for each parent record, enabling hierarchical data structures such as orders with line items. Implement the `get_child_data_source` method of your data source to provide the child records.
+
+4. **Q:** Why does an empty paragraph appear after a merge field, and how can I remove it?
+   **A:** Aspose.Words treats a paragraph that contains only a merge field as a separate paragraph. If the field is removed during merging, the empty paragraph remains. Set the `REMOVE_EMPTY_PARAGRAPHS` flag of the `cleanup_options` property to delete such paragraphs automatically.

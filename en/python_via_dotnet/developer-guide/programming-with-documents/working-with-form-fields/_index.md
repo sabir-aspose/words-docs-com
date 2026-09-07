@@ -25,63 +25,41 @@ A document that contains fill-in blanks (fields) is known as a form. For example
 
 You can use form fields in your project to "communicate" with your users. For example, you create a document whose content is protected, but only form fields are editable. The users can enter the data in the form fields and submit the document. Your application that uses Aspose.Words can retrieve data from the form fields and process it.
 
-Placing form fields into the document via code is easy. [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) has special methods for inserting them, one for each form field type.Each of the methods accepts a string parameter representing the name of the form field. The name can be an empty string. If however you specify a name for the form field, then a bookmark is automatically created with the same name.
+Placing form fields into the document via code is easy. [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) has special methods for inserting them, one for each form field type. Each of the methods accepts a string parameter representing the name of the form field. The name can be an empty string. If however you specify a name for the form field, then a bookmark is automatically created with the same name.
 
-## Inserting Form Fields
+## Insert Form Fields
 
 Form fields are a particular case of Word fields that allows "interaction" with the user. Form fields in Microsoft Word include textbox, combo box and checkbox.
 
-[DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/)provides special methods to insert each type of form field into the document:[insert_text_input](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_text_input/),[insert_check_box](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_check_box/), and[insert_combo_box](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_combo_box/). Note that if you specify a name for the form field, then a bookmark is automatically created with the same name.
+**DocumentBuilder** provides special methods to insert each type of form field into the document: [insert_text_input](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_text_input/) , [insert_check_box](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_check_box/), and [insert_combo_box](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_combo_box/). Note that if you specify a name for the form field, then a bookmark is automatically created with the same name.
 
 The following code example shows how to insert a combobox form field into a document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_form_fields-InsertFormFields.py" >}}
+{{< gist "aspose-words-gists" "8711210cb6f2a5d46bbbb10dd9982c58" "insert-form-fields.py" >}}
 
 ### Insert a Text Input
 
-Use the [insert_text_input](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_text_input/)method to insert a textbox into the document.
+Use the **InsertTextInput** method to insert a textbox into the document.
 
 The following code example shows how to insert a text input form field into a document:
 
-{{< highlight python >}}
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-
-builder.insert_text_input("TextInput", aw.fields.TextFormFieldType.REGULAR, "", "Hello", 0)
-        
-doc.save(docs_base.artifacts_dir + "WorkingWithFormFields.document_builder_insert_text_input_form_field.docx")
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "8711210cb6f2a5d46bbbb10dd9982c58" "insert-text-input-form-field.py" >}}
 
 ### Insert a Check Box
 
-Call[insert_check_box](https://reference.aspose.com/words/python-net/aspose.words.documentbuilder/insert_check_box/)to insert a checkbox into the document.
+Call **InsertCheckBox** to insert a checkbox into the document.
 
 The following code example shows how to insert a checkbox form field into a document:
 
-{{< highlight python >}}
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-
-builder.insert_check_box("CheckBox", True, True, 0)
-        
-doc.save(docs_base.artifacts_dir + "WorkingWithFormFields.document_builder_insert_check_box_form_field.docx")
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "8711210cb6f2a5d46bbbb10dd9982c58" "insert-check-box-form-field.py" >}}
 
 ### Insert a Combo Box
 
-Call[insert_combo_box](https://reference.aspose.com/words/python-net/aspose.words.documentbuilder/insert_combo_box/)to insert a Combobox into the document.
+Call **InsertComboBox** to insert a combobox into the document.
 
 The following code example shows how to insert a Combobox form field into a document:
 
-{{< highlight python >}}
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-
-items =  ["One", "Two", "Three"] 
-builder.insert_combo_box("DropDown", items, 0)
-
-doc.save(docs_base.artifacts_dir + "WorkingWithFormFields.document_builder_insert_combo_box_form_field.docx")
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "8711210cb6f2a5d46bbbb10dd9982c58" "insert-combo-box-form-field.py" >}}
 
 ## Obtain Form Fields
 
@@ -93,24 +71,35 @@ You can download the sample file of the following examples from [Aspose.Words Gi
 
 {{% /alert %}}
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_form_fields-FormFieldsGetFormFieldsCollection.py" >}}
+The following code example shows how to get a collection of form fields:
+
+{{< gist "aspose-words-gists" "8711210cb6f2a5d46bbbb10dd9982c58" "form-fields-get-form-fields-collection.py" >}}
 
 You can get a particular form field by its index or name.
 
 The following code example shows how to access form fields:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_form_fields-FormFieldsGetByName.py" >}}
+{{< gist "aspose-words-gists" "8711210cb6f2a5d46bbbb10dd9982c58" "form-fields-get-by-name.py" >}}
 
-The [FormField](https://reference.aspose.com/words/python-net/aspose.words.fields/formfield/) properties allow you to work with form field name, type, and result.
+The **FormField** properties allow you to work with form field name, type, and result.
 
 The following code example shows how to work with form field name, type, and result:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_form_fields-FormFieldsWorkWithProperties.py" >}}
+{{< gist "aspose-words-gists" "8711210cb6f2a5d46bbbb10dd9982c58" "form-fields-work-with-properties.py" >}}
 
 ## Format Form Fields
 
-The [font](https://reference.aspose.com/words/python-net/aspose.words/inline/font/) property of [FormField](https://reference.aspose.com/words/python-net/aspose.words.fields/formfield/) allows applying font formatting to the [FormField](https://reference.aspose.com/words/python-net/aspose.words.fields/formfield/) as a whole including the field value.
+The [font](https://reference.aspose.com/words/python-net/aspose.words/inline/font/) property of [FormField](https://reference.aspose.com/words/python-net/aspose.words.fields/formfield/) allows applying font formatting to the **FormField** as a whole including the field value.
 
 The following code example shows how to apply font formatting to the **FormField**:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_form_fields-FormFieldsFontFormatting.py" >}}
+{{< gist "aspose-words-gists" "8711210cb6f2a5d46bbbb10dd9982c58" "form-fields-font-formatting.py" >}}
+
+## Related APIs
+
+- [FormFieldCollection](https://reference.aspose.com/words/python-net/aspose.words.fields/formfieldcollection/)
+- [FormField](https://reference.aspose.com/words/python-net/aspose.words.fields/formfield/)
+- [DocumentBuilder.insert_text_input](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_text_input/)
+- [DocumentBuilder.insert_check_box](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_check_box/)
+- [DocumentBuilder.insert_combo_box](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_combo_box/)
+- [Range.form_fields](https://reference.aspose.com/words/python-net/aspose.words/range/form_fields/)

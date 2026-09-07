@@ -32,7 +32,7 @@ To encrypt a document, use the **password** property to provide a password that 
 
 {{% alert color="primary" %}}
 
-You can find the appropriate **password** property for the required format. Each document save format in the [aspose.words.saving](https://reference.aspose.com/words/python-net/aspose.words.saving/) module has a corresponding class containing save options for this format. For example, the [password](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/password/) property in the [DocSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/) class for DOC, or the [password](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/password/) property in the [OoxmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/) class for DOCX, DOCM, DOTX, DOTM, and FlatOpc.
+You can find the appropriate **Password** property for the required format. Each document save format in the [aspose.words.saving](https://reference.aspose.com/words/python-net/aspose.words.saving/) has a corresponding class containing save options for this format. For example, the [password](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/password/) property in the [DocSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/) class for DOC, or the [password](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/password/) property in the [OoxmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/) class for DOCX, DOCM, DOTX, DOTM, and FlatOpc.
 
 {{% /alert %}}
 
@@ -49,25 +49,11 @@ The table below lists the formats and encryption algorithms supported by Aspose.
 | DOC, DOT                                                     | XOR encryption40-bit RC4 EncryptionCryptoAPI RC4 Encryption | RC4 Encryption (40-bit)                      |
 | DOCX, DOTX, DOCM, DOTM, FlatOPC, FlatOpcTemplate, FlatOpcMacroEnabled, FlatOpcTemplateMacroEnabled | ECMA-376 Standard EncryptionECMA-376 Agile Encryption       | ECMA-376 Standard Encryption (AES128 + SHA1) |
 | ODT, OTT                                                     | ODF Encryption (Blowfish/AES)                               | ODF Encryption (AES256 + SHA256)             |
-| PDF |                                                        | RC4 Encryption (40/128 bit)                  |
+| PDF | -                                                           | RC4 Encryption (40/128 bit)                  |
 
 The following code example shows how to encrypt a document with a password:
 
-{{< highlight python >}}
-import aspose.words as aw
-
-# Create a document.
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-builder.write("Hello world!")
-
-# DocSaveOptions only applies to Doc and Dot save formats.
-options = aw.saving.DocSaveOptions(aw.SaveFormat.DOC);
-
-// Set a password with which the document will be encrypted, and which will be required to open it.
-options.password = "MyPassword"
-doc.save(artifacts_dir + "DocSaveOptions.SaveAsDoc.doc", options)
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "6548546f98bd830e363bbb567b114850" "encrypt-document-with-password.py" >}}
 
 ## Check If a Document Is Encrypted
 
@@ -77,22 +63,7 @@ To detect if a document is encrypted and if a password is required, you can use 
 
 The following code example shows how to detect the document encryption:
 
-{{< highlight python >}}
-import aspose.words as aw
-
-# Create a document.
-doc = aw.Document()
-saveOptions = aw.saving.OdtSaveOptions(aw.SaveFormat.ODT)
-saveOptions.password = "MyPassword"
-
-doc.Save(artifacts_dir + "File.DetectDocumentEncryption.odt", saveOptions)
-            
-# Create a `FileFormatInfo` object for this document.
-info = aw.FileFormatUtil.detect_file_format(artifacts_dir + "File.DetectDocumentEncryption.odt")
-
-# Verify the encryption status of our document.
-self.assertTrue(info.is_encrypted)
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "6548546f98bd830e363bbb567b114850" "verify-encrypted-document.py" >}}
 
 ## Open a Document With or Without a Password
 
@@ -100,53 +71,46 @@ When we have made sure that a document is encrypted, we can try to open this doc
 
 The following code example shows how to try opening an encrypted document without a password:
 
-{{< highlight python >}}
-import aspose.words as aw
-
-# Create a document.
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-builder.write("Hello world!")
-
-# OoxmlSaveOptions only applies to Docx, Docm, Dotx, Dotm, or FlatOpc formats.
-options = aw.saving.OoxmlSaveOptions(aw.SaveFormat.DOCX)
-
-# Set a password with which the document will be encrypted, and which will be required to open it.
-options.password = "MyPassword"
-doc.Save(artifacts_dir + "OoxmlSaveOptions.SaveAsDocx.docx", options)
-
-# We will not be able to open this document with Microsoft Word or
-# Aspose.Words without providing the correct password.
-# The following line will throw an exception.
-doc = aw.Document(artifacts_dir + "OoxmlSaveOptions.Password.docx"))
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "6548546f98bd830e363bbb567b114850" "load-encrypted-document-without-password.py" >}}
 
 After we have seen that an encrypted document cannot be opened without a password, we can try to open it by entering the password.
 
 The following code example shows how to try opening an encrypted document with a password:
 
-{{< highlight python >}}
-import aspose.words as aw
+{{< gist "aspose-words-gists" "6548546f98bd830e363bbb567b114850" "load-save-encrypted-document.py" >}}
 
-# Create a document.
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc)
-builder.write("Hello world!")
+## Limitations and Considerations
 
-# OoxmlSaveOptions only applies to Docx, Docm, Dotx, Dotm, or FlatOpc formats.
-options = aw.saving.OoxmlSaveOptions(aw.SaveFormat.DOCX)
+This section covers specific constraints and important considerations for document encryption using Aspose.Words:
 
-# Set a password with which the document will be encrypted, and which will be required to open it.
-options.password = "MyPassword"
-doc.Save(artifacts_dir + "OoxmlSaveOptions.SaveAsDocx.docx", options)
+- **Encryption is write-only**: Once a document is loaded and then saved with encryption, the original unencrypted content is no longer retained in memory. There is no way to extract or retrieve the original plaintext from an encrypted document in Aspose.Words.
 
-# Open the encrypted document by passing the correct password in a `LoadOptions` object.
-doc = aw.Document(artifacts_dir + "OoxmlSaveOptions.Password.docx", aw.loading.LoadOptions("MyPassword"))
+- **Encryption algorithm selection**: Aspose.Words does not expose a direct property to choose the encryption algorithm. The algorithm used depends on the output format and save options:
+  - For DOC: RC4 40-bit.
+  - For DOCX/DOTX/DOCM/DOTM/FlatOPC: ECMA-376 Standard Encryption using AES128 + SHA1.
+  - For ODT/OTT: ODF Encryption using AES256 + SHA256.
+  - For PDF: RC4 40-bit or 128-bit, depending on save options.
 
-self.assertEqual("Hello world!", doc.get_text().strip())
-{{< /highlight >}}
+- **Password policies are not enforced**: Aspose.Words does not validate or enforce password strength or complexity. It is the application developer’s responsibility to enforce appropriate password policies if required.
 
------- 
+- **Encryption header compatibility**: While Aspose.Words supports decrypting documents created by other tools (e.g., Microsoft Word) if the correct password is known, encryption compatibility is guaranteed only for documents created with Aspose.Words. interoperability with third-party implementations may vary.
+
+- **No encryption support for all formats**: Not all document formats support encryption. Examples of unsupported formats include RTF, HTML, MHTML, and image formats.
+
+- **Password protection applies only to saving**: Setting a password in save options does not protect an already-loaded document from being modified or saved again without encryption. Each `Save` call must explicitly include encrypted save options to ensure protection.
+
+- **No support for multiple encryption layers**: Aspose.Words does not support applying multiple encryption layers to the same document. Over-encryption (e.g., encrypting an already encrypted document) requires re-saving with a new password and will use the algorithm defined for the output format.
+
+- **Loading encrypted documents with invalid password**: When loading an encrypted document using `Document` constructor with an incorrect password, Aspose.Words throws an `IncorrectPasswordException`. Applications should handle this exception to provide appropriate user feedback.
+
+- **FlatOpc variants**: FlatOpc, FlatOpcTemplate, FlatOpcMacroEnabled, and FlatOpcTemplateMacroEnabled formats use the same encryption mechanism as DOCX (ECMA-376 Standard), but they are not editable in all word processors without conversion to the native DOCX structure.
+
+## Related APIs
+
+- [DocSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/) — Save options for DOC/DOT formats, includes [Password](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/password/) property.
+- [OoxmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/) — Save options for DOCX, DOTX, DOCM, DOTM, and FlatOpc formats, includes [Password](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/password/) property.
+- [FileFormatInfo](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/) — Contains [IsEncrypted](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/is_encrypted/) property to detect encryption.
+- [IncorrectPasswordException](https://reference.aspose.com/words/python-net/aspose.words/incorrectpasswordexception/) — Exception thrown when an incorrect password is provided for an encrypted document. 
 
 ## FAQ
 

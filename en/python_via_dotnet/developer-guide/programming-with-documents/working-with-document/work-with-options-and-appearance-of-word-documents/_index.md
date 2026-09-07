@@ -32,7 +32,7 @@ You can control how a document will be displayed in Microsoft Word using the [Vi
 
 The following code example shows how to ensure that a document is displayed at 50% when opened in Microsoft Word:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_options_and_settings-SetViewOption.py" >}}
+{{< gist "aspose-words-gists" "43e7d4d62794abe1e98938ae1658dc79" "set-view-option.py" >}}
 
 {{% alert color="primary" %}}
 
@@ -58,7 +58,7 @@ In Microsoft Word, you can set the same parameters using the "Document Grid" tab
 
 The following code example shows how to set the number of characters per line and the number of lines per page for a Microsoft Word document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_options_and_settings-DocumentPageSetup.py" >}}
+{{< gist "aspose-words-gists" "43e7d4d62794abe1e98938ae1658dc79" "document-page-setup.py" >}}
 
 ## Set Language Preferences
 
@@ -68,27 +68,33 @@ With Aspose.Words, you can also set up language preferences using the [LanguageP
 
 {{% alert color="primary" %}}
 
-If your Aspose.Words generated document does not look as expected, check the [language_preferences](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/language_preferences/) and [msw_version](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/msw_version/) values and adjust them if necessary to match the settings for your Microsoft Word version.
+If your Aspose.Words generated document does not look as expected, check the **LanguagePreferences** and **MswVersion** values and adjust them if necessary to match the settings for your Microsoft Word version.
 
 {{% /alert %}}
 
 The following code example shows how to add Japanese to editing languages:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_options_and_settings-AddJapaneseAsEditinglanguages.py" >}}
+{{< gist "aspose-words-gists" "41c71acaf4924abe47f4bc2ff2c87d6a" "add-editing-language.py" >}}
 
 The following code example shows how to set Russian as the default editing language:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_options_and_settings-SetRussianAsDefaultEditingLanguage.py" >}}
+{{< gist "aspose-words-gists" "43e7d4d62794abe1e98938ae1658dc79" "set-russian-as-default-editing-language.py" >}}
 
 ## Optimize a Document for a Particular Word Version
 
-The [optimize_for](https://reference.aspose.com/words/python-net/aspose.words.settings/compatibilityoptions/optimize_for/) method allows optimizing document content, as well as default Aspose.Words behaviour for a particular version of Microsoft Word. You can use this method to prevent Microsoft Word from displaying the “Compatibility mode” ribbon upon document loading. Note that you may also need to set the [compliance](https://reference.aspose.com/words/python-net/aspose.words.document/compliance/) property to [ISO2950_2008_TRANSITIONAL](https://reference.aspose.com/words/python-net/aspose.words.saving.ooxmlcompliance/#iso29500_2008_transitional) or higher.
+The [optimize_for](https://reference.aspose.com/words/python-net/aspose.words.settings/compatibilityoptions/optimize_for/) method allows optimizing document content, as well as default Aspose.Words behaviour for a particular version of Microsoft Word. You can use this method to prevent Microsoft Word from displaying the “Compatibility mode” ribbon upon document loading. Note that you may also need to set the `Compliance` property to Iso29500_2008_Transitional or higher.
 
 The following code example shows how to optimize document content for Microsoft Word 2016:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_options_and_settings-OptimizeForMsWord.py" >}}
+{{< gist "aspose-words-gists" "43e7d4d62794abe1e98938ae1658dc79" "optimize-for.py" >}}
 
------- 
+## Related APIs
+
+- [ViewOptions](https://reference.aspose.com/words/python-net/aspose.words.settings/viewoptions/)
+- [PageSetup](https://reference.aspose.com/words/python-net/aspose.words/pagesetup/)
+- [LanguagePreferences](https://reference.aspose.com/words/python-net/aspose.words.loading/languagepreferences/)
+- [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/)
+- [CompatibilityOptions](https://reference.aspose.com/words/python-net/aspose.words.settings/compatibilityoptions/) 
 
 ## FAQ
 

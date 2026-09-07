@@ -56,7 +56,12 @@ After installing the package, Aspose.Words will find these fonts in the folderso
 
 - [Liberation Fonts](https://pagure.io/liberation-fonts)as an alternative to standard Windows fonts
 
------- 
+## Related APIs
+
+- [FontSettings](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/)
+- [FontSettings.SetFontsSources()](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/)
+- [FontSubstitutionSettings](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsubstitutionsettings/)
+- [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) 
 
 ## FAQ
 
@@ -69,7 +74,7 @@ After installing the package, Aspose.Words will find these fonts in the folderso
    ```python
    import aspose.words as aw
 
-   font_settings = aw.FontSettings()
+   font_settings = aw.fonts.FontSettings()
    font_settings.set_fonts_folder("/home/user/custom_fonts", True)   # True = search sub‑folders
 
    doc = aw.Document("input.docx")

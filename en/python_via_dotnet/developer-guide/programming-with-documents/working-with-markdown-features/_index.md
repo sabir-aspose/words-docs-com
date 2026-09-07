@@ -46,7 +46,7 @@ There are nuances of translating Markdown to the Aspose.Words Document Object Mo
 
 This section demonstrates you how to produce a markdown document with emphases as given below:
 
-{{< highlight csharp >}}
+{{< highlight python >}}
 Markdown treats asterisks (*) and underscores (_) as indicators of emphasis.
 You can write **bold** or *italic* text. 
 You can also write ***BoldItalic*** text.
@@ -54,13 +54,13 @@ You can also write ***BoldItalic*** text.
 
 The following code snippet can be used to produce the above given markdown document.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-Emphases.py" >}}
+{{< gist "aspose-words-gists" "59b74012ce4fe6ada2c9c5f036df3911" "emphases.py" >}}
 
 ## Markdown Document with Headings
 
 This section demonstrates you how to produce a markdown document with headings as given below:
 
-{{< highlight csharp >}}
+{{< highlight python >}}
 The following produces headings:
 # Heading1
 ## Heading2
@@ -73,48 +73,40 @@ The following produces headings:
 
 The following code snippet can be used to produce the above given markdown document.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-Headings.py" >}}
+{{< gist "aspose-words-gists" "9d58f66f28ab6fd0b0b6ae4222cc71a4" "heading.py" >}}
 
 ## Markdown Document with Block Quotes
 
 This section demonstrates you how to produce a markdown document with block quotes as given below:
 
-{{< highlight csharp >}}
-We support blockquotes in Markdown:
->*Lorem*
->*ipsum*
->The quotes can be of any level and can be nested:
->>>Quote level 3
->>>
->>>>Nested quote level 4
->
->*Back to first level*
->### Headings are allowed inside Quotes
+{{< highlight python >}}
+> *Blockquote*
+>> *1. Nested blockquote*
+>>
 >{{< /highlight >}}
 
 The following code snippet can be used to produce the above given markdown document.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-BlockQuotes.py" >}}
+{{< gist "aspose-words-gists" "9d58f66f28ab6fd0b0b6ae4222cc71a4" "quote.py" >}}
 
 ## Markdown Document with Horizontal Rule
 
 This section demonstrates you how to produce a markdown document with Horizontal Rule as given below:
 
-{{< highlight csharp >}}
-We support Horizontal rules (Thematic breaks) in Markdown:
+{{< highlight python >}}
+Insert a horizontal rule shape into the document.
 -----
-
 {{< /highlight >}}
 
 The following code snippet can be used to produce the above given markdown document.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-HorizontalRule.py" >}}
+{{< gist "aspose-words-gists" "664d989412b46c6a03619182c5a4b9cd" "insert-horizontal-rule.py" >}}
 
 ## Reading a Markdown Document
 
 The following code snippet shows you how to read a markdown document.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-ReadMarkdownDocument.py" >}}
+{{< gist "aspose-words-gists" "59b74012ce4fe6ada2c9c5f036df3911" "read-markdown-document.py" >}}
 
 ## Specify Markdown Save Options
 
@@ -122,15 +114,13 @@ Aspose.Words API provides [MarkdownSaveOptions](https://reference.aspose.com/wor
 
 The following code example demonstrated how to specify various Markdown save options.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-base_conversions-SaveToMarkdownDocument.py" >}}
+{{< gist "aspose-words-gists" "461290170d82b0922d265fa7bc854942" "images-folder.py" >}}
 
 ## How to Align Content Inside the Table while Exporting into Markdown
 
 Aspose.Words API provides[TableContentAlignment](https://reference.aspose.com/words/python-net/aspose.words.saving/tablecontentalignment/) enumeration which defines alignment directions to align contents in tables while exporting into the Markdown document. The following code example demonstrates how to align content inside the table.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_markdown_save_options-ExportIntoMarkdownWithTableContentAlignment.py" >}}
-
-------  
+{{< gist "aspose-words-gists" "59b74012ce4fe6ada2c9c5f036df3911" "markdown-table-content-alignment.py" >}}  
 
 ## FAQ
 

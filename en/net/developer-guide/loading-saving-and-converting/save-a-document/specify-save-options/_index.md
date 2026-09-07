@@ -89,9 +89,6 @@ The following code example shows how to save a black and white image with one bi
 
 ## Related APIs
 
-
-The following APIs are related to specifying save options:
-
 - [SaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/) — Base class for all save options.
 - [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) — Save options for PDF output.
 - [ImageSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/) — Save options for image output.

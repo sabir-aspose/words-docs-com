@@ -24,7 +24,7 @@ This page explains how to use Aspose.Words for Python via .NET to create and man
 
 {{% /alert %}}
 
-Sometimes you might want to give access to interface controls that run code to modify documents. Aspose.Words API provides the [webextensions](https://reference.aspose.com/words/python-net/aspose.words.webextensions/) module, which grants various classes to customize elements and attributes extending the XML vocabulary for representing Office Add-ins.
+Sometimes you might want to give access to interface controls that run code to modify documents. Aspose.Words API provides the `WebExtensions` namespace, which grants various classes to customize elements and attributes extending the XML vocabulary for representing Office Add-ins.
 
 WebExtensions namespace can be conditionally divided into:
 
@@ -45,15 +45,13 @@ Aspose.Words provides the ability to add Web Extensions of the Task Pane type us
 
 The following code example shows how to create task panes and add to web extension task panes with basic properties:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_web_extension-UsingWebExtensionTaskPanes.py" >}}
+{{< gist "aspose-words-gists" "0d4493eaacf1b7e556c97519f4f22763" "web-extension-task-panes.py" >}}
 
 To see a list of task pane add‑ins, use the [web_extension_task_panes](https://reference.aspose.com/words/python-net/aspose.words/document/web_extension_task_panes/) property.
 
-The following code example shows how to get such a list of add‑ins:
+The following code example shows how to get such a list of add-ins:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_web_extension-GetListOfAddins.py" >}}
-
------- 
+{{< gist "aspose-words-gists" "0d4493eaacf1b7e556c97519f4f22763" "get-list-of-addins.py" >}} 
 
 ## FAQ
 

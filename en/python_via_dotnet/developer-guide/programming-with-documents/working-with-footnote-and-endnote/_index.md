@@ -26,13 +26,13 @@ Aspose.Words also provides some classes, methods and properties for working with
 
 ## Insert Endnote and Set Numbering Options
 
-If you want to insert footnote or endnote in Word document, please use [insert_footnote](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_footnote/) method. This method inserts a footnote or endnote into the document.
+If you want to insert footnote or endnote into Word document, please use the [insert_footnote](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_footnote/) method. This method inserts a footnote or endnote into the document.
 
 [EndnoteOptions](https://reference.aspose.com/words/python-net/aspose.words.notes/endnoteoptions/) and [FootnoteOptions](https://reference.aspose.com/words/python-net/aspose.words.notes/footnoteoptions/) classes represent numbering options for footnote and endnote.
 
 The following code example shows how to insert endnote into the document and set its numbering options:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_footnote_and_endnote-SetEndnoteOptions.py" >}}
+{{< gist "aspose-words-gists" "9755a1e00eb469cb6e4195b451466eb1" "set-endnote-options.py" >}}
 
 ## Set Number of Footnote Layout Columns
 
@@ -40,7 +40,7 @@ You can set the number of footnote layout columns using the [columns](https://re
 
 The following code example shows how to set the number of columns for footnote layout:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_footnote_and_endnote-SetFootNoteColumns.py" >}}
+{{< gist "aspose-words-gists" "9755a1e00eb469cb6e4195b451466eb1" "set-footnote-columns.py" >}}
 
 ## Set the Position of Footnote and EndNote
 
@@ -48,4 +48,4 @@ The footnote position can be at the bottom of each page or beneath the text on e
 
 The following code example shows how to set the position of footnote and endnote:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_footnote_and_endnote-SetFootnoteAndEndNotePosition.py" >}}
+{{< gist "aspose-words-gists" "9755a1e00eb469cb6e4195b451466eb1" "set-footnote-and-endnote-position.py" >}}

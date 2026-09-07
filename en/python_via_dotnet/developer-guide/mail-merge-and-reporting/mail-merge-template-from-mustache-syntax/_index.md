@@ -75,7 +75,7 @@ For example, you can use `IF` fields if you need to insert “his”, “her”,
 
 The following code example shows how to perform a Mail Merge operation with Mustache tags and `IF` fields:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Mail Merge and Reporting-base_operations-UseOfifelseMustacheSyntax.py" >}}
+{{< gist "aspose-words-gists" "0248459a838c99547f18bfa5a43ae684" "use-if-else-mustache.py" >}}
 
 You can notice the difference between the document before applying the [use_non_merge_fields](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/use_non_merge_fields/) property:
 
@@ -84,3 +84,11 @@ You can notice the difference between the document before applying the [use_non_
 And after applying the [use_non_merge_fields](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/use_non_merge_fields/) property:
 
 <img src="mustache-if-field-2.png" alt="mustache-if-field-2.png" style="width:800px"/>
+
+## Related APIs
+
+- [`aspose.words.Document`](https://reference.aspose.com/words/python-net/aspose.words/document/)
+- [`aspose.words.mailmerging.MailMerge`](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/)
+- [`use_non_merge_fields`](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/use_non_merge_fields/)
+- [`execute_with_regions`](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/execute_with_regions/)
+- [`aspose.words.LoadFormat`](https://reference.aspose.com/words/python-net/aspose.words/loadformat/)

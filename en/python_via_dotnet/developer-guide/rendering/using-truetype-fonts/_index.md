@@ -24,20 +24,16 @@ When working with documents, you often have to use different fonts, styles, and 
 
 Sometimes, information about the fonts being used is embedded in the document, eliminating display problems during document transfer. In some other cases, only the font name is known, which does not guarantee that the document will look the same way on another computer. In this case, Aspose.Words can find the right font or its suitable replacement, if the required font cannot be found, for correct rendering.
 
-
-
------- 
-
 ## FAQ
 
 1. **Q:** How can I load TrueType fonts that are stored in a custom folder?  
-   **A:** Use the `FontSettings` class to point Aspose.Words to the folder that contains your fonts. Set the folder with `SetFontsFolder` and assign the `FontSettings` object to the `Document` instance.
+   **A:** Use the `FontSettings` class to point Aspose.Words to the folder that contains your fonts. Set the folder with `set_fonts_folder` and assign the `FontSettings` object to the `Document` instance.
 
    ```python
    import aspose.words as aw
 
    # Create a FontSettings object
-   font_settings = aw.FontSettings()
+   font_settings = aw.fonts.FontSettings()
    # Specify the folder that contains your TrueType fonts
    font_settings.set_fonts_folder(r"C:\MyCustomFonts", False)
 

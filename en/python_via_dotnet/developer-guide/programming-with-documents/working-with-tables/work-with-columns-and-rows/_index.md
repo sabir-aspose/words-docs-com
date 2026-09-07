@@ -23,11 +23,11 @@ This page shows how to manipulate table columns and rows using Aspose.Words for 
 
 For more control over how tables work, learn how to manipulate columns and rows.
 
-## Finding the Table Element Index
+## Find the Table Element Index {#find-the-index-of-table-elements}
 
 Columns, rows and cells are managed by accessing the selected document node by its index. Finding the index of any node involves gathering all child nodes of the element type from the parent node, and then using the [IndexOf](https://reference.aspose.com/words/python-net/aspose.words/nodecollection/index_of/) method to find the index of the desired node in the collection.
 
-### Finding the Index of a Table in a Document
+### Find the Index of a Table in a Document {#find-the-index-of-table-in-a-document}
 
 Sometimes you may need to make changes to a particular table in a document. To do this, you can refer to a table by its index.
 
@@ -35,7 +35,7 @@ The following code example shows how to retrieve the index of a table in a docum
 
 {{< gist "aspose-words-gists" "212655df045ed6557d6a9b8ea875d8e9" "retrieve-table-index.py" >}}
 
-### Finding the Index of a Row in a Table
+### Find the Index of a Row in a Table {#find-the-index-of-a-row-in-a-table}
 
 Similarly, you may need to make changes to a specific row in a selected table. To do this, you can also refer to a row by its index.
 
@@ -43,7 +43,7 @@ The following code example showshow to retrieve the index of a row in a table:
 
 {{< gist "aspose-words-gists" "212655df045ed6557d6a9b8ea875d8e9" "retrieve-row-index.py" >}}
 
-### Finding the Index of a Cell in a Row
+### Find the Index of a Cell in a Row {#find-the-index-of-a-cell-in-a-row}
 
 Finally, you may need to make changes to a specific cell, and you can do this by cell index as well.
 
@@ -51,7 +51,7 @@ The following code example shows how to retrieve the index of a cell in a row:
 
 {{< gist "aspose-words-gists" "212655df045ed6557d6a9b8ea875d8e9" "retrieve-cell-index.py" >}}
 
-## Work with Columns
+## Work with Columns {#work-with-columns}
 
 In the Aspose.Words Document Object Model (DOM), the [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) node consists of [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) nodes and then [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) nodes. Thus, in the `Document` Object Model of Aspose.Words, as in Word documents, there is no concept of a column.
 
@@ -91,7 +91,7 @@ The following code example shows how to build a table which includes Header Rows
 
 {{< gist "aspose-words-gists" "212655df045ed6557d6a9b8ea875d8e9" "repeat-rows-on-subsequent-pages.py" >}}
 
-## Keep Tables and Rows from Breaking across Pages
+## Keep Tables and Rows from Breaking Across Pages {#keep-tables-and-rows-from-breaking-across-pages}
 
 There are times where the contents of a table should not be split across pages. For instance, if a title is above a table, the title and table should always be kept together on the same page to preserve proper appearance.
 
@@ -102,7 +102,7 @@ There are two separate techniques that are useful to achieve this functionality:
 
 By default, the above properties are disabled.
 
-### Keep a Row from Breaking Across Pages
+### Keep a Row from Breaking Across Pages {#keep-a-row-from-breaking-across-pages}
 
 This involves restricting content inside the cells of a row from being split across a page. In Microsoft Word, this can found under Table Properties as the option “Allow row to break across pages”.In Aspose.Words this is found under the [RowFormat](https://reference.aspose.com/words/python-net/aspose.words.tables/rowformat/) object of a [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) as the property [RowFormat.AllowBreakAcrossPages](https://reference.aspose.com/words/python-net/aspose.words.tables/rowformat/allow_break_across_pages/).
 
@@ -116,7 +116,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% /alert %}}
 
-### Keep a Table from Breaking Across Pages
+### Keep a Table from Breaking Across Pages {#keep-a-table-from-breaking-across-pages}
 
 To stop the table from splitting across pages, we need to specify that we want the content contained within the table to stay together.
 
@@ -132,7 +132,15 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% /alert %}}
 
------- 
+## Related APIs
+
+- [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/)
+- [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/)
+- [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/)
+- [RowFormat.heading_format](https://reference.aspose.com/words/python-net/aspose.words.tables/rowformat/heading_format/)
+- [RowFormat.allow_break_across_pages](https://reference.aspose.com/words/python-net/aspose.words.tables/rowformat/allow_break_across_pages/)
+- [ParagraphFormat.keep_with_next](https://reference.aspose.com/words/python-net/aspose.words/paragraphformat/keep_with_next/)
+- [NodeCollection.index_of](https://reference.aspose.com/words/python-net/aspose.words/nodecollection/index_of/)
 
 ## FAQ
 

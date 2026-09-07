@@ -44,38 +44,13 @@ The feature of exporting a multi-page document to an image is implemented using 
 
 The following code example shows how to save a multi-page DOCX document as JPEG image with Horizontal layout:
 
-{{< highlight csharp >}}
-doc = aw.Document(file_name='Rendering.docx')
-
-options = aw.saving.ImageSaveOptions(aw.SaveFormat.JPEG)
-# Set up Horizontal layout.
-options.page_layout = MultiPageLayout.Horizontal(10);
-
-doc.save(file_name='ImageSaveOptions.GridLayout.jpg', save_options=options)
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "8f2e59fbb276c13266e61f6384b6cbba" "horizontal-layout.py" >}}
 
 You can also customize the output file page appearance – specify [back_color](https://reference.aspose.com/words/python-net/aspose.words.saving/multipagelayout/back_color/), [border_color](https://reference.aspose.com/words/python-net/aspose.words.saving/multipagelayout/border_color/), and [border_width](https://reference.aspose.com/words/python-net/aspose.words.saving/multipagelayout/border_width/).
 
 The following code example shows how to save a multi-page DOCX document as PNG image with Grid layout:
 
-{{< highlight csharp >}}
-doc = aw.Document(file_name='Rendering.docx')
-
-options = aw.saving.ImageSaveOptions(aw.SaveFormat.PNG)
-# Set up a grid layout with:
-# - 3 columns per row.
-# - 10pts spacing between pages (horizontal and vertical).
-options.page_layout = aw.saving.MultiPageLayout.grid(3, 10, 10)
-
-# Customize the background and border.
-options.page_layout.back_color = aspose.pydrawing.Color.light_gray
-options.page_layout.border_color = aspose.pydrawing.Color.blue
-options.page_layout.border_width = 2
-
-doc.save(file_name='ImageSaveOptions.GridLayout.png', save_options=options)
-{{< /highlight >}}
-
------- 
+{{< gist "aspose-words-gists" "8f2e59fbb276c13266e61f6384b6cbba" "grid-layout.py" >}} 
 
 ## FAQ
 

@@ -20,7 +20,7 @@ timestamp: 2026-02-03-11-08-55
 This page demonstrates how to use Aspose.Words for Python via .NET to format fonts, retrieve line spacing, and apply emphasis marks, providing code examples for each operation.
 {{% /alert %}}
 
-A font is a set of characters with a certain size, color, and design. Aspose.Words allows you to work with fonts using the [fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/) module and the [Font](https://reference.aspose.com/words/python-net/aspose.words/font/) class.
+A font is a set of characters with a certain size, color, and design. Aspose.Words allows you to work with fonts using the [fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/) namespace and the [Font](https://reference.aspose.com/words/python-net/aspose.words/font/) class.
 
 ## Font Formatting
 
@@ -28,22 +28,22 @@ The current font formatting is represented by the **Font** object returned by th
 
 The following code example shows how to set font formatting:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-DocumentBuilderSetFontFormatting.py" >}}
+{{< gist "aspose-words-gists" "6f1507edd307e59ceb7d5a73afa61526" "set-font-formatting.py" >}}
 
-Fill properties now are also available for fonts to set fill formatting of text. It gives an ability to change, for example, the foreground color or transparency of text fill.
+Fill properties are also available for fonts to set text fill formatting. This makes it possible to change, for example, the foreground color or the transparency of the text fill.
 
 ## Getting Font Line Spacing
 
 Font line spacing is the vertical distance between the baselines of two consecutive lines of text. So line spacing includes the blank space between lines along with the height of the character itself.
 
-The [line_spacing](https://reference.aspose.com/words/python-net/aspose.words/font/line_spacing/) property was introduced in the [Font](https://reference.aspose.com/words/python-net/aspose.words/font/) class to obtain this value as shown in the example given below:
+The [line_spacing](https://reference.aspose.com/words/python-net/aspose.words/font/line_spacing/) property was introduced to the **Font** class to obtain this value, as shown in the example below:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-GetFontLineSpacing.py" >}}
+{{< gist "aspose-words-gists" "6f1507edd307e59ceb7d5a73afa61526" "get-font-line-spacing.py" >}}
 
 ## FontEmphasisMark
 
-Some East Asian languages use a special emphasis mark to indicate an emphasis. The **Font** class provides the [emphasis_mark](https://reference.aspose.com/words/python-net/aspose.words/font/emphasis_mark/) property to get or set [EmphasisMark](https://reference.aspose.com/words/python-net/aspose.words/emphasismark/) enumeration values to be applied in the formatting.
+Some East Asian languages use a special emphasis mark to indicate an emphasis. The **Font** class provides the [emphasis_mark](https://reference.aspose.com/words/python-net/aspose.words/font/emphasis_mark/) property to get or set the [EmphasisMark](https://reference.aspose.com/words/python-net/aspose.words/emphasismark/) enumeration values to be applied when formatting.
 
 The following code example shows how to set the **EphasisMark** property:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-SetFontEmphasisMark.py" >}}
+{{< gist "aspose-words-gists" "6f1507edd307e59ceb7d5a73afa61526" "set-font-emphasis-mark.py" >}}

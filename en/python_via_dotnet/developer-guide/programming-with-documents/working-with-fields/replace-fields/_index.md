@@ -21,7 +21,7 @@ This page explains how to use Aspose.Words for Python via .NET to convert docume
 
 {{% /alert %}}
 
-Replacing fields is often required when you wish to save your document as a static copy. For example, when sending as an attachment in an e‑mail. Converting fields such as `DATE` or `TIME` to static text will allow the document to display the same date as when it was sent. Also, in some situations, you may need to remove the conditional `IF` fields from your document and replace them with the most recent text result instead. For example, converting the result of the `IF` field to static text so it will no longer dynamically change its value when fields in the document are updated.
+Replacing fields is often required when you wish to save your document as a static copy. For example, when sending as an attachment in an e-mail. Converting fields such as `DATE` or `TIME` to static text will allow the document to display the same date as when it was sent. Also, in some situations, you may need to remove the conditional `IF` fields from your document and replace them with the most recent text result instead. For example, converting the result of the `IF` field to static text so it will no longer dynamically change its value when fields in the document are updated.
 
 The diagram below shows how the `IF` field is stored in a document:
 
@@ -32,7 +32,7 @@ The diagram below shows how the `IF` field is stored in a document:
 
 ![update-remove-a-field-aspose-words](updating-and-removing-a-field-1.png)
 
-The structure can also be seen below in hierarchical form using the [demo project *“DocumentExplorer”*](https://github.com/aspose-words/Aspose.Words-for-.NET)*.*
+The structure can also be seen below in hierarchical form using the [demo project *“DocumentExplorer”*](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Examples/DocsExamples/DocumentExplorer)*.*
 
 ![update-remove-a-field-aspose-words-2](updating-and-removing-a-field-2.png)
 
@@ -46,29 +46,29 @@ However, in the header, the `PAGE` field translates well to static run of text. 
 
 The following code example shows how to replace the field with its most recent result:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "e36d72df7a15934d02a89f614188a967" "unlink-fields.py" >}}
 
 ## Convert Certain Field Types in Specific Document Parts
 
-Since the **ConvertFieldsToStaticText** method accepts two parameters – the [CompositeNode](https://reference.aspose.com/words/python-net/aspose.words/compositenode/) properties and the [FieldType](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldtype/) enumeration, it is possible to pass any composite node to this method. This allows fields to be converted to static text only in specific parts of the document.
+Since the **convert_fields_to_static_text** method accepts two parameters – the [CompositeNode](https://reference.aspose.com/words/python-net/aspose.words/compositenode/) properties and the [FieldType](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldtype/) enumeration, it is possible to pass any composite node to this method. This allows fields to be converted to static text only in specific parts of the document.
 
 For example, you can pass a [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) object and convert fields of the specified type from the entire document to static text, or you can pass a [Body](https://reference.aspose.com/words/python-net/aspose.words/body/) object of a section and only convert the fields found in that body.
 
 {{% alert color="primary" %}}
 
-When passing a block‑level node such as a [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/), be aware that in some cases, fields can span across multiple paragraphs. If this happens it is recommended to pass the parent of the composite instead to avoid this.
+When passing a block-level node such as a [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/), be aware that in some cases, fields can span across multiple paragraphs. If this happens it is recommended to pass the parent of the composite instead to avoid this.
 
 {{% /alert %}}
 
-The [FieldType](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldtype/) enumeration passed to the **ConvertFieldsToStaticText** method specifies what type of fields should be convert to static text. Any other field type found in the document will remain unchanged.
+The [FieldType](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldtype/) enumeration passed to the **convert_fields_to_static_text** method specifies what type of fields should be convert to static text. Any other field type found in the document will remain unchanged.
 
 The following code example shows how to select fields of a specific type – *targetFieldType* in a specific node – *compositeNode* and then convert them to static text:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-FieldsHelper-FieldsHelper.cs" >}}
+{{< gist "aspose-words-gists" "e36d72df7a15934d02a89f614188a967" "convert-fields-to-static-text.py" >}}
 
 The following code example shows how to convert all `IF` fields in a document to static text:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ConvertFieldsInDocument.py" >}}
+{{< gist "aspose-words-gists" "e36d72df7a15934d02a89f614188a967" "unlink-fields-in-document.py" >}}
 
 {{% alert color="primary" %}}
 
@@ -78,13 +78,18 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 The following code  example shows how to convert all `PAGE` fields in a Body of a document to static text:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ConvertFieldsInBody.py" >}}
+{{< gist "aspose-words-gists" "e36d72df7a15934d02a89f614188a967" "unlink-fields-in-body.py" >}}
 
 The following code  example shows how to convert all `IF` fields in the last paragraph to static text:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ConvertFieldsInParagraph.py" >}}
+{{< gist "aspose-words-gists" "e36d72df7a15934d02a89f614188a967" "unlink-fields-in-paragraph.py" >}}
 
-------
+## Related APIs
+
+- [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/)
+- [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/)
+- [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/)
+- [FieldType](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldtype/)
 
 ## FAQ
 

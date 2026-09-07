@@ -39,11 +39,11 @@ Section break is an option that divides document pages into sections with custom
 
 Aspose.Words allows you to split and format documents using different section breaks of the [BreakType](https://reference.aspose.com/words/python-net/aspose.words/breaktype/) enumeration:
 
-- SectionBreakContinuous
-- SectionBreakNewColumn
-- SectionBreakNewPage
-- SectionBreakEvenPage
-- SectionBreakOddPage
+* SectionBreakContinuous
+* SectionBreakNewColumn
+* SectionBreakNewPage
+* SectionBreakEvenPage
+* SectionBreakOddPage
 
 You can also use the [SectionStart](https://reference.aspose.com/words/python-net/aspose.words/sectionstart/) enumeration to choose a break type that applies only for the first section such as NewColumn, NewPage, EvenPage, and OddPage.
 
@@ -55,7 +55,7 @@ On the other hand, you can also use the `DocumentBuilder` API to work with secti
 
 ## Insert or Remove a Section Break
 
-Aspose.Words allows you to insert a section break into text using the [InsertBreak](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_break/#breaktype) method.
+Aspose.Words allows you to insert a section break into text using the [insert_break](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_break/#breaktype) method.
 
 The following code example shows how to insert a section break into a document:
 
@@ -75,7 +75,7 @@ Note that a section break has information about the section that goes before it,
 
 ## Move a Section
 
-If you want to move a section from one position to another in your document, you need to get the index of that section. Aspose.Words allows you to get a section position from a [SectionCollection](https://reference.aspose.com/words/python-net/aspose.words/sectioncollection/). You can use the [Sections](https://reference.aspose.com/words/python-net/aspose.words/document/sections/) property to get all sections in your document. But if you want to get only the first section, you can use the [FirstSection](https://reference.aspose.com/words/python-net/aspose.words/document/first_section/) property.
+If you want to move a section from one position to another in your document, you need to get the index of that section. Aspose.Words allows you to get a section position from a [SectionCollection](https://reference.aspose.com/words/python-net/aspose.words/sectioncollection/) by using the [Item](https://reference.aspose.com/words/python-net/aspose.words/sectioncollection/) property. You can use the [Sections](https://reference.aspose.com/words/python-net/aspose.words/document/sections/) property to get all sections in your document. But if you want to get only the first section, you can use the [FirstSection](https://reference.aspose.com/words/python-net/aspose.words/document/first_section/) property.
 
 The following code example shows how to access the first section and iterate through the children of a composite node:
 
@@ -85,10 +85,10 @@ The following code example shows how to access the first section and iterate thr
 
 Sometimes you want your document to look better by making creative layouts for different document sections. If you want to specify the type of the current section grid, you can choose a section layout mode using the [SectionLayoutMode](https://reference.aspose.com/words/python-net/aspose.words/sectionlayoutmode/) enumeration:
 
-- Default
-- Grid
-- LineGrid
-- SnapToChars
+* Default
+* Grid
+* LineGrid
+* SnapToChars
 
 The following code example shows how to limit the number of lines that each page may have:
 
@@ -165,10 +165,36 @@ The following code example shows how to modify the page properties in all sectio
 
 ## See Also
 
-- [Logical Levels of Nodes in a Document](/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
-- [Insert and Append Documents](/words/python-net/insert-and-append-documents/)
+* [Logical Levels of Nodes in a Document](/words/python-net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
+* [Insert and Append Documents](/words/python-net/insert-and-append-documents/)
 
------- 
+## Limitations and Considerations
+
+- When removing a section break, the section *before* the break adopts the formatting (including page setup, headers, and footers) of the section *after* the break. This is the opposite of what many developers expect. To avoid unintended layout changes, ensure you understand the section order before removal.
+
+- The `ensure_minimum()` method only ensures the presence of a `Body` and at least one `Paragraph`. It does *not* create `HeaderFooter` nodes. To ensure headers/footers exist, call `section.headers_footers.ensure_minimum()` (available since Aspose.Words 22.12+).
+
+- When cloning a Section using `section.clone()`, the resulting section includes all `HeaderFooter` nodes, but they remain linked to the source document's formatting. If inserting the clone into another document, consider calling `header_footer.remove_header_footer_link_to_previous()` (or equivalent) to break inherited formatting.
+
+- When copying sections between documents using `node_importer.import_node()`, specify `aw.ImportFormatMode.KEEP_SOURCE_FORMATTING` to preserve source formatting. Without it, the section may adopt formatting from the target document, potentially causing layout shifts.
+
+- Headers and footers are inherited from the previous section *unless* the current section has its own `HeaderFooter` nodes. To break the inheritance and enable independent editing, create or import a `HeaderFooter` for the desired type (e.g., HeaderFooterType.HEADER_PRIMARY) and ensure the section's `page_setup.different_first_page` and `page_setup.different_odd_even` settings match your intent.
+
+- Section layout modes (via `section.layout_mode`) affect only line grid alignment for East Asian content and have no effect on Western text unless explicitly enabled in `options`.
+
+- When applying SectionStart.NEW_PAGE, SectionStart.EVEN_PAGE, or SectionStart.ODD_PAGE, ensure the preceding section has a closing section break — otherwise, new content may appear on the wrong page.
+
+- A document must contain at least one section. Removing all sections results in an invalid document state and will throw an `InvalidOperationException`.
+
+{{% alert color="primary" %}}
+
+For additional details, see the official documentation:
+- [Section Class](https://reference.aspose.com/words/python-net/aspose.words/section/)
+- [SectionCollection Class](https://reference.aspose.com/words/python-net/aspose.words/sectioncollection/)
+- [PageSetup Class](https://reference.aspose.com/words/python-net/aspose.words/pagesetup/)
+- [HeaderFooter Class](https://reference.aspose.com/words/python-net/aspose.words/headerfooter/)
+
+{{% /alert %}} 
 
 ## FAQ
 

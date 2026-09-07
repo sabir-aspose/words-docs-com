@@ -44,52 +44,7 @@ Use the [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.w
 
 The following code example shows how to create a Mail Merge template:
 
-{{< highlight python >}}
-@staticmethod
-def create_mail_merge_template() :
-    
-    builder = aw.DocumentBuilder()
-    
-    # Insert a text input field the unique name of this field is "Hello", the other parameters define
-    # what type of FormField it is, the format of the text, the field result and the maximum text length (0 = no limit)
-    builder.insert_text_input("TextInput", aw.fields.TextFormFieldType.REGULAR, "", "Hello", 0)
-    builder.insert_field("MERGEFIELD CustomerFirstName \\* MERGEFORMAT")
-    
-    builder.insert_text_input("TextInput1", aw.fields.TextFormFieldType.REGULAR, "", " ", 0)
-    builder.insert_field("MERGEFIELD CustomerLastName \\* MERGEFORMAT")
-    
-    builder.insert_text_input("TextInput1", aw.fields.TextFormFieldType.REGULAR, "", " , ", 0)
-    
-    # Inserts a paragraph break into the document
-    builder.insert_paragraph()
-    
-    # Insert mail body
-    builder.insert_text_input("TextInput", aw.fields.TextFormFieldType.REGULAR, "", "Thanks for purchasing our ", 0)
-    builder.insert_field("MERGEFIELD ProductName \\* MERGEFORMAT")
-    
-    builder.insert_text_input("TextInput", aw.fields.TextFormFieldType.REGULAR, "", ", please download your Invoice at ", 0)
-    builder.insert_field("MERGEFIELD InvoiceURL \\* MERGEFORMAT")
-    
-    builder.insert_text_input("TextInput", aw.fields.TextFormFieldType.REGULAR, "", ". If you have any questions please call ", 0)
-    builder.insert_field("MERGEFIELD Supportphone \\* MERGEFORMAT")
-    
-    builder.insert_text_input("TextInput", aw.fields.TextFormFieldType.REGULAR, "", ", or email us at ", 0)
-    builder.insert_field("MERGEFIELD SupportEmail \\* MERGEFORMAT")
-    
-    builder.insert_text_input("TextInput", aw.fields.TextFormFieldType.REGULAR, "", ".", 0)
-    
-    builder.insert_paragraph()
-    
-    # Insert mail ending
-    builder.insert_text_input("TextInput", aw.fields.TextFormFieldType.REGULAR, "", "Best regards,", 0)
-    builder.insert_break(aw.BreakType.LINE_BREAK)
-    builder.insert_field("MERGEFIELD EmployeeFullname \\* MERGEFORMAT")
-    
-    builder.insert_text_input("TextInput1", aw.fields.TextFormFieldType.REGULAR, "", " ", 0)
-    builder.insert_field("MERGEFIELD EmployeeDepartment \\* MERGEFORMAT")
-    
-    return builder.document
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "a66c4234a53ab6f90df96f76cb549ec1" "create-mail-merge-template.py" >}}
 
 The picture below shows the created template:
 
@@ -99,11 +54,25 @@ The picture below shows the created template:
 
 Aspose.Words allows you to customize your template through many properties. Template customization will be described below through an example of customizing some properties of images and text.
 
+### Customize Image Properties
+
+You can specify the image properties using the [ImageFieldMergingArgs](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/imagefieldmergingargs/) class.
+
+The following code example shows how to specify the image file name and image size:
+
+{{< gist "aspose-words-gists" "a66c4234a53ab6f90df96f76cb549ec1" "image-field-merging.py" >}}
+
+### Customize Text Properties
+
+You can use the [Text](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/fieldmergingargs/text/) property to insert text into the document for the current merge field. Also, you can change the formatting of texts and paragraphs inside your template using [Font](https://reference.aspose.com/words/python-net/aspose.words/font/) and [ParagraphFormat](https://reference.aspose.com/words/python-net/aspose.words/paragraphformat/) classes. You can handle the text to be inserted before or after the merge field by using the [text_before](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldmergefield/text_before/) and [text_after](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldmergefield/text_after/) properties that are included in the [FieldMergeField](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldmergefield/) class.
+
+The following code example shows how to insert Check Boxes or HTML during Mail Merge operation:
+
+{{< gist "aspose-words-gists" "a66c4234a53ab6f90df96f76cb549ec1" "mail-merge-form-fields.py" >}}
+
 ## See Also
 
 * For more details about how to create templates in Microsoft Word manually, please check the [Create a Template](https://support.microsoft.com/en-us/office/save-a-word-document-as-a-template-cb17846d-ecec-49d4-82ea-a6f5e3e8b9ae) article in the Microsoft Documentation
-
-
 
 ------ 
 

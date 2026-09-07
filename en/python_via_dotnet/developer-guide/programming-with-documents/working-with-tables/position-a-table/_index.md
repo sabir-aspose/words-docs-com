@@ -66,7 +66,7 @@ The following code exampleshows how to get the position of a floating table:
 
 Just like getting, you can set the position of a floating table using the same Aspose.Words API.
 
-It is important to know that alignment and horizontal and vertical distance are combined properties and one can reset the other. For example, setting the **RelativeHorizontalAlignment** will reset the **AbsoluteHorizontalDistance** to its default value and vice versa. The same is true for the vertical arrangement.
+It is important to know that alignment and horizontal and vertical distance are combined properties and one can reset the other. For example, setting the **relative_horizontal_alignment** will reset the **AbsoluteHorizontalDistance** to its default value and vice versa. The same is true for the vertical arrangement.
 
 The following code example shows how to set the position of a floating table:
 
@@ -85,7 +85,31 @@ The following code example shows how to get the distance between a table and its
 
 {{< gist "aspose-words-gists" "1768d04dbe9222138611d5ad4047beef" "distance-between-table-surrounding-text.py" >}}
 
------- 
+## Limitations and Considerations
+
+Limitations and considerations for table positioning in Aspose.Words include:
+
+* Horizontal and vertical alignment properties (`RelativeHorizontalAlignment`, `RelativeVerticalAlignment`) and distance properties (`AbsoluteHorizontalDistance`, `AbsoluteVerticalDistance`) are interdependent. Setting one property in each pair will reset the other to its default value.
+* Inline tables can only be positioned using the `Alignment` property and cannot be freely positioned like floating tables.
+* Floating tables require proper anchor setup and their position is always relative to a paragraph anchor, even when using absolute distances.
+* The `AllowOverlap` property only affects the visual layering of floating objects and does not prevent layout conflicts.
+* Distance properties (`DistanceTop`, `DistanceBottom`, etc.) apply to both inline and floating tables but may behave differently depending on text wrapping settings.
+* Table positioning properties only take effect when the document is rendered in a layout-aware context (such as PDF export or print preview).
+
+## Related APIs
+
+- [Table.Alignment](https://reference.aspose.com/words/python-net/aspose.words.tables/table/alignment/)
+- [Table.RelativeHorizontalAlignment](https://reference.aspose.com/words/python-net/aspose.words.tables/table/relative_horizontal_alignment/)
+- [Table.RelativeVerticalAlignment](https://reference.aspose.com/words/python-net/aspose.words.tables/table/relative_vertical_alignment/)
+- [Table.HorizontalAnchor](https://reference.aspose.com/words/python-net/aspose.words.tables/table/horizontal_anchor/)
+- [Table.VerticalAnchor](https://reference.aspose.com/words/python-net/aspose.words.tables/table/vertical_anchor/)
+- [Table.AbsoluteHorizontalDistance](https://reference.aspose.com/words/python-net/aspose.words.tables/table/absolute_horizontal_distance/)
+- [Table.AbsoluteVerticalDistance](https://reference.aspose.com/words/python-net/aspose.words.tables/table/absolute_vertical_distance/)
+- [Table.AllowOverlap](https://reference.aspose.com/words/python-net/aspose.words.tables/table/allow_overlap/)
+- [Table.DistanceTop](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_top/)
+- [Table.DistanceBottom](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_bottom/)
+- [Table.DistanceLeft](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_left/)
+- [Table.DistanceRight](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_right/) 
 
 ## FAQ
 
