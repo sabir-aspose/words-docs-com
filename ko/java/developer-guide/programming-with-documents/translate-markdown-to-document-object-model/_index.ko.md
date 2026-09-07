@@ -56,7 +56,7 @@ Word 문서와 달리 Markdown는 다음에서 설명한 DOM과 일치하지 않
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Autolink.java" >}} |  |
 | **Link**<br />`[링크 텍스트](url)`<br />`[링크 텍스트](<url>"title")`<br />`[링크 텍스트](url 'title')`<br />`[링크 텍스트](url (title))` | [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/)클래스. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Link.java" >}} |  |
-| **Image**<br />`![](/words/java/translate-markdown-to-document-object-model/url)`<br />`![대체 텍스트](/words/java/translate-markdown-to-document-object-model/<url>"title")`<br />`![대체 텍스트](/words/java/translate-markdown-to-document-object-model/url ‘title’)`<br />`![대체 텍스트](/words/java/translate-markdown-to-document-object-model/url (title))` | [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)클래스. |
+| **Image**<br />`![](/words/java/translate-markdown-to-document-object-model/url)`<br />`![대체 텍스트](/words/java/translate-markdown-to-document-object-model/<url>"title")`<br />`![대체 텍스트](/words/java/translate-markdown-to-document-object-model/url ‘title')`<br />`![대체 텍스트](/words/java/translate-markdown-to-document-object-model/url (title))` | [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)클래스. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Image.java" >}} |  |
 
 ## 컨테이너 블록
@@ -85,9 +85,9 @@ Word 문서와 달리 Markdown는 다음에서 설명한 DOM과 일치하지 않
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `ParagraphFormat.StyleName = "Quote[some suffix]"`<br />스타일 이름의 접미사는 선택 사항이지만Aspose.Words수입자는 정렬된 숫자를 사용합니다 1, 2, 3, .... 중첩 된 따옴표의 경우.<br />중첩은 상속된 스타일을 통해 정의됩니다. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Quote.java" >}} |  |
-| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | 글머리 기호 목록은 단락 번호 매기기를 사용하여 표시됩니다:<br />`ListFormat.ApplyBulletDefault()`<br />글머리 기호 목록은 3 가지 유형이 있습니다. 그들은 단지 첫 번째 레벨의 번호 형식으로 차이가 있습니다. 이들은 각각`‘-’`,`‘+’`또는`‘*’`입니다. |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | 글머리 기호 목록은 단락 번호 매기기를 사용하여 표시됩니다:<br />`ListFormat.ApplyBulletDefault()`<br />글머리 기호 목록은 3 가지 유형이 있습니다. 그들은 단지 첫 번째 레벨의 번호 형식으로 차이가 있습니다. 이들은 각각`‘-'`,`‘+'`또는`‘*'`입니다. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BulletedList.java" >}} |  |
-| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | 순서 목록은 단락 번호 매기기를 사용하여 표시됩니다:<br />`ListFormat.ApplyNumberDefault()`<br />‘.’및‘)’의 숫자 형식 마커가 2 개 있을 수 있습니다. 기본 마커는‘.’입니다. |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | 순서 목록은 단락 번호 매기기를 사용하여 표시됩니다:<br />`ListFormat.ApplyNumberDefault()`<br />‘.'및‘)'의 숫자 형식 마커가 2 개 있을 수 있습니다. 기본 마커는‘.'입니다. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-OrderedList.java" >}} |  |
 
 ### 표

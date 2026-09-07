@@ -14,7 +14,7 @@ You can use following steps to uninstall Aspose.Words for SharePoint manually fo
 
 1. On the **Central Administration** Home page, click **System Settings** and then in the **Farm Management** section, click **Manage farm solutions**.
 1. Select **aspose.words.sharepoint.20NN.wsp** solution, and click **Retract Solution**
-1. Select to retract the solution **Now** (or decide when to retract) and then in the **Retract From** section, in the **Choose a Web application to retract this solution**, click either **All web applications** or select a specific Web application.
+1. Select to retract the solution **Now** (or decide when to retract) and then in the **Retract From** section, in the **Choose a Web application to retract this solution**, click either**All web applications**or select a specific Web application.
 1. Click **OK**, and the solution will be retracted
 1. Run **SharePoint Management Shell** (you must be a member of the Administrators group)
 1. Execute following command

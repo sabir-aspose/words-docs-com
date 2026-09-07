@@ -135,7 +135,7 @@ Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
 builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
-|  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  As listas com marcadores são representadas usando numeração de parágrafos:<br /> `ListFormat.ApplyBulletDefault()`<br /> Pode haver 3 tipos de listas com marcadores. Eles são diferenciados apenas em um formato de numeração de primeiro nível. São eles: `‘-’`, `‘+’` ou `‘*’` respectivamente |
+|  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  As listas com marcadores são representadas usando numeração de parágrafos:<br /> `ListFormat.ApplyBulletDefault()`<br /> Pode haver 3 tipos de listas com marcadores. Eles são diferenciados apenas em um formato de numeração de primeiro nível. São eles: `‘-'`, `‘+'` ou `‘*'` respectivamente |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
 |  **OrderedList**<br /> `1. Item 1`<br /> `2. Item 2`<br /> `1) Item 2a`<br /> `2) Item 2b` |  As listas ordenadas são representadas usando numeração de parágrafo:<br /> `ListFormat.ApplyNumberDefault()`<br /> Pode haver 2 marcadores de formato de número: '.' e ')'. O marcador padrão é '.' |
 |  {{< highlight csharp >}}Document doc = new Document();

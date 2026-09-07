@@ -135,7 +135,7 @@ Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
 builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
-|  **BulletedList**<br/>`- Item 1`<br/>`- Item 2`<br/> `   - Item 2a`<br/> `   - Item 2b` |  Списъците с куршуми са представени с номерация на параграфа:<br/>`ListFormat.ApplyBulletDefault()`<br/>Може да има 3 вида списъци с куршуми. Те са само diff в номерационен формат на първото ниво. Това са: `‘-’`, `‘+’` или `‘*’` съответно |
+|  **BulletedList**<br/>`- Item 1`<br/>`- Item 2`<br/> `   - Item 2a`<br/> `   - Item 2b` |  Списъците с куршуми са представени с номерация на параграфа:<br/>`ListFormat.ApplyBulletDefault()`<br/>Може да има 3 вида списъци с куршуми. Те са само diff в номерационен формат на първото ниво. Това са: `‘-'`, `‘+'` или `‘*'` съответно |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
 |  **OrderedList**<br/>`1. Item 1`<br/>`2. Item 2`<br/> `1) Item 2a`<br/> `2) Item 2b` |  Поръчаните списъци се представят с номерация на параграфа:<br/>`ListFormat.ApplyNumberDefault()`<br/>Може да има 2 маркери за формат на номера: гот.. и) Подразбиращият се маркер е .. |
 |  {{< highlight csharp >}}Document doc = new Document();

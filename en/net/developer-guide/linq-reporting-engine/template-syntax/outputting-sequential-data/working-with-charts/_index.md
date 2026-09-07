@@ -33,13 +33,13 @@ LINQ Reporting Engine enables you to use charts to represent your sequential dat
 
 5. Add an opening `foreach` tag to the chart title.
 
-1. Depending on the type of the chart, add `x` tags to the chart title or chart series’ names as follows.
+1. Depending on the type of the chart, add `x` tags to the chart title or chart series' names as follows.
 {{< highlight csharp >}}
 <<x [x_value_expression]>>
 {{< /highlight >}}
 	- For a scatter or bubble chart, you can go one of the following ways: 
 		- To use the same x-value expression for all chart series, add a single `x` tag to the chart title after the corresponding `foreach` tag.
-		- To use different x-value expressions for every chart series, add multiple `x` tags to chart series’ names – one for each chart series.
+		- To use different x-value expressions for every chart series, add multiple `x` tags to chart series' names – one for each chart series.
 	
 	- For a chart of another type, add a single `x` tag to the chart title after the corresponding `foreach` tag.
 	
@@ -55,13 +55,13 @@ LINQ Reporting Engine enables you to use charts to represent your sequential dat
   {{< /highlight >}}
   Expressions defined for `x2` and `x3` tags must return string values.
 
-8. For a chart of any type other than histogram, add `y` tags to chart series’ names as follows.
+8. For a chart of any type other than histogram, add `y` tags to chart series' names as follows.
   {{< highlight csharp >}}
   <<y [y_value_expression]>>
   {{< /highlight >}}
   An y-value expression must return a numeric value.
 
-9. For a bubble chart, add `size` tags to chart series’ names as follows.
+9. For a bubble chart, add `size` tags to chart series' names as follows.
   {{< highlight csharp >}}
   <<size [bubble_size_expression]>>
   {{< /highlight >}}
@@ -78,7 +78,7 @@ During runtime, a chart with a `foreach` tag in its title is processed by the en
 1. A sequence expression declared at the `foreach` tag is evaluated and iterated.
 1. For every sequence item, expressions declared at `x`, `x2`, `x3`, `y`, and `size` tags are evaluated.
 1. Results of these expressions are used to populate corresponding chart series.
-1. All `foreach`, `x`, `x2`, `x3`, `y`, and `size` tags are removed from the chart title and chart series’ names.
+1. All `foreach`, `x`, `x2`, `x3`, `y`, and `size` tags are removed from the chart title and chart series' names.
 
 Consider the following example. Assume that you have the `Manager` and `Contract` classes defined in your application as follows.
 
@@ -211,7 +211,7 @@ In this case, the engine produces a report as follows.
 
 You can normally use common expression tags in chart titles, series names, and axis titles, thus forming their contents dynamically. This feature can be used for any chart defined in a template even for the one that is not populated with data dynamically like in the following example.
 
-Given that `chartTitle`, `seriesName`, and `axisName` are strings taking values “Chart Title”, “Series Name”, and “Axis Title” respectively, you can use the following chart template to set the chart’s title, series name, and axis title dynamically.
+Given that `chartTitle`, `seriesName`, and `axisName` are strings taking values “Chart Title”, “Series Name”, and “Axis Title” respectively, you can use the following chart template to set the chart's title, series name, and axis title dynamically.
 
 ![charts-series-title-name-text-dynamically-aspose-words-net-1](graph-8.png)
 

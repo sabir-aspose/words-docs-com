@@ -35,15 +35,15 @@ Dans cette version de Aspose.Words, les types suivants de SDT ou de contrôle de
 - RichText
 - PlainText
 
-L’exemple de code suivant montre comment créer un contrôle de contenu de type case à cocher.
+L'exemple de code suivant montre comment créer un contrôle de contenu de type case à cocher.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_sdt-CheckBoxTypeContentControl.py" >}}
 
-L’exemple de code suivant montre comment créer un contrôle de contenu de type zone de texte enrichi.
+L'exemple de code suivant montre comment créer un contrôle de contenu de type zone de texte enrichi.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_sdt-RichTextBoxContentControl.py" >}}
 
-L’exemple de code suivant montre comment créer un contrôle de contenu de type zone de liste déroulante.
+L'exemple de code suivant montre comment créer un contrôle de contenu de type zone de liste déroulante.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_sdt-ComboBoxContentControl.py" >}}
 

@@ -38,7 +38,7 @@ Un tableau de n'importe quel document chargé dans Aspose.Words est importé au 
 
 {{% alert color="primary" %}}
 
-Notez que les tableaux peuvent être imbriqués dans d’autres tableaux à n’importe quelle profondeur.
+Notez que les tableaux peuvent être imbriqués dans d'autres tableaux à n'importe quelle profondeur.
 
 {{% /alert %}}
 

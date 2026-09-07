@@ -38,10 +38,10 @@ The following code example shows how to split a table into two tables on a speci
 ## FAQ
 
 1. **Q:** How can I split a table into two tables at a specific row?  
-   **A:** Create an empty clone of the original table using `Table.clone(False)`, insert the clone after the original table, then move each row starting from the split row to the new table with `originalTable.Rows.Remove(row)` and `newTable.Rows.Add(row)`. This preserves the original table’s formatting while separating the rows.
+   **A:** Create an empty clone of the original table using `Table.clone(False)`, insert the clone after the original table, then move each row starting from the split row to the new table with `originalTable.Rows.Remove(row)` and `newTable.Rows.Add(row)`. This preserves the original table's formatting while separating the rows.
 
 2. **Q:** Does cloning a table copy its formatting?  
-   **A:** Yes. When you clone a table with `deep=False`, the table’s properties (borders, shading, width, etc.) are copied, but the child rows and cells are not. The new empty table therefore retains the same visual style as the source table.
+   **A:** Yes. When you clone a table with `deep=False`, the table's properties (borders, shading, width, etc.) are copied, but the child rows and cells are not. The new empty table therefore retains the same visual style as the source table.
 
 3. **Q:** Can I split a table that contains merged cells?  
    **A:** Merged cells that span rows being moved will be split automatically, which may break the original merge. After splitting, you may need to re‑apply merging on the affected cells in each resulting table.

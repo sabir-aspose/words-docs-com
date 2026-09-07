@@ -135,7 +135,7 @@ Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
 builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
-| **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` | Liste cu marcatori sunt reprezentate folosind numerotarea paragrafelor: <br /> `ListFormat.ApplyBulletDefault()` <br /> Pot exista 3 tipuri de liste cu marcatori. Ei sunt doar dif în formatul numerotării de foarte primul nivel. Acestea sunt: `‘-’`, `‘+’` sau `‘*’` respectiv. |
+| **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` | Liste cu marcatori sunt reprezentate folosind numerotarea paragrafelor: <br /> `ListFormat.ApplyBulletDefault()` <br /> Pot exista 3 tipuri de liste cu marcatori. Ei sunt doar dif în formatul numerotării de foarte primul nivel. Acestea sunt: `‘-'`, `‘+'` sau `‘*'` respectiv. |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}} |  |
 | **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Liste ordonate sunt reprezentate folosind numerotarea paragrafelor:<br /> `ListFormat.ApplyNumberDefault()` <br /> Există 2 marcatori de formatare a numerelor: ".", și ")". Marcatorul implicit este ".". |
 | {{< highlight csharp >}}Document doc = new Document();

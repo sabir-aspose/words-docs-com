@@ -3,7 +3,7 @@ title: Fonctionnalités prises en charge lors du chargement de documents
 second_title: Aspose.Words pour Python via .NET
 articleTitle: Fonctionnalités prises en charge lors du chargement de documents
 linktitle: Fonctionnalités prises en charge lors du chargement de documents
-description: "Chargez votre document dans n'importe quel format pris en charge à l'aide de Python. Importez et convertissez un document de n’importe quelle taille."
+description: "Chargez votre document dans n'importe quel format pris en charge à l'aide de Python. Importez et convertissez un document de n'importe quelle taille."
 type: docs
 weight: 20
 ai_search_scope: words_python

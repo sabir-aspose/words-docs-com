@@ -117,15 +117,15 @@ The following code example shows how to append one document to another while kee
 ## FAQ
 
 1. **Q:** How can I change the font size of the inserted content when using `insert_document`?  
-   **A:** After inserting the document, locate the inserted nodes (e.g., paragraphs) and modify their `font.size` property. You can retrieve the inserted range by storing the builder’s current position before the call and then iterating over the nodes that follow.
+   **A:** After inserting the document, locate the inserted nodes (e.g., paragraphs) and modify their `font.size` property. You can retrieve the inserted range by storing the builder's current position before the call and then iterating over the nodes that follow.
 
 2. **Q:** Does `insert_document_inline` preserve headers and footers from the source document?  
-   **A:** Yes. When you use `insert_document_inline`, the source document’s sections—including their headers and footers—are imported. The imported sections keep their original page setup, so headers/footers appear exactly as in the source unless you explicitly modify them after insertion.
+   **A:** Yes. When you use `insert_document_inline`, the source document's sections—including their headers and footers—are imported. The imported sections keep their original page setup, so headers/footers appear exactly as in the source unless you explicitly modify them after insertion.
 
-3. **Q:** How can I insert a document at a specific bookmark without the bookmark’s surrounding text being affected?  
-   **A:** Place the bookmark in an empty paragraph, move the builder to the bookmark, and then call `insert_document`. The inserted content will be placed after the bookmark’s position. Ensure the bookmark does not enclose other paragraphs, otherwise those paragraphs will be moved together with the inserted content.
+3. **Q:** How can I insert a document at a specific bookmark without the bookmark's surrounding text being affected?  
+   **A:** Place the bookmark in an empty paragraph, move the builder to the bookmark, and then call `insert_document`. The inserted content will be placed after the bookmark's position. Ensure the bookmark does not enclose other paragraphs, otherwise those paragraphs will be moved together with the inserted content.
 
-4. **Q:** What ImportFormatMode should I use to keep the source document’s list numbering when appending?  
+4. **Q:** What ImportFormatMode should I use to keep the source document's list numbering when appending?  
    **A:** Use `ImportFormatMode.KEEP_SOURCE_FORMATTING` together with `ImportFormatOptions.keep_source_numbering = True`. This combination preserves the original list styles and numbering from the source document.
 
 5. **Q:** Can I append only a single section from another document?  

@@ -56,7 +56,7 @@ Usamos un estilo de carácter con un nombre que comienza con la palabra `InlineC
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Autolink.h" >}} |
 | **Link**<br />`[link text](url)`<br />`[link text](<url>"title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | La clase [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/). |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Link.h" >}} |
-| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | La clase [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/). |
+| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title')`<br />`![alt text](url (title))` | La clase [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/). |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Image.h" >}} |
 
 ## Bloques de Contenedores
@@ -92,9 +92,9 @@ La siguiente tabla muestra ejemplos del uso de Markdown Contenedores complejos e
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `get_ParagraphFormat()->set_StyleName(u"Quote[some suffix]")`<br />El sufijo en el nombre del estilo es opcional, pero el importador Aspose.Words usa los números ordenados1, 2, 3, .... en caso de citas anidadas.<br />El anidamiento se define a través de los estilos heredados. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Quote.h" >}} ||
-| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Las listas con viñetas se representan mediante numeración de párrafos:<br />`get_ListFormat()->ApplyBulletDefault()`<br />Puede haber 3 tipos de listas con viñetas. Solo difieren en un formato de numeración del primer nivel. Estos son: `‘-’`, `‘+’` o `‘*’` respectivamente. |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Las listas con viñetas se representan mediante numeración de párrafos:<br />`get_ListFormat()->ApplyBulletDefault()`<br />Puede haber 3 tipos de listas con viñetas. Solo difieren en un formato de numeración del primer nivel. Estos son: `‘-'`, `‘+'` o `‘*'` respectivamente. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-BulletedList.h" >}} ||
-| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Las listas ordenadas se representan mediante numeración de párrafos:<br />`get_ListFormat()->ApplyNumberDefault()`<br />Puede haber 2 marcadores de formato numérico: ‘.’ y ‘)’. El marcador predeterminado es ‘.’. |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Las listas ordenadas se representan mediante numeración de párrafos:<br />`get_ListFormat()->ApplyNumberDefault()`<br />Puede haber 2 marcadores de formato numérico: ‘.' y ‘)'. El marcador predeterminado es ‘.'. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-OrderedList.h" >}} ||
 
 ### Tablas

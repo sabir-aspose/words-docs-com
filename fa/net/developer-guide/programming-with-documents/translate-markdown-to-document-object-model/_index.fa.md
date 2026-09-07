@@ -135,7 +135,7 @@ Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
 builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
-|  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  لیست های گلوله شده با استفاده از شماره گذاری پاراگراف نشان داده می شوند:<br /> `ListFormat.ApplyBulletDefault()`<br /> می تواند 3 نوع لیست گلوله ای وجود داشته باشد. آنها فقط در قالب شماره گذاری سطح اول متفاوت هستند. اینها به ترتیب عبارتند از: `‘-’`، `‘+’` یا `‘*’` |
+|  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  لیست های گلوله شده با استفاده از شماره گذاری پاراگراف نشان داده می شوند:<br /> `ListFormat.ApplyBulletDefault()`<br /> می تواند 3 نوع لیست گلوله ای وجود داشته باشد. آنها فقط در قالب شماره گذاری سطح اول متفاوت هستند. اینها به ترتیب عبارتند از: `‘-'`، `‘+'` یا `‘*'` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
 |  **OrderedList**<br /> `1. Item 1`<br /> `2. Item 2`<br /> `1) Item 2a`<br /> `2) Item 2b` |  لیست های مرتب شده با استفاده از شماره گذاری پاراگراف نشان داده می شوند:<br /> `ListFormat.ApplyNumberDefault()`<br /> می تواند 2 نشانگر قالب عددی وجود داشته باشد: '.' و ')'. نشانگر پیش فرض '.' است |
 |  {{< highlight csharp >}}Document doc = new Document();

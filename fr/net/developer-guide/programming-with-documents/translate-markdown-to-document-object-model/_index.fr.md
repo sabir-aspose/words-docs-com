@@ -66,7 +66,7 @@ Nous utilisons un style de caractère avec un nom qui commence par le mot `Inlin
 
 ## Blocs de conteneurs
 
-Un document est une séquence de blocs conteneurs tels que des titres, des paragraphes, des listes, des citations et autres. Les blocs conteneurs peuvent être divisés en 2 classes: les blocs feuilles et les conteneurs complexes. Les blocs feuilles ne peuvent contenir que du contenu en ligne. Les conteneurs complexes, à leur tour, peuvent contenir d’autres blocs de conteneurs, notamment des blocs Leaf.
+Un document est une séquence de blocs conteneurs tels que des titres, des paragraphes, des listes, des citations et autres. Les blocs conteneurs peuvent être divisés en 2 classes: les blocs feuilles et les conteneurs complexes. Les blocs feuilles ne peuvent contenir que du contenu en ligne. Les conteneurs complexes, à leur tour, peuvent contenir d'autres blocs de conteneurs, notamment des blocs Leaf.
 
 ### Blocs de feuilles
 
@@ -135,7 +135,7 @@ Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
 builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
-|  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  Les listes à puces sont représentées à l'aide de la numérotation des paragraphes:<br /> `ListFormat.ApplyBulletDefault()`<br /> Il peut y avoir 3 types de listes à puces. Ils ne diffèrent que par un format de numérotation du tout premier niveau. Ce sont respectivement: `‘-’`, `‘+’` ou `‘*’` |
+|  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  Les listes à puces sont représentées à l'aide de la numérotation des paragraphes:<br /> `ListFormat.ApplyBulletDefault()`<br /> Il peut y avoir 3 types de listes à puces. Ils ne diffèrent que par un format de numérotation du tout premier niveau. Ce sont respectivement: `‘-'`, `‘+'` ou `‘*'` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
 |  **OrderedList**<br /> `1. Item 1`<br /> `2. Item 2`<br /> `1) Item 2a`<br /> `2) Item 2b` |  Les listes ordonnées sont représentées à l'aide de la numérotation des paragraphes:<br /> `ListFormat.ApplyNumberDefault()`<br /> Il peut y avoir 2 marqueurs de format numérique: '.' et ')'. Le marqueur par défaut est '.' |
 |  {{< highlight csharp >}}Document doc = new Document();

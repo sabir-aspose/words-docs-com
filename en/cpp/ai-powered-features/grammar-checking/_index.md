@@ -57,4 +57,4 @@ Checking grammar with Aspose.Words improves the quality of your work and makes i
    **A:** Yes. Set `CheckGrammarOptions::set_ImproveStylistics(true)` to enable additional stylistic improvements beyond basic grammar corrections.
 
 5. **Q:** What happens if the document is very large?  
-   **A:** `CheckGrammar` processes the document in chunks internally, but extremely large files may increase latency or exceed provider request limits. Consider splitting the document or adjusting the provider’s request size settings if you encounter time‑outs.
+   **A:** `CheckGrammar` processes the document in chunks internally, but extremely large files may increase latency or exceed provider request limits. Consider splitting the document or adjusting the provider's request size settings if you encounter time‑outs.

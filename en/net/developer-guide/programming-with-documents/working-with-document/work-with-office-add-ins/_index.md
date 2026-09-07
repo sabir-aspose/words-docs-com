@@ -41,7 +41,7 @@ Web Extensions are tools that expand the capabilities of Office applications and
 
 Aspose.Words provides the ability to add Web Extensions of the Task Pane type using the [WebExtension](https://reference.aspose.com/words/net/aspose.words.webextensions/webextension/) and [TaskPane](https://reference.aspose.com/words/net/aspose.words.webextensions/taskpane/) classes, and also allows you to customize the pane and extension properties.
 
-The following code example shows how to create task panes and add to web extension task panes with basic properties: 
+The following code example shows how to create task panes and add to web extension task panes with basic properties:
 
 {{< gist "aspose-words-gists" "8c31c018ea71c92828223776b1a113f7" "web-extension-task-panes.cs" >}}
 
@@ -58,7 +58,7 @@ The following code example shows how to get such a list of add-ins:
    **A:** Create a `WebExtension` object, set its `Type` to `TaskPane`, and configure properties such as `Id` and `Description`. Add the web extension to the document via `Document.WebExtensionList.Add(webExtension)`. Then create a `TaskPane` object, set its appearance properties (e.g., `Width`, `Height`, `DockState`), and add it to the web extension with `webExtension.TaskPane.Add(taskPane)`.
 
 2. **Q:** How do I retrieve the list of task pane add‑ins that are already attached to a document?  
-   **A:** Use the `Document.WebExtensionTaskPanes` property, which returns a `WebExtensionTaskPaneCollection`. Iterate through this collection to read each task pane’s `Id`, `Description`, and other attributes.
+   **A:** Use the `Document.WebExtensionTaskPanes` property, which returns a `WebExtensionTaskPaneCollection`. Iterate through this collection to read each task pane's `Id`, `Description`, and other attributes.
 
 3. **Q:** Can I add more than one task pane to the same Word document?  
-   **A:** Yes. A document can contain multiple `WebExtension` objects, each with its own `TaskPane` collection. Simply create additional `WebExtension` instances and add their `TaskPane` objects to the document’s `WebExtensionList`.
+   **A:** Yes. A document can contain multiple `WebExtension` objects, each with its own `TaskPane` collection. Simply create additional `WebExtension` instances and add their `TaskPane` objects to the document's `WebExtensionList`.

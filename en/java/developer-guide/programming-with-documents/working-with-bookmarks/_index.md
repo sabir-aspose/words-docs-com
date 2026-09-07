@@ -43,7 +43,7 @@ The following code example shows how to create a new bookmark:
 
 Sometimes it is necessary to obtain a bookmark collection to iterate through bookmarks or for other purposes. Use the [Node.Range](https://reference.aspose.com/words/java/com.aspose.words/node/#getRange) property exposed by any document node that returns a [Range](https://reference.aspose.com/words/java/com.aspose.words/range/) object representing the portion of the document contained in this node. Use this object to retrieve a [BookmarkCollection](https://reference.aspose.com/words/java/com.aspose.words/bookmarkcollection/) and then use the collection indexer to get a specific bookmark.
 
-The following code example shows how to obtain bookmarks from a bookmark collection:
+The following codeexample shows how to obtain bookmarks from a bookmark collection:
 
 {{< gist "aspose-words-gists" "ac2265ee10ddb4f0649f31ab8d219a94" "access-bookmarks.java" >}}
 
@@ -63,7 +63,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% /alert %}}
 
-The following code example shows how to bookmark a table:
+The following codeexample shows how to bookmark a table:
 
 {{< gist "aspose-words-gists" "ac2265ee10ddb4f0649f31ab8d219a94" "bookmark-table.java" >}}
 
@@ -95,7 +95,7 @@ The following code example shows how to show/ hide bookmarks:
    **A:** Create a `DocumentBuilder` for your document, call `builder.startBookmark("MyBookmark")` at the start position, add the desired content, and then call `builder.endBookmark("MyBookmark")`. The same name must be used for both calls.
 
 2. **Q:** How do I retrieve the text stored inside an existing bookmark?  
-   **A:** Obtain the `Bookmark` object from the document’s bookmark collection:  
+   **A:** Obtain the `Bookmark` object from the document's bookmark collection:  
    ```java
    Document doc = new Document("input.docx");
    Bookmark bookmark = doc.getRange().getBookmarks().get("MyBookmark");
@@ -107,7 +107,7 @@ The following code example shows how to show/ hide bookmarks:
    **A:** Yes. After retrieving the `Bookmark` object, call `bookmark.setName("NewName")`. Ensure the new name is unique; if a duplicate exists, only the first bookmark with that name will be saved.
 
 4. **Q:** How can I move the cursor to a bookmark to insert rich content?  
-   **A:** Use `DocumentBuilder.moveToBookmark("MyBookmark")`. Once the builder’s cursor is positioned, you can insert paragraphs, tables, images, etc., just as with any other `DocumentBuilder` operation.
+   **A:** Use `DocumentBuilder.moveToBookmark("MyBookmark")`. Once the builder's cursor is positioned, you can insert paragraphs, tables, images, etc., just as with any other `DocumentBuilder` operation.
 
 5. **Q:** How can I conditionally show or hide the content of a bookmark?  
-   **A:** Wrap the bookmark inside an `IF` field that evaluates a merge field or custom document variable. When the condition is true, the bookmark’s content is displayed; otherwise, it is hidden. This technique is demonstrated in the “Show Hide Bookmark Content” example.
+   **A:** Wrap the bookmark inside an `IF` field that evaluates a merge field or custom document variable. When the condition is true, the bookmark's content is displayed; otherwise, it is hidden. This technique is demonstrated in the “Show Hide Bookmark Content” example.

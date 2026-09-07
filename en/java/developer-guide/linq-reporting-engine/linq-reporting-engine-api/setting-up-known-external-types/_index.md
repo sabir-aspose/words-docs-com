@@ -29,7 +29,7 @@ engine.buildReport(...);
 ## FAQ
 
 1. **Q:** How do I register a custom Java class so that the LINQ Reporting Engine can use it in a template?  
-   **A:** Create an instance of `ReportingEngine`, then add the class object to the engine’s known‑types set via `engine.getKnownTypes().add(YourClass.class);`. After that, call `engine.buildReport(...)` to process the template.
+   **A:** Create an instance of `ReportingEngine`, then add the class object to the engine's known‑types set via `engine.getKnownTypes().add(YourClass.class);`. After that, call `engine.buildReport(...)` to process the template.
 
 2. **Q:** Which types are already known by the engine without any configuration?  
    **A:** The engine automatically knows `Object`, `String`, and all Java primitive types (e.g., `int`, `double`, `boolean`) and their wrapper classes. No additional registration is required for these.

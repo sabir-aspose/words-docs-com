@@ -13,7 +13,7 @@ url: /fr/python-net/converting-to-fixed-page-format/
 timestamp: 2024-01-31-14-23-37
 ---
 
-Aspose.Words implémente son propre moteur de mise en page. Avant d’approfondir ses spécifications, il convient de discuter d’abord du document à un niveau élevé. Lorsqu'ils réfléchissent à un document, les utilisateurs imaginent généralement un certain nombre de feuilles de papier contenant des mots, des images, des tableaux et des graphiques. Les documents peuvent être de différents types, tels que du texte, des feuilles de calcul, des diapositives, des dessins CAO, des organigrammes et, par conséquent, peuvent avoir des mises en page essentiellement différentes. La plupart des applications permettent d'envoyer des documents vers une imprimante ; c'est à ce moment-là qu'un utilisateur peut réellement visualiser l'apparence finale prévue du document.
+Aspose.Words implémente son propre moteur de mise en page. Avant d'approfondir ses spécifications, il convient de discuter d'abord du document à un niveau élevé. Lorsqu'ils réfléchissent à un document, les utilisateurs imaginent généralement un certain nombre de feuilles de papier contenant des mots, des images, des tableaux et des graphiques. Les documents peuvent être de différents types, tels que du texte, des feuilles de calcul, des diapositives, des dessins CAO, des organigrammes et, par conséquent, peuvent avoir des mises en page essentiellement différentes. La plupart des applications permettent d'envoyer des documents vers une imprimante ; c'est à ce moment-là qu'un utilisateur peut réellement visualiser l'apparence finale prévue du document.
 
 ## Afficher un document dans diverses applications
 
@@ -23,7 +23,7 @@ En revanche, certaines applications d'édition de texte ne prennent pas en charg
 
 Des applications d'édition de texte légèrement plus sophistiquées, telles que Microsoft WordPad, enregistrent le document au format RTF (Rich Text Format), qui prend en charge davantage de fonctions de formatage, telles que l'insertion d'images, le formatage des caractères, les marges et l'espacement des paragraphes. Cependant, le format RTF contient également uniquement le contenu du document, sans aucune information sur les pages.
 
-Microsoft Word est aujourd'hui l'application d'édition de texte Windows la plus avancée. Il formate les fichiers au format DOCX, qui décrit le contenu du document de manière flexible et approfondie, permettant aux utilisateurs de spécifier la taille de la page, l'orientation d'une section du document et, étant une application WYSIWYG, même d'afficher les pages du document à l'écran. Néanmoins, il n'existe toujours aucune information sur la manière dont le contenu du document est affiché sur les pages disponibles dans le fichier du document. Le fichier de document décrit uniquement le contenu lui-même et la relation entre les objets du document, ainsi que certaines contraintes géométriques. Par conséquent, avant d’afficher un document, Microsoft Word calcule lui-même ces informations. C’est là qu’intervient la mise en page.
+Microsoft Word est aujourd'hui l'application d'édition de texte Windows la plus avancée. Il formate les fichiers au format DOCX, qui décrit le contenu du document de manière flexible et approfondie, permettant aux utilisateurs de spécifier la taille de la page, l'orientation d'une section du document et, étant une application WYSIWYG, même d'afficher les pages du document à l'écran. Néanmoins, il n'existe toujours aucune information sur la manière dont le contenu du document est affiché sur les pages disponibles dans le fichier du document. Le fichier de document décrit uniquement le contenu lui-même et la relation entre les objets du document, ainsi que certaines contraintes géométriques. Par conséquent, avant d'afficher un document, Microsoft Word calcule lui-même ces informations. C'est là qu'intervient la mise en page.
 
 ## Qu'est-ce qu'une mise en page
 
@@ -39,9 +39,9 @@ Créer une mise en page peut être une procédure coûteuse, à la fois en terme
 
 - Le document peut avoir une grande quantité de contenu, qui peut devoir être affiché sur des milliers de pages. La géométrie de chaque objet sur chaque page devrait être décrite, ce qui consommerait des ressources mémoire.
 - Le document peut comporter de nombreuses règles, imposant des contraintes sur la géométrie. Un temps de calcul considérable peut être nécessaire pour garantir que chaque contrainte est satisfaite
-- Certaines fonctionnalités du document, par exemple le champ `NUMPAGES`, créent des dépendances récursives pour les valeurs de propriété futures, qui ne sont pas disponibles au moment du calcul. Cela conduit à des calculs répétitifs et s’ajoute au temps de calcul.
+- Certaines fonctionnalités du document, par exemple le champ `NUMPAGES`, créent des dépendances récursives pour les valeurs de propriété futures, qui ne sont pas disponibles au moment du calcul. Cela conduit à des calculs répétitifs et s'ajoute au temps de calcul.
 
-Pour les raisons mentionnées ci-dessus, Aspose.Words créera une mise en page uniquement lorsque cela est nécessaire. Une raison typique serait une demande de rendu des pages d'un document ou d'obtention d'une valeur de champ qui dépend des informations disponibles dans la mise en page. Une raison moins évidente pourrait être l’exportation d’un document au format HTML. Même si HTML n'est pas un format de page fixe et ne décrit pas la géométrie des objets de contenu, il prend toujours en charge les images. De telles images peuvent se présenter sous la forme de formes créées en Microsoft Word avec un texte à l'intérieur. Par exemple, un graphique avec des étiquettes d'axe peut être exporté au format HTML sous forme d'image, mais avant que cela puisse être fait, Aspose.Words doit restituer cette image et doit donc savoir où afficher l'étiquette. Voir l'exemple de graphique ci-dessous:
+Pour les raisons mentionnées ci-dessus, Aspose.Words créera une mise en page uniquement lorsque cela est nécessaire. Une raison typique serait une demande de rendu des pages d'un document ou d'obtention d'une valeur de champ qui dépend des informations disponibles dans la mise en page. Une raison moins évidente pourrait être l'exportation d'un document au format HTML. Même si HTML n'est pas un format de page fixe et ne décrit pas la géométrie des objets de contenu, il prend toujours en charge les images. De telles images peuvent se présenter sous la forme de formes créées en Microsoft Word avec un texte à l'intérieur. Par exemple, un graphique avec des étiquettes d'axe peut être exporté au format HTML sous forme d'image, mais avant que cela puisse être fait, Aspose.Words doit restituer cette image et doit donc savoir où afficher l'étiquette. Voir l'exemple de graphique ci-dessous:
 
 <img src="/words/python-net/converting-to-fixed-page-format/converting-to-fixed-page-format-1.png" alt="conversion en format de page fixe_1" style="width:800px"/>
 
@@ -57,7 +57,7 @@ Dans Aspose.Words, un utilisateur peut demander s'il souhaite créer une nouvell
 
 ### Structure dynamique
 
-Le processus de création d’une mise en page comprend les étapes suivantes:
+Le processus de création d'une mise en page comprend les étapes suivantes:
 
 - *Conversion* – énumération du contenu du modèle de document et préparation des objets de mise en page correspondants.
 - *Build* – organiser les objets de mise en page pour représenter le contenu du document sur les pages.

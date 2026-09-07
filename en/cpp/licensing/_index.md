@@ -102,7 +102,7 @@ A neat way to package a license with your application and make sure it will not 
 
 ##### Windows
 
-Let’s suppose you have added the license as a resource as shown below.
+Let's suppose you have added the license as a resource as shown below.
 
 ```
 resource.h
@@ -174,4 +174,4 @@ If you use multiple Aspose products in your application, such as Aspose.Words an
    **A:** On Windows, add the license as a `RCDATA` resource in a `.rc` file and reference it by its resource ID. On Linux, compile the binary with the resource data (e.g., using `objcopy`). Then load the resource into a memory stream and pass that stream to `SetLicense`.
 
 5. **Q:** Can I use a single license file for multiple Aspose products (e.g., Words and Cells)?  
-   **A:** Yes, a total license file can cover several products, but you must call `SetLicense` for each product’s `License` class separately, using the fully‑qualified class name to avoid ambiguity.
+   **A:** Yes, a total license file can cover several products, but you must call `SetLicense` for each product's `License` class separately, using the fully‑qualified class name to avoid ambiguity.

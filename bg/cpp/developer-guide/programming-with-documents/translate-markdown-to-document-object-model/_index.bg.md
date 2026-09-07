@@ -56,7 +56,7 @@ timestamp: 2024-10-21-11-17-44
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Autolink.h" >}} |  |
 | **Link**<br />`[link text](url)`<br />`[link text](<url>"title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/) клас. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Link.h" >}} |  |
-| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) клас. |
+| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title')`<br />`![alt text](url (title))` | [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) клас. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Image.h" >}} |  |
 
 ## Контейнерни Блокове
@@ -92,9 +92,9 @@ else
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `get_ParagraphFormat()->set_StyleName(u"Quote[some suffix]")`<br />наставката в името на стила не е задължителна, но Aspose.Words вносителят използва поръчаните номера 1, 2, 3, .... в случай на вложени цитати.<br />Гнезденето се определя чрез наследените стилове. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Quote.h" >}} |  |
-| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Списъците с водещи символи са представени с номериране на абзаци:<br />`get_ListFormat()->ApplyBulletDefault()`<br />може да има 3 вида списъци с водещи символи. Те са само различие в номериращ формат на първото ниво. Те са: `‘-’`, `‘+’` или `‘*’` съответно. |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Списъците с водещи символи са представени с номериране на абзаци:<br />`get_ListFormat()->ApplyBulletDefault()`<br />може да има 3 вида списъци с водещи символи. Те са само различие в номериращ формат на първото ниво. Те са: `‘-'`, `‘+'` или `‘*'` съответно. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-BulletedList.h" >}} |  |
-| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Подредените списъци се представят с номериране на абзаци:<br />`get_ListFormat()->ApplyNumberDefault()`<br />може да има 2 числови формат маркери: ‘.’ и ‘)’. Маркерът по подразбиране е ‘.’. |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Подредените списъци се представят с номериране на абзаци:<br />`get_ListFormat()->ApplyNumberDefault()`<br />може да има 2 числови формат маркери: ‘.' и ‘)'. Маркерът по подразбиране е ‘.'. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-OrderedList.h" >}} |  |
 
 ### Маси

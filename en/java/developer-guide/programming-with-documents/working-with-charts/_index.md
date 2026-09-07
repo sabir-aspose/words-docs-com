@@ -90,7 +90,7 @@ The code generates the followings results:
 
 ## How to Work with ChartSeriesCollection of Chart
 
-Let’s look into [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/) collection. All chart series are available through [chart.getSeries()](https://reference.aspose.com/words/java/com.aspose.words/chart/#getSeries) collection, which is **IEnumerable**:
+Let's look into [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/) collection. All chart series are available through [chart.getSeries()](https://reference.aspose.com/words/java/com.aspose.words/chart/#getSeries) collection, which is **IEnumerable**:
 
 {{< gist "aspose-words-gists" "f87662b501bdf23f24f7c2412bda746f" "chart-series-collection.java" >}}
 
@@ -136,7 +136,7 @@ Please see the result below:
 
 ## How to Define Default Options for ChartDataLabels of ChartSeries
 
-The [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/) class defines properties which can be used to set default options for **ChartDataLabels** for Chart **Series**. These properties include ShowCategoryName, ShowBubbleSize, ShowPercentage, ShowSeriesName, ShowValue etc:
+The [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/) class defines properties which can be used to set default options for **ChartDataLabels** for Chart **Series**. These properties includeShowCategoryName, ShowBubbleSize, ShowPercentage, ShowSeriesName, ShowValue etc:
 
 {{< gist "aspose-words-gists" "f87662b501bdf23f24f7c2412bda746f" "default-options-for-data-labels.java" >}}
 
@@ -152,7 +152,7 @@ The following code example shows how to format a number of the data label:
 
 {{< gist "aspose-words-gists" "f87662b501bdf23f24f7c2412bda746f" "format-number-of-data-label.java" >}}
 
-## How to Set Chart Axis Properties
+## How toSet Chart Axis Properties
 
 If you want to work with chart axis, scaling, and display units for the value axis, please use [ChartAxis](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/), [AxisDisplayUnit](https://reference.aspose.com/words/java/com.aspose.words/axisdisplayunit/), and [AxisScaling](https://reference.aspose.com/words/java/com.aspose.words/axisscaling/) classes.
 
@@ -168,7 +168,7 @@ The following code example shows how to set date/time values to axis properties:
 
 ### How to Format Number Value of Axis
 
-The following code example shows how to change the format of numbers on the value axis:
+The following code example shows how tochange the format of numbers on the value axis:
 
 {{< gist "aspose-words-gists" "f87662b501bdf23f24f7c2412bda746f" "number-format-for-axis.java" >}}
 
@@ -176,13 +176,13 @@ The following code example shows how to change the format of numbers on the val
 
 The `AxisBound` class represents a minimum or maximum bound of axis values. Bound can be specified as a numeric, date-time or a special "auto" value.
 
-The following code example shows how to set bounds of an axis:
+The following code example shows howto set bounds of an axis:
 
 {{< gist "aspose-words-gists" "f87662b501bdf23f24f7c2412bda746f" "bounds-of-axis.java" >}}
 
 ### How to Set Interval Unit Between Labels
 
-The following code example shows how to set the interval unit between labels on an axis:
+The following code example shows howto setthe interval unit between labels on an axis:
 
 {{< gist "aspose-words-gists" "f87662b501bdf23f24f7c2412bda746f" "interval-unit-between-labels-on-axis.java" >}}
 

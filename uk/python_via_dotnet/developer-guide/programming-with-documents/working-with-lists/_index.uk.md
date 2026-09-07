@@ -30,7 +30,7 @@ Aspose.Words дозволяє легко створювати списки за 
 
 До поточного абзацу додаються кулі або номер і форматування. [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) до [ListFormat.remove_numbers](https://reference.aspose.com/words/python-net/aspose.words.lists/listformat/remove_numbers/) це називається, щоб зупинити форматування списку.
 
-У документах Word можуть складатися списки до дев’яти рівнів. Список форматування для кожного рівня визначає, який використовується куля або номер, лівий відступ, простір між кулі та текстом тощо. Наведені нижче способи зміни рівня списку і застосовуються нові властивості форматування рівня:
+У документах Word можуть складатися списки до дев'яти рівнів. Список форматування для кожного рівня визначає, який використовується куля або номер, лівий відступ, простір між кулі та текстом тощо. Наведені нижче способи зміни рівня списку і застосовуються нові властивості форматування рівня:
 
 - до Для збільшення рівня списку поточного абзацу за одним рівнем виклику [ListFormat.list_indent](https://reference.aspose.com/words/python-net/aspose.words.lists/listformat/list_indent/)
 - до Для зменшення рівня списку поточного абзацу за одним рівнем виклику [ListFormat.list_outdent](https://reference.aspose.com/words/python-net/aspose.words.lists/listformat/list_outdent/)

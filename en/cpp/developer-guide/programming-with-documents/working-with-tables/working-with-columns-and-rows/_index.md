@@ -31,7 +31,7 @@ The following code example shows how to retrieve the index of a table in a docum
 
 Similarly, you may need to make changes to a specific row in a selected table. To do this, you can also refer to a row by its index.
 
-The following code example shows how to retrieve the index of a row in a table:
+The following code example showshow to retrieve the index of a row in a table:
 
 {{< gist "aspose-words-gists" "08b4741d451b8f6519bcb0b916f18bb8" "retrieve-row-index.h" >}}
 
@@ -96,7 +96,7 @@ By default, the above properties are disabled.
 
 ### Keep a Row from Breaking Across Pages {#keep-a-row-from-breaking-across-pages}
 
-This involves restricting content inside the cells of a row from being split across a page. In Microsoft Word, this can found under Table Properties as the option “Allow row to break across pages”. In Aspose.Words this is found under the [RowFormat](hhttps://reference.aspose.com/words/cpp/aspose.words.tables/rowformat/) object of a [Row](https://reference.aspose.com/words/cpp/aspose.words.tables/row/) as the property [RowFormat.AllowBreakAcrossPages](https://reference.aspose.com/words/cpp/aspose.words.tables/rowformat/get_allowbreakacrosspages/).
+This involves restricting content inside the cells of a row from being split across a page. In Microsoft Word, this can found under Table Properties as the option “Allow row to break across pages”.In Aspose.Words this is found under the [RowFormat](hhttps://reference.aspose.com/words/cpp/aspose.words.tables/rowformat/) object of a [Row](https://reference.aspose.com/words/cpp/aspose.words.tables/row/) as the property [RowFormat.AllowBreakAcrossPages](https://reference.aspose.com/words/cpp/aspose.words.tables/rowformat/get_allowbreakacrosspages/).
 
 The following code example shows how to disable breaking rows across pages for each row in a table:
 

@@ -10,7 +10,7 @@ url: /sharepoint/convert-one-file/
 timestamp: 2024-01-27-14-07-04
 ---
 
-To convert a particular document in a document library please choose **Convert via Aspose.Words** in the document’s Edit Control Block (ECB).
+To convert a particular document in a document library please choose **Convert via Aspose.Words** in the document's Edit Control Block (ECB).
 
 **Selecting Convert via Aspose.Words in the document's ECB.** 
 
@@ -31,7 +31,7 @@ This opens the conversion settings screen where with the following options:
 - **Convert** - click to start the conversion process.
 - **Cancel** - gets you back to the library and dismisses all changes to settings.
 
-**Conversion Settings screen for one file conversion.** 
+**Conversion Settings screen for one file conversion.**
 
 ![todo:image_alt_text](convert-one-file-2.png)
 

@@ -29,7 +29,7 @@ Beim Laden externer Ressourcen gibt es eine Reihe typischer Sicherheitsprobleme.
 
 ### Offenlegung von Anmeldeinformationen über verknüpfte Bilder
 
-Auf Windows-basierten Hosts werden Dokumente, die Verweise auf Ressourcen enthalten, die UNC-Pfade wie *‘\\example.com\a\b*’ verwenden, standardmäßig verarbeitet. In einer Domänenumgebung führt dies dazu, dass der Host seine Domänenanmeldeinformationen in einem Hash-Format an den angegebenen Server sendet.
+Auf Windows-basierten Hosts werden Dokumente, die Verweise auf Ressourcen enthalten, die UNC-Pfade wie *‘\\example.com\a\b*' verwenden, standardmäßig verarbeitet. In einer Domänenumgebung führt dies dazu, dass der Host seine Domänenanmeldeinformationen in einem Hash-Format an den angegebenen Server sendet.
 
 Wenn ein Angreifer einen Benutzer oder Server dazu bringen kann, ein Dokument mit einem solchen Ressourcenlink zu verarbeiten, der auf einen von ihm kontrollierten Host verweist, erhält der Angreifer die Anmeldeinformationen des Benutzers oder Dienstkontos im Hash-Format NTLM. Solche Daten können dann in einem klassischen Pass-the-Hash-Angriff wiederverwendet werden, wodurch der Angreifer als Benutzer- oder Dienstkonto des Opfers auf jede Ressource zugreifen kann.
 

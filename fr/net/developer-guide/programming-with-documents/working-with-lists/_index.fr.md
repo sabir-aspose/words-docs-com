@@ -13,7 +13,7 @@ url: /fr/net/working-with-lists/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Une liste dans un document Microsoft Word est un ensemble de propriétés de formatage de paragraphe. Les listes peuvent être utilisées dans les documents pour structurer, organiser et surligner du texte. Les listes sont un excellent moyen d’organiser les données dans des documents de manière à permettre aux lecteurs d’absorber et de comprendre facilement les points clés.
+Une liste dans un document Microsoft Word est un ensemble de propriétés de formatage de paragraphe. Les listes peuvent être utilisées dans les documents pour structurer, organiser et surligner du texte. Les listes sont un excellent moyen d'organiser les données dans des documents de manière à permettre aux lecteurs d'absorber et de comprendre facilement les points clés.
 
 Chaque liste peut avoir jusqu'à 9 niveaux et les propriétés de formatage telles que le style de numéro, la valeur de départ, l'indentation, la position de tabulation et autres sont définies séparément pour chaque niveau.
 

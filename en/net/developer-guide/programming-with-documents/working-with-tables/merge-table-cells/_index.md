@@ -62,7 +62,7 @@ To merge cells in a table created with the [DocumentBuilder](https://reference.a
 
 Also, you must remember to clear the merge setting for those cells where no merge is required – this can be done by setting the first non-merge cell to **CellMerge.None**. If this is not done, all cells in the table will be merged.
 
-The following code example shows how to create a table with two rows where the cells in the first row are merged horizontally:
+The following code example shows how tocreate a table with two rows where the cells in the first row are merged horizontally:
 
 {{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "horizontal-merge.cs" >}}
 
@@ -108,7 +108,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ## Convert to Horizontally Merged Cells
 
-Sometimes it is not possible to detect which cells are merged because some newer versions of Microsoft Word no longer use the merge flags when cells are merged horizontally. But for situations where cells are merged into a cell horizontally by their width using merge flags, Aspose.Words provides the `ConvertToHorizontallyMergedCells` method to convert cells. This method simply transforms the table and adds new cells as needed.
+Sometimes it is not possible to detect which cells are merged because some newer versions of Microsoft Word nolonger use the merge flags when cells are merged horizontally. But for situations where cells are merged into a cell horizontally by their width using merge flags, Aspose.Words provides the `ConvertToHorizontallyMergedCells` method to convert cells. This method simply transforms the table and adds new cells as needed.
 
 The following code example shows the above method in operation:
 
@@ -119,13 +119,13 @@ The following code example shows the above method in operation:
 ## FAQ
 
 1. **Q:** How do I merge cells horizontally using `DocumentBuilder`?  
-   **A:** Set the first cell’s `CellFormat.HorizontalMerge` to `CellMerge.First`, then set each subsequent cell in the range to `CellMerge.Previous`. After the merged range, reset the next cell’s `HorizontalMerge` to `CellMerge.None` so that later cells are not unintentionally merged.
+   **A:** Set the first cell's `CellFormat.HorizontalMerge` to `CellMerge.First`, then set each subsequent cell in the range to `CellMerge.Previous`. After the merged range, reset the next cell's `HorizontalMerge` to `CellMerge.None` so that later cells are not unintentionally merged.
 
 2. **Q:** How can I determine whether a particular cell is part of a merged range?  
-   **A:** Inspect the cell’s `CellFormat.HorizontalMerge` and `CellFormat.VerticalMerge` properties. They will return `CellMerge.First` for the leading cell, `CellMerge.Previous` for following cells, and `CellMerge.None` if the cell is not merged.
+   **A:** Inspect the cell's `CellFormat.HorizontalMerge` and `CellFormat.VerticalMerge` properties. They will return `CellMerge.First` for the leading cell, `CellMerge.Previous` for following cells, and `CellMerge.None` if the cell is not merged.
 
 3. **Q:** Why do all cells in my table become merged after I merge a single range?  
-   **A:** This usually happens because the cell immediately after the merged range still has its merge flag set to `CellMerge.Previous`. Reset that cell’s `HorizontalMerge` (or `VerticalMerge`) to `CellMerge.None` to stop the propagation.
+   **A:** This usually happens because the cell immediately after the merged range still has its merge flag set to `CellMerge.Previous`. Reset that cell's `HorizontalMerge` (or `VerticalMerge`) to `CellMerge.None` to stop the propagation.
 
 4. **Q:** Can I merge a rectangular block of cells without using `DocumentBuilder`?  
    **A:** Yes. Create a helper method that sets the appropriate `HorizontalMerge` and `VerticalMerge` flags on the start and end cells of the block. The method can be turned into an extension method, e.g., `cell1.Merge(cell2)`, to simplify future calls.

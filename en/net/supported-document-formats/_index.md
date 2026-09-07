@@ -33,7 +33,7 @@ The following table indicates the input and output file formats supported by Asp
 | :- | :- | :- | :- | :- |
 | [`DOC`](https://docs.fileformat.com/word-processing/doc/) | Microsoft Word 97 – 2007 Document | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`DOT`](https://docs.fileformat.com/word-processing/dot/) | Microsoft Word 97 – 2007 Template | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
-| `DocPreWord60` | The document is in the Word 6 or Word 95 format | {{< emoticons/tick >}} |  | |
+| `DocPreWord60` | The document is in the Word 6 or Word 95 format | {{< emoticons/tick >}} |  ||
 | [`DOCX`](https://docs.fileformat.com/word-processing/docx/) | Office Open XML WordprocessingML Document (macro-free) | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`DOCM`](https://docs.fileformat.com/word-processing/docm/) | Office Open XML WordprocessingML Macro-Enabled Document | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`DOTX`](https://docs.fileformat.com/word-processing/dotx/) | Office Open XML WordprocessingML Template (macro-free) | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
@@ -50,7 +50,7 @@ The following table indicates the input and output file formats supported by Asp
 | [`MHTML`](https://docs.fileformat.com/web/mhtml/) | MHTML (Web archive) format | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`MOBI`](https://docs.fileformat.com/ebook/mobi/) | eBook format used by the `MobiPocket` Reader and Amazon Kindle Readers | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`AZW3`](https://docs.fileformat.com/ebook/azw3/) | eBook format used by Amazon Kindle readers | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
-| [`CHM`](https://docs.fileformat.com/web/chm/) | CHM (Compiled HTML Help) format | {{< emoticons/tick >}} |  | |
+| [`CHM`](https://docs.fileformat.com/web/chm/) | CHM (Compiled HTML Help) format | {{< emoticons/tick >}} |  ||
 | [`ODT`](https://docs.fileformat.com/word-processing/odt/) | ODF Text Document | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`OTT`](https://docs.fileformat.com/word-processing/ott/) | ODF Text Document Template | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`TXT`](https://docs.fileformat.com/word-processing/txt/) | Plain Text | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
@@ -90,7 +90,7 @@ The following table indicates the input and output file formats supported by Asp
    **A:** Yes. Load the DOCX file (supported for loading) and then call `Document.Save("output.pdf", SaveFormat.Pdf);`. The conversion is performed entirely in memory without needing intermediate files.
 
 4. **Q:** Why does the table show XLSX as a save‑only format?
-   **A:** Aspose.Words does not interpret spreadsheet data, so it cannot load XLSX files. However, it can export a Word document’s tabular content to an XLSX workbook, which is why only the “Save” column is ticked.
+   **A:** Aspose.Words does not interpret spreadsheet data, so it cannot load XLSX files. However, it can export a Word document's tabular content to an XLSX workbook, which is why only the “Save” column is ticked.
 
 5. **Q:** Are there any limitations when saving to image formats such as PNG or JPEG?
    **A:** Image formats are raster outputs; they render each page as a separate image. Complex layouts, very high‑resolution documents, or documents with many pages may result in large image files or increased memory usage. Use the `ImageSaveOptions` class to control resolution, page range, and other settings.

@@ -25,13 +25,13 @@ A document that contains fill-in blanks (fields) is known as a form. For example
 
 You can use form fields in your project to "communicate" with your users. For example, you create a document whose content is protected, but only form fields are editable. The users can enter the data in the form fields and submit the document. Your application that uses Aspose.Words can retrieve data from the form fields and process it.
 
-Placing form fields into the document via code is easy. [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) has special methods for inserting them, one for each form field type. Each of the methods accepts a string parameter representing the name of the form field. The name can be an empty string. If however you specify a name for the form field, then a bookmark is automatically created with the same name.
+Placing form fields into the document via code is easy. [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) has special methods for inserting them, one for each form field type.Each of the methods accepts a string parameter representing the name of the form field. The name can be an empty string. If however you specify a name for the form field, then a bookmark is automatically created with the same name.
 
 ## Insert Form Fields
 
 Form fields are a particular case of Word fields that allows "interaction" with the user. Form fields in Microsoft Word include textbox, combo box and checkbox.
 
-**DocumentBuilder** provides special methods to insert each type of form field into the document: [InsertTextInput](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserttextinput/) , [InsertCheckBox](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcheckbox/), and [InsertComboBox](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcombobox/). Note that if you specify a name for the form field, then a bookmark is automatically created with the same name.
+**DocumentBuilder**provides special methods to insert each type of form field into the document:[InsertTextInput](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserttextinput/),[InsertCheckBox](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcheckbox/), and[InsertComboBox](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcombobox/). Note that if you specify a name for the form field, then a bookmark is automatically created with the same name.
 
 The following code example shows how to insert a combobox form field into a document:
 
@@ -39,7 +39,7 @@ The following code example shows how to insert a combobox form field into a docu
 
 ### Insert a Text Input
 
-Use the **InsertTextInput** method to insert a textbox into the document.
+Use the **InsertTextInput**method to insert a textbox into the document.
 
 The following code example shows how to insert a text input form field into a document:
 
@@ -47,7 +47,7 @@ The following code example shows how to insert a text input form field into a do
 
 ### Insert a Check Box
 
-Call **InsertCheckBox** to insert a checkbox into the document.
+Call**InsertCheckBox**to insert a checkbox into the document.
 
 The following code example shows how to insert a checkbox form field into a document:
 
@@ -55,7 +55,7 @@ The following code example shows how to insert a checkbox form field into a docu
 
 ### Insert a Combo Box
 
-Call **InsertComboBox** to insert a combobox into the document.
+Call**InsertComboBox**to insert a combobox into the document.
 
 The following code example shows how to insert a Combobox form field into a document:
 
@@ -118,7 +118,7 @@ The following code example shows how to apply font formatting to the **FormField
    **A:** Call `Document.Protect(ProtectionType.AllowOnlyFormFields, "password")`. This protects the whole document while still allowing users to fill in the form fields.
 
 4. **Q:** Can I apply font styling (e.g., bold, color) to the text inside a form field?  
-   **A:** Yes. The `FormField.Font` property gives access to a `Font` object. Set properties such as `Bold`, `Color`, or `Size` on this object to format the field’s content.
+   **A:** Yes. The `FormField.Font` property gives access to a `Font` object. Set properties such as `Bold`, `Color`, or `Size` on this object to format the field's content.
 
 5. **Q:** How can I check whether a specific form field exists before accessing it?  
    **A:** Use the `FormFields` collection: `FormField field = document.Range.FormFields["MyField"];` and verify that `field` is not `null` before using it. This prevents exceptions when the field name is misspelled or missing.

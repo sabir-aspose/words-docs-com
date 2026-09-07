@@ -19,7 +19,7 @@ L'ajout de texte ou d'un autre contenu au tableau s'effectue à l'aide des méth
 
 ## Remplacer du texte dans un tableau
 
-La table, comme tout autre nœud dans Aspose.Words, a accès à l'objet [Range](https://reference.aspose.com/words/python-net/aspose.words/range/). À l’aide de l’objet plage de tableau, vous pouvez remplacer du texte dans un tableau.
+La table, comme tout autre nœud dans Aspose.Words, a accès à l'objet [Range](https://reference.aspose.com/words/python-net/aspose.words/range/). À l'aide de l'objet plage de tableau, vous pouvez remplacer du texte dans un tableau.
 
 La possibilité d'utiliser des caractères spéciaux lors du remplacement est actuellement prise en charge, il est donc possible de remplacer le texte existant par du texte multi-paragraphes. Pour ce faire, vous devez utiliser les métacaractères spéciaux décrits dans la méthode [Replace](https://reference.aspose.com/words/python-net/aspose.words/range/replace/#str_str) correspondante.
 

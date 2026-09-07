@@ -92,7 +92,7 @@ Définir doc = helper.Open("C:\my.doc")
 
 Certaines méthodes ont des surcharges et elles seront exposées par COM Interop avec un suffixe numérique ajouté, à l'exception de la toute première méthode qui reste inchangée. Par exemple, les surcharges de méthodes `Document.Save` deviennent `Document.Save`, `Document.Save_2`, `Document.Save_3`, etc.
 
-Pour plus d’informations, consultez les articles spécifiques aux langues plus loin dans cette documentation.
+Pour plus d'informations, consultez les articles spécifiques aux langues plus loin dans cette documentation.
 
 ### Création d'un assemblage Wrapper
 

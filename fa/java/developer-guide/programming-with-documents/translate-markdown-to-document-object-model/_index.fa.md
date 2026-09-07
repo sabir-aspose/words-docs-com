@@ -56,7 +56,7 @@ timestamp: 2024-10-21-11-17-44
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Autolink.java" >}} |  |
 | **Link**<br />`[متن لینک](url)`<br />`[متن لینک](<url>"title")`<br />`[متن لینک](url 'title')`<br />`[متن لینک](url (title))` | کلاس [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Link.java" >}} |  |
-| **Image**<br />`![](/words/java/translate-markdown-to-document-object-model/url)`<br />`![متن جایگزین](/words/java/translate-markdown-to-document-object-model/<url>"title")`<br />`![متن جایگزین](/words/java/translate-markdown-to-document-object-model/url ‘title’)`<br />`![متن جایگزین](/words/java/translate-markdown-to-document-object-model/url (title))` | کلاس [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) |
+| **Image**<br />`![](/words/java/translate-markdown-to-document-object-model/url)`<br />`![متن جایگزین](/words/java/translate-markdown-to-document-object-model/<url>"title")`<br />`![متن جایگزین](/words/java/translate-markdown-to-document-object-model/url ‘title')`<br />`![متن جایگزین](/words/java/translate-markdown-to-document-object-model/url (title))` | کلاس [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Image.java" >}} |  |
 
 ## بلوک های کانتینری
@@ -85,9 +85,9 @@ timestamp: 2024-10-21-11-17-44
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `ParagraphFormat.StyleName = "Quote[some suffix]"`<br />پسوند در نام سبک اختیاری است ،اما Aspose.Words وارد کننده از اعداد مرتب شده استفاده می کند 1, 2, 3, .... در مورد نقل قول های آشیانه ای.<br />لانه سازی از طریق سبک های ارثی تعریف می شود. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Quote.java" >}} |  |
-| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | لیست های با گلوله با استفاده از شماره گذاری پاراگراف نمایش داده می شوند:<br />`ListFormat.ApplyBulletDefault()`<br />می تواند 3 نوع لیست با گلوله وجود داشته باشد. آنها فقط در قالب شماره گذاری در سطح اول متفاوت هستند. این ها عبارتند از: `‘-’`، `‘+’` یا `‘*’` به ترتیب. |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | لیست های با گلوله با استفاده از شماره گذاری پاراگراف نمایش داده می شوند:<br />`ListFormat.ApplyBulletDefault()`<br />می تواند 3 نوع لیست با گلوله وجود داشته باشد. آنها فقط در قالب شماره گذاری در سطح اول متفاوت هستند. این ها عبارتند از: `‘-'`، `‘+'` یا `‘*'` به ترتیب. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BulletedList.java" >}} |  |
-| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | لیست های مرتب شده با استفاده از شماره گذاری پاراگراف نمایش داده می شوند:<br />`ListFormat.ApplyNumberDefault()`<br />می تواند 2 عدد نشانگر فرمت وجود داشته باشد: ‘.’ و ‘)’. نشانگر پیش فرض ‘.’ است. |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | لیست های مرتب شده با استفاده از شماره گذاری پاراگراف نمایش داده می شوند:<br />`ListFormat.ApplyNumberDefault()`<br />می تواند 2 عدد نشانگر فرمت وجود داشته باشد: ‘.' و ‘)'. نشانگر پیش فرض ‘.' است. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-OrderedList.java" >}} |  |
 
 ### جداول

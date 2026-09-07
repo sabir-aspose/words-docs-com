@@ -33,7 +33,7 @@ En utilisant Aspose.Words, vous pouvez facilement récupérer des données d'une
 1. Une fois que toutes les lignes du **DataTable** ont été traitées, terminez le tableau en appelant **DocumentBuilder.EndTable**.
 1. Enfin, nous pouvons définir le style de tableau souhaité en utilisant l'une des propriétés de tableau appropriées telles que **Table.StyleIdentifier** pour appliquer automatiquement le formatage à l'ensemble du tableau.
 
-La méthode **ImportTableFromDataTable** accepte un objet **DocumentBuilder**, le **DataTable** contenant les données et un indicateur qui spécifie si l'en-tête de colonne du **DataTable** est inclus en haut du tableau. Cette méthode crée un tableau à partir de ces paramètres en utilisant la position et le formatage actuels du générateur. Fournit une méthode pour importer des données à partir du `DataTable` et les insérer dans une nouvelle table à l’aide de DocumentBuilder.
+La méthode **ImportTableFromDataTable** accepte un objet **DocumentBuilder**, le **DataTable** contenant les données et un indicateur qui spécifie si l'en-tête de colonne du **DataTable** est inclus en haut du tableau. Cette méthode crée un tableau à partir de ces paramètres en utilisant la position et le formatage actuels du générateur. Fournit une méthode pour importer des données à partir du `DataTable` et les insérer dans une nouvelle table à l'aide de DocumentBuilder.
 
 Les données suivantes de notre **DataTable** sont utilisées dans cet exemple:
 

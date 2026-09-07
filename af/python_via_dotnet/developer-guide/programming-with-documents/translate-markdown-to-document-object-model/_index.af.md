@@ -103,7 +103,7 @@ builder = aw.DocumentBuilder()
 builder.insert_hyperlink("Aspose", "https://www.aspose.com", False)
 
 builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.link_example.md"){{< /highlight >}} |  |
-| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | Die [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) klas. |
+| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title')`<br />`![alt text](url (title))` | Die [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) klas. |
 | {{< highlight python >}}# Use a document builder to add content to the document.
 builder = aw.DocumentBuilder()
 

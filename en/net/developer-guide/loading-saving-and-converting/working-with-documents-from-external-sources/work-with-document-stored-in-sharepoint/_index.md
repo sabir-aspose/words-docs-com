@@ -45,7 +45,7 @@ To evaluate how Aspose.Words for .NET works with SharePoint documents, you need 
 
 To execute the instructions, you need to find and fix the values of the following parameters, which will be available after completing the steps in the "Preset" part:
 
-- Tenant identifier – see [how to find your tenant id](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id)
+- Tenant identifier –see [how to find your tenant id](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id)
 - Tenant name
 - Client identifier
 - Client secret
@@ -277,6 +277,6 @@ As a result, the "TestDoc.pdf" file should be placed in the "Shared Documents" f
 
 ## See Also
 
-- The article [Rendering](/words/net/rendering/) for more information on the fixed-page and flow-layout formats
-- The article [Converting to Fixed-page Format](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout) for more information on the page layout
-- The article [Specify Rendering Options When Converting to PDF](/words/net/specify-rendering-options-when-converting-to-pdf/) for more information on using the [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) class
+- The article[Rendering](/words/net/rendering/)for more information on the fixed-page and flow-layout formats
+- The article[Converting to Fixed-page Format](/words/net/converting-to-fixed-page-format/#what-is-a-page-layout)for more information on the page layout
+- The article[Specify Rendering Options When Converting to PDF](/words/net/specify-rendering-options-when-converting-to-pdf/)for more information on using the [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) class

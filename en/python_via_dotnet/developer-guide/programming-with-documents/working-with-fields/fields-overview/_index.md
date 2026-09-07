@@ -32,7 +32,7 @@ A field consists of:
 - The field code defines the behavior of the field and is comprised of the field identifier and often other parameters such as field name and switches.
 - The field result contains the most recent evaluation of the field. This value is stored in the field result and is what is displayed to the user. Some fields may not have any field result thus will not display anything in the document. Likewise, some fields may not be updated yet therefore will also have no field result.
 
-Here is a view of how a field is stored in Aspose.Words by using the “*DocumentExplorer”* example which can be found on [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Examples/DocsExamples/DocumentExplorer).
+Here is a view of how a field is stored in Aspose.Words by using the “*DocumentExplorer”*example which can be found on [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Examples/DocsExamples/DocumentExplorer).
 
 ![document-explorer-aspose-words](fields-overview-2.png)
 
@@ -43,7 +43,7 @@ Aspose.Words is a class library designed for server-side processing of Microsoft
 
 ## Fields in Microsoft Word
 
-Fields in Microsoft Word documents are complex. There are over 50 field types (each needs its own result calculation procedure), formulas and expressions, bookmarks and references, functions and various switches. Fields can also be nested. Normally when a document is opened, the field result (the value of the field) is shown for all fields in the document. You can toggle the display of field result or field codes in Microsoft Word for all fields by pressing **ALT+F9**.
+Fields in Microsoft Word documents are complex. There are over 50 field types (each needs its own result calculation procedure), formulas and expressions, bookmarks and references, functions and various switches. Fields can also be nested.Normally when a document is opened, the field result (the value of the field) is shown for all fields in the document. You can toggle the display of field result or field codes in Microsoft Word for all fields by pressing **ALT+F9**.
 
 | Field Code | Field Result |
 | :- | :- |
@@ -200,7 +200,7 @@ Aspose.Words supports all date and time formatting switches available in Microso
 
 #### Mail Merge Fields
 
-Aspose.Words imposes no limit on the complexity of Mail Merge fields in your documents and supports nested `IF` and formula fields and can even calculate the merge field’s name using a formula.
+Aspose.Words imposes no limit on the complexity of Mail Merge fields in your documents and supports nested `IF` and formula fields and can even calculate the merge field's name using a formula.
 
 Some examples of Mail Merge fields that Aspose.Words supports:
 
@@ -233,7 +233,7 @@ When Aspose.Words calculates a field result, it often needs to parse a string in
 - By default the [FieldOptions.field_update_culture_source](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldoptions/field_update_culture_source/) property is set to [FieldUpdateCultureSource.CURRENT_THREAD](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldupdateculturesource/#current_thread) which formats fields using the current thread culture.
 - This property can be set to [FieldUpdateCultureSource.FIELD_CODE](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldupdateculturesource/#field_code) so the language set from the field code of the field is used for formatting instead.
 
-#### Formatting using the Current Thread’s Culture
+#### Formatting using the Current Thread's Culture
 
 To control the culture used during field calculation, just use the **locale.setlocale** method to set the culture of your choice before invoking field calculation.
 Below example shows how to change the culture used in formatting fields during update.
@@ -246,13 +246,13 @@ Using the current culture to format fields allows a system to easily and consist
 
 On the other hand, Microsoft Word formats each individual field based off the language of the text found in the field (specifically, the runs from the field code). Sometimes during field update this may be the desired behavior, for example if you have globalized documents containing content made up of many different languages and would like each fields to honor the locale used from the text. Aspose.Words also supports this functionality.
 
-The [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) class provides a [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/) property which contains members which can be used to control how fields are updated within the document. Below example shows how to specify where the culture used for date formatting during field update and Mail Merge is chosen from.
+The [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) class provides a [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/) property which contains members which can be used to control how fields are updated within the document.Below example shows how to specify where the culture used for date formatting during field update and Mail Merge is chosen from.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ChangeFieldUpdateCultureSource.py" >}}
 
 ## Finding the Field Code and Field Result
 
-A field which is inserted using [DocumentBuilder.insert_field](https://reference.aspose.com/words/python-net/aspose.words.documentbuilder/insert_field/) returns a [Field](https://reference.aspose.com/words/python-net/aspose.words.fields/field/) object. This is a façade class which provides useful methods to quickly find such properties of a field. Note if you are only looking for the names of merge fields in the document then you can instead use the built-in method [MailMerge.get_field_names](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/get_field_names/). Below example shows how to get names of all merge fields in a document.
+A field which is inserted using [DocumentBuilder.insert_field](https://reference.aspose.com/words/python-net/aspose.words.documentbuilder/insert_field/) returns a [Field](https://reference.aspose.com/words/python-net/aspose.words.fields/field/) object. This is a façade class which provides useful methods to quickly find such properties of a field. Note if you are only looking for the names of merge fields in the document then you can instead use the built-in method [MailMerge.get_field_names](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/get_field_names/).Below example shows how to get names of all merge fields in a document.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-GetFieldNames.py" >}}
 

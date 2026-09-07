@@ -46,7 +46,7 @@ The following code example shows how to set the position of footnote and endnote
 ## FAQ
 
 1. **Q:** How can I change the numbering format of footnotes or endnotes?  
-   **A:** Use the `FootnoteOptions::set_NumberStyle` or `EndnoteOptions::set_NumberStyle` property on the document’s `FootnoteOptions`/`EndnoteOptions` object. For example:  
+   **A:** Use the `FootnoteOptions::set_NumberStyle` or `EndnoteOptions::set_NumberStyle` property on the document's `FootnoteOptions`/`EndnoteOptions` object. For example:  
 
    ```cpp
    System::SharedPtr<Aspose::Words::Notes::FootnoteOptions> footnoteOpts = doc->get_FootnoteOptions();
@@ -54,7 +54,7 @@ The following code example shows how to set the position of footnote and endnote
    ```
 
 2. **Q:** How can I retrieve all footnotes or endnotes from a document?  
-   **A:** The document provides `get_Footnotes()` and `get_Endnotes()` collections. Iterate over them to access each note’s properties, such as its text:  
+   **A:** The document provides `get_Footnotes()` and `get_Endnotes()` collections. Iterate over them to access each note's properties, such as its text:  
 
    ```cpp
    for (auto footnote : System::IterateOver(doc->get_Footnotes()))

@@ -25,7 +25,7 @@ Après avoir créé un clone de votre document, vous pourrez l'éditer et effect
 
 ## Création d'un clone de document
 
-Aspose.Words vous permet de cloner un document à l'aide de la méthode [clone](https://reference.aspose.com/words/python-net/aspose.words/document/clone/) qui effectue une copie complète du document et le renvoie. En d’autres termes, il obtiendra une copie complète du DOM. La méthode [clone](https://reference.aspose.com/words/python-net/aspose.words/document/clone/) accélère la génération des documents et vous n'avez besoin que d'une seule ligne de code pour obtenir une copie de votre document.
+Aspose.Words vous permet de cloner un document à l'aide de la méthode [clone](https://reference.aspose.com/words/python-net/aspose.words/document/clone/) qui effectue une copie complète du document et le renvoie. En d'autres termes, il obtiendra une copie complète du DOM. La méthode [clone](https://reference.aspose.com/words/python-net/aspose.words/document/clone/) accélère la génération des documents et vous n'avez besoin que d'une seule ligne de code pour obtenir une copie de votre document.
 
 Le clonage produit un nouveau document avec le même contenu que l'original, mais avec une copie unique de chacun des nœuds du document original. Vous pouvez également appliquer l'opération de clonage à un nœud de document à l'aide de la méthode node [clone](https://reference.aspose.com/words/python-net/aspose.words/document/clone/), qui vous permet de dupliquer des nœuds de document composite avec et sans leurs nœuds enfants.
 

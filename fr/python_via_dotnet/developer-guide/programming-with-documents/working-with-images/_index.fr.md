@@ -96,7 +96,7 @@ L'exemple de code suivant insère une image de code-barres sur chaque page d'un 
 
 ## Verrouiller le rapport hauteur/largeur de l'image
 
-Le rapport hauteur/largeur d’une forme géométrique est le rapport de ses tailles dans différentes dimensions. Vous pouvez verrouiller le rapport hauteur/largeur de l'image à l'aide de [aspect_ratio_locked](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/aspect_ratio_locked/). La valeur par défaut du rapport hauteur/largeur de la forme dépend du [ShapeType](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapetype/). Il s'agit de `True` pour [ShapeType.IMAGE](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapetype/#image) et `False` pour les autres types de formes.
+Le rapport hauteur/largeur d'une forme géométrique est le rapport de ses tailles dans différentes dimensions. Vous pouvez verrouiller le rapport hauteur/largeur de l'image à l'aide de [aspect_ratio_locked](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/aspect_ratio_locked/). La valeur par défaut du rapport hauteur/largeur de la forme dépend du [ShapeType](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapetype/). Il s'agit de `True` pour [ShapeType.IMAGE](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapetype/#image) et `False` pour les autres types de formes.
 
 L'exemple de code suivant montre comment utiliser les proportions:
 
@@ -130,7 +130,7 @@ print(f"{rect.x}, {rect.y}, {rect.width}, {rect.height}")
 
 ## Recadrer les images
 
-Le recadrage d'une image fait généralement référence à la suppression des parties extérieures indésirables d'une image pour aider à améliorer le cadrage. Il est également utilisé pour supprimer certaines parties d’une image afin d’augmenter la mise au point sur une zone particulière.
+Le recadrage d'une image fait généralement référence à la suppression des parties extérieures indésirables d'une image pour aider à améliorer le cadrage. Il est également utilisé pour supprimer certaines parties d'une image afin d'augmenter la mise au point sur une zone particulière.
 
 L'exemple de code suivant montre comment y parvenir à l'aide de Aspose.Words API:
 

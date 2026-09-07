@@ -41,12 +41,12 @@ timestamp: 2024-10-21-11-17-44
 | [`HTML`](https://docs.fileformat.com/web/html/) | HTML или XHTML формат | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`MHTML`](https://docs.fileformat.com/web/mhtml/) | MHTML (Веб-архив) Формат | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`EPUB`](https://docs.fileformat.com/ebook/epub/) | Формат IDPF EPUB | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
-| [`ODT`](https://docs.fileformat.com/word-processing/odt/) | Формат Текстовый документ | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
-| [`OTT`](https://docs.fileformat.com/word-processing/ott/) | Формат Текстовый документ Template | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
+| [`ODT`](https://docs.fileformat.com/word-processing/odt/)| Формат Текстовый документ | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
+| [`OTT`](https://docs.fileformat.com/word-processing/ott/)| Формат Текстовый документ Template | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`TXT`](https://docs.fileformat.com/word-processing/txt/) | Простой текст | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`MOBI`](https://docs.fileformat.com/ebook/mobi/) | Формат электронной книги, используемый `MobiPocket` Читатель и Amazon Читатели Kindle | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`AZW3`](https://docs.fileformat.com/ebook/azw3/) | Формат электронных книг, используемый Amazon Читатели Kindle | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
-| [`CHM`](https://docs.fileformat.com/web/chm/) | Формат CHM (Compiled HTML Help) | {{< emoticons/tick >}} |  | |
+| [`CHM`](https://docs.fileformat.com/web/chm/) | Формат CHM (Compiled HTML Help) | {{< emoticons/tick >}} |  ||
 | `XamlFlow` | **Beta**<br />Сохраняет документ в формате расширяемого языка разметки приложений (XAML) в качестве проточного документа |  | {{< emoticons/tick >}} |  |
 | `XamlFlowPack` | **Beta**<br />Сохраняет документ в формате пакета Extensible Application Markup Language (XAML) в виде проточного документа |  | {{< emoticons/tick >}} |  |
 | [`MD`](https://docs.fileformat.com/word-processing/md/) | Markdown Документация | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |

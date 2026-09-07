@@ -25,9 +25,9 @@ timestamp: 2024-01-27-14-07-04
 
 ## Перевірити текст Коробка Sequence
 
-Існує кілька способів відображення тексту у формі. Про нас [text_box](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/text_box/) може бути керівником, середнім або в’язкою послідовності.
+Існує кілька способів відображення тексту у формі. Про нас [text_box](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/text_box/) може бути керівником, середнім або в'язкою послідовності.
 
-Приклад наступного коду показує, як перевірити, якщо **TextBox** - голова, в’язниця або середина послідовності:
+Приклад наступного коду показує, як перевірити, якщо **TextBox** - голова, в'язниця або середина послідовності:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_textboxes-CheckSequence.py" >}}
 

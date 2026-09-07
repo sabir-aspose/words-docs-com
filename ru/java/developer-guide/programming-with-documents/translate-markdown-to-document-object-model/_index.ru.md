@@ -56,7 +56,7 @@ timestamp: 2024-10-21-11-17-44
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Autolink.java" >}} |  |
 | **Link**<br />`[текст ссылки](url)`<br />`[текст ссылки](<url>"title")`<br />`[текст ссылки](url 'title')`<br />`[текст ссылки](url (title))` | Класс [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/). |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Link.java" >}} |  |
-| **Image**<br />`![](/words/java/translate-markdown-to-document-object-model/url)`<br />`![альтернативный текст](/words/java/translate-markdown-to-document-object-model/<url>"title")`<br />`![альтернативный текст](/words/java/translate-markdown-to-document-object-model/url ‘title’)`<br />`![альтернативный текст](/words/java/translate-markdown-to-document-object-model/url (title))` | Класс [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/). |
+| **Image**<br />`![](/words/java/translate-markdown-to-document-object-model/url)`<br />`![альтернативный текст](/words/java/translate-markdown-to-document-object-model/<url>"title")`<br />`![альтернативный текст](/words/java/translate-markdown-to-document-object-model/url ‘title')`<br />`![альтернативный текст](/words/java/translate-markdown-to-document-object-model/url (title))` | Класс [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/). |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Image.java" >}} |  |
 
 ## Контейнерные блоки
@@ -85,9 +85,9 @@ timestamp: 2024-10-21-11-17-44
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `ParagraphFormat.StyleName = "Quote[some suffix]"`<br /> Суффикс в названии стиля необязателен, но Aspose.Words импортер использует упорядоченные номера 1, 2, 3, .... в случае вложенных кавычек.<br />Вложенность определяется с помощью унаследованных стилей. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Quote.java" >}} |  |
-| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Маркированные списки представлены с использованием нумерации абзацев:<br />`ListFormat.ApplyBulletDefault()`<br />Маркированные списки могут быть трех типов. Они различаются только в формате нумерации самого первого уровня. Это: `‘-’`, `‘+’` или `‘*’` соответственно. |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Маркированные списки представлены с использованием нумерации абзацев:<br />`ListFormat.ApplyBulletDefault()`<br />Маркированные списки могут быть трех типов. Они различаются только в формате нумерации самого первого уровня. Это: `‘-'`, `‘+'` или `‘*'` соответственно. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BulletedList.java" >}} |  |
-| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Упорядоченные списки представлены с использованием нумерации абзацев:<br />`ListFormat.ApplyNumberDefault()`<br /> Может быть 2 маркера числового формата: ‘.’ и ‘)’. По умолчанию используется маркер ‘.’. |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Упорядоченные списки представлены с использованием нумерации абзацев:<br />`ListFormat.ApplyNumberDefault()`<br /> Может быть 2 маркера числового формата: ‘.' и ‘)'. По умолчанию используется маркер ‘.'. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-OrderedList.java" >}} |  |
 
 ### Таблицы

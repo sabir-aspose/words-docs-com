@@ -104,7 +104,7 @@ If you want to count the number of lines in a paragraph for any Word document, t
    ```
 
 2. **Q:** How can I change the alignment, indentation, or spacing of a paragraph?  
-   **A:** Access the paragraph’s `ParagraphFormat` object and set its properties such as `Alignment`, `LeftIndent`, `RightIndent`, `SpaceAfter`, and `SpaceBefore`.  
+   **A:** Access the paragraph's `ParagraphFormat` object and set its properties such as `Alignment`, `LeftIndent`, `RightIndent`, `SpaceAfter`, and `SpaceBefore`.  
 
    ```csharp
    Paragraph para = doc.FirstSection.Body.FirstParagraph;
@@ -115,7 +115,7 @@ If you want to count the number of lines in a paragraph for any Word document, t
    ```
 
 3. **Q:** What is the recommended way to apply a built‑in style (e.g., Heading 1) to a paragraph?  
-   **A:** Set the `StyleIdentifier` of the paragraph’s `ParagraphFormat`. This works regardless of the document’s language because the identifier is locale‑independent.  
+   **A:** Set the `StyleIdentifier` of the paragraph's `ParagraphFormat`. This works regardless of the document's language because the identifier is locale‑independent.  
 
    ```csharp
    Paragraph para = doc.FirstSection.Body.FirstParagraph;

@@ -3,7 +3,7 @@ title: Suivre les modifications dans un document dans C#
 second_title: Aspose.Words pour .NET
 articleTitle: Suivre les modifications dans un document
 linktitle: Suivre les modifications dans un document
-description: "Suivez les modifications apportées au contenu et au formatage effectuées par vous ou par d'autres personnes à l'aide de C#. Accédez aux révisions individuelles d’un document et appliquez-leur diverses propriétés."
+description: "Suivez les modifications apportées au contenu et au formatage effectuées par vous ou par d'autres personnes à l'aide de C#. Accédez aux révisions individuelles d'un document et appliquez-leur diverses propriétés."
 type: docs
 weight: 270
 ai_search_scope: words_net

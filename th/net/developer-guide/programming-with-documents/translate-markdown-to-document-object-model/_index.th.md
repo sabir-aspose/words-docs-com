@@ -135,7 +135,7 @@ Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
 builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
-|  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  รายการสัญลักษณ์แสดงหัวข้อย่อยจะแสดงโดยใช้หมายเลขย่อหน้า:<br /> `ListFormat.ApplyBulletDefault()`<br /> รายการสัญลักษณ์แสดงหัวข้อย่อยสามารถมีได้ 3 ประเภท ต่างกันเพียงรูปแบบการกำหนดหมายเลขของระดับแรกเท่านั้น เหล่านี้คือ: `‘-’`, `‘+’` หรือ `‘*’` ตามลำดับ |
+|  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  รายการสัญลักษณ์แสดงหัวข้อย่อยจะแสดงโดยใช้หมายเลขย่อหน้า:<br /> `ListFormat.ApplyBulletDefault()`<br /> รายการสัญลักษณ์แสดงหัวข้อย่อยสามารถมีได้ 3 ประเภท ต่างกันเพียงรูปแบบการกำหนดหมายเลขของระดับแรกเท่านั้น เหล่านี้คือ: `‘-'`, `‘+'` หรือ `‘*'` ตามลำดับ |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
 |  **OrderedList**<br /> `1. Item 1`<br /> `2. Item 2`<br /> `1) Item 2a`<br /> `2) Item 2b` |  รายการที่เรียงลำดับจะแสดงโดยใช้หมายเลขย่อหน้า:<br /> `ListFormat.ApplyNumberDefault()`<br /> เครื่องหมายรูปแบบตัวเลขมีได้ 2 แบบ: '." และ ')'. เครื่องหมายเริ่มต้นคือ '.' |
 |  {{< highlight csharp >}}Document doc = new Document();

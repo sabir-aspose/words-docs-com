@@ -69,7 +69,7 @@ For more information, check the [aspose.words.ai](https://reference.aspose.com/w
    ```
 
 3. **Q:** Can I retrieve the list of all supported model types programmatically?  
-   **A:** Yes. The `AiModelType` enumeration provides all supported values. You can iterate over it using Python’s `dir` or `Enum` utilities:
+   **A:** Yes. The `AiModelType` enumeration provides all supported values. You can iterate over it using Python's `dir` or `Enum` utilities:
 
    ```python
    import aspose.words.ai as ai

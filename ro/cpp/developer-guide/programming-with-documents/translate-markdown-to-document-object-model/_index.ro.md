@@ -56,7 +56,7 @@ Folosim un stil de caractere cu un nume care începe de la cuvântul `InlineCode
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Autolink.h" >}} |  |
 | **Link**<br />`[link text](url)`<br />`[link text](<url>"title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | Clasa [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/). |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Link.h" >}} |  |
-| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | Clasa [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/). |
+| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title')`<br />`![alt text](url (title))` | Clasa [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/). |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Image.h" >}} |  |
 
 ## Blocuri De Containere
@@ -92,9 +92,9 @@ Tabelul de mai jos prezintă exemple de utilizare a containerelor complexe Markd
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `get_ParagraphFormat()->set_StyleName(u"Quote[some suffix]")`<br />sufixul din numele stilului este opțional, dar Aspose.Words importatorul folosește numerele ordonate1, 2, 3, .... în cazul cotațiilor imbricate.<br />Cuibul este definit prin stilurile moștenite. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Quote.h" >}} |  |
-| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Listele cu marcatori sunt reprezentate folosind numerotarea paragrafelor:<br />`get_ListFormat()->ApplyBulletDefault()`<br />pot exista 3 tipuri de liste cu marcatori. Ele sunt diferite doar într-un format de numerotare de la primul nivel. Acestea sunt: `‘-’`, `‘+’` sau `‘*’` respectiv. |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Listele cu marcatori sunt reprezentate folosind numerotarea paragrafelor:<br />`get_ListFormat()->ApplyBulletDefault()`<br />pot exista 3 tipuri de liste cu marcatori. Ele sunt diferite doar într-un format de numerotare de la primul nivel. Acestea sunt: `‘-'`, `‘+'` sau `‘*'` respectiv. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-BulletedList.h" >}} |  |
-| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Listele ordonate sunt reprezentate folosind numerotarea paragrafelor:<br />`get_ListFormat()->ApplyNumberDefault()`<br />pot exista 2 markeri de format numeric: ‘.’ și ‘)’. Marcatorul implicit este ‘.’. |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Listele ordonate sunt reprezentate folosind numerotarea paragrafelor:<br />`get_ListFormat()->ApplyNumberDefault()`<br />pot exista 2 markeri de format numeric: ‘.' și ‘)'. Marcatorul implicit este ‘.'. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-OrderedList.h" >}} |  |
 
 ### Tabele

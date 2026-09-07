@@ -60,7 +60,7 @@ The good news is that LINQ Reporting Engine can be further extended to fulfill a
 ## FAQ
 
 1. **Q:** What is the main difference between Mail Merge and LINQ Reporting Engine in Aspose.Words for Java?  
-   **A:** Mail Merge replicates Microsoft Word’s native mail‑merge functionality and works with merge fields defined in the document. LINQ Reporting Engine uses its own plain‑text tag syntax, is not bound to Word’s legacy behavior, and provides richer features such as multiple data sources, LINQ expressions, and dynamic chart generation.
+   **A:** Mail Merge replicates Microsoft Word's native mail‑merge functionality and works with merge fields defined in the document. LINQ Reporting Engine uses its own plain‑text tag syntax, is not bound to Word's legacy behavior, and provides richer features such as multiple data sources, LINQ expressions, and dynamic chart generation.
 
 2. **Q:** Can I combine Mail Merge and LINQ Reporting Engine in the same document?  
    **A:** Yes. You can use Mail Merge for simple field replacements and LINQ Reporting Engine tags for more complex scenarios (e.g., charts or HTML). Process the LINQ tags first with `ReportingEngine`, then execute `Document.mailMerge().execute(...)` for any remaining merge fields.

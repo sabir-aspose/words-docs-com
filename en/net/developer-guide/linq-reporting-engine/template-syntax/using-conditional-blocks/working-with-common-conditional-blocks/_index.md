@@ -23,16 +23,16 @@ This page explains how to work with common conditional blocks in templates.
 
 A common conditional block is a conditional block which body starts and ends within paragraphs that belong to a single story or table cell.
 
-If a conditional block belongs to a single paragraph, it can be used as a replacement for an expression tag that involves the ternary “`?:`” operator. For example, given that `items` is an enumeration, you can use the following template to represent the count of elements in the enumeration.
+If a conditional block belongs to a single paragraph, it can be used as a replacement for an expression tag that involves the ternary “`?:`” operator. For example, given that`items`is an enumeration, you can use the following template to represent the count of elements in the enumeration.
 
 {{< highlight csharp >}}
 You have chosen <<if [!items.Any()]>>
 no items<<else>><<[items.Count()]>> item(s)<</if>>.
 {{< /highlight >}}
 
-**Note** – A template option of a common conditional block can be composed of multiple paragraphs if needed.
+**Note** –A template option of a common conditional block can be composed of multiple paragraphs if needed.
 
-You can normally use common conditional blocks within data bands. For example, given that items is an enumeration of the strings “item1”, “item2”, and “item3”, you can use the following template to enumerate them and apply different formatting for even and odd elements.
+You can normally use common conditional blocks within data bands. For example, given thatitemsis an enumeration of the strings “item1”, “item2”, and “item3”, you can use the following template to enumerate them and apply different formatting for even and odd elements.
 
 <table class="conditional block">
 	<tbody>
@@ -56,7 +56,7 @@ item3</td>
 	</tbody>
 </table>
 
-You can use data bands within common conditional blocks as well. For example, given the previous declaration of `items`, you can check whether the enumeration contains any elements before outputting their list.
+You can use data bands within common conditional blocks as well. For example, given the previous declaration of`items`, you can check whether the enumeration contains any elements before outputting their list.
 
 {{< highlight csharp >}}
 <<if [!items.Any()]>>No data.
@@ -81,4 +81,4 @@ You can use data bands within common conditional blocks as well. For example, gi
    **A:** Yes. Conditional blocks can be nested to any depth, allowing complex logic. Ensure each block is properly closed with its corresponding `</if>` or `</foreach>` tag.
 
 5. **Q:** What happens if a condition evaluates to false and there is no `<<else>>` clause?  
-   **A:** The engine simply omits the block’s content; nothing is rendered for that part of the template. Provide an `<<else>>` clause only when you need alternative output.
+   **A:** The engine simply omits the block's content; nothing is rendered for that part of the template. Provide an `<<else>>` clause only when you need alternative output.

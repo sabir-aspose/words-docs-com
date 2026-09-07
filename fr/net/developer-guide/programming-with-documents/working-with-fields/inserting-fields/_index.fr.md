@@ -35,7 +35,7 @@ L'exemple de code suivant montre comment insérer un champ de fusion dans un doc
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertField-InsertField.cs" >}}
 
-La même technique est utilisée pour insérer des champs imbriqués dans d’autres champs.
+La même technique est utilisée pour insérer des champs imbriqués dans d'autres champs.
 
 L'exemple de code suivant montre comment insérer des champs imbriqués dans un autre champ à l'aide de **DocumentBuilder**:
 

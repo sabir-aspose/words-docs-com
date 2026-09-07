@@ -118,7 +118,7 @@ builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.image_examp
 
 ## Blocs de conteneurs
 
-Un document est une séquence de blocs conteneurs tels que des titres, des paragraphes, des listes, des citations et autres. Les blocs conteneurs peuvent être divisés en 2 classes: les blocs feuilles et les conteneurs complexes. Les blocs feuilles ne peuvent contenir que du contenu en ligne. Les conteneurs complexes, à leur tour, peuvent contenir d’autres blocs de conteneurs, notamment des blocs Leaf.
+Un document est une séquence de blocs conteneurs tels que des titres, des paragraphes, des listes, des citations et autres. Les blocs conteneurs peuvent être divisés en 2 classes: les blocs feuilles et les conteneurs complexes. Les blocs feuilles ne peuvent contenir que du contenu en ligne. Les conteneurs complexes, à leur tour, peuvent contenir d'autres blocs de conteneurs, notamment des blocs Leaf.
 
 ### Blocs de feuilles
 

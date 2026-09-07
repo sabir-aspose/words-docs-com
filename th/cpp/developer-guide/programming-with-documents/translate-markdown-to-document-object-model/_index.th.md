@@ -56,7 +56,7 @@ timestamp: 2024-10-21-11-17-44
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Autolink.h" >}} |  |
 | **Link**<br />`[link text](url)`<br />`[link text](<url>"title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | คลาส[FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/). |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Link.h" >}} |  |
-| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | คลาส[Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/). |
+| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title')`<br />`![alt text](url (title))` | คลาส[Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/). |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Image.h" >}} |  |
 
 ## บล็อกคอนเทนเนอร์
@@ -92,9 +92,9 @@ else
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `get_ParagraphFormat()->set_StyleName(u"Quote[some suffix]")`<br />ต่อท้ายในชื่อสไตล์เป็นตัวเลือกแต่ผู้นำเข้าAspose.Wordsใช้หมายเลขเรียงลำดับ1, 2, 3, .... ในกรณีของคำพูดที่ซ้อนกัน<br />รังจะถูกกำหนดผ่านทางรูปแบบที่สืบทอด. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Quote.h" >}} |  |
-| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | รายการที่มีสัญลักษณ์แสดงโดยใช้หมายเลขย่อหน้า:<br />`get_ListFormat()->ApplyBulletDefault()`<br />สามารถมี3ประเภทของรายการที่มีสัญลักษณ์ กต่างกันในรูปแบบตัวเลขของระดับแรกมาก เหล่านี้คือ:`‘-’`,`‘+’`หรือ`‘*’`ตามลำดับ. |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | รายการที่มีสัญลักษณ์แสดงโดยใช้หมายเลขย่อหน้า:<br />`get_ListFormat()->ApplyBulletDefault()`<br />สามารถมี3ประเภทของรายการที่มีสัญลักษณ์ กต่างกันในรูปแบบตัวเลขของระดับแรกมาก เหล่านี้คือ:`‘-'`,`‘+'`หรือ`‘*'`ตามลำดับ. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-BulletedList.h" >}} |  |
-| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | รายการสั่งซื้อจะถูกแสดงโดยใช้หมายเลขย่อหน้า:<br />`get_ListFormat()->ApplyNumberDefault()`<br />สามารถมีเครื่องหมายรูปแบบหมายเลข2:‘.’และ‘)’ เครื่องหมายเริ่มต้นคือ‘.’. |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | รายการสั่งซื้อจะถูกแสดงโดยใช้หมายเลขย่อหน้า:<br />`get_ListFormat()->ApplyNumberDefault()`<br />สามารถมีเครื่องหมายรูปแบบหมายเลข2:‘.'และ‘)' เครื่องหมายเริ่มต้นคือ‘.'. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-OrderedList.h" >}} |  |
 
 ### โต๊ะ

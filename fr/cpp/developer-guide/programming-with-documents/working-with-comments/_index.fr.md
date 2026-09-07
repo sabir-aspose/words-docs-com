@@ -58,7 +58,7 @@ Pour illustrer comment extraire et supprimer des commentaires d'un document, nou
 1. Pour extraire des commentaires:
    1. Parcourez la collection en utilisant l'opérateur foreach
    1. Extraire et répertorier le nom de l'auteur, la date et l'heure et le texte de tous les commentaires
-   1. Extraire et répertorier le nom de l'auteur, la date et l'heure et le texte des commentaires écrits par un auteur spécifique, dans ce cas, l'auteur " ks’
+   1. Extraire et répertorier le nom de l'auteur, la date et l'heure et le texte des commentaires écrits par un auteur spécifique, dans ce cas, l'auteur " ks'
 1. Pour supprimer des commentaires:
    1. Revenez en arrière dans la collection en utilisant l'opérateur pour l'opérateur
    1. Supprimer des commentaires

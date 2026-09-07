@@ -80,7 +80,7 @@ Aspose.Words дозволяє користувачам працювати з з�
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-SetAspectRatioLocked.cs" >}}
 
-## Як отримати реальні зв’язки форми в точках {#how-to-get-actual-bounds-of-shape-in-points}
+## Як отримати реальні зв'язки форми в точках {#how-to-get-actual-bounds-of-shape-in-points}
 
 Якщо ви хочете, щоб фактична обмежена коробка форми, як надана на сторінці, ви можете досягти цього, використовуючи [BoundsInPoints](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/boundsinpoints/) майно.
 

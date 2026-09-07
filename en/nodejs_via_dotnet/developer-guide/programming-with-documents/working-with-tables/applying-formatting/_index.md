@@ -374,8 +374,8 @@ The following code example shows how to format a table and cell with different b
 
 ## FAQ
 
-1. Q: How can I set a table’s width to a specific percentage of the page?  
-   A: Use the `PreferredWidth.FromPercent` method on the table’s `PreferredWidth` property, e.g., `table.preferredWidth = PreferredWidth.fromPercent(50);`. This makes the table occupy 50 % of the available page width.
+1. Q: How can I set a table's width to a specific percentage of the page?  
+   A: Use the `PreferredWidth.FromPercent` method on the table's `PreferredWidth` property, e.g., `table.preferredWidth = PreferredWidth.fromPercent(50);`. This makes the table occupy 50 % of the available page width.
 
 2. Q: How do I disable AutoFit and give each column a fixed width?  
    A: Set `table.allowAutoFit = false;` and then assign a width to each cell via `cell.cellFormat.width = 72;` (points). Fixed widths remain unchanged when the content grows.

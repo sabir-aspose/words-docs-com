@@ -60,7 +60,7 @@ This is the second way used with JasperReports.
 
 {{% /alert %}}
 
-1. Download the license to your computer and copy it to the appropriate folder (for example your application’s folder or JasperReports\lib).
+1. Download the license to your computer and copy it to the appropriate folder (for example your application's folder or JasperReports\lib).
 1. Add the following code to your project: 
 
 **Java**

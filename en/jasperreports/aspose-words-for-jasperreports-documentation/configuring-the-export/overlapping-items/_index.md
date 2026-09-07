@@ -22,17 +22,17 @@ In flow layout, overlapping items cannot be converted preserving their original 
 - **Truncate** - Overlapping parts are truncated.
 - **Push** - Overlapping items are pushed in appropriate directions.
 
-The second method allows the preservation of the original position of report items and does not affect surrounding contents. However, it may corrupt the item’s appearance. If you are not satisfied with the `AsIs` method, you can try Truncate method or the `Push` method.
+The second method allows the preservation of the original position of report items and does not affect surrounding contents. However, it may corrupt the item's appearance. If you are not satisfied with the `AsIs` method, you can try Truncate method or the `Push` method.
 
 **JasperReports:**
 
 **Java**
 
 {{< highlight csharp >}}
-   import com.aspose.words.jasperreports.*;
-   AWDocExporter exporter = new AWDocExporter();
-   exporter.setParameter(AWExporterParameter.OVERLAP_RESOLUTION_METHOD, AWExporterParameter. OVERLAP_RESOLUTION_METHOD_PUSH_ITEMS);
-   exporter.exportReport();
+ import com.aspose.words.jasperreports.*;
+ AWDocExporter exporter = new AWDocExporter();
+ exporter.setParameter(AWExporterParameter.OVERLAP_RESOLUTION_METHOD, AWExporterParameter. OVERLAP_RESOLUTION_METHOD_PUSH_ITEMS);
+ exporter.exportReport();
 {{< /highlight >}}
 
 **JasperServer:**
@@ -41,6 +41,6 @@ The second method allows the preservation of the original position of report ite
 
 {{< highlight csharp >}}
 <bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
-    <property name="overlapResolutionMethod" value="2"/>
+ <property name="overlapResolutionMethod" value="2"/>
 </bean>
 {{< /highlight >}}

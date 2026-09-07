@@ -114,6 +114,6 @@ L'exemple de code suivant montre comment définir le style du contrôle de conte
 
 Le contrôle du contenu de la section répétitive permet de répéter le contenu qu'elle contient. À l'aide de Aspose.Words, les nœuds de balises de document structurés des types d'éléments de section répétitive et de section répétitive peuvent être créés et à cet effet, [Type d'énumération SdtType](https://reference.aspose.com/words/fr/net/aspose.words.markup/sdttype/) fournit une propriété **RepeatingSectionItem**.
 
-L’exemple de code suivant montre comment lier un contrôle de contenu de section répétitive à une table.
+L'exemple de code suivant montre comment lier un contrôle de contenu de section répétitive à une table.
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-CreatingTableRepeatingSectionMappedToCustomXmlPart.cs" >}}

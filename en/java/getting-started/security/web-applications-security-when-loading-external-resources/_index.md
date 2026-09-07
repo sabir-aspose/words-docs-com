@@ -29,7 +29,7 @@ There are a number of typical security problems when loading external resources.
 
 ### Credential Disclosure Via Linked Images
 
-On Windows-based hosts, documents containing references to resources that use UNC paths such as *‘\\example.com\a\b*’ will be processed by default. In a domain environment, this will cause the host to send its domain credentials in a hashed format to the specified server.
+On Windows-based hosts, documents containing references to resources that use UNC paths such as *‘\\example.com\a\b*' will be processed by default. In a domain environment, this will cause the host to send its domain credentials in a hashed format to the specified server.
 
 If an attacker is able to convince a user or server to process a document with such a resource link pointing to a host they control, the attacker will receive the user or service account credentials in NTLM hash format. Such data then can be reused in a classic pass-the-hash attack, allowing the attacker to gain access to any resource as the victim user or service account.
 

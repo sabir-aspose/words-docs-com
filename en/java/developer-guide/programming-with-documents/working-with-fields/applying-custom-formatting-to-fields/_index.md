@@ -27,7 +27,7 @@ To learn more options, see the full list of properties for each field type in th
 
 ## How to Apply Custom Formatting to Field Result
 
-Aspose.Words provides API for custom formatting of field's result. You can implement [IFieldResultFormatter](https://reference.aspose.com/words/java/com.aspose.words/ifieldresultformatter/) interface to control how the field result is formatted. You can apply numeric format switch, i.e. \# "#.##", date/time format switch, i.e. \@ "dd.MM.yyyy", and number format switch, i.e. \* Ordinal.
+Aspose.Words provides API for custom formatting of field's result. You can implement [IFieldResultFormatter](https://reference.aspose.com/words/java/com.aspose.words/ifieldresultformatter/) interface to control how the field result is formatted. You can apply numeric format switch, i.e. \# "#.##", date/time format switch, i.e. \@ "dd.MM.yyyy", andnumber format switch, i.e. \* Ordinal.
 
 The following code example shows how to apply custom formatting for the field result:
 
@@ -75,4 +75,4 @@ The following code examples shows how to apply custom formatting to the `TIME` f
    **A:** Implement `IFieldUpdateCultureProvider` and return a `CultureInfo` that matches your required time format. Register the provider with `Document.updateFields()` or set it on the specific `FieldTime` instance.
 
 5. **Q:** Is it possible to apply an ordinal number format (e.g., 1st, 2nd) to a field?  
-   **A:** Yes. Use the number format switch `\* Ordinal` in the field code, or return the ordinal string from your `IFieldResultFormatter` implementation for the field’s result.
+   **A:** Yes. Use the number format switch `\* Ordinal` in the field code, or return the ordinal string from your `IFieldResultFormatter` implementation for the field's result.

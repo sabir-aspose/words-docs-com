@@ -135,7 +135,7 @@ Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
 builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
-|  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  Danh sách có dấu đầu dòng được thể hiện bằng cách đánh số đoạn văn:<br /> `ListFormat.ApplyBulletDefault()`<br /> Có thể có 3 loại danh sách có dấu đầu dòng. Chúng chỉ khác nhau ở định dạng đánh số ở cấp độ đầu tiên. Đó là: `‘-’`, `‘+’` hoặc `‘*’` tương ứng |
+|  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  Danh sách có dấu đầu dòng được thể hiện bằng cách đánh số đoạn văn:<br /> `ListFormat.ApplyBulletDefault()`<br /> Có thể có 3 loại danh sách có dấu đầu dòng. Chúng chỉ khác nhau ở định dạng đánh số ở cấp độ đầu tiên. Đó là: `‘-'`, `‘+'` hoặc `‘*'` tương ứng |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
 |  **OrderedList**<br /> `1. Item 1`<br /> `2. Item 2`<br /> `1) Item 2a`<br /> `2) Item 2b` |  Danh sách có thứ tự được thể hiện bằng cách đánh số đoạn văn:<br /> `ListFormat.ApplyNumberDefault()`<br /> Có thể có 2 dấu định dạng số: '.' Và ')'. Điểm đánh dấu mặc định là '.' |
 |  {{< highlight csharp >}}Document doc = new Document();

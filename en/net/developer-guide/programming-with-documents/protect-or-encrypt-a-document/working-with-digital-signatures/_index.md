@@ -143,7 +143,7 @@ Note that you can not remove only one digital signature within your document.
    **A:** Use `FileFormatUtil.DetectFileFormat` to identify the file type and then read the `HasDigitalSignature` property from the `FileFormatInfo` object. This returns `true` if at least one digital signature is present.
 
 2. **Q:** How do I verify the validity of the digital signatures in a document?  
-   **A:** Load the signatures with `DigitalSignatureUtil.LoadSignatures`, then iterate through the returned `DigitalSignatureCollection` and examine each signature’s `IsValid` property. A value of `true` indicates a valid, untampered signature.
+   **A:** Load the signatures with `DigitalSignatureUtil.LoadSignatures`, then iterate through the returned `DigitalSignatureCollection` and examine each signature's `IsValid` property. A value of `true` indicates a valid, untampered signature.
 
 3. **Q:** How can I count the number of digital signatures in a document?  
    **A:** After loading the signatures using `DigitalSignatureUtil.LoadSignatures`, read the `Count` property of the resulting `DigitalSignatureCollection`. This gives the total number of signatures attached to the document.

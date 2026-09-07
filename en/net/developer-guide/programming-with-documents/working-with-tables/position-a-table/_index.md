@@ -52,15 +52,15 @@ The following code example shows how to get the table's alignment:
 
  The position of a floating table is determined using the following properties: 
 
-* [HorizontalAnchor](https://reference.aspose.com/words/net/aspose.words.tables/table/horizontalanchor/) – an object for calculating the horizontal positioning of a floating table
+* [HorizontalAnchor](https://reference.aspose.com/words/net/aspose.words.tables/table/horizontalanchor/) –an object for calculating the horizontal positioning of a floating table
 * [VerticalAnchor](https://reference.aspose.com/words/net/aspose.words.tables/table/verticalanchor/) – an object for calculating the vertical positioning of a floating table
-* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/absolutehorizontaldistance/) – absolute horizontal floating table position
+* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/absolutehorizontaldistance/) –absolute horizontal floating table position
 * [AbsoluteVerticalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/absoluteverticaldistance/) – absolute vertical floating table position
-* [AllowOverlap](https://reference.aspose.com/words/net/aspose.words.tables/table/allowoverlap/) – option to enable/disable overlap with other floating objects
-* [RelativeHorizontalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativehorizontalalignment/) –  floating table relative horizontal alignment.
+* [AllowOverlap](https://reference.aspose.com/words/net/aspose.words.tables/table/allowoverlap/) –option to enable/disable overlap with other floating objects
+* [RelativeHorizontalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativehorizontalalignment/) – floating table relative horizontal alignment.
 * [RelativeVerticalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativeverticalalignment/) –  floating table relative vertical alignment.
 
-The following code example shows how to get the position of a floating table:
+The following code exampleshows how to get the position of a floating table:
 
 {{< gist "aspose-words-gists" "8df1ad0825619cab7c80b571c6e6ba99" "get-floating-table-position.cs" >}}
 

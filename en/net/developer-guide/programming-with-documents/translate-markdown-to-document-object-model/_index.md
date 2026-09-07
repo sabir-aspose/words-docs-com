@@ -64,7 +64,7 @@ We use a character style with a name that starts from the word `InlineCode`, fol
 {{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "autolink.cs" >}} |  |
 | **Link**<br />`[link text](url)`<br />`[link text](<url> "title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | The [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) class. |
 {{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "link.cs" >}} |  |
-| **Image**<br />`![](url)`<br />`![alt text](<url> “title”)`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | The [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) class. |
+| **Image**<br />`![](url)`<br />`![alt text](<url> “title”)`<br />`![alt text](url ‘title')`<br />`![alt text](url (title))` | The [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) class. |
 {{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "image.cs" >}} |  |
 
 ## Container Blocks
@@ -100,9 +100,9 @@ The table below shows examples of using Markdown Complex Containers in Aspose.Wo
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote`             | `ParagraphFormat.StyleName = “Quote[some suffix]”`<br />The suffix in style name is optional, but Aspose.Words importer uses the ordered numbers 1, 2, 3, …. in case of nested quotes.<br />The nesting is defined via the inherited styles. |
 {{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "quote.cs" >}} |
-| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	`   - Item 2a`<br />	`   - Item 2b` | Bulleted lists are represented using paragraph numbering:<br />`ListFormat.ApplyBulletDefault()`<br />There can be 3 types of bulleted lists. They are only diff in a numbering format of the very first level. These are: `‘-’`, `‘+’` or `‘*’` respectively. |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	`   - Item 2a`<br />	`   - Item 2b` | Bulleted lists are represented using paragraph numbering:<br />`ListFormat.ApplyBulletDefault()`<br />There can be 3 types of bulleted lists. They are only diff in a numbering format of the very first level. These are: `‘-'`, `‘+'` or `‘*'` respectively. |
 {{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "bulleted-list.cs" >}} |                                                              |
-| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Ordered lists are represented using paragraph numbering:<br />`ListFormat.ApplyNumberDefault()`<br />There can be 2 number format markers: ‘.’ and ‘)’. The default marker is ‘.’. |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Ordered lists are represented using paragraph numbering:<br />`ListFormat.ApplyNumberDefault()`<br />There can be 2 number format markers: ‘.' and ‘)'. The default marker is ‘.'. |
 {{< gist "aspose-words-gists" "0697355b7f872839932388d269ed6a63" "ordered-list.cs" >}} |                                                              |
 
 ### Tables

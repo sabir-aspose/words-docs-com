@@ -29,7 +29,7 @@ Existem vários problemas de segurança típicos ao carregar recursos externos.
 
 ### Divulgação De Credenciais Através De Imagens Ligadas
 
-Em hosts baseados em Windows, os documentos que contêm referências a recursos que usam caminhos UNC como *'\\example.com\a\b*’ serão processados por padrão. Em um ambiente de domínio, isso fará com que o host envie suas credenciais de domínio em um formato hash para o servidor especificado.
+Em hosts baseados em Windows, os documentos que contêm referências a recursos que usam caminhos UNC como *'\\example.com\a\b*' serão processados por padrão. Em um ambiente de domínio, isso fará com que o host envie suas credenciais de domínio em um formato hash para o servidor especificado.
 
 Se um invasor conseguir convencer um usuário ou servidor a processar um documento com esse link de recurso apontando para um host que ele controla, o invasor receberá as credenciais da conta de usuário ou serviço no formato hash NTLM. Esses dados podem então ser reutilizados em um ataque clássico de pass-the-hash, permitindo que o invasor obtenha acesso a qualquer recurso como usuário vítima ou conta de serviço.
 

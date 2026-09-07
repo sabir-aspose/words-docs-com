@@ -127,7 +127,7 @@ After you have installed the Aspose .NET Word Processing and PDF Document Export
 
 1. Make sure you are logged-in to Kentico with administrator level account.
 1. Open the **Pages** application.
-1. Create a new page or select any existing page in your website’s content tree.
+1. Create a new page or select any existing page in your website's content tree.
 1. Switch to the **Design** tab.
 1. Add the **Aspose Content Export** web part onto the page.
 1. In the web part configuration dialog, you can set the value of the **Export to Word** and **Export to Pdf** button text.

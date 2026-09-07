@@ -62,7 +62,7 @@ To merge cells in a table created with the [DocumentBuilder](https://reference.a
 
 Also, you must remember to clear the merge setting for those cells where no merge is required – this can be done by setting the first non-merge cell to **CellMerge.None**. If this is not done, all cells in the table will be merged.
 
-The following code example shows how to create a table with two rows where the cells in the first row are merged horizontally:
+The following code example shows how tocreate a table with two rows where the cells in the first row are merged horizontally:
 
 {{< gist "aspose-words-gists" "4fe6fda3615c0c441401e2131533d93b" "horizontal-merge.java" >}}
 
@@ -108,7 +108,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ## Convert to Horizontally Merged Cells
 
-Sometimes it is not possible to detect which cells are merged because some newer versions of Microsoft Word no longer use the merge flags when cells are merged horizontally. But for situations where cells are merged into a cell horizontally by their width using merge flags, Aspose.Words provides the `ConvertToHorizontallyMergedCells` method to convert cells. This method simply transforms the table and adds new cells as needed.
+Sometimes it is not possible to detect which cells are merged because some newer versions of Microsoft Word nolonger use the merge flags when cells are merged horizontally. But for situations where cells are merged into a cell horizontally by their width using merge flags, Aspose.Words provides the `ConvertToHorizontallyMergedCells` method to convert cells. This method simply transforms the table and adds new cells as needed.
 
 The following code example shows the above method in operation:
 
@@ -117,13 +117,13 @@ The following code example shows the above method in operation:
 ## FAQ
 
 1. **Q:** How do I merge cells horizontally using `DocumentBuilder`?  
-   **A:** Create the table with `DocumentBuilder`, then for the first cell in the merge set `cell.getCellFormat().setHorizontalMerge(CellMerge.First)`. For each subsequent cell that should be merged, set `CellMerge.Previous`. After the merged range, set the next cell’s `HorizontalMerge` to `CellMerge.None` to stop the merge.
+   **A:** Create the table with `DocumentBuilder`, then for the first cell in the merge set `cell.getCellFormat().setHorizontalMerge(CellMerge.First)`. For each subsequent cell that should be merged, set `CellMerge.Previous`. After the merged range, set the next cell's `HorizontalMerge` to `CellMerge.None` to stop the merge.
 
 2. **Q:** How can I merge cells vertically?  
    **A:** The process is analogous to horizontal merging but uses the `VerticalMerge` property. Set `CellMerge.First` on the top‑most cell of the column, `CellMerge.Previous` on the cells below, and reset to `CellMerge.None` after the merged block.
 
 3. **Q:** How can I determine whether a particular cell is part of a merged group?  
-   **A:** Inspect the cell’s format: `cell.getCellFormat().getHorizontalMerge()` and `cell.getCellFormat().getVerticalMerge()`. If either returns `CellMerge.First` or `CellMerge.Previous`, the cell participates in a merge; `CellMerge.None` means it is not merged.
+   **A:** Inspect the cell's format: `cell.getCellFormat().getHorizontalMerge()` and `cell.getCellFormat().getVerticalMerge()`. If either returns `CellMerge.First` or `CellMerge.Previous`, the cell participates in a merge; `CellMerge.None` means it is not merged.
 
 4. **Q:** Is there a way to merge a rectangular range of cells programmatically?  
    **A:** Yes. Loop through the cells in the desired range and set the appropriate `HorizontalMerge` and `VerticalMerge` values. Typically you set `CellMerge.First` on the top‑left cell, `CellMerge.Previous` on the remaining cells in the first row for horizontal merges, and similarly use `VerticalMerge` for rows. Aspose.Words also provides helper methods (e.g., a custom `mergeRange` method) that encapsulate this logic.

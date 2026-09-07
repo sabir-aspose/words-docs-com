@@ -129,7 +129,7 @@ The following code example shows how to remove empty table rows that contain Mai
    ```
 
 4. **Q:** What is the best way to delete outer fields (e.g., IF, formula) that contain a merge field after the merge?  
-   **A:** Use the `RemoveContainingFields` flag. It removes the outer field only when the inner merge field has been merged or removed, mimicking Word’s native behavior.  
+   **A:** Use the `RemoveContainingFields` flag. It removes the outer field only when the inner merge field has been merged or removed, mimicking Word's native behavior.  
 
    ```cpp
    System::SharedPtr<Aspose::Words::Document> doc = MakeObject<Aspose::Words::Document>(u"Template.docx");

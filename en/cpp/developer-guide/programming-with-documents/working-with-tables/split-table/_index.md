@@ -35,7 +35,7 @@ The following code example shows how to split a table into two tables on a speci
    **A:** Create a clone of the original table without its child rows (`table->Clone(false)`), insert the clone after the original, then move all rows starting from the split row to the new table using `Table::get_Rows()->RemoveAt()` and `Table::AppendChild(row)`. This preserves the original formatting while separating the rows into a new table.
 
 2. **Q:** Will the cell formatting (widths, borders, shading) be retained after splitting?  
-   **A:** Yes. Cloning the table without children copies the table’s formatting, column widths, and style definitions. When you move rows to the cloned table, each row keeps its own cell formatting, so the appearance of both tables remains unchanged.
+   **A:** Yes. Cloning the table without children copies the table's formatting, column widths, and style definitions. When you move rows to the cloned table, each row keeps its own cell formatting, so the appearance of both tables remains unchanged.
 
 3. **Q:** Can I split a table into more than two tables?  
    **A:** Absolutely. Repeat the split process for each desired split point: clone the current table, insert the clone, and move the appropriate rows. Each iteration creates an additional independent table.

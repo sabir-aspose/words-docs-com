@@ -93,6 +93,6 @@ L'exemple de code suivant montre comment définir **HorizontalRuleFormat**:
 
 Vous pouvez utiliser la propriété [ConvertShapeToOfficeMath](https://reference.aspose.com/words/fr/net/aspose.words.loading/loadoptions/convertshapetoofficemath/) pour convertir les formes avec EquationXML en objets Office Math. La valeur par défaut de cette propriété correspond au comportement Microsoft Word, c'est-à-dire que les formes avec une équation XML ne sont pas converties en objets mathématiques Office.
 
-L’exemple de code suivant montre comment convertir des formes en objets Office Math:
+L'exemple de code suivant montre comment convertir des formes en objets Office Math:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Load_Options-ConvertShapeToOfficeMath.cs" >}}

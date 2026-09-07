@@ -17,7 +17,7 @@ Pour certaines tâches, certaines normes PDF conviendront mieux ou vice versa mo
 
 {{% alert color="primary" %}}
 
-Tout ce qui suit s’applique au cas général. Dans certains cas spécifiques, d’autres considérations peuvent s’appliquer.
+Tout ce qui suit s'applique au cas général. Dans certains cas spécifiques, d'autres considérations peuvent s'appliquer.
 
 {{% /alert %}}
 
@@ -31,7 +31,7 @@ Cela pourra être reconsidéré ultérieurement.
 
 ## Quand utiliser PDF/A et quelle version
 
-PDF/A est un format d'archivage et de conservation à long terme. Généralement, cela est exigé par les autorités, les archives, les bibliothèques, etc. Ainsi, l’utilisation de la conformité PDF/A est dictée par les exigences du consommateur PDF. Et si les utilisateurs de PDF n’en ont pas besoin, ils ne doivent pas être utilisés.
+PDF/A est un format d'archivage et de conservation à long terme. Généralement, cela est exigé par les autorités, les archives, les bibliothèques, etc. Ainsi, l'utilisation de la conformité PDF/A est dictée par les exigences du consommateur PDF. Et si les utilisateurs de PDF n'en ont pas besoin, ils ne doivent pas être utilisés.
 
 La version PDF/A doit être sélectionnée pour être la plus acceptable pour le consommateur, car les versions supérieures sont plus fiables pour la sortie Aspose.Words PDF/A. Cependant, le niveau de conformité pour PDF/A-1 ou PDF/A-2 doit également être sélectionné en fonction des exigences du consommateur. Ainsi, si le niveau A est requis, alors il doit être utilisé, et si le niveau B/U est requis, alors le niveau B/U et le niveau A peuvent être utilisés.
 

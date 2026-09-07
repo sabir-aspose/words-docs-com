@@ -21,7 +21,7 @@ This page explains how lexical tokens work within template expressions.
 
 {{% /alert %}}
 
-The following table describes lexical tokens that you can use in template expressions and restrictions on these tokens’ usage comparing with C# Language Specification 5.0.
+The following table describes lexical tokens that you can use in template expressions and restrictions on these tokens' usage comparing with C# Language Specification 5.0.
 
 | Token | Restrictions |
 | :- | :- |
@@ -41,7 +41,7 @@ You can use the following identifiers that are not preceded by a member access o
   - Inside a data band body, the object is resolved to the innermost iteration variable.
   - Outside a data band body, the object is resolved to a passed data source.
 
-The feature of the omitting of an object identifier while accessing the object’s members is also known as the contextual object member access. See “Using Contextual Object Member Access” for more information.
+The feature of the omitting of an object identifier while accessing the object's members is also known as the contextual object member access. See “Using Contextual Object Member Access” for more information.
 
 ------
 

@@ -90,7 +90,7 @@ Ann Doe
 Charles Doe
 {{< /highlight >}}
 
-**Note** – To reference a sequence of repeated simple-type XML elements with the same name, the elements’ name itself (for example, “Child”) should be used in a template document, whereas the same name with the “_Text” suffix (for example, “Child_Text”) should be used to reference the text value of one of these elements.
+**Note** – To reference a sequence of repeated simple-type XML elements with the same name, the elements' name itself (for example, “Child”) should be used in a template document, whereas the same name with the “_Text” suffix (for example, “Child_Text”) should be used to reference the text value of one of these elements.
 
 By default, if a root XML element contains only a sequence of elements of one type, the engine does not generate an internal root object while loading XML data. So, in template documents, such an [XmlDataSource](https://reference.aspose.com/words/python-net/aspose.words.reporting/xmldatasource/) instance should be treated as a sequence of corresponding nested objects as shown in the following example.
 
@@ -714,7 +714,7 @@ engine.options | = aw.reporting.ReportBuildOptions.REMOVE_EMPTY_PARAGRAPHS
 engine.build_report(...)
 {{< /highlight >}}
 
-The difference in the engine’s behavior when the option is applied and not applied is illustrated by the following examples.
+The difference in the engine's behavior when the option is applied and not applied is illustrated by the following examples.
 
 **Example 1**
 
@@ -846,7 +846,7 @@ By default, such a template causes the engine to throw an exception while buildi
 <<var [name] Error! An assignment operator is expected. >>
 {{< /highlight >}}
 
-**Note** – Only messages describing errors in template syntax can be inlined; messages describing errors encountered during expressions’ evaluation cannot.
+**Note** – Only messages describing errors in template syntax can be inlined; messages describing errors encountered during expressions' evaluation cannot.
 
 When [ReportBuildOptions.INLINE_ERROR_MESSAGES](https://reference.aspose.com/words/python-net/aspose.words.reporting/reportbuildoptions/#inline_error_messages) is applied, a `Boolean` value returned by a [ReportingEngine.build_report](https://reference.aspose.com/words/python-net/aspose.words.reporting/reportingengine/build_report/) overload indicates whether building of a report was finished successfully or was interrupted because of a template syntax error. This enables you to process reports which building succeeded or failed differently as shown in the following code snippet.
 

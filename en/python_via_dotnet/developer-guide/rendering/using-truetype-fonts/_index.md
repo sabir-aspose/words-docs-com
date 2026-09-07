@@ -74,7 +74,7 @@ Sometimes, information about the fonts being used is embedded in the document, e
    ```
 
 5. **Q:** Is there a way to list all fonts that Aspose.Words can access at runtime?  
-   **A:** You can retrieve the collection of available fonts via `FontSettings.GetFonts`. Iterate through the collection to see each font’s name and file path.
+   **A:** You can retrieve the collection of available fonts via `FontSettings.GetFonts`. Iterate through the collection to see each font's name and file path.
 
    ```python
    available_fonts = font_settings.get_fonts()

@@ -48,7 +48,7 @@ Et après avoir appliqué un simple remplacement de chaîne:
 
 ### Rechercher et remplacer du texte à l'aide d'expressions régulières {#find-and-replace-text-using-regular-expressions}
 
-Une expression régulière (regex) est un modèle qui décrit une certaine séquence de texte. Supposons que vous souhaitiez remplacer toutes les doubles occurrences d’un mot par une seule occurrence de mot. Vous pouvez ensuite appliquer l'expression régulière suivante pour spécifier le modèle de mot double: `([a-zA-Z]+) \1`.
+Une expression régulière (regex) est un modèle qui décrit une certaine séquence de texte. Supposons que vous souhaitiez remplacer toutes les doubles occurrences d'un mot par une seule occurrence de mot. Vous pouvez ensuite appliquer l'expression régulière suivante pour spécifier le modèle de mot double: `([a-zA-Z]+) \1`.
 
 Utilisez l'autre méthode [Replace](https://reference.aspose.com/words/fr/net/aspose.words/range/replace/) pour rechercher et remplacer des combinaisons de caractères particulières en définissant le paramètre `Regex` comme modèle d'expression régulière pour rechercher des correspondances.
 

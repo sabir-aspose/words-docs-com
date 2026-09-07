@@ -103,10 +103,10 @@ The following code example shows how to optimize document content for Microsoft 
    **A:** These are part of the `PageSetup` class. Use `pageSetup.setLinesPerPage(int)` to define lines per page and `pageSetup.setCharactersPerLine(int)` for characters per line. They affect the document grid, which is visible when Asian language support is installed.
 
 3. **Q:** How do I specify editing and default languages for a document?  
-   **A:** Create a `LanguagePreferences` object, add language IDs with `addEditingLanguage(LanguageId)` or `setDefaultEditingLanguage(LanguageId)`, and assign it to the document’s `LoadOptions` via `loadOptions.setLanguagePreferences(languagePreferences)`. This ensures Word displays the document with the correct language settings.
+   **A:** Create a `LanguagePreferences` object, add language IDs with `addEditingLanguage(LanguageId)` or `setDefaultEditingLanguage(LanguageId)`, and assign it to the document's `LoadOptions` via `loadOptions.setLanguagePreferences(languagePreferences)`. This ensures Word displays the document with the correct language settings.
 
 4. **Q:** What is the purpose of the `OptimizeFor` method and when should I use it?  
-   **A:** `OptimizeFor` configures the document to target a specific Word version (e.g., `MsWordVersion.WORD_2016`). It removes compatibility features that would otherwise trigger Word’s “Compatibility mode” ribbon. Use it when you know the target Word version and want the document to behave as a native file for that version.
+   **A:** `OptimizeFor` configures the document to target a specific Word version (e.g., `MsWordVersion.WORD_2016`). It removes compatibility features that would otherwise trigger Word's “Compatibility mode” ribbon. Use it when you know the target Word version and want the document to behave as a native file for that version.
 
 5. **Q:** How can I change the view mode (Print Layout, Web Layout, etc.) of a document programmatically?  
    **A:** Set the `ViewType` property of a `ViewOptions` instance to one of the `ViewType` enum values such as `ViewType.PRINT_LAYOUT` or `ViewType.WEB`. Assign the configured `ViewOptions` to the document, and Word will open the file using the specified view mode.

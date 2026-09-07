@@ -55,7 +55,7 @@ L'accès programmatique via un API riche à tous les éléments et formatages du
 
 Nous utilisons le terme [Le rendu](/words/fr/net/rendering/) pour décrire le processus de conversion d'un document dans un format de fichier ou un support, paginé ou ayant la notion de pages.
 
-Vous pouvez convertir des documents entiers ou des pages particulières en PDF ou XPS pour générer des documents côté serveur, les imprimer ou restituer des pages à l'aide de .NET Graphics. Et tout cela avec une haute fidélité – exactement comme Microsoft Word l’aurait fait.
+Vous pouvez convertir des documents entiers ou des pages particulières en PDF ou XPS pour générer des documents côté serveur, les imprimer ou restituer des pages à l'aide de .NET Graphics. Et tout cela avec une haute fidélité – exactement comme Microsoft Word l'aurait fait.
 
 #### Rapports
 

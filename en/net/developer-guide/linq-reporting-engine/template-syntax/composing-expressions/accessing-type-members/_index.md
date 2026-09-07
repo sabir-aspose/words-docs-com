@@ -17,7 +17,7 @@ timestamp: 2024-02-16-10-54-23
 
 ## Purpose Summary
 
-This page explains how to access type members via LINQ when using Aspose.Words’s reporting engine.
+This page explains how to access type members via LINQ when using Aspose.Words's reporting engine.
 
 {{% /alert %}}
 
@@ -45,7 +45,7 @@ The engine supports the following features when dealing with function members:
 
 In addition to C# Language features, the engine provides the following extra features to simplify type member access:
 
-- Accessing members of an object without specifying the object’s identifier (see “Using Contextual Object Member Access” for more information)
+- Accessing members of an object without specifying the object's identifier (see “Using Contextual Object Member Access” for more information)
 - Accessing missing members of an object (see “Accessing Missing Members of Data Objects” for more information)
 
 ------
@@ -62,7 +62,7 @@ In addition to C# Language features, the engine provides the following extra fea
    **A:** The method must return a value, cannot have `ref` or `out` parameters, and cannot be generic. Overload resolution follows the C# specification, default parameter values are supported, but named parameters are not.
 
 4. **Q:** How can I safely access a member that might not exist on the data object?  
-   **A:** Enable the engine’s missing‑member handling feature. When a member is not found, the engine returns `null` instead of throwing an exception, allowing you to write expressions like `Customer?.PhoneNumber` without errors.
+   **A:** Enable the engine's missing‑member handling feature. When a member is not found, the engine returns `null` instead of throwing an exception, allowing you to write expressions like `Customer?.PhoneNumber` without errors.
 
 5. **Q:** Is it possible to instantiate a type using its constructor in a template expression?  
    **A:** Yes. Constructors can be invoked as function members provided they meet the same rules (return value, no `ref`/`out`, no generics). Example: `new DateTime(2023, 1, 1)` creates a `DateTime` object that can be used directly in the expression.

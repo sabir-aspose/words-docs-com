@@ -56,7 +56,7 @@ Nous utilisons un style de caractère avec un nom qui commence par le mot `Inlin
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Autolink.h" >}} |  |
 | **Link**<br />`[link text](url)`<br />`[link text](<url>"title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | La classe [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/). |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Link.h" >}} |  |
-| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | La classe [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/). |
+| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title')`<br />`![alt text](url (title))` | La classe [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/). |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Image.h" >}} |  |
 
 ## Blocs de Conteneurs
@@ -92,9 +92,9 @@ Le tableau ci-dessous montre des exemples d'utilisation de Markdown Conteneurs c
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `get_ParagraphFormat()->set_StyleName(u"Quote[some suffix]")`<br />Le suffixe dans le nom du style est facultatif, mais Aspose.Words l'importateur utilise les numéros ordonnés1, 2, 3, .... en cas de guillemets imbriqués.<br />L'imbrication est définie via les styles hérités. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Quote.h" >}} |  |
-| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Les listes à puces sont représentées à l'aide de la numérotation des paragraphes:<br />`get_ListFormat()->ApplyBulletDefault()`<br />Il peut y avoir 3 types de listes à puces. Ils ne sont diff que dans un format de numérotation du tout premier niveau. Ce sont: `‘-’`, `‘+’` ou `‘*’` respectivement. |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Les listes à puces sont représentées à l'aide de la numérotation des paragraphes:<br />`get_ListFormat()->ApplyBulletDefault()`<br />Il peut y avoir 3 types de listes à puces. Ils ne sont diff que dans un format de numérotation du tout premier niveau. Ce sont: `‘-'`, `‘+'` ou `‘*'` respectivement. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-BulletedList.h" >}} |  |
-| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Les listes ordonnées sont représentées à l'aide de la numérotation des paragraphes:<br />`get_ListFormat()->ApplyNumberDefault()`<br />Il peut y avoir 2 marqueurs de format numérique: ‘.’ et ‘)’. Le marqueur par défaut est ‘.’. |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Les listes ordonnées sont représentées à l'aide de la numérotation des paragraphes:<br />`get_ListFormat()->ApplyNumberDefault()`<br />Il peut y avoir 2 marqueurs de format numérique: ‘.' et ‘)'. Le marqueur par défaut est ‘.'. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-OrderedList.h" >}} |  |
 
 ### Tableaux

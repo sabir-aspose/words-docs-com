@@ -41,7 +41,7 @@ You can download the sample file of these examples from [Aspose.Words GitHub](ht
 
 {{% /alert %}}
 
-The following code example shows how to obtain bookmarks from a bookmark collection:
+The following codeexample shows how to obtain bookmarks from a bookmark collection:
 
 {{< gist "aspose-words-gists" "6b8a885f5544cddd9bc77edb3ad18692" "access-bookmarks.js" >}}
 
@@ -49,7 +49,7 @@ The following code example shows how to get or set a bookmark name and text:
 
 {{< gist "aspose-words-gists" "6b8a885f5544cddd9bc77edb3ad18692" "update-bookmark-data.js" >}}
 
-The following code example shows how to bookmark a table:
+The following codeexample shows how to bookmark a table:
 
 {{< gist "aspose-words-gists" "6b8a885f5544cddd9bc77edb3ad18692" "bookmark-table.js" >}}
 
@@ -80,7 +80,7 @@ The following code example shows how to show/ hide bookmarks:
 ## FAQ
 
 1. **Q:** How can I verify that a bookmark exists before calling `moveToBookmark`?  
-   **A:** Retrieve the document’s `BookmarkCollection` via `doc.getRange().getBookmarks()`. Use the `contains` method or check `bookmarkCollection.get(bookmarkName) != null`. Only call `moveToBookmark` when the bookmark is present to avoid an exception.
+   **A:** Retrieve the document's `BookmarkCollection` via `doc.getRange().getBookmarks()`. Use the `contains` method or check `bookmarkCollection.get(bookmarkName) != null`. Only call `moveToBookmark` when the bookmark is present to avoid an exception.
 
 2. **Q:** Why does a bookmark disappear after I save the document?  
    **A:** Word formats (DOC, DOCX) do not allow white‑space characters in bookmark names. Aspose.Words automatically replaces spaces with underscores when saving. If you later look for the original name, it will not be found. Use names without spaces or retrieve the normalized name after saving.
@@ -92,4 +92,4 @@ The following code example shows how to show/ hide bookmarks:
    **A:** Obtain the `Bookmark` object, read its `Text` or `Range`, then remove the old bookmark with `bookmarkCollection.remove(bookmarkName)`. Create a new bookmark with the desired name using `DocumentBuilder.startBookmark(newName)` and `endBookmark(newName)`, and set its range to the previously saved content.
 
 5. **Q:** How can I conditionally hide or show the content of a bookmark?  
-   **A:** Wrap the bookmark’s content inside an `IF` field where the true part contains the bookmark and the false part is empty. Use the `DocumentBuilder.insertField("IF { MERGEFIELD Condition } \"{ BOOKMARK MyBookmark }\" \"\"")`. By changing the value of the merge field, the bookmark’s content will be displayed or hidden when the document is rendered.
+   **A:** Wrap the bookmark's content inside an `IF` field where the true part contains the bookmark and the false part is empty. Use the `DocumentBuilder.insertField("IF { MERGEFIELD Condition } \"{ BOOKMARK MyBookmark }\" \"\"")`. By changing the value of the merge field, the bookmark's content will be displayed or hidden when the document is rendered.

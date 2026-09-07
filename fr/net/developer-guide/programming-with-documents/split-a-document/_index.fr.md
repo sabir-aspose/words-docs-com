@@ -13,7 +13,7 @@ url: /fr/net/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-*Splitting* ou *diviser un document* est le processus consistant à diviser un document volumineux en un plus grand nombre de fichiers plus petits. Il existe plusieurs raisons de diviser un fichier. Par exemple, vous n’avez besoin que de quelques pages d’un document spécifique et non de la totalité. Ou, pour des raisons de confidentialité, vous souhaitez partager uniquement certaines parties d'un document avec d'autres. Avec la fonction de fractionnement, vous pouvez obtenir uniquement les parties requises du document et effectuer les actions nécessaires avec elles, par exemple annoter, enregistrer ou envoyer.
+*Splitting* ou *diviser un document* est le processus consistant à diviser un document volumineux en un plus grand nombre de fichiers plus petits. Il existe plusieurs raisons de diviser un fichier. Par exemple, vous n'avez besoin que de quelques pages d'un document spécifique et non de la totalité. Ou, pour des raisons de confidentialité, vous souhaitez partager uniquement certaines parties d'un document avec d'autres. Avec la fonction de fractionnement, vous pouvez obtenir uniquement les parties requises du document et effectuer les actions nécessaires avec elles, par exemple annoter, enregistrer ou envoyer.
 
 Aspose.Words vous offre un moyen efficace de diviser un document en plusieurs documents par titres ou sections. Vous pouvez également diviser un document par pages ou par plages de pages. Les deux options de fractionnement seront décrites dans cet article.
 

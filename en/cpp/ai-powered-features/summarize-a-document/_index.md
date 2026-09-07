@@ -54,7 +54,7 @@ Summarizing documents with Aspose.Words saves time and helps you focus on essent
 ## FAQ
 
 1. **Q:** How do I choose which AI model to use for summarization?  
-   **A:** The AI model is selected via the `AiModelType` enumeration when creating the model instance, e.g., `AiModelType::Gpt4OMini` for OpenAI’s GPT‑4o Mini or `AiModelType::GoogleGemini` for Google’s Gemini. Choose the model that best fits your accuracy, latency, and cost requirements.
+   **A:** The AI model is selected via the `AiModelType` enumeration when creating the model instance, e.g., `AiModelType::Gpt4OMini` for OpenAI's GPT‑4o Mini or `AiModelType::GoogleGemini` for Google's Gemini. Choose the model that best fits your accuracy, latency, and cost requirements.
 
 2. **Q:** Can I summarize multiple documents in a single call?  
    **A:** Yes. Pass an array of `Document` objects to the `Summarize` method. The same `SummarizeOptions` (including `SummaryLength`) will be applied to each document, and the method returns a collection of summary documents.

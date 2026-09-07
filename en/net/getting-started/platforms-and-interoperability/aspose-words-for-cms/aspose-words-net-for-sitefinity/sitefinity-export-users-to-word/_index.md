@@ -76,7 +76,7 @@ Please extract the downloaded ZIP file. You will need FTP or direct access to th
 
 **Step 2: Register the Aspose Sitefinity Export Users to Word add-on in Sitefinity**
 
-1. Log into your Sitefinity CMS with an ‘**Administrator**’ account. The login page can be reached by <https://www.mywebsite.com/sitefinity>
+1. Log into your Sitefinity CMS with an ‘**Administrator**' account. The login page can be reached by <https://www.mywebsite.com/sitefinity>
 1. Click **Administration** and then **Settings**.
    The Basic Settings page appears.
 1. Click the **Advanced** link.
@@ -86,9 +86,9 @@ Please extract the downloaded ZIP file. You will need FTP or direct access to th
    The widget registration form appears.
 1. Fill the form fields as follows: 
    1. Make sure **Enabled** is selected.
-   1. Add ~/Addons/Aspose.Sitefinity.ExportUsersToWord/AsposeExportUsersToWord.ascx
+   1. Add~/Addons/Aspose.Sitefinity.ExportUsersToWord/AsposeExportUsersToWord.ascx
 
-   1. ` `in the **Control CLR Type or Virtual Path** field.
+   1. ``in the **Control CLR Type or Virtual Path** field.
    1. Add **Name**, **Title** and **Description** as follows:
       `Aspose.Sitefinity`.ExportUsersToWord
       Aspose Export SiteFinity Users to Word

@@ -33,7 +33,7 @@ The [LineSpacing](https://reference.aspose.com/words/cpp/aspose.words/font/get_l
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-GetFontLineSpacing-GetFontLineSpacing.cpp" >}}
 
-## Font EmphasisMark
+## FontEmphasisMark
 
 Some East Asian languages use a special emphasis mark to indicate an emphasis. The **Font** class provides the [EmphasisMark](https://reference.aspose.com/words/cpp/aspose.words/font/get_emphasismark/) property to get or set the `EmphasisMark` enumeration values to be applied when formatting.
 

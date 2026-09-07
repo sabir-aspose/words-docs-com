@@ -135,7 +135,7 @@ Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
 builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
-|  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  글머리 기호 목록은 단락 번호 매기기를 사용하여 표시됩니다.<br /> `ListFormat.ApplyBulletDefault()`<br /> 글머리 기호 목록에는 3가지 유형이 있을 수 있습니다. 첫 번째 수준의 번호 매기기 형식만 다릅니다. 이는 각각 `‘-’`, `‘+’` 또는 `‘*’`입니다 |
+|  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  글머리 기호 목록은 단락 번호 매기기를 사용하여 표시됩니다.<br /> `ListFormat.ApplyBulletDefault()`<br /> 글머리 기호 목록에는 3가지 유형이 있을 수 있습니다. 첫 번째 수준의 번호 매기기 형식만 다릅니다. 이는 각각 `‘-'`, `‘+'` 또는 `‘*'`입니다 |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
 |  **OrderedList**<br /> `1. Item 1`<br /> `2. Item 2`<br /> `1) Item 2a`<br /> `2) Item 2b` |  순서가 지정된 목록은 단락 번호 매기기를 사용하여 표시됩니다.<br /> `ListFormat.ApplyNumberDefault()`<br /> 2개의 숫자 형식 표시자가 있을 수 있습니다: '.' 그리고 ')'. 기본 마커는 '.'입니다 |
 |  {{< highlight csharp >}}Document doc = new Document();

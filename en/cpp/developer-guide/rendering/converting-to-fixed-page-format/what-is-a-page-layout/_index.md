@@ -17,9 +17,9 @@ A **document page layout** is a data structure, describing where a particular ob
 
 ## What Is a Page Layout For?
 
-Aspose.Words implements page layout functionality internally enabling it to produce all of the fixed page formats, such as PDF, XPS, and various image formats. Without page layout, the information stored in the fixed page document file would not be available and all these formats would not be supported.
+Aspose.Words implements page layout functionality internally enabling it to produce all of the fixed page formats, such as PDF, XPS, and various image formats. Without page layout, the informationstored in the fixed page document file would not be available and all these formats would not be supported.
 
-The relation between a document and a page layout is quite simple. Whereas a document describes the content, the corresponding page layout describes the geometry of that content. Note, that a page layout cannot exist without a document since there would be no content for computing the geometry, but a document can exist without a page layout. For example, when a DOCX document is converted into an RTF document, it is typically unnecessary to know the geometry, since neither format stores it.
+The relation between a document and a page layout is quite simple. Whereas a document describes the content, the corresponding page layout describes the geometry of that content.Note, that a page layout cannot exist without a document since there would be no content for computing the geometry, but a document can exist without a page layout. For example, when a DOCX document is converted into an RTF document, it is typically unnecessary to know the geometry, since neither format stores it.
 
 ## See Also
 

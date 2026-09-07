@@ -13,7 +13,7 @@ url: /fr/net/how-to-extract-selected-content-between-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Lorsque vous travaillez avec des documents, il est important de pouvoir extraire facilement le contenu d'une plage spécifique au sein d'un document. Cependant, le contenu peut être constitué d’éléments complexes tels que des paragraphes, des tableaux, des images, etc.
+Lorsque vous travaillez avec des documents, il est important de pouvoir extraire facilement le contenu d'une plage spécifique au sein d'un document. Cependant, le contenu peut être constitué d'éléments complexes tels que des paragraphes, des tableaux, des images, etc.
 
 Quel que soit le contenu à extraire, la méthode d'extraction de ce contenu sera toujours déterminée par les nœuds sélectionnés pour extraire le contenu. Il peut s'agir de corps de texte entiers ou de simples passages de texte.
 
@@ -37,7 +37,7 @@ Ces exemples ne sont que quelques démonstrations des nombreuses possibilités. 
 
 ## Pourquoi extraire du contenu
 
-Souvent, l’objectif de l’extraction du contenu est de le dupliquer ou de l’enregistrer séparément dans un nouveau document. Par exemple, vous pouvez extraire du contenu et:
+Souvent, l'objectif de l'extraction du contenu est de le dupliquer ou de l'enregistrer séparément dans un nouveau document. Par exemple, vous pouvez extraire du contenu et:
 
 - Copiez-le dans un document séparé
 - Convertir une partie spécifique d'un document en PDF ou en image
@@ -95,7 +95,7 @@ Vous pouvez télécharger le fichier exemple de cet exemple à partir de [Aspose
 
 ## Extraire du contenu entre différents types de nœuds
 
-Nous pouvons extraire du contenu entre n’importe quelle combinaison de niveaux de bloc ou de nœuds en ligne. Dans ce scénario ci-dessous, nous extrairons le contenu entre le premier paragraphe et le tableau de la deuxième section inclusivement. Nous obtenons les nœuds marqueurs en appelant les méthodes [FirstParagraph](https://reference.aspose.com/words/fr/net/aspose.words/story/firstparagraph/) et [GetChild](https://reference.aspose.com/words/fr/net/aspose.words/compositenode/getchild/) sur la deuxième section du document pour récupérer les nœuds **Paragraph** et **Table** appropriés. Pour une légère variation, dupliquons plutôt le contenu et insérons-le sous l'original.
+Nous pouvons extraire du contenu entre n'importe quelle combinaison de niveaux de bloc ou de nœuds en ligne. Dans ce scénario ci-dessous, nous extrairons le contenu entre le premier paragraphe et le tableau de la deuxième section inclusivement. Nous obtenons les nœuds marqueurs en appelant les méthodes [FirstParagraph](https://reference.aspose.com/words/fr/net/aspose.words/story/firstparagraph/) et [GetChild](https://reference.aspose.com/words/fr/net/aspose.words/compositenode/getchild/) sur la deuxième section du document pour récupérer les nœuds **Paragraph** et **Table** appropriés. Pour une légère variation, dupliquons plutôt le contenu et insérons-le sous l'original.
 
 L'exemple de code suivant montre comment extraire le contenu entre un paragraphe et un tableau à l'aide de la méthode **ExtractContent**:
 

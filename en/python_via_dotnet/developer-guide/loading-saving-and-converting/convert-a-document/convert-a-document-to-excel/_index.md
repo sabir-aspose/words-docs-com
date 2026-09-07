@@ -86,8 +86,8 @@ doc.save(ARTIFACTS_DIR + "BaseConversions.CompressXlsx.xlsx", saveOptions)
 
 ## See Also
 
-- Documentation section [Protect or Encrypt a Document](/words/python-net/protect-or-encrypt-a-document/) for more information about protecting and encrypting a document
-- The article [Find and Replace](/words/python-net/find-and-replace/) for more more information about finding and replacing the content you want
+- Documentation section[Protect or Encrypt a Document](/words/python-net/protect-or-encrypt-a-document/)for more information about protecting and encrypting a document
+- The article[Find and Replace](/words/python-net/find-and-replace/)for more more information about finding and replacing the content you want
 
 ------ 
 

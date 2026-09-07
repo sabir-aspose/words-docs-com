@@ -87,7 +87,7 @@ The following code example shows how to remove read-only access for a document:
    **A:** Set `document.WriteProtection.ReadOnlyRecommended = false;` or change the protection type to `ProtectionType.NoProtection`, then save the document.
 
 4. **Q:** Is the read‑only password a security feature?  
-   **A:** The password is stored as a document property and can be removed by users who can edit the document’s metadata. It deters casual editing but should not be considered strong security.
+   **A:** The password is stored as a document property and can be removed by users who can edit the document's metadata. It deters casual editing but should not be considered strong security.
 
 5. **Q:** Are Aspose.Words licenses backward compatible with older library versions?  
    **A:** Yes. An Aspose.Words license file works with earlier versions of the library, provided the license file format has not changed. However, features introduced in newer versions will not be available when using older library releases.

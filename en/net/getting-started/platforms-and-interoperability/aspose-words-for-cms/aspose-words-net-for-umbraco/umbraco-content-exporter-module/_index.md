@@ -23,7 +23,7 @@ This page explains how the Umbraco Content Exporter module exports CMS content t
 
 ## Export to Word
 
-Umbraco’s Export to Word macro allow users to export online content into a Microsoft Word document using [Aspose.Words](https://products.aspose.com/words/). This macro makes it super simple to get an offline copy of your favorite online content for editing, sharing and printing in most popular Microsoft Word formats (DOC/DOCX). It adds a simple **Export to Word** button at any desired location on the web page. Clicking the button exports the page content to a Word document and automatically downloads the file to a disk location selected by the user in just seconds.
+Umbraco's Export to Word macro allow users to export online content into a Microsoft Word document using [Aspose.Words](https://products.aspose.com/words/). This macro makes it super simple to get an offline copy of your favorite online content for editing, sharing and printing in most popular Microsoft Word formats (DOC/DOCX). It adds a simple **Export to Word** button at any desired location on the web page. Clicking the button exports the page content to a Word document and automatically downloads the file to a disk location selected by the user in just seconds.
 
 ## Export to PDF
 
@@ -64,7 +64,7 @@ Once downloaded, please follow these steps to install this package into your Umb
 1. If you install **local package**, do not unzip the package but load the zip into Umbraco.
 1. Follow the instructions on screen.
 
-**Note**: You may get a ‘Maximum request length exceeded’ error when installing. You can easily fix this issue by updating the ‘maxRequestLength’ value in your Umbraco web.config file.
+**Note**: You may get a ‘Maximum request length exceeded' error when installing. You can easily fix this issue by updating the ‘maxRequestLength' value in your Umbraco web.config file.
 
 {{< highlight csharp >}}
  <httpRuntime requestValidationMode="2.0" enableVersionHeader="false" maxRequestLength="25000" /> 
@@ -91,7 +91,7 @@ You have successfully added Export to Word to the template. A button titled **Ex
 After you have installed the Export to Pdf macro it is really simple to start using it on your website. Please follow these simple steps to get started:
 
 1. Make sure you are logged in to the Umbraco **Developer** section, for example <https://umbraco.com/training/certified-developers/>
-1. Click **Settings** in the list of sections in  the bottom left of the screen.
+1. Click **Settings** in the list of sections in the bottom left of the screen.
 1. Expand the **Templates** node and select the template that you want to add the Export to Pdf feature to, for example Blog post.
 1. Select the position in the selected template where you want to export button to be added. Usually you want to add it to the top right of the page, or the bottom of the page.
 1. Click **Insert Macro** on the top ribbon.

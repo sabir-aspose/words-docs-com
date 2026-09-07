@@ -47,7 +47,7 @@ Here, `value_expression` defines a value of a combobox or dropdown list item to 
 
 In turn, `display_name_expression` defines a display name of the combobox or dropdown list item to be added. This expression is optional. If it is omitted, then during runtime, a value of `value_expression` is used as a display name as well.
 
-**Note** – Values of both `value_expression` and `display_name_expression` can be of any types. During runtime, `Object.toString()` is invoked to get textual representations of these expressions’ values.
+**Note** – Values of both `value_expression` and `display_name_expression` can be of any types. During runtime, `Object.toString()` is invoked to get textual representations of these expressions' values.
 
 While building a report, `value_expression` and `display_name_expression` are evaluated and a corresponding combobox or dropdown list item is added. A declaring `item` tag is removed then.
 
@@ -92,7 +92,7 @@ You can normally use common expression tags in content control titles, thus form
    **A:** Use the `item` tag inside the content control title: `<<item [value] [displayName]>>`. Place multiple `item` tags or put them inside a `foreach` loop to add many items dynamically.
 
 3. **Q:** Is it possible to set the title of a content control dynamically?  
-   **A:** Yes. Insert an expression tag directly in the title, such as `<<[customer.Name]>>`. The expression is evaluated and the resulting string becomes the control’s title.
+   **A:** Yes. Insert an expression tag directly in the title, such as `<<[customer.Name]>>`. The expression is evaluated and the resulting string becomes the control's title.
 
 4. **Q:** Can I conditionally add a combobox item?  
    **A:** Combine `if` and `item` tags: `<<if [product.InStock]>> <<item [product.Id] [product.Name]>> <<endif>>`. The item is added only when the condition evaluates to true.

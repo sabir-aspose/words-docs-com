@@ -211,7 +211,7 @@ For additional details, see the official documentation:
    A: Locate the `Section` node that contains the break, then call `section.getPreviousSibling().remove()` or remove the `Section` node itself using `section.remove()`. After removal, the content before the break inherits the formatting of the following section, so you may need to copy the required `PageSetup` settings before removal.  
 
 3. Q: How do I clone a section and insert the clone into the same document or another document?  
-   A: Call `Section clonedSection = (Section) originalSection.deepClone();` and then add it to the target document’s `Sections` collection with `targetDoc.getSections().add(clonedSection);`. If the target document is different, import the cloned node first using `targetDoc.importNode(clonedSection, true)`.  
+   A: Call `Section clonedSection = (Section) originalSection.deepClone();` and then add it to the target document's `Sections` collection with `targetDoc.getSections().add(clonedSection);`. If the target document is different, import the cloned node first using `targetDoc.importNode(clonedSection, true)`.  
 
 4. Q: How can I set different headers or footers for the first page and for odd/even pages within a section?  
    A: Access the `Section` object and set `section.getPageSetup().setDifferentFirstPageHeaderFooter(true);` and `section.getPageSetup().setOddAndEvenPagesHeaderFooter(true);`. Then create or modify the `HeaderFooter` objects for `HeaderFooterType.HEADER_FIRST`, `HEADER_EVEN`, and `HEADER_PRIMARY` as needed.  

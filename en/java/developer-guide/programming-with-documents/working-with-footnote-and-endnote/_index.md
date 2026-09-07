@@ -37,7 +37,7 @@ The following code example shows how to insert endnote into the document and set
 
 You can set the number of footnote layout columns using the [Columns](https://reference.aspose.com/words/java/com.aspose.words/footnoteoptions/#getColumns) property. If this property has the value of 0, the footnotes area is formatted with a number of columns based on the number of columns on the displayed page.
 
-The following code example shows how to set the number of columns for footnote layout:
+The following code example showshow to set the number of columns for footnote layout:
 
 {{< gist "aspose-words-gists" "1cb8150f6ed075f764a1b8f2928f318e" "set-footnote-columns.java" >}}
 
@@ -58,7 +58,7 @@ The following code example shows how to set the position of footnote and endnote
    **A:** Yes. Access the options via `Document.getFootnoteOptions()` or `Document.getEndnoteOptions()` and call `setNumberStyle(FootnoteNumberStyle style)` / `setNumberStyle(EndnoteNumberStyle style)` to set the desired numbering format.
 
 3. **Q:** How do I control how many columns footnotes are displayed in?  
-   **A:** Set the `Columns` property on the document’s `FootnoteOptions`: `document.getFootnoteOptions().setColumns(int columns)`. A value of `0` lets Word decide based on page layout.
+   **A:** Set the `Columns` property on the document's `FootnoteOptions`: `document.getFootnoteOptions().setColumns(int columns)`. A value of `0` lets Word decide based on page layout.
 
 4. **Q:** What properties determine where footnotes and endnotes appear in the document?  
    **A:** Use `FootnoteOptions.setPosition(FootnotePosition position)` to choose between `BOTTOM_OF_PAGE` or `BENEATH_TEXT`. For endnotes, use `EndnoteOptions.setPosition(EndnotePosition position)` with values `END_OF_SECTION` or `END_OF_DOCUMENT`.

@@ -135,7 +135,7 @@ Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
 builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
-|  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  项目符号列表使用段落编号表示：<br /> `ListFormat.ApplyBulletDefault()`<br />可以有 3 种类型的项目符号列表。它们仅在第一级编号格式上有所不同。它们分别是：`‘-’`、`‘+’` 或 `‘*’`。 |
+|  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  项目符号列表使用段落编号表示：<br /> `ListFormat.ApplyBulletDefault()`<br />可以有 3 种类型的项目符号列表。它们仅在第一级编号格式上有所不同。它们分别是：`‘-'`、`‘+'` 或 `‘*'`。 |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
 |  **OrderedList**<br /> `1. Item 1`<br /> `2. Item 2`<br /> `1) Item 2a`<br /> `2) Item 2b` |  有序列表使用段落编号表示：<br /> `ListFormat.ApplyNumberDefault()`<br />可以有 2 个数字格式标记："."和 '）'。默认标记是"."。 |
 |  {{< highlight csharp >}}Document doc = new Document();

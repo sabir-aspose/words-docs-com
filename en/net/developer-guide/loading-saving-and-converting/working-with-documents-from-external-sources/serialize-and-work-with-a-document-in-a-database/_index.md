@@ -21,7 +21,7 @@ This page explains how to serialize a document to a database and how to reload i
 
 {{% /alert %}}
 
-One of the tasks you may need to get done when working with documents is storing and retrieving **Document** objects to and from a database. For example, this would be necessary if you were implementing any type of content management system. All previous versions of documents must be stored in the database system. The ability to store documents in the database is also extremely useful when your application provides a web-based service.
+One of the tasks you may need to get done when working with documents is storing and retrieving**Document**objects to and from a database. For example, this would be necessary if you were implementing any type of content management system. All previous versions of documents must be stored in the database system. The ability to store documents in the database is also extremely useful when your application provides a web-based service.
 
 Aspose.Words provides an ability to convert a document into a byte array for subsequent work with this document in a database.
 
@@ -29,12 +29,12 @@ Aspose.Words provides an ability to convert a document into a byte array for sub
 
 To store a document in a database or to prepare a document for transmission across the web, it is often necessary to serialize the document to obtain a byte array.
 
-To serialize a [Document](https://reference.aspose.com/words/net/aspose.words/document/) object in Aspose.Words:
+To serialize a[Document](https://reference.aspose.com/words/net/aspose.words/document/)object in Aspose.Words:
 
-1. Save it to a **MemoryStream** using the [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) method overload of the **Document** class.
-1. Call the **ToArray** method, which returns an array of bytes representing the document in byte form.
+1. Save it to a**MemoryStream**using the[Save](https://reference.aspose.com/words/net/aspose.words/document/save/)method overload of the**Document**class.
+1. Call the**ToArray**method, which returns an array of bytes representing the document in byte form.
 
-The steps above then can be reversed to load the bytes back into a **Document** object.
+The steps above then can be reversed to load the bytes back into a**Document**object.
 
 {{% alert color="primary" %}}
 
@@ -42,11 +42,11 @@ The selected save format is important to ensure the highest fidelity is retained
 
 {{% /alert %}}
 
-The example below shows how to serialize a **Document** object to obtain a byte array, and then how to unserialize the byte array to obtain a **Document** object again:
+The example below shows how to serialize a**Document**object to obtain a byte array, and then how to unserialize the byte array to obtain a**Document**object again:
 
 {{< gist "aspose-words-gists" "f8a622f8bc1cf3c2fa8a7a9be359faa2" "docx-to-byte.cs" >}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
+You can download the template file of this examplefrom[Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 ## Store, Read and Delete a Document in a Database
 
@@ -70,7 +70,7 @@ The following code example shows how to save a document to the database, then re
 
 To save a document in a database convert this document to an array of bytes, as described at the beginning of this article. Then, save this byte array into a database field.
 
-The following code example shows how to save a document to the specified database:
+The following code exampleshows howto save a document to the specified database:
 
 {{< gist "aspose-words-gists" "f8a622f8bc1cf3c2fa8a7a9be359faa2" "store-to-database.cs" >}}
 
@@ -81,9 +81,9 @@ Specify commandString, which is an SQL expression that does all the work:
 
 ### Retrieve a Document from a Database
 
-To retrieve a document from the database, select the record that contains the document data as an array of bytes. Then load the byte array from the record into **MemoryStream** and create a **Document** object that will load the document from the **MemoryStream**.
+To retrieve a document from the database, select the record that contains the document data as an array of bytes. Then load the byte array from the record into**MemoryStream**and create a**Document**object that will load the document from the**MemoryStream**.
 
-The following code example shows how to retrieve and return a document from the specified database using the filename as a key to fetch this document:
+The following code exampleshows how to retrieve and return a document from the specified database using the filename as a key to fetch this document:
 
 {{< gist "aspose-words-gists" "f8a622f8bc1cf3c2fa8a7a9be359faa2" "read-from-database.cs" >}}
 
@@ -95,7 +95,7 @@ The SQL command “SELECT * FROM” is used to fetch the appropriate record base
 
 ### Delete a Document from a Database
 
-To delete a document from the database, use the appropriate SQL command without any manipulations on the **Document** object.
+To delete a document from the database, use the appropriate SQL command without any manipulations on the**Document**object.
 
 The following code example shows how to delete a document from the database, using the file name to fetch the record:
 
@@ -103,7 +103,7 @@ The following code example shows how to delete a document from the database, usi
 
 ## Related APIs
 
-- [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) 
+- [Save](https://reference.aspose.com/words/net/aspose.words/document/save/)
 - [Document](https://reference.aspose.com/words/net/aspose.words/document/)
 
 ------

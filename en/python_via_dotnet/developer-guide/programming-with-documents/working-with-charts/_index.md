@@ -89,7 +89,7 @@ The code generates the followings results:
 
 ## How to Work with ChartSeriesCollection of Chart
 
-Let’s look into [ChartSeries](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts.chartseries/) collection. All chart series are available through [Chart.series](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts.chart/series/) collection:
+Let's look into [ChartSeries](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts.chartseries/) collection. All chart series are available through [Chart.series](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts.chart/series/) collection:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-ChartSeriesCollection.py" >}}
 
@@ -136,7 +136,7 @@ Please see the result below:
 
 ## How to Define Default Options for ChartDataLabels of ChartSeries
 
-The [ChartDataLabelCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts.chartdatalabelcollection/) class defines properties which can be used to set default options for [ChartDataLabels](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts.chartdatalabel/) for Chart Series. These properties include [show_category_name](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts.chartdatalabelcollection/show_category_name/), [show_bubble_size](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts.chartdatalabelcollection/show_bubble_size/), [show_percentage](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts.chartdatalabelcollection/show_percentage/), [show_series_name](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts.chartdatalabelcollection/show_series_name/), [show_value](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts.chartdatalabelcollection/show_value/) etc.
+The [ChartDataLabelCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts.chartdatalabelcollection/) class defines properties which can be used to set default options for [ChartDataLabels](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts.chartdatalabel/) for Chart Series. These properties include[show_category_name](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts.chartdatalabelcollection/show_category_name/), [show_bubble_size](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts.chartdatalabelcollection/show_bubble_size/), [show_percentage](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts.chartdatalabelcollection/show_percentage/), [show_series_name](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts.chartdatalabelcollection/show_series_name/), [show_value](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts.chartdatalabelcollection/show_value/) etc.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-DefaultOptionsForDataLabels.py" >}}
 
@@ -152,7 +152,7 @@ The following code example shows how to format a number of the data label:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-FormatNumberOfDataLabel.py" >}}
 
-## How to Set Chart Axis Properties
+## How toSet Chart Axis Properties
 
 If you want to work with chart axis, scaling, and display units for the value axis, please use [ChartAxis](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts.chartaxis/), [AxisDisplayUnit](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts.axisdisplayunit/), and [AxisScaling](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts.axisscaling/) classes.
 
@@ -168,7 +168,7 @@ The following code example shows how to set date/time values to axis properties:
 
 ### How to Format Number Value of Axis
 
-The following code example shows how to change the format of numbers on the value axis:
+The following code example shows how tochange the format of numbers on the value axis:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-SetNumberFormatForAxis.py" >}}
 
@@ -176,13 +176,13 @@ The following code example shows how to change the format of numbers on the val
 
 The [AxisBound](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisbound/) class represents a minimum or maximum bound of axis values. Bound can be specified as a numeric, date-time or a special "auto" value.
 
-The following code example shows how to set bounds of an axis:
+The following code example shows howto set bounds of an axis:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-SetboundsOfAxis.py" >}}
 
 ### How to Set Interval Unit Between Labels
 
-The following code example shows how to set the interval unit between labels on an axis:
+The following code example shows howto setthe interval unit between labels on an axis:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-SetIntervalUnitBetweenLabelsOnAxis.py" >}}
 

@@ -29,7 +29,7 @@ Có một số vấn đề an ninh điển hình khi tải các tài nguyên bê
 
 ### Khải phục chứng nhận thông qua hình ảnh liên kết
 
-Trên máy chủ Windows dựa, các tài liệu chứa tham chiếu đến các nguồn sử dụng đường dẫn UNC như ’*‘ \\ example. com \ a \ b * ’sẽ được xử lý mặc định. Trong môi trường miền, điều này sẽ khiến máy chủ gửi chứng chỉ miền của nó ở định dạng đã được băm tới máy chủ được chỉ định.
+Trên máy chủ Windows dựa, các tài liệu chứa tham chiếu đến các nguồn sử dụng đường dẫn UNC như '*‘ \\ example. com \ a \ b * 'sẽ được xử lý mặc định. Trong môi trường miền, điều này sẽ khiến máy chủ gửi chứng chỉ miền của nó ở định dạng đã được băm tới máy chủ được chỉ định.
 
 Nếu kẻ tấn công có thể thuyết phục một người dùng hoặc máy chủ xử lý một tài liệu với liên kết nguồn như vậy trỏ đến một máy chủ mà chúng kiểm soát, kẻ tấn công sẽ nhận được thông tin xác thực tài khoản người dùng hoặc dịch vụ ở định dạng NTLM hash. Dữ liệu như vậy sau đó có thể được sử dụng lại trong một cuộc tấn công truyền tải mật khẩu cổ điển, cho phép kẻ tấn công truy cập bất kỳ tài nguyên nào với tư cách là người dùng hoặc tài khoản dịch vụ nạn nhân.
 

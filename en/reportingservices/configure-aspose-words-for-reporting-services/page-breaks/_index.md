@@ -20,7 +20,7 @@ When rendering reports in Flow layout, it is very important to control how page 
 
 Below is the description of the modes.
 
-**Smart page breaks placement.** This is the default mode. In this mode, page breaks are inserted in certain locations in the document, such as where they were explicitly specified by the design or between appropriate table groups. This mode provides a good balance between the document’s fidelity and editability.
+**Smart page breaks placement.** This is the default mode. In this mode, page breaks are inserted in certain locations in the document, such as where they were explicitly specified by the design or between appropriate table groups. This mode provides a good balance between the document's fidelity and editability.
 
 **Page break on each page.** In this mode, a page break is inserted at the end of each page. This normally provides the best precision of the export (the report exported to a Word document will look very close to that exported to PDF), but makes the document harder to edit because of too many page breaks inserted.
 

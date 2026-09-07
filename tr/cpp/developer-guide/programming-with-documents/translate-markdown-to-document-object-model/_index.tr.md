@@ -56,7 +56,7 @@ Madde işaretli ve sıralı listeler Markdown içindeki kapsayıcı bloklarıdı
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Autolink.h" >}} |  |
 | **Link**<br />`[link text](url)`<br />`[link text](<url>"title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/) sınıfı. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Link.h" >}} |  |
-| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) sınıfı. |
+| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title')`<br />`![alt text](url (title))` | [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) sınıfı. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Image.h" >}} |  |
 
 ## Konteyner Blokları
@@ -92,9 +92,9 @@ Aşağıdaki tablo, Aspose.Words içinde Markdown Karmaşık Kapsayıcıları ku
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `get_ParagraphFormat()->set_StyleName(u"Quote[some suffix]")`<br />Stil adındaki sonek isteğe bağlıdır, ancak Aspose.Words içe aktarıcı sıralı numaraları kullanır 1, 2, 3, .... iç içe geçmiş alıntılar durumunda.<br />Yuvalama, devralınan stiller aracılığıyla tanımlanır. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Quote.h" >}} |  |
-| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Madde işaretli listeler paragraf numaralandırması kullanılarak temsil edilir:<br />`get_ListFormat()->ApplyBulletDefault()`<br />3 madde işaretli liste türleri olabilir. Bunlar yalnızca ilk seviyenin numaralandırma biçiminde farklılık gösterir. Bunlar: sırasıyla `‘-’`, `‘+’` veya `‘*’`. |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Madde işaretli listeler paragraf numaralandırması kullanılarak temsil edilir:<br />`get_ListFormat()->ApplyBulletDefault()`<br />3 madde işaretli liste türleri olabilir. Bunlar yalnızca ilk seviyenin numaralandırma biçiminde farklılık gösterir. Bunlar: sırasıyla `‘-'`, `‘+'` veya `‘*'`. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-BulletedList.h" >}} |  |
-| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Sıralı listeler paragraf numaralandırması kullanılarak temsil edilir:<br />`get_ListFormat()->ApplyNumberDefault()`<br />2 sayı biçimi belirteçleri olabilir: ‘.’ ve ‘)’. Varsayılan belirteç ‘.’ 'dir. |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Sıralı listeler paragraf numaralandırması kullanılarak temsil edilir:<br />`get_ListFormat()->ApplyNumberDefault()`<br />2 sayı biçimi belirteçleri olabilir: ‘.' ve ‘)'. Varsayılan belirteç ‘.' 'dir. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-OrderedList.h" >}} |  |
 
 ### Masalar

@@ -73,7 +73,7 @@ After you have installed the Aspose .NET Advance DNN Content Exporter, it is rea
 1. Make sure you are logged-in to DNN with a Host or Admin level account.
 1. Navigate to the page where you want to add the Export module.
 1. Select **Modules** followed by **Add New Module** from the top ribbon.
-1. From the list, select ‘Aspose .NET Advance DNN Content Exporter Module’ and drag it into position.
+1. From the list, select ‘Aspose .NET Advance DNN Content Exporter Module' and drag it into position.
 
 You have successfully added Aspose .NET Advance DNN Content Exporter module to your page. 
 
@@ -114,7 +114,7 @@ From the very first days of Aspose, we knew that just giving our customers good 
 
 This is why we offer free support. Anyone who uses our product, whether they have bought them or are using an evaluation, deserves our full attention and respect.
 
-You can log any issues or suggestions related to Aspose.Words .NET for DNN Modules using any of the following platforms
+You can log any issues or suggestions related toAspose.Words .NET for DNN Modules using any of the following platforms
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 

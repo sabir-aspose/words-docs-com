@@ -114,7 +114,7 @@ Notez que dans de telles situations, Aspose.Words a la conversion marquée "haut
 
 {{% /alert %}}
 
-Par exemple, il n’existe pas de correspondance simple entre toutes les fonctionnalités des documents HTML et Microsoft Word. Il n'y a pas d'en-têtes/pieds de page, de sections, de champs et d'onglets en HTML. À l’inverse, tous les attributs et règles CSS ne peuvent pas être mappés à un document Microsoft Word.
+Par exemple, il n'existe pas de correspondance simple entre toutes les fonctionnalités des documents HTML et Microsoft Word. Il n'y a pas d'en-têtes/pieds de page, de sections, de champs et d'onglets en HTML. À l'inverse, tous les attributs et règles CSS ne peuvent pas être mappés à un document Microsoft Word.
 
 Vous trouverez ci-dessous un exemple de conversions de DOC vers HTML.
 
@@ -136,4 +136,4 @@ Les scénarios évolutifs côté serveur utilisent Aspose.Words principalement e
 
 Aspose.Words démontre des performances élevées lors du chargement et de l'enregistrement de documents. Lors des tests, un fichier DOC de plus de 5 Mo a été chargé en moins d'une seconde, puis enregistré en moins d'une seconde sur une machine P4 à 3 GHz. Les fichiers plus petits peuvent être traités à des vitesses de milliers par minute.
 
-À plusieurs reprises, nos clients nous ont signalé qu’ils n’en croyaient pas à la rapidité de Aspose.Words. Ils ont franchi la ligne de code qui chargeait un énorme document dans le débogueur, et c'était si instantané qu'ils ne pouvaient pas croire que le fichier était chargé dans l'objet **Document**.
+À plusieurs reprises, nos clients nous ont signalé qu'ils n'en croyaient pas à la rapidité de Aspose.Words. Ils ont franchi la ligne de code qui chargeait un énorme document dans le débogueur, et c'était si instantané qu'ils ne pouvaient pas croire que le fichier était chargé dans l'objet **Document**.

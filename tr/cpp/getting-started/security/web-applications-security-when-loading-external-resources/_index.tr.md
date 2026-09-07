@@ -29,7 +29,7 @@ Dış kaynakları yüklerken bir dizi tipik güvenlik sorunu vardır.
 
 ### Bağlantılı Görseller Aracılığıyla Kimlik Bilgilerinin Açıklanması
 
-Windows tabanlı ana bilgisayarlarda, *‘\\example.com\a\b*’ gibi UNC yollarını kullanan kaynaklara başvurular içeren belgeler varsayılan olarak işlenir. Bir etki alanı ortamında, bu, ana bilgisayarın etki alanı kimlik bilgilerini karma biçimde belirtilen sunucuya göndermesine neden olur.
+Windows tabanlı ana bilgisayarlarda, *‘\\example.com\a\b*' gibi UNC yollarını kullanan kaynaklara başvurular içeren belgeler varsayılan olarak işlenir. Bir etki alanı ortamında, bu, ana bilgisayarın etki alanı kimlik bilgilerini karma biçimde belirtilen sunucuya göndermesine neden olur.
 
 Saldırgan, bir kullanıcıyı veya sunucuyu, denetlediği bir ana bilgisayara işaret eden böyle bir kaynak bağlantısına sahip bir belgeyi işlemeye ikna edebiliyorsa, saldırgan kullanıcı veya hizmet hesabı kimlik bilgilerini NTLM karma biçiminde alır. Bu tür veriler daha sonra klasik bir karma geçiş saldırısında yeniden kullanılabilir ve saldırganın mağdur kullanıcı veya hizmet hesabı olarak herhangi bir kaynağa erişmesine izin verir.
 

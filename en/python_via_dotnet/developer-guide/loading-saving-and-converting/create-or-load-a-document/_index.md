@@ -25,11 +25,11 @@ This page shows how to create a new blank document and how to load an existing d
 
 {{% /alert %}}
 
-Almost any task that you want to perform with Aspose.Words involves loading a document. The [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) class represents a document loaded into memory. The document has several overloaded constructors allowing you to create a blank document or to load it from a file or stream. The document can be loaded in any load format supported by Aspose.Words. For the list of all supported load formats, see the [LoadFormat](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) enumeration.
+Almost any task that you want to perform with Aspose.Words involves loading a document.The [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) class represents a document loaded into memory. The document has several overloaded constructors allowing you to create a blank document or to load it from a file or stream.The document can be loaded in any load format supported by Aspose.Words. For the list of all supported load formats, see the[LoadFormat](https://reference.aspose.com/words/python-net/aspose.words/loadformat/)enumeration.
 
 ## Create a New Document
 
-We will call the [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) constructor without parameters to create a new blank document. If you want to generate a document programmatically, the simplest way is to use the [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) class to add document contents.
+We will call the[Document](https://reference.aspose.com/words/python-net/aspose.words/document/)constructor without parameters to create a new blank document. If you want to generate a document programmatically, the simplest way is to use the[DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/)class to add document contents.
 
 The following code example shows how to create a document using the document builder:
 
@@ -53,7 +53,7 @@ Note the default values:
 
 ## Load a Document
 
-To load an existing document in any of the [LoadFormat](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) formats, pass the file name or the stream into one of the [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) constructors. The format of the loaded document is automatically determined by its extension.
+To load an existing document in any of the[LoadFormat](https://reference.aspose.com/words/python-net/aspose.words/loadformat/)formats, pass the file name or the stream into one of the [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) constructors. The format of the loaded document is automatically determined by its extension.
 
 ### Load from a File
 
@@ -63,7 +63,7 @@ The following code example shows how to open a document from a file:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-base_conversions-OpenDocument.py" >}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx).
+You can download the template file of this examplefrom[Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx).
 
 ### Load from a Stream
 
@@ -75,7 +75,7 @@ The following code example shows how to open a document from a stream:
 
 {{% alert color="primary" %}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx).
+You can download the template file of this examplefrom[Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx).
 
 {{% /alert %}}
 

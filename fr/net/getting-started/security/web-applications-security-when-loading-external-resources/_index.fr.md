@@ -4,7 +4,7 @@ second_title: Aspose.Words pour .NET
 articleTitle: Sécurité des applications Web lors du chargement de ressources externes
 linktitle: Sécurité des applications Web lors du chargement de ressources externes
 type: docs
-description: "Charger des ressources distantes, cela peut être une raison de risques de sécurité. Jetez un œil aux problèmes de sécurité courants et à leurs solutions à l’aide de C#."
+description: "Charger des ressources distantes, cela peut être une raison de risques de sécurité. Jetez un œil aux problèmes de sécurité courants et à leurs solutions à l'aide de C#."
 weight: 100
 ai_search_scope: words_net
 ai_search_endpoint: "https://docsearch.api.aspose.cloud/ask"
@@ -19,7 +19,7 @@ Dans cet article, nous examinons les problèmes de sécurité courants pouvant s
 
 {{% alert color="primary" %}}
 
-Aspose.Words ne fonctionne pas comme un logiciel antivirus. Par conséquent, il ne fournit pas d’informations sur la présence de composants malveillants dans le document. Pour garantir la sécurité de vos données, vérifiez vous-même les documents obtenus auprès d'une source externe. À son tour, Aspose.Words fournit des recommandations sur la manière de gérer les problèmes pouvant survenir lors du chargement de ressources externes.
+Aspose.Words ne fonctionne pas comme un logiciel antivirus. Par conséquent, il ne fournit pas d'informations sur la présence de composants malveillants dans le document. Pour garantir la sécurité de vos données, vérifiez vous-même les documents obtenus auprès d'une source externe. À son tour, Aspose.Words fournit des recommandations sur la manière de gérer les problèmes pouvant survenir lors du chargement de ressources externes.
 
 {{% /alert %}}
 
@@ -37,7 +37,7 @@ Si le compte en question utilise un mot de passe faible ou devinable, l'attaquan
 
 ### Divulgation d'images locales via des images liées
 
-Semblable au cas précédent, le traitement d'un document avec une référence à un fichier image local entraînera l'inclusion de ce fichier dans le document final. Cela peut conduire à la divulgation d’informations sensibles.
+Semblable au cas précédent, le traitement d'un document avec une référence à un fichier image local entraînera l'inclusion de ce fichier dans le document final. Cela peut conduire à la divulgation d'informations sensibles.
 
 ### Déni de service
 

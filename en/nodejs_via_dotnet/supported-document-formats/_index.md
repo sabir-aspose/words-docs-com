@@ -26,7 +26,7 @@ The following table indicates the input and output file formats supported by Asp
 | :- | :- | :- | :- | :- |
 | [`DOC`](https://docs.fileformat.com/word-processing/doc/) | Microsoft Word 97 – 2007 Document | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`DOT`](https://docs.fileformat.com/word-processing/dot/) | Microsoft Word 97 – 2007 Template | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
-| `DocPreWord60` | The document is in the Word 6 or Word 95 format | {{< emoticons/tick >}} |  | |
+| `DocPreWord60` | The document is in the Word 6 or Word 95 format | {{< emoticons/tick >}} |  ||
 | [`DOCX`](https://docs.fileformat.com/word-processing/docx/) | Office Open XML WordprocessingML Document (macro-free) | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`DOCM`](https://docs.fileformat.com/word-processing/docm/) | Office Open XML WordprocessingML Macro-Enabled Document | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`DOTX`](https://docs.fileformat.com/word-processing/dotx/) | Office Open XML WordprocessingML Template (macro-free) | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
@@ -43,7 +43,7 @@ The following table indicates the input and output file formats supported by Asp
 | [`MHTML`](https://docs.fileformat.com/web/mhtml/) | MHTML (Web archive) format | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`MOBI`](https://docs.fileformat.com/ebook/mobi/) | MOBI is an eBook format used by the `MobiPocket` Reader and Amazon Kindle Readers | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`AZW3`](https://docs.fileformat.com/ebook/azw3/) | AZW3 is an eBook format used by Amazon Kindle readers | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
-| [`CHM`](https://docs.fileformat.com/web/chm/) | CHM (Compiled HTML Help) format | {{< emoticons/tick >}} |  | |
+| [`CHM`](https://docs.fileformat.com/web/chm/) | CHM (Compiled HTML Help) format | {{< emoticons/tick >}} |  ||
 | [`ODT`](https://docs.fileformat.com/word-processing/odt/) | ODF Text Document | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`OTT`](https://docs.fileformat.com/word-processing/ott/) | ODF Text Document Template | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |
 | [`TXT`](https://docs.fileformat.com/word-processing/txt/) | Plain Text | {{< emoticons/tick >}} | {{< emoticons/tick >}} |  |

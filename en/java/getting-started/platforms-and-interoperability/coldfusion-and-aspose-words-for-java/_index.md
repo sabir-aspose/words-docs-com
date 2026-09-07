@@ -21,7 +21,7 @@ To use Aspose.Words for Java in ColdFusion applications, you simply need to copy
 
 {{% /alert %}}
 
-Don’t forget to restart the “ColdFusion Application Server” after putting the new jars into the “lib” folder. 
+Don't forget to restart the “ColdFusion Application Server” after putting the new jars into the “lib” folder. 
 
 ## Hello World
 
@@ -44,7 +44,7 @@ This is a simple application that creates an empty document, inserts some conten
 
 ## Simple Mail Merge
 
-Aspose.Words provides a reporting generation facility similar to Microsoft Word’s mail merge. Here is a code example to perform a simple Mail Merge using Aspose.Words.
+Aspose.Words provides a reporting generation facility similar to Microsoft Word's mail merge. Here is a code example to perform a simple Mail Merge using Aspose.Words.
 
 **ColdFusion**
 

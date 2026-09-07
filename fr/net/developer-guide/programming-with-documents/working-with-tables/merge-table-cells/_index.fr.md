@@ -64,7 +64,7 @@ L'exemple de code suivant montre comment créer un tableau à deux colonnes dans
 
 ## Fusionner les cellules du tableau dans d'autres cas
 
-Dans d'autres situations où le **DocumentBuilder** n'est pas utilisé, comme dans un tableau existant, la fusion de cellules de la manière précédente peut ne pas être aussi simple. Au lieu de cela, nous pouvons regrouper les opérations de base impliquées dans l’application des propriétés de fusion aux cellules dans une méthode qui rend la tâche beaucoup plus facile. Cette méthode est similaire à la méthode d'automatisation Fusion, qui est appelée pour fusionner une plage de cellules dans un tableau.
+Dans d'autres situations où le **DocumentBuilder** n'est pas utilisé, comme dans un tableau existant, la fusion de cellules de la manière précédente peut ne pas être aussi simple. Au lieu de cela, nous pouvons regrouper les opérations de base impliquées dans l'application des propriétés de fusion aux cellules dans une méthode qui rend la tâche beaucoup plus facile. Cette méthode est similaire à la méthode d'automatisation Fusion, qui est appelée pour fusionner une plage de cellules dans un tableau.
 
 Le code ci-dessous fusionnera les cellules du tableau dans la plage spécifiée, en commençant à la cellule donnée et en terminant à la cellule de fin. Dans ce cas, la plage peut s'étendre sur plusieurs lignes ou colonnes:
 

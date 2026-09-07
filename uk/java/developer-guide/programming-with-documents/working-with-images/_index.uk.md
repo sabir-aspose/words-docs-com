@@ -45,7 +45,7 @@ Aspose.Words дозволяє користувачам працювати з з�
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetImageAspectRatioLocked-DocumentBuilderSetImageAspectRatioLocked.java" >}}
 
-## Як отримати реальні зв’язки форми в точках {#how-to-get-actual-bounds-of-shape-in-points}
+## Як отримати реальні зв'язки форми в точках {#how-to-get-actual-bounds-of-shape-in-points}
 
 Якщо ви хочете, щоб фактична обмежена коробка форми, як надана на сторінці, ви можете досягти цього, використовуючи [BoundsInPoints](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getBoundsInPoints) майно.
 

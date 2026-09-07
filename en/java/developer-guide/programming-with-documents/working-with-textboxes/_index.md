@@ -27,7 +27,7 @@ In Aspose.Words, the [TextBox](https://reference.aspose.com/words/java/com.aspos
 
 ## Creating a Link
 
-The **TextBox** class provides [IsValidLinkTarget](https://reference.aspose.com/words/java/com.aspose.words/textbox/#isValidLinkTarget-com.aspose.words.TextBox) method in order to check whether the **TextBox** can be linked to the target **Textbox**.
+The **TextBox** class provides [IsValidLinkTarget](https://reference.aspose.com/words/java/com.aspose.words/textbox/#isValidLinkTarget-com.aspose.words.TextBox) method in order to check whether the**TextBox** can be linked to the target **Textbox**.
 
 The following code example shows how to check if the `TextBox` can be linked to the target Textbox:
 
@@ -37,7 +37,7 @@ The following code example shows how to check if the `TextBox` can be linked to 
 
 There are several ways to display text in a shape. The [TextBox](https://reference.aspose.com/words/java/com.aspose.words/shape/#getTextBox) can be the Head, Middle, or Tail of a sequence.
 
-The following code example shows how to check if **TextBox** is a Head, Tail, or Middle of the sequence:
+The following code example shows how to checkif **TextBox** is a Head, Tail, or Middle of the sequence:
 
 {{< gist "aspose-words-gists" "8efa479dedfc5a2f45b37e8c900d50a2" "check-sequence.java" >}}
 

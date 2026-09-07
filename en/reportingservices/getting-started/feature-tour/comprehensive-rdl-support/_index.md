@@ -15,7 +15,7 @@ timestamp: 2024-01-27-14-07-04
 Aspose.Words for Reporting Services fully supports all of the RDL specification. This has two great advantages:
 
 - **No need to redesign existing reports.** You can export any existing RDL report as a Microsoft Word document and it will appear exactly according to the RDL design.
-- **No need to use a specific report designer.** You can use any RDL report designer and the report will be exported exactly the way you’ve designed it.
+- **No need to use a specific report designer.** You can use any RDL report designer and the report will be exported exactly the way you've designed it.
 
 {{% /alert %}}
 

@@ -126,7 +126,7 @@ Certaines polices de script complexes nécessitent le traitement des fonctionnal
 
 **Q: Ai-je besoin de fichiers de licence pour les polices que j'utilise?**
 
-Oui, c'est vrai. Par conséquent, lorsque vous copiez des polices, gardez à l’esprit que la plupart des polices sont protégées par des droits d’auteur. Localisez au préalable les licences de polices et vérifiez qu’elles peuvent être librement transférées sur une autre machine.
+Oui, c'est vrai. Par conséquent, lorsque vous copiez des polices, gardez à l'esprit que la plupart des polices sont protégées par des droits d'auteur. Localisez au préalable les licences de polices et vérifiez qu'elles peuvent être librement transférées sur une autre machine.
 
 ## Mail Merge imbriqué
 

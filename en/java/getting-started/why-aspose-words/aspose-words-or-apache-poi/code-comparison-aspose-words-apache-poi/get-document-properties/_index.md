@@ -28,10 +28,10 @@ String dataDir = Utils.getDataDir(AsposeDocumentProperties.class);
 Document doc = new Document(dataDir + "document.doc");
 System.out.println("============ Built-in Properties ============");
 for (DocumentProperty prop : doc.getBuiltInDocumentProperties())
-    System.out.println(MessageFormat.format("{0} : {1}", prop.getName(), prop.getValue()));
+ System.out.println(MessageFormat.format("{0} : {1}", prop.getName(), prop.getValue()));
 System.out.println("============ Custom Properties ============");
 for (DocumentProperty prop : doc.getCustomDocumentProperties())
-    System.out.println(MessageFormat.format("{0} : {1}", prop.getName(), prop.getValue()));
+ System.out.println(MessageFormat.format("{0} : {1}", prop.getName(), prop.getValue()));
 FileFormatInfo info = FileFormatUtil.detectFileFormat(dataDir + "document.doc");
 System.out.println("The document format is: " + FileFormatUtil.loadFormatToExtension(info.getLoadFormat()));
 System.out.println("Document is encrypted: " + info.isEncrypted());
@@ -49,7 +49,7 @@ SummaryInformation class is used to access various properties of HWPF document.
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ApacheDocumentProperties.class);
 HWPFDocument doc = new HWPFDocument(new FileInputStream(
-                dataDir + "document.doc"));
+ dataDir + "document.doc"));
 SummaryInformation summaryInfo = doc.getSummaryInformation();
 System.out.println(summaryInfo.getApplicationName());
 System.out.println(summaryInfo.getAuthor());

@@ -146,5 +146,5 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
    builder.InsertImage(u"logo.png", 0.0, 0.0, 100.0, 50.0);
    ```
 
-5. **Q:** Why does a header disappear after I change a section’s page orientation?  
-   **A:** Changing orientation can break the link to the previous section’s header/footer. Ensure `HeaderFooter->set_LinkToPrevious(false)` before modifying the orientation, or copy the required header/footer after the change.
+5. **Q:** Why does a header disappear after I change a section's page orientation?  
+   **A:** Changing orientation can break the link to the previous section's header/footer. Ensure `HeaderFooter->set_LinkToPrevious(false)` before modifying the orientation, or copy the required header/footer after the change.

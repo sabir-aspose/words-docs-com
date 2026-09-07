@@ -68,7 +68,7 @@ If you do not use Mail Merge regions, then it will be similar to Microsoft Word 
    **A:** Create a class that inherits from `Aspose::Words::MailMerging::IMailMergeDataSource` and implement the required members: `GetValue`, `MoveNext`, `GetChildDataSource`, and `GetRecordCount`. In `GetValue` return the field value for the current record, and in `MoveNext` advance to the next record. Register the data source with `MailMerge::ExecuteWithRegions`.
 
 2. **Q:** Can I use nested mail‑merge regions, and how are they defined?  
-   **A:** Yes. Define inner regions with their own `TableStart:ChildRegion` and `TableEnd:ChildRegion` fields inside the outer region. When executing, the outer region’s data source must provide a child data source (via `GetChildDataSource`) for each record to populate the inner region.
+   **A:** Yes. Define inner regions with their own `TableStart:ChildRegion` and `TableEnd:ChildRegion` fields inside the outer region. When executing, the outer region's data source must provide a child data source (via `GetChildDataSource`) for each record to populate the inner region.
 
 3. **Q:** What happens if the start and end merge fields of a region are not in the same row or cell?  
    **A:** Aspose.Words will throw an `ArgumentException` or produce malformed output because the region boundaries must be within a single row or cell. Ensure both `TableStart` and `TableEnd` tags are placed in the same table row or cell.

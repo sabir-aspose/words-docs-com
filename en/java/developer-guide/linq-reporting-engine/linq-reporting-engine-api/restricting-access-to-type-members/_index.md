@@ -26,7 +26,7 @@ After the code is run, on attempt to access any member of types `SomeClass1` and
 
 **Note** – The engine also restricts access to members of types derived from `SomeClass1` and `SomeClass2` in the same way.
 
-Restricted types can be set only before building the very first report. Once restricted types are checked for the first time while building a report, they cannot be changed after that and an exception is thrown on attempt to do this. That is why, the recommended place to set restricted types is your application’s startup.
+Restricted types can be set only before building the very first report. Once restricted types are checked for the first time while building a report, they cannot be changed after that and an exception is thrown on attempt to do this. That is why, the recommended place to set restricted types is your application's startup.
 
 **Note** – To determine whether access to a particular type member should be restricted, some reflective calls are done by the engine under the hood, so for better performance, it is recommended to keep the set of restricted types minimal by restricting access to members of only those types that are crucial in terms of security.
 

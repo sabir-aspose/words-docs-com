@@ -57,7 +57,7 @@ Vous pouvez télécharger le fichier modèle de cet exemple depuis [Aspose.Words
 
 ## Spécifier les options d'enregistrement lors de la conversion au format HTML
 
-Aspose.Words permet de convertir un document Word en HTML en utilisant les options de sauvegarde par défaut ou personnalisées. Quelques exemples d’options de sauvegarde personnalisées sont décrits ci-dessous.
+Aspose.Words permet de convertir un document Word en HTML en utilisant les options de sauvegarde par défaut ou personnalisées. Quelques exemples d'options de sauvegarde personnalisées sont décrits ci-dessous.
 
 ### Spécifier un dossier pour enregistrer les ressources
 
@@ -78,7 +78,7 @@ Cependant, il n'existe pas de propriété individuelle pour CSS. Le comportement
 - **ResourceFolder** a une priorité inférieure aux dossiers spécifiés via **FontsFolder**, **ImagesFolder** et **CssStyleSheetFileName**. Si le dossier spécifié dans le **ResourceFolder** n'existe pas, il sera créé automatiquement.
 - **ResourceFolderAlias** a une priorité inférieure à **FontsFolderAlias** et **ImagesFolderAlias**. Si **ResourceFolderAlias** est vide, la valeur de la propriété **ResourceFolder** sera utilisée pour créer les URI de ressources. Si **ResourceFolderAlias** est défini sur "." (point), les URI de ressources contiendront uniquement des noms de fichiers sans spécifier de chemin.
 
-### Exporter les ressources de polices d’encodage Base64
+### Exporter les ressources de polices d'encodage Base64
 
 Aspose.Words offre la possibilité de spécifier si les ressources de polices doivent être intégrées au HTML dans les encodages Base64. Pour ce faire, utilisez la propriété [ExportFontsAsBase64](https://reference.aspose.com/words/fr/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/) – il s'agit d'une extension de la propriété [ExportFontResources](https://reference.aspose.com/words/fr/net/aspose.words.saving/htmlsaveoptions/exportfontresources/). Par défaut, sa valeur est **false** et les polices sont écrites dans des fichiers distincts. Mais si cette option est définie sur **true**, les polices seront intégrées dans le CSS du document en encodage Base64. La propriété **Exporter les polices en tant que base64** affecte uniquement le format HTML et n'affecte pas EPUB et MHTML.
 

@@ -29,7 +29,7 @@ Daar is'n aantal tipiese sekuriteitsprobleme wanneer eksterne hulpbronne gelaai 
 
 ### Openbaarmaking Van Geloofsbriewe Via Gekoppelde Beelde
 
-Op Windows-gebaseerde gashere sal dokumente wat verwysings bevat na hulpbronne wat UNC paaie soos *'\\example.com\a\b*’ gebruik, standaard verwerk word. In'n domein omgewing, sal dit veroorsaak dat die gasheer sy domein geloofsbriewe in'n gehaash formaat te stuur na die gespesifiseerde bediener.
+Op Windows-gebaseerde gashere sal dokumente wat verwysings bevat na hulpbronne wat UNC paaie soos *'\\example.com\a\b*' gebruik, standaard verwerk word. In'n domein omgewing, sal dit veroorsaak dat die gasheer sy domein geloofsbriewe in'n gehaash formaat te stuur na die gespesifiseerde bediener.
 
 As'n aanvaller in staat is om'n gebruiker of bediener te oortuig om'n dokument te verwerk met so'n hulpbron skakel wat wys na'n gasheer wat hulle beheer, sal die aanvaller die gebruiker of diens rekening geloofsbriewe in NTLM hash formaat ontvang. Sulke data kan dan hergebruik word in'n klassieke pass-the-hash aanval, sodat die aanvaller toegang tot enige hulpbron as die slagoffer gebruiker of diens rekening te kry.
 

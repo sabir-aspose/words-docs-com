@@ -43,7 +43,7 @@ Web Extensions are tools that expand the capabilities of Office applications and
 
 Aspose.Words provides the ability to add Web Extensions of the Task Pane type using the [WebExtension](https://reference.aspose.com/words/python-net/aspose.words.webextensions/webextension/) and [TaskPane](https://reference.aspose.com/words/python-net/aspose.words.webextensions/taskpane/) classes, and also allows you to customize the pane and extension properties.
 
-The following code example shows how to create task panes and add to web extension task panes with basic properties: 
+The following code example shows how to create task panes and add to web extension task panes with basic properties:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_web_extension-UsingWebExtensionTaskPanes.py" >}}
 
@@ -58,16 +58,16 @@ The following code example shows how to get such a list of add‑ins:
 ## FAQ
 
 1. **Q:** How do I add a task‑pane web extension to a document using Aspose.Words for Python via .NET?  
-   **A:** Create a `WebExtension` object, add a `TaskPane` to its `TaskPanes` collection, set the required properties (e.g., `Id`, `Title`, `Visible`), and then add the `WebExtension` to the document’s `WebExtensionList`. Finally, save the document.
+   **A:** Create a `WebExtension` object, add a `TaskPane` to its `TaskPanes` collection, set the required properties (e.g., `Id`, `Title`, `Visible`), and then add the `WebExtension` to the document's `WebExtensionList`. Finally, save the document.
 
 2. **Q:** How can I retrieve the list of task‑pane add‑ins that are already attached to a document?  
-   **A:** Use the `Document.web_extension_task_panes` property, which returns a collection of `TaskPane` objects. You can iterate over this collection to inspect each add‑in’s properties such as `Id` and `Title`.
+   **A:** Use the `Document.web_extension_task_panes` property, which returns a collection of `TaskPane` objects. You can iterate over this collection to inspect each add‑in's properties such as `Id` and `Title`.
 
 3. **Q:** Is it possible to modify the properties of an existing task‑pane after it has been added?  
-   **A:** Yes. After obtaining the `TaskPane` instance from the document’s `web_extension_task_panes` collection, you can change properties like `Title`, `Visible`, or `DockState`. The changes are persisted when the document is saved.
+   **A:** Yes. After obtaining the `TaskPane` instance from the document's `web_extension_task_panes` collection, you can change properties like `Title`, `Visible`, or `DockState`. The changes are persisted when the document is saved.
 
 4. **Q:** Are there any limits on the number of task‑pane web extensions that can be added to a single Word document?  
-   **A:** Aspose.Words does not impose a hard limit on the number of task‑pane extensions. The practical limit is determined by Word’s own constraints and the size of the document’s XML, so adding a reasonable number of panes is safe.
+   **A:** Aspose.Words does not impose a hard limit on the number of task‑pane extensions. The practical limit is determined by Word's own constraints and the size of the document's XML, so adding a reasonable number of panes is safe.
 
 5. **Q:** How do I remove a specific task‑pane web extension from a document?  
    **A:** Locate the desired `TaskPane` in the `Document.web_extension_task_panes` collection and call `RemoveAt(index)` or `Remove(taskPane)` on the collection. After removal, save the document to persist the change.

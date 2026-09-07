@@ -28,7 +28,7 @@ This article describes possible scenarios for using Aspose.Words for .NET when b
 
 ## Prerequisites
 
-1. Active AWS account for using Lambda. If you don’t have one, create a new account before you begin.
+1. Active AWS account for using Lambda. If you don't have one, create a new account before you begin.
 2. Visual Studio 2019 or Visual Studio 2017 with installed AWS Toolkit for Visual Studio.
 
 ## How to Run Aspose.Words Application in AWS Lambda

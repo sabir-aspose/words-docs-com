@@ -128,7 +128,7 @@ Note that you can not remove only one digital signature within your document.
    **A:** Currently Aspose.Words can only remove all signatures at once using `RemoveAllSignatures`. To delete a specific signature you would need to use external tools or re‑sign the document without that signature.
 
 4. **Q:** How can I verify whether a digital signature is valid?  
-   **A:** Load the signatures with `DigitalSignatureUtil::LoadSignatures` and iterate through the collection, checking each signature’s `IsValid` property. A true value indicates the signature is cryptographically valid.
+   **A:** Load the signatures with `DigitalSignatureUtil::LoadSignatures` and iterate through the collection, checking each signature's `IsValid` property. A true value indicates the signature is cryptographically valid.
 
 5. **Q:** Is it possible to add a digital signature to a macro‑enabled document?  
    **A:** No. Aspose.Words does not support digital signatures on macros. You must remove macros or use Microsoft Word to sign the macro‑enabled file after the macros are added.

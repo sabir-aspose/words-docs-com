@@ -48,7 +48,7 @@ You can download the sample file of these examples from [Aspose.Words GitHub](ht
 
 {{% /alert %}}
 
-The following code example shows how to obtain bookmarks from a bookmark collection:
+The following codeexample shows how to obtain bookmarks from a bookmark collection:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_bookmarks-AccessBookmarks.py" >}}
 
@@ -56,7 +56,7 @@ The following code example shows how to get or set a bookmark name and text:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_bookmarks-UpdateBookmarkData.py" >}}
 
-The following code example shows how to bookmark a table:
+The following codeexample shows how to bookmark a table:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_bookmarks-BookmarkTable.py" >}}
 

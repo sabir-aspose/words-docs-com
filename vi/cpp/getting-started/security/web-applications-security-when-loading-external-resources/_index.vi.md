@@ -29,7 +29,7 @@ Có một số vấn đề bảo mật điển hình khi tải tài nguyên bên
 
 ### Tiết Lộ Thông Tin Xác Thực Thông Qua Hình Ảnh Được Liên Kết
 
-Trên các máy chủ dựa trên Windows, các tài liệu chứa tham chiếu đến các tài nguyên sử dụng các đường dẫn UNC như *'\\example.com\a\b*’ sẽ được xử lý theo mặc định. Trong môi trường miền, điều này sẽ khiến máy chủ gửi thông tin đăng nhập miền của nó ở định dạng băm đến máy chủ được chỉ định.
+Trên các máy chủ dựa trên Windows, các tài liệu chứa tham chiếu đến các tài nguyên sử dụng các đường dẫn UNC như *'\\example.com\a\b*' sẽ được xử lý theo mặc định. Trong môi trường miền, điều này sẽ khiến máy chủ gửi thông tin đăng nhập miền của nó ở định dạng băm đến máy chủ được chỉ định.
 
 Nếu kẻ tấn công có thể thuyết phục người dùng hoặc máy chủ xử lý tài liệu có liên kết tài nguyên như vậy trỏ đến máy chủ mà họ kiểm soát, kẻ tấn công sẽ nhận được thông tin đăng nhập tài khoản người dùng hoặc dịch vụ ở định dạng băm NTLM. Dữ liệu như vậy sau đó có thể được sử dụng lại trong một cuộc tấn công pass-the-hash cổ điển, cho phép kẻ tấn công có quyền truy cập vào bất kỳ tài nguyên nào với tư cách là người dùng nạn nhân hoặc tài khoản dịch vụ.
 

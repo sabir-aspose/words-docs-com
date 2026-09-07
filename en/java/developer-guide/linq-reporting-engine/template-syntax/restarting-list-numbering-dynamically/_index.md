@@ -94,7 +94,7 @@ John Smith (43 Vogel Street Roslyn Palmerston North 4414)
    **A:** Yes. `restartNum` works independently of data bands; you can insert it before any numbered paragraph to reset the numbering at that point, such as when inserting a document fragment that contains its own list.
 
 3. **Q:** Does `restartNum` affect nested lists or only the top‑level list?  
-   **A:** `restartNum` resets the numbering of the list that contains the tag. If you have nested lists, only the outer list numbering is restarted. Nested lists will continue their own numbering unless you also place a `restartNum` tag within the nested list’s paragraph.
+   **A:** `restartNum` resets the numbering of the list that contains the tag. If you have nested lists, only the outer list numbering is restarted. Nested lists will continue their own numbering unless you also place a `restartNum` tag within the nested list's paragraph.
 
 4. **Q:** Where should the `restartNum` tag be placed relative to the `foreach` tag?  
    **A:** The tag must appear **before** the `<<foreach>>` tag inside the same paragraph that contains the list number (e.g., `1.`). This ensures the list numbering is reset before the loop generates its items.

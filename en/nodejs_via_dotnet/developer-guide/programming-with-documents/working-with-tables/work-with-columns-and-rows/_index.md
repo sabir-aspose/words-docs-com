@@ -31,7 +31,7 @@ The following code example shows how to retrieve the index of a table in a docum
 
 Similarly, you may need to make changes to a specific row in a selected table. To do this, you can also refer to a row by its index.
 
-The following code example shows how to retrieve the index of a row in a table:
+The following code example showshow to retrieve the index of a row in a table:
 
 {{< gist "aspose-words-gists" "0b4aa2dc6bae9b78989a4a7283d7c8da" "retrieve-row-index.js" >}}
 
@@ -96,7 +96,7 @@ By default, the above properties are disabled.
 
 ### Keep a Row from Breaking across Pages
 
-This involves restricting content inside the cells of a row from being split across a page. In Microsoft Word, this can found under Table Properties as the option “Allow row to break across pages”. In Aspose.Words this is found under the [RowFormat](https://reference.aspose.com/words/nodejs-net/aspose.words.tables/rowformat/) object of a [Row](https://reference.aspose.com/words/nodejs-net/aspose.words.tables/row/) as the property [RowFormat.allowBreakAcrossPages](https://reference.aspose.com/words/nodejs-net/aspose.words.tables/rowformat/allowbreakacrosspages/).
+This involves restricting content inside the cells of a row from being split across a page. In Microsoft Word, this can found under Table Properties as the option “Allow row to break across pages”.In Aspose.Words this is found under the [RowFormat](https://reference.aspose.com/words/nodejs-net/aspose.words.tables/rowformat/) object of a [Row](https://reference.aspose.com/words/nodejs-net/aspose.words.tables/row/) as the property [RowFormat.allowBreakAcrossPages](https://reference.aspose.com/words/nodejs-net/aspose.words.tables/rowformat/allowbreakacrosspages/).
 
 The following code example shows how to disable breaking rows across pages for each row in a table:
 
@@ -135,10 +135,10 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
    **A:** Iterate through each row, retrieve the cell at the column index you want to remove, and call `remove()` on that cell. The `remove-column.js` example shows this approach, ensuring the table structure stays consistent.
 
 3. **Q:** How do I make the first row of a table repeat as a header on every page?  
-   **A:** Set the `HeadingFormat` property of the row’s `RowFormat` to `true`. For multiple header rows, set this property on each consecutive row at the top of the table. See `repeat-rows-on-subsequent-pages.js` for a complete example.
+   **A:** Set the `HeadingFormat` property of the row's `RowFormat` to `true`. For multiple header rows, set this property on each consecutive row at the top of the table. See `repeat-rows-on-subsequent-pages.js` for a complete example.
 
 4. **Q:** How can I prevent a row from breaking across pages?  
    **A:** Set `RowFormat.allowBreakAcrossPages` to `false` for the row. This disables the “Allow row to break across pages” option. The `row-format-disable-break-across-pages.js` snippet illustrates the setting.
 
 5. **Q:** How do I keep an entire table together on a single page?  
-   **A:** Enable `keepWithNext` for every paragraph inside the table cells, except the last paragraph of the table. The `keep-table-together.js` example shows how to traverse the table’s paragraphs and apply the property.
+   **A:** Enable `keepWithNext` for every paragraph inside the table cells, except the last paragraph of the table. The `keep-table-together.js` example shows how to traverse the table's paragraphs and apply the property.

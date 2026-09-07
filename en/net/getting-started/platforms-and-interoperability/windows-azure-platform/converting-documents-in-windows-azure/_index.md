@@ -26,11 +26,11 @@ Aspose.Words on Windows Azure provides an ability to load, convert, and save doc
 1. Implements a simple ASP.NET form, enabling the user to load a document and specify the desired output format.
 1. Invokes Aspose.Words to convert the document and send it back to the browser.
 
-The application described in this article is implemented as WebRole and can be run in the Development Fabric (on the developer’s machine) or deployed to Windows Azure. This application is one of the possible examples of how Aspose.Words works in the cloud.
+The application described in this article is implemented as WebRole and can be run in the Development Fabric (on the developer's machine) or deployed to Windows Azure. This application is one of the possible examples of how Aspose.Words works in the cloud.
 
 ## Prerequisites
 
-- Active Microsoft Azure subscription. If you don’t have one, create a free account before you begin.
+- Active Microsoft Azure subscription. If you don't have one, create a free account before you begin.
 - Visual Studio 2019 or Visual Studio 2017 with installed Azure development.
 
 ## Convert Document Application
@@ -39,19 +39,19 @@ This section discusses a basic project that does not use advanced Aspose.Words f
 
 The project demonstrates how Aspose.Words can be easily used to build applications running in the cloud.
 
-### Creating a Web Role Project
+### Creating a Web RoleProject
 
 To create the application, you need to perform the following steps:
 
 1. Create a new Cloud Service project in Visual Studio.
 1. Select the Cloud Service to have one WebRole project.
-1. Add the `NuGet` reference to [Aspose.Words](https://www.nuget.org/packages/Aspose.Words/).
+1. Add the `NuGet` reference to[Aspose.Words](https://www.nuget.org/packages/Aspose.Words/).
 1. Add the File Upload control to the Default.aspx form enabling the user to select a file to be uploaded.
 1. Add the Drop Down List control to the Default.aspx form enabling the user to select the output format.
 1. Add the Submit button and the Click event handler for it.
-1. Modify the ServiceDefinition.csdef configuration file so that the application can run in Windows Azure under Full Trust. It is recommended that you have *enableNativeCodeExecution = "true"* to avoid any permission issues that may arise when using Aspose.Words to convert documents to PDF or XPS.
+1. Modify theServiceDefinition.csdef configuration file so that the application can run in Windows Azure under Full Trust. It is recommended that you have *enableNativeCodeExecution = "true"*to avoid any permission issues that may arise when using Aspose.Words to convert documents to PDF or XPS.
 
-The actual code to convert a document using Aspose.Words consists of only two lines, which create a new [Document](https://reference.aspose.com/words/net/aspose.words/document/) object to load the document, and then call the [Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save) method with the desired format. The following code example shows how to convert a document in Windows Azure:
+The actual code to convert a document using Aspose.Words consists of only two lines, which create a new [Document](https://reference.aspose.com/words/net/aspose.words/document/) object to load the document, and then call the[Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save)method with the desired format. The following code example shows how toconvert a document in Windows Azure:
 
 **.NET**
 
@@ -124,6 +124,6 @@ The following picture shows the Web Role project running in the Microsoft Azure 
 
 ## See Also
 
-- Active [Microsoft Azure subscription](https://docs.microsoft.com/en-us/azure/guides/developer/azure-developer-guide#understanding-accounts-subscriptions-and-billing)
-- Create a [free account](https://azure.microsoft.com/en-us/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=docs&utm_campaign=visualstudio) in Microsoft Azure
-- Modify the [ServiceDefinition.csdef](https://docs.microsoft.com/en-us/azure/cloud-services/schema-csdef-webrole#WebRole) configuration file
+- Active[Microsoft Azure subscription](https://docs.microsoft.com/en-us/azure/guides/developer/azure-developer-guide#understanding-accounts-subscriptions-and-billing)
+- Create a[free account](https://azure.microsoft.com/en-us/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=docs&utm_campaign=visualstudio)in Microsoft Azure
+- Modify the[ServiceDefinition.csdef](https://docs.microsoft.com/en-us/azure/cloud-services/schema-csdef-webrole#WebRole)configuration file

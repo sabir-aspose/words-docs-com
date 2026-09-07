@@ -28,7 +28,7 @@ generate, modify, and convert documents without using Microsoft Word.
 
 ## Aspose.Words Java for IntelliJ IDEA - Maven
 
-- Aspose.Words Java for IntelliJ IDEA (Maven) is an **IntelliJ IDEA Plugin** which lets you create maven projects (i,e created project contains Aspose.Words for Java API maven dependency) and download source code examples of the API  for using [Aspose.Words for Java API](https://reference.aspose.com/words/java/).
+- Aspose.Words Java for IntelliJ IDEA (Maven) is an **IntelliJ IDEA Plugin** which lets you create maven projects (i,e created project contains Aspose.Words for Java API maven dependency) and download source code examples of the API for using [Aspose.Words for Java API](https://reference.aspose.com/words/java/).
 - This plugin helps you to work with [Aspose.Words for Java API](https://reference.aspose.com/words/java/) inside your favourite IntelliJ IDEA. 
 
 ![aspose-words-java-for-intellij-idea](aspose-words-java-for-intellij-idea.png)
@@ -36,23 +36,23 @@ generate, modify, and convert documents without using Microsoft Word.
 **WIZARDS**:
 The plugin contains two wizards-----
 
-`       `**Wizard 1:** Aspose.Words Maven Project
+` `**Wizard 1:** Aspose.Words Maven Project
 
 - Plugin's **Aspose Maven Project Wizard** lets developers create [Aspose.Words for Java API](https://products.aspose.com/words/java/) Maven project.
 - The reference of [Aspose.Words for Java API](https://products.aspose.com/words/java/) maven dependency is automatically fetched from [Aspose Cloud Maven Repository](https://releases.aspose.com/words/java/) and gets added in the pom.xml.
 - The created project will always contain the most recent available version Maven Dependency for [Aspose.Words for Java API](https://reference.aspose.com/words/java/).
 - The wizard steps also present with the option for downloading [Source Code Examples for using Aspose.Words for Java API](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples)
 
-`       `**Wizard 2:** Aspose.Words Examples
+` `**Wizard 2:** Aspose.Words Examples
 
-- **Aspose.Words Examples Wizard** lets you create/copy downloaded [Source Code Examples of Aspose.Words for Java API](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) into your project. All the examples for the selected category will get copied to the project's  "com.aspose.words.examples" package folder along with the required resources within "src/main/resources" folder needed to run the examples.
+- **Aspose.Words Examples Wizard** lets you create/copy downloaded[Source Code Examples of Aspose.Words for Java API](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) into your project. All the examples for the selected category will get copied to the project's "com.aspose.words.examples" package folder along with the required resources within "src/main/resources" folder needed to run the examples.
 - [Source Code Examples of Aspose.Words for Java API](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) are meant for demonstrating the different usages of the API.
 
 ## System Requirements and Supported Platforms
 
 ### System Requirements
 
-- Microsoft Windows 8/7/Vista/2003/XP (incl.64-bit)  / Linux GNOME or KDE desktop / Mac OS X 10.5 or higher
+- Microsoft Windows 8/7/Vista/2003/XP (incl.64-bit) / Linux GNOME or KDE desktop / Mac OS X 10.5 or higher
 - 1 GB RAM minimum, 2 GB RAM recommended
 - 300 MB hard disk space + at least 1 G for caches
 - 1024x768 minimum screen resolution
@@ -65,7 +65,7 @@ The plugin contains two wizards-----
 The plugin supports the following IntelliJ IDEA Versions:
 
 - 13.0.1 (Community / Ultimate Edition)
-- 13.1.2  (CE / UE)
+- 13.1.2 (CE / UE)
 - 14.0.2 (CE/ UE)
 
 ## Downloading

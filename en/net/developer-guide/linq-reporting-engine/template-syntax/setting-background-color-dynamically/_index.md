@@ -92,11 +92,11 @@ To output every item into a separate table row colored dynamically, you can use 
 Also, you can use a `backColor` tag to set a solid-fill color for a shape dynamically by performing the following steps:
 
 1. Add a required shape to your template.
-1. Set the shape’s fill to none (that is, “No fill”).
-1. Inside the shape’s textbox, add opening and closing `backColor` tags so that they to enclose the whole text inside the textbox, if any, like in the following example.
+1. Set the shape's fill to none (that is, “No fill”).
+1. Inside the shape's textbox, add opening and closing `backColor` tags so that they to enclose the whole text inside the textbox, if any, like in the following example.
 
 {{< highlight csharp >}}
 <<backColor [“red”]>>text inside shape<</backColor>>
 {{< /highlight >}}
 
-During runtime, an expression declared within the opening `backColor` tag is evaluated and the shape’s solid-fill color is set accordingly. The opening and closing `backColor` tags are removed then.
+During runtime, an expression declared within the opening `backColor` tag is evaluated and the shape's solid-fill color is set accordingly. The opening and closing `backColor` tags are removed then.

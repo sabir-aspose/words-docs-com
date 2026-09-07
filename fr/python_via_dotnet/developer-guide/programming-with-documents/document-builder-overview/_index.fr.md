@@ -21,7 +21,7 @@ timestamp: 2024-01-27-14-07-04
 
 [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) complète les classes et méthodes disponibles dans Aspose.Words Document Object Model (DOM) pour simplifier les tâches de création de documents les plus courantes. Autrement dit, vous pouvez créer et modifier le contenu des documents à la fois via Aspose.Words DOM, ce qui nécessite une bonne compréhension de la structure arborescente, et en utilisant DocumentBuilder. Le `DocumentBuilder` est une "façade" pour la structure complexe **Document** qui vous permet d'insérer rapidement et facilement du contenu et du formatage.
 
-Les opérations possibles avec [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) sont également possibles en utilisant directement les classes du Aspose.Words DOM. Cependant, l’utilisation directe des classes DOM Aspose.Words nécessite généralement plus de lignes de code que l’utilisation de [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/).
+Les opérations possibles avec [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) sont également possibles en utilisant directement les classes du Aspose.Words DOM. Cependant, l'utilisation directe des classes DOM Aspose.Words nécessite généralement plus de lignes de code que l'utilisation de [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/).
 
 ## Navigation dans les documents
 

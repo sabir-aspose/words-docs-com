@@ -74,7 +74,7 @@ L'exemple de code suivant montre comment extraire le nom de l'auteur, la date et
 
 ### Comment extraire les commentaires d'un auteur spécifié
 
-Après avoir sélectionné les nœuds **Comment** dans une collection, tout ce que vous avez à faire est d'extraire les informations dont vous avez besoin. Dans cet exemple, les initiales de l'auteur, la date, l'heure et le texte brut du commentaire sont combinés en une seule chaîne ; vous pouvez choisir de le stocker d’une autre manière.
+Après avoir sélectionné les nœuds **Comment** dans une collection, tout ce que vous avez à faire est d'extraire les informations dont vous avez besoin. Dans cet exemple, les initiales de l'auteur, la date, l'heure et le texte brut du commentaire sont combinés en une seule chaîne ; vous pouvez choisir de le stocker d'une autre manière.
 
 La méthode surchargée qui extrait les commentaires d'un auteur particulier est presque la même, elle vérifie simplement le nom de l'auteur avant d'ajouter les informations dans le tableau.
 
@@ -96,7 +96,7 @@ L'exemple de code suivant montre comment supprimer les commentaires de l'auteur 
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-ProcessComments-RemoveCommentsByAuthor.cs" >}}
 
-Le point principal à souligner ici est l’utilisation de l’opérateur for. Contrairement à la simple extraction, vous souhaitez ici supprimer un commentaire. Une astuce appropriée consiste à parcourir la collection en arrière du dernier commentaire au premier. La raison en est que si vous commencez par la fin et reculez, l'index des éléments précédents reste inchangé et vous pouvez revenir au premier élément de la collection.
+Le point principal à souligner ici est l'utilisation de l'opérateur for. Contrairement à la simple extraction, vous souhaitez ici supprimer un commentaire. Une astuce appropriée consiste à parcourir la collection en arrière du dernier commentaire au premier. La raison en est que si vous commencez par la fin et reculez, l'index des éléments précédents reste inchangé et vous pouvez revenir au premier élément de la collection.
 
 L'exemple de code suivant montre les méthodes d'extraction et de suppression des commentaires:
 

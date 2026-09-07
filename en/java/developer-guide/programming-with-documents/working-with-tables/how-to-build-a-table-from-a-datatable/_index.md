@@ -41,7 +41,7 @@ Using Aspose.Words, you can easily retrieve data from a database and store it as
 1. Once all rows from the **DataTable** have been processed finish the table by calling **DocumentBuilder.EndTable**.
 1. Finally we can set the desired table style using one of the appropriate table properties such as **Table.StyleIdentifier** to automatically apply formatting to the entire table.
 
-The **ImportTableFromDataTable** method accepts a **DocumentBuilder** object, the **DataTable** containing the data and a flag which specifies if the column heading from the **DataTable** are included at the top of the table. This method builds a table from these parameters using the builder’s current position and formatting. Provides a method to import data from the `DataTable` and insert it into a new table using the DocumentBuilder.
+The **ImportTableFromDataTable** method accepts a **DocumentBuilder** object, the **DataTable** containing the data and a flag which specifies if the column heading from the **DataTable** are included at the top of the table. This method builds a table from these parameters using the builder's current position and formatting. Provides a method to import data from the `DataTable` and insert it into a new table using the DocumentBuilder.
 
 The following data in our **DataTable** is used in this example:
 
@@ -60,13 +60,13 @@ The following code example shows how to import the data from a `DataTable` and i
 ## FAQ
 
 1. **Q:** How can I insert an image stored as a byte array into a table cell?  
-   **A:** Use `DocumentBuilder.insertImage(byte[] imageBytes)` while the builder’s cursor is positioned inside the desired cell. After inserting the image you may call `DocumentBuilder.endRow()` to continue with the next cell.
+   **A:** Use `DocumentBuilder.insertImage(byte[] imageBytes)` while the builder's cursor is positioned inside the desired cell. After inserting the image you may call `DocumentBuilder.endRow()` to continue with the next cell.
 
 2. **Q:** What is the easiest way to apply a predefined table style after the table is built?  
-   **A:** Retrieve the `Table` node (the first child of the builder’s current paragraph) and call `table.setStyleIdentifier(StyleIdentifier.LIGHT_LIST)` (or any other `StyleIdentifier`). The style is applied to the whole table instantly.
+   **A:** Retrieve the `Table` node (the first child of the builder's current paragraph) and call `table.setStyleIdentifier(StyleIdentifier.LIGHT_LIST)` (or any other `StyleIdentifier`). The style is applied to the whole table instantly.
 
 3. **Q:** Is there a more automatic approach than writing code for each column when populating a table from a `DataTable`?  
-   **A:** Yes. Aspose.Words’ **Mail Merge with Regions** can map a `DataTable` directly to a table in a template. Create a region in the template (`<<TableStart:Data>> … <<TableEnd:Data>>`) and call `document.getMailMerge().executeWithRegions(dataTable)`. This eliminates manual iteration.
+   **A:** Yes. Aspose.Words' **Mail Merge with Regions** can map a `DataTable` directly to a table in a template. Create a region in the template (`<<TableStart:Data>> … <<TableEnd:Data>>`) and call `document.getMailMerge().executeWithRegions(dataTable)`. This eliminates manual iteration.
 
 4. **Q:** How should I handle `null` values in the `DataTable` while building the table?  
    **A:** Check each cell value before writing. If the value is `null`, write an empty string or a placeholder, e.g. `builder.writeln("")`. This prevents `NullPointerException` and keeps the table layout consistent.

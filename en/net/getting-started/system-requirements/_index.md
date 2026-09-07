@@ -34,7 +34,7 @@ Aspose.Words for .NET supports any 64-bit or 32-bit operating system where .NET 
 		</tr>
   <tr>
 			<td>Microsoft Windows</td>
-			<td><ul><li>Windows 2003 Server (x64, x86)</li><li>Windows 2008 Server (x64, x86)</li><li>Windows 2012 Server (x64, x86)</li><li>Windows 2012 R2 Server (x64, x86)</li><li>Windows 2016 Server (x64, x86)</li><li>Windows 2019 Server (x64, x86)</li><li>Windows XP (x64, x86)</li><li>Windows Vista (x64, x86)</li><li>Windows 7 (x64, x86)</li><li>Windows 8, 8.1 (x64, x86)</li><li>Windows 10 (x64, x86)</li><li>Windows 11 (x64, x86)</li></ul></td>
+			<td><ul><li>Windows 2003 Server(x64, x86)</li><li>Windows 2008 Server(x64, x86)</li><li>Windows 2012 Server(x64, x86)</li><li>Windows 2012 R2 Server(x64, x86)</li><li>Windows 2016 Server(x64, x86)</li><li>Windows 2019 Server(x64, x86)</li><li>Windows XP (x64, x86)</li><li>Windows Vista(x64, x86)</li><li>Windows 7(x64, x86)</li><li>Windows 8, 8.1 (x64, x86)</li><li>Windows 10(x64, x86)</li><li>Windows 11(x64, x86)</li></ul></td>
 		</tr>
   <tr>
 			<td>Linux</td>
@@ -97,7 +97,7 @@ Aspose.Words for .NET also supports .NET Standard 2.0 specification and its impl
 
 ## Development Environment
 
-Aspose.Words for .NET can be used to develop applications in any development environment targeting the .NET platform, but the environments listed in the following table are explicitly supported:
+Aspose.Wordsfor .NET can be used to develop applications in any development environment targeting the .NET platform, but the environments listed in the following table are explicitly supported:
 
 <table>  
 	<tr>

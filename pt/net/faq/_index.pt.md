@@ -59,7 +59,7 @@ Você pode ver a lista completa de formatos suportados na página [Formatos de d
 
 **P: Como posso experimentar o Aspose.Words gratuitamente?**
 
-Você pode fazer isso de duas maneiras – usando a versão de teste ou uma licença temporária de 30 dias. A versão de teste é igual à comprada, oferece funcionalidade completa do produto, mas adiciona uma marca d’água avaliativa na parte superior do documento ao carregar e salvar e limita o tamanho máximo do documento a algumas centenas de parágrafos. Uma licença temporária permite testar Aspose.Words sem restrições de avaliação por 30 dias.
+Você pode fazer isso de duas maneiras – usando a versão de teste ou uma licença temporária de 30 dias. A versão de teste é igual à comprada, oferece funcionalidade completa do produto, mas adiciona uma marca d'água avaliativa na parte superior do documento ao carregar e salvar e limita o tamanho máximo do documento a algumas centenas de parágrafos. Uma licença temporária permite testar Aspose.Words sem restrições de avaliação por 30 dias.
 
 Consulte a página [Licenciamento e Assinatura](/words/pt/net/licensing/) para obter mais informações.
 

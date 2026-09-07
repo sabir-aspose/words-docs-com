@@ -29,7 +29,7 @@ Aspose.Words provides an ability to obtain information about the file type in or
 
 When you are dealing with multiple documents in various file formats, you may need to separate out those files that can be processed by Aspose.Words from those that cannot. You may also want to know why some of the documents cannot be processed.
 
-If you attempt to load a file into a [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) object and Aspose.Words cannot recognize the file format or the format is not supported, Aspose.Words will throw an exception. You can catch those exceptions and analyze them, but Aspose.Words also provides the [DetectFileFormat](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/#detectFileFormat-java.lang.String) method that allows us to quickly determine the file format without loading a document with possible exceptions. This method returns a [FileFormatInfo](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/) object that contains the detected information about the file type.
+If you attempt to load a file into a[Document](https://reference.aspose.com/words/java/com.aspose.words/document/)object and Aspose.Words cannot recognize the file format or the format is not supported, Aspose.Words will throw an exception. You can catch those exceptions and analyze them, but Aspose.Words also provides the[DetectFileFormat](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/#detectFileFormat-java.lang.String)method that allows us to quickly determine the file format without loading a document with possible exceptions.This method returns a[FileFormatInfo](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/)object that contains the detected information about the file type.
 
 {{% alert color="primary" %}}
 
@@ -41,13 +41,13 @@ DetectFileFormat only checks the file format but does not validate the file form
 
 We can check the format compatibility of all files in the selected folder and sort them by format into corresponding subfolders.
 
-Since we are dealing with contents in a folder, the first thing we need to do is get a collection of all the files in this folder using the **GetFiles** method of the `Directory` class (from the `System.IO` namespace).
+Since we are dealing with contents in a folder, the first thing we need to do is get a collection of all the files in this folder using the**GetFiles**method of the `Directory` class (from the `System.IO` namespace).
 
 The following code example shows how to get a list of all the files in the folder:
 
 {{< gist "aspose-words-gists" "13b31394822a30faeb5b68ad2b82fd75" "get-files.java" >}}
 
-When all the files are collected, the rest of the work is done by the **DetectFileFormat** method, which checks the file format.
+When all the files are collected, the rest of the work is done by the**DetectFileFormat**method, which checks the file format.
 
 The following code example shows how to iterate over the collected list of files, check the format of each file, and moves each file to the appropriate folder:
 
@@ -65,7 +65,7 @@ The following files are used in the example above. The file name is on the left 
 |  | Test File (Docm).docm | Office Open XML WordprocessingML document with macros. |
 |  | Test File (Dotx).dotx | Office Open XML WordprocessingML template. |
 |  | Test File (Dotm).dotm | Office Open XML WordprocessingML template with macros. |
-|  | Test File (XML).xml | FlatOPC OOXML Document. |
+|  | Test File (XML).xml | FlatOPCOOXMLDocument. |
 |  | Test File (RTF).rtf | Rich Text Format document. |
 |  | Test File (WordML).xml | Microsoft Word 2003 WordprocessingML document. |
 |  | Test File (HTML).html | HTML document. |
@@ -81,7 +81,7 @@ The following files are used in the example above. The file name is on the left 
 
 ## FAQ
 
-1. **Q:** How can I determine a document’s format without loading it into a `Document` object?  
+1. **Q:** How can I determine a document's format without loading it into a `Document` object?  
    **A:** Use the static method `FileFormatUtil.detectFileFormat(String filePath)`. It returns a `FileFormatInfo` object that contains properties such as `getFileFormatType()` and `isEncrypted()`, allowing you to identify the format safely.
 
 2. **Q:** What information does `FileFormatInfo` provide?  

@@ -56,7 +56,7 @@ Here, `value_expression` defines a value of a combobox or dropdown list item to 
 
 In turn, `display_name_expression` defines a display name of the combobox or dropdown list item to be added. This expression is optional. If it is omitted, then during runtime, a value of `value_expression` is used as a display name as well.
 
-**Note** – Values of both `value_expression` and `display_name_expression` can be of any types. During runtime, `Object.ToString()` is invoked to get textual representations of these expressions’ values.
+**Note** – Values of both `value_expression` and `display_name_expression` can be of any types. During runtime, `Object.ToString()` is invoked to get textual representations of these expressions' values.
 
 While building a report, `value_expression` and `display_name_expression` are evaluated and a corresponding combobox or dropdown list item is added. A declaring item tag is removed then.
 
@@ -107,4 +107,4 @@ You can normally use common expression tags in content control titles, thus form
    **A:** Microsoft Word automatically inserts a placeholder item when a dropdown list is created. This item is not removed by Aspose.Words, so you must delete it manually in the template or programmatically after the document is generated.
 
 5. **Q:** How can I set the title of a content control dynamically using a variable?  
-   **A:** Place an expression tag inside the title, such as `<<[myVariable]>>`. During report generation the variable’s `ToString()` value replaces the tag, producing a dynamic title. This works for any content control type.
+   **A:** Place an expression tag inside the title, such as `<<[myVariable]>>`. During report generation the variable's `ToString()` value replaces the tag, producing a dynamic title. This works for any content control type.

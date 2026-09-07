@@ -44,12 +44,12 @@ Please check the screenshot below for details.
 You have successfully installed and added Aspose .NET Quote Generator for Umbraco Module to your page. You will be presented with input form to get started
 
 1. Enter (Document Caption, Reference #, Generating Date)
-1. Enter ‘Quotation From’ fields such as (Company Logo, Name, State-Zip, Country)
-1. Enter ‘Quotation To’ fields such as (Customer/Client Name, State-Zip, Country)
+1. Enter ‘Quotation From' fields such as (Company Logo, Name, State-Zip, Country)
+1. Enter ‘Quotation To' fields such as (Customer/Client Name, State-Zip, Country)
 1. You can generate product rows to 99
 1. Enter products details such as (Description, Unit Price, Quantity, VAT percentage selection if applicable )
 1. Enter Quotation description/details And Terms & Conditions to display
-1. Option either to ‘Clear Form Fields’ `OR` Select Export File Format’ from List
+1. Option either to ‘Clear Form Fields' `OR` Select Export File Format' from List
 
 ### Input Fields
 

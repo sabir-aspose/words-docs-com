@@ -73,7 +73,7 @@ Cu toate acestea, nu există nici o proprietate personală pentru CSS. Comportam
 
 ### Export codificare Base64 Fonturi Resurse
 
-Aspose.Words oferă posibilitatea de a specifica dacă resursele de font ar trebui să fie încorporate în HTML în codificările Base64. Pentru a face acest lucru folosiți proprietatea [ExportFontsAsBase64](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/) – aceasta este o extensie a proprietății [ExportFontResources](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/exportfontresources/). În mod implicit, valoarea sa este **false** și fonturile sunt scrise în fișiere separate. Dar dacă această opțiune este setată la **true**, fonturile vor fi încorporate în documentul’s CSS prin codificare Base64. "Proprietatea **ExportFonturiCaBase64** afectează doar formatul HTML și nu afectează EPUB și MHTML."
+Aspose.Words oferă posibilitatea de a specifica dacă resursele de font ar trebui să fie încorporate în HTML în codificările Base64. Pentru a face acest lucru folosiți proprietatea [ExportFontsAsBase64](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/) – aceasta este o extensie a proprietății [ExportFontResources](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/exportfontresources/). În mod implicit, valoarea sa este **false** și fonturile sunt scrise în fișiere separate. Dar dacă această opțiune este setată la **true**, fonturile vor fi încorporate în documentul's CSS prin codificare Base64. "Proprietatea **ExportFonturiCaBase64** afectează doar formatul HTML și nu afectează EPUB și MHTML."
 
 Exemplul de cod următor arată cum să exporți fonturile codate în Base64 la HTML:
 

@@ -22,13 +22,13 @@ You need a template document before you can generate a report. A template is a M
 
 ![todo:image_alt_text](report-template-and-merge-fields-2.png)
 
-Now you have a new merge field placed in your document. Microsoft Word shows it like this: 
+Now you have a new merge field placed in your document. Microsoft Word shows it like this:
 
 **A merge field in a document**
 
 ![todo:image_alt_text](report-template-and-merge-fields-3.png)
 
-Of course, since a merge field is a regular Microsoft Word field, you can switch between displaying field codes and results in your document in Microsoft Word using the keyboard shortcut Alt+F9. Field codes appear between curly braces: 
+Of course, since a merge field is a regular Microsoft Word field, you can switch between displaying field codes and results in your document in Microsoft Word using the keyboard shortcut Alt+F9. Field codes appear between curly braces:
 
 **The field code exposed** 
 

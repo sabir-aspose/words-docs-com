@@ -24,19 +24,19 @@ Aspose.Words allows users to work with images in a very flexible way. In this ar
 
 ## Inserting an Image
 
-[DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) provides several overloads of the the [insert_image](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/) method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The **insert_image** method can use images from different sources:
+[DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) provides several overloads of thethe [insert_image](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/)method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The**insert_image**method can use images from different sources:
 
 - From a file or `URL` by passing a string parameter
 - From a stream by passing a `Stream` parameter
 - From a byte array by passing a byte array parameter
 
-For each of the **insert_image** methods, there are further overloads which allow you to insert an image with the following options:
+For each of the**insert_image**methods, there are further overloads which allow you to insert an image with the following options:
 - Inline or floating at a specific position, for example, **insert_image**
-- Percentage scale or custom size; furthermore, the [DocumentBuilder.insert_image](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/) method returns a [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) object that was just created and inserted so you can further modify properties of the [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/)
+- Percentage scale or custom size; furthermore, the[DocumentBuilder.insert_image](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/)method returns a[Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/)object that was just created and inserted so you can further modify properties of the[Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/)
 
 ### Inserting an Inline Image
 
-Pass a single string representing a file that contains the image to [insert_image](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/) to insert the image into the document as an inline graphic.
+Pass a single string representing a file that contains the image to[insert_image](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/)to insert the image into the document as an inline graphic.
 
 The following code example shows how to insert an inline image at the cursor position into a document:
 
@@ -71,7 +71,7 @@ doc.save(docs_base.artifacts_dir+"WorkingWithImages.document_builder_insert_floa
 
 ## How to Extract Images from a Document
 
-All images are stored inside [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) nodes in a [Document](https://reference.aspose.com/words/python-net/aspose.words/document/). To extract all images or images having specific type from the document, follow these steps:
+All images are stored inside [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) nodes in a [Document](https://reference.aspose.com/words/python-net/aspose.words/document/).To extract all images or images having specific type from the document, follow these steps:
 
 - Use the [Document.get_child_nodes](https://reference.aspose.com/words/python-net/aspose.words/compositenode/get_child_nodes/) method to select all [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) nodes.
 - Iterate through resulting node collections.
@@ -137,7 +137,7 @@ print(f"{rect.x}, {rect.y}, {rect.width}, {rect.height}")
 
 ## Crop Images
 
-The cropping of an image usually refers to the removal of the unwanted outer parts of an image to help improve the framing. It is also used for the removal of some of the portions of an image to increase the focus on a particular area.
+The cropping of an imageusually refers to the removal of the unwantedouter parts of an image to help improve the framing. It is also used for theremoval of some of theportions of an image to increase the focus on a particular area.
 
 The following code example shows how to achieve this using Aspose.Words API:
 
@@ -228,4 +228,4 @@ The following code example shows how to save images as WMF with RTF save options
    ```
 
 5. **Q:** How can I obtain the actual size and position of an image as it appears on the page?  
-   **A:** Use the `bounds_in_points` property of the shape’s renderer: `shape.get_shape_renderer().bounds_in_points`. It returns a rectangle with `x`, `y`, `width`, and `height` measured in points, reflecting the rendered size after any scaling or wrapping. This is useful for precise layout calculations.
+   **A:** Use the `bounds_in_points` property of the shape's renderer: `shape.get_shape_renderer().bounds_in_points`. It returns a rectangle with `x`, `y`, `width`, and `height` measured in points, reflecting the rendered size after any scaling or wrapping. This is useful for precise layout calculations.

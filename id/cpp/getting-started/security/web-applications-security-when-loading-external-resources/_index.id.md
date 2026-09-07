@@ -29,7 +29,7 @@ Ada sejumlah masalah keamanan umum saat memuat sumber daya eksternal.
 
 ### Pengungkapan Kredensial Melalui Gambar Tertaut
 
-Pada host berbasis Windows, dokumen yang berisi referensi ke sumber daya yang menggunakan jalur UNC seperti * ' \\example.com\a\b*’ akan diproses secara default. Dalam lingkungan domain, ini akan menyebabkan host mengirimkan kredensial domainnya dalam format hash ke server yang ditentukan.
+Pada host berbasis Windows, dokumen yang berisi referensi ke sumber daya yang menggunakan jalur UNC seperti * ' \\example.com\a\b*' akan diproses secara default. Dalam lingkungan domain, ini akan menyebabkan host mengirimkan kredensial domainnya dalam format hash ke server yang ditentukan.
 
 Jika penyerang dapat meyakinkan pengguna atau server untuk memproses dokumen dengan tautan sumber daya yang mengarah ke host yang mereka kendalikan, penyerang akan menerima kredensial akun pengguna atau layanan dalam format hash NTLM. Data tersebut kemudian dapat digunakan kembali dalam serangan pass-the-hash klasik, memungkinkan penyerang mendapatkan akses ke sumber daya apa pun sebagai pengguna korban atau akun layanan.
 

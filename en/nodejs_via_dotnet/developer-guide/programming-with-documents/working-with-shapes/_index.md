@@ -15,7 +15,7 @@ timestamp: 2025-07-09-10-05-05
 
 This topic discusses how to work programmatically with shapes using Aspose.Words.
 
-The shapes in Aspose.Words represent an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture. A Word document can contain one or more different shapes. Shapes of the document are represented by the [Shape](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/) class.
+The shapes in Aspose.Words representan object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture.A Word document can contain one or more different shapes.Shapes of the document are represented by the[Shape](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/)class.
 
 ## Inserting Shapes Using Document Builder
 
@@ -27,7 +27,7 @@ The following code example shows how to insert these types of shapes into the do
 
 ## Set Aspect Ratio Locked
 
-Using Aspose.Words, you can specify whether the shape’s aspect ratio is locked through the [aspectRatioLocked](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shapebase/aspectratiolocked/) property.
+Using Aspose.Words, you can specify whether the shape's aspect ratio is locked through the [aspectRatioLocked](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shapebase/aspectratiolocked/) property.
 
 The following code example shows how to work with the **AspectRatioLocked** property:
 
@@ -43,9 +43,9 @@ The following code example shows how to work with the **IsLayoutInCell** propert
 
 ## Create Snip Corner Rectangle
 
-You can create a snip corner rectangle using Aspose.Words. The shape types are [SingleCornerSnipped](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shapetype/), [TopCornersSnipped](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shapetype/), [DiagonalCornersSnipped](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shapetype/), [TopCornersOneRoundedOneSnipped](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shapetype/), [SingleCornerRounded](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shapetype/), [TopCornersRounded](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shapetype/), and [DiagonalCornersRounded](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shapetype/).
+You can create a snip corner rectangle using Aspose.Words. The shape types are [SingleCornerSnipped](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shapetype/), [TopCornersSnipped](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shapetype/), [DiagonalCornersSnipped](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shapetype/),[TopCornersOneRoundedOneSnipped](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shapetype/),[SingleCornerRounded](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shapetype/),[TopCornersRounded](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shapetype/), and [DiagonalCornersRounded](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shapetype/).
 
-The DML shape is created using [insertShape](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertshape/) method with these shape types. These types cannot be used to create VML shapes. Attempt to create shape by using the public constructor of the [Shape](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/) class raises the "NotSupportedException" exception.
+The DML shape is created using [insertShape](https://reference.aspose.com/words/nodejs-net/aspose.words/documentbuilder/insertshape/) method with these shape types. These typescannot be used to create VML shapes. Attempt to create shape by using the public constructor of the [Shape](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/) class raises the "NotSupportedException" exception.
 
 The following code example shows how to insert these type of shapes into the document:
 
@@ -83,15 +83,15 @@ The following code example shows how to do this:
 
 {{< gist "aspose-words-gists" "3a90c8783e87c53371d103d9350f1d31" "insert-horizontal-rule.js" >}}
 
-Aspose.Words API provides the [horizontalRuleFormat](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/horizontalruleformat/) property to access the properties of the horizontal rule shape. The [HorizontalRuleFormat](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/horizontalruleformat/) class exposes basic properties like [height](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/horizontalruleformat/height/), [color](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/horizontalruleformat/color/), [noShade](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/horizontalruleformat/noshade/) etc. for the formatting of a horizontal rule.
+Aspose.Words API provides the[horizontalRuleFormat](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/shape/horizontalruleformat/) property to access the properties of the horizontal rule shape. The[HorizontalRuleFormat](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/horizontalruleformat/) class exposes basic properties like [height](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/horizontalruleformat/height/), [color](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/horizontalruleformat/color/), [noShade](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/horizontalruleformat/noshade/) etc. for the formatting of a horizontal rule.
 
-The following code example demonstrates how to set [HorizontalRuleFormat](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/horizontalruleformat/):
+The following code example demonstrates how to set[HorizontalRuleFormat](https://reference.aspose.com/words/nodejs-net/aspose.words.drawing/horizontalruleformat/):
 
 {{< gist "aspose-words-gists" "3a90c8783e87c53371d103d9350f1d31" "horizontal-rule-format.js" >}}
 
 ## Insert OLE Object as an Icon
 
-Aspose.Words API provides **Shape.insert_ole_object_as_icon** function to insert an embedded or linked OLE object as an icon into the document. This function allows specifying the icon file and the caption. The `OLE` object type shall be detected using the file extension.
+Aspose.Words API provides**Shape.insert_ole_object_as_icon** function to insert an embedded or linked OLE object as an icon into the document. This function allows specifying theicon file and the caption. The `OLE` object type shall be detected using the file extension.
 
 The following code example demonstrates how to set insert OLE object as an Icon into the document:
 
@@ -105,7 +105,7 @@ Maximum size of the icon must be 32x32 for the correct display.
 
 ## Import Shapes with Math XML as Shapes into DOM
 
-You can use [convertShapeToOfficeMath](https://reference.aspose.com/words/nodejs-net/aspose.words.loading/loadoptions/convertshapetoofficemath/) property to convert the shapes with EquationXML to Office Math objects. The default value of this property corresponds to MS Word behavior i.e. shapes with equation XML are not converted to Office math objects.
+You can use [convertShapeToOfficeMath](https://reference.aspose.com/words/nodejs-net/aspose.words.loading/loadoptions/convertshapetoofficemath/) property to convert the shapes with EquationXML to Office Math objects.The default value of this property corresponds to MS Word behavior i.e. shapes with equation XML are not converted to Office math objects.
 
 The following code example shows how to convert shapes to Office Math objects:
 
@@ -118,8 +118,8 @@ The following code example shows how to convert shapes to Office Math objects:
 1. **Q:** How do I insert an inline shape versus a floating shape?  
    **A:** Use `DocumentBuilder.insertShape` and set the `WrapType` property. For an inline shape, set `WrapType` to `WrapType.Inline`; for a floating shape, set it to `WrapType.Square` (or another wrap type) and optionally specify the position with `Left` and `Top`.  
 
-2. **Q:** How can I lock the aspect ratio of a shape so it doesn’t get distorted when resized?  
-   **A:** Set the `aspectRatioLocked` property of the shape’s `ShapeBase` to `true`. This ensures the width‑to‑height ratio remains constant when the shape is resized programmatically or by the user.  
+2. **Q:** How can I lock the aspect ratio of a shape so it doesn't get distorted when resized?  
+   **A:** Set the `aspectRatioLocked` property of the shape's `ShapeBase` to `true`. This ensures the width‑to‑height ratio remains constant when the shape is resized programmatically or by the user.  
 
 3. **Q:** How can I determine whether a shape contains a SmartArt object?  
    **A:** Check the `hasSmartArt` property of the `Shape` instance. It returns `true` if the shape is a SmartArt diagram, allowing you to handle it differently (e.g., skip processing or apply specific formatting).  

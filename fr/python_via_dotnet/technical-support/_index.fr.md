@@ -13,7 +13,7 @@ url: /fr/python-net/technical-support/
 timestamp: 2024-11-18-12-56-02
 ---
 
-Aspose fournit une assistance technique gratuite et illimitée pour tous ses produits. L’assistance est disponible pour tous les utilisateurs, y compris l’évaluation. La principale voie de support est [Aspose.Forums](https://forum.aspose.com/c/words/8).
+Aspose fournit une assistance technique gratuite et illimitée pour tous ses produits. L'assistance est disponible pour tous les utilisateurs, y compris l'évaluation. La principale voie de support est [Aspose.Forums](https://forum.aspose.com/c/words/8).
 
 {{% alert color="primary" %}}
 

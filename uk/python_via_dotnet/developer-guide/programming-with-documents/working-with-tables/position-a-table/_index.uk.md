@@ -44,11 +44,11 @@ timestamp: 2024-01-27-14-07-04
 
  Положення плаваючого столу визначається за допомогою наступних властивостей:
 
-* Ім'я * [HorizontalAnchor](https://reference.aspose.com/words/python-net/aspose.words.tables/table/horizontal_anchor/) – об’єкт обчислення горизонтального позиціонування плаваючого столу
-* Ім'я * [VerticalAnchor](https://reference.aspose.com/words/python-net/aspose.words.tables/table/vertical_anchor/) – об’єкт обчислення вертикального положення плаваючого столу
+* Ім'я * [HorizontalAnchor](https://reference.aspose.com/words/python-net/aspose.words.tables/table/horizontal_anchor/) – об'єкт обчислення горизонтального позиціонування плаваючого столу
+* Ім'я * [VerticalAnchor](https://reference.aspose.com/words/python-net/aspose.words.tables/table/vertical_anchor/) – об'єкт обчислення вертикального положення плаваючого столу
 * Ім'я * [AbsoluteHorizontalDistance](https://reference.aspose.com/words/python-net/aspose.words.tables/table/absolute_horizontal_distance/) – абсолютна горизонтальна плаваюча позиція таблиці
 * Ім'я * [AbsoluteVerticalDistance](https://reference.aspose.com/words/python-net/aspose.words.tables/table/absolute_vertical_distance/) – абсолютна вертикальна плаваюча позиція таблиці
-* Ім'я * [AllowOverlap](https://reference.aspose.com/words/python-net/aspose.words.tables/table/allow_overlap/) – можливість увімкнути/розмкнути перекриття з іншими плаваючі об’єкти
+* Ім'я * [AllowOverlap](https://reference.aspose.com/words/python-net/aspose.words.tables/table/allow_overlap/) – можливість увімкнути/розмкнути перекриття з іншими плаваючі об'єкти
 * Ім'я * [RelativeHorizontalAlignment](https://reference.aspose.com/words/python-net/aspose.words.tables/table/relative_horizontal_alignment/) – плаваючий стіл відносно горизонтального вирівнювання.
 * Ім'я * [RelativeVerticalAlignment](https://reference.aspose.com/words/python-net/aspose.words.tables/table/relative_vertical_alignment/) – плаваючий стіл відносно вертикального вирівнювання.
 

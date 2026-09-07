@@ -27,8 +27,8 @@ doc = Rjb::import('com.aspose.words.Document').new
 builder = Rjb::import("com.aspose.words.DocumentBuilder").new(doc)
 \# Insert few page breaks (just for testing)
 breakType = Rjb::import("com.aspose.words.BreakType")
-for i in 0..4    
-    builder.insertBreak(breakType.PAGE_BREAK)
+for i in 0..4 
+ builder.insertBreak(breakType.PAGE_BREAK)
 end
 \# Move DocumentBuilder cursor into the primary footer.
 headerFooterType = Rjb::import("com.aspose.words.HeaderFooterType")
@@ -50,6 +50,6 @@ doc.save(data_dir + "InsertNestedFields Out.doc")
 
 ## Download Running Code
 
-Download **Insert Nested Fields (Aspose.Words)** from any of the below mentioned social coding sites:
+Download **Insert Nested Fields (Aspose.Words)**fromany of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Plugins/Aspose_Words_Java_for_Ruby/lib/asposewordsjavaforruby/insertnestedfields.rb)

@@ -327,7 +327,7 @@ The following code example shows how to format a table and cell with different b
 1. Q: How do I apply a border to an entire table in C++?  
    A: Use the `Table::SetBorders` method and pass a `BorderInfo` object that defines the line style, color, and width. After creating the table with `DocumentBuilder`, call `SetBorders` before saving the document.
 
-2. Q: What is the recommended way to set a table’s width to a specific percentage of the page?  
+2. Q: What is the recommended way to set a table's width to a specific percentage of the page?  
    A: Create a `PreferredWidth` object with `PreferredWidth::FromPercent(percentage)` and assign it to `Table::set_PreferredWidth`. Ensure the table has at least one row before setting the property.
 
 3. Q: How can I make a table automatically adjust its columns to the content?  

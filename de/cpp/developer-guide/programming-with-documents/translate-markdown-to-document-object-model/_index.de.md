@@ -56,7 +56,7 @@ Wir verwenden einen Zeichenstil mit einem Namen, der mit dem Wort `InlineCode` b
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Autolink.h" >}} |  |
 | **Link**<br />`[link text](url)`<br />`[link text](<url>"title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | Die [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/) -Klasse. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Link.h" >}} |  |
-| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | Die [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) -Klasse. |
+| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title')`<br />`![alt text](url (title))` | Die [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) -Klasse. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Image.h" >}} |  |
 
 ## Containerblöcke
@@ -92,9 +92,9 @@ Die folgende Tabelle zeigt Beispiele für die Verwendung von Markdown komplexen 
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `get_ParagraphFormat()->set_StyleName(u"Quote[some suffix]")`<br />Das Suffix im Stilnamen ist optional, aber Aspose.Words importer verwendet die sortierten Nummern 1, 2, 3, .... bei verschachtelten Anführungszeichen.<br />Die Verschachtelung wird über die geerbten Stile definiert. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Quote.h" >}} |  |
-| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Aufzählungen werden mit Absatznummerierung dargestellt:<br />`get_ListFormat()->ApplyBulletDefault()`<br />Es kann 3 Arten von Aufzählungslisten geben. Sie unterscheiden sich nur in einem Nummerierungsformat der allerersten Ebene. Dies sind: `‘-’`, `‘+’` oder `‘*’`. |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Aufzählungen werden mit Absatznummerierung dargestellt:<br />`get_ListFormat()->ApplyBulletDefault()`<br />Es kann 3 Arten von Aufzählungslisten geben. Sie unterscheiden sich nur in einem Nummerierungsformat der allerersten Ebene. Dies sind: `‘-'`, `‘+'` oder `‘*'`. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-BulletedList.h" >}} |  |
-| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Geordnete Listen werden mit Absatznummerierung dargestellt:<br />`get_ListFormat()->ApplyNumberDefault()`<br />Es können 2 Zahlenformatmarkierungen vorhanden sein: ‘.’ und ‘)’. Der Standardmarker ist ‘.’. |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Geordnete Listen werden mit Absatznummerierung dargestellt:<br />`get_ListFormat()->ApplyNumberDefault()`<br />Es können 2 Zahlenformatmarkierungen vorhanden sein: ‘.' und ‘)'. Der Standardmarker ist ‘.'. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-OrderedList.h" >}} |  |
 
 ### Tables

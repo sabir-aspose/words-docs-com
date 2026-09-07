@@ -135,7 +135,7 @@ Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
 builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
-|  **BulletedList**<br/>`- Item 1`<br/>`- Item 2`<br/> `   - Item 2a`<br/> `   - Item 2b` |  De Bullet-lijsten worden weergegeven aan de hand van paragraafnummering:<br/>`ListFormat.ApplyBulletDefault()`<br/>Er kunnen drie soorten kogels zijn. Ze zijn alleen diff in een nummering formaat van het eerste niveau. Dit zijn: `‘-’`, `‘+’` of `‘*’` respectievelijk |
+|  **BulletedList**<br/>`- Item 1`<br/>`- Item 2`<br/> `   - Item 2a`<br/> `   - Item 2b` |  De Bullet-lijsten worden weergegeven aan de hand van paragraafnummering:<br/>`ListFormat.ApplyBulletDefault()`<br/>Er kunnen drie soorten kogels zijn. Ze zijn alleen diff in een nummering formaat van het eerste niveau. Dit zijn: `‘-'`, `‘+'` of `‘*'` respectievelijk |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
 |  **OrderedList**<br/>`1. Item 1`<br/>`2. Item 2`<br/> `1) Item 2a`<br/> `2) Item 2b` |  Geordende lijsten worden weergegeven aan de hand van paragraafnummering:<br/>`ListFormat.ApplyNumberDefault()`<br/>Er kunnen 2 nummer formaat markers zijn: De standaard marker is.. |
 |  {{< highlight csharp >}}Document doc = new Document();

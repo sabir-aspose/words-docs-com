@@ -51,13 +51,13 @@ You can download Aspose .NET Word Import for Umbraco module from one of the foll
 
 Once downloaded, please follow these steps to install this package into your Umbraco website:
 
-1. Log in to the Umbraco **Developer** section, see `https://umbraco.com/training/certified-developers/` for details
+1. Log in to the Umbraco**Developer** section, see `https://umbraco.com/training/certified-developers/` for details
 1. From the tree, expand the **Packages** folder.
-   From here there are two ways to install a package: select **Install local package** or browse the **Umbraco Package Repository.**
-1. If you install **local package**, do not unzip the package but load the zip into Umbraco.
+   From here there are two ways to install a package: select**Install local package** or browse the**Umbraco Package Repository.**
+1. If you install**local package**, do not unzip the package but load the zip into Umbraco.
 1. Follow the instructions on screen.
 
-**Note**: You may get a ‘Maximum request length exceeded’ error when installing. You can easily fix this issue by updating the ‘maxRequestLength’ value in your Umbraco web.config file.
+**Note**: You may get a ‘Maximum request length exceeded' error when installing. You can easily fix this issue by updating the ‘maxRequestLength' value in your Umbraco web.config file.
 
 {{< highlight csharp >}}
 <httpRuntime requestValidationMode="2.0" enableVersionHeader="false" maxRequestLength="25000" />
@@ -67,14 +67,14 @@ Once downloaded, please follow these steps to install this package into your Umb
 
 After you have installed the macro it is really simple to start using it on your website:
 
-1. Make sure you are logged in to the Umbraco **Developer** section, see `https://umbraco.com/training/certified-developers/` for details
-1. Click **Settings** in the list of sections at the bottom left of the screen.
-1. Expand the **Templates** node and select the template that you want to add macro to, for example Blog post.
+1. Make sure you are logged in to the Umbraco**Developer** section, see `https://umbraco.com/training/certified-developers/` for details
+1. Click**Settings** in the list of sections at the bottom left of the screen.
+1. Expand the**Templates** node and select the template that you want to add macro to, for example Blog post.
 1. Select the position in the selected template where you want to the button.
-1. Click **Insert Macro** on the top ribbon.
-1. From **Choose a macro**, select the installed macro and click **OK**.
+1. Click**Insert Macro** on the top ribbon.
+1. From**Choose a macro**, select the installed macro and click**OK**.
 
-You have successfully added the template. A button titled **Import to Word** now appears on all pages created using this template. Anyone can simply click the button and import the contents from a Word document.
+You have successfully added the template. A button titled**Import to Word** now appears on all pages created using this template. Anyone can simply click the button and import the contents from a Word document.
 
 ## Video Demo
 

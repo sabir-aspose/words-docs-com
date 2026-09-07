@@ -21,7 +21,7 @@ This page explains the syntax used in document templates for mail merge and LINQ
 
 {{% /alert %}}
 
-A typical template for LINQ Reporting Engine is composed of common document contents and tags that describe the template’s structure and data bindings. You can form these tags using just running text that can occupy multiple paragraphs to be more descriptive. 
+A typical template for LINQ Reporting Engine is composed of common document contents and tags that describe the template's structure and data bindings. You can form these tags using just running text that can occupy multiple paragraphs to be more descriptive. 
 
 A tag body must meet the following requirements:
 
@@ -43,7 +43,7 @@ A tag body typically consists of the following elements:
 
 Particular tags can have additional elements.
 
-Some tags require closing counterparts. A closing tag has the “/” character that precedes its name. This tag’s name must match to the name of the corresponding opening tag.
+Some tags require closing counterparts. A closing tag has the “/” character that precedes its name. This tag's name must match to the name of the corresponding opening tag.
 
 {{< highlight xml >}}
 <</tag_name>>
@@ -57,12 +57,12 @@ Tags consisting of opening and closing parts can be nested to each other. In cas
 <<tag_name ... #header1>><<tag_name ... #header2>>...<</tag_name #header2>><</tag_name #header1>>
 {{< /highlight >}}
 
-While building a report, the engine checks matching of headers for corresponding opening and closing tags and indicates an error in case of a mismatch, for example, because of a wrong closing tags’ order.
+While building a report, the engine checks matching of headers for corresponding opening and closing tags and indicates an error in case of a mismatch, for example, because of a wrong closing tags' order.
 
 During runtime, after a template syntax tag is processed by the engine, it is typically removed. This can lead to a situation where a paragraph containing the tag becomes empty if it has no other content. If such a paragraph is unwanted, it can be optionally removed by the engine. You can use one of the following ways to achieve this:
 
 * Remove all such paragraphs by applying the `ReportBuildOptions.RemoveEmptyParagraphs` option (see [Removing Paragraphs Containing Only Template Syntax Tags](/words/net/removing-paragraphs-containing-only-template-syntax-tags/) for more information).
-* Selectively remove some of such paragraphs by prepending every corresponding tag’s name with an exclamation mark as follows.
+* Selectively remove some of such paragraphs by prepending every corresponding tag's name with an exclamation mark as follows.
   {{< highlight xml >}}
   <<!tag_name ...>>
   {{< /highlight >}}

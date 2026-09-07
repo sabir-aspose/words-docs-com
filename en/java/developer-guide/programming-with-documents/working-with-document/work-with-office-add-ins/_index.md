@@ -54,7 +54,7 @@ The following code example shows how to get such a list of add-ins:
 ## FAQ
 
 1. **Q:** How do I add a Task Pane add‑in to a Word document using Aspose.Words for Java?  
-   **A:** Create a `WebExtension` object, set its `Id` to the Office add‑in GUID, and add a `TaskPane` object to the extension’s `TaskPaneCollection`. Finally, add the `WebExtension` to the document’s `WebExtensionCollection`. The API handles the required XML for the add‑in.
+   **A:** Create a `WebExtension` object, set its `Id` to the Office add‑in GUID, and add a `TaskPane` object to the extension's `TaskPaneCollection`. Finally, add the `WebExtension` to the document's `WebExtensionCollection`. The API handles the required XML for the add‑in.
 
 2. **Q:** Which class lets me retrieve the list of Task Pane add‑ins already present in a document?  
    **A:** Use the `Document.getWebExtensionTaskPanes()` property. It returns a collection of `WebExtensionTaskPane` objects that represent each task pane defined in the document.

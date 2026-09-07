@@ -32,7 +32,7 @@ In this article, we will look at each way in more detail and analyze how to inse
 
 ## Inserting Fields into a Document using DocumentBuilder
 
-In Aspose.Words the [InsertField](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertField(int,boolean) method is used to insert new fields into a document. The first parameter accepts the full field code of the field to be inserted. The second parameter is optional and allows the field result of the field to be set manually. If this is not supplied then the field is updated automatically. You can pass null or empty to this parameter to insert a field with an empty field value. If you are not sure about the particular field code syntax, create the field in Microsoft Word first and switch to see its field code.
+In Aspose.Words the [InsertField](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertField(int,boolean) method is used to insert new fields into a document. The first parameter accepts the full field code of the field to be inserted. The second parameter is optional and allows the field result of the field to be set manually. If this is not supplied then the field is updated automatically. You can pass null or empty to this parameter to insert a field with an empty field value.If you are not sure about the particular field code syntax, create the field in Microsoft Word first and switch to see its field code.
 
 {{% alert color="primary" %}}
 
@@ -173,7 +173,7 @@ The following code example shows how to add the `AUTHOR` Field using DOM to a pa
 
 ### Inserting `INCLUDETEXT` field into a Document without using DocumentBuilder
 
-The `INCLUDETEXT` field inserts the text and graphics contained in the document named in the field code. You can insert the entire document or a portion of the document referred to by a bookmark. This field in Word document is represented by INCLUDETEXT. You can use the [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/) class to perform the following operations:
+The `INCLUDETEXT` field inserts the text and graphics contained in the document named in the field code. You can insert the entire document or a portion of the document referred to by a bookmark. This fieldin Word document is represented by INCLUDETEXT. You can use the [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/) class to perform the following operations:
 
 - specify the bookmark's name of the included document
 - specify the location of the document
@@ -190,13 +190,13 @@ The following code example shows how to add the `INCLUDETEXT` field using DOM to
 
 ### Inserting `TOA` field into a Document without using DocumentBuilder
 
-The `TOA` (*Table of Authorities*) field builds and inserts a table of authorities. The `TOA` field collects entries marked by `TA` (*Table of Authorities Entry*) fields. Microsoft Office Word inserts the `TOA` field when you click *Insert Table of Authorities* in the **Table of Authorities** group on the **References** tab. When you view the `TOA` field in your document, the syntax looks like this:
+The `TOA` (*Table of Authorities*) field builds and inserts a table of authorities. The `TOA` field collects entries marked by `TA` (*Table of Authorities Entry*) fields. Microsoft Office Word inserts the `TOA` field when you click *Insert Table of Authorities* in the **Table of Authorities** group on the **References** tab.When you view the `TOA` field in your document, the syntax looks like this:
 
 { `TOA` [Switches ] }
 
 {{% alert color="primary" %}}
 
-For more details, see the [FieldToa](https://reference.aspose.com/words/java/com.aspose.words/fieldtoa/) class API.
+For more details, see the[FieldToa](https://reference.aspose.com/words/java/com.aspose.words/fieldtoa/) class API.
 
 {{% /alert %}}
 
@@ -231,4 +231,4 @@ The following code example shows how to add the `TOA` field using DOM to a parag
    **A:** Yes. After inserting the field, set its `LocaleId` property to the desired LCID (e.g., `field.setLocaleId(1036)` for French). The field will format its result according to that locale.
 
 5. **Q:** How do I add a field using the DOM without using DocumentBuilder?  
-   **A:** Create an instance of the appropriate field class (e.g., `FieldMergeField`, `FieldAsk`, `FieldAdvance`) and insert it into the document tree with `Paragraph.appendChild(field)`. This method gives full control over the field’s properties.
+   **A:** Create an instance of the appropriate field class (e.g., `FieldMergeField`, `FieldAsk`, `FieldAdvance`) and insert it into the document tree with `Paragraph.appendChild(field)`. This method gives full control over the field's properties.

@@ -70,7 +70,7 @@ The following code example shows how to set the title and description properties
 ## FAQ
 
 1. **Q:** How can I replace a specific string in all cells of a table?  
-   **A:** Retrieve the table’s `Range` object and call `Range.Replace("oldText", "newText")`. This operation scans every cell, paragraph, and run within the table and substitutes the matching text.
+   **A:** Retrieve the table's `Range` object and call `Range.Replace("oldText", "newText")`. This operation scans every cell, paragraph, and run within the table and substitutes the matching text.
 
 2. **Q:** How do I extract plain text from an entire table versus a single cell?  
    **A:** For the whole table, use `Table.Range.Text`. For a particular cell, access `Cell.Range.Text`. Both properties return the textual content without any formatting or markup.

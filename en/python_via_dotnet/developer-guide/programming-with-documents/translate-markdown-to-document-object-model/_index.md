@@ -110,7 +110,7 @@ builder = aw.DocumentBuilder()
 builder.insert_hyperlink("Aspose", "https://www.aspose.com", False)
 
 builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.link_example.md"){{< /highlight >}} |  |
-| **Image**<br />`![](url)`<br />`![alt text](<url> “title”)`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | The [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) class. |
+| **Image**<br />`![](url)`<br />`![alt text](<url> “title”)`<br />`![alt text](url ‘title')`<br />`![alt text](url (title))` | The [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) class. |
 | {{< highlight python >}}# Use a document builder to add content to the document.
 builder = aw.DocumentBuilder()
 
@@ -288,7 +288,7 @@ builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.ordered_lis
    **A:** Use built‑in heading styles with the exact pattern `Heading N` where **N** is the level (1‑9). For Setext headings the importer creates a style named `SetextHeading` that is based on the corresponding `Heading N` style. Do not add any extra prefixes or suffixes; otherwise the paragraph will be treated as a normal paragraph.
 
 2. **Q:** How can I change the bullet or number format of a Markdown list after it has been imported?  
-   **A:** After creating the list with `builder.list_format.apply_bullet_default()` or `apply_number_default()`, modify the first level’s `number_format` property. For example, `builder.list_format.list.list_levels[0].number_format = "-"` changes a bulleted list to use a hyphen, and `builder.list_format.list.list_levels[0].number_format = "1)"` changes an ordered list to use a closing parenthesis.
+   **A:** After creating the list with `builder.list_format.apply_bullet_default()` or `apply_number_default()`, modify the first level's `number_format` property. For example, `builder.list_format.list.list_levels[0].number_format = "-"` changes a bulleted list to use a hyphen, and `builder.list_format.list.list_levels[0].number_format = "1)"` changes an ordered list to use a closing parenthesis.
 
 3. **Q:** What is the recommended way to represent nested blockquotes in the DOM?  
    **A:** Create a paragraph style named `Quote` for the first level. For each deeper level, add a new paragraph style (e.g., `Quote1`, `Quote2`) and set its `base_style_name` to the style of the previous level. The importer will then map nested `>` symbols to these inherited styles.

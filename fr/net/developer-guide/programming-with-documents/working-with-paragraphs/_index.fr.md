@@ -3,7 +3,7 @@ title: Travailler avec des paragraphes dans C#
 second_title: Aspose.Words pour .NET
 articleTitle: Travailler avec des paragraphes
 linktitle: Travailler avec des paragraphes
-description: "Insérez un paragraphe dans un document C#. Définissez les styles de paragraphe dans C#. Travaillez avec le séparateur de style de paragraphe C#. Manipulez le nœud de paragraphe à l’aide de C#."
+description: "Insérez un paragraphe dans un document C#. Définissez les styles de paragraphe dans C#. Travaillez avec le séparateur de style de paragraphe C#. Manipulez le nœud de paragraphe à l'aide de C#."
 type: docs
 weight: 210
 ai_search_scope: words_net

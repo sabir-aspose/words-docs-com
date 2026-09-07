@@ -56,7 +56,7 @@ timestamp: 2024-10-21-11-17-44
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Autolink.h" >}} |  |
 | **Link**<br />`[link text](url)`<br />`[link text](<url>"title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | کلاس [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/) |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Link.h" >}} |  |
-| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | کلاس [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) |
+| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title')`<br />`![alt text](url (title))` | کلاس [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Image.h" >}} |  |
 
 ## بلوک های کانتینری
@@ -92,9 +92,9 @@ else
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `get_ParagraphFormat()->set_StyleName(u"Quote[some suffix]")`<br />پسوند در نام سبک اختیاری است، اما وارد کننده Aspose.Words از اعداد مرتب شده استفاده می کند1, 2, 3, .... در مورد نقل قول های آشیانه ای.<br />لانه سازی از طریق سبک های ارثی تعریف می شود. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Quote.h" >}} |  |
-| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | لیست های با گلوله با استفاده از شماره گذاری پاراگراف نمایش داده می شوند:<br />`get_ListFormat()->ApplyBulletDefault()`<br />می تواند 3 انواع لیست های با گلوله وجود داشته باشد. آنها فقط در قالب شماره گذاری در سطح اول متفاوت هستند. این ها عبارتند از: `‘-’`، `‘+’` یا `‘*’` به ترتیب. |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | لیست های با گلوله با استفاده از شماره گذاری پاراگراف نمایش داده می شوند:<br />`get_ListFormat()->ApplyBulletDefault()`<br />می تواند 3 انواع لیست های با گلوله وجود داشته باشد. آنها فقط در قالب شماره گذاری در سطح اول متفاوت هستند. این ها عبارتند از: `‘-'`، `‘+'` یا `‘*'` به ترتیب. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-BulletedList.h" >}} |  |
-| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | لیست های مرتب شده با استفاده از شماره گذاری پاراگراف نمایش داده می شوند:<br />`get_ListFormat()->ApplyNumberDefault()`<br />می تواند نشانگرهای فرمت عدد 2 وجود داشته باشد: ‘.’ و ‘)’. نشانگر پیش فرض ‘.’ است. |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | لیست های مرتب شده با استفاده از شماره گذاری پاراگراف نمایش داده می شوند:<br />`get_ListFormat()->ApplyNumberDefault()`<br />می تواند نشانگرهای فرمت عدد 2 وجود داشته باشد: ‘.' و ‘)'. نشانگر پیش فرض ‘.' است. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-OrderedList.h" >}} |  |
 
 ### جداول

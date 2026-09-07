@@ -58,7 +58,7 @@ Per illustrare come estrarre e rimuovere i commenti da un documento, passeremo a
 1. Per estrarre i commenti:
    1. Passare attraverso la raccolta utilizzando l'operatore foreach
    1. Estrarre ed elencare il nome dell'autore, la data e l'ora e il testo di tutti i commenti
-   1. Estrarre ed elencare il nome dell'autore, la data e l'ora e il testo dei commenti scritti da un autore specifico, in questo caso, l'autore’ks'
+   1. Estrarre ed elencare il nome dell'autore, la data e l'ora e il testo dei commenti scritti da un autore specifico, in questo caso, l'autore'ks'
 1. Per rimuovere i commenti:
    1. Andare indietro attraverso la raccolta usando il per l'operatore
    1. Rimuovi commenti

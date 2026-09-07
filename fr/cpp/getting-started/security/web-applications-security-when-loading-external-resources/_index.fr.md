@@ -29,7 +29,7 @@ Il existe un certain nombre de problèmes de sécurité typiques lors du chargem
 
 ### Divulgation Des Informations D'Identification Via Des Images Liées
 
-Sur les hôtes basés sur Windows, les documents contenant des références à des ressources qui utilisent des chemins UNC tels que * ' \\example.com\a\b*’ seront traités par défaut. Dans un environnement de domaine, l'hôte enverra ses informations d'identification de domaine dans un format haché au serveur spécifié.
+Sur les hôtes basés sur Windows, les documents contenant des références à des ressources qui utilisent des chemins UNC tels que * ' \\example.com\a\b*' seront traités par défaut. Dans un environnement de domaine, l'hôte enverra ses informations d'identification de domaine dans un format haché au serveur spécifié.
 
 Si un attaquant parvient à convaincre un utilisateur ou un serveur de traiter un document avec un tel lien de ressource pointant vers un hôte qu'il contrôle, l'attaquant recevra les informations d'identification du compte d'utilisateur ou de service au format de hachage NTLM. Ces données peuvent ensuite être réutilisées dans une attaque classique par passe-le-hachage, permettant à l'attaquant d'accéder à n'importe quelle ressource en tant qu'utilisateur victime ou compte de service.
 

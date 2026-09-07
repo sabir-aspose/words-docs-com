@@ -27,7 +27,7 @@ Les propriétés de remplissage sont désormais également disponibles pour les 
 
 ## Obtenir l'espacement des lignes de police
 
-L'espacement des lignes de police est la distance verticale entre les lignes de base de deux lignes de texte consécutives. Ainsi, l’espacement des lignes inclut l’espace vide entre les lignes ainsi que la hauteur du caractère lui-même.
+L'espacement des lignes de police est la distance verticale entre les lignes de base de deux lignes de texte consécutives. Ainsi, l'espacement des lignes inclut l'espace vide entre les lignes ainsi que la hauteur du caractère lui-même.
 
 La propriété [line_spacing](https://reference.aspose.com/words/python-net/aspose.words/font/line_spacing/) a été introduite dans la classe [Font](https://reference.aspose.com/words/python-net/aspose.words/font/) pour obtenir cette valeur comme le montre l'exemple ci-dessous:
 

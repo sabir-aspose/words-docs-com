@@ -15,7 +15,7 @@ timestamp: 2024-01-27-14-07-04
 
 Lorsque vous travaillez avec un document, même s'il est court ou long, vous devrez naviguer dans votre document. La navigation avec un curseur virtuel représente la possibilité de naviguer entre différents nœuds d'un document.
 
-Dans un document court, se déplacer dans un document est simple puisque vous pouvez déplacer le point d'insertion même en utilisant les touches fléchées du clavier ou en cliquant sur la souris pour localiser le point d'insertion où vous le souhaitez. Mais une fois que vous disposez d’un document volumineux comportant de nombreuses pages, ces techniques de base seront insuffisantes.
+Dans un document court, se déplacer dans un document est simple puisque vous pouvez déplacer le point d'insertion même en utilisant les touches fléchées du clavier ou en cliquant sur la souris pour localiser le point d'insertion où vous le souhaitez. Mais une fois que vous disposez d'un document volumineux comportant de nombreuses pages, ces techniques de base seront insuffisantes.
 
 Cet article explique comment se déplacer dans un document et naviguer avec un curseur virtuel vers différentes parties de celui-ci.
 

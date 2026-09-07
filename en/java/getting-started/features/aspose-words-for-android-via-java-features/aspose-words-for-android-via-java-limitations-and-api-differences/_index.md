@@ -3,7 +3,7 @@ title: Android via Java Differences
 second_title: Aspose.Words
 articleTitle: Aspose.Words for Android via Java Limitations and API Differences
 linktitle: Aspose.Words for Android via Java Limitations and API Differences
-description: "Aspose.Words for Android via Java features and API differences comparing to regular Aspose.Words for Java version."
+description: "Aspose.Words for Androidvia Java features and API differences comparing to regular Aspose.Words for Java version."
 type: docs
 weight: 50
 ai_search_scope: words_java
@@ -16,10 +16,10 @@ timestamp: 2024-01-27-14-07-04
 
 ## Limitations of Aspose.Words for Android via Java API compared to Aspose.Words for Java API
 
-1. *Document.print *methods are not available.
-1. Saving in **TIFF** and **BMP** formats is not supported, though *SaveFormat.TIFF* and *SaveFormat.BMP* are available in public Aspose.Words for Android via Java API, but *UnsupportedOperationException* is thrown when these save formats are used.
-1. Reading **TIFF** images is not supported.
-1. Signing **ODT** documents is not supported yet.
+1. *Document.print*methods are not available.
+1. Saving in**TIFF**and**BMP**formats is not supported, though*SaveFormat.TIFF*and*SaveFormat.BMP*are available in public Aspose.Words for Androidvia Java API, but*UnsupportedOperationException*is thrown when these save formats are used.
+1. Reading**TIFF**images is not supported.
+1. Signing**ODT**documents is not supported yet.
 1. Barcodes are not supported.
 1. Gradients along a curve are not supported
 1. Printing is not supported
@@ -28,7 +28,7 @@ timestamp: 2024-01-27-14-07-04
 
 - android.graphics.Bitmap is used instead of java.awt.image.BufferedImage;
 - android.graphics.Canvas is used instead of java.awt.image.Graphics2D;
-- android.graphics.RectF is used instead of  java.awt.geom.Rectangle2D.Float;
+- android.graphics.RectF is used instead of java.awt.geom.Rectangle2D.Float;
 - android.graphics.PointF is used instead of java.awt.geom.Point2D.Float;
 - android.graphics.Rect is used instead of java.awt.Rectangle;
 - android.graphics.Point is used instead of java.awt.Point.
@@ -70,23 +70,23 @@ See the following Public API methods:
    1. android.graphics.PointF getSizeInPoints()
 1. com.aspose.words.ShapeBase:
    1. android.graphics.RectF adjustWithEffects(android.graphics.RectF)
-   1. android.graphics.RectF getBounds() 
-   1. android.graphics.RectF getBoundsInPoints() 
+   1. android.graphics.RectF getBounds()
+   1. android.graphics.RectF getBoundsInPoints()
    1. android.graphics.RectF getBoundsWithEffects()
    1. android.graphics.Point getCoordOrigin()
-   1. android.graphics.PointF getCoordSize() 
+   1. android.graphics.PointF getCoordSize()
    1. android.graphics.PointF getSizeInPoints()
    1. android.graphics.PointF localToParent(android.graphics.PointF)
-   1. setBounds(android.graphics.RectF) 
+   1. setBounds(android.graphics.RectF)
    1. setCoordOrigin(android.graphics.Point)
    1. setCoordSize(android.graphics.PointF)
 1. com.aspose.words.ThumbnailGeneratingOptions:
    1. android.graphics.PointF getThumbnailSize()
    1. setThumbnailSize(android.graphics.PointF)
 
-## Aspose.Words for Android via Java additional requirements
+## Aspose.Words for Androidvia Java additional requirements
 
-In order to use metered licensing feature and load documents or images by http/ftp protocols users should add following permission to their applications
+In order touse metered licensing feature and load documents or images by http/ftp protocols users should add following permission to their applications
 `<uses-permission android:name="android.permission.INTERNET" />`
 
 ## Public API Examples

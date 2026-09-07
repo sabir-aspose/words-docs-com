@@ -56,7 +56,7 @@ timestamp: 2024-10-21-11-17-44
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Autolink.java" >}} |  |
 | **Link**<br />`[链接文本](url)`<br />`[链接文本](<url>"title")`<br />`[链接文本](url 'title')`<br />`[链接文本](url (title))` | [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/)类。 |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Link.java" >}} |  |
-| **Image**<br />`![](/words/java/translate-markdown-to-document-object-model/url)`<br />`![alt文本](/words/java/translate-markdown-to-document-object-model/<url>"title")`<br />`![alt文本](/words/java/translate-markdown-to-document-object-model/url ‘title’)`<br />`![alt文本](/words/java/translate-markdown-to-document-object-model/url (title))` | [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)类。 |
+| **Image**<br />`![](/words/java/translate-markdown-to-document-object-model/url)`<br />`![alt文本](/words/java/translate-markdown-to-document-object-model/<url>"title")`<br />`![alt文本](/words/java/translate-markdown-to-document-object-model/url ‘title')`<br />`![alt文本](/words/java/translate-markdown-to-document-object-model/url (title))` | [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)类。 |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Image.java" >}} |  |
 
 ## 货柜大厦
@@ -85,9 +85,9 @@ timestamp: 2024-10-21-11-17-44
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `ParagraphFormat.StyleName = "Quote[some suffix]"`<br />样式名称中的后缀是可选的，但Aspose.Words导入器使用有序数字1, 2, 3, .... 在嵌套引号的情况下。<br />嵌套是通过继承的样式定义的。 |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Quote.java" >}} |  |
-| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | 项目符号列表使用段落编号表示:<br />`ListFormat.ApplyBulletDefault()`<br />项目符号列表可以有3种类型。 它们只是第一级编号格式的差异。 它们分别是：`‘-’`，`‘+’`或`‘*’`。 |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | 项目符号列表使用段落编号表示:<br />`ListFormat.ApplyBulletDefault()`<br />项目符号列表可以有3种类型。 它们只是第一级编号格式的差异。 它们分别是：`‘-'`，`‘+'`或`‘*'`。 |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BulletedList.java" >}} |  |
-| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | 有序列表使用段落编号表示:<br />`ListFormat.ApplyNumberDefault()`<br />可以有2个数字格式标记：‘.’和‘)’。 默认标记为‘.’。 |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | 有序列表使用段落编号表示:<br />`ListFormat.ApplyNumberDefault()`<br />可以有2个数字格式标记：‘.'和‘)'。 默认标记为‘.'。 |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-OrderedList.java" >}} |  |
 
 ### 表格

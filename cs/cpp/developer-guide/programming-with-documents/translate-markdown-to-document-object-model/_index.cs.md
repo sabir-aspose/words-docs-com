@@ -56,7 +56,7 @@ Používáme znakový styl s názvem, který začíná od slova `InlineCode`, n�
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Autolink.h" >}} |  |
 | **Link**<br />`[link text](url)`<br />`[link text](<url>"title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | Třída [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/). |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Link.h" >}} |  |
-| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | Třída [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/). |
+| **Image**<br />`![](url)`<br />`![alt text](<url>"title")`<br />`![alt text](url ‘title')`<br />`![alt text](url (title))` | Třída [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/). |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Image.h" >}} |  |
 
 ## Kontejnerové Bloky
@@ -92,9 +92,9 @@ Níže uvedená tabulka ukazuje příklady použití Markdown komplexních konte
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Quote**<br />`> quote,`<br />`>> nested quote` | `get_ParagraphFormat()->set_StyleName(u"Quote[some suffix]")`<br />přípona v názvu stylu je volitelná ,ale Aspose.Words dovozce používá seřazená čísla 1, 2, 3, .... v případě vnořených uvozovek.<br />Vnoření je definováno pomocí zděděných stylů. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Quote.h" >}} |  |
-| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Seznamy s odrážkami jsou reprezentovány pomocí číslování odstavců:<br />`get_ListFormat()->ApplyBulletDefault()`<br />mohou existovat 3 typy seznamů s odrážkami. Liší se pouze ve formátu číslování úplně první úrovně. Jsou to: `‘-’`, `‘+’` nebo `‘*’`. |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Seznamy s odrážkami jsou reprezentovány pomocí číslování odstavců:<br />`get_ListFormat()->ApplyBulletDefault()`<br />mohou existovat 3 typy seznamů s odrážkami. Liší se pouze ve formátu číslování úplně první úrovně. Jsou to: `‘-'`, `‘+'` nebo `‘*'`. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-BulletedList.h" >}} |  |
-| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Uspořádané seznamy jsou reprezentovány pomocí číslování odstavců:<br />`get_ListFormat()->ApplyNumberDefault()`<br />mohou existovat 2 značky formátu čísel: ‘.’ a ‘)’. Výchozí značka je ‘.’. |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Uspořádané seznamy jsou reprezentovány pomocí číslování odstavců:<br />`get_ListFormat()->ApplyNumberDefault()`<br />mohou existovat 2 značky formátu čísel: ‘.' a ‘)'. Výchozí značka je ‘.'. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-OrderedList.h" >}} |  |
 
 ### Tabulka

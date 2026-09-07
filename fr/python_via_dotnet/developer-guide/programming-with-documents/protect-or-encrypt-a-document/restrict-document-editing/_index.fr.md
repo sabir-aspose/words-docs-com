@@ -29,7 +29,7 @@ Aspose.Words vous permet de contrôler la manière dont vous restreignez le cont
 * [READ_ONLY](https://reference.aspose.com/words/python-net/aspose.words/protectiontype/#read_only)
 * [NO_PROTECTION](https://reference.aspose.com/words/python-net/aspose.words/protectiontype/#no_protection)
 
-Tous les types sont sécurisés par mot de passe, et si ce mot de passe n'est pas saisi correctement, un utilisateur ne pourra pas légalement modifier le contenu de votre document. Ainsi, si votre document vous est renvoyé sans qu’il soit nécessaire de fournir le mot de passe nécessaire, c’est le signe que quelque chose ne va pas.
+Tous les types sont sécurisés par mot de passe, et si ce mot de passe n'est pas saisi correctement, un utilisateur ne pourra pas légalement modifier le contenu de votre document. Ainsi, si votre document vous est renvoyé sans qu'il soit nécessaire de fournir le mot de passe nécessaire, c'est le signe que quelque chose ne va pas.
 
 Si vous n'avez pas défini de mot de passe lors du choix du type de sécurité, les autres utilisateurs peuvent simplement ignorer la protection de votre document.
 

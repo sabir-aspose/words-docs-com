@@ -312,5 +312,5 @@ When there is no person at all, the engine produces a report as follows.
 4. **Q:** Is it possible to place a table‑column conditional block inside a table‑row conditional block?  
    **A:** No. Nesting a table‑row conditional block or data band inside a table‑column conditional block is prohibited. The allowed nesting direction is only from column blocks to row blocks, not the reverse.
 
-5. **Q:** How can I provide an alternative view when a column’s data source is empty?  
+5. **Q:** How can I provide an alternative view when a column's data source is empty?  
    **A:** Use an `if` condition that checks the collection with `!collection.any()` inside a table‑column conditional block. For example: `<<if [!persons.any()] -horz>>No data<<else>> <<foreach [p in persons] -horz>> … <<endif>>`. This renders “No data” when the collection is empty and the normal column content otherwise.

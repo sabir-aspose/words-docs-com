@@ -42,7 +42,7 @@ The image below demonstrates how the data from the *Order* table passed to the n
 
 <img src="nested-mail-merge-with-regions-2.png" alt="mail_merge_with_nested_regions" style="width:650px"/>
 
-As you can see from the output document, each order from the **Order** table is inserted into the merge template with all order’s related items from the **Item** table. The next order will be inserted along with their items until all the orders and items are listed. The order of nesting Mail Merge with regions in the template must match the data relationships between the tables in the data source.
+As you can see from the output document, each order from the **Order** table is inserted into the merge template with all order's related items from the **Item** table. The next order will be inserted along with their items until all the orders and items are listed. The order of nesting Mail Merge with regions in the template must match the data relationships between the tables in the data source.
 
 ## How to Create Data Relations from a Custom Data Source
 
@@ -63,7 +63,7 @@ The following code example demonstrates how to generate an invoice using nested 
    **A:** When the mail‑merge engine finishes processing a parent record, it calls `GetChildDataSource` on the current `IMailMergeDataSource`. Your implementation should return a data source that enumerates only the child rows that belong to the current parent record, typically by filtering on a foreign‑key value.
 
 3. **Q:** Can I use a `DataTable` or SQLite query directly without a custom data source?  
-   **A:** Yes. Aspose.Words provides `DataTableMailMergeDataSource` for .NET, but in C++ you need to wrap the result set in a custom `IMailMergeDataSource`. Using SQLiteCpp, execute a query for the parent table, then for each parent row create a child data source that runs a second query filtered by the parent’s key.
+   **A:** Yes. Aspose.Words provides `DataTableMailMergeDataSource` for .NET, but in C++ you need to wrap the result set in a custom `IMailMergeDataSource`. Using SQLiteCpp, execute a query for the parent table, then for each parent row create a child data source that runs a second query filtered by the parent's key.
 
 4. **Q:** What are common errors when performing nested mail merge with regions in C++?  
    **A:** Typical problems include returning `nullptr` from `GetChildDataSource`, mismatched region names between the template and code, or not resetting the child data source for each parent record. Ensure region names are identical (case‑sensitive) and that `GetChildDataSource` always returns a fresh iterator for the current parent.

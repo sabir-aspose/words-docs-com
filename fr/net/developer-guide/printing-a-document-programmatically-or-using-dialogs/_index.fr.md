@@ -84,7 +84,7 @@ Pour optimiser l'apparence des paramètres de la boîte de dialogue Aperçu avan
 
 ## Impression de plusieurs pages sur une seule feuille
 
-Il est toujours avantageux d’avoir plus de flexibilité lors de l’impression de documents. En utilisant .NET et Aspose.Words, vous pouvez facilement affiner l'opération d'impression pour mettre en œuvre votre logique personnalisée en définissant la manière dont le document apparaîtra sur la page imprimée.
+Il est toujours avantageux d'avoir plus de flexibilité lors de l'impression de documents. En utilisant .NET et Aspose.Words, vous pouvez facilement affiner l'opération d'impression pour mettre en œuvre votre logique personnalisée en définissant la manière dont le document apparaîtra sur la page imprimée.
 
 Comme dans la section précédente, Aspose.Words implémente la classe **MultipagePrintDocument**, basée sur la classe .NET **PrintDocument**. Cela signifie que l'infrastructure d'impression .NET existante peut être utilisée de telle manière que les boîtes de dialogue d'impression et d'aperçu avant impression permettent de visualiser le document avant l'impression. La classe **MultipagePrintDocument** offre la possibilité d'imprimer plusieurs pages sur une seule feuille de papier.
 

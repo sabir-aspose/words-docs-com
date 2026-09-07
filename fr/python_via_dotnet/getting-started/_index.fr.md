@@ -13,7 +13,7 @@ url: /fr/python-net/getting-started/
 timestamp: 2024-09-25-11-08-55
 ---
 
-Ce guide de démarrage fournit une introduction aux principes fondamentaux de Aspose.Words. Pour les utilisateurs qui découvrent Aspose.Words, il s’agit du moyen le plus rapide d’apprendre les exigences et capacités de base.
+Ce guide de démarrage fournit une introduction aux principes fondamentaux de Aspose.Words. Pour les utilisateurs qui découvrent Aspose.Words, il s'agit du moyen le plus rapide d'apprendre les exigences et capacités de base.
 
 Pour en savoir plus sur Aspose.Words, sélectionnez la section appropriée:
 

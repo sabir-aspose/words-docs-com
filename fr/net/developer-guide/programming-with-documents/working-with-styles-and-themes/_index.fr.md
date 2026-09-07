@@ -63,7 +63,7 @@ Lorsque les deux requêtes sont implémentées, tout ce que vous avez à faire e
 
 ### Résultat final
 
-Lorsque tout est terminé, l’exécution de l’exemple affichera le résultat suivant:
+Lorsque tout est terminé, l'exécution de l'exemple affichera le résultat suivant:
 
 ![styles-and-themes-aspose-words-net](/words/net/working-with-styles-and-themes/working-with-styles-and-themes-2.png)
 

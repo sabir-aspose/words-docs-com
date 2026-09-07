@@ -42,4 +42,4 @@ Here, `bookmark_expression` defines the name of a bookmark to be inserted during
    **A:** The engine will throw an error because a bookmark name is required and cannot be empty. Always validate that the expression returns a non‑empty value before the tag is processed.
 
 5. **Q:** Is it possible to create multiple bookmarks with the same name?  
-   **A:** No. Bookmark names must be unique within a document. If you attempt to insert a duplicate name, Aspose.Words will replace the existing bookmark, potentially causing loss of the original bookmark’s range. Use distinct names for each bookmark.
+   **A:** No. Bookmark names must be unique within a document. If you attempt to insert a duplicate name, Aspose.Words will replace the existing bookmark, potentially causing loss of the original bookmark's range. Use distinct names for each bookmark.

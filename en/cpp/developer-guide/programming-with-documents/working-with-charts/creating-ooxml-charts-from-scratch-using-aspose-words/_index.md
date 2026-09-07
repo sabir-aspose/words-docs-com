@@ -15,7 +15,7 @@ timestamp: 2024-01-27-14-07-04
 
 ## Creating OOXML Charts from Scratch using Aspose.Words
 
-Aspose.Words provides the `InsertChart` method which was added into the `DocumentBuilder` class. So, let's see how to insert a simple column chart into the document using `DocumentBuilder->InsertChart` method:
+Aspose.Words provides the `InsertChart` method which was added into the `DocumentBuilder` class. So, let's see how to insert a simple column chart into the document using`DocumentBuilder->InsertChart`method:
 
 ### How to Insert Column chart
 
@@ -49,7 +49,7 @@ The code produces the following result:
 
 ### How to Insert Area Chart
 
-The code example given below shows how to insert an area chart.
+The code example given belowshows how to insert an area chart.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-InsertAreaChart-InsertAreaChart.cpp" >}}
 
@@ -60,7 +60,7 @@ The code produces the following result:
 
 ### How to Insert Bubble Chart
 
-The code example given below shows how to insert a bubble chart.
+The code example given belowshows how to insert a bubble chart.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-InsertBubbleChart-InsertBubbleChart.cpp" >}}
 
@@ -73,10 +73,10 @@ The code produces the following result:
 ## FAQ
 
 1. **Q:** How can I insert a chart at a specific location such as a bookmark?  
-   **A:** Use a `DocumentBuilder` to move to the desired bookmark or paragraph first (e.g., `builder->MoveToBookmark("MyBookmark");`) and then call `builder->InsertChart(...)`. The chart will be placed exactly where the builder’s cursor is positioned.
+   **A:** Use a `DocumentBuilder` to move to the desired bookmark or paragraph first (e.g., `builder->MoveToBookmark("MyBookmark");`) and then call `builder->InsertChart(...)`. The chart will be placed exactly where the builder's cursor is positioned.
 
 2. **Q:** After inserting a chart, how do I add data series and points to it?  
-   **A:** Retrieve the chart’s `ChartData` object (`Chart* chart = builder->InsertChart(...); ChartData* chartData = chart->get_ChartData();`). Then call `chartData->get_Series()->Add(...)` to create a series and use `Series->get_DataPoints()->Add(...)` to populate points with numeric values.
+   **A:** Retrieve the chart's `ChartData` object (`Chart* chart = builder->InsertChart(...); ChartData* chartData = chart->get_ChartData();`). Then call `chartData->get_Series()->Add(...)` to create a series and use `Series->get_DataPoints()->Add(...)` to populate points with numeric values.
 
 3. **Q:** Can I change the chart type after it has been inserted?  
    **A:** Yes. Call `chart->set_Type(ChartType::Pie);` to change the type, or recreate the chart with the desired `ChartType` overload if you need a completely different layout.
@@ -85,4 +85,4 @@ The code produces the following result:
    **A:** Use `chart->get_Title()->set_Text("Sales Overview");` for the main title. For axes, access `chart->get_AxisX()->set_Title("Month");` and `chart->get_AxisY()->set_Title("Revenue");`.
 
 5. **Q:** Why does the chart appear blank or without data in the generated document?  
-   **A:** Ensure that you add at least one series with data points before saving the document. Also verify that the chart’s width and height are non‑zero (e.g., `builder->InsertChart(ChartType::Column, 400, 300);`). Missing series or zero size will result in an empty chart.
+   **A:** Ensure that you add at least one series with data points before saving the document. Also verify that the chart's width and height are non‑zero (e.g., `builder->InsertChart(ChartType::Column, 400, 300);`). Missing series or zero size will result in an empty chart.

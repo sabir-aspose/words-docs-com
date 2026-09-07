@@ -28,12 +28,12 @@ Bir Word belgesinde belirli stillerle biçimlendirilmiş metni alma çözümü g
 Aspose.Words 'ın stillere dayalı içerik almayı ne kadar kolay işlediğini göstermek için bir örneğe bakalım. Bu örnekte, örnek bir Word belgesinden belirli bir paragraf stili ve karakter stili ile biçimlendirilmiş metni alacağız. Yüksek düzeyde, bu şunları içerecektir:
 - `Document` sınıfını kullanarak bir Word belgesi açma.
 - Tüm paragrafların ve hepsinin koleksiyonlarını almak belgede çalışır.
-- Yalnızca gerekli paragrafları ve çalıştırmaları seçme. Özellikle, bu örnek Word belgesinden ‘Başlık 1’ paragraf stili ve ‘Yoğun Vurgu’ karakter stili ile biçimlendirilmiş metni alacağız.
+- Yalnızca gerekli paragrafları ve çalıştırmaları seçme. Özellikle, bu örnek Word belgesinden ‘Başlık 1' paragraf stili ve ‘Yoğun Vurgu' karakter stili ile biçimlendirilmiş metni alacağız.
 
 ![working-with-styles-aspose-words-cpp-1](working-with-styles-1.png)
 
 
-Bu örnek belgede, ‘Başlık 1’ paragraf stili ile biçimlendirilmiş metin ‘Sekme Ekle’, ‘Hızlı Stiller’ ve ‘Tema' ve 'Yoğun vurgu' karakter stili ile biçimlendirilmiş metin, ‘galeriler' gibi mavi, italik, kalın metnin birkaç örneğidir' ve 'genel bakış'.
+Bu örnek belgede, ‘Başlık 1' paragraf stili ile biçimlendirilmiş metin ‘Sekme Ekle', ‘Hızlı Stiller' ve ‘Tema' ve 'Yoğun vurgu' karakter stili ile biçimlendirilmiş metin, ‘galeriler' gibi mavi, italik, kalın metnin birkaç örneğidir' ve 'genel bakış'.
 
 ### Kod
 

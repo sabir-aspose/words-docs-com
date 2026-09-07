@@ -55,7 +55,7 @@ The image below shows how the data from the *Order* table passed to the nested m
 
 <img src="nested-mail-merge-with-regions-2.png" alt="mail_merge_with_nested_regions_aspose_words_java" style="width:650px"/>
 
-As you can see from the output document, each order from the **Order** table is inserted into the merge template with all order’s related items from the **Item** table. The next order will be inserted along with their items until all the orders and items are listed. The order of nesting Mail Merge with regions in the template must match the data relationships between the tables in the data source.
+As you can see from the output document, each order from the **Order** table is inserted into the merge template with all order's related items from the **Item** table. The next order will be inserted along with their items until all the orders and items are listed. The order of nesting Mail Merge with regions in the template must match the data relationships between the tables in the data source.
 
 The following code example shows how to generate an invoice using nested Mail Merge with regions:
 
@@ -77,7 +77,7 @@ If Mail Merge is not working as expected, then you may need to restructure your 
 
 A `DataSet` that has related data tables will use the **DataRelation** object to represent the parent‑child relationship between the tables.
 
-The following code example shows how to establish a `DataRelation` between a customer’s table and an order’s table by using a `DataRelation` object:  
+The following code example shows how to establish a `DataRelation` between a customer's table and an order's table by using a `DataRelation` object:  
 
 {{< gist "aspose-words-gists" "6ad68bd56dfc60c2162398d02d2fc1a5" "disable-foreign-key-constraints.java" >}}
 

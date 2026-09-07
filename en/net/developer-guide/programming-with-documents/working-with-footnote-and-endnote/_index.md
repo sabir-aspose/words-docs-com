@@ -37,7 +37,7 @@ The following code example shows how to insert endnote into the document and set
 
 You can set the number of footnote layout columns using the [Columns](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/columns/) property. If this property has the value of 0, the footnotes area is formatted with a number of columns based on the number of columns on the displayed page.
 
-The following code example shows how to set the number of columns for footnote layout:
+The following code example showshow to set the number of columns for footnote layout:
 
 {{< gist "aspose-words-gists" "3b39c2019380ee905e7d9596494916a4" "set-footnote-columns.cs" >}}
 

@@ -113,7 +113,7 @@ And after executing Mail Merge with regions:
 There are some important points that you need to consider when performing a Mail Merge with regions:
 
 * The start point *TableStart:Orders* and the end point *TableEnd:Orders* both need to be in the same row or cell. For example, if you start a merge region in a cell of a table, you must end the merge region in the same row as the first cell.
-* The merge field name must match the column’s name in your DataTable. Unless you have specified mapped fields, the Mail Merge with regions will not be successful for any merge field that has a different name than the column’s name.
+* The merge field name must match the column's name in your DataTable. Unless you have specified mapped fields, the Mail Merge with regions will not be successful for any merge field that has a different name than the column's name.
 
 If one of these rules is broken, you will get unexpected results or an exception may be thrown.
 
@@ -137,7 +137,7 @@ If you do not use Mail Merge regions, then it will be similar to Microsoft Word 
    **A:** A region must have a start field named `TableStart:RegionName` and an end field named `TableEnd:RegionName`. Both fields must reside in the same row or cell, and the field names must exactly match the column names in the corresponding `DataTable`.
 
 4. **Q:** Can I nest Mail Merge regions, and will they work correctly?  
-   **A:** Yes, you can nest regions by placing a child region’s start and end fields inside the parent region’s boundaries. The inner region will be repeated for each parent record, enabling hierarchical data structures such as orders with line items.
+   **A:** Yes, you can nest regions by placing a child region's start and end fields inside the parent region's boundaries. The inner region will be repeated for each parent record, enabling hierarchical data structures such as orders with line items.
 
 5. **Q:** Why does an empty paragraph appear after a merge field, and how can I remove it?  
    **A:** Aspose.Words treats a paragraph that contains only a merge field as a separate paragraph. If the field is removed during merging, the empty paragraph remains. Use `DocumentBuilder.MoveToMergeField("FieldName")` followed by `DocumentBuilder.RemoveParagraph()` to delete the unwanted paragraph after the merge.

@@ -3,7 +3,7 @@ title: Travailler avec la césure dans Python
 second_title: Aspose.Words pour Python via .NET
 articleTitle: Travailler avec la césure
 linktitle: Travailler avec la césure
-description: "Utilisez la césure pour une disposition plus compacte du texte à l’aide de Python. Il fournit des algorithmes avancés pour travailler avec des dictionnaires de césure et utilise des dictionnaires OpenOffice."
+description: "Utilisez la césure pour une disposition plus compacte du texte à l'aide de Python. Il fournit des algorithmes avancés pour travailler avec des dictionnaires de césure et utilise des dictionnaires OpenOffice."
 type: docs
 weight: 220
 ai_search_scope: words_python
@@ -15,7 +15,7 @@ timestamp: 2024-01-27-14-07-04
 
 Parfois, il est nécessaire d'utiliser la césure pour une disposition plus compacte du texte dans un document. Dans le même temps, il est important de comprendre que les spécificités de la césure des mots peuvent différer pour chaque langue.
 
-À l’heure actuelle, la césure n’est plus utilisée aussi souvent qu’avant, notamment dans les textes anglais. Néanmoins, l'utilisation de cette fonctionnalité peut avoir un impact sérieux sur les documents utilisateur: la césure affecte la mise en page et, par conséquent, l'apparence des fichiers de sortie, par exemple au format PDF.
+À l'heure actuelle, la césure n'est plus utilisée aussi souvent qu'avant, notamment dans les textes anglais. Néanmoins, l'utilisation de cette fonctionnalité peut avoir un impact sérieux sur les documents utilisateur: la césure affecte la mise en page et, par conséquent, l'apparence des fichiers de sortie, par exemple au format PDF.
 
 Pour diviser correctement les mots, des dictionnaires de césure spécifiques à la langue sont utilisés. Aspose.Words utilise des algorithmes avancés pour travailler avec de tels dictionnaires et vous permet d'obtenir la même césure que dans Microsoft Word.
 
@@ -50,7 +50,7 @@ Les caractéristiques suivantes des algorithmes Aspose.Words doivent être prise
 
 ## Chargement des dictionnaires de césure
 
-Pour utiliser la fonction de césure, enregistrez d’abord un dictionnaire de césure. L'exemple de code suivant montre comment charger des dictionnaires de césure pour les langues spécifiées à partir d'un fichier:
+Pour utiliser la fonction de césure, enregistrez d'abord un dictionnaire de césure. L'exemple de code suivant montre comment charger des dictionnaires de césure pour les langues spécifiées à partir d'un fichier:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_hyphenation-HyphenateWordsOfLanguages.py" >}}
 
@@ -74,7 +74,7 @@ Vous pouvez télécharger le fichier modèle de cet exemple depuis [Aspose.Words
 
 Lors de la division du texte en lignes, Aspose.Words vérifie chaque mot s'il s'inscrit entièrement dans la ligne actuelle. Si un autre mot est trop long pour tenir à la fin de la ligne, Aspose.Words le déplace par défaut au début de la ligne suivante au lieu de le couper.
 
-Cependant, la fonction de césure peut être utilisée dans Aspose.Words pour insérer des traits d'union dans des mots afin d'éliminer les espaces dans le texte justifié ou pour maintenir une longueur de ligne régulière dans des colonnes étroites. Cela peut évidemment affecter le nombre de lignes et donc le nombre de pages. En d’autres termes, l’utilisation de la fonction de césure affecte la présentation du document.
+Cependant, la fonction de césure peut être utilisée dans Aspose.Words pour insérer des traits d'union dans des mots afin d'éliminer les espaces dans le texte justifié ou pour maintenir une longueur de ligne régulière dans des colonnes étroites. Cela peut évidemment affecter le nombre de lignes et donc le nombre de pages. En d'autres termes, l'utilisation de la fonction de césure affecte la présentation du document.
 
 ## Césure et justification (H&amp;J)
 

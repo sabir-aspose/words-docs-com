@@ -116,7 +116,7 @@ And after applying the **UseNonMergeFields** property:
    **A:** Yes. When `UseNonMergeFields` is `true`, Aspose.Words first processes standard merge fields and then replaces Mustache tags. This allows you to combine both approaches in a single template.
 
 4. **Q:** How can I add conditional logic with Mustache tags?  
-   **A:** Use Word’s built‑in `IF` field and reference a Mustache tag inside the condition, e.g. `{ IF "{{ GENDER }}" = MALE "He" "She" }`. The `IF` field evaluates the value that the Mustache tag resolves to after the merge.
+   **A:** Use Word's built‑in `IF` field and reference a Mustache tag inside the condition, e.g. `{ IF "{{ GENDER }}" = MALE "He" "She" }`. The `IF` field evaluates the value that the Mustache tag resolves to after the merge.
 
 5. **Q:** Why do I get a “Tag end is unexpected” error when using Mustache syntax?  
    **A:** This error usually means a section tag is not closed correctly or contains extra whitespace. Ensure every opening tag like `{{#foreach list}}` has a matching closing tag `{{/foreach list}}` and that there are no stray characters inside the braces.

@@ -278,7 +278,7 @@ In this case, the engine produces a report as follows.
 ## FAQ
 
 1. **Q:** How do I write an IF condition inside a table‑row conditional block?  
-   **A:** Use the `<<if [condition]>>` syntax where *condition* is any Boolean expression that can reference fields of the current data source, e.g., `<<if [Country == "New Zealand"]>>`. Close the block with `<< /if>>`. The block’s rows will be rendered only when the condition evaluates to true.
+   **A:** Use the `<<if [condition]>>` syntax where *condition* is any Boolean expression that can reference fields of the current data source, e.g., `<<if [Country == "New Zealand"]>>`. Close the block with `<< /if>>`. The block's rows will be rendered only when the condition evaluates to true.
 
 2. **Q:** What is the purpose of the `-greedy` switch?  
    **A:** When the opening and closing IF tags are placed in the same table cell, the engine treats the block as a common conditional block by default. Adding `-greedy` (e.g., `<<if [false]>> … << /if -greedy>>`) forces the engine to treat it as a table‑row conditional block, so the entire row is considered part of the condition.

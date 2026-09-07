@@ -110,7 +110,7 @@ The following code  example shows how to convert all `IF` fields in the last par
    **A:** Yes. The first argument of `ConvertFieldsToStaticText` is any `CompositeNode`. Provide the node you want to process, e.g., `section.Body` or `paragraph.ParentNode`. The method will replace matching fields only within that node.
 
 4. **Q:** Why does converting a `PAGE` field in a header to static text show the same page number on every page?  
-   **A:** Header/footer fields are shared across pages. When a `PAGE` field is replaced with static text, the value is taken from the header’s context (usually the last page of the section) and applied to all pages. To keep correct page numbers, avoid converting `PAGE` fields in headers/footers, or replace them after the document is split into individual pages.
+   **A:** Header/footer fields are shared across pages. When a `PAGE` field is replaced with static text, the value is taken from the header's context (usually the last page of the section) and applied to all pages. To keep correct page numbers, avoid converting `PAGE` fields in headers/footers, or replace them after the document is split into individual pages.
 
 5. **Q:** My field spans multiple paragraphs and `ConvertFieldsToStaticText` throws an exception. What should I do?  
    **A:** Fields that cross paragraph boundaries should be processed at a higher level. Pass the parent node that contains the whole field (for example, the `Section` or `Body`) instead of an individual `Paragraph`. This ensures the method sees the complete field structure.

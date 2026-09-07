@@ -25,9 +25,9 @@ timestamp: 2024-01-27-14-07-04
 
 ## Перевірити текст Коробка Sequence
 
-Існує кілька способів відображення тексту у формі. Про нас [TextBox](https://reference.aspose.com/words/net/aspose.words.drawing/shape/textbox/) може бути керівником, середнім або в’язкою послідовності.
+Існує кілька способів відображення тексту у формі. Про нас [TextBox](https://reference.aspose.com/words/net/aspose.words.drawing/shape/textbox/) може бути керівником, середнім або в'язкою послідовності.
 
-Приклад наступного коду показує, як перевірити, якщо **TextBox** - голова, в’язниця або середина послідовності:
+Приклад наступного коду показує, як перевірити, якщо **TextBox** - голова, в'язниця або середина послідовності:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Linked-Textboxes-WorkingWithLinkedTextboxes-CheckSequence.cs" >}}
 

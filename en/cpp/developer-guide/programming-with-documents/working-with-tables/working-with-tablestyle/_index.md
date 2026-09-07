@@ -80,16 +80,16 @@ The following code example shows how to expand the formatting from styles onto t
 ## FAQ
 
 1. **Q:** How do I create a custom table style in C++?  
-   **A:** Use the `StyleCollection::Add` method to create a new `TableStyle`. Set the desired properties (borders, shading, font, etc.) on the style object, then add it to the document’s `StyleCollection`. The style can later be applied to any `Table` via its `Style` property.
+   **A:** Use the `StyleCollection::Add` method to create a new `TableStyle`. Set the desired properties (borders, shading, font, etc.) on the style object, then add it to the document's `StyleCollection`. The style can later be applied to any `Table` via its `Style` property.
 
 2. **Q:** Can I copy a table style from another document?  
-   **A:** Yes. Load the source document, retrieve the required `TableStyle`, and use `StyleCollection::AddCopy` on the target document’s `StyleCollection`. This copies the style together with any linked styles.
+   **A:** Yes. Load the source document, retrieve the required `TableStyle`, and use `StyleCollection::AddCopy` on the target document's `StyleCollection`. This copies the style together with any linked styles.
 
 3. **Q:** How do I apply an existing table style to a table?  
-   **A:** After creating or loading a `Table`, set its `StyleIdentifier` or `StyleName` property to the name of the desired style, or assign the `TableStyle` object directly to the table’s `Style` property.
+   **A:** After creating or loading a `Table`, set its `StyleIdentifier` or `StyleName` property to the name of the desired style, or assign the `TableStyle` object directly to the table's `Style` property.
 
 4. **Q:** How can I define conditional formatting (e.g., header row shading) for a table style?  
    **A:** Access the `ConditionalStyleCollection` of the `TableStyle` and add a `ConditionalStyle` for the required `ConditionalStyleType` (e.g., `ConditionalStyleType::HeaderRow`). Configure the formatting (shading, font, etc.) on that `ConditionalStyle`.
 
-5. **Q:** What if I need the style’s formatting as direct formatting on the table cells?  
+5. **Q:** What if I need the style's formatting as direct formatting on the table cells?  
    **A:** Call `Document::ExpandTableStylesToDirectFormatting()`. This expands all style‑based formatting into explicit formatting on each row and cell, preserving the appearance while removing the style reference.  

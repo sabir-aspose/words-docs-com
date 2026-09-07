@@ -27,7 +27,7 @@ Cet article explique comment comparer des documents et comment spécifier les pr
 
 Vous pouvez comparer deux documents en ligne en utilisant l'outil [Comparaison de documents en ligne](https://products.aspose.app/words/comparison).
 
-Notez que la méthode de comparaison, décrite ci-dessous, est utilisée dans cet outil pour garantir l'obtention de résultats égaux. Ainsi, vous obtiendrez les mêmes résultats même en utilisant l’outil de comparaison en ligne ou en utilisant la méthode de comparaison dans Aspose.Words.
+Notez que la méthode de comparaison, décrite ci-dessous, est utilisée dans cet outil pour garantir l'obtention de résultats égaux. Ainsi, vous obtiendrez les mêmes résultats même en utilisant l'outil de comparaison en ligne ou en utilisant la méthode de comparaison dans Aspose.Words.
 
 {{% /alert %}}
 
@@ -49,7 +49,7 @@ Lorsque vous comparez des documents, les différences entre ce dernier et le pre
 
 Aspose.Words vous permet d'identifier les différences entre les documents à l'aide de la méthode [Compare](https://reference.aspose.com/words/fr/net/aspose.words/document/compare/#compare/), similaire à la fonction de comparaison de documents Microsoft Word. Il vous permet de vérifier des documents ou des versions de documents pour trouver des différences et des modifications, y compris des modifications de formatage telles que des changements de police, des changements d'espacement, l'ajout de mots et de paragraphes.
 
-À la suite d'une comparaison, les documents peuvent être déterminés comme étant égaux ou non. Le terme documents "égaux" signifie que la méthode de comparaison n’est pas capable de représenter les changements comme des révisions. Cela signifie que le texte du document et le formatage du texte sont identiques. Mais il peut y avoir d’autres différences entre les documents. Par exemple, Microsoft Word prend uniquement en charge les révisions de format pour les styles et vous ne pouvez pas représenter l'insertion/suppression de styles. Ainsi, les documents peuvent avoir un ensemble de styles différent et la méthode **Compare** ne produit toujours aucune révision.
+À la suite d'une comparaison, les documents peuvent être déterminés comme étant égaux ou non. Le terme documents "égaux" signifie que la méthode de comparaison n'est pas capable de représenter les changements comme des révisions. Cela signifie que le texte du document et le formatage du texte sont identiques. Mais il peut y avoir d'autres différences entre les documents. Par exemple, Microsoft Word prend uniquement en charge les révisions de format pour les styles et vous ne pouvez pas représenter l'insertion/suppression de styles. Ainsi, les documents peuvent avoir un ensemble de styles différent et la méthode **Compare** ne produit toujours aucune révision.
 
 L'exemple de code suivant montre comment vérifier si deux documents sont égaux ou non:
 
