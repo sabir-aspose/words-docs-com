@@ -28,7 +28,7 @@ In this article, we will talk about inserting an OLE object and setting its prop
 
 ## Insert OLE Object
 
-If you want OLE Object, call the [insert_ole_object](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_ole_object/) method and pass it the **prog_id** explicitly with other parameters.
+If you want OLE Object, call the [insert_ole_object](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_ole_object/) method and pass it the **prog_id** explicitly with other parameters.
 
 The following code example shows how to insert OLE Object into a document:
 
@@ -40,7 +40,7 @@ OLE package is a legacy and "undocumented" way to store embedded objects if an O
 
 Early Windows versions such as Windows 3.1, 95, and 98 had a Packager.exe application that could be used to embed any type of data into the document. This application is now excluded from Windows, but Microsoft Word and other applications still use it to embed data if the OLE handler is missing or unknown. The `OlePackage` class allows users to access the OLE Package properties.
 
-The following code example shows how to set the file name, extension, and display name for OLE Package:
+The following code example shows how to set the file name, extension, and display name for OLE Package:
 
 {{< gist "aspose-words-gists" "2c7d2bb472db1a698568d980c01b0735" "insert-ole-objectwith-ole-package.py" >}}
 

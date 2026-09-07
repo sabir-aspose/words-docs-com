@@ -24,11 +24,11 @@ This page demonstrates how to use Aspose.Words for Python via .NET to save a Doc
 
 {{% /alert %}}
 
-Most of the tasks you need to perform with Aspose.Words involve saving a document. To save a document Aspose.Words provides the [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) method of the [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) class. There are overloads that allow saving a document to a file or stream. The document can be saved in any save format supported by Aspose.Words. For the list of all supported save formats, see the [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/) enumeration.
+Most of the tasks you need to perform with Aspose.Words involve saving a document. To save a document Aspose.Words provides the [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) method of the [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) class. There are overloads that allow saving a document to a file or stream. The document can be saved in any save format supported by Aspose.Words. For the list of all supported save formats, see the [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/) enumeration.
 
 ## Save to a File {#save-a-document-to-a-file}
 
-Simply use the [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) method with a file name. Aspose.Words will determine the save format from the file extension that you specify.
+Simply use the [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) method with a file name. Aspose.Words will determine the save format from the file extension that you specify.
 
 The following code example shows how to load and save a document to a file:
 
@@ -36,7 +36,7 @@ The following code example shows how to load and save a document to a file:
 
 {{% alert color="primary" %}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx).
 
 {{% /alert %}}
 
@@ -50,7 +50,7 @@ The following code example shows how to load and save a document to a stream:
 
 {{% alert color="primary" %}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx).
 
 {{% /alert %}}
 

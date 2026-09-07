@@ -42,7 +42,7 @@ The following code example shows how to create a new bookmark:
 
 Sometimes it is necessary to obtain a bookmark collection to iterate through bookmarks or for other purposes. Use the [Node.range](https://reference.aspose.com/words/python-net/aspose.words/node/range/) property exposed by any document node that returns a [Range](https://reference.aspose.com/words/python-net/aspose.words/range/) object representing the portion of the document contained in this node. Use this object to retrieve a [BookmarkCollection](https://reference.aspose.com/words/python-net/aspose.words/bookmarkcollection/) and then use the collection indexer to get a specific bookmark.
 
-The following code example shows how to obtain bookmarks from a bookmark collection:
+The following code example shows how to obtain bookmarks from a bookmark collection:
 
 {{< gist "aspose-words-gists" "80b995172a159ce9559ebaf82c1b4f2d" "access-bookmarks.py" >}}
 
@@ -62,7 +62,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% /alert %}}
 
-The following code example shows how to bookmark a table:
+The following code example shows how to bookmark a table:
 
 {{< gist "aspose-words-gists" "80b995172a159ce9559ebaf82c1b4f2d" "bookmark-table.py" >}}
 

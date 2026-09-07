@@ -22,7 +22,7 @@ This page demonstrates how to create, modify, bind, clear, style, and work with 
 
 {{% /alert %}}
 
-In Microsoft Word, you can create a form by starting with a template and adding content controls, including checkboxes, text boxes, date pickers, and drop-down lists. In Aspose.Words, a Structured Document Tag or content control from any document loaded into Aspose.Words is imported as a StructuredDocumentTag node. Structured document tags (SDT or content control) allow embedding customer-defined semantics as well as its behaviour and appearance into a document.
+In Microsoft Word, you can create a form by starting with a template and adding content controls, including checkboxes, text boxes, date pickers, and drop-down lists. In Aspose.Words, a Structured Document Tag or content control from any document loaded into Aspose.Words is imported as a StructuredDocumentTag node. Structured document tags (SDT or content control) allow embedding customer-defined semantics as well as its behaviour and appearance into a document.
 
 StructuredDocumentTag can occur in a document in the following places:
 
@@ -50,11 +50,11 @@ The following code example shows how to create content control of type checkbox:
 
 {{< gist "aspose-words-gists" "2da81a821a2e21b8e35dee1396ed59ba" "sdt-check-box.py" >}}
 
-The following code example shows how to create content control of type rich text box:
+The following code example shows how to create content control of type rich text box:
 
 {{< gist "aspose-words-gists" "2da81a821a2e21b8e35dee1396ed59ba" "sdt-rich-text-box.py" >}}
 
-The following code example shows how to create content control of the type combo box:
+The following code example shows how to create content control of the type combo box:
 
 {{< gist "aspose-words-gists" "2da81a821a2e21b8e35dee1396ed59ba" "sdt-combo-box.py" >}}
 
@@ -66,7 +66,7 @@ The following code example shows how to set the current state of the checkbox:
 
 {{< gist "aspose-words-gists" "2da81a821a2e21b8e35dee1396ed59ba" "current-state-of-check-box.py" >}}
 
-The following code example shows how to modify content controls of type plain text box, drop-down list and picture:
+The following code example shows how to modify content controls of type plain text box, drop-down list and picture:
 
 {{< gist "aspose-words-gists" "2da81a821a2e21b8e35dee1396ed59ba" "modify-sdt.py" >}}
 
@@ -74,13 +74,13 @@ The following code example shows how to modify content controls of type plain t
 
 You can bind content controls with XML data (*custom XML part*) in Word documents.
 
-The following code example shows how to bind content control to custom XML parts:
+The following code example shows how to bind content control to custom XML parts:
 
 {{< gist "aspose-words-gists" "2da81a821a2e21b8e35dee1396ed59ba" "bind-sdt-to-custom-xml-part.py" >}}
 
 ## XMLMapping of Structured Document Tag Range
 
-You can get the mapping of this structured document tag range to XML data in a custom XML part of the current document using the **StructuredDocumentTagRangeStart.XmlMapping property**. However, the [set_mapping](https://reference.aspose.com/words/python-net/aspose.words.markup/xmlmapping/set_mapping/) method can be used to map a structured document tag range to XML data.
+You can get the mapping of this structured document tag range to XML data in a custom XML part of the current document using the **StructuredDocumentTagRangeStart.XmlMapping property**. However, the [set_mapping](https://reference.aspose.com/words/python-net/aspose.words.markup/xmlmapping/set_mapping/) method can be used to map a structured document tag range to XML data.
 
 The following code example shows how to set XML mapping:
 
@@ -101,7 +101,7 @@ The [StructuredDocumentTag.color](https://reference.aspose.com/words/python-net/
 1. MS Word highlights the background of the content control when the mouse moves over the content control. This helps to identify the content control. The color of highlighting is a bit "softer" than the *color*. For example, MS Word highlights the background with the pink color, when *color* is red.
 2. When you interact (editing, picking etc) with the content control, the border of content control is colored with the *color*.
 
-The following code example shows how to change the color of content control:
+The following code example shows how to change the color of content control:
 
 {{< gist "aspose-words-gists" "2da81a821a2e21b8e35dee1396ed59ba" "sdt-color.py" >}}
 
@@ -121,9 +121,9 @@ The following code example shows how to set the style of content control:
 
 ## Working with Repeating Section Content Control
 
-The repeating section content control allows repeating the content contained within it. Using Aspose.Words, the structured document tag nodes of the repeating section and repeating section item types can be created and for this purpose, [SdtType](https://reference.aspose.com/words/python-net/aspose.words.markup/sdttype/) provides **RepeatingSectionItem** property.
+The repeating section content control allows repeating the content contained within it. Using Aspose.Words, the structured document tag nodes of the repeating section and repeating section item types can be created and for this purpose, [SdtType](https://reference.aspose.com/words/python-net/aspose.words.markup/sdttype/) provides **RepeatingSectionItem** property.
 
-The following code example shows how to bind a repeating section content control to a table:
+The following code example shows how to bind a repeating section content control to a table:
 
 {{< gist "aspose-words-gists" "2da81a821a2e21b8e35dee1396ed59ba" "repeating-section-mapped-to-custom-xml-part.py" >}} 
 

@@ -24,20 +24,20 @@ Aspose.Words allows users to work with images in a very flexible way. In this ar
 
 ## How to Insert an Image {#insert-an-image}
 
-[DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) provides several overloads of the [insert_image](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/) method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The **insert_image** method can use images from different sources:
+[DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) provides several overloads of the [insert_image](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/) method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The **insert_image** method can use images from different sources:
 
-- From a file or `URL` by passing a `String` parameter [insert_image](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/)
-- From a stream by passing a `Stream` parameter **insert_image**
-- From an Image object by passing an Image parameter **insert_image**
-- From a byte array by passing a byte array parameter **insert_image**
+- From a file or `URL` by passing a `String` parameter [insert_image](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/)
+- From a stream by passing a `Stream` parameter **insert_image**
+- From an Image object by passing an Image parameter **insert_image**
+- From a byte array by passing a byte array parameter **insert_image**
 
-For each of the **insert_image** methods, there are further overloads which allow you to insert an image with the following options:
-- Inline or floating at a specific position, for example, **insert_image**
-- Percentage scale or custom size, for example, **insert_image**; furthermore, the **insert_image** method returns a [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) object that was just created and inserted so you can further modify properties of the Shape
+For each of the **insert_image** methods, there are further overloads which allow you to insert an image with the following options:
+- Inline or floating at a specific position, for example, **insert_image**
+- Percentage scale or custom size, for example, **insert_image**; furthermore, the **insert_image** method returns a [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) object that was just created and inserted so you can further modify properties of the Shape
 
 ### How to Insert an Inline Image {#insert-an-inline-image}
 
-Pass a single string representing a file that contains the image to **insert_image** to insert the image into the document as an inline graphic.
+Pass a single string representing a file that contains the image to **insert_image** to insert the image into the document as an inline graphic.
 
 The following code example shows how to insert an inline image at the cursor position into a document:
 
@@ -51,7 +51,7 @@ The following code example shows how to insert a floating image from a file or `
 
 ## How to Extract Images from a Document {#how-to-extract-images-from-a-document}
 
-All images are stored inside **Shape** nodes in a [Document](https://reference.aspose.com/words/python-net/aspose.words/document/). To extract all images or images having specific type from the document, follow these steps:
+All images are stored inside **Shape** nodes in a [Document](https://reference.aspose.com/words/python-net/aspose.words/document/). To extract all images or images having specific type from the document, follow these steps:
 
 - Use the [Document.get_child_nodes](https://reference.aspose.com/words/python-net/aspose.words/compositenode/get_child_nodes/) method to select all **Shape** nodes.
 - Iterate through resulting node collections.
@@ -97,7 +97,7 @@ The following code example shows how to use this property:
 
 ## Crop Images {#crop-images}
 
-The cropping of an image usually refers to the removal of the unwanted outer parts of an image to help improve the framing. It is also used for the removal of some of the portions of an image to increase the focus on a particular area.
+The cropping of an image usually refers to the removal of the unwanted outer parts of an image to help improve the framing. It is also used for the removal of some of the portions of an image to increase the focus on a particular area.
 
 The following code example shows how to achieve this using Aspose.Words API:
 

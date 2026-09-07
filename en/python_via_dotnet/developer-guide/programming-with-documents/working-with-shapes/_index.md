@@ -24,7 +24,7 @@ This page demonstrates how to create, modify, and query various shape types in W
 
 This topic discusses how to work programmatically with shapes using Aspose.Words.
 
-The shapes in Aspose.Words represent an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture. A Word document can contain one or more different shapes. Shapes in Aspose.Words are represented by the [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) class.
+The shapes in Aspose.Words represent an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture. A Word document can contain one or more different shapes. Shapes in Aspose.Words are represented by the [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) class.
 
 ## Inserting Shapes Using Document Builder
 
@@ -52,9 +52,9 @@ The following code example shows how to work with the **IsLayoutInCell** propert
 
 ## Create Snip Corner Rectangle
 
-You can create a snip corner rectangle using Aspose.Words. The shape types are *SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,  TopCornersOneRoundedOneSnipped,  SingleCornerRounded,  TopCornersRounded,* and *DiagonalCornersRounded.*
+You can create a snip corner rectangle using Aspose.Words. The shape types are *SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,  TopCornersOneRoundedOneSnipped,  SingleCornerRounded,  TopCornersRounded,* and *DiagonalCornersRounded.*
 
-The DML shape is created using **insert_shape** method with these shape types. These types cannot be used to create VML shapes. Attempt to create shape by using the public constructor of the "Shape" class raises the "NotSupportedException" exception.
+The DML shape is created using **insert_shape** method with these shape types. These types cannot be used to create VML shapes. Attempt to create shape by using the public constructor of the "Shape" class raises the "NotSupportedException" exception.
 
 The following code example shows how to insert these type of shapes into the document:
 
@@ -92,15 +92,15 @@ The following code example shows how to do this:
 
 {{< gist "aspose-words-gists" "664d989412b46c6a03619182c5a4b9cd" "insert-horizontal-rule.py" >}}
 
-Aspose.Words API provides the [horizontal_rule_format](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/horizontal_rule_format/) property to access the properties of the horizontal rule shape. The [HorizontalRuleFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing/horizontalruleformat/) class exposes basic properties like Height, Color, NoShade etc. for the formatting of a horizontal rule.
+Aspose.Words API provides the [horizontal_rule_format](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/horizontal_rule_format/) property to access the properties of the horizontal rule shape. The [HorizontalRuleFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing/horizontalruleformat/) class exposes basic properties like Height, Color, NoShade etc. for the formatting of a horizontal rule.
 
-The following code example shows how to set **HorizontalRuleFormat**:
+The following code example shows how to set **HorizontalRuleFormat**:
 
 {{< gist "aspose-words-gists" "664d989412b46c6a03619182c5a4b9cd" "horizontal-rule-format.py" >}}
 
 ## Import Shapes with Math XML as Shapes into DOM
 
-You can use the [convert_shape_to_office_math](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/convert_shape_to_office_math/) property to convert the shapes with EquationXML to Office Math objects. The default value of this property corresponds to Microsoft Word behavior, i.e. shapes with equation XML are not converted to Office math objects.
+You can use the [convert_shape_to_office_math](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/convert_shape_to_office_math/) property to convert the shapes with EquationXML to Office Math objects. The default value of this property corresponds to Microsoft Word behavior, i.e. shapes with equation XML are not converted to Office math objects.
 
 The following code example shows how to convert shapes to Office Math objects:
 
