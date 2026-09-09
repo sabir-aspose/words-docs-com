@@ -30,8 +30,6 @@ For simple conversion to HTML, MHTML, or EPUB, one of the [save](https://referen
 
 The following example shows how to convert DOCX to HTML with specifying a save format:
 
-**.NET**
-
 {{< gist "aspose-words-gists" "c5d01a71f65e540e5e77650b846b24cc" "docx-to-html.py" >}}
 
 To convert a document to MHTML or EPUB, use `aspose.words.SaveFormat.MHTML` or `aspose.words.SaveFormat.EPUB` respectively.

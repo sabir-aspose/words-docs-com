@@ -58,7 +58,7 @@ Editing a document usually does not count as a revision until you begin tracking
 
 {{% alert color="primary" %}}
 
-Note that the `StartTrackingRevisions` method does not change the status of the [track_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/track_revisions/) property and does not use its value for the aim of revision tracking. In addition, if a node was moved from one location to another inside the tracked document, then move revisions will be created, including move-from and move-to range.
+Note that the `start_track_revisions` method does not change the status of the [track_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/track_revisions/) property and does not use its value for the aim of revision tracking. In addition, if a node was moved from one location to another inside the tracked document, then move revisions will be created, including move-from and move-to range.
 
 {{% /alert %}}
 
@@ -68,7 +68,7 @@ All changes will be tracked for one iteration from the moment you start the proc
 
 {{% alert color="primary" %}}
 
-Note that the `AcceptAllRevisions` method is similar to the “Accept All Changes” in Microsoft Word.
+Note that the `accept_all_revisions` method is similar to the “Accept All Changes” in Microsoft Word.
 
 {{% /alert %}}
 

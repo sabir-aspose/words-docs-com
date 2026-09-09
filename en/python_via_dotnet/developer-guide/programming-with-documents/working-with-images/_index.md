@@ -117,7 +117,7 @@ The following code example shows how to save images as WMF with RTF save options
 - [`Shape`](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/)
 - [`ShapeBase`](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/)
 - [`ImageData`](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/image_data/)
-- [`NodeRendererBase.BoundsInPoints`](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/bounds_in_points/) 
+- [`NodeRendererBase.bounds_in_points`](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/bounds_in_points/) 
 
 ## FAQ
 

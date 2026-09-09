@@ -56,23 +56,23 @@ The following code example shows how to save a multi-page DOCX document as PNG i
 
 1. **Q:** How can I export only specific pages of a document to an image?  
    **A:** Use the `PageSet` property of `ImageSaveOptions`. For example:  
-   ```csharp
+   ```python
    options = aw.saving.ImageSaveOptions(aw.SaveFormat.JPEG)
-   options.page_set = aw.saving.PageSet(ranges=[aw.saving.PageRange(1, 2)])   // export pages 2-3, PageSet has zero-based index
+   options.page_set = aw.saving.PageSet(ranges=[aw.saving.PageRange(1, 2)])   # export pages 2-3, PageSet has zero-based index
    doc.save('SelectedPages.jpg', options)
    ```
 
 2. **Q:** How do I change the resolution (DPI) of the exported image?  
    **A:** Set the `vertical_resolution` or `horizontal_resolution` property on `ImageSaveOptions`. Higher DPI yields larger, higher‑quality images:  
-   ```csharp
+   ```python
    options = aw.saving.ImageSaveOptions(aw.SaveFormat.PNG)
-   options.horizontal_resolution = 72   // 72 DPI
+   options.horizontal_resolution = 72   # 72 DPI
    doc.save('HighRes.png', options)
    ```
 
 3. **Q:** Can I create a multi‑frame TIFF where each page is a separate frame?  
    **A:** Yes. Choose the `TiffFrames` layout and save using the TIFF format:  
-   ```csharp
+   ```python
    options = aw.saving.ImageSaveOptions(aw.SaveFormat.TIFF)
    options.page_layout = aw.saving.MultiPageLayout.tiff_frames()
    doc.save('MultiFrame.tiff', options)
@@ -83,7 +83,7 @@ The following code example shows how to save a multi-page DOCX document as PNG i
 
 5. **Q:** How can I customize the background and border of the layout?  
    **A:** Use the `back_color`, `border_color`, and `border_width` properties of the `page_layout` object:  
-   ```csharp
+   ```python
    options.page_layout.back_color = aspose.pydrawing.Color.white
    options.page_layout.border_color = aspose.pydrawing.Color.black
    options.page_layout.border_width = 1

@@ -33,7 +33,6 @@ To convert a document to Markdown, you just need to load a document in any suppo
 
 The following code example shows how to convert DOCX to Markdown:
 
-**.NET**
 {{< gist "aspose-words-gists" "461290170d82b0922d265fa7bc854942" "docx-to-markdown.py" >}}
 
 You can also specify the physical folder in which you want to save images when exporting a document to Markdown format. By default, Aspose.Words saves images in the same folder where the document file is saved, but you can override this behavior using the [images_folder](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/images_folder/) property.
@@ -44,7 +43,6 @@ If the specified **images_folder** does not exist, it will be created automatica
 
 The following code example shows how to specify a folder for images when saving a document to a stream:
 
-**.NET**
 {{< gist "aspose-words-gists" "461290170d82b0922d265fa7bc854942" "images-folder.py" >}}
 
 ## Specify Save Options when Converting to Markdown
@@ -70,12 +68,11 @@ Aspose.Words currently supports the following Markdown features, which mostly fo
 
 The following example shows how to create a document with some styles and save it to Markdown:
 
-**.NET**
 {{< gist "aspose-words-gists" "461290170d82b0922d265fa7bc854942" "supported-features.py" >}}
 
 The result of this code example is shown below.
 
-![markdown-example-aspose-words-net](markdown-example.png)
+![markdown-example-aspose-words-python](markdown-example.png)
 
 ## Useful Tips
 
@@ -87,21 +84,21 @@ There are several nuances and interesting cases, having learned which you can wo
 ## FAQ
 
 1. **Q:** How do I convert a document to Markdown using Aspose.Words for Python via .NET?  
-   **A:** Load the source document with `Document doc = new Document("source.docx");` and then call `doc.save("output.md", SaveFormat.MARKDOWN);`. The API automatically handles the conversion based on the file extensions.
+   **A:** Load the source document with `doc = aw.Document("source.docx")` and then call `doc.save("output.md", aw.SaveFormat.MARKDOWN)`. The API automatically handles the conversion based on the file extensions.
 
 2. **Q:** How can I control where images are saved when exporting to Markdown?  
    **A:** Create a `MarkdownSaveOptions` object, set its `images_folder` property to the desired path, and pass the options to `save`. Example:  
    ```python
-   MarkdownSaveOptions options = new MarkdownSaveOptions()
-   options.images_folder = "C:/ExportedImages" + "Images" 
+   options = aw.saving.MarkdownSaveOptions()
+   options.images_folder = "C:/ExportedImages"
    doc.save("output.md", options)
    ```
 
 3. **Q:** Is there a way to adjust the alignment of tables in the generated Markdown?  
-   **A:** Yes. Use the `table_content_alignment` property of `MarkdownSaveOptions`. Set it to `TableContentAlignment.LEFT`, `CENTER`, or `RIGHT` before saving.
+   **A:** Yes. Use the `table_content_alignment` property of `MarkdownSaveOptions`. Set it to `aw.saving.TableContentAlignment.LEFT`, `CENTER`, or `RIGHT` before saving.
 
 4. **Q:** Which heading styles are recognized when converting to Markdown?  
    **A:** Paragraphs styled with Heading 1 through Heading 6 are converted to Markdown headings (`#` to `######`). For multi‑line headings you can use the `SetextHeading` style, which maps to the Setext syntax.
 
 5. **Q:** Can I convert a Markdown file back to DOCX or PDF?  
-   **A:** Absolutely. Load the Markdown file using `LoadFormat.MARKDOWN` and then save it to any supported format, e.g., `doc.save("output.docx", SaveFormat.DOCX);` or `doc.save("output.pdf", SaveFormat.PDF);`.
+   **A:** Absolutely. Load the Markdown file using `aw.LoadFormat.MARKDOWN` and then save it to any supported format, e.g., `doc.save("output.docx", aw.SaveFormat.DOCX)` or `doc.save("output.pdf", aw.SaveFormat.PDF)`.

@@ -109,4 +109,4 @@ The following code example shows how to save a document to PCL using save option
    **A:** Use the `PclSaveOptions` class to control PCL‑specific settings, such as rasterizing transformed elements, setting the resolution, or specifying whether to embed fonts. Pass an instance of this class to `document.save(stream, pcl_save_options)`.
 
 5. **Q:** Is it possible to change the font size of the entire document while saving?  
-   **A:** Font size changes must be applied to the document’s content before calling `save`. You can iterate through all `Run` nodes, modify their `Font.Size` property, and then save the document in the desired format.
+   **A:** Font size changes must be applied to the document’s content before calling `save`. You can iterate through all `Run` nodes, modify their `Font.size` property, and then save the document in the desired format.

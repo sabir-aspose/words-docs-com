@@ -82,7 +82,7 @@ The following code example shows how to insert Check Boxes or HTML during Mail M
    **A:** Use `DocumentBuilder` to build a new `Document`, insert text input fields and merge fields with `insert_text_input` and `insert_field`. After constructing the template, return `builder.document` and save it or use it directly for a mail merge operation.
 
 2. **Q:** How do I define a Mail Merge region (start and end) in the template?  
-   **A:** Insert two merge fields that mark the region boundaries, e.g., `builder.insert_field("MERGEFIELD TableStart \\* MERGEFORMAT")` at the beginning and `builder.insert_field("MERGEFIELD TableEnd \\* MERGEFORMAT")` at the end. The region will be processed by `MailMerge.ExecuteWithRegions` using the same field names.
+   **A:** Insert two merge fields that mark the region boundaries, e.g., `builder.insert_field("MERGEFIELD TableStart \\* MERGEFORMAT")` at the beginning and `builder.insert_field("MERGEFIELD TableEnd \\* MERGEFORMAT")` at the end. The region will be processed by `MailMerge.execute_with_regions` using the same field names.
 
 3. **Q:** Can I use a Mustache template together with Aspose.Words Mail Merge?  
    **A:** Yes. Create the template as a Mustache file (e.g., `.mustache`), then load it with `aw.Document("template.mustache")`. After rendering the Mustache placeholders, perform the standard Mail Merge on the resulting document.

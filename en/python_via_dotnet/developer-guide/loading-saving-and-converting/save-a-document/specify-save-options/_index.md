@@ -98,7 +98,7 @@ The following code example shows how to save a black and white image with one bi
 - [HtmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/) — Save options for HTML/MHTML output.
 - [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) — Save options for Markdown output.
 - [XpsSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xpssaveoptions/) — Save options for XPS output.
-- [EpubSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/epubsaveoptions/) — Save options for EPUB output. 
+- [EpubSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/epubsaveoptions/) — Save options for EPUB output. 
 
 ## FAQ
 

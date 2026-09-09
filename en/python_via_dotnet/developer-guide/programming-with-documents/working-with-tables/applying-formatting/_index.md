@@ -44,9 +44,9 @@ Note that the table must have at least one row before the table properties can b
 
 The pictures below show a representation of the **Table** formatting features in Microsoft Word and their corresponding properties in Aspose.Words.
 
-![formattin-features-table-level-aspose-words-net](applying-formatting-1.png)
+![formattin-features-table-level-aspose-words-python](applying-formatting-1.png)
 
-![formatting-table-options-aspose-words-net](applying-formatting-2.png)
+![formatting-table-options-aspose-words-python](applying-formatting-2.png)
 
 The following code example shows how to apply an outline border to a table:
 
@@ -80,7 +80,7 @@ Note that a **Row** can only be a child node of a **Table**. At the same time, t
 
 The pictures below show a representation of the **Row** formatting features in Microsoft Word and their corresponding properties in Aspose.Words.
 
-![formatting-row-level-aspose-words-net](applying-formatting-3.png)
+![formatting-row-level-aspose-words-python](applying-formatting-3.png)
 
 The following code example shows how to modify the table row formatting:
 
@@ -106,9 +106,9 @@ In addition to the **Paragraph**, you can also insert a **Table** into a **Cell*
 
 The pictures below show a representation of the **Cell** formatting features in Microsoft Word and their corresponding properties in Aspose.Words.
 
-![formatting-cell-level-aspose-words-net](applying-formatting-4.png)
+![formatting-cell-level-aspose-words-python](applying-formatting-4.png)
 
-![auto-formatting-cell-level-aspose-words-net](applying-formatting-5.png)
+![auto-formatting-cell-level-aspose-words-python](applying-formatting-5.png)
 
 The following code example shows how to modify the formatting of a table cell:
 
@@ -186,7 +186,7 @@ The appropriate preferred width type and value are set using the methods of the 
 
 The pictures below show a representation of the *preferred width setting features* in Microsoft Word and their corresponding properties in Aspose.Words.
 
-![formatting-table-properties-aspose-words-net](applying-formatting-8.png)
+![formatting-table-properties-aspose-words-python](applying-formatting-8.png)
 
 An example of how these options are applied to a real table in a document can be seen in the picture below.
 
@@ -369,9 +369,9 @@ Borders and shading can be applied either to the entire table using [Table.SetBo
 
 The pictures below show the border and shadow settings in Microsoft Word and their corresponding properties in Aspose.Words.
 
-![formatting-border-line-aspose-words-net](applying-formatting-6.png)
+![formatting-border-line-aspose-words-python](applying-formatting-6.png)
 
-![formatting-cell-color-aspose-words-net](applying-formatting-7.png)
+![formatting-cell-color-aspose-words-python](applying-formatting-7.png)
 
 The following code example shows how to format a table and cell with different borders and shadings:
 
@@ -380,13 +380,13 @@ The following code example shows how to format a table and cell with different b
 ## FAQ
 
 1. **Q:** How can I add an outline border around the whole table?  
-   **A:** After the table contains at least one row, call `Table.SetBorder(BorderType.LINE, LineStyle.SINGLE, 1.0, Color.Black, True)` or use `Table.SetBorders()` to set the same border for all sides. The border is applied to the table node itself.
+   **A:** After the table contains at least one row, call `Table.set_border(BorderType.LINE, LineStyle.SINGLE, 1.0, Color.black, True)` or use `Table.set_borders()` to set the same border for all sides. The border is applied to the table node itself.
 
 2. **Q:** What is the recommended way to set a specific width for a table column or a single cell?  
-   **A:** Use the `PreferredWidth` property. For a column, set `Table.PreferredWidth = PreferredWidth.FromPercent(30)` (or `FromPoints(72)`). For an individual cell, set `CellFormat.PreferredWidth = PreferredWidth.FromPoints(100)`.
+   **A:** Use the `PreferredWidth` property. For a column, set `Table.preferred_width = PreferredWidth.from_percent(30)` (or `from_points(72)`). For an individual cell, set `CellFormat.preferred_width = PreferredWidth.from_points(100)`.
 
 3. **Q:** How do I make a table automatically fit to the page width or to its contents?  
-   **A:** Call `Table.AutoFit(AutoFitBehavior.AUTO_FIT_TO_WINDOW)` to fit the table to the page width, or `Table.AutoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)` to size columns based on the cell contents. You can also control this manually via `Table.AllowAutoFit` and `Table.PreferredWidth`.
+   **A:** Call `Table.auto_fit(AutoFitBehavior.AUTO_FIT_TO_WINDOW)` to fit the table to the page width, or `Table.auto_fit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS)` to size columns based on the cell contents. You can also control this manually via `Table.allow_auto_fit` and `Table.preferred_width`.
 
 4. **Q:** How can I add spacing between cells (cell spacing) in a table?  
    **A:** Set `Table.AllowCellSpacing = True` and then assign a value to `Table.CellSpacing = 5.0` (points). This inserts the same amount of space between all cells.

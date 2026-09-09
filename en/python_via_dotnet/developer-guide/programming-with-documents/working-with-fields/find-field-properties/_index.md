@@ -36,7 +36,7 @@ The following code example shows how to get names of all merge fields in a docum
 ## FAQ
 
 1. **Q:** How can I obtain the field code of a field inserted with `DocumentBuilder`?  
-   **A:** After inserting the field, the `InsertField` method returns a `Field` object. Call `field.get_field_code()` to retrieve the full field code string, which includes the field name and its switches.
+   **A:** After inserting the field, the `insert_field` method returns a `Field` object. Call `field.get_field_code()` to retrieve the full field code string, which includes the field name and its switches.
 
 2. **Q:** How do I read the result (displayed text) of a field?  
    **A:** Use the `field.result` property. It returns the evaluated result of the field as a string. For example, `field_result = field.result`.
