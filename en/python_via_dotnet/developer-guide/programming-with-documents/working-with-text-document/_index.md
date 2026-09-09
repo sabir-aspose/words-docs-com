@@ -95,7 +95,7 @@ The following code example shows how to export list levels using space character
    A: Use the `list_indentation` property of `TxtSaveOptions`. Create a `TxtListIndentation` object, specify the `character` (e.g., tab `"\t"` or space `" "` ) and the `count` (number of characters per level), then assign it to `options.list_indentation`.
 
 3. Q: Can I preserve leading and trailing spaces when loading a TXT file?  
-   A: Yes. Configure `TxtLoadOptions` with the appropriate `leading_spaces` and `trailing_spaces` settings (e.g., `Trim`, `Preserve`, or `ConvertToIndent`) before calling `Document.Load`.
+   A: Yes. Configure `TxtLoadOptions` with the appropriate `leading_spaces` and `trailing_spaces` settings (e.g., `Trim`, `Preserve`, or `ConvertToIndent`) before calling `Document.load`.
 
 4. Q: How do I make Aspose.Words detect the text direction (RTL or LTR) of a TXT document during import?  
    A: Set the `document_direction` property of `TxtLoadOptions` to `DocumentDirection.AUTO` (default) to let the library detect direction, or explicitly set it to `DocumentDirection.LEFT_TO_RIGHT` or `DocumentDirection.RIGHT_TO_LEFT` as needed.

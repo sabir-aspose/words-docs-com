@@ -34,7 +34,7 @@ The following code example shows how to insert column chart:
 
 The code produces the following result:
 
-![create-column-chart-aspose-words-net](working-with-charts-1.png)
+![create-column-chart-aspose-words-python](working-with-charts-1.png)
 
 There are four different overloads for series Add method, which was exposed to cover all possible variants of data sources for all chart types:
 
@@ -42,7 +42,7 @@ There are four different overloads for series Add method, which was exposed to c
 
 The code produces the following result:
 
-![create-column-chart-from-datasource-aspose-words-net](working-with-charts-2.png)
+![create-column-chart-from-datasource-aspose-words-python](working-with-charts-2.png)
 
 ### Insert Scatter Chart
 
@@ -52,7 +52,7 @@ The following code example shows how to insert a scatter chart:
 
 The code produces the following result:
 
-![scatter-chart-aspose-words-net](working-with-charts-3.png)
+![scatter-chart-aspose-words-python](working-with-charts-3.png)
 
 ### Insert Area Chart
 
@@ -62,7 +62,7 @@ The following code example shows how to insert an area chart:
 
 The code produces the following result:
 
-![area-chart-aspose-words-net](working-with-charts-4.png)
+![area-chart-aspose-words-python](working-with-charts-4.png)
 
 ### Insert Bubble Chart
 
@@ -72,7 +72,7 @@ The following code example shows how to insert a bubble chart:
 
 The code produces the following result:
 
-![bubble-chart-aspose-words-net](working-with-charts-5.png)
+![bubble-chart-aspose-words-python](working-with-charts-5.png)
 
 ## Working with Charts through Shape.chart Object
 
@@ -84,7 +84,7 @@ For example, let's change Chart title or legend behavior:
 
 The code generates the followings results:
 
-![line-chart-aspose-words-net](working-with-charts-6.png)
+![line-chart-aspose-words-python](working-with-charts-6.png)
 
 ## How to Work with ChartSeriesCollection of Chart
 
@@ -102,7 +102,7 @@ Here is how to work with a particular series:
 
 Please see the result below:
 
-![line-chart-chartseries-aspose-words-net](working-with-charts-7.png)
+![line-chart-chartseries-aspose-words-python](working-with-charts-7.png)
 
 All single [ChartSeries](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseries/) have default [ChartDataPoint](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatapoint/) options, please try using the following code to change them:
 
@@ -110,7 +110,7 @@ All single [ChartSeries](https://reference.aspose.com/words/python-net/aspose.wo
 
 Please see the result below:
 
-![line-chart-chartdatapoint-aspose-words-net](working-with-charts-8.png)
+![line-chart-chartdatapoint-aspose-words-python](working-with-charts-8.png)
 
 ## How to Work with Single ChartDataPoint of a `ChartSeries`
 
@@ -120,7 +120,7 @@ Using [ChartDataPoint](https://reference.aspose.com/words/python-net/aspose.word
 
 Please see the result below:
 
-![line-chart-datapoint-aspose-words-net](working-with-charts-9.png)
+![line-chart-datapoint-aspose-words-python](working-with-charts-9.png)
 
 ## How to Work with ChartDataLabel of a Single ChartSeries
 
@@ -130,7 +130,7 @@ Using [ChartDataLabel](https://reference.aspose.com/words/python-net/aspose.word
 
 Please see the result below:
 
-![bar-chart-aspose-words-net](working-with-charts-10.png)
+![bar-chart-aspose-words-python](working-with-charts-10.png)
 
 ## How to Define Default Options for ChartDataLabels of ChartSeries
 
@@ -140,7 +140,7 @@ The [ChartDataLabelCollection](https://reference.aspose.com/words/python-net/asp
 
 Please see the result below:
 
-![pie-chart-aspose-words-net](working-with-charts-11.png)
+![pie-chart-aspose-words-python](working-with-charts-11.png)
 
 ## How to Format Number of Chart Data Label
 
